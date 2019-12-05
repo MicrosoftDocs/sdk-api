@@ -1,19 +1,17 @@
 ---
 UID: NE:documenttarget.PrintDocumentPackageCompletion
 title: PrintDocumentPackageCompletion (documenttarget.h)
-
 description: The PrintDocumentPackageCompletion enumeration specifies the status of the print operation.
 old-location: xps\printdocumentpackagecompletion.htm
 tech.root: printdocs
 ms.assetid: E8E1F5D3-8CA2-406A-B969-7F5C6F13E064
-
 ms.date: 12/05/2018
 ms.keywords: PrintDocumentPackageCompletion, PrintDocumentPackageCompletion enumeration [XPS Documents and Packaging], PrintDocumentPackageCompletion_Canceled, PrintDocumentPackageCompletion_Completed, PrintDocumentPackageCompletion_Failed, PrintDocumentPackageCompletion_InProgress, documenttarget/PrintDocumentPackageCompletion, documenttarget/PrintDocumentPackageCompletion_Canceled, documenttarget/PrintDocumentPackageCompletion_Completed, documenttarget/PrintDocumentPackageCompletion_Failed, documenttarget/PrintDocumentPackageCompletion_InProgress, xps.printdocumentpackagecompletion
 ms.topic: enum
-f1_keywords: 
- - "documenttarget/PrintDocumentPackageCompletion"
+f1_keywords:
+- documenttarget/PrintDocumentPackageCompletion
 dev_langs:
- - c++
+- c++
 req.header: documenttarget.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Documenttarget.h
+- Documenttarget.h
 api_name:
- - PrintDocumentPackageCompletion
+- PrintDocumentPackageCompletion
 targetos: Windows
 req.typenames: PrintDocumentPackageCompletion
 req.redist: 

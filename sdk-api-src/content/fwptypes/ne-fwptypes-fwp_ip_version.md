@@ -1,19 +1,17 @@
 ---
 UID: NE:fwptypes.FWP_IP_VERSION_
 title: FWP_IP_VERSION (fwptypes.h)
-
 description: Specifies the IP version.
 old-location: fwp\fwp_ip_version_enum.htm
 tech.root: fwp
 ms.assetid: 1712b83c-f32d-4981-9950-ab870a376182
-
 ms.date: 12/05/2018
 ms.keywords: FWP_IP_VERSION, FWP_IP_VERSION enumeration [Filtering], FWP_IP_VERSION_MAX, FWP_IP_VERSION_NONE, FWP_IP_VERSION_V4, FWP_IP_VERSION_V6, fwp.fwp_ip_version_enum, fwptypes/FWP_IP_VERSION, fwptypes/FWP_IP_VERSION_MAX, fwptypes/FWP_IP_VERSION_NONE, fwptypes/FWP_IP_VERSION_V4, fwptypes/FWP_IP_VERSION_V6
 ms.topic: enum
-f1_keywords: 
- - "fwptypes/FWP_IP_VERSION"
+f1_keywords:
+- fwptypes/FWP_IP_VERSION
 dev_langs:
- - c++
+- c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwptypes.h
+- Fwptypes.h
 api_name:
- - FWP_IP_VERSION
+- FWP_IP_VERSION
 targetos: Windows
 req.typenames: FWP_IP_VERSION
 req.redist: 

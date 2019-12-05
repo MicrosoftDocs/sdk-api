@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetTimeFormat
 title: IOpcSigningOptions::GetTimeFormat (msopc.h)
-
 description: Gets the format of the string retrieved by the IOpcDigitalSignature::GetSigningTime method.
 old-location: opc\iopcsigningoptions_gettimeformat.htm
 tech.root: OPC
 ms.assetid: 69394df9-5382-49eb-9aa2-0785dee10ac4
-
 ms.date: 12/05/2018
 ms.keywords: GetTimeFormat, GetTimeFormat method [Open Packaging Conventions], GetTimeFormat method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetTimeFormat method, IOpcSigningOptions.GetTimeFormat, IOpcSigningOptions::GetTimeFormat, msopc/IOpcSigningOptions::GetTimeFormat, opc.iopcsigningoptions_gettimeformat
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSigningOptions.GetTimeFormat"
+f1_keywords:
+- msopc/IOpcSigningOptions.GetTimeFormat
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSigningOptions.GetTimeFormat
+- IOpcSigningOptions.GetTimeFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

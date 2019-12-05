@@ -1,19 +1,17 @@
 ---
 UID: NF:ktmw32.RecoverTransactionManager
 title: RecoverTransactionManager function (ktmw32.h)
-
 description: Recovers a transaction manager's state from its log file.
 old-location: fs\recovertransactionmanager.htm
 tech.root: ktm
 ms.assetid: 6f217ebb-3423-41d3-acff-eb21838c9751
-
 ms.date: 12/05/2018
 ms.keywords: RecoverTransactionManager, RecoverTransactionManager function [Files], fs.recovertransactionmanager, ktmw32/RecoverTransactionManager
 ms.topic: function
-f1_keywords: 
- - "ktmw32/RecoverTransactionManager"
+f1_keywords:
+- ktmw32/RecoverTransactionManager
 dev_langs:
- - c++
+- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ktmw32.lib
 req.dll: Ktmw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ktmw32.dll
+- Ktmw32.dll
 api_name:
- - RecoverTransactionManager
+- RecoverTransactionManager
 targetos: Windows
 req.typenames: 
 req.redist: 

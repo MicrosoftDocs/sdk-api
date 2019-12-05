@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataHandlerInfo.GetDeviceManufacturer
 title: IWICMetadataHandlerInfo::GetDeviceManufacturer (wincodecsdk.h)
-
 description: Retrieves the device manufacturer of the metadata handler.
 old-location: wic\_wic_codec_iwicmetadatahandlerinfo_getdevicemanufacturer.htm
 tech.root: wic
 ms.assetid: ab3cd583-055d-4414-a615-600e4c67dcc4
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceManufacturer, GetDeviceManufacturer method [Windows Imaging Component], GetDeviceManufacturer method [Windows Imaging Component],IWICMetadataHandlerInfo interface, IWICMetadataHandlerInfo interface [Windows Imaging Component],GetDeviceManufacturer method, IWICMetadataHandlerInfo.GetDeviceManufacturer, IWICMetadataHandlerInfo::GetDeviceManufacturer, _wic_codec_iwicmetadatahandlerinfo_getdevicemanufacturer, wic._wic_codec_iwicmetadatahandlerinfo_getdevicemanufacturer, wincodecsdk/IWICMetadataHandlerInfo::GetDeviceManufacturer
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICMetadataHandlerInfo.GetDeviceManufacturer"
+f1_keywords:
+- wincodecsdk/IWICMetadataHandlerInfo.GetDeviceManufacturer
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataHandlerInfo.GetDeviceManufacturer
+- IWICMetadataHandlerInfo.GetDeviceManufacturer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.SetDeviceFontName
 title: IXpsOMGlyphsEditor::SetDeviceFontName (xpsobjectmodel.h)
-
 description: Sets the name of the device font.
 old-location: xps\ixpsomglyphseditor_setdevicefontname.htm
 tech.root: printdocs
 ms.assetid: d580f768-0c6a-4799-8ad8-d6f73b9216b9
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetDeviceFontName method, IXpsOMGlyphsEditor.SetDeviceFontName, IXpsOMGlyphsEditor::SetDeviceFontName, SetDeviceFontName, SetDeviceFontName method [XPS Documents and Packaging], SetDeviceFontName method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, xps.ixpsomglyphseditor_setdevicefontname, xpsobjectmodel/IXpsOMGlyphsEditor::SetDeviceFontName
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGlyphsEditor.SetDeviceFontName"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGlyphsEditor.SetDeviceFontName
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphsEditor.SetDeviceFontName
+- IXpsOMGlyphsEditor.SetDeviceFontName
 targetos: Windows
 req.typenames: 
 req.redist: 

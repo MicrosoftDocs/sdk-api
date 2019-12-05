@@ -1,19 +1,17 @@
 ---
 UID: NN:ocidl.IViewObjectEx
 title: IViewObjectEx (ocidl.h)
-
 description: An extension derived from IViewObject2 to provide support for Enhanced, flicker-free drawing for non-rectangular objects and transparent objects, hit testing for non-rectangular objects, and Control sizing
 old-location: com\iviewobjectex.htm
 tech.root: com
 ms.assetid: 4e677ec6-9c9e-4ee7-bb7f-1df6e590319b
-
 ms.date: 12/05/2018
 ms.keywords: IViewObjectEx, IViewObjectEx interface [COM], IViewObjectEx interface [COM],described, _ole_iviewobjectex, com.iviewobjectex, ocidl/IViewObjectEx
 ms.topic: interface
-f1_keywords: 
- - "ocidl/IViewObjectEx"
+f1_keywords:
+- ocidl/IViewObjectEx
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IViewObjectEx
+- IViewObjectEx
 targetos: Windows
 req.typenames: 
 req.redist: 

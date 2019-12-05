@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.Verify
 title: IX509PrivateKey::Verify (certenroll.h)
-
 description: Verifies that a private key exists and can be used by the client but does not open the key.
 old-location: security\ix509privatekey_verify.htm
 tech.root: seccertenroll
 ms.assetid: 4a792c39-71a7-4289-854d-98e6f749a526
-
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],Verify method, IX509PrivateKey.Verify, IX509PrivateKey::Verify, Verify, Verify method [Security], Verify method [Security],IX509PrivateKey interface, VerifyAllowUI, VerifyNone, VerifySilent, VerifySmartCardNone, VerifySmartCardSilent, certenroll/IX509PrivateKey::Verify, security.ix509privatekey_verify
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PrivateKey.Verify"
+f1_keywords:
+- certenroll/IX509PrivateKey.Verify
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PrivateKey.Verify
+- IX509PrivateKey.Verify
 targetos: Windows
 req.typenames: 
 req.redist: 

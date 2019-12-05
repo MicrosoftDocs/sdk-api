@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IHeaderCtrl
 title: IHeaderCtrl (mmc.h)
-
 description: Enables the manipulation of columns and indicates the kind of information that is to be presented in the result view pane of the console.
 old-location: mmc\iheaderctrl.htm
 tech.root: mmc
 ms.assetid: 8F7ACE7E-4B44-448A-A3BB-4563DDC9C34E
-
 ms.date: 12/05/2018
 ms.keywords: IHeaderCtrl, IHeaderCtrl interface [MMC], IHeaderCtrl interface [MMC],described, mmc.iheaderctrl, mmc/IHeaderCtrl
 ms.topic: interface
-f1_keywords: 
- - "mmc/IHeaderCtrl"
+f1_keywords:
+- mmc/IHeaderCtrl
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IHeaderCtrl
+- IHeaderCtrl
 targetos: Windows
 req.typenames: 
 req.redist: 

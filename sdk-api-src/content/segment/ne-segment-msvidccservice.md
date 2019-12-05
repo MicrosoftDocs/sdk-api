@@ -1,19 +1,17 @@
 ---
 UID: NE:segment.MSVidCCService
 title: MSVidCCService (segment.h)
-
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\msvidccservice.htm
 tech.root: mstv
 ms.assetid: 19e6a389-7f5b-40b9-a7e6-e90060e6d7d5
-
 ms.date: 12/05/2018
 ms.keywords: Caption1, Caption2, MSVidCCService, MSVidCCService enumeration [Microsoft TV Technologies], MSVidCCServiceEnumeration, None, Text1, Text2, XDS, mstv.msvidccservice, segment/Caption1, segment/Caption2, segment/MSVidCCService, segment/None, segment/Text1, segment/Text2, segment/XDS
 ms.topic: enum
-f1_keywords: 
- - "segment/MSVidCCService"
+f1_keywords:
+- segment/MSVidCCService
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - segment.h
+- segment.h
 api_name:
- - MSVidCCService
+- MSVidCCService
 targetos: Windows
 req.typenames: MSVidCCService
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidAudioRendererDevices
 title: IMSVidAudioRendererDevices (segment.h)
-
 description: The IMSVidAudioRendererDevices interface represents a collection of audio renderers. Applications can use this interface to enumerate the collection. The MSVidAudioRendererDevices object exposes this method.
 old-location: mstv\imsvidaudiorendererdevices.htm
 tech.root: mstv
 ms.assetid: 2cf03260-7abe-4602-8364-447d076a4f76
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidAudioRendererDevices, IMSVidAudioRendererDevices interface [Microsoft TV Technologies], IMSVidAudioRendererDevices interface [Microsoft TV Technologies],described, IMSVidAudioRendererDevicesInterface, mstv.imsvidaudiorendererdevices, segment/IMSVidAudioRendererDevices
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidAudioRendererDevices"
+f1_keywords:
+- segment/IMSVidAudioRendererDevices
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidAudioRendererDevices
+- IMSVidAudioRendererDevices
 targetos: Windows
 req.typenames: 
 req.redist: 

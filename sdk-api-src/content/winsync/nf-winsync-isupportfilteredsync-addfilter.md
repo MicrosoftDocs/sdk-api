@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISupportFilteredSync.AddFilter
 title: ISupportFilteredSync::AddFilter (winsync.h)
-
 description: Sets the filter that is used for change enumeration by the source provider, when implemented by a derived class.
 old-location: winsync\isupportfilteredsync_addfilter.htm
 tech.root: winsync
 ms.assetid: 00a533fa-2a91-46e8-9754-af162a5e59ec
-
 ms.date: 12/05/2018
 ms.keywords: AddFilter, AddFilter method [Windows Sync], AddFilter method [Windows Sync],ISupportFilteredSync interface, ISupportFilteredSync interface [Windows Sync],AddFilter method, ISupportFilteredSync.AddFilter, ISupportFilteredSync::AddFilter, winsync.isupportfilteredsync_addfilter, winsync/ISupportFilteredSync::AddFilter
 ms.topic: method
-f1_keywords: 
- - "winsync/ISupportFilteredSync.AddFilter"
+f1_keywords:
+- winsync/ISupportFilteredSync.AddFilter
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISupportFilteredSync.AddFilter
+- ISupportFilteredSync.AddFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.UrlGetLocationA
 title: UrlGetLocationA function (shlwapi.h)
-
 description: Retrieves the location from a URL.
 old-location: shell\UrlGetLocation.htm
 tech.root: shell
 ms.assetid: e75bde92-2ca0-4d34-a276-50b4eeceda1c
-
 ms.date: 12/05/2018
 ms.keywords: UrlGetLocation, UrlGetLocation function [Windows Shell], UrlGetLocationA, UrlGetLocationW, _win32_UrlGetLocation, shell.UrlGetLocation, shlwapi/UrlGetLocation, shlwapi/UrlGetLocationA, shlwapi/UrlGetLocationW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/UrlGetLocation"
+f1_keywords:
+- shlwapi/UrlGetLocation
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-url-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-url-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - UrlGetLocation
- - UrlGetLocationA
- - UrlGetLocationW
+- UrlGetLocation
+- UrlGetLocationA
+- UrlGetLocationW
 targetos: Windows
 req.typenames: 
 req.redist: 

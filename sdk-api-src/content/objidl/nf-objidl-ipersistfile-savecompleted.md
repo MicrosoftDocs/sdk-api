@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IPersistFile.SaveCompleted
 title: IPersistFile::SaveCompleted (objidl.h)
-
 description: Notifies the object that it can write to its file.
 old-location: com\ipersistfile_savecompleted.htm
 tech.root: com
 ms.assetid: eda29981-0c24-409a-8fb9-2dc2eb96d108
-
 ms.date: 12/05/2018
 ms.keywords: IPersistFile interface [COM],SaveCompleted method, IPersistFile.SaveCompleted, IPersistFile::SaveCompleted, SaveCompleted, SaveCompleted method [COM], SaveCompleted method [COM],IPersistFile interface, _com_ipersistfile_savecompleted, com.ipersistfile_savecompleted, objidl/IPersistFile::SaveCompleted
 ms.topic: method
-f1_keywords: 
- - "objidl/IPersistFile.SaveCompleted"
+f1_keywords:
+- objidl/IPersistFile.SaveCompleted
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IPersistFile.SaveCompleted
+- IPersistFile.SaveCompleted
 targetos: Windows
 req.typenames: 
 req.redist: 

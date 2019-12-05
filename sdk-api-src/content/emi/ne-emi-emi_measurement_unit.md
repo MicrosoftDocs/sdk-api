@@ -1,19 +1,17 @@
 ---
 UID: NE:emi.__unnamed_enum_0
 title: EMI_MEASUREMENT_UNIT (emi.h)
-
 description: The EMI_MEASUREMENT_UNIT enumeration represents the available units of energy measurements that can be retrieved from a device by using IOCTL_EMI_GET_MEASUREMENT.
 old-location: powermeter\emi_measurement_unit.htm
 tech.root: powermeter
 ms.assetid: 02152942-A024-4D53-962A-A2ECF7E7D50C
-
 ms.date: 12/05/2018
 ms.keywords: EMI_MEASUREMENT_UNIT, EMI_MEASUREMENT_UNIT enumeration [Power Metering and Budgeting Devices], EmiMeasurementUnitPicowattHours, emi/EMI_MEASUREMENT_UNIT, emi/EmiMeasurementUnitPicowattHours, powermeter.emi_measurement_unit
 ms.topic: enum
-f1_keywords: 
- - "emi/EMI_MEASUREMENT_UNIT"
+f1_keywords:
+- emi/EMI_MEASUREMENT_UNIT
 dev_langs:
- - c++
+- c++
 req.header: emi.h
 req.include-header: Emi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - emi.h
+- emi.h
 api_name:
- - EMI_MEASUREMENT_UNIT
+- EMI_MEASUREMENT_UNIT
 targetos: Windows
 req.typenames: EMI_MEASUREMENT_UNIT
 req.redist: 

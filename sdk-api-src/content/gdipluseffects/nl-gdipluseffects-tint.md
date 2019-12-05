@@ -1,19 +1,17 @@
 ---
 UID: NL:gdipluseffects.Tint
 title: Tint (gdipluseffects.h)
-
 description: The Tint class enables you to apply a tint to a bitmap.
 old-location: gdiplus\_gdiplus_CLASS_Tint_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\tint.htm
-
 ms.date: 12/05/2018
 ms.keywords: Tint, Tint class [GDI+], Tint class [GDI+],described, _gdiplus_CLASS_Tint_Class, gdiplus._gdiplus_CLASS_Tint_Class, gdipluseffects/Tint
 ms.topic: class
-f1_keywords: 
- - "gdipluseffects/Tint"
+f1_keywords:
+- gdipluseffects/Tint
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdipluseffects.h
+- gdipluseffects.h
 api_name:
- - Tint
+- Tint
 targetos: Windows
 req.typenames: 
 req.redist: 

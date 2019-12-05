@@ -5,10 +5,10 @@ description: Contains information related to an ongoing MDNS query. Your applica
 ms.date: 02/19/2019
 ms.keywords: _MDNS_QUERY_HANDLE, MDNS_QUERY_HANDLE
 ms.topic: language-reference
-f1_keywords: 
- - "windns/_MDNS_QUERY_HANDLE"
+f1_keywords:
+- windns/_MDNS_QUERY_HANDLE
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: structure
@@ -31,14 +31,14 @@ req.typenames: MDNS_QUERY_HANDLE, *PMDNS_QUERY_HANDLE
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - windns.h
+- windns.h
 api_name:
- - _MDNS_QUERY_HANDLE
- - MDNS_QUERY_HANDLE
+- _MDNS_QUERY_HANDLE
+- MDNS_QUERY_HANDLE
 ms.custom: 19H1
 ---
 

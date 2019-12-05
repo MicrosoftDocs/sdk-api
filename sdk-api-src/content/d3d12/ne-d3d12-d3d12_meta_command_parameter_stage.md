@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_META_COMMAND_PARAMETER_STAGE
 title: D3D12_META_COMMAND_PARAMETER_STAGE (d3d12.h)
-
 description: Defines constants that specify the stage of a parameter to a meta command.
 old-location: direct3d12\d3d12_meta_command_parameter_stage.htm
 tech.root: direct3d12
 ms.assetid: 1A3278EE-5D46-4E18-9F10-47001506C3DC
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_META_COMMAND_PARAMETER_STAGE, D3D12_META_COMMAND_PARAMETER_STAGE enumeration, D3D12_META_COMMAND_PARAMETER_STAGE_CREATION, D3D12_META_COMMAND_PARAMETER_STAGE_EXECUTION, D3D12_META_COMMAND_PARAMETER_STAGE_INITIALIZATION, d3d12/D3D12_META_COMMAND_PARAMETER_STAGE, d3d12/D3D12_META_COMMAND_PARAMETER_STAGE_CREATION, d3d12/D3D12_META_COMMAND_PARAMETER_STAGE_EXECUTION, d3d12/D3D12_META_COMMAND_PARAMETER_STAGE_INITIALIZATION, direct3d12.d3d12_meta_command_parameter_stage
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_META_COMMAND_PARAMETER_STAGE"
+f1_keywords:
+- d3d12/D3D12_META_COMMAND_PARAMETER_STAGE
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_META_COMMAND_PARAMETER_STAGE
+- D3D12_META_COMMAND_PARAMETER_STAGE
 targetos: Windows
 req.typenames: D3D12_META_COMMAND_PARAMETER_STAGE
 req.redist: 

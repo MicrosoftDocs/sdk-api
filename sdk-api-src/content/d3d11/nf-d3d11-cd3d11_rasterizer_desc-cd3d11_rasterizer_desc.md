@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.CD3D11_RASTERIZER_DESC.CD3D11_RASTERIZER_DESC
 title: CD3D11_RASTERIZER_DESC::CD3D11_RASTERIZER_DESC (d3d11.h)
-
 description: Instantiates a new instance of an uninitialized CD3D11_RASTERIZER_DESC structure.
 old-location: 
 tech.root: direct3d11
 ms.assetid: E970A6F1-51F8-4908-9D21-F4EC805884BF
-
 ms.date: 05/06/2019
 ms.keywords: CD3D11_RASTERIZER_DESC, CD3D11_RASTERIZER_DESC constructor [Direct3D 11], CD3D11_RASTERIZER_DESC constructor [Direct3D 11],CD3D11_RASTERIZER_DESC interface, CD3D11_RASTERIZER_DESC interface [Direct3D 11],CD3D11_RASTERIZER_DESC constructor, CD3D11_RASTERIZER_DESC.CD3D11_RASTERIZER_DESC, CD3D11_RASTERIZER_DESC::CD3D11_RASTERIZER_DESC, CD3D11_RASTERIZER_DESC::CD3D11_RASTERIZER_DESC(CD3D11_DEFAULT), d3d11/CD3D11_RASTERIZER_DESC::CD3D11_RASTERIZER_DESC, direct3d11.cd3d11_rasterizer_desc_cd3d11_rasterizer_desc_cd3d11_default_
 ms.topic: method
-f1_keywords: 
- - "d3d11/CD3D11_RASTERIZER_DESC.CD3D11_RASTERIZER_DESC"
+f1_keywords:
+- d3d11/CD3D11_RASTERIZER_DESC.CD3D11_RASTERIZER_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - CD3D11_RASTERIZER_DESC.CD3D11_RASTERIZER_DESC
+- CD3D11_RASTERIZER_DESC.CD3D11_RASTERIZER_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 

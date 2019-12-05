@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_4.IDXGIOutput4.CheckOverlayColorSpaceSupport
 title: IDXGIOutput4::CheckOverlayColorSpaceSupport (dxgi1_4.h)
-
 description: Checks for overlay color space support.
 old-location: direct3ddxgi\idxgioutput4_checkoverlaycolorspacesupport.htm
 tech.root: direct3ddxgi
 ms.assetid: C9F582EA-DB16-4FF3-B7BD-ACEA019FF7D4
-
 ms.date: 12/05/2018
 ms.keywords: CheckOverlayColorSpaceSupport, CheckOverlayColorSpaceSupport method [DXGI], CheckOverlayColorSpaceSupport method [DXGI],IDXGIOutput4 interface, IDXGIOutput4 interface [DXGI],CheckOverlayColorSpaceSupport method, IDXGIOutput4.CheckOverlayColorSpaceSupport, IDXGIOutput4::CheckOverlayColorSpaceSupport, direct3ddxgi.idxgioutput4_checkoverlaycolorspacesupport, dxgi1_4/IDXGIOutput4::CheckOverlayColorSpaceSupport
 ms.topic: method
-f1_keywords: 
- - "dxgi1_4/IDXGIOutput4.CheckOverlayColorSpaceSupport"
+f1_keywords:
+- dxgi1_4/IDXGIOutput4.CheckOverlayColorSpaceSupport
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_4.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIOutput4.CheckOverlayColorSpaceSupport
+- IDXGIOutput4.CheckOverlayColorSpaceSupport
 targetos: Windows
 req.typenames: 
 req.redist: 

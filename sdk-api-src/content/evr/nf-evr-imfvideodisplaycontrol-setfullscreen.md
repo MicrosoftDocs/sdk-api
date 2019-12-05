@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.SetFullscreen
 title: IMFVideoDisplayControl::SetFullscreen (evr.h)
-
 description: Sets or unsets full-screen rendering mode.
 old-location: mf\imfvideodisplaycontrol_setfullscreen.htm
 tech.root: medfound
 ms.assetid: 95c85fb2-9267-477f-aa47-1c050ccc1bdd
-
 ms.date: 12/05/2018
 ms.keywords: 95c85fb2-9267-477f-aa47-1c050ccc1bdd, IMFVideoDisplayControl interface [Media Foundation],SetFullscreen method, IMFVideoDisplayControl.SetFullscreen, IMFVideoDisplayControl::SetFullscreen, SetFullscreen, SetFullscreen method [Media Foundation], SetFullscreen method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetFullscreen, mf.imfvideodisplaycontrol_setfullscreen
 ms.topic: method
-f1_keywords: 
- - "evr/IMFVideoDisplayControl.SetFullscreen"
+f1_keywords:
+- evr/IMFVideoDisplayControl.SetFullscreen
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoDisplayControl.SetFullscreen
+- IMFVideoDisplayControl.SetFullscreen
 targetos: Windows
 req.typenames: 
 req.redist: 

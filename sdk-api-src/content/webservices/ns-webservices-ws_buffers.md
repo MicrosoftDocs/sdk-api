@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_BUFFERS
 title: WS_BUFFERS (webservices.h)
-
 description: A structure used to represent a discontiguous array of WS_BYTES.
 old-location: wsw\ws_buffers.htm
 tech.root: wsw
 ms.assetid: 17ea7ba4-42d4-41a0-8982-a44518199ea8
-
 ms.date: 12/05/2018
 ms.keywords: WS_BUFFERS, WS_BUFFERS structure [Web Services for Windows], webservices/WS_BUFFERS, wsw.ws_buffers
 ms.topic: struct
 f1_keywords:
 - webservices/WS_BUFFERS
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetImpersonationType
 title: MI_DestinationOptions_SetImpersonationType function (mi.h)
-
 description: Sets the impersonation type.
 old-location: wmi_v2\mi_destinationoptions_setimpersonationtype.htm
 tech.root: wmi_v2
 ms.assetid: f52370cb-b26c-4f0f-9869-1207c906e4e8
-
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_SetImpersonationType, MI_DestinationOptions_SetImpersonationType function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetImpersonationType, wmi_v2.mi_destinationoptions_setimpersonationtype
 ms.topic: function
 f1_keywords:
 - mi/MI_DestinationOptions_SetImpersonationType
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

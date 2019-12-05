@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.streaming.IDeviceController.remove_DeviceDeparture
 title: IDeviceController::streaming (windows.media.streaming.h)
-
 description: Unregisters an event handler for the DeviceDeparture event.
 old-location: mediastreaming\idevicecontroller_remove_devicedeparture.htm
 tech.root: mediastreaming
 ms.assetid: 42C7E011-ABC8-493E-853A-0925D2A94118
-
 ms.date: 12/05/2018
 ms.keywords: IDeviceController interface [Media Streaming API],remove_DeviceDeparture method, IDeviceController.remove_DeviceDeparture, IDeviceController.streaming, IDeviceController::remove_DeviceDeparture, IDeviceController::streaming, mediastreaming.idevicecontroller_remove_devicedeparture, remove_DeviceDeparture, remove_DeviceDeparture method [Media Streaming API], remove_DeviceDeparture method [Media Streaming API],IDeviceController interface, windows/IDeviceController::remove_DeviceDeparture
 ms.topic: method
-f1_keywords: 
- - "windows.media.streaming/IDeviceController.remove_DeviceDeparture"
+f1_keywords:
+- windows.media.streaming/IDeviceController.remove_DeviceDeparture
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.media.streaming.h
+- windows.media.streaming.h
 api_name:
- - IDeviceController.remove_DeviceDeparture
+- IDeviceController.remove_DeviceDeparture
 targetos: Windows
 req.typenames: 
 req.redist: 

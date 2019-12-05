@@ -1,19 +1,17 @@
 ---
 UID: NN:audioendpoints.IAudioEndpointFormatControl
 title: IAudioEndpointFormatControl (audioendpoints.h)
-
 description: Used for resetting the current audio endpoint device format.
 old-location: coreaudio\iaudioendpointformatcontrol.htm
 tech.root: CoreAudio
 ms.assetid: 7FF7DCF2-0580-4B50-8EA9-87DB9478B1E8
-
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointFormatControl, IAudioEndpointFormatControl interface [Core Audio], IAudioEndpointFormatControl interface [Core Audio],described, audioendpoints/IAudioEndpointFormatControl, coreaudio.iaudioendpointformatcontrol
 ms.topic: interface
-f1_keywords: 
- - "audioendpoints/IAudioEndpointFormatControl"
+f1_keywords:
+- audioendpoints/IAudioEndpointFormatControl
 dev_langs:
- - c++
+- c++
 req.header: audioendpoints.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AudioEndpoints.h
+- AudioEndpoints.h
 api_name:
- - IAudioEndpointFormatControl
+- IAudioEndpointFormatControl
 targetos: Windows
 req.typenames: 
 req.redist: 

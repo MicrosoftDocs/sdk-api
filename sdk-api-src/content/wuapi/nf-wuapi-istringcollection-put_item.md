@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IStringCollection.put_Item
 title: IStringCollection::put_Item (wuapi.h)
-
 description: Gets or sets a string in the collection.
 old-location: wua\istringcollection_item.htm
 tech.root: Wua_Sdk
 ms.assetid: ae92e856-ed3c-4745-827b-a5bb8e2f5938
-
 ms.date: 12/05/2018
 ms.keywords: IStringCollection interface [Windows Update Agent],Item property, IStringCollection.Item, IStringCollection.put_Item, IStringCollection::Item, IStringCollection::get_Item, IStringCollection::put_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],IStringCollection interface, put_Item, wua.istringcollection_item, wuapi/IStringCollection::Item, wuapi/IStringCollection::get_Item, wuapi/IStringCollection::put_Item
 ms.topic: method
-f1_keywords: 
- - "wuapi/IStringCollection.Item"
+f1_keywords:
+- wuapi/IStringCollection.Item
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IStringCollection.Item
- - IStringCollection.get_Item
- - IStringCollection.put_Item
+- IStringCollection.Item
+- IStringCollection.get_Item
+- IStringCollection.put_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

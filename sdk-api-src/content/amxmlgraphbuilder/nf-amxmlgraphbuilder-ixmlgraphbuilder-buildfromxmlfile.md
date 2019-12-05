@@ -1,19 +1,17 @@
 ---
 UID: NF:amxmlgraphbuilder.IXMLGraphBuilder.BuildFromXMLFile
 title: IXMLGraphBuilder::BuildFromXMLFile (amxmlgraphbuilder.h)
-
 description: The BuildFromXMLFile method loads a filter graph from an XML file.
 old-location: dshow\ixmlgraphbuilder_buildfromxmlfile.htm
 tech.root: DirectShow
 ms.assetid: 238a3077-0f04-44bb-a6ac-b532ef97c315
-
 ms.date: 12/05/2018
 ms.keywords: BuildFromXMLFile, BuildFromXMLFile method [DirectShow], BuildFromXMLFile method [DirectShow],IXMLGraphBuilder interface, IXMLGraphBuilder interface [DirectShow],BuildFromXMLFile method, IXMLGraphBuilder.BuildFromXMLFile, IXMLGraphBuilder::BuildFromXMLFile, IXMLGraphBuilderBuildFromXMLFile, amxmlgraphbuilder/IXMLGraphBuilder::BuildFromXMLFile, dshow.ixmlgraphbuilder_buildfromxmlfile
 ms.topic: method
-f1_keywords: 
- - "amxmlgraphbuilder/IXMLGraphBuilder.BuildFromXMLFile"
+f1_keywords:
+- amxmlgraphbuilder/IXMLGraphBuilder.BuildFromXMLFile
 dev_langs:
- - c++
+- c++
 req.header: amxmlgraphbuilder.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amxmlgraphbuilder.h
+- amxmlgraphbuilder.h
 api_name:
- - IXMLGraphBuilder.BuildFromXMLFile
+- IXMLGraphBuilder.BuildFromXMLFile
 targetos: Windows
 req.typenames: 
 req.redist: 

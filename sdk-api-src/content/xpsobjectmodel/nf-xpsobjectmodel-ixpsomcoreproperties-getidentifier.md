@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetIdentifier
 title: IXpsOMCoreProperties::GetIdentifier (xpsobjectmodel.h)
-
 description: Gets the identifier property.
 old-location: xps\ixpsomcoreproperties_getidentifier.htm
 tech.root: printdocs
 ms.assetid: a397fba0-4e73-4f5b-b292-529a222c2501
-
 ms.date: 12/05/2018
 ms.keywords: GetIdentifier, GetIdentifier method [XPS Documents and Packaging], GetIdentifier method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetIdentifier method, IXpsOMCoreProperties.GetIdentifier, IXpsOMCoreProperties::GetIdentifier, xps.ixpsomcoreproperties_getidentifier, xpsobjectmodel/IXpsOMCoreProperties::GetIdentifier
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCoreProperties.GetIdentifier"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCoreProperties.GetIdentifier
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.GetIdentifier
+- IXpsOMCoreProperties.GetIdentifier
 targetos: Windows
 req.typenames: 
 req.redist: 

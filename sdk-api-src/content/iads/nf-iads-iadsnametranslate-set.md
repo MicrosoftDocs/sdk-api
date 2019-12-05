@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsNameTranslate.Set
 title: IADsNameTranslate::Set (iads.h)
-
 description: Directs the directory service to set up a specified object for name translation.
 old-location: adsi\iadsnametranslate_set.htm
 tech.root: adsi
 ms.assetid: 1c126333-3d5c-4ba3-8c66-de778e26488f
-
 ms.date: 12/05/2018
 ms.keywords: IADsNameTranslate interface [ADSI],Set method, IADsNameTranslate.Set, IADsNameTranslate::Set, Set, Set method [ADSI], Set method [ADSI],IADsNameTranslate interface, _ds_iadsnametranslate_set, adsi.iadsnametranslate__set, adsi.iadsnametranslate_set, iads/IADsNameTranslate::Set
 ms.topic: method
-f1_keywords: 
- - "iads/IADsNameTranslate.Set"
+f1_keywords:
+- iads/IADsNameTranslate.Set
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsNameTranslate.Set
+- IADsNameTranslate.Set
 targetos: Windows
 req.typenames: 
 req.redist: 

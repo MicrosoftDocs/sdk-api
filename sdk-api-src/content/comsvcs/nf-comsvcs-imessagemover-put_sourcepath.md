@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IMessageMover.put_SourcePath
 title: IMessageMover::put_SourcePath (comsvcs.h)
-
 description: Sets the path of the source (input) queue.
 old-location: cos\imessagemover_put_sourcepath.htm
 tech.root: cossdk
 ms.assetid: b9807fa0-905d-452c-ba26-e59463a7fe7b
-
 ms.date: 12/05/2018
 ms.keywords: IMessageMover interface [COM+],put_SourcePath method, IMessageMover.put_SourcePath, IMessageMover::put_SourcePath, comsvcs/IMessageMover::put_SourcePath, cos.imessagemover_put_sourcepath, put_SourcePath, put_SourcePath method [COM+], put_SourcePath method [COM+],IMessageMover interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IMessageMover.put_SourcePath"
+f1_keywords:
+- comsvcs/IMessageMover.put_SourcePath
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IMessageMover.put_SourcePath
+- IMessageMover.put_SourcePath
 targetos: Windows
 req.typenames: 
 req.redist: 

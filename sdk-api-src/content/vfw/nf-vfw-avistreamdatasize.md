@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIStreamDataSize
 title: AVIStreamDataSize macro (vfw.h)
-
 description: The AVIStreamDataSize macro determines the buffer size, in bytes, needed to retrieve optional header data for a specified stream.
 old-location: multimedia\avistreamdatasize.htm
 tech.root: Multimedia
 ms.assetid: e91258ee-b90a-43b9-9d5e-0adee215714c
-
 ms.date: 12/05/2018
 ms.keywords: AVIStreamDataSize, AVIStreamDataSize macro [Windows Multimedia], _win32_AVIStreamDataSize, multimedia.avistreamdatasize, vfw/AVIStreamDataSize
 ms.topic: macro
-f1_keywords: 
- - "vfw/AVIStreamDataSize"
+f1_keywords:
+- vfw/AVIStreamDataSize
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - AVIStreamDataSize
+- AVIStreamDataSize
 targetos: Windows
 req.typenames: 
 req.redist: 

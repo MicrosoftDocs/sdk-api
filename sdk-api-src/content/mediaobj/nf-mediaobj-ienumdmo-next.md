@@ -1,19 +1,17 @@
 ---
 UID: NF:mediaobj.IEnumDMO.Next
 title: IEnumDMO::Next (mediaobj.h)
-
 description: The Next method retrieves a specified number of items in the enumeration sequence.
 old-location: dshow\ienumdmo_next.htm
 tech.root: DirectShow
 ms.assetid: 5094f2d3-caa7-4085-aebe-306a7b05b591
-
 ms.date: 12/05/2018
 ms.keywords: IEnumDMO interface [DirectShow],Next method, IEnumDMO.Next, IEnumDMO::Next, IEnumDMONext, Next, Next method [DirectShow], Next method [DirectShow],IEnumDMO interface, dshow.ienumdmo_next, mediaobj/IEnumDMO::Next
 ms.topic: method
-f1_keywords: 
- - "mediaobj/IEnumDMO.Next"
+f1_keywords:
+- mediaobj/IEnumDMO.Next
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IEnumDMO.Next
+- IEnumDMO.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

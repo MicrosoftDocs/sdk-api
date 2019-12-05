@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfOpenFileWithOplock
 title: CfOpenFileWithOplock function (cfapi.h)
-
 description: Opens an asynchronous opaque handle to a file or directory (for both normal and placeholder files) and sets up a proper oplock on it based on the open flags.
 old-location: cloudapi\cfopenfilewithoplock.htm
 tech.root: cfApi
 ms.assetid: AFC48080-3B4A-4F6B-9122-25C2A025EA95
-
 ms.date: 12/05/2018
 ms.keywords: CfOpenFileWithOplock, CfOpenFileWithOplock function, cfapi/CfOpenFileWithOplock, cloudApi.cfopenfilewithoplock
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfOpenFileWithOplock"
+f1_keywords:
+- cfapi/CfOpenFileWithOplock
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfOpenFileWithOplock
+- CfOpenFileWithOplock
 targetos: Windows
 req.typenames: 
 req.redist: 

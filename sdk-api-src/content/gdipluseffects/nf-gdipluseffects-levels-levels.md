@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluseffects.Levels.Levels
 title: Levels::Levels (gdipluseffects.h)
-
 description: Creates a Levels object.
 old-location: gdiplus\_gdiplus_CLASS_Levels_Levels_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\levelsclass\levelsconstructors\levels.htm
-
 ms.date: 12/05/2018
 ms.keywords: Levels, Levels class [GDI+],Levels constructor, Levels constructor [GDI+], Levels constructor [GDI+],Levels class, Levels.Levels, Levels::Levels, _gdiplus_CLASS_Levels_Levels_, gdiplus._gdiplus_CLASS_Levels_Levels_
 ms.topic: method
-f1_keywords: 
- - "gdipluseffects/Levels.Levels"
+f1_keywords:
+- gdipluseffects/Levels.Levels
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Levels.Levels
+- Levels.Levels
 targetos: Windows
 req.typenames: 
 req.redist: 

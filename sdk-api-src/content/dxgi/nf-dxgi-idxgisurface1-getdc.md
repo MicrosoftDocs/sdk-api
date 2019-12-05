@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGISurface1.GetDC
 title: IDXGISurface1::GetDC (dxgi.h)
-
 description: Returns a device context (DC) that allows you to render to a Microsoft DirectX Graphics Infrastructure (DXGI) surface using Windows Graphics Device Interface (GDI).
 old-location: direct3ddxgi\idxgisurface1_getdc.htm
 tech.root: direct3ddxgi
 ms.assetid: b148d2b4-36a2-46b9-8a98-9f3c478549a4
-
 ms.date: 12/05/2018
 ms.keywords: GetDC, GetDC method [DXGI], GetDC method [DXGI],IDXGISurface1 interface, IDXGISurface1 interface [DXGI],GetDC method, IDXGISurface1.GetDC, IDXGISurface1::GetDC, aa5d4cb4-dcad-b7fd-560c-12cc222965a0, direct3ddxgi.idxgisurface1_getdc, dxgi/IDXGISurface1::GetDC
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGISurface1.GetDC"
+f1_keywords:
+- dxgi/IDXGISurface1.GetDC
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGISurface1.GetDC
+- IDXGISurface1.GetDC
 targetos: Windows
 req.typenames: 
 req.redist: 

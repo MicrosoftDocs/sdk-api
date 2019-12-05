@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.CharNextExA
 title: CharNextExA function (winuser.h)
-
 description: Retrieves the pointer to the next character in a string. This function can handle strings consisting of either single- or multi-byte characters.
 old-location: menurc\charnextexa.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charnextexa.htm
-
 ms.date: 12/05/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CharNextExA, CharNextExA function [Menus and Other Resources], _win32_CharNextExA, _win32_charnextexa_cpp, menurc.charnextexa, winui._win32_charnextexa, winuser/CharNextExA
 ms.topic: function
-f1_keywords: 
- - "winuser/CharNextExA"
+f1_keywords:
+- winuser/CharNextExA
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-Core-Stringansi-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-user32-l1-1-0.dll
- - API-MS-Win-DownLevel-user32-l1-1-1.dll
+- User32.dll
+- API-MS-Win-Core-Stringansi-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-user32-l1-1-0.dll
+- API-MS-Win-DownLevel-user32-l1-1-1.dll
 api_name:
- - CharNextExA
- - CharNextExA
+- CharNextExA
+- CharNextExA
 targetos: Windows
 req.typenames: 
 req.redist: 

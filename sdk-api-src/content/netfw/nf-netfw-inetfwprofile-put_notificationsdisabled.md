@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwProfile.put_NotificationsDisabled
 title: INetFwProfile::put_NotificationsDisabled (netfw.h)
-
 description: Indicates whether interactive firewall notifications are disabled.
 old-location: ics\inetfwprofile_notificationsdisabled.htm
 tech.root: ics
 ms.assetid: d184f39d-561f-40aa-99d4-b80e4d0a1aaf
-
 ms.date: 12/05/2018
 ms.keywords: INetFwProfile interface [ICS/ICF],NotificationsDisabled property, INetFwProfile.NotificationsDisabled, INetFwProfile.put_NotificationsDisabled, INetFwProfile::NotificationsDisabled, INetFwProfile::get_NotificationsDisabled, INetFwProfile::put_NotificationsDisabled, NotificationsDisabled property [ICS/ICF], NotificationsDisabled property [ICS/ICF],INetFwProfile interface, ics.inetfwprofile_notificationsdisabled, netfw/INetFwProfile::NotificationsDisabled, netfw/INetFwProfile::get_NotificationsDisabled, netfw/INetFwProfile::put_NotificationsDisabled, put_NotificationsDisabled
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwProfile.NotificationsDisabled"
+f1_keywords:
+- netfw/INetFwProfile.NotificationsDisabled
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwProfile.NotificationsDisabled
- - INetFwProfile.get_NotificationsDisabled
- - INetFwProfile.put_NotificationsDisabled
+- INetFwProfile.NotificationsDisabled
+- INetFwProfile.get_NotificationsDisabled
+- INetFwProfile.put_NotificationsDisabled
 targetos: Windows
 req.typenames: 
 req.redist: 

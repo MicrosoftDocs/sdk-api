@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PopStorageFilter
 title: IDXGIInfoQueue::PopStorageFilter (dxgidebug.h)
-
 description: Pops a storage filter from the top of the storage-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_popstoragefilter.htm
 tech.root: direct3ddxgi
 ms.assetid: B621336B-9334-4408-988F-6F5DBB2C4B53
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PopStorageFilter method, IDXGIInfoQueue.PopStorageFilter, IDXGIInfoQueue::PopStorageFilter, PopStorageFilter, PopStorageFilter method [DXGI], PopStorageFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_popstoragefilter, dxgidebug/IDXGIInfoQueue::PopStorageFilter
 ms.topic: method
-f1_keywords: 
- - "dxgidebug/IDXGIInfoQueue.PopStorageFilter"
+f1_keywords:
+- dxgidebug/IDXGIInfoQueue.PopStorageFilter
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.PopStorageFilter
+- IDXGIInfoQueue.PopStorageFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

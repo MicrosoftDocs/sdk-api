@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.IEnumNetSharingPortMapping.Next
 title: IEnumNetSharingPortMapping::Next (netcon.h)
-
 description: The Next method retrieves the specified number of port mappings that start from the current enumeration position.
 old-location: ics\ienumnetsharingportmapping_next.htm
 tech.root: ics
 ms.assetid: bf90fca7-0c4f-474f-a856-7d6865ea8f03
-
 ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingPortMapping interface [ICS/ICF],Next method, IEnumNetSharingPortMapping.Next, IEnumNetSharingPortMapping::Next, Next, Next method [ICS/ICF], Next method [ICS/ICF],IEnumNetSharingPortMapping interface, _ics_ienumnetsharingportmapping_next, ics.ienumnetsharingportmapping_next, netcon/IEnumNetSharingPortMapping::Next
 ms.topic: method
-f1_keywords: 
- - "netcon/IEnumNetSharingPortMapping.Next"
+f1_keywords:
+- netcon/IEnumNetSharingPortMapping.Next
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - IEnumNetSharingPortMapping.Next
+- IEnumNetSharingPortMapping.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

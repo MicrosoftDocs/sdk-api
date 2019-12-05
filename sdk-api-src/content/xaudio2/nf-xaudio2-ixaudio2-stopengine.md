@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2.IXAudio2.StopEngine
 title: IXAudio2::StopEngine (xaudio2.h)
-
 description: Stops the audio processing thread.
 old-location: xaudio2\ixaudio2_interface_stopengine.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.StopEngine
-
 ms.date: 12/05/2018
 ms.keywords: IXAudio2 interface [XAudio2 Audio Mixing APIs],StopEngine method, IXAudio2.StopEngine, IXAudio2::StopEngine, StopEngine, StopEngine method [XAudio2 Audio Mixing APIs], StopEngine method [XAudio2 Audio Mixing APIs],IXAudio2 interface, xaudio2.ixaudio2_interface_stopengine, xaudio2/IXAudio2::StopEngine
 ms.topic: method
-f1_keywords: 
- - "xaudio2/IXAudio2.StopEngine"
+f1_keywords:
+- xaudio2/IXAudio2.StopEngine
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - IXAudio2.StopEngine
+- IXAudio2.StopEngine
 targetos: Windows
 req.typenames: 
 req.redist: 

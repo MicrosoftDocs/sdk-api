@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminSendUserMessage
 title: MprAdminSendUserMessage function (mprapi.h)
-
 description: The MprAdminSendUserMessage function sends a message to the user connected on the specified connection.
 old-location: rras\mpradminsendusermessage.htm
 tech.root: RRAS
 ms.assetid: 3c0d8b6c-25c1-47c3-baef-d82e6d2fa52f
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminSendUserMessage, MprAdminSendUserMessage function [RAS], _mpr_mpradminsendusermessage, mprapi/MprAdminSendUserMessage, rras.mpradminsendusermessage
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminSendUserMessage"
+f1_keywords:
+- mprapi/MprAdminSendUserMessage
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminSendUserMessage
+- MprAdminSendUserMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

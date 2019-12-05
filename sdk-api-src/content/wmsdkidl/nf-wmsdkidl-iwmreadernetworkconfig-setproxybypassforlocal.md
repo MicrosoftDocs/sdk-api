@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetProxyBypassForLocal
 title: IWMReaderNetworkConfig::SetProxyBypassForLocal (wmsdkidl.h)
-
 description: The SetProxyBypassForLocal method specifies the configuration setting for bypassing the proxy for local hosts.
 old-location: wmformat\iwmreadernetworkconfig_setproxybypassforlocal.htm
 tech.root: wmformat
 ms.assetid: 4a012718-a815-4e01-97f8-69ed2ba881ea
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetProxyBypassForLocal method, IWMReaderNetworkConfig.SetProxyBypassForLocal, IWMReaderNetworkConfig::SetProxyBypassForLocal, IWMReaderNetworkConfigSetProxyBypassForLocal, SetProxyBypassForLocal, SetProxyBypassForLocal method [windows Media Format], SetProxyBypassForLocal method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setproxybypassforlocal, wmsdkidl/IWMReaderNetworkConfig::SetProxyBypassForLocal
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderNetworkConfig.SetProxyBypassForLocal"
+f1_keywords:
+- wmsdkidl/IWMReaderNetworkConfig.SetProxyBypassForLocal
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.SetProxyBypassForLocal
+- IWMReaderNetworkConfig.SetProxyBypassForLocal
 targetos: Windows
 req.typenames: 
 req.redist: 

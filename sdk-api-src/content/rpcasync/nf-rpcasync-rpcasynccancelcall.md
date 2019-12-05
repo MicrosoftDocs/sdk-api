@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcasync.RpcAsyncCancelCall
 title: RpcAsyncCancelCall function (rpcasync.h)
-
 description: The client calls the RpcAsyncCancelCall function to cancel an asynchronous call.
 old-location: rpc\rpcasynccancelcall.htm
 tech.root: Rpc
 ms.assetid: e55d586f-969b-4e9a-97d9-b6c74b2a8b6d
-
 ms.date: 12/05/2018
 ms.keywords: RpcAsyncCancelCall, RpcAsyncCancelCall function [RPC], _rpc_rpcasynccancelcall, rpc.rpcasynccancelcall, rpcasync/RpcAsyncCancelCall
 ms.topic: function
 f1_keywords:
 - rpcasync/RpcAsyncCancelCall
 dev_langs:
- - c++
+- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

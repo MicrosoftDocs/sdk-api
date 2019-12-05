@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IDeviceSpecificProperty.Get4BRange
 title: IDeviceSpecificProperty::Get4BRange (devicetopology.h)
-
 description: The Get4BRange method gets the 4-byte range of the device-specific property value.
 old-location: coreaudio\idevicespecificproperty_get4brange.htm
 tech.root: CoreAudio
 ms.assetid: 16ca72b5-2de2-4644-9c64-cdc69a9b2c51
-
 ms.date: 12/05/2018
 ms.keywords: Get4BRange, Get4BRange method [Core Audio], Get4BRange method [Core Audio],IDeviceSpecificProperty interface, IDeviceSpecificProperty interface [Core Audio],Get4BRange method, IDeviceSpecificProperty.Get4BRange, IDeviceSpecificProperty::Get4BRange, IDeviceSpecificPropertyGet4BRange, coreaudio.idevicespecificproperty_get4brange, devicetopology/IDeviceSpecificProperty::Get4BRange
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IDeviceSpecificProperty.Get4BRange"
+f1_keywords:
+- devicetopology/IDeviceSpecificProperty.Get4BRange
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IDeviceSpecificProperty.Get4BRange
+- IDeviceSpecificProperty.Get4BRange
 targetos: Windows
 req.typenames: 
 req.redist: 

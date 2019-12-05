@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTime.WBEMTime(const BSTR)
 title: WBEMTime::WBEMTime(const BSTR) (wbemtime.h)
-
 description: The WBEMTime class constructor overload method takes a BSTR parameter.
 old-location: wmi\wbemtime_wbemtime_bstr_.htm
 tech.root: WmiSdk
 ms.assetid: a5a5e6b2-d6f3-4672-b3b1-213d15fb5d13
-
 ms.date: 12/05/2018
-ms.keywords: "??0WBEMTime@@QAE@QAG@Z, ??0WBEMTime@@QEAA@QEAG@Z, WBEMTime, WBEMTime constructor [Windows Management Instrumentation], WBEMTime constructor [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],WBEMTime constructor, WBEMTime.WBEMTime, WBEMTime.WBEMTime(const BSTR), WBEMTime::WBEMTime, WBEMTime::WBEMTime(BSTR), WBEMTime::WBEMTime(const BSTR), wbemtime/WBEMTime::WBEMTime, wmi.wbemtime_wbemtime_bstr_"
+ms.keywords: ??0WBEMTime@@QAE@QAG@Z, ??0WBEMTime@@QEAA@QEAG@Z, WBEMTime, WBEMTime constructor [Windows Management Instrumentation], WBEMTime constructor [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],WBEMTime constructor, WBEMTime.WBEMTime, WBEMTime.WBEMTime(const BSTR), WBEMTime::WBEMTime, WBEMTime::WBEMTime(BSTR), WBEMTime::WBEMTime(const BSTR), wbemtime/WBEMTime::WBEMTime, wmi.wbemtime_wbemtime_bstr_
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTime.WBEMTime"
+f1_keywords:
+- wbemtime/WBEMTime.WBEMTime
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTime.WBEMTime
- - ??0WBEMTime@@QAE@QAG@Z
- - ??0WBEMTime@@QEAA@QEAG@Z
+- WBEMTime.WBEMTime
+- ??0WBEMTime@@QAE@QAG@Z
+- ??0WBEMTime@@QEAA@QEAG@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

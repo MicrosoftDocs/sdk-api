@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertPropertyDescription.Initialize
 title: ICertPropertyDescription::Initialize (certenroll.h)
-
 description: Initializes the object from a string that contains descriptive information about the certificate.
 old-location: security\icertpropertydescription_initialize_method.htm
 tech.root: seccertenroll
 ms.assetid: 17e8ee9c-c861-4437-a70d-ccad6a5a293d
-
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyDescription interface [Security],Initialize method, ICertPropertyDescription.Initialize, ICertPropertyDescription::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyDescription interface, certenroll/ICertPropertyDescription::Initialize, security.icertpropertydescription_initialize_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertPropertyDescription.Initialize"
+f1_keywords:
+- certenroll/ICertPropertyDescription.Initialize
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertPropertyDescription.Initialize
+- ICertPropertyDescription.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

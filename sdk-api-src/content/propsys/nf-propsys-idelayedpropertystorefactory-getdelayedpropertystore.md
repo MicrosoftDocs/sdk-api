@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IDelayedPropertyStoreFactory.GetDelayedPropertyStore
 title: IDelayedPropertyStoreFactory::GetDelayedPropertyStore (propsys.h)
-
 description: Gets an IPropertyStore interface object, as specified.
 old-location: shell\IDelayedPropertyStoreFactory_GetDelayedPropertyStore.htm
 tech.root: shell
 ms.assetid: 26df5fec-2a21-454e-9539-877c00a4f8fb
-
 ms.date: 12/05/2018
 ms.keywords: GetDelayedPropertyStore, GetDelayedPropertyStore method [Windows Shell], GetDelayedPropertyStore method [Windows Shell],IDelayedPropertyStoreFactory interface, IDelayedPropertyStoreFactory interface [Windows Shell],GetDelayedPropertyStore method, IDelayedPropertyStoreFactory.GetDelayedPropertyStore, IDelayedPropertyStoreFactory::GetDelayedPropertyStore, STOREID_FALLBACK, STOREID_FILE, STOREID_INNATE, _shell_IDelayedPropertyStoreFactory_GetDelayedPropertyStore, propsys/IDelayedPropertyStoreFactory::GetDelayedPropertyStore, shell.IDelayedPropertyStoreFactory_GetDelayedPropertyStore
 ms.topic: method
-f1_keywords: 
- - "propsys/IDelayedPropertyStoreFactory.GetDelayedPropertyStore"
+f1_keywords:
+- propsys/IDelayedPropertyStoreFactory.GetDelayedPropertyStore
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IDelayedPropertyStoreFactory.GetDelayedPropertyStore
+- IDelayedPropertyStoreFactory.GetDelayedPropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: 

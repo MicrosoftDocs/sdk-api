@@ -1,19 +1,17 @@
 ---
 UID: NE:dxva9typ._COPP_HDCP_Protection_Level
 title: COPP_HDCP_Protection_Level (dxva9typ.h)
-
 description: Specifies the HDCP protection level.
 old-location: dshow\copp_hdcp_protection_level.htm
 tech.root: DirectShow
 ms.assetid: 902ea4c6-8eba-4bfd-b986-5e7a5a2a5971
-
 ms.date: 12/05/2018
 ms.keywords: COPP_HDCP_ForceDWORD, COPP_HDCP_Level0, COPP_HDCP_Level1, COPP_HDCP_LevelMax, COPP_HDCP_LevelMin, COPP_HDCP_Protection_Level, COPP_HDCP_Protection_Level , COPP_HDCP_Protection_Level enumeration [DirectShow], COPP_HDCP_Protection_LevelEnumeration, dshow.copp_hdcp_protection_level, dxva9typ/COPP_HDCP_ForceDWORD, dxva9typ/COPP_HDCP_Level0, dxva9typ/COPP_HDCP_Level1, dxva9typ/COPP_HDCP_LevelMax, dxva9typ/COPP_HDCP_LevelMin, dxva9typ/COPP_HDCP_Protection_Level
 ms.topic: enum
-f1_keywords: 
- - "dxva9typ/COPP_HDCP_Protection_Level"
+f1_keywords:
+- dxva9typ/COPP_HDCP_Protection_Level
 dev_langs:
- - c++
+- c++
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva9typ.h
+- dxva9typ.h
 api_name:
- - COPP_HDCP_Protection_Level
+- COPP_HDCP_Protection_Level
 targetos: Windows
 req.typenames: COPP_HDCP_Protection_Level
 req.redist: 

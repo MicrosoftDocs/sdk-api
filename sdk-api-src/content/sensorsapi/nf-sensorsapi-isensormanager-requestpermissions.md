@@ -1,19 +1,17 @@
 ---
 UID: NF:sensorsapi.ISensorManager.RequestPermissions
 title: ISensorManager::RequestPermissions (sensorsapi.h)
-
 description: Opens a system dialog box to request user permission to access sensor data.
 old-location: winsensors_com_ref\Isensormanager_requestpermissions.htm
 tech.root: SensorsAPI
 ms.assetid: 6a21820c-4f13-4220-ad13-34d0226597b6
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, ISensorManager interface,RequestPermissions method, ISensorManager.RequestPermissions, ISensorManager::RequestPermissions, RequestPermissions, RequestPermissions method, RequestPermissions method,ISensorManager interface, TRUE, sensorsapi/ISensorManager::RequestPermissions, winsensors_com_ref.Isensormanager_requestpermissions
 ms.topic: method
-f1_keywords: 
- - "sensorsapi/ISensorManager.RequestPermissions"
+f1_keywords:
+- sensorsapi/ISensorManager.RequestPermissions
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensorManager.RequestPermissions
+- ISensorManager.RequestPermissions
 targetos: Windows
 req.typenames: 
 req.redist: 

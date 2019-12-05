@@ -1,19 +1,17 @@
 ---
 UID: NS:appxpackaging.APPX_ENCRYPTED_PACKAGE_SETTINGS2
 title: APPX_ENCRYPTED_PACKAGE_SETTINGS2 (appxpackaging.h)
-
 description: Encrypted Windows app package settings.
 old-location: appxpkg\appx_encrypted_package_settings2.htm
 tech.root: appxpkg
 ms.assetid: 6FAF4B40-0C52-4B9C-8353-1BE4F3D309C4
-
 ms.date: 12/05/2018
 ms.keywords: APPX_ENCRYPTED_PACKAGE_SETTINGS2, APPX_ENCRYPTED_PACKAGE_SETTINGS2 structure [App packaging and management], PAPPX_ENCRYPTED_PACKAGE_SETTINGS2, PAPPX_ENCRYPTED_PACKAGE_SETTINGS2 structure pointer [App packaging and management], appxpackaging/APPX_ENCRYPTED_PACKAGE_SETTINGS2, appxpackaging/PAPPX_ENCRYPTED_PACKAGE_SETTINGS2, appxpkg.appx_encrypted_package_settings2
 ms.topic: struct
-f1_keywords: 
- - "appxpackaging/APPX_ENCRYPTED_PACKAGE_SETTINGS2"
+f1_keywords:
+- appxpackaging/APPX_ENCRYPTED_PACKAGE_SETTINGS2
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - APPX_ENCRYPTED_PACKAGE_SETTINGS2
+- APPX_ENCRYPTED_PACKAGE_SETTINGS2
 targetos: Windows
 req.typenames: APPX_ENCRYPTED_PACKAGE_SETTINGS2
 req.redist: 

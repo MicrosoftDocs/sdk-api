@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.DrvDisablePDEV
 title: DrvDisablePDEV function (winddi.h)
-
 description: The DrvDisablePDEV function is used by GDI to notify a driver that the specified PDEV is no longer needed.
 old-location: display\drvdisablepdev.htm
 tech.root: display
 ms.assetid: dff04000-e307-4a1c-80fe-d6666929df76
-
 ms.date: 12/05/2018
 ms.keywords: DrvDisablePDEV, DrvDisablePDEV function [Display Devices], ddifncs_ff781393-2fad-482c-a91e-1cf0b722441d.xml, display.drvdisablepdev, winddi/DrvDisablePDEV
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvDisablePDEV"
+f1_keywords:
+- winddi/DrvDisablePDEV
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvDisablePDEV
+- DrvDisablePDEV
 targetos: Windows
 req.typenames: 
 req.redist: 

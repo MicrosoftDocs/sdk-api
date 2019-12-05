@@ -1,19 +1,17 @@
 ---
 UID: NF:dpapi.CryptProtectMemory
 title: CryptProtectMemory function (dpapi.h)
-
 description: encrypts memory to prevent others from viewing sensitive information in your process.
 old-location: security\cryptprotectmemory.htm
 tech.root: SecCrypto
 ms.assetid: 6b372552-87d4-4047-afa5-0d1113348289
-
 ms.date: 12/05/2018
 ms.keywords: CRYPTPROTECTMEMORY_CROSS_PROCESS, CRYPTPROTECTMEMORY_SAME_LOGON, CRYPTPROTECTMEMORY_SAME_PROCESS, CryptProtectMemory, CryptProtectMemory function [Security], dpapi/CryptProtectMemory, security.cryptprotectmemory, wincrypt/CryptProtectMemory
 ms.topic: function
-f1_keywords: 
- - "dpapi/CryptProtectMemory"
+f1_keywords:
+- dpapi/CryptProtectMemory
 dev_langs:
- - c++
+- c++
 req.header: dpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptProtectMemory
+- CryptProtectMemory
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:rpcdce.__unnamed_struct_0
 title: RPC_STATS_VECTOR (rpcdce.h)
-
 description: The RPC_STATS_VECTOR structure contains statistics from the RPC run-time library on a per-server basis.
 old-location: rpc\rpc_stats_vector.htm
 tech.root: Rpc
 ms.assetid: f2d959a5-530c-4534-9095-ec1a177ead99
-
 ms.date: 12/05/2018
 ms.keywords: RPC_C_STATS_CALLS_IN, RPC_C_STATS_CALLS_OUT, RPC_C_STATS_PKTS_IN, RPC_C_STATS_PKTS_OUT, RPC_STATS_VECTOR, RPC_STATS_VECTOR structure [RPC], _rpc_rpc_stats_vector, rpc.rpc_stats_vector, rpcdce/RPC_STATS_VECTOR
 ms.topic: struct
-f1_keywords: 
- - "rpcdce/RPC_STATS_VECTOR"
+f1_keywords:
+- rpcdce/RPC_STATS_VECTOR
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rpcdce.h
+- Rpcdce.h
 api_name:
- - RPC_STATS_VECTOR
+- RPC_STATS_VECTOR
 targetos: Windows
 req.typenames: RPC_STATS_VECTOR
 req.redist: 

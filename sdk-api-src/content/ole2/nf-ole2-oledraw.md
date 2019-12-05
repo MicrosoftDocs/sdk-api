@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleDraw
 title: OleDraw function (ole2.h)
-
 description: Enables drawing objects more easily. You can use it instead of calling IViewObject::Draw directly.
 old-location: com\oledraw.htm
 tech.root: com
 ms.assetid: c45c6746-59ea-43bb-9f2b-2182d7a3fc7a
-
 ms.date: 12/05/2018
 ms.keywords: OleDraw, OleDraw function [COM], _ole_OleDraw, com.oledraw, ole/OleDraw
 ms.topic: function
-f1_keywords: 
- - "ole2/OleDraw"
+f1_keywords:
+- ole2/OleDraw
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: Ole2.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - ext-ms-win-com-ole32-l1-1-3.dll
- - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+- Ole32.dll
+- ext-ms-win-com-ole32-l1-1-3.dll
+- Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
- - OleDraw
+- OleDraw
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilEnumProperties
 title: ResUtilEnumProperties function (resapi.h)
-
 description: Enumerates the property names of a cluster object. The PRESUTIL_ENUM_PROPERTIES type defines a pointer to this function.
 old-location: mscs\resutilenumproperties.htm
 tech.root: MsCS
 ms.assetid: 1b3a6326-c0da-470a-9cd5-19daa9d48ccd
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_ENUM_PROPERTIES, PRESUTIL_ENUM_PROPERTIES function [Failover Cluster], ResUtilEnumProperties, ResUtilEnumProperties function [Failover Cluster], _wolf_resutilenumproperties, mscs.resutilenumproperties, resapi/PRESUTIL_ENUM_PROPERTIES, resapi/ResUtilEnumProperties
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilEnumProperties"
+f1_keywords:
+- resapi/ResUtilEnumProperties
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilEnumProperties
+- ResUtilEnumProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

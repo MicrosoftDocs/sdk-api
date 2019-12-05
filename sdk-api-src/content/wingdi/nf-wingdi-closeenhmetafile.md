@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CloseEnhMetaFile
 title: CloseEnhMetaFile function (wingdi.h)
-
 description: The CloseEnhMetaFile function closes an enhanced-metafile device context and returns a handle that identifies an enhanced-format metafile.
 old-location: gdi\closeenhmetafile.htm
 tech.root: gdi
 ms.assetid: 3c4a0d8b-75a5-4729-8c64-476c36d01a90
-
 ms.date: 12/05/2018
 ms.keywords: CloseEnhMetaFile, CloseEnhMetaFile function [Windows GDI], _win32_CloseEnhMetaFile, gdi.closeenhmetafile, wingdi/CloseEnhMetaFile
 ms.topic: function
-f1_keywords: 
- - "wingdi/CloseEnhMetaFile"
+f1_keywords:
+- wingdi/CloseEnhMetaFile
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - ext-ms-win-gdi-metafile-l1-1-2.dll
- - GDI32Full.dll
+- gdi32.dll
+- ext-ms-win-gdi-metafile-l1-1-2.dll
+- GDI32Full.dll
 api_name:
- - CloseEnhMetaFile
+- CloseEnhMetaFile
 targetos: Windows
 req.typenames: 
 req.redist: 

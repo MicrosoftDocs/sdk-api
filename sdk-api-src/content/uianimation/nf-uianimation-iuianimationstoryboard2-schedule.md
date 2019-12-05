@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.Schedule
 title: IUIAnimationStoryboard2::Schedule (uianimation.h)
-
 description: Directs the storyboard to schedule itself for play.
 old-location: uianimation\iuianimationstoryboard2_schedule.htm
 tech.root: UIAnimation
 ms.assetid: 9F20AE4A-F693-4DDA-90F4-FCCA5291208B
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboard2 interface [Windows Animation],Schedule method, IUIAnimationStoryboard2.Schedule, IUIAnimationStoryboard2::Schedule, Schedule, Schedule method [Windows Animation], Schedule method [Windows Animation],IUIAnimationStoryboard2 interface, uianimation.iuianimationstoryboard2_schedule, uianimation/IUIAnimationStoryboard2::Schedule
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationStoryboard2.Schedule"
+f1_keywords:
+- uianimation/IUIAnimationStoryboard2.Schedule
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard2.Schedule
+- IUIAnimationStoryboard2.Schedule
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vsprov.IVssHardwareSnapshotProvider.LocateLuns
 title: IVssHardwareSnapshotProvider::LocateLuns (vsprov.h)
-
 description: Prompts the hardware provider to make the shadow copy LUNs visible to the computer.
 old-location: base\ivsshardwaresnapshotprovider_locateluns.htm
 tech.root: VSS
 ms.assetid: 9a996875-a495-43c1-987e-67c31d0651c7
-
 ms.date: 12/05/2018
 ms.keywords: IVssHardwareSnapshotProvider interface [VSS],LocateLuns method, IVssHardwareSnapshotProvider.LocateLuns, IVssHardwareSnapshotProvider::LocateLuns, LocateLuns, LocateLuns method [VSS], LocateLuns method [VSS],IVssHardwareSnapshotProvider interface, base.ivsshardwaresnapshotprovider_locateluns, vsprov/IVssHardwareSnapshotProvider::LocateLuns
 ms.topic: method
 f1_keywords:
 - vsprov/IVssHardwareSnapshotProvider.LocateLuns
 dev_langs:
- - c++
+- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

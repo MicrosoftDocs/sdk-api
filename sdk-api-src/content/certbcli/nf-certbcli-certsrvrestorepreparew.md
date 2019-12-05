@@ -1,19 +1,17 @@
 ---
 UID: NF:certbcli.CertSrvRestorePrepareW
 title: CertSrvRestorePrepareW function (certbcli.h)
-
 description: Prepares a Certificate Services instance for restore operations.
 old-location: security\certsrvrestoreprepare.htm
 tech.root: SecCrypto
 ms.assetid: e607b61c-9636-40e6-abba-74152f37b49e
-
 ms.date: 12/05/2018
 ms.keywords: CSRESTORE_TYPE_FULL, CertSrvRestorePrepare, CertSrvRestorePrepare function [Security], CertSrvRestorePrepareW, _certsrv_certsrvrestoreprepare, certbcli/CertSrvRestorePrepare, certbcli/CertSrvRestorePrepareW, security.certsrvrestoreprepare
 ms.topic: function
-f1_keywords: 
- - "certbcli/CertSrvRestorePrepare"
+f1_keywords:
+- certbcli/CertSrvRestorePrepare
 dev_langs:
- - c++
+- c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - CertSrvRestorePrepare
- - CertSrvRestorePrepareW
+- CertSrvRestorePrepare
+- CertSrvRestorePrepareW
 targetos: Windows
 req.typenames: 
 req.redist: 

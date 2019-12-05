@@ -1,19 +1,17 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.GetCatalogURL
 title: IWMPContentPartner::GetCatalogURL (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_getcatalogurl.htm
 tech.root: WMP
 ms.assetid: 291440d5-b6d3-4586-98d2-3f7c56da29aa
-
 ms.date: 12/05/2018
 ms.keywords: GetCatalogURL, GetCatalogURL method [Windows Media Player], GetCatalogURL method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetCatalogURL method, IWMPContentPartner.GetCatalogURL, IWMPContentPartner::GetCatalogURL, IWMPContentPartnerGetCatalogURL, contentpartner/IWMPContentPartner::GetCatalogURL, wmp.iwmpcontentpartner_getcatalogurl
 ms.topic: method
-f1_keywords: 
- - "contentpartner/IWMPContentPartner.GetCatalogURL"
+f1_keywords:
+- contentpartner/IWMPContentPartner.GetCatalogURL
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - IWMPContentPartner.GetCatalogURL
+- IWMPContentPartner.GetCatalogURL
 targetos: Windows
 req.typenames: 
 req.redist: 

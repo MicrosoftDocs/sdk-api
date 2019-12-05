@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilSetUnknownProperties
 title: ResUtilSetUnknownProperties function (resapi.h)
-
 description: Stores a cluster object's unknown properties in the cluster database.
 old-location: mscs\resutilsetunknownproperties.htm
 tech.root: MsCS
 ms.assetid: ee729a3d-9d10-459c-b57d-de17f29d8ae8
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_SET_UNKNOWN_PROPERTIES, PRESUTIL_SET_UNKNOWN_PROPERTIES function [Failover Cluster], ResUtilSetUnknownProperties, ResUtilSetUnknownProperties function [Failover Cluster], _wolf_resutilsetunknownproperties, mscs.resutilsetunknownproperties, resapi/PRESUTIL_SET_UNKNOWN_PROPERTIES, resapi/ResUtilSetUnknownProperties
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilSetUnknownProperties"
+f1_keywords:
+- resapi/ResUtilSetUnknownProperties
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilSetUnknownProperties
+- ResUtilSetUnknownProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

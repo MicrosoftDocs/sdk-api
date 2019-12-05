@@ -1,19 +1,17 @@
 ---
 UID: NF:projectedfslib.PrjFreeAlignedBuffer
 title: PrjFreeAlignedBuffer function (projectedfslib.h)
-
 description: Frees an allocated buffer.
 old-location: projfs\prjfreealignedbuffer.htm
 tech.root: ProjFS
 ms.assetid: EE5AC099-CB39-48B1-BB7B-8C9B436AA4A3
-
 ms.date: 12/05/2018
 ms.keywords: PrjFreeAlignedBuffer, PrjFreeAlignedBuffer function, ProjFS.prjfreealignedbuffer, projectedfslib/PrjFreeAlignedBuffer
 ms.topic: function
-f1_keywords: 
- - "projectedfslib/PrjFreeAlignedBuffer"
+f1_keywords:
+- projectedfslib/PrjFreeAlignedBuffer
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PrjFreeAlignedBuffer
+- PrjFreeAlignedBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

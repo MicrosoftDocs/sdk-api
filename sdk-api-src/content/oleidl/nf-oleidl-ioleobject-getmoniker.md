@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleObject.GetMoniker
 title: IOleObject::GetMoniker (oleidl.h)
-
 description: Retrieves an embedded object's moniker, which the caller can use to link to the object.
 old-location: com\ioleobject_getmoniker.htm
 tech.root: com
 ms.assetid: 6b81ca75-31d8-45d6-8b36-663c5f19341c
-
 ms.date: 12/05/2018
 ms.keywords: GetMoniker, GetMoniker method [COM], GetMoniker method [COM],IOleObject interface, IOleObject interface [COM],GetMoniker method, IOleObject.GetMoniker, IOleObject::GetMoniker, _ole_ioleobject_getmoniker, com.ioleobject_getmoniker, oleidl/IOleObject::GetMoniker
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleObject.GetMoniker"
+f1_keywords:
+- oleidl/IOleObject.GetMoniker
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleObject.GetMoniker
+- IOleObject.GetMoniker
 targetos: Windows
 req.typenames: 
 req.redist: 

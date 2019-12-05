@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenserEx.GetOption
 title: IMetaDataDispenserEx::GetOption (rometadataapi.h)
-
 description: Gets the value of the specified option for the current metadata scope. The option controls how calls to the current metadata scope are handled.
 old-location: winrt\imetadatadispenserex_getoption.htm
 tech.root: WinRT
 ms.assetid: 862948bd-6fce-4af9-9c68-1d3291e13053
-
 ms.date: 12/05/2018
 ms.keywords: GetOption, GetOption method [Windows Runtime], GetOption method [Windows Runtime],IMetaDataDispenserEx interface, IMetaDataDispenserEx interface [Windows Runtime],GetOption method, IMetaDataDispenserEx.GetOption, IMetaDataDispenserEx::GetOption, rometadataapi/IMetaDataDispenserEx::GetOption, winrt.imetadatadispenserex_getoption
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataDispenserEx.GetOption"
+f1_keywords:
+- rometadataapi/IMetaDataDispenserEx.GetOption
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataDispenserEx.GetOption
+- IMetaDataDispenserEx.GetOption
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetRedYIntercept(float)
 title: IDCompositionLinearTransferEffect::SetRedYIntercept(float) (dcomp.h)
-
 description: Sets the Y-intercept of the linear function for the red channel.
 old-location: directcomp\idcompositionlineartransfereffect_setredyintercept.htm
 tech.root: directcomp
 ms.assetid: 142286DA-6A07-404C-97B8-C356DE6C63A9
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetRedYIntercept method, IDCompositionLinearTransferEffect.SetRedYIntercept, IDCompositionLinearTransferEffect.SetRedYIntercept(float), IDCompositionLinearTransferEffect::SetRedYIntercept, IDCompositionLinearTransferEffect::SetRedYIntercept(float), SetRedYIntercept, SetRedYIntercept method [DirectComposition], SetRedYIntercept method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetRedYIntercept, directcomp.idcompositionlineartransfereffect_setredyintercept
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionLinearTransferEffect.SetRedYIntercept"
+f1_keywords:
+- dcomp/IDCompositionLinearTransferEffect.SetRedYIntercept
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionLinearTransferEffect.SetRedYIntercept
+- IDCompositionLinearTransferEffect.SetRedYIntercept
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:cchannel.VIRTUALCHANNELINIT
 title: VIRTUALCHANNELINIT (cchannel.h)
-
 description: Initializes a client DLL's access to Remote Desktop Services virtual channels.
 old-location: termserv\virtualchannelinit.htm
 tech.root: TermServ
 ms.assetid: 3dae59dc-e70f-450e-a324-a4d68341a72e
-
 ms.date: 12/05/2018
 ms.keywords: VirtualChannelInit, VirtualChannelInit callback, VirtualChannelInit callback function [Remote Desktop Services], _win32_virtualchannelinit, cchannel/VirtualChannelInit, termserv.virtualchannelinit
 ms.topic: callback
-f1_keywords: 
- - "cchannel/VirtualChannelInit"
+f1_keywords:
+- cchannel/VirtualChannelInit
 dev_langs:
- - c++
+- c++
 req.header: cchannel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Cchannel.h
+- Cchannel.h
 api_name:
- - VirtualChannelInit
+- VirtualChannelInit
 targetos: Windows
 req.typenames: 
 req.redist: 

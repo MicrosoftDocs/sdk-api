@@ -1,19 +1,17 @@
 ---
 UID: NF:msacm.acmStreamPrepareHeader
 title: acmStreamPrepareHeader function (msacm.h)
-
 description: The acmStreamPrepareHeader function prepares an ACMSTREAMHEADER structure for an ACM stream conversion.
 old-location: multimedia\acmstreamprepareheader.htm
 tech.root: Multimedia
 ms.assetid: ab90ac5f-6f39-4d26-96fc-5258d4e353cd
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_acmStreamPrepareHeader, acmStreamPrepareHeader, acmStreamPrepareHeader function [Windows Multimedia], msacm/acmStreamPrepareHeader, multimedia.acmstreamprepareheader"
+ms.keywords: _win32_acmStreamPrepareHeader, acmStreamPrepareHeader, acmStreamPrepareHeader function [Windows Multimedia], msacm/acmStreamPrepareHeader, multimedia.acmstreamprepareheader
 ms.topic: function
-f1_keywords: 
- - "msacm/acmStreamPrepareHeader"
+f1_keywords:
+- msacm/acmStreamPrepareHeader
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msacm32.dll
- - Ext-MS-Win-mm-msacm-l1-1-0.dll
+- Msacm32.dll
+- Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
- - acmStreamPrepareHeader
+- acmStreamPrepareHeader
 targetos: Windows
 req.typenames: 
 req.redist: 

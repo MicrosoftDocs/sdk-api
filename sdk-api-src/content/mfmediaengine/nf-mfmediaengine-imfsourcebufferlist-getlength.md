@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBufferList.GetLength
 title: IMFSourceBufferList::GetLength (mfmediaengine.h)
-
 description: Gets the number of IMFSourceBuffer objects in the list.
 old-location: mf\imfsourcebufferlist_getlength.htm
 tech.root: medfound
 ms.assetid: 551d2f40-85ad-45af-9191-9fb2b2c44913
-
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Media Foundation], GetLength method [Media Foundation],IMFSourceBufferList interface, IMFSourceBufferList interface [Media Foundation],GetLength method, IMFSourceBufferList.GetLength, IMFSourceBufferList::GetLength, mf.imfsourcebufferlist_getlength, mfmediaengine/IMFSourceBufferList::GetLength
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFSourceBufferList.GetLength"
+f1_keywords:
+- mfmediaengine/IMFSourceBufferList.GetLength
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFSourceBufferList.GetLength
+- IMFSourceBufferList.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:qos._flowspec
 title: FLOWSPEC (qos.h)
-
 description: The FLOWSPEC structure provides quality of service parameters to the RSVP SP.
 old-location: qos\flowspec.htm
 tech.root: QOS
 ms.assetid: 268e0d3a-2b04-40fd-91eb-f1780236b3e4
-
 ms.date: 12/05/2018
 ms.keywords: '*LPFLOWSPEC, *PFLOWSPEC, FLOWSPEC, FLOWSPEC structure [QOS], LPFLOWSPEC, LPFLOWSPEC structure pointer [QOS], PFLOWSPEC, PFLOWSPEC structure pointer [QOS], SERVICETYPE_BESTEFFORT, SERVICETYPE_CONTROLLEDLOAD, SERVICETYPE_GENERAL_INFORMATION, SERVICETYPE_GUARANTEED, SERVICETYPE_NETWORK_CONTROL, SERVICETYPE_NETWORK_UNAVAILBLE, SERVICETYPE_NOCHANGE, SERVICETYPE_NONCONFORMING, SERVICETYPE_NOTRAFFIC, SERVICETYPE_QUALITATIVE, SERVICE_NO_QOS_SIGNALING, SERVICE_NO_TRAFFIC_CONTROL, _gqos_flowspec, qos.flowspec, qos/FLOWSPEC, qos/LPFLOWSPEC, qos/PFLOWSPEC'
 ms.topic: struct
 f1_keywords:
 - qos/FLOWSPEC
 dev_langs:
- - c++
+- c++
 req.header: qos.h
 req.include-header: 
 req.target-type: Windows

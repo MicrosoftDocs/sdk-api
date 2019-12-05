@@ -1,19 +1,17 @@
 ---
 UID: NF:certif.ICertServerPolicy.EnumerateAttributesSetup
 title: ICertServerPolicy::EnumerateAttributesSetup (certif.h)
-
 description: Initializes the internal enumeration pointer to the first request attribute associated with the current context.
 old-location: security\icertserverpolicy_enumerateattributessetup.htm
 tech.root: SecCrypto
 ms.assetid: 14b81b88-36db-4b01-96e6-eafed22ae02e
-
 ms.date: 12/05/2018
 ms.keywords: CCertServerPolicy object [Security],EnumerateAttributesSetup method, EnumerateAttributesSetup, EnumerateAttributesSetup method [Security], EnumerateAttributesSetup method [Security],CCertServerPolicy object, EnumerateAttributesSetup method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],EnumerateAttributesSetup method, ICertServerPolicy.EnumerateAttributesSetup, ICertServerPolicy::EnumerateAttributesSetup, _certsrv_icertserverpolicy_enumerateattributessetup, certif/ICertServerPolicy::EnumerateAttributesSetup, security.icertserverpolicy_enumerateattributessetup
 ms.topic: method
-f1_keywords: 
- - "certif/ICertServerPolicy.EnumerateAttributesSetup"
+f1_keywords:
+- certif/ICertServerPolicy.EnumerateAttributesSetup
 dev_langs:
- - c++
+- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certcli.dll
+- Certcli.dll
 api_name:
- - ICertServerPolicy.EnumerateAttributesSetup
- - CCertServerPolicy.EnumerateAttributesSetup
+- ICertServerPolicy.EnumerateAttributesSetup
+- CCertServerPolicy.EnumerateAttributesSetup
 targetos: Windows
 req.typenames: 
 req.redist: 

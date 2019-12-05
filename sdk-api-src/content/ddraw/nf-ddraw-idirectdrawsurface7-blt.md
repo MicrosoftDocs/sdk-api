@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.Blt
 title: IDirectDrawSurface7::Blt (ddraw.h)
-
 description: Performs a bit block transfer (bitblt). This method does not support z-buffering or alpha blending during bitblt operations.
 old-location: directdraw\idirectdrawsurface7_blt.htm
 tech.root: directdraw
 ms.assetid: e458c430-855c-419b-aa50-144d2b422e78
-
 ms.date: 12/05/2018
 ms.keywords: All DDBLT_ALPHA flag values, All DDBLT_ZBUFFER flag values, Blt, Blt method [DirectDraw], Blt method [DirectDraw],IDirectDrawSurface7 interface, DDBLT_ASYNC, DDBLT_COLORFILL, DDBLT_DDFX, DDBLT_DDROPS, DDBLT_DEPTHFILL, DDBLT_DONOTWAIT, DDBLT_KEYDEST, DDBLT_KEYDESTOVERRIDE, DDBLT_KEYSRC, DDBLT_KEYSRCOVERRIDE, DDBLT_ROP, DDBLT_ROTATIONANGLE, DDBLT_WAIT, IDirectDrawSurface7 interface [DirectDraw],Blt method, IDirectDrawSurface7.Blt, IDirectDrawSurface7::Blt, ddraw/IDirectDrawSurface7::Blt, directdraw.idirectdrawsurface7_blt
 ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawSurface7.Blt
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_StartAddressOfPreviousSession
 title: IDiscFormat2Data::get_StartAddressOfPreviousSession (imapi2.h)
-
 description: Retrieves the first sector of the previous write session.
 old-location: imapi\idiscformat2data_get_startaddressofprevioussession.htm
 tech.root: imapi
 ms.assetid: a2f75240-9334-42a3-82d6-5ce9ddf1f3a2
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_StartAddressOfPreviousSession method, IDiscFormat2Data.get_StartAddressOfPreviousSession, IDiscFormat2Data::get_StartAddressOfPreviousSession, get_StartAddressOfPreviousSession, get_StartAddressOfPreviousSession method [IMAPI], get_StartAddressOfPreviousSession method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_startaddressofprevioussession, imapi2/IDiscFormat2Data::get_StartAddressOfPreviousSession
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2Data.get_StartAddressOfPreviousSession"
+f1_keywords:
+- imapi2/IDiscFormat2Data.get_StartAddressOfPreviousSession
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2Data.get_StartAddressOfPreviousSession
+- IDiscFormat2Data.get_StartAddressOfPreviousSession
 targetos: Windows
 req.typenames: 
 req.redist: 

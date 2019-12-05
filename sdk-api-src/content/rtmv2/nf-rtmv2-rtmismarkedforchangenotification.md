@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RtmIsMarkedForChangeNotification
 title: RtmIsMarkedForChangeNotification function (rtmv2.h)
-
 description: The RtmIsMarkedForChangeNotification function queries the routing table manager to determine if a destination has previously been marked by a call to RtmMarkDestForChangeNotification.
 old-location: rras\rtmismarkedforchangenotification.htm
 tech.root: RRAS
 ms.assetid: bde390fe-3ada-48d3-b9aa-b4bb56228eac
-
 ms.date: 12/05/2018
 ms.keywords: RtmIsMarkedForChangeNotification, RtmIsMarkedForChangeNotification function [RAS], _rtmv2ref_rtmismarkedforchangenotification, rras.rtmismarkedforchangenotification, rtmv2/RtmIsMarkedForChangeNotification
 ms.topic: function
-f1_keywords: 
- - "rtmv2/RtmIsMarkedForChangeNotification"
+f1_keywords:
+- rtmv2/RtmIsMarkedForChangeNotification
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - RtmIsMarkedForChangeNotification
+- RtmIsMarkedForChangeNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

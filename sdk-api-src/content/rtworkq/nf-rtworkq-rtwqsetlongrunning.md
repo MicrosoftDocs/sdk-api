@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.RtwqSetLongRunning
 title: RtwqSetLongRunning function (rtworkq.h)
-
 description: Indicates that the app will be submitting a hint that long running work will occur on this work queue.
 old-location: base\rtwqsetlongrunning.htm
 tech.root: ProcThread
 ms.assetid: 8bf71eb5-d5d5-4b07-93b0-4b12b43e9687
-
 ms.date: 12/05/2018
 ms.keywords: RtwqSetLongRunning, RtwqSetLongRunning function, base.rtwqsetlongrunning, rtworkq/RtwqSetLongRunning
 ms.topic: function
-f1_keywords: 
- - "rtworkq/RtwqSetLongRunning"
+f1_keywords:
+- rtworkq/RtwqSetLongRunning
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - RtwqSetLongRunning
+- RtwqSetLongRunning
 targetos: Windows
 req.typenames: 
 req.redist: 

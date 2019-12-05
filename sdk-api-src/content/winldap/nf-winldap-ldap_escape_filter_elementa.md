@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_escape_filter_elementA
 title: ldap_escape_filter_elementA function (winldap.h)
-
 description: The ldap_escape_filter_element function converts a filter element to a null-terminated character string that can be passed safely in a search filter.
 old-location: ldap\ldap_escape_filter_element.htm
 tech.root: ldap
 ms.assetid: d3bc558c-7327-400e-a436-35adae8fc302
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_escape_filter_element, ldap.ldap__escape__filter__element, ldap.ldap_escape_filter_element, ldap_escape_filter_element, ldap_escape_filter_element function [LDAP], ldap_escape_filter_elementA, ldap_escape_filter_elementW, winldap/ldap_escape_filter_element, winldap/ldap_escape_filter_elementA, winldap/ldap_escape_filter_elementW"
+ms.keywords: _ldap_ldap_escape_filter_element, ldap.ldap__escape__filter__element, ldap.ldap_escape_filter_element, ldap_escape_filter_element, ldap_escape_filter_element function [LDAP], ldap_escape_filter_elementA, ldap_escape_filter_elementW, winldap/ldap_escape_filter_element, winldap/ldap_escape_filter_elementA, winldap/ldap_escape_filter_elementW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_escape_filter_element"
+f1_keywords:
+- winldap/ldap_escape_filter_element
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_escape_filter_element
- - ldap_escape_filter_elementA
- - ldap_escape_filter_elementW
+- ldap_escape_filter_element
+- ldap_escape_filter_elementA
+- ldap_escape_filter_elementW
 targetos: Windows
 req.typenames: 
 req.redist: 

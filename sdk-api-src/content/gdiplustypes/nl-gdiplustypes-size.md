@@ -1,19 +1,17 @@
 ---
 UID: NL:gdiplustypes.Size
 title: Size (gdiplustypes.h)
-
 description: The Size class encapsulates a Width and Height dimension in a 2-D coordinate system.
 old-location: gdiplus\_gdiplus_CLASS_Size_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\size.htm
-
 ms.date: 12/05/2018
 ms.keywords: Size, Size class [GDI+], Size class [GDI+],described, _gdiplus_CLASS_Size_Class, gdiplus._gdiplus_CLASS_Size_Class, gdiplustypes/Size
 ms.topic: class
-f1_keywords: 
- - "gdiplustypes/Size"
+f1_keywords:
+- gdiplustypes/Size
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdiplustypes.h
+- gdiplustypes.h
 api_name:
- - Size
+- Size
 targetos: Windows
 req.typenames: 
 req.redist: 

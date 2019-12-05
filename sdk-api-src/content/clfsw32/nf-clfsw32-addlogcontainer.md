@@ -1,19 +1,17 @@
 ---
 UID: NF:clfsw32.AddLogContainer
 title: AddLogContainer function (clfsw32.h)
-
 description: Adds a container to the physical log that is associated with the log handle&#8212;if the calling process has write access to the .blf file and the ability to create files in the target directory of the container.
 old-location: fs\addlogcontainer.htm
 tech.root: Clfs
 ms.assetid: 5e886b96-9431-43f6-b888-e0f47c432371
-
 ms.date: 12/05/2018
 ms.keywords: AddLogContainer, AddLogContainer function [Files], clfsw32/AddLogContainer, fs.addlogcontainer
 ms.topic: function
-f1_keywords: 
- - "clfsw32/AddLogContainer"
+f1_keywords:
+- clfsw32/AddLogContainer
 dev_langs:
- - c++
+- c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Clfsw32.dll
+- Clfsw32.dll
 api_name:
- - AddLogContainer
+- AddLogContainer
 targetos: Windows
 req.typenames: 
 req.redist: 

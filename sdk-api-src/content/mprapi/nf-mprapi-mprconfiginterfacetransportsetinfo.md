@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceTransportSetInfo
 title: MprConfigInterfaceTransportSetInfo function (mprapi.h)
-
 description: The MprConfigInterfaceTransportSetInfo function updates the configuration information for the client on the specified interface and transport protocol.
 old-location: rras\mprconfiginterfacetransportsetinfo.htm
 tech.root: RRAS
 ms.assetid: 1f46b528-d9a1-4967-afa2-424ee1eebbcb
-
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceTransportSetInfo, MprConfigInterfaceTransportSetInfo function [RAS], _mpr_mprconfiginterfacetransportsetinfo, mprapi/MprConfigInterfaceTransportSetInfo, rras.mprconfiginterfacetransportsetinfo
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprConfigInterfaceTransportSetInfo"
+f1_keywords:
+- mprapi/MprConfigInterfaceTransportSetInfo
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprConfigInterfaceTransportSetInfo
+- MprConfigInterfaceTransportSetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

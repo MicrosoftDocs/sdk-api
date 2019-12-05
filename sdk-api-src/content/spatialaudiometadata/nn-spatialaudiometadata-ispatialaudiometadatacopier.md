@@ -1,19 +1,17 @@
 ---
 UID: NN:spatialaudiometadata.ISpatialAudioMetadataCopier
 title: ISpatialAudioMetadataCopier (spatialaudiometadata.h)
-
 description: Provides methods for copying all or subsets of metadata items from a source SpatialAudioMetadataItems into a destination SpatialAudioMetadataItems.
 old-location: coreaudio\ispatialaudiometadatacopier.htm
 tech.root: CoreAudio
 ms.assetid: 74708744-78BF-4135-BB0A-50A7CA41ECDD
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioMetadataCopier, ISpatialAudioMetadataCopier interface [Core Audio], ISpatialAudioMetadataCopier interface [Core Audio],described, coreaudio.ispatialaudiometadatacopier, spatialaudiometadata/ISpatialAudioMetadataCopier
 ms.topic: interface
-f1_keywords: 
- - "spatialaudiometadata/ISpatialAudioMetadataCopier"
+f1_keywords:
+- spatialaudiometadata/ISpatialAudioMetadataCopier
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SpatialAudioMetadata.h
+- SpatialAudioMetadata.h
 api_name:
- - ISpatialAudioMetadataCopier
+- ISpatialAudioMetadataCopier
 targetos: Windows
 req.typenames: 
 req.redist: 

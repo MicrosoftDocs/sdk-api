@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetRecordStartTimeByIndex
 title: IISDB_SDTT::GetRecordStartTimeByIndex (dvbsiparser.h)
-
 description: Gets an event start time from a schedule record in in an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getrecordstarttimebyindex.htm
 tech.root: mstv
 ms.assetid: ccbeb664-6c84-4f50-9376-dfa0492aa9e1
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordStartTimeByIndex, GetRecordStartTimeByIndex method [Microsoft TV Technologies], GetRecordStartTimeByIndex method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordStartTimeByIndex method, IISDB_SDTT.GetRecordStartTimeByIndex, IISDB_SDTT::GetRecordStartTimeByIndex, dvbsiparser/IISDB_SDTT::GetRecordStartTimeByIndex, mstv.iisdb_sdtt_getrecordstarttimebyindex
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_SDTT.GetRecordStartTimeByIndex"
+f1_keywords:
+- dvbsiparser/IISDB_SDTT.GetRecordStartTimeByIndex
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_SDTT.GetRecordStartTimeByIndex
+- IISDB_SDTT.GetRecordStartTimeByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

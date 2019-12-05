@@ -1,19 +1,17 @@
 ---
 UID: NS:cfgmgr32.IO_Des_s
 title: IO_DES (cfgmgr32.h)
-
 description: The IO_DES structure is used for specifying either a resource list or a resource requirements list that describes I/O port usage for a device instance. For more information about resource lists and resource requirements lists, see Hardware Resources.
 old-location: devinst\io_des.htm
 tech.root: devinst
 ms.assetid: 4b2ae544-0254-4221-80df-e2df4a23d15f
-
 ms.date: 12/05/2018
-ms.keywords: "*PIO_DES, IO_DES, IO_DES structure [Device and Driver Installation], PIO_DES, PIO_DES structure pointer [Device and Driver Installation], cfgmgr32/IO_DES, cfgmgr32/PIO_DES, cfgmgrst_027e9190-0074-48e2-89cd-aa86e8a08165.xml, devinst.io_des"
+ms.keywords: '*PIO_DES, IO_DES, IO_DES structure [Device and Driver Installation], PIO_DES, PIO_DES structure pointer [Device and Driver Installation], cfgmgr32/IO_DES, cfgmgr32/PIO_DES, cfgmgrst_027e9190-0074-48e2-89cd-aa86e8a08165.xml, devinst.io_des'
 ms.topic: struct
-f1_keywords: 
- - "cfgmgr32/IO_DES"
+f1_keywords:
+- cfgmgr32/IO_DES
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - cfgmgr32.h
+- cfgmgr32.h
 api_name:
- - IO_DES
+- IO_DES
 targetos: Windows
 req.typenames: IO_DES, *PIO_DES
 req.redist: 

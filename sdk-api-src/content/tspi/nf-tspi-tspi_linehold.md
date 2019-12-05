@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineHold
 title: TSPI_lineHold function (tspi.h)
-
 description: The TSPI_lineHold function places the specified call on hold.
 old-location: tspi\tspi_linehold.htm
 tech.root: Tapi
 ms.assetid: 395aa8cc-fdbf-4772-940b-ea5944b26812
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineHold, TSPI_lineHold function [TAPI 2.2], _tspi_tspi_linehold, tspi.tspi_linehold, tspi/TSPI_lineHold
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineHold"
+f1_keywords:
+- tspi/TSPI_lineHold
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineHold
+- TSPI_lineHold
 targetos: Windows
 req.typenames: 
 req.redist: 

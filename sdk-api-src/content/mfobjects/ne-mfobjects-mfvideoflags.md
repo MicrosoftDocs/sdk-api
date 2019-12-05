@@ -1,19 +1,17 @@
 ---
 UID: NE:mfobjects._MFVideoFlags
 title: MFVideoFlags (mfobjects.h)
-
 description: Contains flags that describe a video stream.
 old-location: mf\mfvideoflags.htm
 tech.root: medfound
 ms.assetid: 2530bf1d-05b1-4c16-b00b-117c0dadb301
-
 ms.date: 12/05/2018
 ms.keywords: 2530bf1d-05b1-4c16-b00b-117c0dadb301, MFVideoFlag_AnalogProtected, MFVideoFlag_BottomUpLinearRep, MFVideoFlag_DigitallyProtected, MFVideoFlag_FieldRepeatCountMask, MFVideoFlag_FieldRepeatCountShift, MFVideoFlag_LowerFieldFirst, MFVideoFlag_PAD_TO_16x9, MFVideoFlag_PAD_TO_4x3, MFVideoFlag_PAD_TO_Mask, MFVideoFlag_PAD_TO_None, MFVideoFlag_PanScanEnabled, MFVideoFlag_ProgressiveContent, MFVideoFlag_ProgressiveSeqReset, MFVideoFlag_SrcContentHint16x9, MFVideoFlag_SrcContentHint235_1, MFVideoFlag_SrcContentHintMask, MFVideoFlag_SrcContentHintNone, MFVideoFlags, MFVideoFlags enumeration [Media Foundation], MFVideoFlags_DXVASurface, MFVideoFlags_ForceQWORD, MFVideoFlags_RenderTargetSurface, mf.mfvideoflags, mfobjects/MFVideoFlag_AnalogProtected, mfobjects/MFVideoFlag_BottomUpLinearRep, mfobjects/MFVideoFlag_DigitallyProtected, mfobjects/MFVideoFlag_FieldRepeatCountMask, mfobjects/MFVideoFlag_FieldRepeatCountShift, mfobjects/MFVideoFlag_LowerFieldFirst, mfobjects/MFVideoFlag_PAD_TO_16x9, mfobjects/MFVideoFlag_PAD_TO_4x3, mfobjects/MFVideoFlag_PAD_TO_Mask, mfobjects/MFVideoFlag_PAD_TO_None, mfobjects/MFVideoFlag_PanScanEnabled, mfobjects/MFVideoFlag_ProgressiveContent, mfobjects/MFVideoFlag_ProgressiveSeqReset, mfobjects/MFVideoFlag_SrcContentHint16x9, mfobjects/MFVideoFlag_SrcContentHint235_1, mfobjects/MFVideoFlag_SrcContentHintMask, mfobjects/MFVideoFlag_SrcContentHintNone, mfobjects/MFVideoFlags, mfobjects/MFVideoFlags_DXVASurface, mfobjects/MFVideoFlags_ForceQWORD, mfobjects/MFVideoFlags_RenderTargetSurface
 ms.topic: enum
 f1_keywords:
 - mfobjects/MFVideoFlags
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

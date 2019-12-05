@@ -1,19 +1,17 @@
 ---
 UID: NN:mfspatialaudio.IMFSpatialAudioSample
 title: IMFSpatialAudioSample (mfspatialaudio.h)
-
 description: Represents a multimedia sample with spatial sound information. Every IMFSpatialAudioSample contains one or more IMFSpatialAudioObjectBuffer objects.
 old-location: mf\imfspatialaudiosample.htm
 tech.root: medfound
 ms.assetid: EA0277BF-C9C8-42FE-9206-A87FC3C50A9F
-
 ms.date: 12/05/2018
 ms.keywords: IMFSpatialAudioSample, IMFSpatialAudioSample interface [Media Foundation], IMFSpatialAudioSample interface [Media Foundation],described, mf.imfspatialaudiosample, mfspatialaudio/IMFSpatialAudioSample
 ms.topic: interface
-f1_keywords: 
- - "mfspatialaudio/IMFSpatialAudioSample"
+f1_keywords:
+- mfspatialaudio/IMFSpatialAudioSample
 dev_langs:
- - c++
+- c++
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfobjects.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfobjects.lib
- - mfobjects.dll
+- mfobjects.lib
+- mfobjects.dll
 api_name:
- - IMFSpatialAudioSample
+- IMFSpatialAudioSample
 targetos: Windows
 req.typenames: 
 req.redist: 

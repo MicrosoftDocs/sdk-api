@@ -1,19 +1,17 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl.GetDisplayName
 title: IAudioSessionControl::GetDisplayName (audiopolicy.h)
-
 description: The GetDisplayName method retrieves the display name for the audio session.
 old-location: coreaudio\iaudiosessioncontrol_getdisplayname.htm
 tech.root: CoreAudio
 ms.assetid: 28493e3a-ee5a-4331-b5b5-ba0bf2ee3370
-
 ms.date: 12/05/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Core Audio], GetDisplayName method [Core Audio],IAudioSessionControl interface, IAudioSessionControl interface [Core Audio],GetDisplayName method, IAudioSessionControl.GetDisplayName, IAudioSessionControl::GetDisplayName, IAudioSessionControlGetDisplayName, audiopolicy/IAudioSessionControl::GetDisplayName, coreaudio.iaudiosessioncontrol_getdisplayname
 ms.topic: method
-f1_keywords: 
- - "audiopolicy/IAudioSessionControl.GetDisplayName"
+f1_keywords:
+- audiopolicy/IAudioSessionControl.GetDisplayName
 dev_langs:
- - c++
+- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audiopolicy.h
+- Audiopolicy.h
 api_name:
- - IAudioSessionControl.GetDisplayName
+- IAudioSessionControl.GetDisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 

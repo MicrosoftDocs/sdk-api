@@ -1,19 +1,17 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_SELECT_DEVICE_PARAMS
 title: BLUETOOTH_SELECT_DEVICE_PARAMS (bluetoothapis.h)
-
 description: Facilitates and manages the visibility, authentication, and selection of Bluetooth devices and services.
 old-location: bluetooth\bluetooth_select_device_params.htm
 tech.root: bluetooth
 ms.assetid: 34ab348b-ce5d-422a-9bec-adbefa4a5ea0
-
 ms.date: 12/05/2018
 ms.keywords: BLUETOOTH_SELECT_DEVICE_PARAMS, BLUETOOTH_SELECT_DEVICE_PARAMS structure [Bluetooth], _bth_bluetooth_select_device_params, bluetooth.bluetooth_select_device_params, bluetoothapis/BLUETOOTH_SELECT_DEVICE_PARAMS
 ms.topic: struct
 f1_keywords:
 - bluetoothapis/BLUETOOTH_SELECT_DEVICE_PARAMS
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

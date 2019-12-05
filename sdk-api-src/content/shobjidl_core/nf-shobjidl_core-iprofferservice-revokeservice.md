@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IProfferService.RevokeService
 title: IProfferService::RevokeService (shobjidl_core.h)
-
 description: Makes a service unavailable that had previously been available to other objects through IProfferService::ProfferService.
 old-location: shell\IProfferService_RevokeService.htm
 tech.root: shell
 ms.assetid: 90868bbb-6fcd-4de1-a853-524542b74701
-
 ms.date: 12/05/2018
 ms.keywords: IProfferService interface [Windows Shell],RevokeService method, IProfferService.RevokeService, IProfferService::RevokeService, RevokeService, RevokeService method [Windows Shell], RevokeService method [Windows Shell],IProfferService interface, inet_IProfferService_RevokeService, shell.IProfferService_RevokeService, shobjidl_core/IProfferService::RevokeService
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IProfferService.RevokeService"
+f1_keywords:
+- shobjidl_core/IProfferService.RevokeService
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IProfferService.RevokeService
+- IProfferService.RevokeService
 targetos: Windows
 req.typenames: 
 req.redist: 

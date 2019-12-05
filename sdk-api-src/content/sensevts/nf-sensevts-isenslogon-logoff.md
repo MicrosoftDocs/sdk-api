@@ -1,19 +1,17 @@
 ---
 UID: NF:sensevts.ISensLogon.Logoff
 title: ISensLogon::Logoff (sensevts.h)
-
 description: The Logoff method notifies an application that a user is logged off.
 old-location: sens\isenslogon_logoff.htm
 tech.root: Sens
 ms.assetid: b45658a1-d427-42b2-912c-5e5c36dab280
-
 ms.date: 12/05/2018
 ms.keywords: ISensLogon interface [SENS],Logoff method, ISensLogon.Logoff, ISensLogon::Logoff, Logoff, Logoff method [SENS], Logoff method [SENS],ISensLogon interface, _zaw_isenslogon_logoff, sens.isenslogon_logoff, sensevts/ISensLogon::Logoff, syncmgr.isenslogon_logoff
 ms.topic: method
-f1_keywords: 
- - "sensevts/ISensLogon.Logoff"
+f1_keywords:
+- sensevts/ISensLogon.Logoff
 dev_langs:
- - c++
+- c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sens.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sens.dll
+- Sens.dll
 api_name:
- - ISensLogon.Logoff
+- ISensLogon.Logoff
 targetos: Windows
 req.typenames: 
 req.redist: 

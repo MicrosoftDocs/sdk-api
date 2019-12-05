@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IVMRFilterConfig
 title: IVMRFilterConfig (strmif.h)
-
 description: The IVMRFilterConfig interface is used to configure the operating mode and video rendering mechanisms of the Video Mixing Renderer Filter 7 (VMR-7).
 old-location: dshow\ivmrfilterconfig.htm
 tech.root: DirectShow
 ms.assetid: 3ea7bb41-1f5f-496f-bdf4-776ec9f28876
-
 ms.date: 12/05/2018
 ms.keywords: IVMRFilterConfig, IVMRFilterConfig interface [DirectShow], IVMRFilterConfig interface [DirectShow],described, IVMRFilterConfigInterface, dshow.ivmrfilterconfig, strmif/IVMRFilterConfig
 ms.topic: interface
-f1_keywords: 
- - "strmif/IVMRFilterConfig"
+f1_keywords:
+- strmif/IVMRFilterConfig
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRFilterConfig
+- IVMRFilterConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

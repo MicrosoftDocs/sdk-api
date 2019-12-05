@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.get_Date
 title: IRegistrationInfo::get_Date (taskschd.h)
-
 description: Gets or sets the date and time when the task is registered.
 old-location: taskschd\iregistrationinfo_date.htm
 tech.root: taskschd
 ms.assetid: b9a41413-954f-447c-8fce-f99c81fec40a
-
 ms.date: 12/05/2018
 ms.keywords: Date property [Task Scheduler], Date property [Task Scheduler],IRegistrationInfo interface, IRegistrationInfo interface [Task Scheduler],Date property, IRegistrationInfo.Date, IRegistrationInfo.get_Date, IRegistrationInfo::Date, IRegistrationInfo::get_Date, IRegistrationInfo::put_Date, get_Date, taskschd.iregistrationinfo_date, taskschd/IRegistrationInfo::Date, taskschd/IRegistrationInfo::get_Date, taskschd/IRegistrationInfo::put_Date
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRegistrationInfo.Date"
+f1_keywords:
+- taskschd/IRegistrationInfo.Date
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRegistrationInfo.Date
- - IRegistrationInfo.get_Date
- - IRegistrationInfo.put_Date
+- IRegistrationInfo.Date
+- IRegistrationInfo.get_Date
+- IRegistrationInfo.put_Date
 targetos: Windows
 req.typenames: 
 req.redist: 

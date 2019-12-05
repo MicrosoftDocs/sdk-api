@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IEnumFullIDList.Skip
 title: IEnumFullIDList::Skip (shobjidl_core.h)
-
 description: Skips a specified number of IDLIST_ABSOLUTE items.
 old-location: shell\IEnumFullIDList_Skip.htm
 tech.root: shell
 ms.assetid: f47bdab1-57be-4f40-a142-ad5edcf6fbfd
-
 ms.date: 12/05/2018
 ms.keywords: IEnumFullIDList interface [Windows Shell],Skip method, IEnumFullIDList.Skip, IEnumFullIDList::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumFullIDList interface, _shell_IEnumFullIDList_Skip, shell.IEnumFullIDList_Skip, shobjidl_core/IEnumFullIDList::Skip
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IEnumFullIDList.Skip"
+f1_keywords:
+- shobjidl_core/IEnumFullIDList.Skip
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IEnumFullIDList.Skip
+- IEnumFullIDList.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

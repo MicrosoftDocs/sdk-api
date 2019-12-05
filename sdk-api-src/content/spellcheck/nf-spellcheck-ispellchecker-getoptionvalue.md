@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheck.ISpellChecker.GetOptionValue
 title: ISpellChecker::GetOptionValue (spellcheck.h)
-
 description: Retrieves the value associated with the given option.
 old-location: intl\ispellchecker_getoptionvalue.htm
 tech.root: Intl
 ms.assetid: bdbf4fa6-9827-40d5-81c0-008e166c9390
-
 ms.date: 12/05/2018
 ms.keywords: GetOptionValue, GetOptionValue method [Internationalization for Windows Applications], GetOptionValue method [Internationalization for Windows Applications],ISpellChecker interface, ISpellChecker interface [Internationalization for Windows Applications],GetOptionValue method, ISpellChecker.GetOptionValue, ISpellChecker::GetOptionValue, intl.ispellchecker_getoptionvalue, spellcheck/ISpellChecker::GetOptionValue
 ms.topic: method
-f1_keywords: 
- - "spellcheck/ISpellChecker.GetOptionValue"
+f1_keywords:
+- spellcheck/ISpellChecker.GetOptionValue
 dev_langs:
- - c++
+- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheck.h
+- Spellcheck.h
 api_name:
- - ISpellChecker.GetOptionValue
+- ISpellChecker.GetOptionValue
 targetos: Windows
 req.typenames: 
 req.redist: 

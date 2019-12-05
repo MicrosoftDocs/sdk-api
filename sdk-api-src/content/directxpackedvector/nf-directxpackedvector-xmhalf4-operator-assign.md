@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMHALF4.operator-assign
 title: XMHALF4::operator-assign (directxpackedvector.h)
-
 description: Assigns the vector component data from one instance of XMHALF4 to the current instance of XMHALF4.
 old-location: dxmath\xmhalf4_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMHALF4.operator = (const XMHALF4)
-
 ms.date: 05/06/2019
 ms.keywords: DirectX::PackedVector.XMHALF4.operator =, DirectX::PackedVector::XMHALF4::operator =, XMHALF4 structure [DirectX Math Support APIs],operator = method, XMHALF4.operator =, XMHALF4.operator-assign, XMHALF4.operator=, XMHALF4::operator-assign, XMHALF4::operator=, dxmath.xmhalf4_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMHALF4 structure, operator=
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMHALF4.operator ="
+f1_keywords:
+- directxpackedvector/XMHALF4.operator =
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMHALF4.operator =
+- XMHALF4.operator =
 targetos: Windows
 req.typenames: 
 req.redist: 

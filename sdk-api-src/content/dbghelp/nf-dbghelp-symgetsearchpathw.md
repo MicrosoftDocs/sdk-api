@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymGetSearchPathW
 title: SymGetSearchPathW function (dbghelp.h)
-
 description: Retrieves the symbol search path for the specified process.
 old-location: base\symgetsearchpath.htm
 tech.root: Debug
 ms.assetid: aa8c8450-ee67-4614-98a1-5feebdd3a788
-
 ms.date: 12/05/2018
 ms.keywords: SymGetSearchPath, SymGetSearchPath function, SymGetSearchPathW, _win32_symgetsearchpath, base.symgetsearchpath, dbghelp/SymGetSearchPath, dbghelp/SymGetSearchPathW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymGetSearchPath"
+f1_keywords:
+- dbghelp/SymGetSearchPath
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymGetSearchPath
- - SymGetSearchPath
- - SymGetSearchPathW
+- SymGetSearchPath
+- SymGetSearchPath
+- SymGetSearchPathW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

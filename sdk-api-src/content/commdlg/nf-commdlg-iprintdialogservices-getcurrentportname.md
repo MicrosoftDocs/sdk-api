@@ -1,19 +1,17 @@
 ---
 UID: NF:commdlg.IPrintDialogServices.GetCurrentPortName
 title: IPrintDialogServices::GetCurrentPortName (commdlg.h)
-
 description: Retrieves the name of the current port for use with PrintDlgEx.
 old-location: dlgbox\iprintdialogservices_getcurrentportname.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogservices\iprintdialogservicesgetcurrentportname.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPortName, GetCurrentPortName function, GetCurrentPortName method [Dialog Boxes], GetCurrentPortName method [Dialog Boxes],IPrintDialogServices interface, IPrintDialogServices interface [Dialog Boxes],GetCurrentPortName method, IPrintDialogServices.GetCurrentPortName, IPrintDialogServices::GetCurrentPortName, _win32_IPrintDialogServices_GetCurrentPortName, _win32_iprintdialogservices_getcurrentportname_cpp, commdlg/IPrintDialogServices::GetCurrentPortName, dlgbox.iprintdialogservices_getcurrentportname, winui._win32_iprintdialogservices_getcurrentportname
 ms.topic: method
-f1_keywords: 
- - "commdlg/IPrintDialogServices.GetCurrentPortName"
+f1_keywords:
+- commdlg/IPrintDialogServices.GetCurrentPortName
 dev_langs:
- - c++
+- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comdlg32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comdlg32.dll
+- Comdlg32.dll
 api_name:
- - IPrintDialogServices.GetCurrentPortName
+- IPrintDialogServices.GetCurrentPortName
 targetos: Windows
 req.typenames: 
 req.redist: 

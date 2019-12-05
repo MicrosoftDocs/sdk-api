@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCancelWorkItem
 title: MFCancelWorkItem function (mfapi.h)
-
 description: Attempts to cancel an asynchronous operation that was scheduled with MFScheduleWorkItem or MFScheduleWorkItemEx.
 old-location: mf\mfcancelworkitem.htm
 tech.root: medfound
 ms.assetid: a24fae61-30c8-4aca-b067-22b99f904fd8
-
 ms.date: 12/05/2018
 ms.keywords: MFCancelWorkItem, MFCancelWorkItem function [Media Foundation], a24fae61-30c8-4aca-b067-22b99f904fd8, mf.mfcancelworkitem, mfapi/MFCancelWorkItem
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCancelWorkItem"
+f1_keywords:
+- mfapi/MFCancelWorkItem
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCancelWorkItem
+- MFCancelWorkItem
 targetos: Windows
 req.typenames: 
 req.redist: 

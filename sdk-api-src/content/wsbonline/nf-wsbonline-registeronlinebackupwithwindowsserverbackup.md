@@ -1,19 +1,17 @@
 ---
 UID: NF:wsbonline.RegisterOnlineBackupWithWindowsServerBackup
 title: RegisterOnlineBackupWithWindowsServerBackup function (wsbonline.h)
-
 description: Registers a Cloud backup provider with Windows Server Backup.
 old-location: wsb\registeronlinebackupwithwindowsserverbackup.htm
 tech.root: wsb
 ms.assetid: F6BBE44C-E735-47E9-8AD1-A7F1FBAC0330
-
 ms.date: 12/05/2018
 ms.keywords: RegisterOnlineBackupWithWindowsServerBackup, RegisterOnlineBackupWithWindowsServerBackup function [Windows Server Backup], wsb.registeronlinebackupwithwindowsserverbackup, wsbonline/RegisterOnlineBackupWithWindowsServerBackup
 ms.topic: function
 f1_keywords:
 - wsbonline/RegisterOnlineBackupWithWindowsServerBackup
 dev_langs:
- - c++
+- c++
 req.header: wsbonline.h
 req.include-header: 
 req.target-type: Windows

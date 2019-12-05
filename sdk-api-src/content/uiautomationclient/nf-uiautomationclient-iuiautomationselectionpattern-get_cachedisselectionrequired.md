@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern.get_CachedIsSelectionRequired
 title: IUIAutomationSelectionPattern::get_CachedIsSelectionRequired (uiautomationclient.h)
-
 description: Retrieves a cached value that indicates whether at least one item must be selected at all times.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern_CachedIsSelectionRequired.htm
 tech.root: WinAuto
 ms.assetid: 74846653-bf18-4289-9ad8-aedc20a56f29
-
 ms.date: 12/05/2018
 ms.keywords: CachedIsSelectionRequired property [Windows Accessibility], CachedIsSelectionRequired property [Windows Accessibility],IUIAutomationSelectionPattern interface, IUIAutomationSelectionPattern interface [Windows Accessibility],CachedIsSelectionRequired property, IUIAutomationSelectionPattern.CachedIsSelectionRequired, IUIAutomationSelectionPattern.get_CachedIsSelectionRequired, IUIAutomationSelectionPattern::CachedIsSelectionRequired, IUIAutomationSelectionPattern::get_CachedIsSelectionRequired, get_CachedIsSelectionRequired, uiauto.uiauto_IUIAutomationSelectionPattern_CachedIsSelectionRequired, uiauto_IUIAutomationSelectionPattern_CachedIsSelectionRequired, uiautomationclient/IUIAutomationSelectionPattern::CachedIsSelectionRequired, uiautomationclient/IUIAutomationSelectionPattern::get_CachedIsSelectionRequired, winauto.uiauto_IUIAutomationSelectionPattern_CachedIsSelectionRequired
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationSelectionPattern.CachedIsSelectionRequired"
+f1_keywords:
+- uiautomationclient/IUIAutomationSelectionPattern.CachedIsSelectionRequired
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationSelectionPattern.CachedIsSelectionRequired
- - IUIAutomationSelectionPattern.get_CachedIsSelectionRequired
+- IUIAutomationSelectionPattern.CachedIsSelectionRequired
+- IUIAutomationSelectionPattern.get_CachedIsSelectionRequired
 targetos: Windows
 req.typenames: 
 req.redist: 

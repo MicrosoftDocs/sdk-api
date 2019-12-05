@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IScrollItemProvider.ScrollIntoView
 title: IScrollItemProvider::ScrollIntoView (uiautomationcore.h)
-
 description: Scrolls the content area of a container object in order to display the control within the visible region (viewport) of the container.
 old-location: winauto\uiauto_IScrollItemProvider_ScrollIntoView.htm
 tech.root: WinAuto
 ms.assetid: 2d1ce9f2-b3ba-40c5-a750-bd739b1abc07
-
 ms.date: 12/05/2018
 ms.keywords: IScrollItemProvider interface [Windows Accessibility],ScrollIntoView method, IScrollItemProvider.ScrollIntoView, IScrollItemProvider::ScrollIntoView, ScrollIntoView, ScrollIntoView method [Windows Accessibility], ScrollIntoView method [Windows Accessibility],IScrollItemProvider interface, uiauto.uiauto_IScrollItemProvider_ScrollIntoView, uiauto_IScrollItemProvider_ScrollIntoView, uiautomationcore/IScrollItemProvider::ScrollIntoView, winauto.uiauto_IScrollItemProvider_ScrollIntoView
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IScrollItemProvider.ScrollIntoView"
+f1_keywords:
+- uiautomationcore/IScrollItemProvider.ScrollIntoView
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IScrollItemProvider.ScrollIntoView
+- IScrollItemProvider.ScrollIntoView
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll2.put_WriteCertToUserDS
 title: ICEnroll2::put_WriteCertToUserDS (xenroll.h)
-
 description: Sets or retrieves a Boolean value that determines whether the certificate is written to the user's Active Directory store.
 old-location: security\icenroll4_writecerttouserds.htm
 tech.root: SecCrypto
 ms.assetid: 8c80f6b9-f5f7-4fa1-9cb5-db19cdc9ec25
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],WriteCertToUserDS property, ICEnroll2 interface [Security],WriteCertToUserDS property, ICEnroll2.WriteCertToUserDS, ICEnroll2.put_WriteCertToUserDS, ICEnroll2::get_WriteCertToUserDS, ICEnroll2::put_WriteCertToUserDS, ICEnroll3 interface [Security],WriteCertToUserDS property, ICEnroll3.WriteCertToUserDS, ICEnroll3::get_WriteCertToUserDS, ICEnroll3::put_WriteCertToUserDS, ICEnroll4 interface [Security],WriteCertToUserDS property, ICEnroll4.WriteCertToUserDS, ICEnroll4::WriteCertToUserDS, ICEnroll4::get_WriteCertToUserDS, ICEnroll4::put_WriteCertToUserDS, WriteCertToUserDS property [Security], WriteCertToUserDS property [Security],CEnroll object, WriteCertToUserDS property [Security],ICEnroll2 interface, WriteCertToUserDS property [Security],ICEnroll3 interface, WriteCertToUserDS property [Security],ICEnroll4 interface, put_WriteCertToUserDS, security.icenroll4_writecerttouserds, xenroll/ICEnroll2::WriteCertToUserDS, xenroll/ICEnroll2::get_WriteCertToUserDS, xenroll/ICEnroll2::put_WriteCertToUserDS, xenroll/ICEnroll3::WriteCertToUserDS, xenroll/ICEnroll3::get_WriteCertToUserDS, xenroll/ICEnroll3::put_WriteCertToUserDS, xenroll/ICEnroll4::WriteCertToUserDS, xenroll/ICEnroll4::get_WriteCertToUserDS, xenroll/ICEnroll4::put_WriteCertToUserDS
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.WriteCertToUserDS"
+f1_keywords:
+- xenroll/ICEnroll4.WriteCertToUserDS
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.WriteCertToUserDS
- - ICEnroll4.get_WriteCertToUserDS
- - ICEnroll4.put_WriteCertToUserDS
- - ICEnroll3.WriteCertToUserDS
- - ICEnroll3.get_WriteCertToUserDS
- - ICEnroll3.put_WriteCertToUserDS
- - ICEnroll2.WriteCertToUserDS
- - ICEnroll2.get_WriteCertToUserDS
- - ICEnroll2.put_WriteCertToUserDS
- - CEnroll.WriteCertToUserDS
+- ICEnroll4.WriteCertToUserDS
+- ICEnroll4.get_WriteCertToUserDS
+- ICEnroll4.put_WriteCertToUserDS
+- ICEnroll3.WriteCertToUserDS
+- ICEnroll3.get_WriteCertToUserDS
+- ICEnroll3.put_WriteCertToUserDS
+- ICEnroll2.WriteCertToUserDS
+- ICEnroll2.get_WriteCertToUserDS
+- ICEnroll2.put_WriteCertToUserDS
+- CEnroll.WriteCertToUserDS
 targetos: Windows
 req.typenames: 
 req.redist: 

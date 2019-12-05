@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupCopyOEMInfA
 title: SetupCopyOEMInfA function (setupapi.h)
-
 description: The SetupCopyOEMInf function copies a specified .inf file to the %windir%/Inf directory.
 old-location: setup\setupcopyoeminf.htm
 tech.root: SetupApi
 ms.assetid: f082145d-b3e7-4efd-8820-3376a36f3710
-
 ms.date: 12/05/2018
 ms.keywords: SPOST_NONE, SPOST_PATH, SPOST_URL, SP_COPY_DELETESOURCE, SP_COPY_NOOVERWRITE, SP_COPY_OEMINF_CATALOG_ONLY, SP_COPY_REPLACEONLY, SetupCopyOEMInf, SetupCopyOEMInf function [Setup API], SetupCopyOEMInfA, SetupCopyOEMInfW, _setupapi_setupcopyoeminf, setup.setupcopyoeminf, setupapi/SetupCopyOEMInf, setupapi/SetupCopyOEMInfA, setupapi/SetupCopyOEMInfW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupCopyOEMInf"
+f1_keywords:
+- setupapi/SetupCopyOEMInf
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
- - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
+- Setupapi.dll
+- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
 api_name:
- - SetupCopyOEMInf
- - SetupCopyOEMInfA
- - SetupCopyOEMInfW
+- SetupCopyOEMInf
+- SetupCopyOEMInfA
+- SetupCopyOEMInfW
 targetos: Windows
 req.typenames: 
 req.redist: 

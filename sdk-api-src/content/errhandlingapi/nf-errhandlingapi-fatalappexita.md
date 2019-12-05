@@ -1,19 +1,17 @@
 ---
 UID: NF:errhandlingapi.FatalAppExitA
 title: FatalAppExitA function (errhandlingapi.h)
-
 description: Displays a message box and terminates the application when the message box is closed.
 old-location: base\fatalappexit.htm
 tech.root: Debug
 ms.assetid: f18d8b16-ffe1-49f1-98be-ba8d49db86ef
-
 ms.date: 12/05/2018
 ms.keywords: FatalAppExit, FatalAppExit function, FatalAppExitA, FatalAppExitW, _win32_fatalappexit, base.fatalappexit, errhandlingapi/FatalAppExit, errhandlingapi/FatalAppExitA, errhandlingapi/FatalAppExitW
 ms.topic: function
-f1_keywords: 
- - "errhandlingapi/FatalAppExit"
+f1_keywords:
+- errhandlingapi/FatalAppExit
 dev_langs:
- - c++
+- c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,28 +30,28 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-misc-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-ErrorHandling-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-misc-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-ErrorHandling-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - FatalAppExit
- - FatalAppExitA
- - FatalAppExitW
+- FatalAppExit
+- FatalAppExitA
+- FatalAppExitW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._SYSTEM_LOGICAL_PROCESSOR_INFORMATION
 title: SYSTEM_LOGICAL_PROCESSOR_INFORMATION (winnt.h)
-
 description: Describes the relationship between the specified processor set. This structure is used with the GetLogicalProcessorInformation function.
 old-location: base\system_logical_processor_information.htm
 tech.root: ProcThread
 ms.assetid: 32ef5dd8-c00d-44ee-a291-a18653beb1b9
-
 ms.date: 12/05/2018
 ms.keywords: '*PSYSTEM_LOGICAL_PROCESSOR_INFORMATION, PSYSTEM_LOGICAL_PROCESSOR_INFORMATION, PSYSTEM_LOGICAL_PROCESSOR_INFORMATION structure pointer, RelationCache, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, SYSTEM_LOGICAL_PROCESSOR_INFORMATION, SYSTEM_LOGICAL_PROCESSOR_INFORMATION structure, _SYSTEM_LOGICAL_PROCESSOR_INFORMATION, base.system_logical_processor_information, winnt/PSYSTEM_LOGICAL_PROCESSOR_INFORMATION, winnt/SYSTEM_LOGICAL_PROCESSOR_INFORMATION'
 ms.topic: struct
 f1_keywords:
 - winnt/SYSTEM_LOGICAL_PROCESSOR_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

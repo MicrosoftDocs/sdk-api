@@ -1,19 +1,17 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureEngine
 title: IMFCaptureEngine (mfcaptureengine.h)
-
 description: Controls one or more capture devices.
 old-location: mf\imfcaptureengine.htm
 tech.root: medfound
 ms.assetid: 4A2A0536-4255-40AB-BCAB-228B09343583
-
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureEngine, IMFCaptureEngine interface [Media Foundation], IMFCaptureEngine interface [Media Foundation],described, mf.imfcaptureengine, mfcaptureengine/IMFCaptureEngine
 ms.topic: interface
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureEngine"
+f1_keywords:
+- mfcaptureengine/IMFCaptureEngine
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureEngine
+- IMFCaptureEngine
 targetos: Windows
 req.typenames: 
 req.redist: 

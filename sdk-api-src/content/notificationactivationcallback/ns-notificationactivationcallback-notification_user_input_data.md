@@ -1,19 +1,17 @@
 ---
 UID: NS:notificationactivationcallback.NOTIFICATION_USER_INPUT_DATA
 title: NOTIFICATION_USER_INPUT_DATA (notificationactivationcallback.h)
-
 description: Contains information about how a user interacted with a notification toast in the action center. This structure is used by Activate.
 old-location: win32_tile_badge_notif\notification_user_input_data.htm
 tech.root: win32_tile_badge_notif
 ms.assetid: C39B906E-4EB2-4EFF-B0A3-76E6B17A3662
-
 ms.date: 12/05/2018
 ms.keywords: NOTIFICATION_USER_INPUT_DATA, NOTIFICATION_USER_INPUT_DATA structure, PNOTIFICATION_USER_INPUT_DATA, PNOTIFICATION_USER_INPUT_DATA structure pointer, notificationactivationcallback/NOTIFICATION_USER_INPUT_DATA, notificationactivationcallback/PNOTIFICATION_USER_INPUT_DATA, win32_tile_badge_notif.notification_user_input_data
 ms.topic: struct
-f1_keywords: 
- - "notificationactivationcallback/NOTIFICATION_USER_INPUT_DATA"
+f1_keywords:
+- notificationactivationcallback/NOTIFICATION_USER_INPUT_DATA
 dev_langs:
- - c++
+- c++
 req.header: notificationactivationcallback.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - NotificationActivationCallback.h
+- NotificationActivationCallback.h
 api_name:
- - NOTIFICATION_USER_INPUT_DATA
+- NOTIFICATION_USER_INPUT_DATA
 targetos: Windows
 req.typenames: NOTIFICATION_USER_INPUT_DATA
 req.redist: 

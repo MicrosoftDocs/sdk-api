@@ -1,19 +1,17 @@
 ---
 UID: NS:qos._QOS_SD_MODE
 title: QOS_SD_MODE (qos.h)
-
 description: The QOS object QOS_SD_MODE defines the behavior of the traffic control-packet shaper component.
 old-location: qos\qos_sd_mode.htm
 tech.root: QOS
 ms.assetid: a1ae9920-3e6f-4611-abce-905df7a516f5
-
 ms.date: 12/05/2018
 ms.keywords: '*LPQOS_SD_MODE, LPQOS_SD_MODE, LPQOS_SD_MODE structure pointer [QOS], QOS_SD_MODE, QOS_SD_MODE structure [QOS], TC_NONCONF_BORROW, TC_NONCONF_DISCARD, TC_NONCONF_SHAPE, _gqos_qos_sd_mode, qos.qos_sd_mode, qos/LPQOS_SD_MODE, qos/QOS_SD_MODE'
 ms.topic: struct
 f1_keywords:
 - qos/QOS_SD_MODE
 dev_langs:
- - c++
+- c++
 req.header: qos.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.CreateAnimationVectorVariable
 title: IUIAnimationManager2::CreateAnimationVectorVariable (uianimation.h)
-
 description: Creates a new animation variable for each specified dimension.
 old-location: uianimation\iuianimationmanager2_createanimationvectorvariable.htm
 tech.root: UIAnimation
 ms.assetid: b102f7d7-1a0b-40b5-bcc6-fa82dbcb4156
-
 ms.date: 12/05/2018
 ms.keywords: CreateAnimationVectorVariable, CreateAnimationVectorVariable method [Windows Animation], CreateAnimationVectorVariable method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],CreateAnimationVectorVariable method, IUIAnimationManager2.CreateAnimationVectorVariable, IUIAnimationManager2::CreateAnimationVectorVariable, uianimation.iuianimationmanager2_createanimationvectorvariable, uianimation/IUIAnimationManager2::CreateAnimationVectorVariable
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationManager2.CreateAnimationVectorVariable"
+f1_keywords:
+- uianimation/IUIAnimationManager2.CreateAnimationVectorVariable
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationManager2.CreateAnimationVectorVariable
+- IUIAnimationManager2.CreateAnimationVectorVariable
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11_1.D3D11_LOGIC_OP
 title: D3D11_LOGIC_OP (d3d11_1.h)
-
 description: Specifies logical operations to configure for a render target.
 old-location: direct3d11\d3d11_logic_op.htm
 tech.root: direct3d11
 ms.assetid: F35DF88D-03F9-4CDB-AF97-7216786AF338
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_LOGIC_OP, D3D11_LOGIC_OP enumeration [Direct3D 11], D3D11_LOGIC_OP_AND, D3D11_LOGIC_OP_AND_INVERTED, D3D11_LOGIC_OP_AND_REVERSE, D3D11_LOGIC_OP_CLEAR, D3D11_LOGIC_OP_COPY, D3D11_LOGIC_OP_COPY_INVERTED, D3D11_LOGIC_OP_EQUIV, D3D11_LOGIC_OP_INVERT, D3D11_LOGIC_OP_NAND, D3D11_LOGIC_OP_NOOP, D3D11_LOGIC_OP_NOR, D3D11_LOGIC_OP_OR, D3D11_LOGIC_OP_OR_INVERTED, D3D11_LOGIC_OP_OR_REVERSE, D3D11_LOGIC_OP_SET, D3D11_LOGIC_OP_XOR, d3d11_1/D3D11_LOGIC_OP, d3d11_1/D3D11_LOGIC_OP_AND, d3d11_1/D3D11_LOGIC_OP_AND_INVERTED, d3d11_1/D3D11_LOGIC_OP_AND_REVERSE, d3d11_1/D3D11_LOGIC_OP_CLEAR, d3d11_1/D3D11_LOGIC_OP_COPY, d3d11_1/D3D11_LOGIC_OP_COPY_INVERTED, d3d11_1/D3D11_LOGIC_OP_EQUIV, d3d11_1/D3D11_LOGIC_OP_INVERT, d3d11_1/D3D11_LOGIC_OP_NAND, d3d11_1/D3D11_LOGIC_OP_NOOP, d3d11_1/D3D11_LOGIC_OP_NOR, d3d11_1/D3D11_LOGIC_OP_OR, d3d11_1/D3D11_LOGIC_OP_OR_INVERTED, d3d11_1/D3D11_LOGIC_OP_OR_REVERSE, d3d11_1/D3D11_LOGIC_OP_SET, d3d11_1/D3D11_LOGIC_OP_XOR, direct3d11.d3d11_logic_op
 ms.topic: enum
-f1_keywords: 
- - "d3d11_1/D3D11_LOGIC_OP"
+f1_keywords:
+- d3d11_1/D3D11_LOGIC_OP
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11_1.h
+- D3D11_1.h
 api_name:
- - D3D11_LOGIC_OP
+- D3D11_LOGIC_OP
 targetos: Windows
 req.typenames: D3D11_LOGIC_OP
 req.redist: 

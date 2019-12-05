@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IACList.Expand
 title: IACList::Expand (shlobj_core.h)
-
 description: Requests that the autocompletion client generate candidate strings associated with a specified item in its namespace.
 old-location: shell\IACList_Expand.htm
 tech.root: shell
 ms.assetid: 0d4ff090-dac7-4918-bea9-312be1d960e6
-
 ms.date: 12/05/2018
 ms.keywords: Expand, Expand method [Windows Shell], Expand method [Windows Shell],IACList interface, IACList interface [Windows Shell],Expand method, IACList.Expand, IACList::Expand, _win32_IACList_Expand, shell.IACList_Expand, shlobj_core/IACList::Expand
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IACList.Expand"
+f1_keywords:
+- shlobj_core/IACList.Expand
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IACList.Expand
+- IACList.Expand
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport2.AddBehavior
 title: IDirectManipulationViewport2::AddBehavior (directmanipulation.h)
-
 description: Adds a behavior to the viewport and returns a cookie to the caller.
 old-location: directmanipulation\idirectmanipulationviewport2_addbehavior.htm
 tech.root: directmanipulation
 ms.assetid: E65CF2A3-EF44-4B4E-A8C5-7DC75345B5A6
-
 ms.date: 12/05/2018
 ms.keywords: AddBehavior, AddBehavior method [Direct Manipulation], AddBehavior method [Direct Manipulation],IDirectManipulationViewport2 interface, IDirectManipulationViewport2 interface [Direct Manipulation],AddBehavior method, IDirectManipulationViewport2.AddBehavior, IDirectManipulationViewport2::AddBehavior, directmanipulation.idirectmanipulationviewport2_addbehavior, directmanipulation/IDirectManipulationViewport2::AddBehavior
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport2.AddBehavior"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport2.AddBehavior
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport2.AddBehavior
+- IDirectManipulationViewport2.AddBehavior
 targetos: Windows
 req.typenames: 
 req.redist: 

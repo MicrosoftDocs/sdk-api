@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngWaitForSingleObject
 title: EngWaitForSingleObject function (winddi.h)
-
 description: The EngWaitForSingleObject function puts the current thread of the display driver into a wait state until the specified event object is set to the signaled state, or until the wait times out.
 old-location: display\engwaitforsingleobject.htm
 tech.root: display
 ms.assetid: a2a1c7ad-1e56-45f7-83de-49ebc0d831f9
-
 ms.date: 12/05/2018
 ms.keywords: EngWaitForSingleObject, EngWaitForSingleObject function [Display Devices], display.engwaitforsingleobject, gdifncs_12c16d6b-ff3f-4cd4-8d4c-150ab8377dfb.xml, winddi/EngWaitForSingleObject
 ms.topic: function
-f1_keywords: 
- - "winddi/EngWaitForSingleObject"
+f1_keywords:
+- winddi/EngWaitForSingleObject
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngWaitForSingleObject
+- EngWaitForSingleObject
 targetos: Windows
 req.typenames: 
 req.redist: 

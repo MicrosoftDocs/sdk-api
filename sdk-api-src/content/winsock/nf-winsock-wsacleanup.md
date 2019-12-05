@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock.WSACleanup
 title: WSACleanup function (winsock.h)
-
 description: The WSACleanup function terminates use of the WS2_32.dll.
 old-location: winsock\wsacleanup_2.htm
 tech.root: WinSock
 ms.assetid: 72b7cc3e-be34-41e7-acbf-61742149ec8b
-
 ms.date: 12/05/2018
 ms.keywords: WSACleanup, WSACleanup function [Winsock], _win32_wsacleanup_2, winsock.wsacleanup_2, winsock/WSACleanup
 ms.topic: function
-f1_keywords: 
- - "winsock/WSACleanup"
+f1_keywords:
+- winsock/WSACleanup
 dev_langs:
- - c++
+- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
- - bcrypt.dll
- - wsock32.dll
+- Ws2_32.dll
+- bcrypt.dll
+- wsock32.dll
 api_name:
- - WSACleanup
+- WSACleanup
 targetos: Windows
 req.typenames: 
 req.redist: 

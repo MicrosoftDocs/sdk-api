@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.remove_TransportParametersUpdate
 title: IMediaRenderer::streaming (windows.media.streaming.h)
-
 description: Unregisters an event handler for the TransportParametersUpdate event.
 old-location: mediastreaming\imediarenderer_remove_transportparametersupdate.htm
 tech.root: mediastreaming
 ms.assetid: 7AA7B336-5C51-4774-89A1-F710603A7B23
-
 ms.date: 12/05/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],remove_TransportParametersUpdate method, IMediaRenderer.remove_TransportParametersUpdate, IMediaRenderer.streaming, IMediaRenderer::remove_TransportParametersUpdate, IMediaRenderer::streaming, mediastreaming.imediarenderer_remove_transportparametersupdate, remove_TransportParametersUpdate, remove_TransportParametersUpdate method [Media Streaming API], remove_TransportParametersUpdate method [Media Streaming API],IMediaRenderer interface, windows/IMediaRenderer::remove_TransportParametersUpdate
 ms.topic: method
-f1_keywords: 
- - "windows.media.streaming/IMediaRenderer.remove_TransportParametersUpdate"
+f1_keywords:
+- windows.media.streaming/IMediaRenderer.remove_TransportParametersUpdate
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.media.streaming.h
+- windows.media.streaming.h
 api_name:
- - IMediaRenderer.remove_TransportParametersUpdate
+- IMediaRenderer.remove_TransportParametersUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 

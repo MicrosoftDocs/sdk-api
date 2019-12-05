@@ -1,19 +1,17 @@
 ---
 UID: NF:immdev.ImmSetCompositionWindow
 title: ImmSetCompositionWindow function (immdev.h)
-
 description: Sets the position of the composition window.
 old-location: intl\immsetcompositionwindow.htm
 tech.root: Intl
 ms.assetid: 01204f4c-4cf1-4bff-99db-fa0c66c2a8e9
-
 ms.date: 12/05/2018
 ms.keywords: ImmSetCompositionWindow, ImmSetCompositionWindow function [Internationalization for Windows Applications], _win32_ImmSetCompositionWindow, imm/ImmSetCompositionWindow, intl.immsetcompositionwindow
 ms.topic: function
-f1_keywords: 
- - "immdev/ImmSetCompositionWindow"
+f1_keywords:
+- immdev/ImmSetCompositionWindow
 dev_langs:
- - c++
+- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
- - Ext-MS-Win-imm-l1-1-0.dll
- - ext-ms-win-imm-l1-1-1.dll
+- Imm32.dll
+- Ext-MS-Win-imm-l1-1-0.dll
+- ext-ms-win-imm-l1-1-1.dll
 api_name:
- - ImmSetCompositionWindow
+- ImmSetCompositionWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

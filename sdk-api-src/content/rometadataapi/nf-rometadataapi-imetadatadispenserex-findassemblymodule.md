@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenserEx.FindAssemblyModule
 title: IMetaDataDispenserEx::FindAssemblyModule (rometadataapi.h)
-
 description: Finds the name of the assembly module.
 old-location: winrt\imetadatadispenserex_findassemblymodule.htm
 tech.root: WinRT
 ms.assetid: 258d670b-6a94-4151-8746-a3df69677c5b
-
 ms.date: 12/05/2018
 ms.keywords: FindAssemblyModule, FindAssemblyModule method [Windows Runtime], FindAssemblyModule method [Windows Runtime],IMetaDataDispenserEx interface, IMetaDataDispenserEx interface [Windows Runtime],FindAssemblyModule method, IMetaDataDispenserEx.FindAssemblyModule, IMetaDataDispenserEx::FindAssemblyModule, rometadataapi/IMetaDataDispenserEx::FindAssemblyModule, winrt.imetadatadispenserex_findassemblymodule
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataDispenserEx.FindAssemblyModule"
+f1_keywords:
+- rometadataapi/IMetaDataDispenserEx.FindAssemblyModule
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataDispenserEx.FindAssemblyModule
+- IMetaDataDispenserEx.FindAssemblyModule
 targetos: Windows
 req.typenames: 
 req.redist: 

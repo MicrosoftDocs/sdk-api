@@ -1,19 +1,17 @@
 ---
 UID: NF:t2embapi.TTEnableEmbeddingForFacename
 title: TTEnableEmbeddingForFacename function (t2embapi.h)
-
 description: Adds or removes facenames from the typeface exclusion list.
 old-location: gdi\ttenableembeddingforfacename.htm
 tech.root: gdi
 ms.assetid: 05d74bfb-28c4-4e1a-9e18-df868f8fa784
-
 ms.date: 12/05/2018
 ms.keywords: TTEnableEmbeddingForFacename, TTEnableEmbeddingForFacename function [Windows GDI], _win32_TTEnableEmbeddingForFacename, gdi.ttenableembeddingforfacename, t2embapi/TTEnableEmbeddingForFacename
 ms.topic: function
-f1_keywords: 
- - "t2embapi/TTEnableEmbeddingForFacename"
+f1_keywords:
+- t2embapi/TTEnableEmbeddingForFacename
 dev_langs:
- - c++
+- c++
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: T2embed.lib
 req.dll: T2embed.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - T2embed.dll
+- T2embed.dll
 api_name:
- - TTEnableEmbeddingForFacename
+- TTEnableEmbeddingForFacename
 targetos: Windows
 req.typenames: 
 req.redist: 

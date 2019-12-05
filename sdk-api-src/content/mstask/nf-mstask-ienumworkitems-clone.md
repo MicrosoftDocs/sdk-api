@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.IEnumWorkItems.Clone
 title: IEnumWorkItems::Clone (mstask.h)
-
 description: Creates a new enumeration object that contains the same enumeration state as the current enumeration.
 old-location: taskschd\ienumworkitems_clone.htm
 tech.root: taskschd
 ms.assetid: c42550df-33ad-49cc-ab89-5f952cce2a83
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Task Scheduler], Clone method [Task Scheduler],IEnumWorkItems interface, IEnumWorkItems interface [Task Scheduler],Clone method, IEnumWorkItems.Clone, IEnumWorkItems::Clone, _msb_ienumworkitems_clone, mstask/IEnumWorkItems::Clone, taskschd.ienumworkitems_clone
 ms.topic: method
-f1_keywords: 
- - "mstask/IEnumWorkItems.Clone"
+f1_keywords:
+- mstask/IEnumWorkItems.Clone
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IEnumWorkItems.Clone
+- IEnumWorkItems.Clone
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

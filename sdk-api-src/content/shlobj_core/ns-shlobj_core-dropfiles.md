@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj_core._DROPFILES
 title: DROPFILES (shlobj_core.h)
-
 description: Defines the CF_HDROP clipboard format. The data that follows is a double null-terminated list of file names.
 old-location: shell\DROPFILES.htm
 tech.root: shell
 ms.assetid: e1f80529-2151-4ff6-95e0-afff67f2f117
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDROPFILES, DROPFILES, DROPFILES structure [Windows Shell], LPDROPFILES, LPDROPFILES structure pointer [Windows Shell], _DROPFILES, _win32_DROPFILES, shell.DROPFILES, shlobj_core/DROPFILES, shlobj_core/LPDROPFILES"
+ms.keywords: '*LPDROPFILES, DROPFILES, DROPFILES structure [Windows Shell], LPDROPFILES, LPDROPFILES structure pointer [Windows Shell], _DROPFILES, _win32_DROPFILES, shell.DROPFILES, shlobj_core/DROPFILES, shlobj_core/LPDROPFILES'
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/DROPFILES"
+f1_keywords:
+- shlobj_core/DROPFILES
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - DROPFILES
+- DROPFILES
 targetos: Windows
 req.typenames: DROPFILES, *LPDROPFILES
 req.redist: 

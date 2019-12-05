@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReference.GetRelationshipSigningOption
 title: IOpcSignatureRelationshipReference::GetRelationshipSigningOption (msopc.h)
-
 description: Gets a value that describes whether all or a subset of relationships that are stored in the referenced&#160;Relationships part are selected.
 old-location: opc\iopcsignaturerelationshipreference_getrelationshipsigningoption.htm
 tech.root: OPC
 ms.assetid: 9960c67c-4f09-435e-b82c-ca449645f6e5
-
 ms.date: 12/05/2018
 ms.keywords: GetRelationshipSigningOption, GetRelationshipSigningOption method [Open Packaging Conventions], GetRelationshipSigningOption method [Open Packaging Conventions],IOpcSignatureRelationshipReference interface, IOpcSignatureRelationshipReference interface [Open Packaging Conventions],GetRelationshipSigningOption method, IOpcSignatureRelationshipReference.GetRelationshipSigningOption, IOpcSignatureRelationshipReference::GetRelationshipSigningOption, msopc/IOpcSignatureRelationshipReference::GetRelationshipSigningOption, opc.iopcsignaturerelationshipreference_getrelationshipsigningoption
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSignatureRelationshipReference.GetRelationshipSigningOption"
+f1_keywords:
+- msopc/IOpcSignatureRelationshipReference.GetRelationshipSigningOption
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignatureRelationshipReference.GetRelationshipSigningOption
+- IOpcSignatureRelationshipReference.GetRelationshipSigningOption
 targetos: Windows
 req.typenames: 
 req.redist: 

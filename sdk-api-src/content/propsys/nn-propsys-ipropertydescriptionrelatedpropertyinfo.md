@@ -1,19 +1,17 @@
 ---
 UID: NN:propsys.IPropertyDescriptionRelatedPropertyInfo
 title: IPropertyDescriptionRelatedPropertyInfo (propsys.h)
-
 description: Provides a method that retrives an IPropertyDescription interface.
 old-location: properties\IPropertyDescriptionRelatedPropertyInfo.htm
 tech.root: properties
 ms.assetid: 1658542e-ca2f-4566-b40f-8647577f4481
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyDescriptionRelatedPropertyInfo, IPropertyDescriptionRelatedPropertyInfo interface [Windows Properties], IPropertyDescriptionRelatedPropertyInfo interface [Windows Properties],described, properties.IPropertyDescriptionRelatedPropertyInfo, propsys/IPropertyDescriptionRelatedPropertyInfo, shell.IPropertyDescriptionRelatedPropertyInfo, shell_IPropertyDescriptionRelatedPropertyInfo
 ms.topic: interface
-f1_keywords: 
- - "propsys/IPropertyDescriptionRelatedPropertyInfo"
+f1_keywords:
+- propsys/IPropertyDescriptionRelatedPropertyInfo
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyDescriptionRelatedPropertyInfo
+- IPropertyDescriptionRelatedPropertyInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

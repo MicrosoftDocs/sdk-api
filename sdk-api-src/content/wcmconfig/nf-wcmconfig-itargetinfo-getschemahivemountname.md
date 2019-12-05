@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetSchemaHiveMountName
 title: ITargetInfo::GetSchemaHiveMountName (wcmconfig.h)
-
 description: Gets the name of the mount location of the schema hive.
 old-location: smi\itargetinfo_getschemahivemountname.htm
 tech.root: SMI
 ms.assetid: d63e3f49-bb7b-4ef6-a573-811b9bbdd9b0
-
 ms.date: 12/05/2018
 ms.keywords: GetSchemaHiveMountName, GetSchemaHiveMountName method [SMI], GetSchemaHiveMountName method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetSchemaHiveMountName method, ITargetInfo.GetSchemaHiveMountName, ITargetInfo::GetSchemaHiveMountName, smi.itargetinfo_getschemahivemountname, wcmconfig/ITargetInfo::GetSchemaHiveMountName
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ITargetInfo.GetSchemaHiveMountName"
+f1_keywords:
+- wcmconfig/ITargetInfo.GetSchemaHiveMountName
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ITargetInfo.GetSchemaHiveMountName
+- ITargetInfo.GetSchemaHiveMountName
 targetos: Windows
 req.typenames: 
 req.redist: 

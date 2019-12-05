@@ -1,19 +1,17 @@
 ---
 UID: NF:wlanapi.WlanGetProfileList
 title: WlanGetProfileList function (wlanapi.h)
-
 description: Retrieves the list of profiles.
 old-location: nwifi\wlangetprofilelist.htm
 tech.root: NativeWiFi
 ms.assetid: f4336113-538f-4161-a71f-64a432e31f1c
-
 ms.date: 12/05/2018
 ms.keywords: WlanGetProfileList, WlanGetProfileList function [NativeWIFI], nwifi.wlangetprofilelist, wlanapi/WlanGetProfileList
 ms.topic: function
 f1_keywords:
 - wlanapi/WlanGetProfileList
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

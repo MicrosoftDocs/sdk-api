@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ITransactionProxy.GetIdentifier
 title: ITransactionProxy::GetIdentifier (comsvcs.h)
-
 description: Retrieves the identifier of the non-DTC transaction.
 old-location: cos\itransactionproxy_getidentifier.htm
 tech.root: cossdk
 ms.assetid: 8045989b-7b66-4340-a06e-4b4102d09784
-
 ms.date: 12/05/2018
 ms.keywords: GetIdentifier, GetIdentifier method [COM+], GetIdentifier method [COM+],ITransactionProxy interface, ITransactionProxy interface [COM+],GetIdentifier method, ITransactionProxy.GetIdentifier, ITransactionProxy::GetIdentifier, comsvcs/ITransactionProxy::GetIdentifier, cos.itransactionproxy_getidentifier
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ITransactionProxy.GetIdentifier"
+f1_keywords:
+- comsvcs/ITransactionProxy.GetIdentifier
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ITransactionProxy.GetIdentifier
+- ITransactionProxy.GetIdentifier
 targetos: Windows
 req.typenames: 
 req.redist: 

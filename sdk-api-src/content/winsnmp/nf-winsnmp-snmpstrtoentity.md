@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpStrToEntity
 title: SnmpStrToEntity function (winsnmp.h)
-
 description: The WinSNMP SnmpStrToEntity function returns a handle to information about an SNMP management entity that is specific to the Microsoft WinSNMP implementation.
 old-location: snmp\snmpstrtoentity.htm
 tech.root: SNMP
 ms.assetid: d0a8e389-ba5b-45f4-9682-1fbe456daaed
-
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_TRANSLATED, SNMPAPI_UNTRANSLATED_V1, SNMPAPI_UNTRANSLATED_V2, SnmpStrToEntity, SnmpStrToEntity function [SNMP], _snmp_snmpstrtoentity, snmp.snmpstrtoentity, winsnmp/SnmpStrToEntity
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpStrToEntity"
+f1_keywords:
+- winsnmp/SnmpStrToEntity
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpStrToEntity
+- SnmpStrToEntity
 targetos: Windows
 req.typenames: 
 req.redist: 

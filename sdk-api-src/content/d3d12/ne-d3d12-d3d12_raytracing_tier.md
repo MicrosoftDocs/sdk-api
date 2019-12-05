@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_RAYTRACING_TIER
 title: D3D12_RAYTRACING_TIER (d3d12.h)
-
 description: Specifies the level of ray tracing support on the graphics device.
 old-location: direct3d12\d3d12_raytracing_tier.htm
 tech.root: direct3d12
 ms.assetid: 1C97DD15-5BAD-4BDC-AE43-4B6A1350B6A0
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_RAYTRACING_TIER, D3D12_RAYTRACING_TIER enumeration, D3D12_RAYTRACING_TIER_1_0, D3D12_RAYTRACING_TIER_NOT_SUPPORTED, d3d12/D3D12_RAYTRACING_TIER, d3d12/D3D12_RAYTRACING_TIER_1_0, d3d12/D3D12_RAYTRACING_TIER_NOT_SUPPORTED, direct3d12.d3d12_raytracing_tier
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_RAYTRACING_TIER"
+f1_keywords:
+- d3d12/D3D12_RAYTRACING_TIER
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_RAYTRACING_TIER
+- D3D12_RAYTRACING_TIER
 targetos: Windows
 req.typenames: D3D12_RAYTRACING_TIER
 req.redist: 

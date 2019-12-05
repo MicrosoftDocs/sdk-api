@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.ISignerCertificates
 title: ISignerCertificates (certenroll.h)
-
 description: The ISignerCertificates interface defines the following methods and properties to manage a collection of ISignerCertificate objects.
 old-location: security\isignercertificates.htm
 tech.root: seccertenroll
 ms.assetid: 420d6550-514a-4fea-987b-6deecbc9b717
-
 ms.date: 12/05/2018
 ms.keywords: ISignerCertificates, ISignerCertificates interface [Security], ISignerCertificates interface [Security],described, certenroll/ISignerCertificates, security.isignercertificates
 ms.topic: interface
-f1_keywords: 
- - "certenroll/ISignerCertificates"
+f1_keywords:
+- certenroll/ISignerCertificates
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ISignerCertificates
+- ISignerCertificates
 targetos: Windows
 req.typenames: 
 req.redist: 

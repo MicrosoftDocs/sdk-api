@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.SetVersion
 title: ICreateTypeLib::SetVersion (oaidl.h)
-
 description: Sets the major and minor version numbers of the type library.
 old-location: automat\icreatetypelib_setversion.htm
 tech.root: automat
 ms.assetid: 1c71bf8f-998a-4a9a-a4a8-981f51334cbe
-
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetVersion method, ICreateTypeLib.SetVersion, ICreateTypeLib::SetVersion, SetVersion, SetVersion method [Automation], SetVersion method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetVersion, automat.icreatetypelib_setversion, oaidl/ICreateTypeLib::SetVersion
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeLib.SetVersion"
+f1_keywords:
+- oaidl/ICreateTypeLib.SetVersion
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeLib.SetVersion
+- ICreateTypeLib.SetVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

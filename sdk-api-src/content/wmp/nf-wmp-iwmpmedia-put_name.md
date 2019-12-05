@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPMedia.put_name
 title: IWMPMedia::put_name (wmp.h)
-
 description: The put_name method specifies sets the name of the media item.
 old-location: wmp\iwmpmedia_put_name.htm
 tech.root: WMP
 ms.assetid: 2cf6cff8-c5d1-4d10-8d32-764e35ef7ba2
-
 ms.date: 12/05/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],put_name method, IWMPMedia.put_name, IWMPMedia2 interface [Windows Media Player],put_name method, IWMPMedia2::put_name, IWMPMedia3 interface [Windows Media Player],put_name method, IWMPMedia3::put_name, IWMPMedia::put_name, IWMPMediaput_name, put_name, put_name method [Windows Media Player], put_name method [Windows Media Player],IWMPMedia interface, put_name method [Windows Media Player],IWMPMedia2 interface, put_name method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_put_name, wmp/IWMPMedia2::put_name, wmp/IWMPMedia3::put_name, wmp/IWMPMedia::put_name
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPMedia.put_name"
+f1_keywords:
+- wmp/IWMPMedia.put_name
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPMedia.put_name
- - IWMPMedia2.put_name
- - IWMPMedia3.put_name
+- IWMPMedia.put_name
+- IWMPMedia2.put_name
+- IWMPMedia3.put_name
 targetos: Windows
 req.typenames: 
 req.redist: 

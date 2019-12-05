@@ -1,19 +1,17 @@
 ---
 UID: NN:sensevts.ISensLogon2
 title: ISensLogon2 (sensevts.h)
-
 description: The ISensLogon2 interface handles logon events fired by SENS.
 old-location: sens\isenslogon2.htm
 tech.root: Sens
 ms.assetid: be61b5b9-d4f1-40ea-a734-7b02c06e41e8
-
 ms.date: 12/05/2018
 ms.keywords: ISensLogon2, ISensLogon2 interface [SENS], ISensLogon2 interface [SENS],described, _zaw_isenslogon2, sens.isenslogon2, sensevts/ISensLogon2, syncmgr.isenslogon2
 ms.topic: interface
-f1_keywords: 
- - "sensevts/ISensLogon2"
+f1_keywords:
+- sensevts/ISensLogon2
 dev_langs:
- - c++
+- c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sens.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sens.dll
+- Sens.dll
 api_name:
- - ISensLogon2
+- ISensLogon2
 targetos: Windows
 req.typenames: 
 req.redist: 

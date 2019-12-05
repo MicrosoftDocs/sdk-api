@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.IsTokenRestricted
 title: IsTokenRestricted function (securitybaseapi.h)
-
 description: Indicates whether a token contains a list of restricted security identifiers (SIDs).
 old-location: security\istokenrestricted.htm
 tech.root: SecAuthZ
 ms.assetid: eaa63bb9-3084-4246-b2ab-f913bb7348fb
-
 ms.date: 12/05/2018
 ms.keywords: IsTokenRestricted, IsTokenRestricted function [Security], _win32_istokenrestricted, security.istokenrestricted, securitybaseapi/IsTokenRestricted
 ms.topic: function
-f1_keywords: 
- - "securitybaseapi/IsTokenRestricted"
+f1_keywords:
+- securitybaseapi/IsTokenRestricted
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-Security-base-l1-1-0.dll
- - API-MS-Win-Security-base-l1-2-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Security-Base-L1-2-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- API-MS-Win-Security-base-l1-1-0.dll
+- API-MS-Win-Security-base-l1-2-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - IsTokenRestricted
+- IsTokenRestricted
 targetos: Windows
 req.typenames: 
 req.redist: 

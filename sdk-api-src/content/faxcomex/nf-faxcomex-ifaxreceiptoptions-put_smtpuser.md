@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxReceiptOptions.put_SMTPUser
 title: IFaxReceiptOptions::put_SMTPUser (faxcomex.h)
-
 description: The IFaxReceiptOptions::get_SMTPUser property is a null-terminated string that contains the Simple Mail Transport Protocol (SMTP) user name used for authenticated connections.
 old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtpuser_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_67qq.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxReceiptOptions interface [Fax Service],SMTPUser property, IFaxReceiptOptions.SMTPUser, IFaxReceiptOptions.get_SMTPUser, IFaxReceiptOptions.put_SMTPUser, IFaxReceiptOptions::SMTPUser, IFaxReceiptOptions::get_SMTPUser, IFaxReceiptOptions::put_SMTPUser, SMTPUser property [Fax Service], SMTPUser property [Fax Service],IFaxReceiptOptions interface, _mfax_faxreceiptoptions.smtpuser, fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtpuser_cpp, fax._mfax_faxreceiptoptions_smtpuser, faxcomex/IFaxReceiptOptions::SMTPUser, faxcomex/IFaxReceiptOptions::get_SMTPUser, faxcomex/IFaxReceiptOptions::put_SMTPUser, put_SMTPUser
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxReceiptOptions.SMTPUser"
+f1_keywords:
+- faxcomex/IFaxReceiptOptions.SMTPUser
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxReceiptOptions.SMTPUser
- - IFaxReceiptOptions.get_SMTPUser
- - IFaxReceiptOptions.put_SMTPUser
- - IFaxReceiptOptions.get_SMTPUser
- - IFaxReceiptOptions.put_SMTPUser
+- IFaxReceiptOptions.SMTPUser
+- IFaxReceiptOptions.get_SMTPUser
+- IFaxReceiptOptions.put_SMTPUser
+- IFaxReceiptOptions.get_SMTPUser
+- IFaxReceiptOptions.put_SMTPUser
 targetos: Windows
 req.typenames: 
 req.redist: 

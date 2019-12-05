@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.StrRetToStrA
 title: StrRetToStrA function (shlwapi.h)
-
 description: Takes an STRRET structure returned by IShellFolder::GetDisplayNameOf and returns a pointer to an allocated string containing the display name.
 old-location: shell\StrRetToStr.htm
 tech.root: shell
 ms.assetid: 03b0dffb-8ef7-41da-9773-81ed55275802
-
 ms.date: 12/05/2018
 ms.keywords: StrRetToStr, StrRetToStr function [Windows Shell], StrRetToStrA, StrRetToStrW, _win32_StrRetToStr, shell.StrRetToStr, shlwapi/StrRetToStr, shlwapi/StrRetToStrA, shlwapi/StrRetToStrW
 ms.topic: function
 f1_keywords:
 - shlwapi/StrRetToStr
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

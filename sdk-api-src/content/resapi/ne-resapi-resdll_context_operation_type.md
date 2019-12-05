@@ -1,19 +1,17 @@
 ---
 UID: NE:resapi.RESDLL_CONTEXT_OPERATION_TYPE
 title: RESDLL_CONTEXT_OPERATION_TYPE (resapi.h)
-
 description: Specifies the various types of context operations for the GET_OPERATION_CONTEXT_PARAMS structure.
 old-location: mscs\resdll_context_operation_type.htm
 tech.root: MsCS
 ms.assetid: 8C074E15-4060-4AC7-BB59-959854102EE0
-
 ms.date: 12/05/2018
-ms.keywords: "*PRESDLL_CONTEXT_OPERATION_TYPE, PRESDLL_CONTEXT_OPERATION_TYPE, PRESDLL_CONTEXT_OPERATION_TYPE enumeration pointer [Failover Cluster], RESDLL_CONTEXT_OPERATION_TYPE, RESDLL_CONTEXT_OPERATION_TYPE enumeration [Failover Cluster], ResdllContextOperationTypeDrain, ResdllContextOperationTypeDrainFailure, ResdllContextOperationTypeEmbeddedFailure, ResdllContextOperationTypeFailback, ResdllContextOperationTypeNetworkDisconnect, ResdllContextOperationTypeNetworkDisconnectMoveRetry, ResdllContextOperationTypePreemption, mscs.resdll_context_operation_type, resapi/PRESDLL_CONTEXT_OPERATION_TYPE, resapi/RESDLL_CONTEXT_OPERATION_TYPE, resapi/ResdllContextOperationTypeDrain, resapi/ResdllContextOperationTypeDrainFailure, resapi/ResdllContextOperationTypeEmbeddedFailure, resapi/ResdllContextOperationTypeFailback, resapi/ResdllContextOperationTypeNetworkDisconnect, resapi/ResdllContextOperationTypeNetworkDisconnectMoveRetry, resapi/ResdllContextOperationTypePreemption"
+ms.keywords: '*PRESDLL_CONTEXT_OPERATION_TYPE, PRESDLL_CONTEXT_OPERATION_TYPE, PRESDLL_CONTEXT_OPERATION_TYPE enumeration pointer [Failover Cluster], RESDLL_CONTEXT_OPERATION_TYPE, RESDLL_CONTEXT_OPERATION_TYPE enumeration [Failover Cluster], ResdllContextOperationTypeDrain, ResdllContextOperationTypeDrainFailure, ResdllContextOperationTypeEmbeddedFailure, ResdllContextOperationTypeFailback, ResdllContextOperationTypeNetworkDisconnect, ResdllContextOperationTypeNetworkDisconnectMoveRetry, ResdllContextOperationTypePreemption, mscs.resdll_context_operation_type, resapi/PRESDLL_CONTEXT_OPERATION_TYPE, resapi/RESDLL_CONTEXT_OPERATION_TYPE, resapi/ResdllContextOperationTypeDrain, resapi/ResdllContextOperationTypeDrainFailure, resapi/ResdllContextOperationTypeEmbeddedFailure, resapi/ResdllContextOperationTypeFailback, resapi/ResdllContextOperationTypeNetworkDisconnect, resapi/ResdllContextOperationTypeNetworkDisconnectMoveRetry, resapi/ResdllContextOperationTypePreemption'
 ms.topic: enum
-f1_keywords: 
- - "resapi/RESDLL_CONTEXT_OPERATION_TYPE"
+f1_keywords:
+- resapi/RESDLL_CONTEXT_OPERATION_TYPE
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - RESDLL_CONTEXT_OPERATION_TYPE
+- RESDLL_CONTEXT_OPERATION_TYPE
 targetos: Windows
 req.typenames: RESDLL_CONTEXT_OPERATION_TYPE, *PRESDLL_CONTEXT_OPERATION_TYPE
 req.redist: 

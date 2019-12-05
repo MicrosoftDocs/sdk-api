@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidDevice.IsEqualDevice
 title: IMSVidDevice::IsEqualDevice (segment.h)
-
 description: The IsEqualDevice method queries whether this device and another device represent the same underlying hardware.
 old-location: mstv\imsviddevice_isequaldevice.htm
 tech.root: mstv
 ms.assetid: b0f59466-7a2a-453e-999c-c7ebf126d18b
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],IsEqualDevice method, IMSVidDevice.IsEqualDevice, IMSVidDevice::IsEqualDevice, IMSVidDeviceIsEqualDevice, IsEqualDevice, IsEqualDevice method [Microsoft TV Technologies], IsEqualDevice method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_isequaldevice, segment/IMSVidDevice::IsEqualDevice
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidDevice.IsEqualDevice"
+f1_keywords:
+- segment/IMSVidDevice.IsEqualDevice
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidDevice.IsEqualDevice
+- IMSVidDevice.IsEqualDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

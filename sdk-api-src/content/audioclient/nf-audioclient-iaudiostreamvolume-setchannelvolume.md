@@ -1,19 +1,17 @@
 ---
 UID: NF:audioclient.IAudioStreamVolume.SetChannelVolume
 title: IAudioStreamVolume::SetChannelVolume (audioclient.h)
-
 description: The SetChannelVolume method sets the volume level for the specified channel in the audio stream.
 old-location: coreaudio\iaudiostreamvolume_setchannelvolume.htm
 tech.root: CoreAudio
 ms.assetid: 49452b32-5ad0-446b-b237-2f17d60ff3f0
-
 ms.date: 12/05/2018
 ms.keywords: IAudioStreamVolume interface [Core Audio],SetChannelVolume method, IAudioStreamVolume.SetChannelVolume, IAudioStreamVolume::SetChannelVolume, IAudioStreamVolumeSetChannelVolume, SetChannelVolume, SetChannelVolume method [Core Audio], SetChannelVolume method [Core Audio],IAudioStreamVolume interface, audioclient/IAudioStreamVolume::SetChannelVolume, coreaudio.iaudiostreamvolume_setchannelvolume
 ms.topic: method
-f1_keywords: 
- - "audioclient/IAudioStreamVolume.SetChannelVolume"
+f1_keywords:
+- audioclient/IAudioStreamVolume.SetChannelVolume
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - IAudioStreamVolume.SetChannelVolume
+- IAudioStreamVolume.SetChannelVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

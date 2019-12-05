@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupRemoveFromDiskSpaceListW
 title: SetupRemoveFromDiskSpaceListW function (setupapi.h)
-
 description: The SetupRemoveFromDiskSpaceList function removes a file delete or copy operation from a disk-space list.
 old-location: setup\setupremovefromdiskspacelist.htm
 tech.root: SetupApi
 ms.assetid: 0d23c8ce-ada6-4640-b9ad-8989f9a122a2
-
 ms.date: 12/05/2018
 ms.keywords: FILEOP_COPY, FILEOP_DELETE, SetupRemoveFromDiskSpaceList, SetupRemoveFromDiskSpaceList function [Setup API], SetupRemoveFromDiskSpaceListA, SetupRemoveFromDiskSpaceListW, _setupapi_setupremovefromdiskspacelist, setup.setupremovefromdiskspacelist, setupapi/SetupRemoveFromDiskSpaceList, setupapi/SetupRemoveFromDiskSpaceListA, setupapi/SetupRemoveFromDiskSpaceListW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupRemoveFromDiskSpaceList"
+f1_keywords:
+- setupapi/SetupRemoveFromDiskSpaceList
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupRemoveFromDiskSpaceList
- - SetupRemoveFromDiskSpaceListA
- - SetupRemoveFromDiskSpaceListW
+- SetupRemoveFromDiskSpaceList
+- SetupRemoveFromDiskSpaceListA
+- SetupRemoveFromDiskSpaceListW
 targetos: Windows
 req.typenames: 
 req.redist: 

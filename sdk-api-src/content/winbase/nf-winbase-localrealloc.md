@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.LocalReAlloc
 title: LocalReAlloc function (winbase.h)
-
 description: Changes the size or the attributes of a specified local memory object. The size can increase or decrease.
 old-location: base\localrealloc.htm
 tech.root: Memory
 ms.assetid: 88527ddd-e0c2-4a41-825e-d3a6df77fd2a
-
 ms.date: 12/05/2018
 ms.keywords: LMEM_MOVEABLE, LMEM_ZEROINIT, LocalReAlloc, LocalReAlloc function, _win32_localrealloc, base.localrealloc, winbase/LocalReAlloc
 ms.topic: function
-f1_keywords: 
- - "winbase/LocalReAlloc"
+f1_keywords:
+- winbase/LocalReAlloc
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-misc-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-Ms-Win-Core-Heap-L2-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-misc-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-Ms-Win-Core-Heap-L2-1-0.dll
 api_name:
- - LocalReAlloc
+- LocalReAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 

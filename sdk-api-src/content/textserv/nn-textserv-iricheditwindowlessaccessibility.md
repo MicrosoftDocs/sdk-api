@@ -1,19 +1,17 @@
 ---
 UID: NN:textserv.IRicheditWindowlessAccessibility
 title: IRicheditWindowlessAccessibility (textserv.h)
-
 description: Enables the host container of a windowless rich edit control to obtain the Microsoft UI Automation provider for the parent of the control.
 old-location: controls\iricheditwindowlessaccessibility.htm
 tech.root: Controls
 ms.assetid: E58E9577-4004-4627-A0D6-CF8166C0C43F
-
 ms.date: 12/05/2018
 ms.keywords: IRicheditWindowlessAccessibility, IRicheditWindowlessAccessibility interface [Windows Controls], IRicheditWindowlessAccessibility interface [Windows Controls],described, controls.iricheditwindowlessaccessibility, textserv/IRicheditWindowlessAccessibility
 ms.topic: interface
-f1_keywords: 
- - "textserv/IRicheditWindowlessAccessibility"
+f1_keywords:
+- textserv/IRicheditWindowlessAccessibility
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - IRicheditWindowlessAccessibility
+- IRicheditWindowlessAccessibility
 targetos: Windows
 req.typenames: 
 req.redist: 

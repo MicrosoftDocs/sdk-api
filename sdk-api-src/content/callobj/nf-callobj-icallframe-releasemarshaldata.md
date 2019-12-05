@@ -1,19 +1,17 @@
 ---
 UID: NF:callobj.ICallFrame.ReleaseMarshalData
 title: ICallFrame::ReleaseMarshalData (callobj.h)
-
 description: Releases resources that are held by interface pointers residing in a packet of marshaled data. This method finds all interface pointers in the packet, and calls the CoReleaseMarshalData function on each one.
 old-location: com\icallframe_releasemarshaldata.htm
 tech.root: com
 ms.assetid: c82107ad-68d1-4a46-ba78-37592d445c57
-
 ms.date: 12/05/2018
 ms.keywords: ICallFrame interface [COM],ReleaseMarshalData method, ICallFrame.ReleaseMarshalData, ICallFrame::ReleaseMarshalData, ReleaseMarshalData, ReleaseMarshalData method [COM], ReleaseMarshalData method [COM],ICallFrame interface, _com_icallframe_releasemarshaldata, callobj/ICallFrame::ReleaseMarshalData, com.icallframe_releasemarshaldata
 ms.topic: method
-f1_keywords: 
- - "callobj/ICallFrame.ReleaseMarshalData"
+f1_keywords:
+- callobj/ICallFrame.ReleaseMarshalData
 dev_langs:
- - c++
+- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Callobj.h
+- Callobj.h
 api_name:
- - ICallFrame.ReleaseMarshalData
+- ICallFrame.ReleaseMarshalData
 targetos: Windows
 req.typenames: 
 req.redist: 

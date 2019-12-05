@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmpipeline.IFsrmClassifierModuleImplementation
 title: IFsrmClassifierModuleImplementation (fsrmpipeline.h)
-
 description: Classifier modules implement this interface. FSRM calls the module's implementation when it runs classification.
 old-location: fsrm\ifsrmclassifiermoduleimplementation.htm
 tech.root: fsrm
 ms.assetid: f238c446-b268-4600-b6e3-ec772a5f7575
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmClassifierModuleImplementation, IFsrmClassifierModuleImplementation interface [File Server Resource Manager], IFsrmClassifierModuleImplementation interface [File Server Resource Manager],described, fs.ifsrmclassifiermoduleimplementation, fsrm.ifsrmclassifiermoduleimplementation, fsrm/IFsrmClassifierModuleImplementation
 ms.topic: interface
-f1_keywords: 
- - "fsrmpipeline/IFsrmClassifierModuleImplementation"
+f1_keywords:
+- fsrmpipeline/IFsrmClassifierModuleImplementation
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmClassifierModuleImplementation
+- IFsrmClassifierModuleImplementation
 targetos: Windows
 req.typenames: 
 req.redist: 

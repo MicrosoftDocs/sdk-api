@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxServer.GetPorts
 title: IFaxServer::GetPorts (faxcom.h)
-
 description: The GetPorts method creates and initializes a FaxPorts object for a specified FaxServer object. The FaxPorts object allows enumeration of fax port configuration information for the connected fax server.
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_getports_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9apf.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPorts, GetPorts method [Fax Service], GetPorts method [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],GetPorts method, IFaxServer.GetPorts, IFaxServer::GetPorts, _mfax_ifaxserver_getports, fax._mfax_ifaxserver_client_mfax_ifaxserver_getports_cpp, fax._mfax_ifaxserver_getports, faxcom/IFaxServer::GetPorts
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxServer.GetPorts"
+f1_keywords:
+- faxcom/IFaxServer.GetPorts
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxServer.GetPorts
- - IFaxServer.GetPorts
+- IFaxServer.GetPorts
+- IFaxServer.GetPorts
 targetos: Windows
 req.typenames: 
 req.redist: 

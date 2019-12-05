@@ -1,19 +1,17 @@
 ---
 UID: NE:dwrite_1.DWRITE_BASELINE
 title: DWRITE_BASELINE (dwrite_1.h)
-
 description: The DWRITE_BASELINE enumeration contains values that specify the baseline for text alignment.
 old-location: directwrite\dwrite_baseline.htm
 tech.root: DirectWrite
 ms.assetid: A5708481-255B-4777-B689-B61208E3910E
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_BASELINE, DWRITE_BASELINE enumeration [Direct Write], DWRITE_BASELINE_CENTRAL, DWRITE_BASELINE_DEFAULT, DWRITE_BASELINE_HANGING, DWRITE_BASELINE_IDEOGRAPHIC_BOTTOM, DWRITE_BASELINE_IDEOGRAPHIC_TOP, DWRITE_BASELINE_MATH, DWRITE_BASELINE_MAXIMUM, DWRITE_BASELINE_MINIMUM, DWRITE_BASELINE_ROMAN, directwrite.dwrite_baseline, dwrite_1/DWRITE_BASELINE, dwrite_1/DWRITE_BASELINE_CENTRAL, dwrite_1/DWRITE_BASELINE_DEFAULT, dwrite_1/DWRITE_BASELINE_HANGING, dwrite_1/DWRITE_BASELINE_IDEOGRAPHIC_BOTTOM, dwrite_1/DWRITE_BASELINE_IDEOGRAPHIC_TOP, dwrite_1/DWRITE_BASELINE_MATH, dwrite_1/DWRITE_BASELINE_MAXIMUM, dwrite_1/DWRITE_BASELINE_MINIMUM, dwrite_1/DWRITE_BASELINE_ROMAN
 ms.topic: enum
-f1_keywords: 
- - "dwrite_1/DWRITE_BASELINE"
+f1_keywords:
+- dwrite_1/DWRITE_BASELINE
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dwrite_1.h
+- Dwrite_1.h
 api_name:
- - DWRITE_BASELINE
+- DWRITE_BASELINE
 targetos: Windows
 req.typenames: 
 req.redist: 

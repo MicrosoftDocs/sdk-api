@@ -1,19 +1,17 @@
 ---
 UID: NF:amaudio.IAMDirectSound.ReleasePrimaryBufferInterface
 title: IAMDirectSound::ReleasePrimaryBufferInterface (amaudio.h)
-
 description: The ReleasePrimaryBufferInterface method is not implemented.
 old-location: dshow\iamdirectsound_releaseprimarybufferinterface.htm
 tech.root: DirectShow
 ms.assetid: 9a04d344-394e-4a93-a601-0aa419182d9b
-
 ms.date: 12/05/2018
 ms.keywords: IAMDirectSound interface [DirectShow],ReleasePrimaryBufferInterface method, IAMDirectSound.ReleasePrimaryBufferInterface, IAMDirectSound::ReleasePrimaryBufferInterface, IAMDirectSoundReleasePrimaryBufferInterface, ReleasePrimaryBufferInterface, ReleasePrimaryBufferInterface method [DirectShow], ReleasePrimaryBufferInterface method [DirectShow],IAMDirectSound interface, amaudio/IAMDirectSound::ReleasePrimaryBufferInterface, dshow.iamdirectsound_releaseprimarybufferinterface
 ms.topic: method
-f1_keywords: 
- - "amaudio/IAMDirectSound.ReleasePrimaryBufferInterface"
+f1_keywords:
+- amaudio/IAMDirectSound.ReleasePrimaryBufferInterface
 dev_langs:
- - c++
+- c++
 req.header: amaudio.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMDirectSound.ReleasePrimaryBufferInterface
+- IAMDirectSound.ReleasePrimaryBufferInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

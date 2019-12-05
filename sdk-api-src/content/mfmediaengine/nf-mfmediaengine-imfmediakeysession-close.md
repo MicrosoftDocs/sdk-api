@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaKeySession.Close
 title: IMFMediaKeySession::Close (mfmediaengine.h)
-
 description: Closes the media key session and must be called before the key session is released.
 old-location: mf\imfmediakeysession_close.htm
 tech.root: medfound
 ms.assetid: 97c6b4bd-a973-4475-a325-0373af9b54b1
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Media Foundation], Close method [Media Foundation],IMFMediaKeySession interface, IMFMediaKeySession interface [Media Foundation],Close method, IMFMediaKeySession.Close, IMFMediaKeySession::Close, mf.imfmediakeysession_close, mfmediaengine/IMFMediaKeySession::Close
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaKeySession.Close"
+f1_keywords:
+- mfmediaengine/IMFMediaKeySession.Close
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaKeySession.Close
+- IMFMediaKeySession.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddRectangle(IN const Rect &)
 title: GraphicsPath::AddRectangle(IN const Rect &) (gdipluspath.h)
-
 description: The GraphicsPath::AddRectangle method adds a rectangle to this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddRectangle_Rect_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddrectanglemethods\addrectangle.htm
-
 ms.date: 12/05/2018
 ms.keywords: AddRectangle, AddRectangle method [GDI+], AddRectangle method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddRectangle method, GraphicsPath.AddRectangle, GraphicsPath.AddRectangle(IN const Rect &), GraphicsPath.AddRectangle(const Rect&), GraphicsPath::AddRectangle, GraphicsPath::AddRectangle(IN const Rect &), _gdiplus_CLASS_GraphicsPath_AddRectangle_Rect_rect_, gdiplus._gdiplus_CLASS_GraphicsPath_AddRectangle_Rect_rect_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.AddRectangle"
+f1_keywords:
+- gdipluspath/GraphicsPath.AddRectangle
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.AddRectangle
+- GraphicsPath.AddRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 

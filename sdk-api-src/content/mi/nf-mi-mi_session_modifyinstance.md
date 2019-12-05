@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Session_ModifyInstance
 title: MI_Session_ModifyInstance function (mi.h)
-
 description: Updates an existing instance in the server represented by the session.
 old-location: wmi_v2\mi_session_modifyinstance.htm
 tech.root: wmi_v2
 ms.assetid: 4a01ac01-5d47-47ff-a331-6009a5c57204
-
 ms.date: 12/05/2018
 ms.keywords: MI_Session_ModifyInstance, MI_Session_ModifyInstance function [Windows Management Infrastructure (MI)], mi/MI_Session_ModifyInstance, wmi_v2.mi_session_modifyinstance
 ms.topic: function
 f1_keywords:
 - mi/MI_Session_ModifyInstance
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

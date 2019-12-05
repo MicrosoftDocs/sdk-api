@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara.SetLineSpacing
 title: ITextPara::SetLineSpacing (tom.h)
-
 description: Sets the paragraph line-spacing rule and the line spacing for a paragraph.
 old-location: controls\ITextPara_SetLineSpacing.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlinespacing.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetLineSpacing method, ITextPara.SetLineSpacing, ITextPara::SetLineSpacing, SetLineSpacing, SetLineSpacing method [Windows Controls], SetLineSpacing method [Windows Controls],ITextPara interface, _win32_ITextPara_SetLineSpacing, _win32_ITextPara_SetLineSpacing_cpp, controls.ITextPara_SetLineSpacing, controls._win32_ITextPara_SetLineSpacing, tom/ITextPara::SetLineSpacing
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara.SetLineSpacing"
+f1_keywords:
+- tom/ITextPara.SetLineSpacing
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara.SetLineSpacing
+- ITextPara.SetLineSpacing
 targetos: Windows
 req.typenames: 
 req.redist: 

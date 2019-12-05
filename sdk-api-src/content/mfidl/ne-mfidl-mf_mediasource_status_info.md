@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl.MF_MEDIASOURCE_STATUS_INFO
 title: MF_MEDIASOURCE_STATUS_INFO (mfidl.h)
-
-description: "."
+description: .
 old-location: stream\mf_mediasource_status_info.htm
 tech.root: stream
 ms.assetid: 44A1911A-0C36-4A35-84D3-FE4934EF9CBD
-
 ms.date: 12/05/2018
 ms.keywords: MF_MEDIASOURCE_STATUS_INFO, MF_MEDIASOURCE_STATUS_INFO enumeration [Streaming Media Devices], MF_MEDIASOURCE_STATUS_INFO_FULLYSUPPORTED, MF_MEDIASOURCE_STATUS_INFO_UNKNOWN, mfidl/MF_MEDIASOURCE_STATUS_INFO, mfidl/MF_MEDIASOURCE_STATUS_INFO_FULLYSUPPORTED, mfidl/MF_MEDIASOURCE_STATUS_INFO_UNKNOWN, stream.mf_mediasource_status_info
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MF_MEDIASOURCE_STATUS_INFO"
+f1_keywords:
+- mfidl/MF_MEDIASOURCE_STATUS_INFO
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mfidl.h
+- Mfidl.h
 api_name:
- - MF_MEDIASOURCE_STATUS_INFO
+- MF_MEDIASOURCE_STATUS_INFO
 targetos: Windows
 req.typenames: MF_MEDIASOURCE_STATUS_INFO
 req.redist: 

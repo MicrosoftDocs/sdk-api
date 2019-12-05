@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.StartAtMarker
 title: IWMReaderAdvanced2::StartAtMarker (wmsdkidl.h)
-
 description: The StartAtMarker method starts the reader from a specified marker.
 old-location: wmformat\iwmreaderadvanced2_startatmarker.htm
 tech.root: wmformat
 ms.assetid: 444adb2f-4289-4950-8841-07353479ef43
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],StartAtMarker method, IWMReaderAdvanced2.StartAtMarker, IWMReaderAdvanced2::StartAtMarker, IWMReaderAdvanced2StartAtMarker, StartAtMarker, StartAtMarker method [windows Media Format], StartAtMarker method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_startatmarker, wmsdkidl/IWMReaderAdvanced2::StartAtMarker
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced2.StartAtMarker"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced2.StartAtMarker
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced2.StartAtMarker
+- IWMReaderAdvanced2.StartAtMarker
 targetos: Windows
 req.typenames: 
 req.redist: 

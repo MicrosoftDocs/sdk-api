@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2.IMultisessionRandomWrite
 title: IMultisessionRandomWrite (imapi2.h)
-
 description: Use this interface to retrieve information about the current state of media allowing random writes and not supporting the concept of physical sessions.
 old-location: imapi\imultisessionrandomwrite.htm
 tech.root: imapi
 ms.assetid: 1843254d-7947-4197-9c1b-6dc01abe9354
-
 ms.date: 12/05/2018
 ms.keywords: IMultisessionRandomWrite, IMultisessionRandomWrite interface [IMAPI], IMultisessionRandomWrite interface [IMAPI],described, imapi.imultisessionrandomwrite, imapi2/IMultisessionRandomWrite
 ms.topic: interface
-f1_keywords: 
- - "imapi2/IMultisessionRandomWrite"
+f1_keywords:
+- imapi2/IMultisessionRandomWrite
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IMultisessionRandomWrite
+- IMultisessionRandomWrite
 targetos: Windows
 req.typenames: 
 req.redist: 

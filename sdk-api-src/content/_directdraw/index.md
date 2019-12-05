@@ -1,7 +1,6 @@
 ---
 UID: TP:directdraw
 ms.assetid: 43e6d44d-8b53-399d-b068-b5e0d91fc439
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

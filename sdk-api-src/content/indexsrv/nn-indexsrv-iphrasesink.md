@@ -1,19 +1,17 @@
 ---
 UID: NN:indexsrv.IPhraseSink
 title: IPhraseSink (indexsrv.h)
-
 description: Handles phrases that word breakers parse from query text during query time.
 old-location: indexsrv\iphrasesink.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefobj_3asr.htm
-
 ms.date: 12/05/2018
 ms.keywords: IPhraseSink, IPhraseSink interface [Indexing Service], IPhraseSink interface [Indexing Service],described, _idxs_PhraseSink, indexsrv.iphrasesink, indexsrv/IPhraseSink
 ms.topic: interface
-f1_keywords: 
- - "indexsrv/IPhraseSink"
+f1_keywords:
+- indexsrv/IPhraseSink
 dev_langs:
- - c++
+- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Indexsrv.h
+- Indexsrv.h
 api_name:
- - IPhraseSink
- - IPhraseSink.PutSmallPhrase
+- IPhraseSink
+- IPhraseSink.PutSmallPhrase
 targetos: Windows
 req.typenames: 
 req.redist: 

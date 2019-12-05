@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IObjectWithPropertyKey.GetPropertyKey
 title: IObjectWithPropertyKey::GetPropertyKey (propsys.h)
-
 description: Gets the property key.
 old-location: shell\IObjectWithPropertyKey_GetPropertyKey.htm
 tech.root: shell
 ms.assetid: e864f1d2-b83e-4196-8cd4-a7c7fdcddfec
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyKey, GetPropertyKey method [Windows Shell], GetPropertyKey method [Windows Shell],IObjectWithPropertyKey interface, IObjectWithPropertyKey interface [Windows Shell],GetPropertyKey method, IObjectWithPropertyKey.GetPropertyKey, IObjectWithPropertyKey::GetPropertyKey, _shell_IObjectWithPropertyKey_GetPropertyKey, propsys/IObjectWithPropertyKey::GetPropertyKey, shell.IObjectWithPropertyKey_GetPropertyKey
 ms.topic: method
 f1_keywords:
 - propsys/IObjectWithPropertyKey.GetPropertyKey
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

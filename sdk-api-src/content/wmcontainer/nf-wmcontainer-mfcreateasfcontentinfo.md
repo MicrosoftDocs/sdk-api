@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.MFCreateASFContentInfo
 title: MFCreateASFContentInfo function (wmcontainer.h)
-
 description: Creates the ASF Header Object object.
 old-location: mf\mfcreateasfcontentinfo.htm
 tech.root: medfound
 ms.assetid: 00460f79-7033-4893-88c0-b1c939441f70
-
 ms.date: 12/05/2018
 ms.keywords: 00460f79-7033-4893-88c0-b1c939441f70, MFCreateASFContentInfo, MFCreateASFContentInfo function [Media Foundation], mf.mfcreateasfcontentinfo, wmcontainer/MFCreateASFContentInfo
 ms.topic: function
-f1_keywords: 
- - "wmcontainer/MFCreateASFContentInfo"
+f1_keywords:
+- wmcontainer/MFCreateASFContentInfo
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateASFContentInfo
+- MFCreateASFContentInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

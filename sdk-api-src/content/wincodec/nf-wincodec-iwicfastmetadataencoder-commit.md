@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICFastMetadataEncoder.Commit
 title: IWICFastMetadataEncoder::Commit (wincodec.h)
-
 description: Finalizes metadata changes to the image stream.
 old-location: wic\_wic_codec_iwicfastmetadataencoder_commit.htm
 tech.root: wic
 ms.assetid: 24f3b0f8-8991-4f55-aeb6-a2bbf09a29c7
-
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [Windows Imaging Component], Commit method [Windows Imaging Component],IWICFastMetadataEncoder interface, IWICFastMetadataEncoder interface [Windows Imaging Component],Commit method, IWICFastMetadataEncoder.Commit, IWICFastMetadataEncoder::Commit, _wic_codec_iwicfastmetadataencoder_commit, wic._wic_codec_iwicfastmetadataencoder_commit, wincodec/IWICFastMetadataEncoder::Commit
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICFastMetadataEncoder.Commit"
+f1_keywords:
+- wincodec/IWICFastMetadataEncoder.Commit
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICFastMetadataEncoder.Commit
+- IWICFastMetadataEncoder.Commit
 targetos: Windows
 req.typenames: 
 req.redist: 

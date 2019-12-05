@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.AddDesktopItemWithUI
 title: IActiveDesktop::AddDesktopItemWithUI (shlobj_core.h)
-
 description: Adds a desktop item to the Active Desktop after displaying user interfaces that confirm the addition of the desktop item, verifying security zone permissions, and asking if the user wants to create a subscription.
 old-location: lwef\iactivedesktop_adddesktopitemwithui_method.htm
 tech.root: lwef
 ms.assetid: ac582bd7-9fd1-4134-a866-69319ef3d96e
-
 ms.date: 12/05/2018
 ms.keywords: AddDesktopItemWithUI, AddDesktopItemWithUI method [Legacy Windows Environment Features], AddDesktopItemWithUI method [Legacy Windows Environment Features],IActiveDesktop interface, DTI_ADDUI_DEFAULT, DTI_ADDUI_DISPSUBWIZARD, DTI_ADDUI_POSITIONITEM, IActiveDesktop interface [Legacy Windows Environment Features],AddDesktopItemWithUI method, IActiveDesktop.AddDesktopItemWithUI, IActiveDesktop::AddDesktopItemWithUI, _win32_IActiveDesktop_AddDesktopItemWithUI_Method, lwef.iactivedesktop_adddesktopitemwithui_method, shell.iactivedesktop_adddesktopitemwithui_method, shlobj_core/IActiveDesktop::AddDesktopItemWithUI
 ms.topic: method
 f1_keywords:
 - shlobj_core/IActiveDesktop.AddDesktopItemWithUI
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

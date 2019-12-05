@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITTAPI.get_CallHubs
 title: ITTAPI::get_CallHubs (tapi3if.h)
-
 description: The get_CallHubs method creates a collection of the currently available call hubs. Provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateCallHubs method.
 old-location: tapi3\ittapi_get_callhubs.htm
 tech.root: Tapi
 ms.assetid: 57177526-1351-4f59-8f24-74d8b87d27c0
-
 ms.date: 12/05/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],get_CallHubs method, ITTAPI.get_CallHubs, ITTAPI::get_CallHubs, _tapi3_ittapi_get_callhubs, get_CallHubs, get_CallHubs method [TAPI 2.2], get_CallHubs method [TAPI 2.2],ITTAPI interface, tapi3.ittapi_get_callhubs, tapi3if/ITTAPI::get_CallHubs
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITTAPI.get_CallHubs"
+f1_keywords:
+- tapi3if/ITTAPI.get_CallHubs
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITTAPI.get_CallHubs
+- ITTAPI.get_CallHubs
 targetos: Windows
 req.typenames: 
 req.redist: 

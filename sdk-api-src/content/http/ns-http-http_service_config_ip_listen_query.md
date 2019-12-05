@@ -1,19 +1,17 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY
 title: HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY (http.h)
-
 description: Used by HttpQueryServiceConfiguration to return a list of the Internet Protocol (IP) addresses to which the HTTP service binds.
 old-location: http\http_service_config_ip_listen_query.htm
 tech.root: http
 ms.assetid: 8cecb295-a35b-466d-9420-3b72f77f731f
-
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY, HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY, HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY structure [HTTP], PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY, PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY structure pointer [HTTP], _http_http_service_config_ip_listen_query, http.http_service_config_ip_listen_query, http/HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY, http/PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY"
+ms.keywords: '*PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY, HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY, HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY structure [HTTP], PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY, PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY structure pointer [HTTP], _http_http_service_config_ip_listen_query, http.http_service_config_ip_listen_query, http/HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY, http/PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY"
+f1_keywords:
+- http/HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY
+- HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY
 targetos: Windows
 req.typenames: HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY, *PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY
 req.redist: 

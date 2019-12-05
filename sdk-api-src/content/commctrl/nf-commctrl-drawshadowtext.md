@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.DrawShadowText
 title: DrawShadowText function (commctrl.h)
-
 description: Draws text that has a shadow.
 old-location: controls\DrawShadowText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\drawshadowtext.htm
-
 ms.date: 12/05/2018
 ms.keywords: DrawShadowText, DrawShadowText function [Windows Controls], commctrl/DrawShadowText, controls.DrawShadowText, controls.inet_DrawShadowText, inet_DrawShadowText, inet_DrawShadowText_cpp
 ms.topic: function
-f1_keywords: 
- - "commctrl/DrawShadowText"
+f1_keywords:
+- commctrl/DrawShadowText
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: ComCtl32.dll (version 6 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComCtl32.dll
+- ComCtl32.dll
 api_name:
- - DrawShadowText
+- DrawShadowText
 targetos: Windows
 req.typenames: 
 req.redist: 

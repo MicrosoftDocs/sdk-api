@@ -1,19 +1,17 @@
 ---
 UID: NN:pla.IDataCollectorCollection
 title: IDataCollectorCollection (pla.h)
-
 description: Manages a collection of DataCollector objects.To get this interface, access the IDataCollectorSet::DataCollectors property.
 old-location: pla\idatacollectorcollection.htm
 tech.root: PLA
 ms.assetid: 6b47fb9d-6ca4-4e6b-b117-027ef1e963ac
-
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorCollection, IDataCollectorCollection interface [PLA], IDataCollectorCollection interface [PLA],described, base.idatacollectorcollection, pla.idatacollectorcollection, pla/IDataCollectorCollection
 ms.topic: interface
-f1_keywords: 
- - "pla/IDataCollectorCollection"
+f1_keywords:
+- pla/IDataCollectorCollection
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollectorCollection
+- IDataCollectorCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

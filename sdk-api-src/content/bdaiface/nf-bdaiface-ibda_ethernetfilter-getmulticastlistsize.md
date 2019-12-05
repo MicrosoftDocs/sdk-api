@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_EthernetFilter.GetMulticastListSize
 title: IBDA_EthernetFilter::GetMulticastListSize (bdaiface.h)
-
 description: The GetMulticastListSize method retrieves the number of addresses currently in the list.
 old-location: mstv\ibda_ethernetfilter_getmulticastlistsize.htm
 tech.root: mstv
 ms.assetid: bc2452ca-53ad-4286-951a-c211f3f82cf3
-
 ms.date: 12/05/2018
 ms.keywords: GetMulticastListSize, GetMulticastListSize method [Microsoft TV Technologies], GetMulticastListSize method [Microsoft TV Technologies],IBDA_EthernetFilter interface, IBDA_EthernetFilter interface [Microsoft TV Technologies],GetMulticastListSize method, IBDA_EthernetFilter.GetMulticastListSize, IBDA_EthernetFilter::GetMulticastListSize, IBDA_EthernetFilterGetMulticastListSize, bdaiface/IBDA_EthernetFilter::GetMulticastListSize, mstv.ibda_ethernetfilter_getmulticastlistsize
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_EthernetFilter.GetMulticastListSize"
+f1_keywords:
+- bdaiface/IBDA_EthernetFilter.GetMulticastListSize
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_EthernetFilter.GetMulticastListSize
+- IBDA_EthernetFilter.GetMulticastListSize
 targetos: Windows
 req.typenames: 
 req.redist: 

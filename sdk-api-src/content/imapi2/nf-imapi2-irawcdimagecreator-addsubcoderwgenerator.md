@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.AddSubcodeRWGenerator
 title: IRawCDImageCreator::AddSubcodeRWGenerator (imapi2.h)
-
 description: Allows the addition of custom R-W subcode, provided by the IStream. The provided object must have a size equal to the number of sectors in the raw disc image * 96 bytes when the final image is created.
 old-location: imapi\irawcdimagecreator_addsubcoderwgenerator.htm
 tech.root: imapi
 ms.assetid: b952d31e-812e-41b0-98b0-0f9afbe4b01e
-
 ms.date: 12/05/2018
 ms.keywords: AddSubcodeRWGenerator, AddSubcodeRWGenerator method [IMAPI], AddSubcodeRWGenerator method [IMAPI],IRawCDImageCreator interface, IRawCDImageCreator interface [IMAPI],AddSubcodeRWGenerator method, IRawCDImageCreator.AddSubcodeRWGenerator, IRawCDImageCreator::AddSubcodeRWGenerator, imapi.irawcdimagecreator_addsubcoderwgenerator, imapi2/IRawCDImageCreator::AddSubcodeRWGenerator
 ms.topic: method
-f1_keywords: 
- - "imapi2/IRawCDImageCreator.AddSubcodeRWGenerator"
+f1_keywords:
+- imapi2/IRawCDImageCreator.AddSubcodeRWGenerator
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IRawCDImageCreator.AddSubcodeRWGenerator
+- IRawCDImageCreator.AddSubcodeRWGenerator
 targetos: Windows
 req.typenames: 
 req.redist: 

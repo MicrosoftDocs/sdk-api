@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterRegCreateReadBatch
 title: ClusterRegCreateReadBatch function (clusapi.h)
-
 description: Creates a handle to the read batch that executes read commands on the cluster registry key.
 old-location: mscs\clusterregcreatereadbatch.htm
 tech.root: MsCS
 ms.assetid: FED3986E-7383-46C4-B2D5-259812EF63A2
-
 ms.date: 12/05/2018
 ms.keywords: ClusterRegCreateReadBatch, ClusterRegCreateReadBatch function [Failover Cluster], clusapi/ClusterRegCreateReadBatch, mscs.clusterregcreatereadbatch
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterRegCreateReadBatch"
+f1_keywords:
+- clusapi/ClusterRegCreateReadBatch
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
 api_name:
- - ClusterRegCreateReadBatch
+- ClusterRegCreateReadBatch
 targetos: Windows
 req.typenames: 
 req.redist: 

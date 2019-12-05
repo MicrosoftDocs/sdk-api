@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwMgr.IsPortAllowed
 title: INetFwMgr::IsPortAllowed (netfw.h)
-
 description: Determines whether an application can listen for inbound traffic on the specified port.
 old-location: ics\inetfwmgr_isportallowed.htm
 tech.root: ics
 ms.assetid: 39e68271-8046-470a-af90-17bed770716d
-
 ms.date: 12/05/2018
 ms.keywords: INetFwMgr interface [ICS/ICF],IsPortAllowed method, INetFwMgr.IsPortAllowed, INetFwMgr::IsPortAllowed, IsPortAllowed, IsPortAllowed method [ICS/ICF], IsPortAllowed method [ICS/ICF],INetFwMgr interface, ics.inetfwmgr_isportallowed, netfw/INetFwMgr::IsPortAllowed
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwMgr.IsPortAllowed"
+f1_keywords:
+- netfw/INetFwMgr.IsPortAllowed
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwMgr.IsPortAllowed
+- INetFwMgr.IsPortAllowed
 targetos: Windows
 req.typenames: 
 req.redist: 

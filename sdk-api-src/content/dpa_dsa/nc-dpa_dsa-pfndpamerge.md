@@ -1,19 +1,17 @@
 ---
 UID: NC:dpa_dsa.PFNDPAMERGE
 title: PFNDPAMERGE (dpa_dsa.h)
-
 description: Defines the prototype for the merge function used by DPA_Merge.
 old-location: controls\PFNDPAMERGE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndpamerge.htm
-
 ms.date: 12/05/2018
 ms.keywords: DPAMM_DELETE, DPAMM_INSERT, DPAMM_MERGE, PFNDPAMERGE, PFNDPAMERGE callback, PFNDPAMERGE callback function [Windows Controls], _shell_PFNDPAMERGE, _shell_PFNDPAMERGE_cpp, controls.PFNDPAMERGE, controls._shell_PFNDPAMERGE, dpa_dsa/PFNDPAMERGE
 ms.topic: callback
-f1_keywords: 
- - "dpa_dsa/PFNDPAMERGE"
+f1_keywords:
+- dpa_dsa/PFNDPAMERGE
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - dpa_dsa.h
+- dpa_dsa.h
 api_name:
- - PFNDPAMERGE
+- PFNDPAMERGE
 targetos: Windows
 req.typenames: 
 req.redist: 

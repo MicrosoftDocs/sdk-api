@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CMC_STATUS_INFO
 title: CMC_STATUS_INFO (wincrypt.h)
-
 description: Contains status information about Certificate Management Messages over CMS.
 old-location: security\cmc_status_info.htm
 tech.root: SecCrypto
 ms.assetid: 008f6de4-bad2-4c63-ba64-8d42ae71d50a
-
 ms.date: 12/05/2018
 ms.keywords: '*PCMC_STATUS_INFO, CMC_FAIL_BAD_ALG, CMC_FAIL_BAD_CERT_ID, CMC_FAIL_BAD_IDENTITY, CMC_FAIL_BAD_MESSAGE_CHECK, CMC_FAIL_BAD_REQUEST, CMC_FAIL_BAD_TIME, CMC_FAIL_INTERNAL_CA_ERROR, CMC_FAIL_MUST_ARCHIVE_KEYS, CMC_FAIL_NO_KEY_REUSE, CMC_FAIL_POP_FAILED, CMC_FAIL_POP_REQUIRED, CMC_FAIL_TRY_LATER, CMC_FAIL_UNSUPORTED_EXT, CMC_STATUS_CONFIRM_REQUIRED, CMC_STATUS_FAILED, CMC_STATUS_INFO, CMC_STATUS_INFO structure [Security], CMC_STATUS_NO_SUPPORT, CMC_STATUS_PENDING, CMC_STATUS_SUCCESS, PCMC_STATUS_INFO, PCMC_STATUS_INFO structure pointer [Security], _crypto2_cmc_status_info, security.cmc_status_info, wincrypt/CMC_STATUS_INFO, wincrypt/PCMC_STATUS_INFO'
 ms.topic: struct
 f1_keywords:
 - wincrypt/CMC_STATUS_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

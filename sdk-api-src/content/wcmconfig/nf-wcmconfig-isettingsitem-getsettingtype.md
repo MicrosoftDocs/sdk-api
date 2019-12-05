@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetSettingType
 title: ISettingsItem::GetSettingType (wcmconfig.h)
-
 description: Gets the setting type for the item.
 old-location: smi\isettingsitem_getsettingtype.htm
 tech.root: SMI
 ms.assetid: d222939f-9295-4751-8b32-586fa9930177
-
 ms.date: 12/05/2018
 ms.keywords: GetSettingType, GetSettingType method [SMI], GetSettingType method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetSettingType method, ISettingsItem.GetSettingType, ISettingsItem::GetSettingType, smi.isettingsitem_getsettingtype, wcmconfig/ISettingsItem::GetSettingType
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsItem.GetSettingType"
+f1_keywords:
+- wcmconfig/ISettingsItem.GetSettingType
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsItem.GetSettingType
+- ISettingsItem.GetSettingType
 targetos: Windows
 req.typenames: 
 req.redist: 

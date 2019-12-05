@@ -1,19 +1,17 @@
 ---
 UID: NF:documenttarget.IPrintDocumentPackageTarget.Cancel
 title: IPrintDocumentPackageTarget::Cancel (documenttarget.h)
-
 description: Cancels the current print job.
 old-location: xps\iprintdocumentpackagetarget_cancel.htm
 tech.root: printdocs
 ms.assetid: 57CE4050-2EC4-4137-A3EF-A72B07FF5232
-
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [XPS Documents and Packaging], Cancel method [XPS Documents and Packaging],IPrintDocumentPackageTarget interface, IPrintDocumentPackageTarget interface [XPS Documents and Packaging],Cancel method, IPrintDocumentPackageTarget.Cancel, IPrintDocumentPackageTarget::Cancel, documenttarget/IPrintDocumentPackageTarget::Cancel, xps.iprintdocumentpackagetarget_cancel
 ms.topic: method
-f1_keywords: 
- - "documenttarget/IPrintDocumentPackageTarget.Cancel"
+f1_keywords:
+- documenttarget/IPrintDocumentPackageTarget.Cancel
 dev_langs:
- - c++
+- c++
 req.header: documenttarget.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Documenttarget.h
+- Documenttarget.h
 api_name:
- - IPrintDocumentPackageTarget.Cancel
+- IPrintDocumentPackageTarget.Cancel
 targetos: Windows
 req.typenames: 
 req.redist: 

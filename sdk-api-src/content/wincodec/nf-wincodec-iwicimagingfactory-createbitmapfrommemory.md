@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateBitmapFromMemory
 title: IWICImagingFactory::CreateBitmapFromMemory (wincodec.h)
-
 description: Creates an IWICBitmap from a memory block.
 old-location: wic\_wic_codec_iwicimagingfactory_createbitmapfrommemory.htm
 tech.root: wic
 ms.assetid: d0fa8f55-2752-4494-8aac-6c47e0ba6e26
-
 ms.date: 12/05/2018
 ms.keywords: CreateBitmapFromMemory, CreateBitmapFromMemory method [Windows Imaging Component], CreateBitmapFromMemory method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateBitmapFromMemory method, IWICImagingFactory.CreateBitmapFromMemory, IWICImagingFactory::CreateBitmapFromMemory, _wic_codec_iwicimagingfactory_createbitmapfrommemory, wic._wic_codec_iwicimagingfactory_createbitmapfrommemory, wincodec/IWICImagingFactory::CreateBitmapFromMemory
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICImagingFactory.CreateBitmapFromMemory"
+f1_keywords:
+- wincodec/IWICImagingFactory.CreateBitmapFromMemory
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICImagingFactory.CreateBitmapFromMemory
+- IWICImagingFactory.CreateBitmapFromMemory
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_dn2ufn
 title: ldap_dn2ufn function (winldap.h)
-
 description: Converts a distinguished name to a user-friendly format.
 old-location: ldap\ldap_dn2ufn.htm
 tech.root: ldap
 ms.assetid: 6c9c943f-304a-496c-bac4-283b6c717774
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_dn2ufn, ldap.ldap__dn2ufn, ldap.ldap_dn2ufn, ldap_dn2ufn, ldap_dn2ufn function [LDAP], ldap_dn2ufnA, ldap_dn2ufnW, winldap/ldap_dn2ufn, winldap/ldap_dn2ufnA, winldap/ldap_dn2ufnW"
+ms.keywords: _ldap_ldap_dn2ufn, ldap.ldap__dn2ufn, ldap.ldap_dn2ufn, ldap_dn2ufn, ldap_dn2ufn function [LDAP], ldap_dn2ufnA, ldap_dn2ufnW, winldap/ldap_dn2ufn, winldap/ldap_dn2ufnA, winldap/ldap_dn2ufnW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_dn2ufn"
+f1_keywords:
+- winldap/ldap_dn2ufn
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_dn2ufn
- - ldap_dn2ufnA
- - ldap_dn2ufnW
+- ldap_dn2ufn
+- ldap_dn2ufnA
+- ldap_dn2ufnW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPO.Backup
 title: IGPMStarterGPO::Backup (gpmgmt.h)
-
 description: Creates a backup of the current Starter GPO.
 old-location: gpmc\igpmstartergpo_backup.htm
 tech.root: gpmc
 ms.assetid: bf419f56-803f-44c2-ae08-7e428940f79d
-
 ms.date: 12/05/2018
 ms.keywords: Backup, Backup method [GPMC], Backup method [GPMC],IGPMStarterGPO interface, IGPMStarterGPO interface [GPMC],Backup method, IGPMStarterGPO.Backup, IGPMStarterGPO::Backup, gpmc.igpmstartergpo_backup, gpmgmt/IGPMStarterGPO::Backup
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMStarterGPO.Backup"
+f1_keywords:
+- gpmgmt/IGPMStarterGPO.Backup
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gpmgmt.dll
+- gpmgmt.dll
 api_name:
- - IGPMStarterGPO.Backup
+- IGPMStarterGPO.Backup
 targetos: Windows
 req.typenames: 
 req.redist: 

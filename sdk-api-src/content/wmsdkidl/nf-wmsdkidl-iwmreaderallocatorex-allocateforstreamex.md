@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAllocatorEx.AllocateForStreamEx
 title: IWMReaderAllocatorEx::AllocateForStreamEx (wmsdkidl.h)
-
 description: The AllocateForStreamEx method allocates a user-created buffer for samples delivered to the IWMReaderCallbackAdvanced::OnStreamSample method.
 old-location: wmformat\iwmreaderallocatorex_allocateforstreamex.htm
 tech.root: wmformat
 ms.assetid: bb12f0e1-dc9c-447e-a28d-30c45eb95d09
-
 ms.date: 12/05/2018
 ms.keywords: AllocateForStreamEx, AllocateForStreamEx method [windows Media Format], AllocateForStreamEx method [windows Media Format],IWMReaderAllocatorEx interface, IWMReaderAllocatorEx interface [windows Media Format],AllocateForStreamEx method, IWMReaderAllocatorEx.AllocateForStreamEx, IWMReaderAllocatorEx::AllocateForStreamEx, IWMReaderAllocatorExAllocateForStreamEx, wmformat.iwmreaderallocatorex_allocateforstreamex, wmsdkidl/IWMReaderAllocatorEx::AllocateForStreamEx
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAllocatorEx.AllocateForStreamEx"
+f1_keywords:
+- wmsdkidl/IWMReaderAllocatorEx.AllocateForStreamEx
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - IWMReaderAllocatorEx.AllocateForStreamEx
+- IWMReaderAllocatorEx.AllocateForStreamEx
 targetos: Windows
 req.typenames: 
 req.redist: 

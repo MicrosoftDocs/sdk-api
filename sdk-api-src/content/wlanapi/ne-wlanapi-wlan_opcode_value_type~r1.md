@@ -4,10 +4,10 @@ title: WLAN_OPCODE_VALUE_TYPE
 ms.date: 01/30/19
 ms.keywords: _WLAN_OPCODE_VALUE_TYPE, WLAN_OPCODE_VALUE_TYPE
 ms.topic: language-reference
-f1_keywords: 
- - "wlanapi/_WLAN_OPCODE_VALUE_TYPE"
+f1_keywords:
+- wlanapi/_WLAN_OPCODE_VALUE_TYPE
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -21,14 +21,14 @@ req.target-type:
 req.typenames: 
 req.umdf-ver: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wlanapi.h
+- wlanapi.h
 api_name:
- - _WLAN_OPCODE_VALUE_TYPE
- - WLAN_OPCODE_VALUE_TYPE
+- _WLAN_OPCODE_VALUE_TYPE
+- WLAN_OPCODE_VALUE_TYPE
 ---
 
 # WLAN_OPCODE_VALUE_TYPE enumeration

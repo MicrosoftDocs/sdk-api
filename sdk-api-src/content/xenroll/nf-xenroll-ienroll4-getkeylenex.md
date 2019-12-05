@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll4.GetKeyLenEx
 title: IEnroll4::GetKeyLenEx (xenroll.h)
-
 description: Retrieves size information for the signature and exchange keys.
 old-location: security\ienroll4_getkeylenex.htm
 tech.root: SecCrypto
 ms.assetid: 377fed60-7c04-41c1-bc3d-6567d7d8c389
-
 ms.date: 12/05/2018
 ms.keywords: GetKeyLenEx, GetKeyLenEx method [Security], GetKeyLenEx method [Security],IEnroll4 interface, IEnroll4 interface [Security],GetKeyLenEx method, IEnroll4.GetKeyLenEx, IEnroll4::GetKeyLenEx, XEKL_KEYSIZE_INC, XEKL_KEYSIZE_MAX, XEKL_KEYSIZE_MIN, XEKL_KEYSPEC_KEYX, XEKL_KEYSPEC_SIG, security.ienroll4_getkeylenex, xenroll/IEnroll4::GetKeyLenEx
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll4.GetKeyLenEx"
+f1_keywords:
+- xenroll/IEnroll4.GetKeyLenEx
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll4.GetKeyLenEx
+- IEnroll4.GetKeyLenEx
 targetos: Windows
 req.typenames: 
 req.redist: 

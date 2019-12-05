@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IComponent.get_Status
 title: IComponent::get_Status (tuner.h)
-
 description: The get_Status method retrieves the requested or actual status of the component.
 old-location: mstv\icomponent_get_status.htm
 tech.root: mstv
 ms.assetid: 3f517db8-a207-472e-8c6c-7cb2cac91f62
-
 ms.date: 12/05/2018
 ms.keywords: IComponent interface [Microsoft TV Technologies],get_Status method, IComponent.get_Status, IComponent::get_Status, IComponentget_Status, get_Status, get_Status method [Microsoft TV Technologies], get_Status method [Microsoft TV Technologies],IComponent interface, mstv.icomponent_get_status, tuner/IComponent::get_Status
 ms.topic: method
-f1_keywords: 
- - "tuner/IComponent.get_Status"
+f1_keywords:
+- tuner/IComponent.get_Status
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IComponent.get_Status
+- IComponent.get_Status
 targetos: Windows
 req.typenames: 
 req.redist: 

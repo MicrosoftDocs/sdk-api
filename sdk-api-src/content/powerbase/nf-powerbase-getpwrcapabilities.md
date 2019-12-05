@@ -1,19 +1,17 @@
 ---
 UID: NF:powerbase.GetPwrCapabilities
 title: GetPwrCapabilities function (powerbase.h)
-
 description: Retrieves information about the system power capabilities.
 old-location: base\getpwrcapabilities.htm
 tech.root: power
 ms.assetid: bb5cec5f-8d45-4158-824a-023f92af9b69
-
 ms.date: 12/05/2018
 ms.keywords: GetPwrCapabilities, GetPwrCapabilities function, _win32_getpwrcapabilities, base.getpwrcapabilities, powerbase/GetPwrCapabilities, powrprof/GetPwrCapabilities
 ms.topic: function
-f1_keywords: 
- - "powerbase/GetPwrCapabilities"
+f1_keywords:
+- powerbase/GetPwrCapabilities
 dev_langs:
- - c++
+- c++
 req.header: powerbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
- - API-MS-Win-power-base-l1-1-0.dll
+- PowrProf.dll
+- API-MS-Win-power-base-l1-1-0.dll
 api_name:
- - GetPwrCapabilities
+- GetPwrCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

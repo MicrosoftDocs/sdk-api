@@ -1,19 +1,17 @@
 ---
 UID: NF:winhttp.WinHttpSetCredentials
 title: WinHttpSetCredentials function (winhttp.h)
-
 description: The WinHttpSetCredentials function passes the required authorization credentials to the server.
 old-location: http\winhttpsetcredentials.htm
 tech.root: WinHttp
 ms.assetid: a864c708-9481-460a-87aa-1d31c344c0a1
-
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_AUTH_SCHEME_BASIC, WINHTTP_AUTH_SCHEME_DIGEST, WINHTTP_AUTH_SCHEME_NEGOTIATE, WINHTTP_AUTH_SCHEME_NTLM, WINHTTP_AUTH_SCHEME_PASSPORT, WINHTTP_AUTH_TARGET_PROXY, WINHTTP_AUTH_TARGET_SERVER, WinHttpSetCredentials, WinHttpSetCredentials function [WinHTTP], http.winhttpsetcredentials, winhttp.winhttpsetcredentials_function, winhttp/WinHttpSetCredentials
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpSetCredentials"
+f1_keywords:
+- winhttp/WinHttpSetCredentials
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpSetCredentials
+- WinHttpSetCredentials
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.

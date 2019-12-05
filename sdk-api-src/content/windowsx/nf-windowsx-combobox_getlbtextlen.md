@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ComboBox_GetLBTextLen
 title: ComboBox_GetLBTextLen macro (windowsx.h)
-
 description: Gets the length of a string in the list in a combo box. You can use this macro or send the CB_GETLBTEXTLEN message explicitly.
 old-location: controls\ComboBox_GetLBTextLen.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getlbtextlen.htm
-
 ms.date: 12/05/2018
 ms.keywords: ComboBox_GetLBTextLen, ComboBox_GetLBTextLen macro [Windows Controls], _win32_ComboBox_GetLBTextLen, _win32_ComboBox_GetLBTextLen_cpp, controls.ComboBox_GetLBTextLen, controls._win32_ComboBox_GetLBTextLen, windowsx/ComboBox_GetLBTextLen
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ComboBox_GetLBTextLen"
+f1_keywords:
+- windowsx/ComboBox_GetLBTextLen
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ComboBox_GetLBTextLen
+- ComboBox_GetLBTextLen
 targetos: Windows
 req.typenames: 
 req.redist: 

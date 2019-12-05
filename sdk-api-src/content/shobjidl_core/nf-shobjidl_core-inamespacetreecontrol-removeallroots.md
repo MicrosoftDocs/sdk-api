@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.RemoveAllRoots
 title: INameSpaceTreeControl::RemoveAllRoots (shobjidl_core.h)
-
 description: Removes all roots and their children from a tree.
 old-location: shell\INameSpaceTreeControl_RemoveAllRoots.htm
 tech.root: shell
 ms.assetid: 9d2eb0c1-c90f-47fb-a322-4267d175df22
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],RemoveAllRoots method, INameSpaceTreeControl.RemoveAllRoots, INameSpaceTreeControl::RemoveAllRoots, RemoveAllRoots, RemoveAllRoots method [Windows Shell], RemoveAllRoots method [Windows Shell],INameSpaceTreeControl interface, _shell_INameSpaceTreeControl_RemoveAllRoots, shell.INameSpaceTreeControl_RemoveAllRoots, shobjidl_core/INameSpaceTreeControl::RemoveAllRoots
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/INameSpaceTreeControl.RemoveAllRoots"
+f1_keywords:
+- shobjidl_core/INameSpaceTreeControl.RemoveAllRoots
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - INameSpaceTreeControl.RemoveAllRoots
+- INameSpaceTreeControl.RemoveAllRoots
 targetos: Windows
 req.typenames: 
 req.redist: 

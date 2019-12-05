@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_SSL_TRANSPORT_SECURITY_BINDING
 title: WS_SSL_TRANSPORT_SECURITY_BINDING (webservices.h)
-
 description: The security binding subtype for specifying the use of SSL/TLS protocol based transport security.
 old-location: wsw\ws_ssl_transport_security_binding.htm
 tech.root: wsw
 ms.assetid: 078efc1d-a1bc-4035-919c-f927a8ceb8e6
-
 ms.date: 12/05/2018
 ms.keywords: WS_SSL_TRANSPORT_SECURITY_BINDING, WS_SSL_TRANSPORT_SECURITY_BINDING structure [Web Services for Windows], webservices/WS_SSL_TRANSPORT_SECURITY_BINDING, wsw.ws_ssl_transport_security_binding
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_SSL_TRANSPORT_SECURITY_BINDING"
+f1_keywords:
+- webservices/WS_SSL_TRANSPORT_SECURITY_BINDING
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SSL_TRANSPORT_SECURITY_BINDING
+- WS_SSL_TRANSPORT_SECURITY_BINDING
 targetos: Windows
 req.typenames: WS_SSL_TRANSPORT_SECURITY_BINDING
 req.redist: 

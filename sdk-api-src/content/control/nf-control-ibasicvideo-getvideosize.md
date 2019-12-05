@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IBasicVideo.GetVideoSize
 title: IBasicVideo::GetVideoSize (control.h)
-
 description: The GetVideoSize method retrieves the native video dimensions.
 old-location: dshow\ibasicvideo_getvideosize.htm
 tech.root: DirectShow
 ms.assetid: fbabba8b-b86b-451b-ad06-4454174ee352
-
 ms.date: 12/05/2018
 ms.keywords: GetVideoSize, GetVideoSize method [DirectShow], GetVideoSize method [DirectShow],IBasicVideo interface, IBasicVideo interface [DirectShow],GetVideoSize method, IBasicVideo.GetVideoSize, IBasicVideo::GetVideoSize, IBasicVideoGetVideoSize, control/IBasicVideo::GetVideoSize, dshow.ibasicvideo_getvideosize
 ms.topic: method
-f1_keywords: 
- - "control/IBasicVideo.GetVideoSize"
+f1_keywords:
+- control/IBasicVideo.GetVideoSize
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBasicVideo.GetVideoSize
+- IBasicVideo.GetVideoSize
 targetos: Windows
 req.typenames: 
 req.redist: 

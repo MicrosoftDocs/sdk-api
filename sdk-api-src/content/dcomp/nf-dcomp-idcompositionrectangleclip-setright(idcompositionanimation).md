@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetRight(IDCompositionAnimation)
 title: IDCompositionRectangleClip::SetRight(IDCompositionAnimation) (dcomp.h)
-
 description: Animates the value of the Right property of a clip rectangle.
 old-location: directcomp\idcompositionrectangleclip_setright_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 5514B37F-1F52-4A4B-89F7-830B1672A758
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetRight method, IDCompositionRectangleClip.SetRight, IDCompositionRectangleClip.SetRight(IDCompositionAnimation), IDCompositionRectangleClip::SetRight, IDCompositionRectangleClip::SetRight(IDCompositionAnimation), IDCompositionRectangleClip::SetRight(IDCompositionAnimation*), SetRight, SetRight method [DirectComposition], SetRight method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetRight, directcomp.idcompositionrectangleclip_setright_idcompositionanimation
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionRectangleClip.SetRight"
+f1_keywords:
+- dcomp/IDCompositionRectangleClip.SetRight
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionRectangleClip.SetRight
+- IDCompositionRectangleClip.SetRight
 targetos: Windows
 req.typenames: 
 req.redist: 

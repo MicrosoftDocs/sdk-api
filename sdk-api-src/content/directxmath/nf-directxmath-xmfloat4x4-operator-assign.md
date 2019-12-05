@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMFLOAT4X4.operator-assign
 title: XMFLOAT4X4::operator-assign
-
 description: Assigns the vector component data from one instance of XMFLOAT4X4 to the current instance of XMFLOAT4X4.
 old-location: dxmath\xmfloat4x4_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT4X4.operator = (const XMFLOAT4X4)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMFLOAT4X4.operator =, Use DirectX::::XMFLOAT4X4::operator =, XMFLOAT4X4 structure [DirectX Math Support APIs],operator = method, XMFLOAT4X4.operator =, XMFLOAT4X4.operator-assign, XMFLOAT4X4.operator=, XMFLOAT4X4::operator-assign, XMFLOAT4X4::operator=, dxmath.xmfloat4x4_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMFLOAT4X4 structure, operator=
 ms.topic: method
-f1_keywords: 
- - "directxmath/XMFLOAT4X4.operator ="
+f1_keywords:
+- directxmath/XMFLOAT4X4.operator =
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMFLOAT4X4.operator =
+- XMFLOAT4X4.operator =
 targetos: Windows
 req.typenames: 
 req.redist: 

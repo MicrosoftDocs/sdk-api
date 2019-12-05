@@ -1,19 +1,17 @@
 ---
 UID: NS:wtsapi32._WTSLISTENERCONFIGW
 title: WTSLISTENERCONFIGW (wtsapi32.h)
-
 description: Contains information about a Remote Desktop Services listener.
 old-location: termserv\wtslistenerconfig.htm
 tech.root: TermServ
 ms.assetid: 051cab0b-701c-4bb9-8728-6b383cdb8e6a
-
 ms.date: 12/05/2018
-ms.keywords: "*PWTSLISTENERCONFIGW, 1, 2, 3, 4, 5, PWTSLISTENERCONFIG, PWTSLISTENERCONFIG structure pointer [Remote Desktop Services], WTSLISTENERCONFIG, WTSLISTENERCONFIG structure [Remote Desktop Services], WTSLISTENERCONFIGA, WTSLISTENERCONFIGW, termserv.wtslistenerconfig, wtsapi32/PWTSLISTENERCONFIG, wtsapi32/WTSLISTENERCONFIG, wtsapi32/WTSLISTENERCONFIGA, wtsapi32/WTSLISTENERCONFIGW"
+ms.keywords: '*PWTSLISTENERCONFIGW, 1, 2, 3, 4, 5, PWTSLISTENERCONFIG, PWTSLISTENERCONFIG structure pointer [Remote Desktop Services], WTSLISTENERCONFIG, WTSLISTENERCONFIG structure [Remote Desktop Services], WTSLISTENERCONFIGA, WTSLISTENERCONFIGW, termserv.wtslistenerconfig, wtsapi32/PWTSLISTENERCONFIG, wtsapi32/WTSLISTENERCONFIG, wtsapi32/WTSLISTENERCONFIGA, wtsapi32/WTSLISTENERCONFIGW'
 ms.topic: struct
-f1_keywords: 
- - "wtsapi32/WTSLISTENERCONFIG"
+f1_keywords:
+- wtsapi32/WTSLISTENERCONFIG
 dev_langs:
- - c++
+- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsapi32.h
+- Wtsapi32.h
 api_name:
- - WTSLISTENERCONFIG
- - WTSLISTENERCONFIGA
- - WTSLISTENERCONFIGW
+- WTSLISTENERCONFIG
+- WTSLISTENERCONFIGA
+- WTSLISTENERCONFIGW
 targetos: Windows
 req.typenames: WTSLISTENERCONFIGW, *PWTSLISTENERCONFIGW
 req.redist: 

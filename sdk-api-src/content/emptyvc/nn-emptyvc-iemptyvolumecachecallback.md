@@ -1,19 +1,17 @@
 ---
 UID: NN:emptyvc.IEmptyVolumeCacheCallBack
 title: IEmptyVolumeCacheCallBack (emptyvc.h)
-
 description: Exposes methods that are used by a disk cleanup handler to communicate with the disk cleanup manager.
 old-location: lwef\iemptyvolumecachecallback.htm
 tech.root: lwef
 ms.assetid: d6775458-3b39-4ee8-90f9-d8a749bd1800
-
 ms.date: 12/05/2018
 ms.keywords: IEmptyVolumeCacheCallBack, IEmptyVolumeCacheCallBack interface [Legacy Windows Environment Features], IEmptyVolumeCacheCallBack interface [Legacy Windows Environment Features],described, _win32_IEmptyVolumeCacheCallBack, emptyvc/IEmptyVolumeCacheCallBack, lwef.iemptyvolumecachecallback, shell.iemptyvolumecachecallback
 ms.topic: interface
-f1_keywords: 
- - "emptyvc/IEmptyVolumeCacheCallBack"
+f1_keywords:
+- emptyvc/IEmptyVolumeCacheCallBack
 dev_langs:
- - c++
+- c++
 req.header: emptyvc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IEmptyVolumeCacheCallBack
+- IEmptyVolumeCacheCallBack
 targetos: Windows
 req.typenames: 
 req.redist: 

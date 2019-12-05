@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IScanningTunerEx.SetScanSignalTypeFilter
 title: IScanningTunerEx::SetScanSignalTypeFilter (tuner.h)
-
 description: This topic applies to Windows Vista and later.
 old-location: mstv\iscanningtunerex_setscansignaltypefilter.htm
 tech.root: mstv
 ms.assetid: 223a904a-1f15-4010-b25f-8551c1e9fc25
-
 ms.date: 12/05/2018
 ms.keywords: IScanningTunerEx interface [Microsoft TV Technologies],SetScanSignalTypeFilter method, IScanningTunerEx.SetScanSignalTypeFilter, IScanningTunerEx::SetScanSignalTypeFilter, IScanningTunerExSetScanSignalTypeFilter, SetScanSignalTypeFilter, SetScanSignalTypeFilter method [Microsoft TV Technologies], SetScanSignalTypeFilter method [Microsoft TV Technologies],IScanningTunerEx interface, mstv.iscanningtunerex_setscansignaltypefilter, tuner/IScanningTunerEx::SetScanSignalTypeFilter
 ms.topic: method
-f1_keywords: 
- - "tuner/IScanningTunerEx.SetScanSignalTypeFilter"
+f1_keywords:
+- tuner/IScanningTunerEx.SetScanSignalTypeFilter
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tuner.h
+- Tuner.h
 api_name:
- - IScanningTunerEx.SetScanSignalTypeFilter
+- IScanningTunerEx.SetScanSignalTypeFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

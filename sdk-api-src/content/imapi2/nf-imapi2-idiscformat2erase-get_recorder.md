@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2Erase.get_Recorder
 title: IDiscFormat2Erase::get_Recorder (imapi2.h)
-
 description: Retrieves the recording device to use in the erase operation.
 old-location: imapi\idiscformat2erase_get_recorder.htm
 tech.root: imapi
 ms.assetid: 5f41ea99-e467-45ef-8f78-8b0637adf5be
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Erase interface [IMAPI],get_Recorder method, IDiscFormat2Erase.get_Recorder, IDiscFormat2Erase::get_Recorder, get_Recorder, get_Recorder method [IMAPI], get_Recorder method [IMAPI],IDiscFormat2Erase interface, imapi.idiscformat2erase_get_recorder, imapi2/IDiscFormat2Erase::get_Recorder
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2Erase.get_Recorder"
+f1_keywords:
+- imapi2/IDiscFormat2Erase.get_Recorder
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2Erase.get_Recorder
+- IDiscFormat2Erase.get_Recorder
 targetos: Windows
 req.typenames: 
 req.redist: 

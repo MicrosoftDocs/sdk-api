@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.QuerySecurityAccessMask
 title: QuerySecurityAccessMask function (securitybaseapi.h)
-
 description: Creates an access mask that represents the access permissions necessary to query the specified object security information.
 old-location: security\querysecurityaccessmask.htm
 tech.root: SecAuthZ
 ms.assetid: 70379640-28b7-4503-9ba8-789786078d4a
-
 ms.date: 12/05/2018
 ms.keywords: QuerySecurityAccessMask, QuerySecurityAccessMask function [Security], security.querysecurityaccessmask, securitybaseapi/QuerySecurityAccessMask, winbase/QuerySecurityAccessMask
 ms.topic: function
-f1_keywords: 
- - "securitybaseapi/QuerySecurityAccessMask"
+f1_keywords:
+- securitybaseapi/QuerySecurityAccessMask
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: WinBase.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-Security-base-l1-1-0.dll
- - API-MS-Win-Security-base-l1-2-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Security-Base-L1-2-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- API-MS-Win-Security-base-l1-1-0.dll
+- API-MS-Win-Security-base-l1-2-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - QuerySecurityAccessMask
+- QuerySecurityAccessMask
 targetos: Windows
 req.typenames: 
 req.redist: 

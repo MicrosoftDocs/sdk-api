@@ -1,19 +1,17 @@
 ---
 UID: NS:robuffer.IBufferByteAccess
 title: IBufferByteAccess
-
 description: Represents a buffer as an array of bytes.
 old-location: winrt\ibufferbyteaccess_buffer.htm
 tech.root: WinRT
 ms.assetid: 51E69696-CE8A-4390-8134-EE5C5F3C729B
-
 ms.date: 12/5/2018
 ms.keywords: IBufferByteAccess interface [Windows Runtime]
 ms.topic: method
-f1_keywords: 
- - "robuffer/IBufferByteAccess"
+f1_keywords:
+- robuffer/IBufferByteAccess
 dev_langs:
- - c++
+- c++
 req.header: robuffer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - robuffer.h
+- robuffer.h
 api_name:
- - IBufferByteAccess
+- IBufferByteAccess
 targetos: Windows
 req.typenames: 
 req.redist: 

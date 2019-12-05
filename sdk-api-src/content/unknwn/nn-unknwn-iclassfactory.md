@@ -1,19 +1,17 @@
 ---
 UID: NN:unknwn.IClassFactory
 title: IClassFactory
-
 description: Enables a class of objects to be created.
 old-location: com\iclassfactory.htm
 tech.root: com
 ms.assetid: f624f833-2b69-43bc-92cd-c4ecbe6051c5
-
 ms.date: 12/05/2018
 ms.keywords: IClassFactory, IClassFactory interface [COM], IClassFactory interface [COM],described, _com_iclassfactory, com.iclassfactory, unknwnbase/IClassFactory
 ms.topic: interface
-f1_keywords: 
- - "unknwn/IClassFactory"
+f1_keywords:
+- unknwn/IClassFactory
 dev_langs:
- - c++
+- c++
 req.header: unknwn.h
 req.include-header: Unknwn.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - unknwnbase.h
+- unknwnbase.h
 api_name:
- - IClassFactory
+- IClassFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

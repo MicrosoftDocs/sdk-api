@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlaylist.insertItem
 title: IWMPPlaylist::insertItem (wmp.h)
-
 description: The insertItem method adds a media item at the specified location in the playlist.
 old-location: wmp\iwmpplaylist_insertitem.htm
 tech.root: WMP
 ms.assetid: 2db2d28d-4cbf-423c-824f-e1e212c46f7a
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],insertItem method, IWMPPlaylist.insertItem, IWMPPlaylist::insertItem, IWMPPlaylistinsertItem, insertItem, insertItem method [Windows Media Player], insertItem method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_insertitem, wmp/IWMPPlaylist::insertItem
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlaylist.insertItem"
+f1_keywords:
+- wmp/IWMPPlaylist.insertItem
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlaylist.insertItem
+- IWMPPlaylist.insertItem
 targetos: Windows
 req.typenames: 
 req.redist: 

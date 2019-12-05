@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.IsSystemResumeAutomatic
 title: IsSystemResumeAutomatic function (winbase.h)
-
 description: Determines the current state of the computer.
 old-location: base\issystemresumeautomatic.htm
 tech.root: power
 ms.assetid: fc9d69cf-26cf-4973-a154-1acb26773738
-
 ms.date: 12/05/2018
 ms.keywords: IsSystemResumeAutomatic, IsSystemResumeAutomatic function, _win32_issystemresumeautomatic, base.issystemresumeautomatic, winbase/IsSystemResumeAutomatic
 ms.topic: function
-f1_keywords: 
- - "winbase/IsSystemResumeAutomatic"
+f1_keywords:
+- winbase/IsSystemResumeAutomatic
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - IsSystemResumeAutomatic
+- IsSystemResumeAutomatic
 targetos: Windows
 req.typenames: 
 req.redist: 

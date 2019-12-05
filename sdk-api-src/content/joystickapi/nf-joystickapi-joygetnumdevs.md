@@ -1,19 +1,17 @@
 ---
 UID: NF:joystickapi.joyGetNumDevs
 title: joyGetNumDevs function (joystickapi.h)
-
 description: The joyGetNumDevs function queries the joystick driver for the number of joysticks it supports.
 old-location: multimedia\joygetnumdevs.htm
 tech.root: Multimedia
 ms.assetid: dc268db5-da2d-4139-97da-5d56a54287d5
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_joyGetNumDevs, joyGetNumDevs, joyGetNumDevs function [Windows Multimedia], joystickapi/joyGetNumDevs, multimedia.joygetnumdevs"
+ms.keywords: _win32_joyGetNumDevs, joyGetNumDevs, joyGetNumDevs function [Windows Multimedia], joystickapi/joyGetNumDevs, multimedia.joygetnumdevs
 ms.topic: function
-f1_keywords: 
- - "joystickapi/joyGetNumDevs"
+f1_keywords:
+- joystickapi/joyGetNumDevs
 dev_langs:
- - c++
+- c++
 req.header: joystickapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-joystick-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-joystick-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - joyGetNumDevs
+- joyGetNumDevs
 targetos: Windows
 req.typenames: 
 req.redist: 

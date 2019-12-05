@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IHeaderCtrl2.SetChangeTimeOut
 title: IHeaderCtrl2::SetChangeTimeOut (mmc.h)
-
 description: The IHeaderCtrl2::SetChangeTimeOut sets the time-out interval between the time a change takes place in the filter attributes and the posting of an MMCN_FILTER_CHANGE filter change notification, which is sent to the snap-in's IComponent::Notify method.
 old-location: mmc\iheaderctrl2_setchangetimeout.htm
 tech.root: mmc
 ms.assetid: 26a6a9bc-6556-4576-a810-d7c07c07cfd1
-
 ms.date: 12/05/2018
 ms.keywords: IHeaderCtrl2 interface [MMC],SetChangeTimeOut method, IHeaderCtrl2.SetChangeTimeOut, IHeaderCtrl2::SetChangeTimeOut, SetChangeTimeOut, SetChangeTimeOut method [MMC], SetChangeTimeOut method [MMC],IHeaderCtrl2 interface, _slate_iheaderctrl2_setchangetimeout, mmc.iheaderctrl2_setchangetimeout, mmc/IHeaderCtrl2::SetChangeTimeOut
 ms.topic: method
-f1_keywords: 
- - "mmc/IHeaderCtrl2.SetChangeTimeOut"
+f1_keywords:
+- mmc/IHeaderCtrl2.SetChangeTimeOut
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IHeaderCtrl2.SetChangeTimeOut
+- IHeaderCtrl2.SetChangeTimeOut
 targetos: Windows
 req.typenames: 
 req.redist: 

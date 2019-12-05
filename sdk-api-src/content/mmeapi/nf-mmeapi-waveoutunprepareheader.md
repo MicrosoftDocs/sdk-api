@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.waveOutUnprepareHeader
 title: waveOutUnprepareHeader function (mmeapi.h)
-
 description: The waveOutUnprepareHeader function cleans up the preparation performed by the waveOutPrepareHeader function. This function must be called after the device driver is finished with a data block. You must call this function before freeing the buffer.
 old-location: multimedia\waveoutunprepareheader.htm
 tech.root: Multimedia
 ms.assetid: 4e68886d-278e-401b-9709-f745c69934d4
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_waveOutUnprepareHeader, mmeapi/waveOutUnprepareHeader, multimedia.waveoutunprepareheader, waveOutUnprepareHeader, waveOutUnprepareHeader function [Windows Multimedia]"
+ms.keywords: _win32_waveOutUnprepareHeader, mmeapi/waveOutUnprepareHeader, multimedia.waveoutunprepareheader, waveOutUnprepareHeader, waveOutUnprepareHeader function [Windows Multimedia]
 ms.topic: function
-f1_keywords: 
- - "mmeapi/waveOutUnprepareHeader"
+f1_keywords:
+- mmeapi/waveOutUnprepareHeader
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - waveOutUnprepareHeader
+- waveOutUnprepareHeader
 targetos: Windows
 req.typenames: 
 req.redist: 

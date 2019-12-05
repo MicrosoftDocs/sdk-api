@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.SetMarker
 title: GraphicsPath::SetMarker (gdipluspath.h)
-
 description: The GraphicsPath::SetMarker method designates the last point in this path as a marker point.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_SetMarker_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\setmarker.htm
-
 ms.date: 12/05/2018
 ms.keywords: GraphicsPath class [GDI+],SetMarker method, GraphicsPath.SetMarker, GraphicsPath::SetMarker, SetMarker, SetMarker method [GDI+], SetMarker method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_SetMarker_, gdiplus._gdiplus_CLASS_GraphicsPath_SetMarker_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.SetMarker"
+f1_keywords:
+- gdipluspath/GraphicsPath.SetMarker
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.SetMarker
+- GraphicsPath.SetMarker
 targetos: Windows
 req.typenames: 
 req.redist: 

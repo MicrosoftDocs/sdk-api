@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector4Cross
 title: XMVector4Cross function (directxmath.h)
-
 description: Computes the 4D cross product.
 old-location: dxmath\xmvector4cross.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4Cross(XMVECTOR,XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4Cross, XMVector4Cross, XMVector4Cross method [DirectX Math Support APIs], dxmath.xmvector4cross
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector4Cross"
+f1_keywords:
+- directxmath/XMVector4Cross
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector4Cross
+- XMVector4Cross
 targetos: Windows
 req.typenames: 
 req.redist: 

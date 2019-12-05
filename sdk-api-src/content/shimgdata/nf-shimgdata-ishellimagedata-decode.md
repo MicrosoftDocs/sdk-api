@@ -1,19 +1,17 @@
 ---
 UID: NF:shimgdata.IShellImageData.Decode
 title: IShellImageData::Decode (shimgdata.h)
-
 description: Decodes the image file, setting state.
 old-location: shell\IShellImageData_Decode.htm
 tech.root: shell
 ms.assetid: 954424d6-cb90-46c1-a850-4e1113dfe2e4
-
 ms.date: 12/05/2018
 ms.keywords: Decode, Decode method [Windows Shell], Decode method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],Decode method, IShellImageData.Decode, IShellImageData::Decode, SHIMGDEC_DEFAULT, SHIMGDEC_LOADFULL, SHIMGDEC_THUMBNAIL, _shell_IShellImageData_Decode, shell.IShellImageData_Decode, shimgdata/IShellImageData::Decode
 ms.topic: method
-f1_keywords: 
- - "shimgdata/IShellImageData.Decode"
+f1_keywords:
+- shimgdata/IShellImageData.Decode
 dev_langs:
- - c++
+- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellImageData.Decode
+- IShellImageData.Decode
 targetos: Windows
 req.typenames: 
 req.redist: 

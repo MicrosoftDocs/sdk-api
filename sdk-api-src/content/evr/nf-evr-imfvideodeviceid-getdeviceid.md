@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFVideoDeviceID.GetDeviceID
 title: IMFVideoDeviceID::GetDeviceID (evr.h)
-
 description: Returns the identifier of the video device supported by an EVR mixer or presenter.
 old-location: mf\imfvideodeviceid_getdeviceid.htm
 tech.root: medfound
 ms.assetid: e23ebce0-be58-413a-ab71-d94811c96029
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceID, GetDeviceID method [Media Foundation], GetDeviceID method [Media Foundation],IMFVideoDeviceID interface, IMFVideoDeviceID interface [Media Foundation],GetDeviceID method, IMFVideoDeviceID.GetDeviceID, IMFVideoDeviceID::GetDeviceID, e23ebce0-be58-413a-ab71-d94811c96029, evr/IMFVideoDeviceID::GetDeviceID, mf.imfvideodeviceid_getdeviceid
 ms.topic: method
-f1_keywords: 
- - "evr/IMFVideoDeviceID.GetDeviceID"
+f1_keywords:
+- evr/IMFVideoDeviceID.GetDeviceID
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoDeviceID.GetDeviceID
+- IMFVideoDeviceID.GetDeviceID
 targetos: Windows
 req.typenames: 
 req.redist: 

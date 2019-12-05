@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerCollabInviteContact
 title: PeerCollabInviteContact function (p2p.h)
-
 description: Sends an invitation to join a peer collaboration activity to a trusted contact. This call is synchronous and, if successful, obtains a response from the contact.
 old-location: p2p\peercollabinvitecontact.htm
 tech.root: P2PSdk
 ms.assetid: 65c6cdb5-33af-435c-9444-42f8689e13a8
-
 ms.date: 12/05/2018
 ms.keywords: PeerCollabInviteContact, PeerCollabInviteContact function [Peer Networking], p2p.peercollabinvitecontact, p2p/PeerCollabInviteContact
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerCollabInviteContact"
+f1_keywords:
+- p2p/PeerCollabInviteContact
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerCollabInviteContact
+- PeerCollabInviteContact
 targetos: Windows
 req.typenames: 
 req.redist: 

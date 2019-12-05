@@ -1,19 +1,17 @@
 ---
 UID: NN:windows.ui.composition.interop.ICompositorInterop
 title: ICompositorInterop (windows.ui.composition.interop.h)
-
 description: Native interoperation interface that allows creating swapchain surfaces and graphics devices. This is interface is available in C++ only.
 old-location: w_ui_comp\icompositorinterop.htm
 tech.root: w_ui_comp
 ms.assetid: 0BE505EA-1C31-411E-AAF7-06D52D9F4682
-
 ms.date: 12/05/2018
 ms.keywords: ICompositorInterop, ICompositorInterop interface, ICompositorInterop interface,described, w_ui_comp.icompositorinterop, windows/ICompositorInterop
 ms.topic: interface
-f1_keywords: 
- - "windows.ui.composition.interop/ICompositorInterop"
+f1_keywords:
+- windows.ui.composition.interop/ICompositorInterop
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.composition.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.ui.composition.interop.h
+- windows.ui.composition.interop.h
 api_name:
- - ICompositorInterop
+- ICompositorInterop
 targetos: Windows
 req.typenames: 
 req.redist: 

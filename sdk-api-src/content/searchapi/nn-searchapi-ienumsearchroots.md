@@ -1,19 +1,17 @@
 ---
 UID: NN:searchapi.IEnumSearchRoots
 title: IEnumSearchRoots (searchapi.h)
-
 description: Provides methods to enumerate the search roots of a catalog, for example, SystemIndex.
 old-location: search\_search_IEnumSearchRoots.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroots\ienumsearchroots.htm
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSearchRoots, IEnumSearchRoots interface [search], IEnumSearchRoots interface [search],described, _search_IEnumSearchRoots, search._search_IEnumSearchRoots, searchapi/IEnumSearchRoots
 ms.topic: interface
-f1_keywords: 
- - "searchapi/IEnumSearchRoots"
+f1_keywords:
+- searchapi/IEnumSearchRoots
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IEnumSearchRoots
+- IEnumSearchRoots
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.GetLocalFileSize
 title: IDWriteFontFaceReference::GetLocalFileSize (dwrite_3.h)
-
 description: Get the local size of the font face in bytes, which will always be less than or equal to GetFullSize. If the locality is remote, this value is zero. If full, this value will equal GetFileSize.
 old-location: directwrite\idwritefontfacereference_getlocalfilesize.htm
 tech.root: DirectWrite
 ms.assetid: f6dc5cf5-131f-a451-7979-3ae8613577bb
-
 ms.date: 12/05/2018
 ms.keywords: GetLocalFileSize, GetLocalFileSize method [Direct Write], GetLocalFileSize method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],GetLocalFileSize method, IDWriteFontFaceReference.GetLocalFileSize, IDWriteFontFaceReference::GetLocalFileSize, directwrite.idwritefontfacereference_getlocalfilesize, dwrite_3/IDWriteFontFaceReference::GetLocalFileSize
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontFaceReference.GetLocalFileSize"
+f1_keywords:
+- dwrite_3/IDWriteFontFaceReference.GetLocalFileSize
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFaceReference.GetLocalFileSize
+- IDWriteFontFaceReference.GetLocalFileSize
 targetos: Windows
 req.typenames: 
 req.redist: 

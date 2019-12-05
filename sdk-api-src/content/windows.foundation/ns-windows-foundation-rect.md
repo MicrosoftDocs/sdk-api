@@ -1,19 +1,17 @@
 ---
 UID: NS:windows.foundation.Rect
 title: Rect (windows.foundation.h)
-
 description: Contains a set of four floating-point numbers that represent the location and size of a rectangle.
 old-location: winrt\rect.htm
 tech.root: WinRT
 ms.assetid: 420daab1-71e7-4610-b454-a49a64061f97
-
 ms.date: 12/05/2018
 ms.keywords: Rect, Rect structure [Windows Runtime], windows/Rect, winrt.rect
 ms.topic: struct
-f1_keywords: 
- - "windows.foundation/Rect"
+f1_keywords:
+- windows.foundation/Rect
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - Rect
+- Rect
 targetos: Windows
 req.typenames: Rect
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:ddkmapi._DDLOCKOUT
 title: DDLOCKOUT (ddkmapi.h)
-
 description: The DDLOCKOUT structure contains a description of the surface.
 old-location: display\ddlockout.htm
 tech.root: display
 ms.assetid: b6046c49-828d-4b92-aab7-e872e1905929
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDDLOCKOUT, DDLOCKOUT, DDLOCKOUT structure [Display Devices], LPDDLOCKOUT, LPDDLOCKOUT structure pointer [Display Devices], ddkmapi/DDLOCKOUT, ddkmapi/LPDDLOCKOUT, ddstrcts_7125d1f6-8fc5-460b-bc11-089053f77b83.xml, display.ddlockout"
+ms.keywords: '*LPDDLOCKOUT, DDLOCKOUT, DDLOCKOUT structure [Display Devices], LPDDLOCKOUT, LPDDLOCKOUT structure pointer [Display Devices], ddkmapi/DDLOCKOUT, ddkmapi/LPDDLOCKOUT, ddstrcts_7125d1f6-8fc5-460b-bc11-089053f77b83.xml, display.ddlockout'
 ms.topic: struct
-f1_keywords: 
- - "ddkmapi/DDLOCKOUT"
+f1_keywords:
+- ddkmapi/DDLOCKOUT
 dev_langs:
- - c++
+- c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddkmapi.h
+- ddkmapi.h
 api_name:
- - DDLOCKOUT
+- DDLOCKOUT
 targetos: Windows
 req.typenames: DDLOCKOUT, *LPDDLOCKOUT
 req.redist: 

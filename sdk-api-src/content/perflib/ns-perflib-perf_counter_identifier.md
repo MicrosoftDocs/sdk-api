@@ -1,19 +1,17 @@
 ---
 UID: NS:perflib._PERF_COUNTER_IDENTIFIER
 title: PERF_COUNTER_IDENTIFIER (perflib.h)
-
 description: Contains information about the PERF_COUNTER_IDENTIFIER block that contains the structure.
 old-location: perf\perf_counter_identifier.htm
 tech.root: perfctrs
 ms.assetid: 4BBAB831-9A7F-407E-A7D6-9123192C12B4
-
 ms.date: 12/05/2018
-ms.keywords: "*PPERF_COUNTER_IDENTIFIER, PERF_COUNTER_IDENTIFIER, PERF_COUNTER_IDENTIFIER structure [Perf], PPERF_COUNTER_IDENTIFIER, PPERF_COUNTER_IDENTIFIER structure pointer [Perf], perf.perf_counter_identifier, perflib/PERF_COUNTER_IDENTIFIER, perflib/PPERF_COUNTER_IDENTIFIER"
+ms.keywords: '*PPERF_COUNTER_IDENTIFIER, PERF_COUNTER_IDENTIFIER, PERF_COUNTER_IDENTIFIER structure [Perf], PPERF_COUNTER_IDENTIFIER, PPERF_COUNTER_IDENTIFIER structure pointer [Perf], perf.perf_counter_identifier, perflib/PERF_COUNTER_IDENTIFIER, perflib/PPERF_COUNTER_IDENTIFIER'
 ms.topic: struct
-f1_keywords: 
- - "perflib/PERF_COUNTER_IDENTIFIER"
+f1_keywords:
+- perflib/PERF_COUNTER_IDENTIFIER
 dev_langs:
- - c++
+- c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Perflib.h
+- Perflib.h
 api_name:
- - PERF_COUNTER_IDENTIFIER
+- PERF_COUNTER_IDENTIFIER
 targetos: Windows
 req.typenames: PERF_COUNTER_IDENTIFIER, *PPERF_COUNTER_IDENTIFIER
 req.redist: 

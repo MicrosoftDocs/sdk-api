@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITcpConnectionInfo.get_Protocol
 title: IRDPSRAPITcpConnectionInfo::get_Protocol (rdpencomapi.h)
-
 description: Retrieves the protocol that is being used by the sharer or by the viewer for communication.
 old-location: rdp\irdpsrapitcpconnectioninfo_protocol.htm
 tech.root: rdp
 ms.assetid: 1ca6d2db-bbd9-4332-bee6-7454a4c3cbea
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITcpConnectionInfo interface [RDP],Protocol property, IRDPSRAPITcpConnectionInfo.Protocol, IRDPSRAPITcpConnectionInfo.get_Protocol, IRDPSRAPITcpConnectionInfo::Protocol, IRDPSRAPITcpConnectionInfo::get_Protocol, Protocol property [RDP], Protocol property [RDP],IRDPSRAPITcpConnectionInfo interface, Protocol property [RDP],RDPSRAPITcpConnectionInfo object, RDPSRAPITcpConnectionInfo object [RDP],Protocol property, get_Protocol, rdp.irdpsrapitcpconnectioninfo_protocol, rdpencomapi/IRDPSRAPITcpConnectionInfo::Protocol, rdpencomapi/IRDPSRAPITcpConnectionInfo::get_Protocol
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPITcpConnectionInfo.Protocol"
+f1_keywords:
+- rdpencomapi/IRDPSRAPITcpConnectionInfo.Protocol
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPITcpConnectionInfo.Protocol
- - IRDPSRAPITcpConnectionInfo.get_Protocol
- - RDPSRAPITcpConnectionInfo.Protocol
+- IRDPSRAPITcpConnectionInfo.Protocol
+- IRDPSRAPITcpConnectionInfo.get_Protocol
+- RDPSRAPITcpConnectionInfo.Protocol
 targetos: Windows
 req.typenames: 
 req.redist: 

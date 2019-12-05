@@ -1,19 +1,17 @@
 ---
 UID: NE:gdiplusenums.Unit
 title: Unit (gdiplusenums.h)
-
 description: The Unit enumeration specifies the unit of measure for a given data type.
 old-location: gdiplus\_gdiplus_ENUM_Unit.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\unit.htm
-
 ms.date: 12/05/2018
 ms.keywords: Unit, Unit enumeration [GDI+], UnitDisplay, UnitDocument, UnitInch, UnitMillimeter, UnitPixel, UnitPoint, UnitWorld, _gdiplus_ENUM_Unit, gdiplus._gdiplus_ENUM_Unit, gdiplusenums/Unit, gdiplusenums/UnitDisplay, gdiplusenums/UnitDocument, gdiplusenums/UnitInch, gdiplusenums/UnitMillimeter, gdiplusenums/UnitPixel, gdiplusenums/UnitPoint, gdiplusenums/UnitWorld
 ms.topic: enum
-f1_keywords: 
- - "gdiplusenums/Unit"
+f1_keywords:
+- gdiplusenums/Unit
 dev_langs:
- - c++
+- c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdiplusenums.h
+- Gdiplusenums.h
 api_name:
- - Unit
+- Unit
 targetos: Windows
 req.typenames: 
 req.redist: 

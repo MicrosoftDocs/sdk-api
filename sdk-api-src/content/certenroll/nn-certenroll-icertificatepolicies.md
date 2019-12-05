@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.ICertificatePolicies
 title: ICertificatePolicies (certenroll.h)
-
 description: Contains methods and properties that enable you to manage a collection of ICertificatePolicy objects.
 old-location: security\icertificatepolicies.htm
 tech.root: seccertenroll
 ms.assetid: 2503adcb-0b73-42ef-98cf-a2b906e34ef7
-
 ms.date: 12/05/2018
 ms.keywords: ICertificatePolicies, ICertificatePolicies interface [Security], ICertificatePolicies interface [Security],described, certenroll/ICertificatePolicies, security.icertificatepolicies
 ms.topic: interface
-f1_keywords: 
- - "certenroll/ICertificatePolicies"
+f1_keywords:
+- certenroll/ICertificatePolicies
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertificatePolicies
+- ICertificatePolicies
 targetos: Windows
 req.typenames: 
 req.redist: 

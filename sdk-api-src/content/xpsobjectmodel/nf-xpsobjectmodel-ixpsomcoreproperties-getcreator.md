@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetCreator
 title: IXpsOMCoreProperties::GetCreator (xpsobjectmodel.h)
-
 description: Gets the creator property.
 old-location: xps\ixpsomcoreproperties_getcreator.htm
 tech.root: printdocs
 ms.assetid: 35d7a3ad-e1f7-49bf-ad30-d577cc9d4731
-
 ms.date: 12/05/2018
 ms.keywords: GetCreator, GetCreator method [XPS Documents and Packaging], GetCreator method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetCreator method, IXpsOMCoreProperties.GetCreator, IXpsOMCoreProperties::GetCreator, xps.ixpsomcoreproperties_getcreator, xpsobjectmodel/IXpsOMCoreProperties::GetCreator
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCoreProperties.GetCreator"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCoreProperties.GetCreator
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.GetCreator
+- IXpsOMCoreProperties.GetCreator
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:ocidl.tagQACONTAINER
 title: QACONTAINER (ocidl.h)
-
 description: Specifies container information for IQuickActivate::QuickActivate.
 old-location: com\qacontainer.htm
 tech.root: com
 ms.assetid: 8f3975eb-7cd2-449f-92cc-2b8773d9f37e
-
 ms.date: 12/05/2018
 ms.keywords: QACONTAINER, QACONTAINER structure [COM], _ctrl_QACONTAINER, com.qacontainer, ocidl/QACONTAINER
 ms.topic: struct
-f1_keywords: 
- - "ocidl/QACONTAINER"
+f1_keywords:
+- ocidl/QACONTAINER
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - QACONTAINER
+- QACONTAINER
 targetos: Windows
 req.typenames: QACONTAINER
 req.redist: 

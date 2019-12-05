@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_EnableTCP
 title: IAMNetShowConfig::put_EnableTCP (qnetwork.h)
-
 description: The put_EnableTCP method enables or disables TCP-based streaming.
 old-location: dshow\iamnetshowconfig_put_enabletcp.htm
 tech.root: DirectShow
 ms.assetid: 8e875901-7ccb-4aa5-b283-f75b791e85f1
-
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_EnableTCP method, IAMNetShowConfig.put_EnableTCP, IAMNetShowConfig::put_EnableTCP, IAMNetShowConfigput_EnableTCP, dshow.iamnetshowconfig_put_enabletcp, put_EnableTCP, put_EnableTCP method [DirectShow], put_EnableTCP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_EnableTCP
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMNetShowConfig.put_EnableTCP"
+f1_keywords:
+- qnetwork/IAMNetShowConfig.put_EnableTCP
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMNetShowConfig.put_EnableTCP
+- IAMNetShowConfig.put_EnableTCP
 targetos: Windows
 req.typenames: 
 req.redist: 

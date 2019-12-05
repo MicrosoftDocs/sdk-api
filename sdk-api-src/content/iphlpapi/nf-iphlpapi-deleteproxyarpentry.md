@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.DeleteProxyArpEntry
 title: DeleteProxyArpEntry function (iphlpapi.h)
-
 description: The DeleteProxyArpEntry function deletes the PARP entry on the local computer specified by the dwAddress and dwIfIndex parameters.
 old-location: iphlp\deleteproxyarpentry.htm
 tech.root: IpHlp
 ms.assetid: 26e08e4d-ac69-49f8-8a1a-1ba1a04d085c
-
 ms.date: 12/05/2018
 ms.keywords: DeleteProxyArpEntry, DeleteProxyArpEntry function [IP Helper], _iphlp_deleteproxyarpentry, iphlp.deleteproxyarpentry, iphlpapi/DeleteProxyArpEntry
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/DeleteProxyArpEntry"
+f1_keywords:
+- iphlpapi/DeleteProxyArpEntry
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - DeleteProxyArpEntry
+- DeleteProxyArpEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.ISchemaProvider.RootEntity
 title: ISchemaProvider::RootEntity (structuredquery.h)
-
 description: Retrieves the root entity of the loaded schema.
 old-location: search\_search_ISchemaProvider_RootEntity.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\rootentity.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISchemaProvider interface [search],RootEntity method, ISchemaProvider.RootEntity, ISchemaProvider::RootEntity, RootEntity, RootEntity method [search], RootEntity method [search],ISchemaProvider interface, _search_ISchemaProvider_RootEntity, search._search_ISchemaProvider_RootEntity, structuredquery/ISchemaProvider::RootEntity
 ms.topic: method
-f1_keywords: 
- - "structuredquery/ISchemaProvider.RootEntity"
+f1_keywords:
+- structuredquery/ISchemaProvider.RootEntity
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - ISchemaProvider.RootEntity
+- ISchemaProvider.RootEntity
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

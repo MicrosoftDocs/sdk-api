@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxPackageReader
 title: IAppxPackageReader (appxpackaging.h)
-
 description: Provides a read-only object model for app packages.
 old-location: appxpkg\iappxpackagereader.htm
 tech.root: appxpkg
 ms.assetid: D34D0909-BE2B-4182-8C3D-36A4E8DDC820
-
 ms.date: 12/05/2018
 ms.keywords: IAppxPackageReader, IAppxPackageReader interface [App packaging and management], IAppxPackageReader interface [App packaging and management],described, appxpackaging/IAppxPackageReader, appxpkg.iappxpackagereader
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxPackageReader"
+f1_keywords:
+- appxpackaging/IAppxPackageReader
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxPackageReader
+- IAppxPackageReader
 targetos: Windows
 req.typenames: 
 req.redist: 

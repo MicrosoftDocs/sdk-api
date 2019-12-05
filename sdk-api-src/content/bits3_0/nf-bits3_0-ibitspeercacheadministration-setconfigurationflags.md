@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.SetConfigurationFlags
 title: IBitsPeerCacheAdministration::SetConfigurationFlags (bits3_0.h)
-
 description: Sets the configuration flags that determine if the computer can serve content to peers and can download content from peers.
 old-location: bits\ibitspeercacheadministration_setconfigurationflags.htm
 tech.root: Bits
 ms.assetid: 1ede7c58-bc6d-4930-bca6-e4f26f97c648
-
 ms.date: 12/05/2018
 ms.keywords: BG_ENABLE_PEERCACHING_CLIENT, BG_ENABLE_PEERCACHING_SERVER, IBitsPeerCacheAdministration interface [BITS],SetConfigurationFlags method, IBitsPeerCacheAdministration.SetConfigurationFlags, IBitsPeerCacheAdministration::SetConfigurationFlags, SetConfigurationFlags, SetConfigurationFlags method [BITS], SetConfigurationFlags method [BITS],IBitsPeerCacheAdministration interface, bits.ibitspeercacheadministration_setconfigurationflags, bits3_0/IBitsPeerCacheAdministration::SetConfigurationFlags
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IBitsPeerCacheAdministration.SetConfigurationFlags"
+f1_keywords:
+- bits3_0/IBitsPeerCacheAdministration.SetConfigurationFlags
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBitsPeerCacheAdministration.SetConfigurationFlags
+- IBitsPeerCacheAdministration.SetConfigurationFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

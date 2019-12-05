@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetSourceElements
 title: IMFMediaEngine::SetSourceElements (mfmediaengine.h)
-
 description: Sets a list of media sources.
 old-location: mf\imfmediaengine_setsourceelements.htm
 tech.root: medfound
 ms.assetid: 7B1A1C43-A9BD-4DBF-B6A7-53BF9295CDAC
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetSourceElements method, IMFMediaEngine.SetSourceElements, IMFMediaEngine::SetSourceElements, SetSourceElements, SetSourceElements method [Media Foundation], SetSourceElements method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setsourceelements, mfmediaengine/IMFMediaEngine::SetSourceElements
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.SetSourceElements"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.SetSourceElements
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.SetSourceElements
+- IMFMediaEngine.SetSourceElements
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.put_SamplesPerSec
 title: ITScriptableAudioFormat::put_SamplesPerSec (tapi3if.h)
-
 description: The put_SamplesPerSec method sets the nSamplesPerSec member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_put_samplespersec.htm
 tech.root: Tapi
 ms.assetid: 9cf0d204-3623-4c93-9f75-39c39aa20f76
-
 ms.date: 12/05/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],put_SamplesPerSec method, ITScriptableAudioFormat.put_SamplesPerSec, ITScriptableAudioFormat::put_SamplesPerSec, _tapi3_itscriptableaudioformat_put_samplespersec, put_SamplesPerSec, put_SamplesPerSec method [TAPI 2.2], put_SamplesPerSec method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_put_samplespersec, tapi3if/ITScriptableAudioFormat::put_SamplesPerSec
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITScriptableAudioFormat.put_SamplesPerSec"
+f1_keywords:
+- tapi3if/ITScriptableAudioFormat.put_SamplesPerSec
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITScriptableAudioFormat.put_SamplesPerSec
+- ITScriptableAudioFormat.put_SamplesPerSec
 targetos: Windows
 req.typenames: 
 req.redist: 

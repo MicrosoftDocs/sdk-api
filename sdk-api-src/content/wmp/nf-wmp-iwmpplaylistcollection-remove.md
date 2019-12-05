@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlaylistCollection.remove
 title: IWMPPlaylistCollection::remove (wmp.h)
-
 description: The remove method removes a playlist from the library.
 old-location: wmp\iwmpplaylistcollection_remove.htm
 tech.root: WMP
 ms.assetid: ed678c2c-bfde-424b-9c71-21270a32a08e
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylistCollection interface [Windows Media Player],remove method, IWMPPlaylistCollection.remove, IWMPPlaylistCollection::remove, IWMPPlaylistCollectionremove, remove, remove method [Windows Media Player], remove method [Windows Media Player],IWMPPlaylistCollection interface, wmp.iwmpplaylistcollection_remove, wmp/IWMPPlaylistCollection::remove
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlaylistCollection.remove"
+f1_keywords:
+- wmp/IWMPPlaylistCollection.remove
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlaylistCollection.remove
+- IWMPPlaylistCollection.remove
 targetos: Windows
 req.typenames: 
 req.redist: 

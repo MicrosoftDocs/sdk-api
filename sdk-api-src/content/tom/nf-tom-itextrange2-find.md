@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange2.Find
 title: ITextRange2::Find (tom.h)
-
 description: Searchs for math inline functions in text as specified by a source range.
 old-location: controls\itextrange2_find.htm
 tech.root: Controls
 ms.assetid: 4935d322-016a-4c08-858e-42009a9f59f1
-
 ms.date: 12/05/2018
 ms.keywords: Find, Find method [Windows Controls], Find method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],Find method, ITextRange2.Find, ITextRange2::Find, controls.itextrange2_find, tom/ITextRange2::Find
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange2.Find"
+f1_keywords:
+- tom/ITextRange2.Find
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange2.Find
+- ITextRange2.Find
 targetos: Windows
 req.typenames: 
 req.redist: 

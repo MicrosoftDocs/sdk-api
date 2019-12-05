@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IShellItem
 title: IShellItem (shobjidl_core.h)
-
 description: Exposes methods that retrieve information about a Shell item. IShellItem and IShellItem2 are the preferred representations of items in any new code.
 old-location: shell\IShellItem.htm
 tech.root: shell
 ms.assetid: 599b9c0a-df04-4dbd-a5a6-a8736eecc560
-
 ms.date: 12/05/2018
 ms.keywords: IShellItem, IShellItem interface [Windows Shell], IShellItem interface [Windows Shell],described, _win32_IShellItem, shell.IShellItem, shobjidl_core/IShellItem
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IShellItem"
+f1_keywords:
+- shobjidl_core/IShellItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellItem
+- IShellItem
 targetos: Windows
 req.typenames: 
 req.redist: 

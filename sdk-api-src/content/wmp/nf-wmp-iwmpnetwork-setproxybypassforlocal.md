@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPNetwork.setProxyBypassForLocal
 title: IWMPNetwork::setProxyBypassForLocal (wmp.h)
-
 description: The setProxyBypassForLocal method specifies a value indicating whether the proxy server is bypassed if the origin server is on a local network.
 old-location: wmp\iwmpnetwork_setproxybypassforlocal.htm
 tech.root: WMP
 ms.assetid: 4477bc81-e52b-4924-a31b-6f005a5bd158
-
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],setProxyBypassForLocal method, IWMPNetwork.setProxyBypassForLocal, IWMPNetwork::setProxyBypassForLocal, IWMPNetworksetProxyBypassForLocal, setProxyBypassForLocal, setProxyBypassForLocal method [Windows Media Player], setProxyBypassForLocal method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_setproxybypassforlocal, wmp/IWMPNetwork::setProxyBypassForLocal
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPNetwork.setProxyBypassForLocal"
+f1_keywords:
+- wmp/IWMPNetwork.setProxyBypassForLocal
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPNetwork.setProxyBypassForLocal
+- IWMPNetwork.setProxyBypassForLocal
 targetos: Windows
 req.typenames: 
 req.redist: 

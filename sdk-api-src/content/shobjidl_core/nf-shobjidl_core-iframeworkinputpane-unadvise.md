@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFrameworkInputPane.Unadvise
 title: IFrameworkInputPane::Unadvise (shobjidl_core.h)
-
 description: Unregisters an app's input pane handler object so that it no longer receives notifications.
 old-location: shell\IFrameworkInputPane_Unadvise.htm
 tech.root: shell
 ms.assetid: E4187EC2-DD8F-4e3c-BD0C-B5AD4B02E943
-
 ms.date: 12/05/2018
 ms.keywords: IFrameworkInputPane interface [Windows Shell],Unadvise method, IFrameworkInputPane.Unadvise, IFrameworkInputPane::Unadvise, Unadvise, Unadvise method [Windows Shell], Unadvise method [Windows Shell],IFrameworkInputPane interface, shell.IFrameworkInputPane_Unadvise, shobjidl_core/IFrameworkInputPane::Unadvise
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFrameworkInputPane.Unadvise"
+f1_keywords:
+- shobjidl_core/IFrameworkInputPane.Unadvise
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFrameworkInputPane.Unadvise
+- IFrameworkInputPane.Unadvise
 targetos: Windows
 req.typenames: 
 req.redist: 

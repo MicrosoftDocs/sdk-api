@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_InstanceExFT
 title: MI_InstanceExFT (mi.h)
-
 description: Extends the MI_InstanceFT structure.
 old-location: wmi_v2\mi_instanceexft.htm
 tech.root: wmi_v2
 ms.assetid: E703D978-7B4B-4AB4-AB69-C9489F5AD58B
-
 ms.date: 12/05/2018
 ms.keywords: MI_InstanceExFT, MI_InstanceExFT structure [Windows Management Infrastructure (MI)], mi/MI_Instance_ExFT, wmi_v2.mi_instanceexft
 ms.topic: struct
 f1_keywords:
 - mi/MI_InstanceExFT
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

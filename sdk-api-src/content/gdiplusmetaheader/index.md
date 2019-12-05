@@ -1,7 +1,6 @@
 ---
 UID: NA:gdiplusmetaheader
 ms.assetid: 7ae4b235-aeb3-3362-b34b-dcac25c3825e
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

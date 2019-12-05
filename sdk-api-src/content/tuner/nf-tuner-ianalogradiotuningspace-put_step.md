@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IAnalogRadioTuningSpace.put_Step
 title: IAnalogRadioTuningSpace::put_Step (tuner.h)
-
 description: The put_Step method sets the step value to the next frequency.
 old-location: mstv\ianalogradiotuningspace_put_step.htm
 tech.root: mstv
 ms.assetid: b8e5075f-4d30-4c32-8041-7e60d7d82f8d
-
 ms.date: 12/05/2018
 ms.keywords: IAnalogRadioTuningSpace interface [Microsoft TV Technologies],put_Step method, IAnalogRadioTuningSpace.put_Step, IAnalogRadioTuningSpace::put_Step, IAnalogRadioTuningSpaceput_Step, mstv.ianalogradiotuningspace_put_step, put_Step, put_Step method [Microsoft TV Technologies], put_Step method [Microsoft TV Technologies],IAnalogRadioTuningSpace interface, tuner/IAnalogRadioTuningSpace::put_Step
 ms.topic: method
-f1_keywords: 
- - "tuner/IAnalogRadioTuningSpace.put_Step"
+f1_keywords:
+- tuner/IAnalogRadioTuningSpace.put_Step
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IAnalogRadioTuningSpace.put_Step
+- IAnalogRadioTuningSpace.put_Step
 targetos: Windows
 req.typenames: 
 req.redist: 

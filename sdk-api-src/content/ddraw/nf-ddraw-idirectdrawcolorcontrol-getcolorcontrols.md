@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawColorControl.GetColorControls
 title: IDirectDrawColorControl::GetColorControls (ddraw.h)
-
 description: Retrieves the current color-control settings that are associated with an overlay or a primary surface.
 old-location: directdraw\idirectdrawcolorcontrol_getcolorcontrols.htm
 tech.root: directdraw
 ms.assetid: 16ac7bef-e88c-47da-8db9-9e6258a381a0
-
 ms.date: 12/05/2018
 ms.keywords: GetColorControls, GetColorControls method [DirectDraw], GetColorControls method [DirectDraw],IDirectDrawColorControl interface, IDirectDrawColorControl interface [DirectDraw],GetColorControls method, IDirectDrawColorControl.GetColorControls, IDirectDrawColorControl::GetColorControls, ddraw/IDirectDrawColorControl::GetColorControls, directdraw.idirectdrawcolorcontrol_getcolorcontrols
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawColorControl.GetColorControls"
+f1_keywords:
+- ddraw/IDirectDrawColorControl.GetColorControls
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawColorControl.GetColorControls
+- IDirectDrawColorControl.GetColorControls
 targetos: Windows
 req.typenames: 
 req.redist: 

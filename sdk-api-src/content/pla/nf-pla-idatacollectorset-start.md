@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollectorSet.Start
 title: IDataCollectorSet::Start (pla.h)
-
 description: Manually starts the data collector set.
 old-location: pla\idatacollectorset_start.htm
 tech.root: PLA
 ms.assetid: 63f0c7b7-0dc6-4491-a2f5-eaae9d22da61
-
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],Start method, IDataCollectorSet.Start, IDataCollectorSet::Start, Start, Start method [PLA], Start method [PLA],IDataCollectorSet interface, base.idatacollectorset_start, pla.idatacollectorset_start, pla/IDataCollectorSet::Start
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollectorSet.Start"
+f1_keywords:
+- pla/IDataCollectorSet.Start
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollectorSet.Start
+- IDataCollectorSet.Start
 targetos: Windows
 req.typenames: 
 req.redist: 

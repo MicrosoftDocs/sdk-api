@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.DeactivateAndUndo
 title: IOleInPlaceSite::DeactivateAndUndo (oleidl.h)
-
 description: Deactivates the object, ends the in-place session, and reverts to the container's saved undo state.
 old-location: com\ioleinplacesite_deactivateandundo.htm
 tech.root: com
 ms.assetid: 59229720-cd3b-45d5-90c4-391acb124f4d
-
 ms.date: 12/05/2018
 ms.keywords: DeactivateAndUndo, DeactivateAndUndo method [COM], DeactivateAndUndo method [COM],IOleInPlaceSite interface, IOleInPlaceSite interface [COM],DeactivateAndUndo method, IOleInPlaceSite.DeactivateAndUndo, IOleInPlaceSite::DeactivateAndUndo, IOleInPlaceSiteWindowless.DeactivateAndUndo, _ole_ioleinplacesite_deactivateandundo, com.ioleinplacesite_deactivateandundo, oleidl/IOleInPlaceSite::DeactivateAndUndo
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleInPlaceSite.DeactivateAndUndo"
+f1_keywords:
+- oleidl/IOleInPlaceSite.DeactivateAndUndo
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
- - browsewm.dll
+- OleIdl.h
+- browsewm.dll
 api_name:
- - IOleInPlaceSite.DeactivateAndUndo
- - IOleInPlaceSiteWindowless.DeactivateAndUndo
+- IOleInPlaceSite.DeactivateAndUndo
+- IOleInPlaceSiteWindowless.DeactivateAndUndo
 targetos: Windows
 req.typenames: 
 req.redist: 

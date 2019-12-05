@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPCore.get_playlistCollection
 title: IWMPCore::get_playlistCollection (wmp.h)
-
 description: The get_playlistCollection method retrieves a pointer to an IWMPPlaylistCollection interface.
 old-location: wmp\iwmpcore_get_playlistcollection.htm
 tech.root: WMP
 ms.assetid: 8f6ab34f-e055-4a18-b1b8-e3c7b8f9c76a
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_playlistCollection method, IWMPCore.get_playlistCollection, IWMPCore::get_playlistCollection, IWMPCoreget_playlistCollection, get_playlistCollection, get_playlistCollection method [Windows Media Player], get_playlistCollection method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_playlistcollection, wmp/IWMPCore::get_playlistCollection
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPCore.get_playlistCollection"
+f1_keywords:
+- wmp/IWMPCore.get_playlistCollection
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPCore.get_playlistCollection
+- IWMPCore.get_playlistCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataresolution.RoGetMetaDataFile
 title: RoGetMetaDataFile function (rometadataresolution.h)
-
 description: Locates and retrieves the metadata file that describes the Application Binary Interface (ABI) for the specified typename.
 old-location: winrt\rogetmetadatafile.htm
 tech.root: WinRT
 ms.assetid: FF4FEA9F-3FB0-4D56-BE9A-E8E2CB13D718
-
 ms.date: 12/05/2018
 ms.keywords: RoGetMetaDataFile, RoGetMetaDataFile function [Windows Runtime], rometadataresolution/RoGetMetaDataFile, winrt.rogetmetadatafile
 ms.topic: function
-f1_keywords: 
- - "rometadataresolution/RoGetMetaDataFile"
+f1_keywords:
+- rometadataresolution/RoGetMetaDataFile
 dev_langs:
- - c++
+- c++
 req.header: rometadataresolution.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: WindowsApp.lib
 req.dll: WinTypes.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WinTypes.dll
- - API-MS-Win-ro-typeresolution-l1-1-0.dll
- - Ext-MS-Win-Ro-TypeResolution-L1-1-0.dll
+- WinTypes.dll
+- API-MS-Win-ro-typeresolution-l1-1-0.dll
+- Ext-MS-Win-Ro-TypeResolution-L1-1-0.dll
 api_name:
- - RoGetMetaDataFile
+- RoGetMetaDataFile
 targetos: Windows
 req.typenames: 
 req.redist: 

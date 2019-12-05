@@ -1,19 +1,17 @@
 ---
 UID: NF:eappapis.EapHostPeerClearConnection
 title: EapHostPeerClearConnection function (eappapis.h)
-
 description: Clears the authentication session connection.
 old-location: eaphost\eaphostpeerclearconnection.htm
 tech.root: eaphost
 ms.assetid: 1d997e4e-6e7f-47db-9957-9658e54c0bdf
-
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerClearConnection, EapHostPeerClearConnection function [EAPHost], eaphost.eaphostpeerclearconnection, eappapis/EapHostPeerClearConnection
 ms.topic: function
 f1_keywords:
 - eappapis/EapHostPeerClearConnection
 dev_langs:
- - c++
+- c++
 req.header: eappapis.h
 req.include-header: 
 req.target-type: Windows

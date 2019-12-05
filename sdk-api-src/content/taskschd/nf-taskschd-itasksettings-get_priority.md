@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskSettings.get_Priority
 title: ITaskSettings::get_Priority (taskschd.h)
-
 description: Gets or sets the priority level of the task.
 old-location: taskschd\itasksettings_priority.htm
 tech.root: taskschd
 ms.assetid: ce6ad1bc-0d19-4a5d-b29f-8df8400f8819
-
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],Priority property, ITaskSettings.Priority, ITaskSettings.get_Priority, ITaskSettings::Priority, ITaskSettings::get_Priority, ITaskSettings::put_Priority, Priority property [Task Scheduler], Priority property [Task Scheduler],ITaskSettings interface, get_Priority, taskschd.itasksettings_priority, taskschd/ITaskSettings::Priority, taskschd/ITaskSettings::get_Priority, taskschd/ITaskSettings::put_Priority
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskSettings.Priority"
+f1_keywords:
+- taskschd/ITaskSettings.Priority
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskSettings.Priority
- - ITaskSettings.get_Priority
- - ITaskSettings.put_Priority
+- ITaskSettings.Priority
+- ITaskSettings.get_Priority
+- ITaskSettings.put_Priority
 targetos: Windows
 req.typenames: 
 req.redist: 

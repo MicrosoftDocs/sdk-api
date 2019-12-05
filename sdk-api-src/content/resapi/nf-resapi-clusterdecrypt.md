@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ClusterDecrypt
 title: ClusterDecrypt function (resapi.h)
-
 description: Decrypts Checkpointing data for a Cryptographic Service Provider (CSP).
 old-location: mscs\clusterdecrypt.htm
 tech.root: MsCS
 ms.assetid: F851BA13-3261-462C-98EA-402F77A39A14
-
 ms.date: 12/05/2018
 ms.keywords: ClusterDecrypt, ClusterDecrypt function [Failover Cluster], PCLUSTER_DECRYPT, PCLUSTER_DECRYPT function [Failover Cluster], mscs.clusterdecrypt, resapi/ClusterDecrypt, resapi/PCLUSTER_DECRYPT
 ms.topic: function
-f1_keywords: 
- - "resapi/ClusterDecrypt"
+f1_keywords:
+- resapi/ClusterDecrypt
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ClusterDecrypt
+- ClusterDecrypt
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataWriter.WriteNextItemCommand
 title: ISpatialAudioMetadataWriter::WriteNextItemCommand (spatialaudiometadata.h)
-
 description: Writes metadata commands and value data to the current item.
 old-location: coreaudio\ispatialaudiometadatawriter_writenextitemcommand.htm
 tech.root: CoreAudio
 ms.assetid: A614AEC6-7CA3-4624-BAFE-46618BCB64FA
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioMetadataWriter interface [Core Audio],WriteNextItemCommand method, ISpatialAudioMetadataWriter.WriteNextItemCommand, ISpatialAudioMetadataWriter::WriteNextItemCommand, WriteNextItemCommand, WriteNextItemCommand method [Core Audio], WriteNextItemCommand method [Core Audio],ISpatialAudioMetadataWriter interface, coreaudio.ispatialaudiometadatawriter_writenextitemcommand, spatialaudiometadata/ISpatialAudioMetadataWriter::WriteNextItemCommand
 ms.topic: method
-f1_keywords: 
- - "spatialaudiometadata/ISpatialAudioMetadataWriter.WriteNextItemCommand"
+f1_keywords:
+- spatialaudiometadata/ISpatialAudioMetadataWriter.WriteNextItemCommand
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SpatialAudioMetadata.h
+- SpatialAudioMetadata.h
 api_name:
- - ISpatialAudioMetadataWriter.WriteNextItemCommand
+- ISpatialAudioMetadataWriter.WriteNextItemCommand
 targetos: Windows
 req.typenames: 
 req.redist: 

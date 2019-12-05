@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.put_Autotune
 title: IBDA_FrequencyFilter::put_Autotune (bdaiface.h)
-
 description: The put_Autotune method specifies whether to activate the device's autotune capabilities.
 old-location: mstv\ibda_frequencyfilter_put_autotune.htm
 tech.root: mstv
 ms.assetid: e2ca03b8-fd22-4b8f-90a9-42a235b0a675
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],put_Autotune method, IBDA_FrequencyFilter.put_Autotune, IBDA_FrequencyFilter::put_Autotune, IBDA_FrequencyFilterput_Autotune, bdaiface/IBDA_FrequencyFilter::put_Autotune, mstv.ibda_frequencyfilter_put_autotune, put_Autotune, put_Autotune method [Microsoft TV Technologies], put_Autotune method [Microsoft TV Technologies],IBDA_FrequencyFilter interface
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_FrequencyFilter.put_Autotune"
+f1_keywords:
+- bdaiface/IBDA_FrequencyFilter.put_Autotune
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_FrequencyFilter.put_Autotune
+- IBDA_FrequencyFilter.put_Autotune
 targetos: Windows
 req.typenames: 
 req.redist: 

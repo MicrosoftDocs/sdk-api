@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IConnector.GetDataFlow
 title: IConnector::GetDataFlow (devicetopology.h)
-
 description: The GetDataFlow method gets the direction of data flow through this connector.
 old-location: coreaudio\iconnector_getdataflow.htm
 tech.root: CoreAudio
 ms.assetid: 55078775-2921-45c2-af27-c8ad53688293
-
 ms.date: 12/05/2018
 ms.keywords: GetDataFlow, GetDataFlow method [Core Audio], GetDataFlow method [Core Audio],IConnector interface, IConnector interface [Core Audio],GetDataFlow method, IConnector.GetDataFlow, IConnector::GetDataFlow, IConnectorGetDataFlow, coreaudio.iconnector_getdataflow, devicetopology/IConnector::GetDataFlow
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IConnector.GetDataFlow"
+f1_keywords:
+- devicetopology/IConnector.GetDataFlow
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IConnector.GetDataFlow
+- IConnector.GetDataFlow
 targetos: Windows
 req.typenames: 
 req.redist: 

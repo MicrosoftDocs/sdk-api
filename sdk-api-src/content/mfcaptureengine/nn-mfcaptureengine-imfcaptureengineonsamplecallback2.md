@@ -1,19 +1,17 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureEngineOnSampleCallback2
 title: IMFCaptureEngineOnSampleCallback2 (mfcaptureengine.h)
-
 description: Extensions for the IMFCaptureEngineOnSampleCallback callback interface that is used to receive data from the capture engine.
 old-location: mf\imfcaptureengineonsamplecallback2.htm
 tech.root: medfound
 ms.assetid: 0899e558-df9e-4060-970c-af0bd26ed5ce
-
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureEngineOnSampleCallback2, IMFCaptureEngineOnSampleCallback2 interface [Media Foundation], IMFCaptureEngineOnSampleCallback2 interface [Media Foundation],described, mf.imfcaptureengineonsamplecallback2, mfcaptureengine/IMFCaptureEngineOnSampleCallback2
 ms.topic: interface
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureEngineOnSampleCallback2"
+f1_keywords:
+- mfcaptureengine/IMFCaptureEngineOnSampleCallback2
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureEngineOnSampleCallback2
+- IMFCaptureEngineOnSampleCallback2
 targetos: Windows
 req.typenames: 
 req.redist: 

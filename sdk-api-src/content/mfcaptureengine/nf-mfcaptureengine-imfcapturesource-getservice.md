@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.GetService
 title: IMFCaptureSource::GetService (mfcaptureengine.h)
-
 description: Gets a pointer to the underlying Source Reader object.
 old-location: mf\imfcapturesource_getservice.htm
 tech.root: medfound
 ms.assetid: 67A77196-A499-4C28-8A35-CFB130B85D79
-
 ms.date: 12/05/2018
 ms.keywords: GetService, GetService method [Media Foundation], GetService method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetService method, IMFCaptureSource.GetService, IMFCaptureSource::GetService, mf.imfcapturesource_getservice, mfcaptureengine/IMFCaptureSource::GetService
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureSource.GetService"
+f1_keywords:
+- mfcaptureengine/IMFCaptureSource.GetService
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureSource.GetService
+- IMFCaptureSource.GetService
 targetos: Windows
 req.typenames: 
 req.redist: 

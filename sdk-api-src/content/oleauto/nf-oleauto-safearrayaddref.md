@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.SafeArrayAddRef
 title: SafeArrayAddRef function (oleauto.h)
-
 description: Increases the pinning reference count of the descriptor for the specified safe array by one, and may increase the pinning reference count of the data for the specified safe array by one if that data was dynamically allocated, as determined by the descriptor of the safe array.
 old-location: automat\safearrayaddref.htm
 tech.root: automat
 ms.assetid: 0745D2E7-447E-4688-ADCF-1F889BC55BFB
-
 ms.date: 12/05/2018
 ms.keywords: SafeArrayAddRef, SafeArrayAddRef function [Automation], automat.safearrayaddref, oleauto/SafeArrayAddRef
 ms.topic: function
-f1_keywords: 
- - "oleauto/SafeArrayAddRef"
+f1_keywords:
+- oleauto/SafeArrayAddRef
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mincore.lib
 req.dll: Oleaut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Oleaut32.dll
+- Oleaut32.dll
 api_name:
- - SafeArrayAddRef
+- SafeArrayAddRef
 targetos: Windows
 req.typenames: 
 req.redist: 

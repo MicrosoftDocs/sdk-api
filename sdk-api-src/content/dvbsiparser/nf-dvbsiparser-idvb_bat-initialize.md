@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDVB_BAT.Initialize
 title: IDVB_BAT::Initialize (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_bat_initialize.htm
 tech.root: mstv
 ms.assetid: 76c0eabe-b2af-44ed-9afb-9b97e7e8c5df
-
 ms.date: 12/05/2018
 ms.keywords: IDVB_BAT interface [Microsoft TV Technologies],Initialize method, IDVB_BAT.Initialize, IDVB_BAT::Initialize, IDVB_BATInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IDVB_BAT interface, dvbsiparser/IDVB_BAT::Initialize, mstv.idvb_bat_initialize
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDVB_BAT.Initialize"
+f1_keywords:
+- dvbsiparser/IDVB_BAT.Initialize
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_BAT.Initialize
+- IDVB_BAT.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiGetFeatureUsageW
 title: MsiGetFeatureUsageW function (msi.h)
-
 description: The MsiGetFeatureUsage function returns the usage metrics for a product feature.
 old-location: setup\msigetfeatureusage.htm
 tech.root: Msi
 ms.assetid: ab347f39-e1f6-4cb2-85ff-bad872b5256f
-
 ms.date: 12/05/2018
 ms.keywords: MsiGetFeatureUsage, MsiGetFeatureUsage function, MsiGetFeatureUsageA, MsiGetFeatureUsageW, _msi_msigetfeatureusage, msi/MsiGetFeatureUsage, msi/MsiGetFeatureUsageA, msi/MsiGetFeatureUsageW, setup.msigetfeatureusage
 ms.topic: function
-f1_keywords: 
- - "msi/MsiGetFeatureUsage"
+f1_keywords:
+- msi/MsiGetFeatureUsage
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiGetFeatureUsage
- - MsiGetFeatureUsageA
- - MsiGetFeatureUsageW
+- MsiGetFeatureUsage
+- MsiGetFeatureUsageA
+- MsiGetFeatureUsageW
 targetos: Windows
 req.typenames: 
 req.redist: 

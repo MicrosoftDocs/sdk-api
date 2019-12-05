@@ -1,19 +1,17 @@
 ---
 UID: NF:immdev.ImmSetStatusWindowPos
 title: ImmSetStatusWindowPos function (immdev.h)
-
 description: Sets the position of the status window.
 old-location: intl\immsetstatuswindowpos.htm
 tech.root: Intl
 ms.assetid: 36a3251a-0d8b-404b-8839-e0724b251cd1
-
 ms.date: 12/05/2018
 ms.keywords: ImmSetStatusWindowPos, ImmSetStatusWindowPos function [Internationalization for Windows Applications], _win32_ImmSetStatusWindowPos, imm/ImmSetStatusWindowPos, intl.immsetstatuswindowpos
 ms.topic: function
-f1_keywords: 
- - "immdev/ImmSetStatusWindowPos"
+f1_keywords:
+- immdev/ImmSetStatusWindowPos
 dev_langs:
- - c++
+- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
+- Imm32.dll
 api_name:
- - ImmSetStatusWindowPos
+- ImmSetStatusWindowPos
 targetos: Windows
 req.typenames: 
 req.redist: 

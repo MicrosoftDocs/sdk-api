@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.phoneGetLamp
 title: phoneGetLamp function (tapi.h)
-
 description: The phoneGetLamp function returns the current lamp mode of the specified lamp.
 old-location: tapi2\phonegetlamp.htm
 tech.root: Tapi
 ms.assetid: 97bc1dc1-ac7e-479f-8fea-e2fcca88367b
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_phonegetlamp, phoneGetLamp, phoneGetLamp function [TAPI 2.2], tapi/phoneGetLamp, tapi2.phonegetlamp"
+ms.keywords: _tapi2_phonegetlamp, phoneGetLamp, phoneGetLamp function [TAPI 2.2], tapi/phoneGetLamp, tapi2.phonegetlamp
 ms.topic: function
-f1_keywords: 
- - "tapi/phoneGetLamp"
+f1_keywords:
+- tapi/phoneGetLamp
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - phoneGetLamp
+- phoneGetLamp
 targetos: Windows
 req.typenames: 
 req.redist: 

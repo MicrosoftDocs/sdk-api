@@ -1,19 +1,17 @@
 ---
 UID: NF:fltuser.FilterFindNext
 title: FilterFindNext function (fltuser.h)
-
 description: The FilterFindNext function continues a filter search started by a call to FilterFindFirst.
 old-location: ifsk\filterfindnext.htm
 tech.root: ifsk
 ms.assetid: ce56037b-d303-4efa-956f-6bbe5127efb7
-
 ms.date: 12/05/2018
 ms.keywords: FilterFindNext, FilterFindNext function [Installable File System Drivers], FltWin32ApiRef_8f2234d4-aef1-47d3-9b9f-a43fbb309bef.xml, fltuser/FilterFindNext, ifsk.filterfindnext
 ms.topic: function
-f1_keywords: 
- - "fltuser/FilterFindNext"
+f1_keywords:
+- fltuser/FilterFindNext
 dev_langs:
- - c++
+- c++
 req.header: fltuser.h
 req.include-header: FltUser.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: FltLib.lib
 req.dll: FltLib.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FltLib.dll
+- FltLib.dll
 api_name:
- - FilterFindNext
+- FilterFindNext
 targetos: Windows
 req.typenames: 
 req.redist: 

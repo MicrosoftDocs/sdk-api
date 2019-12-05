@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.UpdateConflicts
 title: ISyncMgrControl::UpdateConflicts (syncmgr.h)
-
 description: Informs Sync Center that conflicts have been added for a specific handler or item.
 old-location: shell\ISyncMgrControl_UpdateConflicts.htm
 tech.root: shell
 ms.assetid: 606df5fb-0c4b-49c7-82ed-28f22927953a
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateConflicts method, ISyncMgrControl.UpdateConflicts, ISyncMgrControl::UpdateConflicts, UpdateConflicts, UpdateConflicts method [Windows Shell], UpdateConflicts method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateConflicts, shell.ISyncMgrControl_UpdateConflicts, syncmgr/ISyncMgrControl::UpdateConflicts
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrControl.UpdateConflicts"
+f1_keywords:
+- syncmgr/ISyncMgrControl.UpdateConflicts
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrControl.UpdateConflicts
+- ISyncMgrControl.UpdateConflicts
 targetos: Windows
 req.typenames: 
 req.redist: 

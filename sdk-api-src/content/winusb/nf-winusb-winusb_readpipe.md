@@ -1,19 +1,17 @@
 ---
 UID: NF:winusb.WinUsb_ReadPipe
 title: WinUsb_ReadPipe function (winusb.h)
-
 description: The WinUsb_ReadPipe function reads data from the specified pipe.
 old-location: buses\winusb_readpipe.htm
 tech.root: usbref
 ms.assetid: 936e535b-9084-4e3d-908e-0e965f658827
-
 ms.date: 12/05/2018
 ms.keywords: WinUsb_ReadPipe, WinUsb_ReadPipe function [Buses], buses.winusb_readpipe, winusb/WinUsb_ReadPipe, winusbfunc_a18a80b3-9f2b-45a5-bd34-dac4bddb1053.xml
 ms.topic: function
 f1_keywords:
 - winusb/WinUsb_ReadPipe
 dev_langs:
- - c++
+- c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

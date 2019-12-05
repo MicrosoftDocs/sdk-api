@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextRenderer.DrawStrikethrough
 title: IDWriteTextRenderer::DrawStrikethrough (dwrite.h)
-
 description: IDWriteTextLayout::Draw calls this function to instruct the client to draw a strikethrough.
 old-location: directwrite\IDWriteTextRenderer_DrawStrikethrough.htm
 tech.root: DirectWrite
 ms.assetid: d7888c99-ff7c-4e14-b0a6-4726c9228226
-
 ms.date: 12/05/2018
 ms.keywords: DrawStrikethrough, DrawStrikethrough method [Direct Write], DrawStrikethrough method [Direct Write],IDWriteTextRenderer interface, IDWriteTextRenderer interface [Direct Write],DrawStrikethrough method, IDWriteTextRenderer.DrawStrikethrough, IDWriteTextRenderer::DrawStrikethrough, directwrite.IDWriteTextRenderer_DrawStrikethrough, dwrite/IDWriteTextRenderer::DrawStrikethrough
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextRenderer.DrawStrikethrough"
+f1_keywords:
+- dwrite/IDWriteTextRenderer.DrawStrikethrough
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextRenderer.DrawStrikethrough
+- IDWriteTextRenderer.DrawStrikethrough
 targetos: Windows
 req.typenames: 
 req.redist: 

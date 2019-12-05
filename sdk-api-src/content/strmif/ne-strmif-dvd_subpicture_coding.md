@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.tagDVD_SUBPICTURE_CODING
 title: DVD_SUBPICTURE_CODING (strmif.h)
-
 description: Indicates what kind of content the subpicture stream contains.
 old-location: dshow\dvd_subpicture_coding.htm
 tech.root: DirectShow
 ms.assetid: 46f45dfb-9be7-4222-b6fb-ea95b60323cd
-
 ms.date: 12/05/2018
 ms.keywords: DVD_SPCoding_Extended, DVD_SPCoding_Other, DVD_SPCoding_RunLength, DVD_SUBPICTURE_CODING, DVD_SUBPICTURE_CODING , DVD_SUBPICTURE_CODING enumeration [DirectShow], DVD_SUBPICTURE_CODINGEnumeration, dshow.dvd_subpicture_coding, strmif/DVD_SPCoding_Extended, strmif/DVD_SPCoding_Other, strmif/DVD_SPCoding_RunLength, strmif/DVD_SUBPICTURE_CODING
 ms.topic: enum
-f1_keywords: 
- - "strmif/DVD_SUBPICTURE_CODING"
+f1_keywords:
+- strmif/DVD_SUBPICTURE_CODING
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - DVD_SUBPICTURE_CODING
+- DVD_SUBPICTURE_CODING
 targetos: Windows
 req.typenames: DVD_SUBPICTURE_CODING
 req.redist: 

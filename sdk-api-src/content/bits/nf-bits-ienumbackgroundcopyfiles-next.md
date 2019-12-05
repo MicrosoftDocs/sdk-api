@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IEnumBackgroundCopyFiles.Next
 title: IEnumBackgroundCopyFiles::Next (bits.h)
-
 description: Retrieves a specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements.
 old-location: bits\ienumbackgroundcopyfiles_next.htm
 tech.root: Bits
 ms.assetid: ac62533a-8949-41b9-a3e6-f9030884a9ce
-
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyFiles interface [BITS],Next method, IEnumBackgroundCopyFiles.Next, IEnumBackgroundCopyFiles::Next, Next, Next method [BITS], Next method [BITS],IEnumBackgroundCopyFiles interface, _drz_ienumbackgroundcopyfiles_next, bits.ienumbackgroundcopyfiles_next, bits/IEnumBackgroundCopyFiles::Next
 ms.topic: method
-f1_keywords: 
- - "bits/IEnumBackgroundCopyFiles.Next"
+f1_keywords:
+- bits/IEnumBackgroundCopyFiles.Next
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IEnumBackgroundCopyFiles.Next
+- IEnumBackgroundCopyFiles.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

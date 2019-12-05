@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfConfigureSystemKeystrokeFeed.DisableSystemKeystrokeFeed
 title: ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed (msctf.h)
-
 description: ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed method
 old-location: tsf\itfconfiguresystemkeystrokefeed_disablesystemkeystrokefeed.htm
 tech.root: TSF
 ms.assetid: 6bdca5cc-84b4-4184-a8cc-76dddc573b35
-
 ms.date: 12/05/2018
 ms.keywords: DisableSystemKeystrokeFeed, DisableSystemKeystrokeFeed method [Text Services Framework], DisableSystemKeystrokeFeed method [Text Services Framework],ITfConfigureSystemKeystrokeFeed interface, ITfConfigureSystemKeystrokeFeed interface [Text Services Framework],DisableSystemKeystrokeFeed method, ITfConfigureSystemKeystrokeFeed.DisableSystemKeystrokeFeed, ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed, _tsf_itfconfiguresystemkeystrokefeed_disablesystemkeystrokefeed_ref, msctf/ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed, tsf.itfconfiguresystemkeystrokefeed_disablesystemkeystrokefeed
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfConfigureSystemKeystrokeFeed.DisableSystemKeystrokeFeed"
+f1_keywords:
+- msctf/ITfConfigureSystemKeystrokeFeed.DisableSystemKeystrokeFeed
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfConfigureSystemKeystrokeFeed.DisableSystemKeystrokeFeed
+- ITfConfigureSystemKeystrokeFeed.DisableSystemKeystrokeFeed
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

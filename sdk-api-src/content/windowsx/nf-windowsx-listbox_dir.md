@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ListBox_Dir
 title: ListBox_Dir macro (windowsx.h)
-
 description: Adds names to the list displayed by a list box.
 old-location: controls\ListBox_Dir.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_dir.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListBox_Dir, ListBox_Dir macro [Windows Controls], _win32_ListBox_Dir, _win32_ListBox_Dir_cpp, controls.ListBox_Dir, controls._win32_ListBox_Dir, windowsx/ListBox_Dir
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ListBox_Dir"
+f1_keywords:
+- windowsx/ListBox_Dir
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ListBox_Dir
+- ListBox_Dir
 targetos: Windows
 req.typenames: 
 req.redist: 

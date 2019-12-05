@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IGetContextProperties.EnumNames
 title: IGetContextProperties::EnumNames (comsvcs.h)
-
 description: Retrieves a list of the names of the current context properties.
 old-location: cos\igetcontextproperties_enumnames.htm
 tech.root: cossdk
 ms.assetid: 01ff9650-f7f1-440c-88d2-75ba793a2396
-
 ms.date: 12/05/2018
 ms.keywords: EnumNames, EnumNames method [COM+], EnumNames method [COM+],IGetContextProperties interface, IGetContextProperties interface [COM+],EnumNames method, IGetContextProperties.EnumNames, IGetContextProperties::EnumNames, _cos_IGetContextProperties_EnumNames, comsvcs/IGetContextProperties::EnumNames, cos.igetcontextproperties_enumnames
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IGetContextProperties.EnumNames"
+f1_keywords:
+- comsvcs/IGetContextProperties.EnumNames
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IGetContextProperties.EnumNames
+- IGetContextProperties.EnumNames
 targetos: Windows
 req.typenames: 
 req.redist: 

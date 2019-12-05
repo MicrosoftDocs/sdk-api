@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IAtscPsipParser.GetETT
 title: IAtscPsipParser::GetETT (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatscpsipparser_getett.htm
 tech.root: mstv
 ms.assetid: 6838620a-3dee-468e-bfc8-00757c06263e
-
 ms.date: 12/05/2018
 ms.keywords: GetETT, GetETT method [Microsoft TV Technologies], GetETT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetETT method, IAtscPsipParser.GetETT, IAtscPsipParser::GetETT, IAtscPsipParserGetETT, atscpsipparser/IAtscPsipParser::GetETT, mstv.iatscpsipparser_getett
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IAtscPsipParser.GetETT"
+f1_keywords:
+- atscpsipparser/IAtscPsipParser.GetETT
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IAtscPsipParser.GetETT
+- IAtscPsipParser.GetETT
 targetos: Windows
 req.typenames: 
 req.redist: 

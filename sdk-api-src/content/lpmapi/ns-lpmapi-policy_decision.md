@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.policy_decision
 title: POLICY_DECISION (lpmapi.h)
-
 description: The POLICY_DECISION structure contains RSVP policy decision information.
 old-location: qos\policy_decision.htm
 tech.root: QOS
 ms.assetid: 6896031d-a8b4-46c5-bb52-61808bbb23f2
-
 ms.date: 12/05/2018
 ms.keywords: POLICY_DECISION, POLICY_DECISION structure [QOS], lpmapi/POLICY_DECISION, qos.policy_decision
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/POLICY_DECISION"
+f1_keywords:
+- lpmapi/POLICY_DECISION
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - POLICY_DECISION
+- POLICY_DECISION
 targetos: Windows
 req.typenames: POLICY_DECISION
 req.redist: 

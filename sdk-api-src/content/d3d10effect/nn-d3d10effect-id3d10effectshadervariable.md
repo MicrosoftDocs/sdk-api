@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectShaderVariable
 title: ID3D10EffectShaderVariable (d3d10effect.h)
-
 description: A shader-variable interface accesses a shader variable.
 old-location: direct3d10\id3d10effectshadervariable.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectshadervariable.htm
-
 ms.date: 12/05/2018
 ms.keywords: 7e1a8b15-5ab3-8e81-cf9f-cb84e1a408ae, ID3D10EffectShaderVariable, ID3D10EffectShaderVariable interface [Direct3D 10], ID3D10EffectShaderVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectShaderVariable, direct3d10.id3d10effectshadervariable
 ms.topic: interface
-f1_keywords: 
- - "d3d10effect/ID3D10EffectShaderVariable"
+f1_keywords:
+- d3d10effect/ID3D10EffectShaderVariable
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10EffectShaderVariable
+- ID3D10EffectShaderVariable
 targetos: Windows
 req.typenames: 
 req.redist: 

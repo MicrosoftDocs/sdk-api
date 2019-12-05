@@ -1,19 +1,17 @@
 ---
 UID: NF:gamingtcui.ProcessPendingGameUI
 title: ProcessPendingGameUI function (gamingtcui.h)
-
 description: Do not use. This API is only supported for Xbox developers.
 old-location: tcui\processpendinggameui.htm
 tech.root: tcui
 ms.assetid: 054F3612-EE10-446C-87D1-BF3E0F751440
-
 ms.date: 12/05/2018
 ms.keywords: ProcessPendingGameUI, ProcessPendingGameUI function, gamingtcui/ProcessPendingGameUI, tcui.processpendinggameui
 ms.topic: function
-f1_keywords: 
- - "gamingtcui/ProcessPendingGameUI"
+f1_keywords:
+- gamingtcui/ProcessPendingGameUI
 dev_langs:
- - c++
+- c++
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: WindowsApp.lib
 req.dll: Gamingtcui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gamingtcui.dll
- - API-MS-Win-Gaming-Tcui-L1-1-0.dll
- - GamingTcuiStub.dll
- - API-MS-Win-Gaming-Tcui-L1-1-1.dll
- - Xbox.Shell.API.dll
- - API-MS-Win-Gaming-Tcui-L1-1-2.dll
+- gamingtcui.dll
+- API-MS-Win-Gaming-Tcui-L1-1-0.dll
+- GamingTcuiStub.dll
+- API-MS-Win-Gaming-Tcui-L1-1-1.dll
+- Xbox.Shell.API.dll
+- API-MS-Win-Gaming-Tcui-L1-1-2.dll
 api_name:
- - ProcessPendingGameUI
+- ProcessPendingGameUI
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsOpenDSObject
 title: IADsOpenDSObject (iads.h)
-
 description: The IADsOpenDSObject interface is designed to supply a security context for binding to an object in the underlying directory store.
 old-location: adsi\iadsopendsobject.htm
 tech.root: adsi
 ms.assetid: 9daf6f91-6c58-46a8-ba05-149f28b53829
-
 ms.date: 12/05/2018
 ms.keywords: IADsOpenDSObject, IADsOpenDSObject interface [ADSI], IADsOpenDSObject interface [ADSI],described, _ds_iadsopendsobject, adsi.iadsopendsobject, iads/IADsOpenDSObject
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsOpenDSObject"
+f1_keywords:
+- iads/IADsOpenDSObject
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsOpenDSObject
+- IADsOpenDSObject
 targetos: Windows
 req.typenames: 
 req.redist: 

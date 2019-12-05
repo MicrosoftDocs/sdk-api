@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetProperty
 title: ITargetInfo::GetProperty (wcmconfig.h)
-
 description: Gets a property value for the offline installation location.
 old-location: smi\itargetinfo_getproperty.htm
 tech.root: SMI
 ms.assetid: f4366d23-e2dd-4561-af79-870212631ebf
-
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [SMI], GetProperty method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetProperty method, ITargetInfo.GetProperty, ITargetInfo::GetProperty, smi.itargetinfo_getproperty, wcmconfig/ITargetInfo::GetProperty
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ITargetInfo.GetProperty"
+f1_keywords:
+- wcmconfig/ITargetInfo.GetProperty
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ITargetInfo.GetProperty
+- ITargetInfo.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

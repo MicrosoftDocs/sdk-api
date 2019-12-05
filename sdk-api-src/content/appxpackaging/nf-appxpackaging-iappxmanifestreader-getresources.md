@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetResources
 title: IAppxManifestReader::GetResources (appxpackaging.h)
-
 description: Gets an enumerator that iterates through the resources defined in the manifest.
 old-location: appxpkg\iappxmanifestreader_getresources.htm
 tech.root: appxpkg
 ms.assetid: 2F0109C2-99F5-4AEE-9596-153764FA8FA3
-
 ms.date: 12/05/2018
 ms.keywords: GetResources, GetResources method [App packaging and management], GetResources method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetResources method, IAppxManifestReader.GetResources, IAppxManifestReader::GetResources, appxpackaging/IAppxManifestReader::GetResources, appxpkg.iappxmanifestreader_getresources
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestReader.GetResources"
+f1_keywords:
+- appxpackaging/IAppxManifestReader.GetResources
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestReader.GetResources
+- IAppxManifestReader.GetResources
 targetos: Windows
 req.typenames: 
 req.redist: 

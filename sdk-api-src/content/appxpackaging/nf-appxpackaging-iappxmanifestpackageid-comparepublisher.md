@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageId.ComparePublisher
 title: IAppxManifestPackageId::ComparePublisher (appxpackaging.h)
-
 description: Compares the specified publisher with the publisher defined in the manifest.
 old-location: appxpkg\iappxmanifestpackageid_comparepublisher.htm
 tech.root: appxpkg
 ms.assetid: 8AC811D0-D5C5-47DF-92FD-C66BC018B668
-
 ms.date: 12/05/2018
 ms.keywords: ComparePublisher, ComparePublisher method [App packaging and management], ComparePublisher method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],ComparePublisher method, IAppxManifestPackageId.ComparePublisher, IAppxManifestPackageId::ComparePublisher, appxpackaging/IAppxManifestPackageId::ComparePublisher, appxpkg.iappxmanifestpackageid_comparepublisher
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestPackageId.ComparePublisher"
+f1_keywords:
+- appxpackaging/IAppxManifestPackageId.ComparePublisher
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestPackageId.ComparePublisher
+- IAppxManifestPackageId.ComparePublisher
 targetos: Windows
 req.typenames: 
 req.redist: 

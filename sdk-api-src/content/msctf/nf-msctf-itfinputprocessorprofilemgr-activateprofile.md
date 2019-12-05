@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileMgr.ActivateProfile
 title: ITfInputProcessorProfileMgr::ActivateProfile (msctf.h)
-
 description: The ITfInputProcessorProfileMgr::ActivateProfile method activates the specified text service's profile or keyboard layout.
 old-location: tsf\itfinputprocessorprofilemgr_activateprofile.htm
 tech.root: TSF
 ms.assetid: 5e5b3f26-332a-456e-875f-12e440ae67ba
-
 ms.date: 12/05/2018
 ms.keywords: ActivateProfile, ActivateProfile method [Text Services Framework], ActivateProfile method [Text Services Framework],ITfInputProcessorProfileMgr interface, ITfInputProcessorProfileMgr interface [Text Services Framework],ActivateProfile method, ITfInputProcessorProfileMgr.ActivateProfile, ITfInputProcessorProfileMgr::ActivateProfile, TF_IPPMF_DISABLEPROFILE, TF_IPPMF_DONTCARECURRENTINPUTLANGUAGE, TF_IPPMF_ENABLEPROFILE, TF_IPPMF_FORPROCESS, TF_IPPMF_FORSESSION, TF_PROFILETYPE_INPUTPROCESSOR, TF_PROFILETYPE_KEYBOARDLAYOUT, msctf/ITfInputProcessorProfileMgr::ActivateProfile, tsf.itfinputprocessorprofilemgr_activateprofile
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfInputProcessorProfileMgr.ActivateProfile"
+f1_keywords:
+- msctf/ITfInputProcessorProfileMgr.ActivateProfile
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfInputProcessorProfileMgr.ActivateProfile
+- ITfInputProcessorProfileMgr.ActivateProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

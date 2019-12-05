@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetMaxWidth
 title: IDWriteTextLayout::SetMaxWidth (dwrite.h)
-
 description: Sets the layout maximum width.
 old-location: directwrite\IDWriteTextLayout_SetMaxWidth.htm
 tech.root: DirectWrite
 ms.assetid: 49889f71-4650-4f16-a130-d0437bd50b52
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetMaxWidth method, IDWriteTextLayout.SetMaxWidth, IDWriteTextLayout::SetMaxWidth, SetMaxWidth, SetMaxWidth method [Direct Write], SetMaxWidth method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetMaxWidth, dwrite/IDWriteTextLayout::SetMaxWidth
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextLayout.SetMaxWidth"
+f1_keywords:
+- dwrite/IDWriteTextLayout.SetMaxWidth
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout.SetMaxWidth
+- IDWriteTextLayout.SetMaxWidth
 targetos: Windows
 req.typenames: 
 req.redist: 

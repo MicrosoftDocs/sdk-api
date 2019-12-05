@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgTextCdma.get_Address
 title: IMbnSmsReadMsgTextCdma::get_Address (mbnapi.h)
-
 description: The mobile number associated with a message.
 old-location: mbn\imbnsmsreadmsgtextcdma_address.htm
 tech.root: mbn
 ms.assetid: e2cb5e6e-0cfa-4226-85fe-0162cf99a80f
-
 ms.date: 12/05/2018
 ms.keywords: Address property [Microsoft Broadband Networks], Address property [Microsoft Broadband Networks],IMbnSmsReadMsgTextCdma interface, IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],Address property, IMbnSmsReadMsgTextCdma.Address, IMbnSmsReadMsgTextCdma.get_Address, IMbnSmsReadMsgTextCdma::Address, IMbnSmsReadMsgTextCdma::get_Address, get_Address, mbn.imbnsmsreadmsgtextcdma_address, mbnapi/IMbnSmsReadMsgTextCdma::Address, mbnapi/IMbnSmsReadMsgTextCdma::get_Address
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnSmsReadMsgTextCdma.Address"
+f1_keywords:
+- mbnapi/IMbnSmsReadMsgTextCdma.Address
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnSmsReadMsgTextCdma.Address
- - IMbnSmsReadMsgTextCdma.get_Address
+- IMbnSmsReadMsgTextCdma.Address
+- IMbnSmsReadMsgTextCdma.get_Address
 targetos: Windows
 req.typenames: 
 req.redist: 

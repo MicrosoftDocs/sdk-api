@@ -1,15 +1,14 @@
 ---
 UID: NF:directxcollision.BoundingSphere.BoundingSphere
 title: BoundingSphere::BoundingSphere
-
 description: Creates an instance of the BoundingSphere class.
 ms.date: 04/22/19
 ms.keywords: BoundingSphere::BoundingSphere
 ms.topic: language-reference
-f1_keywords: 
- - "directxcollision/BoundingSphere::BoundingSphere"
+f1_keywords:
+- directxcollision/BoundingSphere::BoundingSphere
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,13 +30,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - directxcollision.h
+- directxcollision.h
 api_name:
- - BoundingSphere::BoundingSphere
+- BoundingSphere::BoundingSphere
 ---
 
 # BoundingSphere.DirectX.BoundingSphere() constructor

@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMREXTFLOODFILL
 title: EMREXTFLOODFILL (wingdi.h)
-
 description: The EMREXTFLOODFILL structure contains members for the ExtFloodFill enhanced metafile record.
 old-location: gdi\emrextfloodfill.htm
 tech.root: gdi
 ms.assetid: 93c80ea4-42f3-4c0a-8f72-76d2a6634e15
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMREXTFLOODFILL, EMREXTFLOODFILL, EMREXTFLOODFILL structure [Windows GDI], PEMREXTFLOODFILL, PEMREXTFLOODFILL structure pointer [Windows GDI], _win32_EMREXTFLOODFILL_str, gdi.emrextfloodfill, wingdi/EMREXTFLOODFILL, wingdi/PEMREXTFLOODFILL"
+ms.keywords: '*PEMREXTFLOODFILL, EMREXTFLOODFILL, EMREXTFLOODFILL structure [Windows GDI], PEMREXTFLOODFILL, PEMREXTFLOODFILL structure pointer [Windows GDI], _win32_EMREXTFLOODFILL_str, gdi.emrextfloodfill, wingdi/EMREXTFLOODFILL, wingdi/PEMREXTFLOODFILL'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMREXTFLOODFILL"
+f1_keywords:
+- wingdi/EMREXTFLOODFILL
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMREXTFLOODFILL
+- EMREXTFLOODFILL
 targetos: Windows
 req.typenames: EMREXTFLOODFILL, *PEMREXTFLOODFILL
 req.redist: 

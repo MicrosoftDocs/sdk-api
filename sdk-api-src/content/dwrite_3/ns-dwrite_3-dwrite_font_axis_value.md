@@ -1,17 +1,15 @@
 ---
 UID: NS:dwrite_3.DWRITE_FONT_AXIS_VALUE
 title: DWRITE_FONT_AXIS_VALUE
-
 description: Represents a value for a font axis. Used when querying and creating font instances.
 tech.root: DirectWrite
-
 ms.date: 09/10/2019
 ms.keywords: DWRITE_FONT_AXIS_VALUE, DWRITE_FONT_AXIS_VALUE structure [Direct Write], directwrite.dwrite_font_axis_value, dwrite_3/DWRITE_FONT_AXIS_VALUE
 ms.topic: struct
-f1_keywords: 
- - "dwrite_3/DWRITE_FONT_AXIS_VALUE"
+f1_keywords:
+- dwrite_3/DWRITE_FONT_AXIS_VALUE
 dev_langs:
- - c++
+- c++
 req.construct-type: structure
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,14 +29,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite_3.h
+- dwrite_3.h
 api_name:
- - DWRITE_FONT_AXIS_VALUE
+- DWRITE_FONT_AXIS_VALUE
 targetos: Windows
 req.typenames: 
 req.redist: 

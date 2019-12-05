@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GrayStringA
 title: GrayStringA function (winuser.h)
-
 description: The GrayString function draws gray text at the specified location.
 old-location: gdi\graystring.htm
 tech.root: gdi
 ms.assetid: b14b8c40-f97f-4e41-8d8d-687692acfda9
-
 ms.date: 12/05/2018
 ms.keywords: GrayString, GrayString function [Windows GDI], GrayStringA, GrayStringW, _win32_GrayString, gdi.graystring, winuser/GrayString, winuser/GrayStringA, winuser/GrayStringW
 ms.topic: function
-f1_keywords: 
- - "winuser/GrayString"
+f1_keywords:
+- winuser/GrayString
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
+- user32.dll
 api_name:
- - GrayString
- - GrayStringA
- - GrayStringW
+- GrayString
+- GrayStringA
+- GrayStringW
 targetos: Windows
 req.typenames: 
 req.redist: 

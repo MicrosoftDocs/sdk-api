@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.SetProcessWorkingSetSize
 title: SetProcessWorkingSetSize function (winbase.h)
-
 description: Sets the minimum and maximum working set sizes for the specified process.
 old-location: base\setprocessworkingsetsize.htm
 tech.root: ProcThread
 ms.assetid: 8bc0053c-f687-43b5-a435-df1e813a5204
-
 ms.date: 12/05/2018
 ms.keywords: SetProcessWorkingSetSize, SetProcessWorkingSetSize function, _win32_setprocessworkingsetsize, base.setprocessworkingsetsize, winbase/SetProcessWorkingSetSize
 ms.topic: function
-f1_keywords: 
- - "winbase/SetProcessWorkingSetSize"
+f1_keywords:
+- winbase/SetProcessWorkingSetSize
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - SetProcessWorkingSetSize
+- SetProcessWorkingSetSize
 targetos: Windows
 req.typenames: 
 req.redist: 

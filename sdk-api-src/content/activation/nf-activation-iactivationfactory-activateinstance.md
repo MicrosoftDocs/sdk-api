@@ -1,19 +1,17 @@
 ---
 UID: NF:activation.IActivationFactory.ActivateInstance
 title: IActivationFactory::ActivateInstance (activation.h)
-
 description: Creates a new instance of the Windows Runtime class that is associated with the current activation factory.
 old-location: winrt\iactivationfactory_activateinstance.htm
 tech.root: WinRT
 ms.assetid: AE3E2D87-3AE7-42C3-AA1D-510E717D2E51
-
 ms.date: 12/05/2018
 ms.keywords: ActivateInstance, ActivateInstance method [Windows Runtime], ActivateInstance method [Windows Runtime],IActivationFactory interface, IActivationFactory interface [Windows Runtime],ActivateInstance method, IActivationFactory.ActivateInstance, IActivationFactory::ActivateInstance, activation/IActivationFactory::ActivateInstance, winrt.iactivationfactory_activateinstance
 ms.topic: method
-f1_keywords: 
- - "activation/IActivationFactory.ActivateInstance"
+f1_keywords:
+- activation/IActivationFactory.ActivateInstance
 dev_langs:
- - c++
+- c++
 req.header: activation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activation.h
+- Activation.h
 api_name:
- - IActivationFactory.ActivateInstance
+- IActivationFactory.ActivateInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

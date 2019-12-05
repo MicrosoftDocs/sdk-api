@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10Effect.IsOptimized
 title: ID3D10Effect::IsOptimized (d3d10effect.h)
-
 description: Test an effect to see if the reflection metadata has been removed from memory.
 old-location: direct3d10\id3d10effect_isoptimized.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_isoptimized.htm
-
 ms.date: 12/05/2018
 ms.keywords: 0d82fdb1-e0b0-7198-dd16-2dfcd0280bfe, ID3D10Effect interface [Direct3D 10],IsOptimized method, ID3D10Effect.IsOptimized, ID3D10Effect::IsOptimized, IsOptimized, IsOptimized method [Direct3D 10], IsOptimized method [Direct3D 10],ID3D10Effect interface, d3d10effect/ID3D10Effect::IsOptimized, direct3d10.id3d10effect_isoptimized
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10Effect.IsOptimized"
+f1_keywords:
+- d3d10effect/ID3D10Effect.IsOptimized
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10Effect.IsOptimized
+- ID3D10Effect.IsOptimized
 targetos: Windows
 req.typenames: 
 req.redist: 

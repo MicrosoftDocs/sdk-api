@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.ValidateRgn
 title: ValidateRgn function (winuser.h)
-
 description: The ValidateRgn function validates the client area within a region by removing the region from the current update region of the specified window.
 old-location: gdi\validatergn.htm
 tech.root: gdi
 ms.assetid: 80fb1d4a-d9b1-4e67-b585-eee81893ed34
-
 ms.date: 12/05/2018
 ms.keywords: ValidateRgn, ValidateRgn function [Windows GDI], _win32_ValidateRgn, gdi.validatergn, winuser/ValidateRgn
 ms.topic: function
-f1_keywords: 
- - "winuser/ValidateRgn"
+f1_keywords:
+- winuser/ValidateRgn
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-0.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-1.dll
- - ext-ms-win-ntuser-draw-l1-1-2.dll
+- user32.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-0.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-1.dll
+- ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
- - ValidateRgn
+- ValidateRgn
 targetos: Windows
 req.typenames: 
 req.redist: 

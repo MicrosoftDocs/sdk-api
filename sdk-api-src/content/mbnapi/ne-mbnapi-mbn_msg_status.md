@@ -1,19 +1,17 @@
 ---
 UID: NE:mbnapi.MBN_MSG_STATUS
 title: MBN_MSG_STATUS (mbnapi.h)
-
 description: The MBN_MSG_STATUS enumerated type defines the type of message being handled.
 old-location: mbn\mbn_msg_status.htm
 tech.root: mbn
 ms.assetid: a63cfc67-f1bd-49b0-9a98-2d9da7fef0d2
-
 ms.date: 12/05/2018
 ms.keywords: MBN_MSG_STATUS, MBN_MSG_STATUS enumeration [Microsoft Broadband Networks], MBN_MSG_STATUS_DRAFT, MBN_MSG_STATUS_NEW, MBN_MSG_STATUS_OLD, MBN_MSG_STATUS_SENT, mbn.mbn_msg_status, mbnapi/MBN_MSG_STATUS, mbnapi/MBN_MSG_STATUS_DRAFT, mbnapi/MBN_MSG_STATUS_NEW, mbnapi/MBN_MSG_STATUS_OLD, mbnapi/MBN_MSG_STATUS_SENT
 ms.topic: enum
-f1_keywords: 
- - "mbnapi/MBN_MSG_STATUS"
+f1_keywords:
+- mbnapi/MBN_MSG_STATUS
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - MBN_MSG_STATUS
+- MBN_MSG_STATUS
 targetos: Windows
 req.typenames: MBN_MSG_STATUS
 req.redist: 

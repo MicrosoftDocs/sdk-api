@@ -1,19 +1,17 @@
 ---
 UID: NF:sensorsapi.ISensorDataReport.GetTimestamp
 title: ISensorDataReport::GetTimestamp (sensorsapi.h)
-
 description: Retrieves the time at which the data report was created.
 old-location: winsensors_com_ref\isensordatareport_gettimestamp.htm
 tech.root: SensorsAPI
 ms.assetid: 3366bfb5-1132-4960-8a0e-49967310ade5
-
 ms.date: 12/05/2018
 ms.keywords: GetTimestamp, GetTimestamp method, GetTimestamp method,ISensorDataReport interface, ISensorDataReport interface,GetTimestamp method, ISensorDataReport.GetTimestamp, ISensorDataReport::GetTimestamp, sensorsapi/ISensorDataReport::GetTimestamp, winsensors_com_ref.isensordatareport_gettimestamp
 ms.topic: method
-f1_keywords: 
- - "sensorsapi/ISensorDataReport.GetTimestamp"
+f1_keywords:
+- sensorsapi/ISensorDataReport.GetTimestamp
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensorDataReport.GetTimestamp
+- ISensorDataReport.GetTimestamp
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:propidl.IPropertyStorage.ReadPropertyNames
 title: IPropertyStorage::ReadPropertyNames (propidl.h)
-
 description: Retrieves any existing string names for the specified property IDs.
 old-location: stg\ipropertystorage_readpropertynames.htm
 tech.root: Stg
 ms.assetid: 42b0bf7e-0402-425c-8a5f-09eaa16d93fe
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyStorage [Strctd Stg], IPropertyStorage [Strctd Stg],ReadPropertyNames, IPropertyStorage interface [Structured Storage],ReadPropertyNames method, IPropertyStorage.ReadPropertyNames, IPropertyStorage::ReadPropertyNames, ReadPropertyNames, ReadPropertyNames method [Structured Storage], ReadPropertyNames method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_readpropertynames, propidl/IPropertyStorage::ReadPropertyNames, stg.ipropertystorage_readpropertynames
 ms.topic: method
-f1_keywords: 
- - "propidl/IPropertyStorage.ReadPropertyNames"
+f1_keywords:
+- propidl/IPropertyStorage.ReadPropertyNames
 dev_langs:
- - c++
+- c++
 req.header: propidl.h
 req.include-header: Objbase.h, Propidlbase.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IPropertyStorage.ReadPropertyNames
+- IPropertyStorage.ReadPropertyNames
 targetos: Windows
 req.typenames: 
 req.redist: 

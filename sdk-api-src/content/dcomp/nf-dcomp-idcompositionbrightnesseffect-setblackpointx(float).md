@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionBrightnessEffect.SetBlackPointX(float)
 title: IDCompositionBrightnessEffect::SetBlackPointX (dcomp.h)
-
 description: Sets the x value of the black point.
 old-location: directcomp\idcompositionbrightnesseffect_setblackpointx.htm
 tech.root: directcomp
 ms.assetid: 983AF3B1-628D-4E4C-99C2-C590457F7B8A
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetBlackPointX method, IDCompositionBrightnessEffect.SetBlackPointX, IDCompositionBrightnessEffect::SetBlackPointX, IDCompositionBrightnessEffect::SetBlackPointX(float), SetBlackPointX, SetBlackPointX method [DirectComposition], SetBlackPointX method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetBlackPointX, directcomp.idcompositionbrightnesseffect_setblackpointx
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionBrightnessEffect.SetBlackPointX"
+f1_keywords:
+- dcomp/IDCompositionBrightnessEffect.SetBlackPointX
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionBrightnessEffect.SetBlackPointX
+- IDCompositionBrightnessEffect.SetBlackPointX
 targetos: Windows
 req.typenames: 
 req.redist: 

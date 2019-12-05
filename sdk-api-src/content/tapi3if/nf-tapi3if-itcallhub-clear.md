@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITCallHub.Clear
 title: ITCallHub::Clear (tapi3if.h)
-
 description: The Clear method attempts to remove all calls and participants from CallHub. The application may not have the privileges required to disconnect every call.
 old-location: tapi3\itcallhub_clear.htm
 tech.root: Tapi
 ms.assetid: 87799da3-73c3-469a-badf-884dcfe774e0
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [TAPI 2.2], Clear method [TAPI 2.2],ITCallHub interface, ITCallHub interface [TAPI 2.2],Clear method, ITCallHub.Clear, ITCallHub::Clear, _tapi3_itcallhub_clear, tapi3.itcallhub_clear, tapi3if/ITCallHub::Clear
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITCallHub.Clear"
+f1_keywords:
+- tapi3if/ITCallHub.Clear
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCallHub.Clear
+- ITCallHub.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

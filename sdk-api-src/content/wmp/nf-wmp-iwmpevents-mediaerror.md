@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents.MediaError
 title: IWMPEvents::MediaError (wmp.h)
-
 description: The MediaError event occurs when the Media object has an error condition.
 old-location: wmp\iwmpevents_iwmpevents__mediaerror.htm
 tech.root: WMP
 ms.assetid: 3c48ff94-01d6-492c-912c-ee74b619730b
-
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],MediaError method, IWMPEvents.MediaError, IWMPEvents::MediaError, IWMPEventsMediaError, MediaError, MediaError method [Windows Media Player], MediaError method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mediaerror, wmp/IWMPEvents::MediaError
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents.MediaError"
+f1_keywords:
+- wmp/IWMPEvents.MediaError
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents.MediaError
+- IWMPEvents.MediaError
 targetos: Windows
 req.typenames: 
 req.redist: 

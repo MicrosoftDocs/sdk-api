@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetNoProgressTimeout
 title: IBackgroundCopyJob::GetNoProgressTimeout (bits.h)
-
 description: Retrieves the length of time that the service tries to transfer the file after a transient error condition occurs. If there is progress, the timer is reset.
 old-location: bits\ibackgroundcopyjob_getnoprogresstimeout.htm
 tech.root: Bits
 ms.assetid: 4881e5f7-a835-40d5-a056-d6b23e3cd84c
-
 ms.date: 12/05/2018
 ms.keywords: GetNoProgressTimeout, GetNoProgressTimeout method [BITS], GetNoProgressTimeout method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetNoProgressTimeout method, IBackgroundCopyJob.GetNoProgressTimeout, IBackgroundCopyJob::GetNoProgressTimeout, _drz_ibackgroundcopyjob_getnoprogresstimeout, bits.ibackgroundcopyjob_getnoprogresstimeout, bits/IBackgroundCopyJob::GetNoProgressTimeout
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyJob.GetNoProgressTimeout"
+f1_keywords:
+- bits/IBackgroundCopyJob.GetNoProgressTimeout
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.GetNoProgressTimeout
+- IBackgroundCopyJob.GetNoProgressTimeout
 targetos: Windows
 req.typenames: 
 req.redist: 

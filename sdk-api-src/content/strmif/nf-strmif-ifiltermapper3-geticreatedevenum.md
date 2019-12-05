@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IFilterMapper3.GetICreateDevEnum
 title: IFilterMapper3::GetICreateDevEnum (strmif.h)
-
 description: The GetICreateDevEnum method returns a pointer to the ICreateDevEnum interface. You can use the ICreateDevEnum interface to create an enumerator for a category of filters, such as video capture devices or audio capture devices.
 old-location: dshow\ifiltermapper3_geticreatedevenum.htm
 tech.root: DirectShow
 ms.assetid: e54a1276-5c86-4127-9005-f2935e1664d0
-
 ms.date: 12/05/2018
 ms.keywords: GetICreateDevEnum, GetICreateDevEnum method [DirectShow], GetICreateDevEnum method [DirectShow],IFilterMapper3 interface, IFilterMapper3 interface [DirectShow],GetICreateDevEnum method, IFilterMapper3.GetICreateDevEnum, IFilterMapper3::GetICreateDevEnum, IFilterMapper3GetICreateDevEnum, dshow.ifiltermapper3_geticreatedevenum, strmif/IFilterMapper3::GetICreateDevEnum
 ms.topic: method
-f1_keywords: 
- - "strmif/IFilterMapper3.GetICreateDevEnum"
+f1_keywords:
+- strmif/IFilterMapper3.GetICreateDevEnum
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFilterMapper3.GetICreateDevEnum
+- IFilterMapper3.GetICreateDevEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

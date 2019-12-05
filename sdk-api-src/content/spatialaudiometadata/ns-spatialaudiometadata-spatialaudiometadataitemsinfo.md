@@ -1,19 +1,17 @@
 ---
 UID: NS:spatialaudiometadata.SpatialAudioMetadataItemsInfo
 title: SpatialAudioMetadataItemsInfo (spatialaudiometadata.h)
-
 description: Provides information about an ISpatialAudioMetadataItems object. Get a copy of this structure by calling GetInfo.
 old-location: coreaudio\spatialaudiometadataitemsinfo.htm
 tech.root: CoreAudio
 ms.assetid: EC694B26-988B-4765-8B9F-130FCF614166
-
 ms.date: 12/05/2018
 ms.keywords: PSpatialAudioMetadataItemsInfo, PSpatialAudioMetadataItemsInfo structure pointer [Core Audio], SpatialAudioMetadataItemsInfo, SpatialAudioMetadataItemsInfo structure [Core Audio], coreaudio.spatialaudiometadataitemsinfo, spatialaudiometadata/PSpatialAudioMetadataItemsInfo, spatialaudiometadata/SpatialAudioMetadataItemsInfo
 ms.topic: struct
-f1_keywords: 
- - "spatialaudiometadata/SpatialAudioMetadataItemsInfo"
+f1_keywords:
+- spatialaudiometadata/SpatialAudioMetadataItemsInfo
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SpatialAudioMetadata.h
+- SpatialAudioMetadata.h
 api_name:
- - SpatialAudioMetadataItemsInfo
+- SpatialAudioMetadataItemsInfo
 targetos: Windows
 req.typenames: SpatialAudioMetadataItemsInfo
 req.redist: 

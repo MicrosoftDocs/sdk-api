@@ -1,19 +1,17 @@
 ---
 UID: NS:tdh._EVENT_MAP_ENTRY
 title: EVENT_MAP_ENTRY (tdh.h)
-
 description: Defines a single value map entry.
 old-location: etw\event_map_entry_struct.htm
 tech.root: ETW
 ms.assetid: e5b12f7a-4a00-41a0-90df-7d1317d63a4a
-
 ms.date: 12/05/2018
 ms.keywords: '*PEVENT_MAP_ENTRY, EVENT_MAP_ENTRY, EVENT_MAP_ENTRY structure [ETW], EVENT_MAP_ENTRY,*PEVENT_MAP_ENTRY, EVENT_MAP_ENTRY,*PEVENT_MAP_ENTRY structure [ETW], etw.event_map_entry_struct, tdh.event_map_entry_struct, tdh/EVENT_MAP_ENTRY'
 ms.topic: struct
 f1_keywords:
 - tdh/EVENT_MAP_ENTRY, *PEVENT_MAP_ENTRY
 dev_langs:
- - c++
+- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

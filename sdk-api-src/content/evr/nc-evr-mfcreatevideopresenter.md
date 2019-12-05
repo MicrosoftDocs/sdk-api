@@ -1,19 +1,17 @@
 ---
 UID: NC:evr.MFCreateVideoPresenter
 title: MFCreateVideoPresenter (evr.h)
-
 description: Creates the default video presenter for the enhanced video renderer (EVR).
 old-location: mf\mfcreatevideopresenter.htm
 tech.root: medfound
 ms.assetid: 04a1ce0d-f1ed-4b8a-827c-600297660442
-
 ms.date: 12/05/2018
 ms.keywords: 04a1ce0d-f1ed-4b8a-827c-600297660442, MFCreateVideoPresenter, MFCreateVideoPresenter callback, MFCreateVideoPresenter callback function [Media Foundation], evr/MFCreateVideoPresenter, mf.mfcreatevideopresenter
 ms.topic: callback
-f1_keywords: 
- - "evr/MFCreateVideoPresenter"
+f1_keywords:
+- evr/MFCreateVideoPresenter
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - evr.h
+- evr.h
 api_name:
- - MFCreateVideoPresenter
+- MFCreateVideoPresenter
 targetos: Windows
 req.typenames: 
 req.redist: 

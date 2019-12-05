@@ -1,19 +1,17 @@
 ---
 UID: NS:minwinbase._EXIT_PROCESS_DEBUG_INFO
 title: EXIT_PROCESS_DEBUG_INFO (minwinbase.h)
-
 description: Contains the exit code for a terminating process.
 old-location: base\exit_process_debug_info_str.htm
 tech.root: Debug
 ms.assetid: 91a7f4bf-88c7-4a57-b0d0-0d379d967baf
-
 ms.date: 12/05/2018
-ms.keywords: "*LPEXIT_PROCESS_DEBUG_INFO, EXIT_PROCESS_DEBUG_INFO, EXIT_PROCESS_DEBUG_INFO structure, LPEXIT_PROCESS_DEBUG_INFO, LPEXIT_PROCESS_DEBUG_INFO structure pointer, _EXIT_PROCESS_DEBUG_INFO, _win32_exit_process_debug_info_str, base.exit_process_debug_info_str, minwinbase/EXIT_PROCESS_DEBUG_INFO, minwinbase/LPEXIT_PROCESS_DEBUG_INFO"
+ms.keywords: '*LPEXIT_PROCESS_DEBUG_INFO, EXIT_PROCESS_DEBUG_INFO, EXIT_PROCESS_DEBUG_INFO structure, LPEXIT_PROCESS_DEBUG_INFO, LPEXIT_PROCESS_DEBUG_INFO structure pointer, _EXIT_PROCESS_DEBUG_INFO, _win32_exit_process_debug_info_str, base.exit_process_debug_info_str, minwinbase/EXIT_PROCESS_DEBUG_INFO, minwinbase/LPEXIT_PROCESS_DEBUG_INFO'
 ms.topic: struct
-f1_keywords: 
- - "minwinbase/EXIT_PROCESS_DEBUG_INFO"
+f1_keywords:
+- minwinbase/EXIT_PROCESS_DEBUG_INFO
 dev_langs:
- - c++
+- c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minwinbase.h
+- minwinbase.h
 api_name:
- - EXIT_PROCESS_DEBUG_INFO
+- EXIT_PROCESS_DEBUG_INFO
 targetos: Windows
 req.typenames: EXIT_PROCESS_DEBUG_INFO, *LPEXIT_PROCESS_DEBUG_INFO
 req.redist: 

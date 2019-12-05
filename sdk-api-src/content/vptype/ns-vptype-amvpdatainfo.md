@@ -1,19 +1,17 @@
 ---
 UID: NS:vptype._AMVPDATAINFO
 title: AMVPDATAINFO (vptype.h)
-
 description: The AMVPDATAINFO structure specifies the data-specific characteristics of the VP input stream.
 old-location: dshow\amvpdatainfo.htm
 tech.root: DirectShow
 ms.assetid: b71fc468-b0ba-4c75-b1db-b7802e598e96
-
 ms.date: 12/05/2018
-ms.keywords: "*LPAMVPDATAINFO, AMVPDATAINFO, AMVPDATAINFO structure [DirectShow], AMVPDATAINFOStructure, LPAMVPDATAINFO, LPAMVPDATAINFO structure pointer [DirectShow], dshow.amvpdatainfo, vptype/AMVPDATAINFO, vptype/LPAMVPDATAINFO"
+ms.keywords: '*LPAMVPDATAINFO, AMVPDATAINFO, AMVPDATAINFO structure [DirectShow], AMVPDATAINFOStructure, LPAMVPDATAINFO, LPAMVPDATAINFO structure pointer [DirectShow], dshow.amvpdatainfo, vptype/AMVPDATAINFO, vptype/LPAMVPDATAINFO'
 ms.topic: struct
-f1_keywords: 
- - "vptype/AMVPDATAINFO"
+f1_keywords:
+- vptype/AMVPDATAINFO
 dev_langs:
- - c++
+- c++
 req.header: vptype.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - vptype.h
+- vptype.h
 api_name:
- - AMVPDATAINFO
+- AMVPDATAINFO
 targetos: Windows
 req.typenames: AMVPDATAINFO, *LPAMVPDATAINFO
 req.redist: 

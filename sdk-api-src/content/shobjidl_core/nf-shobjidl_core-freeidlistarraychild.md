@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.FreeIDListArrayChild
 title: FreeIDListArrayChild function (shobjidl_core.h)
-
 description: Releases the memory space for the array of pointers to child item IDs. This releases both the PITEMID_CHILDs within the array and the array itself.
 old-location: shell\FreeIDListArrayChild.htm
 tech.root: shell
 ms.assetid: 89abceae-1aed-401d-82ab-57215ec22d00
-
 ms.date: 12/05/2018
 ms.keywords: FreeIDListArrayChild, FreeIDListArrayChild function [Windows Shell], _shell_FreeIDListArrayChild, shell.FreeIDListArrayChild, shobjidl_core/FreeIDListArrayChild
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/FreeIDListArrayChild"
+f1_keywords:
+- shobjidl_core/FreeIDListArrayChild
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - FreeIDListArrayChild
+- FreeIDListArrayChild
 targetos: Windows
 req.typenames: 
 req.redist: 

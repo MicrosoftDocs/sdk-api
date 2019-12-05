@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.ICaptureGraphBuilder
 title: ICaptureGraphBuilder (strmif.h)
-
 description: Note  This interface has been deprecated.
 old-location: dshow\icapturegraphbuilder.htm
 tech.root: DirectShow
 ms.assetid: 64ee80cd-9f63-4f38-853a-1ecfc03e6076
-
 ms.date: 12/05/2018
 ms.keywords: ICaptureGraphBuilder, ICaptureGraphBuilder interface [DirectShow], ICaptureGraphBuilder interface [DirectShow],described, ICaptureGraphBuilderInterface, dshow.icapturegraphbuilder, strmif/ICaptureGraphBuilder
 ms.topic: interface
-f1_keywords: 
- - "strmif/ICaptureGraphBuilder"
+f1_keywords:
+- strmif/ICaptureGraphBuilder
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - ICaptureGraphBuilder
+- ICaptureGraphBuilder
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetFontWeight
 title: IDWriteTextLayout::GetFontWeight (dwrite.h)
-
 description: Gets the font weight of the text at the specified position.
 old-location: directwrite\IDWriteTextLayout_GetFontWeight.htm
 tech.root: DirectWrite
 ms.assetid: e1c86c8e-f6d2-4c72-9117-f8ae4334a71b
-
 ms.date: 12/05/2018
 ms.keywords: GetFontWeight, GetFontWeight method [Direct Write], GetFontWeight method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetFontWeight method, IDWriteTextLayout.GetFontWeight, IDWriteTextLayout::GetFontWeight, directwrite.IDWriteTextLayout_GetFontWeight, dwrite/IDWriteTextLayout::GetFontWeight
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextLayout.GetFontWeight"
+f1_keywords:
+- dwrite/IDWriteTextLayout.GetFontWeight
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout.GetFontWeight
+- IDWriteTextLayout.GetFontWeight
 targetos: Windows
 req.typenames: 
 req.redist: 

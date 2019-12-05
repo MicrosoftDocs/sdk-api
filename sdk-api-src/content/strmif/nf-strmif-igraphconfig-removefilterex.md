@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IGraphConfig.RemoveFilterEx
 title: IGraphConfig::RemoveFilterEx (strmif.h)
-
 description: The RemoveFilterEx method removes a filter from the filter graph.
 old-location: dshow\igraphconfig_removefilterex.htm
 tech.root: DirectShow
 ms.assetid: c3298aa2-4eb2-4e47-9f36-5f2cf541d13e
-
 ms.date: 12/05/2018
 ms.keywords: IGraphConfig interface [DirectShow],RemoveFilterEx method, IGraphConfig.RemoveFilterEx, IGraphConfig::RemoveFilterEx, IGraphConfigRemoveFilterEx, RemoveFilterEx, RemoveFilterEx method [DirectShow], RemoveFilterEx method [DirectShow],IGraphConfig interface, dshow.igraphconfig_removefilterex, strmif/IGraphConfig::RemoveFilterEx
 ms.topic: method
-f1_keywords: 
- - "strmif/IGraphConfig.RemoveFilterEx"
+f1_keywords:
+- strmif/IGraphConfig.RemoveFilterEx
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IGraphConfig.RemoveFilterEx
+- IGraphConfig.RemoveFilterEx
 targetos: Windows
 req.typenames: 
 req.redist: 

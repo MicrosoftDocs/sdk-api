@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.GetSelection
 title: ILegacyIAccessibleProvider::GetSelection (uiautomationcore.h)
-
 description: Retrieves the selected item or items in the control.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_GetSelection.htm
 tech.root: WinAuto
 ms.assetid: 8436e554-2f09-46ed-a32a-0d2612bc60fb
-
 ms.date: 12/05/2018
 ms.keywords: GetSelection, GetSelection method [Windows Accessibility], GetSelection method [Windows Accessibility],ILegacyIAccessibleProvider interface, ILegacyIAccessibleProvider interface [Windows Accessibility],GetSelection method, ILegacyIAccessibleProvider.GetSelection, ILegacyIAccessibleProvider::GetSelection, uiauto.uiauto_ILegacyIAccessibleProvider_GetSelection, uiauto_ILegacyIAccessibleProvider_GetSelection, uiautomationcore/ILegacyIAccessibleProvider::GetSelection, winauto.uiauto_ILegacyIAccessibleProvider_GetSelection
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ILegacyIAccessibleProvider.GetSelection"
+f1_keywords:
+- uiautomationcore/ILegacyIAccessibleProvider.GetSelection
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - ILegacyIAccessibleProvider.GetSelection
+- ILegacyIAccessibleProvider.GetSelection
 targetos: Windows
 req.typenames: 
 req.redist: 

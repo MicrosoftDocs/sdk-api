@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IApplicationActivationManager.ActivateApplication
 title: IApplicationActivationManager::ActivateApplication (shobjidl_core.h)
-
 description: Activates the specified Windows Store app for the generic launch contract (Windows.Launch) in the current session.
 old-location: shell\IApplicationActivationManager_ActivateApplication.htm
 tech.root: shell
 ms.assetid: A39FA68E-F79F-454a-BB41-31D4D5EEC253
-
 ms.date: 12/05/2018
 ms.keywords: AO_DESIGNMODE, AO_NOERRORUI, AO_NONE, AO_NOSPLASHSCREEN, AO_PRELAUNCH, ActivateApplication, ActivateApplication method [Windows Shell], ActivateApplication method [Windows Shell],IApplicationActivationManager interface, IApplicationActivationManager interface [Windows Shell],ActivateApplication method, IApplicationActivationManager.ActivateApplication, IApplicationActivationManager::ActivateApplication, shell.IApplicationActivationManager_ActivateApplication, shobjidl_core/IApplicationActivationManager::ActivateApplication
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IApplicationActivationManager.ActivateApplication"
+f1_keywords:
+- shobjidl_core/IApplicationActivationManager.ActivateApplication
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IApplicationActivationManager.ActivateApplication
+- IApplicationActivationManager.ActivateApplication
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:virtdisk.ApplySnapshotVhdSet
 title: ApplySnapshotVhdSet function (virtdisk.h)
-
 description: Applies a snapshot of the current virtual disk for VHD Set files.
 old-location: vhd\applysnapshotvhdset.htm
 tech.root: VStor
 ms.assetid: 1194B20E-AA50-4AEC-B9C4-AEA1BA84DD99
-
 ms.date: 12/05/2018
 ms.keywords: ApplySnapshotVhdSet, ApplySnapshotVhdSet function [VHD], vdssys/ApplySnapshotVhdSet, vhd.applysnapshotvhdset, virtdisk/ApplySnapshotVhdSet
 ms.topic: function
-f1_keywords: 
- - "virtdisk/ApplySnapshotVhdSet"
+f1_keywords:
+- virtdisk/ApplySnapshotVhdSet
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: VirtDisk.lib
 req.dll: VirtDisk.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - VirtDisk.dll
+- VirtDisk.dll
 api_name:
- - ApplySnapshotVhdSet
+- ApplySnapshotVhdSet
 targetos: Windows
 req.typenames: 
 req.redist: 

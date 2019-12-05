@@ -1,19 +1,17 @@
 ---
 UID: NF:interactioncontext.SetPivotInteractionContext
 title: SetPivotInteractionContext function (interactioncontext.h)
-
 description: Sets the center point, and the pivot radius from the center point, for a rotation manipulation using a single input pointer.
 old-location: input_intcontext\setpivotinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: 3997e444-e90a-417f-a75c-69363b4c82d2
-
 ms.date: 12/05/2018
 ms.keywords: SetPivotInteractionContext, SetPivotInteractionContext function, input_intcontext.setpivotinteractioncontext, interactioncontext.setpivotinteractioncontext, interactioncontext/SetPivotInteractionContext
 ms.topic: function
-f1_keywords: 
- - "interactioncontext/SetPivotInteractionContext"
+f1_keywords:
+- interactioncontext/SetPivotInteractionContext
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ninput.lib
 req.dll: Ninput.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ninput.dll
- - API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
- - IE_Shims.dll
+- ninput.dll
+- API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
+- IE_Shims.dll
 api_name:
- - SetPivotInteractionContext
+- SetPivotInteractionContext
 targetos: Windows
 req.typenames: 
 req.redist: 

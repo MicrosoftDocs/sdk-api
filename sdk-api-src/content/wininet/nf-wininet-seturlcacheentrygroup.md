@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.SetUrlCacheEntryGroup
 title: SetUrlCacheEntryGroup function (wininet.h)
-
 description: Adds entries to or removes entries from a cache group.
 old-location: wininet\seturlcacheentrygroup.htm
 tech.root: wininet
 ms.assetid: b39a96ac-c5b5-4b02-88e2-298a037be25f
-
 ms.date: 12/05/2018
 ms.keywords: SetUrlCacheEntryGroup, SetUrlCacheEntryGroup function [WinINet], SetUrlCacheEntryGroupA, SetUrlCacheEntryGroupW, _inet_seturlcacheentrygroup_function, wininet.seturlcacheentrygroup, wininet/SetUrlCacheEntryGroup, wininet/SetUrlCacheEntryGroupA, wininet/SetUrlCacheEntryGroupW
 ms.topic: function
-f1_keywords: 
- - "wininet/SetUrlCacheEntryGroup"
+f1_keywords:
+- wininet/SetUrlCacheEntryGroup
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - SetUrlCacheEntryGroup
- - SetUrlCacheEntryGroupA
- - SetUrlCacheEntryGroupW
+- SetUrlCacheEntryGroup
+- SetUrlCacheEntryGroupA
+- SetUrlCacheEntryGroupW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetSecurityDescriptor
 title: IUrlAccessor::GetSecurityDescriptor (searchapi.h)
-
 description: Gets the security descriptor for the URL item. Security is applied at query time, so this descriptor identifies security for read access.
 old-location: search\_search_IUrlAccessor_GetSecurityDescriptor.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getsecuritydescriptor.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetSecurityDescriptor, GetSecurityDescriptor method [search], GetSecurityDescriptor method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetSecurityDescriptor method, IUrlAccessor.GetSecurityDescriptor, IUrlAccessor::GetSecurityDescriptor, _search_IUrlAccessor_GetSecurityDescriptor, search._search_IUrlAccessor_GetSecurityDescriptor, searchapi/IUrlAccessor::GetSecurityDescriptor
 ms.topic: method
-f1_keywords: 
- - "searchapi/IUrlAccessor.GetSecurityDescriptor"
+f1_keywords:
+- searchapi/IUrlAccessor.GetSecurityDescriptor
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IUrlAccessor.GetSecurityDescriptor
+- IUrlAccessor.GetSecurityDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

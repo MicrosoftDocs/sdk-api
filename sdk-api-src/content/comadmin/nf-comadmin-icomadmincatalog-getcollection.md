@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.GetCollection
 title: ICOMAdminCatalog::GetCollection (comadmin.h)
-
 description: Retrieves a top-level collection on the COM+ catalog.
 old-location: cos\icomadmincatalog_getcollection.htm
 tech.root: cossdk
 ms.assetid: 6f01a7a7-d8f3-470f-8eb3-aa698b353af1
-
 ms.date: 12/05/2018
 ms.keywords: GetCollection, GetCollection method [COM+], GetCollection method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],GetCollection method, ICOMAdminCatalog.GetCollection, ICOMAdminCatalog::GetCollection, _cos_ICOMAdminCatalog_GetCollection, comadmin/ICOMAdminCatalog::GetCollection, cos.icomadmincatalog_getcollection
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog.GetCollection"
+f1_keywords:
+- comadmin/ICOMAdminCatalog.GetCollection
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog.GetCollection
+- ICOMAdminCatalog.GetCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

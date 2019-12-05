@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Metafile.Metafile~r15
 title: Metafile::Metafile~r15 (gdiplusheaders.h)
-
 description: This topic lists the constructors of the Metafile class. For a complete class listing, see Metafile Class.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_Constructors.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors.htm
-
 ms.date: 12/05/2018
 ms.keywords: Metafile, Metafile constructors [GDI+], Metafile.Metafile, Metafile.Metafile~r15, Metafile::Metafile, Metafile::Metafile~r15, _gdiplus_CLASS_Metafile_Constructors, gdiplus._gdiplus_CLASS_Metafile_Constructors, gdiplusheaders/Metafile
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Metafile.Metafile"
+f1_keywords:
+- gdiplusheaders/Metafile.Metafile
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - gdiplusheaders.h
+- gdiplusheaders.h
 api_name:
- - Metafile.Metafile
+- Metafile.Metafile
 targetos: Windows
 req.typenames: 
 req.redist: 

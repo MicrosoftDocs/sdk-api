@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHSendMessageBroadcastA
 title: SHSendMessageBroadcastA function (shlwapi.h)
-
 description: Sends a message to all top-level windows in the system.
 old-location: shell\SHSendMessageBroadcast.htm
 tech.root: shell
 ms.assetid: 98671f0f-2386-486f-ac96-14dd44c776c6
-
 ms.date: 12/05/2018
 ms.keywords: SHSendMessageBroadcast, SHSendMessageBroadcast function [Windows Shell], SHSendMessageBroadcastA, SHSendMessageBroadcastW, _shell_SHSendMessageBroadcast, shell.SHSendMessageBroadcast, shlwapi/SHSendMessageBroadcast, shlwapi/SHSendMessageBroadcastA, shlwapi/SHSendMessageBroadcastW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHSendMessageBroadcast"
+f1_keywords:
+- shlwapi/SHSendMessageBroadcast
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
- - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
- - SHSendMessageBroadcast
- - SHSendMessageBroadcastA
- - SHSendMessageBroadcastW
+- SHSendMessageBroadcast
+- SHSendMessageBroadcastA
+- SHSendMessageBroadcastW
 targetos: Windows
 req.typenames: 
 req.redist: 

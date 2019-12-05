@@ -1,19 +1,17 @@
 ---
 UID: NS:mmc._RESULTDATAITEM
 title: RESULTDATAITEM (mmc.h)
-
 description: The RESULTDATAITEM structure specifies or receives the attributes of result items in the result pane of the snap-in.
 old-location: mmc\resultdataitem.htm
 tech.root: mmc
 ms.assetid: c8f4682e-e1f7-4f7f-9a56-508648ca8c07
-
 ms.date: 12/05/2018
-ms.keywords: "*LPRESULTDATAITEM, LPRESULTDATAITEM, LPRESULTDATAITEM structure pointer [MMC], LVIS_CUT, LVIS_DROPHILITED, LVIS_FOCUSED, LVIS_SELECTED, RDI_IMAGE, RDI_INDENT, RDI_INDEX, RDI_PARAM, RDI_STATE, RDI_STR, RESULTDATAITEM, RESULTDATAITEM structure [MMC], _slate_resultdataitem, mmc.resultdataitem, mmc/LPRESULTDATAITEM, mmc/RESULTDATAITEM"
+ms.keywords: '*LPRESULTDATAITEM, LPRESULTDATAITEM, LPRESULTDATAITEM structure pointer [MMC], LVIS_CUT, LVIS_DROPHILITED, LVIS_FOCUSED, LVIS_SELECTED, RDI_IMAGE, RDI_INDENT, RDI_INDEX, RDI_PARAM, RDI_STATE, RDI_STR, RESULTDATAITEM, RESULTDATAITEM structure [MMC], _slate_resultdataitem, mmc.resultdataitem, mmc/LPRESULTDATAITEM, mmc/RESULTDATAITEM'
 ms.topic: struct
-f1_keywords: 
- - "mmc/RESULTDATAITEM"
+f1_keywords:
+- mmc/RESULTDATAITEM
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - RESULTDATAITEM
+- RESULTDATAITEM
 targetos: Windows
 req.typenames: RESULTDATAITEM
 req.redist: 

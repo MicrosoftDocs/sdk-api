@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdGraphBuilder.GetDvdInterface
 title: IDvdGraphBuilder::GetDvdInterface (strmif.h)
-
 description: The GetDvdInterface method retrieves interfaces from the DVD-Video playback graph to make DVD-Video playback development easier.
 old-location: dshow\idvdgraphbuilder_getdvdinterface.htm
 tech.root: DirectShow
 ms.assetid: e16cb767-87a9-49f6-a3a7-88166f2abe73
-
 ms.date: 12/05/2018
 ms.keywords: GetDvdInterface, GetDvdInterface method [DirectShow], GetDvdInterface method [DirectShow],IDvdGraphBuilder interface, IDvdGraphBuilder interface [DirectShow],GetDvdInterface method, IDvdGraphBuilder.GetDvdInterface, IDvdGraphBuilder::GetDvdInterface, IDvdGraphBuilderGetDvdInterface, dshow.idvdgraphbuilder_getdvdinterface, strmif/IDvdGraphBuilder::GetDvdInterface
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdGraphBuilder.GetDvdInterface"
+f1_keywords:
+- strmif/IDvdGraphBuilder.GetDvdInterface
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdGraphBuilder.GetDvdInterface
+- IDvdGraphBuilder.GetDvdInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

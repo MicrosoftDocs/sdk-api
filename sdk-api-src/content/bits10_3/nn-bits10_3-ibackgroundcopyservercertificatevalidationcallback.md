@@ -1,18 +1,15 @@
 ---
 UID: NN:bits10_3.IBackgroundCopyServerCertificateValidationCallback
 title: IBackgroundCopyServerCertificateValidationCallback
-
 ms.date: 05/09/2019
 ms.keywords: IBackgroundCopyServerCertificateValidationCallback
 description: Server certificates are sent when an HTTPS connection is opened. Use this method to implement a callback to be called to validate those server certificates.
 tech.root: Bits
-
-ms.date: 05/09/2019
 ms.topic: interface
-f1_keywords: 
- - "bits10_3/IBackgroundCopyServerCertificateValidationCallback"
+f1_keywords:
+- bits10_3/IBackgroundCopyServerCertificateValidationCallback
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -28,13 +25,13 @@ req.target-min-winversvr:
 req.target-type: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - bits10_3.h
+- bits10_3.h
 api_name:
- - IBackgroundCopyServerCertificateValidationCallback
+- IBackgroundCopyServerCertificateValidationCallback
 ---
 
 ## -description

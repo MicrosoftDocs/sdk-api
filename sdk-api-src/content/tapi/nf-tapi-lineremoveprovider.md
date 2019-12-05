@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineRemoveProvider
 title: lineRemoveProvider function (tapi.h)
-
 description: The lineRemoveProvider function removes an existing telephony service provider from the telephony system.
 old-location: tapi2\lineremoveprovider.htm
 tech.root: Tapi
 ms.assetid: 8398a869-bc64-490a-bdb2-496582a88d84
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_lineremoveprovider, lineRemoveProvider, lineRemoveProvider function [TAPI 2.2], tapi/lineRemoveProvider, tapi2.lineremoveprovider"
+ms.keywords: _tapi2_lineremoveprovider, lineRemoveProvider, lineRemoveProvider function [TAPI 2.2], tapi/lineRemoveProvider, tapi2.lineremoveprovider
 ms.topic: function
-f1_keywords: 
- - "tapi/lineRemoveProvider"
+f1_keywords:
+- tapi/lineRemoveProvider
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineRemoveProvider
+- lineRemoveProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

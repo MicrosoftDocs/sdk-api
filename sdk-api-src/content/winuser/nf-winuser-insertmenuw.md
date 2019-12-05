@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.InsertMenuW
 title: InsertMenuW function (winuser.h)
-
 description: Inserts a new menu item into a menu, moving other items down the menu.
 old-location: menurc\insertmenu.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\insertmenu.htm
-
 ms.date: 12/05/2018
 ms.keywords: InsertMenu, InsertMenu function [Menus and Other Resources], InsertMenuA, InsertMenuW, MF_BITMAP, MF_BYCOMMAND, MF_BYPOSITION, MF_CHECKED, MF_DISABLED, MF_ENABLED, MF_GRAYED, MF_MENUBARBREAK, MF_MENUBREAK, MF_OWNERDRAW, MF_POPUP, MF_SEPARATOR, MF_STRING, MF_UNCHECKED, _win32_InsertMenu, _win32_insertmenu_cpp, menurc.insertmenu, winui._win32_insertmenu, winuser/InsertMenu, winuser/InsertMenuA, winuser/InsertMenuW
 ms.topic: function
-f1_keywords: 
- - "winuser/InsertMenu"
+f1_keywords:
+- winuser/InsertMenu
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Menu-l1-1-0.dll
- - Ext-MS-Win-NTUser-Menu-l1-1-1.dll
- - ext-ms-win-ntuser-menu-l1-1-2.dll
- - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Menu-l1-1-0.dll
+- Ext-MS-Win-NTUser-Menu-l1-1-1.dll
+- ext-ms-win-ntuser-menu-l1-1-2.dll
+- Ext-MS-Win-NTUser-Menu-L1-1-3.dll
 api_name:
- - InsertMenu
- - InsertMenuA
- - InsertMenuW
+- InsertMenu
+- InsertMenuA
+- InsertMenuW
 targetos: Windows
 req.typenames: 
 req.redist: 

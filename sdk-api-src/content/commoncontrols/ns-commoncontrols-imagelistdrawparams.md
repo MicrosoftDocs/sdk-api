@@ -1,19 +1,17 @@
 ---
 UID: NS:commoncontrols._IMAGELISTDRAWPARAMS
 title: IMAGELISTDRAWPARAMS (commoncontrols.h)
-
 description: Contains information about an image list draw operation and is used with the IImageList::Draw function.
 old-location: controls\IMAGELISTDRAWPARAMS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\structures\imagelistdrawparams.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPIMAGELISTDRAWPARAMS, BLACKNESS, CLR_DEFAULT, CLR_NONE, DSTINVERT, IMAGELISTDRAWPARAMS, IMAGELISTDRAWPARAMS structure [Windows Controls], MERGECOPY, MERGEPAINT, NOTSRCCOPY, NOTSRCERASE, PATCOPY, PATINVERT, PATPAINT, SRCAND, SRCCOPY, SRCERASE, SRCINVERT, SRCPAINT, WHITENESS, _win32_IMAGELISTDRAWPARAMS, _win32_IMAGELISTDRAWPARAMS_cpp, commoncontrols/IMAGELISTDRAWPARAMS, controls.IMAGELISTDRAWPARAMS, controls._win32_IMAGELISTDRAWPARAMS"
+ms.keywords: '*LPIMAGELISTDRAWPARAMS, BLACKNESS, CLR_DEFAULT, CLR_NONE, DSTINVERT, IMAGELISTDRAWPARAMS, IMAGELISTDRAWPARAMS structure [Windows Controls], MERGECOPY, MERGEPAINT, NOTSRCCOPY, NOTSRCERASE, PATCOPY, PATINVERT, PATPAINT, SRCAND, SRCCOPY, SRCERASE, SRCINVERT, SRCPAINT, WHITENESS, _win32_IMAGELISTDRAWPARAMS, _win32_IMAGELISTDRAWPARAMS_cpp, commoncontrols/IMAGELISTDRAWPARAMS, controls.IMAGELISTDRAWPARAMS, controls._win32_IMAGELISTDRAWPARAMS'
 ms.topic: struct
-f1_keywords: 
- - "commoncontrols/IMAGELISTDRAWPARAMS"
+f1_keywords:
+- commoncontrols/IMAGELISTDRAWPARAMS
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: Commctrl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - commoncontrols.h
+- commoncontrols.h
 api_name:
- - IMAGELISTDRAWPARAMS
+- IMAGELISTDRAWPARAMS
 targetos: Windows
 req.typenames: IMAGELISTDRAWPARAMS
 req.redist: 

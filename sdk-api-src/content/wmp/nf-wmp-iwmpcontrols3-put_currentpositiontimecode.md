@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPControls3.put_currentPositionTimecode
 title: IWMPControls3::put_currentPositionTimecode (wmp.h)
-
 description: The put_currentPositionTimecode method specifies the current position in the current media item using a time code format. This method currently supports SMPTE time code.
 old-location: wmp\iwmpcontrols3_put_currentpositiontimecode.htm
 tech.root: WMP
 ms.assetid: 35e32043-e613-4f23-b5ce-03bfe648a4c9
-
 ms.date: 12/05/2018
 ms.keywords: IWMPControls3 interface [Windows Media Player],put_currentPositionTimecode method, IWMPControls3.put_currentPositionTimecode, IWMPControls3::put_currentPositionTimecode, IWMPControls3put_currentPositionTimecode, put_currentPositionTimecode, put_currentPositionTimecode method [Windows Media Player], put_currentPositionTimecode method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_put_currentpositiontimecode, wmp/IWMPControls3::put_currentPositionTimecode
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPControls3.put_currentPositionTimecode"
+f1_keywords:
+- wmp/IWMPControls3.put_currentPositionTimecode
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPControls3.put_currentPositionTimecode
+- IWMPControls3.put_currentPositionTimecode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalyzer.GetGlyphPlacements
 title: IDWriteTextAnalyzer::GetGlyphPlacements (dwrite.h)
-
 description: Places glyphs output from the GetGlyphs method according to the font and the writing system's rendering rules.
 old-location: directwrite\IDWriteTextAnalyzer_GetGlyphPlacements.htm
 tech.root: DirectWrite
 ms.assetid: 72e9af97-6fd2-4dd0-befc-2e9f809c12a2
-
 ms.date: 12/05/2018
 ms.keywords: GetGlyphPlacements, GetGlyphPlacements method [Direct Write], GetGlyphPlacements method [Direct Write],IDWriteTextAnalyzer interface, IDWriteTextAnalyzer interface [Direct Write],GetGlyphPlacements method, IDWriteTextAnalyzer.GetGlyphPlacements, IDWriteTextAnalyzer::GetGlyphPlacements, directwrite.IDWriteTextAnalyzer_GetGlyphPlacements, dwrite/IDWriteTextAnalyzer::GetGlyphPlacements
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextAnalyzer.GetGlyphPlacements"
+f1_keywords:
+- dwrite/IDWriteTextAnalyzer.GetGlyphPlacements
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextAnalyzer.GetGlyphPlacements
+- IDWriteTextAnalyzer.GetGlyphPlacements
 targetos: Windows
 req.typenames: 
 req.redist: 

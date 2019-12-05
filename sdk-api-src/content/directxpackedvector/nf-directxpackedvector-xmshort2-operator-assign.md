@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMSHORT2.operator-assign
 title: XMSHORT2::operator-assign (directxpackedvector.h)
-
 description: Assigns the vector component data from one instance of XMSHORT2 to the current instance of XMSHORT2.
 old-location: dxmath\xmshort2_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMSHORT2.operator = (const XMSHORT2)
-
 ms.date: 05/06/2019
 ms.keywords: DirectX::PackedVector.XMSHORT2.operator =, DirectX::PackedVector::XMSHORT2::operator =, XMSHORT2 structure [DirectX Math Support APIs],operator = method, XMSHORT2.operator =, XMSHORT2.operator-assign, XMSHORT2.operator=, XMSHORT2::operator-assign, XMSHORT2::operator=, dxmath.xmshort2_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMSHORT2 structure, operator=
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMSHORT2.operator ="
+f1_keywords:
+- directxpackedvector/XMSHORT2.operator =
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMSHORT2.operator =
+- XMSHORT2.operator =
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_TEX2DMS_ARRAY_RTV
 title: D3D11_TEX2DMS_ARRAY_RTV (d3d11.h)
-
 description: Specifies the subresources from a an array of multisampled 2D textures to use in a render-target view.
 old-location: direct3d11\d3d11_tex2dms_array_rtv.htm
 tech.root: direct3d11
 ms.assetid: ec08341c-980f-4d5f-8eb9-f41835105b46
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_TEX2DMS_ARRAY_RTV, D3D11_TEX2DMS_ARRAY_RTV structure [Direct3D 11], d3d11/D3D11_TEX2DMS_ARRAY_RTV, dd9c5839-fcab-1f5f-a4fe-866cc00f6bd2, direct3d11.d3d11_tex2dms_array_rtv
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_TEX2DMS_ARRAY_RTV"
+f1_keywords:
+- d3d11/D3D11_TEX2DMS_ARRAY_RTV
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_TEX2DMS_ARRAY_RTV
+- D3D11_TEX2DMS_ARRAY_RTV
 targetos: Windows
 req.typenames: D3D11_TEX2DMS_ARRAY_RTV
 req.redist: 

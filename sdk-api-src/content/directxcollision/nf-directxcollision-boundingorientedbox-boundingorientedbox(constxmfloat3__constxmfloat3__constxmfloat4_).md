@@ -1,19 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.BoundingOrientedBox(const XMFLOAT3 &,const XMFLOAT3 &,const XMFLOAT4 &)
 title: BoundingOrientedBox::BoundingOrientedBox(const XMFLOAT3 &,const XMFLOAT3 &,const XMFLOAT4 &)
-
 description: Creates an instance of BoundingOrientedBox.
 old-location: dxmath\boundingorientedbox_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.#ctor(XMFLOAT3,XMFLOAT3,XMFLOAT4)
-
 ms.date: 12/05/2018
 ms.keywords: BoundingOrientedBox, BoundingOrientedBox constructor [DirectX Math Support APIs], BoundingOrientedBox constructor [DirectX Math Support APIs],BoundingOrientedBox interface, BoundingOrientedBox interface [DirectX Math Support APIs],BoundingOrientedBox constructor, BoundingOrientedBox.BoundingOrientedBox, BoundingOrientedBox.BoundingOrientedBox(const XMFLOAT3 &,const XMFLOAT3 &,const XMFLOAT4 &), BoundingOrientedBox.BoundingOrientedBox(const XMFLOAT3&,const XMFLOAT3&,const XMFLOAT4&), BoundingOrientedBox::BoundingOrientedBox, BoundingOrientedBox::BoundingOrientedBox(const XMFLOAT3 &,const XMFLOAT3 &,const XMFLOAT4 &), dxmath.boundingorientedbox_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxcollision/BoundingOrientedBox.BoundingOrientedBox"
+f1_keywords:
+- directxcollision/BoundingOrientedBox.BoundingOrientedBox
 dev_langs:
- - c++
+- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXCollision.h
+- DirectXCollision.h
 api_name:
- - BoundingOrientedBox.BoundingOrientedBox
+- BoundingOrientedBox.BoundingOrientedBox
 targetos: Windows
 req.typenames: 
 req.redist: 

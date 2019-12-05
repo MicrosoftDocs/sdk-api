@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateSession.CreateUpdateInstaller
 title: IUpdateSession::CreateUpdateInstaller (wuapi.h)
-
 description: Returns an IUpdateInstaller interface for this session.
 old-location: wua\iupdatesession_createupdateinstaller.htm
 tech.root: Wua_Sdk
 ms.assetid: e5b5f760-0d25-4506-95d3-63ff4a0b9188
-
 ms.date: 12/05/2018
 ms.keywords: CreateUpdateInstaller, CreateUpdateInstaller method [Windows Update Agent], CreateUpdateInstaller method [Windows Update Agent],IUpdateSession interface, IUpdateSession interface [Windows Update Agent],CreateUpdateInstaller method, IUpdateSession.CreateUpdateInstaller, IUpdateSession::CreateUpdateInstaller, wua.iupdatesession_createupdateinstaller, wuapi/IUpdateSession::CreateUpdateInstaller
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateSession.CreateUpdateInstaller"
+f1_keywords:
+- wuapi/IUpdateSession.CreateUpdateInstaller
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateSession.CreateUpdateInstaller
+- IUpdateSession.CreateUpdateInstaller
 targetos: Windows
 req.typenames: 
 req.redist: 

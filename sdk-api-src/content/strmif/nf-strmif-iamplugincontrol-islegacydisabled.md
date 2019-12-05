@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMPluginControl.IsLegacyDisabled
 title: IAMPluginControl::IsLegacyDisabled (strmif.h)
-
 description: Queries whether an Audio Compression Manager (ACM) or Video Compression Manager (VCM) codec appears in the blocked list.
 old-location: dshow\iamplugincontrol_islegacydisabled.htm
 tech.root: DirectShow
 ms.assetid: f67c7a78-1e4f-469a-9cbb-80c37bba80b7
-
 ms.date: 12/05/2018
 ms.keywords: IAMPluginControl interface [DirectShow],IsLegacyDisabled method, IAMPluginControl.IsLegacyDisabled, IAMPluginControl::IsLegacyDisabled, IsLegacyDisabled, IsLegacyDisabled method [DirectShow], IsLegacyDisabled method [DirectShow],IAMPluginControl interface, dshow.iamplugincontrol_islegacydisabled, strmif/IAMPluginControl::IsLegacyDisabled
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMPluginControl.IsLegacyDisabled"
+f1_keywords:
+- strmif/IAMPluginControl.IsLegacyDisabled
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IAMPluginControl.IsLegacyDisabled
+- IAMPluginControl.IsLegacyDisabled
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:evntrace.UpdateTraceA
 title: UpdateTraceA function (evntrace.h)
-
 description: The UpdateTrace function updates the property setting of the specified event tracing session. The ControlTrace function supersedes this function.
 old-location: etw\updatetrace.htm
 tech.root: ETW
 ms.assetid: 40e6deaf-7363-45eb-80d0-bc3f33760875
-
 ms.date: 12/05/2018
 ms.keywords: UpdateTrace, UpdateTrace function [ETW], UpdateTraceA, UpdateTraceW, _evt_updatetrace, base.updatetrace, etw.updatetrace, evntrace/UpdateTrace, evntrace/UpdateTraceA, evntrace/UpdateTraceW
 ms.topic: function
-f1_keywords: 
- - "evntrace/UpdateTrace"
+f1_keywords:
+- evntrace/UpdateTrace
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-eventing-Legacy-l1-1-0.dll
- - advapi32legacy.dll
+- Advapi32.dll
+- API-MS-Win-eventing-Legacy-l1-1-0.dll
+- advapi32legacy.dll
 api_name:
- - UpdateTrace
- - UpdateTraceA
- - UpdateTraceW
+- UpdateTrace
+- UpdateTraceA
+- UpdateTraceW
 targetos: Windows
 req.typenames: 
 req.redist: 

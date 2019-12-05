@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcServerInterfaceGroupCreate
 title: RpcServerInterfaceGroupCreate function (rpcdce.h)
-
 description: The RpcServerInterfaceGroupCreate function creates an RPC server interface group for the server application.
 old-location: rpc\rpcserverinterfacegroupcreate.htm
 tech.root: Rpc
 ms.assetid: 7B648221-8256-42C9-B200-0EFD3B0DBA91
-
 ms.date: 12/05/2018
 ms.keywords: RpcServerInterfaceGroupCreate, RpcServerInterfaceGroupCreate function [RPC], RpcServerInterfaceGroupCreateA, RpcServerInterfaceGroupCreateW, rpc.rpcserverinterfacegroupcreate, rpcdce/RpcServerInterfaceGroupCreate, rpcdce/RpcServerInterfaceGroupCreateA, rpcdce/RpcServerInterfaceGroupCreateW
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcServerInterfaceGroupCreate"
+f1_keywords:
+- rpcdce/RpcServerInterfaceGroupCreate
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcServerInterfaceGroupCreate
- - RpcServerInterfaceGroupCreateA
- - RpcServerInterfaceGroupCreateW
+- RpcServerInterfaceGroupCreate
+- RpcServerInterfaceGroupCreateA
+- RpcServerInterfaceGroupCreateW
 targetos: Windows
 req.typenames: 
 req.redist: 

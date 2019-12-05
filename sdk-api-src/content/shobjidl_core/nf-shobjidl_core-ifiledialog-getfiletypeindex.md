@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.GetFileTypeIndex
 title: IFileDialog::GetFileTypeIndex (shobjidl_core.h)
-
 description: Gets the currently selected file type.
 old-location: shell\IFileDialog_GetFileTypeIndex.htm
 tech.root: shell
 ms.assetid: ae5b08a1-a97d-433b-88dc-938abe028384
-
 ms.date: 12/05/2018
 ms.keywords: GetFileTypeIndex, GetFileTypeIndex method [Windows Shell], GetFileTypeIndex method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],GetFileTypeIndex method, IFileDialog.GetFileTypeIndex, IFileDialog::GetFileTypeIndex, shell.IFileDialog_GetFileTypeIndex, shell_IFileDialog_GetFileTypeIndex, shobjidl_core/IFileDialog::GetFileTypeIndex
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialog.GetFileTypeIndex"
+f1_keywords:
+- shobjidl_core/IFileDialog.GetFileTypeIndex
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialog.GetFileTypeIndex
+- IFileDialog.GetFileTypeIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

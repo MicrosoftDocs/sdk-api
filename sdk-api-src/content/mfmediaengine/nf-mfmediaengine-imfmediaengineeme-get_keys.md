@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEME.get_Keys
 title: IMFMediaEngineEME::get_Keys (mfmediaengine.h)
-
 description: Gets the media keys object associated with the media engine or null if there is not a media keys object.
 old-location: mf\imfmediaengineeme_get_keys.htm
 tech.root: medfound
 ms.assetid: e6556a02-445d-4436-80de-e4156d6a3d63
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEME interface [Media Foundation],get_Keys method, IMFMediaEngineEME.get_Keys, IMFMediaEngineEME::get_Keys, get_Keys, get_Keys method [Media Foundation], get_Keys method [Media Foundation],IMFMediaEngineEME interface, mf.imfmediaengineeme_get_keys, mfmediaengine/IMFMediaEngineEME::get_Keys
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineEME.get_Keys"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineEME.get_Keys
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineEME.get_Keys
+- IMFMediaEngineEME.get_Keys
 targetos: Windows
 req.typenames: 
 req.redist: 

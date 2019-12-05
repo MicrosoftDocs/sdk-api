@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhGetCounterTimeBase
 title: PdhGetCounterTimeBase function (pdh.h)
-
 description: Returns the time base of the specified counter.
 old-location: perf\pdhgetcountertimebase.htm
 tech.root: perfctrs
 ms.assetid: b034c00e-50f1-46af-aebc-0cb968c0b737
-
 ms.date: 12/05/2018
 ms.keywords: PdhGetCounterTimeBase, PdhGetCounterTimeBase function [Perf], _win32_pdhgetcountertimebase, base.pdhgetcountertimebase, pdh/PdhGetCounterTimeBase, perf.pdhgetcountertimebase
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhGetCounterTimeBase"
+f1_keywords:
+- pdh/PdhGetCounterTimeBase
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhGetCounterTimeBase
+- PdhGetCounterTimeBase
 targetos: Windows
 req.typenames: 
 req.redist: 

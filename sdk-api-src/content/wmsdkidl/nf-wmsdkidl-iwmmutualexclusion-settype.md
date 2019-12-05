@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion.SetType
 title: IWMMutualExclusion::SetType (wmsdkidl.h)
-
 description: The SetType method specifies the GUID of the type of mutual exclusion required.
 old-location: wmformat\iwmmutualexclusion_settype.htm
 tech.root: wmformat
 ms.assetid: 18796219-bc33-41b7-b2af-a23585c2500a
-
 ms.date: 12/05/2018
 ms.keywords: IWMMutualExclusion interface [windows Media Format],SetType method, IWMMutualExclusion.SetType, IWMMutualExclusion::SetType, IWMMutualExclusionSetType, SetType, SetType method [windows Media Format], SetType method [windows Media Format],IWMMutualExclusion interface, wmformat.iwmmutualexclusion_settype, wmsdkidl/IWMMutualExclusion::SetType
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMMutualExclusion.SetType"
+f1_keywords:
+- wmsdkidl/IWMMutualExclusion.SetType
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMMutualExclusion.SetType
+- IWMMutualExclusion.SetType
 targetos: Windows
 req.typenames: 
 req.redist: 

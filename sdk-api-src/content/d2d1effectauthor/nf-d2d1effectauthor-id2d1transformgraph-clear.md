@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1TransformGraph.Clear
 title: ID2D1TransformGraph::Clear (d2d1effectauthor.h)
-
 description: Clears the transform nodes and all connections from the transform graph.
 old-location: direct2d\id2d1transformgraph_clear.htm
 tech.root: Direct2D
 ms.assetid: 7223A2FF-2B86-4080-B97E-BAE1C3E7000E
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Direct2D], Clear method [Direct2D],ID2D1TransformGraph interface, ID2D1TransformGraph interface [Direct2D],Clear method, ID2D1TransformGraph.Clear, ID2D1TransformGraph::Clear, d2d1effectauthor/ID2D1TransformGraph::Clear, direct2d.id2d1transformgraph_clear
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1TransformGraph.Clear"
+f1_keywords:
+- d2d1effectauthor/ID2D1TransformGraph.Clear
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1TransformGraph.Clear
+- ID2D1TransformGraph.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

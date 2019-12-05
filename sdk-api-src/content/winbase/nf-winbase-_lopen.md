@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase._lopen
 title: _lopen function (winbase.h)
-
 description: The _lopen function opens an existing file and sets the file pointer to the beginning of the file. This function is provided for compatibility with 16-bit versions of Windows. Win32-based applications should use the CreateFile function.
 old-location: winprog\_lopen.htm
 tech.root: DevNotes
 ms.assetid: E920F688-C694-44A6-ABD3-5414C4F01839
-
 ms.date: 12/05/2018
-ms.keywords: "_lopen, _lopen function [Windows API], winbase/_lopen, winprog._lopen"
+ms.keywords: _lopen, _lopen function [Windows API], winbase/_lopen, winprog._lopen
 ms.topic: function
-f1_keywords: 
- - "winbase/_lopen"
+f1_keywords:
+- winbase/_lopen
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - wextract.exe
- - API-MS-Win-Core-Kernel32-Private-L1-1-0.dll
- - API-MS-Win-Core-Kernel32-Private-L1-1-1.dll
- - API-MS-Win-Core-Kernel32-Private-L1-1-2.dll
- - Kernel32Legacy.dll
+- kernel32.dll
+- wextract.exe
+- API-MS-Win-Core-Kernel32-Private-L1-1-0.dll
+- API-MS-Win-Core-Kernel32-Private-L1-1-1.dll
+- API-MS-Win-Core-Kernel32-Private-L1-1-2.dll
+- Kernel32Legacy.dll
 api_name:
- - _lopen
+- _lopen
 targetos: Windows
 req.typenames: 
 req.redist: 

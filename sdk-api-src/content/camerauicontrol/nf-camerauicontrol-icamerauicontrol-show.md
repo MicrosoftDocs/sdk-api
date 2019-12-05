@@ -1,19 +1,17 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControl.Show
 title: ICameraUIControl::Show (camerauicontrol.h)
-
 description: Displays the user interface control for the camera.
 old-location: winprog\icamerauicontrol_show.htm
 tech.root: DevNotes
 ms.assetid: 0426a6ce-9d3e-4ce1-8be8-5d216edc9f2f
-
 ms.date: 12/05/2018
 ms.keywords: ICameraUIControl interface [Windows API],Show method, ICameraUIControl.Show, ICameraUIControl::Show, Show, Show method [Windows API], Show method [Windows API],ICameraUIControl interface, camerauicontrol/ICameraUIControl::Show, winprog.icamerauicontrol_show
 ms.topic: method
-f1_keywords: 
- - "camerauicontrol/ICameraUIControl.Show"
+f1_keywords:
+- camerauicontrol/ICameraUIControl.Show
 dev_langs:
- - c++
+- c++
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - camerauicontrol.h
+- camerauicontrol.h
 api_name:
- - ICameraUIControl.Show
+- ICameraUIControl.Show
 targetos: Windows
 req.typenames: 
 req.redist: 

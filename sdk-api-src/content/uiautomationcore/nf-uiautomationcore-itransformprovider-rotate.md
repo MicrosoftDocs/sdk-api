@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider.Rotate
 title: ITransformProvider::Rotate (uiautomationcore.h)
-
 description: Rotates the control.
 old-location: winauto\uiauto_ITransformProvider_Rotate.htm
 tech.root: WinAuto
 ms.assetid: 2e8255de-b28d-4fc4-82ea-4255771f9838
-
 ms.date: 12/05/2018
 ms.keywords: ITransformProvider interface [Windows Accessibility],Rotate method, ITransformProvider.Rotate, ITransformProvider::Rotate, Rotate, Rotate method [Windows Accessibility], Rotate method [Windows Accessibility],ITransformProvider interface, uiauto.uiauto_ITransformProvider_Rotate, uiauto_ITransformProvider_Rotate, uiautomationcore/ITransformProvider::Rotate, winauto.uiauto_ITransformProvider_Rotate
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ITransformProvider.Rotate"
+f1_keywords:
+- uiautomationcore/ITransformProvider.Rotate
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ITransformProvider.Rotate
+- ITransformProvider.Rotate
 targetos: Windows
 req.typenames: 
 req.redist: 

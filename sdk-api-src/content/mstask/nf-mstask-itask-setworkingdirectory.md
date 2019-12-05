@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.ITask.SetWorkingDirectory
 title: ITask::SetWorkingDirectory (mstask.h)
-
 description: This method sets the working directory for the task.
 old-location: taskschd\itask_setworkingdirectory.htm
 tech.root: taskschd
 ms.assetid: df12d899-c254-4bbf-a49f-d89a2fcb0e28
-
 ms.date: 12/05/2018
 ms.keywords: ITask interface [Task Scheduler],SetWorkingDirectory method, ITask.SetWorkingDirectory, ITask::SetWorkingDirectory, SetWorkingDirectory, SetWorkingDirectory method [Task Scheduler], SetWorkingDirectory method [Task Scheduler],ITask interface, _msb_itask_setworkingdirectory, mstask/ITask::SetWorkingDirectory, taskschd.itask_setworkingdirectory
 ms.topic: method
-f1_keywords: 
- - "mstask/ITask.SetWorkingDirectory"
+f1_keywords:
+- mstask/ITask.SetWorkingDirectory
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - ITask.SetWorkingDirectory
+- ITask.SetWorkingDirectory
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

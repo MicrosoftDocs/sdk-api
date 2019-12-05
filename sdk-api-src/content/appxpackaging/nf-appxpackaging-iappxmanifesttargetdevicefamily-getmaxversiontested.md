@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestTargetDeviceFamily.GetMaxVersionTested
 title: IAppxManifestTargetDeviceFamily::GetMaxVersionTested (appxpackaging.h)
-
 description: Gets the maximum version tested from the AppxManifest.xml.
 old-location: appxpkg\iappxmanifesttargetdevicefamily_getmaxversiontested.htm
 tech.root: appxpkg
 ms.assetid: 65391D03-627D-4302-BE1A-6E90E3A04458
-
 ms.date: 12/05/2018
 ms.keywords: GetMaxVersionTested, GetMaxVersionTested method [App packaging and management], GetMaxVersionTested method [App packaging and management],IAppxManifestTargetDeviceFamily interface, IAppxManifestTargetDeviceFamily interface [App packaging and management],GetMaxVersionTested method, IAppxManifestTargetDeviceFamily.GetMaxVersionTested, IAppxManifestTargetDeviceFamily::GetMaxVersionTested, appxpackaging/IAppxManifestTargetDeviceFamily::GetMaxVersionTested, appxpkg.iappxmanifesttargetdevicefamily_getmaxversiontested
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestTargetDeviceFamily.GetMaxVersionTested"
+f1_keywords:
+- appxpackaging/IAppxManifestTargetDeviceFamily.GetMaxVersionTested
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestTargetDeviceFamily.GetMaxVersionTested
+- IAppxManifestTargetDeviceFamily.GetMaxVersionTested
 targetos: Windows
 req.typenames: 
 req.redist: 

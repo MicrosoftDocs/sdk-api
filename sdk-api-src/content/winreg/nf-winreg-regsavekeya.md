@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegSaveKeyA
 title: RegSaveKeyA function (winreg.h)
-
 description: Saves the specified key and all of its subkeys and values to a new file, in the standard format.
 old-location: base\regsavekey.htm
 tech.root: SysInfo
 ms.assetid: da80f40d-0099-4748-94ca-5d3b001e633e
-
 ms.date: 12/05/2018
 ms.keywords: RegSaveKey, RegSaveKey function, RegSaveKeyA, RegSaveKeyW, _win32_regsavekey, base.regsavekey, winreg/RegSaveKey, winreg/RegSaveKeyA, winreg/RegSaveKeyW
 ms.topic: function
-f1_keywords: 
- - "winreg/RegSaveKey"
+f1_keywords:
+- winreg/RegSaveKey
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Registry-l2-1-0.dll
- - advapi32legacy.dll
- - API-MS-Win-Core-Registry-l2-2-0.dll
+- Advapi32.dll
+- API-MS-Win-Core-Registry-l2-1-0.dll
+- advapi32legacy.dll
+- API-MS-Win-Core-Registry-l2-2-0.dll
 api_name:
- - RegSaveKey
- - RegSaveKeyA
- - RegSaveKeyW
+- RegSaveKey
+- RegSaveKeyA
+- RegSaveKeyW
 targetos: Windows
 req.typenames: 
 req.redist: 

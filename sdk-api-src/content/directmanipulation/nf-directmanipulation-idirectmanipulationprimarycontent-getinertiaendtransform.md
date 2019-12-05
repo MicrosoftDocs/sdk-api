@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.GetInertiaEndTransform
 title: IDirectManipulationPrimaryContent::GetInertiaEndTransform (directmanipulation.h)
-
 description: Gets the final transform, including inertia, of the primary content.
 old-location: directmanipulation\idirectmanipulationprimarycontent_getinertiaendtransform.htm
 tech.root: directmanipulation
 ms.assetid: BCF0E48F-C47E-42BE-90F8-25737301DC9C
-
 ms.date: 12/05/2018
 ms.keywords: GetInertiaEndTransform, GetInertiaEndTransform method [Direct Manipulation], GetInertiaEndTransform method [Direct Manipulation],IDirectManipulationPrimaryContent interface, IDirectManipulationPrimaryContent interface [Direct Manipulation],GetInertiaEndTransform method, IDirectManipulationPrimaryContent.GetInertiaEndTransform, IDirectManipulationPrimaryContent::GetInertiaEndTransform, directmanipulation.idirectmanipulationprimarycontent_getinertiaendtransform, directmanipulation/IDirectManipulationPrimaryContent::GetInertiaEndTransform
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationPrimaryContent.GetInertiaEndTransform"
+f1_keywords:
+- directmanipulation/IDirectManipulationPrimaryContent.GetInertiaEndTransform
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationPrimaryContent.GetInertiaEndTransform
+- IDirectManipulationPrimaryContent.GetInertiaEndTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

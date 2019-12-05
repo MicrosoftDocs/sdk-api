@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.ShellAboutW
 title: ShellAboutW function (shellapi.h)
-
 description: Displays a ShellAbout dialog box.
 old-location: shell\ShellAbout.htm
 tech.root: shell
 ms.assetid: 0919e356-84e8-475e-8628-23097b19c50d
-
 ms.date: 12/05/2018
 ms.keywords: ShellAbout, ShellAbout function [Windows Shell], ShellAboutA, ShellAboutW, _win32_ShellAbout, shell.ShellAbout, shellapi/ShellAbout, shellapi/ShellAboutA, shellapi/ShellAboutW
 ms.topic: function
-f1_keywords: 
- - "shellapi/ShellAbout"
+f1_keywords:
+- shellapi/ShellAbout
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 3.51 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ShellAbout
- - ShellAboutA
- - ShellAboutW
+- ShellAbout
+- ShellAboutA
+- ShellAboutW
 targetos: Windows
 req.typenames: 
 req.redist: 

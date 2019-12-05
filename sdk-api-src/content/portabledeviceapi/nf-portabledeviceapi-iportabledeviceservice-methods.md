@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.Methods
 title: IPortableDeviceService::Methods (portabledeviceapi.h)
-
 description: Retrieves the IPortableDeviceServiceMethods interface that is used to invoke custom functionality on the service.
 old-location: wpdsdk\iportabledeviceservice_methods.htm
 tech.root: wpd_sdk
 ms.assetid: 345102d4-3dac-4878-9196-bb0d97c0df07
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceService interface [Windows Portable Devices SDK],Methods method, IPortableDeviceService.Methods, IPortableDeviceService::Methods, Methods, Methods method [Windows Portable Devices SDK], Methods method [Windows Portable Devices SDK],IPortableDeviceService interface, portabledeviceapi/IPortableDeviceService::Methods, wpdsdk.iportabledeviceservice_methods
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceService.Methods"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceService.Methods
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceAPI.h
+- PortableDeviceAPI.h
 api_name:
- - IPortableDeviceService.Methods
+- IPortableDeviceService.Methods
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertificatePolicy.Initialize
 title: ICertificatePolicy::Initialize (certenroll.h)
-
 description: Initializes the object from an object identifier (OID).
 old-location: security\icertificatepolicy_initialize_method.htm
 tech.root: seccertenroll
 ms.assetid: 995b344b-ed1f-47e4-a7c6-0d638ed9ec23
-
 ms.date: 12/05/2018
 ms.keywords: ICertificatePolicy interface [Security],Initialize method, ICertificatePolicy.Initialize, ICertificatePolicy::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertificatePolicy interface, certenroll/ICertificatePolicy::Initialize, security.icertificatepolicy_initialize_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertificatePolicy.Initialize"
+f1_keywords:
+- certenroll/ICertificatePolicy.Initialize
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertificatePolicy.Initialize
+- ICertificatePolicy.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

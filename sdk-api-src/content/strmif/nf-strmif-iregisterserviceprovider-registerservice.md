@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IRegisterServiceProvider.RegisterService
 title: IRegisterServiceProvider::RegisterService (strmif.h)
-
 description: The RegisterService method registers an object as a service.
 old-location: dshow\iregisterserviceprovider_registerservice.htm
 tech.root: DirectShow
 ms.assetid: be8c3a89-687e-4a53-9fd0-0ec676e27ce0
-
 ms.date: 12/05/2018
 ms.keywords: IRegisterServiceProvider interface [DirectShow],RegisterService method, IRegisterServiceProvider.RegisterService, IRegisterServiceProvider::RegisterService, IRegisterServiceProviderRegisterService, RegisterService, RegisterService method [DirectShow], RegisterService method [DirectShow],IRegisterServiceProvider interface, dshow.iregisterserviceprovider_registerservice, strmif/IRegisterServiceProvider::RegisterService
 ms.topic: method
-f1_keywords: 
- - "strmif/IRegisterServiceProvider.RegisterService"
+f1_keywords:
+- strmif/IRegisterServiceProvider.RegisterService
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IRegisterServiceProvider.RegisterService
+- IRegisterServiceProvider.RegisterService
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngGetPrinterDriver
 title: EngGetPrinterDriver function (winddi.h)
-
 description: The EngGetPrinterDriver function retrieves driver data for the specified printer.
 old-location: display\enggetprinterdriver.htm
 tech.root: display
 ms.assetid: baf6826f-511d-4820-9990-be82ceba23fe
-
 ms.date: 12/05/2018
 ms.keywords: EngGetPrinterDriver, EngGetPrinterDriver function [Display Devices], display.enggetprinterdriver, gdifncs_0aead020-6bf8-4eda-8d72-dd2d59f4663d.xml, winddi/EngGetPrinterDriver
 ms.topic: function
-f1_keywords: 
- - "winddi/EngGetPrinterDriver"
+f1_keywords:
+- winddi/EngGetPrinterDriver
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngGetPrinterDriver
+- EngGetPrinterDriver
 targetos: Windows
 req.typenames: 
 req.redist: 

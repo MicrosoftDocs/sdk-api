@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhRemoveCounter
 title: PdhRemoveCounter function (pdh.h)
-
 description: Removes a counter from a query.
 old-location: perf\pdhremovecounter.htm
 tech.root: perfctrs
 ms.assetid: adf9c7bd-47d6-489a-88fc-954fdf127ce8
-
 ms.date: 12/05/2018
 ms.keywords: PdhRemoveCounter, PdhRemoveCounter function [Perf], _win32_pdhremovecounter, base.pdhremovecounter, pdh/PdhRemoveCounter, perf.pdhremovecounter
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhRemoveCounter"
+f1_keywords:
+- pdh/PdhRemoveCounter
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhRemoveCounter
+- PdhRemoveCounter
 targetos: Windows
 req.typenames: 
 req.redist: 

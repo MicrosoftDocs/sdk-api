@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaDevMgr.GetImageDlg
 title: IWiaDevMgr::GetImageDlg (wia_xp.h)
-
 description: The IWiaDevMgr::GetImageDlg method displays one or more dialog boxes that enable a user to acquire an image from a Windows Image Acquisition (WIA) device and write the image to a specified file.
 old-location: wia\_wia_IWiaDevMgr_GetImageDlg.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\getimagedlg.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetImageDlg, GetImageDlg method [WIA], GetImageDlg method [WIA],IWiaDevMgr interface, IWiaDevMgr interface [WIA],GetImageDlg method, IWiaDevMgr.GetImageDlg, IWiaDevMgr::GetImageDlg, _wia_IWiaDevMgr_GetImageDlg, wia._wia_IWiaDevMgr_GetImageDlg, wia_xp/IWiaDevMgr::GetImageDlg
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaDevMgr.GetImageDlg"
+f1_keywords:
+- wia_xp/IWiaDevMgr.GetImageDlg
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaDevMgr.GetImageDlg
+- IWiaDevMgr.GetImageDlg
 targetos: Windows
 req.typenames: 
 req.redist: 

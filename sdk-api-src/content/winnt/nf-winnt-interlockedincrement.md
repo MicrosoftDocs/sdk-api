@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.InterlockedIncrement
 title: InterlockedIncrement function (winnt.h)
-
 description: Increments (increases by one) the value of the specified 32-bit variable as an atomic operation.
 old-location: base\interlockedincrement.htm
 tech.root: Sync
 ms.assetid: 87eda7fb-966d-4630-9da6-8933b53daadd
-
 ms.date: 12/05/2018
 ms.keywords: InterlockedIncrement, InterlockedIncrement function, _win32_interlockedincrement, base.interlockedincrement, winnt/InterlockedIncrement
 ms.topic: function
-f1_keywords: 
- - "winnt/InterlockedIncrement"
+f1_keywords:
+- winnt/InterlockedIncrement
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Interlocked-l1-1-0.dll
- - API-MS-Win-Core-Interlocked-l1-2-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Interlocked-l1-1-0.dll
+- API-MS-Win-Core-Interlocked-l1-2-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
 api_name:
- - InterlockedIncrement
+- InterlockedIncrement
 targetos: Windows
 req.typenames: 
 req.redist: 

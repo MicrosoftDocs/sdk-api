@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.Conference
 title: ITBasicCallControl::Conference (tapi3if.h)
-
 description: The Conference method adds a consultation call to the conference in which the current call is a participant. If an associated ITCallHub object does not exist, it is created.
 old-location: tapi3\itbasiccallcontrol_conference.htm
 tech.root: Tapi
 ms.assetid: 73721921-c943-4adc-a2b1-e8c19ec809ac
-
 ms.date: 12/05/2018
 ms.keywords: Conference, Conference method [TAPI 2.2], Conference method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Conference method, ITBasicCallControl.Conference, ITBasicCallControl::Conference, _tapi3_itbasiccallcontrol_conference, tapi3.itbasiccallcontrol_conference, tapi3if/ITBasicCallControl::Conference
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITBasicCallControl.Conference"
+f1_keywords:
+- tapi3if/ITBasicCallControl.Conference
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITBasicCallControl.Conference
+- ITBasicCallControl.Conference
 targetos: Windows
 req.typenames: 
 req.redist: 

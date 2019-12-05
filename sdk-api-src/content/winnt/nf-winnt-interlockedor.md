@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.InterlockedOr
 title: InterlockedOr function (winnt.h)
-
 description: Performs an atomic OR operation on the specified LONG values.
 old-location: base\interlockedor.htm
 tech.root: Sync
 ms.assetid: c677e9fb-4188-466a-8283-9d65a50d150e
-
 ms.date: 12/05/2018
 ms.keywords: InterlockedOr, InterlockedOr function, base.interlockedor, winnt/InterlockedOr
 ms.topic: function
-f1_keywords: 
- - "winnt/InterlockedOr"
+f1_keywords:
+- winnt/InterlockedOr
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - InterlockedOr
+- InterlockedOr
 targetos: Windows
 req.typenames: 
 req.redist: 

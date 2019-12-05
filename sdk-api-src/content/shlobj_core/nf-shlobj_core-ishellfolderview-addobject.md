@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.AddObject
 title: IShellFolderView::AddObject (shlobj_core.h)
-
 description: AddObject may be altered or unavailable.
 old-location: shell\IShellFolderView_AddObject.htm
 tech.root: shell
 ms.assetid: 50f07c12-7c66-40a0-b710-a4240fde859a
-
 ms.date: 12/05/2018
 ms.keywords: AddObject, AddObject method [Windows Shell], AddObject method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],AddObject method, IShellFolderView.AddObject, IShellFolderView::AddObject, _shell_IShellFolderView_AddObject, shell.IShellFolderView_AddObject, shlobj_core/IShellFolderView::AddObject
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IShellFolderView.AddObject"
+f1_keywords:
+- shlobj_core/IShellFolderView.AddObject
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shlobj_core.h
+- Shlobj_core.h
 api_name:
- - IShellFolderView.AddObject
+- IShellFolderView.AddObject
 targetos: Windows
 req.typenames: 
 req.redist: 

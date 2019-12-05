@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.MonthCal_GetCurSel
 title: MonthCal_GetCurSel macro (commctrl.h)
-
 description: Retrieves the currently selected date. You can use this macro or send the MCM_GETCURSEL message explicitly.
 old-location: controls\MonthCal_GetCurSel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcursel.htm
-
 ms.date: 12/05/2018
 ms.keywords: MonthCal_GetCurSel, MonthCal_GetCurSel macro [Windows Controls], _win32_MonthCal_GetCurSel, _win32_MonthCal_GetCurSel_cpp, commctrl/MonthCal_GetCurSel, controls.MonthCal_GetCurSel, controls._win32_MonthCal_GetCurSel
 ms.topic: macro
-f1_keywords: 
- - "commctrl/MonthCal_GetCurSel"
+f1_keywords:
+- commctrl/MonthCal_GetCurSel
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - MonthCal_GetCurSel
+- MonthCal_GetCurSel
 targetos: Windows
 req.typenames: 
 req.redist: 

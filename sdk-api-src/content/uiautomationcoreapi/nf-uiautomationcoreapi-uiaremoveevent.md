@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRemoveEvent
 title: UiaRemoveEvent function (uiautomationcoreapi.h)
-
 description: Removes a listener for events on a node in the UI Automation tree.
 old-location: winauto\uiauto_UiaRemoveEventClientEvent.htm
 tech.root: WinAuto
 ms.assetid: c98b3e0f-c3d3-45a5-b1a1-80da1b5673f3
-
 ms.date: 12/05/2018
 ms.keywords: UiaRemoveEvent, UiaRemoveEvent function [Windows Accessibility], uiauto.uiauto_UiaRemoveEventClientEvent, uiauto_UiaRemoveEventClientEvent, uiautomationcoreapi/UiaRemoveEvent, winauto.uiauto_UiaRemoveEventClientEvent
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaRemoveEvent"
+f1_keywords:
+- uiautomationcoreapi/UiaRemoveEvent
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - UiaRemoveEvent
+- UiaRemoveEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

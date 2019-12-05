@@ -1,19 +1,17 @@
 ---
 UID: NS:wcsplugin._JChColorF
 title: JChColorF (wcsplugin.h)
-
 description: TBD.
 old-location: wcs\jchcolorf.htm
 tech.root: WCS
 ms.assetid: a7bf9e3c-b718-437b-a4d9-3edaef29f3ff
-
 ms.date: 12/05/2018
 ms.keywords: JChColorF, JChColorF structure [Windows Color System], wcs.jchcolorf, wcsplugin/JChColorF
 ms.topic: struct
-f1_keywords: 
- - "wcsplugin/JChColorF"
+f1_keywords:
+- wcsplugin/JChColorF
 dev_langs:
- - c++
+- c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,13 +30,13 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - JChColorF
+- JChColorF
 targetos: Windows
 req.typenames: JChColorF
 req.redist: 

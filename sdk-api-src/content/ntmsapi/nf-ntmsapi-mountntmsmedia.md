@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.MountNtmsMedia
 title: MountNtmsMedia function (ntmsapi.h)
-
 description: The MountNtmsMedia function synchronously mounts one or more pieces of media.
 old-location: fs\mountntmsmedia.htm
 tech.root: Rsm
 ms.assetid: f943f36c-654a-48ed-aeb2-1fc146f2d9ff
-
 ms.date: 12/05/2018
 ms.keywords: MountNtmsMedia, MountNtmsMedia function [Files], NTMS_MOUNT_ERROR_NOT_AVAILABLE, NTMS_MOUNT_ERROR_OFFLINE, NTMS_MOUNT_READ, NTMS_MOUNT_SPECIFIC_DRIVE, NTMS_MOUNT_WRITE, NTMS_PRIORITY_HIGH, NTMS_PRIORITY_HIGHEST, NTMS_PRIORITY_LOW, NTMS_PRIORITY_LOWEST, NTMS_PRIORITY_NORMAL, _zaw_mountntmsmedia, base.mountntmsmedia, fs.mountntmsmedia, ntmsapi/MountNtmsMedia
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/MountNtmsMedia"
+f1_keywords:
+- ntmsapi/MountNtmsMedia
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - MountNtmsMedia
+- MountNtmsMedia
 targetos: Windows
 req.typenames: 
 req.redist: 

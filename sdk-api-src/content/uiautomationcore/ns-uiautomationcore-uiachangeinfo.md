@@ -1,19 +1,17 @@
 ---
 UID: NS:uiautomationcore.UiaChangeInfo
 title: UiaChangeInfo (uiautomationcore.h)
-
 description: Contains data about a UI Automation change that occurred.
 old-location: winauto\uiachangeinfo.htm
 tech.root: WinAuto
 ms.assetid: 28C0C0DE-7ED2-4D01-B532-E56AD81AE8D0
-
 ms.date: 12/05/2018
 ms.keywords: PUiaChangeInfo, PUiaChangeInfo structure pointer [Windows Accessibility], UiaChangeInfo, UiaChangeInfo structure [Windows Accessibility], uiautomationcore/PUiaChangeInfo, uiautomationcore/UiaChangeInfo, winauto.uiachangeinfo
 ms.topic: struct
-f1_keywords: 
- - "uiautomationcore/UiaChangeInfo"
+f1_keywords:
+- uiautomationcore/UiaChangeInfo
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - UiaChangeInfo
+- UiaChangeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

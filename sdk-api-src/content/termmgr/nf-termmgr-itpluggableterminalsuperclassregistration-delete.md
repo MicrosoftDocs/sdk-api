@@ -1,19 +1,17 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalSuperclassRegistration.Delete
 title: ITPluggableTerminalSuperclassRegistration::Delete (termmgr.h)
-
 description: The Delete method removes the current terminal superclass from the registry.
 old-location: tapi3\itpluggableterminalsuperclassregistration_delete.htm
 tech.root: Tapi
 ms.assetid: fe87d55f-1e1c-4241-b8a3-b56d2000f3ca
-
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [TAPI 2.2], Delete method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],Delete method, ITPluggableTerminalSuperclassRegistration.Delete, ITPluggableTerminalSuperclassRegistration::Delete, _tapi3_itpluggableterminalsuperclassregistration_delete, tapi3.itpluggableterminalsuperclassregistration_delete, termmgr/ITPluggableTerminalSuperclassRegistration::Delete
 ms.topic: method
-f1_keywords: 
- - "termmgr/ITPluggableTerminalSuperclassRegistration.Delete"
+f1_keywords:
+- termmgr/ITPluggableTerminalSuperclassRegistration.Delete
 dev_langs:
- - c++
+- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPluggableTerminalSuperclassRegistration.Delete
+- ITPluggableTerminalSuperclassRegistration.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 

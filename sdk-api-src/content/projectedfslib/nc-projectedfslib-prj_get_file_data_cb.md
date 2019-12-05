@@ -1,19 +1,17 @@
 ---
 UID: NC:projectedfslib.PRJ_GET_FILE_DATA_CB
 title: PRJ_GET_FILE_DATA_CB (projectedfslib.h)
-
 description: Requests the contents of a file's primary data stream.
 old-location: projfs\prj_get_file_data_cb.htm
 tech.root: ProjFS
 ms.assetid: 8F3EEC96-70C2-40ED-BDF3-B6E979EF1F7E
-
 ms.date: 12/05/2018
 ms.keywords: PRJ_GET_FILE_DATA_CB, PRJ_GET_FILE_DATA_CB callback, PRJ_GET_FILE_DATA_CB callback function, ProjFS.prj_get_file_data_cb, projectedfslib/PRJ_GET_FILE_DATA_CB
 ms.topic: callback
-f1_keywords: 
- - "projectedfslib/PRJ_GET_FILE_DATA_CB"
+f1_keywords:
+- projectedfslib/PRJ_GET_FILE_DATA_CB
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PRJ_GET_FILE_DATA_CB
+- PRJ_GET_FILE_DATA_CB
 targetos: Windows
 req.typenames: 
 req.redist: 

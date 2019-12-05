@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.PolyPolygon
 title: PolyPolygon function (wingdi.h)
-
 description: The PolyPolygon function draws a series of closed polygons. Each polygon is outlined by using the current pen and filled by using the current brush and polygon fill mode. The polygons drawn by this function can overlap.
 old-location: gdi\polypolygon.htm
 tech.root: gdi
 ms.assetid: ac0a2802-c8b0-4cd7-9521-5b179f2c70b9
-
 ms.date: 12/05/2018
 ms.keywords: PolyPolygon, PolyPolygon function [Windows GDI], _win32_PolyPolygon, gdi.polypolygon, wingdi/PolyPolygon
 ms.topic: function
-f1_keywords: 
- - "wingdi/PolyPolygon"
+f1_keywords:
+- wingdi/PolyPolygon
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - PolyPolygon
+- PolyPolygon
 targetos: Windows
 req.typenames: 
 req.redist: 

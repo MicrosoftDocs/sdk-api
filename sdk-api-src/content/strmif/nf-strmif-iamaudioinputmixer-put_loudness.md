@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.put_Loudness
 title: IAMAudioInputMixer::put_Loudness (strmif.h)
-
 description: The put_Loudness method enables or disables the loudness control.
 old-location: dshow\iamaudioinputmixer_put_loudness.htm
 tech.root: DirectShow
 ms.assetid: e4baca46-260c-45fe-8c03-304c906aab15
-
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],put_Loudness method, IAMAudioInputMixer.put_Loudness, IAMAudioInputMixer::put_Loudness, IAMAudioInputMixerput_Loudness, dshow.iamaudioinputmixer_put_loudness, put_Loudness, put_Loudness method [DirectShow], put_Loudness method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_Loudness
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMAudioInputMixer.put_Loudness"
+f1_keywords:
+- strmif/IAMAudioInputMixer.put_Loudness
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMAudioInputMixer.put_Loudness
+- IAMAudioInputMixer.put_Loudness
 targetos: Windows
 req.typenames: 
 req.redist: 

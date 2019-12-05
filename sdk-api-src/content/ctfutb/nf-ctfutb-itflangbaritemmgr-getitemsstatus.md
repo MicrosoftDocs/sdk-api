@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.GetItemsStatus
 title: ITfLangBarItemMgr::GetItemsStatus (ctfutb.h)
-
 description: ITfLangBarItemMgr::GetItemsStatus method
 old-location: tsf\itflangbaritemmgr_getitemsstatus.htm
 tech.root: TSF
 ms.assetid: bf0bbbd5-63ca-4f2e-afee-e0c47d6e3d7b
-
 ms.date: 12/05/2018
 ms.keywords: GetItemsStatus, GetItemsStatus method [Text Services Framework], GetItemsStatus method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],GetItemsStatus method, ITfLangBarItemMgr.GetItemsStatus, ITfLangBarItemMgr::GetItemsStatus, _tsf_itflangbaritemmgr_getitemsstatus_ref, ctfutb/ITfLangBarItemMgr::GetItemsStatus, tsf.itflangbaritemmgr_getitemsstatus
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarItemMgr.GetItemsStatus"
+f1_keywords:
+- ctfutb/ITfLangBarItemMgr.GetItemsStatus
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfLangBarItemMgr.GetItemsStatus
+- ITfLangBarItemMgr.GetItemsStatus
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

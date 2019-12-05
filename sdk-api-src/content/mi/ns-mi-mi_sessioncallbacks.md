@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_SessionCallbacks
 title: MI_SessionCallbacks (mi.h)
-
 description: A container for callback function pointers that handle logging and error messages.
 old-location: wmi_v2\mi_sessioncallbacks.htm
 tech.root: wmi_v2
 ms.assetid: 76b21381-201e-4128-b0db-18d8968a80bb
-
 ms.date: 12/05/2018
 ms.keywords: MI_SessionCallbacks, MI_SessionCallbacks structure [Windows Management Infrastructure (MI)], mi/MI_SessionCallbacks, wmi_v2.mi_sessioncallbacks
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_SessionCallbacks"
+f1_keywords:
+- mi/MI_SessionCallbacks
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_SessionCallbacks
+- MI_SessionCallbacks
 targetos: Windows
 req.typenames: MI_SessionCallbacks
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

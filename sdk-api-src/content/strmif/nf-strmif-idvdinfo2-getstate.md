@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetState
 title: IDvdInfo2::GetState (strmif.h)
-
 description: The GetState method retrieves a bookmark containing the disc location and DVD Navigator state information.
 old-location: dshow\idvdinfo2_getstate.htm
 tech.root: DirectShow
 ms.assetid: 403add2b-3dfd-436d-8184-7a14f30f6ea3
-
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [DirectShow], GetState method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetState method, IDvdInfo2.GetState, IDvdInfo2::GetState, IDvdInfo2GetState, dshow.idvdinfo2_getstate, strmif/IDvdInfo2::GetState
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo2.GetState"
+f1_keywords:
+- strmif/IDvdInfo2.GetState
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdInfo2.GetState
+- IDvdInfo2.GetState
 targetos: Windows
 req.typenames: 
 req.redist: 

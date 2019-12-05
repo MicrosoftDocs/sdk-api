@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IDiscMasterProgressEvents.NotifyBurnComplete
 title: IDiscMasterProgressEvents::NotifyBurnComplete (imapi.h)
-
 description: Notifies an application that a call to IDiscMaster::RecordDisc has finished.
 old-location: imapi\idiscmasterprogressevents_notifyburncomplete.htm
 tech.root: imapi
 ms.assetid: deefe7cb-60aa-4255-a7b1-261fb40e6318
-
 ms.date: 12/05/2018
 ms.keywords: IDiscMasterProgressEvents interface [IMAPI],NotifyBurnComplete method, IDiscMasterProgressEvents.NotifyBurnComplete, IDiscMasterProgressEvents::NotifyBurnComplete, NotifyBurnComplete, NotifyBurnComplete method [IMAPI], NotifyBurnComplete method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_notifyburncomplete, base.idiscmasterprogressevents_notifyburncomplete, imapi.idiscmasterprogressevents_notifyburncomplete, imapi/IDiscMasterProgressEvents::NotifyBurnComplete
 ms.topic: method
-f1_keywords: 
- - "imapi/IDiscMasterProgressEvents.NotifyBurnComplete"
+f1_keywords:
+- imapi/IDiscMasterProgressEvents.NotifyBurnComplete
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IDiscMasterProgressEvents.NotifyBurnComplete
+- IDiscMasterProgressEvents.NotifyBurnComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

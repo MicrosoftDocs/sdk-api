@@ -1,19 +1,17 @@
 ---
 UID: NS:ncrypt._NCRYPT_KEY_BLOB_HEADER
 title: NCRYPT_KEY_BLOB_HEADER (ncrypt.h)
-
 description: Contains a key BLOB.
 old-location: security\ncrypt_key_blob_header.htm
 tech.root: SecCNG
 ms.assetid: 387F05A3-C6E2-48EE-8FD0-C0A45E752300
-
 ms.date: 12/05/2018
-ms.keywords: "*PNCRYPT_KEY_BLOB_HEADER, NCRYPT_KEY_BLOB_HEADER, NCRYPT_KEY_BLOB_HEADER structure [Security], PNCRYPT_KEY_BLOB_HEADER, PNCRYPT_KEY_BLOB_HEADER structure pointer [Security], ncrypt/NCRYPT_KEY_BLOB_HEADER, ncrypt/PNCRYPT_KEY_BLOB_HEADER, security.ncrypt_key_blob_header"
+ms.keywords: '*PNCRYPT_KEY_BLOB_HEADER, NCRYPT_KEY_BLOB_HEADER, NCRYPT_KEY_BLOB_HEADER structure [Security], PNCRYPT_KEY_BLOB_HEADER, PNCRYPT_KEY_BLOB_HEADER structure pointer [Security], ncrypt/NCRYPT_KEY_BLOB_HEADER, ncrypt/PNCRYPT_KEY_BLOB_HEADER, security.ncrypt_key_blob_header'
 ms.topic: struct
-f1_keywords: 
- - "ncrypt/NCRYPT_KEY_BLOB_HEADER"
+f1_keywords:
+- ncrypt/NCRYPT_KEY_BLOB_HEADER
 dev_langs:
- - c++
+- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ncrypt.h
+- Ncrypt.h
 api_name:
- - NCRYPT_KEY_BLOB_HEADER
+- NCRYPT_KEY_BLOB_HEADER
 targetos: Windows
 req.typenames: NCRYPT_KEY_BLOB_HEADER, *PNCRYPT_KEY_BLOB_HEADER
 req.redist: 

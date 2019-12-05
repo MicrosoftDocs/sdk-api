@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITTerminal.get_State
 title: ITTerminal::get_State (tapi3if.h)
-
 description: The get_State method gets the current state of the terminal.
 old-location: tapi3\itterminal_get_state.htm
 tech.root: Tapi
 ms.assetid: 18eebe2c-2c65-4836-a371-146eb76a379c
-
 ms.date: 12/05/2018
 ms.keywords: ITTerminal interface [TAPI 2.2],get_State method, ITTerminal.get_State, ITTerminal::get_State, _tapi3_itterminal_get_state, get_State, get_State method [TAPI 2.2], get_State method [TAPI 2.2],ITTerminal interface, tapi3.itterminal_get_state, tapi3if/ITTerminal::get_State
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITTerminal.get_State"
+f1_keywords:
+- tapi3if/ITTerminal.get_State
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - ITTerminal.get_State
+- ITTerminal.get_State
 targetos: Windows
 req.typenames: 
 req.redist: 

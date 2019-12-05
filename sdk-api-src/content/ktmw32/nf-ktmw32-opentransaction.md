@@ -1,19 +1,17 @@
 ---
 UID: NF:ktmw32.OpenTransaction
 title: OpenTransaction function (ktmw32.h)
-
 description: Opens an existing transaction.
 old-location: fs\opentransaction.htm
 tech.root: ktm
 ms.assetid: d95f15e4-d0fd-4665-849d-eecac8fc542b
-
 ms.date: 12/05/2018
 ms.keywords: OpenTransaction, OpenTransaction function [Files], fs.opentransaction, ktmw32/OpenTransaction
 ms.topic: function
-f1_keywords: 
- - "ktmw32/OpenTransaction"
+f1_keywords:
+- ktmw32/OpenTransaction
 dev_langs:
- - c++
+- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ktmw32.lib
 req.dll: Ktmw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ktmw32.dll
+- Ktmw32.dll
 api_name:
- - OpenTransaction
+- OpenTransaction
 targetos: Windows
 req.typenames: 
 req.redist: 

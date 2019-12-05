@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchManager.get_BypassList
 title: ISearchManager::get_BypassList (searchapi.h)
-
 description: Gets a proxy bypass list from the indexer. This list is used to determine which items or URLs are local and do not need to go through the proxy server. This list is set by calling ISearchManager::SetProxy.
 old-location: search\_search_ISearchManager_get_BypassList.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\get_bypasslist.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchManager interface [search],get_BypassList method, ISearchManager.get_BypassList, ISearchManager::get_BypassList, _search_ISearchManager_get_BypassList, get_BypassList, get_BypassList method [search], get_BypassList method [search],ISearchManager interface, search._search_ISearchManager_get_BypassList, searchapi/ISearchManager::get_BypassList
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchManager.get_BypassList"
+f1_keywords:
+- searchapi/ISearchManager.get_BypassList
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchManager.get_BypassList
+- ISearchManager.get_BypassList
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

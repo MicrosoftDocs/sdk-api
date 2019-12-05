@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventSystem.RemoveS
 title: IEventSystem::RemoveS (eventsys.h)
-
 description: Removes one or more subscription or event objects from the event data store.
 old-location: cos\ieventsystem_removes.htm
 tech.root: cossdk
 ms.assetid: 6c3d2972-bfc4-43f2-a131-f3b3010a3c91
-
 ms.date: 12/05/2018
 ms.keywords: IEventSystem interface [COM+],RemoveS method, IEventSystem.RemoveS, IEventSystem::RemoveS, RemoveS, RemoveS method [COM+], RemoveS method [COM+],IEventSystem interface, _cos_IEventSystem_RemoveS, cos.ieventsystem_removes, eventsys/IEventSystem::RemoveS
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventSystem.RemoveS"
+f1_keywords:
+- eventsys/IEventSystem.RemoveS
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IEventSystem.RemoveS
+- IEventSystem.RemoveS
 targetos: Windows
 req.typenames: 
 req.redist: 

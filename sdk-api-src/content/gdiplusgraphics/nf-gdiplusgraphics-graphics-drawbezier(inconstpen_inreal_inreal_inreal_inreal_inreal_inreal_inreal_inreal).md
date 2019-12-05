@@ -3,14 +3,13 @@ UID: NF:gdiplusgraphics.Graphics.DrawBezier(IN const Pen,IN REAL,IN REAL,IN REAL
 title: Graphics::DrawBezier
 description: The Graphics::DrawBezier method draws a Bezier spline.
 ms.assetid: 8cc50b20-3c78-4462-bee5-f7fce4815bc1
-
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawBezier
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusgraphics/Graphics::DrawBezier"
+f1_keywords:
+- gdiplusgraphics/Graphics::DrawBezier
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusgraphics.h
+- gdiplusgraphics.h
 api_name:
- - Graphics::DrawBezier
+- Graphics::DrawBezier
 ---
 
 # DrawBezier(Pen*,REAL,REAL,REAL,REAL,REAL,REAL,REAL,REAL)

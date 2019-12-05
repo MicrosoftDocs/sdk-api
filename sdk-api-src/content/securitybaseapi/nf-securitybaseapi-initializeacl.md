@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.InitializeAcl
 title: InitializeAcl function (securitybaseapi.h)
-
 description: Initializes a new ACL structure.
 old-location: security\initializeacl.htm
 tech.root: SecAuthZ
 ms.assetid: b990a7bd-7840-4c10-baf8-68b3862147f4
-
 ms.date: 12/05/2018
 ms.keywords: InitializeAcl, InitializeAcl function [Security], _win32_initializeacl, security.initializeacl, securitybaseapi/InitializeAcl
 ms.topic: function
 f1_keywords:
 - securitybaseapi/InitializeAcl
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

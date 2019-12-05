@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.SetViewModeAndIconSize
 title: IFolderView2::SetViewModeAndIconSize (shobjidl_core.h)
-
 description: Sets and applies the view mode and image size.
 old-location: shell\IFolderView2_SetViewModeAndIconSize.htm
 tech.root: shell
 ms.assetid: 52724e5d-074f-4715-9dca-50ed22d8519e
-
 ms.date: 12/05/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetViewModeAndIconSize method, IFolderView2.SetViewModeAndIconSize, IFolderView2::SetViewModeAndIconSize, SetViewModeAndIconSize, SetViewModeAndIconSize method [Windows Shell], SetViewModeAndIconSize method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetViewModeAndIconSize, shell.IFolderView2_SetViewModeAndIconSize, shobjidl_core/IFolderView2::SetViewModeAndIconSize
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderView2.SetViewModeAndIconSize"
+f1_keywords:
+- shobjidl_core/IFolderView2.SetViewModeAndIconSize
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFolderView2.SetViewModeAndIconSize
+- IFolderView2.SetViewModeAndIconSize
 targetos: Windows
 req.typenames: 
 req.redist: 

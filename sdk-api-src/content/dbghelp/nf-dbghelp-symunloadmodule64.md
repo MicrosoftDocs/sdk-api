@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymUnloadModule64
 title: SymUnloadModule64 function (dbghelp.h)
-
 description: Unloads the symbol table.
 old-location: base\symunloadmodule64.htm
 tech.root: Debug
 ms.assetid: f4801039-eba2-4ec3-8c23-706ab89bb442
-
 ms.date: 12/05/2018
 ms.keywords: SymUnloadModule, SymUnloadModule function, SymUnloadModule64, SymUnloadModule64 function, _win32_symunloadmodule64, base.symunloadmodule64, dbghelp/SymUnloadModule, dbghelp/SymUnloadModule64
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymUnloadModule64"
+f1_keywords:
+- dbghelp/SymUnloadModule64
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
- - imagehlp.dll
+- Dbghelp.dll
+- imagehlp.dll
 api_name:
- - SymUnloadModule64
- - SymUnloadModule
+- SymUnloadModule64
+- SymUnloadModule
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

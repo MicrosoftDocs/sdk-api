@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IMessageView
 title: IMessageView (mmc.h)
-
 description: The IMessageView interface is introduced in MMC 1.2.
 old-location: mmc\imessageview.htm
 tech.root: mmc
 ms.assetid: e1ea6bb2-f35e-4379-b4e4-70d4e5d77b93
-
 ms.date: 12/05/2018
 ms.keywords: IMessageView, IMessageView interface [MMC], IMessageView interface [MMC],described, _slate_imessageview, mmc.imessageview, mmc/IMessageView
 ms.topic: interface
-f1_keywords: 
- - "mmc/IMessageView"
+f1_keywords:
+- mmc/IMessageView
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IMessageView
+- IMessageView
 targetos: Windows
 req.typenames: 
 req.redist: 

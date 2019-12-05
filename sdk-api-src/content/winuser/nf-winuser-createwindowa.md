@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.CreateWindowA
 title: CreateWindowA macro (winuser.h)
-
 description: Creates an overlapped, pop-up, or child window.
 old-location: winmsg\createwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\createwindow.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateWindow, CreateWindow function [Windows and Messages], CreateWindowA, CreateWindowW, _win32_CreateWindow, _win32_createwindow_cpp, winmsg.createwindow, winui._win32_createwindow, winuser/CreateWindow, winuser/CreateWindowA, winuser/CreateWindowW
 ms.topic: macro
-f1_keywords: 
- - "winuser/CreateWindow"
+f1_keywords:
+- winuser/CreateWindow
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - CreateWindow
- - CreateWindowA
- - CreateWindowW
+- CreateWindow
+- CreateWindowA
+- CreateWindowW
 targetos: Windows
 req.typenames: 
 req.redist: 

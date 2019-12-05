@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupAddInstallSectionToDiskSpaceListW
 title: SetupAddInstallSectionToDiskSpaceListW function (setupapi.h)
-
 description: The SetupAddInstallSectionToDiskSpaceList function searches for CopyFile and DelFile lines in an Install section of an INF file. The function then adds the file operations specified in those sections to a disk-space list.
 old-location: setup\setupaddinstallsectiontodiskspacelist.htm
 tech.root: SetupApi
 ms.assetid: 322f36d7-a683-4a48-b294-393277f09e7d
-
 ms.date: 12/05/2018
 ms.keywords: SetupAddInstallSectionToDiskSpaceList, SetupAddInstallSectionToDiskSpaceList function [Setup API], SetupAddInstallSectionToDiskSpaceListA, SetupAddInstallSectionToDiskSpaceListW, _setupapi_setupaddinstallsectiontodiskspacelist, setup.setupaddinstallsectiontodiskspacelist, setupapi/SetupAddInstallSectionToDiskSpaceList, setupapi/SetupAddInstallSectionToDiskSpaceListA, setupapi/SetupAddInstallSectionToDiskSpaceListW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupAddInstallSectionToDiskSpaceList"
+f1_keywords:
+- setupapi/SetupAddInstallSectionToDiskSpaceList
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupAddInstallSectionToDiskSpaceList
- - SetupAddInstallSectionToDiskSpaceListA
- - SetupAddInstallSectionToDiskSpaceListW
+- SetupAddInstallSectionToDiskSpaceList
+- SetupAddInstallSectionToDiskSpaceListA
+- SetupAddInstallSectionToDiskSpaceListW
 targetos: Windows
 req.typenames: 
 req.redist: 

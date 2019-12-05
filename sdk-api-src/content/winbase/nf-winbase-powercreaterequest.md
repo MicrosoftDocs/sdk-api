@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.PowerCreateRequest
 title: PowerCreateRequest function (winbase.h)
-
 description: Creates a new power request object.
 old-location: base\powercreaterequest.htm
 tech.root: power
 ms.assetid: 2122bf00-9e6b-48ab-89b0-f53dd6804902
-
 ms.date: 12/05/2018
 ms.keywords: PowerCreateRequest, PowerCreateRequest function, base.powercreaterequest, winbase/PowerCreateRequest
 ms.topic: function
 f1_keywords:
 - winbase/PowerCreateRequest
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

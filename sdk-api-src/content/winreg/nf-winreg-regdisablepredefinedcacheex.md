@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegDisablePredefinedCacheEx
 title: RegDisablePredefinedCacheEx function (winreg.h)
-
 description: Disables handle caching for all predefined registry handles for the current process.
 old-location: base\regdisablepredefinedcacheex.htm
 tech.root: SysInfo
 ms.assetid: a56cf7d9-0ac4-4719-af41-3c0cdcef6faf
-
 ms.date: 12/05/2018
 ms.keywords: RegDisablePredefinedCacheEx, RegDisablePredefinedCacheEx function, base.regdisablepredefinedcacheex, winreg/RegDisablePredefinedCacheEx
 ms.topic: function
-f1_keywords: 
- - "winreg/RegDisablePredefinedCacheEx"
+f1_keywords:
+- winreg/RegDisablePredefinedCacheEx
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Localregistry-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Registry-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - MinKernelBase.dll
- - api-ms-win-core-registry-l1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-Core-Localregistry-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Registry-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- MinKernelBase.dll
+- api-ms-win-core-registry-l1-1-1.dll
 api_name:
- - RegDisablePredefinedCacheEx
+- RegDisablePredefinedCacheEx
 targetos: Windows
 req.typenames: 
 req.redist: 

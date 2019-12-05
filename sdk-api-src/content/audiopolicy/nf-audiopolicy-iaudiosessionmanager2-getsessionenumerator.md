@@ -1,19 +1,17 @@
 ---
 UID: NF:audiopolicy.IAudioSessionManager2.GetSessionEnumerator
 title: IAudioSessionManager2::GetSessionEnumerator (audiopolicy.h)
-
 description: The GetSessionEnumerator method gets a pointer to the audio session enumerator object.
 old-location: coreaudio\iaudiosessionmanager2_getsessionenumerator.htm
 tech.root: CoreAudio
 ms.assetid: 68166fc1-af27-4251-8e18-be23d205b567
-
 ms.date: 12/05/2018
 ms.keywords: GetSessionEnumerator, GetSessionEnumerator method [Core Audio], GetSessionEnumerator method [Core Audio],IAudioSessionManager2 interface, IAudioSessionManager2 interface [Core Audio],GetSessionEnumerator method, IAudioSessionManager2.GetSessionEnumerator, IAudioSessionManager2::GetSessionEnumerator, audiopolicy/IAudioSessionManager2::GetSessionEnumerator, coreaudio.iaudiosessionmanager2_getsessionenumerator
 ms.topic: method
-f1_keywords: 
- - "audiopolicy/IAudioSessionManager2.GetSessionEnumerator"
+f1_keywords:
+- audiopolicy/IAudioSessionManager2.GetSessionEnumerator
 dev_langs:
- - c++
+- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - audiopolicy.h
+- audiopolicy.h
 api_name:
- - IAudioSessionManager2.GetSessionEnumerator
+- IAudioSessionManager2.GetSessionEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

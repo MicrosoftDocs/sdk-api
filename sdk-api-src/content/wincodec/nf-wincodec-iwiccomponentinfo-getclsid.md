@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICComponentInfo.GetCLSID
 title: IWICComponentInfo::GetCLSID (wincodec.h)
-
 description: Retrieves the component's class identifier (CLSID)
 old-location: wic\_wic_codec_iwiccomponentinfo_getclsid.htm
 tech.root: wic
 ms.assetid: 63814933-1366-47b9-8cf4-0d8685053a30
-
 ms.date: 12/05/2018
 ms.keywords: GetCLSID, GetCLSID method [Windows Imaging Component], GetCLSID method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetCLSID method, IWICComponentInfo.GetCLSID, IWICComponentInfo::GetCLSID, _wic_codec_iwiccomponentinfo_getclsid, wic._wic_codec_iwiccomponentinfo_getclsid, wincodec/IWICComponentInfo::GetCLSID
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICComponentInfo.GetCLSID"
+f1_keywords:
+- wincodec/IWICComponentInfo.GetCLSID
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICComponentInfo.GetCLSID
+- IWICComponentInfo.GetCLSID
 targetos: Windows
 req.typenames: 
 req.redist: 

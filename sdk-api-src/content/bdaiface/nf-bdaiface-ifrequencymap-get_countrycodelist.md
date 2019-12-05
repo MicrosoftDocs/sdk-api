@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IFrequencyMap.get_CountryCodeList
 title: IFrequencyMap::get_CountryCodeList (bdaiface.h)
-
 description: The get_CountryCodeList method returns a list of all the country/region codes for which the Network Provider has a frequency table.
 old-location: mstv\ifrequencymap_get_countrycodelist.htm
 tech.root: mstv
 ms.assetid: cc9e2f2e-3187-446e-b1e6-ae32da4413b9
-
 ms.date: 12/05/2018
 ms.keywords: IFrequencyMap interface [Microsoft TV Technologies],get_CountryCodeList method, IFrequencyMap.get_CountryCodeList, IFrequencyMap::get_CountryCodeList, IFrequencyMapget_CountryCodeList, bdaiface/IFrequencyMap::get_CountryCodeList, get_CountryCodeList, get_CountryCodeList method [Microsoft TV Technologies], get_CountryCodeList method [Microsoft TV Technologies],IFrequencyMap interface, mstv.ifrequencymap_get_countrycodelist
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IFrequencyMap.get_CountryCodeList"
+f1_keywords:
+- bdaiface/IFrequencyMap.get_CountryCodeList
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IFrequencyMap.get_CountryCodeList
+- IFrequencyMap.get_CountryCodeList
 targetos: Windows
 req.typenames: 
 req.redist: 

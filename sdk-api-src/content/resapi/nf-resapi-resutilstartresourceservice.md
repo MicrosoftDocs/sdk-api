@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilStartResourceService
 title: ResUtilStartResourceService function (resapi.h)
-
 description: Starts a service. The PRESUTIL_START_RESOURCE_SERVICE type defines a pointer to this function.
 old-location: mscs\resutilstartresourceservice.htm
 tech.root: MsCS
 ms.assetid: 0c8a80d7-0291-4ed5-af44-67c0c251dc84
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_START_RESOURCE_SERVICE, PRESUTIL_START_RESOURCE_SERVICE function [Failover Cluster], ResUtilStartResourceService, ResUtilStartResourceService function [Failover Cluster], _wolf_resutilstartresourceservice, mscs.resutilstartresourceservice, resapi/PRESUTIL_START_RESOURCE_SERVICE, resapi/ResUtilStartResourceService
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilStartResourceService"
+f1_keywords:
+- resapi/ResUtilStartResourceService
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilStartResourceService
+- ResUtilStartResourceService
 targetos: Windows
 req.typenames: 
 req.redist: 

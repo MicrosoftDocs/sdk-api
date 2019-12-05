@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.waveOutSetPlaybackRate
 title: waveOutSetPlaybackRate function (mmeapi.h)
-
 description: The waveOutSetPlaybackRate function sets the playback rate for the specified waveform-audio output device.
 old-location: multimedia\waveoutsetplaybackrate.htm
 tech.root: Multimedia
 ms.assetid: 53af902c-8c0e-4815-a0b1-6b59a970040d
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_waveOutSetPlaybackRate, mmeapi/waveOutSetPlaybackRate, multimedia.waveoutsetplaybackrate, waveOutSetPlaybackRate, waveOutSetPlaybackRate function [Windows Multimedia]"
+ms.keywords: _win32_waveOutSetPlaybackRate, mmeapi/waveOutSetPlaybackRate, multimedia.waveoutsetplaybackrate, waveOutSetPlaybackRate, waveOutSetPlaybackRate function [Windows Multimedia]
 ms.topic: function
-f1_keywords: 
- - "mmeapi/waveOutSetPlaybackRate"
+f1_keywords:
+- mmeapi/waveOutSetPlaybackRate
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - waveOutSetPlaybackRate
+- waveOutSetPlaybackRate
 targetos: Windows
 req.typenames: 
 req.redist: 

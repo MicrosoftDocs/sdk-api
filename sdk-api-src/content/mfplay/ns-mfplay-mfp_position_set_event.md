@@ -1,19 +1,17 @@
 ---
 UID: NS:mfplay.MFP_POSITION_SET_EVENT
 title: MFP_POSITION_SET_EVENT (mfplay.h)
-
 description: Event structure for the MFP_EVENT_TYPE_POSITION_SET event.
 old-location: mf\mfp_position_set_event.htm
 tech.root: medfound
 ms.assetid: 5a40f12b-c463-4c07-b062-411c0701254f
-
 ms.date: 12/05/2018
 ms.keywords: MFP_POSITION_SET_EVENT, MFP_POSITION_SET_EVENT structure [Media Foundation], mf.mfp_position_set_event, mfplay/MFP_POSITION_SET_EVENT
 ms.topic: struct
-f1_keywords: 
- - "mfplay/MFP_POSITION_SET_EVENT"
+f1_keywords:
+- mfplay/MFP_POSITION_SET_EVENT
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - MFP_POSITION_SET_EVENT
+- MFP_POSITION_SET_EVENT
 targetos: Windows
 req.typenames: MFP_POSITION_SET_EVENT
 req.redist: 

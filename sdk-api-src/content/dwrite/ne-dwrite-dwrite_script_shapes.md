@@ -1,19 +1,17 @@
 ---
 UID: NE:dwrite.DWRITE_SCRIPT_SHAPES
 title: DWRITE_SCRIPT_SHAPES (dwrite.h)
-
 description: Indicates additional shaping requirements for text.
 old-location: directwrite\dwrite_script_shapes.htm
 tech.root: DirectWrite
 ms.assetid: 81ec0f3a-4dab-4497-893f-d791d9d9be6a
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_SCRIPT_SHAPES, DWRITE_SCRIPT_SHAPES enumeration [Direct Write], DWRITE_SCRIPT_SHAPES_DEFAULT, DWRITE_SCRIPT_SHAPES_NO_VISUAL, directwrite.dwrite_script_shapes, dwrite/DWRITE_SCRIPT_SHAPES, dwrite/DWRITE_SCRIPT_SHAPES_DEFAULT, dwrite/DWRITE_SCRIPT_SHAPES_NO_VISUAL
 ms.topic: enum
-f1_keywords: 
- - "dwrite/DWRITE_SCRIPT_SHAPES"
+f1_keywords:
+- dwrite/DWRITE_SCRIPT_SHAPES
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite.h
+- dwrite.h
 api_name:
- - DWRITE_SCRIPT_SHAPES
+- DWRITE_SCRIPT_SHAPES
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IScanningTuner.ScanUp
 title: IScanningTuner::ScanUp (tuner.h)
-
 description: The ScanUp method changes the channel to the next higher channel with valid programming, pauses for the specified number of milliseconds, then repeats until canceled.
 old-location: mstv\iscanningtuner_scanup.htm
 tech.root: mstv
 ms.assetid: 2fa4d316-9f92-47d6-962f-ffe5c7e90a28
-
 ms.date: 12/05/2018
 ms.keywords: IScanningTuner interface [Microsoft TV Technologies],ScanUp method, IScanningTuner.ScanUp, IScanningTuner::ScanUp, IScanningTunerScanUp, ScanUp, ScanUp method [Microsoft TV Technologies], ScanUp method [Microsoft TV Technologies],IScanningTuner interface, mstv.iscanningtuner_scanup, tuner/IScanningTuner::ScanUp
 ms.topic: method
-f1_keywords: 
- - "tuner/IScanningTuner.ScanUp"
+f1_keywords:
+- tuner/IScanningTuner.ScanUp
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IScanningTuner.ScanUp
+- IScanningTuner.ScanUp
 targetos: Windows
 req.typenames: 
 req.redist: 

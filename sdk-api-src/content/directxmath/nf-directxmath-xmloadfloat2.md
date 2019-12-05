@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMLoadFloat2
 title: XMLoadFloat2 function (directxmath.h)
-
 description: Loads an XMFLOAT2 into an XMVECTOR.
 old-location: dxmath\xmloadfloat2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat2(const XMFLOAT2)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadFloat2, XMLoadFloat2, XMLoadFloat2 method [DirectX Math Support APIs], dxmath.xmloadfloat2
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMLoadFloat2"
+f1_keywords:
+- directxmath/XMLoadFloat2
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMLoadFloat2
+- XMLoadFloat2
 targetos: Windows
 req.typenames: 
 req.redist: 

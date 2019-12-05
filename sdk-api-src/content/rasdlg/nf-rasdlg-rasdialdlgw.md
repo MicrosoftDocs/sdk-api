@@ -1,19 +1,17 @@
 ---
 UID: NF:rasdlg.RasDialDlgW
 title: RasDialDlgW function (rasdlg.h)
-
 description: The RasDialDlg function establishes a RAS connection using a specified phone-book entry and the credentials of the logged-on user. The function displays a stream of dialog boxes that indicate the state of the connection operation.
 old-location: rras\rasdialdlg.htm
 tech.root: RRAS
 ms.assetid: 698a18a1-b302-4b0d-8399-0bbdbe775f08
-
 ms.date: 12/05/2018
 ms.keywords: RasDialDlg, RasDialDlg function [RAS], RasDialDlgA, RasDialDlgW, _ras_rasdialdlg, rasdlg/RasDialDlg, rasdlg/RasDialDlgA, rasdlg/RasDialDlgW, rras.rasdialdlg
 ms.topic: function
-f1_keywords: 
- - "rasdlg/RasDialDlg"
+f1_keywords:
+- rasdlg/RasDialDlg
 dev_langs:
- - c++
+- c++
 req.header: rasdlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Rasdlg.lib
 req.dll: Rasdlg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasdlg.dll
- - Ext-MS-Win-ras-rasdlg-l1-1-0.dll
+- Rasdlg.dll
+- Ext-MS-Win-ras-rasdlg-l1-1-0.dll
 api_name:
- - RasDialDlg
- - RasDialDlgA
- - RasDialDlgW
+- RasDialDlg
+- RasDialDlgA
+- RasDialDlgW
 targetos: Windows
 req.typenames: 
 req.redist: 

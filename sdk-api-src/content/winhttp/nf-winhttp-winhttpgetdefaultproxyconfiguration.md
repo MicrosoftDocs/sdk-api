@@ -1,19 +1,17 @@
 ---
 UID: NF:winhttp.WinHttpGetDefaultProxyConfiguration
 title: WinHttpGetDefaultProxyConfiguration function (winhttp.h)
-
 description: Retrieves the default WinHTTP proxy configuration from the registry.
 old-location: http\winhttpgetdefaultproxyconfiguration.htm
 tech.root: WinHttp
 ms.assetid: e8038b4b-b9d0-481a-a49c-26201d72bc7a
-
 ms.date: 12/05/2018
 ms.keywords: WinHttpGetDefaultProxyConfiguration, WinHttpGetDefaultProxyConfiguration function [WinHTTP], http.winhttpgetdefaultproxyconfiguration, winhttp.winhttpgetdefaultproxyconfiguration_function, winhttp/WinHttpGetDefaultProxyConfiguration
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpGetDefaultProxyConfiguration"
+f1_keywords:
+- winhttp/WinHttpGetDefaultProxyConfiguration
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpGetDefaultProxyConfiguration
+- WinHttpGetDefaultProxyConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.

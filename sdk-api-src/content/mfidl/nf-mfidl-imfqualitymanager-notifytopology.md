@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFQualityManager.NotifyTopology
 title: IMFQualityManager::NotifyTopology (mfidl.h)
-
 description: Called when the Media Session is about to start playing a new topology.
 old-location: mf\imfqualitymanager_notifytopology.htm
 tech.root: medfound
 ms.assetid: 5ff6d923-4a83-401a-a0de-0b1a732c31a5
-
 ms.date: 12/05/2018
 ms.keywords: 5ff6d923-4a83-401a-a0de-0b1a732c31a5, IMFQualityManager interface [Media Foundation],NotifyTopology method, IMFQualityManager.NotifyTopology, IMFQualityManager::NotifyTopology, NotifyTopology, NotifyTopology method [Media Foundation], NotifyTopology method [Media Foundation],IMFQualityManager interface, mf.imfqualitymanager_notifytopology, mfidl/IMFQualityManager::NotifyTopology
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFQualityManager.NotifyTopology"
+f1_keywords:
+- mfidl/IMFQualityManager.NotifyTopology
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFQualityManager.NotifyTopology
+- IMFQualityManager.NotifyTopology
 targetos: Windows
 req.typenames: 
 req.redist: 

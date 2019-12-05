@@ -1,19 +1,17 @@
 ---
 UID: NS:xaudio2.XAUDIO2_PERFORMANCE_DATA
 title: XAUDIO2_PERFORMANCE_DATA (xaudio2.h)
-
 description: Contains performance information.
 old-location: xaudio2\xaudio2_performance_data.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_PERFORMANCE_DATA
-
 ms.date: 12/05/2018
 ms.keywords: XAUDIO2_PERFORMANCE_DATA, XAUDIO2_PERFORMANCE_DATA structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_performance_data, xaudio2/XAUDIO2_PERFORMANCE_DATA
 ms.topic: struct
-f1_keywords: 
- - "xaudio2/XAUDIO2_PERFORMANCE_DATA"
+f1_keywords:
+- xaudio2/XAUDIO2_PERFORMANCE_DATA
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - XAUDIO2_PERFORMANCE_DATA
+- XAUDIO2_PERFORMANCE_DATA
 targetos: Windows
 req.typenames: XAUDIO2_PERFORMANCE_DATA
 req.redist: 

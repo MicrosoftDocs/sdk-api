@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureCollection.RemoveAt
 title: IXpsSignatureCollection::RemoveAt (xpsdigitalsignature.h)
-
 description: Removes and releases an IXpsSignature interface pointer from a specified location in the collection.
 old-location: xps\ixpssignaturecollection_removeat.htm
 tech.root: printdocs
 ms.assetid: 513fcb60-1c07-4748-847c-6ccc7be25fbd
-
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsSignatureCollection.RemoveAt, IXpsSignatureCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsSignatureCollection interface, xps.ixpssignaturecollection_removeat, xpsdigitalsignature/IXpsSignatureCollection::RemoveAt
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignatureCollection.RemoveAt"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignatureCollection.RemoveAt
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignatureCollection.RemoveAt
+- IXpsSignatureCollection.RemoveAt
 targetos: Windows
 req.typenames: 
 req.redist: 

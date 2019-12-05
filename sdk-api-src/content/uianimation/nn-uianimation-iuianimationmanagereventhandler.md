@@ -1,19 +1,17 @@
 ---
 UID: NN:uianimation.IUIAnimationManagerEventHandler
 title: IUIAnimationManagerEventHandler (uianimation.h)
-
 description: Defines a method for handling status updates to an animation manager.
 old-location: uianimation\iuianimationmanagereventhandler.htm
 tech.root: UIAnimation
 ms.assetid: caefafb8-55f8-47c3-adc7-26708b90d2cd
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManagerEventHandler, IUIAnimationManagerEventHandler interface [Windows Animation], IUIAnimationManagerEventHandler interface [Windows Animation],described, uianimation.iuianimationmanagereventhandler, uianimation/IUIAnimationManagerEventHandler
 ms.topic: interface
-f1_keywords: 
- - "uianimation/IUIAnimationManagerEventHandler"
+f1_keywords:
+- uianimation/IUIAnimationManagerEventHandler
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationManagerEventHandler
+- IUIAnimationManagerEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

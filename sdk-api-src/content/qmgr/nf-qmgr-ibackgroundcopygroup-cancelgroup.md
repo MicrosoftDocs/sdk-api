@@ -1,19 +1,17 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.CancelGroup
 title: IBackgroundCopyGroup::CancelGroup (qmgr.h)
-
 description: Use the CancelGroup method to remove the group from the queue. Files completely downloaded before calling this method are available to the client. You can cancel a group at anytime; however, the group cannot be recovered once it is canceled.
 old-location: bits\ibackgroundcopygroup_cancelgroup.htm
 tech.root: Bits
 ms.assetid: 4ef86db1-3dff-4345-a09a-efea8b6c8c8e
-
 ms.date: 12/05/2018
 ms.keywords: CancelGroup, CancelGroup method [BITS], CancelGroup method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],CancelGroup method, IBackgroundCopyGroup.CancelGroup, IBackgroundCopyGroup::CancelGroup, bits.ibackgroundcopygroup_cancelgroup, qmgr/IBackgroundCopyGroup::CancelGroup
 ms.topic: method
-f1_keywords: 
- - "qmgr/IBackgroundCopyGroup.CancelGroup"
+f1_keywords:
+- qmgr/IBackgroundCopyGroup.CancelGroup
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyGroup.CancelGroup
+- IBackgroundCopyGroup.CancelGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

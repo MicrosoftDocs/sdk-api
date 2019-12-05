@@ -1,19 +1,17 @@
 ---
 UID: NC:resapi.PBEGIN_RESCALL_AS_USER_ROUTINE
 title: PBEGIN_RESCALL_AS_USER_ROUTINE (resapi.h)
-
 description: The PBEGIN_RESCALL_AS_USER_ROUTINE type defines a pointer to this callback function.
 old-location: mscs\beginresourcecontrolasuser.htm
 tech.root: MsCS
 ms.assetid: 58F065C6-0AE1-481D-ADA0-CF2907CB45DC
-
 ms.date: 12/05/2018
 ms.keywords: BeginResourceControlAsUser, BeginResourceControlAsUser callback, BeginResourceControlAsUser callback function [Failover Cluster], PBEGIN_RESCALL_AS_USER_ROUTINE, PBEGIN_RESCALL_AS_USER_ROUTINE callback function [Failover Cluster], mscs.beginresourcecontrolasuser, resapi/BeginResourceControlAsUser, resapi/PBEGIN_RESCALL_AS_USER_ROUTINE
 ms.topic: callback
-f1_keywords: 
- - "resapi/BeginResourceControlAsUser callback"
+f1_keywords:
+- resapi/BeginResourceControlAsUser callback
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,13 +30,13 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - BeginResourceControlAsUser callback
+- BeginResourceControlAsUser callback
 targetos: Windows
 req.typenames: 
 req.redist: 

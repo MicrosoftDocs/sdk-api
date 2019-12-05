@@ -1,19 +1,17 @@
 ---
 UID: NS:madcapcl._IPNG_ADDRESS
 title: IPNG_ADDRESS (madcapcl.h)
-
 description: The IPNG_ADDRESS union provides Internet Protocol version 4 (IPv4) and Internet Protocol version 6 (IPv6) addresses.
 old-location: madcap\ipng_address.htm
 tech.root: Madcap
 ms.assetid: c3dc76aa-d903-49be-a4a2-1f66cafff40a
-
 ms.date: 12/05/2018
 ms.keywords: '*PIPNG_ADDRESS, IPNG_ADDRESS, IPNG_ADDRESS union [MADCAP], PIPNG_ADDRESS, PIPNG_ADDRESS union pointer [MADCAP], _mdhcp_ipng_address, madcap.ipng_address, madcapcl/IPNG_ADDRESS, madcapcl/PIPNG_ADDRESS'
 ms.topic: struct
 f1_keywords:
 - madcapcl/IPNG_ADDRESS
 dev_langs:
- - c++
+- c++
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows

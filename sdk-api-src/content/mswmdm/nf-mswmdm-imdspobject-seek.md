@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPObject.Seek
 title: IMDSPObject::Seek (mswmdm.h)
-
 description: The Seek method sets the current position within the object. This operation is valid only if the storage object represents a file.
 old-location: wmdm\imdspobject_seek.htm
 tech.root: WMDM
 ms.assetid: 89494180-9dd7-41f3-b510-a59c38415d75
-
 ms.date: 12/05/2018
 ms.keywords: IMDSPObject interface [windows Media Device Manager],Seek method, IMDSPObject.Seek, IMDSPObject::Seek, IMDSPObjectSeek, Seek, Seek method [windows Media Device Manager], Seek method [windows Media Device Manager],IMDSPObject interface, mswmdm/IMDSPObject::Seek, wmdm.imdspobject_seek
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPObject.Seek"
+f1_keywords:
+- mswmdm/IMDSPObject.Seek
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPObject.Seek
+- IMDSPObject.Seek
 targetos: Windows
 req.typenames: 
 req.redist: 

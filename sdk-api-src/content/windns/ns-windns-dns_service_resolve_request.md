@@ -5,10 +5,10 @@ description: Contains the query parameters used in a call to [DnsServiceResolve]
 ms.date: 02/19/2019
 ms.keywords: _DNS_SERVICE_RESOLVE_REQUEST, DNS_SERVICE_RESOLVE_REQUEST
 ms.topic: language-reference
-f1_keywords: 
- - "windns/_DNS_SERVICE_RESOLVE_REQUEST"
+f1_keywords:
+- windns/_DNS_SERVICE_RESOLVE_REQUEST
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: structure
@@ -31,14 +31,14 @@ req.typenames: DNS_SERVICE_RESOLVE_REQUEST, *PDNS_SERVICE_RESOLVE_REQUEST
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - windns.h
+- windns.h
 api_name:
- - _DNS_SERVICE_RESOLVE_REQUEST
- - DNS_SERVICE_RESOLVE_REQUEST
+- _DNS_SERVICE_RESOLVE_REQUEST
+- DNS_SERVICE_RESOLVE_REQUEST
 ms.custom: 19H1
 ---
 

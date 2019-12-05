@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetNextDlgGroupItem
 title: GetNextDlgGroupItem function (winuser.h)
-
 description: Retrieves a handle to the first control in a group of controls that precedes (or follows) the specified control in a dialog box.
 old-location: dlgbox\getnextdlggroupitem.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getnextdlggroupitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetNextDlgGroupItem, GetNextDlgGroupItem function [Dialog Boxes], _win32_GetNextDlgGroupItem, _win32_getnextdlggroupitem_cpp, dlgbox.getnextdlggroupitem, winui._win32_getnextdlggroupitem, winuser/GetNextDlgGroupItem
 ms.topic: function
-f1_keywords: 
- - "winuser/GetNextDlgGroupItem"
+f1_keywords:
+- winuser/GetNextDlgGroupItem
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - GetNextDlgGroupItem
+- GetNextDlgGroupItem
 targetos: Windows
 req.typenames: 
 req.redist: 

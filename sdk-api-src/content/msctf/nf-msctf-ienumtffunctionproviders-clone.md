@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumTfFunctionProviders.Clone
 title: IEnumTfFunctionProviders::Clone (msctf.h)
-
 description: IEnumTfFunctionProviders::Clone method
 old-location: tsf\ienumtffunctionproviders_clone.htm
 tech.root: TSF
 ms.assetid: fa4b8682-4f99-425d-8ae7-a510e109fe64
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfFunctionProviders interface, IEnumTfFunctionProviders interface [Text Services Framework],Clone method, IEnumTfFunctionProviders.Clone, IEnumTfFunctionProviders::Clone, _tsf_ienumtffunctionproviders_clone_ref, msctf/IEnumTfFunctionProviders::Clone, tsf.ienumtffunctionproviders_clone
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumTfFunctionProviders.Clone"
+f1_keywords:
+- msctf/IEnumTfFunctionProviders.Clone
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - IEnumTfFunctionProviders.Clone
+- IEnumTfFunctionProviders.Clone
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

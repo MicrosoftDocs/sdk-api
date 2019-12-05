@@ -1,19 +1,17 @@
 ---
 UID: NF:rasshost.RasSecurityDialogReceive
 title: RasSecurityDialogReceive function (rasshost.h)
-
 description: The RasSecurityDialogReceive function starts an asynchronous operation that receives a remote user's response to a security challenge.
 old-location: rras\rassecuritydialogreceive.htm
 tech.root: RRAS
 ms.assetid: ed5fcea6-6533-4c78-bd49-dfeaafd8192a
-
 ms.date: 12/05/2018
 ms.keywords: RasSecurityDialogReceive, RasSecurityDialogReceive function [RAS], _ras_rassecuritydialogreceive, rasshost/RasSecurityDialogReceive, rras.rassecuritydialogreceive
 ms.topic: function
-f1_keywords: 
- - "rasshost/RasSecurityDialogReceive"
+f1_keywords:
+- rasshost/RasSecurityDialogReceive
 dev_langs:
- - c++
+- c++
 req.header: rasshost.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rasman.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasman.dll
+- Rasman.dll
 api_name:
- - RasSecurityDialogReceive
+- RasSecurityDialogReceive
 targetos: Windows
 req.typenames: 
 req.redist: 

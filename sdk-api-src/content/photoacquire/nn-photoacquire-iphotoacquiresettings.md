@@ -1,19 +1,17 @@
 ---
 UID: NN:photoacquire.IPhotoAcquireSettings
 title: IPhotoAcquireSettings (photoacquire.h)
-
 description: The IPhotoAcquireSettings interface is used to work with image acquisition settings, such as file name format.
 old-location: picacq\iphotoacquiresettings.htm
 tech.root: acquisition
 ms.assetid: c86d0c97-f9ef-4a73-865b-8aea7972193b
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireSettings, IPhotoAcquireSettings interface [Picture Acquisition], IPhotoAcquireSettings interface [Picture Acquisition],described, IPhotoAcquireSettingsInterface, photoacquire/IPhotoAcquireSettings, picacq.iphotoacquiresettings
 ms.topic: interface
-f1_keywords: 
- - "photoacquire/IPhotoAcquireSettings"
+f1_keywords:
+- photoacquire/IPhotoAcquireSettings
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - photoacquire.h
+- photoacquire.h
 api_name:
- - IPhotoAcquireSettings
+- IPhotoAcquireSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

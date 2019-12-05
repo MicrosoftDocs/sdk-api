@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsFillBody
 title: WsFillBody function (webservices.h)
-
 description: Ensures that there are a sufficient number of bytes available in a message for reading.
 old-location: wsw\wsfillbody.htm
 tech.root: wsw
 ms.assetid: fe70338d-d2bf-4126-96b2-30ef6ebfa74d
-
 ms.date: 12/05/2018
 ms.keywords: WsFillBody, WsFillBody function [Web Services for Windows], webservices/WsFillBody, wsw.wsfillbody
 ms.topic: function
 f1_keywords:
 - webservices/WsFillBody
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

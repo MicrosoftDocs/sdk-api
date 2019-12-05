@@ -1,19 +1,17 @@
 ---
 UID: NN:textserv.IRichEditUiaInformation
 title: IRichEditUiaInformation (textserv.h)
-
 description: Provides Microsoft UI Automation accessibility information about a windowless rich edit control.
 old-location: controls\irichedituiainformation.htm
 tech.root: Controls
 ms.assetid: BEED428C-6C88-45A8-948C-77288B817C49
-
 ms.date: 12/05/2018
 ms.keywords: IRichEditUiaInformation, IRichEditUiaInformation interface [Windows Controls], IRichEditUiaInformation interface [Windows Controls],described, controls.irichedituiainformation, textserv/IRichEditUiaInformation
 ms.topic: interface
-f1_keywords: 
- - "textserv/IRichEditUiaInformation"
+f1_keywords:
+- textserv/IRichEditUiaInformation
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - IRichEditUiaInformation
+- IRichEditUiaInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

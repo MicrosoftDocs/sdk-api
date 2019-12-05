@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IInstallationProgressChangedCallbackArgs.get_Progress
 title: IInstallationProgressChangedCallbackArgs::get_Progress (wuapi.h)
-
 description: Gets an interface that contains the progress of the asynchronous installation or uninstallation at the time the callback was made.
 old-location: wua\iinstallationprogresschangedcallbackargs_progress.htm
 tech.root: Wua_Sdk
 ms.assetid: 362e4138-5ba0-4aba-bff3-bf0834d21059
-
 ms.date: 12/05/2018
 ms.keywords: IInstallationProgressChangedCallbackArgs interface [Windows Update Agent],Progress property, IInstallationProgressChangedCallbackArgs.Progress, IInstallationProgressChangedCallbackArgs.get_Progress, IInstallationProgressChangedCallbackArgs::Progress, IInstallationProgressChangedCallbackArgs::get_Progress, Progress property [Windows Update Agent], Progress property [Windows Update Agent],IInstallationProgressChangedCallbackArgs interface, get_Progress, wua.iinstallationprogresschangedcallbackargs_progress, wuapi/IInstallationProgressChangedCallbackArgs::Progress, wuapi/IInstallationProgressChangedCallbackArgs::get_Progress
 ms.topic: method
-f1_keywords: 
- - "wuapi/IInstallationProgressChangedCallbackArgs.Progress"
+f1_keywords:
+- wuapi/IInstallationProgressChangedCallbackArgs.Progress
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IInstallationProgressChangedCallbackArgs.Progress
- - IInstallationProgressChangedCallbackArgs.get_Progress
+- IInstallationProgressChangedCallbackArgs.Progress
+- IInstallationProgressChangedCallbackArgs.get_Progress
 targetos: Windows
 req.typenames: 
 req.redist: 

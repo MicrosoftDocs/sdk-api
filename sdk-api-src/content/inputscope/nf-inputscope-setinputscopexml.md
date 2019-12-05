@@ -1,19 +1,17 @@
 ---
 UID: NF:inputscope.SetInputScopeXML
 title: SetInputScopeXML function (inputscope.h)
-
 description: Do not use.
 old-location: tsf\SetInputScopeXML.htm
 tech.root: TSF
 ms.assetid: bd770852-412a-4097-b22f-02f240516770
-
 ms.date: 12/05/2018
 ms.keywords: SetInputScopeXML, SetInputScopeXML function [Text Services Framework], inputscope/SetInputScopeXML, tsf.SetInputScopeXML
 ms.topic: function
-f1_keywords: 
- - "inputscope/SetInputScopeXML"
+f1_keywords:
+- inputscope/SetInputScopeXML
 dev_langs:
- - c++
+- c++
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - SetInputScopeXML
+- SetInputScopeXML
 targetos: Windows
 req.typenames: 
 req.redist: 

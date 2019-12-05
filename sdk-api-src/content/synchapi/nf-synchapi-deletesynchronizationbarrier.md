@@ -1,19 +1,17 @@
 ---
 UID: NF:synchapi.DeleteSynchronizationBarrier
 title: DeleteSynchronizationBarrier function (synchapi.h)
-
 description: Deletes a synchronization barrier.
 old-location: base\deletesynchronizationbarrier.htm
 tech.root: Sync
 ms.assetid: 04626b6f-f5f7-4042-9786-7cabd68636ac
-
 ms.date: 12/05/2018
 ms.keywords: DeleteSynchronizationBarrier, DeleteSynchronizationBarrier function, base.deletesynchronizationbarrier, synchapi/DeleteSynchronizationBarrier
 ms.topic: function
-f1_keywords: 
- - "synchapi/DeleteSynchronizationBarrier"
+f1_keywords:
+- synchapi/DeleteSynchronizationBarrier
 dev_langs:
- - c++
+- c++
 req.header: synchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Synch-l1-2-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Synch-l1-2-1.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Synch-l1-2-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Synch-l1-2-1.dll
+- MinKernelBase.dll
 api_name:
- - DeleteSynchronizationBarrier
+- DeleteSynchronizationBarrier
 targetos: Windows
 req.typenames: 
 req.redist: 

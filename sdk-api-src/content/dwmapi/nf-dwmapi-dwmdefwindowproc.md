@@ -1,19 +1,17 @@
 ---
 UID: NF:dwmapi.DwmDefWindowProc
 title: DwmDefWindowProc function (dwmapi.h)
-
 description: Default window procedure for Desktop Window Manager (DWM) hit testing within the non-client area.
 old-location: dwm\dwmdefwindowproc.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmdefwindowproc.htm
-
 ms.date: 12/05/2018
 ms.keywords: DwmDefWindowProc, DwmDefWindowProc function [Desktop Window Manager], _udwm_dwmdefwindowproc, _udwm_dwmdefwindowproc_cpp, dwm.dwmdefwindowproc, dwmapi/DwmDefWindowProc, winui._udwm_dwmdefwindowproc
 ms.topic: function
-f1_keywords: 
- - "dwmapi/DwmDefWindowProc"
+f1_keywords:
+- dwmapi/DwmDefWindowProc
 dev_langs:
- - c++
+- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dwmapi.dll
- - ext-ms-win-dwmapi-ext-l1-1-0.dll
- - ext-ms-win-dwmapi-ext-l1-1-1.dll
- - ext-ms-win-dwmapi-ext-l1-1-2.dll
+- Dwmapi.dll
+- ext-ms-win-dwmapi-ext-l1-1-0.dll
+- ext-ms-win-dwmapi-ext-l1-1-1.dll
+- ext-ms-win-dwmapi-ext-l1-1-2.dll
 api_name:
- - DwmDefWindowProc
+- DwmDefWindowProc
 targetos: Windows
 req.typenames: 
 req.redist: 

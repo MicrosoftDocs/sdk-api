@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IExtractImage2
 title: IExtractImage2 (shobjidl_core.h)
-
 description: Extends the capabilities of IExtractImage.
 old-location: shell\IExtractImage2.htm
 tech.root: shell
 ms.assetid: 4fa28126-e65c-49d9-ab76-fb4a0dd0747c
-
 ms.date: 12/05/2018
 ms.keywords: IExtractImage2, IExtractImage2 interface [Windows Shell], IExtractImage2 interface [Windows Shell],described, _win32_IExtractImage2, shell.IExtractImage2, shobjidl_core/IExtractImage2
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IExtractImage2"
+f1_keywords:
+- shobjidl_core/IExtractImage2
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IExtractImage2
+- IExtractImage2
 targetos: Windows
 req.typenames: 
 req.redist: 

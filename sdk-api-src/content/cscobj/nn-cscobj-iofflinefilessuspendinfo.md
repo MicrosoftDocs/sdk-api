@@ -1,19 +1,17 @@
 ---
 UID: NN:cscobj.IOfflineFilesSuspendInfo
 title: IOfflineFilesSuspendInfo (cscobj.h)
-
 description: Determines whether an item is suspended or not and, if so, if it is a suspended root or not.
 old-location: of\iofflinefilessuspendinfo.htm
 tech.root: offlinefiles
 ms.assetid: b9f9e30e-df37-467e-ac59-7955e0eae3c0
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSuspendInfo, IOfflineFilesSuspendInfo interface [Offline Files], IOfflineFilesSuspendInfo interface [Offline Files],described, cscobj/IOfflineFilesSuspendInfo, of.iofflinefilessuspendinfo
 ms.topic: interface
-f1_keywords: 
- - "cscobj/IOfflineFilesSuspendInfo"
+f1_keywords:
+- cscobj/IOfflineFilesSuspendInfo
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesSuspendInfo
+- IOfflineFilesSuspendInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

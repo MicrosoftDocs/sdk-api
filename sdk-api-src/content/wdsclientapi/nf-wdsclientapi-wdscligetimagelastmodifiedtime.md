@@ -1,19 +1,17 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageLastModifiedTime
 title: WdsCliGetImageLastModifiedTime function (wdsclientapi.h)
-
 description: Returns the last-modification time of the current image.
 old-location: wds\wdscligetimagelastmodifiedtime.htm
 tech.root: wds
 ms.assetid: b0554857-ffef-4f45-8aba-90512ce7f3b1
-
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetImageLastModifiedTime, WdsCliGetImageLastModifiedTime function [Windows Deployment Services], wds.wdscligetimagelastmodifiedtime, wdsclientapi/WdsCliGetImageLastModifiedTime
 ms.topic: function
-f1_keywords: 
- - "wdsclientapi/WdsCliGetImageLastModifiedTime"
+f1_keywords:
+- wdsclientapi/WdsCliGetImageLastModifiedTime
 dev_langs:
- - c++
+- c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsClientAPI.lib
 req.dll: WdsClientAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsClientAPI.dll
+- WdsClientAPI.dll
 api_name:
- - WdsCliGetImageLastModifiedTime
+- WdsCliGetImageLastModifiedTime
 targetos: Windows
 req.typenames: 
 req.redist: 

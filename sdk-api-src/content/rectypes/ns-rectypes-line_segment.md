@@ -1,19 +1,17 @@
 ---
 UID: NS:rectypes.tagLINE_SEGMENT
 title: LINE_SEGMENT (rectypes.h)
-
 description: Describes the start and end points of a line recognition segment, such as the baseline or midline.
 old-location: tablet\line_segment.htm
 tech.root: tablet
 ms.assetid: e9d4079d-28d2-4975-a33f-1f4ec5175c36
-
 ms.date: 12/05/2018
 ms.keywords: LINE_SEGMENT, LINE_SEGMENT structure [Tablet PC], e9d4079d-28d2-4975-a33f-1f4ec5175c36, rectypes/LINE_SEGMENT, tablet.line_segment
 ms.topic: struct
-f1_keywords: 
- - "rectypes/LINE_SEGMENT"
+f1_keywords:
+- rectypes/LINE_SEGMENT
 dev_langs:
- - c++
+- c++
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - rectypes.h
+- rectypes.h
 api_name:
- - LINE_SEGMENT
+- LINE_SEGMENT
 targetos: Windows
 req.typenames: LINE_SEGMENT
 req.redist: 

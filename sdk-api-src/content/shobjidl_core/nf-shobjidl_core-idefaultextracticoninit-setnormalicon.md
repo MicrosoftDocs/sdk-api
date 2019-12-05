@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDefaultExtractIconInit.SetNormalIcon
 title: IDefaultExtractIconInit::SetNormalIcon (shobjidl_core.h)
-
 description: Sets the normal icon.
 old-location: shell\IDefaultExtractIconInit_SetNormalIcon.htm
 tech.root: shell
 ms.assetid: 49d11767-4237-48f3-973b-03cf032c5e68
-
 ms.date: 12/05/2018
 ms.keywords: IDefaultExtractIconInit interface [Windows Shell],SetNormalIcon method, IDefaultExtractIconInit.SetNormalIcon, IDefaultExtractIconInit::SetNormalIcon, SetNormalIcon, SetNormalIcon method [Windows Shell], SetNormalIcon method [Windows Shell],IDefaultExtractIconInit interface, _shell_IDefaultExtractIconInit_SetNormalIcon, shell.IDefaultExtractIconInit_SetNormalIcon, shobjidl_core/IDefaultExtractIconInit::SetNormalIcon
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDefaultExtractIconInit.SetNormalIcon"
+f1_keywords:
+- shobjidl_core/IDefaultExtractIconInit.SetNormalIcon
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IDefaultExtractIconInit.SetNormalIcon
+- IDefaultExtractIconInit.SetNormalIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

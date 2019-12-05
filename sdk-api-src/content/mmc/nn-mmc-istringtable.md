@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IStringTable
 title: IStringTable (mmc.h)
-
 description: The IStringTable interface is introduced in MMC 1.1.
 old-location: mmc\istringtable.htm
 tech.root: mmc
 ms.assetid: 3b4cfc92-4f50-4b62-bb2c-77c8e0e003da
-
 ms.date: 12/05/2018
 ms.keywords: IStringTable, IStringTable interface [MMC], IStringTable interface [MMC],described, _slate_istringtable, mmc.istringtable, mmc/IStringTable
 ms.topic: interface
-f1_keywords: 
- - "mmc/IStringTable"
+f1_keywords:
+- mmc/IStringTable
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IStringTable
+- IStringTable
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmPropertyCondition.Delete
 title: IFsrmPropertyCondition::Delete (fsrmreports.h)
-
 description: Removes this property condition from the collection of property conditions specified for the file management job.
 old-location: fsrm\ifsrmpropertycondition_delete.htm
 tech.root: fsrm
 ms.assetid: 1d177c1c-e36e-4e69-868b-ade55e2378aa
-
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [File Server Resource Manager], Delete method [File Server Resource Manager],IFsrmPropertyCondition interface, IFsrmPropertyCondition interface [File Server Resource Manager],Delete method, IFsrmPropertyCondition.Delete, IFsrmPropertyCondition::Delete, fs.ifsrmpropertycondition_delete, fsrm.ifsrmpropertycondition_delete, fsrmreports/IFsrmPropertyCondition::Delete
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmPropertyCondition.Delete"
+f1_keywords:
+- fsrmreports/IFsrmPropertyCondition.Delete
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyCondition.Delete
+- IFsrmPropertyCondition.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 

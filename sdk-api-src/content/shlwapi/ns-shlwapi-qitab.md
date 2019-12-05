@@ -1,19 +1,17 @@
 ---
 UID: NS:shlwapi.__unnamed_struct_0
 title: QITAB (shlwapi.h)
-
 description: Used by the QISearch function to describe a single interface.
 old-location: shell\QITAB.htm
 tech.root: shell
 ms.assetid: 3a055773-6e53-45e1-8936-011a8b2b8b16
-
 ms.date: 12/05/2018
-ms.keywords: "*LPQITAB, LPQITAB, LPQITAB structure pointer [Windows Shell], QITAB, QITAB structure [Windows Shell], _win32_QITAB, shell.QITAB, shlwapi/LPQITAB, shlwapi/QITAB"
+ms.keywords: '*LPQITAB, LPQITAB, LPQITAB structure pointer [Windows Shell], QITAB, QITAB structure [Windows Shell], _win32_QITAB, shell.QITAB, shlwapi/LPQITAB, shlwapi/QITAB'
 ms.topic: struct
-f1_keywords: 
- - "shlwapi/QITAB"
+f1_keywords:
+- shlwapi/QITAB
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shlwapi.h
+- Shlwapi.h
 api_name:
- - QITAB
+- QITAB
 targetos: Windows
 req.typenames: QITAB, *LPQITAB
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingSphere.CreateMerged
 title: BoundingSphere::CreateMerged
-
 description: Creates a BoundingSphere that contains the two specified BoundingSphere objects.
 old-location: dxmath\boundingsphere_createmerged.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingSphere.CreateMerged(BoundingSphere@,BoundingSphere,BoundingSphere)
-
 ms.date: 12/05/2018
 ms.keywords: BoundingSphere interface [DirectX Math Support APIs],CreateMerged method, BoundingSphere.CreateMerged, BoundingSphere::CreateMerged, CreateMerged, CreateMerged method [DirectX Math Support APIs], CreateMerged method [DirectX Math Support APIs],BoundingSphere interface, Use DirectX..BoundingSphere.CreateMerged, Use DirectX::::BoundingSphere::CreateMerged, dxmath.boundingsphere_createmerged
 ms.topic: method
-f1_keywords: 
- - "directxcollision/BoundingSphere.CreateMerged"
+f1_keywords:
+- directxcollision/BoundingSphere.CreateMerged
 dev_langs:
- - c++
+- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXCollision.h
+- DirectXCollision.h
 api_name:
- - BoundingSphere.CreateMerged
+- BoundingSphere.CreateMerged
 targetos: Windows
 req.typenames: 
 req.redist: 

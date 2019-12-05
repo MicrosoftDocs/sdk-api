@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.GetPropertyDefinition
 title: IFsrmClassificationManager::GetPropertyDefinition (fsrmpipeline.h)
-
 description: Retrieves the specified property definition.
 old-location: fsrm\ifsrmclassificationmanager_getpropertydefinition.htm
 tech.root: fsrm
 ms.assetid: de89524d-70b7-4f0a-add0-d34d54bd32a7
-
 ms.date: 12/05/2018
 ms.keywords: FsrmClassificationManager class [File Server Resource Manager],GetPropertyDefinition method, GetPropertyDefinition, GetPropertyDefinition method [File Server Resource Manager], GetPropertyDefinition method [File Server Resource Manager],FsrmClassificationManager class, GetPropertyDefinition method [File Server Resource Manager],IFsrmClassificationManager interface, GetPropertyDefinition method [File Server Resource Manager],IFsrmClassificationManager2 interface, IFsrmClassificationManager interface [File Server Resource Manager],GetPropertyDefinition method, IFsrmClassificationManager.GetPropertyDefinition, IFsrmClassificationManager2 interface [File Server Resource Manager],GetPropertyDefinition method, IFsrmClassificationManager2::GetPropertyDefinition, IFsrmClassificationManager::GetPropertyDefinition, fs.ifsrmclassificationmanager_getpropertydefinition, fsrm.ifsrmclassificationmanager_getpropertydefinition, fsrmpipeline/IFsrmClassificationManager2::GetPropertyDefinition, fsrmpipeline/IFsrmClassificationManager::GetPropertyDefinition
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmClassificationManager.GetPropertyDefinition"
+f1_keywords:
+- fsrmpipeline/IFsrmClassificationManager.GetPropertyDefinition
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmClassificationManager.GetPropertyDefinition
- - IFsrmClassificationManager2.GetPropertyDefinition
- - FsrmClassificationManager.GetPropertyDefinition
+- IFsrmClassificationManager.GetPropertyDefinition
+- IFsrmClassificationManager2.GetPropertyDefinition
+- FsrmClassificationManager.GetPropertyDefinition
 targetos: Windows
 req.typenames: 
 req.redist: 

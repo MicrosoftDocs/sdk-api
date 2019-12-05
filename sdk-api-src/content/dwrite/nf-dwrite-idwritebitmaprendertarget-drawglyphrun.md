@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteBitmapRenderTarget.DrawGlyphRun
 title: IDWriteBitmapRenderTarget::DrawGlyphRun (dwrite.h)
-
 description: Draws a run of glyphs to a bitmap target at the specified position.
 old-location: directwrite\IDWriteBitmapRenderTarget_DrawGlyphRun.htm
 tech.root: DirectWrite
 ms.assetid: d766d2d1-6be7-468a-a10e-c7cab421b9a7
-
 ms.date: 12/05/2018
 ms.keywords: DrawGlyphRun, DrawGlyphRun method [Direct Write], DrawGlyphRun method [Direct Write],IDWriteBitmapRenderTarget interface, IDWriteBitmapRenderTarget interface [Direct Write],DrawGlyphRun method, IDWriteBitmapRenderTarget.DrawGlyphRun, IDWriteBitmapRenderTarget::DrawGlyphRun, directwrite.IDWriteBitmapRenderTarget_DrawGlyphRun, dwrite/IDWriteBitmapRenderTarget::DrawGlyphRun
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteBitmapRenderTarget.DrawGlyphRun"
+f1_keywords:
+- dwrite/IDWriteBitmapRenderTarget.DrawGlyphRun
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteBitmapRenderTarget.DrawGlyphRun
+- IDWriteBitmapRenderTarget.DrawGlyphRun
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.ReportIScsiPersistentLoginsW
 title: ReportIScsiPersistentLoginsW function (iscsidsc.h)
-
 description: ReportIscsiPersistentLogins function retrieves the list of persistent login targets.
 old-location: iscsidisc\reportiscsipersistentlogins.htm
 tech.root: iSCSIDisc
 ms.assetid: 0ab1a864-b44e-4307-9f7c-93cc0d40ff3a
-
 ms.date: 12/05/2018
 ms.keywords: ReportIScsiPersistentLoginsW, ReportIscsiPersistentLogins, ReportIscsiPersistentLogins function [iSCSI Discovery Library API], ReportIscsiPersistentLoginsA, ReportIscsiPersistentLoginsW, iscsidisc.reportiscsipersistentlogins, iscsidsc/ReportIscsiPersistentLogins, iscsidsc/ReportIscsiPersistentLoginsA, iscsidsc/ReportIscsiPersistentLoginsW
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/ReportIscsiPersistentLogins"
+f1_keywords:
+- iscsidsc/ReportIscsiPersistentLogins
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - ReportIscsiPersistentLogins
- - ReportIscsiPersistentLoginsA
- - ReportIscsiPersistentLoginsW
+- ReportIscsiPersistentLogins
+- ReportIscsiPersistentLoginsA
+- ReportIscsiPersistentLoginsW
 targetos: Windows
 req.typenames: 
 req.redist: 

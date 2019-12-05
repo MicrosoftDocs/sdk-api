@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationObjectModelPattern
 title: IUIAutomationObjectModelPattern (uiautomationclient.h)
-
 description: Provides access to the underlying object model implemented by a control or application.
 old-location: winauto\uiauto_IUIAutomationObjectModelPattern.htm
 tech.root: WinAuto
 ms.assetid: 044A1EE7-4CBD-45E3-A1A8-CA00DC03E136
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationObjectModelPattern, IUIAutomationObjectModelPattern interface [Windows Accessibility], IUIAutomationObjectModelPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationObjectModelPattern, winauto.uiauto_IUIAutomationObjectModelPattern
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationObjectModelPattern"
+f1_keywords:
+- uiautomationclient/IUIAutomationObjectModelPattern
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationObjectModelPattern
+- IUIAutomationObjectModelPattern
 targetos: Windows
 req.typenames: 
 req.redist: 

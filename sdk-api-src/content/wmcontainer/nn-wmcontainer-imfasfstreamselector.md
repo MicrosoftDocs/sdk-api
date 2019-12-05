@@ -1,19 +1,17 @@
 ---
 UID: NN:wmcontainer.IMFASFStreamSelector
 title: IMFASFStreamSelector (wmcontainer.h)
-
 description: Selects streams in an Advanced Systems Format (ASF) file, based on the mutual exclusion information in the ASF header.
 old-location: mf\imfasfstreamselector.htm
 tech.root: medfound
 ms.assetid: d2e1fc15-2e12-4698-a4b1-ca8046d228de
-
 ms.date: 12/05/2018
 ms.keywords: IMFASFStreamSelector, IMFASFStreamSelector interface [Media Foundation], IMFASFStreamSelector interface [Media Foundation],described, d2e1fc15-2e12-4698-a4b1-ca8046d228de, mf.imfasfstreamselector, wmcontainer/IMFASFStreamSelector
 ms.topic: interface
-f1_keywords: 
- - "wmcontainer/IMFASFStreamSelector"
+f1_keywords:
+- wmcontainer/IMFASFStreamSelector
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFStreamSelector
+- IMFASFStreamSelector
 targetos: Windows
 req.typenames: 
 req.redist: 

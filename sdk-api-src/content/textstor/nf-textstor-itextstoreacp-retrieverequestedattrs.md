@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreACP.RetrieveRequestedAttrs
 title: ITextStoreACP::RetrieveRequestedAttrs (textstor.h)
-
 description: Gets the attributes returned by a call to an attribute request method.
 old-location: tsf\itextstoreacp_retrieverequestedattrs.htm
 tech.root: TSF
 ms.assetid: 6cd34ca5-6561-4161-beac-98248f0415f6
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],RetrieveRequestedAttrs method, ITextStoreACP.RetrieveRequestedAttrs, ITextStoreACP::RetrieveRequestedAttrs, RetrieveRequestedAttrs, RetrieveRequestedAttrs method [Text Services Framework], RetrieveRequestedAttrs method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_retrieverequestedattrs_ref, textstor/ITextStoreACP::RetrieveRequestedAttrs, tsf.itextstoreacp_retrieverequestedattrs
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreACP.RetrieveRequestedAttrs"
+f1_keywords:
+- textstor/ITextStoreACP.RetrieveRequestedAttrs
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACP.RetrieveRequestedAttrs
+- ITextStoreACP.RetrieveRequestedAttrs
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

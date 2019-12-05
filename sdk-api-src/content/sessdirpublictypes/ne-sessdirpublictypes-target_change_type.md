@@ -1,19 +1,17 @@
 ---
 UID: NE:sessdirpublictypes._TARGET_CHANGE_TYPE
 title: TARGET_CHANGE_TYPE (sessdirpublictypes.h)
-
 description: Specifies the type of change that occurred in a target.
 old-location: termserv\target_change_type.htm
 tech.root: TermServ
 ms.assetid: ee1e6433-498f-4d8a-97d7-3e32f79fafda
-
 ms.date: 12/05/2018
 ms.keywords: TARGET_CHANGE_TYPE, TARGET_CHANGE_TYPE enumeration [Remote Desktop Services], TARGET_CHANGE_UNSPEC, TARGET_EXTERNALIP_CHANGED, TARGET_IDLE, TARGET_INTERNALIP_CHANGED, TARGET_JOINED, TARGET_REMOVED, TARGET_STATE_CHANGED, sessdirpublictypes/TARGET_CHANGE_TYPE, sessdirpublictypes/TARGET_CHANGE_UNSPEC, sessdirpublictypes/TARGET_EXTERNALIP_CHANGED, sessdirpublictypes/TARGET_IDLE, sessdirpublictypes/TARGET_INTERNALIP_CHANGED, sessdirpublictypes/TARGET_JOINED, sessdirpublictypes/TARGET_REMOVED, sessdirpublictypes/TARGET_STATE_CHANGED, termserv.target_change_type
 ms.topic: enum
-f1_keywords: 
- - "sessdirpublictypes/TARGET_CHANGE_TYPE"
+f1_keywords:
+- sessdirpublictypes/TARGET_CHANGE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: sessdirpublictypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SessDirPublicTypes.h
+- SessDirPublicTypes.h
 api_name:
- - TARGET_CHANGE_TYPE
+- TARGET_CHANGE_TYPE
 targetos: Windows
 req.typenames: TARGET_CHANGE_TYPE
 req.redist: 

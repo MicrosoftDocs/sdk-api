@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.GetShadowConnection
 title: IWTSProtocolConnection::GetShadowConnection (wtsprotocol.h)
-
 description: IWTSProtocolConnection::GetShadowConnection is no longer available. Instead, use IWRdsProtocolConnection::GetShadowConnection.
 old-location: termserv\iwtsprotocolconnection_getshadowconnection.htm
 tech.root: TermServ
 ms.assetid: 6496deba-6166-48d2-9294-286a448de231
-
 ms.date: 12/05/2018
 ms.keywords: GetShadowConnection, GetShadowConnection method [Remote Desktop Services], GetShadowConnection method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetShadowConnection method, IWTSProtocolConnection.GetShadowConnection, IWTSProtocolConnection::GetShadowConnection, termserv.iwtsprotocolconnection_getshadowconnection, wtsprotocol/IWTSProtocolConnection::GetShadowConnection
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolConnection.GetShadowConnection"
+f1_keywords:
+- wtsprotocol/IWTSProtocolConnection.GetShadowConnection
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection.GetShadowConnection
+- IWTSProtocolConnection.GetShadowConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

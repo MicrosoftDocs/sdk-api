@@ -1,19 +1,17 @@
 ---
 UID: NS:vfw.tagCapDriverCaps
 title: CAPDRIVERCAPS (vfw.h)
-
 description: The CAPDRIVERCAPS structure defines the capabilities of the capture driver.An application should use the WM_CAP_DRIVER_GET_CAPS message or capDriverGetCaps macro to place a copy of the driver capabilities in a CAPDRIVERCAPS structure whenever the application connects a capture window to a capture driver.
 old-location: multimedia\capdrivercaps.htm
 tech.root: Multimedia
 ms.assetid: 6d341be9-6b10-495b-803b-059ead1114cc
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCAPDRIVERCAPS, *PCAPDRIVERCAPS, CAPDRIVERCAPS, CAPDRIVERCAPS structure [Windows Multimedia], _win32_CAPDRIVERCAPS_str, multimedia.capdrivercaps, vfw/CAPDRIVERCAPS"
+ms.keywords: '*LPCAPDRIVERCAPS, *PCAPDRIVERCAPS, CAPDRIVERCAPS, CAPDRIVERCAPS structure [Windows Multimedia], _win32_CAPDRIVERCAPS_str, multimedia.capdrivercaps, vfw/CAPDRIVERCAPS'
 ms.topic: struct
-f1_keywords: 
- - "vfw/CAPDRIVERCAPS"
+f1_keywords:
+- vfw/CAPDRIVERCAPS
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - CAPDRIVERCAPS
+- CAPDRIVERCAPS
 targetos: Windows
 req.typenames: CAPDRIVERCAPS, *PCAPDRIVERCAPS, *LPCAPDRIVERCAPS
 req.redist: 

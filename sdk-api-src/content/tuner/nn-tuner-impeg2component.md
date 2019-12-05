@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IMPEG2Component
 title: IMPEG2Component (tuner.h)
-
 description: The IMPEG2Component interface contains methods for getting and setting properties that describe an MPEG2 elementary stream.
 old-location: mstv\impeg2component.htm
 tech.root: mstv
 ms.assetid: 63d1ae17-8e38-457e-98d7-e81e7576f1c1
-
 ms.date: 12/05/2018
 ms.keywords: IMPEG2Component, IMPEG2Component interface [Microsoft TV Technologies], IMPEG2Component interface [Microsoft TV Technologies],described, IMPEG2ComponentInterface, mstv.impeg2component, tuner/IMPEG2Component
 ms.topic: interface
-f1_keywords: 
- - "tuner/IMPEG2Component"
+f1_keywords:
+- tuner/IMPEG2Component
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IMPEG2Component
+- IMPEG2Component
 targetos: Windows
 req.typenames: 
 req.redist: 

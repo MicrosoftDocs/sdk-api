@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d10.D3D10_TEX2DMS_RTV
 title: D3D10_TEX2DMS_RTV (d3d10.h)
-
 description: Specifies the subresource from a multisampled 2D texture to use in a render-target view.
 old-location: direct3d10\d3d10_tex2dms_rtv.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex2dms_rtv.htm
-
 ms.date: 12/05/2018
 ms.keywords: D3D10_TEX2DMS_RTV, D3D10_TEX2DMS_RTV structure [Direct3D 10], b35fccdd-d7a7-672b-7f33-80eef15788d6, d3d10/D3D10_TEX2DMS_RTV, direct3d10.d3d10_tex2dms_rtv
 ms.topic: struct
-f1_keywords: 
- - "d3d10/D3D10_TEX2DMS_RTV"
+f1_keywords:
+- d3d10/D3D10_TEX2DMS_RTV
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10.h
+- D3D10.h
 api_name:
- - D3D10_TEX2DMS_RTV
+- D3D10_TEX2DMS_RTV
 targetos: Windows
 req.typenames: D3D10_TEX2DMS_RTV
 req.redist: 

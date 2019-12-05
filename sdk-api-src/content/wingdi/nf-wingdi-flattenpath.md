@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.FlattenPath
 title: FlattenPath function (wingdi.h)
-
 description: The FlattenPath function transforms any curves in the path that is selected into the current device context (DC), turning each curve into a sequence of lines.
 old-location: gdi\flattenpath.htm
 tech.root: gdi
 ms.assetid: 267b0c9a-25d4-4b04-95d3-6b0856bed022
-
 ms.date: 12/05/2018
 ms.keywords: FlattenPath, FlattenPath function [Windows GDI], _win32_FlattenPath, gdi.flattenpath, wingdi/FlattenPath
 ms.topic: function
-f1_keywords: 
- - "wingdi/FlattenPath"
+f1_keywords:
+- wingdi/FlattenPath
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - FlattenPath
+- FlattenPath
 targetos: Windows
 req.typenames: 
 req.redist: 

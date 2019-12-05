@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.CLUSCTL_GET_USER
 title: CLUSCTL_GET_USER macro (clusapi.h)
-
 description: Retrieves the user bit from a control code. For more information, see Control Code Architecture.
 old-location: mscs\clusctl_get_user.htm
 tech.root: MsCS
 ms.assetid: E96CD23F-D1A7-46FC-820C-D32A23E8E008
-
 ms.date: 12/05/2018
 ms.keywords: CLUSCTL_GET_USER, CLUSCTL_GET_USER macro [Failover Cluster], clusapi/CLUSCTL_GET_USER, mscs.clusctl_get_user
 ms.topic: macro
-f1_keywords: 
- - "clusapi/CLUSCTL_GET_USER"
+f1_keywords:
+- clusapi/CLUSCTL_GET_USER
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSCTL_GET_USER
+- CLUSCTL_GET_USER
 targetos: Windows
 req.typenames: 
 req.redist: 

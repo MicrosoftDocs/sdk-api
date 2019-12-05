@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_1.ID3D11DeviceContext1.CopySubresourceRegion1
 title: ID3D11DeviceContext1::CopySubresourceRegion1 (d3d11_1.h)
-
 description: Copies a region from a source resource to a destination resource.
 old-location: direct3d11\id3d11devicecontext1_copysubresourceregion1.htm
 tech.root: direct3d11
 ms.assetid: 1963011F-C3E2-428D-B667-195A4976510B
-
 ms.date: 12/05/2018
 ms.keywords: CopySubresourceRegion1, CopySubresourceRegion1 method [Direct3D 11], CopySubresourceRegion1 method [Direct3D 11],ID3D11DeviceContext1 interface, ID3D11DeviceContext1 interface [Direct3D 11],CopySubresourceRegion1 method, ID3D11DeviceContext1.CopySubresourceRegion1, ID3D11DeviceContext1::CopySubresourceRegion1, d3d11_1/ID3D11DeviceContext1::CopySubresourceRegion1, direct3d11.id3d11devicecontext1_copysubresourceregion1
 ms.topic: method
-f1_keywords: 
- - "d3d11_1/ID3D11DeviceContext1.CopySubresourceRegion1"
+f1_keywords:
+- d3d11_1/ID3D11DeviceContext1.CopySubresourceRegion1
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext1.CopySubresourceRegion1
+- ID3D11DeviceContext1.CopySubresourceRegion1
 targetos: Windows
 req.typenames: 
 req.redist: 

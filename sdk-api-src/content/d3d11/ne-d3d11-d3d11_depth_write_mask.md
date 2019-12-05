@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11.D3D11_DEPTH_WRITE_MASK
 title: D3D11_DEPTH_WRITE_MASK (d3d11.h)
-
 description: Identify the portion of a depth-stencil buffer for writing depth data.
 old-location: direct3d11\d3d11_depth_write_mask.htm
 tech.root: direct3d11
 ms.assetid: 8f61d53d-5bfc-4966-84b8-7ddd46008f5e
-
 ms.date: 12/05/2018
 ms.keywords: 9c3d009a-7018-dfd4-2e89-34daef69b3b7, D3D11_DEPTH_WRITE_MASK, D3D11_DEPTH_WRITE_MASK enumeration [Direct3D 11], D3D11_DEPTH_WRITE_MASK_ALL, D3D11_DEPTH_WRITE_MASK_ZERO, d3d11/D3D11_DEPTH_WRITE_MASK, d3d11/D3D11_DEPTH_WRITE_MASK_ALL, d3d11/D3D11_DEPTH_WRITE_MASK_ZERO, direct3d11.d3d11_depth_write_mask
 ms.topic: enum
-f1_keywords: 
- - "d3d11/D3D11_DEPTH_WRITE_MASK"
+f1_keywords:
+- d3d11/D3D11_DEPTH_WRITE_MASK
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_DEPTH_WRITE_MASK
+- D3D11_DEPTH_WRITE_MASK
 targetos: Windows
 req.typenames: D3D11_DEPTH_WRITE_MASK
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:atacct.GetNetScheduleAccountInformation
 title: GetNetScheduleAccountInformation function (atacct.h)
-
 description: The GetNetScheduleAccountInformation function retrieves the AT Service account name.
 old-location: netmgmt\getnetscheduleaccountinformation.htm
 tech.root: NetMgmt
 ms.assetid: 935de94a-6791-4ea2-ac39-cf71ef7cb726
-
 ms.date: 12/05/2018
 ms.keywords: GetNetScheduleAccountInformation, GetNetScheduleAccountInformation function [Network Management], atacct/GetNetScheduleAccountInformation, netmgmt.getnetscheduleaccountinformation
 ms.topic: function
-f1_keywords: 
- - "atacct/GetNetScheduleAccountInformation"
+f1_keywords:
+- atacct/GetNetScheduleAccountInformation
 dev_langs:
- - c++
+- c++
 req.header: atacct.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - GetNetScheduleAccountInformation
+- GetNetScheduleAccountInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

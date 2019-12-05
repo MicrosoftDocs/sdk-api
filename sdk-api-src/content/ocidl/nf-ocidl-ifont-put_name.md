@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IFont.put_Name
 title: IFont::put_Name (ocidl.h)
-
 description: Specifies a new name for the font family.
 old-location: com\ifont_put_name.htm
 tech.root: com
 ms.assetid: 3593d5c9-e2b7-4d85-b8f7-94f01a901030
-
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],put_Name method, IFont.put_Name, IFont::put_Name, _ctrl_ifont_put_name, com.ifont_put_name, ocidl/IFont::put_Name, put_Name, put_Name method [COM], put_Name method [COM],IFont interface
 ms.topic: method
-f1_keywords: 
- - "ocidl/IFont.put_Name"
+f1_keywords:
+- ocidl/IFont.put_Name
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IFont.put_Name
+- IFont.put_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

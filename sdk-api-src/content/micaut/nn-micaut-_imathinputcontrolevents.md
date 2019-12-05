@@ -1,19 +1,17 @@
 ---
 UID: NN:micaut._IMathInputControlEvents
 title: _IMathInputControlEvents (micaut.h)
-
 description: Exposes the math input control event handlers.
 old-location: tablet\_imathinputcontrolevents.htm
 tech.root: tablet
 ms.assetid: e055ab45-53a8-4795-aff6-72987faad5ef
-
 ms.date: 12/05/2018
-ms.keywords: "_IMathInputControlEvents, _IMathInputControlEvents interface [Tablet PC], _IMathInputControlEvents interface [Tablet PC],described, micaut/_IMathInputControlEvents, tablet._imathinputcontrolevents"
+ms.keywords: _IMathInputControlEvents, _IMathInputControlEvents interface [Tablet PC], _IMathInputControlEvents interface [Tablet PC],described, micaut/_IMathInputControlEvents, tablet._imathinputcontrolevents
 ms.topic: interface
-f1_keywords: 
- - "micaut/_IMathInputControlEvents"
+f1_keywords:
+- micaut/_IMathInputControlEvents
 dev_langs:
- - c++
+- c++
 req.header: micaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - micaut.h
+- micaut.h
 api_name:
- - _IMathInputControlEvents
+- _IMathInputControlEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

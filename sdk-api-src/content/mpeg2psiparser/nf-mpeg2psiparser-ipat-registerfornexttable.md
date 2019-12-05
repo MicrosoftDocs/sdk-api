@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.IPAT.RegisterForNextTable
 title: IPAT::RegisterForNextTable (mpeg2psiparser.h)
-
 description: The RegisterForNextTable method registers the client to be notified when a next table arrives that will replace the current table.
 old-location: mstv\ipat_registerfornexttable.htm
 tech.root: mstv
 ms.assetid: 347d8c6f-0934-4ea0-9914-9b4ac47a9306
-
 ms.date: 12/05/2018
 ms.keywords: IPAT interface [Microsoft TV Technologies],RegisterForNextTable method, IPAT.RegisterForNextTable, IPAT::RegisterForNextTable, IPATRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],IPAT interface, mpeg2psiparser/IPAT::RegisterForNextTable, mstv.ipat_registerfornexttable
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/IPAT.RegisterForNextTable"
+f1_keywords:
+- mpeg2psiparser/IPAT.RegisterForNextTable
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2PsiParser.h
+- Mpeg2PsiParser.h
 api_name:
- - IPAT.RegisterForNextTable
+- IPAT.RegisterForNextTable
 targetos: Windows
 req.typenames: 
 req.redist: 

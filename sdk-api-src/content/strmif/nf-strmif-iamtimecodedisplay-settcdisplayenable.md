@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTimecodeDisplay.SetTCDisplayEnable
 title: IAMTimecodeDisplay::SetTCDisplayEnable (strmif.h)
-
 description: The SetTCDisplayEnable method enables or disables an external device's timecode character output generator.
 old-location: dshow\iamtimecodedisplay_settcdisplayenable.htm
 tech.root: DirectShow
 ms.assetid: ae4eeeaa-1c73-4e3a-82b1-a073d9c7d667
-
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeDisplay interface [DirectShow],SetTCDisplayEnable method, IAMTimecodeDisplay.SetTCDisplayEnable, IAMTimecodeDisplay::SetTCDisplayEnable, IAMTimecodeDisplaySetTCDisplayEnable, SetTCDisplayEnable, SetTCDisplayEnable method [DirectShow], SetTCDisplayEnable method [DirectShow],IAMTimecodeDisplay interface, dshow.iamtimecodedisplay_settcdisplayenable, strmif/IAMTimecodeDisplay::SetTCDisplayEnable
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTimecodeDisplay.SetTCDisplayEnable"
+f1_keywords:
+- strmif/IAMTimecodeDisplay.SetTCDisplayEnable
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTimecodeDisplay.SetTCDisplayEnable
+- IAMTimecodeDisplay.SetTCDisplayEnable
 targetos: Windows
 req.typenames: 
 req.redist: 

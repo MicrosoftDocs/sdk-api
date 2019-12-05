@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IApplicationDestinations.RemoveAllDestinations
 title: IApplicationDestinations::RemoveAllDestinations (shobjidl_core.h)
-
 description: Clears all destination entries from the Recent and Frequent categories in an application's Jump List.
 old-location: shell\IApplicationDestinations_RemoveAllDestinations.htm
 tech.root: shell
 ms.assetid: bda83a9a-9759-47cc-8d15-ac55583a5810
-
 ms.date: 12/05/2018
 ms.keywords: IApplicationDestinations interface [Windows Shell],RemoveAllDestinations method, IApplicationDestinations.RemoveAllDestinations, IApplicationDestinations::RemoveAllDestinations, RemoveAllDestinations, RemoveAllDestinations method [Windows Shell], RemoveAllDestinations method [Windows Shell],IApplicationDestinations interface, _shell_IApplicationDestinations_RemoveAllDestinations, shell.IApplicationDestinations_RemoveAllDestinations, shobjidl_core/IApplicationDestinations::RemoveAllDestinations
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IApplicationDestinations.RemoveAllDestinations"
+f1_keywords:
+- shobjidl_core/IApplicationDestinations.RemoveAllDestinations
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IApplicationDestinations.RemoveAllDestinations
+- IApplicationDestinations.RemoveAllDestinations
 targetos: Windows
 req.typenames: 
 req.redist: 

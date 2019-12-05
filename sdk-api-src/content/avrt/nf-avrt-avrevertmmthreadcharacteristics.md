@@ -1,19 +1,17 @@
 ---
 UID: NF:avrt.AvRevertMmThreadCharacteristics
 title: AvRevertMmThreadCharacteristics function (avrt.h)
-
 description: Indicates that a thread is no longer performing work associated with the specified task.
 old-location: base\avrevertmmthreadcharacteristics.htm
 tech.root: ProcThread
 ms.assetid: 2ae0d34c-3819-46fa-9779-5de8a57e5281
-
 ms.date: 12/05/2018
 ms.keywords: AvRevertMmThreadCharacteristics, AvRevertMmThreadCharacteristics function, avrt/AvRevertMmThreadCharacteristics, base.avrevertmmthreadcharacteristics
 ms.topic: function
-f1_keywords: 
- - "avrt/AvRevertMmThreadCharacteristics"
+f1_keywords:
+- avrt/AvRevertMmThreadCharacteristics
 dev_langs:
- - c++
+- c++
 req.header: avrt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Avrt.lib
 req.dll: Avrt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avrt.dll
+- Avrt.dll
 api_name:
- - AvRevertMmThreadCharacteristics
+- AvRevertMmThreadCharacteristics
 targetos: Windows
 req.typenames: 
 req.redist: 

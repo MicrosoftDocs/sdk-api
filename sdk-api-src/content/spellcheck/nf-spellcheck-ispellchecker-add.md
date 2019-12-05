@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheck.ISpellChecker.Add
 title: ISpellChecker::Add (spellcheck.h)
-
 description: Treats the provided word as though it were part of the original dictionary.
 old-location: intl\ispellchecker_add.htm
 tech.root: Intl
 ms.assetid: d600a57e-7191-4a82-8004-026a04ef94ed
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Internationalization for Windows Applications], Add method [Internationalization for Windows Applications],ISpellChecker interface, ISpellChecker interface [Internationalization for Windows Applications],Add method, ISpellChecker.Add, ISpellChecker::Add, intl.ispellchecker_add, spellcheck/ISpellChecker::Add
 ms.topic: method
-f1_keywords: 
- - "spellcheck/ISpellChecker.Add"
+f1_keywords:
+- spellcheck/ISpellChecker.Add
 dev_langs:
- - c++
+- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheck.h
+- Spellcheck.h
 api_name:
- - ISpellChecker.Add
+- ISpellChecker.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

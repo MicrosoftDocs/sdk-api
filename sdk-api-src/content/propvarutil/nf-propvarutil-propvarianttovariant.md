@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToVariant
 title: PropVariantToVariant function (propvarutil.h)
-
 description: Converts the contents of a PROPVARIANT structure to a VARIANT structure.
 old-location: properties\PropVariantToVariant.htm
 tech.root: properties
 ms.assetid: 34907419-47ae-4f8f-8ce6-5f5e9b098488
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToVariant, PropVariantToVariant function [Windows Properties], properties.PropVariantToVariant, propvarutil/PropVariantToVariant, shell.PropVariantToVariant, shell_PropVariantToVariant
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToVariant"
+f1_keywords:
+- propvarutil/PropVariantToVariant
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToVariant
+- PropVariantToVariant
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

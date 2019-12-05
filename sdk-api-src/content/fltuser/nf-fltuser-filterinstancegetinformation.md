@@ -1,19 +1,17 @@
 ---
 UID: NF:fltuser.FilterInstanceGetInformation
 title: FilterInstanceGetInformation function (fltuser.h)
-
 description: The FilterInstanceGetInformation function returns various kinds of information about a minifilter instance.
 old-location: ifsk\filterinstancegetinformation.htm
 tech.root: ifsk
 ms.assetid: 222f5f68-6a1c-420e-a56f-de53b23f6ce6
-
 ms.date: 12/05/2018
 ms.keywords: FilterInstanceGetInformation, FilterInstanceGetInformation function [Installable File System Drivers], FltWin32ApiRef_e34f8425-037b-4c31-8559-2ad32527746f.xml, fltuser/FilterInstanceGetInformation, ifsk.filterinstancegetinformation
 ms.topic: function
-f1_keywords: 
- - "fltuser/FilterInstanceGetInformation"
+f1_keywords:
+- fltuser/FilterInstanceGetInformation
 dev_langs:
- - c++
+- c++
 req.header: fltuser.h
 req.include-header: FltUser.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: FltLib.lib
 req.dll: FltLib.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FltLib.dll
+- FltLib.dll
 api_name:
- - FilterInstanceGetInformation
+- FilterInstanceGetInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

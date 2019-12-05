@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont2.GetDuplicate2
 title: ITextFont2::GetDuplicate2 (tom.h)
-
 description: Gets a duplicate of this character format object.
 old-location: controls\itextfont2_getduplicate2.htm
 tech.root: Controls
 ms.assetid: dc6b979b-f837-4945-a35d-c5585d703bd1
-
 ms.date: 12/05/2018
 ms.keywords: GetDuplicate2, GetDuplicate2 method [Windows Controls], GetDuplicate2 method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetDuplicate2 method, ITextFont2.GetDuplicate2, ITextFont2::GetDuplicate2, controls.itextfont2_getduplicate2, tom/ITextFont2::GetDuplicate2
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont2.GetDuplicate2"
+f1_keywords:
+- tom/ITextFont2.GetDuplicate2
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont2.GetDuplicate2
+- ITextFont2.GetDuplicate2
 targetos: Windows
 req.typenames: 
 req.redist: 

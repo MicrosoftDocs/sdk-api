@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents.CurrentPlaylistItemAvailable
 title: IWMPEvents::CurrentPlaylistItemAvailable (wmp.h)
-
 description: The CurrentPlaylistItemAvailable event occurs when the current playlist item becomes available.
 old-location: wmp\iwmpevents_iwmpevents__currentplaylistitemavailable.htm
 tech.root: WMP
 ms.assetid: 77209df0-3b3d-4fc8-b560-a2c02138e746
-
 ms.date: 12/05/2018
 ms.keywords: CurrentPlaylistItemAvailable, CurrentPlaylistItemAvailable method [Windows Media Player], CurrentPlaylistItemAvailable method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],CurrentPlaylistItemAvailable method, IWMPEvents.CurrentPlaylistItemAvailable, IWMPEvents::CurrentPlaylistItemAvailable, IWMPEventsCurrentPlaylistItemAvailable, wmp.iwmpevents_iwmpevents__currentplaylistitemavailable, wmp/IWMPEvents::CurrentPlaylistItemAvailable
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents.CurrentPlaylistItemAvailable"
+f1_keywords:
+- wmp/IWMPEvents.CurrentPlaylistItemAvailable
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents.CurrentPlaylistItemAvailable
+- IWMPEvents.CurrentPlaylistItemAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

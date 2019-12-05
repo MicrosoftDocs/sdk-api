@@ -1,19 +1,17 @@
 ---
 UID: NS:iprtrmib._MIB_IPMCAST_BOUNDARY
 title: MIB_IPMCAST_BOUNDARY (iprtrmib.h)
-
 description: Contains a row in a MIB_IPMCAST_BOUNDARY_TABLE structure that lists a router's scoped IPv4 multicast address boundaries.
 old-location: mib\mib_ipmcast_boundary.htm
 tech.root: MIB
 ms.assetid: a3d900be-14c9-4ad9-bc2e-382849a6d1c6
-
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_IPMCAST_BOUNDARY, MIB_IPMCAST_BOUNDARY, MIB_IPMCAST_BOUNDARY structure [MIB], PMIB_IPMCAST_BOUNDARY, PMIB_IPMCAST_BOUNDARY structure pointer [MIB], iprtrmib/MIB_IPMCAST_BOUNDARY, iprtrmib/PMIB_IPMCAST_BOUNDARY, mib.mib_ipmcast_boundary"
+ms.keywords: '*PMIB_IPMCAST_BOUNDARY, MIB_IPMCAST_BOUNDARY, MIB_IPMCAST_BOUNDARY structure [MIB], PMIB_IPMCAST_BOUNDARY, PMIB_IPMCAST_BOUNDARY structure pointer [MIB], iprtrmib/MIB_IPMCAST_BOUNDARY, iprtrmib/PMIB_IPMCAST_BOUNDARY, mib.mib_ipmcast_boundary'
 ms.topic: struct
-f1_keywords: 
- - "iprtrmib/MIB_IPMCAST_BOUNDARY"
+f1_keywords:
+- iprtrmib/MIB_IPMCAST_BOUNDARY
 dev_langs:
- - c++
+- c++
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iprtrmib.h
+- Iprtrmib.h
 api_name:
- - MIB_IPMCAST_BOUNDARY
+- MIB_IPMCAST_BOUNDARY
 targetos: Windows
 req.typenames: MIB_IPMCAST_BOUNDARY, *PMIB_IPMCAST_BOUNDARY
 req.redist: 

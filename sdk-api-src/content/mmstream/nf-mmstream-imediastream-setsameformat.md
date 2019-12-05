@@ -1,19 +1,17 @@
 ---
 UID: NF:mmstream.IMediaStream.SetSameFormat
 title: IMediaStream::SetSameFormat (mmstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. Sets the media stream to the same format as a previous stream.
 old-location: dshow\imediastream_setsameformat.htm
 tech.root: DirectShow
 ms.assetid: 6a228547-7187-4a7a-8850-2681e0ccb13e
-
 ms.date: 12/05/2018
 ms.keywords: IMediaStream interface [DirectShow],SetSameFormat method, IMediaStream.SetSameFormat, IMediaStream::SetSameFormat, IMediaStreamSetSameFormat, SetSameFormat, SetSameFormat method [DirectShow], SetSameFormat method [DirectShow],IMediaStream interface, dshow.imediastream_setsameformat, mmstream/IMediaStream::SetSameFormat
 ms.topic: method
-f1_keywords: 
- - "mmstream/IMediaStream.SetSameFormat"
+f1_keywords:
+- mmstream/IMediaStream.SetSameFormat
 dev_langs:
- - c++
+- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mmstream.h
+- mmstream.h
 api_name:
- - IMediaStream.SetSameFormat
+- IMediaStream.SetSameFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.GetVoiceDetails
 title: IXAudio2Voice::GetVoiceDetails (xaudio2.h)
-
 description: Returns information about the creation flags, input channels, and sample rate of a voice.
 old-location: xaudio2\ixaudio2voice_interface_getvoicedetails.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.GetVoiceDetails(XAUDIO2_VOICE_DETAILS@)
-
 ms.date: 12/05/2018
 ms.keywords: GetVoiceDetails, GetVoiceDetails method [XAudio2 Audio Mixing APIs], GetVoiceDetails method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, IXAudio2Voice interface [XAudio2 Audio Mixing APIs],GetVoiceDetails method, IXAudio2Voice.GetVoiceDetails, IXAudio2Voice::GetVoiceDetails, xaudio2.ixaudio2voice_interface_getvoicedetails, xaudio2/IXAudio2Voice::GetVoiceDetails
 ms.topic: method
-f1_keywords: 
- - "xaudio2/IXAudio2Voice.GetVoiceDetails"
+f1_keywords:
+- xaudio2/IXAudio2Voice.GetVoiceDetails
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - IXAudio2Voice.GetVoiceDetails
+- IXAudio2Voice.GetVoiceDetails
 targetos: Windows
 req.typenames: 
 req.redist: 

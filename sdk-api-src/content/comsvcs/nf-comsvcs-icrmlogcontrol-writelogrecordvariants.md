@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmLogControl.WriteLogRecordVariants
 title: ICrmLogControl::WriteLogRecordVariants (comsvcs.h)
-
 description: The CRM Worker and CRM Compensator use this method to write structured log records to the log.
 old-location: cos\icrmlogcontrol_writelogrecordvariants.htm
 tech.root: cossdk
 ms.assetid: ebd3943d-0c77-49fe-a53e-bc0c45e13a54
-
 ms.date: 12/05/2018
 ms.keywords: ICrmLogControl interface [COM+],WriteLogRecordVariants method, ICrmLogControl.WriteLogRecordVariants, ICrmLogControl::WriteLogRecordVariants, WriteLogRecordVariants, WriteLogRecordVariants method [COM+], WriteLogRecordVariants method [COM+],ICrmLogControl interface, _dtc_ICrmLogControl_WriteLogRecordVariants, comsvcs/ICrmLogControl::WriteLogRecordVariants, cos.icrmlogcontrol_writelogrecordvariants
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmLogControl.WriteLogRecordVariants"
+f1_keywords:
+- comsvcs/ICrmLogControl.WriteLogRecordVariants
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmLogControl.WriteLogRecordVariants
+- ICrmLogControl.WriteLogRecordVariants
 targetos: Windows
 req.typenames: 
 req.redist: 

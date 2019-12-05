@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.ChooseImageDefaults
 title: IFileSystemImage::ChooseImageDefaults (imapi2fs.h)
-
 description: Sets the default file system types and the image size based on the current media.
 old-location: imapi\ifilesystemimage_chooseimagedefaults.htm
 tech.root: imapi
 ms.assetid: 9211b8af-9331-4d0d-a6f5-f52f8db42e8c
-
 ms.date: 12/05/2018
 ms.keywords: ChooseImageDefaults, ChooseImageDefaults method [IMAPI], ChooseImageDefaults method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],ChooseImageDefaults method, IFileSystemImage.ChooseImageDefaults, IFileSystemImage::ChooseImageDefaults, imapi.ifilesystemimage_chooseimagedefaults, imapi2fs/IFileSystemImage::ChooseImageDefaults
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.ChooseImageDefaults"
+f1_keywords:
+- imapi2fs/IFileSystemImage.ChooseImageDefaults
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.ChooseImageDefaults
+- IFileSystemImage.ChooseImageDefaults
 targetos: Windows
 req.typenames: 
 req.redist: 

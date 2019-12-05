@@ -1,19 +1,17 @@
 ---
 UID: NF:dsgetdc.DsAddressToSiteNamesExA
 title: DsAddressToSiteNamesExA function (dsgetdc.h)
-
 description: Obtains the site and subnet names corresponding to the addresses specified.
 old-location: ad\dsaddresstositenamesex.htm
 tech.root: ad
 ms.assetid: 60ac6195-6e43-46da-a1e6-74ec989cd0c4
-
 ms.date: 12/05/2018
 ms.keywords: DsAddressToSiteNamesEx, DsAddressToSiteNamesEx function [Active Directory], DsAddressToSiteNamesExA, DsAddressToSiteNamesExW, ad.dsaddresstositenamesex, dsgetdc/DsAddressToSiteNamesEx, dsgetdc/DsAddressToSiteNamesExA, dsgetdc/DsAddressToSiteNamesExW
 ms.topic: function
-f1_keywords: 
- - "dsgetdc/DsAddressToSiteNamesEx"
+f1_keywords:
+- dsgetdc/DsAddressToSiteNamesEx
 dev_langs:
- - c++
+- c++
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - DsAddressToSiteNamesEx
- - DsAddressToSiteNamesExA
- - DsAddressToSiteNamesExW
+- DsAddressToSiteNamesEx
+- DsAddressToSiteNamesExA
+- DsAddressToSiteNamesExW
 targetos: Windows
 req.typenames: 
 req.redist: 

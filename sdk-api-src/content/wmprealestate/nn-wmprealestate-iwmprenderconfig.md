@@ -1,19 +1,17 @@
 ---
 UID: NN:wmprealestate.IWMPRenderConfig
 title: IWMPRenderConfig (wmprealestate.h)
-
 description: The IWMPRenderConfig interface provides methods to specify or retrieve a value indicating whether Media Foundation&#8211;based playback is restricted to the current process.Note  Using this interface with protected content is not supported. .
 old-location: wmp\iwmprenderconfig.htm
 tech.root: WMP
 ms.assetid: 01a4c79e-9867-47c0-9aca-b2f1596f1c2a
-
 ms.date: 12/05/2018
 ms.keywords: IWMPRenderConfig, IWMPRenderConfig interface [Windows Media Player], IWMPRenderConfig interface [Windows Media Player],described, IWMPRenderConfigInterface, wmp.iwmprenderconfig, wmprealestate/IWMPRenderConfig
 ms.topic: interface
-f1_keywords: 
- - "wmprealestate/IWMPRenderConfig"
+f1_keywords:
+- wmprealestate/IWMPRenderConfig
 dev_langs:
- - c++
+- c++
 req.header: wmprealestate.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmprealestate.h
+- wmprealestate.h
 api_name:
- - IWMPRenderConfig
+- IWMPRenderConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

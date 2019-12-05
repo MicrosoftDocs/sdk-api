@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateScaleTransform
 title: IDCompositionDevice::CreateScaleTransform (dcomp.h)
-
 description: Creates a 2D scale transform object.
 old-location: directcomp\idcompositiondevice_createscaletransform.htm
 tech.root: directcomp
 ms.assetid: b11673dd-87c1-43c9-8501-affa1fa64c08
-
 ms.date: 12/05/2018
 ms.keywords: CreateScaleTransform, CreateScaleTransform method [DirectComposition], CreateScaleTransform method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateScaleTransform method, IDCompositionDevice.CreateScaleTransform, IDCompositionDevice::CreateScaleTransform, dcomp/IDCompositionDevice::CreateScaleTransform, directcomp.idcompositiondevice_createscaletransform
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice.CreateScaleTransform"
+f1_keywords:
+- dcomp/IDCompositionDevice.CreateScaleTransform
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionDevice.CreateScaleTransform
+- IDCompositionDevice.CreateScaleTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

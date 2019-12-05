@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.get_CachedVerticallyScrollable
 title: IUIAutomationScrollPattern::get_CachedVerticallyScrollable (uiautomationclient.h)
-
 description: Retrieves a cached value that indicates whether the element can scroll vertically.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CachedVerticallyScrollable.htm
 tech.root: WinAuto
 ms.assetid: e9e55853-6fe3-4e51-bb4c-aea0174ed710
-
 ms.date: 12/05/2018
 ms.keywords: CachedVerticallyScrollable property [Windows Accessibility], CachedVerticallyScrollable property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CachedVerticallyScrollable property, IUIAutomationScrollPattern.CachedVerticallyScrollable, IUIAutomationScrollPattern.get_CachedVerticallyScrollable, IUIAutomationScrollPattern::CachedVerticallyScrollable, IUIAutomationScrollPattern::get_CachedVerticallyScrollable, get_CachedVerticallyScrollable, uiauto.uiauto_IUIAutomationScrollPattern_CachedVerticallyScrollable, uiauto_IUIAutomationScrollPattern_CachedVerticallyScrollable, uiautomationclient/IUIAutomationScrollPattern::CachedVerticallyScrollable, uiautomationclient/IUIAutomationScrollPattern::get_CachedVerticallyScrollable, winauto.uiauto_IUIAutomationScrollPattern_CachedVerticallyScrollable
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationScrollPattern.CachedVerticallyScrollable"
+f1_keywords:
+- uiautomationclient/IUIAutomationScrollPattern.CachedVerticallyScrollable
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationScrollPattern.CachedVerticallyScrollable
- - IUIAutomationScrollPattern.get_CachedVerticallyScrollable
+- IUIAutomationScrollPattern.CachedVerticallyScrollable
+- IUIAutomationScrollPattern.get_CachedVerticallyScrollable
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpServerSetDnsRegCredentialsV5
 title: DhcpServerSetDnsRegCredentialsV5 function (dhcpsapi.h)
-
 description: Sets the credentials used by the DHCP server to create Domain Name System (DNS) registrations for the DHCP client lease record.
 old-location: dhcp\dhcpserversetdnsregcredentialsv5.htm
 tech.root: DHCP
 ms.assetid: 7fed2635-43a6-417a-996f-fff8d0692924
-
 ms.date: 12/05/2018
 ms.keywords: DhcpServerSetDnsRegCredentialsV5, DhcpServerSetDnsRegCredentialsV5 function [DHCP], dhcp.dhcpserversetdnsregcredentialsv5, dhcpsapi/DhcpServerSetDnsRegCredentialsV5
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpServerSetDnsRegCredentialsV5"
+f1_keywords:
+- dhcpsapi/DhcpServerSetDnsRegCredentialsV5
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpServerSetDnsRegCredentialsV5
+- DhcpServerSetDnsRegCredentialsV5
 targetos: Windows
 req.typenames: 
 req.redist: 

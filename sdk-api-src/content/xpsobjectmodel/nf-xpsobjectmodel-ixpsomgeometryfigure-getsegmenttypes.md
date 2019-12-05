@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetSegmentTypes
 title: IXpsOMGeometryFigure::GetSegmentTypes (xpsobjectmodel.h)
-
 description: Gets the types of segments in the figure.
 old-location: xps\ixpsomgeometryfigure_getsegmenttypes.htm
 tech.root: printdocs
 ms.assetid: a440c227-33c9-42f9-8f4a-4cbe6281f9ad
-
 ms.date: 12/05/2018
 ms.keywords: GetSegmentTypes, GetSegmentTypes method [XPS Documents and Packaging], GetSegmentTypes method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentTypes method, IXpsOMGeometryFigure.GetSegmentTypes, IXpsOMGeometryFigure::GetSegmentTypes, xps.ixpsomgeometryfigure_getsegmenttypes, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentTypes
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGeometryFigure.GetSegmentTypes"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGeometryFigure.GetSegmentTypes
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGeometryFigure.GetSegmentTypes
+- IXpsOMGeometryFigure.GetSegmentTypes
 targetos: Windows
 req.typenames: 
 req.redist: 

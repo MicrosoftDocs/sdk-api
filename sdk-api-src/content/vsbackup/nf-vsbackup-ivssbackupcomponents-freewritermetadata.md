@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.FreeWriterMetadata
 title: IVssBackupComponents::FreeWriterMetadata (vsbackup.h)
-
 description: The FreeWriterMetadata method frees system resources allocated when IVssBackupComponents::GatherWriterMetadata was called.
 old-location: base\ivssbackupcomponents_freewritermetadata.htm
 tech.root: VSS
 ms.assetid: 888d30bd-527b-4b7b-9d31-3df0556b268f
-
 ms.date: 12/05/2018
 ms.keywords: FreeWriterMetadata, FreeWriterMetadata method [VSS], FreeWriterMetadata method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],FreeWriterMetadata method, IVssBackupComponents.FreeWriterMetadata, IVssBackupComponents::FreeWriterMetadata, _win32_ivssbackupcomponents_freewritermetadata, base.ivssbackupcomponents_freewritermetadata, vsbackup/IVssBackupComponents::FreeWriterMetadata
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.FreeWriterMetadata"
+f1_keywords:
+- vsbackup/IVssBackupComponents.FreeWriterMetadata
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.FreeWriterMetadata
+- IVssBackupComponents.FreeWriterMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 

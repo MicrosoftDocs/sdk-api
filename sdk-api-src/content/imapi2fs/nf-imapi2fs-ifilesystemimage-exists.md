@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.Exists
 title: IFileSystemImage::Exists (imapi2fs.h)
-
 description: Checks for the existence of a given file or directory.
 old-location: imapi\ifilesystemimage_exists.htm
 tech.root: imapi
 ms.assetid: c3a86e85-1ffd-47c1-9dba-0fc207d76a1a
-
 ms.date: 12/05/2018
 ms.keywords: Exists, Exists method [IMAPI], Exists method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],Exists method, IFileSystemImage.Exists, IFileSystemImage::Exists, imapi.ifilesystemimage_exists, imapi2fs/IFileSystemImage::Exists
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.Exists"
+f1_keywords:
+- imapi2fs/IFileSystemImage.Exists
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.Exists
+- IFileSystemImage.Exists
 targetos: Windows
 req.typenames: 
 req.redist: 

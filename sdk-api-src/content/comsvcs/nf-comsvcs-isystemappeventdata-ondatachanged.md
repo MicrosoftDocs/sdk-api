@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ISystemAppEventData.OnDataChanged
 title: ISystemAppEventData::OnDataChanged (comsvcs.h)
-
 description: Generated when the configuration of a COM+ application instance is changed.
 old-location: cos\isystemappeventdata_ondatachanged.htm
 tech.root: cossdk
 ms.assetid: db30c40e-8dd8-4055-b2c4-71f9d0c2efc4
-
 ms.date: 12/05/2018
 ms.keywords: ISystemAppEventData interface [COM+],OnDataChanged method, ISystemAppEventData.OnDataChanged, ISystemAppEventData::OnDataChanged, OnDataChanged, OnDataChanged method [COM+], OnDataChanged method [COM+],ISystemAppEventData interface, _dtc_ISystemAppEventData_OnDataChanged, comsvcs/ISystemAppEventData::OnDataChanged, cos.isystemappeventdata_ondatachanged
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ISystemAppEventData.OnDataChanged"
+f1_keywords:
+- comsvcs/ISystemAppEventData.OnDataChanged
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISystemAppEventData.OnDataChanged
+- ISystemAppEventData.OnDataChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d10.D3D10_BLEND
 title: D3D10_BLEND (d3d10.h)
-
 description: Blend options. A blend option identifies the data source and an optional pre-blend operation.
 old-location: direct3d10\d3d10_blend.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_blend.htm
-
 ms.date: 12/05/2018
 ms.keywords: 8864d9f9-c1b1-93ad-93b2-7e0e590a562d, D3D10_BLEND, D3D10_BLEND enumeration [Direct3D 10], D3D10_BLEND_BLEND_FACTOR, D3D10_BLEND_DEST_ALPHA, D3D10_BLEND_DEST_COLOR, D3D10_BLEND_INV_BLEND_FACTOR, D3D10_BLEND_INV_DEST_ALPHA, D3D10_BLEND_INV_DEST_COLOR, D3D10_BLEND_INV_SRC1_ALPHA, D3D10_BLEND_INV_SRC1_COLOR, D3D10_BLEND_INV_SRC_ALPHA, D3D10_BLEND_INV_SRC_COLOR, D3D10_BLEND_ONE, D3D10_BLEND_SRC1_ALPHA, D3D10_BLEND_SRC1_COLOR, D3D10_BLEND_SRC_ALPHA, D3D10_BLEND_SRC_ALPHA_SAT, D3D10_BLEND_SRC_COLOR, D3D10_BLEND_ZERO, d3d10/D3D10_BLEND, d3d10/D3D10_BLEND_BLEND_FACTOR, d3d10/D3D10_BLEND_DEST_ALPHA, d3d10/D3D10_BLEND_DEST_COLOR, d3d10/D3D10_BLEND_INV_BLEND_FACTOR, d3d10/D3D10_BLEND_INV_DEST_ALPHA, d3d10/D3D10_BLEND_INV_DEST_COLOR, d3d10/D3D10_BLEND_INV_SRC1_ALPHA, d3d10/D3D10_BLEND_INV_SRC1_COLOR, d3d10/D3D10_BLEND_INV_SRC_ALPHA, d3d10/D3D10_BLEND_INV_SRC_COLOR, d3d10/D3D10_BLEND_ONE, d3d10/D3D10_BLEND_SRC1_ALPHA, d3d10/D3D10_BLEND_SRC1_COLOR, d3d10/D3D10_BLEND_SRC_ALPHA, d3d10/D3D10_BLEND_SRC_ALPHA_SAT, d3d10/D3D10_BLEND_SRC_COLOR, d3d10/D3D10_BLEND_ZERO, direct3d10.d3d10_blend
 ms.topic: enum
-f1_keywords: 
- - "d3d10/D3D10_BLEND"
+f1_keywords:
+- d3d10/D3D10_BLEND
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10.h
+- D3D10.h
 api_name:
- - D3D10_BLEND
+- D3D10_BLEND
 targetos: Windows
 req.typenames: D3D10_BLEND
 req.redist: 

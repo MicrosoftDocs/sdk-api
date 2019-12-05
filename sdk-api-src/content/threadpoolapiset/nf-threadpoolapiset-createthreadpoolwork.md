@@ -1,19 +1,17 @@
 ---
 UID: NF:threadpoolapiset.CreateThreadpoolWork
 title: CreateThreadpoolWork function (threadpoolapiset.h)
-
 description: Creates a new work object.
 old-location: base\createthreadpoolwork.htm
 tech.root: ProcThread
 ms.assetid: 50647d87-1768-4918-8376-a6a04daca621
-
 ms.date: 12/05/2018
 ms.keywords: CreateThreadpoolWork, CreateThreadpoolWork function, base.createthreadpoolwork, threadpoolapiset/CreateThreadpoolWork
 ms.topic: function
-f1_keywords: 
- - "threadpoolapiset/CreateThreadpoolWork"
+f1_keywords:
+- threadpoolapiset/CreateThreadpoolWork
 dev_langs:
- - c++
+- c++
 req.header: threadpoolapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-threadpool-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-threadpool-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-threadpool-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-threadpool-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - CreateThreadpoolWork
+- CreateThreadpoolWork
 targetos: Windows
 req.typenames: 
 req.redist: 

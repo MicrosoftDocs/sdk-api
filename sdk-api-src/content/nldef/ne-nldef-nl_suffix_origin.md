@@ -1,19 +1,17 @@
 ---
 UID: NE:nldef.__unnamed_enum_1
 title: NL_SUFFIX_ORIGIN (nldef.h)
-
 description: The IP_SUFFIX_ORIGIN enumeration specifies the origin of an IPv4 or IPv6 address suffix, and is used with the IP_ADAPTER_UNICAST_ADDRESS structure.
 old-location: iphlp\ip_suffix_origin.htm
 tech.root: IpHlp
 ms.assetid: 0ffeae3d-cfc4-472e-87f8-ae6d584fb869
-
 ms.date: 12/05/2018
 ms.keywords: IP_SUFFIX_ORIGIN, IP_SUFFIX_ORIGIN enumeration [IP Helper], IpSuffixOriginDhcp, IpSuffixOriginLinkLayerAddress, IpSuffixOriginManual, IpSuffixOriginOther, IpSuffixOriginRandom, IpSuffixOriginUnchanged, IpSuffixOriginWellKnown, NL_SUFFIX_ORIGIN, iphlp.ip_suffix_origin, iptypes/IP_SUFFIX_ORIGIN, iptypes/IpSuffixOriginDhcp, iptypes/IpSuffixOriginLinkLayerAddress, iptypes/IpSuffixOriginManual, iptypes/IpSuffixOriginOther, iptypes/IpSuffixOriginRandom, iptypes/IpSuffixOriginUnchanged, iptypes/IpSuffixOriginWellKnown, nldef/IP_SUFFIX_ORIGIN, nldef/IpSuffixOriginDhcp, nldef/IpSuffixOriginLinkLayerAddress, nldef/IpSuffixOriginManual, nldef/IpSuffixOriginOther, nldef/IpSuffixOriginRandom, nldef/IpSuffixOriginUnchanged, nldef/IpSuffixOriginWellKnown
 ms.topic: enum
-f1_keywords: 
- - "nldef/IP_SUFFIX_ORIGIN"
+f1_keywords:
+- nldef/IP_SUFFIX_ORIGIN
 dev_langs:
- - c++
+- c++
 req.header: nldef.h
 req.include-header: Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008  Windows Vista, Iphlpapi.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Nldef.h
- - Iptypes.h
+- Nldef.h
+- Iptypes.h
 api_name:
- - IP_SUFFIX_ORIGIN
+- IP_SUFFIX_ORIGIN
 targetos: Windows
 req.typenames: NL_SUFFIX_ORIGIN
 req.redist: 

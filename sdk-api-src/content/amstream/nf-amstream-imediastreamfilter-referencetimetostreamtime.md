@@ -1,19 +1,17 @@
 ---
 UID: NF:amstream.IMediaStreamFilter.ReferenceTimeToStreamTime
 title: IMediaStreamFilter::ReferenceTimeToStreamTime (amstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The ReferenceTimeToStreamTime method converts a reference time to stream time.
 old-location: dshow\imediastreamfilter_referencetimetostreamtime.htm
 tech.root: DirectShow
 ms.assetid: 71ddbf0b-17aa-4481-81a7-6d4a12275c31
-
 ms.date: 12/05/2018
 ms.keywords: IMediaStreamFilter interface [DirectShow],ReferenceTimeToStreamTime method, IMediaStreamFilter.ReferenceTimeToStreamTime, IMediaStreamFilter::ReferenceTimeToStreamTime, IMediaStreamFilterReferenceTimeToStreamTime, ReferenceTimeToStreamTime, ReferenceTimeToStreamTime method [DirectShow], ReferenceTimeToStreamTime method [DirectShow],IMediaStreamFilter interface, amstream/IMediaStreamFilter::ReferenceTimeToStreamTime, dshow.imediastreamfilter_referencetimetostreamtime
 ms.topic: method
-f1_keywords: 
- - "amstream/IMediaStreamFilter.ReferenceTimeToStreamTime"
+f1_keywords:
+- amstream/IMediaStreamFilter.ReferenceTimeToStreamTime
 dev_langs:
- - c++
+- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amstream.h
+- amstream.h
 api_name:
- - IMediaStreamFilter.ReferenceTimeToStreamTime
+- IMediaStreamFilter.ReferenceTimeToStreamTime
 targetos: Windows
 req.typenames: 
 req.redist: 

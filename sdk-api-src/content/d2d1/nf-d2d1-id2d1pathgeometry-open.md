@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1PathGeometry.Open
 title: ID2D1PathGeometry::Open (d2d1.h)
-
 description: Retrieves the geometry sink that is used to populate the path geometry with figures and segments.
 old-location: direct2d\ID2D1PathGeometry_Open.htm
 tech.root: Direct2D
 ms.assetid: 08ff9ffb-1f1e-440c-a22c-dc58865b678a
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1PathGeometry interface [Direct2D],Open method, ID2D1PathGeometry.Open, ID2D1PathGeometry::Open, Open, Open method [Direct2D], Open method [Direct2D],ID2D1PathGeometry interface, d2d1/ID2D1PathGeometry::Open, direct2d.ID2D1PathGeometry_Open
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1PathGeometry.Open"
+f1_keywords:
+- d2d1/ID2D1PathGeometry.Open
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1PathGeometry.Open
+- ID2D1PathGeometry.Open
 targetos: Windows
 req.typenames: 
 req.redist: 

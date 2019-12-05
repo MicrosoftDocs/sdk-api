@@ -1,19 +1,17 @@
 ---
 UID: NS:batclass._BATTERY_WMI_STATUS
 title: BATTERY_WMI_STATUS (batclass.h)
-
 description: Defines battery status information.
 old-location: battery\battery_wmi_status.htm
 tech.root: battery
 ms.assetid: BE3FB7CA-928D-4A2E-A11D-20E9D3F8841E
-
 ms.date: 12/05/2018
-ms.keywords: "*PBATTERY_WMI_STATUS, BATTERY_WMI_STATUS, BATTERY_WMI_STATUS structure [Battery Devices], PBATTERY_WMI_STATUS, PBATTERY_WMI_STATUS structure pointer [Battery Devices], batclass/BATTERY_WMI_STATUS, batclass/PBATTERY_WMI_STATUS, battery.battery_wmi_status"
+ms.keywords: '*PBATTERY_WMI_STATUS, BATTERY_WMI_STATUS, BATTERY_WMI_STATUS structure [Battery Devices], PBATTERY_WMI_STATUS, PBATTERY_WMI_STATUS structure pointer [Battery Devices], batclass/BATTERY_WMI_STATUS, batclass/PBATTERY_WMI_STATUS, battery.battery_wmi_status'
 ms.topic: struct
-f1_keywords: 
- - "batclass/BATTERY_WMI_STATUS"
+f1_keywords:
+- batclass/BATTERY_WMI_STATUS
 dev_langs:
- - c++
+- c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Batclass.h
+- Batclass.h
 api_name:
- - BATTERY_WMI_STATUS
+- BATTERY_WMI_STATUS
 targetos: Windows
 req.typenames: BATTERY_WMI_STATUS, *PBATTERY_WMI_STATUS
 req.redist: 

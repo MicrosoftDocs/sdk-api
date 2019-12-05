@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_Priority
 title: IFaxOutgoingJob::get_Priority (faxcomex.h)
-
 description: The IFaxOutgoingJob::get_Priority property specifies the priority to use when sending the fax; for example, normal, low, or high priority.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_priority_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6fll.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Priority property, IFaxOutgoingJob.Priority, IFaxOutgoingJob.get_Priority, IFaxOutgoingJob::Priority, IFaxOutgoingJob::get_Priority, Priority property [Fax Service], Priority property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.priority, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_priority_cpp, fax._mfax_faxoutgoingjob_priority, faxcomex/IFaxOutgoingJob::Priority, faxcomex/IFaxOutgoingJob::get_Priority, get_Priority
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingJob.Priority"
+f1_keywords:
+- faxcomex/IFaxOutgoingJob.Priority
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingJob.Priority
- - IFaxOutgoingJob.get_Priority
- - IFaxOutgoingJob.get_Priority
+- IFaxOutgoingJob.Priority
+- IFaxOutgoingJob.get_Priority
+- IFaxOutgoingJob.get_Priority
 targetos: Windows
 req.typenames: 
 req.redist: 

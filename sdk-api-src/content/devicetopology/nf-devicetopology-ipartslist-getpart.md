@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IPartsList.GetPart
 title: IPartsList::GetPart (devicetopology.h)
-
 description: The GetPart method gets a part from the parts list.
 old-location: coreaudio\ipartslist_getpart.htm
 tech.root: CoreAudio
 ms.assetid: 505e2412-2849-4e64-9751-ce68831823b8
-
 ms.date: 12/05/2018
 ms.keywords: GetPart, GetPart method [Core Audio], GetPart method [Core Audio],IPartsList interface, IPartsList interface [Core Audio],GetPart method, IPartsList.GetPart, IPartsList::GetPart, IPartsListGetPart, coreaudio.ipartslist_getpart, devicetopology/IPartsList::GetPart
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IPartsList.GetPart"
+f1_keywords:
+- devicetopology/IPartsList.GetPart
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IPartsList.GetPart
+- IPartsList.GetPart
 targetos: Windows
 req.typenames: 
 req.redist: 

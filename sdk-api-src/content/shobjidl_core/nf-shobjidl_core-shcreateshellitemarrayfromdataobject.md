@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.SHCreateShellItemArrayFromDataObject
 title: SHCreateShellItemArrayFromDataObject function (shobjidl_core.h)
-
 description: Creates a Shell item array object from a data object.
 old-location: shell\SHCreateShellItemArrayFromDataObject.htm
 tech.root: shell
 ms.assetid: 91e65c9a-0600-42e3-97f5-2a5960e1ec89
-
 ms.date: 12/05/2018
 ms.keywords: SHCreateShellItemArrayFromDataObject, SHCreateShellItemArrayFromDataObject function [Windows Shell], _shell_SHCreateShellItemArrayFromDataObject, shell.SHCreateShellItemArrayFromDataObject, shobjidl_core/SHCreateShellItemArrayFromDataObject
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SHCreateShellItemArrayFromDataObject"
+f1_keywords:
+- shobjidl_core/SHCreateShellItemArrayFromDataObject
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHCreateShellItemArrayFromDataObject
+- SHCreateShellItemArrayFromDataObject
 targetos: Windows
 req.typenames: 
 req.redist: 

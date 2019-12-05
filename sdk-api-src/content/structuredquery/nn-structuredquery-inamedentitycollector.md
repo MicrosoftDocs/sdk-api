@@ -1,19 +1,17 @@
 ---
 UID: NN:structuredquery.INamedEntityCollector
 title: INamedEntityCollector (structuredquery.h)
-
 description: Provides a method to accumulate named entities as identified by an IConditionGenerator object.
 old-location: search\_search_INamedEntityCollector.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentitycollector\inamedentitycollector.htm
-
 ms.date: 12/05/2018
 ms.keywords: INamedEntityCollector, INamedEntityCollector interface [search], INamedEntityCollector interface [search],described, _search_INamedEntityCollector, search._search_INamedEntityCollector, structuredquery/INamedEntityCollector
 ms.topic: interface
-f1_keywords: 
- - "structuredquery/INamedEntityCollector"
+f1_keywords:
+- structuredquery/INamedEntityCollector
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - INamedEntityCollector
+- INamedEntityCollector
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

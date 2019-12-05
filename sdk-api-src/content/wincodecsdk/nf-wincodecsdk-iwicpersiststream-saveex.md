@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICPersistStream.SaveEx
 title: IWICPersistStream::SaveEx (wincodecsdk.h)
-
 description: Saves the IWICPersistStream to the given input IStream using the given parameters.
 old-location: wic\_wic_codec_iwicpersiststream_saveex.htm
 tech.root: wic
 ms.assetid: 8820ad87-a808-48db-91d8-c76bca1c832c
-
 ms.date: 12/05/2018
 ms.keywords: IWICPersistStream interface [Windows Imaging Component],SaveEx method, IWICPersistStream.SaveEx, IWICPersistStream::SaveEx, SaveEx, SaveEx method [Windows Imaging Component], SaveEx method [Windows Imaging Component],IWICPersistStream interface, _wic_codec_iwicpersiststream_saveex, wic._wic_codec_iwicpersiststream_saveex, wincodecsdk/IWICPersistStream::SaveEx
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICPersistStream.SaveEx"
+f1_keywords:
+- wincodecsdk/IWICPersistStream.SaveEx
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICPersistStream.SaveEx
+- IWICPersistStream.SaveEx
 targetos: Windows
 req.typenames: 
 req.redist: 

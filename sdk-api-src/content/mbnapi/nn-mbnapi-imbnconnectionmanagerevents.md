@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnConnectionManagerEvents
 title: IMbnConnectionManagerEvents (mbnapi.h)
-
 description: This notification interface signals an application about the arrival and removal of IMbnConnection interfaces in the system.
 old-location: mbn\imbnconnectionmanagerevents.htm
 tech.root: mbn
 ms.assetid: 153ab8c5-2b39-44a7-8c12-9f1df0012270
-
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionManagerEvents, IMbnConnectionManagerEvents interface [Microsoft Broadband Networks], IMbnConnectionManagerEvents interface [Microsoft Broadband Networks],described, mbn.imbnconnectionmanagerevents, mbnapi/IMbnConnectionManagerEvents
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnConnectionManagerEvents"
+f1_keywords:
+- mbnapi/IMbnConnectionManagerEvents
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnectionManagerEvents
+- IMbnConnectionManagerEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winhttp.WinHttpQueryAuthSchemes
 title: WinHttpQueryAuthSchemes function (winhttp.h)
-
 description: The WinHttpQueryAuthSchemes function returns the authorization schemes that are supported by the server.
 old-location: http\winhttpqueryauthschemes.htm
 tech.root: WinHttp
 ms.assetid: 37fb9342-c5c2-46a3-a8b0-83060aa997e2
-
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_AUTH_SCHEME_BASIC, WINHTTP_AUTH_SCHEME_DIGEST, WINHTTP_AUTH_SCHEME_NEGOTIATE, WINHTTP_AUTH_SCHEME_NTLM, WINHTTP_AUTH_SCHEME_PASSPORT, WINHTTP_AUTH_TARGET_PROXY, WINHTTP_AUTH_TARGET_SERVER, WinHttpQueryAuthSchemes, WinHttpQueryAuthSchemes function [WinHTTP], http.winhttpqueryauthschemes, winhttp.winhttpqueryauthschemes_function, winhttp/WinHttpQueryAuthSchemes
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpQueryAuthSchemes"
+f1_keywords:
+- winhttp/WinHttpQueryAuthSchemes
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpQueryAuthSchemes
+- WinHttpQueryAuthSchemes
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.

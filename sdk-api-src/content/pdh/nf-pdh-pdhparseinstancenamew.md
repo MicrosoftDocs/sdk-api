@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhParseInstanceNameW
 title: PdhParseInstanceNameW function (pdh.h)
-
 description: Parses the elements of an instance string.
 old-location: perf\pdhparseinstancename.htm
 tech.root: perfctrs
 ms.assetid: 8304ecee-5141-450a-be11-838b9f52413b
-
 ms.date: 12/05/2018
 ms.keywords: PdhParseInstanceName, PdhParseInstanceName function [Perf], PdhParseInstanceNameA, PdhParseInstanceNameW, _win32_pdhparseinstancename, base.pdhparseinstancename, pdh/PdhParseInstanceName, pdh/PdhParseInstanceNameA, pdh/PdhParseInstanceNameW, perf.pdhparseinstancename
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhParseInstanceName"
+f1_keywords:
+- pdh/PdhParseInstanceName
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhParseInstanceName
- - PdhParseInstanceNameA
- - PdhParseInstanceNameW
+- PdhParseInstanceName
+- PdhParseInstanceNameA
+- PdhParseInstanceNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

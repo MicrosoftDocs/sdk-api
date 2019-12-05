@@ -1,19 +1,17 @@
 ---
 UID: NE:searchapi._SEARCH_INDEXING_PHASE
 title: SEARCH_INDEXING_PHASE (searchapi.h)
-
 description: Specifies the status of the current search indexing phase.
 old-location: search\_search_SEARCH_INDEXING_PHASE.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\search_indexing_phase.htm
-
 ms.date: 12/05/2018
 ms.keywords: SEARCH_INDEXING_PHASE, SEARCH_INDEXING_PHASE enumeration [search], SEARCH_INDEXING_PHASE_GATHERER, SEARCH_INDEXING_PHASE_PERSISTED, SEARCH_INDEXING_PHASE_QUERYABLE, _search_SEARCH_INDEXING_PHASE, search._search_SEARCH_INDEXING_PHASE, searchapi/SEARCH_INDEXING_PHASE, searchapi/SEARCH_INDEXING_PHASE_GATHERER, searchapi/SEARCH_INDEXING_PHASE_PERSISTED, searchapi/SEARCH_INDEXING_PHASE_QUERYABLE
 ms.topic: enum
-f1_keywords: 
- - "searchapi/SEARCH_INDEXING_PHASE"
+f1_keywords:
+- searchapi/SEARCH_INDEXING_PHASE
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - SEARCH_INDEXING_PHASE
+- SEARCH_INDEXING_PHASE
 targetos: Windows
 req.typenames: SEARCH_INDEXING_PHASE
 req.redist: Windows Desktop Search (WDS) 3.0

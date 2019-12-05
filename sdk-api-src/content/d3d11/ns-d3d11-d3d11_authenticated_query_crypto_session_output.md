@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT
 title: D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT (d3d11.h)
-
 description: Contains the response to a D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION query.
 old-location: mf\d3d11_authenticated_query_crypto_session_output.htm
 tech.root: medfound
 ms.assetid: 8C52920A-25CC-4AD6-85E0-22D6A498D65A
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT, D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT, mf.d3d11_authenticated_query_crypto_session_output
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT"
+f1_keywords:
+- d3d11/D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT
+- D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT
 targetos: Windows
 req.typenames: D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT
 req.redist: 

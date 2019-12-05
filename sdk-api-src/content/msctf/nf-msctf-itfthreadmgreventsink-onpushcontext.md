@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfThreadMgrEventSink.OnPushContext
 title: ITfThreadMgrEventSink::OnPushContext (msctf.h)
-
 description: ITfThreadMgrEventSink::OnPushContext method
 old-location: tsf\itfthreadmgreventsink_onpushcontext.htm
 tech.root: TSF
 ms.assetid: 80fbb861-1a12-4a9a-8f96-332c2f736f2d
-
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgrEventSink interface [Text Services Framework],OnPushContext method, ITfThreadMgrEventSink.OnPushContext, ITfThreadMgrEventSink::OnPushContext, OnPushContext, OnPushContext method [Text Services Framework], OnPushContext method [Text Services Framework],ITfThreadMgrEventSink interface, _tsf_itfthreadmgreventsink_onpushcontext_ref, msctf/ITfThreadMgrEventSink::OnPushContext, tsf.itfthreadmgreventsink_onpushcontext
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfThreadMgrEventSink.OnPushContext"
+f1_keywords:
+- msctf/ITfThreadMgrEventSink.OnPushContext
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfThreadMgrEventSink.OnPushContext
+- ITfThreadMgrEventSink.OnPushContext
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

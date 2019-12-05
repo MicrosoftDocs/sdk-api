@@ -1,19 +1,17 @@
 ---
 UID: NE:rpcasync._RPC_NOTIFICATION_TYPES
 title: RPC_NOTIFICATION_TYPES (rpcasync.h)
-
 description: The RPC_NOTIFICATION_TYPES enumerated type contains values that specify the method of asynchronous notification that a client program will use.
 old-location: rpc\rpc_notification_types.htm
 tech.root: Rpc
 ms.assetid: 3c6fcba5-ea74-47ee-8fb9-6393d1ea62fc
-
 ms.date: 12/05/2018
 ms.keywords: RPC_NOTIFICATION_TYPES, RPC_NOTIFICATION_TYPES enumeration [RPC], RpcNotificationTypeApc, RpcNotificationTypeCallback, RpcNotificationTypeEvent, RpcNotificationTypeHwnd, RpcNotificationTypeIoc, RpcNotificationTypeNone, _rpc_rpc_notification_types, rpc.rpc_notification_types, rpcasync/RPC_NOTIFICATION_TYPES, rpcasync/RpcNotificationTypeApc, rpcasync/RpcNotificationTypeCallback, rpcasync/RpcNotificationTypeEvent, rpcasync/RpcNotificationTypeHwnd, rpcasync/RpcNotificationTypeIoc, rpcasync/RpcNotificationTypeNone
 ms.topic: enum
-f1_keywords: 
- - "rpcasync/RPC_NOTIFICATION_TYPES"
+f1_keywords:
+- rpcasync/RPC_NOTIFICATION_TYPES
 dev_langs:
- - c++
+- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rpcasync.h
+- Rpcasync.h
 api_name:
- - RPC_NOTIFICATION_TYPES
+- RPC_NOTIFICATION_TYPES
 targetos: Windows
 req.typenames: RPC_NOTIFICATION_TYPES
 req.redist: 

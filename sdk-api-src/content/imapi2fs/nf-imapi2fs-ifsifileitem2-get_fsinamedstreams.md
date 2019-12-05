@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem2.get_FsiNamedStreams
 title: IFsiFileItem2::get_FsiNamedStreams (imapi2fs.h)
-
 description: Retrieves a collection of named streams associated with a file in the file system image.
 old-location: imapi\ifsifileitem2_get_fsinamedstreams.htm
 tech.root: imapi
 ms.assetid: 011c6241-4989-41ca-9876-d6810797a382
-
 ms.date: 12/05/2018
 ms.keywords: IFsiFileItem2 interface [IMAPI],get_FsiNamedStreams method, IFsiFileItem2.get_FsiNamedStreams, IFsiFileItem2::get_FsiNamedStreams, get_FsiNamedStreams, get_FsiNamedStreams method [IMAPI], get_FsiNamedStreams method [IMAPI],IFsiFileItem2 interface, imapi.ifsifileitem2_get_fsinamedstreams, imapi2fs/IFsiFileItem2::get_FsiNamedStreams
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFsiFileItem2.get_FsiNamedStreams"
+f1_keywords:
+- imapi2fs/IFsiFileItem2.get_FsiNamedStreams
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiFileItem2.get_FsiNamedStreams
+- IFsiFileItem2.get_FsiNamedStreams
 targetos: Windows
 req.typenames: 
 req.redist: 

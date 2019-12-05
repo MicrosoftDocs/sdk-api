@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertPropertyRenewal.Initialize
 title: ICertPropertyRenewal::Initialize (certenroll.h)
-
 description: Initializes the object from a SHA-1 hash of the new certificate.
 old-location: security\icertpropertyrenewal_initialize_method.htm
 tech.root: seccertenroll
 ms.assetid: dc1e124e-400a-4f1e-8e87-095b6a3341d4
-
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyRenewal interface [Security],Initialize method, ICertPropertyRenewal.Initialize, ICertPropertyRenewal::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyRenewal interface, certenroll/ICertPropertyRenewal::Initialize, security.icertpropertyrenewal_initialize_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertPropertyRenewal.Initialize"
+f1_keywords:
+- certenroll/ICertPropertyRenewal.Initialize
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertPropertyRenewal.Initialize
+- ICertPropertyRenewal.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

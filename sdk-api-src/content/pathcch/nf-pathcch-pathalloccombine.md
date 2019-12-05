@@ -1,19 +1,17 @@
 ---
 UID: NF:pathcch.PathAllocCombine
 title: PathAllocCombine function (pathcch.h)
-
 description: Concatenates two path fragments into a single path.
 old-location: shell\PathAllocCombine.htm
 tech.root: shell
 ms.assetid: dd619138-f867-4517-bc67-a52c598efad0
-
 ms.date: 12/05/2018
 ms.keywords: PATHCCH_ALLOW_LONG_PATHS, PATHCCH_DO_NOT_NORMALIZE_SEGMENTS, PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH, PATHCCH_ENSURE_TRAILING_SLASH, PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS, PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS, PATHCCH_NONE, PathAllocCombine, PathAllocCombine function [Windows Shell], pathcch/PathAllocCombine, shell.PathAllocCombine
 ms.topic: function
-f1_keywords: 
- - "pathcch/PathAllocCombine"
+f1_keywords:
+- pathcch/PathAllocCombine
 dev_langs:
- - c++
+- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - pathcch.lib
- - API-MS-Win-Core-Path-l1-1-0.dll
- - KernelBase.dll
+- pathcch.lib
+- API-MS-Win-Core-Path-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PathAllocCombine
+- PathAllocCombine
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCryptDestroySecret
 title: BCryptDestroySecret function (bcrypt.h)
-
 description: Destroys a secret agreement handle that was created by using the BCryptSecretAgreement function.
 old-location: security\bcryptdestroysecret.htm
 tech.root: SecCNG
 ms.assetid: 237743ff-ecb1-4c01-b4f9-192f27716f2c
-
 ms.date: 12/05/2018
 ms.keywords: BCryptDestroySecret, BCryptDestroySecret function [Security], bcrypt/BCryptDestroySecret, security.bcryptdestroysecret
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptDestroySecret"
+f1_keywords:
+- bcrypt/BCryptDestroySecret
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
- - Ksecdd.sys
+- Bcrypt.dll
+- Ksecdd.sys
 api_name:
- - BCryptDestroySecret
+- BCryptDestroySecret
 targetos: Windows
 req.typenames: 
 req.redist: 

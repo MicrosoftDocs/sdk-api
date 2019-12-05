@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectType.GetMemberName
 title: ID3D10EffectType::GetMemberName (d3d10effect.h)
-
 description: Get the name of a member.
 old-location: direct3d10\id3d10effecttype_getmembername.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttype_getmembername.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetMemberName, GetMemberName method [Direct3D 10], GetMemberName method [Direct3D 10],ID3D10EffectType interface, ID3D10EffectType interface [Direct3D 10],GetMemberName method, ID3D10EffectType.GetMemberName, ID3D10EffectType::GetMemberName, d3aad501-489a-1c7e-5669-9c1cf7cccfce, d3d10effect/ID3D10EffectType::GetMemberName, direct3d10.id3d10effecttype_getmembername
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectType.GetMemberName"
+f1_keywords:
+- d3d10effect/ID3D10EffectType.GetMemberName
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectType.GetMemberName
+- ID3D10EffectType.GetMemberName
 targetos: Windows
 req.typenames: 
 req.redist: 

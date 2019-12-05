@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.MessageBoxExA
 title: MessageBoxExA function (winuser.h)
-
 description: Creates, displays, and operates a message box.
 old-location: dlgbox\messageboxex.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\messageboxex.htm
-
 ms.date: 12/05/2018
 ms.keywords: MessageBoxEx, MessageBoxEx function [Dialog Boxes], MessageBoxExA, MessageBoxExW, _win32_MessageBoxEx, _win32_messageboxex_cpp, dlgbox.messageboxex, winui._win32_messageboxex, winuser/MessageBoxEx, winuser/MessageBoxExA, winuser/MessageBoxExW
 ms.topic: function
-f1_keywords: 
- - "winuser/MessageBoxEx"
+f1_keywords:
+- winuser/MessageBoxEx
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - MessageBoxEx
- - MessageBoxExA
- - MessageBoxExW
+- MessageBoxEx
+- MessageBoxExA
+- MessageBoxExW
 targetos: Windows
 req.typenames: 
 req.redist: 

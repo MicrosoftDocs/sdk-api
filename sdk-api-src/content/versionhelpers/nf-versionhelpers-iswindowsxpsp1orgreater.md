@@ -1,19 +1,17 @@
 ---
 UID: NF:versionhelpers.IsWindowsXPSP1OrGreater
 title: IsWindowsXPSP1OrGreater function (versionhelpers.h)
-
 description: Indicates if the current OS version matches, or is greater than, the Windows XP with Service Pack 1 (SP1) version.
 old-location: base\iswindowsxpsp1orgreater.htm
 tech.root: SysInfo
 ms.assetid: F8921444-B13D-4522-84F2-4792F4F37EA5
-
 ms.date: 12/05/2018
 ms.keywords: IsWindowsXPSP1OrGreater, IsWindowsXPSP1OrGreater function, base.iswindowsxpsp1orgreater, versionhelpers/IsWindowsXPSP1OrGreater
 ms.topic: function
-f1_keywords: 
- - "versionhelpers/IsWindowsXPSP1OrGreater"
+f1_keywords:
+- versionhelpers/IsWindowsXPSP1OrGreater
 dev_langs:
- - c++
+- c++
 req.header: versionhelpers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Kernel32.lib; Ntdll.lib
 req.dll: Kernel32.dll; Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - ntdll.dll
+- Kernel32.dll
+- ntdll.dll
 api_name:
- - IsWindowsXPSP1OrGreater
+- IsWindowsXPSP1OrGreater
 targetos: Windows
 req.typenames: 
 req.redist: 

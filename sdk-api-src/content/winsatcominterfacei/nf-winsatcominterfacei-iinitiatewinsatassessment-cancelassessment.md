@@ -1,19 +1,17 @@
 ---
 UID: NF:winsatcominterfacei.IInitiateWinSATAssessment.CancelAssessment
 title: IInitiateWinSATAssessment::CancelAssessment (winsatcominterfacei.h)
-
 description: Cancels a currently running assessment.
 old-location: winsat\iinitiatewinsatassessment_cancelassessment.htm
 tech.root: WinSAT
 ms.assetid: fa4b159f-9d40-445f-bd43-5fc2e7b2d33b
-
 ms.date: 12/05/2018
 ms.keywords: CancelAssessment, CancelAssessment method [WinSAT], CancelAssessment method [WinSAT],IInitiateWinSATAssessment interface, IInitiateWinSATAssessment interface [WinSAT],CancelAssessment method, IInitiateWinSATAssessment.CancelAssessment, IInitiateWinSATAssessment::CancelAssessment, winsat.iinitiatewinsatassessment_cancelassessment, winsatcominterfacei/IInitiateWinSATAssessment::CancelAssessment
 ms.topic: method
-f1_keywords: 
- - "winsatcominterfacei/IInitiateWinSATAssessment.CancelAssessment"
+f1_keywords:
+- winsatcominterfacei/IInitiateWinSATAssessment.CancelAssessment
 dev_langs:
- - c++
+- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Winsatapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Winsatapi.dll
+- Winsatapi.dll
 api_name:
- - IInitiateWinSATAssessment.CancelAssessment
+- IInitiateWinSATAssessment.CancelAssessment
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:vfw.IGetFrame
 title: IGetFrame (vfw.h)
-
 description: The IGetFrame interface supports extracting, decompressing, and displaying individual frames from an open stream.
 old-location: multimedia\igetframe.htm
 tech.root: Multimedia
 ms.assetid: d72349bc-5e7c-4c60-b8e0-0524d02c0583
-
 ms.date: 12/05/2018
 ms.keywords: IGetFrame, IGetFrame interface [Windows Multimedia], IGetFrame interface [Windows Multimedia],described, _win32_IGetFrame, multimedia.igetframe, vfw/IGetFrame
 ms.topic: interface
-f1_keywords: 
- - "vfw/IGetFrame"
+f1_keywords:
+- vfw/IGetFrame
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Vfw32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vfw32.lib
- - Vfw32.dll
+- Vfw32.lib
+- Vfw32.dll
 api_name:
- - IGetFrame
+- IGetFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GET_POINTERID_WPARAM
 title: GET_POINTERID_WPARAM macro (winuser.h)
-
 description: Retrieves the pointer ID using the specified value.
 old-location: inputmsg\get_pointerid_wparam.htm
 tech.root: InputMsg
 ms.assetid: 31f7dde6-1486-4050-b9b6-ffc2ed991211
-
 ms.date: 12/05/2018
 ms.keywords: GET_POINTERID_WPARAM, GET_POINTERID_WPARAM	, GET_POINTERID_WPARAM macro [Input Messages and Notifications], inputmsg.get_pointerid_wparam, winuser/GET_POINTERID_WPARAM
 ms.topic: macro
-f1_keywords: 
- - "winuser/GET_POINTERID_WPARAM"
+f1_keywords:
+- winuser/GET_POINTERID_WPARAM
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - GET_POINTERID_WPARAM
+- GET_POINTERID_WPARAM
 targetos: Windows
 req.typenames: 
 req.redist: 

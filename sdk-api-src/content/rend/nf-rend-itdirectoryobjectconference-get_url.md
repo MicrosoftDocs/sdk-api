@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.get_Url
 title: ITDirectoryObjectConference::get_Url (rend.h)
-
 description: The get_Url method gets a URL.
 old-location: tapi3\itdirectoryobjectconference_get_url.htm
 tech.root: Tapi
 ms.assetid: a3ea4bfc-dcb6-46a1-83da-2d897487c2c1
-
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_Url method, ITDirectoryObjectConference.get_Url, ITDirectoryObjectConference::get_Url, _tapi3_itdirectoryobjectconference_get_url, get_Url, get_Url method [TAPI 2.2], get_Url method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_Url, tapi3.itdirectoryobjectconference_get_url
 ms.topic: method
-f1_keywords: 
- - "rend/ITDirectoryObjectConference.get_Url"
+f1_keywords:
+- rend/ITDirectoryObjectConference.get_Url
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITDirectoryObjectConference.get_Url
+- ITDirectoryObjectConference.get_Url
 targetos: Windows
 req.typenames: 
 req.redist: 

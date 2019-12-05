@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IObjectContext.EnableCommit
 title: IObjectContext::EnableCommit (comsvcs.h)
-
 description: Declares that the object's work is not necessarily finished but that its transactional updates are in a consistent state and could be committed in their present form.
 old-location: cos\iobjectcontext_enablecommit.htm
 tech.root: cossdk
 ms.assetid: 6571aadc-bf5a-48c3-817a-66ce444ef96a
-
 ms.date: 12/05/2018
 ms.keywords: EnableCommit, EnableCommit method [COM+], EnableCommit method [COM+],IObjectContext interface, IObjectContext interface [COM+],EnableCommit method, IObjectContext.EnableCommit, IObjectContext::EnableCommit, _cos_IObjectContext_EnableCommit, comsvcs/IObjectContext::EnableCommit, cos.iobjectcontext_enablecommit
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IObjectContext.EnableCommit"
+f1_keywords:
+- comsvcs/IObjectContext.EnableCommit
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IObjectContext.EnableCommit
+- IObjectContext.EnableCommit
 targetos: Windows
 req.typenames: 
 req.redist: 

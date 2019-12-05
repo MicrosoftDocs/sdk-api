@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfInputProcessorProfileActivationSink
 title: ITfInputProcessorProfileActivationSink (msctf.h)
-
 description: The ITfInputProcessorProfileActivationSink interface is implemented by an application to receive notifications when the profile changes.
 old-location: tsf\itfinputprocessorprofileactivationsink.htm
 tech.root: TSF
 ms.assetid: 97a6a820-8e0e-46b0-a359-da0a17fb4cae
-
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfileActivationSink, ITfInputProcessorProfileActivationSink interface [Text Services Framework], ITfInputProcessorProfileActivationSink interface [Text Services Framework],described, _tsf_itfinputprocessorprofileactivationsink_ref, msctf/ITfInputProcessorProfileActivationSink, tsf.itfinputprocessorprofileactivationsink
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfInputProcessorProfileActivationSink"
+f1_keywords:
+- msctf/ITfInputProcessorProfileActivationSink
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.h
+- Msctf.h
 api_name:
- - ITfInputProcessorProfileActivationSink
+- ITfInputProcessorProfileActivationSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

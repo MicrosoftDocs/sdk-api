@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellItem.BindToHandler
 title: IShellItem::BindToHandler (shobjidl_core.h)
-
 description: Binds to a handler for an item as specified by the handler ID value (BHID).
 old-location: shell\IShellItem_BindToHandler.htm
 tech.root: shell
 ms.assetid: fadd70cd-5018-4b71-af7b-d9c780ebddc5
-
 ms.date: 12/05/2018
 ms.keywords: BHID_AssociationArray, BHID_DataObject, BHID_EnumAssocHandlers, BHID_EnumItems, BHID_FilePlaceholder, BHID_Filter, BHID_LinkTargetItem, BHID_PropertyStore, BHID_RandomAccessStream, BHID_SFObject, BHID_SFUIObject, BHID_SFViewObject, BHID_Storage, BHID_StorageEnum, BHID_Stream, BHID_ThumbnailHandler, BHID_Transfer, BindToHandler, BindToHandler method [Windows Shell], BindToHandler method [Windows Shell],IShellItem interface, IShellItem interface [Windows Shell],BindToHandler method, IShellItem.BindToHandler, IShellItem::BindToHandler, _win32_IShellItem_BindToHandler, shell.IShellItem_BindToHandler, shobjidl_core/IShellItem::BindToHandler
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellItem.BindToHandler"
+f1_keywords:
+- shobjidl_core/IShellItem.BindToHandler
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.00 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellItem.BindToHandler
+- IShellItem.BindToHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

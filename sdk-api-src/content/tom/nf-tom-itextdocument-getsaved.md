@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument.GetSaved
 title: ITextDocument::GetSaved (tom.h)
-
 description: Gets a value that indicates whether changes have been made since the file was last saved.
 old-location: controls\ITextDocument_GetSaved.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getsaved.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetSaved, GetSaved method [Windows Controls], GetSaved method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],GetSaved method, ITextDocument.GetSaved, ITextDocument::GetSaved, _win32_ITextDocument_GetSaved, _win32_ITextDocument_GetSaved_cpp, controls.ITextDocument_GetSaved, controls._win32_ITextDocument_GetSaved, tom/ITextDocument::GetSaved
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument.GetSaved"
+f1_keywords:
+- tom/ITextDocument.GetSaved
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument.GetSaved
+- ITextDocument.GetSaved
 targetos: Windows
 req.typenames: 
 req.redist: 

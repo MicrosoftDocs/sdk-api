@@ -1,19 +1,17 @@
 ---
 UID: NF:inkpresenterdesktop.IInkDesktopHost.CreateInkPresenter
 title: IInkDesktopHost::CreateInkPresenter (inkpresenterdesktop.h)
-
 description: Creates an IInkPresenterDesktop object on an application thread.
 old-location: input_ink\iinkdesktophost_createinkpresenter.htm
 tech.root: input_ink
 ms.assetid: 17480bbd-7d4f-4ba9-9d54-80f440104055
-
 ms.date: 12/05/2018
 ms.keywords: CreateInkPresenter, CreateInkPresenter method, CreateInkPresenter method,IInkDesktopHost interface, IInkDesktopHost interface,CreateInkPresenter method, IInkDesktopHost.CreateInkPresenter, IInkDesktopHost::CreateInkPresenter, InkPresenterDesktop.iinkdesktophost_createinkpresenter, inkpresenterdesktop/IInkDesktopHost::CreateInkPresenter, input_ink.iinkdesktophost_createinkpresenter
 ms.topic: method
-f1_keywords: 
- - "inkpresenterdesktop/IInkDesktopHost.CreateInkPresenter"
+f1_keywords:
+- inkpresenterdesktop/IInkDesktopHost.CreateInkPresenter
 dev_langs:
- - c++
+- c++
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkPresenterDesktop.h
+- InkPresenterDesktop.h
 api_name:
- - IInkDesktopHost.CreateInkPresenter
+- IInkDesktopHost.CreateInkPresenter
 targetos: Windows
 req.typenames: 
 req.redist: 

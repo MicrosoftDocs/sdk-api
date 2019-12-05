@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostView.GetPostViewFormatCount
 title: IWMWriterPostView::GetPostViewFormatCount (wmsdkidl.h)
-
 description: The GetPostViewFormatCount method is used for ascertaining all possible format types supported for the specified stream.
 old-location: wmformat\iwmwriterpostview_getpostviewformatcount.htm
 tech.root: wmformat
 ms.assetid: b34b2418-5ae4-49a2-913a-bb4ac604ac4e
-
 ms.date: 12/05/2018
 ms.keywords: GetPostViewFormatCount, GetPostViewFormatCount method [windows Media Format], GetPostViewFormatCount method [windows Media Format],IWMWriterPostView interface, IWMWriterPostView interface [windows Media Format],GetPostViewFormatCount method, IWMWriterPostView.GetPostViewFormatCount, IWMWriterPostView::GetPostViewFormatCount, IWMWriterPostViewGetPostViewFormatCount, wmformat.iwmwriterpostview_getpostviewformatcount, wmsdkidl/IWMWriterPostView::GetPostViewFormatCount
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterPostView.GetPostViewFormatCount"
+f1_keywords:
+- wmsdkidl/IWMWriterPostView.GetPostViewFormatCount
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterPostView.GetPostViewFormatCount
+- IWMWriterPostView.GetPostViewFormatCount
 targetos: Windows
 req.typenames: 
 req.redist: 

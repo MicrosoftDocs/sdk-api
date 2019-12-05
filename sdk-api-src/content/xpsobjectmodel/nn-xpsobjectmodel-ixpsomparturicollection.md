@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPartUriCollection
 title: IXpsOMPartUriCollection (xpsobjectmodel.h)
-
 description: A collection of IOpcPartUri interface pointers.
 old-location: xps\ixpsomparturicollection.htm
 tech.root: printdocs
 ms.assetid: 05fe9700-19e6-4e63-9693-cfa4b019f643
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPartUriCollection, IXpsOMPartUriCollection interface [XPS Documents and Packaging], IXpsOMPartUriCollection interface [XPS Documents and Packaging],described, xps.ixpsomparturicollection, xpsobjectmodel/IXpsOMPartUriCollection
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPartUriCollection"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPartUriCollection
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPartUriCollection
+- IXpsOMPartUriCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

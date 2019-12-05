@@ -1,19 +1,17 @@
 ---
 UID: NF:msports.ComDBOpen
 title: ComDBOpen function (msports.h)
-
 description: ComDBOpen returns a handle to the COM port database.
 old-location: serports\comdbopen.htm
 tech.root: serports
 ms.assetid: 6ae22de0-b71e-441d-af12-8518a3f474e3
-
 ms.date: 12/05/2018
 ms.keywords: ComDBOpen, ComDBOpen function [Serial Ports], comdb_ab14e7a4-69f0-42fc-82b5-df6f5863779a.xml, msports/ComDBOpen, serports.comdbopen
 ms.topic: function
-f1_keywords: 
- - "msports/ComDBOpen"
+f1_keywords:
+- msports/ComDBOpen
 dev_langs:
- - c++
+- c++
 req.header: msports.h
 req.include-header: Msports.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib: Msports.lib
 req.dll: Msports.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msports.dll
+- Msports.dll
 api_name:
- - ComDBOpen
+- ComDBOpen
 targetos: Windows
 req.typenames: 
 req.redist: 

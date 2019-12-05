@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetStartTime
 title: ISCTE_EAS::GetStartTime (atscpsipparser.h)
-
 description: The GetStartTime method returns the starting time of the alert.
 old-location: mstv\iscte_eas_getstarttime.htm
 tech.root: mstv
 ms.assetid: 70847a50-67a1-49f1-a24f-ca5bb0309481
-
 ms.date: 12/05/2018
 ms.keywords: GetStartTime, GetStartTime method [Microsoft TV Technologies], GetStartTime method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetStartTime method, ISCTE_EAS.GetStartTime, ISCTE_EAS::GetStartTime, ISCTE_EASGetStartTime, atscpsipparser/ISCTE_EAS::GetStartTime, mstv.iscte_eas_getstarttime
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/ISCTE_EAS.GetStartTime"
+f1_keywords:
+- atscpsipparser/ISCTE_EAS.GetStartTime
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - ISCTE_EAS.GetStartTime
+- ISCTE_EAS.GetStartTime
 targetos: Windows
 req.typenames: 
 req.redist: 

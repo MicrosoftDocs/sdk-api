@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.ImportSecurityContextW
 title: ImportSecurityContextW function (sspi.h)
-
 description: Imports a security context. The security context must have been exported to the process calling ImportSecurityContext by a previous call to ExportSecurityContext.
 old-location: security\importsecuritycontext.htm
 tech.root: SecAuthN
 ms.assetid: 0f8e65d0-69cf-42ba-a903-1922d731e5ec
-
 ms.date: 12/05/2018
 ms.keywords: ImportSecurityContext, ImportSecurityContext function [Security], ImportSecurityContextA, ImportSecurityContextW, _ssp_importsecuritycontext, security.importsecuritycontext, sspi/ImportSecurityContext, sspi/ImportSecurityContextA, sspi/ImportSecurityContextW
 ms.topic: function
-f1_keywords: 
- - "sspi/ImportSecurityContext"
+f1_keywords:
+- sspi/ImportSecurityContext
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Secur32.dll
- - sspicli.dll
+- Secur32.dll
+- sspicli.dll
 api_name:
- - ImportSecurityContext
- - ImportSecurityContextA
- - ImportSecurityContextW
+- ImportSecurityContext
+- ImportSecurityContextA
+- ImportSecurityContextW
 targetos: Windows
 req.typenames: 
 req.redist: 

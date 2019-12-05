@@ -1,19 +1,17 @@
 ---
 UID: NN:mswmdm.IWMDMDevice
 title: IWMDMDevice (mswmdm.h)
-
 description: The IWMDMDevice interface provides methods to examine and explore a single portable device. The interface can be used to get information about a device and enumerate its storages. IWMDMDevice2 extends the capabilities of this interface.
 old-location: wmdm\iwmdmdevice.htm
 tech.root: WMDM
 ms.assetid: 44212da9-a38a-4ed5-86af-cf60b40bb54d
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMDevice, IWMDMDevice interface [windows Media Device Manager], IWMDMDevice interface [windows Media Device Manager],described, IWMDMDeviceInterface, mswmdm/IWMDMDevice, wmdm.iwmdmdevice
 ms.topic: interface
-f1_keywords: 
- - "mswmdm/IWMDMDevice"
+f1_keywords:
+- mswmdm/IWMDMDevice
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mswmdm.h
+- mswmdm.h
 api_name:
- - IWMDMDevice
+- IWMDMDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

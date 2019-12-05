@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxBlockMapReader
 title: IAppxBlockMapReader (appxpackaging.h)
-
 description: Represents a read-only object model for block maps that provides access to the file attributes and block hashes.
 old-location: appxpkg\iappxblockmapreader.htm
 tech.root: appxpkg
 ms.assetid: 233539FD-E3BE-4783-9F23-B34F6397FBBE
-
 ms.date: 12/05/2018
 ms.keywords: IAppxBlockMapReader, IAppxBlockMapReader interface [App packaging and management], IAppxBlockMapReader interface [App packaging and management],described, appxpackaging/IAppxBlockMapReader, appxpkg.iappxblockmapreader
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxBlockMapReader"
+f1_keywords:
+- appxpackaging/IAppxBlockMapReader
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBlockMapReader
+- IAppxBlockMapReader
 targetos: Windows
 req.typenames: 
 req.redist: 

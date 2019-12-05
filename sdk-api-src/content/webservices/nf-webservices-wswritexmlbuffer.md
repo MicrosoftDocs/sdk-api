@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsWriteXmlBuffer
 title: WsWriteXmlBuffer function (webservices.h)
-
 description: Writes a WS_XML_BUFFER to a writer.
 old-location: wsw\wswritexmlbuffer.htm
 tech.root: wsw
 ms.assetid: a0845072-95dc-4d81-8322-514b8acff32a
-
 ms.date: 12/05/2018
 ms.keywords: WsWriteXmlBuffer, WsWriteXmlBuffer function [Web Services for Windows], webservices/WsWriteXmlBuffer, wsw.wswritexmlbuffer
 ms.topic: function
-f1_keywords: 
- - "webservices/WsWriteXmlBuffer"
+f1_keywords:
+- webservices/WsWriteXmlBuffer
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsWriteXmlBuffer
+- WsWriteXmlBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

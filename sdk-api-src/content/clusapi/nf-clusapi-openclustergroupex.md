@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.OpenClusterGroupEx
 title: OpenClusterGroupEx function (clusapi.h)
-
 description: Opens a failover cluster group and returns a handle to it.
 old-location: mscs\openclustergroupex.htm
 tech.root: MsCS
 ms.assetid: 240defbb-b9e9-4455-b863-c9b2192f12b7
-
 ms.date: 12/05/2018
 ms.keywords: OpenClusterGroupEx, OpenClusterGroupEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_GROUP_EX, PCLUSAPI_OPEN_CLUSTER_GROUP_EX function [Failover Cluster], clusapi/OpenClusterGroupEx, clusapi/PCLUSAPI_OPEN_CLUSTER_GROUP_EX, mscs.openclustergroupex
 ms.topic: function
-f1_keywords: 
- - "clusapi/OpenClusterGroupEx"
+f1_keywords:
+- clusapi/OpenClusterGroupEx
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - OpenClusterGroupEx
+- OpenClusterGroupEx
 targetos: Windows
 req.typenames: 
 req.redist: 

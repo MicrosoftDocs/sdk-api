@@ -1,19 +1,17 @@
 ---
 UID: NE:isysmon.__MIDL___MIDL_itf_sysmon_0000_0000_0003
 title: SysmonBatchReason (isysmon.h)
-
 description: Defines the reason for locking the System Monitor.
 old-location: sysmon\sysmonbatchreason.htm
 tech.root: SysMon
 ms.assetid: f8dac303-105a-4d83-a92c-7d2002d7e4a3
-
 ms.date: 12/05/2018
 ms.keywords: SysmonBatchAddCounters, SysmonBatchAddFiles, SysmonBatchNone, SysmonBatchReason, SysmonBatchReason enumeration [SysMon], isysmon/SysmonBatchAddCounters, isysmon/SysmonBatchAddFiles, isysmon/SysmonBatchNone, isysmon/SysmonBatchReason, sysmon.sysmonbatchreason
 ms.topic: enum
-f1_keywords: 
- - "isysmon/SysmonBatchReason"
+f1_keywords:
+- isysmon/SysmonBatchReason
 dev_langs:
- - c++
+- c++
 req.header: isysmon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ISysmon.h
+- ISysmon.h
 api_name:
- - SysmonBatchReason
+- SysmonBatchReason
 targetos: Windows
 req.typenames: SysmonBatchReason
 req.redist: 

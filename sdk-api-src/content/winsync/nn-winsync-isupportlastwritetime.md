@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.ISupportLastWriteTime
 title: ISupportLastWriteTime (winsync.h)
-
 description: Represents a synchronization provider that is able to report the date and time when an item or change unit was last changed. This ability is useful to an application that implements last-writer-wins conflict resolution.
 old-location: winsync\isupportlastwritetime.htm
 tech.root: winsync
 ms.assetid: b95e2b75-add7-4cdd-b18a-21918e9c8c08
-
 ms.date: 12/05/2018
 ms.keywords: ISupportLastWriteTime, ISupportLastWriteTime interface [Windows Sync], ISupportLastWriteTime interface [Windows Sync],described, winsync.isupportlastwritetime, winsync/ISupportLastWriteTime
 ms.topic: interface
-f1_keywords: 
- - "winsync/ISupportLastWriteTime"
+f1_keywords:
+- winsync/ISupportLastWriteTime
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISupportLastWriteTime
+- ISupportLastWriteTime
 targetos: Windows
 req.typenames: 
 req.redist: 

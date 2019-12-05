@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRenderer.Move
 title: IInkRenderer::Move (msinkaut.h)
-
 description: Applies a translation to the view transform in ink space coordinates.
 old-location: tablet\inkrenderer_move.htm
 tech.root: tablet
 ms.assetid: a5cba79f-2ae8-43ed-bef5-1ec86da9470a
-
 ms.date: 12/05/2018
 ms.keywords: IInkRenderer, IInkRenderer interface [Tablet PC],Move method, IInkRenderer.Move, IInkRenderer::Move, Move, Move method [Tablet PC], Move method [Tablet PC],IInkRenderer interface, a5cba79f-2ae8-43ed-bef5-1ec86da9470a, msinkaut/IInkRenderer::Move, tablet.inkrenderer_move
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRenderer.Move"
+f1_keywords:
+- msinkaut/IInkRenderer.Move
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRenderer.Move
+- IInkRenderer.Move
 targetos: Windows
 req.typenames: 
 req.redist: 

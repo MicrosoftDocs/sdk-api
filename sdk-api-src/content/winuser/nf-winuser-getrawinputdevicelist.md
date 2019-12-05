@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetRawInputDeviceList
 title: GetRawInputDeviceList function (winuser.h)
-
 description: Enumerates the raw input devices attached to the system.
 old-location: inputdev\getrawinputdevicelist.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputfunctions\getrawinputdevicelist.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetRawInputDeviceList, GetRawInputDeviceList function [Keyboard and Mouse Input], _win32_GetRawInputDeviceList, _win32_getrawinputdevicelist_cpp, inputdev.getrawinputdevicelist, winui._win32_getrawinputdevicelist, winuser/GetRawInputDeviceList
 ms.topic: function
-f1_keywords: 
- - "winuser/GetRawInputDeviceList"
+f1_keywords:
+- winuser/GetRawInputDeviceList
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
- - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
- - ext-ms-win-ntuser-misc-l1-3-1.dll
- - Ext-MS-Win-NTUser-SysParaMS-Ext-L1-1-0.dll
- - Ext-MS-Win-RTCore-NTUser-Rawinput-L1-1-0.dll
- - MinUser.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+- ext-ms-win-ntuser-misc-l1-3-1.dll
+- Ext-MS-Win-NTUser-SysParaMS-Ext-L1-1-0.dll
+- Ext-MS-Win-RTCore-NTUser-Rawinput-L1-1-0.dll
+- MinUser.dll
 api_name:
- - GetRawInputDeviceList
+- GetRawInputDeviceList
 targetos: Windows
 req.typenames: 
 req.redist: 

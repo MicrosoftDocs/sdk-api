@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.GetContextPreferenceFlags
 title: GetContextPreferenceFlags function (recapis.h)
-
 description: Gets the context preference flags.
 old-location: tablet\getcontextpreferenceflags.htm
 tech.root: tablet
 ms.assetid: 0804cd56-7baf-4b93-97b5-4131118b72b6
-
 ms.date: 12/05/2018
 ms.keywords: GetContextPreferenceFlags, GetContextPreferenceFlags function [Tablet PC], recapis/GetContextPreferenceFlags, tablet.getcontextpreferenceflags
 ms.topic: function
-f1_keywords: 
- - "recapis/GetContextPreferenceFlags"
+f1_keywords:
+- recapis/GetContextPreferenceFlags
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - GetContextPreferenceFlags
+- GetContextPreferenceFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

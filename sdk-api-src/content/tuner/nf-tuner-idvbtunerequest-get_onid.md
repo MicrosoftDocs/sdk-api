@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBTuneRequest.get_ONID
 title: IDVBTuneRequest::get_ONID (tuner.h)
-
 description: The get_ONID method retrieves the original network ID.
 old-location: mstv\idvbtunerequest_get_onid.htm
 tech.root: mstv
 ms.assetid: 24cfc4bb-7df0-4380-9322-4bec6e8a2385
-
 ms.date: 12/05/2018
 ms.keywords: IDVBTuneRequest interface [Microsoft TV Technologies],get_ONID method, IDVBTuneRequest.get_ONID, IDVBTuneRequest::get_ONID, IDVBTuneRequestget_ONID, get_ONID, get_ONID method [Microsoft TV Technologies], get_ONID method [Microsoft TV Technologies],IDVBTuneRequest interface, mstv.idvbtunerequest_get_onid, tuner/IDVBTuneRequest::get_ONID
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBTuneRequest.get_ONID"
+f1_keywords:
+- tuner/IDVBTuneRequest.get_ONID
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBTuneRequest.get_ONID
+- IDVBTuneRequest.get_ONID
 targetos: Windows
 req.typenames: 
 req.redist: 

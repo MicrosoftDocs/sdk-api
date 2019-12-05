@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerCollabUnregisterEvent
 title: PeerCollabUnregisterEvent function (p2p.h)
-
 description: Deregisters an application from notification about specific peer collaboration events.
 old-location: p2p\peercollabunregisterevent.htm
 tech.root: P2PSdk
 ms.assetid: dc1bcdaa-e58e-4567-9fd2-e1fa9071880f
-
 ms.date: 12/05/2018
 ms.keywords: PeerCollabUnregisterEvent, PeerCollabUnregisterEvent function [Peer Networking], p2p.peercollabunregisterevent, p2p/PeerCollabUnregisterEvent
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerCollabUnregisterEvent"
+f1_keywords:
+- p2p/PeerCollabUnregisterEvent
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerCollabUnregisterEvent
+- PeerCollabUnregisterEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

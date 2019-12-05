@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoReleaseMarshalData
 title: CoReleaseMarshalData function (combaseapi.h)
-
 description: Destroys a previously marshaled data packet.
 old-location: com\coreleasemarshaldata.htm
 tech.root: com
 ms.assetid: a642a20f-3a3c-46bc-b833-e424dab3a16d
-
 ms.date: 12/05/2018
 ms.keywords: CoReleaseMarshalData, CoReleaseMarshalData function [COM], _com_CoReleaseMarshalData, com.coreleasemarshaldata, combaseapi/CoReleaseMarshalData
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoReleaseMarshalData"
+f1_keywords:
+- combaseapi/CoReleaseMarshalData
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoReleaseMarshalData
+- CoReleaseMarshalData
 targetos: Windows
 req.typenames: 
 req.redist: 

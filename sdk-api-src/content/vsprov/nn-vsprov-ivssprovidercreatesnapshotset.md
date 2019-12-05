@@ -1,19 +1,17 @@
 ---
 UID: NN:vsprov.IVssProviderCreateSnapshotSet
 title: IVssProviderCreateSnapshotSet (vsprov.h)
-
 description: The IVssProviderCreateSnapshotSet interface contains the methods used during shadow copy creation.
 old-location: base\ivssprovidercreatesnapshotset.htm
 tech.root: VSS
 ms.assetid: 41a795f0-7882-47a3-9226-aa50218a56e9
-
 ms.date: 12/05/2018
 ms.keywords: IVssProviderCreateSnapshotSet, IVssProviderCreateSnapshotSet interface [VSS], IVssProviderCreateSnapshotSet interface [VSS],described, base.ivssprovidercreatesnapshotset, vsprov/IVssProviderCreateSnapshotSet
 ms.topic: interface
-f1_keywords: 
- - "vsprov/IVssProviderCreateSnapshotSet"
+f1_keywords:
+- vsprov/IVssProviderCreateSnapshotSet
 dev_langs:
- - c++
+- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsProv.h
+- VsProv.h
 api_name:
- - IVssProviderCreateSnapshotSet
+- IVssProviderCreateSnapshotSet
 targetos: Windows
 req.typenames: 
 req.redist: 

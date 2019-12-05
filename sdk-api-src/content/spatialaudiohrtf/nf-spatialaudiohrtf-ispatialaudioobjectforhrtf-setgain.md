@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudiohrtf.ISpatialAudioObjectForHrtf.SetGain
 title: ISpatialAudioObjectForHrtf::SetGain (spatialaudiohrtf.h)
-
 description: Sets the gain for the ISpatialAudioObjectForHrtf.
 old-location: coreaudio\ispatialaudioobjectforhrtf_setgain.htm
 tech.root: CoreAudio
 ms.assetid: 7DE268DC-5AA0-4866-8495-34292AEFB142
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetGain method, ISpatialAudioObjectForHrtf.SetGain, ISpatialAudioObjectForHrtf::SetGain, SetGain, SetGain method [Core Audio], SetGain method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setgain, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetGain
 ms.topic: method
-f1_keywords: 
- - "spatialaudiohrtf/ISpatialAudioObjectForHrtf.SetGain"
+f1_keywords:
+- spatialaudiohrtf/ISpatialAudioObjectForHrtf.SetGain
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudiohrtf.h
+- spatialaudiohrtf.h
 api_name:
- - ISpatialAudioObjectForHrtf.SetGain
+- ISpatialAudioObjectForHrtf.SetGain
 targetos: Windows
 req.typenames: 
 req.redist: 

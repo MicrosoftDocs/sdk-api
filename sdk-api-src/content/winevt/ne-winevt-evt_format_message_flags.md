@@ -1,19 +1,17 @@
 ---
 UID: NE:winevt._EVT_FORMAT_MESSAGE_FLAGS
 title: EVT_FORMAT_MESSAGE_FLAGS (winevt.h)
-
 description: Defines the values that specify the message string from the event to format.
 old-location: wes\evt_format_message_flags.htm
 tech.root: wes
 ms.assetid: 6a8ed14a-1952-4fcf-ac66-12c1fecd363f
-
 ms.date: 12/05/2018
 ms.keywords: EVT_FORMAT_MESSAGE_FLAGS, EVT_FORMAT_MESSAGE_FLAGS enumeration [EventLog], EvtFormatMessageChannel, EvtFormatMessageEvent, EvtFormatMessageId, EvtFormatMessageKeyword, EvtFormatMessageLevel, EvtFormatMessageOpcode, EvtFormatMessageProvider, EvtFormatMessageTask, EvtFormatMessageXml, wes.evt_format_message_flags, winevt/EVT_FORMAT_MESSAGE_FLAGS, winevt/EvtFormatMessageChannel, winevt/EvtFormatMessageEvent, winevt/EvtFormatMessageId, winevt/EvtFormatMessageKeyword, winevt/EvtFormatMessageLevel, winevt/EvtFormatMessageOpcode, winevt/EvtFormatMessageProvider, winevt/EvtFormatMessageTask, winevt/EvtFormatMessageXml
 ms.topic: enum
-f1_keywords: 
- - "winevt/EVT_FORMAT_MESSAGE_FLAGS"
+f1_keywords:
+- winevt/EVT_FORMAT_MESSAGE_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinEvt.h
+- WinEvt.h
 api_name:
- - EVT_FORMAT_MESSAGE_FLAGS
+- EVT_FORMAT_MESSAGE_FLAGS
 targetos: Windows
 req.typenames: EVT_FORMAT_MESSAGE_FLAGS
 req.redist: 

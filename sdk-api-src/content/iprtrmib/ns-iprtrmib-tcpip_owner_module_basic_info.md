@@ -1,19 +1,17 @@
 ---
 UID: NS:iprtrmib._TCPIP_OWNER_MODULE_BASIC_INFO
 title: TCPIP_OWNER_MODULE_BASIC_INFO (iprtrmib.h)
-
 description: Contains pointers to the module name and module path values associated with a TCP connection. The TCPIP_OWNER_MODULE_BASIC_INFO structure is returned by the GetOwnerModuleFromTcpEntry and GetOwnerModuleFromTcp6Entry functions.
 old-location: iphlp\tcpip_owner_module_basic_info.htm
 tech.root: IpHlp
 ms.assetid: cce3e0ff-31f2-454b-8aae-3b35f72f47ed
-
 ms.date: 12/05/2018
-ms.keywords: "*PTCPIP_OWNER_MODULE_BASIC_INFO, PTCPIP_OWNER_MODULE_BASIC_INFO, PTCPIP_OWNER_MODULE_BASIC_INFO structure pointer [IP Helper], TCPIP_OWNER_MODULE_BASIC_INFO, TCPIP_OWNER_MODULE_BASIC_INFO structure [IP Helper], iphlp.tcpip_owner_module_basic_info, iphlpapi/PTCPIP_OWNER_MODULE_BASIC_INFO, iphlpapi/TCPIP_OWNER_MODULE_BASIC_INFO, iprtrmib/PTCPIP_OWNER_MODULE_BASIC_INFO, iprtrmib/TCPIP_OWNER_MODULE_BASIC_INFO"
+ms.keywords: '*PTCPIP_OWNER_MODULE_BASIC_INFO, PTCPIP_OWNER_MODULE_BASIC_INFO, PTCPIP_OWNER_MODULE_BASIC_INFO structure pointer [IP Helper], TCPIP_OWNER_MODULE_BASIC_INFO, TCPIP_OWNER_MODULE_BASIC_INFO structure [IP Helper], iphlp.tcpip_owner_module_basic_info, iphlpapi/PTCPIP_OWNER_MODULE_BASIC_INFO, iphlpapi/TCPIP_OWNER_MODULE_BASIC_INFO, iprtrmib/PTCPIP_OWNER_MODULE_BASIC_INFO, iprtrmib/TCPIP_OWNER_MODULE_BASIC_INFO'
 ms.topic: struct
-f1_keywords: 
- - "iprtrmib/TCPIP_OWNER_MODULE_BASIC_INFO"
+f1_keywords:
+- iprtrmib/TCPIP_OWNER_MODULE_BASIC_INFO
 dev_langs:
- - c++
+- c++
 req.header: iprtrmib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iprtrmib.h
- - Iphlpapi.h
+- Iprtrmib.h
+- Iphlpapi.h
 api_name:
- - TCPIP_OWNER_MODULE_BASIC_INFO
+- TCPIP_OWNER_MODULE_BASIC_INFO
 targetos: Windows
 req.typenames: TCPIP_OWNER_MODULE_BASIC_INFO, *PTCPIP_OWNER_MODULE_BASIC_INFO
 req.redist: 

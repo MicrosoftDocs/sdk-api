@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegEnumKeyExA
 title: RegEnumKeyExA function (winreg.h)
-
 description: Enumerates the subkeys of the specified open registry key. The function retrieves information about one subkey each time it is called.
 old-location: base\regenumkeyex.htm
 tech.root: SysInfo
 ms.assetid: 647d34cc-01ba-4389-be29-b099ed198e7c
-
 ms.date: 12/05/2018
 ms.keywords: RegEnumKeyEx, RegEnumKeyEx function, RegEnumKeyExA, RegEnumKeyExW, _win32_regenumkeyex, base.regenumkeyex, winreg/RegEnumKeyEx, winreg/RegEnumKeyExA, winreg/RegEnumKeyExW
 ms.topic: function
-f1_keywords: 
- - "winreg/RegEnumKeyEx"
+f1_keywords:
+- winreg/RegEnumKeyEx
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Localregistry-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Registry-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - MinKernelBase.dll
- - api-ms-win-core-registry-l1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-Core-Localregistry-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Registry-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- MinKernelBase.dll
+- api-ms-win-core-registry-l1-1-1.dll
 api_name:
- - RegEnumKeyEx
- - RegEnumKeyExA
- - RegEnumKeyExW
+- RegEnumKeyEx
+- RegEnumKeyExA
+- RegEnumKeyExW
 targetos: Windows
 req.typenames: 
 req.redist: 

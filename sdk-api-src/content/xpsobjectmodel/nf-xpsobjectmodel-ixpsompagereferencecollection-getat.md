@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReferenceCollection.GetAt
 title: IXpsOMPageReferenceCollection::GetAt (xpsobjectmodel.h)
-
 description: Gets an IXpsOMPageReference interface pointer from a specified location in the collection.
 old-location: xps\ixpsompagereferencecollection_getat.htm
 tech.root: printdocs
 ms.assetid: 5b888771-fc69-4857-94a4-eea5a068c740
-
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMPageReferenceCollection interface, IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMPageReferenceCollection.GetAt, IXpsOMPageReferenceCollection::GetAt, xps.ixpsompagereferencecollection_getat, xpsobjectmodel/IXpsOMPageReferenceCollection::GetAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPageReferenceCollection.GetAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPageReferenceCollection.GetAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPageReferenceCollection.GetAt
+- IXpsOMPageReferenceCollection.GetAt
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D_ROOT_SIGNATURE_VERSION
 title: D3D_ROOT_SIGNATURE_VERSION (d3d12.h)
-
 description: Specifies the version of root signature layout.
 old-location: direct3d12\d3d_root_signature_version.htm
 tech.root: direct3d12
 ms.assetid: 44A22509-5CAE-4C4E-ADC6-E86B5BD8CE3B
-
 ms.date: 12/05/2018
 ms.keywords: D3D_ROOT_SIGNATURE_VERSION, D3D_ROOT_SIGNATURE_VERSION enumeration, D3D_ROOT_SIGNATURE_VERSION_1, D3D_ROOT_SIGNATURE_VERSION_1_0, D3D_ROOT_SIGNATURE_VERSION_1_1, d3d12/D3D_ROOT_SIGNATURE_VERSION, d3d12/D3D_ROOT_SIGNATURE_VERSION_1, d3d12/D3D_ROOT_SIGNATURE_VERSION_1_0, d3d12/D3D_ROOT_SIGNATURE_VERSION_1_1, direct3d12.d3d_root_signature_version
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D_ROOT_SIGNATURE_VERSION"
+f1_keywords:
+- d3d12/D3D_ROOT_SIGNATURE_VERSION
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D_ROOT_SIGNATURE_VERSION
+- D3D_ROOT_SIGNATURE_VERSION
 targetos: Windows
 req.typenames: D3D_ROOT_SIGNATURE_VERSION
 req.redist: 

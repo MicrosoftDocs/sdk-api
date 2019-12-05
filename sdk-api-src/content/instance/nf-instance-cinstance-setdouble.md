@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.SetDOUBLE
 title: CInstance::SetDOUBLE (instance.h)
-
 description: CInstance::SetDOUBLE method
 old-location: wmi\cinstance_setdouble.htm
 tech.root: WmiSdk
 ms.assetid: 5b6e2dcf-6feb-454a-a56a-79ae1506b4f9
-
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],SetDOUBLE method, CInstance.SetDOUBLE, CInstance::SetDOUBLE, SetDOUBLE, SetDOUBLE method [Windows Management Instrumentation], SetDOUBLE method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setdouble, instance/CInstance::SetDOUBLE, wmi.cinstance_setdouble
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.SetDOUBLE"
+f1_keywords:
+- instance/CInstance.SetDOUBLE
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.SetDOUBLE
+- CInstance.SetDOUBLE
 targetos: Windows
 req.typenames: 
 req.redist: 

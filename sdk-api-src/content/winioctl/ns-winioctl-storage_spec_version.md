@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._STORAGE_SPEC_VERSION
 title: STORAGE_SPEC_VERSION
-
 description: Storage specification version.
 old-location: fs\storage_spec_version.htm
 tech.root: FileIO
 ms.assetid: 470DBBC0-A7D7-42A6-97D0-44AEAC990576
-
 ms.date: 12/05/2018
-ms.keywords: "*PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION structure pointer [Files], STORAGE_SPEC_VERSION, STORAGE_SPEC_VERSION structure [Files], fs.storage_spec_version, winioctl/PSTORAGE_SPEC_VERSION, winioctl/_STORAGE_SPEC_VERSION"
+ms.keywords: '*PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION structure pointer [Files], STORAGE_SPEC_VERSION, STORAGE_SPEC_VERSION structure [Files], fs.storage_spec_version, winioctl/PSTORAGE_SPEC_VERSION, winioctl/_STORAGE_SPEC_VERSION'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/STORAGE_SPEC_VERSION"
+f1_keywords:
+- winioctl/STORAGE_SPEC_VERSION
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - STORAGE_SPEC_VERSION
+- STORAGE_SPEC_VERSION
 targetos: Windows
 req.typenames: STORAGE_SPEC_VERSION, *PSTORAGE_SPEC_VERSION
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.SetNtmsRequestOrder
 title: SetNtmsRequestOrder function (ntmsapi.h)
-
 description: The SetNtmsRequestOrder function sets the order that the specified request will be processed in the library queue.
 old-location: fs\setntmsrequestorder.htm
 tech.root: Rsm
 ms.assetid: d7171ce9-14d9-4fbc-b95f-19c502adedd0
-
 ms.date: 12/05/2018
 ms.keywords: SetNtmsRequestOrder, SetNtmsRequestOrder function [Files], _zaw_setntmsrequestorder, base.setntmsrequestorder, fs.setntmsrequestorder, ntmsapi/SetNtmsRequestOrder
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/SetNtmsRequestOrder"
+f1_keywords:
+- ntmsapi/SetNtmsRequestOrder
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - SetNtmsRequestOrder
+- SetNtmsRequestOrder
 targetos: Windows
 req.typenames: 
 req.redist: 

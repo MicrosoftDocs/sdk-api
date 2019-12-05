@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateDiscreteVectorTransition
 title: IUIAnimationTransitionLibrary2::CreateDiscreteVectorTransition (uianimation.h)
-
 description: Creates a discrete vector transition for each specified dimension.
 old-location: uianimation\iuianimationtransitionlibrary2_creatediscretevectortransition.htm
 tech.root: UIAnimation
 ms.assetid: 8580FED2-7F39-4EA8-B2C5-CDB887121359
-
 ms.date: 12/05/2018
 ms.keywords: CreateDiscreteVectorTransition, CreateDiscreteVectorTransition method [Windows Animation], CreateDiscreteVectorTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateDiscreteVectorTransition method, IUIAnimationTransitionLibrary2.CreateDiscreteVectorTransition, IUIAnimationTransitionLibrary2::CreateDiscreteVectorTransition, uianimation.iuianimationtransitionlibrary2_creatediscretevectortransition, uianimation/IUIAnimationTransitionLibrary2::CreateDiscreteVectorTransition
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTransitionLibrary2.CreateDiscreteVectorTransition"
+f1_keywords:
+- uianimation/IUIAnimationTransitionLibrary2.CreateDiscreteVectorTransition
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTransitionLibrary2.CreateDiscreteVectorTransition
+- IUIAnimationTransitionLibrary2.CreateDiscreteVectorTransition
 targetos: Windows
 req.typenames: 
 req.redist: 

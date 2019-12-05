@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlayer4.openPlayer
 title: IWMPPlayer4::openPlayer (wmp.h)
-
 description: The openPlayer method opens Windows Media Player using the specified URL.
 old-location: wmp\iwmpplayer4_openplayer.htm
 tech.root: WMP
 ms.assetid: e2f08758-cd72-4b6b-bc9c-86f93d1d76c2
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer4 interface [Windows Media Player],openPlayer method, IWMPPlayer4.openPlayer, IWMPPlayer4::openPlayer, IWMPPlayer4openPlayer, openPlayer, openPlayer method [Windows Media Player], openPlayer method [Windows Media Player],IWMPPlayer4 interface, wmp.iwmpplayer4_openplayer, wmp/IWMPPlayer4::openPlayer
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlayer4.openPlayer"
+f1_keywords:
+- wmp/IWMPPlayer4.openPlayer
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlayer4.openPlayer
+- IWMPPlayer4.openPlayer
 targetos: Windows
 req.typenames: 
 req.redist: 

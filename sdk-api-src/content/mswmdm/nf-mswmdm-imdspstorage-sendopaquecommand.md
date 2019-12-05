@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPStorage.SendOpaqueCommand
 title: IMDSPStorage::SendOpaqueCommand (mswmdm.h)
-
 description: The SendOpaqueCommands method sends a command through Windows Media Device Manager. Without acting on it, Windows Media Device Manager passes the command through to a device.
 old-location: wmdm\imdspstorage_sendopaquecommands.htm
 tech.root: WMDM
 ms.assetid: c8a43a21-6ea4-4402-b0fc-2ce7868c83d7
-
 ms.date: 12/05/2018
 ms.keywords: IMDSPStorage interface [windows Media Device Manager],SendOpaqueCommand method, IMDSPStorage.SendOpaqueCommand, IMDSPStorage::SendOpaqueCommand, IMDSPStorageSendOpaqueCommand, SendOpaqueCommand, SendOpaqueCommand method [windows Media Device Manager], SendOpaqueCommand method [windows Media Device Manager],IMDSPStorage interface, mswmdm/IMDSPStorage::SendOpaqueCommand, wmdm.imdspstorage_sendopaquecommands
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPStorage.SendOpaqueCommand"
+f1_keywords:
+- mswmdm/IMDSPStorage.SendOpaqueCommand
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPStorage.SendOpaqueCommand
+- IMDSPStorage.SendOpaqueCommand
 targetos: Windows
 req.typenames: 
 req.redist: 

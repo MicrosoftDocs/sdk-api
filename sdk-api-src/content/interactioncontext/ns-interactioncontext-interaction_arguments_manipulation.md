@@ -1,19 +1,17 @@
 ---
 UID: NS:interactioncontext.INTERACTION_ARGUMENTS_MANIPULATION
 title: INTERACTION_ARGUMENTS_MANIPULATION (interactioncontext.h)
-
 description: Defines the state of a manipulation.
 old-location: input_intcontext\interaction_arguments_manipulation.htm
 tech.root: Input_IntContext
 ms.assetid: 8ef21f5a-51ae-4923-a5b4-0ee18bca563f
-
 ms.date: 12/05/2018
 ms.keywords: INTERACTION_ARGUMENTS_MANIPULATION, INTERACTION_ARGUMENTS_MANIPULATION structure, input_intcontext.interaction_arguments_manipulation, interactioncontext.interaction_arguments_manipulation, interactioncontext/INTERACTION_ARGUMENTS_MANIPULATION
 ms.topic: struct
-f1_keywords: 
- - "interactioncontext/INTERACTION_ARGUMENTS_MANIPULATION"
+f1_keywords:
+- interactioncontext/INTERACTION_ARGUMENTS_MANIPULATION
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - interactioncontext.h
+- interactioncontext.h
 api_name:
- - INTERACTION_ARGUMENTS_MANIPULATION
+- INTERACTION_ARGUMENTS_MANIPULATION
 targetos: Windows
 req.typenames: INTERACTION_ARGUMENTS_MANIPULATION
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFAsyncResult.SetStatus
 title: IMFAsyncResult::SetStatus (mfobjects.h)
-
 description: Sets the status of the asynchronous operation.
 old-location: mf\imfasyncresult_setstatus.htm
 tech.root: medfound
 ms.assetid: 79dec067-ba54-435b-8744-9a6f43dd416d
-
 ms.date: 12/05/2018
 ms.keywords: 79dec067-ba54-435b-8744-9a6f43dd416d, IMFAsyncResult interface [Media Foundation],SetStatus method, IMFAsyncResult.SetStatus, IMFAsyncResult::SetStatus, SetStatus, SetStatus method [Media Foundation], SetStatus method [Media Foundation],IMFAsyncResult interface, mf.imfasyncresult_setstatus, mfobjects/IMFAsyncResult::SetStatus
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFAsyncResult.SetStatus"
+f1_keywords:
+- mfobjects/IMFAsyncResult.SetStatus
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAsyncResult.SetStatus
+- IMFAsyncResult.SetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

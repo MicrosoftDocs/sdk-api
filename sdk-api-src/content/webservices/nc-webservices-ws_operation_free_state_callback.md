@@ -1,19 +1,17 @@
 ---
 UID: NC:webservices.WS_OPERATION_FREE_STATE_CALLBACK
 title: WS_OPERATION_FREE_STATE_CALLBACK (webservices.h)
-
 description: Allows an application to cleanup state information that was registered with cancellation callback.
 old-location: wsw\ws_operation_free_state_callback.htm
 tech.root: wsw
 ms.assetid: 46b30bb3-00c6-4f54-b040-683cd6dd5525
-
 ms.date: 12/05/2018
 ms.keywords: WS_OPERATION_FREE_STATE_CALLBACK, WS_OPERATION_FREE_STATE_CALLBACK callback, WS_OPERATION_FREE_STATE_CALLBACK callback function [Web Services for Windows], webservices/WS_OPERATION_FREE_STATE_CALLBACK, wsw.ws_operation_free_state_callback
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_OPERATION_FREE_STATE_CALLBACK"
+f1_keywords:
+- webservices/WS_OPERATION_FREE_STATE_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_OPERATION_FREE_STATE_CALLBACK
+- WS_OPERATION_FREE_STATE_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11_3.D3D11_TEX2D_RTV1
 title: D3D11_TEX2D_RTV1 (d3d11_3.h)
-
 description: Describes the subresource from a 2D texture to use in a render-target view.
 old-location: direct3d11\d3d11_tex2d_rtv1.htm
 tech.root: direct3d11
 ms.assetid: CA815C7D-BA10-4C1B-A6E6-8B42229179B1
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_TEX2D_RTV1, D3D11_TEX2D_RTV1 structure [Direct3D 11], d3d11_3/D3D11_TEX2D_RTV1, direct3d11.d3d11_tex2d_rtv1
 ms.topic: struct
-f1_keywords: 
- - "d3d11_3/D3D11_TEX2D_RTV1"
+f1_keywords:
+- d3d11_3/D3D11_TEX2D_RTV1
 dev_langs:
- - c++
+- c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11_3.h
+- D3D11_3.h
 api_name:
- - D3D11_TEX2D_RTV1
+- D3D11_TEX2D_RTV1
 targetos: Windows
 req.typenames: D3D11_TEX2D_RTV1
 req.redist: 

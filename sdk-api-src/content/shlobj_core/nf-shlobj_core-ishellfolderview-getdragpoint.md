@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.GetDragPoint
 title: IShellFolderView::GetDragPoint (shlobj_core.h)
-
 description: Gets the point at which the current drag-and-drop operation was initiated.
 old-location: shell\IShellFolderView_GetDragPoint.htm
 tech.root: shell
 ms.assetid: 6ea29e97-41cb-4de7-8320-1d6389cfb6f6
-
 ms.date: 12/05/2018
 ms.keywords: GetDragPoint, GetDragPoint method [Windows Shell], GetDragPoint method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetDragPoint method, IShellFolderView.GetDragPoint, IShellFolderView::GetDragPoint, _shell_IShellFolderView_GetDragPoint, shell.IShellFolderView_GetDragPoint, shlobj_core/IShellFolderView::GetDragPoint
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IShellFolderView.GetDragPoint"
+f1_keywords:
+- shlobj_core/IShellFolderView.GetDragPoint
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - IShellFolderView.GetDragPoint
+- IShellFolderView.GetDragPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

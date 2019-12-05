@@ -1,19 +1,17 @@
 ---
 UID: NS:wincodec.WICDdsParameters
 title: WICDdsParameters (wincodec.h)
-
 description: Specifies the DDS image dimension, DXGI_FORMAT and alpha mode of contained data.
 old-location: wic\wicddsparameters.htm
 tech.root: wic
 ms.assetid: 2E5755B4-E8DC-40B2-8DA1-B053A261079B
-
 ms.date: 12/05/2018
 ms.keywords: PWICDdsParameters, PWICDdsParameters structure pointer [Windows Imaging Component], WICDdsParameters, WICDdsParameters structure [Windows Imaging Component], wic.wicddsparameters, wincodec/PWICDdsParameters, wincodec/WICDdsParameters
 ms.topic: struct
-f1_keywords: 
- - "wincodec/WICDdsParameters"
+f1_keywords:
+- wincodec/WICDdsParameters
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICDdsParameters
+- WICDdsParameters
 targetos: Windows
 req.typenames: WICDdsParameters
 req.redist: 

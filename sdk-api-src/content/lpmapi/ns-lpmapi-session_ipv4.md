@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_1
 title: Session_IPv4 (lpmapi.h)
-
 description: The Session_IPv4 structure stores information about an IPv4 RSVP SESSION object.
 old-location: qos\session_ipv4.htm
 tech.root: QOS
 ms.assetid: 8fbe41f2-c7c7-4476-b5e6-f3306ce74cf6
-
 ms.date: 12/05/2018
 ms.keywords: Session_IPv4, Session_IPv4 structure [QOS], lpmapi/Session_IPv4, qos.session_ipv4
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/Session_IPv4"
+f1_keywords:
+- lpmapi/Session_IPv4
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - Session_IPv4
+- Session_IPv4
 targetos: Windows
 req.typenames: Session_IPv4
 req.redist: 

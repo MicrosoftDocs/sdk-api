@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnInterface.ScanNetwork
 title: IMbnInterface::ScanNetwork (mbnapi.h)
-
 description: Asynchronously scans the network to get a list of visible providers.
 old-location: mbn\imbninterface_scannetwork.htm
 tech.root: mbn
 ms.assetid: 72db3d85-b7f2-4dae-9637-b003df6e9cf5
-
 ms.date: 12/05/2018
 ms.keywords: IMbnInterface interface [Microsoft Broadband Networks],ScanNetwork method, IMbnInterface.ScanNetwork, IMbnInterface::ScanNetwork, ScanNetwork, ScanNetwork method [Microsoft Broadband Networks], ScanNetwork method [Microsoft Broadband Networks],IMbnInterface interface, mbn.imbninterface_scannetwork, mbnapi/IMbnInterface::ScanNetwork
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnInterface.ScanNetwork"
+f1_keywords:
+- mbnapi/IMbnInterface.ScanNetwork
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnInterface.ScanNetwork
+- IMbnInterface.ScanNetwork
 targetos: Windows
 req.typenames: 
 req.redist: 

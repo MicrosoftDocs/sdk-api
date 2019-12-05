@@ -1,19 +1,17 @@
 ---
 UID: NS:ncryptprotect.NCRYPT_PROTECT_STREAM_INFO
 title: NCRYPT_PROTECT_STREAM_INFO (ncryptprotect.h)
-
 description: Is used by the NCryptStreamOpenToProtect and NCryptStreamOpenToUnprotect functions to pass blocks of processed data to your application.
 old-location: security\ncrypt_protect_stream_info.htm
 tech.root: SecCNG
 ms.assetid: 77FADFC1-6C66-4801-B0BD-263963555C3C
-
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_PROTECT_STREAM_INFO, NCRYPT_PROTECT_STREAM_INFO structure [Security], PNCRYPT_PROTECT_STREAM_INFO, PNCRYPT_PROTECT_STREAM_INFO structure pointer [Security], ncryptprotect/NCRYPT_PROTECT_STREAM_INFO, ncryptprotect/PNCRYPT_PROTECT_STREAM_INFO, security.ncrypt_protect_stream_info
 ms.topic: struct
-f1_keywords: 
- - "ncryptprotect/NCRYPT_PROTECT_STREAM_INFO"
+f1_keywords:
+- ncryptprotect/NCRYPT_PROTECT_STREAM_INFO
 dev_langs:
- - c++
+- c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - NCryptprotect.h
+- NCryptprotect.h
 api_name:
- - NCRYPT_PROTECT_STREAM_INFO
+- NCRYPT_PROTECT_STREAM_INFO
 targetos: Windows
 req.typenames: NCRYPT_PROTECT_STREAM_INFO
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollectorCollection.AddRange
 title: IDataCollectorCollection::AddRange (pla.h)
-
 description: Adds one or more data collectors to the collection.
 old-location: pla\idatacollectorcollection_addrange.htm
 tech.root: PLA
 ms.assetid: e7482bc4-18a4-4267-9ceb-1552dd71391c
-
 ms.date: 12/05/2018
 ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],IDataCollectorCollection interface, IDataCollectorCollection interface [PLA],AddRange method, IDataCollectorCollection.AddRange, IDataCollectorCollection::AddRange, base.idatacollectorcollection_addrange, pla.idatacollectorcollection_addrange, pla/IDataCollectorCollection::AddRange
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollectorCollection.AddRange"
+f1_keywords:
+- pla/IDataCollectorCollection.AddRange
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollectorCollection.AddRange
+- IDataCollectorCollection.AddRange
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationItemContainerPattern.FindItemByProperty
 title: IUIAutomationItemContainerPattern::FindItemByProperty (uiautomationclient.h)
-
 description: Retrieves an element within a containing element, based on a specified property value.
 old-location: winauto\uiauto_IUIAutomationItemContainerPattern_FindItemByProperty.htm
 tech.root: WinAuto
 ms.assetid: d27f07ae-2c88-4cde-99b8-0c8c987b95d3
-
 ms.date: 12/05/2018
 ms.keywords: FindItemByProperty, FindItemByProperty method [Windows Accessibility], FindItemByProperty method [Windows Accessibility],IUIAutomationItemContainerPattern interface, IUIAutomationItemContainerPattern interface [Windows Accessibility],FindItemByProperty method, IUIAutomationItemContainerPattern.FindItemByProperty, IUIAutomationItemContainerPattern::FindItemByProperty, uiauto.uiauto_IUIAutomationItemContainerPattern_FindItemByProperty, uiauto_IUIAutomationItemContainerPattern_FindItemByProperty, uiautomationclient/IUIAutomationItemContainerPattern::FindItemByProperty, winauto.uiauto_IUIAutomationItemContainerPattern_FindItemByProperty
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationItemContainerPattern.FindItemByProperty"
+f1_keywords:
+- uiautomationclient/IUIAutomationItemContainerPattern.FindItemByProperty
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationItemContainerPattern.FindItemByProperty
+- IUIAutomationItemContainerPattern.FindItemByProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

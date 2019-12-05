@@ -1,19 +1,17 @@
 ---
 UID: NN:rtscom.IRealTimeStylus
 title: IRealTimeStylus (rtscom.h)
-
 description: Handles the stylus packet data from a digitizer in real time.
 old-location: tablet\irealtimestylus.htm
 tech.root: tablet
 ms.assetid: bfd13012-decf-423a-bc1a-39fb9b0eb64e
-
 ms.date: 12/05/2018
 ms.keywords: IRealTimeStylus, IRealTimeStylus interface [Tablet PC], IRealTimeStylus interface [Tablet PC],described, bfd13012-decf-423a-bc1a-39fb9b0eb64e, rtscom/IRealTimeStylus, tablet.irealtimestylus
 ms.topic: interface
-f1_keywords: 
- - "rtscom/IRealTimeStylus"
+f1_keywords:
+- rtscom/IRealTimeStylus
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IRealTimeStylus
+- IRealTimeStylus
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfile2.GetProfileID
 title: IWMProfile2::GetProfileID (wmsdkidl.h)
-
 description: The GetProfileID method retrieves the globally unique identifier of a system profile.
 old-location: wmformat\iwmprofile2_getprofileid.htm
 tech.root: wmformat
 ms.assetid: 82e3e086-4b19-4eb9-91ad-d30392f97a28
-
 ms.date: 12/05/2018
 ms.keywords: GetProfileID, GetProfileID method [windows Media Format], GetProfileID method [windows Media Format],IWMProfile2 interface, GetProfileID method [windows Media Format],IWMProfile3 interface, IWMProfile2 interface [windows Media Format],GetProfileID method, IWMProfile2.GetProfileID, IWMProfile2::GetProfileID, IWMProfile2GetProfileID, IWMProfile3 interface [windows Media Format],GetProfileID method, IWMProfile3::GetProfileID, wmformat.iwmprofile2_getprofileid, wmsdkidl/IWMProfile2::GetProfileID, wmsdkidl/IWMProfile3::GetProfileID
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfile2.GetProfileID"
+f1_keywords:
+- wmsdkidl/IWMProfile2.GetProfileID
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
- - qasf.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
+- qasf.dll
 api_name:
- - IWMProfile2.GetProfileID
- - IWMProfile3.GetProfileID
+- IWMProfile2.GetProfileID
+- IWMProfile3.GetProfileID
 targetos: Windows
 req.typenames: 
 req.redist: 

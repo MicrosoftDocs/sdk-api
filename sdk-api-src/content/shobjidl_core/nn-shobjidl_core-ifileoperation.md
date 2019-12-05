@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IFileOperation
 title: IFileOperation (shobjidl_core.h)
-
 description: Exposes methods to copy, move, rename, create, and delete Shell items as well as methods to provide progress and error dialogs. This interface replaces the SHFileOperation function.
 old-location: shell\IFileOperation.htm
 tech.root: shell
 ms.assetid: 6596607e-0699-4eb6-b0d6-7cc2e5eb49c7
-
 ms.date: 12/05/2018
 ms.keywords: IFileOperation, IFileOperation interface [Windows Shell], IFileOperation interface [Windows Shell],described, _shell_IFileOperation, shell.IFileOperation, shobjidl_core/IFileOperation
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IFileOperation"
+f1_keywords:
+- shobjidl_core/IFileOperation
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 6.0.6000 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IFileOperation
+- IFileOperation
 targetos: Windows
 req.typenames: 
 req.redist: 

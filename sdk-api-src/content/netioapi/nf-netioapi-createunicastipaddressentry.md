@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.CreateUnicastIpAddressEntry
 title: CreateUnicastIpAddressEntry function (netioapi.h)
-
 description: Adds a new unicast IP address entry on the local computer.
 old-location: iphlp\createunicastipaddressentry.htm
 tech.root: IpHlp
 ms.assetid: 8afca4e9-a4c4-4f93-bb4d-25e2eea71ae0
-
 ms.date: 12/05/2018
 ms.keywords: CreateUnicastIpAddressEntry, CreateUnicastIpAddressEntry function [IP Helper], iphlp.createunicastipaddressentry, netioapi/CreateUnicastIpAddressEntry
 ms.topic: function
-f1_keywords: 
- - "netioapi/CreateUnicastIpAddressEntry"
+f1_keywords:
+- netioapi/CreateUnicastIpAddressEntry
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - CreateUnicastIpAddressEntry
+- CreateUnicastIpAddressEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

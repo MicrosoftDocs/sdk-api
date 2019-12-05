@@ -1,19 +1,17 @@
 ---
 UID: NF:provider.Provider.MakeLocalPath
 title: Provider::MakeLocalPath (provider.h)
-
 description: The MakeLocalPath method builds a full instance path from a relative path.
 old-location: wmi\provider_makelocalpath.htm
 tech.root: WmiSdk
 ms.assetid: 8a2476c0-73c0-4a95-8973-e6da451116af
-
 ms.date: 12/05/2018
 ms.keywords: MakeLocalPath, MakeLocalPath method [Windows Management Instrumentation], MakeLocalPath method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],MakeLocalPath method, Provider.MakeLocalPath, Provider::MakeLocalPath, _hmm_provider_makelocalpath, provider/Provider::MakeLocalPath, wmi.provider_makelocalpath
 ms.topic: method
-f1_keywords: 
- - "provider/Provider.MakeLocalPath"
+f1_keywords:
+- provider/Provider.MakeLocalPath
 dev_langs:
- - c++
+- c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - Provider.MakeLocalPath
+- Provider.MakeLocalPath
 targetos: Windows
 req.typenames: 
 req.redist: 

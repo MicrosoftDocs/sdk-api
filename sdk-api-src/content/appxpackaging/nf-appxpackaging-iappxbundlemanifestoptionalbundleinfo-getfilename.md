@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestOptionalBundleInfo.GetFileName
 title: IAppxBundleManifestOptionalBundleInfo::GetFileName (appxpackaging.h)
-
 description: Retrieves the file-name attribute of the &lt;OptionalBundle&gt;.
 old-location: appxpkg\iappxbundlemanifestoptionalbundleinfo_getfilename.htm
 tech.root: appxpkg
 ms.assetid: 6553DAC3-D938-4653-8DE4-A5CA02640D31
-
 ms.date: 12/05/2018
 ms.keywords: GetFileName, GetFileName method [App packaging and management], GetFileName method [App packaging and management],IAppxBundleManifestOptionalBundleInfo interface, IAppxBundleManifestOptionalBundleInfo interface [App packaging and management],GetFileName method, IAppxBundleManifestOptionalBundleInfo.GetFileName, IAppxBundleManifestOptionalBundleInfo::GetFileName, appxpackaging/IAppxBundleManifestOptionalBundleInfo::GetFileName, appxpkg.iappxbundlemanifestoptionalbundleinfo_getfilename
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBundleManifestOptionalBundleInfo.GetFileName"
+f1_keywords:
+- appxpackaging/IAppxBundleManifestOptionalBundleInfo.GetFileName
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleManifestOptionalBundleInfo.GetFileName
+- IAppxBundleManifestOptionalBundleInfo.GetFileName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.put_Name
 title: IFsrmPipelineModuleDefinition::put_Name (fsrmpipeline.h)
-
 description: The name of the module definition.
 old-location: fsrm\ifsrmpipelinemoduledefinition_name.htm
 tech.root: fsrm
 ms.assetid: 486c659e-59af-4a82-bcb0-72d12c2d05df
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmPipelineModuleDefinition interface [File Server Resource Manager],Name property, IFsrmPipelineModuleDefinition.Name, IFsrmPipelineModuleDefinition.put_Name, IFsrmPipelineModuleDefinition::Name, IFsrmPipelineModuleDefinition::get_Name, IFsrmPipelineModuleDefinition::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_name, fsrm.ifsrmpipelinemoduledefinition_name, fsrmpipeline/IFsrmPipelineModuleDefinition::Name, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Name, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Name, put_Name
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPipelineModuleDefinition.Name"
+f1_keywords:
+- fsrmpipeline/IFsrmPipelineModuleDefinition.Name
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPipelineModuleDefinition.Name
- - IFsrmPipelineModuleDefinition.get_Name
- - IFsrmPipelineModuleDefinition.put_Name
+- IFsrmPipelineModuleDefinition.Name
+- IFsrmPipelineModuleDefinition.get_Name
+- IFsrmPipelineModuleDefinition.put_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

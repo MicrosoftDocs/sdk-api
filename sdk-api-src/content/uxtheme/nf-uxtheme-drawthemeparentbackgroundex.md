@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.DrawThemeParentBackgroundEx
 title: DrawThemeParentBackgroundEx function (uxtheme.h)
-
 description: Used by partially-transparent or alpha-blended child controls to draw the part of their parent in front of which they appear. Sends a WM_ERASEBKGND message followed by a WM_PRINTCLIENT.
 old-location: controls\DrawThemeParentBackgroundEx.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemeparentbackgroundex.htm
-
 ms.date: 12/05/2018
 ms.keywords: DTPB_USECTLCOLORSTATIC, DTPB_USEERASEBKGND, DTPB_WINDOWDC, DrawThemeParentBackgroundEx, DrawThemeParentBackgroundEx function [Windows Controls], _shell_DrawThemeParentBackgroundEx, _shell_DrawThemeParentBackgroundEx_cpp, controls.DrawThemeParentBackgroundEx, controls._shell_DrawThemeParentBackgroundEx, uxtheme/DrawThemeParentBackgroundEx
 ms.topic: function
-f1_keywords: 
- - "uxtheme/DrawThemeParentBackgroundEx"
+f1_keywords:
+- uxtheme/DrawThemeParentBackgroundEx
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - DrawThemeParentBackgroundEx
+- DrawThemeParentBackgroundEx
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemUnsecuredApartment.CreateSinkStub
 title: IWbemUnsecuredApartment::CreateSinkStub (wbemcli.h)
-
 description: The CreateSinkStub method is similar to the IUnsecuredApartment::CreateObjectStub and creates an object forwarder sink and performs access checks for receiving asynchronous calls from Windows Management.
 old-location: wmi\iwbemunsecuredapartment_createsinkstub.htm
 tech.root: WmiSdk
 ms.assetid: 546ae2f8-c208-4846-a3ba-e124aefe619d
-
 ms.date: 12/05/2018
 ms.keywords: CreateSinkStub, CreateSinkStub method [Windows Management Instrumentation], CreateSinkStub method [Windows Management Instrumentation],IWbemUnsecuredApartment interface, IWbemUnsecuredApartment interface [Windows Management Instrumentation],CreateSinkStub method, IWbemUnsecuredApartment.CreateSinkStub, IWbemUnsecuredApartment::CreateSinkStub, WBEM_FLAG_UNSECAPP_CHECK_ACCESS, WBEM_FLAG_UNSECAPP_DEFAULT_CHECK_ACCESS, WBEM_FLAG_UNSECAPP_DONT_CHECK_ACCESS, wbemcli/IWbemUnsecuredApartment::CreateSinkStub, wmi.iwbemunsecuredapartment_createsinkstub
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemUnsecuredApartment.CreateSinkStub"
+f1_keywords:
+- wbemcli/IWbemUnsecuredApartment.CreateSinkStub
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Unsecapp.exe
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Unsecapp.exe
+- Unsecapp.exe
 api_name:
- - IWbemUnsecuredApartment.CreateSinkStub
+- IWbemUnsecuredApartment.CreateSinkStub
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Reenumerate_DevNode
 title: CM_Reenumerate_DevNode function (cfgmgr32.h)
-
 description: The CM_Reenumerate_DevNode function enumerates the devices identified by a specified device node and all of its children.
 old-location: devinst\cm_reenumerate_devnode.htm
 tech.root: devinst
 ms.assetid: dcba5021-7517-4922-9c50-ebfa7375e258
-
 ms.date: 12/05/2018
 ms.keywords: CM_Reenumerate_DevNode, CM_Reenumerate_DevNode function [Device and Driver Installation], cfgmgr32/CM_Reenumerate_DevNode, cfgmgrfn_9ed0f83c-4b63-425f-b80b-9be5d69bb43a.xml, devinst.cm_reenumerate_devnode
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Reenumerate_DevNode"
+f1_keywords:
+- cfgmgr32/CM_Reenumerate_DevNode
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib: Cfgmgr32.lib
 req.dll: Cfgmgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.dll
+- Cfgmgr32.dll
 api_name:
- - CM_Reenumerate_DevNode
+- CM_Reenumerate_DevNode
 targetos: Windows
 req.typenames: 
 req.redist: 

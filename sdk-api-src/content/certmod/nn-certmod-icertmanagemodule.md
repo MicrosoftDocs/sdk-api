@@ -1,19 +1,17 @@
 ---
 UID: NN:certmod.ICertManageModule
 title: ICertManageModule (certmod.h)
-
 description: Provided to retrieve information about a Certificate Services Policy or Exit module.
 old-location: security\icertmanagemodule.htm
 tech.root: SecCrypto
 ms.assetid: 82b7b770-c098-40da-8a4e-8eb0e0b8a645
-
 ms.date: 12/05/2018
 ms.keywords: ICertManageModule, ICertManageModule interface [Security], ICertManageModule interface [Security],described, _certsrv_icertmanagemodule, certmod/ICertManageModule, security.icertmanagemodule
 ms.topic: interface
-f1_keywords: 
- - "certmod/ICertManageModule"
+f1_keywords:
+- certmod/ICertManageModule
 dev_langs:
- - c++
+- c++
 req.header: certmod.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certidl.lib
- - Certidl.dll
+- Certidl.lib
+- Certidl.dll
 api_name:
- - ICertManageModule
+- ICertManageModule
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.SwapBuffers
 title: SwapBuffers function (wingdi.h)
-
 description: The SwapBuffers function exchanges the front and back buffers if the current pixel format for the window referenced by the specified device context includes a back buffer.
 old-location: opengl\swapbuffers.htm
 tech.root: OpenGL
 ms.assetid: 2c9728e4-c5be-4b14-a6f7-2899c792ec3d
-
 ms.date: 12/05/2018
 ms.keywords: SwapBuffers, SwapBuffers function [OpenGL], _ogl_SwapBuffers, opengl.swapbuffers, wingdi/SwapBuffers
 ms.topic: function
-f1_keywords: 
- - "wingdi/SwapBuffers"
+f1_keywords:
+- wingdi/SwapBuffers
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - SwapBuffers
+- SwapBuffers
 targetos: Windows
 req.typenames: 
 req.redist: 

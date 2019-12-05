@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsSetMessageProperty
 title: WsSetMessageProperty function (webservices.h)
-
 description: This operation sets a Messageproperty.
 old-location: wsw\wssetmessageproperty.htm
 tech.root: wsw
 ms.assetid: f1e6616f-63ac-4afb-90dd-17a776d59eeb
-
 ms.date: 12/05/2018
 ms.keywords: WsSetMessageProperty, WsSetMessageProperty function [Web Services for Windows], webservices/WsSetMessageProperty, wsw.wssetmessageproperty
 ms.topic: function
-f1_keywords: 
- - "webservices/WsSetMessageProperty"
+f1_keywords:
+- webservices/WsSetMessageProperty
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsSetMessageProperty
+- WsSetMessageProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

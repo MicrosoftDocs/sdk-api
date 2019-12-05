@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFMediaSourceExtension
 title: IMFMediaSourceExtension (mfmediaengine.h)
-
 description: Provides functionality for the Media Source Extension (MSE).
 old-location: mf\imfmediasourceextension.htm
 tech.root: medfound
 ms.assetid: 2acabcc2-242d-4b3d-b5b4-680c7973201f
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourceExtension, IMFMediaSourceExtension interface [Media Foundation], IMFMediaSourceExtension interface [Media Foundation],described, mf.imfmediasourceextension, mfmediaengine/IMFMediaSourceExtension
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFMediaSourceExtension"
+f1_keywords:
+- mfmediaengine/IMFMediaSourceExtension
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaSourceExtension
+- IMFMediaSourceExtension
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IStringCollection.Clear
 title: IStringCollection::Clear (wuapi.h)
-
 description: Removes all the elements from the collection.
 old-location: wua\istringcollection_clear.htm
 tech.root: Wua_Sdk
 ms.assetid: 480b8a8a-ecf1-4f1c-b53d-98a0151c57b5
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Windows Update Agent], Clear method [Windows Update Agent],IStringCollection interface, IStringCollection interface [Windows Update Agent],Clear method, IStringCollection.Clear, IStringCollection::Clear, wua.istringcollection_clear, wuapi/IStringCollection::Clear
 ms.topic: method
-f1_keywords: 
- - "wuapi/IStringCollection.Clear"
+f1_keywords:
+- wuapi/IStringCollection.Clear
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IStringCollection.Clear
+- IStringCollection.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFSensorStream
 title: IMFSensorStream (mfidl.h)
-
-description: "."
+description: .
 old-location: mf\imfsensorstream.htm
 tech.root: medfound
 ms.assetid: 9A5F6E25-796A-4798-8E4A-ABB9EB6A3B84
-
 ms.date: 12/05/2018
 ms.keywords: IMFSensorStream, IMFSensorStream interface [Media Foundation], IMFSensorStream interface [Media Foundation],described, mf.imfsensorstream, mfidl/IMFSensorStream
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFSensorStream"
+f1_keywords:
+- mfidl/IMFSensorStream
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorStream
+- IMFSensorStream
 targetos: Windows
 req.typenames: 
 req.redist: 

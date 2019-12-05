@@ -1,19 +1,17 @@
 ---
 UID: NS:processsnapshot.__unnamed_struct_2
 title: PSS_AUXILIARY_PAGES_INFORMATION (processsnapshot.h)
-
 description: Holds auxiliary pages information returned by PssQuerySnapshot.
 old-location: proc_snap\pss_auxiliary_pages_information.htm
 tech.root: proc_snap
 ms.assetid: 122DD3DF-002A-4250-9E37-BA239638A684
-
 ms.date: 12/05/2018
 ms.keywords: PSS_AUXILIARY_PAGES_INFORMATION, PSS_AUXILIARY_PAGES_INFORMATION structure, proc_snap.pss_auxiliary_pages_information, processsnapshot/PSS_AUXILIARY_PAGES_INFORMATION
 ms.topic: struct
-f1_keywords: 
- - "processsnapshot/PSS_AUXILIARY_PAGES_INFORMATION"
+f1_keywords:
+- processsnapshot/PSS_AUXILIARY_PAGES_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - processsnapshot.h
+- processsnapshot.h
 api_name:
- - PSS_AUXILIARY_PAGES_INFORMATION
+- PSS_AUXILIARY_PAGES_INFORMATION
 targetos: Windows
 req.typenames: PSS_AUXILIARY_PAGES_INFORMATION
 req.redist: 

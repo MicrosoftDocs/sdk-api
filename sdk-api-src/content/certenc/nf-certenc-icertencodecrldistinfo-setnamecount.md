@@ -1,19 +1,17 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.SetNameCount
 title: ICertEncodeCRLDistInfo::SetNameCount (certenc.h)
-
 description: Sets a name count for the specified distribution point in a certificate revocation list (CRL) distribution information array.
 old-location: security\icertencodecrldistinfo_setnamecount.htm
 tech.root: SecCrypto
 ms.assetid: ce27adfd-e21a-4e8d-882e-72041f97958a
-
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],SetNameCount method, ICertEncodeCRLDistInfo interface [Security],SetNameCount method, ICertEncodeCRLDistInfo.SetNameCount, ICertEncodeCRLDistInfo::SetNameCount, SetNameCount, SetNameCount method [Security], SetNameCount method [Security],CCertEncodeCRLDistInfo object, SetNameCount method [Security],ICertEncodeCRLDistInfo interface, _certsrv_icertencodecrldistinfo_setnamecount, certenc/ICertEncodeCRLDistInfo::SetNameCount, security.icertencodecrldistinfo_setnamecount
 ms.topic: method
-f1_keywords: 
- - "certenc/ICertEncodeCRLDistInfo.SetNameCount"
+f1_keywords:
+- certenc/ICertEncodeCRLDistInfo.SetNameCount
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeCRLDistInfo.SetNameCount
- - CCertEncodeCRLDistInfo.SetNameCount
+- ICertEncodeCRLDistInfo.SetNameCount
+- CCertEncodeCRLDistInfo.SetNameCount
 targetos: Windows
 req.typenames: 
 req.redist: 

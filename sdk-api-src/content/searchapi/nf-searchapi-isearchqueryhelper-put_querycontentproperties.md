@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.put_QueryContentProperties
 title: ISearchQueryHelper::put_QueryContentProperties (searchapi.h)
-
 description: Sets the properties to include in the query if search terms do not explicitly specify properties.
 old-location: search\_search_ISearchQueryHelper_put_QueryContentProperties.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querycontentproperties.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],put_QueryContentProperties method, ISearchQueryHelper.put_QueryContentProperties, ISearchQueryHelper::put_QueryContentProperties, _search_ISearchQueryHelper_put_QueryContentProperties, put_QueryContentProperties, put_QueryContentProperties method [search], put_QueryContentProperties method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_put_QueryContentProperties, searchapi/ISearchQueryHelper::put_QueryContentProperties
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchQueryHelper.put_QueryContentProperties"
+f1_keywords:
+- searchapi/ISearchQueryHelper.put_QueryContentProperties
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchQueryHelper.put_QueryContentProperties
+- ISearchQueryHelper.put_QueryContentProperties
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

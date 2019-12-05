@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ListBox_AddItemData
 title: ListBox_AddItemData macro (windowsx.h)
-
 description: Adds item data to the list box at the specified location. You can use this macro or send the LB_ADDSTRING message explicitly.
 old-location: controls\ListBox_AddItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_additemdata.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListBox_AddItemData, ListBox_AddItemData macro [Windows Controls], _win32_ListBox_AddItemData, _win32_ListBox_AddItemData_cpp, controls.ListBox_AddItemData, controls._win32_ListBox_AddItemData, windowsx/ListBox_AddItemData
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ListBox_AddItemData"
+f1_keywords:
+- windowsx/ListBox_AddItemData
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ListBox_AddItemData
+- ListBox_AddItemData
 targetos: Windows
 req.typenames: 
 req.redist: 

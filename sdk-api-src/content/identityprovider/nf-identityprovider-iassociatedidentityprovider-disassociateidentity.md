@@ -1,19 +1,17 @@
 ---
 UID: NF:identityprovider.IAssociatedIdentityProvider.DisassociateIdentity
 title: IAssociatedIdentityProvider::DisassociateIdentity (identityprovider.h)
-
 description: Disassociates the specified identity from a local user account.
 old-location: security\iassociatedidentityprovider_disassociateidentity.htm
 tech.root: SecAuthN
 ms.assetid: 6e89b558-bb58-4ef9-86f5-447d5cb0a946
-
 ms.date: 12/05/2018
 ms.keywords: DisassociateIdentity, DisassociateIdentity method [Security], DisassociateIdentity method [Security],IAssociatedIdentityProvider interface, IAssociatedIdentityProvider interface [Security],DisassociateIdentity method, IAssociatedIdentityProvider.DisassociateIdentity, IAssociatedIdentityProvider::DisassociateIdentity, identityprovider/IAssociatedIdentityProvider::DisassociateIdentity, identitystore/IAssociatedIdentityProvider::DisassociateIdentity, security.iassociatedidentityprovider_disassociateidentity
 ms.topic: method
-f1_keywords: 
- - "identityprovider/IAssociatedIdentityProvider.DisassociateIdentity"
+f1_keywords:
+- identityprovider/IAssociatedIdentityProvider.DisassociateIdentity
 dev_langs:
- - c++
+- c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - IdentityProvider.h
- - Identitystore.h
+- IdentityProvider.h
+- Identitystore.h
 api_name:
- - IAssociatedIdentityProvider.DisassociateIdentity
+- IAssociatedIdentityProvider.DisassociateIdentity
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagNMLVCUSTOMDRAW
 title: NMLVCUSTOMDRAW (commctrl.h)
-
 description: Contains information specific to an NM_CUSTOMDRAW (list view) notification code sent by a list-view control.
 old-location: controls\NMLVCUSTOMDRAW.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvcustomdraw.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPNMLVCUSTOMDRAW, LPNMLVCUSTOMDRAW, LPNMLVCUSTOMDRAW structure pointer [Windows Controls], LVCDI_GROUP, LVCDI_ITEM, LVCDI_ITEMSLIST, LVGA_HEADER_CENTER, LVGA_HEADER_LEFT, LVGA_HEADER_RIGHT, NMLVCUSTOMDRAW, NMLVCUSTOMDRAW structure [Windows Controls], _win32_NMLVCUSTOMDRAW, _win32_NMLVCUSTOMDRAW_cpp, commctrl/LPNMLVCUSTOMDRAW, commctrl/NMLVCUSTOMDRAW, controls.NMLVCUSTOMDRAW, controls._win32_NMLVCUSTOMDRAW"
+ms.keywords: '*LPNMLVCUSTOMDRAW, LPNMLVCUSTOMDRAW, LPNMLVCUSTOMDRAW structure pointer [Windows Controls], LVCDI_GROUP, LVCDI_ITEM, LVCDI_ITEMSLIST, LVGA_HEADER_CENTER, LVGA_HEADER_LEFT, LVGA_HEADER_RIGHT, NMLVCUSTOMDRAW, NMLVCUSTOMDRAW structure [Windows Controls], _win32_NMLVCUSTOMDRAW, _win32_NMLVCUSTOMDRAW_cpp, commctrl/LPNMLVCUSTOMDRAW, commctrl/NMLVCUSTOMDRAW, controls.NMLVCUSTOMDRAW, controls._win32_NMLVCUSTOMDRAW'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/NMLVCUSTOMDRAW"
+f1_keywords:
+- commctrl/NMLVCUSTOMDRAW
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - NMLVCUSTOMDRAW
+- NMLVCUSTOMDRAW
 targetos: Windows
 req.typenames: NMLVCUSTOMDRAW, *LPNMLVCUSTOMDRAW
 req.redist: 

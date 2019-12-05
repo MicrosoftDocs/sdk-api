@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetDrawingEffect
 title: IDWriteTextLayout::GetDrawingEffect (dwrite.h)
-
 description: Gets the application-defined drawing effect at the specified text position.
 old-location: directwrite\IDWriteTextLayout_GetDrawingEffect.htm
 tech.root: DirectWrite
 ms.assetid: 1b8d30d1-4da0-40bc-9fee-d06eccae6539
-
 ms.date: 12/05/2018
 ms.keywords: GetDrawingEffect, GetDrawingEffect method [Direct Write], GetDrawingEffect method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetDrawingEffect method, IDWriteTextLayout.GetDrawingEffect, IDWriteTextLayout::GetDrawingEffect, directwrite.IDWriteTextLayout_GetDrawingEffect, dwrite/IDWriteTextLayout::GetDrawingEffect
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextLayout.GetDrawingEffect"
+f1_keywords:
+- dwrite/IDWriteTextLayout.GetDrawingEffect
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout.GetDrawingEffect
+- IDWriteTextLayout.GetDrawingEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

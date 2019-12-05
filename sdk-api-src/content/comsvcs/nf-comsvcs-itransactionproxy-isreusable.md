@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ITransactionProxy.IsReusable
 title: ITransactionProxy::IsReusable (comsvcs.h)
-
 description: Indicates whether the non-DTC transaction context can be reused for multiple transactions.
 old-location: cos\itransactionproxy_isreusable.htm
 tech.root: cossdk
 ms.assetid: c642d329-c996-4207-bdcf-7c79d955b2c4
-
 ms.date: 12/05/2018
 ms.keywords: ITransactionProxy interface [COM+],IsReusable method, ITransactionProxy.IsReusable, ITransactionProxy::IsReusable, IsReusable, IsReusable method [COM+], IsReusable method [COM+],ITransactionProxy interface, comsvcs/ITransactionProxy::IsReusable, cos.itransactionproxy_isreusable
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ITransactionProxy.IsReusable"
+f1_keywords:
+- comsvcs/ITransactionProxy.IsReusable
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ITransactionProxy.IsReusable
+- ITransactionProxy.IsReusable
 targetos: Windows
 req.typenames: 
 req.redist: 

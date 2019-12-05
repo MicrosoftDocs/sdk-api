@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._FSCTL_QUERY_REGION_INFO_INPUT
 title: FSCTL_QUERY_REGION_INFO_INPUT
-
 description: Contains the storage tier regions from the storage stack for a particular volume.
 old-location: fs\fsctl_query_region_info_input.htm
 tech.root: FileIO
 ms.assetid: 2D098A85-F1EA-4538-9BFB-E04092497945
-
 ms.date: 12/05/2018
-ms.keywords: "*PFSCTL_QUERY_REGION_INFO_INPUT, FSCTL_QUERY_REGION_INFO_INPUT, FSCTL_QUERY_REGION_INFO_INPUT structure [Files], PFSCTL_QUERY_REGION_INFO_INPUT, PFSCTL_QUERY_REGION_INFO_INPUT structure pointer [Files], fs.fsctl_query_region_info_input, winioctl/FSCTL_QUERY_REGION_INFO_INPUT, winioctl/PFSCTL_QUERY_REGION_INFO_INPUT"
+ms.keywords: '*PFSCTL_QUERY_REGION_INFO_INPUT, FSCTL_QUERY_REGION_INFO_INPUT, FSCTL_QUERY_REGION_INFO_INPUT structure [Files], PFSCTL_QUERY_REGION_INFO_INPUT, PFSCTL_QUERY_REGION_INFO_INPUT structure pointer [Files], fs.fsctl_query_region_info_input, winioctl/FSCTL_QUERY_REGION_INFO_INPUT, winioctl/PFSCTL_QUERY_REGION_INFO_INPUT'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/FSCTL_QUERY_REGION_INFO_INPUT"
+f1_keywords:
+- winioctl/FSCTL_QUERY_REGION_INFO_INPUT
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoctl.h
+- WinIoctl.h
 api_name:
- - FSCTL_QUERY_REGION_INFO_INPUT
+- FSCTL_QUERY_REGION_INFO_INPUT
 targetos: Windows
 req.typenames: FSCTL_QUERY_REGION_INFO_INPUT, *PFSCTL_QUERY_REGION_INFO_INPUT
 req.redist: 

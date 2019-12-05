@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IUpdateInstaller2
 title: IUpdateInstaller2 (wuapi.h)
-
 description: Installs or uninstalls updates on a computer.
 old-location: wua\iupdateinstaller2.htm
 tech.root: Wua_Sdk
 ms.assetid: 89edc91d-59a1-4e23-9adb-fc3027e2e898
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateInstaller2, IUpdateInstaller2 interface [Windows Update Agent], IUpdateInstaller2 interface [Windows Update Agent],described, wua.iupdateinstaller2, wuapi/IUpdateInstaller2
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IUpdateInstaller2"
+f1_keywords:
+- wuapi/IUpdateInstaller2
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateInstaller2
+- IUpdateInstaller2
 targetos: Windows
 req.typenames: 
 req.redist: 

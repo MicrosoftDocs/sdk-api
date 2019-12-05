@@ -1,19 +1,17 @@
 ---
 UID: NS:qos2._QOS_FLOW_FUNDAMENTALS
 title: QOS_FLOW_FUNDAMENTALS (qos2.h)
-
 description: The QOS_FLOW_FUNDAMENTALS structure contains basic information about a flow.
 old-location: qos\qos_flow_fundamentals.htm
 tech.root: QOS
 ms.assetid: 3e6cbd5b-8bd3-4f08-9192-35604db5dc3a
-
 ms.date: 12/05/2018
-ms.keywords: "*PQOS_FLOW_FUNDAMENTALS, PQOS_FLOW_FUNDAMENTALS, PQOS_FLOW_FUNDAMENTALS structure pointer [QOS], QOS_FLOW_FUNDAMENTALS, QOS_FLOW_FUNDAMENTALS structure [QOS], qos.qos_flow_fundamentals, qos2/PQOS_FLOW_FUNDAMENTALS, qos2/QOS_FLOW_FUNDAMENTALS"
+ms.keywords: '*PQOS_FLOW_FUNDAMENTALS, PQOS_FLOW_FUNDAMENTALS, PQOS_FLOW_FUNDAMENTALS structure pointer [QOS], QOS_FLOW_FUNDAMENTALS, QOS_FLOW_FUNDAMENTALS structure [QOS], qos.qos_flow_fundamentals, qos2/PQOS_FLOW_FUNDAMENTALS, qos2/QOS_FLOW_FUNDAMENTALS'
 ms.topic: struct
-f1_keywords: 
- - "qos2/QOS_FLOW_FUNDAMENTALS"
+f1_keywords:
+- qos2/QOS_FLOW_FUNDAMENTALS
 dev_langs:
- - c++
+- c++
 req.header: qos2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qos2.h
+- Qos2.h
 api_name:
- - QOS_FLOW_FUNDAMENTALS
+- QOS_FLOW_FUNDAMENTALS
 targetos: Windows
 req.typenames: QOS_FLOW_FUNDAMENTALS, *PQOS_FLOW_FUNDAMENTALS
 req.redist: 

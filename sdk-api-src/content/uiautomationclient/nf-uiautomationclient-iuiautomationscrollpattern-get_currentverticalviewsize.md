@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.get_CurrentVerticalViewSize
 title: IUIAutomationScrollPattern::get_CurrentVerticalViewSize (uiautomationclient.h)
-
 description: Retrieves the vertical size of the viewable region of a scrollable element.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CurrentVerticalViewSize.htm
 tech.root: WinAuto
 ms.assetid: 7a87f617-fd98-497b-b7fd-8b2c901fe1eb
-
 ms.date: 12/05/2018
 ms.keywords: CurrentVerticalViewSize property [Windows Accessibility], CurrentVerticalViewSize property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CurrentVerticalViewSize property, IUIAutomationScrollPattern.CurrentVerticalViewSize, IUIAutomationScrollPattern.get_CurrentVerticalViewSize, IUIAutomationScrollPattern::CurrentVerticalViewSize, IUIAutomationScrollPattern::get_CurrentVerticalViewSize, get_CurrentVerticalViewSize, uiauto.uiauto_IUIAutomationScrollPattern_CurrentVerticalViewSize, uiauto_IUIAutomationScrollPattern_CurrentVerticalViewSize, uiautomationclient/IUIAutomationScrollPattern::CurrentVerticalViewSize, uiautomationclient/IUIAutomationScrollPattern::get_CurrentVerticalViewSize, winauto.uiauto_IUIAutomationScrollPattern_CurrentVerticalViewSize
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationScrollPattern.CurrentVerticalViewSize"
+f1_keywords:
+- uiautomationclient/IUIAutomationScrollPattern.CurrentVerticalViewSize
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationScrollPattern.CurrentVerticalViewSize
- - IUIAutomationScrollPattern.get_CurrentVerticalViewSize
+- IUIAutomationScrollPattern.CurrentVerticalViewSize
+- IUIAutomationScrollPattern.get_CurrentVerticalViewSize
 targetos: Windows
 req.typenames: 
 req.redist: 

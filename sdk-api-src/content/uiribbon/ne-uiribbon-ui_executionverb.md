@@ -1,19 +1,17 @@
 ---
 UID: NE:uiribbon.UI_EXECUTIONVERB
 title: UI_EXECUTIONVERB (uiribbon.h)
-
 description: Specifies values that identify the execution IDs that map to actions a user can initiate on a Command.
 old-location: windowsribbon\windowsribbon_ui_executionverb.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_executionverb.htm
-
 ms.date: 12/05/2018
 ms.keywords: UI_EXECUTIONVERB, UI_EXECUTIONVERB enumeration [Windows Ribbon], UI_EXECUTIONVERB_CANCELPREVIEW, UI_EXECUTIONVERB_EXECUTE, UI_EXECUTIONVERB_PREVIEW, scenicintent_UI_EXECUTIONVERB, uiribbon/UI_EXECUTIONVERB, uiribbon/UI_EXECUTIONVERB_CANCELPREVIEW, uiribbon/UI_EXECUTIONVERB_EXECUTE, uiribbon/UI_EXECUTIONVERB_PREVIEW, windowsribbon.windowsribbon_ui_executionverb
 ms.topic: enum
-f1_keywords: 
- - "uiribbon/UI_EXECUTIONVERB"
+f1_keywords:
+- uiribbon/UI_EXECUTIONVERB
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Uiribbon.h
+- Uiribbon.h
 api_name:
- - UI_EXECUTIONVERB
+- UI_EXECUTIONVERB
 targetos: Windows
 req.typenames: UI_EXECUTIONVERB
 req.redist: 

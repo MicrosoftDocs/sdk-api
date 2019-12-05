@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMGPOLinksCollection
 title: IGPMGPOLinksCollection (gpmgmt.h)
-
 description: The IGPMGPOLinksCollection interface contains methods that enable applications to access a collection of GPO links when using the Group Policy Management (GPMC) interfaces.
 old-location: gpmc\igpmgpolinkscollection.htm
 tech.root: gpmc
 ms.assetid: 37753a31-0ef8-4fb9-b542-a91ae47ed417
-
 ms.date: 12/05/2018
 ms.keywords: GPMGPOLinksCollection, IGPMGPOLinksCollection, IGPMGPOLinksCollection interface [GPMC], IGPMGPOLinksCollection interface [GPMC],described, _win32_igpmgpolinkscollection, gpmc.igpmgpolinkscollection, gpmgmt/IGPMGPOLinksCollection
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMGPOLinksCollection"
+f1_keywords:
+- gpmgmt/IGPMGPOLinksCollection
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMGPOLinksCollection
- - IGPMGPOLinksCollection.Count
- - IGPMGPOLinksCollection.get_Count
- - IGPMGPOLinksCollection.Item
- - IGPMGPOLinksCollection.get_Item
- - GPMGPOLinksCollection
+- IGPMGPOLinksCollection
+- IGPMGPOLinksCollection.Count
+- IGPMGPOLinksCollection.get_Count
+- IGPMGPOLinksCollection.Item
+- IGPMGPOLinksCollection.get_Item
+- GPMGPOLinksCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

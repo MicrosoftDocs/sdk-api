@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetPixel
 title: GetPixel function (wingdi.h)
-
 description: The GetPixel function retrieves the red, green, blue (RGB) color value of the pixel at the specified coordinates.
 old-location: gdi\getpixel.htm
 tech.root: gdi
 ms.assetid: 46d17e95-93ce-4a43-b86c-489d6e3afe12
-
 ms.date: 12/05/2018
 ms.keywords: GetPixel, GetPixel function [Windows GDI], _win32_GetPixel, gdi.getpixel, wingdi/GetPixel
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetPixel"
+f1_keywords:
+- wingdi/GetPixel
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-l1-1-1.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-l1-1-1.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - GetPixel
+- GetPixel
 targetos: Windows
 req.typenames: 
 req.redist: 

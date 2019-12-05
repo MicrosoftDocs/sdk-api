@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IFolderActionCollection.get_Count
 title: IFolderActionCollection::get_Count (pla.h)
-
 description: Retrieves the number of folder actions in the collection.
 old-location: pla\ifolderactioncollection_count.htm
 tech.root: PLA
 ms.assetid: a6b0dbbd-aeb7-404a-8f7c-f9e52a772838
-
 ms.date: 12/05/2018
 ms.keywords: Count property [PLA], Count property [PLA],IFolderActionCollection interface, IFolderActionCollection interface [PLA],Count property, IFolderActionCollection.Count, IFolderActionCollection.get_Count, IFolderActionCollection::Count, IFolderActionCollection::get_Count, base.ifolderactioncollection_count, get_Count, pla.ifolderactioncollection_count, pla/IFolderActionCollection::Count, pla/IFolderActionCollection::get_Count
 ms.topic: method
-f1_keywords: 
- - "pla/IFolderActionCollection.Count"
+f1_keywords:
+- pla/IFolderActionCollection.Count
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IFolderActionCollection.Count
- - IFolderActionCollection.get_Count
+- IFolderActionCollection.Count
+- IFolderActionCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

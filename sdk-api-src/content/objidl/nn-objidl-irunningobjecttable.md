@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IRunningObjectTable
 title: IRunningObjectTable (objidl.h)
-
 description: Manages access to the running object table (ROT), a globally accessible look-up table on each workstation.
 old-location: com\irunningobjecttable.htm
 tech.root: com
 ms.assetid: ff89bcb5-df6d-4325-b0e8-613217a68f42
-
 ms.date: 12/05/2018
 ms.keywords: IRunningObjectTable, IRunningObjectTable interface [COM], IRunningObjectTable interface [COM],described, _com_irunningobjecttable, com.irunningobjecttable, objidl/IRunningObjectTable
 ms.topic: interface
-f1_keywords: 
- - "objidl/IRunningObjectTable"
+f1_keywords:
+- objidl/IRunningObjectTable
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IRunningObjectTable
+- IRunningObjectTable
 targetos: Windows
 req.typenames: 
 req.redist: 

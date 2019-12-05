@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Region.Transform
 title: Region::Transform (gdiplusheaders.h)
-
 description: The Region::Transform method transforms this region by multiplying each of its data points by a specified matrix.
 old-location: gdiplus\_gdiplus_CLASS_Region_Transform_matrix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\transform_64matrix.htm
-
 ms.date: 12/05/2018
 ms.keywords: Region class [GDI+],Transform method, Region.Transform, Region::Transform, Transform, Transform method [GDI+], Transform method [GDI+],Region class, _gdiplus_CLASS_Region_Transform_matrix_, gdiplus._gdiplus_CLASS_Region_Transform_matrix_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Region.Transform"
+f1_keywords:
+- gdiplusheaders/Region.Transform
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Region.Transform
+- Region.Transform
 targetos: Windows
 req.typenames: 
 req.redist: 

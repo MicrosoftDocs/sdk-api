@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleInPlaceUIWindow.GetBorder
 title: IOleInPlaceUIWindow::GetBorder (oleidl.h)
-
 description: Retrieves the outer rectange for toolbars and controls while the object is active in place.
 old-location: com\ioleinplaceuiwindow_getborder.htm
 tech.root: com
 ms.assetid: 9ee9970a-b937-4538-b3b8-460647086db1
-
 ms.date: 12/05/2018
 ms.keywords: GetBorder, GetBorder method [COM], GetBorder method [COM],IOleInPlaceUIWindow interface, IOleInPlaceUIWindow interface [COM],GetBorder method, IOleInPlaceUIWindow.GetBorder, IOleInPlaceUIWindow::GetBorder, _ole_ioleinplaceuiwindow_getborder, com.ioleinplaceuiwindow_getborder, oleidl/IOleInPlaceUIWindow::GetBorder
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleInPlaceUIWindow.GetBorder"
+f1_keywords:
+- oleidl/IOleInPlaceUIWindow.GetBorder
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleInPlaceUIWindow.GetBorder
+- IOleInPlaceUIWindow.GetBorder
 targetos: Windows
 req.typenames: 
 req.redist: 

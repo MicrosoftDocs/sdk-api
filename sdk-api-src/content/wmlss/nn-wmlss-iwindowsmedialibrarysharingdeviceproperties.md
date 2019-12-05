@@ -1,19 +1,17 @@
 ---
 UID: NN:wmlss.IWindowsMediaLibrarySharingDeviceProperties
 title: IWindowsMediaLibrarySharingDeviceProperties (wmlss.h)
-
 description: The IWindowsMediaLibrarySharingDeviceProperties interface defines methods that provide access to the collection of all properties for an individual media device.
 old-location: wmlss\IWindowsMediaLibrarySharingDevicePropertiesInterface.htm
 tech.root: WMLSS
 ms.assetid: b975428c-e518-4bc8-a621-193d510661b0
-
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingDeviceProperties, IWindowsMediaLibrarySharingDeviceProperties interface [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingDeviceProperties interface [Windows Media Library Sharing Services],described, wmlss.IWindowsMediaLibrarySharingDevicePropertiesInterface, wmlss/IWindowsMediaLibrarySharingDeviceProperties
 ms.topic: interface
-f1_keywords: 
- - "wmlss/IWindowsMediaLibrarySharingDeviceProperties"
+f1_keywords:
+- wmlss/IWindowsMediaLibrarySharingDeviceProperties
 dev_langs:
- - c++
+- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: WMPMediaSharing.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMPMediaSharing.dll
+- WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingDeviceProperties
+- IWindowsMediaLibrarySharingDeviceProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

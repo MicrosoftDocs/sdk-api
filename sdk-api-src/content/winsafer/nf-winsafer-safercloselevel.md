@@ -1,19 +1,17 @@
 ---
 UID: NF:winsafer.SaferCloseLevel
 title: SaferCloseLevel function (winsafer.h)
-
 description: Closes a SAFER_LEVEL_HANDLE that was opened by using the SaferIdentifyLevel function or the SaferCreateLevel function.
 old-location: security\safercloselevel.htm
 tech.root: SecMgmt
 ms.assetid: 8daffb35-5bb0-45b3-aff1-a8ea6a142ba5
-
 ms.date: 12/05/2018
 ms.keywords: SaferCloseLevel, SaferCloseLevel function [Security], _mnp_safercloselevel, security.safercloselevel, winsafer/SaferCloseLevel
 ms.topic: function
-f1_keywords: 
- - "winsafer/SaferCloseLevel"
+f1_keywords:
+- winsafer/SaferCloseLevel
 dev_langs:
- - c++
+- c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - Ext-MS-Win-AdvAPI32-safer-l1-1-0.dll
+- Advapi32.dll
+- Ext-MS-Win-AdvAPI32-safer-l1-1-0.dll
 api_name:
- - SaferCloseLevel
+- SaferCloseLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

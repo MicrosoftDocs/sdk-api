@@ -1,19 +1,17 @@
 ---
 UID: NF:fci.FCIDestroy
 title: FCIDestroy function (fci.h)
-
 description: The FCIDestroy function deletes an open FCI context, freeing any memory and temporary files associated with the context.
 old-location: winprog\fcidestroy.htm
 tech.root: DevNotes
 ms.assetid: bb1a6294-664f-450f-b8ec-d6f8957d920e
-
 ms.date: 12/05/2018
 ms.keywords: FCIDestroy, FCIDestroy function [Windows API], fci/FCIDestroy, winprog.fcidestroy
 ms.topic: function
-f1_keywords: 
- - "fci/FCIDestroy"
+f1_keywords:
+- fci/FCIDestroy
 dev_langs:
- - c++
+- c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Cabinet.lib
 req.dll: Cabinet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cabinet.dll
+- Cabinet.dll
 api_name:
- - FCIDestroy
+- FCIDestroy
 targetos: Windows
 req.typenames: 
 req.redist: 

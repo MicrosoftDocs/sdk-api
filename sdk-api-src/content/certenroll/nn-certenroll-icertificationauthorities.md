@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.ICertificationAuthorities
 title: ICertificationAuthorities (certenroll.h)
-
 description: The ICertificationAuthorities interface defines the following methods and properties that manage a collection of ICertificationAuthority objects.
 old-location: security\icertificationauthorities.htm
 tech.root: seccertenroll
 ms.assetid: 8dad280a-1fe7-4a4b-9392-eee3aa9bcde9
-
 ms.date: 12/05/2018
 ms.keywords: ICertificationAuthorities, ICertificationAuthorities interface [Security], ICertificationAuthorities interface [Security],described, certenroll/ICertificationAuthorities, security.icertificationauthorities
 ms.topic: interface
-f1_keywords: 
- - "certenroll/ICertificationAuthorities"
+f1_keywords:
+- certenroll/ICertificationAuthorities
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertificationAuthorities
+- ICertificationAuthorities
 targetos: Windows
 req.typenames: 
 req.redist: 

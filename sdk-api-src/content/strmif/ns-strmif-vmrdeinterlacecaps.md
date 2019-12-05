@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif._VMRDeinterlaceCaps
 title: VMRDeinterlaceCaps (strmif.h)
-
 description: The VMRDeinterlaceCaps structure describes the capabilities of a deinterlacing mode.
 old-location: dshow\vmrdeinterlacecaps.htm
 tech.root: DirectShow
 ms.assetid: e6152130-d574-4c9e-9d35-a42de709f9ae
-
 ms.date: 12/05/2018
 ms.keywords: VMRDeinterlaceCaps, VMRDeinterlaceCaps structure [DirectShow], VMRDeinterlaceCapsStructure, dshow.vmrdeinterlacecaps, strmif/VMRDeinterlaceCaps
 ms.topic: struct
-f1_keywords: 
- - "strmif/VMRDeinterlaceCaps"
+f1_keywords:
+- strmif/VMRDeinterlaceCaps
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - VMRDeinterlaceCaps
+- VMRDeinterlaceCaps
 targetos: Windows
 req.typenames: VMRDeinterlaceCaps
 req.redist: 

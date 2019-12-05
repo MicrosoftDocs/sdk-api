@@ -1,19 +1,17 @@
 ---
 UID: NS:directml.DML_GEMM_OPERATOR_DESC
 title: DML_GEMM_OPERATOR_DESC
-
 description: Describes a DirectML operator that performs a general matrix multiplication function on the input, y = alpha * transposeA(A) * transposeB(B) + beta * C .
 old-location: direct3d12\dml_gemm_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 11482420-678E-4914-90F0-9F952BC09FF7
-
 ms.date: 12/5/2018
 ms.keywords: DML_GEMM_OPERATOR_DESC, DML_GEMM_OPERATOR_DESC structure, direct3d12.dml_gemm_operator_desc, directml/DML_GEMM_OPERATOR_DESC
 ms.topic: struct
-f1_keywords: 
- - "directml/DML_GEMM_OPERATOR_DESC"
+f1_keywords:
+- directml/DML_GEMM_OPERATOR_DESC
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - DML_GEMM_OPERATOR_DESC
+- DML_GEMM_OPERATOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 

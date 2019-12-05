@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IResultData.SetDescBarText
 title: IResultData::SetDescBarText (mmc.h)
-
 description: Sets the description bar text for the result view pane.
 old-location: mmc\iresultdata_setdescbartext.htm
 tech.root: mmc
 ms.assetid: e5bde009-9f05-4ecb-9fbc-3ab211baa184
-
 ms.date: 12/05/2018
 ms.keywords: IResultData interface [MMC],SetDescBarText method, IResultData.SetDescBarText, IResultData2 interface [MMC],SetDescBarText method, IResultData2::SetDescBarText, IResultData::SetDescBarText, SetDescBarText, SetDescBarText method [MMC], SetDescBarText method [MMC],IResultData interface, SetDescBarText method [MMC],IResultData2 interface, _slate_iresultdata_setdescbartext, mmc.iresultdata_setdescbartext, mmc/IResultData2::SetDescBarText, mmc/IResultData::SetDescBarText
 ms.topic: method
-f1_keywords: 
- - "mmc/IResultData.SetDescBarText"
+f1_keywords:
+- mmc/IResultData.SetDescBarText
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IResultData.SetDescBarText
- - IResultData2.SetDescBarText
+- IResultData.SetDescBarText
+- IResultData2.SetDescBarText
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayChapterInTitle
 title: IDvdControl2::PlayChapterInTitle (strmif.h)
-
 description: The PlayChapterInTitle method starts playback from the beginning of the specified chapter of the specified title.
 old-location: dshow\idvdcontrol2_playchapterintitle.htm
 tech.root: DirectShow
 ms.assetid: 1ac5072b-d397-4415-b4b9-656fd59a9269
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayChapterInTitle method, IDvdControl2.PlayChapterInTitle, IDvdControl2::PlayChapterInTitle, IDvdControl2PlayChapterInTitle, PlayChapterInTitle, PlayChapterInTitle method [DirectShow], PlayChapterInTitle method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playchapterintitle, strmif/IDvdControl2::PlayChapterInTitle
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl2.PlayChapterInTitle"
+f1_keywords:
+- strmif/IDvdControl2.PlayChapterInTitle
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdControl2.PlayChapterInTitle
+- IDvdControl2.PlayChapterInTitle
 targetos: Windows
 req.typenames: 
 req.redist: 

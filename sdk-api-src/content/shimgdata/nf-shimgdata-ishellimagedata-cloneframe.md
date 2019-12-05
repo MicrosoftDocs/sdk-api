@@ -1,19 +1,17 @@
 ---
 UID: NF:shimgdata.IShellImageData.CloneFrame
 title: IShellImageData::CloneFrame (shimgdata.h)
-
 description: Retrieves a clone of the current image or frame.
 old-location: shell\IShellImageData_CloneFrame.htm
 tech.root: shell
 ms.assetid: 220d307a-7969-443c-963b-80132509ad8b
-
 ms.date: 12/05/2018
 ms.keywords: CloneFrame, CloneFrame method [Windows Shell], CloneFrame method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],CloneFrame method, IShellImageData.CloneFrame, IShellImageData::CloneFrame, _shell_IShellImageData_CloneFrame, shell.IShellImageData_CloneFrame, shimgdata/IShellImageData::CloneFrame
 ms.topic: method
-f1_keywords: 
- - "shimgdata/IShellImageData.CloneFrame"
+f1_keywords:
+- shimgdata/IShellImageData.CloneFrame
 dev_langs:
- - c++
+- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellImageData.CloneFrame
+- IShellImageData.CloneFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

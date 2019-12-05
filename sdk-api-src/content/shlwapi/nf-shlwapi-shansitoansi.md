@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHAnsiToAnsi
 title: SHAnsiToAnsi function (shlwapi.h)
-
 description: Copies an ANSI string.
 old-location: shell\SHAnsiToAnsi.htm
 tech.root: shell
 ms.assetid: e57142ca-3098-4118-aac0-89724f711872
-
 ms.date: 12/05/2018
 ms.keywords: SHAnsiToAnsi, SHAnsiToAnsi function [Windows Shell], _win32_SHAnsiToAnsi, shell.SHAnsiToAnsi, shlwapi/SHAnsiToAnsi
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHAnsiToAnsi"
+f1_keywords:
+- shlwapi/SHAnsiToAnsi
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
- - ShCore.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
- - API-MS-Win-ShCore-unicodeansi-l1-1-0.dll
+- Shlwapi.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+- ShCore.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+- API-MS-Win-ShCore-unicodeansi-l1-1-0.dll
 api_name:
- - SHAnsiToAnsi
+- SHAnsiToAnsi
 targetos: Windows
 req.typenames: 
 req.redist: 

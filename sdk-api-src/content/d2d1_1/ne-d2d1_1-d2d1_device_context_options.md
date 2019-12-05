@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1_1.D2D1_DEVICE_CONTEXT_OPTIONS
 title: D2D1_DEVICE_CONTEXT_OPTIONS (d2d1_1.h)
-
 description: This specifies options that apply to the device context for its lifetime.
 old-location: direct2d\__d2d1_device_context_options.htm
 tech.root: Direct2D
 ms.assetid: be4e6eb7-0767-4faf-9f27-eeb3bed48244
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_DEVICE_CONTEXT_OPTIONS, D2D1_DEVICE_CONTEXT_OPTIONS enumeration [Direct2D], D2D1_DEVICE_CONTEXT_OPTIONS_ENABLE_MULTITHREADED_OPTIMIZATIONS, D2D1_DEVICE_CONTEXT_OPTIONS_NONE, d2d1_1/D2D1_DEVICE_CONTEXT_OPTIONS, d2d1_1/D2D1_DEVICE_CONTEXT_OPTIONS_ENABLE_MULTITHREADED_OPTIMIZATIONS, d2d1_1/D2D1_DEVICE_CONTEXT_OPTIONS_NONE, direct2d.__d2d1_device_context_options
 ms.topic: enum
-f1_keywords: 
- - "d2d1_1/D2D1_DEVICE_CONTEXT_OPTIONS"
+f1_keywords:
+- d2d1_1/D2D1_DEVICE_CONTEXT_OPTIONS
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D2d1_1.h
+- D2d1_1.h
 api_name:
- - D2D1_DEVICE_CONTEXT_OPTIONS
+- D2D1_DEVICE_CONTEXT_OPTIONS
 targetos: Windows
 req.typenames: D2D1_DEVICE_CONTEXT_OPTIONS
 req.redist: 

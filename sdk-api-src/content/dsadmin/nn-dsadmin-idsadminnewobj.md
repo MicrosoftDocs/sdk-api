@@ -1,19 +1,17 @@
 ---
 UID: NN:dsadmin.IDsAdminNewObj
 title: IDsAdminNewObj (dsadmin.h)
-
 description: The IDsAdminNewObj interface is used by a primary or secondary object creation wizard extension to obtain page count data and to control the command buttons in the wizard.
 old-location: ad\idsadminnewobj.htm
 tech.root: ad
 ms.assetid: b38016a2-bbb7-4715-81cc-bd9911fb5a3b
-
 ms.date: 12/05/2018
 ms.keywords: IDsAdminNewObj, IDsAdminNewObj interface [Active Directory], IDsAdminNewObj interface [Active Directory],described, _glines_idsadminnewobj, ad.idsadminnewobj, dsadmin/IDsAdminNewObj
 ms.topic: interface
-f1_keywords: 
- - "dsadmin/IDsAdminNewObj"
+f1_keywords:
+- dsadmin/IDsAdminNewObj
 dev_langs:
- - c++
+- c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DSAdmin.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DSAdmin.dll
+- DSAdmin.dll
 api_name:
- - IDsAdminNewObj
+- IDsAdminNewObj
 targetos: Windows
 req.typenames: 
 req.redist: 

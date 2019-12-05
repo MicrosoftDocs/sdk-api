@@ -1,19 +1,17 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_SSL_KEY
 title: HTTP_SERVICE_CONFIG_SSL_KEY (http.h)
-
 description: Serves as the key by which a given Secure Sockets Layer (SSL) certificate record is identified.
 old-location: http\http_service_config_ssl_key.htm
 tech.root: http
 ms.assetid: 67231fa5-69eb-4353-8c3c-326ec9095554
-
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_SERVICE_CONFIG_SSL_KEY, HTTP_SERVICE_CONFIG_SSL_KEY, HTTP_SERVICE_CONFIG_SSL_KEY structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_KEY, PHTTP_SERVICE_CONFIG_SSL_KEY structure pointer [HTTP], _http_http_service_config_ssl_key, http.http_service_config_ssl_key, http/HTTP_SERVICE_CONFIG_SSL_KEY, http/PHTTP_SERVICE_CONFIG_SSL_KEY'
 ms.topic: struct
 f1_keywords:
 - http/HTTP_SERVICE_CONFIG_SSL_KEY
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

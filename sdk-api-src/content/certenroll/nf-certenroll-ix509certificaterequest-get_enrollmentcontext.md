@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_EnrollmentContext
 title: IX509CertificateRequest::get_EnrollmentContext (certenroll.h)
-
 description: Retrieves a value that specifies whether the certificate is intended for a computer or a user.
 old-location: security\ix509certificaterequest_enrollmentcontext_property.htm
 tech.root: seccertenroll
 ms.assetid: ea0fa54d-0de6-4578-b93a-1e399101006b
-
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, EnrollmentContext property [Security], EnrollmentContext property [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],EnrollmentContext property, IX509CertificateRequest.EnrollmentContext, IX509CertificateRequest.get_EnrollmentContext, IX509CertificateRequest::EnrollmentContext, IX509CertificateRequest::get_EnrollmentContext, certenroll/IX509CertificateRequest::EnrollmentContext, certenroll/IX509CertificateRequest::get_EnrollmentContext, get_EnrollmentContext, security.ix509certificaterequest_enrollmentcontext_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequest.EnrollmentContext"
+f1_keywords:
+- certenroll/IX509CertificateRequest.EnrollmentContext
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequest.EnrollmentContext
- - IX509CertificateRequest.get_EnrollmentContext
+- IX509CertificateRequest.EnrollmentContext
+- IX509CertificateRequest.get_EnrollmentContext
 targetos: Windows
 req.typenames: 
 req.redist: 

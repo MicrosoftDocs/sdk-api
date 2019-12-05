@@ -1,19 +1,17 @@
 ---
 UID: NC:ntsecpkg.LSA_ALLOCATE_PRIVATE_HEAP
 title: LSA_ALLOCATE_PRIVATE_HEAP (ntsecpkg.h)
-
 description: Allocates memory on the private heap.
 old-location: security\allocateprivateheap.htm
 tech.root: SecAuthN
 ms.assetid: 956e7aaf-e8b3-4db5-945a-b579f946b769
-
 ms.date: 12/05/2018
 ms.keywords: AllocatePrivateHeap, AllocatePrivateHeap callback function [Security], LSA_ALLOCATE_PRIVATE_HEAP, LSA_ALLOCATE_PRIVATE_HEAP callback, ntsecpkg/AllocatePrivateHeap, security.allocateprivateheap
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/AllocatePrivateHeap
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.HSGetShader
 title: ID3D11DeviceContext::HSGetShader (d3d11.h)
-
 description: Get the hull shader currently set on the device.
 old-location: direct3d11\id3d11devicecontext_hsgetshader.htm
 tech.root: direct3d11
 ms.assetid: 2ac2d88f-8c66-490e-add8-95ecaadf0147
-
 ms.date: 12/05/2018
 ms.keywords: 86d0e4a8-a23d-ed0e-3574-68679ce095a8, HSGetShader, HSGetShader method [Direct3D 11], HSGetShader method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],HSGetShader method, ID3D11DeviceContext.HSGetShader, ID3D11DeviceContext::HSGetShader, d3d11/ID3D11DeviceContext::HSGetShader, direct3d11.id3d11devicecontext_hsgetshader
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.HSGetShader"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.HSGetShader
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.HSGetShader
+- ID3D11DeviceContext.HSGetShader
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDServiceProvider.GetDeviceCount
 title: IMDServiceProvider::GetDeviceCount (mswmdm.h)
-
 description: The GetDeviceCount method returns the number of installed physical or software devices that are currently attached and are known by the service provider.
 old-location: wmdm\imdserviceprovider_getdevicecount.htm
 tech.root: WMDM
 ms.assetid: 9cca4cb7-f569-452f-92dc-409b996ede17
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceCount, GetDeviceCount method [windows Media Device Manager], GetDeviceCount method [windows Media Device Manager],IMDServiceProvider interface, IMDServiceProvider interface [windows Media Device Manager],GetDeviceCount method, IMDServiceProvider.GetDeviceCount, IMDServiceProvider::GetDeviceCount, IMDServiceProviderGetDeviceCount, mswmdm/IMDServiceProvider::GetDeviceCount, wmdm.imdserviceprovider_getdevicecount
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDServiceProvider.GetDeviceCount"
+f1_keywords:
+- mswmdm/IMDServiceProvider.GetDeviceCount
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDServiceProvider.GetDeviceCount
+- IMDServiceProvider.GetDeviceCount
 targetos: Windows
 req.typenames: 
 req.redist: 

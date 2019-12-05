@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminPortDisconnect
 title: MprAdminPortDisconnect function (mprapi.h)
-
 description: The MprAdminPortDisconnect function disconnects a connection on a specific port.
 old-location: rras\mpradminportdisconnect.htm
 tech.root: RRAS
 ms.assetid: 97ba7bdf-fac2-44a5-94a8-0b3075a19013
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminPortDisconnect, MprAdminPortDisconnect function [RAS], _mpr_mpradminportdisconnect, mprapi/MprAdminPortDisconnect, rras.mpradminportdisconnect
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminPortDisconnect"
+f1_keywords:
+- mprapi/MprAdminPortDisconnect
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminPortDisconnect
+- MprAdminPortDisconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

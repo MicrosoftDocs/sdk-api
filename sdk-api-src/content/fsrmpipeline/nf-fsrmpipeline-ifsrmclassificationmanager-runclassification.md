@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.RunClassification
 title: IFsrmClassificationManager::RunClassification (fsrmpipeline.h)
-
 description: Runs classification rules and generates the classification report.
 old-location: fsrm\ifsrmclassificationmanager_runclassification.htm
 tech.root: fsrm
 ms.assetid: 50fdc5c8-d2eb-4206-b0fa-0de2696d29c7
-
 ms.date: 12/05/2018
 ms.keywords: FsrmClassificationManager class [File Server Resource Manager],RunClassification method, IFsrmClassificationManager interface [File Server Resource Manager],RunClassification method, IFsrmClassificationManager.RunClassification, IFsrmClassificationManager2 interface [File Server Resource Manager],RunClassification method, IFsrmClassificationManager2::RunClassification, IFsrmClassificationManager::RunClassification, RunClassification, RunClassification method [File Server Resource Manager], RunClassification method [File Server Resource Manager],FsrmClassificationManager class, RunClassification method [File Server Resource Manager],IFsrmClassificationManager interface, RunClassification method [File Server Resource Manager],IFsrmClassificationManager2 interface, fs.ifsrmclassificationmanager_runclassification, fsrm.ifsrmclassificationmanager_runclassification, fsrmpipeline/IFsrmClassificationManager2::RunClassification, fsrmpipeline/IFsrmClassificationManager::RunClassification
 ms.topic: method
 f1_keywords:
 - fsrmpipeline/IFsrmClassificationManager.RunClassification
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows

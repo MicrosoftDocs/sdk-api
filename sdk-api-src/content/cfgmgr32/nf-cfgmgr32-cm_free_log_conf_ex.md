@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Free_Log_Conf_Ex
 title: CM_Free_Log_Conf_Ex function (cfgmgr32.h)
-
 description: The CM_Free_Log_Conf_Ex function removes a logical configuration and all associated resource descriptors from either a local or a remote machine.
 old-location: devinst\cm_free_log_conf_ex.htm
 tech.root: devinst
 ms.assetid: dd19400b-e83e-4feb-a968-b57656c9996c
-
 ms.date: 12/05/2018
 ms.keywords: CM_Free_Log_Conf_Ex, CM_Free_Log_Conf_Ex function [Device and Driver Installation], cfgmgr32/CM_Free_Log_Conf_Ex, cfgmgrfn_fc80be77-fd05-4cca-9614-c8b5e524766a.xml, devinst.cm_free_log_conf_ex
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Free_Log_Conf_Ex"
+f1_keywords:
+- cfgmgr32/CM_Free_Log_Conf_Ex
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib: Cfgmgr32.lib
 req.dll: Cfgmgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.dll
+- Cfgmgr32.dll
 api_name:
- - CM_Free_Log_Conf_Ex
+- CM_Free_Log_Conf_Ex
 targetos: Windows
 req.typenames: 
 req.redist: 

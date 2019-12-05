@@ -1,19 +1,17 @@
 ---
 UID: NF:sfc.SfcGetNextProtectedFile
 title: SfcGetNextProtectedFile function (sfc.h)
-
 description: Retrieves the complete list of protected files.
 old-location: setup\sfcgetnextprotectedfile.htm
 tech.root: wfp
 ms.assetid: 122261d5-b758-4088-8c8b-64b38c6092f1
-
 ms.date: 12/05/2018
 ms.keywords: SfcGetNextProtectedFile, SfcGetNextProtectedFile function [Setup API], _win32_sfcgetnextprotectedfile, setup.sfcgetnextprotectedfile, sfc/SfcGetNextProtectedFile
 ms.topic: function
-f1_keywords: 
- - "sfc/SfcGetNextProtectedFile"
+f1_keywords:
+- sfc/SfcGetNextProtectedFile
 dev_langs:
- - c++
+- c++
 req.header: sfc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sfc.lib
 req.dll: Sfc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Sfc.dll
+- Sfc.dll
 api_name:
- - SfcGetNextProtectedFile
+- SfcGetNextProtectedFile
 targetos: Windows
 req.typenames: 
 req.redist: 

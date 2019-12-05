@@ -1,19 +1,17 @@
 ---
 UID: NF:winver.VerFindFileA
 title: VerFindFileA function (winver.h)
-
 description: Determines where to install a file based on whether it locates another version of the file in the system. The values VerFindFile returns in the specified buffers are used in a subsequent call to the VerInstallFile function.
 old-location: menurc\verfindfile.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verfindfile.htm
-
 ms.date: 12/05/2018
 ms.keywords: VFFF_ISSHAREDFILE, VerFindFile, VerFindFile function [Menus and Other Resources], VerFindFileA, VerFindFileW, _win32_VerFindFile, _win32_verfindfile_cpp, menurc.verfindfile, winui._win32_verfindfile, winver/VerFindFile, winver/VerFindFileA, winver/VerFindFileW
 ms.topic: function
-f1_keywords: 
- - "winver/VerFindFile"
+f1_keywords:
+- winver/VerFindFile
 dev_langs:
- - c++
+- c++
 req.header: winver.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Version.lib
 req.dll: Api-ms-win-core-version-l1-1-0.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-core-version-l1-1-0.dll
- - API-MS-Win-Core-version-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-versionansi-l1-1-0.dll
- - API-MS-Win-DownLevel-version-l1-1-0.dll
- - API-MS-Win-Core-Versionansi-L1-1-1.dll
- - API-MS-Win-Core-Version-L1-1-1.dll
+- api-ms-win-core-version-l1-1-0.dll
+- API-MS-Win-Core-version-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-versionansi-l1-1-0.dll
+- API-MS-Win-DownLevel-version-l1-1-0.dll
+- API-MS-Win-Core-Versionansi-L1-1-1.dll
+- API-MS-Win-Core-Version-L1-1-1.dll
 api_name:
- - VerFindFile
- - VerFindFileA
- - VerFindFileW
+- VerFindFile
+- VerFindFileA
+- VerFindFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

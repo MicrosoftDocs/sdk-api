@@ -1,19 +1,17 @@
 ---
 UID: NF:usp10.ScriptXtoCP
 title: ScriptXtoCP function (usp10.h)
-
 description: Generates the leading or trailing edge of a logical character cluster from the x offset of a run.
 old-location: intl\scriptxtocp.htm
 tech.root: Intl
 ms.assetid: 98548d60-4cbd-4808-8027-1d8058c41d6d
-
 ms.date: 12/05/2018
 ms.keywords: ScriptXtoCP, ScriptXtoCP function [Internationalization for Windows Applications], _win32_ScriptXtoCP, intl.scriptxtocp, usp10/ScriptXtoCP
 ms.topic: function
-f1_keywords: 
- - "usp10/ScriptXtoCP"
+f1_keywords:
+- usp10/ScriptXtoCP
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Usp10.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Usp10.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - ScriptXtoCP
+- ScriptXtoCP
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95

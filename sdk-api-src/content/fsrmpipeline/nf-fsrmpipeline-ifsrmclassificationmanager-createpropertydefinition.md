@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.CreatePropertyDefinition
 title: IFsrmClassificationManager::CreatePropertyDefinition (fsrmpipeline.h)
-
 description: Creates a property definition.
 old-location: fsrm\ifsrmclassificationmanager_createpropertydefinition.htm
 tech.root: fsrm
 ms.assetid: 92c6198b-08b6-4ea6-b8de-1a21acd235d1
-
 ms.date: 12/05/2018
 ms.keywords: CreatePropertyDefinition, CreatePropertyDefinition method [File Server Resource Manager], CreatePropertyDefinition method [File Server Resource Manager],FsrmClassificationManager class, CreatePropertyDefinition method [File Server Resource Manager],IFsrmClassificationManager interface, CreatePropertyDefinition method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],CreatePropertyDefinition method, IFsrmClassificationManager interface [File Server Resource Manager],CreatePropertyDefinition method, IFsrmClassificationManager.CreatePropertyDefinition, IFsrmClassificationManager2 interface [File Server Resource Manager],CreatePropertyDefinition method, IFsrmClassificationManager2::CreatePropertyDefinition, IFsrmClassificationManager::CreatePropertyDefinition, fs.ifsrmclassificationmanager_createpropertydefinition, fsrm.ifsrmclassificationmanager_createpropertydefinition, fsrmpipeline/IFsrmClassificationManager2::CreatePropertyDefinition, fsrmpipeline/IFsrmClassificationManager::CreatePropertyDefinition
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmClassificationManager.CreatePropertyDefinition"
+f1_keywords:
+- fsrmpipeline/IFsrmClassificationManager.CreatePropertyDefinition
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmClassificationManager.CreatePropertyDefinition
- - IFsrmClassificationManager2.CreatePropertyDefinition
- - FsrmClassificationManager.CreatePropertyDefinition
+- IFsrmClassificationManager.CreatePropertyDefinition
+- IFsrmClassificationManager2.CreatePropertyDefinition
+- FsrmClassificationManager.CreatePropertyDefinition
 targetos: Windows
 req.typenames: 
 req.redist: 

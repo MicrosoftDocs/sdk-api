@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.put_SecurityDescriptor
 title: IRegistrationInfo::put_SecurityDescriptor (taskschd.h)
-
 description: Gets or sets the security descriptor of the task.
 old-location: taskschd\iregistrationinfo_securitydescriptor.htm
 tech.root: taskschd
 ms.assetid: 095b8f81-412a-461d-bb6e-65c10b337d3e
-
 ms.date: 12/05/2018
 ms.keywords: IRegistrationInfo interface [Task Scheduler],SecurityDescriptor property, IRegistrationInfo.SecurityDescriptor, IRegistrationInfo.put_SecurityDescriptor, IRegistrationInfo::SecurityDescriptor, IRegistrationInfo::get_SecurityDescriptor, IRegistrationInfo::put_SecurityDescriptor, SecurityDescriptor property [Task Scheduler], SecurityDescriptor property [Task Scheduler],IRegistrationInfo interface, put_SecurityDescriptor, taskschd.iregistrationinfo_securitydescriptor, taskschd/IRegistrationInfo::SecurityDescriptor, taskschd/IRegistrationInfo::get_SecurityDescriptor, taskschd/IRegistrationInfo::put_SecurityDescriptor
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRegistrationInfo.SecurityDescriptor"
+f1_keywords:
+- taskschd/IRegistrationInfo.SecurityDescriptor
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRegistrationInfo.SecurityDescriptor
- - IRegistrationInfo.get_SecurityDescriptor
- - IRegistrationInfo.put_SecurityDescriptor
+- IRegistrationInfo.SecurityDescriptor
+- IRegistrationInfo.get_SecurityDescriptor
+- IRegistrationInfo.put_SecurityDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

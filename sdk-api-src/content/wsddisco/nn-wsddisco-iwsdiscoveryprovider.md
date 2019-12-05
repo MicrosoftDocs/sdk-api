@@ -1,19 +1,17 @@
 ---
 UID: NN:wsddisco.IWSDiscoveryProvider
 title: IWSDiscoveryProvider (wsddisco.h)
-
 description: Used to discover services on the network advertised by WS-Discovery.
 old-location: ncd\iwsdiscoveryprovider.htm
 tech.root: WsdApi
 ms.assetid: e3d3acc2-914b-40bd-9e1e-a3a612821ab7
-
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryProvider, IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,described, ncd.iwsdiscoveryprovider, wsddisco/IWSDiscoveryProvider
 ms.topic: interface
-f1_keywords: 
- - "wsddisco/IWSDiscoveryProvider"
+f1_keywords:
+- wsddisco/IWSDiscoveryProvider
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDiscoveryProvider
+- IWSDiscoveryProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

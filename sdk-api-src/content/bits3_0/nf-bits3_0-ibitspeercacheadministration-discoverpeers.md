@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.DiscoverPeers
 title: IBitsPeerCacheAdministration::DiscoverPeers (bits3_0.h)
-
 description: Generates a list of peers that can serve content.
 old-location: bits\ibitspeercacheadministration_discoverpeers.htm
 tech.root: Bits
 ms.assetid: c83632c2-5d01-48ab-93ef-961778c2379a
-
 ms.date: 12/05/2018
 ms.keywords: DiscoverPeers, DiscoverPeers method [BITS], DiscoverPeers method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],DiscoverPeers method, IBitsPeerCacheAdministration.DiscoverPeers, IBitsPeerCacheAdministration::DiscoverPeers, bits.ibitspeercacheadministration_discoverpeers, bits3_0/IBitsPeerCacheAdministration::DiscoverPeers
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IBitsPeerCacheAdministration.DiscoverPeers"
+f1_keywords:
+- bits3_0/IBitsPeerCacheAdministration.DiscoverPeers
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBitsPeerCacheAdministration.DiscoverPeers
+- IBitsPeerCacheAdministration.DiscoverPeers
 targetos: Windows
 req.typenames: 
 req.redist: 

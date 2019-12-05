@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.IsMoveInSameFolder
 title: IFolderView2::IsMoveInSameFolder (shobjidl_core.h)
-
 description: Checks to see if this view sourced the current drag-and-drop or cut-and-paste operation (used by drop target objects).
 old-location: shell\IFolderView2_IsMoveInSameFolder.htm
 tech.root: shell
 ms.assetid: 1687a162-f81c-422b-afc2-0b5b8b6951ad
-
 ms.date: 12/05/2018
 ms.keywords: IFolderView2 interface [Windows Shell],IsMoveInSameFolder method, IFolderView2.IsMoveInSameFolder, IFolderView2::IsMoveInSameFolder, IsMoveInSameFolder, IsMoveInSameFolder method [Windows Shell], IsMoveInSameFolder method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_IsMoveInSameFolder, shell.IFolderView2_IsMoveInSameFolder, shobjidl_core/IFolderView2::IsMoveInSameFolder
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderView2.IsMoveInSameFolder"
+f1_keywords:
+- shobjidl_core/IFolderView2.IsMoveInSameFolder
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFolderView2.IsMoveInSameFolder
+- IFolderView2.IsMoveInSameFolder
 targetos: Windows
 req.typenames: 
 req.redist: 

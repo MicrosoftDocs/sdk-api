@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlaylist.removeItem
 title: IWMPPlaylist::removeItem (wmp.h)
-
 description: The removeItem method removes the specified media item from the playlist.
 old-location: wmp\iwmpplaylist_removeitem.htm
 tech.root: WMP
 ms.assetid: 7a17b0e0-2eaf-4570-a297-c2540ae4b6c5
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],removeItem method, IWMPPlaylist.removeItem, IWMPPlaylist::removeItem, IWMPPlaylistremoveItem, removeItem, removeItem method [Windows Media Player], removeItem method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_removeitem, wmp/IWMPPlaylist::removeItem
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlaylist.removeItem"
+f1_keywords:
+- wmp/IWMPPlaylist.removeItem
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlaylist.removeItem
+- IWMPPlaylist.removeItem
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents2.BeginFieldUpdates
 title: ICredentialProviderCredentialEvents2::BeginFieldUpdates (credentialprovider.h)
-
 description: Starts a batch update to fields in the logon or credential UI.
 old-location: shell\ICredentialProviderCredentialEvents2_BeginFieldUpdates.htm
 tech.root: shell
 ms.assetid: 2E7EB8B4-ED6F-4954-88D3-FB79D80E53B2
-
 ms.date: 12/05/2018
 ms.keywords: BeginFieldUpdates, BeginFieldUpdates method [Windows Shell], BeginFieldUpdates method [Windows Shell],ICredentialProviderCredentialEvents2 interface, ICredentialProviderCredentialEvents2 interface [Windows Shell],BeginFieldUpdates method, ICredentialProviderCredentialEvents2.BeginFieldUpdates, ICredentialProviderCredentialEvents2::BeginFieldUpdates, credentialprovider/ICredentialProviderCredentialEvents2::BeginFieldUpdates, shell.ICredentialProviderCredentialEvents2_BeginFieldUpdates
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderCredentialEvents2.BeginFieldUpdates"
+f1_keywords:
+- credentialprovider/ICredentialProviderCredentialEvents2.BeginFieldUpdates
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CredentialProvider.h
+- CredentialProvider.h
 api_name:
- - ICredentialProviderCredentialEvents2.BeginFieldUpdates
+- ICredentialProviderCredentialEvents2.BeginFieldUpdates
 targetos: Windows
 req.typenames: 
 req.redist: 

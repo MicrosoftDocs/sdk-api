@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IRpcChannelBuffer
 title: IRpcChannelBuffer (objidl.h)
-
 description: Marshals data between a COM client proxy and a COM server stub.
 old-location: com\irpcchannelbuffer.htm
 tech.root: com
 ms.assetid: 1d7d7e1c-a491-4625-97ae-0d4dc5d2fc20
-
 ms.date: 12/05/2018
 ms.keywords: IRpcChannelBuffer, IRpcChannelBuffer interface [COM], IRpcChannelBuffer interface [COM],described, _com_irpcchannelbuffer, com.irpcchannelbuffer, objidlbase/IRpcChannelBuffer
 ms.topic: interface
-f1_keywords: 
- - "objidl/IRpcChannelBuffer"
+f1_keywords:
+- objidl/IRpcChannelBuffer
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IRpcChannelBuffer
+- IRpcChannelBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

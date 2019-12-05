@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagDRAWTEXTPARAMS
 title: DRAWTEXTPARAMS (winuser.h)
-
 description: The DRAWTEXTPARAMS structure contains extended formatting options for the DrawTextEx function.
 old-location: gdi\drawtextparams.htm
 tech.root: gdi
 ms.assetid: d3b89ce2-9a05-42af-b03e-24e1c4d6ef1d
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDRAWTEXTPARAMS, DRAWTEXTPARAMS, DRAWTEXTPARAMS structure [Windows GDI], LPDRAWTEXTPARAMS, LPDRAWTEXTPARAMS structure pointer [Windows GDI], _win32_DRAWTEXTPARAMS_str, gdi.drawtextparams, tagDRAWTEXTPARAMS, winuser/DRAWTEXTPARAMS, winuser/LPDRAWTEXTPARAMS"
+ms.keywords: '*LPDRAWTEXTPARAMS, DRAWTEXTPARAMS, DRAWTEXTPARAMS structure [Windows GDI], LPDRAWTEXTPARAMS, LPDRAWTEXTPARAMS structure pointer [Windows GDI], _win32_DRAWTEXTPARAMS_str, gdi.drawtextparams, tagDRAWTEXTPARAMS, winuser/DRAWTEXTPARAMS, winuser/LPDRAWTEXTPARAMS'
 ms.topic: struct
-f1_keywords: 
- - "winuser/DRAWTEXTPARAMS"
+f1_keywords:
+- winuser/DRAWTEXTPARAMS
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - DRAWTEXTPARAMS
+- DRAWTEXTPARAMS
 targetos: Windows
 req.typenames: DRAWTEXTPARAMS, *LPDRAWTEXTPARAMS
 req.redist: 

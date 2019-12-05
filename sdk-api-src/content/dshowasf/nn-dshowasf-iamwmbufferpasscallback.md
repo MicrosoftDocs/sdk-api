@@ -1,19 +1,17 @@
 ---
 UID: NN:dshowasf.IAMWMBufferPassCallback
 title: IAMWMBufferPassCallback (dshowasf.h)
-
 description: The IAMWMBufferPassCallback interface is provided for advanced scenarios in which applications need access to an INSSBuffer3 sample before it is passed downstream for further processing.
 old-location: wmformat\iamwmbufferpasscallback.htm
 tech.root: wmformat
 ms.assetid: 5bf0ae2e-504b-471b-bfc9-aa48f534e03f
-
 ms.date: 12/05/2018
 ms.keywords: IAMWMBufferPassCallback, IAMWMBufferPassCallback interface [windows Media Format], IAMWMBufferPassCallback interface [windows Media Format],described, IAMWMBufferPassCallbackInterface, dshowasf/IAMWMBufferPassCallback, wmformat.iamwmbufferpasscallback
 ms.topic: interface
-f1_keywords: 
- - "dshowasf/IAMWMBufferPassCallback"
+f1_keywords:
+- dshowasf/IAMWMBufferPassCallback
 dev_langs:
- - c++
+- c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dshowasf.h
+- dshowasf.h
 api_name:
- - IAMWMBufferPassCallback
+- IAMWMBufferPassCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

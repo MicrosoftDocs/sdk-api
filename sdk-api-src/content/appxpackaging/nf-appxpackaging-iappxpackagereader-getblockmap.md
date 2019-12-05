@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxPackageReader.GetBlockMap
 title: IAppxPackageReader::GetBlockMap (appxpackaging.h)
-
 description: Retrieves the block map object model of the package.
 old-location: appxpkg\iappxpackagereader_getblockmap.htm
 tech.root: appxpkg
 ms.assetid: FEBCA2E4-9B32-499B-AD31-9D90525A42DB
-
 ms.date: 12/05/2018
 ms.keywords: GetBlockMap, GetBlockMap method [App packaging and management], GetBlockMap method [App packaging and management],IAppxPackageReader interface, IAppxPackageReader interface [App packaging and management],GetBlockMap method, IAppxPackageReader.GetBlockMap, IAppxPackageReader::GetBlockMap, appxpackaging/IAppxPackageReader::GetBlockMap, appxpkg.iappxpackagereader_getblockmap
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxPackageReader.GetBlockMap"
+f1_keywords:
+- appxpackaging/IAppxPackageReader.GetBlockMap
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxPackageReader.GetBlockMap
+- IAppxPackageReader.GetBlockMap
 targetos: Windows
 req.typenames: 
 req.redist: 

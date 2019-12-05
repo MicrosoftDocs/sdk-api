@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.RemovePropertyItem
 title: Image::RemovePropertyItem (gdiplusheaders.h)
-
 description: The Image::RemovePropertyItem method removes a property item (piece of metadata) from this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_RemovePropertyItem_propId_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\removepropertyitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: Image class [GDI+],RemovePropertyItem method, Image.RemovePropertyItem, Image::RemovePropertyItem, RemovePropertyItem, RemovePropertyItem method [GDI+], RemovePropertyItem method [GDI+],Image class, _gdiplus_CLASS_Image_RemovePropertyItem_propId_, gdiplus._gdiplus_CLASS_Image_RemovePropertyItem_propId_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.RemovePropertyItem"
+f1_keywords:
+- gdiplusheaders/Image.RemovePropertyItem
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.RemovePropertyItem
+- Image.RemovePropertyItem
 targetos: Windows
 req.typenames: 
 req.redist: 

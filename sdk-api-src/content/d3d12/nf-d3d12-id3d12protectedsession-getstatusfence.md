@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12ProtectedSession.GetStatusFence
 title: ID3D12ProtectedSession::GetStatusFence (d3d12.h)
-
 description: Retrieves the fence for the protected session. From the fence, you can retrieve the current uniqueness validity value (using ID3D12Fence::GetCompletedValue), and add monitors for changes to its value. This is a read-only fence.
 old-location: direct3d12\id3d12protectedsession_getstatusfence.htm
 tech.root: direct3d12
 ms.assetid: A2B4A826-198C-4D6E-9006-B6470DE1121E
-
 ms.date: 12/05/2018
 ms.keywords: GetStatusFence, GetStatusFence method, GetStatusFence method,ID3D12ProtectedSession interface, ID3D12ProtectedSession interface,GetStatusFence method, ID3D12ProtectedSession.GetStatusFence, ID3D12ProtectedSession::GetStatusFence, d3d12/ID3D12ProtectedSession::GetStatusFence, direct3d12.id3d12protectedsession_getstatusfence
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12ProtectedSession.GetStatusFence"
+f1_keywords:
+- d3d12/ID3D12ProtectedSession.GetStatusFence
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12ProtectedSession.GetStatusFence
+- ID3D12ProtectedSession.GetStatusFence
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnWriteDataComplete
 title: IMbnDeviceServicesEvents::OnWriteDataComplete (mbnapi.h)
-
 description: Notification method indicating that a device service session Write request has completed.
 old-location: mbn\imbndeviceservicesevents_onwritedatacomplete.htm
 tech.root: mbn
 ms.assetid: 2C885E15-C689-4ADF-BFB0-24D03932FAC7
-
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnWriteDataComplete method, IMbnDeviceServicesEvents.OnWriteDataComplete, IMbnDeviceServicesEvents::OnWriteDataComplete, OnWriteDataComplete, OnWriteDataComplete method [Microsoft Broadband Networks], OnWriteDataComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onwritedatacomplete, mbnapi/IMbnDeviceServicesEvents::OnWriteDataComplete
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnDeviceServicesEvents.OnWriteDataComplete"
+f1_keywords:
+- mbnapi/IMbnDeviceServicesEvents.OnWriteDataComplete
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnDeviceServicesEvents.OnWriteDataComplete
+- IMbnDeviceServicesEvents.OnWriteDataComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

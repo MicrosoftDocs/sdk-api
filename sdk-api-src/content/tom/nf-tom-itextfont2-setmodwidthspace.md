@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont2.SetModWidthSpace
 title: ITextFont2::SetModWidthSpace (tom.h)
-
 description: Sets whether &#0034;increase width of whitespace&#0034; is active.
 old-location: controls\itextfont2_setmodwidthspace.htm
 tech.root: Controls
 ms.assetid: df3ea127-1f47-4173-ad2c-0a7af4c8454c
-
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetModWidthSpace method, ITextFont2.SetModWidthSpace, ITextFont2::SetModWidthSpace, SetModWidthSpace, SetModWidthSpace method [Windows Controls], SetModWidthSpace method [Windows Controls],ITextFont2 interface, controls.itextfont2_setmodwidthspace, tom/ITextFont2::SetModWidthSpace
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont2.SetModWidthSpace"
+f1_keywords:
+- tom/ITextFont2.SetModWidthSpace
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont2.SetModWidthSpace
+- ITextFont2.SetModWidthSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

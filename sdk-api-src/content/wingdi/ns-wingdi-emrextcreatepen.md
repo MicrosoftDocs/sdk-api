@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMREXTCREATEPEN
 title: EMREXTCREATEPEN (wingdi.h)
-
 description: The EMREXTCREATEPEN structure contains members for the ExtCreatePen enhanced metafile record. If the record contains a BITMAPINFO structure, it is followed by the bitmap bits that form a packed device-independent bitmap (DIB).
 old-location: gdi\emrextcreatepen.htm
 tech.root: gdi
 ms.assetid: 9ed97d34-8c03-4b14-821c-397c21c36db0
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMREXTCREATEPEN, EMREXTCREATEPEN, EMREXTCREATEPEN structure [Windows GDI], PEMREXTCREATEPEN, PEMREXTCREATEPEN structure pointer [Windows GDI], _win32_EMREXTCREATEPEN_str, gdi.emrextcreatepen, wingdi/EMREXTCREATEPEN, wingdi/PEMREXTCREATEPEN"
+ms.keywords: '*PEMREXTCREATEPEN, EMREXTCREATEPEN, EMREXTCREATEPEN structure [Windows GDI], PEMREXTCREATEPEN, PEMREXTCREATEPEN structure pointer [Windows GDI], _win32_EMREXTCREATEPEN_str, gdi.emrextcreatepen, wingdi/EMREXTCREATEPEN, wingdi/PEMREXTCREATEPEN'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMREXTCREATEPEN"
+f1_keywords:
+- wingdi/EMREXTCREATEPEN
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMREXTCREATEPEN
+- EMREXTCREATEPEN
 targetos: Windows
 req.typenames: EMREXTCREATEPEN, *PEMREXTCREATEPEN
 req.redist: 

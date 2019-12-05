@@ -1,19 +1,17 @@
 ---
 UID: NF:certbcli.CertSrvBackupTruncateLogs
 title: CertSrvBackupTruncateLogs function (certbcli.h)
-
 description: Eliminates redundant records and reduces the disk storage space used by log files.
 old-location: security\certsrvbackuptruncatelogs.htm
 tech.root: SecCrypto
 ms.assetid: 8ccab63c-1057-485e-970e-8298dfea3426
-
 ms.date: 12/05/2018
 ms.keywords: CertSrvBackupTruncateLogs, CertSrvBackupTruncateLogs function [Security], _certsrv_certsrvbackuptruncatelogs, certbcli/CertSrvBackupTruncateLogs, security.certsrvbackuptruncatelogs
 ms.topic: function
-f1_keywords: 
- - "certbcli/CertSrvBackupTruncateLogs"
+f1_keywords:
+- certbcli/CertSrvBackupTruncateLogs
 dev_langs:
- - c++
+- c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - CertSrvBackupTruncateLogs
+- CertSrvBackupTruncateLogs
 targetos: Windows
 req.typenames: 
 req.redist: 

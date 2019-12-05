@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.InterlockedCompareExchangePointer
 title: InterlockedCompareExchangePointer function (winnt.h)
-
 description: Performs an atomic compare-and-exchange operation on the specified values. The function compares two specified pointer values and exchanges with another pointer value based on the outcome of the comparison.
 old-location: base\interlockedcompareexchangepointer.htm
 tech.root: Sync
 ms.assetid: 15c1fadd-9e0d-4254-ae14-82b0ce46909e
-
 ms.date: 12/05/2018
 ms.keywords: InterlockedCompareExchangePointer, InterlockedCompareExchangePointer function, _win32_interlockedcompareexchangepointer, base.interlockedcompareexchangepointer, winnt/InterlockedCompareExchangePointer
 ms.topic: function
-f1_keywords: 
- - "winnt/InterlockedCompareExchangePointer"
+f1_keywords:
+- winnt/InterlockedCompareExchangePointer
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - InterlockedCompareExchangePointer
+- InterlockedCompareExchangePointer
 targetos: Windows
 req.typenames: 
 req.redist: 

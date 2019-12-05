@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.AddOption
 title: IWSManResourceLocator::AddOption (wsmandisp.h)
-
 description: Adds data required to process the request. For example, some WMI providers may require an IWbemContext or SWbemNamedValueSet object with provider-specific information.
 old-location: winrm\iwsmanresourcelocator_addoption.htm
 tech.root: winrm
 ms.assetid: a6709cb7-35a1-41b6-981e-13d3f1bf9816
-
 ms.date: 12/05/2018
 ms.keywords: AddOption, AddOption method [Windows Remote Management], AddOption method [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],AddOption method, IWSManResourceLocator.AddOption, IWSManResourceLocator::AddOption, winrm.iwsmanresourcelocator_addoption, wsmandisp/IWSManResourceLocator::AddOption
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManResourceLocator.AddOption"
+f1_keywords:
+- wsmandisp/IWSManResourceLocator.AddOption
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManResourceLocator.AddOption
+- IWSManResourceLocator.AddOption
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarDecFromDate
 title: VarDecFromDate function (oleauto.h)
-
 description: Converts a date value to a decimal value.
 old-location: automat\vardecfromdate.htm
 tech.root: automat
 ms.assetid: e398ac4c-252b-4f7e-b794-d7027a21c831
-
 ms.date: 12/05/2018
 ms.keywords: VarDecFromDate, VarDecFromDate function [Automation], _oa96_VarDecFromDate, automat.vardecfromdate, oleauto/VarDecFromDate
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarDecFromDate"
+f1_keywords:
+- oleauto/VarDecFromDate
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarDecFromDate
+- VarDecFromDate
 targetos: Windows
 req.typenames: 
 req.redist: 

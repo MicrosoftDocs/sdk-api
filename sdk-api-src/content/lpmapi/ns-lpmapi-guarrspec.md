@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_26
 title: GuarRspec (lpmapi.h)
-
 description: The GuarRspec structure contains guaranteed Rspec information.
 old-location: qos\guarrspec.htm
 tech.root: QOS
 ms.assetid: b5a2daa1-9783-44c2-baa6-5164dedf498f
-
 ms.date: 12/05/2018
 ms.keywords: GuarRspec, GuarRspec structure [QOS], lpmapi/GuarRspec, qos.guarrspec
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/GuarRspec"
+f1_keywords:
+- lpmapi/GuarRspec
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - GuarRspec
+- GuarRspec
 targetos: Windows
 req.typenames: GuarRspec
 req.redist: 

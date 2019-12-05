@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IContextMenuCallback
 title: IContextMenuCallback (mmc.h)
-
 description: The IContextMenuCallback interface is used to add menu items to a context menu.
 old-location: mmc\icontextmenucallback.htm
 tech.root: mmc
 ms.assetid: 141a650f-a829-47b1-abf9-427302d98444
-
 ms.date: 12/05/2018
 ms.keywords: IContextMenuCallback, IContextMenuCallback interface [MMC], IContextMenuCallback interface [MMC],described, _slate_icontextmenucallback, mmc.icontextmenucallback, mmc/IContextMenuCallback
 ms.topic: interface
-f1_keywords: 
- - "mmc/IContextMenuCallback"
+f1_keywords:
+- mmc/IContextMenuCallback
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IContextMenuCallback
+- IContextMenuCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

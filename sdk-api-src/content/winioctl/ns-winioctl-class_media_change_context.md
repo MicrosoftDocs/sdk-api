@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._CLASS_MEDIA_CHANGE_CONTEXT
 title: CLASS_MEDIA_CHANGE_CONTEXT
-
 description: Contains information associated with a media change event.
 old-location: base\class_media_change_context_str.htm
 tech.root: devio
 ms.assetid: c89da554-3dc5-4278-8afe-8da9cc0a0120
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLASS_MEDIA_CHANGE_CONTEXT, CLASS_MEDIA_CHANGE_CONTEXT, CLASS_MEDIA_CHANGE_CONTEXT structure, MediaNotPresent, MediaPresent, MediaUnavailable, MediaUnknown, PCLASS_MEDIA_CHANGE_CONTEXT, PCLASS_MEDIA_CHANGE_CONTEXT structure pointer, _win32_class_media_change_context_str, base.class_media_change_context_str, winioctl/CLASS_MEDIA_CHANGE_CONTEXT, winioctl/PCLASS_MEDIA_CHANGE_CONTEXT"
+ms.keywords: '*PCLASS_MEDIA_CHANGE_CONTEXT, CLASS_MEDIA_CHANGE_CONTEXT, CLASS_MEDIA_CHANGE_CONTEXT structure, MediaNotPresent, MediaPresent, MediaUnavailable, MediaUnknown, PCLASS_MEDIA_CHANGE_CONTEXT, PCLASS_MEDIA_CHANGE_CONTEXT structure pointer, _win32_class_media_change_context_str, base.class_media_change_context_str, winioctl/CLASS_MEDIA_CHANGE_CONTEXT, winioctl/PCLASS_MEDIA_CHANGE_CONTEXT'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/CLASS_MEDIA_CHANGE_CONTEXT"
+f1_keywords:
+- winioctl/CLASS_MEDIA_CHANGE_CONTEXT
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - CLASS_MEDIA_CHANGE_CONTEXT
+- CLASS_MEDIA_CHANGE_CONTEXT
 targetos: Windows
 req.typenames: CLASS_MEDIA_CHANGE_CONTEXT, *PCLASS_MEDIA_CHANGE_CONTEXT
 req.redist: 

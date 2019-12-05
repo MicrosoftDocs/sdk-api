@@ -1,19 +1,17 @@
 ---
 UID: NC:userenv.PFNSTATUSMESSAGECALLBACK
 title: PFNSTATUSMESSAGECALLBACK (userenv.h)
-
 description: The StatusMessageCallback function is an application-defined callback function used to display status messages when applying policy.
 old-location: policy\statusmessagecallback.htm
 tech.root: Policy
 ms.assetid: 9eec6204-49b5-49fd-8db4-5c1777eb7c85
-
 ms.date: 12/05/2018
 ms.keywords: PFNSTATUSMESSAGECALLBACK, PFNSTATUSMESSAGECALLBACK callback, PFNSTATUSMESSAGECALLBACK callback function [Group Policy], StatusMessageCallback, _win32_statusmessagecallback, policy.statusmessagecallback, userenv/PFNSTATUSMESSAGECALLBACK
 ms.topic: callback
-f1_keywords: 
- - "userenv/PFNSTATUSMESSAGECALLBACK"
+f1_keywords:
+- userenv/PFNSTATUSMESSAGECALLBACK
 dev_langs:
- - c++
+- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Userenv.h
+- Userenv.h
 api_name:
- - PFNSTATUSMESSAGECALLBACK
+- PFNSTATUSMESSAGECALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

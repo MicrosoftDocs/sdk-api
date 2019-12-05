@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.ICertPropertyRequestOriginator
 title: ICertPropertyRequestOriginator (certenroll.h)
-
 description: Represents a certificate property that contains the Domain Naming System (DNS) name of the computer on which the request was created.
 old-location: security\icertpropertyrequestoriginator.htm
 tech.root: seccertenroll
 ms.assetid: ce33605e-c3ae-4b96-a13e-6f06e8d5ffee
-
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyRequestOriginator, ICertPropertyRequestOriginator interface [Security], ICertPropertyRequestOriginator interface [Security],described, certenroll/ICertPropertyRequestOriginator, security.icertpropertyrequestoriginator
 ms.topic: interface
-f1_keywords: 
- - "certenroll/ICertPropertyRequestOriginator"
+f1_keywords:
+- certenroll/ICertPropertyRequestOriginator
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertPropertyRequestOriginator
+- ICertPropertyRequestOriginator
 targetos: Windows
 req.typenames: 
 req.redist: 

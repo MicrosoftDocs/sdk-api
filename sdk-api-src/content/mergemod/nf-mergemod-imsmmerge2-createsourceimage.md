@@ -1,19 +1,17 @@
 ---
 UID: NF:mergemod.IMsmMerge2.CreateSourceImage
 title: IMsmMerge2::CreateSourceImage (mergemod.h)
-
 description: The CreateSourceImage method enables the client to extract the files from a module to a source image on disk after a merge, taking into account changes to the module that might have been made during module configuration.
 old-location: setup\imsmmerge2_createsourceimage.htm
 tech.root: Msi
 ms.assetid: c42fa644-f0e6-4261-af76-741df572df3a
-
 ms.date: 12/05/2018
 ms.keywords: CreateSourceImage, CreateSourceImage method, CreateSourceImage method,IMsmMerge2 interface, IMsmMerge2 interface,CreateSourceImage method, IMsmMerge2.CreateSourceImage, IMsmMerge2::CreateSourceImage, _msi_createsourceimage_function, mergemod/IMsmMerge2::CreateSourceImage, setup.imsmmerge2_createsourceimage
 ms.topic: method
-f1_keywords: 
- - "mergemod/IMsmMerge2.CreateSourceImage"
+f1_keywords:
+- mergemod/IMsmMerge2.CreateSourceImage
 dev_langs:
- - c++
+- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mergemod.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mergemod.dll
+- Mergemod.dll
 api_name:
- - IMsmMerge2.CreateSourceImage
+- IMsmMerge2.CreateSourceImage
 targetos: Windows
 req.typenames: 
 req.redist: 

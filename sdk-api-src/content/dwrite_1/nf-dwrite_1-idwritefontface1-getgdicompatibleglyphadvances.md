@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.GetGdiCompatibleGlyphAdvances
 title: IDWriteFontFace1::GetGdiCompatibleGlyphAdvances (dwrite_1.h)
-
 description: Returns the pixel-aligned advances for a sequences of glyphs.
 old-location: directwrite\idwritefontface1_getgdicompatibleglyphadvances.htm
 tech.root: DirectWrite
 ms.assetid: 187DF4C8-203E-4658-9DBF-D02988F92BBB
-
 ms.date: 12/05/2018
 ms.keywords: GetGdiCompatibleGlyphAdvances, GetGdiCompatibleGlyphAdvances method [Direct Write], GetGdiCompatibleGlyphAdvances method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],GetGdiCompatibleGlyphAdvances method, IDWriteFontFace1.GetGdiCompatibleGlyphAdvances, IDWriteFontFace1::GetGdiCompatibleGlyphAdvances, directwrite.idwritefontface1_getgdicompatibleglyphadvances, dwrite_1/IDWriteFontFace1::GetGdiCompatibleGlyphAdvances
 ms.topic: method
-f1_keywords: 
- - "dwrite_1/IDWriteFontFace1.GetGdiCompatibleGlyphAdvances"
+f1_keywords:
+- dwrite_1/IDWriteFontFace1.GetGdiCompatibleGlyphAdvances
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite_1.lib
 req.dll: Dwrite_1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite_1.dll
+- dwrite_1.dll
 api_name:
- - IDWriteFontFace1.GetGdiCompatibleGlyphAdvances
+- IDWriteFontFace1.GetGdiCompatibleGlyphAdvances
 targetos: Windows
 req.typenames: 
 req.redist: 

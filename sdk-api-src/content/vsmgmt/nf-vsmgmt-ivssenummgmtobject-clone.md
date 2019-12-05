@@ -1,19 +1,17 @@
 ---
 UID: NF:vsmgmt.IVssEnumMgmtObject.Clone
 title: IVssEnumMgmtObject::Clone (vsmgmt.h)
-
 description: Creates a copy of the specified list of enumerated elements by creating a copy of the IVssEnumMgmtObject enumerator object.
 old-location: base\ivssenummgmtobject_clone.htm
 tech.root: VSS
 ms.assetid: f957052a-5511-4f00-b864-1f03ead2ba58
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [VSS], Clone method [VSS],IVssEnumMgmtObject interface, IVssEnumMgmtObject interface [VSS],Clone method, IVssEnumMgmtObject.Clone, IVssEnumMgmtObject::Clone, base.ivssenummgmtobject_clone, vsmgmt/IVssEnumMgmtObject::Clone
 ms.topic: method
-f1_keywords: 
- - "vsmgmt/IVssEnumMgmtObject.Clone"
+f1_keywords:
+- vsmgmt/IVssEnumMgmtObject.Clone
 dev_langs:
- - c++
+- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsMgmt.h
+- VsMgmt.h
 api_name:
- - IVssEnumMgmtObject.Clone
+- IVssEnumMgmtObject.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

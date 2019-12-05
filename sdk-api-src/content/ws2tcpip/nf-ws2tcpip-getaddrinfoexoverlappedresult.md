@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2tcpip.GetAddrInfoExOverlappedResult
 title: GetAddrInfoExOverlappedResult function (ws2tcpip.h)
-
 description: Gets the return code for an OVERLAPPED structure used by an asynchronous operation for the GetAddrInfoEx function.
 old-location: winsock\getaddrinfoexoverlappedresult.htm
 tech.root: WinSock
 ms.assetid: BBA6E407-561C-4B3C-9218-0047477E82DE
-
 ms.date: 12/05/2018
 ms.keywords: GetAddrInfoExOverlappedResult, GetAddrInfoExOverlappedResult function [Winsock], winsock.getaddrinfoexoverlappedresult, ws2tcpip/GetAddrInfoExOverlappedResult
 ms.topic: function
-f1_keywords: 
- - "ws2tcpip/GetAddrInfoExOverlappedResult"
+f1_keywords:
+- ws2tcpip/GetAddrInfoExOverlappedResult
 dev_langs:
- - c++
+- c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - GetAddrInfoExOverlappedResult
+- GetAddrInfoExOverlappedResult
 targetos: Windows
 req.typenames: 
 req.redist: 

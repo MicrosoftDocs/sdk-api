@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IDirectorySearch.GetFirstRow
 title: IDirectorySearch::GetFirstRow (iads.h)
-
 description: The GetFirstRow method gets the first row of a search result. This method will issue or reissue a new search, even if this method has been called before.
 old-location: adsi\idirectorysearch_getfirstrow.htm
 tech.root: adsi
 ms.assetid: 99ece6d1-3963-40bc-993e-f03aa9039c2d
-
 ms.date: 12/05/2018
 ms.keywords: GetFirstRow, GetFirstRow method [ADSI], GetFirstRow method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],GetFirstRow method, IDirectorySearch.GetFirstRow, IDirectorySearch::GetFirstRow, _ds_idirectorysearch_getfirstrow, adsi.idirectorysearch__getfirstrow, adsi.idirectorysearch_getfirstrow, iads/IDirectorySearch::GetFirstRow
 ms.topic: method
-f1_keywords: 
- - "iads/IDirectorySearch.GetFirstRow"
+f1_keywords:
+- iads/IDirectorySearch.GetFirstRow
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
- - Adsldp.dll
- - Adsldpc.dll
+- Activeds.dll
+- Adsldp.dll
+- Adsldpc.dll
 api_name:
- - IDirectorySearch.GetFirstRow
+- IDirectorySearch.GetFirstRow
 targetos: Windows
 req.typenames: 
 req.redist: 

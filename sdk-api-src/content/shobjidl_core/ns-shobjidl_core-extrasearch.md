@@ -1,19 +1,17 @@
 ---
 UID: NS:shobjidl_core.EXTRASEARCH
 title: EXTRASEARCH (shobjidl_core.h)
-
 description: Used by an IEnumExtraSearch enumerator object to return information on the search objects supported by a Shell Folder object.
 old-location: shell\EXTRASEARCH.htm
 tech.root: shell
 ms.assetid: d930a00b-3084-4da7-8915-0bebdb33df9b
-
 ms.date: 12/05/2018
-ms.keywords: "*LPEXTRASEARCH, EXTRASEARCH, EXTRASEARCH structure [Windows Shell], LPEXTRASEARCH, LPEXTRASEARCH structure pointer [Windows Shell], _win32_EXTRASEARCH, shell.EXTRASEARCH, shobjidl_core/EXTRASEARCH, shobjidl_core/LPEXTRASEARCH"
+ms.keywords: '*LPEXTRASEARCH, EXTRASEARCH, EXTRASEARCH structure [Windows Shell], LPEXTRASEARCH, LPEXTRASEARCH structure pointer [Windows Shell], _win32_EXTRASEARCH, shell.EXTRASEARCH, shobjidl_core/EXTRASEARCH, shobjidl_core/LPEXTRASEARCH'
 ms.topic: struct
-f1_keywords: 
- - "shobjidl_core/EXTRASEARCH"
+f1_keywords:
+- shobjidl_core/EXTRASEARCH
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - EXTRASEARCH
+- EXTRASEARCH
 targetos: Windows
 req.typenames: EXTRASEARCH, *LPEXTRASEARCH
 req.redist: 

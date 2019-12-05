@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IEmailAction.put_ReplyTo
 title: IEmailAction::put_ReplyTo (taskschd.h)
-
 description: Gets or sets the email address that you want to reply to.
 old-location: taskschd\iemailaction_replyto.htm
 tech.root: taskschd
 ms.assetid: 315ec0f3-3a1b-4b83-a934-af1f5d30910a
-
 ms.date: 12/05/2018
 ms.keywords: IEmailAction interface [Task Scheduler],ReplyTo property, IEmailAction.ReplyTo, IEmailAction.put_ReplyTo, IEmailAction::ReplyTo, IEmailAction::get_ReplyTo, IEmailAction::put_ReplyTo, ReplyTo property [Task Scheduler], ReplyTo property [Task Scheduler],IEmailAction interface, put_ReplyTo, taskschd.iemailaction_replyto, taskschd/IEmailAction::ReplyTo, taskschd/IEmailAction::get_ReplyTo, taskschd/IEmailAction::put_ReplyTo
 ms.topic: method
-f1_keywords: 
- - "taskschd/IEmailAction.ReplyTo"
+f1_keywords:
+- taskschd/IEmailAction.ReplyTo
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IEmailAction.ReplyTo
- - IEmailAction.get_ReplyTo
- - IEmailAction.put_ReplyTo
+- IEmailAction.ReplyTo
+- IEmailAction.get_ReplyTo
+- IEmailAction.put_ReplyTo
 targetos: Windows
 req.typenames: 
 req.redist: 

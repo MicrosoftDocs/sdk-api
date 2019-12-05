@@ -1,19 +1,17 @@
 ---
 UID: NE:mfsharingengine.PLAYTO_SOURCE_CREATEFLAGS
 title: PLAYTO_SOURCE_CREATEFLAGS (mfsharingengine.h)
-
 description: Contains flags for the IPlayToSourceClassFactory::CreateInstance method.
 old-location: mf\playto_source_createflags.htm
 tech.root: medfound
 ms.assetid: 15B632DD-586B-40E4-9B63-05CCC6AFB93A
-
 ms.date: 12/05/2018
 ms.keywords: PLAYTO_CONTROLLER_CREATEFLAGS, PLAYTO_CONTROLLER_CREATEFLAGS enumeration [Media Foundation], PLAYTO_SOURCE_AUDIO, PLAYTO_SOURCE_CREATEFLAGS, PLAYTO_SOURCE_IMAGE, PLAYTO_SOURCE_PROTECTED, PLAYTO_SOURCE_VIDEO, mf.playto_controller_createflags, mf.playto_source_createflags, mfsharingengine/PLAYTO_CONTROLLER_CREATEFLAGS, mfsharingengine/PLAYTO_SOURCE_AUDIO, mfsharingengine/PLAYTO_SOURCE_IMAGE, mfsharingengine/PLAYTO_SOURCE_PROTECTED, mfsharingengine/PLAYTO_SOURCE_VIDEO
 ms.topic: enum
-f1_keywords: 
- - "mfsharingengine/PLAYTO_SOURCE_CREATEFLAGS"
+f1_keywords:
+- mfsharingengine/PLAYTO_SOURCE_CREATEFLAGS
 dev_langs:
- - c++
+- c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfsharingengine.h
+- mfsharingengine.h
 api_name:
- - PLAYTO_SOURCE_CREATEFLAGS
+- PLAYTO_SOURCE_CREATEFLAGS
 targetos: Windows
 req.typenames: PLAYTO_SOURCE_CREATEFLAGS
 req.redist: 

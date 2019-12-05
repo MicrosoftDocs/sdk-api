@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.UnregisterPointerInputTarget
 title: UnregisterPointerInputTarget function (winuser.h)
-
 description: Allows the caller to unregister a target window to which all pointer input of the specified type is redirected.
 old-location: winauto\unregisterpointerinputtarget.htm
 tech.root: WinAuto
 ms.assetid: 75faea24-91cd-448b-b67a-09fe530f1800
-
 ms.date: 12/05/2018
 ms.keywords: UnregisterPointerInputTarget, UnregisterPointerInputTarget function [Windows Accessibility], inputmsg.getactivepointers, winauto.unregisterpointerinputtarget, winuser/UnregisterPointerInputTarget
 ms.topic: function
-f1_keywords: 
- - "winuser/UnregisterPointerInputTarget"
+f1_keywords:
+- winuser/UnregisterPointerInputTarget
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
- - MinUser.dll
- - API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
+- MinUser.dll
+- API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
- - UnregisterPointerInputTarget
+- UnregisterPointerInputTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:appmodel.GetCurrentPackageFullName
 title: GetCurrentPackageFullName function (appmodel.h)
-
 description: Gets the package full name for the calling process.
 old-location: appxpkg\getcurrentpackagefullname.htm
 tech.root: appxpkg
 ms.assetid: D5B00C53-1FBF-4245-92D1-FA39713A9EE7
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPackageFullName, GetCurrentPackageFullName function [App packaging and management], appmodel/GetCurrentPackageFullName, appxpkg.getcurrentpackagefullname
 ms.topic: function
-f1_keywords: 
- - "appmodel/GetCurrentPackageFullName"
+f1_keywords:
+- appmodel/GetCurrentPackageFullName
 dev_langs:
- - c++
+- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-AppModel-Runtime-l1-1-0.dll
- - kernel32legacy.dll
- - Kernel.AppCore.dll
- - API-MS-Win-AppModel-RunTime-l1-1-1.dll
- - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+- Kernel32.dll
+- API-MS-Win-AppModel-Runtime-l1-1-0.dll
+- kernel32legacy.dll
+- Kernel.AppCore.dll
+- API-MS-Win-AppModel-RunTime-l1-1-1.dll
+- API-MS-Win-AppModel-Runtime-L1-1-2.dll
 api_name:
- - GetCurrentPackageFullName
+- GetCurrentPackageFullName
 targetos: Windows
 req.typenames: 
 req.redist: 

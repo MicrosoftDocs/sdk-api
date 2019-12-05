@@ -1,19 +1,17 @@
 ---
 UID: NF:tlhelp32.Heap32Next
 title: Heap32Next function (tlhelp32.h)
-
 description: Retrieves information about the next block of a heap that has been allocated by a process.
 old-location: toolhelp\heap32next.htm
 tech.root: ToolHelp
 ms.assetid: cc3becd0-edba-47cf-ac2d-26a5d98390e7
-
 ms.date: 12/05/2018
 ms.keywords: Heap32Next, Heap32Next function [ToolHelp], _win32_heap32next, base.heap32next, tlhelp32/Heap32Next, toolhelp.heap32next
 ms.topic: function
-f1_keywords: 
- - "tlhelp32/Heap32Next"
+f1_keywords:
+- tlhelp32/Heap32Next
 dev_langs:
- - c++
+- c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ToolHelp-L1-1-1.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-ToolHelp-L1-1-1.dll
+- Kernel32Legacy.dll
 api_name:
- - Heap32Next
+- Heap32Next
 targetos: Windows
 req.typenames: 
 req.redist: 

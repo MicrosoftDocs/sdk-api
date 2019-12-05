@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTuner.GetAvailableModes
 title: IAMTuner::GetAvailableModes (strmif.h)
-
 description: The GetAvailableModes method retrieves the tuner's supported modes.
 old-location: dshow\iamtuner_getavailablemodes.htm
 tech.root: DirectShow
 ms.assetid: 74025309-2aab-4e0f-95bc-8e6a1e2a5bb4
-
 ms.date: 12/05/2018
 ms.keywords: GetAvailableModes, GetAvailableModes method [DirectShow], GetAvailableModes method [DirectShow],IAMTuner interface, IAMTuner interface [DirectShow],GetAvailableModes method, IAMTuner.GetAvailableModes, IAMTuner::GetAvailableModes, IAMTunerGetAvailableModes, dshow.iamtuner_getavailablemodes, strmif/IAMTuner::GetAvailableModes
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTuner.GetAvailableModes"
+f1_keywords:
+- strmif/IAMTuner.GetAvailableModes
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTuner.GetAvailableModes
+- IAMTuner.GetAvailableModes
 targetos: Windows
 req.typenames: 
 req.redist: 

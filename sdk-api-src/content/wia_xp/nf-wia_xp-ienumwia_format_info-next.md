@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IEnumWIA_FORMAT_INFO.Next
 title: IEnumWIA_FORMAT_INFO::Next (wia_xp.h)
-
 description: The IEnumWIA_FORMAT_INFO::Next method returns an array of WIA_FORMAT_INFO structures.
 old-location: wia\_wia_IEnumWIA_FORMAT_INFO_Next.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_format_info\next.htm
-
 ms.date: 12/05/2018
 ms.keywords: IEnumWIA_FORMAT_INFO interface [WIA],Next method, IEnumWIA_FORMAT_INFO.Next, IEnumWIA_FORMAT_INFO::Next, Next, Next method [WIA], Next method [WIA],IEnumWIA_FORMAT_INFO interface, _wia_IEnumWIA_FORMAT_INFO_Next, wia._wia_IEnumWIA_FORMAT_INFO_Next, wia_xp/IEnumWIA_FORMAT_INFO::Next
 ms.topic: method
 f1_keywords:
 - wia_xp/IEnumWIA_FORMAT_INFO.Next
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

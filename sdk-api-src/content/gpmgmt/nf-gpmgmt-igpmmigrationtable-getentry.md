@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.GetEntry
 title: IGPMMigrationTable::GetEntry (gpmgmt.h)
-
 description: The GetEntry method gets the entry in the migration table for a specified source field.
 old-location: gpmc\igpmmigrationtable_getentry.htm
 tech.root: gpmc
 ms.assetid: 3d6985ab-dbea-446c-9666-5fa19b97b40c
-
 ms.date: 12/05/2018
 ms.keywords: GPMMigrationTable class [GPMC],GetEntry method, GetEntry, GetEntry method [GPMC], GetEntry method [GPMC],GPMMigrationTable class, GetEntry method [GPMC],IGPMMigrationTable interface, IGPMMigrationTable interface [GPMC],GetEntry method, IGPMMigrationTable.GetEntry, IGPMMigrationTable::GetEntry, gpmc.igpmmigrationtable_getentry, gpmgmt/IGPMMigrationTable::GetEntry
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMMigrationTable.GetEntry"
+f1_keywords:
+- gpmgmt/IGPMMigrationTable.GetEntry
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMMigrationTable.GetEntry
- - GPMMigrationTable.GetEntry
+- IGPMMigrationTable.GetEntry
+- GPMMigrationTable.GetEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

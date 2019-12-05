@@ -1,19 +1,17 @@
 ---
 UID: NS:lmat._AT_INFO
 title: AT_INFO (lmat.h)
-
 description: The AT_INFO structure contains information about a job.
 old-location: netmgmt\at_info_str.htm
 tech.root: NetMgmt
 ms.assetid: eb0bf696-53ca-432a-b04c-5e0b6a61a0fd
-
 ms.date: 12/05/2018
-ms.keywords: "*LPAT_INFO, *PAT_INFO, AT_INFO, AT_INFO structure [Network Management], JOB_ADD_CURRENT_DATE, JOB_EXEC_ERROR, JOB_NONINTERACTIVE, JOB_RUNS_TODAY, JOB_RUN_PERIODICALLY, LPAT_INFO, LPAT_INFO structure pointer [Network Management], PAT_INFO, PAT_INFO structure pointer [Network Management], _win32_at_info_str, lmat/AT_INFO, lmat/LPAT_INFO, lmat/PAT_INFO, netmgmt.at_info_str"
+ms.keywords: '*LPAT_INFO, *PAT_INFO, AT_INFO, AT_INFO structure [Network Management], JOB_ADD_CURRENT_DATE, JOB_EXEC_ERROR, JOB_NONINTERACTIVE, JOB_RUNS_TODAY, JOB_RUN_PERIODICALLY, LPAT_INFO, LPAT_INFO structure pointer [Network Management], PAT_INFO, PAT_INFO structure pointer [Network Management], _win32_at_info_str, lmat/AT_INFO, lmat/LPAT_INFO, lmat/PAT_INFO, netmgmt.at_info_str'
 ms.topic: struct
-f1_keywords: 
- - "lmat/AT_INFO"
+f1_keywords:
+- lmat/AT_INFO
 dev_langs:
- - c++
+- c++
 req.header: lmat.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmat.h
+- Lmat.h
 api_name:
- - AT_INFO
+- AT_INFO
 targetos: Windows
 req.typenames: AT_INFO, *PAT_INFO, *LPAT_INFO
 req.redist: 

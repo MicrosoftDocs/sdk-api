@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.add_RenderingParametersUpdate
 title: IMediaRenderer::streaming (windows.media.streaming.h)
-
 description: Registers an event handler for the RenderingParametersUpdate event.
 old-location: mediastreaming\imediarenderer_add_renderingparametersupdate.htm
 tech.root: mediastreaming
 ms.assetid: 3CEED740-19EA-4CC6-B3F8-F9DE9C6DCC58
-
 ms.date: 12/05/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],add_RenderingParametersUpdate method, IMediaRenderer.add_RenderingParametersUpdate, IMediaRenderer.streaming, IMediaRenderer::add_RenderingParametersUpdate, IMediaRenderer::streaming, add_RenderingParametersUpdate, add_RenderingParametersUpdate method [Media Streaming API], add_RenderingParametersUpdate method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_add_renderingparametersupdate, windows/IMediaRenderer::add_RenderingParametersUpdate
 ms.topic: method
-f1_keywords: 
- - "windows.media.streaming/IMediaRenderer.add_RenderingParametersUpdate"
+f1_keywords:
+- windows.media.streaming/IMediaRenderer.add_RenderingParametersUpdate
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.media.streaming.h
+- windows.media.streaming.h
 api_name:
- - IMediaRenderer.add_RenderingParametersUpdate
+- IMediaRenderer.add_RenderingParametersUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 

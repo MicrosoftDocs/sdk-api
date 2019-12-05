@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidGenericSink.SetSinkFilter
 title: IMSVidGenericSink::SetSinkFilter (segment.h)
-
 description: The SetSinkFilter method sets the filter for the sink.
 old-location: mstv\imsvidgenericsink_setsinkfilter.htm
 tech.root: mstv
 ms.assetid: 51a26dc5-a551-4f97-9dd4-6522a14989a8
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidGenericSink interface [Microsoft TV Technologies],SetSinkFilter method, IMSVidGenericSink.SetSinkFilter, IMSVidGenericSink::SetSinkFilter, IMSVidGenericSinkSetSinkFilter, SetSinkFilter, SetSinkFilter method [Microsoft TV Technologies], SetSinkFilter method [Microsoft TV Technologies],IMSVidGenericSink interface, mstv.imsvidgenericsink_setsinkfilter, segment/IMSVidGenericSink::SetSinkFilter
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidGenericSink.SetSinkFilter"
+f1_keywords:
+- segment/IMSVidGenericSink.SetSinkFilter
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidGenericSink.SetSinkFilter
+- IMSVidGenericSink.SetSinkFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

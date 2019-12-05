@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IMtsGrp
 title: IMtsGrp (comsvcs.h)
-
 description: Provides methods for enumerating through running packages.
 old-location: cos\imtsgrp.htm
 tech.root: cossdk
 ms.assetid: 976b4f0a-79cb-4b2d-8d69-225230147c53
-
 ms.date: 12/05/2018
 ms.keywords: IMtsGrp, IMtsGrp interface [COM+], IMtsGrp interface [COM+],described, _dtc_IMtsGrp_Interface, comsvcs/IMtsGrp, cos.imtsgrp
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IMtsGrp"
+f1_keywords:
+- comsvcs/IMtsGrp
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IMtsGrp
+- IMtsGrp
 targetos: Windows
 req.typenames: 
 req.redist: 

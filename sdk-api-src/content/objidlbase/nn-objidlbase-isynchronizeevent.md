@@ -1,19 +1,17 @@
 ---
 UID: NN:objidlbase.ISynchronizeEvent
 title: ISynchronizeEvent (objidlbase.h)
-
 description: Assigns an event handle to a synchronization object.
 old-location: com\isynchronizeevent.htm
 tech.root: com
 ms.assetid: b4721498-0455-415a-bf2f-c8c8fdf3b75c
-
 ms.date: 12/05/2018
 ms.keywords: ISynchronizeEvent, ISynchronizeEvent interface [COM], ISynchronizeEvent interface [COM],described, _com_isynchronizeevent, com.isynchronizeevent, objidlbase/ISynchronizeEvent
 ms.topic: interface
-f1_keywords: 
- - "objidlbase/ISynchronizeEvent"
+f1_keywords:
+- objidlbase/ISynchronizeEvent
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - ISynchronizeEvent
+- ISynchronizeEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

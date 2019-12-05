@@ -1,19 +1,17 @@
 ---
 UID: NF:windns.DnsRecordListFree
 title: DnsRecordListFree macro (windns.h)
-
 description: Frees memory allocated for DNS records obtained using the DnsQuery function.
 old-location: dns\dnsrecordlistfree.htm
 tech.root: DNS
 ms.assetid: fc4c0cb4-646f-4946-8f07-b5a858f7064a
-
 ms.date: 12/05/2018
 ms.keywords: DnsRecordListFree, DnsRecordListFree function [DNS], _dns_dnsrecordlistfree, dns.dnsrecordlistfree, windns/DnsRecordListFree
 ms.topic: macro
-f1_keywords: 
- - "windns/DnsRecordListFree"
+f1_keywords:
+- windns/DnsRecordListFree
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dnsapi.lib
 req.dll: Dnsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dnsapi.dll
+- Dnsapi.dll
 api_name:
- - DnsRecordListFree
+- DnsRecordListFree
 targetos: Windows
 req.typenames: 
 req.redist: 

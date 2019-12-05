@@ -1,19 +1,17 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoder.GetBuffer
 title: IDirectXVideoDecoder::GetBuffer (dxva2api.h)
-
 description: Retrieves a pointer to a DirectX Video Acceleration (DXVA) decoder buffer.
 old-location: mf\idirectxvideodecoder_getbuffer.htm
 tech.root: medfound
 ms.assetid: db2d4818-8a96-461e-88c4-f25d3200d815
-
 ms.date: 12/05/2018
 ms.keywords: DXVA2_BitStreamDateBufferType, DXVA2_DeblockingControlBufferType, DXVA2_FilmGrainBuffer, DXVA2_InverseQuantizationMatrixBufferType, DXVA2_MacroBlockControlBufferType, DXVA2_MotionVectorBuffer, DXVA2_PictureParametersBufferType, DXVA2_ResidualDifferenceBufferType, DXVA2_SliceControlBufferType, GetBuffer, GetBuffer method [Media Foundation], GetBuffer method [Media Foundation],IDirectXVideoDecoder interface, IDirectXVideoDecoder interface [Media Foundation],GetBuffer method, IDirectXVideoDecoder.GetBuffer, IDirectXVideoDecoder::GetBuffer, db2d4818-8a96-461e-88c4-f25d3200d815, dxva2api/IDirectXVideoDecoder::GetBuffer, mf.idirectxvideodecoder_getbuffer
 ms.topic: method
-f1_keywords: 
- - "dxva2api/IDirectXVideoDecoder.GetBuffer"
+f1_keywords:
+- dxva2api/IDirectXVideoDecoder.GetBuffer
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - IDirectXVideoDecoder.GetBuffer
+- IDirectXVideoDecoder.GetBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

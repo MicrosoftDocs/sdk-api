@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.DeleteUrlCacheGroup
 title: DeleteUrlCacheGroup function (wininet.h)
-
 description: Releases the specified GROUPID and any associated state in the cache index file.
 old-location: wininet\deleteurlcachegroup.htm
 tech.root: wininet
 ms.assetid: f1ff70db-36b7-4805-8f23-e3920acf0d11
-
 ms.date: 12/05/2018
 ms.keywords: DeleteUrlCacheGroup, DeleteUrlCacheGroup function [WinINet], _inet_deleteurlcachegroup_function, wininet.deleteurlcachegroup, wininet/DeleteUrlCacheGroup
 ms.topic: function
-f1_keywords: 
- - "wininet/DeleteUrlCacheGroup"
+f1_keywords:
+- wininet/DeleteUrlCacheGroup
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - DeleteUrlCacheGroup
+- DeleteUrlCacheGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

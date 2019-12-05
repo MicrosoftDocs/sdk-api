@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.GetStretch
 title: IDWriteFontFace3::GetStretch (dwrite_3.h)
-
 description: Gets the stretch (also known as width) of this font.
 old-location: directwrite\idwritefontface3_getstretch.htm
 tech.root: DirectWrite
 ms.assetid: A5B2DA7D-8222-440D-A8AF-33B07CE0765C
-
 ms.date: 12/05/2018
 ms.keywords: GetStretch, GetStretch method [Direct Write], GetStretch method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetStretch method, IDWriteFontFace3.GetStretch, IDWriteFontFace3::GetStretch, directwrite.idwritefontface3_getstretch, dwrite_3/IDWriteFontFace3::GetStretch
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontFace3.GetStretch"
+f1_keywords:
+- dwrite_3/IDWriteFontFace3.GetStretch
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFace3.GetStretch
+- IDWriteFontFace3.GetStretch
 targetos: Windows
 req.typenames: 
 req.redist: 

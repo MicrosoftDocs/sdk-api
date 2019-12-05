@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMMATRIX.XMMATRIX(float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float)
 title: XMMATRIX::XMMATRIX(float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float) (directxmath.h)
-
 description: Initializes a new instance of the XMMATRIX structure from sixteen scalar float values.
 old-location: dxmath\xmmatrix_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMMATRIX.#ctor(float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float)
-
 ms.date: 12/05/2018
 ms.keywords: XMMATRIX, XMMATRIX constructor [DirectX Math Support APIs], XMMATRIX constructor [DirectX Math Support APIs],XMMATRIX structure, XMMATRIX structure [DirectX Math Support APIs],XMMATRIX constructor, XMMATRIX.XMMATRIX, XMMATRIX.XMMATRIX(float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float), XMMATRIX::XMMATRIX, XMMATRIX::XMMATRIX(float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float), dxmath.xmmatrix_ctor_2
 ms.topic: method
-f1_keywords: 
- - "directxmath/XMMATRIX.XMMATRIX"
+f1_keywords:
+- directxmath/XMMATRIX.XMMATRIX
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMMATRIX.XMMATRIX
+- XMMATRIX.XMMATRIX
 targetos: Windows
 req.typenames: 
 req.redist: 

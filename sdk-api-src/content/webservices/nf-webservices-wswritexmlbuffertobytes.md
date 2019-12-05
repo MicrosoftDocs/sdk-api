@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsWriteXmlBufferToBytes
 title: WsWriteXmlBufferToBytes function (webservices.h)
-
 description: Uses a writer to convert a WS_XML_BUFFER to an encoded set of bytes.
 old-location: wsw\wswritexmlbuffertobytes.htm
 tech.root: wsw
 ms.assetid: dea4bfa5-7cd0-440f-89fe-e46af116462e
-
 ms.date: 12/05/2018
 ms.keywords: WsWriteXmlBufferToBytes, WsWriteXmlBufferToBytes function [Web Services for Windows], webservices/WsWriteXmlBufferToBytes, wsw.wswritexmlbuffertobytes
 ms.topic: function
 f1_keywords:
 - webservices/WsWriteXmlBufferToBytes
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.GetRecordInfoFromTypeInfo
 title: GetRecordInfoFromTypeInfo function (oleauto.h)
-
 description: Returns a pointer to the IRecordInfo interface of the UDT by passing its type information.
 old-location: automat\getrecordinfofromtypeinfo.htm
 tech.root: automat
 ms.assetid: 9bf2803f-7a6c-4574-80d2-4069f5b81057
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordInfoFromTypeInfo, GetRecordInfoFromTypeInfo function [Automation], _oa96_GetRecordInfoFromTypeInfo, automat.getrecordinfofromtypeinfo, oleauto/GetRecordInfoFromTypeInfo
 ms.topic: function
-f1_keywords: 
- - "oleauto/GetRecordInfoFromTypeInfo"
+f1_keywords:
+- oleauto/GetRecordInfoFromTypeInfo
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - GetRecordInfoFromTypeInfo
+- GetRecordInfoFromTypeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:smbclnt.RegisterAppInstance
 title: RegisterAppInstance function (smbclnt.h)
-
 description: Registers the AppInstance ID for a process.
 old-location: mscs\registerappinstance.htm
 tech.root: MsCS
 ms.assetid: 43CAC59A-5773-44BD-8965-F9FB85B86926
-
 ms.date: 12/05/2018
 ms.keywords: PREGISTER_APPINSTANCE, PREGISTER_APPINSTANCE function [Failover Cluster], RegisterAppInstance, RegisterAppInstance function [Failover Cluster], mscs.registerappinstance, smbclnt/PREGISTER_APPINSTANCE, smbclnt/RegisterAppInstance
 ms.topic: function
-f1_keywords: 
- - "smbclnt/RegisterAppInstance"
+f1_keywords:
+- smbclnt/RegisterAppInstance
 dev_langs:
- - c++
+- c++
 req.header: smbclnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: NTLanMan.lib
 req.dll: NTLanMan.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - NTLanMan.dll
+- NTLanMan.dll
 api_name:
- - RegisterAppInstance
+- RegisterAppInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

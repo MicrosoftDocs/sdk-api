@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfoEnumerator.GetHasCurrent
 title: IAppxBundleManifestPackageInfoEnumerator::GetHasCurrent (appxpackaging.h)
-
 description: Determines whether there are more elements in the enumerator.
 old-location: appxpkg\iappxbundlemanifestpackageinfoenumerator_gethascurrent.htm
 tech.root: appxpkg
 ms.assetid: ED12F498-1F8D-45B2-9CFE-7215D2D87C3F
-
 ms.date: 12/05/2018
 ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxBundleManifestPackageInfoEnumerator interface, IAppxBundleManifestPackageInfoEnumerator interface [App packaging and management],GetHasCurrent method, IAppxBundleManifestPackageInfoEnumerator.GetHasCurrent, IAppxBundleManifestPackageInfoEnumerator::GetHasCurrent, appxpackaging/IAppxBundleManifestPackageInfoEnumerator::GetHasCurrent, appxpkg.iappxbundlemanifestpackageinfoenumerator_gethascurrent
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBundleManifestPackageInfoEnumerator.GetHasCurrent"
+f1_keywords:
+- appxpackaging/IAppxBundleManifestPackageInfoEnumerator.GetHasCurrent
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleManifestPackageInfoEnumerator.GetHasCurrent
+- IAppxBundleManifestPackageInfoEnumerator.GetHasCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj.IDockingWindowFrame.AddToolbar
 title: IDockingWindowFrame::AddToolbar (shlobj.h)
-
 description: Adds the specified IDockingWindow object to the frame.
 old-location: shell\IDockingWindowFrame_AddToolbar.htm
 tech.root: shell
 ms.assetid: b046bb62-8bc1-4021-bcb2-d4f23a9fccf4
-
 ms.date: 12/05/2018
 ms.keywords: 0, AddToolbar, AddToolbar method [Windows Shell], AddToolbar method [Windows Shell],IDockingWindowFrame interface, DWFAF_AUTOHIDE, DWFAF_GROUP1, DWFAF_GROUP2, DWFAF_HIDDEN, IDockingWindowFrame interface [Windows Shell],AddToolbar method, IDockingWindowFrame.AddToolbar, IDockingWindowFrame::AddToolbar, _win32_IDockingWindowFrame_AddToolbar, shell.IDockingWindowFrame_AddToolbar, shlobj/IDockingWindowFrame::AddToolbar
 ms.topic: method
-f1_keywords: 
- - "shlobj/IDockingWindowFrame.AddToolbar"
+f1_keywords:
+- shlobj/IDockingWindowFrame.AddToolbar
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDockingWindowFrame.AddToolbar
+- IDockingWindowFrame.AddToolbar
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:iketypes.IKEEXT_INTEGRITY_TYPE_
 title: IKEEXT_INTEGRITY_TYPE (iketypes.h)
-
 description: Specifies the type of hash algorithm used for integrity protection of Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) messages.
 old-location: fwp\ikeext_integrity_type.htm
 tech.root: fwp
 ms.assetid: f4a5b6b9-5cf1-48a4-811c-9150550688d8
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_INTEGRITY_MD5, IKEEXT_INTEGRITY_SHA1, IKEEXT_INTEGRITY_SHA_256, IKEEXT_INTEGRITY_SHA_384, IKEEXT_INTEGRITY_TYPE, IKEEXT_INTEGRITY_TYPE enumeration [Filtering], IKEEXT_INTEGRITY_TYPE_MAX, fwp.ikeext_integrity_type, iketypes/IKEEXT_INTEGRITY_MD5, iketypes/IKEEXT_INTEGRITY_SHA1, iketypes/IKEEXT_INTEGRITY_SHA_256, iketypes/IKEEXT_INTEGRITY_SHA_384, iketypes/IKEEXT_INTEGRITY_TYPE, iketypes/IKEEXT_INTEGRITY_TYPE_MAX
 ms.topic: enum
-f1_keywords: 
- - "iketypes/IKEEXT_INTEGRITY_TYPE"
+f1_keywords:
+- iketypes/IKEEXT_INTEGRITY_TYPE
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_INTEGRITY_TYPE
+- IKEEXT_INTEGRITY_TYPE
 targetos: Windows
 req.typenames: IKEEXT_INTEGRITY_TYPE
 req.redist: 

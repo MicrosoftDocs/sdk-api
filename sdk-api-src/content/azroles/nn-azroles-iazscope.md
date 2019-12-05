@@ -1,19 +1,17 @@
 ---
 UID: NN:azroles.IAzScope
 title: IAzScope (azroles.h)
-
 description: Defines a logical container of resources to which the application manages access.
 old-location: security\iazscope.htm
 tech.root: SecAuthZ
 ms.assetid: f7abe7cb-8827-46f6-85fe-99282582a3d4
-
 ms.date: 12/05/2018
 ms.keywords: IAzScope, IAzScope interface [Security], IAzScope interface [Security],described, azroles/IAzScope, security.iazscope
 ms.topic: interface
-f1_keywords: 
- - "azroles/IAzScope"
+f1_keywords:
+- azroles/IAzScope
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzScope
+- IAzScope
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

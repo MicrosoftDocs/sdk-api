@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionVisual3.SetVisible
 title: IDCompositionVisual3::SetVisible (dcomp.h)
-
 description: Changes the value of the visual's Visible property.
 old-location: directcomp\idcompositionvisual3_setvisible.htm
 tech.root: directcomp
 ms.assetid: 2D1BE2C4-2F7D-42C7-BB01-93366382B843
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetVisible method, IDCompositionVisual3.SetVisible, IDCompositionVisual3::SetVisible, SetVisible, SetVisible method [DirectComposition], SetVisible method [DirectComposition],IDCompositionVisual3 interface, dcomp/IDCompositionVisual3::SetVisible, directcomp.idcompositionvisual3_setvisible
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionVisual3.SetVisible"
+f1_keywords:
+- dcomp/IDCompositionVisual3.SetVisible
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionVisual3.SetVisible
+- IDCompositionVisual3.SetVisible
 targetos: Windows
 req.typenames: 
 req.redist: 

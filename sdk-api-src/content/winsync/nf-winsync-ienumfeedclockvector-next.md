@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IEnumFeedClockVector.Next
 title: IEnumFeedClockVector::Next (winsync.h)
-
 description: Returns the next elements in the clock vector, if available.
 old-location: winsync\ienumfeedclockvector_next.htm
 tech.root: winsync
 ms.assetid: 2303fac8-21ae-44df-8e47-9fe0fa88d90b
-
 ms.date: 12/05/2018
 ms.keywords: IEnumFeedClockVector interface [Windows Sync],Next method, IEnumFeedClockVector.Next, IEnumFeedClockVector::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumFeedClockVector interface, winsync.ienumfeedclockvector_next, winsync/IEnumFeedClockVector::Next
 ms.topic: method
-f1_keywords: 
- - "winsync/IEnumFeedClockVector.Next"
+f1_keywords:
+- winsync/IEnumFeedClockVector.Next
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IEnumFeedClockVector.Next
+- IEnumFeedClockVector.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

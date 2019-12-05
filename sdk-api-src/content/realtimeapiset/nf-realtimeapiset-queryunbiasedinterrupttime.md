@@ -1,19 +1,17 @@
 ---
 UID: NF:realtimeapiset.QueryUnbiasedInterruptTime
 title: QueryUnbiasedInterruptTime function (realtimeapiset.h)
-
 description: Gets the current unbiased interrupt-time count, in units of 100 nanoseconds. The unbiased interrupt-time count does not include time the system spends in sleep or hibernation.
 old-location: base\queryunbiasedinterrupttime.htm
 tech.root: SysInfo
 ms.assetid: f9cf5440-9be9-4ff9-b85c-2779b847954c
-
 ms.date: 12/05/2018
 ms.keywords: QueryUnbiasedInterruptTime, QueryUnbiasedInterruptTime function, base.queryunbiasedinterrupttime, realtimeapiset/QueryUnbiasedInterruptTime
 ms.topic: function
-f1_keywords: 
- - "realtimeapiset/QueryUnbiasedInterruptTime"
+f1_keywords:
+- realtimeapiset/QueryUnbiasedInterruptTime
 dev_langs:
- - c++
+- c++
 req.header: realtimeapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-realtime-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-RealTime-l1-1-1.dll
+- kernel32.dll
+- API-MS-Win-Core-realtime-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-RealTime-l1-1-1.dll
 api_name:
- - QueryUnbiasedInterruptTime
+- QueryUnbiasedInterruptTime
 targetos: Windows
 req.typenames: 
 req.redist: 

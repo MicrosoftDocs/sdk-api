@@ -1,19 +1,17 @@
 ---
 UID: NF:roapi.RoRegisterActivationFactories
 title: RoRegisterActivationFactories function (roapi.h)
-
 description: Registers an array out-of-process activation factories for a Windows Runtime exe server.
 old-location: winrt\roregisteractivationfactories.htm
 tech.root: WinRT
 ms.assetid: 8213f5de-3b1c-44c3-ad37-b2ebac8dbcd8
-
 ms.date: 12/05/2018
 ms.keywords: RoRegisterActivationFactories, RoRegisterActivationFactories function [Windows Runtime], WinRTRegisterActivationFactories, roapi/RoRegisterActivationFactories, roapi/WinRTRegisterActivationFactories, winrt.roregisteractivationfactories, winrt.winrtregisteractivationfactories
 ms.topic: function
-f1_keywords: 
- - "roapi/RoRegisterActivationFactories"
+f1_keywords:
+- roapi/RoRegisterActivationFactories
 dev_langs:
- - c++
+- c++
 req.header: roapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComBase.dll
- - API-MS-Win-Core-WinRT-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-l1-1-0.dll
 api_name:
- - RoRegisterActivationFactories
- - WinRTRegisterActivationFactories
+- RoRegisterActivationFactories
+- WinRTRegisterActivationFactories
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.IntPtrToInt
 title: IntPtrToInt function (intsafe.h)
-
 description: Converts a value of type INT_PTR to a value of type INT.
 old-location: shell\IntPtrToInt.htm
 tech.root: shell
 ms.assetid: a2ea1196-b503-4845-904a-26bc334b5275
-
 ms.date: 12/05/2018
 ms.keywords: IntPtrToInt, IntPtrToInt function [Windows Shell], PtrdiffTToInt, _shell_IntPtrToInt, intsafe/IntPtrToInt, shell.IntPtrToInt
 ms.topic: function
-f1_keywords: 
- - "intsafe/IntPtrToInt"
+f1_keywords:
+- intsafe/IntPtrToInt
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - IntPtrToInt
+- IntPtrToInt
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:textstor.ITextStoreACP
 title: ITextStoreACP (textstor.h)
-
 description: The ITextStoreACP interface is implemented by the application and is used by the TSF manager to manipulate text streams or text stores in TSF.
 old-location: tsf\itextstoreacp.htm
 tech.root: TSF
 ms.assetid: 21e011f7-6791-4eb9-85c9-18bd10107119
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP, ITextStoreACP interface [Text Services Framework], ITextStoreACP interface [Text Services Framework],described, _tsf_itextstoreacp_ref, textstor/ITextStoreACP, tsf.itextstoreacp
 ms.topic: interface
-f1_keywords: 
- - "textstor/ITextStoreACP"
+f1_keywords:
+- textstor/ITextStoreACP
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITextStoreACP
+- ITextStoreACP
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

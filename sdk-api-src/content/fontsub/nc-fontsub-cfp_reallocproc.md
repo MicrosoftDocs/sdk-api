@@ -1,19 +1,17 @@
 ---
 UID: NC:fontsub.CFP_REALLOCPROC
 title: CFP_REALLOCPROC (fontsub.h)
-
 description: Client-provided callback function, used by CreateFontPackage and MergeFontPackage to reallocate memory when the size of an allocated buffer needs to change.
 old-location: gdi\cfp_reallocproc.htm
 tech.root: gdi
 ms.assetid: 06c45ea3-1776-4f9c-a931-461d0b697535
-
 ms.date: 12/05/2018
 ms.keywords: CFP_REALLOCPROC, CFP_REALLOCPROC callback, CFP_REALLOCPROC callback function [Windows GDI], _win32_CFP_REALLOCPROC, fontsub/CFP_REALLOCPROC, gdi.cfp_reallocproc
 ms.topic: callback
-f1_keywords: 
- - "fontsub/CFP_REALLOCPROC"
+f1_keywords:
+- fontsub/CFP_REALLOCPROC
 dev_langs:
- - c++
+- c++
 req.header: fontsub.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - FontSub.h
+- FontSub.h
 api_name:
- - CFP_REALLOCPROC
+- CFP_REALLOCPROC
 targetos: Windows
 req.typenames: 
 req.redist: 

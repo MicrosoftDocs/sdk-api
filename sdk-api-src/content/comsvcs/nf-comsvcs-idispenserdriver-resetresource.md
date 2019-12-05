@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IDispenserDriver.ResetResource
 title: IDispenserDriver::ResetResource (comsvcs.h)
-
 description: Prepares the resource to be put back into general or enlisted inventory.
 old-location: cos\idispenserdriver_resetresource.htm
 tech.root: cossdk
 ms.assetid: 59df0703-90ea-480c-8608-7d43039b48ba
-
 ms.date: 12/05/2018
 ms.keywords: IDispenserDriver interface [COM+],ResetResource method, IDispenserDriver.ResetResource, IDispenserDriver::ResetResource, ResetResource, ResetResource method [COM+], ResetResource method [COM+],IDispenserDriver interface, _dtc_IDispenserDriver_ResetResource, comsvcs/IDispenserDriver::ResetResource, cos.idispenserdriver_resetresource
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IDispenserDriver.ResetResource"
+f1_keywords:
+- comsvcs/IDispenserDriver.ResetResource
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IDispenserDriver.ResetResource
+- IDispenserDriver.ResetResource
 targetos: Windows
 req.typenames: 
 req.redist: 

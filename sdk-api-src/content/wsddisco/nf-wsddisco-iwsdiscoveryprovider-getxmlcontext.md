@@ -1,19 +1,17 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProvider.GetXMLContext
 title: IWSDiscoveryProvider::GetXMLContext (wsddisco.h)
-
 description: Gets the XML context associated with this provider.
 old-location: ncd\iwsdiscoveryprovider_getxmlcontext.htm
 tech.root: WsdApi
 ms.assetid: ee2a862a-9d1d-4099-982e-259b6ab815f6
-
 ms.date: 12/05/2018
 ms.keywords: GetXMLContext, GetXMLContext method, GetXMLContext method,IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,GetXMLContext method, IWSDiscoveryProvider.GetXMLContext, IWSDiscoveryProvider::GetXMLContext, ncd.iwsdiscoveryprovider_getxmlcontext, wsddisco/IWSDiscoveryProvider::GetXMLContext
 ms.topic: method
-f1_keywords: 
- - "wsddisco/IWSDiscoveryProvider.GetXMLContext"
+f1_keywords:
+- wsddisco/IWSDiscoveryProvider.GetXMLContext
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDiscoveryProvider.GetXMLContext
+- IWSDiscoveryProvider.GetXMLContext
 targetos: Windows
 req.typenames: 
 req.redist: 

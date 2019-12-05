@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellView.UIActivate
 title: IShellView::UIActivate (shobjidl_core.h)
-
 description: Called when the activation state of the view window is changed by an event that is not caused by the Shell view itself. For example, if the TAB key is pressed when the tree has the focus, the view should be given the focus.
 old-location: shell\IShellView_UIActivate.htm
 tech.root: shell
 ms.assetid: 169881de-d073-4864-beb2-4e030b855e8f
-
 ms.date: 12/05/2018
 ms.keywords: IShellView interface [Windows Shell],UIActivate method, IShellView.UIActivate, IShellView::UIActivate, SVUIA_ACTIVATE_FOCUS, SVUIA_ACTIVATE_NOFOCUS, SVUIA_DEACTIVATE, SVUIA_INPLACEACTIVATE, UIActivate, UIActivate method [Windows Shell], UIActivate method [Windows Shell],IShellView interface, _win32_IShellView_UIActivate, shell.IShellView_UIActivate, shobjidl_core/IShellView::UIActivate
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellView.UIActivate"
+f1_keywords:
+- shobjidl_core/IShellView.UIActivate
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellView.UIActivate
+- IShellView.UIActivate
 targetos: Windows
 req.typenames: 
 req.redist: 

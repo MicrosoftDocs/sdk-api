@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.EnumDocumentMgrs
 title: ITfThreadMgr2::EnumDocumentMgrs (msctf.h)
-
 description: Returns an enumerator for all the document managers within the calling thread.
 old-location: tsf\itfthreadmgr2_enumdocumentmgrs.htm
 tech.root: TSF
 ms.assetid: 16A07BA6-05C2-4CA6-97D6-F1B4CEE1E757
-
 ms.date: 12/05/2018
 ms.keywords: EnumDocumentMgrs, EnumDocumentMgrs method [Text Services Framework], EnumDocumentMgrs method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],EnumDocumentMgrs method, ITfThreadMgr2.EnumDocumentMgrs, ITfThreadMgr2::EnumDocumentMgrs, msctf/ITfThreadMgr2::EnumDocumentMgrs, tsf.itfthreadmgr2_enumdocumentmgrs
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfThreadMgr2.EnumDocumentMgrs"
+f1_keywords:
+- msctf/ITfThreadMgr2.EnumDocumentMgrs
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.h
+- msctf.h
 api_name:
- - ITfThreadMgr2.EnumDocumentMgrs
+- ITfThreadMgr2.EnumDocumentMgrs
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IEnumSTATDATA.Next
 title: IEnumSTATDATA::Next (objidl.h)
-
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumstatdata_next.htm
 tech.root: com
 ms.assetid: 8258b6f4-15d7-4da2-96d1-d1ce36a31c1c
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATDATA interface [COM],Next method, IEnumSTATDATA.Next, IEnumSTATDATA::Next, Next, Next method [COM], Next method [COM],IEnumSTATDATA interface, _ole_ienumstatdata_next, com.ienumstatdata_next, objidl/IEnumSTATDATA::Next
 ms.topic: method
-f1_keywords: 
- - "objidl/IEnumSTATDATA.Next"
+f1_keywords:
+- objidl/IEnumSTATDATA.Next
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IEnumSTATDATA.Next
+- IEnumSTATDATA.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

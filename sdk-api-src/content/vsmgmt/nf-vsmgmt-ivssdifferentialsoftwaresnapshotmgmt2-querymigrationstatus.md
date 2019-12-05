@@ -1,19 +1,17 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt2.QueryMigrationStatus
 title: IVssDifferentialSoftwareSnapshotMgmt2::QueryMigrationStatus (vsmgmt.h)
-
 description: This method is reserved for future use.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt2_querymigrationstatus.htm
 tech.root: VSS
 ms.assetid: c2410f49-7f92-4e32-947d-d85ffdf854f6
-
 ms.date: 12/05/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt2 interface,QueryMigrationStatus method, IVssDifferentialSoftwareSnapshotMgmt2.QueryMigrationStatus, IVssDifferentialSoftwareSnapshotMgmt2::QueryMigrationStatus, QueryMigrationStatus, QueryMigrationStatus method, QueryMigrationStatus method,IVssDifferentialSoftwareSnapshotMgmt2 interface, base.ivssdifferentialsoftwaresnapshotmgmt2_querymigrationstatus, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::QueryMigrationStatus
 ms.topic: method
-f1_keywords: 
- - "vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2.QueryMigrationStatus"
+f1_keywords:
+- vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2.QueryMigrationStatus
 dev_langs:
- - c++
+- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsMgmt.h
+- VsMgmt.h
 api_name:
- - IVssDifferentialSoftwareSnapshotMgmt2.QueryMigrationStatus
+- IVssDifferentialSoftwareSnapshotMgmt2.QueryMigrationStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

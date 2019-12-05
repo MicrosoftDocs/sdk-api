@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymLoadModule64
 title: SymLoadModule64 function (dbghelp.h)
-
 description: Loads the symbol table.
 old-location: base\symloadmodule64.htm
 tech.root: Debug
 ms.assetid: be50588b-066b-42ab-ba81-7537c811676f
-
 ms.date: 12/05/2018
 ms.keywords: SymLoadModule, SymLoadModule function, SymLoadModule64, SymLoadModule64 function, _win32_symloadmodule64, base.symloadmodule64, dbghelp/SymLoadModule, dbghelp/SymLoadModule64
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymLoadModule64"
+f1_keywords:
+- dbghelp/SymLoadModule64
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymLoadModule64
- - SymLoadModule
+- SymLoadModule64
+- SymLoadModule
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

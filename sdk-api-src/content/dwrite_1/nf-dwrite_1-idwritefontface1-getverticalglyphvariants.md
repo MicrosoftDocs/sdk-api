@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.GetVerticalGlyphVariants
 title: IDWriteFontFace1::GetVerticalGlyphVariants (dwrite_1.h)
-
 description: Retrieves the vertical forms of the nominal glyphs retrieved from GetGlyphIndices.
 old-location: directwrite\idwritefontface1_getverticalglyphvariants.htm
 tech.root: DirectWrite
 ms.assetid: 91CD924E-A664-45C6-B787-61129C31501B
-
 ms.date: 12/05/2018
 ms.keywords: GetVerticalGlyphVariants, GetVerticalGlyphVariants method [Direct Write], GetVerticalGlyphVariants method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],GetVerticalGlyphVariants method, IDWriteFontFace1.GetVerticalGlyphVariants, IDWriteFontFace1::GetVerticalGlyphVariants, directwrite.idwritefontface1_getverticalglyphvariants, dwrite_1/IDWriteFontFace1::GetVerticalGlyphVariants
 ms.topic: method
-f1_keywords: 
- - "dwrite_1/IDWriteFontFace1.GetVerticalGlyphVariants"
+f1_keywords:
+- dwrite_1/IDWriteFontFace1.GetVerticalGlyphVariants
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite_1.lib
 req.dll: Dwrite_1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite_1.dll
+- dwrite_1.dll
 api_name:
- - IDWriteFontFace1.GetVerticalGlyphVariants
+- IDWriteFontFace1.GetVerticalGlyphVariants
 targetos: Windows
 req.typenames: 
 req.redist: 

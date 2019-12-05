@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPNetwork.setProxySettings
 title: IWMPNetwork::setProxySettings (wmp.h)
-
 description: The setProxySettings method specifies the proxy setting for a given protocol.
 old-location: wmp\iwmpnetwork_setproxysettings.htm
 tech.root: WMP
 ms.assetid: 3ce07bf8-8521-4240-9859-3bf790ccbf48
-
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],setProxySettings method, IWMPNetwork.setProxySettings, IWMPNetwork::setProxySettings, IWMPNetworksetProxySettings, setProxySettings, setProxySettings method [Windows Media Player], setProxySettings method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_setproxysettings, wmp/IWMPNetwork::setProxySettings
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPNetwork.setProxySettings"
+f1_keywords:
+- wmp/IWMPNetwork.setProxySettings
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPNetwork.setProxySettings
+- IWMPNetwork.setProxySettings
 targetos: Windows
 req.typenames: 
 req.redist: 

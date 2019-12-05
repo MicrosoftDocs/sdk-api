@@ -1,19 +1,17 @@
 ---
 UID: NF:wlanapi.WlanCloseHandle
 title: WlanCloseHandle function (wlanapi.h)
-
 description: Closes a connection to the server.
 old-location: nwifi\wlanclosehandle.htm
 tech.root: NativeWiFi
 ms.assetid: 8e944133-2616-4e17-ac38-c17e8d25ccec
-
 ms.date: 12/05/2018
 ms.keywords: WlanCloseHandle, WlanCloseHandle function [NativeWIFI], nwifi.wlanclosehandle, wlanapi/WlanCloseHandle
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WlanCloseHandle"
+f1_keywords:
+- wlanapi/WlanCloseHandle
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wlanapi.dll
- - Ext-MS-Win-networking-wlanapi-l1-1-0.dll
+- wlanapi.dll
+- Ext-MS-Win-networking-wlanapi-l1-1-0.dll
 api_name:
- - WlanCloseHandle
+- WlanCloseHandle
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2

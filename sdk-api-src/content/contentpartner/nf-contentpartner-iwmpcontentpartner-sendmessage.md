@@ -1,19 +1,17 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.SendMessage
 title: IWMPContentPartner::SendMessage (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The SendMessage method enables discovery pages to send messages to the plug-in.
 old-location: wmp\iwmpcontentpartner_sendmessage.htm
 tech.root: WMP
 ms.assetid: 9e3c3293-db5d-4963-a9ca-db955c80a959
-
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],SendMessage method, IWMPContentPartner.SendMessage, IWMPContentPartner::SendMessage, IWMPContentPartnerSendMessage, SendMessage, SendMessage method [Windows Media Player], SendMessage method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::SendMessage, wmp.iwmpcontentpartner_sendmessage
 ms.topic: method
-f1_keywords: 
- - "contentpartner/IWMPContentPartner.SendMessage"
+f1_keywords:
+- contentpartner/IWMPContentPartner.SendMessage
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - IWMPContentPartner.SendMessage
+- IWMPContentPartner.SendMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

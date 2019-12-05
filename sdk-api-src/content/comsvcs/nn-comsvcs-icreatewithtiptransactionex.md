@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ICreateWithTipTransactionEx
 title: ICreateWithTipTransactionEx (comsvcs.h)
-
 description: Creates an object that is enlisted within a manual transaction using the Transaction Internet Protocol (TIP).
 old-location: cos\icreatewithtiptransactionex.htm
 tech.root: cossdk
 ms.assetid: 09927c61-ce64-4d8a-a5b3-542748bfd256
-
 ms.date: 12/05/2018
 ms.keywords: ICreateWithTipTransactionEx, ICreateWithTipTransactionEx interface [COM+], ICreateWithTipTransactionEx interface [COM+],described, _dtc_ICreateWithTipTransactionEx_Interface, comsvcs/ICreateWithTipTransactionEx, cos.icreatewithtiptransactionex
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ICreateWithTipTransactionEx"
+f1_keywords:
+- comsvcs/ICreateWithTipTransactionEx
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICreateWithTipTransactionEx
+- ICreateWithTipTransactionEx
 targetos: Windows
 req.typenames: 
 req.redist: 

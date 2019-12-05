@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3cc.IEnumAgentSession.Reset
 title: IEnumAgentSession::Reset (tapi3cc.h)
-
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: tapi3\ienumagentsession_reset.htm
 tech.root: Tapi
 ms.assetid: 38640376-0093-4fa4-9d27-b174c6df1bf4
-
 ms.date: 12/05/2018
 ms.keywords: IEnumAgentSession interface [TAPI 2.2],Reset method, IEnumAgentSession.Reset, IEnumAgentSession::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumAgentSession interface, _tapi3_ienumagentsession_reset, tapi3.ienumagentsession_reset, tapi3cc/IEnumAgentSession::Reset
 ms.topic: method
-f1_keywords: 
- - "tapi3cc/IEnumAgentSession.Reset"
+f1_keywords:
+- tapi3cc/IEnumAgentSession.Reset
 dev_langs:
- - c++
+- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - IEnumAgentSession.Reset
+- IEnumAgentSession.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

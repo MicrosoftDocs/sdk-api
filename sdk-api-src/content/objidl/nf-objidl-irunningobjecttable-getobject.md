@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IRunningObjectTable.GetObject
 title: IRunningObjectTable::GetObject (objidl.h)
-
 description: Determines whether the object identified by the specified moniker is running, and if it is, retrieves a pointer to that object.
 old-location: com\irunningobjecttable_getobject.htm
 tech.root: com
 ms.assetid: 5d74b3ee-323d-43f9-8eab-0866432659de
-
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [COM], GetObject method [COM],IRunningObjectTable interface, IRunningObjectTable interface [COM],GetObject method, IRunningObjectTable.GetObject, IRunningObjectTable::GetObject, _com_irunningobjecttable_getobject, com.irunningobjecttable_getobject, objidl/IRunningObjectTable::GetObject
 ms.topic: method
-f1_keywords: 
- - "objidl/IRunningObjectTable.GetObject"
+f1_keywords:
+- objidl/IRunningObjectTable.GetObject
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IRunningObjectTable.GetObject
+- IRunningObjectTable.GetObject
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IEnumProgressItems.Skip
 title: IEnumProgressItems::Skip (imapi2fs.h)
-
 description: Skips a specified number of items in the enumeration sequence.
 old-location: imapi\ienumprogressitems_skip.htm
 tech.root: imapi
 ms.assetid: 789b2003-1538-4617-a44b-38b80320e21c
-
 ms.date: 12/05/2018
 ms.keywords: IEnumProgressItems interface [IMAPI],Skip method, IEnumProgressItems.Skip, IEnumProgressItems::Skip, Skip, Skip method [IMAPI], Skip method [IMAPI],IEnumProgressItems interface, imapi.ienumprogressitems_skip, imapi2fs/IEnumProgressItems::Skip
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IEnumProgressItems.Skip"
+f1_keywords:
+- imapi2fs/IEnumProgressItems.Skip
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IEnumProgressItems.Skip
+- IEnumProgressItems.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

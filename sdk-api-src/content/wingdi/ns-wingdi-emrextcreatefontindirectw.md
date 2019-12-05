@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMREXTCREATEFONTINDIRECTW
 title: EMREXTCREATEFONTINDIRECTW (wingdi.h)
-
 description: The EMREXTCREATEFONTINDIRECTW structure contains members for the CreateFontIndirect enhanced metafile record.
 old-location: gdi\emrextcreatefontindirectw.htm
 tech.root: gdi
 ms.assetid: 27adba1d-6845-4d5e-8183-9c092775b473
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMREXTCREATEFONTINDIRECTW, *PEMREXTCREATEFONTINDIRECTW structure [Windows GDI], EMREXTCREATEFONTINDIRECTW, EMREXTCREATEFONTINDIRECTW structure [Windows GDI], _win32_EMREXTCREATEFONTINDIRECTW_str, gdi.emrextcreatefontindirectw, wingdi/*PEMREXTCREATEFONTINDIRECTW, wingdi/EMREXTCREATEFONTINDIRECTW"
+ms.keywords: '*PEMREXTCREATEFONTINDIRECTW, *PEMREXTCREATEFONTINDIRECTW structure [Windows GDI], EMREXTCREATEFONTINDIRECTW, EMREXTCREATEFONTINDIRECTW structure [Windows GDI], _win32_EMREXTCREATEFONTINDIRECTW_str, gdi.emrextcreatefontindirectw, wingdi/*PEMREXTCREATEFONTINDIRECTW, wingdi/EMREXTCREATEFONTINDIRECTW'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMREXTCREATEFONTINDIRECTW"
+f1_keywords:
+- wingdi/EMREXTCREATEFONTINDIRECTW
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMREXTCREATEFONTINDIRECTW
+- EMREXTCREATEFONTINDIRECTW
 targetos: Windows
 req.typenames: EMREXTCREATEFONTINDIRECTW, *PEMREXTCREATEFONTINDIRECTW
 req.redist: 

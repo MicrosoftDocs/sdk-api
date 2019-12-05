@@ -1,19 +1,17 @@
 ---
 UID: NF:handleapi.DuplicateHandle
 title: DuplicateHandle function (handleapi.h)
-
 description: Duplicates an object handle.
 old-location: base\duplicatehandle.htm
 tech.root: SysInfo
 ms.assetid: 9c8da574-5bda-49f1-a6b6-c026639d6504
-
 ms.date: 12/05/2018
 ms.keywords: DUPLICATE_CLOSE_SOURCE, DUPLICATE_SAME_ACCESS, DuplicateHandle, DuplicateHandle function, _win32_duplicatehandle, base.duplicatehandle, handleapi/DuplicateHandle
 ms.topic: function
-f1_keywords: 
- - "handleapi/DuplicateHandle"
+f1_keywords:
+- handleapi/DuplicateHandle
 dev_langs:
- - c++
+- c++
 req.header: handleapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-handle-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-handle-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - DuplicateHandle
+- DuplicateHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssComponent.GetNewTarget
 title: IVssComponent::GetNewTarget (vswriter.h)
-
 description: The GetNewTarget method returns the new file restoration locations for the selected component or component set.
 old-location: base\ivsscomponent_getnewtarget.htm
 tech.root: VSS
 ms.assetid: 21f22fae-2230-418b-8942-754c863a9213
-
 ms.date: 12/05/2018
 ms.keywords: GetNewTarget, GetNewTarget method [VSS], GetNewTarget method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetNewTarget method, IVssComponent.GetNewTarget, IVssComponent::GetNewTarget, _win32_ivsscomponent_getnewtarget, base.ivsscomponent_getnewtarget, vswriter/IVssComponent::GetNewTarget
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssComponent.GetNewTarget"
+f1_keywords:
+- vswriter/IVssComponent.GetNewTarget
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssComponent.GetNewTarget
+- IVssComponent.GetNewTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange2.GetFormattedText2
 title: ITextRange2::GetFormattedText2 (tom.h)
-
 description: Gets an ITextRange2 object with the current range's formatted text.
 old-location: controls\itextrange2_getformattedtext2.htm
 tech.root: Controls
 ms.assetid: 9fe5d82d-b13e-4b94-beb6-15691d4c5176
-
 ms.date: 12/05/2018
 ms.keywords: GetFormattedText2, GetFormattedText2 method [Windows Controls], GetFormattedText2 method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetFormattedText2 method, ITextRange2.GetFormattedText2, ITextRange2::GetFormattedText2, controls.itextrange2_getformattedtext2, tom/ITextRange2::GetFormattedText2
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange2.GetFormattedText2"
+f1_keywords:
+- tom/ITextRange2.GetFormattedText2
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange2.GetFormattedText2
+- ITextRange2.GetFormattedText2
 targetos: Windows
 req.typenames: 
 req.redist: 

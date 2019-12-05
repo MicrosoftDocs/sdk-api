@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.ATTACHMENT_PROMPT
 title: ATTACHMENT_PROMPT (shobjidl_core.h)
-
 description: Provides a set of flags to be used with IAttachmentExecute::Prompt to indicate the type of prompt UI to display.
 old-location: shell\ATTACHMENT_PROMPT.htm
 tech.root: shell
 ms.assetid: a19bdff0-3b02-44f4-906a-2e1b85685c52
-
 ms.date: 12/05/2018
 ms.keywords: ATTACHMENT_PROMPT, ATTACHMENT_PROMPT enumeration [Windows Shell], ATTACHMENT_PROMPT_EXEC, ATTACHMENT_PROMPT_EXEC_OR_SAVE, ATTACHMENT_PROMPT_NONE, ATTACHMENT_PROMPT_SAVE, _win32_ATTACHMENT_PROMPT, shell.ATTACHMENT_PROMPT, shobjidl_core/ATTACHMENT_PROMPT, shobjidl_core/ATTACHMENT_PROMPT_EXEC, shobjidl_core/ATTACHMENT_PROMPT_EXEC_OR_SAVE, shobjidl_core/ATTACHMENT_PROMPT_NONE, shobjidl_core/ATTACHMENT_PROMPT_SAVE
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/ATTACHMENT_PROMPT"
+f1_keywords:
+- shobjidl_core/ATTACHMENT_PROMPT
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ATTACHMENT_PROMPT
+- ATTACHMENT_PROMPT
 targetos: Windows
 req.typenames: ATTACHMENT_PROMPT
 req.redist: 

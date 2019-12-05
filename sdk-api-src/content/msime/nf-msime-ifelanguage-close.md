@@ -1,19 +1,17 @@
 ---
 UID: NF:msime.IFELanguage.Close
 title: IFELanguage::Close (msime.h)
-
 description: Terminates the IFELanguage object.
 old-location: intl\ifelanguage_close.htm
 tech.root: Intl
 ms.assetid: EF03C40A-62D1-4B8E-9960-3CD2D515B7CE
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Internationalization for Windows Applications], Close method [Internationalization for Windows Applications],IFELanguage interface, IFELanguage interface [Internationalization for Windows Applications],Close method, IFELanguage.Close, IFELanguage::Close, intl.ifelanguage_close, msime/IFELanguage::Close
 ms.topic: method
-f1_keywords: 
- - "msime/IFELanguage.Close"
+f1_keywords:
+- msime/IFELanguage.Close
 dev_langs:
- - c++
+- c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msime.h
+- Msime.h
 api_name:
- - IFELanguage.Close
+- IFELanguage.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

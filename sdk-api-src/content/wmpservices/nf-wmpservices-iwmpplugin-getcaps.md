@@ -1,19 +1,17 @@
 ---
 UID: NF:wmpservices.IWMPPlugin.GetCaps
 title: IWMPPlugin::GetCaps (wmpservices.h)
-
 description: The IWMPPlugin::GetCaps method returns a flag that specifies whether the plug-in can convert between an input format and an output format.
 old-location: wmp\iwmpplugin_getcaps.htm
 tech.root: WMP
 ms.assetid: f8b38453-47a3-4330-88f8-8d8993089f75
-
 ms.date: 12/05/2018
 ms.keywords: GetCaps, GetCaps method [Windows Media Player], GetCaps method [Windows Media Player],IWMPPlugin interface, IWMPPlugin interface [Windows Media Player],GetCaps method, IWMPPlugin.GetCaps, IWMPPlugin::GetCaps, IWMPPluginGetCapsDSP, wmp.iwmpplugin_getcaps, wmpservices/IWMPPlugin::GetCaps
 ms.topic: method
-f1_keywords: 
- - "wmpservices/IWMPPlugin.GetCaps"
+f1_keywords:
+- wmpservices/IWMPPlugin.GetCaps
 dev_langs:
- - c++
+- c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmpservices.h
+- wmpservices.h
 api_name:
- - IWMPPlugin.GetCaps
+- IWMPPlugin.GetCaps
 targetos: Windows
 req.typenames: 
 req.redist: 

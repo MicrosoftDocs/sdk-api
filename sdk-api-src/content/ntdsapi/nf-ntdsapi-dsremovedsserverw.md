@@ -1,19 +1,17 @@
 ---
 UID: NF:ntdsapi.DsRemoveDsServerW
 title: DsRemoveDsServerW function (ntdsapi.h)
-
 description: The DsRemoveDsServer function removes all traces of a directory service agent (DSA) from the global area of the directory service.
 old-location: ad\dsremovedsserver.htm
 tech.root: ad
 ms.assetid: a79a2b71-10c7-495b-861f-0c7a4d86f720
-
 ms.date: 12/05/2018
 ms.keywords: DsRemoveDsServer, DsRemoveDsServer function [Active Directory], DsRemoveDsServerA, DsRemoveDsServerW, _glines_dsremovedsserver, ad.dsremovedsserver, ntdsapi/DsRemoveDsServer, ntdsapi/DsRemoveDsServerA, ntdsapi/DsRemoveDsServerW
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsRemoveDsServer"
+f1_keywords:
+- ntdsapi/DsRemoveDsServer
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsRemoveDsServer
- - DsRemoveDsServerA
- - DsRemoveDsServerW
+- DsRemoveDsServer
+- DsRemoveDsServerA
+- DsRemoveDsServerW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.FindNextVolumeMountPointW
 title: FindNextVolumeMountPointW function (winbase.h)
-
 description: Continues a mounted folder search started by a call to the FindFirstVolumeMountPoint function.
 old-location: fs\findnextvolumemountpoint.htm
 tech.root: FileIO
 ms.assetid: 299e2fed-74d8-4008-b593-981c52016532
-
 ms.date: 12/05/2018
 ms.keywords: FindNextVolumeMountPoint, FindNextVolumeMountPoint function [Files], FindNextVolumeMountPointA, FindNextVolumeMountPointW, _win32_findnextvolumemountpoint, base.findnextvolumemountpoint, fs.findnextvolumemountpoint, winbase/FindNextVolumeMountPoint, winbase/FindNextVolumeMountPointA, winbase/FindNextVolumeMountPointW
 ms.topic: function
-f1_keywords: 
- - "winbase/FindNextVolumeMountPoint"
+f1_keywords:
+- winbase/FindNextVolumeMountPoint
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - FindNextVolumeMountPoint
- - FindNextVolumeMountPointA
- - FindNextVolumeMountPointW
+- FindNextVolumeMountPoint
+- FindNextVolumeMountPointA
+- FindNextVolumeMountPointW
 targetos: Windows
 req.typenames: 
 req.redist: 

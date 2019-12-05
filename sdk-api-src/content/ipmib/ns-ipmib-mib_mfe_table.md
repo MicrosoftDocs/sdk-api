@@ -1,19 +1,17 @@
 ---
 UID: NS:ipmib._MIB_MFE_TABLE
 title: MIB_MFE_TABLE (ipmib.h)
-
 description: Contains a table of Multicast Forwarding Entries (MFEs).
 old-location: mib\mib_mfe_table.htm
 tech.root: MIB
 ms.assetid: 2567e899-760d-41dd-8347-634c1a0e5764
-
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_MFE_TABLE, MIB_MFE_TABLE, MIB_MFE_TABLE structure [MIB], PMIB_MFE_TABLE, PMIB_MFE_TABLE structure pointer [MIB], _mpr_mib_mfe_table, ipmib/MIB_MFE_TABLE, ipmib/PMIB_MFE_TABLE, iprtrmib/MIB_MFE_TABLE, iprtrmib/PMIB_MFE_TABLE, mib.mib_mfe_table, rras.mib_mfe_table'
 ms.topic: struct
 f1_keywords:
 - ipmib/MIB_MFE_TABLE
 dev_langs:
- - c++
+- c++
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

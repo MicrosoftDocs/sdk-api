@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_QUERY_DATA_TIMESTAMP_DISJOINT
 title: D3D11_QUERY_DATA_TIMESTAMP_DISJOINT (d3d11.h)
-
 description: Query information about the reliability of a timestamp query.
 old-location: direct3d11\d3d11_query_data_timestamp_disjoint.htm
 tech.root: direct3d11
 ms.assetid: d706626a-cf11-4087-b66a-350161050aad
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_QUERY_DATA_TIMESTAMP_DISJOINT, D3D11_QUERY_DATA_TIMESTAMP_DISJOINT structure [Direct3D 11], d3d11/D3D11_QUERY_DATA_TIMESTAMP_DISJOINT, direct3d11.d3d11_query_data_timestamp_disjoint, f6339efd-3b83-c410-71de-6ecde51119d9
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_QUERY_DATA_TIMESTAMP_DISJOINT"
+f1_keywords:
+- d3d11/D3D11_QUERY_DATA_TIMESTAMP_DISJOINT
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_QUERY_DATA_TIMESTAMP_DISJOINT
+- D3D11_QUERY_DATA_TIMESTAMP_DISJOINT
 targetos: Windows
 req.typenames: D3D11_QUERY_DATA_TIMESTAMP_DISJOINT
 req.redist: 

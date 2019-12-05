@@ -1,19 +1,17 @@
 ---
 UID: NF:commoncontrols.IImageList.SetOverlayImage
 title: IImageList::SetOverlayImage (commoncontrols.h)
-
 description: Adds a specified image to the list of images used as overlay masks.
 old-location: controls\IImageList_SetOverlayImage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\setoverlayimage.htm
-
 ms.date: 12/05/2018
 ms.keywords: IImageList interface [Windows Controls],SetOverlayImage method, IImageList.SetOverlayImage, IImageList::SetOverlayImage, SetOverlayImage, SetOverlayImage method [Windows Controls], SetOverlayImage method [Windows Controls],IImageList interface, comctl_IImageList_SetOverlayImage, comctl_IImageList_SetOverlayImage_cpp, commoncontrols/IImageList::SetOverlayImage, controls.IImageList_SetOverlayImage, controls.comctl_IImageList_SetOverlayImage
 ms.topic: method
-f1_keywords: 
- - "commoncontrols/IImageList.SetOverlayImage"
+f1_keywords:
+- commoncontrols/IImageList.SetOverlayImage
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - IImageList.SetOverlayImage
+- IImageList.SetOverlayImage
 targetos: Windows
 req.typenames: 
 req.redist: 

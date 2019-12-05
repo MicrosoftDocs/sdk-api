@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GlobalSize
 title: GlobalSize function (winbase.h)
-
 description: Retrieves the current size of the specified global memory object, in bytes.
 old-location: base\globalsize.htm
 tech.root: Memory
 ms.assetid: 9fd01460-d6fc-41f4-9e0c-209a3d1844c1
-
 ms.date: 12/05/2018
 ms.keywords: GlobalSize, GlobalSize function, _win32_globalsize, base.globalsize, winbase/GlobalSize
 ms.topic: function
-f1_keywords: 
- - "winbase/GlobalSize"
+f1_keywords:
+- winbase/GlobalSize
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - GlobalSize
+- GlobalSize
 targetos: Windows
 req.typenames: 
 req.redist: 

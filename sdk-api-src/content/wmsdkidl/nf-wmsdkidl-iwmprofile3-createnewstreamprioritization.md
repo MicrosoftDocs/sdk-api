@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.CreateNewStreamPrioritization
 title: IWMProfile3::CreateNewStreamPrioritization (wmsdkidl.h)
-
 description: The CreateNewStreamPrioritization method creates a new stream prioritization object.
 old-location: wmformat\iwmprofile3_createnewstreamprioritization.htm
 tech.root: wmformat
 ms.assetid: 801a66fa-b72d-4282-953e-216fb9a56cd7
-
 ms.date: 12/05/2018
 ms.keywords: CreateNewStreamPrioritization, CreateNewStreamPrioritization method [windows Media Format], CreateNewStreamPrioritization method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],CreateNewStreamPrioritization method, IWMProfile3.CreateNewStreamPrioritization, IWMProfile3::CreateNewStreamPrioritization, IWMProfile3CreateNewStreamPrioritization, wmformat.iwmprofile3_createnewstreamprioritization, wmsdkidl/IWMProfile3::CreateNewStreamPrioritization
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfile3.CreateNewStreamPrioritization"
+f1_keywords:
+- wmsdkidl/IWMProfile3.CreateNewStreamPrioritization
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMProfile3.CreateNewStreamPrioritization
+- IWMProfile3.CreateNewStreamPrioritization
 targetos: Windows
 req.typenames: 
 req.redist: 

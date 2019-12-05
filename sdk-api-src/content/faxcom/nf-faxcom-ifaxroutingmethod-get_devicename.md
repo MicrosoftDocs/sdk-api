@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethod.get_DeviceName
 title: IFaxRoutingMethod::get_DeviceName (faxcom.h)
-
 description: The IFaxRoutingMethod::get_DeviceName property is a null-terminated string that contains the user-friendly display name for a fax port.
 old-location: fax\_mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_devicename_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0tk5.htm
-
 ms.date: 12/05/2018
 ms.keywords: DeviceName property [Fax Service], DeviceName property [Fax Service],IFaxRoutingMethod interface, IFaxRoutingMethod interface [Fax Service],DeviceName property, IFaxRoutingMethod.DeviceName, IFaxRoutingMethod.get_DeviceName, IFaxRoutingMethod::DeviceName, IFaxRoutingMethod::get_DeviceName, _mfax_ifaxroutingmethod_get_devicename, fax._mfax_ifaxroutingmethod_get_devicename, fax._mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_devicename_cpp, faxcom/IFaxRoutingMethod::DeviceName, faxcom/IFaxRoutingMethod::get_DeviceName, get_DeviceName
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxRoutingMethod.DeviceName"
+f1_keywords:
+- faxcom/IFaxRoutingMethod.DeviceName
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxRoutingMethod.DeviceName
- - IFaxRoutingMethod.get_DeviceName
+- IFaxRoutingMethod.DeviceName
+- IFaxRoutingMethod.get_DeviceName
 targetos: Windows
 req.typenames: 
 req.redist: 

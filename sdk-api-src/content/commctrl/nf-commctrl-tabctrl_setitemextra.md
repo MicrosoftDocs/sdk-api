@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TabCtrl_SetItemExtra
 title: TabCtrl_SetItemExtra macro (commctrl.h)
-
 description: Sets the number of bytes per tab reserved for application-defined data in a tab control. You can use this macro or send the TCM_SETITEMEXTRA message explicitly.
 old-location: controls\TabCtrl_SetItemExtra.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setitemextra.htm
-
 ms.date: 12/05/2018
 ms.keywords: TabCtrl_SetItemExtra, TabCtrl_SetItemExtra macro [Windows Controls], _win32_TabCtrl_SetItemExtra, _win32_TabCtrl_SetItemExtra_cpp, commctrl/TabCtrl_SetItemExtra, controls.TabCtrl_SetItemExtra, controls._win32_TabCtrl_SetItemExtra
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TabCtrl_SetItemExtra"
+f1_keywords:
+- commctrl/TabCtrl_SetItemExtra
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TabCtrl_SetItemExtra
+- TabCtrl_SetItemExtra
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuningSpace.get_DefaultLocator
 title: ITuningSpace::get_DefaultLocator (tuner.h)
-
 description: The get_DefaultLocator method retrieves the default locator for this tuning space.
 old-location: mstv\ituningspace_get_defaultlocator.htm
 tech.root: mstv
 ms.assetid: facc14bd-182e-4b8e-a567-1bf1d3c4ff36
-
 ms.date: 12/05/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get_DefaultLocator method, ITuningSpace.get_DefaultLocator, ITuningSpace::get_DefaultLocator, ITuningSpaceget_DefaultLocator, get_DefaultLocator, get_DefaultLocator method [Microsoft TV Technologies], get_DefaultLocator method [Microsoft TV Technologies],ITuningSpace interface, mstv.ituningspace_get_defaultlocator, tuner/ITuningSpace::get_DefaultLocator
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuningSpace.get_DefaultLocator"
+f1_keywords:
+- tuner/ITuningSpace.get_DefaultLocator
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuningSpace.get_DefaultLocator
+- ITuningSpace.get_DefaultLocator
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_6.IDXGIFactory7.RegisterAdaptersChangedEvent
 title: IDXGIFactory7::RegisterAdaptersChangedEvent (dxgi1_6.h)
-
 description: Registers to receive notification of changes whenever the adapter enumeration state changes.
 old-location: direct3ddxgi\idxgifactory7_registeradapterschangedevent.htm
 tech.root: direct3ddxgi
 ms.assetid: B0A5C04B-B081-4BDD-8952-6CC9116123E0
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIFactory7 interface [DXGI],RegisterAdaptersChangedEvent method, IDXGIFactory7.RegisterAdaptersChangedEvent, IDXGIFactory7::RegisterAdaptersChangedEvent, RegisterAdaptersChangedEvent, RegisterAdaptersChangedEvent method [DXGI], RegisterAdaptersChangedEvent method [DXGI],IDXGIFactory7 interface, direct3ddxgi.idxgifactory7_registeradapterschangedevent, dxgi1_6/IDXGIFactory7::RegisterAdaptersChangedEvent
 ms.topic: method
-f1_keywords: 
- - "dxgi1_6/IDXGIFactory7.RegisterAdaptersChangedEvent"
+f1_keywords:
+- dxgi1_6/IDXGIFactory7.RegisterAdaptersChangedEvent
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxgi.lib
- - dxgi.dll
+- dxgi.lib
+- dxgi.dll
 api_name:
- - IDXGIFactory7.RegisterAdaptersChangedEvent
+- IDXGIFactory7.RegisterAdaptersChangedEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

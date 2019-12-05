@@ -1,19 +1,17 @@
 ---
 UID: NF:certbcli.CertSrvRestoreRegisterThroughFile
 title: CertSrvRestoreRegisterThroughFile function (certbcli.h)
-
 description: Registers a Certificate Services restore.
 old-location: security\certsrvrestoreregisterthroughfile.htm
 tech.root: SecCrypto
 ms.assetid: 6b929983-9905-48c1-96f3-01d8b39878be
-
 ms.date: 12/05/2018
 ms.keywords: CertSrvRestoreRegisterThroughFile, CertSrvRestoreRegisterThroughFile function [Security], certbcli/CertSrvRestoreRegisterThroughFile, security.certsrvrestoreregisterthroughfile
 ms.topic: function
-f1_keywords: 
- - "certbcli/CertSrvRestoreRegisterThroughFile"
+f1_keywords:
+- certbcli/CertSrvRestoreRegisterThroughFile
 dev_langs:
- - c++
+- c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - CertSrvRestoreRegisterThroughFile
+- CertSrvRestoreRegisterThroughFile
 targetos: Windows
 req.typenames: 
 req.redist: 

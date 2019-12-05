@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBTLocator.get_Mode
 title: IDVBTLocator::get_Mode (tuner.h)
-
 description: The get_Mode method receives the transmission mode.
 old-location: mstv\idvbtlocator_get_mode.htm
 tech.root: mstv
 ms.assetid: 1896ca9d-fb43-49eb-88a7-c6217d468a2b
-
 ms.date: 12/05/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],get_Mode method, IDVBTLocator.get_Mode, IDVBTLocator::get_Mode, IDVBTLocatorget_Mode, get_Mode, get_Mode method [Microsoft TV Technologies], get_Mode method [Microsoft TV Technologies],IDVBTLocator interface, mstv.idvbtlocator_get_mode, tuner/IDVBTLocator::get_Mode
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBTLocator.get_Mode"
+f1_keywords:
+- tuner/IDVBTLocator.get_Mode
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBTLocator.get_Mode
+- IDVBTLocator.get_Mode
 targetos: Windows
 req.typenames: 
 req.redist: 

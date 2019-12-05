@@ -1,19 +1,17 @@
 ---
 UID: NE:cfapi.CF_CALLBACK_DEHYDRATE_FLAGS
 title: CF_CALLBACK_DEHYDRATE_FLAGS (cfapi.h)
-
 description: Callback flags for notifying a sync provider that a placeholder under one of its sync root is going to be dehydrated.
 old-location: cloudapi\cf_callback_dehydrate_flags.htm
 tech.root: cfApi
 ms.assetid: DCB085EA-1468-44FB-9D45-F5C89693CBE7
-
 ms.date: 12/05/2018
 ms.keywords: CF_CALLBACK_DEHYDRATE_FLAGS, CF_CALLBACK_DEHYDRATE_FLAGS enumeration, CF_CALLBACK_DEHYDRATE_FLAG_BACKGROUND, CF_CALLBACK_DEHYDRATE_FLAG_NONE, cfapi/CF_CALLBACK_DEHYDRATE_FLAGS, cfapi/CF_CALLBACK_DEHYDRATE_FLAG_BACKGROUND, cfapi/CF_CALLBACK_DEHYDRATE_FLAG_NONE, cloudApi.cf_callback_dehydrate_flags
 ms.topic: enum
-f1_keywords: 
- - "cfapi/CF_CALLBACK_DEHYDRATE_FLAGS"
+f1_keywords:
+- cfapi/CF_CALLBACK_DEHYDRATE_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_CALLBACK_DEHYDRATE_FLAGS
+- CF_CALLBACK_DEHYDRATE_FLAGS
 targetos: Windows
 req.typenames: CF_CALLBACK_DEHYDRATE_FLAGS
 req.redist: 

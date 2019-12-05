@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapReader.GetStream
 title: IAppxBlockMapReader::GetStream (appxpackaging.h)
-
 description: Retrieves a read-only stream that represents the XML content of the block map.
 old-location: appxpkg\iappxblockmapreader_getstream.htm
 tech.root: appxpkg
 ms.assetid: 95EBABDA-45D5-436C-B627-51C14D9091EA
-
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [App packaging and management], GetStream method [App packaging and management],IAppxBlockMapReader interface, IAppxBlockMapReader interface [App packaging and management],GetStream method, IAppxBlockMapReader.GetStream, IAppxBlockMapReader::GetStream, appxpackaging/IAppxBlockMapReader::GetStream, appxpkg.iappxblockmapreader_getstream
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBlockMapReader.GetStream"
+f1_keywords:
+- appxpackaging/IAppxBlockMapReader.GetStream
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBlockMapReader.GetStream
+- IAppxBlockMapReader.GetStream
 targetos: Windows
 req.typenames: 
 req.redist: 

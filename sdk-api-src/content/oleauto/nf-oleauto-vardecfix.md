@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarDecFix
 title: VarDecFix function (oleauto.h)
-
 description: Retrieves the integer portion of a variant of type decimal.
 old-location: automat\vardecfix.htm
 tech.root: automat
 ms.assetid: 714567f9-7159-4081-a5d2-afd4da789961
-
 ms.date: 12/05/2018
 ms.keywords: VarDecFix, VarDecFix function [Automation], _oa96_VarDecFix, automat.vardecfix, oleauto/VarDecFix
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarDecFix"
+f1_keywords:
+- oleauto/VarDecFix
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarDecFix
+- VarDecFix
 targetos: Windows
 req.typenames: 
 req.redist: 

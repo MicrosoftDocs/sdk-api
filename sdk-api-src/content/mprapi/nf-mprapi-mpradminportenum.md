@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminPortEnum
 title: MprAdminPortEnum function (mprapi.h)
-
 description: Enumerates all active ports in a specific connection, or all ports available for use or currently used by RAS.
 old-location: rras\mpradminportenum.htm
 tech.root: RRAS
 ms.assetid: b6caa1f0-f4c7-48a9-b1e8-b484e7d7a3a3
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminPortEnum, MprAdminPortEnum function [RAS], _mpr_mpradminportenum, mprapi/MprAdminPortEnum, rras.mpradminportenum
 ms.topic: function
 f1_keywords:
 - mprapi/MprAdminPortEnum
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

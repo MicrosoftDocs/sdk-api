@@ -1,19 +1,17 @@
 ---
 UID: NS:mstcpip.TRANSPORT_SETTING_ID
 title: TRANSPORT_SETTING_ID (mstcpip.h)
-
 description: Specifies the transport setting ID used by the SIO_APPLY_TRANSPORT_SETTING and SIO_QUERY_TRANSPORT_SETTING IOCTLs to apply or query the transport setting for a socket.
 old-location: winsock\transport_setting_id.htm
 tech.root: WinSock
 ms.assetid: 8ECBF92A-0AF9-4419-A4E8-0EDEF63FCE16
-
 ms.date: 12/05/2018
-ms.keywords: "*PTRANSPORT_SETTING_ID, PTRANSPORT_SETTING_ID, PTRANSPORT_SETTING_ID structure pointer [Winsock], TRANSPORT_SETTING_ID, TRANSPORT_SETTING_ID structure [Winsock], transportsettingcommon/PTRANSPORT_SETTING_ID, transportsettingcommon/TRANSPORT_SETTING_ID, winsock.transport_setting_id"
+ms.keywords: '*PTRANSPORT_SETTING_ID, PTRANSPORT_SETTING_ID, PTRANSPORT_SETTING_ID structure pointer [Winsock], TRANSPORT_SETTING_ID, TRANSPORT_SETTING_ID structure [Winsock], transportsettingcommon/PTRANSPORT_SETTING_ID, transportsettingcommon/TRANSPORT_SETTING_ID, winsock.transport_setting_id'
 ms.topic: struct
-f1_keywords: 
- - "mstcpip/TRANSPORT_SETTING_ID"
+f1_keywords:
+- mstcpip/TRANSPORT_SETTING_ID
 dev_langs:
- - c++
+- c++
 req.header: mstcpip.h
 req.include-header: Mstcpip.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - transportsettingcommon.h
+- transportsettingcommon.h
 api_name:
- - TRANSPORT_SETTING_ID
+- TRANSPORT_SETTING_ID
 targetos: Windows
 req.typenames: TRANSPORT_SETTING_ID, *PTRANSPORT_SETTING_ID
 req.redist: 

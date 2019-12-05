@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFont3.Equals
 title: IDWriteFont3::Equals (dwrite_3.h)
-
 description: Compares two instances of font references for equality.
 old-location: directwrite\idwritefont3_equals.htm
 tech.root: DirectWrite
 ms.assetid: 4C537868-F655-457F-9B70-FA7633CF714C
-
 ms.date: 12/05/2018
 ms.keywords: Equals, Equals method [Direct Write], Equals method [Direct Write],IDWriteFont3 interface, IDWriteFont3 interface [Direct Write],Equals method, IDWriteFont3.Equals, IDWriteFont3::Equals, directwrite.idwritefont3_equals, dwrite_3/IDWriteFont3::Equals
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFont3.Equals"
+f1_keywords:
+- dwrite_3/IDWriteFont3.Equals
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFont3.Equals
+- IDWriteFont3.Equals
 targetos: Windows
 req.typenames: 
 req.redist: 

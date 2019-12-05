@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.DeleteClusterGroupSet
 title: DeleteClusterGroupSet function (clusapi.h)
-
 description: Deletes the specified groupset from the cluster.
 old-location: mscs\deleteclustergroupcollection.htm
 tech.root: MsCS
 ms.assetid: 8787d61b-7a80-404c-985f-1ad4ba01acf0
-
 ms.date: 12/05/2018
 ms.keywords: DeleteClusterGroupSet, DeleteClusterGroupSet function [Failover Cluster], PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET, PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET function [Failover Cluster], clusapi/DeleteClusterGroupSet, clusapi/PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET, mscs.deleteclustergroupcollection
 ms.topic: function
-f1_keywords: 
- - "clusapi/DeleteClusterGroupSet"
+f1_keywords:
+- clusapi/DeleteClusterGroupSet
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - DeleteClusterGroupSet
+- DeleteClusterGroupSet
 targetos: Windows
 req.typenames: 
 req.redist: 

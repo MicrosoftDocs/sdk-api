@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentCollection.Append
 title: IXpsOMDocumentCollection::Append (xpsobjectmodel.h)
-
 description: Appends an IXpsOMDocument interface to the end of the collection.
 old-location: xps\ixpsomdocumentcollection_append.htm
 tech.root: printdocs
 ms.assetid: 3ac969fd-72ad-4d4f-b2bb-25e0f4401179
-
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMDocumentCollection interface, IXpsOMDocumentCollection interface [XPS Documents and Packaging],Append method, IXpsOMDocumentCollection.Append, IXpsOMDocumentCollection::Append, xps.ixpsomdocumentcollection_append, xpsobjectmodel/IXpsOMDocumentCollection::Append
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMDocumentCollection.Append"
+f1_keywords:
+- xpsobjectmodel/IXpsOMDocumentCollection.Append
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMDocumentCollection.Append
+- IXpsOMDocumentCollection.Append
 targetos: Windows
 req.typenames: 
 req.redist: 

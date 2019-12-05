@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.INamedPropertyStore.GetNameCount
 title: INamedPropertyStore::GetNameCount (propsys.h)
-
 description: Gets the number of property names in the property store.
 old-location: shell\INamedPropertyStore_GetNameCount.htm
 tech.root: shell
 ms.assetid: 74bba1bf-e003-40bb-9118-4d647f78e409
-
 ms.date: 12/05/2018
 ms.keywords: GetNameCount, GetNameCount method [Windows Shell], GetNameCount method [Windows Shell],INamedPropertyStore interface, INamedPropertyStore interface [Windows Shell],GetNameCount method, INamedPropertyStore.GetNameCount, INamedPropertyStore::GetNameCount, _shell_INamedPropertyStore_GetNameCount, propsys/INamedPropertyStore::GetNameCount, shell.INamedPropertyStore_GetNameCount
 ms.topic: method
-f1_keywords: 
- - "propsys/INamedPropertyStore.GetNameCount"
+f1_keywords:
+- propsys/INamedPropertyStore.GetNameCount
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - INamedPropertyStore.GetNameCount
+- INamedPropertyStore.GetNameCount
 targetos: Windows
 req.typenames: 
 req.redist: 

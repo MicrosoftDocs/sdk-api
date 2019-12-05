@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.GetMutualExclusionCount
 title: IWMProfile::GetMutualExclusionCount (wmsdkidl.h)
-
 description: The GetMutualExclusionCount method retrieves the number of mutual exclusion objects in the profile.
 old-location: wmformat\iwmprofile_getmutualexclusioncount.htm
 tech.root: wmformat
 ms.assetid: c223f75b-87c6-49bd-a16a-14b4751d5f1b
-
 ms.date: 12/05/2018
 ms.keywords: GetMutualExclusionCount, GetMutualExclusionCount method [windows Media Format], GetMutualExclusionCount method [windows Media Format],IWMProfile interface, GetMutualExclusionCount method [windows Media Format],IWMProfile2 interface, GetMutualExclusionCount method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],GetMutualExclusionCount method, IWMProfile.GetMutualExclusionCount, IWMProfile2 interface [windows Media Format],GetMutualExclusionCount method, IWMProfile2::GetMutualExclusionCount, IWMProfile3 interface [windows Media Format],GetMutualExclusionCount method, IWMProfile3::GetMutualExclusionCount, IWMProfile::GetMutualExclusionCount, IWMProfileGetMutualExclusionCount, wmformat.iwmprofile_getmutualexclusioncount, wmsdkidl/IWMProfile2::GetMutualExclusionCount, wmsdkidl/IWMProfile3::GetMutualExclusionCount, wmsdkidl/IWMProfile::GetMutualExclusionCount
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfile.GetMutualExclusionCount"
+f1_keywords:
+- wmsdkidl/IWMProfile.GetMutualExclusionCount
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
- - qasf.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
+- qasf.dll
 api_name:
- - IWMProfile.GetMutualExclusionCount
- - IWMProfile2.GetMutualExclusionCount
- - IWMProfile3.GetMutualExclusionCount
+- IWMProfile.GetMutualExclusionCount
+- IWMProfile2.GetMutualExclusionCount
+- IWMProfile3.GetMutualExclusionCount
 targetos: Windows
 req.typenames: 
 req.redist: 

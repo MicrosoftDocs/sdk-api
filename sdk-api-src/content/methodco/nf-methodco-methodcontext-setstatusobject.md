@@ -1,19 +1,17 @@
 ---
 UID: NF:methodco.MethodContext.SetStatusObject
 title: MethodContext::SetStatusObject (methodco.h)
-
 description: The SetStatusObject method sets an internal pointer to IWbemClassObject information. WMI does not implement any functionality based on the pointer.
 old-location: wmi\methodcontext_setstatusobject.htm
 tech.root: WmiSdk
 ms.assetid: 5fe1f1af-61a9-490b-95e0-c3a3efe2392d
-
 ms.date: 12/05/2018
-ms.keywords: "?SetStatusObject@MethodContext@@QAE_NPAUIWbemClassObject@@@Z, ?SetStatusObject@MethodContext@@QEAA_NPEAUIWbemClassObject@@@Z, MethodContext interface [Windows Management Instrumentation],SetStatusObject method, MethodContext.SetStatusObject, MethodContext::SetStatusObject, SetStatusObject, SetStatusObject method [Windows Management Instrumentation], SetStatusObject method [Windows Management Instrumentation],MethodContext interface, methodco/MethodContext::SetStatusObject, wmi.methodcontext_setstatusobject"
+ms.keywords: ?SetStatusObject@MethodContext@@QAE_NPAUIWbemClassObject@@@Z, ?SetStatusObject@MethodContext@@QEAA_NPEAUIWbemClassObject@@@Z, MethodContext interface [Windows Management Instrumentation],SetStatusObject method, MethodContext.SetStatusObject, MethodContext::SetStatusObject, SetStatusObject, SetStatusObject method [Windows Management Instrumentation], SetStatusObject method [Windows Management Instrumentation],MethodContext interface, methodco/MethodContext::SetStatusObject, wmi.methodcontext_setstatusobject
 ms.topic: method
-f1_keywords: 
- - "methodco/MethodContext.SetStatusObject"
+f1_keywords:
+- methodco/MethodContext.SetStatusObject
 dev_langs:
- - c++
+- c++
 req.header: methodco.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - MethodCo.h
+- MethodCo.h
 api_name:
- - MethodContext.SetStatusObject
- - ?SetStatusObject@MethodContext@@QAE_NPAUIWbemClassObject@@@Z
- - ?SetStatusObject@MethodContext@@QEAA_NPEAUIWbemClassObject@@@Z
+- MethodContext.SetStatusObject
+- ?SetStatusObject@MethodContext@@QAE_NPAUIWbemClassObject@@@Z
+- ?SetStatusObject@MethodContext@@QEAA_NPEAUIWbemClassObject@@@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

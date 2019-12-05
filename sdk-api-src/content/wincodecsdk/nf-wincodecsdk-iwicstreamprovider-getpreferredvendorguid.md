@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICStreamProvider.GetPreferredVendorGUID
 title: IWICStreamProvider::GetPreferredVendorGUID (wincodecsdk.h)
-
 description: Gets the preferred vendor GUID.
 old-location: wic\_wic_codec_iwicstreamprovider_getpreferredvendorguid.htm
 tech.root: wic
 ms.assetid: fb88bc8d-4f92-4645-9d11-ee9200f11aaf
-
 ms.date: 12/05/2018
 ms.keywords: GetPreferredVendorGUID, GetPreferredVendorGUID method [Windows Imaging Component], GetPreferredVendorGUID method [Windows Imaging Component],IWICStreamProvider interface, IWICStreamProvider interface [Windows Imaging Component],GetPreferredVendorGUID method, IWICStreamProvider.GetPreferredVendorGUID, IWICStreamProvider::GetPreferredVendorGUID, _wic_codec_iwicstreamprovider_getpreferredvendorguid, wic._wic_codec_iwicstreamprovider_getpreferredvendorguid, wincodecsdk/IWICStreamProvider::GetPreferredVendorGUID
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICStreamProvider.GetPreferredVendorGUID"
+f1_keywords:
+- wincodecsdk/IWICStreamProvider.GetPreferredVendorGUID
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICStreamProvider.GetPreferredVendorGUID
+- IWICStreamProvider.GetPreferredVendorGUID
 targetos: Windows
 req.typenames: 
 req.redist: 

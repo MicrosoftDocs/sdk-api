@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualCollection.InsertAt
 title: IXpsOMVisualCollection::InsertAt (xpsobjectmodel.h)
-
 description: Inserts an IXpsOMVisual interface pointer at a specified location in the collection.
 old-location: xps\ixpsomvisualcollection_insertat.htm
 tech.root: printdocs
 ms.assetid: b4becd2b-c5f4-4d4d-a142-9f4fe11fafd3
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisualCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMVisualCollection.InsertAt, IXpsOMVisualCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMVisualCollection interface, xps.ixpsomvisualcollection_insertat, xpsobjectmodel/IXpsOMVisualCollection::InsertAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisualCollection.InsertAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisualCollection.InsertAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisualCollection.InsertAt
+- IXpsOMVisualCollection.InsertAt
 targetos: Windows
 req.typenames: 
 req.redist: 

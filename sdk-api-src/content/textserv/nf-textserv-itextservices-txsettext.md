@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextServices.TxSetText
 title: ITextServices::TxSetText (textserv.h)
-
 description: Sets all of the text in the control.
 old-location: controls\ITextServices_TxSetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsettext.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextServices interface [Windows Controls],TxSetText method, ITextServices.TxSetText, ITextServices::TxSetText, TxSetText, TxSetText method [Windows Controls], TxSetText method [Windows Controls],ITextServices interface, _win32_ITextServices_TxSetText, _win32_ITextServices_TxSetText_cpp, controls.ITextServices_TxSetText, controls._win32_ITextServices_TxSetText, textserv/ITextServices::TxSetText
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextServices.TxSetText"
+f1_keywords:
+- textserv/ITextServices.TxSetText
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextServices.TxSetText
+- ITextServices.TxSetText
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommand.Invoke
 title: IExplorerCommand::Invoke (shobjidl_core.h)
-
 description: Invokes a Windows Explorer command.
 old-location: shell\IExplorerCommand_Invoke.htm
 tech.root: shell
 ms.assetid: 3ea545a4-5f4c-4f98-9e56-b7c7eed5f821
-
 ms.date: 12/05/2018
 ms.keywords: IExplorerCommand interface [Windows Shell],Invoke method, IExplorerCommand.Invoke, IExplorerCommand::Invoke, Invoke, Invoke method [Windows Shell], Invoke method [Windows Shell],IExplorerCommand interface, _shell_IExplorerCommand_Invoke, shell.IExplorerCommand_Invoke, shobjidl_core/IExplorerCommand::Invoke
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExplorerCommand.Invoke"
+f1_keywords:
+- shobjidl_core/IExplorerCommand.Invoke
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerCommand.Invoke
+- IExplorerCommand.Invoke
 targetos: Windows
 req.typenames: 
 req.redist: 

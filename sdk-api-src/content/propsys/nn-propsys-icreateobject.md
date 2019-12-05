@@ -1,19 +1,17 @@
 ---
 UID: NN:propsys.ICreateObject
 title: ICreateObject (propsys.h)
-
 description: Exposes a method that creates an object of a specified class.
 old-location: shell\ICreateObject.htm
 tech.root: shell
 ms.assetid: 90502b4a-dc0a-4077-83d7-e9f5445ba69b
-
 ms.date: 12/05/2018
 ms.keywords: ICreateObject, ICreateObject interface [Windows Shell], ICreateObject interface [Windows Shell],described, _shell_ICreateObject, propsys/ICreateObject, shell.ICreateObject
 ms.topic: interface
-f1_keywords: 
- - "propsys/ICreateObject"
+f1_keywords:
+- propsys/ICreateObject
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - ICreateObject
+- ICreateObject
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msime.IFEDictionary.ExistWord
 title: IFEDictionary::ExistWord (msime.h)
-
 description: Determines if the specified word exists in IFEDictionary.
 old-location: intl\ifedictionary_existword.htm
 tech.root: Intl
 ms.assetid: 70BBC94A-97D6-4237-A0C9-F6861ED6C95D
-
 ms.date: 12/05/2018
 ms.keywords: ExistWord, ExistWord method [Internationalization for Windows Applications], ExistWord method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],ExistWord method, IFEDictionary.ExistWord, IFEDictionary::ExistWord, intl.ifedictionary_existword, msime/IFEDictionary::ExistWord
 ms.topic: method
 f1_keywords:
 - msime/IFEDictionary.ExistWord
 dev_langs:
- - c++
+- c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

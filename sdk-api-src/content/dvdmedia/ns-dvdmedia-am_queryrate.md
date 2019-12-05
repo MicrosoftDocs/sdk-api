@@ -1,19 +1,17 @@
 ---
 UID: NS:dvdmedia.__unnamed_struct_7
 title: AM_QueryRate (dvdmedia.h)
-
 description: The AM_QueryRate structure is used to query the decoder's maximum full-frame rate for forward and reverse playback.
 old-location: dshow\am_queryrate.htm
 tech.root: DirectShow
 ms.assetid: a791f6ac-f415-4641-bac1-26db983a1ef7
-
 ms.date: 12/05/2018
 ms.keywords: AM_QueryRate, AM_QueryRate structure [DirectShow], AM_QueryRateStructure, dshow.am_queryrate, dvdmedia/AM_QueryRate
 ms.topic: struct
-f1_keywords: 
- - "dvdmedia/AM_QueryRate"
+f1_keywords:
+- dvdmedia/AM_QueryRate
 dev_langs:
- - c++
+- c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dvdmedia.h
+- Dvdmedia.h
 api_name:
- - AM_QueryRate
+- AM_QueryRate
 targetos: Windows
 req.typenames: AM_QueryRate
 req.redist: 

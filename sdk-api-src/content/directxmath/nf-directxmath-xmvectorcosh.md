@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorCosH
 title: XMVectorCosH function (directxmath.h)
-
 description: Computes the hyperbolic cosine of each component of an XMVECTOR.
 old-location: dxmath\xmvectorcosh.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorCosH(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorCosH, XMVectorCosH, XMVectorCosH method [DirectX Math Support APIs], dxmath.xmvectorcosh
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorCosH"
+f1_keywords:
+- directxmath/XMVectorCosH
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorCosH
+- XMVectorCosH
 targetos: Windows
 req.typenames: 
 req.redist: 

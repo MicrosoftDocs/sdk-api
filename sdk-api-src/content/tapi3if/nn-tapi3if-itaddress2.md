@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITAddress2
 title: ITAddress2 (tapi3if.h)
-
 description: The ITAddress2 interface derives from the ITAddress interface. ITAddress2 adds methods to the Address object in order to support phone devices. All Address objects enumerated from TAPI 3.1 automatically implement this interface.
 old-location: tapi3\itaddress2.htm
 tech.root: Tapi
 ms.assetid: 3cc47291-8130-45bd-8db8-c5d1b463507d
-
 ms.date: 12/05/2018
 ms.keywords: ITAddress2, ITAddress2 interface [TAPI 2.2], ITAddress2 interface [TAPI 2.2],described, _tapi3_itaddress2, tapi3.itaddress2, tapi3if/ITAddress2
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITAddress2"
+f1_keywords:
+- tapi3if/ITAddress2
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAddress2
+- ITAddress2
 targetos: Windows
 req.typenames: 
 req.redist: 

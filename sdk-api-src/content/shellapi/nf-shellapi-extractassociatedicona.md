@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.ExtractAssociatedIconA
 title: ExtractAssociatedIconA function (shellapi.h)
-
 description: Gets a handle to an icon stored as a resource in a file or an icon stored in a file's associated executable file.
 old-location: shell\ExtractAssociatedIcon.htm
 tech.root: shell
 ms.assetid: 157ce603-9988-4cae-a2cd-51db290268c3
-
 ms.date: 12/05/2018
 ms.keywords: ExtractAssociatedIcon, ExtractAssociatedIcon function [Windows Shell], ExtractAssociatedIconA, ExtractAssociatedIconW, _shell_ExtractAssociatedIcon, shell.ExtractAssociatedIcon, shellapi/ExtractAssociatedIcon, shellapi/ExtractAssociatedIconA, shellapi/ExtractAssociatedIconW
 ms.topic: function
-f1_keywords: 
- - "shellapi/ExtractAssociatedIcon"
+f1_keywords:
+- shellapi/ExtractAssociatedIcon
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - Ext-MS-Win-Shell-Shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- Ext-MS-Win-Shell-Shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - ExtractAssociatedIcon
- - ExtractAssociatedIconA
- - ExtractAssociatedIconW
+- ExtractAssociatedIcon
+- ExtractAssociatedIconA
+- ExtractAssociatedIconW
 targetos: Windows
 req.typenames: 
 req.redist: 

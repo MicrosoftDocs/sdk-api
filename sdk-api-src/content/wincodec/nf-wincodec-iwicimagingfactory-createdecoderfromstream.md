@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateDecoderFromStream
 title: IWICImagingFactory::CreateDecoderFromStream (wincodec.h)
-
 description: Creates a new instance of the IWICBitmapDecoder class based on the given IStream.
 old-location: wic\_wic_codec_iwicimagingfactory_createdecoderfromstream.htm
 tech.root: wic
 ms.assetid: b9328715-54a0-4c9a-9977-3252068b7e4b
-
 ms.date: 12/05/2018
 ms.keywords: CreateDecoderFromStream, CreateDecoderFromStream method [Windows Imaging Component], CreateDecoderFromStream method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateDecoderFromStream method, IWICImagingFactory.CreateDecoderFromStream, IWICImagingFactory::CreateDecoderFromStream, _wic_codec_iwicimagingfactory_createdecoderfromstream, wic._wic_codec_iwicimagingfactory_createdecoderfromstream, wincodec/IWICImagingFactory::CreateDecoderFromStream
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICImagingFactory.CreateDecoderFromStream"
+f1_keywords:
+- wincodec/IWICImagingFactory.CreateDecoderFromStream
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICImagingFactory.CreateDecoderFromStream
+- IWICImagingFactory.CreateDecoderFromStream
 targetos: Windows
 req.typenames: 
 req.redist: 

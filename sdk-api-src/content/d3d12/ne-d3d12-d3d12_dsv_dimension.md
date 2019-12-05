@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_DSV_DIMENSION
 title: D3D12_DSV_DIMENSION (d3d12.h)
-
 description: Specifies how to access a resource used in a depth-stencil view.
 old-location: direct3d12\d3d12_dsv_dimension.htm
 tech.root: direct3d12
 ms.assetid: 87ABAD56-E5EE-4F96-87DC-D1EB485B621D
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_DSV_DIMENSION, D3D12_DSV_DIMENSION enumeration, D3D12_DSV_DIMENSION_TEXTURE1D, D3D12_DSV_DIMENSION_TEXTURE1DARRAY, D3D12_DSV_DIMENSION_TEXTURE2D, D3D12_DSV_DIMENSION_TEXTURE2DARRAY, D3D12_DSV_DIMENSION_TEXTURE2DMS, D3D12_DSV_DIMENSION_TEXTURE2DMSARRAY, D3D12_DSV_DIMENSION_UNKNOWN, d3d12/D3D12_DSV_DIMENSION, d3d12/D3D12_DSV_DIMENSION_TEXTURE1D, d3d12/D3D12_DSV_DIMENSION_TEXTURE1DARRAY, d3d12/D3D12_DSV_DIMENSION_TEXTURE2D, d3d12/D3D12_DSV_DIMENSION_TEXTURE2DARRAY, d3d12/D3D12_DSV_DIMENSION_TEXTURE2DMS, d3d12/D3D12_DSV_DIMENSION_TEXTURE2DMSARRAY, d3d12/D3D12_DSV_DIMENSION_UNKNOWN, direct3d12.d3d12_dsv_dimension
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_DSV_DIMENSION"
+f1_keywords:
+- d3d12/D3D12_DSV_DIMENSION
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_DSV_DIMENSION
+- D3D12_DSV_DIMENSION
 targetos: Windows
 req.typenames: D3D12_DSV_DIMENSION
 req.redist: 

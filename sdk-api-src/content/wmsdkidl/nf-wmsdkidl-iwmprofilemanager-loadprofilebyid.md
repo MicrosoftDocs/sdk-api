@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManager.LoadProfileByID
 title: IWMProfileManager::LoadProfileByID (wmsdkidl.h)
-
 description: The LoadProfileByID method loads a system profile identified by its globally unique identifier. To load a custom profile, use IWMProfileManager::LoadProfileByData.
 old-location: wmformat\iwmprofilemanager_loadprofilebyid.htm
 tech.root: wmformat
 ms.assetid: 16104e70-c800-49a6-a9cf-2b4669c865eb
-
 ms.date: 12/05/2018
 ms.keywords: IWMProfileManager interface [windows Media Format],LoadProfileByID method, IWMProfileManager.LoadProfileByID, IWMProfileManager::LoadProfileByID, IWMProfileManagerLoadProfileByID, LoadProfileByID, LoadProfileByID method [windows Media Format], LoadProfileByID method [windows Media Format],IWMProfileManager interface, wmformat.iwmprofilemanager_loadprofilebyid, wmsdkidl/IWMProfileManager::LoadProfileByID
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfileManager.LoadProfileByID"
+f1_keywords:
+- wmsdkidl/IWMProfileManager.LoadProfileByID
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMProfileManager.LoadProfileByID
+- IWMProfileManager.LoadProfileByID
 targetos: Windows
 req.typenames: 
 req.redist: 

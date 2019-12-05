@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertRemoveStoreFromCollection
 title: CertRemoveStoreFromCollection function (wincrypt.h)
-
 description: Removes a sibling certificate store from a collection store.
 old-location: security\certremovestorefromcollection.htm
 tech.root: SecCrypto
 ms.assetid: e1564848-8b39-4ea9-9148-142ceaaaed15
-
 ms.date: 12/05/2018
 ms.keywords: CertRemoveStoreFromCollection, CertRemoveStoreFromCollection function [Security], _crypto2_certremovestorefromcollection, security.certremovestorefromcollection, wincrypt/CertRemoveStoreFromCollection
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertRemoveStoreFromCollection"
+f1_keywords:
+- wincrypt/CertRemoveStoreFromCollection
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertRemoveStoreFromCollection
+- CertRemoveStoreFromCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

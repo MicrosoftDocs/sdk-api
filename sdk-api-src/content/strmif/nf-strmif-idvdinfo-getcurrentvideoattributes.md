@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentVideoAttributes
 title: IDvdInfo::GetCurrentVideoAttributes (strmif.h)
-
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current video attributes for the current title or menu.
 old-location: dshow\idvdinfo_getcurrentvideoattributes.htm
 tech.root: DirectShow
 ms.assetid: 7147d8f3-c038-4742-8667-2e40d7ab979a
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentVideoAttributes, GetCurrentVideoAttributes method [DirectShow], GetCurrentVideoAttributes method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentVideoAttributes method, IDvdInfo.GetCurrentVideoAttributes, IDvdInfo::GetCurrentVideoAttributes, IDvdInfoGetCurrentVideoAttributes, dshow.idvdinfo_getcurrentvideoattributes, strmif/IDvdInfo::GetCurrentVideoAttributes
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo.GetCurrentVideoAttributes"
+f1_keywords:
+- strmif/IDvdInfo.GetCurrentVideoAttributes
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdInfo.GetCurrentVideoAttributes
+- IDvdInfo.GetCurrentVideoAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

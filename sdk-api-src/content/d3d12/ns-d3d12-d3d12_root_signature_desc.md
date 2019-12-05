@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_ROOT_SIGNATURE_DESC
 title: D3D12_ROOT_SIGNATURE_DESC (d3d12.h)
-
 description: Describes the layout of a root signature version 1.0.
 old-location: direct3d12\d3d12_root_signature_desc.htm
 tech.root: direct3d12
 ms.assetid: D74D9D3B-96AB-489A-A91C-4F68AC3D05EE
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_ROOT_SIGNATURE_DESC, D3D12_ROOT_SIGNATURE_DESC structure, d3d12/D3D12_ROOT_SIGNATURE_DESC, direct3d12.d3d12_root_signature_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_ROOT_SIGNATURE_DESC"
+f1_keywords:
+- d3d12/D3D12_ROOT_SIGNATURE_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_ROOT_SIGNATURE_DESC
+- D3D12_ROOT_SIGNATURE_DESC
 targetos: Windows
 req.typenames: D3D12_ROOT_SIGNATURE_DESC
 req.redist: 

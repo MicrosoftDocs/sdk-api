@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Region.Clone
 title: Region::Clone (gdiplusheaders.h)
-
 description: The Region::Clone method makes a copy of this Regionobject and returns the address of the new Regionobject.
 old-location: gdiplus\_gdiplus_CLASS_Region_Clone_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\clone_1.htm
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Region class, Region class [GDI+],Clone method, Region.Clone, Region::Clone, _gdiplus_CLASS_Region_Clone_, gdiplus._gdiplus_CLASS_Region_Clone_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Region.Clone"
+f1_keywords:
+- gdiplusheaders/Region.Clone
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Region.Clone
+- Region.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

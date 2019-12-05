@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.StrIsIntlEqualW
 title: StrIsIntlEqualW function (shlwapi.h)
-
 description: Compares a specified number of characters from the beginning of two strings to determine if they are equal.
 old-location: shell\StrIsIntlEqual.htm
 tech.root: shell
 ms.assetid: 02c66644-8aab-4ddd-a3ab-d52aeaa900a3
-
 ms.date: 12/05/2018
 ms.keywords: StrIsIntlEqual, StrIsIntlEqual function [Windows Shell], StrIsIntlEqualA, StrIsIntlEqualW, _win32_StrIsIntlEqual, shell.StrIsIntlEqual, shlwapi/StrIsIntlEqual, shlwapi/StrIsIntlEqualA, shlwapi/StrIsIntlEqualW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/StrIsIntlEqual"
+f1_keywords:
+- shlwapi/StrIsIntlEqual
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - StrIsIntlEqual
- - StrIsIntlEqualA
- - StrIsIntlEqualW
+- StrIsIntlEqual
+- StrIsIntlEqualA
+- StrIsIntlEqualW
 targetos: Windows
 req.typenames: 
 req.redist: 

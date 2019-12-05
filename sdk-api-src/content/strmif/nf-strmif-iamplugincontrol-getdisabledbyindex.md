@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMPluginControl.GetDisabledByIndex
 title: IAMPluginControl::GetDisabledByIndex (strmif.h)
-
 description: Gets a class identifier (CLSID) from the blocked list.
 old-location: dshow\iamplugincontrol_getdisabledbyindex.htm
 tech.root: DirectShow
 ms.assetid: 7c55e37b-46f1-4283-bea4-3884ae730906
-
 ms.date: 12/05/2018
 ms.keywords: GetDisabledByIndex, GetDisabledByIndex method [DirectShow], GetDisabledByIndex method [DirectShow],IAMPluginControl interface, IAMPluginControl interface [DirectShow],GetDisabledByIndex method, IAMPluginControl.GetDisabledByIndex, IAMPluginControl::GetDisabledByIndex, dshow.iamplugincontrol_getdisabledbyindex, strmif/IAMPluginControl::GetDisabledByIndex
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMPluginControl.GetDisabledByIndex"
+f1_keywords:
+- strmif/IAMPluginControl.GetDisabledByIndex
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IAMPluginControl.GetDisabledByIndex
+- IAMPluginControl.GetDisabledByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:minwinbase._FINDEX_SEARCH_OPS
 title: FINDEX_SEARCH_OPS (minwinbase.h)
-
 description: Defines values that are used with the FindFirstFileEx function to specify the type of filtering to perform.
 old-location: fs\findex_search_ops_str.htm
 tech.root: FileIO
 ms.assetid: 3f4c18fb-e128-421f-bd05-456d4d3698a7
-
 ms.date: 12/05/2018
 ms.keywords: FINDEX_SEARCH_OPS, FINDEX_SEARCH_OPS enumeration [Files], FindExSearchLimitToDevices, FindExSearchLimitToDirectories, FindExSearchNameMatch, _win32_findex_search_ops_str, base.findex_search_ops_str, fs.findex_search_ops_str, winbase/FINDEX_SEARCH_OPS, winbase/FindExSearchLimitToDevices, winbase/FindExSearchLimitToDirectories, winbase/FindExSearchNameMatch
 ms.topic: enum
-f1_keywords: 
- - "minwinbase/FINDEX_SEARCH_OPS"
+f1_keywords:
+- minwinbase/FINDEX_SEARCH_OPS
 dev_langs:
- - c++
+- c++
 req.header: minwinbase.h
 req.include-header: Minwinbase.h, Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
+- WinBase.h
 api_name:
- - FINDEX_SEARCH_OPS
+- FINDEX_SEARCH_OPS
 targetos: Windows
 req.typenames: FINDEX_SEARCH_OPS
 req.redist: 

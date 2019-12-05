@@ -1,19 +1,17 @@
 ---
 UID: NF:ncrypt.NCryptDecrypt
 title: NCryptDecrypt function (ncrypt.h)
-
 description: Decrypts a block of encrypted data.
 old-location: security\ncryptdecrypt_func.htm
 tech.root: SecCNG
 ms.assetid: 02c309bc-8c94-4c0f-901f-e024c83c824a
-
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_NO_PADDING_FLAG, NCRYPT_PAD_OAEP_FLAG, NCRYPT_PAD_PKCS1_FLAG, NCRYPT_SILENT_FLAG, NCryptDecrypt, NCryptDecrypt function [Security], ncrypt/NCryptDecrypt, security.ncryptdecrypt_func
 ms.topic: function
 f1_keywords:
 - ncrypt/NCryptDecrypt
 dev_langs:
- - c++
+- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

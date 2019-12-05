@@ -1,19 +1,17 @@
 ---
 UID: NS:winldap.ldap_apifeature_infoW
 title: LDAPAPIFeatureInfoW (winldap.h)
-
 description: Retrieves data about any supported LDAP API extensions.
 old-location: ldap\ldapapifeatureinfo.htm
 tech.root: ldap
 ms.assetid: c8e4a3a2-a606-49af-887d-905d67705423
-
 ms.date: 12/05/2018
 ms.keywords: LDAPAPIFeatureInfo, LDAPAPIFeatureInfo structure [LDAP], LDAPAPIFeatureInfoA, LDAPAPIFeatureInfoW, ldap.ldapapifeatureinfo, winldap/LDAPAPIFeatureInfo, winldap/LDAPAPIFeatureInfoA, winldap/LDAPAPIFeatureInfoW
 ms.topic: struct
-f1_keywords: 
- - "winldap/LDAPAPIFeatureInfo"
+f1_keywords:
+- winldap/LDAPAPIFeatureInfo
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winldap.h
+- Winldap.h
 api_name:
- - LDAPAPIFeatureInfo
- - LDAPAPIFeatureInfoA
- - LDAPAPIFeatureInfoW
+- LDAPAPIFeatureInfo
+- LDAPAPIFeatureInfoA
+- LDAPAPIFeatureInfoW
 targetos: Windows
 req.typenames: LDAPAPIFeatureInfoW
 req.redist: 

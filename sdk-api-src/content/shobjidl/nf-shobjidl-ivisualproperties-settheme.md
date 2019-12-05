@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IVisualProperties.SetTheme
 title: IVisualProperties::SetTheme (shobjidl.h)
-
 description: Sets the specified theme.
 old-location: shell\IVisualProperties_SetTheme.htm
 tech.root: shell
 ms.assetid: 0be91bde-ef05-4d64-9f94-91b9020586cb
-
 ms.date: 12/05/2018
 ms.keywords: IVisualProperties interface [Windows Shell],SetTheme method, IVisualProperties.SetTheme, IVisualProperties::SetTheme, SetTheme, SetTheme method [Windows Shell], SetTheme method [Windows Shell],IVisualProperties interface, _shell_IVisualProperties_SetTheme, shell.IVisualProperties_SetTheme, shobjidl/IVisualProperties::SetTheme
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IVisualProperties.SetTheme"
+f1_keywords:
+- shobjidl/IVisualProperties.SetTheme
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IVisualProperties.SetTheme
+- IVisualProperties.SetTheme
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GET_FLAGS_LPARAM
 title: GET_FLAGS_LPARAM macro (winuser.h)
-
 description: Retrieves the state of certain virtual keys from the specified LPARAM value.
 old-location: inputdev\get_flags_lparam.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputmacros\get_flags_lparam.htm
-
 ms.date: 12/05/2018
 ms.keywords: GET_FLAGS_LPARAM, GET_FLAGS_LPARAM macro [Keyboard and Mouse Input], _win32_GET_FLAGS_LPARAM, _win32_get_flags_lparam_cpp, inputdev.get_flags_lparam, winui._win32_get_flags_lparam, winuser/GET_FLAGS_LPARAM
 ms.topic: macro
-f1_keywords: 
- - "winuser/GET_FLAGS_LPARAM"
+f1_keywords:
+- winuser/GET_FLAGS_LPARAM
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - GET_FLAGS_LPARAM
+- GET_FLAGS_LPARAM
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.GetForeColor
 title: ITextFont::GetForeColor (tom.h)
-
 description: Gets the foreground, or text, color.
 old-location: controls\ITextFont_GetForeColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getforecolor.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetForeColor, GetForeColor method [Windows Controls], GetForeColor method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetForeColor method, ITextFont.GetForeColor, ITextFont::GetForeColor, _win32_ITextFont_GetForeColor, _win32_ITextFont_GetForeColor_cpp, controls.ITextFont_GetForeColor, controls._win32_ITextFont_GetForeColor, tom/ITextFont::GetForeColor
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.GetForeColor"
+f1_keywords:
+- tom/ITextFont.GetForeColor
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.GetForeColor
+- ITextFont.GetForeColor
 targetos: Windows
 req.typenames: 
 req.redist: 

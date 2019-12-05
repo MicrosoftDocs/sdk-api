@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterSink.OnHeader
 title: IWMWriterSink::OnHeader (wmsdkidl.h)
-
 description: The OnHeader method is called by the writer when the ASF header is ready for the sink.
 old-location: wmformat\iwmwritersink_onheader.htm
 tech.root: wmformat
 ms.assetid: 97b1dbd0-a555-40d3-b2f0-3a363a6ce168
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriterSink interface [windows Media Format],OnHeader method, IWMWriterSink.OnHeader, IWMWriterSink::OnHeader, IWMWriterSinkOnHeader, OnHeader, OnHeader method [windows Media Format], OnHeader method [windows Media Format],IWMWriterSink interface, wmformat.iwmwritersink_onheader, wmsdkidl/IWMWriterSink::OnHeader
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterSink.OnHeader"
+f1_keywords:
+- wmsdkidl/IWMWriterSink.OnHeader
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterSink.OnHeader
+- IWMWriterSink.OnHeader
 targetos: Windows
 req.typenames: 
 req.redist: 

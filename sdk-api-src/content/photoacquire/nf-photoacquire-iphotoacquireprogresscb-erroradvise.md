@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.ErrorAdvise
 title: IPhotoAcquireProgressCB::ErrorAdvise (photoacquire.h)
-
 description: The ErrorAdvise method provides custom error handling for errors that occur during acquisition. The application provides the implementation of the ErrorAdvise method.
 old-location: picacq\iphotoacquireprogresscb_erroradvise.htm
 tech.root: acquisition
 ms.assetid: 60454ae7-9be9-4414-9865-2b874bbe54c1
-
 ms.date: 12/05/2018
 ms.keywords: ErrorAdvise, ErrorAdvise method [Picture Acquisition], ErrorAdvise method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],ErrorAdvise method, IPhotoAcquireProgressCB.ErrorAdvise, IPhotoAcquireProgressCB::ErrorAdvise, IPhotoAcquireProgressCBErrorAdvise, photoacquire/IPhotoAcquireProgressCB::ErrorAdvise, picacq.iphotoacquireprogresscb_erroradvise
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireProgressCB.ErrorAdvise"
+f1_keywords:
+- photoacquire/IPhotoAcquireProgressCB.ErrorAdvise
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireProgressCB.ErrorAdvise
+- IPhotoAcquireProgressCB.ErrorAdvise
 targetos: Windows
 req.typenames: 
 req.redist: 

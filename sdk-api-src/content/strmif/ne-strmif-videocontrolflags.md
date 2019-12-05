@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.tagVideoControlFlags
 title: VideoControlFlags (strmif.h)
-
 description: Specifies the video mode of operation for a video device.
 old-location: dshow\videocontrolflags.htm
 tech.root: DirectShow
 ms.assetid: 9d7feb46-fb07-46d8-a9a5-511578873cf3
-
 ms.date: 12/05/2018
 ms.keywords: VideoControlFlag_ExternalTriggerEnable, VideoControlFlag_FlipHorizontal, VideoControlFlag_FlipVertical, VideoControlFlag_Trigger, VideoControlFlags, VideoControlFlags enumeration [DirectShow], VideoControlFlagsEnumeration, dshow.videocontrolflags, strmif/VideoControlFlag_ExternalTriggerEnable, strmif/VideoControlFlag_FlipHorizontal, strmif/VideoControlFlag_FlipVertical, strmif/VideoControlFlag_Trigger, strmif/VideoControlFlags
 ms.topic: enum
-f1_keywords: 
- - "strmif/VideoControlFlags"
+f1_keywords:
+- strmif/VideoControlFlags
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - VideoControlFlags
+- VideoControlFlags
 targetos: Windows
 req.typenames: VideoControlFlags
 req.redist: 

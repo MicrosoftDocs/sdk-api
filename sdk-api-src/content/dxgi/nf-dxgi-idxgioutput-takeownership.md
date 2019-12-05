@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGIOutput.TakeOwnership
 title: IDXGIOutput::TakeOwnership (dxgi.h)
-
 description: Takes ownership of an output.
 old-location: direct3ddxgi\idxgioutput_takeownership.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_takeownership.htm
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIOutput interface [DXGI],TakeOwnership method, IDXGIOutput.TakeOwnership, IDXGIOutput::TakeOwnership, TakeOwnership, TakeOwnership method [DXGI], TakeOwnership method [DXGI],IDXGIOutput interface, bb1e2d75-a9d5-a0db-2197-ed0246f07a00, direct3ddxgi.idxgioutput_takeownership, dxgi/IDXGIOutput::TakeOwnership
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGIOutput.TakeOwnership"
+f1_keywords:
+- dxgi/IDXGIOutput.TakeOwnership
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIOutput.TakeOwnership
+- IDXGIOutput.TakeOwnership
 targetos: Windows
 req.typenames: 
 req.redist: 

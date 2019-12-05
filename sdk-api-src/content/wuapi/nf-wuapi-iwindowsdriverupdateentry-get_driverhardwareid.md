@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdateEntry.get_DriverHardwareID
 title: IWindowsDriverUpdateEntry::get_DriverHardwareID (wuapi.h)
-
 description: Gets the hardware or the compatible identifier that the Windows driver update must match to be installable.
 old-location: wua\iwindowsdriverupdateentry_driverhardwareid.htm
 tech.root: Wua_Sdk
 ms.assetid: ff8e2336-634f-4217-b08a-fb3131ec8986
-
 ms.date: 12/05/2018
 ms.keywords: DriverHardwareID property [Windows Update Agent], DriverHardwareID property [Windows Update Agent],IWindowsDriverUpdateEntry interface, IWindowsDriverUpdateEntry interface [Windows Update Agent],DriverHardwareID property, IWindowsDriverUpdateEntry.DriverHardwareID, IWindowsDriverUpdateEntry.get_DriverHardwareID, IWindowsDriverUpdateEntry::DriverHardwareID, IWindowsDriverUpdateEntry::get_DriverHardwareID, get_DriverHardwareID, wua.iwindowsdriverupdateentry_driverhardwareid, wuapi/IWindowsDriverUpdateEntry::DriverHardwareID, wuapi/IWindowsDriverUpdateEntry::get_DriverHardwareID
 ms.topic: method
-f1_keywords: 
- - "wuapi/IWindowsDriverUpdateEntry.DriverHardwareID"
+f1_keywords:
+- wuapi/IWindowsDriverUpdateEntry.DriverHardwareID
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IWindowsDriverUpdateEntry.DriverHardwareID
- - IWindowsDriverUpdateEntry.get_DriverHardwareID
+- IWindowsDriverUpdateEntry.DriverHardwareID
+- IWindowsDriverUpdateEntry.get_DriverHardwareID
 targetos: Windows
 req.typenames: 
 req.redist: 

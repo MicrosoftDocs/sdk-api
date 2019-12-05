@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_PRIMITIVE_TOPOLOGY_TYPE
 title: D3D12_PRIMITIVE_TOPOLOGY_TYPE (d3d12.h)
-
 description: Specifies how the pipeline interprets geometry or hull shader input primitives.
 old-location: direct3d12\d3d12_primitive_topology_type.htm
 tech.root: direct3d12
 ms.assetid: 3BD4DF5E-EA91-4B2A-AADE-B9AE0E766F63
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_PRIMITIVE_TOPOLOGY_TYPE, D3D12_PRIMITIVE_TOPOLOGY_TYPE enumeration, D3D12_PRIMITIVE_TOPOLOGY_TYPE_LINE, D3D12_PRIMITIVE_TOPOLOGY_TYPE_PATCH, D3D12_PRIMITIVE_TOPOLOGY_TYPE_POINT, D3D12_PRIMITIVE_TOPOLOGY_TYPE_TRIANGLE, D3D12_PRIMITIVE_TOPOLOGY_TYPE_UNDEFINED, d3d12/D3D12_PRIMITIVE_TOPOLOGY_TYPE, d3d12/D3D12_PRIMITIVE_TOPOLOGY_TYPE_LINE, d3d12/D3D12_PRIMITIVE_TOPOLOGY_TYPE_PATCH, d3d12/D3D12_PRIMITIVE_TOPOLOGY_TYPE_POINT, d3d12/D3D12_PRIMITIVE_TOPOLOGY_TYPE_TRIANGLE, d3d12/D3D12_PRIMITIVE_TOPOLOGY_TYPE_UNDEFINED, direct3d12.d3d12_primitive_topology_type
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_PRIMITIVE_TOPOLOGY_TYPE"
+f1_keywords:
+- d3d12/D3D12_PRIMITIVE_TOPOLOGY_TYPE
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_PRIMITIVE_TOPOLOGY_TYPE
+- D3D12_PRIMITIVE_TOPOLOGY_TYPE
 targetos: Windows
 req.typenames: D3D12_PRIMITIVE_TOPOLOGY_TYPE
 req.redist: 

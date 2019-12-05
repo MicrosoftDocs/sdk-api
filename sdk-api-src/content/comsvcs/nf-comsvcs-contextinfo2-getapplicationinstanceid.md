@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ContextInfo2.GetApplicationInstanceId
 title: ContextInfo2::GetApplicationInstanceId (comsvcs.h)
-
 description: Retrieves the GUID of the application instance of the current object context.
 old-location: cos\contextinfo2_getapplicationinstanceid.htm
 tech.root: cossdk
 ms.assetid: 77149329-db3a-4ff4-a522-c290c2d0a915
-
 ms.date: 12/05/2018
 ms.keywords: ContextInfo2 interface [COM+],GetApplicationInstanceId method, ContextInfo2.GetApplicationInstanceId, ContextInfo2::GetApplicationInstanceId, GetApplicationInstanceId, GetApplicationInstanceId method [COM+], GetApplicationInstanceId method [COM+],ContextInfo2 interface, _cos_ContextInfo2_GetApplicationInstanceId, comsvcs/ContextInfo2::GetApplicationInstanceId, cos.contextinfo2_getapplicationinstanceid
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ContextInfo2.GetApplicationInstanceId"
+f1_keywords:
+- comsvcs/ContextInfo2.GetApplicationInstanceId
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ContextInfo2.GetApplicationInstanceId
+- ContextInfo2.GetApplicationInstanceId
 targetos: Windows
 req.typenames: 
 req.redist: 

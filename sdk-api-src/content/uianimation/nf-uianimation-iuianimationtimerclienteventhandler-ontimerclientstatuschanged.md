@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTimerClientEventHandler.OnTimerClientStatusChanged
 title: IUIAnimationTimerClientEventHandler::OnTimerClientStatusChanged (uianimation.h)
-
 description: Handles events that occur when the status of the timer's client changes.
 old-location: uianimation\iuianimationtimerclienteventhandler_ontimerclientstatuschanged.htm
 tech.root: UIAnimation
 ms.assetid: a2c161ce-937e-449a-884f-89a8a847d8aa
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTimerClientEventHandler interface [Windows Animation],OnTimerClientStatusChanged method, IUIAnimationTimerClientEventHandler.OnTimerClientStatusChanged, IUIAnimationTimerClientEventHandler::OnTimerClientStatusChanged, OnTimerClientStatusChanged, OnTimerClientStatusChanged method [Windows Animation], OnTimerClientStatusChanged method [Windows Animation],IUIAnimationTimerClientEventHandler interface, uianimation.iuianimationtimerclienteventhandler_ontimerclientstatuschanged, uianimation/IUIAnimationTimerClientEventHandler::OnTimerClientStatusChanged
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTimerClientEventHandler.OnTimerClientStatusChanged"
+f1_keywords:
+- uianimation/IUIAnimationTimerClientEventHandler.OnTimerClientStatusChanged
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTimerClientEventHandler.OnTimerClientStatusChanged
+- IUIAnimationTimerClientEventHandler.OnTimerClientStatusChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMUNIBBLE4.XMUNIBBLE4(const uint8_t)
 title: XMUNIBBLE4::XMUNIBBLE4(const uint8_t) (directxpackedvector.h)
-
 description: Initializes a new instance of XMUNIBBLE4 from a four element int8_t array argument.
 old-location: 
 tech.root: dxmath
 ms.assetid: c451a662-9ae0-4e5f-a81a-2cd78e7839cd
-
 ms.date: 05/06/2019
 ms.keywords: XMUNIBBLE4, XMUNIBBLE4 constructor [DirectX Math Support APIs], XMUNIBBLE4 constructor [DirectX Math Support APIs],XMUNIBBLE4 structure, XMUNIBBLE4 structure [DirectX Math Support APIs],XMUNIBBLE4 constructor, XMUNIBBLE4.XMUNIBBLE4, XMUNIBBLE4.XMUNIBBLE4(), XMUNIBBLE4.XMUNIBBLE4(const uint8_t), XMUNIBBLE4::XMUNIBBLE4, XMUNIBBLE4::XMUNIBBLE4(const uint8_t), dxmath.xmunibble4_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMUNIBBLE4.XMUNIBBLE4"
+f1_keywords:
+- directxpackedvector/XMUNIBBLE4.XMUNIBBLE4
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMUNIBBLE4.XMUNIBBLE4
+- XMUNIBBLE4.XMUNIBBLE4
 targetos: Windows
 req.typenames: 
 req.redist: 

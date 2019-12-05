@@ -1,19 +1,17 @@
 ---
 UID: NC:ncryptprotect.PFNCryptStreamOutputCallback
 title: PFNCryptStreamOutputCallback (ncryptprotect.h)
-
 description: Receives encrypted or decrypted data from tasks started by using the NCryptStreamOpenToProtect or NCryptStreamOpenToUnprotect functions.
 old-location: security\pfncryptstreamoutputcallback.htm
 tech.root: SecCNG
 ms.assetid: D07B2B63-306B-4C41-AA14-320EFEFFB939
-
 ms.date: 12/05/2018
 ms.keywords: PFNCryptStreamOutputCallback, PFNCryptStreamOutputCallback callback, PFNCryptStreamOutputCallback callback function [Security], ncryptprotect/PFNCryptStreamOutputCallback, security.pfncryptstreamoutputcallback
 ms.topic: callback
-f1_keywords: 
- - "ncryptprotect/PFNCryptStreamOutputCallback"
+f1_keywords:
+- ncryptprotect/PFNCryptStreamOutputCallback
 dev_langs:
- - c++
+- c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - NCryptprotect.h
+- NCryptprotect.h
 api_name:
- - PFNCryptStreamOutputCallback
+- PFNCryptStreamOutputCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

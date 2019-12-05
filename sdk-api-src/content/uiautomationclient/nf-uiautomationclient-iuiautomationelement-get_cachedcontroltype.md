@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedControlType
 title: IUIAutomationElement::get_CachedControlType (uiautomationclient.h)
-
 description: Retrieves a cached value that indicates the control type of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedControlType.htm
 tech.root: WinAuto
 ms.assetid: 48b232a8-8826-4c70-b541-3e6a792105c1
-
 ms.date: 12/05/2018
 ms.keywords: CachedControlType property [Windows Accessibility], CachedControlType property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedControlType property, IUIAutomationElement.CachedControlType, IUIAutomationElement.get_CachedControlType, IUIAutomationElement::CachedControlType, IUIAutomationElement::get_CachedControlType, get_CachedControlType, uiauto.uiauto_IUIAutomationElement_CachedControlType, uiauto_IUIAutomationElement_CachedControlType, uiautomationclient/IUIAutomationElement::CachedControlType, uiautomationclient/IUIAutomationElement::get_CachedControlType, winauto.uiauto_IUIAutomationElement_CachedControlType
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CachedControlType"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CachedControlType
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedControlType
- - IUIAutomationElement.get_CachedControlType
+- IUIAutomationElement.CachedControlType
+- IUIAutomationElement.get_CachedControlType
 targetos: Windows
 req.typenames: 
 req.redist: 

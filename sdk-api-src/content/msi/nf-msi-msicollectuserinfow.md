@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiCollectUserInfoW
 title: MsiCollectUserInfoW function (msi.h)
-
 description: The MsiCollectUserInfo function obtains and stores the user information and product ID from an installation wizard.
 old-location: setup\msicollectuserinfo.htm
 tech.root: Msi
 ms.assetid: a8be3c24-cd5a-4da9-abe7-b0e40a87a07f
-
 ms.date: 12/05/2018
 ms.keywords: MsiCollectUserInfo, MsiCollectUserInfo function, MsiCollectUserInfoA, MsiCollectUserInfoW, _msi_msicollectuserinfo, msi/MsiCollectUserInfo, msi/MsiCollectUserInfoA, msi/MsiCollectUserInfoW, setup.msicollectuserinfo
 ms.topic: function
-f1_keywords: 
- - "msi/MsiCollectUserInfo"
+f1_keywords:
+- msi/MsiCollectUserInfo
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiCollectUserInfo
- - MsiCollectUserInfoA
- - MsiCollectUserInfoW
+- MsiCollectUserInfo
+- MsiCollectUserInfoA
+- MsiCollectUserInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

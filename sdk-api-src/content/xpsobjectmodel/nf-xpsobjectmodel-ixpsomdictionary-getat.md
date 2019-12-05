@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.GetAt
 title: IXpsOMDictionary::GetAt (xpsobjectmodel.h)
-
 description: Gets the IXpsOMShareable interface pointer and the key name string of the entry at a specified index in the dictionary.
 old-location: xps\ixpsomdictionary_getat.htm
 tech.root: printdocs
 ms.assetid: 818797dd-7255-453c-85b3-cf0c44fe5d0d
-
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMDictionary interface, IXpsOMDictionary interface [XPS Documents and Packaging],GetAt method, IXpsOMDictionary.GetAt, IXpsOMDictionary::GetAt, xps.ixpsomdictionary_getat, xpsobjectmodel/IXpsOMDictionary::GetAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMDictionary.GetAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMDictionary.GetAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMDictionary.GetAt
+- IXpsOMDictionary.GetAt
 targetos: Windows
 req.typenames: 
 req.redist: 

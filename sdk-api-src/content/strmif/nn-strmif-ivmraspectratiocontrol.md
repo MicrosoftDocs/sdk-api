@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IVMRAspectRatioControl
 title: IVMRAspectRatioControl (strmif.h)
-
 description: The IVMRAspectRatioControl interface controls whether the Video Mixing Renderer Filter 7 (VMR-7) preserves the aspect ratio of the source video.
 old-location: dshow\ivmraspectratiocontrol.htm
 tech.root: DirectShow
 ms.assetid: a341be9d-9801-4215-840d-7d581e9ec3cb
-
 ms.date: 12/05/2018
 ms.keywords: IVMRAspectRatioControl, IVMRAspectRatioControl interface [DirectShow], IVMRAspectRatioControl interface [DirectShow],described, IVMRAspectRatioControlInterface, dshow.ivmraspectratiocontrol, strmif/IVMRAspectRatioControl
 ms.topic: interface
-f1_keywords: 
- - "strmif/IVMRAspectRatioControl"
+f1_keywords:
+- strmif/IVMRAspectRatioControl
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRAspectRatioControl
+- IVMRAspectRatioControl
 targetos: Windows
 req.typenames: 
 req.redist: 

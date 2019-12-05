@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRMonitorConfig.GetAvailableMonitors
 title: IVMRMonitorConfig::GetAvailableMonitors (strmif.h)
-
 description: The GetAvailableMonitors method retrieves information about the monitors currently available on the system.
 old-location: dshow\ivmrmonitorconfig_getavailablemonitors.htm
 tech.root: DirectShow
 ms.assetid: 8a44ca7d-a195-4fcf-b09c-01f8176e0aa2
-
 ms.date: 12/05/2018
 ms.keywords: GetAvailableMonitors, GetAvailableMonitors method [DirectShow], GetAvailableMonitors method [DirectShow],IVMRMonitorConfig interface, IVMRMonitorConfig interface [DirectShow],GetAvailableMonitors method, IVMRMonitorConfig.GetAvailableMonitors, IVMRMonitorConfig::GetAvailableMonitors, IVMRMonitorConfigGetAvailableMonitors, dshow.ivmrmonitorconfig_getavailablemonitors, strmif/IVMRMonitorConfig::GetAvailableMonitors
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRMonitorConfig.GetAvailableMonitors"
+f1_keywords:
+- strmif/IVMRMonitorConfig.GetAvailableMonitors
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRMonitorConfig.GetAvailableMonitors
+- IVMRMonitorConfig.GetAvailableMonitors
 targetos: Windows
 req.typenames: 
 req.redist: 

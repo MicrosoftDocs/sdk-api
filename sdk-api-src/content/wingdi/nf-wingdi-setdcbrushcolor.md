@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.SetDCBrushColor
 title: SetDCBrushColor function (wingdi.h)
-
 description: SetDCBrushColor function sets the current device context (DC) brush color to the specified color value. If the device cannot represent the specified color value, the color is set to the nearest physical color.
 old-location: gdi\setdcbrushcolor.htm
 tech.root: gdi
 ms.assetid: 4feed536-2f1d-4a25-8311-7cae303167ca
-
 ms.date: 12/05/2018
 ms.keywords: SetDCBrushColor, SetDCBrushColor function [Windows GDI], _win32_SetDCBrushColor, gdi.setdcbrushcolor, wingdi/SetDCBrushColor
 ms.topic: function
-f1_keywords: 
- - "wingdi/SetDCBrushColor"
+f1_keywords:
+- wingdi/SetDCBrushColor
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-DC-l1-2-0.dll
- - ext-ms-win-gdi-dc-l1-1-0.dll
- - ext-ms-win-gdi-dc-l1-2-1.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-DC-l1-2-0.dll
+- ext-ms-win-gdi-dc-l1-1-0.dll
+- ext-ms-win-gdi-dc-l1-2-1.dll
+- GDI32Full.dll
 api_name:
- - SetDCBrushColor
+- SetDCBrushColor
 targetos: Windows
 req.typenames: 
 req.redist: 

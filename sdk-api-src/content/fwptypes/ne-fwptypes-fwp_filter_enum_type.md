@@ -1,19 +1,17 @@
 ---
 UID: NE:fwptypes.FWP_FILTER_ENUM_TYPE_
 title: FWP_FILTER_ENUM_TYPE (fwptypes.h)
-
 description: Specifies how the filter enum conditions should be interpreted.
 old-location: fwp\fwp_filter_enum_type_enum.htm
 tech.root: fwp
 ms.assetid: 842ddac3-52d0-4c29-9db3-8534a0c84659
-
 ms.date: 12/05/2018
 ms.keywords: FWP_FILTER_ENUM_FULLY_CONTAINED, FWP_FILTER_ENUM_OVERLAPPING, FWP_FILTER_ENUM_TYPE, FWP_FILTER_ENUM_TYPE enumeration [Filtering], FWP_FILTER_ENUM_TYPE_MAX, fwp.fwp_filter_enum_type_enum, fwptypes/FWP_FILTER_ENUM_FULLY_CONTAINED, fwptypes/FWP_FILTER_ENUM_OVERLAPPING, fwptypes/FWP_FILTER_ENUM_TYPE, fwptypes/FWP_FILTER_ENUM_TYPE_MAX
 ms.topic: enum
-f1_keywords: 
- - "fwptypes/FWP_FILTER_ENUM_TYPE"
+f1_keywords:
+- fwptypes/FWP_FILTER_ENUM_TYPE
 dev_langs:
- - c++
+- c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwptypes.h
+- Fwptypes.h
 api_name:
- - FWP_FILTER_ENUM_TYPE
+- FWP_FILTER_ENUM_TYPE
 targetos: Windows
 req.typenames: FWP_FILTER_ENUM_TYPE
 req.redist: 

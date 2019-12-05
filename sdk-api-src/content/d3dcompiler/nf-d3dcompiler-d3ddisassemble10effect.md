@@ -1,19 +1,17 @@
 ---
 UID: NF:d3dcompiler.D3DDisassemble10Effect
 title: D3DDisassemble10Effect function (d3dcompiler.h)
-
 description: Disassembles compiled HLSL code from a Direct3D10 effect.
 old-location: direct3dhlsl\d3ddisassemble10effect.htm
 tech.root: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3ddisassemble10effect.htm
-
 ms.date: 12/05/2018
 ms.keywords: 712a7486-754f-69f6-11b7-5bf288ee98af, D3DDisassemble10Effect, D3DDisassemble10Effect function [HLSL], d3dcompiler/D3DDisassemble10Effect, direct3dhlsl.d3ddisassemble10effect
 ms.topic: function
-f1_keywords: 
- - "d3dcompiler/D3DDisassemble10Effect"
+f1_keywords:
+- d3dcompiler/D3DDisassemble10Effect
 dev_langs:
- - c++
+- c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3dcompiler_47.lib
 req.dll: D3dcompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - d3dcompiler_47.dll
+- d3dcompiler_47.dll
 api_name:
- - D3DDisassemble10Effect
+- D3DDisassemble10Effect
 targetos: Windows
 req.typenames: 
 req.redist: 

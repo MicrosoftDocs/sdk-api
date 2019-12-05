@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.GetExportedTypeProps
 title: IMetaDataAssemblyImport::GetExportedTypeProps (rometadataapi.h)
-
 description: Gets the set of properties of the exported type with the specified metadata signature.
 old-location: winrt\imetadataassemblyimport_getexportedtypeprops.htm
 tech.root: WinRT
 ms.assetid: bbdd4f9c-f070-463e-91af-4a7c6c6a45d2
-
 ms.date: 12/05/2018
 ms.keywords: GetExportedTypeProps, GetExportedTypeProps method [Windows Runtime], GetExportedTypeProps method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetExportedTypeProps method, IMetaDataAssemblyImport.GetExportedTypeProps, IMetaDataAssemblyImport::GetExportedTypeProps, rometadataapi/IMetaDataAssemblyImport::GetExportedTypeProps, winrt.imetadataassemblyimport_getexportedtypeprops
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataAssemblyImport.GetExportedTypeProps"
+f1_keywords:
+- rometadataapi/IMetaDataAssemblyImport.GetExportedTypeProps
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataAssemblyImport.GetExportedTypeProps
+- IMetaDataAssemblyImport.GetExportedTypeProps
 targetos: Windows
 req.typenames: 
 req.redist: 

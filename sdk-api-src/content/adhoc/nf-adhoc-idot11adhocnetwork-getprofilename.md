@@ -1,19 +1,17 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.GetProfileName
 title: IDot11AdHocNetwork::GetProfileName (adhoc.h)
-
 description: Gets the profile name associated with the network.
 old-location: nwifi\idot11adhocnetwork_getprofilename.htm
 tech.root: NativeWiFi
 ms.assetid: abd25741-25ad-4109-a07e-4146824695b5
-
 ms.date: 12/05/2018
 ms.keywords: GetProfileName, GetProfileName method [NativeWIFI], GetProfileName method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetProfileName method, IDot11AdHocNetwork.GetProfileName, IDot11AdHocNetwork::GetProfileName, adhoc/IDot11AdHocNetwork::GetProfileName, nwifi.idot11adhocnetwork_getprofilename
 ms.topic: method
-f1_keywords: 
- - "adhoc/IDot11AdHocNetwork.GetProfileName"
+f1_keywords:
+- adhoc/IDot11AdHocNetwork.GetProfileName
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IDot11AdHocNetwork.GetProfileName
+- IDot11AdHocNetwork.GetProfileName
 targetos: Windows
 req.typenames: 
 req.redist: 

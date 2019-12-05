@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IDvdControl2
 title: IDvdControl2 (strmif.h)
-
 description: The IDvdControl2 interface navigates and plays DVD-Video titles.
 old-location: dshow\idvdcontrol2.htm
 tech.root: DirectShow
 ms.assetid: eda43b20-1c4d-4769-bb87-3942716af13c
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2, IDvdControl2 interface [DirectShow], IDvdControl2 interface [DirectShow],described, IDvdControl2Interface, dshow.idvdcontrol2, strmif/IDvdControl2
 ms.topic: interface
-f1_keywords: 
- - "strmif/IDvdControl2"
+f1_keywords:
+- strmif/IDvdControl2
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdControl2
+- IDvdControl2
 targetos: Windows
 req.typenames: 
 req.redist: 

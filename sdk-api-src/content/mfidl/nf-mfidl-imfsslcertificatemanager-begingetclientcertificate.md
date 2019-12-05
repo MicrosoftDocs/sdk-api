@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSSLCertificateManager.BeginGetClientCertificate
 title: IMFSSLCertificateManager::BeginGetClientCertificate (mfidl.h)
-
 description: Starts an asynchronous call to get the client SSL certificate.
 old-location: mf\imfsslcertificatemanager_begingetclientcertificate.htm
 tech.root: medfound
 ms.assetid: e375cb97-bb43-4852-9671-dd8fdea34cef
-
 ms.date: 12/05/2018
 ms.keywords: BeginGetClientCertificate, BeginGetClientCertificate method [Media Foundation], BeginGetClientCertificate method [Media Foundation],IMFSSLCertificateManager interface, IMFSSLCertificateManager interface [Media Foundation],BeginGetClientCertificate method, IMFSSLCertificateManager.BeginGetClientCertificate, IMFSSLCertificateManager::BeginGetClientCertificate, mf.imfsslcertificatemanager_begingetclientcertificate, mfidl/IMFSSLCertificateManager::BeginGetClientCertificate
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSSLCertificateManager.BeginGetClientCertificate"
+f1_keywords:
+- mfidl/IMFSSLCertificateManager.BeginGetClientCertificate
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFSSLCertificateManager.BeginGetClientCertificate
+- IMFSSLCertificateManager.BeginGetClientCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

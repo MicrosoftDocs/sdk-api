@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1TransformGraph.RemoveNode
 title: ID2D1TransformGraph::RemoveNode (d2d1effectauthor.h)
-
 description: Removes the provided node from the transform graph.
 old-location: direct2d\id2d1transformgraph_removenode.htm
 tech.root: Direct2D
 ms.assetid: 075D43D7-0299-45E9-8C43-3EA37F0477CB
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1TransformGraph interface [Direct2D],RemoveNode method, ID2D1TransformGraph.RemoveNode, ID2D1TransformGraph::RemoveNode, RemoveNode, RemoveNode method [Direct2D], RemoveNode method [Direct2D],ID2D1TransformGraph interface, d2d1effectauthor/ID2D1TransformGraph::RemoveNode, direct2d.id2d1transformgraph_removenode
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1TransformGraph.RemoveNode"
+f1_keywords:
+- d2d1effectauthor/ID2D1TransformGraph.RemoveNode
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1TransformGraph.RemoveNode
+- ID2D1TransformGraph.RemoveNode
 targetos: Windows
 req.typenames: 
 req.redist: 

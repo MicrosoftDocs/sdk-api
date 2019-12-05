@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPerPropertyBrowsing.MapPropertyToPage
 title: IPerPropertyBrowsing::MapPropertyToPage (ocidl.h)
-
 description: Retrieves the CLSID of the property page associated with the specified property.
 old-location: com\iperpropertybrowsing_mappropertytopage.htm
 tech.root: com
 ms.assetid: f8cf86eb-23d1-4aa6-859a-055df99b064c
-
 ms.date: 12/05/2018
 ms.keywords: IPerPropertyBrowsing interface [COM],MapPropertyToPage method, IPerPropertyBrowsing.MapPropertyToPage, IPerPropertyBrowsing::MapPropertyToPage, MapPropertyToPage, MapPropertyToPage method [COM], MapPropertyToPage method [COM],IPerPropertyBrowsing interface, _ctrl_iperpropertybrowsing_mappropertytopage, com.iperpropertybrowsing_mappropertytopage, ocidl/IPerPropertyBrowsing::MapPropertyToPage
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPerPropertyBrowsing.MapPropertyToPage"
+f1_keywords:
+- ocidl/IPerPropertyBrowsing.MapPropertyToPage
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPerPropertyBrowsing.MapPropertyToPage
+- IPerPropertyBrowsing.MapPropertyToPage
 targetos: Windows
 req.typenames: 
 req.redist: 

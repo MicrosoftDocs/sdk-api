@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.BeginOrderedGroup
 title: ISyncChangeBatchBase::BeginOrderedGroup (winsync.h)
-
 description: Opens an ordered group in the change batch. This group is ordered by item ID.
 old-location: winsync\isyncchangebatchbase_beginorderedgroup.htm
 tech.root: winsync
 ms.assetid: 093c0014-fa03-4609-a38f-5e69a3d3c4d6
-
 ms.date: 12/05/2018
 ms.keywords: BeginOrderedGroup, BeginOrderedGroup method [Windows Sync], BeginOrderedGroup method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],BeginOrderedGroup method, ISyncChangeBatchBase.BeginOrderedGroup, ISyncChangeBatchBase::BeginOrderedGroup, winsync.isyncchangebatchbase_beginorderedgroup, winsync/ISyncChangeBatchBase::BeginOrderedGroup
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChangeBatchBase.BeginOrderedGroup"
+f1_keywords:
+- winsync/ISyncChangeBatchBase.BeginOrderedGroup
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChangeBatchBase.BeginOrderedGroup
+- ISyncChangeBatchBase.BeginOrderedGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

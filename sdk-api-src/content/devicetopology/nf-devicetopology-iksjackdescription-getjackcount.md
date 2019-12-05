@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IKsJackDescription.GetJackCount
 title: IKsJackDescription::GetJackCount (devicetopology.h)
-
 description: The GetJackCount method gets the number of jacks required to connect to an audio endpoint device.
 old-location: coreaudio\iksjackdescription_getjackcount.htm
 tech.root: CoreAudio
 ms.assetid: d99ad923-2846-4d3e-bc5b-b5b737219f13
-
 ms.date: 12/05/2018
 ms.keywords: GetJackCount, GetJackCount method [Core Audio], GetJackCount method [Core Audio],IKsJackDescription interface, IKsJackDescription interface [Core Audio],GetJackCount method, IKsJackDescription.GetJackCount, IKsJackDescription::GetJackCount, IKsJackDescriptionGetJackCount, coreaudio.iksjackdescription_getjackcount, devicetopology/IKsJackDescription::GetJackCount
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IKsJackDescription.GetJackCount"
+f1_keywords:
+- devicetopology/IKsJackDescription.GetJackCount
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IKsJackDescription.GetJackCount
+- IKsJackDescription.GetJackCount
 targetos: Windows
 req.typenames: 
 req.redist: 

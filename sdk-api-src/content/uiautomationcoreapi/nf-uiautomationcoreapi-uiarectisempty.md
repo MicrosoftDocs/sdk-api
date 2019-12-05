@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRectIsEmpty
 title: UiaRectIsEmpty function (uiautomationcoreapi.h)
-
 description: Gets a Boolean value that specifies whether a rectangle has all its coordinates set to 0.
 old-location: winauto\uiauto_UiaRectIsEmptyFunction.htm
 tech.root: WinAuto
 ms.assetid: a1bcf983-a40c-4a9f-95f8-3124d62e07a3
-
 ms.date: 12/05/2018
 ms.keywords: UiaRectIsEmpty, UiaRectIsEmpty function [Windows Accessibility], uiauto.uiauto_UiaRectIsEmptyFunction, uiauto_UiaRectIsEmptyFunction, uiautomationcoreapi/UiaRectIsEmpty, winauto.uiauto_UiaRectIsEmptyFunction
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaRectIsEmpty"
+f1_keywords:
+- uiautomationcoreapi/UiaRectIsEmpty
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - UiaRectIsEmpty
+- UiaRectIsEmpty
 targetos: Windows
 req.typenames: 
 req.redist: 

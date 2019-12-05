@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsRemovable
 title: IVdsRemovable (vds.h)
-
 description: Provides methods to query and eject a removable disk, such as a CD-ROM.
 old-location: base\ivdsremovable.htm
 tech.root: VDS
 ms.assetid: 86dcd76a-0de0-42f4-9360-87cf7ca4ebf6
-
 ms.date: 12/05/2018
 ms.keywords: IVdsRemovable, IVdsRemovable interface [VDS], IVdsRemovable interface [VDS],described, base.ivdsremovable, vds/IVdsRemovable
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsRemovable"
+f1_keywords:
+- vds/IVdsRemovable
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsRemovable
+- IVdsRemovable
 targetos: Windows
 req.typenames: 
 req.redist: 

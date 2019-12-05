@@ -1,19 +1,17 @@
 ---
 UID: NS:shappmgr._tagSlowAppInfo
 title: SLOWAPPINFO (shappmgr.h)
-
 description: Provides specialized application information to Add/Remove Programs in Control Panel. This structure is not applicable to published applications.
 old-location: shell\SLOWAPPINFO.htm
 tech.root: shell
 ms.assetid: e9af8c70-0f03-4f16-bbfb-5e54f7c6c9df
-
 ms.date: 12/05/2018
-ms.keywords: "*PSLOWAPPINFO, SLOWAPPINFO, SLOWAPPINFO structure [Windows Shell], inet_SLOWAPPINFO, shappmgr/SLOWAPPINFO, shell.SLOWAPPINFO"
+ms.keywords: '*PSLOWAPPINFO, SLOWAPPINFO, SLOWAPPINFO structure [Windows Shell], inet_SLOWAPPINFO, shappmgr/SLOWAPPINFO, shell.SLOWAPPINFO'
 ms.topic: struct
-f1_keywords: 
- - "shappmgr/SLOWAPPINFO"
+f1_keywords:
+- shappmgr/SLOWAPPINFO
 dev_langs:
- - c++
+- c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shappmgr.h
+- Shappmgr.h
 api_name:
- - SLOWAPPINFO
+- SLOWAPPINFO
 targetos: Windows
 req.typenames: SLOWAPPINFO, *PSLOWAPPINFO
 req.redist: 

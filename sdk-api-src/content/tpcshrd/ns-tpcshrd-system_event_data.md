@@ -1,19 +1,17 @@
 ---
 UID: NS:tpcshrd.tagSYSTEM_EVENT_DATA
 title: SYSTEM_EVENT_DATA (tpcshrd.h)
-
 description: Contains information about a tablet system event.
 old-location: tablet\system_event_data.htm
 tech.root: tablet
 ms.assetid: 3a2c33b7-91ca-48eb-a5b9-a1ccb5106f90
-
 ms.date: 12/05/2018
 ms.keywords: 3a2c33b7-91ca-48eb-a5b9-a1ccb5106f90, SYSTEM_EVENT_DATA, SYSTEM_EVENT_DATA structure [Tablet PC], tablet.system_event_data, tagSYSTEM_EVENT_DATA, tpcshrd/SYSTEM_EVENT_DATA
 ms.topic: struct
-f1_keywords: 
- - "tpcshrd/SYSTEM_EVENT_DATA"
+f1_keywords:
+- tpcshrd/SYSTEM_EVENT_DATA
 dev_langs:
- - c++
+- c++
 req.header: tpcshrd.h
 req.include-header: RTSCom.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - tpcshrd.h
+- tpcshrd.h
 api_name:
- - SYSTEM_EVENT_DATA
+- SYSTEM_EVENT_DATA
 targetos: Windows
 req.typenames: SYSTEM_EVENT_DATA
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHGetKnownFolderPath
 title: SHGetKnownFolderPath function (shlobj_core.h)
-
 description: Retrieves the full path of a known folder identified by the folder's KNOWNFOLDERID.
 old-location: shell\SHGetKnownFolderPath.htm
 tech.root: shell
 ms.assetid: 5434c744-484b-4c34-9a76-dddbcb81eb29
-
 ms.date: 12/05/2018
 ms.keywords: SHGetKnownFolderPath, SHGetKnownFolderPath function [Windows Shell], _shell_SHGetKnownFolderPath, shell.SHGetKnownFolderPath, shlobj_core/SHGetKnownFolderPath
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHGetKnownFolderPath"
+f1_keywords:
+- shlobj_core/SHGetKnownFolderPath
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib:
 req.dll: Shell32.dll (version 6.0.6000 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - API-MS-Win-shell-shellfolders-l1-1-0.dll
- - KernelBase.dll
- - Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
- - Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
- - ext-ms-win-shell32-shellfolders-l1-2-0.dll
- - Windows.Storage.dll
+- Shell32.dll
+- API-MS-Win-shell-shellfolders-l1-1-0.dll
+- KernelBase.dll
+- Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
+- Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
+- ext-ms-win-shell32-shellfolders-l1-2-0.dll
+- Windows.Storage.dll
 api_name:
- - SHGetKnownFolderPath
+- SHGetKnownFolderPath
 targetos: Windows
 req.typenames: 
 req.redist: 

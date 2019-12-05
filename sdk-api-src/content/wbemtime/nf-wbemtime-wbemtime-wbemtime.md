@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTime.WBEMTime
 title: WBEMTime::WBEMTime (wbemtime.h)
-
 description: The WBEMTime class constructor facilitates conversions between various Windows and ANSI C run-time time formats.
 old-location: wmi\wbemtime_wbemtime.htm
 tech.root: WmiSdk
 ms.assetid: 8b0ce221-2186-4aed-a474-00f88cef6350
-
 ms.date: 12/05/2018
 ms.keywords: WBEMTime, WBEMTime.WBEMTime, WBEMTime::WBEMTime, WBEMTime::WBEMTime constructors [Windows Management Instrumentation], wbemtime/WBEMTime::WBEMTime, wmi.wbemtime_wbemtime
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTime::WBEMTime"
+f1_keywords:
+- wbemtime/WBEMTime::WBEMTime
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTime::WBEMTime
+- WBEMTime::WBEMTime
 targetos: Windows
 req.typenames: 
 req.redist: 

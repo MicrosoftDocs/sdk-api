@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestTargetDeviceFamily.GetName
 title: IAppxManifestTargetDeviceFamily::GetName (appxpackaging.h)
-
 description: Gets the name of the target device family from the AppxManifest.xml..
 old-location: appxpkg\iappxmanifesttargetdevicefamily_getname.htm
 tech.root: appxpkg
 ms.assetid: B7D3A0D3-421D-4A40-AF40-516AE51E06D4
-
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [App packaging and management], GetName method [App packaging and management],IAppxManifestTargetDeviceFamily interface, IAppxManifestTargetDeviceFamily interface [App packaging and management],GetName method, IAppxManifestTargetDeviceFamily.GetName, IAppxManifestTargetDeviceFamily::GetName, appxpackaging/IAppxManifestTargetDeviceFamily::GetName, appxpkg.iappxmanifesttargetdevicefamily_getname
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestTargetDeviceFamily.GetName"
+f1_keywords:
+- appxpackaging/IAppxManifestTargetDeviceFamily.GetName
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestTargetDeviceFamily.GetName
+- IAppxManifestTargetDeviceFamily.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 

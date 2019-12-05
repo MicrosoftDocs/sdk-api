@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantGetElem
 title: PropVariantGetElem function (propvarutil.h)
-
 description: Initializes a PROPVARIANT structure based on a specified element in another PROPVARIANT structure.
 old-location: properties\PropVariantGetElem.htm
 tech.root: properties
 ms.assetid: 462eca81-1010-4518-ba55-0ac144297798
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantGetElem, PropVariantGetElem function [Windows Properties], _shell_PropVariantGetElem, properties.PropVariantGetElem, propvarutil/PropVariantGetElem, shell.PropVariantGetElem
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantGetElem"
+f1_keywords:
+- propvarutil/PropVariantGetElem
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propvarutil.h
+- Propvarutil.h
 api_name:
- - PropVariantGetElem
+- PropVariantGetElem
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NS:ntsecpkg._SECPKG_BYTE_VECTOR
 title: SECPKG_BYTE_VECTOR (ntsecpkg.h)
-
 description: Specifies the byte vector information.
 old-location: security\secpkg_byte_vector.htm
 tech.root: SecAuthN
 ms.assetid: 2EB8591E-8FBC-47DA-8128-F82D82CB0B26
-
 ms.date: 12/05/2018
-ms.keywords: "*PSECPKG_BYTE_VECTOR, PSECPKG_BYTE_VECTOR, PSECPKG_BYTE_VECTOR structure pointer [Security], SECPKG_BYTE_VECTOR, SECPKG_BYTE_VECTOR structure [Security], ntsecpkg/PSECPKG_BYTE_VECTOR, ntsecpkg/SECPKG_BYTE_VECTOR, security.secpkg_byte_vector"
+ms.keywords: '*PSECPKG_BYTE_VECTOR, PSECPKG_BYTE_VECTOR, PSECPKG_BYTE_VECTOR structure pointer [Security], SECPKG_BYTE_VECTOR, SECPKG_BYTE_VECTOR structure [Security], ntsecpkg/PSECPKG_BYTE_VECTOR, ntsecpkg/SECPKG_BYTE_VECTOR, security.secpkg_byte_vector'
 ms.topic: struct
-f1_keywords: 
- - "ntsecpkg/SECPKG_BYTE_VECTOR"
+f1_keywords:
+- ntsecpkg/SECPKG_BYTE_VECTOR
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SECPKG_BYTE_VECTOR
+- SECPKG_BYTE_VECTOR
 targetos: Windows
 req.typenames: SECPKG_BYTE_VECTOR, *PSECPKG_BYTE_VECTOR
 req.redist: 

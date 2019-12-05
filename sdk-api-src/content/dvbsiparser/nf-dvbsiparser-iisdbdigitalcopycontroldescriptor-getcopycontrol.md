@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbDigitalCopyControlDescriptor.GetCopyControl
 title: IIsdbDigitalCopyControlDescriptor::GetCopyControl (dvbsiparser.h)
-
 description: Gets copy control data from an Integrated Services Digital Broadcasting (ISDB) digital copy control descriptor.
 old-location: mstv\iisdbdigitalcopycontroldescriptor_getcopycontrol.htm
 tech.root: mstv
 ms.assetid: 115ed5f7-a445-4ff2-a9d7-035867b2504d
-
 ms.date: 12/05/2018
 ms.keywords: GetCopyControl, GetCopyControl method [Microsoft TV Technologies], GetCopyControl method [Microsoft TV Technologies],IIsdbDigitalCopyControlDescriptor interface, IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies],GetCopyControl method, IIsdbDigitalCopyControlDescriptor.GetCopyControl, IIsdbDigitalCopyControlDescriptor::GetCopyControl, dvbsiparser/IIsdbDigitalCopyControlDescriptor::GetCopyControl, mstv.iisdbdigitalcopycontroldescriptor_getcopycontrol
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbDigitalCopyControlDescriptor.GetCopyControl"
+f1_keywords:
+- dvbsiparser/IIsdbDigitalCopyControlDescriptor.GetCopyControl
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbDigitalCopyControlDescriptor.GetCopyControl
+- IIsdbDigitalCopyControlDescriptor.GetCopyControl
 targetos: Windows
 req.typenames: 
 req.redist: 

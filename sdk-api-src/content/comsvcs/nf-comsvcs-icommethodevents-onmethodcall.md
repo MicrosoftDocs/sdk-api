@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComMethodEvents.OnMethodCall
 title: IComMethodEvents::OnMethodCall (comsvcs.h)
-
 description: Generated when an object's method is called.
 old-location: cos\icommethodevents_onmethodcall.htm
 tech.root: cossdk
 ms.assetid: 5d68fe2c-7032-46d2-b88d-0b4f81c74760
-
 ms.date: 12/05/2018
 ms.keywords: IComMethodEvents interface [COM+],OnMethodCall method, IComMethodEvents.OnMethodCall, IComMethodEvents::OnMethodCall, OnMethodCall, OnMethodCall method [COM+], OnMethodCall method [COM+],IComMethodEvents interface, _dtc_IComMethodEvents_OnMethodCall, comsvcs/IComMethodEvents::OnMethodCall, cos.icommethodevents_onmethodcall
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComMethodEvents.OnMethodCall"
+f1_keywords:
+- comsvcs/IComMethodEvents.OnMethodCall
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComMethodEvents.OnMethodCall
+- IComMethodEvents.OnMethodCall
 targetos: Windows
 req.typenames: 
 req.redist: 

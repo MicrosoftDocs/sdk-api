@@ -1,19 +1,17 @@
 ---
 UID: NL:vswriter.IVssWMDependency
 title: IVssWMDependency (vswriter.h)
-
 description: The IVssWMDependency is a C++ (not COM) interface returned by the IVssWMComponent interface and used by applications when backing up or restoring a component that has an explicit writer-component dependency on a component managed by another writer.
 old-location: base\ivsswmdependency.htm
 tech.root: VSS
 ms.assetid: 5ec3d8d2-5138-4887-9741-addaaaee6bee
-
 ms.date: 12/05/2018
 ms.keywords: IVssWMDependency, IVssWMDependency interface [VSS], IVssWMDependency interface [VSS],described, _win32_ivsswmdependency, base.ivsswmdependency, vswriter/IVssWMDependency
 ms.topic: class
-f1_keywords: 
- - "vswriter/IVssWMDependency"
+f1_keywords:
+- vswriter/IVssWMDependency
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssWMDependency
+- IVssWMDependency
 targetos: Windows
 req.typenames: 
 req.redist: 

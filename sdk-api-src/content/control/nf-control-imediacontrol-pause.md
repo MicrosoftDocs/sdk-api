@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IMediaControl.Pause
 title: IMediaControl::Pause (control.h)
-
 description: The Pause method pauses all the filters in the filter graph.
 old-location: dshow\imediacontrol_pause.htm
 tech.root: DirectShow
 ms.assetid: cfb875b7-cc4e-4ae2-8379-964d0e3ceb04
-
 ms.date: 12/05/2018
 ms.keywords: IMediaControl interface [DirectShow],Pause method, IMediaControl.Pause, IMediaControl::Pause, IMediaControlPause, Pause, Pause method [DirectShow], Pause method [DirectShow],IMediaControl interface, control/IMediaControl::Pause, dshow.imediacontrol_pause
 ms.topic: method
-f1_keywords: 
- - "control/IMediaControl.Pause"
+f1_keywords:
+- control/IMediaControl.Pause
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaControl.Pause
+- IMediaControl.Pause
 targetos: Windows
 req.typenames: 
 req.redist: 

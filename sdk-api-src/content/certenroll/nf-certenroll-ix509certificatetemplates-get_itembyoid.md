@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateTemplates.get_ItemByOid
 title: IX509CertificateTemplates::get_ItemByOid (certenroll.h)
-
 description: Retrieves an IX509CertificateTemplate object from the collection by object identifier.
 old-location: security\ix509certificatetemplates_itembyoid.htm
 tech.root: seccertenroll
 ms.assetid: f601a98b-035d-428b-8579-8e26365e4b78
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateTemplates interface [Security],ItemByOid property, IX509CertificateTemplates.ItemByOid, IX509CertificateTemplates.get_ItemByOid, IX509CertificateTemplates::ItemByOid, IX509CertificateTemplates::get_ItemByOid, ItemByOid property [Security], ItemByOid property [Security],IX509CertificateTemplates interface, certenroll/IX509CertificateTemplates::ItemByOid, certenroll/IX509CertificateTemplates::get_ItemByOid, get_ItemByOid, security.ix509certificatetemplates_itembyoid
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateTemplates.ItemByOid"
+f1_keywords:
+- certenroll/IX509CertificateTemplates.ItemByOid
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509CertificateTemplates.ItemByOid
- - IX509CertificateTemplates.get_ItemByOid
+- IX509CertificateTemplates.ItemByOid
+- IX509CertificateTemplates.get_ItemByOid
 targetos: Windows
 req.typenames: 
 req.redist: 

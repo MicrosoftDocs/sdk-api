@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.RemoveLanguageProfile
 title: ITfInputProcessorProfiles::RemoveLanguageProfile (msctf.h)
-
 description: ITfInputProcessorProfiles::RemoveLanguageProfile method
 old-location: tsf\itfinputprocessorprofiles_removelanguageprofile.htm
 tech.root: TSF
 ms.assetid: 16eff9bc-1789-4bf6-b1ba-b7e8414ce080
-
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfiles interface [Text Services Framework],RemoveLanguageProfile method, ITfInputProcessorProfiles.RemoveLanguageProfile, ITfInputProcessorProfiles::RemoveLanguageProfile, RemoveLanguageProfile, RemoveLanguageProfile method [Text Services Framework], RemoveLanguageProfile method [Text Services Framework],ITfInputProcessorProfiles interface, _tsf_itfinputprocessorprofiles_removelanguageprofile_ref, msctf/ITfInputProcessorProfiles::RemoveLanguageProfile, tsf.itfinputprocessorprofiles_removelanguageprofile
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfInputProcessorProfiles.RemoveLanguageProfile"
+f1_keywords:
+- msctf/ITfInputProcessorProfiles.RemoveLanguageProfile
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfInputProcessorProfiles.RemoveLanguageProfile
+- ITfInputProcessorProfiles.RemoveLanguageProfile
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

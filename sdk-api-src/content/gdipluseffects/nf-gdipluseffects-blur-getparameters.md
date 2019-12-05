@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluseffects.Blur.GetParameters
 title: Blur::GetParameters (gdipluseffects.h)
-
 description: The Blur::GetParameters method gets the current values of the parameters of this Blur object.
 old-location: gdiplus\_gdiplus_CLASS_Blur_GetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\blurclass\blurmethods\getparameters.htm
-
 ms.date: 12/05/2018
 ms.keywords: Blur class [GDI+],GetParameters method, Blur.GetParameters, Blur::GetParameters, GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],Blur class, _gdiplus_CLASS_Blur_GetParameters_, gdiplus._gdiplus_CLASS_Blur_GetParameters_
 ms.topic: method
-f1_keywords: 
- - "gdipluseffects/Blur.GetParameters"
+f1_keywords:
+- gdipluseffects/Blur.GetParameters
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Blur.GetParameters
+- Blur.GetParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

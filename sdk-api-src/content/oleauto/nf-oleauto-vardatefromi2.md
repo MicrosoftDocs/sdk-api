@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarDateFromI2
 title: VarDateFromI2 function (oleauto.h)
-
 description: Converts a short value to a date value.
 old-location: automat\vardatefromi2.htm
 tech.root: automat
 ms.assetid: 91ce59a5-2ab4-41be-a95c-ce12e9a52e4f
-
 ms.date: 12/05/2018
 ms.keywords: VarDateFromI2, VarDateFromI2 function [Automation], _oa96_VarDateFromI2, automat.vardatefromi2, oleauto/VarDateFromI2
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarDateFromI2"
+f1_keywords:
+- oleauto/VarDateFromI2
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarDateFromI2
+- VarDateFromI2
 targetos: Windows
 req.typenames: 
 req.redist: 

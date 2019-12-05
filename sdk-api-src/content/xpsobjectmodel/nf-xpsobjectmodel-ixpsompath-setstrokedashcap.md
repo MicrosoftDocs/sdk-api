@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeDashCap
 title: IXpsOMPath::SetStrokeDashCap (xpsobjectmodel.h)
-
 description: Sets the style of the stroke's dash cap.
 old-location: xps\ixpsompath_setstrokedashcap.htm
 tech.root: printdocs
 ms.assetid: 949f366b-1161-4db8-b9b9-d95b422b8931
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeDashCap method, IXpsOMPath.SetStrokeDashCap, IXpsOMPath::SetStrokeDashCap, SetStrokeDashCap, SetStrokeDashCap method [XPS Documents and Packaging], SetStrokeDashCap method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokedashcap, xpsobjectmodel/IXpsOMPath::SetStrokeDashCap
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPath.SetStrokeDashCap"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPath.SetStrokeDashCap
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPath.SetStrokeDashCap
+- IXpsOMPath.SetStrokeDashCap
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_count_values_len
 title: ldap_count_values_len function (winldap.h)
-
 description: Counts the number of values in a list.
 old-location: ldap\ldap_count_values_len.htm
 tech.root: ldap
 ms.assetid: fab632c7-3ec6-4968-a48d-5865e7f43d0b
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_count_values_len, ldap.ldap__count__values__len, ldap.ldap_count_values_len, ldap_count_values_len, ldap_count_values_len function [LDAP], winldap/ldap_count_values_len"
+ms.keywords: _ldap_ldap_count_values_len, ldap.ldap__count__values__len, ldap.ldap_count_values_len, ldap_count_values_len, ldap_count_values_len function [LDAP], winldap/ldap_count_values_len
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_count_values_len"
+f1_keywords:
+- winldap/ldap_count_values_len
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_count_values_len
+- ldap_count_values_len
 targetos: Windows
 req.typenames: 
 req.redist: 

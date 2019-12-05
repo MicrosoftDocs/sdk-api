@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GlobalFindAtomA
 title: GlobalFindAtomA function (winbase.h)
-
 description: Searches the global atom table for the specified character string and retrieves the global atom associated with that string.
 old-location: dataxchg\globalfindatom.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\globalfindatom.htm
-
 ms.date: 12/05/2018
 ms.keywords: GlobalFindAtom, GlobalFindAtom function [Data Exchange], GlobalFindAtomA, GlobalFindAtomW, _win32_GlobalFindAtom, _win32_globalfindatom_cpp, dataxchg.globalfindatom, winbase/GlobalFindAtom, winbase/GlobalFindAtomA, winbase/GlobalFindAtomW, winui._win32_globalfindatom
 ms.topic: function
-f1_keywords: 
- - "winbase/GlobalFindAtom"
+f1_keywords:
+- winbase/GlobalFindAtom
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-atoms-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-atoms-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - GlobalFindAtom
- - GlobalFindAtomA
- - GlobalFindAtomW
+- GlobalFindAtom
+- GlobalFindAtomA
+- GlobalFindAtomW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFontFamily.GetFamilyNames
 title: IDWriteFontFamily::GetFamilyNames (dwrite.h)
-
 description: Creates a localized strings object that contains the family names for the font family, indexed by locale name.
 old-location: directwrite\IDWriteFontFamily_GetFamilyNames.htm
 tech.root: DirectWrite
 ms.assetid: 89b36a28-c8c7-42aa-89a6-7d8f5ddae3fa
-
 ms.date: 12/05/2018
 ms.keywords: GetFamilyNames, GetFamilyNames method [Direct Write], GetFamilyNames method [Direct Write],IDWriteFontFamily interface, IDWriteFontFamily interface [Direct Write],GetFamilyNames method, IDWriteFontFamily.GetFamilyNames, IDWriteFontFamily::GetFamilyNames, directwrite.IDWriteFontFamily_GetFamilyNames, dwrite/IDWriteFontFamily::GetFamilyNames
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFontFamily.GetFamilyNames"
+f1_keywords:
+- dwrite/IDWriteFontFamily.GetFamilyNames
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFamily.GetFamilyNames
+- IDWriteFontFamily.GetFamilyNames
 targetos: Windows
 req.typenames: 
 req.redist: 

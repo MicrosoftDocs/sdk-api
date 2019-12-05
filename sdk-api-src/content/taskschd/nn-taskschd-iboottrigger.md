@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.IBootTrigger
 title: IBootTrigger (taskschd.h)
-
 description: Represents a trigger that starts a task when the system is started.
 old-location: taskschd\iboottrigger.htm
 tech.root: taskschd
 ms.assetid: 8f186ee2-8d74-426c-9173-523a335422c9
-
 ms.date: 12/05/2018
 ms.keywords: IBootTrigger, IBootTrigger interface [Task Scheduler], IBootTrigger interface [Task Scheduler],described, boot trigger [Task Scheduler],interface, taskschd.iboottrigger, taskschd/IBootTrigger
 ms.topic: interface
-f1_keywords: 
- - "taskschd/IBootTrigger"
+f1_keywords:
+- taskschd/IBootTrigger
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IBootTrigger
+- IBootTrigger
 targetos: Windows
 req.typenames: 
 req.redist: 

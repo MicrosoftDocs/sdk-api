@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IEnumResources.Clone
 title: IEnumResources::Clone (shobjidl_core.h)
-
 description: Clones a resource enumerator.
 old-location: shell\IEnumResources_Clone.htm
 tech.root: shell
 ms.assetid: 660243ba-263d-4f4a-b26f-ab831f60d76b
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumResources interface, IEnumResources interface [Windows Shell],Clone method, IEnumResources.Clone, IEnumResources::Clone, _shell_IEnumResources_Clone, shell.IEnumResources_Clone, shobjidl_core/IEnumResources::Clone
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IEnumResources.Clone"
+f1_keywords:
+- shobjidl_core/IEnumResources.Clone
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IEnumResources.Clone
+- IEnumResources.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

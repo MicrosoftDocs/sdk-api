@@ -1,19 +1,17 @@
 ---
 UID: NS:minwinbase._FILETIME
 title: FILETIME (minwinbase.h)
-
 description: Contains a 64-bit value representing the number of 100-nanosecond intervals since January 1, 1601 (UTC).
 old-location: base\filetime_str.htm
 tech.root: SysInfo
 ms.assetid: 9baf8a0e-59e3-4fbd-9616-2ec9161520d1
-
 ms.date: 12/05/2018
-ms.keywords: "*LPFILETIME, *PFILETIME, FILETIME, FILETIME structure, PFILETIME, PFILETIME structure pointer, _FILETIME, _win32_filetime_str, base.filetime_str, minwinbase/FILETIME, minwinbase/PFILETIME"
+ms.keywords: '*LPFILETIME, *PFILETIME, FILETIME, FILETIME structure, PFILETIME, PFILETIME structure pointer, _FILETIME, _win32_filetime_str, base.filetime_str, minwinbase/FILETIME, minwinbase/PFILETIME'
 ms.topic: struct
-f1_keywords: 
- - "minwinbase/FILETIME"
+f1_keywords:
+- minwinbase/FILETIME
 dev_langs:
- - c++
+- c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minwinbase.h
+- minwinbase.h
 api_name:
- - FILETIME
+- FILETIME
 targetos: Windows
 req.typenames: FILETIME, *PFILETIME, *LPFILETIME
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator.GetDependencies
 title: IUIAnimationInterpolator::GetDependencies (uianimation.h)
-
 description: Gets the aspects of the interpolator that depend on the initial value or velocity passed to SetInitialValueAndVelocity, or that depend on the duration passed to SetDuration.
 old-location: uianimation\iuianimationinterpolator_getdependencies.htm
 tech.root: UIAnimation
 ms.assetid: a897caa9-8a03-465e-8b74-b4614efce00c
-
 ms.date: 12/05/2018
 ms.keywords: GetDependencies, GetDependencies method [Windows Animation], GetDependencies method [Windows Animation],IUIAnimationInterpolator interface, IUIAnimationInterpolator interface [Windows Animation],GetDependencies method, IUIAnimationInterpolator.GetDependencies, IUIAnimationInterpolator::GetDependencies, uianimation.iuianimationinterpolator_getdependencies, uianimation/IUIAnimationInterpolator::GetDependencies
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationInterpolator.GetDependencies"
+f1_keywords:
+- uianimation/IUIAnimationInterpolator.GetDependencies
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationInterpolator.GetDependencies
+- IUIAnimationInterpolator.GetDependencies
 targetos: Windows
 req.typenames: 
 req.redist: 

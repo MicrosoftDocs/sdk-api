@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectPass.Apply
 title: ID3D10EffectPass::Apply (d3d10effect.h)
-
 description: Set the state contained in a pass to the device.
 old-location: direct3d10\id3d10effectpass_apply.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpass_apply.htm
-
 ms.date: 12/05/2018
 ms.keywords: Apply, Apply method [Direct3D 10], Apply method [Direct3D 10],ID3D10EffectPass interface, ID3D10EffectPass interface [Direct3D 10],Apply method, ID3D10EffectPass.Apply, ID3D10EffectPass::Apply, a6935571-9a69-c70b-86b7-67c76b5c85fe, d3d10effect/ID3D10EffectPass::Apply, direct3d10.id3d10effectpass_apply
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectPass.Apply"
+f1_keywords:
+- d3d10effect/ID3D10EffectPass.Apply
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectPass.Apply
+- ID3D10EffectPass.Apply
 targetos: Windows
 req.typenames: 
 req.redist: 

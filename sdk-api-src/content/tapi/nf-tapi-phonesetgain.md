@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.phoneSetGain
 title: phoneSetGain function (tapi.h)
-
 description: The phoneSetGain function sets the gain of the microphone of the specified hookswitch device to the specified gain level.
 old-location: tapi2\phonesetgain.htm
 tech.root: Tapi
 ms.assetid: 24e6047c-ca70-4e97-acb5-37647c5306c3
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_phonesetgain, phoneSetGain, phoneSetGain function [TAPI 2.2], tapi/phoneSetGain, tapi2.phonesetgain"
+ms.keywords: _tapi2_phonesetgain, phoneSetGain, phoneSetGain function [TAPI 2.2], tapi/phoneSetGain, tapi2.phonesetgain
 ms.topic: function
-f1_keywords: 
- - "tapi/phoneSetGain"
+f1_keywords:
+- tapi/phoneSetGain
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - phoneSetGain
+- phoneSetGain
 targetos: Windows
 req.typenames: 
 req.redist: 

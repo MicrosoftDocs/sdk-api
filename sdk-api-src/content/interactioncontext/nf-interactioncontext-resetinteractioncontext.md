@@ -1,19 +1,17 @@
 ---
 UID: NF:interactioncontext.ResetInteractionContext
 title: ResetInteractionContext function (interactioncontext.h)
-
 description: Resets the interaction state, interaction configuration settings, and all parameters to their initial state. Current interactions are cancelled without notifications. Interaction Context must be reconfigured before next use.
 old-location: input_intcontext\resetinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: 5c9b7756-fad1-4656-952c-78845685aa21
-
 ms.date: 12/05/2018
 ms.keywords: ResetInteractionContext, ResetInteractionContext function, input_intcontext.resetinteractioncontext, interactioncontext.resetinteractioncontext, interactioncontext/ResetInteractionContext
 ms.topic: function
-f1_keywords: 
- - "interactioncontext/ResetInteractionContext"
+f1_keywords:
+- interactioncontext/ResetInteractionContext
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ninput.lib
 req.dll: Ninput.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ninput.dll
- - API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
- - IE_Shims.dll
+- ninput.dll
+- API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
+- IE_Shims.dll
 api_name:
- - ResetInteractionContext
+- ResetInteractionContext
 targetos: Windows
 req.typenames: 
 req.redist: 

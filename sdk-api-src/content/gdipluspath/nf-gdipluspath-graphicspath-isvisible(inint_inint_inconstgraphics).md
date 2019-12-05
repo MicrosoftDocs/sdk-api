@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.IsVisible(IN INT,IN INT,IN const Graphics)
 title: GraphicsPath::IsVisible(IN INT,IN INT,IN const Graphics) (gdipluspath.h)
-
 description: The GraphicsPath::IsVisible method determines whether a specified point lies in the area that is filled when this path is filled by a specified Graphicsobject.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_IsVisible_INT_x_INT_y_Graphics_g_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathisvisiblemethods\isvisible_86intx_inty_graphicsg.htm
-
 ms.date: 12/05/2018
 ms.keywords: GraphicsPath class [GDI+],IsVisible method, GraphicsPath.IsVisible, GraphicsPath.IsVisible(IN INT,IN INT,IN const Graphics), GraphicsPath.IsVisible(INT,INT,const Graphics*), GraphicsPath::IsVisible, GraphicsPath::IsVisible(IN INT,IN INT,IN const Graphics), IsVisible, IsVisible method [GDI+], IsVisible method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_IsVisible_INT_x_INT_y_Graphics_g_, gdiplus._gdiplus_CLASS_GraphicsPath_IsVisible_INT_x_INT_y_Graphics_g_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.IsVisible"
+f1_keywords:
+- gdipluspath/GraphicsPath.IsVisible
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.IsVisible
+- GraphicsPath.IsVisible
 targetos: Windows
 req.typenames: 
 req.redist: 

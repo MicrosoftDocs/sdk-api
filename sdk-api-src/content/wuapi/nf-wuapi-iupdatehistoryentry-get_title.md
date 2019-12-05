@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_Title
 title: IUpdateHistoryEntry::get_Title (wuapi.h)
-
 description: Gets the title of an update.
 old-location: wua\iupdatehistoryentry_title.htm
 tech.root: Wua_Sdk
 ms.assetid: 8a49fddf-ebaf-403e-bb7f-705ab08395eb
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],Title property, IUpdateHistoryEntry.Title, IUpdateHistoryEntry.get_Title, IUpdateHistoryEntry::Title, IUpdateHistoryEntry::get_Title, Title property [Windows Update Agent], Title property [Windows Update Agent],IUpdateHistoryEntry interface, get_Title, wua.iupdatehistoryentry_title, wuapi/IUpdateHistoryEntry::Title, wuapi/IUpdateHistoryEntry::get_Title
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateHistoryEntry.Title"
+f1_keywords:
+- wuapi/IUpdateHistoryEntry.Title
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateHistoryEntry.Title
- - IUpdateHistoryEntry.get_Title
+- IUpdateHistoryEntry.Title
+- IUpdateHistoryEntry.get_Title
 targetos: Windows
 req.typenames: 
 req.redist: 

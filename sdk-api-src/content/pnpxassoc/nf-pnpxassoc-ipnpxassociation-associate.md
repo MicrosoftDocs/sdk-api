@@ -1,19 +1,17 @@
 ---
 UID: NF:pnpxassoc.IPNPXAssociation.Associate
 title: IPNPXAssociation::Associate (pnpxassoc.h)
-
 description: Marks an association database entry as associated.
 old-location: ncd\ipnpxassociation_associate.htm
 tech.root: FunDisc
 ms.assetid: 74d2ed38-9362-4664-9384-e773e4ec76f3
-
 ms.date: 12/05/2018
 ms.keywords: Associate, Associate method, Associate method,IPNPXAssociation interface, IPNPXAssociation interface,Associate method, IPNPXAssociation.Associate, IPNPXAssociation::Associate, ncd.ipnpxassociation_associate, pnpxassoc/IPNPXAssociation::Associate
 ms.topic: method
-f1_keywords: 
- - "pnpxassoc/IPNPXAssociation.Associate"
+f1_keywords:
+- pnpxassoc/IPNPXAssociation.Associate
 dev_langs:
- - c++
+- c++
 req.header: pnpxassoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - pnpxassoc.h
+- pnpxassoc.h
 api_name:
- - IPNPXAssociation.Associate
+- IPNPXAssociation.Associate
 targetos: Windows
 req.typenames: 
 req.redist: 

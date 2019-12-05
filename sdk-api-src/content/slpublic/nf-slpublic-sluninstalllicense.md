@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLUninstallLicense
 title: SLUninstallLicense function (slpublic.h)
-
 description: Uninstalls the license specified by the license file ID and target user option.
 old-location: security\sluninstalllicense.htm
 tech.root: SecSLApi
 ms.assetid: 1f79a26e-7605-46ad-9854-e90e73320184
-
 ms.date: 12/05/2018
 ms.keywords: SLUninstallLicense, SLUninstallLicense function [Security], security.sluninstalllicense, slpublic/SLUninstallLicense
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLUninstallLicense"
+f1_keywords:
+- slpublic/SLUninstallLicense
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLUninstallLicense
+- SLUninstallLicense
 targetos: Windows
 req.typenames: 
 req.redist: 

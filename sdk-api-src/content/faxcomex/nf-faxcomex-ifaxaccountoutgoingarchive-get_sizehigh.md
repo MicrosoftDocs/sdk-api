@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxAccountOutgoingArchive.get_SizeHigh
 title: IFaxAccountOutgoingArchive::get_SizeHigh (faxcomex.h)
-
 description: Specifies the high-order 32-bit value of the size (in bytes) of the archive of outbound fax messages for a particular fax account.
 old-location: fax\_mfax_faxaccountoutgoingarchive_cpp_mfax_faxaccountoutgoingarchive_sizehigh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountoutgoingarchive\sizehigh.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountOutgoingArchive interface [Fax Service],SizeHigh property, IFaxAccountOutgoingArchive.SizeHigh, IFaxAccountOutgoingArchive.get_SizeHigh, IFaxAccountOutgoingArchive::SizeHigh, IFaxAccountOutgoingArchive::get_SizeHigh, SizeHigh property [Fax Service], SizeHigh property [Fax Service],IFaxAccountOutgoingArchive interface, _mfax_faxaccountoutgoingarchive.sizehigh, fax._mfax_faxaccountoutgoingarchive_cpp_mfax_faxaccountoutgoingarchive_sizehigh_cpp, fax._mfax_faxaccountoutgoingarchive_sizehigh, faxcomex/IFaxAccountOutgoingArchive::SizeHigh, faxcomex/IFaxAccountOutgoingArchive::get_SizeHigh, get_SizeHigh
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxAccountOutgoingArchive.SizeHigh"
+f1_keywords:
+- faxcomex/IFaxAccountOutgoingArchive.SizeHigh
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxAccountOutgoingArchive.SizeHigh
- - IFaxAccountOutgoingArchive.get_SizeHigh
- - IFaxAccountOutgoingArchive.get_SizeHigh
+- IFaxAccountOutgoingArchive.SizeHigh
+- IFaxAccountOutgoingArchive.get_SizeHigh
+- IFaxAccountOutgoingArchive.get_SizeHigh
 targetos: Windows
 req.typenames: 
 req.redist: 

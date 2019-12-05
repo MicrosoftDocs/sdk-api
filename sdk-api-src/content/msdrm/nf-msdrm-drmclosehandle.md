@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMCloseHandle
 title: DRMCloseHandle function (msdrm.h)
-
 description: Closes handles to objects created with DRMCreate* functions and libraries loaded by using DRMLoadLibrary.
 old-location: rm\drmclosehandle.htm
 tech.root: AdRms_Sdk
 ms.assetid: 422f286c-edf6-488f-8776-359ab2695be3
-
 ms.date: 12/05/2018
 ms.keywords: DRMCloseHandle, DRMCloseHandle function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCloseHandle, rm.drmclosehandle
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMCloseHandle"
+f1_keywords:
+- msdrm/DRMCloseHandle
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMCloseHandle
+- DRMCloseHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

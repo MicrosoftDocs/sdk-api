@@ -1,19 +1,17 @@
 ---
 UID: NF:dxva2api.DXVA2CreateVideoService
 title: DXVA2CreateVideoService function (dxva2api.h)
-
 description: Creates a DirectX Video Acceleration (DXVA) services object.
 old-location: mf\dxva2createvideoservice.htm
 tech.root: medfound
 ms.assetid: e62dbacb-f638-4307-ba56-88415d881fc9
-
 ms.date: 12/05/2018
 ms.keywords: DXVA2CreateVideoService, DXVA2CreateVideoService function [Media Foundation], dxva2api/DXVA2CreateVideoService, e62dbacb-f638-4307-ba56-88415d881fc9, mf.dxva2createvideoservice
 ms.topic: function
-f1_keywords: 
- - "dxva2api/DXVA2CreateVideoService"
+f1_keywords:
+- dxva2api/DXVA2CreateVideoService
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - DXVA2CreateVideoService
+- DXVA2CreateVideoService
 targetos: Windows
 req.typenames: 
 req.redist: 

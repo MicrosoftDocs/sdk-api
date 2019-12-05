@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFSample.SetSampleFlags
 title: IMFSample::SetSampleFlags (mfobjects.h)
-
 description: Sets flags associated with the sample.Currently no flags are defined.
 old-location: mf\imfsample_setsampleflags.htm
 tech.root: medfound
 ms.assetid: 30dac293-981b-41f3-951d-186d6a603d0a
-
 ms.date: 12/05/2018
 ms.keywords: 30dac293-981b-41f3-951d-186d6a603d0a, IMFSample interface [Media Foundation],SetSampleFlags method, IMFSample.SetSampleFlags, IMFSample::SetSampleFlags, SetSampleFlags, SetSampleFlags method [Media Foundation], SetSampleFlags method [Media Foundation],IMFSample interface, mf.imfsample_setsampleflags, mfobjects/IMFSample::SetSampleFlags
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFSample.SetSampleFlags"
+f1_keywords:
+- mfobjects/IMFSample.SetSampleFlags
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSample.SetSampleFlags
+- IMFSample.SetSampleFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

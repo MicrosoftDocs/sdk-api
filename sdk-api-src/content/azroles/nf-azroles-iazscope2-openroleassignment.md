@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzScope2.OpenRoleAssignment
 title: IAzScope2::OpenRoleAssignment (azroles.h)
-
 description: Opens an IAzRoleAssignment object with the specified name in this scope.
 old-location: security\iazscope2_openroleassignment.htm
 tech.root: SecAuthZ
 ms.assetid: cb7560d0-da5c-444d-9944-b6db980985bc
-
 ms.date: 12/05/2018
 ms.keywords: IAzScope2 interface [Security],OpenRoleAssignment method, IAzScope2.OpenRoleAssignment, IAzScope2::OpenRoleAssignment, OpenRoleAssignment, OpenRoleAssignment method [Security], OpenRoleAssignment method [Security],IAzScope2 interface, azroles/IAzScope2::OpenRoleAssignment, security.iazscope2_openroleassignment
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzScope2.OpenRoleAssignment"
+f1_keywords:
+- azroles/IAzScope2.OpenRoleAssignment
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzScope2.OpenRoleAssignment
+- IAzScope2.OpenRoleAssignment
 targetos: Windows
 req.typenames: 
 req.redist: 

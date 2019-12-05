@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capCaptureStop
 title: capCaptureStop macro (vfw.h)
-
 description: The capCaptureStop macro stops the capture operation. You can use this macro or explicitly send the WM_CAP_STOP message.
 old-location: multimedia\capcapturestop.htm
 tech.root: Multimedia
 ms.assetid: 79b33f36-1bf9-41f2-827f-d0cfa276113e
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capCaptureStop, capCaptureStop, capCaptureStop macro [Windows Multimedia], multimedia.capcapturestop, vfw/capCaptureStop"
+ms.keywords: _win32_capCaptureStop, capCaptureStop, capCaptureStop macro [Windows Multimedia], multimedia.capcapturestop, vfw/capCaptureStop
 ms.topic: macro
-f1_keywords: 
- - "vfw/capCaptureStop"
+f1_keywords:
+- vfw/capCaptureStop
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capCaptureStop
+- capCaptureStop
 targetos: Windows
 req.typenames: 
 req.redist: 

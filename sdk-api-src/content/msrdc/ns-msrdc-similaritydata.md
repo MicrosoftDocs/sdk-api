@@ -1,19 +1,17 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0012
 title: SimilarityData (msrdc.h)
-
 description: Contains the similarity data for a file.
 old-location: rdc\similaritydata.htm
 tech.root: rdc
 ms.assetid: 33fdb48c-6f33-44e8-83b1-6029b1eace1d
-
 ms.date: 12/05/2018
 ms.keywords: SimilarityData, SimilarityData structure [Remote Differential Compression], fs.similaritydata, msrdc/SimilarityData, rdc.similaritydata
 ms.topic: struct
-f1_keywords: 
- - "msrdc/SimilarityData"
+f1_keywords:
+- msrdc/SimilarityData
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - MsRdc.h
+- MsRdc.h
 api_name:
- - SimilarityData
+- SimilarityData
 targetos: Windows
 req.typenames: SimilarityData
 req.redist: 

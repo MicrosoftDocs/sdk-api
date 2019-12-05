@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.GetCountOfTableDescriptors
 title: IISDB_CDT::GetCountOfTableDescriptors (dvbsiparser.h)
-
 description: Returns the number of descriptors for logos in an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
 old-location: mstv\iisdb_cdt_getcountoftabledescriptors.htm
 tech.root: mstv
 ms.assetid: ea01a53f-8d0b-4594-87b4-d293901fca19
-
 ms.date: 12/05/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, IISDB_CDT.GetCountOfTableDescriptors, IISDB_CDT::GetCountOfTableDescriptors, dvbsiparser/IISDB_CDT::GetCountOfTableDescriptors, mstv.iisdb_cdt_getcountoftabledescriptors
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_CDT.GetCountOfTableDescriptors"
+f1_keywords:
+- dvbsiparser/IISDB_CDT.GetCountOfTableDescriptors
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_CDT.GetCountOfTableDescriptors
+- IISDB_CDT.GetCountOfTableDescriptors
 targetos: Windows
 req.typenames: 
 req.redist: 

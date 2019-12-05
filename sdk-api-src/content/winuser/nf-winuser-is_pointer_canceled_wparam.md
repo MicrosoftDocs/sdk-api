@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.IS_POINTER_CANCELED_WPARAM
 title: IS_POINTER_CANCELED_WPARAM macro (winuser.h)
-
 description: Checks whether the specified pointer input ended abruptly, or was invalid, indicating the interaction was not completed.
 old-location: inputmsg\is_pointer_canceled_wparam.htm
 tech.root: InputMsg
 ms.assetid: BB153262-E037-45C6-9391-6039FF1FFC86
-
 ms.date: 12/05/2018
 ms.keywords: IS_POINTER_CANCELED_WPARAM, IS_POINTER_CANCELED_WPARAM macro [Input Messages and Notifications], inputmsg.is_pointer_canceled_wparam, winuser/IS_POINTER_CANCELED_WPARAM
 ms.topic: macro
-f1_keywords: 
- - "winuser/IS_POINTER_CANCELED_WPARAM"
+f1_keywords:
+- winuser/IS_POINTER_CANCELED_WPARAM
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - IS_POINTER_CANCELED_WPARAM
+- IS_POINTER_CANCELED_WPARAM
 targetos: Windows
 req.typenames: 
 req.redist: 

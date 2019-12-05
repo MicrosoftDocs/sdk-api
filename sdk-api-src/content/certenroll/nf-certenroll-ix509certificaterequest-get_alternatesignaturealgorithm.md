@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_AlternateSignatureAlgorithm
 title: IX509CertificateRequest::get_AlternateSignatureAlgorithm (certenroll.h)
-
-description: Specifies and retrieves a Boolean value that indicates whether the signature algorithm object identifier (OID) for a PKCS #10 request or certificate signature is discrete or combined.
+description: Specifies and retrieves a Boolean value that indicates whether the signature algorithm object identifier (OID) for a PKCS
 old-location: security\ix509certificaterequest_alternatesignaturealgorithm_property.htm
 tech.root: seccertenroll
 ms.assetid: 57a87aab-1e53-4b0b-a7b9-2fe89083819b
-
 ms.date: 12/05/2018
 ms.keywords: AlternateSignatureAlgorithm property [Security], AlternateSignatureAlgorithm property [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],AlternateSignatureAlgorithm property, IX509CertificateRequest.AlternateSignatureAlgorithm, IX509CertificateRequest.get_AlternateSignatureAlgorithm, IX509CertificateRequest::AlternateSignatureAlgorithm, IX509CertificateRequest::get_AlternateSignatureAlgorithm, IX509CertificateRequest::put_AlternateSignatureAlgorithm, certenroll/IX509CertificateRequest::AlternateSignatureAlgorithm, certenroll/IX509CertificateRequest::get_AlternateSignatureAlgorithm, certenroll/IX509CertificateRequest::put_AlternateSignatureAlgorithm, get_AlternateSignatureAlgorithm, security.ix509certificaterequest_alternatesignaturealgorithm_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequest.AlternateSignatureAlgorithm"
+f1_keywords:
+- certenroll/IX509CertificateRequest.AlternateSignatureAlgorithm
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequest.AlternateSignatureAlgorithm
- - IX509CertificateRequest.get_AlternateSignatureAlgorithm
- - IX509CertificateRequest.put_AlternateSignatureAlgorithm
+- IX509CertificateRequest.AlternateSignatureAlgorithm
+- IX509CertificateRequest.get_AlternateSignatureAlgorithm
+- IX509CertificateRequest.put_AlternateSignatureAlgorithm
 targetos: Windows
 req.typenames: 
 req.redist: 

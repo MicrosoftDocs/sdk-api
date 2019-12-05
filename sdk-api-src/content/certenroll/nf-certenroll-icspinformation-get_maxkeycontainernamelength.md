@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspInformation.get_MaxKeyContainerNameLength
 title: ICspInformation::get_MaxKeyContainerNameLength (certenroll.h)
-
 description: Retrieves the maximum supported length for the name of the private key container associated with the provider.
 old-location: security\icspinformation_maxkeycontainernamelength_property.htm
 tech.root: seccertenroll
 ms.assetid: 2508786f-0892-4ece-bbef-bd8ed9c81eee
-
 ms.date: 12/05/2018
 ms.keywords: ICspInformation interface [Security],MaxKeyContainerNameLength property, ICspInformation.MaxKeyContainerNameLength, ICspInformation.get_MaxKeyContainerNameLength, ICspInformation::MaxKeyContainerNameLength, ICspInformation::get_MaxKeyContainerNameLength, MaxKeyContainerNameLength property [Security], MaxKeyContainerNameLength property [Security],ICspInformation interface, certenroll/ICspInformation::MaxKeyContainerNameLength, certenroll/ICspInformation::get_MaxKeyContainerNameLength, get_MaxKeyContainerNameLength, security.icspinformation_maxkeycontainernamelength_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspInformation.MaxKeyContainerNameLength"
+f1_keywords:
+- certenroll/ICspInformation.MaxKeyContainerNameLength
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspInformation.MaxKeyContainerNameLength
- - ICspInformation.get_MaxKeyContainerNameLength
+- ICspInformation.MaxKeyContainerNameLength
+- ICspInformation.get_MaxKeyContainerNameLength
 targetos: Windows
 req.typenames: 
 req.redist: 

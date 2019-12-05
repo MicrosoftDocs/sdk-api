@@ -1,19 +1,17 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerA.GetLinkSource
 title: IOleUILinkContainerA::GetLinkSource (oledlg.h)
-
 description: Retrieves information about a link that can be displayed in the Links dialog box.
 old-location: com\ioleuilinkcontainer_getlinksource.htm
 tech.root: com
 ms.assetid: 10f1bc84-cc09-4a41-8f55-21314338f636
-
 ms.date: 12/05/2018
 ms.keywords: GetLinkSource, GetLinkSource method [COM], GetLinkSource method [COM],IOleUILinkContainer interface, GetLinkSource method [COM],IOleUILinkContainerA interface, GetLinkSource method [COM],IOleUILinkContainerW interface, IOleUILinkContainer interface [COM],GetLinkSource method, IOleUILinkContainer::GetLinkSource, IOleUILinkContainerA interface [COM],GetLinkSource method, IOleUILinkContainerA.GetLinkSource, IOleUILinkContainerA::GetLinkSource, IOleUILinkContainerW interface [COM],GetLinkSource method, IOleUILinkContainerW::GetLinkSource, _ole_IOleUILinkContainer_GetLinkSource, com.ioleuilinkcontainer_getlinksource, oledlg/IOleUILinkContainer::GetLinkSource, oledlg/IOleUILinkContainerA::GetLinkSource, oledlg/IOleUILinkContainerW::GetLinkSource
 ms.topic: method
-f1_keywords: 
- - "oledlg/IOleUILinkContainer.GetLinkSource"
+f1_keywords:
+- oledlg/IOleUILinkContainer.GetLinkSource
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleDlg.h
+- OleDlg.h
 api_name:
- - IOleUILinkContainer.GetLinkSource
- - IOleUILinkContainerA.GetLinkSource
- - IOleUILinkContainerW.GetLinkSource
+- IOleUILinkContainer.GetLinkSource
+- IOleUILinkContainerA.GetLinkSource
+- IOleUILinkContainerW.GetLinkSource
 targetos: Windows
 req.typenames: 
 req.redist: 

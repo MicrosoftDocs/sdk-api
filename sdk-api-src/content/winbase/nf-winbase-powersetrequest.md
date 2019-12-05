@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.PowerSetRequest
 title: PowerSetRequest function (winbase.h)
-
 description: Increments the count of power requests of the specified type for a power request object.
 old-location: base\powersetrequest.htm
 tech.root: power
 ms.assetid: 85249de8-5832-4f25-bbd9-3576cfd1caa0
-
 ms.date: 12/05/2018
 ms.keywords: PowerRequestAwayModeRequired, PowerRequestDisplayRequired, PowerRequestExecutionRequired, PowerRequestSystemRequired, PowerSetRequest, PowerSetRequest function, base.powersetrequest, winbase/PowerSetRequest
 ms.topic: function
 f1_keywords:
 - winbase/PowerSetRequest
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

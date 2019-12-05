@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.IEmailAction
 title: IEmailAction (taskschd.h)
-
 description: Represents an action that sends an email message.
 old-location: taskschd\iemailaction.htm
 tech.root: taskschd
 ms.assetid: 2f08fd42-233a-40ee-96d0-f0ac8b25b847
-
 ms.date: 12/05/2018
 ms.keywords: IEmailAction, IEmailAction interface [Task Scheduler], IEmailAction interface [Task Scheduler],described, taskschd.iemailaction, taskschd/IEmailAction
 ms.topic: interface
-f1_keywords: 
- - "taskschd/IEmailAction"
+f1_keywords:
+- taskschd/IEmailAction
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IEmailAction
+- IEmailAction
 targetos: Windows
 req.typenames: 
 req.redist: 

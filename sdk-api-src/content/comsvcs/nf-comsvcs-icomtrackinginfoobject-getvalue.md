@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComTrackingInfoObject.GetValue
 title: IComTrackingInfoObject::GetValue (comsvcs.h)
-
 description: Retrieves the value of the specified property.
 old-location: cos\icomtrackinginfoobject_getvalue.htm
 tech.root: cossdk
 ms.assetid: 38f5fc3d-eecd-42e5-92ea-df2b096aa1cc
-
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [COM+], GetValue method [COM+],IComTrackingInfoObject interface, IComTrackingInfoObject interface [COM+],GetValue method, IComTrackingInfoObject.GetValue, IComTrackingInfoObject::GetValue, _dtc_IComTrackingInfoObject_GetValue, comsvcs/IComTrackingInfoObject::GetValue, cos.icomtrackinginfoobject_getvalue
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComTrackingInfoObject.GetValue"
+f1_keywords:
+- comsvcs/IComTrackingInfoObject.GetValue
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComTrackingInfoObject.GetValue
+- IComTrackingInfoObject.GetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

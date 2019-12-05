@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_UserActivityService.GetUserActivityInterval
 title: IBDA_UserActivityService::GetUserActivityInterval (bdaiface.h)
-
 description: Gets the interval that a Media Sink Device (MSD) in a Protected Broadcast Driver Architecture (PBDA) media graph waits before calling the UserActivityDetected method after the MSD detects user activity.
 old-location: mstv\ibda_useractivityservice_getuseractivityinterval.htm
 tech.root: mstv
 ms.assetid: 2ea3504a-a479-4d26-8a6b-0e5bdddf6a21
-
 ms.date: 12/05/2018
 ms.keywords: GetUserActivityInterval, GetUserActivityInterval method [Microsoft TV Technologies], GetUserActivityInterval method [Microsoft TV Technologies],IBDA_UserActivityService interface, IBDA_UserActivityService interface [Microsoft TV Technologies],GetUserActivityInterval method, IBDA_UserActivityService.GetUserActivityInterval, IBDA_UserActivityService::GetUserActivityInterval, bdaiface/IBDA_UserActivityService::GetUserActivityInterval, mstv.ibda_useractivityservice_getuseractivityinterval
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_UserActivityService.GetUserActivityInterval"
+f1_keywords:
+- bdaiface/IBDA_UserActivityService.GetUserActivityInterval
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_UserActivityService.GetUserActivityInterval
+- IBDA_UserActivityService.GetUserActivityInterval
 targetos: Windows
 req.typenames: 
 req.redist: 

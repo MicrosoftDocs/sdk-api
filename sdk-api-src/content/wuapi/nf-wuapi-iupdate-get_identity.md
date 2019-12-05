@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdate.get_Identity
 title: IUpdate::get_Identity (wuapi.h)
-
 description: Gets an interface that contains the unique identifier of the update.
 old-location: wua\iupdate_identity.htm
 tech.root: Wua_Sdk
 ms.assetid: e34019e4-54f4-486d-b5e7-5e65f65d1941
-
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],Identity property, IUpdate.Identity, IUpdate.get_Identity, IUpdate::Identity, IUpdate::get_Identity, Identity property [Windows Update Agent], Identity property [Windows Update Agent],IUpdate interface, get_Identity, wua.iupdate_identity, wuapi/IUpdate::Identity, wuapi/IUpdate::get_Identity
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdate.Identity"
+f1_keywords:
+- wuapi/IUpdate.Identity
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdate.Identity
- - IUpdate.get_Identity
+- IUpdate.Identity
+- IUpdate.get_Identity
 targetos: Windows
 req.typenames: 
 req.redist: 

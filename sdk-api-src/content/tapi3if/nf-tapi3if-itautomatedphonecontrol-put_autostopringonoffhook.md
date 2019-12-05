@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.put_AutoStopRingOnOffHook
 title: ITAutomatedPhoneControl::put_AutoStopRingOnOffHook (tapi3if.h)
-
 description: The put_AutoStopRingOnOffHook method sets the AutoStopRingOnOffHook property. When this feature is enabled, the phone going offhook results in the termination of any incoming ring produced on the phone (via a call to ITAutomatedPhoneControl::StopRinger).
 old-location: tapi3\itautomatedphonecontrol_put_autostopringonoffhook.htm
 tech.root: Tapi
 ms.assetid: 114e17e2-63e7-47f9-8ae7-1c7e452376f6
-
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_AutoStopRingOnOffHook method, ITAutomatedPhoneControl.put_AutoStopRingOnOffHook, ITAutomatedPhoneControl::put_AutoStopRingOnOffHook, _tapi3_itautomatedphonecontrol_put_autostopringonoffhook, put_AutoStopRingOnOffHook, put_AutoStopRingOnOffHook method [TAPI 2.2], put_AutoStopRingOnOffHook method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_put_autostopringonoffhook, tapi3if/ITAutomatedPhoneControl::put_AutoStopRingOnOffHook
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAutomatedPhoneControl.put_AutoStopRingOnOffHook"
+f1_keywords:
+- tapi3if/ITAutomatedPhoneControl.put_AutoStopRingOnOffHook
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl.put_AutoStopRingOnOffHook
+- ITAutomatedPhoneControl.put_AutoStopRingOnOffHook
 targetos: Windows
 req.typenames: 
 req.redist: 

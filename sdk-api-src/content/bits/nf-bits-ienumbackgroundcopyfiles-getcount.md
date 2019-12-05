@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IEnumBackgroundCopyFiles.GetCount
 title: IEnumBackgroundCopyFiles::GetCount (bits.h)
-
 description: Retrieves a count of the number of files in the enumeration.
 old-location: bits\ienumbackgroundcopyfiles_getcount.htm
 tech.root: Bits
 ms.assetid: 24a9d5f9-e923-4b20-8abf-8ce50fc2602b
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [BITS], GetCount method [BITS],IEnumBackgroundCopyFiles interface, IEnumBackgroundCopyFiles interface [BITS],GetCount method, IEnumBackgroundCopyFiles.GetCount, IEnumBackgroundCopyFiles::GetCount, _drz_ienumbackgroundcopyfiles_getcount, bits.ienumbackgroundcopyfiles_getcount, bits/IEnumBackgroundCopyFiles::GetCount
 ms.topic: method
-f1_keywords: 
- - "bits/IEnumBackgroundCopyFiles.GetCount"
+f1_keywords:
+- bits/IEnumBackgroundCopyFiles.GetCount
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IEnumBackgroundCopyFiles.GetCount
+- IEnumBackgroundCopyFiles.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

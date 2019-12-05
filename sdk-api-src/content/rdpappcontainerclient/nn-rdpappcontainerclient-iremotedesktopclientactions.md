@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpappcontainerclient.IRemoteDesktopClientActions
 title: IRemoteDesktopClientActions (rdpappcontainerclient.h)
-
 description: Provides the methods used to interact with the Remote Desktop Protocol (RDP) app container client control.
 old-location: termserv\iremotedesktopclientactions.htm
 tech.root: TermServ
 ms.assetid: 64b3683e-e577-48c1-a319-601e7944f68a
-
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClientActions, IRemoteDesktopClientActions interface [Remote Desktop Services], IRemoteDesktopClientActions interface [Remote Desktop Services],described, rdpappcontainerclient/IRemoteDesktopClientActions, termserv.iremotedesktopclientactions
 ms.topic: interface
-f1_keywords: 
- - "rdpappcontainerclient/IRemoteDesktopClientActions"
+f1_keywords:
+- rdpappcontainerclient/IRemoteDesktopClientActions
 dev_langs:
- - c++
+- c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsTscAx.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsTscAx.dll
+- MsTscAx.dll
 api_name:
- - IRemoteDesktopClientActions
+- IRemoteDesktopClientActions
 targetos: Windows
 req.typenames: 
 req.redist: 

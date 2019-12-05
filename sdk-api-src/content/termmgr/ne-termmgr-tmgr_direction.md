@@ -1,19 +1,17 @@
 ---
 UID: NE:termmgr.__MIDL___MIDL_itf_termmgr_0000_0000_0001
 title: TMGR_DIRECTION (termmgr.h)
-
 description: The TMGR_DIRECTION enum is used by the pluggable terminal methods to indicate terminal direction.
 old-location: tapi3\tmgr_direction.htm
 tech.root: Tapi
 ms.assetid: 1758efb7-55fc-4925-be56-7f43177db64f
-
 ms.date: 12/05/2018
 ms.keywords: TMGR_DIRECTION, TMGR_DIRECTION enumeration [TAPI 2.2], TMGR_TD_BOTH, TMGR_TD_CAPTURE, TMGR_TD_RENDER, _tapi3_tmgr_direction, tapi3.tmgr_direction, termmgr/TMGR_DIRECTION, termmgr/TMGR_TD_BOTH, termmgr/TMGR_TD_CAPTURE, termmgr/TMGR_TD_RENDER
 ms.topic: enum
-f1_keywords: 
- - "termmgr/TMGR_DIRECTION"
+f1_keywords:
+- termmgr/TMGR_DIRECTION
 dev_langs:
- - c++
+- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Termmgr.h
+- Termmgr.h
 api_name:
- - TMGR_DIRECTION
+- TMGR_DIRECTION
 targetos: Windows
 req.typenames: TMGR_DIRECTION
 req.redist: 

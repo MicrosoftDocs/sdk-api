@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.GetPalette
 title: Image::GetPalette (gdiplusheaders.h)
-
 description: The Image::GetPalette method gets the ColorPalette of this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetPalette_palette_size_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getpalette.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPalette, GetPalette method [GDI+], GetPalette method [GDI+],Image class, Image class [GDI+],GetPalette method, Image.GetPalette, Image::GetPalette, _gdiplus_CLASS_Image_GetPalette_palette_size_, gdiplus._gdiplus_CLASS_Image_GetPalette_palette_size_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.GetPalette"
+f1_keywords:
+- gdiplusheaders/Image.GetPalette
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.GetPalette
+- Image.GetPalette
 targetos: Windows
 req.typenames: 
 req.redist: 

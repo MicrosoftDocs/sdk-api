@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleAdviseHolder.EnumAdvise
 title: IOleAdviseHolder::EnumAdvise (oleidl.h)
-
 description: Creates an enumerator that can be used to enumerate the advisory connections currently established for an object.
 old-location: com\ioleadviseholder_enumadvise.htm
 tech.root: com
 ms.assetid: 80a9ccd8-f89a-40c4-8b99-38536409cf26
-
 ms.date: 12/05/2018
 ms.keywords: EnumAdvise, EnumAdvise method [COM], EnumAdvise method [COM],IOleAdviseHolder interface, IOleAdviseHolder interface [COM],EnumAdvise method, IOleAdviseHolder.EnumAdvise, IOleAdviseHolder::EnumAdvise, _ole_ioleadviseholder_enumadvise, com.ioleadviseholder_enumadvise, oleidl/IOleAdviseHolder::EnumAdvise
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleAdviseHolder.EnumAdvise"
+f1_keywords:
+- oleidl/IOleAdviseHolder.EnumAdvise
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleAdviseHolder.EnumAdvise
+- IOleAdviseHolder.EnumAdvise
 targetos: Windows
 req.typenames: 
 req.redist: 

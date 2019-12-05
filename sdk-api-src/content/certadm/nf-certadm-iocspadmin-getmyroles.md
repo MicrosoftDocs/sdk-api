@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.IOCSPAdmin.GetMyRoles
 title: IOCSPAdmin::GetMyRoles (certadm.h)
-
 description: Gets the access mask of privilege roles for a user on a given Online Certificate Status Protocol (OCSP) responder server.
 old-location: security\iocspadmin_getmyroles_method.htm
 tech.root: SecCrypto
 ms.assetid: b5a35e95-ec40-4154-8db9-fe5cd41960cb
-
 ms.date: 12/05/2018
 ms.keywords: GetMyRoles, GetMyRoles method [Security], GetMyRoles method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetMyRoles method, IOCSPAdmin.GetMyRoles, IOCSPAdmin::GetMyRoles, certadm/IOCSPAdmin::GetMyRoles, security.iocspadmin_getmyroles_method
 ms.topic: method
-f1_keywords: 
- - "certadm/IOCSPAdmin.GetMyRoles"
+f1_keywords:
+- certadm/IOCSPAdmin.GetMyRoles
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPAdmin.GetMyRoles
+- IOCSPAdmin.GetMyRoles
 targetos: Windows
 req.typenames: 
 req.redist: 

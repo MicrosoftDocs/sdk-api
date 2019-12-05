@@ -1,19 +1,17 @@
 ---
 UID: NN:winsatcominterfacei.IProvideWinSATAssessmentInfo
 title: IProvideWinSATAssessmentInfo (winsatcominterfacei.h)
-
 description: Gets summary information for a subcomponent of the assessment, for example, its score.
 old-location: winsat\iprovidewinsatassessmentinfo.htm
 tech.root: WinSAT
 ms.assetid: 90036c75-6e9e-4d25-804b-02c423616de1
-
 ms.date: 12/05/2018
 ms.keywords: IProvideWinSATAssessmentInfo, IProvideWinSATAssessmentInfo interface [WinSAT], IProvideWinSATAssessmentInfo interface [WinSAT],described, winsat.iprovidewinsatassessmentinfo, winsatcominterfacei/IProvideWinSATAssessmentInfo
 ms.topic: interface
-f1_keywords: 
- - "winsatcominterfacei/IProvideWinSATAssessmentInfo"
+f1_keywords:
+- winsatcominterfacei/IProvideWinSATAssessmentInfo
 dev_langs:
- - c++
+- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Winsatapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Winsatapi.dll
+- Winsatapi.dll
 api_name:
- - IProvideWinSATAssessmentInfo
+- IProvideWinSATAssessmentInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

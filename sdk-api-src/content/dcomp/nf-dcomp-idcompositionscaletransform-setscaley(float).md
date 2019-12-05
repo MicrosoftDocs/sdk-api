@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform.SetScaleY(float)
 title: IDCompositionScaleTransform::SetScaleY (dcomp.h)
-
 description: Changes the value of the ScaleY property of a 2D scale transform.
 old-location: directcomp\idcompositionscaletransform_setscaley_float.htm
 tech.root: directcomp
 ms.assetid: D47D6FA3-D5D2-47BD-8DE0-6E0EE08EE7C4
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform interface [DirectComposition],SetScaleY method, IDCompositionScaleTransform.SetScaleY, IDCompositionScaleTransform::SetScaleY, IDCompositionScaleTransform::SetScaleY(float), SetScaleY, SetScaleY method [DirectComposition], SetScaleY method [DirectComposition],IDCompositionScaleTransform interface, dcomp/IDCompositionScaleTransform::SetScaleY, directcomp.idcompositionscaletransform_setscaley_float
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionScaleTransform.SetScaleY"
+f1_keywords:
+- dcomp/IDCompositionScaleTransform.SetScaleY
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionScaleTransform.SetScaleY
+- IDCompositionScaleTransform.SetScaleY
 targetos: Windows
 req.typenames: 
 req.redist: 

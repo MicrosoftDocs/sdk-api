@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.IClockVector
 title: IClockVector (winsync.h)
-
 description: Represents a clock vector in a knowledge structure.
 old-location: winsync\iclockvector.htm
 tech.root: winsync
 ms.assetid: 31aef38d-a6df-4645-a192-9145d3ec90ad
-
 ms.date: 12/05/2018
 ms.keywords: IClockVector, IClockVector interface [Windows Sync], IClockVector interface [Windows Sync],described, winsync.iclockvector, winsync/IClockVector
 ms.topic: interface
-f1_keywords: 
- - "winsync/IClockVector"
+f1_keywords:
+- winsync/IClockVector
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IClockVector
+- IClockVector
 targetos: Windows
 req.typenames: 
 req.redist: 

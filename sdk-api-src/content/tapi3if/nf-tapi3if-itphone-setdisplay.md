@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPhone.SetDisplay
 title: ITPhone::SetDisplay (tapi3if.h)
-
 description: The SetDisplay method sets what will appear in a given row and column of the phone's display.
 old-location: tapi3\itphone_setdisplay.htm
 tech.root: Tapi
 ms.assetid: 690756c4-201d-472d-b536-452074226701
-
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],SetDisplay method, ITPhone.SetDisplay, ITPhone::SetDisplay, SetDisplay, SetDisplay method [TAPI 2.2], SetDisplay method [TAPI 2.2],ITPhone interface, _tapi3_itphone_setdisplay, tapi3.itphone_setdisplay, tapi3if/ITPhone::SetDisplay
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPhone.SetDisplay"
+f1_keywords:
+- tapi3if/ITPhone.SetDisplay
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhone.SetDisplay
+- ITPhone.SetDisplay
 targetos: Windows
 req.typenames: 
 req.redist: 

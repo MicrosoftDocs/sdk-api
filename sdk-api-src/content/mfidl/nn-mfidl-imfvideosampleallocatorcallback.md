@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFVideoSampleAllocatorCallback
 title: IMFVideoSampleAllocatorCallback (mfidl.h)
-
 description: Enables an application to track video samples allocated by the enhanced video renderer (EVR).
 old-location: mf\imfvideosampleallocatorcallback.htm
 tech.root: medfound
 ms.assetid: 7dbf8b3a-24b3-41d9-bb1e-9c57b88a77ac
-
 ms.date: 12/05/2018
 ms.keywords: IMFVideoSampleAllocatorCallback, IMFVideoSampleAllocatorCallback interface [Media Foundation], IMFVideoSampleAllocatorCallback interface [Media Foundation],described, mf.imfvideosampleallocatorcallback, mfidl/IMFVideoSampleAllocatorCallback
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFVideoSampleAllocatorCallback"
+f1_keywords:
+- mfidl/IMFVideoSampleAllocatorCallback
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFVideoSampleAllocatorCallback
+- IMFVideoSampleAllocatorCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

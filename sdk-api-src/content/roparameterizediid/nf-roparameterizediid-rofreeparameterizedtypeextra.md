@@ -1,19 +1,17 @@
 ---
 UID: NF:roparameterizediid.RoFreeParameterizedTypeExtra
 title: RoFreeParameterizedTypeExtra function (roparameterizediid.h)
-
 description: Frees the handle allocated by RoGetParameterizedTypeInstanceIID.
 old-location: winrt\rofreeparameterizedtypeextra.htm
 tech.root: WinRT
 ms.assetid: A9A063F3-D6E0-4383-B9AD-EA115FC3A8FD
-
 ms.date: 12/05/2018
 ms.keywords: RoFreeParameterizedTypeExtra, RoFreeParameterizedTypeExtra function [Windows Runtime], roparameterizediid/RoFreeParameterizedTypeExtra, winrt.rofreeparameterizedtypeextra
 ms.topic: function
-f1_keywords: 
- - "roparameterizediid/RoFreeParameterizedTypeExtra"
+f1_keywords:
+- roparameterizediid/RoFreeParameterizedTypeExtra
 dev_langs:
- - c++
+- c++
 req.header: roparameterizediid.h
 req.include-header: Paraminstanceapi.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Runtimeobject.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - runtimeobject.lib
- - runtimeobject.dll
- - API-MS-Win-Core-WinRT-roparameterizediid-l1-1-0.dll
- - ComBase.dll
+- runtimeobject.lib
+- runtimeobject.dll
+- API-MS-Win-Core-WinRT-roparameterizediid-l1-1-0.dll
+- ComBase.dll
 api_name:
- - RoFreeParameterizedTypeExtra
+- RoFreeParameterizedTypeExtra
 targetos: Windows
 req.typenames: 
 req.redist: 

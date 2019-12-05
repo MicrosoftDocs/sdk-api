@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1GradientStopCollection.GetColorInterpolationGamma
 title: ID2D1GradientStopCollection::GetColorInterpolationGamma (d2d1.h)
-
 description: Indicates the gamma space in which the gradient stops are interpolated.
 old-location: direct2d\ID2D1GradientStopCollection_GetColorInterpolationGamma.htm
 tech.root: Direct2D
 ms.assetid: d07f4dcc-7656-44ca-87cc-d59cb62eb36a
-
 ms.date: 12/05/2018
 ms.keywords: GetColorInterpolationGamma, GetColorInterpolationGamma method [Direct2D], GetColorInterpolationGamma method [Direct2D],ID2D1GradientStopCollection interface, ID2D1GradientStopCollection interface [Direct2D],GetColorInterpolationGamma method, ID2D1GradientStopCollection.GetColorInterpolationGamma, ID2D1GradientStopCollection::GetColorInterpolationGamma, d2d1/ID2D1GradientStopCollection::GetColorInterpolationGamma, direct2d.ID2D1GradientStopCollection_GetColorInterpolationGamma
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1GradientStopCollection.GetColorInterpolationGamma"
+f1_keywords:
+- d2d1/ID2D1GradientStopCollection.GetColorInterpolationGamma
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1GradientStopCollection.GetColorInterpolationGamma
+- ID2D1GradientStopCollection.GetColorInterpolationGamma
 targetos: Windows
 req.typenames: 
 req.redist: 

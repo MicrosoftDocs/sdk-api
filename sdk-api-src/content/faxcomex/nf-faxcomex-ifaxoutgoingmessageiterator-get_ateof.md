@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessageIterator.get_AtEOF
 title: IFaxOutgoingMessageIterator::get_AtEOF (faxcomex.h)
-
 description: The AtEOF property is the end-of-file marker for the archive of outbound fax messages.
 old-location: fax\_mfax_faxoutgoingmessageiterator_cpp_mfax_faxoutgoingmessageiterator_ateof_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_3w6e.htm
-
 ms.date: 12/05/2018
 ms.keywords: AtEOF property [Fax Service], AtEOF property [Fax Service],IFaxOutgoingMessageIterator interface, IFaxOutgoingMessageIterator interface [Fax Service],AtEOF property, IFaxOutgoingMessageIterator.AtEOF, IFaxOutgoingMessageIterator.get_AtEOF, IFaxOutgoingMessageIterator::AtEOF, IFaxOutgoingMessageIterator::get_AtEOF, _mfax_faxoutgoingmessageiterator.ateof, fax._mfax_faxoutgoingmessageiterator_ateof, fax._mfax_faxoutgoingmessageiterator_cpp_mfax_faxoutgoingmessageiterator_ateof_cpp, faxcomex/IFaxOutgoingMessageIterator::AtEOF, faxcomex/IFaxOutgoingMessageIterator::get_AtEOF, get_AtEOF
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingMessageIterator.AtEOF"
+f1_keywords:
+- faxcomex/IFaxOutgoingMessageIterator.AtEOF
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingMessageIterator.AtEOF
- - IFaxOutgoingMessageIterator.get_AtEOF
+- IFaxOutgoingMessageIterator.AtEOF
+- IFaxOutgoingMessageIterator.get_AtEOF
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wpcapi.IWPCProviderConfig.RequestOverride
 title: IWPCProviderConfig::RequestOverride (wpcapi.h)
-
 description: Called for the current provider to enable configuration override.
 old-location: parcon\iwpcproviderconfig_requestoverride.htm
 tech.root: parcon
 ms.assetid: 66A75879-9A95-472A-9529-61A57E37B9A0
-
 ms.date: 12/05/2018
 ms.keywords: IWPCProviderConfig interface,RequestOverride method, IWPCProviderConfig.RequestOverride, IWPCProviderConfig::RequestOverride, RequestOverride, RequestOverride method, RequestOverride method,IWPCProviderConfig interface, WPCFLAG_APPS_RESTRICTED, WPCFLAG_GAMES_BLOCKED, WPCFLAG_HOURS_RESTRICTED, WPCFLAG_LOGGING_REQUIRED, WPCFLAG_NO_RESTRICTION, WPCFLAG_WEB_FILTERED, parcon.iwpcproviderconfig_requestoverride, wpcapi/IWPCProviderConfig::RequestOverride
 ms.topic: method
-f1_keywords: 
- - "wpcapi/IWPCProviderConfig.RequestOverride"
+f1_keywords:
+- wpcapi/IWPCProviderConfig.RequestOverride
 dev_langs:
- - c++
+- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wpcapi.h
+- Wpcapi.h
 api_name:
- - IWPCProviderConfig.RequestOverride
+- IWPCProviderConfig.RequestOverride
 targetos: Windows
 req.typenames: 
 req.redist: 

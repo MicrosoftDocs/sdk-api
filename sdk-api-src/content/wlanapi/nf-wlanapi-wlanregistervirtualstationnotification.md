@@ -1,19 +1,17 @@
 ---
 UID: NF:wlanapi.WlanRegisterVirtualStationNotification
 title: WlanRegisterVirtualStationNotification function (wlanapi.h)
-
 description: Is used to register and unregister notifications on a virtual station.
 old-location: nwifi\wlanregistervirtualstationnotification.htm
 tech.root: NativeWiFi
 ms.assetid: b86ac160-ee81-43aa-86bb-cf5d3eeb2234
-
 ms.date: 12/05/2018
 ms.keywords: WlanRegisterVirtualStationNotification, WlanRegisterVirtualStationNotification function [NativeWIFI], nwifi.wlanregistervirtualstationnotification, wlanapi/WlanRegisterVirtualStationNotification
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WlanRegisterVirtualStationNotification"
+f1_keywords:
+- wlanapi/WlanRegisterVirtualStationNotification
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wlanapi.dll
+- Wlanapi.dll
 api_name:
- - WlanRegisterVirtualStationNotification
+- WlanRegisterVirtualStationNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

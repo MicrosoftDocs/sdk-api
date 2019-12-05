@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.IEnumAddress.Reset
 title: IEnumAddress::Reset (tapi3if.h)
-
 description: The Reset method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumaddress_reset.htm
 tech.root: Tapi
 ms.assetid: 807c5098-bc8d-4133-8a90-929979ba0a85
-
 ms.date: 12/05/2018
 ms.keywords: IEnumAddress interface [TAPI 2.2],Reset method, IEnumAddress.Reset, IEnumAddress::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumAddress interface, _tapi3_ienumaddress_reset, tapi3.ienumaddress_reset, tapi3if/IEnumAddress::Reset
 ms.topic: method
-f1_keywords: 
- - "tapi3if/IEnumAddress.Reset"
+f1_keywords:
+- tapi3if/IEnumAddress.Reset
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - IEnumAddress.Reset
+- IEnumAddress.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

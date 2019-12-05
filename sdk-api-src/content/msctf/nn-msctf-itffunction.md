@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfFunction
 title: ITfFunction (msctf.h)
-
 description: The ITfFunction interface is the base interface for the individual function interfaces.
 old-location: tsf\itffunction.htm
 tech.root: TSF
 ms.assetid: 140b1ed8-8876-4f06-8ed2-7b0dccdc0a69
-
 ms.date: 12/05/2018
 ms.keywords: ITfFunction, ITfFunction interface [Text Services Framework], ITfFunction interface [Text Services Framework],described, _tsf_itffunction_ref, msctf/ITfFunction, tsf.itffunction
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfFunction"
+f1_keywords:
+- msctf/ITfFunction
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfFunction
+- ITfFunction
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

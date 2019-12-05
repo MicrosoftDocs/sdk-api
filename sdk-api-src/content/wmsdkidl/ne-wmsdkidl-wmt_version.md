@@ -1,19 +1,17 @@
 ---
 UID: NE:wmsdkidl.WMT_VERSION
 title: WMT_VERSION (wmsdkidl.h)
-
 description: The WMT_VERSION enumeration type defines the versions of the Windows Media Format SDK.
 old-location: wmformat\wmt_version.htm
 tech.root: wmformat
 ms.assetid: 9ee414c6-49aa-42ad-9310-52f54b23e712
-
 ms.date: 12/05/2018
 ms.keywords: WMT_VERSION, WMT_VERSION enumeration [windows Media Format], WMT_VER_4_0, WMT_VER_7_0, WMT_VER_8_0, WMT_VER_9_0, wmformat.wmt_version, wmsdkidl/WMT_VERSION, wmsdkidl/WMT_VER_4_0, wmsdkidl/WMT_VER_7_0, wmsdkidl/WMT_VER_8_0, wmsdkidl/WMT_VER_9_0
 ms.topic: enum
-f1_keywords: 
- - "wmsdkidl/WMT_VERSION"
+f1_keywords:
+- wmsdkidl/WMT_VERSION
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WMT_VERSION
+- WMT_VERSION
 targetos: Windows
 req.typenames: WMT_VERSION
 req.redist: 

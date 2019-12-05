@@ -1,19 +1,17 @@
 ---
 UID: NC:ras.RasCustomDeleteEntryNotifyFn
 title: RasCustomDeleteEntryNotifyFn (ras.h)
-
 description: The RasCustomDeleteEntryNotify function is an application-defined function that is exported by a third-party custom-dialing DLL. This function allows third-party vendors to implement custom dialogs for managing phone-book entries.
 old-location: rras\rascustomdeleteentrynotify.htm
 tech.root: RRAS
 ms.assetid: bbdaff05-ec86-461a-b466-8f69cb9cba5a
-
 ms.date: 12/05/2018
 ms.keywords: RCD_AllUsers, RCD_Eap, RCD_Logon, RCD_SingleUser, RasCustomDeleteEntryNotify, RasCustomDeleteEntryNotify callback function [RAS], RasCustomDeleteEntryNotifyFn, RasCustomDeleteEntryNotifyFn callback, _ras_rascustomdeleteentrynotify, ras/RasCustomDeleteEntryNotify, rras.rascustomdeleteentrynotify
 ms.topic: callback
-f1_keywords: 
- - "ras/RasCustomDeleteEntryNotify"
+f1_keywords:
+- ras/RasCustomDeleteEntryNotify
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ras.h
+- Ras.h
 api_name:
- - RasCustomDeleteEntryNotify
+- RasCustomDeleteEntryNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

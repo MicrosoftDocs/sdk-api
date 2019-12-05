@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IBootOptions.put_Manufacturer
 title: IBootOptions::put_Manufacturer (imapi2fs.h)
-
 description: Sets an identifier that identifies the manufacturer or developer of the CD.
 old-location: imapi\ibootoptions_put_manufacturer.htm
 tech.root: imapi
 ms.assetid: 485b36f0-6c33-48da-8ac5-64f4fc13fd68
-
 ms.date: 12/05/2018
 ms.keywords: IBootOptions interface [IMAPI],put_Manufacturer method, IBootOptions.put_Manufacturer, IBootOptions::put_Manufacturer, imapi.ibootoptions_put_manufacturer, imapi2fs/IBootOptions::put_Manufacturer, put_Manufacturer, put_Manufacturer method [IMAPI], put_Manufacturer method [IMAPI],IBootOptions interface
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IBootOptions.put_Manufacturer"
+f1_keywords:
+- imapi2fs/IBootOptions.put_Manufacturer
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IBootOptions.put_Manufacturer
+- IBootOptions.put_Manufacturer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfUIElementSink
 title: ITfUIElementSink (msctf.h)
-
 description: The ITfUIElementSink interface is implemented by an application to receive notifications when the UI element is changed.
 old-location: tsf\itfuielementsink.htm
 tech.root: TSF
 ms.assetid: 8f77b3bc-2e47-4966-8030-d05a626ee00a
-
 ms.date: 12/05/2018
 ms.keywords: ITfUIElementSink, ITfUIElementSink interface [Text Services Framework], ITfUIElementSink interface [Text Services Framework],described, _tsf_itfuielementsink_ref, msctf/ITfUIElementSink, tsf.itfuielementsink
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfUIElementSink"
+f1_keywords:
+- msctf/ITfUIElementSink
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.h
+- Msctf.h
 api_name:
- - ITfUIElementSink
+- ITfUIElementSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

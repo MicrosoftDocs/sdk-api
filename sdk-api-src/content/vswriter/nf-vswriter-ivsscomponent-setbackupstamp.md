@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssComponent.SetBackupStamp
 title: IVssComponent::SetBackupStamp (vswriter.h)
-
 description: The SetBackupStamp method sets a string containing information indicating when a backup took place.
 old-location: base\ivsscomponent_setbackupstamp.htm
 tech.root: VSS
 ms.assetid: 54995cc9-8988-4f26-9c60-5d809a93e4e1
-
 ms.date: 12/05/2018
 ms.keywords: IVssComponent interface [VSS],SetBackupStamp method, IVssComponent.SetBackupStamp, IVssComponent::SetBackupStamp, SetBackupStamp, SetBackupStamp method [VSS], SetBackupStamp method [VSS],IVssComponent interface, _win32_ivsscomponent_setbackupstamp, base.ivsscomponent_setbackupstamp, vswriter/IVssComponent::SetBackupStamp
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssComponent.SetBackupStamp"
+f1_keywords:
+- vswriter/IVssComponent.SetBackupStamp
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssComponent.SetBackupStamp
+- IVssComponent.SetBackupStamp
 targetos: Windows
 req.typenames: 
 req.redist: 

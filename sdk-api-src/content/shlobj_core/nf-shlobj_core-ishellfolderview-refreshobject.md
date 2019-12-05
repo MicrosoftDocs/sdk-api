@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.RefreshObject
 title: IShellFolderView::RefreshObject (shlobj_core.h)
-
 description: RefreshObject may be altered or unavailable.
 old-location: shell\IShellFolderView_RefreshObject.htm
 tech.root: shell
 ms.assetid: 6165d2d1-4bd6-4a18-8191-1fd7e924d7d8
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],RefreshObject method, IShellFolderView.RefreshObject, IShellFolderView::RefreshObject, RefreshObject, RefreshObject method [Windows Shell], RefreshObject method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_RefreshObject, shell.IShellFolderView_RefreshObject, shlobj_core/IShellFolderView::RefreshObject
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IShellFolderView.RefreshObject"
+f1_keywords:
+- shlobj_core/IShellFolderView.RefreshObject
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - IShellFolderView.RefreshObject
+- IShellFolderView.RefreshObject
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwOpenPorts.Remove
 title: INetFwOpenPorts::Remove (netfw.h)
-
 description: Closes a port and removes it from the collection.
 old-location: ics\inetfwopenports_remove.htm
 tech.root: ics
 ms.assetid: e3719087-f7b9-4780-a030-0c568248080d
-
 ms.date: 12/05/2018
 ms.keywords: INetFwOpenPorts interface [ICS/ICF],Remove method, INetFwOpenPorts.Remove, INetFwOpenPorts::Remove, Remove, Remove method [ICS/ICF], Remove method [ICS/ICF],INetFwOpenPorts interface, ics.inetfwopenports_remove, netfw/INetFwOpenPorts::Remove
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwOpenPorts.Remove"
+f1_keywords:
+- netfw/INetFwOpenPorts.Remove
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwOpenPorts.Remove
+- INetFwOpenPorts.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

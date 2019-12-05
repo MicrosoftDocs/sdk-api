@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.SetEnd
 title: ITextRange::SetEnd (tom.h)
-
 description: Sets the end position of the range.
 old-location: controls\ITextRange_SetEnd.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setend.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],SetEnd method, ITextRange.SetEnd, ITextRange::SetEnd, SetEnd, SetEnd method [Windows Controls], SetEnd method [Windows Controls],ITextRange interface, _win32_ITextRange_SetEnd, _win32_ITextRange_SetEnd_cpp, controls.ITextRange_SetEnd, controls._win32_ITextRange_SetEnd, tom/ITextRange::SetEnd
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.SetEnd"
+f1_keywords:
+- tom/ITextRange.SetEnd
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.SetEnd
+- ITextRange.SetEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

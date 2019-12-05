@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12Debug
 title: ID3D12Debug (d3d12sdklayers.h)
-
 description: A debug interface controls debug settings and validates pipeline state. It can only be used if the debug layer is turned on.
 old-location: direct3d12\id3d12debug.htm
 tech.root: direct3d12
 ms.assetid: 6CFAE096-EE09-4DD0-ADA3-A700FD9FDCB9
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12Debug, ID3D12Debug interface, ID3D12Debug interface,described, d3d12sdklayers/ID3D12Debug, direct3d12.id3d12debug
 ms.topic: interface
-f1_keywords: 
- - "d3d12sdklayers/ID3D12Debug"
+f1_keywords:
+- d3d12sdklayers/ID3D12Debug
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - ID3D12Debug
+- ID3D12Debug
 targetos: Windows
 req.typenames: 
 req.redist: 

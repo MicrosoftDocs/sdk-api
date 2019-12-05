@@ -1,19 +1,17 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_IKEEXT_MM_FAILURE0_
 title: FWPM_NET_EVENT_IKEEXT_MM_FAILURE0 (fwpmtypes.h)
-
 description: Contains information that describes an IKE/AuthIP Main Mode (MM) failure.
 old-location: fwp\fwpm_net_event_ikeext_mm_failure0.htm
 tech.root: fwp
 ms.assetid: 66845a68-e465-44d9-afc0-3d95b10cc69f
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_NET_EVENT_IKEEXT_MM_FAILURE0, FWPM_NET_EVENT_IKEEXT_MM_FAILURE0 structure [Filtering], FWPM_NET_EVENT_IKEEXT_MM_FAILURE_FLAG_BENIGN, FWPM_NET_EVENT_IKEEXT_MM_FAILURE_FLAG_MULTIPLE, fwp.fwpm_net_event_ikeext_mm_failure0, fwpmtypes/FWPM_NET_EVENT_IKEEXT_MM_FAILURE0
 ms.topic: struct
-f1_keywords: 
- - "fwpmtypes/FWPM_NET_EVENT_IKEEXT_MM_FAILURE0"
+f1_keywords:
+- fwpmtypes/FWPM_NET_EVENT_IKEEXT_MM_FAILURE0
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_NET_EVENT_IKEEXT_MM_FAILURE0
+- FWPM_NET_EVENT_IKEEXT_MM_FAILURE0
 targetos: Windows
 req.typenames: FWPM_NET_EVENT_IKEEXT_MM_FAILURE0
 req.redist: 

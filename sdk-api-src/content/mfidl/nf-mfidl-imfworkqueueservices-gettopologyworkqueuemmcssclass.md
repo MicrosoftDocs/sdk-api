@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServices.GetTopologyWorkQueueMMCSSClass
 title: IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass (mfidl.h)
-
 description: Retrieves the Multimedia Class Scheduler Service (MMCSS) class for a specified branch of the current topology.
 old-location: mf\imfworkqueueservices_gettopologyworkqueuemmcssclass.htm
 tech.root: medfound
 ms.assetid: e815bde7-e17e-4616-8a3f-688f357e8009
-
 ms.date: 12/05/2018
 ms.keywords: GetTopologyWorkQueueMMCSSClass, GetTopologyWorkQueueMMCSSClass method [Media Foundation], GetTopologyWorkQueueMMCSSClass method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],GetTopologyWorkQueueMMCSSClass method, IMFWorkQueueServices.GetTopologyWorkQueueMMCSSClass, IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass, e815bde7-e17e-4616-8a3f-688f357e8009, mf.imfworkqueueservices_gettopologyworkqueuemmcssclass, mfidl/IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFWorkQueueServices.GetTopologyWorkQueueMMCSSClass"
+f1_keywords:
+- mfidl/IMFWorkQueueServices.GetTopologyWorkQueueMMCSSClass
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFWorkQueueServices.GetTopologyWorkQueueMMCSSClass
+- IMFWorkQueueServices.GetTopologyWorkQueueMMCSSClass
 targetos: Windows
 req.typenames: 
 req.redist: 

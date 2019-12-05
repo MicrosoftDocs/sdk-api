@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.D2D1IsMatrixInvertible
 title: D2D1IsMatrixInvertible function (d2d1.h)
-
 description: Indicates whether the specified matrix is invertible.
 old-location: direct2d\d2d1ismatrixinvertible.htm
 tech.root: Direct2D
 ms.assetid: c8ba9c60-dfc4-4872-81e0-e68dfd13f00e
-
 ms.date: 12/05/2018
 ms.keywords: D2D1IsMatrixInvertible, D2D1IsMatrixInvertible function [Direct2D], d2d1/D2D1IsMatrixInvertible, direct2d.d2d1ismatrixinvertible
 ms.topic: function
-f1_keywords: 
- - "d2d1/D2D1IsMatrixInvertible"
+f1_keywords:
+- d2d1/D2D1IsMatrixInvertible
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - D2D1IsMatrixInvertible
+- D2D1IsMatrixInvertible
 targetos: Windows
 req.typenames: 
 req.redist: 

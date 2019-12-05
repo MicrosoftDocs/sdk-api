@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11.ID3D11Buffer
 title: ID3D11Buffer (d3d11.h)
-
 description: A buffer interface accesses a buffer resource, which is unstructured memory. Buffers typically store vertex or index data.
 old-location: direct3d11\id3d11buffer.htm
 tech.root: direct3d11
 ms.assetid: 7224de57-75cb-4d68-9d70-f5dd2f92b1fd
-
 ms.date: 12/05/2018
 ms.keywords: 12286442-1fa2-0c8c-14c5-6c9af4348aee, ID3D11Buffer, ID3D11Buffer interface [Direct3D 11], ID3D11Buffer interface [Direct3D 11],described, d3d11/ID3D11Buffer, direct3d11.id3d11buffer
 ms.topic: interface
-f1_keywords: 
- - "d3d11/ID3D11Buffer"
+f1_keywords:
+- d3d11/ID3D11Buffer
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Buffer
+- ID3D11Buffer
 targetos: Windows
 req.typenames: 
 req.redist: 

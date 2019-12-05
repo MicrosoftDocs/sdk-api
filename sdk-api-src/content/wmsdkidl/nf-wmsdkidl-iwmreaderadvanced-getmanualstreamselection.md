@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.GetManualStreamSelection
 title: IWMReaderAdvanced::GetManualStreamSelection (wmsdkidl.h)
-
 description: The GetManualStreamSelection method ascertains whether manual stream selection has been specified.
 old-location: wmformat\iwmreaderadvanced_getmanualstreamselection.htm
 tech.root: wmformat
 ms.assetid: 3205f508-a24b-4d24-a5e6-be16885e941b
-
 ms.date: 12/05/2018
 ms.keywords: GetManualStreamSelection, GetManualStreamSelection method [windows Media Format], GetManualStreamSelection method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetManualStreamSelection method, IWMReaderAdvanced.GetManualStreamSelection, IWMReaderAdvanced::GetManualStreamSelection, IWMReaderAdvancedGetManualStreamSelection, wmformat.iwmreaderadvanced_getmanualstreamselection, wmsdkidl/IWMReaderAdvanced::GetManualStreamSelection
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced.GetManualStreamSelection"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced.GetManualStreamSelection
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced.GetManualStreamSelection
+- IWMReaderAdvanced.GetManualStreamSelection
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorCeiling
 title: XMVectorCeiling function (directxmath.h)
-
 description: Computes the ceiling of each component of an XMVECTOR.
 old-location: dxmath\xmvectorceiling.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorCeiling(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorCeiling, XMVectorCeiling, XMVectorCeiling method [DirectX Math Support APIs], dxmath.xmvectorceiling
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorCeiling"
+f1_keywords:
+- directxmath/XMVectorCeiling
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorCeiling
+- XMVectorCeiling
 targetos: Windows
 req.typenames: 
 req.redist: 

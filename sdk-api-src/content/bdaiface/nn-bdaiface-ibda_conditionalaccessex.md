@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.IBDA_ConditionalAccessEx
 title: IBDA_ConditionalAccessEx (bdaiface.h)
-
 description: Provides access to a device's Conditional Access Service (CAS), which manages access to protected content.
 old-location: mstv\ibda_conditionalaccessex.htm
 tech.root: mstv
 ms.assetid: 9db9b6b1-fc4f-48f0-940e-d79a321ef094
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_ConditionalAccessEx, IBDA_ConditionalAccessEx interface [Microsoft TV Technologies], IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],described, bdaiface/IBDA_ConditionalAccessEx, mstv.ibda_conditionalaccessex
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/IBDA_ConditionalAccessEx"
+f1_keywords:
+- bdaiface/IBDA_ConditionalAccessEx
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_ConditionalAccessEx
+- IBDA_ConditionalAccessEx
 targetos: Windows
 req.typenames: 
 req.redist: 

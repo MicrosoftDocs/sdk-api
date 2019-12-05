@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.IAVIStream.ReadData
 title: IAVIStream::ReadData (vfw.h)
-
 description: The ReadData method reads data headers of a stream. Called when an application uses the AVIStreamReadData function.
 old-location: multimedia\iavistream_readdata.htm
 tech.root: Multimedia
 ms.assetid: 688a19fb-5774-4e05-b0e8-4a98922def89
-
 ms.date: 12/05/2018
 ms.keywords: IAVIStream interface [Windows Multimedia],ReadData method, IAVIStream.ReadData, IAVIStream::ReadData, ReadData, ReadData method [Windows Multimedia], ReadData method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_ReadData, multimedia.iavistream_readdata, vfw/IAVIStream::ReadData
 ms.topic: method
-f1_keywords: 
- - "vfw/IAVIStream.ReadData"
+f1_keywords:
+- vfw/IAVIStream.ReadData
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Vfw32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vfw32.lib
- - Vfw32.dll
+- Vfw32.lib
+- Vfw32.dll
 api_name:
- - IAVIStream.ReadData
+- IAVIStream.ReadData
 targetos: Windows
 req.typenames: 
 req.redist: 

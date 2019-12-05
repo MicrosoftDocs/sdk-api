@@ -3,14 +3,13 @@ UID: NF:gdiplusgraphics.Graphics.MeasureString(IN const WCHAR,IN INT,IN const Fo
 title: Graphics::MeasureString
 description: The Graphics::MeasureString method measures the extent of the string in the specified font, format, and layout rectangle.
 ms.assetid: 95fe1f97-1978-4356-8707-f539adad3853
-
 ms.date: 05/13/2019
 ms.keywords: Graphics::MeasureString
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusgraphics/Graphics::MeasureString"
+f1_keywords:
+- gdiplusgraphics/Graphics::MeasureString
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusgraphics.h
+- gdiplusgraphics.h
 api_name:
- - Graphics::MeasureString
+- Graphics::MeasureString
 ---
 
 # MeasureString(WCHAR*,INT,Font*,RectF&,StringFormat*,RectF*,INT*,INT*)

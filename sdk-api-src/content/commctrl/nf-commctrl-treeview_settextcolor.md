@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_SetTextColor
 title: TreeView_SetTextColor macro (commctrl.h)
-
 description: Sets the text color of the control. You can use this macro or send the TVM_SETTEXTCOLOR message explicitly.
 old-location: controls\TreeView_SetTextColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_settextcolor.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_SetTextColor, TreeView_SetTextColor macro [Windows Controls], _win32_TreeView_SetTextColor, _win32_TreeView_SetTextColor_cpp, commctrl/TreeView_SetTextColor, controls.TreeView_SetTextColor, controls._win32_TreeView_SetTextColor
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_SetTextColor"
+f1_keywords:
+- commctrl/TreeView_SetTextColor
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_SetTextColor
+- TreeView_SetTextColor
 targetos: Windows
 req.typenames: 
 req.redist: 

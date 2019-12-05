@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock2.WSAGetLastError
 title: WSAGetLastError function (winsock2.h)
-
 description: Returns the error status for the last Windows Sockets operation that failed.
 old-location: winsock\wsagetlasterror_2.htm
 tech.root: WinSock
 ms.assetid: 39e41b66-44ed-46dc-bfc2-65228b669992
-
 ms.date: 12/05/2018
 ms.keywords: WSAGetLastError, WSAGetLastError function [Winsock], _win32_wsagetlasterror_2, winsock.wsagetlasterror_2, winsock/WSAGetLastError
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSAGetLastError"
+f1_keywords:
+- winsock2/WSAGetLastError
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSAGetLastError
+- WSAGetLastError
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mobsync.ISyncMgrSynchronizeInvoke
 title: ISyncMgrSynchronizeInvoke (mobsync.h)
-
 description: Exposes methods that enable a registered application to invoke the synchronization manager to update items.
 old-location: shell\syncmgr_isyncmgrsynchronizeinvoke.htm
 tech.root: shell
 ms.assetid: 993fd482-39e0-4966-ba71-eed7e4b54f72
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronizeInvoke, ISyncMgrSynchronizeInvoke interface [Windows Shell], ISyncMgrSynchronizeInvoke interface [Windows Shell],described, mobsync/ISyncMgrSynchronizeInvoke, shell.syncmgr_isyncmgrsynchronizeinvoke, syncmgr.isyncmgrsynchronizeinvoke
 ms.topic: interface
-f1_keywords: 
- - "mobsync/ISyncMgrSynchronizeInvoke"
+f1_keywords:
+- mobsync/ISyncMgrSynchronizeInvoke
 dev_langs:
- - c++
+- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mobsync.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mobsync.dll
+- Mobsync.dll
 api_name:
- - ISyncMgrSynchronizeInvoke
+- ISyncMgrSynchronizeInvoke
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._IMAGE_ENCLAVE_IMPORT
 title: IMAGE_ENCLAVE_IMPORT (winnt.h)
-
 description: Defines a entry in the array of images that an enclave can import.
 old-location: base\image_enclave_import.htm
 tech.root: Memory
 ms.assetid: 32E75114-61B2-4051-99EC-873DD75A368A
-
 ms.date: 12/05/2018
-ms.keywords: "*PIMAGE_ENCLAVE_IMPORT, IMAGE_ENCLAVE_IMPORT, IMAGE_ENCLAVE_IMPORT structure, IMAGE_ENCLAVE_IMPORT_MATCH_AUTHOR_ID, IMAGE_ENCLAVE_IMPORT_MATCH_FAMILY_ID, IMAGE_ENCLAVE_IMPORT_MATCH_IMAGE_ID, IMAGE_ENCLAVE_IMPORT_MATCH_NONE, IMAGE_ENCLAVE_IMPORT_MATCH_UNIQUE_ID, PIMAGE_ENCLAVE_IMPORT, PIMAGE_ENCLAVE_IMPORT structure pointer, base.image_enclave_import, winnt/IMAGE_ENCLAVE_IMPORT, winnt/PIMAGE_ENCLAVE_IMPORT"
+ms.keywords: '*PIMAGE_ENCLAVE_IMPORT, IMAGE_ENCLAVE_IMPORT, IMAGE_ENCLAVE_IMPORT structure, IMAGE_ENCLAVE_IMPORT_MATCH_AUTHOR_ID, IMAGE_ENCLAVE_IMPORT_MATCH_FAMILY_ID, IMAGE_ENCLAVE_IMPORT_MATCH_IMAGE_ID, IMAGE_ENCLAVE_IMPORT_MATCH_NONE, IMAGE_ENCLAVE_IMPORT_MATCH_UNIQUE_ID, PIMAGE_ENCLAVE_IMPORT, PIMAGE_ENCLAVE_IMPORT structure pointer, base.image_enclave_import, winnt/IMAGE_ENCLAVE_IMPORT, winnt/PIMAGE_ENCLAVE_IMPORT'
 ms.topic: struct
-f1_keywords: 
- - "winnt/IMAGE_ENCLAVE_IMPORT"
+f1_keywords:
+- winnt/IMAGE_ENCLAVE_IMPORT
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winnt.h
+- winnt.h
 api_name:
- - IMAGE_ENCLAVE_IMPORT
+- IMAGE_ENCLAVE_IMPORT
 targetos: Windows
 req.typenames: IMAGE_ENCLAVE_IMPORT, *PIMAGE_ENCLAVE_IMPORT
 req.redist: 

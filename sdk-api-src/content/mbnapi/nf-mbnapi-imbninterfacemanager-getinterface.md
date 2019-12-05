@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceManager.GetInterface
 title: IMbnInterfaceManager::GetInterface (mbnapi.h)
-
 description: Gets a specific interface.
 old-location: mbn\imbninterfacemanager_getinterface.htm
 tech.root: mbn
 ms.assetid: f44aa20d-7edd-4227-8eca-9aacb19619e8
-
 ms.date: 12/05/2018
 ms.keywords: GetInterface, GetInterface method [Microsoft Broadband Networks], GetInterface method [Microsoft Broadband Networks],IMbnInterfaceManager interface, IMbnInterfaceManager interface [Microsoft Broadband Networks],GetInterface method, IMbnInterfaceManager.GetInterface, IMbnInterfaceManager::GetInterface, mbn.imbninterfacemanager_getinterface, mbnapi/IMbnInterfaceManager::GetInterface
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnInterfaceManager.GetInterface"
+f1_keywords:
+- mbnapi/IMbnInterfaceManager.GetInterface
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnInterfaceManager.GetInterface
+- IMbnInterfaceManager.GetInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

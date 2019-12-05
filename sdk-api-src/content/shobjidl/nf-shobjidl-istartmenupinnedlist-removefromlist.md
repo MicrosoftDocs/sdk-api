@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IStartMenuPinnedList.RemoveFromList
 title: IStartMenuPinnedList::RemoveFromList (shobjidl.h)
-
 description: Windows Vista:\_Removes an item from the Start menu pinned list, which is the list in the upper left position of the Start menu.
 old-location: shell\IStartMenuPinnedList_RemoveFromList.htm
 tech.root: shell
 ms.assetid: 8c725c4b-4de6-433b-a647-3c13674084f2
-
 ms.date: 12/05/2018
 ms.keywords: IStartMenuPinnedList interface [Windows Shell],RemoveFromList method, IStartMenuPinnedList.RemoveFromList, IStartMenuPinnedList::RemoveFromList, RemoveFromList, RemoveFromList method [Windows Shell], RemoveFromList method [Windows Shell],IStartMenuPinnedList interface, _shell_IStartMenuPinnedList_RemoveFromList, shell.IStartMenuPinnedList_RemoveFromList, shobjidl/IStartMenuPinnedList::RemoveFromList
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IStartMenuPinnedList.RemoveFromList"
+f1_keywords:
+- shobjidl/IStartMenuPinnedList.RemoveFromList
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IStartMenuPinnedList.RemoveFromList
+- IStartMenuPinnedList.RemoveFromList
 targetos: Windows
 req.typenames: 
 req.redist: 

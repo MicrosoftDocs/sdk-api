@@ -1,19 +1,17 @@
 ---
 UID: NF:mspaddr.CMSPAddress.GetCallMediaTypes
 title: CMSPAddress::GetCallMediaTypes (mspaddr.h)
-
 description: The GetCallMediaTypes method gets media types supported by the MSP. The derived class must override this method to indicate the media types supported. The relevant TAPIMEDIATYPE constants should be ORed together and returned.
 old-location: tapi3\cmspaddress_getcallmediatypes.htm
 tech.root: Tapi
 ms.assetid: 7331afda-d021-428e-aa09-eecc96709744
-
 ms.date: 12/05/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],GetCallMediaTypes method, CMSPAddress.GetCallMediaTypes, CMSPAddress::GetCallMediaTypes, GetCallMediaTypes, GetCallMediaTypes method [TAPI 2.2], GetCallMediaTypes method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_getcallmediatypes, mspaddr/CMSPAddress::GetCallMediaTypes, tapi3.cmspaddress_getcallmediatypes
 ms.topic: method
-f1_keywords: 
- - "mspaddr/CMSPAddress.GetCallMediaTypes"
+f1_keywords:
+- mspaddr/CMSPAddress.GetCallMediaTypes
 dev_langs:
- - c++
+- c++
 req.header: mspaddr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mspaddr.h
+- Mspaddr.h
 api_name:
- - CMSPAddress.GetCallMediaTypes
+- CMSPAddress.GetCallMediaTypes
 targetos: Windows
 req.typenames: 
 req.redist: 

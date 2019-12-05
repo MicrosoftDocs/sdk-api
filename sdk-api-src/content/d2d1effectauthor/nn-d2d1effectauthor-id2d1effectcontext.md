@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1EffectContext
 title: ID2D1EffectContext (d2d1effectauthor.h)
-
 description: Provides factory methods and other state management for effect and transform authors.
 old-location: direct2d\id2d1contextinternal.htm
 tech.root: Direct2D
 ms.assetid: 6BE6DF90-C5B7-4377-9DBF-804AB1C91FEE
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1EffectContext, ID2D1EffectContext interface [Direct2D], ID2D1EffectContext interface [Direct2D],described, d2d1effectauthor/ID2D1EffectContext, direct2d.id2d1contextinternal
 ms.topic: interface
-f1_keywords: 
- - "d2d1effectauthor/ID2D1EffectContext"
+f1_keywords:
+- d2d1effectauthor/ID2D1EffectContext
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2D1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2D1.lib
- - D2D1.dll
+- D2D1.lib
+- D2D1.dll
 api_name:
- - ID2D1EffectContext
+- ID2D1EffectContext
 targetos: Windows
 req.typenames: 
 req.redist: 

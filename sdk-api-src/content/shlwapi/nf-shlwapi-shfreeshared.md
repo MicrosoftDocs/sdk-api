@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHFreeShared
 title: SHFreeShared function (shlwapi.h)
-
 description: SHFreeShared may be altered or unavailable.
 old-location: shell\SHFreeShared.htm
 tech.root: shell
 ms.assetid: 5a86ae5d-8caa-4126-a22e-bc3cc7df2381
-
 ms.date: 12/05/2018
 ms.keywords: SHFreeShared, SHFreeShared function [Windows Shell], _win32_SHFreeShared, shell.SHFreeShared, shlwapi/SHFreeShared
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHFreeShared"
+f1_keywords:
+- shlwapi/SHFreeShared
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - SHFreeShared
+- SHFreeShared
 targetos: Windows
 req.typenames: 
 req.redist: 

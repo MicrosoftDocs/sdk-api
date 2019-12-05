@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProvider.get_MajorVersion
 title: IFaxDeviceProvider::get_MajorVersion (faxcomex.h)
-
 description: The IFaxDeviceProvider::get_MajorVersion property is a value that specifies the major part of the version number for the fax service provider (FSP)Â DLL.
 old-location: fax\_mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_majorversion_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_992m.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDeviceProvider interface [Fax Service],MajorVersion property, IFaxDeviceProvider.MajorVersion, IFaxDeviceProvider.get_MajorVersion, IFaxDeviceProvider::MajorVersion, IFaxDeviceProvider::get_MajorVersion, MajorVersion property [Fax Service], MajorVersion property [Fax Service],IFaxDeviceProvider interface, _mfax_faxdeviceprovider.majorversion, fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_majorversion_cpp, fax._mfax_faxdeviceprovider_majorversion, faxcomex/IFaxDeviceProvider::MajorVersion, faxcomex/IFaxDeviceProvider::get_MajorVersion, get_MajorVersion
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDeviceProvider.MajorVersion"
+f1_keywords:
+- faxcomex/IFaxDeviceProvider.MajorVersion
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDeviceProvider.MajorVersion
- - IFaxDeviceProvider.get_MajorVersion
- - IFaxDeviceProvider.get_MajorVersion
+- IFaxDeviceProvider.MajorVersion
+- IFaxDeviceProvider.get_MajorVersion
+- IFaxDeviceProvider.get_MajorVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

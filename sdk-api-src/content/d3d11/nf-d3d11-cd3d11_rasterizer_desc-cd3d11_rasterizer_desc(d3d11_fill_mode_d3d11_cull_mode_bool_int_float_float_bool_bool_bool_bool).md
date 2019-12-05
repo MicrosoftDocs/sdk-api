@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.CD3D11_RASTERIZER_DESC.CD3D11_RASTERIZER_DESC(D3D11_FILL_MODE,D3D11_CULL_MODE,BOOL,INT,FLOAT,FLOAT,BOOL,BOOL,BOOL,BOOL)
 title: CD3D11_RASTERIZER_DESC::CD3D11_RASTERIZER_DESC(D3D11_FILL_MODE,D3D11_CULL_MODE,BOOL,INT,FLOAT,FLOAT,BOOL,BOOL,BOOL,BOOL) (d3d11.h)
-
 description: Instantiates a new instance of a CD3D11_RASTERIZER_DESC structure that is initialized with D3D11_RASTERIZER_DESC values.
 old-location: direct3d11\cd3d11_rasterizer_desc_cd3d11_rasterizer_desc_d3d11_rasterizer_desc_values_.htm
 tech.root: direct3d11
 ms.assetid: 834A2388-9EC2-4655-9B60-89F2813B74F3
-
 ms.date: 12/05/2018
 ms.keywords: CD3D11_RASTERIZER_DESC, CD3D11_RASTERIZER_DESC constructor [Direct3D 11], CD3D11_RASTERIZER_DESC constructor [Direct3D 11],CD3D11_RASTERIZER_DESC interface, CD3D11_RASTERIZER_DESC interface [Direct3D 11],CD3D11_RASTERIZER_DESC constructor, CD3D11_RASTERIZER_DESC.CD3D11_RASTERIZER_DESC, CD3D11_RASTERIZER_DESC.CD3D11_RASTERIZER_DESC(D3D11_FILL_MODE,D3D11_CULL_MODE,BOOL,INT,FLOAT,FLOAT,BOOL,BOOL,BOOL,BOOL), CD3D11_RASTERIZER_DESC::CD3D11_RASTERIZER_DESC, CD3D11_RASTERIZER_DESC::CD3D11_RASTERIZER_DESC(D3D11_FILL_MODE,D3D11_CULL_MODE,BOOL,INT,FLOAT,FLOAT,BOOL,BOOL,BOOL,BOOL), d3d11/CD3D11_RASTERIZER_DESC::CD3D11_RASTERIZER_DESC, direct3d11.cd3d11_rasterizer_desc_cd3d11_rasterizer_desc_d3d11_rasterizer_desc_values_
 ms.topic: method
-f1_keywords: 
- - "d3d11/CD3D11_RASTERIZER_DESC.CD3D11_RASTERIZER_DESC"
+f1_keywords:
+- d3d11/CD3D11_RASTERIZER_DESC.CD3D11_RASTERIZER_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - CD3D11_RASTERIZER_DESC.CD3D11_RASTERIZER_DESC
+- CD3D11_RASTERIZER_DESC.CD3D11_RASTERIZER_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 

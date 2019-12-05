@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_Update
 title: ListView_Update macro (commctrl.h)
-
 description: Updates a list-view item. If the list-view control has the LVS_AUTOARRANGE style, this macro causes the list-view control to be arranged. You can use this macro or send the LVM_UPDATE message explicitly.
 old-location: controls\ListView_Update.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_update.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_Update, ListView_Update macro [Windows Controls], _win32_ListView_Update, _win32_ListView_Update_cpp, commctrl/ListView_Update, controls.ListView_Update, controls._win32_ListView_Update
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_Update"
+f1_keywords:
+- commctrl/ListView_Update
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_Update
+- ListView_Update
 targetos: Windows
 req.typenames: 
 req.redist: 

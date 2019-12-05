@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem2.AddStream
 title: IFsiFileItem2::AddStream (imapi2fs.h)
-
 description: Associates a named stream with a specific file in the file system image.
 old-location: imapi\ifsifileitem2_addstream.htm
 tech.root: imapi
 ms.assetid: 5235fc56-4ab6-4ecb-95b4-2498c7463bf2
-
 ms.date: 12/05/2018
 ms.keywords: AddStream, AddStream method [IMAPI], AddStream method [IMAPI],IFsiFileItem2 interface, IFsiFileItem2 interface [IMAPI],AddStream method, IFsiFileItem2.AddStream, IFsiFileItem2::AddStream, imapi.ifsifileitem2_addstream, imapi2fs/IFsiFileItem2::AddStream
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFsiFileItem2.AddStream"
+f1_keywords:
+- imapi2fs/IFsiFileItem2.AddStream
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiFileItem2.AddStream
+- IFsiFileItem2.AddStream
 targetos: Windows
 req.typenames: 
 req.redist: 

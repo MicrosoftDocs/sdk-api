@@ -1,19 +1,17 @@
 ---
 UID: NE:scesvc._SCESVC_INFO_TYPE
 title: SCESVC_INFO_TYPE (scesvc.h)
-
 description: The SCESVC_INFO_TYPE enumeration is used by PFSCE_QUERY_INFO and PFSCE_SET_INFO to indicate the type of information requested from or passed to the security database. It can be one of the following values.
 old-location: security\scesvc_info_type.htm
 tech.root: SecMgmt
 ms.assetid: 697dfecf-46a9-4558-90e2-099fabc60742
-
 ms.date: 12/05/2018
 ms.keywords: SCESVC_INFO_TYPE, SCESVC_INFO_TYPE enumeration [Security], SceSvcAnalysisInfo, SceSvcConfigurationInfo, SceSvcInternalUse, SceSvcMergedPolicyInfo, _config_scesvc_info_type, scesvc/SCESVC_INFO_TYPE, scesvc/SceSvcAnalysisInfo, scesvc/SceSvcConfigurationInfo, scesvc/SceSvcInternalUse, scesvc/SceSvcMergedPolicyInfo, security.scesvc_info_type
 ms.topic: enum
-f1_keywords: 
- - "scesvc/SCESVC_INFO_TYPE"
+f1_keywords:
+- scesvc/SCESVC_INFO_TYPE
 dev_langs:
- - c++
+- c++
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Scesvc.h
+- Scesvc.h
 api_name:
- - SCESVC_INFO_TYPE
+- SCESVC_INFO_TYPE
 targetos: Windows
 req.typenames: SCESVC_INFO_TYPE
 req.redist: 

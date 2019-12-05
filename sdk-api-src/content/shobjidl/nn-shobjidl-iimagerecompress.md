@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.IImageRecompress
 title: IImageRecompress (shobjidl.h)
-
 description: Exposes a method that recompress images.
 old-location: shell\IImageRecompress.htm
 tech.root: shell
 ms.assetid: 48e07bc4-da70-406b-8024-3fa36416247f
-
 ms.date: 12/05/2018
 ms.keywords: IImageRecompress, IImageRecompress interface [Windows Shell], IImageRecompress interface [Windows Shell],described, _win32_IImageRecompress, shell.IImageRecompress, shobjidl/IImageRecompress
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/IImageRecompress"
+f1_keywords:
+- shobjidl/IImageRecompress
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shimgvw.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shimgvw.dll
+- Shimgvw.dll
 api_name:
- - IImageRecompress
+- IImageRecompress
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Font.GetFamily
 title: Font::GetFamily (gdiplusheaders.h)
-
 description: The Font::GetFamily method gets the font family on which this font is based.
 old-location: gdiplus\_gdiplus_CLASS_Font_GetFamily_family_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\getfamily.htm
-
 ms.date: 12/05/2018
 ms.keywords: Font class [GDI+],GetFamily method, Font.GetFamily, Font::GetFamily, GetFamily, GetFamily method [GDI+], GetFamily method [GDI+],Font class, _gdiplus_CLASS_Font_GetFamily_family_, gdiplus._gdiplus_CLASS_Font_GetFamily_family_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Font.GetFamily"
+f1_keywords:
+- gdiplusheaders/Font.GetFamily
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Font.GetFamily
+- Font.GetFamily
 targetos: Windows
 req.typenames: 
 req.redist: 

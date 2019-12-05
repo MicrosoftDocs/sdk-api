@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.ChangeWindowMessageFilter
 title: ChangeWindowMessageFilter function (winuser.h)
-
 description: Adds or removes a message from the User Interface Privilege Isolation (UIPI) message filter.
 old-location: winmsg\changewindowmessagefilter.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\changewindowmessagefilter.htm
-
 ms.date: 12/05/2018
 ms.keywords: ChangeWindowMessageFilter, ChangeWindowMessageFilter function [Windows and Messages], MSGFLT_ADD, MSGFLT_REMOVE, _win32_ChangeWindowMessageFilter, _win32_changewindowmessagefilter_cpp, winmsg.changewindowmessagefilter, winui._win32_changewindowmessagefilter, winuser/ChangeWindowMessageFilter
 ms.topic: function
-f1_keywords: 
- - "winuser/ChangeWindowMessageFilter"
+f1_keywords:
+- winuser/ChangeWindowMessageFilter
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - ChangeWindowMessageFilter
+- ChangeWindowMessageFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

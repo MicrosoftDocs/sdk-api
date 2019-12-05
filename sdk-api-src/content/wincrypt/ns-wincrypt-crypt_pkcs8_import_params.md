@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CRYPT_PKCS8_IMPORT_PARAMS
 title: CRYPT_PKCS8_IMPORT_PARAMS (wincrypt.h)
-
-description: Contains a PKCS #8 private key and pointers to callback functions. CRYPT_PKCS8_IMPORT_PARAMS is used by the CryptImportPKCS8 function.
+description: Contains a PKCS
 old-location: security\crypt_pkcs8_import_params.htm
 tech.root: SecCrypto
 ms.assetid: a016e807-60d3-4ae4-829b-43acea2ee8c1
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_PKCS8_IMPORT_PARAMS, *PCRYPT_PRIVATE_KEY_BLOB_AND_PARAMS, CRYPT_PKCS8_IMPORT_PARAMS, CRYPT_PKCS8_IMPORT_PARAMS structure [Security], CRYPT_PRIVATE_KEY_BLOB_AND_PARAMS, CRYPT_PRIVATE_KEY_BLOB_AND_PARAMS structure [Security], PCRYPT_PKCS8_IMPORT_PARAMS, PCRYPT_PKCS8_IMPORT_PARAMS structure pointer [Security], PCRYPT_PRIVATE_KEY_BLOB_AND_PARAMS, PCRYPT_PRIVATE_KEY_BLOB_AND_PARAMS structure pointer [Security], security.crypt_pkcs8_import_params, wincrypt/CRYPT_PKCS8_IMPORT_PARAMS, wincrypt/CRYPT_PRIVATE_KEY_BLOB_AND_PARAMS, wincrypt/PCRYPT_PKCS8_IMPORT_PARAMS, wincrypt/PCRYPT_PRIVATE_KEY_BLOB_AND_PARAMS"
+ms.keywords: '*PCRYPT_PKCS8_IMPORT_PARAMS, *PCRYPT_PRIVATE_KEY_BLOB_AND_PARAMS, CRYPT_PKCS8_IMPORT_PARAMS, CRYPT_PKCS8_IMPORT_PARAMS structure [Security], CRYPT_PRIVATE_KEY_BLOB_AND_PARAMS, CRYPT_PRIVATE_KEY_BLOB_AND_PARAMS structure [Security], PCRYPT_PKCS8_IMPORT_PARAMS, PCRYPT_PKCS8_IMPORT_PARAMS structure pointer [Security], PCRYPT_PRIVATE_KEY_BLOB_AND_PARAMS, PCRYPT_PRIVATE_KEY_BLOB_AND_PARAMS structure pointer [Security], security.crypt_pkcs8_import_params, wincrypt/CRYPT_PKCS8_IMPORT_PARAMS, wincrypt/CRYPT_PRIVATE_KEY_BLOB_AND_PARAMS, wincrypt/PCRYPT_PKCS8_IMPORT_PARAMS, wincrypt/PCRYPT_PRIVATE_KEY_BLOB_AND_PARAMS'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_PKCS8_IMPORT_PARAMS"
+f1_keywords:
+- wincrypt/CRYPT_PKCS8_IMPORT_PARAMS
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_PKCS8_IMPORT_PARAMS
+- CRYPT_PKCS8_IMPORT_PARAMS
 targetos: Windows
 req.typenames: CRYPT_PKCS8_IMPORT_PARAMS, *PCRYPT_PKCS8_IMPORT_PARAMS, CRYPT_PRIVATE_KEY_BLOB_AND_PARAMS, *PCRYPT_PRIVATE_KEY_BLOB_AND_PARAMS
 req.redist: 

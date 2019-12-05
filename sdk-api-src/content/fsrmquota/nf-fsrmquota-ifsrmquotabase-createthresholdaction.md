@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.CreateThresholdAction
 title: IFsrmQuotaBase::CreateThresholdAction (fsrmquota.h)
-
 description: Creates an action and associates it with the specified threshold.
 old-location: fsrm\ifsrmquotabase_createthresholdaction.htm
 tech.root: fsrm
 ms.assetid: 27813041-ee42-4412-982e-fce594c5e648
-
 ms.date: 12/05/2018
 ms.keywords: CreateThresholdAction, CreateThresholdAction method [File Server Resource Manager], CreateThresholdAction method [File Server Resource Manager],IFsrmQuotaBase interface, IFsrmQuotaBase interface [File Server Resource Manager],CreateThresholdAction method, IFsrmQuotaBase.CreateThresholdAction, IFsrmQuotaBase::CreateThresholdAction, fs.ifsrmquotabase_createthresholdaction, fsrm.ifsrmquotabase_createthresholdaction, fsrmquota/IFsrmQuotaBase::CreateThresholdAction
 ms.topic: method
 f1_keywords:
 - fsrmquota/IFsrmQuotaBase.CreateThresholdAction
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows

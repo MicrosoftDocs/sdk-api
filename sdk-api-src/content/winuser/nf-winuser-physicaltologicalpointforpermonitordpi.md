@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.PhysicalToLogicalPointForPerMonitorDPI
 title: PhysicalToLogicalPointForPerMonitorDPI function (winuser.h)
-
 description: Converts a point in a window from logical coordinates into physical coordinates, regardless of the dots per inch (dpi) awareness of the caller.
 old-location: hidpi\physicaltologicalpointforpermonitordpi.htm
 tech.root: hidpi
 ms.assetid: DC744BFC-4410-4878-BEA7-382550DDF9E3
-
 ms.date: 12/05/2018
 ms.keywords: PhysicalToLogicalPointForPerMonitorDPI, PhysicalToLogicalPointForPerMonitorDPI function [High DPI], hidpi.physicaltologicalpointforpermonitordpi, winuser/PhysicalToLogicalPointForPerMonitorDPI
 ms.topic: function
-f1_keywords: 
- - "winuser/PhysicalToLogicalPointForPerMonitorDPI"
+f1_keywords:
+- winuser/PhysicalToLogicalPointForPerMonitorDPI
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - PhysicalToLogicalPointForPerMonitorDPI
+- PhysicalToLogicalPointForPerMonitorDPI
 targetos: Windows
 req.typenames: 
 req.redist: 

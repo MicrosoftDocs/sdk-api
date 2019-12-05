@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Object.GetPrivateData
 title: ID3D12Object::GetPrivateData (d3d12.h)
-
 description: Gets application-defined data from a device object.
 old-location: direct3d12\id3d12object_getprivatedata.htm
 tech.root: direct3d12
 ms.assetid: B2F1FFBE-1680-40D7-8B99-07FCA3F3EA0B
-
 ms.date: 12/05/2018
 ms.keywords: GetPrivateData, GetPrivateData method, GetPrivateData method,ID3D12Object interface, ID3D12Object interface,GetPrivateData method, ID3D12Object.GetPrivateData, ID3D12Object::GetPrivateData, d3d12/ID3D12Object::GetPrivateData, direct3d12.id3d12object_getprivatedata
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Object.GetPrivateData"
+f1_keywords:
+- d3d12/ID3D12Object.GetPrivateData
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Object.GetPrivateData
+- ID3D12Object.GetPrivateData
 targetos: Windows
 req.typenames: 
 req.redist: 

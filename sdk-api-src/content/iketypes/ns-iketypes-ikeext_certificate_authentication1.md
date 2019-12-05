@@ -1,19 +1,17 @@
 ---
 UID: NS:iketypes.IKEEXT_CERTIFICATE_AUTHENTICATION1_
 title: IKEEXT_CERTIFICATE_AUTHENTICATION1 (iketypes.h)
-
 description: Is used to specify various parameters for authentication with certificates.
 old-location: fwp\ikeext_certificate_authentication1.htm
 tech.root: fwp
 ms.assetid: 45325f89-b5c9-4f8c-b9b0-4f0b01b34aab
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_CERTIFICATE_AUTHENTICATION1, IKEEXT_CERTIFICATE_AUTHENTICATION1 structure [Filtering], IKEEXT_CERT_AUTH_ALLOW_HTTP_CERT_LOOKUP, IKEEXT_CERT_AUTH_DISABLE_SSL_CERT_VALIDATION, IKEEXT_CERT_AUTH_ENABLE_CRL_CHECK_STRONG, IKEEXT_CERT_AUTH_FLAG_DISABLE_CRL_CHECK, IKEEXT_CERT_AUTH_FLAG_SSL_ONE_WAY, IKEEXT_CERT_AUTH_URL_CONTAINS_BUNDLE, fwp.ikeext_certificate_authentication1, iketypes/IKEEXT_CERTIFICATE_AUTHENTICATION1
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_CERTIFICATE_AUTHENTICATION1"
+f1_keywords:
+- iketypes/IKEEXT_CERTIFICATE_AUTHENTICATION1
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_CERTIFICATE_AUTHENTICATION1
+- IKEEXT_CERTIFICATE_AUTHENTICATION1
 targetos: Windows
 req.typenames: IKEEXT_CERTIFICATE_AUTHENTICATION1
 req.redist: 

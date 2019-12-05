@@ -1,19 +1,17 @@
 ---
 UID: NS:searchapi._INCREMENTAL_ACCESS_INFO
 title: INCREMENTAL_ACCESS_INFO (searchapi.h)
-
 description: Contains access information used by an incremental crawl, such as the last access date and modification time.
 old-location: search\_search_INCREMENTAL_ACCESS_INFO.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\incremental_access_info.htm
-
 ms.date: 12/05/2018
 ms.keywords: INCREMENTAL_ACCESS_INFO, INCREMENTAL_ACCESS_INFO structure [search], _search_INCREMENTAL_ACCESS_INFO, search._search_INCREMENTAL_ACCESS_INFO, searchapi/INCREMENTAL_ACCESS_INFO
 ms.topic: struct
-f1_keywords: 
- - "searchapi/INCREMENTAL_ACCESS_INFO"
+f1_keywords:
+- searchapi/INCREMENTAL_ACCESS_INFO
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - INCREMENTAL_ACCESS_INFO
+- INCREMENTAL_ACCESS_INFO
 targetos: Windows
 req.typenames: INCREMENTAL_ACCESS_INFO
 req.redist: Windows Desktop Search (WDS) 3.0

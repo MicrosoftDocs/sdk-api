@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetTapeStatus
 title: GetTapeStatus function (winbase.h)
-
 description: Determines whether the tape device is ready to process tape commands.
 old-location: backup\gettapestatus.htm
 tech.root: Backup
 ms.assetid: 37422a27-2d46-43db-9318-4a3547b7f933
-
 ms.date: 12/05/2018
 ms.keywords: GetTapeStatus, GetTapeStatus function [Backup], _win32_gettapestatus, backup.gettapestatus, base.gettapestatus, winbase/GetTapeStatus
 ms.topic: function
-f1_keywords: 
- - "winbase/GetTapeStatus"
+f1_keywords:
+- winbase/GetTapeStatus
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - GetTapeStatus
+- GetTapeStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

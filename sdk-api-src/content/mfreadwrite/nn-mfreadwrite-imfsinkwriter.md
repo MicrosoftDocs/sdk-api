@@ -1,19 +1,17 @@
 ---
 UID: NN:mfreadwrite.IMFSinkWriter
 title: IMFSinkWriter (mfreadwrite.h)
-
 description: Implemented by the Microsoft Media Foundation sink writer object.
 old-location: mf\imfsinkwriter.htm
 tech.root: medfound
 ms.assetid: 76fb915e-1586-429a-88a5-bd1290799352
-
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriter, IMFSinkWriter interface [Media Foundation], IMFSinkWriter interface [Media Foundation],described, mf.imfsinkwriter, mfreadwrite/IMFSinkWriter
 ms.topic: interface
-f1_keywords: 
- - "mfreadwrite/IMFSinkWriter"
+f1_keywords:
+- mfreadwrite/IMFSinkWriter
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSinkWriter
+- IMFSinkWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

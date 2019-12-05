@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.GetContentProtectionCaps
 title: ID3D11VideoDevice::GetContentProtectionCaps (d3d11.h)
-
 description: Queries the driver for its content protection capabilities.
 old-location: mf\id3d11videodevice_getcontentprotectioncaps.htm
 tech.root: medfound
 ms.assetid: 3BF2D2B9-6A12-4E71-9F52-829BABA32EF6
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_CRYPTO_TYPE_AES128_CTR, GetContentProtectionCaps, GetContentProtectionCaps method [Media Foundation], GetContentProtectionCaps method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],GetContentProtectionCaps method, ID3D11VideoDevice.GetContentProtectionCaps, ID3D11VideoDevice::GetContentProtectionCaps, d3d11/ID3D11VideoDevice::GetContentProtectionCaps, mf.id3d11videodevice_getcontentprotectioncaps
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoDevice.GetContentProtectionCaps"
+f1_keywords:
+- d3d11/ID3D11VideoDevice.GetContentProtectionCaps
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoDevice.GetContentProtectionCaps
+- ID3D11VideoDevice.GetContentProtectionCaps
 targetos: Windows
 req.typenames: 
 req.redist: 

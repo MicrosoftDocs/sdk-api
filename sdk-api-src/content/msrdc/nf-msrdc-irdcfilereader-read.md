@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.IRdcFileReader.Read
 title: IRdcFileReader::Read (msrdc.h)
-
 description: Reads the specified amount of data starting at the specified position.
 old-location: rdc\irdcfilereader_read.htm
 tech.root: rdc
 ms.assetid: 194944c8-94a8-4f9b-9970-012392e069b1
-
 ms.date: 12/05/2018
 ms.keywords: IRdcFileReader interface [Remote Differential Compression],Read method, IRdcFileReader.Read, IRdcFileReader::Read, Read, Read method [Remote Differential Compression], Read method [Remote Differential Compression],IRdcFileReader interface, fs.irdcfilereader_read, msrdc/IRdcFileReader::Read, rdc.irdcfilereader_read
 ms.topic: method
-f1_keywords: 
- - "msrdc/IRdcFileReader.Read"
+f1_keywords:
+- msrdc/IRdcFileReader.Read
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - IRdcFileReader.Read
+- IRdcFileReader.Read
 targetos: Windows
 req.typenames: 
 req.redist: 

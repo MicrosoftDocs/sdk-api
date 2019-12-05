@@ -1,19 +1,17 @@
 ---
 UID: NE:certenroll.X509PrivateKeyProtection
 title: X509PrivateKeyProtection (certenroll.h)
-
 description: Specifies the level of private key protection supported by a cryptographic provider.
 old-location: security\x509privatekeyprotection.htm
 tech.root: seccertenroll
 ms.assetid: 70f398bc-95bf-459c-901c-d829946aedca
-
 ms.date: 12/05/2018
 ms.keywords: X509PrivateKeyProtection, X509PrivateKeyProtection enumeration [Security], XCN_NCRYPT_UI_FORCE_HIGH_PROTECTION_FLAG, XCN_NCRYPT_UI_NO_PROTECTION_FLAG, XCN_NCRYPT_UI_PROTECT_KEY_FLAG, certenroll/X509PrivateKeyProtection, certenroll/XCN_NCRYPT_UI_FORCE_HIGH_PROTECTION_FLAG, certenroll/XCN_NCRYPT_UI_NO_PROTECTION_FLAG, certenroll/XCN_NCRYPT_UI_PROTECT_KEY_FLAG, security.x509privatekeyprotection
 ms.topic: enum
-f1_keywords: 
- - "certenroll/X509PrivateKeyProtection"
+f1_keywords:
+- certenroll/X509PrivateKeyProtection
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CertEnroll.h
+- CertEnroll.h
 api_name:
- - X509PrivateKeyProtection
+- X509PrivateKeyProtection
 targetos: Windows
 req.typenames: X509PrivateKeyProtection
 req.redist: 

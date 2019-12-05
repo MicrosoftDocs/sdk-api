@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_19
 title: WS_CHANNEL_TYPE (webservices.h)
-
 description: Indicates the basic characteristics of the channel, such as whether it is sessionful, and what directions of communication are supported.
 old-location: wsw\ws_channel_type.htm
 tech.root: wsw
 ms.assetid: 7e1092f9-10e8-485c-a286-770e1c74d8ca
-
 ms.date: 12/05/2018
 ms.keywords: WS_CHANNEL_TYPE, WS_CHANNEL_TYPE enumeration [Web Services for Windows], WS_CHANNEL_TYPE_DUPLEX, WS_CHANNEL_TYPE_DUPLEX_SESSION, WS_CHANNEL_TYPE_INPUT, WS_CHANNEL_TYPE_INPUT_SESSION, WS_CHANNEL_TYPE_OUTPUT, WS_CHANNEL_TYPE_OUTPUT_SESSION, WS_CHANNEL_TYPE_REPLY, WS_CHANNEL_TYPE_REQUEST, WS_CHANNEL_TYPE_SESSION, webservices/WS_CHANNEL_TYPE, webservices/WS_CHANNEL_TYPE_DUPLEX, webservices/WS_CHANNEL_TYPE_DUPLEX_SESSION, webservices/WS_CHANNEL_TYPE_INPUT, webservices/WS_CHANNEL_TYPE_INPUT_SESSION, webservices/WS_CHANNEL_TYPE_OUTPUT, webservices/WS_CHANNEL_TYPE_OUTPUT_SESSION, webservices/WS_CHANNEL_TYPE_REPLY, webservices/WS_CHANNEL_TYPE_REQUEST, webservices/WS_CHANNEL_TYPE_SESSION, wsw.ws_channel_type
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_CHANNEL_TYPE"
+f1_keywords:
+- webservices/WS_CHANNEL_TYPE
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_CHANNEL_TYPE
+- WS_CHANNEL_TYPE
 targetos: Windows
 req.typenames: WS_CHANNEL_TYPE
 req.redist: 

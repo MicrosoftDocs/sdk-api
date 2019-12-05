@@ -1,19 +1,17 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.get_IntegerDecode
 title: IMpegAudioDecoder::get_IntegerDecode (mpegtype.h)
-
 description: Returns whether the decoder is currently using integer-based decoding as opposed to floating point decoding.
 old-location: dshow\impegaudiodecoder_get_integerdecode.htm
 tech.root: DirectShow
 ms.assetid: 3cb73c5a-8bca-4dc3-a48c-cac57f3d7fbf
-
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],get_IntegerDecode method, IMpegAudioDecoder.get_IntegerDecode, IMpegAudioDecoder::get_IntegerDecode, IMpegAudioDecodergetIntegerDecode, dshow.impegaudiodecoder_get_integerdecode, get_IntegerDecode, get_IntegerDecode method [DirectShow], get_IntegerDecode method [DirectShow],IMpegAudioDecoder interface, mpegtype/IMpegAudioDecoder::get_IntegerDecode
 ms.topic: method
-f1_keywords: 
- - "mpegtype/IMpegAudioDecoder.get_IntegerDecode"
+f1_keywords:
+- mpegtype/IMpegAudioDecoder.get_IntegerDecode
 dev_langs:
- - c++
+- c++
 req.header: mpegtype.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMpegAudioDecoder.get_IntegerDecode
+- IMpegAudioDecoder.get_IntegerDecode
 targetos: Windows
 req.typenames: 
 req.redist: 

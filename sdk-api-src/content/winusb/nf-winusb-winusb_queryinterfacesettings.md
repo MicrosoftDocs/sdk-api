@@ -1,19 +1,17 @@
 ---
 UID: NF:winusb.WinUsb_QueryInterfaceSettings
 title: WinUsb_QueryInterfaceSettings function (winusb.h)
-
 description: The WinUsb_QueryInterfaceSettings function retrieves the interface descriptor for the specified alternate interface settings for a particular interface handle.
 old-location: buses\winusb_queryinterfacesettings.htm
 tech.root: usbref
 ms.assetid: fe36e441-60eb-4df3-8100-6c441c599a60
-
 ms.date: 12/05/2018
 ms.keywords: WinUsb_QueryInterfaceSettings, WinUsb_QueryInterfaceSettings function [Buses], buses.winusb_queryinterfacesettings, winusb/WinUsb_QueryInterfaceSettings, winusbfunc_e69535c0-faad-4708-823c-f343e8ae2e9d.xml
 ms.topic: function
-f1_keywords: 
- - "winusb/WinUsb_QueryInterfaceSettings"
+f1_keywords:
+- winusb/WinUsb_QueryInterfaceSettings
 dev_langs:
- - c++
+- c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Winusb.lib
 req.dll: Winusb.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winusb.dll
+- Winusb.dll
 api_name:
- - WinUsb_QueryInterfaceSettings
+- WinUsb_QueryInterfaceSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

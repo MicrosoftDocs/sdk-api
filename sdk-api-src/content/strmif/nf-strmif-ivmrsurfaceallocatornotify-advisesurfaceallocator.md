@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocatorNotify.AdviseSurfaceAllocator
 title: IVMRSurfaceAllocatorNotify::AdviseSurfaceAllocator (strmif.h)
-
 description: The AdviseSurfaceAllocator method is called by an application to instruct the VMR to use a custom allocator-presenter.
 old-location: dshow\ivmrsurfaceallocatornotify_advisesurfaceallocator.htm
 tech.root: DirectShow
 ms.assetid: fdb0837c-1ee3-4dc9-b797-3d726c8ba3dc
-
 ms.date: 12/05/2018
 ms.keywords: AdviseSurfaceAllocator, AdviseSurfaceAllocator method [DirectShow], AdviseSurfaceAllocator method [DirectShow],IVMRSurfaceAllocatorNotify interface, IVMRSurfaceAllocatorNotify interface [DirectShow],AdviseSurfaceAllocator method, IVMRSurfaceAllocatorNotify.AdviseSurfaceAllocator, IVMRSurfaceAllocatorNotify::AdviseSurfaceAllocator, IVMRSurfaceAllocatorNotifyAdviseSurfaceAllocator, dshow.ivmrsurfaceallocatornotify_advisesurfaceallocator, strmif/IVMRSurfaceAllocatorNotify::AdviseSurfaceAllocator
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRSurfaceAllocatorNotify.AdviseSurfaceAllocator"
+f1_keywords:
+- strmif/IVMRSurfaceAllocatorNotify.AdviseSurfaceAllocator
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurfaceAllocatorNotify.AdviseSurfaceAllocator
+- IVMRSurfaceAllocatorNotify.AdviseSurfaceAllocator
 targetos: Windows
 req.typenames: 
 req.redist: 

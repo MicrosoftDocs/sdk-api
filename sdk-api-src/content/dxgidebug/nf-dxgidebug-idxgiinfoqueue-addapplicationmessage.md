@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.AddApplicationMessage
 title: IDXGIInfoQueue::AddApplicationMessage (dxgidebug.h)
-
 description: Adds a user-defined message to the message queue and sends that message to the debug output.
 old-location: direct3ddxgi\idxgiinfoqueue_addapplicationmessage.htm
 tech.root: direct3ddxgi
 ms.assetid: 30245BF0-C0AF-4780-A55F-D55A331427FA
-
 ms.date: 12/05/2018
 ms.keywords: AddApplicationMessage, AddApplicationMessage method [DXGI], AddApplicationMessage method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],AddApplicationMessage method, IDXGIInfoQueue.AddApplicationMessage, IDXGIInfoQueue::AddApplicationMessage, direct3ddxgi.idxgiinfoqueue_addapplicationmessage, dxgidebug/IDXGIInfoQueue::AddApplicationMessage
 ms.topic: method
-f1_keywords: 
- - "dxgidebug/IDXGIInfoQueue.AddApplicationMessage"
+f1_keywords:
+- dxgidebug/IDXGIInfoQueue.AddApplicationMessage
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.AddApplicationMessage
+- IDXGIInfoQueue.AddApplicationMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shappmgr.IEnumPublishedApps.Next
 title: IEnumPublishedApps::Next (shappmgr.h)
-
 description: Gets the next IPublishedApp object in the enumeration.
 old-location: shell\IEnumPublishedApps_Next.htm
 tech.root: shell
 ms.assetid: 78d18529-2eeb-4510-8703-457ffe998bc5
-
 ms.date: 12/05/2018
 ms.keywords: IEnumPublishedApps interface [Windows Shell],Next method, IEnumPublishedApps.Next, IEnumPublishedApps::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumPublishedApps interface, inet_IEnumPublishedApps_Next, shappmgr/IEnumPublishedApps::Next, shell.IEnumPublishedApps_Next
 ms.topic: method
-f1_keywords: 
- - "shappmgr/IEnumPublishedApps.Next"
+f1_keywords:
+- shappmgr/IEnumPublishedApps.Next
 dev_langs:
- - c++
+- c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shappmgr.h
+- Shappmgr.h
 api_name:
- - IEnumPublishedApps.Next
+- IEnumPublishedApps.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

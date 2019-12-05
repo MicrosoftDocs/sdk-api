@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcServerInqDefaultPrincNameW
 title: RpcServerInqDefaultPrincNameW function (rpcdce.h)
-
 description: The RpcServerInqDefaultPrincName function obtains the default principal name for a given authentication service.
 old-location: rpc\rpcserverinqdefaultprincname.htm
 tech.root: Rpc
 ms.assetid: b265e0ae-cdef-450e-bf16-25da5bea7d5e
-
 ms.date: 12/05/2018
 ms.keywords: RpcServerInqDefaultPrincName, RpcServerInqDefaultPrincName function [RPC], RpcServerInqDefaultPrincNameA, RpcServerInqDefaultPrincNameW, _rpc_rpcserverinqdefaultprincname, rpc.rpcserverinqdefaultprincname, rpcdce/RpcServerInqDefaultPrincName, rpcdce/RpcServerInqDefaultPrincNameA, rpcdce/RpcServerInqDefaultPrincNameW
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcServerInqDefaultPrincName"
+f1_keywords:
+- rpcdce/RpcServerInqDefaultPrincName
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcServerInqDefaultPrincName
- - RpcServerInqDefaultPrincNameA
- - RpcServerInqDefaultPrincNameW
+- RpcServerInqDefaultPrincName
+- RpcServerInqDefaultPrincNameA
+- RpcServerInqDefaultPrincNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

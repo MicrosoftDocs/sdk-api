@@ -1,19 +1,17 @@
 ---
 UID: NF:tspubplugincom.ItsPubPlugin.GetCacheLastUpdateTime
 title: ItsPubPlugin::GetCacheLastUpdateTime (tspubplugincom.h)
-
 description: Returns the time that the cache was last updated.
 old-location: termserv\itspubplugin_getcachelastupdatetime.htm
 tech.root: TermServ
 ms.assetid: 66b18c7f-2623-44ed-8cb9-3cceaa9bab34
-
 ms.date: 12/05/2018
 ms.keywords: GetCacheLastUpdateTime, GetCacheLastUpdateTime method [Remote Desktop Services], GetCacheLastUpdateTime method [Remote Desktop Services],ItsPubPlugin interface, ItsPubPlugin interface [Remote Desktop Services],GetCacheLastUpdateTime method, ItsPubPlugin.GetCacheLastUpdateTime, ItsPubPlugin::GetCacheLastUpdateTime, termserv.itspubplugin_getcachelastupdatetime, tspubplugincom/ItsPubPlugin::GetCacheLastUpdateTime
 ms.topic: method
-f1_keywords: 
- - "tspubplugincom/ItsPubPlugin.GetCacheLastUpdateTime"
+f1_keywords:
+- tspubplugincom/ItsPubPlugin.GetCacheLastUpdateTime
 dev_langs:
- - c++
+- c++
 req.header: tspubplugincom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tspubplugincom.h
+- tspubplugincom.h
 api_name:
- - ItsPubPlugin.GetCacheLastUpdateTime
+- ItsPubPlugin.GetCacheLastUpdateTime
 targetos: Windows
 req.typenames: 
 req.redist: 

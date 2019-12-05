@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsbuffer.INSSBuffer4.GetPropertyByIndex
 title: INSSBuffer4::GetPropertyByIndex (wmsbuffer.h)
-
 description: The GetPropertyByIndex method retrieves a buffer property, also called a data unit extension, that was set using INSSBuffer3::SetProperty.
 old-location: wmformat\inssbuffer4_getpropertybyindex.htm
 tech.root: wmformat
 ms.assetid: 8812b7c9-610b-4c17-a274-55e043cfb091
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyByIndex, GetPropertyByIndex method [windows Media Format], GetPropertyByIndex method [windows Media Format],INSSBuffer4 interface, INSSBuffer4 interface [windows Media Format],GetPropertyByIndex method, INSSBuffer4.GetPropertyByIndex, INSSBuffer4::GetPropertyByIndex, INSSBuffer4GetPropertyByIndex, wmformat.inssbuffer4_getpropertybyindex, wmsbuffer/INSSBuffer4::GetPropertyByIndex
 ms.topic: method
-f1_keywords: 
- - "wmsbuffer/INSSBuffer4.GetPropertyByIndex"
+f1_keywords:
+- wmsbuffer/INSSBuffer4.GetPropertyByIndex
 dev_langs:
- - c++
+- c++
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - INSSBuffer4.GetPropertyByIndex
+- INSSBuffer4.GetPropertyByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

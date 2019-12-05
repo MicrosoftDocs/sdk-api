@@ -1,19 +1,17 @@
 ---
 UID: NF:strsafe.StringCbLengthW
 title: StringCbLengthW function (strsafe.h)
-
 description: Determines whether a string exceeds the specified length, in bytes.
 old-location: menurc\stringcblength.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcblength.htm
-
 ms.date: 12/05/2018
 ms.keywords: StringCbLength, StringCbLength function [Menus and Other Resources], StringCbLengthA, StringCbLengthW, UnalignedStringCbLength, _shell_StringCbLength, _shell_stringcblength_cpp, menurc.stringcblength, strsafe/StringCbLength, strsafe/StringCbLengthA, strsafe/StringCbLengthW, winui._shell_stringcblength
 ms.topic: function
-f1_keywords: 
- - "strsafe/StringCbLength"
+f1_keywords:
+- strsafe/StringCbLength
 dev_langs:
- - c++
+- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Strsafe.h
+- Strsafe.h
 api_name:
- - StringCbLength
- - StringCbLengthA
- - StringCbLengthW
+- StringCbLength
+- StringCbLengthA
+- StringCbLengthW
 targetos: Windows
 req.typenames: 
 req.redist: 

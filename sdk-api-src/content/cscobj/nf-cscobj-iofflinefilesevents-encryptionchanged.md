@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.EncryptionChanged
 title: IOfflineFilesEvents::EncryptionChanged (cscobj.h)
-
 description: This method is reserved for future use.
 old-location: of\iofflinefilesevents_encryptionchanged.htm
 tech.root: offlinefiles
 ms.assetid: 0cf93bed-e1b3-428f-a332-d50b575749f7
-
 ms.date: 12/05/2018
 ms.keywords: EncryptionChanged, EncryptionChanged method [Offline Files], EncryptionChanged method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],EncryptionChanged method, IOfflineFilesEvents.EncryptionChanged, IOfflineFilesEvents::EncryptionChanged, cscobj/IOfflineFilesEvents::EncryptionChanged, of.iofflinefilesevents_encryptionchanged
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesEvents.EncryptionChanged"
+f1_keywords:
+- cscobj/IOfflineFilesEvents.EncryptionChanged
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesEvents.EncryptionChanged
+- IOfflineFilesEvents.EncryptionChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

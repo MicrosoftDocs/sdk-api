@@ -1,19 +1,17 @@
 ---
 UID: NN:uianimation.IUIAnimationVariableCurveChangeHandler2
 title: IUIAnimationVariableCurveChangeHandler2 (uianimation.h)
-
 description: Defines a method for handling animation curve update events.
 old-location: uianimation\iuianimationvariablecurvechangehandler2.htm
 tech.root: UIAnimation
 ms.assetid: C3F992CE-6C12-40AF-BA22-10C82E597314
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariableCurveChangeHandler2, IUIAnimationVariableCurveChangeHandler2 interface [Windows Animation], IUIAnimationVariableCurveChangeHandler2 interface [Windows Animation],described, uianimation.iuianimationvariablecurvechangehandler2, uianimation/IUIAnimationVariableCurveChangeHandler2
 ms.topic: interface
-f1_keywords: 
- - "uianimation/IUIAnimationVariableCurveChangeHandler2"
+f1_keywords:
+- uianimation/IUIAnimationVariableCurveChangeHandler2
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationVariableCurveChangeHandler2
+- IUIAnimationVariableCurveChangeHandler2
 targetos: Windows
 req.typenames: 
 req.redist: 

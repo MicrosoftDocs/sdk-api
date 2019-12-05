@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_InitialVelocityX
 title: IInertiaProcessor::get_InitialVelocityX (manipulations.h)
-
 description: The InitialVelocityX property specifies the initial movement of the target object on the horizontal axis.
 old-location: wintouch\iinertiaprocessor_initialvelocityx.htm
 tech.root: wintouch
 ms.assetid: 23ae7083-0a78-4628-8a04-f9bd762aac02
-
 ms.date: 12/05/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],InitialVelocityX property, IInertiaProcessor.InitialVelocityX, IInertiaProcessor.get_InitialVelocityX, IInertiaProcessor::InitialVelocityX, IInertiaProcessor::get_InitialVelocityX, IInertiaProcessor::put_InitialVelocityX, InitialVelocityX property [Windows Touch], InitialVelocityX property [Windows Touch],IInertiaProcessor interface, get_InitialVelocityX, manipulations/IInertiaProcessor::InitialVelocityX, manipulations/IInertiaProcessor::get_InitialVelocityX, manipulations/IInertiaProcessor::put_InitialVelocityX, wintouch.iinertiaprocessor_initialvelocityx
 ms.topic: method
-f1_keywords: 
- - "manipulations/IInertiaProcessor.InitialVelocityX"
+f1_keywords:
+- manipulations/IInertiaProcessor.InitialVelocityX
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IInertiaProcessor.InitialVelocityX
- - IInertiaProcessor.get_InitialVelocityX
- - IInertiaProcessor.put_InitialVelocityX
+- IInertiaProcessor.InitialVelocityX
+- IInertiaProcessor.get_InitialVelocityX
+- IInertiaProcessor.put_InitialVelocityX
 targetos: Windows
 req.typenames: 
 req.redist: 

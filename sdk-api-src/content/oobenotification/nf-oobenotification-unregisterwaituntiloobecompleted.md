@@ -1,19 +1,17 @@
 ---
 UID: NF:oobenotification.UnregisterWaitUntilOOBECompleted
 title: UnregisterWaitUntilOOBECompleted function (oobenotification.h)
-
 description: Unregisters the callback previously registered via RegisterWaitUntilOOBECompleted.
 old-location: windowssetupandmigration\unregisterwaituntiloobecompleted.htm
 tech.root: WNF
 ms.assetid: 966803DF-744A-430F-86C0-F6ACA754C603
-
 ms.date: 12/05/2018
 ms.keywords: UnregisterWaitUntilOOBECompleted, UnregisterWaitUntilOOBECompleted function, oobenotification/UnregisterWaitUntilOOBECompleted, windowssetupandmigration.unregisterwaituntiloobecompleted
 ms.topic: function
-f1_keywords: 
- - "oobenotification/UnregisterWaitUntilOOBECompleted"
+f1_keywords:
+- oobenotification/UnregisterWaitUntilOOBECompleted
 dev_langs:
- - c++
+- c++
 req.header: oobenotification.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-oobe-notification-l1-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-oobe-notification-l1-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - UnregisterWaitUntilOOBECompleted
+- UnregisterWaitUntilOOBECompleted
 targetos: Windows
 req.typenames: 
 req.redist: 

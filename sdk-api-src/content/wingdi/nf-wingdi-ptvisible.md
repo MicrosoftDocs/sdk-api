@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.PtVisible
 title: PtVisible function (wingdi.h)
-
 description: The PtVisible function determines whether the specified point is within the clipping region of a device context.
 old-location: gdi\ptvisible.htm
 tech.root: gdi
 ms.assetid: 72ccbd0f-f85b-434d-b0fc-dbe26348a74d
-
 ms.date: 12/05/2018
 ms.keywords: PtVisible, PtVisible function [Windows GDI], _win32_PtVisible, gdi.ptvisible, wingdi/PtVisible
 ms.topic: function
-f1_keywords: 
- - "wingdi/PtVisible"
+f1_keywords:
+- wingdi/PtVisible
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - PtVisible
+- PtVisible
 targetos: Windows
 req.typenames: 
 req.redist: 

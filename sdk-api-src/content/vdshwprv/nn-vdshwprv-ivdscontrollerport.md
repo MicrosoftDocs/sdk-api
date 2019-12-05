@@ -1,19 +1,17 @@
 ---
 UID: NN:vdshwprv.IVdsControllerPort
 title: IVdsControllerPort (vdshwprv.h)
-
 description: Provides methods for performing query and configuration operations on a controller port.
 old-location: base\ivdscontrollerport.htm
 tech.root: VDS
 ms.assetid: a0ceaf1d-b839-4cf7-b64e-9100f3cf23ef
-
 ms.date: 12/05/2018
 ms.keywords: IVdsControllerPort, IVdsControllerPort interface [VDS], IVdsControllerPort interface [VDS],described, base.ivdscontrollerport, vds/IVdsControllerPort, vdshwprv/IVdsControllerPort
 ms.topic: interface
-f1_keywords: 
- - "vdshwprv/IVdsControllerPort"
+f1_keywords:
+- vdshwprv/IVdsControllerPort
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsControllerPort
+- IVdsControllerPort
 targetos: Windows
 req.typenames: 
 req.redist: 

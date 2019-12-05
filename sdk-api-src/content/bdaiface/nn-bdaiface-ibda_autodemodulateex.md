@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.IBDA_AutoDemodulateEx
 title: IBDA_AutoDemodulateEx (bdaiface.h)
-
 description: The IBDA_AutoDemodulateEx interface extends IBDA_AutoDemodulate.
 old-location: mstv\ibda_autodemodulateex.htm
 tech.root: mstv
 ms.assetid: ecc642e4-7c36-400c-8a63-639f75b2bbc2
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_AutoDemodulateEx, IBDA_AutoDemodulateEx interface [Microsoft TV Technologies], IBDA_AutoDemodulateEx interface [Microsoft TV Technologies],described, IBDA_AutoDemodulateExInterface, bdaiface/IBDA_AutoDemodulateEx, mstv.ibda_autodemodulateex
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/IBDA_AutoDemodulateEx"
+f1_keywords:
+- bdaiface/IBDA_AutoDemodulateEx
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bdaiface.h
+- Bdaiface.h
 api_name:
- - IBDA_AutoDemodulateEx
+- IBDA_AutoDemodulateEx
 targetos: Windows
 req.typenames: 
 req.redist: 

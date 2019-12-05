@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.SetupMixerBitmap
 title: IMSVidVideoRenderer::SetupMixerBitmap (segment.h)
-
 description: The SetupMixerBitmap method configures the Video Mixing Renderer (VMR) to display an alpha-blended bitmap on top of the video.
 old-location: mstv\imsvidvideorenderer_setupmixerbitmap.htm
 tech.root: mstv
 ms.assetid: a91561e3-469b-412a-b5ab-af2a5a0855a6
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],SetupMixerBitmap method, IMSVidVideoRenderer.SetupMixerBitmap, IMSVidVideoRenderer::SetupMixerBitmap, IMSVidVideoRendererSetupMixerBitmap, SetupMixerBitmap, SetupMixerBitmap method [Microsoft TV Technologies], SetupMixerBitmap method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_setupmixerbitmap, segment/IMSVidVideoRenderer::SetupMixerBitmap
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidVideoRenderer.SetupMixerBitmap"
+f1_keywords:
+- segment/IMSVidVideoRenderer.SetupMixerBitmap
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoRenderer.SetupMixerBitmap
+- IMSVidVideoRenderer.SetupMixerBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

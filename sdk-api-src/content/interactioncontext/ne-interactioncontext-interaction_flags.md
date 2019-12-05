@@ -1,19 +1,17 @@
 ---
 UID: NE:interactioncontext.INTERACTION_FLAGS
 title: INTERACTION_FLAGS (interactioncontext.h)
-
 description: Specifies the state of an interaction.
 old-location: input_intcontext\interaction_flags.htm
 tech.root: Input_IntContext
 ms.assetid: 8d1adbd2-03ca-4609-9738-45bc7b21f934
-
 ms.date: 12/05/2018
 ms.keywords: INTERACTION_FLAGS, INTERACTION_FLAGS enumeration, INTERACTION_FLAG_BEGIN, INTERACTION_FLAG_CANCEL, INTERACTION_FLAG_END, INTERACTION_FLAG_INERTIA, INTERACTION_FLAG_MAX, INTERACTION_FLAG_NONE, input_intcontext.interaction_flags, interactioncontext.interaction_flags, interactioncontext/INTERACTION_FLAGS, interactioncontext/INTERACTION_FLAG_BEGIN, interactioncontext/INTERACTION_FLAG_CANCEL, interactioncontext/INTERACTION_FLAG_END, interactioncontext/INTERACTION_FLAG_INERTIA, interactioncontext/INTERACTION_FLAG_MAX, interactioncontext/INTERACTION_FLAG_NONE
 ms.topic: enum
-f1_keywords: 
- - "interactioncontext/INTERACTION_FLAGS"
+f1_keywords:
+- interactioncontext/INTERACTION_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - interactioncontext.h
+- interactioncontext.h
 api_name:
- - INTERACTION_FLAGS
+- INTERACTION_FLAGS
 targetos: Windows
 req.typenames: INTERACTION_FLAGS
 req.redist: 

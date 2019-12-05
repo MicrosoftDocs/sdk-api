@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetCustomObjects
 title: IXpsSigningOptions::GetCustomObjects (xpsdigitalsignature.h)
-
 description: Gets a pointer to an IOpcSignatureCustomObjectSet interface that contains a set of signature custom objects.
 old-location: xps\ixpssigningoptions_getcustomobjects.htm
 tech.root: printdocs
 ms.assetid: 17a3f913-57f2-40e1-b886-6cefb9e42a83
-
 ms.date: 12/05/2018
 ms.keywords: GetCustomObjects, GetCustomObjects method [XPS Documents and Packaging], GetCustomObjects method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetCustomObjects method, IXpsSigningOptions.GetCustomObjects, IXpsSigningOptions::GetCustomObjects, xps.ixpssigningoptions_getcustomobjects, xpsdigitalsignature/IXpsSigningOptions::GetCustomObjects
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSigningOptions.GetCustomObjects"
+f1_keywords:
+- xpsdigitalsignature/IXpsSigningOptions.GetCustomObjects
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSigningOptions.GetCustomObjects
+- IXpsSigningOptions.GetCustomObjects
 targetos: Windows
 req.typenames: 
 req.redist: 

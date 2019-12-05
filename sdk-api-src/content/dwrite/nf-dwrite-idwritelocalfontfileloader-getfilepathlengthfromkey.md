@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteLocalFontFileLoader.GetFilePathLengthFromKey
 title: IDWriteLocalFontFileLoader::GetFilePathLengthFromKey (dwrite.h)
-
 description: Obtains the length of the absolute file path from the font file reference key.
 old-location: directwrite\idwritelocalfontfileloader_getfilepathlengthfromkey.htm
 tech.root: DirectWrite
 ms.assetid: bdd84d75-5a7a-448a-a52c-0f5997ab07b9
-
 ms.date: 12/05/2018
 ms.keywords: GetFilePathLengthFromKey, GetFilePathLengthFromKey method [Direct Write], GetFilePathLengthFromKey method [Direct Write],IDWriteLocalFontFileLoader interface, IDWriteLocalFontFileLoader interface [Direct Write],GetFilePathLengthFromKey method, IDWriteLocalFontFileLoader.GetFilePathLengthFromKey, IDWriteLocalFontFileLoader::GetFilePathLengthFromKey, directwrite.idwritelocalfontfileloader_getfilepathlengthfromkey, dwrite/IDWriteLocalFontFileLoader::GetFilePathLengthFromKey
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteLocalFontFileLoader.GetFilePathLengthFromKey"
+f1_keywords:
+- dwrite/IDWriteLocalFontFileLoader.GetFilePathLengthFromKey
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteLocalFontFileLoader.GetFilePathLengthFromKey
+- IDWriteLocalFontFileLoader.GetFilePathLengthFromKey
 targetos: Windows
 req.typenames: 
 req.redist: 

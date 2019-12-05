@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IEntity.Name
 title: IEntity::Name (structuredquery.h)
-
 description: Retrieves the name of this entity.
 old-location: search\_search_IEntity_Name.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\name.htm
-
 ms.date: 12/05/2018
 ms.keywords: IEntity interface [search],Name method, IEntity.Name, IEntity::Name, Name, Name method [search], Name method [search],IEntity interface, _search_IEntity_Name, search._search_IEntity_Name, structuredquery/IEntity::Name
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IEntity.Name"
+f1_keywords:
+- structuredquery/IEntity.Name
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IEntity.Name
+- IEntity.Name
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

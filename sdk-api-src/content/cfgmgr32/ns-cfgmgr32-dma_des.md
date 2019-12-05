@@ -1,19 +1,17 @@
 ---
 UID: NS:cfgmgr32.DMA_Des_s
 title: DMA_DES (cfgmgr32.h)
-
 description: The DMA_DES structure is used for specifying either a resource list or a resource requirements list that describes direct memory access (DMA) channel usage for a device instance.
 old-location: devinst\dma_des.htm
 tech.root: devinst
 ms.assetid: e357132d-ba40-4c14-813c-505aadc94a26
-
 ms.date: 12/05/2018
-ms.keywords: "*PDMA_DES, DMA_DES, DMA_DES structure [Device and Driver Installation], PDMA_DES, PDMA_DES structure pointer [Device and Driver Installation], cfgmgr32/DMA_DES, cfgmgr32/PDMA_DES, cfgmgrst_342a3feb-d7c8-46bb-8672-009f024374d7.xml, devinst.dma_des"
+ms.keywords: '*PDMA_DES, DMA_DES, DMA_DES structure [Device and Driver Installation], PDMA_DES, PDMA_DES structure pointer [Device and Driver Installation], cfgmgr32/DMA_DES, cfgmgr32/PDMA_DES, cfgmgrst_342a3feb-d7c8-46bb-8672-009f024374d7.xml, devinst.dma_des'
 ms.topic: struct
-f1_keywords: 
- - "cfgmgr32/DMA_DES"
+f1_keywords:
+- cfgmgr32/DMA_DES
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - cfgmgr32.h
+- cfgmgr32.h
 api_name:
- - DMA_DES
+- DMA_DES
 targetos: Windows
 req.typenames: DMA_DES, *PDMA_DES
 req.redist: 

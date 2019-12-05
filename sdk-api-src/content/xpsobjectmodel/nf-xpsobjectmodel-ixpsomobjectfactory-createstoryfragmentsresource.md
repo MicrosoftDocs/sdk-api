@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateStoryFragmentsResource
 title: IXpsOMObjectFactory::CreateStoryFragmentsResource (xpsobjectmodel.h)
-
 description: Creates an IXpsOMStoryFragmentsResource interface that provides access to the content of the resource stream of a page's StoryFragments part.
 old-location: xps\ixpsomobjectfactory_createstoryfragmentsresource.htm
 tech.root: printdocs
 ms.assetid: b0e3f538-4af9-4d86-8899-6ea4e601eaad
-
 ms.date: 12/05/2018
 ms.keywords: CreateStoryFragmentsResource, CreateStoryFragmentsResource method [XPS Documents and Packaging], CreateStoryFragmentsResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateStoryFragmentsResource method, IXpsOMObjectFactory.CreateStoryFragmentsResource, IXpsOMObjectFactory::CreateStoryFragmentsResource, xps.ixpsomobjectfactory_createstoryfragmentsresource, xpsobjectmodel/IXpsOMObjectFactory::CreateStoryFragmentsResource
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMObjectFactory.CreateStoryFragmentsResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMObjectFactory.CreateStoryFragmentsResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreateStoryFragmentsResource
+- IXpsOMObjectFactory.CreateStoryFragmentsResource
 targetos: Windows
 req.typenames: 
 req.redist: 

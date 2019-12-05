@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.Clone
 title: IUIAutomationTextRange::Clone (uiautomationclient.h)
-
 description: Retrieves a new IUIAutomationTextRange identical to the original and inheriting all properties of the original.
 old-location: winauto\uiauto_IUIAutomationTextRange_Clone.htm
 tech.root: WinAuto
 ms.assetid: 0f41fecf-fd66-443f-bc4d-23c05a4d3824
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Accessibility], Clone method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],Clone method, IUIAutomationTextRange.Clone, IUIAutomationTextRange::Clone, uiauto.uiauto_IUIAutomationTextRange_Clone, uiauto_IUIAutomationTextRange_Clone, uiautomationclient/IUIAutomationTextRange::Clone, winauto.uiauto_IUIAutomationTextRange_Clone
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTextRange.Clone"
+f1_keywords:
+- uiautomationclient/IUIAutomationTextRange.Clone
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange.Clone
+- IUIAutomationTextRange.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

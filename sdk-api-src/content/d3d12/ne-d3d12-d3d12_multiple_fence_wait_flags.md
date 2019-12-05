@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_MULTIPLE_FENCE_WAIT_FLAGS
 title: D3D12_MULTIPLE_FENCE_WAIT_FLAGS (d3d12.h)
-
 description: Specifies multiple wait flags for multiple fences.
 old-location: direct3d12\d3d12_multiple_fence_wait_flags.htm
 tech.root: direct3d12
 ms.assetid: A5C52F58-C082-41C2-99E4-800DFBA250D2
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_MULTIPLE_FENCE_WAIT_FLAGS, D3D12_MULTIPLE_FENCE_WAIT_FLAGS enumeration, D3D12_MULTIPLE_FENCE_WAIT_FLAG_ALL, D3D12_MULTIPLE_FENCE_WAIT_FLAG_ANY, D3D12_MULTIPLE_FENCE_WAIT_FLAG_NONE, d3d12/D3D12_MULTIPLE_FENCE_WAIT_FLAGS, d3d12/D3D12_MULTIPLE_FENCE_WAIT_FLAG_ALL, d3d12/D3D12_MULTIPLE_FENCE_WAIT_FLAG_ANY, d3d12/D3D12_MULTIPLE_FENCE_WAIT_FLAG_NONE, direct3d12.d3d12_multiple_fence_wait_flags
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_MULTIPLE_FENCE_WAIT_FLAGS"
+f1_keywords:
+- d3d12/D3D12_MULTIPLE_FENCE_WAIT_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_MULTIPLE_FENCE_WAIT_FLAGS
+- D3D12_MULTIPLE_FENCE_WAIT_FLAGS
 targetos: Windows
 req.typenames: D3D12_MULTIPLE_FENCE_WAIT_FLAGS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ioapiset.CreateIoCompletionPort
 title: CreateIoCompletionPort function (ioapiset.h)
-
 description: Creates an input/output (I/O) completion port and associates it with a specified file handle, or creates an I/O completion port that is not yet associated with a file handle, allowing association at a later time.
 old-location: fs\createiocompletionport.htm
 tech.root: FileIO
 ms.assetid: 40cb47fc-7b15-47f6-bee2-2611d4686053
-
 ms.date: 12/05/2018
 ms.keywords: CreateIoCompletionPort, CreateIoCompletionPort function [Files], _win32_createiocompletionport, base.createiocompletionport, fs.createiocompletionport, ioapiset/CreateIoCompletionPort, winbase/CreateIoCompletionPort
 ms.topic: function
-f1_keywords: 
- - "ioapiset/CreateIoCompletionPort"
+f1_keywords:
+- ioapiset/CreateIoCompletionPort
 dev_langs:
- - c++
+- c++
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-io-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-io-l1-1-1.dll
- - api-ms-win-downlevel-kernel32-l1-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-io-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-io-l1-1-1.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
 api_name:
- - CreateIoCompletionPort
+- CreateIoCompletionPort
 targetos: Windows
 req.typenames: 
 req.redist: 

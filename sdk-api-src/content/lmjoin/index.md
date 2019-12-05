@@ -1,7 +1,6 @@
 ---
 UID: NA:lmjoin
 ms.assetid: 4f6c1090-622c-3d78-bb3f-e7adfe000004
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

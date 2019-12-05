@@ -1,19 +1,17 @@
 ---
 UID: NF:ondemandconnroutehelper.OnDemandGetRoutingHint
 title: OnDemandGetRoutingHint function (ondemandconnroutehelper.h)
-
 description: The OnDemandGetRoutingHint function looks up a destination in the Route Request cache and, if a match is found, return the corresponding Interface ID.
 old-location: nla\ondemandgetroutinghint.htm
 tech.root: nla
 ms.assetid: 6B98416F-A196-4015-836B-D6D649CCA9B1
-
 ms.date: 12/05/2018
 ms.keywords: OnDemandGetRoutingHint, OnDemandGetRoutingHint function [Network Awareness], nla.ondemandgetroutinghint, ondemandconnroutehelper/OnDemandGetRoutingHint
 ms.topic: function
-f1_keywords: 
- - "ondemandconnroutehelper/OnDemandGetRoutingHint"
+f1_keywords:
+- ondemandconnroutehelper/OnDemandGetRoutingHint
 dev_langs:
- - c++
+- c++
 req.header: ondemandconnroutehelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OnDemandConnRouteHelper.lib
 req.dll: OnDemandConnRouteHelper.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OnDemandConnRouteHelper.dll
+- OnDemandConnRouteHelper.dll
 api_name:
- - OnDemandGetRoutingHint
+- OnDemandGetRoutingHint
 targetos: Windows
 req.typenames: 
 req.redist: 

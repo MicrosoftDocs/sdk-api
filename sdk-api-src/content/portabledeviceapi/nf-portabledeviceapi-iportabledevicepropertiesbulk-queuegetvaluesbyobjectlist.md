@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevicePropertiesBulk.QueueGetValuesByObjectList
 title: IPortableDevicePropertiesBulk::QueueGetValuesByObjectList (portabledeviceapi.h)
-
 description: The QueueGetValuesByObjectList method queues a request for one or more specified properties from one or more specified objects on the device.
 old-location: wpdsdk\iportabledevicepropertiesbulk_queuegetvaluesbyobjectlist.htm
 tech.root: wpd_sdk
 ms.assetid: 0c29777c-4125-46a1-94b2-8d70374e566a
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDevicePropertiesBulk interface [Windows Portable Devices SDK],QueueGetValuesByObjectList method, IPortableDevicePropertiesBulk.QueueGetValuesByObjectList, IPortableDevicePropertiesBulk::QueueGetValuesByObjectList, IPortableDevicePropertiesBulkQueueGetValuesByObjectList, QueueGetValuesByObjectList, QueueGetValuesByObjectList method [Windows Portable Devices SDK], QueueGetValuesByObjectList method [Windows Portable Devices SDK],IPortableDevicePropertiesBulk interface, portabledeviceapi/IPortableDevicePropertiesBulk::QueueGetValuesByObjectList, wpdsdk.iportabledevicepropertiesbulk_queuegetvaluesbyobjectlist
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDevicePropertiesBulk.QueueGetValuesByObjectList"
+f1_keywords:
+- portabledeviceapi/IPortableDevicePropertiesBulk.QueueGetValuesByObjectList
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDevicePropertiesBulk.QueueGetValuesByObjectList
+- IPortableDevicePropertiesBulk.QueueGetValuesByObjectList
 targetos: Windows
 req.typenames: 
 req.redist: 

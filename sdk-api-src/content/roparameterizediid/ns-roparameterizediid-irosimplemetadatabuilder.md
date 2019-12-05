@@ -1,19 +1,17 @@
 ---
 UID: NS:roparameterizediid.IRoSimpleMetaDataBuilder
 title: IRoSimpleMetaDataBuilder (roparameterizediid.h)
-
 description: Provides a metadata locator with a destination for the metadata it has discovered.
 old-location: winrt\irosimplemetadatabuilder_struct.htm
 tech.root: WinRT
 ms.assetid: 031B9F9B-FF77-4524-87B7-D786459569C3
-
 ms.date: 12/05/2018
 ms.keywords: IRoSimpleMetaDataBuilder, IRoSimpleMetaDataBuilder structure [Windows Runtime], roparameterizediid/IRoSimpleMetaDataBuilder, winrt.irosimplemetadatabuilder_struct
 ms.topic: struct
-f1_keywords: 
- - "roparameterizediid/IRoSimpleMetaDataBuilder"
+f1_keywords:
+- roparameterizediid/IRoSimpleMetaDataBuilder
 dev_langs:
- - c++
+- c++
 req.header: roparameterizediid.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - roparameterizediid.h
+- roparameterizediid.h
 api_name:
- - IRoSimpleMetaDataBuilder
+- IRoSimpleMetaDataBuilder
 targetos: Windows
 req.typenames: 
 req.redist: 

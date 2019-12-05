@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CreateCompatibleDC
 title: CreateCompatibleDC function (wingdi.h)
-
 description: The CreateCompatibleDC function creates a memory device context (DC) compatible with the specified device.
 old-location: gdi\createcompatibledc.htm
 tech.root: gdi
 ms.assetid: 6ddc3705-2995-41af-af94-258aed597e17
-
 ms.date: 12/05/2018
 ms.keywords: CreateCompatibleDC, CreateCompatibleDC function [Windows GDI], _win32_CreateCompatibleDC, gdi.createcompatibledc, wingdi/CreateCompatibleDC
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreateCompatibleDC"
+f1_keywords:
+- wingdi/CreateCompatibleDC
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-DC-Create-l1-1-0.dll
- - Ext-MS-Win-GDI-DC-Create-l1-1-1.dll
- - ext-ms-win-gdi-dc-create-l1-1-2.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-DC-Create-l1-1-0.dll
+- Ext-MS-Win-GDI-DC-Create-l1-1-1.dll
+- ext-ms-win-gdi-dc-create-l1-1-2.dll
+- GDI32Full.dll
 api_name:
- - CreateCompatibleDC
+- CreateCompatibleDC
 targetos: Windows
 req.typenames: 
 req.redist: 

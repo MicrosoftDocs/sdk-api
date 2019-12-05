@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleGetIconOfClass
 title: OleGetIconOfClass function (ole2.h)
-
 description: Returns a handle to a metafile containing an icon and a string label for the specified CLSID.
 old-location: com\olegeticonofclass.htm
 tech.root: com
 ms.assetid: 88ac1c14-b5a8-4100-9fa5-d7af35052b48
-
 ms.date: 12/05/2018
 ms.keywords: OleGetIconOfClass, OleGetIconOfClass function [COM], _com_OleGetIconOfClass, com.olegeticonofclass, ole2/OleGetIconOfClass
 ms.topic: function
-f1_keywords: 
- - "ole2/OleGetIconOfClass"
+f1_keywords:
+- ole2/OleGetIconOfClass
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - Ext-MS-Win-Com-OLE32-l1-1-3.dll
- - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+- Ole32.dll
+- Ext-MS-Win-Com-OLE32-l1-1-3.dll
+- Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
- - OleGetIconOfClass
+- OleGetIconOfClass
 targetos: Windows
 req.typenames: 
 req.redist: 

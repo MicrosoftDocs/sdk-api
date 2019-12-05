@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTimerEventHandler.OnPostUpdate
 title: IUIAnimationTimerEventHandler::OnPostUpdate (uianimation.h)
-
 description: Handles events that occur after an animation update is finished.
 old-location: uianimation\iuianimationtimereventhandler_onpostupdate.htm
 tech.root: UIAnimation
 ms.assetid: 3a09537a-6cf7-4824-90c6-265dafa07a1b
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTimerEventHandler interface [Windows Animation],OnPostUpdate method, IUIAnimationTimerEventHandler.OnPostUpdate, IUIAnimationTimerEventHandler::OnPostUpdate, OnPostUpdate, OnPostUpdate method [Windows Animation], OnPostUpdate method [Windows Animation],IUIAnimationTimerEventHandler interface, uianimation.iuianimationtimereventhandler_onpostupdate, uianimation/IUIAnimationTimerEventHandler::OnPostUpdate
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTimerEventHandler.OnPostUpdate"
+f1_keywords:
+- uianimation/IUIAnimationTimerEventHandler.OnPostUpdate
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTimerEventHandler.OnPostUpdate
+- IUIAnimationTimerEventHandler.OnPostUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 

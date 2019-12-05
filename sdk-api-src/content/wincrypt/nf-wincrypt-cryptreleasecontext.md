@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptReleaseContext
 title: CryptReleaseContext function (wincrypt.h)
-
 description: Releases the handle of a cryptographic service provider (CSP) and a key container.
 old-location: security\cryptreleasecontext.htm
 tech.root: SecCrypto
 ms.assetid: c1e3e708-b543-4e87-8638-a9946a83e614
-
 ms.date: 12/05/2018
 ms.keywords: CryptReleaseContext, CryptReleaseContext function [Security], _crypto2_cryptreleasecontext, security.cryptreleasecontext, wincrypt/CryptReleaseContext
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptReleaseContext"
+f1_keywords:
+- wincrypt/CryptReleaseContext
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptReleaseContext
+- CryptReleaseContext
 targetos: Windows
 req.typenames: 
 req.redist: 

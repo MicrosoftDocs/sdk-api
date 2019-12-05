@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPMedia.setItemInfo
 title: IWMPMedia::setItemInfo (wmp.h)
-
 description: The setItemInfo method sets the value of the specified attribute for the media item.
 old-location: wmp\iwmpmedia_setiteminfo.htm
 tech.root: WMP
 ms.assetid: 919fe92f-9519-4229-8097-4970a8f6cc25
-
 ms.date: 12/05/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],setItemInfo method, IWMPMedia.setItemInfo, IWMPMedia2 interface [Windows Media Player],setItemInfo method, IWMPMedia2::setItemInfo, IWMPMedia3 interface [Windows Media Player],setItemInfo method, IWMPMedia3::setItemInfo, IWMPMedia::setItemInfo, IWMPMediasetItemInfo, setItemInfo, setItemInfo method [Windows Media Player], setItemInfo method [Windows Media Player],IWMPMedia interface, setItemInfo method [Windows Media Player],IWMPMedia2 interface, setItemInfo method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_setiteminfo, wmp/IWMPMedia2::setItemInfo, wmp/IWMPMedia3::setItemInfo, wmp/IWMPMedia::setItemInfo
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPMedia.setItemInfo"
+f1_keywords:
+- wmp/IWMPMedia.setItemInfo
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPMedia.setItemInfo
- - IWMPMedia2.setItemInfo
- - IWMPMedia3.setItemInfo
+- IWMPMedia.setItemInfo
+- IWMPMedia2.setItemInfo
+- IWMPMedia3.setItemInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

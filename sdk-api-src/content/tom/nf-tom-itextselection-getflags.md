@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextSelection.GetFlags
 title: ITextSelection::GetFlags (tom.h)
-
 description: Gets the text selection flags.
 old-location: controls\ITextSelection_GetFlags.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getflags.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Windows Controls], GetFlags method [Windows Controls],ITextSelection interface, ITextSelection interface [Windows Controls],GetFlags method, ITextSelection.GetFlags, ITextSelection::GetFlags, _win32_ITextSelection_GetFlags, _win32_ITextSelection_GetFlags_cpp, controls.ITextSelection_GetFlags, controls._win32_ITextSelection_GetFlags, tom/ITextSelection::GetFlags
 ms.topic: method
-f1_keywords: 
- - "tom/ITextSelection.GetFlags"
+f1_keywords:
+- tom/ITextSelection.GetFlags
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextSelection.GetFlags
+- ITextSelection.GetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

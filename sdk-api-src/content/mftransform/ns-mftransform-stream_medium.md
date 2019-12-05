@@ -1,19 +1,17 @@
 ---
 UID: NS:mftransform._STREAM_MEDIUM
 title: STREAM_MEDIUM (mftransform.h)
-
 description: Not for application use.
 old-location: mf\stream_medium.htm
 tech.root: medfound
 ms.assetid: c3e3fd40-f6e6-4e43-927f-5dff4169a52c
-
 ms.date: 12/05/2018
-ms.keywords: "*PSTREAM_MEDIUM, PSTREAM_MEDIUM, PSTREAM_MEDIUM structure pointer [Media Foundation], STREAM_MEDIUM, STREAM_MEDIUM structure [Media Foundation], mf.stream_medium, mftransform/PSTREAM_MEDIUM, mftransform/STREAM_MEDIUM"
+ms.keywords: '*PSTREAM_MEDIUM, PSTREAM_MEDIUM, PSTREAM_MEDIUM structure pointer [Media Foundation], STREAM_MEDIUM, STREAM_MEDIUM structure [Media Foundation], mf.stream_medium, mftransform/PSTREAM_MEDIUM, mftransform/STREAM_MEDIUM'
 ms.topic: struct
-f1_keywords: 
- - "mftransform/STREAM_MEDIUM"
+f1_keywords:
+- mftransform/STREAM_MEDIUM
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mftransform.h
+- Mftransform.h
 api_name:
- - STREAM_MEDIUM
+- STREAM_MEDIUM
 targetos: Windows
 req.typenames: STREAM_MEDIUM, *PSTREAM_MEDIUM
 req.redist: 

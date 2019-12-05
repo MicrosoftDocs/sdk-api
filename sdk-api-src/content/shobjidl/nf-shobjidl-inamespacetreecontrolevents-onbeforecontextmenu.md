@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnBeforeContextMenu
 title: INameSpaceTreeControlEvents::OnBeforeContextMenu (shobjidl.h)
-
 description: Called before a context menu is displayed; allows client to add additional menu entries.
 old-location: shell\INameSpaceTreeControlEvents_OnBeforeContextMenu.htm
 tech.root: shell
 ms.assetid: aa243592-1cda-4844-8f3c-e9c62083fabb
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnBeforeContextMenu method, INameSpaceTreeControlEvents.OnBeforeContextMenu, INameSpaceTreeControlEvents::OnBeforeContextMenu, OnBeforeContextMenu, OnBeforeContextMenu method [Windows Shell], OnBeforeContextMenu method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnBeforeContextMenu, shell.INameSpaceTreeControlEvents_OnBeforeContextMenu, shobjidl/INameSpaceTreeControlEvents::OnBeforeContextMenu
 ms.topic: method
-f1_keywords: 
- - "shobjidl/INameSpaceTreeControlEvents.OnBeforeContextMenu"
+f1_keywords:
+- shobjidl/INameSpaceTreeControlEvents.OnBeforeContextMenu
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - INameSpaceTreeControlEvents.OnBeforeContextMenu
+- INameSpaceTreeControlEvents.OnBeforeContextMenu
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:mapi.__unnamed_struct_3
 title: MapiRecipDesc (mapi.h)
-
 description: A MapiRecipDesc structure contains information about a message sender or recipient. For Unicode support, use the MapiRecipDescW structure.
 old-location: mapi\mapirecipdesc.htm
 tech.root: WindowsMAPI
 ms.assetid: 1457617f-de55-4875-91f5-afddee84b782
-
 ms.date: 12/05/2018
-ms.keywords: "*lpMapiRecipDesc, MAPI_BCC, MAPI_CC, MAPI_ORIG, MAPI_TO, MapiRecipDesc, MapiRecipDesc structure, lpMapiRecipDesc, lpMapiRecipDesc structure pointer, mapi.mapirecipdesc, mapi/MapiRecipDesc, mapi/lpMapiRecipDesc"
+ms.keywords: '*lpMapiRecipDesc, MAPI_BCC, MAPI_CC, MAPI_ORIG, MAPI_TO, MapiRecipDesc, MapiRecipDesc structure, lpMapiRecipDesc, lpMapiRecipDesc structure pointer, mapi.mapirecipdesc, mapi/MapiRecipDesc, mapi/lpMapiRecipDesc'
 ms.topic: struct
-f1_keywords: 
- - "mapi/MapiRecipDesc"
+f1_keywords:
+- mapi/MapiRecipDesc
 dev_langs:
- - c++
+- c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mapi.h
+- Mapi.h
 api_name:
- - MapiRecipDesc
+- MapiRecipDesc
 targetos: Windows
 req.typenames: MapiRecipDesc, *lpMapiRecipDesc
 req.redist: 

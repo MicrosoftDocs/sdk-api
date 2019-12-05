@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAddressCapabilities.get_DeviceClasses
 title: ITAddressCapabilities::get_DeviceClasses (tapi3if.h)
-
 description: The get_DeviceClasses method gets device classes. This method is provided for Automation client applications, such as those written in Visual Basic and scripting languages.
 old-location: tapi3\itaddresscapabilities_get_deviceclasses.htm
 tech.root: Tapi
 ms.assetid: 34c662c6-4166-470f-aaaf-001da4ed048a
-
 ms.date: 12/05/2018
 ms.keywords: ITAddressCapabilities interface [TAPI 2.2],get_DeviceClasses method, ITAddressCapabilities.get_DeviceClasses, ITAddressCapabilities::get_DeviceClasses, _tapi3_itaddresscapabilities_get_deviceclasses, get_DeviceClasses, get_DeviceClasses method [TAPI 2.2], get_DeviceClasses method [TAPI 2.2],ITAddressCapabilities interface, tapi3.itaddresscapabilities_get_deviceclasses, tapi3if/ITAddressCapabilities::get_DeviceClasses
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAddressCapabilities.get_DeviceClasses"
+f1_keywords:
+- tapi3if/ITAddressCapabilities.get_DeviceClasses
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAddressCapabilities.get_DeviceClasses
+- ITAddressCapabilities.get_DeviceClasses
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectImpl.PrepareForRender
 title: ID2D1EffectImpl::PrepareForRender (d2d1effectauthor.h)
-
 description: Prepares an effect for the rendering process.
 old-location: direct2d\id2d1effectimpl_prepareforrender.htm
 tech.root: Direct2D
 ms.assetid: 0EBA4FDB-A9EA-4FCF-BF40-3D73ED356CD4
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1EffectImpl interface [Direct2D],PrepareForRender method, ID2D1EffectImpl.PrepareForRender, ID2D1EffectImpl::PrepareForRender, PrepareForRender, PrepareForRender method [Direct2D], PrepareForRender method [Direct2D],ID2D1EffectImpl interface, d2d1effectauthor/ID2D1EffectImpl::PrepareForRender, direct2d.id2d1effectimpl_prepareforrender
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1EffectImpl.PrepareForRender"
+f1_keywords:
+- d2d1effectauthor/ID2D1EffectImpl.PrepareForRender
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2D1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2D1.lib
- - D2D1.dll
+- D2D1.lib
+- D2D1.dll
 api_name:
- - ID2D1EffectImpl.PrepareForRender
+- ID2D1EffectImpl.PrepareForRender
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMStoryFragmentsResource.GetOwner
 title: IXpsOMStoryFragmentsResource::GetOwner (xpsobjectmodel.h)
-
 description: Gets a pointer to the IXpsOMPage interface that contains this resource.
 old-location: xps\ixpsomstoryfragmentsresource_getowner.htm
 tech.root: printdocs
 ms.assetid: 8dc44277-d296-4747-8dd7-8901a94b5213
-
 ms.date: 12/05/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMStoryFragmentsResource interface, IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging],GetOwner method, IXpsOMStoryFragmentsResource.GetOwner, IXpsOMStoryFragmentsResource::GetOwner, xps.ixpsomstoryfragmentsresource_getowner, xpsobjectmodel/IXpsOMStoryFragmentsResource::GetOwner
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMStoryFragmentsResource.GetOwner"
+f1_keywords:
+- xpsobjectmodel/IXpsOMStoryFragmentsResource.GetOwner
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMStoryFragmentsResource.GetOwner
+- IXpsOMStoryFragmentsResource.GetOwner
 targetos: Windows
 req.typenames: 
 req.redist: 

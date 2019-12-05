@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileMgr.DeactivateProfile
 title: ITfInputProcessorProfileMgr::DeactivateProfile (msctf.h)
-
 description: The ITfInputProcessorProfileMgr::DeactivateProfile method deactivates the specified text service's profile or keyboard layout.
 old-location: tsf\itfinputprocessorprofilemgr_deactivateprofile.htm
 tech.root: TSF
 ms.assetid: 8d2bd329-1b17-4b03-8c75-74d99ccc0f08
-
 ms.date: 12/05/2018
 ms.keywords: DeactivateProfile, DeactivateProfile method [Text Services Framework], DeactivateProfile method [Text Services Framework],ITfInputProcessorProfileMgr interface, ITfInputProcessorProfileMgr interface [Text Services Framework],DeactivateProfile method, ITfInputProcessorProfileMgr.DeactivateProfile, ITfInputProcessorProfileMgr::DeactivateProfile, TF_IPPMF_DISABLEPROFILE, TF_IPPMF_FORPROCESS, TF_IPPMF_FORSESSION, TF_PROFILETYPE_INPUTPROCESSOR, TF_PROFILETYPE_KEYBOARDLAYOUT, msctf/ITfInputProcessorProfileMgr::DeactivateProfile, tsf.itfinputprocessorprofilemgr_deactivateprofile
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfInputProcessorProfileMgr.DeactivateProfile"
+f1_keywords:
+- msctf/ITfInputProcessorProfileMgr.DeactivateProfile
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfInputProcessorProfileMgr.DeactivateProfile
+- ITfInputProcessorProfileMgr.DeactivateProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

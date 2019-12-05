@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncErrorInfo.InfoEnumerated
 title: IOfflineFilesSyncErrorInfo::InfoEnumerated (cscobj.h)
-
 description: Indicates whether information was queried for the local, remote, or original copy of the item during synchronization.
 old-location: of\iofflinefilessyncerrorinfo_infoenumerated.htm
 tech.root: offlinefiles
 ms.assetid: d2e8ae5b-92e7-4284-a02f-6eb3ab288376
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSyncErrorInfo interface [Offline Files],InfoEnumerated method, IOfflineFilesSyncErrorInfo.InfoEnumerated, IOfflineFilesSyncErrorInfo::InfoEnumerated, InfoEnumerated, InfoEnumerated method [Offline Files], InfoEnumerated method [Offline Files],IOfflineFilesSyncErrorInfo interface, cscobj/IOfflineFilesSyncErrorInfo::InfoEnumerated, of.iofflinefilessyncerrorinfo_infoenumerated
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesSyncErrorInfo.InfoEnumerated"
+f1_keywords:
+- cscobj/IOfflineFilesSyncErrorInfo.InfoEnumerated
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesSyncErrorInfo.InfoEnumerated
+- IOfflineFilesSyncErrorInfo.InfoEnumerated
 targetos: Windows
 req.typenames: 
 req.redist: 

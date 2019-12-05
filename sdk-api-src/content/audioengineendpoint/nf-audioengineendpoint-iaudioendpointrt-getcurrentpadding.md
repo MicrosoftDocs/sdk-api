@@ -1,19 +1,17 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointRT.GetCurrentPadding
 title: IAudioEndpointRT::GetCurrentPadding (audioengineendpoint.h)
-
 description: Gets the amount, in 100-nanosecond units, of data that is queued up in the endpoint.
 old-location: termserv\iaudioendpointrt_getcurrentpadding.htm
 tech.root: TermServ
 ms.assetid: f61497c8-35da-4fbf-af83-1f15d5fe94f7
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPadding, GetCurrentPadding method [Remote Desktop Services], GetCurrentPadding method [Remote Desktop Services],IAudioEndpointRT interface, IAudioEndpointRT interface [Remote Desktop Services],GetCurrentPadding method, IAudioEndpointRT.GetCurrentPadding, IAudioEndpointRT::GetCurrentPadding, audioengineendpoint/IAudioEndpointRT::GetCurrentPadding, termserv.iaudioendpointrt_getcurrentpadding
 ms.topic: method
-f1_keywords: 
- - "audioengineendpoint/IAudioEndpointRT.GetCurrentPadding"
+f1_keywords:
+- audioengineendpoint/IAudioEndpointRT.GetCurrentPadding
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioengineendpoint.h
+- Audioengineendpoint.h
 api_name:
- - IAudioEndpointRT.GetCurrentPadding
+- IAudioEndpointRT.GetCurrentPadding
 targetos: Windows
 req.typenames: 
 req.redist: 

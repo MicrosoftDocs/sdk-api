@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Button_SetNote
 title: Button_SetNote macro (commctrl.h)
-
 description: Sets the text of the note associated with a specified command link button. You can use this macro or send the BCM_SETNOTE message explicitly.
 old-location: controls\Button_SetNote.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setnote.htm
-
 ms.date: 12/05/2018
 ms.keywords: Button_SetNote, Button_SetNote macro [Windows Controls], _shell_Button_SetNote, _shell_Button_SetNote_cpp, commctrl/Button_SetNote, controls.Button_SetNote, controls._shell_Button_SetNote
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Button_SetNote"
+f1_keywords:
+- commctrl/Button_SetNote
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Button_SetNote
+- Button_SetNote
 targetos: Windows
 req.typenames: 
 req.redist: 

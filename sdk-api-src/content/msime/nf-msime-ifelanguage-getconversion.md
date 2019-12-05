@@ -1,19 +1,17 @@
 ---
 UID: NF:msime.IFELanguage.GetConversion
 title: IFELanguage::GetConversion (msime.h)
-
 description: Converts the input string (which usually contains the Hiragana character) to converted strings.
 old-location: intl\ifelanguage_getconversion.htm
 tech.root: Intl
 ms.assetid: A1FA36C7-6A1A-4B08-BA29-7F7C8FE8DF16
-
 ms.date: 12/05/2018
 ms.keywords: GetConversion, GetConversion method [Internationalization for Windows Applications], GetConversion method [Internationalization for Windows Applications],IFELanguage interface, IFELanguage interface [Internationalization for Windows Applications],GetConversion method, IFELanguage.GetConversion, IFELanguage::GetConversion, intl.ifelanguage_getconversion, msime/IFELanguage::GetConversion
 ms.topic: method
-f1_keywords: 
- - "msime/IFELanguage.GetConversion"
+f1_keywords:
+- msime/IFELanguage.GetConversion
 dev_langs:
- - c++
+- c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msime.h
+- Msime.h
 api_name:
- - IFELanguage.GetConversion
+- IFELanguage.GetConversion
 targetos: Windows
 req.typenames: 
 req.redist: 

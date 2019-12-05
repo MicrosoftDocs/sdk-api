@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IFolderBandPriv.SetNoIcons
 title: IFolderBandPriv::SetNoIcons (shobjidl.h)
-
 description: Sets whether icons are displayed in a folder band.
 old-location: shell\IFolderBandPriv_SetNoIcons.htm
 tech.root: shell
 ms.assetid: 5bec29d9-8b05-4b4e-9cfc-0b9fd2d9fd2f
-
 ms.date: 12/05/2018
 ms.keywords: IFolderBandPriv interface [Windows Shell],SetNoIcons method, IFolderBandPriv.SetNoIcons, IFolderBandPriv::SetNoIcons, SetNoIcons, SetNoIcons method [Windows Shell], SetNoIcons method [Windows Shell],IFolderBandPriv interface, _win32_IFolderBandPriv_SetNoIcons, shell.IFolderBandPriv_SetNoIcons, shobjidl/IFolderBandPriv::SetNoIcons
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IFolderBandPriv.SetNoIcons"
+f1_keywords:
+- shobjidl/IFolderBandPriv.SetNoIcons
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.00 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IFolderBandPriv.SetNoIcons
+- IFolderBandPriv.SetNoIcons
 targetos: Windows
 req.typenames: 
 req.redist: 

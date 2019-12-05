@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmMonitor.GetClerks
 title: ICrmMonitor::GetClerks (comsvcs.h)
-
 description: Retrieves a clerk collection object, which is a snapshot of the current state of the clerks.
 old-location: cos\icrmmonitor_getclerks.htm
 tech.root: cossdk
 ms.assetid: b5802d3b-1464-4ddf-b459-a308b699de96
-
 ms.date: 12/05/2018
 ms.keywords: GetClerks, GetClerks method [COM+], GetClerks method [COM+],ICrmMonitor interface, ICrmMonitor interface [COM+],GetClerks method, ICrmMonitor.GetClerks, ICrmMonitor::GetClerks, _dtc_ICrmMonitor_GetClerks, comsvcs/ICrmMonitor::GetClerks, cos.icrmmonitor_getclerks
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmMonitor.GetClerks"
+f1_keywords:
+- comsvcs/ICrmMonitor.GetClerks
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmMonitor.GetClerks
+- ICrmMonitor.GetClerks
 targetos: Windows
 req.typenames: 
 req.redist: 

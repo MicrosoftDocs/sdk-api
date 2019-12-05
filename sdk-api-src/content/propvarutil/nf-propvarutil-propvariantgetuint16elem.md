@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantGetUInt16Elem
 title: PropVariantGetUInt16Elem function (propvarutil.h)
-
 description: Extracts a single unsigned Int16 element from a PROPVARIANT structure of type VT_U12, VT_VECTOR | VT_U12, or VT_ARRAY | VT_U12.
 old-location: properties\PropVariantGetUInt16Elem.htm
 tech.root: properties
 ms.assetid: da50e35b-f17f-4de6-b2e7-5a885e2149e5
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantGetUInt16Elem, PropVariantGetUInt16Elem function [Windows Properties], _shell_PropVariantGetUInt16Elem, properties.PropVariantGetUInt16Elem, propvarutil/PropVariantGetUInt16Elem, shell.PropVariantGetUInt16Elem
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantGetUInt16Elem"
+f1_keywords:
+- propvarutil/PropVariantGetUInt16Elem
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantGetUInt16Elem
+- PropVariantGetUInt16Elem
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

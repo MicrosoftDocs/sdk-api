@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsGetSecurityContextProperty
 title: WsGetSecurityContextProperty function (webservices.h)
-
 description: Gets a property of the specified security context.
 old-location: wsw\wsgetsecuritycontextproperty.htm
 tech.root: wsw
 ms.assetid: 7ef32fbe-0b50-4ede-96af-075137df340d
-
 ms.date: 12/05/2018
 ms.keywords: WsGetSecurityContextProperty, WsGetSecurityContextProperty function [Web Services for Windows], webservices/WsGetSecurityContextProperty, wsw.wsgetsecuritycontextproperty
 ms.topic: function
-f1_keywords: 
- - "webservices/WsGetSecurityContextProperty"
+f1_keywords:
+- webservices/WsGetSecurityContextProperty
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsGetSecurityContextProperty
+- WsGetSecurityContextProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

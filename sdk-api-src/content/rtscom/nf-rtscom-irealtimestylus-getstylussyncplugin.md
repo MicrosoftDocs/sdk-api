@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetStylusSyncPlugin
 title: IRealTimeStylus::GetStylusSyncPlugin (rtscom.h)
-
 description: Retrieves the plug-in at the specified index in the synchronous plug-in collection.
 old-location: tablet\irealtimestylus_getstylussyncplugin.htm
 tech.root: tablet
 ms.assetid: ec587954-cf7c-4f2d-a20d-b401011f7140
-
 ms.date: 12/05/2018
 ms.keywords: GetStylusSyncPlugin, GetStylusSyncPlugin method [Tablet PC], GetStylusSyncPlugin method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetStylusSyncPlugin method, IRealTimeStylus.GetStylusSyncPlugin, IRealTimeStylus::GetStylusSyncPlugin, ec587954-cf7c-4f2d-a20d-b401011f7140, rtscom/IRealTimeStylus::GetStylusSyncPlugin, tablet.irealtimestylus_getstylussyncplugin
 ms.topic: method
-f1_keywords: 
- - "rtscom/IRealTimeStylus.GetStylusSyncPlugin"
+f1_keywords:
+- rtscom/IRealTimeStylus.GetStylusSyncPlugin
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IRealTimeStylus.GetStylusSyncPlugin
+- IRealTimeStylus.GetStylusSyncPlugin
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.BackupComplete
 title: IVssBackupComponents::BackupComplete (vsbackup.h)
-
 description: The BackupComplete method causes VSS to generate a BackupComplete event, which signals writers that the backup process has completed.
 old-location: base\ivssbackupcomponents_backupcomplete.htm
 tech.root: VSS
 ms.assetid: ee49d4b1-f3f4-4c85-a3a2-f4452d066f21
-
 ms.date: 12/05/2018
 ms.keywords: BackupComplete, BackupComplete method [VSS], BackupComplete method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],BackupComplete method, IVssBackupComponents.BackupComplete, IVssBackupComponents::BackupComplete, _win32_ivssbackupcomponents_backupcomplete, base.ivssbackupcomponents_backupcomplete, vsbackup/IVssBackupComponents::BackupComplete
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.BackupComplete"
+f1_keywords:
+- vsbackup/IVssBackupComponents.BackupComplete
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.BackupComplete
+- IVssBackupComponents.BackupComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

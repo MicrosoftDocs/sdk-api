@@ -1,19 +1,17 @@
 ---
 UID: NF:http.HttpCloseServerSession
 title: HttpCloseServerSession function (http.h)
-
 description: Deletes the server session identified by the server session ID.
 old-location: http\httpcloseserversession.htm
 tech.root: http
 ms.assetid: d1ceb491-c726-4aa0-b17e-f98f34279e32
-
 ms.date: 12/05/2018
 ms.keywords: HttpCloseServerSession, HttpCloseServerSession function [HTTP], http.httpcloseserversession, http/HttpCloseServerSession
 ms.topic: function
-f1_keywords: 
- - "http/HttpCloseServerSession"
+f1_keywords:
+- http/HttpCloseServerSession
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Httpapi.dll
+- Httpapi.dll
 api_name:
- - HttpCloseServerSession
+- HttpCloseServerSession
 targetos: Windows
 req.typenames: 
 req.redist: 

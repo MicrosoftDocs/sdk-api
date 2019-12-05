@@ -1,19 +1,17 @@
 ---
 UID: NF:sdoias.ISdoMachine.GetDictionarySDO
 title: ISdoMachine::GetDictionarySDO (sdoias.h)
-
 description: The GetDictionarySDO method retrieves an interface for an attribute-dictionary SDO.
 old-location: nps\SDO_isdomachine_getdictionarysdo.htm
 tech.root: Nps
 ms.assetid: 172444be-b2a2-4060-af92-b0c63f0ffe6b
-
 ms.date: 12/05/2018
 ms.keywords: GetDictionarySDO, GetDictionarySDO method [Network Policy Server], GetDictionarySDO method [Network Policy Server],ISdoMachine interface, GetDictionarySDO method [Network Policy Server],SdoMachine object, ISdoMachine interface [Network Policy Server],GetDictionarySDO method, ISdoMachine.GetDictionarySDO, ISdoMachine::GetDictionarySDO, SdoMachine object [Network Policy Server],GetDictionarySDO method, _sdo_isdomachine_getdictionarysdo, nps.SDO_isdomachine_getdictionarysdo, sdo.isdomachine_getdictionarysdo, sdoias/ISdoMachine::GetDictionarySDO
 ms.topic: method
-f1_keywords: 
- - "sdoias/ISdoMachine.GetDictionarySDO"
+f1_keywords:
+- sdoias/ISdoMachine.GetDictionarySDO
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Iassdo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Iassdo.dll
+- Iassdo.dll
 api_name:
- - ISdoMachine.GetDictionarySDO
- - SdoMachine.GetDictionarySDO
+- ISdoMachine.GetDictionarySDO
+- SdoMachine.GetDictionarySDO
 targetos: Windows
 req.typenames: 
 req.redist: 

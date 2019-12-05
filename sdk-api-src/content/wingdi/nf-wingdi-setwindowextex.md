@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.SetWindowExtEx
 title: SetWindowExtEx function (wingdi.h)
-
 description: The SetWindowExtEx function sets the horizontal and vertical extents of the window for a device context by using the specified values.
 old-location: gdi\setwindowextex.htm
 tech.root: gdi
 ms.assetid: 8fd13d56-f6fa-4aea-a7e5-535caf22a840
-
 ms.date: 12/05/2018
 ms.keywords: SetWindowExtEx, SetWindowExtEx function [Windows GDI], _win32_SetWindowExtEx, gdi.setwindowextex, wingdi/SetWindowExtEx
 ms.topic: function
-f1_keywords: 
- - "wingdi/SetWindowExtEx"
+f1_keywords:
+- wingdi/SetWindowExtEx
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-l1-1-1.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-l1-1-1.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - SetWindowExtEx
+- SetWindowExtEx
 targetos: Windows
 req.typenames: 
 req.redist: 

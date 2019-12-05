@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1svg.ID2D1SvgPaint
 title: ID2D1SvgPaint (d2d1svg.h)
-
 description: Interface describing an SVG fill or stroke value.
 old-location: direct2d\id2d1svgpaint.htm
 tech.root: Direct2D
 ms.assetid: 80FE02F1-D83B-4AA1-94F1-B754106CB19D
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgPaint, ID2D1SvgPaint interface [Direct2D], ID2D1SvgPaint interface [Direct2D],described, d2d1svg/ID2D1SvgPaint, direct2d.id2d1svgpaint
 ms.topic: interface
-f1_keywords: 
- - "d2d1svg/ID2D1SvgPaint"
+f1_keywords:
+- d2d1svg/ID2D1SvgPaint
 dev_langs:
- - c++
+- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Direct2d.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - direct2d.dll
+- direct2d.dll
 api_name:
- - ID2D1SvgPaint
+- ID2D1SvgPaint
 targetos: Windows
 req.typenames: 
 req.redist: 

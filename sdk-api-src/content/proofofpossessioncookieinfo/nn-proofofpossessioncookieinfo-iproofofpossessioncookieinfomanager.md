@@ -1,19 +1,17 @@
 ---
 UID: NN:proofofpossessioncookieinfo.IProofOfPossessionCookieInfoManager
 title: IProofOfPossessionCookieInfoManager (proofofpossessioncookieinfo.h)
-
 description: Supports the creation of proof of possession cookies.
 old-location: wininet\iproofofpossessioncookieinfomanager.htm
 tech.root: wininet
 ms.assetid: b8b89e48-e47d-4089-a8b6-04d53227767a
-
 ms.date: 12/05/2018
 ms.keywords: IProofOfPossessionCookieInfoManager, IProofOfPossessionCookieInfoManager interface [WinINet], IProofOfPossessionCookieInfoManager interface [WinINet],described, proofofpossessioncookieinfo/IProofOfPossessionCookieInfoManager, wininet.iproofofpossessioncookieinfomanager
 ms.topic: interface
-f1_keywords: 
- - "proofofpossessioncookieinfo/IProofOfPossessionCookieInfoManager"
+f1_keywords:
+- proofofpossessioncookieinfo/IProofOfPossessionCookieInfoManager
 dev_langs:
- - c++
+- c++
 req.header: proofofpossessioncookieinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MicrosoftAccountTokenProvider.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MicrosoftAccountTokenProvider.dll
+- MicrosoftAccountTokenProvider.dll
 api_name:
- - IProofOfPossessionCookieInfoManager
+- IProofOfPossessionCookieInfoManager
 targetos: Windows
 req.typenames: 
 req.redist: 

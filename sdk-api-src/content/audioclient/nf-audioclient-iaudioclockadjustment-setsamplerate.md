@@ -1,19 +1,17 @@
 ---
 UID: NF:audioclient.IAudioClockAdjustment.SetSampleRate
 title: IAudioClockAdjustment::SetSampleRate (audioclient.h)
-
 description: The SetSampleRate method sets the sample rate of a stream.
 old-location: coreaudio\iaudioclockadjustment_setsamplerate.htm
 tech.root: CoreAudio
 ms.assetid: fbb5b525-dc5a-4845-a1fa-ed37281b5c69
-
 ms.date: 12/05/2018
 ms.keywords: IAudioClockAdjustment interface [Core Audio],SetSampleRate method, IAudioClockAdjustment.SetSampleRate, IAudioClockAdjustment::SetSampleRate, SetSampleRate, SetSampleRate method [Core Audio], SetSampleRate method [Core Audio],IAudioClockAdjustment interface, audioclient/IAudioClockAdjustment::SetSampleRate, coreaudio.iaudioclockadjustment_setsamplerate
 ms.topic: method
-f1_keywords: 
- - "audioclient/IAudioClockAdjustment.SetSampleRate"
+f1_keywords:
+- audioclient/IAudioClockAdjustment.SetSampleRate
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - audioclient.h
+- audioclient.h
 api_name:
- - IAudioClockAdjustment.SetSampleRate
+- IAudioClockAdjustment.SetSampleRate
 targetos: Windows
 req.typenames: 
 req.redist: 

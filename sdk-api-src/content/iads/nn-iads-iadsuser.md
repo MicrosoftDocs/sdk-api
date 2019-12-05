@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsUser
 title: IADsUser (iads.h)
-
 description: The IADsUser interface is a dual interface that inherits from IADs.
 old-location: adsi\iadsuser.htm
 tech.root: adsi
 ms.assetid: 6eea74c2-2d6d-4dfd-9a22-3da2d5ce49bf
-
 ms.date: 12/05/2018
 ms.keywords: IADsUser, IADsUser interface [ADSI], IADsUser interface [ADSI],described, _ds_iadsuser, adsi.iadsuser, iads/IADsUser
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsUser"
+f1_keywords:
+- iads/IADsUser
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsUser
+- IADsUser
 targetos: Windows
 req.typenames: 
 req.redist: 

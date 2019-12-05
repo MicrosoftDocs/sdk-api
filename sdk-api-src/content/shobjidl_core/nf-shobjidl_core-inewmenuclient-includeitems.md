@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.INewMenuClient.IncludeItems
 title: INewMenuClient::IncludeItems (shobjidl_core.h)
-
 description: Allows the view to filter the items shown in the menu.
 old-location: shell\INewMenuClient_IncludeItems.htm
 tech.root: shell
 ms.assetid: 666bf93c-cc99-4530-852e-5ef05ea72348
-
 ms.date: 12/05/2018
 ms.keywords: INewMenuClient interface [Windows Shell],IncludeItems method, INewMenuClient.IncludeItems, INewMenuClient::IncludeItems, IncludeItems, IncludeItems method [Windows Shell], IncludeItems method [Windows Shell],INewMenuClient interface, NMCII_FOLDERS, NMCII_ITEMS, NMCII_NONE, _shell_INewMenuClient_IncludeItems, shell.INewMenuClient_IncludeItems, shobjidl_core/INewMenuClient::IncludeItems
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/INewMenuClient.IncludeItems"
+f1_keywords:
+- shobjidl_core/INewMenuClient.IncludeItems
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - INewMenuClient.IncludeItems
+- INewMenuClient.IncludeItems
 targetos: Windows
 req.typenames: 
 req.redist: 

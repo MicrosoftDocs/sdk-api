@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMOutputMediaProps
 title: IWMOutputMediaProps (wmsdkidl.h)
-
 description: The IWMOutputMediaProps interface is used to retrieve the properties of an output stream.An IWMOutputMediaProps object is created by a call to IWMReader::GetOutputFormat or IWMReader::GetOutputProps.
 old-location: wmformat\iwmoutputmediaprops.htm
 tech.root: wmformat
 ms.assetid: 8cf40db5-3902-4c14-b728-98da90567e89
-
 ms.date: 12/05/2018
 ms.keywords: IWMOutputMediaProps, IWMOutputMediaProps interface [windows Media Format], IWMOutputMediaProps interface [windows Media Format],described, IWMOutputMediaPropsInterface, wmformat.iwmoutputmediaprops, wmsdkidl/IWMOutputMediaProps
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMOutputMediaProps"
+f1_keywords:
+- wmsdkidl/IWMOutputMediaProps
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMOutputMediaProps
+- IWMOutputMediaProps
 targetos: Windows
 req.typenames: 
 req.redist: 

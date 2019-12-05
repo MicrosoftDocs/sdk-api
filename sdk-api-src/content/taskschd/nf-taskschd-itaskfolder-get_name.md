@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskFolder.get_Name
 title: ITaskFolder::get_Name (taskschd.h)
-
 description: Gets the name that is used to identify the folder that contains a task.
 old-location: taskschd\itaskfolder_name.htm
 tech.root: taskschd
 ms.assetid: 092d1d40-e97a-44a3-aff0-41b2b6df8d6d
-
 ms.date: 12/05/2018
 ms.keywords: ITaskFolder interface [Task Scheduler],Name property, ITaskFolder.Name, ITaskFolder.get_Name, ITaskFolder::Name, ITaskFolder::get_Name, Name property [Task Scheduler], Name property [Task Scheduler],ITaskFolder interface, get_Name, taskschd.itaskfolder_name, taskschd/ITaskFolder::Name, taskschd/ITaskFolder::get_Name
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskFolder.Name"
+f1_keywords:
+- taskschd/ITaskFolder.Name
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskFolder.Name
- - ITaskFolder.get_Name
+- ITaskFolder.Name
+- ITaskFolder.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.SetFileApisToANSI
 title: SetFileApisToANSI function (fileapi.h)
-
 description: Causes the file I/O functions to use the ANSI character set code page for the current process.
 old-location: fs\setfileapistoansi.htm
 tech.root: FileIO
 ms.assetid: 72b19773-9663-4cf8-90d3-656ee2785601
-
 ms.date: 12/05/2018
 ms.keywords: SetFileApisToANSI, SetFileApisToANSI function [Files], _win32_setfileapistoansi, base.setfileapistoansi, fileapi/SetFileApisToANSI, fs.setfileapistoansi
 ms.topic: function
-f1_keywords: 
- - "fileapi/SetFileApisToANSI"
+f1_keywords:
+- fileapi/SetFileApisToANSI
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-Ms-Win-Core-File-L1-2-2.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-Ms-Win-Core-File-L1-2-2.dll
+- KernelBase.dll
 api_name:
- - SetFileApisToANSI
+- SetFileApisToANSI
 targetos: Windows
 req.typenames: 
 req.redist: 

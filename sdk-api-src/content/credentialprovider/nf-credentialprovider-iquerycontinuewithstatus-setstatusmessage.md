@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.IQueryContinueWithStatus.SetStatusMessage
 title: IQueryContinueWithStatus::SetStatusMessage (credentialprovider.h)
-
 description: Enables the credential provider to set status messages as it attempts to complete IConnectableCredentialProviderCredential::Connect.
 old-location: shell\IQueryContinueWithStatus_SetStatusMessage.htm
 tech.root: shell
 ms.assetid: 1619c592-f79b-429f-a1dc-ce0b66542dd6
-
 ms.date: 12/05/2018
 ms.keywords: IQueryContinueWithStatus interface [Windows Shell],SetStatusMessage method, IQueryContinueWithStatus.SetStatusMessage, IQueryContinueWithStatus::SetStatusMessage, SetStatusMessage, SetStatusMessage method [Windows Shell], SetStatusMessage method [Windows Shell],IQueryContinueWithStatus interface, _shell_IQueryContinueWithStatus_SetStatusMessage, credentialprovider/IQueryContinueWithStatus::SetStatusMessage, shell.IQueryContinueWithStatus_SetStatusMessage
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/IQueryContinueWithStatus.SetStatusMessage"
+f1_keywords:
+- credentialprovider/IQueryContinueWithStatus.SetStatusMessage
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - IQueryContinueWithStatus.SetStatusMessage
+- IQueryContinueWithStatus.SetStatusMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DSurface9.GetDC
 title: IDirect3DSurface9::GetDC (d3d9.h)
-
 description: Retrieves a device context.
 old-location: direct3d9\idirect3dsurface9__getdc.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9__getdc.htm
-
 ms.date: 12/05/2018
 ms.keywords: 945f6e77-19f2-e9bf-18a4-09747a9990f3, GetDC, GetDC method [Direct3D 9], GetDC method [Direct3D 9],IDirect3DSurface9 interface, IDirect3DSurface9 interface [Direct3D 9],GetDC method, IDirect3DSurface9.GetDC, IDirect3DSurface9::GetDC, d3d9helper/IDirect3DSurface9::GetDC, direct3d9.idirect3dsurface9__getdc
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DSurface9.GetDC"
+f1_keywords:
+- d3d9/IDirect3DSurface9.GetDC
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DSurface9.GetDC
+- IDirect3DSurface9.GetDC
 targetos: Windows
 req.typenames: 
 req.redist: 

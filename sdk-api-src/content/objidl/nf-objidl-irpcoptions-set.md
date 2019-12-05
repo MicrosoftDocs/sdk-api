@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IRpcOptions.Set
 title: IRpcOptions::Set (objidl.h)
-
 description: Sets the value of an RPC binding option property.
 old-location: com\irpcoptions_set.htm
 tech.root: com
 ms.assetid: b4412e45-adc7-47e4-a19c-9ada6407e6dc
-
 ms.date: 12/05/2018
 ms.keywords: IRpcOptions interface [COM],Set method, IRpcOptions.Set, IRpcOptions::Set, Set, Set method [COM], Set method [COM],IRpcOptions interface, _com_irpcoptions_set, com.irpcoptions_set, objidlbase/IRpcOptions::Set
 ms.topic: method
-f1_keywords: 
- - "objidl/IRpcOptions.Set"
+f1_keywords:
+- objidl/IRpcOptions.Set
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IRpcOptions.Set
+- IRpcOptions.Set
 targetos: Windows
 req.typenames: 
 req.redist: 

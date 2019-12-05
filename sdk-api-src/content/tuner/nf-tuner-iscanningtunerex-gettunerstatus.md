@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IScanningTunerEx.GetTunerStatus
 title: IScanningTunerEx::GetTunerStatus (tuner.h)
-
 description: This topic applies to Windows Vista and later.
 old-location: mstv\iscanningtunerex_gettunerstatus.htm
 tech.root: mstv
 ms.assetid: 9e91f5ca-5a2e-414e-bf4c-882ba6a08b98
-
 ms.date: 12/05/2018
 ms.keywords: GetTunerStatus, GetTunerStatus method [Microsoft TV Technologies], GetTunerStatus method [Microsoft TV Technologies],IScanningTunerEx interface, IScanningTunerEx interface [Microsoft TV Technologies],GetTunerStatus method, IScanningTunerEx.GetTunerStatus, IScanningTunerEx::GetTunerStatus, IScanningTunerExGetTunerStatus, mstv.iscanningtunerex_gettunerstatus, tuner/IScanningTunerEx::GetTunerStatus
 ms.topic: method
-f1_keywords: 
- - "tuner/IScanningTunerEx.GetTunerStatus"
+f1_keywords:
+- tuner/IScanningTunerEx.GetTunerStatus
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tuner.h
+- Tuner.h
 api_name:
- - IScanningTunerEx.GetTunerStatus
+- IScanningTunerEx.GetTunerStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

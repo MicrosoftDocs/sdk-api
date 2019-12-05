@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.SetThumbnailResource
 title: IXpsOMPageReference::SetThumbnailResource (xpsobjectmodel.h)
-
 description: Sets the pointer to the IXpsOMImageResource interface of the thumbnail image resource to be assigned to the page.
 old-location: xps\ixpsompagereference_setthumbnailresource.htm
 tech.root: printdocs
 ms.assetid: b44c041d-dccd-4b64-b85b-454b203b865b
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReference interface [XPS Documents and Packaging],SetThumbnailResource method, IXpsOMPageReference.SetThumbnailResource, IXpsOMPageReference::SetThumbnailResource, SetThumbnailResource, SetThumbnailResource method [XPS Documents and Packaging], SetThumbnailResource method [XPS Documents and Packaging],IXpsOMPageReference interface, xps.ixpsompagereference_setthumbnailresource, xpsobjectmodel/IXpsOMPageReference::SetThumbnailResource
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPageReference.SetThumbnailResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPageReference.SetThumbnailResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPageReference.SetThumbnailResource
+- IXpsOMPageReference.SetThumbnailResource
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.PowerReadDescription
 title: PowerReadDescription function (powrprof.h)
-
 description: Retrieves the description for the specified power setting, subgroup, or scheme.
 old-location: base\powerreaddescription.htm
 tech.root: power
 ms.assetid: 3c264f4f-fd1b-466b-ba76-fe78593a3628
-
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadDescription, PowerReadDescription function, base.powerreaddescription, powrprof/PowerReadDescription
 ms.topic: function
-f1_keywords: 
- - "powrprof/PowerReadDescription"
+f1_keywords:
+- powrprof/PowerReadDescription
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - PowerReadDescription
+- PowerReadDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

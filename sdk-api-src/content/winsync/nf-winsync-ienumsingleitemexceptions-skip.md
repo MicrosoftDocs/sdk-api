@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IEnumSingleItemExceptions.Skip
 title: IEnumSingleItemExceptions::Skip (winsync.h)
-
 description: Skips the specified number of single-item exceptions.
 old-location: winsync\ienumsingleitemexceptions_skip.htm
 tech.root: winsync
 ms.assetid: 80e3bb55-b467-4fa4-bb3e-70233e5b0265
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSingleItemExceptions interface [Windows Sync],Skip method, IEnumSingleItemExceptions.Skip, IEnumSingleItemExceptions::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumSingleItemExceptions interface, winsync.ienumsingleitemexceptions_skip, winsync/IEnumSingleItemExceptions::Skip
 ms.topic: method
-f1_keywords: 
- - "winsync/IEnumSingleItemExceptions.Skip"
+f1_keywords:
+- winsync/IEnumSingleItemExceptions.Skip
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IEnumSingleItemExceptions.Skip
+- IEnumSingleItemExceptions.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMDeliver
 title: IComCRMEvents::OnCRMDeliver (comsvcs.h)
-
 description: Generated when a CRM clerk delivers a record to a CRM compensator.
 old-location: cos\icomcrmevents_oncrmdeliver.htm
 tech.root: cossdk
 ms.assetid: e93e5548-b833-43a9-a73e-1ccad9d252b6
-
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMDeliver method, IComCRMEvents.OnCRMDeliver, IComCRMEvents::OnCRMDeliver, OnCRMDeliver, OnCRMDeliver method [COM+], OnCRMDeliver method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMDeliver, comsvcs/IComCRMEvents::OnCRMDeliver, cos.icomcrmevents_oncrmdeliver
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComCRMEvents.OnCRMDeliver"
+f1_keywords:
+- comsvcs/IComCRMEvents.OnCRMDeliver
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComCRMEvents.OnCRMDeliver
+- IComCRMEvents.OnCRMDeliver
 targetos: Windows
 req.typenames: 
 req.redist: 

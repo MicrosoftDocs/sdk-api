@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteBitmapRenderTarget.GetCurrentTransform
 title: IDWriteBitmapRenderTarget::GetCurrentTransform (dwrite.h)
-
 description: Gets the transform that maps abstract coordinates to DIPs. By default this is the identity transform. Note that this is unrelated to the world transform of the underlying device context.
 old-location: directwrite\IDWriteBitmapRenderTarget_GetCurrentTransform.htm
 tech.root: DirectWrite
 ms.assetid: 7f84e38e-f0e8-4cf7-bad0-d41f24ce9499
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentTransform, GetCurrentTransform method [Direct Write], GetCurrentTransform method [Direct Write],IDWriteBitmapRenderTarget interface, IDWriteBitmapRenderTarget interface [Direct Write],GetCurrentTransform method, IDWriteBitmapRenderTarget.GetCurrentTransform, IDWriteBitmapRenderTarget::GetCurrentTransform, directwrite.IDWriteBitmapRenderTarget_GetCurrentTransform, dwrite/IDWriteBitmapRenderTarget::GetCurrentTransform
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteBitmapRenderTarget.GetCurrentTransform"
+f1_keywords:
+- dwrite/IDWriteBitmapRenderTarget.GetCurrentTransform
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteBitmapRenderTarget.GetCurrentTransform
+- IDWriteBitmapRenderTarget.GetCurrentTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

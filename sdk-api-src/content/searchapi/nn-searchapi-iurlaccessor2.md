@@ -1,19 +1,17 @@
 ---
 UID: NN:searchapi.IUrlAccessor2
 title: IUrlAccessor2 (searchapi.h)
-
 description: Extends functionality of the IUrlAccessor interface.
 old-location: search\_search_IUrlAccessor2.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor2\iurlaccessor2.htm
-
 ms.date: 12/05/2018
 ms.keywords: IUrlAccessor2, IUrlAccessor2 interface [search], IUrlAccessor2 interface [search],described, _search_IUrlAccessor2, search._search_IUrlAccessor2, searchapi/IUrlAccessor2
 ms.topic: interface
-f1_keywords: 
- - "searchapi/IUrlAccessor2"
+f1_keywords:
+- searchapi/IUrlAccessor2
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IUrlAccessor2
+- IUrlAccessor2
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

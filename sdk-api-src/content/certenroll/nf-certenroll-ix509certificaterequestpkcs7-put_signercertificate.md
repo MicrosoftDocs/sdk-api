@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs7.put_SignerCertificate
 title: IX509CertificateRequestPkcs7::put_SignerCertificate (certenroll.h)
-
 description: Specifies or retrieves a certificate used to sign the certificate request.
 old-location: security\ix509certificaterequestpkcs7_signercertificate_property.htm
 tech.root: seccertenroll
 ms.assetid: 5d93aad0-6b93-4508-9bf0-82f673585ead
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs7 interface [Security],SignerCertificate property, IX509CertificateRequestPkcs7.SignerCertificate, IX509CertificateRequestPkcs7.put_SignerCertificate, IX509CertificateRequestPkcs7::SignerCertificate, IX509CertificateRequestPkcs7::get_SignerCertificate, IX509CertificateRequestPkcs7::put_SignerCertificate, SignerCertificate property [Security], SignerCertificate property [Security],IX509CertificateRequestPkcs7 interface, certenroll/IX509CertificateRequestPkcs7::SignerCertificate, certenroll/IX509CertificateRequestPkcs7::get_SignerCertificate, certenroll/IX509CertificateRequestPkcs7::put_SignerCertificate, put_SignerCertificate, security.ix509certificaterequestpkcs7_signercertificate_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestPkcs7.SignerCertificate"
+f1_keywords:
+- certenroll/IX509CertificateRequestPkcs7.SignerCertificate
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs7.SignerCertificate
- - IX509CertificateRequestPkcs7.get_SignerCertificate
- - IX509CertificateRequestPkcs7.put_SignerCertificate
+- IX509CertificateRequestPkcs7.SignerCertificate
+- IX509CertificateRequestPkcs7.get_SignerCertificate
+- IX509CertificateRequestPkcs7.put_SignerCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

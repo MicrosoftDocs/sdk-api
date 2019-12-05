@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetNumaAvailableMemoryNode
 title: GetNumaAvailableMemoryNode function (winbase.h)
-
 description: Retrieves the amount of memory available in the specified node.
 old-location: base\getnumaavailablememorynode.htm
 tech.root: ProcThread
 ms.assetid: 8db45ec1-fa3c-4395-8986-817e8b137a8a
-
 ms.date: 12/05/2018
 ms.keywords: GetNumaAvailableMemoryNode, GetNumaAvailableMemoryNode function, _win32_getnumaavailablememorynode, base.getnumaavailablememorynode, winbase/GetNumaAvailableMemoryNode
 ms.topic: function
-f1_keywords: 
- - "winbase/GetNumaAvailableMemoryNode"
+f1_keywords:
+- winbase/GetNumaAvailableMemoryNode
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - GetNumaAvailableMemoryNode
+- GetNumaAvailableMemoryNode
 targetos: Windows
 req.typenames: 
 req.redist: 

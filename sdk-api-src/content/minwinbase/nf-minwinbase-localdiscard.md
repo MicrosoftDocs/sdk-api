@@ -1,19 +1,17 @@
 ---
 UID: NF:minwinbase.LocalDiscard
 title: LocalDiscard macro (minwinbase.h)
-
 description: Discards the specified local memory object. The lock count of the memory object must be zero.
 old-location: base\localdiscard.htm
 tech.root: Memory
 ms.assetid: 05842fa7-0438-4237-962f-055dc338368c
-
 ms.date: 12/05/2018
 ms.keywords: LocalDiscard, LocalDiscard macro, _win32_localdiscard, base.localdiscard, minwinbase/LocalDiscard
 ms.topic: macro
-f1_keywords: 
- - "minwinbase/LocalDiscard"
+f1_keywords:
+- minwinbase/LocalDiscard
 dev_langs:
- - c++
+- c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minwinbase.h
+- minwinbase.h
 api_name:
- - LocalDiscard
+- LocalDiscard
 targetos: Windows
 req.typenames: 
 req.redist: 

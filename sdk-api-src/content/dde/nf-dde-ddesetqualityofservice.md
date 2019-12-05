@@ -1,19 +1,17 @@
 ---
 UID: NF:dde.DdeSetQualityOfService
 title: DdeSetQualityOfService function (dde.h)
-
 description: Specifies the quality of service (QOS) a raw Dynamic Data Exchange (DDE) application desires for future DDE conversations it initiates.
 old-location: dataxchg\ddesetqualityofservice.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangefunctions\ddesetqualityofservice.htm
-
 ms.date: 12/05/2018
 ms.keywords: DdeSetQualityOfService, DdeSetQualityOfService function [Data Exchange], _win32_DdeSetQualityOfService, _win32_ddesetqualityofservice_cpp, dataxchg.ddesetqualityofservice, dde/DdeSetQualityOfService, winui._win32_ddesetqualityofservice
 ms.topic: function
 f1_keywords:
 - dde/DdeSetQualityOfService
 dev_langs:
- - c++
+- c++
 req.header: dde.h
 req.include-header: Windows.h
 req.target-type: Windows

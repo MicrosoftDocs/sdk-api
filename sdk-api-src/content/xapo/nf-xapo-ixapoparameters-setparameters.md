@@ -1,19 +1,17 @@
 ---
 UID: NF:xapo.IXAPOParameters.SetParameters
 title: IXAPOParameters::SetParameters (xapo.h)
-
 description: Sets effect-specific parameters.
 old-location: xaudio2\ixapoparameters_interface_setparameters.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapoparameters.IXAPOParameters.SetParameters(const void,UINT32)
-
 ms.date: 12/05/2018
 ms.keywords: IXAPOParameters interface [XAudio2 Audio Mixing APIs],SetParameters method, IXAPOParameters.SetParameters, IXAPOParameters::SetParameters, SetParameters, SetParameters method [XAudio2 Audio Mixing APIs], SetParameters method [XAudio2 Audio Mixing APIs],IXAPOParameters interface, xapo/IXAPOParameters::SetParameters, xaudio2.ixapoparameters_interface_setparameters
 ms.topic: method
-f1_keywords: 
- - "xapo/IXAPOParameters.SetParameters"
+f1_keywords:
+- xapo/IXAPOParameters.SetParameters
 dev_langs:
- - c++
+- c++
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XAPO.h
+- XAPO.h
 api_name:
- - IXAPOParameters.SetParameters
+- IXAPOParameters.SetParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

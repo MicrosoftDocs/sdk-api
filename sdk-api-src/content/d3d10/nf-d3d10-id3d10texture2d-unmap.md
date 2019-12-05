@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Texture2D.Unmap
 title: ID3D10Texture2D::Unmap (d3d10.h)
-
 description: Invalidate the pointer to the resource that was retrieved by ID3D10Texture2D::Map, and re-enable GPU access to the resource.
 old-location: direct3d10\id3d10texture2d_unmap.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10texture2d_unmap.htm
-
 ms.date: 12/05/2018
 ms.keywords: ID3D10Texture2D interface [Direct3D 10],Unmap method, ID3D10Texture2D.Unmap, ID3D10Texture2D::Unmap, Unmap, Unmap method [Direct3D 10], Unmap method [Direct3D 10],ID3D10Texture2D interface, d3d10/ID3D10Texture2D::Unmap, direct3d10.id3d10texture2d_unmap, e1ca6720-deda-a569-77bf-8e1b691dd284
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Texture2D.Unmap"
+f1_keywords:
+- d3d10/ID3D10Texture2D.Unmap
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Texture2D.Unmap
+- ID3D10Texture2D.Unmap
 targetos: Windows
 req.typenames: 
 req.redist: 

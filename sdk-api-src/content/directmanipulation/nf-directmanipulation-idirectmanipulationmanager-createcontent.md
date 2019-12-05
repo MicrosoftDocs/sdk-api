@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager.CreateContent
 title: IDirectManipulationManager::CreateContent (directmanipulation.h)
-
 description: The factory method that is used to create an instance of secondary content (such as a panning indicator) inside a viewport.
 old-location: directmanipulation\idirectmanipulationmanager_createcontent.htm
 tech.root: directmanipulation
 ms.assetid: f8a2fbb2-f662-4eb7-88fb-64286205f19e
-
 ms.date: 12/05/2018
 ms.keywords: CreateContent, CreateContent method [Direct Manipulation], CreateContent method [Direct Manipulation],IDirectManipulationManager interface, IDirectManipulationManager interface [Direct Manipulation],CreateContent method, IDirectManipulationManager.CreateContent, IDirectManipulationManager::CreateContent, directmanipulation.idirectmanipulationmanager_createcontent, directmanipulation/IDirectManipulationManager::CreateContent
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationManager.CreateContent"
+f1_keywords:
+- directmanipulation/IDirectManipulationManager.CreateContent
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationManager.CreateContent
+- IDirectManipulationManager.CreateContent
 targetos: Windows
 req.typenames: 
 req.redist: 

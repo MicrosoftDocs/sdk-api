@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDefaultExtractIconInit.SetKey
 title: IDefaultExtractIconInit::SetKey (shobjidl_core.h)
-
 description: Sets the registry key from which to load the &#0034;DefaultIcon&#0034; value.
 old-location: shell\IDefaultExtractIconInit_SetKey.htm
 tech.root: shell
 ms.assetid: dce75b90-f569-4983-a540-82a021377287
-
 ms.date: 12/05/2018
 ms.keywords: IDefaultExtractIconInit interface [Windows Shell],SetKey method, IDefaultExtractIconInit.SetKey, IDefaultExtractIconInit::SetKey, SetKey, SetKey method [Windows Shell], SetKey method [Windows Shell],IDefaultExtractIconInit interface, _shell_IDefaultExtractIconInit_SetKey, shell.IDefaultExtractIconInit_SetKey, shobjidl_core/IDefaultExtractIconInit::SetKey
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDefaultExtractIconInit.SetKey"
+f1_keywords:
+- shobjidl_core/IDefaultExtractIconInit.SetKey
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IDefaultExtractIconInit.SetKey
+- IDefaultExtractIconInit.SetKey
 targetos: Windows
 req.typenames: 
 req.redist: 

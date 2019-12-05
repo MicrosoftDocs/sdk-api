@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.PrivateFontCollection.AddMemoryFont
 title: PrivateFontCollection::AddMemoryFont (gdiplusheaders.h)
-
 description: The PrivateFontCollection::AddMemoryFont method adds a font that is contained in system memory to a Windows GDI+ font collection.
 old-location: gdiplus\_gdiplus_CLASS_PrivateFontCollection_AddMemoryFont_memory_length_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\privatefontcollectionclass\privatefontcollectionmethods\addmemoryfont.htm
-
 ms.date: 12/05/2018
 ms.keywords: AddMemoryFont, AddMemoryFont method [GDI+], AddMemoryFont method [GDI+],PrivateFontCollection class, PrivateFontCollection class [GDI+],AddMemoryFont method, PrivateFontCollection.AddMemoryFont, PrivateFontCollection::AddMemoryFont, _gdiplus_CLASS_PrivateFontCollection_AddMemoryFont_memory_length_, gdiplus._gdiplus_CLASS_PrivateFontCollection_AddMemoryFont_memory_length_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/PrivateFontCollection.AddMemoryFont"
+f1_keywords:
+- gdiplusheaders/PrivateFontCollection.AddMemoryFont
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - PrivateFontCollection.AddMemoryFont
+- PrivateFontCollection.AddMemoryFont
 targetos: Windows
 req.typenames: 
 req.redist: 

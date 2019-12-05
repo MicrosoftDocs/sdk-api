@@ -1,19 +1,17 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.SetMute
 title: IAudioEndpointVolume::SetMute (endpointvolume.h)
-
 description: The SetMute method sets the muting state of the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_setmute.htm
 tech.root: CoreAudio
 ms.assetid: a0ab4fef-8333-4f21-ae8e-74285788ae0e
-
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],SetMute method, IAudioEndpointVolume.SetMute, IAudioEndpointVolume::SetMute, IAudioEndpointVolumeSetMute, SetMute, SetMute method [Core Audio], SetMute method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_setmute, endpointvolume/IAudioEndpointVolume::SetMute
 ms.topic: method
-f1_keywords: 
- - "endpointvolume/IAudioEndpointVolume.SetMute"
+f1_keywords:
+- endpointvolume/IAudioEndpointVolume.SetMute
 dev_langs:
- - c++
+- c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Endpointvolume.h
+- Endpointvolume.h
 api_name:
- - IAudioEndpointVolume.SetMute
+- IAudioEndpointVolume.SetMute
 targetos: Windows
 req.typenames: 
 req.redist: 

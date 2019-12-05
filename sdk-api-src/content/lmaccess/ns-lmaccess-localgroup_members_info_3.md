@@ -1,19 +1,17 @@
 ---
 UID: NS:lmaccess._LOCALGROUP_MEMBERS_INFO_3
 title: LOCALGROUP_MEMBERS_INFO_3 (lmaccess.h)
-
 description: The LOCALGROUP_MEMBERS_INFO_3 structure contains the account name and domain name associated with a local group member.
 old-location: netmgmt\localgroup_members_info_3_str.htm
 tech.root: NetMgmt
 ms.assetid: e8d1d884-c955-4706-bc3e-142469b02545
-
 ms.date: 12/05/2018
 ms.keywords: '*LPLOCALGROUP_MEMBERS_INFO_3, *PLOCALGROUP_MEMBERS_INFO_3, LOCALGROUP_MEMBERS_INFO_3, LOCALGROUP_MEMBERS_INFO_3 structure [Network Management], _win32_localgroup_members_info_3_str, lmaccess/LOCALGROUP_MEMBERS_INFO_3, netmgmt.localgroup_members_info_3_str'
 ms.topic: struct
 f1_keywords:
 - lmaccess/LOCALGROUP_MEMBERS_INFO_3
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

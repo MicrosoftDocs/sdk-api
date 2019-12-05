@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.put_BufferUnderrunFreeDisabled
 title: IDiscFormat2Data::put_BufferUnderrunFreeDisabled (imapi2.h)
-
 description: Determines if Buffer Underrun Free recording is enabled.
 old-location: imapi\idiscformat2data_put_bufferunderrunfreedisabled.htm
 tech.root: imapi
 ms.assetid: 32d05abe-c434-4a87-b6ee-961a999321c5
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],put_BufferUnderrunFreeDisabled method, IDiscFormat2Data.put_BufferUnderrunFreeDisabled, IDiscFormat2Data::put_BufferUnderrunFreeDisabled, imapi.idiscformat2data_put_bufferunderrunfreedisabled, imapi2/IDiscFormat2Data::put_BufferUnderrunFreeDisabled, put_BufferUnderrunFreeDisabled, put_BufferUnderrunFreeDisabled method [IMAPI], put_BufferUnderrunFreeDisabled method [IMAPI],IDiscFormat2Data interface
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2Data.put_BufferUnderrunFreeDisabled"
+f1_keywords:
+- imapi2/IDiscFormat2Data.put_BufferUnderrunFreeDisabled
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2Data.put_BufferUnderrunFreeDisabled
+- IDiscFormat2Data.put_BufferUnderrunFreeDisabled
 targetos: Windows
 req.typenames: 
 req.redist: 

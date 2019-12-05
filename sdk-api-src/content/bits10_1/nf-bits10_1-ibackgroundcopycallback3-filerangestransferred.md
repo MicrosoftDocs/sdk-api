@@ -1,19 +1,17 @@
 ---
 UID: NF:bits10_1.IBackgroundCopyCallback3.FileRangesTransferred
 title: IBackgroundCopyCallback3::FileRangesTransferred (bits10_1.h)
-
 description: BITS calls your implementation of the FileRangesTransferred method when one or more file ranges have been downloaded. File ranges are added to the job using the IBackgroundCopyFile6::RequestFileRanges method.
 old-location: bits\ibackgroundcopycallback3_filerangestransferred.htm
 tech.root: Bits
 ms.assetid: F47293D5-E21E-472A-AE62-4781D61D0430
-
 ms.date: 12/05/2018
 ms.keywords: FileRangesTransferred, FileRangesTransferred method [BITS], FileRangesTransferred method [BITS],IBackgroundCopyCallback3 interface, IBackgroundCopyCallback3 interface [BITS],FileRangesTransferred method, IBackgroundCopyCallback3.FileRangesTransferred, IBackgroundCopyCallback3::FileRangesTransferred, bits.ibackgroundcopycallback3_filerangestransferred, bits10_1/IBackgroundCopyCallback3::FileRangesTransferred
 ms.topic: method
-f1_keywords: 
- - "bits10_1/IBackgroundCopyCallback3.FileRangesTransferred"
+f1_keywords:
+- bits10_1/IBackgroundCopyCallback3.FileRangesTransferred
 dev_langs:
- - c++
+- c++
 req.header: bits10_1.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBackgroundCopyCallback3.FileRangesTransferred
+- IBackgroundCopyCallback3.FileRangesTransferred
 targetos: Windows
 req.typenames: 
 req.redist: 

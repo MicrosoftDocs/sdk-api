@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuningSpace.EnumDeviceMonikers
 title: ITuningSpace::EnumDeviceMonikers (tuner.h)
-
 description: The EnumDeviceMonikers method creates an enumerator of device monikers representing the tuner filters that support this tuning space.
 old-location: mstv\ituningspace_enumdevicemonikers.htm
 tech.root: mstv
 ms.assetid: 4d1f9bcd-de94-4ea5-89a0-84042a514484
-
 ms.date: 12/05/2018
 ms.keywords: EnumDeviceMonikers, EnumDeviceMonikers method [Microsoft TV Technologies], EnumDeviceMonikers method [Microsoft TV Technologies],ITuningSpace interface, ITuningSpace interface [Microsoft TV Technologies],EnumDeviceMonikers method, ITuningSpace.EnumDeviceMonikers, ITuningSpace::EnumDeviceMonikers, ITuningSpaceEnumDeviceMonikers, mstv.ituningspace_enumdevicemonikers, tuner/ITuningSpace::EnumDeviceMonikers
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuningSpace.EnumDeviceMonikers"
+f1_keywords:
+- tuner/ITuningSpace.EnumDeviceMonikers
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuningSpace.EnumDeviceMonikers
+- ITuningSpace.EnumDeviceMonikers
 targetos: Windows
 req.typenames: 
 req.redist: 

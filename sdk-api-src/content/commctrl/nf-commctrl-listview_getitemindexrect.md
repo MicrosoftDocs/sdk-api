@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_GetItemIndexRect
 title: ListView_GetItemIndexRect macro (commctrl.h)
-
 description: Gets the bounding rectangle for all or part of a subitem in the current view of a specified list-view control. Use this macro or send the LVM_GETITEMINDEXRECT message explicitly.
 old-location: controls\ListView_GetItemIndexRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemindexrect.htm
-
 ms.date: 12/05/2018
 ms.keywords: LVIR_BOUNDS, LVIR_ICON, LVIR_LABEL, ListView_GetItemIndexRect, ListView_GetItemIndexRect macro [Windows Controls], _shell_ListView_GetItemIndexRect, _shell_ListView_GetItemIndexRect_cpp, commctrl/ListView_GetItemIndexRect, controls.ListView_GetItemIndexRect, controls._shell_ListView_GetItemIndexRect
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_GetItemIndexRect"
+f1_keywords:
+- commctrl/ListView_GetItemIndexRect
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_GetItemIndexRect
+- ListView_GetItemIndexRect
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.MoveItem
 title: IFileOperation::MoveItem (shobjidl_core.h)
-
 description: Declares a single item that is to be moved to a specified destination.
 old-location: shell\IFileOperation_MoveItem.htm
 tech.root: shell
 ms.assetid: 7b1e66c9-5264-42cb-9554-d1ea92625c6f
-
 ms.date: 12/05/2018
 ms.keywords: IFileOperation interface [Windows Shell],MoveItem method, IFileOperation.MoveItem, IFileOperation::MoveItem, MoveItem, MoveItem method [Windows Shell], MoveItem method [Windows Shell],IFileOperation interface, _shell_IFileOperation_MoveItem, shell.IFileOperation_MoveItem, shobjidl_core/IFileOperation::MoveItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileOperation.MoveItem"
+f1_keywords:
+- shobjidl_core/IFileOperation.MoveItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOperation.MoveItem
+- IFileOperation.MoveItem
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgidebug.IDXGIDebug1.IsLeakTrackingEnabledForThread
 title: IDXGIDebug1::IsLeakTrackingEnabledForThread (dxgidebug.h)
-
 description: Gets a value indicating whether leak tracking is turned on for the current thread.
 old-location: direct3ddxgi\idxgidebug1_isleaktrackingenabledforthread.htm
 tech.root: direct3ddxgi
 ms.assetid: ACC57DDE-F019-415F-AAFA-E56ACE4F4197
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIDebug1 interface [DXGI],IsLeakTrackingEnabledForThread method, IDXGIDebug1.IsLeakTrackingEnabledForThread, IDXGIDebug1::IsLeakTrackingEnabledForThread, IsLeakTrackingEnabledForThread, IsLeakTrackingEnabledForThread method [DXGI], IsLeakTrackingEnabledForThread method [DXGI],IDXGIDebug1 interface, direct3ddxgi.idxgidebug1_isleaktrackingenabledforthread, dxgidebug/IDXGIDebug1::IsLeakTrackingEnabledForThread
 ms.topic: method
-f1_keywords: 
- - "dxgidebug/IDXGIDebug1.IsLeakTrackingEnabledForThread"
+f1_keywords:
+- dxgidebug/IDXGIDebug1.IsLeakTrackingEnabledForThread
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIDebug1.IsLeakTrackingEnabledForThread
+- IDXGIDebug1.IsLeakTrackingEnabledForThread
 targetos: Windows
 req.typenames: 
 req.redist: 

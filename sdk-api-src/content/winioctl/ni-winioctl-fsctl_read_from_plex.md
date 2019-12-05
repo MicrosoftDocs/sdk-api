@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_READ_FROM_PLEX
 title: FSCTL_READ_FROM_PLEX
-
 description: Reads from the specified plex.
 old-location: fs\fsctl_read_from_plex.htm
 tech.root: FileIO
 ms.assetid: f2cddd4d-cb58-484c-9a85-274b88ec4ece
-
 ms.date: 12/05/2018
 ms.keywords: FSCTL_READ_FROM_PLEX, FSCTL_READ_FROM_PLEX control, FSCTL_READ_FROM_PLEX control code [Files], _win32_fsctl_read_from_plex, base.fsctl_read_from_plex, fs.fsctl_read_from_plex, winioctl/FSCTL_READ_FROM_PLEX
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_READ_FROM_PLEX
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

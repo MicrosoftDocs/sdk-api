@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_CONTEXT_CHANGE0_
 title: IPSEC_SA_CONTEXT_CHANGE0 (ipsectypes.h)
-
 description: Contains information about an IPsec security association (SA) context change.
 old-location: fwp\ipsec_sa_context_change0.htm
 tech.root: fwp
 ms.assetid: a81df783-72d8-4374-a3f8-44c3491a98db
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_SA_CONTEXT_CHANGE0, IPSEC_SA_CONTEXT_CHANGE0 structure [Filtering], fwp.ipsec_sa_context_change0, ipsectypes/IPSEC_SA_CONTEXT_CHANGE0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_SA_CONTEXT_CHANGE0"
+f1_keywords:
+- ipsectypes/IPSEC_SA_CONTEXT_CHANGE0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_SA_CONTEXT_CHANGE0
+- IPSEC_SA_CONTEXT_CHANGE0
 targetos: Windows
 req.typenames: IPSEC_SA_CONTEXT_CHANGE0
 req.redist: 

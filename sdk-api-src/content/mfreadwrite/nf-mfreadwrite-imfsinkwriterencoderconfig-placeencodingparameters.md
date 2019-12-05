@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriterEncoderConfig.PlaceEncodingParameters
 title: IMFSinkWriterEncoderConfig::PlaceEncodingParameters (mfreadwrite.h)
-
 description: Dynamically updates the encoder configuration with a collection of new encoder settings.
 old-location: mf\imfsinkwriterencoderconfig_placeencodingparameters.htm
 tech.root: medfound
 ms.assetid: ea09d806-c869-4a62-8f9d-c35db4e406ff
-
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriterEncoderConfig interface [Media Foundation],PlaceEncodingParameters method, IMFSinkWriterEncoderConfig.PlaceEncodingParameters, IMFSinkWriterEncoderConfig::PlaceEncodingParameters, PlaceEncodingParameters, PlaceEncodingParameters method [Media Foundation], PlaceEncodingParameters method [Media Foundation],IMFSinkWriterEncoderConfig interface, mf.imfsinkwriterencoderconfig_placeencodingparameters, mfreadwrite/IMFSinkWriterEncoderConfig::PlaceEncodingParameters
 ms.topic: method
-f1_keywords: 
- - "mfreadwrite/IMFSinkWriterEncoderConfig.PlaceEncodingParameters"
+f1_keywords:
+- mfreadwrite/IMFSinkWriterEncoderConfig.PlaceEncodingParameters
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSinkWriterEncoderConfig.PlaceEncodingParameters
+- IMFSinkWriterEncoderConfig.PlaceEncodingParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

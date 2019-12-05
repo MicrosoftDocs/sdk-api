@@ -1,19 +1,17 @@
 ---
 UID: NN:azroles.IAzApplicationGroups
 title: IAzApplicationGroups (azroles.h)
-
 description: Represents a collection of IAzApplicationGroup objects.
 old-location: security\iazapplicationgroups.htm
 tech.root: SecAuthZ
 ms.assetid: e96c4cae-0a0a-4ac4-805f-2042312f0267
-
 ms.date: 12/05/2018
 ms.keywords: IAzApplicationGroups, IAzApplicationGroups interface [Security], IAzApplicationGroups interface [Security],described, azroles/IAzApplicationGroups, security.iazapplicationgroups
 ms.topic: interface
-f1_keywords: 
- - "azroles/IAzApplicationGroups"
+f1_keywords:
+- azroles/IAzApplicationGroups
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplicationGroups
+- IAzApplicationGroups
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

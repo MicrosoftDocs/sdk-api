@@ -1,19 +1,17 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2Callback.OnRedirect
 title: IXMLHTTPRequest2Callback::OnRedirect (msxml6.h)
-
 description: Occurs when a client sends an HTTP request that the server redirects to a new URL.
 old-location: ixhr2\ixmlhttprequest2callback_onredirect.htm
 tech.root: ixhr2
 ms.assetid: 8492FFD5-99C8-4545-B5FD-465CC01D0038
-
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnRedirect method, IXMLHTTPRequest2Callback.OnRedirect, IXMLHTTPRequest2Callback::OnRedirect, OnRedirect, OnRedirect method [XMLHttpRequest2], OnRedirect method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_onredirect, msxml6/IXMLHTTPRequest2Callback::OnRedirect
 ms.topic: method
-f1_keywords: 
- - "msxml6/IXMLHTTPRequest2Callback.OnRedirect"
+f1_keywords:
+- msxml6/IXMLHTTPRequest2Callback.OnRedirect
 dev_langs:
- - c++
+- c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msxml6.h
+- msxml6.h
 api_name:
- - IXMLHTTPRequest2Callback.OnRedirect
+- IXMLHTTPRequest2Callback.OnRedirect
 targetos: Windows
 req.typenames: 
 req.redist: 

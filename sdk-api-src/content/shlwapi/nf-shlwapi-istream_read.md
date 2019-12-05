@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.IStream_Read
 title: IStream_Read function (shlwapi.h)
-
 description: Reads bytes from a specified stream and returns a value that indicates whether all bytes were successfully read.
 old-location: shell\IStream_Read.htm
 tech.root: shell
 ms.assetid: 07a3a500-babb-458b-ba98-9344c63ea014
-
 ms.date: 12/05/2018
 ms.keywords: IStream_Read, IStream_Read function [Windows Shell], _win32_IStream_Read, shell.IStream_Read, shlwapi/IStream_Read
 ms.topic: function
-f1_keywords: 
- - "shlwapi/IStream_Read"
+f1_keywords:
+- shlwapi/IStream_Read
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
- - ShCore.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
- - API-MS-Win-ShCore-stream-l1-1-0.dll
+- Shlwapi.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+- ShCore.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+- API-MS-Win-ShCore-stream-l1-1-0.dll
 api_name:
- - IStream_Read
+- IStream_Read
 targetos: Windows
 req.typenames: 
 req.redist: 

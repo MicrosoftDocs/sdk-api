@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IManagedObjectInfo.SetWrapperStrength
 title: IManagedObjectInfo::SetWrapperStrength (comsvcs.h)
-
 description: Sets whether the managed object holds a strong or a weak reference to the COM+ context.
 old-location: cos\imanagedobjectinfo_setwrapperstrength.htm
 tech.root: cossdk
 ms.assetid: 0f03c6cb-4bfc-4871-8f5b-78ccc8df8838
-
 ms.date: 12/05/2018
 ms.keywords: IManagedObjectInfo interface [COM+],SetWrapperStrength method, IManagedObjectInfo.SetWrapperStrength, IManagedObjectInfo::SetWrapperStrength, SetWrapperStrength, SetWrapperStrength method [COM+], SetWrapperStrength method [COM+],IManagedObjectInfo interface, _cos_IManagedObjectInfo_SetWrapperStrength, comsvcs/IManagedObjectInfo::SetWrapperStrength, cos.imanagedobjectinfo_setwrapperstrength
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IManagedObjectInfo.SetWrapperStrength"
+f1_keywords:
+- comsvcs/IManagedObjectInfo.SetWrapperStrength
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IManagedObjectInfo.SetWrapperStrength
+- IManagedObjectInfo.SetWrapperStrength
 targetos: Windows
 req.typenames: 
 req.redist: 

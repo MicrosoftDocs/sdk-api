@@ -1,19 +1,17 @@
 ---
 UID: NE:gdiplusenums.ImageType
 title: ImageType (gdiplusenums.h)
-
 description: The ImageType enumeration indicates whether an image is a bitmap or a metafile. The Image::GetType method returns an element of this enumeration.
 old-location: gdiplus\_gdiplus_ENUM_ImageType.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\imagetype.htm
-
 ms.date: 12/05/2018
 ms.keywords: ImageType, ImageType enumeration [GDI+], ImageTypeBitmap, ImageTypeMetafile, ImageTypeUnknown, _gdiplus_ENUM_ImageType, gdiplus._gdiplus_ENUM_ImageType, gdiplusenums/ImageType, gdiplusenums/ImageTypeBitmap, gdiplusenums/ImageTypeMetafile, gdiplusenums/ImageTypeUnknown
 ms.topic: enum
-f1_keywords: 
- - "gdiplusenums/ImageType"
+f1_keywords:
+- gdiplusenums/ImageType
 dev_langs:
- - c++
+- c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdiplusenums.h
+- Gdiplusenums.h
 api_name:
- - ImageType
+- ImageType
 targetos: Windows
 req.typenames: 
 req.redist: 

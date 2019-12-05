@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1BitmapBrush.SetBitmap
 title: ID2D1BitmapBrush::SetBitmap (d2d1.h)
-
 description: Specifies the bitmap source that this brush uses to paint.
 old-location: direct2d\ID2D1BitmapBrush_SetBitmap.htm
 tech.root: Direct2D
 ms.assetid: 776dba7f-11d0-4055-9071-8719ac192f00
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1BitmapBrush interface [Direct2D],SetBitmap method, ID2D1BitmapBrush.SetBitmap, ID2D1BitmapBrush::SetBitmap, SetBitmap, SetBitmap method [Direct2D], SetBitmap method [Direct2D],ID2D1BitmapBrush interface, d2d1/ID2D1BitmapBrush::SetBitmap, direct2d.ID2D1BitmapBrush_SetBitmap
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1BitmapBrush.SetBitmap"
+f1_keywords:
+- d2d1/ID2D1BitmapBrush.SetBitmap
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1BitmapBrush.SetBitmap
+- ID2D1BitmapBrush.SetBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

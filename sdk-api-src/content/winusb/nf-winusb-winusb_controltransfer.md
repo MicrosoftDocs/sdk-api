@@ -1,19 +1,17 @@
 ---
 UID: NF:winusb.WinUsb_ControlTransfer
 title: WinUsb_ControlTransfer function (winusb.h)
-
 description: The WinUsb_ControlTransfer function transmits control data over a default control endpoint.
 old-location: buses\winusb_controltransfer.htm
 tech.root: usbref
 ms.assetid: 2ae80c97-3a09-4e90-ae73-92b5caa5cf99
-
 ms.date: 12/05/2018
 ms.keywords: WinUsb_ControlTransfer, WinUsb_ControlTransfer function [Buses], buses.winusb_controltransfer, winusb/WinUsb_ControlTransfer, winusbfunc_016c7bb1-6139-4a37-95d9-f3e2312871a2.xml
 ms.topic: function
 f1_keywords:
 - winusb/WinUsb_ControlTransfer
 dev_langs:
- - c++
+- c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

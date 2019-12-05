@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarI4FromStr
 title: VarI4FromStr function (oleauto.h)
-
 description: Converts an OLECHAR string to a long value.
 old-location: automat\vari4fromstr.htm
 tech.root: automat
 ms.assetid: 61a1ad0c-f0bd-4437-85c2-7edd6ade06bd
-
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarI4FromStr, VarI4FromStr function [Automation], _oa96_VarI4FromStr, automat.vari4fromstr, oleauto/VarI4FromStr
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarI4FromStr"
+f1_keywords:
+- oleauto/VarI4FromStr
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarI4FromStr
+- VarI4FromStr
 targetos: Windows
 req.typenames: 
 req.redist: 

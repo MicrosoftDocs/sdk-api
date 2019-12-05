@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateContentDecryptorContext
 title: MFCreateContentDecryptorContext function (mfidl.h)
-
 description: Creates an IMFContentDecryptorContext interface for the specified media protection system.
 old-location: mf\mfcreatecontentdecryptorcontext.htm
 tech.root: medfound
 ms.assetid: 9CD2AEAE-E960-450F-824B-ED9FD32FB210
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateContentDecryptorContext, MFCreateContentDecryptorContext function [Media Foundation], mf.mfcreatecontentdecryptorcontext, mfidl/MFCreateContentDecryptorContext
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateContentDecryptorContext"
+f1_keywords:
+- mfidl/MFCreateContentDecryptorContext
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateContentDecryptorContext
+- MFCreateContentDecryptorContext
 targetos: Windows
 req.typenames: 
 req.redist: 

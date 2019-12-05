@@ -1,19 +1,17 @@
 ---
 UID: NF:iaccess.IAccessControl.RevokeAccessRights
 title: IAccessControl::RevokeAccessRights (iaccess.h)
-
 description: Removes any explicit entries for the list of trustees.
 old-location: com\iaccesscontrol_revokeaccessrights.htm
 tech.root: com
 ms.assetid: 09b37002-0ad3-43c2-8a39-b440158310bb
-
 ms.date: 12/05/2018
 ms.keywords: IAccessControl interface [COM],RevokeAccessRights method, IAccessControl.RevokeAccessRights, IAccessControl::RevokeAccessRights, RevokeAccessRights, RevokeAccessRights method [COM], RevokeAccessRights method [COM],IAccessControl interface, _com_iaccesscontrol_revokeaccessrights, com.iaccesscontrol_revokeaccessrights, iaccess/IAccessControl::RevokeAccessRights
 ms.topic: method
-f1_keywords: 
- - "iaccess/IAccessControl.RevokeAccessRights"
+f1_keywords:
+- iaccess/IAccessControl.RevokeAccessRights
 dev_langs:
- - c++
+- c++
 req.header: iaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - IAccess.h
+- IAccess.h
 api_name:
- - IAccessControl.RevokeAccessRights
+- IAccessControl.RevokeAccessRights
 targetos: Windows
 req.typenames: 
 req.redist: 

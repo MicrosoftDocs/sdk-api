@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IEnumOleUndoUnits.Clone
 title: IEnumOleUndoUnits::Clone (ocidl.h)
-
 description: Creates a new enumerator that contains the same enumeration state as the current one.
 old-location: com\ienumoleundounits_clone.htm
 tech.root: com
 ms.assetid: 0aed7771-0e9c-49b1-8c45-4dcf637cb04c
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumOleUndoUnits interface, IEnumOleUndoUnits interface [COM],Clone method, IEnumOleUndoUnits.Clone, IEnumOleUndoUnits::Clone, _ole_ienumoleundounits_clone, com.ienumoleundounits_clone, ocidl/IEnumOleUndoUnits::Clone
 ms.topic: method
-f1_keywords: 
- - "ocidl/IEnumOleUndoUnits.Clone"
+f1_keywords:
+- ocidl/IEnumOleUndoUnits.Clone
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IEnumOleUndoUnits.Clone
+- IEnumOleUndoUnits.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

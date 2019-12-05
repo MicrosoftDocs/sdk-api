@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.AddFontResourceExW
 title: AddFontResourceExW function (wingdi.h)
-
 description: The AddFontResourceEx function adds the font resource from the specified file to the system. Fonts added with the AddFontResourceEx function can be marked as private and not enumerable.
 old-location: gdi\addfontresourceex.htm
 tech.root: gdi
 ms.assetid: eaf8ebf0-1b06-4a09-a842-83540245a117
-
 ms.date: 12/05/2018
-ms.keywords: ".fnt, .fon, .fot, .mmm, .otf, .pfb, .pfm, .ttc, .ttf, AddFontResourceEx, AddFontResourceEx function [Windows GDI], AddFontResourceExA, AddFontResourceExW, FR_NOT_ENUM, FR_PRIVATE, _win32_AddFontResourceEx, gdi.addfontresourceex, wingdi/AddFontResourceEx, wingdi/AddFontResourceExA, wingdi/AddFontResourceExW"
+ms.keywords: .fnt, .fon, .fot, .mmm, .otf, .pfb, .pfm, .ttc, .ttf, AddFontResourceEx, AddFontResourceEx function [Windows GDI], AddFontResourceExA, AddFontResourceExW, FR_NOT_ENUM, FR_PRIVATE, _win32_AddFontResourceEx, gdi.addfontresourceex, wingdi/AddFontResourceEx, wingdi/AddFontResourceExA, wingdi/AddFontResourceExW
 ms.topic: function
-f1_keywords: 
- - "wingdi/AddFontResourceEx"
+f1_keywords:
+- wingdi/AddFontResourceEx
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - AddFontResourceEx
- - AddFontResourceExA
- - AddFontResourceExW
+- AddFontResourceEx
+- AddFontResourceExA
+- AddFontResourceExW
 targetos: Windows
 req.typenames: 
 req.redist: 

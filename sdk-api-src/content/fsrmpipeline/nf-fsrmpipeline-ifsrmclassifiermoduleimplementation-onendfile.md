@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassifierModuleImplementation.OnEndFile
 title: IFsrmClassifierModuleImplementation::OnEndFile (fsrmpipeline.h)
-
 description: Instructs the classifier to perform any cleanup after processing a file.
 old-location: fsrm\ifsrmclassifiermoduleimplementation_onendfile.htm
 tech.root: fsrm
 ms.assetid: 52de3e11-89b3-4cf2-92f3-cc6dff686e0b
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmClassifierModuleImplementation interface [File Server Resource Manager],OnEndFile method, IFsrmClassifierModuleImplementation.OnEndFile, IFsrmClassifierModuleImplementation::OnEndFile, OnEndFile, OnEndFile method [File Server Resource Manager], OnEndFile method [File Server Resource Manager],IFsrmClassifierModuleImplementation interface, fs.ifsrmclassifiermoduleimplementation_onendfile, fsrm.ifsrmclassifiermoduleimplementation_onendfile, fsrmpipeline/IFsrmClassifierModuleImplementation::OnEndFile
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmClassifierModuleImplementation.OnEndFile"
+f1_keywords:
+- fsrmpipeline/IFsrmClassifierModuleImplementation.OnEndFile
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmClassifierModuleImplementation.OnEndFile
+- IFsrmClassifierModuleImplementation.OnEndFile
 targetos: Windows
 req.typenames: 
 req.redist: 

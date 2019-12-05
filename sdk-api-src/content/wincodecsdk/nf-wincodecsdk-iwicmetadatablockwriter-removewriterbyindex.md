@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataBlockWriter.RemoveWriterByIndex
 title: IWICMetadataBlockWriter::RemoveWriterByIndex (wincodecsdk.h)
-
 description: Removes the metadata writer from the specified index location.
 old-location: wic\_wic_codec_iwicmetadatablockwriter_removewriterbyindex.htm
 tech.root: wic
 ms.assetid: 030c5b0e-5db7-40ae-889c-2e1335d2c50b
-
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataBlockWriter interface [Windows Imaging Component],RemoveWriterByIndex method, IWICMetadataBlockWriter.RemoveWriterByIndex, IWICMetadataBlockWriter::RemoveWriterByIndex, RemoveWriterByIndex, RemoveWriterByIndex method [Windows Imaging Component], RemoveWriterByIndex method [Windows Imaging Component],IWICMetadataBlockWriter interface, _wic_codec_iwicmetadatablockwriter_removewriterbyindex, wic._wic_codec_iwicmetadatablockwriter_removewriterbyindex, wincodecsdk/IWICMetadataBlockWriter::RemoveWriterByIndex
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICMetadataBlockWriter.RemoveWriterByIndex"
+f1_keywords:
+- wincodecsdk/IWICMetadataBlockWriter.RemoveWriterByIndex
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataBlockWriter.RemoveWriterByIndex
+- IWICMetadataBlockWriter.RemoveWriterByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

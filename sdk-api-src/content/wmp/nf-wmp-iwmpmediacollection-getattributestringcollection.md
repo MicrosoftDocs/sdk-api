@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.getAttributeStringCollection
 title: IWMPMediaCollection::getAttributeStringCollection (wmp.h)
-
 description: The getAttributeStringCollection method retrieves a pointer to an IWMPStringCollection interface. This interface represents the set of all values for a given attribute within a given media type.
 old-location: wmp\iwmpmediacollection_getattributestringcollection.htm
 tech.root: WMP
 ms.assetid: c3699acb-58a1-4efa-a42c-c84534abca96
-
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],getAttributeStringCollection method, IWMPMediaCollection.getAttributeStringCollection, IWMPMediaCollection::getAttributeStringCollection, IWMPMediaCollectiongetAttributeStringCollection, getAttributeStringCollection, getAttributeStringCollection method [Windows Media Player], getAttributeStringCollection method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getattributestringcollection, wmp/IWMPMediaCollection::getAttributeStringCollection
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPMediaCollection.getAttributeStringCollection"
+f1_keywords:
+- wmp/IWMPMediaCollection.getAttributeStringCollection
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPMediaCollection.getAttributeStringCollection
+- IWMPMediaCollection.getAttributeStringCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

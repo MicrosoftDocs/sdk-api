@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngCreateSemaphore
 title: EngCreateSemaphore function (winddi.h)
-
 description: The EngCreateSemaphore function creates a semaphore object.
 old-location: display\engcreatesemaphore.htm
 tech.root: display
 ms.assetid: 02b68914-5007-4bfb-ac8a-0269447ab26b
-
 ms.date: 12/05/2018
 ms.keywords: EngCreateSemaphore, EngCreateSemaphore function [Display Devices], display.engcreatesemaphore, gdifncs_d0ae1b52-59e6-49a9-ab03-7ff1008dc5c6.xml, winddi/EngCreateSemaphore
 ms.topic: function
-f1_keywords: 
- - "winddi/EngCreateSemaphore"
+f1_keywords:
+- winddi/EngCreateSemaphore
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,17 +30,17 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Win32k.sys
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - EngCreateSemaphore
+- EngCreateSemaphore
 targetos: Windows
 req.typenames: 
 req.redist: 

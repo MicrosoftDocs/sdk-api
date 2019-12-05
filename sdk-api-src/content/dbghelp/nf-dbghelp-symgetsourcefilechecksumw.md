@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymGetSourceFileChecksumW
 title: SymGetSourceFileChecksumW function (dbghelp.h)
-
 description: Retrieves the specified source file checksum from the source server.
 old-location: base\symgetsourcefilechecksum.htm
 tech.root: Debug
 ms.assetid: 6F45FEC4-AFB9-4612-A840-B806034F33E2
-
 ms.date: 12/05/2018
 ms.keywords: SymGetSourceFileChecksum, SymGetSourceFileChecksum function, SymGetSourceFileChecksumW, base.symgetsourcefilechecksum, dbghelp/SymGetSourceFileChecksum, dbghelp/SymGetSourceFileChecksumW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymGetSourceFileChecksum"
+f1_keywords:
+- dbghelp/SymGetSourceFileChecksum
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymGetSourceFileChecksum
- - SymGetSourceFileChecksum
- - SymGetSourceFileChecksumW
+- SymGetSourceFileChecksum
+- SymGetSourceFileChecksum
+- SymGetSourceFileChecksumW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 10.0.15063 or later

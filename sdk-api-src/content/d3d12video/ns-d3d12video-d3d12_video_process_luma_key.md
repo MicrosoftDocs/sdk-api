@@ -1,40 +1,38 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_PROCESS_LUMA_KEY
 title: D3D12_VIDEO_PROCESS_LUMA_KEY
-
 description: Specifies the settings used for luma keying.
 tech.root: mf
 ms.assetid: c5183fec-5f5d-4a26-a35c-5ea60e7e1fe0
-
-ms.date: 05/28/2019 
+ms.date: 05/28/2019
 ms.topic: struct
 f1_keywords:
- - D3D12_VIDEO_PROCESS_LUMA_KEY
+- D3D12_VIDEO_PROCESS_LUMA_KEY
 dev_langs:
- - c++
-ms.keywords: D3D12_VIDEO_PROCESS_LUMA_KEY, D3D12_VIDEO_PROCESS_LUMA_KEY, 
+- c++
+ms.keywords: D3D12_VIDEO_PROCESS_LUMA_KEY, D3D12_VIDEO_PROCESS_LUMA_KEY,
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
 req.dll: d3d12.dll
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12_VIDEO_PROCESS_LUMA_KEY
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12video.h
-api_name: 
- - D3D12_VIDEO_PROCESS_LUMA_KEY
+topic_type:
+- apiref
+api_type:
+- HeaderDef
+api_location:
+- d3d12video.h
+api_name:
+- D3D12_VIDEO_PROCESS_LUMA_KEY
 targetos: Windows
 ---
 

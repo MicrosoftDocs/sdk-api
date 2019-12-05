@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetBlueSlope(float)
 title: IDCompositionLinearTransferEffect::SetBlueSlope (dcomp.h)
-
 description: Sets the slope of the linear function for the blue channel.
 old-location: directcomp\idcompositionlineartransfereffect_setblueslope.htm
 tech.root: directcomp
 ms.assetid: 4A93A05C-D68B-4DAE-9E01-AFABFFB94E81
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetBlueSlope method, IDCompositionLinearTransferEffect.SetBlueSlope, IDCompositionLinearTransferEffect::SetBlueSlope, IDCompositionLinearTransferEffect::SetBlueSlope(float), SetBlueSlope, SetBlueSlope method [DirectComposition], SetBlueSlope method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetBlueSlope, directcomp.idcompositionlineartransfereffect_setblueslope
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionLinearTransferEffect.SetBlueSlope"
+f1_keywords:
+- dcomp/IDCompositionLinearTransferEffect.SetBlueSlope
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionLinearTransferEffect.SetBlueSlope
+- IDCompositionLinearTransferEffect.SetBlueSlope
 targetos: Windows
 req.typenames: 
 req.redist: 

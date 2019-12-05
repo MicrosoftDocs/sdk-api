@@ -1,19 +1,17 @@
 ---
 UID: NN:faxcomex.IFaxAccountIncomingArchive
 title: IFaxAccountIncomingArchive (faxcomex.h)
-
 description: Used by a fax client application to access a particular fax account's archive of successfully received inbound fax messages. Use this interface to retrieve messages and get the size of the archive.
 old-location: fax\_mfax_faxaccountincomingarchive_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountincomingarchive\faxint_ifaxaccountincomingarchive.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountIncomingArchive, IFaxAccountIncomingArchive interface [Fax Service], IFaxAccountIncomingArchive interface [Fax Service],described, _mfax_faxaccountincomingarchive_cpp, fax._mfax_faxaccountincomingarchive_cpp, faxcomex/IFaxAccountIncomingArchive
 ms.topic: interface
-f1_keywords: 
- - "faxcomex/IFaxAccountIncomingArchive"
+f1_keywords:
+- faxcomex/IFaxAccountIncomingArchive
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxAccountIncomingArchive
+- IFaxAccountIncomingArchive
 targetos: Windows
 req.typenames: 
 req.redist: 

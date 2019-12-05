@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolManager.CreateListener
 title: IWRdsProtocolManager::CreateListener (wtsprotocol.h)
-
 description: Requests the creation of an IWRdsProtocolListener object that listens for incoming client connection requests.
 old-location: termserv\iwrdsprotocolmanager_createlistener.htm
 tech.root: TermServ
 ms.assetid: df91dc10-77af-4b5a-8033-1b1ff614bb17
-
 ms.date: 12/05/2018
 ms.keywords: CreateListener, CreateListener method [Remote Desktop Services], CreateListener method [Remote Desktop Services],IWRdsProtocolManager interface, IWRdsProtocolManager interface [Remote Desktop Services],CreateListener method, IWRdsProtocolManager.CreateListener, IWRdsProtocolManager::CreateListener, termserv.iwrdsprotocolmanager_createlistener, wtsprotocol/IWRdsProtocolManager::CreateListener
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolManager.CreateListener"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolManager.CreateListener
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolManager.CreateListener
+- IWRdsProtocolManager.CreateListener
 targetos: Windows
 req.typenames: 
 req.redist: 

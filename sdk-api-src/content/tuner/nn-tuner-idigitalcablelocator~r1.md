@@ -1,39 +1,37 @@
 ---
 UID: NN:tuner.IDigitalCableLocator~r1
 title: IDigitalCableLocator
-
 description: TBD
-tech.root:
+tech.root: 
 ms.assetid: abdf4c6d-00f6-4cc8-8fe3-ce0adbb2e076
-
 ms.date: 11/14/2019
 ms.topic: interface
-f1_keywords: 
- - "tuner/IDigitalCableLocator"
+f1_keywords:
+- tuner/IDigitalCableLocator
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
- - apiref
-api_type: 
- - COM
-api_location: 
- - tuner.h
-api_name: 
- - IDigitalCableLocator
+topic_type:
+- apiref
+api_type:
+- COM
+api_location:
+- tuner.h
+api_name:
+- IDigitalCableLocator
 targetos: Windows
 ms.custom: 19H1
 ---

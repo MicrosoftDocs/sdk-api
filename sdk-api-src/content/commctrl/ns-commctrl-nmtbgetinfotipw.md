@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagNMTBGETINFOTIPW
 title: NMTBGETINFOTIPW (commctrl.h)
-
 description: Contains and receives infotip information for a toolbar item. This structure is used with the TBN_GETINFOTIP notification code.
 old-location: controls\NMTBGETINFOTIP.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbgetinfotip.htm
-
 ms.date: 12/05/2018
 ms.keywords: '*LPNMTBGETINFOTIPW, LPNMTBGETINFOTIP, LPNMTBGETINFOTIP structure pointer [Windows Controls], NMTBGETINFOTIP, NMTBGETINFOTIP structure [Windows Controls], NMTBGETINFOTIPA, NMTBGETINFOTIPW, _win32_NMTBGETINFOTIP, _win32_NMTBGETINFOTIP_cpp, commctrl/LPNMTBGETINFOTIP, commctrl/NMTBGETINFOTIP, commctrl/NMTBGETINFOTIPA, commctrl/NMTBGETINFOTIPW, controls.NMTBGETINFOTIP, controls._win32_NMTBGETINFOTIP'
 ms.topic: struct
 f1_keywords:
 - commctrl/NMTBGETINFOTIP
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

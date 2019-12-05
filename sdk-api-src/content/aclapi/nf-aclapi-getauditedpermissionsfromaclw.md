@@ -1,19 +1,17 @@
 ---
 UID: NF:aclapi.GetAuditedPermissionsFromAclW
 title: GetAuditedPermissionsFromAclW function (aclapi.h)
-
 description: Retrieves the audited access rights for a specified trustee.
 old-location: security\getauditedpermissionsfromacl.htm
 tech.root: SecAuthZ
 ms.assetid: 4381fe12-5fb3-4f9c-8daa-261cb1a466ec
-
 ms.date: 12/05/2018
 ms.keywords: GetAuditedPermissionsFromAcl, GetAuditedPermissionsFromAcl function [Security], GetAuditedPermissionsFromAclA, GetAuditedPermissionsFromAclW, _win32_getauditedpermissionsfromacl, aclapi/GetAuditedPermissionsFromAcl, aclapi/GetAuditedPermissionsFromAclA, aclapi/GetAuditedPermissionsFromAclW, security.getauditedpermissionsfromacl
 ms.topic: function
 f1_keywords:
 - aclapi/GetAuditedPermissionsFromAcl
 dev_langs:
- - c++
+- c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

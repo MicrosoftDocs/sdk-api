@@ -1,19 +1,17 @@
 ---
 UID: NC:webservices.WS_ASYNC_FUNCTION
 title: WS_ASYNC_FUNCTION (webservices.h)
-
 description: Used with the WsAsyncExecute to specify the next function to invoke in a series of async operations.
 old-location: wsw\ws_async_function.htm
 tech.root: wsw
 ms.assetid: 5645424b-4ca4-4f5d-b58d-16f3a7cceb6b
-
 ms.date: 12/05/2018
 ms.keywords: WS_ASYNC_FUNCTION, WS_ASYNC_FUNCTION callback, WS_ASYNC_FUNCTION callback function [Web Services for Windows], webservices/WS_ASYNC_FUNCTION, wsw.ws_async_function
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_ASYNC_FUNCTION"
+f1_keywords:
+- webservices/WS_ASYNC_FUNCTION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_ASYNC_FUNCTION
+- WS_ASYNC_FUNCTION
 targetos: Windows
 req.typenames: 
 req.redist: 

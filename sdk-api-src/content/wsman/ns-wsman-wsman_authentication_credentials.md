@@ -1,19 +1,17 @@
 ---
 UID: NS:wsman._WSMAN_AUTHENTICATION_CREDENTIALS
 title: WSMAN_AUTHENTICATION_CREDENTIALS (wsman.h)
-
 description: Defines the authentication method and the credentials used for server or proxy authentication.
 old-location: winrm\wsman_authentication_credentials.htm
 tech.root: winrm
 ms.assetid: e9090d88-c76e-4a85-946e-ff46403e6725
-
 ms.date: 12/05/2018
 ms.keywords: WSMAN_AUTHENTICATION_CREDENTIALS, WSMAN_AUTHENTICATION_CREDENTIALS structure [Windows Remote Management], winrm.wsman_authentication_credentials, wsman/WSMAN_AUTHENTICATION_CREDENTIALS
 ms.topic: struct
 f1_keywords:
 - wsman/WSMAN_AUTHENTICATION_CREDENTIALS
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

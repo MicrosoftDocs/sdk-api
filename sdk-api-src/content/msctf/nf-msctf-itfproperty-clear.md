@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfProperty.Clear
 title: ITfProperty::Clear (msctf.h)
-
 description: ITfProperty::Clear method
 old-location: tsf\itfproperty_clear.htm
 tech.root: TSF
 ms.assetid: bbfbbe0d-bea7-4c46-8b9c-6b607a761f48
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Text Services Framework], Clear method [Text Services Framework],ITfProperty interface, ITfProperty interface [Text Services Framework],Clear method, ITfProperty.Clear, ITfProperty::Clear, _tsf_itfproperty_clear_ref, msctf/ITfProperty::Clear, tsf.itfproperty_clear
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfProperty.Clear"
+f1_keywords:
+- msctf/ITfProperty.Clear
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfProperty.Clear
+- ITfProperty.Clear
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

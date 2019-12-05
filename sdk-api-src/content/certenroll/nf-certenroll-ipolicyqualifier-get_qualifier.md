@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IPolicyQualifier.get_Qualifier
 title: IPolicyQualifier::get_Qualifier (certenroll.h)
-
 description: Retrieves a string that contains the qualifier used to initialize the object.
 old-location: security\ipolicyqualifier_qualifier_property.htm
 tech.root: seccertenroll
 ms.assetid: 73cecc9b-519c-45c8-b9f8-864ff628560a
-
 ms.date: 12/05/2018
 ms.keywords: IPolicyQualifier interface [Security],Qualifier property, IPolicyQualifier.Qualifier, IPolicyQualifier.get_Qualifier, IPolicyQualifier::Qualifier, IPolicyQualifier::get_Qualifier, Qualifier property [Security], Qualifier property [Security],IPolicyQualifier interface, certenroll/IPolicyQualifier::Qualifier, certenroll/IPolicyQualifier::get_Qualifier, get_Qualifier, security.ipolicyqualifier_qualifier_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IPolicyQualifier.Qualifier"
+f1_keywords:
+- certenroll/IPolicyQualifier.Qualifier
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IPolicyQualifier.Qualifier
- - IPolicyQualifier.get_Qualifier
+- IPolicyQualifier.Qualifier
+- IPolicyQualifier.get_Qualifier
 targetos: Windows
 req.typenames: 
 req.redist: 

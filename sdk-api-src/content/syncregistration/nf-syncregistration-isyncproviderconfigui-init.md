@@ -1,19 +1,17 @@
 ---
 UID: NF:syncregistration.ISyncProviderConfigUI.Init
 title: ISyncProviderConfigUI::Init (syncregistration.h)
-
 description: Initializes the configuration UI for a synchronization provider.
 old-location: winsync\isyncproviderconfigui_init.htm
 tech.root: winsync
 ms.assetid: c4705bc9-c5ab-46f9-ace8-7e96c16dfb75
-
 ms.date: 12/05/2018
 ms.keywords: ISyncProviderConfigUI interface [Windows Sync],Init method, ISyncProviderConfigUI.Init, ISyncProviderConfigUI::Init, Init, Init method [Windows Sync], Init method [Windows Sync],ISyncProviderConfigUI interface, syncregistration/ISyncProviderConfigUI::Init, winsync.isyncproviderconfigui_init
 ms.topic: method
-f1_keywords: 
- - "syncregistration/ISyncProviderConfigUI.Init"
+f1_keywords:
+- syncregistration/ISyncProviderConfigUI.Init
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - ISyncProviderConfigUI.Init
+- ISyncProviderConfigUI.Init
 targetos: Windows
 req.typenames: 
 req.redist: 

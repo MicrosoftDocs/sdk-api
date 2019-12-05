@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.D2D1SinCos
 title: D2D1SinCos function (d2d1_1.h)
-
 description: Returns the sine and cosine of an angle.
 old-location: direct2d\d2d1sincos.htm
 tech.root: Direct2D
 ms.assetid: CE5899A8-B70F-492E-9A16-849FB64830AC
-
 ms.date: 12/05/2018
 ms.keywords: D2D1SinCos, D2D1SinCos function [Direct2D], d2d1_1/D2D1SinCos, direct2d.d2d1sincos
 ms.topic: function
-f1_keywords: 
- - "d2d1_1/D2D1SinCos"
+f1_keywords:
+- d2d1_1/D2D1SinCos
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2D1.lib
 req.dll: D2D1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2D1.dll
+- D2D1.dll
 api_name:
- - D2D1SinCos
+- D2D1SinCos
 targetos: Windows
 req.typenames: 
 req.redist: 

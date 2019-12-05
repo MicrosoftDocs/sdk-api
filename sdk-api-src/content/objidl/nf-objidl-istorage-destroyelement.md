@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IStorage.DestroyElement
 title: IStorage::DestroyElement (objidl.h)
-
 description: Removes the specified storage or stream from this storage object.
 old-location: stg\istorage_destroyelement.htm
 tech.root: Stg
 ms.assetid: 70ad7f8c-15ea-42f1-ac18-006bc6ad5e81
-
 ms.date: 12/05/2018
 ms.keywords: DestroyElement, DestroyElement method [Structured Storage], DestroyElement method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],DestroyElement method, IStorage.DestroyElement, IStorage::DestroyElement, _stg_istorage_destroyelement, objidl/IStorage::DestroyElement, stg.istorage_destroyelement
 ms.topic: method
-f1_keywords: 
- - "objidl/IStorage.DestroyElement"
+f1_keywords:
+- objidl/IStorage.DestroyElement
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IStorage.DestroyElement
+- IStorage.DestroyElement
 targetos: Windows
 req.typenames: 
 req.redist: 

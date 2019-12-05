@@ -1,19 +1,17 @@
 ---
 UID: NC:cryptxml.CryptXmlDllFinalizeDigest
 title: CryptXmlDllFinalizeDigest (cryptxml.h)
-
 description: Retrieves the digest value.
 old-location: security\cryptxmldllfinalizedigest.htm
 tech.root: SecCrypto
 ms.assetid: 749226fa-6de8-4c1c-9ec0-9801a2029a6e
-
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllFinalizeDigest, CryptXmlDllFinalizeDigest callback, CryptXmlDllFinalizeDigest callback function [Security], cryptxml/CryptXmlDllFinalizeDigest, security.cryptxmldllfinalizedigest
 ms.topic: callback
-f1_keywords: 
- - "cryptxml/CryptXmlDllFinalizeDigest"
+f1_keywords:
+- cryptxml/CryptXmlDllFinalizeDigest
 dev_langs:
- - c++
+- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Cryptxml.h
+- Cryptxml.h
 api_name:
- - CryptXmlDllFinalizeDigest
+- CryptXmlDllFinalizeDigest
 targetos: Windows
 req.typenames: 
 req.redist: 

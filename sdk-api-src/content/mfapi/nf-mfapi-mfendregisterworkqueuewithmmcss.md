@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFEndRegisterWorkQueueWithMMCSS
 title: MFEndRegisterWorkQueueWithMMCSS function (mfapi.h)
-
 description: Completes an asynchronous request to associate a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
 old-location: mf\mfendregisterworkqueuewithmmcss.htm
 tech.root: medfound
 ms.assetid: 42d71e1a-a538-45d3-bbf4-1835db15bff9
-
 ms.date: 12/05/2018
 ms.keywords: 42d71e1a-a538-45d3-bbf4-1835db15bff9, MFEndRegisterWorkQueueWithMMCSS, MFEndRegisterWorkQueueWithMMCSS function [Media Foundation], mf.mfendregisterworkqueuewithmmcss, mfapi/MFEndRegisterWorkQueueWithMMCSS
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFEndRegisterWorkQueueWithMMCSS"
+f1_keywords:
+- mfapi/MFEndRegisterWorkQueueWithMMCSS
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFEndRegisterWorkQueueWithMMCSS
+- MFEndRegisterWorkQueueWithMMCSS
 targetos: Windows
 req.typenames: 
 req.redist: 

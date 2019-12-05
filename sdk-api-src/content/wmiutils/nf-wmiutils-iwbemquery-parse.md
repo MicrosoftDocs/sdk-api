@@ -1,19 +1,17 @@
 ---
 UID: NF:wmiutils.IWbemQuery.Parse
 title: IWbemQuery::Parse (wmiutils.h)
-
 description: Parses a query string.
 old-location: wmi\iwbemquery_parse.htm
 tech.root: WmiSdk
 ms.assetid: 372b004f-322e-459c-8db0-150b0483aa34
-
 ms.date: 12/05/2018
 ms.keywords: IWbemQuery class [Windows Management Instrumentation],Parse method, IWbemQuery.Parse, IWbemQuery::Parse, Parse, Parse method [Windows Management Instrumentation], Parse method [Windows Management Instrumentation],IWbemQuery class, _hmm_iwbemquery_parse, wmi.iwbemquery_parse, wmiutils/IWbemQuery::Parse
 ms.topic: method
-f1_keywords: 
- - "wmiutils/IWbemQuery.Parse"
+f1_keywords:
+- wmiutils/IWbemQuery.Parse
 dev_langs:
- - c++
+- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wmiutils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmiutils.dll
+- Wmiutils.dll
 api_name:
- - IWbemQuery.Parse
+- IWbemQuery.Parse
 targetos: Windows
 req.typenames: 
 req.redist: 

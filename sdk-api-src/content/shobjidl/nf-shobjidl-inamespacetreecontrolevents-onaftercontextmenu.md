@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnAfterContextMenu
 title: INameSpaceTreeControlEvents::OnAfterContextMenu (shobjidl.h)
-
 description: Called after a context menu is displayed.
 old-location: shell\INameSpaceTreeControlEvents_OnAfterContextMenu.htm
 tech.root: shell
 ms.assetid: 6d562938-9816-4df9-b5b6-0ed52b1e4835
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnAfterContextMenu method, INameSpaceTreeControlEvents.OnAfterContextMenu, INameSpaceTreeControlEvents::OnAfterContextMenu, OnAfterContextMenu, OnAfterContextMenu method [Windows Shell], OnAfterContextMenu method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnAfterContextMenu, shell.INameSpaceTreeControlEvents_OnAfterContextMenu, shobjidl/INameSpaceTreeControlEvents::OnAfterContextMenu
 ms.topic: method
-f1_keywords: 
- - "shobjidl/INameSpaceTreeControlEvents.OnAfterContextMenu"
+f1_keywords:
+- shobjidl/INameSpaceTreeControlEvents.OnAfterContextMenu
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - INameSpaceTreeControlEvents.OnAfterContextMenu
+- INameSpaceTreeControlEvents.OnAfterContextMenu
 targetos: Windows
 req.typenames: 
 req.redist: 

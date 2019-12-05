@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetEnabledXStateFeatures
 title: GetEnabledXStateFeatures function (winbase.h)
-
 description: Gets a mask of enabled XState features on x86 or x64 processors.
 old-location: base\getenabledxstatefeatures.htm
 tech.root: Debug
 ms.assetid: E7DE090F-F83E-440D-B2A3-BCF160889F2E
-
 ms.date: 12/05/2018
 ms.keywords: GetEnabledXStateFeatures, GetEnabledXStateFeatures function, base.getenabledxstatefeatures, winbase/GetEnabledXStateFeatures
 ms.topic: function
-f1_keywords: 
- - "winbase/GetEnabledXStateFeatures"
+f1_keywords:
+- winbase/GetEnabledXStateFeatures
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Xstate-l2-1-0.dll
- - KernelBase.dll
- - api-ms-win-core-xstate-l2-1-1.dll
+- Kernel32.dll
+- API-MS-Win-Core-Xstate-l2-1-0.dll
+- KernelBase.dll
+- api-ms-win-core-xstate-l2-1-1.dll
 api_name:
- - GetEnabledXStateFeatures
+- GetEnabledXStateFeatures
 targetos: Windows
 req.typenames: 
 req.redist: 

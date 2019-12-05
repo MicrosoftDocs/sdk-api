@@ -1,19 +1,17 @@
 ---
 UID: NF:certview.IEnumCERTVIEWATTRIBUTE.GetName
 title: IEnumCERTVIEWATTRIBUTE::GetName (certview.h)
-
 description: Retrieves the name of the current attribute in the attribute-enumeration sequence.
 old-location: security\ienumcertviewattribute_getname.htm
 tech.root: SecCrypto
 ms.assetid: c2409bf1-0571-479e-8499-010d52cfb776
-
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Security], GetName method [Security],IEnumCERTVIEWATTRIBUTE interface, IEnumCERTVIEWATTRIBUTE interface [Security],GetName method, IEnumCERTVIEWATTRIBUTE.GetName, IEnumCERTVIEWATTRIBUTE::GetName, _certsrv_ienumcertviewattribute_getname, certview/IEnumCERTVIEWATTRIBUTE::GetName, security.ienumcertviewattribute_getname
 ms.topic: method
-f1_keywords: 
- - "certview/IEnumCERTVIEWATTRIBUTE.GetName"
+f1_keywords:
+- certview/IEnumCERTVIEWATTRIBUTE.GetName
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IEnumCERTVIEWATTRIBUTE.GetName
- - IEnumCERTVIEWATTRIBUTE.GetName
+- IEnumCERTVIEWATTRIBUTE.GetName
+- IEnumCERTVIEWATTRIBUTE.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 

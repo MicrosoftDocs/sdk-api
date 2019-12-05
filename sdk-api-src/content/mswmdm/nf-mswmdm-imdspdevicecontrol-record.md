@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPDeviceControl.Record
 title: IMDSPDeviceControl::Record (mswmdm.h)
-
 description: The Record method begins recording from the device's external record input at the current seek position. The Seek method must be called first.
 old-location: wmdm\imdspdevicecontrol_record.htm
 tech.root: WMDM
 ms.assetid: 6cd99cfc-1961-4369-9ce9-2cdd0136d181
-
 ms.date: 12/05/2018
 ms.keywords: IMDSPDeviceControl interface [windows Media Device Manager],Record method, IMDSPDeviceControl.Record, IMDSPDeviceControl::Record, IMDSPDeviceControlRecord, Record, Record method [windows Media Device Manager], Record method [windows Media Device Manager],IMDSPDeviceControl interface, mswmdm/IMDSPDeviceControl::Record, wmdm.imdspdevicecontrol_record
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPDeviceControl.Record"
+f1_keywords:
+- mswmdm/IMDSPDeviceControl.Record
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPDeviceControl.Record
+- IMDSPDeviceControl.Record
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFFinalizableMediaSink.EndFinalize
 title: IMFFinalizableMediaSink::EndFinalize (mfidl.h)
-
 description: Completes an asynchronous finalize operation.
 old-location: mf\imffinalizablemediasink_endfinalize.htm
 tech.root: medfound
 ms.assetid: 1b2a9b24-69da-41c7-8379-3f3d066d2582
-
 ms.date: 12/05/2018
 ms.keywords: 1b2a9b24-69da-41c7-8379-3f3d066d2582, EndFinalize, EndFinalize method [Media Foundation], EndFinalize method [Media Foundation],IMFFinalizableMediaSink interface, IMFFinalizableMediaSink interface [Media Foundation],EndFinalize method, IMFFinalizableMediaSink.EndFinalize, IMFFinalizableMediaSink::EndFinalize, mf.imffinalizablemediasink_endfinalize, mfidl/IMFFinalizableMediaSink::EndFinalize
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFFinalizableMediaSink.EndFinalize"
+f1_keywords:
+- mfidl/IMFFinalizableMediaSink.EndFinalize
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFFinalizableMediaSink.EndFinalize
+- IMFFinalizableMediaSink.EndFinalize
 targetos: Windows
 req.typenames: 
 req.redist: 

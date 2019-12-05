@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.get_Name
 title: ISearchCatalogManager::get_Name (searchapi.h)
-
 description: Gets the name of the current catalog.
 old-location: search\_search_ISearchCatalogManager_get_Name.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\get_name.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager interface [search],get_Name method, ISearchCatalogManager.get_Name, ISearchCatalogManager::get_Name, _search_ISearchCatalogManager_get_Name, get_Name, get_Name method [search], get_Name method [search],ISearchCatalogManager interface, search._search_ISearchCatalogManager_get_Name, searchapi/ISearchCatalogManager::get_Name
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchCatalogManager.get_Name"
+f1_keywords:
+- searchapi/ISearchCatalogManager.get_Name
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchCatalogManager.get_Name
+- ISearchCatalogManager.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

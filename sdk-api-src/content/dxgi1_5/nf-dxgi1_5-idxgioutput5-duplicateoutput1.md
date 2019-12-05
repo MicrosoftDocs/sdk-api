@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_5.IDXGIOutput5.DuplicateOutput1
 title: IDXGIOutput5::DuplicateOutput1 (dxgi1_5.h)
-
 description: Allows specifying a list of supported formats for fullscreen surfaces that can be returned by the IDXGIOutputDuplication object.
 old-location: direct3ddxgi\idxgioutput5_duplicateoutput1.htm
 tech.root: direct3ddxgi
 ms.assetid: B6723F05-E0D9-4814-8AB8-796ECF9C5C0C
-
 ms.date: 12/05/2018
 ms.keywords: DuplicateOutput1, DuplicateOutput1 method [DXGI], DuplicateOutput1 method [DXGI],IDXGIOutput5 interface, IDXGIOutput5 interface [DXGI],DuplicateOutput1 method, IDXGIOutput5.DuplicateOutput1, IDXGIOutput5::DuplicateOutput1, direct3ddxgi.idxgioutput5_duplicateoutput1, dxgi1_5/IDXGIOutput5::DuplicateOutput1
 ms.topic: method
-f1_keywords: 
- - "dxgi1_5/IDXGIOutput5.DuplicateOutput1"
+f1_keywords:
+- dxgi1_5/IDXGIOutput5.DuplicateOutput1
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxgi.lib
 req.dll: Dxgi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxgi.dll
+- dxgi.dll
 api_name:
- - IDXGIOutput5.DuplicateOutput1
+- IDXGIOutput5.DuplicateOutput1
 targetos: Windows
 req.typenames: 
 req.redist: 

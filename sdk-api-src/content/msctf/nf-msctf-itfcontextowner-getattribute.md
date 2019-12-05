@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContextOwner.GetAttribute
 title: ITfContextOwner::GetAttribute (msctf.h)
-
 description: The ITfContextOwner::GetAttribute method returns the value of a supported attribute. If the attribute is unsupported, the pvarValue parameter is set to VT_EMPTY.
 old-location: tsf\itfcontextowner_getattribute.htm
 tech.root: TSF
 ms.assetid: a249d529-fdb1-4f5f-84ae-f26dae917609
-
 ms.date: 12/05/2018
 ms.keywords: GetAttribute, GetAttribute method [Text Services Framework], GetAttribute method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetAttribute method, ITfContextOwner.GetAttribute, ITfContextOwner::GetAttribute, _tsf_itfcontextowner_getattribute_ref, msctf/ITfContextOwner::GetAttribute, tsf.itfcontextowner_getattribute
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContextOwner.GetAttribute"
+f1_keywords:
+- msctf/ITfContextOwner.GetAttribute
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msimtf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msimtf.dll
+- msimtf.dll
 api_name:
- - ITfContextOwner.GetAttribute
+- ITfContextOwner.GetAttribute
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

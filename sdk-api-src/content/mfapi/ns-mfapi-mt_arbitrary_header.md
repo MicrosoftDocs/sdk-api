@@ -1,19 +1,17 @@
 ---
 UID: NS:mfapi._MT_ARBITRARY_HEADER
 title: MT_ARBITRARY_HEADER (mfapi.h)
-
 description: Contains format data for a binary stream in an Advanced Streaming Format (ASF) file.
 old-location: mf\mt_arbitrary_header.htm
 tech.root: medfound
 ms.assetid: efe2ceb7-32f5-4a43-b4d9-807fe66d6edb
-
 ms.date: 12/05/2018
 ms.keywords: MT_ARBITRARY_HEADER, MT_ARBITRARY_HEADER structure [Media Foundation], mf.mt_arbitrary_header, mfapi/MT_ARBITRARY_HEADER
 ms.topic: struct
-f1_keywords: 
- - "mfapi/MT_ARBITRARY_HEADER"
+f1_keywords:
+- mfapi/MT_ARBITRARY_HEADER
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - MT_ARBITRARY_HEADER
+- MT_ARBITRARY_HEADER
 targetos: Windows
 req.typenames: MT_ARBITRARY_HEADER
 req.redist: 

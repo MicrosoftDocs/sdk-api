@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertPropertyRenewal.get_Renewal
 title: ICertPropertyRenewal::get_Renewal (certenroll.h)
-
 description: Retrieves the SHA-1 hash of the new certificate.
 old-location: security\icertpropertyrenewal_renewal_property.htm
 tech.root: seccertenroll
 ms.assetid: f2ea8198-01ec-4485-9f7e-9b9fa8ddba6f
-
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyRenewal interface [Security],Renewal property, ICertPropertyRenewal.Renewal, ICertPropertyRenewal.get_Renewal, ICertPropertyRenewal::Renewal, ICertPropertyRenewal::get_Renewal, Renewal property [Security], Renewal property [Security],ICertPropertyRenewal interface, certenroll/ICertPropertyRenewal::Renewal, certenroll/ICertPropertyRenewal::get_Renewal, get_Renewal, security.icertpropertyrenewal_renewal_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertPropertyRenewal.Renewal"
+f1_keywords:
+- certenroll/ICertPropertyRenewal.Renewal
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertPropertyRenewal.Renewal
- - ICertPropertyRenewal.get_Renewal
+- ICertPropertyRenewal.Renewal
+- ICertPropertyRenewal.get_Renewal
 targetos: Windows
 req.typenames: 
 req.redist: 

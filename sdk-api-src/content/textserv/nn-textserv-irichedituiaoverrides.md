@@ -1,19 +1,17 @@
 ---
 UID: NN:textserv.IRicheditUiaOverrides
 title: IRicheditUiaOverrides (textserv.h)
-
 description: Enables the host container of a windowless rich edit control to override the control's Microsoft UI Automation accessibility properties.
 old-location: controls\irichedituiaoverrides.htm
 tech.root: Controls
 ms.assetid: 2590002F-A6B0-4AA7-A54C-A5AB5304D9FA
-
 ms.date: 12/05/2018
 ms.keywords: IRicheditUiaOverrides, IRicheditUiaOverrides interface [Windows Controls], IRicheditUiaOverrides interface [Windows Controls],described, controls.irichedituiaoverrides, textserv/IRicheditUiaOverrides
 ms.topic: interface
-f1_keywords: 
- - "textserv/IRicheditUiaOverrides"
+f1_keywords:
+- textserv/IRicheditUiaOverrides
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - IRicheditUiaOverrides
+- IRicheditUiaOverrides
 targetos: Windows
 req.typenames: 
 req.redist: 

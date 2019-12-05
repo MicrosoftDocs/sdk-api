@@ -1,19 +1,17 @@
 ---
 UID: NF:chstring.CHString.IsEmpty
 title: CHString::IsEmpty (chstring.h)
-
 description: The IsEmpty method tests a CHString string for the empty condition.
 old-location: wmi\chstring_isempty.htm
 tech.root: WmiSdk
 ms.assetid: 06af1063-1e5a-4a09-a0d7-b5567b9efcff
-
 ms.date: 12/05/2018
-ms.keywords: "?IsEmpty@CHString@@QBEHXZ, ?IsEmpty@CHString@@QEBAHXZ, CHString interface [Windows Management Instrumentation],IsEmpty method, CHString.IsEmpty, CHString::IsEmpty, IsEmpty, IsEmpty method [Windows Management Instrumentation], IsEmpty method [Windows Management Instrumentation],CHString interface, _hmm_chstring_isempty, chstring/CHString::IsEmpty, wmi.chstring_isempty"
+ms.keywords: ?IsEmpty@CHString@@QBEHXZ, ?IsEmpty@CHString@@QEBAHXZ, CHString interface [Windows Management Instrumentation],IsEmpty method, CHString.IsEmpty, CHString::IsEmpty, IsEmpty, IsEmpty method [Windows Management Instrumentation], IsEmpty method [Windows Management Instrumentation],CHString interface, _hmm_chstring_isempty, chstring/CHString::IsEmpty, wmi.chstring_isempty
 ms.topic: method
-f1_keywords: 
- - "chstring/CHString.IsEmpty"
+f1_keywords:
+- chstring/CHString.IsEmpty
 dev_langs:
- - c++
+- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHString.IsEmpty
- - ?IsEmpty@CHString@@QBEHXZ
- - ?IsEmpty@CHString@@QEBAHXZ
+- CHString.IsEmpty
+- ?IsEmpty@CHString@@QBEHXZ
+- ?IsEmpty@CHString@@QEBAHXZ
 targetos: Windows
 req.typenames: 
 req.redist: 

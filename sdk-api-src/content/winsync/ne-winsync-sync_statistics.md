@@ -1,19 +1,17 @@
 ---
 UID: NE:winsync.__MIDL___MIDL_itf_winsync_0000_0000_0006
 title: SYNC_STATISTICS (winsync.h)
-
 description: Represents types of statistics that convey information about a component.
 old-location: winsync\sync_statistics.htm
 tech.root: winsync
 ms.assetid: 8a978578-0169-4784-bdcf-ff41f0a09f7a
-
 ms.date: 12/05/2018
 ms.keywords: SYNC_STATISTICS, SYNC_STATISTICS enumeration [Windows Sync], SYNC_STATISTICS_RANGE_COUNT, winsync.sync_statistics, winsync/SYNC_STATISTICS, winsync/SYNC_STATISTICS_RANGE_COUNT
 ms.topic: enum
-f1_keywords: 
- - "winsync/SYNC_STATISTICS"
+f1_keywords:
+- winsync/SYNC_STATISTICS
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - SYNC_STATISTICS
+- SYNC_STATISTICS
 targetos: Windows
 req.typenames: SYNC_STATISTICS
 req.redist: 

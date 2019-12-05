@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.GetCurrentThreadEffectiveToken
 title: GetCurrentThreadEffectiveToken function (processthreadsapi.h)
-
 description: Retrieves a pseudo-handle that you can use as a shorthand way to refer to the token that is currently in effect for the thread, which is the thread token if one exists and the process token otherwise.
 old-location: security\getcurrentthreadeffectivetoken.htm
 tech.root: SecAuthZ
 ms.assetid: 794E9086-17E7-4520-AB30-63DF00FF7AA4
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentThreadEffectiveToken, GetCurrentThreadEffectiveToken function [Security], processthreadsapi/GetCurrentThreadEffectiveToken, security.getcurrentthreadeffectivetoken
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/GetCurrentThreadEffectiveToken"
+f1_keywords:
+- processthreadsapi/GetCurrentThreadEffectiveToken
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - processthreadsapi.h
+- processthreadsapi.h
 api_name:
- - GetCurrentThreadEffectiveToken
+- GetCurrentThreadEffectiveToken
 targetos: Windows
 req.typenames: 
 req.redist: 

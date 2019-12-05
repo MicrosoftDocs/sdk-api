@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartUriCollection.Append
 title: IXpsOMPartUriCollection::Append (xpsobjectmodel.h)
-
 description: Appends an IOpcPartUri interface to the end of the collection.
 old-location: xps\ixpsomparturicollection_append.htm
 tech.root: printdocs
 ms.assetid: 53d450cf-3e31-4d17-99cc-0552df771024
-
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMPartUriCollection interface, IXpsOMPartUriCollection interface [XPS Documents and Packaging],Append method, IXpsOMPartUriCollection.Append, IXpsOMPartUriCollection::Append, xps.ixpsomparturicollection_append, xpsobjectmodel/IXpsOMPartUriCollection::Append
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPartUriCollection.Append"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPartUriCollection.Append
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPartUriCollection.Append
+- IXpsOMPartUriCollection.Append
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.ICodecAPI.GetParameterRange
 title: ICodecAPI::GetParameterRange (strmif.h)
-
 description: The GetParameterRange method gets the range of values for a codec property.
 old-location: dshow\icodecapi_getparameterrange.htm
 tech.root: DirectShow
 ms.assetid: 35bf758f-0ce3-4b3a-aae5-9d4326089743
-
 ms.date: 12/05/2018
 ms.keywords: GetParameterRange, GetParameterRange method [DirectShow], GetParameterRange method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetParameterRange method, ICodecAPI.GetParameterRange, ICodecAPI::GetParameterRange, ICodecAPIGetParameterRange, dshow.icodecapi_getparameterrange, strmif/ICodecAPI::GetParameterRange
 ms.topic: method
-f1_keywords: 
- - "strmif/ICodecAPI.GetParameterRange"
+f1_keywords:
+- strmif/ICodecAPI.GetParameterRange
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICodecAPI.GetParameterRange
+- ICodecAPI.GetParameterRange
 targetos: Windows
 req.typenames: 
 req.redist: 

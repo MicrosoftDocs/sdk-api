@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IPinConnection
 title: IPinConnection (strmif.h)
-
 description: This interface provides methods for reconnecting an input pin while the filter is still running.
 old-location: dshow\ipinconnection.htm
 tech.root: DirectShow
 ms.assetid: 0843a01c-6f6a-4765-abca-dd562175fcee
-
 ms.date: 12/05/2018
 ms.keywords: IPinConnection, IPinConnection interface [DirectShow], IPinConnection interface [DirectShow],described, IPinConnectionInterface, dshow.ipinconnection, strmif/IPinConnection
 ms.topic: interface
-f1_keywords: 
- - "strmif/IPinConnection"
+f1_keywords:
+- strmif/IPinConnection
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IPinConnection
+- IPinConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

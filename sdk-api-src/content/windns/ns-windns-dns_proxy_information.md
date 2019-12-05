@@ -1,19 +1,17 @@
 ---
 UID: NS:windns.DNS_PROXY_INFORMATION
 title: DNS_PROXY_INFORMATION (windns.h)
-
 description: Contains the proxy information for a DNS server's name resolution policy table.
 old-location: dns\dns_proxy_information.htm
 tech.root: DNS
 ms.assetid: cfe7653f-7e68-4e50-ba67-bd441f837ef8
-
 ms.date: 12/05/2018
 ms.keywords: DNS_PROXY_INFORMATION, DNS_PROXY_INFORMATION structure [DNS], PDNS_PROXY_INFORMATION, PDNS_PROXY_INFORMATION structure pointer [DNS], dns.dns_proxy_information, windns/DNS_PROXY_INFORMATION, windns/PDNS_PROXY_INFORMATION
 ms.topic: struct
-f1_keywords: 
- - "windns/DNS_PROXY_INFORMATION"
+f1_keywords:
+- windns/DNS_PROXY_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_PROXY_INFORMATION
+- DNS_PROXY_INFORMATION
 targetos: Windows
 req.typenames: DNS_PROXY_INFORMATION
 req.redist: 

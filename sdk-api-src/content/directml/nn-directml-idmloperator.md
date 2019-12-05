@@ -1,19 +1,17 @@
 ---
 UID: NN:directml.IDMLOperator
 title: IDMLOperator
-
 description: Represents a DirectML operator.
 old-location: direct3d12\idmloperator.htm
 tech.root: direct3d12
 ms.assetid: 6AEC2D11-EDAA-419D-B7A0-7D4FEB6B2EF4
-
 ms.date: 12/5/2018
 ms.keywords: IDMLOperator, IDMLOperator interface, IDMLOperator interface,described, direct3d12.idmloperator, directml/IDMLOperator
 ms.topic: interface
-f1_keywords: 
- - "directml/IDMLOperator"
+f1_keywords:
+- directml/IDMLOperator
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - IDMLOperator
+- IDMLOperator
 targetos: Windows
 req.typenames: 
 req.redist: 

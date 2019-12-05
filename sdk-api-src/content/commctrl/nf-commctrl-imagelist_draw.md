@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ImageList_Draw
 title: ImageList_Draw function (commctrl.h)
-
 description: Draws an image list item in the specified device context.
 old-location: controls\ImageList_Draw.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_draw.htm
-
 ms.date: 12/05/2018
 ms.keywords: ILD_BLEND, ILD_BLEND25, ILD_BLEND50, ILD_FOCUS, ILD_IMAGE, ILD_MASK, ILD_NORMAL, ILD_SELECTED, ILD_TRANSPARENT, ImageList_Draw, ImageList_Draw function [Windows Controls], _win32_ImageList_Draw, _win32_ImageList_Draw_cpp, commctrl/ImageList_Draw, controls.ImageList_Draw, controls._win32_ImageList_Draw
 ms.topic: function
-f1_keywords: 
- - "commctrl/ImageList_Draw"
+f1_keywords:
+- commctrl/ImageList_Draw
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
- - comdlg32.dll
- - ext-ms-win-shell-comctl32-init-l1-1-1.dll
+- Comctl32.dll
+- comdlg32.dll
+- ext-ms-win-shell-comctl32-init-l1-1-1.dll
 api_name:
- - ImageList_Draw
+- ImageList_Draw
 targetos: Windows
 req.typenames: 
 req.redist: 

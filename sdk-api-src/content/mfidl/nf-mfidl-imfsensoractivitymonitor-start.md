@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorActivityMonitor.Start
 title: IMFSensorActivityMonitor::Start (mfidl.h)
-
 description: Starts the sensor activity monitor.
 old-location: mf\imfsensoractivitymonitor_start.htm
 tech.root: medfound
 ms.assetid: 49300C9F-CA0B-4515-81C7-02F067B2BBD3
-
 ms.date: 12/05/2018
 ms.keywords: IMFSensorActivityMonitor interface [Media Foundation],Start method, IMFSensorActivityMonitor.Start, IMFSensorActivityMonitor::Start, Start, Start method [Media Foundation], Start method [Media Foundation],IMFSensorActivityMonitor interface, mf.imfsensoractivitymonitor_start, mfidl/IMFSensorActivityMonitor::Start
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorActivityMonitor.Start"
+f1_keywords:
+- mfidl/IMFSensorActivityMonitor.Start
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorActivityMonitor.Start
+- IMFSensorActivityMonitor.Start
 targetos: Windows
 req.typenames: 
 req.redist: 

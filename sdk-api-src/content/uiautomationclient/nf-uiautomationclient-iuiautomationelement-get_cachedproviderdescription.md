@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedProviderDescription
 title: IUIAutomationElement::get_CachedProviderDescription (uiautomationclient.h)
-
 description: Retrieves a cached description of the provider for this element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedProviderDescription.htm
 tech.root: WinAuto
 ms.assetid: ed26dbb7-9838-48f2-8401-f169038b8b92
-
 ms.date: 12/05/2018
 ms.keywords: CachedProviderDescription property [Windows Accessibility], CachedProviderDescription property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedProviderDescription property, IUIAutomationElement.CachedProviderDescription, IUIAutomationElement.get_CachedProviderDescription, IUIAutomationElement::CachedProviderDescription, IUIAutomationElement::get_CachedProviderDescription, get_CachedProviderDescription, uiauto.uiauto_IUIAutomationElement_CachedProviderDescription, uiauto_IUIAutomationElement_CachedProviderDescription, uiautomationclient/IUIAutomationElement::CachedProviderDescription, uiautomationclient/IUIAutomationElement::get_CachedProviderDescription, winauto.uiauto_IUIAutomationElement_CachedProviderDescription
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CachedProviderDescription"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CachedProviderDescription
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedProviderDescription
- - IUIAutomationElement.get_CachedProviderDescription
+- IUIAutomationElement.CachedProviderDescription
+- IUIAutomationElement.get_CachedProviderDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

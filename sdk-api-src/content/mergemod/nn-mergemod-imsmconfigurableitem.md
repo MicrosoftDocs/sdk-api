@@ -1,19 +1,17 @@
 ---
 UID: NN:mergemod.IMsmConfigurableItem
 title: IMsmConfigurableItem (mergemod.h)
-
 description: The IMsmConfigurableItem interface manages a single row from the ModuleConfiguration table. This is a single configurable &#0034;attribute&#0034; from the module. The interface consists of read-only properties, one for each column in the ModuleConfiguration table.
 old-location: setup\imsmconfigurableitem_interface.htm
 tech.root: Msi
 ms.assetid: d10bfd31-22a8-4100-ac0b-dd0795622808
-
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigurableItem, IMsmConfigurableItem interface, IMsmConfigurableItem interface,described, mergemod/IMsmConfigurableItem, setup.imsmconfigurableitem_interface
 ms.topic: interface
-f1_keywords: 
- - "mergemod/IMsmConfigurableItem"
+f1_keywords:
+- mergemod/IMsmConfigurableItem
 dev_langs:
- - c++
+- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mergemod.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mergemod.dll
+- Mergemod.dll
 api_name:
- - IMsmConfigurableItem
+- IMsmConfigurableItem
 targetos: Windows
 req.typenames: 
 req.redist: 

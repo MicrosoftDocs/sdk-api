@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IEnumWiaItem.Next
 title: IEnumWiaItem::Next (wia_xp.h)
-
 description: The IEnumWiaItem::Next method fills an array of pointers to IWiaItem interfaces.
 old-location: wia\_wia_IEnumWiaItem_Next.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwiaitem\next.htm
-
 ms.date: 12/05/2018
 ms.keywords: IEnumWiaItem interface [WIA],Next method, IEnumWiaItem.Next, IEnumWiaItem::Next, Next, Next method [WIA], Next method [WIA],IEnumWiaItem interface, _wia_IEnumWiaItem_Next, wia._wia_IEnumWiaItem_Next, wia_xp/IEnumWiaItem::Next
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IEnumWiaItem.Next"
+f1_keywords:
+- wia_xp/IEnumWiaItem.Next
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wiaguid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaguid.lib
- - Wiaguid.dll
+- Wiaguid.lib
+- Wiaguid.dll
 api_name:
- - IEnumWiaItem.Next
+- IEnumWiaItem.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

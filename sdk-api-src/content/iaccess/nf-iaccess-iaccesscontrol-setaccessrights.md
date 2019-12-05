@@ -1,19 +1,17 @@
 ---
 UID: NF:iaccess.IAccessControl.SetAccessRights
 title: IAccessControl::SetAccessRights (iaccess.h)
-
 description: Replaces the existing access rights on an object with the specified list.
 old-location: com\iaccesscontrol_setaccessrights.htm
 tech.root: com
 ms.assetid: 5f4224fe-255f-4eb7-88bb-47501718589b
-
 ms.date: 12/05/2018
 ms.keywords: IAccessControl interface [COM],SetAccessRights method, IAccessControl.SetAccessRights, IAccessControl::SetAccessRights, SetAccessRights, SetAccessRights method [COM], SetAccessRights method [COM],IAccessControl interface, _com_iaccesscontrol_setaccessrights, com.iaccesscontrol_setaccessrights, iaccess/IAccessControl::SetAccessRights
 ms.topic: method
-f1_keywords: 
- - "iaccess/IAccessControl.SetAccessRights"
+f1_keywords:
+- iaccess/IAccessControl.SetAccessRights
 dev_langs:
- - c++
+- c++
 req.header: iaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - IAccess.h
+- IAccess.h
 api_name:
- - IAccessControl.SetAccessRights
+- IAccessControl.SetAccessRights
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetTextRenderingHint
 title: Graphics::GetTextRenderingHint (gdiplusgraphics.h)
-
 description: The Graphics::GetTextRenderingHint method returns the text rendering mode currently set for this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetTextRenderingHint_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\gettextrenderinghint.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetTextRenderingHint, GetTextRenderingHint method [GDI+], GetTextRenderingHint method [GDI+],Graphics class, Graphics class [GDI+],GetTextRenderingHint method, Graphics.GetTextRenderingHint, Graphics::GetTextRenderingHint, _gdiplus_CLASS_Graphics_GetTextRenderingHint_, gdiplus._gdiplus_CLASS_Graphics_GetTextRenderingHint_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.GetTextRenderingHint"
+f1_keywords:
+- gdiplusgraphics/Graphics.GetTextRenderingHint
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.GetTextRenderingHint
+- Graphics.GetTextRenderingHint
 targetos: Windows
 req.typenames: 
 req.redist: 

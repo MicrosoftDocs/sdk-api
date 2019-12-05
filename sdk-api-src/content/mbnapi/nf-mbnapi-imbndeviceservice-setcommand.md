@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.SetCommand
 title: IMbnDeviceService::SetCommand (mbnapi.h)
-
 description: Sends a SET control command to the device service of a Mobile Broadband device.
 old-location: mbn\imbndeviceservice_setcommand.htm
 tech.root: mbn
 ms.assetid: DA45B319-4E6A-4999-85A7-7F5A4F9BED7B
-
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],SetCommand method, IMbnDeviceService.SetCommand, IMbnDeviceService::SetCommand, SetCommand, SetCommand method [Microsoft Broadband Networks], SetCommand method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_setcommand, mbnapi/IMbnDeviceService::SetCommand
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnDeviceService.SetCommand"
+f1_keywords:
+- mbnapi/IMbnDeviceService.SetCommand
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnDeviceService.SetCommand
+- IMbnDeviceService.SetCommand
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.SetRealTimeMode
 title: IMFMediaEngineEx::SetRealTimeMode (mfmediaengine.h)
-
 description: Sets the real time mode used for the next call to SetSource or Load.
 old-location: mf\imfmediaengineex_setrealtimemode.htm
 tech.root: medfound
 ms.assetid: 31534f69-33ec-41d3-93aa-f4c457649e48
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetRealTimeMode method, IMFMediaEngineEx.SetRealTimeMode, IMFMediaEngineEx::SetRealTimeMode, SetRealTimeMode, SetRealTimeMode method [Media Foundation], SetRealTimeMode method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setrealtimemode, mfmediaengine/IMFMediaEngineEx::SetRealTimeMode
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineEx.SetRealTimeMode"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineEx.SetRealTimeMode
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineEx.SetRealTimeMode
+- IMFMediaEngineEx.SetRealTimeMode
 targetos: Windows
 req.typenames: 
 req.redist: 

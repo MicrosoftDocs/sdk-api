@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IConnectionPoint.GetConnectionPointContainer
 title: IConnectionPoint::GetConnectionPointContainer (ocidl.h)
-
 description: Retrieves the IConnectionPointContainer interface pointer for the parent connectable object.
 old-location: com\iconnectionpoint_getconnectionpointcontainer.htm
 tech.root: com
 ms.assetid: 12c0c777-27ce-4e6d-8e9a-f6333e4112bf
-
 ms.date: 12/05/2018
 ms.keywords: GetConnectionPointContainer, GetConnectionPointContainer method [COM], GetConnectionPointContainer method [COM],IConnectionPoint interface, IConnectionPoint interface [COM],GetConnectionPointContainer method, IConnectionPoint.GetConnectionPointContainer, IConnectionPoint::GetConnectionPointContainer, _com_iconnectionpoint_getconnectionpointcontainer, com.iconnectionpoint_getconnectionpointcontainer, ocidl/IConnectionPoint::GetConnectionPointContainer
 ms.topic: method
-f1_keywords: 
- - "ocidl/IConnectionPoint.GetConnectionPointContainer"
+f1_keywords:
+- ocidl/IConnectionPoint.GetConnectionPointContainer
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IConnectionPoint.GetConnectionPointContainer
+- IConnectionPoint.GetConnectionPointContainer
 targetos: Windows
 req.typenames: 
 req.redist: 

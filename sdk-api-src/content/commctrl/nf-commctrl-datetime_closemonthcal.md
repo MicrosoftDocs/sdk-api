@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.DateTime_CloseMonthCal
 title: DateTime_CloseMonthCal macro (commctrl.h)
-
 description: Closes the date and time picker (DTP) control. Use this macro or send the DTM_CLOSEMONTHCAL message explicitly.
 old-location: controls\DateTime_CloseMonthCal.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_closemonthcal.htm
-
 ms.date: 12/05/2018
 ms.keywords: DateTime_CloseMonthCal, DateTime_CloseMonthCal macro [Windows Controls], _shell_DateTime_CloseMonthCal, _shell_DateTime_CloseMonthCal_cpp, commctrl/DateTime_CloseMonthCal, controls.DateTime_CloseMonthCal, controls._shell_DateTime_CloseMonthCal
 ms.topic: macro
-f1_keywords: 
- - "commctrl/DateTime_CloseMonthCal"
+f1_keywords:
+- commctrl/DateTime_CloseMonthCal
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - DateTime_CloseMonthCal
+- DateTime_CloseMonthCal
 targetos: Windows
 req.typenames: 
 req.redist: 

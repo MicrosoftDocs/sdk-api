@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.lineproxyrequest_tag
 title: LINEPROXYREQUEST (tapi.h)
-
 description: The LINEPROXYREQUEST structure contains parameter values of the application making the proxy request. Multiple TAPI call center functions generate a LINE_PROXYREQUEST message that references a LINEPROXYREQUEST structure.
 old-location: tapi2\lineproxyrequest_str.htm
 tech.root: Tapi
 ms.assetid: 52c9b96e-4c59-46bf-ad37-78bcfc5e8dc3
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINEPROXYREQUEST, LINEPROXYREQUEST, LINEPROXYREQUEST structure [TAPI 2.2], LPLINEPROXYREQUEST, LPLINEPROXYREQUEST structure pointer [TAPI 2.2], _tapi2_lineproxyrequest_str, tapi/LINEPROXYREQUEST, tapi/LPLINEPROXYREQUEST, tapi2.lineproxyrequest_str"
+ms.keywords: '*LPLINEPROXYREQUEST, LINEPROXYREQUEST, LINEPROXYREQUEST structure [TAPI 2.2], LPLINEPROXYREQUEST, LPLINEPROXYREQUEST structure pointer [TAPI 2.2], _tapi2_lineproxyrequest_str, tapi/LINEPROXYREQUEST, tapi/LPLINEPROXYREQUEST, tapi2.lineproxyrequest_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINEPROXYREQUEST"
+f1_keywords:
+- tapi/LINEPROXYREQUEST
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINEPROXYREQUEST
+- LINEPROXYREQUEST
 targetos: Windows
 req.typenames: LINEPROXYREQUEST, *LPLINEPROXYREQUEST
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:chstring.CHString.SpanIncluding
 title: CHString::SpanIncluding (chstring.h)
-
 description: The SpanIncluding method extracts characters of a string that are identified by lpszCharSet.
 old-location: wmi\chstring_spanincluding.htm
 tech.root: WmiSdk
 ms.assetid: d99ce931-c6ec-4f1c-b4ab-144dc930f990
-
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],SpanIncluding method, CHString.SpanIncluding, CHString::SpanIncluding, SpanIncluding, SpanIncluding method [Windows Management Instrumentation], SpanIncluding method [Windows Management Instrumentation],CHString interface, _hmm_chstring_spanincluding, chstring/CHString::SpanIncluding, wmi.chstring_spanincluding
 ms.topic: method
-f1_keywords: 
- - "chstring/CHString.SpanIncluding"
+f1_keywords:
+- chstring/CHString.SpanIncluding
 dev_langs:
- - c++
+- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHString.SpanIncluding
+- CHString.SpanIncluding
 targetos: Windows
 req.typenames: 
 req.redist: 

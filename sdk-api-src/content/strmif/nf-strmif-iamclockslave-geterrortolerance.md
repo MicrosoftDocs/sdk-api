@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMClockSlave.GetErrorTolerance
 title: IAMClockSlave::GetErrorTolerance (strmif.h)
-
 description: The GetErrorTolerance method retrieves the audio renderer's rate-matching tolerance.
 old-location: dshow\iamclockslave_geterrortolerance.htm
 tech.root: DirectShow
 ms.assetid: a22e17d8-eb96-4e67-bbd7-7c116694c891
-
 ms.date: 12/05/2018
 ms.keywords: GetErrorTolerance, GetErrorTolerance method [DirectShow], GetErrorTolerance method [DirectShow],IAMClockSlave interface, IAMClockSlave interface [DirectShow],GetErrorTolerance method, IAMClockSlave.GetErrorTolerance, IAMClockSlave::GetErrorTolerance, IAMClockSlaveGetErrorTolerance, dshow.iamclockslave_geterrortolerance, strmif/IAMClockSlave::GetErrorTolerance
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMClockSlave.GetErrorTolerance"
+f1_keywords:
+- strmif/IAMClockSlave.GetErrorTolerance
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMClockSlave.GetErrorTolerance
+- IAMClockSlave.GetErrorTolerance
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mfobjects.IMFMuxStreamSampleManager
 title: IMFMuxStreamSampleManager (mfobjects.h)
-
 description: Provides the ability to retrieve IMFSample objects for individual substreams within the output of a multiplexed media source.
 old-location: mf\imfmuxstreamsamplemanager.htm
 tech.root: medfound
 ms.assetid: DABA5955-1366-4CEE-ABDF-7CC0F3788A8E
-
 ms.date: 12/05/2018
 ms.keywords: IMFMuxStreamSampleManager, IMFMuxStreamSampleManager interface [Media Foundation], IMFMuxStreamSampleManager interface [Media Foundation],described, mf.imfmuxstreamsamplemanager, mfobjects/IMFMuxStreamSampleManager
 ms.topic: interface
-f1_keywords: 
- - "mfobjects/IMFMuxStreamSampleManager"
+f1_keywords:
+- mfobjects/IMFMuxStreamSampleManager
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFMuxStreamSampleManager
+- IMFMuxStreamSampleManager
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:vfw.__unnamed_struct_5
 title: ICDECOMPRESS (vfw.h)
-
 description: The ICDECOMPRESS structure contains decompression parameters used with the ICM_DECOMPRESS message.
 old-location: multimedia\icdecompress_struct.htm
 tech.root: Multimedia
 ms.assetid: bc9c2416-cc1c-4571-82ee-7d93307f5114
-
 ms.date: 12/05/2018
 ms.keywords: ICDECOMPRESS, ICDECOMPRESS structure [Windows Multimedia], ICDECOMPRESS_HURRYUP, ICDECOMPRESS_NOTKEYFRAME, ICDECOMPRESS_NULLFRAME, ICDECOMPRESS_PREROLL, ICDECOMPRESS_UPDATE, multimedia.icdecompress_COLLISION813, multimedia.icdecompress_struct, vfw/ICDECOMPRESS
 ms.topic: struct
-f1_keywords: 
- - "vfw/ICDECOMPRESS"
+f1_keywords:
+- vfw/ICDECOMPRESS
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - ICDECOMPRESS
+- ICDECOMPRESS
 targetos: Windows
 req.typenames: ICDECOMPRESS
 req.redist: 

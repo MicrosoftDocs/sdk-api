@@ -1,19 +1,17 @@
 ---
 UID: NN:syncmgr.ISyncMgrHandler
 title: ISyncMgrHandler (syncmgr.h)
-
 description: Exposes methods that make up the primary interface implemented by a sync handler.
 old-location: shell\ISyncMgrHandler.htm
 tech.root: shell
 ms.assetid: 39579030-1cf5-4e82-a5e7-cb3415903d02
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrHandler, ISyncMgrHandler interface [Windows Shell], ISyncMgrHandler interface [Windows Shell],described, _shell_ISyncMgrHandler, shell.ISyncMgrHandler, syncmgr/ISyncMgrHandler
 ms.topic: interface
-f1_keywords: 
- - "syncmgr/ISyncMgrHandler"
+f1_keywords:
+- syncmgr/ISyncMgrHandler
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrHandler
+- ISyncMgrHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

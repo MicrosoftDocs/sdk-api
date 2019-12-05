@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.RectF.GetSize
 title: RectF::GetSize (gdiplustypes.h)
-
 description: The RectF::GetSize method gets the width and height of this rectangle.
 old-location: gdiplus\_gdiplus_CLASS_RectF_GetSize_size_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\getsize_61size.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [GDI+], GetSize method [GDI+],RectF class, RectF class [GDI+],GetSize method, RectF.GetSize, RectF::GetSize, _gdiplus_CLASS_RectF_GetSize_size_, gdiplus._gdiplus_CLASS_RectF_GetSize_size_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/RectF.GetSize"
+f1_keywords:
+- gdiplustypes/RectF.GetSize
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - RectF.GetSize
+- RectF.GetSize
 targetos: Windows
 req.typenames: 
 req.redist: 

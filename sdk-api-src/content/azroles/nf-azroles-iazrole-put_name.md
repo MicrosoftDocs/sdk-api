@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzRole.put_Name
 title: IAzRole::put_Name (azroles.h)
-
 description: Sets or retrieves the name of the role.
 old-location: security\iazrole_name.htm
 tech.root: SecAuthZ
 ms.assetid: fecd1cb8-55b8-4c7c-ba49-a633f9c8710c
-
 ms.date: 12/05/2018
 ms.keywords: AzRole object [Security],Name property, IAzRole interface [Security],Name property, IAzRole.Name, IAzRole.put_Name, IAzRole::Name, IAzRole::get_Name, IAzRole::put_Name, Name property [Security], Name property [Security],AzRole object, Name property [Security],IAzRole interface, azroles/IAzRole::Name, azroles/IAzRole::get_Name, azroles/IAzRole::put_Name, put_Name, security.iazrole_name
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzRole.Name"
+f1_keywords:
+- azroles/IAzRole.Name
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzRole.Name
- - IAzRole.get_Name
- - IAzRole.put_Name
- - AzRole.Name
+- IAzRole.Name
+- IAzRole.get_Name
+- IAzRole.put_Name
+- AzRole.Name
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

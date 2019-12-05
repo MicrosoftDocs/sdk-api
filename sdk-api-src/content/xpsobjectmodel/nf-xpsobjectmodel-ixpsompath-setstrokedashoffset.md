@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeDashOffset
 title: IXpsOMPath::SetStrokeDashOffset (xpsobjectmodel.h)
-
 description: Sets the offset from the origin of the stroke to the starting point of the dash array pattern.
 old-location: xps\ixpsompath_setstrokedashoffset.htm
 tech.root: printdocs
 ms.assetid: f6d222e4-9480-4dc7-9963-7dd637892281
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeDashOffset method, IXpsOMPath.SetStrokeDashOffset, IXpsOMPath::SetStrokeDashOffset, SetStrokeDashOffset, SetStrokeDashOffset method [XPS Documents and Packaging], SetStrokeDashOffset method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokedashoffset, xpsobjectmodel/IXpsOMPath::SetStrokeDashOffset
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPath.SetStrokeDashOffset"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPath.SetStrokeDashOffset
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPath.SetStrokeDashOffset
+- IXpsOMPath.SetStrokeDashOffset
 targetos: Windows
 req.typenames: 
 req.redist: 

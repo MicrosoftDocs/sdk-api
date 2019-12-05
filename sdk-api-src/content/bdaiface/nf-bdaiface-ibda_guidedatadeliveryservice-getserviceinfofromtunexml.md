@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_GuideDataDeliveryService.GetServiceInfoFromTuneXml
 title: IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml (bdaiface.h)
-
 description: Gets service information from an XML tune request.
 old-location: mstv\ibda_guidedatadeliveryservice_getserviceinfofromtunexml.htm
 tech.root: mstv
 ms.assetid: 8084e4dd-a5d5-48a0-a052-24310a79df78
-
 ms.date: 12/05/2018
 ms.keywords: GetServiceInfoFromTuneXml, GetServiceInfoFromTuneXml method [Microsoft TV Technologies], GetServiceInfoFromTuneXml method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],GetServiceInfoFromTuneXml method, IBDA_GuideDataDeliveryService.GetServiceInfoFromTuneXml, IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml, bdaiface/IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml, mstv.ibda_guidedatadeliveryservice_getserviceinfofromtunexml
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_GuideDataDeliveryService.GetServiceInfoFromTuneXml"
+f1_keywords:
+- bdaiface/IBDA_GuideDataDeliveryService.GetServiceInfoFromTuneXml
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_GuideDataDeliveryService.GetServiceInfoFromTuneXml
+- IBDA_GuideDataDeliveryService.GetServiceInfoFromTuneXml
 targetos: Windows
 req.typenames: 
 req.redist: 

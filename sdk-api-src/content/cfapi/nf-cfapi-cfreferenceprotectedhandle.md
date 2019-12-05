@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfReferenceProtectedHandle
 title: CfReferenceProtectedHandle function (cfapi.h)
-
 description: Allows the caller to reference a protected handle to a Win32 handle which can be used with non-CfApi Win32 APIs.
 old-location: cloudapi\cfreferenceprotectedhandle.htm
 tech.root: cfApi
 ms.assetid: C6281FD6-3A37-4D90-9B19-03DD23949C39
-
 ms.date: 12/05/2018
 ms.keywords: CfReferenceProtectedHandle, CfReferenceProtectedHandle function, cfapi/CfReferenceProtectedHandle, cloudApi.cfreferenceprotectedhandle
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfReferenceProtectedHandle"
+f1_keywords:
+- cfapi/CfReferenceProtectedHandle
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfReferenceProtectedHandle
+- CfReferenceProtectedHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

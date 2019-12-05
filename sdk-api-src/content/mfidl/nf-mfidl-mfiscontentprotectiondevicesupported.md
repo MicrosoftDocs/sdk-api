@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFIsContentProtectionDeviceSupported
 title: MFIsContentProtectionDeviceSupported function (mfidl.h)
-
 description: Checks whether a hardware security processor is supported for the specified media protection system.
 old-location: mf\mfiscontentprotectiondevicesupported.htm
 tech.root: medfound
 ms.assetid: 8C91C204-49C0-41CF-A9E1-F9C53388604A
-
 ms.date: 12/05/2018
 ms.keywords: MFIsContentProtectionDeviceSupported, MFIsContentProtectionDeviceSupported function [Media Foundation], mf.mfiscontentprotectiondevicesupported, mfidl/MFIsContentProtectionDeviceSupported
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFIsContentProtectionDeviceSupported"
+f1_keywords:
+- mfidl/MFIsContentProtectionDeviceSupported
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFIsContentProtectionDeviceSupported
+- MFIsContentProtectionDeviceSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

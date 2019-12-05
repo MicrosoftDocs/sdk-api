@@ -1,19 +1,17 @@
 ---
 UID: NE:wtypes.tagSTGC
 title: STGC (wtypes.h)
-
 description: Specify the conditions for performing the commit operation in the IStorage::Commit and IStream::Commit methods.
 old-location: stg\stgc.htm
 tech.root: Stg
 ms.assetid: f37260c0-d03d-4ead-a342-d2454ce8b1ac
-
 ms.date: 12/05/2018
 ms.keywords: STGC, STGC enumeration [Structured Storage], STGC_CONSOLIDATE, STGC_DANGEROUSLYCOMMITMERELYTODISKCACHE, STGC_DEFAULT, STGC_ONLYIFCURRENT, STGC_OVERWRITE, _stg_stgc, stg.stgc, wtypes/STGC, wtypes/STGC_CONSOLIDATE, wtypes/STGC_DANGEROUSLYCOMMITMERELYTODISKCACHE, wtypes/STGC_DEFAULT, wtypes/STGC_ONLYIFCURRENT, wtypes/STGC_OVERWRITE
 ms.topic: enum
-f1_keywords: 
- - "wtypes/STGC"
+f1_keywords:
+- wtypes/STGC
 dev_langs:
- - c++
+- c++
 req.header: wtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WTypes.h
+- WTypes.h
 api_name:
- - STGC
+- STGC
 targetos: Windows
 req.typenames: STGC
 req.redist: 

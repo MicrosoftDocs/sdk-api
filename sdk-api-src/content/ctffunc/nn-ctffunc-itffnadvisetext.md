@@ -1,19 +1,17 @@
 ---
 UID: NN:ctffunc.ITfFnAdviseText
 title: ITfFnAdviseText (ctffunc.h)
-
 description: The ITfFnAdviseText interface is implemented by a text service and used by the TSF manager to supply notifications when the text or lattice element in a context changes.
 old-location: tsf\itffnadvisetext.htm
 tech.root: TSF
 ms.assetid: 7cca7f23-48d3-4855-8f3d-e937bbc990d4
-
 ms.date: 12/05/2018
 ms.keywords: ITfFnAdviseText, ITfFnAdviseText interface [Text Services Framework], ITfFnAdviseText interface [Text Services Framework],described, _tsf_itffnadvisetext_ref, ctffunc/ITfFnAdviseText, tsf.itffnadvisetext
 ms.topic: interface
-f1_keywords: 
- - "ctffunc/ITfFnAdviseText"
+f1_keywords:
+- ctffunc/ITfFnAdviseText
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfFnAdviseText
+- ITfFnAdviseText
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

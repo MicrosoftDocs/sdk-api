@@ -1,19 +1,17 @@
 ---
 UID: NN:infotech.IITDatabase
 title: IITDatabase (infotech.h)
-
 description: Use this interface for opening and closing the database object, and for instantiating objects stored in the database.
 old-location: htmlhelp\iitdatabase.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitdatabaseinterface.htm
-
 ms.date: 12/05/2018
 ms.keywords: IITDatabase, IITDatabase interface [HTML Help Workshop], IITDatabase interface [HTML Help Workshop],described, htmlhelp.iitdatabase, infotech/IITDatabase, refIITDatabaseInterface
 ms.topic: interface
-f1_keywords: 
- - "infotech/IITDatabase"
+f1_keywords:
+- infotech/IITDatabase
 dev_langs:
- - c++
+- c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Infotech.h
+- Infotech.h
 api_name:
- - IITDatabase
+- IITDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 

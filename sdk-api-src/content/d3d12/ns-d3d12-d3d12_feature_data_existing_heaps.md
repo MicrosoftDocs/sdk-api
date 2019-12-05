@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_EXISTING_HEAPS
 title: D3D12_FEATURE_DATA_EXISTING_HEAPS (d3d12.h)
-
 description: Provides detail about whether the adapter supports creating heaps from existing system memory.
 old-location: direct3d12\d3d12_feature_data_existing_heaps.htm
 tech.root: direct3d12
 ms.assetid: 7F0D0FAD-BF29-43AD-95FA-85B9719C4782
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_FEATURE_DATA_EXISTING_HEAPS, D3D12_FEATURE_DATA_EXISTING_HEAPS structure, d3d12/D3D12_FEATURE_DATA_EXISTING_HEAPS, direct3d12.d3d12_feature_data_existing_heaps
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_FEATURE_DATA_EXISTING_HEAPS"
+f1_keywords:
+- d3d12/D3D12_FEATURE_DATA_EXISTING_HEAPS
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_FEATURE_DATA_EXISTING_HEAPS
+- D3D12_FEATURE_DATA_EXISTING_HEAPS
 targetos: Windows
 req.typenames: D3D12_FEATURE_DATA_EXISTING_HEAPS
 req.redist: 

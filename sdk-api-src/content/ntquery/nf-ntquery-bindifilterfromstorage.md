@@ -1,19 +1,17 @@
 ---
 UID: NF:ntquery.BindIFilterFromStorage
 title: BindIFilterFromStorage function (ntquery.h)
-
 description: Retrieves the IFilter interface pointer for the specified storage object. This is especially useful when filtering the contents of a document and processing embedded OLE objects that are accessible through their IStorage interfaces.
 old-location: indexsrv\bindifilterfromstorage.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_1cth.htm
-
 ms.date: 12/05/2018
 ms.keywords: BindIFilterFromStorage, BindIFilterFromStorage function [Indexing Service], _idxs_BindIFilterFromStorage, indexsrv.bindifilterfromstorage, ntquery/BindIFilterFromStorage
 ms.topic: function
-f1_keywords: 
- - "ntquery/BindIFilterFromStorage"
+f1_keywords:
+- ntquery/BindIFilterFromStorage
 dev_langs:
- - c++
+- c++
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntquery.lib
 req.dll: Ntquery.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntquery.dll
+- Ntquery.dll
 api_name:
- - BindIFilterFromStorage
+- BindIFilterFromStorage
 targetos: Windows
 req.typenames: 
 req.redist: 

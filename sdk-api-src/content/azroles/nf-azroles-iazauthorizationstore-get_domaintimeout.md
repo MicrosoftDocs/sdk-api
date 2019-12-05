@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_DomainTimeout
 title: IAzAuthorizationStore::get_DomainTimeout (azroles.h)
-
 description: Sets or retrieves the time in milliseconds after which a domain is determined to be unreachable.
 old-location: security\azauthorizationstore_domaintimeout.htm
 tech.root: SecAuthZ
 ms.assetid: e512641d-a282-41f6-a7d8-5383ad43cd5b
-
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],DomainTimeout property, DomainTimeout property [Security], DomainTimeout property [Security],AzAuthorizationStore object, DomainTimeout property [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DomainTimeout property, IAzAuthorizationStore.DomainTimeout, IAzAuthorizationStore.get_DomainTimeout, IAzAuthorizationStore::DomainTimeout, IAzAuthorizationStore::get_DomainTimeout, IAzAuthorizationStore::put_DomainTimeout, azroles/IAzAuthorizationStore::DomainTimeout, azroles/IAzAuthorizationStore::get_DomainTimeout, azroles/IAzAuthorizationStore::put_DomainTimeout, get_DomainTimeout, security.azauthorizationstore_domaintimeout
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzAuthorizationStore.DomainTimeout"
+f1_keywords:
+- azroles/IAzAuthorizationStore.DomainTimeout
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzAuthorizationStore.DomainTimeout
- - IAzAuthorizationStore.get_DomainTimeout
- - IAzAuthorizationStore.put_DomainTimeout
- - AzAuthorizationStore.DomainTimeout
+- IAzAuthorizationStore.DomainTimeout
+- IAzAuthorizationStore.get_DomainTimeout
+- IAzAuthorizationStore.put_DomainTimeout
+- AzAuthorizationStore.DomainTimeout
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

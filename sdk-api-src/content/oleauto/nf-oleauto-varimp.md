@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarImp
 title: VarImp function (oleauto.h)
-
 description: Performs a bitwise implication on two variants.
 old-location: automat\varimp.htm
 tech.root: automat
 ms.assetid: c8d846dd-97c3-4e7d-af4f-632f04be75cf
-
 ms.date: 12/05/2018
 ms.keywords: VarImp, VarImp function [Automation], _oa96_VarImp, automat.varimp, oleauto/VarImp
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarImp"
+f1_keywords:
+- oleauto/VarImp
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarImp
+- VarImp
 targetos: Windows
 req.typenames: 
 req.redist: 

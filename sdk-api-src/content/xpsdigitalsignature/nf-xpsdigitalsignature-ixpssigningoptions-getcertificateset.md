@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetCertificateSet
 title: IXpsSigningOptions::GetCertificateSet (xpsdigitalsignature.h)
-
 description: Gets an IOpcCertificateSet interface, which can be used to add additional certificates to the signature.
 old-location: xps\ixpssigningoptions_getcertificateset.htm
 tech.root: printdocs
 ms.assetid: 40e96263-03dd-4fbe-8383-0c0bf1abd8c4
-
 ms.date: 12/05/2018
 ms.keywords: GetCertificateSet, GetCertificateSet method [XPS Documents and Packaging], GetCertificateSet method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetCertificateSet method, IXpsSigningOptions.GetCertificateSet, IXpsSigningOptions::GetCertificateSet, xps.ixpssigningoptions_getcertificateset, xpsdigitalsignature/IXpsSigningOptions::GetCertificateSet
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSigningOptions.GetCertificateSet"
+f1_keywords:
+- xpsdigitalsignature/IXpsSigningOptions.GetCertificateSet
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSigningOptions.GetCertificateSet
+- IXpsSigningOptions.GetCertificateSet
 targetos: Windows
 req.typenames: 
 req.redist: 

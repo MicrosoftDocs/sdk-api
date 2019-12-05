@@ -1,19 +1,17 @@
 ---
 UID: NN:uianimation.IUIAnimationManager
 title: IUIAnimationManager (uianimation.h)
-
 description: Defines the animation manager, which provides a central interface for creating and managing animations.
 old-location: uianimation\iuianimationmanager.htm
 tech.root: UIAnimation
 ms.assetid: 21f16c65-90aa-4b1f-93bc-8ee0488c6ded
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager, IUIAnimationManager interface [Windows Animation], IUIAnimationManager interface [Windows Animation],described, uianimation.iuianimationmanager, uianimation/IUIAnimationManager
 ms.topic: interface
-f1_keywords: 
- - "uianimation/IUIAnimationManager"
+f1_keywords:
+- uianimation/IUIAnimationManager
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationManager
+- IUIAnimationManager
 targetos: Windows
 req.typenames: 
 req.redist: 

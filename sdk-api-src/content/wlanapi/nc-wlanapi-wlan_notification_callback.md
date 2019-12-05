@@ -1,19 +1,17 @@
 ---
 UID: NC:wlanapi.WLAN_NOTIFICATION_CALLBACK
 title: WLAN_NOTIFICATION_CALLBACK (wlanapi.h)
-
 description: Defines the type of notification callback function.
 old-location: nwifi\notif_callback.htm
 tech.root: NativeWiFi
 ms.assetid: df721e77-3285-442b-aabd-2dccae85fda5
-
 ms.date: 12/05/2018
 ms.keywords: WLAN_NOTIFICATION_CALLBACK, WLAN_NOTIFICATION_CALLBACK callback, WLAN_NOTIFICATION_CALLBACK callback function [NativeWIFI], nwifi.notif_callback, wlanapi/WLAN_NOTIFICATION_CALLBACK
 ms.topic: callback
 f1_keywords:
 - wlanapi/WLAN_NOTIFICATION_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

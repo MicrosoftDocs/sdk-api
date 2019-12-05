@@ -1,19 +1,17 @@
 ---
 UID: NE:gdiplusenums.StringFormatFlags
 title: StringFormatFlags (gdiplusenums.h)
-
 description: The StringFormatFlags enumeration specifies text layout information (such as orientation and clipping) and display manipulations (such as ellipsis insertion, digit substitution, and representation of characters that are not supported by a font).
 old-location: gdiplus\_gdiplus_ENUM_StringFormatFlags.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\stringformatflags.htm
-
 ms.date: 12/05/2018
 ms.keywords: StringFormatFlags, StringFormatFlags enumeration [GDI+], StringFormatFlagsDirectionRightToLeft, StringFormatFlagsDirectionVertical, StringFormatFlagsDisplayFormatControl, StringFormatFlagsLineLimit, StringFormatFlagsMeasureTrailingSpaces, StringFormatFlagsNoClip, StringFormatFlagsNoFitBlackBox, StringFormatFlagsNoFontFallback, StringFormatFlagsNoWrap, _gdiplus_ENUM_StringFormatFlags, gdiplus._gdiplus_ENUM_StringFormatFlags, gdiplusenums/StringFormatFlags, gdiplusenums/StringFormatFlagsDirectionRightToLeft, gdiplusenums/StringFormatFlagsDirectionVertical, gdiplusenums/StringFormatFlagsDisplayFormatControl, gdiplusenums/StringFormatFlagsLineLimit, gdiplusenums/StringFormatFlagsMeasureTrailingSpaces, gdiplusenums/StringFormatFlagsNoClip, gdiplusenums/StringFormatFlagsNoFitBlackBox, gdiplusenums/StringFormatFlagsNoFontFallback, gdiplusenums/StringFormatFlagsNoWrap
 ms.topic: enum
-f1_keywords: 
- - "gdiplusenums/StringFormatFlags"
+f1_keywords:
+- gdiplusenums/StringFormatFlags
 dev_langs:
- - c++
+- c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdiplusenums.h
+- Gdiplusenums.h
 api_name:
- - StringFormatFlags
+- StringFormatFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

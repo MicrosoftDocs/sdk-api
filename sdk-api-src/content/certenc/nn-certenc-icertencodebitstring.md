@@ -1,19 +1,17 @@
 ---
 UID: NN:certenc.ICertEncodeBitString
 title: ICertEncodeBitString (certenc.h)
-
 description: Provides methods for handling bit strings used in certificate extensions.
 old-location: security\icertencodebitstring.htm
 tech.root: SecCrypto
 ms.assetid: 51178b67-46da-49f8-9bd7-a500e846e0a8
-
 ms.date: 12/05/2018
 ms.keywords: ICertEncodeBitString, ICertEncodeBitString interface [Security], ICertEncodeBitString interface [Security],described, _certsrv_icertencodebitstring, certenc/ICertEncodeBitString, security.icertencodebitstring
 ms.topic: interface
-f1_keywords: 
- - "certenc/ICertEncodeBitString"
+f1_keywords:
+- certenc/ICertEncodeBitString
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeBitString
+- ICertEncodeBitString
 targetos: Windows
 req.typenames: 
 req.redist: 

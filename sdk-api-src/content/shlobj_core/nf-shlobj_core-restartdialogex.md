@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.RestartDialogEx
 title: RestartDialogEx function (shlobj_core.h)
-
 description: Displays a dialog box that asks the user to restart Windows. When the user clicks the button, the function calls ExitWindowsEx to attempt to restart Windows.
 old-location: shell\RestartDialogEx.htm
 tech.root: shell
 ms.assetid: 32bc232f-6cc4-4f19-9d33-ba7ad28dfd59
-
 ms.date: 12/05/2018
 ms.keywords: EWX_FORCE, EWX_FORCEIFHUNG, EWX_LOGOFF, EWX_POWEROFF, EWX_REBOOT, EWX_SHUTDOWN, RestartDialogEx, RestartDialogEx function [Windows Shell], _win32_RestartDialogEx, shell.RestartDialogEx, shlobj_core/RestartDialogEx
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/RestartDialogEx"
+f1_keywords:
+- shlobj_core/RestartDialogEx
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - RestartDialogEx
+- RestartDialogEx
 targetos: Windows
 req.typenames: 
 req.redist: 

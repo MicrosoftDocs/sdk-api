@@ -1,19 +1,17 @@
 ---
 UID: NE:certenroll.PolicyServerUrlPropertyID
 title: PolicyServerUrlPropertyID (certenroll.h)
-
 description: Contains values that specify the type of property value to be returned by the GetStringProperty method or set by the SetStringProperty method on the IX509PolicyServerUrl interface.
 old-location: security\policyserverurlpropertyid.htm
 tech.root: seccertenroll
 ms.assetid: 7b2f898d-9730-4f86-a7b2-dd625889c00a
-
 ms.date: 12/05/2018
 ms.keywords: PolicyServerUrlPropertyID, PolicyServerUrlPropertyID enumeration [Security], PsFriendlyName, PsPolicyID, certenroll/PolicyServerUrlPropertyID, certenroll/PsFriendlyName, certenroll/PsPolicyID, security.policyserverurlpropertyid
 ms.topic: enum
-f1_keywords: 
- - "certenroll/PolicyServerUrlPropertyID"
+f1_keywords:
+- certenroll/PolicyServerUrlPropertyID
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - PolicyServerUrlPropertyID
+- PolicyServerUrlPropertyID
 targetos: Windows
 req.typenames: PolicyServerUrlPropertyID
 req.redist: 

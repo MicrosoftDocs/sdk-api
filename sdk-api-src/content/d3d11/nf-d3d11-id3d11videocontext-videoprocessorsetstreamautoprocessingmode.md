@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamAutoProcessingMode
 title: ID3D11VideoContext::VideoProcessorSetStreamAutoProcessingMode (d3d11.h)
-
 description: Enables or disables automatic processing features on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorsetstreamautoprocessingmode.htm
 tech.root: medfound
 ms.assetid: 92579A03-AA8A-4D9B-8150-F5FDDBAFC1C1
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamAutoProcessingMode method, ID3D11VideoContext.VideoProcessorSetStreamAutoProcessingMode, ID3D11VideoContext::VideoProcessorSetStreamAutoProcessingMode, VideoProcessorSetStreamAutoProcessingMode, VideoProcessorSetStreamAutoProcessingMode method [Media Foundation], VideoProcessorSetStreamAutoProcessingMode method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamAutoProcessingMode, mf.id3d11videocontext_videoprocessorsetstreamautoprocessingmode
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoContext.VideoProcessorSetStreamAutoProcessingMode"
+f1_keywords:
+- d3d11/ID3D11VideoContext.VideoProcessorSetStreamAutoProcessingMode
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoContext.VideoProcessorSetStreamAutoProcessingMode
+- ID3D11VideoContext.VideoProcessorSetStreamAutoProcessingMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IFilterGraph.SetDefaultSyncSource
 title: IFilterGraph::SetDefaultSyncSource (strmif.h)
-
 description: The SetDefaultSyncSource method sets the reference clock to the default clock.
 old-location: dshow\ifiltergraph_setdefaultsyncsource.htm
 tech.root: DirectShow
 ms.assetid: 775e7136-f6d0-47bc-852f-1c5c88ad03bf
-
 ms.date: 12/05/2018
 ms.keywords: IFilterGraph interface [DirectShow],SetDefaultSyncSource method, IFilterGraph.SetDefaultSyncSource, IFilterGraph::SetDefaultSyncSource, IFilterGraphSetDefaultSyncSource, SetDefaultSyncSource, SetDefaultSyncSource method [DirectShow], SetDefaultSyncSource method [DirectShow],IFilterGraph interface, dshow.ifiltergraph_setdefaultsyncsource, strmif/IFilterGraph::SetDefaultSyncSource
 ms.topic: method
-f1_keywords: 
- - "strmif/IFilterGraph.SetDefaultSyncSource"
+f1_keywords:
+- strmif/IFilterGraph.SetDefaultSyncSource
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFilterGraph.SetDefaultSyncSource
+- IFilterGraph.SetDefaultSyncSource
 targetos: Windows
 req.typenames: 
 req.redist: 

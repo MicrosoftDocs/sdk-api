@@ -1,19 +1,17 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_SSL_CCS_QUERY
 title: HTTP_SERVICE_CONFIG_SSL_CCS_QUERY (http.h)
-
 description: Specifies a Secure Sockets Layer (SSL) configuration to query for an SSL Centralized Certificate Store (CCS) record on the port when you call the HttpQueryServiceConfiguration function.
 old-location: http\http_service_config_ssl_ccs_query.htm
 tech.root: http
 ms.assetid: E7578D74-E8BE-472D-A01B-51BBA511F561
-
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY, HTTP_SERVICE_CONFIG_SSL_CCS_QUERY, HTTP_SERVICE_CONFIG_SSL_CCS_QUERY structure [HTTP], HttpServiceConfigQueryExact, HttpServiceConfigQueryNext, PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY, PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY structure pointer [HTTP], http.http_service_config_ssl_ccs_query, http/HTTP_SERVICE_CONFIG_SSL_CCS_QUERY, http/PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY'
 ms.topic: struct
 f1_keywords:
 - http/HTTP_SERVICE_CONFIG_SSL_CCS_QUERY
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

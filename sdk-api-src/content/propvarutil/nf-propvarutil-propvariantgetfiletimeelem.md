@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantGetFileTimeElem
 title: PropVariantGetFileTimeElem function (propvarutil.h)
-
 description: Extracts a single FILETIME element from a PROPVARIANT structure of type VT_FILETIME, VT_VECTOR | VT_FILETIME, or VT_ARRAY | VT_FILETIME.
 old-location: properties\PropVariantGetFileTimeElem.htm
 tech.root: properties
 ms.assetid: e38b16ed-84cb-4444-bfbd-1165595bc9b5
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantGetFileTimeElem, PropVariantGetFileTimeElem function [Windows Properties], _shell_PropVariantGetFileTimeElem, properties.PropVariantGetFileTimeElem, propvarutil/PropVariantGetFileTimeElem, shell.PropVariantGetFileTimeElem
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantGetFileTimeElem"
+f1_keywords:
+- propvarutil/PropVariantGetFileTimeElem
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantGetFileTimeElem
+- PropVariantGetFileTimeElem
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

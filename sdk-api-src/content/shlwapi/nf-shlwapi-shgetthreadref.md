@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHGetThreadRef
 title: SHGetThreadRef function (shlwapi.h)
-
 description: Retrieves the per-thread object reference set by SHSetThreadRef.
 old-location: shell\SHGetThreadRef.htm
 tech.root: shell
 ms.assetid: 307b284b-f493-4d24-a7be-17c150d62b34
-
 ms.date: 12/05/2018
 ms.keywords: SHGetThreadRef, SHGetThreadRef function [Windows Shell], _win32_SHGetThreadRef, shell.SHGetThreadRef, shlwapi/SHGetThreadRef
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHGetThreadRef"
+f1_keywords:
+- shlwapi/SHGetThreadRef
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later); ShCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - ShCore.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
- - API-MS-Win-ShCore-thread-l1-1-0.dll
+- Shlwapi.dll
+- ShCore.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+- API-MS-Win-ShCore-thread-l1-1-0.dll
 api_name:
- - SHGetThreadRef
+- SHGetThreadRef
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:synchapi.TryAcquireSRWLockExclusive
 title: TryAcquireSRWLockExclusive function (synchapi.h)
-
 description: Attempts to acquire a slim reader/writer (SRW) lock in exclusive mode. If the call is successful, the calling thread takes ownership of the lock.
 old-location: base\tryacquiresrwlockexclusive.htm
 tech.root: Sync
 ms.assetid: 0de41cb0-5b37-4ac7-9ba2-e9e3d69e34af
-
 ms.date: 12/05/2018
 ms.keywords: TryAcquireSRWLockExclusive, TryAcquireSRWLockExclusive function, base.tryacquiresrwlockexclusive, synchapi/TryAcquireSRWLockExclusive, winbase/TryAcquireSRWLockExclusive
 ms.topic: function
-f1_keywords: 
- - "synchapi/TryAcquireSRWLockExclusive"
+f1_keywords:
+- synchapi/TryAcquireSRWLockExclusive
 dev_langs:
- - c++
+- c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-Synch-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Synch-l1-2-0.dll
- - API-MS-Win-Core-Synch-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- kernel32.dll
+- API-MS-Win-Core-Synch-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Synch-l1-2-0.dll
+- API-MS-Win-Core-Synch-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - TryAcquireSRWLockExclusive
+- TryAcquireSRWLockExclusive
 targetos: Windows
 req.typenames: 
 req.redist: 

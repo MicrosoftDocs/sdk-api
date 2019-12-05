@@ -3,14 +3,13 @@ UID: NF:gdiplusgraphics.Graphics.DrawRectangle(IN const Pen,IN const RectF &)
 title: Graphics::DrawRectangle
 description: The Graphics::DrawRectangle method draws a rectangle.
 ms.assetid: cf3f26ad-2aec-4986-a884-95763e63013e
-
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawRectangle
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusgraphics/Graphics::DrawRectangle"
+f1_keywords:
+- gdiplusgraphics/Graphics::DrawRectangle
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusgraphics.h
+- gdiplusgraphics.h
 api_name:
- - Graphics::DrawRectangle
+- Graphics::DrawRectangle
 ---
 
 # DrawRectangle(Pen*,RectF&)

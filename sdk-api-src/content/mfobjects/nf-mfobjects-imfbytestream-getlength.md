@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFByteStream.GetLength
 title: IMFByteStream::GetLength (mfobjects.h)
-
 description: Retrieves the length of the stream.
 old-location: mf\imfbytestream_getlength.htm
 tech.root: medfound
 ms.assetid: 6fb817a6-5b43-4716-a997-bbd8a0b9305d
-
 ms.date: 12/05/2018
 ms.keywords: 6fb817a6-5b43-4716-a997-bbd8a0b9305d, GetLength, GetLength method [Media Foundation], GetLength method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],GetLength method, IMFByteStream.GetLength, IMFByteStream::GetLength, mf.imfbytestream_getlength, mfobjects/IMFByteStream::GetLength
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFByteStream.GetLength"
+f1_keywords:
+- mfobjects/IMFByteStream.GetLength
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFByteStream.GetLength
+- IMFByteStream.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 

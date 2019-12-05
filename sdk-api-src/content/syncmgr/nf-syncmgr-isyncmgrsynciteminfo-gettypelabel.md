@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItemInfo.GetTypeLabel
 title: ISyncMgrSyncItemInfo::GetTypeLabel (syncmgr.h)
-
 description: Gets a label for the item type. This typically provides the model of the device or an equivalent item-specific identity string.
 old-location: shell\ISyncMgrSyncItemInfo_GetTypeLabel.htm
 tech.root: shell
 ms.assetid: f93e929f-c25b-4511-9478-57686f9e205b
-
 ms.date: 12/05/2018
 ms.keywords: GetTypeLabel, GetTypeLabel method [Windows Shell], GetTypeLabel method [Windows Shell],ISyncMgrSyncItemInfo interface, ISyncMgrSyncItemInfo interface [Windows Shell],GetTypeLabel method, ISyncMgrSyncItemInfo.GetTypeLabel, ISyncMgrSyncItemInfo::GetTypeLabel, _shell_ISyncMgrSyncItemInfo_GetTypeLabel, shell.ISyncMgrSyncItemInfo_GetTypeLabel, syncmgr/ISyncMgrSyncItemInfo::GetTypeLabel
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrSyncItemInfo.GetTypeLabel"
+f1_keywords:
+- syncmgr/ISyncMgrSyncItemInfo.GetTypeLabel
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrSyncItemInfo.GetTypeLabel
+- ISyncMgrSyncItemInfo.GetTypeLabel
 targetos: Windows
 req.typenames: 
 req.redist: 

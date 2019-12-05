@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMalloc.Alloc
 title: IMalloc::Alloc (objidl.h)
-
 description: Allocates a block of memory.
 old-location: com\imalloc_alloc.htm
 tech.root: com
 ms.assetid: c9c9bdac-965f-4b18-9338-28a025930480
-
 ms.date: 12/05/2018
 ms.keywords: Alloc, Alloc method [COM], Alloc method [COM],IMalloc interface, IMalloc interface [COM],Alloc method, IMalloc.Alloc, IMalloc::Alloc, _com_imalloc_alloc, com.imalloc_alloc, objidl/IMalloc::Alloc
 ms.topic: method
-f1_keywords: 
- - "objidl/IMalloc.Alloc"
+f1_keywords:
+- objidl/IMalloc.Alloc
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMalloc.Alloc
+- IMalloc.Alloc
 targetos: Windows
 req.typenames: 
 req.redist: 

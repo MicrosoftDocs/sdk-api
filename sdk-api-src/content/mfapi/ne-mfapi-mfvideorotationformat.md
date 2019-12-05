@@ -1,19 +1,17 @@
 ---
 UID: NE:mfapi._MFVideoRotationFormat
 title: MFVideoRotationFormat (mfapi.h)
-
 description: Describes the rotation of the video image in the counter-clockwise direction.
 old-location: mf\mfvideorotationformat.htm
 tech.root: medfound
 ms.assetid: E2760742-3914-4B5C-87FB-38F2EF3025C3
-
 ms.date: 12/05/2018
 ms.keywords: MFVideoRotationFormat, MFVideoRotationFormat enumeration [Media Foundation], MFVideoRotationFormat_0, MFVideoRotationFormat_180, MFVideoRotationFormat_270, MFVideoRotationFormat_90, mf.mfvideorotationformat, mfapi/MFVideoRotationFormat, mfapi/MFVideoRotationFormat_0, mfapi/MFVideoRotationFormat_180, mfapi/MFVideoRotationFormat_270, mfapi/MFVideoRotationFormat_90
 ms.topic: enum
-f1_keywords: 
- - "mfapi/MFVideoRotationFormat"
+f1_keywords:
+- mfapi/MFVideoRotationFormat
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - MFVideoRotationFormat
+- MFVideoRotationFormat
 targetos: Windows
 req.typenames: MFVideoRotationFormat
 req.redist: 

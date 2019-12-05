@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite.IDWriteTextAnalysisSource
 title: IDWriteTextAnalysisSource (dwrite.h)
-
 description: Implemented by the text analyzer's client to provide text to the analyzer.
 old-location: directwrite\idwritetextanalysissource.htm
 tech.root: DirectWrite
 ms.assetid: 7e2a523d-9191-4f99-9e73-a7955c432126
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextAnalysisSource, IDWriteTextAnalysisSource interface [Direct Write], IDWriteTextAnalysisSource interface [Direct Write],described, directwrite.idwritetextanalysissource, dwrite/IDWriteTextAnalysisSource
 ms.topic: interface
-f1_keywords: 
- - "dwrite/IDWriteTextAnalysisSource"
+f1_keywords:
+- dwrite/IDWriteTextAnalysisSource
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextAnalysisSource
+- IDWriteTextAnalysisSource
 targetos: Windows
 req.typenames: 
 req.redist: 

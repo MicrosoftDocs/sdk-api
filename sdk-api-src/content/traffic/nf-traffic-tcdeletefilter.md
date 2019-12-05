@@ -1,19 +1,17 @@
 ---
 UID: NF:traffic.TcDeleteFilter
 title: TcDeleteFilter function (traffic.h)
-
 description: The TcDeleteFilter function deletes a filter previously added with the TcAddFilter function.
 old-location: qos\tcdeletefilter.htm
 tech.root: QOS
 ms.assetid: 3a9eaffc-78d8-4473-a2d3-c060b104abd3
-
 ms.date: 12/05/2018
 ms.keywords: TcDeleteFilter, TcDeleteFilter function [QOS], _gqos_tcdeletefilter, qos.tcdeletefilter, traffic/TcDeleteFilter
 ms.topic: function
-f1_keywords: 
- - "traffic/TcDeleteFilter"
+f1_keywords:
+- traffic/TcDeleteFilter
 dev_langs:
- - c++
+- c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Traffic.lib
 req.dll: Traffic.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Traffic.dll
+- Traffic.dll
 api_name:
- - TcDeleteFilter
+- TcDeleteFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

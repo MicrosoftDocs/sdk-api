@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumTfInputProcessorProfiles.Clone
 title: IEnumTfInputProcessorProfiles::Clone (msctf.h)
-
 description: The IEnumTfInputProcessorProfiles::Clone method creates a copy of the enumerator object.
 old-location: tsf\ienumtfinputprocessorprofiles_clone.htm
 tech.root: TSF
 ms.assetid: 485c27ac-20da-4974-832c-8305d18b2c4b
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfInputProcessorProfiles interface, IEnumTfInputProcessorProfiles interface [Text Services Framework],Clone method, IEnumTfInputProcessorProfiles.Clone, IEnumTfInputProcessorProfiles::Clone, msctf/IEnumTfInputProcessorProfiles::Clone, tsf.ienumtfinputprocessorprofiles_clone
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumTfInputProcessorProfiles.Clone"
+f1_keywords:
+- msctf/IEnumTfInputProcessorProfiles.Clone
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - IEnumTfInputProcessorProfiles.Clone
+- IEnumTfInputProcessorProfiles.Clone
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

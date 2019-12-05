@@ -1,19 +1,17 @@
 ---
 UID: NN:cscobj.IOfflineFilesGhostInfo
 title: IOfflineFilesGhostInfo (cscobj.h)
-
 description: Represents the ghosting status of an item in the Offline Files cache.
 old-location: of\iofflinefilesghostinfo.htm
 tech.root: offlinefiles
 ms.assetid: bb71bc95-049d-4ade-ad10-c33b0bf739ce
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesGhostInfo, IOfflineFilesGhostInfo interface [Offline Files], IOfflineFilesGhostInfo interface [Offline Files],described, cscobj/IOfflineFilesGhostInfo, of.iofflinefilesghostinfo
 ms.topic: interface
-f1_keywords: 
- - "cscobj/IOfflineFilesGhostInfo"
+f1_keywords:
+- cscobj/IOfflineFilesGhostInfo
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesGhostInfo
+- IOfflineFilesGhostInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrm.IFsrmCollection.get_State
 title: IFsrmCollection::get_State (fsrm.h)
-
 description: Retrieves the state of the collection.
 old-location: fsrm\ifsrmcollection_state.htm
 tech.root: fsrm
 ms.assetid: c12c55c1-baff-4810-ad2a-453abb6af5b5
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmCollection interface [File Server Resource Manager],State property, IFsrmCollection.State, IFsrmCollection.get_State, IFsrmCollection::State, IFsrmCollection::get_State, State property [File Server Resource Manager], State property [File Server Resource Manager],IFsrmCollection interface, fs.ifsrmcollection_state, fsrm.ifsrmcollection_state, fsrm/IFsrmCollection::State, fsrm/IFsrmCollection::get_State, get_State
 ms.topic: method
-f1_keywords: 
- - "fsrm/IFsrmCollection.State"
+f1_keywords:
+- fsrm/IFsrmCollection.State
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmCollection.State
- - IFsrmCollection.get_State
+- IFsrmCollection.State
+- IFsrmCollection.get_State
 targetos: Windows
 req.typenames: 
 req.redist: 

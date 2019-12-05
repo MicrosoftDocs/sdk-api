@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IFileDialog
 title: IFileDialog (shobjidl_core.h)
-
 description: Exposes methods that initialize, show, and get results from the common file dialog.
 old-location: shell\IFileDialog.htm
 tech.root: shell
 ms.assetid: 9341bb68-2410-4e03-8acd-fef29287b61c
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialog, IFileDialog interface [Windows Shell], IFileDialog interface [Windows Shell],described, shell.IFileDialog, shell_IFileDialog, shobjidl_core/IFileDialog
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IFileDialog"
+f1_keywords:
+- shobjidl_core/IFileDialog
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialog
+- IFileDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

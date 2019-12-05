@@ -1,19 +1,17 @@
 ---
 UID: NS:dvp._DDVIDEOPORTDESC
 title: DDVIDEOPORTDESC (dvp.h)
-
 description: The DDVIDEOPORTDESC structure describes the video port extensions (VPE) object being created.
 old-location: display\ddvideoportdesc.htm
 tech.root: display
 ms.assetid: efd5907c-ed75-40be-b568-7c305310f79b
-
 ms.date: 12/05/2018
 ms.keywords: '*LPDDVIDEOPORTDESC, DDVIDEOPORTDESC, DDVIDEOPORTDESC structure [Display Devices], ddstrcts_4fab2afd-4b57-49cc-b288-3ff8af49c3ba.xml, display.ddvideoportdesc, dvp/DDVIDEOPORTDESC'
 ms.topic: struct
 f1_keywords:
 - dvp/DDVIDEOPORTDESC
 dev_langs:
- - c++
+- c++
 req.header: dvp.h
 req.include-header: Dvp.h
 req.target-type: Windows

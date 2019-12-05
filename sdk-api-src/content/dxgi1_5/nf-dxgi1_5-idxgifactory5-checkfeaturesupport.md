@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_5.IDXGIFactory5.CheckFeatureSupport
 title: IDXGIFactory5::CheckFeatureSupport (dxgi1_5.h)
-
 description: Used to check for hardware feature support.
 old-location: direct3ddxgi\idxgifactory5_checkfeaturesupport.htm
 tech.root: direct3ddxgi
 ms.assetid: 959F83F8-ADC6-4609-8F63-BEDDFC2EF088
-
 ms.date: 12/05/2018
 ms.keywords: CheckFeatureSupport, CheckFeatureSupport method [DXGI], CheckFeatureSupport method [DXGI],IDXGIFactory5 interface, IDXGIFactory5 interface [DXGI],CheckFeatureSupport method, IDXGIFactory5.CheckFeatureSupport, IDXGIFactory5::CheckFeatureSupport, direct3ddxgi.idxgifactory5_checkfeaturesupport, dxgi1_5/IDXGIFactory5::CheckFeatureSupport
 ms.topic: method
-f1_keywords: 
- - "dxgi1_5/IDXGIFactory5.CheckFeatureSupport"
+f1_keywords:
+- dxgi1_5/IDXGIFactory5.CheckFeatureSupport
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIFactory5.CheckFeatureSupport
+- IDXGIFactory5.CheckFeatureSupport
 targetos: Windows
 req.typenames: 
 req.redist: 

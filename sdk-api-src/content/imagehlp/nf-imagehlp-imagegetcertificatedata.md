@@ -1,19 +1,17 @@
 ---
 UID: NF:imagehlp.ImageGetCertificateData
 title: ImageGetCertificateData function (imagehlp.h)
-
 description: Retrieves a complete certificate from a file.
 old-location: base\imagegetcertificatedata.htm
 tech.root: Debug
 ms.assetid: ca4cf3a3-9324-4784-a6d8-44692f4840eb
-
 ms.date: 12/05/2018
 ms.keywords: ImageGetCertificateData, ImageGetCertificateData function, _win32_imagegetcertificatedata, base.imagegetcertificatedata, imagehlp/ImageGetCertificateData
 ms.topic: function
-f1_keywords: 
- - "imagehlp/ImageGetCertificateData"
+f1_keywords:
+- imagehlp/ImageGetCertificateData
 dev_langs:
- - c++
+- c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Imagehlp.lib
 req.dll: Imagehlp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imagehlp.dll
+- Imagehlp.dll
 api_name:
- - ImageGetCertificateData
+- ImageGetCertificateData
 targetos: Windows
 req.typenames: 
 req.redist: 

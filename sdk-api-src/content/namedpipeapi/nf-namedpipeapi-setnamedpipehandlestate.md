@@ -1,19 +1,17 @@
 ---
 UID: NF:namedpipeapi.SetNamedPipeHandleState
 title: SetNamedPipeHandleState function (namedpipeapi.h)
-
 description: Sets the read mode and the blocking mode of the specified named pipe. If the specified handle is to the client end of a named pipe and if the named pipe server process is on a remote computer, the function can also be used to control local buffering.
 old-location: base\setnamedpipehandlestate.htm
 tech.root: ipc
 ms.assetid: 1e62c98e-cecb-4f42-9269-e58ca69e5d39
-
 ms.date: 12/05/2018
 ms.keywords: PIPE_NOWAIT, PIPE_READMODE_BYTE, PIPE_READMODE_MESSAGE, PIPE_WAIT, SetNamedPipeHandleState, SetNamedPipeHandleState function, _win32_setnamedpipehandlestate, base.setnamedpipehandlestate, namedpipeapi/SetNamedPipeHandleState
 ms.topic: function
-f1_keywords: 
- - "namedpipeapi/SetNamedPipeHandleState"
+f1_keywords:
+- namedpipeapi/SetNamedPipeHandleState
 dev_langs:
- - c++
+- c++
 req.header: namedpipeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-NamedPipe-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-NamedPipe-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-NamedPipe-l1-2-1.dll
- - API-MS-Win-Core-NamedPipe-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-NamedPipe-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-NamedPipe-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-NamedPipe-l1-2-1.dll
+- API-MS-Win-Core-NamedPipe-L1-2-2.dll
 api_name:
- - SetNamedPipeHandleState
+- SetNamedPipeHandleState
 targetos: Windows
 req.typenames: 
 req.redist: 

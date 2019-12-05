@@ -1,19 +1,17 @@
 ---
 UID: NS:fwptypes.FWP_CONDITION_VALUE0_
 title: FWP_CONDITION_VALUE0 (fwptypes.h)
-
 description: Contains values that are used in filter conditions when testing for matching filters.
 old-location: fwp\fwp_condition_value0.htm
 tech.root: fwp
 ms.assetid: edc34005-dbc1-45a4-b6c7-fbb8b13fa388
-
 ms.date: 12/05/2018
 ms.keywords: FWP_CONDITION_VALUE0, FWP_CONDITION_VALUE0 structure [Filtering], fwp.fwp_condition_value0, fwptypes/FWP_CONDITION_VALUE0
 ms.topic: struct
-f1_keywords: 
- - "fwptypes/FWP_CONDITION_VALUE0"
+f1_keywords:
+- fwptypes/FWP_CONDITION_VALUE0
 dev_langs:
- - c++
+- c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwptypes.h
+- Fwptypes.h
 api_name:
- - FWP_CONDITION_VALUE0
+- FWP_CONDITION_VALUE0
 targetos: Windows
 req.typenames: FWP_CONDITION_VALUE0
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ktmw32.RenameTransactionManager
 title: RenameTransactionManager function (ktmw32.h)
-
 description: Renames a transaction manager (TM) object. This function can only be used on named TM handles.
 old-location: fs\renametransactionmanager.htm
 tech.root: ktm
 ms.assetid: 2767e689-1342-458f-a215-a29d774c0648
-
 ms.date: 12/05/2018
 ms.keywords: RenameTransactionManager, RenameTransactionManager function [Files], fs.renametransactionmanager, ktmw32/RenameTransactionManager
 ms.topic: function
-f1_keywords: 
- - "ktmw32/RenameTransactionManager"
+f1_keywords:
+- ktmw32/RenameTransactionManager
 dev_langs:
- - c++
+- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: KtmW32.lib
 req.dll: KtmW32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - KtmW32.dll
+- KtmW32.dll
 api_name:
- - RenameTransactionManager
+- RenameTransactionManager
 targetos: Windows
 req.typenames: 
 req.redist: 

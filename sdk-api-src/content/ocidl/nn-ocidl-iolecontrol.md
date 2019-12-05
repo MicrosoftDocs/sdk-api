@@ -1,19 +1,17 @@
 ---
 UID: NN:ocidl.IOleControl
 title: IOleControl (ocidl.h)
-
 description: Provides the features for supporting keyboard mnemonics, ambient properties, and events in control objects.
 old-location: com\iolecontrol.htm
 tech.root: com
 ms.assetid: ef85dce6-b680-4a72-9277-4cfdab27cbbc
-
 ms.date: 12/05/2018
 ms.keywords: IOleControl, IOleControl interface [COM], IOleControl interface [COM],described, _ctrl_iolecontrol, com.iolecontrol, ocidl/IOleControl
 ms.topic: interface
-f1_keywords: 
- - "ocidl/IOleControl"
+f1_keywords:
+- ocidl/IOleControl
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleControl
+- IOleControl
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.QuerySecurityContextToken
 title: QuerySecurityContextToken function (sspi.h)
-
 description: Obtains the access token for a client security context and uses it directly.
 old-location: security\querysecuritycontexttoken.htm
 tech.root: SecAuthN
 ms.assetid: 5dc23608-9ce3-4fee-8161-2e409cef4063
-
 ms.date: 12/05/2018
 ms.keywords: QuerySecurityContextToken, QuerySecurityContextToken function [Security], _ssp_querysecuritycontexttoken, security.querysecuritycontexttoken, sspi/QuerySecurityContextToken
 ms.topic: function
-f1_keywords: 
- - "sspi/QuerySecurityContextToken"
+f1_keywords:
+- sspi/QuerySecurityContextToken
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Secur32.dll
+- Secur32.dll
 api_name:
- - QuerySecurityContextToken
+- QuerySecurityContextToken
 targetos: Windows
 req.typenames: 
 req.redist: 

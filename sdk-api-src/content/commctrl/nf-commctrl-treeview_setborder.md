@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_SetBorder
 title: TreeView_SetBorder macro (commctrl.h)
-
 description: Sets the size of the border for the items in a tree-view control. You can use this macro or send the TVM_SETBORDER message explicitly.
 old-location: controls\TreeView_SetBorder.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setborder.htm
-
 ms.date: 12/05/2018
 ms.keywords: TVSBF_XBORDER, TVSBF_YBORDER, TreeView_SetBorder, TreeView_SetBorder macro [Windows Controls], _win32_TreeView_SetBorder, _win32_TreeView_SetBorder_cpp, commctrl/TreeView_SetBorder, controls.TreeView_SetBorder, controls._win32_TreeView_SetBorder
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_SetBorder"
+f1_keywords:
+- commctrl/TreeView_SetBorder
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_SetBorder
+- TreeView_SetBorder
 targetos: Windows
 req.typenames: 
 req.redist: 

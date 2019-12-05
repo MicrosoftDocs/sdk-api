@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.MoveItem
 title: ITransferSource::MoveItem (shobjidl_core.h)
-
 description: Moves the item within the volume/namespace, returning the IShellItem in its new location.
 old-location: shell\ITransferSource_MoveItem.htm
 tech.root: shell
 ms.assetid: de59291c-12ad-4639-bc10-d8416a979eb7
-
 ms.date: 12/05/2018
 ms.keywords: ITransferSource interface [Windows Shell],MoveItem method, ITransferSource.MoveItem, ITransferSource::MoveItem, MoveItem, MoveItem method [Windows Shell], MoveItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_MoveItem, shell.ITransferSource_MoveItem, shobjidl_core/ITransferSource::MoveItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITransferSource.MoveItem"
+f1_keywords:
+- shobjidl_core/ITransferSource.MoveItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ITransferSource.MoveItem
+- ITransferSource.MoveItem
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents2.DeviceStatusChange
 title: IWMPEvents2::DeviceStatusChange (wmp.h)
-
 description: The DeviceStatusChange event occurs when the partnership status of a device changes.
 old-location: wmp\iwmpevents2_iwmpevents2__devicestatuschange.htm
 tech.root: WMP
 ms.assetid: f9781dde-e813-4e2d-820d-5a0803bfbe4e
-
 ms.date: 12/05/2018
 ms.keywords: DeviceStatusChange, DeviceStatusChange method [Windows Media Player], DeviceStatusChange method [Windows Media Player],IWMPEvents2 interface, IWMPEvents2 interface [Windows Media Player],DeviceStatusChange method, IWMPEvents2.DeviceStatusChange, IWMPEvents2::DeviceStatusChange, IWMPEvents2DeviceStatusChange, wmp.iwmpevents2_iwmpevents2__devicestatuschange, wmp/IWMPEvents2::DeviceStatusChange
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents2.DeviceStatusChange"
+f1_keywords:
+- wmp/IWMPEvents2.DeviceStatusChange
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents2.DeviceStatusChange
+- IWMPEvents2.DeviceStatusChange
 targetos: Windows
 req.typenames: 
 req.redist: 

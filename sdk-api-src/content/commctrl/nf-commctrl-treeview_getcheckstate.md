@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_GetCheckState
 title: TreeView_GetCheckState macro (commctrl.h)
-
 description: Gets the check state of the specified item. You can also use the TVM_GETITEMSTATE message directly.
 old-location: controls\TreeView_GetCheckState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getcheckstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetCheckState, TreeView_GetCheckState macro [Windows Controls], _win32_TreeView_GetCheckState, _win32_TreeView_GetCheckState_cpp, commctrl/TreeView_GetCheckState, controls.TreeView_GetCheckState, controls._win32_TreeView_GetCheckState
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_GetCheckState"
+f1_keywords:
+- commctrl/TreeView_GetCheckState
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_GetCheckState
+- TreeView_GetCheckState
 targetos: Windows
 req.typenames: 
 req.redist: 

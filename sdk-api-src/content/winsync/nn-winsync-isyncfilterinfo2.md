@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.ISyncFilterInfo2
 title: ISyncFilterInfo2 (winsync.h)
-
 description: Represents additional information about a filter that can be used to control which changes are included in an ISyncChangeBatch object.
 old-location: winsync\isyncfilterinfo2.htm
 tech.root: winsync
 ms.assetid: b1ffc6a7-ca82-4ce6-b7ac-c4c39c59891d
-
 ms.date: 12/05/2018
 ms.keywords: ISyncFilterInfo2, ISyncFilterInfo2 interface [Windows Sync], ISyncFilterInfo2 interface [Windows Sync],described, winsync.isyncfilterinfo2, winsync/ISyncFilterInfo2
 ms.topic: interface
-f1_keywords: 
- - "winsync/ISyncFilterInfo2"
+f1_keywords:
+- winsync/ISyncFilterInfo2
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncFilterInfo2
+- ISyncFilterInfo2
 targetos: Windows
 req.typenames: 
 req.redist: 

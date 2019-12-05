@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.SafeArraySetIID
 title: SafeArraySetIID function (oleauto.h)
-
 description: Sets the GUID of the interface for the specified safe array.
 old-location: automat\safearraysetiid.htm
 tech.root: automat
 ms.assetid: 851b8a44-9da4-418c-88bc-80c9fc55d25c
-
 ms.date: 12/05/2018
 ms.keywords: SafeArraySetIID, SafeArraySetIID function [Automation], _oa96_SafeArraySetIID, automat.safearraysetiid, oleauto/SafeArraySetIID
 ms.topic: function
-f1_keywords: 
- - "oleauto/SafeArraySetIID"
+f1_keywords:
+- oleauto/SafeArraySetIID
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - SafeArraySetIID
+- SafeArraySetIID
 targetos: Windows
 req.typenames: 
 req.redist: 

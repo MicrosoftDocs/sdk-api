@@ -1,7 +1,6 @@
 ---
 UID: TP:serports
 ms.assetid: a99541fb-a2d1-3e81-9efd-97d9eecc1ed4
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

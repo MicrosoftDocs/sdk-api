@@ -1,19 +1,17 @@
 ---
 UID: NE:functiondiscoveryconstraints.tagPropertyConstraint
 title: PropertyConstraint (functiondiscoveryconstraints.h)
-
 description: Qualifies the filter conditions used for searching for function instances.
 old-location: ncd\propertyconstraint.htm
 tech.root: FunDisc
 ms.assetid: 59a3d957-0720-4bd9-b240-512b9cca3c90
-
 ms.date: 12/05/2018
 ms.keywords: PropertyConstraint, PropertyConstraint enumeration, QC_CONTAINS, QC_DOESNOTEXIST, QC_EQUALS, QC_EXISTS, QC_GREATERTHAN, QC_GREATERTHANOREQUAL, QC_LESSTHAN, QC_LESSTHANOREQUAL, QC_NOTEQUAL, QC_STARTSWITH, functiondiscoveryconstraints/PropertyConstraint, functiondiscoveryconstraints/QC_CONTAINS, functiondiscoveryconstraints/QC_DOESNOTEXIST, functiondiscoveryconstraints/QC_EQUALS, functiondiscoveryconstraints/QC_EXISTS, functiondiscoveryconstraints/QC_GREATERTHAN, functiondiscoveryconstraints/QC_GREATERTHANOREQUAL, functiondiscoveryconstraints/QC_LESSTHAN, functiondiscoveryconstraints/QC_LESSTHANOREQUAL, functiondiscoveryconstraints/QC_NOTEQUAL, functiondiscoveryconstraints/QC_STARTSWITH, ncd.propertyconstraint, tagPropertyConstraint
 ms.topic: enum
-f1_keywords: 
- - "functiondiscoveryconstraints/PropertyConstraint"
+f1_keywords:
+- functiondiscoveryconstraints/PropertyConstraint
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryconstraints.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FunctionDiscoveryConstraints.h
+- FunctionDiscoveryConstraints.h
 api_name:
- - PropertyConstraint
+- PropertyConstraint
 targetos: Windows
 req.typenames: PropertyConstraint
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Font.GetHeight(IN REAL)
 title: Font::GetHeight(IN REAL) (gdiplusheaders.h)
-
 description: The Font::GetHeight method gets the line spacing, in pixels, of this font.
 old-location: gdiplus\_gdiplus_CLASS_Font_GetHeight_dpi_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\fontgetheightmethods\getheight_84dpi.htm
-
 ms.date: 12/05/2018
 ms.keywords: Font class [GDI+],GetHeight method, Font.GetHeight, Font.GetHeight(IN REAL), Font.GetHeight(REAL), Font::GetHeight, Font::GetHeight(IN REAL), GetHeight, GetHeight method [GDI+], GetHeight method [GDI+],Font class, _gdiplus_CLASS_Font_GetHeight_dpi_, gdiplus._gdiplus_CLASS_Font_GetHeight_dpi_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Font.GetHeight"
+f1_keywords:
+- gdiplusheaders/Font.GetHeight
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Font.GetHeight
+- Font.GetHeight
 targetos: Windows
 req.typenames: 
 req.redist: 

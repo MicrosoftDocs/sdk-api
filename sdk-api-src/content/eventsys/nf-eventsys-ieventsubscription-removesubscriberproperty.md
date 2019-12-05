@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventSubscription.RemoveSubscriberProperty
 title: IEventSubscription::RemoveSubscriberProperty (eventsys.h)
-
 description: Removes a property and its value from the property bag that defines subscriber context.
 old-location: cos\ieventsubscription_removesubscriberproperty.htm
 tech.root: cossdk
 ms.assetid: 3c0cd763-8528-4f8b-8a09-c36860cad9b7
-
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription interface [COM+],RemoveSubscriberProperty method, IEventSubscription.RemoveSubscriberProperty, IEventSubscription::RemoveSubscriberProperty, RemoveSubscriberProperty, RemoveSubscriberProperty method [COM+], RemoveSubscriberProperty method [COM+],IEventSubscription interface, _cos_IEventSubscription_RemoveSubscriberProperty, cos.ieventsubscription_removesubscriberproperty, eventsys/IEventSubscription::RemoveSubscriberProperty
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventSubscription.RemoveSubscriberProperty"
+f1_keywords:
+- eventsys/IEventSubscription.RemoveSubscriberProperty
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IEventSubscription.RemoveSubscriberProperty
+- IEventSubscription.RemoveSubscriberProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

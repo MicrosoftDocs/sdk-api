@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStylesPattern.get_CachedFillColor
 title: IUIAutomationStylesPattern::get_CachedFillColor (uiautomationclient.h)
-
 description: Retrieves the cached fill color of an element in a document.
 old-location: winauto\uiauto_IUIAutomationStylesPattern_CachedFillColor.htm
 tech.root: WinAuto
 ms.assetid: 6623D66E-E79C-4E50-BC5F-B2B226B1FC65
-
 ms.date: 12/05/2018
 ms.keywords: CachedFillColor property [Windows Accessibility], CachedFillColor property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CachedFillColor property, IUIAutomationStylesPattern.CachedFillColor, IUIAutomationStylesPattern.get_CachedFillColor, IUIAutomationStylesPattern::CachedFillColor, IUIAutomationStylesPattern::get_CachedFillColor, get_CachedFillColor, uiautomationclient/IUIAutomationStylesPattern::CachedFillColor, uiautomationclient/IUIAutomationStylesPattern::get_CachedFillColor, winauto.uiauto_IUIAutomationStylesPattern_CachedFillColor
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationStylesPattern.CachedFillColor"
+f1_keywords:
+- uiautomationclient/IUIAutomationStylesPattern.CachedFillColor
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationStylesPattern.CachedFillColor
- - IUIAutomationStylesPattern.get_CachedFillColor
+- IUIAutomationStylesPattern.CachedFillColor
+- IUIAutomationStylesPattern.get_CachedFillColor
 targetos: Windows
 req.typenames: 
 req.redist: 

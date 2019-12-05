@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.get_Description
 title: IRegistrationInfo::get_Description (taskschd.h)
-
 description: Gets or sets the description of the task.
 old-location: taskschd\iregistrationinfo_description.htm
 tech.root: taskschd
 ms.assetid: 03b0f62c-0f2b-4e0a-8518-de3b94f6a197
-
 ms.date: 12/05/2018
 ms.keywords: Description property [Task Scheduler], Description property [Task Scheduler],IRegistrationInfo interface, IRegistrationInfo interface [Task Scheduler],Description property, IRegistrationInfo.Description, IRegistrationInfo.get_Description, IRegistrationInfo::Description, IRegistrationInfo::get_Description, IRegistrationInfo::put_Description, get_Description, taskschd.iregistrationinfo_description, taskschd/IRegistrationInfo::Description, taskschd/IRegistrationInfo::get_Description, taskschd/IRegistrationInfo::put_Description
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRegistrationInfo.Description"
+f1_keywords:
+- taskschd/IRegistrationInfo.Description
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRegistrationInfo.Description
- - IRegistrationInfo.get_Description
- - IRegistrationInfo.put_Description
+- IRegistrationInfo.Description
+- IRegistrationInfo.get_Description
+- IRegistrationInfo.put_Description
 targetos: Windows
 req.typenames: 
 req.redist: 

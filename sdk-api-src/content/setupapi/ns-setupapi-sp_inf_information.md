@@ -1,19 +1,17 @@
 ---
 UID: NS:setupapi._SP_INF_INFORMATION
 title: SP_INF_INFORMATION (setupapi.h)
-
 description: The SP_INF_INFORMATION structure stores information about an INF file, including the style, number of constituent INF files, and version data.
 old-location: setup\sp_inf_information_str.htm
 tech.root: SetupApi
 ms.assetid: 1fb08456-bc84-41a1-9f02-8fb499801831
-
 ms.date: 12/05/2018
-ms.keywords: "*PSP_INF_INFORMATION, INF_STYLE_NONE, INF_STYLE_OLDNT, INF_STYLE_WIN4, PSP_INF_INFORMATION, PSP_INF_INFORMATION structure pointer [Setup API], SP_INF_INFORMATION, SP_INF_INFORMATION structure [Setup API], _setupapi_sp_inf_information_str, setup.sp_inf_information_str, setupapi/PSP_INF_INFORMATION, setupapi/SP_INF_INFORMATION"
+ms.keywords: '*PSP_INF_INFORMATION, INF_STYLE_NONE, INF_STYLE_OLDNT, INF_STYLE_WIN4, PSP_INF_INFORMATION, PSP_INF_INFORMATION structure pointer [Setup API], SP_INF_INFORMATION, SP_INF_INFORMATION structure [Setup API], _setupapi_sp_inf_information_str, setup.sp_inf_information_str, setupapi/PSP_INF_INFORMATION, setupapi/SP_INF_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "setupapi/SP_INF_INFORMATION"
+f1_keywords:
+- setupapi/SP_INF_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Setupapi.h
+- Setupapi.h
 api_name:
- - SP_INF_INFORMATION
+- SP_INF_INFORMATION
 targetos: Windows
 req.typenames: SP_INF_INFORMATION, *PSP_INF_INFORMATION
 req.redist: 

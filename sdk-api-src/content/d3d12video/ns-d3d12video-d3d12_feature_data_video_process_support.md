@@ -1,40 +1,38 @@
 ---
 UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_PROCESS_SUPPORT
 title: D3D12_FEATURE_DATA_VIDEO_PROCESS_SUPPORT
-
 description: Provides data for calls to ID3D12VideoDevice::CheckFeatureSupport when the feature specified is D3D12_FEATURE_VIDEO_PROCESS_SUPPORT.
 tech.root: mf
 ms.assetid: 29911ed2-9509-4fbd-8e18-c7b5a9e2d397
-
-ms.date: 05/28/2019 
+ms.date: 05/28/2019
 ms.topic: struct
 f1_keywords:
- - D3D12_FEATURE_DATA_VIDEO_PROCESS_SUPPORT
+- D3D12_FEATURE_DATA_VIDEO_PROCESS_SUPPORT
 dev_langs:
- - c++
-ms.keywords: D3D12_FEATURE_DATA_VIDEO_PROCESS_SUPPORT, D3D12_FEATURE_DATA_VIDEO_PROCESS_SUPPORT, 
+- c++
+ms.keywords: D3D12_FEATURE_DATA_VIDEO_PROCESS_SUPPORT, D3D12_FEATURE_DATA_VIDEO_PROCESS_SUPPORT,
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
 req.dll: d3d12.dll
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12_FEATURE_DATA_VIDEO_PROCESS_SUPPORT
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12video.h
-api_name: 
- - D3D12_FEATURE_DATA_VIDEO_PROCESS_SUPPORT
+topic_type:
+- apiref
+api_type:
+- HeaderDef
+api_location:
+- d3d12video.h
+api_name:
+- D3D12_FEATURE_DATA_VIDEO_PROCESS_SUPPORT
 targetos: Windows
 ---
 

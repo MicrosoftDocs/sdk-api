@@ -1,19 +1,17 @@
 ---
 UID: NN:searchapi.IEnumSearchScopeRules
 title: IEnumSearchScopeRules (searchapi.h)
-
 description: Enumerates scope rules.
 old-location: search\_search_IEnumSearchScopeRules.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchscoperules\ienumsearchscoperules.htm
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSearchScopeRules, IEnumSearchScopeRules interface [search], IEnumSearchScopeRules interface [search],described, _search_IEnumSearchScopeRules, search._search_IEnumSearchScopeRules, searchapi/IEnumSearchScopeRules
 ms.topic: interface
-f1_keywords: 
- - "searchapi/IEnumSearchScopeRules"
+f1_keywords:
+- searchapi/IEnumSearchScopeRules
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IEnumSearchScopeRules
+- IEnumSearchScopeRules
 targetos: Windows
 req.typenames: 
 req.redist: 

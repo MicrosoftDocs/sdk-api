@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IPBDASiParser.GetServices
 title: IPBDASiParser::GetServices (dvbsiparser.h)
-
 description: Retrieves a list of services from the program and system information protocol (PSIP) tables in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbdasiparser_getservices.htm
 tech.root: mstv
 ms.assetid: 0d6848f2-6fcd-4e7c-b1fc-b8f56e6c65b6
-
 ms.date: 12/05/2018
 ms.keywords: GetServices, GetServices method [Microsoft TV Technologies], GetServices method [Microsoft TV Technologies],IPBDASiParser interface, IPBDASiParser interface [Microsoft TV Technologies],GetServices method, IPBDASiParser.GetServices, IPBDASiParser::GetServices, dshow.ipbdasiparser_getservices, dvbsiparser/IPBDASiParser::GetServices, mstv.ipbdasiparser_getservices
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IPBDASiParser.GetServices"
+f1_keywords:
+- dvbsiparser/IPBDASiParser.GetServices
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IPBDASiParser.GetServices
+- IPBDASiParser.GetServices
 targetos: Windows
 req.typenames: 
 req.redist: 

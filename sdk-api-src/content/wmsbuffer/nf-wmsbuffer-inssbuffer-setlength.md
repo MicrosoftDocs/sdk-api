@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsbuffer.INSSBuffer.SetLength
 title: INSSBuffer::SetLength (wmsbuffer.h)
-
 description: The SetLength method specifies the size of the used portion of the buffer.
 old-location: wmformat\inssbuffer_setlength.htm
 tech.root: wmformat
 ms.assetid: 3f0e8d8a-efc7-4f1b-8a42-7907439ed8af
-
 ms.date: 12/05/2018
 ms.keywords: INSSBuffer interface [windows Media Format],SetLength method, INSSBuffer.SetLength, INSSBuffer::SetLength, INSSBufferSetLength, SetLength, SetLength method [windows Media Format], SetLength method [windows Media Format],INSSBuffer interface, wmformat.inssbuffer_setlength, wmsbuffer/INSSBuffer::SetLength
 ms.topic: method
-f1_keywords: 
- - "wmsbuffer/INSSBuffer.SetLength"
+f1_keywords:
+- wmsbuffer/INSSBuffer.SetLength
 dev_langs:
- - c++
+- c++
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - INSSBuffer.SetLength
+- INSSBuffer.SetLength
 targetos: Windows
 req.typenames: 
 req.redist: 

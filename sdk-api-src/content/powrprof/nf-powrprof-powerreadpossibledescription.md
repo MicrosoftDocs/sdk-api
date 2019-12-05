@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.PowerReadPossibleDescription
 title: PowerReadPossibleDescription function (powrprof.h)
-
 description: Retrieves the description for one of the possible choices of a power setting value.
 old-location: base\powerreadpossibledescription.htm
 tech.root: power
 ms.assetid: e803dc6b-706a-49fc-8c8d-ba9b0ccf8491
-
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadPossibleDescription, PowerReadPossibleDescription function, base.powerreadpossibledescription, powrprof/PowerReadPossibleDescription
 ms.topic: function
-f1_keywords: 
- - "powrprof/PowerReadPossibleDescription"
+f1_keywords:
+- powrprof/PowerReadPossibleDescription
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - PowerReadPossibleDescription
+- PowerReadPossibleDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

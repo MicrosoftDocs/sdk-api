@@ -1,19 +1,17 @@
 ---
 UID: NC:webservices.WS_SET_LISTENER_PROPERTY_CALLBACK
 title: WS_SET_LISTENER_PROPERTY_CALLBACK (webservices.h)
-
 description: Handles the WsSetListenerProperty call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_set_listener_property_callback.htm
 tech.root: wsw
 ms.assetid: ed3cc3b3-eeb2-4f70-8e2f-8c25aadac4a9
-
 ms.date: 12/05/2018
 ms.keywords: WS_SET_LISTENER_PROPERTY_CALLBACK, WS_SET_LISTENER_PROPERTY_CALLBACK callback, WS_SET_LISTENER_PROPERTY_CALLBACK callback function [Web Services for Windows], webservices/WS_SET_LISTENER_PROPERTY_CALLBACK, wsw.ws_set_listener_property_callback
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_SET_LISTENER_PROPERTY_CALLBACK"
+f1_keywords:
+- webservices/WS_SET_LISTENER_PROPERTY_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SET_LISTENER_PROPERTY_CALLBACK
+- WS_SET_LISTENER_PROPERTY_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

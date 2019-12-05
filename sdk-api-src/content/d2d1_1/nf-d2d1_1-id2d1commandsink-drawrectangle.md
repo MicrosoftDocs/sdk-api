@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.DrawRectangle
 title: ID2D1CommandSink::DrawRectangle (d2d1_1.h)
-
 description: Draws a rectangle.
 old-location: direct2d\id2d1commandsink_drawrectangle.htm
 tech.root: Direct2D
 ms.assetid: 93c617fb-3c9d-4735-a077-7a3a58033369
-
 ms.date: 12/05/2018
 ms.keywords: DrawRectangle, DrawRectangle method [Direct2D], DrawRectangle method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],DrawRectangle method, ID2D1CommandSink.DrawRectangle, ID2D1CommandSink::DrawRectangle, d2d1_1/ID2D1CommandSink::DrawRectangle, direct2d.id2d1commandsink_drawrectangle
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1CommandSink.DrawRectangle"
+f1_keywords:
+- d2d1_1/ID2D1CommandSink.DrawRectangle
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1CommandSink.DrawRectangle
+- ID2D1CommandSink.DrawRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 

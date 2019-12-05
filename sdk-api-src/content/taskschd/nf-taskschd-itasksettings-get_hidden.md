@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskSettings.get_Hidden
 title: ITaskSettings::get_Hidden (taskschd.h)
-
 description: Gets or sets a Boolean value that indicates that the task will not be visible in the UI.
 old-location: taskschd\itasksettings_hidden.htm
 tech.root: taskschd
 ms.assetid: 05d466e4-26f8-4fde-8c7e-9e16daadc220
-
 ms.date: 12/05/2018
 ms.keywords: Hidden property [Task Scheduler], Hidden property [Task Scheduler],ITaskSettings interface, ITaskSettings interface [Task Scheduler],Hidden property, ITaskSettings.Hidden, ITaskSettings.get_Hidden, ITaskSettings::Hidden, ITaskSettings::get_Hidden, ITaskSettings::put_Hidden, get_Hidden, taskschd.itasksettings_hidden, taskschd/ITaskSettings::Hidden, taskschd/ITaskSettings::get_Hidden, taskschd/ITaskSettings::put_Hidden
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskSettings.Hidden"
+f1_keywords:
+- taskschd/ITaskSettings.Hidden
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskSettings.Hidden
- - ITaskSettings.get_Hidden
- - ITaskSettings.put_Hidden
+- ITaskSettings.Hidden
+- ITaskSettings.get_Hidden
+- ITaskSettings.put_Hidden
 targetos: Windows
 req.typenames: 
 req.redist: 

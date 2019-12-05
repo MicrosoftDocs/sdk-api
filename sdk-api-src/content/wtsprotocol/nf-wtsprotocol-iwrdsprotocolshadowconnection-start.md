@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolShadowConnection.Start
 title: IWRdsProtocolShadowConnection::Start (wtsprotocol.h)
-
 description: Notifies the protocol that shadowing has started.
 old-location: termserv\iwrdsprotocolshadowconnection_start.htm
 tech.root: TermServ
 ms.assetid: 1f7b5811-6aba-41f2-9fa4-2bbc4c6e005c
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolShadowConnection interface [Remote Desktop Services],Start method, IWRdsProtocolShadowConnection.Start, IWRdsProtocolShadowConnection::Start, Start, Start method [Remote Desktop Services], Start method [Remote Desktop Services],IWRdsProtocolShadowConnection interface, termserv.iwrdsprotocolshadowconnection_start, wtsprotocol/IWRdsProtocolShadowConnection::Start
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolShadowConnection.Start"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolShadowConnection.Start
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolShadowConnection.Start
+- IWRdsProtocolShadowConnection.Start
 targetos: Windows
 req.typenames: 
 req.redist: 

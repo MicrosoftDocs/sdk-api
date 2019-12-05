@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHLoadInProc
 title: SHLoadInProc function (shlobj_core.h)
-
 description: Creates an instance of the specified object class from within the context of the Shell's process. Windows Vista and later:\_This function has been disabled and returns E_NOTIMPL.
 old-location: shell\SHLoadInProc.htm
 tech.root: shell
 ms.assetid: 307b99d9-2d0a-47c5-8a10-dfdc0a408942
-
 ms.date: 12/05/2018
 ms.keywords: SHLoadInProc, SHLoadInProc function [Windows Shell], _win32_SHLoadInProc, shell.SHLoadInProc, shlobj_core/SHLoadInProc
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHLoadInProc"
+f1_keywords:
+- shlobj_core/SHLoadInProc
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHLoadInProc
+- SHLoadInProc
 targetos: Windows
 req.typenames: 
 req.redist: 

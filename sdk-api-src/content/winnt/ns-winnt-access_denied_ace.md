@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._ACCESS_DENIED_ACE
 title: ACCESS_DENIED_ACE (winnt.h)
-
 description: Defines an access control entry (ACE) for the discretionary access control list (DACL) that controls access to an object. An access-denied ACE denies access to an object for a specific trustee identified by a security identifier (SID).
 old-location: security\access_denied_ace.htm
 tech.root: SecAuthZ
 ms.assetid: d76a92d0-ccd0-4e73-98b6-43bcd661134d
-
 ms.date: 12/05/2018
 ms.keywords: '*PACCESS_DENIED_ACE, ACCESS_DENIED_ACE, ACCESS_DENIED_ACE structure [Security], PACCESS_DENIED_ACE, PACCESS_DENIED_ACE structure pointer [Security], _ACCESS_DENIED_ACE, _win32_access_denied_ace_str, security.access_denied_ace, winnt/ACCESS_DENIED_ACE, winnt/PACCESS_DENIED_ACE'
 ms.topic: struct
 f1_keywords:
 - winnt/ACCESS_DENIED_ACE
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

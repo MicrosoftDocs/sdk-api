@@ -1,19 +1,17 @@
 ---
 UID: NE:wmiutils.__MIDL___MIDL_itf_wmiutils_0000_0001_0001
 title: WMIQ_ANALYSIS_TYPE (wmiutils.h)
-
 description: Contains constants used to specify the type of analysis to perform by using the GetAnalysis method.
 old-location: wmi\wmiq_analysis_type.htm
 tech.root: WmiSdk
 ms.assetid: 427f5ca7-4172-4bd0-9469-5b2ad1cb4c53
-
 ms.date: 12/05/2018
 ms.keywords: WMIQ_ANALYSIS_ASSOC_QUERY, WMIQ_ANALYSIS_PROP_ANALYSIS_MATRIX, WMIQ_ANALYSIS_QUERY_TEXT, WMIQ_ANALYSIS_RESERVED, WMIQ_ANALYSIS_RPN_SEQUENCE, WMIQ_ANALYSIS_TYPE, WMIQ_ANALYSIS_TYPE enumeration [Windows Management Instrumentation], wmi.wmiq_analysis_type, wmiutils/WMIQ_ANALYSIS_ASSOC_QUERY, wmiutils/WMIQ_ANALYSIS_PROP_ANALYSIS_MATRIX, wmiutils/WMIQ_ANALYSIS_QUERY_TEXT, wmiutils/WMIQ_ANALYSIS_RESERVED, wmiutils/WMIQ_ANALYSIS_RPN_SEQUENCE, wmiutils/WMIQ_ANALYSIS_TYPE
 ms.topic: enum
-f1_keywords: 
- - "wmiutils/WMIQ_ANALYSIS_TYPE"
+f1_keywords:
+- wmiutils/WMIQ_ANALYSIS_TYPE
 dev_langs:
- - c++
+- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WMIUtils.h
+- WMIUtils.h
 api_name:
- - WMIQ_ANALYSIS_TYPE
+- WMIQ_ANALYSIS_TYPE
 targetos: Windows
 req.typenames: WMIQ_ANALYSIS_TYPE
 req.redist: 

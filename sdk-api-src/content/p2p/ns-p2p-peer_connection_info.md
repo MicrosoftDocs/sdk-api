@@ -1,19 +1,17 @@
 ---
 UID: NS:p2p.peer_connection_info_tag
 title: PEER_CONNECTION_INFO (p2p.h)
-
 description: The PEER_CONNECTION_INFO structure contains information about a connection. This structure is returned when you are enumerating peer graphing or grouping connections.
 old-location: p2p\peer_connection_info.htm
 tech.root: P2PSdk
 ms.assetid: 039fa00e-c193-46fd-b7e6-41eb7baeab3e
-
 ms.date: 12/05/2018
 ms.keywords: PEER_CONNECTION_INFO, PEER_CONNECTION_INFO structure [Peer Networking], p2p.peer_connection_info, p2p/peer_connection_info_tag
 ms.topic: struct
-f1_keywords: 
- - "p2p/PEER_CONNECTION_INFO"
+f1_keywords:
+- p2p/PEER_CONNECTION_INFO
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - P2P.h
+- P2P.h
 api_name:
- - PEER_CONNECTION_INFO
+- PEER_CONNECTION_INFO
 targetos: Windows
 req.typenames: PEER_CONNECTION_INFO
 req.redist: 

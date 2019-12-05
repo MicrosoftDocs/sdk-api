@@ -1,19 +1,17 @@
 ---
 UID: NF:commdlg.ReplaceTextA
 title: ReplaceTextA function (commdlg.h)
-
 description: Creates a system-defined modeless dialog box that lets the user specify a string to search for and a replacement string, as well as options to control the find and replace operations.
 old-location: dlgbox\replacetext.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\replacetext.htm
-
 ms.date: 12/05/2018
 ms.keywords: ReplaceText, ReplaceText function [Dialog Boxes], ReplaceTextA, ReplaceTextW, _win32_ReplaceText, _win32_replacetext_cpp, commdlg/ReplaceText, commdlg/ReplaceTextA, commdlg/ReplaceTextW, dlgbox.replacetext, winui._win32_replacetext
 ms.topic: function
-f1_keywords: 
- - "commdlg/ReplaceText"
+f1_keywords:
+- commdlg/ReplaceText
 dev_langs:
- - c++
+- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Comdlg32.lib
 req.dll: Comdlg32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comdlg32.dll
+- Comdlg32.dll
 api_name:
- - ReplaceText
- - ReplaceTextA
- - ReplaceTextW
+- ReplaceText
+- ReplaceTextA
+- ReplaceTextW
 targetos: Windows
 req.typenames: 
 req.redist: 

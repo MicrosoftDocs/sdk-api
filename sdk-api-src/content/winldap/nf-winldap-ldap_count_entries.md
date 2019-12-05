@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_count_entries
 title: ldap_count_entries function (winldap.h)
-
 description: The ldap_count_entries function counts the number of search entries that a server returned.
 old-location: ldap\ldap_count_entries.htm
 tech.root: ldap
 ms.assetid: 6e53b914-2ad8-408a-9671-50a01a8a42f1
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_count_entries, ldap.ldap__count__entries, ldap.ldap_count_entries, ldap_count_entries, ldap_count_entries function [LDAP], winldap/ldap_count_entries"
+ms.keywords: _ldap_ldap_count_entries, ldap.ldap__count__entries, ldap.ldap_count_entries, ldap_count_entries, ldap_count_entries function [LDAP], winldap/ldap_count_entries
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_count_entries"
+f1_keywords:
+- winldap/ldap_count_entries
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_count_entries
+- ldap_count_entries
 targetos: Windows
 req.typenames: 
 req.redist: 

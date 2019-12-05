@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzTask.SetProperty
 title: IAzTask::SetProperty (azroles.h)
-
 description: Sets the specified value to the IAzTask object property with the specified property ID.
 old-location: security\iaztask_setproperty.htm
 tech.root: SecAuthZ
 ms.assetid: 515d23f6-fcd9-4838-8910-2675211dfc48
-
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_DESCRIPTION, AZ_PROP_IS_ROLE_DEFINITION, AZ_PROP_NAME, AZ_PROP_TASK_BIZRULE, AZ_PROP_TASK_BIZRULE_LANGUAGE, AZ_PROP_TASK_IS_ROLE_DEFINITION, AzTask object [Security],SetProperty method, IAzTask interface [Security],SetProperty method, IAzTask.SetProperty, IAzTask::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzTask object, SetProperty method [Security],IAzTask interface, azroles/IAzTask::SetProperty, security.iaztask_setproperty
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzTask.SetProperty"
+f1_keywords:
+- azroles/IAzTask.SetProperty
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzTask.SetProperty
- - AzTask.SetProperty
+- IAzTask.SetProperty
+- AzTask.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

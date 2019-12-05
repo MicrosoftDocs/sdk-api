@@ -1,19 +1,17 @@
 ---
 UID: NF:shimgdata.IShellImageData.Draw
 title: IShellImageData::Draw (shimgdata.h)
-
 description: Draws a decoded image.
 old-location: shell\IShellImageData_Draw.htm
 tech.root: shell
 ms.assetid: 35989c3b-15b9-4503-a883-99df730b2a80
-
 ms.date: 12/05/2018
 ms.keywords: Draw, Draw method [Windows Shell], Draw method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],Draw method, IShellImageData.Draw, IShellImageData::Draw, _shell_IShellImageData_Draw, shell.IShellImageData_Draw, shimgdata/IShellImageData::Draw
 ms.topic: method
-f1_keywords: 
- - "shimgdata/IShellImageData.Draw"
+f1_keywords:
+- shimgdata/IShellImageData.Draw
 dev_langs:
- - c++
+- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellImageData.Draw
+- IShellImageData.Draw
 targetos: Windows
 req.typenames: 
 req.redist: 

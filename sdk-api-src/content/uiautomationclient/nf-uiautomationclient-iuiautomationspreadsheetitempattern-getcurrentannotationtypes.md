@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationTypes
 title: IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationTypes (uiautomationclient.h)
-
 description: Retrieves an array of annotation type identifiers indicating the types of annotations that are associated with this spreadsheet cell.
 old-location: winauto\uiauto_IUIAutomationSpreadsheetItemPattern_GetCurrentAnnotationTypes.htm
 tech.root: WinAuto
 ms.assetid: 779CFE43-8127-4A78-BD1A-8407DA5F49A2
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentAnnotationTypes, GetCurrentAnnotationTypes method [Windows Accessibility], GetCurrentAnnotationTypes method [Windows Accessibility],IUIAutomationSpreadsheetItemPattern interface, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],GetCurrentAnnotationTypes method, IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationTypes, IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationTypes, uiautomationclient/IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationTypes, winauto.uiauto_IUIAutomationSpreadsheetItemPattern_GetCurrentAnnotationTypes
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationTypes"
+f1_keywords:
+- uiautomationclient/IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationTypes
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationTypes
+- IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationTypes
 targetos: Windows
 req.typenames: 
 req.redist: 

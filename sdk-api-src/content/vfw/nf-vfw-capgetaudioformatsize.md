@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capGetAudioFormatSize
 title: capGetAudioFormatSize macro (vfw.h)
-
 description: The capGetAudioFormatSize macro obtains the size of the audio format. You can use this macro or explicitly call the WM_CAP_GET_AUDIOFORMAT message.
 old-location: multimedia\capgetaudioformatsize.htm
 tech.root: Multimedia
 ms.assetid: 6f2dbedb-bece-4082-aa68-c2390c75b4d7
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capGetAudioFormatSize, capGetAudioFormatSize, capGetAudioFormatSize macro [Windows Multimedia], multimedia.capgetaudioformatsize, vfw/capGetAudioFormatSize"
+ms.keywords: _win32_capGetAudioFormatSize, capGetAudioFormatSize, capGetAudioFormatSize macro [Windows Multimedia], multimedia.capgetaudioformatsize, vfw/capGetAudioFormatSize
 ms.topic: macro
-f1_keywords: 
- - "vfw/capGetAudioFormatSize"
+f1_keywords:
+- vfw/capGetAudioFormatSize
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capGetAudioFormatSize
+- capGetAudioFormatSize
 targetos: Windows
 req.typenames: 
 req.redist: 

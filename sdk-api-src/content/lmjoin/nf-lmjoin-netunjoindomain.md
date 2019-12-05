@@ -1,19 +1,17 @@
 ---
 UID: NF:lmjoin.NetUnjoinDomain
 title: NetUnjoinDomain function (lmjoin.h)
-
 description: The NetUnjoinDomain function unjoins a computer from a workgroup or a domain.
 old-location: netmgmt\netunjoindomain.htm
 tech.root: NetMgmt
 ms.assetid: cc755c22-1fd6-4787-999e-a43258287a05
-
 ms.date: 12/05/2018
 ms.keywords: NetUnjoinDomain, NetUnjoinDomain function [Network Management], _win32_netunjoindomain, lmjoin/NetUnjoinDomain, netmgmt.netunjoindomain
 ms.topic: function
-f1_keywords: 
- - "lmjoin/NetUnjoinDomain"
+f1_keywords:
+- lmjoin/NetUnjoinDomain
 dev_langs:
- - c++
+- c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetUnjoinDomain
+- NetUnjoinDomain
 targetos: Windows
 req.typenames: 
 req.redist: 

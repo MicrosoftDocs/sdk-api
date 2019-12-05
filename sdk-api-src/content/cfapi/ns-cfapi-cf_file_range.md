@@ -1,19 +1,17 @@
 ---
 UID: NS:cfapi.CF_FILE_RANGE
 title: CF_FILE_RANGE (cfapi.h)
-
 description: Specifies a range of data in a placeholder file.
 old-location: cloudapi\cf_file_range.htm
 tech.root: cfApi
 ms.assetid: DAE43446-725E-490B-AE1B-EA6CB31F4358
-
 ms.date: 12/05/2018
 ms.keywords: CF_FILE_RANGE, CF_FILE_RANGE structure, cfapi/CF_FILE_RANGE, cloudApi.cf_file_range
 ms.topic: struct
-f1_keywords: 
- - "cfapi/CF_FILE_RANGE"
+f1_keywords:
+- cfapi/CF_FILE_RANGE
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_FILE_RANGE
+- CF_FILE_RANGE
 targetos: Windows
 req.typenames: CF_FILE_RANGE
 req.redist: 

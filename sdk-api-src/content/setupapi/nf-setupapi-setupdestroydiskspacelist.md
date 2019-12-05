@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDestroyDiskSpaceList
 title: SetupDestroyDiskSpaceList function (setupapi.h)
-
 description: The SetupDestroyDiskSpaceList function destroys a disk-space list and releases the resources allocated to it.
 old-location: setup\setupdestroydiskspacelist.htm
 tech.root: SetupApi
 ms.assetid: bf5fd250-5744-4bb7-ad4f-45f754e75460
-
 ms.date: 12/05/2018
 ms.keywords: SetupDestroyDiskSpaceList, SetupDestroyDiskSpaceList function [Setup API], _setupapi_setupdestroydiskspacelist, setup.setupdestroydiskspacelist, setupapi/SetupDestroyDiskSpaceList
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDestroyDiskSpaceList"
+f1_keywords:
+- setupapi/SetupDestroyDiskSpaceList
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupDestroyDiskSpaceList
+- SetupDestroyDiskSpaceList
 targetos: Windows
 req.typenames: 
 req.redist: 

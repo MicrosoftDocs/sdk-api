@@ -1,19 +1,17 @@
 ---
 UID: NS:wcsplugin._GamutShellTriangle
 title: GamutShellTriangle (wcsplugin.h)
-
 description: Contains three vertex indices for accessing a vertex buffer.
 old-location: wcs\gamutshelltriangle.htm
 tech.root: WCS
 ms.assetid: 3b49d548-640c-47d0-a7bb-4edbb654464e
-
 ms.date: 12/05/2018
 ms.keywords: GamutShellTriangle, GamutShellTriangle structure [Windows Color System], _color_GamutShellTriangle_str, wcs.gamutshelltriangle, wcsplugin/GamutShellTriangle
 ms.topic: struct
-f1_keywords: 
- - "wcsplugin/GamutShellTriangle"
+f1_keywords:
+- wcsplugin/GamutShellTriangle
 dev_langs:
- - c++
+- c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WcsPlugIn.h
+- WcsPlugIn.h
 api_name:
- - GamutShellTriangle
+- GamutShellTriangle
 targetos: Windows
 req.typenames: GamutShellTriangle
 req.redist: 

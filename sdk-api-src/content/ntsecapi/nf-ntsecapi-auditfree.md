@@ -1,19 +1,17 @@
 ---
 UID: NF:ntsecapi.AuditFree
 title: AuditFree function (ntsecapi.h)
-
 description: Frees the memory allocated by audit functions for the specified buffer.
 old-location: security\auditfree_func.htm
 tech.root: SecAuthZ
 ms.assetid: 697baf9b-91c4-4a88-a190-e9f6812e08af
-
 ms.date: 12/05/2018
 ms.keywords: AuditFree, AuditFree function [Security], ntsecapi/AuditFree, security.auditfree_func
 ms.topic: function
-f1_keywords: 
- - "ntsecapi/AuditFree"
+f1_keywords:
+- ntsecapi/AuditFree
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-audit-l1-1-0.dll
- - sechost.dll
- - API-MS-Win-Security-audit-l1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-Security-audit-l1-1-0.dll
+- sechost.dll
+- API-MS-Win-Security-audit-l1-1-1.dll
 api_name:
- - AuditFree
+- AuditFree
 targetos: Windows
 req.typenames: 
 req.redist: 

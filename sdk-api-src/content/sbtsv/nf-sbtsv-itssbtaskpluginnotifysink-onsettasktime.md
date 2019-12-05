@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbTaskPluginNotifySink.OnSetTaskTime
 title: ITsSbTaskPluginNotifySink::OnSetTaskTime (sbtsv.h)
-
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that a task has been scheduled.
 old-location: termserv\itssbtaskpluginnotifysink_onsettasktime.htm
 tech.root: TermServ
 ms.assetid: 6f9b58ba-8cda-4f8d-9c23-19475262148c
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbTaskPluginNotifySink interface [Remote Desktop Services],OnSetTaskTime method, ITsSbTaskPluginNotifySink.OnSetTaskTime, ITsSbTaskPluginNotifySink::OnSetTaskTime, OnSetTaskTime, OnSetTaskTime method [Remote Desktop Services], OnSetTaskTime method [Remote Desktop Services],ITsSbTaskPluginNotifySink interface, sbtsv/ITsSbTaskPluginNotifySink::OnSetTaskTime, termserv.itssbtaskpluginnotifysink_onsettasktime
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbTaskPluginNotifySink.OnSetTaskTime"
+f1_keywords:
+- sbtsv/ITsSbTaskPluginNotifySink.OnSetTaskTime
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbTaskPluginNotifySink.OnSetTaskTime
+- ITsSbTaskPluginNotifySink.OnSetTaskTime
 targetos: Windows
 req.typenames: 
 req.redist: 

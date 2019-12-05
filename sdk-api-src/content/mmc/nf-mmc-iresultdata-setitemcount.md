@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IResultData.SetItemCount
 title: IResultData::SetItemCount (mmc.h)
-
 description: Sets the number of items in a virtual list.
 old-location: mmc\iresultdata_setitemcount.htm
 tech.root: mmc
 ms.assetid: d2105b19-3c91-4a5f-9dfa-c330d4733c67
-
 ms.date: 12/05/2018
 ms.keywords: IResultData interface [MMC],SetItemCount method, IResultData.SetItemCount, IResultData2 interface [MMC],SetItemCount method, IResultData2::SetItemCount, IResultData::SetItemCount, MMCLV_UPDATE_NOINVALIDATEALL, MMCLV_UPDATE_NOSCROLL, SetItemCount, SetItemCount method [MMC], SetItemCount method [MMC],IResultData interface, SetItemCount method [MMC],IResultData2 interface, _slate_iresultdata_setitemcount, mmc.iresultdata_setitemcount, mmc/IResultData2::SetItemCount, mmc/IResultData::SetItemCount
 ms.topic: method
-f1_keywords: 
- - "mmc/IResultData.SetItemCount"
+f1_keywords:
+- mmc/IResultData.SetItemCount
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IResultData.SetItemCount
- - IResultData2.SetItemCount
+- IResultData.SetItemCount
+- IResultData2.SetItemCount
 targetos: Windows
 req.typenames: 
 req.redist: 

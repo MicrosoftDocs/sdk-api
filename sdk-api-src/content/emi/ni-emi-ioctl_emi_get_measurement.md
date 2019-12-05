@@ -1,19 +1,17 @@
 ---
 UID: NI:emi.IOCTL_EMI_GET_MEASUREMENT
 title: IOCTL_EMI_GET_MEASUREMENT (emi.h)
-
 description: The IOCTL_EMI_GET_MEASUREMENT control code retrieves the current energy measurement and the time at which the measurement was taken.
 old-location: powermeter\ioctl_emi_get_measurement.htm
 tech.root: powermeter
 ms.assetid: E23B1ED2-A87D-419A-8BEB-136AA77258AE
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_EMI_GET_MEASUREMENT, IOCTL_EMI_GET_MEASUREMENT control, IOCTL_EMI_GET_MEASUREMENT control code [Power Metering and Budgeting Devices], emi/IOCTL_EMI_GET_MEASUREMENT, powermeter.ioctl_emi_get_measurement
 ms.topic: ioctl
-f1_keywords: 
- - "emi/IOCTL_EMI_GET_MEASUREMENT"
+f1_keywords:
+- emi/IOCTL_EMI_GET_MEASUREMENT
 dev_langs:
- - c++
+- c++
 req.header: emi.h
 req.include-header: Emi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - emi.h
+- emi.h
 api_name:
- - IOCTL_EMI_GET_MEASUREMENT
+- IOCTL_EMI_GET_MEASUREMENT
 targetos: Windows
 req.typenames: 
 req.redist: 

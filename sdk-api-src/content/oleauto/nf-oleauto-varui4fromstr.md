@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarUI4FromStr
 title: VarUI4FromStr function (oleauto.h)
-
 description: Converts an OLECHAR string to an unsigned long value.
 old-location: automat\varui4fromstr.htm
 tech.root: automat
 ms.assetid: ff6e3dd0-3bb6-4197-aba4-dd4240af918f
-
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarUI4FromStr, VarUI4FromStr function [Automation], _oa96_VarUI4FromStr, automat.varui4fromstr, oleauto/VarUI4FromStr
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarUI4FromStr"
+f1_keywords:
+- oleauto/VarUI4FromStr
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarUI4FromStr
+- VarUI4FromStr
 targetos: Windows
 req.typenames: 
 req.redist: 

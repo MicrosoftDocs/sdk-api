@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IDvbMultilingualServiceNameDescriptor
 title: IDvbMultilingualServiceNameDescriptor (dvbsiparser.h)
-
 description: Implements methods that get data from a Digital Video Broadcast (DVB) multilingual service name descriptor. A multilingual service name descriptor provides the names of the service provider and service in text form in one or more languages.
 old-location: mstv\idvbmultilingualservicenamedescriptor.htm
 tech.root: mstv
 ms.assetid: 1b384ecf-aa56-476d-b347-b5438ab069fe
-
 ms.date: 12/05/2018
 ms.keywords: IDvbMultilingualServiceNameDescriptor, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies], IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbMultilingualServiceNameDescriptor, mstv.idvbmultilingualservicenamedescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IDvbMultilingualServiceNameDescriptor"
+f1_keywords:
+- dvbsiparser/IDvbMultilingualServiceNameDescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbMultilingualServiceNameDescriptor
+- IDvbMultilingualServiceNameDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

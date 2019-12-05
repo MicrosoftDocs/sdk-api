@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetMessage
 title: ID3D12InfoQueue::GetMessage (d3d12sdklayers.h)
-
 description: Get a message from the message queue.
 old-location: direct3d12\id3d12infoqueue_getmessage.htm
 tech.root: direct3d12
 ms.assetid: B7B6D1C4-18FD-492A-8346-CA02FCD3EC4B
-
 ms.date: 12/05/2018
 ms.keywords: GetMessage, GetMessage method, GetMessage method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetMessage method, ID3D12InfoQueue.GetMessage, ID3D12InfoQueue::GetMessage, d3d12sdklayers/ID3D12InfoQueue::GetMessage, direct3d12.id3d12infoqueue_getmessage
 ms.topic: method
-f1_keywords: 
- - "d3d12sdklayers/ID3D12InfoQueue.GetMessage"
+f1_keywords:
+- d3d12sdklayers/ID3D12InfoQueue.GetMessage
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - ID3D12InfoQueue.GetMessage
+- ID3D12InfoQueue.GetMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:mssip.MS_ADDINFO_FLAT_
 title: MS_ADDINFO_FLAT (mssip.h)
-
 description: Provides additional information about flat or end-to-end subject types.
 old-location: security\ms_addinfo_flat.htm
 tech.root: SecCrypto
 ms.assetid: 9f5bebd1-8eda-456d-9339-3334a19c0ea4
-
 ms.date: 12/05/2018
-ms.keywords: "*PMS_ADDINFO_FLAT, MS_ADDINFO_FLAT, MS_ADDINFO_FLAT structure [Security], PMS_ADDINFO_FLAT, PMS_ADDINFO_FLAT structure pointer [Security], mssip/MS_ADDINFO_FLAT_, mssip/PMS_ADDINFO_FLAT, security.ms_addinfo_flat"
+ms.keywords: '*PMS_ADDINFO_FLAT, MS_ADDINFO_FLAT, MS_ADDINFO_FLAT structure [Security], PMS_ADDINFO_FLAT, PMS_ADDINFO_FLAT structure pointer [Security], mssip/MS_ADDINFO_FLAT_, mssip/PMS_ADDINFO_FLAT, security.ms_addinfo_flat'
 ms.topic: struct
-f1_keywords: 
- - "mssip/MS_ADDINFO_FLAT"
+f1_keywords:
+- mssip/MS_ADDINFO_FLAT
 dev_langs:
- - c++
+- c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mssip.h
+- Mssip.h
 api_name:
- - MS_ADDINFO_FLAT
+- MS_ADDINFO_FLAT
 targetos: Windows
 req.typenames: MS_ADDINFO_FLAT, *PMS_ADDINFO_FLAT
 req.redist: 

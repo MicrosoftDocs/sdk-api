@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyChangeArray.Append
 title: IPropertyChangeArray::Append (propsys.h)
-
 description: Inserts a change operation at the end of an array.
 old-location: properties\IPropertyChangeArray_Append.htm
 tech.root: properties
 ms.assetid: 45039163-dffc-4168-9c31-786dcfdab760
-
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [Windows Properties], Append method [Windows Properties],IPropertyChangeArray interface, IPropertyChangeArray interface [Windows Properties],Append method, IPropertyChangeArray.Append, IPropertyChangeArray::Append, _shell_IPropertyChangeArray_Append, properties.IPropertyChangeArray_Append, propsys/IPropertyChangeArray::Append, shell.IPropertyChangeArray_Append
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyChangeArray.Append"
+f1_keywords:
+- propsys/IPropertyChangeArray.Append
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyChangeArray.Append
+- IPropertyChangeArray.Append
 targetos: Windows
 req.typenames: 
 req.redist: 

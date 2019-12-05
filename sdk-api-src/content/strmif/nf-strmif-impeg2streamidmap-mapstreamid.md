@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMPEG2StreamIdMap.MapStreamId
 title: IMPEG2StreamIdMap::MapStreamId (strmif.h)
-
 description: The MapStreamId method maps the Stream ID of an elementary stream within an MPEG-2 program stream to a media content type and substream filtering information.
 old-location: dshow\impeg2streamidmap_mapstreamid.htm
 tech.root: DirectShow
 ms.assetid: e74a1e62-1bc4-43e1-9017-85012b2ece01
-
 ms.date: 12/05/2018
 ms.keywords: IMPEG2StreamIdMap interface [DirectShow],MapStreamId method, IMPEG2StreamIdMap.MapStreamId, IMPEG2StreamIdMap::MapStreamId, IMPEG2StreamIdMapMapStreamId, MapStreamId, MapStreamId method [DirectShow], MapStreamId method [DirectShow],IMPEG2StreamIdMap interface, dshow.impeg2streamidmap_mapstreamid, strmif/IMPEG2StreamIdMap::MapStreamId
 ms.topic: method
-f1_keywords: 
- - "strmif/IMPEG2StreamIdMap.MapStreamId"
+f1_keywords:
+- strmif/IMPEG2StreamIdMap.MapStreamId
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMPEG2StreamIdMap.MapStreamId
+- IMPEG2StreamIdMap.MapStreamId
 targetos: Windows
 req.typenames: 
 req.redist: 

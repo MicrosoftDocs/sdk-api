@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.SetBackgroundColor
 title: IDXGISwapChain1::SetBackgroundColor (dxgi1_2.h)
-
 description: Changes the background color of the swap chain.
 old-location: direct3ddxgi\idxgiswapchain1_setbackgroundcolor.htm
 tech.root: direct3ddxgi
 ms.assetid: E46CA219-303F-40D4-8C62-6241C9199BA0
-
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain1 interface [DXGI],SetBackgroundColor method, IDXGISwapChain1.SetBackgroundColor, IDXGISwapChain1::SetBackgroundColor, SetBackgroundColor, SetBackgroundColor method [DXGI], SetBackgroundColor method [DXGI],IDXGISwapChain1 interface, direct3ddxgi.idxgiswapchain1_setbackgroundcolor, dxgi1_2/IDXGISwapChain1::SetBackgroundColor
 ms.topic: method
-f1_keywords: 
- - "dxgi1_2/IDXGISwapChain1.SetBackgroundColor"
+f1_keywords:
+- dxgi1_2/IDXGISwapChain1.SetBackgroundColor
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGISwapChain1.SetBackgroundColor
+- IDXGISwapChain1.SetBackgroundColor
 targetos: Windows
 req.typenames: 
 req.redist: 

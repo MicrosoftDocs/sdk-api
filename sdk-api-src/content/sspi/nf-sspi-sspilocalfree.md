@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.SspiLocalFree
 title: SspiLocalFree function (sspi.h)
-
 description: Frees the memory associated with the specified buffer.
 old-location: security\sspilocalfree.htm
 tech.root: SecAuthN
 ms.assetid: afb890a8-a2c3-4c35-ba76-758b047ababb
-
 ms.date: 12/05/2018
 ms.keywords: SspiLocalFree, SspiLocalFree function [Security], security.sspilocalfree, sspi/SspiLocalFree
 ms.topic: function
-f1_keywords: 
- - "sspi/SspiLocalFree"
+f1_keywords:
+- sspi/SspiLocalFree
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - SspiCli.dll
+- SspiCli.dll
 api_name:
- - SspiLocalFree
+- SspiLocalFree
 targetos: Windows
 req.typenames: 
 req.redist: 

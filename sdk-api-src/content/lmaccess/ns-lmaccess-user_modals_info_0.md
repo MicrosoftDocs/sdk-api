@@ -1,19 +1,17 @@
 ---
 UID: NS:lmaccess._USER_MODALS_INFO_0
 title: USER_MODALS_INFO_0 (lmaccess.h)
-
 description: The USER_MODALS_INFO_0 structure contains global password information for users and global groups in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\user_modals_info_0_str.htm
 tech.root: NetMgmt
 ms.assetid: cf3dd091-106e-4a0d-b4db-62bd11fd65cf
-
 ms.date: 12/05/2018
-ms.keywords: "*LPUSER_MODALS_INFO_0, *PUSER_MODALS_INFO_0, LPUSER_MODALS_INFO_0, LPUSER_MODALS_INFO_0 structure pointer [Network Management], PUSER_MODALS_INFO_0, PUSER_MODALS_INFO_0 structure pointer [Network Management], USER_MODALS_INFO_0, USER_MODALS_INFO_0 structure [Network Management], _win32_user_modals_info_0_str, lmaccess/LPUSER_MODALS_INFO_0, lmaccess/PUSER_MODALS_INFO_0, lmaccess/USER_MODALS_INFO_0, netmgmt.user_modals_info_0_str"
+ms.keywords: '*LPUSER_MODALS_INFO_0, *PUSER_MODALS_INFO_0, LPUSER_MODALS_INFO_0, LPUSER_MODALS_INFO_0 structure pointer [Network Management], PUSER_MODALS_INFO_0, PUSER_MODALS_INFO_0 structure pointer [Network Management], USER_MODALS_INFO_0, USER_MODALS_INFO_0 structure [Network Management], _win32_user_modals_info_0_str, lmaccess/LPUSER_MODALS_INFO_0, lmaccess/PUSER_MODALS_INFO_0, lmaccess/USER_MODALS_INFO_0, netmgmt.user_modals_info_0_str'
 ms.topic: struct
-f1_keywords: 
- - "lmaccess/USER_MODALS_INFO_0"
+f1_keywords:
+- lmaccess/USER_MODALS_INFO_0
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmaccess.h
+- Lmaccess.h
 api_name:
- - USER_MODALS_INFO_0
+- USER_MODALS_INFO_0
 targetos: Windows
 req.typenames: USER_MODALS_INFO_0, *PUSER_MODALS_INFO_0, *LPUSER_MODALS_INFO_0
 req.redist: 

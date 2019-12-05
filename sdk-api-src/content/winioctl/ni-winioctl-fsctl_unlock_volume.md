@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_UNLOCK_VOLUME
 title: FSCTL_UNLOCK_VOLUME
-
 description: Unlocks a volume.
 old-location: fs\fsctl_unlock_volume.htm
 tech.root: FileIO
 ms.assetid: 84ca7f8d-6a0a-43d6-9970-9c01099eaad4
-
 ms.date: 12/05/2018
 ms.keywords: FSCTL_UNLOCK_VOLUME, FSCTL_UNLOCK_VOLUME control, FSCTL_UNLOCK_VOLUME control code [Files], _win32_fsctl_unlock_volume, base.fsctl_unlock_volume, fs.fsctl_unlock_volume, winioctl/FSCTL_UNLOCK_VOLUME
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_UNLOCK_VOLUME"
+f1_keywords:
+- winioctl/FSCTL_UNLOCK_VOLUME
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_UNLOCK_VOLUME
+- FSCTL_UNLOCK_VOLUME
 targetos: Windows
 req.typenames: 
 req.redist: 

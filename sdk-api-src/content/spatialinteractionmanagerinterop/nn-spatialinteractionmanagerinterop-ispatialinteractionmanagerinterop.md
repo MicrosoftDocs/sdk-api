@@ -1,19 +1,17 @@
 ---
 UID: NN:spatialinteractionmanagerinterop.ISpatialInteractionManagerInterop
 title: ISpatialInteractionManagerInterop (spatialinteractionmanagerinterop.h)
-
 description: Enables interoperability with a Universal Windows Platform (UWP) SpatialInteractionManager object and provides access to SpatialInteractionManager members for accessing user input from hands, motion controllers, and system voice commands.
 old-location: mixedreality\ispatialinteractionmanagerinterop.htm
 tech.root: MixedReality
 ms.assetid: A6ED74DB-D56A-4133-877C-A98BCBE34F7D
-
 ms.date: 01/25/2019
 ms.keywords: ISpatialInteractionManagerInterop, ISpatialInteractionManagerInterop interface, ISpatialInteractionManagerInterop interface,described, MixedReality.ispatialinteractionmanagerinterop, spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop
 ms.topic: interface
-f1_keywords: 
- - "spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop"
+f1_keywords:
+- spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop
 dev_langs:
- - c++
+- c++
 req.header: spatialinteractionmanagerinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SpatialInteractionManagerInterop.h
+- SpatialInteractionManagerInterop.h
 api_name:
- - ISpatialInteractionManagerInterop
+- ISpatialInteractionManagerInterop
 targetos: Windows
 req.typenames: 
 req.redist: 

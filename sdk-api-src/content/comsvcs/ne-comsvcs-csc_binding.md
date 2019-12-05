@@ -1,19 +1,17 @@
 ---
 UID: NE:comsvcs.tagCSC_Binding
 title: CSC_Binding (comsvcs.h)
-
 description: Indicates whether all of the work that is submitted via the activity returned from CoCreateActivity should be bound to only one single-threaded apartment (STA). This enumeration has no impact on the multithreaded apartment (MTA).
 old-location: cos\csc_binding.htm
 tech.root: cossdk
 ms.assetid: 9267b4f1-96d1-4367-8114-3db43755ffed
-
 ms.date: 12/05/2018
 ms.keywords: CSC_BindToPoolThread, CSC_Binding, CSC_Binding enumeration [COM+], CSC_NoBinding, _cos_CSC_Binding, comsvcs/CSC_BindToPoolThread, comsvcs/CSC_Binding, comsvcs/CSC_NoBinding, cos.csc_binding
 ms.topic: enum
-f1_keywords: 
- - "comsvcs/CSC_Binding"
+f1_keywords:
+- comsvcs/CSC_Binding
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - CSC_Binding
+- CSC_Binding
 targetos: Windows
 req.typenames: CSC_Binding
 req.redist: 

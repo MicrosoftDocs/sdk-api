@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.ILSaveToStream
 title: ILSaveToStream function (shlobj_core.h)
-
 description: Saves an ITEMIDLIST structure to a stream.
 old-location: shell\ILSaveToStream.htm
 tech.root: shell
 ms.assetid: 40d5ce57-58dc-4c79-8fe6-5412e3d7dc64
-
 ms.date: 12/05/2018
 ms.keywords: ILSaveToStream, ILSaveToStream function [Windows Shell], _win32_ILSaveToStream, shell.ILSaveToStream, shlobj_core/ILSaveToStream
 ms.topic: function
 f1_keywords:
 - shlobj_core/ILSaveToStream
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

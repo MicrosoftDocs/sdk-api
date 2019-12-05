@@ -1,19 +1,17 @@
 ---
 UID: NF:ncryptprotect.NCryptProtectSecret
 title: NCryptProtectSecret function (ncryptprotect.h)
-
 description: Encrypts data to a specified protection descriptor.
 old-location: security\ncryptprotectsecret.htm
 tech.root: SecCNG
 ms.assetid: 8726F92B-34D5-4696-8803-3D7F50F1006D
-
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptProtectSecret, NCryptProtectSecret function [Security], ncryptprotect/NCryptProtectSecret, security.ncryptprotectsecret
 ms.topic: function
-f1_keywords: 
- - "ncryptprotect/NCryptProtectSecret"
+f1_keywords:
+- ncryptprotect/NCryptProtectSecret
 dev_langs:
- - c++
+- c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: NCrypt.lib
 req.dll: NCrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - NCrypt.dll
+- NCrypt.dll
 api_name:
- - NCryptProtectSecret
+- NCryptProtectSecret
 targetos: Windows
 req.typenames: 
 req.redist: 

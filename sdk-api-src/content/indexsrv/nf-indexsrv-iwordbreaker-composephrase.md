@@ -1,19 +1,17 @@
 ---
 UID: NF:indexsrv.IWordBreaker.ComposePhrase
 title: IWordBreaker::ComposePhrase (indexsrv.h)
-
 description: Not supported.
 old-location: search\_search_IWordBreaker_ComposePhrase.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\composephrase.htm
-
 ms.date: 12/05/2018
 ms.keywords: ComposePhrase, ComposePhrase method [search], ComposePhrase method [search],IWordBreaker interface, IWordBreaker interface [search],ComposePhrase method, IWordBreaker.ComposePhrase, IWordBreaker::ComposePhrase, _search_IWordBreaker_ComposePhrase, indexsrv/IWordBreaker::ComposePhrase, search._search_IWordBreaker_ComposePhrase
 ms.topic: method
-f1_keywords: 
- - "indexsrv/IWordBreaker.ComposePhrase"
+f1_keywords:
+- indexsrv/IWordBreaker.ComposePhrase
 dev_langs:
- - c++
+- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Indexsrv.h
+- Indexsrv.h
 api_name:
- - IWordBreaker.ComposePhrase
+- IWordBreaker.ComposePhrase
 targetos: Windows
 req.typenames: 
 req.redist: Windows NT 4.0 Option Pack

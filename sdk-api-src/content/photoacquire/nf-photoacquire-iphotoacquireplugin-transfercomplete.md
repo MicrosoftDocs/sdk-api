@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquirePlugin.TransferComplete
 title: IPhotoAcquirePlugin::TransferComplete (photoacquire.h)
-
 description: Provides extended functionality when a transfer session is completed. The application provides the implementation of the TransferComplete method.
 old-location: picacq\iphotoacquireplugin_transfercomplete.htm
 tech.root: acquisition
 ms.assetid: 915e676a-4aaa-4b10-b913-51b856c61dba
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquirePlugin interface [Picture Acquisition],TransferComplete method, IPhotoAcquirePlugin.TransferComplete, IPhotoAcquirePlugin::TransferComplete, IPhotoAcquirePluginTransferComplete, TransferComplete, TransferComplete method [Picture Acquisition], TransferComplete method [Picture Acquisition],IPhotoAcquirePlugin interface, photoacquire/IPhotoAcquirePlugin::TransferComplete, picacq.iphotoacquireplugin_transfercomplete
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquirePlugin.TransferComplete"
+f1_keywords:
+- photoacquire/IPhotoAcquirePlugin.TransferComplete
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquirePlugin.TransferComplete
+- IPhotoAcquirePlugin.TransferComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

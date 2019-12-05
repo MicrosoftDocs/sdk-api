@@ -1,19 +1,17 @@
 ---
 UID: NS:winreg.value_entA
 title: VALENTA (winreg.h)
-
 description: Contains information about a registry value. The RegQueryMultipleValues function uses this structure.
 old-location: base\valent_str.htm
 tech.root: SysInfo
 ms.assetid: 7881eea8-e4e3-48cf-ba8f-b5c23910ae7d
-
 ms.date: 12/05/2018
-ms.keywords: "*PVALENTA, PVALENT, PVALENT structure pointer, VALENT, VALENT structure, VALENTA, VALENTW, _win32_valent_str, base.valent_str, winreg/PVALENT, winreg/VALENT, winreg/VALENTA, winreg/VALENTW"
+ms.keywords: '*PVALENTA, PVALENT, PVALENT structure pointer, VALENT, VALENT structure, VALENTA, VALENTW, _win32_valent_str, base.valent_str, winreg/PVALENT, winreg/VALENT, winreg/VALENTA, winreg/VALENTW'
 ms.topic: struct
-f1_keywords: 
- - "winreg/VALENT"
+f1_keywords:
+- winreg/VALENT
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winreg.h
+- Winreg.h
 api_name:
- - VALENT
- - VALENTA
- - VALENTW
+- VALENT
+- VALENTA
+- VALENTW
 targetos: Windows
 req.typenames: VALENTA, *PVALENTA
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFMultiplexer.Initialize
 title: IMFASFMultiplexer::Initialize (wmcontainer.h)
-
 description: Initializes the multiplexer with the data from an ASF ContentInfo object.
 old-location: mf\imfasfmultiplexer_initialize.htm
 tech.root: medfound
 ms.assetid: 61c37bd5-3f6f-434b-ae5b-c25c5213d49f
-
 ms.date: 12/05/2018
 ms.keywords: 61c37bd5-3f6f-434b-ae5b-c25c5213d49f, IMFASFMultiplexer interface [Media Foundation],Initialize method, IMFASFMultiplexer.Initialize, IMFASFMultiplexer::Initialize, Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation],IMFASFMultiplexer interface, mf.imfasfmultiplexer_initialize, wmcontainer/IMFASFMultiplexer::Initialize
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFMultiplexer.Initialize"
+f1_keywords:
+- wmcontainer/IMFASFMultiplexer.Initialize
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFMultiplexer.Initialize
+- IMFASFMultiplexer.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

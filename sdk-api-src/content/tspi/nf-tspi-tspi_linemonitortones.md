@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineMonitorTones
 title: TSPI_lineMonitorTones function (tspi.h)
-
 description: The TSPI_lineMonitorTones function enables and disables the detection of inband tones on the call. Each time a specified tone is detected, a message is sent to the client application through TAPI.
 old-location: tspi\tspi_linemonitortones.htm
 tech.root: Tapi
 ms.assetid: 8b16dda3-bcb4-4a89-b2e5-b9330be3eb01
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineMonitorTones, TSPI_lineMonitorTones function [TAPI 2.2], _tspi_tspi_linemonitortones, tspi.tspi_linemonitortones, tspi/TSPI_lineMonitorTones
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineMonitorTones"
+f1_keywords:
+- tspi/TSPI_lineMonitorTones
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineMonitorTones
+- TSPI_lineMonitorTones
 targetos: Windows
 req.typenames: 
 req.redist: 

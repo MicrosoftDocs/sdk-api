@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDVB_SIT.GetCountOfTableDescriptors
 title: IDVB_SIT::GetCountOfTableDescriptors (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sit_getcountoftabledescriptors.htm
 tech.root: mstv
 ms.assetid: 7fe03fe0-f12e-43cb-b340-26fffdf2d873
-
 ms.date: 12/05/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],IDVB_SIT interface, IDVB_SIT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, IDVB_SIT.GetCountOfTableDescriptors, IDVB_SIT::GetCountOfTableDescriptors, IDVB_SITGetCountOfTableDescriptors, dvbsiparser/IDVB_SIT::GetCountOfTableDescriptors, mstv.idvb_sit_getcountoftabledescriptors
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDVB_SIT.GetCountOfTableDescriptors"
+f1_keywords:
+- dvbsiparser/IDVB_SIT.GetCountOfTableDescriptors
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_SIT.GetCountOfTableDescriptors
+- IDVB_SIT.GetCountOfTableDescriptors
 targetos: Windows
 req.typenames: 
 req.redist: 

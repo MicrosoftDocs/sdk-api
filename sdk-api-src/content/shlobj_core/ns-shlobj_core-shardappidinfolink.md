@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj_core.SHARDAPPIDINFOLINK
 title: SHARDAPPIDINFOLINK (shlobj_core.h)
-
 description: Contains data used by SHAddToRecentDocs to identify both an item, in this case through an IShellLink, and the process that it is associated with.
 old-location: shell\SHARDAPPIDINFOLINK.htm
 tech.root: shell
 ms.assetid: 01613dc9-4516-4995-bd31-feee2eb650b2
-
 ms.date: 12/05/2018
 ms.keywords: SHARDAPPIDINFOLINK, SHARDAPPIDINFOLINK structure [Windows Shell], _shell_SHARDAPPIDINFOLINK, shell.SHARDAPPIDINFOLINK, shlobj_core/SHARDAPPIDINFOLINK
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/SHARDAPPIDINFOLINK"
+f1_keywords:
+- shlobj_core/SHARDAPPIDINFOLINK
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - SHARDAPPIDINFOLINK
+- SHARDAPPIDINFOLINK
 targetos: Windows
 req.typenames: SHARDAPPIDINFOLINK
 req.redist: 

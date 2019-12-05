@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi.CLUS_FORCE_QUORUM_INFO
 title: CLUS_FORCE_QUORUM_INFO (clusapi.h)
-
 description: Specifies information about the list of nodes sufficient to establish quorum in a majority-of-nodes cluster.
 old-location: mscs\clus_force_quorum_info.htm
 tech.root: MsCS
 ms.assetid: dda10d88-0e5f-40f7-b18b-82dacef6f886
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUS_FORCE_QUORUM_INFO, CLUS_FORCE_QUORUM_INFO, CLUS_FORCE_QUORUM_INFO structure [Failover Cluster], PCLUS_FORCE_QUORUM_INFO, PCLUS_FORCE_QUORUM_INFO structure pointer [Failover Cluster], _wolf_clus_force_quorum_info, clusapi/CLUS_FORCE_QUORUM_INFO, clusapi/PCLUS_FORCE_QUORUM_INFO, mscs.clus_force_quorum_info"
+ms.keywords: '*PCLUS_FORCE_QUORUM_INFO, CLUS_FORCE_QUORUM_INFO, CLUS_FORCE_QUORUM_INFO structure [Failover Cluster], PCLUS_FORCE_QUORUM_INFO, PCLUS_FORCE_QUORUM_INFO structure pointer [Failover Cluster], _wolf_clus_force_quorum_info, clusapi/CLUS_FORCE_QUORUM_INFO, clusapi/PCLUS_FORCE_QUORUM_INFO, mscs.clus_force_quorum_info'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUS_FORCE_QUORUM_INFO"
+f1_keywords:
+- clusapi/CLUS_FORCE_QUORUM_INFO
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUS_FORCE_QUORUM_INFO
+- CLUS_FORCE_QUORUM_INFO
 targetos: Windows
 req.typenames: CLUS_FORCE_QUORUM_INFO, *PCLUS_FORCE_QUORUM_INFO
 req.redist: 

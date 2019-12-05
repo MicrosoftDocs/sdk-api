@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarI8FromR4
 title: VarI8FromR4 function (oleauto.h)
-
 description: Converts a float value to an 8-byte integer value.
 old-location: automat\vari8fromr4.htm
 tech.root: automat
 ms.assetid: 5cc6c28b-8fa5-4452-8932-fcbe28536618
-
 ms.date: 12/05/2018
 ms.keywords: VarI8FromR4, VarI8FromR4 function [Automation], _oa96_VarI8FromR4, automat.vari8fromr4, oleauto/VarI8FromR4
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarI8FromR4"
+f1_keywords:
+- oleauto/VarI8FromR4
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarI8FromR4
+- VarI8FromR4
 targetos: Windows
 req.typenames: 
 req.redist: 

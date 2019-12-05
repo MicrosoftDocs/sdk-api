@@ -1,19 +1,17 @@
 ---
 UID: NS:accctrl._ACTRL_PROPERTY_ENTRYA
 title: ACTRL_PROPERTY_ENTRYA (accctrl.h)
-
 description: Contains a list of access-control entries for an object or a specified property on an object.
 old-location: com\actrl_property_entry.htm
 tech.root: com
 ms.assetid: 90b13dd1-0ca6-4674-b9fa-a61aed4637d7
-
 ms.date: 12/05/2018
-ms.keywords: "*PACTRL_PROPERTY_ENTRYA, ACTRL_ACCESS_PROTECTED, ACTRL_PROPERTY_ENTRY, ACTRL_PROPERTY_ENTRY structure [COM], ACTRL_PROPERTY_ENTRYA, ACTRL_PROPERTY_ENTRYW, PACTRL_PROPERTY_ENTRY, PACTRL_PROPERTY_ENTRY structure pointer [COM], _ACTRL_PROPERTY_ENTRYA, _ACTRL_PROPERTY_ENTRYW, accctrl/ACTRL_PROPERTY_ENTRY, accctrl/ACTRL_PROPERTY_ENTRYA, accctrl/ACTRL_PROPERTY_ENTRYW, accctrl/PACTRL_PROPERTY_ENTRY, com.actrl_property_entry"
+ms.keywords: '*PACTRL_PROPERTY_ENTRYA, ACTRL_ACCESS_PROTECTED, ACTRL_PROPERTY_ENTRY, ACTRL_PROPERTY_ENTRY structure [COM], ACTRL_PROPERTY_ENTRYA, ACTRL_PROPERTY_ENTRYW, PACTRL_PROPERTY_ENTRY, PACTRL_PROPERTY_ENTRY structure pointer [COM], _ACTRL_PROPERTY_ENTRYA, _ACTRL_PROPERTY_ENTRYW, accctrl/ACTRL_PROPERTY_ENTRY, accctrl/ACTRL_PROPERTY_ENTRYA, accctrl/ACTRL_PROPERTY_ENTRYW, accctrl/PACTRL_PROPERTY_ENTRY, com.actrl_property_entry'
 ms.topic: struct
-f1_keywords: 
- - "accctrl/ACTRL_PROPERTY_ENTRY"
+f1_keywords:
+- accctrl/ACTRL_PROPERTY_ENTRY
 dev_langs:
- - c++
+- c++
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AccCtrl.h
+- AccCtrl.h
 api_name:
- - ACTRL_PROPERTY_ENTRY
- - ACTRL_PROPERTY_ENTRYA
- - ACTRL_PROPERTY_ENTRYW
+- ACTRL_PROPERTY_ENTRY
+- ACTRL_PROPERTY_ENTRYA
+- ACTRL_PROPERTY_ENTRYW
 targetos: Windows
 req.typenames: ACTRL_PROPERTY_ENTRYA, *PACTRL_PROPERTY_ENTRYA
 req.redist: 

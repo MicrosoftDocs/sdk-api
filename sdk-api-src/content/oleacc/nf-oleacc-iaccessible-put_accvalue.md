@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.IAccessible.put_accValue
 title: IAccessible::put_accValue (oleacc.h)
-
 description: The IAccessible::put_accValue method sets the value of the specified object. Not all objects have a value.
 old-location: winauto\iaccessible_iaccessible__put_accvalue.htm
 tech.root: WinAuto
 ms.assetid: 0b1e44f4-8d03-47a4-a8c5-5296059e0459
-
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],put_accValue method, IAccessible.put_accValue, IAccessible::put_accValue, _msaa_IAccessible_put_accValue, msaa.iaccessible_iaccessible__put_accvalue, oleacc/IAccessible::put_accValue, put_accValue, put_accValue method [Windows Accessibility], put_accValue method [Windows Accessibility],IAccessible interface, winauto.iaccessible_iaccessible__put_accvalue
 ms.topic: method
-f1_keywords: 
- - "oleacc/IAccessible.put_accValue"
+f1_keywords:
+- oleacc/IAccessible.put_accValue
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - IAccessible.put_accValue
+- IAccessible.put_accValue
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95

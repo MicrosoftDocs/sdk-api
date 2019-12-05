@@ -1,39 +1,37 @@
 ---
 UID: NN:d3d12video.ID3D12VideoDecodeCommandList
 title: ID3D12VideoDecodeCommandList
-
 description: Encapsulates a list of graphics commands for video decoding.
 tech.root: mf
 ms.assetid: 0d965203-efc2-4f56-888e-822c8c6f02c2
-
-ms.date: 05/28/2019 
+ms.date: 05/28/2019
 ms.topic: interface
 f1_keywords:
- - ID3D12VideoDecodeCommandList
+- ID3D12VideoDecodeCommandList
 dev_langs:
- - c++
+- c++
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
- - apiref
-api_type: 
- - COM
-api_location: 
- - d3d12video.h
-api_name: 
- - ID3D12VideoDecodeCommandList
+topic_type:
+- apiref
+api_type:
+- COM
+api_location:
+- d3d12video.h
+api_name:
+- ID3D12VideoDecodeCommandList
 targetos: Windows
 ---
 

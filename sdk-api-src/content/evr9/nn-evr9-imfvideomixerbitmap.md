@@ -1,19 +1,17 @@
 ---
 UID: NN:evr9.IMFVideoMixerBitmap
 title: IMFVideoMixerBitmap (evr9.h)
-
 description: Alpha-blends a static bitmap image with the video displayed by the Enhanced Video Renderer (EVR).
 old-location: mf\imfvideomixerbitmap.htm
 tech.root: medfound
 ms.assetid: 4da4bdb9-857b-40c9-b910-04a099a23ab5
-
 ms.date: 12/05/2018
 ms.keywords: 4da4bdb9-857b-40c9-b910-04a099a23ab5, IMFVideoMixerBitmap, IMFVideoMixerBitmap interface [Media Foundation], IMFVideoMixerBitmap interface [Media Foundation],described, evr9/IMFVideoMixerBitmap, mf.imfvideomixerbitmap
 ms.topic: interface
-f1_keywords: 
- - "evr9/IMFVideoMixerBitmap"
+f1_keywords:
+- evr9/IMFVideoMixerBitmap
 dev_langs:
- - c++
+- c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoMixerBitmap
+- IMFVideoMixerBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetRawAlertTextLen
 title: ISCTE_EAS::GetRawAlertTextLen (atscpsipparser.h)
-
 description: Gets the length of the alert_text field.
 old-location: mstv\iscte_eas_getrawalerttextlen.htm
 tech.root: mstv
 ms.assetid: e85b1deb-6e93-4187-8a18-80740ce9e4c9
-
 ms.date: 12/05/2018
 ms.keywords: GetRawAlertTextLen, GetRawAlertTextLen method [Microsoft TV Technologies], GetRawAlertTextLen method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetRawAlertTextLen method, ISCTE_EAS.GetRawAlertTextLen, ISCTE_EAS::GetRawAlertTextLen, atscpsipparser/ISCTE_EAS::GetRawAlertTextLen, mstv.iscte_eas_getrawalerttextlen
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/ISCTE_EAS.GetRawAlertTextLen"
+f1_keywords:
+- atscpsipparser/ISCTE_EAS.GetRawAlertTextLen
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - ISCTE_EAS.GetRawAlertTextLen
+- ISCTE_EAS.GetRawAlertTextLen
 targetos: Windows
 req.typenames: 
 req.redist: 

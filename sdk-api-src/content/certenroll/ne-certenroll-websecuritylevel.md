@@ -1,19 +1,17 @@
 ---
 UID: NE:certenroll.WebSecurityLevel
 title: WebSecurityLevel (certenroll.h)
-
 description: Specifies whether a web-enabled method or property is safe for scripting.
 old-location: security\websecuritylevel_enum.htm
 tech.root: seccertenroll
 ms.assetid: fa87ec81-59d9-495c-9b2e-5394678cd020
-
 ms.date: 12/05/2018
 ms.keywords: LevelSafe, LevelUnsafe, WebSecurityLevel, WebSecurityLevel enumeration [Security], certenroll/LevelSafe, certenroll/LevelUnsafe, certenroll/WebSecurityLevel, security.websecuritylevel_enum
 ms.topic: enum
-f1_keywords: 
- - "certenroll/WebSecurityLevel"
+f1_keywords:
+- certenroll/WebSecurityLevel
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CertEnroll.h
+- CertEnroll.h
 api_name:
- - WebSecurityLevel
+- WebSecurityLevel
 targetos: Windows
 req.typenames: WebSecurityLevel
 req.redist: 

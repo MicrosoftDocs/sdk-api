@@ -1,19 +1,17 @@
 ---
 UID: NF:certbcli.CertSrvRestoreEnd
 title: CertSrvRestoreEnd function (certbcli.h)
-
 description: Ends a Certificate Services restore session.
 old-location: security\certsrvrestoreend.htm
 tech.root: SecCrypto
 ms.assetid: 59316edc-a677-47ff-a139-565d7b5507fb
-
 ms.date: 12/05/2018
 ms.keywords: CertSrvRestoreEnd, CertSrvRestoreEnd function [Security], _certsrv_certsrvrestoreend, certbcli/CertSrvRestoreEnd, security.certsrvrestoreend
 ms.topic: function
-f1_keywords: 
- - "certbcli/CertSrvRestoreEnd"
+f1_keywords:
+- certbcli/CertSrvRestoreEnd
 dev_langs:
- - c++
+- c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - CertSrvRestoreEnd
+- CertSrvRestoreEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

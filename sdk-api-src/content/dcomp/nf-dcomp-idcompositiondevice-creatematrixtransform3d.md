@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateMatrixTransform3D
 title: IDCompositionDevice::CreateMatrixTransform3D (dcomp.h)
-
 description: Creates a 3D 4-by-4 matrix transform object.
 old-location: directcomp\idcompositiondevice_creatematrixtransform3d.htm
 tech.root: directcomp
 ms.assetid: 699DB053-3897-43EC-92E2-BD45CE643130
-
 ms.date: 12/05/2018
 ms.keywords: CreateMatrixTransform3D, CreateMatrixTransform3D method [DirectComposition], CreateMatrixTransform3D method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateMatrixTransform3D method, IDCompositionDevice.CreateMatrixTransform3D, IDCompositionDevice::CreateMatrixTransform3D, dcomp/IDCompositionDevice::CreateMatrixTransform3D, directcomp.idcompositiondevice_creatematrixtransform3d
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice.CreateMatrixTransform3D"
+f1_keywords:
+- dcomp/IDCompositionDevice.CreateMatrixTransform3D
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionDevice.CreateMatrixTransform3D
+- IDCompositionDevice.CreateMatrixTransform3D
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegNotifyChangeKeyValue
 title: RegNotifyChangeKeyValue function (winreg.h)
-
 description: Notifies the caller about changes to the attributes or contents of a specified registry key.
 old-location: base\regnotifychangekeyvalue.htm
 tech.root: SysInfo
 ms.assetid: aad72ed5-1123-4a8b-9fc4-b54a713b635e
-
 ms.date: 12/05/2018
 ms.keywords: REG_NOTIFY_CHANGE_ATTRIBUTES, REG_NOTIFY_CHANGE_LAST_SET, REG_NOTIFY_CHANGE_NAME, REG_NOTIFY_CHANGE_SECURITY, REG_NOTIFY_THREAD_AGNOSTIC, RegNotifyChangeKeyValue, RegNotifyChangeKeyValue function, _win32_regnotifychangekeyvalue, base.regnotifychangekeyvalue, winreg/RegNotifyChangeKeyValue
 ms.topic: function
-f1_keywords: 
- - "winreg/RegNotifyChangeKeyValue"
+f1_keywords:
+- winreg/RegNotifyChangeKeyValue
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Localregistry-l1-1-0.dll
- - KernelBase.dll
- - Kernel32.dll
- - API-MS-Win-Core-Registry-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - MinKernelBase.dll
- - api-ms-win-core-registry-l1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-Core-Localregistry-l1-1-0.dll
+- KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Registry-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- MinKernelBase.dll
+- api-ms-win-core-registry-l1-1-1.dll
 api_name:
- - RegNotifyChangeKeyValue
+- RegNotifyChangeKeyValue
 targetos: Windows
 req.typenames: 
 req.redist: 

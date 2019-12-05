@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IFileDialogControlEvents.OnCheckButtonToggled
 title: IFileDialogControlEvents::OnCheckButtonToggled (shobjidl.h)
-
 description: Called when the user changes the state of a check button (check box).
 old-location: shell\IFileDialogControlEvents_OnCheckButtonToggled.htm
 tech.root: shell
 ms.assetid: 97e6cb2a-1ffc-43ca-abb6-f1b259e8fcd2
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialogControlEvents interface [Windows Shell],OnCheckButtonToggled method, IFileDialogControlEvents.OnCheckButtonToggled, IFileDialogControlEvents::OnCheckButtonToggled, OnCheckButtonToggled, OnCheckButtonToggled method [Windows Shell], OnCheckButtonToggled method [Windows Shell],IFileDialogControlEvents interface, shell.IFileDialogControlEvents_OnCheckButtonToggled, shell_IFileDialogControlEvents_OnCheckButtonToggled, shobjidl/IFileDialogControlEvents::OnCheckButtonToggled
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IFileDialogControlEvents.OnCheckButtonToggled"
+f1_keywords:
+- shobjidl/IFileDialogControlEvents.OnCheckButtonToggled
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IFileDialogControlEvents.OnCheckButtonToggled
+- IFileDialogControlEvents.OnCheckButtonToggled
 targetos: Windows
 req.typenames: 
 req.redist: 

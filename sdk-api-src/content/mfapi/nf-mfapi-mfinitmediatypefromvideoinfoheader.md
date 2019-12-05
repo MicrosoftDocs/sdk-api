@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFInitMediaTypeFromVideoInfoHeader
 title: MFInitMediaTypeFromVideoInfoHeader function (mfapi.h)
-
 description: Initializes a media type from a DirectShow VIDEOINFOHEADER structure.
 old-location: mf\mfinitmediatypefromvideoinfoheader.htm
 tech.root: medfound
 ms.assetid: 7f88422d-c968-4eea-83cb-45e6cfe37921
-
 ms.date: 12/05/2018
 ms.keywords: 7f88422d-c968-4eea-83cb-45e6cfe37921, MFInitMediaTypeFromVideoInfoHeader, MFInitMediaTypeFromVideoInfoHeader function [Media Foundation], mf.mfinitmediatypefromvideoinfoheader, mfapi/MFInitMediaTypeFromVideoInfoHeader
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFInitMediaTypeFromVideoInfoHeader"
+f1_keywords:
+- mfapi/MFInitMediaTypeFromVideoInfoHeader
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFInitMediaTypeFromVideoInfoHeader
+- MFInitMediaTypeFromVideoInfoHeader
 targetos: Windows
 req.typenames: 
 req.redist: 

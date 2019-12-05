@@ -1,19 +1,17 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageSilo.GetActions
 title: IEnhancedStorageSilo::GetActions (ehstorapi.h)
-
 description: Returns an enumeration of all actions available to the silo object.
 old-location: enstor\ienhancedstoragesilo_getactions.htm
 tech.root: enstor
 ms.assetid: eaf24814-b47a-4f33-ac17-d3b5b344f234
-
 ms.date: 12/05/2018
 ms.keywords: GetActions, GetActions method [Enhanced Storage], GetActions method [Enhanced Storage],IEnhancedStorageSilo interface, IEnhancedStorageSilo interface [Enhanced Storage],GetActions method, IEnhancedStorageSilo.GetActions, IEnhancedStorageSilo::GetActions, ehstorapi/IEnhancedStorageSilo::GetActions, enstor.ienhancedstoragesilo_getactions
 ms.topic: method
-f1_keywords: 
- - "ehstorapi/IEnhancedStorageSilo.GetActions"
+f1_keywords:
+- ehstorapi/IEnhancedStorageSilo.GetActions
 dev_langs:
- - c++
+- c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EhStorAPI.h
+- EhStorAPI.h
 api_name:
- - IEnhancedStorageSilo.GetActions
+- IEnhancedStorageSilo.GetActions
 targetos: Windows
 req.typenames: 
 req.redist: 

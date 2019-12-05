@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_PATH_TARGET_INFO
 title: DISPLAYCONFIG_PATH_TARGET_INFO (wingdi.h)
-
 description: The DISPLAYCONFIG_PATH_TARGET_INFO structure contains target information for a single path.
 old-location: display\displayconfig_path_target_info.htm
 tech.root: display
 ms.assetid: 3dcdca96-7c5d-4e69-b7dd-8b5ccda25f6a
-
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_b33adc91-e83f-42dc-a56a-536bf99cdb7f.xml, DISPLAYCONFIG_PATH_TARGET_INFO, DISPLAYCONFIG_PATH_TARGET_INFO structure [Display Devices], display.displayconfig_path_target_info, wingdi/DISPLAYCONFIG_PATH_TARGET_INFO
 ms.topic: struct
-f1_keywords: 
- - "wingdi/DISPLAYCONFIG_PATH_TARGET_INFO"
+f1_keywords:
+- wingdi/DISPLAYCONFIG_PATH_TARGET_INFO
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wingdi.h
+- wingdi.h
 api_name:
- - DISPLAYCONFIG_PATH_TARGET_INFO
+- DISPLAYCONFIG_PATH_TARGET_INFO
 targetos: Windows
 req.typenames: DISPLAYCONFIG_PATH_TARGET_INFO
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcasync.RpcFreeAuthorizationContext
 title: RpcFreeAuthorizationContext function (rpcasync.h)
-
 description: The RpcFreeAuthorizationContext function frees an Authz context obtained by a previous call to the RpcGetAuthorizationContextForClient function.
 old-location: rpc\rpcfreeauthorizationcontext.htm
 tech.root: Rpc
 ms.assetid: ad6117e1-3244-42dd-b513-d5b2c28e8e10
-
 ms.date: 12/05/2018
 ms.keywords: RpcFreeAuthorizationContext, RpcFreeAuthorizationContext function [RPC], _rpc_rpcfreeauthorizationcontext, rpc.rpcfreeauthorizationcontext, rpcasync/RpcFreeAuthorizationContext
 ms.topic: function
-f1_keywords: 
- - "rpcasync/RpcFreeAuthorizationContext"
+f1_keywords:
+- rpcasync/RpcFreeAuthorizationContext
 dev_langs:
- - c++
+- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcFreeAuthorizationContext
+- RpcFreeAuthorizationContext
 targetos: Windows
 req.typenames: 
 req.redist: 

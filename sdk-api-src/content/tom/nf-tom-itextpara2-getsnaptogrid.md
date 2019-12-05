@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara2.GetSnapToGrid
 title: ITextPara2::GetSnapToGrid (tom.h)
-
 description: Gets whether paragraph lines snap to a vertical grid that could be defined for the whole document.
 old-location: controls\itextpara2_getsnaptogrid.htm
 tech.root: Controls
 ms.assetid: ee5fd1d8-cd2d-4674-bb0f-6021a3115aac
-
 ms.date: 12/05/2018
 ms.keywords: GetSnapToGrid, GetSnapToGrid method [Windows Controls], GetSnapToGrid method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetSnapToGrid method, ITextPara2.GetSnapToGrid, ITextPara2::GetSnapToGrid, controls.itextpara2_getsnaptogrid, tom/ITextPara2::GetSnapToGrid
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara2.GetSnapToGrid"
+f1_keywords:
+- tom/ITextPara2.GetSnapToGrid
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara2.GetSnapToGrid
+- ITextPara2.GetSnapToGrid
 targetos: Windows
 req.typenames: 
 req.redist: 

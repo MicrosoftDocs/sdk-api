@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdclient.IWSDEndpointProxy.GetErrorInfo
 title: IWSDEndpointProxy::GetErrorInfo (wsdclient.h)
-
 description: Retrieves information on the last error.
 old-location: ncd\iwsdendpointproxy_geterrorinfo.htm
 tech.root: WsdApi
 ms.assetid: 950f5634-1cc5-4981-9053-e9090374cc5e
-
 ms.date: 12/05/2018
 ms.keywords: GetErrorInfo, GetErrorInfo method, GetErrorInfo method,IWSDEndpointProxy interface, IWSDEndpointProxy interface,GetErrorInfo method, IWSDEndpointProxy.GetErrorInfo, IWSDEndpointProxy::GetErrorInfo, ncd.iwsdendpointproxy_geterrorinfo, wsdclient/IWSDEndpointProxy::GetErrorInfo
 ms.topic: method
-f1_keywords: 
- - "wsdclient/IWSDEndpointProxy.GetErrorInfo"
+f1_keywords:
+- wsdclient/IWSDEndpointProxy.GetErrorInfo
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDEndpointProxy.GetErrorInfo
+- IWSDEndpointProxy.GetErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

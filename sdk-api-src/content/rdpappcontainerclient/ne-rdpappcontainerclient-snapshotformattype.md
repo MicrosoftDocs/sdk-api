@@ -1,19 +1,17 @@
 ---
 UID: NE:rdpappcontainerclient.__MIDL_IRemoteDesktopClientActions_0003
 title: SnapshotFormatType (rdpappcontainerclient.h)
-
 description: The data format used for a Remote Desktop Protocol (RDP) app container client snapshot.
 old-location: termserv\snapshotformattype.htm
 tech.root: TermServ
 ms.assetid: 18B73928-F797-457A-84A1-0E1B2B1208A2
-
 ms.date: 12/05/2018
 ms.keywords: SnapshotFormatBmp, SnapshotFormatJpeg, SnapshotFormatPng, SnapshotFormatType, SnapshotFormatType enumeration [Remote Desktop Services], rdpappcontainerclient/SnapshotFormatBmp, rdpappcontainerclient/SnapshotFormatJpeg, rdpappcontainerclient/SnapshotFormatPng, rdpappcontainerclient/SnapshotFormatType, termserv.snapshotformattype
 ms.topic: enum
-f1_keywords: 
- - "rdpappcontainerclient/SnapshotFormatType"
+f1_keywords:
+- rdpappcontainerclient/SnapshotFormatType
 dev_langs:
- - c++
+- c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - MsTscAx.dll
+- MsTscAx.dll
 api_name:
- - SnapshotFormatType
+- SnapshotFormatType
 targetos: Windows
 req.typenames: SnapshotFormatType
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVEncAudioInputContent
 title: eAVEncAudioInputContent (codecapi.h)
-
 description: Specifies whether the audio content contains music or voice. This enumeration is used with the AVEncAudioInputContent property.
 old-location: dshow\eavencaudioinputcontent.htm
 tech.root: DirectShow
 ms.assetid: e9de2468-3676-4b4b-8eec-385c33b3f44b
-
 ms.date: 12/05/2018
 ms.keywords: AVEncAudioInputContent_Music, AVEncAudioInputContent_Unknown, AVEncAudioInputContent_Voice, codecapi/AVEncAudioInputContent_Music, codecapi/AVEncAudioInputContent_Unknown, codecapi/AVEncAudioInputContent_Voice, codecapi/eAVEncAudioInputContent, dshow.eavencaudioinputcontent, eAVEncAudioInputContent, eAVEncAudioInputContent enumeration [DirectShow], eAVEncAudioInputContentEnumeration
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVEncAudioInputContent"
+f1_keywords:
+- codecapi/eAVEncAudioInputContent
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVEncAudioInputContent
+- eAVEncAudioInputContent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.PATHOBJ_bEnum
 title: PATHOBJ_bEnum function (winddi.h)
-
 description: The PATHOBJ_bEnum function retrieves the next PATHDATA record from a specified path and enumerates the curves in the path.
 old-location: display\pathobj_benum.htm
 tech.root: display
 ms.assetid: 2e8bd76c-5ee6-4fe5-b1e5-64e84d09fc8f
-
 ms.date: 12/05/2018
 ms.keywords: PATHOBJ_bEnum, PATHOBJ_bEnum function [Display Devices], display.pathobj_benum, gdifncs_afa2e11c-1671-426c-aab8-c0998eafb4b5.xml, winddi/PATHOBJ_bEnum
 ms.topic: function
 f1_keywords:
 - winddi/PATHOBJ_bEnum
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

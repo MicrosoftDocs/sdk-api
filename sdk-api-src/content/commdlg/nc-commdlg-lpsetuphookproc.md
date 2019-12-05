@@ -1,19 +1,17 @@
 ---
 UID: NC:commdlg.LPSETUPHOOKPROC
 title: LPSETUPHOOKPROC (commdlg.h)
-
 description: An application-defined or library-defined callback function used with the PrintDlg function. The hook procedure receives messages or notifications intended for the default dialog box procedure of the Print Setup dialog box.
 old-location: dlgbox\setuphookproc.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\setuphookproc.htm
-
 ms.date: 12/05/2018
 ms.keywords: LPSETUPHOOKPROC, LPSETUPHOOKPROC callback, LPSETUPHOOKPROC callback function [Dialog Boxes], _win32_SetupHookProc, _win32_setuphookproc_cpp, commdlg/LPSETUPHOOKPROC, dlgbox.setuphookproc, winui._win32_setuphookproc
 ms.topic: callback
-f1_keywords: 
- - "commdlg/LPSETUPHOOKPROC"
+f1_keywords:
+- commdlg/LPSETUPHOOKPROC
 dev_langs:
- - c++
+- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Commdlg.h
+- Commdlg.h
 api_name:
- - LPSETUPHOOKPROC
+- LPSETUPHOOKPROC
 targetos: Windows
 req.typenames: 
 req.redist: 

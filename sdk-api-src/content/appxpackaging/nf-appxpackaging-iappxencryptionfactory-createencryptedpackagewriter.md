@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory.CreateEncryptedPackageWriter
 title: IAppxEncryptionFactory::CreateEncryptedPackageWriter (appxpackaging.h)
-
 description: Creates a new instance of an IAppxEncryptedPackageWriter.
 old-location: appxpkg\iappxencryptionfactory_createencryptedpackagewriter.htm
 tech.root: appxpkg
 ms.assetid: 01447B17-E197-4E08-B878-F5487F3E9E92
-
 ms.date: 12/05/2018
 ms.keywords: CreateEncryptedPackageWriter, CreateEncryptedPackageWriter method [App packaging and management], CreateEncryptedPackageWriter method [App packaging and management],IAppxEncryptionFactory interface, IAppxEncryptionFactory interface [App packaging and management],CreateEncryptedPackageWriter method, IAppxEncryptionFactory.CreateEncryptedPackageWriter, IAppxEncryptionFactory::CreateEncryptedPackageWriter, appxpackaging/IAppxEncryptionFactory::CreateEncryptedPackageWriter, appxpkg.iappxencryptionfactory_createencryptedpackagewriter
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxEncryptionFactory.CreateEncryptedPackageWriter"
+f1_keywords:
+- appxpackaging/IAppxEncryptionFactory.CreateEncryptedPackageWriter
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxEncryptionFactory.CreateEncryptedPackageWriter
+- IAppxEncryptionFactory.CreateEncryptedPackageWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IConsole.GetMainWindow
 title: IConsole::GetMainWindow (mmc.h)
-
 description: Retrieves a handle to the main frame window.
 old-location: mmc\iconsole_getmainwindow.htm
 tech.root: mmc
 ms.assetid: C861307B-38DD-4FC0-A790-59E26AB6F7AD
-
 ms.date: 12/05/2018
 ms.keywords: GetMainWindow, GetMainWindow method [MMC], GetMainWindow method [MMC],IConsole interface, IConsole interface [MMC],GetMainWindow method, IConsole.GetMainWindow, IConsole::GetMainWindow, mmc.iconsole_getmainwindow, mmc/IConsole::GetMainWindow
 ms.topic: method
-f1_keywords: 
- - "mmc/IConsole.GetMainWindow"
+f1_keywords:
+- mmc/IConsole.GetMainWindow
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IConsole.GetMainWindow
+- IConsole.GetMainWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidRect
 title: IMSVidRect (segment.h)
-
 description: The IMSVidRect interface represents a rectangle with an associated window handle.
 old-location: mstv\imsvidrect.htm
 tech.root: mstv
 ms.assetid: 0b3cf31b-e0cc-4208-a128-b77460fc0f1b
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidRect, IMSVidRect interface [Microsoft TV Technologies], IMSVidRect interface [Microsoft TV Technologies],described, IMSVidRectInterface, mstv.imsvidrect, segment/IMSVidRect
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidRect"
+f1_keywords:
+- segment/IMSVidRect
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidRect
+- IMSVidRect
 targetos: Windows
 req.typenames: 
 req.redist: 

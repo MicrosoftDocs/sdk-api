@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyEnumType2.GetImageReference
 title: IPropertyEnumType2::GetImageReference (propsys.h)
-
 description: Retrieves the image reference associated with a property enumeration.
 old-location: properties\IPropertyEnumType2_GetImageReference.htm
 tech.root: properties
 ms.assetid: 3b519cb1-cfea-4242-99f4-af290d622c38
-
 ms.date: 12/05/2018
 ms.keywords: GetImageReference, GetImageReference method [Windows Properties], GetImageReference method [Windows Properties],IPropertyEnumType2 interface, IPropertyEnumType2 interface [Windows Properties],GetImageReference method, IPropertyEnumType2.GetImageReference, IPropertyEnumType2::GetImageReference, _shell_IPropertyEnumType2_GetImageReference, properties.IPropertyEnumType2_GetImageReference, propsys/IPropertyEnumType2::GetImageReference, shell.IPropertyEnumType2_GetImageReference
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyEnumType2.GetImageReference"
+f1_keywords:
+- propsys/IPropertyEnumType2.GetImageReference
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyEnumType2.GetImageReference
+- IPropertyEnumType2.GetImageReference
 targetos: Windows
 req.typenames: 
 req.redist: 

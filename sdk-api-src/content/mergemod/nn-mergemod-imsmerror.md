@@ -1,19 +1,17 @@
 ---
 UID: NN:mergemod.IMsmError
 title: IMsmError (mergemod.h)
-
 description: The IMsmError interface retrieves details about a single merge error.
 old-location: setup\imsmerror_interface.htm
 tech.root: Msi
 ms.assetid: 705f53ca-82f4-4929-b2a3-0ace8e4ca19b
-
 ms.date: 12/05/2018
 ms.keywords: IMsmError, IMsmError interface, IMsmError interface,described, mergemod/IMsmError, setup.imsmerror_interface
 ms.topic: interface
-f1_keywords: 
- - "mergemod/IMsmError"
+f1_keywords:
+- mergemod/IMsmError
 dev_langs:
- - c++
+- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib:
 req.dll: Mergemod.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mergemod.dll
+- Mergemod.dll
 api_name:
- - IMsmError
- - IMsmError.get_Type
- - IMsmError.get_Path
- - IMsmError.get_Language
- - IMsmError.get_DatabaseTable
- - IMsmError.get_DatabaseKeys
- - IMsmError.get_ModuleTable
- - IMsmError.get_ModuleKeys
+- IMsmError
+- IMsmError.get_Type
+- IMsmError.get_Path
+- IMsmError.get_Language
+- IMsmError.get_DatabaseTable
+- IMsmError.get_DatabaseKeys
+- IMsmError.get_ModuleTable
+- IMsmError.get_ModuleKeys
 targetos: Windows
 req.typenames: 
 req.redist: 

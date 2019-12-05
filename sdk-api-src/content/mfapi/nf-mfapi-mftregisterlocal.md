@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFTRegisterLocal
 title: MFTRegisterLocal function (mfapi.h)
-
 description: Registers a Media Foundation transform (MFT) in the caller's process.
 old-location: mf\mftregisterlocal.htm
 tech.root: medfound
 ms.assetid: 802f7083-e224-4e5c-8a35-3e93da0cbd91
-
 ms.date: 12/05/2018
 ms.keywords: MFTRegisterLocal, MFTRegisterLocal function [Media Foundation], mf.mftregisterlocal, mfapi/MFTRegisterLocal
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFTRegisterLocal"
+f1_keywords:
+- mfapi/MFTRegisterLocal
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFTRegisterLocal
+- MFTRegisterLocal
 targetos: Windows
 req.typenames: 
 req.redist: 

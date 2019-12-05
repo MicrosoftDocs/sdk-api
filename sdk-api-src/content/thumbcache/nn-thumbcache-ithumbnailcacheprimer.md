@@ -1,19 +1,17 @@
 ---
 UID: NN:thumbcache.IThumbnailCachePrimer
 title: IThumbnailCachePrimer (thumbcache.h)
-
-description: "."
+description: .
 old-location: shell\IThumbnailCachePrimer.htm
 tech.root: shell
 ms.assetid: 2EBDF7CF-8EDF-4d2f-9632-905C60A7BC45
-
 ms.date: 12/05/2018
 ms.keywords: IThumbnailCachePrimer, IThumbnailCachePrimer interface [Windows Shell], IThumbnailCachePrimer interface [Windows Shell],described, shell.IThumbnailCachePrimer, thumbcache/IThumbnailCachePrimer
 ms.topic: interface
-f1_keywords: 
- - "thumbcache/IThumbnailCachePrimer"
+f1_keywords:
+- thumbcache/IThumbnailCachePrimer
 dev_langs:
- - c++
+- c++
 req.header: thumbcache.h
 req.include-header: Thumbcache.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - thumbcache.h
+- thumbcache.h
 api_name:
- - IThumbnailCachePrimer
+- IThumbnailCachePrimer
 targetos: Windows
 req.typenames: 
 req.redist: 

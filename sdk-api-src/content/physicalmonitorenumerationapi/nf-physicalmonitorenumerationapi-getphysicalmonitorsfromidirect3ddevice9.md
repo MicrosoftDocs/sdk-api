@@ -1,19 +1,17 @@
 ---
 UID: NF:physicalmonitorenumerationapi.GetPhysicalMonitorsFromIDirect3DDevice9
 title: GetPhysicalMonitorsFromIDirect3DDevice9 function (physicalmonitorenumerationapi.h)
-
 description: Retrieves the physical monitors associated with a Direct3D device.
 old-location: monitor\getphysicalmonitorsfromidirect3ddevice9.htm
 tech.root: Monitor
 ms.assetid: 1e0e9749-8ee4-42d5-ab7b-182222b6c429
-
 ms.date: 12/05/2018
 ms.keywords: GetPhysicalMonitorsFromIDirect3DDevice9, GetPhysicalMonitorsFromIDirect3DDevice9 function [Monitor Configuration], monitor.getphysicalmonitorsfromidirect3ddevice9, physicalmonitorenumerationapi/GetPhysicalMonitorsFromIDirect3DDevice9
 ms.topic: function
-f1_keywords: 
- - "physicalmonitorenumerationapi/GetPhysicalMonitorsFromIDirect3DDevice9"
+f1_keywords:
+- physicalmonitorenumerationapi/GetPhysicalMonitorsFromIDirect3DDevice9
 dev_langs:
- - c++
+- c++
 req.header: physicalmonitorenumerationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - GetPhysicalMonitorsFromIDirect3DDevice9
+- GetPhysicalMonitorsFromIDirect3DDevice9
 targetos: Windows
 req.typenames: 
 req.redist: 

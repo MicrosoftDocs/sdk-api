@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.INameSpaceTreeControlDropHandler
 title: INameSpaceTreeControlDropHandler (shobjidl.h)
-
 description: Exposes handler methods for drag-and-drop.
 old-location: shell\INameSpaceTreeControlDropHandler.htm
 tech.root: shell
 ms.assetid: 5d2c1783-daeb-488d-93b9-34df2712d849
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlDropHandler, INameSpaceTreeControlDropHandler interface [Windows Shell], INameSpaceTreeControlDropHandler interface [Windows Shell],described, _shell_INameSpaceTreeControlDropHandler, shell.INameSpaceTreeControlDropHandler, shobjidl/INameSpaceTreeControlDropHandler
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/INameSpaceTreeControlDropHandler"
+f1_keywords:
+- shobjidl/INameSpaceTreeControlDropHandler
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - INameSpaceTreeControlDropHandler
+- INameSpaceTreeControlDropHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

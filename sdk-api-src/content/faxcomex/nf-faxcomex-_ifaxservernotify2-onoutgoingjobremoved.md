@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnOutgoingJobRemoved
 title: _IFaxServerNotify2::OnOutgoingJobRemoved (faxcomex.h)
-
 description: The fax service calls the IFaxServerNotify2::OnOutgoingJobRemoved method when an outgoing fax job is removed from the job queue.
 old-location: fax\_mfax_ifaxservernotify2_onoutgoingjobremoved.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onoutgoingjobremoved.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnOutgoingJobRemoved method, IFaxServerNotify2.OnOutgoingJobRemoved, IFaxServerNotify2::OnOutgoingJobRemoved, OnOutgoingJobRemoved, OnOutgoingJobRemoved method [Fax Service], OnOutgoingJobRemoved method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnOutgoingJobRemoved, _IFaxServerNotify2::OnOutgoingJobRemoved, _mfax_ifaxservernotify2_onoutgoingjobremoved, fax._mfax_ifaxservernotify2_onoutgoingjobremoved, faxcomex/IFaxServerNotify2::OnOutgoingJobRemoved
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxServerNotify2.OnOutgoingJobRemoved"
+f1_keywords:
+- faxcomex/IFaxServerNotify2.OnOutgoingJobRemoved
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxServerNotify2.OnOutgoingJobRemoved
- - IFaxServerNotify2.OnOutgoingJobRemoved
+- IFaxServerNotify2.OnOutgoingJobRemoved
+- IFaxServerNotify2.OnOutgoingJobRemoved
 targetos: Windows
 req.typenames: 
 req.redist: 

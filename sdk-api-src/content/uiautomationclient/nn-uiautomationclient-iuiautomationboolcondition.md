@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationBoolCondition
 title: IUIAutomationBoolCondition (uiautomationclient.h)
-
 description: Represents a condition that can be either TRUE (selects all elements) or FALSE (selects no elements).
 old-location: winauto\uiauto_IUIAutomationBoolCondition.htm
 tech.root: WinAuto
 ms.assetid: a2f9d994-a0fa-4ff5-90b2-8212469f0ced
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationBoolCondition, IUIAutomationBoolCondition interface [Windows Accessibility], IUIAutomationBoolCondition interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationBoolCondition, uiauto_IUIAutomationBoolCondition, uiautomationclient/IUIAutomationBoolCondition, winauto.uiauto_IUIAutomationBoolCondition
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationBoolCondition"
+f1_keywords:
+- uiautomationclient/IUIAutomationBoolCondition
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationBoolCondition
+- IUIAutomationBoolCondition
 targetos: Windows
 req.typenames: 
 req.redist: 

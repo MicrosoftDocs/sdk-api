@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_RecipientDepartment
 title: IFaxDoc::put_RecipientDepartment (faxcom.h)
-
 description: Sets or retrieves the RecipientDepartment property of a FaxDoc object. The RecipientDepartment property is a null-terminated string that contains the department of the recipient of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipientdepartment_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3mk4.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],RecipientDepartment property, IFaxDoc.RecipientDepartment, IFaxDoc.put_RecipientDepartment, IFaxDoc::RecipientDepartment, IFaxDoc::get_RecipientDepartment, IFaxDoc::put_RecipientDepartment, RecipientDepartment property [Fax Service], RecipientDepartment property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_recipientdepartment, fax._mfax_ifaxdoc_get_recipientdepartment, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientdepartment_cpp, faxcom/IFaxDoc::RecipientDepartment, faxcom/IFaxDoc::get_RecipientDepartment, faxcom/IFaxDoc::put_RecipientDepartment, put_RecipientDepartment
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxDoc.RecipientDepartment"
+f1_keywords:
+- faxcom/IFaxDoc.RecipientDepartment
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxDoc.RecipientDepartment
- - IFaxDoc.get_RecipientDepartment
- - IFaxDoc.put_RecipientDepartment
+- IFaxDoc.RecipientDepartment
+- IFaxDoc.get_RecipientDepartment
+- IFaxDoc.put_RecipientDepartment
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:deviceaccess.IDeviceIoControl.CancelOperation
 title: IDeviceIoControl::CancelOperation (deviceaccess.h)
-
 description: The CancelOperation method attempts to cancel a previously issued call by using the DeviceIoControlAsync method.
 old-location: deviceaccess\ideviceiocontrol_canceloperation.htm
 tech.root: deviceaccess
 ms.assetid: 476a84c8-4065-4a4f-ad74-68cbbbabd5dd
-
 ms.date: 12/05/2018
 ms.keywords: CancelOperation, CancelOperation method [Device Access Broker API], CancelOperation method [Device Access Broker API],IDeviceIoControl interface, IDeviceIoControl interface [Device Access Broker API],CancelOperation method, IDeviceIoControl.CancelOperation, IDeviceIoControl::CancelOperation, deviceaccess.ideviceiocontrol_canceloperation, deviceaccess/IDeviceIoControl::CancelOperation
 ms.topic: method
-f1_keywords: 
- - "deviceaccess/IDeviceIoControl.CancelOperation"
+f1_keywords:
+- deviceaccess/IDeviceIoControl.CancelOperation
 dev_langs:
- - c++
+- c++
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Deviceaccess.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Deviceaccess.lib
- - Deviceaccess.dll
+- Deviceaccess.lib
+- Deviceaccess.dll
 api_name:
- - IDeviceIoControl.CancelOperation
+- IDeviceIoControl.CancelOperation
 targetos: Windows
 req.typenames: 
 req.redist: 

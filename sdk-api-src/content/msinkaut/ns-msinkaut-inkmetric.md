@@ -1,19 +1,17 @@
 ---
 UID: NS:msinkaut.tagINKMETRIC
 title: INKMETRIC (msinkaut.h)
-
 description: Specifies display properties for a text ink object (tInk).
 old-location: tablet\inkmetric.htm
 tech.root: tablet
 ms.assetid: 27d56034-725d-4b05-9c43-6b3180d7411b
-
 ms.date: 12/05/2018
-ms.keywords: "*PINKMETRIC, 27d56034-725d-4b05-9c43-6b3180d7411b, IMF_BOLD, IMF_FONT_SELECTED_IN_HDC, IMF_ITALIC, INKMETRIC, INKMETRIC structure [Tablet PC], PINKMETRIC, PINKMETRIC structure pointer [Tablet PC], msinkaut/INKMETRIC, msinkaut/PINKMETRIC, tablet.inkmetric"
+ms.keywords: '*PINKMETRIC, 27d56034-725d-4b05-9c43-6b3180d7411b, IMF_BOLD, IMF_FONT_SELECTED_IN_HDC, IMF_ITALIC, INKMETRIC, INKMETRIC structure [Tablet PC], PINKMETRIC, PINKMETRIC structure pointer [Tablet PC], msinkaut/INKMETRIC, msinkaut/PINKMETRIC, tablet.inkmetric'
 ms.topic: struct
-f1_keywords: 
- - "msinkaut/INKMETRIC"
+f1_keywords:
+- msinkaut/INKMETRIC
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msinkaut.h
+- msinkaut.h
 api_name:
- - INKMETRIC
+- INKMETRIC
 targetos: Windows
 req.typenames: INKMETRIC, *PINKMETRIC
 req.redist: 

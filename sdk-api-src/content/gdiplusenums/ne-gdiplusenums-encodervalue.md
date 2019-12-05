@@ -1,19 +1,17 @@
 ---
 UID: NE:gdiplusenums.EncoderValue
 title: EncoderValue (gdiplusenums.h)
-
 description: The EncoderValue enumeration specifies values that can be passed as arguments to image encoders. For more information about image encoders, see Using Image Encoders and Decoders .
 old-location: gdiplus\_gdiplus_ENUM_EncoderValue.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\encodervalue.htm
-
 ms.date: 12/05/2018
 ms.keywords: EncoderValue, EncoderValue enumeration [GDI+], EncoderValueColorTypeCMYK, EncoderValueColorTypeYCCK, EncoderValueCompressionCCITT3, EncoderValueCompressionCCITT4, EncoderValueCompressionLZW, EncoderValueCompressionNone, EncoderValueCompressionRle, EncoderValueFlush, EncoderValueFrameDimensionPage, EncoderValueFrameDimensionResolution, EncoderValueFrameDimensionTime, EncoderValueLastFrame, EncoderValueMultiFrame, EncoderValueRenderNonProgressive, EncoderValueRenderProgressive, EncoderValueScanMethodInterlaced, EncoderValueScanMethodNonInterlaced, EncoderValueTransformFlipHorizontal, EncoderValueTransformFlipVertical, EncoderValueTransformRotate180, EncoderValueTransformRotate270, EncoderValueTransformRotate90, EncoderValueVersionGif87, EncoderValueVersionGif89, _gdiplus_ENUM_EncoderValue, gdiplus._gdiplus_ENUM_EncoderValue, gdiplusenums/EncoderValue, gdiplusenums/EncoderValueColorTypeCMYK, gdiplusenums/EncoderValueColorTypeYCCK, gdiplusenums/EncoderValueCompressionCCITT3, gdiplusenums/EncoderValueCompressionCCITT4, gdiplusenums/EncoderValueCompressionLZW, gdiplusenums/EncoderValueCompressionNone, gdiplusenums/EncoderValueCompressionRle, gdiplusenums/EncoderValueFlush, gdiplusenums/EncoderValueFrameDimensionPage, gdiplusenums/EncoderValueFrameDimensionResolution, gdiplusenums/EncoderValueFrameDimensionTime, gdiplusenums/EncoderValueLastFrame, gdiplusenums/EncoderValueMultiFrame, gdiplusenums/EncoderValueRenderNonProgressive, gdiplusenums/EncoderValueRenderProgressive, gdiplusenums/EncoderValueScanMethodInterlaced, gdiplusenums/EncoderValueScanMethodNonInterlaced, gdiplusenums/EncoderValueTransformFlipHorizontal, gdiplusenums/EncoderValueTransformFlipVertical, gdiplusenums/EncoderValueTransformRotate180, gdiplusenums/EncoderValueTransformRotate270, gdiplusenums/EncoderValueTransformRotate90, gdiplusenums/EncoderValueVersionGif87, gdiplusenums/EncoderValueVersionGif89
 ms.topic: enum
-f1_keywords: 
- - "gdiplusenums/EncoderValue"
+f1_keywords:
+- gdiplusenums/EncoderValue
 dev_langs:
- - c++
+- c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdiplusenums.h
+- Gdiplusenums.h
 api_name:
- - EncoderValue
+- EncoderValue
 targetos: Windows
 req.typenames: 
 req.redist: 

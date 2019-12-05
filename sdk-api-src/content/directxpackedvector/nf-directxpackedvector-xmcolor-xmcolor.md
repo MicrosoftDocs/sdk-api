@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMCOLOR.XMCOLOR
 title: XMCOLOR::XMCOLOR (directxpackedvector.h)
-
 description: Default constructor for XMCOLOR.
 old-location: dxmath\xmcolor_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMCOLOR.#ctor
-
 ms.date: 12/05/2018
 ms.keywords: XMCOLOR, XMCOLOR constructor [DirectX Math Support APIs], XMCOLOR constructor [DirectX Math Support APIs],XMCOLOR structure, XMCOLOR structure [DirectX Math Support APIs],XMCOLOR constructor, XMCOLOR.XMCOLOR, XMCOLOR.XMCOLOR(), XMCOLOR::XMCOLOR, dxmath.xmcolor_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMCOLOR.XMCOLOR"
+f1_keywords:
+- directxpackedvector/XMCOLOR.XMCOLOR
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMCOLOR.XMCOLOR
+- XMCOLOR.XMCOLOR
 targetos: Windows
 req.typenames: 
 req.redist: 

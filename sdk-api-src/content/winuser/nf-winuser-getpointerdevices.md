@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetPointerDevices
 title: GetPointerDevices function (winuser.h)
-
 description: Gets information about the pointer devices attached to the system.
 old-location: input_pointerdevice\getpointerdevices.htm
 tech.root: Input_PointerDevice
 ms.assetid: 91FD5EBA-EDD7-4D7D-ABF3-3CE2461417B0
-
 ms.date: 12/05/2018
 ms.keywords: GetPointerDevices, GetPointerDevices function, input_pointerdevice.getpointerdevices, unifiedinputstack.getpointerdevices, winuser/GetPointerDevices
 ms.topic: function
-f1_keywords: 
- - "winuser/GetPointerDevices"
+f1_keywords:
+- winuser/GetPointerDevices
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
- - MinUser.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
- - API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
+- MinUser.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
+- API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
- - GetPointerDevices
+- GetPointerDevices
 targetos: Windows
 req.typenames: 
 req.redist: 

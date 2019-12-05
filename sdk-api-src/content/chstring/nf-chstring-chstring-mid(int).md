@@ -1,19 +1,17 @@
 ---
 UID: NF:chstring.CHString.Mid(int)
 title: CHString::Mid(int) (chstring.h)
-
 description: The Mid method extracts a substring of length nCount characters from a CHString string, starting at position nFirst (zero-based). The method returns a copy of the extracted substring.
 old-location: wmi\chstring_mid_int_.htm
 tech.root: WmiSdk
 ms.assetid: dfc52075-2323-438e-9fe9-7ca3f2de2e35
-
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],Mid method, CHString.Mid, CHString.Mid(int), CHString::Mid, CHString::Mid(int), Mid, Mid method [Windows Management Instrumentation], Mid method [Windows Management Instrumentation],CHString interface, chstring/CHString::Mid, wmi.chstring_mid_int_
 ms.topic: method
-f1_keywords: 
- - "chstring/CHString.Mid"
+f1_keywords:
+- chstring/CHString.Mid
 dev_langs:
- - c++
+- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHString.Mid
+- CHString.Mid
 targetos: Windows
 req.typenames: 
 req.redist: 

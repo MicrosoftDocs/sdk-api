@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCryptCreateMultiHash
 title: BCryptCreateMultiHash function (bcrypt.h)
-
 description: The BCryptCreateMultiHash function creates a multi-hash state that allows for the parallel computation of multiple hash operations.
 old-location: security\bcryptcreatemultihash.htm
 tech.root: SecCNG
 ms.assetid: AAF91460-AEFB-4E16-91EA-4A60272B3839
-
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_HASH_REUSABLE_FLAG, BCryptCreateMultiHash, BCryptCreateMultiHash function [Security], bcrypt/BCryptCreateMultiHash, security.bcryptcreatemultihash
 ms.topic: function
 f1_keywords:
 - bcrypt/BCryptCreateMultiHash
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

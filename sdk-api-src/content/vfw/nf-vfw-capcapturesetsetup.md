@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capCaptureSetSetup
 title: capCaptureSetSetup macro (vfw.h)
-
 description: The capCaptureSetSetup macro sets the configuration parameters used with streaming capture. You can use this macro or explicitly send the WM_CAP_SET_SEQUENCE_SETUP message.
 old-location: multimedia\capcapturesetsetup.htm
 tech.root: Multimedia
 ms.assetid: 663dcb34-6b11-4208-b5d6-216799fb774d
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capCaptureSetSetup, capCaptureSetSetup, capCaptureSetSetup macro [Windows Multimedia], multimedia.capcapturesetsetup, vfw/capCaptureSetSetup"
+ms.keywords: _win32_capCaptureSetSetup, capCaptureSetSetup, capCaptureSetSetup macro [Windows Multimedia], multimedia.capcapturesetsetup, vfw/capCaptureSetSetup
 ms.topic: macro
-f1_keywords: 
- - "vfw/capCaptureSetSetup"
+f1_keywords:
+- vfw/capCaptureSetSetup
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capCaptureSetSetup
+- capCaptureSetSetup
 targetos: Windows
 req.typenames: 
 req.redist: 

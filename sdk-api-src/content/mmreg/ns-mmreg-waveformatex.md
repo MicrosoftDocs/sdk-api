@@ -1,19 +1,17 @@
 ---
 UID: NS:mmreg.tWAVEFORMATEX
 title: WAVEFORMATEX (mmreg.h)
-
 description: The WAVEFORMATEX structure specifies the data format of a wave audio stream.
 old-location: audio\waveformatex.htm
 tech.root: audio
 ms.assetid: f2f050d6-afe2-4647-932b-1287f4538702
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWAVEFORMATEX, *NPWAVEFORMATEX, *PWAVEFORMATEX, WAVEFORMATEX, WAVEFORMATEX structure [Audio Devices], aud-prop_f0d9c096-fa87-43d5-812b-de4d08358342.xml, audio.waveformatex, mmreg/WAVEFORMATEX"
+ms.keywords: '*LPWAVEFORMATEX, *NPWAVEFORMATEX, *PWAVEFORMATEX, WAVEFORMATEX, WAVEFORMATEX structure [Audio Devices], aud-prop_f0d9c096-fa87-43d5-812b-de4d08358342.xml, audio.waveformatex, mmreg/WAVEFORMATEX'
 ms.topic: struct
-f1_keywords: 
- - "mmreg/WAVEFORMATEX"
+f1_keywords:
+- mmreg/WAVEFORMATEX
 dev_langs:
- - c++
+- c++
 req.header: mmreg.h
 req.include-header: Mmsystem.h, Mmreg.h, Mmsystem.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mmreg.h
+- mmreg.h
 api_name:
- - WAVEFORMATEX
+- WAVEFORMATEX
 targetos: Windows
 req.typenames: WAVEFORMATEX, *PWAVEFORMATEX, *NPWAVEFORMATEX, *LPWAVEFORMATEX
 req.redist: 

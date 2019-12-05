@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ComboBox_FindString
 title: ComboBox_FindString macro (windowsx.h)
-
 description: Finds the first string in a combo box list that begins with the specified string. You can use this macro or send the CB_FINDSTRING message explicitly.
 old-location: controls\ComboBox_FindString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_findstring.htm
-
 ms.date: 12/05/2018
 ms.keywords: ComboBox_FindString, ComboBox_FindString macro [Windows Controls], _win32_ComboBox_FindString, _win32_ComboBox_FindString_cpp, controls.ComboBox_FindString, controls._win32_ComboBox_FindString, windowsx/ComboBox_FindString
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ComboBox_FindString"
+f1_keywords:
+- windowsx/ComboBox_FindString
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ComboBox_FindString
+- ComboBox_FindString
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetTableIndex
 title: IMetaDataTables::GetTableIndex (rometadataapi.h)
-
 description: Gets the index for the table referenced by the specified token.
 old-location: winrt\imetadatatables_gettableindex.htm
 tech.root: WinRT
 ms.assetid: 4bc00076-f706-4941-84bd-f1b9c61934e5
-
 ms.date: 12/05/2018
 ms.keywords: GetTableIndex, GetTableIndex method [Windows Runtime], GetTableIndex method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetTableIndex method, IMetaDataTables.GetTableIndex, IMetaDataTables::GetTableIndex, rometadataapi/IMetaDataTables::GetTableIndex, winrt.imetadatatables_gettableindex
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataTables.GetTableIndex"
+f1_keywords:
+- rometadataapi/IMetaDataTables.GetTableIndex
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataTables.GetTableIndex
+- IMetaDataTables.GetTableIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

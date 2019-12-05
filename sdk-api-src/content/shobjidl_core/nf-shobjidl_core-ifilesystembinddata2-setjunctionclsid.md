@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileSystemBindData2.SetJunctionCLSID
 title: IFileSystemBindData2::SetJunctionCLSID (shobjidl_core.h)
-
 description: Sets the class identifier (CLSID) of the object that implements IShellFolder, if the current item is a junction point.
 old-location: shell\IFileSystemBindData2_SetJunctionCLSID.htm
 tech.root: shell
 ms.assetid: e072818d-dfa4-4b95-93b6-275206596147
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemBindData2 interface [Windows Shell],SetJunctionCLSID method, IFileSystemBindData2.SetJunctionCLSID, IFileSystemBindData2::SetJunctionCLSID, SetJunctionCLSID, SetJunctionCLSID method [Windows Shell], SetJunctionCLSID method [Windows Shell],IFileSystemBindData2 interface, _shell_IFileSystemBindData2_SetJunctionCLSID, shell.IFileSystemBindData2_SetJunctionCLSID, shobjidl_core/IFileSystemBindData2::SetJunctionCLSID
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileSystemBindData2.SetJunctionCLSID"
+f1_keywords:
+- shobjidl_core/IFileSystemBindData2.SetJunctionCLSID
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileSystemBindData2.SetJunctionCLSID
+- IFileSystemBindData2.SetJunctionCLSID
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIBuildFilterA
 title: AVIBuildFilterA function (vfw.h)
-
 description: The AVIBuildFilter function builds a filter specification that is subsequently used by the GetOpenFileName or GetSaveFileName function.
 old-location: multimedia\avibuildfilter.htm
 tech.root: Multimedia
 ms.assetid: 0ec90343-7493-4fa7-ac89-a49db90ecdf7
-
 ms.date: 12/05/2018
 ms.keywords: AVIBuildFilter, AVIBuildFilter function [Windows Multimedia], AVIBuildFilterA, AVIBuildFilterW, _win32_AVIBuildFilter, multimedia.avibuildfilter, vfw/AVIBuildFilter, vfw/AVIBuildFilterA, vfw/AVIBuildFilterW
 ms.topic: function
-f1_keywords: 
- - "vfw/AVIBuildFilter"
+f1_keywords:
+- vfw/AVIBuildFilter
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
+- Avifil32.dll
 api_name:
- - AVIBuildFilter
- - AVIBuildFilterA
- - AVIBuildFilterW
+- AVIBuildFilter
+- AVIBuildFilterA
+- AVIBuildFilterW
 targetos: Windows
 req.typenames: 
 req.redist: 

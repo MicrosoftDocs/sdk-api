@@ -1,19 +1,17 @@
 ---
 UID: NF:bluetoothapis.BluetoothSendAuthenticationResponseEx
 title: BluetoothSendAuthenticationResponseEx function (bluetoothapis.h)
-
 description: The BluetoothSendAuthenticationResponseEx function is called when an authentication request to send the passkey or a Numeric Comparison response is made.
 old-location: bluetooth\bluetoothsendauthenticationresponseex.htm
 tech.root: bluetooth
 ms.assetid: f23f90e3-c86f-44e4-a164-620105b19f08
-
 ms.date: 12/05/2018
 ms.keywords: BluetoothSendAuthenticationResponseEx, BluetoothSendAuthenticationResponseEx function [Bluetooth], bluetooth.bluetoothsendauthenticationresponseex, bluetoothapis/BluetoothSendAuthenticationResponseEx
 ms.topic: function
-f1_keywords: 
- - "bluetoothapis/BluetoothSendAuthenticationResponseEx"
+f1_keywords:
+- bluetoothapis/BluetoothSendAuthenticationResponseEx
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Bthprops.lib
 req.dll: Bthprops.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bthprops.dll
- - BluetoothAPIs.dll
- - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+- Bthprops.dll
+- BluetoothAPIs.dll
+- Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
 api_name:
- - BluetoothSendAuthenticationResponseEx
+- BluetoothSendAuthenticationResponseEx
 targetos: Windows
 req.typenames: 
 req.redist: 

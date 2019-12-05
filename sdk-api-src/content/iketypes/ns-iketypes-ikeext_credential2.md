@@ -1,19 +1,17 @@
 ---
 UID: NS:iketypes.IKEEXT_CREDENTIAL2_
 title: IKEEXT_CREDENTIAL2 (iketypes.h)
-
 description: Is used to store credential information used for the authentication.
 old-location: fwp\ikeext_credential2.htm
 tech.root: fwp
 ms.assetid: b27689ef-5e2a-4163-a4d7-40f8939d4c66
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_CREDENTIAL2, IKEEXT_CREDENTIAL2 structure [Filtering], fwp.ikeext_credential2, iketypes/IKEEXT_CREDENTIAL2
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_CREDENTIAL2"
+f1_keywords:
+- iketypes/IKEEXT_CREDENTIAL2
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - iketypes.h
+- iketypes.h
 api_name:
- - IKEEXT_CREDENTIAL2
+- IKEEXT_CREDENTIAL2
 targetos: Windows
 req.typenames: IKEEXT_CREDENTIAL2
 req.redist: 

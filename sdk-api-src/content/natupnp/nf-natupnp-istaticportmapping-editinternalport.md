@@ -1,19 +1,17 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.EditInternalPort
 title: IStaticPortMapping::EditInternalPort (natupnp.h)
-
 description: The EditInternalPort method sets the internal port for this port mapping.
 old-location: ics\istaticportmapping_editinternalport.htm
 tech.root: ics
 ms.assetid: 8a43d828-327a-42be-8b8e-f3d669727fd7
-
 ms.date: 12/05/2018
 ms.keywords: EditInternalPort, EditInternalPort method [ICS/ICF], EditInternalPort method [ICS/ICF],IStaticPortMapping interface, IStaticPortMapping interface [ICS/ICF],EditInternalPort method, IStaticPortMapping.EditInternalPort, IStaticPortMapping::EditInternalPort, _ics_istaticportmapping_editinternalport, ics.istaticportmapping_editinternalport, natupnp/IStaticPortMapping::EditInternalPort
 ms.topic: method
-f1_keywords: 
- - "natupnp/IStaticPortMapping.EditInternalPort"
+f1_keywords:
+- natupnp/IStaticPortMapping.EditInternalPort
 dev_langs:
- - c++
+- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - IStaticPortMapping.EditInternalPort
+- IStaticPortMapping.EditInternalPort
 targetos: Windows
 req.typenames: 
 req.redist: 

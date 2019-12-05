@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeerCacheRecords.Clone
 title: IEnumBitsPeerCacheRecords::Clone (bits3_0.h)
-
 description: Creates another IEnumBitsPeerCacheRecords enumerator that contains the same enumeration state as the current one.
 old-location: bits\ienumbitspeercacherecords_clone.htm
 tech.root: Bits
 ms.assetid: 4eb19401-119d-4ce6-92b1-aa41b6dcb97c
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [BITS], Clone method [BITS],IEnumBitsPeerCacheRecords interface, IEnumBitsPeerCacheRecords interface [BITS],Clone method, IEnumBitsPeerCacheRecords.Clone, IEnumBitsPeerCacheRecords::Clone, bits.ienumbitspeercacherecords_clone, bits3_0/IEnumBitsPeerCacheRecords::Clone
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IEnumBitsPeerCacheRecords.Clone"
+f1_keywords:
+- bits3_0/IEnumBitsPeerCacheRecords.Clone
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IEnumBitsPeerCacheRecords.Clone
+- IEnumBitsPeerCacheRecords.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

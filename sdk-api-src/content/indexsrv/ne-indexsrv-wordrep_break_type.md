@@ -1,19 +1,17 @@
 ---
 UID: NE:indexsrv.tagWORDREP_BREAK_TYPE
 title: WORDREP_BREAK_TYPE (indexsrv.h)
-
 description: Describes the type of break that separates the current word from the previous word.
 old-location: indexsrv\wordrep_break_type.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_12at.htm
-
 ms.date: 12/05/2018
 ms.keywords: WORDREP_BREAK_EOC, WORDREP_BREAK_EOP, WORDREP_BREAK_EOS, WORDREP_BREAK_EOW, WORDREP_BREAK_TYPE, WORDREP_BREAK_TYPE enumeration [Indexing Service], _idxs_WORDREP_BREAK_TYPE, indexsrv.wordrep_break_type, indexsrv/WORDREP_BREAK_EOC, indexsrv/WORDREP_BREAK_EOP, indexsrv/WORDREP_BREAK_EOS, indexsrv/WORDREP_BREAK_EOW, indexsrv/WORDREP_BREAK_TYPE
 ms.topic: enum
-f1_keywords: 
- - "indexsrv/WORDREP_BREAK_TYPE"
+f1_keywords:
+- indexsrv/WORDREP_BREAK_TYPE
 dev_langs:
- - c++
+- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Indexsrv.h
+- Indexsrv.h
 api_name:
- - WORDREP_BREAK_TYPE
+- WORDREP_BREAK_TYPE
 targetos: Windows
 req.typenames: WORDREP_BREAK_TYPE
 req.redist: 

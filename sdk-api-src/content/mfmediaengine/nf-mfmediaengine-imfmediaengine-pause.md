@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.Pause
 title: IMFMediaEngine::Pause (mfmediaengine.h)
-
 description: Pauses playback.
 old-location: mf\imfmediaengine_pause.htm
 tech.root: medfound
 ms.assetid: 5C1FEBDA-18B5-4BF4-9AF4-FF6DBCDD880D
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],Pause method, IMFMediaEngine.Pause, IMFMediaEngine::Pause, Pause, Pause method [Media Foundation], Pause method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_pause, mfmediaengine/IMFMediaEngine::Pause
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.Pause"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.Pause
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.Pause
+- IMFMediaEngine.Pause
 targetos: Windows
 req.typenames: 
 req.redist: 

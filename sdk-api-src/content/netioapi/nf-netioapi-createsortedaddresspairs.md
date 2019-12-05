@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.CreateSortedAddressPairs
 title: CreateSortedAddressPairs function (netioapi.h)
-
 description: Takes a supplied list of potential IP destination addresses, pairs the destination addresses with the host machine's local IP addresses, and sorts the pairs according to which address pair is best suited for communication between the two peers.
 old-location: iphlp\createsortedaddresspairs.htm
 tech.root: IpHlp
 ms.assetid: cdc90d63-15a4-4278-afc3-dbf9ad6ba698
-
 ms.date: 12/05/2018
 ms.keywords: CreateSortedAddressPairs, CreateSortedAddressPairs function [IP Helper], iphlp.createsortedaddresspairs, netioapi/CreateSortedAddressPairs
 ms.topic: function
-f1_keywords: 
- - "netioapi/CreateSortedAddressPairs"
+f1_keywords:
+- netioapi/CreateSortedAddressPairs
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - CreateSortedAddressPairs
+- CreateSortedAddressPairs
 targetos: Windows
 req.typenames: 
 req.redist: 

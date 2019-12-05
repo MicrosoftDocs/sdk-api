@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IServiceTransactionConfigBase
 title: IServiceTransactionConfigBase (comsvcs.h)
-
 description: Configures the transaction services for the work that is done when calling either CoCreateActivity or CoEnterServiceDomain.
 old-location: cos\iservicetransactionconfigbase.htm
 tech.root: cossdk
 ms.assetid: e4740bf4-51b1-474f-9637-7c5d78f0def5
-
 ms.date: 12/05/2018
 ms.keywords: IServiceTransactionConfigBase, IServiceTransactionConfigBase interface [COM+], IServiceTransactionConfigBase interface [COM+],described, _cos_IServiceTransactionConfigBase, comsvcs/IServiceTransactionConfigBase, cos.iservicetransactionconfigbase
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IServiceTransactionConfigBase"
+f1_keywords:
+- comsvcs/IServiceTransactionConfigBase
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServiceTransactionConfigBase
+- IServiceTransactionConfigBase
 targetos: Windows
 req.typenames: 
 req.redist: 

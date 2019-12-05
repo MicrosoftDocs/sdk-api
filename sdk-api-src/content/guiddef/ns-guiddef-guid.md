@@ -5,9 +5,9 @@ ms.date: 4/26/2019
 ms.keywords: _GUID, GUID
 ms.topic: language-reference
 f1_keywords:
- - _GUID
+- _GUID
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -25,14 +25,14 @@ req.typenames: GUID
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - guiddef.h
+- guiddef.h
 api_name:
- - _GUID
- - GUID
+- _GUID
+- GUID
 ---
 
 ## -description

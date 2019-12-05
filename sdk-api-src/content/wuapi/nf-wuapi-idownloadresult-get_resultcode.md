@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IDownloadResult.get_ResultCode
 title: IDownloadResult::get_ResultCode (wuapi.h)
-
 description: Gets an OperationResultCodeenumeration that specifies the result of the download.
 old-location: wua\idownloadresult_resultcode.htm
 tech.root: Wua_Sdk
 ms.assetid: 5c3756b1-ad1a-47c8-98ff-e8e602302662
-
 ms.date: 12/05/2018
 ms.keywords: IDownloadResult interface [Windows Update Agent],ResultCode property, IDownloadResult.ResultCode, IDownloadResult.get_ResultCode, IDownloadResult::ResultCode, IDownloadResult::get_ResultCode, ResultCode property [Windows Update Agent], ResultCode property [Windows Update Agent],IDownloadResult interface, get_ResultCode, wua.idownloadresult_resultcode, wuapi/IDownloadResult::ResultCode, wuapi/IDownloadResult::get_ResultCode
 ms.topic: method
-f1_keywords: 
- - "wuapi/IDownloadResult.ResultCode"
+f1_keywords:
+- wuapi/IDownloadResult.ResultCode
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IDownloadResult.ResultCode
- - IDownloadResult.get_ResultCode
+- IDownloadResult.ResultCode
+- IDownloadResult.get_ResultCode
 targetos: Windows
 req.typenames: 
 req.redist: 

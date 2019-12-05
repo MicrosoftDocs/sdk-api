@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateAccelerateDecelerateTransition
 title: IUIAnimationTransitionLibrary2::CreateAccelerateDecelerateTransition (uianimation.h)
-
 description: Creates an accelerate-decelerate scalar transition.
 old-location: uianimation\iuianimationtransitionlibrary2_createacceleratedeceleratetransition.htm
 tech.root: UIAnimation
 ms.assetid: 813B4539-2942-484E-BC20-3A8178EBF9A0
-
 ms.date: 12/05/2018
 ms.keywords: CreateAccelerateDecelerateTransition, CreateAccelerateDecelerateTransition method [Windows Animation], CreateAccelerateDecelerateTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateAccelerateDecelerateTransition method, IUIAnimationTransitionLibrary2.CreateAccelerateDecelerateTransition, IUIAnimationTransitionLibrary2::CreateAccelerateDecelerateTransition, uianimation.iuianimationtransitionlibrary2_createacceleratedeceleratetransition, uianimation/IUIAnimationTransitionLibrary2::CreateAccelerateDecelerateTransition
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTransitionLibrary2.CreateAccelerateDecelerateTransition"
+f1_keywords:
+- uianimation/IUIAnimationTransitionLibrary2.CreateAccelerateDecelerateTransition
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTransitionLibrary2.CreateAccelerateDecelerateTransition
+- IUIAnimationTransitionLibrary2.CreateAccelerateDecelerateTransition
 targetos: Windows
 req.typenames: 
 req.redist: 

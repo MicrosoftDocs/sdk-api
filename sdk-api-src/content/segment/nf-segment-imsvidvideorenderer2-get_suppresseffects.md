@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer2.get_SuppressEffects
 title: IMSVidVideoRenderer2::get_SuppressEffects (segment.h)
-
 description: The get_SuppressEffects method retrieves settings that control power management and visual effects.
 old-location: mstv\imsvidvideorenderer2_get_suppresseffects.htm
 tech.root: mstv
 ms.assetid: 5a8546f8-61de-4e98-bee3-26ca4d0ea2e4
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],get_SuppressEffects method, IMSVidVideoRenderer2.get_SuppressEffects, IMSVidVideoRenderer2::get_SuppressEffects, IMSVidVideoRenderer2get_SuppressEffects, get_SuppressEffects, get_SuppressEffects method [Microsoft TV Technologies], get_SuppressEffects method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, mstv.imsvidvideorenderer2_get_suppresseffects, segment/IMSVidVideoRenderer2::get_SuppressEffects
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidVideoRenderer2.get_SuppressEffects"
+f1_keywords:
+- segment/IMSVidVideoRenderer2.get_SuppressEffects
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoRenderer2.get_SuppressEffects
+- IMSVidVideoRenderer2.get_SuppressEffects
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFConvertFromFP16Array
 title: MFConvertFromFP16Array function (mfapi.h)
-
 description: Converts an array of 16-bit floating-point numbers into an array of 32-bit floating-point numbers.
 old-location: mf\mfconvertfromfp16array.htm
 tech.root: medfound
 ms.assetid: 5cc11d32-8dcd-491d-b3df-c0b061233038
-
 ms.date: 12/05/2018
 ms.keywords: 5cc11d32-8dcd-491d-b3df-c0b061233038, MFConvertFromFP16Array, MFConvertFromFP16Array function [Media Foundation], mf.mfconvertfromfp16array, mfapi/MFConvertFromFP16Array
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFConvertFromFP16Array"
+f1_keywords:
+- mfapi/MFConvertFromFP16Array
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Evr.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFConvertFromFP16Array
+- MFConvertFromFP16Array
 targetos: Windows
 req.typenames: 
 req.redist: 

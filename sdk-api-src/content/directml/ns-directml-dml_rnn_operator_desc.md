@@ -1,19 +1,17 @@
 ---
 UID: NS:directml.DML_RNN_OPERATOR_DESC
 title: DML_RNN_OPERATOR_DESC
-
 description: Describes a DirectML deep learning operator that performs a one-layer simple recurrent neural network (RNN) function on the input.
 old-location: direct3d12\dml_rnn_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: BF4C0C6F-E02E-4458-AE04-D192AD304512
-
 ms.date: 12/5/2018
 ms.keywords: DML_RNN_OPERATOR_DESC, DML_RNN_OPERATOR_DESC structure, direct3d12.dml_rnn_operator_desc, directml/DML_RNN_OPERATOR_DESC
 ms.topic: struct
-f1_keywords: 
- - "directml/DML_RNN_OPERATOR_DESC"
+f1_keywords:
+- directml/DML_RNN_OPERATOR_DESC
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - DML_RNN_OPERATOR_DESC
+- DML_RNN_OPERATOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 

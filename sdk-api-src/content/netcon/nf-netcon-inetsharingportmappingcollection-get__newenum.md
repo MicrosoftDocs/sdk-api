@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.INetSharingPortMappingCollection.get__NewEnum
 title: INetSharingPortMappingCollection::get__NewEnum (netcon.h)
-
 description: The get__NewEnum method retrieves an enumerator for the port mapping collection.
 old-location: ics\inetsharingportmappingcollection_get__newenum.htm
 tech.root: ics
 ms.assetid: e2e7fee0-70b7-4b74-a95f-0637a0c1cdd2
-
 ms.date: 12/05/2018
 ms.keywords: INetSharingPortMappingCollection interface [ICS/ICF],get__NewEnum method, INetSharingPortMappingCollection.get__NewEnum, INetSharingPortMappingCollection::get__NewEnum, _ics_inetsharingportmappingcollection_get__newenum, get__NewEnum, get__NewEnum method [ICS/ICF], get__NewEnum method [ICS/ICF],INetSharingPortMappingCollection interface, ics.inetsharingportmappingcollection_get__newenum, netcon/INetSharingPortMappingCollection::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "netcon/INetSharingPortMappingCollection.get__NewEnum"
+f1_keywords:
+- netcon/INetSharingPortMappingCollection.get__NewEnum
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetSharingPortMappingCollection.get__NewEnum
+- INetSharingPortMappingCollection.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wsdtypes._WSD_SYNCHRONOUS_RESPONSE_CONTEXT
 title: WSD_SYNCHRONOUS_RESPONSE_CONTEXT (wsdtypes.h)
-
 description: Provides a context for handling the response to a two-way request.
 old-location: ncd\wsd_synchronous_response_context_struct.htm
 tech.root: WsdApi
 ms.assetid: 591cf076-f55f-4e78-aa5e-94ea8db3d102
-
 ms.date: 12/05/2018
 ms.keywords: WSD_SYNCHRONOUS_RESPONSE_CONTEXT, WSD_SYNCHRONOUS_RESPONSE_CONTEXT structure, ncd.wsd_synchronous_response_context_struct, wsdtypes/WSD_SYNCHRONOUS_RESPONSE_CONTEXT
 ms.topic: struct
-f1_keywords: 
- - "wsdtypes/WSD_SYNCHRONOUS_RESPONSE_CONTEXT"
+f1_keywords:
+- wsdtypes/WSD_SYNCHRONOUS_RESPONSE_CONTEXT
 dev_langs:
- - c++
+- c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdTypes.h
+- WsdTypes.h
 api_name:
- - WSD_SYNCHRONOUS_RESPONSE_CONTEXT
+- WSD_SYNCHRONOUS_RESPONSE_CONTEXT
 targetos: Windows
 req.typenames: WSD_SYNCHRONOUS_RESPONSE_CONTEXT
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_State
 title: IRegisteredTask::get_State (taskschd.h)
-
 description: Gets the operational state of the registered task.
 old-location: taskschd\iregisteredtask_state.htm
 tech.root: taskschd
 ms.assetid: b5ac2207-b5c0-42bd-a059-93a2c1f49f33
-
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],State property, IRegisteredTask.State, IRegisteredTask.get_State, IRegisteredTask::State, IRegisteredTask::get_State, State property [Task Scheduler], State property [Task Scheduler],IRegisteredTask interface, TASK_STATE_DISABLED, TASK_STATE_QUEUED, TASK_STATE_READY, TASK_STATE_RUNNING, TASK_STATE_UNKNOWN, get_State, taskschd.iregisteredtask_state, taskschd/IRegisteredTask::State, taskschd/IRegisteredTask::get_State
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRegisteredTask.State"
+f1_keywords:
+- taskschd/IRegisteredTask.State
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRegisteredTask.State
- - IRegisteredTask.get_State
+- IRegisteredTask.State
+- IRegisteredTask.get_State
 targetos: Windows
 req.typenames: 
 req.redist: 

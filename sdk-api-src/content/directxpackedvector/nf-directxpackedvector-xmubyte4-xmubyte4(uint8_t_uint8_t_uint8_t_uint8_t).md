@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMUBYTE4.XMUBYTE4(uint8_t,uint8_t,uint8_t,uint8_t)
 title: XMUBYTE4::XMUBYTE4(uint8_t,uint8_t,uint8_t,uint8_t) (directxpackedvector.h)
-
 description: Initializes a new instance of XMUBYTE4 from four int8_t arguments.
 old-location: dxmath\xmubyte4_ctor_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUBYTE4.#ctor(uint8_t,uint8_t,uint8_t,uint8_t)
-
 ms.date: 12/05/2018
 ms.keywords: XMUBYTE4, XMUBYTE4 constructor [DirectX Math Support APIs], XMUBYTE4 constructor [DirectX Math Support APIs],XMUBYTE4 structure, XMUBYTE4 structure [DirectX Math Support APIs],XMUBYTE4 constructor, XMUBYTE4.XMUBYTE4, XMUBYTE4.XMUBYTE4(uint8_t,uint8_t,uint8_t,uint8_t), XMUBYTE4::XMUBYTE4, XMUBYTE4::XMUBYTE4(uint8_t,uint8_t,uint8_t,uint8_t), dxmath.xmubyte4_ctor_3
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMUBYTE4.XMUBYTE4"
+f1_keywords:
+- directxpackedvector/XMUBYTE4.XMUBYTE4
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMUBYTE4.XMUBYTE4
+- XMUBYTE4.XMUBYTE4
 targetos: Windows
 req.typenames: 
 req.redist: 

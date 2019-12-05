@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComResourceEvents.OnResourceRecycle
 title: IComResourceEvents::OnResourceRecycle (comsvcs.h)
-
 description: Generated when an object is finished with a resource.
 old-location: cos\icomresourceevents_onresourcerecycle.htm
 tech.root: cossdk
 ms.assetid: 615e0f73-2935-4ef3-94c9-5c74b5c82db4
-
 ms.date: 12/05/2018
 ms.keywords: IComResourceEvents interface [COM+],OnResourceRecycle method, IComResourceEvents.OnResourceRecycle, IComResourceEvents::OnResourceRecycle, OnResourceRecycle, OnResourceRecycle method [COM+], OnResourceRecycle method [COM+],IComResourceEvents interface, _dtc_IComResourceEvents_OnResourceRecycle, comsvcs/IComResourceEvents::OnResourceRecycle, cos.icomresourceevents_onresourcerecycle
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComResourceEvents.OnResourceRecycle"
+f1_keywords:
+- comsvcs/IComResourceEvents.OnResourceRecycle
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComResourceEvents.OnResourceRecycle
+- IComResourceEvents.OnResourceRecycle
 targetos: Windows
 req.typenames: 
 req.redist: 

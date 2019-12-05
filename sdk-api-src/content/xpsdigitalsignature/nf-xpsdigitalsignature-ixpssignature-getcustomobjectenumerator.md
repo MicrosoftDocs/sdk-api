@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignature.GetCustomObjectEnumerator
 title: IXpsSignature::GetCustomObjectEnumerator (xpsdigitalsignature.h)
-
 description: Gets a pointer to an IOpcSignatureCustomObjectEnumerator interface, which enumerates the custom objects of the signature.
 old-location: xps\ixpssignature_getcustomobjectenumerator.htm
 tech.root: printdocs
 ms.assetid: 98a656c7-714b-4b59-9289-e78dee795eaa
-
 ms.date: 12/05/2018
 ms.keywords: GetCustomObjectEnumerator, GetCustomObjectEnumerator method [XPS Documents and Packaging], GetCustomObjectEnumerator method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetCustomObjectEnumerator method, IXpsSignature.GetCustomObjectEnumerator, IXpsSignature::GetCustomObjectEnumerator, xps.ixpssignature_getcustomobjectenumerator, xpsdigitalsignature/IXpsSignature::GetCustomObjectEnumerator
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignature.GetCustomObjectEnumerator"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignature.GetCustomObjectEnumerator
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignature.GetCustomObjectEnumerator
+- IXpsSignature.GetCustomObjectEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

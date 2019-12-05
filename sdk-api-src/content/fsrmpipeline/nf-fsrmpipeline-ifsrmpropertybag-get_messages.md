@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_Messages
 title: IFsrmPropertyBag::get_Messages (fsrmpipeline.h)
-
 description: A list of the error messages that have been added to the bag.
 old-location: fsrm\ifsrmpropertybag_messages.htm
 tech.root: fsrm
 ms.assetid: 3aa6bc28-03bb-40ea-8c56-94133c8eeb54
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],Messages property, IFsrmPropertyBag.Messages, IFsrmPropertyBag.get_Messages, IFsrmPropertyBag::Messages, IFsrmPropertyBag::get_Messages, Messages property [File Server Resource Manager], Messages property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_messages, fsrm.ifsrmpropertybag_messages, fsrmpipeline/IFsrmPropertyBag::Messages, fsrmpipeline/IFsrmPropertyBag::get_Messages, get_Messages
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPropertyBag.Messages"
+f1_keywords:
+- fsrmpipeline/IFsrmPropertyBag.Messages
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyBag.Messages
- - IFsrmPropertyBag.get_Messages
+- IFsrmPropertyBag.Messages
+- IFsrmPropertyBag.get_Messages
 targetos: Windows
 req.typenames: 
 req.redist: 

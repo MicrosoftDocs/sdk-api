@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl.TimeSearch
 title: IDvdControl::TimeSearch (strmif.h)
-
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Halts playback of the current chapter and starts playback from the specified time in the same media file.
 old-location: dshow\idvdcontrol_timesearch.htm
 tech.root: DirectShow
 ms.assetid: c2e6848e-569e-44f0-b676-e22e4df07d8d
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],TimeSearch method, IDvdControl.TimeSearch, IDvdControl::TimeSearch, IDvdControlTimeSearch, TimeSearch, TimeSearch method [DirectShow], TimeSearch method [DirectShow],IDvdControl interface, dshow.idvdcontrol_timesearch, strmif/IDvdControl::TimeSearch
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl.TimeSearch"
+f1_keywords:
+- strmif/IDvdControl.TimeSearch
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdControl.TimeSearch
+- IDvdControl.TimeSearch
 targetos: Windows
 req.typenames: 
 req.redist: 

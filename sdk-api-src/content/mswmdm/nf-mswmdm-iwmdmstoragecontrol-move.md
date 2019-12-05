@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMStorageControl.Move
 title: IWMDMStorageControl::Move (mswmdm.h)
-
 description: The Move method moves the current storage to a new location on the device.
 old-location: wmdm\iwmdmstoragecontrol_move.htm
 tech.root: WMDM
 ms.assetid: 6a2cfca0-66e6-4358-99c1-161f7baccdd5
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorageControl interface [windows Media Device Manager],Move method, IWMDMStorageControl.Move, IWMDMStorageControl::Move, IWMDMStorageControlMove, Move, Move method [windows Media Device Manager], Move method [windows Media Device Manager],IWMDMStorageControl interface, mswmdm/IWMDMStorageControl::Move, wmdm.iwmdmstoragecontrol_move
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMStorageControl.Move"
+f1_keywords:
+- mswmdm/IWMDMStorageControl.Move
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMStorageControl.Move
+- IWMDMStorageControl.Move
 targetos: Windows
 req.typenames: 
 req.redist: 

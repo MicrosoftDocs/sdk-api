@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_4.ID3D11VideoContext2.VideoProcessorSetOutputHDRMetaData
 title: ID3D11VideoContext2::VideoProcessorSetOutputHDRMetaData (d3d11_4.h)
-
 description: Sets the HDR metadata describing the display on which the content will be presented.
 old-location: mf\id3d11videocontext2_videoprocessorsetoutputhdrmetadata.htm
 tech.root: medfound
 ms.assetid: 5905E3F2-B0A3-4FF6-B498-BC24BFD3F58F
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext2 interface [Media Foundation],VideoProcessorSetOutputHDRMetaData method, ID3D11VideoContext2.VideoProcessorSetOutputHDRMetaData, ID3D11VideoContext2::VideoProcessorSetOutputHDRMetaData, VideoProcessorSetOutputHDRMetaData, VideoProcessorSetOutputHDRMetaData method [Media Foundation], VideoProcessorSetOutputHDRMetaData method [Media Foundation],ID3D11VideoContext2 interface, d3d11_4/ID3D11VideoContext2::VideoProcessorSetOutputHDRMetaData, mf.id3d11videocontext2_videoprocessorsetoutputhdrmetadata
 ms.topic: method
-f1_keywords: 
- - "d3d11_4/ID3D11VideoContext2.VideoProcessorSetOutputHDRMetaData"
+f1_keywords:
+- d3d11_4/ID3D11VideoContext2.VideoProcessorSetOutputHDRMetaData
 dev_langs:
- - c++
+- c++
 req.header: d3d11_4.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11_4.h
+- d3d11_4.h
 api_name:
- - ID3D11VideoContext2.VideoProcessorSetOutputHDRMetaData
+- ID3D11VideoContext2.VideoProcessorSetOutputHDRMetaData
 targetos: Windows
 req.typenames: 
 req.redist: 

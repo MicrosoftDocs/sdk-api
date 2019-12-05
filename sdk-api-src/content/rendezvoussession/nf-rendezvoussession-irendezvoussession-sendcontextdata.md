@@ -1,19 +1,17 @@
 ---
 UID: NF:rendezvoussession.IRendezvousSession.SendContextData
 title: IRendezvousSession::SendContextData (rendezvoussession.h)
-
 description: Sends the context data to the remote RendezvousApplication.
 old-location: remoteassist\remoteassist_IRendezvousSession_SendContextData.htm
 tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\sendcontextdata.htm
-
 ms.date: 12/05/2018
 ms.keywords: IRendezvousSession interface [Remote Assistance],SendContextData method, IRendezvousSession.SendContextData, IRendezvousSession::SendContextData, SendContextData, SendContextData method [Remote Assistance], SendContextData method [Remote Assistance],IRendezvousSession interface, remoteassist.remoteassist_IRendezvousSession_SendContextData, remoteassist_IRendezvousSession_SendContextData, rendezvoussession/IRendezvousSession::SendContextData
 ms.topic: method
-f1_keywords: 
- - "rendezvoussession/IRendezvousSession.SendContextData"
+f1_keywords:
+- rendezvoussession/IRendezvousSession.SendContextData
 dev_langs:
- - c++
+- c++
 req.header: rendezvoussession.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RendezvousSession.tlb
+- RendezvousSession.tlb
 api_name:
- - IRendezvousSession.SendContextData
+- IRendezvousSession.SendContextData
 targetos: Windows
 req.typenames: 
 req.redist: 

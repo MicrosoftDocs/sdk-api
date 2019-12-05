@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsLunMpio.GetLoadBalancePolicy
 title: IVdsLunMpio::GetLoadBalancePolicy (vdshwprv.h)
-
 description: Returns the current load balance policy on the LUN.
 old-location: base\ivdslunmpio_getloadbalancepolicy.htm
 tech.root: VDS
 ms.assetid: 56866ecb-c84b-4297-9bd4-54969501bf9e
-
 ms.date: 12/05/2018
 ms.keywords: GetLoadBalancePolicy, GetLoadBalancePolicy method [VDS], GetLoadBalancePolicy method [VDS],IVdsLunMpio interface, IVdsLunMpio interface [VDS],GetLoadBalancePolicy method, IVdsLunMpio.GetLoadBalancePolicy, IVdsLunMpio::GetLoadBalancePolicy, base.ivdslunmpio_getloadbalancepolicy, vds/IVdsLunMpio::GetLoadBalancePolicy, vdshwprv/IVdsLunMpio::GetLoadBalancePolicy
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsLunMpio.GetLoadBalancePolicy
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.ICurrentItem
 title: ICurrentItem (shobjidl_core.h)
-
 description: Obtained by calling IShellFolder::BindToObject for an item. If the item represents a snapshot of an item at a previous time, this interface will obtain the current version of the item.
 old-location: shell\ICurrentItem.htm
 tech.root: shell
 ms.assetid: a5ff7199-134d-4c1a-91e0-a81ff474f5a6
-
 ms.date: 12/05/2018
 ms.keywords: ICurrentItem, ICurrentItem interface [Windows Shell], ICurrentItem interface [Windows Shell],described, _shell_ICurrentItem, shell.ICurrentItem, shobjidl_core/ICurrentItem
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/ICurrentItem"
+f1_keywords:
+- shobjidl_core/ICurrentItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ICurrentItem
+- ICurrentItem
 targetos: Windows
 req.typenames: 
 req.redist: 

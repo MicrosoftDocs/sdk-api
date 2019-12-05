@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.get_ColorDepth
 title: IRDPSRAPISharingSession::get_ColorDepth (rdpencomapi.h)
-
 description: Retrieves or sets the color depth for the shared session.
 old-location: rdp\irdpsrapisharingsession_colordepth.htm
 tech.root: rdp
 ms.assetid: 8835a79c-281a-4f50-ba41-c9d4a0a8d7bd
-
 ms.date: 12/05/2018
 ms.keywords: ColorDepth property [RDP], ColorDepth property [RDP],IRDPSRAPISharingSession interface, ColorDepth property [RDP],IRDPSRAPISharingSession2 interface, ColorDepth property [RDP],RDPSession object, IRDPSRAPISharingSession interface [RDP],ColorDepth property, IRDPSRAPISharingSession.ColorDepth, IRDPSRAPISharingSession.get_ColorDepth, IRDPSRAPISharingSession2 interface [RDP],ColorDepth property, IRDPSRAPISharingSession2.ColorDepth, IRDPSRAPISharingSession2::ColorDepth, IRDPSRAPISharingSession2::get_ColorDepth, IRDPSRAPISharingSession2::put_ColorDepth, IRDPSRAPISharingSession::get_ColorDepth, IRDPSRAPISharingSession::put_ColorDepth, RDPSession object [RDP],ColorDepth property, get_ColorDepth, rdp.irdpsrapisharingsession_colordepth, rdpencomapi/IRDPSRAPISharingSession2::ColorDepth, rdpencomapi/IRDPSRAPISharingSession2::get_ColorDepth, rdpencomapi/IRDPSRAPISharingSession2::put_ColorDepth, rdpencomapi/IRDPSRAPISharingSession::ColorDepth, rdpencomapi/IRDPSRAPISharingSession::get_ColorDepth, rdpencomapi/IRDPSRAPISharingSession::put_ColorDepth
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPISharingSession2.ColorDepth"
+f1_keywords:
+- rdpencomapi/IRDPSRAPISharingSession2.ColorDepth
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPISharingSession2.ColorDepth
- - IRDPSRAPISharingSession2.get_ColorDepth
- - IRDPSRAPISharingSession2.put_ColorDepth
- - IRDPSRAPISharingSession.ColorDepth
- - IRDPSRAPISharingSession.get_ColorDepth
- - IRDPSRAPISharingSession.put_ColorDepth
- - RDPSession.ColorDepth
+- IRDPSRAPISharingSession2.ColorDepth
+- IRDPSRAPISharingSession2.get_ColorDepth
+- IRDPSRAPISharingSession2.put_ColorDepth
+- IRDPSRAPISharingSession.ColorDepth
+- IRDPSRAPISharingSession.get_ColorDepth
+- IRDPSRAPISharingSession.put_ColorDepth
+- RDPSession.ColorDepth
 targetos: Windows
 req.typenames: 
 req.redist: 

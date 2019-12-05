@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IComponent.CompareObjects
 title: IComponent::CompareObjects (mmc.h)
-
 description: The IComponent::CompareObjects method enables a snap-in to compare two data objects acquired through IComponent::QueryDataObject. Be aware that data objects can be acquired from two different instances of IComponent.
 old-location: mmc\icomponent_compareobjects.htm
 tech.root: mmc
 ms.assetid: 5bd7cd8e-140c-4f7b-9f2b-bf1bfe8a9a7a
-
 ms.date: 12/05/2018
 ms.keywords: CompareObjects, CompareObjects method [MMC], CompareObjects method [MMC],IComponent interface, IComponent interface [MMC],CompareObjects method, IComponent.CompareObjects, IComponent::CompareObjects, _slate_icomponent_compareobjects, mmc.icomponent_compareobjects, mmc/IComponent::CompareObjects
 ms.topic: method
-f1_keywords: 
- - "mmc/IComponent.CompareObjects"
+f1_keywords:
+- mmc/IComponent.CompareObjects
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IComponent.CompareObjects
+- IComponent.CompareObjects
 targetos: Windows
 req.typenames: 
 req.redist: 

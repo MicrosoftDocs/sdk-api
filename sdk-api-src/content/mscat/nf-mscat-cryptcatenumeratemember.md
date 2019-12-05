@@ -1,19 +1,17 @@
 ---
 UID: NF:mscat.CryptCATEnumerateMember
 title: CryptCATEnumerateMember function (mscat.h)
-
 description: Enumerates the members of a catalog.
 old-location: security\cryptcatenumeratemember.htm
 tech.root: SecCrypto
 ms.assetid: 6bbfef11-a150-4255-8620-27c1b1587b48
-
 ms.date: 12/05/2018
 ms.keywords: CryptCATEnumerateMember, CryptCATEnumerateMember function [Security], mscat/CryptCATEnumerateMember, security.cryptcatenumeratemember
 ms.topic: function
-f1_keywords: 
- - "mscat/CryptCATEnumerateMember"
+f1_keywords:
+- mscat/CryptCATEnumerateMember
 dev_langs:
- - c++
+- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wintrust.dll
+- Wintrust.dll
 api_name:
- - CryptCATEnumerateMember
+- CryptCATEnumerateMember
 targetos: Windows
 req.typenames: 
 req.redist: 

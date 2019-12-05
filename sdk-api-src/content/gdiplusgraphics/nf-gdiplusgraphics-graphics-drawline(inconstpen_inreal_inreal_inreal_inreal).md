@@ -3,14 +3,13 @@ UID: NF:gdiplusgraphics.Graphics.DrawLine(IN const Pen,IN REAL,IN REAL,IN REAL,I
 title: Graphics::DrawLine
 description: The Graphics::DrawLine method draws a line that connects two points.
 ms.assetid: b245ba2b-4b52-40fa-b6f3-adcd25775b94
-
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawLine
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusgraphics/Graphics::DrawLine"
+f1_keywords:
+- gdiplusgraphics/Graphics::DrawLine
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusgraphics.h
+- gdiplusgraphics.h
 api_name:
- - Graphics::DrawLine
+- Graphics::DrawLine
 ---
 
 # DrawLine(Pen*,REAL,REAL,REAL,REAL)

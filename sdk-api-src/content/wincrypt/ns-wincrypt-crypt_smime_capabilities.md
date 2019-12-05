@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CRYPT_SMIME_CAPABILITIES
 title: CRYPT_SMIME_CAPABILITIES (wincrypt.h)
-
 description: Contains a prioritized array of supported capabilities.
 old-location: security\crypt_smime_capabilities.htm
 tech.root: SecCrypto
 ms.assetid: 2ee70ff5-4ef4-457c-90c8-629ad0bc3c25
-
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_SMIME_CAPABILITIES, CRYPT_SMIME_CAPABILITIES, CRYPT_SMIME_CAPABILITIES structure [Security], PCRYPT_SMIME_CAPABILITIES, PCRYPT_SMIME_CAPABILITIES structure pointer [Security], _crypto2_crypt_smime_capabilities, security.crypt_smime_capabilities, wincrypt/CRYPT_SMIME_CAPABILITIES, wincrypt/PCRYPT_SMIME_CAPABILITIES'
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_SMIME_CAPABILITIES
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

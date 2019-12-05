@@ -1,19 +1,17 @@
 ---
 UID: NN:wbemprov.IWbemEventProviderSecurity
 title: IWbemEventProviderSecurity (wbemprov.h)
-
 description: The IWbemEventProviderSecurity interface is optionally implemented by event providers who want to restrict consumer access to their event. For more information about when to use this interface, see Securing WMI Events.
 old-location: wmi\iwbemeventprovidersecurity.htm
 tech.root: WmiSdk
 ms.assetid: 892a7a9d-f058-4c4d-870d-c0eb5773949f
-
 ms.date: 12/05/2018
 ms.keywords: IWbemEventProviderSecurity, IWbemEventProviderSecurity interface [Windows Management Instrumentation], IWbemEventProviderSecurity interface [Windows Management Instrumentation],described, _hmm_iwbemeventprovidersecurity, wbemprov/IWbemEventProviderSecurity, wmi.iwbemeventprovidersecurity
 ms.topic: interface
-f1_keywords: 
- - "wbemprov/IWbemEventProviderSecurity"
+f1_keywords:
+- wbemprov/IWbemEventProviderSecurity
 dev_langs:
- - c++
+- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wbemsvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wbemsvc.dll
+- Wbemsvc.dll
 api_name:
- - IWbemEventProviderSecurity
+- IWbemEventProviderSecurity
 targetos: Windows
 req.typenames: 
 req.redist: 

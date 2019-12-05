@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_2.IDWriteRenderingParams2.GetGridFitMode
 title: IDWriteRenderingParams2::GetGridFitMode (dwrite_2.h)
-
 description: Gets the grid fitting mode.
 old-location: directwrite\idwriterenderingparams2_getgridfitmode.htm
 tech.root: DirectWrite
 ms.assetid: E455D3B7-FF2E-44D0-93E4-9FFA5D6BC328
-
 ms.date: 12/05/2018
 ms.keywords: GetGridFitMode, GetGridFitMode method [Direct Write], GetGridFitMode method [Direct Write],IDWriteRenderingParams2 interface, IDWriteRenderingParams2 interface [Direct Write],GetGridFitMode method, IDWriteRenderingParams2.GetGridFitMode, IDWriteRenderingParams2::GetGridFitMode, directwrite.idwriterenderingparams2_getgridfitmode, dwrite_2/IDWriteRenderingParams2::GetGridFitMode
 ms.topic: method
-f1_keywords: 
- - "dwrite_2/IDWriteRenderingParams2.GetGridFitMode"
+f1_keywords:
+- dwrite_2/IDWriteRenderingParams2.GetGridFitMode
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteRenderingParams2.GetGridFitMode
+- IDWriteRenderingParams2.GetGridFitMode
 targetos: Windows
 req.typenames: 
 req.redist: 

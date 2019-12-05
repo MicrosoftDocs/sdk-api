@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1_3.D2D1_INK_POINT
 title: D2D1_INK_POINT (d2d1_3.h)
-
 description: Represents a point, radius pair that makes up part of a D2D1_INK_BEZIER_SEGMENT.
 old-location: direct2d\d2d1_ink_point.htm
 tech.root: Direct2D
 ms.assetid: C18E7B04-12B8-4EB9-BAFB-24FBA99210E9
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_INK_POINT, D2D1_INK_POINT structure [Direct2D], d2d1_3/D2D1_INK_POINT, direct2d.d2d1_ink_point
 ms.topic: struct
-f1_keywords: 
- - "d2d1_3/D2D1_INK_POINT"
+f1_keywords:
+- d2d1_3/D2D1_INK_POINT
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1_3.h
+- d2d1_3.h
 api_name:
- - D2D1_INK_POINT
+- D2D1_INK_POINT
 targetos: Windows
 req.typenames: D2D1_INK_POINT
 req.redist: 

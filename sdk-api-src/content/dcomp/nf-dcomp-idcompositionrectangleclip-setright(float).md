@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetRight(float)
 title: IDCompositionRectangleClip::SetRight (dcomp.h)
-
 description: Changes the value of the Right property of a clip rectangle.
 old-location: directcomp\idcompositionrectangleclip_setright_float.htm
 tech.root: directcomp
 ms.assetid: FB27BB00-239A-42A8-86D3-C78E2E8E820B
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetRight method, IDCompositionRectangleClip.SetRight, IDCompositionRectangleClip::SetRight, IDCompositionRectangleClip::SetRight(float), SetRight, SetRight method [DirectComposition], SetRight method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetRight, directcomp.idcompositionrectangleclip_setright_float
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionRectangleClip.SetRight"
+f1_keywords:
+- dcomp/IDCompositionRectangleClip.SetRight
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionRectangleClip.SetRight
+- IDCompositionRectangleClip.SetRight
 targetos: Windows
 req.typenames: 
 req.redist: 

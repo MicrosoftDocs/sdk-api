@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRSurfaceAllocator9.AdviseNotify
 title: IVMRSurfaceAllocator9::AdviseNotify (vmr9.h)
-
 description: The AdviseNotify method provides the allocator-presenter with the VMR-9 filter's interface for notification callbacks.
 old-location: dshow\ivmrsurfaceallocator9_advisenotify.htm
 tech.root: DirectShow
 ms.assetid: 2c367444-50bf-4fbe-b2d9-ed32275576e9
-
 ms.date: 12/05/2018
 ms.keywords: AdviseNotify, AdviseNotify method [DirectShow], AdviseNotify method [DirectShow],IVMRSurfaceAllocator9 interface, IVMRSurfaceAllocator9 interface [DirectShow],AdviseNotify method, IVMRSurfaceAllocator9.AdviseNotify, IVMRSurfaceAllocator9::AdviseNotify, IVMRSurfaceAllocator9AdviseNotify, dshow.ivmrsurfaceallocator9_advisenotify, vmr9/IVMRSurfaceAllocator9::AdviseNotify
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRSurfaceAllocator9.AdviseNotify"
+f1_keywords:
+- vmr9/IVMRSurfaceAllocator9.AdviseNotify
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurfaceAllocator9.AdviseNotify
+- IVMRSurfaceAllocator9.AdviseNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

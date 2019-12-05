@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHCreateThread
 title: SHCreateThread function (shlwapi.h)
-
 description: Creates a thread.
 old-location: shell\SHCreateThread.htm
 tech.root: shell
 ms.assetid: 2140e396-29cd-4665-b684-337170570b73
-
 ms.date: 12/05/2018
 ms.keywords: SHCreateThread, SHCreateThread function [Windows Shell], _win32_SHCreateThread, shell.SHCreateThread, shlwapi/SHCreateThread
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHCreateThread"
+f1_keywords:
+- shlwapi/SHCreateThread
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
- - ShCore.dll
- - API-MS-Win-ShCore-thread-l1-1-0.dll
+- Shlwapi.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+- ShCore.dll
+- API-MS-Win-ShCore-thread-l1-1-0.dll
 api_name:
- - SHCreateThread
+- SHCreateThread
 targetos: Windows
 req.typenames: 
 req.redist: 

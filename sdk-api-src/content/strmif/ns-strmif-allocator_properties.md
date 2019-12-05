@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif._AllocatorProperties
 title: ALLOCATOR_PROPERTIES (strmif.h)
-
 description: The ALLOCATOR_PROPERTIES structure describes an allocator's count, size, alignment, and prefix properties.
 old-location: dshow\allocator_properties.htm
 tech.root: DirectShow
 ms.assetid: 813e4693-b549-4045-aff5-08f2dd754b6e
-
 ms.date: 12/05/2018
 ms.keywords: ALLOCATOR_PROPERTIES, ALLOCATOR_PROPERTIES structure [DirectShow], ALLOCATOR_PROPERTIESStructure, dshow.allocator_properties, strmif/ALLOCATOR_PROPERTIES
 ms.topic: struct
-f1_keywords: 
- - "strmif/ALLOCATOR_PROPERTIES"
+f1_keywords:
+- strmif/ALLOCATOR_PROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - ALLOCATOR_PROPERTIES
+- ALLOCATOR_PROPERTIES
 targetos: Windows
 req.typenames: ALLOCATOR_PROPERTIES
 req.redist: 

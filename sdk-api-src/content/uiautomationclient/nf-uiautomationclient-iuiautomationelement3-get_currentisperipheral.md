@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement3.get_CurrentIsPeripheral
 title: IUIAutomationElement3::get_CurrentIsPeripheral (uiautomationclient.h)
-
 description: Retrieves the current peripheral UI indicator for the element.
 old-location: winauto\uiauto_IUIAutomationElement3_CurrentIsPeripheral.htm
 tech.root: WinAuto
 ms.assetid: 1E4B7D77-FCE7-9A1B-2D1A-A347A2F8C2B9
-
 ms.date: 12/05/2018
 ms.keywords: CurrentIsPeripheral property [Windows Accessibility], CurrentIsPeripheral property [Windows Accessibility],IUIAutomationElement3 interface, IUIAutomationElement3 interface [Windows Accessibility],CurrentIsPeripheral property, IUIAutomationElement3.CurrentIsPeripheral, IUIAutomationElement3.get_CurrentIsPeripheral, IUIAutomationElement3::CurrentIsPeripheral, IUIAutomationElement3::get_CurrentIsPeripheral, get_CurrentIsPeripheral, uiautomationclient/IUIAutomationElement3::CurrentIsPeripheral, uiautomationclient/IUIAutomationElement3::get_CurrentIsPeripheral, winauto.uiauto_IUIAutomationElement3_CurrentIsPeripheral
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement3.CurrentIsPeripheral"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement3.CurrentIsPeripheral
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement3.CurrentIsPeripheral
- - IUIAutomationElement3.get_CurrentIsPeripheral
+- IUIAutomationElement3.CurrentIsPeripheral
+- IUIAutomationElement3.get_CurrentIsPeripheral
 targetos: Windows
 req.typenames: 
 req.redist: 

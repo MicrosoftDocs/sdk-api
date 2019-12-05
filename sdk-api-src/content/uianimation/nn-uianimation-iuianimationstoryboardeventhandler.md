@@ -1,19 +1,17 @@
 ---
 UID: NN:uianimation.IUIAnimationStoryboardEventHandler
 title: IUIAnimationStoryboardEventHandler (uianimation.h)
-
 description: Defines methods for handling status and update events for a storyboard.
 old-location: uianimation\iuianimationstoryboardeventhandler.htm
 tech.root: UIAnimation
 ms.assetid: f43f53f9-1491-4847-89ef-e65ba98a2127
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboardEventHandler, IUIAnimationStoryboardEventHandler interface [Windows Animation], IUIAnimationStoryboardEventHandler interface [Windows Animation],described, uianimation.iuianimationstoryboardeventhandler, uianimation/IUIAnimationStoryboardEventHandler
 ms.topic: interface
-f1_keywords: 
- - "uianimation/IUIAnimationStoryboardEventHandler"
+f1_keywords:
+- uianimation/IUIAnimationStoryboardEventHandler
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationStoryboardEventHandler
+- IUIAnimationStoryboardEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

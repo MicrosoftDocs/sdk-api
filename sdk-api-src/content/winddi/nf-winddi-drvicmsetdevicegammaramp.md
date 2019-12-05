@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.DrvIcmSetDeviceGammaRamp
 title: DrvIcmSetDeviceGammaRamp function (winddi.h)
-
 description: The DrvIcmSetDeviceGammaRamp function sets the hardware gamma ramp of the specified display device.
 old-location: display\drvicmsetdevicegammaramp.htm
 tech.root: display
 ms.assetid: 0ea0c60c-fa12-4dd0-a6cc-45eacf4b73c0
-
 ms.date: 12/05/2018
 ms.keywords: DrvIcmSetDeviceGammaRamp, DrvIcmSetDeviceGammaRamp function [Display Devices], ddifncs_4f81d949-51a0-4d83-b779-e9e950c2851d.xml, display.drvicmsetdevicegammaramp, winddi/DrvIcmSetDeviceGammaRamp
 ms.topic: function
 f1_keywords:
 - winddi/DrvIcmSetDeviceGammaRamp
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

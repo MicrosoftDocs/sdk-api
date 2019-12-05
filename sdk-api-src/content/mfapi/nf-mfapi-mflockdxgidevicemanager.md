@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFLockDXGIDeviceManager
 title: MFLockDXGIDeviceManager function (mfapi.h)
-
 description: Locks the shared Microsoft DirectX Graphics Infrastructure (DXGI) Device Manager.
 old-location: mf\mflockdxgidevicemanager.htm
 tech.root: medfound
 ms.assetid: 01A789BA-C1DE-4EF8-81C4-261F59D5843B
-
 ms.date: 12/05/2018
 ms.keywords: MFLockDXGIDeviceManager, MFLockDXGIDeviceManager function [Media Foundation], mf.mflockdxgidevicemanager, mfapi/MFLockDXGIDeviceManager
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFLockDXGIDeviceManager"
+f1_keywords:
+- mfapi/MFLockDXGIDeviceManager
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFLockDXGIDeviceManager
+- MFLockDXGIDeviceManager
 targetos: Windows
 req.typenames: 
 req.redist: 

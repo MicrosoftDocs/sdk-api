@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetURL
 title: IMFPMediaItem::GetURL (mfplay.h)
-
 description: Gets the URL that was used to create the media item.
 old-location: mf\imfpmediaitem_geturl.htm
 tech.root: medfound
 ms.assetid: 2598534c-28cc-4f4c-bf87-17ab7044e0c1
-
 ms.date: 12/05/2018
 ms.keywords: GetURL, GetURL method [Media Foundation], GetURL method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetURL method, IMFPMediaItem.GetURL, IMFPMediaItem::GetURL, mf.imfpmediaitem_geturl, mfplay/IMFPMediaItem::GetURL
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaItem.GetURL"
+f1_keywords:
+- mfplay/IMFPMediaItem.GetURL
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaItem.GetURL
+- IMFPMediaItem.GetURL
 targetos: Windows
 req.typenames: 
 req.redist: 

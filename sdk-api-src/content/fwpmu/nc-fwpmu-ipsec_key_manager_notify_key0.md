@@ -1,19 +1,17 @@
 ---
 UID: NC:fwpmu.IPSEC_KEY_MANAGER_NOTIFY_KEY0
 title: IPSEC_KEY_MANAGER_NOTIFY_KEY0 (fwpmu.h)
-
 description: Is used to notify Trusted Intermediary Agents (TIAs) of the keys for the SA being negotiated.
 old-location: fwp\ipsec_key_manager_notify_key0.htm
 tech.root: fwp
 ms.assetid: ECB904D1-C78F-493D-A6B8-73EA782EA935
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_KEY_MANAGER_NOTIFY_KEY0, IPSEC_KEY_MANAGER_NOTIFY_KEY0 function, IPSEC_KEY_MANAGER_NOTIFY_KEY0 function pointer [Filtering], fwp.ipsec_key_manager_notify_key0, fwp.ipsec_key_notify_key0, fwpmu/IPSEC_KEY_MANAGER_NOTIFY_KEY0
 ms.topic: callback
-f1_keywords: 
- - "fwpmu/IPSEC_KEY_MANAGER_NOTIFY_KEY0"
+f1_keywords:
+- fwpmu/IPSEC_KEY_MANAGER_NOTIFY_KEY0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - fwpmu.h
+- fwpmu.h
 api_name:
- - IPSEC_KEY_MANAGER_NOTIFY_KEY0
+- IPSEC_KEY_MANAGER_NOTIFY_KEY0
 targetos: Windows
 req.typenames: 
 req.redist: 

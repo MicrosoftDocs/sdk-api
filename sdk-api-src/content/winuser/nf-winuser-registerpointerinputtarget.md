@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.RegisterPointerInputTarget
 title: RegisterPointerInputTarget function (winuser.h)
-
 description: Allows the caller to register a target window to which all pointer input of the specified type is redirected.
 old-location: winauto\RegisterPointerInputTarget.htm
 tech.root: WinAuto
 ms.assetid: 75faea24-91cd-448b-b67a-09fe530f1830
-
 ms.date: 12/05/2018
 ms.keywords: RegisterPointerInputTarget, RegisterPointerInputTarget function [Windows Accessibility], inputmsg.registerpointerinputtarget, winauto.RegisterPointerInputTarget, winuser/RegisterPointerInputTarget
 ms.topic: function
-f1_keywords: 
- - "winuser/RegisterPointerInputTarget"
+f1_keywords:
+- winuser/RegisterPointerInputTarget
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-wmpointer-l1-1-1.dll
- - MinUser.dll
- - API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-wmpointer-l1-1-1.dll
+- MinUser.dll
+- API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
- - RegisterPointerInputTarget
+- RegisterPointerInputTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskDefinition.get_Principal
 title: ITaskDefinition::get_Principal (taskschd.h)
-
 description: Gets or sets the principal for the task that provides the security credentials for the task.
 old-location: taskschd\itaskdefinition_principal.htm
 tech.root: taskschd
 ms.assetid: d1c8389b-149c-4fcb-972a-b25fa0d8d763
-
 ms.date: 12/05/2018
 ms.keywords: ITaskDefinition interface [Task Scheduler],Principal property, ITaskDefinition.Principal, ITaskDefinition.get_Principal, ITaskDefinition::Principal, ITaskDefinition::get_Principal, ITaskDefinition::put_Principal, Principal property [Task Scheduler], Principal property [Task Scheduler],ITaskDefinition interface, get_Principal, taskschd.itaskdefinition_principal, taskschd/ITaskDefinition::Principal, taskschd/ITaskDefinition::get_Principal, taskschd/ITaskDefinition::put_Principal
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskDefinition.Principal"
+f1_keywords:
+- taskschd/ITaskDefinition.Principal
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskDefinition.Principal
- - ITaskDefinition.get_Principal
- - ITaskDefinition.put_Principal
+- ITaskDefinition.Principal
+- ITaskDefinition.get_Principal
+- ITaskDefinition.put_Principal
 targetos: Windows
 req.typenames: 
 req.redist: 

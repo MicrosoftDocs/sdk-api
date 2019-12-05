@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.ITDirectoryObject.EnumerateDialableAddrs
 title: ITDirectoryObject::EnumerateDialableAddrs (rend.h)
-
 description: The EnumerateDialableAddrs method creates an enumerator of all dialable addresses of a given type from the directory.
 old-location: tapi3\itdirectoryobject_enumeratedialableaddrs.htm
 tech.root: Tapi
 ms.assetid: cee7a00e-e601-47bf-b64b-61085511da97
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateDialableAddrs, EnumerateDialableAddrs method [TAPI 2.2], EnumerateDialableAddrs method [TAPI 2.2],ITDirectoryObject interface, ITDirectoryObject interface [TAPI 2.2],EnumerateDialableAddrs method, ITDirectoryObject.EnumerateDialableAddrs, ITDirectoryObject::EnumerateDialableAddrs, _tapi3_itdirectoryobject_enumeratedialableaddrs, rend/ITDirectoryObject::EnumerateDialableAddrs, tapi3.itdirectoryobject_enumeratedialableaddrs
 ms.topic: method
-f1_keywords: 
- - "rend/ITDirectoryObject.EnumerateDialableAddrs"
+f1_keywords:
+- rend/ITDirectoryObject.EnumerateDialableAddrs
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITDirectoryObject.EnumerateDialableAddrs
+- ITDirectoryObject.EnumerateDialableAddrs
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.SetProgressState
 title: ITaskbarList3::SetProgressState (shobjidl_core.h)
-
 description: Sets the type and state of the progress indicator displayed on a taskbar button.
 old-location: shell\ITaskbarList3_SetProgressState.htm
 tech.root: shell
 ms.assetid: ffa5566c-a6ad-4e96-a009-1e2006359f87
-
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetProgressState method, ITaskbarList3.SetProgressState, ITaskbarList3::SetProgressState, SetProgressState, SetProgressState method [Windows Shell], SetProgressState method [Windows Shell],ITaskbarList3 interface, TBPF_ERROR, TBPF_INDETERMINATE, TBPF_NOPROGRESS, TBPF_NORMAL, TBPF_PAUSED, _shell_ITaskbarList3_SetProgressState, shell.ITaskbarList3_SetProgressState, shobjidl_core/ITaskbarList3::SetProgressState
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITaskbarList3.SetProgressState"
+f1_keywords:
+- shobjidl_core/ITaskbarList3.SetProgressState
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Explorerframe.lib
 req.dll: Explorerframe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Explorerframe.dll
+- Explorerframe.dll
 api_name:
- - ITaskbarList3.SetProgressState
+- ITaskbarList3.SetProgressState
 targetos: Windows
 req.typenames: 
 req.redist: 

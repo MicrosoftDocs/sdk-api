@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2data.IMpeg2Data.GetSection
 title: IMpeg2Data::GetSection (mpeg2data.h)
-
 description: GetSection is no longer available for use as of Windows 7.
 old-location: mstv\impeg2data_getsection.htm
 tech.root: mstv
 ms.assetid: 9fb0d10f-7f9a-452d-9725-546d372430bd
-
 ms.date: 12/05/2018
 ms.keywords: GetSection, GetSection method [Microsoft TV Technologies], GetSection method [Microsoft TV Technologies],IMpeg2Data interface, IMpeg2Data interface [Microsoft TV Technologies],GetSection method, IMpeg2Data.GetSection, IMpeg2Data::GetSection, IMpeg2DataGetSection, mpeg2data/IMpeg2Data::GetSection, mstv.impeg2data_getsection
 ms.topic: method
-f1_keywords: 
- - "mpeg2data/IMpeg2Data.GetSection"
+f1_keywords:
+- mpeg2data/IMpeg2Data.GetSection
 dev_langs:
- - c++
+- c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2data.h
+- Mpeg2data.h
 api_name:
- - IMpeg2Data.GetSection
+- IMpeg2Data.GetSection
 targetos: Windows
 req.typenames: 
 req.redist: 

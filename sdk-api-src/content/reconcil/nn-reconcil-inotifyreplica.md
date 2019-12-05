@@ -1,19 +1,17 @@
 ---
 UID: NN:reconcil.INotifyReplica
 title: INotifyReplica (reconcil.h)
-
 description: Exposes a method that provides an object's creator with the means to notify the object that it may be subject to subsequent reconciliation. The briefcase reconciler is responsible for implementing this interface.
 old-location: shell\INotifyReplica.htm
 tech.root: shell
 ms.assetid: aa04d5b0-8483-4024-91d0-65d69d6891ca
-
 ms.date: 12/05/2018
 ms.keywords: INotifyReplica, INotifyReplica interface [Windows Shell], INotifyReplica interface [Windows Shell],described, _win32_INotifyReplica, reconcil/INotifyReplica, shell.INotifyReplica
 ms.topic: interface
-f1_keywords: 
- - "reconcil/INotifyReplica"
+f1_keywords:
+- reconcil/INotifyReplica
 dev_langs:
- - c++
+- c++
 req.header: reconcil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - INotifyReplica
+- INotifyReplica
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.SHCreateShellItemArray
 title: SHCreateShellItemArray function (shobjidl_core.h)
-
 description: Creates a Shell item array object.
 old-location: shell\SHCreateShellItemArray.htm
 tech.root: shell
 ms.assetid: 024ccbc7-97f1-4cb5-8588-9c9b1f747336
-
 ms.date: 12/05/2018
 ms.keywords: SHCreateShellItemArray, SHCreateShellItemArray function [Windows Shell], _shell_SHCreateShellItemArray, shell.SHCreateShellItemArray, shobjidl_core/SHCreateShellItemArray
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SHCreateShellItemArray"
+f1_keywords:
+- shobjidl_core/SHCreateShellItemArray
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHCreateShellItemArray
+- SHCreateShellItemArray
 targetos: Windows
 req.typenames: 
 req.redist: 

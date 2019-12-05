@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10Debug.GetPresentPerRenderOpDelay
 title: ID3D10Debug::GetPresentPerRenderOpDelay (d3d10sdklayers.h)
-
 description: Get the number of milliseconds to sleep after Present is called.
 old-location: direct3d10\id3d10debug_getpresentperrenderopdelay.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10debug_getpresentperrenderopdelay.htm
-
 ms.date: 12/05/2018
 ms.keywords: 089e85a9-c0e8-518c-4ced-8dfac65c1761, GetPresentPerRenderOpDelay, GetPresentPerRenderOpDelay method [Direct3D 10], GetPresentPerRenderOpDelay method [Direct3D 10],ID3D10Debug interface, ID3D10Debug interface [Direct3D 10],GetPresentPerRenderOpDelay method, ID3D10Debug.GetPresentPerRenderOpDelay, ID3D10Debug::GetPresentPerRenderOpDelay, d3d10sdklayers/ID3D10Debug::GetPresentPerRenderOpDelay, direct3d10.id3d10debug_getpresentperrenderopdelay
 ms.topic: method
-f1_keywords: 
- - "d3d10sdklayers/ID3D10Debug.GetPresentPerRenderOpDelay"
+f1_keywords:
+- d3d10sdklayers/ID3D10Debug.GetPresentPerRenderOpDelay
 dev_langs:
- - c++
+- c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10SDKLayers.h
+- D3D10SDKLayers.h
 api_name:
- - ID3D10Debug.GetPresentPerRenderOpDelay
+- ID3D10Debug.GetPresentPerRenderOpDelay
 targetos: Windows
 req.typenames: 
 req.redist: 

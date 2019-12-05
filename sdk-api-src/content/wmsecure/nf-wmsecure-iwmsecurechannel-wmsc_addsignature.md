@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_AddSignature
 title: IWMSecureChannel::WMSC_AddSignature (wmsecure.h)
-
 description: The WMSC_AddSignature method adds signatures that this object will look for when trying to connect. If no signatures are added, then this object will connect to any other object.
 old-location: wmformat\iwmsecurechannel_wmsc_addsignature.htm
 tech.root: wmformat
 ms.assetid: 08fa8ec6-8832-4b5d-bb0d-0a7485ca63d3
-
 ms.date: 12/05/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_AddSignature method, IWMSecureChannel.WMSC_AddSignature, IWMSecureChannel::WMSC_AddSignature, WMSC_AddSignature, WMSC_AddSignature method [windows Media Format], WMSC_AddSignature method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_addsignature, wmsecure/IWMSecureChannel::WMSC_AddSignature
 ms.topic: method
-f1_keywords: 
- - "wmsecure/IWMSecureChannel.WMSC_AddSignature"
+f1_keywords:
+- wmsecure/IWMSecureChannel.WMSC_AddSignature
 dev_langs:
- - c++
+- c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmsecure.h
+- Wmsecure.h
 api_name:
- - IWMSecureChannel.WMSC_AddSignature
+- IWMSecureChannel.WMSC_AddSignature
 targetos: Windows
 req.typenames: 
 req.redist: 

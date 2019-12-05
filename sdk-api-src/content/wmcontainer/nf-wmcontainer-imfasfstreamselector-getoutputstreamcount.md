@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetOutputStreamCount
 title: IMFASFStreamSelector::GetOutputStreamCount (wmcontainer.h)
-
 description: Retrieves the number of streams associated with an output.
 old-location: mf\imfasfstreamselector_getoutputstreamcount.htm
 tech.root: medfound
 ms.assetid: 928e958b-55dc-4939-8ac3-282389f0077a
-
 ms.date: 12/05/2018
 ms.keywords: 928e958b-55dc-4939-8ac3-282389f0077a, GetOutputStreamCount, GetOutputStreamCount method [Media Foundation], GetOutputStreamCount method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputStreamCount method, IMFASFStreamSelector.GetOutputStreamCount, IMFASFStreamSelector::GetOutputStreamCount, mf.imfasfstreamselector_getoutputstreamcount, wmcontainer/IMFASFStreamSelector::GetOutputStreamCount
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFStreamSelector.GetOutputStreamCount"
+f1_keywords:
+- wmcontainer/IMFASFStreamSelector.GetOutputStreamCount
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFStreamSelector.GetOutputStreamCount
+- IMFASFStreamSelector.GetOutputStreamCount
 targetos: Windows
 req.typenames: 
 req.redist: 

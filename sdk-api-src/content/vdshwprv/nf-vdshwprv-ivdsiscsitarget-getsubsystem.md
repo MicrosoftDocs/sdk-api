@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiTarget.GetSubSystem
 title: IVdsIscsiTarget::GetSubSystem (vdshwprv.h)
-
 description: Returns the subsystem to which the target belongs.
 old-location: base\ivdsiscsitarget_getsubsystem.htm
 tech.root: VDS
 ms.assetid: c9feb332-1b30-4de8-ac30-79fe53750d8c
-
 ms.date: 12/05/2018
 ms.keywords: GetSubSystem, GetSubSystem method [VDS], GetSubSystem method [VDS],IVdsIscsiTarget interface, IVdsIscsiTarget interface [VDS],GetSubSystem method, IVdsIscsiTarget.GetSubSystem, IVdsIscsiTarget::GetSubSystem, base.ivdsiscsitarget_getsubsystem, vds/IVdsIscsiTarget::GetSubSystem, vdshwprv/IVdsIscsiTarget::GetSubSystem
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsIscsiTarget.GetSubSystem"
+f1_keywords:
+- vdshwprv/IVdsIscsiTarget.GetSubSystem
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsIscsiTarget.GetSubSystem
+- IVdsIscsiTarget.GetSubSystem
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

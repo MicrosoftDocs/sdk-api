@@ -1,19 +1,17 @@
 ---
 UID: NE:processsnapshot.__unnamed_enum_5
 title: PSS_DUPLICATE_FLAGS (processsnapshot.h)
-
 description: Duplication flags for use by PssDuplicateSnapshot.
 old-location: proc_snap\pss_duplicate_flags.htm
 tech.root: proc_snap
 ms.assetid: CAD06441-750F-42FC-A95A-7CAA79F31348
-
 ms.date: 12/05/2018
 ms.keywords: PSS_DUPLICATE_CLOSE_SOURCE, PSS_DUPLICATE_FLAGS, PSS_DUPLICATE_FLAGS enumeration, PSS_DUPLICATE_NONE, proc_snap.pss_duplicate_flags, processsnapshot/PSS_DUPLICATE_CLOSE_SOURCE, processsnapshot/PSS_DUPLICATE_FLAGS, processsnapshot/PSS_DUPLICATE_NONE
 ms.topic: enum
-f1_keywords: 
- - "processsnapshot/PSS_DUPLICATE_FLAGS"
+f1_keywords:
+- processsnapshot/PSS_DUPLICATE_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - processsnapshot.h
+- processsnapshot.h
 api_name:
- - PSS_DUPLICATE_FLAGS
+- PSS_DUPLICATE_FLAGS
 targetos: Windows
 req.typenames: PSS_DUPLICATE_FLAGS
 req.redist: 

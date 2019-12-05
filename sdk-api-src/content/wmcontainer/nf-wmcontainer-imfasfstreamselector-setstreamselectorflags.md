@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.SetStreamSelectorFlags
 title: IMFASFStreamSelector::SetStreamSelectorFlags (wmcontainer.h)
-
 description: Sets options for the stream selector.
 old-location: mf\imfasfstreamselector_setstreamselectorflags.htm
 tech.root: medfound
 ms.assetid: a2a0f318-0de2-49e0-b8f2-847ab1371752
-
 ms.date: 12/05/2018
 ms.keywords: IMFASFStreamSelector interface [Media Foundation],SetStreamSelectorFlags method, IMFASFStreamSelector.SetStreamSelectorFlags, IMFASFStreamSelector::SetStreamSelectorFlags, SetStreamSelectorFlags, SetStreamSelectorFlags method [Media Foundation], SetStreamSelectorFlags method [Media Foundation],IMFASFStreamSelector interface, a2a0f318-0de2-49e0-b8f2-847ab1371752, mf.imfasfstreamselector_setstreamselectorflags, wmcontainer/IMFASFStreamSelector::SetStreamSelectorFlags
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFStreamSelector.SetStreamSelectorFlags"
+f1_keywords:
+- wmcontainer/IMFASFStreamSelector.SetStreamSelectorFlags
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFStreamSelector.SetStreamSelectorFlags
+- IMFASFStreamSelector.SetStreamSelectorFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskService.NewTask
 title: ITaskService::NewTask (taskschd.h)
-
 description: Returns an empty task definition object to be filled in with settings and properties and then registered using the ITaskFolder::RegisterTaskDefinition method.
 old-location: taskschd\itaskservice_newtask.htm
 tech.root: taskschd
 ms.assetid: 821fc610-cf94-4548-950d-b4fd7b2f90dc
-
 ms.date: 12/05/2018
 ms.keywords: ITaskService interface [Task Scheduler],NewTask method, ITaskService.NewTask, ITaskService::NewTask, NewTask, NewTask method [Task Scheduler], NewTask method [Task Scheduler],ITaskService interface, taskschd.itaskservice_newtask, taskschd/ITaskService::NewTask
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskService.NewTask"
+f1_keywords:
+- taskschd/ITaskService.NewTask
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskService.NewTask
+- ITaskService.NewTask
 targetos: Windows
 req.typenames: 
 req.redist: 

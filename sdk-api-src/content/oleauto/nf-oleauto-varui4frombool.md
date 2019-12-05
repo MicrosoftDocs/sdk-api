@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarUI4FromBool
 title: VarUI4FromBool function (oleauto.h)
-
 description: Converts a Boolean value to an unsigned long value.
 old-location: automat\varui4frombool.htm
 tech.root: automat
 ms.assetid: a3c59eb2-6808-453b-b0f7-12d0e6b358ae
-
 ms.date: 12/05/2018
 ms.keywords: VarUI4FromBool, VarUI4FromBool function [Automation], _oa96_VarUI4FromBool, automat.varui4frombool, oleauto/VarUI4FromBool
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarUI4FromBool"
+f1_keywords:
+- oleauto/VarUI4FromBool
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarUI4FromBool
+- VarUI4FromBool
 targetos: Windows
 req.typenames: 
 req.redist: 

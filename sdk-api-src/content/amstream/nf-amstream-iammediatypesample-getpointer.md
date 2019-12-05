@@ -1,19 +1,17 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.GetPointer
 title: IAMMediaTypeSample::GetPointer (amstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The GetPointer method retrieves a read/write pointer to the buffer's memory.
 old-location: dshow\iammediatypesample_getpointer.htm
 tech.root: DirectShow
 ms.assetid: e1ca46d8-51d6-4dd5-bbcc-463acf53420c
-
 ms.date: 12/05/2018
 ms.keywords: GetPointer, GetPointer method [DirectShow], GetPointer method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetPointer method, IAMMediaTypeSample.GetPointer, IAMMediaTypeSample::GetPointer, IAMMediaTypeSampleGetPointer, amstream/IAMMediaTypeSample::GetPointer, dshow.iammediatypesample_getpointer
 ms.topic: method
-f1_keywords: 
- - "amstream/IAMMediaTypeSample.GetPointer"
+f1_keywords:
+- amstream/IAMMediaTypeSample.GetPointer
 dev_langs:
- - c++
+- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amstream.h
+- amstream.h
 api_name:
- - IAMMediaTypeSample.GetPointer
+- IAMMediaTypeSample.GetPointer
 targetos: Windows
 req.typenames: 
 req.redist: 

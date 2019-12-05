@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl.__unnamed_struct_30
 title: USN_JOURNAL_DATA_V2
-
 description: Represents an update sequence number (USN) change journal, its records, and its capacity. This structure is the output buffer for the FSCTL_QUERY_USN_JOURNAL control code.
 old-location: fs\usn_journal_data_v2.htm
 tech.root: FileIO
 ms.assetid: BBFA6D14-1423-45B0-83A0-62019D08507F
-
 ms.date: 12/05/2018
-ms.keywords: "*PUSN_JOURNAL_DATA_V2, FLAG_USN_TRACK_MODIFIED_RANGES_ENABLE, PUSN_JOURNAL_DATA_V2, PUSN_JOURNAL_DATA_V2 structure pointer [Files], USN_JOURNAL_DATA_V2, USN_JOURNAL_DATA_V2 structure [Files], fs.usn_journal_data_v2, winioctl/PUSN_JOURNAL_DATA_V2, winioctl/USN_JOURNAL_DATA_V2"
+ms.keywords: '*PUSN_JOURNAL_DATA_V2, FLAG_USN_TRACK_MODIFIED_RANGES_ENABLE, PUSN_JOURNAL_DATA_V2, PUSN_JOURNAL_DATA_V2 structure pointer [Files], USN_JOURNAL_DATA_V2, USN_JOURNAL_DATA_V2 structure [Files], fs.usn_journal_data_v2, winioctl/PUSN_JOURNAL_DATA_V2, winioctl/USN_JOURNAL_DATA_V2'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/USN_JOURNAL_DATA_V2"
+f1_keywords:
+- winioctl/USN_JOURNAL_DATA_V2
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - USN_JOURNAL_DATA_V2
+- USN_JOURNAL_DATA_V2
 targetos: Windows
 req.typenames: USN_JOURNAL_DATA_V2, *PUSN_JOURNAL_DATA_V2
 req.redist: 

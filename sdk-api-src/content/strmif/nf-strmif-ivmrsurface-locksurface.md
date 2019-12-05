@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRSurface.LockSurface
 title: IVMRSurface::LockSurface (strmif.h)
-
 description: The LockSurface method locks the attached DirectDraw surface.
 old-location: dshow\ivmrsurface_locksurface.htm
 tech.root: DirectShow
 ms.assetid: 119a6983-3639-4047-b8b4-7a8b0cb5583d
-
 ms.date: 12/05/2018
 ms.keywords: IVMRSurface interface [DirectShow],LockSurface method, IVMRSurface.LockSurface, IVMRSurface::LockSurface, IVMRSurfaceLockSurface, LockSurface, LockSurface method [DirectShow], LockSurface method [DirectShow],IVMRSurface interface, dshow.ivmrsurface_locksurface, strmif/IVMRSurface::LockSurface
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRSurface.LockSurface"
+f1_keywords:
+- strmif/IVMRSurface.LockSurface
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurface.LockSurface
+- IVMRSurface.LockSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceManager.GetInterfaces
 title: IMbnInterfaceManager::GetInterfaces (mbnapi.h)
-
 description: Gets a list of all available IMbnInterface objects.
 old-location: mbn\imbninterfacemanager_getinterfaces.htm
 tech.root: mbn
 ms.assetid: 1cd10189-8f36-4bcb-95e9-35064e70fdf8
-
 ms.date: 12/05/2018
 ms.keywords: GetInterfaces, GetInterfaces method [Microsoft Broadband Networks], GetInterfaces method [Microsoft Broadband Networks],IMbnInterfaceManager interface, IMbnInterfaceManager interface [Microsoft Broadband Networks],GetInterfaces method, IMbnInterfaceManager.GetInterfaces, IMbnInterfaceManager::GetInterfaces, mbn.imbninterfacemanager_getinterfaces, mbnapi/IMbnInterfaceManager::GetInterfaces
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnInterfaceManager.GetInterfaces"
+f1_keywords:
+- mbnapi/IMbnInterfaceManager.GetInterfaces
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnInterfaceManager.GetInterfaces
+- IMbnInterfaceManager.GetInterfaces
 targetos: Windows
 req.typenames: 
 req.redist: 

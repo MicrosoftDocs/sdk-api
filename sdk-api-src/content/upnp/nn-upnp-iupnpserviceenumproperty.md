@@ -1,19 +1,17 @@
 ---
 UID: NN:upnp.IUPnPServiceEnumProperty
 title: IUPnPServiceEnumProperty (upnp.h)
-
 description: Use this interface to delay Service Control Protocol Description (SCPD) download and event subscription on the IUPnPService objects enumerated from the IUPnPServices object.
 old-location: upnp\iupnpserviceenumproperty.htm
 tech.root: upnp
 ms.assetid: B63CCE08-548F-44D3-BAE3-84E4358F25AD
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPServiceEnumProperty, IUPnPServiceEnumProperty interface [UPnP APIs], IUPnPServiceEnumProperty interface [UPnP APIs],described, upnp.iupnpserviceenumproperty, upnp/IUPnPServiceEnumProperty
 ms.topic: interface
-f1_keywords: 
- - "upnp/IUPnPServiceEnumProperty"
+f1_keywords:
+- upnp/IUPnPServiceEnumProperty
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPServiceEnumProperty
+- IUPnPServiceEnumProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

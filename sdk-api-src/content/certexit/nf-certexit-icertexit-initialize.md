@@ -1,19 +1,17 @@
 ---
 UID: NF:certexit.ICertExit.Initialize
 title: ICertExit::Initialize (certexit.h)
-
 description: Called by the server engine when it initializes itself.
 old-location: security\icertexit2_initialize.htm
 tech.root: SecCrypto
 ms.assetid: 61d27de8-f940-4f18-ba44-7e91378f035c
-
 ms.date: 12/05/2018
 ms.keywords: CCertExit object [Security],Initialize method, EXITEVENT_CERTDENIED, EXITEVENT_CERTISSUED, EXITEVENT_CERTPENDING, EXITEVENT_CERTRETRIEVEPENDING, EXITEVENT_CERTREVOKED, EXITEVENT_CRLISSUED, EXITEVENT_SHUTDOWN, ICertExit interface [Security],Initialize method, ICertExit.Initialize, ICertExit2 interface [Security],Initialize method, ICertExit2::Initialize, ICertExit::Initialize, Initialize, Initialize method [Security], Initialize method [Security],CCertExit object, Initialize method [Security],ICertExit interface, Initialize method [Security],ICertExit2 interface, _certsrv_icertexit_initialize, certexit/ICertExit2::Initialize, certexit/ICertExit::Initialize, security.icertexit2_initialize
 ms.topic: method
-f1_keywords: 
- - "certexit/ICertExit2.Initialize"
+f1_keywords:
+- certexit/ICertExit2.Initialize
 dev_langs:
- - c++
+- c++
 req.header: certexit.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certexit.h
+- Certexit.h
 api_name:
- - ICertExit2.Initialize
- - ICertExit.Initialize
- - CCertExit.Initialize
+- ICertExit2.Initialize
+- ICertExit.Initialize
+- CCertExit.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

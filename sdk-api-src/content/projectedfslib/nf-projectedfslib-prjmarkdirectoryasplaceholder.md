@@ -1,19 +1,17 @@
 ---
 UID: NF:projectedfslib.PrjMarkDirectoryAsPlaceholder
 title: PrjMarkDirectoryAsPlaceholder function (projectedfslib.h)
-
 description: Converts an existing directory to a directory placeholder.
 old-location: projfs\prjmarkdirectoryasplaceholder.htm
 tech.root: ProjFS
 ms.assetid: 6C92275E-B9A6-4556-A709-8EFBAEDB94B5
-
 ms.date: 12/05/2018
 ms.keywords: PrjMarkDirectoryAsPlaceholder, PrjMarkDirectoryAsPlaceholder function, ProjFS.prjmarkdirectoryasplaceholder, projectedfslib/PrjMarkDirectoryAsPlaceholder
 ms.topic: function
-f1_keywords: 
- - "projectedfslib/PrjMarkDirectoryAsPlaceholder"
+f1_keywords:
+- projectedfslib/PrjMarkDirectoryAsPlaceholder
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PrjMarkDirectoryAsPlaceholder
+- PrjMarkDirectoryAsPlaceholder
 targetos: Windows
 req.typenames: 
 req.redist: 

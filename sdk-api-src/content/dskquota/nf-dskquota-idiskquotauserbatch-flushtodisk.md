@@ -1,19 +1,17 @@
 ---
 UID: NF:dskquota.IDiskQuotaUserBatch.FlushToDisk
 title: IDiskQuotaUserBatch::FlushToDisk (dskquota.h)
-
 description: Writes user object changes to disk in a single call to the underlying file system.
 old-location: fs\idiskquotauserbatch_flushtodisk.htm
 tech.root: FileIO
 ms.assetid: 2d147224-64d8-4c15-b860-e6dd216cb170
-
 ms.date: 12/05/2018
 ms.keywords: FlushToDisk, FlushToDisk method [Files], FlushToDisk method [Files],IDiskQuotaUserBatch interface, IDiskQuotaUserBatch interface [Files],FlushToDisk method, IDiskQuotaUserBatch.FlushToDisk, IDiskQuotaUserBatch::FlushToDisk, _win32_idiskquotauserbatch_flushtodisk, base.idiskquotauserbatch_flushtodisk, dskquota/IDiskQuotaUserBatch::FlushToDisk, fs.idiskquotauserbatch_flushtodisk
 ms.topic: method
-f1_keywords: 
- - "dskquota/IDiskQuotaUserBatch.FlushToDisk"
+f1_keywords:
+- dskquota/IDiskQuotaUserBatch.FlushToDisk
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaUserBatch.FlushToDisk
+- IDiskQuotaUserBatch.FlushToDisk
 targetos: Windows
 req.typenames: 
 req.redist: 

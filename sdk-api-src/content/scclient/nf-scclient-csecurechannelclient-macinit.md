@@ -1,19 +1,17 @@
 ---
 UID: NF:scclient.CSecureChannelClient.MACInit
 title: CSecureChannelClient::MACInit (scclient.h)
-
 description: The MACInit method acquires a message authentication code (MAC) channel.
 old-location: wmdm\csecurechannelclient_macinit.htm
 tech.root: WMDM
 ms.assetid: d383d040-55f7-4ed7-b5b8-8e963b6cb16a
-
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelClient class [windows Media Device Manager],MACInit method, CSecureChannelClient.MACInit, CSecureChannelClient::MACInit, CSecureChannelClientMACInit, MACInit, MACInit method [windows Media Device Manager], MACInit method [windows Media Device Manager],CSecureChannelClient class, scclient/CSecureChannelClient::MACInit, wmdm.csecurechannelclient_macinit
 ms.topic: method
-f1_keywords: 
- - "scclient/CSecureChannelClient.MACInit"
+f1_keywords:
+- scclient/CSecureChannelClient.MACInit
 dev_langs:
- - c++
+- c++
 req.header: scclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - CSecureChannelClient.MACInit
+- CSecureChannelClient.MACInit
 targetos: Windows
 req.typenames: 
 req.redist: 

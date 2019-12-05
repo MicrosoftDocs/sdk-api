@@ -1,19 +1,17 @@
 ---
 UID: NN:amparse.IAMParse
 title: IAMParse (amparse.h)
-
 description: The IAMParse interface sets and retrieves the parse time for an MPEG-2 stream.
 old-location: dshow\iamparse.htm
 tech.root: DirectShow
 ms.assetid: c5f3e153-c92f-4cdf-9aae-336b1f3dd8d6
-
 ms.date: 12/05/2018
 ms.keywords: IAMParse, IAMParse interface [DirectShow], IAMParse interface [DirectShow],described, IAMParseInterface, amparse/IAMParse, dshow.iamparse
 ms.topic: interface
-f1_keywords: 
- - "amparse/IAMParse"
+f1_keywords:
+- amparse/IAMParse
 dev_langs:
- - c++
+- c++
 req.header: amparse.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMParse
+- IAMParse
 targetos: Windows
 req.typenames: 
 req.redist: 

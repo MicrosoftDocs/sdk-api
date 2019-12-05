@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITLocationInfo
 title: ITLocationInfo (tapi3if.h)
-
 description: The ITLocationInfo interface is used to get information related to the location of the calling party. This is the location information that is entered by using the Telephony applet under the Control Panel.
 old-location: tapi3\itlocationinfo.htm
 tech.root: Tapi
 ms.assetid: 0f82a6f4-26a6-48dc-9bfa-a86edf1b6be4
-
 ms.date: 12/05/2018
 ms.keywords: ITLocationInfo, ITLocationInfo interface [TAPI 2.2], ITLocationInfo interface [TAPI 2.2],described, _tapi3_itlocationinfo, tapi3.itlocationinfo, tapi3if/ITLocationInfo
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITLocationInfo"
+f1_keywords:
+- tapi3if/ITLocationInfo
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITLocationInfo
+- ITLocationInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -3,14 +3,13 @@ UID: NF:gdiplusheaders.Region.Exclude(IN const Rect &)
 title: Region::Exclude
 description: The Region::Exclude method updates a region that does not intersect the specified rectangle's interior.
 ms.assetid: b8a1fd06-45d5-426d-9582-8d5e837d1824
-
 ms.date: 05/20/2019
 ms.keywords: Region::Exclude
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusheaders/Region::Exclude"
+f1_keywords:
+- gdiplusheaders/Region::Exclude
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusheaders.h
+- gdiplusheaders.h
 api_name:
- - Region::Exclude
+- Region::Exclude
 ---
 
 # Region::Exclude(Rect&)

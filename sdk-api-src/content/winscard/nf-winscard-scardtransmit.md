@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardTransmit
 title: SCardTransmit function (winscard.h)
-
 description: Sends a service request to the smart card and expects to receive data back from the card.
 old-location: security\scardtransmit.htm
 tech.root: SecAuthN
 ms.assetid: d0c16b67-34e7-4872-aa36-79dcad19093e
-
 ms.date: 12/05/2018
 ms.keywords: SCardTransmit, SCardTransmit function [Security], _smart_scardtransmit, bCla, bIns, bP1,bP2, bP3, security.scardtransmit, winscard/SCardTransmit
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardTransmit"
+f1_keywords:
+- winscard/SCardTransmit
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
- - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+- Winscard.dll
+- Ext-MS-Win-Security-WinSCard-L1-1-0.dll
 api_name:
- - SCardTransmit
+- SCardTransmit
 targetos: Windows
 req.typenames: 
 req.redist: 

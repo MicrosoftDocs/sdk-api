@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3.ITAgentHandler
 title: ITAgentHandler (tapi3.h)
-
 description: The ITAgentHandler interface provides methods to create Agent objects and enumerate Automatic Call Distribution (ACD) groups. The IEnumAgentHandler::Next and ITTapiCallCenter::get_AgentHandlers methods create the ITAgentHandler interface.
 old-location: tapi3\itagenthandler.htm
 tech.root: Tapi
 ms.assetid: 11861d77-39ad-4d85-bf68-ba0f4321ba7c
-
 ms.date: 12/05/2018
 ms.keywords: ITAgentHandler, ITAgentHandler interface [TAPI 2.2], ITAgentHandler interface [TAPI 2.2],described, _tapi3_itagenthandler, tapi3.itagenthandler, tapi3cc/ITAgentHandler
 ms.topic: interface
-f1_keywords: 
- - "tapi3/ITAgentHandler"
+f1_keywords:
+- tapi3/ITAgentHandler
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAgentHandler
+- ITAgentHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

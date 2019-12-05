@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IEnumNames.Clone
 title: IEnumNames::Clone (comsvcs.h)
-
 description: Creates an enumerator that contains the same enumeration state as the current one.
 old-location: cos\ienumnames_clone.htm
 tech.root: cossdk
 ms.assetid: ea57be73-076a-445d-9b0d-4a1041befa2d
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM+], Clone method [COM+],IEnumNames interface, IEnumNames interface [COM+],Clone method, IEnumNames.Clone, IEnumNames::Clone, _cos_IEnumNames_Clone, comsvcs/IEnumNames::Clone, cos.ienumnames_clone
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IEnumNames.Clone"
+f1_keywords:
+- comsvcs/IEnumNames.Clone
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IEnumNames.Clone
+- IEnumNames.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

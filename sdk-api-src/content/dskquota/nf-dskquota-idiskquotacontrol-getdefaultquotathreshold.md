@@ -1,19 +1,17 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.GetDefaultQuotaThreshold
 title: IDiskQuotaControl::GetDefaultQuotaThreshold (dskquota.h)
-
 description: Retrieves the default quota warning threshold for the volume.
 old-location: fs\idiskquotacontrol_getdefaultquotathreshold.htm
 tech.root: FileIO
 ms.assetid: e57ec1c0-cece-4379-a695-a33c832ea7af
-
 ms.date: 12/05/2018
 ms.keywords: GetDefaultQuotaThreshold, GetDefaultQuotaThreshold method [Files], GetDefaultQuotaThreshold method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],GetDefaultQuotaThreshold method, IDiskQuotaControl.GetDefaultQuotaThreshold, IDiskQuotaControl::GetDefaultQuotaThreshold, _win32_idiskquotacontrol_getdefaultquotathreshold, base.idiskquotacontrol_getdefaultquotathreshold, dskquota/IDiskQuotaControl::GetDefaultQuotaThreshold, fs.idiskquotacontrol_getdefaultquotathreshold
 ms.topic: method
-f1_keywords: 
- - "dskquota/IDiskQuotaControl.GetDefaultQuotaThreshold"
+f1_keywords:
+- dskquota/IDiskQuotaControl.GetDefaultQuotaThreshold
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaControl.GetDefaultQuotaThreshold
+- IDiskQuotaControl.GetDefaultQuotaThreshold
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:projectedfslib.PrjStopVirtualizing
 title: PrjStopVirtualizing function (projectedfslib.h)
-
 description: Stops a running ProjFS virtualization instance, making it unavailable to service I/O or involve callbacks on the provider.
 old-location: projfs\prjstopvirtualizing.htm
 tech.root: ProjFS
 ms.assetid: D01BF7C5-1EAC-446A-BCE5-A6EF46A5443D
-
 ms.date: 12/05/2018
 ms.keywords: PrjStopVirtualizing, PrjStopVirtualizing function, ProjFS.prjstopvirtualizing, projectedfslib/PrjStopVirtualizing
 ms.topic: function
-f1_keywords: 
- - "projectedfslib/PrjStopVirtualizing"
+f1_keywords:
+- projectedfslib/PrjStopVirtualizing
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PrjStopVirtualizing
+- PrjStopVirtualizing
 targetos: Windows
 req.typenames: 
 req.redist: 

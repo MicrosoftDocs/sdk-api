@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerPnrpEndResolve
 title: PeerPnrpEndResolve function (p2p.h)
-
 description: Closes the handle for an asynchronous PNRP resolution operation initiated with a previous call to PeerPnrpStartResolve.
 old-location: p2p\peerpnrpendresolve.htm
 tech.root: P2PSdk
 ms.assetid: b700a195-57c4-481a-93d2-82d543f5c6c6
-
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpEndResolve, PeerPnrpEndResolve function [Peer Networking], p2p.peerpnrpendresolve, p2p/PeerPnrpEndResolve
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerPnrpEndResolve"
+f1_keywords:
+- p2p/PeerPnrpEndResolve
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerPnrpEndResolve
+- PeerPnrpEndResolve
 targetos: Windows
 req.typenames: 
 req.redist: 

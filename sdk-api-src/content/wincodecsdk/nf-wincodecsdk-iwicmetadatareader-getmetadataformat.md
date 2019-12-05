@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReader.GetMetadataFormat
 title: IWICMetadataReader::GetMetadataFormat (wincodecsdk.h)
-
 description: Gets the metadata format associated with the reader.
 old-location: wic\_wic_codec_iwicmetadatareader_getmetadataformat.htm
 tech.root: wic
 ms.assetid: 5dcbfac4-9a77-4453-be1e-3c42e94d548e
-
 ms.date: 12/05/2018
 ms.keywords: GetMetadataFormat, GetMetadataFormat method [Windows Imaging Component], GetMetadataFormat method [Windows Imaging Component],IWICMetadataReader interface, IWICMetadataReader interface [Windows Imaging Component],GetMetadataFormat method, IWICMetadataReader.GetMetadataFormat, IWICMetadataReader::GetMetadataFormat, _wic_codec_iwicmetadatareader_getmetadataformat, wic._wic_codec_iwicmetadatareader_getmetadataformat, wincodecsdk/IWICMetadataReader::GetMetadataFormat
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICMetadataReader.GetMetadataFormat"
+f1_keywords:
+- wincodecsdk/IWICMetadataReader.GetMetadataFormat
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataReader.GetMetadataFormat
+- IWICMetadataReader.GetMetadataFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

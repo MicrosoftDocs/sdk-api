@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventSubscription.get_SubscriptionID
 title: IEventSubscription::get_SubscriptionID (eventsys.h)
-
 description: The unique ID for the subscription object.
 old-location: cos\ieventsubscription_subscriptionid.htm
 tech.root: cossdk
 ms.assetid: 923eadb6-2ee8-4db9-952a-69f73367b2f8
-
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription interface [COM+],SubscriptionID property, IEventSubscription.SubscriptionID, IEventSubscription.get_SubscriptionID, IEventSubscription::SubscriptionID, IEventSubscription::get_SubscriptionID, IEventSubscription::put_SubscriptionID, SubscriptionID property [COM+], SubscriptionID property [COM+],IEventSubscription interface, cos.ieventsubscription_subscriptionid, eventsys/IEventSubscription::SubscriptionID, eventsys/IEventSubscription::get_SubscriptionID, eventsys/IEventSubscription::put_SubscriptionID, get_SubscriptionID
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventSubscription.SubscriptionID"
+f1_keywords:
+- eventsys/IEventSubscription.SubscriptionID
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IEventSubscription.SubscriptionID
- - IEventSubscription.get_SubscriptionID
- - IEventSubscription.put_SubscriptionID
+- IEventSubscription.SubscriptionID
+- IEventSubscription.get_SubscriptionID
+- IEventSubscription.put_SubscriptionID
 targetos: Windows
 req.typenames: 
 req.redist: 

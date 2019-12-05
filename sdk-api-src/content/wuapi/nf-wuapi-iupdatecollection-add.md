@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateCollection.Add
 title: IUpdateCollection::Add (wuapi.h)
-
 description: Adds an item to the collection.
 old-location: wua\iupdatecollection_add.htm
 tech.root: Wua_Sdk
 ms.assetid: 32b25c99-d2a0-4365-a285-f66381cfc3e7
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Windows Update Agent], Add method [Windows Update Agent],IUpdateCollection interface, IUpdateCollection interface [Windows Update Agent],Add method, IUpdateCollection.Add, IUpdateCollection::Add, wua.iupdatecollection_add, wuapi/IUpdateCollection::Add
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateCollection.Add"
+f1_keywords:
+- wuapi/IUpdateCollection.Add
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateCollection.Add
+- IUpdateCollection.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

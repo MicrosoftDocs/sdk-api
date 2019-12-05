@@ -1,19 +1,17 @@
 ---
 UID: NS:uiautomationcoreapi.UiaEventArgs
 title: UiaEventArgs (uiautomationcoreapi.h)
-
 description: Note  This structure is deprecated.  Contains information about a Microsoft UI Automation event.
 old-location: winauto\uiauto_UiaEventArgsStruct.htm
 tech.root: WinAuto
 ms.assetid: 7598936c-85da-40bc-8e94-94543371d915
-
 ms.date: 12/05/2018
 ms.keywords: UiaEventArgs, UiaEventArgs structure [Windows Accessibility], uiauto.uiauto_UiaEventArgsStruct, uiauto_UiaEventArgsStruct, uiautomationcoreapi/UiaEventArgs, winauto.uiauto_UiaEventArgsStruct
 ms.topic: struct
-f1_keywords: 
- - "uiautomationcoreapi/UiaEventArgs"
+f1_keywords:
+- uiautomationcoreapi/UiaEventArgs
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCoreApi.h
+- UIAutomationCoreApi.h
 api_name:
- - UiaEventArgs
+- UiaEventArgs
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMExtTransport.put_EditStart
 title: IAMExtTransport::put_EditStart (strmif.h)
-
 description: The put_EditStart method activates the edit control on a capable transport.
 old-location: dshow\iamexttransport_put_editstart.htm
 tech.root: DirectShow
 ms.assetid: 1fd9c788-2ccb-47e5-bed8-fece9cfdf2a6
-
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],put_EditStart method, IAMExtTransport.put_EditStart, IAMExtTransport::put_EditStart, IAMExtTransportput_EditStart, dshow.iamexttransport_put_editstart, put_EditStart, put_EditStart method [DirectShow], put_EditStart method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::put_EditStart
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMExtTransport.put_EditStart"
+f1_keywords:
+- strmif/IAMExtTransport.put_EditStart
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtTransport.put_EditStart
+- IAMExtTransport.put_EditStart
 targetos: Windows
 req.typenames: 
 req.redist: 

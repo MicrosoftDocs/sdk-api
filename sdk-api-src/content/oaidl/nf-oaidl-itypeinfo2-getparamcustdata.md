@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetParamCustData
 title: ITypeInfo2::GetParamCustData (oaidl.h)
-
 description: Gets the custom data of the specified parameter.
 old-location: automat\itypeinfo2_getparamcustdata.htm
 tech.root: automat
 ms.assetid: 9342c364-58bb-47fa-b2c0-aae7df1ccdb5
-
 ms.date: 12/05/2018
 ms.keywords: GetParamCustData, GetParamCustData method [Automation], GetParamCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetParamCustData method, ITypeInfo2.GetParamCustData, ITypeInfo2::GetParamCustData, _oa96_ITypeInfo2_GetParamCustData, automat.itypeinfo2_getparamcustdata, oaidl/ITypeInfo2::GetParamCustData
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeInfo2.GetParamCustData"
+f1_keywords:
+- oaidl/ITypeInfo2.GetParamCustData
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeInfo2.GetParamCustData
+- ITypeInfo2.GetParamCustData
 targetos: Windows
 req.typenames: 
 req.redist: 

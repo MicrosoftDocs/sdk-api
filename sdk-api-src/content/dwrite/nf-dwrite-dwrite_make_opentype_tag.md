@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.DWRITE_MAKE_OPENTYPE_TAG
 title: DWRITE_MAKE_OPENTYPE_TAG macro (dwrite.h)
-
 description: Creates an OpenType tag as a 32-bit integer, such that the first character in the tag is the lowest byte (least significant on little endian architectures), which can be used to compare with tags in the font file.
 old-location: directwrite\dwrite_make_opentype_tag.htm
 tech.root: DirectWrite
 ms.assetid: fe93a24a-5f3d-4e73-87ac-b33357c838e3
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_MAKE_OPENTYPE_TAG, DWRITE_MAKE_OPENTYPE_TAG macro [Direct Write], directwrite.dwrite_make_opentype_tag, dwrite/DWRITE_MAKE_OPENTYPE_TAG
 ms.topic: macro
-f1_keywords: 
- - "dwrite/DWRITE_MAKE_OPENTYPE_TAG"
+f1_keywords:
+- dwrite/DWRITE_MAKE_OPENTYPE_TAG
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite.h
+- dwrite.h
 api_name:
- - DWRITE_MAKE_OPENTYPE_TAG
+- DWRITE_MAKE_OPENTYPE_TAG
 targetos: Windows
 req.typenames: 
 req.redist: 

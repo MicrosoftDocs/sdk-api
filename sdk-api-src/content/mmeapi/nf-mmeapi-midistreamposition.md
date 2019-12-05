@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.midiStreamPosition
 title: midiStreamPosition function (mmeapi.h)
-
 description: The midiStreamPosition function retrieves the current position in a MIDI stream.
 old-location: multimedia\midistreamposition.htm
 tech.root: Multimedia
 ms.assetid: 77d859bb-1f1b-4a95-939e-88bdf31b1959
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_midiStreamPosition, midiStreamPosition, midiStreamPosition function [Windows Multimedia], mmeapi/midiStreamPosition, multimedia.midistreamposition"
+ms.keywords: _win32_midiStreamPosition, midiStreamPosition, midiStreamPosition function [Windows Multimedia], mmeapi/midiStreamPosition, multimedia.midistreamposition
 ms.topic: function
-f1_keywords: 
- - "mmeapi/midiStreamPosition"
+f1_keywords:
+- mmeapi/midiStreamPosition
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - midiStreamPosition
+- midiStreamPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

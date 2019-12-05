@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasGetConnectStatusA
 title: RasGetConnectStatusA function (ras.h)
-
 description: The RasGetConnectStatus function retrieves information on the current status of the specified remote access connection. An application can use this call to determine when an asynchronous RasDial call is complete.
 old-location: rras\rasgetconnectstatus.htm
 tech.root: RRAS
 ms.assetid: 3b2a2f8d-b1ff-44d2-ba49-60877ca6c104
-
 ms.date: 12/05/2018
 ms.keywords: RasGetConnectStatus, RasGetConnectStatus function [RAS], RasGetConnectStatusA, RasGetConnectStatusW, _ras_rasgetconnectstatus, ras/RasGetConnectStatus, ras/RasGetConnectStatusA, ras/RasGetConnectStatusW, rras.rasgetconnectstatus
 ms.topic: function
-f1_keywords: 
- - "ras/RasGetConnectStatus"
+f1_keywords:
+- ras/RasGetConnectStatus
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
- - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
- - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
+- Rasapi32.dll
+- Ext-MS-Win-ras-rasapi32-l1-1-0.dll
+- Ext-MS-Win-ras-rasapi32-l1-1-1.dll
 api_name:
- - RasGetConnectStatus
- - RasGetConnectStatusA
- - RasGetConnectStatusW
+- RasGetConnectStatus
+- RasGetConnectStatusA
+- RasGetConnectStatusW
 targetos: Windows
 req.typenames: 
 req.redist: 

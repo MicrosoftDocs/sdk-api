@@ -1,19 +1,17 @@
 ---
 UID: NE:fsrmenums._FsrmReportType
 title: FsrmReportType (fsrmenums.h)
-
 description: Defines the types of reports that you can generate.
 old-location: fsrm\fsrmreporttype.htm
 tech.root: fsrm
 ms.assetid: 6fb5cb02-371b-4d07-9f13-d0409d5835d4
-
 ms.date: 12/05/2018
 ms.keywords: FsrmReportType, FsrmReportType enumeration [File Server Resource Manager], FsrmReportType_AutomaticClassification, FsrmReportType_DuplicateFiles, FsrmReportType_Expiration, FsrmReportType_ExportReport, FsrmReportType_FileScreenAudit, FsrmReportType_FilesByOwner, FsrmReportType_FilesByProperty, FsrmReportType_FilesByType, FsrmReportType_FoldersByProperty, FsrmReportType_LargeFiles, FsrmReportType_LeastRecentlyAccessed, FsrmReportType_MostRecentlyAccessed, FsrmReportType_QuotaUsage, FsrmReportType_Unknown, fs.fsrmreporttype, fsrm.fsrmreporttype, fsrmenums/FsrmReportType, fsrmenums/FsrmReportType_AutomaticClassification, fsrmenums/FsrmReportType_DuplicateFiles, fsrmenums/FsrmReportType_Expiration, fsrmenums/FsrmReportType_ExportReport, fsrmenums/FsrmReportType_FileScreenAudit, fsrmenums/FsrmReportType_FilesByOwner, fsrmenums/FsrmReportType_FilesByProperty, fsrmenums/FsrmReportType_FilesByType, fsrmenums/FsrmReportType_FoldersByProperty, fsrmenums/FsrmReportType_LargeFiles, fsrmenums/FsrmReportType_LeastRecentlyAccessed, fsrmenums/FsrmReportType_MostRecentlyAccessed, fsrmenums/FsrmReportType_QuotaUsage, fsrmenums/FsrmReportType_Unknown
 ms.topic: enum
-f1_keywords: 
- - "fsrmenums/FsrmReportType"
+f1_keywords:
+- fsrmenums/FsrmReportType
 dev_langs:
- - c++
+- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FsrmEnums.h
+- FsrmEnums.h
 api_name:
- - FsrmReportType
+- FsrmReportType
 targetos: Windows
 req.typenames: FsrmReportType
 req.redist: 

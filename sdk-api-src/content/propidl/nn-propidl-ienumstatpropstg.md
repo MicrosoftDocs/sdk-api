@@ -1,19 +1,17 @@
 ---
 UID: NN:propidl.IEnumSTATPROPSTG
 title: IEnumSTATPROPSTG (propidl.h)
-
 description: Iterates through an array of STATPROPSTG structures. The STATPROPSTG structures contain statistical data about properties in a property set.
 old-location: stg\ienumstatpropstg.htm
 tech.root: Stg
 ms.assetid: e625e52a-5628-4d18-9282-aa1c141c83af
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATPROPSTG, IEnumSTATPROPSTG interface [Structured Storage], IEnumSTATPROPSTG interface [Structured Storage],described, _stg_ienumstatpropstg, propidlbase/IEnumSTATPROPSTG, stg.ienumstatpropstg
 ms.topic: interface
-f1_keywords: 
- - "propidl/IEnumSTATPROPSTG"
+f1_keywords:
+- propidl/IEnumSTATPROPSTG
 dev_langs:
- - c++
+- c++
 req.header: propidl.h
 req.include-header: Propidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IEnumSTATPROPSTG
+- IEnumSTATPROPSTG
 targetos: Windows
 req.typenames: 
 req.redist: 

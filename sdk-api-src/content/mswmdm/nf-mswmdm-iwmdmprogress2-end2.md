@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMProgress2.End2
 title: IWMDMProgress2::End2 (mswmdm.h)
-
 description: The End2 method extends IWMDMProgress::End by providing a completion status indicator.
 old-location: wmdm\iwmdmprogress2_end2.htm
 tech.root: WMDM
 ms.assetid: 85265eb7-0702-4890-b6cb-b247296fe392
-
 ms.date: 12/05/2018
 ms.keywords: End2, End2 method [windows Media Device Manager], End2 method [windows Media Device Manager],IWMDMProgress2 interface, IWMDMProgress2 interface [windows Media Device Manager],End2 method, IWMDMProgress2.End2, IWMDMProgress2::End2, IWMDMProgress2End2, mswmdm/IWMDMProgress2::End2, wmdm.iwmdmprogress2_end2
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMProgress2.End2"
+f1_keywords:
+- mswmdm/IWMDMProgress2.End2
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMProgress2.End2
+- IWMDMProgress2.End2
 targetos: Windows
 req.typenames: 
 req.redist: 

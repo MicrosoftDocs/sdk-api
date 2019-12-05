@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprInfoBlockRemove
 title: MprInfoBlockRemove function (mprapi.h)
-
 description: The MprInfoBlockRemove function creates a new header that is identical to an existing header with a specified block removed.
 old-location: rras\mprinfoblockremove.htm
 tech.root: RRAS
 ms.assetid: 2d124541-c954-4031-95cd-68a96c8e0a77
-
 ms.date: 12/05/2018
 ms.keywords: MprInfoBlockRemove, MprInfoBlockRemove function [RAS], _mpr_mprinfoblockremove, mprapi/MprInfoBlockRemove, rras.mprinfoblockremove
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprInfoBlockRemove"
+f1_keywords:
+- mprapi/MprInfoBlockRemove
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprInfoBlockRemove
+- MprInfoBlockRemove
 targetos: Windows
 req.typenames: 
 req.redist: 

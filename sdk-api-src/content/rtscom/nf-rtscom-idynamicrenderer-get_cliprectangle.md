@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.get_ClipRectangle
 title: IDynamicRenderer::get_ClipRectangle (rtscom.h)
-
 description: Gets or sets the clipping rectangle for the DynamicRenderer Class object.
 old-location: tablet\idynamicrenderer_cliprectangle.htm
 tech.root: tablet
 ms.assetid: 0d3c6d2e-1675-4335-a283-ea14a818469a
-
 ms.date: 12/05/2018
 ms.keywords: 0d3c6d2e-1675-4335-a283-ea14a818469a, ClipRectangle property [Tablet PC], ClipRectangle property [Tablet PC],IDynamicRenderer interface, IDynamicRenderer interface [Tablet PC],ClipRectangle property, IDynamicRenderer.ClipRectangle, IDynamicRenderer.get_ClipRectangle, IDynamicRenderer.put_ClipRectangle, IDynamicRenderer::ClipRectangle, IDynamicRenderer::get_ClipRectangle, IDynamicRenderer::put_ClipRectangle, get_ClipRectangle, rtscom/IDynamicRenderer::ClipRectangle, rtscom/IDynamicRenderer::get_ClipRectangle, rtscom/IDynamicRenderer::put_ClipRectangle, tablet.idynamicrenderer_cliprectangle
 ms.topic: method
-f1_keywords: 
- - "rtscom/IDynamicRenderer.ClipRectangle"
+f1_keywords:
+- rtscom/IDynamicRenderer.ClipRectangle
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IDynamicRenderer.ClipRectangle
- - IDynamicRenderer.get_ClipRectangle
- - IDynamicRenderer.put_ClipRectangle
- - IDynamicRenderer.get_ClipRectangle
- - IDynamicRenderer.put_ClipRectangle
+- IDynamicRenderer.ClipRectangle
+- IDynamicRenderer.get_ClipRectangle
+- IDynamicRenderer.put_ClipRectangle
+- IDynamicRenderer.get_ClipRectangle
+- IDynamicRenderer.put_ClipRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.GetIpInterfaceTable
 title: GetIpInterfaceTable function (netioapi.h)
-
 description: Retrieves the IP interface entries on the local computer.
 old-location: iphlp\getipinterfacetable.htm
 tech.root: IpHlp
 ms.assetid: 09f2bbff-3281-41ae-878f-61c5afa20ec5
-
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetIpInterfaceTable, GetIpInterfaceTable function [IP Helper], iphlp.getipinterfacetable, netioapi/GetIpInterfaceTable
 ms.topic: function
-f1_keywords: 
- - "netioapi/GetIpInterfaceTable"
+f1_keywords:
+- netioapi/GetIpInterfaceTable
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetIpInterfaceTable
+- GetIpInterfaceTable
 targetos: Windows
 req.typenames: 
 req.redist: 

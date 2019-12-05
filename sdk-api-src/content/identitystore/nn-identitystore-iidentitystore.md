@@ -1,19 +1,17 @@
 ---
 UID: NN:identitystore.IIdentityStore
 title: IIdentityStore (identitystore.h)
-
 description: Provides methods to enumerate and manage identities and identity providers.
 old-location: security\iidentitystore.htm
 tech.root: SecAuthN
 ms.assetid: f7f0f103-411b-4fbd-9ed5-30c6ab2f0ab6
-
 ms.date: 12/05/2018
 ms.keywords: IIdentityStore, IIdentityStore interface [Security], IIdentityStore interface [Security],described, identitystore/IIdentityStore, security.iidentitystore
 ms.topic: interface
-f1_keywords: 
- - "identitystore/IIdentityStore"
+f1_keywords:
+- identitystore/IIdentityStore
 dev_langs:
- - c++
+- c++
 req.header: identitystore.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Identitystore.h
+- Identitystore.h
 api_name:
- - IIdentityStore
+- IIdentityStore
 targetos: Windows
 req.typenames: 
 req.redist: 

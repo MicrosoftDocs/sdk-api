@@ -1,19 +1,17 @@
 ---
 UID: NS:processsnapshot.__unnamed_struct_6
 title: PSS_HANDLE_TRACE_INFORMATION (processsnapshot.h)
-
 description: Holds handle trace information returned by PssQuerySnapshot.
 old-location: proc_snap\pss_handle_trace_information.htm
 tech.root: proc_snap
 ms.assetid: 0877DF1F-044C-48F2-9BCC-938EBD6D46EE
-
 ms.date: 12/05/2018
 ms.keywords: PSS_HANDLE_TRACE_INFORMATION, PSS_HANDLE_TRACE_INFORMATION structure, proc_snap.pss_handle_trace_information, processsnapshot/PSS_HANDLE_TRACE_INFORMATION
 ms.topic: struct
-f1_keywords: 
- - "processsnapshot/PSS_HANDLE_TRACE_INFORMATION"
+f1_keywords:
+- processsnapshot/PSS_HANDLE_TRACE_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - processsnapshot.h
+- processsnapshot.h
 api_name:
- - PSS_HANDLE_TRACE_INFORMATION
+- PSS_HANDLE_TRACE_INFORMATION
 targetos: Windows
 req.typenames: PSS_HANDLE_TRACE_INFORMATION
 req.redist: 

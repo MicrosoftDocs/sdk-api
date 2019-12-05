@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBSLocator2.put_DiseqLNBSource
 title: IDVBSLocator2::put_DiseqLNBSource (tuner.h)
-
 description: Specifies the input for a Digital Satellite Equipment Control (DiSEqC) low-noise block converter (LNB).
 old-location: mstv\idvbslocator2_diseqlnbsource.htm
 tech.root: mstv
 ms.assetid: 665ea57d-6cb7-43d6-8bf3-993d0075b3cc
-
 ms.date: 12/05/2018
 ms.keywords: DiseqLNBSource property [Microsoft TV Technologies], DiseqLNBSource property [Microsoft TV Technologies],IDVBSLocator2 interface, IDVBSLocator2 interface [Microsoft TV Technologies],DiseqLNBSource property, IDVBSLocator2.DiseqLNBSource, IDVBSLocator2.put_DiseqLNBSource, IDVBSLocator2::DiseqLNBSource, IDVBSLocator2::get_DiseqLNBSource, IDVBSLocator2::put_DiseqLNBSource, mstv.idvbslocator2_diseqlnbsource, put_DiseqLNBSource, tuner/IDVBSLocator2::DiseqLNBSource, tuner/IDVBSLocator2::get_DiseqLNBSource, tuner/IDVBSLocator2::put_DiseqLNBSource
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBSLocator2.DiseqLNBSource"
+f1_keywords:
+- tuner/IDVBSLocator2.DiseqLNBSource
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBSLocator2.DiseqLNBSource
- - IDVBSLocator2.get_DiseqLNBSource
- - IDVBSLocator2.put_DiseqLNBSource
+- IDVBSLocator2.DiseqLNBSource
+- IDVBSLocator2.get_DiseqLNBSource
+- IDVBSLocator2.put_DiseqLNBSource
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:ntsecpkg.LSA_COPY_TO_CLIENT_BUFFER
 title: LSA_COPY_TO_CLIENT_BUFFER (ntsecpkg.h)
-
 description: Copies information from a buffer in the current process into a client process's address space.
 old-location: security\copytoclientbuffer.htm
 tech.root: SecAuthN
 ms.assetid: 53ea2c99-7934-447d-9ec5-e88ee925ca89
-
 ms.date: 12/05/2018
 ms.keywords: CopyToClientBuffer, CopyToClientBuffer callback function [Security], LSA_COPY_TO_CLIENT_BUFFER, LSA_COPY_TO_CLIENT_BUFFER callback, _lsa_copytoclientbuffer, ntsecpkg/CopyToClientBuffer, security.copytoclientbuffer
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/CopyToClientBuffer
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

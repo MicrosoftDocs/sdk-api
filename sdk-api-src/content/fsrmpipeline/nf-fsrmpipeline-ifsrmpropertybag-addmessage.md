@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.AddMessage
 title: IFsrmPropertyBag::AddMessage (fsrmpipeline.h)
-
 description: Adds an error message to the bag.
 old-location: fsrm\ifsrmpropertybag_addmessage.htm
 tech.root: fsrm
 ms.assetid: 2d9166fd-5211-4114-843f-2c6563941715
-
 ms.date: 12/05/2018
 ms.keywords: AddMessage, AddMessage method [File Server Resource Manager], AddMessage method [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],AddMessage method, IFsrmPropertyBag.AddMessage, IFsrmPropertyBag::AddMessage, fs.ifsrmpropertybag_addmessage, fsrm.ifsrmpropertybag_addmessage, fsrmpipeline/IFsrmPropertyBag::AddMessage
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPropertyBag.AddMessage"
+f1_keywords:
+- fsrmpipeline/IFsrmPropertyBag.AddMessage
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyBag.AddMessage
+- IFsrmPropertyBag.AddMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

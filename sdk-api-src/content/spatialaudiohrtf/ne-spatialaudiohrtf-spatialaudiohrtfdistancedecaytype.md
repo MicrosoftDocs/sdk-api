@@ -1,19 +1,17 @@
 ---
 UID: NE:spatialaudiohrtf.SpatialAudioHrtfDistanceDecayType
 title: SpatialAudioHrtfDistanceDecayType (spatialaudiohrtf.h)
-
 description: Specifies the type of decay applied over distance from the position of an ISpatialAudioObjectForHrtf to the position of the listener.
 old-location: coreaudio\spatialaudiohrtfdistancedecaytype.htm
 tech.root: CoreAudio
 ms.assetid: EF4ACEB1-E802-4337-AA76-467BCB90D7C6
-
 ms.date: 12/05/2018
 ms.keywords: SpatialAudioHrtfDistanceDecayType, SpatialAudioHrtfDistanceDecayType enumeration [Core Audio], SpatialAudioHrtfDistanceDecay_CustomDecay, SpatialAudioHrtfDistanceDecay_NaturalDecay, coreaudio.spatialaudiohrtfdistancedecaytype, spatialaudiohrtf/ SpatialAudioHrtfDistanceDecay_NaturalDecay, spatialaudiohrtf/SpatialAudioHrtfDistanceDecayType, spatialaudiohrtf/SpatialAudioHrtfDistanceDecay_CustomDecay
 ms.topic: enum
-f1_keywords: 
- - "spatialaudiohrtf/SpatialAudioHrtfDistanceDecayType"
+f1_keywords:
+- spatialaudiohrtf/SpatialAudioHrtfDistanceDecayType
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - spatialaudiohrtf.h
+- spatialaudiohrtf.h
 api_name:
- - SpatialAudioHrtfDistanceDecayType
+- SpatialAudioHrtfDistanceDecayType
 targetos: Windows
 req.typenames: SpatialAudioHrtfDistanceDecayType
 req.redist: 

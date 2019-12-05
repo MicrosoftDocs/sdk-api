@@ -1,19 +1,17 @@
 ---
 UID: NF:mscat.CryptCATAdminEnumCatalogFromHash
 title: CryptCATAdminEnumCatalogFromHash function (mscat.h)
-
 description: Enumerates the catalogs that contain a specified hash.
 old-location: security\cryptcatadminenumcatalogfromhash.htm
 tech.root: SecCrypto
 ms.assetid: 33ab2d01-94ab-4d23-a054-9da0731485d6
-
 ms.date: 12/05/2018
 ms.keywords: CryptCATAdminEnumCatalogFromHash, CryptCATAdminEnumCatalogFromHash function [Security], mscat/CryptCATAdminEnumCatalogFromHash, security.cryptcatadminenumcatalogfromhash
 ms.topic: function
-f1_keywords: 
- - "mscat/CryptCATAdminEnumCatalogFromHash"
+f1_keywords:
+- mscat/CryptCATAdminEnumCatalogFromHash
 dev_langs:
- - c++
+- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wintrust.dll
- - mscat32.dll
+- Wintrust.dll
+- mscat32.dll
 api_name:
- - CryptCATAdminEnumCatalogFromHash
+- CryptCATAdminEnumCatalogFromHash
 targetos: Windows
 req.typenames: 
 req.redist: 

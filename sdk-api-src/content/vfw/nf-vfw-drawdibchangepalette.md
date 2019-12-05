@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.DrawDibChangePalette
 title: DrawDibChangePalette function (vfw.h)
-
 description: The DrawDibChangePalette function sets the palette entries used for drawing DIBs.
 old-location: multimedia\drawdibchangepalette.htm
 tech.root: Multimedia
 ms.assetid: 8c94ecac-d12c-45c4-8a11-e17502bd7d5d
-
 ms.date: 12/05/2018
 ms.keywords: DrawDibChangePalette, DrawDibChangePalette function [Windows Multimedia], _win32_DrawDibChangePalette, multimedia.drawdibchangepalette, vfw/DrawDibChangePalette
 ms.topic: function
-f1_keywords: 
- - "vfw/DrawDibChangePalette"
+f1_keywords:
+- vfw/DrawDibChangePalette
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msvfw32.dll
+- Msvfw32.dll
 api_name:
- - DrawDibChangePalette
+- DrawDibChangePalette
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:filehc.FCACHE_CREATE_CALLBACK
 title: FCACHE_CREATE_CALLBACK (filehc.h)
-
 description: A callback function that is used to create items in the cache.
 old-location: winprog\fcache_create_callback.htm
 tech.root: DevNotes
 ms.assetid: e6e20409-3cbc-4d04-b861-ebed7d15af6a
-
 ms.date: 12/05/2018
 ms.keywords: FCACHE_CREATE_CALLBACK, FCACHE_CREATE_CALLBACK callback, FCACHE_CREATE_CALLBACK callback function [Windows API], filehc/FCACHE_CREATE_CALLBACK, winprog.fcache_create_callback
 ms.topic: callback
-f1_keywords: 
- - "filehc/FCACHE_CREATE_CALLBACK"
+f1_keywords:
+- filehc/FCACHE_CREATE_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Filehc.h
+- Filehc.h
 api_name:
- - FCACHE_CREATE_CALLBACK
+- FCACHE_CREATE_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

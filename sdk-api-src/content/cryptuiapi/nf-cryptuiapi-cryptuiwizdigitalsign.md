@@ -1,19 +1,17 @@
 ---
 UID: NF:cryptuiapi.CryptUIWizDigitalSign
 title: CryptUIWizDigitalSign function (cryptuiapi.h)
-
 description: Digitally signs a document or BLOB.
 old-location: security\cryptuiwizdigitalsign.htm
 tech.root: SecCrypto
 ms.assetid: 1d01523e-d47b-49be-82c8-5e98f97be800
-
 ms.date: 12/05/2018
 ms.keywords: CRYPTUI_WIZ_NO_UI, CryptUIWizDigitalSign, CryptUIWizDigitalSign function [Security], cryptuiapi/CryptUIWizDigitalSign, security.cryptuiwizdigitalsign
 ms.topic: function
-f1_keywords: 
- - "cryptuiapi/CryptUIWizDigitalSign"
+f1_keywords:
+- cryptuiapi/CryptUIWizDigitalSign
 dev_langs:
- - c++
+- c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Cryptui.lib
 req.dll: Cryptui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cryptui.dll
+- Cryptui.dll
 api_name:
- - CryptUIWizDigitalSign
+- CryptUIWizDigitalSign
 targetos: Windows
 req.typenames: 
 req.redist: 

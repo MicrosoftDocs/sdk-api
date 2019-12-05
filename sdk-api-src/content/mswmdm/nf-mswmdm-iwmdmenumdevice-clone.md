@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMEnumDevice.Clone
 title: IWMDMEnumDevice::Clone (mswmdm.h)
-
 description: The Clone method returns a copy of the IWMDMEnumDevice interface. The new enumerator specifies the same enumeration state as the current enumerator.
 old-location: wmdm\iwmdmenumdevice_clone.htm
 tech.root: WMDM
 ms.assetid: c8118950-d96f-4720-ab3a-f5ea93065875
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [windows Media Device Manager], Clone method [windows Media Device Manager],IWMDMEnumDevice interface, IWMDMEnumDevice interface [windows Media Device Manager],Clone method, IWMDMEnumDevice.Clone, IWMDMEnumDevice::Clone, IWMDMEnumDeviceClone, mswmdm/IWMDMEnumDevice::Clone, wmdm.iwmdmenumdevice_clone
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMEnumDevice.Clone"
+f1_keywords:
+- mswmdm/IWMDMEnumDevice.Clone
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMEnumDevice.Clone
+- IWMDMEnumDevice.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

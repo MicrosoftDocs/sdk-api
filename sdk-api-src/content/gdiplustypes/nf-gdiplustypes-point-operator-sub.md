@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.Point.operator-sub
 title: Point::operator-sub (gdiplustypes.h)
-
 description: The Point::operator- method subtracts the X and Y data members of two Point objects.
 old-location: gdiplus\_gdiplus_CLASS_Point_operator_opminus_point_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointclass\pointmethods\operator_52point.htm
-
 ms.date: 12/05/2018
 ms.keywords: Point class [GDI+],operator- method, Point.operator-, Point.operator-(const Point&), Point.operator-sub, Point::operator-, Point::operator-sub, _gdiplus_CLASS_Point_operator_opminus_point_, gdiplus._gdiplus_CLASS_Point_operator_opminus_point_, operator-, operator- method [GDI+], operator- method [GDI+],Point class
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/Point.operator-"
+f1_keywords:
+- gdiplustypes/Point.operator-
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Point.operator-
+- Point.operator-
 targetos: Windows
 req.typenames: 
 req.redist: 

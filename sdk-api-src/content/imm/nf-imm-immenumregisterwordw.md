@@ -1,19 +1,17 @@
 ---
 UID: NF:imm.ImmEnumRegisterWordW
 title: ImmEnumRegisterWordW function (imm.h)
-
 description: Enumerates the register strings having the specified reading string, style, and register string.
 old-location: intl\immenumregisterword.htm
 tech.root: Intl
 ms.assetid: ebeed3f9-1164-49d8-a7af-61244976643b
-
 ms.date: 12/05/2018
 ms.keywords: ImmEnumRegisterWord, ImmEnumRegisterWord function [Internationalization for Windows Applications], ImmEnumRegisterWordA, ImmEnumRegisterWordW, _win32_ImmEnumRegisterWord, imm/ImmEnumRegisterWord, imm/ImmEnumRegisterWordA, imm/ImmEnumRegisterWordW, intl.immenumregisterword
 ms.topic: function
-f1_keywords: 
- - "imm/ImmEnumRegisterWord"
+f1_keywords:
+- imm/ImmEnumRegisterWord
 dev_langs:
- - c++
+- c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - imm32.dll
+- imm32.dll
 api_name:
- - ImmEnumRegisterWord
- - ImmEnumRegisterWordA
- - ImmEnumRegisterWordW
+- ImmEnumRegisterWord
+- ImmEnumRegisterWordA
+- ImmEnumRegisterWordW
 targetos: Windows
 req.typenames: 
 req.redist: 

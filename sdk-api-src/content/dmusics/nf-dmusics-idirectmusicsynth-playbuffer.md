@@ -1,19 +1,17 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.PlayBuffer
 title: IDirectMusicSynth::PlayBuffer (dmusics.h)
-
 description: The PlayBuffer method downloads a stream of MIDI messages to the synthesizer.
 old-location: audio\idirectmusicsynth_playbuffer.htm
 tech.root: audio
 ms.assetid: 96d0a2ef-1265-4e04-bb70-920f4c82058c
-
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynth interface [Audio Devices],PlayBuffer method, IDirectMusicSynth.PlayBuffer, IDirectMusicSynth::PlayBuffer, PlayBuffer, PlayBuffer method [Audio Devices], PlayBuffer method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_playbuffer, audmp-routines_1a5efe25-ef92-4baf-a4bc-fc2d043c832f.xml, dmusics/IDirectMusicSynth::PlayBuffer
 ms.topic: method
-f1_keywords: 
- - "dmusics/IDirectMusicSynth.PlayBuffer"
+f1_keywords:
+- dmusics/IDirectMusicSynth.PlayBuffer
 dev_langs:
- - c++
+- c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dmusics.h
+- dmusics.h
 api_name:
- - IDirectMusicSynth.PlayBuffer
+- IDirectMusicSynth.PlayBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

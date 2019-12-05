@@ -1,19 +1,17 @@
 ---
 UID: NS:eaptypes._EAP_METHOD_PROPERTY_VALUE_STRING
 title: EAP_METHOD_PROPERTY_VALUE_STRING (eaptypes.h)
-
 description: Contains the string value of an EAP method property.
 old-location: eaphost\eap_method_property_value_string.htm
 tech.root: eaphost
 ms.assetid: afb2d8f3-c2b1-45b8-9ff3-814c8e4b1595
-
 ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_PROPERTY_VALUE_STRING, EAP_METHOD_PROPERTY_VALUE_STRING structure [EAPHost], PEAP_METHOD_PROPERTY_VALUE_STRING, PEAP_METHOD_PROPERTY_VALUE_STRING structure pointer [EAPHost], eaphost.eap_method_property_value_string, eaptypes/EAP_METHOD_PROPERTY_VALUE_STRING, eaptypes/PEAP_METHOD_PROPERTY_VALUE_STRING
 ms.topic: struct
-f1_keywords: 
- - "eaptypes/EAP_METHOD_PROPERTY_VALUE_STRING"
+f1_keywords:
+- eaptypes/EAP_METHOD_PROPERTY_VALUE_STRING
 dev_langs:
- - c++
+- c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - EapTypes.h
+- EapTypes.h
 api_name:
- - EAP_METHOD_PROPERTY_VALUE_STRING
+- EAP_METHOD_PROPERTY_VALUE_STRING
 targetos: Windows
 req.typenames: EAP_METHOD_PROPERTY_VALUE_STRING
 req.redist: 

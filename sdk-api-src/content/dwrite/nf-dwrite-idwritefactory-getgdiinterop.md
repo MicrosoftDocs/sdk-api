@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFactory.GetGdiInterop
 title: IDWriteFactory::GetGdiInterop (dwrite.h)
-
 description: Creates an object that is used for interoperability with GDI.
 old-location: directwrite\IDWriteFactory_GetGdiInterop.htm
 tech.root: DirectWrite
 ms.assetid: 0ff7930b-8840-42d6-b52d-6766deab1aac
-
 ms.date: 12/05/2018
 ms.keywords: GetGdiInterop, GetGdiInterop method [Direct Write], GetGdiInterop method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],GetGdiInterop method, IDWriteFactory.GetGdiInterop, IDWriteFactory::GetGdiInterop, directwrite.IDWriteFactory_GetGdiInterop, dwrite/IDWriteFactory::GetGdiInterop
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFactory.GetGdiInterop"
+f1_keywords:
+- dwrite/IDWriteFactory.GetGdiInterop
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFactory.GetGdiInterop
+- IDWriteFactory.GetGdiInterop
 targetos: Windows
 req.typenames: 
 req.redist: 

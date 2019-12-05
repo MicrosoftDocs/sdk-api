@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMVideoCompression.GetInfo
 title: IAMVideoCompression::GetInfo (strmif.h)
-
 description: The GetInfo method retrieves information about the filter's compression properties, including capabilities and default values.
 old-location: dshow\iamvideocompression_getinfo.htm
 tech.root: DirectShow
 ms.assetid: d8ba2ba2-510a-4fb8-844e-48059ec4ef0d
-
 ms.date: 12/05/2018
 ms.keywords: GetInfo, GetInfo method [DirectShow], GetInfo method [DirectShow],IAMVideoCompression interface, IAMVideoCompression interface [DirectShow],GetInfo method, IAMVideoCompression.GetInfo, IAMVideoCompression::GetInfo, IAMVideoCompressionGetInfo, dshow.iamvideocompression_getinfo, strmif/IAMVideoCompression::GetInfo
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMVideoCompression.GetInfo"
+f1_keywords:
+- strmif/IAMVideoCompression.GetInfo
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVideoCompression.GetInfo
+- IAMVideoCompression.GetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

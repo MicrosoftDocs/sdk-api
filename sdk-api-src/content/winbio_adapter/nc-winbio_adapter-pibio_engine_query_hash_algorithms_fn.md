@@ -1,19 +1,17 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_QUERY_HASH_ALGORITHMS_FN
 title: PIBIO_ENGINE_QUERY_HASH_ALGORITHMS_FN (winbio_adapter.h)
-
 description: Retrieves an array of object identifiers that represent the hash algorithms supported by the engine adapter.
 old-location: secbiomet\engineadapterqueryhashalgorithms.htm
 tech.root: SecBioMet
 ms.assetid: 66766c80-44b5-4bec-b8cc-32adf1ddae8a
-
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterQueryHashAlgorithms, EngineAdapterQueryHashAlgorithms callback function [Windows Biometric Framework API], PIBIO_ENGINE_QUERY_HASH_ALGORITHMS_FN, PIBIO_ENGINE_QUERY_HASH_ALGORITHMS_FN callback, secbiomet.engineadapterqueryhashalgorithms, winbio_adapter/EngineAdapterQueryHashAlgorithms
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/EngineAdapterQueryHashAlgorithms
 dev_langs:
- - c++
+- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CMSG_STREAM_INFO
 title: CMSG_STREAM_INFO (wincrypt.h)
-
 description: Used to enable stream processing of data rather than single block processing.
 old-location: security\cmsg_stream_info.htm
 tech.root: SecCrypto
 ms.assetid: a4e7f6e8-351f-4981-b223-50b65f503394
-
 ms.date: 12/05/2018
-ms.keywords: "*PCMSG_STREAM_INFO, CMSG_STREAM_INFO, CMSG_STREAM_INFO structure [Security], PCMSG_STREAM_INFO, PCMSG_STREAM_INFO structure pointer [Security], _crypto2_cmsg_stream_info, cbData, fFinal, pbData, pvArg, security.cmsg_stream_info, wincrypt/CMSG_STREAM_INFO, wincrypt/PCMSG_STREAM_INFO"
+ms.keywords: '*PCMSG_STREAM_INFO, CMSG_STREAM_INFO, CMSG_STREAM_INFO structure [Security], PCMSG_STREAM_INFO, PCMSG_STREAM_INFO structure pointer [Security], _crypto2_cmsg_stream_info, cbData, fFinal, pbData, pvArg, security.cmsg_stream_info, wincrypt/CMSG_STREAM_INFO, wincrypt/PCMSG_STREAM_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CMSG_STREAM_INFO"
+f1_keywords:
+- wincrypt/CMSG_STREAM_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CMSG_STREAM_INFO
+- CMSG_STREAM_INFO
 targetos: Windows
 req.typenames: CMSG_STREAM_INFO, *PCMSG_STREAM_INFO
 req.redist: 

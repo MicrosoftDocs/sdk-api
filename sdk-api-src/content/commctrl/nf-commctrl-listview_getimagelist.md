@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_GetImageList
 title: ListView_GetImageList macro (commctrl.h)
-
 description: Gets the handle to an image list used for drawing list-view items. You can use this macro or send the LVM_GETIMAGELIST message explicitly.
 old-location: controls\ListView_GetImageList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getimagelist.htm
-
 ms.date: 12/05/2018
 ms.keywords: LVSIL_GROUPHEADER, LVSIL_NORMAL, LVSIL_SMALL, LVSIL_STATE, ListView_GetImageList, ListView_GetImageList macro [Windows Controls], _win32_ListView_GetImageList, _win32_ListView_GetImageList_cpp, commctrl/ListView_GetImageList, controls.ListView_GetImageList, controls._win32_ListView_GetImageList
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_GetImageList"
+f1_keywords:
+- commctrl/ListView_GetImageList
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_GetImageList
+- ListView_GetImageList
 targetos: Windows
 req.typenames: 
 req.redist: 

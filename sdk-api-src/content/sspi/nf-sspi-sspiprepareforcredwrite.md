@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.SspiPrepareForCredWrite
 title: SspiPrepareForCredWrite function (sspi.h)
-
 description: Generates values from an identity structure that can be passed as the values of parameters in a call to the CredWrite function.
 old-location: security\sspiprepareforcredwrite.htm
 tech.root: SecAuthN
 ms.assetid: 4db92042-38f2-42c2-9c94-b24e0eaafdf9
-
 ms.date: 12/05/2018
 ms.keywords: SspiPrepareForCredWrite, SspiPrepareForCredWrite function [Security], security.sspiprepareforcredwrite, sspi/SspiPrepareForCredWrite
 ms.topic: function
-f1_keywords: 
- - "sspi/SspiPrepareForCredWrite"
+f1_keywords:
+- sspi/SspiPrepareForCredWrite
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - SspiCli.dll
+- SspiCli.dll
 api_name:
- - SspiPrepareForCredWrite
+- SspiPrepareForCredWrite
 targetos: Windows
 req.typenames: 
 req.redist: 

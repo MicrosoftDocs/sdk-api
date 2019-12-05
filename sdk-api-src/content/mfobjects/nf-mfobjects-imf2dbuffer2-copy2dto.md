@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMF2DBuffer2.Copy2DTo
 title: IMF2DBuffer2::Copy2DTo (mfobjects.h)
-
 description: Copies the buffer to another 2D buffer object.
 old-location: mf\imf2dbuffer2_copy2dto.htm
 tech.root: medfound
 ms.assetid: 90B0CBA2-2474-4B34-8BB4-6C59C05CDD7E
-
 ms.date: 12/05/2018
 ms.keywords: Copy2DTo, Copy2DTo method [Media Foundation], Copy2DTo method [Media Foundation],IMF2DBuffer2 interface, IMF2DBuffer2 interface [Media Foundation],Copy2DTo method, IMF2DBuffer2.Copy2DTo, IMF2DBuffer2::Copy2DTo, mf.imf2dbuffer2_copy2dto, mfobjects/IMF2DBuffer2::Copy2DTo
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMF2DBuffer2.Copy2DTo"
+f1_keywords:
+- mfobjects/IMF2DBuffer2.Copy2DTo
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - IMF2DBuffer2.Copy2DTo
+- IMF2DBuffer2.Copy2DTo
 targetos: Windows
 req.typenames: 
 req.redist: 

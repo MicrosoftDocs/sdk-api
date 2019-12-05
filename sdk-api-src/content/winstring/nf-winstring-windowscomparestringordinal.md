@@ -1,19 +1,17 @@
 ---
 UID: NF:winstring.WindowsCompareStringOrdinal
 title: WindowsCompareStringOrdinal function (winstring.h)
-
 description: Compares two specified HSTRING objects and returns an integer that indicates their relative position in a sort order.
 old-location: winrt\windowscomparestringordinal.htm
 tech.root: WinRT
 ms.assetid: 40B34A65-4E3C-4B9D-9315-A0EF015BB8D0
-
 ms.date: 12/05/2018
 ms.keywords: WindowsCompareStringOrdinal, WindowsCompareStringOrdinal function [Windows Runtime], winrt.windowscomparestringordinal, winstring/WindowsCompareStringOrdinal
 ms.topic: function
-f1_keywords: 
- - "winstring/WindowsCompareStringOrdinal"
+f1_keywords:
+- winstring/WindowsCompareStringOrdinal
 dev_langs:
- - c++
+- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: WinRTType.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WinRTType.lib
- - WinRTType.dll
- - API-MS-Win-Core-WinRT-String-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+- WinRTType.lib
+- WinRTType.dll
+- API-MS-Win-Core-WinRT-String-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-String-L1-1-1.dll
 api_name:
- - WindowsCompareStringOrdinal
+- WindowsCompareStringOrdinal
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsSubSystemInterconnect
 title: IVdsSubSystemInterconnect (vds.h)
-
 description: Provides a method to query the interconnect types that are supported by a subsystem.
 old-location: base\ivdssubsysteminterconnect.htm
 tech.root: VDS
 ms.assetid: d690827a-4608-4d02-a3bb-5cdb5073b0ad
-
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystemInterconnect, IVdsSubSystemInterconnect interface, IVdsSubSystemInterconnect interface,described, base.ivdssubsysteminterconnect, vds/IVdsSubSystemInterconnect, vdshwprv/IVdsSubSystemInterconnect
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsSubSystemInterconnect"
+f1_keywords:
+- vds/IVdsSubSystemInterconnect
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsSubSystemInterconnect
+- IVdsSubSystemInterconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

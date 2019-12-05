@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent3.COPPUnblocked
 title: IMSVidStreamBufferSourceEvent3::COPPUnblocked (segment.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersourceevent3_coppunblocked.htm
 tech.root: mstv
 ms.assetid: e206253e-40af-4b61-8dcb-465a05cfa8f9
-
 ms.date: 12/05/2018
 ms.keywords: COPPUnblocked, COPPUnblocked method [Microsoft TV Technologies], COPPUnblocked method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent3 interface, IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies],COPPUnblocked method, IMSVidStreamBufferSourceEvent3.COPPUnblocked, IMSVidStreamBufferSourceEvent3::COPPUnblocked, IMSVidStreamBufferSourceEvent3COPPUnblocked, mstv.imsvidstreambuffersourceevent3_coppunblocked, segment/IMSVidStreamBufferSourceEvent3::COPPUnblocked
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferSourceEvent3.COPPUnblocked"
+f1_keywords:
+- segment/IMSVidStreamBufferSourceEvent3.COPPUnblocked
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSourceEvent3.COPPUnblocked
+- IMSVidStreamBufferSourceEvent3.COPPUnblocked
 targetos: Windows
 req.typenames: 
 req.redist: 

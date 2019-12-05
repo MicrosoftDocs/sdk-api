@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordModulationMode
 title: IATSC_VCT::GetRecordModulationMode (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecordmodulationmode.htm
 tech.root: mstv
 ms.assetid: 3f335414-f37e-4c50-848e-9f3de51f829a
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordModulationMode, GetRecordModulationMode method [Microsoft TV Technologies], GetRecordModulationMode method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordModulationMode method, IATSC_VCT.GetRecordModulationMode, IATSC_VCT::GetRecordModulationMode, IATSC_VCTGetRecordModulationMode, atscpsipparser/IATSC_VCT::GetRecordModulationMode, mstv.iatsc_vct_getrecordmodulationmode
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IATSC_VCT.GetRecordModulationMode"
+f1_keywords:
+- atscpsipparser/IATSC_VCT.GetRecordModulationMode
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IATSC_VCT.GetRecordModulationMode
+- IATSC_VCT.GetRecordModulationMode
 targetos: Windows
 req.typenames: 
 req.redist: 

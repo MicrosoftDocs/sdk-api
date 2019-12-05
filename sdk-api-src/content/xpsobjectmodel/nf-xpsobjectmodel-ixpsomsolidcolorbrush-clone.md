@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSolidColorBrush.Clone
 title: IXpsOMSolidColorBrush::Clone (xpsobjectmodel.h)
-
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsomsolidcolorbrush_clone.htm
 tech.root: printdocs
 ms.assetid: 7f25d5cf-b53d-4e86-ae61-1d0c9afc6236
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMSolidColorBrush interface, IXpsOMSolidColorBrush interface [XPS Documents and Packaging],Clone method, IXpsOMSolidColorBrush.Clone, IXpsOMSolidColorBrush::Clone, xps.ixpsomsolidcolorbrush_clone, xpsobjectmodel/IXpsOMSolidColorBrush::Clone
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMSolidColorBrush.Clone"
+f1_keywords:
+- xpsobjectmodel/IXpsOMSolidColorBrush.Clone
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMSolidColorBrush.Clone
+- IXpsOMSolidColorBrush.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

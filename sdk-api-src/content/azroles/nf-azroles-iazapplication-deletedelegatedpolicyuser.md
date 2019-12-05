@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication.DeleteDelegatedPolicyUser
 title: IAzApplication::DeleteDelegatedPolicyUser (azroles.h)
-
 description: The IAzApplication::DeleteDelegatedPolicyUser method removes the specified security identifier in text form from the list of principals that act as delegated policy users.
 old-location: security\iazapplication_deletedelegatedpolicyuser.htm
 tech.root: SecAuthZ
 ms.assetid: 92e7f4fa-ff86-4ef5-8b87-086dd73966d1
-
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],DeleteDelegatedPolicyUser method, DeleteDelegatedPolicyUser, DeleteDelegatedPolicyUser method [Security], DeleteDelegatedPolicyUser method [Security],AzApplication object, DeleteDelegatedPolicyUser method [Security],IAzApplication interface, IAzApplication interface [Security],DeleteDelegatedPolicyUser method, IAzApplication.DeleteDelegatedPolicyUser, IAzApplication::DeleteDelegatedPolicyUser, azroles/IAzApplication::DeleteDelegatedPolicyUser, security.iazapplication_deletedelegatedpolicyuser
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication.DeleteDelegatedPolicyUser"
+f1_keywords:
+- azroles/IAzApplication.DeleteDelegatedPolicyUser
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication.DeleteDelegatedPolicyUser
- - AzApplication.DeleteDelegatedPolicyUser
+- IAzApplication.DeleteDelegatedPolicyUser
+- AzApplication.DeleteDelegatedPolicyUser
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

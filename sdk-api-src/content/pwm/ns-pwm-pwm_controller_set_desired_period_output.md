@@ -1,19 +1,17 @@
 ---
 UID: NS:pwm._PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT
 title: PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT (pwm.h)
-
 description: Contains the effective output signal period of the Pulse Width Modulation (PWM) controller.
 old-location: base\pwm_controller_set_desired_period_output.htm
 tech.root: devio
 ms.assetid: 15B438F8-C265-4D95-8806-D7DDBFF62973
-
 ms.date: 12/05/2018
 ms.keywords: PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT, PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT structure, base.pwm_controller_set_desired_period_output, pwm/PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT
 ms.topic: struct
-f1_keywords: 
- - "pwm/PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT"
+f1_keywords:
+- pwm/PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT
 dev_langs:
- - c++
+- c++
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pwm.h
+- Pwm.h
 api_name:
- - PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT
+- PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT
 targetos: Windows
 req.typenames: PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT
 req.redist: 

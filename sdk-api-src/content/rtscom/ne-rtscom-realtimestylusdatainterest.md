@@ -1,19 +1,17 @@
 ---
 UID: NE:rtscom.RealTimeStylusDataInterest
 title: RealTimeStylusDataInterest (rtscom.h)
-
 description: Defines the values used by plug-ins to specify which event notifications the plug-ins receive.
 old-location: tablet\realtimestylusdatainterest.htm
 tech.root: tablet
 ms.assetid: f50cfafb-e709-4819-9e1a-679fbb54c7e0
-
 ms.date: 12/05/2018
 ms.keywords: RTSDI_AllData, RTSDI_CustomStylusDataAdded, RTSDI_DefaultEvents, RTSDI_Error, RTSDI_InAirPackets, RTSDI_None, RTSDI_Packets, RTSDI_RealTimeStylusDisabled, RTSDI_RealTimeStylusEnabled, RTSDI_StylusButtonDown, RTSDI_StylusButtonUp, RTSDI_StylusDown, RTSDI_StylusInRange, RTSDI_StylusNew, RTSDI_StylusOutOfRange, RTSDI_StylusUp, RTSDI_SystemEvents, RTSDI_TabletAdded, RTSDI_TabletRemoved, RTSDI_UpdateMapping, RealTimeStylusDataInterest, RealTimeStylusDataInterest enumeration [Tablet PC], f50cfafb-e709-4819-9e1a-679fbb54c7e0, rtscom/RTSDI_AllData, rtscom/RTSDI_CustomStylusDataAdded, rtscom/RTSDI_DefaultEvents, rtscom/RTSDI_Error, rtscom/RTSDI_InAirPackets, rtscom/RTSDI_None, rtscom/RTSDI_Packets, rtscom/RTSDI_RealTimeStylusDisabled, rtscom/RTSDI_RealTimeStylusEnabled, rtscom/RTSDI_StylusButtonDown, rtscom/RTSDI_StylusButtonUp, rtscom/RTSDI_StylusDown, rtscom/RTSDI_StylusInRange, rtscom/RTSDI_StylusNew, rtscom/RTSDI_StylusOutOfRange, rtscom/RTSDI_StylusUp, rtscom/RTSDI_SystemEvents, rtscom/RTSDI_TabletAdded, rtscom/RTSDI_TabletRemoved, rtscom/RTSDI_UpdateMapping, rtscom/RealTimeStylusDataInterest, tablet.realtimestylusdatainterest
 ms.topic: enum
-f1_keywords: 
- - "rtscom/RealTimeStylusDataInterest"
+f1_keywords:
+- rtscom/RealTimeStylusDataInterest
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - RTSCom.h
+- RTSCom.h
 api_name:
- - RealTimeStylusDataInterest
+- RealTimeStylusDataInterest
 targetos: Windows
 req.typenames: RealTimeStylusDataInterest
 req.redist: 

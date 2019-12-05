@@ -1,19 +1,17 @@
 ---
 UID: NF:imm.ImmGetCompositionStringA
 title: ImmGetCompositionStringA function (imm.h)
-
 description: Retrieves information about the composition string.
 old-location: intl\immgetcompositionstring.htm
 tech.root: Intl
 ms.assetid: 6309e5b4-36ce-4899-be33-d7bf0d828d3d
-
 ms.date: 12/05/2018
 ms.keywords: ImmGetCompositionString, ImmGetCompositionString function [Internationalization for Windows Applications], ImmGetCompositionStringA, ImmGetCompositionStringW, _win32_ImmGetCompositionString, imm/ImmGetCompositionString, imm/ImmGetCompositionStringA, imm/ImmGetCompositionStringW, intl.immgetcompositionstring
 ms.topic: function
-f1_keywords: 
- - "imm/ImmGetCompositionString"
+f1_keywords:
+- imm/ImmGetCompositionString
 dev_langs:
- - c++
+- c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
- - Ext-MS-Win-imm-l1-1-0.dll
- - ext-ms-win-imm-l1-1-1.dll
+- Imm32.dll
+- Ext-MS-Win-imm-l1-1-0.dll
+- ext-ms-win-imm-l1-1-1.dll
 api_name:
- - ImmGetCompositionString
- - ImmGetCompositionStringA
- - ImmGetCompositionStringW
+- ImmGetCompositionString
+- ImmGetCompositionStringA
+- ImmGetCompositionStringW
 targetos: Windows
 req.typenames: 
 req.redist: 

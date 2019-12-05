@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetTemporaryStoreLocation
 title: ITargetInfo::GetTemporaryStoreLocation (wcmconfig.h)
-
 description: Gets the current temporary store location.
 old-location: smi\itargetinfo_gettemporarystorelocation.htm
 tech.root: SMI
 ms.assetid: aebebdee-3a24-4a9b-9ec6-cc411385af41
-
 ms.date: 12/05/2018
 ms.keywords: GetTemporaryStoreLocation, GetTemporaryStoreLocation method [SMI], GetTemporaryStoreLocation method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetTemporaryStoreLocation method, ITargetInfo.GetTemporaryStoreLocation, ITargetInfo::GetTemporaryStoreLocation, smi.itargetinfo_gettemporarystorelocation, wcmconfig/ITargetInfo::GetTemporaryStoreLocation
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ITargetInfo.GetTemporaryStoreLocation"
+f1_keywords:
+- wcmconfig/ITargetInfo.GetTemporaryStoreLocation
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ITargetInfo.GetTemporaryStoreLocation
+- ITargetInfo.GetTemporaryStoreLocation
 targetos: Windows
 req.typenames: 
 req.redist: 

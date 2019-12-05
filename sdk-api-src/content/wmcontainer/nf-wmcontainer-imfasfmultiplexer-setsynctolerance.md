@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFMultiplexer.SetSyncTolerance
 title: IMFASFMultiplexer::SetSyncTolerance (wmcontainer.h)
-
 description: Sets the maximum time by which samples from various streams can be out of synchronization.
 old-location: mf\imfasfmultiplexer_setsynctolerance.htm
 tech.root: medfound
 ms.assetid: 54aea995-2beb-4c38-a79f-43a539031d95
-
 ms.date: 12/05/2018
 ms.keywords: 54aea995-2beb-4c38-a79f-43a539031d95, IMFASFMultiplexer interface [Media Foundation],SetSyncTolerance method, IMFASFMultiplexer.SetSyncTolerance, IMFASFMultiplexer::SetSyncTolerance, SetSyncTolerance, SetSyncTolerance method [Media Foundation], SetSyncTolerance method [Media Foundation],IMFASFMultiplexer interface, mf.imfasfmultiplexer_setsynctolerance, wmcontainer/IMFASFMultiplexer::SetSyncTolerance
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFMultiplexer.SetSyncTolerance"
+f1_keywords:
+- wmcontainer/IMFASFMultiplexer.SetSyncTolerance
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFMultiplexer.SetSyncTolerance
+- IMFASFMultiplexer.SetSyncTolerance
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusbase.GdiplusBase.operator new
 title: GdiplusBase::operator new (gdiplusbase.h)
-
 description: The GdiplusBase::operator new method allocates memory for one Windows GDI+ object.
 old-location: gdiplus\_gdiplus_CLASS_GdiplusBase_operator_new_in_size_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\gdiplusbaseclass\gdiplusbasemethods\operatornew.htm
-
 ms.date: 12/05/2018
 ms.keywords: GdiplusBase class [GDI+],operator new method, GdiplusBase.operator new, GdiplusBase::operator new, _gdiplus_CLASS_GdiplusBase_operator_new_in_size_, gdiplus._gdiplus_CLASS_GdiplusBase_operator_new_in_size_, operator new, operator new method [GDI+], operator new method [GDI+],GdiplusBase class
 ms.topic: method
-f1_keywords: 
- - "gdiplusbase/GdiplusBase.operator new"
+f1_keywords:
+- gdiplusbase/GdiplusBase.operator new
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbase.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GdiplusBase.operator new
+- GdiplusBase.operator new
 targetos: Windows
 req.typenames: 
 req.redist: 

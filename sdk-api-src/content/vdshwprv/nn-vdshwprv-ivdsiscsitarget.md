@@ -1,19 +1,17 @@
 ---
 UID: NN:vdshwprv.IVdsIscsiTarget
 title: IVdsIscsiTarget (vdshwprv.h)
-
 description: Provides methods for performing query and configuration operations on an iSCSI target.
 old-location: base\ivdsiscsitarget.htm
 tech.root: VDS
 ms.assetid: 0db442c4-6cc1-43b2-8ac8-8b17cadb1101
-
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiTarget, IVdsIscsiTarget interface [VDS], IVdsIscsiTarget interface [VDS],described, base.ivdsiscsitarget, vds/IVdsIscsiTarget, vdshwprv/IVdsIscsiTarget
 ms.topic: interface
-f1_keywords: 
- - "vdshwprv/IVdsIscsiTarget"
+f1_keywords:
+- vdshwprv/IVdsIscsiTarget
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsIscsiTarget
+- IVdsIscsiTarget
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

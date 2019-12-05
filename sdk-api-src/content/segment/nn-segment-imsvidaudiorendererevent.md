@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidAudioRendererEvent
 title: IMSVidAudioRendererEvent (segment.h)
-
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsvidaudiorendererevent.htm
 tech.root: mstv
 ms.assetid: 50b43d78-7df0-4b23-86c5-76655e22425f
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidAudioRendererEvent, IMSVidAudioRendererEvent interface [Microsoft TV Technologies], IMSVidAudioRendererEvent interface [Microsoft TV Technologies],described, IMSVidAudioRendererEventInterface, mstv.imsvidaudiorendererevent, segment/IMSVidAudioRendererEvent
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidAudioRendererEvent"
+f1_keywords:
+- segment/IMSVidAudioRendererEvent
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidAudioRendererEvent
+- IMSVidAudioRendererEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

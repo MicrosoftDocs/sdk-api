@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3.IEnumACDGroup
 title: IEnumACDGroup (tapi3.h)
-
 description: The IEnumACDGroup interface provides COM-standard enumeration methods for the ITACDGroup interface. The ITAgentHandler::EnumerateACDGroups method returns a pointer to IEnumACDGroup.
 old-location: tapi3\ienumacdgroup.htm
 tech.root: Tapi
 ms.assetid: 301cd27e-00ac-44a4-b5c6-0efcb36ad974
-
 ms.date: 12/05/2018
 ms.keywords: IEnumACDGroup, IEnumACDGroup interface [TAPI 2.2], IEnumACDGroup interface [TAPI 2.2],described, _tapi3_ienumacdgroup, tapi3.ienumacdgroup, tapi3cc/IEnumACDGroup
 ms.topic: interface
-f1_keywords: 
- - "tapi3/IEnumACDGroup"
+f1_keywords:
+- tapi3/IEnumACDGroup
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - IEnumACDGroup
+- IEnumACDGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

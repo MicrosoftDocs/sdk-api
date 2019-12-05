@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.GetDecoderBuffer
 title: ID3D11VideoContext::GetDecoderBuffer (d3d11.h)
-
 description: Gets a pointer to a decoder buffer.
 old-location: mf\id3d11videocontext_getdecoderbuffer.htm
 tech.root: medfound
 ms.assetid: 6842D5D7-6165-4428-91BD-2234BE5332B8
-
 ms.date: 12/05/2018
 ms.keywords: GetDecoderBuffer, GetDecoderBuffer method [Media Foundation], GetDecoderBuffer method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],GetDecoderBuffer method, ID3D11VideoContext.GetDecoderBuffer, ID3D11VideoContext::GetDecoderBuffer, d3d11/ID3D11VideoContext::GetDecoderBuffer, mf.id3d11videocontext_getdecoderbuffer
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoContext.GetDecoderBuffer"
+f1_keywords:
+- d3d11/ID3D11VideoContext.GetDecoderBuffer
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoContext.GetDecoderBuffer
+- ID3D11VideoContext.GetDecoderBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

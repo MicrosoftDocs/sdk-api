@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarI8FromBool
 title: VarI8FromBool function (oleauto.h)
-
 description: Converts a Boolean value to an 8-byte integer value.
 old-location: automat\vari8frombool.htm
 tech.root: automat
 ms.assetid: 5de56332-2e1c-444d-af14-3d217cd4494a
-
 ms.date: 12/05/2018
 ms.keywords: VarI8FromBool, VarI8FromBool function [Automation], _oa96_VarI8FromBool, automat.vari8frombool, oleauto/VarI8FromBool
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarI8FromBool"
+f1_keywords:
+- oleauto/VarI8FromBool
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarI8FromBool
+- VarI8FromBool
 targetos: Windows
 req.typenames: 
 req.redist: 

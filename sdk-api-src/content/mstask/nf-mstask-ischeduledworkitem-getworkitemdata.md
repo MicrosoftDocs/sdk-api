@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetWorkItemData
 title: IScheduledWorkItem::GetWorkItemData (mstask.h)
-
 description: Retrieves application-defined data associated with the work item.
 old-location: taskschd\ischeduledworkitem_getworkitemdata.htm
 tech.root: taskschd
 ms.assetid: 1b37c412-80ed-44fb-8b3a-b142a9669080
-
 ms.date: 12/05/2018
 ms.keywords: GetWorkItemData, GetWorkItemData method [Task Scheduler], GetWorkItemData method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetWorkItemData method, IScheduledWorkItem.GetWorkItemData, IScheduledWorkItem::GetWorkItemData, _msb_ischeduledworkitem_getworkitemdata, mstask/IScheduledWorkItem::GetWorkItemData, taskschd.ischeduledworkitem_getworkitemdata
 ms.topic: method
-f1_keywords: 
- - "mstask/IScheduledWorkItem.GetWorkItemData"
+f1_keywords:
+- mstask/IScheduledWorkItem.GetWorkItemData
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IScheduledWorkItem.GetWorkItemData
+- IScheduledWorkItem.GetWorkItemData
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

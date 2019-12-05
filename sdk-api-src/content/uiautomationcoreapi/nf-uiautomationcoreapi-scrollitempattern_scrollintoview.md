@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.ScrollItemPattern_ScrollIntoView
 title: ScrollItemPattern_ScrollIntoView function (uiautomationcoreapi.h)
-
 description: Scrolls the content area of a container object in order to display the UI Automation element within the visible region (viewport) of the container.
 old-location: winauto\uiauto_ScrollItemPattern_ScrollIntoViewConPat.htm
 tech.root: WinAuto
 ms.assetid: cd68138f-dcd2-4d1d-aee6-f25168b0045b
-
 ms.date: 12/05/2018
 ms.keywords: ScrollItemPattern_ScrollIntoView, ScrollItemPattern_ScrollIntoView function [Windows Accessibility], uiauto.uiauto_ScrollItemPattern_ScrollIntoViewConPat, uiauto_ScrollItemPattern_ScrollIntoViewConPat, uiautomationcoreapi/ScrollItemPattern_ScrollIntoView, winauto.uiauto_ScrollItemPattern_ScrollIntoViewConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/ScrollItemPattern_ScrollIntoView"
+f1_keywords:
+- uiautomationcoreapi/ScrollItemPattern_ScrollIntoView
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - ScrollItemPattern_ScrollIntoView
+- ScrollItemPattern_ScrollIntoView
 targetos: Windows
 req.typenames: 
 req.redist: 

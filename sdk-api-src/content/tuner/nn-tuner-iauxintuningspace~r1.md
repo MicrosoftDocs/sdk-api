@@ -1,39 +1,37 @@
 ---
 UID: NN:tuner.IAuxInTuningSpace~r1
 title: IAuxInTuningSpace
-
 description: TBD
-tech.root:
+tech.root: 
 ms.assetid: a3d17004-bf99-4dfa-acf5-cb826aad7d49
-
 ms.date: 11/14/2019
 ms.topic: interface
-f1_keywords: 
- - "tuner/IAuxInTuningSpace"
+f1_keywords:
+- tuner/IAuxInTuningSpace
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
- - apiref
-api_type: 
- - COM
-api_location: 
- - tuner.h
-api_name: 
- - IAuxInTuningSpace
+topic_type:
+- apiref
+api_type:
+- COM
+api_location:
+- tuner.h
+api_name:
+- IAuxInTuningSpace
 targetos: Windows
 ms.custom: 19H1
 ---

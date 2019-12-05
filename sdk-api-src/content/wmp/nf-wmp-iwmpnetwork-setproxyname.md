@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPNetwork.setProxyName
 title: IWMPNetwork::setProxyName (wmp.h)
-
 description: The setProxyName method specifies the name of the proxy server to use.
 old-location: wmp\iwmpnetwork_setproxyname.htm
 tech.root: WMP
 ms.assetid: 6f484f5b-195c-496d-932e-3e1fdbf873d8
-
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],setProxyName method, IWMPNetwork.setProxyName, IWMPNetwork::setProxyName, IWMPNetworksetProxyName, setProxyName, setProxyName method [Windows Media Player], setProxyName method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_setproxyname, wmp/IWMPNetwork::setProxyName
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPNetwork.setProxyName"
+f1_keywords:
+- wmp/IWMPNetwork.setProxyName
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPNetwork.setProxyName
+- IWMPNetwork.setProxyName
 targetos: Windows
 req.typenames: 
 req.redist: 

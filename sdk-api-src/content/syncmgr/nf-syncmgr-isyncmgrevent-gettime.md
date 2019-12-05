@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetTime
 title: ISyncMgrEvent::GetTime (syncmgr.h)
-
 description: Gets the creation time.
 old-location: shell\ISyncMgrEvent_GetTime.htm
 tech.root: shell
 ms.assetid: 1cfe8555-4c63-443a-b3da-e671f8e343d4
-
 ms.date: 12/05/2018
 ms.keywords: GetTime, GetTime method [Windows Shell], GetTime method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetTime method, ISyncMgrEvent.GetTime, ISyncMgrEvent::GetTime, _shell_ISyncMgrEvent_GetTime, shell.ISyncMgrEvent_GetTime, syncmgr/ISyncMgrEvent::GetTime
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrEvent.GetTime"
+f1_keywords:
+- syncmgr/ISyncMgrEvent.GetTime
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrEvent.GetTime
+- ISyncMgrEvent.GetTime
 targetos: Windows
 req.typenames: 
 req.redist: 

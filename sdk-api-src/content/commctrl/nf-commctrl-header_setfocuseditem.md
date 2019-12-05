@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Header_SetFocusedItem
 title: Header_SetFocusedItem macro (commctrl.h)
-
 description: Sets the focus to a specified item in a header control. Use this macro or send the HDM_SETFOCUSEDITEM message explicitly.
 old-location: controls\Header_SetFocusedItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setfocuseditem.htm
-
 ms.date: 12/05/2018
 ms.keywords: Header_SetFocusedItem, Header_SetFocusedItem macro [Windows Controls], _shell_Header_SetFocusedItem, _shell_Header_SetFocusedItem_cpp, commctrl/Header_SetFocusedItem, controls.Header_SetFocusedItem, controls._shell_Header_SetFocusedItem
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Header_SetFocusedItem"
+f1_keywords:
+- commctrl/Header_SetFocusedItem
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Header_SetFocusedItem
+- Header_SetFocusedItem
 targetos: Windows
 req.typenames: 
 req.redist: 

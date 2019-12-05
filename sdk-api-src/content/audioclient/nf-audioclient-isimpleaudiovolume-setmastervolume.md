@@ -1,19 +1,17 @@
 ---
 UID: NF:audioclient.ISimpleAudioVolume.SetMasterVolume
 title: ISimpleAudioVolume::SetMasterVolume (audioclient.h)
-
 description: The SetMasterVolume method sets the master volume level for the audio session.
 old-location: coreaudio\isimpleaudiovolume_setmastervolume.htm
 tech.root: CoreAudio
 ms.assetid: 895a8564-5f06-4e20-abcc-d960d4002eb0
-
 ms.date: 12/05/2018
 ms.keywords: ISimpleAudioVolume interface [Core Audio],SetMasterVolume method, ISimpleAudioVolume.SetMasterVolume, ISimpleAudioVolume::SetMasterVolume, ISimpleAudioVolumeSetMasterVolume, SetMasterVolume, SetMasterVolume method [Core Audio], SetMasterVolume method [Core Audio],ISimpleAudioVolume interface, audioclient/ISimpleAudioVolume::SetMasterVolume, coreaudio.isimpleaudiovolume_setmastervolume
 ms.topic: method
-f1_keywords: 
- - "audioclient/ISimpleAudioVolume.SetMasterVolume"
+f1_keywords:
+- audioclient/ISimpleAudioVolume.SetMasterVolume
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - ISimpleAudioVolume.SetMasterVolume
+- ISimpleAudioVolume.SetMasterVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

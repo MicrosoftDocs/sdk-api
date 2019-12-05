@@ -1,19 +1,17 @@
 ---
 UID: NE:winevt._EVT_EVENT_PROPERTY_ID
 title: EVT_EVENT_PROPERTY_ID (winevt.h)
-
 description: Defines the values that determine the query information to retrieve.
 old-location: wes\evt_subscription_event_property_id.htm
 tech.root: wes
 ms.assetid: 19e20da3-5b6b-4f56-b30b-0408695f2267
-
 ms.date: 12/05/2018
 ms.keywords: EVT_EVENT_PROPERTY_ID, EVT_EVENT_PROPERTY_ID enumeration [EventLog], EvtEventPath, EvtEventPropertyIdEND, EvtEventQueryIDs, wes.evt_subscription_event_property_id, winevt/EVT_EVENT_PROPERTY_ID, winevt/EvtEventPath, winevt/EvtEventPropertyIdEND, winevt/EvtEventQueryIDs
 ms.topic: enum
-f1_keywords: 
- - "winevt/EVT_EVENT_PROPERTY_ID"
+f1_keywords:
+- winevt/EVT_EVENT_PROPERTY_ID
 dev_langs:
- - c++
+- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinEvt.h
+- WinEvt.h
 api_name:
- - EVT_EVENT_PROPERTY_ID
+- EVT_EVENT_PROPERTY_ID
 targetos: Windows
 req.typenames: EVT_EVENT_PROPERTY_ID
 req.redist: 

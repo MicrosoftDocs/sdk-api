@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_2.ID3D11DeviceContext2.UpdateTiles
 title: ID3D11DeviceContext2::UpdateTiles (d3d11_2.h)
-
 description: Updates tiles by copying from app memory to the tiled resource.
 old-location: direct3d11\id3d11devicecontext2_updatetiles.htm
 tech.root: direct3d11
 ms.assetid: EB0F9CBD-29B2-484D-8923-6686C73487F7
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext2 interface [Direct3D 11],UpdateTiles method, ID3D11DeviceContext2.UpdateTiles, ID3D11DeviceContext2::UpdateTiles, UpdateTiles, UpdateTiles method [Direct3D 11], UpdateTiles method [Direct3D 11],ID3D11DeviceContext2 interface, d3d11_2/ID3D11DeviceContext2::UpdateTiles, direct3d11.id3d11devicecontext2_updatetiles
 ms.topic: method
-f1_keywords: 
- - "d3d11_2/ID3D11DeviceContext2.UpdateTiles"
+f1_keywords:
+- d3d11_2/ID3D11DeviceContext2.UpdateTiles
 dev_langs:
- - c++
+- c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext2.UpdateTiles
+- ID3D11DeviceContext2.UpdateTiles
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wofapi.WofWimAddEntry
 title: WofWimAddEntry function (wofapi.h)
-
 description: Adds a single WIM data source to a volume such that files can be created on the volume which are stored within the WIM.
 old-location: fs\wofwimaddentry.htm
 tech.root: FileIO
 ms.assetid: 53CE16AE-E14D-4E51-87E2-DDF88D5CE806
-
 ms.date: 12/05/2018
 ms.keywords: WofWimAddEntry, WofWimAddEntry function [Files], fs.wofwimaddentry, wofapi/WofWimAddEntry
 ms.topic: function
-f1_keywords: 
- - "wofapi/WofWimAddEntry"
+f1_keywords:
+- wofapi/WofWimAddEntry
 dev_langs:
- - c++
+- c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wofutil.lib
 req.dll: Wofutil.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wofutil.dll
+- wofutil.dll
 api_name:
- - WofWimAddEntry
+- WofWimAddEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

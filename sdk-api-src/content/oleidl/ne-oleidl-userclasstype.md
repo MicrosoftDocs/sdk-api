@@ -1,19 +1,17 @@
 ---
 UID: NE:oleidl.tagUSERCLASSTYPE
 title: USERCLASSTYPE (oleidl.h)
-
 description: Indicates the different variants of the display name associated with a class of objects.
 old-location: com\userclasstype.htm
 tech.root: com
 ms.assetid: f35dd18a-7fde-4954-8315-bc9bfd933827
-
 ms.date: 12/05/2018
 ms.keywords: USERCLASSTYPE, USERCLASSTYPE enumeration [COM], USERCLASSTYPE_APPNAME, USERCLASSTYPE_FULL, USERCLASSTYPE_SHORT, _ole_USERCLASSTYPE, com.userclasstype, oleidl/USERCLASSTYPE, oleidl/USERCLASSTYPE_APPNAME, oleidl/USERCLASSTYPE_FULL, oleidl/USERCLASSTYPE_SHORT
 ms.topic: enum
-f1_keywords: 
- - "oleidl/USERCLASSTYPE"
+f1_keywords:
+- oleidl/USERCLASSTYPE
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - USERCLASSTYPE
+- USERCLASSTYPE
 targetos: Windows
 req.typenames: USERCLASSTYPE
 req.redist: 

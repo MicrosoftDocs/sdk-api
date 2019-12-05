@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll.put_MyStoreNameWStr
 title: IEnroll::put_MyStoreNameWStr (xenroll.h)
-
 description: The MyStoreNameWStr property of IEnroll4 sets or retrieves the name of the store where certificates with linked private keys are kept.
 old-location: security\ienroll4_mystorenamewstr.htm
 tech.root: SecCrypto
 ms.assetid: 077bc593-0071-4f41-8d07-141c9959b6ed
-
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],MyStoreNameWStr property, IEnroll.MyStoreNameWStr, IEnroll.put_MyStoreNameWStr, IEnroll::MyStoreNameWStr, IEnroll::get_MyStoreNameWStr, IEnroll::put_MyStoreNameWStr, MyStoreNameWStr property [Security], MyStoreNameWStr property [Security],IEnroll interface, put_MyStoreNameWStr, security.ienroll4_mystorenamewstr, xenroll/IEnroll::MyStoreNameWStr, xenroll/IEnroll::get_MyStoreNameWStr, xenroll/IEnroll::put_MyStoreNameWStr
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll.MyStoreNameWStr"
+f1_keywords:
+- xenroll/IEnroll.MyStoreNameWStr
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll.MyStoreNameWStr
- - IEnroll.get_MyStoreNameWStr
- - IEnroll.put_MyStoreNameWStr
+- IEnroll.MyStoreNameWStr
+- IEnroll.get_MyStoreNameWStr
+- IEnroll.put_MyStoreNameWStr
 targetos: Windows
 req.typenames: 
 req.redist: 

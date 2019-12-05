@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.FlatSB_GetScrollInfo
 title: FlatSB_GetScrollInfo function (commctrl.h)
-
 description: Gets the information for a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard GetScrollInfo function.
 old-location: controls\FlatSB_GetScrollInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_getscrollinfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: FlatSB_GetScrollInfo, FlatSB_GetScrollInfo function [Windows Controls], SB_HORZ, SB_VERT, SIF_ALL, SIF_PAGE, SIF_POS, SIF_RANGE, _win32_FlatSB_GetScrollInfo, _win32_FlatSB_GetScrollInfo_cpp, commctrl/FlatSB_GetScrollInfo, controls.FlatSB_GetScrollInfo, controls._win32_FlatSB_GetScrollInfo
 ms.topic: function
-f1_keywords: 
- - "commctrl/FlatSB_GetScrollInfo"
+f1_keywords:
+- commctrl/FlatSB_GetScrollInfo
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - FlatSB_GetScrollInfo
+- FlatSB_GetScrollInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange2.GetRow
 title: ITextRange2::GetRow (tom.h)
-
 description: Gets the row properties in the currently selected row.
 old-location: controls\itextrange2_getrow.htm
 tech.root: Controls
 ms.assetid: 3f15605a-8f81-4fc4-ad12-5300ecd03c16
-
 ms.date: 12/05/2018
 ms.keywords: GetRow, GetRow method [Windows Controls], GetRow method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetRow method, ITextRange2.GetRow, ITextRange2::GetRow, controls.itextrange2_getrow, tom/ITextRange2::GetRow
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange2.GetRow"
+f1_keywords:
+- tom/ITextRange2.GetRow
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange2.GetRow
+- ITextRange2.GetRow
 targetos: Windows
 req.typenames: 
 req.redist: 

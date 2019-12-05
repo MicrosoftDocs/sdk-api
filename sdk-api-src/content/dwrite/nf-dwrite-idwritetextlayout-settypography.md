@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetTypography
 title: IDWriteTextLayout::SetTypography (dwrite.h)
-
 description: Sets font typography features for text within a specified text range.
 old-location: directwrite\IDWriteTextLayout_SetTypography.htm
 tech.root: DirectWrite
 ms.assetid: ee0702fb-a3ff-442b-bd3b-6ff35fcba0ec
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetTypography method, IDWriteTextLayout.SetTypography, IDWriteTextLayout::SetTypography, SetTypography, SetTypography method [Direct Write], SetTypography method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetTypography, dwrite/IDWriteTextLayout::SetTypography
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextLayout.SetTypography"
+f1_keywords:
+- dwrite/IDWriteTextLayout.SetTypography
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout.SetTypography
+- IDWriteTextLayout.SetTypography
 targetos: Windows
 req.typenames: 
 req.redist: 

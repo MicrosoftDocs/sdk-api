@@ -1,19 +1,17 @@
 ---
 UID: NF:olectl.DllRegisterServer
 title: DllRegisterServer function (olectl.h)
-
 description: Instructs an in-process server to create its registry entries for all classes supported in this server module.
 old-location: com\dllregisterserver.htm
 tech.root: com
 ms.assetid: 4442206b-b2ad-47d7-8add-18002c44c5a2
-
 ms.date: 12/05/2018
 ms.keywords: DllRegisterServer, DllRegisterServer function [COM], _com_DllRegisterServer, com.dllregisterserver, olectl/DllRegisterServer
 ms.topic: function
-f1_keywords: 
- - "olectl/DllRegisterServer"
+f1_keywords:
+- olectl/DllRegisterServer
 dev_langs:
- - c++
+- c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - DllRegisterServer
+- DllRegisterServer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wcmconfig.IItemEnumerator
 title: IItemEnumerator (wcmconfig.h)
-
 description: Enumerates the items of a collection of settings and attributes.
 old-location: smi\iitemenumerator.htm
 tech.root: SMI
 ms.assetid: f43245f1-81d9-4b06-8f0c-d490618a99fa
-
 ms.date: 12/05/2018
 ms.keywords: IItemEnumerator, IItemEnumerator interface [SMI], IItemEnumerator interface [SMI],described, smi.iitemenumerator, wcmconfig/IItemEnumerator
 ms.topic: interface
-f1_keywords: 
- - "wcmconfig/IItemEnumerator"
+f1_keywords:
+- wcmconfig/IItemEnumerator
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - IItemEnumerator
+- IItemEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

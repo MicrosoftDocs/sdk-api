@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9helper.IDirect3DSwapChain9.GetBackBuffer
 title: IDirect3DSwapChain9::GetBackBuffer (d3d9helper.h)
-
 description: Retrieves a back buffer from the swap chain of the device.
 old-location: direct3d9\idirect3dswapchain9__getbackbuffer.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dswapchain9__getbackbuffer.htm
-
 ms.date: 12/05/2018
 ms.keywords: 138c5b9c-c0c2-7051-6dd4-c5933f8d32fa, GetBackBuffer, GetBackBuffer method [Direct3D 9], GetBackBuffer method [Direct3D 9],IDirect3DSwapChain9 interface, IDirect3DSwapChain9 interface [Direct3D 9],GetBackBuffer method, IDirect3DSwapChain9.GetBackBuffer, IDirect3DSwapChain9::GetBackBuffer, d3d9helper/IDirect3DSwapChain9::GetBackBuffer, direct3d9.idirect3dswapchain9__getbackbuffer
 ms.topic: method
-f1_keywords: 
- - "d3d9helper/IDirect3DSwapChain9.GetBackBuffer"
+f1_keywords:
+- d3d9helper/IDirect3DSwapChain9.GetBackBuffer
 dev_langs:
- - c++
+- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DSwapChain9.GetBackBuffer
+- IDirect3DSwapChain9.GetBackBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

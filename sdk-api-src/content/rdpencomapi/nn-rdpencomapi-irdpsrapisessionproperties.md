@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPISessionProperties
 title: IRDPSRAPISessionProperties (rdpencomapi.h)
-
 description: Use this interface to get or set session properties.
 old-location: rdp\irdpsrapisessionproperties.htm
 tech.root: rdp
 ms.assetid: bf4d9df2-8436-4d21-9016-7db231212155
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPISessionProperties, IRDPSRAPISessionProperties interface [RDP], IRDPSRAPISessionProperties interface [RDP],described, rdp.irdpsrapisessionproperties, rdpencomapi/IRDPSRAPISessionProperties
 ms.topic: interface
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPISessionProperties"
+f1_keywords:
+- rdpencomapi/IRDPSRAPISessionProperties
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPISessionProperties
+- IRDPSRAPISessionProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

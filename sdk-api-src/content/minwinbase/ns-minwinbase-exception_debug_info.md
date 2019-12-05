@@ -1,19 +1,17 @@
 ---
 UID: NS:minwinbase._EXCEPTION_DEBUG_INFO
 title: EXCEPTION_DEBUG_INFO (minwinbase.h)
-
 description: Contains exception information that can be used by a debugger.
 old-location: base\exception_debug_info_str.htm
 tech.root: Debug
 ms.assetid: f5917ae3-cc45-42c4-a3fb-5d0aef2a3bdb
-
 ms.date: 12/05/2018
 ms.keywords: '*LPEXCEPTION_DEBUG_INFO, EXCEPTION_DEBUG_INFO, EXCEPTION_DEBUG_INFO structure, LPEXCEPTION_DEBUG_INFO, LPEXCEPTION_DEBUG_INFO structure pointer, _EXCEPTION_DEBUG_INFO, _win32_exception_debug_info_str, base.exception_debug_info_str, minwinbase/EXCEPTION_DEBUG_INFO, minwinbase/LPEXCEPTION_DEBUG_INFO'
 ms.topic: struct
 f1_keywords:
 - minwinbase/EXCEPTION_DEBUG_INFO
 dev_langs:
- - c++
+- c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows

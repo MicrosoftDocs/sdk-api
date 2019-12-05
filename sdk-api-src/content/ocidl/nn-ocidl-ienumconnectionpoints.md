@@ -1,19 +1,17 @@
 ---
 UID: NN:ocidl.IEnumConnectionPoints
 title: IEnumConnectionPoints (ocidl.h)
-
 description: Enumerates connection points.
 old-location: com\ienumconnectionpoints.htm
 tech.root: com
 ms.assetid: 893090f1-a0b4-46f1-a5d0-1da704ca7aa9
-
 ms.date: 12/05/2018
 ms.keywords: IEnumConnectionPoints, IEnumConnectionPoints interface [COM], IEnumConnectionPoints interface [COM],described, _com_ienumconnectionpoints, com.ienumconnectionpoints, ocidl/IEnumConnectionPoints
 ms.topic: interface
-f1_keywords: 
- - "ocidl/IEnumConnectionPoints"
+f1_keywords:
+- ocidl/IEnumConnectionPoints
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ocidl.h
+- ocidl.h
 api_name:
- - IEnumConnectionPoints
+- IEnumConnectionPoints
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_SetUnicodeFormat
 title: TreeView_SetUnicodeFormat macro (commctrl.h)
-
 description: Sets the Unicode character format flag for the control.
 old-location: controls\TreeView_SetUnicodeFormat.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setunicodeformat.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_SetUnicodeFormat, TreeView_SetUnicodeFormat macro [Windows Controls], _win32_TreeView_SetUnicodeFormat, _win32_TreeView_SetUnicodeFormat_cpp, commctrl/TreeView_SetUnicodeFormat, controls.TreeView_SetUnicodeFormat, controls._win32_TreeView_SetUnicodeFormat
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_SetUnicodeFormat"
+f1_keywords:
+- commctrl/TreeView_SetUnicodeFormat
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_SetUnicodeFormat
+- TreeView_SetUnicodeFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

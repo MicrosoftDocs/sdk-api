@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IWriteEngine2EventArgs.get_LastReadLba
 title: IWriteEngine2EventArgs::get_LastReadLba (imapi2.h)
-
 description: Retrieves the address of the sector most recently read from the burn image.
 old-location: imapi\iwriteengine2eventargs_get_lastreadlba.htm
 tech.root: imapi
 ms.assetid: 2db929b4-dbba-4f6a-bde0-0cefb30abf64
-
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_LastReadLba method, IWriteEngine2EventArgs.get_LastReadLba, IWriteEngine2EventArgs::get_LastReadLba, get_LastReadLba, get_LastReadLba method [IMAPI], get_LastReadLba method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_lastreadlba, imapi2/IWriteEngine2EventArgs::get_LastReadLba
 ms.topic: method
-f1_keywords: 
- - "imapi2/IWriteEngine2EventArgs.get_LastReadLba"
+f1_keywords:
+- imapi2/IWriteEngine2EventArgs.get_LastReadLba
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IWriteEngine2EventArgs.get_LastReadLba
+- IWriteEngine2EventArgs.get_LastReadLba
 targetos: Windows
 req.typenames: 
 req.redist: 

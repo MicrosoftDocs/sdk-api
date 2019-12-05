@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IQueryParser.ParsePropertyValue
 title: IQueryParser::ParsePropertyValue (structuredquery.h)
-
 description: Parses a condition for a specified property.
 old-location: search\_search_IQueryParser_ParsePropertyValue.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\parsepropertyvalue.htm
-
 ms.date: 12/05/2018
 ms.keywords: IQueryParser interface [search],ParsePropertyValue method, IQueryParser.ParsePropertyValue, IQueryParser::ParsePropertyValue, ParsePropertyValue, ParsePropertyValue method [search], ParsePropertyValue method [search],IQueryParser interface, _search_IQueryParser_ParsePropertyValue, search._search_IQueryParser_ParsePropertyValue, structuredquery/IQueryParser::ParsePropertyValue
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IQueryParser.ParsePropertyValue"
+f1_keywords:
+- structuredquery/IQueryParser.ParsePropertyValue
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IQueryParser.ParsePropertyValue
+- IQueryParser.ParsePropertyValue
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

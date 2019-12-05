@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineSetMediaControl
 title: lineSetMediaControl function (tapi.h)
-
 description: The lineSetMediaControl function enables and disables control actions on the media stream associated with the specified line, address, or call.
 old-location: tapi2\linesetmediacontrol.htm
 tech.root: Tapi
 ms.assetid: 5a4fc83a-6bc9-4081-b374-ddb912fb2242
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linesetmediacontrol, lineSetMediaControl, lineSetMediaControl function [TAPI 2.2], tapi/lineSetMediaControl, tapi2.linesetmediacontrol"
+ms.keywords: _tapi2_linesetmediacontrol, lineSetMediaControl, lineSetMediaControl function [TAPI 2.2], tapi/lineSetMediaControl, tapi2.linesetmediacontrol
 ms.topic: function
-f1_keywords: 
- - "tapi/lineSetMediaControl"
+f1_keywords:
+- tapi/lineSetMediaControl
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineSetMediaControl
+- lineSetMediaControl
 targetos: Windows
 req.typenames: 
 req.redist: 

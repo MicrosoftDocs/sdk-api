@@ -1,19 +1,17 @@
 ---
 UID: NN:mergemod.IMsmGetFiles
 title: IMsmGetFiles (mergemod.h)
-
 description: The IMsmGetFiles interface enables the client to retrieve the files needed in a particular language of the module.
 old-location: setup\imsmgetfiles_interface.htm
 tech.root: Msi
 ms.assetid: d6912c92-b3e0-4b3d-a618-17e252cd14ae
-
 ms.date: 12/05/2018
 ms.keywords: IMsmGetFiles, IMsmGetFiles interface, IMsmGetFiles interface,described, mergemod/IMsmGetFiles, setup.imsmgetfiles_interface
 ms.topic: interface
-f1_keywords: 
- - "mergemod/IMsmGetFiles"
+f1_keywords:
+- mergemod/IMsmGetFiles
 dev_langs:
- - c++
+- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mergemod.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mergemod.dll
+- Mergemod.dll
 api_name:
- - IMsmGetFiles
+- IMsmGetFiles
 targetos: Windows
 req.typenames: 
 req.redist: 

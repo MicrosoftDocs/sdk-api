@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.ReclaimVirtualMemory
 title: ReclaimVirtualMemory function (memoryapi.h)
-
 description: Reclaims a range of memory pages that were offered to the system with OfferVirtualMemory.
 old-location: base\reclaimvirtualmemory.htm
 tech.root: Memory
 ms.assetid: bb0ec5aa-b098-8a3f-67df-864a1672ba8f
-
 ms.date: 12/05/2018
 ms.keywords: ReclaimVirtualMemory, ReclaimVirtualMemory function, base.reclaimvirtualmemory, winbase/ReclaimVirtualMemory
 ms.topic: function
-f1_keywords: 
- - "memoryapi/ReclaimVirtualMemory"
+f1_keywords:
+- memoryapi/ReclaimVirtualMemory
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-memory-l1-1-2.dll
- - KernelBase.dll
- - API-MS-Win-Core-memory-l1-1-3.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Memory-L1-1-4.dll
+- Kernel32.dll
+- API-MS-Win-Core-memory-l1-1-2.dll
+- KernelBase.dll
+- API-MS-Win-Core-memory-l1-1-3.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - ReclaimVirtualMemory
+- ReclaimVirtualMemory
 targetos: Windows
 req.typenames: 
 req.redist: 

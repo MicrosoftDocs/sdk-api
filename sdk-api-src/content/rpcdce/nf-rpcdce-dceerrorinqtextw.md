@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.DceErrorInqTextW
 title: DceErrorInqTextW function (rpcdce.h)
-
 description: The DceErrorInqText function returns the message text for a status code.
 old-location: rpc\dceerrorinqtext.htm
 tech.root: Rpc
 ms.assetid: 0aea211b-48bb-4a2f-a42e-1f35259e7f82
-
 ms.date: 12/05/2018
 ms.keywords: DceErrorInqText, DceErrorInqText function [RPC], DceErrorInqTextA, DceErrorInqTextW, RPC_S_INVALID_ARG, RPC_S_OK, _rpc_dceerrorinqtext, rpc.dceerrorinqtext, rpcdce/DceErrorInqText, rpcdce/DceErrorInqTextA, rpcdce/DceErrorInqTextW
 ms.topic: function
-f1_keywords: 
- - "rpcdce/DceErrorInqText"
+f1_keywords:
+- rpcdce/DceErrorInqText
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - DceErrorInqText
- - DceErrorInqTextA
- - DceErrorInqTextW
+- DceErrorInqText
+- DceErrorInqTextA
+- DceErrorInqTextW
 targetos: Windows
 req.typenames: 
 req.redist: 

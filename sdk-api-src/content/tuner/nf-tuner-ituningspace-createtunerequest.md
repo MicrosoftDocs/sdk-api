@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuningSpace.CreateTuneRequest
 title: ITuningSpace::CreateTuneRequest (tuner.h)
-
 description: The CreateTuneRequest method creates an empty (uninitialized) tune request.
 old-location: mstv\ituningspace_createtunerequest.htm
 tech.root: mstv
 ms.assetid: 513d4d3e-47df-4a12-80ce-9fc1400af176
-
 ms.date: 12/05/2018
 ms.keywords: CreateTuneRequest, CreateTuneRequest method [Microsoft TV Technologies], CreateTuneRequest method [Microsoft TV Technologies],ITuningSpace interface, ITuningSpace interface [Microsoft TV Technologies],CreateTuneRequest method, ITuningSpace.CreateTuneRequest, ITuningSpace::CreateTuneRequest, ITuningSpaceCreateTuneRequest, mstv.ituningspace_createtunerequest, tuner/ITuningSpace::CreateTuneRequest
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuningSpace.CreateTuneRequest"
+f1_keywords:
+- tuner/ITuningSpace.CreateTuneRequest
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuningSpace.CreateTuneRequest
+- ITuningSpace.CreateTuneRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

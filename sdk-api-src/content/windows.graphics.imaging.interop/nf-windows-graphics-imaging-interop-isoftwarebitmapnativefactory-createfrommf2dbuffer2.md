@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.graphics.imaging.interop.ISoftwareBitmapNativeFactory.CreateFromMF2DBuffer2
 title: ISoftwareBitmapNativeFactory::imaging (windows.graphics.imaging.interop.h)
-
 description: Creates an ISoftwareBitmapNative from the provided IMF2DBuffer2.
 old-location: winrt\isoftwarebitmapnativefactory_createfrommf2dbuffer2.htm
 tech.root: WinRT
 ms.assetid: F6B9E8B2-19CF-4921-9E9E-E387084E5F8B
-
 ms.date: 12/05/2018
 ms.keywords: CreateFromMF2DBuffer2, CreateFromMF2DBuffer2 method [Windows Runtime], CreateFromMF2DBuffer2 method [Windows Runtime],ISoftwareBitmapNativeFactory interface, ISoftwareBitmapNativeFactory interface [Windows Runtime],CreateFromMF2DBuffer2 method, ISoftwareBitmapNativeFactory.CreateFromMF2DBuffer2, ISoftwareBitmapNativeFactory.imaging, ISoftwareBitmapNativeFactory::CreateFromMF2DBuffer2, ISoftwareBitmapNativeFactory::imaging, windows/ISoftwareBitmapNativeFactory::CreateFromMF2DBuffer2, winrt.isoftwarebitmapnativefactory_createfrommf2dbuffer2
 ms.topic: method
-f1_keywords: 
- - "windows.graphics.imaging.interop/ISoftwareBitmapNativeFactory.CreateFromMF2DBuffer2"
+f1_keywords:
+- windows.graphics.imaging.interop/ISoftwareBitmapNativeFactory.CreateFromMF2DBuffer2
 dev_langs:
- - c++
+- c++
 req.header: windows.graphics.imaging.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windows.graphics.imaging.interop.lib
 req.dll: Windows.graphics.imaging.interop.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.graphics.imaging.interop.dll
+- windows.graphics.imaging.interop.dll
 api_name:
- - ISoftwareBitmapNativeFactory.CreateFromMF2DBuffer2
+- ISoftwareBitmapNativeFactory.CreateFromMF2DBuffer2
 targetos: Windows
 req.typenames: 
 req.redist: 

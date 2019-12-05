@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsAbortServiceHost
 title: WsAbortServiceHost function (webservices.h)
-
 description: Aborts all current operations on the specified service host.
 old-location: wsw\wsabortservicehost.htm
 tech.root: wsw
 ms.assetid: d9405b21-52d2-4d33-b133-f15402dd1d5b
-
 ms.date: 12/05/2018
 ms.keywords: WsAbortServiceHost, WsAbortServiceHost function [Web Services for Windows], webservices/WsAbortServiceHost, wsw.wsabortservicehost
 ms.topic: function
-f1_keywords: 
- - "webservices/WsAbortServiceHost"
+f1_keywords:
+- webservices/WsAbortServiceHost
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsAbortServiceHost
+- WsAbortServiceHost
 targetos: Windows
 req.typenames: 
 req.redist: 

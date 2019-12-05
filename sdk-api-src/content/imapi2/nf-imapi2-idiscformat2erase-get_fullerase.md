@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2Erase.get_FullErase
 title: IDiscFormat2Erase::get_FullErase (imapi2.h)
-
 description: Determines the quality of the disc erasure.
 old-location: imapi\idiscformat2erase_get_fullerase.htm
 tech.root: imapi
 ms.assetid: 56b4db17-1699-4e09-9a6d-ef5e998621c5
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Erase interface [IMAPI],get_FullErase method, IDiscFormat2Erase.get_FullErase, IDiscFormat2Erase::get_FullErase, get_FullErase, get_FullErase method [IMAPI], get_FullErase method [IMAPI],IDiscFormat2Erase interface, imapi.idiscformat2erase_get_fullerase, imapi2/IDiscFormat2Erase::get_FullErase
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2Erase.get_FullErase"
+f1_keywords:
+- imapi2/IDiscFormat2Erase.get_FullErase
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2Erase.get_FullErase
+- IDiscFormat2Erase.get_FullErase
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.DeleteAttachedSurface
 title: IDirectDrawSurface7::DeleteAttachedSurface (ddraw.h)
-
 description: Detaches one or more attached surfaces.
 old-location: directdraw\idirectdrawsurface7_deleteattachedsurface.htm
 tech.root: directdraw
 ms.assetid: 39cefecd-2ae0-42ba-8140-842acdaa1ad8
-
 ms.date: 12/05/2018
 ms.keywords: DeleteAttachedSurface, DeleteAttachedSurface method [DirectDraw], DeleteAttachedSurface method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],DeleteAttachedSurface method, IDirectDrawSurface7.DeleteAttachedSurface, IDirectDrawSurface7::DeleteAttachedSurface, ddraw/IDirectDrawSurface7::DeleteAttachedSurface, directdraw.idirectdrawsurface7_deleteattachedsurface
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawSurface7.DeleteAttachedSurface"
+f1_keywords:
+- ddraw/IDirectDrawSurface7.DeleteAttachedSurface
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawSurface7.DeleteAttachedSurface
+- IDirectDrawSurface7.DeleteAttachedSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmGetAppIdFromFileName0
 title: FwpmGetAppIdFromFileName0 function (fwpmu.h)
-
 description: Retrieves an application identifier from a file name.
 old-location: fwp\fwpmgetappidfromfilename0.htm
 tech.root: fwp
 ms.assetid: 9bf3a101-7782-4075-bc77-a003184d0cbe
-
 ms.date: 12/05/2018
 ms.keywords: FwpmGetAppIdFromFileName0, FwpmGetAppIdFromFileName0 function [Filtering], fwp.fwpmgetappidfromfilename0, fwpmu/FwpmGetAppIdFromFileName0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmGetAppIdFromFileName0"
+f1_keywords:
+- fwpmu/FwpmGetAppIdFromFileName0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmGetAppIdFromFileName0
+- FwpmGetAppIdFromFileName0
 targetos: Windows
 req.typenames: 
 req.redist: 

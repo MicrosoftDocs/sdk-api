@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnRadio.SetSoftwareRadioState
 title: IMbnRadio::SetSoftwareRadioState (mbnapi.h)
-
 description: Sets the software radio state of a Mobile Broadband device.
 old-location: mbn\imbnradio_setsoftwareradiostate.htm
 tech.root: mbn
 ms.assetid: d140109d-5659-42aa-b645-996dfc5a9d4e
-
 ms.date: 12/05/2018
 ms.keywords: IMbnRadio interface [Microsoft Broadband Networks],SetSoftwareRadioState method, IMbnRadio.SetSoftwareRadioState, IMbnRadio::SetSoftwareRadioState, SetSoftwareRadioState, SetSoftwareRadioState method [Microsoft Broadband Networks], SetSoftwareRadioState method [Microsoft Broadband Networks],IMbnRadio interface, mbn.imbnradio_setsoftwareradiostate, mbnapi/IMbnRadio::SetSoftwareRadioState
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnRadio.SetSoftwareRadioState"
+f1_keywords:
+- mbnapi/IMbnRadio.SetSoftwareRadioState
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnRadio.SetSoftwareRadioState
+- IMbnRadio.SetSoftwareRadioState
 targetos: Windows
 req.typenames: 
 req.redist: 

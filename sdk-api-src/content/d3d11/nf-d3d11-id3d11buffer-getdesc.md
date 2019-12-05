@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11Buffer.GetDesc
 title: ID3D11Buffer::GetDesc (d3d11.h)
-
 description: Get the properties of a buffer resource.
 old-location: direct3d11\id3d11buffer_getdesc.htm
 tech.root: direct3d11
 ms.assetid: 8db8b50c-4e92-4255-a6b9-04caa685b78b
-
 ms.date: 12/05/2018
 ms.keywords: 136b2c3a-1bef-0fe6-e772-112ed493fb11, GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11Buffer interface, ID3D11Buffer interface [Direct3D 11],GetDesc method, ID3D11Buffer.GetDesc, ID3D11Buffer::GetDesc, d3d11/ID3D11Buffer::GetDesc, direct3d11.id3d11buffer_getdesc
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11Buffer.GetDesc"
+f1_keywords:
+- d3d11/ID3D11Buffer.GetDesc
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Buffer.GetDesc
+- ID3D11Buffer.GetDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

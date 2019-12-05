@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineSetAppSpecific
 title: lineSetAppSpecific function (tapi.h)
-
 description: The lineSetAppSpecific function enables an application to set the application-specific field of the specified call's call-information record.
 old-location: tapi2\linesetappspecific.htm
 tech.root: Tapi
 ms.assetid: b7d51f62-3b19-4961-8d4c-a44dc8498f14
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linesetappspecific, lineSetAppSpecific, lineSetAppSpecific function [TAPI 2.2], tapi/lineSetAppSpecific, tapi2.linesetappspecific"
+ms.keywords: _tapi2_linesetappspecific, lineSetAppSpecific, lineSetAppSpecific function [TAPI 2.2], tapi/lineSetAppSpecific, tapi2.linesetappspecific
 ms.topic: function
-f1_keywords: 
- - "tapi/lineSetAppSpecific"
+f1_keywords:
+- tapi/lineSetAppSpecific
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineSetAppSpecific
+- lineSetAppSpecific
 targetos: Windows
 req.typenames: 
 req.redist: 

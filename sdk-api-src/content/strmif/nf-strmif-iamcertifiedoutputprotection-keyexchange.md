@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMCertifiedOutputProtection.KeyExchange
 title: IAMCertifiedOutputProtection::KeyExchange (strmif.h)
-
 description: The KeyExchange method returns the graphics driver's certificate.
 old-location: dshow\iamcertifiedoutputprotection_keyexchange.htm
 tech.root: DirectShow
 ms.assetid: 163164a2-e2a2-447d-b443-f92972197aff
-
 ms.date: 12/05/2018
 ms.keywords: IAMCertifiedOutputProtection interface [DirectShow],KeyExchange method, IAMCertifiedOutputProtection.KeyExchange, IAMCertifiedOutputProtection::KeyExchange, IAMCertifiedOutputProtectionKeyExchange, KeyExchange, KeyExchange method [DirectShow], KeyExchange method [DirectShow],IAMCertifiedOutputProtection interface, dshow.iamcertifiedoutputprotection_keyexchange, strmif/IAMCertifiedOutputProtection::KeyExchange
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMCertifiedOutputProtection.KeyExchange"
+f1_keywords:
+- strmif/IAMCertifiedOutputProtection.KeyExchange
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMCertifiedOutputProtection.KeyExchange
+- IAMCertifiedOutputProtection.KeyExchange
 targetos: Windows
 req.typenames: 
 req.redist: 

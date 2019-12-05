@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_SetHot
 title: TreeView_SetHot macro (commctrl.h)
-
 description: Sets the hot item for a tree-view control. You can use this macro or send the TVM_SETHOT message explicitly.
 old-location: controls\TreeView_SetHot.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\messages\treeview_sethot.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_SetHot, TreeView_SetHot macro [Windows Controls], _win32_TreeView_SetHot, _win32_TreeView_SetHot_cpp, commctrl/TreeView_SetHot, controls.TreeView_SetHot, controls._win32_TreeView_SetHot
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_SetHot"
+f1_keywords:
+- commctrl/TreeView_SetHot
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_SetHot
+- TreeView_SetHot
 targetos: Windows
 req.typenames: 
 req.redist: 

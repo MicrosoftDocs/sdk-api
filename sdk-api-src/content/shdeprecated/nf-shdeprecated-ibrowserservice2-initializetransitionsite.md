@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.InitializeTransitionSite
 title: IBrowserService2::InitializeTransitionSite (shdeprecated.h)
-
 description: Deprecated. Enables transitions in the browser view window.
 old-location: shell\IBrowserService2_InitializeTransitionSite.htm
 tech.root: shell
 ms.assetid: 8bb2efc6-699f-4e12-bb52-ee15fb8dc85a
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],InitializeTransitionSite method, IBrowserService2.InitializeTransitionSite, IBrowserService2::InitializeTransitionSite, InitializeTransitionSite, InitializeTransitionSite method [Windows Shell], InitializeTransitionSite method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::InitializeTransitionSite, shell.IBrowserService2_InitializeTransitionSite, zone_IBrowserService2_InitializeTransitionSite
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2.InitializeTransitionSite"
+f1_keywords:
+- shdeprecated/IBrowserService2.InitializeTransitionSite
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2.InitializeTransitionSite
+- IBrowserService2.InitializeTransitionSite
 targetos: Windows
 req.typenames: 
 req.redist: 

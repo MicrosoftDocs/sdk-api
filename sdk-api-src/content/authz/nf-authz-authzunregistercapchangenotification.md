@@ -1,19 +1,17 @@
 ---
 UID: NF:authz.AuthzUnregisterCapChangeNotification
 title: AuthzUnregisterCapChangeNotification function (authz.h)
-
 description: Removes a previously registered CAP update notification callback.
 old-location: security\authzunregistercapchangenotification.htm
 tech.root: SecAuthZ
 ms.assetid: 79374C66-CD50-4351-A16B-AF79A579AF74
-
 ms.date: 12/05/2018
 ms.keywords: AuthzUnregisterCapChangeNotification, AuthzUnregisterCapChangeNotification function [Security], authz/AuthzUnregisterCapChangeNotification, security.authzunregistercapchangenotification
 ms.topic: function
-f1_keywords: 
- - "authz/AuthzUnregisterCapChangeNotification"
+f1_keywords:
+- authz/AuthzUnregisterCapChangeNotification
 dev_langs:
- - c++
+- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Authz.dll
+- Authz.dll
 api_name:
- - AuthzUnregisterCapChangeNotification
+- AuthzUnregisterCapChangeNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

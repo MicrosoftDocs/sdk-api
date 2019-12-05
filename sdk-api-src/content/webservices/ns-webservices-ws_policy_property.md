@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_POLICY_PROPERTY
 title: WS_POLICY_PROPERTY (webservices.h)
-
 description: Specifies a policy object setting.
 old-location: wsw\ws_policy_property.htm
 tech.root: wsw
 ms.assetid: a897eb6c-d527-46ec-a710-252679001185
-
 ms.date: 12/05/2018
 ms.keywords: WS_POLICY_PROPERTY, WS_POLICY_PROPERTY structure [Web Services for Windows], webservices/WS_POLICY_PROPERTY, wsw.ws_policy_property
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_POLICY_PROPERTY"
+f1_keywords:
+- webservices/WS_POLICY_PROPERTY
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_POLICY_PROPERTY
+- WS_POLICY_PROPERTY
 targetos: Windows
 req.typenames: WS_POLICY_PROPERTY
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFFinalizableMediaSink
 title: IMFFinalizableMediaSink (mfidl.h)
-
 description: Optionally supported by media sinks to perform required tasks before shutdown.
 old-location: mf\imffinalizablemediasink.htm
 tech.root: medfound
 ms.assetid: e60c2773-f2fc-469e-a698-036390cbed16
-
 ms.date: 12/05/2018
 ms.keywords: IMFFinalizableMediaSink, IMFFinalizableMediaSink interface [Media Foundation], IMFFinalizableMediaSink interface [Media Foundation],described, e60c2773-f2fc-469e-a698-036390cbed16, mf.imffinalizablemediasink, mfidl/IMFFinalizableMediaSink
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFFinalizableMediaSink"
+f1_keywords:
+- mfidl/IMFFinalizableMediaSink
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFFinalizableMediaSink
+- IMFFinalizableMediaSink
 targetos: Windows
 req.typenames: 
 req.redist: 

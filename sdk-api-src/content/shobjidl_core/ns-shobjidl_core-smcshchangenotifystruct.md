@@ -1,19 +1,17 @@
 ---
 UID: NS:shobjidl_core.SHCSCHANGENOTIFYSTRUCT
 title: SMCSHCHANGENOTIFYSTRUCT (shobjidl_core.h)
-
 description: Contains information about change notification. It is used by IShellMenuCallback::CallbackSM.
 old-location: shell\SMCSHCHANGENOTIFYSTRUCT.htm
 tech.root: shell
 ms.assetid: 31fd2550-d39c-45fc-9c19-6ba2858002de
-
 ms.date: 12/05/2018
-ms.keywords: "*PSMCSHCHANGENOTIFYSTRUCT, PSMCSHCHANGENOTIFYSTRUCT, PSMCSHCHANGENOTIFYSTRUCT structure pointer [Windows Shell], SHCSCHANGENOTIFYSTRUCT, SMCSHCHANGENOTIFYSTRUCT, SMCSHCHANGENOTIFYSTRUCT structure [Windows Shell], _win32_SMCSHCHANGENOTIFYSTRUCT, shell.SMCSHCHANGENOTIFYSTRUCT, shobjidl_core/PSMCSHCHANGENOTIFYSTRUCT, shobjidl_core/SMCSHCHANGENOTIFYSTRUCT"
+ms.keywords: '*PSMCSHCHANGENOTIFYSTRUCT, PSMCSHCHANGENOTIFYSTRUCT, PSMCSHCHANGENOTIFYSTRUCT structure pointer [Windows Shell], SHCSCHANGENOTIFYSTRUCT, SMCSHCHANGENOTIFYSTRUCT, SMCSHCHANGENOTIFYSTRUCT structure [Windows Shell], _win32_SMCSHCHANGENOTIFYSTRUCT, shell.SMCSHCHANGENOTIFYSTRUCT, shobjidl_core/PSMCSHCHANGENOTIFYSTRUCT, shobjidl_core/SMCSHCHANGENOTIFYSTRUCT'
 ms.topic: struct
-f1_keywords: 
- - "shobjidl_core/SMCSHCHANGENOTIFYSTRUCT"
+f1_keywords:
+- shobjidl_core/SMCSHCHANGENOTIFYSTRUCT
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - SMCSHCHANGENOTIFYSTRUCT
+- SMCSHCHANGENOTIFYSTRUCT
 targetos: Windows
 req.typenames: SMCSHCHANGENOTIFYSTRUCT, *PSMCSHCHANGENOTIFYSTRUCT
 req.redist: 

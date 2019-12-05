@@ -1,19 +1,17 @@
 ---
 UID: NE:rendezvoussession.__MIDL___MIDL_itf_rendezvoussession_0000_0000_0001
 title: RENDEZVOUS_SESSION_STATE (rendezvoussession.h)
-
 description: Provides the list of possible state codes of the session invitation.
 old-location: remoteassist\remoteassist_RENDEZVOUS_SESSION_STATE.htm
 tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\enums\rendezvous_session_state.htm
-
 ms.date: 12/05/2018
 ms.keywords: RENDEZVOUS_SESSION_STATE, RENDEZVOUS_SESSION_STATE enumeration [Remote Assistance], RSS_ACCEPTED, RSS_CANCELLED, RSS_CONNECTED, RSS_DECLINED, RSS_INVITATION, RSS_READY, RSS_TERMINATED, RSS_UNKNOWN, remoteassist.remoteassist_RENDEZVOUS_SESSION_STATE, remoteassist_RENDEZVOUS_SESSION_STATE, rendezvoussession/RENDEZVOUS_SESSION_STATE, rendezvoussession/RSS_ACCEPTED, rendezvoussession/RSS_CANCELLED, rendezvoussession/RSS_CONNECTED, rendezvoussession/RSS_DECLINED, rendezvoussession/RSS_INVITATION, rendezvoussession/RSS_READY, rendezvoussession/RSS_TERMINATED, rendezvoussession/RSS_UNKNOWN
 ms.topic: enum
-f1_keywords: 
- - "rendezvoussession/RENDEZVOUS_SESSION_STATE"
+f1_keywords:
+- rendezvoussession/RENDEZVOUS_SESSION_STATE
 dev_langs:
- - c++
+- c++
 req.header: rendezvoussession.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - RendezvousSession.h
+- RendezvousSession.h
 api_name:
- - RENDEZVOUS_SESSION_STATE
+- RENDEZVOUS_SESSION_STATE
 targetos: Windows
 req.typenames: RENDEZVOUS_SESSION_STATE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:msime.IFEDictionary
 title: IFEDictionary (msime.h)
-
 description: The IFEDictionary interface allows clients to access a Microsoft IME user dictionary.
 old-location: intl\ifedictionary.htm
 tech.root: Intl
 ms.assetid: 4C63FF43-0170-4038-AB01-72441E1BB189
-
 ms.date: 12/05/2018
 ms.keywords: IFEDictionary, IFEDictionary interface [Internationalization for Windows Applications], IFEDictionary interface [Internationalization for Windows Applications],described, intl.ifedictionary, msime/IFEDictionary
 ms.topic: interface
-f1_keywords: 
- - "msime/IFEDictionary"
+f1_keywords:
+- msime/IFEDictionary
 dev_langs:
- - c++
+- c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msime.h
+- Msime.h
 api_name:
- - IFEDictionary
+- IFEDictionary
 targetos: Windows
 req.typenames: 
 req.redist: 

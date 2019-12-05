@@ -1,19 +1,17 @@
 ---
 UID: NE:p2p.peer_signin_flags_tag
 title: PEER_SIGNIN_FLAGS (p2p.h)
-
 description: The PEER_SIGNIN_FLAGS enumeration defines the set of peer presence publication behaviors available when the peer signs in to a peer collaboration network.
 old-location: p2p\peer_signin_flags.htm
 tech.root: P2PSdk
 ms.assetid: 00b7f57a-222d-4152-bded-93f1899692da
-
 ms.date: 12/05/2018
 ms.keywords: PEER_SIGNIN_ALL, PEER_SIGNIN_FLAGS, PEER_SIGNIN_FLAGS enumeration [Peer Networking], PEER_SIGNIN_INTERNET, PEER_SIGNIN_NEAR_ME, PEER_SIGNIN_NONE, p2p.peer_signin_flags, p2p/PEER_SIGNIN_ALL, p2p/PEER_SIGNIN_FLAGS, p2p/PEER_SIGNIN_INTERNET, p2p/PEER_SIGNIN_NEAR_ME, p2p/PEER_SIGNIN_NONE
 ms.topic: enum
-f1_keywords: 
- - "p2p/PEER_SIGNIN_FLAGS"
+f1_keywords:
+- p2p/PEER_SIGNIN_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - P2P.h
+- P2P.h
 api_name:
- - PEER_SIGNIN_FLAGS
+- PEER_SIGNIN_FLAGS
 targetos: Windows
 req.typenames: PEER_SIGNIN_FLAGS
 req.redist: 

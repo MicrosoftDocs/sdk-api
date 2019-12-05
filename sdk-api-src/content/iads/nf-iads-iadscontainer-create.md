@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsContainer.Create
 title: IADsContainer::Create (iads.h)
-
 description: Sets up a request to create a directory object of the specified schema class and a given name in the container.
 old-location: adsi\iadscontainer_create.htm
 tech.root: adsi
 ms.assetid: 9498ef4d-7a03-487f-91a7-189f17a38a24
-
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [ADSI], Create method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],Create method, IADsContainer.Create, IADsContainer::Create, _ds_iadscontainer_create, adsi.iadscontainer__create, adsi.iadscontainer_create, iads/IADsContainer::Create
 ms.topic: method
-f1_keywords: 
- - "iads/IADsContainer.Create"
+f1_keywords:
+- iads/IADsContainer.Create
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsContainer.Create
+- IADsContainer.Create
 targetos: Windows
 req.typenames: 
 req.redist: 

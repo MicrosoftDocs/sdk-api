@@ -1,19 +1,17 @@
 ---
 UID: NS:lmserver._SERVER_TRANSPORT_INFO_0
 title: SERVER_TRANSPORT_INFO_0 (lmserver.h)
-
 description: The SERVER_TRANSPORT_INFO_0 structure contains information about the specified transport protocol, including name, address, and location on the network.
 old-location: netmgmt\server_transport_info_0_str.htm
 tech.root: NetMgmt
 ms.assetid: 5b94cf7a-74d1-4ae8-87bd-22b2daf292cb
-
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVER_TRANSPORT_INFO_0, *PSERVER_TRANSPORT_INFO_0, LPSERVER_TRANSPORT_INFO_0, LPSERVER_TRANSPORT_INFO_0 structure pointer [Network Management], PSERVER_TRANSPORT_INFO_0, PSERVER_TRANSPORT_INFO_0 structure pointer [Network Management], SERVER_TRANSPORT_INFO_0, SERVER_TRANSPORT_INFO_0 structure [Network Management], _win32_server_transport_info_0_str, lmserver/LPSERVER_TRANSPORT_INFO_0, lmserver/PSERVER_TRANSPORT_INFO_0, lmserver/SERVER_TRANSPORT_INFO_0, netmgmt.server_transport_info_0_str'
 ms.topic: struct
 f1_keywords:
 - lmserver/SERVER_TRANSPORT_INFO_0
 dev_langs:
- - c++
+- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows

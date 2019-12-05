@@ -1,19 +1,17 @@
 ---
 UID: NF:mmiscapi.mmioOpenW
 title: mmioOpenW function (mmiscapi.h)
-
 description: The mmioOpen function opens a file for unbuffered or buffered I/O; creates a file; deletes a file; or checks whether a file exists.
 old-location: multimedia\mmioopen.htm
 tech.root: Multimedia
 ms.assetid: 7361f0f2-1c3c-49f1-aec1-2927e05ef0f0
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_mmioOpen, mmioOpen, mmioOpen function [Windows Multimedia], mmioOpenA, mmioOpenW, mmsystem/mmioOpen, mmsystem/mmioOpenA, mmsystem/mmioOpenW, multimedia.mmioopen"
+ms.keywords: _win32_mmioOpen, mmioOpen, mmioOpen function [Windows Multimedia], mmioOpenA, mmioOpenW, mmsystem/mmioOpen, mmsystem/mmioOpenA, mmsystem/mmioOpenW, multimedia.mmioopen
 ms.topic: function
-f1_keywords: 
- - "mmiscapi/mmioOpen"
+f1_keywords:
+- mmiscapi/mmioOpen
 dev_langs:
- - c++
+- c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-misc-l1-1-0.dll
- - winmmbase.dll
- - API-MS-Win-mm-misc-l1-1-1.dll
+- Winmm.dll
+- API-MS-Win-mm-misc-l1-1-0.dll
+- winmmbase.dll
+- API-MS-Win-mm-misc-l1-1-1.dll
 api_name:
- - mmioOpen
- - mmioOpenA
- - mmioOpenW
+- mmioOpen
+- mmioOpenA
+- mmioOpenW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImageResult.get_ImageStream
 title: IFileSystemImageResult::get_ImageStream (imapi2fs.h)
-
 description: Retrieves the burn image stream.
 old-location: imapi\ifilesystemimageresult_get_imagestream.htm
 tech.root: imapi
 ms.assetid: 87e4bde6-c8c3-43b6-b096-514fdef5e262
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImageResult interface [IMAPI],get_ImageStream method, IFileSystemImageResult.get_ImageStream, IFileSystemImageResult::get_ImageStream, get_ImageStream, get_ImageStream method [IMAPI], get_ImageStream method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_imagestream, imapi2fs/IFileSystemImageResult::get_ImageStream
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImageResult.get_ImageStream"
+f1_keywords:
+- imapi2fs/IFileSystemImageResult.get_ImageStream
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImageResult.get_ImageStream
+- IFileSystemImageResult.get_ImageStream
 targetos: Windows
 req.typenames: 
 req.redist: 

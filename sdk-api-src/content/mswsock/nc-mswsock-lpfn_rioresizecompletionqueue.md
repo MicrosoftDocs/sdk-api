@@ -1,19 +1,17 @@
 ---
 UID: NC:mswsock.LPFN_RIORESIZECOMPLETIONQUEUE
 title: LPFN_RIORESIZECOMPLETIONQUEUE
-
 description: Resizes an I/O completion queue to be either larger or smaller for use with the Winsock registered I/O extensions.
 old-location: 
 tech.root: WinSock
 ms.assetid: C3C9A6CA-2C2E-4A5F-BDE7-635DF0B93B1A
-
 ms.date: 01/30/19
 ms.keywords: LPFN_RIORESIZECOMPLETIONQUEUE
 ms.topic: language-reference
-f1_keywords: 
- - "mswsock/LPFN_RIORESIZECOMPLETIONQUEUE"
+f1_keywords:
+- mswsock/LPFN_RIORESIZECOMPLETIONQUEUE
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -35,13 +33,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - LibDef
+- LibDef
 api_location:
- - mswsock.h
+- mswsock.h
 api_name:
- - LPFN_RIORESIZECOMPLETIONQUEUE
+- LPFN_RIORESIZECOMPLETIONQUEUE
 ---
 
 ## -description

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.SetObject
 title: IMFTopologyNode::SetObject (mfidl.h)
-
 description: Sets the object associated with this node.
 old-location: mf\imftopologynode_setobject.htm
 tech.root: medfound
 ms.assetid: bbef706d-a4a0-4ff3-bfdb-8ba39d70617c
-
 ms.date: 12/05/2018
 ms.keywords: IMFTopologyNode interface [Media Foundation],SetObject method, IMFTopologyNode.SetObject, IMFTopologyNode::SetObject, SetObject, SetObject method [Media Foundation], SetObject method [Media Foundation],IMFTopologyNode interface, bbef706d-a4a0-4ff3-bfdb-8ba39d70617c, mf.imftopologynode_setobject, mfidl/IMFTopologyNode::SetObject
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTopologyNode.SetObject"
+f1_keywords:
+- mfidl/IMFTopologyNode.SetObject
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTopologyNode.SetObject
+- IMFTopologyNode.SetObject
 targetos: Windows
 req.typenames: 
 req.redist: 

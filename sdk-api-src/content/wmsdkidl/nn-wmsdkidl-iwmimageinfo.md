@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMImageInfo
 title: IWMImageInfo (wmsdkidl.h)
-
 description: The IWMImageInfo interface retrieves images stored in ID3v2 &#0034;APIC&#0034; (attached picture) frames in a file.
 old-location: wmformat\iwmimageinfo.htm
 tech.root: wmformat
 ms.assetid: 1b3b4224-f86d-437c-969e-fe30e6d002a8
-
 ms.date: 12/05/2018
 ms.keywords: IWMImageInfo, IWMImageInfo interface [windows Media Format], IWMImageInfo interface [windows Media Format],described, IWMImageInfoInterface, wmformat.iwmimageinfo, wmsdkidl/IWMImageInfo
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMImageInfo"
+f1_keywords:
+- wmsdkidl/IWMImageInfo
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMImageInfo
+- IWMImageInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

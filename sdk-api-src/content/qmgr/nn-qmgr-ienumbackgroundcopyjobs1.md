@@ -1,19 +1,17 @@
 ---
 UID: NN:qmgr.IEnumBackgroundCopyJobs1
 title: IEnumBackgroundCopyJobs1 (qmgr.h)
-
 description: Use the IEnumBackgroundCopyJobs1 interface to enumerate the list of jobs in a group. To get an IEnumBackgroundCopyJobs1 interface pointer, call the IBackgroundCopyGroup::EnumJobs method.
 old-location: bits\ienumbackgroundcopyjobs1.htm
 tech.root: Bits
 ms.assetid: 93feac90-8eb8-49d8-9841-d78a2645fbcb
-
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyJobs1, IEnumBackgroundCopyJobs1 interface [BITS], IEnumBackgroundCopyJobs1 interface [BITS],described, bits.ienumbackgroundcopyjobs1, qmgr/IEnumBackgroundCopyJobs1
 ms.topic: interface
-f1_keywords: 
- - "qmgr/IEnumBackgroundCopyJobs1"
+f1_keywords:
+- qmgr/IEnumBackgroundCopyJobs1
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IEnumBackgroundCopyJobs1
+- IEnumBackgroundCopyJobs1
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineMonitorDigits
 title: lineMonitorDigits function (tapi.h)
-
 description: The lineMonitorDigits function enables and disables the unbuffered detection of digits received on the call. Each time a digit of the specified digit mode is detected, a message is sent to the application indicating which digit has been detected.
 old-location: tapi2\linemonitordigits.htm
 tech.root: Tapi
 ms.assetid: 7987761f-429c-4a6f-876b-eafe4274907a
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linemonitordigits, lineMonitorDigits, lineMonitorDigits function [TAPI 2.2], tapi/lineMonitorDigits, tapi2.linemonitordigits"
+ms.keywords: _tapi2_linemonitordigits, lineMonitorDigits, lineMonitorDigits function [TAPI 2.2], tapi/lineMonitorDigits, tapi2.linemonitordigits
 ms.topic: function
-f1_keywords: 
- - "tapi/lineMonitorDigits"
+f1_keywords:
+- tapi/lineMonitorDigits
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineMonitorDigits
+- lineMonitorDigits
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dpa_dsa.DPA_InsertPtr
 title: DPA_InsertPtr function (dpa_dsa.h)
-
 description: Inserts a new item at a specified position in a dynamic pointer array (DPA). If neccessary, the DPA expands to accommodate the new item.
 old-location: controls\DPA_InsertPtr.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_insertptr.htm
-
 ms.date: 12/05/2018
 ms.keywords: DPA_InsertPtr, DPA_InsertPtr function [Windows Controls], _win32_DPA_InsertPtr, _win32_DPA_InsertPtr_cpp, controls.DPA_InsertPtr, controls._win32_DPA_InsertPtr, dpa_dsa/DPA_InsertPtr
 ms.topic: function
-f1_keywords: 
- - "dpa_dsa/DPA_InsertPtr"
+f1_keywords:
+- dpa_dsa/DPA_InsertPtr
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: ComCtl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComCtl32.dll
+- ComCtl32.dll
 api_name:
- - DPA_InsertPtr
+- DPA_InsertPtr
 targetos: Windows
 req.typenames: 
 req.redist: 

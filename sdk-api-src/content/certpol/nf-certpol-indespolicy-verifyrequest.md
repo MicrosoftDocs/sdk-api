@@ -1,19 +1,17 @@
 ---
 UID: NF:certpol.INDESPolicy.VerifyRequest
 title: INDESPolicy::VerifyRequest (certpol.h)
-
 description: Verifies the NDES certificate request for submission to the CA.
 old-location: security\indespolicy_verifyrequest.htm
 tech.root: SecCrypto
 ms.assetid: 420ef521-07ff-466c-a3c2-cbffd896ca16
-
 ms.date: 12/05/2018
 ms.keywords: INDESPolicy interface [Security],VerifyRequest method, INDESPolicy.VerifyRequest, INDESPolicy::VerifyRequest, VerifyRequest, VerifyRequest method [Security], VerifyRequest method [Security],INDESPolicy interface, certpol/INDESPolicy::VerifyRequest, security.indespolicy_verifyrequest
 ms.topic: method
-f1_keywords: 
- - "certpol/INDESPolicy.VerifyRequest"
+f1_keywords:
+- certpol/INDESPolicy.VerifyRequest
 dev_langs:
- - c++
+- c++
 req.header: certpol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - certpol.h
+- certpol.h
 api_name:
- - INDESPolicy.VerifyRequest
+- INDESPolicy.VerifyRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

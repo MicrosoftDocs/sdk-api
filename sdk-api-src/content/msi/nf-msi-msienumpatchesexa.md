@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiEnumPatchesExA
 title: MsiEnumPatchesExA function (msi.h)
-
 description: Enumerates all patches in a specific context or across all contexts.
 old-location: setup\msienumpatchesex.htm
 tech.root: Msi
 ms.assetid: 32edcc56-190a-465f-b341-56dc60ab0589
-
 ms.date: 12/05/2018
 ms.keywords: MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MSIPATCHSTATE_ALL, MSIPATCHSTATE_APPLIED, MSIPATCHSTATE_OBSOLETED, MSIPATCHSTATE_REGISTERED, MSIPATCHSTATE_SUPERSEDED, MsiEnumPatchesEx, MsiEnumPatchesEx function, MsiEnumPatchesExA, MsiEnumPatchesExW, NULL, User SID, msi/MsiEnumPatchesEx, msi/MsiEnumPatchesExA, msi/MsiEnumPatchesExW, s-1-1-0, setup.msienumpatchesex
 ms.topic: function
-f1_keywords: 
- - "msi/MsiEnumPatchesEx"
+f1_keywords:
+- msi/MsiEnumPatchesEx
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
- - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+- Msi.dll
+- Ext-MS-Win-MSi-Misc-L1-1-0.dll
 api_name:
- - MsiEnumPatchesEx
- - MsiEnumPatchesExA
- - MsiEnumPatchesExW
+- MsiEnumPatchesEx
+- MsiEnumPatchesExA
+- MsiEnumPatchesExW
 targetos: Windows
 req.typenames: 
 req.redist: 

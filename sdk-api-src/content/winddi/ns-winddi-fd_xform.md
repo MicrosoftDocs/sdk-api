@@ -1,19 +1,17 @@
 ---
 UID: NS:winddi._FD_XFORM
 title: FD_XFORM (winddi.h)
-
 description: The FD_XFORM structure describes an arbitrary two-dimensional font transform.
 old-location: display\fd_xform.htm
 tech.root: display
 ms.assetid: 4d15a771-fbf2-46ed-9698-faa3840f5f76
-
 ms.date: 12/05/2018
-ms.keywords: "*PFD_XFORM, FD_XFORM, FD_XFORM structure [Display Devices], PFD_XFORM, PFD_XFORM structure pointer [Display Devices], display.fd_xform, grstrcts_c68b9048-8da3-4c5d-b977-6bd50cbd6703.xml, winddi/FD_XFORM, winddi/PFD_XFORM"
+ms.keywords: '*PFD_XFORM, FD_XFORM, FD_XFORM structure [Display Devices], PFD_XFORM, PFD_XFORM structure pointer [Display Devices], display.fd_xform, grstrcts_c68b9048-8da3-4c5d-b977-6bd50cbd6703.xml, winddi/FD_XFORM, winddi/PFD_XFORM'
 ms.topic: struct
-f1_keywords: 
- - "winddi/FD_XFORM"
+f1_keywords:
+- winddi/FD_XFORM
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - FD_XFORM
+- FD_XFORM
 targetos: Windows
 req.typenames: FD_XFORM, *PFD_XFORM
 req.redist: 

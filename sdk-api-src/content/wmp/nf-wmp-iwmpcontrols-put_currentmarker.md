@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPControls.put_currentMarker
 title: IWMPControls::put_currentMarker (wmp.h)
-
 description: The put_currentMarker method specifies the current marker number.
 old-location: wmp\iwmpcontrols_put_currentmarker.htm
 tech.root: WMP
 ms.assetid: b48e50b3-46d2-4994-bbbf-668f4986109a
-
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],put_currentMarker method, IWMPControls.put_currentMarker, IWMPControls::put_currentMarker, IWMPControlsput_currentMarker, put_currentMarker, put_currentMarker method [Windows Media Player], put_currentMarker method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_put_currentmarker, wmp/IWMPControls::put_currentMarker
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPControls.put_currentMarker"
+f1_keywords:
+- wmp/IWMPControls.put_currentMarker
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPControls.put_currentMarker
+- IWMPControls.put_currentMarker
 targetos: Windows
 req.typenames: 
 req.redist: 

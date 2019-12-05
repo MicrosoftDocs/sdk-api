@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_LIFETIME0_
 title: IPSEC_SA_LIFETIME0 (ipsectypes.h)
-
 description: Stores the lifetime in seconds/kilobytes/packets for an IPsec security association (SA).
 old-location: fwp\ipsec_sa_lifetime0_struct.htm
 tech.root: fwp
 ms.assetid: 9ade5a9a-5c48-4a94-bb35-77f9866e8e6f
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_SA_LIFETIME0, IPSEC_SA_LIFETIME0 structure [Filtering], fwp.ipsec_sa_lifetime0_struct, ipsectypes/IPSEC_SA_LIFETIME0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_SA_LIFETIME0"
+f1_keywords:
+- ipsectypes/IPSEC_SA_LIFETIME0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_SA_LIFETIME0
+- IPSEC_SA_LIFETIME0
 targetos: Windows
 req.typenames: IPSEC_SA_LIFETIME0
 req.redist: 

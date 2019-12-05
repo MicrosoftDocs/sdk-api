@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IScrollProvider.get_HorizontalScrollPercent
 title: IScrollProvider::get_HorizontalScrollPercent (uiautomationcore.h)
-
 description: Specifies the horizontal scroll position.
 old-location: winauto\uiauto_IScrollProvider_HorizontalScrollPercent.htm
 tech.root: WinAuto
 ms.assetid: 02affb6c-cacb-4305-beb3-7ccef8f0662a
-
 ms.date: 12/05/2018
 ms.keywords: HorizontalScrollPercent property [Windows Accessibility], HorizontalScrollPercent property [Windows Accessibility],IScrollProvider interface, IScrollProvider interface [Windows Accessibility],HorizontalScrollPercent property, IScrollProvider.HorizontalScrollPercent, IScrollProvider.get_HorizontalScrollPercent, IScrollProvider::HorizontalScrollPercent, IScrollProvider::get_HorizontalScrollPercent, get_HorizontalScrollPercent, uiauto.uiauto_IScrollProvider_HorizontalScrollPercent, uiauto_IScrollProvider_HorizontalScrollPercent, uiautomationcore/IScrollProvider::HorizontalScrollPercent, uiautomationcore/IScrollProvider::get_HorizontalScrollPercent, winauto.uiauto_IScrollProvider_HorizontalScrollPercent
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IScrollProvider.HorizontalScrollPercent"
+f1_keywords:
+- uiautomationcore/IScrollProvider.HorizontalScrollPercent
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IScrollProvider.HorizontalScrollPercent
- - IScrollProvider.get_HorizontalScrollPercent
+- IScrollProvider.HorizontalScrollPercent
+- IScrollProvider.get_HorizontalScrollPercent
 targetos: Windows
 req.typenames: 
 req.redist: 

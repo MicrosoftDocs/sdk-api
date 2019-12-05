@@ -1,19 +1,17 @@
 ---
 UID: NF:dsgetdc.DsValidateSubnetNameA
 title: DsValidateSubnetNameA function (dsgetdc.h)
-
 description: The DsValidateSubnetName function validates a subnet name in the form xxx.xxx.xxx.xxx/YY.
 old-location: ad\dsvalidatesubnetname.htm
 tech.root: ad
 ms.assetid: bed49e08-4cb7-439c-bfb7-815263ec7568
-
 ms.date: 12/05/2018
 ms.keywords: DsValidateSubnetName, DsValidateSubnetName function [Active Directory], DsValidateSubnetNameA, DsValidateSubnetNameW, _glines_dsvalidatesubnetname, ad.dsvalidatesubnetname, dsgetdc/DsValidateSubnetName, dsgetdc/DsValidateSubnetNameA, dsgetdc/DsValidateSubnetNameW
 ms.topic: function
-f1_keywords: 
- - "dsgetdc/DsValidateSubnetName"
+f1_keywords:
+- dsgetdc/DsValidateSubnetName
 dev_langs:
- - c++
+- c++
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - DsValidateSubnetName
- - DsValidateSubnetNameA
- - DsValidateSubnetNameW
+- DsValidateSubnetName
+- DsValidateSubnetNameA
+- DsValidateSubnetNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

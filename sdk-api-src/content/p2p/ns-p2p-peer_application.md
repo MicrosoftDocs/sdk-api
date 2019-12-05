@@ -1,19 +1,17 @@
 ---
 UID: NS:p2p.peer_application_tag
 title: PEER_APPLICATION (p2p.h)
-
 description: The PEER_APPLICATION structure contains data describing a locally installed software application or component that can be registered and shared with trusted contacts within a peer collaboration network.
 old-location: p2p\peer_application.htm
 tech.root: P2PSdk
 ms.assetid: a219231b-75d0-47d3-8294-f1cc25b43d27
-
 ms.date: 12/05/2018
-ms.keywords: "*PPEER_APPLICATION, PCPEER_APPLICATION, PCPEER_APPLICATION structure pointer [Peer Networking], PEER_APPLICATION, PEER_APPLICATION structure [Peer Networking], PPEER_APPLICATION, PPEER_APPLICATION structure pointer [Peer Networking], p2p.peer_application, p2p/PCPEER_APPLICATION, p2p/PEER_APPLICATION, p2p/PPEER_APPLICATION"
+ms.keywords: '*PPEER_APPLICATION, PCPEER_APPLICATION, PCPEER_APPLICATION structure pointer [Peer Networking], PEER_APPLICATION, PEER_APPLICATION structure [Peer Networking], PPEER_APPLICATION, PPEER_APPLICATION structure pointer [Peer Networking], p2p.peer_application, p2p/PCPEER_APPLICATION, p2p/PEER_APPLICATION, p2p/PPEER_APPLICATION'
 ms.topic: struct
-f1_keywords: 
- - "p2p/PEER_APPLICATION"
+f1_keywords:
+- p2p/PEER_APPLICATION
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - P2P.h
+- P2P.h
 api_name:
- - PEER_APPLICATION
+- PEER_APPLICATION
 targetos: Windows
 req.typenames: PEER_APPLICATION, *PPEER_APPLICATION
 req.redist: 

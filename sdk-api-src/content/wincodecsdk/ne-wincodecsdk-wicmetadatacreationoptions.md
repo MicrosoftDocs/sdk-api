@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodecsdk.WICMetadataCreationOptions
 title: WICMetadataCreationOptions (wincodecsdk.h)
-
 description: Specifies metadata creation options.
 old-location: wic\_wic_codec_wicmetadatacreationoptions.htm
 tech.root: wic
 ms.assetid: 41fece55-1ce4-455a-99b5-5ff0ecd27e07
-
 ms.date: 12/05/2018
 ms.keywords: WICMetadataCreationAllowUnknown, WICMetadataCreationDefault, WICMetadataCreationFailUnknown, WICMetadataCreationMask, WICMetadataCreationOptions, WICMetadataCreationOptions enumeration [Windows Imaging Component], _wic_codec_wicmetadatacreationoptions, wic._wic_codec_wicmetadatacreationoptions, wincodecsdk/WICMetadataCreationAllowUnknown, wincodecsdk/WICMetadataCreationDefault, wincodecsdk/WICMetadataCreationFailUnknown, wincodecsdk/WICMetadataCreationMask, wincodecsdk/WICMetadataCreationOptions
 ms.topic: enum
-f1_keywords: 
- - "wincodecsdk/WICMetadataCreationOptions"
+f1_keywords:
+- wincodecsdk/WICMetadataCreationOptions
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodecsdk.h
+- Wincodecsdk.h
 api_name:
- - WICMetadataCreationOptions
+- WICMetadataCreationOptions
 targetos: Windows
 req.typenames: WICMetadataCreationOptions
 req.redist: 

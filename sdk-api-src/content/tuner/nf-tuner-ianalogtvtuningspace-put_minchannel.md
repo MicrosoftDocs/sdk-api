@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IAnalogTVTuningSpace.put_MinChannel
 title: IAnalogTVTuningSpace::put_MinChannel (tuner.h)
-
 description: The put_MinChannel method sets the lowest channel number for this tuning space.
 old-location: mstv\ianalogtvtuningspace_put_minchannel.htm
 tech.root: mstv
 ms.assetid: e0e348a6-a536-4c1b-82ba-c2502c5d92c0
-
 ms.date: 12/05/2018
 ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],put_MinChannel method, IAnalogTVTuningSpace.put_MinChannel, IAnalogTVTuningSpace::put_MinChannel, IAnalogTVTuningSpaceput_MinChannel, mstv.ianalogtvtuningspace_put_minchannel, put_MinChannel, put_MinChannel method [Microsoft TV Technologies], put_MinChannel method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, tuner/IAnalogTVTuningSpace::put_MinChannel
 ms.topic: method
-f1_keywords: 
- - "tuner/IAnalogTVTuningSpace.put_MinChannel"
+f1_keywords:
+- tuner/IAnalogTVTuningSpace.put_MinChannel
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IAnalogTVTuningSpace.put_MinChannel
+- IAnalogTVTuningSpace.put_MinChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

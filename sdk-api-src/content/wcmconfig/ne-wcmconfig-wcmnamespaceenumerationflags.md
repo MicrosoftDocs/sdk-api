@@ -1,19 +1,17 @@
 ---
 UID: NE:wcmconfig.__MIDL___MIDL_itf_wcmconfig_0000_0000_0002
 title: WcmNamespaceEnumerationFlags (wcmconfig.h)
-
 description: Describes the types of enumeration flags.
 old-location: smi\wcmnamespaceenumerationflags.htm
 tech.root: SMI
 ms.assetid: 606fad95-1f93-4e16-9be5-2ebd52b91180
-
 ms.date: 12/05/2018
 ms.keywords: AllEnumeration, SharedEnumeration, UserEnumeration, WcmNamespaceEnumerationFlags, WcmNamespaceEnumerationFlags enumeration [SMI], smi.wcmnamespaceenumerationflags, wcmconfig/AllEnumeration, wcmconfig/SharedEnumeration, wcmconfig/UserEnumeration, wcmconfig/WcmNamespaceEnumerationFlags
 ms.topic: enum
-f1_keywords: 
- - "wcmconfig/WcmNamespaceEnumerationFlags"
+f1_keywords:
+- wcmconfig/WcmNamespaceEnumerationFlags
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WcmConfig.h
+- WcmConfig.h
 api_name:
- - WcmNamespaceEnumerationFlags
+- WcmNamespaceEnumerationFlags
 targetos: Windows
 req.typenames: WcmNamespaceEnumerationFlags
 req.redist: 

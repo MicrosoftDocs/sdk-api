@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IFolderAction.get_Actions
 title: IFolderAction::get_Actions (pla.h)
-
 description: Retrieves or sets the actions that the data manager is to take if both conditions (age and size) are met.
 old-location: pla\ifolderaction_actions.htm
 tech.root: PLA
 ms.assetid: 7e7672d9-9384-4365-aa4a-bf8dace050c2
-
 ms.date: 12/05/2018
 ms.keywords: Actions property [PLA], Actions property [PLA],IFolderAction interface, IFolderAction interface [PLA],Actions property, IFolderAction.Actions, IFolderAction.get_Actions, IFolderAction::Actions, IFolderAction::get_Actions, IFolderAction::put_Actions, base.ifolderaction_actions, get_Actions, pla.ifolderaction_actions, pla/IFolderAction::Actions, pla/IFolderAction::get_Actions, pla/IFolderAction::put_Actions
 ms.topic: method
-f1_keywords: 
- - "pla/IFolderAction.Actions"
+f1_keywords:
+- pla/IFolderAction.Actions
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IFolderAction.Actions
- - IFolderAction.get_Actions
- - IFolderAction.put_Actions
+- IFolderAction.Actions
+- IFolderAction.get_Actions
+- IFolderAction.put_Actions
 targetos: Windows
 req.typenames: 
 req.redist: 

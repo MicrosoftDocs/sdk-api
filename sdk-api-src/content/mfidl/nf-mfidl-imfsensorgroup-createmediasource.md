@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorGroup.CreateMediaSource
 title: IMFSensorGroup::CreateMediaSource (mfidl.h)
-
 description: Creates an IMFMediaSource that virtualizes the sensor group.
 old-location: mf\imfsensorgroup_createmediasource.htm
 tech.root: medfound
 ms.assetid: 2C69A81E-7159-43AA-92EA-7B1EB4A7A681
-
 ms.date: 12/05/2018
 ms.keywords: CreateMediaSource, CreateMediaSource method [Media Foundation], CreateMediaSource method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],CreateMediaSource method, IMFSensorGroup.CreateMediaSource, IMFSensorGroup::CreateMediaSource, mf.imfsensorgroup_createmediasource, mfidl/IMFSensorGroup::CreateMediaSource
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorGroup.CreateMediaSource"
+f1_keywords:
+- mfidl/IMFSensorGroup.CreateMediaSource
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorGroup.CreateMediaSource
+- IMFSensorGroup.CreateMediaSource
 targetos: Windows
 req.typenames: 
 req.redist: 

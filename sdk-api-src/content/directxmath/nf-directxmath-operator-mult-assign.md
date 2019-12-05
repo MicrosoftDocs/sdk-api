@@ -3,14 +3,13 @@ UID: NF:directxmath.operator-mult-assign
 title: operator*=
 description: Multiplies one XMVECTOR instance by a second instance, returning a reference to the updated initial instance.
 ms.assetid: 8aec8f87-795d-41a1-ba0e-ee3f82162de4
-
 ms.date: 05/13/2019
 ms.keywords: operator*=
 ms.topic: language-reference
-f1_keywords: 
- - "directxmath/operator*="
+f1_keywords:
+- directxmath/operator*=
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - directxmath.h
+- directxmath.h
 api_name:
- - operator*=
+- operator*=
 ---
 
 # operator *=(XMVECTOR&, XMVECTOR)

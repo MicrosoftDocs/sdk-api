@@ -1,19 +1,17 @@
 ---
 UID: NS:ddeml.tagMONCONVSTRUCT
 title: MONCONVSTRUCT (ddeml.h)
-
 description: Contains information about a Dynamic Data Exchange (DDE) conversation. A DDE monitoring application can use this structure to obtain information about a conversation that has been established or has terminated.
 old-location: dataxchg\monconvstruct_str.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementstructures\monconvstruct.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PMONCONVSTRUCT, MONCONVSTRUCT, MONCONVSTRUCT structure [Data Exchange], PMONCONVSTRUCT, PMONCONVSTRUCT structure pointer [Data Exchange], _win32_MONCONVSTRUCT_str, _win32_monconvstruct_str_cpp, dataxchg.monconvstruct_str, ddeml/MONCONVSTRUCT, ddeml/PMONCONVSTRUCT, winui._win32_monconvstruct_str"
+ms.keywords: '*PMONCONVSTRUCT, MONCONVSTRUCT, MONCONVSTRUCT structure [Data Exchange], PMONCONVSTRUCT, PMONCONVSTRUCT structure pointer [Data Exchange], _win32_MONCONVSTRUCT_str, _win32_monconvstruct_str_cpp, dataxchg.monconvstruct_str, ddeml/MONCONVSTRUCT, ddeml/PMONCONVSTRUCT, winui._win32_monconvstruct_str'
 ms.topic: struct
-f1_keywords: 
- - "ddeml/MONCONVSTRUCT"
+f1_keywords:
+- ddeml/MONCONVSTRUCT
 dev_langs:
- - c++
+- c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ddeml.h
+- Ddeml.h
 api_name:
- - MONCONVSTRUCT
+- MONCONVSTRUCT
 targetos: Windows
 req.typenames: MONCONVSTRUCT, *PMONCONVSTRUCT
 req.redist: 

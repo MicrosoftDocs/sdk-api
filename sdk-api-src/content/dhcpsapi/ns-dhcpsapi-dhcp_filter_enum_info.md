@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpsapi._DHCP_FILTER_ENUM_INFO
 title: DHCP_FILTER_ENUM_INFO (dhcpsapi.h)
-
 description: Contains information regarding the number of link-layer filter records.
 old-location: dhcp\dhcp_filter_enum_info.htm
 tech.root: DHCP
 ms.assetid: f393987c-12dd-468c-98c6-84f4d36744b2
-
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_FILTER_ENUM_INFO, DHCP_FILTER_ENUM_INFO, DHCP_FILTER_ENUM_INFO structure [DHCP], PDHCP_FILTER_ENUM_INFO, PDHCP_FILTER_ENUM_INFO structure pointer [DHCP], dhcp.dhcp_filter_enum_info, dhcpsapi/DHCP_FILTER_ENUM_INFO, dhcpsapi/PDHCP_FILTER_ENUM_INFO'
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_FILTER_ENUM_INFO
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.DrawEscape
 title: DrawEscape function (wingdi.h)
-
 description: The DrawEscape function provides drawing capabilities of the specified video display that are not directly available through the graphics device interface (GDI).
 old-location: gdi\drawescape.htm
 tech.root: gdi
 ms.assetid: 306eec06-6d29-43bc-aff0-a267efa52ccd
-
 ms.date: 12/05/2018
 ms.keywords: DrawEscape, DrawEscape function [Windows GDI], _win32_DrawEscape, gdi.drawescape, wingdi/DrawEscape
 ms.topic: function
-f1_keywords: 
- - "wingdi/DrawEscape"
+f1_keywords:
+- wingdi/DrawEscape
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - DrawEscape
+- DrawEscape
 targetos: Windows
 req.typenames: 
 req.redist: 

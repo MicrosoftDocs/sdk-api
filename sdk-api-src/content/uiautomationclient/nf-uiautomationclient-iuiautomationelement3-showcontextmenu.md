@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement3.ShowContextMenu
 title: IUIAutomationElement3::ShowContextMenu (uiautomationclient.h)
-
 description: Programmatically invokes a context menu on the target element.
 old-location: winauto\uiauto_IUIAutomationElement3_ShowContextMenu.htm
 tech.root: WinAuto
 ms.assetid: E41A7BE9-2383-EC27-7003-F0EB3CA62103
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationElement3 interface [Windows Accessibility],ShowContextMenu method, IUIAutomationElement3.ShowContextMenu, IUIAutomationElement3::ShowContextMenu, ShowContextMenu, ShowContextMenu method [Windows Accessibility], ShowContextMenu method [Windows Accessibility],IUIAutomationElement3 interface, uiautomationclient/IUIAutomationElement3::ShowContextMenu, winauto.uiauto_IUIAutomationElement3_ShowContextMenu
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement3.ShowContextMenu"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement3.ShowContextMenu
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationElement3.ShowContextMenu
+- IUIAutomationElement3.ShowContextMenu
 targetos: Windows
 req.typenames: 
 req.redist: 

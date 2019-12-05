@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d12shader.ID3D12FunctionParameterReflection
 title: ID3D12FunctionParameterReflection (d3d12shader.h)
-
 description: A function-parameter-reflection interface accesses function-parameter info.
 old-location: direct3d12\id3d12functionparameterreflection.htm
 tech.root: direct3d12
 ms.assetid: 9AB312BE-E174-46D2-BF24-32309BD88AC4
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12FunctionParameterReflection, ID3D12FunctionParameterReflection interface, ID3D12FunctionParameterReflection interface,described, d3d12shader/ID3D12FunctionParameterReflection, direct3d12.id3d12functionparameterreflection
 ms.topic: interface
-f1_keywords: 
- - "d3d12shader/ID3D12FunctionParameterReflection"
+f1_keywords:
+- d3d12shader/ID3D12FunctionParameterReflection
 dev_langs:
- - c++
+- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - ID3D12FunctionParameterReflection
+- ID3D12FunctionParameterReflection
 targetos: Windows
 req.typenames: 
 req.redist: 

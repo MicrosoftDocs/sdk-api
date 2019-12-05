@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.DoDragDrop
 title: DoDragDrop function (ole2.h)
-
 description: Carries out an OLE drag and drop operation.
 old-location: com\dodragdrop.htm
 tech.root: com
 ms.assetid: 095172ac-9e08-4797-b9da-41a4e5a61315
-
 ms.date: 12/05/2018
 ms.keywords: DoDragDrop, DoDragDrop function [COM], _ole_DoDragDrop, com.dodragdrop, ole2/DoDragDrop
 ms.topic: function
-f1_keywords: 
- - "ole2/DoDragDrop"
+f1_keywords:
+- ole2/DoDragDrop
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - ext-ms-win-com-ole32-l1-1-3.dll
- - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+- Ole32.dll
+- ext-ms-win-com-ole32-l1-1-3.dll
+- Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
- - DoDragDrop
+- DoDragDrop
 targetos: Windows
 req.typenames: 
 req.redist: 

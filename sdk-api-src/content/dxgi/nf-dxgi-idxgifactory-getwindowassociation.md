@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGIFactory.GetWindowAssociation
 title: IDXGIFactory::GetWindowAssociation (dxgi.h)
-
 description: Get the window through which the user controls the transition to and from full screen.
 old-location: direct3ddxgi\idxgifactory_getwindowassociation.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgifactory_getwindowassociation.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetWindowAssociation, GetWindowAssociation method [DXGI], GetWindowAssociation method [DXGI],IDXGIFactory interface, IDXGIFactory interface [DXGI],GetWindowAssociation method, IDXGIFactory.GetWindowAssociation, IDXGIFactory::GetWindowAssociation, b199d248-a0a8-e257-1b89-68baeb809572, direct3ddxgi.idxgifactory_getwindowassociation, dxgi/IDXGIFactory::GetWindowAssociation
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGIFactory.GetWindowAssociation"
+f1_keywords:
+- dxgi/IDXGIFactory.GetWindowAssociation
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIFactory.GetWindowAssociation
+- IDXGIFactory.GetWindowAssociation
 targetos: Windows
 req.typenames: 
 req.redist: 

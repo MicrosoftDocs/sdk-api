@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ICreatingProcess.OnCreating
 title: ICreatingProcess::OnCreating (shobjidl_core.h)
-
 description: Allows you to modify the parameters of the process being created.
 old-location: shell\icreatingprocess_oncreating.htm
 tech.root: shell
 ms.assetid: 5A13ABDB-8453-41BE-AF0C-B5A07486CBE6
-
 ms.date: 12/05/2018
 ms.keywords: ICreatingProcess interface [Windows Shell],OnCreating method, ICreatingProcess.OnCreating, ICreatingProcess::OnCreating, OnCreating, OnCreating method [Windows Shell], OnCreating method [Windows Shell],ICreatingProcess interface, shell.icreatingprocess_oncreating, shobjidl_core/ICreatingProcess::OnCreating
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ICreatingProcess.OnCreating"
+f1_keywords:
+- shobjidl_core/ICreatingProcess.OnCreating
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ICreatingProcess.OnCreating
+- ICreatingProcess.OnCreating
 targetos: Windows
 req.typenames: 
 req.redist: 

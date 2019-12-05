@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestOptionalBundleInfoEnumerator.MoveNext
 title: IAppxBundleManifestOptionalBundleInfoEnumerator::MoveNext (appxpackaging.h)
-
 description: Advances the position of the enumerator to the next set of optional bundle information.
 old-location: appxpkg\iappxbundlemanifestoptionalbundleinfoenumerator_movenext.htm
 tech.root: appxpkg
 ms.assetid: 4A157CF1-8254-47FF-886A-77C15BDCDA76
-
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management],MoveNext method, IAppxBundleManifestOptionalBundleInfoEnumerator.MoveNext, IAppxBundleManifestOptionalBundleInfoEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxBundleManifestOptionalBundleInfoEnumerator interface, appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator::MoveNext, appxpkg.iappxbundlemanifestoptionalbundleinfoenumerator_movenext
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator.MoveNext"
+f1_keywords:
+- appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator.MoveNext
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleManifestOptionalBundleInfoEnumerator.MoveNext
+- IAppxBundleManifestOptionalBundleInfoEnumerator.MoveNext
 targetos: Windows
 req.typenames: 
 req.redist: 

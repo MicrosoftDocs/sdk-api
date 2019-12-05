@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._TXFS_SAVEPOINT_INFORMATION
 title: TXFS_SAVEPOINT_INFORMATION
-
 description: The FSCTL_TXFS_SAVEPOINT_INFORMATION structure specifies the action to perform, and on which transaction.
 old-location: fs\txfs_savepoint_information.htm
 tech.root: FileIO
 ms.assetid: 4ea6d069-832a-4771-8cc0-fd75e82c94b5
-
 ms.date: 12/05/2018
-ms.keywords: "*PTXFS_SAVEPOINT_INFORMATION, PTXFS_SAVEPOINT_INFORMATION, PTXFS_SAVEPOINT_INFORMATION structure pointer [Files], TXFS_SAVEPOINT_CLEAR, TXFS_SAVEPOINT_CLEAR_ALL, TXFS_SAVEPOINT_INFORMATION, TXFS_SAVEPOINT_INFORMATION structure [Files], TXFS_SAVEPOINT_ROLLBACK, TXFS_SAVEPOINT_SET, fs.txfs_savepoint_information, winioctl/PTXFS_SAVEPOINT_INFORMATION, winioctl/TXFS_SAVEPOINT_INFORMATION"
+ms.keywords: '*PTXFS_SAVEPOINT_INFORMATION, PTXFS_SAVEPOINT_INFORMATION, PTXFS_SAVEPOINT_INFORMATION structure pointer [Files], TXFS_SAVEPOINT_CLEAR, TXFS_SAVEPOINT_CLEAR_ALL, TXFS_SAVEPOINT_INFORMATION, TXFS_SAVEPOINT_INFORMATION structure [Files], TXFS_SAVEPOINT_ROLLBACK, TXFS_SAVEPOINT_SET, fs.txfs_savepoint_information, winioctl/PTXFS_SAVEPOINT_INFORMATION, winioctl/TXFS_SAVEPOINT_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/TXFS_SAVEPOINT_INFORMATION"
+f1_keywords:
+- winioctl/TXFS_SAVEPOINT_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - TXFS_SAVEPOINT_INFORMATION
+- TXFS_SAVEPOINT_INFORMATION
 targetos: Windows
 req.typenames: TXFS_SAVEPOINT_INFORMATION, *PTXFS_SAVEPOINT_INFORMATION
 req.redist: 

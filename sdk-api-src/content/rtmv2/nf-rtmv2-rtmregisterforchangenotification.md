@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RtmRegisterForChangeNotification
 title: RtmRegisterForChangeNotification function (rtmv2.h)
-
 description: The RtmRegisterForChangeNotification function informs the routing table manager that the client should receive change notifications for the specified types of changes.
 old-location: rras\rtmregisterforchangenotification.htm
 tech.root: RRAS
 ms.assetid: b6e04984-ac92-44a2-a18c-018c6b1b49a9
-
 ms.date: 12/05/2018
 ms.keywords: RTM_CHANGE_TYPE_ALL, RTM_CHANGE_TYPE_BEST, RTM_CHANGE_TYPE_FORWARDING, RTM_NOTIFY_ONLY_MARKED_DESTS, RtmRegisterForChangeNotification, RtmRegisterForChangeNotification function [RAS], _rtmv2ref_rtmregisterforchangenotification, rras.rtmregisterforchangenotification, rtmv2/RtmRegisterForChangeNotification
 ms.topic: function
-f1_keywords: 
- - "rtmv2/RtmRegisterForChangeNotification"
+f1_keywords:
+- rtmv2/RtmRegisterForChangeNotification
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - RtmRegisterForChangeNotification
+- RtmRegisterForChangeNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

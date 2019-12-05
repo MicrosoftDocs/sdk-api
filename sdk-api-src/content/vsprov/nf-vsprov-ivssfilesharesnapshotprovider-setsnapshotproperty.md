@@ -1,19 +1,17 @@
 ---
 UID: NF:vsprov.IVssFileShareSnapshotProvider.SetSnapshotProperty
 title: IVssFileShareSnapshotProvider::SetSnapshotProperty (vsprov.h)
-
 description: Requests the provider to set a property value for the specified snapshot.
 old-location: base\ivssfilesharesnapshotprovider_setsnapshotproperty.htm
 tech.root: VSS
 ms.assetid: 62a3a189-b14c-434d-98b9-ea4c247e2439
-
 ms.date: 12/05/2018
 ms.keywords: IVssFileShareSnapshotProvider interface [VSS],SetSnapshotProperty method, IVssFileShareSnapshotProvider.SetSnapshotProperty, IVssFileShareSnapshotProvider::SetSnapshotProperty, SetSnapshotProperty, SetSnapshotProperty method [VSS], SetSnapshotProperty method [VSS],IVssFileShareSnapshotProvider interface, base.ivssfilesharesnapshotprovider_setsnapshotproperty, vsprov/IVssFileShareSnapshotProvider::SetSnapshotProperty
 ms.topic: method
 f1_keywords:
 - vsprov/IVssFileShareSnapshotProvider.SetSnapshotProperty
 dev_langs:
- - c++
+- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

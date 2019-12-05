@@ -1,19 +1,17 @@
 ---
 UID: NE:wmp.WMPBurnState
 title: WMPBurnState (wmp.h)
-
 description: The WMPBurnState enumeration type defines the possible operational states of Windows Media Player as it burns a CD.
 old-location: wmp\wmpburnstate.htm
 tech.root: WMP
 ms.assetid: fd286f68-4d36-48ae-800e-ad2be4c613c1
-
 ms.date: 12/05/2018
 ms.keywords: WMPBurnState, WMPBurnState enumeration [Windows Media Player], wmp.wmpburnstate, wmp/WMPBurnState, wmp/wmpbsBurning, wmp/wmpbsBusy, wmp/wmpbsErasing, wmp/wmpbsPreparingToBurn, wmp/wmpbsReady, wmp/wmpbsRefreshStatusPending, wmp/wmpbsStopped, wmp/wmpbsUnknown, wmp/wmpbsWaitingForDisc, wmpbsBurning, wmpbsBusy, wmpbsErasing, wmpbsPreparingToBurn, wmpbsReady, wmpbsRefreshStatusPending, wmpbsStopped, wmpbsUnknown, wmpbsWaitingForDisc
 ms.topic: enum
-f1_keywords: 
- - "wmp/WMPBurnState"
+f1_keywords:
+- wmp/WMPBurnState
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - WMPBurnState
+- WMPBurnState
 targetos: Windows
 req.typenames: WMPBurnState
 req.redist: 

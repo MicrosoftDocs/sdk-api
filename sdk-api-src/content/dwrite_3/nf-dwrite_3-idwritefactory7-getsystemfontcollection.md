@@ -1,17 +1,15 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory7.GetSystemFontCollection
 title: IDWriteFactory7::GetSystemFontCollection
-
 description: Retrieves a collection of fonts, grouped into families.
 tech.root: DirectWrite
-
 ms.date: 09/12/2019
 ms.keywords: IDWriteFactory7 interface [Direct Write],GetSystemFontCollection method, IDWriteFactory7.GetSystemFontCollection, IDWriteFactory7::GetSystemFontCollection, GetSystemFontCollection, GetSystemFontCollection method [Direct Write], GetSystemFontCollection method [Direct Write],IDWriteFactory7 interface, directwrite.idwritefactory7_getsystemfontcollection, dwrite_3/IDWriteFactory7::GetSystemFontCollection
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFactory7.GetSystemFontCollection"
+f1_keywords:
+- dwrite_3/IDWriteFactory7.GetSystemFontCollection
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,15 +29,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFactory7::GetSystemFontCollection
+- IDWriteFactory7::GetSystemFontCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

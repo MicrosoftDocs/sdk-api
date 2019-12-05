@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIStreamReadFormat
 title: AVIStreamReadFormat function (vfw.h)
-
 description: The AVIStreamReadFormat function reads the stream format data.
 old-location: multimedia\avistreamreadformat.htm
 tech.root: Multimedia
 ms.assetid: 312b7d20-89b2-4102-acf6-f603610dadd6
-
 ms.date: 12/05/2018
 ms.keywords: AVIStreamReadFormat, AVIStreamReadFormat function [Windows Multimedia], _win32_AVIStreamReadFormat, multimedia.avistreamreadformat, vfw/AVIStreamReadFormat
 ms.topic: function
-f1_keywords: 
- - "vfw/AVIStreamReadFormat"
+f1_keywords:
+- vfw/AVIStreamReadFormat
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
- - Ext-MS-Win-Media-Avi-L1-1-0.dll
+- Avifil32.dll
+- Ext-MS-Win-Media-Avi-L1-1-0.dll
 api_name:
- - AVIStreamReadFormat
+- AVIStreamReadFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

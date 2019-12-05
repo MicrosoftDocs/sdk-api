@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService.GetBrowserIndex
 title: IBrowserService::GetBrowserIndex (shdeprecated.h)
-
 description: Deprecated. Retrieves the index of the browser in the window hierarchy.
 old-location: shell\IBrowserService_GetBrowserIndex.htm
 tech.root: shell
 ms.assetid: 293d7641-7858-4aa9-983c-6b25a05930d9
-
 ms.date: 12/05/2018
 ms.keywords: GetBrowserIndex, GetBrowserIndex method [Windows Shell], GetBrowserIndex method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetBrowserIndex method, IBrowserService.GetBrowserIndex, IBrowserService::GetBrowserIndex, shdeprecated/IBrowserService::GetBrowserIndex, shell.IBrowserService_GetBrowserIndex, zone_IBrowserService_GetBrowserIndex
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService.GetBrowserIndex"
+f1_keywords:
+- shdeprecated/IBrowserService.GetBrowserIndex
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService.GetBrowserIndex
+- IBrowserService.GetBrowserIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

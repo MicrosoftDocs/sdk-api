@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterGroupSetGetEnumCount
 title: ClusterGroupSetGetEnumCount function (clusapi.h)
-
 description: Gets the number of items contained the enumerator's collection.
 old-location: mscs\clustergroupcollectiongetenumcount.htm
 tech.root: MsCS
 ms.assetid: 7e5f3b47-0f31-46eb-8e71-5bd1dc27190d
-
 ms.date: 12/05/2018
 ms.keywords: ClusterGroupSetGetEnumCount, ClusterGroupSetGetEnumCount function [Failover Cluster], clusapi/ClusterGroupSetGetEnumCount, mscs.clustergroupcollectiongetenumcount
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterGroupSetGetEnumCount"
+f1_keywords:
+- clusapi/ClusterGroupSetGetEnumCount
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ClusterGroupSetGetEnumCount
+- ClusterGroupSetGetEnumCount
 targetos: Windows
 req.typenames: 
 req.redist: 

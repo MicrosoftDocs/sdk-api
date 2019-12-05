@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ListBox_InsertItemData
 title: ListBox_InsertItemData macro (windowsx.h)
-
 description: Inserts item data to a list box at the specified location. You can use this macro or send the LB_INSERTSTRING message explicitly.
 old-location: controls\ListBox_InsertItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_insertitemdata.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListBox_InsertItemData, ListBox_InsertItemData macro [Windows Controls], _win32_ListBox_InsertItemData, _win32_ListBox_InsertItemData_cpp, controls.ListBox_InsertItemData, controls._win32_ListBox_InsertItemData, windowsx/ListBox_InsertItemData
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ListBox_InsertItemData"
+f1_keywords:
+- windowsx/ListBox_InsertItemData
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ListBox_InsertItemData
+- ListBox_InsertItemData
 targetos: Windows
 req.typenames: 
 req.redist: 

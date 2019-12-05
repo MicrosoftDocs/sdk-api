@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionSurfaceFactory.CreateSurface
 title: IDCompositionSurfaceFactory::CreateSurface (dcomp.h)
-
 description: Creates a surface object that can be associated with one or more visuals for composition.
 old-location: directcomp\idcompositionsurfacefactory_createsurface.htm
 tech.root: directcomp
 ms.assetid: C65CD072-C00E-409B-B508-C12CE4ACE73F
-
 ms.date: 12/05/2018
 ms.keywords: CreateSurface, CreateSurface method [DirectComposition], CreateSurface method [DirectComposition],IDCompositionSurfaceFactory interface, IDCompositionSurfaceFactory interface [DirectComposition],CreateSurface method, IDCompositionSurfaceFactory.CreateSurface, IDCompositionSurfaceFactory::CreateSurface, dcomp/IDCompositionSurfaceFactory::CreateSurface, directcomp.idcompositionsurfacefactory_createsurface
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionSurfaceFactory.CreateSurface"
+f1_keywords:
+- dcomp/IDCompositionSurfaceFactory.CreateSurface
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionSurfaceFactory.CreateSurface
+- IDCompositionSurfaceFactory.CreateSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

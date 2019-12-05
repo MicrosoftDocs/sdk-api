@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetStreamSelection
 title: IMFMediaEngineEx::GetStreamSelection (mfmediaengine.h)
-
 description: Queries whether a stream is selected to play.
 old-location: mf\imfmediaengineex_getstreamselection.htm
 tech.root: medfound
 ms.assetid: 93EA1E19-4333-484D-96C8-3244F7C040EF
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, GetStreamSelection, GetStreamSelection method [Media Foundation], GetStreamSelection method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetStreamSelection method, IMFMediaEngineEx.GetStreamSelection, IMFMediaEngineEx::GetStreamSelection, TRUE, mf.imfmediaengineex_getstreamselection, mfmediaengine/IMFMediaEngineEx::GetStreamSelection
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineEx.GetStreamSelection"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineEx.GetStreamSelection
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineEx.GetStreamSelection
+- IMFMediaEngineEx.GetStreamSelection
 targetos: Windows
 req.typenames: 
 req.redist: 

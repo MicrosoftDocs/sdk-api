@@ -1,19 +1,17 @@
 ---
 UID: NL:vswriter.IVssWriterComponents
 title: IVssWriterComponents (vswriter.h)
-
 description: Contains methods used to obtain and modify component information.
 old-location: base\ivsswritercomponents.htm
 tech.root: VSS
 ms.assetid: e8ff2491-014c-43c7-bdce-99ed3b408605
-
 ms.date: 12/05/2018
 ms.keywords: IVssWriterComponents, IVssWriterComponents interface [VSS], IVssWriterComponents interface [VSS],described, _win32_ivsswritercomponents, base.ivsswritercomponents, vswriter/IVssWriterComponents
 ms.topic: class
-f1_keywords: 
- - "vswriter/IVssWriterComponents"
+f1_keywords:
+- vswriter/IVssWriterComponents
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssWriterComponents
+- IVssWriterComponents
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_2.IDWriteFontFallbackBuilder.CreateFontFallback
 title: IDWriteFontFallbackBuilder::CreateFontFallback (dwrite_2.h)
-
 description: Creates the finalized fallback object from the mappings added.
 old-location: directwrite\idwritefontfallbackbuilder_createfontfallback.htm
 tech.root: DirectWrite
 ms.assetid: 933CB690-879E-480E-A0C6-179FA84187F5
-
 ms.date: 12/05/2018
 ms.keywords: CreateFontFallback, CreateFontFallback method [Direct Write], CreateFontFallback method [Direct Write],IDWriteFontFallbackBuilder interface, IDWriteFontFallbackBuilder interface [Direct Write],CreateFontFallback method, IDWriteFontFallbackBuilder.CreateFontFallback, IDWriteFontFallbackBuilder::CreateFontFallback, directwrite.idwritefontfallbackbuilder_createfontfallback, dwrite_2/IDWriteFontFallbackBuilder::CreateFontFallback
 ms.topic: method
-f1_keywords: 
- - "dwrite_2/IDWriteFontFallbackBuilder.CreateFontFallback"
+f1_keywords:
+- dwrite_2/IDWriteFontFallbackBuilder.CreateFontFallback
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFallbackBuilder.CreateFontFallback
+- IDWriteFontFallbackBuilder.CreateFontFallback
 targetos: Windows
 req.typenames: 
 req.redist: 

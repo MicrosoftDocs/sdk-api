@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.DrawText(const WCHAR,UINT32,IDWriteTextFormat,const D2D1_RECT_F,ID2D1Brush,D2D1_DRAW_TEXT_OPTIONS,DWRITE_MEASURING_MODE)
 title: ID2D1RenderTarget::DrawText (d2d1.h)
-
 description: Draws the specified text using the format information provided by an IDWriteTextFormat object.
 old-location: direct2d\ID2D1RenderTarget_DrawText_ptr_WCHAR_ptr_IDWriteTextFormat_ptr_D2D_RECT_F_ptr_ID2D1Brush_D2D1_DRAW_TEXT_OPTIONS_DWRITE_TEXT_MEASURING_METHOD.htm
 tech.root: Direct2D
 ms.assetid: 1e3517cc-9c68-418e-b62e-a9ca06019efa
-
 ms.date: 12/05/2018
 ms.keywords: DrawText, DrawText method [Direct2D], DrawText method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],DrawText method, ID2D1RenderTarget.DrawText, ID2D1RenderTarget::DrawText, ID2D1RenderTarget::DrawText(const WCHAR,UINT32,IDWriteTextFormat,const D2D1_RECT_F,ID2D1Brush,D2D1_DRAW_TEXT_OPTIONS,DWRITE_MEASURING_MODE), d2d1/ID2D1RenderTarget::DrawText, direct2d.ID2D1RenderTarget_DrawText_ptr_WCHAR_ptr_IDWriteTextFormat_ptr_D2D_RECT_F_ptr_ID2D1Brush_D2D1_DRAW_TEXT_OPTIONS_DWRITE_TEXT_MEASURING_METHOD
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1RenderTarget.DrawText"
+f1_keywords:
+- d2d1/ID2D1RenderTarget.DrawText
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1RenderTarget.DrawText
+- ID2D1RenderTarget.DrawText
 targetos: Windows
 req.typenames: 
 req.redist: 

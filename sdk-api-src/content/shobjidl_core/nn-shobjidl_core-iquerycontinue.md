@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IQueryContinue
 title: IQueryContinue (shobjidl_core.h)
-
 description: Exposes a method that provides a simple, standard mechanism for objects to query a client for permission to continue an operation.
 old-location: shell\IQueryContinue.htm
 tech.root: shell
 ms.assetid: 94dee6cc-a142-4180-a562-14f4ded16884
-
 ms.date: 12/05/2018
 ms.keywords: IQueryContinue, IQueryContinue interface [Windows Shell], IQueryContinue interface [Windows Shell],described, inet_IQueryContinue, shell.IQueryContinue, shobjidl_core/IQueryContinue
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IQueryContinue"
+f1_keywords:
+- shobjidl_core/IQueryContinue
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IQueryContinue
+- IQueryContinue
 targetos: Windows
 req.typenames: 
 req.redist: 

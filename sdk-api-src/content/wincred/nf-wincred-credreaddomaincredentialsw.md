@@ -1,19 +1,17 @@
 ---
 UID: NF:wincred.CredReadDomainCredentialsW
 title: CredReadDomainCredentialsW function (wincred.h)
-
 description: Reads the domain credentials from the user's credential set.
 old-location: security\credreaddomaincredentials.htm
 tech.root: SecAuthN
 ms.assetid: b62cb9c9-2a64-4ef4-97f0-e1ea85976d3e
-
 ms.date: 12/05/2018
 ms.keywords: CredReadDomainCredentials, CredReadDomainCredentials function [Security], CredReadDomainCredentialsA, CredReadDomainCredentialsW, _cred_credreaddomaincredentials, security.credreaddomaincredentials, wincred/CredReadDomainCredentials, wincred/CredReadDomainCredentialsA, wincred/CredReadDomainCredentialsW
 ms.topic: function
 f1_keywords:
 - wincred/CredReadDomainCredentials
 dev_langs:
- - c++
+- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

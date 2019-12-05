@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.IOCSPPropertyCollection.CreateProperty
 title: IOCSPPropertyCollection::CreateProperty (certadm.h)
-
 description: Creates a new property and adds it to a property set.
 old-location: security\iocsppropertycollection_createproperty_method.htm
 tech.root: SecCrypto
 ms.assetid: 72e23a11-0550-47ae-9c24-90c1d18024a6
-
 ms.date: 12/05/2018
 ms.keywords: CreateProperty, CreateProperty method [Security], CreateProperty method [Security],IOCSPPropertyCollection interface, IOCSPPropertyCollection interface [Security],CreateProperty method, IOCSPPropertyCollection.CreateProperty, IOCSPPropertyCollection::CreateProperty, certadm/IOCSPPropertyCollection::CreateProperty, security.iocsppropertycollection_createproperty_method
 ms.topic: method
-f1_keywords: 
- - "certadm/IOCSPPropertyCollection.CreateProperty"
+f1_keywords:
+- certadm/IOCSPPropertyCollection.CreateProperty
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPPropertyCollection.CreateProperty
+- IOCSPPropertyCollection.CreateProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

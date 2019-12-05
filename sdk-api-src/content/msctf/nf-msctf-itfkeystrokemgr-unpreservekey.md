@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.UnpreserveKey
 title: ITfKeystrokeMgr::UnpreserveKey (msctf.h)
-
 description: ITfKeystrokeMgr::UnpreserveKey method
 old-location: tsf\itfkeystrokemgr_unpreservekey.htm
 tech.root: TSF
 ms.assetid: 05975fce-04c3-4316-a9b2-ed015e7aa8fe
-
 ms.date: 12/05/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],UnpreserveKey method, ITfKeystrokeMgr.UnpreserveKey, ITfKeystrokeMgr::UnpreserveKey, UnpreserveKey, UnpreserveKey method [Text Services Framework], UnpreserveKey method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_unpreservekey_ref, msctf/ITfKeystrokeMgr::UnpreserveKey, tsf.itfkeystrokemgr_unpreservekey
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfKeystrokeMgr.UnpreserveKey"
+f1_keywords:
+- msctf/ITfKeystrokeMgr.UnpreserveKey
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfKeystrokeMgr.UnpreserveKey
+- ITfKeystrokeMgr.UnpreserveKey
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

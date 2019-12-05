@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMStorage2.SetAttributes2
 title: IWMDMStorage2::SetAttributes2 (mswmdm.h)
-
 description: The SetAttributes2 method sets extended attributes of the storage.
 old-location: wmdm\iwmdmstorage2_setattributes2.htm
 tech.root: WMDM
 ms.assetid: 0a2e143e-8d6a-497e-9c45-fd3349c4ec97
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorage2 interface [windows Media Device Manager],SetAttributes2 method, IWMDMStorage2.SetAttributes2, IWMDMStorage2::SetAttributes2, IWMDMStorage2SetAttributes2, SetAttributes2, SetAttributes2 method [windows Media Device Manager], SetAttributes2 method [windows Media Device Manager],IWMDMStorage2 interface, mswmdm/IWMDMStorage2::SetAttributes2, wmdm.iwmdmstorage2_setattributes2
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMStorage2.SetAttributes2"
+f1_keywords:
+- mswmdm/IWMDMStorage2.SetAttributes2
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMStorage2.SetAttributes2
+- IWMDMStorage2.SetAttributes2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d10.D3D10_CPU_ACCESS_FLAG
 title: D3D10_CPU_ACCESS_FLAG (d3d10.h)
-
 description: Specifies the types of CPU access allowed for a resource.
 old-location: direct3d10\d3d10_cpu_access_flag.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_cpu_access_flag.htm
-
 ms.date: 12/05/2018
 ms.keywords: 9751a6d6-e112-7fe3-72df-bf449b5579c2, D3D10_CPU_ACCESS_FLAG, D3D10_CPU_ACCESS_FLAG enumeration [Direct3D 10], D3D10_CPU_ACCESS_READ, D3D10_CPU_ACCESS_WRITE, d3d10/D3D10_CPU_ACCESS_FLAG, d3d10/D3D10_CPU_ACCESS_READ, d3d10/D3D10_CPU_ACCESS_WRITE, direct3d10.d3d10_cpu_access_flag
 ms.topic: enum
-f1_keywords: 
- - "d3d10/D3D10_CPU_ACCESS_FLAG"
+f1_keywords:
+- d3d10/D3D10_CPU_ACCESS_FLAG
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10.h
+- D3D10.h
 api_name:
- - D3D10_CPU_ACCESS_FLAG
+- D3D10_CPU_ACCESS_FLAG
 targetos: Windows
 req.typenames: D3D10_CPU_ACCESS_FLAG
 req.redist: 

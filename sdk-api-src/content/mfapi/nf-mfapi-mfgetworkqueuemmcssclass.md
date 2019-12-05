@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFGetWorkQueueMMCSSClass
 title: MFGetWorkQueueMMCSSClass function (mfapi.h)
-
 description: Retrieves the Multimedia Class Scheduler Service (MMCSS) class currently associated with this work queue.
 old-location: mf\mfgetworkqueuemmcssclass.htm
 tech.root: medfound
 ms.assetid: 97b48d18-3844-4b97-9bab-c5fc38eb927e
-
 ms.date: 12/05/2018
 ms.keywords: 97b48d18-3844-4b97-9bab-c5fc38eb927e, MFGetWorkQueueMMCSSClass, MFGetWorkQueueMMCSSClass function [Media Foundation], mf.mfgetworkqueuemmcssclass, mfapi/MFGetWorkQueueMMCSSClass
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFGetWorkQueueMMCSSClass"
+f1_keywords:
+- mfapi/MFGetWorkQueueMMCSSClass
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFGetWorkQueueMMCSSClass
+- MFGetWorkQueueMMCSSClass
 targetos: Windows
 req.typenames: 
 req.redist: 

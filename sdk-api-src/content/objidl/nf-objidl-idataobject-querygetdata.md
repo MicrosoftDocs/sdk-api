@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IDataObject.QueryGetData
 title: IDataObject::QueryGetData (objidl.h)
-
 description: Determines whether the data object is capable of rendering the data as specified. Objects attempting a paste or drop operation can call this method before calling IDataObject::GetData to get an indication of whether the operation may be successful.
 old-location: com\idataobject_querygetdata.htm
 tech.root: com
 ms.assetid: 38a1bb4f-7762-4e74-a386-4ae05e59d15f
-
 ms.date: 12/05/2018
 ms.keywords: IDataObject interface [COM],QueryGetData method, IDataObject.QueryGetData, IDataObject::QueryGetData, QueryGetData, QueryGetData method [COM], QueryGetData method [COM],IDataObject interface, _ole_idataobject_querygetdata, com.idataobject_querygetdata, objidl/IDataObject::QueryGetData
 ms.topic: method
-f1_keywords: 
- - "objidl/IDataObject.QueryGetData"
+f1_keywords:
+- objidl/IDataObject.QueryGetData
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IDataObject.QueryGetData
+- IDataObject.QueryGetData
 targetos: Windows
 req.typenames: 
 req.redist: 

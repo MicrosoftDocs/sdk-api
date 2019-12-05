@@ -5,9 +5,9 @@ ms.date: 4/26/2019
 ms.keywords: IsCharLowerW
 ms.topic: language-reference
 f1_keywords:
- - IsCharLowerW
+- IsCharLowerW
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,18 +29,18 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-Core-Stringansi-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-user32-l1-1-0.dll
- - API-MS-Win-DownLevel-user32-l1-1-1.dll
- - mfc120u.dll mfc140u.dll
+- User32.dll
+- API-MS-Win-Core-Stringansi-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-user32-l1-1-0.dll
+- API-MS-Win-DownLevel-user32-l1-1-1.dll
+- mfc120u.dll mfc140u.dll
 api_name:
- - IsCharLowerW
+- IsCharLowerW
 ---
 
 ## -description

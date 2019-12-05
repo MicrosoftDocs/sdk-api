@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1GdiMetafileSink.ProcessRecord
 title: ID2D1GdiMetafileSink::ProcessRecord (d2d1_1.h)
-
 description: This method is called once for each record stored in a metafile.
 old-location: direct2d\id2d1gdimetafilesink_processrecord.htm
 tech.root: Direct2D
 ms.assetid: E2133C62-A689-4FE6-8E9D-39E161EEFCE1
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1GdiMetafileSink interface [Direct2D],ProcessRecord method, ID2D1GdiMetafileSink.ProcessRecord, ID2D1GdiMetafileSink::ProcessRecord, ProcessRecord, ProcessRecord method [Direct2D], ProcessRecord method [Direct2D],ID2D1GdiMetafileSink interface, d2d1_1/ID2D1GdiMetafileSink::ProcessRecord, direct2d.id2d1gdimetafilesink_processrecord
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1GdiMetafileSink.ProcessRecord"
+f1_keywords:
+- d2d1_1/ID2D1GdiMetafileSink.ProcessRecord
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1GdiMetafileSink.ProcessRecord
+- ID2D1GdiMetafileSink.ProcessRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

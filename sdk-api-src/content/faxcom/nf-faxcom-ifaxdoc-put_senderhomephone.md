@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_SenderHomePhone
 title: IFaxDoc::put_SenderHomePhone (faxcom.h)
-
 description: Sets or retrieves the SenderHomePhone property of a FaxDoc object. The SenderHomePhone property is a null-terminated string that contains the home telephone number of the sender of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_senderhomephone_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_93l1.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],SenderHomePhone property, IFaxDoc.SenderHomePhone, IFaxDoc.put_SenderHomePhone, IFaxDoc::SenderHomePhone, IFaxDoc::get_SenderHomePhone, IFaxDoc::put_SenderHomePhone, SenderHomePhone property [Fax Service], SenderHomePhone property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_senderhomephone, fax._mfax_ifaxdoc_get_senderhomephone, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_senderhomephone_cpp, faxcom/IFaxDoc::SenderHomePhone, faxcom/IFaxDoc::get_SenderHomePhone, faxcom/IFaxDoc::put_SenderHomePhone, put_SenderHomePhone
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxDoc.SenderHomePhone"
+f1_keywords:
+- faxcom/IFaxDoc.SenderHomePhone
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxDoc.SenderHomePhone
- - IFaxDoc.get_SenderHomePhone
- - IFaxDoc.put_SenderHomePhone
+- IFaxDoc.SenderHomePhone
+- IFaxDoc.get_SenderHomePhone
+- IFaxDoc.put_SenderHomePhone
 targetos: Windows
 req.typenames: 
 req.redist: 

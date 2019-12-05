@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSUnregisterPropertySchema
 title: PSUnregisterPropertySchema function (propsys.h)
-
 description: Informs the schema subsystem of the removal of a property description schema file.
 old-location: properties\PSUnregisterPropertySchema.htm
 tech.root: properties
 ms.assetid: 57df82a9-8954-4c2b-b794-82ac542149e2
-
 ms.date: 12/05/2018
 ms.keywords: PSUnregisterPropertySchema, PSUnregisterPropertySchema function [Windows Properties], properties.PSUnregisterPropertySchema, propsys/PSUnregisterPropertySchema, shell.PSUnregisterPropertySchema, shell_PSUnregisterPropertySchema
 ms.topic: function
-f1_keywords: 
- - "propsys/PSUnregisterPropertySchema"
+f1_keywords:
+- propsys/PSUnregisterPropertySchema
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSUnregisterPropertySchema
+- PSUnregisterPropertySchema
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.AddClusterResourceNode
 title: AddClusterResourceNode function (clusapi.h)
-
 description: Adds a node to the list of possible nodes that a resource can run on.
 old-location: mscs\addclusterresourcenode.htm
 tech.root: MsCS
 ms.assetid: d87f9541-7cc6-4dbb-8f1f-e8e36462b01b
-
 ms.date: 12/05/2018
 ms.keywords: AddClusterResourceNode, AddClusterResourceNode function [Failover Cluster], PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE, PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE function [Failover Cluster], _wolf_addclusterresourcenode, clusapi/AddClusterResourceNode, clusapi/PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE, mscs.addclusterresourcenode
 ms.topic: function
-f1_keywords: 
- - "clusapi/AddClusterResourceNode"
+f1_keywords:
+- clusapi/AddClusterResourceNode
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - AddClusterResourceNode
+- AddClusterResourceNode
 targetos: Windows
 req.typenames: 
 req.redist: 

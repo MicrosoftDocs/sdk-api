@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.SetErrorRetryCount
 title: IScheduledWorkItem::SetErrorRetryCount (mstask.h)
-
 description: Sets the number of times Task Scheduler will try to run the work item again if an error occurs. This method is not implemented.
 old-location: taskschd\ischeduledworkitem_seterrorretrycount.htm
 tech.root: taskschd
 ms.assetid: f2c5bafb-a792-4653-87ab-677daec9b10f
-
 ms.date: 12/05/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetErrorRetryCount method, IScheduledWorkItem.SetErrorRetryCount, IScheduledWorkItem::SetErrorRetryCount, SetErrorRetryCount, SetErrorRetryCount method [Task Scheduler], SetErrorRetryCount method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_seterrorretrycount, mstask/IScheduledWorkItem::SetErrorRetryCount, taskschd.ischeduledworkitem_seterrorretrycount
 ms.topic: method
-f1_keywords: 
- - "mstask/IScheduledWorkItem.SetErrorRetryCount"
+f1_keywords:
+- mstask/IScheduledWorkItem.SetErrorRetryCount
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IScheduledWorkItem.SetErrorRetryCount
+- IScheduledWorkItem.SetErrorRetryCount
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

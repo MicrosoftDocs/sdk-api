@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IIPDVDec.put_IPDisplay
 title: IIPDVDec::put_IPDisplay (strmif.h)
-
 description: The put_IPDisplay method sets the decoding resolution.
 old-location: dshow\iipdvdec_put_ipdisplay.htm
 tech.root: DirectShow
 ms.assetid: c89970f8-b515-409b-af75-b1af65a8f94e
-
 ms.date: 12/05/2018
 ms.keywords: IIPDVDec interface [DirectShow],put_IPDisplay method, IIPDVDec.put_IPDisplay, IIPDVDec::put_IPDisplay, IIPDVDecput_IPDisplay, dshow.iipdvdec_put_ipdisplay, put_IPDisplay, put_IPDisplay method [DirectShow], put_IPDisplay method [DirectShow],IIPDVDec interface, strmif/IIPDVDec::put_IPDisplay
 ms.topic: method
-f1_keywords: 
- - "strmif/IIPDVDec.put_IPDisplay"
+f1_keywords:
+- strmif/IIPDVDec.put_IPDisplay
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IIPDVDec.put_IPDisplay
+- IIPDVDec.put_IPDisplay
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsprint.IXpsPrintJob.GetJobStatus
 title: IXpsPrintJob::GetJobStatus (xpsprint.h)
-
 description: Gets the current status of the print job.
 old-location: gdi\ixpsprintjob_getjobstatus.htm
 tech.root: printdocs
 ms.assetid: e2a55aec-f8a5-40b4-8c26-1488df49eed0
-
 ms.date: 12/05/2018
 ms.keywords: GetJobStatus, GetJobStatus method [Windows GDI], GetJobStatus method [Windows GDI],IXpsPrintJob interface, IXpsPrintJob interface [Windows GDI],GetJobStatus method, IXpsPrintJob.GetJobStatus, IXpsPrintJob::GetJobStatus, gdi.ixpsprintjob_getjobstatus, xpsprint/IXpsPrintJob::GetJobStatus
 ms.topic: method
-f1_keywords: 
- - "xpsprint/IXpsPrintJob.GetJobStatus"
+f1_keywords:
+- xpsprint/IXpsPrintJob.GetJobStatus
 dev_langs:
- - c++
+- c++
 req.header: xpsprint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XpsPrint.h
+- XpsPrint.h
 api_name:
- - IXpsPrintJob.GetJobStatus
+- IXpsPrintJob.GetJobStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

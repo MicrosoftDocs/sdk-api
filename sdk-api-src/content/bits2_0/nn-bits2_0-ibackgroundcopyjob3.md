@@ -1,19 +1,17 @@
 ---
 UID: NN:bits2_0.IBackgroundCopyJob3
 title: IBackgroundCopyJob3 (bits2_0.h)
-
 description: Use the IBackgroundCopyJob3 interface to download ranges of a file and change the prefix of a remote file name.
 old-location: bits\ibackgroundcopyjob3.htm
 tech.root: Bits
 ms.assetid: 46e115bb-2634-4b79-b307-45720d8cb2be
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob3, IBackgroundCopyJob3 interface [BITS], IBackgroundCopyJob3 interface [BITS],described, bits.ibackgroundcopyjob3, bits2_0/IBackgroundCopyJob3
 ms.topic: interface
-f1_keywords: 
- - "bits2_0/IBackgroundCopyJob3"
+f1_keywords:
+- bits2_0/IBackgroundCopyJob3
 dev_langs:
- - c++
+- c++
 req.header: bits2_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: BitsPrx3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - BitsPrx3.dll
+- BitsPrx3.dll
 api_name:
- - IBackgroundCopyJob3
+- IBackgroundCopyJob3
 targetos: Windows
 req.typenames: 
 req.redist: 

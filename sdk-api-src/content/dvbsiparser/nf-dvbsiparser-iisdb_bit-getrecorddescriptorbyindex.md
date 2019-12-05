@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.GetRecordDescriptorByIndex
 title: IISDB_BIT::GetRecordDescriptorByIndex (dvbsiparser.h)
-
 description: Returns a descriptor for a specified record in an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_getrecorddescriptorbyindex.htm
 tech.root: mstv
 ms.assetid: f3833ab6-39f8-499e-bd3f-f0f524a8b1d4
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IISDB_BIT.GetRecordDescriptorByIndex, IISDB_BIT::GetRecordDescriptorByIndex, dvbsiparser/IISDB_BIT::GetRecordDescriptorByIndex, mstv.iisdb_bit_getrecorddescriptorbyindex
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_BIT.GetRecordDescriptorByIndex"
+f1_keywords:
+- dvbsiparser/IISDB_BIT.GetRecordDescriptorByIndex
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_BIT.GetRecordDescriptorByIndex
+- IISDB_BIT.GetRecordDescriptorByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

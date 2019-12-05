@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.SetWriteSpeed
 title: IDiscFormat2RawCD::SetWriteSpeed (imapi2.h)
-
 description: Sets the write speed of the disc recorder.
 old-location: imapi\idiscformat2rawcd_setwritespeed.htm
 tech.root: imapi
 ms.assetid: 93021007-6ed8-4322-93bb-c52796a4ab66
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],SetWriteSpeed method, IDiscFormat2RawCD.SetWriteSpeed, IDiscFormat2RawCD::SetWriteSpeed, SetWriteSpeed, SetWriteSpeed method [IMAPI], SetWriteSpeed method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_setwritespeed, imapi2/IDiscFormat2RawCD::SetWriteSpeed
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2RawCD.SetWriteSpeed"
+f1_keywords:
+- imapi2/IDiscFormat2RawCD.SetWriteSpeed
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2RawCD.SetWriteSpeed
+- IDiscFormat2RawCD.SetWriteSpeed
 targetos: Windows
 req.typenames: 
 req.redist: 

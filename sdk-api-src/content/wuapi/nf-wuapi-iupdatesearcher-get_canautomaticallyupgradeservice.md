@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.get_CanAutomaticallyUpgradeService
 title: IUpdateSearcher::get_CanAutomaticallyUpgradeService (wuapi.h)
-
 description: Gets and sets a Boolean value that indicates whether future calls to the BeginSearch and Search methods result in an automatic upgrade to Windows Update Agent (WUA).
 old-location: wua\iupdatesearchercanautomaticallyupgradeservice.htm
 tech.root: Wua_Sdk
 ms.assetid: 115a637d-0b70-4d33-a9c1-43d2faf79067
-
 ms.date: 12/05/2018
 ms.keywords: CanAutomaticallyUpgradeService property [Windows Update Agent], CanAutomaticallyUpgradeService property [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],CanAutomaticallyUpgradeService property, IUpdateSearcher.CanAutomaticallyUpgradeService, IUpdateSearcher.get_CanAutomaticallyUpgradeService, IUpdateSearcher::CanAutomaticallyUpgradeService, IUpdateSearcher::get_CanAutomaticallyUpgradeService, IUpdateSearcher::put_CanAutomaticallyUpgradeService, get_CanAutomaticallyUpgradeService, wua.iupdatesearchercanautomaticallyupgradeservice, wuapi/IUpdateSearcher::CanAutomaticallyUpgradeService, wuapi/IUpdateSearcher::get_CanAutomaticallyUpgradeService, wuapi/IUpdateSearcher::put_CanAutomaticallyUpgradeService
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateSearcher.CanAutomaticallyUpgradeService"
+f1_keywords:
+- wuapi/IUpdateSearcher.CanAutomaticallyUpgradeService
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateSearcher.CanAutomaticallyUpgradeService
- - IUpdateSearcher.get_CanAutomaticallyUpgradeService
- - IUpdateSearcher.put_CanAutomaticallyUpgradeService
+- IUpdateSearcher.CanAutomaticallyUpgradeService
+- IUpdateSearcher.get_CanAutomaticallyUpgradeService
+- IUpdateSearcher.put_CanAutomaticallyUpgradeService
 targetos: Windows
 req.typenames: 
 req.redist: 

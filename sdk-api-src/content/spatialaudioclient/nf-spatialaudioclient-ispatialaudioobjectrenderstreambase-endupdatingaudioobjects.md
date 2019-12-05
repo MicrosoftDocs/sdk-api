@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStreamBase.EndUpdatingAudioObjects
 title: ISpatialAudioObjectRenderStreamBase::EndUpdatingAudioObjects (spatialaudioclient.h)
-
 description: Notifies the system that the app has finished supplying audio data for the spatial audio objects activated with ActivateSpatialAudioObject.
 old-location: coreaudio\ispatialaudioobjectrenderstream_endupdatingaudioobjects.htm
 tech.root: CoreAudio
 ms.assetid: 111DB695-66F6-45DD-B3B6-1DFB0D5D29FC
-
 ms.date: 12/05/2018
 ms.keywords: EndUpdatingAudioObjects, EndUpdatingAudioObjects method [Core Audio], EndUpdatingAudioObjects method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, ISpatialAudioObjectRenderStreamBase interface [Core Audio],EndUpdatingAudioObjects method, ISpatialAudioObjectRenderStreamBase.EndUpdatingAudioObjects, ISpatialAudioObjectRenderStreamBase::EndUpdatingAudioObjects, coreaudio.ispatialaudioobjectrenderstream_endupdatingaudioobjects, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::EndUpdatingAudioObjects
 ms.topic: method
-f1_keywords: 
- - "spatialaudioclient/ISpatialAudioObjectRenderStreamBase.EndUpdatingAudioObjects"
+f1_keywords:
+- spatialaudioclient/ISpatialAudioObjectRenderStreamBase.EndUpdatingAudioObjects
 dev_langs:
- - c++
+- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudioclient.h
+- spatialaudioclient.h
 api_name:
- - ISpatialAudioObjectRenderStreamBase.EndUpdatingAudioObjects
+- ISpatialAudioObjectRenderStreamBase.EndUpdatingAudioObjects
 targetos: Windows
 req.typenames: 
 req.redist: 

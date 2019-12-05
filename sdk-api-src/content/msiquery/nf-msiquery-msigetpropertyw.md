@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiGetPropertyW
 title: MsiGetPropertyW function (msiquery.h)
-
 description: The MsiGetProperty function gets the value for an installer property.
 old-location: setup\msigetproperty.htm
 tech.root: Msi
 ms.assetid: f2844673-3440-4b43-a9d0-31b9e8086f6f
-
 ms.date: 12/05/2018
 ms.keywords: MsiGetProperty, MsiGetProperty function, MsiGetPropertyA, MsiGetPropertyW, _msi_msigetproperty, msiquery/MsiGetProperty, msiquery/MsiGetPropertyA, msiquery/MsiGetPropertyW, setup.msigetproperty
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiGetProperty"
+f1_keywords:
+- msiquery/MsiGetProperty
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiGetProperty
- - MsiGetPropertyA
- - MsiGetPropertyW
+- MsiGetProperty
+- MsiGetPropertyA
+- MsiGetPropertyW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Is_Version_Available
 title: CM_Is_Version_Available function (cfgmgr32.h)
-
 description: The CM_Is_Version_Available function indicates whether a specified version of the Plug and Play (PnP) Configuration Manager DLL (Cfgmgr32.dll) is supported by a local machine.
 old-location: devinst\cm_is_version_available.htm
 tech.root: devinst
 ms.assetid: a7a1e8d0-7645-423a-8123-a58ed7ae9827
-
 ms.date: 12/05/2018
 ms.keywords: CM_Is_Version_Available, CM_Is_Version_Available function [Device and Driver Installation], cfgmgr32/CM_Is_Version_Available, cfgmgrfn_dfae29e5-44ab-4bbc-b104-5ccd4914eea0.xml, devinst.cm_is_version_available
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Is_Version_Available"
+f1_keywords:
+- cfgmgr32/CM_Is_Version_Available
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib: Cfgmgr32.lib
 req.dll: Cfgmgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.dll
+- Cfgmgr32.dll
 api_name:
- - CM_Is_Version_Available
+- CM_Is_Version_Available
 targetos: Windows
 req.typenames: 
 req.redist: 

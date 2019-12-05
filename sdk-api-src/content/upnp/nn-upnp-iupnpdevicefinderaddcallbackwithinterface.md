@@ -1,19 +1,17 @@
 ---
 UID: NN:upnp.IUPnPDeviceFinderAddCallbackWithInterface
 title: IUPnPDeviceFinderAddCallbackWithInterface (upnp.h)
-
 description: The IUPnPDeviceFinderAddCallbackWithInterface interface allows the UPnP framework to communicate to an application
 old-location: upnp\iupnpdevicefinderaddcallbackwithinterface.htm
 tech.root: upnp
 ms.assetid: b0d78121-35d0-4f33-b1e9-19e0b2c5b78f
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPDeviceFinderAddCallbackWithInterface, IUPnPDeviceFinderAddCallbackWithInterface interface [UPnP APIs], IUPnPDeviceFinderAddCallbackWithInterface interface [UPnP APIs],described, upnp.iupnpdevicefinderaddcallbackwithinterface, upnp/IUPnPDeviceFinderAddCallbackWithInterface
 ms.topic: interface
-f1_keywords: 
- - "upnp/IUPnPDeviceFinderAddCallbackWithInterface"
+f1_keywords:
+- upnp/IUPnPDeviceFinderAddCallbackWithInterface
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDeviceFinderAddCallbackWithInterface
+- IUPnPDeviceFinderAddCallbackWithInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

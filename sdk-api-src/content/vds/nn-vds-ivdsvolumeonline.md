@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsVolumeOnline
 title: IVdsVolumeOnline (vds.h)
-
 description: Provides a method to repair single volumes.
 old-location: base\ivdsvolumeonline.htm
 tech.root: VDS
 ms.assetid: f2b7d9aa-e42c-4d6b-92e0-9d9bfbde1a42
-
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeOnline, IVdsVolumeOnline interface, IVdsVolumeOnline interface,described, base.ivdsvolumeonline, vds/IVdsVolumeOnline
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsVolumeOnline"
+f1_keywords:
+- vds/IVdsVolumeOnline
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsVolumeOnline
+- IVdsVolumeOnline
 targetos: Windows
 req.typenames: 
 req.redist: 

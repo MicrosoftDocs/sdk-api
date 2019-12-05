@@ -1,19 +1,17 @@
 ---
 UID: NF:featurestagingapi.UnsubscribeFeatureStateChangeNotification
 title: UnsubscribeFeatureStateChangeNotification function (featurestagingapi.h)
-
 description: This function is intended for infrastructure use only.
 old-location: winprog\unsubscribefeaturestatechangenotification.htm
 tech.root: DevNotes
 ms.assetid: 489FFAE2-E2A0-4DE2-B66A-7165E28CD90A
-
 ms.date: 12/05/2018
 ms.keywords: UnsubscribeFeatureStateChangeNotification, UnsubscribeFeatureStateChangeNotification function [Windows API], featurestagingapi/UnsubscribeFeatureStateChangeNotification, winprog.unsubscribefeaturestatechangenotification
 ms.topic: function
-f1_keywords: 
- - "featurestagingapi/UnsubscribeFeatureStateChangeNotification"
+f1_keywords:
+- featurestagingapi/UnsubscribeFeatureStateChangeNotification
 dev_langs:
- - c++
+- c++
 req.header: featurestagingapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shcore.lib
 req.dll: Api-ms-win-core-featurestaging-l1-1-0.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-core-featurestaging-l1-1-0.dll
+- api-ms-win-core-featurestaging-l1-1-0.dll
 api_name:
- - UnsubscribeFeatureStateChangeNotification
+- UnsubscribeFeatureStateChangeNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

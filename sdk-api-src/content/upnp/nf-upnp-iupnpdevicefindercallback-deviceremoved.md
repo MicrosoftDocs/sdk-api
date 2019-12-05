@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDeviceFinderCallback.DeviceRemoved
 title: IUPnPDeviceFinderCallback::DeviceRemoved (upnp.h)
-
 description: The DeviceRemoved method is invoked by the UPnP framework to notify the application that a device has been removed from the network.
 old-location: upnp\iupnpdevicefindercallback_deviceremoved.htm
 tech.root: upnp
 ms.assetid: d6ff7bdd-3fdf-4ee4-84c9-e3527988fea2
-
 ms.date: 12/05/2018
 ms.keywords: DeviceRemoved, DeviceRemoved method [UPnP APIs], DeviceRemoved method [UPnP APIs],IUPnPDeviceFinderCallback interface, IUPnPDeviceFinderCallback interface [UPnP APIs],DeviceRemoved method, IUPnPDeviceFinderCallback.DeviceRemoved, IUPnPDeviceFinderCallback::DeviceRemoved, _upnp_iupnpdevicefindercallback_deviceremoved, upnp.iupnpdevicefindercallback_deviceremoved, upnp/IUPnPDeviceFinderCallback::DeviceRemoved
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDeviceFinderCallback.DeviceRemoved"
+f1_keywords:
+- upnp/IUPnPDeviceFinderCallback.DeviceRemoved
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDeviceFinderCallback.DeviceRemoved
+- IUPnPDeviceFinderCallback.DeviceRemoved
 targetos: Windows
 req.typenames: 
 req.redist: 

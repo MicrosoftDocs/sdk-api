@@ -1,19 +1,17 @@
 ---
 UID: NS:mssip._SIP_CAP_SET_V3
 title: SIP_CAP_SET_V3 (mssip.h)
-
 description: Defines the capabilities of a subject interface package (SIP).
 old-location: security\sip_cap_set.htm
 tech.root: SecCrypto
 ms.assetid: 0B6D173B-0183-4A7C-BB92-2D451F746164
-
 ms.date: 12/05/2018
-ms.keywords: "*PSIP_CAP_SET_V3, PSIP_CAP_SET, PSIP_CAP_SET structure pointer [Security], SIP_CAP_SET, SIP_CAP_SET structure [Security], SIP_CAP_SET_V3, mssip/PSIP_CAP_SET, mssip/SIP_CAP_SET, security.sip_cap_set"
+ms.keywords: '*PSIP_CAP_SET_V3, PSIP_CAP_SET, PSIP_CAP_SET structure pointer [Security], SIP_CAP_SET, SIP_CAP_SET structure [Security], SIP_CAP_SET_V3, mssip/PSIP_CAP_SET, mssip/SIP_CAP_SET, security.sip_cap_set'
 ms.topic: struct
-f1_keywords: 
- - "mssip/SIP_CAP_SET"
+f1_keywords:
+- mssip/SIP_CAP_SET
 dev_langs:
- - c++
+- c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mssip.h
+- Mssip.h
 api_name:
- - SIP_CAP_SET
+- SIP_CAP_SET
 targetos: Windows
 req.typenames: SIP_CAP_SET_V3, *PSIP_CAP_SET_V3
 req.redist: 

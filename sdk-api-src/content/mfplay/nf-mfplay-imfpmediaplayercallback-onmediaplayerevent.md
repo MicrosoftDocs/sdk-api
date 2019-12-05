@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayerCallback.OnMediaPlayerEvent
 title: IMFPMediaPlayerCallback::OnMediaPlayerEvent (mfplay.h)
-
 description: Called by the MFPlay player object to notify the application of a playback event.
 old-location: mf\imfpmediaplayercallback_onmediaplayerevent.htm
 tech.root: medfound
 ms.assetid: 2a80a9d0-83ee-4bb0-ab2c-0f68367f3bf8
-
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayerCallback interface [Media Foundation],OnMediaPlayerEvent method, IMFPMediaPlayerCallback.OnMediaPlayerEvent, IMFPMediaPlayerCallback::OnMediaPlayerEvent, OnMediaPlayerEvent, OnMediaPlayerEvent method [Media Foundation], OnMediaPlayerEvent method [Media Foundation],IMFPMediaPlayerCallback interface, mf.imfpmediaplayercallback_onmediaplayerevent, mfplay/IMFPMediaPlayerCallback::OnMediaPlayerEvent
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaPlayerCallback.OnMediaPlayerEvent"
+f1_keywords:
+- mfplay/IMFPMediaPlayerCallback.OnMediaPlayerEvent
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaPlayerCallback.OnMediaPlayerEvent
+- IMFPMediaPlayerCallback.OnMediaPlayerEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerInputSink.SendKeyboardEvent
 title: IRDPViewerInputSink::SendKeyboardEvent (rdpencomapi.h)
-
 description: Sends a keyboard event message.
 old-location: rdp\irdpviewerinputsink_sendkeyboardevent.htm
 tech.root: rdp
 ms.assetid: 28EDA0AD-9669-4232-BD41-4ADEC90CA3A7
-
 ms.date: 12/05/2018
 ms.keywords: IRDPViewerInputSink interface [RDP],SendKeyboardEvent method, IRDPViewerInputSink.SendKeyboardEvent, IRDPViewerInputSink::SendKeyboardEvent, SendKeyboardEvent, SendKeyboardEvent method [RDP], SendKeyboardEvent method [RDP],IRDPViewerInputSink interface, rdp.irdpviewerinputsink_sendkeyboardevent, rdpencomapi/IRDPViewerInputSink::SendKeyboardEvent
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPViewerInputSink.SendKeyboardEvent"
+f1_keywords:
+- rdpencomapi/IRDPViewerInputSink.SendKeyboardEvent
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPViewerInputSink.SendKeyboardEvent
+- IRDPViewerInputSink.SendKeyboardEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

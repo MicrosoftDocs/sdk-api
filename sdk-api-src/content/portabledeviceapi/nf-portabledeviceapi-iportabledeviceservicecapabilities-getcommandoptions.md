@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetCommandOptions
 title: IPortableDeviceServiceCapabilities::GetCommandOptions (portabledeviceapi.h)
-
 description: Retrieves the options of a WPD command.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getcommandoptions.htm
 tech.root: wpd_sdk
 ms.assetid: 5baa4c94-771a-430f-a963-800e4cd3a6b3
-
 ms.date: 12/05/2018
 ms.keywords: GetCommandOptions, GetCommandOptions method [Windows Portable Devices SDK], GetCommandOptions method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetCommandOptions method, IPortableDeviceServiceCapabilities.GetCommandOptions, IPortableDeviceServiceCapabilities::GetCommandOptions, portabledeviceapi/IPortableDeviceServiceCapabilities::GetCommandOptions, wpdsdk.iportabledeviceservicecapabilities_getcommandoptions
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceServiceCapabilities.GetCommandOptions"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceServiceCapabilities.GetCommandOptions
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceAPI.h
+- PortableDeviceAPI.h
 api_name:
- - IPortableDeviceServiceCapabilities.GetCommandOptions
+- IPortableDeviceServiceCapabilities.GetCommandOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation5.RemoveNotificationEventHandler
 title: IUIAutomation5::RemoveNotificationEventHandler (uiautomationclient.h)
-
 description: Removes a notification event handler.
 old-location: winauto\uiauto_IUIAutomation5_RemoveNotificationEventHandler.htm
 tech.root: WinAuto
 ms.assetid: E0775AB3-814F-4420-9764-333572DAD201
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation5 interface [Windows Accessibility],RemoveNotificationEventHandler method, IUIAutomation5.RemoveNotificationEventHandler, IUIAutomation5::RemoveNotificationEventHandler, RemoveNotificationEventHandler, RemoveNotificationEventHandler method [Windows Accessibility], RemoveNotificationEventHandler method [Windows Accessibility],IUIAutomation5 interface, uiautomationclient/IUIAutomation5::RemoveNotificationEventHandler, winauto.uiauto_IUIAutomation5_RemoveNotificationEventHandler
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation5.RemoveNotificationEventHandler"
+f1_keywords:
+- uiautomationclient/IUIAutomation5.RemoveNotificationEventHandler
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation5.RemoveNotificationEventHandler
+- IUIAutomation5.RemoveNotificationEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

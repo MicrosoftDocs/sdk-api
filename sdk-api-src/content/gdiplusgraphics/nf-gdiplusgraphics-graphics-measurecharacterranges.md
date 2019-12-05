@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.MeasureCharacterRanges
 title: Graphics::MeasureCharacterRanges (gdiplusgraphics.h)
-
 description: The Graphics::MeasureCharacterRanges method gets a set of regions each of which bounds a range of character positions within a string.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_MeasureCharacterRanges_string_length_font_layoutRect_stringFormat_regionCoun.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\measurecharacterranges.htm
-
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],MeasureCharacterRanges method, Graphics.MeasureCharacterRanges, Graphics::MeasureCharacterRanges, MeasureCharacterRanges, MeasureCharacterRanges method [GDI+], MeasureCharacterRanges method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_MeasureCharacterRanges_string_length_font_layoutRect_stringFormat_regionCoun, gdiplus._gdiplus_CLASS_Graphics_MeasureCharacterRanges_string_length_font_layoutRect_stringFormat_regionCoun
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.MeasureCharacterRanges"
+f1_keywords:
+- gdiplusgraphics/Graphics.MeasureCharacterRanges
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.MeasureCharacterRanges
+- Graphics.MeasureCharacterRanges
 targetos: Windows
 req.typenames: 
 req.redist: 

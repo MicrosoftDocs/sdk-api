@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.ITfCandidateList.GetCandidate
 title: ITfCandidateList::GetCandidate (ctffunc.h)
-
 description: ITfCandidateList::GetCandidate method
 old-location: tsf\itfcandidatelist_getcandidate.htm
 tech.root: TSF
 ms.assetid: 4cb2127c-cce5-4815-b40b-e6e15058eab5
-
 ms.date: 12/05/2018
 ms.keywords: GetCandidate, GetCandidate method [Text Services Framework], GetCandidate method [Text Services Framework],ITfCandidateList interface, ITfCandidateList interface [Text Services Framework],GetCandidate method, ITfCandidateList.GetCandidate, ITfCandidateList::GetCandidate, _tsf_itfcandidatelist_getcandidate_ref, ctffunc/ITfCandidateList::GetCandidate, tsf.itfcandidatelist_getcandidate
 ms.topic: method
-f1_keywords: 
- - "ctffunc/ITfCandidateList.GetCandidate"
+f1_keywords:
+- ctffunc/ITfCandidateList.GetCandidate
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tiptsf.dll
+- Tiptsf.dll
 api_name:
- - ITfCandidateList.GetCandidate
+- ITfCandidateList.GetCandidate
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

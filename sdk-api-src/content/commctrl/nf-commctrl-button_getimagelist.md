@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Button_GetImageList
 title: Button_GetImageList macro (commctrl.h)
-
 description: Gets the BUTTON_IMAGELIST structure that describes the image list that is set for a button control. You can use this macro or send the BCM_GETIMAGELIST message explicitly.
 old-location: controls\Button_GetImageList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getimagelist.htm
-
 ms.date: 12/05/2018
 ms.keywords: Button_GetImageList, Button_GetImageList macro [Windows Controls], _win32_Button_GetImageList, _win32_Button_GetImageList_cpp, commctrl/Button_GetImageList, controls.Button_GetImageList, controls._win32_Button_GetImageList
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Button_GetImageList"
+f1_keywords:
+- commctrl/Button_GetImageList
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Button_GetImageList
+- Button_GetImageList
 targetos: Windows
 req.typenames: 
 req.redist: 

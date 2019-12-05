@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLLoadApplicationPolicies
 title: SLLoadApplicationPolicies function (slpublic.h)
-
 description: Loads the application policies set with the SLPersistApplicationPolicies function for use by the SLGetApplicationPolicy function.
 old-location: security\slloadapplicationpolicies.htm
 tech.root: SecSLApi
 ms.assetid: a0852c0c-3d7d-4cca-a30b-b413c653b284
-
 ms.date: 12/05/2018
 ms.keywords: SLLoadApplicationPolicies, SLLoadApplicationPolicies function [Security], security.slloadapplicationpolicies, slpublic/SLLoadApplicationPolicies
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLLoadApplicationPolicies"
+f1_keywords:
+- slpublic/SLLoadApplicationPolicies
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLLoadApplicationPolicies
+- SLLoadApplicationPolicies
 targetos: Windows
 req.typenames: 
 req.redist: 

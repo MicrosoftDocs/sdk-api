@@ -1,19 +1,17 @@
 ---
 UID: NF:wdspxe.PxeGetServerInfoEx
 title: PxeGetServerInfoEx function (wdspxe.h)
-
 description: Returns information about the PXE server.
 old-location: wds\pxegetserverinfoex.htm
 tech.root: wds
 ms.assetid: E0AD1507-3018-42B5-B4DD-E19CC49FD25F
-
 ms.date: 12/05/2018
 ms.keywords: PXE_GSI_SERVER_DUID, PXE_GSI_TRACE_ENABLED, PxeGetServerInfoEx, PxeGetServerInfoEx function [Windows Deployment Services], wds.pxegetserverinfoex, wdspxe/PxeGetServerInfoEx
 ms.topic: function
-f1_keywords: 
- - "wdspxe/PxeGetServerInfoEx"
+f1_keywords:
+- wdspxe/PxeGetServerInfoEx
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsPxe.dll
+- WdsPxe.dll
 api_name:
- - PxeGetServerInfoEx
+- PxeGetServerInfoEx
 targetos: Windows
 req.typenames: 
 req.redist: 

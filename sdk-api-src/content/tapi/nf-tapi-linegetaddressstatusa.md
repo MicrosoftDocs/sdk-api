@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineGetAddressStatusA
 title: lineGetAddressStatusA function (tapi.h)
-
 description: The lineGetAddressStatus function allows an application to query the specified address for its current status.
 old-location: tapi2\linegetaddressstatus.htm
 tech.root: Tapi
 ms.assetid: 8d747aa5-05cc-4426-9d46-24bce6b4af26
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linegetaddressstatus, lineGetAddressStatus, lineGetAddressStatus function [TAPI 2.2], lineGetAddressStatusA, lineGetAddressStatusW, tapi/lineGetAddressStatus, tapi/lineGetAddressStatusA, tapi/lineGetAddressStatusW, tapi2.linegetaddressstatus"
+ms.keywords: _tapi2_linegetaddressstatus, lineGetAddressStatus, lineGetAddressStatus function [TAPI 2.2], lineGetAddressStatusA, lineGetAddressStatusW, tapi/lineGetAddressStatus, tapi/lineGetAddressStatusA, tapi/lineGetAddressStatusW, tapi2.linegetaddressstatus
 ms.topic: function
-f1_keywords: 
- - "tapi/lineGetAddressStatus"
+f1_keywords:
+- tapi/lineGetAddressStatus
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineGetAddressStatus
- - lineGetAddressStatusA
- - lineGetAddressStatusW
+- lineGetAddressStatus
+- lineGetAddressStatusA
+- lineGetAddressStatusW
 targetos: Windows
 req.typenames: 
 req.redist: 

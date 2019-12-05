@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemePropertyOrigin
 title: GetThemePropertyOrigin function (uxtheme.h)
-
 description: Retrieves the location of the theme property definition for a property.
 old-location: controls\GetThemePropertyOrigin.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemepropertyorigin.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetThemePropertyOrigin, GetThemePropertyOrigin function [Windows Controls], controls.GetThemePropertyOrigin, controls.inet_GetThemePropertyOrigin, inet_GetThemePropertyOrigin, inet_GetThemePropertyOrigin_cpp, uxtheme/GetThemePropertyOrigin
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemePropertyOrigin"
+f1_keywords:
+- uxtheme/GetThemePropertyOrigin
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - GetThemePropertyOrigin
+- GetThemePropertyOrigin
 targetos: Windows
 req.typenames: 
 req.redist: 

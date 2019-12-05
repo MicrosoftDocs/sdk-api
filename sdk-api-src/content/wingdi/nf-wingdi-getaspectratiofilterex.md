@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetAspectRatioFilterEx
 title: GetAspectRatioFilterEx function (wingdi.h)
-
 description: The GetAspectRatioFilterEx function retrieves the setting for the current aspect-ratio filter.
 old-location: gdi\getaspectratiofilterex.htm
 tech.root: gdi
 ms.assetid: 3f2dd47d-08bf-4848-897f-5ae506fba342
-
 ms.date: 12/05/2018
 ms.keywords: GetAspectRatioFilterEx, GetAspectRatioFilterEx function [Windows GDI], _win32_GetAspectRatioFilterEx, gdi.getaspectratiofilterex, wingdi/GetAspectRatioFilterEx
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetAspectRatioFilterEx"
+f1_keywords:
+- wingdi/GetAspectRatioFilterEx
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetAspectRatioFilterEx
+- GetAspectRatioFilterEx
 targetos: Windows
 req.typenames: 
 req.redist: 

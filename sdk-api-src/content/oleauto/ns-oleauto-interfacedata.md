@@ -1,19 +1,17 @@
 ---
 UID: NS:oleauto.tagINTERFACEDATA
 title: INTERFACEDATA (oleauto.h)
-
 description: Describes the object's properties and methods.
 old-location: automat\interfacedata.htm
 tech.root: automat
 ms.assetid: 3eafe5ba-45d9-4b0d-b3f8-68f5e99df5bb
-
 ms.date: 12/05/2018
-ms.keywords: "*LPINTERFACEDATA, INTERFACEDATA, INTERFACEDATA structure [Automation], LPINTERFACEDATA, LPINTERFACEDATA structure pointer [Automation], _oa96_INTERFACEDATA, automat.interfacedata, oleauto/INTERFACEDATA, oleauto/LPINTERFACEDATA"
+ms.keywords: '*LPINTERFACEDATA, INTERFACEDATA, INTERFACEDATA structure [Automation], LPINTERFACEDATA, LPINTERFACEDATA structure pointer [Automation], _oa96_INTERFACEDATA, automat.interfacedata, oleauto/INTERFACEDATA, oleauto/LPINTERFACEDATA'
 ms.topic: struct
-f1_keywords: 
- - "oleauto/INTERFACEDATA"
+f1_keywords:
+- oleauto/INTERFACEDATA
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OleAuto.h
+- OleAuto.h
 api_name:
- - INTERFACEDATA
+- INTERFACEDATA
 targetos: Windows
 req.typenames: INTERFACEDATA, *LPINTERFACEDATA
 req.redist: 

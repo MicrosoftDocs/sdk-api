@@ -1,19 +1,17 @@
 ---
 UID: NE:rdpappcontainerclient.__MIDL_IRemoteDesktopClientActions_0001
 title: RemoteActionType (rdpappcontainerclient.h)
-
 description: The action to send to the remote session.
 old-location: termserv\remoteactiontype.htm
 tech.root: TermServ
 ms.assetid: 27E6FB88-54A6-4D0B-B0D0-A46A96299DD1
-
 ms.date: 12/05/2018
 ms.keywords: RemoteActionAppSwitch, RemoteActionAppbar, RemoteActionCharms, RemoteActionSnap, RemoteActionStartScreen, RemoteActionType, RemoteActionType enumeration [Remote Desktop Services], rdpappcontainerclient/RemoteActionAppSwitch, rdpappcontainerclient/RemoteActionAppbar, rdpappcontainerclient/RemoteActionCharms, rdpappcontainerclient/RemoteActionSnap, rdpappcontainerclient/RemoteActionStartScreen, rdpappcontainerclient/RemoteActionType, termserv.remoteactiontype
 ms.topic: enum
-f1_keywords: 
- - "rdpappcontainerclient/RemoteActionType"
+f1_keywords:
+- rdpappcontainerclient/RemoteActionType
 dev_langs:
- - c++
+- c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - MsTscAx.dll
+- MsTscAx.dll
 api_name:
- - RemoteActionType
+- RemoteActionType
 targetos: Windows
 req.typenames: RemoteActionType
 req.redist: 

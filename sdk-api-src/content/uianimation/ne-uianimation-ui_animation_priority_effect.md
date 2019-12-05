@@ -1,19 +1,17 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0008_0001
 title: UI_ANIMATION_PRIORITY_EFFECT (uianimation.h)
-
 description: Defines potential effects on a storyboard if a priority comparison returns false.
 old-location: uianimation\ui_animation_priority_effect.htm
 tech.root: UIAnimation
 ms.assetid: 2da8fa3b-0947-46cb-bdb1-725da08b9aaa
-
 ms.date: 12/05/2018
 ms.keywords: UI_ANIMATION_PRIORITY_EFFECT, UI_ANIMATION_PRIORITY_EFFECT enumeration [Windows Animation], UI_ANIMATION_PRIORITY_EFFECT_DELAY, UI_ANIMATION_PRIORITY_EFFECT_FAILURE, uianimation.ui_animation_priority_effect, uianimation/UI_ANIMATION_PRIORITY_EFFECT, uianimation/UI_ANIMATION_PRIORITY_EFFECT_DELAY, uianimation/UI_ANIMATION_PRIORITY_EFFECT_FAILURE
 ms.topic: enum
-f1_keywords: 
- - "uianimation/UI_ANIMATION_PRIORITY_EFFECT"
+f1_keywords:
+- uianimation/UI_ANIMATION_PRIORITY_EFFECT
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAnimation.h
+- UIAnimation.h
 api_name:
- - UI_ANIMATION_PRIORITY_EFFECT
+- UI_ANIMATION_PRIORITY_EFFECT
 targetos: Windows
 req.typenames: UI_ANIMATION_PRIORITY_EFFECT
 req.redist: 

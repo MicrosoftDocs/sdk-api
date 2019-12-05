@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IEnumFORMATETC
 title: IEnumFORMATETC (objidl.h)
-
 description: Enumerates the FORMATETC structures that define the formats and media supported by a given data object.
 old-location: com\ienumformatetc.htm
 tech.root: com
 ms.assetid: 4d180fdd-2d58-4d26-9242-6552dda0d3e6
-
 ms.date: 12/05/2018
 ms.keywords: IEnumFORMATETC, IEnumFORMATETC interface [COM], IEnumFORMATETC interface [COM],described, _ole_ienumformatetc, com.ienumformatetc, objidl/IEnumFORMATETC
 ms.topic: interface
-f1_keywords: 
- - "objidl/IEnumFORMATETC"
+f1_keywords:
+- objidl/IEnumFORMATETC
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IEnumFORMATETC
+- IEnumFORMATETC
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.SetDllDirectoryA
 title: SetDllDirectoryA function (winbase.h)
-
 description: Adds a directory to the search path used to locate DLLs for the application.
 old-location: base\setdlldirectory.htm
 tech.root: Dlls
 ms.assetid: c0c57554-3d98-487c-8bae-c594620d5a00
-
 ms.date: 12/05/2018
 ms.keywords: SetDllDirectory, SetDllDirectory function, SetDllDirectoryA, SetDllDirectoryW, base.setdlldirectory, winbase/SetDllDirectory, winbase/SetDllDirectoryA, winbase/SetDllDirectoryW
 ms.topic: function
-f1_keywords: 
- - "winbase/SetDllDirectory"
+f1_keywords:
+- winbase/SetDllDirectory
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - SetDllDirectory
- - SetDllDirectoryA
- - SetDllDirectoryW
+- SetDllDirectory
+- SetDllDirectoryA
+- SetDllDirectoryW
 targetos: Windows
 req.typenames: 
 req.redist: 

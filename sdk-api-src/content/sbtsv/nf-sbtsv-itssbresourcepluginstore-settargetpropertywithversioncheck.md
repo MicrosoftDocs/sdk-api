@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetTargetPropertyWithVersionCheck
 title: ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck (sbtsv.h)
-
 description: Sets the value of a property of a target.
 old-location: termserv\itssbresourcepluginstore_settargetpropertywithversioncheck.htm
 tech.root: TermServ
 ms.assetid: 51b5e267-da1a-4d83-81bc-0cf8fb525fa9
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetTargetPropertyWithVersionCheck method, ITsSbResourcePluginStore.SetTargetPropertyWithVersionCheck, ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck, SetTargetPropertyWithVersionCheck, SetTargetPropertyWithVersionCheck method [Remote Desktop Services], SetTargetPropertyWithVersionCheck method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck, termserv.itssbresourcepluginstore_settargetpropertywithversioncheck
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbResourcePluginStore.SetTargetPropertyWithVersionCheck"
+f1_keywords:
+- sbtsv/ITsSbResourcePluginStore.SetTargetPropertyWithVersionCheck
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbResourcePluginStore.SetTargetPropertyWithVersionCheck
+- ITsSbResourcePluginStore.SetTargetPropertyWithVersionCheck
 targetos: Windows
 req.typenames: 
 req.redist: 

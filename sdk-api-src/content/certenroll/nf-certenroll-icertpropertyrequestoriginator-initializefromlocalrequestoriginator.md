@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertPropertyRequestOriginator.InitializeFromLocalRequestOriginator
 title: ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator (certenroll.h)
-
 description: Initializes the object from the DNS name of the local computer.
 old-location: security\icertpropertyrequestoriginator_initializefromlocalrequestoriginator_method.htm
 tech.root: seccertenroll
 ms.assetid: 466e0767-d13a-4f5d-9715-47bb7b9d4142
-
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyRequestOriginator interface [Security],InitializeFromLocalRequestOriginator method, ICertPropertyRequestOriginator.InitializeFromLocalRequestOriginator, ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator, InitializeFromLocalRequestOriginator, InitializeFromLocalRequestOriginator method [Security], InitializeFromLocalRequestOriginator method [Security],ICertPropertyRequestOriginator interface, certenroll/ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator, security.icertpropertyrequestoriginator_initializefromlocalrequestoriginator_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertPropertyRequestOriginator.InitializeFromLocalRequestOriginator"
+f1_keywords:
+- certenroll/ICertPropertyRequestOriginator.InitializeFromLocalRequestOriginator
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertPropertyRequestOriginator.InitializeFromLocalRequestOriginator
+- ICertPropertyRequestOriginator.InitializeFromLocalRequestOriginator
 targetos: Windows
 req.typenames: 
 req.redist: 

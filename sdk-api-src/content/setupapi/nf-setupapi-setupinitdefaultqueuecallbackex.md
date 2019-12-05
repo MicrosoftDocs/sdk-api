@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupInitDefaultQueueCallbackEx
 title: SetupInitDefaultQueueCallbackEx function (setupapi.h)
-
 description: Initializes the context used by the default queue callback routine included with the Setup API in the same manner as SetupInitDefaultQueueCallback, except that an additional window is provided to the callback function to accept progress messages.
 old-location: setup\setupinitdefaultqueuecallbackex.htm
 tech.root: SetupApi
 ms.assetid: 9376f55b-55ee-4064-8aed-264c43db0c7d
-
 ms.date: 12/05/2018
 ms.keywords: SetupInitDefaultQueueCallbackEx, SetupInitDefaultQueueCallbackEx function [Setup API], _setupapi_setupinitdefaultqueuecallbackex, setup.setupinitdefaultqueuecallbackex, setupapi/SetupInitDefaultQueueCallbackEx
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupInitDefaultQueueCallbackEx"
+f1_keywords:
+- setupapi/SetupInitDefaultQueueCallbackEx
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
- - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
+- Setupapi.dll
+- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
 api_name:
- - SetupInitDefaultQueueCallbackEx
+- SetupInitDefaultQueueCallbackEx
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:dxvahd._DXVAHD_RATIONAL
 title: DXVAHD_RATIONAL (dxvahd.h)
-
 description: Contains a rational number (ratio).
 old-location: mf\dxvahd_rational.htm
 tech.root: medfound
 ms.assetid: 8064820e-533e-4b40-8eeb-e3ad6a6b1ff7
-
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_RATIONAL, DXVAHD_RATIONAL structure [Media Foundation], dxvahd/DXVAHD_RATIONAL, mf.dxvahd_rational
 ms.topic: struct
-f1_keywords: 
- - "dxvahd/DXVAHD_RATIONAL"
+f1_keywords:
+- dxvahd/DXVAHD_RATIONAL
 dev_langs:
- - c++
+- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxvahd.h
+- dxvahd.h
 api_name:
- - DXVAHD_RATIONAL
+- DXVAHD_RATIONAL
 targetos: Windows
 req.typenames: DXVAHD_RATIONAL
 req.redist: 

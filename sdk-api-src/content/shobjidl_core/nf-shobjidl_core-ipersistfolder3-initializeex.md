@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IPersistFolder3.InitializeEx
 title: IPersistFolder3::InitializeEx (shobjidl_core.h)
-
 description: Initializes a folder and specifies its location in the namespace. If the folder is a shortcut, this method also specifies the location of the target folder.
 old-location: shell\IPersistFolder3_InitializeEx.htm
 tech.root: shell
 ms.assetid: 50a426b5-a526-4d3d-a20a-67050229f02e
-
 ms.date: 12/05/2018
 ms.keywords: IPersistFolder3 interface [Windows Shell],InitializeEx method, IPersistFolder3.InitializeEx, IPersistFolder3::InitializeEx, InitializeEx, InitializeEx method [Windows Shell], InitializeEx method [Windows Shell],IPersistFolder3 interface, _win32_IPersistFolder3_InitializeEx, shell.IPersistFolder3_InitializeEx, shobjidl_core/IPersistFolder3::InitializeEx
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IPersistFolder3.InitializeEx"
+f1_keywords:
+- shobjidl_core/IPersistFolder3.InitializeEx
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IPersistFolder3.InitializeEx
+- IPersistFolder3.InitializeEx
 targetos: Windows
 req.typenames: 
 req.redist: 

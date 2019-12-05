@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_UserCredentials
 title: MI_UserCredentials (mi.h)
-
 description: A user's credentials. It includes an authentication type and either a username and password or a certificate thumbprint.
 old-location: wmi_v2\mi_usercredentials.htm
 tech.root: wmi_v2
 ms.assetid: 30191cd1-00de-42ef-ac95-5e174d273c80
-
 ms.date: 12/05/2018
 ms.keywords: MI_AUTH_TYPE_BASIC, MI_AUTH_TYPE_CLIENT_CERTS, MI_AUTH_TYPE_CREDSSP, MI_AUTH_TYPE_DEFAULT, MI_AUTH_TYPE_DIGEST, MI_AUTH_TYPE_ISSUER_CERT, MI_AUTH_TYPE_KERBEROS, MI_AUTH_TYPE_NEGO_NO_CREDS, MI_AUTH_TYPE_NEGO_WITH_CREDS, MI_AUTH_TYPE_NONE, MI_AUTH_TYPE_NTLM, MI_UserCredentials, MI_UserCredentials structure [Windows Management Infrastructure (MI)], mi/MI_UserCredentials, wmi._mi_usercredentials, wmi_v2.mi_usercredentials
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_UserCredentials"
+f1_keywords:
+- mi/MI_UserCredentials
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_UserCredentials
+- MI_UserCredentials
 targetos: Windows
 req.typenames: MI_UserCredentials
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

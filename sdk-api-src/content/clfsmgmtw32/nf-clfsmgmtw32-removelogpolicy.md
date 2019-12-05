@@ -1,19 +1,17 @@
 ---
 UID: NF:clfsmgmtw32.RemoveLogPolicy
 title: RemoveLogPolicy function (clfsmgmtw32.h)
-
 description: Resets the specified policy to its default behavior.
 old-location: fs\removelogpolicy.htm
 tech.root: Clfs
 ms.assetid: 06e8c1bf-f190-4f3d-a588-5c8dd2e99f43
-
 ms.date: 12/05/2018
 ms.keywords: RemoveLogPolicy, RemoveLogPolicy function [Files], clfsmgmtw32/RemoveLogPolicy, fs.removelogpolicy
 ms.topic: function
 f1_keywords:
 - clfsmgmtw32/RemoveLogPolicy
 dev_langs:
- - c++
+- c++
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquerycondition.ICondition.Clone
 title: ICondition::Clone (structuredquerycondition.h)
-
 description: Creates a deep copy of this ICondition object.
 old-location: search\_search_ICondition_Clone.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\clone.htm
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [search], Clone method [search],ICondition interface, ICondition interface [search],Clone method, ICondition.Clone, ICondition::Clone, _search_ICondition_Clone, search._search_ICondition_Clone, structuredquerycondition/ICondition::Clone
 ms.topic: method
-f1_keywords: 
- - "structuredquerycondition/ICondition.Clone"
+f1_keywords:
+- structuredquerycondition/ICondition.Clone
 dev_langs:
- - c++
+- c++
 req.header: structuredquerycondition.h
 req.include-header: Structuredquery.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - structuredquerycondition.h
+- structuredquerycondition.h
 api_name:
- - ICondition.Clone
+- ICondition.Clone
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

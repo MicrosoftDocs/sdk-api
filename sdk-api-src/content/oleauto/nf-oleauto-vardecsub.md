@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarDecSub
 title: VarDecSub function (oleauto.h)
-
 description: Subtracts two variants of type decimal.
 old-location: automat\vardecsub.htm
 tech.root: automat
 ms.assetid: d4d25d47-6b8b-4d06-8698-bd9b4d1d8e8c
-
 ms.date: 12/05/2018
 ms.keywords: VarDecSub, VarDecSub function [Automation], _oa96_VarDecSub, automat.vardecsub, oleauto/VarDecSub
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarDecSub"
+f1_keywords:
+- oleauto/VarDecSub
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarDecSub
+- VarDecSub
 targetos: Windows
 req.typenames: 
 req.redist: 

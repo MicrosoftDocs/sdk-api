@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtEntryInqIfIdsA
 title: RpcNsMgmtEntryInqIfIdsA function (rpcnsi.h)
-
 description: The RpcNsMgmtEntryInqIfIds function returns the list of interfaces exported to a name service&#8211;database entry.
 old-location: rpc\rpcnsmgmtentryinqifids.htm
 tech.root: Rpc
 ms.assetid: 92f33e1d-a054-4484-903a-c91d3cd549d1
-
 ms.date: 12/05/2018
 ms.keywords: RpcNsMgmtEntryInqIfIds, RpcNsMgmtEntryInqIfIds function [RPC], RpcNsMgmtEntryInqIfIdsA, RpcNsMgmtEntryInqIfIdsW, _rpc_rpcnsmgmtentryinqifids, rpc.rpcnsmgmtentryinqifids, rpcnsi/RpcNsMgmtEntryInqIfIds, rpcnsi/RpcNsMgmtEntryInqIfIdsA, rpcnsi/RpcNsMgmtEntryInqIfIdsW
 ms.topic: function
-f1_keywords: 
- - "rpcnsi/RpcNsMgmtEntryInqIfIds"
+f1_keywords:
+- rpcnsi/RpcNsMgmtEntryInqIfIds
 dev_langs:
- - c++
+- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcns4.dll
+- Rpcns4.dll
 api_name:
- - RpcNsMgmtEntryInqIfIds
- - RpcNsMgmtEntryInqIfIdsA
- - RpcNsMgmtEntryInqIfIdsW
+- RpcNsMgmtEntryInqIfIds
+- RpcNsMgmtEntryInqIfIdsA
+- RpcNsMgmtEntryInqIfIdsW
 targetos: Windows
 req.typenames: 
 req.redist: 

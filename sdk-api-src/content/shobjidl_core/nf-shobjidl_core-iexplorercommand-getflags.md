@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommand.GetFlags
 title: IExplorerCommand::GetFlags (shobjidl_core.h)
-
 description: Gets the flags associated with a Windows Explorer command.
 old-location: shell\IExplorerCommand_GetFlags.htm
 tech.root: shell
 ms.assetid: cd0a01fa-2525-4296-b77d-bba3fb80472d
-
 ms.date: 12/05/2018
 ms.keywords: ECF_AUTOMENUICONS, ECF_DEFAULT, ECF_HASLUASHIELD, ECF_HASSPLITBUTTON, ECF_HASSUBCOMMANDS, ECF_HIDELABEL, ECF_ISDROPDOWN, ECF_ISSEPARATOR, ECF_SEPARATORAFTER, ECF_SEPARATORBEFORE, ECF_TOGGLEABLE, GetFlags, GetFlags method [Windows Shell], GetFlags method [Windows Shell],IExplorerCommand interface, IExplorerCommand interface [Windows Shell],GetFlags method, IExplorerCommand.GetFlags, IExplorerCommand::GetFlags, _shell_IExplorerCommand_GetFlags, shell.IExplorerCommand_GetFlags, shobjidl_core/IExplorerCommand::GetFlags
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExplorerCommand.GetFlags"
+f1_keywords:
+- shobjidl_core/IExplorerCommand.GetFlags
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerCommand.GetFlags
+- IExplorerCommand.GetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

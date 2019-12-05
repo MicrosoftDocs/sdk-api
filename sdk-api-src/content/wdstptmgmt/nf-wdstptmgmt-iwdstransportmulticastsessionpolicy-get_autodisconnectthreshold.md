@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportMulticastSessionPolicy.get_AutoDisconnectThreshold
 title: IWdsTransportMulticastSessionPolicy::get_AutoDisconnectThreshold (wdstptmgmt.h)
-
 description: Sets or retrieves the threshold transmission rate, in kilobytes per second, used by the server.
 old-location: wds\iwdstransportmulticastsessionpolicy_autodisconnectthreshold.htm
 tech.root: wds
 ms.assetid: 90f27b8a-97e3-4453-8348-67754c6ab1b9
-
 ms.date: 12/05/2018
 ms.keywords: AutoDisconnectThreshold property [Windows Deployment Services], AutoDisconnectThreshold property [Windows Deployment Services],IWdsTransportMulticastSessionPolicy interface, IWdsTransportMulticastSessionPolicy interface [Windows Deployment Services],AutoDisconnectThreshold property, IWdsTransportMulticastSessionPolicy.AutoDisconnectThreshold, IWdsTransportMulticastSessionPolicy.get_AutoDisconnectThreshold, IWdsTransportMulticastSessionPolicy::AutoDisconnectThreshold, IWdsTransportMulticastSessionPolicy::get_AutoDisconnectThreshold, IWdsTransportMulticastSessionPolicy::put_AutoDisconnectThreshold, get_AutoDisconnectThreshold, wds.iwdstransportmulticastsessionpolicy_autodisconnectthreshold, wdstptmgmt/IWdsTransportMulticastSessionPolicy::AutoDisconnectThreshold, wdstptmgmt/IWdsTransportMulticastSessionPolicy::get_AutoDisconnectThreshold, wdstptmgmt/IWdsTransportMulticastSessionPolicy::put_AutoDisconnectThreshold
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportMulticastSessionPolicy.AutoDisconnectThreshold"
+f1_keywords:
+- wdstptmgmt/IWdsTransportMulticastSessionPolicy.AutoDisconnectThreshold
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportMulticastSessionPolicy.AutoDisconnectThreshold
- - IWdsTransportMulticastSessionPolicy.get_AutoDisconnectThreshold
- - IWdsTransportMulticastSessionPolicy.put_AutoDisconnectThreshold
+- IWdsTransportMulticastSessionPolicy.AutoDisconnectThreshold
+- IWdsTransportMulticastSessionPolicy.get_AutoDisconnectThreshold
+- IWdsTransportMulticastSessionPolicy.put_AutoDisconnectThreshold
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.CreateDesktopA
 title: CreateDesktopA function (winuser.h)
-
 description: Creates a new desktop, associates it with the current window station of the calling process, and assigns it to the calling thread.
 old-location: winstation\createdesktop.htm
 tech.root: winstation
 ms.assetid: c6ed40c5-13a9-4697-a727-730adc6a912d
-
 ms.date: 12/05/2018
 ms.keywords: CreateDesktop, CreateDesktop function [Windows Stations and Desktops], CreateDesktopA, CreateDesktopW, DF_ALLOWOTHERACCOUNTHOOK, _win32_createdesktop, base.createdesktop, winstation.createdesktop, winuser/CreateDesktop, winuser/CreateDesktopA, winuser/CreateDesktopW
 ms.topic: function
-f1_keywords: 
- - "winuser/CreateDesktop"
+f1_keywords:
+- winuser/CreateDesktop
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Windowstation-L1-1-0.dll
- - Ext-MS-Win-NTUser-Windowstation-L1-1-1.dll
- - API-MS-Win-RTCore-NTUser-WindowStation-L1-1-0.dll
- - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Windowstation-L1-1-0.dll
+- Ext-MS-Win-NTUser-Windowstation-L1-1-1.dll
+- API-MS-Win-RTCore-NTUser-WindowStation-L1-1-0.dll
+- Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
 api_name:
- - CreateDesktop
- - CreateDesktopA
- - CreateDesktopW
+- CreateDesktop
+- CreateDesktopA
+- CreateDesktopW
 targetos: Windows
 req.typenames: 
 req.redist: 

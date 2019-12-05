@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManSession.Put
 title: IWSManSession::Put (wsmandisp.h)
-
 description: Updates a resource.
 old-location: winrm\iwsmansession_put.htm
 tech.root: winrm
 ms.assetid: 1224dab8-82d1-4416-8c21-e84fdda15deb
-
 ms.date: 12/05/2018
 ms.keywords: IWSManSession interface [Windows Remote Management],Put method, IWSManSession.Put, IWSManSession::Put, Put, Put method [Windows Remote Management], Put method [Windows Remote Management],IWSManSession interface, winrm.iwsmansession_put, wsmandisp/IWSManSession::Put
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManSession.Put"
+f1_keywords:
+- wsmandisp/IWSManSession.Put
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManSession.Put
+- IWSManSession.Put
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPointerInactive.OnInactiveSetCursor
 title: IPointerInactive::OnInactiveSetCursor (ocidl.h)
-
 description: Sets the mouse pointer for an inactive object. This method is called by the container on receipt of a WM_SETCURSOR method when an inactive object is under the mouse pointer.
 old-location: com\ipointerinactive_oninactivesetcursor.htm
 tech.root: com
 ms.assetid: f2c87f5e-5c8e-487c-ad18-ea95f334e01d
-
 ms.date: 12/05/2018
 ms.keywords: IPointerInactive interface [COM],OnInactiveSetCursor method, IPointerInactive.OnInactiveSetCursor, IPointerInactive::OnInactiveSetCursor, OnInactiveSetCursor, OnInactiveSetCursor method [COM], OnInactiveSetCursor method [COM],IPointerInactive interface, _ctrl_ipointerinactive_oninactivesetcursor, com.ipointerinactive_oninactivesetcursor, ocidl/IPointerInactive::OnInactiveSetCursor
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPointerInactive.OnInactiveSetCursor"
+f1_keywords:
+- ocidl/IPointerInactive.OnInactiveSetCursor
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPointerInactive.OnInactiveSetCursor
+- IPointerInactive.OnInactiveSetCursor
 targetos: Windows
 req.typenames: 
 req.redist: 

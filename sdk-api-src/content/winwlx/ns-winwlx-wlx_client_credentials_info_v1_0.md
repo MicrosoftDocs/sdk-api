@@ -1,19 +1,17 @@
 ---
 UID: NS:winwlx._WLX_CLIENT_CREDENTIALS_INFO
 title: WLX_CLIENT_CREDENTIALS_INFO_V1_0 (winwlx.h)
-
 description: Contains the client credentials returned by a call to WlxQueryClientCredentials or WlxQueryInetConnectorCredentials.
 old-location: security\wlx_client_credentials_info_v1_0.htm
 tech.root: SecAuthN
 ms.assetid: 25fdc00d-e484-415f-8f1b-1f8ed911f9ef
-
 ms.date: 12/05/2018
-ms.keywords: "*PWLX_CLIENT_CREDENTIALS_INFO_V1_0, PWLX_CLIENT_CREDENTIALS_INFO_V1_0, PWLX_CLIENT_CREDENTIALS_INFO_V1_0 structure pointer [Security], WLX_CLIENT_CREDENTIALS_INFO_V1_0, WLX_CLIENT_CREDENTIALS_INFO_V1_0 structure [Security], _gina_wlx_client_credentials_info_v1_0, security.wlx_client_credentials_info_v1_0, winwlx/PWLX_CLIENT_CREDENTIALS_INFO_V1_0, winwlx/WLX_CLIENT_CREDENTIALS_INFO_V1_0"
+ms.keywords: '*PWLX_CLIENT_CREDENTIALS_INFO_V1_0, PWLX_CLIENT_CREDENTIALS_INFO_V1_0, PWLX_CLIENT_CREDENTIALS_INFO_V1_0 structure pointer [Security], WLX_CLIENT_CREDENTIALS_INFO_V1_0, WLX_CLIENT_CREDENTIALS_INFO_V1_0 structure [Security], _gina_wlx_client_credentials_info_v1_0, security.wlx_client_credentials_info_v1_0, winwlx/PWLX_CLIENT_CREDENTIALS_INFO_V1_0, winwlx/WLX_CLIENT_CREDENTIALS_INFO_V1_0'
 ms.topic: struct
-f1_keywords: 
- - "winwlx/WLX_CLIENT_CREDENTIALS_INFO_V1_0"
+f1_keywords:
+- winwlx/WLX_CLIENT_CREDENTIALS_INFO_V1_0
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winwlx.h
+- Winwlx.h
 api_name:
- - WLX_CLIENT_CREDENTIALS_INFO_V1_0
+- WLX_CLIENT_CREDENTIALS_INFO_V1_0
 targetos: Windows
 req.typenames: WLX_CLIENT_CREDENTIALS_INFO_V1_0, *PWLX_CLIENT_CREDENTIALS_INFO_V1_0
 req.redist: 

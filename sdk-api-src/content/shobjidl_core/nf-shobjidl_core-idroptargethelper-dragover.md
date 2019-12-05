@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDropTargetHelper.DragOver
 title: IDropTargetHelper::DragOver (shobjidl_core.h)
-
 description: Notifies the drag-image manager that the drop target's IDropTarget::DragOver method has been called.
 old-location: shell\IDropTargetHelper_DragOver.htm
 tech.root: shell
 ms.assetid: 92550642-ca77-4a32-ba97-93419b4e5ac7
-
 ms.date: 12/05/2018
 ms.keywords: DragOver, DragOver method [Windows Shell], DragOver method [Windows Shell],IDropTargetHelper interface, IDropTargetHelper interface [Windows Shell],DragOver method, IDropTargetHelper.DragOver, IDropTargetHelper::DragOver, _win32_IDropTargetHelper_DragOver, shell.IDropTargetHelper_DragOver, shobjidl_core/IDropTargetHelper::DragOver
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDropTargetHelper.DragOver"
+f1_keywords:
+- shobjidl_core/IDropTargetHelper.DragOver
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDropTargetHelper.DragOver
+- IDropTargetHelper.DragOver
 targetos: Windows
 req.typenames: 
 req.redist: 

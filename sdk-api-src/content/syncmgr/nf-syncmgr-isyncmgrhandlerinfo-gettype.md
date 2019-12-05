@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandlerInfo.GetType
 title: ISyncMgrHandlerInfo::GetType (syncmgr.h)
-
 description: Gets the handler type for Sync Center.
 old-location: shell\ISyncMgrHandlerInfo_GetType.htm
 tech.root: shell
 ms.assetid: 466c5bd5-0166-4c0d-801d-a155f20140ce
-
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Windows Shell], GetType method [Windows Shell],ISyncMgrHandlerInfo interface, ISyncMgrHandlerInfo interface [Windows Shell],GetType method, ISyncMgrHandlerInfo.GetType, ISyncMgrHandlerInfo::GetType, _shell_ISyncMgrHandlerInfo_GetType, shell.ISyncMgrHandlerInfo_GetType, syncmgr/ISyncMgrHandlerInfo::GetType
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrHandlerInfo.GetType"
+f1_keywords:
+- syncmgr/ISyncMgrHandlerInfo.GetType
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrHandlerInfo.GetType
+- ISyncMgrHandlerInfo.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

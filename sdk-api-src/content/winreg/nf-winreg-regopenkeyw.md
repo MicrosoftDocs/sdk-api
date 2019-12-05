@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegOpenKeyW
 title: RegOpenKeyW function (winreg.h)
-
 description: Opens the specified registry key.
 old-location: base\regopenkey.htm
 tech.root: SysInfo
 ms.assetid: bad0a0f8-1889-4eff-98be-084c95d69f3b
-
 ms.date: 12/05/2018
 ms.keywords: RegOpenKey, RegOpenKey function, RegOpenKeyA, RegOpenKeyW, _win32_regopenkey, base.regopenkey, winreg/RegOpenKey, winreg/RegOpenKeyA, winreg/RegOpenKeyW
 ms.topic: function
-f1_keywords: 
- - "winreg/RegOpenKey"
+f1_keywords:
+- winreg/RegOpenKey
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Registry-l2-1-0.dll
- - advapi32legacy.dll
- - API-MS-Win-Core-Registry-l2-2-0.dll
+- Advapi32.dll
+- API-MS-Win-Core-Registry-l2-1-0.dll
+- advapi32legacy.dll
+- API-MS-Win-Core-Registry-l2-2-0.dll
 api_name:
- - RegOpenKey
- - RegOpenKeyA
- - RegOpenKeyW
+- RegOpenKey
+- RegOpenKeyA
+- RegOpenKeyW
 targetos: Windows
 req.typenames: 
 req.redist: 

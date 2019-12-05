@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineGatherDigits
 title: TSPI_lineGatherDigits function (tspi.h)
-
 description: The TSPI_lineGatherDigits function initiates the buffered gathering of digits on the specified call. TAPI specifies a buffer in which to place the digits and the maximum number of digits to be collected.
 old-location: tspi\tspi_linegatherdigits.htm
 tech.root: Tapi
 ms.assetid: a7035e4d-dbb3-48b2-b44a-a7acb85e2d8a
-
 ms.date: 12/05/2018
 ms.keywords: LINEDIGITMODE_DTMF, LINEDIGITMODE_PULSE, TSPI_lineGatherDigits, TSPI_lineGatherDigits function [TAPI 2.2], _tspi_tspi_linegatherdigits, tspi.tspi_linegatherdigits, tspi/TSPI_lineGatherDigits
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineGatherDigits"
+f1_keywords:
+- tspi/TSPI_lineGatherDigits
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineGatherDigits
+- TSPI_lineGatherDigits
 targetos: Windows
 req.typenames: 
 req.redist: 

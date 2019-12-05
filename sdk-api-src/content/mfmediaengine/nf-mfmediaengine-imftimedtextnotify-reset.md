@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextNotify.Reset
 title: IMFTimedTextNotify::Reset (mfmediaengine.h)
-
 description: Resets the timed-text-notify object.
 old-location: mf\imftimedtextnotify_reset.htm
 tech.root: medfound
 ms.assetid: 2743B39A-7C57-418C-897F-5B4952840135
-
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextNotify interface [Media Foundation],Reset method, IMFTimedTextNotify.Reset, IMFTimedTextNotify::Reset, Reset, Reset method [Media Foundation], Reset method [Media Foundation],IMFTimedTextNotify interface, mf.imftimedtextnotify_reset, mfmediaengine/IMFTimedTextNotify::Reset
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextNotify.Reset"
+f1_keywords:
+- mfmediaengine/IMFTimedTextNotify.Reset
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextNotify.Reset
+- IMFTimedTextNotify.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

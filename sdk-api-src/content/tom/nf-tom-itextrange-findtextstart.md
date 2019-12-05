@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.FindTextStart
 title: ITextRange::FindTextStart (tom.h)
-
 description: Searches up to Count characters for the string, bstr, starting at the range's Start cp (cpFirst).
 old-location: controls\ITextRange_FindTextStart.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\findtextstart.htm
-
 ms.date: 12/05/2018
 ms.keywords: FindTextStart, FindTextStart method [Windows Controls], FindTextStart method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],FindTextStart method, ITextRange.FindTextStart, ITextRange::FindTextStart, _win32_ITextRange_FindTextStart, _win32_ITextRange_FindTextStart_cpp, controls.ITextRange_FindTextStart, controls._win32_ITextRange_FindTextStart, tom/ITextRange::FindTextStart
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.FindTextStart"
+f1_keywords:
+- tom/ITextRange.FindTextStart
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.FindTextStart
+- ITextRange.FindTextStart
 targetos: Windows
 req.typenames: 
 req.redist: 

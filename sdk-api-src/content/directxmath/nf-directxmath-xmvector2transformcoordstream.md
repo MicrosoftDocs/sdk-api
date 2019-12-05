@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector2TransformCoordStream
 title: XMVector2TransformCoordStream function (directxmath.h)
-
 description: Transforms a stream of 2D vectors by a given matrix, projecting the resulting vectors such that their w coordinates are equal to 1.0.
 old-location: dxmath\xmvector2transformcoordstream.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector2TransformCoordStream(XMFLOAT2@,size_t,const XMFLOAT2,size_t,size_t,XMMATRIX)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2TransformCoordStream, XMVector2TransformCoordStream, XMVector2TransformCoordStream method [DirectX Math Support APIs], dxmath.xmvector2transformcoordstream
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector2TransformCoordStream"
+f1_keywords:
+- directxmath/XMVector2TransformCoordStream
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector2TransformCoordStream
+- XMVector2TransformCoordStream
 targetos: Windows
 req.typenames: 
 req.redist: 

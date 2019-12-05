@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.put_OldCertificate
 title: IX509SCEPEnrollment::put_OldCertificate (certenroll.h)
-
 description: Gets or sets an old certificate that a request is intended to replace.
 old-location: security\ix509scepenrollment_oldcertificate.htm
 tech.root: seccertenroll
 ms.assetid: caa88227-b068-4b3d-9334-c0283153b1ce
-
 ms.date: 12/05/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],OldCertificate property, IX509SCEPEnrollment.OldCertificate, IX509SCEPEnrollment.put_OldCertificate, IX509SCEPEnrollment::OldCertificate, IX509SCEPEnrollment::get_OldCertificate, IX509SCEPEnrollment::put_OldCertificate, OldCertificate property [Security], OldCertificate property [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::OldCertificate, certenroll/IX509SCEPEnrollment::get_OldCertificate, certenroll/IX509SCEPEnrollment::put_OldCertificate, put_OldCertificate, security.ix509scepenrollment_oldcertificate
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509SCEPEnrollment.OldCertificate"
+f1_keywords:
+- certenroll/IX509SCEPEnrollment.OldCertificate
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Certenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.dll
+- Certenroll.dll
 api_name:
- - IX509SCEPEnrollment.OldCertificate
- - IX509SCEPEnrollment.get_OldCertificate
- - IX509SCEPEnrollment.put_OldCertificate
+- IX509SCEPEnrollment.OldCertificate
+- IX509SCEPEnrollment.get_OldCertificate
+- IX509SCEPEnrollment.put_OldCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

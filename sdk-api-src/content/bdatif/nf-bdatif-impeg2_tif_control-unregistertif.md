@@ -1,19 +1,17 @@
 ---
 UID: NF:bdatif.IMPEG2_TIF_CONTROL.UnregisterTIF
 title: IMPEG2_TIF_CONTROL::UnregisterTIF (bdatif.h)
-
 description: The UnregisterTIF method unregisters the TIF with the Network Provider.
 old-location: mstv\impeg2_tif_control_unregistertif.htm
 tech.root: mstv
 ms.assetid: e4fd151e-ec24-41b9-85df-fba05fc174d1
-
 ms.date: 12/05/2018
 ms.keywords: IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],UnregisterTIF method, IMPEG2_TIF_CONTROL.UnregisterTIF, IMPEG2_TIF_CONTROL::UnregisterTIF, IMPEG2_TIF_CONTROLUnregisterTIF, UnregisterTIF, UnregisterTIF method [Microsoft TV Technologies], UnregisterTIF method [Microsoft TV Technologies],IMPEG2_TIF_CONTROL interface, bdatif/IMPEG2_TIF_CONTROL::UnregisterTIF, mstv.impeg2_tif_control_unregistertif
 ms.topic: method
-f1_keywords: 
- - "bdatif/IMPEG2_TIF_CONTROL.UnregisterTIF"
+f1_keywords:
+- bdatif/IMPEG2_TIF_CONTROL.UnregisterTIF
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdatif.h
+- bdatif.h
 api_name:
- - IMPEG2_TIF_CONTROL.UnregisterTIF
+- IMPEG2_TIF_CONTROL.UnregisterTIF
 targetos: Windows
 req.typenames: 
 req.redist: 

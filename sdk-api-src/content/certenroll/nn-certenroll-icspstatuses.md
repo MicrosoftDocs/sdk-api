@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.ICspStatuses
 title: ICspStatuses (certenroll.h)
-
 description: Contains information about a cryptographic provider/algorithm pair.
 old-location: security\icspstatuses.htm
 tech.root: seccertenroll
 ms.assetid: 73d0f3a7-7afd-42c9-88db-911531c50137
-
 ms.date: 12/05/2018
 ms.keywords: ICspStatuses, ICspStatuses interface [Security], ICspStatuses interface [Security],described, certenroll/ICspStatuses, security.icspstatuses
 ms.topic: interface
-f1_keywords: 
- - "certenroll/ICspStatuses"
+f1_keywords:
+- certenroll/ICspStatuses
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspStatuses
+- ICspStatuses
 targetos: Windows
 req.typenames: 
 req.redist: 

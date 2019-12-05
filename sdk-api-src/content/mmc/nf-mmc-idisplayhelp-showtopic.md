@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IDisplayHelp.ShowTopic
 title: IDisplayHelp::ShowTopic (mmc.h)
-
 description: The IDisplayHelp::ShowTopic method displays the specified HTML Help topic in the merged MMC HTML Help file.
 old-location: mmc\idisplayhelp_showtopic.htm
 tech.root: mmc
 ms.assetid: 184adc09-8b48-4a2e-bbd9-ec6bd9085c32
-
 ms.date: 12/05/2018
 ms.keywords: IDisplayHelp interface [MMC],ShowTopic method, IDisplayHelp.ShowTopic, IDisplayHelp::ShowTopic, ShowTopic, ShowTopic method [MMC], ShowTopic method [MMC],IDisplayHelp interface, _slate_idisplayhelp_showtopic, mmc.idisplayhelp_showtopic, mmc/IDisplayHelp::ShowTopic
 ms.topic: method
-f1_keywords: 
- - "mmc/IDisplayHelp.ShowTopic"
+f1_keywords:
+- mmc/IDisplayHelp.ShowTopic
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IDisplayHelp.ShowTopic
+- IDisplayHelp.ShowTopic
 targetos: Windows
 req.typenames: 
 req.redist: 

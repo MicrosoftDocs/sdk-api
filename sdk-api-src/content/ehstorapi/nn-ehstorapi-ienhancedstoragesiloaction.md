@@ -1,19 +1,17 @@
 ---
 UID: NN:ehstorapi.IEnhancedStorageSiloAction
 title: IEnhancedStorageSiloAction (ehstorapi.h)
-
 description: Use this interface as a point of access for actions involving IEEE 1667 silos.
 old-location: enstor\ienhancedstoragesiloaction.htm
 tech.root: enstor
 ms.assetid: 6deb7e22-f153-45fd-98ea-53a2e5692df7
-
 ms.date: 12/05/2018
 ms.keywords: IEnhancedStorageSiloAction, IEnhancedStorageSiloAction interface [Enhanced Storage], IEnhancedStorageSiloAction interface [Enhanced Storage],described, ehstorapi/IEnhancedStorageSiloAction, enstor.ienhancedstoragesiloaction
 ms.topic: interface
-f1_keywords: 
- - "ehstorapi/IEnhancedStorageSiloAction"
+f1_keywords:
+- ehstorapi/IEnhancedStorageSiloAction
 dev_langs:
- - c++
+- c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EhStorAPI.h
+- EhStorAPI.h
 api_name:
- - IEnhancedStorageSiloAction
+- IEnhancedStorageSiloAction
 targetos: Windows
 req.typenames: 
 req.redist: 

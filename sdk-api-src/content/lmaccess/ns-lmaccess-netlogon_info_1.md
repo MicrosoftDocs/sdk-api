@@ -1,19 +1,17 @@
 ---
 UID: NS:lmaccess._NETLOGON_INFO_1
 title: NETLOGON_INFO_1 (lmaccess.h)
-
 description: Defines a level-1 control query response from a domain controller.
 old-location: winprog\netlogon_info_1.htm
 tech.root: DevNotes
 ms.assetid: 053e937a-c7a9-4b8f-9312-32c82b705c08
-
 ms.date: 12/05/2018
-ms.keywords: "*PNETLOGON_INFO_1, NETLOGON_DNS_UPDATE_FAILURE, NETLOGON_FULL_SYNC_REPLICATION, NETLOGON_HAS_IP, NETLOGON_HAS_TIMESERV, NETLOGON_INFO_1, NETLOGON_INFO_1 structure [Windows API], NETLOGON_REDO_NEEDED, NETLOGON_REPLICATION_IN_PROGRESS, NETLOGON_REPLICATION_NEEDED, PNETLOGON_INFO_1, PNETLOGON_INFO_1 structure pointer [Windows API], lmaccess/NETLOGON_INFO_1, lmaccess/PNETLOGON_INFO_1, winprog.netlogon_info_1"
+ms.keywords: '*PNETLOGON_INFO_1, NETLOGON_DNS_UPDATE_FAILURE, NETLOGON_FULL_SYNC_REPLICATION, NETLOGON_HAS_IP, NETLOGON_HAS_TIMESERV, NETLOGON_INFO_1, NETLOGON_INFO_1 structure [Windows API], NETLOGON_REDO_NEEDED, NETLOGON_REPLICATION_IN_PROGRESS, NETLOGON_REPLICATION_NEEDED, PNETLOGON_INFO_1, PNETLOGON_INFO_1 structure pointer [Windows API], lmaccess/NETLOGON_INFO_1, lmaccess/PNETLOGON_INFO_1, winprog.netlogon_info_1'
 ms.topic: struct
-f1_keywords: 
- - "lmaccess/NETLOGON_INFO_1"
+f1_keywords:
+- lmaccess/NETLOGON_INFO_1
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmaccess.h
+- Lmaccess.h
 api_name:
- - NETLOGON_INFO_1
+- NETLOGON_INFO_1
 targetos: Windows
 req.typenames: NETLOGON_INFO_1, *PNETLOGON_INFO_1
 req.redist: 

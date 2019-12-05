@@ -1,19 +1,17 @@
 ---
 UID: NS:evntrace._TRACE_ENABLE_INFO
 title: TRACE_ENABLE_INFO (evntrace.h)
-
 description: Defines the session and the information that the session used to enable the provider.
 old-location: etw\trace_enable_info.htm
 tech.root: ETW
 ms.assetid: 999dd102-5937-4b1e-b841-623dddaa0df9
-
 ms.date: 12/05/2018
-ms.keywords: "*PTRACE_ENABLE_INFO, PTRACE_ENABLE_INFO, PTRACE_ENABLE_INFO structure pointer [ETW], TRACE_ENABLE_INFO, TRACE_ENABLE_INFO structure [ETW], _TRACE_ENABLE_INFO, etw.trace_enable_info, evntrace/PTRACE_ENABLE_INFO, evntrace/TRACE_ENABLE_INFO"
+ms.keywords: '*PTRACE_ENABLE_INFO, PTRACE_ENABLE_INFO, PTRACE_ENABLE_INFO structure pointer [ETW], TRACE_ENABLE_INFO, TRACE_ENABLE_INFO structure [ETW], _TRACE_ENABLE_INFO, etw.trace_enable_info, evntrace/PTRACE_ENABLE_INFO, evntrace/TRACE_ENABLE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "evntrace/TRACE_ENABLE_INFO"
+f1_keywords:
+- evntrace/TRACE_ENABLE_INFO
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Evntrace.h
+- Evntrace.h
 api_name:
- - TRACE_ENABLE_INFO
+- TRACE_ENABLE_INFO
 targetos: Windows
 req.typenames: TRACE_ENABLE_INFO, *PTRACE_ENABLE_INFO
 req.redist: 

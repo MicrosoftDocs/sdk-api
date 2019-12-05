@@ -1,19 +1,17 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingActivity.SetRelatedActivityId(const GUID &)
 title: TraceLoggingActivity::SetRelatedActivityId (traceloggingactivity.h)
-
 description: Uses the unique identifier of an activity to set the related activity for this TraceLoggingActivity object.
 old-location: tracelogging\traceloggingactivity_setrelatedactivityid.htm
 tech.root: tracelogging
 ms.assetid: 3FA5E266-A921-42A8-B880-AC8748180E1B
-
 ms.date: 12/05/2018
 ms.keywords: SetRelatedActivityId, SetRelatedActivityId method, SetRelatedActivityId method,TraceLoggingActivity interface, TraceLoggingActivity interface,SetRelatedActivityId method, TraceLoggingActivity.SetRelatedActivityId, TraceLoggingActivity::SetRelatedActivityId, tracelogging.traceloggingactivity_setrelatedactivityid, traceloggingactivity/TraceLoggingActivity::SetRelatedActivityId
 ms.topic: method
-f1_keywords: 
- - "traceloggingactivity/TraceLoggingActivity.SetRelatedActivityId"
+f1_keywords:
+- traceloggingactivity/TraceLoggingActivity.SetRelatedActivityId
 dev_langs:
- - c++
+- c++
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - traceloggingactivity.h
+- traceloggingactivity.h
 api_name:
- - TraceLoggingActivity.SetRelatedActivityId
+- TraceLoggingActivity.SetRelatedActivityId
 targetos: Windows
 req.typenames: 
 req.redist: 

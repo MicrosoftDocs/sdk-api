@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.IRegistrationTrigger
 title: IRegistrationTrigger (taskschd.h)
-
 description: Represents a trigger that starts a task when the task is registered or updated.
 old-location: taskschd\iregistrationtrigger.htm
 tech.root: taskschd
 ms.assetid: 0862f7ac-69d6-4271-8d39-c5bd7038a95e
-
 ms.date: 12/05/2018
 ms.keywords: IRegistrationTrigger, IRegistrationTrigger interface [Task Scheduler], IRegistrationTrigger interface [Task Scheduler],described, registration trigger [Task Scheduler],interface, taskschd.iregistrationtrigger, taskschd/IRegistrationTrigger
 ms.topic: interface
-f1_keywords: 
- - "taskschd/IRegistrationTrigger"
+f1_keywords:
+- taskschd/IRegistrationTrigger
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRegistrationTrigger
+- IRegistrationTrigger
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:restartmanager.RM_WRITE_STATUS_CALLBACK
 title: RM_WRITE_STATUS_CALLBACK (restartmanager.h)
-
 description: The RM_WRITE_STATUS_CALLBACK function can be implemented by the user interface that controls the Restart Manager.
 old-location: rstmgr\rm_write_status_callback.htm
 tech.root: rstmgr
 ms.assetid: 607a6b96-8509-4599-907c-edb8410d7921
-
 ms.date: 12/05/2018
 ms.keywords: RM_WRITE_STATUS_CALLBACK, RM_WRITE_STATUS_CALLBACK callback, RM_WRITE_STATUS_CALLBACK callback function [Restart Mgr], restartmanager/RM_WRITE_STATUS_CALLBACK, rstmgr.rm_write_status_callback
 ms.topic: callback
-f1_keywords: 
- - "restartmanager/RM_WRITE_STATUS_CALLBACK"
+f1_keywords:
+- restartmanager/RM_WRITE_STATUS_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - RestartManager.h
+- RestartManager.h
 api_name:
- - RM_WRITE_STATUS_CALLBACK
+- RM_WRITE_STATUS_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

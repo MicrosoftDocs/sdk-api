@@ -1,19 +1,17 @@
 ---
 UID: NS:winbase._COMSTAT
 title: COMSTAT (winbase.h)
-
 description: Contains information about a communications device.
 old-location: base\comstat_str.htm
 tech.root: devio
 ms.assetid: dd54d040-1244-425f-a43e-9071d679c4ec
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCOMSTAT, COMSTAT, COMSTAT structure, LPCOMSTAT, LPCOMSTAT structure pointer, _COMSTAT, _win32_comstat_str, base.comstat_str, winbase/COMSTAT, winbase/LPCOMSTAT"
+ms.keywords: '*LPCOMSTAT, COMSTAT, COMSTAT structure, LPCOMSTAT, LPCOMSTAT structure pointer, _COMSTAT, _win32_comstat_str, base.comstat_str, winbase/COMSTAT, winbase/LPCOMSTAT'
 ms.topic: struct
-f1_keywords: 
- - "winbase/COMSTAT"
+f1_keywords:
+- winbase/COMSTAT
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winbase.h
+- Winbase.h
 api_name:
- - COMSTAT
+- COMSTAT
 targetos: Windows
 req.typenames: COMSTAT, *LPCOMSTAT
 req.redist: 

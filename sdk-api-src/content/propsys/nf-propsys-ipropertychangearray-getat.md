@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyChangeArray.GetAt
 title: IPropertyChangeArray::GetAt (propsys.h)
-
 description: Gets the change operation at a specified array index.
 old-location: properties\IPropertyChangeArray_GetAt.htm
 tech.root: properties
 ms.assetid: bc20e4a3-1405-494a-98ea-cca4c87e4984
-
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [Windows Properties], GetAt method [Windows Properties],IPropertyChangeArray interface, IPropertyChangeArray interface [Windows Properties],GetAt method, IPropertyChangeArray.GetAt, IPropertyChangeArray::GetAt, _shell_IPropertyChangeArray_GetAt, properties.IPropertyChangeArray_GetAt, propsys/IPropertyChangeArray::GetAt, shell.IPropertyChangeArray_GetAt
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyChangeArray.GetAt"
+f1_keywords:
+- propsys/IPropertyChangeArray.GetAt
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyChangeArray.GetAt
+- IPropertyChangeArray.GetAt
 targetos: Windows
 req.typenames: 
 req.redist: 

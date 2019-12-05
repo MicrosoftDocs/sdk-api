@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.CreateWriterEx
 title: CreateWriterEx function (vswriter.h)
-
 description: This function is reserved for system use.
 old-location: base\createwriterex.htm
 tech.root: VSS
 ms.assetid: 044dde5c-599f-495b-8d5c-7a37833bcb41
-
 ms.date: 12/05/2018
 ms.keywords: CreateWriterEx, CreateWriterEx function, base.createwriterex, vswriter/CreateWriterEx
 ms.topic: function
-f1_keywords: 
- - "vswriter/CreateWriterEx"
+f1_keywords:
+- vswriter/CreateWriterEx
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - vswriter.h
- - Ext-MS-Win-Fs-VssAPI-L1-1-0.dll
- - VssAPI.dll
+- vswriter.h
+- Ext-MS-Win-Fs-VssAPI-L1-1-0.dll
+- VssAPI.dll
 api_name:
- - CreateWriterEx
+- CreateWriterEx
 targetos: Windows
 req.typenames: 
 req.redist: 

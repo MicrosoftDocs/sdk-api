@@ -1,19 +1,17 @@
 ---
 UID: NS:schannel._SecPkgContext_EapKeyBlock
 title: SecPkgContext_EapKeyBlock (schannel.h)
-
 description: Contains key data used by the EAP TLS Authentication Protocol.
 old-location: security\secpkgcontext_eapkeyblock.htm
 tech.root: SecAuthN
 ms.assetid: c1b1f1d1-20f9-4a16-a279-b9cc95ff4e64
-
 ms.date: 12/05/2018
-ms.keywords: "*PSecPkgContext_EapKeyBlock, PSecPkgContext_EapKeyBlock, PSecPkgContext_EapKeyBlock structure pointer [Security], SecPkgContext_EapKeyBlock, SecPkgContext_EapKeyBlock structure [Security], schannel/PSecPkgContext_EapKeyBlock, schannel/SecPkgContext_EapKeyBlock, security.secpkgcontext_eapkeyblock"
+ms.keywords: '*PSecPkgContext_EapKeyBlock, PSecPkgContext_EapKeyBlock, PSecPkgContext_EapKeyBlock structure pointer [Security], SecPkgContext_EapKeyBlock, SecPkgContext_EapKeyBlock structure [Security], schannel/PSecPkgContext_EapKeyBlock, schannel/SecPkgContext_EapKeyBlock, security.secpkgcontext_eapkeyblock'
 ms.topic: struct
-f1_keywords: 
- - "schannel/SecPkgContext_EapKeyBlock"
+f1_keywords:
+- schannel/SecPkgContext_EapKeyBlock
 dev_langs:
- - c++
+- c++
 req.header: schannel.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Schannel.h
+- Schannel.h
 api_name:
- - SecPkgContext_EapKeyBlock
+- SecPkgContext_EapKeyBlock
 targetos: Windows
 req.typenames: SecPkgContext_EapKeyBlock, *PSecPkgContext_EapKeyBlock
 req.redist: 

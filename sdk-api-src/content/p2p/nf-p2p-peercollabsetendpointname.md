@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerCollabSetEndpointName
 title: PeerCollabSetEndpointName function (p2p.h)
-
 description: Sets the name of the current endpoint used by the peer application.
 old-location: p2p\peercollabsetendpointname.htm
 tech.root: P2PSdk
 ms.assetid: 9b8d0559-c70e-4b05-bd73-1eb3b2e8f9c8
-
 ms.date: 12/05/2018
 ms.keywords: PeerCollabSetEndpointName, PeerCollabSetEndpointName function [Peer Networking], p2p.peercollabsetendpointname, p2p/PeerCollabSetEndpointName
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerCollabSetEndpointName"
+f1_keywords:
+- p2p/PeerCollabSetEndpointName
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerCollabSetEndpointName
+- PeerCollabSetEndpointName
 targetos: Windows
 req.typenames: 
 req.redist: 

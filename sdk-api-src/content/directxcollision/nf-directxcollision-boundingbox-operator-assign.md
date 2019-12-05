@@ -1,19 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingBox.operator-assign
 title: BoundingBox::operator-assign
-
 description: Copies values from another BoundingBox.
 old-location: dxmath\boundingbox_op_assignment.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.op_Assignment(BoundingBox)
-
 ms.date: 12/05/2018
 ms.keywords: BoundingBox interface [DirectX Math Support APIs],op_Assignment method, BoundingBox.op_Assignment, BoundingBox.operator-assign, BoundingBox.operator=, BoundingBox::operator-assign, BoundingBox::operator=, Use DirectX..BoundingBox.op_Assignment, Use DirectX::::BoundingBox::op_Assignment, dxmath.boundingbox_op_assignment, op_Assignment method [DirectX Math Support APIs], op_Assignment method [DirectX Math Support APIs],BoundingBox interface, operator=
 ms.topic: method
-f1_keywords: 
- - "directxcollision/BoundingBox.op_Assignment"
+f1_keywords:
+- directxcollision/BoundingBox.op_Assignment
 dev_langs:
- - c++
+- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXCollision.h
+- DirectXCollision.h
 api_name:
- - BoundingBox.op_Assignment
+- BoundingBox.op_Assignment
 targetos: Windows
 req.typenames: 
 req.redist: 

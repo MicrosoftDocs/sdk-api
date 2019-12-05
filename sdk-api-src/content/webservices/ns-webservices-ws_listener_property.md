@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_LISTENER_PROPERTY
 title: WS_LISTENER_PROPERTY (webservices.h)
-
 description: Specifies a listener specific setting.
 old-location: wsw\ws_listener_property.htm
 tech.root: wsw
 ms.assetid: 52e4a5d3-e584-40d1-b71f-b4ef61104883
-
 ms.date: 12/05/2018
 ms.keywords: WS_LISTENER_PROPERTY, WS_LISTENER_PROPERTY structure [Web Services for Windows], webservices/WS_LISTENER_PROPERTY, wsw.ws_listener_property
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_LISTENER_PROPERTY"
+f1_keywords:
+- webservices/WS_LISTENER_PROPERTY
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_LISTENER_PROPERTY
+- WS_LISTENER_PROPERTY
 targetos: Windows
 req.typenames: WS_LISTENER_PROPERTY
 req.redist: 

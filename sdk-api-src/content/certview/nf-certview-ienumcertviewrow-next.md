@@ -1,19 +1,17 @@
 ---
 UID: NF:certview.IEnumCERTVIEWROW.Next
 title: IEnumCERTVIEWROW::Next (certview.h)
-
 description: Moves to the next row in the row-enumeration sequence.
 old-location: security\ienumcertviewrow_next.htm
 tech.root: SecCrypto
 ms.assetid: 6e471ee9-4b69-468c-a724-e43bd93419d9
-
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWROW interface [Security],Next method, IEnumCERTVIEWROW.Next, IEnumCERTVIEWROW::Next, Next, Next method [Security], Next method [Security],IEnumCERTVIEWROW interface, _certsrv_ienumcertviewrow_next, certview/IEnumCERTVIEWROW::Next, security.ienumcertviewrow_next
 ms.topic: method
-f1_keywords: 
- - "certview/IEnumCERTVIEWROW.Next"
+f1_keywords:
+- certview/IEnumCERTVIEWROW.Next
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IEnumCERTVIEWROW.Next
- - IEnumCERTVIEWROW.Next
+- IEnumCERTVIEWROW.Next
+- IEnumCERTVIEWROW.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

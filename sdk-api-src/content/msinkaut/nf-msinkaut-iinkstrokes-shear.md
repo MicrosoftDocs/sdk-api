@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkStrokes.Shear
 title: IInkStrokes::Shear (msinkaut.h)
-
 description: Shears the ink in the stroke or strokes by the specified horizontal and vertical factors.
 old-location: tablet\inkstrokes_shear.htm
 tech.root: tablet
 ms.assetid: 2ae8cf5a-b113-46e8-b8c2-6605f017f826
-
 ms.date: 12/05/2018
 ms.keywords: 887dd883-1a24-4a78-8f08-f4cd45bf4840, IInkStrokes interface [Tablet PC],Shear method, IInkStrokes.Shear, IInkStrokes::Shear, Shear, Shear method [Tablet PC], Shear method [Tablet PC],IInkStrokes interface, msinkaut/IInkStrokes::Shear, tablet.inkstrokes_shear
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkStrokes.Shear"
+f1_keywords:
+- msinkaut/IInkStrokes.Shear
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokes.Shear
+- IInkStrokes.Shear
 targetos: Windows
 req.typenames: 
 req.redist: 

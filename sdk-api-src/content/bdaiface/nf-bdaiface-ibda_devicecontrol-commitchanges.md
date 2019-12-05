@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_DeviceControl.CommitChanges
 title: IBDA_DeviceControl::CommitChanges (bdaiface.h)
-
 description: The CommitChanges method instructs the device to perform the changes specified in the previous call to StartChanges.
 old-location: mstv\ibda_devicecontrol_commitchanges.htm
 tech.root: mstv
 ms.assetid: 1f55346b-1d32-4eb9-84ef-4671cdd2bc61
-
 ms.date: 12/05/2018
 ms.keywords: CommitChanges, CommitChanges method [Microsoft TV Technologies], CommitChanges method [Microsoft TV Technologies],IBDA_DeviceControl interface, IBDA_DeviceControl interface [Microsoft TV Technologies],CommitChanges method, IBDA_DeviceControl.CommitChanges, IBDA_DeviceControl::CommitChanges, IBDA_DeviceControlCommitChanges, bdaiface/IBDA_DeviceControl::CommitChanges, mstv.ibda_devicecontrol_commitchanges
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_DeviceControl.CommitChanges"
+f1_keywords:
+- bdaiface/IBDA_DeviceControl.CommitChanges
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_DeviceControl.CommitChanges
+- IBDA_DeviceControl.CommitChanges
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:vfw.__unnamed_struct_8
 title: ICDRAW (vfw.h)
-
 description: The ICDRAW structure contains parameters for drawing video data to the screen. This structure is used with the ICM_DRAW message.
 old-location: multimedia\icdraw_struct.htm
 tech.root: Multimedia
 ms.assetid: 9b3e2788-176c-41be-8ae3-244ed93ff4f8
-
 ms.date: 12/05/2018
 ms.keywords: ICDRAW, ICDRAW structure [Windows Multimedia], ICDRAW_HURRYUP, ICDRAW_NOTKEYFRAME, ICDRAW_NULLFRAME, ICDRAW_PREROLL, ICDRAW_UPDATE, multimedia.icdraw_COLLISION9, multimedia.icdraw_struct, vfw/ICDRAW
 ms.topic: struct
-f1_keywords: 
- - "vfw/ICDRAW"
+f1_keywords:
+- vfw/ICDRAW
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - ICDRAW
+- ICDRAW
 targetos: Windows
 req.typenames: ICDRAW
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.GetViewportRect
 title: IDirectManipulationViewport::GetViewportRect (directmanipulation.h)
-
 description: Retrieves the rectangle for the viewport relative to the origin of the viewport coordinate system specified by SetViewportRect.
 old-location: directmanipulation\idirectmanipulationviewport_getviewportrect.htm
 tech.root: directmanipulation
 ms.assetid: 0d20e7f7-aa2a-4c76-a3ff-da10d4dec3ea
-
 ms.date: 12/05/2018
 ms.keywords: GetViewportRect, GetViewportRect method [Direct Manipulation], GetViewportRect method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],GetViewportRect method, IDirectManipulationViewport.GetViewportRect, IDirectManipulationViewport::GetViewportRect, directmanipulation.idirectmanipulationviewport_getviewportrect, directmanipulation/IDirectManipulationViewport::GetViewportRect
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport.GetViewportRect"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport.GetViewportRect
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.GetViewportRect
+- IDirectManipulationViewport.GetViewportRect
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaEventSink.Notify
 title: IMediaEventSink::Notify (strmif.h)
-
 description: The Notify method notifies the Filter Graph Manager of an event.
 old-location: dshow\imediaeventsink_notify.htm
 tech.root: DirectShow
 ms.assetid: 331f8d58-c7c6-40dd-88ca-5678c7b8c8f1
-
 ms.date: 12/05/2018
 ms.keywords: IMediaEventSink interface [DirectShow],Notify method, IMediaEventSink.Notify, IMediaEventSink::Notify, IMediaEventSinkNotify, Notify, Notify method [DirectShow], Notify method [DirectShow],IMediaEventSink interface, dshow.imediaeventsink_notify, strmif/IMediaEventSink::Notify
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaEventSink.Notify"
+f1_keywords:
+- strmif/IMediaEventSink.Notify
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaEventSink.Notify
+- IMediaEventSink.Notify
 targetos: Windows
 req.typenames: 
 req.redist: 

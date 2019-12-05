@@ -1,19 +1,17 @@
 ---
 UID: NF:winsafer.SaferComputeTokenFromLevel
 title: SaferComputeTokenFromLevel function (winsafer.h)
-
 description: Restricts a token using restrictions specified by a SAFER_LEVEL_HANDLE.
 old-location: security\safercomputetokenfromlevel.htm
 tech.root: SecMgmt
 ms.assetid: 39406331-3101-48f2-8b92-e049849b2b38
-
 ms.date: 12/05/2018
 ms.keywords: SAFER_TOKEN_COMPARE_ONLY, SAFER_TOKEN_MAKE_INERT, SAFER_TOKEN_NULL_IF_EQUAL, SAFER_TOKEN_WANT_FLAGS, SaferComputeTokenFromLevel, SaferComputeTokenFromLevel function [Security], security.safercomputetokenfromlevel, winsafer/SaferComputeTokenFromLevel
 ms.topic: function
-f1_keywords: 
- - "winsafer/SaferComputeTokenFromLevel"
+f1_keywords:
+- winsafer/SaferComputeTokenFromLevel
 dev_langs:
- - c++
+- c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - Ext-MS-Win-AdvAPI32-safer-l1-1-0.dll
+- Advapi32.dll
+- Ext-MS-Win-AdvAPI32-safer-l1-1-0.dll
 api_name:
- - SaferComputeTokenFromLevel
+- SaferComputeTokenFromLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

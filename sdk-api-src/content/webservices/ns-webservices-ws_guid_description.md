@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_GUID_DESCRIPTION
 title: WS_GUID_DESCRIPTION (webservices.h)
-
 description: An optional type description used with WS_GUID_TYPE to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_guid_description.htm
 tech.root: wsw
 ms.assetid: e0a98163-66c3-4b6d-a91c-f143b3aad864
-
 ms.date: 12/05/2018
 ms.keywords: WS_GUID_DESCRIPTION, WS_GUID_DESCRIPTION structure [Web Services for Windows], webservices/WS_GUID_DESCRIPTION, wsw.ws_guid_description
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_GUID_DESCRIPTION"
+f1_keywords:
+- webservices/WS_GUID_DESCRIPTION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_GUID_DESCRIPTION
+- WS_GUID_DESCRIPTION
 targetos: Windows
 req.typenames: WS_GUID_DESCRIPTION
 req.redist: 

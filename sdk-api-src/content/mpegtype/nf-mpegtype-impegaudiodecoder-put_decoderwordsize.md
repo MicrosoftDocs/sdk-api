@@ -1,19 +1,17 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.put_DecoderWordSize
 title: IMpegAudioDecoder::put_DecoderWordSize (mpegtype.h)
-
 description: Specifies the word size used by the decoder.
 old-location: dshow\impegaudiodecoder_put_decoderwordsize.htm
 tech.root: DirectShow
 ms.assetid: bd5ea824-5ac7-44e3-b7db-636e1b350d4e
-
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_DecoderWordSize method, IMpegAudioDecoder.put_DecoderWordSize, IMpegAudioDecoder::put_DecoderWordSize, IMpegAudioDecoderputDecoderWordSize, dshow.impegaudiodecoder_put_decoderwordsize, mpegtype/IMpegAudioDecoder::put_DecoderWordSize, put_DecoderWordSize, put_DecoderWordSize method [DirectShow], put_DecoderWordSize method [DirectShow],IMpegAudioDecoder interface
 ms.topic: method
-f1_keywords: 
- - "mpegtype/IMpegAudioDecoder.put_DecoderWordSize"
+f1_keywords:
+- mpegtype/IMpegAudioDecoder.put_DecoderWordSize
 dev_langs:
- - c++
+- c++
 req.header: mpegtype.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMpegAudioDecoder.put_DecoderWordSize
+- IMpegAudioDecoder.put_DecoderWordSize
 targetos: Windows
 req.typenames: 
 req.redist: 

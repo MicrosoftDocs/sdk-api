@@ -1,19 +1,17 @@
 ---
 UID: NN:wia_xp.IWiaItem
 title: IWiaItem (wia_xp.h)
-
 description: Each Windows Image Acquisition (WIA) hardware device is represented to an application as a hierarchical tree of IWiaItem objects.
 old-location: wia\_wia_IWiaItem.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\iwiaitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWiaItem, IWiaItem interface [WIA], IWiaItem interface [WIA],described, _wia_IWiaItem, wia._wia_IWiaItem, wia_xp/IWiaItem
 ms.topic: interface
-f1_keywords: 
- - "wia_xp/IWiaItem"
+f1_keywords:
+- wia_xp/IWiaItem
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaItem
+- IWiaItem
 targetos: Windows
 req.typenames: 
 req.redist: 

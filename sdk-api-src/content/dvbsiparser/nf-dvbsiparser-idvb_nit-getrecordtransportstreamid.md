@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDVB_NIT.GetRecordTransportStreamId
 title: IDVB_NIT::GetRecordTransportStreamId (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_nit_getrecordtransportstreamid.htm
 tech.root: mstv
 ms.assetid: ed2b9fcc-fd7d-4477-9ff5-cbb7912eac26
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordTransportStreamId, GetRecordTransportStreamId method [Microsoft TV Technologies], GetRecordTransportStreamId method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetRecordTransportStreamId method, IDVB_NIT.GetRecordTransportStreamId, IDVB_NIT::GetRecordTransportStreamId, IDVB_NITGetRecordTransportStreamId, dvbsiparser/IDVB_NIT::GetRecordTransportStreamId, mstv.idvb_nit_getrecordtransportstreamid
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDVB_NIT.GetRecordTransportStreamId"
+f1_keywords:
+- dvbsiparser/IDVB_NIT.GetRecordTransportStreamId
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_NIT.GetRecordTransportStreamId
+- IDVB_NIT.GetRecordTransportStreamId
 targetos: Windows
 req.typenames: 
 req.redist: 

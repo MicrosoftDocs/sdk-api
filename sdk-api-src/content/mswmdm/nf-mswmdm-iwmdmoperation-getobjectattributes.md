@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMOperation.GetObjectAttributes
 title: IWMDMOperation::GetObjectAttributes (mswmdm.h)
-
 description: The GetObjectAttributes method allows the application to specify attributes for an object being written to a device. Windows Media Device Manager calls this method before a file is written to the device in order to learn the file's attributes.
 old-location: wmdm\iwmdmoperation_getobjectattributes.htm
 tech.root: WMDM
 ms.assetid: 4e1f4300-057d-40df-8e5c-75765f9ce337
-
 ms.date: 12/05/2018
 ms.keywords: GetObjectAttributes, GetObjectAttributes method [windows Media Device Manager], GetObjectAttributes method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],GetObjectAttributes method, IWMDMOperation.GetObjectAttributes, IWMDMOperation::GetObjectAttributes, IWMDMOperationGetObjectAttributes, mswmdm/IWMDMOperation::GetObjectAttributes, wmdm.iwmdmoperation_getobjectattributes
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMOperation.GetObjectAttributes"
+f1_keywords:
+- mswmdm/IWMDMOperation.GetObjectAttributes
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMOperation.GetObjectAttributes
+- IWMDMOperation.GetObjectAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

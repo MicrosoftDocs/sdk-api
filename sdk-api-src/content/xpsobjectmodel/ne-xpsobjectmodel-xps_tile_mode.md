@@ -1,19 +1,17 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0001
 title: XPS_TILE_MODE (xpsobjectmodel.h)
-
 description: Describes the tiling behavior of a tile brush.
 old-location: xps\xps_tile_mode.htm
 tech.root: printdocs
 ms.assetid: 59434771-6402-4b0f-b8b6-58a4dda0f836
-
 ms.date: 12/05/2018
 ms.keywords: XPS_TILE_MODE, XPS_TILE_MODE enumeration [XPS Documents and Packaging], XPS_TILE_MODE_FLIPX, XPS_TILE_MODE_FLIPXY, XPS_TILE_MODE_FLIPY, XPS_TILE_MODE_NONE, XPS_TILE_MODE_TILE, xps.xps_tile_mode, xpsobjectmodel/XPS_TILE_MODE, xpsobjectmodel/XPS_TILE_MODE_FLIPX, xpsobjectmodel/XPS_TILE_MODE_FLIPXY, xpsobjectmodel/XPS_TILE_MODE_FLIPY, xpsobjectmodel/XPS_TILE_MODE_NONE, xpsobjectmodel/XPS_TILE_MODE_TILE
 ms.topic: enum
-f1_keywords: 
- - "xpsobjectmodel/XPS_TILE_MODE"
+f1_keywords:
+- xpsobjectmodel/XPS_TILE_MODE
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - XPS_TILE_MODE
+- XPS_TILE_MODE
 targetos: Windows
 req.typenames: XPS_TILE_MODE
 req.redist: 

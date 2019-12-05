@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminPortGetInfo
 title: MprAdminPortGetInfo function (mprapi.h)
-
 description: The MprAdminPortGetInfo function gets information for a specific port.
 old-location: rras\mpradminportgetinfo.htm
 tech.root: RRAS
 ms.assetid: b990b2bf-6c08-4cfd-8b17-1b3fe39277d7
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminPortGetInfo, MprAdminPortGetInfo function [RAS], _mpr_mpradminportgetinfo, mprapi/MprAdminPortGetInfo, rras.mpradminportgetinfo
 ms.topic: function
 f1_keywords:
 - mprapi/MprAdminPortGetInfo
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

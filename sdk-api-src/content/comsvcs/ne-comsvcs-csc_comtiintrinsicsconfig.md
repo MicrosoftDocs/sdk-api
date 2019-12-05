@@ -1,19 +1,17 @@
 ---
 UID: NE:comsvcs.tagCSC_COMTIIntrinsicsConfig
 title: CSC_COMTIIntrinsicsConfig (comsvcs.h)
-
 description: Indicates whether the current COM Transaction Integrator (COMTI) intrinsics are propagated into the new context.
 old-location: cos\csc_comtiintrinsicsconfig.htm
 tech.root: cossdk
 ms.assetid: 0d700648-b5fe-46f6-9d27-e2601fe88d71
-
 ms.date: 12/05/2018
 ms.keywords: CSC_COMTIIntrinsicsConfig, CSC_COMTIIntrinsicsConfig enumeration [COM+], CSC_InheritCOMTIIntrinsics, CSC_NoCOMTIIntrinsics, _cos_CSC_COMTIIntrinsicsConfig, comsvcs/CSC_COMTIIntrinsicsConfig, comsvcs/CSC_InheritCOMTIIntrinsics, comsvcs/CSC_NoCOMTIIntrinsics, cos.csc_comtiintrinsicsconfig
 ms.topic: enum
-f1_keywords: 
- - "comsvcs/CSC_COMTIIntrinsicsConfig"
+f1_keywords:
+- comsvcs/CSC_COMTIIntrinsicsConfig
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - CSC_COMTIIntrinsicsConfig
+- CSC_COMTIIntrinsicsConfig
 targetos: Windows
 req.typenames: CSC_COMTIIntrinsicsConfig
 req.redist: 

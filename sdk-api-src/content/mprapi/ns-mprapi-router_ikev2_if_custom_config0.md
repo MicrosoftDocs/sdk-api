@@ -1,19 +1,17 @@
 ---
 UID: NS:mprapi._ROUTER_IKEv2_IF_CUSTOM_CONFIG0
 title: ROUTER_IKEv2_IF_CUSTOM_CONFIG0 (mprapi.h)
-
 description: Gets or sets IKEv2 tunnel configuration parameter for IKEv2 tunnel based demand dial interfaces.
 old-location: rras\router_ikev2_if_custom_config0.htm
 tech.root: RRAS
 ms.assetid: c81611c6-3bad-4965-b4fb-b2c8074cee28
-
 ms.date: 12/05/2018
-ms.keywords: "*PROUTER_IKEv2_IF_CUSTOM_CONFIG0, PROUTER_IKEv2_IF_CUSTOM_CONFIG0, PROUTER_IKEv2_IF_CUSTOM_CONFIG0 structure pointer [RAS], ROUTER_IKEv2_IF_CUSTOM_CONFIG0, ROUTER_IKEv2_IF_CUSTOM_CONFIG0 structure [RAS], mprapi/PROUTER_IKEv2_IF_CUSTOM_CONFIG0, mprapi/ROUTER_IKEv2_IF_CUSTOM_CONFIG0, rras.router_ikev2_if_custom_config0"
+ms.keywords: '*PROUTER_IKEv2_IF_CUSTOM_CONFIG0, PROUTER_IKEv2_IF_CUSTOM_CONFIG0, PROUTER_IKEv2_IF_CUSTOM_CONFIG0 structure pointer [RAS], ROUTER_IKEv2_IF_CUSTOM_CONFIG0, ROUTER_IKEv2_IF_CUSTOM_CONFIG0 structure [RAS], mprapi/PROUTER_IKEv2_IF_CUSTOM_CONFIG0, mprapi/ROUTER_IKEv2_IF_CUSTOM_CONFIG0, rras.router_ikev2_if_custom_config0'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/ROUTER_IKEv2_IF_CUSTOM_CONFIG0"
+f1_keywords:
+- mprapi/ROUTER_IKEv2_IF_CUSTOM_CONFIG0
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mprapi.h
+- mprapi.h
 api_name:
- - ROUTER_IKEv2_IF_CUSTOM_CONFIG0
+- ROUTER_IKEv2_IF_CUSTOM_CONFIG0
 targetos: Windows
 req.typenames: ROUTER_IKEv2_IF_CUSTOM_CONFIG0, *PROUTER_IKEv2_IF_CUSTOM_CONFIG0
 req.redist: 

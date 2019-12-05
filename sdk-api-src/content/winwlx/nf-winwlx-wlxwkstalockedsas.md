@@ -1,19 +1,17 @@
 ---
 UID: NF:winwlx.WlxWkstaLockedSAS
 title: WlxWkstaLockedSAS function (winwlx.h)
-
 description: Winlogon calls this function when it receives a secure attention sequence (SAS) and the workstation is locked.
 old-location: security\wlxwkstalockedsas.htm
 tech.root: SecAuthN
 ms.assetid: 7a9f8b00-857a-432e-bb49-2251504c46a0
-
 ms.date: 12/05/2018
 ms.keywords: WLX_SAS_TYPE_CTRL_ALT_DEL, WLX_SAS_TYPE_SC_INSERT, WLX_SAS_TYPE_SC_REMOVE, WLX_SAS_TYPE_TIMEOUT, WlxWkstaLockedSAS, WlxWkstaLockedSAS function [Security], _gina_wlxwkstalockedsas, security.wlxwkstalockedsas, winwlx/WlxWkstaLockedSAS
 ms.topic: function
-f1_keywords: 
- - "winwlx/WlxWkstaLockedSAS"
+f1_keywords:
+- winwlx/WlxWkstaLockedSAS
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winwlx.h
+- Winwlx.h
 api_name:
- - WlxWkstaLockedSAS
+- WlxWkstaLockedSAS
 targetos: Windows
 req.typenames: 
 req.redist: 

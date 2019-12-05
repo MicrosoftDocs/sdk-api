@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetClassLongPtrA
 title: SetClassLongPtrA function (winuser.h)
-
 description: Replaces the specified value at the specified offset in the extra class memory or the WNDCLASSEX structure for the class to which the specified window belongs.
 old-location: winmsg\setclasslongptr.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\setclasslongptr.htm
-
 ms.date: 12/05/2018
 ms.keywords: GCLP_ HBRBACKGROUND, GCLP_HCURSOR, GCLP_HICON, GCLP_HICONSM, GCLP_HMODULE, GCLP_MENUNAME, GCLP_WNDPROC, GCL_CBCLSEXTRA, GCL_CBWNDEXTRA, GCL_STYLE, SetClassLongPtr, SetClassLongPtr function [Windows and Messages], SetClassLongPtrA, SetClassLongPtrW, _win32_SetClassLongPtr, _win32_setclasslongptr_cpp, winmsg.setclasslongptr, winui._win32_setclasslongptr, winuser/SetClassLongPtr, winuser/SetClassLongPtrA, winuser/SetClassLongPtrW
 ms.topic: function
-f1_keywords: 
- - "winuser/SetClassLongPtr"
+f1_keywords:
+- winuser/SetClassLongPtr
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-WindowClass-l1-1-2.dll
+- User32.dll
+- Ext-MS-Win-NTUser-WindowClass-l1-1-2.dll
 api_name:
- - SetClassLongPtr
- - SetClassLongPtrA
- - SetClassLongPtrW
+- SetClassLongPtr
+- SetClassLongPtrA
+- SetClassLongPtrW
 targetos: Windows
 req.typenames: 
 req.redist: 

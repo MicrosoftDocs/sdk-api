@@ -1,19 +1,17 @@
 ---
 UID: NS:evntrace._ETW_TRACE_PARTITION_INFORMATION
 title: ETW_TRACE_PARTITION_INFORMATION (evntrace.h)
-
 description: Contains partition information pulled from an ETW trace.
 old-location: etw\etw_trace_partition_information.htm
 tech.root: ETW
 ms.assetid: 8D8F8E79-B273-417A-B8C2-6CE4FC454C07
-
 ms.date: 12/05/2018
-ms.keywords: "*PETW_TRACE_PARTITION_INFORMATION, ETW_TRACE_PARTITION_INFORMATION, ETW_TRACE_PARTITION_INFORMATION structure [ETW], PETW_TRACE_PARTITION_INFORMATION, PETW_TRACE_PARTITION_INFORMATION structure pointer [ETW], Process, VmDirectUvm, VmHost, VmHostedUvm, _ETW_TRACE_PARTITION_INFORMATION, etw.etw_trace_partition_information, evntrace/ETW_TRACE_PARTITION_INFORMATION, evntrace/PETW_TRACE_PARTITION_INFORMATION"
+ms.keywords: '*PETW_TRACE_PARTITION_INFORMATION, ETW_TRACE_PARTITION_INFORMATION, ETW_TRACE_PARTITION_INFORMATION structure [ETW], PETW_TRACE_PARTITION_INFORMATION, PETW_TRACE_PARTITION_INFORMATION structure pointer [ETW], Process, VmDirectUvm, VmHost, VmHostedUvm, _ETW_TRACE_PARTITION_INFORMATION, etw.etw_trace_partition_information, evntrace/ETW_TRACE_PARTITION_INFORMATION, evntrace/PETW_TRACE_PARTITION_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "evntrace/ETW_TRACE_PARTITION_INFORMATION"
+f1_keywords:
+- evntrace/ETW_TRACE_PARTITION_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - evntrace.h
+- evntrace.h
 api_name:
- - ETW_TRACE_PARTITION_INFORMATION
+- ETW_TRACE_PARTITION_INFORMATION
 targetos: Windows
 req.typenames: ETW_TRACE_PARTITION_INFORMATION, *PETW_TRACE_PARTITION_INFORMATION
 req.redist: 

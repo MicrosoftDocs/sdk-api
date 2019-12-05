@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.CreateVideoDecoder
 title: ID3D11VideoDevice::CreateVideoDecoder (d3d11.h)
-
 description: Creates a video decoder device for Microsoft Direct3D 11.
 old-location: mf\id3d11videodevice_createvideodecoder.htm
 tech.root: medfound
 ms.assetid: 7EC2C7C3-F2EB-4357-BD53-308ABFFC9BE8
-
 ms.date: 12/05/2018
 ms.keywords: CreateVideoDecoder, CreateVideoDecoder method [Media Foundation], CreateVideoDecoder method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],CreateVideoDecoder method, ID3D11VideoDevice.CreateVideoDecoder, ID3D11VideoDevice::CreateVideoDecoder, d3d11/ID3D11VideoDevice::CreateVideoDecoder, mf.id3d11videodevice_createvideodecoder
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoDevice.CreateVideoDecoder"
+f1_keywords:
+- d3d11/ID3D11VideoDevice.CreateVideoDecoder
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoDevice.CreateVideoDecoder
+- ID3D11VideoDevice.CreateVideoDecoder
 targetos: Windows
 req.typenames: 
 req.redist: 

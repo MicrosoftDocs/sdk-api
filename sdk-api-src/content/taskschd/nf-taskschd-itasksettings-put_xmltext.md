@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_XmlText
 title: ITaskSettings::put_XmlText (taskschd.h)
-
 description: Gets or sets an XML-formatted definition of the task settings.
 old-location: taskschd\itasksettings_xmltext.htm
 tech.root: taskschd
 ms.assetid: 93133a74-36a6-49e6-91b0-4ad4fd778841
-
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],XmlText property, ITaskSettings.XmlText, ITaskSettings.put_XmlText, ITaskSettings::XmlText, ITaskSettings::get_XmlText, ITaskSettings::put_XmlText, XmlText property [Task Scheduler], XmlText property [Task Scheduler],ITaskSettings interface, put_XmlText, taskschd.itasksettings_xmltext, taskschd/ITaskSettings::XmlText, taskschd/ITaskSettings::get_XmlText, taskschd/ITaskSettings::put_XmlText
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskSettings.XmlText"
+f1_keywords:
+- taskschd/ITaskSettings.XmlText
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskSettings.XmlText
- - ITaskSettings.get_XmlText
- - ITaskSettings.put_XmlText
+- ITaskSettings.XmlText
+- ITaskSettings.get_XmlText
+- ITaskSettings.put_XmlText
 targetos: Windows
 req.typenames: 
 req.redist: 

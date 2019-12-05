@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdate.get_RecommendedCpuSpeed
 title: IUpdate::get_RecommendedCpuSpeed (wuapi.h)
-
 description: Gets the recommended CPU speed used to install the update, in megahertz (MHz).
 old-location: wua\iupdate_recommendedcpuspeed.htm
 tech.root: Wua_Sdk
 ms.assetid: 21003be2-c14e-48d4-a51f-ed75b1b47284
-
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],RecommendedCPUSpeed property, IUpdate.RecommendedCPUSpeed, IUpdate.get_RecommendedCpuSpeed, IUpdate::RecommendedCPUSpeed, IUpdate::get_RecommendedCPUSpeed, IUpdate::get_RecommendedCpuSpeed, RecommendedCPUSpeed property [Windows Update Agent], RecommendedCPUSpeed property [Windows Update Agent],IUpdate interface, get_RecommendedCpuSpeed, wua.iupdate_recommendedcpuspeed, wuapi/IUpdate::RecommendedCPUSpeed, wuapi/IUpdate::get_RecommendedCPUSpeed
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdate.RecommendedCPUSpeed"
+f1_keywords:
+- wuapi/IUpdate.RecommendedCPUSpeed
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdate.RecommendedCPUSpeed
- - IUpdate.get_RecommendedCPUSpeed
+- IUpdate.RecommendedCPUSpeed
+- IUpdate.get_RecommendedCPUSpeed
 targetos: Windows
 req.typenames: 
 req.redist: 

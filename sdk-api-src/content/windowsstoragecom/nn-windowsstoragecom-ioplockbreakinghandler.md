@@ -1,19 +1,17 @@
 ---
 UID: NN:windowsstoragecom.IOplockBreakingHandler
 title: IOplockBreakingHandler (windowsstoragecom.h)
-
 description: This interface is not currently implemented.
 old-location: winrt\ioplockbreakinghandler.htm
 tech.root: WinRT
 ms.assetid: 76466E25-C3F1-4170-921E-8BE6B36B6BA3
-
 ms.date: 12/05/2018
 ms.keywords: IOplockBreakingHandler, IOplockBreakingHandler interface [Windows Runtime], IOplockBreakingHandler interface [Windows Runtime],described, windowsstoragecom/IOplockBreakingHandler, winrt.ioplockbreakinghandler
 ms.topic: interface
-f1_keywords: 
- - "windowsstoragecom/IOplockBreakingHandler"
+f1_keywords:
+- windowsstoragecom/IOplockBreakingHandler
 dev_langs:
- - c++
+- c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windows.storage.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.storage.dll
+- windows.storage.dll
 api_name:
- - IOplockBreakingHandler
+- IOplockBreakingHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

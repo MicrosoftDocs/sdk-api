@@ -1,19 +1,17 @@
 ---
 UID: NF:winternl.RtlIsNameLegalDOS8Dot3
 title: RtlIsNameLegalDOS8Dot3 function (winternl.h)
-
 description: Determines whether or not a specified name can be used to create a file on the FAT file system.
 old-location: winprog\rtlisnamelegaldos8dot3.htm
 tech.root: DevNotes
 ms.assetid: 705fd65a-dd56-46c8-9910-5c07caff9173
-
 ms.date: 12/05/2018
 ms.keywords: RtlIsNameLegalDOS8Dot3, RtlIsNameLegalDOS8Dot3 function [Windows API], base.rtlisnamelegaldos8dot3, fs.rtlisnamelegaldos8dot3, winprog.rtlisnamelegaldos8dot3, winternl/RtlIsNameLegalDOS8Dot3
 ms.topic: function
-f1_keywords: 
- - "winternl/RtlIsNameLegalDOS8Dot3"
+f1_keywords:
+- winternl/RtlIsNameLegalDOS8Dot3
 dev_langs:
- - c++
+- c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: NtDll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - NtDll.dll
+- NtDll.dll
 api_name:
- - RtlIsNameLegalDOS8Dot3
+- RtlIsNameLegalDOS8Dot3
 targetos: Windows
 req.typenames: 
 req.redist: 

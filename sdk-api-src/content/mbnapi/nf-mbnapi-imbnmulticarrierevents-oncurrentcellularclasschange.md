@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrierEvents.OnCurrentCellularClassChange
 title: IMbnMultiCarrierEvents::OnCurrentCellularClassChange (mbnapi.h)
-
 description: This notification method is called by the Mobile Broadband service to indicate the completion of a GetCurrentCellularClass operation.
 old-location: mbn\imbnmulticarrierevents_oncurrentcellularclasschange.htm
 tech.root: mbn
 ms.assetid: 76B5349E-EA51-422D-81BC-A93B85FBCF90
-
 ms.date: 12/05/2018
 ms.keywords: IMbnMultiCarrierEvents interface [Microsoft Broadband Networks],OnCurrentCellularClassChange method, IMbnMultiCarrierEvents.OnCurrentCellularClassChange, IMbnMultiCarrierEvents::OnCurrentCellularClassChange, OnCurrentCellularClassChange, OnCurrentCellularClassChange method [Microsoft Broadband Networks], OnCurrentCellularClassChange method [Microsoft Broadband Networks],IMbnMultiCarrierEvents interface, mbn.imbnmulticarrierevents_oncurrentcellularclasschange, mbnapi/IMbnMultiCarrierEvents::OnCurrentCellularClassChange
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnMultiCarrierEvents.OnCurrentCellularClassChange"
+f1_keywords:
+- mbnapi/IMbnMultiCarrierEvents.OnCurrentCellularClassChange
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnMultiCarrierEvents.OnCurrentCellularClassChange
+- IMbnMultiCarrierEvents.OnCurrentCellularClassChange
 targetos: Windows
 req.typenames: 
 req.redist: 

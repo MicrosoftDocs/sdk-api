@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextHost.TxReleaseDC
 title: ITextHost::TxReleaseDC (textserv.h)
-
 description: Releases the device context obtained by the ITextHost::TxGetDC method.
 old-location: controls\ITextHost_TxReleaseDC.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxreleasedc.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxReleaseDC method, ITextHost.TxReleaseDC, ITextHost::TxReleaseDC, TxReleaseDC, TxReleaseDC method [Windows Controls], TxReleaseDC method [Windows Controls],ITextHost interface, _win32_ITextHost_TxReleaseDC, _win32_ITextHost_TxReleaseDC_cpp, controls.ITextHost_TxReleaseDC, controls._win32_ITextHost_TxReleaseDC, textserv/ITextHost::TxReleaseDC
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextHost.TxReleaseDC"
+f1_keywords:
+- textserv/ITextHost.TxReleaseDC
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextHost.TxReleaseDC
+- ITextHost.TxReleaseDC
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileGroup
 title: IFsrmFileGroup (fsrmscreen.h)
-
 description: Used to define a group of files based on one or more file name patterns.
 old-location: fsrm\ifsrmfilegroup.htm
 tech.root: fsrm
 ms.assetid: 9b657f1c-1d59-4ba5-9af9-978ffda1a348
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileGroup, IFsrmFileGroup interface [File Server Resource Manager], IFsrmFileGroup interface [File Server Resource Manager],described, fs.ifsrmfilegroup, fsrm.ifsrmfilegroup, fsrm/IFsrmFileGroup
 ms.topic: interface
-f1_keywords: 
- - "fsrmscreen/IFsrmFileGroup"
+f1_keywords:
+- fsrmscreen/IFsrmFileGroup
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileGroup
+- IFsrmFileGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.GetFunctionProvider
 title: ITfThreadMgr2::GetFunctionProvider (msctf.h)
-
 description: Obtains the specified function provider object.
 old-location: tsf\itfthreadmgr2_getfunctionprovider.htm
 tech.root: TSF
 ms.assetid: 4B2B2098-ECA1-454F-8F7F-978893C466F7
-
 ms.date: 12/05/2018
 ms.keywords: GUID_APP_FUNCTIONPROVIDER, GUID_SYSTEM_FUNCTIONPROVIDER, GetFunctionProvider, GetFunctionProvider method [Text Services Framework], GetFunctionProvider method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],GetFunctionProvider method, ITfThreadMgr2.GetFunctionProvider, ITfThreadMgr2::GetFunctionProvider, msctf/ITfThreadMgr2::GetFunctionProvider, tsf.itfthreadmgr2_getfunctionprovider
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfThreadMgr2.GetFunctionProvider"
+f1_keywords:
+- msctf/ITfThreadMgr2.GetFunctionProvider
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.h
+- msctf.h
 api_name:
- - ITfThreadMgr2.GetFunctionProvider
+- ITfThreadMgr2.GetFunctionProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

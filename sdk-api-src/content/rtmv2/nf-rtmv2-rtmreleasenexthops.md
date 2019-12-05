@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RtmReleaseNextHops
 title: RtmReleaseNextHops function (rtmv2.h)
-
 description: The RtmReleaseNextHops function releases the next-hop handles.
 old-location: rras\rtmreleasenexthops.htm
 tech.root: RRAS
 ms.assetid: a21de428-7e9d-4596-a7ab-06a29b9852f7
-
 ms.date: 12/05/2018
 ms.keywords: RtmReleaseNextHops, RtmReleaseNextHops function [RAS], _rtmv2ref_rtmreleasenexthops, rras.rtmreleasenexthops, rtmv2/RtmReleaseNextHops
 ms.topic: function
-f1_keywords: 
- - "rtmv2/RtmReleaseNextHops"
+f1_keywords:
+- rtmv2/RtmReleaseNextHops
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - RtmReleaseNextHops
+- RtmReleaseNextHops
 targetos: Windows
 req.typenames: 
 req.redist: 

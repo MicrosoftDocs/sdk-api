@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmReport.get_Type
 title: IFsrmReport::get_Type (fsrmreports.h)
-
 description: Retrieves the type of report to generate.
 old-location: fsrm\ifsrmreport_type.htm
 tech.root: fsrm
 ms.assetid: 0f23c03a-5f9b-4a0e-b9cc-399ca931b6f7
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmReport interface [File Server Resource Manager],Type property, IFsrmReport.Type, IFsrmReport.get_Type, IFsrmReport::Type, IFsrmReport::get_Type, Type property [File Server Resource Manager], Type property [File Server Resource Manager],IFsrmReport interface, fs.ifsrmreport_type, fsrm.ifsrmreport_type, fsrmreports/IFsrmReport::Type, fsrmreports/IFsrmReport::get_Type, get_Type
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmReport.Type"
+f1_keywords:
+- fsrmreports/IFsrmReport.Type
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmReport.Type
- - IFsrmReport.get_Type
+- IFsrmReport.Type
+- IFsrmReport.get_Type
 targetos: Windows
 req.typenames: 
 req.redist: 

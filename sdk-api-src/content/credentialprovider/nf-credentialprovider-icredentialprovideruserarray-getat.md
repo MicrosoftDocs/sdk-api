@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUserArray.GetAt
 title: ICredentialProviderUserArray::GetAt (credentialprovider.h)
-
 description: Retrieves a specified user from the array.
 old-location: shell\ICredentialProviderUserArray_GetAt.htm
 tech.root: shell
 ms.assetid: E768CC54-4392-4d5f-BB90-4AA91E5D8B00
-
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [Windows Shell], GetAt method [Windows Shell],ICredentialProviderUserArray interface, ICredentialProviderUserArray interface [Windows Shell],GetAt method, ICredentialProviderUserArray.GetAt, ICredentialProviderUserArray::GetAt, credentialprovider/ICredentialProviderUserArray::GetAt, shell.ICredentialProviderUserArray_GetAt
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderUserArray.GetAt"
+f1_keywords:
+- credentialprovider/ICredentialProviderUserArray.GetAt
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CredentialProvider.lib
 req.dll: Authui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Authui.dll
+- Authui.dll
 api_name:
- - ICredentialProviderUserArray.GetAt
+- ICredentialProviderUserArray.GetAt
 targetos: Windows
 req.typenames: 
 req.redist: 

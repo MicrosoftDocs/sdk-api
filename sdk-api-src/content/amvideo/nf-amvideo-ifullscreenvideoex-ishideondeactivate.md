@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.IsHideOnDeactivate
 title: IFullScreenVideoEx::IsHideOnDeactivate (amvideo.h)
-
 description: The IsHideOnDeactivate method indicates the behavior when the user switches to another application.
 old-location: dshow\ifullscreenvideoex_ishideondeactivate.htm
 tech.root: DirectShow
 ms.assetid: 0196215f-4efe-418a-acf3-445b8224a2ab
-
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],IsHideOnDeactivate method, IFullScreenVideoEx.IsHideOnDeactivate, IFullScreenVideoEx::IsHideOnDeactivate, IFullScreenVideoIsHideOnDeactivate, IsHideOnDeactivate, IsHideOnDeactivate method [DirectShow], IsHideOnDeactivate method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::IsHideOnDeactivate, dshow.ifullscreenvideoex_ishideondeactivate
 ms.topic: method
-f1_keywords: 
- - "amvideo/IFullScreenVideoEx.IsHideOnDeactivate"
+f1_keywords:
+- amvideo/IFullScreenVideoEx.IsHideOnDeactivate
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFullScreenVideoEx.IsHideOnDeactivate
+- IFullScreenVideoEx.IsHideOnDeactivate
 targetos: Windows
 req.typenames: 
 req.redist: 

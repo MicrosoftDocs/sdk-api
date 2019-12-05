@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerTarget.Peg
 title: IReferenceTrackerTarget::xaml (windows.ui.xaml.hosting.referencetracker.h)
-
 description: Marks that the reference tracker target is in use by the XAML framework, and should not be collected.
 old-location: winrt\ireferencetrackertarget_peg.htm
 tech.root: WinRT
 ms.assetid: 2750e8b1-eeeb-411a-89a8-b63b26f731ac
-
 ms.date: 12/05/2018
 ms.keywords: IReferenceTrackerTarget interface [Windows Runtime],Peg method, IReferenceTrackerTarget.Peg, IReferenceTrackerTarget.xaml, IReferenceTrackerTarget::Peg, IReferenceTrackerTarget::xaml, Peg, Peg method [Windows Runtime], Peg method [Windows Runtime],IReferenceTrackerTarget interface, windows/IReferenceTrackerTarget::Peg, winrt.ireferencetrackertarget_peg
 ms.topic: method
-f1_keywords: 
- - "windows.ui.xaml.hosting.referencetracker/IReferenceTrackerTarget.Peg"
+f1_keywords:
+- windows.ui.xaml.hosting.referencetracker/IReferenceTrackerTarget.Peg
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.ui.xaml.hosting.referencetracker.h
+- Windows.ui.xaml.hosting.referencetracker.h
 api_name:
- - IReferenceTrackerTarget.Peg
+- IReferenceTrackerTarget.Peg
 targetos: Windows
 req.typenames: 
 req.redist: 

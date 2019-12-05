@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMU555.operator uint16_t
 title: XMU555::operator uint16_t (directxpackedvector.h)
-
 description: Returns an instance of uint16_t containing the components of the XMU555 instance in a packed format.
 old-location: dxmath\xmu555_operator_uint16_t.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMU555.operator uint16_t
-
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMU555.operator uint16_t, DirectX::PackedVector::XMU555::operator uint16_t, XMU555 structure [DirectX Math Support APIs],operator uint16_t method, XMU555.operator uint16_t, XMU555::operator uint16_t, dxmath.xmu555_operator_uint16_t, operator uint16_t, operator uint16_t method [DirectX Math Support APIs], operator uint16_t method [DirectX Math Support APIs],XMU555 structure
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMU555.operator uint16_t"
+f1_keywords:
+- directxpackedvector/XMU555.operator uint16_t
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMU555.operator uint16_t
+- XMU555.operator uint16_t
 targetos: Windows
 req.typenames: 
 req.redist: 

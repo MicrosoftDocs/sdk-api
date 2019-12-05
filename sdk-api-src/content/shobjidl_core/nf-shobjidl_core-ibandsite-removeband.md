@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IBandSite.RemoveBand
 title: IBandSite::RemoveBand (shobjidl_core.h)
-
 description: Removes a band from the band site.
 old-location: shell\IBandSite_RemoveBand.htm
 tech.root: shell
 ms.assetid: 5af20633-fab4-4fda-84c9-6bbdb9d588ec
-
 ms.date: 12/05/2018
 ms.keywords: IBandSite interface [Windows Shell],RemoveBand method, IBandSite.RemoveBand, IBandSite::RemoveBand, RemoveBand, RemoveBand method [Windows Shell], RemoveBand method [Windows Shell],IBandSite interface, _win32_IBandSite_RemoveBand, shell.IBandSite_RemoveBand, shobjidl_core/IBandSite::RemoveBand
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IBandSite.RemoveBand"
+f1_keywords:
+- shobjidl_core/IBandSite.RemoveBand
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IBandSite.RemoveBand
+- IBandSite.RemoveBand
 targetos: Windows
 req.typenames: 
 req.redist: 

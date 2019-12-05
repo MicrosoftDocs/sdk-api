@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_FileName
 title: IFaxDoc::put_FileName (faxcom.h)
-
 description: Sets or retrieves the FileName property for a FaxDoc object. The FileName property is a null-terminated string that contains the name of the document file associated with the object.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_filename_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7rqd.htm
-
 ms.date: 12/05/2018
 ms.keywords: FileName property [Fax Service], FileName property [Fax Service],IFaxDoc interface, IFaxDoc interface [Fax Service],FileName property, IFaxDoc.FileName, IFaxDoc.put_FileName, IFaxDoc::FileName, IFaxDoc::get_FileName, IFaxDoc::put_FileName, _mfax_ifaxdoc_get_filename, fax._mfax_ifaxdoc_get_filename, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_filename_cpp, faxcom/IFaxDoc::FileName, faxcom/IFaxDoc::get_FileName, faxcom/IFaxDoc::put_FileName, put_FileName
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxDoc.FileName"
+f1_keywords:
+- faxcom/IFaxDoc.FileName
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxDoc.FileName
- - IFaxDoc.get_FileName
- - IFaxDoc.put_FileName
+- IFaxDoc.FileName
+- IFaxDoc.get_FileName
+- IFaxDoc.put_FileName
 targetos: Windows
 req.typenames: 
 req.redist: 

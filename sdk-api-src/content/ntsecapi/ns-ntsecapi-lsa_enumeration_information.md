@@ -1,19 +1,17 @@
 ---
 UID: NS:ntsecapi._LSA_ENUMERATION_INFORMATION
 title: LSA_ENUMERATION_INFORMATION (ntsecapi.h)
-
 description: The LSA_ENUMERATION_INFORMATION structure is used with the LsaEnumerateAccountsWithUserRight function to return a pointer to a SID.
 old-location: security\lsa_enumeration_information.htm
 tech.root: SecMgmt
 ms.assetid: 7577548f-3ceb-43a5-b447-6f66a09963fe
-
 ms.date: 12/05/2018
-ms.keywords: "*PLSA_ENUMERATION_INFORMATION, LSA_ENUMERATION_INFORMATION, LSA_ENUMERATION_INFORMATION structure [Security], PLSA_ENUMERATION_INFORMATION, PLSA_ENUMERATION_INFORMATION structure pointer [Security], _LSA_ENUMERATION_INFORMATION, _lsa_lsa_enumeration_information, ntsecapi/LSA_ENUMERATION_INFORMATION, ntsecapi/PLSA_ENUMERATION_INFORMATION, security.lsa_enumeration_information"
+ms.keywords: '*PLSA_ENUMERATION_INFORMATION, LSA_ENUMERATION_INFORMATION, LSA_ENUMERATION_INFORMATION structure [Security], PLSA_ENUMERATION_INFORMATION, PLSA_ENUMERATION_INFORMATION structure pointer [Security], _LSA_ENUMERATION_INFORMATION, _lsa_lsa_enumeration_information, ntsecapi/LSA_ENUMERATION_INFORMATION, ntsecapi/PLSA_ENUMERATION_INFORMATION, security.lsa_enumeration_information'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/LSA_ENUMERATION_INFORMATION"
+f1_keywords:
+- ntsecapi/LSA_ENUMERATION_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - LSA_ENUMERATION_INFORMATION
+- LSA_ENUMERATION_INFORMATION
 targetos: Windows
 req.typenames: LSA_ENUMERATION_INFORMATION, *PLSA_ENUMERATION_INFORMATION
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:chstring.CHString.GetAt(int)
 title: CHString::GetAt(int) (chstring.h)
-
 description: Returns a single character specified by an index number.
 old-location: wmi\chstring_getat.htm
 tech.root: WmiSdk
 ms.assetid: ed038b41-211c-4483-99cd-0bc43b241761
-
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],GetAt method, CHString.GetAt, CHString.GetAt(int), CHString::GetAt, CHString::GetAt(int), GetAt, GetAt method [Windows Management Instrumentation], GetAt method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getat, chstring/CHString::GetAt, wmi.chstring_getat
 ms.topic: method
-f1_keywords: 
- - "chstring/CHString.GetAt"
+f1_keywords:
+- chstring/CHString.GetAt
 dev_langs:
- - c++
+- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHString.GetAt
+- CHString.GetAt
 targetos: Windows
 req.typenames: 
 req.redist: 

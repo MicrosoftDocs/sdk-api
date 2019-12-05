@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d10.D3D10_TEX2DMS_ARRAY_SRV
 title: D3D10_TEX2DMS_ARRAY_SRV (d3d10.h)
-
 description: Specifies the subresource(s) from an array of multisampled 2D textures to use in a shader-resource view.
 old-location: direct3d10\d3d10_tex2dms_array_srv.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex2dms_array_srv.htm
-
 ms.date: 12/05/2018
 ms.keywords: 460c707d-2543-a058-00c6-8e476deecb5d, D3D10_TEX2DMS_ARRAY_SRV, D3D10_TEX2DMS_ARRAY_SRV structure [Direct3D 10], d3d10/D3D10_TEX2DMS_ARRAY_SRV, direct3d10.d3d10_tex2dms_array_srv
 ms.topic: struct
-f1_keywords: 
- - "d3d10/D3D10_TEX2DMS_ARRAY_SRV"
+f1_keywords:
+- d3d10/D3D10_TEX2DMS_ARRAY_SRV
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10.h
+- D3D10.h
 api_name:
- - D3D10_TEX2DMS_ARRAY_SRV
+- D3D10_TEX2DMS_ARRAY_SRV
 targetos: Windows
 req.typenames: D3D10_TEX2DMS_ARRAY_SRV
 req.redist: 

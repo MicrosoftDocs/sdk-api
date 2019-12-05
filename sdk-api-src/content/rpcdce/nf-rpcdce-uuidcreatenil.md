@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.UuidCreateNil
 title: UuidCreateNil function (rpcdce.h)
-
 description: The UuidCreateNil function creates a nil-valued UUID.
 old-location: rpc\uuidcreatenil.htm
 tech.root: Rpc
 ms.assetid: ee955482-e786-4478-bbaa-7c574ab1ecc5
-
 ms.date: 12/05/2018
 ms.keywords: UuidCreateNil, UuidCreateNil function [RPC], _rpc_uuidcreatenil, rpc.uuidcreatenil, rpcdce/UuidCreateNil
 ms.topic: function
-f1_keywords: 
- - "rpcdce/UuidCreateNil"
+f1_keywords:
+- rpcdce/UuidCreateNil
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - UuidCreateNil
+- UuidCreateNil
 targetos: Windows
 req.typenames: 
 req.redist: 

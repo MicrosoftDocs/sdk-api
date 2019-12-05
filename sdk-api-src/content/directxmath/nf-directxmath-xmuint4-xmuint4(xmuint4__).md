@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMUINT4.XMUINT4(XMUINT4 &&)
 title: XMUINT4::XMUINT4(XMUINT4 &&) (directxmath.h)
-
 description: A constructor for XMUINT4.
 old-location: 
 tech.root: dxmath
 ms.assetid: 
-
 ms.date: 05/13/2019
 ms.keywords: XMUINT4, XMUINT4 constructor [DirectX Math Support APIs], XMUINT4 constructor [DirectX Math Support APIs],XMUINT4 structure, XMUINT4 structure [DirectX Math Support APIs],XMUINT4 constructor, XMUINT4.XMUINT4, XMUINT4.XMUINT4(), XMUINT4.XMUINT4(XMUINT4 &&), XMUINT4::XMUINT4, XMUINT4::XMUINT4(XMUINT4 &&), dxmath.xmuint4_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxmath/XMUINT4.XMUINT4"
+f1_keywords:
+- directxmath/XMUINT4.XMUINT4
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMUINT4.XMUINT4
+- XMUINT4.XMUINT4
 targetos: Windows
 req.typenames: 
 req.redist: 

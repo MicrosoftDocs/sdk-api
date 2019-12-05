@@ -1,19 +1,17 @@
 ---
 UID: NS:appxpackaging.APPX_PACKAGE_WRITER_PAYLOAD_STREAM
 title: APPX_PACKAGE_WRITER_PAYLOAD_STREAM (appxpackaging.h)
-
 description: Contains the data and metadata of files to write into the app package.
 old-location: appxpkg\appx_package_writer_payload_stream.htm
 tech.root: appxpkg
 ms.assetid: 0AB54C4B-6982-49A3-BFD3-E46E75954B08
-
 ms.date: 12/05/2018
 ms.keywords: APPX_PACKAGE_WRITER_PAYLOAD_STREAM, APPX_PACKAGE_WRITER_PAYLOAD_STREAM structure [App packaging and management], appxpackaging/APPX_PACKAGE_WRITER_PAYLOAD_STREAM, appxpkg.appx_package_writer_payload_stream
 ms.topic: struct
-f1_keywords: 
- - "appxpackaging/APPX_PACKAGE_WRITER_PAYLOAD_STREAM"
+f1_keywords:
+- appxpackaging/APPX_PACKAGE_WRITER_PAYLOAD_STREAM
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+- APPX_PACKAGE_WRITER_PAYLOAD_STREAM
 targetos: Windows
 req.typenames: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
 req.redist: 

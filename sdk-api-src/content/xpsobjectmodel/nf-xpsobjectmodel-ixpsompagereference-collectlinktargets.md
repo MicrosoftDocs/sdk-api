@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.CollectLinkTargets
 title: IXpsOMPageReference::CollectLinkTargets (xpsobjectmodel.h)
-
 description: Gets an IXpsOMNameCollection interface that contains the names of all the document subtree objects whose IsHyperlinkTarget property is set to TRUE.
 old-location: xps\ixpsompagereference_collectlinktargets.htm
 tech.root: printdocs
 ms.assetid: 82c64e8a-d8fb-41e3-95f8-b8ca490eae78
-
 ms.date: 12/05/2018
 ms.keywords: CollectLinkTargets, CollectLinkTargets method [XPS Documents and Packaging], CollectLinkTargets method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],CollectLinkTargets method, IXpsOMPageReference.CollectLinkTargets, IXpsOMPageReference::CollectLinkTargets, xps.ixpsompagereference_collectlinktargets, xpsobjectmodel/IXpsOMPageReference::CollectLinkTargets
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPageReference.CollectLinkTargets"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPageReference.CollectLinkTargets
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPageReference.CollectLinkTargets
+- IXpsOMPageReference.CollectLinkTargets
 targetos: Windows
 req.typenames: 
 req.redist: 

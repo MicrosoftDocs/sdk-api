@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineGetNumAddressIDs
 title: TSPI_lineGetNumAddressIDs function (tspi.h)
-
 description: The TSPI_lineGetNumAddressIDs function retrieves the number of address identifiers supported on the indicated line.
 old-location: tspi\tspi_linegetnumaddressids.htm
 tech.root: Tapi
 ms.assetid: 53fd70eb-2694-4c8c-97cd-6ee9f2606ced
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetNumAddressIDs, TSPI_lineGetNumAddressIDs function [TAPI 2.2], _tspi_tspi_linegetnumaddressids, tspi.tspi_linegetnumaddressids, tspi/TSPI_lineGetNumAddressIDs
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineGetNumAddressIDs"
+f1_keywords:
+- tspi/TSPI_lineGetNumAddressIDs
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineGetNumAddressIDs
+- TSPI_lineGetNumAddressIDs
 targetos: Windows
 req.typenames: 
 req.redist: 

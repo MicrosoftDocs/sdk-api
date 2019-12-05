@@ -1,19 +1,17 @@
 ---
 UID: NN:mfobjects.IMFAsyncResult
 title: IMFAsyncResult (mfobjects.h)
-
 description: Provides information about the result of an asynchronous operation.
 old-location: mf\imfasyncresult.htm
 tech.root: medfound
 ms.assetid: 8c95b1de-8974-445c-8070-41552ea83e53
-
 ms.date: 12/05/2018
 ms.keywords: 8c95b1de-8974-445c-8070-41552ea83e53, IMFAsyncResult, IMFAsyncResult interface [Media Foundation], IMFAsyncResult interface [Media Foundation],described, mf.imfasyncresult, mfobjects/IMFAsyncResult
 ms.topic: interface
-f1_keywords: 
- - "mfobjects/IMFAsyncResult"
+f1_keywords:
+- mfobjects/IMFAsyncResult
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAsyncResult
+- IMFAsyncResult
 targetos: Windows
 req.typenames: 
 req.redist: 

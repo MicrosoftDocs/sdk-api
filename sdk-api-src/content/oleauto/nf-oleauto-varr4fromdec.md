@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarR4FromDec
 title: VarR4FromDec function (oleauto.h)
-
 description: Converts a decimal value to a float value.
 old-location: automat\varr4fromdec.htm
 tech.root: automat
 ms.assetid: d8cee8c9-fe6c-4470-a3a7-00ffbc07d2c0
-
 ms.date: 12/05/2018
 ms.keywords: VarR4FromDec, VarR4FromDec function [Automation], _oa96_VarR4FromDec, automat.varr4fromdec, oleauto/VarR4FromDec
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarR4FromDec"
+f1_keywords:
+- oleauto/VarR4FromDec
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarR4FromDec
+- VarR4FromDec
 targetos: Windows
 req.typenames: 
 req.redist: 

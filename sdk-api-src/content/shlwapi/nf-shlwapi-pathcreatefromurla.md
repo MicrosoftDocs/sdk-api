@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.PathCreateFromUrlA
 title: PathCreateFromUrlA function (shlwapi.h)
-
 description: Converts a file URL to a Microsoft MS-DOS path.
 old-location: shell\PathCreateFromUrl.htm
 tech.root: shell
 ms.assetid: f4136c80-a309-4551-be73-f2f24ecd4675
-
 ms.date: 12/05/2018
 ms.keywords: PathCreateFromUrl, PathCreateFromUrl function [Windows Shell], PathCreateFromUrlA, PathCreateFromUrlW, _win32_PathCreateFromUrl, shell.PathCreateFromUrl, shlwapi/PathCreateFromUrl, shlwapi/PathCreateFromUrlA, shlwapi/PathCreateFromUrlW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/PathCreateFromUrl"
+f1_keywords:
+- shlwapi/PathCreateFromUrl
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-url-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-url-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - PathCreateFromUrl
- - PathCreateFromUrlA
- - PathCreateFromUrlW
+- PathCreateFromUrl
+- PathCreateFromUrlA
+- PathCreateFromUrlW
 targetos: Windows
 req.typenames: 
 req.redist: 

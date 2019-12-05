@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetCommandOptions
 title: IPortableDeviceCapabilities::GetCommandOptions (portabledeviceapi.h)
-
 description: The GetCommandOptions method retrieves all the supported options for the specified command on the device.
 old-location: wpdsdk\iportabledevicecapabilities_getcommandoptions.htm
 tech.root: wpd_sdk
 ms.assetid: d222968f-3ca7-4a4d-bdc6-89a6ca98c7b0
-
 ms.date: 12/05/2018
 ms.keywords: GetCommandOptions, GetCommandOptions method [Windows Portable Devices SDK], GetCommandOptions method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetCommandOptions method, IPortableDeviceCapabilities.GetCommandOptions, IPortableDeviceCapabilities::GetCommandOptions, IPortableDeviceCapabilitiesGetCommandOptions, portabledeviceapi/IPortableDeviceCapabilities::GetCommandOptions, wpdsdk.iportabledevicecapabilities_getcommandoptions
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceCapabilities.GetCommandOptions"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceCapabilities.GetCommandOptions
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceCapabilities.GetCommandOptions
+- IPortableDeviceCapabilities.GetCommandOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

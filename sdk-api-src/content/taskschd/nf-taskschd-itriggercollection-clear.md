@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITriggerCollection.Clear
 title: ITriggerCollection::Clear (taskschd.h)
-
 description: Clears all triggers from the collection.
 old-location: taskschd\itriggercollection_clear.htm
 tech.root: taskschd
 ms.assetid: 9a15ed27-a381-4b5c-9725-3a55ce86d666
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Task Scheduler], Clear method [Task Scheduler],ITriggerCollection interface, ITriggerCollection interface [Task Scheduler],Clear method, ITriggerCollection.Clear, ITriggerCollection::Clear, taskschd.itriggercollection_clear, taskschd/ITriggerCollection::Clear
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITriggerCollection.Clear"
+f1_keywords:
+- taskschd/ITriggerCollection.Clear
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITriggerCollection.Clear
+- ITriggerCollection.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

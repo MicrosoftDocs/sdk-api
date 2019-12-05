@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComObjectEvents.OnObjectActivate
 title: IComObjectEvents::OnObjectActivate (comsvcs.h)
-
 description: Generated when an object gets an instance of a new JIT-activated object.
 old-location: cos\icomobjectevents_onobjectactivate.htm
 tech.root: cossdk
 ms.assetid: 149e3820-0d5b-46ee-9be9-22850115a7c7
-
 ms.date: 12/05/2018
 ms.keywords: IComObjectEvents interface [COM+],OnObjectActivate method, IComObjectEvents.OnObjectActivate, IComObjectEvents::OnObjectActivate, OnObjectActivate, OnObjectActivate method [COM+], OnObjectActivate method [COM+],IComObjectEvents interface, _dtc_IComObjectEvents_OnObjectActivate, comsvcs/IComObjectEvents::OnObjectActivate, cos.icomobjectevents_onobjectactivate
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComObjectEvents.OnObjectActivate"
+f1_keywords:
+- comsvcs/IComObjectEvents.OnObjectActivate
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComObjectEvents.OnObjectActivate
+- IComObjectEvents.OnObjectActivate
 targetos: Windows
 req.typenames: 
 req.redist: 

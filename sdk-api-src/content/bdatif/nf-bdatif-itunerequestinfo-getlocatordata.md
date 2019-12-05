@@ -1,19 +1,17 @@
 ---
 UID: NF:bdatif.ITuneRequestInfo.GetLocatorData
 title: ITuneRequestInfo::GetLocatorData (bdatif.h)
-
 description: The GetLocatorData method fills in channel or program locator information for the specified tune request.
 old-location: mstv\itunerequestinfo_getlocatordata.htm
 tech.root: mstv
 ms.assetid: c325d61d-c99b-4033-bd16-36b74fc38d07
-
 ms.date: 12/05/2018
 ms.keywords: GetLocatorData, GetLocatorData method [Microsoft TV Technologies], GetLocatorData method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetLocatorData method, ITuneRequestInfo.GetLocatorData, ITuneRequestInfo::GetLocatorData, ITuneRequestInfoGetLocatorData, bdatif/ITuneRequestInfo::GetLocatorData, mstv.itunerequestinfo_getlocatordata
 ms.topic: method
-f1_keywords: 
- - "bdatif/ITuneRequestInfo.GetLocatorData"
+f1_keywords:
+- bdatif/ITuneRequestInfo.GetLocatorData
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdatif.h
+- bdatif.h
 api_name:
- - ITuneRequestInfo.GetLocatorData
+- ITuneRequestInfo.GetLocatorData
 targetos: Windows
 req.typenames: 
 req.redist: 

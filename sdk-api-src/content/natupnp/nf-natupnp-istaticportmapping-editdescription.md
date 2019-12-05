@@ -1,19 +1,17 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.EditDescription
 title: IStaticPortMapping::EditDescription (natupnp.h)
-
 description: The EditDescription method sets the description property of this port mapping to the specified value.
 old-location: ics\istaticportmapping_editdescription.htm
 tech.root: ics
 ms.assetid: 6bfa6242-298e-4835-9eda-fdc6a88d848f
-
 ms.date: 12/05/2018
 ms.keywords: EditDescription, EditDescription method [ICS/ICF], EditDescription method [ICS/ICF],IStaticPortMapping interface, IStaticPortMapping interface [ICS/ICF],EditDescription method, IStaticPortMapping.EditDescription, IStaticPortMapping::EditDescription, _ics_istaticportmapping_editdescription, ics.istaticportmapping_editdescription, natupnp/IStaticPortMapping::EditDescription
 ms.topic: method
-f1_keywords: 
- - "natupnp/IStaticPortMapping.EditDescription"
+f1_keywords:
+- natupnp/IStaticPortMapping.EditDescription
 dev_langs:
- - c++
+- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - IStaticPortMapping.EditDescription
+- IStaticPortMapping.EditDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

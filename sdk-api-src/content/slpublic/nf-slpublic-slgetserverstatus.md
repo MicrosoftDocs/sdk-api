@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLGetServerStatus
 title: SLGetServerStatus function (slpublic.h)
-
 description: Checks the server status according to the specified URL and RequestType.
 old-location: security\slgetserverstatus.htm
 tech.root: SecSLApi
 ms.assetid: 3c07fdcc-2282-4d94-ac60-001571cd5da8
-
 ms.date: 12/05/2018
 ms.keywords: SLGetServerStatus, SLGetServerStatus function [Security], SL_INFO_KEY_PRODUCT_ACTIVATION_URL, SL_INFO_KEY_PRODUCT_KEY_ACTIVATION_URL, SL_INFO_KEY_RIGHT_ACCOUNT_ACTIVATION_URL, SL_INFO_KEY_SECURE_PROCESSOR_ACTIVATION_URL, SL_INFO_KEY_USE_LICENSE_ACTIVATION_URL, security.slgetserverstatus, slpublic/SLGetServerStatus
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLGetServerStatus"
+f1_keywords:
+- slpublic/SLGetServerStatus
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLGetServerStatus
+- SLGetServerStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

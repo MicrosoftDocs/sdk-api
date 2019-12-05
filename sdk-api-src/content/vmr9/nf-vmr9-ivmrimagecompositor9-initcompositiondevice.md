@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRImageCompositor9.InitCompositionDevice
 title: IVMRImageCompositor9::InitCompositionDevice (vmr9.h)
-
 description: The InitCompositionDevice method informs the compositor that a new composition target has been created.
 old-location: dshow\ivmrimagecompositor9_initcompositiondevice.htm
 tech.root: DirectShow
 ms.assetid: 78381141-6b6d-4ed5-b8d3-aa1114fd9ac0
-
 ms.date: 12/05/2018
 ms.keywords: IVMRImageCompositor9 interface [DirectShow],InitCompositionDevice method, IVMRImageCompositor9.InitCompositionDevice, IVMRImageCompositor9::InitCompositionDevice, IVMRImageCompositor9InitCompositionDevice, InitCompositionDevice, InitCompositionDevice method [DirectShow], InitCompositionDevice method [DirectShow],IVMRImageCompositor9 interface, dshow.ivmrimagecompositor9_initcompositiondevice, vmr9/IVMRImageCompositor9::InitCompositionDevice
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRImageCompositor9.InitCompositionDevice"
+f1_keywords:
+- vmr9/IVMRImageCompositor9.InitCompositionDevice
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRImageCompositor9.InitCompositionDevice
+- IVMRImageCompositor9.InitCompositionDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

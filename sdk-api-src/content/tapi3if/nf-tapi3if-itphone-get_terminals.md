@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPhone.get_Terminals
 title: ITPhone::get_Terminals (tapi3if.h)
-
 description: The get_Terminals method retrieves a collection of terminals that are associated with the phone. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_get_terminals.htm
 tech.root: Tapi
 ms.assetid: 09e5921c-c7da-40fc-902a-1e22ebe19b0a
-
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_Terminals method, ITPhone.get_Terminals, ITPhone::get_Terminals, _tapi3_itphone_get_terminals, get_Terminals, get_Terminals method [TAPI 2.2], get_Terminals method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_terminals, tapi3if/ITPhone::get_Terminals
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPhone.get_Terminals"
+f1_keywords:
+- tapi3if/ITPhone.get_Terminals
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhone.get_Terminals
+- ITPhone.get_Terminals
 targetos: Windows
 req.typenames: 
 req.redist: 

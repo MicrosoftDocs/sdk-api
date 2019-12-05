@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkCollector.put_hWnd
 title: IInkCollector::put_hWnd (msinkaut.h)
-
 description: Gets or sets the handle value of the window on which ink is drawn.
 old-location: tablet\inkcollector_hwnd.htm
 tech.root: tablet
 ms.assetid: 1a8b933f-a4f0-46f5-8b41-df89b6378e9f
-
 ms.date: 12/05/2018
 ms.keywords: 1a8b933f-a4f0-46f5-8b41-df89b6378e9f, IInkCollector interface [Tablet PC],hWnd property, IInkCollector.hWnd, IInkCollector.put_hWnd, IInkCollector::get_hWnd, IInkCollector::hWnd, IInkCollector::put_hWnd, InkCollector.get_hWnd, InkCollector.put_hWnd, get_hWnd, hWnd property [Tablet PC], hWnd property [Tablet PC],IInkCollector interface, msinkaut/IInkCollector::get_hWnd, msinkaut/IInkCollector::hWnd, msinkaut/IInkCollector::put_hWnd, put_hWnd, tablet.inkcollector_hwnd
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkCollector.hWnd"
+f1_keywords:
+- msinkaut/IInkCollector.hWnd
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkCollector.hWnd
- - IInkCollector.get_hWnd
- - IInkCollector.put_hWnd
- - put_hWnd
- - IInkCollector.put_hWnd
- - InkCollector.get_hWnd
- - InkCollector.put_hWnd
+- IInkCollector.hWnd
+- IInkCollector.get_hWnd
+- IInkCollector.put_hWnd
+- put_hWnd
+- IInkCollector.put_hWnd
+- InkCollector.get_hWnd
+- InkCollector.put_hWnd
 targetos: Windows
 req.typenames: 
 req.redist: 

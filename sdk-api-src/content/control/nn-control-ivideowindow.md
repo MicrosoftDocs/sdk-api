@@ -1,19 +1,17 @@
 ---
 UID: NN:control.IVideoWindow
 title: IVideoWindow (control.h)
-
 description: The IVideoWindow interface sets properties on the video window.
 old-location: dshow\ivideowindow.htm
 tech.root: DirectShow
 ms.assetid: 8e931c15-bd1d-409e-ada1-97fe49125fe7
-
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], IVideoWindow interface [DirectShow],described, IVideoWindowInterface, control/IVideoWindow, dshow.ivideowindow
 ms.topic: interface
-f1_keywords: 
- - "control/IVideoWindow"
+f1_keywords:
+- control/IVideoWindow
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow
+- IVideoWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

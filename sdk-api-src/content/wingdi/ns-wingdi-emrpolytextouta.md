@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRPOLYTEXTOUTA
 title: EMRPOLYTEXTOUTA (wingdi.h)
-
 description: The EMRPOLYTEXTOUTA and EMRPOLYTEXTOUTW structures contain members for the PolyTextOut enhanced metafile record.
 old-location: gdi\emrpolytextouta__emrpolytextoutw.htm
 tech.root: gdi
 ms.assetid: 9c1decdd-fe6f-4220-abba-7547ab5427ba
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRPOLYTEXTOUTA, *PEMRPOLYTEXTOUTW, EMRPOLYTEXTOUTA, EMRPOLYTEXTOUTA structure [Windows GDI], EMRPOLYTEXTOUTA,EMRPOLYTEXTOUTW, EMRPOLYTEXTOUTA,EMRPOLYTEXTOUTW structure [Windows GDI], EMRPOLYTEXTOUTW, EMRPOLYTEXTOUTW structure [Windows GDI], PEMRPOLYTEXTOUTA, PEMRPOLYTEXTOUTA structure pointer [Windows GDI], PEMRPOLYTEXTOUTW, PEMRPOLYTEXTOUTW structure pointer [Windows GDI], _win32_EMRPOLYTEXTOUTA_str, gdi.emrpolytextouta__emrpolytextoutw, wingdi/EMRPOLYTEXTOUTA,EMRPOLYTEXTOUTW, wingdi/EMRPOLYTEXTOUTW, wingdi/PEMRPOLYTEXTOUTA, wingdi/PEMRPOLYTEXTOUTW"
+ms.keywords: '*PEMRPOLYTEXTOUTA, *PEMRPOLYTEXTOUTW, EMRPOLYTEXTOUTA, EMRPOLYTEXTOUTA structure [Windows GDI], EMRPOLYTEXTOUTA,EMRPOLYTEXTOUTW, EMRPOLYTEXTOUTA,EMRPOLYTEXTOUTW structure [Windows GDI], EMRPOLYTEXTOUTW, EMRPOLYTEXTOUTW structure [Windows GDI], PEMRPOLYTEXTOUTA, PEMRPOLYTEXTOUTA structure pointer [Windows GDI], PEMRPOLYTEXTOUTW, PEMRPOLYTEXTOUTW structure pointer [Windows GDI], _win32_EMRPOLYTEXTOUTA_str, gdi.emrpolytextouta__emrpolytextoutw, wingdi/EMRPOLYTEXTOUTA,EMRPOLYTEXTOUTW, wingdi/EMRPOLYTEXTOUTW, wingdi/PEMRPOLYTEXTOUTA, wingdi/PEMRPOLYTEXTOUTW'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRPOLYTEXTOUTA"
+f1_keywords:
+- wingdi/EMRPOLYTEXTOUTA
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRPOLYTEXTOUTA
+- EMRPOLYTEXTOUTA
 targetos: Windows
 req.typenames: EMRPOLYTEXTOUTA, *PEMRPOLYTEXTOUTA, EMRPOLYTEXTOUTW, *PEMRPOLYTEXTOUTW
 req.redist: 

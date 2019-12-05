@@ -1,19 +1,17 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl2.GetSessionIdentifier
 title: IAudioSessionControl2::GetSessionIdentifier (audiopolicy.h)
-
 description: The GetSessionIdentifier method retrieves the audio session identifier.
 old-location: coreaudio\iaudiosessioncontrol2_getsessionidentifier.htm
 tech.root: CoreAudio
 ms.assetid: 1854e7fe-9d5f-42f3-9c4c-f2a27f26ac17
-
 ms.date: 12/05/2018
 ms.keywords: GetSessionIdentifier, GetSessionIdentifier method [Core Audio], GetSessionIdentifier method [Core Audio],IAudioSessionControl2 interface, IAudioSessionControl2 interface [Core Audio],GetSessionIdentifier method, IAudioSessionControl2.GetSessionIdentifier, IAudioSessionControl2::GetSessionIdentifier, audiopolicy/IAudioSessionControl2::GetSessionIdentifier, coreaudio.iaudiosessioncontrol2_getsessionidentifier
 ms.topic: method
-f1_keywords: 
- - "audiopolicy/IAudioSessionControl2.GetSessionIdentifier"
+f1_keywords:
+- audiopolicy/IAudioSessionControl2.GetSessionIdentifier
 dev_langs:
- - c++
+- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - audiopolicy.h
+- audiopolicy.h
 api_name:
- - IAudioSessionControl2.GetSessionIdentifier
+- IAudioSessionControl2.GetSessionIdentifier
 targetos: Windows
 req.typenames: 
 req.redist: 

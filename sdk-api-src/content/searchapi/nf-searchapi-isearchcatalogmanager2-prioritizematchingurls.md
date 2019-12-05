@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager2.PrioritizeMatchingURLs
 title: ISearchCatalogManager2::PrioritizeMatchingURLs (searchapi.h)
-
 description: Instructs the indexer to give a higher priority to indexing items that have URLs that match a specified pattern. These items will then have a higher priority than other indexing tasks.
 old-location: search\_search_ISearchCatalogManager2_PrioritizeMatchingURLs.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager2\prioritizematchingurls.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager2 interface [search],PrioritizeMatchingURLs method, ISearchCatalogManager2.PrioritizeMatchingURLs, ISearchCatalogManager2::PrioritizeMatchingURLs, PrioritizeMatchingURLs, PrioritizeMatchingURLs method [search], PrioritizeMatchingURLs method [search],ISearchCatalogManager2 interface, _search_ISearchCatalogManager2_PrioritizeMatchingURLs, search._search_ISearchCatalogManager2_PrioritizeMatchingURLs, searchapi/ISearchCatalogManager2::PrioritizeMatchingURLs
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchCatalogManager2.PrioritizeMatchingURLs"
+f1_keywords:
+- searchapi/ISearchCatalogManager2.PrioritizeMatchingURLs
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchCatalogManager2.PrioritizeMatchingURLs
+- ISearchCatalogManager2.PrioritizeMatchingURLs
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search (WS) 4.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetCurrentThemeName
 title: GetCurrentThemeName function (uxtheme.h)
-
 description: Retrieves the name of the current visual style, and optionally retrieves the color scheme name and size name.
 old-location: controls\GetCurrentThemeName.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getcurrentthemename.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentThemeName, GetCurrentThemeName function [Windows Controls], controls.GetCurrentThemeName, controls.inet_GetCurrentThemeName, inet_GetCurrentThemeName, inet_GetCurrentThemeName_cpp, uxtheme/GetCurrentThemeName
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetCurrentThemeName"
+f1_keywords:
+- uxtheme/GetCurrentThemeName
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll (version 1.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - GetCurrentThemeName
+- GetCurrentThemeName
 targetos: Windows
 req.typenames: 
 req.redist: 

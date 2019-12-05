@@ -1,19 +1,17 @@
 ---
 UID: NF:http.HttpAddUrlToUrlGroup
 title: HttpAddUrlToUrlGroup function (http.h)
-
 description: Adds the specified URL to the URL Group identified by the URL Group ID.
 old-location: http\httpaddurltourlgroup.htm
 tech.root: http
 ms.assetid: e6bf68aa-d6a5-4079-b689-49cfc2303ba5
-
 ms.date: 12/05/2018
 ms.keywords: HttpAddUrlToUrlGroup, HttpAddUrlToUrlGroup function [HTTP], http.httpaddurltourlgroup, http/HttpAddUrlToUrlGroup
 ms.topic: function
-f1_keywords: 
- - "http/HttpAddUrlToUrlGroup"
+f1_keywords:
+- http/HttpAddUrlToUrlGroup
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Httpapi.dll
+- Httpapi.dll
 api_name:
- - HttpAddUrlToUrlGroup
+- HttpAddUrlToUrlGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

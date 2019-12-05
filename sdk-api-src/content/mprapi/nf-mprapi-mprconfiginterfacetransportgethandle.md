@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceTransportGetHandle
 title: MprConfigInterfaceTransportGetHandle function (mprapi.h)
-
 description: The MprConfigInterfaceTransportGetHandle function retrieves a handle to the transport configuration of an interface in the specified router configuration.
 old-location: rras\mprconfiginterfacetransportgethandle.htm
 tech.root: RRAS
 ms.assetid: 668ad25c-c5a6-4676-825d-310cc99b321b
-
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceTransportGetHandle, MprConfigInterfaceTransportGetHandle function [RAS], _mpr_mprconfiginterfacetransportgethandle, mprapi/MprConfigInterfaceTransportGetHandle, rras.mprconfiginterfacetransportgethandle
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprConfigInterfaceTransportGetHandle"
+f1_keywords:
+- mprapi/MprConfigInterfaceTransportGetHandle
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprConfigInterfaceTransportGetHandle
+- MprConfigInterfaceTransportGetHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

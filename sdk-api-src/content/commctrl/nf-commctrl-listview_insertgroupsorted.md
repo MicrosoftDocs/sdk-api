@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_InsertGroupSorted
 title: ListView_InsertGroupSorted macro (commctrl.h)
-
 description: Inserts a group into an ordered list of groups. You can use this macro or send the LVM_INSERTGROUPSORTED message explicitly.
 old-location: controls\ListView_InsertGroupSorted.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_insertgroupsorted.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_InsertGroupSorted, ListView_InsertGroupSorted macro [Windows Controls], _win32_ListView_InsertGroupSorted, _win32_ListView_InsertGroupSorted_cpp, commctrl/ListView_InsertGroupSorted, controls.ListView_InsertGroupSorted, controls._win32_ListView_InsertGroupSorted
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_InsertGroupSorted"
+f1_keywords:
+- commctrl/ListView_InsertGroupSorted
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_InsertGroupSorted
+- ListView_InsertGroupSorted
 targetos: Windows
 req.typenames: 
 req.redist: 

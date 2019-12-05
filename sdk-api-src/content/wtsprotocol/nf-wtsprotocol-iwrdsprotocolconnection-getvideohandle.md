@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetVideoHandle
 title: IWRdsProtocolConnection::GetVideoHandle (wtsprotocol.h)
-
 description: Obtains the handle of the video device for the protocol.
 old-location: termserv\iwrdsprotocolconnection_getvideohandle.htm
 tech.root: TermServ
 ms.assetid: 069ee899-ae3a-4043-92b5-e193dbfe4f54
-
 ms.date: 12/05/2018
 ms.keywords: GetVideoHandle, GetVideoHandle method [Remote Desktop Services], GetVideoHandle method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetVideoHandle method, IWRdsProtocolConnection.GetVideoHandle, IWRdsProtocolConnection::GetVideoHandle, termserv.iwrdsprotocolconnection_getvideohandle, wtsprotocol/IWRdsProtocolConnection::GetVideoHandle
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolConnection.GetVideoHandle"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolConnection.GetVideoHandle
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolConnection.GetVideoHandle
+- IWRdsProtocolConnection.GetVideoHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

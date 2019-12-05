@@ -1,19 +1,17 @@
 ---
 UID: NC:ddraw.LPDDENUMMODESCALLBACK
 title: LPDDENUMMODESCALLBACK (ddraw.h)
-
 description: Do not use. This callback function is superseded by the EnumModesCallback2 function that is used with the IDirectDraw7::EnumDisplayModes method.
 old-location: directdraw\enummodescallback.htm
 tech.root: directdraw
 ms.assetid: 5959FD6F-7C48-43EA-8C7C-BCA659D06CE2
-
 ms.date: 12/05/2018
 ms.keywords: EnumModesCallback, EnumModesCallback callback function [DirectDraw], LPDDENUMMODESCALLBACK, LPDDENUMMODESCALLBACK callback, ddraw/EnumModesCallback, directdraw.enummodescallback
 ms.topic: callback
-f1_keywords: 
- - "ddraw/EnumModesCallback"
+f1_keywords:
+- ddraw/EnumModesCallback
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ddraw.h
+- Ddraw.h
 api_name:
- - EnumModesCallback
+- EnumModesCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.IAccPropServices.ComposeHwndIdentityString
 title: IAccPropServices::ComposeHwndIdentityString (oleacc.h)
-
 description: Callers use ComposeHwndIdentityString to retrieve an identity string.
 old-location: winauto\iaccpropservices_iaccpropservices__composehwndidentitystring.htm
 tech.root: WinAuto
 ms.assetid: e6712e47-7f00-4932-9a12-40ecafdbf584
-
 ms.date: 12/05/2018
 ms.keywords: ComposeHwndIdentityString, ComposeHwndIdentityString method [Windows Accessibility], ComposeHwndIdentityString method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],ComposeHwndIdentityString method, IAccPropServices.ComposeHwndIdentityString, IAccPropServices::ComposeHwndIdentityString, _msaa_IAccPropServices_ComposeHwndIdentityString, msaa.iaccpropservices_iaccpropservices__composehwndidentitystring, oleacc/IAccPropServices::ComposeHwndIdentityString, winauto.iaccpropservices_iaccpropservices__composehwndidentitystring
 ms.topic: method
-f1_keywords: 
- - "oleacc/IAccPropServices.ComposeHwndIdentityString"
+f1_keywords:
+- oleacc/IAccPropServices.ComposeHwndIdentityString
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - IAccPropServices.ComposeHwndIdentityString
+- IAccPropServices.ComposeHwndIdentityString
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98

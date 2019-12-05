@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITTerminal.get_MediaType
 title: ITTerminal::get_MediaType (tapi3if.h)
-
 description: The get_MediaType method determines the media that this terminal supports.
 old-location: tapi3\itterminal_get_mediatype.htm
 tech.root: Tapi
 ms.assetid: 8c2006ad-d2f9-4e21-b0ae-583ec3ff82f4
-
 ms.date: 12/05/2018
 ms.keywords: ITTerminal interface [TAPI 2.2],get_MediaType method, ITTerminal.get_MediaType, ITTerminal::get_MediaType, _tapi3_itterminal_get_mediatype, get_MediaType, get_MediaType method [TAPI 2.2], get_MediaType method [TAPI 2.2],ITTerminal interface, tapi3.itterminal_get_mediatype, tapi3if/ITTerminal::get_MediaType
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITTerminal.get_MediaType"
+f1_keywords:
+- tapi3if/ITTerminal.get_MediaType
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - ITTerminal.get_MediaType
+- ITTerminal.get_MediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

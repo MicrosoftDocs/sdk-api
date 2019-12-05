@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetNumaNodeNumberFromHandle
 title: GetNumaNodeNumberFromHandle function (winbase.h)
-
 description: Retrieves the NUMA node associated with the file or I/O device represented by the specified file handle.
 old-location: base\getnumanodenumberfromhandle.htm
 tech.root: ProcThread
 ms.assetid: 7622f7c9-2dfc-4ab7-b3e9-48d483c6cc0e
-
 ms.date: 12/05/2018
 ms.keywords: GetNumaNodeNumberFromHandle, GetNumaNodeNumberFromHandle function, base.getnumanodenumberfromhandle, winbase/GetNumaNodeNumberFromHandle
 ms.topic: function
-f1_keywords: 
- - "winbase/GetNumaNodeNumberFromHandle"
+f1_keywords:
+- winbase/GetNumaNodeNumberFromHandle
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
+- kernel32.dll
 api_name:
- - GetNumaNodeNumberFromHandle
+- GetNumaNodeNumberFromHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

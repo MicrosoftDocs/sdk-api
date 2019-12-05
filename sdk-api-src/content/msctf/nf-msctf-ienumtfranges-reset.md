@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumTfRanges.Reset
 title: IEnumTfRanges::Reset (msctf.h)
-
 description: IEnumTfRanges::Reset method
 old-location: tsf\ienumtfranges_reset.htm
 tech.root: TSF
 ms.assetid: c7f8ea8d-5627-4dc1-ab22-a9e14f536520
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfRanges interface [Text Services Framework],Reset method, IEnumTfRanges.Reset, IEnumTfRanges::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfRanges interface, _tsf_ienumtfranges_reset_ref, msctf/IEnumTfRanges::Reset, tsf.ienumtfranges_reset
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumTfRanges.Reset"
+f1_keywords:
+- msctf/IEnumTfRanges.Reset
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - IEnumTfRanges.Reset
+- IEnumTfRanges.Reset
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

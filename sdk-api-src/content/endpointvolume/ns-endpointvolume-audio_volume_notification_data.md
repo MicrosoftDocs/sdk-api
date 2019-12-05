@@ -1,19 +1,17 @@
 ---
 UID: NS:endpointvolume.AUDIO_VOLUME_NOTIFICATION_DATA
 title: AUDIO_VOLUME_NOTIFICATION_DATA (endpointvolume.h)
-
 description: The AUDIO_VOLUME_NOTIFICATION_DATA structure describes a change in the volume level or muting state of an audio endpoint device.
 old-location: coreaudio\audio_volume_notification_data.htm
 tech.root: CoreAudio
 ms.assetid: 8778eb32-bc37-4d21-a096-f932db3d7b3f
-
 ms.date: 12/05/2018
-ms.keywords: "*PAUDIO_VOLUME_NOTIFICATION_DATA, AUDIO_VOLUME_NOTIFICATION_DATA, AUDIO_VOLUME_NOTIFICATION_DATA structure [Core Audio], AUDIO_VOLUME_NOTIFICATION_DATAStructure, PAUDIO_VOLUME_NOTIFICATION_DATA, PAUDIO_VOLUME_NOTIFICATION_DATA structure pointer [Core Audio], coreaudio.audio_volume_notification_data, endpointvolume/AUDIO_VOLUME_NOTIFICATION_DATA, endpointvolume/PAUDIO_VOLUME_NOTIFICATION_DATA"
+ms.keywords: '*PAUDIO_VOLUME_NOTIFICATION_DATA, AUDIO_VOLUME_NOTIFICATION_DATA, AUDIO_VOLUME_NOTIFICATION_DATA structure [Core Audio], AUDIO_VOLUME_NOTIFICATION_DATAStructure, PAUDIO_VOLUME_NOTIFICATION_DATA, PAUDIO_VOLUME_NOTIFICATION_DATA structure pointer [Core Audio], coreaudio.audio_volume_notification_data, endpointvolume/AUDIO_VOLUME_NOTIFICATION_DATA, endpointvolume/PAUDIO_VOLUME_NOTIFICATION_DATA'
 ms.topic: struct
-f1_keywords: 
- - "endpointvolume/AUDIO_VOLUME_NOTIFICATION_DATA"
+f1_keywords:
+- endpointvolume/AUDIO_VOLUME_NOTIFICATION_DATA
 dev_langs:
- - c++
+- c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Endpointvolume.h
+- Endpointvolume.h
 api_name:
- - AUDIO_VOLUME_NOTIFICATION_DATA
+- AUDIO_VOLUME_NOTIFICATION_DATA
 targetos: Windows
 req.typenames: AUDIO_VOLUME_NOTIFICATION_DATA, *PAUDIO_VOLUME_NOTIFICATION_DATA
 req.redist: 

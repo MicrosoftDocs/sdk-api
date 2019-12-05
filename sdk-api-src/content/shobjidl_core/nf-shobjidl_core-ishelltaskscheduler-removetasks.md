@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellTaskScheduler.RemoveTasks
 title: IShellTaskScheduler::RemoveTasks (shobjidl_core.h)
-
 description: Removes tasks from the scheduler's background queue.
 old-location: shell\IShellTaskScheduler_RemoveTasks.htm
 tech.root: shell
 ms.assetid: a160cfcf-f989-4a7c-9da0-97d658c151b9
-
 ms.date: 12/05/2018
 ms.keywords: IShellTaskScheduler interface [Windows Shell],RemoveTasks method, IShellTaskScheduler.RemoveTasks, IShellTaskScheduler::RemoveTasks, RemoveTasks, RemoveTasks method [Windows Shell], RemoveTasks method [Windows Shell],IShellTaskScheduler interface, _win32_IShellTaskScheduler_RemoveTasks, shell.IShellTaskScheduler_RemoveTasks, shobjidl_core/IShellTaskScheduler::RemoveTasks
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellTaskScheduler.RemoveTasks"
+f1_keywords:
+- shobjidl_core/IShellTaskScheduler.RemoveTasks
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellTaskScheduler.RemoveTasks
+- IShellTaskScheduler.RemoveTasks
 targetos: Windows
 req.typenames: 
 req.redist: 

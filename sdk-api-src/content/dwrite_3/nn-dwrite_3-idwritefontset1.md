@@ -2,16 +2,14 @@
 UID: NN:dwrite_3.IDWriteFontSet1
 title: IDWriteFontSet1
 description: Represents a font set.
-
 tech.root: DirectWrite
-
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet1, IDWriteFontSet1 interface [Direct Write], IDWriteFontSet1 interface [Direct Write],described, directwrite.idwritefontset1, dwrite_3/IDWriteFontSet1
 ms.topic: interface
 f1_keywords:
- - IDWriteFontSet1
+- IDWriteFontSet1
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -28,15 +26,15 @@ req.target-min-winversvr:
 req.target-type: Windows
 req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFontSet1
+- IDWriteFontSet1
 ---
 
 ## -description

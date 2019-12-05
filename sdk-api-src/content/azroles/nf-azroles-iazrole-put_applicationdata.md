@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzRole.put_ApplicationData
 title: IAzRole::put_ApplicationData (azroles.h)
-
 description: The ApplicationData property of IAzRole sets or retrieves an opaque field that can be used by the application to store information.
 old-location: security\iazrole_applicationdata.htm
 tech.root: SecAuthZ
 ms.assetid: 6cb85528-35b4-4fed-98bb-6209dd0af0fd
-
 ms.date: 12/05/2018
 ms.keywords: ApplicationData property [Security], ApplicationData property [Security],AzRole object, ApplicationData property [Security],IAzRole interface, AzRole object [Security],ApplicationData property, IAzRole interface [Security],ApplicationData property, IAzRole.ApplicationData, IAzRole.put_ApplicationData, IAzRole::ApplicationData, IAzRole::get_ApplicationData, IAzRole::put_ApplicationData, azroles/IAzRole::ApplicationData, azroles/IAzRole::get_ApplicationData, azroles/IAzRole::put_ApplicationData, put_ApplicationData, security.iazrole_applicationdata
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzRole.ApplicationData"
+f1_keywords:
+- azroles/IAzRole.ApplicationData
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzRole.ApplicationData
- - IAzRole.get_ApplicationData
- - IAzRole.put_ApplicationData
- - AzRole.ApplicationData
+- IAzRole.ApplicationData
+- IAzRole.get_ApplicationData
+- IAzRole.put_ApplicationData
+- AzRole.ApplicationData
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

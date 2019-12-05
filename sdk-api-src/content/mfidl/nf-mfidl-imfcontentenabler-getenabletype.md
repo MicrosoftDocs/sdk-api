@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFContentEnabler.GetEnableType
 title: IMFContentEnabler::GetEnableType (mfidl.h)
-
 description: Retrieves the type of operation that this content enabler performs.
 old-location: mf\imfcontentenabler_getenabletype.htm
 tech.root: medfound
 ms.assetid: 9fe597d8-788c-48c4-a21a-0b91a890710f
-
 ms.date: 12/05/2018
 ms.keywords: 9fe597d8-788c-48c4-a21a-0b91a890710f, GetEnableType, GetEnableType method [Media Foundation], GetEnableType method [Media Foundation],IMFContentEnabler interface, IMFContentEnabler interface [Media Foundation],GetEnableType method, IMFContentEnabler.GetEnableType, IMFContentEnabler::GetEnableType, mf.imfcontentenabler_getenabletype, mfidl/IMFContentEnabler::GetEnableType
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFContentEnabler.GetEnableType"
+f1_keywords:
+- mfidl/IMFContentEnabler.GetEnableType
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFContentEnabler.GetEnableType
+- IMFContentEnabler.GetEnableType
 targetos: Windows
 req.typenames: 
 req.redist: 

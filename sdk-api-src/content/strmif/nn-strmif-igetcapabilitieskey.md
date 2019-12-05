@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IGetCapabilitiesKey
 title: IGetCapabilitiesKey (strmif.h)
-
 description: The IGetCapabilitiesKey interface enables an application to retrieve the capabilities of a software or hardware codec from the registry, without creating an instance of the encoder filter.
 old-location: dshow\igetcapabilitieskey.htm
 tech.root: DirectShow
 ms.assetid: 97a9112f-7b7b-4a7e-8f40-bdb148d413c8
-
 ms.date: 12/05/2018
 ms.keywords: IGetCapabilitiesKey, IGetCapabilitiesKey interface [DirectShow], IGetCapabilitiesKey interface [DirectShow],described, IGetCapabilitiesKeyInterface, dshow.igetcapabilitieskey, strmif/IGetCapabilitiesKey
 ms.topic: interface
-f1_keywords: 
- - "strmif/IGetCapabilitiesKey"
+f1_keywords:
+- strmif/IGetCapabilitiesKey
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IGetCapabilitiesKey
+- IGetCapabilitiesKey
 targetos: Windows
 req.typenames: 
 req.redist: 

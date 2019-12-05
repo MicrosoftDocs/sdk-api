@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMClearAllRights
 title: DRMClearAllRights function (msdrm.h)
-
 description: Removes all rights from an existing issuance license.
 old-location: rm\drmclearallrights.htm
 tech.root: AdRms_Sdk
 ms.assetid: f0a5dc8d-2bc6-4fcc-8871-ea80fc6a4abc
-
 ms.date: 12/05/2018
 ms.keywords: DRMClearAllRights, DRMClearAllRights function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMClearAllRights, rm.drmclearallrights
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMClearAllRights"
+f1_keywords:
+- msdrm/DRMClearAllRights
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMClearAllRights
+- DRMClearAllRights
 targetos: Windows
 req.typenames: 
 req.redist: 

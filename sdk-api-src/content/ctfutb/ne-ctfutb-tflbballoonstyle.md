@@ -1,19 +1,17 @@
 ---
 UID: NE:ctfutb.__MIDL_ITfLangBarItemBalloon_0001
 title: TfLBBalloonStyle (ctfutb.h)
-
 description: Elements of the TfLBBalloonStyle enumeration are used to specify a language bar balloon style.
 old-location: tsf\tflbballoonstyle.htm
 tech.root: TSF
 ms.assetid: c79eb490-b950-4d49-bdf9-821f3706446d
-
 ms.date: 12/05/2018
 ms.keywords: TF_LB_BALLOON_MISS, TF_LB_BALLOON_RECO, TF_LB_BALLOON_SHOW, TfLBBalloonStyle, TfLBBalloonStyle enumeration [Text Services Framework], _tsf_tflbballoonstyle_ref, ctfutb/TF_LB_BALLOON_MISS, ctfutb/TF_LB_BALLOON_RECO, ctfutb/TF_LB_BALLOON_SHOW, ctfutb/TfLBBalloonStyle, tsf.tflbballoonstyle
 ms.topic: enum
-f1_keywords: 
- - "ctfutb/TfLBBalloonStyle"
+f1_keywords:
+- ctfutb/TfLBBalloonStyle
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ctfutb.h
+- Ctfutb.h
 api_name:
- - TfLBBalloonStyle
+- TfLBBalloonStyle
 targetos: Windows
 req.typenames: TfLBBalloonStyle
 req.redist: TSF 1.0 on Windows 2000 Professional

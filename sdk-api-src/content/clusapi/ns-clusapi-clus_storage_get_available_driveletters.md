@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi._CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS
 title: CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS (clusapi.h)
-
 description: Contains a bitmask of the driver letters that are available on a node. It is used as the return value of the CLUSCTL_RESOURCE_TYPE_STORAGE_GET_DRIVELETTERS control code.
 old-location: mscs\clus_storage_get_available_driveletters.htm
 tech.root: MsCS
 ms.assetid: 37a843db-bb11-46e5-9b1c-da8403f73aa6
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS structure [Failover Cluster], PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS structure pointer [Failover Cluster], clusapi/CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, clusapi/PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, mscs.clus_storage_get_available_driveletters"
+ms.keywords: '*PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS structure [Failover Cluster], PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS structure pointer [Failover Cluster], clusapi/CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, clusapi/PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, mscs.clus_storage_get_available_driveletters'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS"
+f1_keywords:
+- clusapi/CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS
+- CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS
 targetos: Windows
 req.typenames: CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS, *PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS
 req.redist: 

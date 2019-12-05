@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFactory.UnregisterFontFileLoader
 title: IDWriteFactory::UnregisterFontFileLoader (dwrite.h)
-
 description: Unregisters a font file loader that was previously registered with the DirectWrite font system using RegisterFontFileLoader.
 old-location: directwrite\IDWriteFactory_UnregisterFontFileLoader.htm
 tech.root: DirectWrite
 ms.assetid: f048671e-dfb6-449d-9bcd-e5df8408c01a
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFactory interface [Direct Write],UnregisterFontFileLoader method, IDWriteFactory.UnregisterFontFileLoader, IDWriteFactory::UnregisterFontFileLoader, UnregisterFontFileLoader, UnregisterFontFileLoader method [Direct Write], UnregisterFontFileLoader method [Direct Write],IDWriteFactory interface, directwrite.IDWriteFactory_UnregisterFontFileLoader, dwrite/IDWriteFactory::UnregisterFontFileLoader
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFactory.UnregisterFontFileLoader"
+f1_keywords:
+- dwrite/IDWriteFactory.UnregisterFontFileLoader
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFactory.UnregisterFontFileLoader
+- IDWriteFactory.UnregisterFontFileLoader
 targetos: Windows
 req.typenames: 
 req.redist: 

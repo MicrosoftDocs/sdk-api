@@ -1,19 +1,17 @@
 ---
 UID: NE:syncmgr.SYNCMGR_CONTROL_FLAGS
 title: SYNCMGR_CONTROL_FLAGS (syncmgr.h)
-
 description: Specifies how an operation requested on certain methods of ISyncMgrControl should be performed.
 old-location: shell\SYNCMGR_CONTROL_FLAGS.htm
 tech.root: shell
 ms.assetid: cfba36ba-8cbd-41ae-91ae-e568546508b9
-
 ms.date: 12/05/2018
 ms.keywords: SYNCMGR_CF_NONE, SYNCMGR_CF_NOUI, SYNCMGR_CF_NOWAIT, SYNCMGR_CF_VALID, SYNCMGR_CF_WAIT, SYNCMGR_CONTROL_FLAGS, SYNCMGR_CONTROL_FLAGS enumeration [Windows Shell], shell.SYNCMGR_CONTROL_FLAGS, shell_SYNCMGR_CONTROL_FLAGS, syncmgr/SYNCMGR_CF_NONE, syncmgr/SYNCMGR_CF_NOUI, syncmgr/SYNCMGR_CF_NOWAIT, syncmgr/SYNCMGR_CF_VALID, syncmgr/SYNCMGR_CF_WAIT, syncmgr/SYNCMGR_CONTROL_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "syncmgr/SYNCMGR_CONTROL_FLAGS"
+f1_keywords:
+- syncmgr/SYNCMGR_CONTROL_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - SYNCMGR_CONTROL_FLAGS
+- SYNCMGR_CONTROL_FLAGS
 targetos: Windows
 req.typenames: SYNCMGR_CONTROL_FLAGS
 req.redist: 

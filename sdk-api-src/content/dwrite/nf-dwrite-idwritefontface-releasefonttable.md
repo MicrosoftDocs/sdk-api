@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.ReleaseFontTable
 title: IDWriteFontFace::ReleaseFontTable (dwrite.h)
-
 description: Releases the table obtained earlier from TryGetFontTable.
 old-location: directwrite\IDWriteFontFace_ReleaseFontTable.htm
 tech.root: DirectWrite
 ms.assetid: 6e9b7e30-eae9-476b-89bd-a794e08ba468
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFace interface [Direct Write],ReleaseFontTable method, IDWriteFontFace.ReleaseFontTable, IDWriteFontFace::ReleaseFontTable, ReleaseFontTable, ReleaseFontTable method [Direct Write], ReleaseFontTable method [Direct Write],IDWriteFontFace interface, directwrite.IDWriteFontFace_ReleaseFontTable, dwrite/IDWriteFontFace::ReleaseFontTable
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFontFace.ReleaseFontTable"
+f1_keywords:
+- dwrite/IDWriteFontFace.ReleaseFontTable
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFace.ReleaseFontTable
+- IDWriteFontFace.ReleaseFontTable
 targetos: Windows
 req.typenames: 
 req.redist: 

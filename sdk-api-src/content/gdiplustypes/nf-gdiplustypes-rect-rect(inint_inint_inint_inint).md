@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.Rect.Rect(IN INT,IN INT,IN INT,IN INT)
 title: Rect::Rect(IN INT,IN INT,IN INT,IN INT) (gdiplustypes.h)
-
 description: Creates a Rect object by using four integers to initialize the X, Y, Width, and Height data members.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Rect_x_y_width_height_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectconstructors\rect_73x_y_width_height.htm
-
 ms.date: 12/05/2018
 ms.keywords: Rect, Rect class [GDI+],Rect constructor, Rect constructor [GDI+], Rect constructor [GDI+],Rect class, Rect.Rect, Rect.Rect(IN INT,IN INT,IN INT,IN INT), Rect.Rect(INT,INT,INT,INT), Rect::Rect, Rect::Rect(IN INT,IN INT,IN INT,IN INT), _gdiplus_CLASS_Rect_Rect_x_y_width_height_, gdiplus._gdiplus_CLASS_Rect_Rect_x_y_width_height_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/Rect.Rect"
+f1_keywords:
+- gdiplustypes/Rect.Rect
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Rect.Rect
+- Rect.Rect
 targetos: Windows
 req.typenames: 
 req.redist: 

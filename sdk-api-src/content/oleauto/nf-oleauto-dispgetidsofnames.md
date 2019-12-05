@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.DispGetIDsOfNames
 title: DispGetIDsOfNames function (oleauto.h)
-
 description: Low-level helper for Invoke that provides machine independence for customized Invoke.
 old-location: automat\dispgetidsofnames.htm
 tech.root: automat
 ms.assetid: 720a0237-9c68-4252-9f66-43610d4be106
-
 ms.date: 12/05/2018
 ms.keywords: DispGetIDsOfNames, DispGetIDsOfNames function [Automation], _oa96_DispGetIDsOfNames, automat.dispgetidsofnames, oleauto/DispGetIDsOfNames
 ms.topic: function
-f1_keywords: 
- - "oleauto/DispGetIDsOfNames"
+f1_keywords:
+- oleauto/DispGetIDsOfNames
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - DispGetIDsOfNames
+- DispGetIDsOfNames
 targetos: Windows
 req.typenames: 
 req.redist: 

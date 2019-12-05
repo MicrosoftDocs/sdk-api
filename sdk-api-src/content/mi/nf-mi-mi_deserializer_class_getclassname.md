@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Deserializer_Class_GetClassName
 title: MI_Deserializer_Class_GetClassName function (mi.h)
-
 description: Gets the class name from a serialized class buffer.
 old-location: wmi_v2\mi_deserializer_class_getclassname.htm
 tech.root: wmi_v2
 ms.assetid: a4dc8992-ccdf-4883-a37d-83cb6d8da53a
-
 ms.date: 12/05/2018
 ms.keywords: MI_Deserializer_Class_GetClassName, MI_Deserializer_Class_GetClassName function [Windows Management Infrastructure (MI)], mi/MI_Deserializer_Class_GetClassName, wmi_v2.mi_deserializer_class_getclassname
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Deserializer_Class_GetClassName"
+f1_keywords:
+- mi/MI_Deserializer_Class_GetClassName
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Deserializer_Class_GetClassName
+- MI_Deserializer_Class_GetClassName
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

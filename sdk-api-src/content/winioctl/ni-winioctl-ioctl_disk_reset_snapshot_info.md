@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_RESET_SNAPSHOT_INFO
 title: IOCTL_DISK_RESET_SNAPSHOT_INFO
-
 description: Clears all Volume Shadow Copy Service (VSS) hardware-based shadow copy (also called &#0034;snapshot&#0034;) information from the disk.
 old-location: fs\ioctl_disk_reset_snapshot_info.htm
 tech.root: FileIO
 ms.assetid: 522f469e-9630-4fa3-a157-7090c58a9856
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_RESET_SNAPSHOT_INFO, IOCTL_DISK_RESET_SNAPSHOT_INFO control, IOCTL_DISK_RESET_SNAPSHOT_INFO control code [Files], fs.ioctl_disk_reset_snapshot_info, winioctl/IOCTL_DISK_RESET_SNAPSHOT_INFO
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_DISK_RESET_SNAPSHOT_INFO"
+f1_keywords:
+- winioctl/IOCTL_DISK_RESET_SNAPSHOT_INFO
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_DISK_RESET_SNAPSHOT_INFO
+- IOCTL_DISK_RESET_SNAPSHOT_INFO
 targetos: Windows
 req.typenames: 
 req.redist: 

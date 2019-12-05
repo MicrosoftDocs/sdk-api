@@ -1,19 +1,17 @@
 ---
 UID: NN:oleidl.IOleItemContainer
 title: IOleItemContainer (oleidl.h)
-
 description: Used by item monikers when they are bound to the objects they identify.
 old-location: com\ioleitemcontainer.htm
 tech.root: com
 ms.assetid: fe306a36-da24-4b1e-ab42-359d37962d36
-
 ms.date: 12/05/2018
 ms.keywords: IOleItemContainer, IOleItemContainer interface [COM], IOleItemContainer interface [COM],described, _com_ioleitemcontainer, com.ioleitemcontainer, oleidl/IOleItemContainer
 ms.topic: interface
-f1_keywords: 
- - "oleidl/IOleItemContainer"
+f1_keywords:
+- oleidl/IOleItemContainer
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleItemContainer
+- IOleItemContainer
 targetos: Windows
 req.typenames: 
 req.redist: 

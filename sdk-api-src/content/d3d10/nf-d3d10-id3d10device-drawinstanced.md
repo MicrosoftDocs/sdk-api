@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.DrawInstanced
 title: ID3D10Device::DrawInstanced (d3d10.h)
-
 description: Draw non-indexed, instanced primitives.
 old-location: direct3d10\id3d10device_drawinstanced.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_drawinstanced.htm
-
 ms.date: 12/05/2018
 ms.keywords: 59daf614-be34-5946-a8e4-10a976e15345, DrawInstanced, DrawInstanced method [Direct3D 10], DrawInstanced method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],DrawInstanced method, ID3D10Device.DrawInstanced, ID3D10Device::DrawInstanced, d3d10/ID3D10Device::DrawInstanced, direct3d10.id3d10device_drawinstanced
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.DrawInstanced"
+f1_keywords:
+- d3d10/ID3D10Device.DrawInstanced
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.DrawInstanced
+- ID3D10Device.DrawInstanced
 targetos: Windows
 req.typenames: 
 req.redist: 

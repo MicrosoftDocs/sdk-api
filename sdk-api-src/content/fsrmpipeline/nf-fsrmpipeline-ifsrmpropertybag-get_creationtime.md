@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_CreationTime
 title: IFsrmPropertyBag::get_CreationTime (fsrmpipeline.h)
-
 description: The date and time that the file was created.
 old-location: fsrm\ifsrmpropertybag_creationtime.htm
 tech.root: fsrm
 ms.assetid: 85953042-eeb6-49bd-bde0-f18d4edf108a
-
 ms.date: 12/05/2018
 ms.keywords: CreationTime property [File Server Resource Manager], CreationTime property [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],CreationTime property, IFsrmPropertyBag.CreationTime, IFsrmPropertyBag.get_CreationTime, IFsrmPropertyBag::CreationTime, IFsrmPropertyBag::get_CreationTime, fs.ifsrmpropertybag_creationtime, fsrm.ifsrmpropertybag_creationtime, fsrmpipeline/IFsrmPropertyBag::CreationTime, fsrmpipeline/IFsrmPropertyBag::get_CreationTime, get_CreationTime
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPropertyBag.CreationTime"
+f1_keywords:
+- fsrmpipeline/IFsrmPropertyBag.CreationTime
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyBag.CreationTime
- - IFsrmPropertyBag.get_CreationTime
+- IFsrmPropertyBag.CreationTime
+- IFsrmPropertyBag.get_CreationTime
 targetos: Windows
 req.typenames: 
 req.redist: 

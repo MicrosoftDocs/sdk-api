@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.CheckPolicy
 title: IAttachmentExecute::CheckPolicy (shobjidl_core.h)
-
 description: Provides a Boolean test that can be used to make decisions based on the attachment's execution policy.
 old-location: shell\IAttachmentExecute_CheckPolicy.htm
 tech.root: shell
 ms.assetid: ff6a0aa8-4d14-4074-b084-be117b01c77a
-
 ms.date: 12/05/2018
 ms.keywords: CheckPolicy, CheckPolicy method [Windows Shell], CheckPolicy method [Windows Shell],IAttachmentExecute interface, IAttachmentExecute interface [Windows Shell],CheckPolicy method, IAttachmentExecute.CheckPolicy, IAttachmentExecute::CheckPolicy, _win32_IAttachmentExecute_CheckPolicy, shell.IAttachmentExecute_CheckPolicy, shobjidl_core/IAttachmentExecute::CheckPolicy
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IAttachmentExecute.CheckPolicy"
+f1_keywords:
+- shobjidl_core/IAttachmentExecute.CheckPolicy
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shdocvw.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdocvw.dll
+- Shdocvw.dll
 api_name:
- - IAttachmentExecute.CheckPolicy
+- IAttachmentExecute.CheckPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

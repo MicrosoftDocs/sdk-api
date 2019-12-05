@@ -1,19 +1,17 @@
 ---
 UID: NS:hstring.HSTRING_HEADER
 title: HSTRING_HEADER (hstring.h)
-
 description: Represents a header for an HSTRING.
 old-location: winrt\hstring_header.htm
 tech.root: WinRT
 ms.assetid: E63E73A7-1908-4CEC-ADCB-1A3D23BE8A3B
-
 ms.date: 12/05/2018
 ms.keywords: HSTRING_HEADER, HSTRING_HEADER structure [Windows Runtime], hstring/HSTRING_HEADER, winrt.hstring_header
 ms.topic: struct
-f1_keywords: 
- - "hstring/HSTRING_HEADER"
+f1_keywords:
+- hstring/HSTRING_HEADER
 dev_langs:
- - c++
+- c++
 req.header: hstring.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - hstring.h
+- hstring.h
 api_name:
- - HSTRING_HEADER
+- HSTRING_HEADER
 targetos: Windows
 req.typenames: HSTRING_HEADER
 req.redist: 

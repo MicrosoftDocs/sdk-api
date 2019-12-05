@@ -1,19 +1,17 @@
 ---
 UID: NS:windns._DnsRecordW
 title: DNS_RECORDW (windns.h)
-
 description: Stores a DNS resource record (RR).
 old-location: dns\dns_record.htm
 tech.root: DNS
 ms.assetid: ab7b96a5-346f-4e01-bb2a-885f44764590
-
 ms.date: 12/05/2018
-ms.keywords: "*PDNS_RECORD, *PDNS_RECORDW, DNS_RECORD, DNS_RECORD structure [DNS], DNS_RECORDW, PDNS_RECORD, PDNS_RECORD structure pointer [DNS], _DnsRecordA, _DnsRecordW, _dns_dns_record, dns.dns_record, windns/DNS_RECORD, windns/PDNS_RECORD"
+ms.keywords: '*PDNS_RECORD, *PDNS_RECORDW, DNS_RECORD, DNS_RECORD structure [DNS], DNS_RECORDW, PDNS_RECORD, PDNS_RECORD structure pointer [DNS], _DnsRecordA, _DnsRecordW, _dns_dns_record, dns.dns_record, windns/DNS_RECORD, windns/PDNS_RECORD'
 ms.topic: struct
-f1_keywords: 
- - "windns/DNS_RECORD"
+f1_keywords:
+- windns/DNS_RECORD
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_RECORD
+- DNS_RECORD
 targetos: Windows
 req.typenames: DNS_RECORDW, *PDNS_RECORDW
 req.redist: 

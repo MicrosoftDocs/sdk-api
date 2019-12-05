@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollection.Remove
 title: IFunctionInstanceCollection::Remove (functiondiscoveryapi.h)
-
 description: Deletes the specified function instance and returns a pointer to the function instance being removed.
 old-location: ncd\ifunctioninstancecollection_remove.htm
 tech.root: FunDisc
 ms.assetid: e5abe3e0-a07c-45e4-a590-133f6b30a7f7
-
 ms.date: 12/05/2018
 ms.keywords: IFunctionInstanceCollection interface,Remove method, IFunctionInstanceCollection.Remove, IFunctionInstanceCollection::Remove, Remove, Remove method, Remove method,IFunctionInstanceCollection interface, functiondiscoveryapi/IFunctionInstanceCollection::Remove, ncd.ifunctioninstancecollection_remove
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryapi/IFunctionInstanceCollection.Remove"
+f1_keywords:
+- functiondiscoveryapi/IFunctionInstanceCollection.Remove
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FunDisc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunDisc.dll
+- FunDisc.dll
 api_name:
- - IFunctionInstanceCollection.Remove
+- IFunctionInstanceCollection.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

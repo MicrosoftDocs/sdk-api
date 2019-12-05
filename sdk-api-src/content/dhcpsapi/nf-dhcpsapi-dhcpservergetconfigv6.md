@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpServerGetConfigV6
 title: DhcpServerGetConfigV6 function (dhcpsapi.h)
-
 description: Retrieves the configuration information for the DHCPv6 server.
 old-location: dhcp\dhcpservergetconfigv6.htm
 tech.root: DHCP
 ms.assetid: a867d8fe-0222-44aa-a00a-65a94cf59730
-
 ms.date: 12/05/2018
 ms.keywords: DhcpServerGetConfigV6, DhcpServerGetConfigV6 function [DHCP], dhcp.dhcpservergetconfigv6, dhcpsapi/DhcpServerGetConfigV6
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpServerGetConfigV6
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

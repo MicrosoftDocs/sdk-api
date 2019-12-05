@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGIKeyedMutex.AcquireSync
 title: IDXGIKeyedMutex::AcquireSync (dxgi.h)
-
 description: Using a key, acquires exclusive rendering access to a shared resource.
 old-location: direct3ddxgi\idxgikeyedmutex_acquiresync.htm
 tech.root: direct3ddxgi
 ms.assetid: 31edab76-7b16-4a02-83ff-998c21e77f2e
-
 ms.date: 12/05/2018
 ms.keywords: 06d995ac-16d4-215c-4d9a-179636a32853, AcquireSync, AcquireSync method [DXGI], AcquireSync method [DXGI],IDXGIKeyedMutex interface, IDXGIKeyedMutex interface [DXGI],AcquireSync method, IDXGIKeyedMutex.AcquireSync, IDXGIKeyedMutex::AcquireSync, direct3ddxgi.idxgikeyedmutex_acquiresync, dxgi/IDXGIKeyedMutex::AcquireSync
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGIKeyedMutex.AcquireSync"
+f1_keywords:
+- dxgi/IDXGIKeyedMutex.AcquireSync
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIKeyedMutex.AcquireSync
+- IDXGIKeyedMutex.AcquireSync
 targetos: Windows
 req.typenames: 
 req.redist: 

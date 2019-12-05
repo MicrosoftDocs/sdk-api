@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.BeginWriting
 title: IWMWriter::BeginWriting (wmsdkidl.h)
-
 description: The BeginWriting method initializes the writing process.
 old-location: wmformat\iwmwriter_beginwriting.htm
 tech.root: wmformat
 ms.assetid: df511ff0-a87b-442a-85bd-c8d924ab2047
-
 ms.date: 12/05/2018
 ms.keywords: BeginWriting, BeginWriting method [windows Media Format], BeginWriting method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],BeginWriting method, IWMWriter.BeginWriting, IWMWriter::BeginWriting, IWMWriterBeginWriting, wmformat.iwmwriter_beginwriting, wmsdkidl/IWMWriter::BeginWriting
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriter.BeginWriting"
+f1_keywords:
+- wmsdkidl/IWMWriter.BeginWriting
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriter.BeginWriting
+- IWMWriter.BeginWriting
 targetos: Windows
 req.typenames: 
 req.redist: 

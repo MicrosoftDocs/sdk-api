@@ -1,19 +1,17 @@
 ---
 UID: NN:workspaceruntime.IWorkspaceScriptable
 title: IWorkspaceScriptable (workspaceruntime.h)
-
 description: Exposes methods that manage RemoteApp and Desktop Connection credentials and connections.
 old-location: termserv\iworkspacescriptable.htm
 tech.root: TermServ
 ms.assetid: b6591369-d73f-4c7d-8525-428dffc9a341
-
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceScriptable, IWorkspaceScriptable interface [Remote Desktop Services], IWorkspaceScriptable interface [Remote Desktop Services],described, termserv.iworkspacescriptable, workspaceruntime/IWorkspaceScriptable
 ms.topic: interface
-f1_keywords: 
- - "workspaceruntime/IWorkspaceScriptable"
+f1_keywords:
+- workspaceruntime/IWorkspaceScriptable
 dev_langs:
- - c++
+- c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wksprt.exe
+- Wksprt.exe
 api_name:
- - IWorkspaceScriptable
+- IWorkspaceScriptable
 targetos: Windows
 req.typenames: 
 req.redist: 

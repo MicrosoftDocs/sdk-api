@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetResourceBindingDescByName
 title: ID3D11ShaderReflection::GetResourceBindingDescByName (d3d11shader.h)
-
 description: Get a description of how a resource is bound to a shader.
 old-location: direct3d11\id3d11shaderreflection_getresourcebindingdescbyname.htm
 tech.root: direct3d11
 ms.assetid: b4bddcc0-c2fd-4dac-b999-cfbe1d318777
-
 ms.date: 12/05/2018
 ms.keywords: 70b00d95-7ff3-a94d-2a18-469be48c36b3, GetResourceBindingDescByName, GetResourceBindingDescByName method [Direct3D 11], GetResourceBindingDescByName method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetResourceBindingDescByName method, ID3D11ShaderReflection.GetResourceBindingDescByName, ID3D11ShaderReflection::GetResourceBindingDescByName, d3d11shader/ID3D11ShaderReflection::GetResourceBindingDescByName, direct3d11.id3d11shaderreflection_getresourcebindingdescbyname
 ms.topic: method
-f1_keywords: 
- - "d3d11shader/ID3D11ShaderReflection.GetResourceBindingDescByName"
+f1_keywords:
+- d3d11shader/ID3D11ShaderReflection.GetResourceBindingDescByName
 dev_langs:
- - c++
+- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3D11ShaderReflection.GetResourceBindingDescByName
+- ID3D11ShaderReflection.GetResourceBindingDescByName
 targetos: Windows
 req.typenames: 
 req.redist: 

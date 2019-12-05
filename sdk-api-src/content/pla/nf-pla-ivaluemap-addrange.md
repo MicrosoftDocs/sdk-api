@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IValueMap.AddRange
 title: IValueMap::AddRange (pla.h)
-
 description: Adds one or more items to the collection.
 old-location: pla\ivaluemap_addrange.htm
 tech.root: PLA
 ms.assetid: 80893a3d-fcfc-475f-86ad-d19bb9e43ee0
-
 ms.date: 12/05/2018
 ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],IValueMap interface, IValueMap interface [PLA],AddRange method, IValueMap.AddRange, IValueMap::AddRange, base.ivaluemap_addrange, pla.ivaluemap_addrange, pla/IValueMap::AddRange
 ms.topic: method
-f1_keywords: 
- - "pla/IValueMap.AddRange"
+f1_keywords:
+- pla/IValueMap.AddRange
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IValueMap.AddRange
+- IValueMap.AddRange
 targetos: Windows
 req.typenames: 
 req.redist: 

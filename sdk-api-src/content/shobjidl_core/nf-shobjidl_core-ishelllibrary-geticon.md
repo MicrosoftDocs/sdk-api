@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.GetIcon
 title: IShellLibrary::GetIcon (shobjidl_core.h)
-
 description: Gets the default icon for the library.
 old-location: shell\IShellLibrary_GetIcon.htm
 tech.root: shell
 ms.assetid: e39bd663-3f2d-4b72-9882-1313ee457844
-
 ms.date: 12/05/2018
 ms.keywords: GetIcon, GetIcon method [Windows Shell], GetIcon method [Windows Shell],IShellLibrary interface, IShellLibrary interface [Windows Shell],GetIcon method, IShellLibrary.GetIcon, IShellLibrary::GetIcon, _shell_IShellLibrary_GetIcon, shell.IShellLibrary_GetIcon, shobjidl_core/IShellLibrary::GetIcon
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellLibrary.GetIcon"
+f1_keywords:
+- shobjidl_core/IShellLibrary.GetIcon
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellLibrary.GetIcon
+- IShellLibrary.GetIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

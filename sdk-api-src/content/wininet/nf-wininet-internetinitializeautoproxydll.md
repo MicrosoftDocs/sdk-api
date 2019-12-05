@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetInitializeAutoProxyDll
 title: InternetInitializeAutoProxyDll function (wininet.h)
-
 description: There are two WinINet functions named InternetInitializeAutoProxyDll.
 old-location: wininet\internetinitializeautoproxydll.htm
 tech.root: wininet
 ms.assetid: d55d64cb-ee92-4366-a1bb-f5d421ed81c8
-
 ms.date: 12/05/2018
 ms.keywords: InternetInitializeAutoProxyDll, InternetInitializeAutoProxyDll function [WinINet], _inet_internetinitializeautoproxydll_function, wininet.internetinitializeautoproxydll, winineti/InternetInitializeAutoProxyDll
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetInitializeAutoProxyDll"
+f1_keywords:
+- wininet/InternetInitializeAutoProxyDll
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: Wininet.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: JSProxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - JSProxy.dll
+- JSProxy.dll
 api_name:
- - InternetInitializeAutoProxyDll
+- InternetInitializeAutoProxyDll
 targetos: Windows
 req.typenames: 
 req.redist: 

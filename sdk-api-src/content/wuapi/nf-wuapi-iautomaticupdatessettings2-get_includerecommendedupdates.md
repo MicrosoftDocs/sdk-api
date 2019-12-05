@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings2.get_IncludeRecommendedUpdates
 title: IAutomaticUpdatesSettings2::get_IncludeRecommendedUpdates (wuapi.h)
-
 description: Gets and sets a Boolean value that indicates whether to include optional or recommended updates when a search for updates and installation of updates is performed.
 old-location: wua\iautomaticupdatessettings2_includerecommendedupdates.htm
 tech.root: Wua_Sdk
 ms.assetid: 502b0490-8834-496a-8691-d9325ad86799
-
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesSettings2 interface [Windows Update Agent],IncludeRecommendedUpdates property, IAutomaticUpdatesSettings2.IncludeRecommendedUpdates, IAutomaticUpdatesSettings2.get_IncludeRecommendedUpdates, IAutomaticUpdatesSettings2::IncludeRecommendedUpdates, IAutomaticUpdatesSettings2::get_IncludeRecommendedUpdates, IAutomaticUpdatesSettings2::put_IncludeRecommendedUpdates, IncludeRecommendedUpdates property [Windows Update Agent], IncludeRecommendedUpdates property [Windows Update Agent],IAutomaticUpdatesSettings2 interface, get_IncludeRecommendedUpdates, wua.iautomaticupdatessettings2_includerecommendedupdates, wuapi/IAutomaticUpdatesSettings2::IncludeRecommendedUpdates, wuapi/IAutomaticUpdatesSettings2::get_IncludeRecommendedUpdates, wuapi/IAutomaticUpdatesSettings2::put_IncludeRecommendedUpdates
 ms.topic: method
-f1_keywords: 
- - "wuapi/IAutomaticUpdatesSettings2.IncludeRecommendedUpdates"
+f1_keywords:
+- wuapi/IAutomaticUpdatesSettings2.IncludeRecommendedUpdates
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IAutomaticUpdatesSettings2.IncludeRecommendedUpdates
- - IAutomaticUpdatesSettings2.get_IncludeRecommendedUpdates
- - IAutomaticUpdatesSettings2.put_IncludeRecommendedUpdates
+- IAutomaticUpdatesSettings2.IncludeRecommendedUpdates
+- IAutomaticUpdatesSettings2.get_IncludeRecommendedUpdates
+- IAutomaticUpdatesSettings2.put_IncludeRecommendedUpdates
 targetos: Windows
 req.typenames: 
 req.redist: 

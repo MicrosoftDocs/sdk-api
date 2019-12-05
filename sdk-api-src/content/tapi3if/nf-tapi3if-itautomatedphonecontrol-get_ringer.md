@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_Ringer
 title: ITAutomatedPhoneControl::get_Ringer (tapi3if.h)
-
 description: The get_Ringer method returns a Boolean value indicating whether the phone is currently performing an incoming ring that was initiated by the StartRinger method on this interface.
 old-location: tapi3\itautomatedphonecontrol_get_ringer.htm
 tech.root: Tapi
 ms.assetid: cc4daec0-7f55-4c76-b8a0-19307c7046dc
-
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_Ringer method, ITAutomatedPhoneControl.get_Ringer, ITAutomatedPhoneControl::get_Ringer, _tapi3_itautomatedphonecontrol_get_ringer, get_Ringer, get_Ringer method [TAPI 2.2], get_Ringer method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_ringer, tapi3if/ITAutomatedPhoneControl::get_Ringer
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAutomatedPhoneControl.get_Ringer"
+f1_keywords:
+- tapi3if/ITAutomatedPhoneControl.get_Ringer
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl.get_Ringer
+- ITAutomatedPhoneControl.get_Ringer
 targetos: Windows
 req.typenames: 
 req.redist: 

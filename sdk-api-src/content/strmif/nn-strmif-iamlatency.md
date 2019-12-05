@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMLatency
 title: IAMLatency (strmif.h)
-
 description: The IAMLatency interface reports the amount of latency that a filter introduces into the graph.
 old-location: dshow\iamlatency.htm
 tech.root: DirectShow
 ms.assetid: 83384ef6-40d6-4d37-866d-6059dc5d7542
-
 ms.date: 12/05/2018
 ms.keywords: IAMLatency, IAMLatency interface [DirectShow], IAMLatency interface [DirectShow],described, IAMLatencyInterface, dshow.iamlatency, strmif/IAMLatency
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMLatency"
+f1_keywords:
+- strmif/IAMLatency
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMLatency
+- IAMLatency
 targetos: Windows
 req.typenames: 
 req.redist: 

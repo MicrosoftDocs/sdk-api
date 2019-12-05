@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTranscodeProfile.GetContainerAttributes
 title: IMFTranscodeProfile::GetContainerAttributes (mfidl.h)
-
 description: Gets the container settings that are currently set in the transcode profile.
 old-location: mf\imftranscodeprofile_getcontainerattributes.htm
 tech.root: medfound
 ms.assetid: 29bf5834-78af-4521-95b1-dfd5764e96fc
-
 ms.date: 12/05/2018
 ms.keywords: GetContainerAttributes, GetContainerAttributes method [Media Foundation], GetContainerAttributes method [Media Foundation],IMFTranscodeProfile interface, IMFTranscodeProfile interface [Media Foundation],GetContainerAttributes method, IMFTranscodeProfile.GetContainerAttributes, IMFTranscodeProfile::GetContainerAttributes, mf.imftranscodeprofile_getcontainerattributes, mfidl/IMFTranscodeProfile::GetContainerAttributes
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTranscodeProfile.GetContainerAttributes"
+f1_keywords:
+- mfidl/IMFTranscodeProfile.GetContainerAttributes
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFTranscodeProfile.GetContainerAttributes
+- IMFTranscodeProfile.GetContainerAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

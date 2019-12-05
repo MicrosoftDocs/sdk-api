@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEnumEventObject.Next
 title: IEnumEventObject::Next (eventsys.h)
-
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: cos\ienumeventobject_next.htm
 tech.root: cossdk
 ms.assetid: c9dab0b5-dbbb-4330-afd2-e13e708d708f
-
 ms.date: 12/05/2018
 ms.keywords: IEnumEventObject interface [COM+],Next method, IEnumEventObject.Next, IEnumEventObject::Next, Next, Next method [COM+], Next method [COM+],IEnumEventObject interface, _cos_ienumeventobject_next, cos.ienumeventobject_next, eventsys/IEnumEventObject::Next
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEnumEventObject.Next"
+f1_keywords:
+- eventsys/IEnumEventObject.Next
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Eventsys.h
+- Eventsys.h
 api_name:
- - IEnumEventObject.Next
+- IEnumEventObject.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

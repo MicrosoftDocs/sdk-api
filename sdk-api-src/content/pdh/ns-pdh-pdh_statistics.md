@@ -1,19 +1,17 @@
 ---
 UID: NS:pdh._PDH_STATISTICS
 title: PDH_STATISTICS (pdh.h)
-
 description: The PDH_STATISTICS structure contains the minimum, maximum, and mean values for an array of raw counters values.
 old-location: perf\pdh_statistics_str.htm
 tech.root: perfctrs
 ms.assetid: a1daedfd-55f6-418e-b71f-8334cb628d98
-
 ms.date: 12/05/2018
-ms.keywords: "*PPDH_STATISTICS, PDH_STATISTICS, PDH_STATISTICS structure [Perf], PPDH_STATISTICS, PPDH_STATISTICS structure pointer [Perf], _win32_pdh_statistics_str, base.pdh_statistics_str, pdh/PDH_STATISTICS, pdh/PPDH_STATISTICS, perf.pdh_statistics_str"
+ms.keywords: '*PPDH_STATISTICS, PDH_STATISTICS, PDH_STATISTICS structure [Perf], PPDH_STATISTICS, PPDH_STATISTICS structure pointer [Perf], _win32_pdh_statistics_str, base.pdh_statistics_str, pdh/PDH_STATISTICS, pdh/PPDH_STATISTICS, perf.pdh_statistics_str'
 ms.topic: struct
-f1_keywords: 
- - "pdh/PDH_STATISTICS"
+f1_keywords:
+- pdh/PDH_STATISTICS
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pdh.h
+- Pdh.h
 api_name:
- - PDH_STATISTICS
+- PDH_STATISTICS
 targetos: Windows
 req.typenames: PDH_STATISTICS, *PPDH_STATISTICS
 req.redist: 

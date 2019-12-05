@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.EnableThemeDialogTexture
 title: EnableThemeDialogTexture function (uxtheme.h)
-
 description: Enables or disables the visual style of the background of a dialog window.
 old-location: controls\EnableThemeDialogTexture.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\enablethemedialogtexture.htm
-
 ms.date: 12/05/2018
 ms.keywords: EnableThemeDialogTexture, EnableThemeDialogTexture function [Windows Controls], controls.EnableThemeDialogTexture, controls.inet_EnableThemeDialogTexture, inet_EnableThemeDialogTexture, inet_EnableThemeDialogTexture_cpp, uxtheme/EnableThemeDialogTexture
 ms.topic: function
-f1_keywords: 
- - "uxtheme/EnableThemeDialogTexture"
+f1_keywords:
+- uxtheme/EnableThemeDialogTexture
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - EnableThemeDialogTexture
+- EnableThemeDialogTexture
 targetos: Windows
 req.typenames: 
 req.redist: 

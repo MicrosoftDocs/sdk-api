@@ -1,19 +1,17 @@
 ---
 UID: NF:wlanapi.WFDCancelOpenSession
 title: WFDCancelOpenSession function (wlanapi.h)
-
 description: Indicates that the application wants to cancel a pending WFDStartOpenSession function that has not completed.
 old-location: nwifi\wfdcancelopensession.htm
 tech.root: NativeWiFi
 ms.assetid: 0BE3DAED-C9B1-492B-BDFC-CB32BE23E700
-
 ms.date: 12/05/2018
 ms.keywords: WFDCancelOpenSession, WFDCancelOpenSession function [NativeWIFI], nwifi.wfdcancelopensession, wlanapi/WFDCancelOpenSession
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WFDCancelOpenSession"
+f1_keywords:
+- wlanapi/WFDCancelOpenSession
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wlanapi.dll
+- wlanapi.dll
 api_name:
- - WFDCancelOpenSession
+- WFDCancelOpenSession
 targetos: Windows
 req.typenames: 
 req.redist: 

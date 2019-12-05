@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IDVBTuneRequest
 title: IDVBTuneRequest (tuner.h)
-
 description: The IDVBTuneRequest interface is implemented on the DVBTuneRequest object.
 old-location: mstv\idvbtunerequest.htm
 tech.root: mstv
 ms.assetid: 4d519bbc-38e1-47ce-bd73-a3eb1ea399d6
-
 ms.date: 12/05/2018
 ms.keywords: IDVBTuneRequest, IDVBTuneRequest interface [Microsoft TV Technologies], IDVBTuneRequest interface [Microsoft TV Technologies],described, IDVBTuneRequestInterface, mstv.idvbtunerequest, tuner/IDVBTuneRequest
 ms.topic: interface
-f1_keywords: 
- - "tuner/IDVBTuneRequest"
+f1_keywords:
+- tuner/IDVBTuneRequest
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBTuneRequest
+- IDVBTuneRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

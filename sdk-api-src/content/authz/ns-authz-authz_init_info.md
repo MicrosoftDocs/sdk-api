@@ -1,19 +1,17 @@
 ---
 UID: NS:authz._AUTHZ_INIT_INFO
 title: AUTHZ_INIT_INFO (authz.h)
-
 description: Defines the initialization information for the resource manager.
 old-location: security\authz_init_info.htm
 tech.root: SecAuthZ
 ms.assetid: 30489BE7-5B95-413E-8134-039AD3220A50
-
 ms.date: 12/05/2018
 ms.keywords: '*PAUTHZ_INIT_INFO, AUTHZ_INIT_INFO, AUTHZ_INIT_INFO structure [Security], PAUTHZ_INIT_INFO, PAUTHZ_INIT_INFO structure pointer [Security], authz/AUTHZ_INIT_INFO, authz/PAUTHZ_INIT_INFO, security.authz_init_info'
 ms.topic: struct
 f1_keywords:
 - authz/AUTHZ_INIT_INFO
 dev_langs:
- - c++
+- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

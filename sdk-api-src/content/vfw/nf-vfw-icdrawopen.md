@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICDrawOpen
 title: ICDrawOpen macro (vfw.h)
-
 description: The ICDrawOpen macro opens a driver that can draw images with the specified format.
 old-location: multimedia\icdrawopen.htm
 tech.root: Multimedia
 ms.assetid: b625a5f7-8212-4339-a1a6-37736def40a0
-
 ms.date: 12/05/2018
 ms.keywords: ICDrawOpen, ICDrawOpen macro [Windows Multimedia], _win32_ICDrawOpen, multimedia.icdrawopen, vfw/ICDrawOpen
 ms.topic: macro
-f1_keywords: 
- - "vfw/ICDrawOpen"
+f1_keywords:
+- vfw/ICDrawOpen
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - ICDrawOpen
+- ICDrawOpen
 targetos: Windows
 req.typenames: 
 req.redist: 

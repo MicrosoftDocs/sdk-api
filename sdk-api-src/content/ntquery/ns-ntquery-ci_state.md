@@ -1,19 +1,17 @@
 ---
 UID: NS:ntquery._CI_STATE
 title: CI_STATE (ntquery.h)
-
 description: Represents the current state of an Indexing Service catalog.
 old-location: indexsrv\ci_state.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_2qjp.htm
-
 ms.date: 12/05/2018
 ms.keywords: CI_STATE, CI_STATE structure [Indexing Service], _idxs_CI_STATE, indexsrv.ci_state, ntquery/CI_STATE
 ms.topic: struct
-f1_keywords: 
- - "ntquery/CI_STATE"
+f1_keywords:
+- ntquery/CI_STATE
 dev_langs:
- - c++
+- c++
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntquery.h
+- Ntquery.h
 api_name:
- - CI_STATE
+- CI_STATE
 targetos: Windows
 req.typenames: CI_STATE
 req.redist: 

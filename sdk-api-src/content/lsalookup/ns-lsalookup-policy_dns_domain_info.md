@@ -1,19 +1,17 @@
 ---
 UID: NS:lsalookup._POLICY_DNS_DOMAIN_INFO
 title: POLICY_DNS_DOMAIN_INFO (lsalookup.h)
-
 description: The POLICY_DNS_DOMAIN_INFO structure is used to set and query Domain Name System (DNS) information about the primary domain associated with a Policy object.
 old-location: security\policy_dns_domain_info.htm
 tech.root: SecMgmt
 ms.assetid: 5b2879cf-e0dc-4844-bfe8-bf45460285f1
-
 ms.date: 12/05/2018
 ms.keywords: '*PPOLICY_DNS_DOMAIN_INFO, POLICY_DNS_DOMAIN_INFO, POLICY_DNS_DOMAIN_INFO structure [Security], PPOLICY_DNS_DOMAIN_INFO, PPOLICY_DNS_DOMAIN_INFO structure pointer [Security], _lsa_policy_dns_domain_info, lsalookup/POLICY_DNS_DOMAIN_INFO, lsalookup/PPOLICY_DNS_DOMAIN_INFO, security.policy_dns_domain_info'
 ms.topic: struct
 f1_keywords:
 - lsalookup/POLICY_DNS_DOMAIN_INFO
 dev_langs:
- - c++
+- c++
 req.header: lsalookup.h
 req.include-header: 
 req.target-type: Windows

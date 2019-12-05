@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeStartLineCap
 title: IXpsOMPath::GetStrokeStartLineCap (xpsobjectmodel.h)
-
 description: Gets the style of the line cap at the start of the stroke line.
 old-location: xps\ixpsompath_getstrokestartlinecap.htm
 tech.root: printdocs
 ms.assetid: 66286aca-3b94-4ded-9180-1e07599986db
-
 ms.date: 12/05/2018
 ms.keywords: GetStrokeStartLineCap, GetStrokeStartLineCap method [XPS Documents and Packaging], GetStrokeStartLineCap method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeStartLineCap method, IXpsOMPath.GetStrokeStartLineCap, IXpsOMPath::GetStrokeStartLineCap, xps.ixpsompath_getstrokestartlinecap, xpsobjectmodel/IXpsOMPath::GetStrokeStartLineCap
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPath.GetStrokeStartLineCap"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPath.GetStrokeStartLineCap
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPath.GetStrokeStartLineCap
+- IXpsOMPath.GetStrokeStartLineCap
 targetos: Windows
 req.typenames: 
 req.redist: 

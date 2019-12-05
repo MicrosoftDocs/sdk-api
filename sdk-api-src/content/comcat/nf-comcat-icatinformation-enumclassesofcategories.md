@@ -1,19 +1,17 @@
 ---
 UID: NF:comcat.ICatInformation.EnumClassesOfCategories
 title: ICatInformation::EnumClassesOfCategories (comcat.h)
-
 description: Retrieves an enumerator for the classes that implement one or more specified category identifiers.
 old-location: com\icatinformation_enumclassesofcategories.htm
 tech.root: com
 ms.assetid: 13d470ff-77e6-4a17-b2c9-c53676e21fba
-
 ms.date: 12/05/2018
 ms.keywords: EnumClassesOfCategories, EnumClassesOfCategories method [COM], EnumClassesOfCategories method [COM],ICatInformation interface, ICatInformation interface [COM],EnumClassesOfCategories method, ICatInformation.EnumClassesOfCategories, ICatInformation::EnumClassesOfCategories, _com_icatinformation_enumclassesofcategories, com.icatinformation_enumclassesofcategories, comcat/ICatInformation::EnumClassesOfCategories
 ms.topic: method
-f1_keywords: 
- - "comcat/ICatInformation.EnumClassesOfCategories"
+f1_keywords:
+- comcat/ICatInformation.EnumClassesOfCategories
 dev_langs:
- - c++
+- c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComCat.h
+- ComCat.h
 api_name:
- - ICatInformation.EnumClassesOfCategories
+- ICatInformation.EnumClassesOfCategories
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IQueryParserManager.CreateLoadedParser
 title: IQueryParserManager::CreateLoadedParser (structuredquery.h)
-
 description: Creates a new instance of a IQueryParser interface implementation. This instance of the query parser is loaded with the schema for the specified catalog and is localized to a specified language. All other settings are initialized to default settings.
 old-location: search\_search_IQueryParserManager_CreateLoadedParser.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparsermanager\createloadedparser.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateLoadedParser, CreateLoadedParser method [search], CreateLoadedParser method [search],IQueryParserManager interface, IQueryParserManager interface [search],CreateLoadedParser method, IQueryParserManager.CreateLoadedParser, IQueryParserManager::CreateLoadedParser, _search_IQueryParserManager_CreateLoadedParser, search._search_IQueryParserManager_CreateLoadedParser, structuredquery/IQueryParserManager::CreateLoadedParser
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IQueryParserManager.CreateLoadedParser"
+f1_keywords:
+- structuredquery/IQueryParserManager.CreateLoadedParser
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IQueryParserManager.CreateLoadedParser
+- IQueryParserManager.CreateLoadedParser
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NS:wmsdkidl._WMT_PAYLOAD_FRAGMENT
 title: WMT_PAYLOAD_FRAGMENT (wmsdkidl.h)
-
 description: The WMT_PAYLOAD_FRAGMENT structure contains the information needed to extract a payload fragment from a buffer and identifies the payload to which the fragment belongs.
 old-location: wmformat\wmt_payload_fragment.htm
 tech.root: wmformat
 ms.assetid: 5a99c772-0e8a-4f6d-a13f-9bf7b4fa7d89
-
 ms.date: 12/05/2018
 ms.keywords: WMT_PAYLOAD_FRAGMENT, WMT_PAYLOAD_FRAGMENT structure [windows Media Format], wmformat.wmt_payload_fragment, wmsdkidl/WMT_PAYLOAD_FRAGMENT
 ms.topic: struct
-f1_keywords: 
- - "wmsdkidl/WMT_PAYLOAD_FRAGMENT"
+f1_keywords:
+- wmsdkidl/WMT_PAYLOAD_FRAGMENT
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WMT_PAYLOAD_FRAGMENT
+- WMT_PAYLOAD_FRAGMENT
 targetos: Windows
 req.typenames: WMT_PAYLOAD_FRAGMENT
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLPersistRTSPayloadOverride
 title: SLPersistRTSPayloadOverride function (slpublic.h)
-
 description: Associates information with the specified product for both online and phone activation.
 old-location: security\slpersistrtspayloadoverride.htm
 tech.root: SecSLApi
 ms.assetid: d053c9dc-c719-4e0c-b1e9-58303b51cb26
-
 ms.date: 12/05/2018
 ms.keywords: SLPersistRTSPayloadOverride, SLPersistRTSPayloadOverride function [Security], security.slpersistrtspayloadoverride, slpublic/SLPersistRTSPayloadOverride
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLPersistRTSPayloadOverride"
+f1_keywords:
+- slpublic/SLPersistRTSPayloadOverride
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLPersistRTSPayloadOverride
+- SLPersistRTSPayloadOverride
 targetos: Windows
 req.typenames: 
 req.redist: 

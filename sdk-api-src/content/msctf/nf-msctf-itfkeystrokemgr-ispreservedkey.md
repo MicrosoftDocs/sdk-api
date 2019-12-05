@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.IsPreservedKey
 title: ITfKeystrokeMgr::IsPreservedKey (msctf.h)
-
 description: ITfKeystrokeMgr::IsPreservedKey method
 old-location: tsf\itfkeystrokemgr_ispreservedkey.htm
 tech.root: TSF
 ms.assetid: 50deac9c-b659-494b-9cda-d6109fa39363
-
 ms.date: 12/05/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],IsPreservedKey method, ITfKeystrokeMgr.IsPreservedKey, ITfKeystrokeMgr::IsPreservedKey, IsPreservedKey, IsPreservedKey method [Text Services Framework], IsPreservedKey method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_ispreservedkey_ref, msctf/ITfKeystrokeMgr::IsPreservedKey, tsf.itfkeystrokemgr_ispreservedkey
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfKeystrokeMgr.IsPreservedKey"
+f1_keywords:
+- msctf/ITfKeystrokeMgr.IsPreservedKey
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfKeystrokeMgr.IsPreservedKey
+- ITfKeystrokeMgr.IsPreservedKey
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

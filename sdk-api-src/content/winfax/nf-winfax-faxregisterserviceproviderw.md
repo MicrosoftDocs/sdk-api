@@ -1,19 +1,17 @@
 ---
 UID: NF:winfax.FaxRegisterServiceProviderW
 title: FaxRegisterServiceProviderW function (winfax.h)
-
 description: The FaxRegisterServiceProvider function registers a fax service provider DLL with the fax service. The function configures the fax service registry to query and use the new fax service provider DLL when the fax service restarts.
 old-location: fax\_mfax_faxregisterserviceprovider.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_94xe.htm
-
 ms.date: 12/05/2018
 ms.keywords: FaxRegisterServiceProvider, FaxRegisterServiceProvider function [Fax Service], FaxRegisterServiceProviderW, _mfax_faxregisterserviceprovider, fax._mfax_faxregisterserviceprovider, winfax/FaxRegisterServiceProvider
 ms.topic: function
-f1_keywords: 
- - "winfax/FaxRegisterServiceProvider"
+f1_keywords:
+- winfax/FaxRegisterServiceProvider
 dev_langs:
- - c++
+- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WinFax.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - WinFax.lib
- - WinFax.dll
+- WinFax.lib
+- WinFax.dll
 api_name:
- - FaxRegisterServiceProvider
+- FaxRegisterServiceProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:ctfutb.ITfLangBarItemMgr
 title: ITfLangBarItemMgr (ctfutb.h)
-
 description: The ITfLangBarItemMgr interface is implemented by the language bar and used by a text service to manage items in the language bar.
 old-location: tsf\itflangbaritemmgr.htm
 tech.root: TSF
 ms.assetid: a7fa257f-e600-4554-8b23-f73323f37e69
-
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemMgr, ITfLangBarItemMgr interface [Text Services Framework], ITfLangBarItemMgr interface [Text Services Framework],described, _tsf_itflangbaritemmgr_ref, ctfutb/ITfLangBarItemMgr, tsf.itflangbaritemmgr
 ms.topic: interface
-f1_keywords: 
- - "ctfutb/ITfLangBarItemMgr"
+f1_keywords:
+- ctfutb/ITfLangBarItemMgr
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfLangBarItemMgr
+- ITfLangBarItemMgr
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

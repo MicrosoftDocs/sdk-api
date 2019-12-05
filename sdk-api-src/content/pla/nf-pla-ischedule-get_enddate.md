@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.ISchedule.get_EndDate
 title: ISchedule::get_EndDate (pla.h)
-
 description: Retrieves or sets the last date that the schedule is valid.
 old-location: pla\ischedule_enddate.htm
 tech.root: PLA
 ms.assetid: 80a5c1a9-2d0a-4700-824b-1333b5c7c374
-
 ms.date: 12/05/2018
 ms.keywords: EndDate property [PLA], EndDate property [PLA],ISchedule interface, ISchedule interface [PLA],EndDate property, ISchedule.EndDate, ISchedule.get_EndDate, ISchedule::EndDate, ISchedule::get_EndDate, ISchedule::put_EndDate, base.ischedule_enddate, get_EndDate, pla.ischedule_enddate, pla/ISchedule::EndDate, pla/ISchedule::get_EndDate, pla/ISchedule::put_EndDate
 ms.topic: method
-f1_keywords: 
- - "pla/ISchedule.EndDate"
+f1_keywords:
+- pla/ISchedule.EndDate
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ISchedule.EndDate
- - ISchedule.get_EndDate
- - ISchedule.put_EndDate
+- ISchedule.EndDate
+- ISchedule.get_EndDate
+- ISchedule.put_EndDate
 targetos: Windows
 req.typenames: 
 req.redist: 

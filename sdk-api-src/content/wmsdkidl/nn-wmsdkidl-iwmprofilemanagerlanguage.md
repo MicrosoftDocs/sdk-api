@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMProfileManagerLanguage
 title: IWMProfileManagerLanguage (wmsdkidl.h)
-
 description: The IWMProfileManagerLanguage interface controls the language of the system profiles parsed by the profile manager.An IWMProfileManagerLanguage interface exists for every profile manager object.
 old-location: wmformat\iwmprofilemanagerlanguage.htm
 tech.root: wmformat
 ms.assetid: 54875162-65fe-4959-b567-38c17ba2894d
-
 ms.date: 12/05/2018
 ms.keywords: IWMProfileManagerLanguage, IWMProfileManagerLanguage interface [windows Media Format], IWMProfileManagerLanguage interface [windows Media Format],described, IWMProfileManagerLanguageInterface, wmformat.iwmprofilemanagerlanguage, wmsdkidl/IWMProfileManagerLanguage
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMProfileManagerLanguage"
+f1_keywords:
+- wmsdkidl/IWMProfileManagerLanguage
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMProfileManagerLanguage
+- IWMProfileManagerLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 

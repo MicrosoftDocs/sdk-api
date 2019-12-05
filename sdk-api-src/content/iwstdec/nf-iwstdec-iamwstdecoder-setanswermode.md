@@ -1,19 +1,17 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.SetAnswerMode
 title: IAMWstDecoder::SetAnswerMode (iwstdec.h)
-
 description: Downstream filters use the SetAnswerMode method to assign the current answer mode.
 old-location: dshow\iamwstdecoder_setanswermode.htm
 tech.root: DirectShow
 ms.assetid: d26b22d2-2c88-4347-80fb-aca8abae50ab
-
 ms.date: 12/05/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetAnswerMode method, IAMWstDecoder.SetAnswerMode, IAMWstDecoder::SetAnswerMode, IAMWstDecoderSetAnswerMode, SetAnswerMode, SetAnswerMode method [DirectShow], SetAnswerMode method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setanswermode, iwstdec/IAMWstDecoder::SetAnswerMode
 ms.topic: method
-f1_keywords: 
- - "iwstdec/IAMWstDecoder.SetAnswerMode"
+f1_keywords:
+- iwstdec/IAMWstDecoder.SetAnswerMode
 dev_langs:
- - c++
+- c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMWstDecoder.SetAnswerMode
+- IAMWstDecoder.SetAnswerMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.SetOffsetX(IDCompositionAnimation)
 title: IDCompositionVisual::SetOffsetX(IDCompositionAnimation) (dcomp.h)
-
 description: Changes the value of the OffsetX property of this visual.
 old-location: directcomp\idcompositionvisual_setoffsetx_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: f0595951-a0b0-47bb-9e94-1cbaa7b7f736
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetOffsetX method, IDCompositionVisual.SetOffsetX, IDCompositionVisual.SetOffsetX(IDCompositionAnimation), IDCompositionVisual::SetOffsetX, IDCompositionVisual::SetOffsetX(IDCompositionAnimation), IDCompositionVisual::SetOffsetX(IDCompositionAnimation*), SetOffsetX, SetOffsetX method [DirectComposition], SetOffsetX method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetOffsetX, directcomp.idcompositionvisual_setoffsetx_idcompositionanimation
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionVisual.SetOffsetX"
+f1_keywords:
+- dcomp/IDCompositionVisual.SetOffsetX
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionVisual.SetOffsetX
+- IDCompositionVisual.SetOffsetX
 targetos: Windows
 req.typenames: 
 req.redist: 

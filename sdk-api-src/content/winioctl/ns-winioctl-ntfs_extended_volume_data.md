@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl.__unnamed_struct_2
 title: NTFS_EXTENDED_VOLUME_DATA
-
 description: Represents volume data.
 old-location: fs\ntfs_volume_data_buffer_str.htm
 tech.root: FileIO
 ms.assetid: 9ca0fe72-162c-4d75-a2f3-e1c7c0b0152a
-
 ms.date: 12/05/2018
-ms.keywords: "*PNTFS_EXTENDED_VOLUME_DATA, NTFS_EXTENDED_VOLUME_DATA, NTFS_VOLUME_DATA_BUFFER, NTFS_VOLUME_DATA_BUFFER structure [Files], PNTFS_VOLUME_DATA_BUFFER, PNTFS_VOLUME_DATA_BUFFER structure pointer [Files], _win32_ntfs_volume_data_buffer_str, base.ntfs_volume_data_buffer_str, fs.ntfs_volume_data_buffer_str, winioctl/NTFS_VOLUME_DATA_BUFFER, winioctl/PNTFS_VOLUME_DATA_BUFFER"
+ms.keywords: '*PNTFS_EXTENDED_VOLUME_DATA, NTFS_EXTENDED_VOLUME_DATA, NTFS_VOLUME_DATA_BUFFER, NTFS_VOLUME_DATA_BUFFER structure [Files], PNTFS_VOLUME_DATA_BUFFER, PNTFS_VOLUME_DATA_BUFFER structure pointer [Files], _win32_ntfs_volume_data_buffer_str, base.ntfs_volume_data_buffer_str, fs.ntfs_volume_data_buffer_str, winioctl/NTFS_VOLUME_DATA_BUFFER, winioctl/PNTFS_VOLUME_DATA_BUFFER'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/NTFS_VOLUME_DATA_BUFFER"
+f1_keywords:
+- winioctl/NTFS_VOLUME_DATA_BUFFER
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - NTFS_VOLUME_DATA_BUFFER
+- NTFS_VOLUME_DATA_BUFFER
 targetos: Windows
 req.typenames: NTFS_EXTENDED_VOLUME_DATA, *PNTFS_EXTENDED_VOLUME_DATA
 req.redist: 

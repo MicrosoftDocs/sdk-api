@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.CD3D11_VIEWPORT
 title: CD3D11_VIEWPORT (d3d11.h)
-
 description: Represents a viewport and provides convenience methods for creating viewports.
 old-location: direct3d11\cd3d11_viewport.htm
 tech.root: direct3d11
 ms.assetid: F4C7E5E7-1986-4210-83BC-80277A47CB97
-
 ms.date: 12/05/2018
 ms.keywords: CD3D11_VIEWPORT, CD3D11_VIEWPORT structure [Direct3D 11], d3d11/CD3D11_VIEWPORT, direct3d11.cd3d11_viewport
 ms.topic: struct
-f1_keywords: 
- - "d3d11/CD3D11_VIEWPORT"
+f1_keywords:
+- d3d11/CD3D11_VIEWPORT
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - CD3D11_VIEWPORT
+- CD3D11_VIEWPORT
 targetos: Windows
 req.typenames: 
 req.redist: 

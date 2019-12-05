@@ -1,19 +1,17 @@
 ---
 UID: NF:prsht.PropSheet_SetTitle
 title: PropSheet_SetTitle macro (prsht.h)
-
 description: Sets the title of a property sheet. You can use this macro or send the PSM_SETTITLE message explicitly.
 old-location: controls\PropSheet_SetTitle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_settitle.htm
-
 ms.date: 12/05/2018
 ms.keywords: PropSheet_SetTitle, PropSheet_SetTitle macro [Windows Controls], _win32_PropSheet_SetTitle, _win32_PropSheet_SetTitle_cpp, controls.PropSheet_SetTitle, controls._win32_PropSheet_SetTitle, prsht/PropSheet_SetTitle
 ms.topic: macro
-f1_keywords: 
- - "prsht/PropSheet_SetTitle"
+f1_keywords:
+- prsht/PropSheet_SetTitle
 dev_langs:
- - c++
+- c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Prsht.h
+- Prsht.h
 api_name:
- - PropSheet_SetTitle
+- PropSheet_SetTitle
 targetos: Windows
 req.typenames: 
 req.redist: 

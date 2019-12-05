@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnAttrsChange
 title: ITextStoreAnchorSink::OnAttrsChange (textstor.h)
-
 description: The ITextStoreAnchorSink::OnAttrsChange method is called when the value of one or more text attributes changes.
 old-location: tsf\itextstoreanchorsink_onattrschange.htm
 tech.root: TSF
 ms.assetid: aa7226dd-1d4a-44ed-94b7-b93813bca2f8
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnAttrsChange method, ITextStoreAnchorSink.OnAttrsChange, ITextStoreAnchorSink::OnAttrsChange, OnAttrsChange, OnAttrsChange method [Text Services Framework], OnAttrsChange method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onattrschange_ref, textstor/ITextStoreAnchorSink::OnAttrsChange, tsf.itextstoreanchorsink_onattrschange
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreAnchorSink.OnAttrsChange"
+f1_keywords:
+- textstor/ITextStoreAnchorSink.OnAttrsChange
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreAnchorSink.OnAttrsChange
+- ITextStoreAnchorSink.OnAttrsChange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

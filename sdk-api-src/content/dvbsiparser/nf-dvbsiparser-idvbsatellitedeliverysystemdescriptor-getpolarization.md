@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbSatelliteDeliverySystemDescriptor.GetPolarization
 title: IDvbSatelliteDeliverySystemDescriptor::GetPolarization (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsatellitedeliverysystemdescriptor_getpolarization.htm
 tech.root: mstv
 ms.assetid: fe063a08-74bd-40c4-a185-3cc932a0a06d
-
 ms.date: 12/05/2018
 ms.keywords: GetPolarization, GetPolarization method [Microsoft TV Technologies], GetPolarization method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetPolarization method, IDvbSatelliteDeliverySystemDescriptor.GetPolarization, IDvbSatelliteDeliverySystemDescriptor::GetPolarization, IDvbSatelliteDeliverySystemDescriptorGetPolarization, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetPolarization, mstv.idvbsatellitedeliverysystemdescriptor_getpolarization
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbSatelliteDeliverySystemDescriptor.GetPolarization"
+f1_keywords:
+- dvbsiparser/IDvbSatelliteDeliverySystemDescriptor.GetPolarization
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbSatelliteDeliverySystemDescriptor.GetPolarization
+- IDvbSatelliteDeliverySystemDescriptor.GetPolarization
 targetos: Windows
 req.typenames: 
 req.redist: 

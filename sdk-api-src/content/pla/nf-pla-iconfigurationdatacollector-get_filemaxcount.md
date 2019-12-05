@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.get_FileMaxCount
 title: IConfigurationDataCollector::get_FileMaxCount (pla.h)
-
 description: Retrieves or sets the maximum number of files to collect.
 old-location: pla\iconfigurationdatacollector_filemaxcount.htm
 tech.root: PLA
 ms.assetid: 20089bc0-8af4-48b4-85aa-51ab2e4bf5be
-
 ms.date: 12/05/2018
 ms.keywords: FileMaxCount property [PLA], FileMaxCount property [PLA],IConfigurationDataCollector interface, IConfigurationDataCollector interface [PLA],FileMaxCount property, IConfigurationDataCollector.FileMaxCount, IConfigurationDataCollector.get_FileMaxCount, IConfigurationDataCollector::FileMaxCount, IConfigurationDataCollector::get_FileMaxCount, IConfigurationDataCollector::put_FileMaxCount, base.iconfigurationdatacollector_filemaxcount, get_FileMaxCount, pla.iconfigurationdatacollector_filemaxcount, pla/IConfigurationDataCollector::FileMaxCount, pla/IConfigurationDataCollector::get_FileMaxCount, pla/IConfigurationDataCollector::put_FileMaxCount
 ms.topic: method
-f1_keywords: 
- - "pla/IConfigurationDataCollector.FileMaxCount"
+f1_keywords:
+- pla/IConfigurationDataCollector.FileMaxCount
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IConfigurationDataCollector.FileMaxCount
- - IConfigurationDataCollector.get_FileMaxCount
- - IConfigurationDataCollector.put_FileMaxCount
+- IConfigurationDataCollector.FileMaxCount
+- IConfigurationDataCollector.get_FileMaxCount
+- IConfigurationDataCollector.put_FileMaxCount
 targetos: Windows
 req.typenames: 
 req.redist: 

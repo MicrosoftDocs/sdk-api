@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings.SetNativeDisplaySize
 title: IApplicationDesignModeSettings::SetNativeDisplaySize (shobjidl_core.h)
-
 description: Sets a spoofed native display size to be used for a Windows Store app running in design mode.
 old-location: shell\IApplicationDesignModeSettings_SetNativeDisplaySize.htm
 tech.root: shell
 ms.assetid: fc301573-6550-4e21-b82b-7800bbf34ea6
-
 ms.date: 12/05/2018
 ms.keywords: IApplicationDesignModeSettings interface [Windows Shell],SetNativeDisplaySize method, IApplicationDesignModeSettings.SetNativeDisplaySize, IApplicationDesignModeSettings::SetNativeDisplaySize, SetNativeDisplaySize, SetNativeDisplaySize method [Windows Shell], SetNativeDisplaySize method [Windows Shell],IApplicationDesignModeSettings interface, shell.IApplicationDesignModeSettings_SetNativeDisplaySize, shobjidl_core/IApplicationDesignModeSettings::SetNativeDisplaySize
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IApplicationDesignModeSettings.SetNativeDisplaySize"
+f1_keywords:
+- shobjidl_core/IApplicationDesignModeSettings.SetNativeDisplaySize
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Twinapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Twinapi.dll
+- Twinapi.dll
 api_name:
- - IApplicationDesignModeSettings.SetNativeDisplaySize
+- IApplicationDesignModeSettings.SetNativeDisplaySize
 targetos: Windows
 req.typenames: 
 req.redist: 

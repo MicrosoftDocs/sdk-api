@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.Graphics(IN HDC,IN HANDLE)
 title: Graphics::Graphics(IN HDC,IN HANDLE) (gdiplusgraphics.h)
-
 description: Creates a Graphics::Graphics object that is associated with a specified device context and a specified device.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_Graphics_hdc_hdevice_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsconstructors\graphics_73hdc_hdevice.htm
-
 ms.date: 12/05/2018
 ms.keywords: Graphics, Graphics class [GDI+],Graphics constructor, Graphics constructor [GDI+], Graphics constructor [GDI+],Graphics class, Graphics.Graphics, Graphics.Graphics(HDC,HANDLE), Graphics.Graphics(IN HDC,IN HANDLE), Graphics::Graphics, Graphics::Graphics(IN HDC,IN HANDLE), _gdiplus_CLASS_Graphics_Graphics_hdc_hdevice_, gdiplus._gdiplus_CLASS_Graphics_Graphics_hdc_hdevice_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.Graphics"
+f1_keywords:
+- gdiplusgraphics/Graphics.Graphics
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.Graphics
+- Graphics.Graphics
 targetos: Windows
 req.typenames: 
 req.redist: 

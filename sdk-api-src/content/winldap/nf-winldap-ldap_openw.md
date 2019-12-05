@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_openW
 title: ldap_openW function (winldap.h)
-
 description: ldap_open is not recommended for use.
 old-location: ldap\ldap_open.htm
 tech.root: ldap
 ms.assetid: ebd7303d-e98d-454d-9964-d774d5c2a756
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_open, ldap.ldap__open, ldap.ldap_open, ldap_open, ldap_open function [LDAP], ldap_openA, ldap_openW, winldap/ldap_open, winldap/ldap_openA, winldap/ldap_openW"
+ms.keywords: _ldap_ldap_open, ldap.ldap__open, ldap.ldap_open, ldap_open, ldap_open function [LDAP], ldap_openA, ldap_openW, winldap/ldap_open, winldap/ldap_openA, winldap/ldap_openW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_open"
+f1_keywords:
+- winldap/ldap_open
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_open
- - ldap_openA
- - ldap_openW
+- ldap_open
+- ldap_openA
+- ldap_openW
 targetos: Windows
 req.typenames: 
 req.redist: 

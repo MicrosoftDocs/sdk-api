@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorTransformFactory.GetTransformInformation
 title: IMFSensorTransformFactory::GetTransformInformation (mfidl.h)
-
 description: Called by the media pipeline to get information about a transform provided by the sensor transform.
 old-location: mf\imfsensortransformfactory_gettransforminformation.htm
 tech.root: medfound
 ms.assetid: A83B0A75-60CF-49AA-9386-70A30189C009
-
 ms.date: 12/05/2018
 ms.keywords: GetTransformInformation, GetTransformInformation method [Media Foundation], GetTransformInformation method [Media Foundation],IMFSensorTransformFactory interface, IMFSensorTransformFactory interface [Media Foundation],GetTransformInformation method, IMFSensorTransformFactory.GetTransformInformation, IMFSensorTransformFactory::GetTransformInformation, mf.imfsensortransformfactory_gettransforminformation, mfidl/IMFSensorTransformFactory::GetTransformInformation
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorTransformFactory.GetTransformInformation"
+f1_keywords:
+- mfidl/IMFSensorTransformFactory.GetTransformInformation
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorTransformFactory.GetTransformInformation
+- IMFSensorTransformFactory.GetTransformInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

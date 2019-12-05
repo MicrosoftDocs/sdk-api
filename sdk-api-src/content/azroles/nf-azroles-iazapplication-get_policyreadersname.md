@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication.get_PolicyReadersName
 title: IAzApplication::get_PolicyReadersName (azroles.h)
-
 description: The IAzApplication::PolicyReadersName property retrieves the account names of principals that act as policy readers.
 old-location: security\iazapplication_policyreadersname.htm
 tech.root: SecAuthZ
 ms.assetid: e6ed4504-0df1-438b-87c7-1861264d02bd
-
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],PolicyReadersName property, IAzApplication interface [Security],PolicyReadersName property, IAzApplication.PolicyReadersName, IAzApplication.get_PolicyReadersName, IAzApplication::PolicyReadersName, IAzApplication::get_PolicyReadersName, PolicyReadersName property [Security], PolicyReadersName property [Security],AzApplication object, PolicyReadersName property [Security],IAzApplication interface, azroles/IAzApplication::PolicyReadersName, azroles/IAzApplication::get_PolicyReadersName, get_PolicyReadersName, security.iazapplication_policyreadersname
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication.PolicyReadersName"
+f1_keywords:
+- azroles/IAzApplication.PolicyReadersName
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication.PolicyReadersName
- - IAzApplication.get_PolicyReadersName
- - AzApplication.PolicyReadersName
+- IAzApplication.PolicyReadersName
+- IAzApplication.get_PolicyReadersName
+- AzApplication.PolicyReadersName
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

@@ -1,19 +1,17 @@
 ---
 UID: NN:sbtsv.ITsSbPluginNotifySink
 title: ITsSbPluginNotifySink (sbtsv.h)
-
 description: Exposes methods that notify Remote Desktop Connection Broker (RD Connection Broker) about initialization or termination of a plug-in.
 old-location: termserv\itssbpluginnotifysink.htm
 tech.root: TermServ
 ms.assetid: c52a3253-74cb-4ff9-a4f3-cb9601c02e7d
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbPluginNotifySink, ITsSbPluginNotifySink interface [Remote Desktop Services], ITsSbPluginNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbPluginNotifySink, termserv.itssbpluginnotifysink
 ms.topic: interface
-f1_keywords: 
- - "sbtsv/ITsSbPluginNotifySink"
+f1_keywords:
+- sbtsv/ITsSbPluginNotifySink
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbPluginNotifySink
+- ITsSbPluginNotifySink
 targetos: Windows
 req.typenames: 
 req.redist: 

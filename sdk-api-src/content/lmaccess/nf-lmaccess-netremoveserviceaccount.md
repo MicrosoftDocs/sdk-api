@@ -1,19 +1,17 @@
 ---
 UID: NF:lmaccess.NetRemoveServiceAccount
 title: NetRemoveServiceAccount function (lmaccess.h)
-
 description: Deletes the specified service account from the Active Directory database if the account is a standalone managed service account (sMSA).
 old-location: security\netremoveserviceaccount.htm
 tech.root: SecMgmt
 ms.assetid: f67745b7-bdfd-44bc-83e0-2ad24b78e137
-
 ms.date: 12/05/2018
 ms.keywords: NetRemoveServiceAccount, NetRemoveServiceAccount function [Security], SERVICE_ACCOUNT_FLAG_UNLINK_FROM_HOST_ONLY, lmaccess/NetRemoveServiceAccount, security.netremoveserviceaccount
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetRemoveServiceAccount"
+f1_keywords:
+- lmaccess/NetRemoveServiceAccount
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetRemoveServiceAccount
+- NetRemoveServiceAccount
 targetos: Windows
 req.typenames: 
 req.redist: 

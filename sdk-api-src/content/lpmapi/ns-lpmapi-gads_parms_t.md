@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_30
 title: Gads_parms_t (lpmapi.h)
-
 description: The Gads_parms_t structure stores guaranteed service Adspec parameters.
 old-location: qos\gads_parms_t.htm
 tech.root: QOS
 ms.assetid: 06492722-948d-407a-b1bf-e1c4f5ea7f89
-
 ms.date: 12/05/2018
 ms.keywords: Gads_parms_t, Gads_parms_t structure [QOS], lpmapi/Gads_parms_t, qos.gads_parms_t
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/Gads_parms_t"
+f1_keywords:
+- lpmapi/Gads_parms_t
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - Gads_parms_t
+- Gads_parms_t
 targetos: Windows
 req.typenames: Gads_parms_t
 req.redist: 

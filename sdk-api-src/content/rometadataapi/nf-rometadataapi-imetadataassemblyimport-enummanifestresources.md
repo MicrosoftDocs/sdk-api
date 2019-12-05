@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.EnumManifestResources
 title: IMetaDataAssemblyImport::EnumManifestResources (rometadataapi.h)
-
 description: Gets a pointer to an enumerator for the resources referenced in the current assembly manifest.
 old-location: winrt\imetadataassemblyimport_enummanifestresources.htm
 tech.root: WinRT
 ms.assetid: 294ba92f-b6ef-4a66-81b5-b9ff508e147e
-
 ms.date: 12/05/2018
 ms.keywords: EnumManifestResources, EnumManifestResources method [Windows Runtime], EnumManifestResources method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],EnumManifestResources method, IMetaDataAssemblyImport.EnumManifestResources, IMetaDataAssemblyImport::EnumManifestResources, rometadataapi/IMetaDataAssemblyImport::EnumManifestResources, winrt.imetadataassemblyimport_enummanifestresources
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataAssemblyImport.EnumManifestResources"
+f1_keywords:
+- rometadataapi/IMetaDataAssemblyImport.EnumManifestResources
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataAssemblyImport.EnumManifestResources
+- IMetaDataAssemblyImport.EnumManifestResources
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.GetFileExtensions
 title: IWICBitmapCodecInfo::GetFileExtensions (wincodec.h)
-
 description: Retrieves a comma delimited list of the file name extensions associated with the codec.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_getfileextensions.htm
 tech.root: wic
 ms.assetid: 7b171c48-3fad-44ea-a9a5-8318e4cc3eba
-
 ms.date: 12/05/2018
 ms.keywords: GetFileExtensions, GetFileExtensions method [Windows Imaging Component], GetFileExtensions method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],GetFileExtensions method, IWICBitmapCodecInfo.GetFileExtensions, IWICBitmapCodecInfo::GetFileExtensions, _wic_codec_iwicbitmapcodecinfo_getfileextensions, wic._wic_codec_iwicbitmapcodecinfo_getfileextensions, wincodec/IWICBitmapCodecInfo::GetFileExtensions
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapCodecInfo.GetFileExtensions"
+f1_keywords:
+- wincodec/IWICBitmapCodecInfo.GetFileExtensions
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.lib
- - Windowscodecs.dll
+- Windowscodecs.lib
+- Windowscodecs.dll
 api_name:
- - IWICBitmapCodecInfo.GetFileExtensions
+- IWICBitmapCodecInfo.GetFileExtensions
 targetos: Windows
 req.typenames: 
 req.redist: 

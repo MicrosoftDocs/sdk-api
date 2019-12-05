@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFNetProxyLocator.GetCurrentProxy
 title: IMFNetProxyLocator::GetCurrentProxy (mfidl.h)
-
 description: Retrieves the current proxy information including hostname and port.
 old-location: mf\imfnetproxylocator_getcurrentproxy.htm
 tech.root: medfound
 ms.assetid: 5bc9a87b-a6d5-4ae0-a3a2-9cef2df79272
-
 ms.date: 12/05/2018
 ms.keywords: 5bc9a87b-a6d5-4ae0-a3a2-9cef2df79272, GetCurrentProxy, GetCurrentProxy method [Media Foundation], GetCurrentProxy method [Media Foundation],IMFNetProxyLocator interface, IMFNetProxyLocator interface [Media Foundation],GetCurrentProxy method, IMFNetProxyLocator.GetCurrentProxy, IMFNetProxyLocator::GetCurrentProxy, mf.imfnetproxylocator_getcurrentproxy, mfidl/IMFNetProxyLocator::GetCurrentProxy
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFNetProxyLocator.GetCurrentProxy"
+f1_keywords:
+- mfidl/IMFNetProxyLocator.GetCurrentProxy
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFNetProxyLocator.GetCurrentProxy
+- IMFNetProxyLocator.GetCurrentProxy
 targetos: Windows
 req.typenames: 
 req.redist: 

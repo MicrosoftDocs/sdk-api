@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetAllImplTypeCustData
 title: ITypeInfo2::GetAllImplTypeCustData (oaidl.h)
-
 description: Gets all custom data for the specified implementation type.
 old-location: automat\itypeinfo2_getallimpltypecustdata.htm
 tech.root: automat
 ms.assetid: 021849d8-ec61-4f35-8302-caa8338a8758
-
 ms.date: 12/05/2018
 ms.keywords: GetAllImplTypeCustData, GetAllImplTypeCustData method [Automation], GetAllImplTypeCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetAllImplTypeCustData method, ITypeInfo2.GetAllImplTypeCustData, ITypeInfo2::GetAllImplTypeCustData, _oa96_ITypeInfo2_GetAllImplTypeCustData, automat.itypeinfo2_getallimpltypecustdata, oaidl/ITypeInfo2::GetAllImplTypeCustData
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeInfo2.GetAllImplTypeCustData"
+f1_keywords:
+- oaidl/ITypeInfo2.GetAllImplTypeCustData
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeInfo2.GetAllImplTypeCustData
+- ITypeInfo2.GetAllImplTypeCustData
 targetos: Windows
 req.typenames: 
 req.redist: 

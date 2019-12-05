@@ -1,19 +1,17 @@
 ---
 UID: NC:mgm.PMGM_DISABLE_IGMP_CALLBACK
 title: PMGM_DISABLE_IGMP_CALLBACK (mgm.h)
-
 description: The PMGM_DISABLE_IGMP_CALLBACK callback is a call into IGMP to notify it that a routing protocol is taking or releasing ownership of an interface on which IGMP is enabled.
 old-location: rras\pmgm_disable_igmp_callback.htm
 tech.root: RRAS
 ms.assetid: 4f790e1b-b10f-477b-b2bc-75c95560d7f4
-
 ms.date: 12/05/2018
 ms.keywords: MgmDisableIgmpCallback, PMGM_DISABLE_IGMP_CALLBACK, PMGM_DISABLE_IGMP_CALLBACK callback, PMGM_DISABLE_IGMP_CALLBACK callback function [RAS], _mpr_pmgm_disable_igmp_callback, mgm/PMGM_DISABLE_IGMP_CALLBACK, rras.pmgm_disable_igmp_callback
 ms.topic: callback
-f1_keywords: 
- - "mgm/PMGM_DISABLE_IGMP_CALLBACK"
+f1_keywords:
+- mgm/PMGM_DISABLE_IGMP_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mgm.h
+- Mgm.h
 api_name:
- - PMGM_DISABLE_IGMP_CALLBACK
+- PMGM_DISABLE_IGMP_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

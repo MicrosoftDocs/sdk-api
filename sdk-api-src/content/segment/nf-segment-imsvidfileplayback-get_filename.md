@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidFilePlayback.get_FileName
 title: IMSVidFilePlayback::get_FileName (segment.h)
-
 description: The get_FileName method retrieves the name of the file to play.
 old-location: mstv\imsvidfileplayback_get_filename.htm
 tech.root: mstv
 ms.assetid: c8e01204-fb8e-4ebb-97d9-04dda15c491a
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidFilePlayback interface [Microsoft TV Technologies],get_FileName method, IMSVidFilePlayback.get_FileName, IMSVidFilePlayback::get_FileName, IMSVidFilePlaybackget_FileName, get_FileName, get_FileName method [Microsoft TV Technologies], get_FileName method [Microsoft TV Technologies],IMSVidFilePlayback interface, mstv.imsvidfileplayback_get_filename, segment/IMSVidFilePlayback::get_FileName
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidFilePlayback.get_FileName"
+f1_keywords:
+- segment/IMSVidFilePlayback.get_FileName
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidFilePlayback.get_FileName
+- IMSVidFilePlayback.get_FileName
 targetos: Windows
 req.typenames: 
 req.redist: 

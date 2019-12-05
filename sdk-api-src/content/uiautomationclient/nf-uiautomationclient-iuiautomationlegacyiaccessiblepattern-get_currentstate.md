@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CurrentState
 title: IUIAutomationLegacyIAccessiblePattern::get_CurrentState (uiautomationclient.h)
-
 description: Retrieves the Microsoft Active Accessibility state identifier for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentState.htm
 tech.root: WinAuto
 ms.assetid: 255e8900-e25a-43e4-b943-60a1814d342d
-
 ms.date: 12/05/2018
 ms.keywords: CurrentState property [Windows Accessibility], CurrentState property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CurrentState property, IUIAutomationLegacyIAccessiblePattern.CurrentState, IUIAutomationLegacyIAccessiblePattern.get_CurrentState, IUIAutomationLegacyIAccessiblePattern::CurrentState, IUIAutomationLegacyIAccessiblePattern::get_CurrentState, get_CurrentState, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentState, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentState, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentState, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentState, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentState
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CurrentState"
+f1_keywords:
+- uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CurrentState
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationLegacyIAccessiblePattern.CurrentState
- - IUIAutomationLegacyIAccessiblePattern.get_CurrentState
+- IUIAutomationLegacyIAccessiblePattern.CurrentState
+- IUIAutomationLegacyIAccessiblePattern.get_CurrentState
 targetos: Windows
 req.typenames: 
 req.redist: 

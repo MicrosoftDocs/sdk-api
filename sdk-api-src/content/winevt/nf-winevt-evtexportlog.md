@@ -1,19 +1,17 @@
 ---
 UID: NF:winevt.EvtExportLog
 title: EvtExportLog function (winevt.h)
-
 description: Copies events from the specified channel or log file and writes them to the target log file.
 old-location: wes\evtexportlog.htm
 tech.root: wes
 ms.assetid: c177029f-84e3-41ec-bbdb-26b0c1bf481f
-
 ms.date: 12/05/2018
 ms.keywords: EvtExportLog, EvtExportLog function [EventLog], wes.evtexportlog, winevt/EvtExportLog
 ms.topic: function
 f1_keywords:
 - winevt/EvtExportLog
 dev_langs:
- - c++
+- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

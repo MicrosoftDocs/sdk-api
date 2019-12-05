@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHRegDeleteEmptyUSKeyW
 title: SHRegDeleteEmptyUSKeyW function (shlwapi.h)
-
 description: Deletes an empty registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegDeleteEmptyUSKey.htm
 tech.root: shell
 ms.assetid: adb09a2b-674c-472d-9f16-8e150476f1f5
-
 ms.date: 12/05/2018
 ms.keywords: SHRegDeleteEmptyUSKey, SHRegDeleteEmptyUSKey function [Windows Shell], SHRegDeleteEmptyUSKeyA, SHRegDeleteEmptyUSKeyW, _win32_SHRegDeleteEmptyUSKey, shell.SHRegDeleteEmptyUSKey, shlwapi/SHRegDeleteEmptyUSKey, shlwapi/SHRegDeleteEmptyUSKeyA, shlwapi/SHRegDeleteEmptyUSKeyW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHRegDeleteEmptyUSKey"
+f1_keywords:
+- shlwapi/SHRegDeleteEmptyUSKey
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-Registryuserspecific-l1-1-0.dll
- - KernelBase.dll
+- Shlwapi.dll
+- API-MS-Win-Core-Registryuserspecific-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - SHRegDeleteEmptyUSKey
- - SHRegDeleteEmptyUSKeyA
- - SHRegDeleteEmptyUSKeyW
+- SHRegDeleteEmptyUSKey
+- SHRegDeleteEmptyUSKeyA
+- SHRegDeleteEmptyUSKeyW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.AllocateSample
 title: IWMWriter::AllocateSample (wmsdkidl.h)
-
 description: The AllocateSample method allocates a buffer that can be used to provide samples to the writer.
 old-location: wmformat\iwmwriter_allocatesample.htm
 tech.root: wmformat
 ms.assetid: b23b2364-fb36-479f-bf92-76a5bb4722de
-
 ms.date: 12/05/2018
 ms.keywords: AllocateSample, AllocateSample method [windows Media Format], AllocateSample method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],AllocateSample method, IWMWriter.AllocateSample, IWMWriter::AllocateSample, IWMWriterAllocateSample, wmformat.iwmwriter_allocatesample, wmsdkidl/IWMWriter::AllocateSample
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriter.AllocateSample"
+f1_keywords:
+- wmsdkidl/IWMWriter.AllocateSample
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriter.AllocateSample
+- IWMWriter.AllocateSample
 targetos: Windows
 req.typenames: 
 req.redist: 

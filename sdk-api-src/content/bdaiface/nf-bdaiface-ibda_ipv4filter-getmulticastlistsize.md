@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_IPV4Filter.GetMulticastListSize
 title: IBDA_IPV4Filter::GetMulticastListSize (bdaiface.h)
-
 description: The GetMulticastListSize method retrieves the number of addresses in the list.
 old-location: mstv\ibda_ipv4filter_getmulticastlistsize.htm
 tech.root: mstv
 ms.assetid: 7d31e34f-1997-40fe-9b32-a193d3017798
-
 ms.date: 12/05/2018
 ms.keywords: GetMulticastListSize, GetMulticastListSize method [Microsoft TV Technologies], GetMulticastListSize method [Microsoft TV Technologies],IBDA_IPV4Filter interface, IBDA_IPV4Filter interface [Microsoft TV Technologies],GetMulticastListSize method, IBDA_IPV4Filter.GetMulticastListSize, IBDA_IPV4Filter::GetMulticastListSize, IBDA_IPV4FilterGetMulticastListSize, bdaiface/IBDA_IPV4Filter::GetMulticastListSize, mstv.ibda_ipv4filter_getmulticastlistsize
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_IPV4Filter.GetMulticastListSize"
+f1_keywords:
+- bdaiface/IBDA_IPV4Filter.GetMulticastListSize
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_IPV4Filter.GetMulticastListSize
+- IBDA_IPV4Filter.GetMulticastListSize
 targetos: Windows
 req.typenames: 
 req.redist: 

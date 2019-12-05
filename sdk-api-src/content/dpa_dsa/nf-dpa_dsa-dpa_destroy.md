@@ -1,19 +1,17 @@
 ---
 UID: NF:dpa_dsa.DPA_Destroy
 title: DPA_Destroy function (dpa_dsa.h)
-
 description: Frees a Dynamic Pointer Array (DPA).
 old-location: controls\DPA_Destroy.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_destroy.htm
-
 ms.date: 12/05/2018
 ms.keywords: DPA_Destroy, DPA_Destroy function [Windows Controls], _win32_DPA_Destroy, _win32_DPA_Destroy_cpp, controls.DPA_Destroy, controls._win32_DPA_Destroy, dpa_dsa/DPA_Destroy
 ms.topic: function
-f1_keywords: 
- - "dpa_dsa/DPA_Destroy"
+f1_keywords:
+- dpa_dsa/DPA_Destroy
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: ComCtl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComCtl32.dll
+- ComCtl32.dll
 api_name:
- - DPA_Destroy
+- DPA_Destroy
 targetos: Windows
 req.typenames: 
 req.redist: 

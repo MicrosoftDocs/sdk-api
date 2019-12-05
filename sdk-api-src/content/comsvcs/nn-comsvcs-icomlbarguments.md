@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ICOMLBArguments
 title: ICOMLBArguments (comsvcs.h)
-
 description: Used to activate the COM+ component load balancing service.
 old-location: cos\icomlbarguments.htm
 tech.root: cossdk
 ms.assetid: 1eb1c464-9371-420e-afc0-4b18c11a70d4
-
 ms.date: 12/05/2018
 ms.keywords: ICOMLBArguments, ICOMLBArguments interface [COM+], ICOMLBArguments interface [COM+],described, _cos_icomlbarguments, comsvcs/ICOMLBArguments, cos.icomlbarguments
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ICOMLBArguments"
+f1_keywords:
+- comsvcs/ICOMLBArguments
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICOMLBArguments
+- ICOMLBArguments
 targetos: Windows
 req.typenames: 
 req.redist: 

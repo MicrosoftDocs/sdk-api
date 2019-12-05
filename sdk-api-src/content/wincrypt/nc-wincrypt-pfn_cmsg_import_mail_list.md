@@ -1,19 +1,17 @@
 ---
 UID: NC:wincrypt.PFN_CMSG_IMPORT_MAIL_LIST
 title: PFN_CMSG_IMPORT_MAIL_LIST (wincrypt.h)
-
 description: Imports a content encryption key for a key transport recipient of an enveloped message.
 old-location: security\pfn_cmsg_import_mail_list.htm
 tech.root: SecCrypto
 ms.assetid: 5d473c20-31b8-48e3-9e38-4b4c06a44402
-
 ms.date: 12/05/2018
 ms.keywords: PFN_CMSG_IMPORT_MAIL_LIST, PFN_CMSG_IMPORT_MAIL_LIST callback, PFN_CMSG_IMPORT_MAIL_LIST callback function [Security], security.pfn_cmsg_import_mail_list, wincrypt/PFN_CMSG_IMPORT_MAIL_LIST
 ms.topic: callback
 f1_keywords:
 - wincrypt/PFN_CMSG_IMPORT_MAIL_LIST
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

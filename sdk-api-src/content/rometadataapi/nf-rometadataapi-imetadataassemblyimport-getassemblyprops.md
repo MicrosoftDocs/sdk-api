@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.GetAssemblyProps
 title: IMetaDataAssemblyImport::GetAssemblyProps (rometadataapi.h)
-
 description: Gets the set of properties for the assembly with the specified metadata signature.
 old-location: winrt\imetadataassemblyimport_getassemblyprops.htm
 tech.root: WinRT
 ms.assetid: 1f60657c-46b4-4491-a9e2-73868886f51d
-
 ms.date: 12/05/2018
 ms.keywords: GetAssemblyProps, GetAssemblyProps method [Windows Runtime], GetAssemblyProps method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetAssemblyProps method, IMetaDataAssemblyImport.GetAssemblyProps, IMetaDataAssemblyImport::GetAssemblyProps, rometadataapi/IMetaDataAssemblyImport::GetAssemblyProps, winrt.imetadataassemblyimport_getassemblyprops
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataAssemblyImport.GetAssemblyProps"
+f1_keywords:
+- rometadataapi/IMetaDataAssemblyImport.GetAssemblyProps
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataAssemblyImport.GetAssemblyProps
+- IMetaDataAssemblyImport.GetAssemblyProps
 targetos: Windows
 req.typenames: 
 req.redist: 

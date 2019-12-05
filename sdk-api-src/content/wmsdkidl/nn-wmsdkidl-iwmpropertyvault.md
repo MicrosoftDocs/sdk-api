@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMPropertyVault
 title: IWMPropertyVault (wmsdkidl.h)
-
 description: The IWMPropertyVault interface provides methods to store and retrieve properties.
 old-location: wmformat\iwmpropertyvault.htm
 tech.root: wmformat
 ms.assetid: 0e51a9be-afd4-430b-8339-f45e8f9a7d20
-
 ms.date: 12/05/2018
 ms.keywords: IWMPropertyVault, IWMPropertyVault interface [windows Media Format], IWMPropertyVault interface [windows Media Format],described, IWMPropertyVaultInterface, wmformat.iwmpropertyvault, wmsdkidl/IWMPropertyVault
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMPropertyVault"
+f1_keywords:
+- wmsdkidl/IWMPropertyVault
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMPropertyVault
+- IWMPropertyVault
 targetos: Windows
 req.typenames: 
 req.redist: 

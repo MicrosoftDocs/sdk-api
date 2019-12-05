@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluseffects.ColorBalance.ColorBalance
 title: ColorBalance::ColorBalance (gdipluseffects.h)
-
 description: Creates a new ColorBalance object.
 old-location: gdiplus\_gdiplus_CLASS_ColorBalance_ColorBalance_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorbalanceclass\colorbalanceconstructors\colorbalance.htm
-
 ms.date: 12/05/2018
 ms.keywords: ColorBalance, ColorBalance class [GDI+],ColorBalance constructor, ColorBalance constructor [GDI+], ColorBalance constructor [GDI+],ColorBalance class, ColorBalance.ColorBalance, ColorBalance::ColorBalance, _gdiplus_CLASS_ColorBalance_ColorBalance_, gdiplus._gdiplus_CLASS_ColorBalance_ColorBalance_
 ms.topic: method
-f1_keywords: 
- - "gdipluseffects/ColorBalance.ColorBalance"
+f1_keywords:
+- gdipluseffects/ColorBalance.ColorBalance
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - ColorBalance.ColorBalance
+- ColorBalance.ColorBalance
 targetos: Windows
 req.typenames: 
 req.redist: 

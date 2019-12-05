@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkDisp.ExtractStrokes
 title: IInkDisp::ExtractStrokes (msinkaut.h)
-
 description: Specifies the strokes to extract from an InkDisp Class and cut or copy into a new InkDisp Class, by using the known collection of strokes to determine which strokes to extract.
 old-location: tablet\inkdisp_extractstrokes.htm
 tech.root: tablet
 ms.assetid: 1cb109e5-5193-4022-a3b1-ade9be1337e8
-
 ms.date: 12/05/2018
 ms.keywords: 1cb109e5-5193-4022-a3b1-ade9be1337e8, ExtractStrokes, ExtractStrokes method [Tablet PC], ExtractStrokes method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],ExtractStrokes method, IInkDisp.ExtractStrokes, IInkDisp::ExtractStrokes, msinkaut/IInkDisp::ExtractStrokes, tablet.inkdisp_extractstrokes
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkDisp.ExtractStrokes"
+f1_keywords:
+- msinkaut/IInkDisp.ExtractStrokes
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkDisp.ExtractStrokes
+- IInkDisp.ExtractStrokes
 targetos: Windows
 req.typenames: 
 req.redist: 

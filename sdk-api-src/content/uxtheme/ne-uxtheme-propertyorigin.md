@@ -1,19 +1,17 @@
 ---
 UID: NE:uxtheme.PROPERTYORIGIN
 title: PROPERTYORIGIN (uxtheme.h)
-
 description: Returned by GetThemePropertyOrigin to specify where a property was found.
 old-location: controls\PROPERTYORIGIN.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\enums\propertyorigin.htm
-
 ms.date: 12/05/2018
 ms.keywords: PO_CLASS, PO_GLOBAL, PO_NOTFOUND, PO_PART, PO_STATE, PROPERTYORIGIN, PROPERTYORIGIN enumeration [Windows Controls], controls.PROPERTYORIGIN, controls.inet_PROPERTYORIGIN, inet_PROPERTYORIGIN, inet_PROPERTYORIGIN_cpp, uxtheme/PO_CLASS, uxtheme/PO_GLOBAL, uxtheme/PO_NOTFOUND, uxtheme/PO_PART, uxtheme/PO_STATE, uxtheme/PROPERTYORIGIN
 ms.topic: enum
-f1_keywords: 
- - "uxtheme/PROPERTYORIGIN"
+f1_keywords:
+- uxtheme/PROPERTYORIGIN
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Uxtheme.h
+- Uxtheme.h
 api_name:
- - PROPERTYORIGIN
+- PROPERTYORIGIN
 targetos: Windows
 req.typenames: 
 req.redist: 

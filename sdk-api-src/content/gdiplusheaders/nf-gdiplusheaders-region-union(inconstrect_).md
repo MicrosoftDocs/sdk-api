@@ -3,14 +3,13 @@ UID: NF:gdiplusheaders.Region.Union(IN const Rect &)
 title: Region::Union
 description: The Region::Union method updates this region.
 ms.assetid: dde2ebc1-cb66-41ac-81ef-5ef53f427ed7
-
 ms.date: 05/20/2019
 ms.keywords: Region::Union
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusheaders/Region::Union"
+f1_keywords:
+- gdiplusheaders/Region::Union
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusheaders.h
+- gdiplusheaders.h
 api_name:
- - Region::Union
+- Region::Union
 ---
 
 # Region::Union(Rect&)

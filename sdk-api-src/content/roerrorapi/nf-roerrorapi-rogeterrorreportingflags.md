@@ -1,19 +1,17 @@
 ---
 UID: NF:roerrorapi.RoGetErrorReportingFlags
 title: RoGetErrorReportingFlags function
-
 description: Gets the current reporting behavior of Windows Runtime error functions.
 old-location: winrt\rogeterrorreportingflags.htm
 tech.root: WinRT
 ms.assetid: 0DCF6693-5066-46E3-A7F9-5CF0780FA87C
-
 ms.date: 12/5/2018
 ms.keywords: RoGetErrorReportingFlags, RoGetErrorReportingFlags function [Windows Runtime], WinRTGetErrorReportingFlags, roerrorapi/RoGetErrorReportingFlags, roerrorapi/WinRTGetErrorReportingFlags, winrt.rogeterrorreportingflags, winrt.winrtgeterrorreportingflags
 ms.topic: function
-f1_keywords: 
- - "roerrorapi/RoGetErrorReportingFlags"
+f1_keywords:
+- roerrorapi/RoGetErrorReportingFlags
 dev_langs:
- - c++
+- c++
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - roerrorapi.h
- - API-MS-Win-Core-WinRT-error-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-WinRT-error-l1-1-1.dll
+- roerrorapi.h
+- API-MS-Win-Core-WinRT-error-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-error-l1-1-1.dll
 api_name:
- - RoGetErrorReportingFlags
- - WinRTGetErrorReportingFlags
+- RoGetErrorReportingFlags
+- WinRTGetErrorReportingFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsFreeServiceHost
 title: WsFreeServiceHost function (webservices.h)
-
 description: Releases the memory associated with a Service Host object.
 old-location: wsw\wsfreeservicehost.htm
 tech.root: wsw
 ms.assetid: 5362d8a4-8b38-462a-a7c1-9cde19abee1e
-
 ms.date: 12/05/2018
 ms.keywords: WsFreeServiceHost, WsFreeServiceHost function [Web Services for Windows], webservices/WsFreeServiceHost, wsw.wsfreeservicehost
 ms.topic: function
-f1_keywords: 
- - "webservices/WsFreeServiceHost"
+f1_keywords:
+- webservices/WsFreeServiceHost
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsFreeServiceHost
+- WsFreeServiceHost
 targetos: Windows
 req.typenames: 
 req.redist: 

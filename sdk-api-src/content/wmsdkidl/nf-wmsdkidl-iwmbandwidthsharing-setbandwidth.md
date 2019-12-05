@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMBandwidthSharing.SetBandwidth
 title: IWMBandwidthSharing::SetBandwidth (wmsdkidl.h)
-
 description: The SetBandwidth method sets the bandwidth and maximum buffer size for a combined stream.
 old-location: wmformat\iwmbandwidthsharing_setbandwidth.htm
 tech.root: wmformat
 ms.assetid: 1f2ac613-3674-46d9-ae7c-26389dbede02
-
 ms.date: 12/05/2018
 ms.keywords: IWMBandwidthSharing interface [windows Media Format],SetBandwidth method, IWMBandwidthSharing.SetBandwidth, IWMBandwidthSharing::SetBandwidth, IWMBandwidthSharingSetBandwidth, SetBandwidth, SetBandwidth method [windows Media Format], SetBandwidth method [windows Media Format],IWMBandwidthSharing interface, wmformat.iwmbandwidthsharing_setbandwidth, wmsdkidl/IWMBandwidthSharing::SetBandwidth
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMBandwidthSharing.SetBandwidth"
+f1_keywords:
+- wmsdkidl/IWMBandwidthSharing.SetBandwidth
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMBandwidthSharing.SetBandwidth
+- IWMBandwidthSharing.SetBandwidth
 targetos: Windows
 req.typenames: 
 req.redist: 

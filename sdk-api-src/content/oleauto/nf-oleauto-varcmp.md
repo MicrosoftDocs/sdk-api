@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarCmp
 title: VarCmp function (oleauto.h)
-
 description: Compares two variants.
 old-location: automat\varcmp.htm
 tech.root: automat
 ms.assetid: 00b96fa7-446c-450b-bd06-a966e1acb5ce
-
 ms.date: 12/05/2018
 ms.keywords: NORM_IGNORECASE, NORM_IGNOREKANATYPE, NORM_IGNOREKASHIDA, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREWIDTH, VarCmp, VarCmp function [Automation], _oa96_VarCmp, automat.varcmp, oleauto/VarCmp
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarCmp"
+f1_keywords:
+- oleauto/VarCmp
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarCmp
+- VarCmp
 targetos: Windows
 req.typenames: 
 req.redist: 

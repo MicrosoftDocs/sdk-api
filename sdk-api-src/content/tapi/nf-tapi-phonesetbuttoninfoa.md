@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.phoneSetButtonInfoA
 title: phoneSetButtonInfoA function (tapi.h)
-
 description: The phoneSetButtonInfo function sets information about the specified button on the specified phone.
 old-location: tapi2\phonesetbuttoninfo.htm
 tech.root: Tapi
 ms.assetid: f51581a9-7b2a-4ba0-83fa-f464c8202648
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_phonesetbuttoninfo, phoneSetButtonInfo, phoneSetButtonInfo function [TAPI 2.2], phoneSetButtonInfoA, phoneSetButtonInfoW, tapi/phoneSetButtonInfo, tapi/phoneSetButtonInfoA, tapi/phoneSetButtonInfoW, tapi2.phonesetbuttoninfo"
+ms.keywords: _tapi2_phonesetbuttoninfo, phoneSetButtonInfo, phoneSetButtonInfo function [TAPI 2.2], phoneSetButtonInfoA, phoneSetButtonInfoW, tapi/phoneSetButtonInfo, tapi/phoneSetButtonInfoA, tapi/phoneSetButtonInfoW, tapi2.phonesetbuttoninfo
 ms.topic: function
-f1_keywords: 
- - "tapi/phoneSetButtonInfo"
+f1_keywords:
+- tapi/phoneSetButtonInfo
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - phoneSetButtonInfo
- - phoneSetButtonInfoA
- - phoneSetButtonInfoW
+- phoneSetButtonInfo
+- phoneSetButtonInfoA
+- phoneSetButtonInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

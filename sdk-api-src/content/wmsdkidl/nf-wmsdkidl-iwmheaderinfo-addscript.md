@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.AddScript
 title: IWMHeaderInfo::AddScript (wmsdkidl.h)
-
 description: The AddScript method adds a script, consisting of type and command strings, and a specific time, to the header section of the ASF file.
 old-location: wmformat\iwmheaderinfo_addscript.htm
 tech.root: wmformat
 ms.assetid: e20644fb-077e-4eee-8802-6099002f3969
-
 ms.date: 12/05/2018
 ms.keywords: AddScript, AddScript method [windows Media Format], AddScript method [windows Media Format],IWMHeaderInfo interface, AddScript method [windows Media Format],IWMHeaderInfo2 interface, AddScript method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],AddScript method, IWMHeaderInfo.AddScript, IWMHeaderInfo2 interface [windows Media Format],AddScript method, IWMHeaderInfo2::AddScript, IWMHeaderInfo3 interface [windows Media Format],AddScript method, IWMHeaderInfo3::AddScript, IWMHeaderInfo::AddScript, IWMHeaderInfoAddScript, wmformat.iwmheaderinfo_addscript, wmsdkidl/IWMHeaderInfo2::AddScript, wmsdkidl/IWMHeaderInfo3::AddScript, wmsdkidl/IWMHeaderInfo::AddScript
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMHeaderInfo.AddScript"
+f1_keywords:
+- wmsdkidl/IWMHeaderInfo.AddScript
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
- - qasf.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
+- qasf.dll
 api_name:
- - IWMHeaderInfo.AddScript
- - IWMHeaderInfo2.AddScript
- - IWMHeaderInfo3.AddScript
+- IWMHeaderInfo.AddScript
+- IWMHeaderInfo2.AddScript
+- IWMHeaderInfo3.AddScript
 targetos: Windows
 req.typenames: 
 req.redist: 

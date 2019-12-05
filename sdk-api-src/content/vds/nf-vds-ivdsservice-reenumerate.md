@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsService.Reenumerate
 title: IVdsService::Reenumerate (vds.h)
-
 description: Discovers newly added and newly removed disks.
 old-location: base\ivdsservice_reenumerate.htm
 tech.root: VDS
 ms.assetid: d057715c-dfd5-4b69-9e33-c40fb89fa11b
-
 ms.date: 12/05/2018
 ms.keywords: IVdsService interface [VDS],Reenumerate method, IVdsService.Reenumerate, IVdsService::Reenumerate, Reenumerate, Reenumerate method [VDS], Reenumerate method [VDS],IVdsService interface, base.ivdsservice_reenumerate, vds/IVdsService::Reenumerate
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsService.Reenumerate"
+f1_keywords:
+- vds/IVdsService.Reenumerate
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsService.Reenumerate
+- IVdsService.Reenumerate
 targetos: Windows
 req.typenames: 
 req.redist: 

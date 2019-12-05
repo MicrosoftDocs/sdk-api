@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IDispenserDriver.RateResource
 title: IDispenserDriver::RateResource (comsvcs.h)
-
 description: Evaluates how well a candidate resource matches.
 old-location: cos\idispenserdriver_rateresource.htm
 tech.root: cossdk
 ms.assetid: 5fe3ca39-e4cb-4dae-be96-ce1a2099486a
-
 ms.date: 12/05/2018
 ms.keywords: IDispenserDriver interface [COM+],RateResource method, IDispenserDriver.RateResource, IDispenserDriver::RateResource, RateResource, RateResource method [COM+], RateResource method [COM+],IDispenserDriver interface, _dtc_IDispenserDriver_RateResource, comsvcs/IDispenserDriver::RateResource, cos.idispenserdriver_rateresource
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IDispenserDriver.RateResource"
+f1_keywords:
+- comsvcs/IDispenserDriver.RateResource
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IDispenserDriver.RateResource
+- IDispenserDriver.RateResource
 targetos: Windows
 req.typenames: 
 req.redist: 

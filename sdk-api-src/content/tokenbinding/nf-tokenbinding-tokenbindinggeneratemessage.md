@@ -1,19 +1,17 @@
 ---
 UID: NF:tokenbinding.TokenBindingGenerateMessage
 title: TokenBindingGenerateMessage function (tokenbinding.h)
-
 description: Assembles the list of token bindings and generates the final message for the client device to the server.
 old-location: security\tokenbindinggeneratemessage.htm
 tech.root: SecCNG
 ms.assetid: 7A268C6D-952B-482A-835D-89D6452D986D
-
 ms.date: 12/05/2018
 ms.keywords: TokenBindingGenerateMessage, TokenBindingGenerateMessage function [Security], security.tokenbindinggeneratemessage, tokenbinding/TokenBindingGenerateMessage
 ms.topic: function
-f1_keywords: 
- - "tokenbinding/TokenBindingGenerateMessage"
+f1_keywords:
+- tokenbinding/TokenBindingGenerateMessage
 dev_langs:
- - c++
+- c++
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tokenbinding.lib
 req.dll: Tokenbinding.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - tokenbinding.dll
+- tokenbinding.dll
 api_name:
- - TokenBindingGenerateMessage
+- TokenBindingGenerateMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

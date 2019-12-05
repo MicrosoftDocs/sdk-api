@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpsapi._DHCP_ADDR_PATTERN
 title: DHCP_ADDR_PATTERN (dhcpsapi.h)
-
 description: Contains the information regarding the link-layer address/pattern.
 old-location: dhcp\dhcp_addr_pattern.htm
 tech.root: DHCP
 ms.assetid: 8c645b03-9859-48e9-8974-2dbdc9cfcac6
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_ADDR_PATTERN, DHCP_ADDR_PATTERN, DHCP_ADDR_PATTERN structure [DHCP], PDHCP_ADDR_PATTERN, PDHCP_ADDR_PATTERN structure pointer [DHCP], dhcp.dhcp_addr_pattern, dhcpsapi/DHCP_ADDR_PATTERN, dhcpsapi/PDHCP_ADDR_PATTERN"
+ms.keywords: '*LPDHCP_ADDR_PATTERN, DHCP_ADDR_PATTERN, DHCP_ADDR_PATTERN structure [DHCP], PDHCP_ADDR_PATTERN, PDHCP_ADDR_PATTERN structure pointer [DHCP], dhcp.dhcp_addr_pattern, dhcpsapi/DHCP_ADDR_PATTERN, dhcpsapi/PDHCP_ADDR_PATTERN'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_ADDR_PATTERN"
+f1_keywords:
+- dhcpsapi/DHCP_ADDR_PATTERN
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_ADDR_PATTERN
+- DHCP_ADDR_PATTERN
 targetos: Windows
 req.typenames: DHCP_ADDR_PATTERN, *LPDHCP_ADDR_PATTERN
 req.redist: 

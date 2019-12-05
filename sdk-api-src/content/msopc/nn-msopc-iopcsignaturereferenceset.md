@@ -1,19 +1,17 @@
 ---
 UID: NN:msopc.IOpcSignatureReferenceSet
 title: IOpcSignatureReferenceSet (msopc.h)
-
 description: An unordered set of IOpcSignatureReference interface pointers that represent references to XML elements to be signed.
 old-location: opc\iopcsignaturereferenceset.htm
 tech.root: OPC
 ms.assetid: 7955ac86-de6e-4911-a107-a1617c14e685
-
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureReferenceSet, IOpcSignatureReferenceSet interface [Open Packaging Conventions], IOpcSignatureReferenceSet interface [Open Packaging Conventions],described, msopc/IOpcSignatureReferenceSet, opc.iopcsignaturereferenceset
 ms.topic: interface
-f1_keywords: 
- - "msopc/IOpcSignatureReferenceSet"
+f1_keywords:
+- msopc/IOpcSignatureReferenceSet
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignatureReferenceSet
+- IOpcSignatureReferenceSet
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:syncmgr.ISyncMgrConflictFolder
 title: ISyncMgrConflictFolder (syncmgr.h)
-
 description: Exposes a method that gets the conflict ID list for a conflict object.
 old-location: shell\ISyncMgrConflictFolder.htm
 tech.root: shell
 ms.assetid: de4bb2b2-ebb2-4ab8-afba-3f00a69d51a8
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrConflictFolder, ISyncMgrConflictFolder interface [Windows Shell], ISyncMgrConflictFolder interface [Windows Shell],described, _shell_ISyncMgrConflictFolder, shell.ISyncMgrConflictFolder, syncmgr/ISyncMgrConflictFolder
 ms.topic: interface
-f1_keywords: 
- - "syncmgr/ISyncMgrConflictFolder"
+f1_keywords:
+- syncmgr/ISyncMgrConflictFolder
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrConflictFolder
+- ISyncMgrConflictFolder
 targetos: Windows
 req.typenames: 
 req.redist: 

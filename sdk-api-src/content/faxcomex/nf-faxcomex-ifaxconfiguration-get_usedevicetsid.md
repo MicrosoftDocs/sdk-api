@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_UseDeviceTSID
 title: IFaxConfiguration::get_UseDeviceTSID (faxcomex.h)
-
 description: Sets or retrieves a value that indicates whether the transmitting station identifier (TSID) is used.
 old-location: fax\_mfax_IFaxConfiguration_UseDeviceTSID.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\usedevicetsid.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],UseDeviceTSID property, IFaxConfiguration.UseDeviceTSID, IFaxConfiguration.get_UseDeviceTSID, IFaxConfiguration::UseDeviceTSID, IFaxConfiguration::get_UseDeviceTSID, IFaxConfiguration::put_UseDeviceTSID, UseDeviceTSID property [Fax Service], UseDeviceTSID property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_UseDeviceTSID, fax._mfax_IFaxConfiguration_UseDeviceTSID, faxcomex/IFaxConfiguration::UseDeviceTSID, faxcomex/IFaxConfiguration::get_UseDeviceTSID, faxcomex/IFaxConfiguration::put_UseDeviceTSID, get_UseDeviceTSID
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxConfiguration.UseDeviceTSID"
+f1_keywords:
+- faxcomex/IFaxConfiguration.UseDeviceTSID
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxConfiguration.UseDeviceTSID
- - IFaxConfiguration.get_UseDeviceTSID
- - IFaxConfiguration.put_UseDeviceTSID
+- IFaxConfiguration.UseDeviceTSID
+- IFaxConfiguration.get_UseDeviceTSID
+- IFaxConfiguration.put_UseDeviceTSID
 targetos: Windows
 req.typenames: 
 req.redist: 

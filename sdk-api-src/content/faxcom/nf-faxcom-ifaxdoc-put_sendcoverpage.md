@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_SendCoverpage
 title: IFaxDoc::put_SendCoverpage (faxcom.h)
-
 description: Sets or retrieves the SendCoverpage property for a FaxDoc object. The SendCoverpage property is a Boolean value that indicates whether the specified cover page file is stored on the fax server.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_sendcoverpage_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1yud.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],SendCoverpage property, IFaxDoc.SendCoverpage, IFaxDoc.put_SendCoverpage, IFaxDoc::SendCoverpage, IFaxDoc::get_SendCoverpage, IFaxDoc::put_SendCoverpage, SendCoverpage property [Fax Service], SendCoverpage property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_sendcoverpage, fax._mfax_ifaxdoc_get_sendcoverpage, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_sendcoverpage_cpp, faxcom/IFaxDoc::SendCoverpage, faxcom/IFaxDoc::get_SendCoverpage, faxcom/IFaxDoc::put_SendCoverpage, put_SendCoverpage
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxDoc.SendCoverpage"
+f1_keywords:
+- faxcom/IFaxDoc.SendCoverpage
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxDoc.SendCoverpage
- - IFaxDoc.get_SendCoverpage
- - IFaxDoc.put_SendCoverpage
+- IFaxDoc.SendCoverpage
+- IFaxDoc.get_SendCoverpage
+- IFaxDoc.put_SendCoverpage
 targetos: Windows
 req.typenames: 
 req.redist: 

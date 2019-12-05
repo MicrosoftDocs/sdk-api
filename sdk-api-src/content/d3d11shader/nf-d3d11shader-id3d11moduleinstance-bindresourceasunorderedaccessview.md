@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11shader.ID3D11ModuleInstance.BindResourceAsUnorderedAccessView
 title: ID3D11ModuleInstance::BindResourceAsUnorderedAccessView (d3d11shader.h)
-
 description: Rebinds a resource as an unordered access view (UAV) from source slot to destination slot.
 old-location: direct3d11\id3d11moduleinstance_bindresourceasunorderedaccessview.htm
 tech.root: direct3d11
 ms.assetid: A9E61E17-F1FE-4BF1-8A4A-F73B23FEDD08
-
 ms.date: 12/05/2018
 ms.keywords: BindResourceAsUnorderedAccessView, BindResourceAsUnorderedAccessView method [Direct3D 11], BindResourceAsUnorderedAccessView method [Direct3D 11],ID3D11ModuleInstance interface, ID3D11ModuleInstance interface [Direct3D 11],BindResourceAsUnorderedAccessView method, ID3D11ModuleInstance.BindResourceAsUnorderedAccessView, ID3D11ModuleInstance::BindResourceAsUnorderedAccessView, d3d11shader/ID3D11ModuleInstance::BindResourceAsUnorderedAccessView, direct3d11.id3d11moduleinstance_bindresourceasunorderedaccessview
 ms.topic: method
-f1_keywords: 
- - "d3d11shader/ID3D11ModuleInstance.BindResourceAsUnorderedAccessView"
+f1_keywords:
+- d3d11shader/ID3D11ModuleInstance.BindResourceAsUnorderedAccessView
 dev_langs:
- - c++
+- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3D11ModuleInstance.BindResourceAsUnorderedAccessView
+- ID3D11ModuleInstance.BindResourceAsUnorderedAccessView
 targetos: Windows
 req.typenames: 
 req.redist: 

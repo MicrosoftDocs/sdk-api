@@ -1,19 +1,17 @@
 ---
 UID: NN:oaidl.IRecordInfo
 title: IRecordInfo (oaidl.h)
-
 description: Describes the structure of a particular UDT.
 old-location: automat\irecordinfo.htm
 tech.root: automat
 ms.assetid: 065ebfa8-bfac-4c75-a3f9-9dc0409ea454
-
 ms.date: 12/05/2018
 ms.keywords: IRecordInfo, IRecordInfo interface [Automation], IRecordInfo interface [Automation],described, _oa96_IRecordInfo_Interface, automat.irecordinfo, oaidl/IRecordInfo
 ms.topic: interface
-f1_keywords: 
- - "oaidl/IRecordInfo"
+f1_keywords:
+- oaidl/IRecordInfo
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - IRecordInfo
+- IRecordInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

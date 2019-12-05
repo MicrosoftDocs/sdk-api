@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreatePredicate
 title: ID3D11Device::CreatePredicate (d3d11.h)
-
 description: Creates a predicate.
 old-location: direct3d11\id3d11device_createpredicate.htm
 tech.root: direct3d11
 ms.assetid: 5af4e63b-ba85-4c73-82e3-b09579d7ce78
-
 ms.date: 12/05/2018
 ms.keywords: 3892a0ec-dd05-6f9e-18d3-d6cc2cc95d5f, CreatePredicate, CreatePredicate method [Direct3D 11], CreatePredicate method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreatePredicate method, ID3D11Device.CreatePredicate, ID3D11Device::CreatePredicate, d3d11/ID3D11Device::CreatePredicate, direct3d11.id3d11device_createpredicate
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11Device.CreatePredicate"
+f1_keywords:
+- d3d11/ID3D11Device.CreatePredicate
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Device.CreatePredicate
+- ID3D11Device.CreatePredicate
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetTableDescriptorByIndex
 title: ISCTE_EAS::GetTableDescriptorByIndex (atscpsipparser.h)
-
 description: The GetTableDescriptorByIndex method returns a descriptor for the EAS table.
 old-location: mstv\iscte_eas_gettabledescriptorbyindex.htm
 tech.root: mstv
 ms.assetid: 24e02875-32ab-4844-bec3-8044b03b9843
-
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, ISCTE_EAS.GetTableDescriptorByIndex, ISCTE_EAS::GetTableDescriptorByIndex, ISCTE_EASGetTableDescriptorByIndex, atscpsipparser/ISCTE_EAS::GetTableDescriptorByIndex, mstv.iscte_eas_gettabledescriptorbyindex
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/ISCTE_EAS.GetTableDescriptorByIndex"
+f1_keywords:
+- atscpsipparser/ISCTE_EAS.GetTableDescriptorByIndex
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - ISCTE_EAS.GetTableDescriptorByIndex
+- ISCTE_EAS.GetTableDescriptorByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

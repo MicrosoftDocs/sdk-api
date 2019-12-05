@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509Extensions.AddRange
 title: IX509Extensions::AddRange (certenroll.h)
-
 description: Adds a range of IX509Extension objects to the collection.
 old-location: security\ix509extensions_addrange_method.htm
 tech.root: seccertenroll
 ms.assetid: e2e11b36-966b-497a-a199-41364314d287
-
 ms.date: 12/05/2018
 ms.keywords: AddRange, AddRange method [Security], AddRange method [Security],IX509Extensions interface, IX509Extensions interface [Security],AddRange method, IX509Extensions.AddRange, IX509Extensions::AddRange, certenroll/IX509Extensions::AddRange, security.ix509extensions_addrange_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509Extensions.AddRange"
+f1_keywords:
+- certenroll/IX509Extensions.AddRange
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509Extensions.AddRange
+- IX509Extensions.AddRange
 targetos: Windows
 req.typenames: 
 req.redist: 

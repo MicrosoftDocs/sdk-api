@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetStreamAttribute
 title: IMFMediaEngineEx::GetStreamAttribute (mfmediaengine.h)
-
 description: Gets a stream-level attribute from the media resource.
 old-location: mf\imfmediaengineex_getstreamattribute.htm
 tech.root: medfound
 ms.assetid: 2C64CD7B-F376-47DF-AD5A-DE5EBC665288
-
 ms.date: 12/05/2018
 ms.keywords: GetStreamAttribute, GetStreamAttribute method [Media Foundation], GetStreamAttribute method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetStreamAttribute method, IMFMediaEngineEx.GetStreamAttribute, IMFMediaEngineEx::GetStreamAttribute, mf.imfmediaengineex_getstreamattribute, mfmediaengine/IMFMediaEngineEx::GetStreamAttribute
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineEx.GetStreamAttribute"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineEx.GetStreamAttribute
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineEx.GetStreamAttribute
+- IMFMediaEngineEx.GetStreamAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

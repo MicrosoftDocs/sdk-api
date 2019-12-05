@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetStart
 title: ITextStoreAnchor::GetStart (textstor.h)
-
 description: The ITextStoreAnchor::GetStart method returns an anchor positioned at the start of the text stream.
 old-location: tsf\itextstoreanchor_getstart.htm
 tech.root: TSF
 ms.assetid: 431ca3b0-920b-4a4e-b475-32175555a789
-
 ms.date: 12/05/2018
 ms.keywords: GetStart, GetStart method [Text Services Framework], GetStart method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetStart method, ITextStoreAnchor.GetStart, ITextStoreAnchor::GetStart, textstor/ITextStoreAnchor::GetStart, tsf.itextstoreanchor_getstart
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreAnchor.GetStart"
+f1_keywords:
+- textstor/ITextStoreAnchor.GetStart
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreAnchor.GetStart
+- ITextStoreAnchor.GetStart
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

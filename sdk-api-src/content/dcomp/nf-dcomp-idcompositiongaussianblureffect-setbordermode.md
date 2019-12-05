@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionGaussianBlurEffect.SetBorderMode
 title: IDCompositionGaussianBlurEffect::SetBorderMode (dcomp.h)
-
 description: Sets the mode used to calculate the border of the image.
 old-location: directcomp\idcompositiongaussianblureffect_setbordermode.htm
 tech.root: directcomp
 ms.assetid: 34A96D63-E6F3-48F3-8105-A7E30C1D4E7D
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionGaussianBlurEffect interface [DirectComposition],SetBorderMode method, IDCompositionGaussianBlurEffect.SetBorderMode, IDCompositionGaussianBlurEffect::SetBorderMode, SetBorderMode, SetBorderMode method [DirectComposition], SetBorderMode method [DirectComposition],IDCompositionGaussianBlurEffect interface, dcomp/IDCompositionGaussianBlurEffect::SetBorderMode, directcomp.idcompositiongaussianblureffect_setbordermode
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionGaussianBlurEffect.SetBorderMode"
+f1_keywords:
+- dcomp/IDCompositionGaussianBlurEffect.SetBorderMode
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionGaussianBlurEffect.SetBorderMode
+- IDCompositionGaussianBlurEffect.SetBorderMode
 targetos: Windows
 req.typenames: 
 req.redist: 

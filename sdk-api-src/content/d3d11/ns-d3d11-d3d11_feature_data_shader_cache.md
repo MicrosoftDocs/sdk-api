@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_SHADER_CACHE
 title: D3D11_FEATURE_DATA_SHADER_CACHE (d3d11.h)
-
 description: Describes the level of shader caching supported in the current graphics driver.
 old-location: direct3d11\d3d11_feature_data_shader_cache.htm
 tech.root: direct3d11
 ms.assetid: 45F1184E-0E82-4AF4-86F7-ED0E4C860026
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_FEATURE_DATA_SHADER_CACHE, D3D11_FEATURE_DATA_SHADER_CACHE structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_SHADER_CACHE, direct3d11.d3d11_feature_data_shader_cache
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_FEATURE_DATA_SHADER_CACHE"
+f1_keywords:
+- d3d11/D3D11_FEATURE_DATA_SHADER_CACHE
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: D3d11_3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_FEATURE_DATA_SHADER_CACHE
+- D3D11_FEATURE_DATA_SHADER_CACHE
 targetos: Windows
 req.typenames: D3D11_FEATURE_DATA_SHADER_CACHE
 req.redist: 

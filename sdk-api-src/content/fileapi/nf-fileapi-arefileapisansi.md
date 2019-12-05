@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.AreFileApisANSI
 title: AreFileApisANSI function (fileapi.h)
-
 description: Determines whether the file I/O functions are using the ANSI or OEM character set code page.
 old-location: fs\arefileapisansi.htm
 tech.root: FileIO
 ms.assetid: 6bebe896-86d1-40b8-ab7f-0305ada71fdf
-
 ms.date: 12/05/2018
 ms.keywords: AreFileApisANSI, AreFileApisANSI function [Files], _win32_arefileapisansi, base.arefileapisansi, fileapi/AreFileApisANSI, fs.arefileapisansi
 ms.topic: function
-f1_keywords: 
- - "fileapi/AreFileApisANSI"
+f1_keywords:
+- fileapi/AreFileApisANSI
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-file-l1-2-2.dll
- - KernelBase.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-file-l1-2-2.dll
+- KernelBase.dll
+- MinKernelBase.dll
 api_name:
- - AreFileApisANSI
+- AreFileApisANSI
 targetos: Windows
 req.typenames: 
 req.redist: 

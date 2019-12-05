@@ -1,19 +1,17 @@
 ---
 UID: NS:directxcollision.BoundingSphere
 title: BoundingSphere
-
 description: A bounding sphere object.
 old-location: dxmath\boundingsphere.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.directxcollision.BoundingSphere
-
 ms.date: 12/05/2018
 ms.keywords: BoundingSphere, BoundingSphere structure [DirectX Math Support APIs], directxcollision/BoundingSphere, dxmath.boundingsphere
 ms.topic: struct
-f1_keywords: 
- - "directxcollision/BoundingSphere"
+f1_keywords:
+- directxcollision/BoundingSphere
 dev_langs:
- - c++
+- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectXCollision.h
+- DirectXCollision.h
 api_name:
- - BoundingSphere
+- BoundingSphere
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:icontact.IContactProperties.SetString
 title: IContactProperties::SetString (icontact.h)
-
 description: Sets the string value of a specified property to that of a specified null-terminated string.
 old-location: wincontacts\_wincontacts_IContactProperties_SetString.htm
 tech.root: wincontacts
 ms.assetid: 6e8379cc-a5dd-4ffd-b478-a14e649f5f0b
-
 ms.date: 12/05/2018
 ms.keywords: IContactProperties interface [Windows Contacts],SetString method, IContactProperties.SetString, IContactProperties::SetString, SetString, SetString method [Windows Contacts], SetString method [Windows Contacts],IContactProperties interface, _wincontacts_IContactProperties_SetString, icontact/IContactProperties::SetString, wincontacts._wincontacts_IContactProperties_SetString
 ms.topic: method
-f1_keywords: 
- - "icontact/IContactProperties.SetString"
+f1_keywords:
+- icontact/IContactProperties.SetString
 dev_langs:
- - c++
+- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IContactProperties.SetString
+- IContactProperties.SetString
 targetos: Windows
 req.typenames: 
 req.redist: 

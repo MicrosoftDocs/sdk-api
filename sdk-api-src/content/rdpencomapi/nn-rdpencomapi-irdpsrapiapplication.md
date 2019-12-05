@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIApplication
 title: IRDPSRAPIApplication (rdpencomapi.h)
-
 description: Groups the sharable windows within a process. Each application object contains a list of window objects. If an application object is shared, all its windows are shared.
 old-location: rdp\irdpsrapiapplication.htm
 tech.root: rdp
 ms.assetid: 9a934718-1eea-4406-a1da-b7d493f6667e
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIApplication, IRDPSRAPIApplication interface [RDP], IRDPSRAPIApplication interface [RDP],described, rdp.irdpsrapiapplication, rdpencomapi/IRDPSRAPIApplication
 ms.topic: interface
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIApplication"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIApplication
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIApplication
+- IRDPSRAPIApplication
 targetos: Windows
 req.typenames: 
 req.redist: 

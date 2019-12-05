@@ -1,19 +1,17 @@
 ---
 UID: NS:resapi._PaxosTagCStruct
 title: PaxosTagCStruct (resapi.h)
-
 description: Contains the Paxos tag values of a cluster node, which stores information about the cluster configuration version of the node when the cluster uses a File Share witness.
 old-location: mscs\paxostagcstruct.htm
 tech.root: MsCS
 ms.assetid: 732CB125-F43A-4CC4-BC3F-EFB511BB7F2E
-
 ms.date: 12/05/2018
 ms.keywords: '*PPaxosTagCStruct, PPaxosTagCStruct, PPaxosTagCStruct structure pointer [Failover Cluster], PaxosTagCStruct, PaxosTagCStruct structure [Failover Cluster], mscs.paxostagcstruct, resapi/PPaxosTagCStruct, resapi/PaxosTagCStruct'
 ms.topic: struct
 f1_keywords:
 - resapi/PaxosTagCStruct
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

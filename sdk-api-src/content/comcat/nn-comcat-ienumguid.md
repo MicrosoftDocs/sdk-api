@@ -1,19 +1,17 @@
 ---
 UID: NN:comcat.IEnumGUID
 title: IEnumGUID (comcat.h)
-
 description: Enables clients to enumerate through a collection of class IDs for COM classes.
 old-location: com\ienumguid.htm
 tech.root: com
 ms.assetid: 4f2e0f96-a471-4883-be41-d93806461020
-
 ms.date: 12/05/2018
 ms.keywords: IEnumGUID, IEnumGUID interface [COM], IEnumGUID interface [COM],described, _com_ienumguid, com.ienumguid, comcat/IEnumGUID
 ms.topic: interface
-f1_keywords: 
- - "comcat/IEnumGUID"
+f1_keywords:
+- comcat/IEnumGUID
 dev_langs:
- - c++
+- c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComCat.h
+- ComCat.h
 api_name:
- - IEnumGUID
+- IEnumGUID
 targetos: Windows
 req.typenames: 
 req.redist: 

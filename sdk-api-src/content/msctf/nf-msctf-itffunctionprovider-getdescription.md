@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfFunctionProvider.GetDescription
 title: ITfFunctionProvider::GetDescription (msctf.h)
-
 description: ITfFunctionProvider::GetDescription method
 old-location: tsf\itffunctionprovider_getdescription.htm
 tech.root: TSF
 ms.assetid: a970c93f-2a1b-44b9-9177-fd69795ae9ee
-
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [Text Services Framework], GetDescription method [Text Services Framework],ITfFunctionProvider interface, ITfFunctionProvider interface [Text Services Framework],GetDescription method, ITfFunctionProvider.GetDescription, ITfFunctionProvider::GetDescription, _tsf_itffunctionprovider_getdescription_ref, msctf/ITfFunctionProvider::GetDescription, tsf.itffunctionprovider_getdescription
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfFunctionProvider.GetDescription"
+f1_keywords:
+- msctf/ITfFunctionProvider.GetDescription
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfFunctionProvider.GetDescription
+- ITfFunctionProvider.GetDescription
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

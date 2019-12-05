@@ -1,19 +1,17 @@
 ---
 UID: NF:restrictederrorinfo.ILanguageExceptionErrorInfo2.CapturePropagationContext
 title: ILanguageExceptionErrorInfo2::CapturePropagationContext (restrictederrorinfo.h)
-
 description: Captures the context of an exception across a language boundary and across threads.
 old-location: winrt\ilanguageexceptionerrorinfo2_capturepropagationcontext.htm
 tech.root: WinRT
 ms.assetid: 60026962-4E6C-4906-97D9-46BD2BCA3AC6
-
 ms.date: 12/05/2018
 ms.keywords: CapturePropagationContext, CapturePropagationContext method [Windows Runtime], CapturePropagationContext method [Windows Runtime],ILanguageExceptionErrorInfo2 interface, ILanguageExceptionErrorInfo2 interface [Windows Runtime],CapturePropagationContext method, ILanguageExceptionErrorInfo2.CapturePropagationContext, ILanguageExceptionErrorInfo2::CapturePropagationContext, restrictederrorinfo/ILanguageExceptionErrorInfo2::CapturePropagationContext, winrt.ilanguageexceptionerrorinfo2_capturepropagationcontext
 ms.topic: method
-f1_keywords: 
- - "restrictederrorinfo/ILanguageExceptionErrorInfo2.CapturePropagationContext"
+f1_keywords:
+- restrictederrorinfo/ILanguageExceptionErrorInfo2.CapturePropagationContext
 dev_langs:
- - c++
+- c++
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - restrictederrorinfo.h
+- restrictederrorinfo.h
 api_name:
- - ILanguageExceptionErrorInfo2.CapturePropagationContext
+- ILanguageExceptionErrorInfo2.CapturePropagationContext
 targetos: Windows
 req.typenames: 
 req.redist: 

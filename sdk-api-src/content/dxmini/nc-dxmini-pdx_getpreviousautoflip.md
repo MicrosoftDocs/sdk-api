@@ -1,19 +1,17 @@
 ---
 UID: NC:dxmini.PDX_GETPREVIOUSAUTOFLIP
 title: PDX_GETPREVIOUSAUTOFLIP (dxmini.h)
-
 description: The DxGetPreviousAutoflip callback function is called when the device is hardware autoflipping and a client of the video miniport driver wants to know which surface received the previous field of video data for capture purposes.
 old-location: display\dxgetpreviousautoflip.htm
 tech.root: display
 ms.assetid: 3b19e4be-413c-4014-b414-cb2ba3e14b14
-
 ms.date: 12/05/2018
 ms.keywords: DxGetPreviousAutoflip, DxGetPreviousAutoflip callback function [Display Devices], PDX_GETPREVIOUSAUTOFLIP, PDX_GETPREVIOUSAUTOFLIP callback, VideoMiniPort_DxApiFunctions_07351af6-3fdc-4a60-852f-23ea28bc6e2b.xml, display.dxgetpreviousautoflip, dxmini/DxGetPreviousAutoflip
 ms.topic: callback
 f1_keywords:
 - dxmini/DxGetPreviousAutoflip
 dev_langs:
- - c++
+- c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Desktop

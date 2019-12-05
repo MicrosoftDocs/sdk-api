@@ -1,19 +1,17 @@
 ---
 UID: NN:casetup.ICertSrvSetupKeyInformation
 title: ICertSrvSetupKeyInformation (casetup.h)
-
 description: Defines a set of private key properties that are used for setup of certification authority (CA) or Microsoft Simple Certificate Enrollment Protocol (SCEP) roles.
 old-location: security\icertsrvsetupkeyinformation.htm
 tech.root: SecCrypto
 ms.assetid: d27c9ba5-ddee-4c9c-b812-e61b974b515a
-
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetupKeyInformation, ICertSrvSetupKeyInformation interface [Security], ICertSrvSetupKeyInformation interface [Security],described, casetup/ICertSrvSetupKeyInformation, security.icertsrvsetupkeyinformation
 ms.topic: interface
-f1_keywords: 
- - "casetup/ICertSrvSetupKeyInformation"
+f1_keywords:
+- casetup/ICertSrvSetupKeyInformation
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertSrvSetupKeyInformation
+- ICertSrvSetupKeyInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

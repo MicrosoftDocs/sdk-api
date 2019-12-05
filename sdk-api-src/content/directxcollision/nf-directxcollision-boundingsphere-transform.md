@@ -1,15 +1,14 @@
 ---
 UID: NF:directxcollision.BoundingSphere.Transform
 title: BoundingSphere::Transform
-
 description: Transforms the BoundingSphere.
 ms.date: 04/22/19
 ms.keywords: BoundingSphere::Transform
 ms.topic: language-reference
-f1_keywords: 
- - "directxcollision/BoundingSphere::Transform"
+f1_keywords:
+- directxcollision/BoundingSphere::Transform
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,13 +30,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - directxcollision.h
+- directxcollision.h
 api_name:
- - BoundingSphere::Transform
+- BoundingSphere::Transform
 ---
 
 # BoundingSphere.Transform(BoundingSphere&, XMMATRIX) method

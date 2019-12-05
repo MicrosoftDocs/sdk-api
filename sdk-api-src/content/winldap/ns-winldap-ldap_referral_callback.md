@@ -1,19 +1,17 @@
 ---
 UID: NS:winldap.LdapReferralCallback
 title: LDAP_REFERRAL_CALLBACK (winldap.h)
-
 description: Used to implement external caching of connections.
 old-location: ldap\ldap_referral_callback.htm
 tech.root: ldap
 ms.assetid: e5fe6a4b-00e7-4837-b1c1-8b2a724bb75e
-
 ms.date: 12/05/2018
-ms.keywords: "*PLDAP_REFERRAL_CALLBACK, LDAP_REFERRAL_CALLBACK, LDAP_REFERRAL_CALLBACK structure [LDAP], PLDAP_REFERRAL_CALLBACK, PLDAP_REFERRAL_CALLBACK structure pointer [LDAP], _ldap_ldap_referral_callback, ldap.ldap__referral__callback, ldap.ldap_referral_callback, winldap/LDAP_REFERRAL_CALLBACK, winldap/PLDAP_REFERRAL_CALLBACK"
+ms.keywords: '*PLDAP_REFERRAL_CALLBACK, LDAP_REFERRAL_CALLBACK, LDAP_REFERRAL_CALLBACK structure [LDAP], PLDAP_REFERRAL_CALLBACK, PLDAP_REFERRAL_CALLBACK structure pointer [LDAP], _ldap_ldap_referral_callback, ldap.ldap__referral__callback, ldap.ldap_referral_callback, winldap/LDAP_REFERRAL_CALLBACK, winldap/PLDAP_REFERRAL_CALLBACK'
 ms.topic: struct
-f1_keywords: 
- - "winldap/LDAP_REFERRAL_CALLBACK"
+f1_keywords:
+- winldap/LDAP_REFERRAL_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winldap.h
+- Winldap.h
 api_name:
- - LDAP_REFERRAL_CALLBACK
+- LDAP_REFERRAL_CALLBACK
 targetos: Windows
 req.typenames: LDAP_REFERRAL_CALLBACK, *PLDAP_REFERRAL_CALLBACK
 req.redist: 

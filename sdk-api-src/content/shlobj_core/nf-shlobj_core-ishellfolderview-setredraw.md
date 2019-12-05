@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.SetRedraw
 title: IShellFolderView::SetRedraw (shlobj_core.h)
-
 description: Allows a view to be redrawn or prevents it from being redrawn.
 old-location: shell\IShellFolderView_SetRedraw.htm
 tech.root: shell
 ms.assetid: fe249faa-561f-4179-a478-4ff284ffa963
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],SetRedraw method, IShellFolderView.SetRedraw, IShellFolderView::SetRedraw, SetRedraw, SetRedraw method [Windows Shell], SetRedraw method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_SetRedraw, shell.IShellFolderView_SetRedraw, shlobj_core/IShellFolderView::SetRedraw
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IShellFolderView.SetRedraw"
+f1_keywords:
+- shlobj_core/IShellFolderView.SetRedraw
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shlobj_core.h
+- Shlobj_core.h
 api_name:
- - IShellFolderView.SetRedraw
+- IShellFolderView.SetRedraw
 targetos: Windows
 req.typenames: 
 req.redist: 

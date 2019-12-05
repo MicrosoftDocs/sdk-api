@@ -1,19 +1,17 @@
 ---
 UID: NS:wabdefs._SBinaryArray
 title: SBinaryArray (wabdefs.h)
-
 description: Do not use. An array of entry identifiers representing MAPI objects. Uses the same implementation as SBinaryArray.
 old-location: wab\_wab_ENTRYLIST.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\entrylist.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPENTRYLIST, ENTRYLIST, ENTRYLIST structure [Windows Address Book], LPENTRYLIST, LPENTRYLIST structure pointer [Windows Address Book], SBinaryArray, _wab_ENTRYLIST, wab._wab_ENTRYLIST, wabdefs/ENTRYLIST, wabdefs/LPENTRYLIST"
+ms.keywords: '*LPENTRYLIST, ENTRYLIST, ENTRYLIST structure [Windows Address Book], LPENTRYLIST, LPENTRYLIST structure pointer [Windows Address Book], SBinaryArray, _wab_ENTRYLIST, wab._wab_ENTRYLIST, wabdefs/ENTRYLIST, wabdefs/LPENTRYLIST'
 ms.topic: struct
-f1_keywords: 
- - "wabdefs/ENTRYLIST"
+f1_keywords:
+- wabdefs/ENTRYLIST
 dev_langs:
- - c++
+- c++
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wabdefs.h
+- Wabdefs.h
 api_name:
- - ENTRYLIST
+- ENTRYLIST
 targetos: Windows
 req.typenames: SBinaryArray
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDefaultExtractIconInit.SetShortcutIcon
 title: IDefaultExtractIconInit::SetShortcutIcon (shobjidl_core.h)
-
 description: Sets the icon for a shortcut to the object.
 old-location: shell\IDefaultExtractIconInit_SetShortcutIcon.htm
 tech.root: shell
 ms.assetid: 1defab08-3dce-4668-aca3-d11821a4c339
-
 ms.date: 12/05/2018
 ms.keywords: IDefaultExtractIconInit interface [Windows Shell],SetShortcutIcon method, IDefaultExtractIconInit.SetShortcutIcon, IDefaultExtractIconInit::SetShortcutIcon, SetShortcutIcon, SetShortcutIcon method [Windows Shell], SetShortcutIcon method [Windows Shell],IDefaultExtractIconInit interface, _shell_IDefaultExtractIconInit_SetShortcutIcon, shell.IDefaultExtractIconInit_SetShortcutIcon, shobjidl_core/IDefaultExtractIconInit::SetShortcutIcon
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDefaultExtractIconInit.SetShortcutIcon"
+f1_keywords:
+- shobjidl_core/IDefaultExtractIconInit.SetShortcutIcon
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IDefaultExtractIconInit.SetShortcutIcon
+- IDefaultExtractIconInit.SetShortcutIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnceEventArgs.get_CurrentTrackNumber
 title: IDiscFormat2TrackAtOnceEventArgs::get_CurrentTrackNumber (imapi2.h)
-
 description: Retrieves the current track number being written to the media.
 old-location: imapi\idiscformat2trackatonceeventargs_get_currenttracknumber.htm
 tech.root: imapi
 ms.assetid: e30afc06-b56b-49bc-8ad0-7446e16bdc95
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnceEventArgs interface [IMAPI],get_CurrentTrackNumber method, IDiscFormat2TrackAtOnceEventArgs.get_CurrentTrackNumber, IDiscFormat2TrackAtOnceEventArgs::get_CurrentTrackNumber, get_CurrentTrackNumber, get_CurrentTrackNumber method [IMAPI], get_CurrentTrackNumber method [IMAPI],IDiscFormat2TrackAtOnceEventArgs interface, imapi.idiscformat2trackatonceeventargs_get_currenttracknumber, imapi2/IDiscFormat2TrackAtOnceEventArgs::get_CurrentTrackNumber
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2TrackAtOnceEventArgs.get_CurrentTrackNumber"
+f1_keywords:
+- imapi2/IDiscFormat2TrackAtOnceEventArgs.get_CurrentTrackNumber
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnceEventArgs.get_CurrentTrackNumber
+- IDiscFormat2TrackAtOnceEventArgs.get_CurrentTrackNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

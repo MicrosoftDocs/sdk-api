@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.SetRenderHandle
 title: IMFCapturePreviewSink::SetRenderHandle (mfcaptureengine.h)
-
 description: Specifies a window for preview.
 old-location: mf\imfcapturepreviewsink_setrenderhandle.htm
 tech.root: medfound
 ms.assetid: 98D3EFC4-841D-41EC-BC5C-E67029663864
-
 ms.date: 12/05/2018
 ms.keywords: IMFCapturePreviewSink interface [Media Foundation],SetRenderHandle method, IMFCapturePreviewSink.SetRenderHandle, IMFCapturePreviewSink::SetRenderHandle, SetRenderHandle, SetRenderHandle method [Media Foundation], SetRenderHandle method [Media Foundation],IMFCapturePreviewSink interface, mf.imfcapturepreviewsink_setrenderhandle, mfcaptureengine/IMFCapturePreviewSink::SetRenderHandle
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCapturePreviewSink.SetRenderHandle"
+f1_keywords:
+- mfcaptureengine/IMFCapturePreviewSink.SetRenderHandle
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCapturePreviewSink.SetRenderHandle
+- IMFCapturePreviewSink.SetRenderHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

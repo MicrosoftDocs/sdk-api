@@ -1,19 +1,17 @@
 ---
 UID: NF:heapapi.HeapQueryInformation
 title: HeapQueryInformation function (heapapi.h)
-
 description: Retrieves information about the specified heap.
 old-location: base\heapqueryinformation.htm
 tech.root: Memory
 ms.assetid: 6bf6cb8b-7212-4ddb-9ea6-34bc78824a8f
-
 ms.date: 12/05/2018
 ms.keywords: HeapCompatibilityInformation, HeapQueryInformation, HeapQueryInformation function, _win32_heapqueryinformation, base.heapqueryinformation, heapapi/HeapQueryInformation, winbase/HeapQueryInformation
 ms.topic: function
-f1_keywords: 
- - "heapapi/HeapQueryInformation"
+f1_keywords:
+- heapapi/HeapQueryInformation
 dev_langs:
- - c++
+- c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-heap-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-heap-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-heap-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-heap-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - HeapQueryInformation
+- HeapQueryInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

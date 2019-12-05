@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxTiff.put_Image
 title: IFaxTiff::put_Image (faxcom.h)
-
 description: Sets or retrieves the Image property for a FaxTiff object.
 old-location: fax\_mfax_ifaxtiff_mfax_ifaxtiff_get_image_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0cdh.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxTiff interface [Fax Service],Image property, IFaxTiff.Image, IFaxTiff.put_Image, IFaxTiff::Image, IFaxTiff::get_Image, IFaxTiff::put_Image, Image property [Fax Service], Image property [Fax Service],IFaxTiff interface, _mfax_ifaxtiff_get_image, fax._mfax_ifaxtiff_get_image, fax._mfax_ifaxtiff_mfax_ifaxtiff_get_image_cpp, faxcom/IFaxTiff::Image, faxcom/IFaxTiff::get_Image, faxcom/IFaxTiff::put_Image, put_Image
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxTiff.Image"
+f1_keywords:
+- faxcom/IFaxTiff.Image
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxTiff.Image
- - IFaxTiff.get_Image
- - IFaxTiff.put_Image
+- IFaxTiff.Image
+- IFaxTiff.get_Image
+- IFaxTiff.put_Image
 targetos: Windows
 req.typenames: 
 req.redist: 

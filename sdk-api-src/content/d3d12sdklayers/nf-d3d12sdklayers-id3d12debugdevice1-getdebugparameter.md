@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugDevice1.GetDebugParameter
 title: ID3D12DebugDevice1::GetDebugParameter (d3d12sdklayers.h)
-
 description: Gets optional device-wide Debug Layer settings.
 old-location: direct3d12\id3d12debugdevice1_getdebugparameter.htm
 tech.root: direct3d12
 ms.assetid: 13A7E7D6-FF00-4E17-A7C5-C383F93F6A06
-
 ms.date: 12/05/2018
 ms.keywords: GetDebugParameter, GetDebugParameter method, GetDebugParameter method,ID3D12DebugDevice1 interface, ID3D12DebugDevice1 interface,GetDebugParameter method, ID3D12DebugDevice1.GetDebugParameter, ID3D12DebugDevice1::GetDebugParameter, d3d12sdklayers/ID3D12DebugDevice1::GetDebugParameter, direct3d12.id3d12debugdevice1_getdebugparameter
 ms.topic: method
-f1_keywords: 
- - "d3d12sdklayers/ID3D12DebugDevice1.GetDebugParameter"
+f1_keywords:
+- d3d12sdklayers/ID3D12DebugDevice1.GetDebugParameter
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - ID3D12DebugDevice1.GetDebugParameter
+- ID3D12DebugDevice1.GetDebugParameter
 targetos: Windows
 req.typenames: 
 req.redist: 

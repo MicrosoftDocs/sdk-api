@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IDataObject.DUnadvise
 title: IDataObject::DUnadvise (objidl.h)
-
 description: Destroys a notification connection that had been previously set up.
 old-location: com\idataobject_dunadvise.htm
 tech.root: com
 ms.assetid: bb9ae4c5-8655-4553-9a1c-ce52c6c86299
-
 ms.date: 12/05/2018
 ms.keywords: DUnadvise, DUnadvise method [COM], DUnadvise method [COM],IDataObject interface, IDataObject interface [COM],DUnadvise method, IDataObject.DUnadvise, IDataObject::DUnadvise, _ole_idataobject_dunadvise, com.idataobject_dunadvise, objidl/IDataObject::DUnadvise
 ms.topic: method
-f1_keywords: 
- - "objidl/IDataObject.DUnadvise"
+f1_keywords:
+- objidl/IDataObject.DUnadvise
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IDataObject.DUnadvise
+- IDataObject.DUnadvise
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:richedit._ensaveclipboard
 title: ENSAVECLIPBOARD (richedit.h)
-
 description: Contains information about objects and text on the clipboard.
 old-location: controls\ENSAVECLIPBOARD.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\ensaveclipboard.htm
-
 ms.date: 12/05/2018
 ms.keywords: ENSAVECLIPBOARD, ENSAVECLIPBOARD structure [Windows Controls], _win32_ENSAVECLIPBOARD_str, _win32_ENSAVECLIPBOARD_str_cpp, controls.ENSAVECLIPBOARD, controls._win32_ENSAVECLIPBOARD_str, richedit/ENSAVECLIPBOARD
 ms.topic: struct
-f1_keywords: 
- - "richedit/ENSAVECLIPBOARD"
+f1_keywords:
+- richedit/ENSAVECLIPBOARD
 dev_langs:
- - c++
+- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Richedit.h
+- Richedit.h
 api_name:
- - ENSAVECLIPBOARD
+- ENSAVECLIPBOARD
 targetos: Windows
 req.typenames: ENSAVECLIPBOARD
 req.redist: 

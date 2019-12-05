@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.SetWBEMINT16
 title: CInstance::SetWBEMINT16 (instance.h)
-
 description: The SetWBEMINT16 method sets a 16-bit integer property.
 old-location: wmi\cinstance_setwbemint16.htm
 tech.root: WmiSdk
 ms.assetid: a39d3885-6344-4c05-8eea-da3f33fb998e
-
 ms.date: 12/05/2018
-ms.keywords: "?SetWBEMINT16@CInstance@@QAE_NPBGABF@Z, ?SetWBEMINT16@CInstance@@QEAA_NPEBGAEBF@Z, CInstance interface [Windows Management Instrumentation],SetWBEMINT16 method, CInstance.SetWBEMINT16, CInstance::SetWBEMINT16, SetWBEMINT16, SetWBEMINT16 method [Windows Management Instrumentation], SetWBEMINT16 method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setwbemint16, instance/CInstance::SetWBEMINT16, wmi.cinstance_setwbemint16"
+ms.keywords: ?SetWBEMINT16@CInstance@@QAE_NPBGABF@Z, ?SetWBEMINT16@CInstance@@QEAA_NPEBGAEBF@Z, CInstance interface [Windows Management Instrumentation],SetWBEMINT16 method, CInstance.SetWBEMINT16, CInstance::SetWBEMINT16, SetWBEMINT16, SetWBEMINT16 method [Windows Management Instrumentation], SetWBEMINT16 method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setwbemint16, instance/CInstance::SetWBEMINT16, wmi.cinstance_setwbemint16
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.SetWBEMINT16"
+f1_keywords:
+- instance/CInstance.SetWBEMINT16
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.SetWBEMINT16
- - ?SetWBEMINT16@CInstance@@QAE_NPBGABF@Z
- - ?SetWBEMINT16@CInstance@@QEAA_NPEBGAEBF@Z
+- CInstance.SetWBEMINT16
+- ?SetWBEMINT16@CInstance@@QAE_NPBGABF@Z
+- ?SetWBEMINT16@CInstance@@QEAA_NPEBGAEBF@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmpservices.IWMPPlugin.Init
 title: IWMPPlugin::Init (wmpservices.h)
-
 description: The IWMPPlugin::Init method is called when Windows Media Player initializes the plug-in.
 old-location: wmp\iwmpplugin_init.htm
 tech.root: WMP
 ms.assetid: 812752d5-4d4b-4d8d-86a7-c7a9daa092e5
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlugin interface [Windows Media Player],Init method, IWMPPlugin.Init, IWMPPlugin::Init, IWMPPluginInitDSP, Init, Init method [Windows Media Player], Init method [Windows Media Player],IWMPPlugin interface, wmp.iwmpplugin_init, wmpservices/IWMPPlugin::Init
 ms.topic: method
-f1_keywords: 
- - "wmpservices/IWMPPlugin.Init"
+f1_keywords:
+- wmpservices/IWMPPlugin.Init
 dev_langs:
- - c++
+- c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmpservices.h
+- wmpservices.h
 api_name:
- - IWMPPlugin.Init
+- IWMPPlugin.Init
 targetos: Windows
 req.typenames: 
 req.redist: 

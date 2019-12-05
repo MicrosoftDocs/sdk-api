@@ -1,19 +1,17 @@
 ---
 UID: NC:webservices.WS_ABORT_LISTENER_CALLBACK
 title: WS_ABORT_LISTENER_CALLBACK (webservices.h)
-
 description: Handles the WsAbortListener call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_abort_listener_callback.htm
 tech.root: wsw
 ms.assetid: 6105641e-72de-4826-a54d-23e877f0e6d9
-
 ms.date: 12/05/2018
 ms.keywords: WS_ABORT_LISTENER_CALLBACK, WS_ABORT_LISTENER_CALLBACK callback, WS_ABORT_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_ABORT_LISTENER_CALLBACK, wsw.ws_abort_listener_callback
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_ABORT_LISTENER_CALLBACK"
+f1_keywords:
+- webservices/WS_ABORT_LISTENER_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_ABORT_LISTENER_CALLBACK
+- WS_ABORT_LISTENER_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceTransportEnum
 title: MprConfigInterfaceTransportEnum function (mprapi.h)
-
 description: The MprConfigInterfaceTransportEnum function enumerates the transports configured on the specified interface.
 old-location: rras\mprconfiginterfacetransportenum.htm
 tech.root: RRAS
 ms.assetid: ae395eb8-8019-432c-bf96-b602c8e34f12
-
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceTransportEnum, MprConfigInterfaceTransportEnum function [RAS], _mpr_mprconfiginterfacetransportenum, mprapi/MprConfigInterfaceTransportEnum, rras.mprconfiginterfacetransportenum
 ms.topic: function
 f1_keywords:
 - mprapi/MprConfigInterfaceTransportEnum
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

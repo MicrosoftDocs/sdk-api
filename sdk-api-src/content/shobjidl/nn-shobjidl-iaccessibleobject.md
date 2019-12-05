@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.IAccessibleObject
 title: IAccessibleObject (shobjidl.h)
-
 description: Exposes a method that can be used by an accessibility application.
 old-location: shell\IAccessibleObject.htm
 tech.root: shell
 ms.assetid: bac49a2d-4357-4607-a89d-d2ed4abf89bb
-
 ms.date: 12/05/2018
 ms.keywords: IAccessibleObject, IAccessibleObject interface [Windows Shell], IAccessibleObject interface [Windows Shell],described, _shell_IAccessibleObject, shell.IAccessibleObject, shobjidl/IAccessibleObject
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/IAccessibleObject"
+f1_keywords:
+- shobjidl/IAccessibleObject
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IAccessibleObject
+- IAccessibleObject
 targetos: Windows
 req.typenames: 
 req.redist: 

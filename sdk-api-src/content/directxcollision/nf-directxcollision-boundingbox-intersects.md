@@ -1,15 +1,14 @@
 ---
 UID: NF:directxcollision.BoundingBox.Intersects
 title: BoundingBox::Intersects
-
 description: 
 ms.date: 04/22/19
 ms.keywords: BoundingBox::Intersects
 ms.topic: language-reference
-f1_keywords: 
- - "directxcollision/BoundingBox::Intersects"
+f1_keywords:
+- directxcollision/BoundingBox::Intersects
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,13 +30,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - directxcollision.h
+- directxcollision.h
 api_name:
- - BoundingBox::Intersects
+- BoundingBox::Intersects
 ---
 
 # BoundingBox.Intersects(const BoundingSphere&) method

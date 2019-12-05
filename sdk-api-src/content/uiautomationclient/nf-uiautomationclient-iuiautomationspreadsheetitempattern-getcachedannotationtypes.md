@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSpreadsheetItemPattern.GetCachedAnnotationTypes
 title: IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationTypes (uiautomationclient.h)
-
 description: Retrieves a cached array of annotation type identifiers indicating the types of annotations that are associated with this spreadsheet cell.
 old-location: winauto\uiauto_IUIAutomationSpreadsheetItemPattern_GetCachedAnnotationTypes.htm
 tech.root: WinAuto
 ms.assetid: CF146EB3-AF26-40C0-A19C-78692EE76E92
-
 ms.date: 12/05/2018
 ms.keywords: GetCachedAnnotationTypes, GetCachedAnnotationTypes method [Windows Accessibility], GetCachedAnnotationTypes method [Windows Accessibility],IUIAutomationSpreadsheetItemPattern interface, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],GetCachedAnnotationTypes method, IUIAutomationSpreadsheetItemPattern.GetCachedAnnotationTypes, IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationTypes, uiautomationclient/IUIAutomationSpreadsheetItemPattern::GetCachedAnnotationTypes, winauto.uiauto_IUIAutomationSpreadsheetItemPattern_GetCachedAnnotationTypes
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationSpreadsheetItemPattern.GetCachedAnnotationTypes"
+f1_keywords:
+- uiautomationclient/IUIAutomationSpreadsheetItemPattern.GetCachedAnnotationTypes
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationSpreadsheetItemPattern.GetCachedAnnotationTypes
+- IUIAutomationSpreadsheetItemPattern.GetCachedAnnotationTypes
 targetos: Windows
 req.typenames: 
 req.redist: 

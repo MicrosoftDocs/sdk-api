@@ -1,39 +1,37 @@
 ---
 UID: NL:traceloggingactivity.TraceLoggingActivity~r1
 title: TraceLoggingActivity
-
 description: TBD
-tech.root:
+tech.root: 
 ms.assetid: b5fb71bf-1906-4b9d-a845-b8bd92e8042d
-
 ms.date: 11/14/2019
 ms.topic: class
-f1_keywords: 
- - "traceloggingactivity/TraceLoggingActivity"
+f1_keywords:
+- traceloggingactivity/TraceLoggingActivity
 dev_langs:
- - c++
+- c++
 req.header: traceloggingactivity.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
- - apiref
-api_type: 
- - COM
-api_location: 
- - traceloggingactivity.h
-api_name: 
- - TraceLoggingActivity
+topic_type:
+- apiref
+api_type:
+- COM
+api_location:
+- traceloggingactivity.h
+api_name:
+- TraceLoggingActivity
 targetos: Windows
 ---
 

@@ -1,19 +1,17 @@
 ---
 UID: NF:timeprov.TimeProvClose
 title: TimeProvClose function (timeprov.h)
-
 description: A callback function that is called by the time provider manager to shut down the time provider.
 old-location: base\timeprovclose.htm
 tech.root: SysInfo
 ms.assetid: ca8f5c8b-8c46-46eb-8d15-4c0c8a8437dd
-
 ms.date: 12/05/2018
 ms.keywords: TimeProvClose, TimeProvClose callback, TimeProvClose callback function, _win32_timeprovclose, base.timeprovclose, timeprov/TimeProvClose
 ms.topic: function
-f1_keywords: 
- - "timeprov/TimeProvClose"
+f1_keywords:
+- timeprov/TimeProvClose
 dev_langs:
- - c++
+- c++
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Timeprov.h
+- Timeprov.h
 api_name:
- - TimeProvClose
+- TimeProvClose
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:sbtsv.ITsSbPluginPropertySet
 title: ITsSbPluginPropertySet (sbtsv.h)
-
 description: Can be used to define custom plug-in properties as appropriate.
 old-location: termserv\itssbpluginpropertyset.htm
 tech.root: TermServ
 ms.assetid: e28e4ce7-1d11-483e-b666-69b3c0ba34b1
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbPluginPropertySet, ITsSbPluginPropertySet interface [Remote Desktop Services], ITsSbPluginPropertySet interface [Remote Desktop Services],described, sbtsv/ITsSbPluginPropertySet, termserv.itssbpluginpropertyset
 ms.topic: interface
-f1_keywords: 
- - "sbtsv/ITsSbPluginPropertySet"
+f1_keywords:
+- sbtsv/ITsSbPluginPropertySet
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbPluginPropertySet
+- ITsSbPluginPropertySet
 targetos: Windows
 req.typenames: 
 req.redist: 

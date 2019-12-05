@@ -1,19 +1,17 @@
 ---
 UID: NF:mssip.CryptSIPRetrieveSubjectGuid
 title: CryptSIPRetrieveSubjectGuid function (mssip.h)
-
 description: Retrieves a GUID based on the header information in a specified file.
 old-location: security\cryptsipretrievesubjectguid.htm
 tech.root: SecCrypto
 ms.assetid: b81472bc-6d9c-4634-a378-e39786a0ca09
-
 ms.date: 12/05/2018
 ms.keywords: CryptSIPRetrieveSubjectGuid, CryptSIPRetrieveSubjectGuid function [Security], mssip/CryptSIPRetrieveSubjectGuid, security.cryptsipretrievesubjectguid
 ms.topic: function
-f1_keywords: 
- - "mssip/CryptSIPRetrieveSubjectGuid"
+f1_keywords:
+- mssip/CryptSIPRetrieveSubjectGuid
 dev_langs:
- - c++
+- c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptSIPRetrieveSubjectGuid
+- CryptSIPRetrieveSubjectGuid
 targetos: Windows
 req.typenames: 
 req.redist: 

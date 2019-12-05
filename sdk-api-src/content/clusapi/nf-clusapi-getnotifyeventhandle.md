@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.GetNotifyEventHandle
 title: GetNotifyEventHandle function (clusapi.h)
-
 description: Retrieves a handle to a notification event.
 old-location: mscs\getnotifyeventhandle.htm
 tech.root: MsCS
 ms.assetid: DCA68080-B405-47E9-BC35-613EA56D1E59
-
 ms.date: 12/05/2018
 ms.keywords: GetNotifyEventHandle, GetNotifyEventHandle function [Failover Cluster], PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2, PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2 function [Failover Cluster], clusapi/GetNotifyEventHandle, clusapi/PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2, mscs.getnotifyeventhandle
 ms.topic: function
-f1_keywords: 
- - "clusapi/GetNotifyEventHandle"
+f1_keywords:
+- clusapi/GetNotifyEventHandle
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - GetNotifyEventHandle
+- GetNotifyEventHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

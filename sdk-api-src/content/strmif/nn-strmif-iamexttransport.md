@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMExtTransport
 title: IAMExtTransport (strmif.h)
-
 description: The IAMExtTransport interface controls the transport on a video tape recporder (VTR) or camcorder.
 old-location: dshow\iamexttransport.htm
 tech.root: DirectShow
 ms.assetid: 4ce48038-bfcf-4b1f-8053-3446929a5f06
-
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], IAMExtTransport interface [DirectShow],described, IAMExtTransportInterface, dshow.iamexttransport, strmif/IAMExtTransport
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMExtTransport"
+f1_keywords:
+- strmif/IAMExtTransport
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtTransport
+- IAMExtTransport
 targetos: Windows
 req.typenames: 
 req.redist: 

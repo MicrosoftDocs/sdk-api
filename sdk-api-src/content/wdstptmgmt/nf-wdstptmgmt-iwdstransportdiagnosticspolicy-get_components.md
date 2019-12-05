@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportDiagnosticsPolicy.get_Components
 title: IWdsTransportDiagnosticsPolicy::get_Components (wdstptmgmt.h)
-
 description: Enables a WDS client to configure which WDS transport components have event logging.
 old-location: wds\iwdstransportdiagnosticspolicy_components.htm
 tech.root: wds
 ms.assetid: da05fd59-641c-4d9b-ad87-d65e682c400e
-
 ms.date: 12/05/2018
 ms.keywords: Components property [Windows Deployment Services], Components property [Windows Deployment Services],IWdsTransportDiagnosticsPolicy interface, IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services],Components property, IWdsTransportDiagnosticsPolicy.Components, IWdsTransportDiagnosticsPolicy.get_Components, IWdsTransportDiagnosticsPolicy::Components, IWdsTransportDiagnosticsPolicy::get_Components, IWdsTransportDiagnosticsPolicy::put_Components, get_Components, wds.iwdstransportdiagnosticspolicy_components, wdstptmgmt/IWdsTransportDiagnosticsPolicy::Components, wdstptmgmt/IWdsTransportDiagnosticsPolicy::get_Components, wdstptmgmt/IWdsTransportDiagnosticsPolicy::put_Components
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportDiagnosticsPolicy.Components"
+f1_keywords:
+- wdstptmgmt/IWdsTransportDiagnosticsPolicy.Components
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportDiagnosticsPolicy.Components
- - IWdsTransportDiagnosticsPolicy.get_Components
- - IWdsTransportDiagnosticsPolicy.put_Components
+- IWdsTransportDiagnosticsPolicy.Components
+- IWdsTransportDiagnosticsPolicy.get_Components
+- IWdsTransportDiagnosticsPolicy.put_Components
 targetos: Windows
 req.typenames: 
 req.redist: 

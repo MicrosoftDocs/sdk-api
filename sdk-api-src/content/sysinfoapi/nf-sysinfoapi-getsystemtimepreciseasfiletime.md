@@ -1,19 +1,17 @@
 ---
 UID: NF:sysinfoapi.GetSystemTimePreciseAsFileTime
 title: GetSystemTimePreciseAsFileTime function (sysinfoapi.h)
-
 description: GetSystemTimePreciseAsFileTime function retrieves the current system date and time with the highest possible level of precision (&lt;1us). The retrieved information is in Coordinated Universal Time (UTC) format.
 old-location: base\getsystemtimepreciseasfiletime.htm
 tech.root: SysInfo
 ms.assetid: 8949C2D4-AE5A-4E18-9B06-F2F13EFA8A5E
-
 ms.date: 12/05/2018
 ms.keywords: GetSystemTimePreciseAsFileTime, GetSystemTimePreciseAsFileTime function, base.getsystemtimepreciseasfiletime, sysinfoapi/GetSystemTimePreciseAsFileTime
 ms.topic: function
-f1_keywords: 
- - "sysinfoapi/GetSystemTimePreciseAsFileTime"
+f1_keywords:
+- sysinfoapi/GetSystemTimePreciseAsFileTime
 dev_langs:
- - c++
+- c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-SysInfo-l1-2-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-SysInfo-l1-2-1.dll
- - API-MS-Win-Core-SysInfo-l1-2-2.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-SysInfo-l1-2-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-SysInfo-l1-2-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-SysInfo-l1-2-1.dll
+- API-MS-Win-Core-SysInfo-l1-2-2.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-SysInfo-l1-2-3.dll
 api_name:
- - GetSystemTimePreciseAsFileTime
+- GetSystemTimePreciseAsFileTime
 targetos: Windows
 req.typenames: 
 req.redist: 

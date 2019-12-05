@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.SHCreateItemFromIDList
 title: SHCreateItemFromIDList function (shobjidl_core.h)
-
 description: Creates and initializes a Shell item object from a pointer to an item identifier list (PIDL). The resulting shell item object supports the IShellItem interface.
 old-location: shell\SHCreateItemFromIDList.htm
 tech.root: shell
 ms.assetid: a6dcddd9-cdbc-4cf9-97e3-d1b562283344
-
 ms.date: 12/05/2018
 ms.keywords: SHCreateItemFromIDList, SHCreateItemFromIDList function [Windows Shell], _shell_SHCreateItemFromIDList, shell.SHCreateItemFromIDList, shobjidl_core/SHCreateItemFromIDList
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SHCreateItemFromIDList"
+f1_keywords:
+- shobjidl_core/SHCreateItemFromIDList
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
- - windows.storage.dll
- - API-MS-Win-Shell-Namespace-L1-1-0.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- windows.storage.dll
+- API-MS-Win-Shell-Namespace-L1-1-0.dll
 api_name:
- - SHCreateItemFromIDList
+- SHCreateItemFromIDList
 targetos: Windows
 req.typenames: 
 req.redist: 

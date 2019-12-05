@@ -1,19 +1,17 @@
 ---
 UID: NS:interactioncontext.MANIPULATION_TRANSFORM
 title: MANIPULATION_TRANSFORM (interactioncontext.h)
-
 description: Defines the transformation data for a manipulation.
 old-location: input_intcontext\manipulation_transform.htm
 tech.root: Input_IntContext
 ms.assetid: f1019207-3197-4ccc-a795-01b868dcc9ca
-
 ms.date: 12/05/2018
 ms.keywords: MANIPULATION_TRANSFORM, MANIPULATION_TRANSFORM structure, input_intcontext.manipulation_transform, interactioncontext.manipulation_transform, interactioncontext/MANIPULATION_TRANSFORM
 ms.topic: struct
-f1_keywords: 
- - "interactioncontext/MANIPULATION_TRANSFORM"
+f1_keywords:
+- interactioncontext/MANIPULATION_TRANSFORM
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - interactioncontext.h
+- interactioncontext.h
 api_name:
- - MANIPULATION_TRANSFORM
+- MANIPULATION_TRANSFORM
 targetos: Windows
 req.typenames: MANIPULATION_TRANSFORM
 req.redist: 

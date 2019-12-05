@@ -1,19 +1,17 @@
 ---
 UID: NF:evcoll.EcOpenSubscriptionEnum
 title: EcOpenSubscriptionEnum function (evcoll.h)
-
 description: Creates a subscription enumerator to enumerate all registered subscriptions on the local machine.
 old-location: wec\ecopensubscriptionenum.htm
 tech.root: WEC
 ms.assetid: edbfabb0-6ad1-415a-a2ef-094b1d3bcccb
-
 ms.date: 12/05/2018
 ms.keywords: EcOpenSubscriptionEnum, EcOpenSubscriptionEnum function, evcoll/EcOpenSubscriptionEnum, wec.ecopensubscriptionenum, wes.ecopensubscriptionenum
 ms.topic: function
-f1_keywords: 
- - "evcoll/EcOpenSubscriptionEnum"
+f1_keywords:
+- evcoll/EcOpenSubscriptionEnum
 dev_langs:
- - c++
+- c++
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wecapi.lib
 req.dll: Wecapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wecapi.dll
+- Wecapi.dll
 api_name:
- - EcOpenSubscriptionEnum
+- EcOpenSubscriptionEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

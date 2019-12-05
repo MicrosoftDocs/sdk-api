@@ -1,19 +1,17 @@
 ---
 UID: NE:shellscalingapi.PROCESS_DPI_AWARENESS
 title: PROCESS_DPI_AWARENESS (shellscalingapi.h)
-
 description: Identifies dots per inch (dpi) awareness values. DPI awareness indicates how much scaling work an application performs for DPI versus how much is done by the system.
 old-location: hidpi\process_dpi_awareness.htm
 tech.root: hidpi
 ms.assetid: 50130739-E8A8-4B92-9B80-3BBBE57EBE0C
-
 ms.date: 12/05/2018
 ms.keywords: PROCESS_DPI_AWARENESS, PROCESS_DPI_AWARENESS enumeration [High DPI], PROCESS_DPI_UNAWARE, PROCESS_PER_MONITOR_DPI_AWARE, PROCESS_SYSTEM_DPI_AWARE, hidpi.process_dpi_awareness, shellscalingapi/PROCESS_DPI_AWARENESS, shellscalingapi/PROCESS_DPI_UNAWARE, shellscalingapi/PROCESS_PER_MONITOR_DPI_AWARE, shellscalingapi/PROCESS_SYSTEM_DPI_AWARE
 ms.topic: enum
-f1_keywords: 
- - "shellscalingapi/PROCESS_DPI_AWARENESS"
+f1_keywords:
+- shellscalingapi/PROCESS_DPI_AWARENESS
 dev_langs:
- - c++
+- c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ShellScalingApi.h
+- ShellScalingApi.h
 api_name:
- - PROCESS_DPI_AWARENESS
+- PROCESS_DPI_AWARENESS
 targetos: Windows
 req.typenames: PROCESS_DPI_AWARENESS
 req.redist: 

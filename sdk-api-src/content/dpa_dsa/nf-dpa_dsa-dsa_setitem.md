@@ -1,19 +1,17 @@
 ---
 UID: NF:dpa_dsa.DSA_SetItem
 title: DSA_SetItem function (dpa_dsa.h)
-
 description: Sets the contents of an element in a dynamic structure array (DSA).
 old-location: controls\DSA_SetItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_setitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: DSA_SetItem, DSA_SetItem function [Windows Controls], _shell_DSA_SetItem, _shell_DSA_SetItem_cpp, controls.DSA_SetItem, controls._shell_DSA_SetItem, dpa_dsa/DSA_SetItem
 ms.topic: function
-f1_keywords: 
- - "dpa_dsa/DSA_SetItem"
+f1_keywords:
+- dpa_dsa/DSA_SetItem
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - DSA_SetItem
+- DSA_SetItem
 targetos: Windows
 req.typenames: 
 req.redist: 

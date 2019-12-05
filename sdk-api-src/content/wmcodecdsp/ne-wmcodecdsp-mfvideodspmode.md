@@ -1,19 +1,17 @@
 ---
 UID: NE:wmcodecdsp._MFVideoDSPMode
 title: MFVideoDSPMode (wmcodecdsp.h)
-
 description: Specifies the processing mode of the Video Stabilization MFT.
 old-location: mf\mfvideodspmode.htm
 tech.root: medfound
 ms.assetid: 24A5190B-6839-4CA1-ADBF-CDBF9B47C6AF
-
 ms.date: 12/05/2018
 ms.keywords: MFVideoDSPMode, MFVideoDSPMode enumeration [Media Foundation], MFVideoDSPMode_Passthrough, MFVideoDSPMode_Stabilization, mf.mfvideodspmode, wmcodecdsp/MFVideoDSPMode, wmcodecdsp/MFVideoDSPMode_Passthrough, wmcodecdsp/MFVideoDSPMode_Stabilization
 ms.topic: enum
-f1_keywords: 
- - "wmcodecdsp/MFVideoDSPMode"
+f1_keywords:
+- wmcodecdsp/MFVideoDSPMode
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - MFVideoDSPMode
+- MFVideoDSPMode
 targetos: Windows
 req.typenames: MFVideoDSPMode
 req.redist: 

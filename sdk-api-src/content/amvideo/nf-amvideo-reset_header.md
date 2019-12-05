@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.RESET_HEADER
 title: RESET_HEADER macro (amvideo.h)
-
 description: The RESET_HEADER macro fills a VIDEOINFOHEADER with zeroes. You can also use this macro to clear just the VIDEOINFOHEADER portion of a VIDEOINFO structure.
 old-location: dshow\reset_header.htm
 tech.root: DirectShow
 ms.assetid: bd976ff0-fbfb-4911-bee6-d53044eb3d23
-
 ms.date: 12/05/2018
 ms.keywords: RESET_HEADER, RESET_HEADER macro [DirectShow], amvideo/RESET_HEADER, dshow.reset_header
 ms.topic: macro
-f1_keywords: 
- - "amvideo/RESET_HEADER"
+f1_keywords:
+- amvideo/RESET_HEADER
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Streams.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Amvideo.h
+- Amvideo.h
 api_name:
- - RESET_HEADER
+- RESET_HEADER
 targetos: Windows
 req.typenames: 
 req.redist: 

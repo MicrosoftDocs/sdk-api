@@ -1,19 +1,17 @@
 ---
 UID: NF:magnification.MagGetWindowFilterList
 title: MagGetWindowFilterList function (magnification.h)
-
 description: Retrieves the list of windows that are magnified or excluded from magnification.
 old-location: magapi\magapi_MagGetWindowFilterList.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\maggetwindowfilterlist.htm
-
 ms.date: 12/05/2018
 ms.keywords: MagGetWindowFilterList, MagGetWindowFilterList function [Magnification API], magapi.magapi_MagGetWindowFilterList, magapi_MagGetWindowFilterList, magnification/MagGetWindowFilterList
 ms.topic: function
-f1_keywords: 
- - "magnification/MagGetWindowFilterList"
+f1_keywords:
+- magnification/MagGetWindowFilterList
 dev_langs:
- - c++
+- c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Magnification.lib
 req.dll: Magnification.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Magnification.dll
+- Magnification.dll
 api_name:
- - MagGetWindowFilterList
+- MagGetWindowFilterList
 targetos: Windows
 req.typenames: 
 req.redist: 

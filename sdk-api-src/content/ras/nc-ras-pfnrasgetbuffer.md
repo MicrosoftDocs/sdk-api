@@ -1,19 +1,17 @@
 ---
 UID: NC:ras.PFNRASGETBUFFER
 title: PFNRASGETBUFFER (ras.h)
-
 description: The custom-scripting DLL calls RasGetBuffer to allocate memory for sending or receiving data over the port connected to the server.
 old-location: rras\rasgetbuffer.htm
 tech.root: RRAS
 ms.assetid: 655f2dfa-a6cf-43db-8d2e-bf9a10163c75
-
 ms.date: 12/05/2018
 ms.keywords: PFNRASGETBUFFER, PFNRASGETBUFFER callback, RasGetBuffer, RasGetBuffer callback function [RAS], _ras_rasgetbuffer, ras/RasGetBuffer, rras.rasgetbuffer
 ms.topic: callback
-f1_keywords: 
- - "ras/RasGetBuffer"
+f1_keywords:
+- ras/RasGetBuffer
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ras.h
+- Ras.h
 api_name:
- - RasGetBuffer
+- RasGetBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

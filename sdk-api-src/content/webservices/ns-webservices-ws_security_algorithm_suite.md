@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_SECURITY_ALGORITHM_SUITE
 title: WS_SECURITY_ALGORITHM_SUITE (webservices.h)
-
 description: Defines the security algorithms and key lengths to be used with WS-Security. This setting is relevant to message security bindings and mixed-mode security bindings.
 old-location: wsw\ws_security_algorithm_suite.htm
 tech.root: wsw
 ms.assetid: aa2bb951-47ba-4241-b29a-2f54b92da4cb
-
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_ALGORITHM_SUITE, WS_SECURITY_ALGORITHM_SUITE structure [Web Services for Windows], webservices/WS_SECURITY_ALGORITHM_SUITE, wsw.ws_security_algorithm_suite
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_SECURITY_ALGORITHM_SUITE"
+f1_keywords:
+- webservices/WS_SECURITY_ALGORITHM_SUITE
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SECURITY_ALGORITHM_SUITE
+- WS_SECURITY_ALGORITHM_SUITE
 targetos: Windows
 req.typenames: WS_SECURITY_ALGORITHM_SUITE
 req.redist: 

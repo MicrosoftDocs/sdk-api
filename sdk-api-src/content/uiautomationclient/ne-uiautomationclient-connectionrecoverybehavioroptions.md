@@ -1,19 +1,17 @@
 ---
 UID: NE:uiautomationclient.ConnectionRecoveryBehaviorOptions
 title: ConnectionRecoveryBehaviorOptions (uiautomationclient.h)
-
 description: Contains possible values for the ConnectionRecoveryBehavior property, which indicates whether an accessible technology client adjusts provider request timeouts when the provider is non-responsive.
 old-location: winauto\uiauto_connectionrecoverybehavioroptions.htm
 tech.root: WinAuto
 ms.assetid: B731C970-49AF-4BD7-9D30-DFBB76120499
-
 ms.date: 12/05/2018
 ms.keywords: ConnectionRecoveryBehaviorOptions, ConnectionRecoveryBehaviorOptions enumeration [Windows Accessibility], ConnectionRecoveryBehaviorOptions_Disabled, ConnectionRecoveryBehaviorOptions_Enabled, uiautomationclient/ConnectionRecoveryBehaviorOptions, uiautomationclient/ConnectionRecoveryBehaviorOptions_Disabled, uiautomationclient/ConnectionRecoveryBehaviorOptions_Enabled, winauto.uiauto_connectionrecoverybehavioroptions
 ms.topic: enum
-f1_keywords: 
- - "uiautomationclient/ConnectionRecoveryBehaviorOptions"
+f1_keywords:
+- uiautomationclient/ConnectionRecoveryBehaviorOptions
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - ConnectionRecoveryBehaviorOptions
+- ConnectionRecoveryBehaviorOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

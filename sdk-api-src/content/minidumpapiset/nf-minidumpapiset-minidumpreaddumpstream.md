@@ -1,19 +1,17 @@
 ---
 UID: NF:minidumpapiset.MiniDumpReadDumpStream
 title: MiniDumpReadDumpStream function (minidumpapiset.h)
-
 description: Reads a stream from a user-mode minidump file.
 old-location: base\minidumpreaddumpstream.htm
 tech.root: Debug
 ms.assetid: 56df69aa-55b6-451b-a003-3ee88dc934f9
-
 ms.date: 12/05/2018
 ms.keywords: MiniDumpReadDumpStream, MiniDumpReadDumpStream function, _win32_minidumpreaddumpstream, base.minidumpreaddumpstream, minidumpapiset/MiniDumpReadDumpStream
 ms.topic: function
 f1_keywords:
 - minidumpapiset/MiniDumpReadDumpStream
 dev_langs:
- - c++
+- c++
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.SetStretchBltMode
 title: SetStretchBltMode function (wingdi.h)
-
 description: The SetStretchBltMode function sets the bitmap stretching mode in the specified device context.
 old-location: gdi\setstretchbltmode.htm
 tech.root: gdi
 ms.assetid: 3e5a48dc-ccd5-41ea-a24b-5c40213abf38
-
 ms.date: 12/05/2018
 ms.keywords: BLACKONWHITE, COLORONCOLOR, HALFTONE, STRETCH_ANDSCANS, STRETCH_DELETESCANS, STRETCH_HALFTONE, STRETCH_ORSCANS, SetStretchBltMode, SetStretchBltMode function [Windows GDI], WHITEONBLACK, _win32_SetStretchBltMode, gdi.setstretchbltmode, wingdi/SetStretchBltMode
 ms.topic: function
-f1_keywords: 
- - "wingdi/SetStretchBltMode"
+f1_keywords:
+- wingdi/SetStretchBltMode
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-l1-1-1.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-l1-1-1.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - SetStretchBltMode
+- SetStretchBltMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFGetStrideForBitmapInfoHeader
 title: MFGetStrideForBitmapInfoHeader function (mfapi.h)
-
 description: Calculates the minimum surface stride for a video format.
 old-location: mf\mfgetstrideforbitmapinfoheader.htm
 tech.root: medfound
 ms.assetid: 09612b83-8b14-4286-9562-9e3d00fe2c2b
-
 ms.date: 12/05/2018
 ms.keywords: 09612b83-8b14-4286-9562-9e3d00fe2c2b, MFGetStrideForBitmapInfoHeader, MFGetStrideForBitmapInfoHeader function [Media Foundation], mf.mfgetstrideforbitmapinfoheader, mfapi/MFGetStrideForBitmapInfoHeader
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFGetStrideForBitmapInfoHeader"
+f1_keywords:
+- mfapi/MFGetStrideForBitmapInfoHeader
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Evr.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFGetStrideForBitmapInfoHeader
+- MFGetStrideForBitmapInfoHeader
 targetos: Windows
 req.typenames: 
 req.redist: 

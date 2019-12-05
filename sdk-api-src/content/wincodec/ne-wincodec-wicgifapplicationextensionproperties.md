@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICGifApplicationExtensionProperties
 title: WICGifApplicationExtensionProperties (wincodec.h)
-
 description: Specifies the application extension metadata properties for a Graphics Interchange Format (GIF) image.
 old-location: wic\_wic_codec_wicgifapplicationextensionproperties.htm
 tech.root: wic
 ms.assetid: e60da197-2510-4a13-91e3-896d6027ee57
-
 ms.date: 12/05/2018
 ms.keywords: WICGifApplicationExtensionApplication, WICGifApplicationExtensionData, WICGifApplicationExtensionProperties, WICGifApplicationExtensionProperties enumeration [Windows Imaging Component], _wic_codec_wicgifapplicationextensionproperties, wic._wic_codec_wicgifapplicationextensionproperties, wincodec/WICGifApplicationExtensionApplication, wincodec/WICGifApplicationExtensionData, wincodec/WICGifApplicationExtensionProperties
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICGifApplicationExtensionProperties"
+f1_keywords:
+- wincodec/WICGifApplicationExtensionProperties
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICGifApplicationExtensionProperties
+- WICGifApplicationExtensionProperties
 targetos: Windows
 req.typenames: WICGifApplicationExtensionProperties
 req.redist: 

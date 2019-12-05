@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.IPsecSaEnum0
 title: IPsecSaEnum0 function (fwpmu.h)
-
 description: Returns the next page of results from the IPsec security association (SA) enumerator.
 old-location: fwp\ipsecsaenum0_func.htm
 tech.root: fwp
 ms.assetid: dea82534-4b73-4c74-9cea-d17ba8aff2e7
-
 ms.date: 12/05/2018
 ms.keywords: IPsecSaEnum0, IPsecSaEnum0 function [Filtering], fwp.ipsecsaenum0_func, fwpmu/IPsecSaEnum0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/IPsecSaEnum0"
+f1_keywords:
+- fwpmu/IPsecSaEnum0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - IPsecSaEnum0
+- IPsecSaEnum0
 targetos: Windows
 req.typenames: 
 req.redist: 

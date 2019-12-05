@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetAccessibilityLongDescription
 title: IXpsOMPath::SetAccessibilityLongDescription (xpsobjectmodel.h)
-
 description: Sets the long (detailed) textual description of the object's contents.
 old-location: xps\ixpsompath_setaccessibilitylongdescription.htm
 tech.root: printdocs
 ms.assetid: 9727cbea-55f7-48ad-8205-d68d0c906250
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetAccessibilityLongDescription method, IXpsOMPath.SetAccessibilityLongDescription, IXpsOMPath::SetAccessibilityLongDescription, SetAccessibilityLongDescription, SetAccessibilityLongDescription method [XPS Documents and Packaging], SetAccessibilityLongDescription method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setaccessibilitylongdescription, xpsobjectmodel/IXpsOMPath::SetAccessibilityLongDescription
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPath.SetAccessibilityLongDescription"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPath.SetAccessibilityLongDescription
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPath.SetAccessibilityLongDescription
+- IXpsOMPath.SetAccessibilityLongDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

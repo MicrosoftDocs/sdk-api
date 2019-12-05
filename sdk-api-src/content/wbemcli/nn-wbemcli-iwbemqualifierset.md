@@ -1,19 +1,17 @@
 ---
 UID: NN:wbemcli.IWbemQualifierSet
 title: IWbemQualifierSet (wbemcli.h)
-
 description: Acts as a container for the entire set of named qualifiers for a single property or entire object (a class or instance).
 old-location: wmi\iwbemqualifierset.htm
 tech.root: WmiSdk
 ms.assetid: 8b36bd32-4931-4641-a019-cbaa3547edd0
-
 ms.date: 12/05/2018
 ms.keywords: IWbemQualifierSet, IWbemQualifierSet interface [Windows Management Instrumentation], IWbemQualifierSet interface [Windows Management Instrumentation],described, _hmm_iwbemqualifierset, wbemcli/IWbemQualifierSet, wmi.iwbemqualifierset
 ms.topic: interface
-f1_keywords: 
- - "wbemcli/IWbemQualifierSet"
+f1_keywords:
+- wbemcli/IWbemQualifierSet
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fastprox.dll
- - Krnlprov.dll
- - Ncprov.dll
- - Wbemcore.dll
+- Fastprox.dll
+- Krnlprov.dll
+- Ncprov.dll
+- Wbemcore.dll
 api_name:
- - IWbemQualifierSet
+- IWbemQualifierSet
 targetos: Windows
 req.typenames: 
 req.redist: 

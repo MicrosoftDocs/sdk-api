@@ -1,19 +1,17 @@
 ---
 UID: NF:objidlbase.IPipeDouble.Push
 title: IPipeDouble::Push (objidlbase.h)
-
 description: Sends data of the double integer type to the pipe source.
 old-location: com\ipipedouble_push.htm
 tech.root: com
 ms.assetid: 49c9121f-eb92-42e4-bd30-fe2213d44de9
-
 ms.date: 12/05/2018
 ms.keywords: IPipeDouble interface [COM],Push method, IPipeDouble.Push, IPipeDouble::Push, Push, Push method [COM], Push method [COM],IPipeDouble interface, _com_ipipedouble_push, com.ipipedouble_push, objidlbase/IPipeDouble::Push
 ms.topic: method
-f1_keywords: 
- - "objidlbase/IPipeDouble.Push"
+f1_keywords:
+- objidlbase/IPipeDouble.Push
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IPipeDouble.Push
+- IPipeDouble.Push
 targetos: Windows
 req.typenames: 
 req.redist: 

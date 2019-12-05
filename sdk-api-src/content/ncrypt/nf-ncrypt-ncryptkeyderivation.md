@@ -1,19 +1,17 @@
 ---
 UID: NF:ncrypt.NCryptKeyDerivation
 title: NCryptKeyDerivation function (ncrypt.h)
-
 description: Creates a key from another key by using the specified key derivation function.
 old-location: security\ncryptkeyderivation.htm
 tech.root: SecCNG
 ms.assetid: 5D2D61B1-022E-412F-A19E-11057930A615
-
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_CAPI_AES_FLAG, NCRYPT_SILENT_FLAG, NCryptKeyDerivation, NCryptKeyDerivation function [Security], ncrypt/NCryptKeyDerivation, security.ncryptkeyderivation
 ms.topic: function
-f1_keywords: 
- - "ncrypt/NCryptKeyDerivation"
+f1_keywords:
+- ncrypt/NCryptKeyDerivation
 dev_langs:
- - c++
+- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ncrypt.dll
+- Ncrypt.dll
 api_name:
- - NCryptKeyDerivation
+- NCryptKeyDerivation
 targetos: Windows
 req.typenames: 
 req.redist: 

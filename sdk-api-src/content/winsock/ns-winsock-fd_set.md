@@ -1,19 +1,17 @@
 ---
 UID: NS:winsock.fd_set
 title: fd_set (winsock.h)
-
 description: Fd_set structure is used by Windows Sockets (Winsock) functions and service providers to place sockets into a set.
 old-location: winsock\fd_set_2.htm
 tech.root: WinSock
 ms.assetid: 2af5d69d-190e-4814-8d8b-438431808625
-
 ms.date: 12/05/2018
-ms.keywords: "*LPFD_SET, *PFD_SET, FD_SET, _win32_fd_set_2, fd_set, fd_set structure [Winsock], winsock.fd_set_2, winsock/fd_set"
+ms.keywords: '*LPFD_SET, *PFD_SET, FD_SET, _win32_fd_set_2, fd_set, fd_set structure [Winsock], winsock.fd_set_2, winsock/fd_set'
 ms.topic: struct
-f1_keywords: 
- - "winsock/fd_set"
+f1_keywords:
+- winsock/fd_set
 dev_langs:
- - c++
+- c++
 req.header: winsock.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winsock.h
+- winsock.h
 api_name:
- - fd_set
+- fd_set
 targetos: Windows
 req.typenames: fd_set, FD_SET, *PFD_SET, *LPFD_SET
 req.redist: 

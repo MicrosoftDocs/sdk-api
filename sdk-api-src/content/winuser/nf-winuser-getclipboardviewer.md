@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetClipboardViewer
 title: GetClipboardViewer function (winuser.h)
-
 description: Retrieves the handle to the first window in the clipboard viewer chain.
 old-location: dataxchg\getclipboardviewer.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\getclipboardviewer.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetClipboardViewer, GetClipboardViewer function [Data Exchange], _win32_GetClipboardViewer, _win32_getclipboardviewer_cpp, dataxchg.getclipboardviewer, winui._win32_getclipboardviewer, winuser/GetClipboardViewer
 ms.topic: function
-f1_keywords: 
- - "winuser/GetClipboardViewer"
+f1_keywords:
+- winuser/GetClipboardViewer
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - GetClipboardViewer
+- GetClipboardViewer
 targetos: Windows
 req.typenames: 
 req.redist: 

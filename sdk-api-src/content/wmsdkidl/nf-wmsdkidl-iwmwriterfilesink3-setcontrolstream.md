@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink3.SetControlStream
 title: IWMWriterFileSink3::SetControlStream (wmsdkidl.h)
-
 description: The SetControlStream method enables you to specify that a stream should be used as a control stream. You can also use this method to indicate that a previously specified control stream should no longer be used as a control stream.
 old-location: wmformat\iwmwriterfilesink3_setcontrolstream.htm
 tech.root: wmformat
 ms.assetid: c103d205-a568-4206-a66e-5473e16cfa3f
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriterFileSink3 interface [windows Media Format],SetControlStream method, IWMWriterFileSink3.SetControlStream, IWMWriterFileSink3::SetControlStream, IWMWriterFileSink3SetControlStream, SetControlStream, SetControlStream method [windows Media Format], SetControlStream method [windows Media Format],IWMWriterFileSink3 interface, wmformat.iwmwriterfilesink3_setcontrolstream, wmsdkidl/IWMWriterFileSink3::SetControlStream
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterFileSink3.SetControlStream"
+f1_keywords:
+- wmsdkidl/IWMWriterFileSink3.SetControlStream
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterFileSink3.SetControlStream
+- IWMWriterFileSink3.SetControlStream
 targetos: Windows
 req.typenames: 
 req.redist: 

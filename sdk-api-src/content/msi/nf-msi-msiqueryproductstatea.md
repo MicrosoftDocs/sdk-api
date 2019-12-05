@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiQueryProductStateA
 title: MsiQueryProductStateA function (msi.h)
-
 description: The MsiQueryProductState function returns the installed state for a product.
 old-location: setup\msiqueryproductstate.htm
 tech.root: Msi
 ms.assetid: f26f3229-d1ce-4802-99b1-857c6501c828
-
 ms.date: 12/05/2018
 ms.keywords: MsiQueryProductState, MsiQueryProductState function, MsiQueryProductStateA, MsiQueryProductStateW, _msi_msiqueryproductstate, msi/MsiQueryProductState, msi/MsiQueryProductStateA, msi/MsiQueryProductStateW, setup.msiqueryproductstate
 ms.topic: function
-f1_keywords: 
- - "msi/MsiQueryProductState"
+f1_keywords:
+- msi/MsiQueryProductState
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiQueryProductState
- - MsiQueryProductStateA
- - MsiQueryProductStateW
+- MsiQueryProductState
+- MsiQueryProductStateA
+- MsiQueryProductStateW
 targetos: Windows
 req.typenames: 
 req.redist: 

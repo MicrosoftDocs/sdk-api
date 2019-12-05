@@ -1,19 +1,17 @@
 ---
 UID: NS:shobjidl.NSTCCUSTOMDRAW
 title: NSTCCUSTOMDRAW (shobjidl.h)
-
 description: Custom draw structure used by INameSpaceTreeControlCustomDraw methods.
 old-location: shell\NSTCCUSTOMDRAW.htm
 tech.root: shell
 ms.assetid: 95747075-4882-4c29-8653-941ac04db54b
-
 ms.date: 12/05/2018
 ms.keywords: NSTCCUSTOMDRAW, NSTCCUSTOMDRAW structure [Windows Shell], _shell_NSTCCUSTOMDRAW, shell.NSTCCUSTOMDRAW, shobjidl/NSTCCUSTOMDRAW
 ms.topic: struct
-f1_keywords: 
- - "shobjidl/NSTCCUSTOMDRAW"
+f1_keywords:
+- shobjidl/NSTCCUSTOMDRAW
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - NSTCCUSTOMDRAW
+- NSTCCUSTOMDRAW
 targetos: Windows
 req.typenames: NSTCCUSTOMDRAW
 req.redist: 

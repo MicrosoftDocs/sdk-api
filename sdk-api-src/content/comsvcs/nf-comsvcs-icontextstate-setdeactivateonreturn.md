@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IContextState.SetDeactivateOnReturn
 title: IContextState::SetDeactivateOnReturn (comsvcs.h)
-
 description: Sets the done flag, which controls whether the object deactivates on method return.
 old-location: cos\icontextstate_setdeactivateonreturn.htm
 tech.root: cossdk
 ms.assetid: 29dfeb6f-1961-4d6f-b5c4-fcd0eb4a7bec
-
 ms.date: 12/05/2018
 ms.keywords: IContextState interface [COM+],SetDeactivateOnReturn method, IContextState.SetDeactivateOnReturn, IContextState::SetDeactivateOnReturn, SetDeactivateOnReturn, SetDeactivateOnReturn method [COM+], SetDeactivateOnReturn method [COM+],IContextState interface, _cos_IContextState_SetDeactivateOnReturn, comsvcs/IContextState::SetDeactivateOnReturn, cos.icontextstate_setdeactivateonreturn
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IContextState.SetDeactivateOnReturn"
+f1_keywords:
+- comsvcs/IContextState.SetDeactivateOnReturn
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IContextState.SetDeactivateOnReturn
+- IContextState.SetDeactivateOnReturn
 targetos: Windows
 req.typenames: 
 req.redist: 

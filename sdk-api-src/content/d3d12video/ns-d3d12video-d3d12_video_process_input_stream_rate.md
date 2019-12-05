@@ -1,40 +1,38 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_PROCESS_INPUT_STREAM_RATE
 title: D3D12_VIDEO_PROCESS_INPUT_STREAM_RATE
-
 description: Provides information about the stream rate.
 tech.root: mf
 ms.assetid: 42b631e5-a80c-409e-a16e-276e355798e3
-
-ms.date: 05/28/2019 
+ms.date: 05/28/2019
 ms.topic: struct
 f1_keywords:
- - D3D12_VIDEO_PROCESS_INPUT_STREAM_RATE
+- D3D12_VIDEO_PROCESS_INPUT_STREAM_RATE
 dev_langs:
- - c++
-ms.keywords: D3D12_VIDEO_PROCESS_INPUT_STREAM_RATE, D3D12_VIDEO_PROCESS_INPUT_STREAM_RATE, 
+- c++
+ms.keywords: D3D12_VIDEO_PROCESS_INPUT_STREAM_RATE, D3D12_VIDEO_PROCESS_INPUT_STREAM_RATE,
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
 req.dll: d3d12.dll
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12_VIDEO_PROCESS_INPUT_STREAM_RATE
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12video.h
-api_name: 
- - D3D12_VIDEO_PROCESS_INPUT_STREAM_RATE
+topic_type:
+- apiref
+api_type:
+- HeaderDef
+api_location:
+- d3d12video.h
+api_name:
+- D3D12_VIDEO_PROCESS_INPUT_STREAM_RATE
 targetos: Windows
 ---
 

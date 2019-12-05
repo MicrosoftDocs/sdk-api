@@ -1,19 +1,17 @@
 ---
 UID: NN:xenroll.ICEnroll2
 title: ICEnroll2 (xenroll.h)
-
 description: The ICEnroll2 interface is one of several interfaces that represent the Certificate Enrollment Control.
 old-location: security\icenroll2.htm
 tech.root: SecCrypto
 ms.assetid: 12c51daf-a72f-43da-9fb7-20ec261b4917
-
 ms.date: 12/05/2018
 ms.keywords: ICEnroll2, ICEnroll2 interface [Security], ICEnroll2 interface [Security],described, _xen_icenroll2, security.icenroll2, xenroll/ICEnroll2
 ms.topic: interface
-f1_keywords: 
- - "xenroll/ICEnroll2"
+f1_keywords:
+- xenroll/ICEnroll2
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll2
+- ICEnroll2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imagehlp.ImageLoad
 title: ImageLoad function (imagehlp.h)
-
 description: Maintains a list of loaded DLLs.
 old-location: base\imageload.htm
 tech.root: Debug
 ms.assetid: e88e6417-a805-43c2-9f47-5180228cf175
-
 ms.date: 12/05/2018
 ms.keywords: ImageLoad, ImageLoad function, _win32_imageload, base.imageload, imagehlp/ImageLoad
 ms.topic: function
 f1_keywords:
 - imagehlp/ImageLoad
 dev_langs:
- - c++
+- c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

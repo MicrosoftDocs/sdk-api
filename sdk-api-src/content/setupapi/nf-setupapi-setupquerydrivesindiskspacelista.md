@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupQueryDrivesInDiskSpaceListA
 title: SetupQueryDrivesInDiskSpaceListA function (setupapi.h)
-
 description: The SetupQueryDrivesInDiskSpaceList function fills a buffer with a list of the drives referenced by the file operations listed in the disk-space list.
 old-location: setup\setupquerydrivesindiskspacelist.htm
 tech.root: SetupApi
 ms.assetid: be298b54-f5dc-46a3-a54c-f7ca5cb3a2fb
-
 ms.date: 12/05/2018
 ms.keywords: SetupQueryDrivesInDiskSpaceList, SetupQueryDrivesInDiskSpaceList function [Setup API], SetupQueryDrivesInDiskSpaceListA, SetupQueryDrivesInDiskSpaceListW, _setupapi_setupquerydrivesindiskspacelist, setup.setupquerydrivesindiskspacelist, setupapi/SetupQueryDrivesInDiskSpaceList, setupapi/SetupQueryDrivesInDiskSpaceListA, setupapi/SetupQueryDrivesInDiskSpaceListW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupQueryDrivesInDiskSpaceList"
+f1_keywords:
+- setupapi/SetupQueryDrivesInDiskSpaceList
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupQueryDrivesInDiskSpaceList
- - SetupQueryDrivesInDiskSpaceListA
- - SetupQueryDrivesInDiskSpaceListW
+- SetupQueryDrivesInDiskSpaceList
+- SetupQueryDrivesInDiskSpaceListA
+- SetupQueryDrivesInDiskSpaceListW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl._HD_LAYOUT
 title: HDLAYOUT (commctrl.h)
-
 description: Contains information used to set the size and position of a header control. HDLAYOUT is used with the HDM_LAYOUT message. This structure supersedes the HD_LAYOUT structure.
 old-location: controls\HDLAYOUT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\structures\hdlayout.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPHDLAYOUT, HDLAYOUT, HDLAYOUT structure [Windows Controls], LPHDLAYOUT, LPHDLAYOUT structure pointer [Windows Controls], _win32_HDLAYOUT, _win32_HDLAYOUT_cpp, commctrl/HDLAYOUT, commctrl/LPHDLAYOUT, controls.HDLAYOUT, controls._win32_HDLAYOUT"
+ms.keywords: '*LPHDLAYOUT, HDLAYOUT, HDLAYOUT structure [Windows Controls], LPHDLAYOUT, LPHDLAYOUT structure pointer [Windows Controls], _win32_HDLAYOUT, _win32_HDLAYOUT_cpp, commctrl/HDLAYOUT, commctrl/LPHDLAYOUT, controls.HDLAYOUT, controls._win32_HDLAYOUT'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/HDLAYOUT"
+f1_keywords:
+- commctrl/HDLAYOUT
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - HDLAYOUT
+- HDLAYOUT
 targetos: Windows
 req.typenames: HDLAYOUT, *LPHDLAYOUT
 req.redist: 

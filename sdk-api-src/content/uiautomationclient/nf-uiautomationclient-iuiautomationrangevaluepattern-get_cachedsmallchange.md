@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.get_CachedSmallChange
 title: IUIAutomationRangeValuePattern::get_CachedSmallChange (uiautomationclient.h)
-
 description: Retrieves, from the cache, the value that is added to or subtracted from the value of the control when a small change is made, such as when an arrow key is pressed.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CachedSmallChange.htm
 tech.root: WinAuto
 ms.assetid: 8d737eaa-eb4a-4d73-b515-876961423fd6
-
 ms.date: 12/05/2018
 ms.keywords: CachedSmallChange property [Windows Accessibility], CachedSmallChange property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CachedSmallChange property, IUIAutomationRangeValuePattern.CachedSmallChange, IUIAutomationRangeValuePattern.get_CachedSmallChange, IUIAutomationRangeValuePattern::CachedSmallChange, IUIAutomationRangeValuePattern::get_CachedSmallChange, get_CachedSmallChange, uiauto.uiauto_IUIAutomationRangeValuePattern_CachedSmallChange, uiauto_IUIAutomationRangeValuePattern_CachedSmallChange, uiautomationclient/IUIAutomationRangeValuePattern::CachedSmallChange, uiautomationclient/IUIAutomationRangeValuePattern::get_CachedSmallChange, winauto.uiauto_IUIAutomationRangeValuePattern_CachedSmallChange
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationRangeValuePattern.CachedSmallChange"
+f1_keywords:
+- uiautomationclient/IUIAutomationRangeValuePattern.CachedSmallChange
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationRangeValuePattern.CachedSmallChange
- - IUIAutomationRangeValuePattern.get_CachedSmallChange
+- IUIAutomationRangeValuePattern.CachedSmallChange
+- IUIAutomationRangeValuePattern.get_CachedSmallChange
 targetos: Windows
 req.typenames: 
 req.redist: 

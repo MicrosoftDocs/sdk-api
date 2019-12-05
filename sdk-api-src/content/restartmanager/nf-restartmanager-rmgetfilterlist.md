@@ -1,19 +1,17 @@
 ---
 UID: NF:restartmanager.RmGetFilterList
 title: RmGetFilterList function (restartmanager.h)
-
 description: Lists the modifications to shutdown and restart actions that have already been applied by the RmAddFilter function.
 old-location: rstmgr\rmgetfilterlist.htm
 tech.root: rstmgr
 ms.assetid: 61427838-8b23-4105-93fd-55f457fd43a7
-
 ms.date: 12/05/2018
 ms.keywords: RmGetFilterList, RmGetFilterList function [Restart Mgr], restartmanager/RmGetFilterList, rstmgr.rmgetfilterlist
 ms.topic: function
-f1_keywords: 
- - "restartmanager/RmGetFilterList"
+f1_keywords:
+- restartmanager/RmGetFilterList
 dev_langs:
- - c++
+- c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rstrtmgr.lib
 req.dll: Rstrtmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rstrtmgr.dll
+- Rstrtmgr.dll
 api_name:
- - RmGetFilterList
+- RmGetFilterList
 targetos: Windows
 req.typenames: 
 req.redist: 

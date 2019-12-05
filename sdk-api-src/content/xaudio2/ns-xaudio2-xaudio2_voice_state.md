@@ -1,19 +1,17 @@
 ---
 UID: NS:xaudio2.XAUDIO2_VOICE_STATE
 title: XAUDIO2_VOICE_STATE (xaudio2.h)
-
 description: Returns the voice's current state and cursor position data.
 old-location: xaudio2\xaudio2_voice_state.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_VOICE_STATE
-
 ms.date: 12/05/2018
 ms.keywords: XAUDIO2_VOICE_STATE, XAUDIO2_VOICE_STATE structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_voice_state, xaudio2/XAUDIO2_VOICE_STATE
 ms.topic: struct
-f1_keywords: 
- - "xaudio2/XAUDIO2_VOICE_STATE"
+f1_keywords:
+- xaudio2/XAUDIO2_VOICE_STATE
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - XAUDIO2_VOICE_STATE
+- XAUDIO2_VOICE_STATE
 targetos: Windows
 req.typenames: XAUDIO2_VOICE_STATE
 req.redist: 

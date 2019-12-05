@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.SetErrorInfo
 title: SetErrorInfo function (oleauto.h)
-
 description: Sets the error information object for the current logical thread of execution.
 old-location: automat\seterrorinfo.htm
 tech.root: automat
 ms.assetid: 8eaacfac-fc37-4eaa-870b-10b99d598d66
-
 ms.date: 12/05/2018
 ms.keywords: SetErrorInfo, SetErrorInfo function [Automation], _oa96_SetErrorInfo, automat.seterrorinfo, oleauto/SetErrorInfo
 ms.topic: function
-f1_keywords: 
- - "oleauto/SetErrorInfo"
+f1_keywords:
+- oleauto/SetErrorInfo
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
- - API-MS-Win-Downlevel-OLE32-l1-1-1.dll
- - ComBase.dll
+- OleAut32.dll
+- API-MS-Win-Downlevel-OLE32-l1-1-1.dll
+- ComBase.dll
 api_name:
- - SetErrorInfo
+- SetErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

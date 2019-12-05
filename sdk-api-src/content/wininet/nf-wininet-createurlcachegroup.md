@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.CreateUrlCacheGroup
 title: CreateUrlCacheGroup function (wininet.h)
-
 description: Generates cache group identifications.
 old-location: wininet\createurlcachegroup.htm
 tech.root: wininet
 ms.assetid: bea0bc3b-75fb-4147-a4bd-f4290dfbf290
-
 ms.date: 12/05/2018
 ms.keywords: CreateUrlCacheGroup, CreateUrlCacheGroup function [WinINet], _inet_createurlcachegroup_function, wininet.createurlcachegroup, wininet/CreateUrlCacheGroup
 ms.topic: function
-f1_keywords: 
- - "wininet/CreateUrlCacheGroup"
+f1_keywords:
+- wininet/CreateUrlCacheGroup
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - CreateUrlCacheGroup
+- CreateUrlCacheGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

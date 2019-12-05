@@ -1,19 +1,17 @@
 ---
 UID: NF:winver.GetFileVersionInfoSizeW
 title: GetFileVersionInfoSizeW function (winver.h)
-
 description: Determines whether the operating system can retrieve version information for a specified file. If version information is available, GetFileVersionInfoSize returns the size, in bytes, of that information.
 old-location: menurc\getfileversioninfosize.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\getfileversioninfosize.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetFileVersionInfoSize, GetFileVersionInfoSize function [Menus and Other Resources], GetFileVersionInfoSizeA, GetFileVersionInfoSizeW, _win32_GetFileVersionInfoSize, _win32_getfileversioninfosize_cpp, menurc.getfileversioninfosize, winui._win32_getfileversioninfosize, winver/GetFileVersionInfoSize, winver/GetFileVersionInfoSizeA, winver/GetFileVersionInfoSizeW
 ms.topic: function
-f1_keywords: 
- - "winver/GetFileVersionInfoSize"
+f1_keywords:
+- winver/GetFileVersionInfoSize
 dev_langs:
- - c++
+- c++
 req.header: winver.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Version.lib
 req.dll: Api-ms-win-core-version-l1-1-0.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-core-version-l1-1-0.dll
- - API-MS-Win-Core-Versionansi-L1-1-1.dll
- - API-MS-Win-Core-Version-L1-1-1.dll
- - KernelBase.dll
- - version.dll
+- api-ms-win-core-version-l1-1-0.dll
+- API-MS-Win-Core-Versionansi-L1-1-1.dll
+- API-MS-Win-Core-Version-L1-1-1.dll
+- KernelBase.dll
+- version.dll
 api_name:
- - GetFileVersionInfoSize
- - GetFileVersionInfoSizeA
- - GetFileVersionInfoSizeW
+- GetFileVersionInfoSize
+- GetFileVersionInfoSizeA
+- GetFileVersionInfoSizeW
 targetos: Windows
 req.typenames: 
 req.redist: 

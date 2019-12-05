@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.GetControlWindow
 title: IShellBrowser::GetControlWindow (shobjidl_core.h)
-
 description: Gets the window handle to a browser control.
 old-location: shell\IShellBrowser_GetControlWindow.htm
 tech.root: shell
 ms.assetid: 0ddcdafd-01f6-441c-9cc8-1ca9f1209e25
-
 ms.date: 12/05/2018
 ms.keywords: FCW_PROGRESS, FCW_STATUS, FCW_TOOLBAR, FCW_TREE, GetControlWindow, GetControlWindow method [Windows Shell], GetControlWindow method [Windows Shell],IShellBrowser interface, IShellBrowser interface [Windows Shell],GetControlWindow method, IShellBrowser.GetControlWindow, IShellBrowser::GetControlWindow, _win32_IShellBrowser_GetControlWindow, shell.IShellBrowser_GetControlWindow, shobjidl_core/IShellBrowser::GetControlWindow
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellBrowser.GetControlWindow"
+f1_keywords:
+- shobjidl_core/IShellBrowser.GetControlWindow
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellBrowser.GetControlWindow
+- IShellBrowser.GetControlWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

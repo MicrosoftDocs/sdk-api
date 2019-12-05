@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectPrimitiveImpl.IsVolatile
 title: IMILBitmapEffectPrimitiveImpl::IsVolatile (mileffects.h)
-
 description: Determines whether the current effect is considered volatile. If an effect is volatile, the effects framework will not attempt to cache the effect's output.
 old-location: wibe\_wibe_imilbitmapeffectprimitiveimpl_isvolatile.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitiveimpl\isvolatile.htm
-
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectPrimitiveImpl interface [WPF Bitmap Effects],IsVolatile method, IMILBitmapEffectPrimitiveImpl.IsVolatile, IMILBitmapEffectPrimitiveImpl::IsVolatile, IsVolatile, IsVolatile method [WPF Bitmap Effects], IsVolatile method [WPF Bitmap Effects],IMILBitmapEffectPrimitiveImpl interface, _wibe_imilbitmapeffectprimitiveimpl_isvolatile, mileffects/IMILBitmapEffectPrimitiveImpl::IsVolatile, wibe._wibe_imilbitmapeffectprimitiveimpl_isvolatile
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectPrimitiveImpl.IsVolatile"
+f1_keywords:
+- mileffects/IMILBitmapEffectPrimitiveImpl.IsVolatile
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffectPrimitiveImpl.IsVolatile
+- IMILBitmapEffectPrimitiveImpl.IsVolatile
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidFeature
 title: IMSVidFeature (segment.h)
-
 description: The IMSVidFeature interface represents a feature that is available through the Video Control, such as data services or closed captioning.
 old-location: mstv\imsvidfeature.htm
 tech.root: mstv
 ms.assetid: 0512e1d6-e10e-421e-846c-4bcd7e86d0e7
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidFeature, IMSVidFeature interface [Microsoft TV Technologies], IMSVidFeature interface [Microsoft TV Technologies],described, IMSVidFeatureInterface, mstv.imsvidfeature, segment/IMSVidFeature
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidFeature"
+f1_keywords:
+- segment/IMSVidFeature
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidFeature
+- IMSVidFeature
 targetos: Windows
 req.typenames: 
 req.redist: 

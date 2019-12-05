@@ -1,19 +1,17 @@
 ---
 UID: NS:mmiscapi.tagDRVCONFIGINFO
 title: DRVCONFIGINFO (mmiscapi.h)
-
 description: Contains the registry key and value names associated with the installable driver.
 old-location: multimedia\drvconfiginfo.htm
 tech.root: Multimedia
 ms.assetid: 34451e1c-0748-48c7-9e5e-877a0c531a07
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDRVCONFIGINFO, *NPDRVCONFIGINFO, *PDRVCONFIGINFO, DRVCONFIGINFO, DRVCONFIGINFO structure [Windows Multimedia], _win32_DRVCONFIGINFO_str, mmsystem/DRVCONFIGINFO, multimedia.drvconfiginfo, tagDRVCONFIGINFO"
+ms.keywords: '*LPDRVCONFIGINFO, *NPDRVCONFIGINFO, *PDRVCONFIGINFO, DRVCONFIGINFO, DRVCONFIGINFO structure [Windows Multimedia], _win32_DRVCONFIGINFO_str, mmsystem/DRVCONFIGINFO, multimedia.drvconfiginfo, tagDRVCONFIGINFO'
 ms.topic: struct
-f1_keywords: 
- - "mmiscapi/DRVCONFIGINFO"
+f1_keywords:
+- mmiscapi/DRVCONFIGINFO
 dev_langs:
- - c++
+- c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmsystem.h
+- Mmsystem.h
 api_name:
- - DRVCONFIGINFO
+- DRVCONFIGINFO
 targetos: Windows
 req.typenames: DRVCONFIGINFO, *PDRVCONFIGINFO, *NPDRVCONFIGINFO, *LPDRVCONFIGINFO
 req.redist: 

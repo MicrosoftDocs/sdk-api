@@ -1,37 +1,35 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_FRAME_STEREO_FORMAT
 title: D3D12_VIDEO_FRAME_STEREO_FORMAT
-
-description: Defines the layout in memory of a stereo 3D video frame. 
+description: Defines the layout in memory of a stereo 3D video frame.
 tech.root: mf
 ms.assetid: bc974169-35ed-4ebb-ba1c-d0c3fe56657a
-
-ms.date: 05/28/2019 
+ms.date: 05/28/2019
 ms.topic: enum
 f1_keywords:
- - D3D12_VIDEO_FRAME_STEREO_FORMAT
+- D3D12_VIDEO_FRAME_STEREO_FORMAT
 dev_langs:
- - c++
-ms.keywords: D3D12_VIDEO_FRAME_STEREO_FORMAT, D3D12_VIDEO_FRAME_STEREO_FORMAT, 
+- c++
+ms.keywords: D3D12_VIDEO_FRAME_STEREO_FORMAT, D3D12_VIDEO_FRAME_STEREO_FORMAT,
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3D12_VIDEO_FRAME_STEREO_FORMAT
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12video.h
-api_name: 
- - D3D12_VIDEO_FRAME_STEREO_FORMAT
+topic_type:
+- apiref
+api_type:
+- HeaderDef
+api_location:
+- d3d12video.h
+api_name:
+- D3D12_VIDEO_FRAME_STEREO_FORMAT
 targetos: Windows
 ---
 

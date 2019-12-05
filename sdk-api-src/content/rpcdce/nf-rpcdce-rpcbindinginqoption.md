@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcBindingInqOption
 title: RpcBindingInqOption function (rpcdce.h)
-
 description: RPC client processes use RpcBindingInqOption to determine current values of the binding options for a given binding handle.
 old-location: rpc\rpcbindinginqoption.htm
 tech.root: Rpc
 ms.assetid: f148c827-d18a-41f2-834a-f6b77b331bcc
-
 ms.date: 12/05/2018
 ms.keywords: RpcBindingInqOption, RpcBindingInqOption function [RPC], _rpc_rpcbindinginqoption, rpc.rpcbindinginqoption, rpcdce/RpcBindingInqOption
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcBindingInqOption"
+f1_keywords:
+- rpcdce/RpcBindingInqOption
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcBindingInqOption
+- RpcBindingInqOption
 targetos: Windows
 req.typenames: 
 req.redist: 

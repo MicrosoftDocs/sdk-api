@@ -1,15 +1,14 @@
 ---
 UID: NF:directxcollision.Intersects~r1
 title: Intersects
-
 description: Test whether two triangles intersect.
 ms.date: 04/22/19
 ms.keywords: Intersects
 ms.topic: language-reference
-f1_keywords: 
- - "directxcollision/Intersects"
+f1_keywords:
+- directxcollision/Intersects
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,13 +30,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - directxcollision.h
+- directxcollision.h
 api_name:
- - Intersects
+- Intersects
 ---
 
 # Intersects(XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR) method

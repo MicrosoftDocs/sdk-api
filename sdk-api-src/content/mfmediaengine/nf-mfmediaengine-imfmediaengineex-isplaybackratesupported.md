@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.IsPlaybackRateSupported
 title: IMFMediaEngineEx::IsPlaybackRateSupported (mfmediaengine.h)
-
 description: Queries whether the Media Engine can play at a specified playback rate.
 old-location: mf\imfmediaengineex_isplaybackratesupported.htm
 tech.root: medfound
 ms.assetid: 2BE9954A-0B67-45A8-9B79-1148DCB4DDC4
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],IsPlaybackRateSupported method, IMFMediaEngineEx.IsPlaybackRateSupported, IMFMediaEngineEx::IsPlaybackRateSupported, IsPlaybackRateSupported, IsPlaybackRateSupported method [Media Foundation], IsPlaybackRateSupported method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_isplaybackratesupported, mfmediaengine/IMFMediaEngineEx::IsPlaybackRateSupported
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineEx.IsPlaybackRateSupported"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineEx.IsPlaybackRateSupported
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineEx.IsPlaybackRateSupported
+- IMFMediaEngineEx.IsPlaybackRateSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

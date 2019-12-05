@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspInformations.GetCspStatusesFromOperations
 title: ICspInformations::GetCspStatusesFromOperations (certenroll.h)
-
 description: Retrieves an ICspStatuses collection by supported key operations and optional provider information.
 old-location: security\icspinformations_getcspstatusesfromoperations_method.htm
 tech.root: seccertenroll
 ms.assetid: 7c099357-8299-4664-ba16-7f8936e16054
-
 ms.date: 12/05/2018
 ms.keywords: GetCspStatusesFromOperations, GetCspStatusesFromOperations method [Security], GetCspStatusesFromOperations method [Security],ICspInformations interface, ICspInformations interface [Security],GetCspStatusesFromOperations method, ICspInformations.GetCspStatusesFromOperations, ICspInformations::GetCspStatusesFromOperations, certenroll/ICspInformations::GetCspStatusesFromOperations, security.icspinformations_getcspstatusesfromoperations_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspInformations.GetCspStatusesFromOperations"
+f1_keywords:
+- certenroll/ICspInformations.GetCspStatusesFromOperations
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspInformations.GetCspStatusesFromOperations
+- ICspInformations.GetCspStatusesFromOperations
 targetos: Windows
 req.typenames: 
 req.redist: 

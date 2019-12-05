@@ -1,19 +1,17 @@
 ---
 UID: NF:amaudio.IAMDirectSound.ReleaseDirectSoundInterface
 title: IAMDirectSound::ReleaseDirectSoundInterface (amaudio.h)
-
 description: The ReleaseDirectSoundInterface method is not implemented.
 old-location: dshow\iamdirectsound_releasedirectsoundinterface.htm
 tech.root: DirectShow
 ms.assetid: fa02546b-7306-46ef-82a3-c6c1d89423e5
-
 ms.date: 12/05/2018
 ms.keywords: IAMDirectSound interface [DirectShow],ReleaseDirectSoundInterface method, IAMDirectSound.ReleaseDirectSoundInterface, IAMDirectSound::ReleaseDirectSoundInterface, IAMDirectSoundReleaseDirectSoundInterface, ReleaseDirectSoundInterface, ReleaseDirectSoundInterface method [DirectShow], ReleaseDirectSoundInterface method [DirectShow],IAMDirectSound interface, amaudio/IAMDirectSound::ReleaseDirectSoundInterface, dshow.iamdirectsound_releasedirectsoundinterface
 ms.topic: method
-f1_keywords: 
- - "amaudio/IAMDirectSound.ReleaseDirectSoundInterface"
+f1_keywords:
+- amaudio/IAMDirectSound.ReleaseDirectSoundInterface
 dev_langs:
- - c++
+- c++
 req.header: amaudio.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMDirectSound.ReleaseDirectSoundInterface
+- IAMDirectSound.ReleaseDirectSoundInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

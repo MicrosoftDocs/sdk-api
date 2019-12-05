@@ -1,19 +1,17 @@
 ---
 UID: NF:infotech.IITWordWheel.Open
 title: IITWordWheel::Open (infotech.h)
-
 description: Opens a word wheel.
 old-location: htmlhelp\iitwordwheel_open.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitwordwheelopen.htm
-
 ms.date: 12/05/2018
 ms.keywords: IITWordWheel interface [HTML Help Workshop],Open method, IITWordWheel.Open, IITWordWheel::Open, ITWW_OPEN_CONNECT, Open, Open method [HTML Help Workshop], Open method [HTML Help Workshop],IITWordWheel interface, htmlhelp.iitwordwheel_open, infotech/IITWordWheel::Open, refIITWordWheelOpen
 ms.topic: method
-f1_keywords: 
- - "infotech/IITWordWheel.Open"
+f1_keywords:
+- infotech/IITWordWheel.Open
 dev_langs:
- - c++
+- c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Infotech.h
+- Infotech.h
 api_name:
- - IITWordWheel.Open
+- IITWordWheel.Open
 targetos: Windows
 req.typenames: 
 req.redist: 

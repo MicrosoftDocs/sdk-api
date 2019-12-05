@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.InitVariantFromUInt16Array
 title: InitVariantFromUInt16Array function (propvarutil.h)
-
 description: Initializes a VARIANT structure with an array of unsigned 16-bit integer values.
 old-location: properties\InitVariantFromUInt16Array.htm
 tech.root: properties
 ms.assetid: 57fe1dd2-48a5-486e-a2cb-53cf0b8f96b0
-
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromUInt16Array, InitVariantFromUInt16Array function [Windows Properties], _shell_InitVariantFromUInt16Array, properties.InitVariantFromUInt16Array, propvarutil/InitVariantFromUInt16Array, shell.InitVariantFromUInt16Array
 ms.topic: function
-f1_keywords: 
- - "propvarutil/InitVariantFromUInt16Array"
+f1_keywords:
+- propvarutil/InitVariantFromUInt16Array
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - InitVariantFromUInt16Array
+- InitVariantFromUInt16Array
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_14
 title: WS_CALLBACK_MODEL (webservices.h)
-
 description: Specifies the threading behavior of a callback (for example, a WS_ASYNC_CALLBACK).
 old-location: wsw\ws_callback_model.htm
 tech.root: wsw
 ms.assetid: 6a8e4c0b-3c0a-4bd3-bbac-40e6f499a055
-
 ms.date: 12/05/2018
 ms.keywords: WS_CALLBACK_MODEL, WS_CALLBACK_MODEL enumeration [Web Services for Windows], WS_LONG_CALLBACK, WS_SHORT_CALLBACK, webservices/WS_CALLBACK_MODEL, webservices/WS_LONG_CALLBACK, webservices/WS_SHORT_CALLBACK, wsw.ws_callback_model
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_CALLBACK_MODEL"
+f1_keywords:
+- webservices/WS_CALLBACK_MODEL
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_CALLBACK_MODEL
+- WS_CALLBACK_MODEL
 targetos: Windows
 req.typenames: WS_CALLBACK_MODEL
 req.redist: 

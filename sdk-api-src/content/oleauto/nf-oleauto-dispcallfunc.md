@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.DispCallFunc
 title: DispCallFunc function (oleauto.h)
-
 description: Low-level helper for Invoke that provides machine independence for customized Invoke.
 old-location: automat\dispcallfunc.htm
 tech.root: automat
 ms.assetid: 9a16d4e4-a03d-459d-a2ec-3258499f6932
-
 ms.date: 12/05/2018
 ms.keywords: DispCallFunc, DispCallFunc function [Automation], _oa96_DispCallFunc, automat.dispcallfunc, oleauto/DispCallFunc
 ms.topic: function
-f1_keywords: 
- - "oleauto/DispCallFunc"
+f1_keywords:
+- oleauto/DispCallFunc
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - DispCallFunc
+- DispCallFunc
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageName
 title: WdsCliGetImageName function (wdsclientapi.h)
-
 description: Returns the name of the current image.
 old-location: wds\wdscligetimagename.htm
 tech.root: wds
 ms.assetid: 09bcd4c1-ce80-4338-a457-80c46b17015a
-
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetImageName, WdsCliGetImageName function [Windows Deployment Services], wds.wdscligetimagename, wdsclientapi/WdsCliGetImageName
 ms.topic: function
-f1_keywords: 
- - "wdsclientapi/WdsCliGetImageName"
+f1_keywords:
+- wdsclientapi/WdsCliGetImageName
 dev_langs:
- - c++
+- c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsClientApi.lib
 req.dll: WdsClientApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsClientApi.dll
+- WdsClientApi.dll
 api_name:
- - WdsCliGetImageName
+- WdsCliGetImageName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICColorContext.InitializeFromFilename
 title: IWICColorContext::InitializeFromFilename (wincodec.h)
-
 description: Initializes the color context from the given file.
 old-location: wic\_wic_codec_iwiccolorcontext_initializefromfilename.htm
 tech.root: wic
 ms.assetid: df1f841b-6b01-42d5-967d-47ec402f9b8c
-
 ms.date: 12/05/2018
 ms.keywords: IWICColorContext interface [Windows Imaging Component],InitializeFromFilename method, IWICColorContext.InitializeFromFilename, IWICColorContext::InitializeFromFilename, InitializeFromFilename, InitializeFromFilename method [Windows Imaging Component], InitializeFromFilename method [Windows Imaging Component],IWICColorContext interface, _wic_codec_iwiccolorcontext_initializefromfilename, wic._wic_codec_iwiccolorcontext_initializefromfilename, wincodec/IWICColorContext::InitializeFromFilename
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICColorContext.InitializeFromFilename"
+f1_keywords:
+- wincodec/IWICColorContext.InitializeFromFilename
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICColorContext.InitializeFromFilename
+- IWICColorContext.InitializeFromFilename
 targetos: Windows
 req.typenames: 
 req.redist: 

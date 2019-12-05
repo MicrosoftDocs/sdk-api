@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.PathIsPrefixW
 title: PathIsPrefixW function (shlwapi.h)
-
 description: Searches a path to determine if it contains a valid prefix of the type passed by pszPrefix. A prefix is one of these types:\_&#0034;C:\\&#0034;, &#0034;.&#0034;, &#0034;..&#0034;, &#0034;..\\&#0034;.
 old-location: shell\PathIsPrefix.htm
 tech.root: shell
 ms.assetid: b24f761e-6492-4a6d-9c7e-d5a5f2cbdaf3
-
 ms.date: 12/05/2018
 ms.keywords: PathIsPrefix, PathIsPrefix function [Windows Shell], PathIsPrefixA, PathIsPrefixW, _win32_PathIsPrefix, shell.PathIsPrefix, shlwapi/PathIsPrefix, shlwapi/PathIsPrefixA, shlwapi/PathIsPrefixW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/PathIsPrefix"
+f1_keywords:
+- shlwapi/PathIsPrefix
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - PathIsPrefix
- - PathIsPrefixA
- - PathIsPrefixW
+- PathIsPrefix
+- PathIsPrefixA
+- PathIsPrefixW
 targetos: Windows
 req.typenames: 
 req.redist: 

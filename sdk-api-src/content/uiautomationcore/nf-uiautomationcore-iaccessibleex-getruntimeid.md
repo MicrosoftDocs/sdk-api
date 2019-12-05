@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IAccessibleEx.GetRuntimeId
 title: IAccessibleEx::GetRuntimeId (uiautomationcore.h)
-
 description: Retrieves the runtime identifier of this element.
 old-location: winauto\uiauto_IAccessibleEx_GetRuntimeId.htm
 tech.root: WinAuto
 ms.assetid: 00aeac66-398a-4c80-85e2-32bff0ae100f
-
 ms.date: 12/05/2018
 ms.keywords: GetRuntimeId, GetRuntimeId method [Windows Accessibility], GetRuntimeId method [Windows Accessibility],IAccessibleEx interface, IAccessibleEx interface [Windows Accessibility],GetRuntimeId method, IAccessibleEx.GetRuntimeId, IAccessibleEx::GetRuntimeId, uiauto.uiauto_IAccessibleEx_GetRuntimeId, uiauto_IAccessibleEx_GetRuntimeId, uiautomationcore/IAccessibleEx::GetRuntimeId, winauto.uiauto_IAccessibleEx_GetRuntimeId
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IAccessibleEx.GetRuntimeId"
+f1_keywords:
+- uiautomationcore/IAccessibleEx.GetRuntimeId
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IAccessibleEx.GetRuntimeId
+- IAccessibleEx.GetRuntimeId
 targetos: Windows
 req.typenames: 
 req.redist: 

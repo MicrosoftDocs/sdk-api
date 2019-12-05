@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.SHSetUnreadMailCountW
 title: SHSetUnreadMailCountW function (shellapi.h)
-
 description: Stores the current user's unread message count for a specified email account in the registry.
 old-location: shell\SHSetUnreadMailCount.htm
 tech.root: shell
 ms.assetid: 4a0e1ade-8df1-41b5-b6ea-dad427b50f5a
-
 ms.date: 12/05/2018
 ms.keywords: SHSetUnreadMailCount, SHSetUnreadMailCount function [Windows Shell], SHSetUnreadMailCountW, _shell_SHSetUnreadMailCount, shell.SHSetUnreadMailCount, shellapi/SHSetUnreadMailCount, shellapi/SHSetUnreadMailCountW
 ms.topic: function
-f1_keywords: 
- - "shellapi/SHSetUnreadMailCount"
+f1_keywords:
+- shellapi/SHSetUnreadMailCount
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.60 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHSetUnreadMailCount
- - SHSetUnreadMailCountW
+- SHSetUnreadMailCount
+- SHSetUnreadMailCountW
 targetos: Windows
 req.typenames: 
 req.redist: 

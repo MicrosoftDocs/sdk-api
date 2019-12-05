@@ -1,19 +1,17 @@
 ---
 UID: NN:faxcomex.IFaxIncomingMessage
 title: IFaxIncomingMessage (faxcomex.h)
-
 description: Used by a fax client application to retrieve information about a received fax message in the archive of inbound faxes.
 old-location: fax\_mfax_faxincomingmessage_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_44h1_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessage, IFaxIncomingMessage interface [Fax Service], IFaxIncomingMessage interface [Fax Service],described, _mfax_faxincomingmessage_cpp, fax._mfax_faxincomingmessage_cpp, faxcomex/IFaxIncomingMessage
 ms.topic: interface
-f1_keywords: 
- - "faxcomex/IFaxIncomingMessage"
+f1_keywords:
+- faxcomex/IFaxIncomingMessage
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingMessage
+- IFaxIncomingMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IFilterMapper.RegisterFilterInstance
 title: IFilterMapper::RegisterFilterInstance (strmif.h)
-
 description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Registers an identifiable instance of a filter.
 old-location: dshow\ifiltermapper_registerfilterinstance.htm
 tech.root: DirectShow
 ms.assetid: ce42047c-0b74-4ad4-b5a1-ea66fc6bffc3
-
 ms.date: 12/05/2018
 ms.keywords: IFilterMapper interface [DirectShow],RegisterFilterInstance method, IFilterMapper.RegisterFilterInstance, IFilterMapper::RegisterFilterInstance, IFilterMapperRegisterFilterInstance, RegisterFilterInstance, RegisterFilterInstance method [DirectShow], RegisterFilterInstance method [DirectShow],IFilterMapper interface, dshow.ifiltermapper_registerfilterinstance, strmif/IFilterMapper::RegisterFilterInstance
 ms.topic: method
-f1_keywords: 
- - "strmif/IFilterMapper.RegisterFilterInstance"
+f1_keywords:
+- strmif/IFilterMapper.RegisterFilterInstance
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IFilterMapper.RegisterFilterInstance
+- IFilterMapper.RegisterFilterInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

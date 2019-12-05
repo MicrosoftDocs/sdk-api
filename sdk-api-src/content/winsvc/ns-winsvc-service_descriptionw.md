@@ -1,19 +1,17 @@
 ---
 UID: NS:winsvc._SERVICE_DESCRIPTIONW
 title: SERVICE_DESCRIPTIONW (winsvc.h)
-
 description: Contains a service description.
 old-location: base\service_description_str.htm
 tech.root: Services
 ms.assetid: 1b4e18d5-6086-4d1b-b39c-1d919bfdc0b9
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSERVICE_DESCRIPTIONW, LPSERVICE_DESCRIPTION, LPSERVICE_DESCRIPTION structure pointer, SERVICE_DESCRIPTION, SERVICE_DESCRIPTION structure, SERVICE_DESCRIPTIONA, SERVICE_DESCRIPTIONW, _win32_service_description_str, base.service_description_str, winsvc/LPSERVICE_DESCRIPTION, winsvc/SERVICE_DESCRIPTION, winsvc/SERVICE_DESCRIPTIONA, winsvc/SERVICE_DESCRIPTIONW"
+ms.keywords: '*LPSERVICE_DESCRIPTIONW, LPSERVICE_DESCRIPTION, LPSERVICE_DESCRIPTION structure pointer, SERVICE_DESCRIPTION, SERVICE_DESCRIPTION structure, SERVICE_DESCRIPTIONA, SERVICE_DESCRIPTIONW, _win32_service_description_str, base.service_description_str, winsvc/LPSERVICE_DESCRIPTION, winsvc/SERVICE_DESCRIPTION, winsvc/SERVICE_DESCRIPTIONA, winsvc/SERVICE_DESCRIPTIONW'
 ms.topic: struct
-f1_keywords: 
- - "winsvc/SERVICE_DESCRIPTION"
+f1_keywords:
+- winsvc/SERVICE_DESCRIPTION
 dev_langs:
- - c++
+- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsvc.h
+- Winsvc.h
 api_name:
- - SERVICE_DESCRIPTION
- - SERVICE_DESCRIPTIONA
- - SERVICE_DESCRIPTIONW
+- SERVICE_DESCRIPTION
+- SERVICE_DESCRIPTIONA
+- SERVICE_DESCRIPTIONW
 targetos: Windows
 req.typenames: SERVICE_DESCRIPTIONW, *LPSERVICE_DESCRIPTIONW
 req.redist: 

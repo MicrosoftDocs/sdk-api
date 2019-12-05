@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymEnumLines
 title: SymEnumLines function (dbghelp.h)
-
 description: Enumerates all lines in the specified module.
 old-location: base\symenumlines.htm
 tech.root: Debug
 ms.assetid: d518b320-e4db-4bd1-8221-583eb84c292c
-
 ms.date: 12/05/2018
 ms.keywords: SymEnumLines, SymEnumLines function, SymEnumLinesW, base.symenumlines, dbghelp/SymEnumLines, dbghelp/SymEnumLinesW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymEnumLines"
+f1_keywords:
+- dbghelp/SymEnumLines
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymEnumLines
- - SymEnumLines
- - SymEnumLinesW
+- SymEnumLines
+- SymEnumLines
+- SymEnumLinesW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.1 or later

@@ -1,19 +1,17 @@
 ---
 UID: NS:emi.__unnamed_struct_1
 title: EMI_METADATA_SIZE (emi.h)
-
 description: The EMI_METADATA_SIZE structure specifies the size of the Energy Metering Interface (EMI) metadata object that can be obtained from the device by issuing an IOCTL_EMI_GET_METADATA request.
 old-location: powermeter\emi_metadata_size.htm
 tech.root: powermeter
 ms.assetid: EC9C71E8-7864-464B-8F16-E9D80460B36B
-
 ms.date: 12/05/2018
 ms.keywords: EMI_METADATA_SIZE, EMI_METADATA_SIZE structure [Power Metering and Budgeting Devices], PEMI_METADATA_SIZE, PEMI_METADATA_SIZE structure pointer [Power Metering and Budgeting Devices], emi/EMI_METADATA_SIZE, emi/PEMI_METADATA_SIZE, powermeter.emi_metadata_size
 ms.topic: struct
-f1_keywords: 
- - "emi/EMI_METADATA_SIZE"
+f1_keywords:
+- emi/EMI_METADATA_SIZE
 dev_langs:
- - c++
+- c++
 req.header: emi.h
 req.include-header: Emi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - emi.h
+- emi.h
 api_name:
- - EMI_METADATA_SIZE
+- EMI_METADATA_SIZE
 targetos: Windows
 req.typenames: EMI_METADATA_SIZE
 req.redist: 

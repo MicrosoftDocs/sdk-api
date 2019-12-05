@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.Flush
 title: IMFSinkWriter::Flush (mfreadwrite.h)
-
 description: Flushes one or more streams.
 old-location: mf\imfsinkwriter_flush.htm
 tech.root: medfound
 ms.assetid: 997235cb-6ca5-434c-81a6-7a294e0cccca
-
 ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFSinkWriter interface, IMFSinkWriter interface [Media Foundation],Flush method, IMFSinkWriter.Flush, IMFSinkWriter::Flush, mf.imfsinkwriter_flush, mfreadwrite/IMFSinkWriter::Flush
 ms.topic: method
-f1_keywords: 
- - "mfreadwrite/IMFSinkWriter.Flush"
+f1_keywords:
+- mfreadwrite/IMFSinkWriter.Flush
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSinkWriter.Flush
+- IMFSinkWriter.Flush
 targetos: Windows
 req.typenames: 
 req.redist: 

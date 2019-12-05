@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.RemoveObject
 title: IShellFolderView::RemoveObject (shlobj_core.h)
-
 description: RemoveObject may be altered or unavailable.
 old-location: shell\IShellFolderView_RemoveObject.htm
 tech.root: shell
 ms.assetid: 5e96040b-5b6a-4323-a5c4-f30e534ed15a
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],RemoveObject method, IShellFolderView.RemoveObject, IShellFolderView::RemoveObject, RemoveObject, RemoveObject method [Windows Shell], RemoveObject method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_RemoveObject, shell.IShellFolderView_RemoveObject, shlobj_core/IShellFolderView::RemoveObject
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IShellFolderView.RemoveObject"
+f1_keywords:
+- shlobj_core/IShellFolderView.RemoveObject
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - IShellFolderView.RemoveObject
+- IShellFolderView.RemoveObject
 targetos: Windows
 req.typenames: 
 req.redist: 

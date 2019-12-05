@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMBegin
 title: IComCRMEvents::OnCRMBegin (comsvcs.h)
-
 description: Generated when a CRM clerk is starting, either due to a client registering a compensator or during recovery.
 old-location: cos\icomcrmevents_oncrmbegin.htm
 tech.root: cossdk
 ms.assetid: 8975cb5e-024f-40bf-acd7-c5af0abd88a0
-
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMBegin method, IComCRMEvents.OnCRMBegin, IComCRMEvents::OnCRMBegin, OnCRMBegin, OnCRMBegin method [COM+], OnCRMBegin method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMBegin, comsvcs/IComCRMEvents::OnCRMBegin, cos.icomcrmevents_oncrmbegin
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComCRMEvents.OnCRMBegin"
+f1_keywords:
+- comsvcs/IComCRMEvents.OnCRMBegin
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComCRMEvents.OnCRMBegin
+- IComCRMEvents.OnCRMBegin
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1PathGeometry1.ComputePointAndSegmentAtLength(FLOAT,UINT32,const D2D1_MATRIX_3X2_F,D2D1_POINT_DESCRIPTION)
 title: ID2D1PathGeometry1::ComputePointAndSegmentAtLength(FLOAT,UINT32,const D2D1_MATRIX_3X2_F,D2D1_POINT_DESCRIPTION) (d2d1_1.h)
-
 description: Computes the point that exists at a given distance along the path geometry along with the index of the segment the point is on and the directional vector at that point.
 old-location: direct2d\id2d1pathgeometry1_computepointandsegmentatlength_3.htm
 tech.root: Direct2D
 ms.assetid: EF383415-1A5F-4D1F-BB31-5D920A42F8AF
-
 ms.date: 12/05/2018
 ms.keywords: ComputePointAndSegmentAtLength, ComputePointAndSegmentAtLength method [Direct2D], ComputePointAndSegmentAtLength method [Direct2D],ID2D1PathGeometry1 interface, ID2D1PathGeometry1 interface [Direct2D],ComputePointAndSegmentAtLength method, ID2D1PathGeometry1.ComputePointAndSegmentAtLength, ID2D1PathGeometry1.ComputePointAndSegmentAtLength(FLOAT,UINT32,const D2D1_MATRIX_3X2_F,D2D1_POINT_DESCRIPTION), ID2D1PathGeometry1::ComputePointAndSegmentAtLength, ID2D1PathGeometry1::ComputePointAndSegmentAtLength(FLOAT,UINT32,const D2D1_MATRIX_3X2_F,D2D1_POINT_DESCRIPTION), d2d1_3/ID2D1PathGeometry1::ComputePointAndSegmentAtLength, direct2d.id2d1pathgeometry1_computepointandsegmentatlength_3
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1PathGeometry1.ComputePointAndSegmentAtLength"
+f1_keywords:
+- d2d1_1/ID2D1PathGeometry1.ComputePointAndSegmentAtLength
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: D2d1_1.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1_3.lib
 req.dll: D2d1_3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1_3.dll
+- d2d1_3.dll
 api_name:
- - ID2D1PathGeometry1.ComputePointAndSegmentAtLength
+- ID2D1PathGeometry1.ComputePointAndSegmentAtLength
 targetos: Windows
 req.typenames: 
 req.redist: 

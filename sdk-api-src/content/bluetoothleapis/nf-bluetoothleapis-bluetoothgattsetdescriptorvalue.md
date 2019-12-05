@@ -1,19 +1,17 @@
 ---
 UID: NF:bluetoothleapis.BluetoothGATTSetDescriptorValue
 title: BluetoothGATTSetDescriptorValue function (bluetoothleapis.h)
-
 description: Writes the specified descriptor value to the Bluetooth device.
 old-location: bltooth\bluetoothgattsetdescriptorvalue.htm
 tech.root: bltooth
 ms.assetid: B4EDDC32-732D-422B-85A0-FD935DBFE4EB
-
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTSetDescriptorValue, BluetoothGATTSetDescriptorValue function [Bluetooth Devices], bltooth.bluetoothgattsetdescriptorvalue, bluetoothleapis/BluetoothGATTSetDescriptorValue
 ms.topic: function
 f1_keywords:
 - bluetoothleapis/BluetoothGATTSetDescriptorValue
 dev_langs:
- - c++
+- c++
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaSourceExtension.RemoveSourceBuffer
 title: IMFMediaSourceExtension::RemoveSourceBuffer (mfmediaengine.h)
-
 description: Removes the specified source buffer from the collection of source buffers managed by the IMFMediaSourceExtension object.
 old-location: mf\imfmediasourceextension_removesourcebuffer.htm
 tech.root: medfound
 ms.assetid: 2f29cbac-4261-41ee-84c8-cb73686aeee5
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourceExtension interface [Media Foundation],RemoveSourceBuffer method, IMFMediaSourceExtension.RemoveSourceBuffer, IMFMediaSourceExtension::RemoveSourceBuffer, RemoveSourceBuffer, RemoveSourceBuffer method [Media Foundation], RemoveSourceBuffer method [Media Foundation],IMFMediaSourceExtension interface, mf.imfmediasourceextension_removesourcebuffer, mfmediaengine/IMFMediaSourceExtension::RemoveSourceBuffer
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaSourceExtension.RemoveSourceBuffer"
+f1_keywords:
+- mfmediaengine/IMFMediaSourceExtension.RemoveSourceBuffer
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaSourceExtension.RemoveSourceBuffer
+- IMFMediaSourceExtension.RemoveSourceBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

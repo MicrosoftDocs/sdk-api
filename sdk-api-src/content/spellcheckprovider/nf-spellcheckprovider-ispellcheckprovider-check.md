@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProvider.Check
 title: ISpellCheckProvider::Check (spellcheckprovider.h)
-
 description: Checks the spelling of the supplied text and returns a collection of spelling errors.
 old-location: intl\ispellcheckprovider_check.htm
 tech.root: Intl
 ms.assetid: B8C62B56-FF72-4C94-AC77-A6BEFCFE2589
-
 ms.date: 12/05/2018
 ms.keywords: Check, Check method [Internationalization for Windows Applications], Check method [Internationalization for Windows Applications],ISpellCheckProvider interface, ISpellCheckProvider interface [Internationalization for Windows Applications],Check method, ISpellCheckProvider.Check, ISpellCheckProvider::Check, intl.ispellcheckprovider_check, spellcheckprovider/ISpellCheckProvider::Check
 ms.topic: method
-f1_keywords: 
- - "spellcheckprovider/ISpellCheckProvider.Check"
+f1_keywords:
+- spellcheckprovider/ISpellCheckProvider.Check
 dev_langs:
- - c++
+- c++
 req.header: spellcheckprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheckprovider.h
+- Spellcheckprovider.h
 api_name:
- - ISpellCheckProvider.Check
+- ISpellCheckProvider.Check
 targetos: Windows
 req.typenames: 
 req.redist: 

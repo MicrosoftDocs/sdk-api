@@ -3,14 +3,13 @@ UID: NF:directxmath.operator-sub
 title: operator-
 description: Computes the negation of an XMVECTOR instance.
 ms.assetid: 96195aef-4e7b-4819-92a2-96379bc9f506
-
 ms.date: 05/13/2019
 ms.keywords: operator-
 ms.topic: language-reference
-f1_keywords: 
- - "directxmath/operator-"
+f1_keywords:
+- directxmath/operator-
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - directxmath.h
+- directxmath.h
 api_name:
- - operator-
+- operator-
 ---
 
 # operator -(XMVECTOR)

@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioClient.GetMaxDynamicObjectCount
 title: ISpatialAudioClient::GetMaxDynamicObjectCount (spatialaudioclient.h)
-
 description: Gets the maximum number of dynamic audio objects for the spatial audio client.
 old-location: coreaudio\ispatialaudioclient_getmaxdynamicobjectcount.htm
 tech.root: CoreAudio
 ms.assetid: 0185D09E-0009-41BF-A0BB-3C3CE0A69BA8
-
 ms.date: 12/05/2018
 ms.keywords: GetMaxDynamicObjectCount, GetMaxDynamicObjectCount method [Core Audio], GetMaxDynamicObjectCount method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],GetMaxDynamicObjectCount method, ISpatialAudioClient.GetMaxDynamicObjectCount, ISpatialAudioClient::GetMaxDynamicObjectCount, coreaudio.ispatialaudioclient_getmaxdynamicobjectcount, spatialaudioclient/ISpatialAudioClient::GetMaxDynamicObjectCount
 ms.topic: method
-f1_keywords: 
- - "spatialaudioclient/ISpatialAudioClient.GetMaxDynamicObjectCount"
+f1_keywords:
+- spatialaudioclient/ISpatialAudioClient.GetMaxDynamicObjectCount
 dev_langs:
- - c++
+- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudioclient.h
+- spatialaudioclient.h
 api_name:
- - ISpatialAudioClient.GetMaxDynamicObjectCount
+- ISpatialAudioClient.GetMaxDynamicObjectCount
 targetos: Windows
 req.typenames: 
 req.redist: 

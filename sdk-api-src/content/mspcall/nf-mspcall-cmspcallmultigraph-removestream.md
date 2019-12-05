@@ -1,19 +1,17 @@
 ---
 UID: NF:mspcall.CMSPCallMultiGraph.RemoveStream
 title: CMSPCallMultiGraph::RemoveStream (mspcall.h)
-
-description: "(Interface RemoveStream) The RemoveStream method is called by the application to remove a stream from the call."
+description: (Interface RemoveStream) The RemoveStream method is called by the application to remove a stream from the call.
 old-location: tapi3\cmspcallmultigraph_removestream.htm
 tech.root: Tapi
 ms.assetid: 03572d9a-f243-4423-b645-ef180704477f
-
 ms.date: 12/05/2018
 ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],RemoveStream method, CMSPCallMultiGraph.RemoveStream, CMSPCallMultiGraph::RemoveStream, RemoveStream, RemoveStream method [TAPI 2.2], RemoveStream method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_removestream, mspcall/CMSPCallMultiGraph::RemoveStream, tapi3.cmspcallmultigraph_removestream
 ms.topic: method
-f1_keywords: 
- - "mspcall/CMSPCallMultiGraph.RemoveStream"
+f1_keywords:
+- mspcall/CMSPCallMultiGraph.RemoveStream
 dev_langs:
- - c++
+- c++
 req.header: mspcall.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mspcall.h
+- Mspcall.h
 api_name:
- - CMSPCallMultiGraph.RemoveStream
+- CMSPCallMultiGraph.RemoveStream
 targetos: Windows
 req.typenames: 
 req.redist: 

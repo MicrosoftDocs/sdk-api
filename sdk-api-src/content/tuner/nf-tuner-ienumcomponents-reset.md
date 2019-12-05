@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IEnumComponents.Reset
 title: IEnumComponents::Reset (tuner.h)
-
 description: The Reset method resets the enumerator to the beginning of the collection.
 old-location: mstv\ienumcomponents_reset.htm
 tech.root: mstv
 ms.assetid: 753c9f74-3a97-4a8f-ba76-21e7b1d77a70
-
 ms.date: 12/05/2018
 ms.keywords: IEnumComponents interface [Microsoft TV Technologies],Reset method, IEnumComponents.Reset, IEnumComponents::Reset, IEnumComponentsReset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],IEnumComponents interface, mstv.ienumcomponents_reset, tuner/IEnumComponents::Reset
 ms.topic: method
-f1_keywords: 
- - "tuner/IEnumComponents.Reset"
+f1_keywords:
+- tuner/IEnumComponents.Reset
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IEnumComponents.Reset
+- IEnumComponents.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

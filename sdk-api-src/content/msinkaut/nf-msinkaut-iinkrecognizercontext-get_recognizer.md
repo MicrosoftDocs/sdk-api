@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.get_Recognizer
 title: IInkRecognizerContext::get_Recognizer (msinkaut.h)
-
 description: Gets the IInkRecognizer object used by the InkRecognizerContext object.
 old-location: tablet\inkrecognizercontext_recognizer.htm
 tech.root: tablet
 ms.assetid: a15234b1-1ac2-4241-b1cd-eb9702ee2a49
-
 ms.date: 12/05/2018
 ms.keywords: IInkRecognizerContext interface [Tablet PC],Recognizer property, IInkRecognizerContext.Recognizer, IInkRecognizerContext.get_Recognizer, IInkRecognizerContext::Recognizer, IInkRecognizerContext::get_Recognizer, InkRecognizerContext.get_Recognizer, Recognizer property [Tablet PC], Recognizer property [Tablet PC],IInkRecognizerContext interface, a15234b1-1ac2-4241-b1cd-eb9702ee2a49, get_Recognizer, msinkaut/IInkRecognizerContext::Recognizer, msinkaut/IInkRecognizerContext::get_Recognizer, put_Recognizer, tablet.inkrecognizercontext_recognizer
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognizerContext.Recognizer"
+f1_keywords:
+- msinkaut/IInkRecognizerContext.Recognizer
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognizerContext.Recognizer
- - IInkRecognizerContext.get_Recognizer
- - InkRecognizerContext.get_Recognizer
+- IInkRecognizerContext.Recognizer
+- IInkRecognizerContext.get_Recognizer
+- InkRecognizerContext.get_Recognizer
 targetos: Windows
 req.typenames: 
 req.redist: 

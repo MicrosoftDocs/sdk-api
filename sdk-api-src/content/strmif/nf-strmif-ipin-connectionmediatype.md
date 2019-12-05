@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IPin.ConnectionMediaType
 title: IPin::ConnectionMediaType (strmif.h)
-
 description: The ConnectionMediaType method retrieves the media type for the current pin connection, if any.
 old-location: dshow\ipin_connectionmediatype.htm
 tech.root: DirectShow
 ms.assetid: f372bfa7-b0ba-43f9-ba86-cbca5d1de515
-
 ms.date: 12/05/2018
 ms.keywords: ConnectionMediaType, ConnectionMediaType method [DirectShow], ConnectionMediaType method [DirectShow],IPin interface, IPin interface [DirectShow],ConnectionMediaType method, IPin.ConnectionMediaType, IPin::ConnectionMediaType, IPinConnectionMediaType, dshow.ipin_connectionmediatype, strmif/IPin::ConnectionMediaType
 ms.topic: method
-f1_keywords: 
- - "strmif/IPin.ConnectionMediaType"
+f1_keywords:
+- strmif/IPin.ConnectionMediaType
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IPin.ConnectionMediaType
+- IPin.ConnectionMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

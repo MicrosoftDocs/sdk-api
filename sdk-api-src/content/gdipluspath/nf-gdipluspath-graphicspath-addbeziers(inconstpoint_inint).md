@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddBeziers(IN const Point,IN INT)
 title: GraphicsPath::AddBeziers(IN const Point,IN INT) (gdipluspath.h)
-
 description: The GraphicsPath::AddBeziers method adds a sequence of connected B&#233;zier splines to the current figure of this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddBeziers_PointF_points_INT_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddbeziersmethods\addbeziers_6pointfpoints_intcount.htm
-
 ms.date: 12/05/2018
 ms.keywords: AddBeziers, AddBeziers method [GDI+], AddBeziers method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddBeziers method, GraphicsPath.AddBeziers, GraphicsPath.AddBeziers(IN const Point,IN INT), GraphicsPath.AddBeziers(const PointF*,INT), GraphicsPath::AddBeziers, GraphicsPath::AddBeziers(IN const Point,IN INT), _gdiplus_CLASS_GraphicsPath_AddBeziers_PointF_points_INT_count_, gdiplus._gdiplus_CLASS_GraphicsPath_AddBeziers_PointF_points_INT_count_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.AddBeziers"
+f1_keywords:
+- gdipluspath/GraphicsPath.AddBeziers
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.AddBeziers
+- GraphicsPath.AddBeziers
 targetos: Windows
 req.typenames: 
 req.redist: 

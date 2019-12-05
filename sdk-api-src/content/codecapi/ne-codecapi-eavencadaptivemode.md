@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVEncAdaptiveMode
 title: eAVEncAdaptiveMode (codecapi.h)
-
 description: Specifies the adaptive encoding mode for a video encoder.
 old-location: mf\eavencadaptivemode.htm
 tech.root: medfound
 ms.assetid: 5810E336-35F0-4109-9155-368C638AF987
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncAdaptiveMode, codecapi/eAVEncAdaptiveMode_FrameRate, codecapi/eAVEncAdaptiveMode_None, codecapi/eAVEncAdaptiveMode_Resolution, eAVEncAdaptiveMode, eAVEncAdaptiveMode enumeration [Media Foundation], eAVEncAdaptiveMode_FrameRate, eAVEncAdaptiveMode_None, eAVEncAdaptiveMode_Resolution, mf.eavencadaptivemode
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVEncAdaptiveMode"
+f1_keywords:
+- codecapi/eAVEncAdaptiveMode
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVEncAdaptiveMode
+- eAVEncAdaptiveMode
 targetos: Windows
 req.typenames: 
 req.redist: 

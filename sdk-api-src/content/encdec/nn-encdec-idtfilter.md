@@ -1,19 +1,17 @@
 ---
 UID: NN:encdec.IDTFilter
 title: IDTFilter (encdec.h)
-
 description: The IDTFilter interface is exposed by the Decrypter/Detagger filter. Applications can use this interface to set the ratings permissions.
 old-location: mstv\idtfilter.htm
 tech.root: mstv
 ms.assetid: 15acf764-7e4d-40c3-b907-ff5dfaa69dae
-
 ms.date: 12/05/2018
 ms.keywords: IDTFilter, IDTFilter interface [Microsoft TV Technologies], IDTFilter interface [Microsoft TV Technologies],described, IDTFilterInterface, encdec/IDTFilter, mstv.idtfilter
 ms.topic: interface
-f1_keywords: 
- - "encdec/IDTFilter"
+f1_keywords:
+- encdec/IDTFilter
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EncDec.h
+- EncDec.h
 api_name:
- - IDTFilter
+- IDTFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

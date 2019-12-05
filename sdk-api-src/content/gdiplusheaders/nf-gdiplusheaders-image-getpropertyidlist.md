@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.GetPropertyIdList
 title: Image::GetPropertyIdList (gdiplusheaders.h)
-
 description: The Image::GetPropertyIdList method gets a list of the property identifiers used in the metadata of this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetPropertyIdList_numOfProperty_list_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getpropertyidlist.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyIdList, GetPropertyIdList method [GDI+], GetPropertyIdList method [GDI+],Image class, Image class [GDI+],GetPropertyIdList method, Image.GetPropertyIdList, Image::GetPropertyIdList, _gdiplus_CLASS_Image_GetPropertyIdList_numOfProperty_list_, gdiplus._gdiplus_CLASS_Image_GetPropertyIdList_numOfProperty_list_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.GetPropertyIdList"
+f1_keywords:
+- gdiplusheaders/Image.GetPropertyIdList
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.GetPropertyIdList
+- Image.GetPropertyIdList
 targetos: Windows
 req.typenames: 
 req.redist: 

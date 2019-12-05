@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PublicKey.InitializeFromEncodedPublicKeyInfo
 title: IX509PublicKey::InitializeFromEncodedPublicKeyInfo (certenroll.h)
-
 description: Initializes the object from a byte array that contains a public key.
 old-location: security\ix509publickey_initializefromencodedpublickeyinfo_method.htm
 tech.root: seccertenroll
 ms.assetid: 3e92d934-1ab7-4f09-a579-0dde4ef44c7f
-
 ms.date: 12/05/2018
 ms.keywords: IX509PublicKey interface [Security],InitializeFromEncodedPublicKeyInfo method, IX509PublicKey.InitializeFromEncodedPublicKeyInfo, IX509PublicKey::InitializeFromEncodedPublicKeyInfo, InitializeFromEncodedPublicKeyInfo, InitializeFromEncodedPublicKeyInfo method [Security], InitializeFromEncodedPublicKeyInfo method [Security],IX509PublicKey interface, certenroll/IX509PublicKey::InitializeFromEncodedPublicKeyInfo, security.ix509publickey_initializefromencodedpublickeyinfo_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PublicKey.InitializeFromEncodedPublicKeyInfo"
+f1_keywords:
+- certenroll/IX509PublicKey.InitializeFromEncodedPublicKeyInfo
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PublicKey.InitializeFromEncodedPublicKeyInfo
+- IX509PublicKey.InitializeFromEncodedPublicKeyInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

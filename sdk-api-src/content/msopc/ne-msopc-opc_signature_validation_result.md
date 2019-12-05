@@ -1,19 +1,17 @@
 ---
 UID: NE:msopc.OPC_SIGNATURE_VALIDATION_RESULT
 title: OPC_SIGNATURE_VALIDATION_RESULT (msopc.h)
-
 description: Indicates the status of the signature.
 old-location: opc\opc_signature_validation_result.htm
 tech.root: OPC
 ms.assetid: 991e0620-d674-4c2c-b0d8-18d7fdd031fb
-
 ms.date: 12/05/2018
 ms.keywords: OPC_SIGNATURE_INVALID, OPC_SIGNATURE_VALID, OPC_SIGNATURE_VALIDATION_RESULT, OPC_SIGNATURE_VALIDATION_RESULT enumeration [Open Packaging Conventions], msopc/OPC_SIGNATURE_INVALID, msopc/OPC_SIGNATURE_VALID, msopc/OPC_SIGNATURE_VALIDATION_RESULT, opc.opc_signature_validation_result
 ms.topic: enum
-f1_keywords: 
- - "msopc/OPC_SIGNATURE_VALIDATION_RESULT"
+f1_keywords:
+- msopc/OPC_SIGNATURE_VALIDATION_RESULT
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - OPC_SIGNATURE_VALIDATION_RESULT
+- OPC_SIGNATURE_VALIDATION_RESULT
 targetos: Windows
 req.typenames: OPC_SIGNATURE_VALIDATION_RESULT
 req.redist: 

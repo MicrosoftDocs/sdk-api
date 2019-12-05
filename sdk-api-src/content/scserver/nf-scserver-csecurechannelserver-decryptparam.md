@@ -1,19 +1,17 @@
 ---
 UID: NF:scserver.CSecureChannelServer.DecryptParam
 title: CSecureChannelServer::DecryptParam (scserver.h)
-
 description: DecryptParam uses the session key of the secure authenticated channel to decrypt the data contained in a parameter.
 old-location: wmdm\csecurechannelserver_decryptparam.htm
 tech.root: WMDM
 ms.assetid: 42ccaf4a-02a4-432f-a0eb-b7852f0e5406
-
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],DecryptParam method, CSecureChannelServer.DecryptParam, CSecureChannelServer::DecryptParam, CSecureChannelServerDecryptParam, DecryptParam, DecryptParam method [windows Media Device Manager], DecryptParam method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::DecryptParam, wmdm.csecurechannelserver_decryptparam
 ms.topic: method
-f1_keywords: 
- - "scserver/CSecureChannelServer.DecryptParam"
+f1_keywords:
+- scserver/CSecureChannelServer.DecryptParam
 dev_langs:
- - c++
+- c++
 req.header: scserver.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - CSecureChannelServer.DecryptParam
+- CSecureChannelServer.DecryptParam
 targetos: Windows
 req.typenames: 
 req.redist: 

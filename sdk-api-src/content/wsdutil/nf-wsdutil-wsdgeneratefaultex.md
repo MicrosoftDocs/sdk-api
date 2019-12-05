@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdutil.WSDGenerateFaultEx
 title: WSDGenerateFaultEx function (wsdutil.h)
-
 description: Generates a SOAP fault.
 old-location: ncd\wsdgeneratefaultex.htm
 tech.root: WsdApi
 ms.assetid: 11cdd975-cc06-4fdc-8d84-c419e2a2b5ff
-
 ms.date: 12/05/2018
 ms.keywords: DataEncodingUnknown, MustUnderstand, Receiver, Sender, VersionMismatch, WSDGenerateFaultEx, WSDGenerateFaultEx function, ncd.wsdgeneratefaultex, wsdutil/WSDGenerateFaultEx
 ms.topic: function
 f1_keywords:
 - wsdutil/WSDGenerateFaultEx
 dev_langs:
- - c++
+- c++
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

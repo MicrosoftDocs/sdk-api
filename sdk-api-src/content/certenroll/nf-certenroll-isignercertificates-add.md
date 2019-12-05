@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ISignerCertificates.Add
 title: ISignerCertificates::Add (certenroll.h)
-
 description: Adds an ISignerCertificate object to the collection.
 old-location: security\isignercertificates_add_method.htm
 tech.root: seccertenroll
 ms.assetid: 985bda2c-caad-4910-9e9c-d673975953aa
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ISignerCertificates interface, ISignerCertificates interface [Security],Add method, ISignerCertificates.Add, ISignerCertificates::Add, certenroll/ISignerCertificates::Add, security.isignercertificates_add_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ISignerCertificates.Add"
+f1_keywords:
+- certenroll/ISignerCertificates.Add
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ISignerCertificates.Add
+- ISignerCertificates.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

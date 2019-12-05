@@ -1,19 +1,17 @@
 ---
 UID: NS:wdspxe.tagPXE_ADDRESS
 title: PXE_ADDRESS (wdspxe.h)
-
 description: Specifies the network address for a packet.
 old-location: wds\pxe_address.htm
 tech.root: wds
 ms.assetid: ee961e38-331c-4da0-80d1-68d5503f07ea
-
 ms.date: 12/05/2018
-ms.keywords: "*PPXE_ADDRESS, PPXE_ADDRESS, PPXE_ADDRESS structure pointer [Windows Deployment Services], PXE_ADDRESS, PXE_ADDRESS structure [Windows Deployment Services], PXE_ADDR_BROADCAST, PXE_ADDR_USE_ADDR, PXE_ADDR_USE_DHCP_RULES, PXE_ADDR_USE_PORT, wds.pxe_address, wdspxe/PPXE_ADDRESS, wdspxe/PXE_ADDRESS"
+ms.keywords: '*PPXE_ADDRESS, PPXE_ADDRESS, PPXE_ADDRESS structure pointer [Windows Deployment Services], PXE_ADDRESS, PXE_ADDRESS structure [Windows Deployment Services], PXE_ADDR_BROADCAST, PXE_ADDR_USE_ADDR, PXE_ADDR_USE_DHCP_RULES, PXE_ADDR_USE_PORT, wds.pxe_address, wdspxe/PPXE_ADDRESS, wdspxe/PXE_ADDRESS'
 ms.topic: struct
-f1_keywords: 
- - "wdspxe/PXE_ADDRESS"
+f1_keywords:
+- wdspxe/PXE_ADDRESS
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WdsPxe.h
+- WdsPxe.h
 api_name:
- - PXE_ADDRESS
+- PXE_ADDRESS
 targetos: Windows
 req.typenames: PXE_ADDRESS, *PPXE_ADDRESS
 req.redist: 

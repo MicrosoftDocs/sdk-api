@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxPackageReader2.GetContentGroupMap
 title: IAppxPackageReader2::GetContentGroupMap (appxpackaging.h)
-
 description: Gets a content group map reader.
 old-location: appxpkg\iappxpackagereader2_getcontentgroupmap.htm
 tech.root: appxpkg
 ms.assetid: 992DE709-F4E6-475D-A533-AFFB7FE7A53C
-
 ms.date: 12/05/2018
 ms.keywords: GetContentGroupMap, GetContentGroupMap method [App packaging and management], GetContentGroupMap method [App packaging and management],IAppxPackageReader2 interface, IAppxPackageReader2 interface [App packaging and management],GetContentGroupMap method, IAppxPackageReader2.GetContentGroupMap, IAppxPackageReader2::GetContentGroupMap, appxpackaging/IAppxPackageReader2::GetContentGroupMap, appxpkg.iappxpackagereader2_getcontentgroupmap
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxPackageReader2.GetContentGroupMap"
+f1_keywords:
+- appxpackaging/IAppxPackageReader2.GetContentGroupMap
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxPackageReader2.GetContentGroupMap
+- IAppxPackageReader2.GetContentGroupMap
 targetos: Windows
 req.typenames: 
 req.redist: 

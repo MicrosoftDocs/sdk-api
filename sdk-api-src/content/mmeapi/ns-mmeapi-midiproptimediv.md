@@ -1,19 +1,17 @@
 ---
 UID: NS:mmeapi.midiproptimediv_tag
 title: MIDIPROPTIMEDIV (mmeapi.h)
-
 description: The MIDIPROPTIMEDIV structure contains the time division property for a stream.
 old-location: multimedia\midiproptimediv.htm
 tech.root: Multimedia
 ms.assetid: 12f8e54f-5d85-41e6-8c45-5d76d8925eb0
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMIDIPROPTIMEDIV, MIDIPROPTIMEDIV, MIDIPROPTIMEDIV structure [Windows Multimedia], _win32_MIDIPROPTIMEDIV_str, midiproptimediv_tag, mmeapi/MIDIPROPTIMEDIV, multimedia.midiproptimediv"
+ms.keywords: '*LPMIDIPROPTIMEDIV, MIDIPROPTIMEDIV, MIDIPROPTIMEDIV structure [Windows Multimedia], _win32_MIDIPROPTIMEDIV_str, midiproptimediv_tag, mmeapi/MIDIPROPTIMEDIV, multimedia.midiproptimediv'
 ms.topic: struct
-f1_keywords: 
- - "mmeapi/MIDIPROPTIMEDIV"
+f1_keywords:
+- mmeapi/MIDIPROPTIMEDIV
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mmeapi.h
+- mmeapi.h
 api_name:
- - MIDIPROPTIMEDIV
+- MIDIPROPTIMEDIV
 targetos: Windows
 req.typenames: MIDIPROPTIMEDIV, *LPMIDIPROPTIMEDIV
 req.redist: 

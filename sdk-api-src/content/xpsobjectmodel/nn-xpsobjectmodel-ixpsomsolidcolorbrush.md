@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMSolidColorBrush
 title: IXpsOMSolidColorBrush (xpsobjectmodel.h)
-
 description: A single-color brush.
 old-location: xps\ixpsomsolidcolorbrush.htm
 tech.root: printdocs
 ms.assetid: 26580a25-09d1-4a9b-85c3-aa8ddcc97867
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMSolidColorBrush, IXpsOMSolidColorBrush interface [XPS Documents and Packaging], IXpsOMSolidColorBrush interface [XPS Documents and Packaging],described, xps.ixpsomsolidcolorbrush, xpsobjectmodel/IXpsOMSolidColorBrush
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMSolidColorBrush"
+f1_keywords:
+- xpsobjectmodel/IXpsOMSolidColorBrush
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMSolidColorBrush
+- IXpsOMSolidColorBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

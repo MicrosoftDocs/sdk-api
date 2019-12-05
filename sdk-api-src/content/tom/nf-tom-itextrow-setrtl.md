@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.SetRTL
 title: ITextRow::SetRTL (tom.h)
-
 description: Sets whether this row has right-to-left orientation.
 old-location: controls\itextrow_setrtl.htm
 tech.root: Controls
 ms.assetid: e260f989-6028-4cd2-a1e0-0eca2a5bd553
-
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetRTL method, ITextRow.SetRTL, ITextRow::SetRTL, SetRTL, SetRTL method [Windows Controls], SetRTL method [Windows Controls],ITextRow interface, controls.itextrow_setrtl, tom/ITextRow::SetRTL, tomFalse, tomToggle, tomTrue
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.SetRTL"
+f1_keywords:
+- tom/ITextRow.SetRTL
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.SetRTL
+- ITextRow.SetRTL
 targetos: Windows
 req.typenames: 
 req.redist: 

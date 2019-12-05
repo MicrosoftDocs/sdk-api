@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IScrollProvider.get_VerticallyScrollable
 title: IScrollProvider::get_VerticallyScrollable (uiautomationcore.h)
-
 description: Indicates whether the control can scroll vertically.
 old-location: winauto\uiauto_IScrollProvider_VerticallyScrollable.htm
 tech.root: WinAuto
 ms.assetid: fadc0fd7-969c-4189-b37c-9b8243e30ac1
-
 ms.date: 12/05/2018
 ms.keywords: IScrollProvider interface [Windows Accessibility],VerticallyScrollable property, IScrollProvider.VerticallyScrollable, IScrollProvider.get_VerticallyScrollable, IScrollProvider::VerticallyScrollable, IScrollProvider::get_VerticallyScrollable, VerticallyScrollable property [Windows Accessibility], VerticallyScrollable property [Windows Accessibility],IScrollProvider interface, get_VerticallyScrollable, uiauto.uiauto_IScrollProvider_VerticallyScrollable, uiauto_IScrollProvider_VerticallyScrollable, uiautomationcore/IScrollProvider::VerticallyScrollable, uiautomationcore/IScrollProvider::get_VerticallyScrollable, winauto.uiauto_IScrollProvider_VerticallyScrollable
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IScrollProvider.VerticallyScrollable"
+f1_keywords:
+- uiautomationcore/IScrollProvider.VerticallyScrollable
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IScrollProvider.VerticallyScrollable
- - IScrollProvider.get_VerticallyScrollable
+- IScrollProvider.VerticallyScrollable
+- IScrollProvider.get_VerticallyScrollable
 targetos: Windows
 req.typenames: 
 req.redist: 

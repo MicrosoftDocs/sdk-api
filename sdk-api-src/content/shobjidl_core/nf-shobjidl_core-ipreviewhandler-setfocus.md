@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IPreviewHandler.SetFocus
 title: IPreviewHandler::SetFocus (shobjidl_core.h)
-
 description: Directs the preview handler to set focus to itself.
 old-location: shell\IPreviewHandler_SetFocus.htm
 tech.root: shell
 ms.assetid: 93667383-da56-4fe9-a79e-933ab9703365
-
 ms.date: 12/05/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],SetFocus method, IPreviewHandler.SetFocus, IPreviewHandler::SetFocus, SetFocus, SetFocus method [Windows Shell], SetFocus method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_SetFocus, shell.IPreviewHandler_SetFocus, shobjidl_core/IPreviewHandler::SetFocus
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IPreviewHandler.SetFocus"
+f1_keywords:
+- shobjidl_core/IPreviewHandler.SetFocus
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IPreviewHandler.SetFocus
+- IPreviewHandler.SetFocus
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search 4 or later

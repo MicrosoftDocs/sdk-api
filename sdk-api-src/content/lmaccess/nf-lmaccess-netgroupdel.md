@@ -1,19 +1,17 @@
 ---
 UID: NF:lmaccess.NetGroupDel
 title: NetGroupDel function (lmaccess.h)
-
 description: The NetGroupDel function deletes a global group from the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\netgroupdel.htm
 tech.root: NetMgmt
 ms.assetid: e637d1af-c900-4c91-a771-1428f9cfac8b
-
 ms.date: 12/05/2018
 ms.keywords: NetGroupDel, NetGroupDel function [Network Management], _win32_netgroupdel, lmaccess/NetGroupDel, netmgmt.netgroupdel
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetGroupDel"
+f1_keywords:
+- lmaccess/NetGroupDel
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetGroupDel
+- NetGroupDel
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateColorTransformer
 title: IWICImagingFactory::CreateColorTransformer (wincodec.h)
-
 description: Creates a new instance of the IWICColorTransform class.
 old-location: wic\_wic_codec_iwicimagingfactory_createcolortransformer.htm
 tech.root: wic
 ms.assetid: 1cbe7987-2845-4d12-92f4-fcdd4ae6f370
-
 ms.date: 12/05/2018
 ms.keywords: CreateColorTransformer, CreateColorTransformer method [Windows Imaging Component], CreateColorTransformer method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateColorTransformer method, IWICImagingFactory.CreateColorTransformer, IWICImagingFactory::CreateColorTransformer, _wic_codec_iwicimagingfactory_createcolortransformer, wic._wic_codec_iwicimagingfactory_createcolortransformer, wincodec/IWICImagingFactory::CreateColorTransformer
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICImagingFactory.CreateColorTransformer"
+f1_keywords:
+- wincodec/IWICImagingFactory.CreateColorTransformer
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.lib
- - Windowscodecs.dll
+- Windowscodecs.lib
+- Windowscodecs.dll
 api_name:
- - IWICImagingFactory.CreateColorTransformer
+- IWICImagingFactory.CreateColorTransformer
 targetos: Windows
 req.typenames: 
 req.redist: 

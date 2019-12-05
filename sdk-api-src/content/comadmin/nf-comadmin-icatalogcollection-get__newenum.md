@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICatalogCollection.get__NewEnum
 title: ICatalogCollection::get__NewEnum (comadmin.h)
-
 description: Retrieves an enumerator that can be used to iterate through the collection objects.
 old-location: cos\icatalogcollection__newenum.htm
 tech.root: cossdk
 ms.assetid: 82ba706c-4f66-448e-b6fa-33be496c56b2
-
 ms.date: 12/05/2018
 ms.keywords: ICatalogCollection interface [COM+],_NewEnum property, ICatalogCollection._NewEnum, ICatalogCollection.get__NewEnum, ICatalogCollection::_NewEnum, ICatalogCollection::get__NewEnum, _NewEnum property [COM+], _NewEnum property [COM+],ICatalogCollection interface, _cos_ICatalogCollection_get__NewEnum, comadmin/ICatalogCollection::_NewEnum, comadmin/ICatalogCollection::get__NewEnum, cos.icatalogcollection__newenum, get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICatalogCollection._NewEnum"
+f1_keywords:
+- comadmin/ICatalogCollection._NewEnum
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICatalogCollection._NewEnum
- - ICatalogCollection.get__NewEnum
+- ICatalogCollection._NewEnum
+- ICatalogCollection.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

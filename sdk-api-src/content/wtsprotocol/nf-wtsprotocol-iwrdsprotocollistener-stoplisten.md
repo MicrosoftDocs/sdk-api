@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolListener.StopListen
 title: IWRdsProtocolListener::StopListen (wtsprotocol.h)
-
 description: Notifies the protocol to stop listening for client connection requests.
 old-location: termserv\iwrdsprotocollistener_stoplisten.htm
 tech.root: TermServ
 ms.assetid: bfb758e8-3d71-47b9-bf7d-075c0c401177
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolListener interface [Remote Desktop Services],StopListen method, IWRdsProtocolListener.StopListen, IWRdsProtocolListener::StopListen, StopListen, StopListen method [Remote Desktop Services], StopListen method [Remote Desktop Services],IWRdsProtocolListener interface, termserv.iwrdsprotocollistener_stoplisten, wtsprotocol/IWRdsProtocolListener::StopListen
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolListener.StopListen"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolListener.StopListen
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolListener.StopListen
+- IWRdsProtocolListener.StopListen
 targetos: Windows
 req.typenames: 
 req.redist: 

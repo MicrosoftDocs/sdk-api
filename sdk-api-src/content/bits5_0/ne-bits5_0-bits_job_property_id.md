@@ -1,19 +1,17 @@
 ---
 UID: NE:bits5_0.BITS_JOB_PROPERTY_ID
 title: BITS_JOB_PROPERTY_ID (bits5_0.h)
-
 description: Defines constants that specify the ID of the property for the BITS job.
 old-location: bits\bits_job_property_id.htm
 tech.root: Bits
 ms.assetid: 4ED7419E-3435-4F12-B293-1FDC24F40D63
-
 ms.date: 12/05/2018
 ms.keywords: BITS_JOB_PROPERTY_DYNAMIC_CONTENT, BITS_JOB_PROPERTY_HIGH_PERFORMANCE, BITS_JOB_PROPERTY_ID, BITS_JOB_PROPERTY_ID enumeration [BITS], BITS_JOB_PROPERTY_ID_COST_FLAGS, BITS_JOB_PROPERTY_MAX_DOWNLOAD_SIZE, BITS_JOB_PROPERTY_MINIMUM_NOTIFICATION_INTERVAL_MS, BITS_JOB_PROPERTY_NOTIFICATION_CLSID, BITS_JOB_PROPERTY_ON_DEMAND_MODE, BITS_JOB_PROPERTY_USE_STORED_CREDENTIALS, bits.bits_job_property_id, bits5_0/BITS_JOB_PROPERTY_DYNAMIC_CONTENT, bits5_0/BITS_JOB_PROPERTY_HIGH_PERFORMANCE, bits5_0/BITS_JOB_PROPERTY_ID, bits5_0/BITS_JOB_PROPERTY_ID_COST_FLAGS, bits5_0/BITS_JOB_PROPERTY_MAX_DOWNLOAD_SIZE, bits5_0/BITS_JOB_PROPERTY_MINIMUM_NOTIFICATION_INTERVAL_MS, bits5_0/BITS_JOB_PROPERTY_NOTIFICATION_CLSID, bits5_0/BITS_JOB_PROPERTY_ON_DEMAND_MODE, bits5_0/BITS_JOB_PROPERTY_USE_STORED_CREDENTIALS
 ms.topic: enum
-f1_keywords: 
- - "bits5_0/BITS_JOB_PROPERTY_ID"
+f1_keywords:
+- bits5_0/BITS_JOB_PROPERTY_ID
 dev_langs:
- - c++
+- c++
 req.header: bits5_0.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bits5_0.h
+- Bits5_0.h
 api_name:
- - BITS_JOB_PROPERTY_ID
+- BITS_JOB_PROPERTY_ID
 targetos: Windows
 req.typenames: BITS_JOB_PROPERTY_ID
 req.redist: 

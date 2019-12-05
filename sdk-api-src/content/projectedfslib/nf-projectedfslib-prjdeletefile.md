@@ -1,19 +1,17 @@
 ---
 UID: NF:projectedfslib.PrjDeleteFile
 title: PrjDeleteFile function (projectedfslib.h)
-
 description: Enables a provider to delete an item that has been cached on the local file system.
 old-location: projfs\prjdeletefile.htm
 tech.root: ProjFS
 ms.assetid: 4F3529FC-5658-4768-AC72-29178C9595F0
-
 ms.date: 12/05/2018
 ms.keywords: PrjDeleteFile, PrjDeleteFile function, ProjFS.prjdeletefile, projectedfslib/PrjDeleteFile
 ms.topic: function
-f1_keywords: 
- - "projectedfslib/PrjDeleteFile"
+f1_keywords:
+- projectedfslib/PrjDeleteFile
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PrjDeleteFile
+- PrjDeleteFile
 targetos: Windows
 req.typenames: 
 req.redist: 

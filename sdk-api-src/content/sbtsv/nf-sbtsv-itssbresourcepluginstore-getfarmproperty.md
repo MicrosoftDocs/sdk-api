@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.GetFarmProperty
 title: ITsSbResourcePluginStore::GetFarmProperty (sbtsv.h)
-
 description: Retrieves a property of a farm.
 old-location: termserv\itssbresourcepluginstore_getfarmproperty.htm
 tech.root: TermServ
 ms.assetid: 83cf8f54-99c2-46fb-b882-e2f3c31240e9
-
 ms.date: 12/05/2018
 ms.keywords: GetFarmProperty, GetFarmProperty method [Remote Desktop Services], GetFarmProperty method [Remote Desktop Services],ITsSbResourcePluginStore interface, GetFarmProperty method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],GetFarmProperty method, ITsSbResourcePluginStore.GetFarmProperty, ITsSbResourcePluginStore::GetFarmProperty, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],GetFarmProperty method, ITsSbResourcePluginStoreEx::GetFarmProperty, sbtsv/ITsSbResourcePluginStore::GetFarmProperty, sbtsv/ITsSbResourcePluginStoreEx::GetFarmProperty, termserv.itssbresourcepluginstore_getfarmproperty
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbResourcePluginStore.GetFarmProperty"
+f1_keywords:
+- sbtsv/ITsSbResourcePluginStore.GetFarmProperty
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbResourcePluginStore.GetFarmProperty
- - ITsSbResourcePluginStoreEx.GetFarmProperty
+- ITsSbResourcePluginStore.GetFarmProperty
+- ITsSbResourcePluginStoreEx.GetFarmProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsFileServiceOperations
 title: IADsFileServiceOperations (iads.h)
-
 description: The IADsFileServiceOperations interface is a dual interface that inherits from IADsServiceOperations.
 old-location: adsi\iadsfileserviceoperations.htm
 tech.root: adsi
 ms.assetid: 91335658-8efb-4945-9862-f72e78d749d6
-
 ms.date: 12/05/2018
 ms.keywords: IADsFileServiceOperations, IADsFileServiceOperations interface [ADSI], IADsFileServiceOperations interface [ADSI],described, _ds_iadsfileserviceoperations, adsi.iadsfileserviceoperations, iads/IADsFileServiceOperations
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsFileServiceOperations"
+f1_keywords:
+- iads/IADsFileServiceOperations
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsFileServiceOperations
+- IADsFileServiceOperations
 targetos: Windows
 req.typenames: 
 req.redist: 

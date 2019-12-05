@@ -1,19 +1,17 @@
 ---
 UID: NN:mfsharingengine.IMFMediaSharingEngineClassFactory
 title: IMFMediaSharingEngineClassFactory (mfsharingengine.h)
-
 description: Creates an instance of the IMFMediaSharingEngine.
 old-location: mf\imfmediasharingengineclassfactory.htm
 tech.root: medfound
 ms.assetid: C8732101-2512-4252-A8D0-677B394BDEB1
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSharingEngineClassFactory, IMFMediaSharingEngineClassFactory interface [Media Foundation], IMFMediaSharingEngineClassFactory interface [Media Foundation],described, mf.imfmediasharingengineclassfactory, mfsharingengine/IMFMediaSharingEngineClassFactory
 ms.topic: interface
-f1_keywords: 
- - "mfsharingengine/IMFMediaSharingEngineClassFactory"
+f1_keywords:
+- mfsharingengine/IMFMediaSharingEngineClassFactory
 dev_langs:
- - c++
+- c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfsharingengine.h
+- mfsharingengine.h
 api_name:
- - IMFMediaSharingEngineClassFactory
+- IMFMediaSharingEngineClassFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList.ActivateTab
 title: ITaskbarList::ActivateTab (shobjidl_core.h)
-
 description: Activates an item on the taskbar. The window is not actually activated; the window's item on the taskbar is merely displayed as active.
 old-location: shell\ITaskbarList_ActivateTab.htm
 tech.root: shell
 ms.assetid: 1dc95768-62a5-4784-9f4f-96bebdd38c2b
-
 ms.date: 12/05/2018
 ms.keywords: ActivateTab, ActivateTab method [Windows Shell], ActivateTab method [Windows Shell],ITaskbarList interface, ITaskbarList interface [Windows Shell],ActivateTab method, ITaskbarList.ActivateTab, ITaskbarList::ActivateTab, _win32_ITaskbarList_ActivateTab, shell.ITaskbarList_ActivateTab, shobjidl_core/ITaskbarList::ActivateTab
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITaskbarList.ActivateTab"
+f1_keywords:
+- shobjidl_core/ITaskbarList.ActivateTab
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ITaskbarList.ActivateTab
+- ITaskbarList.ActivateTab
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.IsNull
 title: CInstance::IsNull (instance.h)
-
 description: The IsNull method determines if the value of a particular property is NULL.
 old-location: wmi\cinstance_isnull.htm
 tech.root: WmiSdk
 ms.assetid: 54d0135f-f387-43f5-ab5a-aa134141d3b0
-
 ms.date: 12/05/2018
-ms.keywords: "?IsNull@CInstance@@QBE_NPBG@Z, ?IsNull@CInstance@@QEBA_NPEBG@Z, CInstance interface [Windows Management Instrumentation],IsNull method, CInstance.IsNull, CInstance::IsNull, IsNull, IsNull method [Windows Management Instrumentation], IsNull method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_isnull, instance/CInstance::IsNull, wmi.cinstance_isnull"
+ms.keywords: ?IsNull@CInstance@@QBE_NPBG@Z, ?IsNull@CInstance@@QEBA_NPEBG@Z, CInstance interface [Windows Management Instrumentation],IsNull method, CInstance.IsNull, CInstance::IsNull, IsNull, IsNull method [Windows Management Instrumentation], IsNull method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_isnull, instance/CInstance::IsNull, wmi.cinstance_isnull
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.IsNull"
+f1_keywords:
+- instance/CInstance.IsNull
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.IsNull
- - ?IsNull@CInstance@@QBE_NPBG@Z
- - ?IsNull@CInstance@@QEBA_NPEBG@Z
+- CInstance.IsNull
+- ?IsNull@CInstance@@QBE_NPBG@Z
+- ?IsNull@CInstance@@QEBA_NPEBG@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

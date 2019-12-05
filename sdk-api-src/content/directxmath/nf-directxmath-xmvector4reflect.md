@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector4Reflect
 title: XMVector4Reflect function (directxmath.h)
-
 description: Reflects an incident 4D vector across a 4D normal vector.
 old-location: dxmath\xmvector4reflect.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4Reflect(XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4Reflect, XMVector4Reflect, XMVector4Reflect method [DirectX Math Support APIs], dxmath.xmvector4reflect
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector4Reflect"
+f1_keywords:
+- directxmath/XMVector4Reflect
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector4Reflect
+- XMVector4Reflect
 targetos: Windows
 req.typenames: 
 req.redist: 

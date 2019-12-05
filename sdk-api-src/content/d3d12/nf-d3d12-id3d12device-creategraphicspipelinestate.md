@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateGraphicsPipelineState
 title: ID3D12Device::CreateGraphicsPipelineState (d3d12.h)
-
 description: Creates a graphics pipeline state object.
 old-location: direct3d12\id3d12device_creategraphicspipelinestate.htm
 tech.root: direct3d12
 ms.assetid: E35FCC4A-7527-4A6C-8569-0801A06AA427
-
 ms.date: 12/05/2018
 ms.keywords: CreateGraphicsPipelineState, CreateGraphicsPipelineState method, CreateGraphicsPipelineState method,ID3D12Device interface, ID3D12Device interface,CreateGraphicsPipelineState method, ID3D12Device.CreateGraphicsPipelineState, ID3D12Device::CreateGraphicsPipelineState, d3d12/ID3D12Device::CreateGraphicsPipelineState, direct3d12.id3d12device_creategraphicspipelinestate, direct3d12.id3d12device_createpipelinestate
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Device.CreateGraphicsPipelineState"
+f1_keywords:
+- d3d12/ID3D12Device.CreateGraphicsPipelineState
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Device.CreateGraphicsPipelineState
+- ID3D12Device.CreateGraphicsPipelineState
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11.D3D11_DEVICE_CONTEXT_TYPE
 title: D3D11_DEVICE_CONTEXT_TYPE (d3d11.h)
-
 description: Device context options.
 old-location: direct3d11\d3d11_device_context_type.htm
 tech.root: direct3d11
 ms.assetid: 1c2e6ed9-63d5-4ea0-bd98-7604c0ee7021
-
 ms.date: 12/05/2018
 ms.keywords: 04cb26d8-2f58-6bc4-0362-f5112e175882, D3D11_DEVICE_CONTEXT_DEFERRED, D3D11_DEVICE_CONTEXT_IMMEDIATE, D3D11_DEVICE_CONTEXT_TYPE, D3D11_DEVICE_CONTEXT_TYPE enumeration [Direct3D 11], d3d11/D3D11_DEVICE_CONTEXT_DEFERRED, d3d11/D3D11_DEVICE_CONTEXT_IMMEDIATE, d3d11/D3D11_DEVICE_CONTEXT_TYPE, direct3d11.d3d11_device_context_type
 ms.topic: enum
-f1_keywords: 
- - "d3d11/D3D11_DEVICE_CONTEXT_TYPE"
+f1_keywords:
+- d3d11/D3D11_DEVICE_CONTEXT_TYPE
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_DEVICE_CONTEXT_TYPE
+- D3D11_DEVICE_CONTEXT_TYPE
 targetos: Windows
 req.typenames: D3D11_DEVICE_CONTEXT_TYPE
 req.redist: 

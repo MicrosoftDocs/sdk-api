@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock2.WSAHtonl
 title: WSAHtonl function (winsock2.h)
-
 description: The WSAHtonl function converts a u_long from host byte order to network byte order.
 old-location: winsock\wsahtonl_2.htm
 tech.root: WinSock
 ms.assetid: 33512f49-d576-4439-ad8d-5c87387d6214
-
 ms.date: 12/05/2018
 ms.keywords: WSAHtonl, WSAHtonl function [Winsock], _win32_wsahtonl_2, winsock.wsahtonl_2, winsock2/WSAHtonl
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSAHtonl"
+f1_keywords:
+- winsock2/WSAHtonl
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSAHtonl
+- WSAHtonl
 targetos: Windows
 req.typenames: 
 req.redist: 

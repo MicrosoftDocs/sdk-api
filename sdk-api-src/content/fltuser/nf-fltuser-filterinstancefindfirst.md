@@ -1,19 +1,17 @@
 ---
 UID: NF:fltuser.FilterInstanceFindFirst
 title: FilterInstanceFindFirst function (fltuser.h)
-
 description: The FilterInstanceFindFirst function returns information about a minifilter driver instance and is used as a starting point for scanning the instances of a minifilter.
 old-location: ifsk\filterinstancefindfirst.htm
 tech.root: ifsk
 ms.assetid: 4d397383-eb65-4646-80cd-203495513285
-
 ms.date: 12/05/2018
 ms.keywords: FilterInstanceFindFirst, FilterInstanceFindFirst function [Installable File System Drivers], FltWin32ApiRef_c49ec801-8b52-42c5-9495-7fd4eb999480.xml, fltuser/FilterInstanceFindFirst, ifsk.filterinstancefindfirst
 ms.topic: function
-f1_keywords: 
- - "fltuser/FilterInstanceFindFirst"
+f1_keywords:
+- fltuser/FilterInstanceFindFirst
 dev_langs:
- - c++
+- c++
 req.header: fltuser.h
 req.include-header: FltUser.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: FltLib.lib
 req.dll: FltLib.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FltLib.dll
+- FltLib.dll
 api_name:
- - FilterInstanceFindFirst
+- FilterInstanceFindFirst
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer2.get_Allocator_ID
 title: IMSVidVideoRenderer2::get_Allocator_ID (segment.h)
-
 description: The get_Allocator_ID method retrieves an identifier for the VMR filter's allocator-presenter.
 old-location: mstv\imsvidvideorenderer2_get_allocator_id.htm
 tech.root: mstv
 ms.assetid: 4d512525-ed18-43af-9773-ed56c49c3641
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],get_Allocator_ID method, IMSVidVideoRenderer2.get_Allocator_ID, IMSVidVideoRenderer2::get_Allocator_ID, IMSVidVideoRenderer2get_Allocator_ID, get_Allocator_ID, get_Allocator_ID method [Microsoft TV Technologies], get_Allocator_ID method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, mstv.imsvidvideorenderer2_get_allocator_id, segment/IMSVidVideoRenderer2::get_Allocator_ID
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidVideoRenderer2.get_Allocator_ID"
+f1_keywords:
+- segment/IMSVidVideoRenderer2.get_Allocator_ID
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoRenderer2.get_Allocator_ID
+- IMSVidVideoRenderer2.get_Allocator_ID
 targetos: Windows
 req.typenames: 
 req.redist: 

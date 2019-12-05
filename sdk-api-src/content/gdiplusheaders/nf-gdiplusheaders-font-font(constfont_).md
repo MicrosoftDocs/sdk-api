@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Font.Font(const Font &)
 title: Font::Font(const Font &) (gdiplusheaders.h)
-
 description: This topic lists the constructors of the Font class. For a complete class listing, see Font Class.
 old-location: gdiplus\_gdiplus_CLASS_Font_Constructors.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontconstructors.htm
-
 ms.date: 12/05/2018
 ms.keywords: Font, Font constructors [GDI+], Font.Font, Font.Font(const Font &), Font::Font, Font::Font(const Font &), _gdiplus_CLASS_Font_Constructors, gdiplus._gdiplus_CLASS_Font_Constructors, gdiplusheaders/Font
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Font.Font"
+f1_keywords:
+- gdiplusheaders/Font.Font
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - gdiplusheaders.h
+- gdiplusheaders.h
 api_name:
- - Font.Font
+- Font.Font
 targetos: Windows
 req.typenames: 
 req.redist: 

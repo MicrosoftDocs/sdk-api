@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.IEnumNetSharingPublicConnection.Reset
 title: IEnumNetSharingPublicConnection::Reset (netcon.h)
-
 description: The Reset method causes subsequent enumeration calls to operate from the beginning of the enumeration.
 old-location: ics\ienumnetsharingpublicconnection_reset.htm
 tech.root: ics
 ms.assetid: f58a9efb-bb0d-477c-946f-5bef6c5635d8
-
 ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingPublicConnection interface [ICS/ICF],Reset method, IEnumNetSharingPublicConnection.Reset, IEnumNetSharingPublicConnection::Reset, Reset, Reset method [ICS/ICF], Reset method [ICS/ICF],IEnumNetSharingPublicConnection interface, _ics_ienumnetsharingpublicconnection_reset, ics.ienumnetsharingpublicconnection_reset, netcon/IEnumNetSharingPublicConnection::Reset
 ms.topic: method
-f1_keywords: 
- - "netcon/IEnumNetSharingPublicConnection.Reset"
+f1_keywords:
+- netcon/IEnumNetSharingPublicConnection.Reset
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - IEnumNetSharingPublicConnection.Reset
+- IEnumNetSharingPublicConnection.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

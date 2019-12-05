@@ -1,19 +1,17 @@
 ---
 UID: NF:dpa_dsa.DPA_Merge
 title: DPA_Merge function (dpa_dsa.h)
-
 description: Combines the contents of two dynamic pointer arrays (DPAs).
 old-location: controls\DPA_Merge.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_merge.htm
-
 ms.date: 12/05/2018
 ms.keywords: DPAM_INTERSECT, DPAM_NORMAL, DPAM_SORTED, DPAM_UNION, DPA_Merge, DPA_Merge function [Windows Controls], _shell_DPA_Merge, _shell_DPA_Merge_cpp, controls.DPA_Merge, controls._shell_DPA_Merge, dpa_dsa/DPA_Merge
 ms.topic: function
-f1_keywords: 
- - "dpa_dsa/DPA_Merge"
+f1_keywords:
+- dpa_dsa/DPA_Merge
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - DPA_Merge
+- DPA_Merge
 targetos: Windows
 req.typenames: 
 req.redist: 

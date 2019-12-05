@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.GetWORD
 title: CInstance::GetWORD (instance.h)
-
 description: The GetWORD method retrieves a WORD property.
 old-location: wmi\cinstance_getword.htm
 tech.root: WmiSdk
 ms.assetid: 511e4ce9-33e3-4c64-8016-05dd5630970f
-
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetWORD method, CInstance.GetWORD, CInstance::GetWORD, GetWORD, GetWORD method [Windows Management Instrumentation], GetWORD method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getword, instance/CInstance::GetWORD, wmi.cinstance_getword
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.GetWORD"
+f1_keywords:
+- instance/CInstance.GetWORD
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.GetWORD
+- CInstance.GetWORD
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.IStream_Copy
 title: IStream_Copy function (shlwapi.h)
-
 description: Copies a stream to another stream.
 old-location: shell\IStream_Copy.htm
 tech.root: shell
 ms.assetid: 7d6a1080-dad4-4821-8f2a-bd1e01ca10cf
-
 ms.date: 12/05/2018
 ms.keywords: IStream_Copy, IStream_Copy function [Windows Shell], _shell_IStream_Copy, shell.IStream_Copy, shlwapi/IStream_Copy
 ms.topic: function
-f1_keywords: 
- - "shlwapi/IStream_Copy"
+f1_keywords:
+- shlwapi/IStream_Copy
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Shlwapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
- - ShCore.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
- - API-MS-Win-ShCore-stream-l1-1-0.dll
+- Shlwapi.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+- ShCore.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+- API-MS-Win-ShCore-stream-l1-1-0.dll
 api_name:
- - IStream_Copy
+- IStream_Copy
 targetos: Windows
 req.typenames: 
 req.redist: 

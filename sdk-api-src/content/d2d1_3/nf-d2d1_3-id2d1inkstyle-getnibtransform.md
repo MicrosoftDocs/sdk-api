@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1InkStyle.GetNibTransform
 title: ID2D1InkStyle::GetNibTransform (d2d1_3.h)
-
 description: Retrieves the transform to be applied to this style's nib shape.
 old-location: direct2d\id2d1inkstyle_getnibtransform.htm
 tech.root: Direct2D
 ms.assetid: A5ABCA78-BBA3-48EE-8A5E-BACDD2CDED37
-
 ms.date: 12/05/2018
 ms.keywords: GetNibTransform, GetNibTransform method [Direct2D], GetNibTransform method [Direct2D],ID2D1InkStyle interface, ID2D1InkStyle interface [Direct2D],GetNibTransform method, ID2D1InkStyle.GetNibTransform, ID2D1InkStyle::GetNibTransform, d2d1_3/ID2D1InkStyle::GetNibTransform, direct2d.id2d1inkstyle_getnibtransform
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1InkStyle.GetNibTransform"
+f1_keywords:
+- d2d1_3/ID2D1InkStyle.GetNibTransform
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1_3.lib
 req.dll: D2d1_3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1_3.dll
+- d2d1_3.dll
 api_name:
- - ID2D1InkStyle.GetNibTransform
+- ID2D1InkStyle.GetNibTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

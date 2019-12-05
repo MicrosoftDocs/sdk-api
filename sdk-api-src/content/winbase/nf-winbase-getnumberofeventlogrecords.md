@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetNumberOfEventLogRecords
 title: GetNumberOfEventLogRecords function (winbase.h)
-
 description: Retrieves the number of records in the specified event log.
 old-location: base\getnumberofeventlogrecords.htm
 tech.root: EventLog
 ms.assetid: 80cc8735-26a2-4ad3-a111-28f2c0c52e98
-
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfEventLogRecords, GetNumberOfEventLogRecords function, _win32_getnumberofeventlogrecords, base.getnumberofeventlogrecords, winbase/GetNumberOfEventLogRecords
 ms.topic: function
-f1_keywords: 
- - "winbase/GetNumberOfEventLogRecords"
+f1_keywords:
+- winbase/GetNumberOfEventLogRecords
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
+- Advapi32.dll
+- Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
 api_name:
- - GetNumberOfEventLogRecords
+- GetNumberOfEventLogRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

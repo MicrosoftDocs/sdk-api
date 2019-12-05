@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminGetPDCServer
 title: MprAdminGetPDCServer function (mprapi.h)
-
 description: The MprAdminGetPDCServer function retrieves the name of the server with the master User Accounts Subsystem (UAS) from either a domain name or a server name. Either the domain name parameter or the server name parameter may be NULL, but not both.
 old-location: rras\mpradmingetpdcserver.htm
 tech.root: RRAS
 ms.assetid: 96bd5e88-5b13-41b2-ab3a-f9995cae36f8
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminGetPDCServer, MprAdminGetPDCServer function [RAS], _mpr_mpradmingetpdcserver, mprapi/MprAdminGetPDCServer, rras.mpradmingetpdcserver
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminGetPDCServer"
+f1_keywords:
+- mprapi/MprAdminGetPDCServer
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminGetPDCServer
+- MprAdminGetPDCServer
 targetos: Windows
 req.typenames: 
 req.redist: 

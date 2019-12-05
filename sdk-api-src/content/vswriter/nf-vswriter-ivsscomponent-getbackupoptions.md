@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssComponent.GetBackupOptions
 title: IVssComponent::GetBackupOptions (vswriter.h)
-
 description: The GetBackupOptions method returns the backup options specified to the writer that manages the currently selected component or component set by a requester using IVssBackupComponents::SetBackupOptions.
 old-location: base\ivsscomponent_getbackupoptions.htm
 tech.root: VSS
 ms.assetid: 54182058-5dbb-4eda-959a-fa1921a27302
-
 ms.date: 12/05/2018
 ms.keywords: GetBackupOptions, GetBackupOptions method [VSS], GetBackupOptions method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetBackupOptions method, IVssComponent.GetBackupOptions, IVssComponent::GetBackupOptions, _win32_ivsscomponent_getbackupoptions, base.ivsscomponent_getbackupoptions, vswriter/IVssComponent::GetBackupOptions
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssComponent.GetBackupOptions"
+f1_keywords:
+- vswriter/IVssComponent.GetBackupOptions
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssComponent.GetBackupOptions
+- IVssComponent.GetBackupOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

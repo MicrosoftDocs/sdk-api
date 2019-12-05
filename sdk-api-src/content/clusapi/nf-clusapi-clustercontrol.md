@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterControl
 title: ClusterControl function (clusapi.h)
-
 description: Initiates an operation that affects a cluster.
 old-location: mscs\clustercontrol.htm
 tech.root: MsCS
 ms.assetid: 7ef06c95-8d9d-4b87-a6d8-d6a2d49523ee
-
 ms.date: 12/05/2018
 ms.keywords: ClusterControl, ClusterControl function [Failover Cluster], _wolf_clustercontrol, clusapi/ClusterControl, mscs.clustercontrol
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterControl"
+f1_keywords:
+- clusapi/ClusterControl
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - ClusterControl
+- ClusterControl
 targetos: Windows
 req.typenames: 
 req.redist: 

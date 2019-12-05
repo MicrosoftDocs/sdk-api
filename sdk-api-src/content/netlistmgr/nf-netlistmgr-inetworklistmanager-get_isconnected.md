@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.get_IsConnected
 title: INetworkListManager::get_IsConnected (netlistmgr.h)
-
 description: The get_IsConnected property specifies if the local machine has network connectivity.
 old-location: nla\inetworklistmanager_get_isconnected.htm
 tech.root: nla
 ms.assetid: 51bdec8e-521f-4673-a2ad-07e8995f3905
-
 ms.date: 12/05/2018
 ms.keywords: INetworkListManager interface [Network Awareness],get_IsConnected method, INetworkListManager.get_IsConnected, INetworkListManager::get_IsConnected, get_IsConnected, get_IsConnected method [Network Awareness], get_IsConnected method [Network Awareness],INetworkListManager interface, netlistmgr/INetworkListManager::get_IsConnected, nla.inetworklistmanager_get_isconnected
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/INetworkListManager.get_IsConnected"
+f1_keywords:
+- netlistmgr/INetworkListManager.get_IsConnected
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetworkListManager.get_IsConnected
+- INetworkListManager.get_IsConnected
 targetos: Windows
 req.typenames: 
 req.redist: 

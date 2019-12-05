@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_Application
 title: MI_Application (mi.h)
-
 description: Represents the initialized infrastructure.
 old-location: wmi_v2\mi_application.htm
 tech.root: wmi_v2
 ms.assetid: da486ade-88ef-40c4-8151-356e718da7db
-
 ms.date: 12/05/2018
 ms.keywords: MI_Application, MI_Application structure [Windows Management Infrastructure (MI)], mi/MI_Application, wmi_v2.mi_application
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_Application"
+f1_keywords:
+- mi/MI_Application
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Application
+- MI_Application
 targetos: Windows
 req.typenames: MI_Application
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1,     Windows 7 with SP1, and Windows Server 2008 with SP2

@@ -1,19 +1,17 @@
 ---
 UID: NE:ocidl.tagExtentMode
 title: DVEXTENTMODE (ocidl.h)
-
 description: Indicates whether the sizing mode is content or integral sizing.
 old-location: com\dvextentmode.htm
 tech.root: com
 ms.assetid: 5848c26d-d185-4ad9-8841-bb8b622364ee
-
 ms.date: 12/05/2018
 ms.keywords: DVEXTENTMODE, DVEXTENTMODE enumeration [COM], DVEXTENT_CONTENT, DVEXTENT_INTEGRAL, _ole_DVEXTENTMODE, com.dvextentmode, ocidl/DVEXTENTMODE, ocidl/DVEXTENT_CONTENT, ocidl/DVEXTENT_INTEGRAL
 ms.topic: enum
-f1_keywords: 
- - "ocidl/DVEXTENTMODE"
+f1_keywords:
+- ocidl/DVEXTENTMODE
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - DVEXTENTMODE
+- DVEXTENTMODE
 targetos: Windows
 req.typenames: DVEXTENTMODE
 req.redist: 

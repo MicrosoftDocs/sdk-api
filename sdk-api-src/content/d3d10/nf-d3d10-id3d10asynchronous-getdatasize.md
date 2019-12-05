@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Asynchronous.GetDataSize
 title: ID3D10Asynchronous::GetDataSize (d3d10.h)
-
 description: Get the size of the data (in bytes) that is output when calling ID3D10Asynchronous::GetData.
 old-location: direct3d10\id3d10asynchronous_getdatasize.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10asynchronous_getdatasize.htm
-
 ms.date: 12/05/2018
 ms.keywords: 18babc8a-b4ee-3a1f-77f3-2020431b0222, GetDataSize, GetDataSize method [Direct3D 10], GetDataSize method [Direct3D 10],ID3D10Asynchronous interface, ID3D10Asynchronous interface [Direct3D 10],GetDataSize method, ID3D10Asynchronous.GetDataSize, ID3D10Asynchronous::GetDataSize, d3d10/ID3D10Asynchronous::GetDataSize, direct3d10.id3d10asynchronous_getdatasize
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Asynchronous.GetDataSize"
+f1_keywords:
+- d3d10/ID3D10Asynchronous.GetDataSize
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Asynchronous.GetDataSize
+- ID3D10Asynchronous.GetDataSize
 targetos: Windows
 req.typenames: 
 req.redist: 

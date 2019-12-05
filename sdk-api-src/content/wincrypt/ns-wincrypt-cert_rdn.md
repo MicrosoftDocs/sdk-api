@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CERT_RDN
 title: CERT_RDN (wincrypt.h)
-
 description: The CERT_RDN structure contains a relative distinguished name (RDN) consisting of an array of CERT_RDN_ATTR structures.
 old-location: security\cert_rdn.htm
 tech.root: SecCrypto
 ms.assetid: e84254b9-e9a7-4689-a12f-2772282c5433
-
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_RDN, CERT_RDN, CERT_RDN structure [Security], PCERT_RDN, PCERT_RDN structure pointer [Security], _crypto2_cert_rdn, security.cert_rdn, wincrypt/CERT_RDN, wincrypt/PCERT_RDN'
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_RDN
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

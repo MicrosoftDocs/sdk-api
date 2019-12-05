@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteEx.RequestUIActivate
 title: IOleInPlaceSiteEx::RequestUIActivate (ocidl.h)
-
 description: Notifies the container that the object is about to enter the UI-active state.
 old-location: com\ioleinplacesiteex_requestuiactivate.htm
 tech.root: com
 ms.assetid: 60baefc0-eaf6-4d73-975c-987a7720955b
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteEx interface [COM],RequestUIActivate method, IOleInPlaceSiteEx.RequestUIActivate, IOleInPlaceSiteEx::RequestUIActivate, RequestUIActivate, RequestUIActivate method [COM], RequestUIActivate method [COM],IOleInPlaceSiteEx interface, _ole_ioleinplacesiteex_requestuiactivate, com.ioleinplacesiteex_requestuiactivate, ocidl/IOleInPlaceSiteEx::RequestUIActivate
 ms.topic: method
-f1_keywords: 
- - "ocidl/IOleInPlaceSiteEx.RequestUIActivate"
+f1_keywords:
+- ocidl/IOleInPlaceSiteEx.RequestUIActivate
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
- - browsewm.dll
+- OCIdl.h
+- browsewm.dll
 api_name:
- - IOleInPlaceSiteEx.RequestUIActivate
+- IOleInPlaceSiteEx.RequestUIActivate
 targetos: Windows
 req.typenames: 
 req.redist: 

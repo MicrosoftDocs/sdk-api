@@ -1,19 +1,17 @@
 ---
 UID: NF:ntdsapi.DsFreeSpnArrayA
 title: DsFreeSpnArrayA function (ntdsapi.h)
-
 description: Frees an array returned from the DsGetSpn function.
 old-location: ad\dsfreespnarray.htm
 tech.root: ad
 ms.assetid: 1c229933-432d-4ded-be3b-3bd339a0abe4
-
 ms.date: 12/05/2018
 ms.keywords: DsFreeSpnArray, DsFreeSpnArray function [Active Directory], DsFreeSpnArrayA, DsFreeSpnArrayW, _glines_dsfreespnarray, ad.dsfreespnarray, ntdsapi/DsFreeSpnArray, ntdsapi/DsFreeSpnArrayA, ntdsapi/DsFreeSpnArrayW
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsFreeSpnArray"
+f1_keywords:
+- ntdsapi/DsFreeSpnArray
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsFreeSpnArray
- - DsFreeSpnArrayA
- - DsFreeSpnArrayW
+- DsFreeSpnArray
+- DsFreeSpnArrayA
+- DsFreeSpnArrayW
 targetos: Windows
 req.typenames: 
 req.redist: 

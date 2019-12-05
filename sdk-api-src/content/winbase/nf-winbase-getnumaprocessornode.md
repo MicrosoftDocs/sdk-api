@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetNumaProcessorNode
 title: GetNumaProcessorNode function (winbase.h)
-
 description: Retrieves the node number for the specified processor.
 old-location: base\getnumaprocessornode.htm
 tech.root: ProcThread
 ms.assetid: 88e6c6b3-7ec5-43e5-8cf3-21402925f718
-
 ms.date: 12/05/2018
 ms.keywords: GetNumaProcessorNode, GetNumaProcessorNode function, _win32_getnumaprocessornode, base.getnumaprocessornode, winbase/GetNumaProcessorNode
 ms.topic: function
-f1_keywords: 
- - "winbase/GetNumaProcessorNode"
+f1_keywords:
+- winbase/GetNumaProcessorNode
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - GetNumaProcessorNode
+- GetNumaProcessorNode
 targetos: Windows
 req.typenames: 
 req.redist: 

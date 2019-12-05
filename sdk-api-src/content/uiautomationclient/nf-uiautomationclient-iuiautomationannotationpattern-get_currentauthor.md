@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAnnotationPattern.get_CurrentAuthor
 title: IUIAutomationAnnotationPattern::get_CurrentAuthor (uiautomationclient.h)
-
 description: Retrieves the name of the annotation author.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CurrentAuthor.htm
 tech.root: WinAuto
 ms.assetid: 8F1573D5-3804-4C1D-A838-1D5D837BCE25
-
 ms.date: 12/05/2018
 ms.keywords: CurrentAuthor property [Windows Accessibility], CurrentAuthor property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CurrentAuthor property, IUIAutomationAnnotationPattern.CurrentAuthor, IUIAutomationAnnotationPattern.get_CurrentAuthor, IUIAutomationAnnotationPattern::CurrentAuthor, IUIAutomationAnnotationPattern::get_CurrentAuthor, get_CurrentAuthor, uiautomationclient/IUIAutomationAnnotationPattern::CurrentAuthor, uiautomationclient/IUIAutomationAnnotationPattern::get_CurrentAuthor, winauto.uiauto_IUIAutomationAnnotationPattern_CurrentAuthor
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationAnnotationPattern.CurrentAuthor"
+f1_keywords:
+- uiautomationclient/IUIAutomationAnnotationPattern.CurrentAuthor
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationAnnotationPattern.CurrentAuthor
- - IUIAutomationAnnotationPattern.get_CurrentAuthor
+- IUIAutomationAnnotationPattern.CurrentAuthor
+- IUIAutomationAnnotationPattern.get_CurrentAuthor
 targetos: Windows
 req.typenames: 
 req.redist: 

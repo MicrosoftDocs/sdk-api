@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfMessagePump.PeekMessageA
 title: ITfMessagePump::PeekMessageA (msctf.h)
-
 description: ITfMessagePump::PeekMessageA method
 old-location: tsf\itfmessagepump_peekmessagea.htm
 tech.root: TSF
 ms.assetid: 4b20fa18-f5c3-4f3b-bb93-0e352d620d31
-
 ms.date: 12/05/2018
 ms.keywords: ITfMessagePump interface [Text Services Framework],PeekMessageA method, ITfMessagePump.PeekMessageA, ITfMessagePump::PeekMessageA, PeekMessageA, PeekMessageA method [Text Services Framework], PeekMessageA method [Text Services Framework],ITfMessagePump interface, _tsf_itfmessagepump_peekmessagea_ref, msctf/ITfMessagePump::PeekMessageA, tsf.itfmessagepump_peekmessagea
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfMessagePump.PeekMessageA"
+f1_keywords:
+- msctf/ITfMessagePump.PeekMessageA
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfMessagePump.PeekMessageA
- - peekmessagea
+- ITfMessagePump.PeekMessageA
+- peekmessagea
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

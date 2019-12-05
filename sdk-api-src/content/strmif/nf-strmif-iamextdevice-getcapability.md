@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMExtDevice.GetCapability
 title: IAMExtDevice::GetCapability (strmif.h)
-
 description: The GetCapability method retrieves the capabilities of the external device.
 old-location: dshow\iamextdevice_getcapability.htm
 tech.root: DirectShow
 ms.assetid: 4efed2b8-a62c-4a82-bc2d-c6d3a202263c
-
 ms.date: 12/05/2018
 ms.keywords: GetCapability, GetCapability method [DirectShow], GetCapability method [DirectShow],IAMExtDevice interface, IAMExtDevice interface [DirectShow],GetCapability method, IAMExtDevice.GetCapability, IAMExtDevice::GetCapability, IAMExtDeviceGetCapability, dshow.iamextdevice_getcapability, strmif/IAMExtDevice::GetCapability
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMExtDevice.GetCapability"
+f1_keywords:
+- strmif/IAMExtDevice.GetCapability
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtDevice.GetCapability
+- IAMExtDevice.GetCapability
 targetos: Windows
 req.typenames: 
 req.redist: 

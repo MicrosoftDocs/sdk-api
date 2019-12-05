@@ -1,19 +1,17 @@
 ---
 UID: NN:syncregistration.ISyncProviderRegistration
 title: ISyncProviderRegistration (syncregistration.h)
-
 description: Represents synchronization provider registration.
 old-location: winsync\isyncproviderregistration.htm
 tech.root: winsync
 ms.assetid: e7cf0c05-9d07-4630-ae34-9a9dd81492b2
-
 ms.date: 12/05/2018
 ms.keywords: ISyncProviderRegistration, ISyncProviderRegistration interface [Windows Sync], ISyncProviderRegistration interface [Windows Sync],described, syncregistration/ISyncProviderRegistration, winsync.isyncproviderregistration
 ms.topic: interface
-f1_keywords: 
- - "syncregistration/ISyncProviderRegistration"
+f1_keywords:
+- syncregistration/ISyncProviderRegistration
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - ISyncProviderRegistration
+- ISyncProviderRegistration
 targetos: Windows
 req.typenames: 
 req.redist: 

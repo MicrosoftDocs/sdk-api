@@ -1,19 +1,17 @@
 ---
 UID: NF:dpa_dsa.DSA_Sort
 title: DSA_Sort function (dpa_dsa.h)
-
 description: Sorts the items in a dynamic structure array (DSA).
 old-location: controls\DSA_Sort.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_sort.htm
-
 ms.date: 12/05/2018
 ms.keywords: DSA_Sort, DSA_Sort function [Windows Controls], _shell_DSA_Sort, _shell_DSA_Sort_cpp, controls.DSA_Sort, controls._shell_DSA_Sort, dpa_dsa/DSA_Sort
 ms.topic: function
-f1_keywords: 
- - "dpa_dsa/DSA_Sort"
+f1_keywords:
+- dpa_dsa/DSA_Sort
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - DSA_Sort
+- DSA_Sort
 targetos: Windows
 req.typenames: 
 req.redist: 

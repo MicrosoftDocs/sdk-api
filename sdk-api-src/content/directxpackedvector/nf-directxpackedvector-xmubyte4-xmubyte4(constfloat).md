@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMUBYTE4.XMUBYTE4(const float)
 title: XMUBYTE4::XMUBYTE4(const float) (directxpackedvector.h)
-
 description: Initializes a new instance of XMUBYTE4 from a four element int8_t array argument.
 old-location: 
 tech.root: dxmath
 ms.assetid: 89bc02ca-187d-4ffc-aac9-f3c0c57b23d5
-
 ms.date: 05/06/2019
 ms.keywords: XMUBYTE4, XMUBYTE4 constructor [DirectX Math Support APIs], XMUBYTE4 constructor [DirectX Math Support APIs],XMUBYTE4 structure, XMUBYTE4 structure [DirectX Math Support APIs],XMUBYTE4 constructor, XMUBYTE4.XMUBYTE4, XMUBYTE4.XMUBYTE4(), XMUBYTE4.XMUBYTE4(const float), XMUBYTE4::XMUBYTE4, XMUBYTE4::XMUBYTE4(const float), dxmath.xmubyte4_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMUBYTE4.XMUBYTE4"
+f1_keywords:
+- directxpackedvector/XMUBYTE4.XMUBYTE4
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMUBYTE4.XMUBYTE4
+- XMUBYTE4.XMUBYTE4
 targetos: Windows
 req.typenames: 
 req.redist: 

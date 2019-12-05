@@ -1,19 +1,17 @@
 ---
 UID: NF:avrt.AvSetMmThreadCharacteristicsW
 title: AvSetMmThreadCharacteristicsW function (avrt.h)
-
 description: Associates the calling thread with the specified task.
 old-location: base\avsetmmthreadcharacteristics.htm
 tech.root: ProcThread
 ms.assetid: 881d3f97-e68e-40cb-b799-76784185dd37
-
 ms.date: 12/05/2018
 ms.keywords: AvSetMmThreadCharacteristics, AvSetMmThreadCharacteristics function, AvSetMmThreadCharacteristicsA, AvSetMmThreadCharacteristicsW, avrt/AvSetMmThreadCharacteristics, avrt/AvSetMmThreadCharacteristicsA, avrt/AvSetMmThreadCharacteristicsW, base.avsetmmthreadcharacteristics
 ms.topic: function
-f1_keywords: 
- - "avrt/AvSetMmThreadCharacteristics"
+f1_keywords:
+- avrt/AvSetMmThreadCharacteristics
 dev_langs:
- - c++
+- c++
 req.header: avrt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Avrt.lib
 req.dll: Avrt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avrt.dll
+- Avrt.dll
 api_name:
- - AvSetMmThreadCharacteristics
- - AvSetMmThreadCharacteristicsA
- - AvSetMmThreadCharacteristicsW
+- AvSetMmThreadCharacteristics
+- AvSetMmThreadCharacteristicsA
+- AvSetMmThreadCharacteristicsW
 targetos: Windows
 req.typenames: 
 req.redist: 

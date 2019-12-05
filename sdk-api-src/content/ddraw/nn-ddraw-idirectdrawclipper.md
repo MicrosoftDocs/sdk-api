@@ -1,19 +1,17 @@
 ---
 UID: NN:ddraw.IDirectDrawClipper
 title: IDirectDrawClipper (ddraw.h)
-
 description: Applications use the methods of the IDirectDrawClipper interface to manage clip lists. This section is a reference to the methods of this interface.
 old-location: directdraw\idirectdrawclipper.htm
 tech.root: directdraw
 ms.assetid: 2e93583a-59a8-4a0f-9299-ed57fdcebf33
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawClipper, IDirectDrawClipper interface [DirectDraw], IDirectDrawClipper interface [DirectDraw],described, ddraw/IDirectDrawClipper, directdraw.idirectdrawclipper
 ms.topic: interface
-f1_keywords: 
- - "ddraw/IDirectDrawClipper"
+f1_keywords:
+- ddraw/IDirectDrawClipper
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawClipper
+- IDirectDrawClipper
 targetos: Windows
 req.typenames: 
 req.redist: 

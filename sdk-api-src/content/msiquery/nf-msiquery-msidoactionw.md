@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiDoActionW
 title: MsiDoActionW function (msiquery.h)
-
 description: The MsiDoAction function executes a built-in action, custom action, or user-interface wizard action.
 old-location: setup\msidoaction.htm
 tech.root: Msi
 ms.assetid: 33f2de47-71ab-4da8-bd56-ee58cde86e2b
-
 ms.date: 12/05/2018
 ms.keywords: MsiDoAction, MsiDoAction function, MsiDoActionA, MsiDoActionW, _msi_msidoaction, msiquery/MsiDoAction, msiquery/MsiDoActionA, msiquery/MsiDoActionW, setup.msidoaction
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiDoAction"
+f1_keywords:
+- msiquery/MsiDoAction
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiDoAction
- - MsiDoActionA
- - MsiDoActionW
+- MsiDoAction
+- MsiDoActionA
+- MsiDoActionW
 targetos: Windows
 req.typenames: 
 req.redist: 

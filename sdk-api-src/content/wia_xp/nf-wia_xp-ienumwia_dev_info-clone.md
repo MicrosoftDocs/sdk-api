@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IEnumWIA_DEV_INFO.Clone
 title: IEnumWIA_DEV_INFO::Clone (wia_xp.h)
-
 description: The IEnumWIA_DEV_INFO::Clone method creates an additional instance of the IEnumWIA_DEV_INFO interface and sends back a pointer to it.
 old-location: wia\_wia_IEnumWIA_DEV_INFO_Clone.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\wiax\refwia\ifaces\ienumwia_dev_info\clone.htm
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [WIA], Clone method [WIA],IEnumWIA_DEV_INFO interface, IEnumWIA_DEV_INFO interface [WIA],Clone method, IEnumWIA_DEV_INFO.Clone, IEnumWIA_DEV_INFO::Clone, _wia_IEnumWIA_DEV_INFO_Clone, wia._wia_IEnumWIA_DEV_INFO_Clone, wia_xp/IEnumWIA_DEV_INFO::Clone
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IEnumWIA_DEV_INFO.Clone"
+f1_keywords:
+- wia_xp/IEnumWIA_DEV_INFO.Clone
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wiaguid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaguid.lib
- - Wiaguid.dll
+- Wiaguid.lib
+- Wiaguid.dll
 api_name:
- - IEnumWIA_DEV_INFO.Clone
+- IEnumWIA_DEV_INFO.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

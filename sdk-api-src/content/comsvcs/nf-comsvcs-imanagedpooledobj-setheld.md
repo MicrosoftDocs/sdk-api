@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IManagedPooledObj.SetHeld
 title: IManagedPooledObj::SetHeld (comsvcs.h)
-
 description: Sets whether the managed object should go back into the COM+ object pool.
 old-location: cos\imanagedpooledobj_setheld.htm
 tech.root: cossdk
 ms.assetid: 36e7f210-0532-424f-b958-a7a1be904b3c
-
 ms.date: 12/05/2018
 ms.keywords: IManagedPooledObj interface [COM+],SetHeld method, IManagedPooledObj.SetHeld, IManagedPooledObj::SetHeld, SetHeld, SetHeld method [COM+], SetHeld method [COM+],IManagedPooledObj interface, _cos_IManagedPooledObj_SetHeld, comsvcs/IManagedPooledObj::SetHeld, cos.imanagedpooledobj_setheld
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IManagedPooledObj.SetHeld"
+f1_keywords:
+- comsvcs/IManagedPooledObj.SetHeld
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IManagedPooledObj.SetHeld
+- IManagedPooledObj.SetHeld
 targetos: Windows
 req.typenames: 
 req.redist: 

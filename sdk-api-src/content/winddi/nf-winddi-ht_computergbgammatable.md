@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.HT_ComputeRGBGammaTable
 title: HT_ComputeRGBGammaTable function (winddi.h)
-
 description: The HT_ComputeRGBGammaTable function causes GDI to compute device red, green, and blue intensities based on gamma numbers.
 old-location: display\ht_computergbgammatable.htm
 tech.root: display
 ms.assetid: 63496600-9627-432b-a86e-1069ccd21f49
-
 ms.date: 12/05/2018
 ms.keywords: HT_ComputeRGBGammaTable, HT_ComputeRGBGammaTable function [Display Devices], display.ht_computergbgammatable, gdifncs_10a08358-3fbf-4684-8dd6-c126e14310f5.xml, winddi/HT_ComputeRGBGammaTable
 ms.topic: function
-f1_keywords: 
- - "winddi/HT_ComputeRGBGammaTable"
+f1_keywords:
+- winddi/HT_ComputeRGBGammaTable
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - HT_ComputeRGBGammaTable
+- HT_ComputeRGBGammaTable
 targetos: Windows
 req.typenames: 
 req.redist: 

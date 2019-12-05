@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_FaxNumber
 title: IFaxDoc::put_FaxNumber (faxcom.h)
-
 description: Sets or retrieves the FaxNumber property of a FaxDoc object. The FaxNumber property is a null-terminated string that contains the fax number to which the fax server will send the fax transmission.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_faxnumber_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_833m.htm
-
 ms.date: 12/05/2018
 ms.keywords: FaxNumber property [Fax Service], FaxNumber property [Fax Service],IFaxDoc interface, IFaxDoc interface [Fax Service],FaxNumber property, IFaxDoc.FaxNumber, IFaxDoc.put_FaxNumber, IFaxDoc::FaxNumber, IFaxDoc::get_FaxNumber, IFaxDoc::put_FaxNumber, _mfax_ifaxdoc_get_faxnumber, fax._mfax_ifaxdoc_get_faxnumber, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_faxnumber_cpp, faxcom/IFaxDoc::FaxNumber, faxcom/IFaxDoc::get_FaxNumber, faxcom/IFaxDoc::put_FaxNumber, put_FaxNumber
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxDoc.FaxNumber"
+f1_keywords:
+- faxcom/IFaxDoc.FaxNumber
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxDoc.FaxNumber
- - IFaxDoc.get_FaxNumber
- - IFaxDoc.put_FaxNumber
+- IFaxDoc.FaxNumber
+- IFaxDoc.get_FaxNumber
+- IFaxDoc.put_FaxNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

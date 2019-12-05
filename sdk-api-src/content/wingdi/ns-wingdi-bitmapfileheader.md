@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagBITMAPFILEHEADER
 title: BITMAPFILEHEADER (wingdi.h)
-
 description: The BITMAPFILEHEADER structure contains information about the type, size, and layout of a file that contains a DIB.
 old-location: gdi\bitmapfileheader.htm
 tech.root: gdi
 ms.assetid: ae24c4db-fc29-4c97-bf78-069794c8d844
-
 ms.date: 12/05/2018
-ms.keywords: "*LPBITMAPFILEHEADER, *PBITMAPFILEHEADER, BITMAPFILEHEADER, BITMAPFILEHEADER structure [Windows GDI], PBITMAPFILEHEADER, PBITMAPFILEHEADER structure pointer [Windows GDI], _win32_BITMAPFILEHEADER_str, gdi.bitmapfileheader, wingdi/BITMAPFILEHEADER, wingdi/PBITMAPFILEHEADER"
+ms.keywords: '*LPBITMAPFILEHEADER, *PBITMAPFILEHEADER, BITMAPFILEHEADER, BITMAPFILEHEADER structure [Windows GDI], PBITMAPFILEHEADER, PBITMAPFILEHEADER structure pointer [Windows GDI], _win32_BITMAPFILEHEADER_str, gdi.bitmapfileheader, wingdi/BITMAPFILEHEADER, wingdi/PBITMAPFILEHEADER'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/BITMAPFILEHEADER"
+f1_keywords:
+- wingdi/BITMAPFILEHEADER
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - BITMAPFILEHEADER
+- BITMAPFILEHEADER
 targetos: Windows
 req.typenames: BITMAPFILEHEADER, *LPBITMAPFILEHEADER, *PBITMAPFILEHEADER
 req.redist: 

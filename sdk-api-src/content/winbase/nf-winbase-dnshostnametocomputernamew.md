@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.DnsHostnameToComputerNameW
 title: DnsHostnameToComputerNameW function (winbase.h)
-
 description: Converts a DNS-style host name to a NetBIOS-style computer name.
 old-location: base\dnshostnametocomputername.htm
 tech.root: SysInfo
 ms.assetid: d5646fe6-9112-42cd-ace9-00dd1b590ecb
-
 ms.date: 12/05/2018
 ms.keywords: DnsHostnameToComputerName, DnsHostnameToComputerName function, DnsHostnameToComputerNameA, DnsHostnameToComputerNameW, _win32_dnshostnametocomputername, base.dnshostnametocomputername, winbase/DnsHostnameToComputerName, winbase/DnsHostnameToComputerNameA, winbase/DnsHostnameToComputerNameW
 ms.topic: function
-f1_keywords: 
- - "winbase/DnsHostnameToComputerName"
+f1_keywords:
+- winbase/DnsHostnameToComputerName
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - DnsHostnameToComputerName
- - DnsHostnameToComputerNameA
- - DnsHostnameToComputerNameW
+- DnsHostnameToComputerName
+- DnsHostnameToComputerNameA
+- DnsHostnameToComputerNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

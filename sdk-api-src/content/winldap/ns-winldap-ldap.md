@@ -1,19 +1,17 @@
 ---
 UID: NS:winldap.ldap
 title: LDAP (winldap.h)
-
 description: Represents an LDAP session.
 old-location: ldap\ldap.htm
 tech.root: ldap
 ms.assetid: 844093e1-daba-494d-91b3-67455ff2e456
-
 ms.date: 12/05/2018
-ms.keywords: "*PLDAP, LDAP, LDAP structure [LDAP], PLDAP, PLDAP structure pointer [LDAP], _ldap_ldap, ldap.ldap, winldap/LDAP, winldap/PLDAP"
+ms.keywords: '*PLDAP, LDAP, LDAP structure [LDAP], PLDAP, PLDAP structure pointer [LDAP], _ldap_ldap, ldap.ldap, winldap/LDAP, winldap/PLDAP'
 ms.topic: struct
-f1_keywords: 
- - "winldap/LDAP"
+f1_keywords:
+- winldap/LDAP
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winldap.h
+- Winldap.h
 api_name:
- - LDAP
+- LDAP
 targetos: Windows
 req.typenames: LDAP, *PLDAP
 req.redist: 

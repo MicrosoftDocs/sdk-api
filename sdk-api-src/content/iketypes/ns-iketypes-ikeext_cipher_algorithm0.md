@@ -1,19 +1,17 @@
 ---
 UID: NS:iketypes.IKEEXT_CIPHER_ALGORITHM0_
 title: IKEEXT_CIPHER_ALGORITHM0 (iketypes.h)
-
 description: Stores information about the IKE/AuthIP encryption algorithm.
 old-location: fwp\ikeext_cipher_algorithm0.htm
 tech.root: fwp
 ms.assetid: 940714a3-d098-4d02-9209-fcf3b24ee4e7
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_CIPHER_ALGORITHM0, IKEEXT_CIPHER_ALGORITHM0 structure [Filtering], fwp.ikeext_cipher_algorithm0, iketypes/IKEEXT_CIPHER_ALGORITHM0
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_CIPHER_ALGORITHM0"
+f1_keywords:
+- iketypes/IKEEXT_CIPHER_ALGORITHM0
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_CIPHER_ALGORITHM0
+- IKEEXT_CIPHER_ALGORITHM0
 targetos: Windows
 req.typenames: IKEEXT_CIPHER_ALGORITHM0
 req.redist: 

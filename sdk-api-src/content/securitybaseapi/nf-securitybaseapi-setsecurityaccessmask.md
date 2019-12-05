@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.SetSecurityAccessMask
 title: SetSecurityAccessMask function (securitybaseapi.h)
-
 description: Creates an access mask that represents the access permissions necessary to set the specified object security information.
 old-location: security\setsecurityaccessmask.htm
 tech.root: SecAuthZ
 ms.assetid: 764a4e93-0865-49f8-9b3a-1a178073454d
-
 ms.date: 12/05/2018
 ms.keywords: SetSecurityAccessMask, SetSecurityAccessMask function [Security], security.setsecurityaccessmask, securitybaseapi/SetSecurityAccessMask, winbase/SetSecurityAccessMask
 ms.topic: function
-f1_keywords: 
- - "securitybaseapi/SetSecurityAccessMask"
+f1_keywords:
+- securitybaseapi/SetSecurityAccessMask
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: WinBase.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-Security-base-l1-1-0.dll
- - API-MS-Win-Security-base-l1-2-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Security-Base-L1-2-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- API-MS-Win-Security-base-l1-1-0.dll
+- API-MS-Win-Security-base-l1-2-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - SetSecurityAccessMask
+- SetSecurityAccessMask
 targetos: Windows
 req.typenames: 
 req.redist: 

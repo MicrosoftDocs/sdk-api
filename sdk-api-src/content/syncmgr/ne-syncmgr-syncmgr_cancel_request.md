@@ -1,19 +1,17 @@
 ---
 UID: NE:syncmgr.SYNCMGR_CANCEL_REQUEST
 title: SYNCMGR_CANCEL_REQUEST (syncmgr.h)
-
 description: Describes a request by the user to cancel a synchronization.
 old-location: shell\SYNCMGR_CANCEL_REQUEST.htm
 tech.root: shell
 ms.assetid: 81cf8dcc-c847-41e0-82e2-b5f547fc03cf
-
 ms.date: 12/05/2018
 ms.keywords: SYNCMGR_CANCEL_REQUEST, SYNCMGR_CANCEL_REQUEST enumeration [Windows Shell], SYNCMGR_CR_CANCEL_ALL, SYNCMGR_CR_CANCEL_ITEM, SYNCMGR_CR_MAX, SYNCMGR_CR_NONE, shell.SYNCMGR_CANCEL_REQUEST, shell_SYNCMGR_CANCEL_REQUEST, syncmgr/SYNCMGR_CANCEL_REQUEST, syncmgr/SYNCMGR_CR_CANCEL_ALL, syncmgr/SYNCMGR_CR_CANCEL_ITEM, syncmgr/SYNCMGR_CR_MAX, syncmgr/SYNCMGR_CR_NONE
 ms.topic: enum
-f1_keywords: 
- - "syncmgr/SYNCMGR_CANCEL_REQUEST"
+f1_keywords:
+- syncmgr/SYNCMGR_CANCEL_REQUEST
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - SYNCMGR_CANCEL_REQUEST
+- SYNCMGR_CANCEL_REQUEST
 targetos: Windows
 req.typenames: SYNCMGR_CANCEL_REQUEST
 req.redist: 

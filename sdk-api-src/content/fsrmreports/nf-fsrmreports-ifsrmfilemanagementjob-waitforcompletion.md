@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.WaitForCompletion
 title: IFsrmFileManagementJob::WaitForCompletion (fsrmreports.h)
-
 description: Waits for the specified period of time or until the job has finished running.
 old-location: fsrm\ifsrmfilemanagementjob_waitforcompletion.htm
 tech.root: fsrm
 ms.assetid: 8d0d0046-989f-4d6a-b9da-caf6df44e1db
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],WaitForCompletion method, IFsrmFileManagementJob.WaitForCompletion, IFsrmFileManagementJob::WaitForCompletion, WaitForCompletion, WaitForCompletion method [File Server Resource Manager], WaitForCompletion method [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_waitforcompletion, fsrm.ifsrmfilemanagementjob_waitforcompletion, fsrmreports/IFsrmFileManagementJob::WaitForCompletion
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmFileManagementJob.WaitForCompletion"
+f1_keywords:
+- fsrmreports/IFsrmFileManagementJob.WaitForCompletion
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.WaitForCompletion
+- IFsrmFileManagementJob.WaitForCompletion
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.put_KeyContainerNamePrefix
 title: IX509CertificateRequestPkcs10::put_KeyContainerNamePrefix (certenroll.h)
-
 description: Specifies or retrieves a prefix used to create the container name for a new private key.
 old-location: security\ix509certificaterequestpkcs10_keycontainernameprefix_property.htm
 tech.root: seccertenroll
 ms.assetid: d4a99b08-5616-4c75-b99f-680f55288baa
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],KeyContainerNamePrefix property, IX509CertificateRequestPkcs10.KeyContainerNamePrefix, IX509CertificateRequestPkcs10.put_KeyContainerNamePrefix, IX509CertificateRequestPkcs10::KeyContainerNamePrefix, IX509CertificateRequestPkcs10::get_KeyContainerNamePrefix, IX509CertificateRequestPkcs10::put_KeyContainerNamePrefix, KeyContainerNamePrefix property [Security], KeyContainerNamePrefix property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::KeyContainerNamePrefix, certenroll/IX509CertificateRequestPkcs10::get_KeyContainerNamePrefix, certenroll/IX509CertificateRequestPkcs10::put_KeyContainerNamePrefix, put_KeyContainerNamePrefix, security.ix509certificaterequestpkcs10_keycontainernameprefix_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestPkcs10.KeyContainerNamePrefix"
+f1_keywords:
+- certenroll/IX509CertificateRequestPkcs10.KeyContainerNamePrefix
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10.KeyContainerNamePrefix
- - IX509CertificateRequestPkcs10.get_KeyContainerNamePrefix
- - IX509CertificateRequestPkcs10.put_KeyContainerNamePrefix
+- IX509CertificateRequestPkcs10.KeyContainerNamePrefix
+- IX509CertificateRequestPkcs10.get_KeyContainerNamePrefix
+- IX509CertificateRequestPkcs10.put_KeyContainerNamePrefix
 targetos: Windows
 req.typenames: 
 req.redist: 

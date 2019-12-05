@@ -1,19 +1,17 @@
 ---
 UID: NC:shlobj_core.BFFCALLBACK
 title: BFFCALLBACK (shlobj_core.h)
-
 description: Receives event notifications from the Active Directory Domain Services container browser dialog box.
 old-location: ad\bffcallback.htm
 tech.root: ad
 ms.assetid: 91cfef29-3e0a-4dd0-be1a-215827c23143
-
 ms.date: 12/05/2018
 ms.keywords: BFFCALLBACK, BFFCALLBACK callback function [Active Directory], BFFCallBack, BFFCallBack callback, BFFCallBack callback function [Active Directory], BFFM_ENABLEOK, BFFM_INITIALIZED, BFFM_SELCHANGED, BFFM_SETSELECTION, DSBM_CHANGEIMAGESTATE, DSBM_CONTEXTMENU, DSBM_HELP, DSBM_QUERYINSERT, _glines_bffcallback, ad.bffcallback, shlobj_core/BFFCallBack
 ms.topic: callback
-f1_keywords: 
- - "shlobj_core/BFFCALLBACK"
+f1_keywords:
+- shlobj_core/BFFCALLBACK
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - BFFCALLBACK
+- BFFCALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

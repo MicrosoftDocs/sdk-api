@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_Picture
 title: IInkPicture::put_Picture (msinkaut.h)
-
 description: Gets the graphics file to appear on the InkPicture control.
 old-location: tablet\inkpicture_picture.htm
 tech.root: tablet
 ms.assetid: c07433f2-d32c-4b6f-ad15-6b49dc6f4efa
-
 ms.date: 12/05/2018
 ms.keywords: IInkPicture interface [Tablet PC],Picture property, IInkPicture.Picture, IInkPicture.put_Picture, IInkPicture::Picture, IInkPicture::get_Picture, IInkPicture::put_Picture, InkPicture.get_Picture, InkPicture.put_Picture, Picture property [Tablet PC], Picture property [Tablet PC],IInkPicture interface, msinkaut/IInkPicture::Picture, msinkaut/IInkPicture::get_Picture, msinkaut/IInkPicture::put_Picture, put_Picture, tablet.inkpicture_picture
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkPicture.Picture"
+f1_keywords:
+- msinkaut/IInkPicture.Picture
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkPicture.Picture
- - IInkPicture.get_Picture
- - IInkPicture.put_Picture
- - InkPicture.get_Picture
- - InkPicture.put_Picture
+- IInkPicture.Picture
+- IInkPicture.get_Picture
+- IInkPicture.put_Picture
+- InkPicture.get_Picture
+- InkPicture.put_Picture
 targetos: Windows
 req.typenames: 
 req.redist: 

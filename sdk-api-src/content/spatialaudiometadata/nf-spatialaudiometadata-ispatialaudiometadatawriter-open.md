@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataWriter.Open
 title: ISpatialAudioMetadataWriter::Open (spatialaudiometadata.h)
-
 description: Opens an ISpatialAudioMetadataItems object for writing.
 old-location: coreaudio\ispatialaudiometadatawriter_open.htm
 tech.root: CoreAudio
 ms.assetid: 49B3401D-7B26-4057-81C0-6C5683B83665
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioMetadataWriter interface [Core Audio],Open method, ISpatialAudioMetadataWriter.Open, ISpatialAudioMetadataWriter::Open, Open, Open method [Core Audio], Open method [Core Audio],ISpatialAudioMetadataWriter interface, coreaudio.ispatialaudiometadatawriter_open, spatialaudiometadata/ISpatialAudioMetadataWriter::Open
 ms.topic: method
-f1_keywords: 
- - "spatialaudiometadata/ISpatialAudioMetadataWriter.Open"
+f1_keywords:
+- spatialaudiometadata/ISpatialAudioMetadataWriter.Open
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SpatialAudioMetadata.h
+- SpatialAudioMetadata.h
 api_name:
- - ISpatialAudioMetadataWriter.Open
+- ISpatialAudioMetadataWriter.Open
 targetos: Windows
 req.typenames: 
 req.redist: 

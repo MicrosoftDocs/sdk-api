@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.StretchDIBits
 title: StretchDIBits function (wingdi.h)
-
 description: The StretchDIBits function copies the color data for a rectangle of pixels in a DIB, JPEG, or PNG image to the specified destination rectangle.
 old-location: gdi\stretchdibits.htm
 tech.root: gdi
 ms.assetid: 3d57a79a-338d-48ab-8161-3ce17739bf20
-
 ms.date: 12/05/2018
 ms.keywords: DIB_PAL_COLORS, DIB_RGB_COLORS, StretchDIBits, StretchDIBits function [Windows GDI], _win32_StretchDIBits, gdi.stretchdibits, wingdi/StretchDIBits
 ms.topic: function
-f1_keywords: 
- - "wingdi/StretchDIBits"
+f1_keywords:
+- wingdi/StretchDIBits
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-l1-1-0.dll
- - Ext-MS-Win-GDI-Draw-l1-1-1.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-l1-1-0.dll
+- Ext-MS-Win-GDI-Draw-l1-1-1.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - StretchDIBits
+- StretchDIBits
 targetos: Windows
 req.typenames: 
 req.redist: 

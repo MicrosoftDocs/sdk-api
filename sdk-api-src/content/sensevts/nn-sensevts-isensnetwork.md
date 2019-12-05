@@ -1,19 +1,17 @@
 ---
 UID: NN:sensevts.ISensNetwork
 title: ISensNetwork (sensevts.h)
-
 description: The ISensNetwork interface handles network events fired by the System Event Notification Service (SENS).
 old-location: sens\isensnetwork.htm
 tech.root: Sens
 ms.assetid: 1cea5dff-13ea-4afb-84ac-7b8df4f55fc8
-
 ms.date: 12/05/2018
 ms.keywords: ISensNetwork, ISensNetwork interface [SENS], ISensNetwork interface [SENS],described, _zaw_isensnetwork, sens.isensnetwork, sensevts/ISensNetwork, syncmgr.isensnetwork
 ms.topic: interface
-f1_keywords: 
- - "sensevts/ISensNetwork"
+f1_keywords:
+- sensevts/ISensNetwork
 dev_langs:
- - c++
+- c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sens.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sens.dll
+- Sens.dll
 api_name:
- - ISensNetwork
+- ISensNetwork
 targetos: Windows
 req.typenames: 
 req.redist: 

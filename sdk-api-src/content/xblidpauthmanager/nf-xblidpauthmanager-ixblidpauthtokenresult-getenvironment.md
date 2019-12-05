@@ -1,19 +1,17 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetEnvironment
 title: IXblIdpAuthTokenResult::GetEnvironment (xblidpauthmanager.h)
-
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getenvironment.htm
 tech.root: xblidp
 ms.assetid: E1113568-9C4D-4091-80C2-A04549A857F2
-
 ms.date: 12/05/2018
 ms.keywords: GetEnvironment, GetEnvironment method, GetEnvironment method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetEnvironment method, IXblIdpAuthTokenResult.GetEnvironment, IXblIdpAuthTokenResult::GetEnvironment, xblidp.ixblidpauthtokenresult_getenvironment, xblidpauthmanager/IXblIdpAuthTokenResult::GetEnvironment
 ms.topic: method
-f1_keywords: 
- - "xblidpauthmanager/IXblIdpAuthTokenResult.GetEnvironment"
+f1_keywords:
+- xblidpauthmanager/IXblIdpAuthTokenResult.GetEnvironment
 dev_langs:
- - c++
+- c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XblIdpAuthManager.h
+- XblIdpAuthManager.h
 api_name:
- - IXblIdpAuthTokenResult.GetEnvironment
+- IXblIdpAuthTokenResult.GetEnvironment
 targetos: Windows
 req.typenames: 
 req.redist: 

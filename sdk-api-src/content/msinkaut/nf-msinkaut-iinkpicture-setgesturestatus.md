@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkPicture.SetGestureStatus
 title: IInkPicture::SetGestureStatus (msinkaut.h)
-
 description: Modifies the interest of the object or control in a known gesture.
 old-location: tablet\inkpicture_setgesturestatus.htm
 tech.root: tablet
 ms.assetid: 36f3611a-c7d9-49a2-9ead-db98647f6da7
-
 ms.date: 12/05/2018
 ms.keywords: 7bab227f-d095-48e8-856f-6446e62826dd, IInkPicture, IInkPicture interface [Tablet PC],SetGestureStatus method, IInkPicture.SetGestureStatus, IInkPicture::SetGestureStatus, SetGestureStatus, SetGestureStatus method [Tablet PC], SetGestureStatus method [Tablet PC],IInkPicture interface, msinkaut/IInkPicture::SetGestureStatus, tablet.inkpicture_setgesturestatus
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkPicture.SetGestureStatus"
+f1_keywords:
+- msinkaut/IInkPicture.SetGestureStatus
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkPicture.SetGestureStatus
+- IInkPicture.SetGestureStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

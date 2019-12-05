@@ -1,19 +1,17 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_DNS_SERVER_ADDRESS_XP
 title: IP_ADAPTER_DNS_SERVER_ADDRESS_XP (iptypes.h)
-
 description: The IP_ADAPTER_DNS_SERVER_ADDRESS structure stores a single DNS server address in a linked list of DNS server addresses for a particular adapter.
 old-location: iphlp\ip_adapter_dns_server_address.htm
 tech.root: IpHlp
 ms.assetid: 96855386-9010-40df-8260-16b43ad6646f
-
 ms.date: 12/05/2018
-ms.keywords: "*PIP_ADAPTER_DNS_SERVER_ADDRESS, *PIP_ADAPTER_DNS_SERVER_ADDRESS_XP, IP_ADAPTER_DNS_SERVER_ADDRESS, IP_ADAPTER_DNS_SERVER_ADDRESS structure [IP Helper], IP_ADAPTER_DNS_SERVER_ADDRESS_XP, PIP_ADAPTER_DNS_SERVER_ADDRESS, PIP_ADAPTER_DNS_SERVER_ADDRESS structure pointer [IP Helper], _iphlp_ip_adapter_dns_server_address, iphlp.ip_adapter_dns_server_address, iptypes/IP_ADAPTER_DNS_SERVER_ADDRESS, iptypes/PIP_ADAPTER_DNS_SERVER_ADDRESS"
+ms.keywords: '*PIP_ADAPTER_DNS_SERVER_ADDRESS, *PIP_ADAPTER_DNS_SERVER_ADDRESS_XP, IP_ADAPTER_DNS_SERVER_ADDRESS, IP_ADAPTER_DNS_SERVER_ADDRESS structure [IP Helper], IP_ADAPTER_DNS_SERVER_ADDRESS_XP, PIP_ADAPTER_DNS_SERVER_ADDRESS, PIP_ADAPTER_DNS_SERVER_ADDRESS structure pointer [IP Helper], _iphlp_ip_adapter_dns_server_address, iphlp.ip_adapter_dns_server_address, iptypes/IP_ADAPTER_DNS_SERVER_ADDRESS, iptypes/PIP_ADAPTER_DNS_SERVER_ADDRESS'
 ms.topic: struct
-f1_keywords: 
- - "iptypes/IP_ADAPTER_DNS_SERVER_ADDRESS"
+f1_keywords:
+- iptypes/IP_ADAPTER_DNS_SERVER_ADDRESS
 dev_langs:
- - c++
+- c++
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iptypes.h
+- Iptypes.h
 api_name:
- - IP_ADAPTER_DNS_SERVER_ADDRESS
+- IP_ADAPTER_DNS_SERVER_ADDRESS
 targetos: Windows
 req.typenames: IP_ADAPTER_DNS_SERVER_ADDRESS_XP, *PIP_ADAPTER_DNS_SERVER_ADDRESS_XP
 req.redist: 

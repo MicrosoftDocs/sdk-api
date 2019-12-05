@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.IEnumTerminalClass.Skip
 title: IEnumTerminalClass::Skip (tapi3if.h)
-
 description: The Skip method skips over the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumterminalclass_skip.htm
 tech.root: Tapi
 ms.assetid: 5aebbc0d-212e-4789-bb8e-d180589235ec
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTerminalClass interface [TAPI 2.2],Skip method, IEnumTerminalClass.Skip, IEnumTerminalClass::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumTerminalClass interface, _tapi3_ienumterminalclass_skip, tapi3.ienumterminalclass_skip, tapi3if/IEnumTerminalClass::Skip
 ms.topic: method
-f1_keywords: 
- - "tapi3if/IEnumTerminalClass.Skip"
+f1_keywords:
+- tapi3if/IEnumTerminalClass.Skip
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - IEnumTerminalClass.Skip
+- IEnumTerminalClass.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

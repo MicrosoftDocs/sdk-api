@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.RenameItem
 title: IFileOperation::RenameItem (shobjidl_core.h)
-
 description: Declares a single item that is to be given a new display name.
 old-location: shell\IFileOperation_RenameItem.htm
 tech.root: shell
 ms.assetid: 2f72b729-3535-4ab7-9579-21b1ba97c67f
-
 ms.date: 12/05/2018
 ms.keywords: IFileOperation interface [Windows Shell],RenameItem method, IFileOperation.RenameItem, IFileOperation::RenameItem, RenameItem, RenameItem method [Windows Shell], RenameItem method [Windows Shell],IFileOperation interface, _shell_IFileOperation_RenameItem, shell.IFileOperation_RenameItem, shobjidl_core/IFileOperation::RenameItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileOperation.RenameItem"
+f1_keywords:
+- shobjidl_core/IFileOperation.RenameItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOperation.RenameItem
+- IFileOperation.RenameItem
 targetos: Windows
 req.typenames: 
 req.redist: 

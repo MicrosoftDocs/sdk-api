@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.DeleteTimerQueue
 title: DeleteTimerQueue function (winbase.h)
-
 description: Deletes a timer queue. Any pending timers in the queue are canceled and deleted.
 old-location: base\deletetimerqueue.htm
 tech.root: Sync
 ms.assetid: 29dde4ec-1c95-4417-a8bf-ab9bd56e3f6f
-
 ms.date: 12/05/2018
 ms.keywords: DeleteTimerQueue, DeleteTimerQueue function, _win32_deletetimerqueue, base.deletetimerqueue, winbase/DeleteTimerQueue
 ms.topic: function
-f1_keywords: 
- - "winbase/DeleteTimerQueue"
+f1_keywords:
+- winbase/DeleteTimerQueue
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - DeleteTimerQueue
+- DeleteTimerQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wsdbase.IWSDTransportAddress
 title: IWSDTransportAddress (wsdbase.h)
-
 description: Represents an IP-based transport address.
 old-location: ncd\iwsdtransportaddress.htm
 tech.root: WsdApi
 ms.assetid: 84dfee11-8092-4018-8840-e766a94c60a4
-
 ms.date: 12/05/2018
 ms.keywords: IWSDTransportAddress, IWSDTransportAddress interface, IWSDTransportAddress interface,described, ncd.iwsdtransportaddress, wsdbase/IWSDTransportAddress
 ms.topic: interface
-f1_keywords: 
- - "wsdbase/IWSDTransportAddress"
+f1_keywords:
+- wsdbase/IWSDTransportAddress
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wsdapi.dll
+- wsdapi.dll
 api_name:
- - IWSDTransportAddress
+- IWSDTransportAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

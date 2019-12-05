@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication.InitializeClientContextFromToken
 title: IAzApplication::InitializeClientContextFromToken (azroles.h)
-
 description: Gets an IAzClientContext object pointer from the specified client token.
 old-location: security\iazapplication_initializeclientcontextfromtoken.htm
 tech.root: SecAuthZ
 ms.assetid: 0002804d-0e97-4648-8aa1-14eba09a90fa
-
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],InitializeClientContextFromToken method, IAzApplication interface [Security],InitializeClientContextFromToken method, IAzApplication.InitializeClientContextFromToken, IAzApplication::InitializeClientContextFromToken, InitializeClientContextFromToken, InitializeClientContextFromToken method [Security], InitializeClientContextFromToken method [Security],AzApplication object, InitializeClientContextFromToken method [Security],IAzApplication interface, azroles/IAzApplication::InitializeClientContextFromToken, security.iazapplication_initializeclientcontextfromtoken
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication.InitializeClientContextFromToken"
+f1_keywords:
+- azroles/IAzApplication.InitializeClientContextFromToken
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication.InitializeClientContextFromToken
- - AzApplication.InitializeClientContextFromToken
+- IAzApplication.InitializeClientContextFromToken
+- AzApplication.InitializeClientContextFromToken
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

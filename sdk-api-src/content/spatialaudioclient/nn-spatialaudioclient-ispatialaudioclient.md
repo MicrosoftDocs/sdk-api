@@ -1,19 +1,17 @@
 ---
 UID: NN:spatialaudioclient.ISpatialAudioClient
 title: ISpatialAudioClient (spatialaudioclient.h)
-
 description: The ISpatialAudioClient interface enables a client to create audio streams that emit audio from a position in 3D space.
 old-location: coreaudio\ispatialaudioclient.htm
 tech.root: CoreAudio
 ms.assetid: 950778D4-79FE-4222-951F-5A456A633124
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioClient, ISpatialAudioClient interface [Core Audio], ISpatialAudioClient interface [Core Audio],described, coreaudio.ispatialaudioclient, spatialaudioclient/ISpatialAudioClient
 ms.topic: interface
-f1_keywords: 
- - "spatialaudioclient/ISpatialAudioClient"
+f1_keywords:
+- spatialaudioclient/ISpatialAudioClient
 dev_langs:
- - c++
+- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudioclient.h
+- spatialaudioclient.h
 api_name:
- - ISpatialAudioClient
+- ISpatialAudioClient
 targetos: Windows
 req.typenames: 
 req.redist: 

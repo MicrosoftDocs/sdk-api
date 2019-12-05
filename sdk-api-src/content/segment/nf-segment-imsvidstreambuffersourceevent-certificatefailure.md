@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent.CertificateFailure
 title: IMSVidStreamBufferSourceEvent::CertificateFailure (segment.h)
-
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\imsvidstreambuffersourceevent_certificatefailure.htm
 tech.root: mstv
 ms.assetid: 10621576-65d0-46c1-8817-a96ee3822518
-
 ms.date: 12/05/2018
 ms.keywords: CertificateFailure, CertificateFailure method [Microsoft TV Technologies], CertificateFailure method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],CertificateFailure method, IMSVidStreamBufferSourceEvent.CertificateFailure, IMSVidStreamBufferSourceEvent::CertificateFailure, IMSVidStreamBufferSourceEventCertificateFailure, mstv.imsvidstreambuffersourceevent_certificatefailure, segment/IMSVidStreamBufferSourceEvent::CertificateFailure
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferSourceEvent.CertificateFailure"
+f1_keywords:
+- segment/IMSVidStreamBufferSourceEvent.CertificateFailure
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSourceEvent.CertificateFailure
+- IMSVidStreamBufferSourceEvent.CertificateFailure
 targetos: Windows
 req.typenames: 
 req.redist: 

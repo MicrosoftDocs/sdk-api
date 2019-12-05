@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11.ID3D11VideoDecoder
 title: ID3D11VideoDecoder (d3d11.h)
-
 description: Represents a hardware-accelerated video decoder for Microsoft Direct3D 11.
 old-location: mf\id3d11videodecoder.htm
 tech.root: medfound
 ms.assetid: F25AFA0B-7413-40F0-AFF8-C9B4549305D2
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoDecoder, ID3D11VideoDecoder interface [Media Foundation], ID3D11VideoDecoder interface [Media Foundation],described, d3d11/ID3D11VideoDecoder, mf.id3d11videodecoder
 ms.topic: interface
-f1_keywords: 
- - "d3d11/ID3D11VideoDecoder"
+f1_keywords:
+- d3d11/ID3D11VideoDecoder
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoDecoder
+- ID3D11VideoDecoder
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetKelvinRangeInfo
 title: IWICDevelopRaw::GetKelvinRangeInfo (wincodec.h)
-
 description: Gets the information about the current Kelvin range of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_getkelvinrangeinfo.htm
 tech.root: wic
 ms.assetid: c718c957-3523-4281-aa7e-761977a6b4c5
-
 ms.date: 12/05/2018
 ms.keywords: GetKelvinRangeInfo, GetKelvinRangeInfo method [Windows Imaging Component], GetKelvinRangeInfo method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetKelvinRangeInfo method, IWICDevelopRaw.GetKelvinRangeInfo, IWICDevelopRaw::GetKelvinRangeInfo, _wic_codec_iwicdevelopraw_getkelvinrangeinfo, wic._wic_codec_iwicdevelopraw_getkelvinrangeinfo, wincodec/IWICDevelopRaw::GetKelvinRangeInfo
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICDevelopRaw.GetKelvinRangeInfo"
+f1_keywords:
+- wincodec/IWICDevelopRaw.GetKelvinRangeInfo
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICDevelopRaw.GetKelvinRangeInfo
+- IWICDevelopRaw.GetKelvinRangeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

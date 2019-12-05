@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextHost.TxGetAcceleratorPos
 title: ITextHost::TxGetAcceleratorPos (textserv.h)
-
 description: Requests the special character to use for the underlining accelerator character.
 old-location: controls\ITextHost_TxGetAcceleratorPos.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetacceleratorpos.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetAcceleratorPos method, ITextHost.TxGetAcceleratorPos, ITextHost::TxGetAcceleratorPos, TxGetAcceleratorPos, TxGetAcceleratorPos method [Windows Controls], TxGetAcceleratorPos method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetAcceleratorPos, _win32_ITextHost_TxGetAcceleratorPos_cpp, controls.ITextHost_TxGetAcceleratorPos, controls._win32_ITextHost_TxGetAcceleratorPos, textserv/ITextHost::TxGetAcceleratorPos
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextHost.TxGetAcceleratorPos"
+f1_keywords:
+- textserv/ITextHost.TxGetAcceleratorPos
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextHost.TxGetAcceleratorPos
+- ITextHost.TxGetAcceleratorPos
 targetos: Windows
 req.typenames: 
 req.redist: 

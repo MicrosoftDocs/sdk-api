@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS
 title: D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS (d3d12.h)
-
 description: Specifies options for determining quality levels.
 old-location: direct3d12\d3d12_multisample_quality_level_flags.htm
 tech.root: direct3d12
 ms.assetid: 78FBD851-879C-4C84-ACEA-58CF4ADE29A0
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_MULTISAMPLE_QUALITY_LEVELS_FLAG_NONE, D3D12_MULTISAMPLE_QUALITY_LEVELS_FLAG_TILED_RESOURCE, D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS, D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS enumeration, d3d12/D3D12_MULTISAMPLE_QUALITY_LEVELS_FLAG_NONE, d3d12/D3D12_MULTISAMPLE_QUALITY_LEVELS_FLAG_TILED_RESOURCE, d3d12/D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS, direct3d12.d3d12_multisample_quality_level_flags
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS"
+f1_keywords:
+- d3d12/D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS
+- D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS
 targetos: Windows
 req.typenames: D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS
 req.redist: 

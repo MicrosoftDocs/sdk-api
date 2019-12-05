@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.IToc.GetContext
 title: IToc::GetContext (wmcodecdsp.h)
-
 description: The GetContext method retrieves a block of bytes that was previously associated with the table of contents by a call to SetContext.
 old-location: mf\itoc_getcontext.htm
 tech.root: medfound
 ms.assetid: b4c65f1b-7465-4229-8fac-92d6b1be50da
-
 ms.date: 12/05/2018
 ms.keywords: GetContext, GetContext method [Media Foundation], GetContext method [Media Foundation],IToc interface, IToc interface [Media Foundation],GetContext method, IToc.GetContext, IToc::GetContext, codecapi.itoc_getcontext, mf.itoc_getcontext, wmcodecdsp/IToc::GetContext
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/IToc.GetContext"
+f1_keywords:
+- wmcodecdsp/IToc.GetContext
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmvdspa.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmvdspa.dll
+- wmvdspa.dll
 api_name:
- - IToc.GetContext
+- IToc.GetContext
 targetos: Windows
 req.typenames: 
 req.redist: 

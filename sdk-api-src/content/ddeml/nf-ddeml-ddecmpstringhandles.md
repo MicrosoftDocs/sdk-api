@@ -1,19 +1,17 @@
 ---
 UID: NF:ddeml.DdeCmpStringHandles
 title: DdeCmpStringHandles function (ddeml.h)
-
 description: Compares the values of two string handles. The value of a string handle is not related to the case of the associated string.
 old-location: dataxchg\ddecmpstringhandles.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddecmpstringhandles.htm
-
 ms.date: 12/05/2018
 ms.keywords: DdeCmpStringHandles, DdeCmpStringHandles function [Data Exchange], _win32_DdeCmpStringHandles, _win32_ddecmpstringhandles_cpp, dataxchg.ddecmpstringhandles, ddeml/DdeCmpStringHandles, winui._win32_ddecmpstringhandles
 ms.topic: function
-f1_keywords: 
- - "ddeml/DdeCmpStringHandles"
+f1_keywords:
+- ddeml/DdeCmpStringHandles
 dev_langs:
- - c++
+- c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - DdeCmpStringHandles
+- DdeCmpStringHandles
 targetos: Windows
 req.typenames: 
 req.redist: 

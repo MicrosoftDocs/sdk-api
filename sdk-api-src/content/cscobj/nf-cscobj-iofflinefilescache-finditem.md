@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.FindItem
 title: IOfflineFilesCache::FindItem (cscobj.h)
-
 description: Locates a particular file or directory item in the cache.
 old-location: of\iofflinefilescache_finditem.htm
 tech.root: offlinefiles
 ms.assetid: 15696dbf-09a9-42e3-8400-20f7b9b171b7
-
 ms.date: 12/05/2018
 ms.keywords: FindItem, FindItem method [Offline Files], FindItem method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],FindItem method, IOfflineFilesCache.FindItem, IOfflineFilesCache::FindItem, OFFLINEFILES_ITEM_QUERY_ADMIN, OFFLINEFILES_ITEM_QUERY_CONNECTIONSTATE, OFFLINEFILES_ITEM_QUERY_INCLUDETRANSPARENTCACHE, OFFLINEFILES_ITEM_QUERY_LOCALDIRTYBYTECOUNT, OFFLINEFILES_ITEM_QUERY_REMOTEDIRTYBYTECOUNT, OFFLINEFILES_ITEM_QUERY_REMOTEINFO, cscobj/IOfflineFilesCache::FindItem, of.iofflinefilescache_finditem
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesCache.FindItem"
+f1_keywords:
+- cscobj/IOfflineFilesCache.FindItem
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesCache.FindItem
+- IOfflineFilesCache.FindItem
 targetos: Windows
 req.typenames: 
 req.redist: 

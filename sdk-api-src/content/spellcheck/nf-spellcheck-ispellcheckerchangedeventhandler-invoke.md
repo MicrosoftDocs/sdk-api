@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheck.ISpellCheckerChangedEventHandler.Invoke
 title: ISpellCheckerChangedEventHandler::Invoke (spellcheck.h)
-
 description: Receives the SpellCheckerChanged event.
 old-location: intl\ispellcheckerchangedeventhandler_invoke.htm
 tech.root: Intl
 ms.assetid: 585f147f-b644-4b6a-81d6-8ffeeb39d76a
-
 ms.date: 12/05/2018
 ms.keywords: ISpellCheckerChangedEventHandler interface [Internationalization for Windows Applications],Invoke method, ISpellCheckerChangedEventHandler.Invoke, ISpellCheckerChangedEventHandler::Invoke, Invoke, Invoke method [Internationalization for Windows Applications], Invoke method [Internationalization for Windows Applications],ISpellCheckerChangedEventHandler interface, intl.ispellcheckerchangedeventhandler_invoke, spellcheck/ISpellCheckerChangedEventHandler::Invoke
 ms.topic: method
-f1_keywords: 
- - "spellcheck/ISpellCheckerChangedEventHandler.Invoke"
+f1_keywords:
+- spellcheck/ISpellCheckerChangedEventHandler.Invoke
 dev_langs:
- - c++
+- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheck.h
+- Spellcheck.h
 api_name:
- - ISpellCheckerChangedEventHandler.Invoke
+- ISpellCheckerChangedEventHandler.Invoke
 targetos: Windows
 req.typenames: 
 req.redist: 

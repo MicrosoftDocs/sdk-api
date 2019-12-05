@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10DeviceChild.SetPrivateData
 title: ID3D10DeviceChild::SetPrivateData (d3d10.h)
-
 description: Set application-defined data to a device child and associate that data with an application-defined guid.
 old-location: direct3d10\id3d10devicechild_setprivatedata.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10devicechild_setprivatedata.htm
-
 ms.date: 12/05/2018
 ms.keywords: ID3D10DeviceChild interface [Direct3D 10],SetPrivateData method, ID3D10DeviceChild.SetPrivateData, ID3D10DeviceChild::SetPrivateData, SetPrivateData, SetPrivateData method [Direct3D 10], SetPrivateData method [Direct3D 10],ID3D10DeviceChild interface, b8fdde8d-dc47-4ec2-997e-b42841dc5441, d3d10/ID3D10DeviceChild::SetPrivateData, direct3d10.id3d10devicechild_setprivatedata
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10DeviceChild.SetPrivateData"
+f1_keywords:
+- d3d10/ID3D10DeviceChild.SetPrivateData
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10DeviceChild.SetPrivateData
+- ID3D10DeviceChild.SetPrivateData
 targetos: Windows
 req.typenames: 
 req.redist: 

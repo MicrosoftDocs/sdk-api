@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspen.Pen.GetBrush
 title: Pen::GetBrush (gdipluspen.h)
-
 description: The Pen::GetBrush method gets the Brush object that is currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetBrush_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getbrush.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetBrush, GetBrush method [GDI+], GetBrush method [GDI+],Pen class, Pen class [GDI+],GetBrush method, Pen.GetBrush, Pen::GetBrush, _gdiplus_CLASS_Pen_GetBrush_, gdiplus._gdiplus_CLASS_Pen_GetBrush_
 ms.topic: method
-f1_keywords: 
- - "gdipluspen/Pen.GetBrush"
+f1_keywords:
+- gdipluspen/Pen.GetBrush
 dev_langs:
- - c++
+- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Pen.GetBrush
+- Pen.GetBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

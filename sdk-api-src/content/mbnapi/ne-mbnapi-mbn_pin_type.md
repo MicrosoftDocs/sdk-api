@@ -1,19 +1,17 @@
 ---
 UID: NE:mbnapi.MBN_PIN_TYPE
 title: MBN_PIN_TYPE (mbnapi.h)
-
 description: The MBN_PIN_TYPE enumerated type indicates the type of password required for unlocking the information stored on the interface.
 old-location: mbn\mbn_pin_type.htm
 tech.root: mbn
 ms.assetid: 79791522-cf6b-4dae-a9c2-68e9e2fc394f
-
 ms.date: 12/05/2018
 ms.keywords: MBN_PIN_TYPE, MBN_PIN_TYPE enumeration [Microsoft Broadband Networks], MBN_PIN_TYPE_CORPORATE_PIN, MBN_PIN_TYPE_CUSTOM, MBN_PIN_TYPE_DEVICE_FIRST_SIM_PIN, MBN_PIN_TYPE_DEVICE_SIM_PIN, MBN_PIN_TYPE_NETWORK_PIN, MBN_PIN_TYPE_NETWORK_SUBSET_PIN, MBN_PIN_TYPE_NONE, MBN_PIN_TYPE_PIN1, MBN_PIN_TYPE_PIN2, MBN_PIN_TYPE_SUBSIDY_LOCK, MBN_PIN_TYPE_SVC_PROVIDER_PIN, mbn.mbn_pin_type, mbnapi/MBN_PIN_TYPE, mbnapi/MBN_PIN_TYPE_CORPORATE_PIN, mbnapi/MBN_PIN_TYPE_CUSTOM, mbnapi/MBN_PIN_TYPE_DEVICE_FIRST_SIM_PIN, mbnapi/MBN_PIN_TYPE_DEVICE_SIM_PIN, mbnapi/MBN_PIN_TYPE_NETWORK_PIN, mbnapi/MBN_PIN_TYPE_NETWORK_SUBSET_PIN, mbnapi/MBN_PIN_TYPE_NONE, mbnapi/MBN_PIN_TYPE_PIN1, mbnapi/MBN_PIN_TYPE_PIN2, mbnapi/MBN_PIN_TYPE_SUBSIDY_LOCK, mbnapi/MBN_PIN_TYPE_SVC_PROVIDER_PIN
 ms.topic: enum
-f1_keywords: 
- - "mbnapi/MBN_PIN_TYPE"
+f1_keywords:
+- mbnapi/MBN_PIN_TYPE
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - MBN_PIN_TYPE
+- MBN_PIN_TYPE
 targetos: Windows
 req.typenames: MBN_PIN_TYPE
 req.redist: 

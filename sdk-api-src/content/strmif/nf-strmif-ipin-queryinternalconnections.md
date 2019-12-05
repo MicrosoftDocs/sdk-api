@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IPin.QueryInternalConnections
 title: IPin::QueryInternalConnections (strmif.h)
-
 description: The QueryInternalConnections method retrieves the pins that are connected internally to this pin (within the filter).
 old-location: dshow\ipin_queryinternalconnections.htm
 tech.root: DirectShow
 ms.assetid: c0289b89-9220-402c-858c-09076e2ab6b6
-
 ms.date: 12/05/2018
 ms.keywords: IPin interface [DirectShow],QueryInternalConnections method, IPin.QueryInternalConnections, IPin::QueryInternalConnections, IPinQueryInternalConnections, QueryInternalConnections, QueryInternalConnections method [DirectShow], QueryInternalConnections method [DirectShow],IPin interface, dshow.ipin_queryinternalconnections, strmif/IPin::QueryInternalConnections
 ms.topic: method
-f1_keywords: 
- - "strmif/IPin.QueryInternalConnections"
+f1_keywords:
+- strmif/IPin.QueryInternalConnections
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IPin.QueryInternalConnections
+- IPin.QueryInternalConnections
 targetos: Windows
 req.typenames: 
 req.redist: 

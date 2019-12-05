@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGIDevice.GetGPUThreadPriority
 title: IDXGIDevice::GetGPUThreadPriority (dxgi.h)
-
 description: Gets the GPU thread priority.
 old-location: direct3ddxgi\idxgidevice_getgputhreadpriority.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevice_getgputhreadpriority.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetGPUThreadPriority, GetGPUThreadPriority method [DXGI], GetGPUThreadPriority method [DXGI],IDXGIDevice interface, IDXGIDevice interface [DXGI],GetGPUThreadPriority method, IDXGIDevice.GetGPUThreadPriority, IDXGIDevice::GetGPUThreadPriority, direct3ddxgi.idxgidevice_getgputhreadpriority, dxgi/IDXGIDevice::GetGPUThreadPriority, fbea5e3b-9023-68ed-7a86-b421d1d2cf36
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGIDevice.GetGPUThreadPriority"
+f1_keywords:
+- dxgi/IDXGIDevice.GetGPUThreadPriority
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIDevice.GetGPUThreadPriority
+- IDXGIDevice.GetGPUThreadPriority
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollectorSet.SetValue
 title: IDataCollectorSet::SetValue (pla.h)
-
 description: Sets a user-defined value.
 old-location: pla\idatacollectorset_setvalue.htm
 tech.root: PLA
 ms.assetid: d2143de9-f189-47e0-8b28-0422d9984459
-
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],SetValue method, IDataCollectorSet.SetValue, IDataCollectorSet::SetValue, SetValue, SetValue method [PLA], SetValue method [PLA],IDataCollectorSet interface, base.idatacollectorset_setvalue, pla.idatacollectorset_setvalue, pla/IDataCollectorSet::SetValue
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollectorSet.SetValue"
+f1_keywords:
+- pla/IDataCollectorSet.SetValue
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollectorSet.SetValue
+- IDataCollectorSet.SetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

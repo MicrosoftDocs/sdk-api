@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10BlendState.GetDesc
 title: ID3D10BlendState::GetDesc (d3d10.h)
-
 description: Get the blend state.
 old-location: direct3d10\id3d10blendstate_getdesc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10blendstate_getdesc.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10BlendState interface, ID3D10BlendState interface [Direct3D 10],GetDesc method, ID3D10BlendState.GetDesc, ID3D10BlendState::GetDesc, d3d10/ID3D10BlendState::GetDesc, dcec8d23-1749-9910-da00-02d186653aad, direct3d10.id3d10blendstate_getdesc
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10BlendState.GetDesc"
+f1_keywords:
+- d3d10/ID3D10BlendState.GetDesc
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10BlendState.GetDesc
+- ID3D10BlendState.GetDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

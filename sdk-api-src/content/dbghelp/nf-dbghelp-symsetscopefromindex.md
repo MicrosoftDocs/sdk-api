@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymSetScopeFromIndex
 title: SymSetScopeFromIndex function (dbghelp.h)
-
 description: Sets the local scope to the symbol that matches the specified index.
 old-location: base\symsetscopefromindex.htm
 tech.root: Debug
 ms.assetid: 06792478-35e2-4f05-85c9-910909fe65cd
-
 ms.date: 12/05/2018
 ms.keywords: SymSetScopeFromIndex, SymSetScopeFromIndex function, base.symsetscopefromindex, dbghelp/SymSetScopeFromIndex
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymSetScopeFromIndex"
+f1_keywords:
+- dbghelp/SymSetScopeFromIndex
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymSetScopeFromIndex
+- SymSetScopeFromIndex
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.8 or later

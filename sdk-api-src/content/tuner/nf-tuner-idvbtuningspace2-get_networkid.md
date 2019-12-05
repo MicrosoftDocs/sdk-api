@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBTuningSpace2.get_NetworkID
 title: IDVBTuningSpace2::get_NetworkID (tuner.h)
-
 description: The get_NetworkID method retrieves the Network ID of the DVB system.
 old-location: mstv\idvbtuningspace2_get_networkid.htm
 tech.root: mstv
 ms.assetid: 743977d3-151d-4d04-8d2d-7018d5613cc1
-
 ms.date: 12/05/2018
 ms.keywords: IDVBTuningSpace2 interface [Microsoft TV Technologies],get_NetworkID method, IDVBTuningSpace2.get_NetworkID, IDVBTuningSpace2::get_NetworkID, IDVBTuningSpace2get_NetworkID, get_NetworkID, get_NetworkID method [Microsoft TV Technologies], get_NetworkID method [Microsoft TV Technologies],IDVBTuningSpace2 interface, mstv.idvbtuningspace2_get_networkid, tuner/IDVBTuningSpace2::get_NetworkID
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBTuningSpace2.get_NetworkID"
+f1_keywords:
+- tuner/IDVBTuningSpace2.get_NetworkID
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBTuningSpace2.get_NetworkID
+- IDVBTuningSpace2.get_NetworkID
 targetos: Windows
 req.typenames: 
 req.redist: 

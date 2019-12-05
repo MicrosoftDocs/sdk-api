@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncErrorInfo.GetSyncOperation
 title: IOfflineFilesSyncErrorInfo::GetSyncOperation (cscobj.h)
-
 description: Retrieves a value indicating the type of sync operation that was being performed when the error was encountered.
 old-location: of\iofflinefilessyncerrorinfo_getsyncoperation.htm
 tech.root: offlinefiles
 ms.assetid: 21973fb8-26f9-40a0-bb9a-d9c5ff6924e7
-
 ms.date: 12/05/2018
 ms.keywords: GetSyncOperation, GetSyncOperation method [Offline Files], GetSyncOperation method [Offline Files],IOfflineFilesSyncErrorInfo interface, IOfflineFilesSyncErrorInfo interface [Offline Files],GetSyncOperation method, IOfflineFilesSyncErrorInfo.GetSyncOperation, IOfflineFilesSyncErrorInfo::GetSyncOperation, cscobj/IOfflineFilesSyncErrorInfo::GetSyncOperation, of.iofflinefilessyncerrorinfo_getsyncoperation
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesSyncErrorInfo.GetSyncOperation"
+f1_keywords:
+- cscobj/IOfflineFilesSyncErrorInfo.GetSyncOperation
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesSyncErrorInfo.GetSyncOperation
+- IOfflineFilesSyncErrorInfo.GetSyncOperation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmpipeline.IFsrmClassificationManager2
 title: IFsrmClassificationManager2 (fsrmpipeline.h)
-
 description: Manages file classification. Use this interface to define properties to use in classification, add classification rules for classifying files, define classification and storage modules, and enable classification reporting.
 old-location: fsrm\ifsrmclassificationmanager2.htm
 tech.root: fsrm
 ms.assetid: 6ff821e3-f0bd-4c66-8ced-edbbfbc8503b
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmClassificationManager2, IFsrmClassificationManager2 interface [File Server Resource Manager], IFsrmClassificationManager2 interface [File Server Resource Manager],described, fs.ifsrmclassificationmanager2, fsrm.ifsrmclassificationmanager2, fsrmpipeline/IFsrmClassificationManager2
 ms.topic: interface
-f1_keywords: 
- - "fsrmpipeline/IFsrmClassificationManager2"
+f1_keywords:
+- fsrmpipeline/IFsrmClassificationManager2
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmClassificationManager2
+- IFsrmClassificationManager2
 targetos: Windows
 req.typenames: 
 req.redist: 

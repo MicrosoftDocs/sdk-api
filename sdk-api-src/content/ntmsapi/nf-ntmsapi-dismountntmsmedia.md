@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.DismountNtmsMedia
 title: DismountNtmsMedia function (ntmsapi.h)
-
 description: The DismountNtmsMedia function queues a command to move the specified media in a drive to its storage. This function should be paired with the MountNtmsMedia function.
 old-location: fs\dismountntmsmedia.htm
 tech.root: Rsm
 ms.assetid: 95336487-ca50-4003-a155-eb70173f8604
-
 ms.date: 12/05/2018
 ms.keywords: DismountNtmsMedia, DismountNtmsMedia function [Files], NTMS_DISMOUNT_DEFERRED, NTMS_DISMOUNT_IMMEDIATE, _zaw_dismountntmsmedia, base.dismountntmsmedia, fs.dismountntmsmedia, ntmsapi/DismountNtmsMedia
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/DismountNtmsMedia"
+f1_keywords:
+- ntmsapi/DismountNtmsMedia
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - DismountNtmsMedia
+- DismountNtmsMedia
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:mfobjects.__MFAYUVSample
 title: MFAYUVSample (mfobjects.h)
-
 description: Describes a 4:4:4:4 Y'Cb'Cr' sample.
 old-location: mf\mfayuvsample.htm
 tech.root: medfound
 ms.assetid: 9784b561-3b87-4df9-a434-55e12f97b05a
-
 ms.date: 12/05/2018
 ms.keywords: 9784b561-3b87-4df9-a434-55e12f97b05a, MFAYUVSample, MFAYUVSample structure [Media Foundation], mf.mfayuvsample, mfobjects/MFAYUVSample
 ms.topic: struct
-f1_keywords: 
- - "mfobjects/MFAYUVSample"
+f1_keywords:
+- mfobjects/MFAYUVSample
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - MFAYUVSample
+- MFAYUVSample
 targetos: Windows
 req.typenames: MFAYUVSample
 req.redist: 

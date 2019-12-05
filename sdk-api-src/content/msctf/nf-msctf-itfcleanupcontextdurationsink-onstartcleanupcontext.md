@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfCleanupContextDurationSink.OnStartCleanupContext
 title: ITfCleanupContextDurationSink::OnStartCleanupContext (msctf.h)
-
 description: ITfCleanupContextDurationSink::OnStartCleanupContext method
 old-location: tsf\itfcleanupcontextdurationsink_onstartcleanupcontext.htm
 tech.root: TSF
 ms.assetid: a35aa7b1-273d-47ff-a705-298393f4abd2
-
 ms.date: 12/05/2018
 ms.keywords: ITfCleanupContextDurationSink interface [Text Services Framework],OnStartCleanupContext method, ITfCleanupContextDurationSink.OnStartCleanupContext, ITfCleanupContextDurationSink::OnStartCleanupContext, OnStartCleanupContext, OnStartCleanupContext method [Text Services Framework], OnStartCleanupContext method [Text Services Framework],ITfCleanupContextDurationSink interface, _tsf_itfcleanupcontextdurationsink_onstartcleanupcontext_ref, msctf/ITfCleanupContextDurationSink::OnStartCleanupContext, tsf.itfcleanupcontextdurationsink_onstartcleanupcontext
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfCleanupContextDurationSink.OnStartCleanupContext"
+f1_keywords:
+- msctf/ITfCleanupContextDurationSink.OnStartCleanupContext
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Imekrcic.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imekrcic.dll
+- imekrcic.dll
 api_name:
- - ITfCleanupContextDurationSink.OnStartCleanupContext
+- ITfCleanupContextDurationSink.OnStartCleanupContext
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

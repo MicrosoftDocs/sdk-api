@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbContentDescriptor.GetCountOfRecords
 title: IDvbContentDescriptor::GetCountOfRecords (dvbsiparser.h)
-
 description: Gets the number of content elements within a Digital Video Broadcast (DVB) content descriptor.
 old-location: mstv\idvbcontentdescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: 0d4d81b3-d6d8-416b-af6b-2b6ef12cf1d9
-
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDvbContentDescriptor interface, IDvbContentDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IDvbContentDescriptor.GetCountOfRecords, IDvbContentDescriptor::GetCountOfRecords, dvbsiparser/IDvbContentDescriptor::GetCountOfRecords, mstv.idvbcontentdescriptor_getcountofrecords
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbContentDescriptor.GetCountOfRecords"
+f1_keywords:
+- dvbsiparser/IDvbContentDescriptor.GetCountOfRecords
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbContentDescriptor.GetCountOfRecords
+- IDvbContentDescriptor.GetCountOfRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

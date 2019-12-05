@@ -1,19 +1,17 @@
 ---
 UID: NS:emi.__unnamed_struct_4
 title: EMI_CHANNEL_V2 (emi.h)
-
 description: The EMI_CHANNEL_V2 structure provides data about an EMI V2 channel.
 old-location: powermeter\emi_channel_v2.htm
 tech.root: powermeter
 ms.assetid: D0635128-9B95-4A53-883C-FD6CCD5B694B
-
 ms.date: 12/05/2018
 ms.keywords: EMI_CHANNEL_V2, EMI_CHANNEL_V2 structure [Power Metering and Budgeting Devices], emi/EMI_CHANNEL_V2, powermeter.emi_channel_v2
 ms.topic: struct
-f1_keywords: 
- - "emi/EMI_CHANNEL_V2"
+f1_keywords:
+- emi/EMI_CHANNEL_V2
 dev_langs:
- - c++
+- c++
 req.header: emi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - emi.h
+- emi.h
 api_name:
- - EMI_CHANNEL_V2
+- EMI_CHANNEL_V2
 targetos: Windows
 req.typenames: EMI_CHANNEL_V2
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.SetDefaultLongestAcceptableDelay
 title: IUIAnimationManager2::SetDefaultLongestAcceptableDelay (uianimation.h)
-
 description: Sets the default acceptable animation delay. This is the length of time that may pass before storyboards begin.
 old-location: uianimation\iuianimationmanager2_setdefaultlongestacceptabledelay.htm
 tech.root: UIAnimation
 ms.assetid: CB00C22B-9837-43AD-9E04-30182B7386E9
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager2 interface [Windows Animation],SetDefaultLongestAcceptableDelay method, IUIAnimationManager2.SetDefaultLongestAcceptableDelay, IUIAnimationManager2::SetDefaultLongestAcceptableDelay, SetDefaultLongestAcceptableDelay, SetDefaultLongestAcceptableDelay method [Windows Animation], SetDefaultLongestAcceptableDelay method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_setdefaultlongestacceptabledelay, uianimation/IUIAnimationManager2::SetDefaultLongestAcceptableDelay
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationManager2.SetDefaultLongestAcceptableDelay"
+f1_keywords:
+- uianimation/IUIAnimationManager2.SetDefaultLongestAcceptableDelay
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationManager2.SetDefaultLongestAcceptableDelay
+- IUIAnimationManager2.SetDefaultLongestAcceptableDelay
 targetos: Windows
 req.typenames: 
 req.redist: 

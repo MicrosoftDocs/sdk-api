@@ -3,14 +3,13 @@ UID: NF:gdiplusgraphics.Graphics.DrawCurve(IN const Pen,IN const PointF,IN INT)
 title: Graphics::DrawCurve
 description: The Graphics::DrawCurve method draws a cardinal spline.
 ms.assetid: c42c3e85-d967-4b68-983b-fa96be63d1e8
-
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawCurve
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusgraphics/Graphics::DrawCurve"
+f1_keywords:
+- gdiplusgraphics/Graphics::DrawCurve
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusgraphics.h
+- gdiplusgraphics.h
 api_name:
- - Graphics::DrawCurve
+- Graphics::DrawCurve
 ---
 
 # DrawCurve(Pen*,PointF*,INT)

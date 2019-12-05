@@ -1,19 +1,17 @@
 ---
 UID: NN:msclus.ISClusPartitionEx
 title: ISClusPartitionEx (msclus.h)
-
 description: Provides extended information about a partition on a Physical Disk resource.
 old-location: mscs\cluspartitionex.htm
 tech.root: MsCS
 ms.assetid: 1AFDB11F-1AD4-4B84-82EF-C0CE86D744C1
-
 ms.date: 12/05/2018
 ms.keywords: ClusPartitionEx, ClusPartitionEx object [Failover Cluster], ClusPartitionEx object [Failover Cluster],described, ISClusPartitionEx, msclus/ClusPartitionEx, mscs.cluspartitionex
 ms.topic: interface
-f1_keywords: 
- - "msclus/ClusPartitionEx"
+f1_keywords:
+- msclus/ClusPartitionEx
 dev_langs:
- - c++
+- c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: MsClus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsClus.dll
+- MsClus.dll
 api_name:
- - ClusPartitionEx
- - ISClusPartitionEx
+- ClusPartitionEx
+- ISClusPartitionEx
 targetos: Windows
 req.typenames: 
 req.redist: 

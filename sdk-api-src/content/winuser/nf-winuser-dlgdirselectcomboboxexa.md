@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.DlgDirSelectComboBoxExA
 title: DlgDirSelectComboBoxExA function (winuser.h)
-
 description: Retrieves the current selection from a combo box filled by using the DlgDirListComboBox function. The selection is interpreted as a drive letter, a file, or a directory name.
 old-location: controls\DlgDirSelectComboBoxEx.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxfunctions\dlgdirselectcomboboxex.htm
-
 ms.date: 12/05/2018
 ms.keywords: DlgDirSelectComboBoxEx, DlgDirSelectComboBoxEx function [Windows Controls], DlgDirSelectComboBoxExA, DlgDirSelectComboBoxExW, _win32_DlgDirSelectComboBoxEx, _win32_DlgDirSelectComboBoxEx_cpp, controls.DlgDirSelectComboBoxEx, controls._win32_DlgDirSelectComboBoxEx, winuser/DlgDirSelectComboBoxEx, winuser/DlgDirSelectComboBoxExA, winuser/DlgDirSelectComboBoxExW
 ms.topic: function
-f1_keywords: 
- - "winuser/DlgDirSelectComboBoxEx"
+f1_keywords:
+- winuser/DlgDirSelectComboBoxEx
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - DlgDirSelectComboBoxEx
- - DlgDirSelectComboBoxExA
- - DlgDirSelectComboBoxExW
+- DlgDirSelectComboBoxEx
+- DlgDirSelectComboBoxExA
+- DlgDirSelectComboBoxExW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsdefender.WDStatus
 title: WDStatus function (windowsdefender.h)
-
 description: Returns the current status of Windows Defender.
 old-location: lwef\defender_wdstatus.htm
 tech.root: lwef
 ms.assetid: 885729a7-13a4-401e-ad7b-4f679777531b
-
 ms.date: 12/05/2018
 ms.keywords: WDStatus, WDStatus function [Legacy Windows Environment Features], lwef.defender_wdstatus, shell.defender_wdstatus, shell_defender_WDStatus, windowsdefender/WDStatus
 ms.topic: function
-f1_keywords: 
- - "windowsdefender/WDStatus"
+f1_keywords:
+- windowsdefender/WDStatus
 dev_langs:
- - c++
+- c++
 req.header: windowsdefender.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MpClient.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - MpClient.dll
+- MpClient.dll
 api_name:
- - WDStatus
+- WDStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

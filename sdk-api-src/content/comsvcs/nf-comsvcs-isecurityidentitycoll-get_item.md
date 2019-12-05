@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ISecurityIdentityColl.get_Item
 title: ISecurityIdentityColl::get_Item (comsvcs.h)
-
 description: Retrieves a specified property in the security identity collection.
 old-location: cos\isecurityidentitycoll_get_item.htm
 tech.root: cossdk
 ms.assetid: 0cc3a905-ec06-4d8d-8e4a-0774b7e67282
-
 ms.date: 12/05/2018
 ms.keywords: ISecurityIdentityColl interface [COM+],get_Item method, ISecurityIdentityColl.get_Item, ISecurityIdentityColl::get_Item, _cos_ISecurityIdentityColl_get_Item, comsvcs/ISecurityIdentityColl::get_Item, cos.isecurityidentitycoll_get_item, get_Item, get_Item method [COM+], get_Item method [COM+],ISecurityIdentityColl interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ISecurityIdentityColl.get_Item"
+f1_keywords:
+- comsvcs/ISecurityIdentityColl.get_Item
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISecurityIdentityColl.get_Item
+- ISecurityIdentityColl.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

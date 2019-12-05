@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhCalculateCounterFromRawValue
 title: PdhCalculateCounterFromRawValue function (pdh.h)
-
 description: Calculates the displayable value of two raw counter values.
 old-location: perf\pdhcalculatecounterfromrawvalue.htm
 tech.root: perfctrs
 ms.assetid: fd50b1fd-29b7-49a8-bbcc-4d7f0cbd7079
-
 ms.date: 12/05/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhCalculateCounterFromRawValue, PdhCalculateCounterFromRawValue function [Perf], _win32_pdhcalculatecounterfromrawvalue, base.pdhcalculatecounterfromrawvalue, pdh/PdhCalculateCounterFromRawValue, perf.pdhcalculatecounterfromrawvalue
 ms.topic: function
 f1_keywords:
 - pdh/PdhCalculateCounterFromRawValue
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

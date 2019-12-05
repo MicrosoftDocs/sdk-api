@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IBasicVideo.SetDestinationPosition
 title: IBasicVideo::SetDestinationPosition (control.h)
-
 description: The SetDestinationPosition method sets the destination rectangle.
 old-location: dshow\ibasicvideo_setdestinationposition.htm
 tech.root: DirectShow
 ms.assetid: e638eb33-5a7f-4ebc-910f-72566e251f17
-
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],SetDestinationPosition method, IBasicVideo.SetDestinationPosition, IBasicVideo::SetDestinationPosition, IBasicVideoSetDestinationPosition, SetDestinationPosition, SetDestinationPosition method [DirectShow], SetDestinationPosition method [DirectShow],IBasicVideo interface, control/IBasicVideo::SetDestinationPosition, dshow.ibasicvideo_setdestinationposition
 ms.topic: method
-f1_keywords: 
- - "control/IBasicVideo.SetDestinationPosition"
+f1_keywords:
+- control/IBasicVideo.SetDestinationPosition
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBasicVideo.SetDestinationPosition
+- IBasicVideo.SetDestinationPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SaveAsXML
 title: IVssBackupComponents::SaveAsXML (vsbackup.h)
-
 description: The SaveAsXML method saves the Backup Components Document containing a requester's state information to a specified string. This XML document, which contains the Backup Components Document, should always be securely saved as part of a backup operation.
 old-location: base\ivssbackupcomponents_saveasxml.htm
 tech.root: VSS
 ms.assetid: 8184d15a-7d1f-49ed-afe3-fa9d81a4d32d
-
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],SaveAsXML method, IVssBackupComponents.SaveAsXML, IVssBackupComponents::SaveAsXML, SaveAsXML, SaveAsXML method [VSS], SaveAsXML method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_saveasxml, base.ivssbackupcomponents_saveasxml, vsbackup/IVssBackupComponents::SaveAsXML
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.SaveAsXML"
+f1_keywords:
+- vsbackup/IVssBackupComponents.SaveAsXML
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.SaveAsXML
+- IVssBackupComponents.SaveAsXML
 targetos: Windows
 req.typenames: 
 req.redist: 

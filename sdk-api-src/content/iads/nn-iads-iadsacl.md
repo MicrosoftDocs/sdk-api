@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsAcl
 title: IADsAcl (iads.h)
-
 description: The IADsAcl interface provides methods for an ADSI client to access and manipulate the ACL or Inherited ACL attribute values. This interface manipulates the attributes.
 old-location: adsi\iadsacl.htm
 tech.root: adsi
 ms.assetid: 71aebf28-f906-4a86-8bdb-ecb0626a350f
-
 ms.date: 12/05/2018
 ms.keywords: IADsAcl, IADsAcl interface [ADSI], IADsAcl interface [ADSI],described, _ds_iadsacl, adsi.iadsacl, iads/IADsAcl
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsAcl"
+f1_keywords:
+- iads/IADsAcl
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsAcl
+- IADsAcl
 targetos: Windows
 req.typenames: 
 req.redist: 

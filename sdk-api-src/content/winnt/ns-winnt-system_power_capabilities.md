@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt.__unnamed_struct_26
 title: SYSTEM_POWER_CAPABILITIES (winnt.h)
-
 description: Contains information about the power capabilities of the system.
 old-location: base\system_power_capabilities_str.htm
 tech.root: power
 ms.assetid: aa0af56e-59b3-4d0d-b356-a4046d8754ef
-
 ms.date: 12/05/2018
 ms.keywords: '*PSYSTEM_POWER_CAPABILITIES, PSYSTEM_POWER_CAPABILITIES, PSYSTEM_POWER_CAPABILITIES structure pointer, SYSTEM_POWER_CAPABILITIES, SYSTEM_POWER_CAPABILITIES structure, _win32_system_power_capabilities_str, base.system_power_capabilities_str, winnt/PSYSTEM_POWER_CAPABILITIES, winnt/SYSTEM_POWER_CAPABILITIES'
 ms.topic: struct
 f1_keywords:
 - winnt/SYSTEM_POWER_CAPABILITIES
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

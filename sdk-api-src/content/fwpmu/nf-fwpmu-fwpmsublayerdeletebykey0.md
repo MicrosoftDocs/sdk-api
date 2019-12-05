@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerDeleteByKey0
 title: FwpmSubLayerDeleteByKey0 function (fwpmu.h)
-
 description: Deletes a sublayer from the system by its key.
 old-location: fwp\fwpmsublayerdeletebykey0_func.htm
 tech.root: fwp
 ms.assetid: 4aa238a6-1a47-4fdc-b02b-f10cf0e90040
-
 ms.date: 12/05/2018
 ms.keywords: FwpmSubLayerDeleteByKey0, FwpmSubLayerDeleteByKey0 function [Filtering], fwp.fwpmsublayerdeletebykey0_func, fwpmu/FwpmSubLayerDeleteByKey0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmSubLayerDeleteByKey0"
+f1_keywords:
+- fwpmu/FwpmSubLayerDeleteByKey0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmSubLayerDeleteByKey0
+- FwpmSubLayerDeleteByKey0
 targetos: Windows
 req.typenames: 
 req.redist: 

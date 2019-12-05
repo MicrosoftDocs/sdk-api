@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.GetAdaptersInfo
 title: GetAdaptersInfo function (iphlpapi.h)
-
 description: The GetAdaptersInfo function retrieves adapter information for the local computer.
 old-location: iphlp\getadaptersinfo.htm
 tech.root: IpHlp
 ms.assetid: 8cdecc84-6566-438b-86d0-3c55490a9a59
-
 ms.date: 12/05/2018
 ms.keywords: GetAdaptersInfo, GetAdaptersInfo function [IP Helper], _iphlp_getadaptersinfo, iphlp.getadaptersinfo, iphlpapi/GetAdaptersInfo
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/GetAdaptersInfo"
+f1_keywords:
+- iphlpapi/GetAdaptersInfo
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetAdaptersInfo
+- GetAdaptersInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

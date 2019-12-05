@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2fs.IFsiNamedStreams
 title: IFsiNamedStreams (imapi2fs.h)
-
 description: Use this interface to enumerate the named streams associated with a file in a file system image.
 old-location: imapi\ifsinamedstreams.htm
 tech.root: imapi
 ms.assetid: 383a83e4-5dc2-459a-a58f-b6ce7a656348
-
 ms.date: 12/05/2018
 ms.keywords: IFsiNamedStreams, IFsiNamedStreams interface [IMAPI], IFsiNamedStreams interface [IMAPI],described, imapi.ifsinamedstreams, imapi2fs/IFsiNamedStreams
 ms.topic: interface
-f1_keywords: 
- - "imapi2fs/IFsiNamedStreams"
+f1_keywords:
+- imapi2fs/IFsiNamedStreams
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiNamedStreams
+- IFsiNamedStreams
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarEqv
 title: VarEqv function (oleauto.h)
-
 description: Performs a bitwise equivalence on two variants.
 old-location: automat\vareqv.htm
 tech.root: automat
 ms.assetid: 34ddece6-87c8-469d-b275-443d1e99b1c9
-
 ms.date: 12/05/2018
 ms.keywords: VarEqv, VarEqv function [Automation], _oa96_VarEqv, automat.vareqv, oleauto/VarEqv
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarEqv"
+f1_keywords:
+- oleauto/VarEqv
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarEqv
+- VarEqv
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectDepthStencilViewVariable.SetDepthStencilArray
 title: ID3D10EffectDepthStencilViewVariable::SetDepthStencilArray (d3d10effect.h)
-
 description: Set an array of depth-stencil-view resources.
 old-location: direct3d10\id3d10effectdepthstencilviewvariable_setdepthstencilarray.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectdepthstencilviewvariable_setdepthstencilarray.htm
-
 ms.date: 12/05/2018
 ms.keywords: 19d677a4-86e6-d451-5d65-7ab228f247d5, ID3D10EffectDepthStencilViewVariable interface [Direct3D 10],SetDepthStencilArray method, ID3D10EffectDepthStencilViewVariable.SetDepthStencilArray, ID3D10EffectDepthStencilViewVariable::SetDepthStencilArray, SetDepthStencilArray, SetDepthStencilArray method [Direct3D 10], SetDepthStencilArray method [Direct3D 10],ID3D10EffectDepthStencilViewVariable interface, d3d10effect/ID3D10EffectDepthStencilViewVariable::SetDepthStencilArray, direct3d10.id3d10effectdepthstencilviewvariable_setdepthstencilarray
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectDepthStencilViewVariable.SetDepthStencilArray"
+f1_keywords:
+- d3d10effect/ID3D10EffectDepthStencilViewVariable.SetDepthStencilArray
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: D3d10
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d10effect.h
+- d3d10effect.h
 api_name:
- - ID3D10EffectDepthStencilViewVariable.SetDepthStencilArray
+- ID3D10EffectDepthStencilViewVariable.SetDepthStencilArray
 targetos: Windows
 req.typenames: 
 req.redist: 

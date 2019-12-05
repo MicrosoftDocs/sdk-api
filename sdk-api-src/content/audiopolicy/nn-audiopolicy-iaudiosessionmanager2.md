@@ -1,19 +1,17 @@
 ---
 UID: NN:audiopolicy.IAudioSessionManager2
 title: IAudioSessionManager2 (audiopolicy.h)
-
 description: The IAudioSessionManager2 interface enables an application to manage submixes for the audio device.
 old-location: coreaudio\iaudiosessionmanager2.htm
 tech.root: CoreAudio
 ms.assetid: 476dac90-d0c4-499c-973e-33ea55546659
-
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionManager2, IAudioSessionManager2 interface [Core Audio], IAudioSessionManager2 interface [Core Audio],described, audiopolicy/IAudioSessionManager2, coreaudio.iaudiosessionmanager2
 ms.topic: interface
-f1_keywords: 
- - "audiopolicy/IAudioSessionManager2"
+f1_keywords:
+- audiopolicy/IAudioSessionManager2
 dev_langs:
- - c++
+- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - audiopolicy.h
+- audiopolicy.h
 api_name:
- - IAudioSessionManager2
+- IAudioSessionManager2
 targetos: Windows
 req.typenames: 
 req.redist: 

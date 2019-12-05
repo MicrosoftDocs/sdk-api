@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateAttributes
 title: MFCreateAttributes function (mfapi.h)
-
 description: Creates an empty attribute store.
 old-location: mf\mfcreateattributes.htm
 tech.root: medfound
 ms.assetid: a79b1edd-5ca1-4550-a6ce-58073155affd
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateAttributes, MFCreateAttributes function [Media Foundation], a79b1edd-5ca1-4550-a6ce-58073155affd, mf.mfcreateattributes, mfapi/MFCreateAttributes
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateAttributes"
+f1_keywords:
+- mfapi/MFCreateAttributes
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateAttributes
+- MFCreateAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

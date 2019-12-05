@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.IRowsetEvents.OnChangedItem
 title: IRowsetEvents::OnChangedItem (searchapi.h)
-
 description: Called by the indexer to notify clients that an item has been modified. This item may have matched some (or all) of the criteria for the client rowset.
 old-location: search\_search_IRowsetEvents_OnChangedItem.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetevents\onchangeditem.htm
-
 ms.date: 12/05/2018
 ms.keywords: IRowsetEvents interface [search],OnChangedItem method, IRowsetEvents.OnChangedItem, IRowsetEvents::OnChangedItem, OnChangedItem, OnChangedItem method [search], OnChangedItem method [search],IRowsetEvents interface, _search_IRowsetEvents_OnChangedItem, search._search_IRowsetEvents_OnChangedItem, searchapi/IRowsetEvents::OnChangedItem
 ms.topic: method
-f1_keywords: 
- - "searchapi/IRowsetEvents.OnChangedItem"
+f1_keywords:
+- searchapi/IRowsetEvents.OnChangedItem
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IRowsetEvents.OnChangedItem
+- IRowsetEvents.OnChangedItem
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptEnumProvidersW
 title: CryptEnumProvidersW function (wincrypt.h)
-
 description: Important  This API is deprecated.
 old-location: security\cryptenumproviders.htm
 tech.root: SecCrypto
 ms.assetid: 2d93ef0f-b48f-481b-ba62-c535476fde08
-
 ms.date: 12/05/2018
 ms.keywords: CryptEnumProviders, CryptEnumProviders function [Security], CryptEnumProvidersA, CryptEnumProvidersW, _crypto2_cryptenumproviders, security.cryptenumproviders, wincrypt/CryptEnumProviders, wincrypt/CryptEnumProvidersA, wincrypt/CryptEnumProvidersW
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptEnumProviders"
+f1_keywords:
+- wincrypt/CryptEnumProviders
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptEnumProviders
- - CryptEnumProvidersA
- - CryptEnumProvidersW
+- CryptEnumProviders
+- CryptEnumProvidersA
+- CryptEnumProvidersW
 targetos: Windows
 req.typenames: 
 req.redist: 

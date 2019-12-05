@@ -1,19 +1,17 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoder.EndFrame
 title: IDirectXVideoDecoder::EndFrame (dxva2api.h)
-
 description: Signals the end of the decoding operation.
 old-location: mf\idirectxvideodecoder_endframe.htm
 tech.root: medfound
 ms.assetid: 4b8d391e-b679-4adb-8b01-2899996ede46
-
 ms.date: 12/05/2018
 ms.keywords: 4b8d391e-b679-4adb-8b01-2899996ede46, EndFrame, EndFrame method [Media Foundation], EndFrame method [Media Foundation],IDirectXVideoDecoder interface, IDirectXVideoDecoder interface [Media Foundation],EndFrame method, IDirectXVideoDecoder.EndFrame, IDirectXVideoDecoder::EndFrame, dxva2api/IDirectXVideoDecoder::EndFrame, mf.idirectxvideodecoder_endframe
 ms.topic: method
-f1_keywords: 
- - "dxva2api/IDirectXVideoDecoder.EndFrame"
+f1_keywords:
+- dxva2api/IDirectXVideoDecoder.EndFrame
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - IDirectXVideoDecoder.EndFrame
+- IDirectXVideoDecoder.EndFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

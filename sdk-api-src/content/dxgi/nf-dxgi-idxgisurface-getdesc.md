@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGISurface.GetDesc
 title: IDXGISurface::GetDesc (dxgi.h)
-
 description: Get a description of the surface.
 old-location: direct3ddxgi\idxgisurface_getdesc.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgisurface_getdesc.htm
-
 ms.date: 12/05/2018
 ms.keywords: 92b3b49a-8f1d-7cd5-e484-3b5621c5acf5, GetDesc, GetDesc method [DXGI], GetDesc method [DXGI],IDXGISurface interface, IDXGISurface interface [DXGI],GetDesc method, IDXGISurface.GetDesc, IDXGISurface::GetDesc, direct3ddxgi.idxgisurface_getdesc, dxgi/IDXGISurface::GetDesc
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGISurface.GetDesc"
+f1_keywords:
+- dxgi/IDXGISurface.GetDesc
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGISurface.GetDesc
+- IDXGISurface.GetDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

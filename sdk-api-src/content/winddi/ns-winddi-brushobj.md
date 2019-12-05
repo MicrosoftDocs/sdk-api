@@ -1,19 +1,17 @@
 ---
 UID: NS:winddi._BRUSHOBJ
 title: BRUSHOBJ (winddi.h)
-
 description: The BRUSHOBJ structure contains three public members that describe a brush object.
 old-location: display\brushobj.htm
 tech.root: display
 ms.assetid: 81216bee-d13f-4880-a839-337a247a6c82
-
 ms.date: 12/05/2018
 ms.keywords: BRUSHOBJ, BRUSHOBJ structure [Display Devices], display.brushobj, grstrcts_eb8de3ab-7f42-4f7b-b4bd-7c3c739e52ed.xml, winddi/BRUSHOBJ
 ms.topic: struct
-f1_keywords: 
- - "winddi/BRUSHOBJ"
+f1_keywords:
+- winddi/BRUSHOBJ
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - BRUSHOBJ
+- BRUSHOBJ
 targetos: Windows
 req.typenames: BRUSHOBJ
 req.redist: 

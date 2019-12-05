@@ -1,19 +1,17 @@
 ---
 UID: NF:sdoias.ISdoDictionaryOld.GetAttributeID
 title: ISdoDictionaryOld::GetAttributeID (sdoias.h)
-
 description: The GetAttributeID method retrieves the ID for the specified attribute.
 old-location: nps\SDO_isdodictionaryold_getattributeid.htm
 tech.root: Nps
 ms.assetid: 30d2128e-6940-443d-b5e2-c9964d7edfa1
-
 ms.date: 12/05/2018
 ms.keywords: GetAttributeID, GetAttributeID method [Network Policy Server], GetAttributeID method [Network Policy Server],ISdoDictionaryOld interface, ISdoDictionaryOld interface [Network Policy Server],GetAttributeID method, ISdoDictionaryOld.GetAttributeID, ISdoDictionaryOld::GetAttributeID, _sdo_isdodictionaryold_getattributeid, nps.SDO_isdodictionaryold_getattributeid, sdo.isdodictionaryold_getattributeid, sdoias/ISdoDictionaryOld::GetAttributeID
 ms.topic: method
 f1_keywords:
 - sdoias/ISdoDictionaryOld.GetAttributeID
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.MCIWndGetDevice
 title: MCIWndGetDevice macro (vfw.h)
-
 description: The MCIWndGetDevice macro retrieves the name of the current MCI device. You can use this macro or explicitly send the MCIWNDM_GETDEVICE message.
 old-location: multimedia\mciwndgetdevice.htm
 tech.root: Multimedia
 ms.assetid: 0e918cf0-e9aa-402a-9db6-f9a39c718962
-
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetDevice, MCIWndGetDevice macro [Windows Multimedia], _win32_MCIWndGetDevice, multimedia.mciwndgetdevice, vfw/MCIWndGetDevice
 ms.topic: macro
-f1_keywords: 
- - "vfw/MCIWndGetDevice"
+f1_keywords:
+- vfw/MCIWndGetDevice
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - MCIWndGetDevice
+- MCIWndGetDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

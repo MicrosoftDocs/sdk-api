@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1RenderInfo.SetInstructionCountHint
 title: ID2D1RenderInfo::SetInstructionCountHint (d2d1effectauthor.h)
-
 description: Provides an estimated hint of shader execution cost to D2D.
 old-location: direct2d\id2d1renderinfo_setinstructioncounthint.htm
 tech.root: Direct2D
 ms.assetid: 44077C5C-E3AA-4AE6-B772-BF2669B205B3
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1RenderInfo interface [Direct2D],SetInstructionCountHint method, ID2D1RenderInfo.SetInstructionCountHint, ID2D1RenderInfo::SetInstructionCountHint, SetInstructionCountHint, SetInstructionCountHint method [Direct2D], SetInstructionCountHint method [Direct2D],ID2D1RenderInfo interface, d2d1effectauthor/ID2D1RenderInfo::SetInstructionCountHint, direct2d.id2d1renderinfo_setinstructioncounthint
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1RenderInfo.SetInstructionCountHint"
+f1_keywords:
+- d2d1effectauthor/ID2D1RenderInfo.SetInstructionCountHint
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1RenderInfo.SetInstructionCountHint
+- ID2D1RenderInfo.SetInstructionCountHint
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICJpegFrameDecode.GetFrameHeader
 title: IWICJpegFrameDecode::GetFrameHeader (wincodec.h)
-
 description: Retrieves header data from the entire frame.
 old-location: wic\iwicjpegframedecode_getframeheader.htm
 tech.root: wic
 ms.assetid: CE29251F-C2E2-422B-B6BD-034D6B479009
-
 ms.date: 12/05/2018
 ms.keywords: GetFrameHeader, GetFrameHeader method [Windows Imaging Component], GetFrameHeader method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],GetFrameHeader method, IWICJpegFrameDecode.GetFrameHeader, IWICJpegFrameDecode::GetFrameHeader, wic.iwicjpegframedecode_getframeheader, wincodec/IWICJpegFrameDecode::GetFrameHeader
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICJpegFrameDecode.GetFrameHeader"
+f1_keywords:
+- wincodec/IWICJpegFrameDecode.GetFrameHeader
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICJpegFrameDecode.GetFrameHeader
+- IWICJpegFrameDecode.GetFrameHeader
 targetos: Windows
 req.typenames: 
 req.redist: 

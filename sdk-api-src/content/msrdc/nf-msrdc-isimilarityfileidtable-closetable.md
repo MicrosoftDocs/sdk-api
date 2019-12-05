@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.ISimilarityFileIdTable.CloseTable
 title: ISimilarityFileIdTable::CloseTable (msrdc.h)
-
 description: Closes a similarity file ID table.
 old-location: rdc\isimilarityfileidtable_closetable.htm
 tech.root: rdc
 ms.assetid: f7c54c1a-0b02-43ae-975c-e94bd3dcac45
-
 ms.date: 12/05/2018
 ms.keywords: CloseTable, CloseTable method [Remote Differential Compression], CloseTable method [Remote Differential Compression],ISimilarityFileIdTable interface, ISimilarityFileIdTable interface [Remote Differential Compression],CloseTable method, ISimilarityFileIdTable.CloseTable, ISimilarityFileIdTable::CloseTable, fs.isimilarityfileidtable_closetable, msrdc/ISimilarityFileIdTable::CloseTable, rdc.isimilarityfileidtable_closetable
 ms.topic: method
-f1_keywords: 
- - "msrdc/ISimilarityFileIdTable.CloseTable"
+f1_keywords:
+- msrdc/ISimilarityFileIdTable.CloseTable
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - ISimilarityFileIdTable.CloseTable
+- ISimilarityFileIdTable.CloseTable
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.GetMethodContext
 title: CInstance::GetMethodContext (instance.h)
-
 description: The GetMethodContext method returns a pointer to a MethodContext object.
 old-location: wmi\cinstance_getmethodcontext.htm
 tech.root: WmiSdk
 ms.assetid: a2033754-4fd0-405f-9ad9-737eb8931016
-
 ms.date: 12/05/2018
-ms.keywords: "?GetMethodContext@CInstance@@QBEPAVMethodContext@@XZ, ?GetMethodContext@CInstance@@QEBAPEAVMethodContext@@XZ, CInstance interface [Windows Management Instrumentation],GetMethodContext method, CInstance.GetMethodContext, CInstance::GetMethodContext, GetMethodContext, GetMethodContext method [Windows Management Instrumentation], GetMethodContext method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getmethodcontext, instance/CInstance::GetMethodContext, wmi.cinstance_getmethodcontext"
+ms.keywords: ?GetMethodContext@CInstance@@QBEPAVMethodContext@@XZ, ?GetMethodContext@CInstance@@QEBAPEAVMethodContext@@XZ, CInstance interface [Windows Management Instrumentation],GetMethodContext method, CInstance.GetMethodContext, CInstance::GetMethodContext, GetMethodContext, GetMethodContext method [Windows Management Instrumentation], GetMethodContext method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getmethodcontext, instance/CInstance::GetMethodContext, wmi.cinstance_getmethodcontext
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.GetMethodContext"
+f1_keywords:
+- instance/CInstance.GetMethodContext
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.GetMethodContext
- - ?GetMethodContext@CInstance@@QBEPAVMethodContext@@XZ
- - ?GetMethodContext@CInstance@@QEBAPEAVMethodContext@@XZ
+- CInstance.GetMethodContext
+- ?GetMethodContext@CInstance@@QBEPAVMethodContext@@XZ
+- ?GetMethodContext@CInstance@@QEBAPEAVMethodContext@@XZ
 targetos: Windows
 req.typenames: 
 req.redist: 

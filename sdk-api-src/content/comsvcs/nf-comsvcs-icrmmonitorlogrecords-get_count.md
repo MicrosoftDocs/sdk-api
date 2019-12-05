@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmMonitorLogRecords.get_Count
 title: ICrmMonitorLogRecords::get_Count (comsvcs.h)
-
 description: Retrieves the number of log records written by this CRM clerk.
 old-location: cos\icrmmonitorlogrecords_get_count.htm
 tech.root: cossdk
 ms.assetid: 51acc910-a38a-4747-bf99-b468f7ffddd1
-
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitorLogRecords interface [COM+],get_Count method, ICrmMonitorLogRecords.get_Count, ICrmMonitorLogRecords::get_Count, _dtc_ICrmMonitorLogRecords_Count, comsvcs/ICrmMonitorLogRecords::get_Count, cos.icrmmonitorlogrecords_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],ICrmMonitorLogRecords interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmMonitorLogRecords.get_Count"
+f1_keywords:
+- comsvcs/ICrmMonitorLogRecords.get_Count
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmMonitorLogRecords.get_Count
+- ICrmMonitorLogRecords.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

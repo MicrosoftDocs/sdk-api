@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IEVRTrustedVideoPlugin.DisableImageExport
 title: IEVRTrustedVideoPlugin::DisableImageExport (evr.h)
-
 description: Enables or disables the ability of the plug-in to export the video image.
 old-location: mf\ievrtrustedvideoplugin_disableimageexport.htm
 tech.root: medfound
 ms.assetid: dd9811f7-7a9f-4b7e-8425-cb25efe0a71d
-
 ms.date: 12/05/2018
 ms.keywords: DisableImageExport, DisableImageExport method [Media Foundation], DisableImageExport method [Media Foundation],IEVRTrustedVideoPlugin interface, IEVRTrustedVideoPlugin interface [Media Foundation],DisableImageExport method, IEVRTrustedVideoPlugin.DisableImageExport, IEVRTrustedVideoPlugin::DisableImageExport, dd9811f7-7a9f-4b7e-8425-cb25efe0a71d, evr/IEVRTrustedVideoPlugin::DisableImageExport, mf.ievrtrustedvideoplugin_disableimageexport
 ms.topic: method
-f1_keywords: 
- - "evr/IEVRTrustedVideoPlugin.DisableImageExport"
+f1_keywords:
+- evr/IEVRTrustedVideoPlugin.DisableImageExport
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IEVRTrustedVideoPlugin.DisableImageExport
+- IEVRTrustedVideoPlugin.DisableImageExport
 targetos: Windows
 req.typenames: 
 req.redist: 

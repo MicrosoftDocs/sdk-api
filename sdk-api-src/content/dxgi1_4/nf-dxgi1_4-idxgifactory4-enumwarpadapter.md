@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_4.IDXGIFactory4.EnumWarpAdapter
 title: IDXGIFactory4::EnumWarpAdapter (dxgi1_4.h)
-
 description: Provides an adapter which can be provided to D3D12CreateDevice to use the WARP renderer.
 old-location: direct3ddxgi\idxgifactory4_enumwarpadapter.htm
 tech.root: direct3ddxgi
 ms.assetid: 18991B1A-5FA7-4298-A5FD-C8D7C485E4F7
-
 ms.date: 12/05/2018
 ms.keywords: EnumWarpAdapter, EnumWarpAdapter method [DXGI], EnumWarpAdapter method [DXGI],IDXGIFactory4 interface, IDXGIFactory4 interface [DXGI],EnumWarpAdapter method, IDXGIFactory4.EnumWarpAdapter, IDXGIFactory4::EnumWarpAdapter, direct3ddxgi.idxgifactory4_enumwarpadapter, dxgi1_4/IDXGIFactory4::EnumWarpAdapter
 ms.topic: method
-f1_keywords: 
- - "dxgi1_4/IDXGIFactory4.EnumWarpAdapter"
+f1_keywords:
+- dxgi1_4/IDXGIFactory4.EnumWarpAdapter
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_4.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIFactory4.EnumWarpAdapter
+- IDXGIFactory4.EnumWarpAdapter
 targetos: Windows
 req.typenames: 
 req.redist: 

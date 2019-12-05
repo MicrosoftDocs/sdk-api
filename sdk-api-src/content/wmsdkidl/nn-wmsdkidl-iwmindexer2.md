@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMIndexer2
 title: IWMIndexer2 (wmsdkidl.h)
-
 description: The IWMIndexer2 interface enables you to change the settings of the indexer object to suit your needs.This interface is implemented as part of the indexer object.
 old-location: wmformat\iwmindexer2.htm
 tech.root: wmformat
 ms.assetid: ce900a2b-765b-46bb-87f4-bf9fe57d1cdb
-
 ms.date: 12/05/2018
 ms.keywords: IWMIndexer2, IWMIndexer2 interface [windows Media Format], IWMIndexer2 interface [windows Media Format],described, IWMIndexer2Interface, wmformat.iwmindexer2, wmsdkidl/IWMIndexer2
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMIndexer2"
+f1_keywords:
+- wmsdkidl/IWMIndexer2
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMIndexer2
+- IWMIndexer2
 targetos: Windows
 req.typenames: 
 req.redist: 

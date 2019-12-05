@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetSigningTime
 title: IOpcDigitalSignature::GetSigningTime (msopc.h)
-
 description: Gets a string that indicates the time at which the signature was generated.
 old-location: opc\iopcdigitalsignature_getsigningtime.htm
 tech.root: OPC
 ms.assetid: 8054eba8-ca53-42e4-9105-ef7cf20637c1
-
 ms.date: 12/05/2018
 ms.keywords: GetSigningTime, GetSigningTime method [Open Packaging Conventions], GetSigningTime method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetSigningTime method, IOpcDigitalSignature.GetSigningTime, IOpcDigitalSignature::GetSigningTime, msopc/IOpcDigitalSignature::GetSigningTime, opc.iopcdigitalsignature_getsigningtime
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcDigitalSignature.GetSigningTime"
+f1_keywords:
+- msopc/IOpcDigitalSignature.GetSigningTime
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcDigitalSignature.GetSigningTime
+- IOpcDigitalSignature.GetSigningTime
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnServiceActivationEvents
 title: IMbnServiceActivationEvents (mbnapi.h)
-
 description: This notification interface signals an application about the completion of a service activation request.
 old-location: mbn\imbnserviceactivationevents.htm
 tech.root: mbn
 ms.assetid: b3385523-f1ab-403d-9244-7683a7e9f95a
-
 ms.date: 12/05/2018
 ms.keywords: IMbnServiceActivationEvents, IMbnServiceActivationEvents interface [Microsoft Broadband Networks], IMbnServiceActivationEvents interface [Microsoft Broadband Networks],described, mbn.imbnserviceactivationevents, mbnapi/IMbnServiceActivationEvents
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnServiceActivationEvents"
+f1_keywords:
+- mbnapi/IMbnServiceActivationEvents
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnServiceActivationEvents
+- IMbnServiceActivationEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

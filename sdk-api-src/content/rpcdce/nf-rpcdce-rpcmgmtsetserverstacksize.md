@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcMgmtSetServerStackSize
 title: RpcMgmtSetServerStackSize function (rpcdce.h)
-
 description: The RpcMgmtSetServerStackSize function specifies the stack size for server threads created by the RPC run time.
 old-location: rpc\rpcmgmtsetserverstacksize.htm
 tech.root: Rpc
 ms.assetid: 5cf04ff5-d25b-42f5-a14e-2e73225765e9
-
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtSetServerStackSize, RpcMgmtSetServerStackSize function [RPC], _rpc_rpcmgmtsetserverstacksize, rpc.rpcmgmtsetserverstacksize, rpcdce/RpcMgmtSetServerStackSize
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcMgmtSetServerStackSize"
+f1_keywords:
+- rpcdce/RpcMgmtSetServerStackSize
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcMgmtSetServerStackSize
+- RpcMgmtSetServerStackSize
 targetos: Windows
 req.typenames: 
 req.redist: 

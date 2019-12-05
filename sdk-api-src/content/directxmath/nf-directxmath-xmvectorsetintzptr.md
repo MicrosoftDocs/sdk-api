@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorSetIntZPtr
 title: XMVectorSetIntZPtr function (directxmath.h)
-
 description: Sets the z component of an XMVECTOR containing integer data, with a value contained in an instance of uint32_t referred to by a pointer.
 old-location: dxmath\xmvectorsetintzptr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetIntZPtr(XMVECTOR,const uint32_t)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSetIntZPtr, XMVectorSetIntZPtr, XMVectorSetIntZPtr method [DirectX Math Support APIs], dxmath.xmvectorsetintzptr
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorSetIntZPtr"
+f1_keywords:
+- directxmath/XMVectorSetIntZPtr
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorSetIntZPtr
+- XMVectorSetIntZPtr
 targetos: Windows
 req.typenames: 
 req.redist: 

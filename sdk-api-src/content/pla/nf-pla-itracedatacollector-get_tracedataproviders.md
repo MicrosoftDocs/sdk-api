@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_TraceDataProviders
 title: ITraceDataCollector::get_TraceDataProviders (pla.h)
-
 description: Retrieves the list of providers enabled for this trace session.
 old-location: pla\itracedatacollector_tracedataprovider.htm
 tech.root: PLA
 ms.assetid: 7a2006e8-3c4c-4441-8c9e-be9ce584dd63
-
 ms.date: 12/05/2018
 ms.keywords: ITraceDataCollector interface [PLA],TraceDataProviders property, ITraceDataCollector.TraceDataProviders, ITraceDataCollector.get_TraceDataProviders, ITraceDataCollector::TraceDataProviders, ITraceDataCollector::get_TraceDataProviders, TraceDataProviders property [PLA], TraceDataProviders property [PLA],ITraceDataCollector interface, base.itracedatacollector_tracedataprovider, get_TraceDataProviders, pla.itracedatacollector_tracedataprovider, pla/ITraceDataCollector::TraceDataProviders, pla/ITraceDataCollector::get_TraceDataProviders
 ms.topic: method
-f1_keywords: 
- - "pla/ITraceDataCollector.TraceDataProviders"
+f1_keywords:
+- pla/ITraceDataCollector.TraceDataProviders
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ITraceDataCollector.TraceDataProviders
- - ITraceDataCollector.get_TraceDataProviders
+- ITraceDataCollector.TraceDataProviders
+- ITraceDataCollector.get_TraceDataProviders
 targetos: Windows
 req.typenames: 
 req.redist: 

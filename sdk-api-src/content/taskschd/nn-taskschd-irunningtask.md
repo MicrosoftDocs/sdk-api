@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.IRunningTask
 title: IRunningTask (taskschd.h)
-
 description: Provides the methods to get information from and control a running task.
 old-location: taskschd\irunningtask.htm
 tech.root: taskschd
 ms.assetid: 71a06a8f-8628-415d-b002-977c0d27f9a4
-
 ms.date: 12/05/2018
 ms.keywords: IRunningTask, IRunningTask interface [Task Scheduler], IRunningTask interface [Task Scheduler],described, taskschd.irunningtask, taskschd/IRunningTask
 ms.topic: interface
-f1_keywords: 
- - "taskschd/IRunningTask"
+f1_keywords:
+- taskschd/IRunningTask
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRunningTask
+- IRunningTask
 targetos: Windows
 req.typenames: 
 req.redist: 

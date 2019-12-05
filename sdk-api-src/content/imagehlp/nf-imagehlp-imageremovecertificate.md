@@ -1,19 +1,17 @@
 ---
 UID: NF:imagehlp.ImageRemoveCertificate
 title: ImageRemoveCertificate function (imagehlp.h)
-
 description: Removes the specified certificate from the given file.
 old-location: base\imageremovecertificate.htm
 tech.root: Debug
 ms.assetid: e06da4c5-6641-47f8-9dd9-4a1593e11f7b
-
 ms.date: 12/05/2018
 ms.keywords: ImageRemoveCertificate, ImageRemoveCertificate function, _win32_imageremovecertificate, base.imageremovecertificate, imagehlp/ImageRemoveCertificate
 ms.topic: function
-f1_keywords: 
- - "imagehlp/ImageRemoveCertificate"
+f1_keywords:
+- imagehlp/ImageRemoveCertificate
 dev_langs:
- - c++
+- c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Imagehlp.lib
 req.dll: Imagehlp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imagehlp.dll
+- Imagehlp.dll
 api_name:
- - ImageRemoveCertificate
+- ImageRemoveCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

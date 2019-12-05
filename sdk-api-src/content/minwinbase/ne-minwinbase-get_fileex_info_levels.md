@@ -1,19 +1,17 @@
 ---
 UID: NE:minwinbase._GET_FILEEX_INFO_LEVELS
 title: GET_FILEEX_INFO_LEVELS (minwinbase.h)
-
 description: Defines values that are used with the GetFileAttributesEx and GetFileAttributesTransacted functions to specify the information level of the returned data.
 old-location: fs\get_fileex_info_levels.htm
 tech.root: FileIO
 ms.assetid: 1004ab99-9c08-4ed4-ba5f-d72f1b44a415
-
 ms.date: 12/05/2018
 ms.keywords: GET_FILEEX_INFO_LEVELS, GET_FILEEX_INFO_LEVELS enumeration [Files], GetFileExInfoStandard, GetFileExMaxInfoLevel, fs.get_fileex_info_levels, winbase/GET_FILEEX_INFO_LEVELS, winbase/GetFileExInfoStandard, winbase/GetFileExMaxInfoLevel
 ms.topic: enum
 f1_keywords:
 - minwinbase/GET_FILEEX_INFO_LEVELS
 dev_langs:
- - c++
+- c++
 req.header: minwinbase.h
 req.include-header: Minwinbase.h, Windows.h
 req.target-type: Windows

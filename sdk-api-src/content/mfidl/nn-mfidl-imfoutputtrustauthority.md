@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFOutputTrustAuthority
 title: IMFOutputTrustAuthority (mfidl.h)
-
 description: Encapsulates the functionality of one or more output protection systems that a trusted output supports.
 old-location: mf\imfoutputtrustauthority.htm
 tech.root: medfound
 ms.assetid: 21594ac0-7e3c-44a3-bbee-64316dd51824
-
 ms.date: 12/05/2018
 ms.keywords: 21594ac0-7e3c-44a3-bbee-64316dd51824, IMFOutputTrustAuthority, IMFOutputTrustAuthority interface [Media Foundation], IMFOutputTrustAuthority interface [Media Foundation],described, mf.imfoutputtrustauthority, mfidl/IMFOutputTrustAuthority
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFOutputTrustAuthority"
+f1_keywords:
+- mfidl/IMFOutputTrustAuthority
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFOutputTrustAuthority
+- IMFOutputTrustAuthority
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskFolder.get_Path
 title: ITaskFolder::get_Path (taskschd.h)
-
 description: Gets the path to where the folder is stored.
 old-location: taskschd\itaskfolder_path.htm
 tech.root: taskschd
 ms.assetid: d65c5f69-21dc-49d0-9a42-581947a195df
-
 ms.date: 12/05/2018
 ms.keywords: ITaskFolder interface [Task Scheduler],Path property, ITaskFolder.Path, ITaskFolder.get_Path, ITaskFolder::Path, ITaskFolder::get_Path, Path property [Task Scheduler], Path property [Task Scheduler],ITaskFolder interface, get_Path, taskschd.itaskfolder_path, taskschd/ITaskFolder::Path, taskschd/ITaskFolder::get_Path
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskFolder.Path"
+f1_keywords:
+- taskschd/ITaskFolder.Path
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskFolder.Path
- - ITaskFolder.get_Path
+- ITaskFolder.Path
+- ITaskFolder.get_Path
 targetos: Windows
 req.typenames: 
 req.redist: 

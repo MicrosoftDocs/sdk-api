@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EnrollmentStatus.AppendText
 title: IX509EnrollmentStatus::AppendText (certenroll.h)
-
 description: Appends a string to the status information contained in the Text property.
 old-location: security\ix509enrollmentstatus_appendtext_method.htm
 tech.root: seccertenroll
 ms.assetid: aa7c3325-c897-49e3-b38c-ff1efead5f26
-
 ms.date: 12/05/2018
 ms.keywords: AppendText, AppendText method [Security], AppendText method [Security],IX509EnrollmentStatus interface, IX509EnrollmentStatus interface [Security],AppendText method, IX509EnrollmentStatus.AppendText, IX509EnrollmentStatus::AppendText, certenroll/IX509EnrollmentStatus::AppendText, security.ix509enrollmentstatus_appendtext_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EnrollmentStatus.AppendText"
+f1_keywords:
+- certenroll/IX509EnrollmentStatus.AppendText
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509EnrollmentStatus.AppendText
+- IX509EnrollmentStatus.AppendText
 targetos: Windows
 req.typenames: 
 req.redist: 

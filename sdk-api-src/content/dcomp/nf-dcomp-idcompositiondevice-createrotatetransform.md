@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateRotateTransform
 title: IDCompositionDevice::CreateRotateTransform (dcomp.h)
-
 description: Creates a 2D rotation transform object.
 old-location: directcomp\idcompositiondevice_createrotatetransform.htm
 tech.root: directcomp
 ms.assetid: 26a58b2c-1c68-4e38-963c-4df7512347f0
-
 ms.date: 12/05/2018
 ms.keywords: CreateRotateTransform, CreateRotateTransform method [DirectComposition], CreateRotateTransform method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateRotateTransform method, IDCompositionDevice.CreateRotateTransform, IDCompositionDevice::CreateRotateTransform, dcomp/IDCompositionDevice::CreateRotateTransform, directcomp.idcompositiondevice_createrotatetransform
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice.CreateRotateTransform"
+f1_keywords:
+- dcomp/IDCompositionDevice.CreateRotateTransform
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionDevice.CreateRotateTransform
+- IDCompositionDevice.CreateRotateTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

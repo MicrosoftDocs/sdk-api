@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateServiceCollection.get_Count
 title: IUpdateServiceCollection::get_Count (wuapi.h)
-
 description: Gets the number of elements in the collection.
 old-location: wua\iupdateservicecollection_count.htm
 tech.root: Wua_Sdk
 ms.assetid: c52afc93-ac73-46d5-9f32-9d2bb8e65176
-
 ms.date: 12/05/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent],IUpdateServiceCollection interface, IUpdateServiceCollection interface [Windows Update Agent],Count property, IUpdateServiceCollection.Count, IUpdateServiceCollection.get_Count, IUpdateServiceCollection::Count, IUpdateServiceCollection::get_Count, get_Count, wua.iupdateservicecollection_count, wuapi/IUpdateServiceCollection::Count, wuapi/IUpdateServiceCollection::get_Count
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateServiceCollection.Count"
+f1_keywords:
+- wuapi/IUpdateServiceCollection.Count
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateServiceCollection.Count
- - IUpdateServiceCollection.get_Count
+- IUpdateServiceCollection.Count
+- IUpdateServiceCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

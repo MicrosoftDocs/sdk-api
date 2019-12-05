@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.SetFieldComboBoxSelectedItem
 title: ICredentialProviderCredentialEvents::SetFieldComboBoxSelectedItem (credentialprovider.h)
-
 description: Communicates to the Logon UI or Credential UI that the selected item in a combo box has changed and that the UI should be updated.
 old-location: shell\ICredentialProviderCredentialEvents_SetFieldComboBoxSelectedItem.htm
 tech.root: shell
 ms.assetid: 79d66546-8553-4b70-9fe6-aa1b95c1cf25
-
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldComboBoxSelectedItem method, ICredentialProviderCredentialEvents.SetFieldComboBoxSelectedItem, ICredentialProviderCredentialEvents::SetFieldComboBoxSelectedItem, SetFieldComboBoxSelectedItem, SetFieldComboBoxSelectedItem method [Windows Shell], SetFieldComboBoxSelectedItem method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldComboBoxSelectedItem, credentialprovider/ICredentialProviderCredentialEvents::SetFieldComboBoxSelectedItem, shell.ICredentialProviderCredentialEvents_SetFieldComboBoxSelectedItem
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderCredentialEvents.SetFieldComboBoxSelectedItem"
+f1_keywords:
+- credentialprovider/ICredentialProviderCredentialEvents.SetFieldComboBoxSelectedItem
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProviderCredentialEvents.SetFieldComboBoxSelectedItem
+- ICredentialProviderCredentialEvents.SetFieldComboBoxSelectedItem
 targetos: Windows
 req.typenames: 
 req.redist: 

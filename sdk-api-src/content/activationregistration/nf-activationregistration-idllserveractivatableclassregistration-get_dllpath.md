@@ -1,19 +1,17 @@
 ---
 UID: NF:activationregistration.IDllServerActivatableClassRegistration.get_DllPath
 title: IDllServerActivatableClassRegistration::get_DllPath (activationregistration.h)
-
 description: Gets the fully qualified path to the in-process server.
 old-location: winrt\idllserveractivatableclassregistration_dllpath.htm
 tech.root: WinRT
 ms.assetid: B46BB464-C993-49A7-86C8-4945E69AA9CC
-
 ms.date: 12/05/2018
 ms.keywords: IDllServerActivatableClassRegistration interface [Windows Runtime],get_DllPath method, IDllServerActivatableClassRegistration.get_DllPath, IDllServerActivatableClassRegistration::get_DllPath, activationregistration/IDllServerActivatableClassRegistration::get_DllPath, get_DllPath, get_DllPath method [Windows Runtime], get_DllPath method [Windows Runtime],IDllServerActivatableClassRegistration interface, winrt.idllserveractivatableclassregistration_dllpath
 ms.topic: method
-f1_keywords: 
- - "activationregistration/IDllServerActivatableClassRegistration.get_DllPath"
+f1_keywords:
+- activationregistration/IDllServerActivatableClassRegistration.get_DllPath
 dev_langs:
- - c++
+- c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - activationregistration.h
+- activationregistration.h
 api_name:
- - IDllServerActivatableClassRegistration.get_DllPath
+- IDllServerActivatableClassRegistration.get_DllPath
 targetos: Windows
 req.typenames: 
 req.redist: 

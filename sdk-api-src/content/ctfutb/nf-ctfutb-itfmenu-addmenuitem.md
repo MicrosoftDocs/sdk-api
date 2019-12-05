@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfMenu.AddMenuItem
 title: ITfMenu::AddMenuItem (ctfutb.h)
-
 description: ITfMenu::AddMenuItem method
 old-location: tsf\itfmenu_addmenuitem.htm
 tech.root: TSF
 ms.assetid: c00048d1-d7c1-4ea3-a132-5f5aa570148f
-
 ms.date: 12/05/2018
 ms.keywords: AddMenuItem, AddMenuItem method [Text Services Framework], AddMenuItem method [Text Services Framework],ITfMenu interface, ITfMenu interface [Text Services Framework],AddMenuItem method, ITfMenu.AddMenuItem, ITfMenu::AddMenuItem, _tsf_itfmenu_addmenuitem_ref, ctfutb/ITfMenu::AddMenuItem, tsf.itfmenu_addmenuitem
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfMenu.AddMenuItem"
+f1_keywords:
+- ctfutb/ITfMenu.AddMenuItem
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfMenu.AddMenuItem
+- ITfMenu.AddMenuItem
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

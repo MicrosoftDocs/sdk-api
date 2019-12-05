@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IItemNameLimits
 title: IItemNameLimits (shobjidl_core.h)
-
 description: Retrieves a list of valid and invalid characters or the maximum length of a name in the namespace. Use this interface for validation parsing and translation.
 old-location: shell\IItemNameLimits.htm
 tech.root: shell
 ms.assetid: 2850bdf1-12ea-42cd-a0fb-68491337ae69
-
 ms.date: 12/05/2018
 ms.keywords: IItemNameLimits, IItemNameLimits interface [Windows Shell], IItemNameLimits interface [Windows Shell],described, _shell_IItemNameLimits, shell.IItemNameLimits, shobjidl_core/IItemNameLimits
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IItemNameLimits"
+f1_keywords:
+- shobjidl_core/IItemNameLimits
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IItemNameLimits
+- IItemNameLimits
 targetos: Windows
 req.typenames: 
 req.redist: 

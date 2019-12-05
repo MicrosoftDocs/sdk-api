@@ -1,19 +1,17 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_GESTURE_CONFIGURATION
 title: DIRECTMANIPULATION_GESTURE_CONFIGURATION (directmanipulation.h)
-
 description: Defines the gestures that can be passed to SetManualGesture.
 old-location: directmanipulation\directmanipulation_gesture_configuration.htm
 tech.root: directmanipulation
 ms.assetid: B8EE991B-6DBF-42DE-966F-FA5CB397562C
-
 ms.date: 12/05/2018
 ms.keywords: DIRECTMANIPULATION_GESTURE_CONFIGURATION, DIRECTMANIPULATION_GESTURE_CONFIGURATION enumeration [Direct Manipulation], DIRECTMANIPULATION_GESTURE_CROSS_SLIDE_HORIZONTAL, DIRECTMANIPULATION_GESTURE_CROSS_SLIDE_VERTICAL, DIRECTMANIPULATION_GESTURE_DEFAULT, DIRECTMANIPULATION_GESTURE_NONE, DIRECTMANIPULATION_GESTURE_PINCH_ZOOM, directmanipulation.directmanipulation_gesture_configuration, directmanipulation/DIRECTMANIPULATION_GESTURE_CONFIGURATION, directmanipulation/DIRECTMANIPULATION_GESTURE_CROSS_SLIDE_HORIZONTAL, directmanipulation/DIRECTMANIPULATION_GESTURE_CROSS_SLIDE_VERTICAL, directmanipulation/DIRECTMANIPULATION_GESTURE_DEFAULT, directmanipulation/DIRECTMANIPULATION_GESTURE_NONE, directmanipulation/DIRECTMANIPULATION_GESTURE_PINCH_ZOOM
 ms.topic: enum
-f1_keywords: 
- - "directmanipulation/DIRECTMANIPULATION_GESTURE_CONFIGURATION"
+f1_keywords:
+- directmanipulation/DIRECTMANIPULATION_GESTURE_CONFIGURATION
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - directmanipulation.h
+- directmanipulation.h
 api_name:
- - DIRECTMANIPULATION_GESTURE_CONFIGURATION
+- DIRECTMANIPULATION_GESTURE_CONFIGURATION
 targetos: Windows
 req.typenames: DIRECTMANIPULATION_GESTURE_CONFIGURATION
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:bdatif.IMPEG2_TIF_CONTROL.RegisterTIF
 title: IMPEG2_TIF_CONTROL::RegisterTIF (bdatif.h)
-
 description: The RegisterTIF method is called by the Transport Information Filter (TIF) to register itself with the Network Provider.
 old-location: mstv\impeg2_tif_control_registertif.htm
 tech.root: mstv
 ms.assetid: d17b1f6b-24f4-40f4-9a58-aa582c0958f8
-
 ms.date: 12/05/2018
 ms.keywords: IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],RegisterTIF method, IMPEG2_TIF_CONTROL.RegisterTIF, IMPEG2_TIF_CONTROL::RegisterTIF, IMPEG2_TIF_CONTROLRegisterTIF, RegisterTIF, RegisterTIF method [Microsoft TV Technologies], RegisterTIF method [Microsoft TV Technologies],IMPEG2_TIF_CONTROL interface, bdatif/IMPEG2_TIF_CONTROL::RegisterTIF, mstv.impeg2_tif_control_registertif
 ms.topic: method
-f1_keywords: 
- - "bdatif/IMPEG2_TIF_CONTROL.RegisterTIF"
+f1_keywords:
+- bdatif/IMPEG2_TIF_CONTROL.RegisterTIF
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdatif.h
+- bdatif.h
 api_name:
- - IMPEG2_TIF_CONTROL.RegisterTIF
+- IMPEG2_TIF_CONTROL.RegisterTIF
 targetos: Windows
 req.typenames: 
 req.redist: 

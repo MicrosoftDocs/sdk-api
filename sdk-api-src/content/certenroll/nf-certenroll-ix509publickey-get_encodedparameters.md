@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PublicKey.get_EncodedParameters
 title: IX509PublicKey::get_EncodedParameters (certenroll.h)
-
 description: Retrieves a byte array that contains the parameters associated with the public key algorithm.
 old-location: security\ix509publickey_encodedparameters_property.htm
 tech.root: seccertenroll
 ms.assetid: f7c7bf0a-0b66-4676-9448-f74937823f90
-
 ms.date: 12/05/2018
 ms.keywords: EncodedParameters property [Security], EncodedParameters property [Security],IX509PublicKey interface, IX509PublicKey interface [Security],EncodedParameters property, IX509PublicKey.EncodedParameters, IX509PublicKey.get_EncodedParameters, IX509PublicKey::EncodedParameters, IX509PublicKey::get_EncodedParameters, certenroll/IX509PublicKey::EncodedParameters, certenroll/IX509PublicKey::get_EncodedParameters, get_EncodedParameters, security.ix509publickey_encodedparameters_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PublicKey.EncodedParameters"
+f1_keywords:
+- certenroll/IX509PublicKey.EncodedParameters
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PublicKey.EncodedParameters
- - IX509PublicKey.get_EncodedParameters
+- IX509PublicKey.EncodedParameters
+- IX509PublicKey.get_EncodedParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

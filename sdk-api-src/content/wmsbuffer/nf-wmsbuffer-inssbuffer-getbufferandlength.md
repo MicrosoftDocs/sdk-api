@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsbuffer.INSSBuffer.GetBufferAndLength
 title: INSSBuffer::GetBufferAndLength (wmsbuffer.h)
-
 description: The GetBufferAndLength method retrieves the location and size of the used portion of the buffer controlled by the buffer object.
 old-location: wmformat\inssbuffer_getbufferandlength.htm
 tech.root: wmformat
 ms.assetid: cb03d006-fbaa-4971-8022-41a7fa29fb87
-
 ms.date: 12/05/2018
 ms.keywords: GetBufferAndLength, GetBufferAndLength method [windows Media Format], GetBufferAndLength method [windows Media Format],INSSBuffer interface, INSSBuffer interface [windows Media Format],GetBufferAndLength method, INSSBuffer.GetBufferAndLength, INSSBuffer::GetBufferAndLength, INSSBufferGetBufferAndLength, wmformat.inssbuffer_getbufferandlength, wmsbuffer/INSSBuffer::GetBufferAndLength
 ms.topic: method
-f1_keywords: 
- - "wmsbuffer/INSSBuffer.GetBufferAndLength"
+f1_keywords:
+- wmsbuffer/INSSBuffer.GetBufferAndLength
 dev_langs:
- - c++
+- c++
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - INSSBuffer.GetBufferAndLength
+- INSSBuffer.GetBufferAndLength
 targetos: Windows
 req.typenames: 
 req.redist: 

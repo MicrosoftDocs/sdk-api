@@ -1,19 +1,17 @@
 ---
 UID: NN:mswmdm.IMDSPDevice2
 title: IMDSPDevice2 (mswmdm.h)
-
 description: The IMDSPDevice2 interface extends IMDSPDevice by getting extended formats, getting Plug and Play (PnP) device names, enabling the use of property pages, and making it possible to get a pointer to a storage medium from its name.
 old-location: wmdm\imdspdevice2.htm
 tech.root: WMDM
 ms.assetid: a53052a1-89f4-4571-9eee-031e0049a92e
-
 ms.date: 12/05/2018
 ms.keywords: IMDSPDevice2, IMDSPDevice2 interface [windows Media Device Manager], IMDSPDevice2 interface [windows Media Device Manager],described, IMDSPDevice2Interface, mswmdm/IMDSPDevice2, wmdm.imdspdevice2
 ms.topic: interface
-f1_keywords: 
- - "mswmdm/IMDSPDevice2"
+f1_keywords:
+- mswmdm/IMDSPDevice2
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mswmdm.h
+- mswmdm.h
 api_name:
- - IMDSPDevice2
+- IMDSPDevice2
 targetos: Windows
 req.typenames: 
 req.redist: 

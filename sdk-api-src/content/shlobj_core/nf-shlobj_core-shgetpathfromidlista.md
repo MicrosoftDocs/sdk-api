@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHGetPathFromIDListA
 title: SHGetPathFromIDListA function (shlobj_core.h)
-
 description: Converts an item identifier list to a file system path.
 old-location: shell\SHGetPathFromIDList.htm
 tech.root: shell
 ms.assetid: f043ffa2-37c1-465d-aed6-0475e721fbde
-
 ms.date: 12/05/2018
 ms.keywords: SHGetPathFromIDList, SHGetPathFromIDList function [Windows Shell], SHGetPathFromIDListA, SHGetPathFromIDListW, _win32_SHGetPathFromIDList, shell.SHGetPathFromIDList, shlobj_core/SHGetPathFromIDList, shlobj_core/SHGetPathFromIDListA, shlobj_core/SHGetPathFromIDListW
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHGetPathFromIDList"
+f1_keywords:
+- shlobj_core/SHGetPathFromIDList
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
- - windows.storage.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- windows.storage.dll
 api_name:
- - SHGetPathFromIDList
- - SHGetPathFromIDListA
- - SHGetPathFromIDListW
+- SHGetPathFromIDList
+- SHGetPathFromIDListA
+- SHGetPathFromIDListW
 targetos: Windows
 req.typenames: 
 req.redist: 

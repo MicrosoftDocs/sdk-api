@@ -1,19 +1,17 @@
 ---
 UID: NN:imessagedispatcher.IMessageDispatcher
 title: IMessageDispatcher (imessagedispatcher.h)
-
 description: Callback interface implemented by components that need to perform special processing of window messages on an ASTA thread.
 old-location: com\imessagedispatcher.htm
 tech.root: com
 ms.assetid: 60FD9084-CC79-48FE-AB26-C8FCB4288851
-
 ms.date: 12/05/2018
 ms.keywords: IMessageDispatcher, IMessageDispatcher interface [COM], IMessageDispatcher interface [COM],described, com.imessagedispatcher, imessagedispatcher/IMessageDispatcher
 ms.topic: interface
-f1_keywords: 
- - "imessagedispatcher/IMessageDispatcher"
+f1_keywords:
+- imessagedispatcher/IMessageDispatcher
 dev_langs:
- - c++
+- c++
 req.header: imessagedispatcher.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imessagedispatcher.h
+- imessagedispatcher.h
 api_name:
- - IMessageDispatcher
+- IMessageDispatcher
 targetos: Windows
 req.typenames: 
 req.redist: 

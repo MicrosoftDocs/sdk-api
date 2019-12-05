@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTimecodeGenerator.GetTimecode
 title: IAMTimecodeGenerator::GetTimecode (strmif.h)
-
 description: The GetTimecode method retrieves the most recent timecode and/or userbit value available in the stream.
 old-location: dshow\iamtimecodegenerator_gettimecode.htm
 tech.root: DirectShow
 ms.assetid: 40f24a99-5a6b-4aff-b22c-e05811c910f4
-
 ms.date: 12/05/2018
 ms.keywords: GetTimecode, GetTimecode method [DirectShow], GetTimecode method [DirectShow],IAMTimecodeGenerator interface, IAMTimecodeGenerator interface [DirectShow],GetTimecode method, IAMTimecodeGenerator.GetTimecode, IAMTimecodeGenerator::GetTimecode, IAMTimecodeGeneratorGetTimecode, dshow.iamtimecodegenerator_gettimecode, strmif/IAMTimecodeGenerator::GetTimecode
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTimecodeGenerator.GetTimecode"
+f1_keywords:
+- strmif/IAMTimecodeGenerator.GetTimecode
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTimecodeGenerator.GetTimecode
+- IAMTimecodeGenerator.GetTimecode
 targetos: Windows
 req.typenames: 
 req.redist: 

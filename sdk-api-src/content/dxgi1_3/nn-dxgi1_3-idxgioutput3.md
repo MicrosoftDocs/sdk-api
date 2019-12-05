@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgi1_3.IDXGIOutput3
 title: IDXGIOutput3 (dxgi1_3.h)
-
 description: Represents an adapter output (such as a monitor). The IDXGIOutput3 interface exposes a method to check for overlay support.
 old-location: direct3ddxgi\idxgioutput3.htm
 tech.root: direct3ddxgi
 ms.assetid: A116286A-F948-49AA-9D3B-F104E3312920
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIOutput3, IDXGIOutput3 interface [DXGI], IDXGIOutput3 interface [DXGI],described, direct3ddxgi.idxgioutput3, dxgi1_3/IDXGIOutput3
 ms.topic: interface
-f1_keywords: 
- - "dxgi1_3/IDXGIOutput3"
+f1_keywords:
+- dxgi1_3/IDXGIOutput3
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIOutput3
+- IDXGIOutput3
 targetos: Windows
 req.typenames: 
 req.redist: 

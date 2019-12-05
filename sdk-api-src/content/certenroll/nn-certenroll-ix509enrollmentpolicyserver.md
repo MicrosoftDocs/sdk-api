@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX509EnrollmentPolicyServer
 title: IX509EnrollmentPolicyServer (certenroll.h)
-
 description: The IX509EnrollmentPolicyServer interface represents a certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver.htm
 tech.root: seccertenroll
 ms.assetid: e39d40fd-3d43-4cdc-b41a-07a87a11bfad
-
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentPolicyServer, IX509EnrollmentPolicyServer interface [Security], IX509EnrollmentPolicyServer interface [Security],described, certenroll/IX509EnrollmentPolicyServer, security.ix509enrollmentpolicyserver
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX509EnrollmentPolicyServer"
+f1_keywords:
+- certenroll/IX509EnrollmentPolicyServer
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509EnrollmentPolicyServer
+- IX509EnrollmentPolicyServer
 targetos: Windows
 req.typenames: 
 req.redist: 

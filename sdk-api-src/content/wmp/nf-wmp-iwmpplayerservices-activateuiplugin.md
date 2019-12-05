@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlayerServices.activateUIPlugin
 title: IWMPPlayerServices::activateUIPlugin (wmp.h)
-
 description: The activateUIPlugin method activates the specified UI plug-in in the full mode of Windows Media Player.
 old-location: wmp\iwmpplayerservices_activateuiplugin.htm
 tech.root: WMP
 ms.assetid: 73274f71-ba34-479c-a23c-38a564e950fa
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayerServices interface [Windows Media Player],activateUIPlugin method, IWMPPlayerServices.activateUIPlugin, IWMPPlayerServices::activateUIPlugin, IWMPPlayerServicesactivateUIPlugin, activateUIPlugin, activateUIPlugin method [Windows Media Player], activateUIPlugin method [Windows Media Player],IWMPPlayerServices interface, wmp.iwmpplayerservices_activateuiplugin, wmp/IWMPPlayerServices::activateUIPlugin
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlayerServices.activateUIPlugin"
+f1_keywords:
+- wmp/IWMPPlayerServices.activateUIPlugin
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlayerServices.activateUIPlugin
+- IWMPPlayerServices.activateUIPlugin
 targetos: Windows
 req.typenames: 
 req.redist: 

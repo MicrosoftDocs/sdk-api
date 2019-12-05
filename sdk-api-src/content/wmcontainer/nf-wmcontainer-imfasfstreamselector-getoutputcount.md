@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetOutputCount
 title: IMFASFStreamSelector::GetOutputCount (wmcontainer.h)
-
 description: Retrieves the number of outputs for the Advanced Systems Format (ASF) content.
 old-location: mf\imfasfstreamselector_getoutputcount.htm
 tech.root: medfound
 ms.assetid: 09f00f52-f897-46f0-afb9-ae59913e04a1
-
 ms.date: 12/05/2018
 ms.keywords: 09f00f52-f897-46f0-afb9-ae59913e04a1, GetOutputCount, GetOutputCount method [Media Foundation], GetOutputCount method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputCount method, IMFASFStreamSelector.GetOutputCount, IMFASFStreamSelector::GetOutputCount, mf.imfasfstreamselector_getoutputcount, wmcontainer/IMFASFStreamSelector::GetOutputCount
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFStreamSelector.GetOutputCount"
+f1_keywords:
+- wmcontainer/IMFASFStreamSelector.GetOutputCount
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFStreamSelector.GetOutputCount
+- IMFASFStreamSelector.GetOutputCount
 targetos: Windows
 req.typenames: 
 req.redist: 

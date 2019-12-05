@@ -1,19 +1,17 @@
 ---
 UID: NF:adshlp.AllocADsStr
 title: AllocADsStr function (adshlp.h)
-
 description: Allocates memory for and copies a specified string.
 old-location: adsi\allocadsstr.htm
 tech.root: adsi
 ms.assetid: 1e2b6d42-a879-4a53-a2ce-0e841f6b8543
-
 ms.date: 12/05/2018
 ms.keywords: AllocADsStr, AllocADsStr function [ADSI], _ds_allocadsstr, adshlp/AllocADsStr, adsi.allocadsstr
 ms.topic: function
-f1_keywords: 
- - "adshlp/AllocADsStr"
+f1_keywords:
+- adshlp/AllocADsStr
 dev_langs:
- - c++
+- c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Activeds.lib
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - AllocADsStr
+- AllocADsStr
 targetos: Windows
 req.typenames: 
 req.redist: 

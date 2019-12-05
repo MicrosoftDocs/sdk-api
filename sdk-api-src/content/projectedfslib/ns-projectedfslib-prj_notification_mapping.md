@@ -1,19 +1,17 @@
 ---
 UID: NS:projectedfslib.PRJ_NOTIFICATION_MAPPING
 title: PRJ_NOTIFICATION_MAPPING (projectedfslib.h)
-
 description: Describes a notification mapping, which is a pairing between a directory (referred to as a &#0034;notification root&#0034;) and a set of notifications, expressed as a bit mask.
 old-location: projfs\prj_notification_mapping.htm
 tech.root: ProjFS
 ms.assetid: 758E1ADB-8C16-46D9-B796-57C0B875790D
-
 ms.date: 12/05/2018
 ms.keywords: PRJ_NOTIFICATION_MAPPING, PRJ_NOTIFICATION_MAPPING structure, ProjFS.prj_notification_mapping, projectedfslib/PRJ_NOTIFICATION_MAPPING
 ms.topic: struct
-f1_keywords: 
- - "projectedfslib/PRJ_NOTIFICATION_MAPPING"
+f1_keywords:
+- projectedfslib/PRJ_NOTIFICATION_MAPPING
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PRJ_NOTIFICATION_MAPPING
+- PRJ_NOTIFICATION_MAPPING
 targetos: Windows
 req.typenames: PRJ_NOTIFICATION_MAPPING
 req.redist: 

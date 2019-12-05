@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetStreamSource
 title: IDirect3DDevice9::SetStreamSource (d3d9.h)
-
 description: Binds a vertex buffer to a device data stream. For more information, see Setting the Stream Source (Direct3D 9).
 old-location: direct3d9\idirect3ddevice9__setstreamsource.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setstreamsource.htm
-
 ms.date: 12/05/2018
 ms.keywords: 58d641c0-a959-cca3-67e2-7290e9426e8e, IDirect3DDevice9 interface [Direct3D 9],SetStreamSource method, IDirect3DDevice9.SetStreamSource, IDirect3DDevice9::SetStreamSource, SetStreamSource, SetStreamSource method [Direct3D 9], SetStreamSource method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetStreamSource, direct3d9.idirect3ddevice9__setstreamsource
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DDevice9.SetStreamSource"
+f1_keywords:
+- d3d9/IDirect3DDevice9.SetStreamSource
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9.SetStreamSource
+- IDirect3DDevice9.SetStreamSource
 targetos: Windows
 req.typenames: 
 req.redist: 

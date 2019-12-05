@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.SetDeviceGammaRamp
 title: SetDeviceGammaRamp function (wingdi.h)
-
 description: The SetDeviceGammaRamp function sets the gamma ramp on direct color display boards having drivers that support downloadable gamma ramps in hardware.
 old-location: wcs\setdevicegammaramp.htm
 tech.root: WCS
 ms.assetid: 8e4cc9a4-f292-47a1-a12a-43a479326ca7
-
 ms.date: 12/05/2018
 ms.keywords: SetDeviceGammaRamp, SetDeviceGammaRamp function [Windows Color System], _color_SetDeviceGammaRamp, wcs.setdevicegammaramp, wingdi/SetDeviceGammaRamp
 ms.topic: function
-f1_keywords: 
- - "wingdi/SetDeviceGammaRamp"
+f1_keywords:
+- wingdi/SetDeviceGammaRamp
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-wcs-l1-1-0.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-wcs-l1-1-0.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - SetDeviceGammaRamp
+- SetDeviceGammaRamp
 targetos: Windows
 req.typenames: 
 req.redist: 

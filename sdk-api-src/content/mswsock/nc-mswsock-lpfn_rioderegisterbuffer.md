@@ -1,19 +1,17 @@
 ---
 UID: NC:mswsock.LPFN_RIODEREGISTERBUFFER
 title: LPFN_RIODEREGISTERBUFFER
-
 description: Deregisters a registered buffer used with the Winsock registered I/O extensions.
 old-location: 
 tech.root: WinSock
 ms.assetid: 5D5C3469-0D5B-4E89-BE59-8D8AE9DBA5DE
-
 ms.date: 01/30/19
 ms.keywords: LPFN_RIODEREGISTERBUFFER
 ms.topic: language-reference
-f1_keywords: 
- - "mswsock/LPFN_RIODEREGISTERBUFFER"
+f1_keywords:
+- mswsock/LPFN_RIODEREGISTERBUFFER
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -35,13 +33,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - LibDef
+- LibDef
 api_location:
- - mswsock.h
+- mswsock.h
 api_name:
- - LPFN_RIODEREGISTERBUFFER
+- LPFN_RIODEREGISTERBUFFER
 ---
 
 ## -description

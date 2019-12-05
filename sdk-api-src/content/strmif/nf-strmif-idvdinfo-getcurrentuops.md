@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentUOPS
 title: IDvdInfo::GetCurrentUOPS (strmif.h)
-
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves which IDvdControl methods are currently valid.
 old-location: dshow\idvdinfo_getcurrentuops.htm
 tech.root: DirectShow
 ms.assetid: a6f48a32-c2bb-4924-9a05-469c7b79fc3e
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentUOPS, GetCurrentUOPS method [DirectShow], GetCurrentUOPS method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentUOPS method, IDvdInfo.GetCurrentUOPS, IDvdInfo::GetCurrentUOPS, IDvdInfoGetCurrentUOPS, dshow.idvdinfo_getcurrentuops, strmif/IDvdInfo::GetCurrentUOPS
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo.GetCurrentUOPS"
+f1_keywords:
+- strmif/IDvdInfo.GetCurrentUOPS
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdInfo.GetCurrentUOPS
+- IDvdInfo.GetCurrentUOPS
 targetos: Windows
 req.typenames: 
 req.redist: 

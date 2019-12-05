@@ -1,19 +1,17 @@
 ---
 UID: NF:aclui.ISecurityInformation4.GetSecondarySecurity
 title: ISecurityInformation4::GetSecondarySecurity (aclui.h)
-
 description: Returns additional security contexts that may impact access to the resource.
 old-location: security\isecurityinformation4_getsecondarysecurity.htm
 tech.root: SecAuthZ
 ms.assetid: 20BD7D3B-1097-45CF-8237-0FBAD6BD6E3E
-
 ms.date: 12/05/2018
 ms.keywords: GetSecondarySecurity, GetSecondarySecurity method [Security], GetSecondarySecurity method [Security],ISecurityInformation4 interface, ISecurityInformation4 interface [Security],GetSecondarySecurity method, ISecurityInformation4.GetSecondarySecurity, ISecurityInformation4::GetSecondarySecurity, aclui/ISecurityInformation4::GetSecondarySecurity, security.isecurityinformation4_getsecondarysecurity
 ms.topic: method
 f1_keywords:
 - aclui/ISecurityInformation4.GetSecondarySecurity
 dev_langs:
- - c++
+- c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.InterlockedOr8
 title: InterlockedOr8 function (winnt.h)
-
 description: Performs an atomic OR operation on the specified char values.
 old-location: base\interlockedor8.htm
 tech.root: Sync
 ms.assetid: fa5cfecf-dde7-4d54-8dfd-68387aa86083
-
 ms.date: 12/05/2018
 ms.keywords: InterlockedOr8, InterlockedOr8 function, base.interlockedor8, winnt/InterlockedOr8
 ms.topic: function
-f1_keywords: 
- - "winnt/InterlockedOr8"
+f1_keywords:
+- winnt/InterlockedOr8
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - InterlockedOr8
+- InterlockedOr8
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.Clip
 title: IInkStrokeDisp::Clip (msinkaut.h)
-
 description: Removes portions of an IInkStrokeDisp object or InkStrokes collection that are outside a rectangle.
 old-location: tablet\iinkstrokedisp_clip.htm
 tech.root: tablet
 ms.assetid: d3733613-fc8e-41f2-9172-07b61fc133dd
-
 ms.date: 12/05/2018
 ms.keywords: Clip, Clip method [Tablet PC], Clip method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],Clip method, IInkStrokeDisp.Clip, IInkStrokeDisp::Clip, d3733613-fc8e-41f2-9172-07b61fc133dd, msinkaut/IInkStrokeDisp::Clip, tablet.iinkstrokedisp_clip
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkStrokeDisp.Clip"
+f1_keywords:
+- msinkaut/IInkStrokeDisp.Clip
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.Clip
+- IInkStrokeDisp.Clip
 targetos: Windows
 req.typenames: 
 req.redist: 

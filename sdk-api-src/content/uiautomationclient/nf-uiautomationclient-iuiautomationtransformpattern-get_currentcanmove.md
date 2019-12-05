@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.get_CurrentCanMove
 title: IUIAutomationTransformPattern::get_CurrentCanMove (uiautomationclient.h)
-
 description: Indicates whether the element can be moved.
 old-location: winauto\uiauto_IUIAutomationTransformPattern_CurrentCanMove.htm
 tech.root: WinAuto
 ms.assetid: c8b198a7-2b07-4dab-9cb5-95cf8f73cb57
-
 ms.date: 12/05/2018
 ms.keywords: CurrentCanMove property [Windows Accessibility], CurrentCanMove property [Windows Accessibility],IUIAutomationTransformPattern interface, IUIAutomationTransformPattern interface [Windows Accessibility],CurrentCanMove property, IUIAutomationTransformPattern.CurrentCanMove, IUIAutomationTransformPattern.get_CurrentCanMove, IUIAutomationTransformPattern::CurrentCanMove, IUIAutomationTransformPattern::get_CurrentCanMove, get_CurrentCanMove, uiauto.uiauto_IUIAutomationTransformPattern_CurrentCanMove, uiauto_IUIAutomationTransformPattern_CurrentCanMove, uiautomationclient/IUIAutomationTransformPattern::CurrentCanMove, uiautomationclient/IUIAutomationTransformPattern::get_CurrentCanMove, winauto.uiauto_IUIAutomationTransformPattern_CurrentCanMove
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTransformPattern.CurrentCanMove"
+f1_keywords:
+- uiautomationclient/IUIAutomationTransformPattern.CurrentCanMove
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTransformPattern.CurrentCanMove
- - IUIAutomationTransformPattern.get_CurrentCanMove
+- IUIAutomationTransformPattern.CurrentCanMove
+- IUIAutomationTransformPattern.get_CurrentCanMove
 targetos: Windows
 req.typenames: 
 req.redist: 

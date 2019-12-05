@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.ITaskScheduler.Activate
 title: ITaskScheduler::Activate (mstask.h)
-
 description: The Activate method returns an active interface for a specified work item.
 old-location: taskschd\itaskscheduler_activate.htm
 tech.root: taskschd
 ms.assetid: 27391e34-8632-4ab5-9d6e-d2fde7942f80
-
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method [Task Scheduler], Activate method [Task Scheduler],ITaskScheduler interface, ITaskScheduler interface [Task Scheduler],Activate method, ITaskScheduler.Activate, ITaskScheduler::Activate, _msb_itaskscheduler_activate, mstask/ITaskScheduler::Activate, taskschd.itaskscheduler_activate
 ms.topic: method
-f1_keywords: 
- - "mstask/ITaskScheduler.Activate"
+f1_keywords:
+- mstask/ITaskScheduler.Activate
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - ITaskScheduler.Activate
+- ITaskScheduler.Activate
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

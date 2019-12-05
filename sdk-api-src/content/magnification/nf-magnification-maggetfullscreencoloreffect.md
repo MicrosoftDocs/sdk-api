@@ -1,19 +1,17 @@
 ---
 UID: NF:magnification.MagGetFullscreenColorEffect
 title: MagGetFullscreenColorEffect function (magnification.h)
-
 description: Retrieves the color transformation matrix associated with the full-screen magnifier.
 old-location: magapi\magapi_maggetfullscreencoloreffect.htm
 tech.root: magapi
 ms.assetid: 1C37DB20-1267-447B-A34F-E3EC83F51907
-
 ms.date: 12/05/2018
 ms.keywords: MagGetFullscreenColorEffect, MagGetFullscreenColorEffect function [Magnification API], magapi.magapi_maggetfullscreencoloreffect, magnification/MagGetFullscreenColorEffect
 ms.topic: function
-f1_keywords: 
- - "magnification/MagGetFullscreenColorEffect"
+f1_keywords:
+- magnification/MagGetFullscreenColorEffect
 dev_langs:
- - c++
+- c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Magnification.lib
 req.dll: Magnification.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Magnification.dll
+- Magnification.dll
 api_name:
- - MagGetFullscreenColorEffect
+- MagGetFullscreenColorEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

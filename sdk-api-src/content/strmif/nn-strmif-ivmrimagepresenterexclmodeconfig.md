@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IVMRImagePresenterExclModeConfig
 title: IVMRImagePresenterExclModeConfig (strmif.h)
-
 description: The IVMRImagePresenterExclModeConfig interface inherits from IVMRImagePresenterConfig and provides methods for setting and retrieving the renderering preferences on the Exclusive Mode Allocator-Presenter.
 old-location: dshow\ivmrimagepresenterexclmodeconfig.htm
 tech.root: DirectShow
 ms.assetid: 67c9675c-c0fd-44f6-bdeb-ac3f73e937cc
-
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenterExclModeConfig, IVMRImagePresenterExclModeConfig interface [DirectShow], IVMRImagePresenterExclModeConfig interface [DirectShow],described, dshow.ivmrimagepresenterexclmodeconfig, strmif/IVMRImagePresenterExclModeConfig
 ms.topic: interface
-f1_keywords: 
- - "strmif/IVMRImagePresenterExclModeConfig"
+f1_keywords:
+- strmif/IVMRImagePresenterExclModeConfig
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRImagePresenterExclModeConfig
+- IVMRImagePresenterExclModeConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

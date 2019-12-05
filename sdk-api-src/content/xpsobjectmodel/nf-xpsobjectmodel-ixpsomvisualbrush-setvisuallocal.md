@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualBrush.SetVisualLocal
 title: IXpsOMVisualBrush::SetVisualLocal (xpsobjectmodel.h)
-
 description: Sets the interface pointer of the local, unshared visual used as the source for the brush.
 old-location: xps\ixpsomvisualbrush_setvisuallocal.htm
 tech.root: printdocs
 ms.assetid: 8ef37838-ff5f-4c8f-9fa3-30d11417c09d
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisualBrush interface [XPS Documents and Packaging],SetVisualLocal method, IXpsOMVisualBrush.SetVisualLocal, IXpsOMVisualBrush::SetVisualLocal, SetVisualLocal, SetVisualLocal method [XPS Documents and Packaging], SetVisualLocal method [XPS Documents and Packaging],IXpsOMVisualBrush interface, xps.ixpsomvisualbrush_setvisuallocal, xpsobjectmodel/IXpsOMVisualBrush::SetVisualLocal
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisualBrush.SetVisualLocal"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisualBrush.SetVisualLocal
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisualBrush.SetVisualLocal
+- IXpsOMVisualBrush.SetVisualLocal
 targetos: Windows
 req.typenames: 
 req.redist: 

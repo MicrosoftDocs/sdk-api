@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextHost.TxViewChange
 title: ITextHost::TxViewChange (textserv.h)
-
 description: Indicates to the text host that the update region has changed.
 old-location: controls\ITextHost_TxViewChange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txviewchange.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxViewChange method, ITextHost.TxViewChange, ITextHost::TxViewChange, TxViewChange, TxViewChange method [Windows Controls], TxViewChange method [Windows Controls],ITextHost interface, _win32_ITextHost_TxViewChange, _win32_ITextHost_TxViewChange_cpp, controls.ITextHost_TxViewChange, controls._win32_ITextHost_TxViewChange, textserv/ITextHost::TxViewChange
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextHost.TxViewChange"
+f1_keywords:
+- textserv/ITextHost.TxViewChange
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextHost.TxViewChange
+- ITextHost.TxViewChange
 targetos: Windows
 req.typenames: 
 req.redist: 

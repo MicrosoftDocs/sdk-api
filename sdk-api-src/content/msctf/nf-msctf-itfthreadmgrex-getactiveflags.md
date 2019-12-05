@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfThreadMgrEx.GetActiveFlags
 title: ITfThreadMgrEx::GetActiveFlags (msctf.h)
-
 description: The ITfThreadMgrEx::GetActiveFlags method returns the flags TSF is active with.
 old-location: tsf\itfthreadmgrex_getactiveflags.htm
 tech.root: TSF
 ms.assetid: 2b15ddc3-0719-48cf-95fc-9c6d1e15fd4f
-
 ms.date: 12/05/2018
 ms.keywords: GetActiveFlags, GetActiveFlags method [Text Services Framework], GetActiveFlags method [Text Services Framework],ITfThreadMgrEx interface, ITfThreadMgrEx interface [Text Services Framework],GetActiveFlags method, ITfThreadMgrEx.GetActiveFlags, ITfThreadMgrEx::GetActiveFlags, TF_TMF_ACTIVATED, TF_TMF_COMLESS, TF_TMF_CONSOLE, TF_TMF_NOACTIVATETIP, TF_TMF_SECUREMODE, TF_TMF_UIELEMENTENABLEDONLY, TF_TMF_WOW16, msctf/ITfThreadMgrEx::GetActiveFlags, tsf.itfthreadmgrex_getactiveflags
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfThreadMgrEx.GetActiveFlags"
+f1_keywords:
+- msctf/ITfThreadMgrEx.GetActiveFlags
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfThreadMgrEx.GetActiveFlags
+- ITfThreadMgrEx.GetActiveFlags
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

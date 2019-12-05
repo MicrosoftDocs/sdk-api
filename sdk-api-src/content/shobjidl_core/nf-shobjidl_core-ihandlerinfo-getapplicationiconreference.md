@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IHandlerInfo.GetApplicationIconReference
 title: IHandlerInfo::GetApplicationIconReference (shobjidl_core.h)
-
 description: Retrieves the icon of the application that implemented the handler.
 old-location: shell\IHandlerInfo_GetApplicationIconReference.htm
 tech.root: shell
 ms.assetid: be886508-16a5-4a77-9fa4-b6a8d028c9e9
-
 ms.date: 12/05/2018
 ms.keywords: GetApplicationIconReference, GetApplicationIconReference method [Windows Shell], GetApplicationIconReference method [Windows Shell],IHandlerInfo interface, IHandlerInfo interface [Windows Shell],GetApplicationIconReference method, IHandlerInfo.GetApplicationIconReference, IHandlerInfo::GetApplicationIconReference, shell.IHandlerInfo_GetApplicationIconReference, shobjidl_core/IHandlerInfo::GetApplicationIconReference
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IHandlerInfo.GetApplicationIconReference"
+f1_keywords:
+- shobjidl_core/IHandlerInfo.GetApplicationIconReference
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IHandlerInfo.GetApplicationIconReference
+- IHandlerInfo.GetApplicationIconReference
 targetos: Windows
 req.typenames: 
 req.redist: 

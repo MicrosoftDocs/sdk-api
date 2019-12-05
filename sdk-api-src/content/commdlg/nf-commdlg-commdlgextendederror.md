@@ -1,19 +1,17 @@
 ---
 UID: NF:commdlg.CommDlgExtendedError
 title: CommDlgExtendedError function (commdlg.h)
-
 description: Returns a common dialog box error code. This code indicates the most recent error to occur during the execution of one of the common dialog box functions.
 old-location: dlgbox\commdlgextendederror.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\commdlgextendederror.htm
-
 ms.date: 12/05/2018
 ms.keywords: CommDlgExtendedError, CommDlgExtendedError function [Dialog Boxes], _win32_CommDlgExtendedError, _win32_commdlgextendederror_cpp, commdlg/CommDlgExtendedError, dlgbox.commdlgextendederror, winui._win32_commdlgextendederror
 ms.topic: function
-f1_keywords: 
- - "commdlg/CommDlgExtendedError"
+f1_keywords:
+- commdlg/CommDlgExtendedError
 dev_langs:
- - c++
+- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Comdlg32.lib
 req.dll: Comdlg32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comdlg32.dll
- - ext-ms-win-shell-comdlg32-l1-1-0.dll
- - ext-ms-win-shell-comdlg32-l1-1-1.dll
+- Comdlg32.dll
+- ext-ms-win-shell-comdlg32-l1-1-0.dll
+- ext-ms-win-shell-comdlg32-l1-1-1.dll
 api_name:
- - CommDlgExtendedError
+- CommDlgExtendedError
 targetos: Windows
 req.typenames: 
 req.redist: 

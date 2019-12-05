@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVEncMPVLevel
 title: eAVEncMPVLevel (codecapi.h)
-
 description: Specifies the MPEG-2 profile. This enumeration is used with the AVEncMPVLevel property.
 old-location: dshow\eavencmpvlevel.htm
 tech.root: DirectShow
 ms.assetid: 517fb48c-7358-444f-81da-52d5c7ece1bd
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncMPVLevel, codecapi/eAVEncMPVLevel_High, codecapi/eAVEncMPVLevel_High1440, codecapi/eAVEncMPVLevel_Low, codecapi/eAVEncMPVLevel_Main, dshow.eavencmpvlevel, eAVEncMPVLevel, eAVEncMPVLevel enumeration [DirectShow], eAVEncMPVLevelEnumeration, eAVEncMPVLevel_High, eAVEncMPVLevel_High1440, eAVEncMPVLevel_Low, eAVEncMPVLevel_Main
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVEncMPVLevel"
+f1_keywords:
+- codecapi/eAVEncMPVLevel
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVEncMPVLevel
+- eAVEncMPVLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

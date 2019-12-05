@@ -1,19 +1,17 @@
 ---
 UID: NF:debugapi.DebugBreak
 title: DebugBreak function (debugapi.h)
-
 description: Causes a breakpoint exception to occur in the current process. This allows the calling thread to signal the debugger to handle the exception.
 old-location: base\debugbreak.htm
 tech.root: Debug
 ms.assetid: 1ca9d2d1-eed4-4982-8964-64b44e8be256
-
 ms.date: 12/05/2018
 ms.keywords: DebugBreak, DebugBreak function, _win32_debugbreak, base.debugbreak, debugapi/DebugBreak
 ms.topic: function
-f1_keywords: 
- - "debugapi/DebugBreak"
+f1_keywords:
+- debugapi/DebugBreak
 dev_langs:
- - c++
+- c++
 req.header: debugapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-debug-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-debug-l1-1-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Debug-L1-1-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-debug-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-debug-l1-1-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Debug-L1-1-2.dll
 api_name:
- - DebugBreak
+- DebugBreak
 targetos: Windows
 req.typenames: 
 req.redist: 

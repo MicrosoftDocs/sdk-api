@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.ISimilarity.FindSimilarFileId
 title: ISimilarity::FindSimilarFileId (msrdc.h)
-
 description: Returns a list of files that are similar to a given file.
 old-location: rdc\isimilarity_findsimilarfileid.htm
 tech.root: rdc
 ms.assetid: 70a205fc-d90a-43fc-88f4-2f3a573c5a82
-
 ms.date: 12/05/2018
 ms.keywords: FindSimilarFileId, FindSimilarFileId method [Remote Differential Compression], FindSimilarFileId method [Remote Differential Compression],ISimilarity interface, ISimilarity interface [Remote Differential Compression],FindSimilarFileId method, ISimilarity.FindSimilarFileId, ISimilarity::FindSimilarFileId, fs.isimilarity_findsimilarfileid, msrdc/ISimilarity::FindSimilarFileId, rdc.isimilarity_findsimilarfileid
 ms.topic: method
-f1_keywords: 
- - "msrdc/ISimilarity.FindSimilarFileId"
+f1_keywords:
+- msrdc/ISimilarity.FindSimilarFileId
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - ISimilarity.FindSimilarFileId
+- ISimilarity.FindSimilarFileId
 targetos: Windows
 req.typenames: 
 req.redist: 

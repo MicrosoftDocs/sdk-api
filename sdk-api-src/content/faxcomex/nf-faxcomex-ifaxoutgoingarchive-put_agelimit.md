@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingArchive.put_AgeLimit
 title: IFaxOutgoingArchive::put_AgeLimit (faxcomex.h)
-
 description: The IFaxOutgoingArchive::get_AgeLimit property is a value that indicates the number of days that the fax service retains fax messages in the archive of outbound faxes.
 old-location: fax\_mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_agelimit_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_69mc.htm
-
 ms.date: 12/05/2018
 ms.keywords: AgeLimit property [Fax Service], AgeLimit property [Fax Service],IFaxOutgoingArchive interface, IFaxOutgoingArchive interface [Fax Service],AgeLimit property, IFaxOutgoingArchive.AgeLimit, IFaxOutgoingArchive.put_AgeLimit, IFaxOutgoingArchive::AgeLimit, IFaxOutgoingArchive::get_AgeLimit, IFaxOutgoingArchive::put_AgeLimit, _mfax_faxoutgoingarchive.agelimit, fax._mfax_faxoutgoingarchive_agelimit, fax._mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_agelimit_cpp, faxcomex/IFaxOutgoingArchive::AgeLimit, faxcomex/IFaxOutgoingArchive::get_AgeLimit, faxcomex/IFaxOutgoingArchive::put_AgeLimit, put_AgeLimit
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingArchive.AgeLimit"
+f1_keywords:
+- faxcomex/IFaxOutgoingArchive.AgeLimit
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingArchive.AgeLimit
- - IFaxOutgoingArchive.get_AgeLimit
- - IFaxOutgoingArchive.put_AgeLimit
+- IFaxOutgoingArchive.AgeLimit
+- IFaxOutgoingArchive.get_AgeLimit
+- IFaxOutgoingArchive.put_AgeLimit
 targetos: Windows
 req.typenames: 
 req.redist: 

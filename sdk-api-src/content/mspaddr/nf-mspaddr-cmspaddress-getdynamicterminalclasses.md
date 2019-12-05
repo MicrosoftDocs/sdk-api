@@ -1,19 +1,17 @@
 ---
 UID: NF:mspaddr.CMSPAddress.GetDynamicTerminalClasses
 title: CMSPAddress::GetDynamicTerminalClasses (mspaddr.h)
-
 description: The GetDynamicTerminalClasses method is called by our wrapper methods to get an array of dynamic terminal classes that can be used on this address.
 old-location: tapi3\cmspaddress_getdynamicterminalclasses.htm
 tech.root: Tapi
 ms.assetid: 62ded118-ee43-4500-97e2-4177518465a6
-
 ms.date: 12/05/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],GetDynamicTerminalClasses method, CMSPAddress.GetDynamicTerminalClasses, CMSPAddress::GetDynamicTerminalClasses, GetDynamicTerminalClasses, GetDynamicTerminalClasses method [TAPI 2.2], GetDynamicTerminalClasses method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_getdynamicterminalclasses, mspaddr/CMSPAddress::GetDynamicTerminalClasses, tapi3.cmspaddress_getdynamicterminalclasses
 ms.topic: method
-f1_keywords: 
- - "mspaddr/CMSPAddress.GetDynamicTerminalClasses"
+f1_keywords:
+- mspaddr/CMSPAddress.GetDynamicTerminalClasses
 dev_langs:
- - c++
+- c++
 req.header: mspaddr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mspaddr.h
+- Mspaddr.h
 api_name:
- - CMSPAddress.GetDynamicTerminalClasses
+- CMSPAddress.GetDynamicTerminalClasses
 targetos: Windows
 req.typenames: 
 req.redist: 

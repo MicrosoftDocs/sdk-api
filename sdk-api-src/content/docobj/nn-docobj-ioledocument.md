@@ -1,19 +1,17 @@
 ---
 UID: NN:docobj.IOleDocument
 title: IOleDocument (docobj.h)
-
 description: Enables a document object to communicate to containers its ability to create views of its data.
 old-location: com\ioledocument.htm
 tech.root: com
 ms.assetid: 7a15d6ef-900c-4a0b-8b85-60dc66ca03a3
-
 ms.date: 12/05/2018
 ms.keywords: IOleDocument, IOleDocument interface [COM], IOleDocument interface [COM],described, _ole_ioledocument, com.ioledocument, docobj/IOleDocument
 ms.topic: interface
-f1_keywords: 
- - "docobj/IOleDocument"
+f1_keywords:
+- docobj/IOleDocument
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IOleDocument
+- IOleDocument
 targetos: Windows
 req.typenames: 
 req.redist: 

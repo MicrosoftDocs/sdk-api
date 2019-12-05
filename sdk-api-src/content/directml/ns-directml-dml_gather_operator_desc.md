@@ -1,19 +1,17 @@
 ---
 UID: NS:directml.DML_GATHER_OPERATOR_DESC
 title: DML_GATHER_OPERATOR_DESC
-
 description: Describes a DirectML data reorganization operator which, when given a data tensor of rank r &gt;= 1, and an indices tensor of rank q, gathers the entries in the axis dimension of the data (by default, the outermost one is axis == 0) indexed by indices, and concatenates them in an output tensor of rank q + (r - 1).
 old-location: direct3d12\dml_gather_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 53F01BDE-30FF-4E15-BA1A-8D522B9DE8AF
-
 ms.date: 12/5/2018
 ms.keywords: DML_GATHER_OPERATOR_DESC, DML_GATHER_OPERATOR_DESC structure, direct3d12.dml_gather_operator_desc, directml/DML_GATHER_OPERATOR_DESC
 ms.topic: struct
-f1_keywords: 
- - "directml/DML_GATHER_OPERATOR_DESC"
+f1_keywords:
+- directml/DML_GATHER_OPERATOR_DESC
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - DML_GATHER_OPERATOR_DESC
+- DML_GATHER_OPERATOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 

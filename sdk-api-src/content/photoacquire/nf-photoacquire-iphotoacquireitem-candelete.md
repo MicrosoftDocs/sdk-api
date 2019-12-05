@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.CanDelete
 title: IPhotoAcquireItem::CanDelete (photoacquire.h)
-
 description: The CanDelete method indicates whether an item may be deleted.
 old-location: picacq\iphotoacquireitem_candelete.htm
 tech.root: acquisition
 ms.assetid: df0acbed-0352-4591-8908-f0dda1da25dd
-
 ms.date: 12/05/2018
 ms.keywords: CanDelete, CanDelete method [Picture Acquisition], CanDelete method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],CanDelete method, IPhotoAcquireItem.CanDelete, IPhotoAcquireItem::CanDelete, IPhotoAcquireItemCanDelete, photoacquire/IPhotoAcquireItem::CanDelete, picacq.iphotoacquireitem_candelete
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireItem.CanDelete"
+f1_keywords:
+- photoacquire/IPhotoAcquireItem.CanDelete
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireItem.CanDelete
+- IPhotoAcquireItem.CanDelete
 targetos: Windows
 req.typenames: 
 req.redist: 

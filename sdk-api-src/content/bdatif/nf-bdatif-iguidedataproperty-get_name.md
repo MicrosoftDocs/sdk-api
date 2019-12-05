@@ -1,19 +1,17 @@
 ---
 UID: NF:bdatif.IGuideDataProperty.get_Name
 title: IGuideDataProperty::get_Name (bdatif.h)
-
 description: The get_Name method retrieves the name of the property.
 old-location: mstv\iguidedataproperty_get_name.htm
 tech.root: mstv
 ms.assetid: 63606e76-fd4a-4954-93bd-1085d32dd2da
-
 ms.date: 12/05/2018
 ms.keywords: IGuideDataProperty interface [Microsoft TV Technologies],get_Name method, IGuideDataProperty.get_Name, IGuideDataProperty::get_Name, IGuideDataPropertyget_Name, bdatif/IGuideDataProperty::get_Name, get_Name, get_Name method [Microsoft TV Technologies], get_Name method [Microsoft TV Technologies],IGuideDataProperty interface, mstv.iguidedataproperty_get_name
 ms.topic: method
-f1_keywords: 
- - "bdatif/IGuideDataProperty.get_Name"
+f1_keywords:
+- bdatif/IGuideDataProperty.get_Name
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdatif.h
+- bdatif.h
 api_name:
- - IGuideDataProperty.get_Name
+- IGuideDataProperty.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

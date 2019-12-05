@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.SetCapture
 title: IOleInPlaceSiteWindowless::SetCapture (ocidl.h)
-
 description: Enables an in-place active, windowless object to capture all mouse messages.
 old-location: com\ioleinplacesitewindowless_setcapture.htm
 tech.root: com
 ms.assetid: 48de7ab3-eb1e-49e1-8d31-ca1ef1f9055d
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],SetCapture method, IOleInPlaceSiteWindowless.SetCapture, IOleInPlaceSiteWindowless::SetCapture, SetCapture, SetCapture method [COM], SetCapture method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_setcapture, com.ioleinplacesitewindowless_setcapture, ocidl/IOleInPlaceSiteWindowless::SetCapture
 ms.topic: method
-f1_keywords: 
- - "ocidl/IOleInPlaceSiteWindowless.SetCapture"
+f1_keywords:
+- ocidl/IOleInPlaceSiteWindowless.SetCapture
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleInPlaceSiteWindowless.SetCapture
+- IOleInPlaceSiteWindowless.SetCapture
 targetos: Windows
 req.typenames: 
 req.redist: 

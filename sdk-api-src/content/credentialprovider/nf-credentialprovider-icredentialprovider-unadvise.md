@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProvider.UnAdvise
 title: ICredentialProvider::UnAdvise (credentialprovider.h)
-
 description: Used by the Logon UI or Credential UI to advise the credential provider that event callbacks are no longer accepted.
 old-location: shell\ICredentialProvider_UnAdvise.htm
 tech.root: shell
 ms.assetid: d971c7be-f440-41ce-945d-4dbe51554e59
-
 ms.date: 12/05/2018
 ms.keywords: ICredentialProvider interface [Windows Shell],UnAdvise method, ICredentialProvider.UnAdvise, ICredentialProvider::UnAdvise, UnAdvise, UnAdvise method [Windows Shell], UnAdvise method [Windows Shell],ICredentialProvider interface, credentialprovider/ICredentialProvider::UnAdvise, shell.ICredentialProvider_UnAdvise, shell_ICredentialProvider_UnAdvise
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProvider.UnAdvise"
+f1_keywords:
+- credentialprovider/ICredentialProvider.UnAdvise
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProvider.UnAdvise
+- ICredentialProvider.UnAdvise
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:shellscalingapi.__unnamed_enum_2
 title: SHELL_UI_COMPONENT (shellscalingapi.h)
-
 description: Identifies the type of UI component that is needed in the shell.
 old-location: shell\shell_ui_component.htm
 tech.root: shell
 ms.assetid: 40919C36-228A-4909-A517-8B152BE47D36
-
 ms.date: 12/05/2018
 ms.keywords: SHELL_UI_COMPONENT, SHELL_UI_COMPONENT enumeration [Windows Shell], SHELL_UI_COMPONENT_DESKBAND, SHELL_UI_COMPONENT_NOTIFICATIONAREA, SHELL_UI_COMPONENT_TASKBARS, shell.shell_ui_component, shellscalingapi/SHELL_UI_COMPONENT, shellscalingapi/SHELL_UI_COMPONENT_DESKBAND, shellscalingapi/SHELL_UI_COMPONENT_NOTIFICATIONAREA, shellscalingapi/SHELL_UI_COMPONENT_TASKBARS
 ms.topic: enum
-f1_keywords: 
- - "shellscalingapi/SHELL_UI_COMPONENT"
+f1_keywords:
+- shellscalingapi/SHELL_UI_COMPONENT
 dev_langs:
- - c++
+- c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ShellScalingApi.h
+- ShellScalingApi.h
 api_name:
- - SHELL_UI_COMPONENT
+- SHELL_UI_COMPONENT
 targetos: Windows
 req.typenames: SHELL_UI_COMPONENT
 req.redist: 

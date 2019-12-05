@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument2.ReleaseCallManager
 title: ITextDocument2::ReleaseCallManager (tom.h)
-
 description: Releases the call manager.
 old-location: controls\itextdocument2_releasecallmanager.htm
 tech.root: Controls
 ms.assetid: 4d17fdcb-502c-43ab-9f74-7247a1f14f45
-
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],ReleaseCallManager method, ITextDocument2.ReleaseCallManager, ITextDocument2::ReleaseCallManager, ReleaseCallManager, ReleaseCallManager method [Windows Controls], ReleaseCallManager method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_releasecallmanager, tom/ITextDocument2::ReleaseCallManager
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument2.ReleaseCallManager"
+f1_keywords:
+- tom/ITextDocument2.ReleaseCallManager
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument2.ReleaseCallManager
+- ITextDocument2.ReleaseCallManager
 targetos: Windows
 req.typenames: 
 req.redist: 

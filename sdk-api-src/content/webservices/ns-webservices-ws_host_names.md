@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_HOST_NAMES
 title: WS_HOST_NAMES (webservices.h)
-
 description: A structure containing a list of host names.
 old-location: wsw\ws_host_names.htm
 tech.root: wsw
 ms.assetid: 9815eb1e-0ce6-4b56-9f9a-e3938d502b72
-
 ms.date: 12/05/2018
 ms.keywords: WS_HOST_NAMES, WS_HOST_NAMES structure [Web Services for Windows], webservices/WS_HOST_NAMES, wsw.ws_host_names
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_HOST_NAMES"
+f1_keywords:
+- webservices/WS_HOST_NAMES
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_HOST_NAMES
+- WS_HOST_NAMES
 targetos: Windows
 req.typenames: WS_HOST_NAMES
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:audiopolicy.IAudioSessionManager.GetSimpleAudioVolume
 title: IAudioSessionManager::GetSimpleAudioVolume (audiopolicy.h)
-
 description: The GetSimpleAudioVolume method retrieves a simple audio volume control.
 old-location: coreaudio\iaudiosessionmanager_getsimpleaudiovolume.htm
 tech.root: CoreAudio
 ms.assetid: 2f3c5a40-308f-48b4-b35c-aebd0cc6b849
-
 ms.date: 12/05/2018
 ms.keywords: GetSimpleAudioVolume, GetSimpleAudioVolume method [Core Audio], GetSimpleAudioVolume method [Core Audio],IAudioSessionManager interface, IAudioSessionManager interface [Core Audio],GetSimpleAudioVolume method, IAudioSessionManager.GetSimpleAudioVolume, IAudioSessionManager::GetSimpleAudioVolume, IAudioSessionManagerGetSimpleAudioVolume, audiopolicy/IAudioSessionManager::GetSimpleAudioVolume, coreaudio.iaudiosessionmanager_getsimpleaudiovolume
 ms.topic: method
-f1_keywords: 
- - "audiopolicy/IAudioSessionManager.GetSimpleAudioVolume"
+f1_keywords:
+- audiopolicy/IAudioSessionManager.GetSimpleAudioVolume
 dev_langs:
- - c++
+- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audiopolicy.h
+- Audiopolicy.h
 api_name:
- - IAudioSessionManager.GetSimpleAudioVolume
+- IAudioSessionManager.GetSimpleAudioVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

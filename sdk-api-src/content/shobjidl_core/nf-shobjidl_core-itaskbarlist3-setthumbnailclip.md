@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.SetThumbnailClip
 title: ITaskbarList3::SetThumbnailClip (shobjidl_core.h)
-
 description: Selects a portion of a window's client area to display as that window's thumbnail in the taskbar.
 old-location: shell\ITaskbarList3_SetThumbnailClip.htm
 tech.root: shell
 ms.assetid: a22c4708-af59-4ccb-9ddb-885d14c17a33
-
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetThumbnailClip method, ITaskbarList3.SetThumbnailClip, ITaskbarList3::SetThumbnailClip, SetThumbnailClip, SetThumbnailClip method [Windows Shell], SetThumbnailClip method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_SetThumbnailClip, shell.ITaskbarList3_SetThumbnailClip, shobjidl_core/ITaskbarList3::SetThumbnailClip
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITaskbarList3.SetThumbnailClip"
+f1_keywords:
+- shobjidl_core/ITaskbarList3.SetThumbnailClip
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Explorerframe.lib
 req.dll: Explorerframe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Explorerframe.dll
+- Explorerframe.dll
 api_name:
- - ITaskbarList3.SetThumbnailClip
+- ITaskbarList3.SetThumbnailClip
 targetos: Windows
 req.typenames: 
 req.redist: 

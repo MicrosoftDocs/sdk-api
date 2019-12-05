@@ -1,19 +1,17 @@
 ---
 UID: NN:eventsys.IEventClass
 title: IEventClass (eventsys.h)
-
 description: Associates a class of event objects with the event interface those objects implement.
 old-location: cos\ieventclass.htm
 tech.root: cossdk
 ms.assetid: e8c1fcd1-59fb-49d6-94b9-52b7c8551651
-
 ms.date: 12/05/2018
 ms.keywords: IEventClass, IEventClass interface [COM+], IEventClass interface [COM+],described, _cos_IEventClass, cos.ieventclass, eventsys/IEventClass
 ms.topic: interface
-f1_keywords: 
- - "eventsys/IEventClass"
+f1_keywords:
+- eventsys/IEventClass
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - eventsys.h
+- eventsys.h
 api_name:
- - IEventClass
+- IEventClass
 targetos: Windows
 req.typenames: 
 req.redist: 

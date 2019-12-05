@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.GetAlignment
 title: ITextRow::GetAlignment (tom.h)
-
 description: Gets the horizontal alignment of a row.
 old-location: controls\itextrow_getalignment.htm
 tech.root: Controls
 ms.assetid: 2c7279b0-6329-4abd-a719-da4ed4d71c71
-
 ms.date: 12/05/2018
 ms.keywords: GetAlignment, GetAlignment method [Windows Controls], GetAlignment method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetAlignment method, ITextRow.GetAlignment, ITextRow::GetAlignment, controls.itextrow_getalignment, tom/ITextRow::GetAlignment
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.GetAlignment"
+f1_keywords:
+- tom/ITextRow.GetAlignment
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.GetAlignment
+- ITextRow.GetAlignment
 targetos: Windows
 req.typenames: 
 req.redist: 

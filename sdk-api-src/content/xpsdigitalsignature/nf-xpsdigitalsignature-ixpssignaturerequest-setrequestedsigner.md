@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.SetRequestedSigner
 title: IXpsSignatureRequest::SetRequestedSigner (xpsdigitalsignature.h)
-
 description: Sets the identity of the person who signed or is requested to sign the package.
 old-location: xps\ixpssignaturerequest_setrequestedsigner.htm
 tech.root: printdocs
 ms.assetid: c744fb64-2e94-484c-9045-46a8357b0007
-
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureRequest interface [XPS Documents and Packaging],SetRequestedSigner method, IXpsSignatureRequest.SetRequestedSigner, IXpsSignatureRequest::SetRequestedSigner, SetRequestedSigner, SetRequestedSigner method [XPS Documents and Packaging], SetRequestedSigner method [XPS Documents and Packaging],IXpsSignatureRequest interface, xps.ixpssignaturerequest_setrequestedsigner, xpsdigitalsignature/IXpsSignatureRequest::SetRequestedSigner
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignatureRequest.SetRequestedSigner"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignatureRequest.SetRequestedSigner
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignatureRequest.SetRequestedSigner
+- IXpsSignatureRequest.SetRequestedSigner
 targetos: Windows
 req.typenames: 
 req.redist: 

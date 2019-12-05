@@ -1,19 +1,17 @@
 ---
 UID: NF:lmapibuf.NetApiBufferReallocate
 title: NetApiBufferReallocate function (lmapibuf.h)
-
 description: The NetApiBufferReallocate function changes the size of a buffer allocated by a previous call to the NetApiBufferAllocate function.
 old-location: netmgmt\netapibufferreallocate.htm
 tech.root: NetMgmt
 ms.assetid: 61153de0-33d3-4c83-a8aa-a7179252328c
-
 ms.date: 12/05/2018
 ms.keywords: NetApiBufferReallocate, NetApiBufferReallocate function [Network Management], _win32_netapibufferreallocate, lmapibuf/NetApiBufferReallocate, netmgmt.netapibufferreallocate
 ms.topic: function
-f1_keywords: 
- - "lmapibuf/NetApiBufferReallocate"
+f1_keywords:
+- lmapibuf/NetApiBufferReallocate
 dev_langs:
- - c++
+- c++
 req.header: lmapibuf.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetApiBufferReallocate
+- NetApiBufferReallocate
 targetos: Windows
 req.typenames: 
 req.redist: 

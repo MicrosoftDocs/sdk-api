@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._TXFS_TRANSACTION_ACTIVE_INFO
 title: TXFS_TRANSACTION_ACTIVE_INFO
-
 description: Contains the flag that indicates whether transactions were active or not when a snapshot was taken.
 old-location: fs\txfs_transaction_active_info.htm
 tech.root: FileIO
 ms.assetid: 72ab7652-7841-4195-a109-1caf65b629f1
-
 ms.date: 12/05/2018
-ms.keywords: "*PTXFS_TRANSACTION_ACTIVE_INFO, PTXFS_TRANSACTION_ACTIVE_INFO, PTXFS_TRANSACTION_ACTIVE_INFO structure pointer [Files], TXFS_TRANSACTION_ACTIVE_INFO, TXFS_TRANSACTION_ACTIVE_INFO structure [Files], fs.txfs_transaction_active_info, winioctl/PTXFS_TRANSACTION_ACTIVE_INFO, winioctl/TXFS_TRANSACTION_ACTIVE_INFO"
+ms.keywords: '*PTXFS_TRANSACTION_ACTIVE_INFO, PTXFS_TRANSACTION_ACTIVE_INFO, PTXFS_TRANSACTION_ACTIVE_INFO structure pointer [Files], TXFS_TRANSACTION_ACTIVE_INFO, TXFS_TRANSACTION_ACTIVE_INFO structure [Files], fs.txfs_transaction_active_info, winioctl/PTXFS_TRANSACTION_ACTIVE_INFO, winioctl/TXFS_TRANSACTION_ACTIVE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/TXFS_TRANSACTION_ACTIVE_INFO"
+f1_keywords:
+- winioctl/TXFS_TRANSACTION_ACTIVE_INFO
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - TXFS_TRANSACTION_ACTIVE_INFO
+- TXFS_TRANSACTION_ACTIVE_INFO
 targetos: Windows
 req.typenames: TXFS_TRANSACTION_ACTIVE_INFO, *PTXFS_TRANSACTION_ACTIVE_INFO
 req.redist: 

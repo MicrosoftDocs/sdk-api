@@ -1,19 +1,17 @@
 ---
 UID: NF:cryptuiapi.CryptUIDlgSelectCertificateFromStore
 title: CryptUIDlgSelectCertificateFromStore function (cryptuiapi.h)
-
 description: Displays a dialog box that allows the selection of a certificate from a specified store.
 old-location: security\cryptuidlgselectcertificatefromstore.htm
 tech.root: SecCrypto
 ms.assetid: 5774af1c-f2d4-4b1e-a20b-dfb57bf9aa37
-
 ms.date: 12/05/2018
 ms.keywords: CRYPTUI_SELECT_EXPIRATION_COLUMN, CRYPTUI_SELECT_FRIENDLYNAME_COLUMN, CRYPTUI_SELECT_INTENDEDUSE_COLUMN, CRYPTUI_SELECT_ISSUEDBY_COLUMN, CRYPTUI_SELECT_ISSUEDTO_COLUMN, CRYPTUI_SELECT_LOCATION_COLUMN, CryptUIDlgSelectCertificateFromStore, CryptUIDlgSelectCertificateFromStore function [Security], _crypto2_cryptuidlgselectcertificatefromstore, cryptuiapi/CryptUIDlgSelectCertificateFromStore, security.cryptuidlgselectcertificatefromstore
 ms.topic: function
-f1_keywords: 
- - "cryptuiapi/CryptUIDlgSelectCertificateFromStore"
+f1_keywords:
+- cryptuiapi/CryptUIDlgSelectCertificateFromStore
 dev_langs:
- - c++
+- c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Cryptui.lib
 req.dll: Cryptui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cryptui.dll
- - Ext-MS-Win-security-cryptui-l1-1-0.dll
- - ext-ms-win-security-cryptui-l1-1-1.dll
- - CertCredProviderOneCore.dll
+- Cryptui.dll
+- Ext-MS-Win-security-cryptui-l1-1-0.dll
+- ext-ms-win-security-cryptui-l1-1-1.dll
+- CertCredProviderOneCore.dll
 api_name:
- - CryptUIDlgSelectCertificateFromStore
+- CryptUIDlgSelectCertificateFromStore
 targetos: Windows
 req.typenames: 
 req.redist: 

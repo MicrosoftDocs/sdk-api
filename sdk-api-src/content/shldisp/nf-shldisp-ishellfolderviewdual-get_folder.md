@@ -1,19 +1,17 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual.get_Folder
 title: IShellFolderViewDual::get_Folder (shldisp.h)
-
 description: Gets the Folder object that represents the view.
 old-location: shell\IShellFolderViewDual_get_Folder.htm
 tech.root: shell
 ms.assetid: 62af6b31-89bf-4965-a739-659f4fd932e3
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],get_Folder method, IShellFolderViewDual.get_Folder, IShellFolderViewDual::get_Folder, _shell_IShellFolderViewDual_get_Folder, get_Folder, get_Folder method [Windows Shell], get_Folder method [Windows Shell],IShellFolderViewDual interface, shell.IShellFolderViewDual_get_Folder, shldisp/IShellFolderViewDual::get_Folder
 ms.topic: method
-f1_keywords: 
- - "shldisp/IShellFolderViewDual.get_Folder"
+f1_keywords:
+- shldisp/IShellFolderViewDual.get_Folder
 dev_langs:
- - c++
+- c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shldisp.h
+- Shldisp.h
 api_name:
- - IShellFolderViewDual.get_Folder
+- IShellFolderViewDual.get_Folder
 targetos: Windows
 req.typenames: 
 req.redist: 

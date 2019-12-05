@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.WSDCreateUdpMessageParameters
 title: WSDCreateUdpMessageParameters function (wsdbase.h)
-
 description: Retrieves a pointer to the IWSDUdpMessageParameters interface.
 old-location: ncd\wsdcreateudpmessageparameters.htm
 tech.root: WsdApi
 ms.assetid: a183a5f8-edd9-4881-84d4-b23701c40f36
-
 ms.date: 12/05/2018
 ms.keywords: WSDCreateUdpMessageParameters, WSDCreateUdpMessageParameters function, ncd.wsdcreateudpmessageparameters, wsdbase/WSDCreateUdpMessageParameters
 ms.topic: function
-f1_keywords: 
- - "wsdbase/WSDCreateUdpMessageParameters"
+f1_keywords:
+- wsdbase/WSDCreateUdpMessageParameters
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - WSDCreateUdpMessageParameters
+- WSDCreateUdpMessageParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

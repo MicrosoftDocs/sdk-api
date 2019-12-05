@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.SetSigningLocale
 title: IXpsSignatureRequest::SetSigningLocale (xpsdigitalsignature.h)
-
 description: Sets the legal jurisdiction of the package signing location.
 old-location: xps\ixpssignaturerequest_setsigninglocale.htm
 tech.root: printdocs
 ms.assetid: 03d93f1a-2d49-4179-b706-20a688e2467d
-
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureRequest interface [XPS Documents and Packaging],SetSigningLocale method, IXpsSignatureRequest.SetSigningLocale, IXpsSignatureRequest::SetSigningLocale, SetSigningLocale, SetSigningLocale method [XPS Documents and Packaging], SetSigningLocale method [XPS Documents and Packaging],IXpsSignatureRequest interface, xps.ixpssignaturerequest_setsigninglocale, xpsdigitalsignature/IXpsSignatureRequest::SetSigningLocale
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignatureRequest.SetSigningLocale"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignatureRequest.SetSigningLocale
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignatureRequest.SetSigningLocale
+- IXpsSignatureRequest.SetSigningLocale
 targetos: Windows
 req.typenames: 
 req.redist: 

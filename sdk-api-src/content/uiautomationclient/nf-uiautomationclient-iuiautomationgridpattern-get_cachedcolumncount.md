@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridPattern.get_CachedColumnCount
 title: IUIAutomationGridPattern::get_CachedColumnCount (uiautomationclient.h)
-
 description: Retrieves the cached number of columns in the grid.
 old-location: winauto\uiauto_IUIAutomationGridPattern_CachedColumnCount.htm
 tech.root: WinAuto
 ms.assetid: d425d767-3ae4-4644-a8bb-b901462c6c4b
-
 ms.date: 12/05/2018
 ms.keywords: CachedColumnCount property [Windows Accessibility], CachedColumnCount property [Windows Accessibility],IUIAutomationGridPattern interface, IUIAutomationGridPattern interface [Windows Accessibility],CachedColumnCount property, IUIAutomationGridPattern.CachedColumnCount, IUIAutomationGridPattern.get_CachedColumnCount, IUIAutomationGridPattern::CachedColumnCount, IUIAutomationGridPattern::get_CachedColumnCount, get_CachedColumnCount, uiauto.uiauto_IUIAutomationGridPattern_CachedColumnCount, uiauto_IUIAutomationGridPattern_CachedColumnCount, uiautomationclient/IUIAutomationGridPattern::CachedColumnCount, uiautomationclient/IUIAutomationGridPattern::get_CachedColumnCount, winauto.uiauto_IUIAutomationGridPattern_CachedColumnCount
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationGridPattern.CachedColumnCount"
+f1_keywords:
+- uiautomationclient/IUIAutomationGridPattern.CachedColumnCount
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationGridPattern.CachedColumnCount
- - IUIAutomationGridPattern.get_CachedColumnCount
+- IUIAutomationGridPattern.CachedColumnCount
+- IUIAutomationGridPattern.get_CachedColumnCount
 targetos: Windows
 req.typenames: 
 req.redist: 

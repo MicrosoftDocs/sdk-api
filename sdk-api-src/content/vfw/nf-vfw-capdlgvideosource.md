@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capDlgVideoSource
 title: capDlgVideoSource macro (vfw.h)
-
 description: The capDlgVideoSource macro displays a dialog box in which the user can control the video source.
 old-location: multimedia\capdlgvideosource.htm
 tech.root: Multimedia
 ms.assetid: 9913a9e0-13ee-4f4b-9e8b-0f2549e4ded3
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capDlgVideoSource, capDlgVideoSource, capDlgVideoSource macro [Windows Multimedia], multimedia.capdlgvideosource, vfw/capDlgVideoSource"
+ms.keywords: _win32_capDlgVideoSource, capDlgVideoSource, capDlgVideoSource macro [Windows Multimedia], multimedia.capdlgvideosource, vfw/capDlgVideoSource
 ms.topic: macro
-f1_keywords: 
- - "vfw/capDlgVideoSource"
+f1_keywords:
+- vfw/capDlgVideoSource
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capDlgVideoSource
+- capDlgVideoSource
 targetos: Windows
 req.typenames: 
 req.redist: 

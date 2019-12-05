@@ -1,19 +1,17 @@
 ---
 UID: NN:netfw.INetFwOpenPort
 title: INetFwOpenPort (netfw.h)
-
 description: The INetFwOpenPort interface provides access to the properties of a port that has been opened in the firewall.
 old-location: ics\inetfwopenport.htm
 tech.root: ics
 ms.assetid: 1a9fd676-b1c0-4be5-9571-d14ac5980af5
-
 ms.date: 12/05/2018
 ms.keywords: INetFwOpenPort, INetFwOpenPort interface [ICS/ICF], INetFwOpenPort interface [ICS/ICF],described, ics.inetfwopenport, netfw/INetFwOpenPort
 ms.topic: interface
-f1_keywords: 
- - "netfw/INetFwOpenPort"
+f1_keywords:
+- netfw/INetFwOpenPort
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwOpenPort
+- INetFwOpenPort
 targetos: Windows
 req.typenames: 
 req.redist: 

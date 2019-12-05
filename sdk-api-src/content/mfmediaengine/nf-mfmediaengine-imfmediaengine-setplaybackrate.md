@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetPlaybackRate
 title: IMFMediaEngine::SetPlaybackRate (mfmediaengine.h)
-
 description: Sets the current playback rate.
 old-location: mf\imfmediaengine_setplaybackrate.htm
 tech.root: medfound
 ms.assetid: 648BF1CC-BFAC-4874-808B-F8B46E3E9989
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetPlaybackRate method, IMFMediaEngine.SetPlaybackRate, IMFMediaEngine::SetPlaybackRate, SetPlaybackRate, SetPlaybackRate method [Media Foundation], SetPlaybackRate method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setplaybackrate, mfmediaengine/IMFMediaEngine::SetPlaybackRate
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.SetPlaybackRate"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.SetPlaybackRate
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.SetPlaybackRate
+- IMFMediaEngine.SetPlaybackRate
 targetos: Windows
 req.typenames: 
 req.redist: 

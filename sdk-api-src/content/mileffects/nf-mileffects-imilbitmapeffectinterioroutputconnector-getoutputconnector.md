@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectInteriorOutputConnector.GetOutputConnector
 title: IMILBitmapEffectInteriorOutputConnector::GetOutputConnector (mileffects.h)
-
 description: Gets the IMILBitmapEffectOutputConnector associated with the interior output connector.
 old-location: wibe\_wibe_imilbitmapeffectinterioroutputconnector_getoutputconnector.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectinterioroutputconnector\getoutputconnector.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputConnector, GetOutputConnector method [WPF Bitmap Effects], GetOutputConnector method [WPF Bitmap Effects],IMILBitmapEffectInteriorOutputConnector interface, IMILBitmapEffectInteriorOutputConnector interface [WPF Bitmap Effects],GetOutputConnector method, IMILBitmapEffectInteriorOutputConnector.GetOutputConnector, IMILBitmapEffectInteriorOutputConnector::GetOutputConnector, _wibe_imilbitmapeffectinterioroutputconnector_getoutputconnector, mileffects/IMILBitmapEffectInteriorOutputConnector::GetOutputConnector, wibe._wibe_imilbitmapeffectinterioroutputconnector_getoutputconnector
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectInteriorOutputConnector.GetOutputConnector"
+f1_keywords:
+- mileffects/IMILBitmapEffectInteriorOutputConnector.GetOutputConnector
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mileffects.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.dll
+- Mileffects.dll
 api_name:
- - IMILBitmapEffectInteriorOutputConnector.GetOutputConnector
+- IMILBitmapEffectInteriorOutputConnector.GetOutputConnector
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

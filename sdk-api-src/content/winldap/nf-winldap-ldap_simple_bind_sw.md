@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_simple_bind_sW
 title: ldap_simple_bind_sW function (winldap.h)
-
 description: The ldap_simple_bind_s function synchronously authenticates a client to a server, using a plaintext password.
 old-location: ldap\ldap_simple_bind_s.htm
 tech.root: ldap
 ms.assetid: c3edca12-2dde-4f64-a479-2fbda8a4a996
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_simple_bind_s, ldap.ldap__simple__bind__s, ldap.ldap_simple_bind_s, ldap_simple_bind_s, ldap_simple_bind_s function [LDAP], ldap_simple_bind_sA, ldap_simple_bind_sW, winldap/ldap_simple_bind_s, winldap/ldap_simple_bind_sA, winldap/ldap_simple_bind_sW"
+ms.keywords: _ldap_ldap_simple_bind_s, ldap.ldap__simple__bind__s, ldap.ldap_simple_bind_s, ldap_simple_bind_s, ldap_simple_bind_s function [LDAP], ldap_simple_bind_sA, ldap_simple_bind_sW, winldap/ldap_simple_bind_s, winldap/ldap_simple_bind_sA, winldap/ldap_simple_bind_sW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_simple_bind_s"
+f1_keywords:
+- winldap/ldap_simple_bind_s
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_simple_bind_s
- - ldap_simple_bind_sA
- - ldap_simple_bind_sW
+- ldap_simple_bind_s
+- ldap_simple_bind_sA
+- ldap_simple_bind_sW
 targetos: Windows
 req.typenames: 
 req.redist: 

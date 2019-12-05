@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IWriteEngine2.get_EndingSectorsPerSecond
 title: IWriteEngine2::get_EndingSectorsPerSecond (imapi2.h)
-
 description: Retrieves the estimated number of sectors per second that the recording device can write to the media at the end of the writing process.
 old-location: imapi\iwriteengine2_get_endingsectorspersecond.htm
 tech.root: imapi
 ms.assetid: 7e6a5f41-328d-47b3-ba43-900e524cf51a
-
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],get_EndingSectorsPerSecond method, IWriteEngine2.get_EndingSectorsPerSecond, IWriteEngine2::get_EndingSectorsPerSecond, get_EndingSectorsPerSecond, get_EndingSectorsPerSecond method [IMAPI], get_EndingSectorsPerSecond method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_get_endingsectorspersecond, imapi2/IWriteEngine2::get_EndingSectorsPerSecond
 ms.topic: method
-f1_keywords: 
- - "imapi2/IWriteEngine2.get_EndingSectorsPerSecond"
+f1_keywords:
+- imapi2/IWriteEngine2.get_EndingSectorsPerSecond
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IWriteEngine2.get_EndingSectorsPerSecond
+- IWriteEngine2.get_EndingSectorsPerSecond
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmCalloutDestroyEnumHandle0
 title: FwpmCalloutDestroyEnumHandle0 function (fwpmu.h)
-
 description: Frees a handle returned by FwpmCalloutCreateEnumHandle0.
 old-location: fwp\fwpmcalloutdestroyenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: 6aa41eed-b53c-4b35-a45c-88f89086cacc
-
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutDestroyEnumHandle0, FwpmCalloutDestroyEnumHandle0 function [Filtering], fwp.fwpmcalloutdestroyenumhandle0_func, fwpmu/FwpmCalloutDestroyEnumHandle0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmCalloutDestroyEnumHandle0"
+f1_keywords:
+- fwpmu/FwpmCalloutDestroyEnumHandle0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmCalloutDestroyEnumHandle0
+- FwpmCalloutDestroyEnumHandle0
 targetos: Windows
 req.typenames: 
 req.redist: 

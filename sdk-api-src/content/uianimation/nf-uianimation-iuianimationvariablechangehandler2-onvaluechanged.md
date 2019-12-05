@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationVariableChangeHandler2.OnValueChanged
 title: IUIAnimationVariableChangeHandler2::OnValueChanged (uianimation.h)
-
 description: Handles events that occur when the value of an animation variable changes in the specified dimension.
 old-location: uianimation\iuianimationvariablechangehandler2_onvaluechanged.htm
 tech.root: UIAnimation
 ms.assetid: 3C885518-8EAC-4123-83A5-5DEB27523DEF
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariableChangeHandler2 interface [Windows Animation],OnValueChanged method, IUIAnimationVariableChangeHandler2.OnValueChanged, IUIAnimationVariableChangeHandler2::OnValueChanged, OnValueChanged, OnValueChanged method [Windows Animation], OnValueChanged method [Windows Animation],IUIAnimationVariableChangeHandler2 interface, uianimation.iuianimationvariablechangehandler2_onvaluechanged, uianimation/IUIAnimationVariableChangeHandler2::OnValueChanged
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationVariableChangeHandler2.OnValueChanged"
+f1_keywords:
+- uianimation/IUIAnimationVariableChangeHandler2.OnValueChanged
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationVariableChangeHandler2.OnValueChanged
+- IUIAnimationVariableChangeHandler2.OnValueChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

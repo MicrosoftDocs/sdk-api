@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroupMapWriter.AddAutomaticFile
 title: IAppxContentGroupMapWriter::AddAutomaticFile (appxpackaging.h)
-
 description: Adds files to an automatic content group in a content group map.
 old-location: appxpkg\iappxcontentgroupmapwriter_addautomaticfile.htm
 tech.root: appxpkg
 ms.assetid: 73F03332-8427-4470-9001-5EA9481BB05E
-
 ms.date: 12/05/2018
 ms.keywords: AddAutomaticFile, AddAutomaticFile method [App packaging and management], AddAutomaticFile method [App packaging and management],IAppxContentGroupMapWriter interface, IAppxContentGroupMapWriter interface [App packaging and management],AddAutomaticFile method, IAppxContentGroupMapWriter.AddAutomaticFile, IAppxContentGroupMapWriter::AddAutomaticFile, appxpackaging/IAppxContentGroupMapWriter::AddAutomaticFile, appxpkg.iappxcontentgroupmapwriter_addautomaticfile
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxContentGroupMapWriter.AddAutomaticFile"
+f1_keywords:
+- appxpackaging/IAppxContentGroupMapWriter.AddAutomaticFile
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxContentGroupMapWriter.AddAutomaticFile
+- IAppxContentGroupMapWriter.AddAutomaticFile
 targetos: Windows
 req.typenames: 
 req.redist: 

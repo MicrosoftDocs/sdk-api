@@ -1,19 +1,17 @@
 ---
 UID: NF:snmp.SnmpUtilOidNCmp
 title: SnmpUtilOidNCmp function (snmp.h)
-
 description: The SnmpUtilOidNCmp function compares two object identifiers.
 old-location: snmp\snmputiloidncmp.htm
 tech.root: SNMP
 ms.assetid: a23df516-9559-4209-bf2d-8268737d1dfb
-
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilOidNCmp, SnmpUtilOidNCmp function [SNMP], _snmp_snmputiloidncmp, snmp.snmputiloidncmp, snmp/SnmpUtilOidNCmp
 ms.topic: function
-f1_keywords: 
- - "snmp/SnmpUtilOidNCmp"
+f1_keywords:
+- snmp/SnmpUtilOidNCmp
 dev_langs:
- - c++
+- c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Snmpapi.lib
 req.dll: Snmpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Snmpapi.dll
+- Snmpapi.dll
 api_name:
- - SnmpUtilOidNCmp
+- SnmpUtilOidNCmp
 targetos: Windows
 req.typenames: 
 req.redist: 

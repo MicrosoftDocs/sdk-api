@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsPathname
 title: IADsPathname (iads.h)
-
 description: Parses the X.500 and Windows path in ADSI.
 old-location: adsi\iadspathname.htm
 tech.root: adsi
 ms.assetid: 9aa26d6c-aa86-4a23-a986-b8cb9057772a
-
 ms.date: 12/05/2018
 ms.keywords: IADsPathname, IADsPathname interface [ADSI], IADsPathname interface [ADSI],described, Pathname, _ds_iadspathname, adsi.iadspathname, iads/IADsPathname
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsPathname"
+f1_keywords:
+- iads/IADsPathname
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsPathname
- - Pathname
+- IADsPathname
+- Pathname
 targetos: Windows
 req.typenames: 
 req.redist: 

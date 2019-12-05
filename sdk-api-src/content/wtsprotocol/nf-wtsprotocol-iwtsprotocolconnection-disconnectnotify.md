@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.DisconnectNotify
 title: IWTSProtocolConnection::DisconnectNotify (wtsprotocol.h)
-
 description: IWTSProtocolConnection::DisconnectNotify is no longer available. Instead, use IWRdsProtocolConnection::DisconnectNotify.
 old-location: termserv\iwtsprotocolconnection_disconnectnotify.htm
 tech.root: TermServ
 ms.assetid: d2712d53-2e52-49d9-874e-e6425235d3f0
-
 ms.date: 12/05/2018
 ms.keywords: DisconnectNotify, DisconnectNotify method [Remote Desktop Services], DisconnectNotify method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],DisconnectNotify method, IWTSProtocolConnection.DisconnectNotify, IWTSProtocolConnection::DisconnectNotify, termserv.iwtsprotocolconnection_disconnectnotify, wtsprotocol/IWTSProtocolConnection::DisconnectNotify
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolConnection.DisconnectNotify"
+f1_keywords:
+- wtsprotocol/IWTSProtocolConnection.DisconnectNotify
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection.DisconnectNotify
+- IWTSProtocolConnection.DisconnectNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

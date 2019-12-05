@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsAbortChannel
 title: WsAbortChannel function (webservices.h)
-
 description: Cancels all pending I/O for a specified channel.
 old-location: wsw\wsabortchannel.htm
 tech.root: wsw
 ms.assetid: 67af85d7-db75-4e26-a7cc-8115ac3f2d59
-
 ms.date: 12/05/2018
 ms.keywords: WsAbortChannel, WsAbortChannel function [Web Services for Windows], webservices/WsAbortChannel, wsw.wsabortchannel
 ms.topic: function
-f1_keywords: 
- - "webservices/WsAbortChannel"
+f1_keywords:
+- webservices/WsAbortChannel
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsAbortChannel
+- WsAbortChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:vdshwprv.IVdsIscsiPortalGroup
 title: IVdsIscsiPortalGroup (vdshwprv.h)
-
 description: Provides methods for performing query and configuration services on an iSCSI portal group.
 old-location: base\ivdsiscsiportalgroup.htm
 tech.root: VDS
 ms.assetid: 65d773bd-3828-4c9d-a841-bb85a53aeadc
-
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiPortalGroup, IVdsIscsiPortalGroup interface [VDS], IVdsIscsiPortalGroup interface [VDS],described, base.ivdsiscsiportalgroup, vds/IVdsIscsiPortalGroup, vdshwprv/IVdsIscsiPortalGroup
 ms.topic: interface
-f1_keywords: 
- - "vdshwprv/IVdsIscsiPortalGroup"
+f1_keywords:
+- vdshwprv/IVdsIscsiPortalGroup
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsIscsiPortalGroup
+- IVdsIscsiPortalGroup
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

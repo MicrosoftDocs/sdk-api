@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRMonitorConfig.GetDefaultMonitor
 title: IVMRMonitorConfig::GetDefaultMonitor (strmif.h)
-
 description: The GetDefaultMonitor method retrieves the default monitor that all future instances of the VMR will use for video playback.
 old-location: dshow\ivmrmonitorconfig_getdefaultmonitor.htm
 tech.root: DirectShow
 ms.assetid: 354b7f6e-35f8-4824-b5b5-24a37166462b
-
 ms.date: 12/05/2018
 ms.keywords: GetDefaultMonitor, GetDefaultMonitor method [DirectShow], GetDefaultMonitor method [DirectShow],IVMRMonitorConfig interface, IVMRMonitorConfig interface [DirectShow],GetDefaultMonitor method, IVMRMonitorConfig.GetDefaultMonitor, IVMRMonitorConfig::GetDefaultMonitor, IVMRMonitorConfigGetDefaultMonitor, dshow.ivmrmonitorconfig_getdefaultmonitor, strmif/IVMRMonitorConfig::GetDefaultMonitor
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRMonitorConfig.GetDefaultMonitor"
+f1_keywords:
+- strmif/IVMRMonitorConfig.GetDefaultMonitor
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRMonitorConfig.GetDefaultMonitor
+- IVMRMonitorConfig.GetDefaultMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 

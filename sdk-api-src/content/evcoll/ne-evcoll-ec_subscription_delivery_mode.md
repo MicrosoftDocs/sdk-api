@@ -1,19 +1,17 @@
 ---
 UID: NE:evcoll._EC_SUBSCRIPTION_DELIVERY_MODE
 title: EC_SUBSCRIPTION_DELIVERY_MODE (evcoll.h)
-
 description: Defines values that indicate how events are delivered in a subscription.
 old-location: wec\ec_subscription_delivery_mode.htm
 tech.root: WEC
 ms.assetid: ece884d6-df3c-44d0-a10c-affcf3107148
-
 ms.date: 12/05/2018
 ms.keywords: EC_SUBSCRIPTION_DELIVERY_MODE, EC_SUBSCRIPTION_DELIVERY_MODE enumeration, EcDeliveryModePull, EcDeliveryModePush, evcoll/EC_SUBSCRIPTION_DELIVERY_MODE, evcoll/EcDeliveryModePull, evcoll/EcDeliveryModePush, wec.ec_subscription_delivery_mode, wes.ec_subscription_delivery_mode
 ms.topic: enum
-f1_keywords: 
- - "evcoll/EC_SUBSCRIPTION_DELIVERY_MODE"
+f1_keywords:
+- evcoll/EC_SUBSCRIPTION_DELIVERY_MODE
 dev_langs:
- - c++
+- c++
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Evcoll.h
+- Evcoll.h
 api_name:
- - EC_SUBSCRIPTION_DELIVERY_MODE
+- EC_SUBSCRIPTION_DELIVERY_MODE
 targetos: Windows
 req.typenames: EC_SUBSCRIPTION_DELIVERY_MODE
 req.redist: 

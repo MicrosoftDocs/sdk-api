@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IServiceComTIIntrinsicsConfig.ComTIIntrinsicsConfig
 title: IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig (comsvcs.h)
-
 description: Configures the COMTI intrinsics for the enclosed work.
 old-location: cos\iservicecomtiintrinsicsconfig_comtiintrinsicsconfig.htm
 tech.root: cossdk
 ms.assetid: 2e534123-6300-4da3-a220-ba0b41a7c9a2
-
 ms.date: 12/05/2018
 ms.keywords: ComTIIntrinsicsConfig, ComTIIntrinsicsConfig method [COM+], ComTIIntrinsicsConfig method [COM+],IServiceComTIIntrinsicsConfig interface, IServiceComTIIntrinsicsConfig interface [COM+],ComTIIntrinsicsConfig method, IServiceComTIIntrinsicsConfig.ComTIIntrinsicsConfig, IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig, _cos_IServiceComTIIntrinsicsConfig_ComTIIntrinsicsConfig, comsvcs/IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig, cos.iservicecomtiintrinsicsconfig_comtiintrinsicsconfig
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IServiceComTIIntrinsicsConfig.ComTIIntrinsicsConfig"
+f1_keywords:
+- comsvcs/IServiceComTIIntrinsicsConfig.ComTIIntrinsicsConfig
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServiceComTIIntrinsicsConfig.ComTIIntrinsicsConfig
+- IServiceComTIIntrinsicsConfig.ComTIIntrinsicsConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

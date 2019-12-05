@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.HttpEndRequestW
 title: HttpEndRequestW function (wininet.h)
-
 description: Ends an HTTP request that was initiated by HttpSendRequestEx.
 old-location: wininet\httpendrequest.htm
 tech.root: wininet
 ms.assetid: 6ea91da6-0bc2-49b6-a56b-c4224ad73b81
-
 ms.date: 12/05/2018
 ms.keywords: HttpEndRequest, HttpEndRequest function [WinINet], HttpEndRequestA, HttpEndRequestW, _win32_httpendrequest, wininet.httpendrequest, wininet/HttpEndRequest, wininet/HttpEndRequestA, wininet/HttpEndRequestW
 ms.topic: function
-f1_keywords: 
- - "wininet/HttpEndRequest"
+f1_keywords:
+- wininet/HttpEndRequest
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - HttpEndRequest
- - HttpEndRequestA
- - HttpEndRequestW
+- HttpEndRequest
+- HttpEndRequestA
+- HttpEndRequestW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:fsrmenums._FsrmPropertyBagField
 title: FsrmPropertyBagField (fsrmenums.h)
-
 description: Describes the type of property bag.
 old-location: fsrm\fsrmpropertybagfield.htm
 tech.root: fsrm
 ms.assetid: 7a8cd6a6-7933-4190-b4fc-1b1cd653bd14
-
 ms.date: 12/05/2018
 ms.keywords: FsrmPropertyBagField, FsrmPropertyBagField enumeration [File Server Resource Manager], FsrmPropertyBagField_AccessVolume, FsrmPropertyBagField_VolumeGuidName, fs.fsrmpropertybagfield, fsrm.fsrmpropertybagfield, fsrmenums/FsrmPropertyBagField, fsrmenums/FsrmPropertyBagField_AccessVolume, fsrmenums/FsrmPropertyBagField_VolumeGuidName
 ms.topic: enum
-f1_keywords: 
- - "fsrmenums/FsrmPropertyBagField"
+f1_keywords:
+- fsrmenums/FsrmPropertyBagField
 dev_langs:
- - c++
+- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FsrmEnums.h
+- FsrmEnums.h
 api_name:
- - FsrmPropertyBagField
+- FsrmPropertyBagField
 targetos: Windows
 req.typenames: FsrmPropertyBagField
 req.redist: 

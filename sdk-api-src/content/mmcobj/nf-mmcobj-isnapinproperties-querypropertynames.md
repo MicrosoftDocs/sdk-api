@@ -1,19 +1,17 @@
 ---
 UID: NF:mmcobj.ISnapinProperties.QueryPropertyNames
 title: ISnapinProperties::QueryPropertyNames (mmcobj.h)
-
 description: The QueryPropertyNames method returns the names of the properties used for the snap-in's configuration.
 old-location: mmc\isnapinproperties_querypropertynames.htm
 tech.root: mmc
 ms.assetid: 41f949aa-4be5-4e60-aa1d-0605f489fec6
-
 ms.date: 12/05/2018
 ms.keywords: ISnapinProperties interface [MMC],QueryPropertyNames method, ISnapinProperties.QueryPropertyNames, ISnapinProperties::QueryPropertyNames, QueryPropertyNames, QueryPropertyNames method [MMC], QueryPropertyNames method [MMC],ISnapinProperties interface, _slate_isnapinproperties_querypropertynames, mmc.isnapinproperties_querypropertynames, mmcobj/ISnapinProperties::QueryPropertyNames
 ms.topic: method
-f1_keywords: 
- - "mmcobj/ISnapinProperties.QueryPropertyNames"
+f1_keywords:
+- mmcobj/ISnapinProperties.QueryPropertyNames
 dev_langs:
- - c++
+- c++
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcobj.h
+- Mmcobj.h
 api_name:
- - ISnapinProperties.QueryPropertyNames
+- ISnapinProperties.QueryPropertyNames
 targetos: Windows
 req.typenames: 
 req.redist: 

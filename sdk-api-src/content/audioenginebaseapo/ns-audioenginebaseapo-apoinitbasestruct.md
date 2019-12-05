@@ -1,19 +1,17 @@
 ---
 UID: NS:audioenginebaseapo.APOInitBaseStruct
 title: APOInitBaseStruct (audioenginebaseapo.h)
-
 description: The APOInitBaseStruct structure is the base initialization header that must precede other initialization data in IAudioProcessingObject::Initialize.
 old-location: audio\apoinitbasestruct.htm
 tech.root: audio
 ms.assetid: 15C973AE-B0E8-42FD-9F34-671A6A915B47
-
 ms.date: 12/05/2018
 ms.keywords: APOInitBaseStruct, APOInitBaseStruct structure [Audio Devices], PAPOInitBaseStruct, PAPOInitBaseStruct structure pointer [Audio Devices], audio.apoinitbasestruct, audioenginebaseapo/APOInitBaseStruct, audioenginebaseapo/PAPOInitBaseStruct
 ms.topic: struct
-f1_keywords: 
- - "audioenginebaseapo/APOInitBaseStruct"
+f1_keywords:
+- audioenginebaseapo/APOInitBaseStruct
 dev_langs:
- - c++
+- c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Audioenginebaseapo.h
+- Audioenginebaseapo.h
 api_name:
- - APOInitBaseStruct
+- APOInitBaseStruct
 targetos: Windows
 req.typenames: APOInitBaseStruct
 req.redist: 

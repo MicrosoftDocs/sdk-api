@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Region.IsEmpty
 title: Region::IsEmpty (gdiplusheaders.h)
-
 description: The Region::IsEmpty method determines whether this region is empty.
 old-location: gdiplus\_gdiplus_CLASS_Region_IsEmpty_g_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\isempty.htm
-
 ms.date: 12/05/2018
 ms.keywords: IsEmpty, IsEmpty method [GDI+], IsEmpty method [GDI+],Region class, Region class [GDI+],IsEmpty method, Region.IsEmpty, Region::IsEmpty, _gdiplus_CLASS_Region_IsEmpty_g_, gdiplus._gdiplus_CLASS_Region_IsEmpty_g_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Region.IsEmpty"
+f1_keywords:
+- gdiplusheaders/Region.IsEmpty
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Region.IsEmpty
+- Region.IsEmpty
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:casetup.ICertificateEnrollmentPolicyServerSetup
 title: ICertificateEnrollmentPolicyServerSetup (casetup.h)
-
 description: The ICertificateEnrollmentPolicyServerSetup interface represents the Certificate Enrollment Policy (CEP) Web Service within Active Directory Certificate Services (ADCS).
 old-location: security\icertificateenrollmentpolicyserversetup.htm
 tech.root: SecCrypto
 ms.assetid: 8C9F33BA-5FCB-4B99-869C-FADDC37A326A
-
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentPolicyServerSetup, ICertificateEnrollmentPolicyServerSetup interface [Security], ICertificateEnrollmentPolicyServerSetup interface [Security],described, casetup/ICertificateEnrollmentPolicyServerSetup, security.icertificateenrollmentpolicyserversetup
 ms.topic: interface
-f1_keywords: 
- - "casetup/ICertificateEnrollmentPolicyServerSetup"
+f1_keywords:
+- casetup/ICertificateEnrollmentPolicyServerSetup
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertificateEnrollmentPolicyServerSetup
+- ICertificateEnrollmentPolicyServerSetup
 targetos: Windows
 req.typenames: 
 req.redist: 

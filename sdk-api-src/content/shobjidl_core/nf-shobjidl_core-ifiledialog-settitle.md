@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetTitle
 title: IFileDialog::SetTitle (shobjidl_core.h)
-
 description: Sets the title of the dialog.
 old-location: shell\IFileDialog_SetTitle.htm
 tech.root: shell
 ms.assetid: 9ae3d226-e825-443a-a2b0-4b5bb07fc9f7
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetTitle method, IFileDialog.SetTitle, IFileDialog::SetTitle, SetTitle, SetTitle method [Windows Shell], SetTitle method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetTitle, shell_IFileDialog_SetTitle, shobjidl_core/IFileDialog::SetTitle
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialog.SetTitle"
+f1_keywords:
+- shobjidl_core/IFileDialog.SetTitle
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialog.SetTitle
+- IFileDialog.SetTitle
 targetos: Windows
 req.typenames: 
 req.redist: 

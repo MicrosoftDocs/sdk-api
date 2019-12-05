@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.DrvEscape
 title: DrvEscape function (winddi.h)
-
 description: The DrvEscape function is used for retrieving information from a device that is not available in a device-independent device driver interface; the particular query depends on the value of the iEsc parameter.
 old-location: display\drvescape.htm
 tech.root: display
 ms.assetid: 7b59dc85-27f4-4529-847e-6027dae8a45a
-
 ms.date: 12/05/2018
 ms.keywords: DrvEscape, DrvEscape function [Display Devices], ddifncs_14e6aa7f-fe76-48bb-9161-bdcc1a67309f.xml, display.drvescape, winddi/DrvEscape
 ms.topic: function
 f1_keywords:
 - winddi/DrvEscape
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

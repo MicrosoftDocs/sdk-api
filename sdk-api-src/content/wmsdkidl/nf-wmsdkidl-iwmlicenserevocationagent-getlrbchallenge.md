@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMLicenseRevocationAgent.GetLRBChallenge
 title: IWMLicenseRevocationAgent::GetLRBChallenge (wmsdkidl.h)
-
 description: The GetLRBChallenge method generates a response to a license revocation challenge message. Your application must send the response to the license server.
 old-location: wmformat\iwmlicenserevocationagent_getlrbchallenge.htm
 tech.root: wmformat
 ms.assetid: 9006f6c5-f9e7-4d00-a7c2-bbdfcfdd85e7
-
 ms.date: 12/05/2018
 ms.keywords: GetLRBChallenge, GetLRBChallenge method [windows Media Format], GetLRBChallenge method [windows Media Format],IWMLicenseRevocationAgent interface, IWMLicenseRevocationAgent interface [windows Media Format],GetLRBChallenge method, IWMLicenseRevocationAgent.GetLRBChallenge, IWMLicenseRevocationAgent::GetLRBChallenge, IWMLicenseRevocationAgentGetLRBChallenge, wmformat.iwmlicenserevocationagent_getlrbchallenge, wmsdkidl/IWMLicenseRevocationAgent::GetLRBChallenge
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMLicenseRevocationAgent.GetLRBChallenge"
+f1_keywords:
+- wmsdkidl/IWMLicenseRevocationAgent.GetLRBChallenge
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMLicenseRevocationAgent.GetLRBChallenge
+- IWMLicenseRevocationAgent.GetLRBChallenge
 targetos: Windows
 req.typenames: 
 req.redist: 

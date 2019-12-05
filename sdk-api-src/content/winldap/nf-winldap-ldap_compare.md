@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_compare
 title: ldap_compare function (winldap.h)
-
 description: Use the ldap_compare function to determine whether an attribute for a given entry holds a known value.
 old-location: ldap\ldap_compare.htm
 tech.root: ldap
 ms.assetid: 0cdcea2f-5ee2-407a-a229-5a3fb1e3b856
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_compare, ldap.ldap__compare, ldap.ldap_compare, ldap_compare, ldap_compare function [LDAP], ldap_compareA, ldap_compareW, winldap/ldap_compare, winldap/ldap_compareA, winldap/ldap_compareW"
+ms.keywords: _ldap_ldap_compare, ldap.ldap__compare, ldap.ldap_compare, ldap_compare, ldap_compare function [LDAP], ldap_compareA, ldap_compareW, winldap/ldap_compare, winldap/ldap_compareA, winldap/ldap_compareW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_compare"
+f1_keywords:
+- winldap/ldap_compare
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_compare
- - ldap_compareA
- - ldap_compareW
+- ldap_compare
+- ldap_compareA
+- ldap_compareW
 targetos: Windows
 req.typenames: 
 req.redist: 

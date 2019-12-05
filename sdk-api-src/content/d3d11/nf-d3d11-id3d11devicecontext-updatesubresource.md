@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.UpdateSubresource
 title: ID3D11DeviceContext::UpdateSubresource (d3d11.h)
-
 description: The CPU copies data from memory to a subresource created in non-mappable memory.
 old-location: direct3d11\id3d11devicecontext_updatesubresource.htm
 tech.root: direct3d11
 ms.assetid: 2d8ef5a2-204a-434d-918a-104419050233
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext interface [Direct3D 11],UpdateSubresource method, ID3D11DeviceContext.UpdateSubresource, ID3D11DeviceContext::UpdateSubresource, UpdateSubresource, UpdateSubresource method [Direct3D 11], UpdateSubresource method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::UpdateSubresource, direct3d11.id3d11devicecontext_updatesubresource, f9813ce8-3ca5-fd5e-fac2-bd93631ecbc8
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.UpdateSubresource"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.UpdateSubresource
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.UpdateSubresource
+- ID3D11DeviceContext.UpdateSubresource
 targetos: Windows
 req.typenames: 
 req.redist: 

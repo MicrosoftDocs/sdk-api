@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IThumbnailHandlerFactory
 title: IThumbnailHandlerFactory (shobjidl_core.h)
-
 description: Exposes a method for retrieving the thumbnail handler of an item. Implement this interface if you want to specify what extractor is used for a child IDList.
 old-location: shell\IThumbnailHandlerFactory.htm
 tech.root: shell
 ms.assetid: 83a9f676-ba03-4a0b-abe6-65f70c8babac
-
 ms.date: 12/05/2018
 ms.keywords: IThumbnailHandlerFactory, IThumbnailHandlerFactory interface [Windows Shell], IThumbnailHandlerFactory interface [Windows Shell],described, _shell_IThumbnailHandlerFactory, shell.IThumbnailHandlerFactory, shobjidl_core/IThumbnailHandlerFactory
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IThumbnailHandlerFactory"
+f1_keywords:
+- shobjidl_core/IThumbnailHandlerFactory
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IThumbnailHandlerFactory
+- IThumbnailHandlerFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

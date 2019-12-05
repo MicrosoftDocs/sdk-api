@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource2.DeleteCredentialsEx
 title: IWMSInternalAdminNetSource2::DeleteCredentialsEx (wmsinternaladminnetsource.h)
-
 description: The DeleteCredentialsEx method removes a password from the cache.
 old-location: wmformat\iwmsinternaladminnetsource2_deletecredentialsex.htm
 tech.root: wmformat
 ms.assetid: 06d82f1d-b965-40fb-8a79-904ba5af7191
-
 ms.date: 12/05/2018
 ms.keywords: DeleteCredentialsEx, DeleteCredentialsEx method [windows Media Format], DeleteCredentialsEx method [windows Media Format],IWMSInternalAdminNetSource2 interface, IWMSInternalAdminNetSource2 interface [windows Media Format],DeleteCredentialsEx method, IWMSInternalAdminNetSource2.DeleteCredentialsEx, IWMSInternalAdminNetSource2::DeleteCredentialsEx, IWMSInternalAdminNetSource2DeleteCredentialsEx, wmformat.iwmsinternaladminnetsource2_deletecredentialsex, wmsinternaladminnetsource/IWMSInternalAdminNetSource2::DeleteCredentialsEx
 ms.topic: method
-f1_keywords: 
- - "wmsinternaladminnetsource/IWMSInternalAdminNetSource2.DeleteCredentialsEx"
+f1_keywords:
+- wmsinternaladminnetsource/IWMSInternalAdminNetSource2.DeleteCredentialsEx
 dev_langs:
- - c++
+- c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMSInternalAdminNetSource2.DeleteCredentialsEx
+- IWMSInternalAdminNetSource2.DeleteCredentialsEx
 targetos: Windows
 req.typenames: 
 req.redist: 

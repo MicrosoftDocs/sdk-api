@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.ISyncChangeWithPrerequisite
 title: ISyncChangeWithPrerequisite (winsync.h)
-
 description: Represents metadata about a change that is based on the prerequisite knowledge that is associated with the change.
 old-location: winsync\isyncchangewithprerequisite.htm
 tech.root: winsync
 ms.assetid: 7650fc2c-fe2d-4cb1-a22a-433c90c5cb8d
-
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeWithPrerequisite, ISyncChangeWithPrerequisite interface [Windows Sync], ISyncChangeWithPrerequisite interface [Windows Sync],described, winsync.isyncchangewithprerequisite, winsync/ISyncChangeWithPrerequisite
 ms.topic: interface
-f1_keywords: 
- - "winsync/ISyncChangeWithPrerequisite"
+f1_keywords:
+- winsync/ISyncChangeWithPrerequisite
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChangeWithPrerequisite
+- ISyncChangeWithPrerequisite
 targetos: Windows
 req.typenames: 
 req.redist: 

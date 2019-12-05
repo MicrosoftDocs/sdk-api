@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerIdentityGetDefault
 title: PeerIdentityGetDefault function (p2p.h)
-
 description: The PeerIdentityGetDefault function retrieves the default peer name set for the current user.
 old-location: p2p\peeridentitygetdefault.htm
 tech.root: P2PSdk
 ms.assetid: 195052a2-eaae-4b8c-bc13-0667ce50a967
-
 ms.date: 12/05/2018
 ms.keywords: PeerIdentityGetDefault, PeerIdentityGetDefault function [Peer Networking], p2p.peeridentitygetdefault, p2p/PeerIdentityGetDefault
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerIdentityGetDefault"
+f1_keywords:
+- p2p/PeerIdentityGetDefault
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerIdentityGetDefault
+- PeerIdentityGetDefault
 targetos: Windows
 req.typenames: 
 req.redist: 

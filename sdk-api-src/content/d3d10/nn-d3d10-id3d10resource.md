@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10.ID3D10Resource
 title: ID3D10Resource (d3d10.h)
-
 description: A resource interface provides common actions on all resources.
 old-location: direct3d10\id3d10resource.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10resource.htm
-
 ms.date: 12/05/2018
 ms.keywords: ID3D10Resource, ID3D10Resource interface [Direct3D 10], ID3D10Resource interface [Direct3D 10],described, a827797e-b4b8-c82b-c567-463061c6d963, d3d10/ID3D10Resource, direct3d10.id3d10resource
 ms.topic: interface
-f1_keywords: 
- - "d3d10/ID3D10Resource"
+f1_keywords:
+- d3d10/ID3D10Resource
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Resource
+- ID3D10Resource
 targetos: Windows
 req.typenames: 
 req.redist: 

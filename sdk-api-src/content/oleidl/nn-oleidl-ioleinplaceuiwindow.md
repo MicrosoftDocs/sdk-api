@@ -1,19 +1,17 @@
 ---
 UID: NN:oleidl.IOleInPlaceUIWindow
 title: IOleInPlaceUIWindow (oleidl.h)
-
 description: Implemented by container applications and used by object applications to negotiate border space on the document or frame window.
 old-location: com\ioleinplaceuiwindow.htm
 tech.root: com
 ms.assetid: 3cfb31aa-9746-438c-af64-8236c170fe88
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceUIWindow, IOleInPlaceUIWindow interface [COM], IOleInPlaceUIWindow interface [COM],described, _ole_ioleinplaceuiwindow, com.ioleinplaceuiwindow, oleidl/IOleInPlaceUIWindow
 ms.topic: interface
-f1_keywords: 
- - "oleidl/IOleInPlaceUIWindow"
+f1_keywords:
+- oleidl/IOleInPlaceUIWindow
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleInPlaceUIWindow
+- IOleInPlaceUIWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

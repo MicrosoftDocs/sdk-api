@@ -1,19 +1,17 @@
 ---
 UID: NF:identityprovider.IIdentityProvider.Advise
 title: IIdentityProvider::Advise (identityprovider.h)
-
 description: Allows a calling application to specify the list of identity events for which the application is to be notified.
 old-location: security\iidentityprovider_advise.htm
 tech.root: SecAuthN
 ms.assetid: fcac9d30-64ed-4746-aacc-ee659c2b2642
-
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [Security], Advise method [Security],IIdentityProvider interface, IDENTITY_ASSOCIATED, IDENTITY_CREATED, IDENTITY_DELETED, IDENTITY_DISASSOCIATED, IDENTITY_IMPORTED, IDENTITY_PROPCHANGE, IIdentityProvider interface [Security],Advise method, IIdentityProvider.Advise, IIdentityProvider::Advise, identityprovider/IIdentityProvider::Advise, security.iidentityprovider_advise
 ms.topic: method
-f1_keywords: 
- - "identityprovider/IIdentityProvider.Advise"
+f1_keywords:
+- identityprovider/IIdentityProvider.Advise
 dev_langs:
- - c++
+- c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Identityprovider.h
+- Identityprovider.h
 api_name:
- - IIdentityProvider.Advise
+- IIdentityProvider.Advise
 targetos: Windows
 req.typenames: 
 req.redist: 

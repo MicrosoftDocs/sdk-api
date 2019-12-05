@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_33
 title: ADSPEC (lpmapi.h)
-
 description: The ADSPEC structure contains Adspec message information for RSVP.
 old-location: qos\adspec.htm
 tech.root: QOS
 ms.assetid: c5be3864-0f21-4fa5-99f8-dee9ad2b7286
-
 ms.date: 12/05/2018
 ms.keywords: ADSPEC, ADSPEC structure [QOS], lpmapi/ADSPEC, qos.adspec
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/ADSPEC"
+f1_keywords:
+- lpmapi/ADSPEC
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - ADSPEC
+- ADSPEC
 targetos: Windows
 req.typenames: ADSPEC
 req.redist: 

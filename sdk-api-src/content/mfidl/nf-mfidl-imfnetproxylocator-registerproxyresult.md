@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFNetProxyLocator.RegisterProxyResult
 title: IMFNetProxyLocator::RegisterProxyResult (mfidl.h)
-
 description: Keeps a record of the success or failure of using the current proxy.
 old-location: mf\imfnetproxylocator_registerproxyresult.htm
 tech.root: medfound
 ms.assetid: 2b1a55c6-7d78-47cc-9098-6504d11a4eef
-
 ms.date: 12/05/2018
 ms.keywords: 2b1a55c6-7d78-47cc-9098-6504d11a4eef, IMFNetProxyLocator interface [Media Foundation],RegisterProxyResult method, IMFNetProxyLocator.RegisterProxyResult, IMFNetProxyLocator::RegisterProxyResult, RegisterProxyResult, RegisterProxyResult method [Media Foundation], RegisterProxyResult method [Media Foundation],IMFNetProxyLocator interface, mf.imfnetproxylocator_registerproxyresult, mfidl/IMFNetProxyLocator::RegisterProxyResult
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFNetProxyLocator.RegisterProxyResult"
+f1_keywords:
+- mfidl/IMFNetProxyLocator.RegisterProxyResult
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFNetProxyLocator.RegisterProxyResult
+- IMFNetProxyLocator.RegisterProxyResult
 targetos: Windows
 req.typenames: 
 req.redist: 

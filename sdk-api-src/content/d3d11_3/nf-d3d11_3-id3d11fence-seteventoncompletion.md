@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_3.ID3D11Fence.SetEventOnCompletion
 title: ID3D11Fence::SetEventOnCompletion (d3d11_3.h)
-
 description: Specifies an event that should be fired when the fence reaches a certain value.
 old-location: direct3d11\id3d11fence_seteventoncompletion.htm
 tech.root: direct3d11
 ms.assetid: 255FF723-85FA-4230-B751-B5F52A6F8EBB
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11Fence interface [Direct3D 11],SetEventOnCompletion method, ID3D11Fence.SetEventOnCompletion, ID3D11Fence::SetEventOnCompletion, SetEventOnCompletion, SetEventOnCompletion method [Direct3D 11], SetEventOnCompletion method [Direct3D 11],ID3D11Fence interface, d3d11_3/ID3D11Fence::SetEventOnCompletion, direct3d11.id3d11fence_seteventoncompletion
 ms.topic: method
-f1_keywords: 
- - "d3d11_3/ID3D11Fence.SetEventOnCompletion"
+f1_keywords:
+- d3d11_3/ID3D11Fence.SetEventOnCompletion
 dev_langs:
- - c++
+- c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D11.lib
 req.dll: D3D11.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.dll
+- D3D11.dll
 api_name:
- - ID3D11Fence.SetEventOnCompletion
+- ID3D11Fence.SetEventOnCompletion
 targetos: Windows
 req.typenames: 
 req.redist: 

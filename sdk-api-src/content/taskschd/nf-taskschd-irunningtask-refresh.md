@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IRunningTask.Refresh
 title: IRunningTask::Refresh (taskschd.h)
-
 description: Refreshes all of the local instance variables of the task.
 old-location: taskschd\irunningtask_refresh.htm
 tech.root: taskschd
 ms.assetid: f46d82ff-2f1b-477b-b043-665659ad8982
-
 ms.date: 12/05/2018
 ms.keywords: IRunningTask interface [Task Scheduler],Refresh method, IRunningTask.Refresh, IRunningTask::Refresh, Refresh, Refresh method [Task Scheduler], Refresh method [Task Scheduler],IRunningTask interface, taskschd.irunningtask_refresh, taskschd/IRunningTask::Refresh
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRunningTask.Refresh"
+f1_keywords:
+- taskschd/IRunningTask.Refresh
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRunningTask.Refresh
+- IRunningTask.Refresh
 targetos: Windows
 req.typenames: 
 req.redist: 

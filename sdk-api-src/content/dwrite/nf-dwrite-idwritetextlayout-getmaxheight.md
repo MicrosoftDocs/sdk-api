@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetMaxHeight
 title: IDWriteTextLayout::GetMaxHeight (dwrite.h)
-
 description: Gets the layout maximum height.
 old-location: directwrite\IDWriteTextLayout_GetMaxHeight.htm
 tech.root: DirectWrite
 ms.assetid: 841b48aa-690a-4563-a303-2990f4233d07
-
 ms.date: 12/05/2018
 ms.keywords: GetMaxHeight, GetMaxHeight method [Direct Write], GetMaxHeight method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetMaxHeight method, IDWriteTextLayout.GetMaxHeight, IDWriteTextLayout::GetMaxHeight, directwrite.IDWriteTextLayout_GetMaxHeight, dwrite/IDWriteTextLayout::GetMaxHeight
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextLayout.GetMaxHeight"
+f1_keywords:
+- dwrite/IDWriteTextLayout.GetMaxHeight
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout.GetMaxHeight
+- IDWriteTextLayout.GetMaxHeight
 targetos: Windows
 req.typenames: 
 req.redist: 

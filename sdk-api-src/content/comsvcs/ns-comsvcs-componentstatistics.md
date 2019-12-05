@@ -1,19 +1,17 @@
 ---
 UID: NS:comsvcs._ComponentStatistics
 title: ComponentStatistics (comsvcs.h)
-
 description: Represents statistical information about a COM+ component hosted in a particular process.
 old-location: cos\componentstatistics.htm
 tech.root: cossdk
 ms.assetid: 26bc5fc4-3e34-41cc-ba11-5c13cf54521f
-
 ms.date: 12/05/2018
 ms.keywords: ComponentStatistics, ComponentStatistics structure [COM+], comsvcs/ComponentStatistics, cos.componentstatistics
 ms.topic: struct
-f1_keywords: 
- - "comsvcs/ComponentStatistics"
+f1_keywords:
+- comsvcs/ComponentStatistics
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ComponentStatistics
+- ComponentStatistics
 targetos: Windows
 req.typenames: ComponentStatistics
 req.redist: 

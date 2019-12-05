@@ -1,19 +1,17 @@
 ---
 UID: NF:drt.DrtCreateDerivedKey
 title: DrtCreateDerivedKey function (drt.h)
-
 description: DrtCreateDerivedKey function creates a key that can be utilized by DrtRegisterKey when the DRT is using a derived key security provider.
 old-location: p2p\drtcreatederivedkey.htm
 tech.root: P2PSdk
 ms.assetid: 069358e0-4b61-44ed-b235-37f1d038feff
-
 ms.date: 12/05/2018
 ms.keywords: DrtCreateDerivedKey, DrtCreateDerivedKey function [Peer Networking], drt/DrtCreateDerivedKey, p2p.drtcreatederivedkey
 ms.topic: function
-f1_keywords: 
- - "drt/DrtCreateDerivedKey"
+f1_keywords:
+- drt/DrtCreateDerivedKey
 dev_langs:
- - c++
+- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Drtprov.lib
 req.dll: Drt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - drt.dll
+- drt.dll
 api_name:
- - DrtCreateDerivedKey
+- DrtCreateDerivedKey
 targetos: Windows
 req.typenames: 
 req.redist: 

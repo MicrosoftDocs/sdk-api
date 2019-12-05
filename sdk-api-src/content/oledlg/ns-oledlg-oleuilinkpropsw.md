@@ -1,19 +1,17 @@
 ---
 UID: NS:oledlg.tagOLEUILINKPROPSW
 title: OLEUILINKPROPSW (oledlg.h)
-
 description: Contains information that is used to initialize the Link tab of the Object Properties dialog box.
 old-location: com\oleuilinkprops_struct.htm
 tech.root: com
 ms.assetid: 3f355ce8-adc3-4878-a8b4-3f7d94547ef1
-
 ms.date: 12/05/2018
-ms.keywords: "*LPOLEUILINKPROPSW, *POLEUILINKPROPSW, LPOLEUILINKPROPS, LPOLEUILINKPROPS structure pointer [COM], OLEUILINKPROPS, OLEUILINKPROPS structure [COM], OLEUILINKPROPSA, OLEUILINKPROPSW, POLEUILINKPROPS, POLEUILINKPROPS structure pointer [COM], _ole_OLEUILINKPROPS, com.oleuilinkprops_struct, oledlg/LPOLEUILINKPROPS, oledlg/OLEUILINKPROPS, oledlg/OLEUILINKPROPSA, oledlg/OLEUILINKPROPSW, oledlg/POLEUILINKPROPS"
+ms.keywords: '*LPOLEUILINKPROPSW, *POLEUILINKPROPSW, LPOLEUILINKPROPS, LPOLEUILINKPROPS structure pointer [COM], OLEUILINKPROPS, OLEUILINKPROPS structure [COM], OLEUILINKPROPSA, OLEUILINKPROPSW, POLEUILINKPROPS, POLEUILINKPROPS structure pointer [COM], _ole_OLEUILINKPROPS, com.oleuilinkprops_struct, oledlg/LPOLEUILINKPROPS, oledlg/OLEUILINKPROPS, oledlg/OLEUILINKPROPSA, oledlg/OLEUILINKPROPSW, oledlg/POLEUILINKPROPS'
 ms.topic: struct
-f1_keywords: 
- - "oledlg/OLEUILINKPROPS"
+f1_keywords:
+- oledlg/OLEUILINKPROPS
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OleDlg.h
+- OleDlg.h
 api_name:
- - OLEUILINKPROPS
- - OLEUILINKPROPSA
- - OLEUILINKPROPSW
+- OLEUILINKPROPS
+- OLEUILINKPROPSA
+- OLEUILINKPROPSW
 targetos: Windows
 req.typenames: OLEUILINKPROPSW, *POLEUILINKPROPSW, *LPOLEUILINKPROPSW
 req.redist: 

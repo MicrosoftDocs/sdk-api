@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.IPsecSaContextAddInbound0
 title: IPsecSaContextAddInbound0 function (fwpmu.h)
-
 description: The IPsecSaContextAddInbound0 function adds an inbound IPsec security association (SA) bundle to an existing SA context.Note  IPsecSaContextAddInbound0 is the specific implementation of IPsecSaContextAddInbound used in Windows Vista.
 old-location: fwp\ipsecsacontextaddinbound0.htm
 tech.root: fwp
 ms.assetid: e0798bcb-847d-481e-b9f0-b18c0bbad22c
-
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextAddInbound0, IPsecSaContextAddInbound0 function [Filtering], fwp.ipsecsacontextaddinbound0, fwpmu/IPsecSaContextAddInbound0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/IPsecSaContextAddInbound0"
+f1_keywords:
+- fwpmu/IPsecSaContextAddInbound0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - IPsecSaContextAddInbound0
+- IPsecSaContextAddInbound0
 targetos: Windows
 req.typenames: 
 req.redist: 

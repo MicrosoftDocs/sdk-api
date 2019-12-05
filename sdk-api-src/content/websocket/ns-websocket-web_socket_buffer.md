@@ -1,19 +1,17 @@
 ---
 UID: NS:websocket._WEB_SOCKET_BUFFER
 title: WEB_SOCKET_BUFFER (websocket.h)
-
 description: Contains data for a specific WebSocket action.
 old-location: websock\web_socket_buffer.htm
 tech.root: WebSock
 ms.assetid: 05EC3940-4A17-4FBB-9446-15B511E18FF2
-
 ms.date: 12/05/2018
 ms.keywords: '*PWEB_SOCKET_BUFFER, WEB_SOCKET_BUFFER, WEB_SOCKET_BUFFER union [Websocket Protocol Component API], websock.web_socket_buffer, websocket/WEB_SOCKET_BUFFER'
 ms.topic: struct
 f1_keywords:
 - websocket/WEB_SOCKET_BUFFER
 dev_langs:
- - c++
+- c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardListReadersA
 title: SCardListReadersA function (winscard.h)
-
 description: Provides the list of readers within a set of named reader groups, eliminating duplicates.
 old-location: security\scardlistreaders.htm
 tech.root: SecAuthN
 ms.assetid: b50218f1-e960-4838-b44b-6c71fa94a0ad
-
 ms.date: 12/05/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardListReaders, SCardListReaders function [Security], SCardListReadersA, SCardListReadersW, _smart_scardlistreaders, security.scardlistreaders, winscard/SCardListReaders, winscard/SCardListReadersA, winscard/SCardListReadersW
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardListReaders"
+f1_keywords:
+- winscard/SCardListReaders
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
- - Ext-MS-Win-wlan-scard-l1-1-0.dll
- - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+- Winscard.dll
+- Ext-MS-Win-wlan-scard-l1-1-0.dll
+- Ext-MS-Win-Security-WinSCard-L1-1-0.dll
 api_name:
- - SCardListReaders
- - SCardListReadersA
- - SCardListReadersW
+- SCardListReaders
+- SCardListReadersA
+- SCardListReadersW
 targetos: Windows
 req.typenames: 
 req.redist: 

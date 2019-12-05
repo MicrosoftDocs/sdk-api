@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Application_Close
 title: MI_Application_Close function (mi.h)
-
 description: Deinitializes the management infrastructure client API that was initialized through a call to MI_Application_Initialize.
 old-location: wmi_v2\mi_application_close.htm
 tech.root: wmi_v2
 ms.assetid: e5ad3ed3-8ef6-4bb5-999a-7d2ee91f51d5
-
 ms.date: 12/05/2018
 ms.keywords: MI_Application_Close, MI_Application_Close function [Windows Management Infrastructure (MI)], mi/MI_Application_Close, wmi_v2.mi_application_close
 ms.topic: function
 f1_keywords:
 - mi/MI_Application_Close
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

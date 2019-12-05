@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostView.GetReceivePostViewSamples
 title: IWMWriterPostView::GetReceivePostViewSamples (wmsdkidl.h)
-
 description: The GetReceivePostViewSamples method retrieves a flag indicating whether delivery of postview samples has been turned on for the specified stream.
 old-location: wmformat\iwmwriterpostview_getreceivepostviewsamples.htm
 tech.root: wmformat
 ms.assetid: 93120e68-2d1c-4628-8e2e-d22a56fa98a3
-
 ms.date: 12/05/2018
 ms.keywords: GetReceivePostViewSamples, GetReceivePostViewSamples method [windows Media Format], GetReceivePostViewSamples method [windows Media Format],IWMWriterPostView interface, IWMWriterPostView interface [windows Media Format],GetReceivePostViewSamples method, IWMWriterPostView.GetReceivePostViewSamples, IWMWriterPostView::GetReceivePostViewSamples, IWMWriterPostViewGetReceivePostViewSamples, wmformat.iwmwriterpostview_getreceivepostviewsamples, wmsdkidl/IWMWriterPostView::GetReceivePostViewSamples
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterPostView.GetReceivePostViewSamples"
+f1_keywords:
+- wmsdkidl/IWMWriterPostView.GetReceivePostViewSamples
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterPostView.GetReceivePostViewSamples
+- IWMWriterPostView.GetReceivePostViewSamples
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IGetAppTrackerData
 title: IGetAppTrackerData (comsvcs.h)
-
 description: Enables administrative applications to retrieve statistical information about running COM+ applications.
 old-location: cos\igetapptrackerdata.htm
 tech.root: cossdk
 ms.assetid: f2f9c03b-4f57-4087-8fef-5cdccece91d9
-
 ms.date: 12/05/2018
 ms.keywords: IGetAppTrackerData, IGetAppTrackerData interface [COM+], IGetAppTrackerData interface [COM+],described, comsvcs/IGetAppTrackerData, cos.igetapptrackerdata
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IGetAppTrackerData"
+f1_keywords:
+- comsvcs/IGetAppTrackerData
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IGetAppTrackerData
+- IGetAppTrackerData
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.GetSignature
 title: IDot11AdHocNetwork::GetSignature (adhoc.h)
-
 description: Gets the unique signature associated with the ad hoc network.
 old-location: nwifi\idot11adhocnetwork_getsignature.htm
 tech.root: NativeWiFi
 ms.assetid: 0a59a8bd-d2eb-48c6-8480-dc4dea335d22
-
 ms.date: 12/05/2018
 ms.keywords: GetSignature, GetSignature method [NativeWIFI], GetSignature method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetSignature method, IDot11AdHocNetwork.GetSignature, IDot11AdHocNetwork::GetSignature, adhoc/IDot11AdHocNetwork::GetSignature, nwifi.idot11adhocnetwork_getsignature
 ms.topic: method
-f1_keywords: 
- - "adhoc/IDot11AdHocNetwork.GetSignature"
+f1_keywords:
+- adhoc/IDot11AdHocNetwork.GetSignature
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IDot11AdHocNetwork.GetSignature
+- IDot11AdHocNetwork.GetSignature
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:imagetranscode.ITranscodeImage
 title: ITranscodeImage (imagetranscode.h)
-
 description: Exposes a method that allows conversion to JPEG or bitmap (BMP) image formats from any image type supported by Windows.
 old-location: shell\ITranscodeImage.htm
 tech.root: shell
 ms.assetid: 747a7d5b-df7c-498b-a541-13c6561cebfe
-
 ms.date: 12/05/2018
 ms.keywords: ITranscodeImage, ITranscodeImage interface [Windows Shell], ITranscodeImage interface [Windows Shell],described, _shell_ITranscodeImage, imagetranscode/ITranscodeImage, shell.ITranscodeImage
 ms.topic: interface
-f1_keywords: 
- - "imagetranscode/ITranscodeImage"
+f1_keywords:
+- imagetranscode/ITranscodeImage
 dev_langs:
- - c++
+- c++
 req.header: imagetranscode.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Photometadatahandler.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Photometadatahandler.dll
+- Photometadatahandler.dll
 api_name:
- - ITranscodeImage
+- ITranscodeImage
 targetos: Windows
 req.typenames: 
 req.redist: 

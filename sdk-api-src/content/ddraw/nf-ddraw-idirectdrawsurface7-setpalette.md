@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.SetPalette
 title: IDirectDrawSurface7::SetPalette (ddraw.h)
-
 description: Attaches a palette object to (or detaches one from) a surface. The surface uses this palette for all subsequent operations. The palette change takes place immediately, without regard to refresh timing.
 old-location: directdraw\idirectdrawsurface7_setpalette.htm
 tech.root: directdraw
 ms.assetid: 938906fe-9f5b-468b-8b34-5de16aeb67b3
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],SetPalette method, IDirectDrawSurface7.SetPalette, IDirectDrawSurface7::SetPalette, SetPalette, SetPalette method [DirectDraw], SetPalette method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetPalette, directdraw.idirectdrawsurface7_setpalette
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawSurface7.SetPalette"
+f1_keywords:
+- ddraw/IDirectDrawSurface7.SetPalette
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawSurface7.SetPalette
+- IDirectDrawSurface7.SetPalette
 targetos: Windows
 req.typenames: 
 req.redist: 

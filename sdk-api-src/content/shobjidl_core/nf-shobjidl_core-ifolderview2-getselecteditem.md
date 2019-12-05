@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.GetSelectedItem
 title: IFolderView2::GetSelectedItem (shobjidl_core.h)
-
 description: Locates the currently selected item at or after a given index.
 old-location: shell\IFolderView2_GetSelectedItem.htm
 tech.root: shell
 ms.assetid: fca9fd45-05ce-4300-aecf-a2843614a11d
-
 ms.date: 12/05/2018
 ms.keywords: GetSelectedItem, GetSelectedItem method [Windows Shell], GetSelectedItem method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetSelectedItem method, IFolderView2.GetSelectedItem, IFolderView2::GetSelectedItem, _shell_IFolderView2_GetSelectedItem, shell.IFolderView2_GetSelectedItem, shobjidl_core/IFolderView2::GetSelectedItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderView2.GetSelectedItem"
+f1_keywords:
+- shobjidl_core/IFolderView2.GetSelectedItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFolderView2.GetSelectedItem
+- IFolderView2.GetSelectedItem
 targetos: Windows
 req.typenames: 
 req.redist: 

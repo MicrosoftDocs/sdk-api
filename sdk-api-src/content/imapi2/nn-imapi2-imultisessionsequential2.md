@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2.IMultisessionSequential2
 title: IMultisessionSequential2 (imapi2.h)
-
 description: Use this interface to retrieve information about the size of a writeable unit on sequentially recorded media.
 old-location: imapi\imultisessionsequential2.htm
 tech.root: imapi
 ms.assetid: da226f8f-7ae9-4013-a0d4-c76a7b5dae64
-
 ms.date: 12/05/2018
 ms.keywords: IMultisessionSequential2, IMultisessionSequential2 interface [IMAPI], IMultisessionSequential2 interface [IMAPI],described, imapi.imultisessionsequential2, imapi2/IMultisessionSequential2
 ms.topic: interface
-f1_keywords: 
- - "imapi2/IMultisessionSequential2"
+f1_keywords:
+- imapi2/IMultisessionSequential2
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IMultisessionSequential2
+- IMultisessionSequential2
 targetos: Windows
 req.typenames: 
 req.redist: 

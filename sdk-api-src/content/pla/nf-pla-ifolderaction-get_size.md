@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IFolderAction.get_Size
 title: IFolderAction::get_Size (pla.h)
-
 description: Retrieves or sets the minimum folder size that, when exceeded, initiates the actions.
 old-location: pla\ifolderaction_size.htm
 tech.root: PLA
 ms.assetid: 6df7b5fb-0f36-4e7e-95fb-f0157fc57cbf
-
 ms.date: 12/05/2018
 ms.keywords: IFolderAction interface [PLA],Size property, IFolderAction.Size, IFolderAction.get_Size, IFolderAction::Size, IFolderAction::get_Size, IFolderAction::put_Size, Size property [PLA], Size property [PLA],IFolderAction interface, base.ifolderaction_size, get_Size, pla.ifolderaction_size, pla/IFolderAction::Size, pla/IFolderAction::get_Size, pla/IFolderAction::put_Size
 ms.topic: method
-f1_keywords: 
- - "pla/IFolderAction.Size"
+f1_keywords:
+- pla/IFolderAction.Size
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IFolderAction.Size
- - IFolderAction.get_Size
- - IFolderAction.put_Size
+- IFolderAction.Size
+- IFolderAction.get_Size
+- IFolderAction.put_Size
 targetos: Windows
 req.typenames: 
 req.redist: 

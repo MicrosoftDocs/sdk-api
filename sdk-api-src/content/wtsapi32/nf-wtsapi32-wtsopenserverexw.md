@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsapi32.WTSOpenServerExW
 title: WTSOpenServerExW function (wtsapi32.h)
-
 description: Opens a handle to the specified Remote Desktop Session Host (RD Session Host) server or Remote Desktop Virtualization Host (RD Virtualization Host) server.
 old-location: termserv\wtsopenserverex.htm
 tech.root: TermServ
 ms.assetid: 8122de66-c096-4bd8-95ff-ed64b88afcae
-
 ms.date: 12/05/2018
 ms.keywords: WTSOpenServerEx, WTSOpenServerEx function [Remote Desktop Services], WTSOpenServerExA, WTSOpenServerExW, termserv.wtsopenserverex, wtsapi32/WTSOpenServerEx, wtsapi32/WTSOpenServerExA, wtsapi32/WTSOpenServerExW
 ms.topic: function
-f1_keywords: 
- - "wtsapi32/WTSOpenServerEx"
+f1_keywords:
+- wtsapi32/WTSOpenServerEx
 dev_langs:
- - c++
+- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wtsapi32.dll
+- Wtsapi32.dll
 api_name:
- - WTSOpenServerEx
- - WTSOpenServerExA
- - WTSOpenServerExW
+- WTSOpenServerEx
+- WTSOpenServerExA
+- WTSOpenServerExW
 targetos: Windows
 req.typenames: 
 req.redist: 

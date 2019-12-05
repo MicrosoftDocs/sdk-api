@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetCategory
 title: IXpsOMCoreProperties::GetCategory (xpsobjectmodel.h)
-
 description: Gets the category property.
 old-location: xps\ixpsomcoreproperties_getcategory.htm
 tech.root: printdocs
 ms.assetid: 97b1b0ca-a2e7-4835-aece-c2cc23481530
-
 ms.date: 12/05/2018
 ms.keywords: GetCategory, GetCategory method [XPS Documents and Packaging], GetCategory method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetCategory method, IXpsOMCoreProperties.GetCategory, IXpsOMCoreProperties::GetCategory, xps.ixpsomcoreproperties_getcategory, xpsobjectmodel/IXpsOMCoreProperties::GetCategory
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCoreProperties.GetCategory"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCoreProperties.GetCategory
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.GetCategory
+- IXpsOMCoreProperties.GetCategory
 targetos: Windows
 req.typenames: 
 req.redist: 

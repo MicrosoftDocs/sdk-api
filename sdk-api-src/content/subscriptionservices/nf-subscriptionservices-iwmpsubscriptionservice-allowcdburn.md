@@ -1,19 +1,17 @@
 ---
 UID: NF:subscriptionservices.IWMPSubscriptionService.allowCDBurn
 title: IWMPSubscriptionService::allowCDBurn (subscriptionservices.h)
-
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpsubscriptionservice_allowcdburn.htm
 tech.root: WMP
 ms.assetid: a17ab1c3-8208-481f-8566-164e2d817e05
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSubscriptionService interface [Windows Media Player],allowCDBurn method, IWMPSubscriptionService.allowCDBurn, IWMPSubscriptionService::allowCDBurn, IWMPSubscriptionServiceallowCDBurn, allowCDBurn, allowCDBurn method [Windows Media Player], allowCDBurn method [Windows Media Player],IWMPSubscriptionService interface, subscriptionservices/IWMPSubscriptionService::allowCDBurn, wmp.iwmpsubscriptionservice_allowcdburn
 ms.topic: method
-f1_keywords: 
- - "subscriptionservices/IWMPSubscriptionService.allowCDBurn"
+f1_keywords:
+- subscriptionservices/IWMPSubscriptionService.allowCDBurn
 dev_langs:
- - c++
+- c++
 req.header: subscriptionservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - subscriptionservices.h
+- subscriptionservices.h
 api_name:
- - IWMPSubscriptionService.allowCDBurn
+- IWMPSubscriptionService.allowCDBurn
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -4,10 +4,10 @@ title: STAT_WORKSTATION_0
 ms.date: 01/30/19
 ms.keywords: _STAT_WORKSTATION_0, STAT_WORKSTATION_0
 ms.topic: language-reference
-f1_keywords: 
- - "lmstats/_STAT_WORKSTATION_0"
+f1_keywords:
+- lmstats/_STAT_WORKSTATION_0
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -25,14 +25,14 @@ req.typenames: STAT_WORKSTATION_0, *PSTAT_WORKSTATION_0, *LPSTAT_WORKSTATION_0
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - lmstats.h
+- lmstats.h
 api_name:
- - _STAT_WORKSTATION_0
- - STAT_WORKSTATION_0
+- _STAT_WORKSTATION_0
+- STAT_WORKSTATION_0
 ---
 
 # STAT_WORKSTATION_0 structure

@@ -1,19 +1,17 @@
 ---
 UID: NS:shobjidl_core.tagSMDATA
 title: SMDATA (shobjidl_core.h)
-
 description: Contains information from a menu band.
 old-location: shell\SMDATA.htm
 tech.root: shell
 ms.assetid: 4690daa1-f935-4d0c-8b1f-0b9442fc78dc
-
 ms.date: 12/05/2018
 ms.keywords: '*LPSMDATA, SMDATA, SMDATA structure [Windows Shell], _win32_SMDATA, lPSMDATA, lPSMDATA structure pointer [Windows Shell], shell.SMDATA, shobjidl_core/SMDATA, shobjidl_core/lPSMDATA, tagSMDATA'
 ms.topic: struct
 f1_keywords:
 - shobjidl_core/SMDATA
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NS:cfapi.CF_PROCESS_INFO
 title: CF_PROCESS_INFO (cfapi.h)
-
 description: Contains information about a user process.
 old-location: cloudapi\cf_process_info.htm
 tech.root: cfApi
 ms.assetid: 912433E9-DC49-41BA-85F7-1A0AF9F88159
-
 ms.date: 12/05/2018
 ms.keywords: CF_PROCESS_INFO, CF_PROCESS_INFO structure, cfapi/CF_PROCESS_INFO, cloudApi.cf_process_info
 ms.topic: struct
-f1_keywords: 
- - "cfapi/CF_PROCESS_INFO"
+f1_keywords:
+- cfapi/CF_PROCESS_INFO
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_PROCESS_INFO
+- CF_PROCESS_INFO
 targetos: Windows
 req.typenames: CF_PROCESS_INFO
 req.redist: 

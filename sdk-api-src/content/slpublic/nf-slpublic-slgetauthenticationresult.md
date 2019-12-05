@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLGetAuthenticationResult
 title: SLGetAuthenticationResult function (slpublic.h)
-
 description: Gets the authentication results.
 old-location: security\slgetauthenticationresult.htm
 tech.root: SecSLApi
 ms.assetid: 8f30ac28-92a0-41f5-b076-eda7014fb526
-
 ms.date: 12/05/2018
 ms.keywords: SLGetAuthenticationResult, SLGetAuthenticationResult function [Security], security.slgetauthenticationresult, slpublic/SLGetAuthenticationResult
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLGetAuthenticationResult"
+f1_keywords:
+- slpublic/SLGetAuthenticationResult
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLGetAuthenticationResult
+- SLGetAuthenticationResult
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:winevt._EVT_SEEK_FLAGS
 title: EVT_SEEK_FLAGS (winevt.h)
-
 description: Defines the relative position in the result set from which to seek.
 old-location: wes\evt_seek_flags.htm
 tech.root: wes
 ms.assetid: 5340815b-b94a-488b-bfa1-01dcbc15e505
-
 ms.date: 12/05/2018
 ms.keywords: EVT_SEEK_FLAGS, EVT_SEEK_FLAGS enumeration [EventLog], EvtSeekOriginMask, EvtSeekRelativeToBookmark, EvtSeekRelativeToCurrent, EvtSeekRelativeToFirst, EvtSeekRelativeToLast, EvtSeekStrict, wes.evt_seek_flags, winevt/EVT_SEEK_FLAGS, winevt/EvtSeekOriginMask, winevt/EvtSeekRelativeToBookmark, winevt/EvtSeekRelativeToCurrent, winevt/EvtSeekRelativeToFirst, winevt/EvtSeekRelativeToLast, winevt/EvtSeekStrict
 ms.topic: enum
-f1_keywords: 
- - "winevt/EVT_SEEK_FLAGS"
+f1_keywords:
+- winevt/EVT_SEEK_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinEvt.h
+- WinEvt.h
 api_name:
- - EVT_SEEK_FLAGS
+- EVT_SEEK_FLAGS
 targetos: Windows
 req.typenames: EVT_SEEK_FLAGS
 req.redist: 

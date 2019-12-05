@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IATSC_MGT.GetProtocolVersion
 title: IATSC_MGT::GetProtocolVersion (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_mgt_getprotocolversion.htm
 tech.root: mstv
 ms.assetid: 9c4d7087-d867-4ced-9bb4-c3a0f521fa72
-
 ms.date: 12/05/2018
 ms.keywords: GetProtocolVersion, GetProtocolVersion method [Microsoft TV Technologies], GetProtocolVersion method [Microsoft TV Technologies],IATSC_MGT interface, IATSC_MGT interface [Microsoft TV Technologies],GetProtocolVersion method, IATSC_MGT.GetProtocolVersion, IATSC_MGT::GetProtocolVersion, IATSC_MGTGetProtocolVersion, atscpsipparser/IATSC_MGT::GetProtocolVersion, mstv.iatsc_mgt_getprotocolversion
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IATSC_MGT.GetProtocolVersion"
+f1_keywords:
+- atscpsipparser/IATSC_MGT.GetProtocolVersion
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IATSC_MGT.GetProtocolVersion
+- IATSC_MGT.GetProtocolVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

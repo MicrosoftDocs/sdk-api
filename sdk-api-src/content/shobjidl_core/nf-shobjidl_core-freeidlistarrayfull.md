@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.FreeIDListArrayFull
 title: FreeIDListArrayFull function (shobjidl_core.h)
-
 description: Releases the memory space for the pointer to an item identifier list (PIDL) array. This releases both the PIDLIST_ABSOLUTEs within the array and the array itself.
 old-location: shell\FreeIDListArrayFull.htm
 tech.root: shell
 ms.assetid: ca5e9e02-dcab-4aac-953e-8be0ca8734bc
-
 ms.date: 12/05/2018
 ms.keywords: FreeIDListArrayFull, FreeIDListArrayFull function [Windows Shell], _shell_FreeIDListArrayFull, shell.FreeIDListArrayFull, shobjidl_core/FreeIDListArrayFull
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/FreeIDListArrayFull"
+f1_keywords:
+- shobjidl_core/FreeIDListArrayFull
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - FreeIDListArrayFull
+- FreeIDListArrayFull
 targetos: Windows
 req.typenames: 
 req.redist: 

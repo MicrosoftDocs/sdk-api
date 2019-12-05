@@ -3,14 +3,13 @@ UID: NF:gdiplusheaders.Region.Complement(IN const Rect &)
 title: Region::Complement
 description: The Region::Complement method updates a region that does not intersect this region.
 ms.assetid: a83d400f-0a3d-4486-a9a7-831455908ff8
-
 ms.date: 05/20/2019
 ms.keywords: Region::Complement
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusheaders/Region::Complement"
+f1_keywords:
+- gdiplusheaders/Region::Complement
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusheaders.h
+- gdiplusheaders.h
 api_name:
- - Region::Complement
+- Region::Complement
 ---
 
 # Region::Complement(Rect&amp;)

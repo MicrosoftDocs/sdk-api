@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader2.GetPlayOutputLevels
 title: IWMDRMReader2::GetPlayOutputLevels (wmsdkidl.h)
-
 description: The GetPlayOutputLevels method retrieves the output protection levels (OPLs) that apply to the play action in the license of the file loaded in the reader.
 old-location: wmformat\iwmdrmreader2_getplayoutputlevels.htm
 tech.root: wmformat
 ms.assetid: a53d58cc-655f-4441-9c16-5afc5b53a233
-
 ms.date: 12/05/2018
 ms.keywords: GetPlayOutputLevels, GetPlayOutputLevels method [windows Media Format], GetPlayOutputLevels method [windows Media Format],IWMDRMReader2 interface, IWMDRMReader2 interface [windows Media Format],GetPlayOutputLevels method, IWMDRMReader2.GetPlayOutputLevels, IWMDRMReader2::GetPlayOutputLevels, IWMDRMReader2GetPlayOutputLevels, wmformat.iwmdrmreader2_getplayoutputlevels, wmsdkidl/IWMDRMReader2::GetPlayOutputLevels
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMDRMReader2.GetPlayOutputLevels"
+f1_keywords:
+- wmsdkidl/IWMDRMReader2.GetPlayOutputLevels
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMStubDRM.lib
- - WMStubDRM.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMDRMReader2.GetPlayOutputLevels
+- IWMDRMReader2.GetPlayOutputLevels
 targetos: Windows
 req.typenames: 
 req.redist: 

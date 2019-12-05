@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapScaler.Initialize
 title: IWICBitmapScaler::Initialize (wincodec.h)
-
 description: Initializes the bitmap scaler with the provided parameters.
 old-location: wic\_wic_codec_iwicbitmapscaler_initialize.htm
 tech.root: wic
 ms.assetid: e783389e-4702-4774-a501-b86ec4bc6cbe
-
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapScaler interface [Windows Imaging Component],Initialize method, IWICBitmapScaler.Initialize, IWICBitmapScaler::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICBitmapScaler interface, _wic_codec_iwicbitmapscaler_initialize, wic._wic_codec_iwicbitmapscaler_initialize, wincodec/IWICBitmapScaler::Initialize
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapScaler.Initialize"
+f1_keywords:
+- wincodec/IWICBitmapScaler.Initialize
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapScaler.Initialize
+- IWICBitmapScaler.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

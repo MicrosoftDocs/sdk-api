@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkStrokes.ScaleTransform
 title: IInkStrokes::ScaleTransform (msinkaut.h)
-
 description: Applies the specified horizontal and vertical factors to the transform or ink.
 old-location: tablet\inkstrokes_scaletransform.htm
 tech.root: tablet
 ms.assetid: d7b69554-69e3-4a45-9313-16a3529863e9
-
 ms.date: 12/05/2018
 ms.keywords: IInkStrokes interface [Tablet PC],ScaleTransform method, IInkStrokes.ScaleTransform, IInkStrokes::ScaleTransform, ScaleTransform, ScaleTransform method [Tablet PC], ScaleTransform method [Tablet PC],IInkStrokes interface, a4140abe-adc8-492d-bb8c-96fba5ca3bd0, msinkaut/IInkStrokes::ScaleTransform, tablet.inkstrokes_scaletransform
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkStrokes.ScaleTransform"
+f1_keywords:
+- msinkaut/IInkStrokes.ScaleTransform
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokes.ScaleTransform
+- IInkStrokes.ScaleTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

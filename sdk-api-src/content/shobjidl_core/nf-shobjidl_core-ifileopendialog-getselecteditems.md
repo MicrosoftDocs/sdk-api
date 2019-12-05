@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileOpenDialog.GetSelectedItems
 title: IFileOpenDialog::GetSelectedItems (shobjidl_core.h)
-
 description: Gets the currently selected items in the dialog. These items may be items selected in the view, or text selected in the file name edit box.
 old-location: shell\IFileOpenDialog_GetSelectedItems.htm
 tech.root: shell
 ms.assetid: 5fc53607-60d2-4d23-b11e-779c26c02b0f
-
 ms.date: 12/05/2018
 ms.keywords: GetSelectedItems, GetSelectedItems method [Windows Shell], GetSelectedItems method [Windows Shell],IFileOpenDialog interface, IFileOpenDialog interface [Windows Shell],GetSelectedItems method, IFileOpenDialog.GetSelectedItems, IFileOpenDialog::GetSelectedItems, shell.IFileOpenDialog_GetSelectedItems, shell_IFileOpenDialog_GetSelectedItems, shobjidl_core/IFileOpenDialog::GetSelectedItems
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileOpenDialog.GetSelectedItems"
+f1_keywords:
+- shobjidl_core/IFileOpenDialog.GetSelectedItems
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOpenDialog.GetSelectedItems
+- IFileOpenDialog.GetSelectedItems
 targetos: Windows
 req.typenames: 
 req.redist: 

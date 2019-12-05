@@ -1,19 +1,17 @@
 ---
 UID: NF:featurestagingapi.GetFeatureEnabledState
 title: GetFeatureEnabledState function (featurestagingapi.h)
-
 description: This function is intended for infrastructure use only.
 old-location: winprog\getfeatureenabledstate.htm
 tech.root: DevNotes
 ms.assetid: F07DFA37-6155-473F-A426-7D15F3ED46B1
-
 ms.date: 12/05/2018
 ms.keywords: GetFeatureEnabledState, GetFeatureEnabledState function [Windows API], featurestagingapi/GetFeatureEnabledState, winprog.getfeatureenabledstate
 ms.topic: function
-f1_keywords: 
- - "featurestagingapi/GetFeatureEnabledState"
+f1_keywords:
+- featurestagingapi/GetFeatureEnabledState
 dev_langs:
- - c++
+- c++
 req.header: featurestagingapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shcore.lib
 req.dll: Api-ms-win-core-featurestaging-l1-1-0.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-core-featurestaging-l1-1-0.dll
+- api-ms-win-core-featurestaging-l1-1-0.dll
 api_name:
- - GetFeatureEnabledState
+- GetFeatureEnabledState
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wmsdkidl.__tagDRM_OPL_OUTPUT_IDS
 title: DRM_OPL_OUTPUT_IDS (wmsdkidl.h)
-
 description: The DRM_OPL_OUTPUT_IDS structure holds a number of output protection level (OPL) output identifiers.
 old-location: wmformat\drm_opl_output_ids.htm
 tech.root: wmformat
 ms.assetid: a1f0e1ad-0ba4-4c42-aff5-c5fb4133e0fa
-
 ms.date: 12/05/2018
 ms.keywords: DRM_OPL_OUTPUT_IDS, DRM_OPL_OUTPUT_IDS structure [windows Media Format], structure [windows Media Format], wmformat.drm_opl_output_ids, wmsdkidl/DRM_OPL_OUTPUT_IDS
 ms.topic: struct
-f1_keywords: 
- - "wmsdkidl/DRM_OPL_OUTPUT_IDS"
+f1_keywords:
+- wmsdkidl/DRM_OPL_OUTPUT_IDS
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Drmexternals.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - DRM_OPL_OUTPUT_IDS
+- DRM_OPL_OUTPUT_IDS
 targetos: Windows
 req.typenames: DRM_OPL_OUTPUT_IDS
 req.redist: 

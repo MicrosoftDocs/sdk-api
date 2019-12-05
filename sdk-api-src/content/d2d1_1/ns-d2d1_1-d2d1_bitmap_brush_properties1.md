@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1_1.D2D1_BITMAP_BRUSH_PROPERTIES1
 title: D2D1_BITMAP_BRUSH_PROPERTIES1 (d2d1_1.h)
-
 description: Describes the extend modes and the interpolation mode of an ID2D1BitmapBrush.
 old-location: direct2d\d2d1_bitmap_brush_properties1.htm
 tech.root: Direct2D
 ms.assetid: 0FECAD03-C35C-4729-9BBE-40DE11B34068
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_BITMAP_BRUSH_PROPERTIES1, D2D1_BITMAP_BRUSH_PROPERTIES1 structure [Direct2D], d2d1_1/D2D1_BITMAP_BRUSH_PROPERTIES1, direct2d.d2d1_bitmap_brush_properties1
 ms.topic: struct
-f1_keywords: 
- - "d2d1_1/D2D1_BITMAP_BRUSH_PROPERTIES1"
+f1_keywords:
+- d2d1_1/D2D1_BITMAP_BRUSH_PROPERTIES1
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1_1.h
+- d2d1_1.h
 api_name:
- - D2D1_BITMAP_BRUSH_PROPERTIES1
+- D2D1_BITMAP_BRUSH_PROPERTIES1
 targetos: Windows
 req.typenames: D2D1_BITMAP_BRUSH_PROPERTIES1
 req.redist: 

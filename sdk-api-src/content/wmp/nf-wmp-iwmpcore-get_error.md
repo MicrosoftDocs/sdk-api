@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPCore.get_error
 title: IWMPCore::get_error (wmp.h)
-
 description: The get_error method retrieves a pointer to an IWMPError interface.
 old-location: wmp\iwmpcore_get_error.htm
 tech.root: WMP
 ms.assetid: db00797b-989f-4f92-8fac-aaa147e37383
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_error method, IWMPCore.get_error, IWMPCore::get_error, IWMPCoreget_error, get_error, get_error method [Windows Media Player], get_error method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_error, wmp/IWMPCore::get_error
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPCore.get_error"
+f1_keywords:
+- wmp/IWMPCore.get_error
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPCore.get_error
+- IWMPCore.get_error
 targetos: Windows
 req.typenames: 
 req.redist: 

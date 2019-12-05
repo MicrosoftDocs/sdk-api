@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12StateObjectProperties.GetShaderIdentifier
 title: ID3D12StateObjectProperties::GetShaderIdentifier (d3d12.h)
-
 description: Retrieves the unique identifier for a shader that can be used in a shader record.
 old-location: direct3d12\id3d12stateobjectproperties_getshaderidentifier.htm
 tech.root: direct3d12
 ms.assetid: E93279A1-4238-49C7-8525-EE01999454D9
-
 ms.date: 12/05/2018
 ms.keywords: GetShaderIdentifier, GetShaderIdentifier method, GetShaderIdentifier method,ID3D12StateObjectProperties interface, ID3D12StateObjectProperties interface,GetShaderIdentifier method, ID3D12StateObjectProperties.GetShaderIdentifier, ID3D12StateObjectProperties::GetShaderIdentifier, d3d12/ID3D12StateObjectProperties::GetShaderIdentifier, direct3d12.id3d12stateobjectproperties_getshaderidentifier
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12StateObjectProperties.GetShaderIdentifier"
+f1_keywords:
+- d3d12/ID3D12StateObjectProperties.GetShaderIdentifier
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12StateObjectProperties.GetShaderIdentifier
+- ID3D12StateObjectProperties.GetShaderIdentifier
 targetos: Windows
 req.typenames: 
 req.redist: 

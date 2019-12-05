@@ -1,19 +1,17 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.SetOutputStreamState
 title: IMFDeviceTransform::SetOutputStreamState (mftransform.h)
-
 description: The SetOutputStreamState method sets the Device MFT output stream state and media type.
 old-location: stream\imfdevicetransform_setoutputstreamstate.htm
 tech.root: stream
 ms.assetid: E44A5D0C-440A-4929-9640-AD2F7AA7D19F
-
 ms.date: 12/05/2018
 ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],SetOutputStreamState method, IMFDeviceTransform.SetOutputStreamState, IMFDeviceTransform::SetOutputStreamState, SetOutputStreamState, SetOutputStreamState method [Streaming Media Devices], SetOutputStreamState method [Streaming Media Devices],IMFDeviceTransform interface, mftransform/IMFDeviceTransform::SetOutputStreamState, stream.imfdevicetransform_setoutputstreamstate
 ms.topic: method
-f1_keywords: 
- - "mftransform/IMFDeviceTransform.SetOutputStreamState"
+f1_keywords:
+- mftransform/IMFDeviceTransform.SetOutputStreamState
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mftransform.h
+- mftransform.h
 api_name:
- - IMFDeviceTransform.SetOutputStreamState
+- IMFDeviceTransform.SetOutputStreamState
 targetos: Windows
 req.typenames: 
 req.redist: 

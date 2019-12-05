@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.SetAppendWindowStart
 title: IMFSourceBuffer::SetAppendWindowStart (mfmediaengine.h)
-
 description: Sets the timestamp for the start of the append window.
 old-location: mf\imfsourcebuffer_setappendwindowstart.htm
 tech.root: medfound
 ms.assetid: 5f78e53c-ea2b-4849-9d01-6c31539d8ef5
-
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBuffer interface [Media Foundation],SetAppendWindowStart method, IMFSourceBuffer.SetAppendWindowStart, IMFSourceBuffer::SetAppendWindowStart, SetAppendWindowStart, SetAppendWindowStart method [Media Foundation], SetAppendWindowStart method [Media Foundation],IMFSourceBuffer interface, mf.imfsourcebuffer_setappendwindowstart, mfmediaengine/IMFSourceBuffer::SetAppendWindowStart
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFSourceBuffer.SetAppendWindowStart"
+f1_keywords:
+- mfmediaengine/IMFSourceBuffer.SetAppendWindowStart
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFSourceBuffer.SetAppendWindowStart
+- IMFSourceBuffer.SetAppendWindowStart
 targetos: Windows
 req.typenames: 
 req.redist: 

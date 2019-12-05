@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IThreadPoolKnobs
 title: IThreadPoolKnobs (comsvcs.h)
-
 description: Used to control the behavior of thread pools.
 old-location: cos\ithreadpoolknobs.htm
 tech.root: cossdk
 ms.assetid: 3d36e4ec-f4d4-407b-b671-4134886b7a2c
-
 ms.date: 12/05/2018
 ms.keywords: IThreadPoolKnobs, IThreadPoolKnobs interface [COM+], IThreadPoolKnobs interface [COM+],described, _cos_IThreadPoolKnobs, comsvcs/IThreadPoolKnobs, cos.ithreadpoolknobs
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IThreadPoolKnobs"
+f1_keywords:
+- comsvcs/IThreadPoolKnobs
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IThreadPoolKnobs
+- IThreadPoolKnobs
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocInterfaces.Skip
 title: IEnumDot11AdHocInterfaces::Skip (adhoc.h)
-
 description: Skips over the next specified number of elements in the enumeration sequence.
 old-location: nwifi\ienumdot11adhocinterfaces_skip.htm
 tech.root: NativeWiFi
 ms.assetid: e5c61005-3de0-420e-a1ff-2c5f08bcc67f
-
 ms.date: 12/05/2018
 ms.keywords: IEnumDot11AdHocInterfaces interface [NativeWIFI],Skip method, IEnumDot11AdHocInterfaces.Skip, IEnumDot11AdHocInterfaces::Skip, Skip, Skip method [NativeWIFI], Skip method [NativeWIFI],IEnumDot11AdHocInterfaces interface, adhoc/IEnumDot11AdHocInterfaces::Skip, nwifi.ienumdot11adhocinterfaces_skip
 ms.topic: method
-f1_keywords: 
- - "adhoc/IEnumDot11AdHocInterfaces.Skip"
+f1_keywords:
+- adhoc/IEnumDot11AdHocInterfaces.Skip
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IEnumDot11AdHocInterfaces.Skip
+- IEnumDot11AdHocInterfaces.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.UnRegisterScopeMatchingRule
 title: IWSDiscoveryPublisher::UnRegisterScopeMatchingRule (wsddisco.h)
-
 description: Removes support for a custom scope matching rule.
 old-location: ncd\iwsdiscoverypublisher_unregisterscopematchingrule_method.htm
 tech.root: WsdApi
 ms.assetid: 82af2ea1-8415-45f7-ab05-805a66689482
-
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher interface,UnRegisterScopeMatchingRule method, IWSDiscoveryPublisher.UnRegisterScopeMatchingRule, IWSDiscoveryPublisher::UnRegisterScopeMatchingRule, UnRegisterScopeMatchingRule, UnRegisterScopeMatchingRule method, UnRegisterScopeMatchingRule method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_unregisterscopematchingrule_method, wsddisco/IWSDiscoveryPublisher::UnRegisterScopeMatchingRule
 ms.topic: method
-f1_keywords: 
- - "wsddisco/IWSDiscoveryPublisher.UnRegisterScopeMatchingRule"
+f1_keywords:
+- wsddisco/IWSDiscoveryPublisher.UnRegisterScopeMatchingRule
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDiscoveryPublisher.UnRegisterScopeMatchingRule
+- IWSDiscoveryPublisher.UnRegisterScopeMatchingRule
 targetos: Windows
 req.typenames: 
 req.redist: 

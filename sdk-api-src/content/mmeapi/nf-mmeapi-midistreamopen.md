@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.midiStreamOpen
 title: midiStreamOpen function (mmeapi.h)
-
 description: The midiStreamOpen function opens a MIDI stream for output. By default, the device is opened in paused mode. The stream handle retrieved by this function must be used in all subsequent references to the stream.
 old-location: multimedia\midistreamopen.htm
 tech.root: Multimedia
 ms.assetid: 355cf034-e1d7-4530-b117-4c505ad0aac6
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_midiStreamOpen, midiStreamOpen, midiStreamOpen function [Windows Multimedia], mmeapi/midiStreamOpen, multimedia.midistreamopen"
+ms.keywords: _win32_midiStreamOpen, midiStreamOpen, midiStreamOpen function [Windows Multimedia], mmeapi/midiStreamOpen, multimedia.midistreamopen
 ms.topic: function
-f1_keywords: 
- - "mmeapi/midiStreamOpen"
+f1_keywords:
+- mmeapi/midiStreamOpen
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - midiStreamOpen
+- midiStreamOpen
 targetos: Windows
 req.typenames: 
 req.redist: 

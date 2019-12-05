@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PolicyServerUrl.put_Default
 title: IX509PolicyServerUrl::put_Default (certenroll.h)
-
 description: Specifies and retrieves a Boolean value that indicates whether this is the default certificate enrollment policy (CEP) server.
 old-location: security\ix509policyserverurl_default.htm
 tech.root: seccertenroll
 ms.assetid: 957ccbbb-5bd1-4aa8-bf3e-09dd078f1593
-
 ms.date: 12/05/2018
 ms.keywords: Default property [Security], Default property [Security],IX509PolicyServerUrl interface, IX509PolicyServerUrl interface [Security],Default property, IX509PolicyServerUrl.Default, IX509PolicyServerUrl.put_Default, IX509PolicyServerUrl::Default, IX509PolicyServerUrl::get_Default, IX509PolicyServerUrl::put_Default, certenroll/IX509PolicyServerUrl::Default, certenroll/IX509PolicyServerUrl::get_Default, certenroll/IX509PolicyServerUrl::put_Default, put_Default, security.ix509policyserverurl_default
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PolicyServerUrl.Default"
+f1_keywords:
+- certenroll/IX509PolicyServerUrl.Default
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509PolicyServerUrl.Default
- - IX509PolicyServerUrl.get_Default
- - IX509PolicyServerUrl.put_Default
+- IX509PolicyServerUrl.Default
+- IX509PolicyServerUrl.get_Default
+- IX509PolicyServerUrl.put_Default
 targetos: Windows
 req.typenames: 
 req.redist: 

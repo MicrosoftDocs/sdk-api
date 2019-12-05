@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IPin.ReceiveConnection
 title: IPin::ReceiveConnection (strmif.h)
-
 description: The ReceiveConnection method accepts a connection from another pin.
 old-location: dshow\ipin_receiveconnection.htm
 tech.root: DirectShow
 ms.assetid: b2013e95-88bc-4f4a-87af-2b13c120ec46
-
 ms.date: 12/05/2018
 ms.keywords: IPin interface [DirectShow],ReceiveConnection method, IPin.ReceiveConnection, IPin::ReceiveConnection, IPinReceiveConnection, ReceiveConnection, ReceiveConnection method [DirectShow], ReceiveConnection method [DirectShow],IPin interface, dshow.ipin_receiveconnection, strmif/IPin::ReceiveConnection
 ms.topic: method
-f1_keywords: 
- - "strmif/IPin.ReceiveConnection"
+f1_keywords:
+- strmif/IPin.ReceiveConnection
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IPin.ReceiveConnection
+- IPin.ReceiveConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilGetResourceDependencyEx
 title: ResUtilGetResourceDependencyEx function (resapi.h)
-
 description: Enumerates the dependencies of a specified resource and returns a handle to a dependency of a specified type. The PRESUTIL_GET_RESOURCE_DEPENDENCY_EX type defines a pointer to this function.
 old-location: mscs\resutilgetresourcedependencyex.htm
 tech.root: MsCS
 ms.assetid: 8F5BB021-83FB-44CD-94B4-33FC8E398C5B
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENCY_EX, PRESUTIL_GET_RESOURCE_DEPENDENCY_EX function [Failover Cluster], ResUtilGetResourceDependencyEx, ResUtilGetResourceDependencyEx function [Failover Cluster], mscs.resutilgetresourcedependencyex, resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY_EX, resapi/ResUtilGetResourceDependencyEx
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilGetResourceDependencyEx"
+f1_keywords:
+- resapi/ResUtilGetResourceDependencyEx
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilGetResourceDependencyEx
+- ResUtilGetResourceDependencyEx
 targetos: Windows
 req.typenames: 
 req.redist: 

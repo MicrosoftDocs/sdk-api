@@ -1,19 +1,17 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.get_computerInternetMediaSharingAllowedState
 title: IWindowsMediaLibrarySharingServices::get_computerInternetMediaSharingAllowedState (wmlss.h)
-
 description: The get_computerInternetMediaSharingAllowedState method retrieves a value that indicates whether media libraries on the computer are allowed to be shared on the Internet.
 old-location: wmlss\IWMLSSget_computerInternetMediaSharingAllowedState.htm
 tech.root: WMLSS
 ms.assetid: d4c6df42-5bbb-47b0-aedc-ffedd6fe9a8a
-
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],get_computerInternetMediaSharingAllowedState method, IWindowsMediaLibrarySharingServices.get_computerInternetMediaSharingAllowedState, IWindowsMediaLibrarySharingServices::get_computerInternetMediaSharingAllowedState, get_computerInternetMediaSharingAllowedState, get_computerInternetMediaSharingAllowedState method [Windows Media Library Sharing Services], get_computerInternetMediaSharingAllowedState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSget_computerInternetMediaSharingAllowedState, wmlss/IWindowsMediaLibrarySharingServices::get_computerInternetMediaSharingAllowedState
 ms.topic: method
-f1_keywords: 
- - "wmlss/IWindowsMediaLibrarySharingServices.get_computerInternetMediaSharingAllowedState"
+f1_keywords:
+- wmlss/IWindowsMediaLibrarySharingServices.get_computerInternetMediaSharingAllowedState
 dev_langs:
- - c++
+- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: WMPMediaSharing.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMPMediaSharing.dll
+- WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingServices.get_computerInternetMediaSharingAllowedState
+- IWindowsMediaLibrarySharingServices.get_computerInternetMediaSharingAllowedState
 targetos: Windows
 req.typenames: 
 req.redist: 

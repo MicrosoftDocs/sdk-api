@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroupManager.GetFileGroup
 title: IFsrmFileGroupManager::GetFileGroup (fsrmscreen.h)
-
 description: Retrieves the specified file group from FSRM.
 old-location: fsrm\ifsrmfilegroupmanager_getfilegroup.htm
 tech.root: fsrm
 ms.assetid: 14b61b2b-a20e-4895-bfbe-40e9dfe0c496
-
 ms.date: 12/05/2018
 ms.keywords: FsrmFileGroupManager class [File Server Resource Manager],GetFileGroup method, GetFileGroup, GetFileGroup method [File Server Resource Manager], GetFileGroup method [File Server Resource Manager],FsrmFileGroupManager class, GetFileGroup method [File Server Resource Manager],IFsrmFileGroupManager interface, IFsrmFileGroupManager interface [File Server Resource Manager],GetFileGroup method, IFsrmFileGroupManager.GetFileGroup, IFsrmFileGroupManager::GetFileGroup, fs.ifsrmfilegroupmanager_getfilegroup, fsrm.ifsrmfilegroupmanager_getfilegroup, fsrmscreen/IFsrmFileGroupManager::GetFileGroup
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileGroupManager.GetFileGroup"
+f1_keywords:
+- fsrmscreen/IFsrmFileGroupManager.GetFileGroup
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileGroupManager.GetFileGroup
- - FsrmFileGroupManager.GetFileGroup
+- IFsrmFileGroupManager.GetFileGroup
+- FsrmFileGroupManager.GetFileGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

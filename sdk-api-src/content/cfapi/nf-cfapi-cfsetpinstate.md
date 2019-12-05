@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfSetPinState
 title: CfSetPinState function (cfapi.h)
-
 description: This sets the pin state of a placeholder, used to represent a user’s intent. Any application (not just the sync provider) can call this function.
 old-location: cloudapi\cfsetpinstate.htm
 tech.root: cfApi
 ms.assetid: 8B279914-E23A-479B-8621-E83DE1978597
-
 ms.date: 12/05/2018
 ms.keywords: CfSetPinState, CfSetPinState function, cfapi/CfSetPinState, cloudApi.cfsetpinstate
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfSetPinState"
+f1_keywords:
+- cfapi/CfSetPinState
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfSetPinState
+- CfSetPinState
 targetos: Windows
 req.typenames: 
 req.redist: 

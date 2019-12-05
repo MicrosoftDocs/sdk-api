@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.GetSecurityDescriptorControl
 title: GetSecurityDescriptorControl function (securitybaseapi.h)
-
 description: Retrieves a security descriptor control and revision information.
 old-location: security\getsecuritydescriptorcontrol.htm
 tech.root: SecAuthZ
 ms.assetid: d66682f2-8017-4245-9d93-5f8332a5b483
-
 ms.date: 12/05/2018
 ms.keywords: GetSecurityDescriptorControl, GetSecurityDescriptorControl function [Security], _win32_getsecuritydescriptorcontrol, security.getsecuritydescriptorcontrol, securitybaseapi/GetSecurityDescriptorControl
 ms.topic: function
 f1_keywords:
 - securitybaseapi/GetSecurityDescriptorControl
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICDecompressExBegin
 title: ICDecompressExBegin function (vfw.h)
-
 description: The ICDecompressExBegin function prepares a decompressor for decompressing data.
 old-location: multimedia\icdecompressexbegin.htm
 tech.root: Multimedia
 ms.assetid: 35277938-6fae-4207-8b91-439af2b481e8
-
 ms.date: 12/05/2018
 ms.keywords: ICDecompressExBegin, ICDecompressExBegin function [Windows Multimedia], _win32_ICDecompressExBegin, multimedia.icdecompressexbegin, vfw/ICDecompressExBegin
 ms.topic: function
-f1_keywords: 
- - "vfw/ICDecompressExBegin"
+f1_keywords:
+- vfw/ICDecompressExBegin
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - ICDecompressExBegin
+- ICDecompressExBegin
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddPie(IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL)
 title: GraphicsPath::AddPie(IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL) (gdipluspath.h)
-
 description: The GraphicsPath::AddPie method adds a pie to this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddPie_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sweepAngle_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddpiemethods\addpie_5intx_inty_intwidth_intheight_realstarta.htm
-
 ms.date: 12/05/2018
 ms.keywords: AddPie, AddPie method [GDI+], AddPie method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddPie method, GraphicsPath.AddPie, GraphicsPath.AddPie(IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL), GraphicsPath.AddPie(INT,INT,INT,INT,REAL,REAL), GraphicsPath::AddPie, GraphicsPath::AddPie(IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL), _gdiplus_CLASS_GraphicsPath_AddPie_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sweepAngle_, gdiplus._gdiplus_CLASS_GraphicsPath_AddPie_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sweepAngle_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.AddPie"
+f1_keywords:
+- gdipluspath/GraphicsPath.AddPie
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.AddPie
+- GraphicsPath.AddPie
 targetos: Windows
 req.typenames: 
 req.redist: 

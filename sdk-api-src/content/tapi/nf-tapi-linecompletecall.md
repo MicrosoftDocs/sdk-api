@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineCompleteCall
 title: lineCompleteCall function (tapi.h)
-
 description: The lineCompleteCall function specifies how a call that could not be connected normally should be completed instead.
 old-location: tapi2\linecompletecall.htm
 tech.root: Tapi
 ms.assetid: 4cc4c1fd-3f54-40ec-9342-58b3783031ad
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linecompletecall, lineCompleteCall, lineCompleteCall function [TAPI 2.2], tapi/lineCompleteCall, tapi2.linecompletecall"
+ms.keywords: _tapi2_linecompletecall, lineCompleteCall, lineCompleteCall function [TAPI 2.2], tapi/lineCompleteCall, tapi2.linecompletecall
 ms.topic: function
-f1_keywords: 
- - "tapi/lineCompleteCall"
+f1_keywords:
+- tapi/lineCompleteCall
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineCompleteCall
+- lineCompleteCall
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wlanapi.WlanSetProfileList
 title: WlanSetProfileList function (wlanapi.h)
-
 description: Sets the preference order of profiles.
 old-location: nwifi\wlansetprofilelist.htm
 tech.root: NativeWiFi
 ms.assetid: 980c7920-a25e-4e05-a742-77178a7f000a
-
 ms.date: 12/05/2018
 ms.keywords: WlanSetProfileList, WlanSetProfileList function [NativeWIFI], nwifi.wlansetprofilelist, wlanapi/WlanSetProfileList
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WlanSetProfileList"
+f1_keywords:
+- wlanapi/WlanSetProfileList
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wlanapi.dll
+- wlanapi.dll
 api_name:
- - WlanSetProfileList
+- WlanSetProfileList
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2

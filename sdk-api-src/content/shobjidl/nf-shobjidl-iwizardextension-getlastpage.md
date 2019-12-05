@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IWizardExtension.GetLastPage
 title: IWizardExtension::GetLastPage (shobjidl.h)
-
 description: Gets a handle to the final page of the wizard extension pages.
 old-location: shell\IWizardExtension_GetLastPage.htm
 tech.root: shell
 ms.assetid: b4fc1089-d0fb-406d-bf05-b43b3f2cc87e
-
 ms.date: 12/05/2018
 ms.keywords: GetLastPage, GetLastPage method [Windows Shell], GetLastPage method [Windows Shell],IWizardExtension interface, IWizardExtension interface [Windows Shell],GetLastPage method, IWizardExtension.GetLastPage, IWizardExtension::GetLastPage, _shell_IWizardExtension_GetLastPage, shell.IWizardExtension_GetLastPage, shobjidl/IWizardExtension::GetLastPage
 ms.topic: method
 f1_keywords:
 - shobjidl/IWizardExtension.GetLastPage
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

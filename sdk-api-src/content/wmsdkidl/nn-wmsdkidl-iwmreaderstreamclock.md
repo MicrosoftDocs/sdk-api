@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMReaderStreamClock
 title: IWMReaderStreamClock (wmsdkidl.h)
-
 description: The IWMReaderStreamClock interface provides access to the clock used by the reader.This interface exists for every reader object.
 old-location: wmformat\iwmreaderstreamclock.htm
 tech.root: wmformat
 ms.assetid: 0f170b6d-fd93-4bf8-8a98-f2a80f03b380
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderStreamClock, IWMReaderStreamClock interface [windows Media Format], IWMReaderStreamClock interface [windows Media Format],described, IWMReaderStreamClockInterface, wmformat.iwmreaderstreamclock, wmsdkidl/IWMReaderStreamClock
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMReaderStreamClock"
+f1_keywords:
+- wmsdkidl/IWMReaderStreamClock
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMReaderStreamClock
+- IWMReaderStreamClock
 targetos: Windows
 req.typenames: 
 req.redist: 

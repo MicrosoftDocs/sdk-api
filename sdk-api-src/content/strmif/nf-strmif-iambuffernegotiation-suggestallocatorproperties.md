@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMBufferNegotiation.SuggestAllocatorProperties
 title: IAMBufferNegotiation::SuggestAllocatorProperties (strmif.h)
-
 description: The SuggestAllocatorProperties method informs the pin of the application's preferred allocator properties. Call this method before the pin connects.
 old-location: dshow\iambuffernegotiation_suggestallocatorproperties.htm
 tech.root: DirectShow
 ms.assetid: f6a7f2c4-be8b-4721-87f4-274ba365784f
-
 ms.date: 12/05/2018
 ms.keywords: IAMBufferNegotiation interface [DirectShow],SuggestAllocatorProperties method, IAMBufferNegotiation.SuggestAllocatorProperties, IAMBufferNegotiation::SuggestAllocatorProperties, IAMBufferNegotiationSuggestAllocatorProperties, SuggestAllocatorProperties, SuggestAllocatorProperties method [DirectShow], SuggestAllocatorProperties method [DirectShow],IAMBufferNegotiation interface, dshow.iambuffernegotiation_suggestallocatorproperties, strmif/IAMBufferNegotiation::SuggestAllocatorProperties
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMBufferNegotiation.SuggestAllocatorProperties"
+f1_keywords:
+- strmif/IAMBufferNegotiation.SuggestAllocatorProperties
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMBufferNegotiation.SuggestAllocatorProperties
+- IAMBufferNegotiation.SuggestAllocatorProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

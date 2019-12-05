@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1ResourceTexture
 title: ID2D1ResourceTexture (d2d1effectauthor.h)
-
 description: Tracks a transform-created resource texture.
 old-location: direct2d\id2d1resourcetexture.htm
 tech.root: Direct2D
 ms.assetid: 516FFBB4-1908-4574-BD4A-884C142204CD
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1ResourceTexture, ID2D1ResourceTexture interface [Direct2D], ID2D1ResourceTexture interface [Direct2D],described, d2d1effectauthor/ID2D1ResourceTexture, direct2d.id2d1resourcetexture
 ms.topic: interface
-f1_keywords: 
- - "d2d1effectauthor/ID2D1ResourceTexture"
+f1_keywords:
+- d2d1effectauthor/ID2D1ResourceTexture
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1ResourceTexture
+- ID2D1ResourceTexture
 targetos: Windows
 req.typenames: 
 req.redist: 

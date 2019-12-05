@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheck.ISpellChecker.get_Id
 title: ISpellChecker::get_Id (spellcheck.h)
-
 description: Gets the identifier for this spell checker.
 old-location: intl\ispellchecker_id.htm
 tech.root: Intl
 ms.assetid: ba3a520b-feea-4ea4-b285-f44a1e1fc518
-
 ms.date: 12/05/2018
 ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],Id property, ISpellChecker.Id, ISpellChecker.get_Id, ISpellChecker::Id, ISpellChecker::get_Id, Id property [Internationalization for Windows Applications], Id property [Internationalization for Windows Applications],ISpellChecker interface, get_Id, intl.ispellchecker_id, spellcheck/ISpellChecker::Id, spellcheck/ISpellChecker::get_Id
 ms.topic: method
-f1_keywords: 
- - "spellcheck/ISpellChecker.Id"
+f1_keywords:
+- spellcheck/ISpellChecker.Id
 dev_langs:
- - c++
+- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheck.h
+- Spellcheck.h
 api_name:
- - ISpellChecker.Id
- - ISpellChecker.get_Id
+- ISpellChecker.Id
+- ISpellChecker.get_Id
 targetos: Windows
 req.typenames: 
 req.redist: 

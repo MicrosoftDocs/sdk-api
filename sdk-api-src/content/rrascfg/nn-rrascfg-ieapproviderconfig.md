@@ -1,19 +1,17 @@
 ---
 UID: NN:rrascfg.IEAPProviderConfig
 title: IEAPProviderConfig (rrascfg.h)
-
 description: UI for EAP provider.
 old-location: eap\ieapproviderconfig.htm
 tech.root: EAP
 ms.assetid: 1e0283b7-ceb3-4c8a-99d9-1a1f1eb5eeb0
-
 ms.date: 12/05/2018
 ms.keywords: IEAPProviderConfig, IEAPProviderConfig interface [EAP], IEAPProviderConfig interface [EAP],described, _eap_ieapproviderconfig, eap.ieapproviderconfig, rrascfg/IEAPProviderConfig
 ms.topic: interface
-f1_keywords: 
- - "rrascfg/IEAPProviderConfig"
+f1_keywords:
+- rrascfg/IEAPProviderConfig
 dev_langs:
- - c++
+- c++
 req.header: rrascfg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rrascfg.h
+- Rrascfg.h
 api_name:
- - IEAPProviderConfig
+- IEAPProviderConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

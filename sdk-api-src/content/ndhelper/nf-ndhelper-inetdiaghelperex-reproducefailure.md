@@ -1,19 +1,17 @@
 ---
 UID: NF:ndhelper.INetDiagHelperEx.ReproduceFailure
 title: INetDiagHelperEx::ReproduceFailure (ndhelper.h)
-
 description: Used by the Network Diagnostics Framework (NDF). This method is reserved for system use.
 old-location: ndf\inetdiaghelperex_reproducefailure.htm
 tech.root: NDF
 ms.assetid: a85e375b-78f3-494b-846e-8ea5dd4b5b37
-
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelperEx interface [NDF],ReproduceFailure method, INetDiagHelperEx.ReproduceFailure, INetDiagHelperEx::ReproduceFailure, ReproduceFailure, ReproduceFailure method [NDF], ReproduceFailure method [NDF],INetDiagHelperEx interface, ndf.inetdiaghelperex_reproducefailure, ndhelper/INetDiagHelperEx::ReproduceFailure
 ms.topic: method
-f1_keywords: 
- - "ndhelper/INetDiagHelperEx.ReproduceFailure"
+f1_keywords:
+- ndhelper/INetDiagHelperEx.ReproduceFailure
 dev_langs:
- - c++
+- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ndhelper.h
+- ndhelper.h
 api_name:
- - INetDiagHelperEx.ReproduceFailure
+- INetDiagHelperEx.ReproduceFailure
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:lmerrlog.NetErrorLogRead
 title: NetErrorLogRead function (lmerrlog.h)
-
 description: The NetErrorLogRead function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use event logging.
 old-location: netmgmt\neterrorlogread.htm
 tech.root: NetMgmt
 ms.assetid: 90f86d91-e19e-4386-b263-5479680bc6f7
-
 ms.date: 12/05/2018
 ms.keywords: NetErrorLogRead, NetErrorLogRead function [Network Management], _win32_neterrorlogread, lmerrlog/NetErrorLogRead, netmgmt.neterrorlogread
 ms.topic: function
-f1_keywords: 
- - "lmerrlog/NetErrorLogRead"
+f1_keywords:
+- lmerrlog/NetErrorLogRead
 dev_langs:
- - c++
+- c++
 req.header: lmerrlog.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - lmerrlog.h
+- lmerrlog.h
 api_name:
- - NetErrorLogRead
+- NetErrorLogRead
 targetos: Windows
 req.typenames: 
 req.redist: 

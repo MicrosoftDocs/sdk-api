@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._LOOKUP_STREAM_FROM_CLUSTER_INPUT
 title: LOOKUP_STREAM_FROM_CLUSTER_INPUT
-
 description: Passed as input to the FSCTL_LOOKUP_STREAM_FROM_CLUSTER control code.
 old-location: fs\lookup_stream_from_cluster_input.htm
 tech.root: FileIO
 ms.assetid: 4b398ae8-a396-4917-bcb8-aa5f5920296f
-
 ms.date: 12/05/2018
-ms.keywords: "*PLOOKUP_STREAM_FROM_CLUSTER_INPUT, LOOKUP_STREAM_FROM_CLUSTER_INPUT, LOOKUP_STREAM_FROM_CLUSTER_INPUT structure [Files], PLOOKUP_STREAM_FROM_CLUSTER_INPUT, PLOOKUP_STREAM_FROM_CLUSTER_INPUT structure pointer [Files], fs.lookup_stream_from_cluster_input, winioctl/LOOKUP_STREAM_FROM_CLUSTER_INPUT, winioctl/PLOOKUP_STREAM_FROM_CLUSTER_INPUT"
+ms.keywords: '*PLOOKUP_STREAM_FROM_CLUSTER_INPUT, LOOKUP_STREAM_FROM_CLUSTER_INPUT, LOOKUP_STREAM_FROM_CLUSTER_INPUT structure [Files], PLOOKUP_STREAM_FROM_CLUSTER_INPUT, PLOOKUP_STREAM_FROM_CLUSTER_INPUT structure pointer [Files], fs.lookup_stream_from_cluster_input, winioctl/LOOKUP_STREAM_FROM_CLUSTER_INPUT, winioctl/PLOOKUP_STREAM_FROM_CLUSTER_INPUT'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/LOOKUP_STREAM_FROM_CLUSTER_INPUT"
+f1_keywords:
+- winioctl/LOOKUP_STREAM_FROM_CLUSTER_INPUT
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - LOOKUP_STREAM_FROM_CLUSTER_INPUT
+- LOOKUP_STREAM_FROM_CLUSTER_INPUT
 targetos: Windows
 req.typenames: LOOKUP_STREAM_FROM_CLUSTER_INPUT, *PLOOKUP_STREAM_FROM_CLUSTER_INPUT
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:lmshare.NetShareDel
 title: NetShareDel function (lmshare.h)
-
 description: Deletes a share name from a server's list of shared resources, disconnecting all connections to the shared resource.
 old-location: fs\netsharedel.htm
 tech.root: NetShare
 ms.assetid: 374b8f81-b3d6-4967-bd4a-ffd3fdc3cf7c
-
 ms.date: 12/05/2018
 ms.keywords: NetShareDel, NetShareDel function [Files], _win32_netsharedel, fs.netsharedel, lmshare/NetShareDel, netmgmt.netsharedel
 ms.topic: function
 f1_keywords:
 - lmshare/NetShareDel
 dev_langs:
- - c++
+- c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

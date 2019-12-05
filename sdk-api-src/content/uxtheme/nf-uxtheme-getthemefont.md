@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemeFont
 title: GetThemeFont function (uxtheme.h)
-
 description: Retrieves the value of a font property.
 old-location: controls\GetThemeFont.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemefont.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetThemeFont, GetThemeFont function [Windows Controls], controls.GetThemeFont, controls.inet_GetThemeFont, inet_GetThemeFont, inet_GetThemeFont_cpp, uxtheme/GetThemeFont
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemeFont"
+f1_keywords:
+- uxtheme/GetThemeFont
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
- - xamlpalwp.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
+- UxTheme.dll
+- Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+- xamlpalwp.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
 api_name:
- - GetThemeFont
+- GetThemeFont
 targetos: Windows
 req.typenames: 
 req.redist: 

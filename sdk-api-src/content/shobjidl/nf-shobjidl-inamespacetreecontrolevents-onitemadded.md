@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnItemAdded
 title: INameSpaceTreeControlEvents::OnItemAdded (shobjidl.h)
-
 description: Called after an IShellItem has been added.
 old-location: shell\INameSpaceTreeControlEvents_OnItemAdded.htm
 tech.root: shell
 ms.assetid: 7737e014-8e46-43da-b017-133bbf12b433
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnItemAdded method, INameSpaceTreeControlEvents.OnItemAdded, INameSpaceTreeControlEvents::OnItemAdded, OnItemAdded, OnItemAdded method [Windows Shell], OnItemAdded method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnItemAdded, shell.INameSpaceTreeControlEvents_OnItemAdded, shobjidl/INameSpaceTreeControlEvents::OnItemAdded
 ms.topic: method
-f1_keywords: 
- - "shobjidl/INameSpaceTreeControlEvents.OnItemAdded"
+f1_keywords:
+- shobjidl/INameSpaceTreeControlEvents.OnItemAdded
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - INameSpaceTreeControlEvents.OnItemAdded
+- INameSpaceTreeControlEvents.OnItemAdded
 targetos: Windows
 req.typenames: 
 req.redist: 

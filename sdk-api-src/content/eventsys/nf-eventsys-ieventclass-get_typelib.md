@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventClass.get_TypeLib
 title: IEventClass::get_TypeLib (eventsys.h)
-
 description: The path of the type library that contains the description of the event interface.
 old-location: cos\ieventclass_typelib.htm
 tech.root: cossdk
 ms.assetid: 5cf94f0f-94fd-46d2-91e5-50d5d57f8ceb
-
 ms.date: 12/05/2018
 ms.keywords: IEventClass interface [COM+],TypeLib property, IEventClass.TypeLib, IEventClass.get_TypeLib, IEventClass::TypeLib, IEventClass::get_TypeLib, IEventClass::put_TypeLib, TypeLib property [COM+], TypeLib property [COM+],IEventClass interface, cos.ieventclass_typelib, eventsys/IEventClass::TypeLib, eventsys/IEventClass::get_TypeLib, eventsys/IEventClass::put_TypeLib, get_TypeLib
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventClass.TypeLib"
+f1_keywords:
+- eventsys/IEventClass.TypeLib
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: Eventsys.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - eventsys.h
+- eventsys.h
 api_name:
- - IEventClass.TypeLib
- - IEventClass.get_TypeLib
- - IEventClass.put_TypeLib
+- IEventClass.TypeLib
+- IEventClass.get_TypeLib
+- IEventClass.put_TypeLib
 targetos: Windows
 req.typenames: 
 req.redist: 

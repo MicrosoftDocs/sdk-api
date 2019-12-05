@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10shader.D3D10DisassembleShader
 title: D3D10DisassembleShader function (d3d10shader.h)
-
 description: This function -- which disassembles a compiled shader into a text string that contains assembly instructions and register assignments -- has been deprecated. Instead, use D3DDisassemble.
 old-location: direct3d10\d3d10disassembleshader.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10disassembleshader.htm
-
 ms.date: 12/05/2018
 ms.keywords: 3e4c4f2f-1754-2bbc-636d-9cea485ffad1, D3D10DisassembleShader, D3D10DisassembleShader function [Direct3D 10], d3d10shader/D3D10DisassembleShader, direct3d10.d3d10disassembleshader
 ms.topic: function
-f1_keywords: 
- - "d3d10shader/D3D10DisassembleShader"
+f1_keywords:
+- d3d10shader/D3D10DisassembleShader
 dev_langs:
- - c++
+- c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D10.lib
 req.dll: D3D10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D3D10.dll
+- D3D10.dll
 api_name:
- - D3D10DisassembleShader
+- D3D10DisassembleShader
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.GetValue
 title: IEnumCERTVIEWCOLUMN::GetValue (certview.h)
-
 description: Retrieves the data value contained in the current column in the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_getvalue.htm
 tech.root: SecCrypto
 ms.assetid: 5cc14bd1-7963-4b11-aef6-4ef3b0b7f6c1
-
 ms.date: 12/05/2018
 ms.keywords: CV_OUT_BASE64, CV_OUT_BASE64HEADER, CV_OUT_BASE64REQUESTHEADER, CV_OUT_BASE64X509CRLHEADER, CV_OUT_BINARY, CV_OUT_HEX, CV_OUT_HEXADDR, CV_OUT_HEXASCII, CV_OUT_HEXASCIIADDR, GetValue, GetValue method [Security], GetValue method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetValue method, IEnumCERTVIEWCOLUMN.GetValue, IEnumCERTVIEWCOLUMN::GetValue, _certsrv_ienumcertviewcolumn_getvalue, certview/IEnumCERTVIEWCOLUMN::GetValue, security.ienumcertviewcolumn_getvalue
 ms.topic: method
-f1_keywords: 
- - "certview/IEnumCERTVIEWCOLUMN.GetValue"
+f1_keywords:
+- certview/IEnumCERTVIEWCOLUMN.GetValue
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IEnumCERTVIEWCOLUMN.GetValue
- - IEnumCERTVIEWCOLUMN.GetValue
+- IEnumCERTVIEWCOLUMN.GetValue
+- IEnumCERTVIEWCOLUMN.GetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

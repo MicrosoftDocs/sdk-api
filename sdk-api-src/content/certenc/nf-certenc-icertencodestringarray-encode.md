@@ -1,19 +1,17 @@
 ---
 UID: NF:certenc.ICertEncodeStringArray.Encode
 title: ICertEncodeStringArray::Encode (certenc.h)
-
 description: Returns an ASN.1-encoded string of the string array stored in this object.
 old-location: security\icertencodestringarray_encode.htm
 tech.root: SecCrypto
 ms.assetid: d8fc51ea-4d83-402a-a4ac-ce55d385905c
-
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeStringArray object [Security],Encode method, Encode, Encode method [Security], Encode method [Security],CCertEncodeStringArray object, Encode method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],Encode method, ICertEncodeStringArray.Encode, ICertEncodeStringArray::Encode, _certsrv_icertencodestringarray_encode, certenc/ICertEncodeStringArray::Encode, security.icertencodestringarray_encode
 ms.topic: method
-f1_keywords: 
- - "certenc/ICertEncodeStringArray.Encode"
+f1_keywords:
+- certenc/ICertEncodeStringArray.Encode
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeStringArray.Encode
- - CCertEncodeStringArray.Encode
+- ICertEncodeStringArray.Encode
+- CCertEncodeStringArray.Encode
 targetos: Windows
 req.typenames: 
 req.redist: 

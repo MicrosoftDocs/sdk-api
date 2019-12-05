@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IPin.BeginFlush
 title: IPin::BeginFlush (strmif.h)
-
 description: The BeginFlush method begins a flush operation.
 old-location: dshow\ipin_beginflush.htm
 tech.root: DirectShow
 ms.assetid: 15563666-5f35-46a0-ad12-215979c9d9c1
-
 ms.date: 12/05/2018
 ms.keywords: BeginFlush, BeginFlush method [DirectShow], BeginFlush method [DirectShow],IPin interface, IPin interface [DirectShow],BeginFlush method, IPin.BeginFlush, IPin::BeginFlush, IPinBeginFlush, dshow.ipin_beginflush, strmif/IPin::BeginFlush
 ms.topic: method
-f1_keywords: 
- - "strmif/IPin.BeginFlush"
+f1_keywords:
+- strmif/IPin.BeginFlush
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IPin.BeginFlush
+- IPin.BeginFlush
 targetos: Windows
 req.typenames: 
 req.redist: 

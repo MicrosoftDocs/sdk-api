@@ -1,19 +1,17 @@
 ---
 UID: NF:restrictederrorinfo.ILanguageExceptionErrorInfo2.GetPreviousLanguageExceptionErrorInfo
 title: ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo (restrictederrorinfo.h)
-
 description: Retrieves the previous language exception error information object.
 old-location: winrt\ilanguageexceptionerrorinfo2_getpreviouslanguageexceptionerrorinfo.htm
 tech.root: WinRT
 ms.assetid: 10A45EF1-AF8F-498D-B95B-FCE9EF8AB203
-
 ms.date: 12/05/2018
 ms.keywords: GetPreviousLanguageExceptionErrorInfo, GetPreviousLanguageExceptionErrorInfo method [Windows Runtime], GetPreviousLanguageExceptionErrorInfo method [Windows Runtime],ILanguageExceptionErrorInfo2 interface, ILanguageExceptionErrorInfo2 interface [Windows Runtime],GetPreviousLanguageExceptionErrorInfo method, ILanguageExceptionErrorInfo2.GetPreviousLanguageExceptionErrorInfo, ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo, restrictederrorinfo/ILanguageExceptionErrorInfo2::GetPreviousLanguageExceptionErrorInfo, winrt.ilanguageexceptionerrorinfo2_getpreviouslanguageexceptionerrorinfo
 ms.topic: method
-f1_keywords: 
- - "restrictederrorinfo/ILanguageExceptionErrorInfo2.GetPreviousLanguageExceptionErrorInfo"
+f1_keywords:
+- restrictederrorinfo/ILanguageExceptionErrorInfo2.GetPreviousLanguageExceptionErrorInfo
 dev_langs:
- - c++
+- c++
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - restrictederrorinfo.h
+- restrictederrorinfo.h
 api_name:
- - ILanguageExceptionErrorInfo2.GetPreviousLanguageExceptionErrorInfo
+- ILanguageExceptionErrorInfo2.GetPreviousLanguageExceptionErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

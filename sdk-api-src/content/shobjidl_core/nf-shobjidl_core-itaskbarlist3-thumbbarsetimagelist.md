@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.ThumbBarSetImageList
 title: ITaskbarList3::ThumbBarSetImageList (shobjidl_core.h)
-
 description: Specifies an image list that contains button images for a toolbar embedded in a thumbnail image of a window in a taskbar button flyout.
 old-location: shell\ITaskbarList3_ThumbBarSetImageList.htm
 tech.root: shell
 ms.assetid: 5c288b64-8630-42ca-9821-8e131f11f76d
-
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],ThumbBarSetImageList method, ITaskbarList3.ThumbBarSetImageList, ITaskbarList3::ThumbBarSetImageList, ThumbBarSetImageList, ThumbBarSetImageList method [Windows Shell], ThumbBarSetImageList method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_ThumbBarSetImageList, shell.ITaskbarList3_ThumbBarSetImageList, shobjidl_core/ITaskbarList3::ThumbBarSetImageList
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITaskbarList3.ThumbBarSetImageList"
+f1_keywords:
+- shobjidl_core/ITaskbarList3.ThumbBarSetImageList
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Explorerframe.lib
 req.dll: Explorerframe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Explorerframe.dll
+- Explorerframe.dll
 api_name:
- - ITaskbarList3.ThumbBarSetImageList
+- ITaskbarList3.ThumbBarSetImageList
 targetos: Windows
 req.typenames: 
 req.redist: 

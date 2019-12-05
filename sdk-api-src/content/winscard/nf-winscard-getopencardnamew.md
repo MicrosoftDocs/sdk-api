@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.GetOpenCardNameW
 title: GetOpenCardNameW function (winscard.h)
-
 description: The GetOpenCardName function displays the smart card &#0034;select card&#0034; dialog box.
 old-location: security\getopencardname.htm
 tech.root: SecAuthN
 ms.assetid: b103cec0-dd28-4f90-864b-5f66d044ec55
-
 ms.date: 12/05/2018
 ms.keywords: GetOpenCardName, GetOpenCardName function [Security], GetOpenCardNameA, GetOpenCardNameW, _smart_getopencardname, security.getopencardname, winscard/GetOpenCardName, winscard/GetOpenCardNameA, winscard/GetOpenCardNameW
 ms.topic: function
-f1_keywords: 
- - "winscard/GetOpenCardName"
+f1_keywords:
+- winscard/GetOpenCardName
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Scarddlg.lib
 req.dll: Scarddlg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Scarddlg.dll
+- Scarddlg.dll
 api_name:
- - GetOpenCardName
- - GetOpenCardNameA
- - GetOpenCardNameW
+- GetOpenCardName
+- GetOpenCardNameA
+- GetOpenCardNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

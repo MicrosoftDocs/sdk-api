@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlayer4.get_isRemote
 title: IWMPPlayer4::get_isRemote (wmp.h)
-
 description: The get_isRemote method retrieves a value indicating whether the Windows Media Player control is running in remote mode.
 old-location: wmp\iwmpplayer4_get_isremote.htm
 tech.root: WMP
 ms.assetid: 0b4f76f2-f62a-4c91-bbc4-166c450608dd
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer4 interface [Windows Media Player],get_isRemote method, IWMPPlayer4.get_isRemote, IWMPPlayer4::get_isRemote, IWMPPlayer4get_isRemote, get_isRemote, get_isRemote method [Windows Media Player], get_isRemote method [Windows Media Player],IWMPPlayer4 interface, wmp.iwmpplayer4_get_isremote, wmp/IWMPPlayer4::get_isRemote
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlayer4.get_isRemote"
+f1_keywords:
+- wmp/IWMPPlayer4.get_isRemote
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlayer4.get_isRemote
+- IWMPPlayer4.get_isRemote
 targetos: Windows
 req.typenames: 
 req.redist: 

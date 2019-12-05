@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFPMPHost
 title: IMFPMPHost (mfidl.h)
-
 description: Enables a media source in the application process to create objects in the protected media path (PMP) process.
 old-location: mf\imfpmphost.htm
 tech.root: medfound
 ms.assetid: fab1fb42-07c5-4a74-b6f5-0950b2c3ba46
-
 ms.date: 12/05/2018
 ms.keywords: IMFPMPHost, IMFPMPHost interface [Media Foundation], IMFPMPHost interface [Media Foundation],described, fab1fb42-07c5-4a74-b6f5-0950b2c3ba46, mf.imfpmphost, mfidl/IMFPMPHost
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFPMPHost"
+f1_keywords:
+- mfidl/IMFPMPHost
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFPMPHost
+- IMFPMPHost
 targetos: Windows
 req.typenames: 
 req.redist: 

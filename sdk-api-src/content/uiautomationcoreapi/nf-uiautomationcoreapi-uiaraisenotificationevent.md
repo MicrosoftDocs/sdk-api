@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRaiseNotificationEvent
 title: UiaRaiseNotificationEvent function (uiautomationcoreapi.h)
-
 description: Called by providers to initiate a notification event.
 old-location: winauto\uiauto_UiaRaiseNotificationEvent.htm
 tech.root: WinAuto
 ms.assetid: E9555BC0-A53B-416F-95C3-53696716F61F
-
 ms.date: 12/05/2018
 ms.keywords: UiaRaiseNotificationEvent, UiaRaiseNotificationEvent function [Windows Accessibility], uiautomationcoreapi/UiaRaiseNotificationEvent, winauto.uiauto_UiaRaiseNotificationEvent
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaRaiseNotificationEvent"
+f1_keywords:
+- uiautomationcoreapi/UiaRaiseNotificationEvent
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
- - Ext-MS-Win-UiaCore-L1-1-3.dll
+- Uiautomationcore.dll
+- Ext-MS-Win-UiaCore-L1-1-3.dll
 api_name:
- - UiaRaiseNotificationEvent
+- UiaRaiseNotificationEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

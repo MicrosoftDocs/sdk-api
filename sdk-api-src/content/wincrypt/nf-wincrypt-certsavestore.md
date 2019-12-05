@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertSaveStore
 title: CertSaveStore function (wincrypt.h)
-
 description: Saves the certificate store to a file or to a memory BLOB.
 old-location: security\certsavestore.htm
 tech.root: SecCrypto
 ms.assetid: 5cc818d7-b079-4962-aabc-fc512d4e92ac
-
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_SAVE_AS_PKCS7, CERT_STORE_SAVE_AS_STORE, CERT_STORE_SAVE_TO_FILE, CERT_STORE_SAVE_TO_FILENAME, CERT_STORE_SAVE_TO_FILENAME_A, CERT_STORE_SAVE_TO_FILENAME_W, CERT_STORE_SAVE_TO_MEMORY, CertSaveStore, CertSaveStore function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _crypto2_certsavestore, security.certsavestore, wincrypt/CertSaveStore
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertSaveStore"
+f1_keywords:
+- wincrypt/CertSaveStore
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertSaveStore
+- CertSaveStore
 targetos: Windows
 req.typenames: 
 req.redist: 

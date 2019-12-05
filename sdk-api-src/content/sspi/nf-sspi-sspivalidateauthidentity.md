@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.SspiValidateAuthIdentity
 title: SspiValidateAuthIdentity function (sspi.h)
-
 description: Indicates whether the specified identity structure is valid.
 old-location: security\sspivalidateauthidentity.htm
 tech.root: SecAuthN
 ms.assetid: 82733abd-d984-4902-b6e4-c3809171ad51
-
 ms.date: 12/05/2018
 ms.keywords: SspiValidateAuthIdentity, SspiValidateAuthIdentity function [Security], security.sspivalidateauthidentity, sspi/SspiValidateAuthIdentity
 ms.topic: function
-f1_keywords: 
- - "sspi/SspiValidateAuthIdentity"
+f1_keywords:
+- sspi/SspiValidateAuthIdentity
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - SspiCli.dll
+- SspiCli.dll
 api_name:
- - SspiValidateAuthIdentity
+- SspiValidateAuthIdentity
 targetos: Windows
 req.typenames: 
 req.redist: 

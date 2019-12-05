@@ -1,19 +1,17 @@
 ---
 UID: NN:wmcontainer.IMFASFStreamPrioritization
 title: IMFASFStreamPrioritization (wmcontainer.h)
-
 description: Not implemented.
 old-location: mf\imfasfstreamprioritization.htm
 tech.root: medfound
 ms.assetid: 6eb79c52-dc81-406c-9000-d25ad380e6b2
-
 ms.date: 12/05/2018
 ms.keywords: 6eb79c52-dc81-406c-9000-d25ad380e6b2, IMFASFStreamPrioritization, IMFASFStreamPrioritization interface [Media Foundation], IMFASFStreamPrioritization interface [Media Foundation],described, mf.imfasfstreamprioritization, wmcontainer/IMFASFStreamPrioritization
 ms.topic: interface
-f1_keywords: 
- - "wmcontainer/IMFASFStreamPrioritization"
+f1_keywords:
+- wmcontainer/IMFASFStreamPrioritization
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFStreamPrioritization
+- IMFASFStreamPrioritization
 targetos: Windows
 req.typenames: 
 req.redist: 

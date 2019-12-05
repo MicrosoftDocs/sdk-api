@@ -1,19 +1,17 @@
 ---
 UID: NF:davclnt.DavAddConnection
 title: DavAddConnection function (davclnt.h)
-
 description: Creates a secure connection to a WebDAV server or to a remote file or directory on a WebDAV server.
 old-location: webdav\davaddconnection.htm
 tech.root: WebDAV
 ms.assetid: d69cba04-503c-4d21-b762-3094c0921e28
-
 ms.date: 12/05/2018
 ms.keywords: DavAddConnection, DavAddConnection function [WebDAV], davclnt/DavAddConnection, webdav.davaddconnection
 ms.topic: function
-f1_keywords: 
- - "davclnt/DavAddConnection"
+f1_keywords:
+- davclnt/DavAddConnection
 dev_langs:
- - c++
+- c++
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - netapi32.dll
- - DavHlpr.dll
- - Ext-MS-Win-Rdr-DavHlpr-L1-1-0.dll
+- netapi32.dll
+- DavHlpr.dll
+- Ext-MS-Win-Rdr-DavHlpr-L1-1-0.dll
 api_name:
- - DavAddConnection
+- DavAddConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

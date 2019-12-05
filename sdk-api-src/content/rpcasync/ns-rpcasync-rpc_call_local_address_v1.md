@@ -1,19 +1,17 @@
 ---
 UID: NS:rpcasync._RPC_CALL_LOCAL_ADDRESS_V1
 title: RPC_CALL_LOCAL_ADDRESS_V1 (rpcasync.h)
-
 description: Contains information about the local address on which a call was made.
 old-location: rpc\rpc_call_local_address_v1.htm
 tech.root: Rpc
 ms.assetid: 2dda59dc-d2e5-4d98-a12a-f86557dcb1c0
-
 ms.date: 12/05/2018
-ms.keywords: "*PRPC_CALL_LOCAL_ADDRESS_V1, RPC_CALL_LOCAL_ADDRESS, RPC_CALL_LOCAL_ADDRESS structure [RPC], RPC_CALL_LOCAL_ADDRESS_V1, RPC_CALL_LOCAL_ADDRESS_V1 structure [RPC], RPC_CALL_LOCAL_ADDRESS_V1_A, RPC_CALL_LOCAL_ADDRESS_V1_W, rpc.rpc_call_local_address_v1, rpcasync/RPC_CALL_LOCAL_ADDRESS, rpcasync/RPC_CALL_LOCAL_ADDRESS_V1, rpcasync/RPC_CALL_LOCAL_ADDRESS_V1_A, rpcasync/RPC_CALL_LOCAL_ADDRESS_V1_W"
+ms.keywords: '*PRPC_CALL_LOCAL_ADDRESS_V1, RPC_CALL_LOCAL_ADDRESS, RPC_CALL_LOCAL_ADDRESS structure [RPC], RPC_CALL_LOCAL_ADDRESS_V1, RPC_CALL_LOCAL_ADDRESS_V1 structure [RPC], RPC_CALL_LOCAL_ADDRESS_V1_A, RPC_CALL_LOCAL_ADDRESS_V1_W, rpc.rpc_call_local_address_v1, rpcasync/RPC_CALL_LOCAL_ADDRESS, rpcasync/RPC_CALL_LOCAL_ADDRESS_V1, rpcasync/RPC_CALL_LOCAL_ADDRESS_V1_A, rpcasync/RPC_CALL_LOCAL_ADDRESS_V1_W'
 ms.topic: struct
-f1_keywords: 
- - "rpcasync/RPC_CALL_LOCAL_ADDRESS_V1"
+f1_keywords:
+- rpcasync/RPC_CALL_LOCAL_ADDRESS_V1
 dev_langs:
- - c++
+- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rpcasync.h
+- Rpcasync.h
 api_name:
- - RPC_CALL_LOCAL_ADDRESS_V1
- - RPC_CALL_LOCAL_ADDRESS_V1_A
- - RPC_CALL_LOCAL_ADDRESS_V1_W
+- RPC_CALL_LOCAL_ADDRESS_V1
+- RPC_CALL_LOCAL_ADDRESS_V1_A
+- RPC_CALL_LOCAL_ADDRESS_V1_W
 targetos: Windows
 req.typenames: RPC_CALL_LOCAL_ADDRESS_V1, *PRPC_CALL_LOCAL_ADDRESS_V1
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMExtTransport.get_LocalControl
 title: IAMExtTransport::get_LocalControl (strmif.h)
-
 description: The get_LocalControl method determines whether the transport is under local control or remote control.
 old-location: dshow\iamexttransport_get_localcontrol.htm
 tech.root: DirectShow
 ms.assetid: 793078a2-bddd-469b-9043-f07830499353
-
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],get_LocalControl method, IAMExtTransport.get_LocalControl, IAMExtTransport::get_LocalControl, IAMExtTransportget_LocalControl, dshow.iamexttransport_get_localcontrol, get_LocalControl, get_LocalControl method [DirectShow], get_LocalControl method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::get_LocalControl
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMExtTransport.get_LocalControl"
+f1_keywords:
+- strmif/IAMExtTransport.get_LocalControl
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtTransport.get_LocalControl
+- IAMExtTransport.get_LocalControl
 targetos: Windows
 req.typenames: 
 req.redist: 

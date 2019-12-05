@@ -1,19 +1,17 @@
 ---
 UID: NN:msp.ITPluggableTerminalEventSink
 title: ITPluggableTerminalEventSink (msp.h)
-
 description: The ITPluggableTerminalEventSink interface provides a method that fires a message to notify client applications about a change in a pluggable terminal.
 old-location: tapi3\itpluggableterminaleventsink.htm
 tech.root: Tapi
 ms.assetid: bcf64c78-aad2-4b53-b938-cc1fd373c8b4
-
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalEventSink, ITPluggableTerminalEventSink interface [TAPI 2.2], ITPluggableTerminalEventSink interface [TAPI 2.2],described, _tapi3_itpluggableterminaleventsink, msp/ITPluggableTerminalEventSink, tapi3.itpluggableterminaleventsink
 ms.topic: interface
-f1_keywords: 
- - "msp/ITPluggableTerminalEventSink"
+f1_keywords:
+- msp/ITPluggableTerminalEventSink
 dev_langs:
- - c++
+- c++
 req.header: msp.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPluggableTerminalEventSink
+- ITPluggableTerminalEventSink
 targetos: Windows
 req.typenames: 
 req.redist: 

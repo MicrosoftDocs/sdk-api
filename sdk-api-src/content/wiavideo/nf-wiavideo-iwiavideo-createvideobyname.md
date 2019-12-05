@@ -1,19 +1,17 @@
 ---
 UID: NF:wiavideo.IWiaVideo.CreateVideoByName
 title: IWiaVideo::CreateVideoByName (wiavideo.h)
-
 description: The IWiaVideo::CreateVideoByName method creates a connection to a streaming video device with the friendly device name obtained from a Directshow enumeration.
 old-location: wia\_wia_IWiaVideo_CreateVideoByName.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\createvideobyname.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateVideoByName, CreateVideoByName method [WIA], CreateVideoByName method [WIA],IWiaVideo interface, IWiaVideo interface [WIA],CreateVideoByName method, IWiaVideo.CreateVideoByName, IWiaVideo::CreateVideoByName, _wia_IWiaVideo_CreateVideoByName, wia._wia_IWiaVideo_CreateVideoByName, wiavideo/IWiaVideo::CreateVideoByName
 ms.topic: method
-f1_keywords: 
- - "wiavideo/IWiaVideo.CreateVideoByName"
+f1_keywords:
+- wiavideo/IWiaVideo.CreateVideoByName
 dev_langs:
- - c++
+- c++
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wiavideo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiavideo.dll
+- Wiavideo.dll
 api_name:
- - IWiaVideo.CreateVideoByName
+- IWiaVideo.CreateVideoByName
 targetos: Windows
 req.typenames: 
 req.redist: 

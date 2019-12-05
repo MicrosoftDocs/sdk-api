@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_2.IDWriteTextRenderer1.DrawGlyphRun
 title: IDWriteTextRenderer1::DrawGlyphRun (dwrite_2.h)
-
 description: IDWriteTextLayout::Draw calls this function to instruct the client to render a run of glyphs.
 old-location: directwrite\idwritetextrenderer1_drawglyphrun.htm
 tech.root: DirectWrite
 ms.assetid: b5f24a23-fb81-90f3-85de-55d8599a18d3
-
 ms.date: 12/05/2018
 ms.keywords: DrawGlyphRun, DrawGlyphRun method [Direct Write], DrawGlyphRun method [Direct Write],IDWriteTextRenderer1 interface, IDWriteTextRenderer1 interface [Direct Write],DrawGlyphRun method, IDWriteTextRenderer1.DrawGlyphRun, IDWriteTextRenderer1::DrawGlyphRun, directwrite.idwritetextrenderer1_drawglyphrun, dwrite_2/IDWriteTextRenderer1::DrawGlyphRun
 ms.topic: method
-f1_keywords: 
- - "dwrite_2/IDWriteTextRenderer1.DrawGlyphRun"
+f1_keywords:
+- dwrite_2/IDWriteTextRenderer1.DrawGlyphRun
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextRenderer1.DrawGlyphRun
+- IDWriteTextRenderer1.DrawGlyphRun
 targetos: Windows
 req.typenames: 
 req.redist: 

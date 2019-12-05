@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO
 title: CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO (wincrypt.h)
-
 description: Contains information about a message recipient that is using key agreement key management.
 old-location: security\cmsg_key_agree_recipient_encode_info.htm
 tech.root: SecCrypto
 ms.assetid: f8691df7-3cc1-48cb-8787-84c7046b280f
-
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, CMSG_KEY_AGREE_EPHEMERAL_KEY_CHOICE, CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO structure [Security], CMSG_KEY_AGREE_STATIC_KEY_CHOICE, PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO structure pointer [Security], _crypto2_cmsg_key_agree_recipient_encode_info, security.cmsg_key_agree_recipient_encode_info, wincrypt/CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO, wincrypt/PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO'
 ms.topic: struct
 f1_keywords:
 - wincrypt/CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

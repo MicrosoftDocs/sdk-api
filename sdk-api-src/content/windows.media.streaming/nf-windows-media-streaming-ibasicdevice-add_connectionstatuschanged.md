@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.streaming.IBasicDevice.add_ConnectionStatusChanged
 title: IBasicDevice::streaming (windows.media.streaming.h)
-
 description: Registers an event handler for the ConnectionStatusChanged event.
 old-location: mediastreaming\ibasicdevice_add_connectionstatuschanged.htm
 tech.root: mediastreaming
 ms.assetid: 1A4CCEFE-B6B6-4AFD-9296-EE923B9EF399
-
 ms.date: 12/05/2018
 ms.keywords: IBasicDevice interface [Media Streaming API],add_ConnectionStatusChanged method, IBasicDevice.add_ConnectionStatusChanged, IBasicDevice.streaming, IBasicDevice::add_ConnectionStatusChanged, IBasicDevice::streaming, add_ConnectionStatusChanged, add_ConnectionStatusChanged method [Media Streaming API], add_ConnectionStatusChanged method [Media Streaming API],IBasicDevice interface, mediastreaming.ibasicdevice_add_connectionstatuschanged, windows/IBasicDevice::add_ConnectionStatusChanged
 ms.topic: method
-f1_keywords: 
- - "windows.media.streaming/IBasicDevice.add_ConnectionStatusChanged"
+f1_keywords:
+- windows.media.streaming/IBasicDevice.add_ConnectionStatusChanged
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.media.streaming.h
+- windows.media.streaming.h
 api_name:
- - IBasicDevice.add_ConnectionStatusChanged
+- IBasicDevice.add_ConnectionStatusChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

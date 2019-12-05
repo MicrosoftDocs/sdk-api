@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquirePlugin.Initialize
 title: IPhotoAcquirePlugin::Initialize (photoacquire.h)
-
 description: The Initialize method provides extended functionality when the plug-in is initialized. The application provides the implementation of the Initialize method.
 old-location: picacq\iphotoacquireplugin_initialize.htm
 tech.root: acquisition
 ms.assetid: 0992e4f0-43a0-49fb-99f4-8713af96ef7e
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquirePlugin interface [Picture Acquisition],Initialize method, IPhotoAcquirePlugin.Initialize, IPhotoAcquirePlugin::Initialize, IPhotoAcquirePluginInitialize, Initialize, Initialize method [Picture Acquisition], Initialize method [Picture Acquisition],IPhotoAcquirePlugin interface, photoacquire/IPhotoAcquirePlugin::Initialize, picacq.iphotoacquireplugin_initialize
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquirePlugin.Initialize"
+f1_keywords:
+- photoacquire/IPhotoAcquirePlugin.Initialize
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquirePlugin.Initialize
+- IPhotoAcquirePlugin.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

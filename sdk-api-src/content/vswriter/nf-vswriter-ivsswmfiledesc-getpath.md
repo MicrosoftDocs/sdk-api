@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssWMFiledesc.GetPath
 title: IVssWMFiledesc::GetPath (vswriter.h)
-
 description: The GetPath method obtains the fully qualified directory path or the UNC path of the remote file share to obtain the list of files described in the current IVssWMFiledesc object.
 old-location: base\ivsswmfiledesc_getpath.htm
 tech.root: VSS
 ms.assetid: e646bf76-8779-4095-a022-2d69d5c3bead
-
 ms.date: 12/05/2018
 ms.keywords: GetPath, GetPath method [VSS], GetPath method [VSS],IVssWMFiledesc interface, IVssWMFiledesc interface [VSS],GetPath method, IVssWMFiledesc.GetPath, IVssWMFiledesc::GetPath, _win32_ivsswmfiledesc_getpath, base.ivsswmfiledesc_getpath, vswriter/IVssWMFiledesc::GetPath
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssWMFiledesc.GetPath"
+f1_keywords:
+- vswriter/IVssWMFiledesc.GetPath
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssWMFiledesc.GetPath
+- IVssWMFiledesc.GetPath
 targetos: Windows
 req.typenames: 
 req.redist: 

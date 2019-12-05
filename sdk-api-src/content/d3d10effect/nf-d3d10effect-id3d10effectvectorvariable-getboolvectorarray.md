@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVectorVariable.GetBoolVectorArray
 title: ID3D10EffectVectorVariable::GetBoolVectorArray (d3d10effect.h)
-
 description: Get an array of four-component vectors that contain boolean data.
 old-location: direct3d10\id3d10effectvectorvariable_getboolvectorarray.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable_getboolvectorarray.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetBoolVectorArray, GetBoolVectorArray method [Direct3D 10], GetBoolVectorArray method [Direct3D 10],ID3D10EffectVectorVariable interface, ID3D10EffectVectorVariable interface [Direct3D 10],GetBoolVectorArray method, ID3D10EffectVectorVariable.GetBoolVectorArray, ID3D10EffectVectorVariable::GetBoolVectorArray, a6cfd4e9-ded5-2e31-f74b-352c828f9eb6, d3d10effect/ID3D10EffectVectorVariable::GetBoolVectorArray, direct3d10.id3d10effectvectorvariable_getboolvectorarray
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectVectorVariable.GetBoolVectorArray"
+f1_keywords:
+- d3d10effect/ID3D10EffectVectorVariable.GetBoolVectorArray
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectVectorVariable.GetBoolVectorArray
+- ID3D10EffectVectorVariable.GetBoolVectorArray
 targetos: Windows
 req.typenames: 
 req.redist: 

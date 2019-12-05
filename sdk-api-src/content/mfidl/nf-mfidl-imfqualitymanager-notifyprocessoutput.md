@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFQualityManager.NotifyProcessOutput
 title: IMFQualityManager::NotifyProcessOutput (mfidl.h)
-
 description: Called after the media processor gets an output sample from a pipeline component.
 old-location: mf\imfqualitymanager_notifyprocessoutput.htm
 tech.root: medfound
 ms.assetid: 90596111-6fbc-4249-a696-bd575cb66830
-
 ms.date: 12/05/2018
 ms.keywords: 90596111-6fbc-4249-a696-bd575cb66830, IMFQualityManager interface [Media Foundation],NotifyProcessOutput method, IMFQualityManager.NotifyProcessOutput, IMFQualityManager::NotifyProcessOutput, NotifyProcessOutput, NotifyProcessOutput method [Media Foundation], NotifyProcessOutput method [Media Foundation],IMFQualityManager interface, mf.imfqualitymanager_notifyprocessoutput, mfidl/IMFQualityManager::NotifyProcessOutput
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFQualityManager.NotifyProcessOutput"
+f1_keywords:
+- mfidl/IMFQualityManager.NotifyProcessOutput
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFQualityManager.NotifyProcessOutput
+- IMFQualityManager.NotifyProcessOutput
 targetos: Windows
 req.typenames: 
 req.redist: 

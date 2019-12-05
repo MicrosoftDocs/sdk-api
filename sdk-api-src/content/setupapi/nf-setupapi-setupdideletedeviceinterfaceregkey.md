@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiDeleteDeviceInterfaceRegKey
 title: SetupDiDeleteDeviceInterfaceRegKey function (setupapi.h)
-
 description: The SetupDiDeleteDeviceInterfaceRegKey function deletes the registry subkey that is used by applications and drivers to store interface-specific information.
 old-location: devinst\setupdideletedeviceinterfaceregkey.htm
 tech.root: devinst
 ms.assetid: 470c96d4-b04f-4c9f-9ce3-9ba3d9ae49c1
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiDeleteDeviceInterfaceRegKey, SetupDiDeleteDeviceInterfaceRegKey function [Device and Driver Installation], devinst.setupdideletedeviceinterfaceregkey, di-rtns_73c5871c-1386-4362-be95-e4e49a052cf5.xml, setupapi/SetupDiDeleteDeviceInterfaceRegKey
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiDeleteDeviceInterfaceRegKey
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

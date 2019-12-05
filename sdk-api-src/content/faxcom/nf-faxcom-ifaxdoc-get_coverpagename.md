@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_CoverpageName
 title: IFaxDoc::get_CoverpageName (faxcom.h)
-
 description: Sets or retrieves the CoverpageName property for a FaxDoc object. The CoverpageName property is a null-terminated string that contains the name of the cover page template file (.cov) associated with the object.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_coverpagename_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3kmd.htm
-
 ms.date: 12/05/2018
 ms.keywords: CoverpageName property [Fax Service], CoverpageName property [Fax Service],IFaxDoc interface, IFaxDoc interface [Fax Service],CoverpageName property, IFaxDoc.CoverpageName, IFaxDoc.get_CoverpageName, IFaxDoc::CoverpageName, IFaxDoc::get_CoverpageName, IFaxDoc::put_CoverpageName, _mfax_ifaxdoc_get_coverpagename, fax._mfax_ifaxdoc_get_coverpagename, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_coverpagename_cpp, faxcom/IFaxDoc::CoverpageName, faxcom/IFaxDoc::get_CoverpageName, faxcom/IFaxDoc::put_CoverpageName, get_CoverpageName
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxDoc.CoverpageName"
+f1_keywords:
+- faxcom/IFaxDoc.CoverpageName
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxDoc.CoverpageName
- - IFaxDoc.get_CoverpageName
- - IFaxDoc.put_CoverpageName
+- IFaxDoc.CoverpageName
+- IFaxDoc.get_CoverpageName
+- IFaxDoc.put_CoverpageName
 targetos: Windows
 req.typenames: 
 req.redist: 

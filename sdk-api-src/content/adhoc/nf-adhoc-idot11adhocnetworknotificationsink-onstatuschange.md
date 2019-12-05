@@ -1,19 +1,17 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetworkNotificationSink.OnStatusChange
 title: IDot11AdHocNetworkNotificationSink::OnStatusChange (adhoc.h)
-
 description: Notifies the client that the connection status of the network has changed.
 old-location: nwifi\idot11adhocnetworknotificationsink_onstatuschange.htm
 tech.root: NativeWiFi
 ms.assetid: 795057bf-d97e-40b8-b242-5e3859ad3038
-
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocNetworkNotificationSink interface [NativeWIFI],OnStatusChange method, IDot11AdHocNetworkNotificationSink.OnStatusChange, IDot11AdHocNetworkNotificationSink::OnStatusChange, OnStatusChange, OnStatusChange method [NativeWIFI], OnStatusChange method [NativeWIFI],IDot11AdHocNetworkNotificationSink interface, adhoc/IDot11AdHocNetworkNotificationSink::OnStatusChange, nwifi.idot11adhocnetworknotificationsink_onstatuschange
 ms.topic: method
-f1_keywords: 
- - "adhoc/IDot11AdHocNetworkNotificationSink.OnStatusChange"
+f1_keywords:
+- adhoc/IDot11AdHocNetworkNotificationSink.OnStatusChange
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IDot11AdHocNetworkNotificationSink.OnStatusChange
+- IDot11AdHocNetworkNotificationSink.OnStatusChange
 targetos: Windows
 req.typenames: 
 req.redist: 

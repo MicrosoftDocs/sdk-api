@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineGetAddressIDW
 title: lineGetAddressIDW function (tapi.h)
-
 description: The lineGetAddressID function returns the address identifier associated with an address in a different format on the specified line.
 old-location: tapi2\linegetaddressid.htm
 tech.root: Tapi
 ms.assetid: f714068c-8cdc-4098-b1f6-f2cfd62a83c4
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linegetaddressid, lineGetAddressID, lineGetAddressID function [TAPI 2.2], lineGetAddressIDA, lineGetAddressIDW, tapi/lineGetAddressID, tapi/lineGetAddressIDA, tapi/lineGetAddressIDW, tapi2.linegetaddressid"
+ms.keywords: _tapi2_linegetaddressid, lineGetAddressID, lineGetAddressID function [TAPI 2.2], lineGetAddressIDA, lineGetAddressIDW, tapi/lineGetAddressID, tapi/lineGetAddressIDA, tapi/lineGetAddressIDW, tapi2.linegetaddressid
 ms.topic: function
-f1_keywords: 
- - "tapi/lineGetAddressID"
+f1_keywords:
+- tapi/lineGetAddressID
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineGetAddressID
- - lineGetAddressIDA
- - lineGetAddressIDW
+- lineGetAddressID
+- lineGetAddressIDA
+- lineGetAddressIDW
 targetos: Windows
 req.typenames: 
 req.redist: 

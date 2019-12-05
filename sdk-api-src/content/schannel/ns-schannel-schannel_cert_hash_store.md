@@ -1,19 +1,17 @@
 ---
 UID: NS:schannel._SCHANNEL_CERT_HASH_STORE
 title: SCHANNEL_CERT_HASH_STORE (schannel.h)
-
 description: Contains the hash store data for the certificate that Schannel uses in kernel-mode.
 old-location: security\schannel_cert_hash_store.htm
 tech.root: SecAuthN
 ms.assetid: 26902BD9-9426-4061-AC70-67A4F4063511
-
 ms.date: 12/05/2018
-ms.keywords: "*PSCHANNEL_CERT_HASH_STORE, PSCHANNEL_CERT_HASH_STORE, PSCHANNEL_CERT_HASH_STORE structure pointer [Security], SCHANNEL_CERT_HASH_STORE, SCHANNEL_CERT_HASH_STORE structure [Security], SCH_MACHINE_CERT_HASH, schannel/PSCHANNEL_CERT_HASH_STORE, schannel/SCHANNEL_CERT_HASH_STORE, security.schannel_cert_hash_store"
+ms.keywords: '*PSCHANNEL_CERT_HASH_STORE, PSCHANNEL_CERT_HASH_STORE, PSCHANNEL_CERT_HASH_STORE structure pointer [Security], SCHANNEL_CERT_HASH_STORE, SCHANNEL_CERT_HASH_STORE structure [Security], SCH_MACHINE_CERT_HASH, schannel/PSCHANNEL_CERT_HASH_STORE, schannel/SCHANNEL_CERT_HASH_STORE, security.schannel_cert_hash_store'
 ms.topic: struct
-f1_keywords: 
- - "schannel/SCHANNEL_CERT_HASH_STORE"
+f1_keywords:
+- schannel/SCHANNEL_CERT_HASH_STORE
 dev_langs:
- - c++
+- c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Schannel.h
+- Schannel.h
 api_name:
- - SCHANNEL_CERT_HASH_STORE
+- SCHANNEL_CERT_HASH_STORE
 targetos: Windows
 req.typenames: SCHANNEL_CERT_HASH_STORE, *PSCHANNEL_CERT_HASH_STORE
 req.redist: 

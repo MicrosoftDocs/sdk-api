@@ -1,19 +1,17 @@
 ---
 UID: NF:wsbapp.IWsbApplicationAsync.Abort
 title: IWsbApplicationAsync::Abort (wsbapp.h)
-
 description: Cancels an incomplete asynchronous operation.
 old-location: wsb\iwsbapplicationasync_abort.htm
 tech.root: wsb
 ms.assetid: 937ca809-4bb0-408e-9c7e-eccc43d8d4ae
-
 ms.date: 12/05/2018
 ms.keywords: Abort, Abort method [Windows Server Backup], Abort method [Windows Server Backup],IWsbApplicationAsync interface, IWsbApplicationAsync interface [Windows Server Backup],Abort method, IWsbApplicationAsync.Abort, IWsbApplicationAsync::Abort, wsb.iwsbapplicationasync_abort, wsbapp/IWsbApplicationAsync::Abort
 ms.topic: method
-f1_keywords: 
- - "wsbapp/IWsbApplicationAsync.Abort"
+f1_keywords:
+- wsbapp/IWsbApplicationAsync.Abort
 dev_langs:
- - c++
+- c++
 req.header: wsbapp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WsbApp.h
+- WsbApp.h
 api_name:
- - IWsbApplicationAsync.Abort
+- IWsbApplicationAsync.Abort
 targetos: Windows
 req.typenames: 
 req.redist: 

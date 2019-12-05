@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzBizRuleContext.GetParameter
 title: IAzBizRuleContext::GetParameter (azroles.h)
-
 description: Gets the specified value from the varParameterValues parameter of the IAzClientContext::AccessCheck method.
 old-location: security\azbizrulecontext_getparameter.htm
 tech.root: SecAuthZ
 ms.assetid: 9c956eea-92a5-4da8-abe0-a5ab4e41ab85
-
 ms.date: 12/05/2018
 ms.keywords: AzBizRuleContext object [Security],GetParameter method, GetParameter, GetParameter method [Security], GetParameter method [Security],AzBizRuleContext object, GetParameter method [Security],IAzBizRuleContext interface, IAzBizRuleContext interface [Security],GetParameter method, IAzBizRuleContext.GetParameter, IAzBizRuleContext::GetParameter, azroles/IAzBizRuleContext::GetParameter, security.azbizrulecontext_getparameter
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzBizRuleContext.GetParameter"
+f1_keywords:
+- azroles/IAzBizRuleContext.GetParameter
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzBizRuleContext.GetParameter
- - AzBizRuleContext.GetParameter
+- IAzBizRuleContext.GetParameter
+- AzBizRuleContext.GetParameter
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

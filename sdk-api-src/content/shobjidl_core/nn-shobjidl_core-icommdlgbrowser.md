@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.ICommDlgBrowser
 title: ICommDlgBrowser (shobjidl_core.h)
-
 description: Exposed by the common file dialog boxes to be used when they host a Shell browser.
 old-location: shell\ICommDlgBrowser.htm
 tech.root: shell
 ms.assetid: bf89ac6e-6c2e-4944-885c-9ab62f58fe71
-
 ms.date: 12/05/2018
 ms.keywords: ICommDlgBrowser, ICommDlgBrowser interface [Windows Shell], ICommDlgBrowser interface [Windows Shell],described, _win32_ICommDlgBrowser, shell.ICommDlgBrowser, shobjidl_core/ICommDlgBrowser
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/ICommDlgBrowser"
+f1_keywords:
+- shobjidl_core/ICommDlgBrowser
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICommDlgBrowser
+- ICommDlgBrowser
 targetos: Windows
 req.typenames: 
 req.redist: 

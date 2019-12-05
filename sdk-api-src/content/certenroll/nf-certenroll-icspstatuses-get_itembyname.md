@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspStatuses.get_ItemByName
 title: ICspStatuses::get_ItemByName (certenroll.h)
-
 description: Retrieves an ICspStatus object from the collection by provider and algorithm name.
 old-location: security\icspstatuses_itembyname_property.htm
 tech.root: seccertenroll
 ms.assetid: c8b37240-33e6-4982-94f5-c0b937bdce45
-
 ms.date: 12/05/2018
 ms.keywords: ICspStatuses interface [Security],ItemByName property, ICspStatuses.ItemByName, ICspStatuses.get_ItemByName, ICspStatuses::ItemByName, ICspStatuses::get_ItemByName, ItemByName property [Security], ItemByName property [Security],ICspStatuses interface, certenroll/ICspStatuses::ItemByName, certenroll/ICspStatuses::get_ItemByName, get_ItemByName, security.icspstatuses_itembyname_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspStatuses.ItemByName"
+f1_keywords:
+- certenroll/ICspStatuses.ItemByName
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspStatuses.ItemByName
- - ICspStatuses.get_ItemByName
+- ICspStatuses.ItemByName
+- ICspStatuses.get_ItemByName
 targetos: Windows
 req.typenames: 
 req.redist: 

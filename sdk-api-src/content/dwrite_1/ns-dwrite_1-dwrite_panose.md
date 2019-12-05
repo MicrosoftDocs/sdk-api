@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite_1.DWRITE_PANOSE
 title: DWRITE_PANOSE (dwrite_1.h)
-
 description: The DWRITE_PANOSE union describes typeface classification values that you use with IDWriteFont1::GetPanose to select and match the font.
 old-location: directwrite\dwrite_panose.htm
 tech.root: DirectWrite
 ms.assetid: B65B4C8E-1CA0-47AC-AA3F-8F2EACC5C11A
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_PANOSE, DWRITE_PANOSE union [Direct Write], directwrite.dwrite_panose, dwrite_1/DWRITE_PANOSE
 ms.topic: struct
-f1_keywords: 
- - "dwrite_1/DWRITE_PANOSE"
+f1_keywords:
+- dwrite_1/DWRITE_PANOSE
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dwrite_1.h
+- Dwrite_1.h
 api_name:
- - DWRITE_PANOSE
+- DWRITE_PANOSE
 targetos: Windows
 req.typenames: 
 req.redist: 

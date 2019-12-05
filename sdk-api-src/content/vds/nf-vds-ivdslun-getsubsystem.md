@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsLun.GetSubSystem
 title: IVdsLun::GetSubSystem (vds.h)
-
 description: Returns the subsystem that surfaces the LUN.
 old-location: base\ivdslun_getsubsystem.htm
 tech.root: VDS
 ms.assetid: bd7dbe48-ad56-4304-a076-608f697620d8
-
 ms.date: 12/05/2018
 ms.keywords: GetSubSystem, GetSubSystem method [VDS], GetSubSystem method [VDS],IVdsLun interface, IVdsLun interface [VDS],GetSubSystem method, IVdsLun.GetSubSystem, IVdsLun::GetSubSystem, base.ivdslun_getsubsystem, vds/IVdsLun::GetSubSystem, vdshwprv/IVdsLun::GetSubSystem
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsLun.GetSubSystem"
+f1_keywords:
+- vds/IVdsLun.GetSubSystem
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsLun.GetSubSystem
+- IVdsLun.GetSubSystem
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif._AMCOPPCommand
 title: AMCOPPCommand (strmif.h)
-
 description: The AMCOPPCommand structure contains a Certified Output Protection Protocol (COPP) command.
 old-location: dshow\amcoppcommand.htm
 tech.root: DirectShow
 ms.assetid: 8b2c06e9-f1b7-4185-8ade-b5abe9ac776d
-
 ms.date: 12/05/2018
-ms.keywords: "*LPAMCOPPCommand, AMCOPPCommand, AMCOPPCommand structure [DirectShow], AMCOPPCommandStructure, LPAMCOPPCommand, LPAMCOPPCommand structure pointer [DirectShow], dshow.amcoppcommand, strmif/AMCOPPCommand, strmif/LPAMCOPPCommand"
+ms.keywords: '*LPAMCOPPCommand, AMCOPPCommand, AMCOPPCommand structure [DirectShow], AMCOPPCommandStructure, LPAMCOPPCommand, LPAMCOPPCommand structure pointer [DirectShow], dshow.amcoppcommand, strmif/AMCOPPCommand, strmif/LPAMCOPPCommand'
 ms.topic: struct
-f1_keywords: 
- - "strmif/AMCOPPCommand"
+f1_keywords:
+- strmif/AMCOPPCommand
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - AMCOPPCommand
+- AMCOPPCommand
 targetos: Windows
 req.typenames: AMCOPPCommand, *LPAMCOPPCommand
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:minidumpapiset.MINIDUMP_CALLBACK_ROUTINE
 title: MINIDUMP_CALLBACK_ROUTINE (minidumpapiset.h)
-
 description: An application-defined callback function used with MiniDumpWriteDump. It receives extended minidump information.
 old-location: base\minidumpcallback.htm
 tech.root: Debug
 ms.assetid: 8dc95b0a-6aee-4c38-ab25-a800153bbe91
-
 ms.date: 12/05/2018
 ms.keywords: MINIDUMP_CALLBACK_ROUTINE, MiniDumpCallback, MiniDumpCallback callback, MiniDumpCallback callback function, _win32_minidumpcallback, base.minidumpcallback, minidumpapiset/MiniDumpCallback
 ms.topic: callback
-f1_keywords: 
- - "minidumpapiset/MiniDumpCallback"
+f1_keywords:
+- minidumpapiset/MiniDumpCallback
 dev_langs:
- - c++
+- c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MiniDumpCallback
+- MiniDumpCallback
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

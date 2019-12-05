@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateAnimation
 title: IDCompositionDevice::CreateAnimation (dcomp.h)
-
 description: Creates an animation object that is used to animate one or more scalar properties of one or more Microsoft DirectComposition objects.
 old-location: directcomp\idcompositiondevice_createanimation.htm
 tech.root: directcomp
 ms.assetid: e32193b2-de93-417e-9fe0-49f8e45f7a01
-
 ms.date: 12/05/2018
 ms.keywords: CreateAnimation, CreateAnimation method [DirectComposition], CreateAnimation method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateAnimation method, IDCompositionDevice.CreateAnimation, IDCompositionDevice::CreateAnimation, dcomp/IDCompositionDevice::CreateAnimation, directcomp.idcompositiondevice_createanimation
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice.CreateAnimation"
+f1_keywords:
+- dcomp/IDCompositionDevice.CreateAnimation
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionDevice.CreateAnimation
+- IDCompositionDevice.CreateAnimation
 targetos: Windows
 req.typenames: 
 req.redist: 

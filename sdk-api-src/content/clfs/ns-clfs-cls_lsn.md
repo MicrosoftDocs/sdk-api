@@ -1,19 +1,17 @@
 ---
 UID: NS:clfs._CLS_LSN
 title: CLS_LSN (clfs.h)
-
 description: Represents a valid log address.
 old-location: fs\clfs_lsn.htm
 tech.root: Clfs
 ms.assetid: f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLFS_LSN, *PCLS_LSN, CLFS_LSN, CLFS_LSN structure [Files], CLS_LSN, PCLFS_LSN, PCLFS_LSN structure pointer [Files], PPCLS_LSN, clfs/CLFS_LSN, clfs/PCLFS_LSN, fs.clfs_lsn"
+ms.keywords: '*PCLFS_LSN, *PCLS_LSN, CLFS_LSN, CLFS_LSN structure [Files], CLS_LSN, PCLFS_LSN, PCLFS_LSN structure pointer [Files], PPCLS_LSN, clfs/CLFS_LSN, clfs/PCLFS_LSN, fs.clfs_lsn'
 ms.topic: struct
-f1_keywords: 
- - "clfs/CLFS_LSN"
+f1_keywords:
+- clfs/CLFS_LSN
 dev_langs:
- - c++
+- c++
 req.header: clfs.h
 req.include-header: Clfsw32.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Clfs.h
+- Clfs.h
 api_name:
- - CLFS_LSN
+- CLFS_LSN
 targetos: Windows
 req.typenames: CLS_LSN, *PCLS_LSN, PPCLS_LSN
 req.redist: 

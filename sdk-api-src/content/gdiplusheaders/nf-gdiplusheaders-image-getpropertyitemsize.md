@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.GetPropertyItemSize
 title: Image::GetPropertyItemSize (gdiplusheaders.h)
-
 description: The Image::GetPropertyItemSize method gets the size, in bytes, of a specified property item of this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetPropertyItemSize_propId_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getpropertyitemsize.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyItemSize, GetPropertyItemSize method [GDI+], GetPropertyItemSize method [GDI+],Image class, Image class [GDI+],GetPropertyItemSize method, Image.GetPropertyItemSize, Image::GetPropertyItemSize, _gdiplus_CLASS_Image_GetPropertyItemSize_propId_, gdiplus._gdiplus_CLASS_Image_GetPropertyItemSize_propId_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.GetPropertyItemSize"
+f1_keywords:
+- gdiplusheaders/Image.GetPropertyItemSize
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.GetPropertyItemSize
+- Image.GetPropertyItemSize
 targetos: Windows
 req.typenames: 
 req.redist: 

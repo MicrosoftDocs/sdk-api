@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFIsFormatYUV
 title: MFIsFormatYUV function (mfapi.h)
-
 description: Queries whether a FOURCC code or D3DFORMAT value is a YUV format.
 old-location: mf\mfisformatyuv.htm
 tech.root: medfound
 ms.assetid: dbf6acd3-79c6-4ec2-a867-f2b2d8b41f53
-
 ms.date: 12/05/2018
 ms.keywords: MFIsFormatYUV, MFIsFormatYUV function [Media Foundation], dbf6acd3-79c6-4ec2-a867-f2b2d8b41f53, mf.mfisformatyuv, mfapi/MFIsFormatYUV
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFIsFormatYUV"
+f1_keywords:
+- mfapi/MFIsFormatYUV
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Evr.lib
 req.dll: Evr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - evr.dll
+- evr.dll
 api_name:
- - MFIsFormatYUV
+- MFIsFormatYUV
 targetos: Windows
 req.typenames: 
 req.redist: 

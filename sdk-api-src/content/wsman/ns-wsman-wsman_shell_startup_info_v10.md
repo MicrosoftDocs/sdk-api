@@ -1,19 +1,17 @@
 ---
 UID: NS:wsman._WSMAN_SHELL_STARTUP_INFO_V10
 title: WSMAN_SHELL_STARTUP_INFO_V10 (wsman.h)
-
 description: Defines the shell startup parameters to be used with the WSManCreateShell function. The structure must be allocated by the client and passed to the WSManCreateShell function.
 old-location: winrm\wsman_shell_startup_info.htm
 tech.root: winrm
 ms.assetid: a9e004de-b157-4ad3-a463-a42ccb56f1ba
-
 ms.date: 12/05/2018
 ms.keywords: WSMAN_SHELL_STARTUP_INFO, WSMAN_SHELL_STARTUP_INFO structure [Windows Remote Management], WSMAN_SHELL_STARTUP_INFO_V10, winrm.wsman_shell_startup_info, wsman/WSMAN_SHELL_STARTUP_INFO
 ms.topic: struct
 f1_keywords:
 - wsman/WSMAN_SHELL_STARTUP_INFO
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

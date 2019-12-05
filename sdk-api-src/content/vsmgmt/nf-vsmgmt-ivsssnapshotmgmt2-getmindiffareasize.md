@@ -1,19 +1,17 @@
 ---
 UID: NF:vsmgmt.IVssSnapshotMgmt2.GetMinDiffAreaSize
 title: IVssSnapshotMgmt2::GetMinDiffAreaSize (vsmgmt.h)
-
 description: Returns the current minimum size of the shadow copy storage area.
 old-location: base\ivsssnapshotmgmt2_getmindiffareasize.htm
 tech.root: VSS
 ms.assetid: d1ee4499-07cb-4373-a3c9-892129a257db
-
 ms.date: 12/05/2018
 ms.keywords: GetMinDiffAreaSize, GetMinDiffAreaSize method [VSS], GetMinDiffAreaSize method [VSS],IVssSnapshotMgmt2 interface, IVssSnapshotMgmt2 interface [VSS],GetMinDiffAreaSize method, IVssSnapshotMgmt2.GetMinDiffAreaSize, IVssSnapshotMgmt2::GetMinDiffAreaSize, base.ivsssnapshotmgmt2_getmindiffareasize, vsmgmt/IVssSnapshotMgmt2::GetMinDiffAreaSize
 ms.topic: method
-f1_keywords: 
- - "vsmgmt/IVssSnapshotMgmt2.GetMinDiffAreaSize"
+f1_keywords:
+- vsmgmt/IVssSnapshotMgmt2.GetMinDiffAreaSize
 dev_langs:
- - c++
+- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsMgmt.h
+- VsMgmt.h
 api_name:
- - IVssSnapshotMgmt2.GetMinDiffAreaSize
+- IVssSnapshotMgmt2.GetMinDiffAreaSize
 targetos: Windows
 req.typenames: 
 req.redist: 

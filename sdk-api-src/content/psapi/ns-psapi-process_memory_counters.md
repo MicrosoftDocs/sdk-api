@@ -1,19 +1,17 @@
 ---
 UID: NS:psapi._PROCESS_MEMORY_COUNTERS
 title: PROCESS_MEMORY_COUNTERS (psapi.h)
-
 description: Contains the memory statistics for a process.
 old-location: psapi\process_memory_counters_str.htm
 tech.root: psapi
 ms.assetid: 288b5865-28a3-478b-ad32-c710fe4f3a81
-
 ms.date: 12/05/2018
-ms.keywords: "*PPROCESS_MEMORY_COUNTERS, PPROCESS_MEMORY_COUNTERS, PPROCESS_MEMORY_COUNTERS structure pointer [PSAPI], PROCESS_MEMORY_COUNTERS, PROCESS_MEMORY_COUNTERS structure [PSAPI], _win32_process_memory_counters_str, base.process_memory_counters_str, psapi.process_memory_counters_str, psapi/PPROCESS_MEMORY_COUNTERS, psapi/PROCESS_MEMORY_COUNTERS"
+ms.keywords: '*PPROCESS_MEMORY_COUNTERS, PPROCESS_MEMORY_COUNTERS, PPROCESS_MEMORY_COUNTERS structure pointer [PSAPI], PROCESS_MEMORY_COUNTERS, PROCESS_MEMORY_COUNTERS structure [PSAPI], _win32_process_memory_counters_str, base.process_memory_counters_str, psapi.process_memory_counters_str, psapi/PPROCESS_MEMORY_COUNTERS, psapi/PROCESS_MEMORY_COUNTERS'
 ms.topic: struct
-f1_keywords: 
- - "psapi/PROCESS_MEMORY_COUNTERS"
+f1_keywords:
+- psapi/PROCESS_MEMORY_COUNTERS
 dev_langs:
- - c++
+- c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Psapi.h
+- Psapi.h
 api_name:
- - PROCESS_MEMORY_COUNTERS
+- PROCESS_MEMORY_COUNTERS
 targetos: Windows
 req.typenames: PROCESS_MEMORY_COUNTERS
 req.redist: 

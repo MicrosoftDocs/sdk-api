@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_AUX.EnumCapability
 title: IBDA_AUX::EnumCapability (bdaiface.h)
-
 description: Gets the capabilities of an auxiliary connector, specified by index.
 old-location: mstv\ibda_aux_enumcapability.htm
 tech.root: mstv
 ms.assetid: 5f04c080-81c9-4aa9-ba54-5e16a538f10a
-
 ms.date: 12/05/2018
 ms.keywords: EnumCapability, EnumCapability method [Microsoft TV Technologies], EnumCapability method [Microsoft TV Technologies],IBDA_AUX interface, IBDA_AUX interface [Microsoft TV Technologies],EnumCapability method, IBDA_AUX.EnumCapability, IBDA_AUX::EnumCapability, PBDA_AUX_CONNECTOR_TYPE_Composite, PBDA_AUX_CONNECTOR_TYPE_SVideo, bdaiface/IBDA_AUX::EnumCapability, mstv.ibda_aux_enumcapability
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_AUX.EnumCapability"
+f1_keywords:
+- bdaiface/IBDA_AUX.EnumCapability
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_AUX.EnumCapability
+- IBDA_AUX.EnumCapability
 targetos: Windows
 req.typenames: 
 req.redist: 

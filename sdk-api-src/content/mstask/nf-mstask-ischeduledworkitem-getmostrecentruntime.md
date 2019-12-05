@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetMostRecentRunTime
 title: IScheduledWorkItem::GetMostRecentRunTime (mstask.h)
-
 description: Retrieves the most recent time the work item began running.
 old-location: taskschd\ischeduledworkitem_getmostrecentruntime.htm
 tech.root: taskschd
 ms.assetid: 38872c60-7d2b-4bfc-b771-98950ab8f40c
-
 ms.date: 12/05/2018
 ms.keywords: GetMostRecentRunTime, GetMostRecentRunTime method [Task Scheduler], GetMostRecentRunTime method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetMostRecentRunTime method, IScheduledWorkItem.GetMostRecentRunTime, IScheduledWorkItem::GetMostRecentRunTime, _msb_ischeduledworkitem_getmostrecentruntime, mstask/IScheduledWorkItem::GetMostRecentRunTime, taskschd.ischeduledworkitem_getmostrecentruntime
 ms.topic: method
-f1_keywords: 
- - "mstask/IScheduledWorkItem.GetMostRecentRunTime"
+f1_keywords:
+- mstask/IScheduledWorkItem.GetMostRecentRunTime
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IScheduledWorkItem.GetMostRecentRunTime
+- IScheduledWorkItem.GetMostRecentRunTime
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

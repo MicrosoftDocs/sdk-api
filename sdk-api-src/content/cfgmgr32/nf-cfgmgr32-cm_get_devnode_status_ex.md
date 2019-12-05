@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Get_DevNode_Status_Ex
 title: CM_Get_DevNode_Status_Ex function (cfgmgr32.h)
-
 description: The CM_Get_DevNode_Status_Ex function obtains the status of a device instance from its device node (devnode) on a local or a remote machine's device tree.
 old-location: devinst\cm_get_devnode_status_ex.htm
 tech.root: devinst
 ms.assetid: 3e7dd781-7f99-4c49-bbe1-8d2e63cff553
-
 ms.date: 12/05/2018
 ms.keywords: CM_Get_DevNode_Status_Ex, CM_Get_DevNode_Status_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_DevNode_Status_Ex, cfgmgrfn_924d6e07-f3bf-4e7d-8342-1b34f4aff24b.xml, devinst.cm_get_devnode_status_ex
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Get_DevNode_Status_Ex"
+f1_keywords:
+- cfgmgr32/CM_Get_DevNode_Status_Ex
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,15 +30,15 @@ req.lib: Cfgmgr32.lib
 req.dll: Cfgmgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.dll
- - setupapi.dll
+- Cfgmgr32.dll
+- setupapi.dll
 api_name:
- - CM_Get_DevNode_Status_Ex
+- CM_Get_DevNode_Status_Ex
 targetos: Windows
 req.typenames: 
 req.redist: 

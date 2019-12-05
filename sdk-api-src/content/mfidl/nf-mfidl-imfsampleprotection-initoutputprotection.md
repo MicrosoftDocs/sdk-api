@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSampleProtection.InitOutputProtection
 title: IMFSampleProtection::InitOutputProtection (mfidl.h)
-
 description: Retrieves initialization information for sample protection from the upstream component.
 old-location: mf\imfsampleprotection_initoutputprotection.htm
 tech.root: medfound
 ms.assetid: 03bee13d-1c51-4b26-98bb-bac15264aa54
-
 ms.date: 12/05/2018
 ms.keywords: 03bee13d-1c51-4b26-98bb-bac15264aa54, IMFSampleProtection interface [Media Foundation],InitOutputProtection method, IMFSampleProtection.InitOutputProtection, IMFSampleProtection::InitOutputProtection, InitOutputProtection, InitOutputProtection method [Media Foundation], InitOutputProtection method [Media Foundation],IMFSampleProtection interface, mf.imfsampleprotection_initoutputprotection, mfidl/IMFSampleProtection::InitOutputProtection
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSampleProtection.InitOutputProtection"
+f1_keywords:
+- mfidl/IMFSampleProtection.InitOutputProtection
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSampleProtection.InitOutputProtection
+- IMFSampleProtection.InitOutputProtection
 targetos: Windows
 req.typenames: 
 req.redist: 

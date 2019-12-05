@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IDListContainerIsConsistent
 title: IDListContainerIsConsistent function (shlobj_core.h)
-
 description: Verifies that the container structure of an IDList is valid.
 old-location: shell\IDListContainerIsConsistent.htm
 tech.root: shell
 ms.assetid: 2B61EDB2-F967-450a-9294-4A6597859F2C
-
 ms.date: 12/05/2018
 ms.keywords: IDListContainerIsConsistent, IDListContainerIsConsistent function [Windows Shell], shell.IDListContainerIsConsistent, shlobj_core/IDListContainerIsConsistent
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/IDListContainerIsConsistent"
+f1_keywords:
+- shlobj_core/IDListContainerIsConsistent
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - IDListContainerIsConsistent
+- IDListContainerIsConsistent
 targetos: Windows
 req.typenames: 
 req.redist: 

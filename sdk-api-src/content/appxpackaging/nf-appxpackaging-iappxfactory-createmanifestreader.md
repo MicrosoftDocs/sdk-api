@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxFactory.CreateManifestReader
 title: IAppxFactory::CreateManifestReader (appxpackaging.h)
-
 description: Creates a read-only manifest object model from contents provided by an IStream.
 old-location: appxpkg\iappxfactory_createmanifestreader.htm
 tech.root: appxpkg
 ms.assetid: BF6C83FF-8CB1-47C0-84C3-E71059F0796E
-
 ms.date: 12/05/2018
 ms.keywords: CreateManifestReader, CreateManifestReader method [App packaging and management], CreateManifestReader method [App packaging and management],IAppxFactory interface, IAppxFactory interface [App packaging and management],CreateManifestReader method, IAppxFactory.CreateManifestReader, IAppxFactory::CreateManifestReader, appxpackaging/IAppxFactory::CreateManifestReader, appxpkg.iappxfactory_createmanifestreader
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxFactory.CreateManifestReader"
+f1_keywords:
+- appxpackaging/IAppxFactory.CreateManifestReader
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxFactory.CreateManifestReader
+- IAppxFactory.CreateManifestReader
 targetos: Windows
 req.typenames: 
 req.redist: 

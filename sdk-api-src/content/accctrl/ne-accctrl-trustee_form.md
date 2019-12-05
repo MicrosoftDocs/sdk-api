@@ -1,19 +1,17 @@
 ---
 UID: NE:accctrl._TRUSTEE_FORM
 title: TRUSTEE_FORM (accctrl.h)
-
 description: Values that indicate the type of data pointed to by the ptstrName member of the TRUSTEE structure.
 old-location: security\trustee_form.htm
 tech.root: SecAuthZ
 ms.assetid: 991ac6cb-3fc9-4915-b5c9-ae73efb25d68
-
 ms.date: 12/05/2018
 ms.keywords: TRUSTEE_BAD_FORM, TRUSTEE_FORM, TRUSTEE_FORM enumeration [Security], TRUSTEE_IS_NAME, TRUSTEE_IS_OBJECTS_AND_NAME, TRUSTEE_IS_OBJECTS_AND_SID, TRUSTEE_IS_SID, _win32_trustee_form_str, accctrl/TRUSTEE_BAD_FORM, accctrl/TRUSTEE_FORM, accctrl/TRUSTEE_IS_NAME, accctrl/TRUSTEE_IS_OBJECTS_AND_NAME, accctrl/TRUSTEE_IS_OBJECTS_AND_SID, accctrl/TRUSTEE_IS_SID, security.trustee_form
 ms.topic: enum
-f1_keywords: 
- - "accctrl/TRUSTEE_FORM"
+f1_keywords:
+- accctrl/TRUSTEE_FORM
 dev_langs:
- - c++
+- c++
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AccCtrl.h
+- AccCtrl.h
 api_name:
- - TRUSTEE_FORM
+- TRUSTEE_FORM
 targetos: Windows
 req.typenames: TRUSTEE_FORM
 req.redist: 

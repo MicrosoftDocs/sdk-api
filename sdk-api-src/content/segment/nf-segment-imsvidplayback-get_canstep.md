@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidPlayback.get_CanStep
 title: IMSVidPlayback::get_CanStep (segment.h)
-
 description: The get_CanStep method queries whether the input source can step frame by frame.
 old-location: mstv\imsvidplayback_get_canstep.htm
 tech.root: mstv
 ms.assetid: 41aad247-1f04-4245-89df-8ac527926307
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_CanStep method, IMSVidPlayback.get_CanStep, IMSVidPlayback::get_CanStep, IMSVidPlaybackget_CanStep, get_CanStep, get_CanStep method [Microsoft TV Technologies], get_CanStep method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_get_canstep, segment/IMSVidPlayback::get_CanStep
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidPlayback.get_CanStep"
+f1_keywords:
+- segment/IMSVidPlayback.get_CanStep
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidPlayback.get_CanStep
+- IMSVidPlayback.get_CanStep
 targetos: Windows
 req.typenames: 
 req.redist: 

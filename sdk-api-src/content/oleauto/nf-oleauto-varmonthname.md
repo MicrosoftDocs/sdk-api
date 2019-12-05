@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarMonthName
 title: VarMonthName function (oleauto.h)
-
 description: Returns a string containing the localized month name.
 old-location: automat\varmonthname.htm
 tech.root: automat
 ms.assetid: 8bb760ae-2306-4c32-805d-58e5402e6d78
-
 ms.date: 12/05/2018
 ms.keywords: VarMonthName, VarMonthName function [Automation], _oa96_VarMonthName, automat.varmonthname, oleauto/VarMonthName
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarMonthName"
+f1_keywords:
+- oleauto/VarMonthName
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarMonthName
+- VarMonthName
 targetos: Windows
 req.typenames: 
 req.redist: 

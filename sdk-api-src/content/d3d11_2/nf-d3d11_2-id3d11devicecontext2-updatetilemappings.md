@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_2.ID3D11DeviceContext2.UpdateTileMappings
 title: ID3D11DeviceContext2::UpdateTileMappings (d3d11_2.h)
-
 description: Updates mappings of tile locations in tiled resources to memory locations in a tile pool.
 old-location: direct3d11\id3d11devicecontext2_updatetilemappings.htm
 tech.root: direct3d11
 ms.assetid: 542735C4-BFDE-4EA9-9595-BA30BD06422B
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext2 interface [Direct3D 11],UpdateTileMappings method, ID3D11DeviceContext2.UpdateTileMappings, ID3D11DeviceContext2::UpdateTileMappings, UpdateTileMappings, UpdateTileMappings method [Direct3D 11], UpdateTileMappings method [Direct3D 11],ID3D11DeviceContext2 interface, d3d11_2/ID3D11DeviceContext2::UpdateTileMappings, direct3d11.id3d11devicecontext2_updatetilemappings
 ms.topic: method
-f1_keywords: 
- - "d3d11_2/ID3D11DeviceContext2.UpdateTileMappings"
+f1_keywords:
+- d3d11_2/ID3D11DeviceContext2.UpdateTileMappings
 dev_langs:
- - c++
+- c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext2.UpdateTileMappings
+- ID3D11DeviceContext2.UpdateTileMappings
 targetos: Windows
 req.typenames: 
 req.redist: 

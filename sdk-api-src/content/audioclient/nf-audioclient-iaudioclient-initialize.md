@@ -1,19 +1,17 @@
 ---
 UID: NF:audioclient.IAudioClient.Initialize
 title: IAudioClient::Initialize (audioclient.h)
-
 description: The Initialize method initializes the audio stream.
 old-location: coreaudio\iaudioclient_initialize.htm
 tech.root: CoreAudio
 ms.assetid: eb778503-06f8-4705-9f8d-9a4fd886ae27
-
 ms.date: 12/05/2018
 ms.keywords: IAudioClient interface [Core Audio],Initialize method, IAudioClient.Initialize, IAudioClient::Initialize, IAudioClientInitialize, Initialize, Initialize method [Core Audio], Initialize method [Core Audio],IAudioClient interface, audioclient/IAudioClient::Initialize, coreaudio.iaudioclient_initialize
 ms.topic: method
-f1_keywords: 
- - "audioclient/IAudioClient.Initialize"
+f1_keywords:
+- audioclient/IAudioClient.Initialize
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - IAudioClient.Initialize
+- IAudioClient.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

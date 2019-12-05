@@ -1,19 +1,17 @@
 ---
 UID: NE:shldisp.ShellSpecialFolderConstants
 title: ShellSpecialFolderConstants (shldisp.h)
-
 description: Specifies unique, system-independent values that identify special folders.
 old-location: shell\ShellSpecialFolderConstants.htm
 tech.root: shell
 ms.assetid: 35338102-f3a9-4bcf-ad62-d395462e6d2c
-
 ms.date: 12/05/2018
 ms.keywords: ShellSpecialFolderConstants, ShellSpecialFolderConstants enumeration [Windows Shell], _win32_ShellSpecialFolderConstants, shell.ShellSpecialFolderConstants, shldisp/ShellSpecialFolderConstants, shldisp/ssfALTSTARTUP, shldisp/ssfAPPDATA, shldisp/ssfBITBUCKET, shldisp/ssfCOMMONALTSTARTUP, shldisp/ssfCOMMONAPPDATA, shldisp/ssfCOMMONDESKTOPDIR, shldisp/ssfCOMMONFAVORITES, shldisp/ssfCOMMONPROGRAMS, shldisp/ssfCOMMONSTARTMENU, shldisp/ssfCOMMONSTARTUP, shldisp/ssfCONTROLS, shldisp/ssfCOOKIES, shldisp/ssfDESKTOP, shldisp/ssfDESKTOPDIRECTORY, shldisp/ssfDRIVES, shldisp/ssfFAVORITES, shldisp/ssfFONTS, shldisp/ssfHISTORY, shldisp/ssfINTERNETCACHE, shldisp/ssfLOCALAPPDATA, shldisp/ssfMYPICTURES, shldisp/ssfNETHOOD, shldisp/ssfNETWORK, shldisp/ssfPERSONAL, shldisp/ssfPRINTERS, shldisp/ssfPRINTHOOD, shldisp/ssfPROFILE, shldisp/ssfPROGRAMFILES, shldisp/ssfPROGRAMFILESx86, shldisp/ssfPROGRAMS, shldisp/ssfRECENT, shldisp/ssfSENDTO, shldisp/ssfSTARTMENU, shldisp/ssfSTARTUP, shldisp/ssfSYSTEM, shldisp/ssfSYSTEMx86, shldisp/ssfTEMPLATES, shldisp/ssfWINDOWS, ssfALTSTARTUP, ssfAPPDATA, ssfBITBUCKET, ssfCOMMONALTSTARTUP, ssfCOMMONAPPDATA, ssfCOMMONDESKTOPDIR, ssfCOMMONFAVORITES, ssfCOMMONPROGRAMS, ssfCOMMONSTARTMENU, ssfCOMMONSTARTUP, ssfCONTROLS, ssfCOOKIES, ssfDESKTOP, ssfDESKTOPDIRECTORY, ssfDRIVES, ssfFAVORITES, ssfFONTS, ssfHISTORY, ssfINTERNETCACHE, ssfLOCALAPPDATA, ssfMYPICTURES, ssfNETHOOD, ssfNETWORK, ssfPERSONAL, ssfPRINTERS, ssfPRINTHOOD, ssfPROFILE, ssfPROGRAMFILES, ssfPROGRAMFILESx86, ssfPROGRAMS, ssfRECENT, ssfSENDTO, ssfSTARTMENU, ssfSTARTUP, ssfSYSTEM, ssfSYSTEMx86, ssfTEMPLATES, ssfWINDOWS
 ms.topic: enum
-f1_keywords: 
- - "shldisp/ShellSpecialFolderConstants"
+f1_keywords:
+- shldisp/ShellSpecialFolderConstants
 dev_langs:
- - c++
+- c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shldisp.h
+- Shldisp.h
 api_name:
- - ShellSpecialFolderConstants
+- ShellSpecialFolderConstants
 targetos: Windows
 req.typenames: ShellSpecialFolderConstants
 req.redist: 

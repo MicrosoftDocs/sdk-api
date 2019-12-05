@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.tapiRequestMakeCall
 title: tapiRequestMakeCall function (tapi.h)
-
 description: The tapiRequestMakeCall function requests the establishment of a voice call. A call-manager application is responsible for establishing the call on behalf of the requesting application, which is then controlled by the user's call-manager application.
 old-location: tapi2\tapirequestmakecall.htm
 tech.root: Tapi
 ms.assetid: bdbc1565-6570-4fad-890c-fb3965cce452
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_tapirequestmakecall, tapi/tapiRequestMakeCall, tapi/tapiRequestMakeCallA, tapi/tapiRequestMakeCallW, tapi2.tapirequestmakecall, tapiRequestMakeCall, tapiRequestMakeCall function [TAPI 2.2], tapiRequestMakeCallA, tapiRequestMakeCallW"
+ms.keywords: _tapi2_tapirequestmakecall, tapi/tapiRequestMakeCall, tapi/tapiRequestMakeCallA, tapi/tapiRequestMakeCallW, tapi2.tapirequestmakecall, tapiRequestMakeCall, tapiRequestMakeCall function [TAPI 2.2], tapiRequestMakeCallA, tapiRequestMakeCallW
 ms.topic: function
-f1_keywords: 
- - "tapi/tapiRequestMakeCall"
+f1_keywords:
+- tapi/tapiRequestMakeCall
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - tapiRequestMakeCall
- - tapiRequestMakeCallA
- - tapiRequestMakeCallW
+- tapiRequestMakeCall
+- tapiRequestMakeCallA
+- tapiRequestMakeCallW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.setDefaultAuthorization
 title: IWindowsMediaLibrarySharingServices::setDefaultAuthorization (wmlss.h)
-
 description: The setDefaultAuthorization method enables or disables access to all users' media libraries by a specified set of devices.
 old-location: wmlss\IWMLSSsetDefaultAuthorization.htm
 tech.root: WMLSS
 ms.assetid: 7885f571-6b93-47d8-82ab-d998851f1304
-
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],setDefaultAuthorization method, IWindowsMediaLibrarySharingServices.setDefaultAuthorization, IWindowsMediaLibrarySharingServices::setDefaultAuthorization, setDefaultAuthorization, setDefaultAuthorization method [Windows Media Library Sharing Services], setDefaultAuthorization method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSsetDefaultAuthorization, wmlss/IWindowsMediaLibrarySharingServices::setDefaultAuthorization
 ms.topic: method
-f1_keywords: 
- - "wmlss/IWindowsMediaLibrarySharingServices.setDefaultAuthorization"
+f1_keywords:
+- wmlss/IWindowsMediaLibrarySharingServices.setDefaultAuthorization
 dev_langs:
- - c++
+- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: WMPMediaSharing.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMPMediaSharing.dll
+- WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingServices.setDefaultAuthorization
+- IWindowsMediaLibrarySharingServices.setDefaultAuthorization
 targetos: Windows
 req.typenames: 
 req.redist: 

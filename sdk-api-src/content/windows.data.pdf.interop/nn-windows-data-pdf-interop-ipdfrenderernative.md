@@ -1,19 +1,17 @@
 ---
 UID: NN:windows.data.pdf.interop.IPdfRendererNative
 title: IPdfRendererNative (windows.data.pdf.interop.h)
-
 description: Represents a high-performance API for displaying a single page of a Portable Document Format (PDF) file.
 old-location: winrt\ipdfrenderernative.htm
 tech.root: WinRT
 ms.assetid: 96a00afb-e957-4e49-8f30-d6a3d639680f
-
 ms.date: 12/05/2018
 ms.keywords: IPdfRendererNative, IPdfRendererNative interface [Windows Runtime], IPdfRendererNative interface [Windows Runtime],described, windows/IPdfRendererNative, winrt.ipdfrenderernative
 ms.topic: interface
-f1_keywords: 
- - "windows.data.pdf.interop/IPdfRendererNative"
+f1_keywords:
+- windows.data.pdf.interop/IPdfRendererNative
 dev_langs:
- - c++
+- c++
 req.header: windows.data.pdf.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windows.data.pdf.lib
 req.dll: Windows.Data.Pdf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Data.Pdf.dll
+- Windows.Data.Pdf.dll
 api_name:
- - IPdfRendererNative
+- IPdfRendererNative
 targetos: Windows
 req.typenames: 
 req.redist: 

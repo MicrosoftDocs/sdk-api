@@ -1,19 +1,17 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.Render
 title: IDirectMusicSynth::Render (dmusics.h)
-
 description: The Render method is called by the synth sink to render to a buffer in the audio stream.
 old-location: audio\idirectmusicsynth_render.htm
 tech.root: audio
 ms.assetid: c0aea93c-df92-46e6-9cd7-38235f513924
-
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynth interface [Audio Devices],Render method, IDirectMusicSynth.Render, IDirectMusicSynth::Render, Render, Render method [Audio Devices], Render method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_render, audmp-routines_fd2bebe8-7170-4222-b465-b1a9799abf8e.xml, dmusics/IDirectMusicSynth::Render
 ms.topic: method
-f1_keywords: 
- - "dmusics/IDirectMusicSynth.Render"
+f1_keywords:
+- dmusics/IDirectMusicSynth.Render
 dev_langs:
- - c++
+- c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dmusics.h
+- dmusics.h
 api_name:
- - IDirectMusicSynth.Render
+- IDirectMusicSynth.Render
 targetos: Windows
 req.typenames: 
 req.redist: 

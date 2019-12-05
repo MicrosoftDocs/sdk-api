@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll.get_DeleteRequestCert
 title: IEnroll::get_DeleteRequestCert (xenroll.h)
-
 description: The DeleteRequestCert property of IEnroll4 sets or retrieves a Boolean value that determines whether dummy certificates in the request store are deleted.
 old-location: security\ienroll4_deleterequestcert.htm
 tech.root: SecCrypto
 ms.assetid: 54b85347-cdc1-42e3-bc26-0b50bd58131a
-
 ms.date: 12/05/2018
 ms.keywords: DeleteRequestCert property [Security], DeleteRequestCert property [Security],IEnroll interface, IEnroll interface [Security],DeleteRequestCert property, IEnroll.DeleteRequestCert, IEnroll.get_DeleteRequestCert, IEnroll::DeleteRequestCert, IEnroll::get_DeleteRequestCert, IEnroll::put_DeleteRequestCert, get_DeleteRequestCert, security.ienroll4_deleterequestcert, xenroll/IEnroll::DeleteRequestCert, xenroll/IEnroll::get_DeleteRequestCert, xenroll/IEnroll::put_DeleteRequestCert
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll.DeleteRequestCert"
+f1_keywords:
+- xenroll/IEnroll.DeleteRequestCert
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll.DeleteRequestCert
- - IEnroll.get_DeleteRequestCert
- - IEnroll.put_DeleteRequestCert
+- IEnroll.DeleteRequestCert
+- IEnroll.get_DeleteRequestCert
+- IEnroll.put_DeleteRequestCert
 targetos: Windows
 req.typenames: 
 req.redist: 

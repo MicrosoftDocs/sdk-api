@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRemoteDictionaryResourceCollection.InsertAt
 title: IXpsOMRemoteDictionaryResourceCollection::InsertAt (xpsobjectmodel.h)
-
 description: Inserts an IXpsOMRemoteDictionaryResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomremotedictionaryresourcecollection_insertat.htm
 tech.root: printdocs
 ms.assetid: 22abb514-6574-4d7e-8ea5-2b0956b4e8a4
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMRemoteDictionaryResourceCollection.InsertAt, IXpsOMRemoteDictionaryResourceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResourceCollection interface, xps.ixpsomremotedictionaryresourcecollection_insertat, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::InsertAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection.InsertAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection.InsertAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMRemoteDictionaryResourceCollection.InsertAt
+- IXpsOMRemoteDictionaryResourceCollection.InsertAt
 targetos: Windows
 req.typenames: 
 req.redist: 

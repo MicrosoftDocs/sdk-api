@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ISharedProperty.put_Value
 title: ISharedProperty::put_Value (comsvcs.h)
-
 description: Sets the value of a shared property.
 old-location: cos\isharedproperty_put_value.htm
 tech.root: cossdk
 ms.assetid: d193990c-a804-41aa-81d7-75aced274f73
-
 ms.date: 12/05/2018
 ms.keywords: ISharedProperty interface [COM+],put_Value method, ISharedProperty.put_Value, ISharedProperty::put_Value, _cos_ISharedProperty_put_Value, comsvcs/ISharedProperty::put_Value, cos.isharedproperty_put_value, put_Value, put_Value method [COM+], put_Value method [COM+],ISharedProperty interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ISharedProperty.put_Value"
+f1_keywords:
+- comsvcs/ISharedProperty.put_Value
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISharedProperty.put_Value
+- ISharedProperty.put_Value
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mmstream.IMediaStream.SendEndOfStream
 title: IMediaStream::SendEndOfStream (mmstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. Forces the current stream to end. If the current stream isn't writable, this method does nothing.
 old-location: dshow\imediastream_sendendofstream.htm
 tech.root: DirectShow
 ms.assetid: aa774875-1cf2-4792-a492-fef64571ae8f
-
 ms.date: 12/05/2018
 ms.keywords: IMediaStream interface [DirectShow],SendEndOfStream method, IMediaStream.SendEndOfStream, IMediaStream::SendEndOfStream, IMediaStreamSendEndOfStream, SendEndOfStream, SendEndOfStream method [DirectShow], SendEndOfStream method [DirectShow],IMediaStream interface, dshow.imediastream_sendendofstream, mmstream/IMediaStream::SendEndOfStream
 ms.topic: method
-f1_keywords: 
- - "mmstream/IMediaStream.SendEndOfStream"
+f1_keywords:
+- mmstream/IMediaStream.SendEndOfStream
 dev_langs:
- - c++
+- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mmstream.h
+- mmstream.h
 api_name:
- - IMediaStream.SendEndOfStream
+- IMediaStream.SendEndOfStream
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMColorProfileResourceCollection
 title: IXpsOMColorProfileResourceCollection (xpsobjectmodel.h)
-
 description: A collection of IXpsOMColorProfileResource interface pointers.
 old-location: xps\ixpsomcolorprofileresourcecollection.htm
 tech.root: printdocs
 ms.assetid: cb9253f3-461e-47a3-820b-bb6bf5e30210
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMColorProfileResourceCollection, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging], IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],described, xps.ixpsomcolorprofileresourcecollection, xpsobjectmodel/IXpsOMColorProfileResourceCollection
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMColorProfileResourceCollection"
+f1_keywords:
+- xpsobjectmodel/IXpsOMColorProfileResourceCollection
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMColorProfileResourceCollection
+- IXpsOMColorProfileResourceCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:vdshwprv._VDS_PATH_INFO
 title: VDS_PATH_INFO (vdshwprv.h)
-
 description: Defines the information for a LUN path. This structure is returned in the ppPaths parameter of the IVdsLunMpio::GetPathInfo method.
 old-location: base\vds_path_info.htm
 tech.root: VDS
 ms.assetid: 14444252-11ca-4614-81d1-9a15e76d0186
-
 ms.date: 12/05/2018
 ms.keywords: VDS_PATH_INFO, VDS_PATH_INFO structure, base.vds_path_info, vds/VDS_PATH_INFO, vdshwprv/VDS_PATH_INFO
 ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_PATH_INFO
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

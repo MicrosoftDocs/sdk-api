@@ -1,19 +1,17 @@
 ---
 UID: NF:callobj.CoGetInterceptor
 title: CoGetInterceptor function (callobj.h)
-
 description: Instantiates the appropriate interceptor for the specified interface to be intercepted and returns the newly created interceptor.
 old-location: com\cogetinterceptor.htm
 tech.root: com
 ms.assetid: d1ffee1d-f907-4091-b993-cf13d8ce616c
-
 ms.date: 12/05/2018
 ms.keywords: CoGetInterceptor, CoGetInterceptor function [COM], _com_CoGetInterceptor, callobj/CoGetInterceptor, com.cogetinterceptor
 ms.topic: function
-f1_keywords: 
- - "callobj/CoGetInterceptor"
+f1_keywords:
+- callobj/CoGetInterceptor
 dev_langs:
- - c++
+- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - CoGetInterceptor
+- CoGetInterceptor
 targetos: Windows
 req.typenames: 
 req.redist: 

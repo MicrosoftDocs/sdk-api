@@ -1,19 +1,17 @@
 ---
 UID: NN:wsdbase.IWSDHttpAuthParameters
 title: IWSDHttpAuthParameters (wsdbase.h)
-
 description: Use this interface to retrieve the access token or authorization scheme used during the authentication of a client.
 old-location: ncd\iwsdhttpauthparameters.htm
 tech.root: WsdApi
 ms.assetid: 77AB4D22-55F2-4DF6-8E83-718BFB88841A
-
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpAuthParameters, IWSDHttpAuthParameters interface, IWSDHttpAuthParameters interface,described, ncd.iwsdhttpauthparameters, wsdbase/IWSDHttpAuthParameters
 ms.topic: interface
-f1_keywords: 
- - "wsdbase/IWSDHttpAuthParameters"
+f1_keywords:
+- wsdbase/IWSDHttpAuthParameters
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdbase.h
+- Wsdbase.h
 api_name:
- - IWSDHttpAuthParameters
+- IWSDHttpAuthParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

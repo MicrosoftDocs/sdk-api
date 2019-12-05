@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11_2.D3D11_TILE_RANGE_FLAG
 title: D3D11_TILE_RANGE_FLAG (d3d11_2.h)
-
 description: Specifies a range of tile mappings to use with ID3D11DeviceContext2::UpdateTiles.
 old-location: direct3d11\d3d11_tile_range_flag.htm
 tech.root: direct3d11
 ms.assetid: 3bab77f9-f18b-4b30-a1d8-09409253bfca
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_TILE_RANGE_FLAG, D3D11_TILE_RANGE_FLAG enumeration [Direct3D 11], D3D11_TILE_RANGE_NULL, D3D11_TILE_RANGE_REUSE_SINGLE_TILE, D3D11_TILE_RANGE_SKIP, d3d11_2/D3D11_TILE_RANGE_FLAG, d3d11_2/D3D11_TILE_RANGE_NULL, d3d11_2/D3D11_TILE_RANGE_REUSE_SINGLE_TILE, d3d11_2/D3D11_TILE_RANGE_SKIP, direct3d11.d3d11_tile_range_flag
 ms.topic: enum
-f1_keywords: 
- - "d3d11_2/D3D11_TILE_RANGE_FLAG"
+f1_keywords:
+- d3d11_2/D3D11_TILE_RANGE_FLAG
 dev_langs:
- - c++
+- c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11_2.h
+- d3d11_2.h
 api_name:
- - D3D11_TILE_RANGE_FLAG
+- D3D11_TILE_RANGE_FLAG
 targetos: Windows
 req.typenames: D3D11_TILE_RANGE_FLAG
 req.redist: 

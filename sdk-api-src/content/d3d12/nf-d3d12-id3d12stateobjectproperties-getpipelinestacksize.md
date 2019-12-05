@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12StateObjectProperties.GetPipelineStackSize
 title: ID3D12StateObjectProperties::GetPipelineStackSize (d3d12.h)
-
 description: Gets the current pipeline stack size.
 old-location: direct3d12\id3d12stateobjectproperties_getpipelinestacksize.htm
 tech.root: direct3d12
 ms.assetid: 6570D84B-F589-4090-8F08-F91B12B0E283
-
 ms.date: 12/05/2018
 ms.keywords: GetPipelineStackSize, GetPipelineStackSize method, GetPipelineStackSize method,ID3D12StateObjectProperties interface, ID3D12StateObjectProperties interface,GetPipelineStackSize method, ID3D12StateObjectProperties.GetPipelineStackSize, ID3D12StateObjectProperties::GetPipelineStackSize, d3d12/ID3D12StateObjectProperties::GetPipelineStackSize, direct3d12.id3d12stateobjectproperties_getpipelinestacksize
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12StateObjectProperties.GetPipelineStackSize"
+f1_keywords:
+- d3d12/ID3D12StateObjectProperties.GetPipelineStackSize
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12StateObjectProperties.GetPipelineStackSize
+- ID3D12StateObjectProperties.GetPipelineStackSize
 targetos: Windows
 req.typenames: 
 req.redist: 

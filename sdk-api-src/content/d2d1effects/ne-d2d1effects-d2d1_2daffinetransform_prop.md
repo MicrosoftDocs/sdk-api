@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1effects.D2D1_2DAFFINETRANSFORM_PROP
 title: D2D1_2DAFFINETRANSFORM_PROP (d2d1effects.h)
-
 description: Identifiers for properties of the 2D affine transform effect.
 old-location: direct2d\d2d1_2daffinetransform_prop.htm
 tech.root: Direct2D
 ms.assetid: B1D8916F-124B-40BF-ABC5-78745D98DF97
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_2DAFFINETRANSFORM_PROP, D2D1_2DAFFINETRANSFORM_PROP enumeration [Direct2D], D2D1_2DAFFINETRANSFORM_PROP_BORDER_MODE, D2D1_2DAFFINETRANSFORM_PROP_INTERPOLATION_MODE, D2D1_2DAFFINETRANSFORM_PROP_SHARPNESS, D2D1_2DAFFINETRANSFORM_PROP_TRANSFORM_MATRIX, d2d1effects/D2D1_2DAFFINETRANSFORM_PROP, d2d1effects/D2D1_2DAFFINETRANSFORM_PROP_BORDER_MODE, d2d1effects/D2D1_2DAFFINETRANSFORM_PROP_INTERPOLATION_MODE, d2d1effects/D2D1_2DAFFINETRANSFORM_PROP_SHARPNESS, d2d1effects/D2D1_2DAFFINETRANSFORM_PROP_TRANSFORM_MATRIX, direct2d.d2d1_2daffinetransform_prop
 ms.topic: enum
-f1_keywords: 
- - "d2d1effects/D2D1_2DAFFINETRANSFORM_PROP"
+f1_keywords:
+- d2d1effects/D2D1_2DAFFINETRANSFORM_PROP
 dev_langs:
- - c++
+- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effects.h
+- d2d1effects.h
 api_name:
- - D2D1_2DAFFINETRANSFORM_PROP
+- D2D1_2DAFFINETRANSFORM_PROP
 targetos: Windows
 req.typenames: D2D1_2DAFFINETRANSFORM_PROP
 req.redist: 

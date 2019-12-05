@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwRule.get_Enabled
 title: INetFwRule::get_Enabled (netfw.h)
-
 description: Enables or disables a rule.
 old-location: ics\inetfwrule_enabled.htm
 tech.root: ics
 ms.assetid: 42533aca-3273-46fa-a9a1-add7f9fde351
-
 ms.date: 12/05/2018
 ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],Enabled property, INetFwRule.Enabled, INetFwRule.get_Enabled, INetFwRule::Enabled, INetFwRule::get_Enabled, INetFwRule::put_Enabled, get_Enabled, ics.inetfwrule_enabled, netfw/INetFwRule::Enabled, netfw/INetFwRule::get_Enabled, netfw/INetFwRule::put_Enabled
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwRule.Enabled"
+f1_keywords:
+- netfw/INetFwRule.Enabled
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwRule.Enabled
- - INetFwRule.get_Enabled
- - INetFwRule.put_Enabled
+- INetFwRule.Enabled
+- INetFwRule.get_Enabled
+- INetFwRule.put_Enabled
 targetos: Windows
 req.typenames: 
 req.redist: 

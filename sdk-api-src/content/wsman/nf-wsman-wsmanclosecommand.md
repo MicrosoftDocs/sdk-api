@@ -1,19 +1,17 @@
 ---
 UID: NF:wsman.WSManCloseCommand
 title: WSManCloseCommand function (wsman.h)
-
 description: Deletes a command and frees the resources that are associated with it.
 old-location: winrm\wsmanclosecommand.htm
 tech.root: winrm
 ms.assetid: 41ef2a6d-af1a-4a51-b01d-262380f01187
-
 ms.date: 12/05/2018
 ms.keywords: WSManCloseCommand, WSManCloseCommand function [Windows Remote Management], winrm.wsmanclosecommand, wsman/WSManCloseCommand
 ms.topic: function
 f1_keywords:
 - wsman/WSManCloseCommand
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

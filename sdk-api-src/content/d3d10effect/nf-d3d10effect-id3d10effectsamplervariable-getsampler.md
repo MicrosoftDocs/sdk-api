@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectSamplerVariable.GetSampler
 title: ID3D10EffectSamplerVariable::GetSampler (d3d10effect.h)
-
 description: Get a pointer to a sampler interface.
 old-location: direct3d10\id3d10effectsamplervariable_getsampler.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectsamplervariable_getsampler.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetSampler, GetSampler method [Direct3D 10], GetSampler method [Direct3D 10],ID3D10EffectSamplerVariable interface, ID3D10EffectSamplerVariable interface [Direct3D 10],GetSampler method, ID3D10EffectSamplerVariable.GetSampler, ID3D10EffectSamplerVariable::GetSampler, cd07e1d0-28d4-ba10-87d9-3768dd4f0157, d3d10effect/ID3D10EffectSamplerVariable::GetSampler, direct3d10.id3d10effectsamplervariable_getsampler
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectSamplerVariable.GetSampler"
+f1_keywords:
+- d3d10effect/ID3D10EffectSamplerVariable.GetSampler
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectSamplerVariable.GetSampler
+- ID3D10EffectSamplerVariable.GetSampler
 targetos: Windows
 req.typenames: 
 req.redist: 

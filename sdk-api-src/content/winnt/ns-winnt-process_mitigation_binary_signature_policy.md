@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY
 title: PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY (winnt.h)
-
 description: Contains process mitigation policy settings for the loading of images depending on the signatures for the image.
 old-location: base\process_mitigation_binary_signature_policy.htm
 tech.root: ProcThread
 ms.assetid: 581D6D0C-0480-45A1-9C76-2A269C46D27B
-
 ms.date: 12/05/2018
-ms.keywords: "*PPROCESS_MITIGATION_BINARY_SIGNATURE_POLICY, PPROCESS_MITIGATION_BINARY_SIGNATURE_POLICY, PPROCESS_MITIGATION_BINARY_SIGNATURE_POLICY structure pointer, PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY, PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY structure, base.process_mitigation_binary_signature_policy, winnt/PPROCESS_MITIGATION_BINARY_SIGNATURE_POLICY, winnt/PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY"
+ms.keywords: '*PPROCESS_MITIGATION_BINARY_SIGNATURE_POLICY, PPROCESS_MITIGATION_BINARY_SIGNATURE_POLICY, PPROCESS_MITIGATION_BINARY_SIGNATURE_POLICY structure pointer, PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY, PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY structure, base.process_mitigation_binary_signature_policy, winnt/PPROCESS_MITIGATION_BINARY_SIGNATURE_POLICY, winnt/PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY'
 ms.topic: struct
-f1_keywords: 
- - "winnt/PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY"
+f1_keywords:
+- winnt/PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY
+- PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY
 targetos: Windows
 req.typenames: PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY, *PPROCESS_MITIGATION_BINARY_SIGNATURE_POLICY
 req.redist: 

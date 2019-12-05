@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.SpawnDerivedClass
 title: IWbemClassObject::SpawnDerivedClass (wbemcli.h)
-
 description: Use the IWbemClassObject::SpawnDerivedClass method to create a newly derived class object from the current object.
 old-location: wmi\iwbemclassobject_spawnderivedclass.htm
 tech.root: WmiSdk
 ms.assetid: 9b27c984-2261-4263-a32e-977aba5e3f06
-
 ms.date: 12/05/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],SpawnDerivedClass method, IWbemClassObject.SpawnDerivedClass, IWbemClassObject::SpawnDerivedClass, SpawnDerivedClass, SpawnDerivedClass method [Windows Management Instrumentation], SpawnDerivedClass method [Windows Management Instrumentation],IWbemClassObject interface, _hmm_iwbemclassobject_spawnderivedclass, wbemcli/IWbemClassObject::SpawnDerivedClass, wmi.iwbemclassobject_spawnderivedclass
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemClassObject.SpawnDerivedClass"
+f1_keywords:
+- wbemcli/IWbemClassObject.SpawnDerivedClass
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: WbemUuid.lib
 req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CIMWin32.dll
- - Esscli.dll
- - Fastprox.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Krnlprov.dll
- - Ncprov.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wmipiprt.dll
+- CIMWin32.dll
+- Esscli.dll
+- Fastprox.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Krnlprov.dll
+- Ncprov.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wmipiprt.dll
 api_name:
- - IWbemClassObject.SpawnDerivedClass
+- IWbemClassObject.SpawnDerivedClass
 targetos: Windows
 req.typenames: 
 req.redist: 

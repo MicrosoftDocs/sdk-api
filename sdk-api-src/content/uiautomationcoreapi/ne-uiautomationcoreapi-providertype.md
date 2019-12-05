@@ -1,19 +1,17 @@
 ---
 UID: NE:uiautomationcoreapi.ProviderType
 title: ProviderType (uiautomationcoreapi.h)
-
 description: Contains values that specify the type of a client-side (proxy) UI Automation provider.
 old-location: winauto\uiauto_ProviderTypeEnum.htm
 tech.root: WinAuto
 ms.assetid: 442dcda2-046d-4203-aa55-ddf83983cb26
-
 ms.date: 12/05/2018
 ms.keywords: ProviderType, ProviderType enumeration [Windows Accessibility], ProviderType_BaseHwnd, ProviderType_NonClientArea, ProviderType_Proxy, uiauto.uiauto_ProviderTypeEnum, uiauto_ProviderTypeEnum, uiautomationcoreapi/ProviderType, uiautomationcoreapi/ProviderType_BaseHwnd, uiautomationcoreapi/ProviderType_NonClientArea, uiautomationcoreapi/ProviderType_Proxy, winauto.uiauto_ProviderTypeEnum
 ms.topic: enum
-f1_keywords: 
- - "uiautomationcoreapi/ProviderType"
+f1_keywords:
+- uiautomationcoreapi/ProviderType
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCoreApi.h
+- UIAutomationCoreApi.h
 api_name:
- - ProviderType
+- ProviderType
 targetos: Windows
 req.typenames: 
 req.redist: 

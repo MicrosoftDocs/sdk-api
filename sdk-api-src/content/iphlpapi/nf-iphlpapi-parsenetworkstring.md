@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.ParseNetworkString
 title: ParseNetworkString function (iphlpapi.h)
-
 description: Parses the input network string and checks whether it is a legal representation of the specified IP network string type. If the string matches a type and its specification, the function can optionally return the parsed result.
 old-location: iphlp\parsenetworkstring.htm
 tech.root: IpHlp
 ms.assetid: 43bc866f-7776-4f59-9ed6-4c6fc4da7f83
-
 ms.date: 12/05/2018
 ms.keywords: NET_STRING_ANY_ADDRESS, NET_STRING_ANY_ADDRESS_NO_SCOPE, NET_STRING_ANY_SERVICE, NET_STRING_ANY_SERVICE_NO_SCOPE, NET_STRING_IPV4_ADDRESS, NET_STRING_IPV4_NETWORK, NET_STRING_IPV4_SERVICE, NET_STRING_IPV6_ADDRESS, NET_STRING_IPV6_ADDRESS_NO_SCOPE, NET_STRING_IPV6_NETWORK, NET_STRING_IPV6_SERVICE, NET_STRING_IPV6_SERVICE_NO_SCOPE, NET_STRING_IP_ADDRESS, NET_STRING_IP_ADDRESS_NO_SCOPE, NET_STRING_IP_NETWORK, NET_STRING_IP_SERVICE, NET_STRING_IP_SERVICE_NO_SCOPE, NET_STRING_NAMED_ADDRESS, NET_STRING_NAMED_SERVICE, ParseNetworkString, ParseNetworkString function [IP Helper], iphlp.parsenetworkstring, iphlpapi/ParseNetworkString
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/ParseNetworkString"
+f1_keywords:
+- iphlpapi/ParseNetworkString
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - ParseNetworkString
+- ParseNetworkString
 targetos: Windows
 req.typenames: 
 req.redist: 

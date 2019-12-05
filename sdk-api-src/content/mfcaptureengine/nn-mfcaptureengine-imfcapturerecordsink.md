@@ -1,19 +1,17 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureRecordSink
 title: IMFCaptureRecordSink (mfcaptureengine.h)
-
 description: Controls the recording sink.
 old-location: mf\imfcapturerecordsink.htm
 tech.root: medfound
 ms.assetid: AEF5923D-C4ED-4BEA-A969-163ED837A5BD
-
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureRecordSink, IMFCaptureRecordSink interface [Media Foundation], IMFCaptureRecordSink interface [Media Foundation],described, mf.imfcapturerecordsink, mfcaptureengine/IMFCaptureRecordSink
 ms.topic: interface
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureRecordSink"
+f1_keywords:
+- mfcaptureengine/IMFCaptureRecordSink
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureRecordSink
+- IMFCaptureRecordSink
 targetos: Windows
 req.typenames: 
 req.redist: 

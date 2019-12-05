@@ -1,19 +1,17 @@
 ---
 UID: NF:dsadmin.IDsAdminNotifyHandler.Initialize
 title: IDsAdminNotifyHandler::Initialize (dsadmin.h)
-
 description: Called to initialize the notification handler.
 old-location: ad\idsadminnotifyhandler_initialize.htm
 tech.root: ad
 ms.assetid: 7fcd49d3-ccdb-4d55-96ea-cc925a36c366
-
 ms.date: 12/05/2018
 ms.keywords: DSA_NOTIFY_ALL, DSA_NOTIFY_DEL, DSA_NOTIFY_MOV, DSA_NOTIFY_PROP, DSA_NOTIFY_REN, IDsAdminNotifyHandler interface [Active Directory],Initialize method, IDsAdminNotifyHandler.Initialize, IDsAdminNotifyHandler::Initialize, Initialize, Initialize method [Active Directory], Initialize method [Active Directory],IDsAdminNotifyHandler interface, ad.idsadminnotifyhandler_initialize, dsadmin/IDsAdminNotifyHandler::Initialize
 ms.topic: method
-f1_keywords: 
- - "dsadmin/IDsAdminNotifyHandler.Initialize"
+f1_keywords:
+- dsadmin/IDsAdminNotifyHandler.Initialize
 dev_langs:
- - c++
+- c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DSAdmin.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DSAdmin.dll
+- DSAdmin.dll
 api_name:
- - IDsAdminNotifyHandler.Initialize
+- IDsAdminNotifyHandler.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

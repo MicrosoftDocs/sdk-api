@@ -1,19 +1,17 @@
 ---
 UID: NF:inputscope.ITfInputScope.GetPhrase
 title: ITfInputScope::GetPhrase (inputscope.h)
-
 description: ITfInputScope::GetPhrase method
 old-location: tsf\itfinputscope_getphrase.htm
 tech.root: TSF
 ms.assetid: 9a97dab0-2e3d-4921-80a6-0f2c79fbf4aa
-
 ms.date: 12/05/2018
 ms.keywords: GetPhrase, GetPhrase method [Text Services Framework], GetPhrase method [Text Services Framework],ITfInputScope interface, ITfInputScope interface [Text Services Framework],GetPhrase method, ITfInputScope.GetPhrase, ITfInputScope::GetPhrase, inputscope/ITfInputScope::GetPhrase, tsf.itfinputscope_getphrase
 ms.topic: method
-f1_keywords: 
- - "inputscope/ITfInputScope.GetPhrase"
+f1_keywords:
+- inputscope/ITfInputScope.GetPhrase
 dev_langs:
- - c++
+- c++
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfInputScope.GetPhrase
+- ITfInputScope.GetPhrase
 targetos: Windows
 req.typenames: 
 req.redist: 

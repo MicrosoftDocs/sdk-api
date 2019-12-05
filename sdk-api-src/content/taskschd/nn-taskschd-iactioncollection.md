@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.IActionCollection
 title: IActionCollection (taskschd.h)
-
 description: Contains the actions that are performed by the task.
 old-location: taskschd\iactioncollection.htm
 tech.root: taskschd
 ms.assetid: aa7781b6-2600-4af5-95b8-2ac7928946fa
-
 ms.date: 12/05/2018
 ms.keywords: IActionCollection, IActionCollection interface [Task Scheduler], IActionCollection interface [Task Scheduler],described, actions [Task Scheduler],collection interface, taskschd.iactioncollection, taskschd/IActionCollection
 ms.topic: interface
-f1_keywords: 
- - "taskschd/IActionCollection"
+f1_keywords:
+- taskschd/IActionCollection
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IActionCollection
+- IActionCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

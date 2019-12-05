@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.CompleteManipulation
 title: IManipulationProcessor::CompleteManipulation (manipulations.h)
-
 description: The CompleteManipulation method is called when the developer chooses to end the manipulation.
 old-location: wintouch\imanipulationprocessor_completemanipulation.htm
 tech.root: wintouch
 ms.assetid: 01779628-1f46-4cea-90fa-1093e26e0285
-
 ms.date: 12/05/2018
 ms.keywords: CompleteManipulation, CompleteManipulation method [Windows Touch], CompleteManipulation method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],CompleteManipulation method, IManipulationProcessor.CompleteManipulation, IManipulationProcessor::CompleteManipulation, manipulations/IManipulationProcessor::CompleteManipulation, wintouch.imanipulationprocessor_completemanipulation
 ms.topic: method
-f1_keywords: 
- - "manipulations/IManipulationProcessor.CompleteManipulation"
+f1_keywords:
+- manipulations/IManipulationProcessor.CompleteManipulation
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IManipulationProcessor.CompleteManipulation
+- IManipulationProcessor.CompleteManipulation
 targetos: Windows
 req.typenames: 
 req.redist: 

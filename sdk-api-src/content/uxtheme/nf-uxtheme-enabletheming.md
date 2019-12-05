@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.EnableTheming
 title: EnableTheming function (uxtheme.h)
-
 description: Windows Vista through Windows 7:\_Enables or disables visual styles for the current user in the current and later sessions.Windows 8 and later:\_This function does nothing. Visual styles are always enabled in Windows 8 and later.
 old-location: controls\EnableTheming.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\enabletheming.htm
-
 ms.date: 12/05/2018
 ms.keywords: EnableTheming, EnableTheming function [Windows Controls], controls.EnableTheming, controls.inet_EnableTheming, inet_EnableTheming, inet_EnableTheming_cpp, uxtheme/EnableTheming
 ms.topic: function
-f1_keywords: 
- - "uxtheme/EnableTheming"
+f1_keywords:
+- uxtheme/EnableTheming
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - EnableTheming
+- EnableTheming
 targetos: Windows
 req.typenames: 
 req.redist: 

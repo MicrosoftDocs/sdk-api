@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.GetDeviceAttributes
 title: IMFSensorDevice::GetDeviceAttributes (mfidl.h)
-
 description: Gets the IMFAttributes for the sensor group.
 old-location: mf\imfsensordevice_getdeviceattributes.htm
 tech.root: medfound
 ms.assetid: 4F509D34-23C3-4034-8D89-0A2E0651F235
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceAttributes, GetDeviceAttributes method [Media Foundation], GetDeviceAttributes method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetDeviceAttributes method, IMFSensorDevice.GetDeviceAttributes, IMFSensorDevice::GetDeviceAttributes, mf.imfsensordevice_getdeviceattributes, mfidl/IMFSensorDevice::GetDeviceAttributes
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorDevice.GetDeviceAttributes"
+f1_keywords:
+- mfidl/IMFSensorDevice.GetDeviceAttributes
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorDevice.GetDeviceAttributes
+- IMFSensorDevice.GetDeviceAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

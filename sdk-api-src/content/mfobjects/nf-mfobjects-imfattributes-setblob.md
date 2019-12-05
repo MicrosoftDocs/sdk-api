@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFAttributes.SetBlob
 title: IMFAttributes::SetBlob (mfobjects.h)
-
 description: Associates a byte array with a key.
 old-location: mf\imfattributes_setblob.htm
 tech.root: medfound
 ms.assetid: 4a2a25a9-4dea-40c8-988c-9e3806c8f31c
-
 ms.date: 12/05/2018
 ms.keywords: 4a2a25a9-4dea-40c8-988c-9e3806c8f31c, IMFAttributes interface [Media Foundation],SetBlob method, IMFAttributes.SetBlob, IMFAttributes::SetBlob, SetBlob, SetBlob method [Media Foundation], SetBlob method [Media Foundation],IMFAttributes interface, mf.imfattributes_setblob, mfobjects/IMFAttributes::SetBlob
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFAttributes.SetBlob"
+f1_keywords:
+- mfobjects/IMFAttributes.SetBlob
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAttributes.SetBlob
+- IMFAttributes.SetBlob
 targetos: Windows
 req.typenames: 
 req.redist: 

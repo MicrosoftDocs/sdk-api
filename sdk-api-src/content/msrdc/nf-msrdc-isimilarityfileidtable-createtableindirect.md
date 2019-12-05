@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.ISimilarityFileIdTable.CreateTableIndirect
 title: ISimilarityFileIdTable::CreateTableIndirect (msrdc.h)
-
 description: Creates or opens a similarity file ID table using the RDC application's implementation of the IRdcFileWriter interface.
 old-location: rdc\isimilarityfileidtable_createtableindirect.htm
 tech.root: rdc
 ms.assetid: 6e472ab0-efa4-4edd-8d78-68d5a66cf41c
-
 ms.date: 12/05/2018
 ms.keywords: CreateTableIndirect, CreateTableIndirect method [Remote Differential Compression], CreateTableIndirect method [Remote Differential Compression],ISimilarityFileIdTable interface, ISimilarityFileIdTable interface [Remote Differential Compression],CreateTableIndirect method, ISimilarityFileIdTable.CreateTableIndirect, ISimilarityFileIdTable::CreateTableIndirect, fs.isimilarityfileidtable_createtableindirect, msrdc/ISimilarityFileIdTable::CreateTableIndirect, rdc.isimilarityfileidtable_createtableindirect
 ms.topic: method
-f1_keywords: 
- - "msrdc/ISimilarityFileIdTable.CreateTableIndirect"
+f1_keywords:
+- msrdc/ISimilarityFileIdTable.CreateTableIndirect
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - ISimilarityFileIdTable.CreateTableIndirect
+- ISimilarityFileIdTable.CreateTableIndirect
 targetos: Windows
 req.typenames: 
 req.redist: 

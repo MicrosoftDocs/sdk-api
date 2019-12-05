@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.DisableInternetFirewall
 title: INetSharingConfiguration::DisableInternetFirewall (netcon.h)
-
 description: The DisableInternetFirewall method disables Internet Connection Firewall on this connection.
 old-location: ics\inetsharingconfiguration_disableinternetfirewall.htm
 tech.root: ics
 ms.assetid: f0157376-7533-4155-801c-3db82290655d
-
 ms.date: 12/05/2018
 ms.keywords: DisableInternetFirewall, DisableInternetFirewall method [ICS/ICF], DisableInternetFirewall method [ICS/ICF],INetSharingConfiguration interface, INetSharingConfiguration interface [ICS/ICF],DisableInternetFirewall method, INetSharingConfiguration.DisableInternetFirewall, INetSharingConfiguration::DisableInternetFirewall, _ics_inetsharingconfiguration_disableinternetfirewall, ics.inetsharingconfiguration_disableinternetfirewall, netcon/INetSharingConfiguration::DisableInternetFirewall
 ms.topic: method
-f1_keywords: 
- - "netcon/INetSharingConfiguration.DisableInternetFirewall"
+f1_keywords:
+- netcon/INetSharingConfiguration.DisableInternetFirewall
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetSharingConfiguration.DisableInternetFirewall
+- INetSharingConfiguration.DisableInternetFirewall
 targetos: Windows
 req.typenames: 
 req.redist: 

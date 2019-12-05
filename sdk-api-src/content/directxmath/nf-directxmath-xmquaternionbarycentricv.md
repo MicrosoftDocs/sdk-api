@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMQuaternionBaryCentricV
 title: XMQuaternionBaryCentricV function (directxmath.h)
-
 description: Returns a point in barycentric coordinates, using the specified quaternions.
 old-location: dxmath\xmquaternionbarycentricv.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionBaryCentricV(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionBaryCentricV, XMQuaternionBaryCentricV, XMQuaternionBaryCentricV method [DirectX Math Support APIs], dxmath.xmquaternionbarycentricv
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMQuaternionBaryCentricV"
+f1_keywords:
+- directxmath/XMQuaternionBaryCentricV
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMQuaternionBaryCentricV
+- XMQuaternionBaryCentricV
 targetos: Windows
 req.typenames: 
 req.redist: 

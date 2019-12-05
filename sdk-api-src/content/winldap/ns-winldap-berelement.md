@@ -1,19 +1,17 @@
 ---
 UID: NS:winldap.berelement
 title: BerElement (winldap.h)
-
 description: C++ class object that performs basic encoding rules (BER) encoding.
 old-location: ldap\berelement.htm
 tech.root: ldap
 ms.assetid: 491bdf54-0b45-4324-93fc-35fe15155a3d
-
 ms.date: 12/05/2018
 ms.keywords: BerElement, BerElement structure [LDAP], _ldap_berelement, ldap.berelement, winldap/BerElement
 ms.topic: struct
-f1_keywords: 
- - "winldap/BerElement"
+f1_keywords:
+- winldap/BerElement
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winldap.h
+- Winldap.h
 api_name:
- - BerElement
+- BerElement
 targetos: Windows
 req.typenames: BerElement
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mgm.MgmGetProtocolOnInterface
 title: MgmGetProtocolOnInterface function (mgm.h)
-
 description: The MgmGetProtocolOnInterface function retrieves the protocol ID of the multicast routing protocol that owns the specified interface.
 old-location: rras\mgmgetprotocoloninterface.htm
 tech.root: RRAS
 ms.assetid: 38f6cc9b-ae9e-49a3-8f5e-835699ff3d60
-
 ms.date: 12/05/2018
 ms.keywords: MgmGetProtocolOnInterface, MgmGetProtocolOnInterface function [RAS], _mpr_mgmgetprotocoloninterface, mgm/MgmGetProtocolOnInterface, rras.mgmgetprotocoloninterface
 ms.topic: function
-f1_keywords: 
- - "mgm/MgmGetProtocolOnInterface"
+f1_keywords:
+- mgm/MgmGetProtocolOnInterface
 dev_langs:
- - c++
+- c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - MgmGetProtocolOnInterface
+- MgmGetProtocolOnInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ntdsapi.DsListSitesW
 title: DsListSitesW function (ntdsapi.h)
-
 description: Lists all the sites in the enterprise forest.
 old-location: ad\dslistsites.htm
 tech.root: ad
 ms.assetid: d424e750-6700-42b8-9d4f-e430cd0a7e4e
-
 ms.date: 12/05/2018
 ms.keywords: DsListSites, DsListSites function [Active Directory], DsListSitesA, DsListSitesW, _glines_dslistsites, ad.dslistsites, ntdsapi/DsListSites, ntdsapi/DsListSitesA, ntdsapi/DsListSitesW
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsListSites"
+f1_keywords:
+- ntdsapi/DsListSites
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsListSites
- - DsListSitesA
- - DsListSitesW
+- DsListSites
+- DsListSitesA
+- DsListSitesW
 targetos: Windows
 req.typenames: 
 req.redist: 

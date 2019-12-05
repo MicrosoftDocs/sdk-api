@@ -1,19 +1,17 @@
 ---
 UID: NS:ws2def._WSACMSGHDR
 title: WSACMSGHDR (ws2def.h)
-
 description: The CMSGHDR structure defines the header for a control data object that is associated with a datagram.
 old-location: netvista\cmsghdr.htm
 tech.root: NetVista
 ms.assetid: c07dd974-7a23-44c2-b55a-aadfe8936954
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWSACMSGHDR, *PCMSGHDR, *PWSACMSGHDR, CMSGHDR, CMSGHDR structure [Network Drivers Starting with Windows Vista], PCMSGHDR, PCMSGHDR structure pointer [Network Drivers Starting with Windows Vista], WSACMSGHDR, netvista.cmsghdr, ws2def/CMSGHDR, ws2def/PCMSGHDR, wskref_23745253-c7fd-498a-990a-d90d0722d105.xml"
+ms.keywords: '*LPWSACMSGHDR, *PCMSGHDR, *PWSACMSGHDR, CMSGHDR, CMSGHDR structure [Network Drivers Starting with Windows Vista], PCMSGHDR, PCMSGHDR structure pointer [Network Drivers Starting with Windows Vista], WSACMSGHDR, netvista.cmsghdr, ws2def/CMSGHDR, ws2def/PCMSGHDR, wskref_23745253-c7fd-498a-990a-d90d0722d105.xml'
 ms.topic: struct
-f1_keywords: 
- - "ws2def/CMSGHDR"
+f1_keywords:
+- ws2def/CMSGHDR
 dev_langs:
- - c++
+- c++
 req.header: ws2def.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ws2def.h
+- ws2def.h
 api_name:
- - CMSGHDR
+- CMSGHDR
 targetos: Windows
 req.typenames: WSACMSGHDR, *PWSACMSGHDR, *LPWSACMSGHDR
 req.redist: 

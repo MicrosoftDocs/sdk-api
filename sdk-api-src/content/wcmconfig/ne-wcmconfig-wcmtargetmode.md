@@ -1,19 +1,17 @@
 ---
 UID: NE:wcmconfig.__MIDL___MIDL_itf_wcmconfig_0000_0000_0001
 title: WcmTargetMode (wcmconfig.h)
-
 description: Enumerates the various target modes.
 old-location: smi\wcmtargetmode.htm
 tech.root: SMI
 ms.assetid: 7a3b61f4-c98f-4c59-98dd-b513f69ac7d8
-
 ms.date: 12/05/2018
 ms.keywords: OfflineMode, OnlineMode, WcmTargetMode, WcmTargetMode enumeration [SMI], smi.wcmtargetmode, wcmconfig/OfflineMode, wcmconfig/OnlineMode, wcmconfig/WcmTargetMode
 ms.topic: enum
-f1_keywords: 
- - "wcmconfig/WcmTargetMode"
+f1_keywords:
+- wcmconfig/WcmTargetMode
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WcmConfig.h
+- WcmConfig.h
 api_name:
- - WcmTargetMode
+- WcmTargetMode
 targetos: Windows
 req.typenames: WcmTargetMode
 req.redist: 

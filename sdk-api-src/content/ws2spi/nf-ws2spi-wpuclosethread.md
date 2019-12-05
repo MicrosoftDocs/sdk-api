@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2spi.WPUCloseThread
 title: WPUCloseThread function (ws2spi.h)
-
 description: The WPUCloseThread function closes a thread opened with a call to WPUOpenCurrentThread.
 old-location: winsock\wpuclosethread_2.htm
 tech.root: WinSock
 ms.assetid: 1a5e7a99-484f-4862-bd28-edf85debc8e5
-
 ms.date: 12/05/2018
 ms.keywords: WPUCloseThread, WPUCloseThread function [Winsock], _win32_wpuclosethread_2, winsock.wpuclosethread_2, ws2spi/WPUCloseThread
 ms.topic: function
 f1_keywords:
 - ws2spi/WPUCloseThread
 dev_langs:
- - c++
+- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

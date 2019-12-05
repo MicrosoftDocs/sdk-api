@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.Move
 title: IInkStrokeDisp::Move (msinkaut.h)
-
 description: Applies a translation to the ink of an IInkStrokeDisp object or InkStrokes collection.
 old-location: tablet\iinkstrokedisp_move.htm
 tech.root: tablet
 ms.assetid: 2d3425c0-6000-4478-9c67-5fdb8e2316e5
-
 ms.date: 12/05/2018
 ms.keywords: 2d3425c0-6000-4478-9c67-5fdb8e2316e5, IInkStrokeDisp interface [Tablet PC],Move method, IInkStrokeDisp.Move, IInkStrokeDisp::Move, Move, Move method [Tablet PC], Move method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::Move, tablet.iinkstrokedisp_move
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkStrokeDisp.Move"
+f1_keywords:
+- msinkaut/IInkStrokeDisp.Move
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.Move
+- IInkStrokeDisp.Move
 targetos: Windows
 req.typenames: 
 req.redist: 

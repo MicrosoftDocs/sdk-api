@@ -1,19 +1,17 @@
 ---
 UID: NS:profinfo._PROFILEINFOA
 title: PROFILEINFOA (profinfo.h)
-
 description: Contains information used when loading or unloading a user profile.
 old-location: shell\PROFILEINFO.htm
 tech.root: shell
 ms.assetid: 09dae38c-3b2b-4f12-9c1e-90737cf0c7cc
-
 ms.date: 12/05/2018
-ms.keywords: "*LPPROFILEINFOA, LPPROFILEINFO, LPPROFILEINFO structure pointer [Windows Shell], PI_APPLYPOLICY, PI_NOUI, PROFILEINFO, PROFILEINFO structure [Windows Shell], PROFILEINFOA, PROFILEINFOW, _shell_PROFILEINFO, profinfo/LPPROFILEINFO, profinfo/PROFILEINFO, profinfo/PROFILEINFOA, profinfo/PROFILEINFOW, shell.PROFILEINFO"
+ms.keywords: '*LPPROFILEINFOA, LPPROFILEINFO, LPPROFILEINFO structure pointer [Windows Shell], PI_APPLYPOLICY, PI_NOUI, PROFILEINFO, PROFILEINFO structure [Windows Shell], PROFILEINFOA, PROFILEINFOW, _shell_PROFILEINFO, profinfo/LPPROFILEINFO, profinfo/PROFILEINFO, profinfo/PROFILEINFOA, profinfo/PROFILEINFOW, shell.PROFILEINFO'
 ms.topic: struct
-f1_keywords: 
- - "profinfo/PROFILEINFO"
+f1_keywords:
+- profinfo/PROFILEINFO
 dev_langs:
- - c++
+- c++
 req.header: profinfo.h
 req.include-header: Userenv.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Profinfo.h
+- Profinfo.h
 api_name:
- - PROFILEINFO
- - PROFILEINFOA
- - PROFILEINFOW
+- PROFILEINFO
+- PROFILEINFOA
+- PROFILEINFOW
 targetos: Windows
 req.typenames: PROFILEINFOA, *LPPROFILEINFOA
 req.redist: 

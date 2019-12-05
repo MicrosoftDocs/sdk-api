@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMVideoControl
 title: IAMVideoControl (strmif.h)
-
 description: The IAMVideoControl interface controls certain video capture operations such as enumerating available frame rates and image orientation.
 old-location: dshow\iamvideocontrol.htm
 tech.root: DirectShow
 ms.assetid: bd114977-c76c-4429-a835-98601b350a93
-
 ms.date: 12/05/2018
 ms.keywords: IAMVideoControl, IAMVideoControl interface [DirectShow], IAMVideoControl interface [DirectShow],described, IAMVideoControlInterface, dshow.iamvideocontrol, strmif/IAMVideoControl
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMVideoControl"
+f1_keywords:
+- strmif/IAMVideoControl
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVideoControl
+- IAMVideoControl
 targetos: Windows
 req.typenames: 
 req.redist: 

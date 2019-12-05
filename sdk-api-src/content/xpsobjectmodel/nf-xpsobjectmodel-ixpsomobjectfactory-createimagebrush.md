@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateImageBrush
 title: IXpsOMObjectFactory::CreateImageBrush (xpsobjectmodel.h)
-
 description: Creates an IXpsOMImageBrush interface.
 old-location: xps\ixpsomobjectfactory_createimagebrush.htm
 tech.root: printdocs
 ms.assetid: f271e152-8120-49c4-804d-069e224c6597
-
 ms.date: 12/05/2018
 ms.keywords: CreateImageBrush, CreateImageBrush method [XPS Documents and Packaging], CreateImageBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateImageBrush method, IXpsOMObjectFactory.CreateImageBrush, IXpsOMObjectFactory::CreateImageBrush, xps.ixpsomobjectfactory_createimagebrush, xpsobjectmodel/IXpsOMObjectFactory::CreateImageBrush
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMObjectFactory.CreateImageBrush"
+f1_keywords:
+- xpsobjectmodel/IXpsOMObjectFactory.CreateImageBrush
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreateImageBrush
+- IXpsOMObjectFactory.CreateImageBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

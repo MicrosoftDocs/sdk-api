@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessageIterator.get_Message
 title: IFaxOutgoingMessageIterator::get_Message (faxcomex.h)
-
 description: The IFaxOutgoingMessageIterator::get_Message property retrieves the outbound fax message under the archive cursor.
 old-location: fax\_mfax_faxoutgoingmessageiterator_message_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7wkl_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessageIterator interface [Fax Service],Message property, IFaxOutgoingMessageIterator.Message, IFaxOutgoingMessageIterator.get_Message, IFaxOutgoingMessageIterator::Message, IFaxOutgoingMessageIterator::get_Message, Message property [Fax Service], Message property [Fax Service],IFaxOutgoingMessageIterator interface, _mfax_faxoutgoingmessageiterator.message_cpp, fax._mfax_faxoutgoingmessageiterator_message_cpp, faxcomex/IFaxOutgoingMessageIterator::Message, faxcomex/IFaxOutgoingMessageIterator::get_Message, get_Message
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingMessageIterator.Message"
+f1_keywords:
+- faxcomex/IFaxOutgoingMessageIterator.Message
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingMessageIterator.Message
- - IFaxOutgoingMessageIterator.get_Message
+- IFaxOutgoingMessageIterator.Message
+- IFaxOutgoingMessageIterator.get_Message
 targetos: Windows
 req.typenames: 
 req.redist: 

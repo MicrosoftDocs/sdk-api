@@ -1,19 +1,17 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.SetDirectDrawKernelHandle
 title: IVPBaseConfig::SetDirectDrawKernelHandle (vpconfig.h)
-
 description: The SetDirectDrawKernelHandle method sets the kernel-mode handle to the DirectDraw object. This handle enables the device's mini-driver to communicate with DirectDraw.
 old-location: dshow\ivpbaseconfig_setdirectdrawkernelhandle.htm
 tech.root: DirectShow
 ms.assetid: f3a04341-6cca-4fb4-bf47-30659d039a0d
-
 ms.date: 12/05/2018
 ms.keywords: IVPBaseConfig interface [DirectShow],SetDirectDrawKernelHandle method, IVPBaseConfig.SetDirectDrawKernelHandle, IVPBaseConfig::SetDirectDrawKernelHandle, IVPBaseConfigSetDirectDrawKernelHandle, SetDirectDrawKernelHandle, SetDirectDrawKernelHandle method [DirectShow], SetDirectDrawKernelHandle method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_setdirectdrawkernelhandle, vpconfig/IVPBaseConfig::SetDirectDrawKernelHandle
 ms.topic: method
-f1_keywords: 
- - "vpconfig/IVPBaseConfig.SetDirectDrawKernelHandle"
+f1_keywords:
+- vpconfig/IVPBaseConfig.SetDirectDrawKernelHandle
 dev_langs:
- - c++
+- c++
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vpconfig.h
+- Vpconfig.h
 api_name:
- - IVPBaseConfig.SetDirectDrawKernelHandle
+- IVPBaseConfig.SetDirectDrawKernelHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

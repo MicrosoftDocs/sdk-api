@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.MoveIcons
 title: IShellFolderView::MoveIcons (shlobj_core.h)
-
 description: This method is not implemented.
 old-location: shell\IShellFolderView_MoveIcons.htm
 tech.root: shell
 ms.assetid: 294fbafc-6a8f-4617-bc34-413c89e3a43c
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],MoveIcons method, IShellFolderView.MoveIcons, IShellFolderView::MoveIcons, MoveIcons, MoveIcons method [Windows Shell], MoveIcons method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_MoveIcons, shell.IShellFolderView_MoveIcons, shlobj_core/IShellFolderView::MoveIcons
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IShellFolderView.MoveIcons"
+f1_keywords:
+- shlobj_core/IShellFolderView.MoveIcons
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj_core.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - IShellFolderView.MoveIcons
+- IShellFolderView.MoveIcons
 targetos: Windows
 req.typenames: 
 req.redist: 

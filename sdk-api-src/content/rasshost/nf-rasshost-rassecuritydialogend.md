@@ -1,19 +1,17 @@
 ---
 UID: NF:rasshost.RasSecurityDialogEnd
 title: RasSecurityDialogEnd function (rasshost.h)
-
 description: The RasSecurityDialogEnd function is a third-party RAS security DLL entry point that the RAS server calls to terminate an authentication transaction.
 old-location: rras\rassecuritydialogend.htm
 tech.root: RRAS
 ms.assetid: 52274d37-baed-4ab9-8019-123ae7c5b0fc
-
 ms.date: 12/05/2018
 ms.keywords: RasSecurityDialogEnd, RasSecurityDialogEnd callback, RasSecurityDialogEnd callback function [RAS], _ras_rassecuritydialogend, rasshost/RasSecurityDialogEnd, rras.rassecuritydialogend
 ms.topic: function
-f1_keywords: 
- - "rasshost/RasSecurityDialogEnd"
+f1_keywords:
+- rasshost/RasSecurityDialogEnd
 dev_langs:
- - c++
+- c++
 req.header: rasshost.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Rasshost.h
+- Rasshost.h
 api_name:
- - RasSecurityDialogEnd
+- RasSecurityDialogEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comppkgsup.GetMediaExtensionCommunicationFactory
 title: GetMediaExtensionCommunicationFactory function (comppkgsup.h)
-
 description: Creates a communication factory for registering a media extension.
 old-location: winprog\getmediaextensioncommunicationfactory.htm
 tech.root: DevNotes
 ms.assetid: 79186891-FD54-4498-AF2A-D79D30F859A2
-
 ms.date: 12/05/2018
 ms.keywords: GetMediaExtensionCommunicationFactory, GetMediaExtensionCommunicationFactory function [Windows API], comppkgsup/GetMediaExtensionCommunicationFactory, winprog.getmediaextensioncommunicationfactory
 ms.topic: function
-f1_keywords: 
- - "comppkgsup/GetMediaExtensionCommunicationFactory"
+f1_keywords:
+- comppkgsup/GetMediaExtensionCommunicationFactory
 dev_langs:
- - c++
+- c++
 req.header: comppkgsup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comppkgsup.lib
 req.dll: CompPkgSup.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CompPkgSup.dll
+- CompPkgSup.dll
 api_name:
- - GetMediaExtensionCommunicationFactory
+- GetMediaExtensionCommunicationFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

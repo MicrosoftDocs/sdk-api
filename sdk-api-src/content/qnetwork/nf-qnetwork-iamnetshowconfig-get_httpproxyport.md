@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_HTTPProxyPort
 title: IAMNetShowConfig::get_HTTPProxyPort (qnetwork.h)
-
 description: The get_HTTPProxyPort method retrieves the HTTP proxy port.
 old-location: dshow\iamnetshowconfig_get_httpproxyport.htm
 tech.root: DirectShow
 ms.assetid: 4a0325bb-83d6-4fbc-a513-0b6002013a60
-
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_HTTPProxyPort method, IAMNetShowConfig.get_HTTPProxyPort, IAMNetShowConfig::get_HTTPProxyPort, IAMNetShowConfigget_HTTPProxyPort, dshow.iamnetshowconfig_get_httpproxyport, get_HTTPProxyPort, get_HTTPProxyPort method [DirectShow], get_HTTPProxyPort method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_HTTPProxyPort
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMNetShowConfig.get_HTTPProxyPort"
+f1_keywords:
+- qnetwork/IAMNetShowConfig.get_HTTPProxyPort
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMNetShowConfig.get_HTTPProxyPort
+- IAMNetShowConfig.get_HTTPProxyPort
 targetos: Windows
 req.typenames: 
 req.redist: 

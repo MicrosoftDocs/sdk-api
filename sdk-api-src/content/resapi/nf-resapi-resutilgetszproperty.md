@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilGetSzProperty
 title: ResUtilGetSzProperty function (resapi.h)
-
 description: Retrieves a string property from a property list and advances a pointer to the next property in the list. The PRESUTIL_GET_SZ_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilgetszproperty.htm
 tech.root: MsCS
 ms.assetid: 0f485910-e691-48fa-a96b-79573ce60616
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_SZ_PROPERTY, PRESUTIL_GET_SZ_PROPERTY function [Failover Cluster], ResUtilGetSzProperty, ResUtilGetSzProperty function [Failover Cluster], _wolf_resutilgetszproperty, mscs.resutilgetszproperty, resapi/PRESUTIL_GET_SZ_PROPERTY, resapi/ResUtilGetSzProperty
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilGetSzProperty"
+f1_keywords:
+- resapi/ResUtilGetSzProperty
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilGetSzProperty
+- ResUtilGetSzProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

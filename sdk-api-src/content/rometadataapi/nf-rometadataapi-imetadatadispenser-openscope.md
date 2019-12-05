@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenser.OpenScope
 title: IMetaDataDispenser::OpenScope (rometadataapi.h)
-
 description: Opens an existing, on-disk file and maps its metadata into memory.
 old-location: winrt\imetadatadispenser_openscope.htm
 tech.root: WinRT
 ms.assetid: 77ba5ee6-082c-478f-83fc-7f6c31ee3c74
-
 ms.date: 12/05/2018
 ms.keywords: IMetaDataDispenser interface [Windows Runtime],OpenScope method, IMetaDataDispenser.OpenScope, IMetaDataDispenser::OpenScope, OpenScope, OpenScope method [Windows Runtime], OpenScope method [Windows Runtime],IMetaDataDispenser interface, rometadataapi/IMetaDataDispenser::OpenScope, winrt.imetadatadispenser_openscope
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataDispenser.OpenScope"
+f1_keywords:
+- rometadataapi/IMetaDataDispenser.OpenScope
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataDispenser.OpenScope
+- IMetaDataDispenser.OpenScope
 targetos: Windows
 req.typenames: 
 req.redist: 

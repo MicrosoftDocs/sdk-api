@@ -1,19 +1,17 @@
 ---
 UID: NF:certpoleng.PstAcquirePrivateKey
 title: PstAcquirePrivateKey function (certpoleng.h)
-
 description: Associates the caller's private key with the specified certificate.
 old-location: security\pstacquireprivatekey.htm
 tech.root: SecAuthN
 ms.assetid: dad2886b-5a74-433f-bd58-deb130104e33
-
 ms.date: 12/05/2018
 ms.keywords: PstAcquirePrivateKey, PstAcquirePrivateKey function [Security], certpoleng/PstAcquirePrivateKey, security.pstacquireprivatekey
 ms.topic: function
-f1_keywords: 
- - "certpoleng/PstAcquirePrivateKey"
+f1_keywords:
+- certpoleng/PstAcquirePrivateKey
 dev_langs:
- - c++
+- c++
 req.header: certpoleng.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certpoleng.lib
 req.dll: Certpoleng.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Certpoleng.dll
+- Certpoleng.dll
 api_name:
- - PstAcquirePrivateKey
+- PstAcquirePrivateKey
 targetos: Windows
 req.typenames: 
 req.redist: 

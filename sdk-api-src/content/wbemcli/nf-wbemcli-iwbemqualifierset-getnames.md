@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemQualifierSet.GetNames
 title: IWbemQualifierSet::GetNames (wbemcli.h)
-
 description: The IWbemQualifierSet::GetNames method retrieves the names of all of the qualifiers available from the current object or property. Alternately, depending on the filter value of IFlags, this method retrieves the names of certain qualifiers.
 old-location: wmi\iwbemqualifierset_getnames.htm
 tech.root: WmiSdk
 ms.assetid: b1e7f6b2-a204-4e00-87eb-686bf8696082
-
 ms.date: 12/05/2018
 ms.keywords: 0 (Zero), GetNames, GetNames method [Windows Management Instrumentation], GetNames method [Windows Management Instrumentation],IWbemQualifierSet interface, IWbemQualifierSet interface [Windows Management Instrumentation],GetNames method, IWbemQualifierSet.GetNames, IWbemQualifierSet::GetNames, WBEM_FLAG_LOCAL_ONLY, WBEM_FLAG_PROPAGATED_ONLY, _hmm_iwbemqualifierset_getnames, wbemcli/IWbemQualifierSet::GetNames, wmi.iwbemqualifierset_getnames
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemQualifierSet.GetNames"
+f1_keywords:
+- wbemcli/IWbemQualifierSet.GetNames
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fastprox.dll
- - Krnlprov.dll
- - Ncprov.dll
- - Wbemcore.dll
+- Fastprox.dll
+- Krnlprov.dll
+- Ncprov.dll
+- Wbemcore.dll
 api_name:
- - IWbemQualifierSet.GetNames
+- IWbemQualifierSet.GetNames
 targetos: Windows
 req.typenames: 
 req.redist: 

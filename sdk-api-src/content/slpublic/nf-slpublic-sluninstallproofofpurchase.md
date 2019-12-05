@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLUninstallProofOfPurchase
 title: SLUninstallProofOfPurchase function (slpublic.h)
-
 description: Unregisters the product key information.
 old-location: security\sluninstallproofofpurchase.htm
 tech.root: SecSLApi
 ms.assetid: f3e5e43e-ea4a-4aad-b60a-833859996339
-
 ms.date: 12/05/2018
 ms.keywords: SLUninstallProofOfPurchase, SLUninstallProofOfPurchase function [Security], security.sluninstallproofofpurchase, slpublic/SLUninstallProofOfPurchase
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLUninstallProofOfPurchase"
+f1_keywords:
+- slpublic/SLUninstallProofOfPurchase
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLUninstallProofOfPurchase
+- SLUninstallProofOfPurchase
 targetos: Windows
 req.typenames: 
 req.redist: 

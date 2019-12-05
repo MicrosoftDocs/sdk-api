@@ -1,19 +1,17 @@
 ---
 UID: NS:winsock2.in_addr
 title: in_addr (winsock2.h)
-
 description: The in_addr structure represents an IPv4 Internet address.
 old-location: winsock\in_addr_2.htm
 tech.root: WinSock
 ms.assetid: fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c
-
 ms.date: 12/05/2018
 ms.keywords: FAR *LPIN_ADDR, FAR *LPIN_ADDR structure [Winsock], IN_ADDR, IN_ADDR [Winsock], IN_ADDR structure [Winsock], PIN_ADDR, PIN_ADDR structure pointer [Winsock], _win32_in_addr_2, in_addr, in_addr structure [Winsock], inaddr/FAR *LPIN_ADDR, inaddr/PIN_ADDR, inaddr/in_addr, winsock.in_addr_2, winsock2/FAR *LPIN_ADDR, winsock2/PIN_ADDR, winsock2/in_addr
 ms.topic: struct
-f1_keywords: 
- - "winsock2/IN_ADDR"
+f1_keywords:
+- winsock2/IN_ADDR
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Inaddr.h
- - Winsock2.h
+- Inaddr.h
+- Winsock2.h
 api_name:
- - IN_ADDR
+- IN_ADDR
 targetos: Windows
 req.typenames: 
 req.redist: 

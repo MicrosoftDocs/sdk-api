@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBTuneRequest.put_SID
 title: IDVBTuneRequest::put_SID (tuner.h)
-
 description: The put_SID method sets the service ID.
 old-location: mstv\idvbtunerequest_put_sid.htm
 tech.root: mstv
 ms.assetid: f521ab2d-5c56-4aff-a0a3-ac94b8676363
-
 ms.date: 12/05/2018
 ms.keywords: IDVBTuneRequest interface [Microsoft TV Technologies],put_SID method, IDVBTuneRequest.put_SID, IDVBTuneRequest::put_SID, IDVBTuneRequestput_SID, mstv.idvbtunerequest_put_sid, put_SID, put_SID method [Microsoft TV Technologies], put_SID method [Microsoft TV Technologies],IDVBTuneRequest interface, tuner/IDVBTuneRequest::put_SID
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBTuneRequest.put_SID"
+f1_keywords:
+- tuner/IDVBTuneRequest.put_SID
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBTuneRequest.put_SID
+- IDVBTuneRequest.put_SID
 targetos: Windows
 req.typenames: 
 req.redist: 

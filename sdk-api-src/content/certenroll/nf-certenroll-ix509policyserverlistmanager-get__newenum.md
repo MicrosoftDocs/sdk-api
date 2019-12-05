@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PolicyServerListManager.get__NewEnum
 title: IX509PolicyServerListManager::get__NewEnum (certenroll.h)
-
 description: Retrieves the enumerator for the collection.
 old-location: security\ix509policyserverlistmanager__newenum.htm
 tech.root: seccertenroll
 ms.assetid: d937e468-4945-4cc3-ac20-043eb69e6ce2
-
 ms.date: 12/05/2018
 ms.keywords: IX509PolicyServerListManager interface [Security],_NewEnum property, IX509PolicyServerListManager._NewEnum, IX509PolicyServerListManager.get__NewEnum, IX509PolicyServerListManager::_NewEnum, IX509PolicyServerListManager::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IX509PolicyServerListManager interface, certenroll/IX509PolicyServerListManager::_NewEnum, certenroll/IX509PolicyServerListManager::get__NewEnum, get__NewEnum, security.ix509policyserverlistmanager__newenum
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PolicyServerListManager._NewEnum"
+f1_keywords:
+- certenroll/IX509PolicyServerListManager._NewEnum
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PolicyServerListManager._NewEnum
- - IX509PolicyServerListManager.get__NewEnum
+- IX509PolicyServerListManager._NewEnum
+- IX509PolicyServerListManager.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

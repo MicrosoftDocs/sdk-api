@@ -1,19 +1,17 @@
 ---
 UID: NF:winwlx.WlxLoggedOnSAS
 title: WlxLoggedOnSAS function (winwlx.h)
-
 description: Winlogon calls this function when it receives a secure attention sequence (SAS) event while the user is logged on and the workstation is not locked.
 old-location: security\wlxloggedonsas.htm
 tech.root: SecAuthN
 ms.assetid: d60d1464-1948-444c-801a-dde17905091b
-
 ms.date: 12/05/2018
 ms.keywords: WLX_SAS_TYPE_CTRL_ALT_DEL, WLX_SAS_TYPE_SC_INSERT, WLX_SAS_TYPE_SC_REMOVE, WLX_SAS_TYPE_TIMEOUT, WlxLoggedOnSAS, WlxLoggedOnSAS function [Security], _gina_wlxloggedonsas, security.wlxloggedonsas, winwlx/WlxLoggedOnSAS
 ms.topic: function
-f1_keywords: 
- - "winwlx/WlxLoggedOnSAS"
+f1_keywords:
+- winwlx/WlxLoggedOnSAS
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winwlx.h
+- Winwlx.h
 api_name:
- - WlxLoggedOnSAS
+- WlxLoggedOnSAS
 targetos: Windows
 req.typenames: 
 req.redist: 

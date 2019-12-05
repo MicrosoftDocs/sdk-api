@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_17
 title: IntServParmHdr (lpmapi.h)
-
 description: The IntServParmHdr structure is a header for Integrated Services parameters.
 old-location: qos\intservparmhdr.htm
 tech.root: QOS
 ms.assetid: 56ca242e-d5e9-4c16-9c8e-70a356375683
-
 ms.date: 12/05/2018
 ms.keywords: IntServParmHdr, IntServParmHdr structure [QOS], lpmapi/IntServParmHdr, qos.intservparmhdr
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/IntServParmHdr"
+f1_keywords:
+- lpmapi/IntServParmHdr
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - IntServParmHdr
+- IntServParmHdr
 targetos: Windows
 req.typenames: IntServParmHdr
 req.redist: 

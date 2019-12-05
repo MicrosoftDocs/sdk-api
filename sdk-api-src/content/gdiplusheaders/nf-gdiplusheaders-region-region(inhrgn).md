@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Region.Region(IN HRGN)
 title: Region::Region(IN HRGN) (gdiplusheaders.h)
-
 description: Creates a region that is identical to the region that is specified by a handle to a Windows Graphics Device Interface (GDI) region.
 old-location: gdiplus\_gdiplus_CLASS_Region_Region_hRgn_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionconstructors\region_79hrgn.htm
-
 ms.date: 12/05/2018
 ms.keywords: Region, Region class [GDI+],Region constructor, Region constructor [GDI+], Region constructor [GDI+],Region class, Region.Region, Region.Region(HRGN), Region.Region(IN HRGN), Region::Region, Region::Region(IN HRGN), _gdiplus_CLASS_Region_Region_hRgn_, gdiplus._gdiplus_CLASS_Region_Region_hRgn_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Region.Region"
+f1_keywords:
+- gdiplusheaders/Region.Region
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Region.Region
+- Region.Region
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.IASetIndexBuffer
 title: ID3D10Device::IASetIndexBuffer (d3d10.h)
-
 description: Bind an index buffer to the input-assembler stage.
 old-location: direct3d10\id3d10device_iasetindexbuffer.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_iasetindexbuffer.htm
-
 ms.date: 12/05/2018
 ms.keywords: 608d16ec-f6d6-ea93-bc37-fe7d34d07215, IASetIndexBuffer, IASetIndexBuffer method [Direct3D 10], IASetIndexBuffer method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],IASetIndexBuffer method, ID3D10Device.IASetIndexBuffer, ID3D10Device::IASetIndexBuffer, d3d10/ID3D10Device::IASetIndexBuffer, direct3d10.id3d10device_iasetindexbuffer
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.IASetIndexBuffer"
+f1_keywords:
+- d3d10/ID3D10Device.IASetIndexBuffer
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.IASetIndexBuffer
+- ID3D10Device.IASetIndexBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenBase.CreateAction
 title: IFsrmFileScreenBase::CreateAction (fsrmscreen.h)
-
 description: Creates an action for this file screen object.
 old-location: fsrm\ifsrmfilescreenbase_createaction.htm
 tech.root: fsrm
 ms.assetid: 1d627e07-fa8c-4c22-acba-c08767b8ebaa
-
 ms.date: 12/05/2018
 ms.keywords: CreateAction, CreateAction method [File Server Resource Manager], CreateAction method [File Server Resource Manager],IFsrmFileScreenBase interface, IFsrmFileScreenBase interface [File Server Resource Manager],CreateAction method, IFsrmFileScreenBase.CreateAction, IFsrmFileScreenBase::CreateAction, fs.ifsrmfilescreenbase_createaction, fsrm.ifsrmfilescreenbase_createaction, fsrmscreen/IFsrmFileScreenBase::CreateAction
 ms.topic: method
 f1_keywords:
 - fsrmscreen/IFsrmFileScreenBase.CreateAction
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows

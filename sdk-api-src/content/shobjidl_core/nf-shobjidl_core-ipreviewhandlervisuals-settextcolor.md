@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IPreviewHandlerVisuals.SetTextColor
 title: IPreviewHandlerVisuals::SetTextColor (shobjidl_core.h)
-
 description: Sets the color of the text within the preview handler.
 old-location: shell\IPreviewHandlerVisuals_SetTextColor.htm
 tech.root: shell
 ms.assetid: 07278485-51a6-4729-8569-250478382a1e
-
 ms.date: 12/05/2018
 ms.keywords: IPreviewHandlerVisuals interface [Windows Shell],SetTextColor method, IPreviewHandlerVisuals.SetTextColor, IPreviewHandlerVisuals::SetTextColor, SetTextColor, SetTextColor method [Windows Shell], SetTextColor method [Windows Shell],IPreviewHandlerVisuals interface, _shell_IPreviewHandlerVisuals_SetTextColor, shell.IPreviewHandlerVisuals_SetTextColor, shobjidl_core/IPreviewHandlerVisuals::SetTextColor
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IPreviewHandlerVisuals.SetTextColor"
+f1_keywords:
+- shobjidl_core/IPreviewHandlerVisuals.SetTextColor
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IPreviewHandlerVisuals.SetTextColor
+- IPreviewHandlerVisuals.SetTextColor
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search 4 or later

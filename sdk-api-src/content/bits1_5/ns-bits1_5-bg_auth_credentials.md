@@ -1,19 +1,17 @@
 ---
 UID: NS:bits1_5.__MIDL_IBackgroundCopyJob2_0003
 title: BG_AUTH_CREDENTIALS
-
 description: Identifies the target (proxy or server), authentication scheme, and the user's credentials to use for user authentication requests. The structure is passed to the IBackgroundCopyJob2::SetCredentials method.
 old-location: bits\bg_auth_credentials.htm
 tech.root: Bits
 ms.assetid: f89ebf46-da83-495c-bafe-b2e0f72f5d8e
-
 ms.date: 12/05/2018
-ms.keywords: "*PBG_AUTH_CREDENTIALS, BG_AUTH_CREDENTIALS, BG_AUTH_CREDENTIALS structure [BITS], _drz_bg_auth_credentials, bits.bg_auth_credentials, bits1_5/BG_AUTH_CREDENTIALS"
+ms.keywords: '*PBG_AUTH_CREDENTIALS, BG_AUTH_CREDENTIALS, BG_AUTH_CREDENTIALS structure [BITS], _drz_bg_auth_credentials, bits.bg_auth_credentials, bits1_5/BG_AUTH_CREDENTIALS'
 ms.topic: struct
-f1_keywords: 
- - "bits1_5/BG_AUTH_CREDENTIALS"
+f1_keywords:
+- bits1_5/BG_AUTH_CREDENTIALS
 dev_langs:
- - c++
+- c++
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bits1_5.h
+- Bits1_5.h
 api_name:
- - BG_AUTH_CREDENTIALS
+- BG_AUTH_CREDENTIALS
 targetos: Windows
 req.typenames: BG_AUTH_CREDENTIALS
 req.redist: BITS 1.5 on Windows XP

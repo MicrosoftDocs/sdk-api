@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.AddExcludeFiles
 title: IVssCreateWriterMetadata::AddExcludeFiles (vswriter.h)
-
 description: The AddExcludeFiles method is used to explicitly exclude a file set (a specified file or files) that might otherwise be implicitly included when a component of the current writer is backed up.
 old-location: base\ivsscreatewritermetadata_addexcludefiles.htm
 tech.root: VSS
 ms.assetid: 705bb666-9080-4b42-af58-9cc21fbf88cf
-
 ms.date: 12/05/2018
 ms.keywords: AddExcludeFiles, AddExcludeFiles method [VSS], AddExcludeFiles method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddExcludeFiles method, IVssCreateWriterMetadata.AddExcludeFiles, IVssCreateWriterMetadata::AddExcludeFiles, _win32_ivsscreatewritermetadata_addexcludefiles, base.ivsscreatewritermetadata_addexcludefiles, vswriter/IVssCreateWriterMetadata::AddExcludeFiles
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssCreateWriterMetadata.AddExcludeFiles"
+f1_keywords:
+- vswriter/IVssCreateWriterMetadata.AddExcludeFiles
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssCreateWriterMetadata.AddExcludeFiles
+- IVssCreateWriterMetadata.AddExcludeFiles
 targetos: Windows
 req.typenames: 
 req.redist: 

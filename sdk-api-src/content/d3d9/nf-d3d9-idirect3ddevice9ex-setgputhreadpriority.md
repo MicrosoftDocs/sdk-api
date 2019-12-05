@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.SetGPUThreadPriority
 title: IDirect3DDevice9Ex::SetGPUThreadPriority (d3d9.h)
-
 description: Set the priority on the GPU thread.
 old-location: direct3d9\idirect3ddevice9ex_setgputhreadpriority.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_setgputhreadpriority.htm
-
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9Ex interface [Direct3D 9],SetGPUThreadPriority method, IDirect3DDevice9Ex.SetGPUThreadPriority, IDirect3DDevice9Ex::SetGPUThreadPriority, SetGPUThreadPriority, SetGPUThreadPriority method [Direct3D 9], SetGPUThreadPriority method [Direct3D 9],IDirect3DDevice9Ex interface, ac16f6ba-fdcc-9d18-4ea1-2b6b2313ab4a, d3d9/IDirect3DDevice9Ex::SetGPUThreadPriority, direct3d9.idirect3ddevice9ex_setgputhreadpriority
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DDevice9Ex.SetGPUThreadPriority"
+f1_keywords:
+- d3d9/IDirect3DDevice9Ex.SetGPUThreadPriority
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9Ex.SetGPUThreadPriority
+- IDirect3DDevice9Ex.SetGPUThreadPriority
 targetos: Windows
 req.typenames: 
 req.redist: 

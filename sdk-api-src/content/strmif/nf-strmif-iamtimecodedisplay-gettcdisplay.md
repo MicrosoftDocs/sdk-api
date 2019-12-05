@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTimecodeDisplay.GetTCDisplay
 title: IAMTimecodeDisplay::GetTCDisplay (strmif.h)
-
 description: The GetTCDisplay method retrieves current settings of the timecode character generator output.
 old-location: dshow\iamtimecodedisplay_gettcdisplay.htm
 tech.root: DirectShow
 ms.assetid: 3da33500-1b1d-4818-b69b-74f302614349
-
 ms.date: 12/05/2018
 ms.keywords: GetTCDisplay, GetTCDisplay method [DirectShow], GetTCDisplay method [DirectShow],IAMTimecodeDisplay interface, IAMTimecodeDisplay interface [DirectShow],GetTCDisplay method, IAMTimecodeDisplay.GetTCDisplay, IAMTimecodeDisplay::GetTCDisplay, IAMTimecodeDisplayGetTCDisplay, dshow.iamtimecodedisplay_gettcdisplay, strmif/IAMTimecodeDisplay::GetTCDisplay
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTimecodeDisplay.GetTCDisplay"
+f1_keywords:
+- strmif/IAMTimecodeDisplay.GetTCDisplay
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTimecodeDisplay.GetTCDisplay
+- IAMTimecodeDisplay.GetTCDisplay
 targetos: Windows
 req.typenames: 
 req.redist: 

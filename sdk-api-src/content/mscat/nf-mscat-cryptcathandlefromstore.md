@@ -1,19 +1,17 @@
 ---
 UID: NF:mscat.CryptCATHandleFromStore
 title: CryptCATHandleFromStore function (mscat.h)
-
 description: Retrieves a catalog handle from memory.
 old-location: security\cryptcathandlefromstore.htm
 tech.root: SecCrypto
 ms.assetid: e9aedc2d-9492-4ed7-9f2d-891997f85f6f
-
 ms.date: 12/05/2018
 ms.keywords: CryptCATHandleFromStore, CryptCATHandleFromStore function [Security], mscat/CryptCATHandleFromStore, security.cryptcathandlefromstore
 ms.topic: function
-f1_keywords: 
- - "mscat/CryptCATHandleFromStore"
+f1_keywords:
+- mscat/CryptCATHandleFromStore
 dev_langs:
- - c++
+- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wintrust.dll
+- Wintrust.dll
 api_name:
- - CryptCATHandleFromStore
+- CryptCATHandleFromStore
 targetos: Windows
 req.typenames: 
 req.redist: 

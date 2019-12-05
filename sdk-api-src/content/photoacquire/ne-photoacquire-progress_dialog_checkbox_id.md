@@ -1,19 +1,17 @@
 ---
 UID: NE:photoacquire.tagPROGRESS_DIALOG_CHECKBOX_ID
 title: PROGRESS_DIALOG_CHECKBOX_ID (photoacquire.h)
-
 description: The PROGRESS_DIALOG_CHECKBOX_ID enumeration type indicates the check box on the IPhotoProgressDialog object.
 old-location: picacq\progress_dialog_checkbox_id.htm
 tech.root: acquisition
 ms.assetid: f6a66b39-e530-4c14-ab21-123aacfbd035
-
 ms.date: 12/05/2018
 ms.keywords: PROGRESS_DIALOG_CHECKBOX_ID, PROGRESS_DIALOG_CHECKBOX_ID enumeration [Picture Acquisition], PROGRESS_DIALOG_CHECKBOX_ID_DEFAULT, enumeration [Picture Acquisition], photoacquire/PROGRESS_DIALOG_CHECKBOX_ID, photoacquire/PROGRESS_DIALOG_CHECKBOX_ID_DEFAULT, picacq.progress_dialog_checkbox_id
 ms.topic: enum
-f1_keywords: 
- - "photoacquire/PROGRESS_DIALOG_CHECKBOX_ID"
+f1_keywords:
+- photoacquire/PROGRESS_DIALOG_CHECKBOX_ID
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - PhotoAcquire.h
+- PhotoAcquire.h
 api_name:
- - PROGRESS_DIALOG_CHECKBOX_ID
+- PROGRESS_DIALOG_CHECKBOX_ID
 targetos: Windows
 req.typenames: PROGRESS_DIALOG_CHECKBOX_ID
 req.redist: 

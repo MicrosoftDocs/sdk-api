@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHRegGetUSValueA
 title: SHRegGetUSValueA function (shlwapi.h)
-
 description: Retrieves a value from a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegGetUSValue.htm
 tech.root: shell
 ms.assetid: 4d3b3bbe-dc2e-40c9-8ff1-0f9d2e323743
-
 ms.date: 12/05/2018
 ms.keywords: SHRegGetUSValue, SHRegGetUSValue function [Windows Shell], SHRegGetUSValueA, SHRegGetUSValueW, _win32_SHRegGetUSValue, shell.SHRegGetUSValue, shlwapi/SHRegGetUSValue, shlwapi/SHRegGetUSValueA, shlwapi/SHRegGetUSValueW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHRegGetUSValue"
+f1_keywords:
+- shlwapi/SHRegGetUSValue
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-Registryuserspecific-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-Registryuserspecific-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - SHRegGetUSValue
- - SHRegGetUSValueA
- - SHRegGetUSValueW
+- SHRegGetUSValue
+- SHRegGetUSValueA
+- SHRegGetUSValueW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:davclnt.DavGetExtendedError
 title: DavGetExtendedError function (davclnt.h)
-
 description: Retrieves the extended error code information that the WebDAV server returned for the previous failed I/O operation.
 old-location: webdav\davgetextendederror.htm
 tech.root: WebDAV
 ms.assetid: 939b6163-b7ae-4ab7-9bcc-a02cbf34ca63
-
 ms.date: 12/05/2018
 ms.keywords: DavGetExtendedError, DavGetExtendedError function [WebDAV], davclnt/DavGetExtendedError, webdav.davgetextendederror
 ms.topic: function
-f1_keywords: 
- - "davclnt/DavGetExtendedError"
+f1_keywords:
+- davclnt/DavGetExtendedError
 dev_langs:
- - c++
+- c++
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - netapi32.dll
- - DavHlpr.dll
- - Ext-MS-Win-Rdr-DavHlpr-L1-1-0.dll
+- netapi32.dll
+- DavHlpr.dll
+- Ext-MS-Win-Rdr-DavHlpr-L1-1-0.dll
 api_name:
- - DavGetExtendedError
+- DavGetExtendedError
 targetos: Windows
 req.typenames: 
 req.redist: 

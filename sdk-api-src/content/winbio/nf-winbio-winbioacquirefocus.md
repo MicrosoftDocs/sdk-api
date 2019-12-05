@@ -1,19 +1,17 @@
 ---
 UID: NF:winbio.WinBioAcquireFocus
 title: WinBioAcquireFocus function (winbio.h)
-
 description: Acquires window focus.
 old-location: secbiomet\winbioacquirefocus.htm
 tech.root: SecBioMet
 ms.assetid: ad8bdcc9-0317-4d35-a587-9a2f3a4144ae
-
 ms.date: 12/05/2018
 ms.keywords: WinBioAcquireFocus, WinBioAcquireFocus function [Windows Biometric Framework API], secbiomet.winbioacquirefocus, winbio/WinBioAcquireFocus
 ms.topic: function
-f1_keywords: 
- - "winbio/WinBioAcquireFocus"
+f1_keywords:
+- winbio/WinBioAcquireFocus
 dev_langs:
- - c++
+- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winbio.dll
- - WinBioExt.dll
- - Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
- - Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
+- Winbio.dll
+- WinBioExt.dll
+- Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+- Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
 api_name:
- - WinBioAcquireFocus
+- WinBioAcquireFocus
 targetos: Windows
 req.typenames: 
 req.redist: 

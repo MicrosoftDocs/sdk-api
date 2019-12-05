@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.GetStringValue
 title: ICredentialProviderCredential::GetStringValue (credentialprovider.h)
-
 description: Enables retrieval of text from a credential with a text field.
 old-location: shell\ICredentialProviderCredential_GetStringValue.htm
 tech.root: shell
 ms.assetid: b891c735-9822-4bc1-a1cc-0c50b35c03c4
-
 ms.date: 12/05/2018
 ms.keywords: GetStringValue, GetStringValue method [Windows Shell], GetStringValue method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetStringValue method, ICredentialProviderCredential.GetStringValue, ICredentialProviderCredential::GetStringValue, credentialprovider/ICredentialProviderCredential::GetStringValue, shell.ICredentialProviderCredential_GetStringValue, shell_ICredentialProviderCredential_GetStringValue
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderCredential.GetStringValue"
+f1_keywords:
+- credentialprovider/ICredentialProviderCredential.GetStringValue
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProviderCredential.GetStringValue
+- ICredentialProviderCredential.GetStringValue
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CRYPT_PKCS12_PBE_PARAMS
 title: CRYPT_PKCS12_PBE_PARAMS (wincrypt.h)
-
-description: Contains parameters used to create an encryption key, initialization vector (IV), or Message Authentication Code (MAC) key for a PKCS #12 password based encryption algorithm.
+description: Contains parameters used to create an encryption key, initialization vector (IV), or Message Authentication Code (MAC) key for a PKCS
 old-location: security\crypt_pkcs12_pbe_params.htm
 tech.root: SecCrypto
 ms.assetid: 8923bb7f-b26a-4ffc-98a3-3ae74e941329
-
 ms.date: 12/05/2018
 ms.keywords: CRYPT_PKCS12_PBE_PARAMS, CRYPT_PKCS12_PBE_PARAMS structure [Security], security.crypt_pkcs12_pbe_params, wincrypt/CRYPT_PKCS12_PBE_PARAMS
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_PKCS12_PBE_PARAMS"
+f1_keywords:
+- wincrypt/CRYPT_PKCS12_PBE_PARAMS
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_PKCS12_PBE_PARAMS
+- CRYPT_PKCS12_PBE_PARAMS
 targetos: Windows
 req.typenames: CRYPT_PKCS12_PBE_PARAMS
 req.redist: 

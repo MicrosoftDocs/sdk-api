@@ -1,19 +1,17 @@
 ---
 UID: NF:infotech.IITResultSet.Get
 title: IITResultSet::Get (infotech.h)
-
 description: Gets the property in the specified row and column and fills the given property object.
 old-location: htmlhelp\iitresultset_get.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetget.htm
-
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [HTML Help Workshop], Get method [HTML Help Workshop],IITResultSet interface, IITResultSet interface [HTML Help Workshop],Get method, IITResultSet.Get, IITResultSet::Get, htmlhelp.iitresultset_get, infotech/IITResultSet::Get, refIITResultSetGet
 ms.topic: method
-f1_keywords: 
- - "infotech/IITResultSet.Get"
+f1_keywords:
+- infotech/IITResultSet.Get
 dev_langs:
- - c++
+- c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Infotech.h
+- Infotech.h
 api_name:
- - IITResultSet.Get
+- IITResultSet.Get
 targetos: Windows
 req.typenames: 
 req.redist: 

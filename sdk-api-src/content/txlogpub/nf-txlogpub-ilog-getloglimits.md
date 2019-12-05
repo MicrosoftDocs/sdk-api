@@ -1,19 +1,17 @@
 ---
 UID: NF:txlogpub.ILog.GetLogLimits
 title: ILog::GetLogLimits (txlogpub.h)
-
 description: Retrieves information about the current bounds of the log.
 old-location: com\ilog_getloglimits.htm
 tech.root: com
 ms.assetid: 06238436-6807-4588-9af9-03eb4c12f4e1
-
 ms.date: 12/05/2018
 ms.keywords: GetLogLimits, GetLogLimits method [COM], GetLogLimits method [COM],ILog interface, ILog interface [COM],GetLogLimits method, ILog.GetLogLimits, ILog::GetLogLimits, _com_ilog_getloglimits, com.ilog_getloglimits, txlogpub/ILog::GetLogLimits
 ms.topic: method
-f1_keywords: 
- - "txlogpub/ILog.GetLogLimits"
+f1_keywords:
+- txlogpub/ILog.GetLogLimits
 dev_langs:
- - c++
+- c++
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Txlogpub.h
+- Txlogpub.h
 api_name:
- - ILog.GetLogLimits
+- ILog.GetLogLimits
 targetos: Windows
 req.typenames: 
 req.redist: 

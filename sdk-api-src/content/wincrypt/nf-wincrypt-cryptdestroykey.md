@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptDestroyKey
 title: CryptDestroyKey function (wincrypt.h)
-
 description: Releases the handle referenced by the hKey parameter.
 old-location: security\cryptdestroykey.htm
 tech.root: SecCrypto
 ms.assetid: ed5d8047-c9fd-4765-915f-a6a014004b30
-
 ms.date: 12/05/2018
 ms.keywords: CryptDestroyKey, CryptDestroyKey function [Security], _crypto2_cryptdestroykey, security.cryptdestroykey, wincrypt/CryptDestroyKey
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptDestroyKey"
+f1_keywords:
+- wincrypt/CryptDestroyKey
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptDestroyKey
+- CryptDestroyKey
 targetos: Windows
 req.typenames: 
 req.redist: 

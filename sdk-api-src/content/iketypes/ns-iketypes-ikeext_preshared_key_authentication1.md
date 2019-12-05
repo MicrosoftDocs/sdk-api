@@ -1,19 +1,17 @@
 ---
 UID: NS:iketypes.IKEEXT_PRESHARED_KEY_AUTHENTICATION1__
 title: IKEEXT_PRESHARED_KEY_AUTHENTICATION1 (iketypes.h)
-
 description: Stores information needed for pre-shared key authentication.
 old-location: fwp\ikeext_preshared_key_authentication1.htm
 tech.root: fwp
 ms.assetid: b2009797-f5fd-4d14-8a59-832f9a0acff1
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_PRESHARED_KEY_AUTHENTICATION1, IKEEXT_PRESHARED_KEY_AUTHENTICATION1 structure [Filtering], IKEEXT_PSK_FLAG_LOCAL_AUTH_ONLY, IKEEXT_PSK_FLAG_REMOTE_AUTH_ONLY, fwp.ikeext_preshared_key_authentication1, iketypes/IKEEXT_PRESHARED_KEY_AUTHENTICATION1
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_PRESHARED_KEY_AUTHENTICATION1"
+f1_keywords:
+- iketypes/IKEEXT_PRESHARED_KEY_AUTHENTICATION1
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_PRESHARED_KEY_AUTHENTICATION1
+- IKEEXT_PRESHARED_KEY_AUTHENTICATION1
 targetos: Windows
 req.typenames: IKEEXT_PRESHARED_KEY_AUTHENTICATION1
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_WatermarkURL
 title: IAMMediaContent::get_WatermarkURL (qnetwork.h)
-
 description: The get_WatermarkURL method retrieves a URL for the watermark.
 old-location: dshow\iammediacontent_get_watermarkurl.htm
 tech.root: DirectShow
 ms.assetid: e632f99e-7e08-4dfa-9f4e-5f09d9d77eb8
-
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_WatermarkURL method, IAMMediaContent.get_WatermarkURL, IAMMediaContent::get_WatermarkURL, IAMMediaContentget_WatermarkURL, dshow.iammediacontent_get_watermarkurl, get_WatermarkURL, get_WatermarkURL method [DirectShow], get_WatermarkURL method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_WatermarkURL
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMMediaContent.get_WatermarkURL"
+f1_keywords:
+- qnetwork/IAMMediaContent.get_WatermarkURL
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMMediaContent.get_WatermarkURL
+- IAMMediaContent.get_WatermarkURL
 targetos: Windows
 req.typenames: 
 req.redist: 

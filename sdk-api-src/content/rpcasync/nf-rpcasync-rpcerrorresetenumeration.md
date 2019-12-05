@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcasync.RpcErrorResetEnumeration
 title: RpcErrorResetEnumeration function (rpcasync.h)
-
 description: The RpcErrorResetEnumeration function resets an enumeration cursor for any in-process enumeration, resetting the process such that a subsequent call to the RpcErrorGetNextRecord retrieves the first extended error information record.
 old-location: rpc\rpcerrorresetenumeration.htm
 tech.root: Rpc
 ms.assetid: fb41b923-7fd3-4058-9f5f-df4018d9b872
-
 ms.date: 12/05/2018
 ms.keywords: RpcErrorResetEnumeration, RpcErrorResetEnumeration function [RPC], _rpc_rpcerrorresetenumeration, rpc.rpcerrorresetenumeration, rpcasync/RpcErrorResetEnumeration
 ms.topic: function
-f1_keywords: 
- - "rpcasync/RpcErrorResetEnumeration"
+f1_keywords:
+- rpcasync/RpcErrorResetEnumeration
 dev_langs:
- - c++
+- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcErrorResetEnumeration
+- RpcErrorResetEnumeration
 targetos: Windows
 req.typenames: 
 req.redist: 

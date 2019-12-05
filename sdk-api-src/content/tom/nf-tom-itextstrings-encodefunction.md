@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextStrings.EncodeFunction
 title: ITextStrings::EncodeFunction (tom.h)
-
 description: Encodes an object, given a set of argument strings.
 old-location: controls\itextstrings_encodefunction.htm
 tech.root: Controls
 ms.assetid: f22bb343-4fcc-4473-84cc-807011b5a7b0
-
 ms.date: 12/05/2018
 ms.keywords: EncodeFunction, EncodeFunction method [Windows Controls], EncodeFunction method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],EncodeFunction method, ITextStrings.EncodeFunction, ITextStrings::EncodeFunction, controls.itextstrings_encodefunction, tom/ITextStrings::EncodeFunction
 ms.topic: method
-f1_keywords: 
- - "tom/ITextStrings.EncodeFunction"
+f1_keywords:
+- tom/ITextStrings.EncodeFunction
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextStrings.EncodeFunction
+- ITextStrings.EncodeFunction
 targetos: Windows
 req.typenames: 
 req.redist: 

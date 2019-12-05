@@ -1,19 +1,17 @@
 ---
 UID: NE:resapi._RESOURCE_EXIT_STATE
 title: RESOURCE_EXIT_STATE (resapi.h)
-
 description: Enumerates the possible exit states of a resource.
 old-location: mscs\resource_exit_state.htm
 tech.root: MsCS
 ms.assetid: d1b9fd8f-7d49-4396-8f0c-6db8fad5749e
-
 ms.date: 12/05/2018
 ms.keywords: RESOURCE_EXIT_STATE, RESOURCE_EXIT_STATE enumeration [Failover Cluster], ResourceExitStateContinue, ResourceExitStateMax, ResourceExitStateTerminate, mscs.resource_exit_state, resapi/RESOURCE_EXIT_STATE, resapi/ResourceExitStateContinue, resapi/ResourceExitStateMax, resapi/ResourceExitStateTerminate
 ms.topic: enum
-f1_keywords: 
- - "resapi/RESOURCE_EXIT_STATE"
+f1_keywords:
+- resapi/RESOURCE_EXIT_STATE
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - RESOURCE_EXIT_STATE
+- RESOURCE_EXIT_STATE
 targetos: Windows
 req.typenames: RESOURCE_EXIT_STATE
 req.redist: 

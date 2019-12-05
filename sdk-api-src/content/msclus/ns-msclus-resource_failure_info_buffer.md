@@ -1,19 +1,17 @@
 ---
 UID: NS:msclus.RESOURCE_FAILURE_INFO_BUFFER
 title: RESOURCE_FAILURE_INFO_BUFFER (msclus.h)
-
 description: Represents a buffer for a resource failure.
 old-location: mscs\resource_failure_info_buffer.htm
 tech.root: MsCS
 ms.assetid: 131EEF4A-DB1E-4FF7-8329-4AA422AB83B0
-
 ms.date: 12/05/2018
-ms.keywords: "*PRESOURCE_FAILURE_INFO_BUFFER, PRESOURCE_FAILURE_INFO_BUFFER, PRESOURCE_FAILURE_INFO_BUFFER structure pointer [Failover Cluster], RESOURCE_FAILURE_INFO_BUFFER, RESOURCE_FAILURE_INFO_BUFFER structure [Failover Cluster], clusapi/PRESOURCE_FAILURE_INFO_BUFFER, clusapi/RESOURCE_FAILURE_INFO_BUFFER, msclus/PRESOURCE_FAILURE_INFO_BUFFER, msclus/RESOURCE_FAILURE_INFO_BUFFER, mscs.resource_failure_info_buffer"
+ms.keywords: '*PRESOURCE_FAILURE_INFO_BUFFER, PRESOURCE_FAILURE_INFO_BUFFER, PRESOURCE_FAILURE_INFO_BUFFER structure pointer [Failover Cluster], RESOURCE_FAILURE_INFO_BUFFER, RESOURCE_FAILURE_INFO_BUFFER structure [Failover Cluster], clusapi/PRESOURCE_FAILURE_INFO_BUFFER, clusapi/RESOURCE_FAILURE_INFO_BUFFER, msclus/PRESOURCE_FAILURE_INFO_BUFFER, msclus/RESOURCE_FAILURE_INFO_BUFFER, mscs.resource_failure_info_buffer'
 ms.topic: struct
-f1_keywords: 
- - "msclus/RESOURCE_FAILURE_INFO_BUFFER"
+f1_keywords:
+- msclus/RESOURCE_FAILURE_INFO_BUFFER
 dev_langs:
- - c++
+- c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusApi.h
- - MSClus.h
+- ClusApi.h
+- MSClus.h
 api_name:
- - RESOURCE_FAILURE_INFO_BUFFER
+- RESOURCE_FAILURE_INFO_BUFFER
 targetos: Windows
 req.typenames: RESOURCE_FAILURE_INFO_BUFFER, *PRESOURCE_FAILURE_INFO_BUFFER
 req.redist: 

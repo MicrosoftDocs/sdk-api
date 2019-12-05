@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GlobalHandle
 title: GlobalHandle function (winbase.h)
-
 description: Retrieves the handle associated with the specified pointer to a global memory block.
 old-location: base\globalhandle.htm
 tech.root: Memory
 ms.assetid: 18ed3446-060a-4874-8187-5c54fb936da9
-
 ms.date: 12/05/2018
 ms.keywords: GlobalHandle, GlobalHandle function, _win32_globalhandle, base.globalhandle, winbase/GlobalHandle
 ms.topic: function
-f1_keywords: 
- - "winbase/GlobalHandle"
+f1_keywords:
+- winbase/GlobalHandle
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - GlobalHandle
+- GlobalHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

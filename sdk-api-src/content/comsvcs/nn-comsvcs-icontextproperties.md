@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IContextProperties
 title: IContextProperties (comsvcs.h)
-
 description: Provides access to context object properties.
 old-location: cos\icontextproperties.htm
 tech.root: cossdk
 ms.assetid: 95a5cfda-7587-496e-ba16-0dd2e8a4db32
-
 ms.date: 12/05/2018
 ms.keywords: IContextProperties, IContextProperties interface [COM+], IContextProperties interface [COM+],described, _cos_IContextProperties, comsvcs/IContextProperties, cos.icontextproperties
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IContextProperties"
+f1_keywords:
+- comsvcs/IContextProperties
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IContextProperties
+- IContextProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

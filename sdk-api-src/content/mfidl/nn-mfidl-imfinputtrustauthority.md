@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFInputTrustAuthority
 title: IMFInputTrustAuthority (mfidl.h)
-
 description: Enables other components in the protected media path (PMP) to use the input protection system provided by an input trust authorities (ITA).
 old-location: mf\imfinputtrustauthority.htm
 tech.root: medfound
 ms.assetid: 637e0225-6fd8-4b83-b4fb-119e7a5ef5d2
-
 ms.date: 12/05/2018
 ms.keywords: 637e0225-6fd8-4b83-b4fb-119e7a5ef5d2, IMFInputTrustAuthority, IMFInputTrustAuthority interface [Media Foundation], IMFInputTrustAuthority interface [Media Foundation],described, mf.imfinputtrustauthority, mfidl/IMFInputTrustAuthority
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFInputTrustAuthority"
+f1_keywords:
+- mfidl/IMFInputTrustAuthority
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFInputTrustAuthority
+- IMFInputTrustAuthority
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0009
 title: ADS_TYPEDNAME (iads.h)
-
 description: Represents an ADSI representation of Typed Name attribute syntax.
 old-location: adsi\ads_typedname.htm
 tech.root: adsi
 ms.assetid: 64ce748c-adfc-4beb-8507-ca6aece46ad0
-
 ms.date: 12/05/2018
-ms.keywords: "*PADS_TYPEDNAME, ADS_TYPEDNAME, ADS_TYPEDNAME structure [ADSI], PADS_TYPEDNAME, PADS_TYPEDNAME structure pointer [ADSI], _ds_ads_typedname, adsi.ads__typedname, adsi.ads_typedname, iads/ADS_TYPEDNAME, iads/PADS_TYPEDNAME"
+ms.keywords: '*PADS_TYPEDNAME, ADS_TYPEDNAME, ADS_TYPEDNAME structure [ADSI], PADS_TYPEDNAME, PADS_TYPEDNAME structure pointer [ADSI], _ds_ads_typedname, adsi.ads__typedname, adsi.ads_typedname, iads/ADS_TYPEDNAME, iads/PADS_TYPEDNAME'
 ms.topic: struct
-f1_keywords: 
- - "iads/ADS_TYPEDNAME"
+f1_keywords:
+- iads/ADS_TYPEDNAME
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_TYPEDNAME
+- ADS_TYPEDNAME
 targetos: Windows
 req.typenames: ADS_TYPEDNAME, *PADS_TYPEDNAME
 req.redist: 

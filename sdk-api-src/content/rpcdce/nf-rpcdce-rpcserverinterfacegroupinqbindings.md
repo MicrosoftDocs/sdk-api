@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcServerInterfaceGroupInqBindings
 title: RpcServerInterfaceGroupInqBindings function (rpcdce.h)
-
 description: The RpcServerInterfaceGroupInqBindings function returns the binding handles over which remote procedure calls can be received for the given interface group.
 old-location: rpc\rpcserverinterfacegroupinqbindings.htm
 tech.root: Rpc
 ms.assetid: 90535A05-9835-45F2-A62F-718736A80ED3
-
 ms.date: 12/05/2018
 ms.keywords: RpcServerInterfaceGroupInqBindings, RpcServerInterfaceGroupInqBindings function [RPC], rpc.rpcserverinterfacegroupinqbindings, rpcdce/RpcServerInterfaceGroupInqBindings
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcServerInterfaceGroupInqBindings"
+f1_keywords:
+- rpcdce/RpcServerInterfaceGroupInqBindings
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcServerInterfaceGroupInqBindings
+- RpcServerInterfaceGroupInqBindings
 targetos: Windows
 req.typenames: 
 req.redist: 

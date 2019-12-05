@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_Pin
 title: IX509PrivateKey::put_Pin (certenroll.h)
-
 description: Specifies a personal identification number (PIN) that is used to authenticate users prior to accessing a private key container on a smart card.
 old-location: security\ix509privatekey_pin.htm
 tech.root: seccertenroll
 ms.assetid: d81fad8a-767d-48c8-874a-c34843600b13
-
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],Pin property, IX509PrivateKey.Pin, IX509PrivateKey.put_Pin, IX509PrivateKey::Pin, IX509PrivateKey::put_Pin, Pin property [Security], Pin property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::Pin, certenroll/IX509PrivateKey::put_Pin, put_Pin, security.ix509privatekey_pin
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PrivateKey.Pin"
+f1_keywords:
+- certenroll/IX509PrivateKey.Pin
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PrivateKey.Pin
- - IX509PrivateKey.put_Pin
+- IX509PrivateKey.Pin
+- IX509PrivateKey.put_Pin
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_RENDER_TARGET_VIEW_DESC
 title: D3D11_RENDER_TARGET_VIEW_DESC (d3d11.h)
-
 description: Specifies the subresources from a resource that are accessible using a render-target view.
 old-location: direct3d11\d3d11_render_target_view_desc.htm
 tech.root: direct3d11
 ms.assetid: b154ac98-49ed-4d00-8cb6-5e57680e125c
-
 ms.date: 12/05/2018
 ms.keywords: 0571f2fa-1f94-b9a4-ea30-5f99a077c507, D3D11_RENDER_TARGET_VIEW_DESC, D3D11_RENDER_TARGET_VIEW_DESC structure [Direct3D 11], d3d11/D3D11_RENDER_TARGET_VIEW_DESC, direct3d11.d3d11_render_target_view_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_RENDER_TARGET_VIEW_DESC"
+f1_keywords:
+- d3d11/D3D11_RENDER_TARGET_VIEW_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_RENDER_TARGET_VIEW_DESC
+- D3D11_RENDER_TARGET_VIEW_DESC
 targetos: Windows
 req.typenames: D3D11_RENDER_TARGET_VIEW_DESC
 req.redist: 

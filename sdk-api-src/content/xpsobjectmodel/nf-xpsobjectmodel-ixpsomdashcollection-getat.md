@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.GetAt
 title: IXpsOMDashCollection::GetAt (xpsobjectmodel.h)
-
 description: Gets an XPS_DASH structure from a specified location in the collection.
 old-location: xps\ixpsomdashcollection_getat.htm
 tech.root: printdocs
 ms.assetid: 70749e4c-1f67-41e8-9def-85d38493c099
-
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMDashCollection interface, IXpsOMDashCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMDashCollection.GetAt, IXpsOMDashCollection::GetAt, xps.ixpsomdashcollection_getat, xpsobjectmodel/IXpsOMDashCollection::GetAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMDashCollection.GetAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMDashCollection.GetAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMDashCollection.GetAt
+- IXpsOMDashCollection.GetAt
 targetos: Windows
 req.typenames: 
 req.redist: 

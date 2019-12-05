@@ -1,19 +1,17 @@
 ---
 UID: NF:amstream.IAMMultiMediaStream.Render
 title: IAMMultiMediaStream::Render (amstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The Render method renders the current filter graph.
 old-location: dshow\iammultimediastream_render.htm
 tech.root: DirectShow
 ms.assetid: 09866cf0-650d-4d8e-81d4-6a568709c027
-
 ms.date: 12/05/2018
 ms.keywords: IAMMultiMediaStream interface [DirectShow],Render method, IAMMultiMediaStream.Render, IAMMultiMediaStream::Render, IAMMultiMediaStreamRender, Render, Render method [DirectShow], Render method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::Render, dshow.iammultimediastream_render
 ms.topic: method
-f1_keywords: 
- - "amstream/IAMMultiMediaStream.Render"
+f1_keywords:
+- amstream/IAMMultiMediaStream.Render
 dev_langs:
- - c++
+- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amstream.h
+- amstream.h
 api_name:
- - IAMMultiMediaStream.Render
+- IAMMultiMediaStream.Render
 targetos: Windows
 req.typenames: 
 req.redist: 

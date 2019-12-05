@@ -1,19 +1,17 @@
 ---
 UID: NE:ntsecpkg._SECPKG_NAME_TYPE
 title: SECPKG_NAME_TYPE (ntsecpkg.h)
-
 description: The SECPKG_NAME_TYPE enumeration is used to describe the type of name specified for an account.The SECPKG_NAME_TYPE enumeration is used by the GetAuthDataForUser and OpenSamUser functions.
 old-location: security\secpkg_name_type.htm
 tech.root: SecAuthN
 ms.assetid: 6a534bfa-83ec-408d-ad21-e230a7adc61e
-
 ms.date: 12/05/2018
 ms.keywords: SECPKG_NAME_TYPE, SECPKG_NAME_TYPE enumeration [Security], SecNameAlternateId, SecNameDN, SecNameFlat, SecNameSamCompatible, _ssp_secpkg_name_type, ntsecpkg/SECPKG_NAME_TYPE, ntsecpkg/SecNameAlternateId, ntsecpkg/SecNameDN, ntsecpkg/SecNameFlat, ntsecpkg/SecNameSamCompatible, security.secpkg_name_type
 ms.topic: enum
-f1_keywords: 
- - "ntsecpkg/SECPKG_NAME_TYPE"
+f1_keywords:
+- ntsecpkg/SECPKG_NAME_TYPE
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SECPKG_NAME_TYPE
+- SECPKG_NAME_TYPE
 targetos: Windows
 req.typenames: SECPKG_NAME_TYPE
 req.redist: 

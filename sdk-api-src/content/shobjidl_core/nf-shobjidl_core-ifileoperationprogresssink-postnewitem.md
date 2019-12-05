@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PostNewItem
 title: IFileOperationProgressSink::PostNewItem (shobjidl_core.h)
-
 description: Performs caller-implemented actions after the new item is created.
 old-location: shell\IFileOperationProgressSink_PostNewItem.htm
 tech.root: shell
 ms.assetid: 250ca9b8-951d-4ce8-bfb7-d512f4a59a39
-
 ms.date: 12/05/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PostNewItem method, IFileOperationProgressSink.PostNewItem, IFileOperationProgressSink::PostNewItem, PostNewItem, PostNewItem method [Windows Shell], PostNewItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PostNewItem, shell.IFileOperationProgressSink_PostNewItem, shobjidl_core/IFileOperationProgressSink::PostNewItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileOperationProgressSink.PostNewItem"
+f1_keywords:
+- shobjidl_core/IFileOperationProgressSink.PostNewItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOperationProgressSink.PostNewItem
+- IFileOperationProgressSink.PostNewItem
 targetos: Windows
 req.typenames: 
 req.redist: 

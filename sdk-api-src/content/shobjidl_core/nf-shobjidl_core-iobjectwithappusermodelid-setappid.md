@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IObjectWithAppUserModelID.SetAppID
 title: IObjectWithAppUserModelID::SetAppID (shobjidl_core.h)
-
 description: Specifies a unique application-defined Application User Model ID (AppUserModelID) that identifies the object as a handler for a specific file type. This method is used by applications that require dynamic AppUserModelIDs.
 old-location: shell\IObjectWithAppUserModelID_SetAppID.htm
 tech.root: shell
 ms.assetid: 6f6850fc-2aa5-46fa-b237-82aafa844092
-
 ms.date: 12/05/2018
 ms.keywords: IObjectWithAppUserModelID interface [Windows Shell],SetAppID method, IObjectWithAppUserModelID.SetAppID, IObjectWithAppUserModelID::SetAppID, SetAppID, SetAppID method [Windows Shell], SetAppID method [Windows Shell],IObjectWithAppUserModelID interface, _shell_IObjectWithAppUserModelID_SetAppID, shell.IObjectWithAppUserModelID_SetAppID, shobjidl_core/IObjectWithAppUserModelID::SetAppID
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IObjectWithAppUserModelID.SetAppID"
+f1_keywords:
+- shobjidl_core/IObjectWithAppUserModelID.SetAppID
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IObjectWithAppUserModelID.SetAppID
+- IObjectWithAppUserModelID.SetAppID
 targetos: Windows
 req.typenames: 
 req.redist: 

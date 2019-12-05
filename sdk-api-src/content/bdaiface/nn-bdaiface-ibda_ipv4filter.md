@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.IBDA_IPV4Filter
 title: IBDA_IPV4Filter (bdaiface.h)
-
 description: The IBDA_ IPV4Filter interface is implemented on a Network Provider.
 old-location: mstv\ibda_ipv4filter.htm
 tech.root: mstv
 ms.assetid: 3db86e21-6d05-4b7f-be83-a3fa506a0e3b
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_IPV4Filter, IBDA_IPV4Filter interface [Microsoft TV Technologies], IBDA_IPV4Filter interface [Microsoft TV Technologies],described, IBDA_IPV4FilterInterface, bdaiface/IBDA_IPV4Filter, mstv.ibda_ipv4filter
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/IBDA_IPV4Filter"
+f1_keywords:
+- bdaiface/IBDA_IPV4Filter
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_IPV4Filter
+- IBDA_IPV4Filter
 targetos: Windows
 req.typenames: 
 req.redist: 

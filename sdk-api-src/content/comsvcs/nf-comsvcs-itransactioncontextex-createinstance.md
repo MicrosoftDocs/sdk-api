@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ITransactionContextEx.CreateInstance
 title: ITransactionContextEx::CreateInstance (comsvcs.h)
-
 description: Creates a COM object that can execute within the scope of the transaction that was initiated by the transaction context object.
 old-location: cos\itransactioncontextex_createinstance.htm
 tech.root: cossdk
 ms.assetid: 49684f80-847b-4613-9148-dd34dc22a476
-
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method [COM+],ITransactionContextEx interface, ITransactionContextEx interface [COM+],CreateInstance method, ITransactionContextEx.CreateInstance, ITransactionContextEx::CreateInstance, _cos_ITransactionContextEx_CreateInstance, comsvcs/ITransactionContextEx::CreateInstance, cos.itransactioncontextex_createinstance
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ITransactionContextEx.CreateInstance"
+f1_keywords:
+- comsvcs/ITransactionContextEx.CreateInstance
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ITransactionContextEx.CreateInstance
+- ITransactionContextEx.CreateInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

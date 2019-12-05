@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IComInstance2Events
 title: IComInstance2Events (comsvcs.h)
-
 description: Notifies the subscriber if an object is created or released by a client.
 old-location: cos\icominstance2events.htm
 tech.root: cossdk
 ms.assetid: 2fb2904d-7069-4303-bb3c-2caef9499c1e
-
 ms.date: 12/05/2018
 ms.keywords: IComInstance2Events, IComInstance2Events interface [COM+], IComInstance2Events interface [COM+],described, _dtc_icominstance2events, comsvcs/IComInstance2Events, cos.icominstance2events
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IComInstance2Events"
+f1_keywords:
+- comsvcs/IComInstance2Events
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComInstance2Events
+- IComInstance2Events
 targetos: Windows
 req.typenames: 
 req.redist: 

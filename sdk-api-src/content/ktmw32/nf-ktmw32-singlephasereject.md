@@ -1,19 +1,17 @@
 ---
 UID: NF:ktmw32.SinglePhaseReject
 title: SinglePhaseReject function (ktmw32.h)
-
 description: Indicates that the resource manager (RM) is refusing a single-phase request. When a transaction manager (TM) receives this call, it initiates a two-phase commit and sends a prepare request to all enlisted RMs.
 old-location: fs\singlephasereject.htm
 tech.root: ktm
 ms.assetid: 8cc77686-e130-4b82-b2f5-70121b40e052
-
 ms.date: 12/05/2018
 ms.keywords: SinglePhaseReject, SinglePhaseReject function [Files], fs.singlephasereject, ktmw32/SinglePhaseReject
 ms.topic: function
-f1_keywords: 
- - "ktmw32/SinglePhaseReject"
+f1_keywords:
+- ktmw32/SinglePhaseReject
 dev_langs:
- - c++
+- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ktmw32.lib
 req.dll: Ktmw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ktmw32.dll
+- Ktmw32.dll
 api_name:
- - SinglePhaseReject
+- SinglePhaseReject
 targetos: Windows
 req.typenames: 
 req.redist: 

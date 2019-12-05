@@ -1,19 +1,17 @@
 ---
 UID: NS:mfmp2dlna._MFMPEG2DLNASINKSTATS
 title: MFMPEG2DLNASINKSTATS (mfmp2dlna.h)
-
 description: Contains encoding statistics from the Digital Living Network Alliance (DLNA) media sink.
 old-location: mf\mfmpeg2dlnasinkstats.htm
 tech.root: medfound
 ms.assetid: 40d7db61-cf27-4c27-8774-d565ebee2c93
-
 ms.date: 12/05/2018
 ms.keywords: MFMPEG2DLNASINKSTATS, MFMPEG2DLNASINKSTATS structure [Media Foundation], mf.mfmpeg2dlnasinkstats, mfmp2dlna/MFMPEG2DLNASINKSTATS
 ms.topic: struct
-f1_keywords: 
- - "mfmp2dlna/MFMPEG2DLNASINKSTATS"
+f1_keywords:
+- mfmp2dlna/MFMPEG2DLNASINKSTATS
 dev_langs:
- - c++
+- c++
 req.header: mfmp2dlna.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfmp2dlna.h
+- mfmp2dlna.h
 api_name:
- - MFMPEG2DLNASINKSTATS
+- MFMPEG2DLNASINKSTATS
 targetos: Windows
 req.typenames: MFMPEG2DLNASINKSTATS
 req.redist: 

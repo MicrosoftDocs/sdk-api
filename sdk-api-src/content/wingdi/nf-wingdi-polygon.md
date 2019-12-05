@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.Polygon
 title: Polygon function (wingdi.h)
-
 description: The Polygon function draws a polygon consisting of two or more vertices connected by straight lines. The polygon is outlined by using the current pen and filled by using the current brush and polygon fill mode.
 old-location: gdi\polygon.htm
 tech.root: gdi
 ms.assetid: 2f958b91-039a-4e02-b727-be142bb18b06
-
 ms.date: 12/05/2018
 ms.keywords: Polygon, Polygon function [Windows GDI], _win32_Polygon, gdi.polygon, wingdi/Polygon
 ms.topic: function
-f1_keywords: 
- - "wingdi/Polygon"
+f1_keywords:
+- wingdi/Polygon
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - Polygon
+- Polygon
 targetos: Windows
 req.typenames: 
 req.redist: 

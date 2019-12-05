@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl2.SetState
 title: IDvdControl2::SetState (strmif.h)
-
 description: The SetState method saves the current disc position and state of the DVD Navigator filter.
 old-location: dshow\idvdcontrol2_setstate.htm
 tech.root: DirectShow
 ms.assetid: 3941b469-46f3-4499-9062-81a873a36292
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SetState method, IDvdControl2.SetState, IDvdControl2::SetState, IDvdControl2SetState, SetState, SetState method [DirectShow], SetState method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_setstate, strmif/IDvdControl2::SetState
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl2.SetState"
+f1_keywords:
+- strmif/IDvdControl2.SetState
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdControl2.SetState
+- IDvdControl2.SetState
 targetos: Windows
 req.typenames: 
 req.redist: 

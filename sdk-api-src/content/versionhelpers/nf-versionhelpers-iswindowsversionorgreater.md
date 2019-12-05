@@ -1,19 +1,17 @@
 ---
 UID: NF:versionhelpers.IsWindowsVersionOrGreater
 title: IsWindowsVersionOrGreater function (versionhelpers.h)
-
 description: Indicates if the current OS version matches, or is greater than, the provided version information.
 old-location: base\iswindowsversionorgreater.htm
 tech.root: SysInfo
 ms.assetid: B28DFEC0-A94E-49F6-9DF0-4EE470EC4AF5
-
 ms.date: 12/05/2018
 ms.keywords: IsWindowsVersionOrGreater, IsWindowsVersionOrGreater function, base.iswindowsversionorgreater, versionhelpers/IsWindowsVersionOrGreater
 ms.topic: function
-f1_keywords: 
- - "versionhelpers/IsWindowsVersionOrGreater"
+f1_keywords:
+- versionhelpers/IsWindowsVersionOrGreater
 dev_langs:
- - c++
+- c++
 req.header: versionhelpers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VersionHelpers.h
+- VersionHelpers.h
 api_name:
- - IsWindowsVersionOrGreater
+- IsWindowsVersionOrGreater
 targetos: Windows
 req.typenames: 
 req.redist: 

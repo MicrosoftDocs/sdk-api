@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsGetFaultErrorDetail
 title: WsGetFaultErrorDetail function (webservices.h)
-
 description: Read the fault detail stored in a WS_ERROR object.
 old-location: wsw\wsgetfaulterrordetail.htm
 tech.root: wsw
 ms.assetid: 426c292f-64a5-411f-a63e-6be05fe93438
-
 ms.date: 12/05/2018
 ms.keywords: WsGetFaultErrorDetail, WsGetFaultErrorDetail function [Web Services for Windows], webservices/WsGetFaultErrorDetail, wsw.wsgetfaulterrordetail
 ms.topic: function
 f1_keywords:
 - webservices/WsGetFaultErrorDetail
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

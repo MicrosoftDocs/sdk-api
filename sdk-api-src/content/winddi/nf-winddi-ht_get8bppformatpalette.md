@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.HT_Get8BPPFormatPalette
 title: HT_Get8BPPFormatPalette function (winddi.h)
-
 description: The HT_Get8BPPFormatPalette function returns a halftone palette for use on standard 8-bits per pixel device types.
 old-location: display\ht_get8bppformatpalette.htm
 tech.root: display
 ms.assetid: 0f6d81b8-2ad2-4bcc-a5cc-5b2f396aaa75
-
 ms.date: 12/05/2018
 ms.keywords: HT_Get8BPPFormatPalette, HT_Get8BPPFormatPalette function [Display Devices], display.ht_get8bppformatpalette, gdifncs_78b4c867-b035-4cc3-9386-2922df0e9c12.xml, winddi/HT_Get8BPPFormatPalette
 ms.topic: function
-f1_keywords: 
- - "winddi/HT_Get8BPPFormatPalette"
+f1_keywords:
+- winddi/HT_Get8BPPFormatPalette
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - HT_Get8BPPFormatPalette
+- HT_Get8BPPFormatPalette
 targetos: Windows
 req.typenames: 
 req.redist: 

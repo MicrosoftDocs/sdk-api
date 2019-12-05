@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_MapCrToWin32Err
 title: CM_MapCrToWin32Err function (cfgmgr32.h)
-
 description: Converts a specified CONFIGRET code to its equivalent system error code.
 old-location: devinst\cm_mapcrtowin32err.htm
 tech.root: devinst
 ms.assetid: 7FC862D9-124D-413A-9082-F524E172FBDC
-
 ms.date: 12/05/2018
 ms.keywords: CM_MapCrToWin32Err, CM_MapCrToWin32Err function [Device and Driver Installation], cfgmgr32/CM_MapCrToWin32Err, devinst.cm_mapcrtowin32err
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_MapCrToWin32Err"
+f1_keywords:
+- cfgmgr32/CM_MapCrToWin32Err
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: 
 req.target-type: Universal
@@ -32,15 +30,15 @@ req.lib: CfgMgr32.lib; OneCoreUAP.lib on Windows 10
 req.dll: CfgMgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CfgMgr32.dll
- - API-MS-Win-devices-config-L1-1-1.dll
+- CfgMgr32.dll
+- API-MS-Win-devices-config-L1-1-1.dll
 api_name:
- - CM_MapCrToWin32Err
+- CM_MapCrToWin32Err
 targetos: Windows
 req.typenames: 
 req.redist: 

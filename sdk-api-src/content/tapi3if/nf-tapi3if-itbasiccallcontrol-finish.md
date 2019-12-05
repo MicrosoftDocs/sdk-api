@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.Finish
 title: ITBasicCallControl::Finish (tapi3if.h)
-
 description: The Finish method is called on a consultation call to finish a conference or a transfer.
 old-location: tapi3\itbasiccallcontrol_finish.htm
 tech.root: Tapi
 ms.assetid: 3b0bd871-b618-4c24-a717-62a248112d97
-
 ms.date: 12/05/2018
 ms.keywords: Finish, Finish method [TAPI 2.2], Finish method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Finish method, ITBasicCallControl.Finish, ITBasicCallControl::Finish, _tapi3_itbasiccallcontrol_finish, tapi3.itbasiccallcontrol_finish, tapi3if/ITBasicCallControl::Finish
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITBasicCallControl.Finish"
+f1_keywords:
+- tapi3if/ITBasicCallControl.Finish
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITBasicCallControl.Finish
+- ITBasicCallControl.Finish
 targetos: Windows
 req.typenames: 
 req.redist: 

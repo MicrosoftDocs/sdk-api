@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.FontCollection.FontCollection
 title: FontCollection::FontCollection (gdiplusheaders.h)
-
 description: Creates an empty FontCollection::FontCollection object.
 old-location: gdiplus\_gdiplus_CLASS_FontCollection_FontCollection_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontcollectionclass\fontcollection_82.htm
-
 ms.date: 12/05/2018
 ms.keywords: FontCollection, FontCollection class [GDI+],FontCollection constructor, FontCollection constructor [GDI+], FontCollection constructor [GDI+],FontCollection class, FontCollection.FontCollection, FontCollection::FontCollection, _gdiplus_CLASS_FontCollection_FontCollection_, gdiplus._gdiplus_CLASS_FontCollection_FontCollection_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/FontCollection.FontCollection"
+f1_keywords:
+- gdiplusheaders/FontCollection.FontCollection
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - FontCollection.FontCollection
+- FontCollection.FontCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

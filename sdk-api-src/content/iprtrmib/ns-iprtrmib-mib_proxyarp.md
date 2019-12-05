@@ -1,19 +1,17 @@
 ---
 UID: NS:iprtrmib._MIB_PROXYARP
 title: MIB_PROXYARP (iprtrmib.h)
-
 description: Stores information for a Proxy Address Resolution Protocol (PARP) entry.
 old-location: mib\mib_proxyarp.htm
 tech.root: MIB
 ms.assetid: 4f919bfb-733b-4b49-8550-505626779eac
-
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_PROXYARP, MIB_PROXYARP, MIB_PROXYARP structure [MIB], PMIB_PROXYARP, PMIB_PROXYARP structure pointer [MIB], _mpr_mib_proxyarp, iprtrmib/MIB_PROXYARP, iprtrmib/PMIB_PROXYARP, mib.mib_proxyarp, rras.mib_proxyarp"
+ms.keywords: '*PMIB_PROXYARP, MIB_PROXYARP, MIB_PROXYARP structure [MIB], PMIB_PROXYARP, PMIB_PROXYARP structure pointer [MIB], _mpr_mib_proxyarp, iprtrmib/MIB_PROXYARP, iprtrmib/PMIB_PROXYARP, mib.mib_proxyarp, rras.mib_proxyarp'
 ms.topic: struct
-f1_keywords: 
- - "iprtrmib/MIB_PROXYARP"
+f1_keywords:
+- iprtrmib/MIB_PROXYARP
 dev_langs:
- - c++
+- c++
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iprtrmib.h
+- Iprtrmib.h
 api_name:
- - MIB_PROXYARP
+- MIB_PROXYARP
 targetos: Windows
 req.typenames: MIB_PROXYARP, *PMIB_PROXYARP
 req.redist: 

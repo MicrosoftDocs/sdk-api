@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_PolicyReaders
 title: IAzAuthorizationStore::get_PolicyReaders (azroles.h)
-
 description: Retrieves the security identifiers (SIDs) of principals that act as policy readers in text form.
 old-location: security\azauthorizationstore_policyreaders.htm
 tech.root: SecAuthZ
 ms.assetid: 22479ced-b393-40d3-bb16-f3c3e595dacf
-
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],PolicyReaders property, IAzAuthorizationStore interface [Security],PolicyReaders property, IAzAuthorizationStore.PolicyReaders, IAzAuthorizationStore.get_PolicyReaders, IAzAuthorizationStore::PolicyReaders, IAzAuthorizationStore::get_PolicyReaders, PolicyReaders property [Security], PolicyReaders property [Security],AzAuthorizationStore object, PolicyReaders property [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::PolicyReaders, azroles/IAzAuthorizationStore::get_PolicyReaders, get_PolicyReaders, security.azauthorizationstore_policyreaders
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzAuthorizationStore.PolicyReaders"
+f1_keywords:
+- azroles/IAzAuthorizationStore.PolicyReaders
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzAuthorizationStore.PolicyReaders
- - IAzAuthorizationStore.get_PolicyReaders
- - AzAuthorizationStore.PolicyReaders
+- IAzAuthorizationStore.PolicyReaders
+- IAzAuthorizationStore.get_PolicyReaders
+- AzAuthorizationStore.PolicyReaders
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

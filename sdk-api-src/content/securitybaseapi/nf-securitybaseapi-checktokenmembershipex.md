@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.CheckTokenMembershipEx
 title: CheckTokenMembershipEx function (securitybaseapi.h)
-
 description: Determines whether the specified SID is enabled in the specified token.
 old-location: security\checktokenmembershipex.htm
 tech.root: SecAuthZ
 ms.assetid: 0420FC77-8035-42A5-8907-83D0CE53FB64
-
 ms.date: 12/05/2018
 ms.keywords: CheckTokenMembershipEx, CheckTokenMembershipEx function [Security], security.checktokenmembershipex, securitybaseapi/CheckTokenMembershipEx
 ms.topic: function
-f1_keywords: 
- - "securitybaseapi/CheckTokenMembershipEx"
+f1_keywords:
+- securitybaseapi/CheckTokenMembershipEx
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Security-base-l1-2-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Security-Base-L1-2-1.dll
+- Kernel32.dll
+- API-MS-Win-Security-base-l1-2-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - CheckTokenMembershipEx
+- CheckTokenMembershipEx
 targetos: Windows
 req.typenames: 
 req.redist: 

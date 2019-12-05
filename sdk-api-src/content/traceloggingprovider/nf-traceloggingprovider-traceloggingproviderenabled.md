@@ -5,9 +5,9 @@ ms.date: 5/7/2019
 ms.keywords: TraceLoggingProviderEnabled
 ms.topic: language-reference
 f1_keywords:
- - TraceLoggingProviderEnabled
+- TraceLoggingProviderEnabled
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,13 +29,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - traceloggingprovider.h
+- traceloggingprovider.h
 api_name:
- - TraceLoggingProviderEnabled
+- TraceLoggingProviderEnabled
 ---
 
 ## -description

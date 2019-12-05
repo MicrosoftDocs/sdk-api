@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.MAKEINTATOM
 title: MAKEINTATOM macro (winbase.h)
-
 description: Converts the specified atom into a string, so it can be passed to functions which accept either atoms or strings.
 old-location: dataxchg\makeintatom.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atommacros\makeintatom.htm
-
 ms.date: 12/05/2018
 ms.keywords: MAKEINTATOM, MAKEINTATOM macro [Data Exchange], _win32_MAKEINTATOM, _win32_makeintatom_cpp, dataxchg.makeintatom, winbase/MAKEINTATOM, winui._win32_makeintatom
 ms.topic: macro
-f1_keywords: 
- - "winbase/MAKEINTATOM"
+f1_keywords:
+- winbase/MAKEINTATOM
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winbase.h
+- Winbase.h
 api_name:
- - MAKEINTATOM
+- MAKEINTATOM
 targetos: Windows
 req.typenames: 
 req.redist: 

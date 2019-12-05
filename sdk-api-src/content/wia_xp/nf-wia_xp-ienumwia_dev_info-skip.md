@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IEnumWIA_DEV_INFO.Skip
 title: IEnumWIA_DEV_INFO::Skip (wia_xp.h)
-
 description: The IEnumWIA_DEV_INFO::Skip method skips the specified number of hardware devices during an enumeration of available devices.
 old-location: wia\_wia_IEnumWIA_DEV_INFO_Skip.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_dev_info\skip.htm
-
 ms.date: 12/05/2018
 ms.keywords: IEnumWIA_DEV_INFO interface [WIA],Skip method, IEnumWIA_DEV_INFO.Skip, IEnumWIA_DEV_INFO::Skip, Skip, Skip method [WIA], Skip method [WIA],IEnumWIA_DEV_INFO interface, _wia_IEnumWIA_DEV_INFO_Skip, wia._wia_IEnumWIA_DEV_INFO_Skip, wia_xp/IEnumWIA_DEV_INFO::Skip
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IEnumWIA_DEV_INFO.Skip"
+f1_keywords:
+- wia_xp/IEnumWIA_DEV_INFO.Skip
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wiaguid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaguid.lib
- - Wiaguid.dll
+- Wiaguid.lib
+- Wiaguid.dll
 api_name:
- - IEnumWIA_DEV_INFO.Skip
+- IEnumWIA_DEV_INFO.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

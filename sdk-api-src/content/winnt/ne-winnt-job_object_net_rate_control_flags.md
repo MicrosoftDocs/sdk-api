@@ -1,19 +1,17 @@
 ---
 UID: NE:winnt.JOB_OBJECT_NET_RATE_CONTROL_FLAGS
 title: JOB_OBJECT_NET_RATE_CONTROL_FLAGS (winnt.h)
-
 description: Specifies types of scheduling policies for network rate control.
 old-location: base\job_object_net_rate_control_flags.htm
 tech.root: ProcThread
 ms.assetid: D1AD3722-1A15-4BCA-8F0A-6E32A078959A
-
 ms.date: 12/05/2018
 ms.keywords: JOB_OBJECT_NET_RATE_CONTROL_DSCP_TAG, JOB_OBJECT_NET_RATE_CONTROL_ENABLE, JOB_OBJECT_NET_RATE_CONTROL_FLAGS, JOB_OBJECT_NET_RATE_CONTROL_FLAGS enumeration, JOB_OBJECT_NET_RATE_CONTROL_MAX_BANDWITH, JOB_OBJECT_NET_RATE_CONTROL_VALID_FLAGS, base.job_object_net_rate_control_flags, winnt/JOB_OBJECT_NET_RATE_CONTROL_DSCP_TAG, winnt/JOB_OBJECT_NET_RATE_CONTROL_ENABLE, winnt/JOB_OBJECT_NET_RATE_CONTROL_FLAGS, winnt/JOB_OBJECT_NET_RATE_CONTROL_MAX_BANDWITH, winnt/JOB_OBJECT_NET_RATE_CONTROL_VALID_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "winnt/JOB_OBJECT_NET_RATE_CONTROL_FLAGS"
+f1_keywords:
+- winnt/JOB_OBJECT_NET_RATE_CONTROL_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - JOB_OBJECT_NET_RATE_CONTROL_FLAGS
+- JOB_OBJECT_NET_RATE_CONTROL_FLAGS
 targetos: Windows
 req.typenames: JOB_OBJECT_NET_RATE_CONTROL_FLAGS
 req.redist: 

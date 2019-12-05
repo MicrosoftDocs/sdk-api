@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.GetShellItem
 title: ISearchFolderItemFactory::GetShellItem (shobjidl_core.h)
-
 description: Gets the search folder as a IShellItem.
 old-location: shell\ISearchFolderItemFactory_GetShellItem.htm
 tech.root: shell
 ms.assetid: fc5dd159-8a47-479f-b087-bd161093d0a0
-
 ms.date: 12/05/2018
 ms.keywords: GetShellItem, GetShellItem method [Windows Shell], GetShellItem method [Windows Shell],ISearchFolderItemFactory interface, ISearchFolderItemFactory interface [Windows Shell],GetShellItem method, ISearchFolderItemFactory.GetShellItem, ISearchFolderItemFactory::GetShellItem, _shell_ISearchFolderItemFactory_GetShellItem, shell.ISearchFolderItemFactory_GetShellItem, shobjidl_core/ISearchFolderItemFactory::GetShellItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ISearchFolderItemFactory.GetShellItem"
+f1_keywords:
+- shobjidl_core/ISearchFolderItemFactory.GetShellItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ISearchFolderItemFactory.GetShellItem
+- ISearchFolderItemFactory.GetShellItem
 targetos: Windows
 req.typenames: 
 req.redist: 

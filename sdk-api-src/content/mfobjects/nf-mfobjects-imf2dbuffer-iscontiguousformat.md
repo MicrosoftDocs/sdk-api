@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMF2DBuffer.IsContiguousFormat
 title: IMF2DBuffer::IsContiguousFormat (mfobjects.h)
-
 description: Queries whether the buffer is contiguous in its native format.
 old-location: mf\imf2dbuffer_iscontiguousformat.htm
 tech.root: medfound
 ms.assetid: a2042d1f-4d80-4dfd-b57e-33f6a6d07d6e
-
 ms.date: 12/05/2018
 ms.keywords: IMF2DBuffer interface [Media Foundation],IsContiguousFormat method, IMF2DBuffer.IsContiguousFormat, IMF2DBuffer::IsContiguousFormat, IsContiguousFormat, IsContiguousFormat method [Media Foundation], IsContiguousFormat method [Media Foundation],IMF2DBuffer interface, a2042d1f-4d80-4dfd-b57e-33f6a6d07d6e, mf.imf2dbuffer_iscontiguousformat, mfobjects/IMF2DBuffer::IsContiguousFormat
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMF2DBuffer.IsContiguousFormat"
+f1_keywords:
+- mfobjects/IMF2DBuffer.IsContiguousFormat
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMF2DBuffer.IsContiguousFormat
+- IMF2DBuffer.IsContiguousFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

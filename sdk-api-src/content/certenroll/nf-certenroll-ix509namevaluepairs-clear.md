@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509NameValuePairs.Clear
 title: IX509NameValuePairs::Clear (certenroll.h)
-
 description: Removes all IX509NameValuePair objects from the collection.
 old-location: security\ix509namevaluepairs_clear_method.htm
 tech.root: seccertenroll
 ms.assetid: eded4dc2-ad3d-44eb-a20c-217756fad40f
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IX509NameValuePairs interface, IX509NameValuePairs interface [Security],Clear method, IX509NameValuePairs.Clear, IX509NameValuePairs::Clear, certenroll/IX509NameValuePairs::Clear, security.ix509namevaluepairs_clear_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509NameValuePairs.Clear"
+f1_keywords:
+- certenroll/IX509NameValuePairs.Clear
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509NameValuePairs.Clear
+- IX509NameValuePairs.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

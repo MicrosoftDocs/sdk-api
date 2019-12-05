@@ -1,19 +1,17 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.GetName
 title: ICertEncodeCRLDistInfo::GetName (certenc.h)
-
 description: Returns the name at a specified index of a certificate revocation list (CRL) distribution information point.
 old-location: security\icertencodecrldistinfo_getname.htm
 tech.root: SecCrypto
 ms.assetid: a564af61-fb5e-46b7-a818-333b4d5e2f25
-
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],GetName method, GetName, GetName method [Security], GetName method [Security],CCertEncodeCRLDistInfo object, GetName method [Security],ICertEncodeCRLDistInfo interface, ICertEncodeCRLDistInfo interface [Security],GetName method, ICertEncodeCRLDistInfo.GetName, ICertEncodeCRLDistInfo::GetName, _certsrv_icertencodecrldistinfo_getname, certenc/ICertEncodeCRLDistInfo::GetName, security.icertencodecrldistinfo_getname
 ms.topic: method
-f1_keywords: 
- - "certenc/ICertEncodeCRLDistInfo.GetName"
+f1_keywords:
+- certenc/ICertEncodeCRLDistInfo.GetName
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeCRLDistInfo.GetName
- - CCertEncodeCRLDistInfo.GetName
+- ICertEncodeCRLDistInfo.GetName
+- CCertEncodeCRLDistInfo.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 

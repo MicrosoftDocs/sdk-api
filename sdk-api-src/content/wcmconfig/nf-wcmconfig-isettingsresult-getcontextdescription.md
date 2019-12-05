@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsResult.GetContextDescription
 title: ISettingsResult::GetContextDescription (wcmconfig.h)
-
 description: Returns the description of the context that surrounds the error.
 old-location: smi\isettingsresult_getcontextdescription.htm
 tech.root: SMI
 ms.assetid: d2bb39ce-9c49-46ab-b7d7-e4e4794f6b5a
-
 ms.date: 12/05/2018
 ms.keywords: GetContextDescription, GetContextDescription method [SMI], GetContextDescription method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetContextDescription method, ISettingsResult.GetContextDescription, ISettingsResult::GetContextDescription, smi.isettingsresult_getcontextdescription, wcmconfig/ISettingsResult::GetContextDescription
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsResult.GetContextDescription"
+f1_keywords:
+- wcmconfig/ISettingsResult.GetContextDescription
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsResult.GetContextDescription
+- ISettingsResult.GetContextDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.CancelTimelineMarkerTimer
 title: IMFMediaEngineEx::CancelTimelineMarkerTimer (mfmediaengine.h)
-
 description: Cancels the next pending timeline marker.
 old-location: mf\imfmediaengineex_canceltimelinemarkertimer.htm
 tech.root: medfound
 ms.assetid: AC295919-747B-445D-8C74-E648A612C0BF
-
 ms.date: 12/05/2018
 ms.keywords: CancelTimelineMarkerTimer, CancelTimelineMarkerTimer method [Media Foundation], CancelTimelineMarkerTimer method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],CancelTimelineMarkerTimer method, IMFMediaEngineEx.CancelTimelineMarkerTimer, IMFMediaEngineEx::CancelTimelineMarkerTimer, mf.imfmediaengineex_canceltimelinemarkertimer, mfmediaengine/IMFMediaEngineEx::CancelTimelineMarkerTimer
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineEx.CancelTimelineMarkerTimer"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineEx.CancelTimelineMarkerTimer
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineEx.CancelTimelineMarkerTimer
+- IMFMediaEngineEx.CancelTimelineMarkerTimer
 targetos: Windows
 req.typenames: 
 req.redist: 

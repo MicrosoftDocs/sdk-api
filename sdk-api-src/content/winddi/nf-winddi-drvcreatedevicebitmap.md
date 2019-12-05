@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.DrvCreateDeviceBitmap
 title: DrvCreateDeviceBitmap function (winddi.h)
-
 description: The DrvCreateDeviceBitmap function creates and manages bitmaps.
 old-location: display\drvcreatedevicebitmap.htm
 tech.root: display
 ms.assetid: 1f5f49ef-bf08-4311-9a1b-fdc37e6c2063
-
 ms.date: 12/05/2018
 ms.keywords: DrvCreateDeviceBitmap, DrvCreateDeviceBitmap function [Display Devices], ddifncs_b3a739da-4a9d-4e84-a4e8-8b1e790a06af.xml, display.drvcreatedevicebitmap, winddi/DrvCreateDeviceBitmap
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvCreateDeviceBitmap"
+f1_keywords:
+- winddi/DrvCreateDeviceBitmap
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvCreateDeviceBitmap
+- DrvCreateDeviceBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

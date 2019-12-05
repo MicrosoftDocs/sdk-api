@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IFolderView
 title: IFolderView (shobjidl_core.h)
-
 description: Exposes methods that retrieve information about a folder's display options, select specified items in that folder, and set the folder's view mode.
 old-location: shell\IFolderView.htm
 tech.root: shell
 ms.assetid: 3bc2615e-f07c-4959-b89e-bbbd2bf45a94
-
 ms.date: 12/05/2018
 ms.keywords: IFolderView, IFolderView interface [Windows Shell], IFolderView interface [Windows Shell],described, _shell_IFolderView, shell.IFolderView, shobjidl_core/IFolderView
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IFolderView"
+f1_keywords:
+- shobjidl_core/IFolderView
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IFolderView
+- IFolderView
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:psapi.EmptyWorkingSet
 title: EmptyWorkingSet function (psapi.h)
-
 description: Removes as many pages as possible from the working set of the specified process.
 old-location: psapi\emptyworkingset.htm
 tech.root: psapi
 ms.assetid: 76f2252e-7305-46b0-b1af-40ac084e6696
-
 ms.date: 12/05/2018
 ms.keywords: EmptyWorkingSet, EmptyWorkingSet function [PSAPI], K32EmptyWorkingSet, _win32_emptyworkingset, base.emptyworkingset, psapi.emptyworkingset, psapi/EmptyWorkingSet, psapi/K32EmptyWorkingSet
 ms.topic: function
-f1_keywords: 
- - "psapi/EmptyWorkingSet"
+f1_keywords:
+- psapi/EmptyWorkingSet
 dev_langs:
- - c++
+- c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if 
 req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - Psapi.dll
- - Psapi.dll
- - API-MS-Win-Core-PsAPI-L1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- Psapi.dll
+- Psapi.dll
+- API-MS-Win-Core-PsAPI-L1-1-0.dll
+- KernelBase.dll
 api_name:
- - EmptyWorkingSet
- - K32EmptyWorkingSet
+- EmptyWorkingSet
+- K32EmptyWorkingSet
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:relogger.ITraceEvent.GetUserContext
 title: ITraceEvent::GetUserContext (relogger.h)
-
 description: Retrieves the user context associated with the stream to which the event belongs.
 old-location: etw\ievent_getusercontext.htm
 tech.root: ETW
 ms.assetid: 9d4d8abd-b48a-487b-bb73-a6fa48c512c7
-
 ms.date: 12/05/2018
 ms.keywords: GetUserContext, GetUserContext method [ETW], GetUserContext method [ETW],ITraceEvent interface, ITraceEvent interface [ETW],GetUserContext method, ITraceEvent.GetUserContext, ITraceEvent::GetUserContext, etw.ievent_getusercontext, relogger/ITraceEvent::GetUserContext
 ms.topic: method
-f1_keywords: 
- - "relogger/ITraceEvent.GetUserContext"
+f1_keywords:
+- relogger/ITraceEvent.GetUserContext
 dev_langs:
- - c++
+- c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Relogger.h
+- Relogger.h
 api_name:
- - ITraceEvent.GetUserContext
+- ITraceEvent.GetUserContext
 targetos: Windows
 req.typenames: 
 req.redist: 

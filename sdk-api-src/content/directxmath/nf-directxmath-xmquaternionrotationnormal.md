@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMQuaternionRotationNormal
 title: XMQuaternionRotationNormal function (directxmath.h)
-
 description: Computes the rotation quaternion about a normal vector.
 old-location: dxmath\xmquaternionrotationnormal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionRotationNormal(XMVECTOR,float)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionRotationNormal, XMQuaternionRotationNormal, XMQuaternionRotationNormal method [DirectX Math Support APIs], dxmath.xmquaternionrotationnormal
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMQuaternionRotationNormal"
+f1_keywords:
+- directxmath/XMQuaternionRotationNormal
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMQuaternionRotationNormal
+- XMQuaternionRotationNormal
 targetos: Windows
 req.typenames: 
 req.redist: 

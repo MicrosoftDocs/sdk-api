@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITCollection2.Add
 title: ITCollection2::Add (tapi3if.h)
-
 description: The Add method inserts a new item into the collection at the specified index.
 old-location: tapi3\itcollection2_add.htm
 tech.root: Tapi
 ms.assetid: 96c26f76-3835-4140-8379-91171fc4ad37
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [TAPI 2.2], Add method [TAPI 2.2],ITCollection2 interface, ITCollection2 interface [TAPI 2.2],Add method, ITCollection2.Add, ITCollection2::Add, _tapi3_itcollection2_add, tapi3.itcollection2_add, tapi3if/ITCollection2::Add
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITCollection2.Add"
+f1_keywords:
+- tapi3if/ITCollection2.Add
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCollection2.Add
+- ITCollection2.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

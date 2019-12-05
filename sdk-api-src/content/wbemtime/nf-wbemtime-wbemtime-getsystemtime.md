@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTime.GetSYSTEMTIME
 title: WBEMTime::GetSYSTEMTIME (wbemtime.h)
-
 description: The GetSYSTEMTIME method gets the time as an MFC SYSTEMTIME structure.
 old-location: wmi\wbemtime_getsystemtime.htm
 tech.root: WmiSdk
 ms.assetid: e65cc4e2-36d3-43de-be65-f48ddfb0b273
-
 ms.date: 12/05/2018
-ms.keywords: "?GetSYSTEMTIME@WBEMTime@@QBEHPAU_SYSTEMTIME@@@Z, ?GetSYSTEMTIME@WBEMTime@@QEBAHPEAU_SYSTEMTIME@@@Z, GetSYSTEMTIME, GetSYSTEMTIME method [Windows Management Instrumentation], GetSYSTEMTIME method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetSYSTEMTIME method, WBEMTime.GetSYSTEMTIME, WBEMTime::GetSYSTEMTIME, _hmm_wbemtime_getsystemtime, wbemtime/WBEMTime::GetSYSTEMTIME, wmi.wbemtime_getsystemtime"
+ms.keywords: ?GetSYSTEMTIME@WBEMTime@@QBEHPAU_SYSTEMTIME@@@Z, ?GetSYSTEMTIME@WBEMTime@@QEBAHPEAU_SYSTEMTIME@@@Z, GetSYSTEMTIME, GetSYSTEMTIME method [Windows Management Instrumentation], GetSYSTEMTIME method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetSYSTEMTIME method, WBEMTime.GetSYSTEMTIME, WBEMTime::GetSYSTEMTIME, _hmm_wbemtime_getsystemtime, wbemtime/WBEMTime::GetSYSTEMTIME, wmi.wbemtime_getsystemtime
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTime.GetSYSTEMTIME"
+f1_keywords:
+- wbemtime/WBEMTime.GetSYSTEMTIME
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTime.GetSYSTEMTIME
- - ?GetSYSTEMTIME@WBEMTime@@QBEHPAU_SYSTEMTIME@@@Z
- - ?GetSYSTEMTIME@WBEMTime@@QEBAHPEAU_SYSTEMTIME@@@Z
+- WBEMTime.GetSYSTEMTIME
+- ?GetSYSTEMTIME@WBEMTime@@QBEHPAU_SYSTEMTIME@@@Z
+- ?GetSYSTEMTIME@WBEMTime@@QEBAHPEAU_SYSTEMTIME@@@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

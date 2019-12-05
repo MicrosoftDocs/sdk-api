@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._FILE_LEVEL_TRIM_OUTPUT
 title: FILE_LEVEL_TRIM_OUTPUT
-
 description: Used as output to the FSCTL_FILE_LEVEL_TRIM control code.
 old-location: fs\file_level_trim_output.htm
 tech.root: FileIO
 ms.assetid: 3d293d09-8d41-495d-9095-f2f24bf6ac6b
-
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_LEVEL_TRIM_OUTPUT, FILE_LEVEL_TRIM_OUTPUT, FILE_LEVEL_TRIM_OUTPUT structure [Files], PFILE_LEVEL_TRIM_OUTPUT, PFILE_LEVEL_TRIM_OUTPUT structure pointer [Files], fs.file_level_trim_output, winioctl/FILE_LEVEL_TRIM_OUTPUT, winioctl/PFILE_LEVEL_TRIM_OUTPUT"
+ms.keywords: '*PFILE_LEVEL_TRIM_OUTPUT, FILE_LEVEL_TRIM_OUTPUT, FILE_LEVEL_TRIM_OUTPUT structure [Files], PFILE_LEVEL_TRIM_OUTPUT, PFILE_LEVEL_TRIM_OUTPUT structure pointer [Files], fs.file_level_trim_output, winioctl/FILE_LEVEL_TRIM_OUTPUT, winioctl/PFILE_LEVEL_TRIM_OUTPUT'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/FILE_LEVEL_TRIM_OUTPUT"
+f1_keywords:
+- winioctl/FILE_LEVEL_TRIM_OUTPUT
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FILE_LEVEL_TRIM_OUTPUT
+- FILE_LEVEL_TRIM_OUTPUT
 targetos: Windows
 req.typenames: FILE_LEVEL_TRIM_OUTPUT, *PFILE_LEVEL_TRIM_OUTPUT
 req.redist: 

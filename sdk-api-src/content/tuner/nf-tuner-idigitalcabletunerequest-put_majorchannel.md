@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDigitalCableTuneRequest.put_MajorChannel
 title: IDigitalCableTuneRequest::put_MajorChannel (tuner.h)
-
 description: The put_MajorChannel method sets the major channel number.
 old-location: mstv\idigitalcabletunerequest_put_majorchannel.htm
 tech.root: mstv
 ms.assetid: 1d3bc106-0ce0-4184-89fe-ebc30e95124e
-
 ms.date: 12/05/2018
 ms.keywords: IDigitalCableTuneRequest interface [Microsoft TV Technologies],put_MajorChannel method, IDigitalCableTuneRequest.put_MajorChannel, IDigitalCableTuneRequest::put_MajorChannel, IDigitalCableTuneRequestput_MajorChannel, mstv.idigitalcabletunerequest_put_majorchannel, put_MajorChannel, put_MajorChannel method [Microsoft TV Technologies], put_MajorChannel method [Microsoft TV Technologies],IDigitalCableTuneRequest interface, tuner/IDigitalCableTuneRequest::put_MajorChannel
 ms.topic: method
-f1_keywords: 
- - "tuner/IDigitalCableTuneRequest.put_MajorChannel"
+f1_keywords:
+- tuner/IDigitalCableTuneRequest.put_MajorChannel
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDigitalCableTuneRequest.put_MajorChannel
+- IDigitalCableTuneRequest.put_MajorChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

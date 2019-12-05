@@ -1,19 +1,17 @@
 ---
 UID: NE:structuredquery.tagSTRUCTURED_QUERY_SYNTAX
 title: STRUCTURED_QUERY_SYNTAX (structuredquery.h)
-
 description: Specifies the type of query syntax.
 old-location: search\_search_STRUCTURED_QUERY_SYNTAX.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\structured_query_syntax.htm
-
 ms.date: 12/05/2018
 ms.keywords: SQS_ADVANCED_QUERY_SYNTAX, SQS_NATURAL_QUERY_SYNTAX, SQS_NO_SYNTAX, STRUCTURED_QUERY_SYNTAX, STRUCTURED_QUERY_SYNTAX enumeration [search], _search_STRUCTURED_QUERY_SYNTAX, search._search_STRUCTURED_QUERY_SYNTAX, structuredquery/SQS_ADVANCED_QUERY_SYNTAX, structuredquery/SQS_NATURAL_QUERY_SYNTAX, structuredquery/SQS_NO_SYNTAX, structuredquery/STRUCTURED_QUERY_SYNTAX
 ms.topic: enum
-f1_keywords: 
- - "structuredquery/STRUCTURED_QUERY_SYNTAX"
+f1_keywords:
+- structuredquery/STRUCTURED_QUERY_SYNTAX
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - STRUCTURED_QUERY_SYNTAX
+- STRUCTURED_QUERY_SYNTAX
 targetos: Windows
 req.typenames: STRUCTURED_QUERY_SYNTAX
 req.redist: 

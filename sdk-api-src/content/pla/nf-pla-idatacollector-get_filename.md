@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollector.get_FileName
 title: IDataCollector::get_FileName (pla.h)
-
 description: Retrieves or sets the base name of the file that will contain the data collector data.
 old-location: pla\idatacollector_filename.htm
 tech.root: PLA
 ms.assetid: 9208baf8-0bc7-45c4-a912-7b59f4c1ca6a
-
 ms.date: 12/05/2018
 ms.keywords: FileName property [PLA], FileName property [PLA],IDataCollector interface, IDataCollector interface [PLA],FileName property, IDataCollector.FileName, IDataCollector.get_FileName, IDataCollector::FileName, IDataCollector::get_FileName, IDataCollector::put_FileName, base.idatacollector_filename, get_FileName, pla.idatacollector_filename, pla/IDataCollector::FileName, pla/IDataCollector::get_FileName, pla/IDataCollector::put_FileName
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollector.FileName"
+f1_keywords:
+- pla/IDataCollector.FileName
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollector.FileName
- - IDataCollector.get_FileName
- - IDataCollector.put_FileName
+- IDataCollector.FileName
+- IDataCollector.get_FileName
+- IDataCollector.put_FileName
 targetos: Windows
 req.typenames: 
 req.redist: 

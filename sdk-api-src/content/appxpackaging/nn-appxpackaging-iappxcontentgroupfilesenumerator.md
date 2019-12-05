@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxContentGroupFilesEnumerator
 title: IAppxContentGroupFilesEnumerator (appxpackaging.h)
-
 description: Enumerates files in content groups from a content group map.
 old-location: appxpkg\iappxcontentgroupfilesenumerator_.htm
 tech.root: appxpkg
 ms.assetid: 42F1E3DE-B2A3-42DE-8FBE-BEE02D546ABA
-
 ms.date: 12/05/2018
 ms.keywords: IAppxContentGroupFilesEnumerator, IAppxContentGroupFilesEnumerator interface [App packaging and management], IAppxContentGroupFilesEnumerator interface [App packaging and management],described, appxpackaging/IAppxContentGroupFilesEnumerator, appxpkg.iappxcontentgroupfilesenumerator_
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxContentGroupFilesEnumerator"
+f1_keywords:
+- appxpackaging/IAppxContentGroupFilesEnumerator
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxContentGroupFilesEnumerator
+- IAppxContentGroupFilesEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

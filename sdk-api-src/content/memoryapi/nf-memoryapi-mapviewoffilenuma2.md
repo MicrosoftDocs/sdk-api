@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.MapViewOfFileNuma2
 title: MapViewOfFileNuma2 function (memoryapi.h)
-
 description: Maps a view of a file or a pagefile-backed section into the address space of the specified process.
 old-location: base\mapviewoffilenuma2.htm
 tech.root: Memory
 ms.assetid: 848BF3AD-9469-4A16-B1C4-B5D78954D9B5
-
 ms.date: 12/05/2018
 ms.keywords: MapViewOfFileNuma2, MapViewOfFileNuma2 function, base.mapviewoffilenuma2, winbase/MapViewOfFileNuma2
 ms.topic: function
-f1_keywords: 
- - "memoryapi/MapViewOfFileNuma2"
+f1_keywords:
+- memoryapi/MapViewOfFileNuma2
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Onecore.lib; Onecoreuap.lib
 req.dll: Api-ms-win-core-memory-l1-1-5.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-core-memory-l1-1-5.dll
+- api-ms-win-core-memory-l1-1-5.dll
 api_name:
- - MapViewOfFileNuma2
+- MapViewOfFileNuma2
 targetos: Windows
 req.typenames: 
 req.redist: 

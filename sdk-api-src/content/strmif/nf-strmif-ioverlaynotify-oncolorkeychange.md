@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IOverlayNotify.OnColorKeyChange
 title: IOverlayNotify::OnColorKeyChange (strmif.h)
-
 description: The OnColorKeyChange method provides notification that the window's color key has changed.
 old-location: dshow\ioverlaynotify_oncolorkeychange.htm
 tech.root: DirectShow
 ms.assetid: a1e7fc88-a50a-4832-9b29-21b94184f1c7
-
 ms.date: 12/05/2018
 ms.keywords: IOverlayNotify interface [DirectShow],OnColorKeyChange method, IOverlayNotify.OnColorKeyChange, IOverlayNotify::OnColorKeyChange, IOverlayNotifyOnColorKeyChange, OnColorKeyChange, OnColorKeyChange method [DirectShow], OnColorKeyChange method [DirectShow],IOverlayNotify interface, dshow.ioverlaynotify_oncolorkeychange, strmif/IOverlayNotify::OnColorKeyChange
 ms.topic: method
-f1_keywords: 
- - "strmif/IOverlayNotify.OnColorKeyChange"
+f1_keywords:
+- strmif/IOverlayNotify.OnColorKeyChange
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IOverlayNotify.OnColorKeyChange
+- IOverlayNotify.OnColorKeyChange
 targetos: Windows
 req.typenames: 
 req.redist: 

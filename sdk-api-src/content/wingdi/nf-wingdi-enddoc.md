@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.EndDoc
 title: EndDoc function (wingdi.h)
-
 description: The EndDoc function ends a print job.
 old-location: gdi\enddoc.htm
 tech.root: printdocs
 ms.assetid: bf63ea0f-cc73-4943-9c84-52b3b77e141c
-
 ms.date: 12/05/2018
 ms.keywords: EndDoc, EndDoc function [Windows GDI], _win32_EndDoc, gdi.enddoc, wingdi/EndDoc
 ms.topic: function
-f1_keywords: 
- - "wingdi/EndDoc"
+f1_keywords:
+- wingdi/EndDoc
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-print-l1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-print-l1-1-0.dll
+- GDI32Full.dll
 api_name:
- - EndDoc
+- EndDoc
 targetos: Windows
 req.typenames: 
 req.redist: 

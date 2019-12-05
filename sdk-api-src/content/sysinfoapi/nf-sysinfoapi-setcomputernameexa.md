@@ -1,19 +1,17 @@
 ---
 UID: NF:sysinfoapi.SetComputerNameExA
 title: SetComputerNameExA function (sysinfoapi.h)
-
 description: Sets a new NetBIOS or DNS name for the local computer.
 old-location: base\setcomputernameex.htm
 tech.root: SysInfo
 ms.assetid: 12163456-770c-4f9e-9261-a6ea5f2cd93a
-
 ms.date: 12/05/2018
 ms.keywords: ComputerNamePhysicalDnsDomain, ComputerNamePhysicalDnsHostname, ComputerNamePhysicalNetBIOS, SetComputerNameEx, SetComputerNameEx function, SetComputerNameExA, SetComputerNameExW, _win32_setcomputernameex, base.setcomputernameex, sysinfoapi/SetComputerNameEx, sysinfoapi/SetComputerNameExA, sysinfoapi/SetComputerNameExW
 ms.topic: function
 f1_keywords:
 - sysinfoapi/SetComputerNameEx
 dev_langs:
- - c++
+- c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

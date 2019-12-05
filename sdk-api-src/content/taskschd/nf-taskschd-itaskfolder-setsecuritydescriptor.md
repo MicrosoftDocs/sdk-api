@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskFolder.SetSecurityDescriptor
 title: ITaskFolder::SetSecurityDescriptor (taskschd.h)
-
 description: Sets the security descriptor for the folder.
 old-location: taskschd\itaskfolder_setsecuritydescriptor.htm
 tech.root: taskschd
 ms.assetid: 54f8a37b-87ac-449c-8e03-aeacd27e8c97
-
 ms.date: 12/05/2018
 ms.keywords: ITaskFolder interface [Task Scheduler],SetSecurityDescriptor method, ITaskFolder.SetSecurityDescriptor, ITaskFolder::SetSecurityDescriptor, SetSecurityDescriptor, SetSecurityDescriptor method [Task Scheduler], SetSecurityDescriptor method [Task Scheduler],ITaskFolder interface, taskschd.itaskfolder_setsecuritydescriptor, taskschd/ITaskFolder::SetSecurityDescriptor
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskFolder.SetSecurityDescriptor"
+f1_keywords:
+- taskschd/ITaskFolder.SetSecurityDescriptor
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskFolder.SetSecurityDescriptor
+- ITaskFolder.SetSecurityDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

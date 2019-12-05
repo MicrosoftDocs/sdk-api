@@ -1,19 +1,17 @@
 ---
 UID: NF:muiload.GetUILanguageFallbackList
 title: GetUILanguageFallbackList function (muiload.h)
-
 description: Gets a fallback list of UI languages represented as language names.
 old-location: intl\getuilanguagefallbacklist.htm
 tech.root: Intl
 ms.assetid: 18581fa1-f498-46ff-af83-dfbca80252e2
-
 ms.date: 12/05/2018
 ms.keywords: GetUILanguageFallbackList, GetUILanguageFallbackList function [Internationalization for Windows Applications], intl.getuilanguagefallbacklist, muiload/GetUILanguageFallbackList
 ms.topic: function
-f1_keywords: 
- - "muiload/GetUILanguageFallbackList"
+f1_keywords:
+- muiload/GetUILanguageFallbackList
 dev_langs:
- - c++
+- c++
 req.header: muiload.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Muiload.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Muiload.lib
+- Muiload.lib
 api_name:
- - GetUILanguageFallbackList
+- GetUILanguageFallbackList
 targetos: Windows
 req.typenames: 
 req.redist: Muiload.lib, included in the Windows SDK for Windows 7 on Windows 2000 Professional, Windows Me/98/95

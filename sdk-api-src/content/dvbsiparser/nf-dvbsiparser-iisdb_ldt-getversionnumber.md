@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_LDT.GetVersionNumber
 title: IISDB_LDT::GetVersionNumber (dvbsiparser.h)
-
 description: Gets the version number for an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT).
 old-location: mstv\iisdb_ldt_getversionnumber.htm
 tech.root: mstv
 ms.assetid: 7567ca34-2898-4066-a81c-348e3ac5c066
-
 ms.date: 12/05/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetVersionNumber method, IISDB_LDT.GetVersionNumber, IISDB_LDT::GetVersionNumber, dvbsiparser/IISDB_LDT::GetVersionNumber, mstv.iisdb_ldt_getversionnumber
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_LDT.GetVersionNumber"
+f1_keywords:
+- dvbsiparser/IISDB_LDT.GetVersionNumber
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_LDT.GetVersionNumber
+- IISDB_LDT.GetVersionNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink.get_SBESink
 title: IMSVidStreamBufferSink::get_SBESink (segment.h)
-
 description: The get_SBESink method retrieves a pointer to the Stream Buffer Sink filter.
 old-location: mstv\imsvidstreambuffersink_get_sbesink.htm
 tech.root: mstv
 ms.assetid: ea911a70-1926-4ba8-b9dd-1188debee00a
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],get_SBESink method, IMSVidStreamBufferSink.get_SBESink, IMSVidStreamBufferSink::get_SBESink, IMSVidStreamBufferSinkget_DVRConfigure, get_SBESink, get_SBESink method [Microsoft TV Technologies], get_SBESink method [Microsoft TV Technologies],IMSVidStreamBufferSink interface, mstv.imsvidstreambuffersink_get_sbesink, segment/IMSVidStreamBufferSink::get_SBESink
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferSink.get_SBESink"
+f1_keywords:
+- segment/IMSVidStreamBufferSink.get_SBESink
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSink.get_SBESink
+- IMSVidStreamBufferSink.get_SBESink
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tsgpolicyengine.ITSGPolicyEngine.AuthorizeResource
 title: ITSGPolicyEngine::AuthorizeResource (tsgpolicyengine.h)
-
 description: Determines which resources the specified connection is authorized to connect to.
 old-location: termserv\itsgpolicyengine_authorizeresource.htm
 tech.root: TermServ
 ms.assetid: 77950541-c94a-4035-a2d8-a6014eb387e5
-
 ms.date: 12/05/2018
 ms.keywords: AuthorizeResource, AuthorizeResource method [Remote Desktop Services], AuthorizeResource method [Remote Desktop Services],ITSGPolicyEngine interface, ITSGPolicyEngine interface [Remote Desktop Services],AuthorizeResource method, ITSGPolicyEngine.AuthorizeResource, ITSGPolicyEngine::AuthorizeResource, termserv.itsgpolicyengine_authorizeresource, tsgpolicyengine/ITSGPolicyEngine::AuthorizeResource
 ms.topic: method
-f1_keywords: 
- - "tsgpolicyengine/ITSGPolicyEngine.AuthorizeResource"
+f1_keywords:
+- tsgpolicyengine/ITSGPolicyEngine.AuthorizeResource
 dev_langs:
- - c++
+- c++
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TSGPolicyEngine.h
+- TSGPolicyEngine.h
 api_name:
- - ITSGPolicyEngine.AuthorizeResource
+- ITSGPolicyEngine.AuthorizeResource
 targetos: Windows
 req.typenames: 
 req.redist: 

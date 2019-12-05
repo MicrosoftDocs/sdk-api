@@ -1,19 +1,17 @@
 ---
 UID: NF:uiribbon.IUIImage.GetBitmap
 title: IUIImage::GetBitmap (uiribbon.h)
-
 description: Retrieves a bitmap to display as an icon in the ribbon and context popup UI of the Windows Ribbon framework.
 old-location: windowsribbon\windowsribbon_iuiimage_getbitmap.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiimage\getbitmap.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetBitmap, GetBitmap method [Windows Ribbon], GetBitmap method [Windows Ribbon],IUIImage interface, IUIImage interface [Windows Ribbon],GetBitmap method, IUIImage.GetBitmap, IUIImage::GetBitmap, scenicintent_IUIImage_GetBitmap, uiribbon/IUIImage::GetBitmap, windowsribbon.windowsribbon_iuiimage_getbitmap
 ms.topic: method
-f1_keywords: 
- - "uiribbon/IUIImage.GetBitmap"
+f1_keywords:
+- uiribbon/IUIImage.GetBitmap
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mshtml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mshtml.dll
+- Mshtml.dll
 api_name:
- - IUIImage.GetBitmap
+- IUIImage.GetBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

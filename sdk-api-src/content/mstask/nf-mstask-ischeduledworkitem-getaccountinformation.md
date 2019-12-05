@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetAccountInformation
 title: IScheduledWorkItem::GetAccountInformation (mstask.h)
-
 description: Retrieves the account name for the work item.
 old-location: taskschd\ischeduledworkitem_getaccountinformation.htm
 tech.root: taskschd
 ms.assetid: d5f279ac-bf03-4af5-9bad-58eadaba0ca1
-
 ms.date: 12/05/2018
 ms.keywords: GetAccountInformation, GetAccountInformation method [Task Scheduler], GetAccountInformation method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetAccountInformation method, IScheduledWorkItem.GetAccountInformation, IScheduledWorkItem::GetAccountInformation, _msb_ischeduledworkitem_getaccountinformation, mstask/IScheduledWorkItem::GetAccountInformation, taskschd.ischeduledworkitem_getaccountinformation
 ms.topic: method
-f1_keywords: 
- - "mstask/IScheduledWorkItem.GetAccountInformation"
+f1_keywords:
+- mstask/IScheduledWorkItem.GetAccountInformation
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IScheduledWorkItem.GetAccountInformation
+- IScheduledWorkItem.GetAccountInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

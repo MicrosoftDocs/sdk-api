@@ -1,19 +1,17 @@
 ---
 UID: NE:mmc._MMC_CONSOLE_VERB
 title: MMC_CONSOLE_VERB (mmc.h)
-
 description: The MMC_CONSOLE_VERB enumeration defines the command identifiers available for MMC verbs. These values are used in the m_eCmdID parameter of IConsoleVerb::GetVerbState, IConsoleVerb::SetVerbState, and IConsoleVerb::SetDefaultVerb.
 old-location: mmc\mmc_console_verb.htm
 tech.root: mmc
 ms.assetid: 153d89f4-03de-429a-9f52-36a5f6a9762f
-
 ms.date: 12/05/2018
 ms.keywords: MMC_CONSOLE_VERB, MMC_CONSOLE_VERB enumeration [MMC], MMC_VERB_COPY, MMC_VERB_CUT, MMC_VERB_DELETE, MMC_VERB_NONE, MMC_VERB_OPEN, MMC_VERB_PASTE, MMC_VERB_PRINT, MMC_VERB_PROPERTIES, MMC_VERB_REFRESH, MMC_VERB_RENAME, _slate_mmc_console_verb, mmc.mmc_console_verb, mmc/MMC_CONSOLE_VERB, mmc/MMC_VERB_COPY, mmc/MMC_VERB_CUT, mmc/MMC_VERB_DELETE, mmc/MMC_VERB_NONE, mmc/MMC_VERB_OPEN, mmc/MMC_VERB_PASTE, mmc/MMC_VERB_PRINT, mmc/MMC_VERB_PROPERTIES, mmc/MMC_VERB_REFRESH, mmc/MMC_VERB_RENAME
 ms.topic: enum
-f1_keywords: 
- - "mmc/MMC_CONSOLE_VERB"
+f1_keywords:
+- mmc/MMC_CONSOLE_VERB
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - MMC_CONSOLE_VERB
+- MMC_CONSOLE_VERB
 targetos: Windows
 req.typenames: MMC_CONSOLE_VERB
 req.redist: 

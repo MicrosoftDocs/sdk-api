@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellItemArray.GetPropertyStore
 title: IShellItemArray::GetPropertyStore (shobjidl_core.h)
-
 description: Gets a property store.
 old-location: shell\IShellItemArray_GetPropertyStore.htm
 tech.root: shell
 ms.assetid: 138a604f-e8dd-48ee-9678-a0530c1a16f2
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyStore, GetPropertyStore method [Windows Shell], GetPropertyStore method [Windows Shell],IShellItemArray interface, IShellItemArray interface [Windows Shell],GetPropertyStore method, IShellItemArray.GetPropertyStore, IShellItemArray::GetPropertyStore, _shell_IShellItemArray_GetPropertyStore, shell.IShellItemArray_GetPropertyStore, shobjidl_core/IShellItemArray::GetPropertyStore
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellItemArray.GetPropertyStore"
+f1_keywords:
+- shobjidl_core/IShellItemArray.GetPropertyStore
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellItemArray.GetPropertyStore
+- IShellItemArray.GetPropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: 

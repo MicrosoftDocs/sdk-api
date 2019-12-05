@@ -1,19 +1,17 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoder.GetVideoDecoderService
 title: IDirectXVideoDecoder::GetVideoDecoderService (dxva2api.h)
-
 description: Retrieves the DirectX Video Acceleration (DXVA) decoder service that created this decoder device.
 old-location: mf\idirectxvideodecoder_getvideodecoderservice.htm
 tech.root: medfound
 ms.assetid: 092c49cd-6bfc-4ed0-9378-5751ad19296c
-
 ms.date: 12/05/2018
 ms.keywords: 092c49cd-6bfc-4ed0-9378-5751ad19296c, GetVideoDecoderService, GetVideoDecoderService method [Media Foundation], GetVideoDecoderService method [Media Foundation],IDirectXVideoDecoder interface, IDirectXVideoDecoder interface [Media Foundation],GetVideoDecoderService method, IDirectXVideoDecoder.GetVideoDecoderService, IDirectXVideoDecoder::GetVideoDecoderService, dxva2api/IDirectXVideoDecoder::GetVideoDecoderService, mf.idirectxvideodecoder_getvideodecoderservice
 ms.topic: method
-f1_keywords: 
- - "dxva2api/IDirectXVideoDecoder.GetVideoDecoderService"
+f1_keywords:
+- dxva2api/IDirectXVideoDecoder.GetVideoDecoderService
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - IDirectXVideoDecoder.GetVideoDecoderService
+- IDirectXVideoDecoder.GetVideoDecoderService
 targetos: Windows
 req.typenames: 
 req.redist: 

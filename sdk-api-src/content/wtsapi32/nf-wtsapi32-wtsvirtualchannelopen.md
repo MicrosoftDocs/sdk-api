@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsapi32.WTSVirtualChannelOpen
 title: WTSVirtualChannelOpen function (wtsapi32.h)
-
 description: Opens a handle to the server end of a specified virtual channel.
 old-location: termserv\wtsvirtualchannelopen.htm
 tech.root: TermServ
 ms.assetid: 0daaf06f-ba05-469c-b888-3df5d9495364
-
 ms.date: 12/05/2018
 ms.keywords: WTSVirtualChannelOpen, WTSVirtualChannelOpen function [Remote Desktop Services], _win32_wtsvirtualchannelopen, termserv.wtsvirtualchannelopen, wtsapi32/WTSVirtualChannelOpen
 ms.topic: function
-f1_keywords: 
- - "wtsapi32/WTSVirtualChannelOpen"
+f1_keywords:
+- wtsapi32/WTSVirtualChannelOpen
 dev_langs:
- - c++
+- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wtsapi32.dll
- - Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
+- Wtsapi32.dll
+- Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
 api_name:
- - WTSVirtualChannelOpen
+- WTSVirtualChannelOpen
 targetos: Windows
 req.typenames: 
 req.redist: 

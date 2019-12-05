@@ -1,19 +1,17 @@
 ---
 UID: NE:tabflicks.KEYMODIFIER
 title: KEYMODIFIER (tabflicks.h)
-
 description: Determines which, if any, modifier keys were pressed when the flick gesture occurred.
 old-location: tablet\keymodifier.htm
 tech.root: tablet
 ms.assetid: ffb27356-9ad2-4759-bdc4-1025813a7258
-
 ms.date: 12/05/2018
 ms.keywords: KEYMODIFIER, KEYMODIFIER enumeration [Tablet PC], KEYMODIFIER_ALTGR, KEYMODIFIER_CONTROL, KEYMODIFIER_EXT, KEYMODIFIER_MENU, KEYMODIFIER_SHIFT, KEYMODIFIER_WIN, ffb27356-9ad2-4759-bdc4-1025813a7258, tabflicks/KEYMODIFIER, tabflicks/KEYMODIFIER_ALTGR, tabflicks/KEYMODIFIER_CONTROL, tabflicks/KEYMODIFIER_EXT, tabflicks/KEYMODIFIER_MENU, tabflicks/KEYMODIFIER_SHIFT, tabflicks/KEYMODIFIER_WIN, tablet.keymodifier
 ms.topic: enum
-f1_keywords: 
- - "tabflicks/KEYMODIFIER"
+f1_keywords:
+- tabflicks/KEYMODIFIER
 dev_langs:
- - c++
+- c++
 req.header: tabflicks.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - tabflicks.h
+- tabflicks.h
 api_name:
- - KEYMODIFIER
+- KEYMODIFIER
 targetos: Windows
 req.typenames: KEYMODIFIER
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:msinkaut.IInkRecognizers
 title: IInkRecognizers (msinkaut.h)
-
-description: "."
+description: .
 old-location: tablet\iinkrecognizers.htm
 tech.root: tablet
 ms.assetid: 9BCCCFB1-567A-4CE7-9122-299A5AF52B08
-
 ms.date: 12/05/2018
 ms.keywords: IInkRecognizers, IInkRecognizers interface [Tablet PC], IInkRecognizers interface [Tablet PC],described, msinkaut/IInkRecognizers, tablet.iinkrecognizers
 ms.topic: interface
-f1_keywords: 
- - "msinkaut/IInkRecognizers"
+f1_keywords:
+- msinkaut/IInkRecognizers
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msinkaut.h
+- msinkaut.h
 api_name:
- - IInkRecognizers
+- IInkRecognizers
 targetos: Windows
 req.typenames: 
 req.redist: 

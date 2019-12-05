@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMINT3.XMINT3(int32_t,int32_t,int32_t)
 title: XMINT3::XMINT3(int32_t,int32_t,int32_t) (directxmath.h)
-
 description: Initializes a new instance of XMINT3 from three int32_t arguments.
 old-location: dxmath\xmint3_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMINT3.#ctor(int32_t,int32_t,int32_t)
-
 ms.date: 12/05/2018
 ms.keywords: XMINT3, XMINT3 constructor [DirectX Math Support APIs], XMINT3 constructor [DirectX Math Support APIs],XMINT3 structure, XMINT3 structure [DirectX Math Support APIs],XMINT3 constructor, XMINT3.XMINT3, XMINT3.XMINT3(int32_t,int32_t,int32_t), XMINT3::XMINT3, XMINT3::XMINT3(int32_t,int32_t,int32_t), dxmath.xmint3_ctor_2
 ms.topic: method
-f1_keywords: 
- - "directxmath/XMINT3.XMINT3"
+f1_keywords:
+- directxmath/XMINT3.XMINT3
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMINT3.XMINT3
+- XMINT3.XMINT3
 targetos: Windows
 req.typenames: 
 req.redist: 

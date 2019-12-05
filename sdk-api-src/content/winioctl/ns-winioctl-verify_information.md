@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._VERIFY_INFORMATION
 title: VERIFY_INFORMATION
-
 description: Contains information used to verify a disk extent.
 old-location: fs\verify_information_str.htm
 tech.root: FileIO
 ms.assetid: bf987bb5-b3d8-4d5b-af44-d05fbe4c0a5c
-
 ms.date: 12/05/2018
-ms.keywords: "*PVERIFY_INFORMATION, PVERIFY_INFORMATION, PVERIFY_INFORMATION structure pointer [Files], VERIFY_INFORMATION, VERIFY_INFORMATION structure [Files], _win32_verify_information_str, base.verify_information_str, fs.verify_information_str, winioctl/PVERIFY_INFORMATION, winioctl/VERIFY_INFORMATION"
+ms.keywords: '*PVERIFY_INFORMATION, PVERIFY_INFORMATION, PVERIFY_INFORMATION structure pointer [Files], VERIFY_INFORMATION, VERIFY_INFORMATION structure [Files], _win32_verify_information_str, base.verify_information_str, fs.verify_information_str, winioctl/PVERIFY_INFORMATION, winioctl/VERIFY_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/VERIFY_INFORMATION"
+f1_keywords:
+- winioctl/VERIFY_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - VERIFY_INFORMATION
+- VERIFY_INFORMATION
 targetos: Windows
 req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
 req.redist: 

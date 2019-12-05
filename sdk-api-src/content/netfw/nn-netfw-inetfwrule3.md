@@ -1,19 +1,17 @@
 ---
 UID: NN:netfw.INetFwRule3
 title: INetFwRule3 (netfw.h)
-
 description: Allows an application or service to access all the properties of INetFwRule2 and to provide access to the requirements of app containers.
 old-location: ics\inetfwrule3.htm
 tech.root: ics
 ms.assetid: 72bf5ac3-7ee7-4837-96b2-815b499aac2f
-
 ms.date: 12/05/2018
 ms.keywords: INetFwRule3, INetFwRule3 interface [ICS/ICF], INetFwRule3 interface [ICS/ICF],described, ics.inetfwrule3, netfw/INetFwRule3
 ms.topic: interface
-f1_keywords: 
- - "netfw/INetFwRule3"
+f1_keywords:
+- netfw/INetFwRule3
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwRule3
+- INetFwRule3
 targetos: Windows
 req.typenames: 
 req.redist: 

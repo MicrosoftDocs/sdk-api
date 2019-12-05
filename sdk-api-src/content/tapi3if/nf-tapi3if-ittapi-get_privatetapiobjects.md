@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITTAPI.get_PrivateTAPIObjects
 title: ITTAPI::get_PrivateTAPIObjects (tapi3if.h)
-
 description: The get_PrivateTAPIObjects method of the ITTAPI interface is not implemented and will return E_NOTIMPL.
 old-location: tapi3\ittapi_get_privatetapiobjects.htm
 tech.root: Tapi
 ms.assetid: a196e6cc-d8a3-49a2-8bda-e99675806dd7
-
 ms.date: 12/05/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],get_PrivateTAPIObjects method, ITTAPI.get_PrivateTAPIObjects, ITTAPI::get_PrivateTAPIObjects, _tapi3_ittapi_get_privatetapiobjects, get_PrivateTAPIObjects, get_PrivateTAPIObjects method [TAPI 2.2], get_PrivateTAPIObjects method [TAPI 2.2],ITTAPI interface, tapi3.ittapi_get_privatetapiobjects, tapi3if/ITTAPI::get_PrivateTAPIObjects
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITTAPI.get_PrivateTAPIObjects"
+f1_keywords:
+- tapi3if/ITTAPI.get_PrivateTAPIObjects
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITTAPI.get_PrivateTAPIObjects
+- ITTAPI.get_PrivateTAPIObjects
 targetos: Windows
 req.typenames: 
 req.redist: 

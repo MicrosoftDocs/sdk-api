@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMOperation2.GetObjectAttributes2
 title: IWMDMOperation2::GetObjectAttributes2 (mswmdm.h)
-
 description: Windows Media Device Manager calls GetObjectAttributes when a file is written to the device in order to learn the attributes of the file.
 old-location: wmdm\iwmdmoperation2_getobjectattributes2.htm
 tech.root: WMDM
 ms.assetid: 7bf76094-5660-47ac-b1a2-a67b6f95964b
-
 ms.date: 12/05/2018
 ms.keywords: GetObjectAttributes2, GetObjectAttributes2 method [windows Media Device Manager], GetObjectAttributes2 method [windows Media Device Manager],IWMDMOperation2 interface, IWMDMOperation2 interface [windows Media Device Manager],GetObjectAttributes2 method, IWMDMOperation2.GetObjectAttributes2, IWMDMOperation2::GetObjectAttributes2, IWMDMOperation2GetObjectAttributes2, mswmdm/IWMDMOperation2::GetObjectAttributes2, wmdm.iwmdmoperation2_getobjectattributes2
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMOperation2.GetObjectAttributes2"
+f1_keywords:
+- mswmdm/IWMDMOperation2.GetObjectAttributes2
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMOperation2.GetObjectAttributes2
+- IWMDMOperation2.GetObjectAttributes2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IActionCollection.Clear
 title: IActionCollection::Clear (taskschd.h)
-
 description: Clears all the actions from the collection.
 old-location: taskschd\iactioncollection_clear.htm
 tech.root: taskschd
 ms.assetid: 59a1c49d-01e0-4331-997a-deb5d45d5766
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Task Scheduler], Clear method [Task Scheduler],IActionCollection interface, IActionCollection interface [Task Scheduler],Clear method, IActionCollection.Clear, IActionCollection::Clear, actions [Task Scheduler],clearing, taskschd.iactioncollection_clear, taskschd/IActionCollection::Clear
 ms.topic: method
-f1_keywords: 
- - "taskschd/IActionCollection.Clear"
+f1_keywords:
+- taskschd/IActionCollection.Clear
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IActionCollection.Clear
+- IActionCollection.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

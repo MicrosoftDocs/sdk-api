@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.SetCellBorderWidths
 title: ITextRow::SetCellBorderWidths (tom.h)
-
 description: Sets the border widths of the active cell.
 old-location: controls\itextrow_setcellborderwidths.htm
 tech.root: Controls
 ms.assetid: 343270e6-8f92-4429-9350-4031ae8bb0e0
-
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellBorderWidths method, ITextRow.SetCellBorderWidths, ITextRow::SetCellBorderWidths, SetCellBorderWidths, SetCellBorderWidths method [Windows Controls], SetCellBorderWidths method [Windows Controls],ITextRow interface, controls.itextrow_setcellborderwidths, tom/ITextRow::SetCellBorderWidths
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.SetCellBorderWidths"
+f1_keywords:
+- tom/ITextRow.SetCellBorderWidths
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.SetCellBorderWidths
+- ITextRow.SetCellBorderWidths
 targetos: Windows
 req.typenames: 
 req.redist: 

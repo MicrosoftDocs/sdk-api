@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdate.get_IsHidden
 title: IUpdate::get_IsHidden (wuapi.h)
-
 description: Gets a Boolean value that indicates whether an update is hidden by a user.
 old-location: wua\iupdate_ishidden.htm
 tech.root: Wua_Sdk
 ms.assetid: 229fbb68-cc99-440e-89e1-b9c4e69dd0b3
-
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],IsHidden property, IUpdate.IsHidden, IUpdate.get_IsHidden, IUpdate::IsHidden, IUpdate::get_IsHidden, IUpdate::put_IsHidden, IsHidden property [Windows Update Agent], IsHidden property [Windows Update Agent],IUpdate interface, get_IsHidden, wua.iupdate_ishidden, wuapi/IUpdate::IsHidden, wuapi/IUpdate::get_IsHidden, wuapi/IUpdate::put_IsHidden
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdate.IsHidden"
+f1_keywords:
+- wuapi/IUpdate.IsHidden
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdate.IsHidden
- - IUpdate.get_IsHidden
- - IUpdate.put_IsHidden
+- IUpdate.IsHidden
+- IUpdate.get_IsHidden
+- IUpdate.put_IsHidden
 targetos: Windows
 req.typenames: 
 req.redist: 

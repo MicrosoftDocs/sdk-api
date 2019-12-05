@@ -1,19 +1,17 @@
 ---
 UID: NF:wscapi.WscUnRegisterChanges
 title: WscUnRegisterChanges function (wscapi.h)
-
 description: Cancels a callback registration that was made by a call to the WscRegisterForChanges function.
 old-location: winprog\wscunregisterchanges.htm
 tech.root: DevNotes
 ms.assetid: cfb0d076-bd8b-4483-a036-51c77b8181c9
-
 ms.date: 12/05/2018
 ms.keywords: WscUnRegisterChanges, WscUnRegisterChanges function [Windows API], winprog.wscunregisterchanges, wscapi/WscUnRegisterChanges
 ms.topic: function
-f1_keywords: 
- - "wscapi/WscUnRegisterChanges"
+f1_keywords:
+- wscapi/WscUnRegisterChanges
 dev_langs:
- - c++
+- c++
 req.header: wscapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wscapi.lib
 req.dll: Wscapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wscapi.dll
+- Wscapi.dll
 api_name:
- - WscUnRegisterChanges
+- WscUnRegisterChanges
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.GetEditBoxText
 title: IFileDialogCustomize::GetEditBoxText (shobjidl_core.h)
-
 description: Gets the current text in an edit box control.
 old-location: shell\IFileDialogCustomize_GetEditBoxText.htm
 tech.root: shell
 ms.assetid: 7c3db511-d357-48b4-9ac3-07f6b3d23a5f
-
 ms.date: 12/05/2018
 ms.keywords: GetEditBoxText, GetEditBoxText method [Windows Shell], GetEditBoxText method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],GetEditBoxText method, IFileDialogCustomize.GetEditBoxText, IFileDialogCustomize::GetEditBoxText, shell.IFileDialogCustomize_GetEditBoxText, shell_IFileDialogCustomize_GetEditBoxText, shobjidl_core/IFileDialogCustomize::GetEditBoxText
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialogCustomize.GetEditBoxText"
+f1_keywords:
+- shobjidl_core/IFileDialogCustomize.GetEditBoxText
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialogCustomize.GetEditBoxText
+- IFileDialogCustomize.GetEditBoxText
 targetos: Windows
 req.typenames: 
 req.redist: 

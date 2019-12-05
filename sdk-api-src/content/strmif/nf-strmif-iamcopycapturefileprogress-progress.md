@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMCopyCaptureFileProgress.Progress
 title: IAMCopyCaptureFileProgress::Progress (strmif.h)
-
 description: The Progress method is called periodically by the ICaptureGraphBuilder2::CopyCaptureFile method while it copies the file.
 old-location: dshow\iamcopycapturefileprogress_progress.htm
 tech.root: DirectShow
 ms.assetid: 6908627e-51de-4206-bdb2-b3aaedf9478f
-
 ms.date: 12/05/2018
 ms.keywords: IAMCopyCaptureFileProgress interface [DirectShow],Progress method, IAMCopyCaptureFileProgress.Progress, IAMCopyCaptureFileProgress::Progress, IAMCopyCaptureFileProgressProgress, Progress, Progress method [DirectShow], Progress method [DirectShow],IAMCopyCaptureFileProgress interface, dshow.iamcopycapturefileprogress_progress, strmif/IAMCopyCaptureFileProgress::Progress
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMCopyCaptureFileProgress.Progress"
+f1_keywords:
+- strmif/IAMCopyCaptureFileProgress.Progress
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMCopyCaptureFileProgress.Progress
+- IAMCopyCaptureFileProgress.Progress
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shidfact.CItemIDFactory.GetPropertyStorageFromIDList
 title: CItemIDFactory::GetPropertyStorageFromIDList (shidfact.h)
-
 description: Create an instance of the IPropertyStore based on the serialized property storage associated with the first ItemID.
 old-location: shell\citemidfactory_getpropertystoragefromidlist.htm
 tech.root: shell
 ms.assetid: 50E8F4F9-1E7B-4314-9AFB-1CA0795776FE
-
 ms.date: 12/05/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],GetPropertyStorageFromIDList method, CItemIDFactory.GetPropertyStorageFromIDList, CItemIDFactory::GetPropertyStorageFromIDList, GetPropertyStorageFromIDList, GetPropertyStorageFromIDList method [Windows Shell], GetPropertyStorageFromIDList method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_getpropertystoragefromidlist, shidfact/CItemIDFactory::GetPropertyStorageFromIDList
 ms.topic: method
-f1_keywords: 
- - "shidfact/CItemIDFactory.GetPropertyStorageFromIDList"
+f1_keywords:
+- shidfact/CItemIDFactory.GetPropertyStorageFromIDList
 dev_langs:
- - c++
+- c++
 req.header: shidfact.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shidfact.h
+- shidfact.h
 api_name:
- - CItemIDFactory.GetPropertyStorageFromIDList
+- CItemIDFactory.GetPropertyStorageFromIDList
 targetos: Windows
 req.typenames: 
 req.redist: 

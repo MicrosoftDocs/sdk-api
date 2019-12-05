@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilGetPropertiesToParameterBlock
 title: ResUtilGetPropertiesToParameterBlock function (resapi.h)
-
 description: Retrieves properties specified by a property table from the cluster database and returns them in a parameter block.
 old-location: mscs\resutilgetpropertiestoparameterblock.htm
 tech.root: MsCS
 ms.assetid: 38d368ac-b212-4539-8faa-d7cd744da226
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK, PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK function [Failover Cluster], ResUtilGetPropertiesToParameterBlock, ResUtilGetPropertiesToParameterBlock function [Failover Cluster], _wolf_resutilgetpropertiestoparameterblock, mscs.resutilgetpropertiestoparameterblock, resapi/PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK, resapi/ResUtilGetPropertiesToParameterBlock
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilGetPropertiesToParameterBlock"
+f1_keywords:
+- resapi/ResUtilGetPropertiesToParameterBlock
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilGetPropertiesToParameterBlock
+- ResUtilGetPropertiesToParameterBlock
 targetos: Windows
 req.typenames: 
 req.redist: 

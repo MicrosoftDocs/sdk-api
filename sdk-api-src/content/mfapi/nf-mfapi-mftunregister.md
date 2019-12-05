@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFTUnregister
 title: MFTUnregister function (mfapi.h)
-
 description: Unregisters a Media Foundation transform (MFT).
 old-location: mf\mftunregister.htm
 tech.root: medfound
 ms.assetid: 2e63a098-5b83-4ea9-8149-4972f8ed0944
-
 ms.date: 12/05/2018
 ms.keywords: 2e63a098-5b83-4ea9-8149-4972f8ed0944, MFTUnregister, MFTUnregister function [Media Foundation], mf.mftunregister, mfapi/MFTUnregister
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFTUnregister"
+f1_keywords:
+- mfapi/MFTUnregister
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFTUnregister
+- MFTUnregister
 targetos: Windows
 req.typenames: 
 req.redist: 

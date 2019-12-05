@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.RevertSecurityContext
 title: RevertSecurityContext function (sspi.h)
-
 description: Allows a security package to discontinue the impersonation of the caller and restore its own security context.
 old-location: security\revertsecuritycontext.htm
 tech.root: SecAuthN
 ms.assetid: d4ed1fe9-2e0a-4648-a010-1eae49ba03ee
-
 ms.date: 12/05/2018
 ms.keywords: RevertSecurityContext, RevertSecurityContext function [Security], _ssp_revertsecuritycontext, security.revertsecuritycontext, sspi/RevertSecurityContext
 ms.topic: function
-f1_keywords: 
- - "sspi/RevertSecurityContext"
+f1_keywords:
+- sspi/RevertSecurityContext
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Secur32.dll
+- Secur32.dll
 api_name:
- - RevertSecurityContext
+- RevertSecurityContext
 targetos: Windows
 req.typenames: 
 req.redist: 

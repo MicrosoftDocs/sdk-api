@@ -1,19 +1,17 @@
 ---
 UID: NS:bcrypt._CRYPT_IMAGE_REG
 title: CRYPT_IMAGE_REG (bcrypt.h)
-
 description: Contains image registration information about a CNG provider.
 old-location: security\crypt_image_reg.htm
 tech.root: SecCNG
 ms.assetid: d7dc3bd8-3957-4a4c-9959-dc22505e129a
-
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_IMAGE_REG, CRYPT_IMAGE_REG, CRYPT_IMAGE_REG structure [Security], PCRYPT_IMAGE_REG, PCRYPT_IMAGE_REG structure pointer [Security], bcrypt/CRYPT_IMAGE_REG, bcrypt/PCRYPT_IMAGE_REG, security.crypt_image_reg'
 ms.topic: struct
 f1_keywords:
 - bcrypt/CRYPT_IMAGE_REG
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

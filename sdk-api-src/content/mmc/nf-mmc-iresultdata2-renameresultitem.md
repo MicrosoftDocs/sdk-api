@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IResultData2.RenameResultItem
 title: IResultData2::RenameResultItem (mmc.h)
-
 description: The RenameResultItem method programmatically places the specified result item into rename mode, after which, the user can manually enter the new name.
 old-location: mmc\iresultdata2_renameresultitem.htm
 tech.root: mmc
 ms.assetid: a667f638-88bb-4758-8df7-478b0d6c18c4
-
 ms.date: 12/05/2018
 ms.keywords: IResultData2 interface [MMC],RenameResultItem method, IResultData2.RenameResultItem, IResultData2::RenameResultItem, RenameResultItem, RenameResultItem method [MMC], RenameResultItem method [MMC],IResultData2 interface, _slate_iresultdata2_renameresultitem, mmc.iresultdata2_renameresultitem, mmc/IResultData2::RenameResultItem
 ms.topic: method
-f1_keywords: 
- - "mmc/IResultData2.RenameResultItem"
+f1_keywords:
+- mmc/IResultData2.RenameResultItem
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mmc.lib
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IResultData2.RenameResultItem
+- IResultData2.RenameResultItem
 targetos: Windows
 req.typenames: 
 req.redist: 

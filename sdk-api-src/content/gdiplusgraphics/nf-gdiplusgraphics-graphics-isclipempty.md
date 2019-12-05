@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.IsClipEmpty
 title: Graphics::IsClipEmpty (gdiplusgraphics.h)
-
 description: The Graphics::IsClipEmpty method determines whether the clipping region of this Graphics object is empty.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_IsClipEmpty_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\isclipempty.htm
-
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],IsClipEmpty method, Graphics.IsClipEmpty, Graphics::IsClipEmpty, IsClipEmpty, IsClipEmpty method [GDI+], IsClipEmpty method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_IsClipEmpty_, gdiplus._gdiplus_CLASS_Graphics_IsClipEmpty_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.IsClipEmpty"
+f1_keywords:
+- gdiplusgraphics/Graphics.IsClipEmpty
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.IsClipEmpty
+- Graphics.IsClipEmpty
 targetos: Windows
 req.typenames: 
 req.redist: 

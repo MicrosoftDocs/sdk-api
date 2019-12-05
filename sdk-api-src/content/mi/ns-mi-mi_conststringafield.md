@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_ConstStringAField
 title: MI_ConstStringAField (mi.h)
-
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_conststringafield.htm
 tech.root: wmi_v2
 ms.assetid: fe671976-031c-4859-aad1-24b34770feee
-
 ms.date: 12/05/2018
 ms.keywords: MI_ConstStringAField, MI_ConstStringAField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstStringAField, wmi._mi_conststringafield, wmi_v2.mi_conststringafield
 ms.topic: struct
 f1_keywords:
 - mi/MI_ConstStringAField
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.GetOutputSetting
 title: IWMSyncReader::GetOutputSetting (wmsdkidl.h)
-
 description: The GetOutputSetting method retrieves a setting for a particular output by name.
 old-location: wmformat\iwmsyncreader_getoutputsetting.htm
 tech.root: wmformat
 ms.assetid: b96c84fd-a2e0-4fdb-a9c1-2e42b73f7a3e
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputSetting, GetOutputSetting method [windows Media Format], GetOutputSetting method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetOutputSetting method, IWMSyncReader.GetOutputSetting, IWMSyncReader::GetOutputSetting, IWMSyncReaderGetOutputSetting, wmformat.iwmsyncreader_getoutputsetting, wmsdkidl/IWMSyncReader::GetOutputSetting
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMSyncReader.GetOutputSetting"
+f1_keywords:
+- wmsdkidl/IWMSyncReader.GetOutputSetting
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMSyncReader.GetOutputSetting
+- IWMSyncReader.GetOutputSetting
 targetos: Windows
 req.typenames: 
 req.redist: 

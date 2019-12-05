@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchProtocol.Init
 title: ISearchProtocol::Init (searchapi.h)
-
 description: Initializes a protocol handler.
 old-location: search\_search_ISearchProtocol_Init.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocol\init.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchProtocol interface [search],Init method, ISearchProtocol.Init, ISearchProtocol::Init, Init, Init method [search], Init method [search],ISearchProtocol interface, _search_ISearchProtocol_Init, search._search_ISearchProtocol_Init, searchapi/ISearchProtocol::Init
 ms.topic: method
 f1_keywords:
 - searchapi/ISearchProtocol.Init
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NN:ocidl.IPropertyPage
 title: IPropertyPage (ocidl.h)
-
 description: Provides the main features of a property page object that manages a particular page within a property sheet.
 old-location: com\ipropertypage.htm
 tech.root: com
 ms.assetid: ad2cb3ae-dd24-4774-95bd-f5a0773c68b1
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyPage, IPropertyPage interface [COM], IPropertyPage interface [COM],described, _ctrl_ipropertypage, com.ipropertypage, ocidl/IPropertyPage
 ms.topic: interface
-f1_keywords: 
- - "ocidl/IPropertyPage"
+f1_keywords:
+- ocidl/IPropertyPage
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPropertyPage
+- IPropertyPage
 targetos: Windows
 req.typenames: 
 req.redist: 

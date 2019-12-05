@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IQuickActivate.QuickActivate
 title: IQuickActivate::QuickActivate (ocidl.h)
-
 description: Quick activates a control.
 old-location: com\iquickactivate_quickactivate.htm
 tech.root: com
 ms.assetid: 504cb272-da1c-4ffb-b4b1-fdf288901660
-
 ms.date: 12/05/2018
 ms.keywords: IQuickActivate interface [COM],QuickActivate method, IQuickActivate.QuickActivate, IQuickActivate::QuickActivate, QuickActivate, QuickActivate method [COM], QuickActivate method [COM],IQuickActivate interface, _ctrl_iquickactivate_quickactivate, com.iquickactivate_quickactivate, ocidl/IQuickActivate::QuickActivate
 ms.topic: method
-f1_keywords: 
- - "ocidl/IQuickActivate.QuickActivate"
+f1_keywords:
+- ocidl/IQuickActivate.QuickActivate
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IQuickActivate.QuickActivate
+- IQuickActivate.QuickActivate
 targetos: Windows
 req.typenames: 
 req.redist: 

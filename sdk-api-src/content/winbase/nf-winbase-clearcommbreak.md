@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.ClearCommBreak
 title: ClearCommBreak function (winbase.h)
-
 description: Restores character transmission for a specified communications device and places the transmission line in a nonbreak state.
 old-location: base\clearcommbreak.htm
 tech.root: devio
 ms.assetid: 9692242c-e209-4492-ab0b-333f09595597
-
 ms.date: 12/05/2018
 ms.keywords: ClearCommBreak, ClearCommBreak function, _win32_clearcommbreak, base.clearcommbreak, winbase/ClearCommBreak
 ms.topic: function
-f1_keywords: 
- - "winbase/ClearCommBreak"
+f1_keywords:
+- winbase/ClearCommBreak
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-comm-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-comm-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - ClearCommBreak
+- ClearCommBreak
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataBlockReader.GetContainerFormat
 title: IWICMetadataBlockReader::GetContainerFormat (wincodecsdk.h)
-
 description: Retrieves the container format of the decoder.
 old-location: wic\_wic_codec_iwicmetadatablockreader_getcontainerformat.htm
 tech.root: wic
 ms.assetid: b53e6b4e-e5b9-4e4a-b10b-443e3ca2d689
-
 ms.date: 12/05/2018
 ms.keywords: GetContainerFormat, GetContainerFormat method [Windows Imaging Component], GetContainerFormat method [Windows Imaging Component],IWICMetadataBlockReader interface, IWICMetadataBlockReader interface [Windows Imaging Component],GetContainerFormat method, IWICMetadataBlockReader.GetContainerFormat, IWICMetadataBlockReader::GetContainerFormat, _wic_codec_iwicmetadatablockreader_getcontainerformat, wic._wic_codec_iwicmetadatablockreader_getcontainerformat, wincodecsdk/IWICMetadataBlockReader::GetContainerFormat
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICMetadataBlockReader.GetContainerFormat"
+f1_keywords:
+- wincodecsdk/IWICMetadataBlockReader.GetContainerFormat
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataBlockReader.GetContainerFormat
+- IWICMetadataBlockReader.GetContainerFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

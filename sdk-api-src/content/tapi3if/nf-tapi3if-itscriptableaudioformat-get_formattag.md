@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.get_FormatTag
 title: ITScriptableAudioFormat::get_FormatTag (tapi3if.h)
-
 description: The get_FormatTag method returns the value for the wFormatTag member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_get_formattag.htm
 tech.root: Tapi
 ms.assetid: 073e4800-d84a-4f12-81ce-eba4a4e139fc
-
 ms.date: 12/05/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],get_FormatTag method, ITScriptableAudioFormat.get_FormatTag, ITScriptableAudioFormat::get_FormatTag, _tapi3_itscriptableaudioformat_get_formattag, get_FormatTag, get_FormatTag method [TAPI 2.2], get_FormatTag method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_get_formattag, tapi3if/ITScriptableAudioFormat::get_FormatTag
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITScriptableAudioFormat.get_FormatTag"
+f1_keywords:
+- tapi3if/ITScriptableAudioFormat.get_FormatTag
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITScriptableAudioFormat.get_FormatTag
+- ITScriptableAudioFormat.get_FormatTag
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProvider.get_Debug
 title: IFaxDeviceProvider::get_Debug (faxcomex.h)
-
 description: The IFaxDeviceProvider::get_Debug property is a Boolean value that indicates whether the fax service provider (FSP)Â DLL was created in a debug environment.
 old-location: fax\_mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_debug_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4j6v.htm
-
 ms.date: 12/05/2018
 ms.keywords: Debug property [Fax Service], Debug property [Fax Service],IFaxDeviceProvider interface, IFaxDeviceProvider interface [Fax Service],Debug property, IFaxDeviceProvider.Debug, IFaxDeviceProvider.get_Debug, IFaxDeviceProvider::Debug, IFaxDeviceProvider::get_Debug, _mfax_faxdeviceprovider.debug, fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_debug_cpp, fax._mfax_faxdeviceprovider_debug, faxcomex/IFaxDeviceProvider::Debug, faxcomex/IFaxDeviceProvider::get_Debug, get_Debug
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDeviceProvider.Debug"
+f1_keywords:
+- faxcomex/IFaxDeviceProvider.Debug
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDeviceProvider.Debug
- - IFaxDeviceProvider.get_Debug
- - IFaxDeviceProvider.get_Debug
+- IFaxDeviceProvider.Debug
+- IFaxDeviceProvider.get_Debug
+- IFaxDeviceProvider.get_Debug
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiGetMode
 title: MsiGetMode function (msiquery.h)
-
 description: The MsiGetMode function is used to determine whether the installer is currently running in a specified mode, as listed in the table.
 old-location: setup\msigetmode.htm
 tech.root: Msi
 ms.assetid: 45827df5-3f3f-4fb9-bdfe-38dc78a45321
-
 ms.date: 12/05/2018
 ms.keywords: MSIRUNMODE_ADMIN, MSIRUNMODE_ADVERTISE, MSIRUNMODE_CABINET, MSIRUNMODE_COMMIT, MSIRUNMODE_LOGENABLED, MSIRUNMODE_MAINTENANCE, MSIRUNMODE_OPERATIONS, MSIRUNMODE_REBOOTATEND, MSIRUNMODE_REBOOTNOW, MSIRUNMODE_RESERVED11, MSIRUNMODE_RESERVED14, MSIRUNMODE_RESERVED15, MSIRUNMODE_ROLLBACK, MSIRUNMODE_ROLLBACKENABLED, MSIRUNMODE_SCHEDULED, MSIRUNMODE_SOURCESHORTNAMES, MSIRUNMODE_TARGETSHORTNAMES, MSIRUNMODE_WINDOWS9X, MSIRUNMODE_ZAWENABLED, MsiGetMode, MsiGetMode function, _msi_msigetmode, msiquery/MsiGetMode, setup.msigetmode
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiGetMode"
+f1_keywords:
+- msiquery/MsiGetMode
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiGetMode
+- MsiGetMode
 targetos: Windows
 req.typenames: 
 req.redist: 

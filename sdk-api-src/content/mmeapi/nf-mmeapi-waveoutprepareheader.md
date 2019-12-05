@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.waveOutPrepareHeader
 title: waveOutPrepareHeader function (mmeapi.h)
-
 description: The waveOutPrepareHeader function prepares a waveform-audio data block for playback.
 old-location: multimedia\waveoutprepareheader.htm
 tech.root: Multimedia
 ms.assetid: f970c7ed-b9c5-45ce-a59b-dee02359ef82
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_waveOutPrepareHeader, mmsystem/waveOutPrepareHeader, multimedia.waveoutprepareheader, waveOutPrepareHeader, waveOutPrepareHeader function [Windows Multimedia]"
+ms.keywords: _win32_waveOutPrepareHeader, mmsystem/waveOutPrepareHeader, multimedia.waveoutprepareheader, waveOutPrepareHeader, waveOutPrepareHeader function [Windows Multimedia]
 ms.topic: function
-f1_keywords: 
- - "mmeapi/waveOutPrepareHeader"
+f1_keywords:
+- mmeapi/waveOutPrepareHeader
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Mmeapi.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - waveOutPrepareHeader
+- waveOutPrepareHeader
 targetos: Windows
 req.typenames: 
 req.redist: 

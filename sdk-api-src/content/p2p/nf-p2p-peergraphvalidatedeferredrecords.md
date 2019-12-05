@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGraphValidateDeferredRecords
 title: PeerGraphValidateDeferredRecords function (p2p.h)
-
 description: The PeerGraphValidateDeferredRecords function indicates to the Peer Graphing Infrastructure that it is time to resubmit any deferred records for the security module to validate.
 old-location: p2p\peergraphvalidatedeferredrecords.htm
 tech.root: P2PSdk
 ms.assetid: a9a48d8a-f31e-4526-bd09-826f04a564b1
-
 ms.date: 12/05/2018
 ms.keywords: PeerGraphValidateDeferredRecords, PeerGraphValidateDeferredRecords function [Peer Networking], p2p.peergraphvalidatedeferredrecords, p2p/PeerGraphValidateDeferredRecords
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGraphValidateDeferredRecords"
+f1_keywords:
+- p2p/PeerGraphValidateDeferredRecords
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2PGraph.dll
+- P2PGraph.dll
 api_name:
- - PeerGraphValidateDeferredRecords
+- PeerGraphValidateDeferredRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

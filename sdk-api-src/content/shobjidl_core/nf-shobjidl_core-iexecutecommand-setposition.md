@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IExecuteCommand.SetPosition
 title: IExecuteCommand::SetPosition (shobjidl_core.h)
-
 description: Sets the coordinates of a point used for display.
 old-location: shell\IExecuteCommand_SetPosition.htm
 tech.root: shell
 ms.assetid: ead12c05-ce94-494d-9f31-9b0f341363b5
-
 ms.date: 12/05/2018
 ms.keywords: IExecuteCommand interface [Windows Shell],SetPosition method, IExecuteCommand.SetPosition, IExecuteCommand::SetPosition, SetPosition, SetPosition method [Windows Shell], SetPosition method [Windows Shell],IExecuteCommand interface, _shell_IExecuteCommand_SetPosition, shell.IExecuteCommand_SetPosition, shobjidl_core/IExecuteCommand::SetPosition
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExecuteCommand.SetPosition"
+f1_keywords:
+- shobjidl_core/IExecuteCommand.SetPosition
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExecuteCommand.SetPosition
+- IExecuteCommand.SetPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:sbtsv.ITsSbServiceNotification
 title: ITsSbServiceNotification (sbtsv.h)
-
 description: Exposes methods that Remote Desktop Connection Broker (RD Connection Broker) uses to notify plug-ins of state changes that occur in the RD Connection Broker itself.
 old-location: termserv\itssbservicenotification.htm
 tech.root: TermServ
 ms.assetid: 19b90ada-5277-47cb-a8d5-18f5c89612c0
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbServiceNotification, ITsSbServiceNotification interface [Remote Desktop Services], ITsSbServiceNotification interface [Remote Desktop Services],described, sbtsv/ITsSbServiceNotification, termserv.itssbservicenotification
 ms.topic: interface
-f1_keywords: 
- - "sbtsv/ITsSbServiceNotification"
+f1_keywords:
+- sbtsv/ITsSbServiceNotification
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbServiceNotification
+- ITsSbServiceNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

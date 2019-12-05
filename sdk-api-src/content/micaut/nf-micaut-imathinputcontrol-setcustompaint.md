@@ -1,19 +1,17 @@
 ---
 UID: NF:micaut.IMathInputControl.SetCustomPaint
 title: IMathInputControl::SetCustomPaint (micaut.h)
-
 description: Determines whether a button or background has custom painting.
 old-location: tablet\imathinputcontrol_setcustompaint.htm
 tech.root: tablet
 ms.assetid: f734b73c-88a9-45d0-a657-ff048d1f5ffe
-
 ms.date: 12/05/2018
 ms.keywords: IMathInputControl interface [Tablet PC],SetCustomPaint method, IMathInputControl.SetCustomPaint, IMathInputControl::SetCustomPaint, SetCustomPaint, SetCustomPaint method [Tablet PC], SetCustomPaint method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::SetCustomPaint, tablet.imathinputcontrol_setcustompaint
 ms.topic: method
-f1_keywords: 
- - "micaut/IMathInputControl.SetCustomPaint"
+f1_keywords:
+- micaut/IMathInputControl.SetCustomPaint
 dev_langs:
- - c++
+- c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - micaut.h
+- micaut.h
 api_name:
- - IMathInputControl.SetCustomPaint
+- IMathInputControl.SetCustomPaint
 targetos: Windows
 req.typenames: 
 req.redist: 

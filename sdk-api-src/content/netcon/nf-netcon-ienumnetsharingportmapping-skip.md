@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.IEnumNetSharingPortMapping.Skip
 title: IEnumNetSharingPortMapping::Skip (netcon.h)
-
 description: The Skip method skips the specified number of port mappings for this enumeration.
 old-location: ics\ienumnetsharingportmapping_skip.htm
 tech.root: ics
 ms.assetid: b041a1fd-fe33-4519-8ac2-106903c5892f
-
 ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingPortMapping interface [ICS/ICF],Skip method, IEnumNetSharingPortMapping.Skip, IEnumNetSharingPortMapping::Skip, Skip, Skip method [ICS/ICF], Skip method [ICS/ICF],IEnumNetSharingPortMapping interface, _ics_ienumnetsharingportmapping_skip, ics.ienumnetsharingportmapping_skip, netcon/IEnumNetSharingPortMapping::Skip
 ms.topic: method
-f1_keywords: 
- - "netcon/IEnumNetSharingPortMapping.Skip"
+f1_keywords:
+- netcon/IEnumNetSharingPortMapping.Skip
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - IEnumNetSharingPortMapping.Skip
+- IEnumNetSharingPortMapping.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

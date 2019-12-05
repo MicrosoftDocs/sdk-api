@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetGlyphIndicesA
 title: GetGlyphIndicesA function (wingdi.h)
-
 description: The GetGlyphIndices function translates a string into an array of glyph indices. The function can be used to determine whether a glyph exists in a font.
 old-location: gdi\getglyphindices.htm
 tech.root: gdi
 ms.assetid: 7abfee7a-dd5d-4f33-96f1-b38364ba5afd
-
 ms.date: 12/05/2018
 ms.keywords: GGI_MARK_NONEXISTING_GLYPHS, GetGlyphIndices, GetGlyphIndices function [Windows GDI], GetGlyphIndicesA, GetGlyphIndicesW, _win32_GetGlyphIndices, gdi.getglyphindices, wingdi/GetGlyphIndices, wingdi/GetGlyphIndicesA, wingdi/GetGlyphIndicesW
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetGlyphIndices"
+f1_keywords:
+- wingdi/GetGlyphIndices
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Font-l1-1-1.dll
- - ext-ms-win-gdi-font-l1-1-2.dll
- - Ext-MS-Win-GDI-Font-L1-1-3.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Font-l1-1-1.dll
+- ext-ms-win-gdi-font-l1-1-2.dll
+- Ext-MS-Win-GDI-Font-L1-1-3.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetGlyphIndices
- - GetGlyphIndicesA
- - GetGlyphIndicesW
+- GetGlyphIndices
+- GetGlyphIndicesA
+- GetGlyphIndicesW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:drt.DrtStartSearch
 title: DrtStartSearch function (drt.h)
-
 description: The DrtStartSearch function searches the DRT for a key using criteria specified in the DRT_SEARCH_INFO structure.
 old-location: p2p\drtstartsearch.htm
 tech.root: P2PSdk
 ms.assetid: d43634d5-eb0a-4f84-9248-977c544db984
-
 ms.date: 12/05/2018
 ms.keywords: DrtStartSearch, DrtStartSearch function [Peer Networking], drt/DrtStartSearch, p2p.drtstartsearch
 ms.topic: function
-f1_keywords: 
- - "drt/DrtStartSearch"
+f1_keywords:
+- drt/DrtStartSearch
 dev_langs:
- - c++
+- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Drt.lib
 req.dll: Drt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - drt.dll
+- drt.dll
 api_name:
- - DrtStartSearch
+- DrtStartSearch
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_4.IDXGISwapChain3.CheckColorSpaceSupport
 title: IDXGISwapChain3::CheckColorSpaceSupport (dxgi1_4.h)
-
 description: Checks the swap chain's support for color space.
 old-location: direct3ddxgi\idxgiswapchain3_checkcolorspacesupport.htm
 tech.root: direct3ddxgi
 ms.assetid: 87AFB541-EC10-45E6-97CC-1B48084D00EE
-
 ms.date: 12/05/2018
 ms.keywords: CheckColorSpaceSupport, CheckColorSpaceSupport method [DXGI], CheckColorSpaceSupport method [DXGI],IDXGISwapChain3 interface, IDXGISwapChain3 interface [DXGI],CheckColorSpaceSupport method, IDXGISwapChain3.CheckColorSpaceSupport, IDXGISwapChain3::CheckColorSpaceSupport, direct3ddxgi.idxgiswapchain3_checkcolorspacesupport, dxgi1_4/IDXGISwapChain3::CheckColorSpaceSupport
 ms.topic: method
-f1_keywords: 
- - "dxgi1_4/IDXGISwapChain3.CheckColorSpaceSupport"
+f1_keywords:
+- dxgi1_4/IDXGISwapChain3.CheckColorSpaceSupport
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_4.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGISwapChain3.CheckColorSpaceSupport
+- IDXGISwapChain3.CheckColorSpaceSupport
 targetos: Windows
 req.typenames: 
 req.redist: 

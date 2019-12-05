@@ -1,19 +1,17 @@
 ---
 UID: NN:syncregistration.ISyncProviderConfigUI
 title: ISyncProviderConfigUI (syncregistration.h)
-
 description: Represents configuration UI information used to build and register a synchronization provider.
 old-location: winsync\isyncproviderconfigui.htm
 tech.root: winsync
 ms.assetid: 27757aa1-a42d-4f66-99a8-bf66385fbec1
-
 ms.date: 12/05/2018
 ms.keywords: ISyncProviderConfigUI, ISyncProviderConfigUI interface [Windows Sync], ISyncProviderConfigUI interface [Windows Sync],described, syncregistration/ISyncProviderConfigUI, winsync.isyncproviderconfigui
 ms.topic: interface
-f1_keywords: 
- - "syncregistration/ISyncProviderConfigUI"
+f1_keywords:
+- syncregistration/ISyncProviderConfigUI
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - ISyncProviderConfigUI
+- ISyncProviderConfigUI
 targetos: Windows
 req.typenames: 
 req.redist: 

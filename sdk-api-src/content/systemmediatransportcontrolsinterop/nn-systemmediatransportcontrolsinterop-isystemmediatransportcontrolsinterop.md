@@ -1,19 +1,17 @@
 ---
 UID: NN:systemmediatransportcontrolsinterop.ISystemMediaTransportControlsInterop
 title: ISystemMediaTransportControlsInterop (systemmediatransportcontrolsinterop.h)
-
 description: Allows an app to get an instance of the ISystemMediaTransportControls interface.
 old-location: mediatransport\isystemmediatransportcontrolsinterop.htm
 tech.root: mediatransport
 ms.assetid: 451A65AD-BF03-47F3-B2F1-30484A1B14F3
-
 ms.date: 12/05/2018
 ms.keywords: ISystemMediaTransportControlsInterop, ISystemMediaTransportControlsInterop interface, ISystemMediaTransportControlsInterop interface,described, mediatransport.isystemmediatransportcontrolsinterop, systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop
 ms.topic: interface
-f1_keywords: 
- - "systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop"
+f1_keywords:
+- systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop
 dev_langs:
- - c++
+- c++
 req.header: systemmediatransportcontrolsinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - systemmediatransportcontrolsinterop.h
+- systemmediatransportcontrolsinterop.h
 api_name:
- - ISystemMediaTransportControlsInterop
+- ISystemMediaTransportControlsInterop
 targetos: Windows
 req.typenames: 
 req.redist: 

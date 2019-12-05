@@ -1,19 +1,17 @@
 ---
 UID: NF:locationapi.ICivicAddressReport.GetStateProvince
 title: ICivicAddressReport::GetStateProvince (locationapi.h)
-
 description: Retrieves the state or province name.
 old-location: winlocation_com_ref\icivicaddressreport_getstateprovince.htm
 tech.root: locationapi
 ms.assetid: 7f47670c-5549-46af-8a16-0e9a43cf90aa
-
 ms.date: 12/05/2018
 ms.keywords: GetStateProvince, GetStateProvince method [WinLocation], GetStateProvince method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetStateProvince method, ICivicAddressReport.GetStateProvince, ICivicAddressReport::GetStateProvince, WinLocation_COM_Ref.icivicaddressreport_getstateprovince, locationapi/ICivicAddressReport::GetStateProvince
 ms.topic: method
-f1_keywords: 
- - "locationapi/ICivicAddressReport.GetStateProvince"
+f1_keywords:
+- locationapi/ICivicAddressReport.GetStateProvince
 dev_langs:
- - c++
+- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: LocationAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - LocationAPI.dll
+- LocationAPI.dll
 api_name:
- - ICivicAddressReport.GetStateProvince
+- ICivicAddressReport.GetStateProvince
 targetos: Windows
 req.typenames: 
 req.redist: 

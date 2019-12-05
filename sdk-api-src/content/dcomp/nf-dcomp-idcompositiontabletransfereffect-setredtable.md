@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetRedTable
 title: IDCompositionTableTransferEffect::SetRedTable (dcomp.h)
-
 description: Sets the list of values used to define the transfer function for the red channel.
 old-location: directcomp\idcompositiontabletransfereffect_setredtable.htm
 tech.root: directcomp
 ms.assetid: 4113919E-84B9-402A-A2A1-64EB74D2CC59
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetRedTable method, IDCompositionTableTransferEffect.SetRedTable, IDCompositionTableTransferEffect::SetRedTable, SetRedTable, SetRedTable method [DirectComposition], SetRedTable method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetRedTable, directcomp.idcompositiontabletransfereffect_setredtable
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionTableTransferEffect.SetRedTable"
+f1_keywords:
+- dcomp/IDCompositionTableTransferEffect.SetRedTable
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionTableTransferEffect.SetRedTable
+- IDCompositionTableTransferEffect.SetRedTable
 targetos: Windows
 req.typenames: 
 req.redist: 

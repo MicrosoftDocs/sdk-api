@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IFilterChain.RemoveChain
 title: IFilterChain::RemoveChain (strmif.h)
-
 description: The RemoveChain method removes every filter in a filter chain from the filter graph.
 old-location: dshow\ifilterchain_removechain.htm
 tech.root: DirectShow
 ms.assetid: a47d2087-5f06-4fce-b573-16935370a34c
-
 ms.date: 12/05/2018
 ms.keywords: IFilterChain interface [DirectShow],RemoveChain method, IFilterChain.RemoveChain, IFilterChain::RemoveChain, IFilterChainRemoveChain, RemoveChain, RemoveChain method [DirectShow], RemoveChain method [DirectShow],IFilterChain interface, dshow.ifilterchain_removechain, strmif/IFilterChain::RemoveChain
 ms.topic: method
-f1_keywords: 
- - "strmif/IFilterChain.RemoveChain"
+f1_keywords:
+- strmif/IFilterChain.RemoveChain
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFilterChain.RemoveChain
+- IFilterChain.RemoveChain
 targetos: Windows
 req.typenames: 
 req.redist: 

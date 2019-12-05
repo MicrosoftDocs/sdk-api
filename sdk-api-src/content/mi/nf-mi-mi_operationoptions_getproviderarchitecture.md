@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetProviderArchitecture
 title: MI_OperationOptions_GetProviderArchitecture function (mi.h)
-
 description: Gets the provider architecture for an operation.
 old-location: wmi_v2\mi_operationoptions_getproviderarchitecture.htm
 tech.root: wmi_v2
 ms.assetid: a9994178-0f42-4f4c-9236-42e993d9d86c
-
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_GetProviderArchitecture, MI_OperationOptions_GetProviderArchitecture function [Windows Management Infrastructure (MI)], MI_PROVIDER_ARCHITECTURE_32BIT, MI_PROVIDER_ARCHITECTURE_64BIT, mi/MI_OperationOptions_GetProviderArchitecture, wmi_v2.mi_operationoptions_getproviderarchitecture
 ms.topic: function
 f1_keywords:
 - mi/MI_OperationOptions_GetProviderArchitecture
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.ICertAdmin2.GetArchivedKey
 title: ICertAdmin2::GetArchivedKey (certadm.h)
-
 description: Retrieves an archived key recovery BLOB.
 old-location: security\icertadmin2_getarchivedkey.htm
 tech.root: SecCrypto
 ms.assetid: 2da85485-99ef-4381-888b-f0ac930b70dc
-
 ms.date: 12/05/2018
 ms.keywords: CCertAdmin object [Security],GetArchivedKey method, CR_OUT_BASE64, CR_OUT_BASE64HEADER, CV_OUT_BINARY, GetArchivedKey, GetArchivedKey method [Security], GetArchivedKey method [Security],CCertAdmin object, GetArchivedKey method [Security],ICertAdmin2 interface, ICertAdmin2 interface [Security],GetArchivedKey method, ICertAdmin2.GetArchivedKey, ICertAdmin2::GetArchivedKey, _certsrv_icertadmin2_getarchivedkey, certadm/ICertAdmin2::GetArchivedKey, security.icertadmin2_getarchivedkey
 ms.topic: method
-f1_keywords: 
- - "certadm/ICertAdmin2.GetArchivedKey"
+f1_keywords:
+- certadm/ICertAdmin2.GetArchivedKey
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - ICertAdmin2.GetArchivedKey
- - CCertAdmin.GetArchivedKey
+- ICertAdmin2.GetArchivedKey
+- CCertAdmin.GetArchivedKey
 targetos: Windows
 req.typenames: 
 req.redist: 

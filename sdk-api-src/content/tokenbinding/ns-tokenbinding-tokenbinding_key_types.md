@@ -1,19 +1,17 @@
 ---
 UID: NS:tokenbinding.TOKENBINDING_KEY_TYPES
 title: TOKENBINDING_KEY_TYPES (tokenbinding.h)
-
 description: Contains all of the combinations of types of token binding keys that a client device or server supports.
 old-location: security\tokenbinding_key_types.htm
 tech.root: SecCNG
 ms.assetid: E5029CE3-CD23-4566-A951-35374DC7BC57
-
 ms.date: 12/05/2018
 ms.keywords: TOKENBINDING_KEY_TYPES, TOKENBINDING_KEY_TYPES structure [Security], security.tokenbinding_key_types, tokenbinding/TOKENBINDING_KEY_TYPES
 ms.topic: struct
-f1_keywords: 
- - "tokenbinding/TOKENBINDING_KEY_TYPES"
+f1_keywords:
+- tokenbinding/TOKENBINDING_KEY_TYPES
 dev_langs:
- - c++
+- c++
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - tokenbinding.h
+- tokenbinding.h
 api_name:
- - TOKENBINDING_KEY_TYPES
+- TOKENBINDING_KEY_TYPES
 targetos: Windows
 req.typenames: TOKENBINDING_KEY_TYPES
 req.redist: 

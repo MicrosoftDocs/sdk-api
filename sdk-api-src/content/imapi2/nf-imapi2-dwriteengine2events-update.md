@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.DWriteEngine2Events.Update
 title: DWriteEngine2Events::Update (imapi2.h)
-
 description: Implement this method to receive progress notification of the current write operation.
 old-location: imapi\dwriteengine2events_update.htm
 tech.root: imapi
 ms.assetid: efee838d-aa6e-41a0-aafb-64ba6ca19f29
-
 ms.date: 12/05/2018
 ms.keywords: DWriteEngine2Events interface [IMAPI],Update method, DWriteEngine2Events.Update, DWriteEngine2Events::Update, Update, Update method [IMAPI], Update method [IMAPI],DWriteEngine2Events interface, imapi.dwriteengine2events_update, imapi2/DWriteEngine2Events::Update
 ms.topic: method
-f1_keywords: 
- - "imapi2/DWriteEngine2Events.Update"
+f1_keywords:
+- imapi2/DWriteEngine2Events.Update
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - DWriteEngine2Events.Update
+- DWriteEngine2Events.Update
 targetos: Windows
 req.typenames: 
 req.redist: 

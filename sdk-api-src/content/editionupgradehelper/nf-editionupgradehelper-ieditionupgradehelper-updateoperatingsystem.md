@@ -1,19 +1,17 @@
 ---
 UID: NF:editionupgradehelper.IEditionUpgradeHelper.UpdateOperatingSystem
 title: IEditionUpgradeHelper::UpdateOperatingSystem (editionupgradehelper.h)
-
 description: Upgrades the installed edition of the operating system to the edition that the user purchased in the Windows Store, or gets a genuine copy of the operating system.
 old-location: winprog\ieditionupgradehelper_updateoperatingsystem.htm
 tech.root: DevNotes
 ms.assetid: C7A97C7E-654D-4717-975F-41B05F3BE901
-
 ms.date: 12/05/2018
 ms.keywords: IEditionUpgradeHelper interface [Windows API],UpdateOperatingSystem method, IEditionUpgradeHelper.UpdateOperatingSystem, IEditionUpgradeHelper::UpdateOperatingSystem, UpdateOperatingSystem, UpdateOperatingSystem method [Windows API], UpdateOperatingSystem method [Windows API],IEditionUpgradeHelper interface, editionupgradehelper/IEditionUpgradeHelper::UpdateOperatingSystem, winprog.ieditionupgradehelper_updateoperatingsystem
 ms.topic: method
-f1_keywords: 
- - "editionupgradehelper/IEditionUpgradeHelper.UpdateOperatingSystem"
+f1_keywords:
+- editionupgradehelper/IEditionUpgradeHelper.UpdateOperatingSystem
 dev_langs:
- - c++
+- c++
 req.header: editionupgradehelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - editionupgradehelper.h
+- editionupgradehelper.h
 api_name:
- - IEditionUpgradeHelper.UpdateOperatingSystem
+- IEditionUpgradeHelper.UpdateOperatingSystem
 targetos: Windows
 req.typenames: 
 req.redist: 

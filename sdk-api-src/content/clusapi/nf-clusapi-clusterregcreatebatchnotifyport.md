@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterRegCreateBatchNotifyPort
 title: ClusterRegCreateBatchNotifyPort function (clusapi.h)
-
 description: Creates a subscription to a batch notification port.
 old-location: mscs\clusterregcreatebatchnotifyport.htm
 tech.root: MsCS
 ms.assetid: 1eca2ba5-c0c3-4388-9384-db9dbcfc8405
-
 ms.date: 12/05/2018
 ms.keywords: ClusterRegCreateBatchNotifyPort, ClusterRegCreateBatchNotifyPort function [Failover Cluster], PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT, clusapi/ClusterRegCreateBatchNotifyPort, mscs.clusterregcreatebatchnotifyport
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterRegCreateBatchNotifyPort"
+f1_keywords:
+- clusapi/ClusterRegCreateBatchNotifyPort
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ClusterRegCreateBatchNotifyPort
+- ClusterRegCreateBatchNotifyPort
 targetos: Windows
 req.typenames: 
 req.redist: 

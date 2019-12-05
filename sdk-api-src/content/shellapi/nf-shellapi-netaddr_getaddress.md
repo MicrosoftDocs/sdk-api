@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.NetAddr_GetAddress
 title: NetAddr_GetAddress macro (shellapi.h)
-
 description: Indicates whether a network address conforms to a specified type and format.
 old-location: shell\NetAddr_GetAddress.htm
 tech.root: shell
 ms.assetid: 2d0310a8-89ca-41b5-8afc-faec29bd23ba
-
 ms.date: 12/05/2018
 ms.keywords: NetAddr_GetAddress, NetAddr_GetAddress macro [Windows Shell], _shell_NetAddr_GetAddress, shell.NetAddr_GetAddress, shellapi/NetAddr_GetAddress
 ms.topic: macro
-f1_keywords: 
- - "shellapi/NetAddr_GetAddress"
+f1_keywords:
+- shellapi/NetAddr_GetAddress
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shellapi.h
+- Shellapi.h
 api_name:
- - NetAddr_GetAddress
+- NetAddr_GetAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

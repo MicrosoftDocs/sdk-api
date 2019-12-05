@@ -1,19 +1,17 @@
 ---
 UID: NN:sdoias.ISdo
 title: ISdo (sdoias.h)
-
 description: Use the ISdo interface to store, retrieve, and update Server Data Objects (SDO) information.
 old-location: nps\SDO_isdo.htm
 tech.root: Nps
 ms.assetid: f8f49bf2-d8cc-40ad-ac52-05d74bcd931c
-
 ms.date: 12/05/2018
 ms.keywords: ISdo, ISdo interface [Network Policy Server], ISdo interface [Network Policy Server],described, _sdo_isdo, nps.SDO_isdo, sdo.isdo, sdoias/ISdo
 ms.topic: interface
-f1_keywords: 
- - "sdoias/ISdo"
+f1_keywords:
+- sdoias/ISdo
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Iassdo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Iassdo.dll
+- Iassdo.dll
 api_name:
- - ISdo
+- ISdo
 targetos: Windows
 req.typenames: 
 req.redist: 

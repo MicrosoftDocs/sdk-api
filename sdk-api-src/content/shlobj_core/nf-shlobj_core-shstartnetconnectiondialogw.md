@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHStartNetConnectionDialogW
 title: SHStartNetConnectionDialogW function (shlobj_core.h)
-
 description: SHStartNetConnectionDialog may be altered or unavailable.
 old-location: shell\SHStartNetConnectionDialog.htm
 tech.root: shell
 ms.assetid: 9de9d5f4-a89f-42d2-b24e-b037694f6e92
-
 ms.date: 12/05/2018
 ms.keywords: RESOURCETYPE_ANY, RESOURCETYPE_DISK, RESOURCETYPE_PRINT, SHStartNetConnectionDialog, SHStartNetConnectionDialog function [Windows Shell], SHStartNetConnectionDialogA, SHStartNetConnectionDialogW, _win32_SHStartNetConnectionDialog, shell.SHStartNetConnectionDialog, shlobj_core/SHStartNetConnectionDialog, shlobj_core/SHStartNetConnectionDialogA, shlobj_core/SHStartNetConnectionDialogW
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHStartNetConnectionDialog"
+f1_keywords:
+- shlobj_core/SHStartNetConnectionDialog
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHStartNetConnectionDialog
- - SHStartNetConnectionDialogA
- - SHStartNetConnectionDialogW
+- SHStartNetConnectionDialog
+- SHStartNetConnectionDialogA
+- SHStartNetConnectionDialogW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winver.VerQueryValueA
 title: VerQueryValueA function (winver.h)
-
 description: Retrieves specified version information from the specified version-information resource.
 old-location: menurc\verqueryvalue.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verqueryvalue.htm
-
 ms.date: 12/05/2018
 ms.keywords: VerQueryValue, VerQueryValue function [Menus and Other Resources], VerQueryValueA, VerQueryValueW, _win32_VerQueryValue, _win32_verqueryvalue_cpp, menurc.verqueryvalue, winui._win32_verqueryvalue, winver/VerQueryValue, winver/VerQueryValueA, winver/VerQueryValueW
 ms.topic: function
-f1_keywords: 
- - "winver/VerQueryValue"
+f1_keywords:
+- winver/VerQueryValue
 dev_langs:
- - c++
+- c++
 req.header: winver.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Version.lib
 req.dll: Api-ms-win-core-version-l1-1-0.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-core-version-l1-1-0.dll
- - API-MS-Win-Core-version-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-versionansi-l1-1-0.dll
- - API-MS-Win-DownLevel-version-l1-1-0.dll
- - API-MS-Win-Core-Versionansi-L1-1-1.dll
- - API-MS-Win-Core-Version-L1-1-1.dll
- - version.dll
+- api-ms-win-core-version-l1-1-0.dll
+- API-MS-Win-Core-version-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-versionansi-l1-1-0.dll
+- API-MS-Win-DownLevel-version-l1-1-0.dll
+- API-MS-Win-Core-Versionansi-L1-1-1.dll
+- API-MS-Win-Core-Version-L1-1-1.dll
+- version.dll
 api_name:
- - VerQueryValue
- - VerQueryValueA
- - VerQueryValueW
+- VerQueryValue
+- VerQueryValueA
+- VerQueryValueW
 targetos: Windows
 req.typenames: 
 req.redist: 

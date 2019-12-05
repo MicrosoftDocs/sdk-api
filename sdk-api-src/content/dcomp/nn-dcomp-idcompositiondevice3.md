@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionDevice3
 title: IDCompositionDevice3 (dcomp.h)
-
 description: Serves as a factory for all other Microsoft DirectComposition objects and provides methods to control transactional composition.
 old-location: directcomp\idcompositiondevice3.htm
 tech.root: directcomp
 ms.assetid: 5da076dc-360d-0b28-f131-8669d1a91dd6
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionDevice3, IDCompositionDevice3 interface [DirectComposition], IDCompositionDevice3 interface [DirectComposition],described, dcomp/IDCompositionDevice3, directcomp.idcompositiondevice3
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionDevice3"
+f1_keywords:
+- dcomp/IDCompositionDevice3
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionDevice3
+- IDCompositionDevice3
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetSurfaceDesc
 title: IDirectDrawSurface7::GetSurfaceDesc (ddraw.h)
-
 description: Retrieves a description of this surface in its current condition.
 old-location: directdraw\idirectdrawsurface7_getsurfacedesc.htm
 tech.root: directdraw
 ms.assetid: 4c36685e-8eb7-4d91-a479-8f099d5e712b
-
 ms.date: 12/05/2018
 ms.keywords: GetSurfaceDesc, GetSurfaceDesc method [DirectDraw], GetSurfaceDesc method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetSurfaceDesc method, IDirectDrawSurface7.GetSurfaceDesc, IDirectDrawSurface7::GetSurfaceDesc, ddraw/IDirectDrawSurface7::GetSurfaceDesc, directdraw.idirectdrawsurface7_getsurfacedesc
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawSurface7.GetSurfaceDesc"
+f1_keywords:
+- ddraw/IDirectDrawSurface7.GetSurfaceDesc
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawSurface7.GetSurfaceDesc
+- IDirectDrawSurface7.GetSurfaceDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSession.get_Id
 title: IWdsTransportSession::get_Id (wdstptmgmt.h)
-
 description: Receives a unique session ID that identifies this session on the server.
 old-location: wds\iwdstransportsession_id.htm
 tech.root: wds
 ms.assetid: 78d2832f-706e-4d4e-90f5-762026ef69ae
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSession interface [Windows Deployment Services],Id property, IWdsTransportSession.Id, IWdsTransportSession.get_Id, IWdsTransportSession::Id, IWdsTransportSession::get_Id, Id property [Windows Deployment Services], Id property [Windows Deployment Services],IWdsTransportSession interface, get_Id, wds.iwdstransportsession_id, wdstptmgmt/IWdsTransportSession::Id, wdstptmgmt/IWdsTransportSession::get_Id
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportSession.Id"
+f1_keywords:
+- wdstptmgmt/IWdsTransportSession.Id
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportSession.Id
- - IWdsTransportSession.get_Id
+- IWdsTransportSession.Id
+- IWdsTransportSession.get_Id
 targetos: Windows
 req.typenames: 
 req.redist: 

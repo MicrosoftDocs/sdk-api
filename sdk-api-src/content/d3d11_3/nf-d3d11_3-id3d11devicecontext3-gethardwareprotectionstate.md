@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_3.ID3D11DeviceContext3.GetHardwareProtectionState
 title: ID3D11DeviceContext3::GetHardwareProtectionState (d3d11_3.h)
-
 description: Gets whether hardware protection is enabled.
 old-location: direct3d11\id3d11devicecontext3_gethardwareprotectionstate.htm
 tech.root: direct3d11
 ms.assetid: 52D1F2B2-DBC9-4714-A9C5-A0283EA6C5B7
-
 ms.date: 12/05/2018
 ms.keywords: GetHardwareProtectionState, GetHardwareProtectionState method [Direct3D 11], GetHardwareProtectionState method [Direct3D 11],ID3D11DeviceContext3 interface, ID3D11DeviceContext3 interface [Direct3D 11],GetHardwareProtectionState method, ID3D11DeviceContext3.GetHardwareProtectionState, ID3D11DeviceContext3::GetHardwareProtectionState, d3d11_3/ID3D11DeviceContext3::GetHardwareProtectionState, direct3d11.id3d11devicecontext3_gethardwareprotectionstate
 ms.topic: method
-f1_keywords: 
- - "d3d11_3/ID3D11DeviceContext3.GetHardwareProtectionState"
+f1_keywords:
+- d3d11_3/ID3D11DeviceContext3.GetHardwareProtectionState
 dev_langs:
- - c++
+- c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext3.GetHardwareProtectionState
+- ID3D11DeviceContext3.GetHardwareProtectionState
 targetos: Windows
 req.typenames: 
 req.redist: 

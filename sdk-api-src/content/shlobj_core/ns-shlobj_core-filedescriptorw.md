@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj_core._FILEDESCRIPTORW
 title: FILEDESCRIPTORW (shlobj_core.h)
-
 description: Describes the properties of a file that is being copied by means of the clipboard during a Microsoft ActiveX drag-and-drop operation.
 old-location: shell\FILEDESCRIPTOR.htm
 tech.root: shell
 ms.assetid: b81a7e52-5bd8-4fa4-bd76-9a58afaceec0
-
 ms.date: 12/05/2018
-ms.keywords: "*LPFILEDESCRIPTORW, FD_ACCESSTIME, FD_ATTRIBUTES, FD_CLSID, FD_CREATETIME, FD_FILESIZE, FD_LINKUI, FD_PROGRESSUI, FD_SIZEPOINT, FD_UNICODE, FD_WRITESTIME, FILEDESCRIPTOR, FILEDESCRIPTOR structure [Windows Shell], FILEDESCRIPTORA, FILEDESCRIPTORW, LPFILEDESCRIPTOR, LPFILEDESCRIPTOR structure pointer [Windows Shell], _FILEDESCRIPTORA, _FILEDESCRIPTORW, _win32_FILEDESCRIPTOR, shell.FILEDESCRIPTOR, shlobj_core/FILEDESCRIPTOR, shlobj_core/LPFILEDESCRIPTOR"
+ms.keywords: '*LPFILEDESCRIPTORW, FD_ACCESSTIME, FD_ATTRIBUTES, FD_CLSID, FD_CREATETIME, FD_FILESIZE, FD_LINKUI, FD_PROGRESSUI, FD_SIZEPOINT, FD_UNICODE, FD_WRITESTIME, FILEDESCRIPTOR, FILEDESCRIPTOR structure [Windows Shell], FILEDESCRIPTORA, FILEDESCRIPTORW, LPFILEDESCRIPTOR, LPFILEDESCRIPTOR structure pointer [Windows Shell], _FILEDESCRIPTORA, _FILEDESCRIPTORW, _win32_FILEDESCRIPTOR, shell.FILEDESCRIPTOR, shlobj_core/FILEDESCRIPTOR, shlobj_core/LPFILEDESCRIPTOR'
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/FILEDESCRIPTOR"
+f1_keywords:
+- shlobj_core/FILEDESCRIPTOR
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shlobj_core.h
+- Shlobj_core.h
 api_name:
- - FILEDESCRIPTOR
- - FILEDESCRIPTORA
- - FILEDESCRIPTORW
+- FILEDESCRIPTOR
+- FILEDESCRIPTORA
+- FILEDESCRIPTORW
 targetos: Windows
 req.typenames: FILEDESCRIPTORW, *LPFILEDESCRIPTORW
 req.redist: 

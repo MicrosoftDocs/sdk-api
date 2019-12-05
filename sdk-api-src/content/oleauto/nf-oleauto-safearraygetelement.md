@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.SafeArrayGetElement
 title: SafeArrayGetElement function (oleauto.h)
-
 description: Retrieves a single element of the array.
 old-location: automat\safearraygetelement.htm
 tech.root: automat
 ms.assetid: 47e9ee31-1e3b-4193-8467-6ef0db05966e
-
 ms.date: 12/05/2018
 ms.keywords: SafeArrayGetElement, SafeArrayGetElement function [Automation], _oa96_SafeArrayGetElement, automat.safearraygetelement, oleauto/SafeArrayGetElement
 ms.topic: function
-f1_keywords: 
- - "oleauto/SafeArrayGetElement"
+f1_keywords:
+- oleauto/SafeArrayGetElement
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - SafeArrayGetElement
+- SafeArrayGetElement
 targetos: Windows
 req.typenames: 
 req.redist: 

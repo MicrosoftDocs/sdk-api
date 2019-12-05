@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwPolicy.GetProfileByType
 title: INetFwPolicy::GetProfileByType (netfw.h)
-
 description: Retrieves the profile of the requested type.
 old-location: ics\inetfwpolicy_getprofilebytype.htm
 tech.root: ics
 ms.assetid: 4c3876cf-40a4-4315-a87a-8fcdf509d48e
-
 ms.date: 12/05/2018
 ms.keywords: GetProfileByType, GetProfileByType method [ICS/ICF], GetProfileByType method [ICS/ICF],INetFwPolicy interface, INetFwPolicy interface [ICS/ICF],GetProfileByType method, INetFwPolicy.GetProfileByType, INetFwPolicy::GetProfileByType, ics.inetfwpolicy_getprofilebytype, netfw/INetFwPolicy::GetProfileByType
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwPolicy.GetProfileByType"
+f1_keywords:
+- netfw/INetFwPolicy.GetProfileByType
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwPolicy.GetProfileByType
+- INetFwPolicy.GetProfileByType
 targetos: Windows
 req.typenames: 
 req.redist: 

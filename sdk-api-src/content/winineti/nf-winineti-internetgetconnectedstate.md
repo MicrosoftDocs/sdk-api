@@ -1,19 +1,17 @@
 ---
 UID: NF:winineti.InternetGetConnectedState
 title: InternetGetConnectedState function (winineti.h)
-
 description: Note  Using this API is not recommended, use the INetworkListManager::GetConnectivity method instead. Retrieves the connected state of the local system.
 old-location: wininet\internetgetconnectedstate.htm
 tech.root: wininet
 ms.assetid: 500765b8-fbe4-4bba-894e-cc7f114d9eaa
-
 ms.date: 12/05/2018
 ms.keywords: INTERNET_CONNECTION_CONFIGURED, INTERNET_CONNECTION_LAN, INTERNET_CONNECTION_MODEM, INTERNET_CONNECTION_MODEM_BUSY, INTERNET_CONNECTION_OFFLINE, INTERNET_CONNECTION_PROXY, INTERNET_RAS_INSTALLED, InternetGetConnectedState, InternetGetConnectedState function [WinINet], _inet_internetgetconnectedstate_function, wininet.internetgetconnectedstate, winineti/InternetGetConnectedState
 ms.topic: function
-f1_keywords: 
- - "winineti/InternetGetConnectedState"
+f1_keywords:
+- winineti/InternetGetConnectedState
 dev_langs:
- - c++
+- c++
 req.header: winineti.h
 req.include-header: Wininet.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetGetConnectedState
+- InternetGetConnectedState
 targetos: Windows
 req.typenames: 
 req.redist: 

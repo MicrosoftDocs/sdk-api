@@ -1,7 +1,6 @@
 ---
 UID: NA:gdipluspath
 ms.assetid: 05d037fc-c743-306b-891f-a0aa51f67d67
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

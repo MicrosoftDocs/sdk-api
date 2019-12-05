@@ -1,19 +1,17 @@
 ---
 UID: NF:exdisp.IShellWindows.Revoke
 title: IShellWindows::Revoke (exdisp.h)
-
 description: Revokes a Shell window's registration and removes the window from the Shell windows collection.
 old-location: shell\IShellWindows_Revoke.htm
 tech.root: shell
 ms.assetid: 66ca2569-b763-445b-b5b5-98ef32c64578
-
 ms.date: 12/05/2018
 ms.keywords: IShellWindows interface [Windows Shell],Revoke method, IShellWindows.Revoke, IShellWindows::Revoke, Revoke, Revoke method [Windows Shell], Revoke method [Windows Shell],IShellWindows interface, _win32_IShellWindows_Revoke, exdisp/IShellWindows::Revoke, shell.IShellWindows_Revoke
 ms.topic: method
-f1_keywords: 
- - "exdisp/IShellWindows.Revoke"
+f1_keywords:
+- exdisp/IShellWindows.Revoke
 dev_langs:
- - c++
+- c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdocvw.dll
+- Shdocvw.dll
 api_name:
- - IShellWindows.Revoke
+- IShellWindows.Revoke
 targetos: Windows
 req.typenames: 
 req.redist: 

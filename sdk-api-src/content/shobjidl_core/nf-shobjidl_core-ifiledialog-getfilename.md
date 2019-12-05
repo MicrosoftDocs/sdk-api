@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.GetFileName
 title: IFileDialog::GetFileName (shobjidl_core.h)
-
 description: Retrieves the text currently entered in the dialog's File name edit box.
 old-location: shell\IFileDialog_GetFileName.htm
 tech.root: shell
 ms.assetid: d27acb22-906a-4e5e-9239-6de3162fd263
-
 ms.date: 12/05/2018
 ms.keywords: GetFileName, GetFileName method [Windows Shell], GetFileName method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],GetFileName method, IFileDialog.GetFileName, IFileDialog::GetFileName, shell.IFileDialog_GetFileName, shell_IFileDialog_GetFileName, shobjidl_core/IFileDialog::GetFileName
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialog.GetFileName"
+f1_keywords:
+- shobjidl_core/IFileDialog.GetFileName
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialog.GetFileName
+- IFileDialog.GetFileName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDraw7.SetDisplayMode
 title: IDirectDraw7::SetDisplayMode (ddraw.h)
-
 description: Sets the mode of the display-device hardware.
 old-location: directdraw\idirectdraw7_setdisplaymode.htm
 tech.root: directdraw
 ms.assetid: 385918cd-64f1-449c-822a-0034a8184fb9
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDraw7 interface [DirectDraw],SetDisplayMode method, IDirectDraw7.SetDisplayMode, IDirectDraw7::SetDisplayMode, SetDisplayMode, SetDisplayMode method [DirectDraw], SetDisplayMode method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::SetDisplayMode, directdraw.idirectdraw7_setdisplaymode
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDraw7.SetDisplayMode"
+f1_keywords:
+- ddraw/IDirectDraw7.SetDisplayMode
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDraw7.SetDisplayMode
+- IDirectDraw7.SetDisplayMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IWebProxy.put_BypassList
 title: IWebProxy::put_BypassList (wuapi.h)
-
 description: Gets and sets a collection of addresses that do not use the proxy server.
 old-location: wua\iwebproxy_bypasslist.htm
 tech.root: Wua_Sdk
 ms.assetid: a93742d2-73ce-4e7b-a000-592fd588cb1f
-
 ms.date: 12/05/2018
 ms.keywords: BypassList property [Windows Update Agent], BypassList property [Windows Update Agent],IWebProxy interface, IWebProxy interface [Windows Update Agent],BypassList property, IWebProxy.BypassList, IWebProxy.put_BypassList, IWebProxy::BypassList, IWebProxy::get_BypassList, IWebProxy::put_BypassList, put_BypassList, wua.iwebproxy_bypasslist, wuapi/IWebProxy::BypassList, wuapi/IWebProxy::get_BypassList, wuapi/IWebProxy::put_BypassList
 ms.topic: method
-f1_keywords: 
- - "wuapi/IWebProxy.BypassList"
+f1_keywords:
+- wuapi/IWebProxy.BypassList
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IWebProxy.BypassList
- - IWebProxy.get_BypassList
- - IWebProxy.put_BypassList
+- IWebProxy.BypassList
+- IWebProxy.get_BypassList
+- IWebProxy.put_BypassList
 targetos: Windows
 req.typenames: 
 req.redist: 

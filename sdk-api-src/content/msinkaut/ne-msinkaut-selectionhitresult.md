@@ -1,19 +1,17 @@
 ---
 UID: NE:msinkaut.SelectionHitResult
 title: SelectionHitResult (msinkaut.h)
-
 description: Specifies which part of a selection, if any, was hit during a hit test.
 old-location: tablet\selectionhitresult.htm
 tech.root: tablet
 ms.assetid: a93d0121-e271-4656-9cdc-ae05fd19ac8b
-
 ms.date: 12/05/2018
 ms.keywords: SHR_E, SHR_N, SHR_NE, SHR_NW, SHR_None, SHR_S, SHR_SE, SHR_SW, SHR_Selection, SHR_W, SelectionHitResult, SelectionHitResult enumeration [Tablet PC], a93d0121-e271-4656-9cdc-ae05fd19ac8b, msinkaut/SHR_E, msinkaut/SHR_N, msinkaut/SHR_NE, msinkaut/SHR_NW, msinkaut/SHR_None, msinkaut/SHR_S, msinkaut/SHR_SE, msinkaut/SHR_SW, msinkaut/SHR_Selection, msinkaut/SHR_W, msinkaut/SelectionHitResult, tablet.selectionhitresult
 ms.topic: enum
-f1_keywords: 
- - "msinkaut/SelectionHitResult"
+f1_keywords:
+- msinkaut/SelectionHitResult
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msinkaut.h
+- msinkaut.h
 api_name:
- - SelectionHitResult
+- SelectionHitResult
 targetos: Windows
 req.typenames: SelectionHitResult
 req.redist: 

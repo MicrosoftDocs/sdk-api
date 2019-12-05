@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionVisualDebug.EnableHeatMap
 title: IDCompositionVisualDebug::EnableHeatMap (dcomp.h)
-
 description: Enables a visual heatmap that represents overdraw regions.
 old-location: directcomp\idcompositionvisualdebug_enableheatmap.htm
 tech.root: directcomp
 ms.assetid: 9512959B-561F-4B43-9C7E-37174CC642EB
-
 ms.date: 12/05/2018
 ms.keywords: EnableHeatMap, EnableHeatMap method [DirectComposition], EnableHeatMap method [DirectComposition],IDCompositionVisualDebug interface, IDCompositionVisualDebug interface [DirectComposition],EnableHeatMap method, IDCompositionVisualDebug.EnableHeatMap, IDCompositionVisualDebug::EnableHeatMap, dcomp/IDCompositionVisualDebug::EnableHeatMap, directcomp.idcompositionvisualdebug_enableheatmap
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionVisualDebug.EnableHeatMap"
+f1_keywords:
+- dcomp/IDCompositionVisualDebug.EnableHeatMap
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionVisualDebug.EnableHeatMap
+- IDCompositionVisualDebug.EnableHeatMap
 targetos: Windows
 req.typenames: 
 req.redist: 

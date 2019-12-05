@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceUnitsStream.SeekInUnits
 title: IPortableDeviceUnitsStream::SeekInUnits (portabledeviceapi.h)
-
 description: The SeekInUnits method performs a seek on a stream, based on alternate units.
 old-location: wpdsdk\iportabledeviceunitsstream_seekinunits.htm
 tech.root: wpd_sdk
 ms.assetid: F94D30C7-57A8-4CBB-B416-ABB8BEC26A6E
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceUnitsStream interface [Windows Portable Devices SDK],SeekInUnits method, IPortableDeviceUnitsStream.SeekInUnits, IPortableDeviceUnitsStream::SeekInUnits, SeekInUnits, SeekInUnits method [Windows Portable Devices SDK], SeekInUnits method [Windows Portable Devices SDK],IPortableDeviceUnitsStream interface, portabledeviceapi/IPortableDeviceUnitsStream::SeekInUnits, wpdsdk.iportabledeviceunitsstream_seekinunits
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceUnitsStream.SeekInUnits"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceUnitsStream.SeekInUnits
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceUnitsStream.SeekInUnits
+- IPortableDeviceUnitsStream.SeekInUnits
 targetos: Windows
 req.typenames: 
 req.redist: 

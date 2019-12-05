@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.GetLabel
 title: IMFTimedTextTrack::GetLabel (mfmediaengine.h)
-
 description: Gets the label of the track.
 old-location: mf\imftimedtexttrack_getlabel.htm
 tech.root: medfound
 ms.assetid: BB3B1089-6489-4C70-BAFD-22D72DE3CB38
-
 ms.date: 12/05/2018
 ms.keywords: GetLabel, GetLabel method [Media Foundation], GetLabel method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetLabel method, IMFTimedTextTrack.GetLabel, IMFTimedTextTrack::GetLabel, mf.imftimedtexttrack_getlabel, mfmediaengine/IMFTimedTextTrack::GetLabel
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextTrack.GetLabel"
+f1_keywords:
+- mfmediaengine/IMFTimedTextTrack.GetLabel
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextTrack.GetLabel
+- IMFTimedTextTrack.GetLabel
 targetos: Windows
 req.typenames: 
 req.redist: 

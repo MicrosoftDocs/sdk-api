@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxLoggingOptions.get_ActivityLogging
 title: IFaxLoggingOptions::get_ActivityLogging (faxcomex.h)
-
 description: The ActivityLogging property retrieves the FaxActivityLogging configuration object.
 old-location: fax\_mfax_faxloggingoptions_cpp_mfax_faxloggingoptions_activitylogging_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0mav.htm
-
 ms.date: 12/05/2018
 ms.keywords: ActivityLogging property [Fax Service], ActivityLogging property [Fax Service],IFaxLoggingOptions interface, IFaxLoggingOptions interface [Fax Service],ActivityLogging property, IFaxLoggingOptions.ActivityLogging, IFaxLoggingOptions.get_ActivityLogging, IFaxLoggingOptions::ActivityLogging, IFaxLoggingOptions::get_ActivityLogging, _mfax_faxloggingoptions.activitylogging, fax._mfax_faxloggingoptions_activitylogging, fax._mfax_faxloggingoptions_cpp_mfax_faxloggingoptions_activitylogging_cpp, faxcomex/IFaxLoggingOptions::ActivityLogging, faxcomex/IFaxLoggingOptions::get_ActivityLogging, get_ActivityLogging
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxLoggingOptions.ActivityLogging"
+f1_keywords:
+- faxcomex/IFaxLoggingOptions.ActivityLogging
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxLoggingOptions.ActivityLogging
- - IFaxLoggingOptions.get_ActivityLogging
+- IFaxLoggingOptions.ActivityLogging
+- IFaxLoggingOptions.get_ActivityLogging
 targetos: Windows
 req.typenames: 
 req.redist: 

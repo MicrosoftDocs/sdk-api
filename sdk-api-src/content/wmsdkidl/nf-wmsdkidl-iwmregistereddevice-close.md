@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.Close
 title: IWMRegisteredDevice::Close (wmsdkidl.h)
-
 description: The Close method closes the device, if it is open. It also releases all resources associated with the device.
 old-location: wmformat\iwmregistereddevice_close.htm
 tech.root: wmformat
 ms.assetid: 5d30eb82-1d5c-4d40-9dc9-7360e64cd55e
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [windows Media Format], Close method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],Close method, IWMRegisteredDevice.Close, IWMRegisteredDevice::Close, IWMRegisteredDeviceClose, wmformat.iwmregistereddevice_close, wmsdkidl/IWMRegisteredDevice::Close
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMRegisteredDevice.Close"
+f1_keywords:
+- wmsdkidl/IWMRegisteredDevice.Close
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMStubDRM.lib
- - WMStubDRM.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMRegisteredDevice.Close
+- IWMRegisteredDevice.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

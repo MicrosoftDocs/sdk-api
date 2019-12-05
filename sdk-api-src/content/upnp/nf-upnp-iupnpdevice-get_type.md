@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_Type
 title: IUPnPDevice::get_Type (upnp.h)
-
 description: The Type method specifies the device type uniform resource identifier (URI) for the device.
 old-location: upnp\iupnpdevice_type.htm
 tech.root: upnp
 ms.assetid: 3db09e94-4211-44ff-850e-2e34719909d6
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_Type method, IUPnPDevice.get_Type, IUPnPDevice::get_Type, _upnp_iupnpdevice_type, get_Type, get_Type method [UPnP APIs], get_Type method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_type, upnp/IUPnPDevice::get_Type
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDevice.get_Type"
+f1_keywords:
+- upnp/IUPnPDevice.get_Type
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDevice.get_Type
+- IUPnPDevice.get_Type
 targetos: Windows
 req.typenames: 
 req.redist: 

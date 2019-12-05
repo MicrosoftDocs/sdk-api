@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMXDECN4.XMXDECN4
 title: XMXDECN4::XMXDECN4 (directxpackedvector.h)
-
 description: Default constructor for XMXDECN4.
 old-location: dxmath\xmxdecn4_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMXDECN4.#ctor
-
 ms.date: 12/05/2018
 ms.keywords: XMXDECN4, XMXDECN4 constructor [DirectX Math Support APIs], XMXDECN4 constructor [DirectX Math Support APIs],XMXDECN4 structure, XMXDECN4 structure [DirectX Math Support APIs],XMXDECN4 constructor, XMXDECN4.XMXDECN4, XMXDECN4.XMXDECN4(), XMXDECN4::XMXDECN4, dxmath.xmxdecn4_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMXDECN4.XMXDECN4"
+f1_keywords:
+- directxpackedvector/XMXDECN4.XMXDECN4
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMXDECN4.XMXDECN4
+- XMXDECN4.XMXDECN4
 targetos: Windows
 req.typenames: 
 req.redist: 

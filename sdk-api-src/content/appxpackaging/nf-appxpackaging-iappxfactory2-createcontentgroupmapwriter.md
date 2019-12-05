@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxFactory2.CreateContentGroupMapWriter
 title: IAppxFactory2::CreateContentGroupMapWriter (appxpackaging.h)
-
 description: Creates an IAppxContentGroupMapWriter.
 old-location: appxpkg\iappxfactory2_createcontentgroupmapwriter.htm
 tech.root: appxpkg
 ms.assetid: 4BFF656D-4B89-4D05-9A41-44400F75E8BC
-
 ms.date: 12/05/2018
 ms.keywords: CreateContentGroupMapWriter, CreateContentGroupMapWriter method [App packaging and management], CreateContentGroupMapWriter method [App packaging and management],IAppxFactory2 interface, IAppxFactory2 interface [App packaging and management],CreateContentGroupMapWriter method, IAppxFactory2.CreateContentGroupMapWriter, IAppxFactory2::CreateContentGroupMapWriter, appxpackaging/IAppxFactory2::CreateContentGroupMapWriter, appxpkg.iappxfactory2_createcontentgroupmapwriter
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxFactory2.CreateContentGroupMapWriter"
+f1_keywords:
+- appxpackaging/IAppxFactory2.CreateContentGroupMapWriter
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxFactory2.CreateContentGroupMapWriter
+- IAppxFactory2.CreateContentGroupMapWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

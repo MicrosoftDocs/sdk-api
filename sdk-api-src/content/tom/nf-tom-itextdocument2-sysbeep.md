@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument2.SysBeep
 title: ITextDocument2::SysBeep (tom.h)
-
 description: Generates a system beep.
 old-location: controls\itextdocument2_sysbeep.htm
 tech.root: Controls
 ms.assetid: 2f1f83a0-9308-40c8-b889-aa8118ee9e71
-
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SysBeep method, ITextDocument2.SysBeep, ITextDocument2::SysBeep, SysBeep, SysBeep method [Windows Controls], SysBeep method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_sysbeep, tom/ITextDocument2::SysBeep
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument2.SysBeep"
+f1_keywords:
+- tom/ITextDocument2.SysBeep
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument2.SysBeep
+- ITextDocument2.SysBeep
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument2.GetDocumentFont
 title: ITextDocument2::GetDocumentFont (tom.h)
-
 description: Gets an object that provides the default character format information for this instance of the Text Object Model (TOM) engine.
 old-location: controls\itextdocument2_getdocumentfont.htm
 tech.root: Controls
 ms.assetid: b028c2f6-8c8e-49f8-bf53-f4a639cb16c2
-
 ms.date: 12/05/2018
 ms.keywords: GetDocumentFont, GetDocumentFont method [Windows Controls], GetDocumentFont method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetDocumentFont method, ITextDocument2.GetDocumentFont, ITextDocument2::GetDocumentFont, controls.itextdocument2_getdocumentfont, tom/ITextDocument2::GetDocumentFont
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument2.GetDocumentFont"
+f1_keywords:
+- tom/ITextDocument2.GetDocumentFont
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument2.GetDocumentFont
+- ITextDocument2.GetDocumentFont
 targetos: Windows
 req.typenames: 
 req.redist: 

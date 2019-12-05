@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.PtInRegion
 title: PtInRegion function (wingdi.h)
-
 description: The PtInRegion function determines whether the specified point is inside the specified region.
 old-location: gdi\ptinregion.htm
 tech.root: gdi
 ms.assetid: 6fab6126-4672-49d6-825b-66a7927a7e99
-
 ms.date: 12/05/2018
 ms.keywords: PtInRegion, PtInRegion function [Windows GDI], _win32_PtInRegion, gdi.ptinregion, wingdi/PtInRegion
 ms.topic: function
-f1_keywords: 
- - "wingdi/PtInRegion"
+f1_keywords:
+- wingdi/PtInRegion
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
- - API-MS-Win-GDI-Internal-Uap-L1-1-0.dll
- - GDI32Full.dll
- - GDI32Min.dll
+- gdi32.dll
+- ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
+- API-MS-Win-GDI-Internal-Uap-L1-1-0.dll
+- GDI32Full.dll
+- GDI32Min.dll
 api_name:
- - PtInRegion
+- PtInRegion
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.ReadDvdStructure
 title: IDiscRecorder2Ex::ReadDvdStructure (imapi2.h)
-
 description: Reads a DVD structure from the media.
 old-location: imapi\idiscrecorder2ex_readdvdstructure.htm
 tech.root: imapi
 ms.assetid: 6842573a-68e5-47ea-8441-953ab85b9482
-
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2Ex interface [IMAPI],ReadDvdStructure method, IDiscRecorder2Ex.ReadDvdStructure, IDiscRecorder2Ex::ReadDvdStructure, ReadDvdStructure, ReadDvdStructure method [IMAPI], ReadDvdStructure method [IMAPI],IDiscRecorder2Ex interface, imapi.idiscrecorder2ex_readdvdstructure, imapi2/IDiscRecorder2Ex::ReadDvdStructure
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscRecorder2Ex.ReadDvdStructure"
+f1_keywords:
+- imapi2/IDiscRecorder2Ex.ReadDvdStructure
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscRecorder2Ex.ReadDvdStructure
+- IDiscRecorder2Ex.ReadDvdStructure
 targetos: Windows
 req.typenames: 
 req.redist: 

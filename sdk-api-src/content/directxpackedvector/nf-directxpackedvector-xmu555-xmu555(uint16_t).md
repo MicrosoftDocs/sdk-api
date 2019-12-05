@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMU555.XMU555(uint16_t)
 title: XMU555::XMU555(uint16_t) (directxpackedvector.h)
-
 description: Initializes a new instance of XMU555 from a uint16_t variable containing component data in a packed format.
 old-location: dxmath\xmu555_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMU555.#ctor(uint16_t)
-
 ms.date: 12/05/2018
 ms.keywords: XMU555, XMU555 constructor [DirectX Math Support APIs], XMU555 constructor [DirectX Math Support APIs],XMU555 structure, XMU555 structure [DirectX Math Support APIs],XMU555 constructor, XMU555.XMU555, XMU555.XMU555(uint16_t), XMU555::XMU555, XMU555::XMU555(uint16_t), dxmath.xmu555_ctor_2
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMU555.XMU555"
+f1_keywords:
+- directxpackedvector/XMU555.XMU555
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMU555.XMU555
+- XMU555.XMU555
 targetos: Windows
 req.typenames: 
 req.redist: 

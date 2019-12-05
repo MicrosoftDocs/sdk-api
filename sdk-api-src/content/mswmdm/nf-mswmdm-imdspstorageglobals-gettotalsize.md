@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPStorageGlobals.GetTotalSize
 title: IMDSPStorageGlobals::GetTotalSize (mswmdm.h)
-
 description: The GetTotalSize method retrieves the total size, in bytes, of the medium associated with this IMDSPStorageGlobals interface.
 old-location: wmdm\imdspstorageglobals_gettotalsize.htm
 tech.root: WMDM
 ms.assetid: 6a4b4ac5-0b7e-4a22-9857-b251a6bf1dcf
-
 ms.date: 12/05/2018
 ms.keywords: GetTotalSize, GetTotalSize method [windows Media Device Manager], GetTotalSize method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetTotalSize method, IMDSPStorageGlobals.GetTotalSize, IMDSPStorageGlobals::GetTotalSize, IMDSPStorageGlobalsGetTotalSize, mswmdm/IMDSPStorageGlobals::GetTotalSize, wmdm.imdspstorageglobals_gettotalsize
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPStorageGlobals.GetTotalSize"
+f1_keywords:
+- mswmdm/IMDSPStorageGlobals.GetTotalSize
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPStorageGlobals.GetTotalSize
+- IMDSPStorageGlobals.GetTotalSize
 targetos: Windows
 req.typenames: 
 req.redist: 

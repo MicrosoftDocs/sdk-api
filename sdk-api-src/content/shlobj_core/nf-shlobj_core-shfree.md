@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHFree
 title: SHFree function (shlobj_core.h)
-
 description: Frees the memory allocated by SHAlloc.
 old-location: shell\SHFree.htm
 tech.root: shell
 ms.assetid: c9a532ad-ae24-4505-9e7b-577b90365441
-
 ms.date: 12/05/2018
 ms.keywords: SHFree, SHFree function [Windows Shell], _win32_SHFree, shell.SHFree, shlobj_core/SHFree
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHFree"
+f1_keywords:
+- shlobj_core/SHFree
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - Windows.Storage.dll
+- Shell32.dll
+- Windows.Storage.dll
 api_name:
- - SHFree
+- SHFree
 targetos: Windows
 req.typenames: 
 req.redist: 

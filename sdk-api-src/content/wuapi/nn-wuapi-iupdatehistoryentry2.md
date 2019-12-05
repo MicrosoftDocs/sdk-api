@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IUpdateHistoryEntry2
 title: IUpdateHistoryEntry2 (wuapi.h)
-
 description: Represents the recorded history of an update.
 old-location: wua\iupdatehistoryentry2.htm
 tech.root: Wua_Sdk
 ms.assetid: 99965928-17c7-4aaa-ba8c-6f3e07c7c5b7
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateHistoryEntry2, IUpdateHistoryEntry2 interface [Windows Update Agent], IUpdateHistoryEntry2 interface [Windows Update Agent],described, wua.iupdatehistoryentry2, wuapi/IUpdateHistoryEntry2
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IUpdateHistoryEntry2"
+f1_keywords:
+- wuapi/IUpdateHistoryEntry2
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateHistoryEntry2
+- IUpdateHistoryEntry2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:prntvpt.PTMergeAndValidatePrintTicket
 title: PTMergeAndValidatePrintTicket function (prntvpt.h)
-
 description: Merges two print tickets and returns a valid, viable print ticket.
 old-location: gdi\ptmergeandvalidateprintticket.htm
 tech.root: printdocs
 ms.assetid: 97691930-d76a-48c9-80b9-8413d96322a9
-
 ms.date: 12/05/2018
 ms.keywords: PTMergeAndValidatePrintTicket, PTMergeAndValidatePrintTicket function [Windows GDI], _win32_PTMergeAndValidatePrintTicket, gdi.ptmergeandvalidateprintticket, prntvpt/PTMergeAndValidatePrintTicket
 ms.topic: function
-f1_keywords: 
- - "prntvpt/PTMergeAndValidatePrintTicket"
+f1_keywords:
+- prntvpt/PTMergeAndValidatePrintTicket
 dev_langs:
- - c++
+- c++
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Prntvpt.lib
 req.dll: Prntvpt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - prntvpt.dll
+- prntvpt.dll
 api_name:
- - PTMergeAndValidatePrintTicket
+- PTMergeAndValidatePrintTicket
 targetos: Windows
 req.typenames: 
 req.redist: 

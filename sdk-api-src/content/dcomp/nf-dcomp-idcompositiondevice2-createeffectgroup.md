@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice2.CreateEffectGroup
 title: IDCompositionDevice2::CreateEffectGroup (dcomp.h)
-
 description: Creates an object that represents multiple effects to be applied to a visual subtree.
 old-location: directcomp\idcompositiondevice2_createeffectgroup.htm
 tech.root: directcomp
 ms.assetid: 07AF43F9-1050-48C5-B37B-787B5CC60E9D
-
 ms.date: 12/05/2018
 ms.keywords: CreateEffectGroup, CreateEffectGroup method [DirectComposition], CreateEffectGroup method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateEffectGroup method, IDCompositionDevice2.CreateEffectGroup, IDCompositionDevice2::CreateEffectGroup, dcomp/IDCompositionDevice2::CreateEffectGroup, directcomp.idcompositiondevice2_createeffectgroup
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice2.CreateEffectGroup"
+f1_keywords:
+- dcomp/IDCompositionDevice2.CreateEffectGroup
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionDevice2.CreateEffectGroup
+- IDCompositionDevice2.CreateEffectGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

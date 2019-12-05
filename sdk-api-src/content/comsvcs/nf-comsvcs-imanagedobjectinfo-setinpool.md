@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IManagedObjectInfo.SetInPool
 title: IManagedObjectInfo::SetInPool (comsvcs.h)
-
 description: Sets whether the managed object belongs to the COM+ object pool.
 old-location: cos\imanagedobjectinfo_setinpool.htm
 tech.root: cossdk
 ms.assetid: fef3842f-acf7-4aff-801d-17343633be8c
-
 ms.date: 12/05/2018
 ms.keywords: IManagedObjectInfo interface [COM+],SetInPool method, IManagedObjectInfo.SetInPool, IManagedObjectInfo::SetInPool, SetInPool, SetInPool method [COM+], SetInPool method [COM+],IManagedObjectInfo interface, _cos_IManagedObjectInfo_SetInPool, comsvcs/IManagedObjectInfo::SetInPool, cos.imanagedobjectinfo_setinpool
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IManagedObjectInfo.SetInPool"
+f1_keywords:
+- comsvcs/IManagedObjectInfo.SetInPool
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IManagedObjectInfo.SetInPool
+- IManagedObjectInfo.SetInPool
 targetos: Windows
 req.typenames: 
 req.redist: 

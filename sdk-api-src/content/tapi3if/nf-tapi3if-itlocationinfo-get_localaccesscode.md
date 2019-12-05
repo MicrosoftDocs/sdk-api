@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITLocationInfo.get_LocalAccessCode
 title: ITLocationInfo::get_LocalAccessCode (tapi3if.h)
-
 description: The get_LocalAccessCode method gets the local access code.
 old-location: tapi3\itlocationinfo_get_localaccesscode.htm
 tech.root: Tapi
 ms.assetid: 15e13c34-911f-4e4f-b7d9-f044bfb6c6d0
-
 ms.date: 12/05/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_LocalAccessCode method, ITLocationInfo.get_LocalAccessCode, ITLocationInfo::get_LocalAccessCode, _tapi3_itlocationinfo_get_localaccesscode, get_LocalAccessCode, get_LocalAccessCode method [TAPI 2.2], get_LocalAccessCode method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_localaccesscode, tapi3if/ITLocationInfo::get_LocalAccessCode
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITLocationInfo.get_LocalAccessCode"
+f1_keywords:
+- tapi3if/ITLocationInfo.get_LocalAccessCode
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITLocationInfo.get_LocalAccessCode
+- ITLocationInfo.get_LocalAccessCode
 targetos: Windows
 req.typenames: 
 req.redist: 

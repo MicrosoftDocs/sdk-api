@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetTransform
 title: IDirect3DDevice9::SetTransform (d3d9helper.h)
-
 description: Sets a single device transformation-related state.
 old-location: direct3d9\idirect3ddevice9__settransform.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__settransform.htm
-
 ms.date: 12/05/2018
 ms.keywords: 25042e52-3212-5250-0bac-ab23f76aaeb1, IDirect3DDevice9 interface [Direct3D 9],SetTransform method, IDirect3DDevice9.SetTransform, IDirect3DDevice9::SetTransform, SetTransform, SetTransform method [Direct3D 9], SetTransform method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetTransform, direct3d9.idirect3ddevice9__settransform
 ms.topic: method
-f1_keywords: 
- - "d3d9helper/IDirect3DDevice9.SetTransform"
+f1_keywords:
+- d3d9helper/IDirect3DDevice9.SetTransform
 dev_langs:
- - c++
+- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9.SetTransform
+- IDirect3DDevice9.SetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

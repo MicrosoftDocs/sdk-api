@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.InterlockedExchange
 title: InterlockedExchange function (winnt.h)
-
 description: Sets a 32-bit variable to the specified value as an atomic operation.
 old-location: base\interlockedexchange.htm
 tech.root: Sync
 ms.assetid: 22142195-b592-4a7b-9b23-e31984cc1d41
-
 ms.date: 12/05/2018
 ms.keywords: InterlockedExchange, InterlockedExchange function, _win32_interlockedexchange, base.interlockedexchange, winnt/InterlockedExchange
 ms.topic: function
-f1_keywords: 
- - "winnt/InterlockedExchange"
+f1_keywords:
+- winnt/InterlockedExchange
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Interlocked-l1-1-0.dll
- - API-MS-Win-Core-Interlocked-l1-2-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Interlocked-l1-1-0.dll
+- API-MS-Win-Core-Interlocked-l1-2-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
 api_name:
- - InterlockedExchange
+- InterlockedExchange
 targetos: Windows
 req.typenames: 
 req.redist: 

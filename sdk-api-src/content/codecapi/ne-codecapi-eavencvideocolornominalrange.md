@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVEncVideoColorNominalRange
 title: eAVEncVideoColorNominalRange (codecapi.h)
-
 description: Specifies the nominal range for a video source. This enumeration is used with the AVEncVideoInputChromaSubsampling and AVEncVideoOutputChromaSubsampling properties.
 old-location: dshow\eavencvideocolornominalrange.htm
 tech.root: DirectShow
 ms.assetid: e3f49d42-b683-463b-8e09-9497a9bfad25
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncVideoColorNominalRange, codecapi/eAVEncVideoColorNominalRange_0_255, codecapi/eAVEncVideoColorNominalRange_16_235, codecapi/eAVEncVideoColorNominalRange_48_208, codecapi/eAVEncVideoColorNominalRange_SameAsSource, dshow.eavencvideocolornominalrange, eAVEncVideoColorNominalRange, eAVEncVideoColorNominalRange enumeration [DirectShow], eAVEncVideoColorNominalRangeEnumeration, eAVEncVideoColorNominalRange_0_255, eAVEncVideoColorNominalRange_16_235, eAVEncVideoColorNominalRange_48_208, eAVEncVideoColorNominalRange_SameAsSource
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVEncVideoColorNominalRange"
+f1_keywords:
+- codecapi/eAVEncVideoColorNominalRange
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVEncVideoColorNominalRange
+- eAVEncVideoColorNominalRange
 targetos: Windows
 req.typenames: 
 req.redist: 

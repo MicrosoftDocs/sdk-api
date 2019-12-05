@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSGetPropertySystem
 title: PSGetPropertySystem function (propsys.h)
-
 description: Gets an instance of the subsystem object that implements IPropertySystem.
 old-location: properties\PSGetPropertySystem.htm
 tech.root: properties
 ms.assetid: ddbf7cea-b22f-4cf9-8b5f-804640086466
-
 ms.date: 12/05/2018
 ms.keywords: PSGetPropertySystem, PSGetPropertySystem function [Windows Properties], properties.PSGetPropertySystem, propsys/PSGetPropertySystem, shell.PSGetPropertySystem, shell_PSGetPropertySystem
 ms.topic: function
-f1_keywords: 
- - "propsys/PSGetPropertySystem"
+f1_keywords:
+- propsys/PSGetPropertySystem
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSGetPropertySystem
+- PSGetPropertySystem
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

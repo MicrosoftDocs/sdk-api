@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMStatusMessage.ErrorCode
 title: IGPMStatusMessage::ErrorCode (gpmgmt.h)
-
 description: Returns the error that occurred during the GPMC operation.
 old-location: gpmc\igpmstatusmessage_errorcode.htm
 tech.root: gpmc
 ms.assetid: 87a50523-1acb-4b58-b867-ec19b0cf960a
-
 ms.date: 12/05/2018
 ms.keywords: ErrorCode, ErrorCode method [GPMC], ErrorCode method [GPMC],GPMStatusMessage class, ErrorCode method [GPMC],IGPMStatusMessage interface, GPMStatusMessage class [GPMC],ErrorCode method, IGPMStatusMessage interface [GPMC],ErrorCode method, IGPMStatusMessage.ErrorCode, IGPMStatusMessage::ErrorCode, _win32_igpmstatusmessage_errorcode, gpmc.igpmstatusmessage_errorcode, gpmgmt/IGPMStatusMessage::ErrorCode
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMStatusMessage.ErrorCode"
+f1_keywords:
+- gpmgmt/IGPMStatusMessage.ErrorCode
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMStatusMessage.ErrorCode
- - GPMStatusMessage.ErrorCode
+- IGPMStatusMessage.ErrorCode
+- GPMStatusMessage.ErrorCode
 targetos: Windows
 req.typenames: 
 req.redist: 

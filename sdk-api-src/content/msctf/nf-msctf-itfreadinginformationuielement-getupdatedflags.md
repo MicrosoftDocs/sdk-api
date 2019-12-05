@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfReadingInformationUIElement.GetUpdatedFlags
 title: ITfReadingInformationUIElement::GetUpdatedFlags (msctf.h)
-
 description: This method returns the flag that tells which part of this element was updated.
 old-location: tsf\itfreadinginformationuielement_getupdatedflags.htm
 tech.root: TSF
 ms.assetid: 6a5b1a50-9d0b-440a-a98f-80fd33c6cd95
-
 ms.date: 12/05/2018
 ms.keywords: GetUpdatedFlags, GetUpdatedFlags method [Text Services Framework], GetUpdatedFlags method [Text Services Framework],ITfReadingInformationUIElement interface, ITfReadingInformationUIElement interface [Text Services Framework],GetUpdatedFlags method, ITfReadingInformationUIElement.GetUpdatedFlags, ITfReadingInformationUIElement::GetUpdatedFlags, TF_RIUIE_CONTEXT, TF_RIUIE_ERRORINDEX, TF_RIUIE_MAXREADINGSTRINGLENGTH, TF_RIUIE_STRING, TF_RIUIE_VERTICALORDER, msctf/ITfReadingInformationUIElement::GetUpdatedFlags, tsf.iitfreadinginformationuielement_getupdatedflags, tsf.itfreadinginformationuielement_getupdatedflags
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfReadingInformationUIElement.GetUpdatedFlags"
+f1_keywords:
+- msctf/ITfReadingInformationUIElement.GetUpdatedFlags
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfReadingInformationUIElement.GetUpdatedFlags
+- ITfReadingInformationUIElement.GetUpdatedFlags
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

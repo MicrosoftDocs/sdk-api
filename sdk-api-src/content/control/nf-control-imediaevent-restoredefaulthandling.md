@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IMediaEvent.RestoreDefaultHandling
 title: IMediaEvent::RestoreDefaultHandling (control.h)
-
 description: The RestoreDefaultHandling method restores the Filter Graph Manager's default handling for a specified event.
 old-location: dshow\imediaevent_restoredefaulthandling.htm
 tech.root: DirectShow
 ms.assetid: 2df616b0-b944-44ab-8147-4f70796dd2a2
-
 ms.date: 12/05/2018
 ms.keywords: IMediaEvent interface [DirectShow],RestoreDefaultHandling method, IMediaEvent.RestoreDefaultHandling, IMediaEvent::RestoreDefaultHandling, IMediaEventRestoreDefaultHandling, RestoreDefaultHandling, RestoreDefaultHandling method [DirectShow], RestoreDefaultHandling method [DirectShow],IMediaEvent interface, control/IMediaEvent::RestoreDefaultHandling, dshow.imediaevent_restoredefaulthandling
 ms.topic: method
-f1_keywords: 
- - "control/IMediaEvent.RestoreDefaultHandling"
+f1_keywords:
+- control/IMediaEvent.RestoreDefaultHandling
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaEvent.RestoreDefaultHandling
+- IMediaEvent.RestoreDefaultHandling
 targetos: Windows
 req.typenames: 
 req.redist: 

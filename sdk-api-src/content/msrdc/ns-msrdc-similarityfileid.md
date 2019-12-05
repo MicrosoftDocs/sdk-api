@@ -1,19 +1,17 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0015
 title: SimilarityFileId (msrdc.h)
-
 description: Contains the similarity file ID for a file.
 old-location: rdc\similarityfileid.htm
 tech.root: rdc
 ms.assetid: 07fcb382-726c-4615-83e9-f69eec778311
-
 ms.date: 12/05/2018
 ms.keywords: SimilarityFileId, SimilarityFileId structure [Remote Differential Compression], fs.similarityfileid, msrdc/SimilarityFileId, rdc.similarityfileid
 ms.topic: struct
-f1_keywords: 
- - "msrdc/SimilarityFileId"
+f1_keywords:
+- msrdc/SimilarityFileId
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - MsRdc.h
+- MsRdc.h
 api_name:
- - SimilarityFileId
+- SimilarityFileId
 targetos: Windows
 req.typenames: SimilarityFileId
 req.redist: 

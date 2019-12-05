@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateBlendEffect
 title: IDCompositionDevice3::CreateBlendEffect (dcomp.h)
-
 description: Creates an instance of IDCompositionBlendEffect.
 old-location: directcomp\idcompositiondevice3_createblendeffect.htm
 tech.root: directcomp
 ms.assetid: 20E05261-E5B6-4F48-B595-F2AD8B96AB2E
-
 ms.date: 12/05/2018
 ms.keywords: CreateBlendEffect, CreateBlendEffect method [DirectComposition], CreateBlendEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateBlendEffect method, IDCompositionDevice3.CreateBlendEffect, IDCompositionDevice3::CreateBlendEffect, dcomp/IDCompositionDevice3::CreateBlendEffect, directcomp.idcompositiondevice3_createblendeffect
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice3.CreateBlendEffect"
+f1_keywords:
+- dcomp/IDCompositionDevice3.CreateBlendEffect
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dcomp.dll
+- dcomp.dll
 api_name:
- - IDCompositionDevice3.CreateBlendEffect
+- IDCompositionDevice3.CreateBlendEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

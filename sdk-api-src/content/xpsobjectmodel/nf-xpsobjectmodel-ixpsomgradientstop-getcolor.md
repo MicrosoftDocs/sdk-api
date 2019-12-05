@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStop.GetColor
 title: IXpsOMGradientStop::GetColor (xpsobjectmodel.h)
-
 description: Gets the color value and color profile of the gradient stop.
 old-location: xps\ixpsomgradientstop_getcolor.htm
 tech.root: printdocs
 ms.assetid: 6630d58f-d0f0-4b39-a14c-d3955f0f401a
-
 ms.date: 12/05/2018
 ms.keywords: GetColor, GetColor method [XPS Documents and Packaging], GetColor method [XPS Documents and Packaging],IXpsOMGradientStop interface, IXpsOMGradientStop interface [XPS Documents and Packaging],GetColor method, IXpsOMGradientStop.GetColor, IXpsOMGradientStop::GetColor, xps.ixpsomgradientstop_getcolor, xpsobjectmodel/IXpsOMGradientStop::GetColor
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGradientStop.GetColor"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGradientStop.GetColor
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGradientStop.GetColor
+- IXpsOMGradientStop.GetColor
 targetos: Windows
 req.typenames: 
 req.redist: 

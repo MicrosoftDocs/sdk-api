@@ -1,19 +1,17 @@
 ---
 UID: NS:cmdtree.tagDBPROBABILISTIC
 title: DBPROBABILISTIC (cmdtree.h)
-
 description: The DBPROBABILISTIC structure is reserved for future use.
 old-location: indexsrv\dbprobabilistic.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_0vxf.htm
-
 ms.date: 12/05/2018
 ms.keywords: DBPROBABILISTIC, DBPROBABILISTIC structure [Indexing Service], _idxs_DBPROBABILISTIC, cmdtree/DBPROBABILISTIC, indexsrv.dbprobabilistic, tagDBPROBABILISTIC
 ms.topic: struct
-f1_keywords: 
- - "cmdtree/DBPROBABILISTIC"
+f1_keywords:
+- cmdtree/DBPROBABILISTIC
 dev_langs:
- - c++
+- c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - cmdtree.h
+- cmdtree.h
 api_name:
- - DBPROBABILISTIC
+- DBPROBABILISTIC
 targetos: Windows
 req.typenames: DBPROBABILISTIC
 req.redist: 

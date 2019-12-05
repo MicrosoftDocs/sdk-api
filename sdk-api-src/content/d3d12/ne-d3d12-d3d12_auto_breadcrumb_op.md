@@ -1,16 +1,14 @@
 ---
 UID: NE:d3d12.D3D12_AUTO_BREADCRUMB_OP
 title: D3D12_AUTO_BREADCRUMB_OP
-
 description: Defines constants that specify render/compute GPU operations.
-
 ms.date: 02/07/2019
 ms.keywords: D3D12_AUTO_BREADCRUMB_OP, D3D12_AUTO_BREADCRUMB_OP enumeration, d3d12/D3D12_AUTO_BREADCRUMB_OP, d3d12/D3D12_AUTO_BREADCRUMB_OP enumeration, direct3d12.d3d12_auto_breadcrumb_op
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_AUTO_BREADCRUMB_OP"
+f1_keywords:
+- d3d12/D3D12_AUTO_BREADCRUMB_OP
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -24,13 +22,13 @@ req.target-type:
 req.typenames: D3D12_AUTO_BREADCRUMB_OP
 req.umdf-ver: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_AUTO_BREADCRUMB_OP
+- D3D12_AUTO_BREADCRUMB_OP
 ms.custom: 19H1
 ---
 

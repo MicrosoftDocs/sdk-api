@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMChannelInfo.get_ContactEmail
 title: IAMChannelInfo::get_ContactEmail (qnetwork.h)
-
 description: The get_ContactEmail method gets the email address of the contact.
 old-location: dshow\iamchannelinfo_get_contactemail.htm
 tech.root: DirectShow
 ms.assetid: a8ab9fc0-1370-44a1-95c8-6592c374d8d6
-
 ms.date: 12/05/2018
 ms.keywords: IAMChannelInfo interface [DirectShow],get_ContactEmail method, IAMChannelInfo.get_ContactEmail, IAMChannelInfo::get_ContactEmail, IAMChannelInfoget_ContactEmail, dshow.iamchannelinfo_get_contactemail, get_ContactEmail, get_ContactEmail method [DirectShow], get_ContactEmail method [DirectShow],IAMChannelInfo interface, qnetwork/IAMChannelInfo::get_ContactEmail
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMChannelInfo.get_ContactEmail"
+f1_keywords:
+- qnetwork/IAMChannelInfo.get_ContactEmail
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMChannelInfo.get_ContactEmail
+- IAMChannelInfo.get_ContactEmail
 targetos: Windows
 req.typenames: 
 req.redist: 

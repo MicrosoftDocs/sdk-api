@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RtmUpdateAndUnlockRoute
 title: RtmUpdateAndUnlockRoute function (rtmv2.h)
-
 description: The RtmUpdateAndUnlockRoute function updates the position of the route in the set of routes for a destination, and adjusts the best route information for the destination.
 old-location: rras\rtmupdateandunlockroute.htm
 tech.root: RRAS
 ms.assetid: 917e3e90-b06b-410d-8456-d76e2baa76f8
-
 ms.date: 12/05/2018
 ms.keywords: RtmUpdateAndUnlockRoute, RtmUpdateAndUnlockRoute function [RAS], _rtmv2ref_rtmupdateandunlockroute, rras.rtmupdateandunlockroute, rtmv2/RtmUpdateAndUnlockRoute
 ms.topic: function
-f1_keywords: 
- - "rtmv2/RtmUpdateAndUnlockRoute"
+f1_keywords:
+- rtmv2/RtmUpdateAndUnlockRoute
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - RtmUpdateAndUnlockRoute
+- RtmUpdateAndUnlockRoute
 targetos: Windows
 req.typenames: 
 req.redist: 

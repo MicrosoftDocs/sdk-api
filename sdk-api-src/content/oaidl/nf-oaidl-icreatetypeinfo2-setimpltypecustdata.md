@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.SetImplTypeCustData
 title: ICreateTypeInfo2::SetImplTypeCustData (oaidl.h)
-
 description: Sets a value for custom data for the specified implementation type.
 old-location: automat\icreatetypeinfo2_setimpltypecustdata.htm
 tech.root: automat
 ms.assetid: f9dee7fc-b713-4a68-a8ea-2398a266e728
-
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo2 interface [Automation],SetImplTypeCustData method, ICreateTypeInfo2.SetImplTypeCustData, ICreateTypeInfo2::SetImplTypeCustData, SetImplTypeCustData, SetImplTypeCustData method [Automation], SetImplTypeCustData method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetImplTypeCustData, automat.icreatetypeinfo2_setimpltypecustdata, oaidl/ICreateTypeInfo2::SetImplTypeCustData
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeInfo2.SetImplTypeCustData"
+f1_keywords:
+- oaidl/ICreateTypeInfo2.SetImplTypeCustData
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeInfo2.SetImplTypeCustData
+- ICreateTypeInfo2.SetImplTypeCustData
 targetos: Windows
 req.typenames: 
 req.redist: 

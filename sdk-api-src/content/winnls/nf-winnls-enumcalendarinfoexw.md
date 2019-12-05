@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.EnumCalendarInfoExW
 title: EnumCalendarInfoExW function (winnls.h)
-
 description: Enumerates calendar information for a locale specified by identifier.Note  Any application that runs only on Windows Vista and later should use EnumCalendarInfoExEx in preference to this function.
 old-location: intl\enumcalendarinfoex.htm
 tech.root: Intl
 ms.assetid: 5a313af5-e595-49b1-9651-a5afc158c7a7
-
 ms.date: 12/05/2018
 ms.keywords: EnumCalendarInfoEx, EnumCalendarInfoEx function [Internationalization for Windows Applications], EnumCalendarInfoExA, EnumCalendarInfoExW, _win32_EnumCalendarInfoEx, intl.enumcalendarinfoex, winnls/EnumCalendarInfoEx, winnls/EnumCalendarInfoExA, winnls/EnumCalendarInfoExW
 ms.topic: function
-f1_keywords: 
- - "winnls/EnumCalendarInfoEx"
+f1_keywords:
+- winnls/EnumCalendarInfoEx
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l2-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l2-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - EnumCalendarInfoEx
- - EnumCalendarInfoExA
- - EnumCalendarInfoExW
+- EnumCalendarInfoEx
+- EnumCalendarInfoExA
+- EnumCalendarInfoExW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetUpdateRgn
 title: GetUpdateRgn function (winuser.h)
-
 description: The GetUpdateRgn function retrieves the update region of a window by copying it into the specified region. The coordinates of the update region are relative to the upper-left corner of the window (that is, they are client coordinates).
 old-location: gdi\getupdatergn.htm
 tech.root: gdi
 ms.assetid: d80c4b44-3f50-46f9-bf5a-fff7868d91ba
-
 ms.date: 12/05/2018
 ms.keywords: GetUpdateRgn, GetUpdateRgn function [Windows GDI], _win32_GetUpdateRgn, gdi.getupdatergn, winuser/GetUpdateRgn
 ms.topic: function
-f1_keywords: 
- - "winuser/GetUpdateRgn"
+f1_keywords:
+- winuser/GetUpdateRgn
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-0.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-1.dll
- - ext-ms-win-ntuser-draw-l1-1-2.dll
+- user32.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-0.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-1.dll
+- ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
- - GetUpdateRgn
+- GetUpdateRgn
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMXDECN4.XMXDECN4(const float)
 title: XMXDECN4::XMXDECN4(const float) (directxpackedvector.h)
-
 description: Initializes a new instance of XMXDECN4 from a four element float array argument.
 old-location: 
 tech.root: dxmath
 ms.assetid: 1a68e73b-b1d2-43f1-9235-6ba84d3085f7
-
 ms.date: 05/06/2019
 ms.keywords: XMXDECN4, XMXDECN4 constructor [DirectX Math Support APIs], XMXDECN4 constructor [DirectX Math Support APIs],XMXDECN4 structure, XMXDECN4 structure [DirectX Math Support APIs],XMXDECN4 constructor, XMXDECN4.XMXDECN4, XMXDECN4.XMXDECN4(), XMXDECN4.XMXDECN4(const float), XMXDECN4::XMXDECN4, XMXDECN4::XMXDECN4(const float), dxmath.xmxdecn4_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMXDECN4.XMXDECN4"
+f1_keywords:
+- directxpackedvector/XMXDECN4.XMXDECN4
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMXDECN4.XMXDECN4
+- XMXDECN4.XMXDECN4
 targetos: Windows
 req.typenames: 
 req.redist: 

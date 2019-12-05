@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.RemoveMenusSB
 title: IShellBrowser::RemoveMenusSB (shobjidl_core.h)
-
 description: Permits the container to remove any of its menu elements from the in-place composite menu and to free all associated resources.
 old-location: shell\IShellBrowser_RemoveMenusSB.htm
 tech.root: shell
 ms.assetid: aa96ac59-62cd-4010-8a0f-b743527f61da
-
 ms.date: 12/05/2018
 ms.keywords: IShellBrowser interface [Windows Shell],RemoveMenusSB method, IShellBrowser.RemoveMenusSB, IShellBrowser::RemoveMenusSB, RemoveMenusSB, RemoveMenusSB method [Windows Shell], RemoveMenusSB method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_RemoveMenusSB, shell.IShellBrowser_RemoveMenusSB, shobjidl_core/IShellBrowser::RemoveMenusSB
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellBrowser.RemoveMenusSB"
+f1_keywords:
+- shobjidl_core/IShellBrowser.RemoveMenusSB
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellBrowser.RemoveMenusSB
+- IShellBrowser.RemoveMenusSB
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasSetAutodialParamA
 title: RasSetAutodialParamA function (ras.h)
-
 description: The RasSetAutodialParam function sets the value of an AutoDial parameter.
 old-location: rras\rassetautodialparam.htm
 tech.root: RRAS
 ms.assetid: 76c52494-e8ad-41df-bee6-33d90f24e448
-
 ms.date: 12/05/2018
 ms.keywords: RASADP_ConnectionQueryTimeout, RASADP_DisableConnectionQuery, RASADP_FailedConnectionTimeout, RASADP_LoginSessionDisable, RASADP_SavedAddressesLimit, RasSetAutodialParam, RasSetAutodialParam function [RAS], RasSetAutodialParamA, RasSetAutodialParamW, _ras_rassetautodialparam, ras/RasSetAutodialParam, ras/RasSetAutodialParamA, ras/RasSetAutodialParamW, rras.rassetautodialparam
 ms.topic: function
-f1_keywords: 
- - "ras/RasSetAutodialParam"
+f1_keywords:
+- ras/RasSetAutodialParam
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasSetAutodialParam
- - RasSetAutodialParamA
- - RasSetAutodialParamW
+- RasSetAutodialParam
+- RasSetAutodialParamA
+- RasSetAutodialParamW
 targetos: Windows
 req.typenames: 
 req.redist: 

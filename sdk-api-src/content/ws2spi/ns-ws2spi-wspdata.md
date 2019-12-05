@@ -22,14 +22,14 @@ req.typenames: WSPDATA, *LPWSPDATA
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ws2spi.h
+- ws2spi.h
 api_name:
- - WSPData
- - WSPDATA
+- WSPData
+- WSPDATA
 ---
 
 ## -description

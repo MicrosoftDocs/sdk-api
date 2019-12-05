@@ -1,19 +1,17 @@
 ---
 UID: NN:oleidl.IOleAdviseHolder
 title: IOleAdviseHolder (oleidl.h)
-
 description: Manages advisory connections and compound document notifications in an object server.
 old-location: com\ioleadviseholder.htm
 tech.root: com
 ms.assetid: 680afee7-2bee-4d54-ae0b-3e4e0deb622f
-
 ms.date: 12/05/2018
 ms.keywords: IOleAdviseHolder, IOleAdviseHolder interface [COM], IOleAdviseHolder interface [COM],described, _ole_ioleadviseholder, com.ioleadviseholder, oleidl/IOleAdviseHolder
 ms.topic: interface
-f1_keywords: 
- - "oleidl/IOleAdviseHolder"
+f1_keywords:
+- oleidl/IOleAdviseHolder
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleAdviseHolder
+- IOleAdviseHolder
 targetos: Windows
 req.typenames: 
 req.redist: 

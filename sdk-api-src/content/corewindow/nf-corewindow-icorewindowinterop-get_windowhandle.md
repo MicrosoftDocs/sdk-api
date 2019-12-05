@@ -1,19 +1,17 @@
 ---
 UID: NF:corewindow.ICoreWindowInterop.get_WindowHandle
 title: ICoreWindowInterop::get_WindowHandle (corewindow.h)
-
 description: Obtains the handle (HWND) to the CoreWindow for an app.
 old-location: winrt\icorewindowinterop_windowhandle.htm
 tech.root: WinRT
 ms.assetid: F95B96BA-617C-4D77-B974-E78DE4E36210
-
 ms.date: 12/05/2018
 ms.keywords: ICoreWindowInterop interface [Windows Runtime],WindowHandle property, ICoreWindowInterop.WindowHandle, ICoreWindowInterop.get_WindowHandle, ICoreWindowInterop::WindowHandle, ICoreWindowInterop::get_WindowHandle, WindowHandle property [Windows Runtime], WindowHandle property [Windows Runtime],ICoreWindowInterop interface, corewindow/ICoreWindowInterop::WindowHandle, corewindow/ICoreWindowInterop::get_WindowHandle, get_WindowHandle, winrt.icorewindowinterop_windowhandle
 ms.topic: method
-f1_keywords: 
- - "corewindow/ICoreWindowInterop.WindowHandle"
+f1_keywords:
+- corewindow/ICoreWindowInterop.WindowHandle
 dev_langs:
- - c++
+- c++
 req.header: corewindow.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - corewindow.h
+- corewindow.h
 api_name:
- - ICoreWindowInterop.WindowHandle
- - ICoreWindowInterop.get_WindowHandle
+- ICoreWindowInterop.WindowHandle
+- ICoreWindowInterop.get_WindowHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLGatherMigrationBlob
 title: SLGatherMigrationBlob function (slpublic.h)
-
 description: Gathers licensing information for the provided file handle. This licensing information can later be applied or deposited using the SLDepositMigrationBlob function.
 old-location: security\slgathermigrationblob.htm
 tech.root: SecSLApi
 ms.assetid: 490a5dbd-8c4b-4b25-ae21-f5f58b97a58f
-
 ms.date: 12/05/2018
 ms.keywords: SLGatherMigrationBlob, SLGatherMigrationBlob function [Security], security.slgathermigrationblob, slpublic/SLGatherMigrationBlob
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLGatherMigrationBlob"
+f1_keywords:
+- slpublic/SLGatherMigrationBlob
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLGatherMigrationBlob
+- SLGatherMigrationBlob
 targetos: Windows
 req.typenames: 
 req.redist: 

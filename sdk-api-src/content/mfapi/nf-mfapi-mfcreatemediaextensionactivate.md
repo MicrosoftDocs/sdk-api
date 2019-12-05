@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateMediaExtensionActivate
 title: MFCreateMediaExtensionActivate function (mfapi.h)
-
 description: Creates an activation object for a Windows Runtime class.
 old-location: mf\mfcreatemediaextensionactivate.htm
 tech.root: medfound
 ms.assetid: 3F9538F2-DB7A-4841-B61D-C59BC02718B1
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateMediaExtensionActivate, MFCreateMediaExtensionActivate function [Media Foundation], mf.mfcreatemediaextensionactivate, mf.mfcreatewinrtactivate, mfapi/MFCreateMediaExtensionActivate
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateMediaExtensionActivate"
+f1_keywords:
+- mfapi/MFCreateMediaExtensionActivate
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateMediaExtensionActivate
+- MFCreateMediaExtensionActivate
 targetos: Windows
 req.typenames: 
 req.redist: 

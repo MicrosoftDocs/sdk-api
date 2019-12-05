@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.MonthCal_SetCurrentView
 title: MonthCal_SetCurrentView macro (commctrl.h)
-
 description: Sets the view for a month calendar control. You can use this macro or send the MCM_SETCURRENTVIEW message explicitly.
 old-location: controls\MonthCal_SetCurrentView.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setcurrentview.htm
-
 ms.date: 12/05/2018
 ms.keywords: MCMV_CENTURY, MCMV_DECADE, MCMV_MONTH, MCMV_YEAR, MonthCal_SetCurrentView, MonthCal_SetCurrentView macro [Windows Controls], _shell_MonthCal_SetCurrentView, _shell_MonthCal_SetCurrentView_cpp, commctrl/MonthCal_SetCurrentView, controls.MonthCal_SetCurrentView, controls._shell_MonthCal_SetCurrentView
 ms.topic: macro
-f1_keywords: 
- - "commctrl/MonthCal_SetCurrentView"
+f1_keywords:
+- commctrl/MonthCal_SetCurrentView
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - MonthCal_SetCurrentView
+- MonthCal_SetCurrentView
 targetos: Windows
 req.typenames: 
 req.redist: 

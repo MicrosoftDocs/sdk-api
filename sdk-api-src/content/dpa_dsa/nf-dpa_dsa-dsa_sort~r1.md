@@ -4,10 +4,10 @@ title: DSA_Sort
 ms.date: 01/30/19
 ms.keywords: DSA_Sort
 ms.topic: language-reference
-f1_keywords: 
- - "dpa_dsa/DSA_Sort"
+f1_keywords:
+- dpa_dsa/DSA_Sort
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,13 +29,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - dpa_dsa.h
+- dpa_dsa.h
 api_name:
- - DSA_Sort
+- DSA_Sort
 ---
 
 # DSA_Sort function

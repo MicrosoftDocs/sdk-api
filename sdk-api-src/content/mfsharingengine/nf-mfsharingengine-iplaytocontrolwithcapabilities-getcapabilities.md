@@ -1,19 +1,17 @@
 ---
 UID: NF:mfsharingengine.IPlayToControlWithCapabilities.GetCapabilities
 title: IPlayToControlWithCapabilities::GetCapabilities (mfsharingengine.h)
-
 description: Gets the capabilities information for the content.
 old-location: mf\iplaytocontrolwithcapabilities_getcapabilities.htm
 tech.root: medfound
 ms.assetid: 04d35ac6-af8c-4e95-865b-54bbc7e36059
-
 ms.date: 12/05/2018
 ms.keywords: GetCapabilities, GetCapabilities method [Media Foundation], GetCapabilities method [Media Foundation],IPlayToControlWithCapabilities interface, IPlayToControlWithCapabilities interface [Media Foundation],GetCapabilities method, IPlayToControlWithCapabilities.GetCapabilities, IPlayToControlWithCapabilities::GetCapabilities, mf.iplaytocontrolwithcapabilities_getcapabilities, mfsharingengine/IPlayToControlWithCapabilities::GetCapabilities
 ms.topic: method
-f1_keywords: 
- - "mfsharingengine/IPlayToControlWithCapabilities.GetCapabilities"
+f1_keywords:
+- mfsharingengine/IPlayToControlWithCapabilities.GetCapabilities
 dev_langs:
- - c++
+- c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfsharingengine.h
+- mfsharingengine.h
 api_name:
- - IPlayToControlWithCapabilities.GetCapabilities
+- IPlayToControlWithCapabilities.GetCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiUseFeatureExW
 title: MsiUseFeatureExW function (msi.h)
-
 description: The MsiUseFeatureEx function increments the usage count for a particular feature and indicates the installation state for that feature. This function should be used to indicate an application's intent to use a feature.
 old-location: setup\msiusefeatureex.htm
 tech.root: Msi
 ms.assetid: fa05124c-e1ed-4059-9af3-2a914785799d
-
 ms.date: 12/05/2018
 ms.keywords: INSTALLMODE_NODETECTION, MsiUseFeatureEx, MsiUseFeatureEx function, MsiUseFeatureExA, MsiUseFeatureExW, _msi_msiusefeatureex, msi/MsiUseFeatureEx, msi/MsiUseFeatureExA, msi/MsiUseFeatureExW, setup.msiusefeatureex
 ms.topic: function
-f1_keywords: 
- - "msi/MsiUseFeatureEx"
+f1_keywords:
+- msi/MsiUseFeatureEx
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiUseFeatureEx
- - MsiUseFeatureExA
- - MsiUseFeatureExW
+- MsiUseFeatureEx
+- MsiUseFeatureExA
+- MsiUseFeatureExW
 targetos: Windows
 req.typenames: 
 req.redist: 

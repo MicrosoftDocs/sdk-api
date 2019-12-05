@@ -1,19 +1,17 @@
 ---
 UID: NF:roerrorapi.RoReportUnhandledError
 title: RoReportUnhandledError function
-
 description: Triggers the Global Error Handler when an unhandled exception occurs.
 old-location: winrt\roreportunhandlederror.htm
 tech.root: WinRT
 ms.assetid: DE8F29B4-505C-480E-9258-9E5300BEA3F0
-
 ms.date: 12/5/2018
 ms.keywords: RoReportUnhandledError, RoReportUnhandledError function [Windows Runtime], roerrorapi/RoReportUnhandledError, winrt.roreportunhandlederror
 ms.topic: function
-f1_keywords: 
- - "roerrorapi/RoReportUnhandledError"
+f1_keywords:
+- roerrorapi/RoReportUnhandledError
 dev_langs:
- - c++
+- c++
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Runtimeobject.lib
 req.dll: Api-ms-win-core-winrt-error-l1-1-1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-core-winrt-error-l1-1-1.dll
- - ComBase.dll
+- api-ms-win-core-winrt-error-l1-1-1.dll
+- ComBase.dll
 api_name:
- - RoReportUnhandledError
+- RoReportUnhandledError
 targetos: Windows
 req.typenames: 
 req.redist: 

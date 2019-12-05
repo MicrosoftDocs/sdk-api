@@ -1,19 +1,17 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.Invalidate
 title: IDiskQuotaUser::Invalidate (dskquota.h)
-
 description: Invalidates the quota information stored in the quota user object.
 old-location: fs\idiskquotauser_invalidate.htm
 tech.root: FileIO
 ms.assetid: 23a51df4-0578-43fe-99cd-491f709accab
-
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaUser interface [Files],Invalidate method, IDiskQuotaUser.Invalidate, IDiskQuotaUser::Invalidate, Invalidate, Invalidate method [Files], Invalidate method [Files],IDiskQuotaUser interface, _win32_idiskquotauser_invalidate, base.idiskquotauser_invalidate, dskquota/IDiskQuotaUser::Invalidate, fs.idiskquotauser_invalidate
 ms.topic: method
-f1_keywords: 
- - "dskquota/IDiskQuotaUser.Invalidate"
+f1_keywords:
+- dskquota/IDiskQuotaUser.Invalidate
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaUser.Invalidate
+- IDiskQuotaUser.Invalidate
 targetos: Windows
 req.typenames: 
 req.redist: 

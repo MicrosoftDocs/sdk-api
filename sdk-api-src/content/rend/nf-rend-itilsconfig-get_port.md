@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.ITILSConfig.get_Port
 title: ITILSConfig::get_Port (rend.h)
-
 description: The get_Port method gets the port number used to connect to the server of a given ILS directory.
 old-location: tapi3\itilsconfig_get_port.htm
 tech.root: Tapi
 ms.assetid: 7aa0a8e7-6799-4685-92a0-c2ce610d0e06
-
 ms.date: 12/05/2018
 ms.keywords: ITILSConfig interface [TAPI 2.2],get_Port method, ITILSConfig.get_Port, ITILSConfig::get_Port, _tapi3_itilsconfig_get_port, get_Port, get_Port method [TAPI 2.2], get_Port method [TAPI 2.2],ITILSConfig interface, rend/ITILSConfig::get_Port, tapi3.itilsconfig_get_port
 ms.topic: method
-f1_keywords: 
- - "rend/ITILSConfig.get_Port"
+f1_keywords:
+- rend/ITILSConfig.get_Port
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITILSConfig.get_Port
+- ITILSConfig.get_Port
 targetos: Windows
 req.typenames: 
 req.redist: 

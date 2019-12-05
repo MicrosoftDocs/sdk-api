@@ -1,19 +1,17 @@
 ---
 UID: NE:appmodel.AppPolicyLifecycleManagement
 title: AppPolicyLifecycleManagement (appmodel.h)
-
 description: The AppPolicyLifecycleManagement enumeration indicates whether a process is lifecycle-managed or not.
 old-location: appxpkg\apppolicylifecyclemanagement_enumeration.htm
 tech.root: appxpkg
 ms.assetid: 42BD1BA6-AD5B-4CD0-8860-20A85048D19A
-
 ms.date: 12/05/2018
 ms.keywords: AppPolicyLifecycleManagement, AppPolicyLifecycleManagement enumeration [App packaging and management], AppPolicyLifecycleManagement_Managed, AppPolicyLifecycleManagement_Unmanaged, appmodel/AppPolicyLifecycleManagement, appmodel/AppPolicyLifecycleManagement_Managed, appmodel/AppPolicyLifecycleManagement_Unmanaged, appxpkg.apppolicylifecyclemanagement_enumeration
 ms.topic: enum
-f1_keywords: 
- - "appmodel/AppPolicyLifecycleManagement"
+f1_keywords:
+- appmodel/AppPolicyLifecycleManagement
 dev_langs:
- - c++
+- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AppModel.h
+- AppModel.h
 api_name:
- - AppPolicyLifecycleManagement
+- AppPolicyLifecycleManagement
 targetos: Windows
 req.typenames: AppPolicyLifecycleManagement
 req.redist: 

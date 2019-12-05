@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFPMPHostApp.ActivateClassById
 title: IMFPMPHostApp::ActivateClassById (mfidl.h)
-
 description: Creates a Windows Runtime object in the protected media path (PMP) process.
 old-location: mf\imfpmphostapp_activateclassbyid.htm
 tech.root: medfound
 ms.assetid: e0e14171-fcc9-418a-a93d-3cdbae254a3f
-
 ms.date: 12/05/2018
 ms.keywords: ActivateClassById, ActivateClassById method [Media Foundation], ActivateClassById method [Media Foundation],IMFPMPHostApp interface, IMFPMPHostApp interface [Media Foundation],ActivateClassById method, IMFPMPHostApp.ActivateClassById, IMFPMPHostApp::ActivateClassById, mf.imfpmphostapp_activateclassbyid, mfidl/IMFPMPHostApp::ActivateClassById
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFPMPHostApp.ActivateClassById"
+f1_keywords:
+- mfidl/IMFPMPHostApp.ActivateClassById
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFPMPHostApp.ActivateClassById
+- IMFPMPHostApp.ActivateClassById
 targetos: Windows
 req.typenames: 
 req.redist: 

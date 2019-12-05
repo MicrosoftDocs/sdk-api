@@ -1,19 +1,17 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProviderNotify.Add
 title: IWSDiscoveryProviderNotify::Add (wsddisco.h)
-
 description: Provides information on either a newly announced discovery host (from a Hello message), or a match to a user initiated query.
 old-location: ncd\iwsdiscoveryprovidernotify_add.htm
 tech.root: WsdApi
 ms.assetid: 4e36157f-444d-4e59-bc30-c6def9c51cea
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method, Add method,IWSDiscoveryProviderNotify interface, IWSDiscoveryProviderNotify interface,Add method, IWSDiscoveryProviderNotify.Add, IWSDiscoveryProviderNotify::Add, ncd.iwsdiscoveryprovidernotify_add, wsddisco/IWSDiscoveryProviderNotify::Add
 ms.topic: method
-f1_keywords: 
- - "wsddisco/IWSDiscoveryProviderNotify.Add"
+f1_keywords:
+- wsddisco/IWSDiscoveryProviderNotify.Add
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDiscoveryProviderNotify.Add
+- IWSDiscoveryProviderNotify.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

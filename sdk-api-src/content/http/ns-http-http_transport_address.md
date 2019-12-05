@@ -1,19 +1,17 @@
 ---
 UID: NS:http._HTTP_TRANSPORT_ADDRESS
 title: HTTP_TRANSPORT_ADDRESS (http.h)
-
 description: Specifies the addresses (local and remote) used for a particular HTTP connection.
 old-location: http\http_transport_address.htm
 tech.root: http
 ms.assetid: 2dac2817-c911-4ca1-afb1-32147a16ad4c
-
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_TRANSPORT_ADDRESS, HTTP_TRANSPORT_ADDRESS, HTTP_TRANSPORT_ADDRESS structure [HTTP], PHTTP_TRANSPORT_ADDRESS, PHTTP_TRANSPORT_ADDRESS structure pointer [HTTP], _http_http_transport_address, http.http_transport_address, http/HTTP_TRANSPORT_ADDRESS, http/PHTTP_TRANSPORT_ADDRESS"
+ms.keywords: '*PHTTP_TRANSPORT_ADDRESS, HTTP_TRANSPORT_ADDRESS, HTTP_TRANSPORT_ADDRESS structure [HTTP], PHTTP_TRANSPORT_ADDRESS, PHTTP_TRANSPORT_ADDRESS structure pointer [HTTP], _http_http_transport_address, http.http_transport_address, http/HTTP_TRANSPORT_ADDRESS, http/PHTTP_TRANSPORT_ADDRESS'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_TRANSPORT_ADDRESS"
+f1_keywords:
+- http/HTTP_TRANSPORT_ADDRESS
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_TRANSPORT_ADDRESS
+- HTTP_TRANSPORT_ADDRESS
 targetos: Windows
 req.typenames: HTTP_TRANSPORT_ADDRESS, *PHTTP_TRANSPORT_ADDRESS
 req.redist: 

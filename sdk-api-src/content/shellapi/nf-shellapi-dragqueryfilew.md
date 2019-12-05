@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.DragQueryFileW
 title: DragQueryFileW function (shellapi.h)
-
 description: Retrieves the names of dropped files that result from a successful drag-and-drop operation.
 old-location: shell\DragQueryFile.htm
 tech.root: shell
 ms.assetid: 93fab381-9035-46c4-ba9d-efb2d0801d84
-
 ms.date: 12/05/2018
 ms.keywords: DragQueryFile, DragQueryFile function [Windows Shell], DragQueryFileA, DragQueryFileW, _win32_DragQueryFile, shell.DragQueryFile, shellapi/DragQueryFile, shellapi/DragQueryFileA, shellapi/DragQueryFileW
 ms.topic: function
-f1_keywords: 
- - "shellapi/DragQueryFile"
+f1_keywords:
+- shellapi/DragQueryFile
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
- - windows.storage.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- windows.storage.dll
 api_name:
- - DragQueryFile
- - DragQueryFileA
- - DragQueryFileW
+- DragQueryFile
+- DragQueryFileA
+- DragQueryFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

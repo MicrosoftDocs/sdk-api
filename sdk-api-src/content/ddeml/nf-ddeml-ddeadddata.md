@@ -1,19 +1,17 @@
 ---
 UID: NF:ddeml.DdeAddData
 title: DdeAddData function (ddeml.h)
-
 description: Adds data to the specified Dynamic Data Exchange (DDE) object.
 old-location: dataxchg\ddeadddata.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeadddata.htm
-
 ms.date: 12/05/2018
 ms.keywords: DdeAddData, DdeAddData function [Data Exchange], _win32_DdeAddData, _win32_ddeadddata_cpp, dataxchg.ddeadddata, ddeml/DdeAddData, winui._win32_ddeadddata
 ms.topic: function
-f1_keywords: 
- - "ddeml/DdeAddData"
+f1_keywords:
+- ddeml/DdeAddData
 dev_langs:
- - c++
+- c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - DdeAddData
+- DdeAddData
 targetos: Windows
 req.typenames: 
 req.redist: 

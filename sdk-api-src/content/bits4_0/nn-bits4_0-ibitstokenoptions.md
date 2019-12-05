@@ -1,19 +1,17 @@
 ---
 UID: NN:bits4_0.IBitsTokenOptions
 title: IBitsTokenOptions (bits4_0.h)
-
 description: Use IBitsTokenOptions to associate and manage a pair of security tokens for a Background Intelligent Transfer Service (BITS) transfer job.
 old-location: bits\ibitstokenoptions.htm
 tech.root: Bits
 ms.assetid: 8496c27b-68d8-4709-b8a6-6ffa17c886df
-
 ms.date: 12/05/2018
 ms.keywords: IBitsTokenOptions, IBitsTokenOptions interface [BITS], IBitsTokenOptions interface [BITS],described, bits.ibitstokenoptions, bits4_0/IBitsTokenOptions
 ms.topic: interface
-f1_keywords: 
- - "bits4_0/IBitsTokenOptions"
+f1_keywords:
+- bits4_0/IBitsTokenOptions
 dev_langs:
- - c++
+- c++
 req.header: bits4_0.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits4_0.h
+- Bits4_0.h
 api_name:
- - IBitsTokenOptions
+- IBitsTokenOptions
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on  Windows Vista with SP1,  Windows Vista with SP2, and  Windows Server 2008 with SP2

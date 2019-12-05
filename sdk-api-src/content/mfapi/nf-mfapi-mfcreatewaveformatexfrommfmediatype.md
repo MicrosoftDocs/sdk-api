@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateWaveFormatExFromMFMediaType
 title: MFCreateWaveFormatExFromMFMediaType function (mfapi.h)
-
 description: Converts a Media Foundation audio media type to a WAVEFORMATEX structure.
 old-location: mf\mfcreatewaveformatexfrommfmediatype.htm
 tech.root: medfound
 ms.assetid: b124bac2-90de-4358-a079-f509a89c3776
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateWaveFormatExFromMFMediaType, MFCreateWaveFormatExFromMFMediaType function [Media Foundation], b124bac2-90de-4358-a079-f509a89c3776, mf.mfcreatewaveformatexfrommfmediatype, mfapi/MFCreateWaveFormatExFromMFMediaType
 ms.topic: function
 f1_keywords:
 - mfapi/MFCreateWaveFormatExFromMFMediaType
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

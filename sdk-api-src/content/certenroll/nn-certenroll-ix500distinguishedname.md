@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX500DistinguishedName
 title: IX500DistinguishedName (certenroll.h)
-
 description: Represents an X.500 distinguished name (DN).
 old-location: security\ix500distinguishedname.htm
 tech.root: seccertenroll
 ms.assetid: 49f176d9-33f6-4bc1-992c-c613279b0969
-
 ms.date: 12/05/2018
 ms.keywords: IX500DistinguishedName, IX500DistinguishedName interface [Security], IX500DistinguishedName interface [Security],described, certenroll/IX500DistinguishedName, security.ix500distinguishedname
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX500DistinguishedName"
+f1_keywords:
+- certenroll/IX500DistinguishedName
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX500DistinguishedName
+- IX500DistinguishedName
 targetos: Windows
 req.typenames: 
 req.redist: 

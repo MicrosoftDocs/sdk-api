@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_EnumerationDepth
 title: ISearchRoot::put_EnumerationDepth (searchapi.h)
-
 description: Sets the enumeration depth for this search root.
 old-location: search\_search_ISearchRoot_put_EnumerationDepth.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_enumerationdepth.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchRoot interface [search],put_EnumerationDepth method, ISearchRoot.put_EnumerationDepth, ISearchRoot::put_EnumerationDepth, _search_ISearchRoot_put_EnumerationDepth, put_EnumerationDepth, put_EnumerationDepth method [search], put_EnumerationDepth method [search],ISearchRoot interface, search._search_ISearchRoot_put_EnumerationDepth, searchapi/ISearchRoot::put_EnumerationDepth
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchRoot.put_EnumerationDepth"
+f1_keywords:
+- searchapi/ISearchRoot.put_EnumerationDepth
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchRoot.put_EnumerationDepth
+- ISearchRoot.put_EnumerationDepth
 targetos: Windows
 req.typenames: 
 req.redist: 

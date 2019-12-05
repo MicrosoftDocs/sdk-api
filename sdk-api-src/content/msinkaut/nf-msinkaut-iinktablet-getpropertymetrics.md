@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkTablet.GetPropertyMetrics
 title: IInkTablet::GetPropertyMetrics (msinkaut.h)
-
 description: Retrieves the metrics data for a specified property.
 old-location: tablet\iinktablet_getpropertymetrics.htm
 tech.root: tablet
 ms.assetid: 9656bb56-01aa-4e9b-a3ad-4fbf117cdfeb
-
 ms.date: 12/05/2018
 ms.keywords: 9656bb56-01aa-4e9b-a3ad-4fbf117cdfeb, GetPropertyMetrics, GetPropertyMetrics method [Tablet PC], GetPropertyMetrics method [Tablet PC],IInkTablet interface, IInkTablet interface [Tablet PC],GetPropertyMetrics method, IInkTablet.GetPropertyMetrics, IInkTablet::GetPropertyMetrics, msinkaut/IInkTablet::GetPropertyMetrics, tablet.iinktablet_getpropertymetrics
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkTablet.GetPropertyMetrics"
+f1_keywords:
+- msinkaut/IInkTablet.GetPropertyMetrics
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkTablet.GetPropertyMetrics
+- IInkTablet.GetPropertyMetrics
 targetos: Windows
 req.typenames: 
 req.redist: 

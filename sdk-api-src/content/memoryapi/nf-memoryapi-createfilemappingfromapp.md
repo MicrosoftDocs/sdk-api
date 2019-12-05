@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.CreateFileMappingFromApp
 title: CreateFileMappingFromApp function (memoryapi.h)
-
 description: Creates or opens a named or unnamed file mapping object for a specified file from a Windows Store app.
 old-location: base\createfilemappingfromapp.htm
 tech.root: Memory
 ms.assetid: ef7ad1aa-2ce7-4a77-a57e-d6e55d58b8d3
-
 ms.date: 12/05/2018
 ms.keywords: CreateFileMappingFromApp, CreateFileMappingFromApp function, PAGE_READONLY, PAGE_READWRITE, PAGE_WRITECOPY, SEC_COMMIT, SEC_IMAGE_NO_EXECUTE, SEC_LARGE_PAGES, SEC_NOCACHE, SEC_RESERVE, SEC_WRITECOMBINE, base.createfilemappingfromapp, memoryapi/CreateFileMappingFromApp
 ms.topic: function
-f1_keywords: 
- - "memoryapi/CreateFileMappingFromApp"
+f1_keywords:
+- memoryapi/CreateFileMappingFromApp
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-memory-l1-1-1.dll
- - KernelBase.dll
- - API-MS-Win-Core-memory-l1-1-2.dll
- - API-MS-Win-Core-memory-l1-1-3.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Memory-L1-1-4.dll
+- Kernel32.dll
+- API-MS-Win-Core-memory-l1-1-1.dll
+- KernelBase.dll
+- API-MS-Win-Core-memory-l1-1-2.dll
+- API-MS-Win-Core-memory-l1-1-3.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - CreateFileMappingFromApp
+- CreateFileMappingFromApp
 targetos: Windows
 req.typenames: 
 req.redist: 

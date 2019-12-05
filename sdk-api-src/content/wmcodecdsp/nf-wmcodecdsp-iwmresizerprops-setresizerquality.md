@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.IWMResizerProps.SetResizerQuality
 title: IWMResizerProps::SetResizerQuality (wmcodecdsp.h)
-
 description: Specifies whether to use an algorithm that produces higher-quality video, or a faster algorithm.
 old-location: mf\iwmresizerpropssetresizerquality.htm
 tech.root: medfound
 ms.assetid: 64a85094-4247-41d8-9bb6-bdaedba62c19
-
 ms.date: 12/05/2018
 ms.keywords: IWMResizerProps interface [Media Foundation],SetResizerQuality method, IWMResizerProps.SetResizerQuality, IWMResizerProps::SetResizerQuality, SetResizerQuality, SetResizerQuality method [Media Foundation], SetResizerQuality method [Media Foundation],IWMResizerProps interface, codecapi.iwmresizerpropssetresizerquality, mf.iwmresizerpropssetresizerquality, wmcodecdsp/IWMResizerProps::SetResizerQuality
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/IWMResizerProps.SetResizerQuality"
+f1_keywords:
+- wmcodecdsp/IWMResizerProps.SetResizerQuality
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMResizerProps.SetResizerQuality
+- IWMResizerProps.SetResizerQuality
 targetos: Windows
 req.typenames: 
 req.redist: 

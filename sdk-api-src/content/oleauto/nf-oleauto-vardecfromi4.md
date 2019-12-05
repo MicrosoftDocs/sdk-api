@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarDecFromI4
 title: VarDecFromI4 function (oleauto.h)
-
 description: Converts a long value to a decimal value.
 old-location: automat\vardecfromi4.htm
 tech.root: automat
 ms.assetid: 577d0420-4a1c-4733-bf3b-4c20c1591d2f
-
 ms.date: 12/05/2018
 ms.keywords: VarDecFromI4, VarDecFromI4 function [Automation], _oa96_VarDecFromI4, automat.vardecfromi4, oleauto/VarDecFromI4
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarDecFromI4"
+f1_keywords:
+- oleauto/VarDecFromI4
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarDecFromI4
+- VarDecFromI4
 targetos: Windows
 req.typenames: 
 req.redist: 

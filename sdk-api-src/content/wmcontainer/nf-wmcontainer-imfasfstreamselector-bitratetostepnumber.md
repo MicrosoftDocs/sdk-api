@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.BitrateToStepNumber
 title: IMFASFStreamSelector::BitrateToStepNumber (wmcontainer.h)
-
 description: Retrieves the index of a bandwidth step that is appropriate for a specified bit rate. This method is used for multiple bit rate (MBR) content.
 old-location: mf\imfasfstreamselector_bitratetostepnumber.htm
 tech.root: medfound
 ms.assetid: e2debbce-f6ee-45d7-bf05-2b07aa7719c7
-
 ms.date: 12/05/2018
 ms.keywords: BitrateToStepNumber, BitrateToStepNumber method [Media Foundation], BitrateToStepNumber method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],BitrateToStepNumber method, IMFASFStreamSelector.BitrateToStepNumber, IMFASFStreamSelector::BitrateToStepNumber, e2debbce-f6ee-45d7-bf05-2b07aa7719c7, mf.imfasfstreamselector_bitratetostepnumber, wmcontainer/IMFASFStreamSelector::BitrateToStepNumber
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFStreamSelector.BitrateToStepNumber"
+f1_keywords:
+- wmcontainer/IMFASFStreamSelector.BitrateToStepNumber
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFStreamSelector.BitrateToStepNumber
+- IMFASFStreamSelector.BitrateToStepNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

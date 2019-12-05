@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RtmBlockMethods
 title: RtmBlockMethods function (rtmv2.h)
-
 description: The RtmBlockMethods function blocks or unblocks the execution of methods for a specified destination, route, or next hop, or for all destinations, routes, and next hops.
 old-location: rras\rtmblockmethods.htm
 tech.root: RRAS
 ms.assetid: 492bb2bf-5b35-4eef-a039-3d3e1137220f
-
 ms.date: 12/05/2018
 ms.keywords: DEST_TYPE, NEXTHOP_TYPE, ROUTE_TYPE, RTM_BLOCK_METHODS, RTM_RESUME_METHODS, RtmBlockMethods, RtmBlockMethods function [RAS], _rtmv2ref_rtmblockmethods, rras.rtmblockmethods, rtmv2/RtmBlockMethods
 ms.topic: function
-f1_keywords: 
- - "rtmv2/RtmBlockMethods"
+f1_keywords:
+- rtmv2/RtmBlockMethods
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - RtmBlockMethods
+- RtmBlockMethods
 targetos: Windows
 req.typenames: 
 req.redist: 

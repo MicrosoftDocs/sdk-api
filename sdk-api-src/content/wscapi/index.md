@@ -1,7 +1,6 @@
 ---
 UID: NA:wscapi
 ms.assetid: 9bb7e037-d8a3-31ab-ad51-cdc6531e5b47
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

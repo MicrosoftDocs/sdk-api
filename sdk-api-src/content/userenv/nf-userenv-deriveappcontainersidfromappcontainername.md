@@ -1,19 +1,17 @@
 ---
 UID: NF:userenv.DeriveAppContainerSidFromAppContainerName
 title: DeriveAppContainerSidFromAppContainerName function (userenv.h)
-
 description: Gets the SID of the specified profile.
 old-location: shell\deriveappcontainersidfromappcontainername.htm
 tech.root: shell
 ms.assetid: 233EFA95-289D-4D55-9D56-0630C015ABC7
-
 ms.date: 12/05/2018
 ms.keywords: DeriveAppContainerSidFromAppContainerName, DeriveAppContainerSidFromAppContainerName function [Windows Shell], shell.deriveappcontainersidfromappcontainername, userenv/DeriveAppContainerSidFromAppContainerName
 ms.topic: function
-f1_keywords: 
- - "userenv/DeriveAppContainerSidFromAppContainerName"
+f1_keywords:
+- userenv/DeriveAppContainerSidFromAppContainerName
 dev_langs:
- - c++
+- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Userenv.dll
+- Userenv.dll
 api_name:
- - DeriveAppContainerSidFromAppContainerName
+- DeriveAppContainerSidFromAppContainerName
 targetos: Windows
 req.typenames: 
 req.redist: 

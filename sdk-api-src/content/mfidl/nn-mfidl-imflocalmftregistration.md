@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFLocalMFTRegistration
 title: IMFLocalMFTRegistration (mfidl.h)
-
 description: Registers Media Foundation transforms (MFTs) in the caller's process.
 old-location: mf\imflocalmftregistration.htm
 tech.root: medfound
 ms.assetid: e540a93a-ecce-4c5b-a121-b0f868a2af41
-
 ms.date: 12/05/2018
 ms.keywords: IMFLocalMFTRegistration, IMFLocalMFTRegistration interface [Media Foundation], IMFLocalMFTRegistration interface [Media Foundation],described, mf.imflocalmftregistration, mfidl/IMFLocalMFTRegistration
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFLocalMFTRegistration"
+f1_keywords:
+- mfidl/IMFLocalMFTRegistration
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFLocalMFTRegistration
+- IMFLocalMFTRegistration
 targetos: Windows
 req.typenames: 
 req.redist: 

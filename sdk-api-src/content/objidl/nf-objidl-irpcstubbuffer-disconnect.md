@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IRpcStubBuffer.Disconnect
 title: IRpcStubBuffer::Disconnect (objidl.h)
-
 description: Disconnects a server stub from any interface to which it is connected.
 old-location: com\irpcstubbuffer_disconnect.htm
 tech.root: com
 ms.assetid: da0ecd2b-a445-4ecb-a003-ef07fa1d0458
-
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [COM], Disconnect method [COM],IRpcStubBuffer interface, IRpcStubBuffer interface [COM],Disconnect method, IRpcStubBuffer.Disconnect, IRpcStubBuffer::Disconnect, _com_irpcstubbuffer_disconnect, com.irpcstubbuffer_disconnect, objidlbase/IRpcStubBuffer::Disconnect
 ms.topic: method
-f1_keywords: 
- - "objidl/IRpcStubBuffer.Disconnect"
+f1_keywords:
+- objidl/IRpcStubBuffer.Disconnect
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IRpcStubBuffer.Disconnect
+- IRpcStubBuffer.Disconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

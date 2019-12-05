@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.GetOptions
 title: IExplorerBrowser::GetOptions (shobjidl_core.h)
-
 description: Gets the current browser options.
 old-location: shell\IExplorerBrowser_GetOptions.htm
 tech.root: shell
 ms.assetid: e2c7ee6a-fbd9-4b75-a9ed-734e7977088d
-
 ms.date: 12/05/2018
 ms.keywords: GetOptions, GetOptions method [Windows Shell], GetOptions method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],GetOptions method, IExplorerBrowser.GetOptions, IExplorerBrowser::GetOptions, _shell_IExplorerBrowser_GetOptions, shell.IExplorerBrowser_GetOptions, shobjidl_core/IExplorerBrowser::GetOptions
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExplorerBrowser.GetOptions"
+f1_keywords:
+- shobjidl_core/IExplorerBrowser.GetOptions
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerBrowser.GetOptions
+- IExplorerBrowser.GetOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

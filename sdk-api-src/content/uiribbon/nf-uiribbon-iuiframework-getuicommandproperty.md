@@ -1,19 +1,17 @@
 ---
 UID: NF:uiribbon.IUIFramework.GetUICommandProperty
 title: IUIFramework::GetUICommandProperty (uiribbon.h)
-
 description: Retrieves a command property, value, or state.
 old-location: windowsribbon\windowsribbon_iuiframework_getuicommandproperty.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\getuicommandproperty.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetUICommandProperty, GetUICommandProperty method [Windows Ribbon], GetUICommandProperty method [Windows Ribbon],IUIFramework interface, IUIFramework interface [Windows Ribbon],GetUICommandProperty method, IUIFramework.GetUICommandProperty, IUIFramework::GetUICommandProperty, scenicintent_IUIFramework_GetUICommandProperty, uiribbon/IUIFramework::GetUICommandProperty, windowsribbon.windowsribbon_iuiframework_getuicommandproperty
 ms.topic: method
-f1_keywords: 
- - "uiribbon/IUIFramework.GetUICommandProperty"
+f1_keywords:
+- uiribbon/IUIFramework.GetUICommandProperty
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mshtml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mshtml.dll
+- Mshtml.dll
 api_name:
- - IUIFramework.GetUICommandProperty
+- IUIFramework.GetUICommandProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

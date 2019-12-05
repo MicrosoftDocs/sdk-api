@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IObjectContextInfo.GetActivityId
 title: IObjectContextInfo::GetActivityId (comsvcs.h)
-
 description: Retrieves the identifier of the current activity.
 old-location: cos\iobjectcontextinfo_getactivityid.htm
 tech.root: cossdk
 ms.assetid: b6420f2e-223c-4a85-9c45-178a478c8424
-
 ms.date: 12/05/2018
 ms.keywords: GetActivityId, GetActivityId method [COM+], GetActivityId method [COM+],IObjectContextInfo interface, IObjectContextInfo interface [COM+],GetActivityId method, IObjectContextInfo.GetActivityId, IObjectContextInfo::GetActivityId, _cos_IObjectContextInfo_GetActivityId, comsvcs/IObjectContextInfo::GetActivityId, cos.iobjectcontextinfo_getactivityid
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IObjectContextInfo.GetActivityId"
+f1_keywords:
+- comsvcs/IObjectContextInfo.GetActivityId
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IObjectContextInfo.GetActivityId
+- IObjectContextInfo.GetActivityId
 targetos: Windows
 req.typenames: 
 req.redist: 

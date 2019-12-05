@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawClipper.IsClipListChanged
 title: IDirectDrawClipper::IsClipListChanged (ddraw.h)
-
 description: Retrieves the status of the clip list if a window handle is associated with a DirectDrawClipper object.
 old-location: directdraw\idirectdrawclipper_iscliplistchanged.htm
 tech.root: directdraw
 ms.assetid: d394b638-6015-47d8-89ea-2ed71611ddb3
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawClipper interface [DirectDraw],IsClipListChanged method, IDirectDrawClipper.IsClipListChanged, IDirectDrawClipper::IsClipListChanged, IsClipListChanged, IsClipListChanged method [DirectDraw], IsClipListChanged method [DirectDraw],IDirectDrawClipper interface, ddraw/IDirectDrawClipper::IsClipListChanged, directdraw.idirectdrawclipper_iscliplistchanged
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawClipper.IsClipListChanged"
+f1_keywords:
+- ddraw/IDirectDrawClipper.IsClipListChanged
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawClipper.IsClipListChanged
+- IDirectDrawClipper.IsClipListChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

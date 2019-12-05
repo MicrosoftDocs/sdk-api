@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorHermite
 title: XMVectorHermite function (directxmath.h)
-
 description: Performs a Hermite spline interpolation, using the specified vectors.
 old-location: dxmath\xmvectorhermite.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVectorHermite(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,float)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorHermite, XMVectorHermite, XMVectorHermite method [DirectX Math Support APIs], dxmath.xmvectorhermite
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorHermite"
+f1_keywords:
+- directxmath/XMVectorHermite
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorHermite
+- XMVectorHermite
 targetos: Windows
 req.typenames: 
 req.redist: 

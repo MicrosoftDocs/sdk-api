@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcMgmtInqStats
 title: RpcMgmtInqStats function (rpcdce.h)
-
 description: The RpcMgmtInqStats function returns RPC run-time statistics.
 old-location: rpc\rpcmgmtinqstats.htm
 tech.root: Rpc
 ms.assetid: 478b9f33-db01-4a1d-9b5b-dc2662ee8d7b
-
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtInqStats, RpcMgmtInqStats function [RPC], _rpc_rpcmgmtinqstats, rpc.rpcmgmtinqstats, rpcdce/RpcMgmtInqStats
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcMgmtInqStats"
+f1_keywords:
+- rpcdce/RpcMgmtInqStats
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcMgmtInqStats
+- RpcMgmtInqStats
 targetos: Windows
 req.typenames: 
 req.redist: 

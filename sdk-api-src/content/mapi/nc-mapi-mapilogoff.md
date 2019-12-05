@@ -1,19 +1,17 @@
 ---
 UID: NC:mapi.MAPILOGOFF
 title: MAPILOGOFF (mapi.h)
-
 description: The MAPILogoff function ends a session with the messaging system.
 old-location: mapi\mapilogoff.htm
 tech.root: WindowsMAPI
 ms.assetid: d04316cf-31f5-4f5f-ad20-01ce720fdf4c
-
 ms.date: 12/05/2018
 ms.keywords: MAPILogoff, MAPILogoff callback, MAPILogoff callback function, mapi.mapilogoff, mapi/MAPILogoff
 ms.topic: callback
-f1_keywords: 
- - "mapi/MAPILogoff"
+f1_keywords:
+- mapi/MAPILogoff
 dev_langs:
- - c++
+- c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mapi.h
+- Mapi.h
 api_name:
- - MAPILogoff
+- MAPILogoff
 targetos: Windows
 req.typenames: 
 req.redist: 

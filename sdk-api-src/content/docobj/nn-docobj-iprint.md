@@ -1,19 +1,17 @@
 ---
 UID: NN:docobj.IPrint
 title: IPrint (docobj.h)
-
 description: Enables compound documents in general and active documents in particular to support programmatic printing.
 old-location: com\iprint.htm
 tech.root: com
 ms.assetid: eb0d15c0-8a34-4211-b840-29d5862cf767
-
 ms.date: 12/05/2018
 ms.keywords: IPrint, IPrint interface [COM], IPrint interface [COM],described, _ctrl_iprint, com.iprint, docobj/IPrint
 ms.topic: interface
-f1_keywords: 
- - "docobj/IPrint"
+f1_keywords:
+- docobj/IPrint
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IPrint
+- IPrint
 targetos: Windows
 req.typenames: 
 req.redist: 

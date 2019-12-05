@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReader.GetValue
 title: IWICMetadataReader::GetValue (wincodecsdk.h)
-
 description: Gets the metadata item value.
 old-location: wic\_wic_codec_iwicmetadatareader_getvalue.htm
 tech.root: wic
 ms.assetid: 7ae1328d-cda7-4522-9bcf-2c4b16fd6984
-
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Windows Imaging Component], GetValue method [Windows Imaging Component],IWICMetadataReader interface, IWICMetadataReader interface [Windows Imaging Component],GetValue method, IWICMetadataReader.GetValue, IWICMetadataReader::GetValue, _wic_codec_iwicmetadatareader_getvalue, wic._wic_codec_iwicmetadatareader_getvalue, wincodecsdk/IWICMetadataReader::GetValue
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICMetadataReader.GetValue"
+f1_keywords:
+- wincodecsdk/IWICMetadataReader.GetValue
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataReader.GetValue
+- IWICMetadataReader.GetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

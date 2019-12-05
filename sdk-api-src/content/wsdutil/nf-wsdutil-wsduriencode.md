@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdutil.WSDUriEncode
 title: WSDUriEncode function (wsdutil.h)
-
 description: Encodes a URI according to URI encoding rules in RFC2396.
 old-location: ncd\wsduriencode.htm
 tech.root: WsdApi
 ms.assetid: 3d086ac8-0c14-46fb-baa5-b1d89b86ebbb
-
 ms.date: 12/05/2018
 ms.keywords: WSDUriEncode, WSDUriEncode function, ncd.wsduriencode, wsdutil/WSDUriEncode
 ms.topic: function
-f1_keywords: 
- - "wsdutil/WSDUriEncode"
+f1_keywords:
+- wsdutil/WSDUriEncode
 dev_langs:
- - c++
+- c++
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - WSDUriEncode
+- WSDUriEncode
 targetos: Windows
 req.typenames: 
 req.redist: 

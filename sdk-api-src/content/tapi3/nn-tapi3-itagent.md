@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3.ITAgent
 title: ITAgent (tapi3.h)
-
 description: Agents are the heart of a call center.
 old-location: tapi3\itagent.htm
 tech.root: Tapi
 ms.assetid: 6c1409c9-da73-4d21-bf56-07e9ab7b33a0
-
 ms.date: 12/05/2018
 ms.keywords: ITAgent, ITAgent interface [TAPI 2.2], ITAgent interface [TAPI 2.2],described, _tapi3_itagent, tapi3.itagent, tapi3cc/ITAgent
 ms.topic: interface
-f1_keywords: 
- - "tapi3/ITAgent"
+f1_keywords:
+- tapi3/ITAgent
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAgent
+- ITAgent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsNameTranslate.Get
 title: IADsNameTranslate::Get (iads.h)
-
 description: Retrieves the name of a directory object in the specified format.
 old-location: adsi\iadsnametranslate_get.htm
 tech.root: adsi
 ms.assetid: 6c8246a9-657e-4db1-ae8f-d9c0a2d41397
-
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [ADSI], Get method [ADSI],IADsNameTranslate interface, IADsNameTranslate interface [ADSI],Get method, IADsNameTranslate.Get, IADsNameTranslate::Get, _ds_iadsnametranslate_get, adsi.iadsnametranslate__get, adsi.iadsnametranslate_get, iads/IADsNameTranslate::Get
 ms.topic: method
-f1_keywords: 
- - "iads/IADsNameTranslate.Get"
+f1_keywords:
+- iads/IADsNameTranslate.Get
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsNameTranslate.Get
+- IADsNameTranslate.Get
 targetos: Windows
 req.typenames: 
 req.redist: 

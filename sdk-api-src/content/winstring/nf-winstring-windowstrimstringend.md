@@ -1,19 +1,17 @@
 ---
 UID: NF:winstring.WindowsTrimStringEnd
 title: WindowsTrimStringEnd function (winstring.h)
-
 description: Removes all trailing occurrences of a specified set of characters from the source string.
 old-location: winrt\windowstrimstringend.htm
 tech.root: WinRT
 ms.assetid: C6DC080D-04EA-43DF-AD6F-58419D4EB1B2
-
 ms.date: 12/05/2018
 ms.keywords: WindowsTrimStringEnd, WindowsTrimStringEnd function [Windows Runtime], winrt.windowstrimstringend, winstring/WindowsTrimStringEnd
 ms.topic: function
-f1_keywords: 
- - "winstring/WindowsTrimStringEnd"
+f1_keywords:
+- winstring/WindowsTrimStringEnd
 dev_langs:
- - c++
+- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - winstring.h
- - API-MS-Win-Core-WinRT-String-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+- winstring.h
+- API-MS-Win-Core-WinRT-String-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-String-L1-1-1.dll
 api_name:
- - WindowsTrimStringEnd
+- WindowsTrimStringEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

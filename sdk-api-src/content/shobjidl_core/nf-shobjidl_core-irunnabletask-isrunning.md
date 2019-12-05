@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IRunnableTask.IsRunning
 title: IRunnableTask::IsRunning (shobjidl_core.h)
-
 description: Requests information on the state of a task, such as thumbnail extraction.
 old-location: shell\IRunnableTask_IsRunning.htm
 tech.root: shell
 ms.assetid: 14117a47-d462-4be1-b440-8d422c938815
-
 ms.date: 12/05/2018
 ms.keywords: IRunnableTask interface [Windows Shell],IsRunning method, IRunnableTask.IsRunning, IRunnableTask::IsRunning, IsRunning, IsRunning method [Windows Shell], IsRunning method [Windows Shell],IRunnableTask interface, _win32_IRunnableTask_IsRunning, shell.IRunnableTask_IsRunning, shobjidl_core/IRunnableTask::IsRunning
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IRunnableTask.IsRunning"
+f1_keywords:
+- shobjidl_core/IRunnableTask.IsRunning
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IRunnableTask.IsRunning
+- IRunnableTask.IsRunning
 targetos: Windows
 req.typenames: 
 req.redist: 

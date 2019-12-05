@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CERT_DSS_PARAMETERS
 title: CERT_DSS_PARAMETERS (wincrypt.h)
-
 description: Contains parameters associated with a Digital Signature Standard (DSS) public key algorithm.
 old-location: security\cert_dss_parameters.htm
 tech.root: SecCrypto
 ms.assetid: 4544986a-8168-4d56-be5f-59d318da7c30
-
 ms.date: 12/05/2018
-ms.keywords: "*PCERT_DSS_PARAMETERS, CERT_DSS_PARAMETERS, CERT_DSS_PARAMETERS structure [Security], PCERT_DSS_PARAMETERS, PCERT_DSS_PARAMETERS structure pointer [Security], _crypto2_cert_dss_parameters, security.cert_dss_parameters, wincrypt/CERT_DSS_PARAMETERS, wincrypt/PCERT_DSS_PARAMETERS"
+ms.keywords: '*PCERT_DSS_PARAMETERS, CERT_DSS_PARAMETERS, CERT_DSS_PARAMETERS structure [Security], PCERT_DSS_PARAMETERS, PCERT_DSS_PARAMETERS structure pointer [Security], _crypto2_cert_dss_parameters, security.cert_dss_parameters, wincrypt/CERT_DSS_PARAMETERS, wincrypt/PCERT_DSS_PARAMETERS'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CERT_DSS_PARAMETERS"
+f1_keywords:
+- wincrypt/CERT_DSS_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CERT_DSS_PARAMETERS
+- CERT_DSS_PARAMETERS
 targetos: Windows
 req.typenames: CERT_DSS_PARAMETERS, *PCERT_DSS_PARAMETERS
 req.redist: 

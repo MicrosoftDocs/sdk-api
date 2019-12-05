@@ -1,19 +1,17 @@
 ---
 UID: NF:directml.IDMLObject.SetPrivateData
 title: IDMLObject::SetPrivateData
-
 description: Sets application-defined data to a DirectML device object, and associates that data with an application-defined GUID.
 old-location: direct3d12\idmlobject_setprivatedata.htm
 tech.root: direct3d12
 ms.assetid: 9409CC38-63E8-4A44-9746-A075E664A4E9
-
 ms.date: 12/5/2018
 ms.keywords: IDMLObject interface,SetPrivateData method, IDMLObject.SetPrivateData, IDMLObject::SetPrivateData, SetPrivateData, SetPrivateData method, SetPrivateData method,IDMLObject interface, direct3d12.idmlobject_setprivatedata, directml/IDMLObject::SetPrivateData
 ms.topic: method
-f1_keywords: 
- - "directml/IDMLObject.SetPrivateData"
+f1_keywords:
+- directml/IDMLObject.SetPrivateData
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DirectML.lib
 req.dll: DirectML.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectML.dll
+- DirectML.dll
 api_name:
- - IDMLObject.SetPrivateData
+- IDMLObject.SetPrivateData
 targetos: Windows
 req.typenames: 
 req.redist: 

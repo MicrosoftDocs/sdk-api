@@ -1,19 +1,17 @@
 ---
 UID: NF:immdev.ImmSetOpenStatus
 title: ImmSetOpenStatus function (immdev.h)
-
 description: Opens or closes the IME.
 old-location: intl\immsetopenstatus.htm
 tech.root: Intl
 ms.assetid: 4c6dfc40-56d3-41bb-8094-1f30dbb27cf5
-
 ms.date: 12/05/2018
 ms.keywords: ImmSetOpenStatus, ImmSetOpenStatus function [Internationalization for Windows Applications], _win32_ImmSetOpenStatus, imm/ImmSetOpenStatus, intl.immsetopenstatus
 ms.topic: function
-f1_keywords: 
- - "immdev/ImmSetOpenStatus"
+f1_keywords:
+- immdev/ImmSetOpenStatus
 dev_langs:
- - c++
+- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
- - Ext-MS-Win-imm-l1-1-0.dll
- - ext-ms-win-imm-l1-1-1.dll
+- Imm32.dll
+- Ext-MS-Win-imm-l1-1-0.dll
+- ext-ms-win-imm-l1-1-1.dll
 api_name:
- - ImmSetOpenStatus
+- ImmSetOpenStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS
 title: D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS (d3d12.h)
-
 description: Describes the multi-sampling image quality levels for a given format and sample count.
 old-location: direct3d12\d3d12_feature_data_multisample_quality_levels.htm
 tech.root: direct3d12
 ms.assetid: F3ECEF7C-F4A4-4134-9671-21AE488D8183
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS, D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS structure, d3d12/D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS, direct3d12.d3d12_feature_data_multisample_quality_levels
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS"
+f1_keywords:
+- d3d12/D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS
+- D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS
 targetos: Windows
 req.typenames: D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS
 req.redist: 

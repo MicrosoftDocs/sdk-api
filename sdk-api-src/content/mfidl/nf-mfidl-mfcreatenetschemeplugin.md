@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateNetSchemePlugin
 title: MFCreateNetSchemePlugin function (mfidl.h)
-
 description: Creates the scheme handler for the network source.
 old-location: mf\mfcreatenetschemeplugin.htm
 tech.root: medfound
 ms.assetid: f08de332-2b05-4fee-be45-d4928f5f4ef2
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateNetSchemePlugin, MFCreateNetSchemePlugin function [Media Foundation], f08de332-2b05-4fee-be45-d4928f5f4ef2, mf.mfcreatenetschemeplugin, mfidl/MFCreateNetSchemePlugin
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateNetSchemePlugin"
+f1_keywords:
+- mfidl/MFCreateNetSchemePlugin
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateNetSchemePlugin
+- MFCreateNetSchemePlugin
 targetos: Windows
 req.typenames: 
 req.redist: 

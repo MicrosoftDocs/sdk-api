@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITFileTrack.get_EmptyAudioFormatForScripting
 title: ITFileTrack::get_EmptyAudioFormatForScripting (tapi3if.h)
-
 description: The get_EmptyAudioFormatForScripting method is used to get an ITScriptableAudioFormat interface with all fields set to 0.
 old-location: tapi3\itfiletrack_get_emptyaudioformatforscripting.htm
 tech.root: Tapi
 ms.assetid: 80644b51-4b04-4299-a486-284e77583feb
-
 ms.date: 12/05/2018
 ms.keywords: ITFileTrack interface [TAPI 2.2],get_EmptyAudioFormatForScripting method, ITFileTrack.get_EmptyAudioFormatForScripting, ITFileTrack::get_EmptyAudioFormatForScripting, _tapi3_itfiletrack_get_emptyaudioformatforscripting, get_EmptyAudioFormatForScripting, get_EmptyAudioFormatForScripting method [TAPI 2.2], get_EmptyAudioFormatForScripting method [TAPI 2.2],ITFileTrack interface, tapi3.itfiletrack_get_emptyaudioformatforscripting, tapi3if/ITFileTrack::get_EmptyAudioFormatForScripting
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITFileTrack.get_EmptyAudioFormatForScripting"
+f1_keywords:
+- tapi3if/ITFileTrack.get_EmptyAudioFormatForScripting
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITFileTrack.get_EmptyAudioFormatForScripting
+- ITFileTrack.get_EmptyAudioFormatForScripting
 targetos: Windows
 req.typenames: 
 req.redist: 

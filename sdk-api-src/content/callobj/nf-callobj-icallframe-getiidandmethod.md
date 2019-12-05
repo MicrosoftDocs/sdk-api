@@ -1,19 +1,17 @@
 ---
 UID: NF:callobj.ICallFrame.GetIIDAndMethod
 title: ICallFrame::GetIIDAndMethod (callobj.h)
-
 description: Retrieves the interface ID or the method number.
 old-location: com\icallframe_getiidandmethod.htm
 tech.root: com
 ms.assetid: 938798ef-ddc8-4182-9216-d130c4f0e4ae
-
 ms.date: 12/05/2018
 ms.keywords: GetIIDAndMethod, GetIIDAndMethod method [COM], GetIIDAndMethod method [COM],ICallFrame interface, ICallFrame interface [COM],GetIIDAndMethod method, ICallFrame.GetIIDAndMethod, ICallFrame::GetIIDAndMethod, _com_icallframe_getiidandmethod, callobj/ICallFrame::GetIIDAndMethod, com.icallframe_getiidandmethod
 ms.topic: method
-f1_keywords: 
- - "callobj/ICallFrame.GetIIDAndMethod"
+f1_keywords:
+- callobj/ICallFrame.GetIIDAndMethod
 dev_langs:
- - c++
+- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Callobj.h
+- Callobj.h
 api_name:
- - ICallFrame.GetIIDAndMethod
+- ICallFrame.GetIIDAndMethod
 targetos: Windows
 req.typenames: 
 req.redist: 

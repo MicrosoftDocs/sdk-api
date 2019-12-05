@@ -1,19 +1,17 @@
 ---
 UID: NE:msinkaut.InkSystemGesture
 title: InkSystemGesture (msinkaut.h)
-
 description: Specifies the interest in a set of operating system-specific gestures.
 old-location: tablet\inksystemgesture.htm
 tech.root: tablet
 ms.assetid: 213c8a44-1313-47cf-8703-3e9ed5e36d33
-
 ms.date: 12/05/2018
 ms.keywords: 213c8a44-1313-47cf-8703-3e9ed5e36d33, ISG_DoubleTap, ISG_Drag, ISG_Flick, ISG_HoldEnter, ISG_HoldLeave, ISG_HoverEnter, ISG_HoverLeave, ISG_RightDrag, ISG_RightTap, ISG_Tap, InkSystemGesture, InkSystemGesture enumeration [Tablet PC], msinkaut/ISG_DoubleTap, msinkaut/ISG_Drag, msinkaut/ISG_Flick, msinkaut/ISG_HoldEnter, msinkaut/ISG_HoldLeave, msinkaut/ISG_HoverEnter, msinkaut/ISG_HoverLeave, msinkaut/ISG_RightDrag, msinkaut/ISG_RightTap, msinkaut/ISG_Tap, msinkaut/InkSystemGesture, tablet.inksystemgesture
 ms.topic: enum
-f1_keywords: 
- - "msinkaut/InkSystemGesture"
+f1_keywords:
+- msinkaut/InkSystemGesture
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msinkaut.h
+- msinkaut.h
 api_name:
- - InkSystemGesture
+- InkSystemGesture
 targetos: Windows
 req.typenames: InkSystemGesture
 req.redist: 

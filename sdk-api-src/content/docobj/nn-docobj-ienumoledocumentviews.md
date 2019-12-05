@@ -1,19 +1,17 @@
 ---
 UID: NN:docobj.IEnumOleDocumentViews
 title: IEnumOleDocumentViews (docobj.h)
-
 description: Enumerates the views supported by a document object.
 old-location: com\ienumoledocumentviews.htm
 tech.root: com
 ms.assetid: cd8fa8b8-17b1-4d77-9611-473725899351
-
 ms.date: 12/05/2018
 ms.keywords: IEnumOleDocumentViews, IEnumOleDocumentViews interface [COM], IEnumOleDocumentViews interface [COM],described, _ole_ienumoledocumentviews, com.ienumoledocumentviews, docobj/IEnumOleDocumentViews
 ms.topic: interface
-f1_keywords: 
- - "docobj/IEnumOleDocumentViews"
+f1_keywords:
+- docobj/IEnumOleDocumentViews
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IEnumOleDocumentViews
+- IEnumOleDocumentViews
 targetos: Windows
 req.typenames: 
 req.redist: 

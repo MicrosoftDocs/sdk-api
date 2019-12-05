@@ -1,19 +1,17 @@
 ---
 UID: NS:iketypes.IKEEXT_NAME_CREDENTIAL0_
 title: IKEEXT_NAME_CREDENTIAL0 (iketypes.h)
-
 description: Is used to store credential name information.
 old-location: fwp\ikeext_name_credential0.htm
 tech.root: fwp
 ms.assetid: 602f94bf-066d-418e-a469-a21b881a443d
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_NAME_CREDENTIAL0, IKEEXT_NAME_CREDENTIAL0 structure [Filtering], fwp.ikeext_name_credential0, iketypes/IKEEXT_NAME_CREDENTIAL0
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_NAME_CREDENTIAL0"
+f1_keywords:
+- iketypes/IKEEXT_NAME_CREDENTIAL0
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_NAME_CREDENTIAL0
+- IKEEXT_NAME_CREDENTIAL0
 targetos: Windows
 req.typenames: IKEEXT_NAME_CREDENTIAL0
 req.redist: 

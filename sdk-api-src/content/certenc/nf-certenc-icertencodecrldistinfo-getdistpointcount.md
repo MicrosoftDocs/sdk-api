@@ -1,19 +1,17 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.GetDistPointCount
 title: ICertEncodeCRLDistInfo::GetDistPointCount (certenc.h)
-
 description: Returns the number of certificate revocation list (CRL) distribution points in a CRL distribution information array.
 old-location: security\icertencodecrldistinfo_getdistpointcount.htm
 tech.root: SecCrypto
 ms.assetid: 8c7d0d14-e755-4223-8cd5-0ebc784960cf
-
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],GetDistPointCount method, GetDistPointCount, GetDistPointCount method [Security], GetDistPointCount method [Security],CCertEncodeCRLDistInfo object, GetDistPointCount method [Security],ICertEncodeCRLDistInfo interface, ICertEncodeCRLDistInfo interface [Security],GetDistPointCount method, ICertEncodeCRLDistInfo.GetDistPointCount, ICertEncodeCRLDistInfo::GetDistPointCount, _certsrv_icertencodecrldistinfo_getdistpointcount, certenc/ICertEncodeCRLDistInfo::GetDistPointCount, security.icertencodecrldistinfo_getdistpointcount
 ms.topic: method
-f1_keywords: 
- - "certenc/ICertEncodeCRLDistInfo.GetDistPointCount"
+f1_keywords:
+- certenc/ICertEncodeCRLDistInfo.GetDistPointCount
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeCRLDistInfo.GetDistPointCount
- - CCertEncodeCRLDistInfo.GetDistPointCount
+- ICertEncodeCRLDistInfo.GetDistPointCount
+- CCertEncodeCRLDistInfo.GetDistPointCount
 targetos: Windows
 req.typenames: 
 req.redist: 

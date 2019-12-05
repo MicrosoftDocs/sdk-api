@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.GetDesktopSharedRect
 title: IRDPSRAPISharingSession::GetDesktopSharedRect (rdpencomapi.h)
-
 description: Retrieves the current desktop region being shared.
 old-location: rdp\irdpsrapisharingsession_getdesktopsharedrect.htm
 tech.root: rdp
 ms.assetid: 2b224fa2-928d-4222-80a6-91f654b97ae1
-
 ms.date: 12/05/2018
 ms.keywords: GetDesktopSharedRect, GetDesktopSharedRect method [RDP], GetDesktopSharedRect method [RDP],IRDPSRAPISharingSession interface, GetDesktopSharedRect method [RDP],IRDPSRAPISharingSession2 interface, IRDPSRAPISharingSession interface [RDP],GetDesktopSharedRect method, IRDPSRAPISharingSession.GetDesktopSharedRect, IRDPSRAPISharingSession2 interface [RDP],GetDesktopSharedRect method, IRDPSRAPISharingSession2::GetDesktopSharedRect, IRDPSRAPISharingSession::GetDesktopSharedRect, rdp.irdpsrapisharingsession_getdesktopsharedrect, rdpencomapi/IRDPSRAPISharingSession2::GetDesktopSharedRect, rdpencomapi/IRDPSRAPISharingSession::GetDesktopSharedRect
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPISharingSession2.GetDesktopSharedRect"
+f1_keywords:
+- rdpencomapi/IRDPSRAPISharingSession2.GetDesktopSharedRect
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPISharingSession2.GetDesktopSharedRect
- - IRDPSRAPISharingSession.GetDesktopSharedRect
+- IRDPSRAPISharingSession2.GetDesktopSharedRect
+- IRDPSRAPISharingSession.GetDesktopSharedRect
 targetos: Windows
 req.typenames: 
 req.redist: 

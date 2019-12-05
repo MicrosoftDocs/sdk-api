@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbDataBroadcastIDDescriptor.GetIDSelectorBytes
 title: IDvbDataBroadcastIDDescriptor::GetIDSelectorBytes (dvbsiparser.h)
-
 description: Gets the data from the selector in a Digital Video Broadcast (DVB) data broadcast ID descriptor. The selector is defined by the broadcast standard for the network.
 old-location: mstv\idvbdatabroadcastiddescriptor_getidselectorbytes.htm
 tech.root: mstv
 ms.assetid: b41614d6-61e4-4548-9c15-63ef100d2ab8
-
 ms.date: 12/05/2018
 ms.keywords: GetIDSelectorBytes, GetIDSelectorBytes method [Microsoft TV Technologies], GetIDSelectorBytes method [Microsoft TV Technologies],IDvbDataBroadcastIDDescriptor interface, IDvbDataBroadcastIDDescriptor interface [Microsoft TV Technologies],GetIDSelectorBytes method, IDvbDataBroadcastIDDescriptor.GetIDSelectorBytes, IDvbDataBroadcastIDDescriptor::GetIDSelectorBytes, dvbsiparser/IDvbDataBroadcastIDDescriptor::GetIDSelectorBytes, mstv.idvbdatabroadcastiddescriptor_getidselectorbytes
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbDataBroadcastIDDescriptor.GetIDSelectorBytes"
+f1_keywords:
+- dvbsiparser/IDvbDataBroadcastIDDescriptor.GetIDSelectorBytes
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbDataBroadcastIDDescriptor.GetIDSelectorBytes
+- IDvbDataBroadcastIDDescriptor.GetIDSelectorBytes
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:d3dcommon.ID3DInclude
 title: ID3DInclude (d3dcommon.h)
-
-description: ID3DInclude is an include interface that the user implements to allow an application to call user-overridable methods for opening and closing shader #include files.
+description: ID3DInclude is an include interface that the user implements to allow an application to call user-overridable methods for opening and closing shader
 old-location: direct3d11\id3dinclude.htm
 tech.root: direct3d11
 ms.assetid: 2020ce65-3a6e-4a9f-9e97-b94e3c75f4f5
-
 ms.date: 12/05/2018
 ms.keywords: ID3DInclude, ID3DInclude interface [Direct3D 11], ID3DInclude interface [Direct3D 11],described, d3dcommon/ID3DInclude, direct3d11.id3dinclude
 ms.topic: interface
-f1_keywords: 
- - "d3dcommon/ID3DInclude"
+f1_keywords:
+- d3dcommon/ID3DInclude
 dev_langs:
- - c++
+- c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3DInclude
+- ID3DInclude
 targetos: Windows
 req.typenames: 
 req.redist: 

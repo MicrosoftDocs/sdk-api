@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.ILaunchSourceAppUserModelId
 title: ILaunchSourceAppUserModelId (shobjidl_core.h)
-
 description: Provides a method for retrieving an AppUserModelId.
 old-location: shell\ILaunchSourceAppUserModelId.htm
 tech.root: shell
 ms.assetid: B53325C9-DC89-4411-82D9-247C28AFB177
-
 ms.date: 12/05/2018
 ms.keywords: ILaunchSourceAppUserModelId, ILaunchSourceAppUserModelId interface [Windows Shell], ILaunchSourceAppUserModelId interface [Windows Shell],described, shell.ILaunchSourceAppUserModelId, shobjidl_core/ILaunchSourceAppUserModelId
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/ILaunchSourceAppUserModelId"
+f1_keywords:
+- shobjidl_core/ILaunchSourceAppUserModelId
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ILaunchSourceAppUserModelId
+- ILaunchSourceAppUserModelId
 targetos: Windows
 req.typenames: 
 req.redist: 

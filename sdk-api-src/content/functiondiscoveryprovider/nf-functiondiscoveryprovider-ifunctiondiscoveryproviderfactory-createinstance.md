@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProviderFactory.CreateInstance
 title: IFunctionDiscoveryProviderFactory::CreateInstance (functiondiscoveryprovider.h)
-
 description: Creates a function instance.
 old-location: ncd\ifunctiondiscoveryproviderfactory_createinstance.htm
 tech.root: FunDisc
 ms.assetid: 143a4f62-7093-4127-b89e-e7d0985a92bb
-
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method, CreateInstance method,IFunctionDiscoveryProviderFactory interface, IFunctionDiscoveryProviderFactory interface,CreateInstance method, IFunctionDiscoveryProviderFactory.CreateInstance, IFunctionDiscoveryProviderFactory::CreateInstance, functiondiscoveryprovider/IFunctionDiscoveryProviderFactory::CreateInstance, ncd.ifunctiondiscoveryproviderfactory_createinstance
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryprovider/IFunctionDiscoveryProviderFactory.CreateInstance"
+f1_keywords:
+- functiondiscoveryprovider/IFunctionDiscoveryProviderFactory.CreateInstance
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunctionDiscoveryProvider.h
+- FunctionDiscoveryProvider.h
 api_name:
- - IFunctionDiscoveryProviderFactory.CreateInstance
+- IFunctionDiscoveryProviderFactory.CreateInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

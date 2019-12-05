@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_NetworkUtilization
 title: IWdsTransportClient::get_NetworkUtilization (wdstptmgmt.h)
-
 description: Receives the percentage of the WDS client’s network bandwidth used.
 old-location: wds\iwdstransportclient_networkutilization.htm
 tech.root: wds
 ms.assetid: feeab5f0-b549-46bc-b19d-94ab3778838c
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportClient interface [Windows Deployment Services],NetworkUtilization property, IWdsTransportClient.NetworkUtilization, IWdsTransportClient.get_NetworkUtilization, IWdsTransportClient::NetworkUtilization, IWdsTransportClient::get_NetworkUtilization, NetworkUtilization property [Windows Deployment Services], NetworkUtilization property [Windows Deployment Services],IWdsTransportClient interface, get_NetworkUtilization, wds.iwdstransportclient_networkutilization, wdstptmgmt/IWdsTransportClient::NetworkUtilization, wdstptmgmt/IWdsTransportClient::get_NetworkUtilization
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportClient.NetworkUtilization"
+f1_keywords:
+- wdstptmgmt/IWdsTransportClient.NetworkUtilization
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportClient.NetworkUtilization
- - IWdsTransportClient.get_NetworkUtilization
+- IWdsTransportClient.NetworkUtilization
+- IWdsTransportClient.get_NetworkUtilization
 targetos: Windows
 req.typenames: 
 req.redist: 

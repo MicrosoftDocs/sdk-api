@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreACP2.GetScreenExt
 title: ITextStoreACP2::GetScreenExt (textstor.h)
-
 description: Gets the bounding box screen coordinates of the display surface where the text stream is rendered.
 old-location: tsf\itextstoreacp2_getscreenext.htm
 tech.root: TSF
 ms.assetid: fdc258ab-b692-495c-be76-0b41d75625e2
-
 ms.date: 12/05/2018
 ms.keywords: GetScreenExt, GetScreenExt method [Text Services Framework], GetScreenExt method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetScreenExt method, ITextStoreACP2.GetScreenExt, ITextStoreACP2::GetScreenExt, textstor/ITextStoreACP2::GetScreenExt, tsf.itextstoreacp2_getscreenext
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreACP2.GetScreenExt"
+f1_keywords:
+- textstor/ITextStoreACP2.GetScreenExt
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACP2.GetScreenExt
+- ITextStoreACP2.GetScreenExt
 targetos: Windows
 req.typenames: 
 req.redist: 

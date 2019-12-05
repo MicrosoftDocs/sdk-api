@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.SetItemCustomState
 title: INameSpaceTreeControl::SetItemCustomState (shobjidl_core.h)
-
 description: Sets the state of the checkbox associated with the Shell item.
 old-location: shell\INameSpaceTreeControl_SetItemCustomState.htm
 tech.root: shell
 ms.assetid: a27fa2a3-3e10-4053-b0b6-222c7b517b5a
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],SetItemCustomState method, INameSpaceTreeControl.SetItemCustomState, INameSpaceTreeControl::SetItemCustomState, SetItemCustomState, SetItemCustomState method [Windows Shell], SetItemCustomState method [Windows Shell],INameSpaceTreeControl interface, _shell_INameSpaceTreeControl_SetItemCustomState, shell.INameSpaceTreeControl_SetItemCustomState, shobjidl_core/INameSpaceTreeControl::SetItemCustomState
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/INameSpaceTreeControl.SetItemCustomState"
+f1_keywords:
+- shobjidl_core/INameSpaceTreeControl.SetItemCustomState
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - INameSpaceTreeControl.SetItemCustomState
+- INameSpaceTreeControl.SetItemCustomState
 targetos: Windows
 req.typenames: 
 req.redist: 

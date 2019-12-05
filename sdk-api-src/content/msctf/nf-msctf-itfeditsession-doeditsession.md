@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfEditSession.DoEditSession
 title: ITfEditSession::DoEditSession (msctf.h)
-
 description: ITfEditSession::DoEditSession method
 old-location: tsf\itfeditsession_doeditsession.htm
 tech.root: TSF
 ms.assetid: f89b2676-9a69-492f-be8a-96e4436d594c
-
 ms.date: 12/05/2018
 ms.keywords: DoEditSession, DoEditSession method [Text Services Framework], DoEditSession method [Text Services Framework],ITfEditSession interface, ITfEditSession interface [Text Services Framework],DoEditSession method, ITfEditSession.DoEditSession, ITfEditSession::DoEditSession, _tsf_itfeditsession_doeditsession_ref, msctf/ITfEditSession::DoEditSession, tsf.itfeditsession_doeditsession
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfEditSession.DoEditSession"
+f1_keywords:
+- msctf/ITfEditSession.DoEditSession
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Tipskins.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tipskins.dll
+- tipskins.dll
 api_name:
- - ITfEditSession.DoEditSession
+- ITfEditSession.DoEditSession
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

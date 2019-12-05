@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnConnection.GetActivationNetworkError
 title: IMbnConnection::GetActivationNetworkError (mbnapi.h)
-
 description: Gets the network error returned in a Packet Data Protocol (PDP) context activation failure.
 old-location: mbn\imbnconnection_getactivationnetworkerror.htm
 tech.root: mbn
 ms.assetid: a8bda00b-5eff-46a4-b640-1794e8ea21cf
-
 ms.date: 12/05/2018
 ms.keywords: GetActivationNetworkError, GetActivationNetworkError method [Microsoft Broadband Networks], GetActivationNetworkError method [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],GetActivationNetworkError method, IMbnConnection.GetActivationNetworkError, IMbnConnection::GetActivationNetworkError, mbn.imbnconnection_getactivationnetworkerror, mbnapi/IMbnConnection::GetActivationNetworkError
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnConnection.GetActivationNetworkError"
+f1_keywords:
+- mbnapi/IMbnConnection.GetActivationNetworkError
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnection.GetActivationNetworkError
+- IMbnConnection.GetActivationNetworkError
 targetos: Windows
 req.typenames: 
 req.redist: 

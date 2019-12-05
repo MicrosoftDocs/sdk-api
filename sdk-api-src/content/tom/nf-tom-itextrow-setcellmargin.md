@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.SetCellMargin
 title: ITextRow::SetCellMargin (tom.h)
-
 description: Sets the cell margin of a row.
 old-location: controls\itextrow_setcellmargin.htm
 tech.root: Controls
 ms.assetid: 826be963-ccac-4bb3-b5e0-1df5554e1c8c
-
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellMargin method, ITextRow.SetCellMargin, ITextRow::SetCellMargin, SetCellMargin, SetCellMargin method [Windows Controls], SetCellMargin method [Windows Controls],ITextRow interface, controls.itextrow_setcellmargin, tom/ITextRow::SetCellMargin
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.SetCellMargin"
+f1_keywords:
+- tom/ITextRow.SetCellMargin
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.SetCellMargin
+- ITextRow.SetCellMargin
 targetos: Windows
 req.typenames: 
 req.redist: 

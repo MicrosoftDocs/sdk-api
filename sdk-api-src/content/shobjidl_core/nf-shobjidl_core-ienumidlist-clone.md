@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IEnumIDList.Clone
 title: IEnumIDList::Clone (shobjidl_core.h)
-
 description: Creates a new item enumeration object with the same contents and state as the current one.
 old-location: shell\IEnumIDList_Clone.htm
 tech.root: shell
 ms.assetid: f0118153-25ea-42d6-90bf-b85ffd99b74b
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumIDList interface, IEnumIDList interface [Windows Shell],Clone method, IEnumIDList.Clone, IEnumIDList::Clone, _win32_IEnumIDList_Clone, shell.IEnumIDList_Clone, shobjidl_core/IEnumIDList::Clone
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IEnumIDList.Clone"
+f1_keywords:
+- shobjidl_core/IEnumIDList.Clone
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IEnumIDList.Clone
+- IEnumIDList.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

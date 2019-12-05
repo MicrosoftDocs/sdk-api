@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventProperty.get_Value
 title: IEventProperty::get_Value (eventsys.h)
-
 description: The value of the event property.
 old-location: com\ieventproperty_value.htm
 tech.root: com
 ms.assetid: 2715675d-590d-4132-a2fb-ce0000fe10a1
-
 ms.date: 12/05/2018
 ms.keywords: IEventProperty interface [COM],Value property, IEventProperty.Value, IEventProperty.get_Value, IEventProperty::Value, IEventProperty::get_Value, IEventProperty::put_Value, Value property [COM], Value property [COM],IEventProperty interface, _com_ieventproperty_value, com.ieventproperty_value, eventsys/IEventProperty::Value, eventsys/IEventProperty::get_Value, eventsys/IEventProperty::put_Value, get_Value
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventProperty.Value"
+f1_keywords:
+- eventsys/IEventProperty.Value
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IEventProperty.Value
- - IEventProperty.get_Value
- - IEventProperty.put_Value
+- IEventProperty.Value
+- IEventProperty.get_Value
+- IEventProperty.put_Value
 targetos: Windows
 req.typenames: 
 req.redist: 

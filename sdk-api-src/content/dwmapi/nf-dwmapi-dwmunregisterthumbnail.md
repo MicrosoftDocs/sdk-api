@@ -1,19 +1,17 @@
 ---
 UID: NF:dwmapi.DwmUnregisterThumbnail
 title: DwmUnregisterThumbnail function (dwmapi.h)
-
 description: Removes a Desktop Window Manager (DWM) thumbnail relationship created by the DwmRegisterThumbnail function.
 old-location: dwm\dwmunregisterthumbnail.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmunregisterthumbnail.htm
-
 ms.date: 12/05/2018
 ms.keywords: DwmUnregisterThumbnail, DwmUnregisterThumbnail function [Desktop Window Manager], _udwm_dwmunregisterthumbnail, _udwm_dwmunregisterthumbnail_cpp, dwm.dwmunregisterthumbnail, dwmapi/DwmUnregisterThumbnail, winui._udwm_dwmunregisterthumbnail
 ms.topic: function
-f1_keywords: 
- - "dwmapi/DwmUnregisterThumbnail"
+f1_keywords:
+- dwmapi/DwmUnregisterThumbnail
 dev_langs:
- - c++
+- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dwmapi.dll
+- Dwmapi.dll
 api_name:
- - DwmUnregisterThumbnail
+- DwmUnregisterThumbnail
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage2.Refresh
 title: IFaxIncomingMessage2::Refresh (faxcomex.h)
-
 description: Refreshes FaxIncomingMessage object information from the fax server.
 old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxincomingmessage2\refresh.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessage2 interface [Fax Service],Refresh method, IFaxIncomingMessage2.Refresh, IFaxIncomingMessage2::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxIncomingMessage2 interface, _mfax_faxincomingmessage.refresh, fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_refresh_cpp, fax._mfax_faxincomingmessage_refresh, faxcomex/IFaxIncomingMessage2::Refresh
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxIncomingMessage2.Refresh"
+f1_keywords:
+- faxcomex/IFaxIncomingMessage2.Refresh
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingMessage2.Refresh
- - IFaxIncomingMessage2.Refresh
+- IFaxIncomingMessage2.Refresh
+- IFaxIncomingMessage2.Refresh
 targetos: Windows
 req.typenames: 
 req.redist: 

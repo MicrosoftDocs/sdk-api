@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.IBDA_NameValueService
 title: IBDA_NameValueService (bdaiface.h)
-
 description: Retrieves name/value pairs from a media transform device (MTD) through the device's General Purpose Name Value Service (GPNVS). Name/value pairs are used to get the capabilities of the device.
 old-location: mstv\ibda_namevalueservice.htm
 tech.root: mstv
 ms.assetid: 7b6a12d2-24e4-42d8-9138-86c2fe558d86
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_NameValueService, IBDA_NameValueService interface [Microsoft TV Technologies], IBDA_NameValueService interface [Microsoft TV Technologies],described, bdaiface/IBDA_NameValueService, mstv.ibda_namevalueservice
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/IBDA_NameValueService"
+f1_keywords:
+- bdaiface/IBDA_NameValueService
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_NameValueService
+- IBDA_NameValueService
 targetos: Windows
 req.typenames: 
 req.redist: 

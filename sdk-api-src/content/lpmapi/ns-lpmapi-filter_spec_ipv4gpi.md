@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_7
 title: Filter_Spec_IPv4GPI (lpmapi.h)
-
 description: The Filter_Spec_IPv4GPI structure contains generalized port ID information about an IPv4 FILTERSPEC.
 old-location: qos\filter_spec_ipv4gpi.htm
 tech.root: QOS
 ms.assetid: c1546673-d1b5-4a7f-82d0-a8cc1c7c8752
-
 ms.date: 12/05/2018
 ms.keywords: Filter_Spec_IPv4GPI, Filter_Spec_IPv4GPI structure [QOS], lpmapi/Filter_Spec_IPv4GPI, qos.filter_spec_ipv4gpi
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/Filter_Spec_IPv4GPI"
+f1_keywords:
+- lpmapi/Filter_Spec_IPv4GPI
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - Filter_Spec_IPv4GPI
+- Filter_Spec_IPv4GPI
 targetos: Windows
 req.typenames: Filter_Spec_IPv4GPI
 req.redist: 

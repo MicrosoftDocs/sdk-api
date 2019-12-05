@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcEpUnregister
 title: RpcEpUnregister function (rpcdce.h)
-
 description: The RpcEpUnregister function removes server-address information from the local endpoint-map database.
 old-location: rpc\rpcepunregister.htm
 tech.root: Rpc
 ms.assetid: bb0485fc-0b25-4fc0-9a18-921a9de428ce
-
 ms.date: 12/05/2018
 ms.keywords: RpcEpUnregister, RpcEpUnregister function [RPC], _rpc_rpcepunregister, rpc.rpcepunregister, rpcdce/RpcEpUnregister
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcEpUnregister"
+f1_keywords:
+- rpcdce/RpcEpUnregister
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcEpUnregister
+- RpcEpUnregister
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shidfact.CItemIDFactory.GetPropertyStorage
 title: CItemIDFactory::GetPropertyStorage (shidfact.h)
-
 description: Gets a read only pointer to the serialized property storage that is used for storing metadata.
 old-location: shell\citemidfactory_getpropertystorage.htm
 tech.root: shell
 ms.assetid: 3A3F0F28-C9E1-4F2E-9A02-C6A48BF3C204
-
 ms.date: 12/05/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],GetPropertyStorage method, CItemIDFactory.GetPropertyStorage, CItemIDFactory::GetPropertyStorage, GetPropertyStorage, GetPropertyStorage method [Windows Shell], GetPropertyStorage method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_getpropertystorage, shidfact/CItemIDFactory::GetPropertyStorage
 ms.topic: method
-f1_keywords: 
- - "shidfact/CItemIDFactory.GetPropertyStorage"
+f1_keywords:
+- shidfact/CItemIDFactory.GetPropertyStorage
 dev_langs:
- - c++
+- c++
 req.header: shidfact.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shidfact.h
+- shidfact.h
 api_name:
- - CItemIDFactory.GetPropertyStorage
+- CItemIDFactory.GetPropertyStorage
 targetos: Windows
 req.typenames: 
 req.redist: 

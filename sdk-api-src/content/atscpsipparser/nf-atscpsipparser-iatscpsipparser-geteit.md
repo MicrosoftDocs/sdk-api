@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IAtscPsipParser.GetEIT
 title: IAtscPsipParser::GetEIT (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatscpsipparser_geteit.htm
 tech.root: mstv
 ms.assetid: b88a6728-d772-48b8-aebc-7d4cc133320a
-
 ms.date: 12/05/2018
 ms.keywords: GetEIT, GetEIT method [Microsoft TV Technologies], GetEIT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetEIT method, IAtscPsipParser.GetEIT, IAtscPsipParser::GetEIT, IAtscPsipParserGetEIT, atscpsipparser/IAtscPsipParser::GetEIT, mstv.iatscpsipparser_geteit
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IAtscPsipParser.GetEIT"
+f1_keywords:
+- atscpsipparser/IAtscPsipParser.GetEIT
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IAtscPsipParser.GetEIT
+- IAtscPsipParser.GetEIT
 targetos: Windows
 req.typenames: 
 req.redist: 

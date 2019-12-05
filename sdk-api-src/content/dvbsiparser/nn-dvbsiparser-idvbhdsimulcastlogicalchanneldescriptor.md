@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IDvbHDSimulcastLogicalChannelDescriptor
 title: IDvbHDSimulcastLogicalChannelDescriptor (dvbsiparser.h)
-
 description: Implements the IDvbLogicalChannelDescriptor interface for Digital Video Broadcast (DVB) streams based on Motion Picture Experts Group Version 4 Advanced Video Coding (MPEG-4AVC) that support high-definition (HD) simulcasting.
 old-location: mstv\idvbhdsimulcastlogicalchanneldescriptor.htm
 tech.root: mstv
 ms.assetid: 39ba28a6-0798-4049-82f6-1969822f4933
-
 ms.date: 12/05/2018
 ms.keywords: IDvbHDSimulcastLogicalChannelDescriptor, IDvbHDSimulcastLogicalChannelDescriptor interface [Microsoft TV Technologies], IDvbHDSimulcastLogicalChannelDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbHDSimulcastLogicalChannelDescriptor, mstv.idvbhdsimulcastlogicalchanneldescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IDvbHDSimulcastLogicalChannelDescriptor"
+f1_keywords:
+- dvbsiparser/IDvbHDSimulcastLogicalChannelDescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbHDSimulcastLogicalChannelDescriptor
+- IDvbHDSimulcastLogicalChannelDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

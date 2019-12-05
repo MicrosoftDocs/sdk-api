@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetCurrentLocation
 title: IDvdInfo2::GetCurrentLocation (strmif.h)
-
 description: The GetCurrentLocation method retrieves the current playback location.
 old-location: dshow\idvdinfo2_getcurrentlocation.htm
 tech.root: DirectShow
 ms.assetid: 54005c07-1689-411c-88a9-bcd19cc065dd
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentLocation, GetCurrentLocation method [DirectShow], GetCurrentLocation method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCurrentLocation method, IDvdInfo2.GetCurrentLocation, IDvdInfo2::GetCurrentLocation, IDvdInfo2GetCurrentLocation, dshow.idvdinfo2_getcurrentlocation, strmif/IDvdInfo2::GetCurrentLocation
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo2.GetCurrentLocation"
+f1_keywords:
+- strmif/IDvdInfo2.GetCurrentLocation
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdInfo2.GetCurrentLocation
+- IDvdInfo2.GetCurrentLocation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.CD3D11_VIEWPORT.~CD3D11_VIEWPORT
 title: CD3D11_VIEWPORT::~CD3D11_VIEWPORT (d3d11.h)
-
 description: Destroys an instance of a CD3D11_VIEWPORT structure.
 old-location: direct3d11\cd3d11_viewport__cd3d11_viewport__.htm
 tech.root: direct3d11
 ms.assetid: D27B0AE1-7804-4153-87D4-0EEDA7BB4E7E
-
 ms.date: 12/05/2018
 ms.keywords: CD3D11_VIEWPORT interface [Direct3D 11],~CD3D11_VIEWPORT destructor, CD3D11_VIEWPORT.~CD3D11_VIEWPORT, CD3D11_VIEWPORT::~CD3D11_VIEWPORT, CD3D11_VIEWPORT::~CD3D11_VIEWPORT(), d3d11/CD3D11_VIEWPORT::~CD3D11_VIEWPORT, direct3d11.cd3d11_viewport__cd3d11_viewport__, ~CD3D11_VIEWPORT, ~CD3D11_VIEWPORT destructor [Direct3D 11], ~CD3D11_VIEWPORT destructor [Direct3D 11],CD3D11_VIEWPORT interface
 ms.topic: method
-f1_keywords: 
- - "d3d11/CD3D11_VIEWPORT.~CD3D11_VIEWPORT"
+f1_keywords:
+- d3d11/CD3D11_VIEWPORT.~CD3D11_VIEWPORT
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - CD3D11_VIEWPORT.~CD3D11_VIEWPORT
+- CD3D11_VIEWPORT.~CD3D11_VIEWPORT
 targetos: Windows
 req.typenames: 
 req.redist: 

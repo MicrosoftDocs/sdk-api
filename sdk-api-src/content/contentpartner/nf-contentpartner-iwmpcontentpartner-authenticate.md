@@ -1,19 +1,17 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.Authenticate
 title: IWMPContentPartner::Authenticate (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The Authenticate method initiates an attempt to authenticate the user.
 old-location: wmp\iwmpcontentpartner_authenticate.htm
 tech.root: WMP
 ms.assetid: 0fb3a94d-8c8e-4d04-b9ca-56ad2e066aac
-
 ms.date: 12/05/2018
 ms.keywords: Authenticate, Authenticate method [Windows Media Player], Authenticate method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],Authenticate method, IWMPContentPartner.Authenticate, IWMPContentPartner::Authenticate, IWMPContentPartnerAuthenticate, contentpartner/IWMPContentPartner::Authenticate, wmp.iwmpcontentpartner_authenticate
 ms.topic: method
-f1_keywords: 
- - "contentpartner/IWMPContentPartner.Authenticate"
+f1_keywords:
+- contentpartner/IWMPContentPartner.Authenticate
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - IWMPContentPartner.Authenticate
+- IWMPContentPartner.Authenticate
 targetos: Windows
 req.typenames: 
 req.redist: 

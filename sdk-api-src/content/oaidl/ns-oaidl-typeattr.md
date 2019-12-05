@@ -1,19 +1,17 @@
 ---
 UID: NS:oaidl.tagTYPEATTR
 title: TYPEATTR (oaidl.h)
-
 description: Contains attributes of a type.
 old-location: automat\typeattr.htm
 tech.root: automat
 ms.assetid: 00c2b307-b944-44de-a9c7-1165fb27165b
-
 ms.date: 12/05/2018
-ms.keywords: "*LPTYPEATTR, LPTYPEATTR, LPTYPEATTR structure pointer [Automation], TYPEATTR, TYPEATTR structure [Automation], _oa96_TYPEATTR, automat.typeattr, oaidl/LPTYPEATTR, oaidl/TYPEATTR"
+ms.keywords: '*LPTYPEATTR, LPTYPEATTR, LPTYPEATTR structure pointer [Automation], TYPEATTR, TYPEATTR structure [Automation], _oa96_TYPEATTR, automat.typeattr, oaidl/LPTYPEATTR, oaidl/TYPEATTR'
 ms.topic: struct
-f1_keywords: 
- - "oaidl/TYPEATTR"
+f1_keywords:
+- oaidl/TYPEATTR
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OaIdl.h
+- OaIdl.h
 api_name:
- - TYPEATTR
+- TYPEATTR
 targetos: Windows
 req.typenames: TYPEATTR, *LPTYPEATTR
 req.redist: 

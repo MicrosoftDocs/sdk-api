@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantToInt16
 title: VariantToInt16 function (propvarutil.h)
-
 description: Extracts the Int16 property value of a variant structure. If no value can be extracted, then a default value is assigned by this function.
 old-location: properties\VariantToInt16.htm
 tech.root: properties
 ms.assetid: 5a0d22c1-4295-405d-a503-2b9fdd6eaa81
-
 ms.date: 12/05/2018
 ms.keywords: VariantToInt16, VariantToInt16 function [Windows Properties], _shell_VariantToInt16, properties.VariantToInt16, propvarutil/VariantToInt16, shell.VariantToInt16
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantToInt16"
+f1_keywords:
+- propvarutil/VariantToInt16
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantToInt16
+- VariantToInt16
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

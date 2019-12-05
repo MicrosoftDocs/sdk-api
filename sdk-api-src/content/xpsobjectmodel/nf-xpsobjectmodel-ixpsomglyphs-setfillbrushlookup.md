@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.SetFillBrushLookup
 title: IXpsOMGlyphs::SetFillBrushLookup (xpsobjectmodel.h)
-
 description: Sets the lookup key name of a shared fill brush.
 old-location: xps\ixpsomglyphs_setfillbrushlookup.htm
 tech.root: printdocs
 ms.assetid: a983583b-8698-48aa-af24-2e71d87d30c4
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetFillBrushLookup method, IXpsOMGlyphs.SetFillBrushLookup, IXpsOMGlyphs::SetFillBrushLookup, SetFillBrushLookup, SetFillBrushLookup method [XPS Documents and Packaging], SetFillBrushLookup method [XPS Documents and Packaging],IXpsOMGlyphs interface, xps.ixpsomglyphs_setfillbrushlookup, xpsobjectmodel/IXpsOMGlyphs::SetFillBrushLookup
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGlyphs.SetFillBrushLookup"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGlyphs.SetFillBrushLookup
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphs.SetFillBrushLookup
+- IXpsOMGlyphs.SetFillBrushLookup
 targetos: Windows
 req.typenames: 
 req.redist: 

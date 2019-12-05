@@ -1,19 +1,17 @@
 ---
 UID: NF:tdh.TdhQueryProviderFieldInformation
 title: TdhQueryProviderFieldInformation function (tdh.h)
-
 description: Retrieves information for the specified field from the event descriptions for those field values that match the given value.
 old-location: etw\tdhqueryproviderfieldinformation_func.htm
 tech.root: ETW
 ms.assetid: ca3c1519-0b86-4bdb-b027-9c662df5466e
-
 ms.date: 12/05/2018
 ms.keywords: TdhQueryProviderFieldInformation, TdhQueryProviderFieldInformation function [ETW], etw.tdhqueryproviderfieldinformation_func, tdh.tdhqueryproviderfieldinformation_func, tdh/TdhQueryProviderFieldInformation
 ms.topic: function
 f1_keywords:
 - tdh/TdhQueryProviderFieldInformation
 dev_langs:
- - c++
+- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

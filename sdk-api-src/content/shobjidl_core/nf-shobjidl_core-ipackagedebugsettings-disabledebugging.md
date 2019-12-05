@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.DisableDebugging
 title: IPackageDebugSettings::DisableDebugging (shobjidl_core.h)
-
 description: Disables debug mode for the processes of the specified package.
 old-location: shell\IPackageDebugSettings_DisableDebugging.htm
 tech.root: shell
 ms.assetid: 102e57be-296e-44ec-8211-f2c2d5eae1e6
-
 ms.date: 12/05/2018
 ms.keywords: DisableDebugging, DisableDebugging method [Windows Shell], DisableDebugging method [Windows Shell],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Shell],DisableDebugging method, IPackageDebugSettings.DisableDebugging, IPackageDebugSettings::DisableDebugging, shell.IPackageDebugSettings_DisableDebugging, shobjidl_core/IPackageDebugSettings::DisableDebugging
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IPackageDebugSettings.DisableDebugging"
+f1_keywords:
+- shobjidl_core/IPackageDebugSettings.DisableDebugging
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - IPackageDebugSettings.DisableDebugging
+- IPackageDebugSettings.DisableDebugging
 targetos: Windows
 req.typenames: 
 req.redist: 

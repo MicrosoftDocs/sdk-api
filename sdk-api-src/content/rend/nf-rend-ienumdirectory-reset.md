@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.IEnumDirectory.Reset
 title: IEnumDirectory::Reset (rend.h)
-
 description: The Reset method resets to the beginning of the enumeration sequence.
 old-location: tapi3\ienumdirectory_reset.htm
 tech.root: Tapi
 ms.assetid: e5800978-198e-479d-8cca-5c4ac2399d5d
-
 ms.date: 12/05/2018
 ms.keywords: IEnumDirectory interface [TAPI 2.2],Reset method, IEnumDirectory.Reset, IEnumDirectory::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumDirectory interface, _tapi3_ienumdirectory_reset, rend/IEnumDirectory::Reset, tapi3.ienumdirectory_reset
 ms.topic: method
-f1_keywords: 
- - "rend/IEnumDirectory.Reset"
+f1_keywords:
+- rend/IEnumDirectory.Reset
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - IEnumDirectory.Reset
+- IEnumDirectory.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

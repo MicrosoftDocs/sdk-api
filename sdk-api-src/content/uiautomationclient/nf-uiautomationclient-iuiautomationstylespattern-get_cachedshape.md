@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStylesPattern.get_CachedShape
 title: IUIAutomationStylesPattern::get_CachedShape (uiautomationclient.h)
-
 description: Retrieves the cached shape of an element in a document.
 old-location: winauto\uiauto_IUIAutomationStylesPattern_CachedShape.htm
 tech.root: WinAuto
 ms.assetid: DB6D21C8-ADF3-4640-9B46-59033F015A22
-
 ms.date: 12/05/2018
 ms.keywords: CachedShape property [Windows Accessibility], CachedShape property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CachedShape property, IUIAutomationStylesPattern.CachedShape, IUIAutomationStylesPattern.get_CachedShape, IUIAutomationStylesPattern::CachedShape, IUIAutomationStylesPattern::get_CachedShape, get_CachedShape, uiautomationclient/IUIAutomationStylesPattern::CachedShape, uiautomationclient/IUIAutomationStylesPattern::get_CachedShape, winauto.uiauto_IUIAutomationStylesPattern_CachedShape
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationStylesPattern.CachedShape"
+f1_keywords:
+- uiautomationclient/IUIAutomationStylesPattern.CachedShape
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationStylesPattern.CachedShape
- - IUIAutomationStylesPattern.get_CachedShape
+- IUIAutomationStylesPattern.CachedShape
+- IUIAutomationStylesPattern.get_CachedShape
 targetos: Windows
 req.typenames: 
 req.redist: 

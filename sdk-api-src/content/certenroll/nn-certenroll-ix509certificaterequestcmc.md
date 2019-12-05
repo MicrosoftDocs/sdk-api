@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX509CertificateRequestCmc
 title: IX509CertificateRequestCmc (certenroll.h)
-
 description: Represents a CMC (Certificate Management Message over CMS) certificate request.
 old-location: security\ix509certificaterequestcmc.htm
 tech.root: seccertenroll
 ms.assetid: 77059388-c442-4db5-ab27-1db25e2f63b9
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCmc, IX509CertificateRequestCmc interface [Security], IX509CertificateRequestCmc interface [Security],described, certenroll/IX509CertificateRequestCmc, security.ix509certificaterequestcmc
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX509CertificateRequestCmc"
+f1_keywords:
+- certenroll/IX509CertificateRequestCmc
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestCmc
+- IX509CertificateRequestCmc
 targetos: Windows
 req.typenames: 
 req.redist: 

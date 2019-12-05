@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.INewMenuClient
 title: INewMenuClient (shobjidl_core.h)
-
 description: Exposes methods that allow manipulation of items in a Windows 7 menu.
 old-location: shell\INewMenuClient.htm
 tech.root: shell
 ms.assetid: f122d728-5677-4fb7-89fe-9f0b21c4c38d
-
 ms.date: 12/05/2018
 ms.keywords: INewMenuClient, INewMenuClient interface [Windows Shell], INewMenuClient interface [Windows Shell],described, _shell_INewMenuClient, shell.INewMenuClient, shobjidl_core/INewMenuClient
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/INewMenuClient"
+f1_keywords:
+- shobjidl_core/INewMenuClient
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - INewMenuClient
+- INewMenuClient
 targetos: Windows
 req.typenames: 
 req.redist: 

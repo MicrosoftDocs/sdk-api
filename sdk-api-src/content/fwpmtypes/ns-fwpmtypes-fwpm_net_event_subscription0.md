@@ -1,19 +1,17 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_SUBSCRIPTION0_
 title: FWPM_NET_EVENT_SUBSCRIPTION0 (fwpmtypes.h)
-
 description: Stores information used to subscribe to notifications about a network event.
 old-location: fwp\fwpm_net_event_subscription0.htm
 tech.root: fwp
 ms.assetid: a1aa8369-fd70-46f6-983d-0afdf8b8ff77
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_NET_EVENT_SUBSCRIPTION0, FWPM_NET_EVENT_SUBSCRIPTION0 structure [Filtering], fwp.fwpm_net_event_subscription0, fwpmtypes/FWPM_NET_EVENT_SUBSCRIPTION0
 ms.topic: struct
-f1_keywords: 
- - "fwpmtypes/FWPM_NET_EVENT_SUBSCRIPTION0"
+f1_keywords:
+- fwpmtypes/FWPM_NET_EVENT_SUBSCRIPTION0
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_NET_EVENT_SUBSCRIPTION0
+- FWPM_NET_EVENT_SUBSCRIPTION0
 targetos: Windows
 req.typenames: FWPM_NET_EVENT_SUBSCRIPTION0
 req.redist: 

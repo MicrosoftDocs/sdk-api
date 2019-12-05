@@ -1,19 +1,17 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingState
 title: IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingState (wmlss.h)
-
 description: The get_userHomeMediaSharingState method retrieves a value that indicates whether the current user's media library is shared on the home network.
 old-location: wmlss\IWMLSSget_userHomeMediaSharingState.htm
 tech.root: WMLSS
 ms.assetid: 6f56c825-0fdc-4414-aefa-83f8efee2150
-
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],get_userHomeMediaSharingState method, IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingState, IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingState, get_userHomeMediaSharingState, get_userHomeMediaSharingState method [Windows Media Library Sharing Services], get_userHomeMediaSharingState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSget_userHomeMediaSharingState, wmlss/IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingState
 ms.topic: method
-f1_keywords: 
- - "wmlss/IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingState"
+f1_keywords:
+- wmlss/IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingState
 dev_langs:
- - c++
+- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: WMPMediaSharing.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMPMediaSharing.dll
+- WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingState
+- IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingState
 targetos: Windows
 req.typenames: 
 req.redist: 

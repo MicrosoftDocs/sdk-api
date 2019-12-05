@@ -1,19 +1,17 @@
 ---
 UID: NF:propidlbase.IEnumSTATPROPSTG.Reset
 title: IEnumSTATPROPSTG::Reset (propidlbase.h)
-
 description: Resets the enumeration sequence to the beginning of the STATPROPSTG structure array.
 old-location: stg\ienumstatpropstg_reset.htm
 tech.root: Stg
 ms.assetid: e742e3ee-6261-4d6d-85ca-8df770aa58ad
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATPROPSTG interface [Structured Storage],Reset method, IEnumSTATPROPSTG.Reset, IEnumSTATPROPSTG::Reset, Reset, Reset method [Structured Storage], Reset method [Structured Storage],IEnumSTATPROPSTG interface, propidlbase/IEnumSTATPROPSTG::Reset, stg.ienumstatpropstg_reset
 ms.topic: method
-f1_keywords: 
- - "propidlbase/IEnumSTATPROPSTG.Reset"
+f1_keywords:
+- propidlbase/IEnumSTATPROPSTG.Reset
 dev_langs:
- - c++
+- c++
 req.header: propidlbase.h
 req.include-header: Propidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IEnumSTATPROPSTG.Reset
+- IEnumSTATPROPSTG.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

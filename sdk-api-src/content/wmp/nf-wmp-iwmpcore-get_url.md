@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPCore.get_URL
 title: IWMPCore::get_URL (wmp.h)
-
 description: The get_URL method retrieves the name of the clip to play.
 old-location: wmp\iwmpcore_get_url.htm
 tech.root: WMP
 ms.assetid: 54d43a1c-807a-40a5-a703-262d75f88ca0
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_URL method, IWMPCore.get_URL, IWMPCore::get_URL, IWMPCoreget_URL, get_URL, get_URL method [Windows Media Player], get_URL method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_url, wmp/IWMPCore::get_URL
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPCore.get_URL"
+f1_keywords:
+- wmp/IWMPCore.get_URL
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPCore.get_URL
+- IWMPCore.get_URL
 targetos: Windows
 req.typenames: 
 req.redist: 

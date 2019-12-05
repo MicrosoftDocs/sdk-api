@@ -1,19 +1,17 @@
 ---
 UID: NF:upnphost.IUPnPRegistrar.UnregisterDeviceProvider
 title: IUPnPRegistrar::UnregisterDeviceProvider (upnphost.h)
-
 description: The UnregisterDeviceProvider method permanently unregisters and unloads the device provider from the device host. The IUPnPDeviceProvider::Stop method is invoked.
 old-location: upnp\iupnpregistrar_unregisterdeviceprovider.htm
 tech.root: upnp
 ms.assetid: 548bd520-9c62-4dae-8ae3-94e3683a34f1
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPRegistrar interface [UPnP APIs],UnregisterDeviceProvider method, IUPnPRegistrar.UnregisterDeviceProvider, IUPnPRegistrar::UnregisterDeviceProvider, UnregisterDeviceProvider, UnregisterDeviceProvider method [UPnP APIs], UnregisterDeviceProvider method [UPnP APIs],IUPnPRegistrar interface, _upnp_iupnpregistrar_unregisterdeviceprovider, upnp.iupnpregistrar_unregisterdeviceprovider, upnphost/IUPnPRegistrar::UnregisterDeviceProvider
 ms.topic: method
-f1_keywords: 
- - "upnphost/IUPnPRegistrar.UnregisterDeviceProvider"
+f1_keywords:
+- upnphost/IUPnPRegistrar.UnregisterDeviceProvider
 dev_langs:
- - c++
+- c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnphost.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnphost.dll
+- Upnphost.dll
 api_name:
- - IUPnPRegistrar.UnregisterDeviceProvider
+- IUPnPRegistrar.UnregisterDeviceProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpsapi._DHCPDS_SERVER
 title: DHCPDS_SERVER (dhcpsapi.h)
-
 description: The DHCPDS_SERVER structure defines information on a DHCP server in the context of directory services.
 old-location: dhcp\dhcpds_server.htm
 tech.root: DHCP
 ms.assetid: 12f3fbd3-9b81-4a11-914c-83658c2bce89
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCPDS_SERVER, *PDHCPDS_SERVER, DHCPDS_SERVER, DHCPDS_SERVER structure [DHCP], DHCP_SERVER_INFO, DHCP_SERVER_INFO structure [DHCP], LPDHCPDS_SERVER *PDHCPDS_SERVER, LPDHCPDS_SERVER *PDHCPDS_SERVER structure pointer [DHCP], LPDHCP_SERVER_INFO *PDHCP_SERVER_INFO, LPDHCP_SERVER_INFO *PDHCP_SERVER_INFO structure pointer [DHCP], PDHCPDS_SERVER, PDHCPDS_SERVER structure pointer [DHCP], PDHCP_SERVER_INFO, PDHCP_SERVER_INFO structure pointer [DHCP], dhcp.dhcpds_server, dhcpsapi/DHCP_SERVER_INFO, dhcpsapi/LPDHCPDS_SERVER *PDHCPDS_SERVER, dhcpsapi/LPDHCP_SERVER_INFO *PDHCP_SERVER_INFO, dhcpsapi/PDHCPDS_SERVER, dhcpsapi/PDHCP_SERVER_INFO, dhcpsapi/_DHCPDS_SERVER"
+ms.keywords: '*LPDHCPDS_SERVER, *PDHCPDS_SERVER, DHCPDS_SERVER, DHCPDS_SERVER structure [DHCP], DHCP_SERVER_INFO, DHCP_SERVER_INFO structure [DHCP], LPDHCPDS_SERVER *PDHCPDS_SERVER, LPDHCPDS_SERVER *PDHCPDS_SERVER structure pointer [DHCP], LPDHCP_SERVER_INFO *PDHCP_SERVER_INFO, LPDHCP_SERVER_INFO *PDHCP_SERVER_INFO structure pointer [DHCP], PDHCPDS_SERVER, PDHCPDS_SERVER structure pointer [DHCP], PDHCP_SERVER_INFO, PDHCP_SERVER_INFO structure pointer [DHCP], dhcp.dhcpds_server, dhcpsapi/DHCP_SERVER_INFO, dhcpsapi/LPDHCPDS_SERVER *PDHCPDS_SERVER, dhcpsapi/LPDHCP_SERVER_INFO *PDHCP_SERVER_INFO, dhcpsapi/PDHCPDS_SERVER, dhcpsapi/PDHCP_SERVER_INFO, dhcpsapi/_DHCPDS_SERVER'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCPDS_SERVER"
+f1_keywords:
+- dhcpsapi/DHCPDS_SERVER
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCPDS_SERVER
+- DHCPDS_SERVER
 targetos: Windows
 req.typenames: DHCPDS_SERVER, *LPDHCPDS_SERVER, *PDHCPDS_SERVER
 req.redist: 

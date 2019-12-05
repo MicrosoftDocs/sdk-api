@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.RestoreDC
 title: RestoreDC function (wingdi.h)
-
 description: The RestoreDC function restores a device context (DC) to the specified state. The DC is restored by popping state information off a stack created by earlier calls to the SaveDC function.
 old-location: gdi\restoredc.htm
 tech.root: gdi
 ms.assetid: 7043edbb-b3ea-4946-a2ba-cae356b04d1d
-
 ms.date: 12/05/2018
 ms.keywords: RestoreDC, RestoreDC function [Windows GDI], _win32_RestoreDC, gdi.restoredc, wingdi/RestoreDC
 ms.topic: function
-f1_keywords: 
- - "wingdi/RestoreDC"
+f1_keywords:
+- wingdi/RestoreDC
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-DC-l1-2-0.dll
- - ext-ms-win-gdi-dc-l1-1-0.dll
- - ext-ms-win-gdi-dc-l1-2-1.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-DC-l1-2-0.dll
+- ext-ms-win-gdi-dc-l1-1-0.dll
+- ext-ms-win-gdi-dc-l1-2-1.dll
+- GDI32Full.dll
 api_name:
- - RestoreDC
+- RestoreDC
 targetos: Windows
 req.typenames: 
 req.redist: 

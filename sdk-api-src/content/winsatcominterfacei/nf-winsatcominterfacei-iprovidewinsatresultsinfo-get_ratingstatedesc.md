@@ -1,19 +1,17 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATResultsInfo.get_RatingStateDesc
 title: IProvideWinSATResultsInfo::get_RatingStateDesc (winsatcominterfacei.h)
-
 description: Retrieves a string that you can use in a UI to indicate whether the assessment is valid.
 old-location: winsat\iprovidewinsatresultsinfo_ratingstatedesc.htm
 tech.root: WinSAT
 ms.assetid: 6995a4a2-a8c6-4c8f-bac0-478af4d8f911
-
 ms.date: 12/05/2018
 ms.keywords: IProvideWinSATResultsInfo interface [WinSAT],RatingStateDesc property, IProvideWinSATResultsInfo.RatingStateDesc, IProvideWinSATResultsInfo.get_RatingStateDesc, IProvideWinSATResultsInfo::RatingStateDesc, IProvideWinSATResultsInfo::get_RatingStateDesc, RatingStateDesc property [WinSAT], RatingStateDesc property [WinSAT],IProvideWinSATResultsInfo interface, get_RatingStateDesc, winsat.iprovidewinsatresultsinfo_ratingstatedesc, winsatcominterfacei/IProvideWinSATResultsInfo::RatingStateDesc, winsatcominterfacei/IProvideWinSATResultsInfo::get_RatingStateDesc
 ms.topic: method
-f1_keywords: 
- - "winsatcominterfacei/IProvideWinSATResultsInfo.RatingStateDesc"
+f1_keywords:
+- winsatcominterfacei/IProvideWinSATResultsInfo.RatingStateDesc
 dev_langs:
- - c++
+- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Winsatapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Winsatapi.dll
+- Winsatapi.dll
 api_name:
- - IProvideWinSATResultsInfo.RatingStateDesc
- - IProvideWinSATResultsInfo.get_RatingStateDesc
+- IProvideWinSATResultsInfo.RatingStateDesc
+- IProvideWinSATResultsInfo.get_RatingStateDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

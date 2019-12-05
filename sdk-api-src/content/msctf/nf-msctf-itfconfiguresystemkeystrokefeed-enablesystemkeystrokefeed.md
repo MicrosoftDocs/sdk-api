@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfConfigureSystemKeystrokeFeed.EnableSystemKeystrokeFeed
 title: ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed (msctf.h)
-
 description: ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed method
 old-location: tsf\itfconfiguresystemkeystrokefeed_enablesystemkeystrokefeed.htm
 tech.root: TSF
 ms.assetid: 66dc5db3-c4d9-422e-bbc0-300409a9576a
-
 ms.date: 12/05/2018
 ms.keywords: EnableSystemKeystrokeFeed, EnableSystemKeystrokeFeed method [Text Services Framework], EnableSystemKeystrokeFeed method [Text Services Framework],ITfConfigureSystemKeystrokeFeed interface, ITfConfigureSystemKeystrokeFeed interface [Text Services Framework],EnableSystemKeystrokeFeed method, ITfConfigureSystemKeystrokeFeed.EnableSystemKeystrokeFeed, ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed, _tsf_itfconfiguresystemkeystrokefeed_enablesystemkeystrokefeed_ref, msctf/ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed, tsf.itfconfiguresystemkeystrokefeed_enablesystemkeystrokefeed
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfConfigureSystemKeystrokeFeed.EnableSystemKeystrokeFeed"
+f1_keywords:
+- msctf/ITfConfigureSystemKeystrokeFeed.EnableSystemKeystrokeFeed
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfConfigureSystemKeystrokeFeed.EnableSystemKeystrokeFeed
+- ITfConfigureSystemKeystrokeFeed.EnableSystemKeystrokeFeed
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

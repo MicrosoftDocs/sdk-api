@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkTablets.IsPacketPropertySupported
 title: IInkTablets::IsPacketPropertySupported (msinkaut.h)
-
 description: Determines whether a property of a tablet device or a collection of tablet devices, identified with a globally unique identifier (GUID), is supported.
 old-location: tablet\inktablets_ispacketpropertysupported.htm
 tech.root: tablet
 ms.assetid: f83caf4a-b8ca-4cee-9060-679128a1bd77
-
 ms.date: 12/05/2018
 ms.keywords: 4bf2e2b0-d45a-4392-990e-5e9320333c0b, IInkTablets interface [Tablet PC],IsPacketPropertySupported method, IInkTablets.IsPacketPropertySupported, IInkTablets::IsPacketPropertySupported, IsPacketPropertySupported, IsPacketPropertySupported method [Tablet PC], IsPacketPropertySupported method [Tablet PC],IInkTablets interface, msinkaut/IInkTablets::IsPacketPropertySupported, tablet.inktablets_ispacketpropertysupported
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkTablets.IsPacketPropertySupported"
+f1_keywords:
+- msinkaut/IInkTablets.IsPacketPropertySupported
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkTablets.IsPacketPropertySupported
+- IInkTablets.IsPacketPropertySupported
 targetos: Windows
 req.typenames: 
 req.redist: 

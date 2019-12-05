@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ITextProvider.GetVisibleRanges
 title: ITextProvider::GetVisibleRanges (uiautomationcore.h)
-
 description: Retrieves an array of disjoint text ranges from a text-based control where each text range represents a contiguous span of visible text.
 old-location: winauto\uiauto_ITextProvider_GetVisibleRanges.htm
 tech.root: WinAuto
 ms.assetid: dc706d1d-b32d-4bc3-b65a-c42b38f06a93
-
 ms.date: 12/05/2018
 ms.keywords: GetVisibleRanges, GetVisibleRanges method [Windows Accessibility], GetVisibleRanges method [Windows Accessibility],ITextProvider interface, ITextProvider interface [Windows Accessibility],GetVisibleRanges method, ITextProvider.GetVisibleRanges, ITextProvider::GetVisibleRanges, uiauto.uiauto_ITextProvider_GetVisibleRanges, uiauto_ITextProvider_GetVisibleRanges, uiautomationcore/ITextProvider::GetVisibleRanges, winauto.uiauto_ITextProvider_GetVisibleRanges
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ITextProvider.GetVisibleRanges"
+f1_keywords:
+- uiautomationcore/ITextProvider.GetVisibleRanges
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ITextProvider.GetVisibleRanges
+- ITextProvider.GetVisibleRanges
 targetos: Windows
 req.typenames: 
 req.redist: 

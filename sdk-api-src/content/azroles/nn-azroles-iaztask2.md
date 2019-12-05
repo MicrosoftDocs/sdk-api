@@ -1,19 +1,17 @@
 ---
 UID: NN:azroles.IAzTask2
 title: IAzTask2 (azroles.h)
-
 description: Extends the IAzTask interface with a method that returns the role assignments associated with the task.
 old-location: security\iaztask2.htm
 tech.root: SecAuthZ
 ms.assetid: fa9994c5-1866-41ab-9cae-2d0e7208f79c
-
 ms.date: 12/05/2018
 ms.keywords: IAzTask2, IAzTask2 interface [Security], IAzTask2 interface [Security],described, azroles/IAzTask2, security.iaztask2
 ms.topic: interface
-f1_keywords: 
- - "azroles/IAzTask2"
+f1_keywords:
+- azroles/IAzTask2
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzTask2
+- IAzTask2
 targetos: Windows
 req.typenames: 
 req.redist: 

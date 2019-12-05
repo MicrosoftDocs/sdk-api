@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentFlowsTo
 title: IUIAutomationElement::get_CurrentFlowsTo (uiautomationclient.h)
-
 description: Retrieves an array of elements that indicates the reading order after the current element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentFlowsTo.htm
 tech.root: WinAuto
 ms.assetid: 4b807101-1a80-4f2b-a1d3-a08cd654ec44
-
 ms.date: 12/05/2018
 ms.keywords: CurrentFlowsTo property [Windows Accessibility], CurrentFlowsTo property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentFlowsTo property, IUIAutomationElement.CurrentFlowsTo, IUIAutomationElement.get_CurrentFlowsTo, IUIAutomationElement::CurrentFlowsTo, IUIAutomationElement::get_CurrentFlowsTo, get_CurrentFlowsTo, uiauto.uiauto_IUIAutomationElement_CurrentFlowsTo, uiauto_IUIAutomationElement_CurrentFlowsTo, uiautomationclient/IUIAutomationElement::CurrentFlowsTo, uiautomationclient/IUIAutomationElement::get_CurrentFlowsTo, winauto.uiauto_IUIAutomationElement_CurrentFlowsTo
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CurrentFlowsTo"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CurrentFlowsTo
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CurrentFlowsTo
- - IUIAutomationElement.get_CurrentFlowsTo
+- IUIAutomationElement.CurrentFlowsTo
+- IUIAutomationElement.get_CurrentFlowsTo
 targetos: Windows
 req.typenames: 
 req.redist: 

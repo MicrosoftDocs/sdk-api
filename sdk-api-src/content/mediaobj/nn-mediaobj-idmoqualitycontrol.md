@@ -1,19 +1,17 @@
 ---
 UID: NN:mediaobj.IDMOQualityControl
 title: IDMOQualityControl (mediaobj.h)
-
 description: The IDMOQualityControl interface supports quality control on a Microsoft DirectX Media Object (DMO).
 old-location: dshow\idmoqualitycontrol.htm
 tech.root: DirectShow
 ms.assetid: c23211f2-d4ba-45ff-b443-3425c3a3e72f
-
 ms.date: 12/05/2018
 ms.keywords: IDMOQualityControl, IDMOQualityControl interface [DirectShow], IDMOQualityControl interface [DirectShow],described, IDMOQualityControlInterface, dshow.idmoqualitycontrol, mediaobj/IDMOQualityControl
 ms.topic: interface
-f1_keywords: 
- - "mediaobj/IDMOQualityControl"
+f1_keywords:
+- mediaobj/IDMOQualityControl
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmoguids.lib
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mediaobj.h
+- Mediaobj.h
 api_name:
- - IDMOQualityControl
+- IDMOQualityControl
 targetos: Windows
 req.typenames: 
 req.redist: 

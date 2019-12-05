@@ -1,19 +1,17 @@
 ---
 UID: NF:fdi.FDIDestroy
 title: FDIDestroy function (fdi.h)
-
 description: The FDIDestroy function deletes an open FDI context.
 old-location: winprog\fdidestroy.htm
 tech.root: DevNotes
 ms.assetid: fe3b8045-a476-4a21-b732-0d4799798faf
-
 ms.date: 12/05/2018
 ms.keywords: FDIDestroy, FDIDestroy function [Windows API], fdi/FDIDestroy, winprog.fdidestroy
 ms.topic: function
-f1_keywords: 
- - "fdi/FDIDestroy"
+f1_keywords:
+- fdi/FDIDestroy
 dev_langs:
- - c++
+- c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Cabinet.lib
 req.dll: Cabinet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cabinet.dll
+- Cabinet.dll
 api_name:
- - FDIDestroy
+- FDIDestroy
 targetos: Windows
 req.typenames: 
 req.redist: 

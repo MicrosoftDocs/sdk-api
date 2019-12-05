@@ -1,19 +1,17 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0002
 title: XPS_COLOR_INTERPOLATION (xpsobjectmodel.h)
-
 description: Describes the gamma function used for color interpolation.
 old-location: xps\xps_color_interpolation.htm
 tech.root: printdocs
 ms.assetid: ad203082-d5a3-4414-88e1-8fd4dded6ea9
-
 ms.date: 12/05/2018
 ms.keywords: XPS_COLOR_INTERPOLATION, XPS_COLOR_INTERPOLATION enumeration [XPS Documents and Packaging], XPS_COLOR_INTERPOLATION_SCRGBLINEAR, XPS_COLOR_INTERPOLATION_SRGBLINEAR, xps.xps_color_interpolation, xpsobjectmodel/XPS_COLOR_INTERPOLATION, xpsobjectmodel/XPS_COLOR_INTERPOLATION_SCRGBLINEAR, xpsobjectmodel/XPS_COLOR_INTERPOLATION_SRGBLINEAR
 ms.topic: enum
-f1_keywords: 
- - "xpsobjectmodel/XPS_COLOR_INTERPOLATION"
+f1_keywords:
+- xpsobjectmodel/XPS_COLOR_INTERPOLATION
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - XPS_COLOR_INTERPOLATION
+- XPS_COLOR_INTERPOLATION
 targetos: Windows
 req.typenames: XPS_COLOR_INTERPOLATION
 req.redist: 

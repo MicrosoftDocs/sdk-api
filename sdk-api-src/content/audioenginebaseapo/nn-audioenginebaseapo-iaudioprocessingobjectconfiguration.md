@@ -1,19 +1,17 @@
 ---
 UID: NN:audioenginebaseapo.IAudioProcessingObjectConfiguration
 title: IAudioProcessingObjectConfiguration (audioenginebaseapo.h)
-
 description: The IAudioProcessingObjectConfiguration interface is used to configure the APO. This interface uses its methods to lock and unlock the APO for processing.
 old-location: audio\iaudioprocessingobjectconfiguration.htm
 tech.root: audio
 ms.assetid: 6311a5d1-b9d3-4c62-99aa-8feda32b4a2f
-
 ms.date: 12/05/2018
 ms.keywords: IAudioProcessingObjectConfiguration, IAudioProcessingObjectConfiguration interface [Audio Devices], IAudioProcessingObjectConfiguration interface [Audio Devices],described, audio.iaudioprocessingobjectconfiguration, audio_syseffects_r_b3847e21-94ea-45b3-9ae4-ccdb83f262aa.xml, audioenginebaseapo/IAudioProcessingObjectConfiguration
 ms.topic: interface
-f1_keywords: 
- - "audioenginebaseapo/IAudioProcessingObjectConfiguration"
+f1_keywords:
+- audioenginebaseapo/IAudioProcessingObjectConfiguration
 dev_langs:
- - c++
+- c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - audioenginebaseapo.h
+- audioenginebaseapo.h
 api_name:
- - IAudioProcessingObjectConfiguration
+- IAudioProcessingObjectConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 

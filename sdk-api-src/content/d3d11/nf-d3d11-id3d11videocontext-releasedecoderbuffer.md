@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.ReleaseDecoderBuffer
 title: ID3D11VideoContext::ReleaseDecoderBuffer (d3d11.h)
-
 description: Releases a buffer that was obtained by calling the ID3D11VideoContext::GetDecoderBuffer method.
 old-location: mf\id3d11videocontext_releasedecoderbuffer.htm
 tech.root: medfound
 ms.assetid: C7BD4CA6-706D-4C3A-AED1-EDF1C65E41E0
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],ReleaseDecoderBuffer method, ID3D11VideoContext.ReleaseDecoderBuffer, ID3D11VideoContext::ReleaseDecoderBuffer, ReleaseDecoderBuffer, ReleaseDecoderBuffer method [Media Foundation], ReleaseDecoderBuffer method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::ReleaseDecoderBuffer, mf.id3d11videocontext_releasedecoderbuffer
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoContext.ReleaseDecoderBuffer"
+f1_keywords:
+- d3d11/ID3D11VideoContext.ReleaseDecoderBuffer
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoContext.ReleaseDecoderBuffer
+- ID3D11VideoContext.ReleaseDecoderBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

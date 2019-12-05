@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2tcpip.InetNtopW
 title: InetNtopW function (ws2tcpip.h)
-
 description: The InetNtop function converts an IPv4 or IPv6 Internet network address into a string in Internet standard format. The ANSI version of this function is inet_ntop.
 old-location: winsock\inet_ntop.htm
 tech.root: WinSock
 ms.assetid: 1e26b88c-808f-4807-8641-e5c6b10853ad
-
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, InetNtop, InetNtop function [Winsock], InetNtopA, InetNtopA or inet_ntop, InetNtopW, inet_ntop, winsock.inet_ntop, ws2tcpip/InetNtop, ws2tcpip/InetNtopA or inet_ntop, ws2tcpip/InetNtopW
 ms.topic: function
-f1_keywords: 
- - "ws2tcpip/InetNtop"
+f1_keywords:
+- ws2tcpip/InetNtop
 dev_langs:
- - c++
+- c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - InetNtop
- - InetNtopA or inet_ntop
- - InetNtopW
+- InetNtop
+- InetNtopA or inet_ntop
+- InetNtopW
 targetos: Windows
 req.typenames: 
 req.redist: 

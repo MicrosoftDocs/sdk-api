@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_HEAP_TYPE
 title: D3D12_HEAP_TYPE (d3d12.h)
-
 description: Specifies the type of heap. When resident, heaps reside in a particular physical memory pool with certain CPU cache properties.
 old-location: direct3d12\d3d12_heap_type.htm
 tech.root: direct3d12
 ms.assetid: 5B1EA8A6-BD59-4B92-B6C4-A5C26D0B16D4
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_HEAP_TYPE, D3D12_HEAP_TYPE enumeration, D3D12_HEAP_TYPE_CUSTOM, D3D12_HEAP_TYPE_DEFAULT, D3D12_HEAP_TYPE_READBACK, D3D12_HEAP_TYPE_UPLOAD, d3d12/D3D12_HEAP_TYPE, d3d12/D3D12_HEAP_TYPE_CUSTOM, d3d12/D3D12_HEAP_TYPE_DEFAULT, d3d12/D3D12_HEAP_TYPE_READBACK, d3d12/D3D12_HEAP_TYPE_UPLOAD, direct3d12.d3d12_heap_type
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_HEAP_TYPE"
+f1_keywords:
+- d3d12/D3D12_HEAP_TYPE
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_HEAP_TYPE
+- D3D12_HEAP_TYPE
 targetos: Windows
 req.typenames: D3D12_HEAP_TYPE
 req.redist: 

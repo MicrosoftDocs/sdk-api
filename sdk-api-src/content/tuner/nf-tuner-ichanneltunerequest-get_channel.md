@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IChannelTuneRequest.get_Channel
 title: IChannelTuneRequest::get_Channel (tuner.h)
-
 description: The get_Channel method gets the channel to be tuned.
 old-location: mstv\ichanneltunerequest_get_channel.htm
 tech.root: mstv
 ms.assetid: 1a529416-9b7a-41f4-961a-741b1a581d5f
-
 ms.date: 12/05/2018
 ms.keywords: IChannelTuneRequest interface [Microsoft TV Technologies],get_Channel method, IChannelTuneRequest.get_Channel, IChannelTuneRequest::get_Channel, IChannelTuneRequestget_Channel, get_Channel, get_Channel method [Microsoft TV Technologies], get_Channel method [Microsoft TV Technologies],IChannelTuneRequest interface, mstv.ichanneltunerequest_get_channel, tuner/IChannelTuneRequest::get_Channel
 ms.topic: method
-f1_keywords: 
- - "tuner/IChannelTuneRequest.get_Channel"
+f1_keywords:
+- tuner/IChannelTuneRequest.get_Channel
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IChannelTuneRequest.get_Channel
+- IChannelTuneRequest.get_Channel
 targetos: Windows
 req.typenames: 
 req.redist: 

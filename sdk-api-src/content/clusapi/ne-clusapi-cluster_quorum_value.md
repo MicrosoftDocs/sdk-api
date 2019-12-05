@@ -1,19 +1,17 @@
 ---
 UID: NE:clusapi.CLUSTER_QUORUM_VALUE
 title: CLUSTER_QUORUM_VALUE (clusapi.h)
-
 description: Enumerates values returned by the ClusterControl function with the CLUSCTL_CLUSTER_CHECK_VOTER_DOWN or the CLUSCTL_CLUSTER_CHECK_VOTER_EVICT control codes.
 old-location: mscs\cluster_quorum_value.htm
 tech.root: MsCS
 ms.assetid: 5b5310f5-b4f4-4c1e-82ad-3bbf3ebc511b
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_QUORUM_LOST, CLUSTER_QUORUM_MAINTAINED, CLUSTER_QUORUM_VALUE, CLUSTER_QUORUM_VALUE enumeration [Failover Cluster], msclus/CLUSTER_QUORUM_LOST, msclus/CLUSTER_QUORUM_MAINTAINED, msclus/CLUSTER_QUORUM_VALUE, mscs.cluster_quorum_value
 ms.topic: enum
-f1_keywords: 
- - "clusapi/CLUSTER_QUORUM_VALUE"
+f1_keywords:
+- clusapi/CLUSTER_QUORUM_VALUE
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: ClusAPI.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msclus.h
+- msclus.h
 api_name:
- - CLUSTER_QUORUM_VALUE
+- CLUSTER_QUORUM_VALUE
 targetos: Windows
 req.typenames: CLUSTER_QUORUM_VALUE
 req.redist: 

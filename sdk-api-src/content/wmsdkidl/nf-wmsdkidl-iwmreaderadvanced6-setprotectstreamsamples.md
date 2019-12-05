@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced6.SetProtectStreamSamples
 title: IWMReaderAdvanced6::SetProtectStreamSamples (wmsdkidl.h)
-
 description: The SetProtectStreamSamples method configures sample protection.
 old-location: wmformat\iwmreaderadvanced6_setprotectstreamsamples.htm
 tech.root: wmformat
 ms.assetid: e4734d16-e0fe-4a68-9618-fbceb725b576
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced6 interface [windows Media Format],SetProtectStreamSamples method, IWMReaderAdvanced6.SetProtectStreamSamples, IWMReaderAdvanced6::SetProtectStreamSamples, IWMReaderAdvanced6SetProtectStreamSamples, SetProtectStreamSamples, SetProtectStreamSamples method [windows Media Format], SetProtectStreamSamples method [windows Media Format],IWMReaderAdvanced6 interface, wmformat.iwmreaderadvanced6_setprotectstreamsamples, wmsdkidl/IWMReaderAdvanced6::SetProtectStreamSamples
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced6.SetProtectStreamSamples"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced6.SetProtectStreamSamples
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMStubDRM.lib
- - WMStubDRM.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced6.SetProtectStreamSamples
+- IWMReaderAdvanced6.SetProtectStreamSamples
 targetos: Windows
 req.typenames: 
 req.redist: 

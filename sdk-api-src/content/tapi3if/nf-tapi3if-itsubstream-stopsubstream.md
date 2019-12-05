@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITSubStream.StopSubStream
 title: ITSubStream::StopSubStream (tapi3if.h)
-
 description: The StopSubStream method stops the substream. For additional information, see ITStream::StopStream.
 old-location: tapi3\itsubstream_stopsubstream.htm
 tech.root: Tapi
 ms.assetid: fa5028f6-80eb-4076-a81c-c83b462fc27c
-
 ms.date: 12/05/2018
 ms.keywords: ITSubStream interface [TAPI 2.2],StopSubStream method, ITSubStream.StopSubStream, ITSubStream::StopSubStream, StopSubStream, StopSubStream method [TAPI 2.2], StopSubStream method [TAPI 2.2],ITSubStream interface, _tapi3_itsubstream_stopsubstream, tapi3.itsubstream_stopsubstream, tapi3if/ITSubStream::StopSubStream
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITSubStream.StopSubStream"
+f1_keywords:
+- tapi3if/ITSubStream.StopSubStream
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - ITSubStream.StopSubStream
+- ITSubStream.StopSubStream
 targetos: Windows
 req.typenames: 
 req.redist: 

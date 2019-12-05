@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaSink.GetStreamSinkByIndex
 title: IMFMediaSink::GetStreamSinkByIndex (mfidl.h)
-
 description: Gets a stream sink, specified by index.
 old-location: mf\imfmediasink_getstreamsinkbyindex.htm
 tech.root: medfound
 ms.assetid: 01604801-1566-410c-b23a-0568c7298868
-
 ms.date: 12/05/2018
 ms.keywords: 01604801-1566-410c-b23a-0568c7298868, GetStreamSinkByIndex, GetStreamSinkByIndex method [Media Foundation], GetStreamSinkByIndex method [Media Foundation],IMFMediaSink interface, IMFMediaSink interface [Media Foundation],GetStreamSinkByIndex method, IMFMediaSink.GetStreamSinkByIndex, IMFMediaSink::GetStreamSinkByIndex, mf.imfmediasink_getstreamsinkbyindex, mfidl/IMFMediaSink::GetStreamSinkByIndex
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaSink.GetStreamSinkByIndex"
+f1_keywords:
+- mfidl/IMFMediaSink.GetStreamSinkByIndex
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSink.GetStreamSinkByIndex
+- IMFMediaSink.GetStreamSinkByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

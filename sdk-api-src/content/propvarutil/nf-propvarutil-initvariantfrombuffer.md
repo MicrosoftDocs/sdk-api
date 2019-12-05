@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.InitVariantFromBuffer
 title: InitVariantFromBuffer function (propvarutil.h)
-
 description: Initializes a VARIANT structure with the contents of a buffer.
 old-location: properties\InitVariantFromBuffer.htm
 tech.root: properties
 ms.assetid: 4dd28a13-2161-4258-a32f-57e5bd8ce091
-
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromBuffer, InitVariantFromBuffer function [Windows Properties], _shell_InitVariantFromBuffer, properties.InitVariantFromBuffer, propvarutil/InitVariantFromBuffer, shell.InitVariantFromBuffer
 ms.topic: function
-f1_keywords: 
- - "propvarutil/InitVariantFromBuffer"
+f1_keywords:
+- propvarutil/InitVariantFromBuffer
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - InitVariantFromBuffer
+- InitVariantFromBuffer
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

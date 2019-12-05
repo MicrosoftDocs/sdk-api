@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.IRegistrationInfo
 title: IRegistrationInfo (taskschd.h)
-
 description: Provides the administrative information that can be used to describe the task.
 old-location: taskschd\iregistrationinfo.htm
 tech.root: taskschd
 ms.assetid: e04f0c47-ab89-49e4-aac6-028d2555ecf1
-
 ms.date: 12/05/2018
 ms.keywords: IRegistrationInfo, IRegistrationInfo interface [Task Scheduler], IRegistrationInfo interface [Task Scheduler],described, registration information [Task Scheduler],interface, taskschd.iregistrationinfo, taskschd/IRegistrationInfo
 ms.topic: interface
-f1_keywords: 
- - "taskschd/IRegistrationInfo"
+f1_keywords:
+- taskschd/IRegistrationInfo
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRegistrationInfo
+- IRegistrationInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

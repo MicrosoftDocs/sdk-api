@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList2.WriteBufferImmediate
 title: ID3D12GraphicsCommandList2::WriteBufferImmediate (d3d12.h)
-
 description: Writes a number of 32-bit immediate values to the specified buffer locations directly from the command stream.
 old-location: direct3d12\id3d12graphicscommandlist2_writebufferimmediate_uint_parameter_mode.htm
 tech.root: direct3d12
 ms.assetid: EB1FD3E0-5785-40D1-961B-AF22F9911653
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList2 interface,WriteBufferImmediate method, ID3D12GraphicsCommandList2.WriteBufferImmediate, ID3D12GraphicsCommandList2::WriteBufferImmediate, WriteBufferImmediate, WriteBufferImmediate method, WriteBufferImmediate method,ID3D12GraphicsCommandList2 interface, d3d12/ID3D12GraphicsCommandList2::WriteBufferImmediate, direct3d12.id3d12graphicscommandlist2_writebufferimmediate_uint_parameter_mode
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList2.WriteBufferImmediate"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList2.WriteBufferImmediate
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12GraphicsCommandList2.WriteBufferImmediate
+- ID3D12GraphicsCommandList2.WriteBufferImmediate
 targetos: Windows
 req.typenames: 
 req.redist: 

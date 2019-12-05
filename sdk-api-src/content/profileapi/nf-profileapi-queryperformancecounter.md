@@ -1,19 +1,17 @@
 ---
 UID: NF:profileapi.QueryPerformanceCounter
 title: QueryPerformanceCounter function
-
 description: Retrieves the current value of the performance counter, which is a high resolution (&lt;1us) time stamp that can be used for time-interval measurements.
 old-location: base\queryperformancecounter.htm
 tech.root: SysInfo
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\timers\timerreference\timerfunctions\queryperformancecounter.htm
-
 ms.date: 12/05/2018
 ms.keywords: QueryPerformanceCounter, QueryPerformanceCounter function [Windows and Messages], _win32_QueryPerformanceCounter, _win32_queryperformancecounter_cpp, base.queryperformancecounter, profileapi/QueryPerformanceCounter, winmsg.queryperformancecounter, winui._win32_queryperformancecounter
 ms.topic: function
-f1_keywords: 
- - "profileapi/QueryPerformanceCounter"
+f1_keywords:
+- profileapi/QueryPerformanceCounter
 dev_langs:
- - c++
+- c++
 req.header: profileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-profile-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-profile-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - QueryPerformanceCounter
+- QueryPerformanceCounter
 targetos: Windows
 req.typenames: 
 req.redist: 

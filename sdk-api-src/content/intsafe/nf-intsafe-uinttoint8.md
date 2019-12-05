@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.UIntToInt8
 title: UIntToInt8 function (intsafe.h)
-
 description: Converts a value of type UINT to a value of type INT8.
 old-location: shell\UIntToInt8.htm
 tech.root: shell
 ms.assetid: 12f8bafa-32d0-42e3-adcd-6ea099bd7de1
-
 ms.date: 12/05/2018
 ms.keywords: UIntToInt8, UIntToInt8 function [Windows Shell], intsafe/UIntToInt8, shell.UIntToInt8
 ms.topic: function
-f1_keywords: 
- - "intsafe/UIntToInt8"
+f1_keywords:
+- intsafe/UIntToInt8
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - UIntToInt8
+- UIntToInt8
 targetos: Windows
 req.typenames: 
 req.redist: 

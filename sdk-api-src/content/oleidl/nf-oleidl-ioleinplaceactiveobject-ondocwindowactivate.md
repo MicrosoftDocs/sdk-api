@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleInPlaceActiveObject.OnDocWindowActivate
 title: IOleInPlaceActiveObject::OnDocWindowActivate (oleidl.h)
-
 description: Notifies the active in-place object when the container's document window is activated or deactivated.
 old-location: com\ioleinplaceactiveobject_ondocwindowactivate.htm
 tech.root: com
 ms.assetid: 8333d707-4d34-4a87-9990-b25597ffa9fc
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceActiveObject interface [COM],OnDocWindowActivate method, IOleInPlaceActiveObject.OnDocWindowActivate, IOleInPlaceActiveObject::OnDocWindowActivate, OnDocWindowActivate, OnDocWindowActivate method [COM], OnDocWindowActivate method [COM],IOleInPlaceActiveObject interface, _ole_ioleinplaceactiveobject_ondocwindowactivate, com.ioleinplaceactiveobject_ondocwindowactivate, oleidl/IOleInPlaceActiveObject::OnDocWindowActivate
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleInPlaceActiveObject.OnDocWindowActivate"
+f1_keywords:
+- oleidl/IOleInPlaceActiveObject.OnDocWindowActivate
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleInPlaceActiveObject.OnDocWindowActivate
+- IOleInPlaceActiveObject.OnDocWindowActivate
 targetos: Windows
 req.typenames: 
 req.redist: 

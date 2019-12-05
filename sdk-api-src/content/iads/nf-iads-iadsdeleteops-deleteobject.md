@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsDeleteOps.DeleteObject
 title: IADsDeleteOps::DeleteObject (iads.h)
-
 description: The IADsDeleteOps::DeleteObject method deletes an ADSI object.
 old-location: adsi\iadsdeleteops_deleteobject.htm
 tech.root: adsi
 ms.assetid: 53685f60-9adf-40f0-b6d3-e59a0435f744
-
 ms.date: 12/05/2018
 ms.keywords: DeleteObject, DeleteObject method [ADSI], DeleteObject method [ADSI],IADsDeleteOps interface, IADsDeleteOps interface [ADSI],DeleteObject method, IADsDeleteOps.DeleteObject, IADsDeleteOps::DeleteObject, _ds_iadsdeleteops_deleteobject, adsi.iadsdeleteops__deleteobject, adsi.iadsdeleteops_deleteobject, iads/IADsDeleteOps::DeleteObject
 ms.topic: method
-f1_keywords: 
- - "iads/IADsDeleteOps.DeleteObject"
+f1_keywords:
+- iads/IADsDeleteOps.DeleteObject
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsDeleteOps.DeleteObject
+- IADsDeleteOps.DeleteObject
 targetos: Windows
 req.typenames: 
 req.redist: 

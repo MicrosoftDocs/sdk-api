@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.AddDataSource
 title: IMFTimedText::AddDataSource (mfmediaengine.h)
-
 description: Adds a timed-text data source.
 old-location: mf\imftimedtext_adddatasource.htm
 tech.root: medfound
 ms.assetid: 76922DFA-E109-475D-BE09-47501AC7F50E
-
 ms.date: 12/05/2018
 ms.keywords: AddDataSource, AddDataSource method [Media Foundation], AddDataSource method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],AddDataSource method, IMFTimedText.AddDataSource, IMFTimedText::AddDataSource, mf.imftimedtext_adddatasource, mfmediaengine/IMFTimedText::AddDataSource
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedText.AddDataSource"
+f1_keywords:
+- mfmediaengine/IMFTimedText.AddDataSource
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedText.AddDataSource
+- IMFTimedText.AddDataSource
 targetos: Windows
 req.typenames: 
 req.redist: 

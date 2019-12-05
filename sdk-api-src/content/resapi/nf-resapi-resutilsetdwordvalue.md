@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilSetDwordValue
 title: ResUtilSetDwordValue function (resapi.h)
-
 description: Sets a numeric value in the cluster database. The PRESUTIL_SET_DWORD_VALUE type defines a pointer to this function.
 old-location: mscs\resutilsetdwordvalue.htm
 tech.root: MsCS
 ms.assetid: e8b4393b-84f7-4440-92b5-fd7fa2be96a2
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_SET_DWORD_VALUE, PRESUTIL_SET_DWORD_VALUE function [Failover Cluster], ResUtilSetDwordValue, ResUtilSetDwordValue function [Failover Cluster], _wolf_resutilsetdwordvalue, mscs.resutilsetdwordvalue, resapi/PRESUTIL_SET_DWORD_VALUE, resapi/ResUtilSetDwordValue
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilSetDwordValue"
+f1_keywords:
+- resapi/ResUtilSetDwordValue
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilSetDwordValue
+- ResUtilSetDwordValue
 targetos: Windows
 req.typenames: 
 req.redist: 

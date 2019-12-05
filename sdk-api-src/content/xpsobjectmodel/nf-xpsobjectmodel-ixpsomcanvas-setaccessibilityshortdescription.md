@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.SetAccessibilityShortDescription
 title: IXpsOMCanvas::SetAccessibilityShortDescription (xpsobjectmodel.h)
-
 description: Sets the short textual description of the object's contents.
 old-location: xps\ixpsomcanvas_setaccessibilityshortdescription.htm
 tech.root: printdocs
 ms.assetid: 0968e378-99eb-470c-9bf0-51f65906b07b
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCanvas interface [XPS Documents and Packaging],SetAccessibilityShortDescription method, IXpsOMCanvas.SetAccessibilityShortDescription, IXpsOMCanvas::SetAccessibilityShortDescription, SetAccessibilityShortDescription, SetAccessibilityShortDescription method [XPS Documents and Packaging], SetAccessibilityShortDescription method [XPS Documents and Packaging],IXpsOMCanvas interface, xps.ixpsomcanvas_setaccessibilityshortdescription, xpsobjectmodel/IXpsOMCanvas::SetAccessibilityShortDescription
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCanvas.SetAccessibilityShortDescription"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCanvas.SetAccessibilityShortDescription
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCanvas.SetAccessibilityShortDescription
+- IXpsOMCanvas.SetAccessibilityShortDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

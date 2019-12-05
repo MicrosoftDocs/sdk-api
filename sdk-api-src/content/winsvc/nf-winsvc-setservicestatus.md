@@ -1,19 +1,17 @@
 ---
 UID: NF:winsvc.SetServiceStatus
 title: SetServiceStatus function (winsvc.h)
-
 description: Updates the service control manager's status information for the calling service.
 old-location: base\setservicestatus.htm
 tech.root: Services
 ms.assetid: bb5943ff-2814-40f2-bee0-ae7132befde9
-
 ms.date: 12/05/2018
 ms.keywords: SetServiceStatus, SetServiceStatus function, _win32_setservicestatus, base.setservicestatus, winsvc/SetServiceStatus
 ms.topic: function
 f1_keywords:
 - winsvc/SetServiceStatus
 dev_langs:
- - c++
+- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

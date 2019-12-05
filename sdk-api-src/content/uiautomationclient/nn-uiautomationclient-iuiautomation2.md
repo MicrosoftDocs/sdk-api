@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomation2
 title: IUIAutomation2 (uiautomationclient.h)
-
 description: Extends the IUIAutomation interface to expose additional methods for controlling Microsoft UI Automation functionality.
 old-location: winauto\uiauto_IUIAutomation2.htm
 tech.root: WinAuto
 ms.assetid: 45B4D41E-9C5C-47C7-86EB-D7B9BA14211B
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation2, IUIAutomation2 interface [Windows Accessibility], IUIAutomation2 interface [Windows Accessibility],described, uiautomationclient/IUIAutomation2, winauto.uiauto_IUIAutomation2
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomation2"
+f1_keywords:
+- uiautomationclient/IUIAutomation2
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomation2
+- IUIAutomation2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTranscodeProfile.SetContainerAttributes
 title: IMFTranscodeProfile::SetContainerAttributes (mfidl.h)
-
 description: Sets container configuration settings in the transcode profile.
 old-location: mf\imftranscodeprofile_setcontainerattributes.htm
 tech.root: medfound
 ms.assetid: c62021cf-85f1-4a85-9263-b7883464f5f8
-
 ms.date: 12/05/2018
 ms.keywords: IMFTranscodeProfile interface [Media Foundation],SetContainerAttributes method, IMFTranscodeProfile.SetContainerAttributes, IMFTranscodeProfile::SetContainerAttributes, SetContainerAttributes, SetContainerAttributes method [Media Foundation], SetContainerAttributes method [Media Foundation],IMFTranscodeProfile interface, mf.imftranscodeprofile_setcontainerattributes, mfidl/IMFTranscodeProfile::SetContainerAttributes
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTranscodeProfile.SetContainerAttributes"
+f1_keywords:
+- mfidl/IMFTranscodeProfile.SetContainerAttributes
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFTranscodeProfile.SetContainerAttributes
+- IMFTranscodeProfile.SetContainerAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

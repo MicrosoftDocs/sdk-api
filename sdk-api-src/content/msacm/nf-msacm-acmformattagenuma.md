@@ -1,19 +1,17 @@
 ---
 UID: NF:msacm.acmFormatTagEnumA
 title: acmFormatTagEnumA function (msacm.h)
-
 description: The acmFormatTagEnum function enumerates waveform-audio format tags available from an ACM driver. This function continues enumerating until there are no more suitable format tags or the callback function returns FALSE.
 old-location: multimedia\acmformattagenum.htm
 tech.root: Multimedia
 ms.assetid: 1693a7ee-1d9b-494e-8d28-b5e9279951e1
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_acmFormatTagEnum, acmFormatTagEnum, acmFormatTagEnum function [Windows Multimedia], acmFormatTagEnumA, acmFormatTagEnumW, msacm/acmFormatTagEnum, msacm/acmFormatTagEnumA, msacm/acmFormatTagEnumW, multimedia.acmformattagenum"
+ms.keywords: _win32_acmFormatTagEnum, acmFormatTagEnum, acmFormatTagEnum function [Windows Multimedia], acmFormatTagEnumA, acmFormatTagEnumW, msacm/acmFormatTagEnum, msacm/acmFormatTagEnumA, msacm/acmFormatTagEnumW, multimedia.acmformattagenum
 ms.topic: function
-f1_keywords: 
- - "msacm/acmFormatTagEnum"
+f1_keywords:
+- msacm/acmFormatTagEnum
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msacm32.dll
- - Ext-MS-Win-mm-msacm-l1-1-0.dll
+- Msacm32.dll
+- Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
- - acmFormatTagEnum
- - acmFormatTagEnumA
- - acmFormatTagEnumW
+- acmFormatTagEnum
+- acmFormatTagEnumA
+- acmFormatTagEnumW
 targetos: Windows
 req.typenames: 
 req.redist: 

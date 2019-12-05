@@ -1,19 +1,17 @@
 ---
 UID: NN:ctffunc.ITfFnLMProcessor
 title: ITfFnLMProcessor (ctffunc.h)
-
 description: The ITfFnLMProcessor interface is implemented by the language model text service and is used by an application or text service to enable alternate language model processing.
 old-location: tsf\itffnlmprocessor.htm
 tech.root: TSF
 ms.assetid: 89581a75-9263-45d7-99de-b3bd78a5169c
-
 ms.date: 12/05/2018
 ms.keywords: ITfFnLMProcessor, ITfFnLMProcessor interface [Text Services Framework], ITfFnLMProcessor interface [Text Services Framework],described, _tsf_itffnlmprocessor_ref, ctffunc/ITfFnLMProcessor, tsf.itffnlmprocessor
 ms.topic: interface
-f1_keywords: 
- - "ctffunc/ITfFnLMProcessor"
+f1_keywords:
+- ctffunc/ITfFnLMProcessor
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfFnLMProcessor
+- ITfFnLMProcessor
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:evntrace.ProcessTrace
 title: ProcessTrace function (evntrace.h)
-
 description: The ProcessTrace function delivers events from one or more event tracing sessions to the consumer.
 old-location: etw\processtrace.htm
 tech.root: ETW
 ms.assetid: aea25a95-f435-4068-9b15-7473f31ebf16
-
 ms.date: 12/05/2018
 ms.keywords: ProcessTrace, ProcessTrace function [ETW], _evt_processtrace, base.processtrace, etw.processtrace, evntrace/ProcessTrace
 ms.topic: function
-f1_keywords: 
- - "evntrace/ProcessTrace"
+f1_keywords:
+- evntrace/ProcessTrace
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib 
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Sechost.dll
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
- - API-MS-Win-Eventing-Consumer-l1-1-0.dll
- - KernelBase.dll
+- Sechost.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+- API-MS-Win-Eventing-Consumer-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - ProcessTrace
+- ProcessTrace
 targetos: Windows
 req.typenames: 
 req.redist: 

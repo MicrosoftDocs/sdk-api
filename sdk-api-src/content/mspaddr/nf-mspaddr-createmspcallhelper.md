@@ -1,19 +1,17 @@
 ---
 UID: NF:mspaddr.CreateMSPCallHelper
 title: CreateMSPCallHelper function (mspaddr.h)
-
 description: The CreateMSPCallHelper helper template function is called in the derived class' implementation of CreateMSPCall.
 old-location: tapi3\cmspaddress_createmspcallhelper.htm
 tech.root: Tapi
 ms.assetid: 1e894d26-de19-4c24-b4e6-58c0b4c9d5ee
-
 ms.date: 12/05/2018
 ms.keywords: CMSPAddress object [TAPI 2.2],CreateMSPCallHelper method, CMSPAddress.CreateMSPCallHelper, CreateMSPCallHelper, CreateMSPCallHelper method [TAPI 2.2], CreateMSPCallHelper method [TAPI 2.2],CMSPAddress object, _tapi3_cmspaddress_createmspcallhelper, tapi3.cmspaddress_createmspcallhelper
 ms.topic: function
-f1_keywords: 
- - "mspaddr/CMSPAddress.CreateMSPCallHelper"
+f1_keywords:
+- mspaddr/CMSPAddress.CreateMSPCallHelper
 dev_langs:
- - c++
+- c++
 req.header: mspaddr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mspaddr.h
+- Mspaddr.h
 api_name:
- - CMSPAddress.CreateMSPCallHelper
+- CMSPAddress.CreateMSPCallHelper
 targetos: Windows
 req.typenames: 
 req.redist: 

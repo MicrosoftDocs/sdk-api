@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetImplTypeFlags
 title: ITypeInfo::GetImplTypeFlags (oaidl.h)
-
 description: Retrieves the IMPLTYPEFLAGS enumeration for one implemented interface or base interface in a type description.
 old-location: automat\itypeinfo_getimpltypeflags.htm
 tech.root: automat
 ms.assetid: b3773111-b09d-4ae0-9a91-3c4adff5b803
-
 ms.date: 12/05/2018
 ms.keywords: GetImplTypeFlags, GetImplTypeFlags method [Automation], GetImplTypeFlags method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetImplTypeFlags method, ITypeInfo.GetImplTypeFlags, ITypeInfo::GetImplTypeFlags, _oa96_ITypeInfo_GetImplTypeFlags, automat.itypeinfo_getimpltypeflags, oaidl/ITypeInfo::GetImplTypeFlags
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeInfo.GetImplTypeFlags"
+f1_keywords:
+- oaidl/ITypeInfo.GetImplTypeFlags
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeInfo.GetImplTypeFlags
+- ITypeInfo.GetImplTypeFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

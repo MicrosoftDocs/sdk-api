@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFAttributes.CopyAllItems
 title: IMFAttributes::CopyAllItems (mfobjects.h)
-
 description: Copies all of the attributes from this object into another attribute store.
 old-location: mf\imfattributes_copyallitems.htm
 tech.root: medfound
 ms.assetid: 111b55bc-fb8e-45b5-a709-703acd23c4be
-
 ms.date: 12/05/2018
 ms.keywords: 111b55bc-fb8e-45b5-a709-703acd23c4be, CopyAllItems, CopyAllItems method [Media Foundation], CopyAllItems method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],CopyAllItems method, IMFAttributes.CopyAllItems, IMFAttributes::CopyAllItems, mf.imfattributes_copyallitems, mfobjects/IMFAttributes::CopyAllItems
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFAttributes.CopyAllItems"
+f1_keywords:
+- mfobjects/IMFAttributes.CopyAllItems
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAttributes.CopyAllItems
+- IMFAttributes.CopyAllItems
 targetos: Windows
 req.typenames: 
 req.redist: 

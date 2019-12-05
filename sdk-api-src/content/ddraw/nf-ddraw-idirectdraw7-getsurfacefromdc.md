@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDraw7.GetSurfaceFromDC
 title: IDirectDraw7::GetSurfaceFromDC (ddraw.h)
-
 description: Retrieves the IDirectDrawSurface7 interface for a surface, based on its GDI device context handle.
 old-location: directdraw\idirectdraw7_getsurfacefromdc.htm
 tech.root: directdraw
 ms.assetid: d1d96045-a19b-46b0-8b71-5d0bea6889c3
-
 ms.date: 12/05/2018
 ms.keywords: GetSurfaceFromDC, GetSurfaceFromDC method [DirectDraw], GetSurfaceFromDC method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetSurfaceFromDC method, IDirectDraw7.GetSurfaceFromDC, IDirectDraw7::GetSurfaceFromDC, ddraw/IDirectDraw7::GetSurfaceFromDC, directdraw.idirectdraw7_getsurfacefromdc
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDraw7.GetSurfaceFromDC"
+f1_keywords:
+- ddraw/IDirectDraw7.GetSurfaceFromDC
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDraw7.GetSurfaceFromDC
+- IDirectDraw7.GetSurfaceFromDC
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -3,14 +3,13 @@ UID: NF:gdiplusheaders.Metafile.GetMetafileHeader(IN HMETAFILE,IN const WmfPlace
 title: Metafile::GetMetafileHeader
 description: The Metafile::GetMetafileHeader method gets the metafile header of this metafile.
 ms.assetid: 5d12078c-4492-4bd1-a68b-8ff06dede784
-
 ms.date: 05/20/2019
 ms.keywords: Metafile::GetMetafileHeader
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusheaders/Metafile::GetMetafileHeader"
+f1_keywords:
+- gdiplusheaders/Metafile::GetMetafileHeader
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusheaders.h
+- gdiplusheaders.h
 api_name:
- - Metafile::GetMetafileHeader
+- Metafile::GetMetafileHeader
 ---
 
 # Metafile::GetMetafileHeader(HMETAFILE,WmfPlaceableFileHeader*,MetafileHeader*)

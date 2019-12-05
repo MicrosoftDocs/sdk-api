@@ -1,19 +1,17 @@
 ---
 UID: NE:sdoias._NAPPROPERTIES
 title: NAPPROPERTIES (sdoias.h)
-
 description: The values of the NAPPROPERTIES enumeration type specify properties for Network Access Policies (NAP).
 old-location: nps\SDO_napproperties.htm
 tech.root: Nps
 ms.assetid: 1e43524c-1c6a-49fc-a962-e804e98454c5
-
 ms.date: 12/05/2018
 ms.keywords: NAPPROPERTIES, NAPPROPERTIES enumeration [Network Policy Server], PROPERTY_NAP_POLICIES_COLLECTION, PROPERTY_SHV_TEMPLATES_COLLECTION, _sdo_napproperties, nps.SDO_napproperties, sdo.napproperties, sdoias/NAPPROPERTIES, sdoias/PROPERTY_NAP_POLICIES_COLLECTION, sdoias/PROPERTY_SHV_TEMPLATES_COLLECTION
 ms.topic: enum
 f1_keywords:
 - sdoias/NAPPROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

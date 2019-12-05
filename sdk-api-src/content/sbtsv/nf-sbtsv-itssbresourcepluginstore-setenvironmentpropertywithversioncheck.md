@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetEnvironmentPropertyWithVersionCheck
 title: ITsSbResourcePluginStore::SetEnvironmentPropertyWithVersionCheck (sbtsv.h)
-
 description: Sets a property of an environment.
 old-location: termserv\itssbresourcepluginstore_setenvironmentpropertywithversioncheck.htm
 tech.root: TermServ
 ms.assetid: 9c4caee8-85fb-4d8f-9c5a-b82eea02a1d0
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetEnvironmentPropertyWithVersionCheck method, ITsSbResourcePluginStore.SetEnvironmentPropertyWithVersionCheck, ITsSbResourcePluginStore::SetEnvironmentPropertyWithVersionCheck, SetEnvironmentPropertyWithVersionCheck, SetEnvironmentPropertyWithVersionCheck method [Remote Desktop Services], SetEnvironmentPropertyWithVersionCheck method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::SetEnvironmentPropertyWithVersionCheck, termserv.itssbresourcepluginstore_setenvironmentpropertywithversioncheck
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbResourcePluginStore.SetEnvironmentPropertyWithVersionCheck"
+f1_keywords:
+- sbtsv/ITsSbResourcePluginStore.SetEnvironmentPropertyWithVersionCheck
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbResourcePluginStore.SetEnvironmentPropertyWithVersionCheck
+- ITsSbResourcePluginStore.SetEnvironmentPropertyWithVersionCheck
 targetos: Windows
 req.typenames: 
 req.redist: 

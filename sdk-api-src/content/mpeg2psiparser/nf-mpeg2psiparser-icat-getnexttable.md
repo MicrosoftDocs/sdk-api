@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.ICAT.GetNextTable
 title: ICAT::GetNextTable (mpeg2psiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icat_getnexttable.htm
 tech.root: mstv
 ms.assetid: 466643d5-02d1-4ac1-9143-867f503aad09
-
 ms.date: 12/05/2018
 ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],GetNextTable method, ICAT.GetNextTable, ICAT::GetNextTable, ICATGetNextTable, mpeg2psiparser/ICAT::GetNextTable, mstv.icat_getnexttable
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/ICAT.GetNextTable"
+f1_keywords:
+- mpeg2psiparser/ICAT.GetNextTable
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mpeg2psiparser.h
+- mpeg2psiparser.h
 api_name:
- - ICAT.GetNextTable
+- ICAT.GetNextTable
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRFORMAT
 title: EMRFORMAT (wingdi.h)
-
 description: The EMRFORMAT structure contains information that identifies graphics data in an enhanced metafile. A GDICOMMENT_MULTIFORMATS enhanced metafile public comment contains an array of EMRFORMAT structures.
 old-location: gdi\emrformat.htm
 tech.root: gdi
 ms.assetid: a86e45f1-bbe1-4cb6-a9fa-679108db89ac
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRFORMAT, EMRFORMAT, EMRFORMAT structure [Windows GDI], _win32_EMRFORMAT_str, gdi.emrformat, wingdi/EMRFORMAT"
+ms.keywords: '*PEMRFORMAT, EMRFORMAT, EMRFORMAT structure [Windows GDI], _win32_EMRFORMAT_str, gdi.emrformat, wingdi/EMRFORMAT'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRFORMAT"
+f1_keywords:
+- wingdi/EMRFORMAT
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRFORMAT
+- EMRFORMAT
 targetos: Windows
 req.typenames: EMRFORMAT, *PEMRFORMAT
 req.redist: 

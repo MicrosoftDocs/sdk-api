@@ -1,19 +1,17 @@
 ---
 UID: NF:wlanapi.WlanReasonCodeToString
 title: WlanReasonCodeToString function (wlanapi.h)
-
 description: Retrieves a string that describes a specified reason code.
 old-location: nwifi\wlanreasoncodetostring.htm
 tech.root: NativeWiFi
 ms.assetid: 2a02e2d2-91d0-4b54-ad02-a76442edcff8
-
 ms.date: 12/05/2018
 ms.keywords: WlanReasonCodeToString, WlanReasonCodeToString function [NativeWIFI], nwifi.wlanreasoncodetostring, wlanapi/WlanReasonCodeToString
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WlanReasonCodeToString"
+f1_keywords:
+- wlanapi/WlanReasonCodeToString
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wlanapi.dll
- - Ext-MS-Win-networking-wlanapi-l1-1-0.dll
+- wlanapi.dll
+- Ext-MS-Win-networking-wlanapi-l1-1-0.dll
 api_name:
- - WlanReasonCodeToString
+- WlanReasonCodeToString
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2

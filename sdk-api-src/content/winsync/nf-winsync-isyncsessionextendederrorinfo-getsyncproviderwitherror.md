@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncSessionExtendedErrorInfo.GetSyncProviderWithError
 title: ISyncSessionExtendedErrorInfo::GetSyncProviderWithError (winsync.h)
-
 description: Gets the ISyncProvider interface of the provider that caused synchronization to fail.
 old-location: winsync\isyncsessionextendederrorinfo_getsyncproviderwitherror.htm
 tech.root: winsync
 ms.assetid: b0115f1a-41e7-4126-9b77-03960227d4fe
-
 ms.date: 12/05/2018
 ms.keywords: GetSyncProviderWithError, GetSyncProviderWithError method [Windows Sync], GetSyncProviderWithError method [Windows Sync],ISyncSessionExtendedErrorInfo interface, ISyncSessionExtendedErrorInfo interface [Windows Sync],GetSyncProviderWithError method, ISyncSessionExtendedErrorInfo.GetSyncProviderWithError, ISyncSessionExtendedErrorInfo::GetSyncProviderWithError, winsync.isyncsessionextendederrorinfo_getsyncproviderwitherror, winsync/ISyncSessionExtendedErrorInfo::GetSyncProviderWithError
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncSessionExtendedErrorInfo.GetSyncProviderWithError"
+f1_keywords:
+- winsync/ISyncSessionExtendedErrorInfo.GetSyncProviderWithError
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncSessionExtendedErrorInfo.GetSyncProviderWithError
+- ISyncSessionExtendedErrorInfo.GetSyncProviderWithError
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMExtendedSeeking.get_PlaybackSpeed
 title: IAMExtendedSeeking::get_PlaybackSpeed (qnetwork.h)
-
 description: The get_PlaybackSpeed method retrieves the playback speed.
 old-location: dshow\iamextendedseeking_get_playbackspeed.htm
 tech.root: DirectShow
 ms.assetid: a92309fb-185a-4d6c-81c2-9613634c7170
-
 ms.date: 12/05/2018
 ms.keywords: IAMExtendedSeeking interface [DirectShow],get_PlaybackSpeed method, IAMExtendedSeeking.get_PlaybackSpeed, IAMExtendedSeeking::get_PlaybackSpeed, IAMExtendedSeekingget_PlaybackSpeed, dshow.iamextendedseeking_get_playbackspeed, get_PlaybackSpeed, get_PlaybackSpeed method [DirectShow], get_PlaybackSpeed method [DirectShow],IAMExtendedSeeking interface, qnetwork/IAMExtendedSeeking::get_PlaybackSpeed
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMExtendedSeeking.get_PlaybackSpeed"
+f1_keywords:
+- qnetwork/IAMExtendedSeeking.get_PlaybackSpeed
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMExtendedSeeking.get_PlaybackSpeed
+- IAMExtendedSeeking.get_PlaybackSpeed
 targetos: Windows
 req.typenames: 
 req.redist: 

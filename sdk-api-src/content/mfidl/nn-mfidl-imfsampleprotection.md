@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFSampleProtection
 title: IMFSampleProtection (mfidl.h)
-
 description: Provides encryption for media data inside the protected media path (PMP).
 old-location: mf\imfsampleprotection.htm
 tech.root: medfound
 ms.assetid: bebe24cd-657b-4c6c-9fe9-5d6dd58827a3
-
 ms.date: 12/05/2018
 ms.keywords: IMFSampleProtection, IMFSampleProtection interface [Media Foundation], IMFSampleProtection interface [Media Foundation],described, bebe24cd-657b-4c6c-9fe9-5d6dd58827a3, mf.imfsampleprotection, mfidl/IMFSampleProtection
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFSampleProtection"
+f1_keywords:
+- mfidl/IMFSampleProtection
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSampleProtection
+- IMFSampleProtection
 targetos: Windows
 req.typenames: 
 req.redist: 

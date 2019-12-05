@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.GetTextTracks
 title: IMFTimedText::GetTextTracks (mfmediaengine.h)
-
 description: Gets the list of all the timed-text tracks in the timed-text component.
 old-location: mf\imftimedtext_gettexttracks.htm
 tech.root: medfound
 ms.assetid: 75F2874A-67E0-4167-9B5D-A8B90C3509E0
-
 ms.date: 12/05/2018
 ms.keywords: GetTextTracks, GetTextTracks method [Media Foundation], GetTextTracks method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],GetTextTracks method, IMFTimedText.GetTextTracks, IMFTimedText::GetTextTracks, mf.imftimedtext_gettexttracks, mfmediaengine/IMFTimedText::GetTextTracks
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedText.GetTextTracks"
+f1_keywords:
+- mfmediaengine/IMFTimedText.GetTextTracks
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedText.GetTextTracks
+- IMFTimedText.GetTextTracks
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMMATRIX.operator-assign
 title: XMMATRIX::operator-assign
-
 description: Assigns the matrix data of one instance of XMMATRIX to the current instance of XMMATRIX and returns a reference to the current instance.
 old-location: dxmath\xmmatrix_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMMATRIX.operator =(const XMMATRIX)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMATRIX.operator =, Use DirectX::::XMMATRIX::operator =, XMMATRIX structure [DirectX Math Support APIs],operator = method, XMMATRIX.operator =, XMMATRIX.operator-assign, XMMATRIX.operator=, XMMATRIX::operator-assign, XMMATRIX::operator=, dxmath.xmmatrix_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMMATRIX structure, operator=
 ms.topic: method
-f1_keywords: 
- - "directxmath/XMMATRIX.operator ="
+f1_keywords:
+- directxmath/XMMATRIX.operator =
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMMATRIX.operator =
+- XMMATRIX.operator =
 targetos: Windows
 req.typenames: 
 req.redist: 

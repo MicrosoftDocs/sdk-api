@@ -1,7 +1,6 @@
 ---
 UID: TP:input_touchhittest
 ms.assetid: e1c0359c-7587-3b38-920e-8ec8db2c2104
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

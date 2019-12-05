@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_LDT.GetRecordDescriptorByIndex
 title: IISDB_LDT::GetRecordDescriptorByIndex (dvbsiparser.h)
-
 description: Returns a descriptor for a specified record in an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT).
 old-location: mstv\iisdb_ldt_getrecorddescriptorbyindex.htm
 tech.root: mstv
 ms.assetid: a551794a-6051-4c8e-9d44-5938974a6df4
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IISDB_LDT.GetRecordDescriptorByIndex, IISDB_LDT::GetRecordDescriptorByIndex, dvbsiparser/IISDB_LDT::GetRecordDescriptorByIndex, mstv.iisdb_ldt_getrecorddescriptorbyindex
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_LDT.GetRecordDescriptorByIndex"
+f1_keywords:
+- dvbsiparser/IISDB_LDT.GetRecordDescriptorByIndex
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_LDT.GetRecordDescriptorByIndex
+- IISDB_LDT.GetRecordDescriptorByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

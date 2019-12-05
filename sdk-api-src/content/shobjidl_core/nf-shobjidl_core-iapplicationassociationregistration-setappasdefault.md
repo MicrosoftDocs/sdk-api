@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IApplicationAssociationRegistration.SetAppAsDefault
 title: IApplicationAssociationRegistration::SetAppAsDefault (shobjidl_core.h)
-
 description: Sets an application as the default for a given extension or protocol, provided that the application's publisher matches the current default's. For more information, see Default Programs. Not intended for use in Windows 8.
 old-location: shell\IApplicationAssociationRegistration_SetAppAsDefault.htm
 tech.root: shell
 ms.assetid: 30870adb-793f-404f-809c-1ec34a1f6b82
-
 ms.date: 09/17/2019
 ms.keywords: IApplicationAssociationRegistration interface [Windows Shell],SetAppAsDefault method, IApplicationAssociationRegistration.SetAppAsDefault, IApplicationAssociationRegistration::SetAppAsDefault, SetAppAsDefault, SetAppAsDefault method [Windows Shell], SetAppAsDefault method [Windows Shell],IApplicationAssociationRegistration interface, _shell_IApplicationAssociationRegistration_SetAppAsDefault, shell.IApplicationAssociationRegistration_SetAppAsDefault, shobjidl_core/IApplicationAssociationRegistration::SetAppAsDefault
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IApplicationAssociationRegistration.SetAppAsDefault"
+f1_keywords:
+- shobjidl_core/IApplicationAssociationRegistration.SetAppAsDefault
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IApplicationAssociationRegistration.SetAppAsDefault
+- IApplicationAssociationRegistration.SetAppAsDefault
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeDashOffset
 title: IXpsOMPath::GetStrokeDashOffset (xpsobjectmodel.h)
-
 description: Gets the offset from the origin of the stroke to the starting point of the dash array pattern.
 old-location: xps\ixpsompath_getstrokedashoffset.htm
 tech.root: printdocs
 ms.assetid: 173e820f-e926-44cc-a6ba-54edde770f73
-
 ms.date: 12/05/2018
 ms.keywords: GetStrokeDashOffset, GetStrokeDashOffset method [XPS Documents and Packaging], GetStrokeDashOffset method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeDashOffset method, IXpsOMPath.GetStrokeDashOffset, IXpsOMPath::GetStrokeDashOffset, xps.ixpsompath_getstrokedashoffset, xpsobjectmodel/IXpsOMPath::GetStrokeDashOffset
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPath.GetStrokeDashOffset"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPath.GetStrokeDashOffset
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPath.GetStrokeDashOffset
+- IXpsOMPath.GetStrokeDashOffset
 targetos: Windows
 req.typenames: 
 req.redist: 

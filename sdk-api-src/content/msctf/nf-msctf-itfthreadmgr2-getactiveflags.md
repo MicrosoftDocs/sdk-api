@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.GetActiveFlags
 title: ITfThreadMgr2::GetActiveFlags (msctf.h)
-
 description: Gets the active flags of the calling thread.
 old-location: tsf\itfthreadmgr2_getactiveflags.htm
 tech.root: TSF
 ms.assetid: F0777E69-C9E2-4E40-9CE0-56084D1C8A41
-
 ms.date: 12/05/2018
 ms.keywords: GetActiveFlags, GetActiveFlags method [Text Services Framework], GetActiveFlags method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],GetActiveFlags method, ITfThreadMgr2.GetActiveFlags, ITfThreadMgr2::GetActiveFlags, TF_TMF_ACTIVATED, TF_TMF_COMLESS, TF_TMF_CONSOLE, TF_TMF_IMMERSIVEMODE, TF_TMF_NOACTIVATETIP, TF_TMF_SECUREMODE, TF_TMF_UIELEMENTENABLEDONLY, TF_TMF_WOW16, msctf/ITfThreadMgr2::GetActiveFlags, tsf.itfthreadmgr2_getactiveflags
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfThreadMgr2.GetActiveFlags"
+f1_keywords:
+- msctf/ITfThreadMgr2.GetActiveFlags
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.h
+- msctf.h
 api_name:
- - ITfThreadMgr2.GetActiveFlags
+- ITfThreadMgr2.GetActiveFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

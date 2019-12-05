@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetMenuContextHelpId
 title: GetMenuContextHelpId function (winuser.h)
-
 description: Retrieves the Help context identifier associated with the specified menu.
 old-location: shell\GetMenuContextHelpId.htm
 tech.root: shell
 ms.assetid: 2b8d3e94-6860-4a75-8373-38afb641eb3b
-
 ms.date: 12/05/2018
 ms.keywords: GetMenuContextHelpId, GetMenuContextHelpId function [Windows Shell], _win32_GetMenuContextHelpId, shell.GetMenuContextHelpId, winuser/GetMenuContextHelpId
 ms.topic: function
-f1_keywords: 
- - "winuser/GetMenuContextHelpId"
+f1_keywords:
+- winuser/GetMenuContextHelpId
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - GetMenuContextHelpId
+- GetMenuContextHelpId
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.IkeextSaEnum0
 title: IkeextSaEnum0 function (fwpmu.h)
-
 description: Returns the next page of results from the IKE/AuthIP security association (SA) enumerator.
 old-location: fwp\ikeextsaenum0.htm
 tech.root: fwp
 ms.assetid: a38e266d-2155-4dd4-b12e-5f1a40ca776e
-
 ms.date: 12/05/2018
 ms.keywords: IkeextSaEnum0, IkeextSaEnum0 function [Filtering], fwp.ikeextsaenum0, fwpmu/IkeextSaEnum0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/IkeextSaEnum0"
+f1_keywords:
+- fwpmu/IkeextSaEnum0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - IkeextSaEnum0
+- IkeextSaEnum0
 targetos: Windows
 req.typenames: 
 req.redist: 

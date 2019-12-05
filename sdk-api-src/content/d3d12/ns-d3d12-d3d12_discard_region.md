@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_DISCARD_REGION
 title: D3D12_DISCARD_REGION (d3d12.h)
-
 description: Describes details for the discard-resource operation.
 old-location: direct3d12\d3d12_discard_region.htm
 tech.root: direct3d12
 ms.assetid: 8F0916CB-3389-40BC-8028-BA8CF9BC566B
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_DISCARD_REGION, D3D12_DISCARD_REGION structure, d3d12/D3D12_DISCARD_REGION, direct3d12.d3d12_discard_region
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_DISCARD_REGION"
+f1_keywords:
+- d3d12/D3D12_DISCARD_REGION
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_DISCARD_REGION
+- D3D12_DISCARD_REGION
 targetos: Windows
 req.typenames: D3D12_DISCARD_REGION
 req.redist: 

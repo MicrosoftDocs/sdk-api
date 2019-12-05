@@ -1,19 +1,17 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetMetadataVersion
 title: IWSDiscoveredService::GetMetadataVersion (wsddisco.h)
-
 description: Retrieves the metadata version of this message.
 old-location: ncd\iwsdiscoveredservice_getmetadataversion.htm
 tech.root: WsdApi
 ms.assetid: ce0d463e-6455-48cc-b01f-6aa93fd628b6
-
 ms.date: 12/05/2018
 ms.keywords: GetMetadataVersion, GetMetadataVersion method, GetMetadataVersion method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetMetadataVersion method, IWSDiscoveredService.GetMetadataVersion, IWSDiscoveredService::GetMetadataVersion, ncd.iwsdiscoveredservice_getmetadataversion, wsddisco/IWSDiscoveredService::GetMetadataVersion
 ms.topic: method
-f1_keywords: 
- - "wsddisco/IWSDiscoveredService.GetMetadataVersion"
+f1_keywords:
+- wsddisco/IWSDiscoveredService.GetMetadataVersion
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDiscoveredService.GetMetadataVersion
+- IWSDiscoveredService.GetMetadataVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

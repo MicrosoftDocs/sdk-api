@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_AllowHardTerminate
 title: ITaskSettings::put_AllowHardTerminate (taskschd.h)
-
 description: Gets or sets a Boolean value that indicates that the task may be terminated by the Task Scheduler service using TerminateProcess.
 old-location: taskschd\itasksettings_allowhardterminate.htm
 tech.root: taskschd
 ms.assetid: fd8105cf-5ef1-4ae4-8bb7-05469758b6b4
-
 ms.date: 12/05/2018
 ms.keywords: AllowHardTerminate property [Task Scheduler], AllowHardTerminate property [Task Scheduler],ITaskSettings interface, AllowHardTerminate property [Task Scheduler],TaskSettings class, ITaskSettings interface [Task Scheduler],AllowHardTerminate property, ITaskSettings.AllowHardTerminate, ITaskSettings.put_AllowHardTerminate, ITaskSettings::AllowHardTerminate, ITaskSettings::get_AllowHardTerminate, ITaskSettings::put_AllowHardTerminate, TaskSettings class [Task Scheduler],AllowHardTerminate property, put_AllowHardTerminate, taskschd.itasksettings_allowhardterminate, taskschd/ITaskSettings::AllowHardTerminate, taskschd/ITaskSettings::get_AllowHardTerminate, taskschd/ITaskSettings::put_AllowHardTerminate
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskSettings.AllowHardTerminate"
+f1_keywords:
+- taskschd/ITaskSettings.AllowHardTerminate
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskSettings.AllowHardTerminate
- - ITaskSettings.get_AllowHardTerminate
- - ITaskSettings.put_AllowHardTerminate
- - TaskSettings.AllowHardTerminate
+- ITaskSettings.AllowHardTerminate
+- ITaskSettings.get_AllowHardTerminate
+- ITaskSettings.put_AllowHardTerminate
+- TaskSettings.AllowHardTerminate
 targetos: Windows
 req.typenames: 
 req.redist: 

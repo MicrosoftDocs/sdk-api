@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.PurgeComm
 title: PurgeComm function (winbase.h)
-
 description: Discards all characters from the output or input buffer of a specified communications resource. It can also terminate pending read or write operations on the resource.
 old-location: base\purgecomm.htm
 tech.root: devio
 ms.assetid: bfbd6530-447e-46e2-89e6-683b3c8c32ea
-
 ms.date: 12/05/2018
 ms.keywords: PURGE_RXABORT, PURGE_RXCLEAR, PURGE_TXABORT, PURGE_TXCLEAR, PurgeComm, PurgeComm function, _win32_purgecomm, base.purgecomm, winbase/PurgeComm
 ms.topic: function
-f1_keywords: 
- - "winbase/PurgeComm"
+f1_keywords:
+- winbase/PurgeComm
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-comm-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-comm-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - PurgeComm
+- PurgeComm
 targetos: Windows
 req.typenames: 
 req.redist: 

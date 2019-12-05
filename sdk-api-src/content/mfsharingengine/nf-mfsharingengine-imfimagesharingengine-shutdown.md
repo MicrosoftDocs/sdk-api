@@ -1,19 +1,17 @@
 ---
 UID: NF:mfsharingengine.IMFImageSharingEngine.Shutdown
 title: IMFImageSharingEngine::Shutdown (mfsharingengine.h)
-
 description: Shuts down the image sharing engine.
 old-location: mf\imfimagesharingengine_shutdown.htm
 tech.root: medfound
 ms.assetid: F394A740-8F86-4113-B6B8-57CC4127E9D0
-
 ms.date: 12/05/2018
 ms.keywords: IMFImageSharingEngine interface [Media Foundation],Shutdown method, IMFImageSharingEngine.Shutdown, IMFImageSharingEngine::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFImageSharingEngine interface, mf.imfimagesharingengine_shutdown, mfsharingengine/IMFImageSharingEngine::Shutdown
 ms.topic: method
-f1_keywords: 
- - "mfsharingengine/IMFImageSharingEngine.Shutdown"
+f1_keywords:
+- mfsharingengine/IMFImageSharingEngine.Shutdown
 dev_langs:
- - c++
+- c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfsharingengine.h
+- mfsharingengine.h
 api_name:
- - IMFImageSharingEngine.Shutdown
+- IMFImageSharingEngine.Shutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

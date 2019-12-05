@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITDigitsGatheredEvent.get_TickCount
 title: ITDigitsGatheredEvent::get_TickCount (tapi3if.h)
-
 description: The get_TickCount method gets the &#0034;tick count&#0034; (the number of milliseconds since Windows started) at which digit-gathering completed.
 old-location: tapi3\itdigitsgatheredevent_get_tickcount.htm
 tech.root: Tapi
 ms.assetid: 6e5fbed0-f132-418f-aa71-36d0e673affa
-
 ms.date: 12/05/2018
 ms.keywords: ITDigitsGatheredEvent interface [TAPI 2.2],get_TickCount method, ITDigitsGatheredEvent.get_TickCount, ITDigitsGatheredEvent::get_TickCount, _tapi3_itdigitsgatheredevent_get_tickcount, get_TickCount, get_TickCount method [TAPI 2.2], get_TickCount method [TAPI 2.2],ITDigitsGatheredEvent interface, tapi3.itdigitsgatheredevent_get_tickcount, tapi3if/ITDigitsGatheredEvent::get_TickCount
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITDigitsGatheredEvent.get_TickCount"
+f1_keywords:
+- tapi3if/ITDigitsGatheredEvent.get_TickCount
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITDigitsGatheredEvent.get_TickCount
+- ITDigitsGatheredEvent.get_TickCount
 targetos: Windows
 req.typenames: 
 req.redist: 

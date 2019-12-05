@@ -1,19 +1,17 @@
 ---
 UID: NS:tlhelp32.tagTHREADENTRY32
 title: THREADENTRY32 (tlhelp32.h)
-
 description: Describes an entry from a list of the threads executing in the system when a snapshot was taken.
 old-location: toolhelp\threadentry32_str.htm
 tech.root: ToolHelp
 ms.assetid: 923feca1-8807-4752-8a5a-79075688aabd
-
 ms.date: 12/05/2018
-ms.keywords: "*LPTHREADENTRY32, *PTHREADENTRY32, PTHREADENTRY32, PTHREADENTRY32 structure pointer [ToolHelp], THREADENTRY32, THREADENTRY32 structure [ToolHelp], _win32_threadentry32_str, base.threadentry32_str, tlhelp32/PTHREADENTRY32, tlhelp32/THREADENTRY32, toolhelp.threadentry32_str"
+ms.keywords: '*LPTHREADENTRY32, *PTHREADENTRY32, PTHREADENTRY32, PTHREADENTRY32 structure pointer [ToolHelp], THREADENTRY32, THREADENTRY32 structure [ToolHelp], _win32_threadentry32_str, base.threadentry32_str, tlhelp32/PTHREADENTRY32, tlhelp32/THREADENTRY32, toolhelp.threadentry32_str'
 ms.topic: struct
-f1_keywords: 
- - "tlhelp32/THREADENTRY32"
+f1_keywords:
+- tlhelp32/THREADENTRY32
 dev_langs:
- - c++
+- c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - TlHelp32.h
+- TlHelp32.h
 api_name:
- - THREADENTRY32
+- THREADENTRY32
 targetos: Windows
 req.typenames: THREADENTRY32
 req.redist: 

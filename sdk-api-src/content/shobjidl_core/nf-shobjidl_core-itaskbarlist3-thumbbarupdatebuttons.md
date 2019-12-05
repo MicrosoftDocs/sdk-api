@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.ThumbBarUpdateButtons
 title: ITaskbarList3::ThumbBarUpdateButtons (shobjidl_core.h)
-
 description: Shows, enables, disables, or hides buttons in a thumbnail toolbar as required by the window's current state. A thumbnail toolbar is a toolbar embedded in a thumbnail image of a window in a taskbar button flyout.
 old-location: shell\ITaskbarList3_ThumbBarUpdateButtons.htm
 tech.root: shell
 ms.assetid: 5bb38b1e-dc09-4868-b424-f11beca6e64f
-
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],ThumbBarUpdateButtons method, ITaskbarList3.ThumbBarUpdateButtons, ITaskbarList3::ThumbBarUpdateButtons, ThumbBarUpdateButtons, ThumbBarUpdateButtons method [Windows Shell], ThumbBarUpdateButtons method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_ThumbBarUpdateButtons, shell.ITaskbarList3_ThumbBarUpdateButtons, shobjidl_core/ITaskbarList3::ThumbBarUpdateButtons
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITaskbarList3.ThumbBarUpdateButtons"
+f1_keywords:
+- shobjidl_core/ITaskbarList3.ThumbBarUpdateButtons
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Explorerframe.lib
 req.dll: Explorerframe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Explorerframe.dll
+- Explorerframe.dll
 api_name:
- - ITaskbarList3.ThumbBarUpdateButtons
+- ITaskbarList3.ThumbBarUpdateButtons
 targetos: Windows
 req.typenames: 
 req.redist: 

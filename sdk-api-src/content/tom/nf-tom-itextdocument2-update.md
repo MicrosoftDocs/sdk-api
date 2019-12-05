@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument2.Update
 title: ITextDocument2::Update (tom.h)
-
 description: Updates the selection and caret.
 old-location: controls\itextdocument2_update.htm
 tech.root: Controls
 ms.assetid: 0ac5c944-227d-4ba3-afcf-ccb969902383
-
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],Update method, ITextDocument2.Update, ITextDocument2::Update, Update, Update method [Windows Controls], Update method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_update, tom/ITextDocument2::Update
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument2.Update"
+f1_keywords:
+- tom/ITextDocument2.Update
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument2.Update
+- ITextDocument2.Update
 targetos: Windows
 req.typenames: 
 req.redist: 

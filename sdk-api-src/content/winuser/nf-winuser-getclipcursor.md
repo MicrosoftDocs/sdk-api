@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetClipCursor
 title: GetClipCursor function (winuser.h)
-
 description: Retrieves the screen coordinates of the rectangular area to which the cursor is confined.
 old-location: menurc\getclipcursor.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\getclipcursor.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetClipCursor, GetClipCursor function [Menus and Other Resources], _win32_GetClipCursor, _win32_getclipcursor_cpp, menurc.getclipcursor, winui._win32_getclipcursor, winuser/GetClipCursor
 ms.topic: function
-f1_keywords: 
- - "winuser/GetClipCursor"
+f1_keywords:
+- winuser/GetClipCursor
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - ext-ms-win-ntuser-gui-l1-2-1.dll
- - Ext-MS-Win-RTCore-NTUser-Cursor-L1-1-0.dll
- - MinUser.dll
+- User32.dll
+- ext-ms-win-ntuser-gui-l1-2-1.dll
+- Ext-MS-Win-RTCore-NTUser-Cursor-L1-1-0.dll
+- MinUser.dll
 api_name:
- - GetClipCursor
+- GetClipCursor
 targetos: Windows
 req.typenames: 
 req.redist: 

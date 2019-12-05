@@ -1,17 +1,15 @@
 ---
 UID: NF:dwrite_3.IDWriteFontCollection3.GetExpirationEvent
 title: IDWriteFontCollection3::GetExpirationEvent
-
 description: Retrieves the expiration event for the font set, if any. The expiration event is set on a system font set object if it is out of date due to fonts being installed, uninstalled, or updated.
 tech.root: DirectWrite
-
 ms.date: 09/12/2019
 ms.keywords: IDWriteFontCollection3 interface [Direct Write],GetExpirationEvent method, IDWriteFontCollection3.GetExpirationEvent, IDWriteFontCollection3::GetExpirationEvent, GetExpirationEvent, GetExpirationEvent method [Direct Write], GetExpirationEvent method [Direct Write],IDWriteFontCollection3 interface, directwrite.idwritefontcollection3_getexpirationevent, dwrite_3/IDWriteFontCollection3::GetExpirationEvent
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontCollection3.GetExpirationEvent"
+f1_keywords:
+- dwrite_3/IDWriteFontCollection3.GetExpirationEvent
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,15 +29,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFontCollection3::GetExpirationEvent
+- IDWriteFontCollection3::GetExpirationEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

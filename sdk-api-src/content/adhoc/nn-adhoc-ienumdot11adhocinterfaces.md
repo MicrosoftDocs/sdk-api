@@ -1,19 +1,17 @@
 ---
 UID: NN:adhoc.IEnumDot11AdHocInterfaces
 title: IEnumDot11AdHocInterfaces (adhoc.h)
-
 description: Represents the collection of currently visible 802.11 ad hoc network interfaces.
 old-location: nwifi\ienumdot11adhocinterfaces.htm
 tech.root: NativeWiFi
 ms.assetid: c61bbe3a-ad02-4182-bf10-1ed5fe307bd4
-
 ms.date: 12/05/2018
 ms.keywords: IEnumDot11AdHocInterfaces, IEnumDot11AdHocInterfaces interface [NativeWIFI], IEnumDot11AdHocInterfaces interface [NativeWIFI],described, adhoc/IEnumDot11AdHocInterfaces, nwifi.ienumdot11adhocinterfaces
 ms.topic: interface
-f1_keywords: 
- - "adhoc/IEnumDot11AdHocInterfaces"
+f1_keywords:
+- adhoc/IEnumDot11AdHocInterfaces
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IEnumDot11AdHocInterfaces
+- IEnumDot11AdHocInterfaces
 targetos: Windows
 req.typenames: 
 req.redist: 

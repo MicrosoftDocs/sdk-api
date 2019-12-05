@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.SafeArrayCopy
 title: SafeArrayCopy function (oleauto.h)
-
 description: Creates a copy of an existing safe array.
 old-location: automat\safearraycopy.htm
 tech.root: automat
 ms.assetid: 8f84d4f6-1852-4ad8-b174-f3fa37e5bbd6
-
 ms.date: 12/05/2018
 ms.keywords: SafeArrayCopy, SafeArrayCopy function [Automation], _oa96_SafeArrayCopy, automat.safearraycopy, oleauto/SafeArrayCopy
 ms.topic: function
-f1_keywords: 
- - "oleauto/SafeArrayCopy"
+f1_keywords:
+- oleauto/SafeArrayCopy
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - SafeArrayCopy
+- SafeArrayCopy
 targetos: Windows
 req.typenames: 
 req.redist: 

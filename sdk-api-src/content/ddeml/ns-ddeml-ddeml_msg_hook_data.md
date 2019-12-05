@@ -1,19 +1,17 @@
 ---
 UID: NS:ddeml.tagDDEML_MSG_HOOK_DATA
 title: DDEML_MSG_HOOK_DATA (ddeml.h)
-
 description: Contains information about a Dynamic Data Exchange (DDE) message, and provides read access to the data referenced by the message. This structure is intended to be used by a Dynamic Data Exchange Management Library (DDEML) monitoring application.
 old-location: dataxchg\ddeml_msg_hook_data_str.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementstructures\ddeml_msg_hook_data.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PDDEML_MSG_HOOK_DATA, DDEML_MSG_HOOK_DATA, DDEML_MSG_HOOK_DATA structure [Data Exchange], PDDEML_MSG_HOOK_DATA, PDDEML_MSG_HOOK_DATA structure pointer [Data Exchange], _win32_DDEML_MSG_HOOK_DATA_str, _win32_ddeml_msg_hook_data_str_cpp, dataxchg.ddeml_msg_hook_data_str, ddeml/DDEML_MSG_HOOK_DATA, ddeml/PDDEML_MSG_HOOK_DATA, winui._win32_ddeml_msg_hook_data_str"
+ms.keywords: '*PDDEML_MSG_HOOK_DATA, DDEML_MSG_HOOK_DATA, DDEML_MSG_HOOK_DATA structure [Data Exchange], PDDEML_MSG_HOOK_DATA, PDDEML_MSG_HOOK_DATA structure pointer [Data Exchange], _win32_DDEML_MSG_HOOK_DATA_str, _win32_ddeml_msg_hook_data_str_cpp, dataxchg.ddeml_msg_hook_data_str, ddeml/DDEML_MSG_HOOK_DATA, ddeml/PDDEML_MSG_HOOK_DATA, winui._win32_ddeml_msg_hook_data_str'
 ms.topic: struct
-f1_keywords: 
- - "ddeml/DDEML_MSG_HOOK_DATA"
+f1_keywords:
+- ddeml/DDEML_MSG_HOOK_DATA
 dev_langs:
- - c++
+- c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ddeml.h
+- Ddeml.h
 api_name:
- - DDEML_MSG_HOOK_DATA
+- DDEML_MSG_HOOK_DATA
 targetos: Windows
 req.typenames: DDEML_MSG_HOOK_DATA, *PDDEML_MSG_HOOK_DATA
 req.redist: 

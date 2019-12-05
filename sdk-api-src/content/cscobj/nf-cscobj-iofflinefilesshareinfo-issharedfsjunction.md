@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesShareInfo.IsShareDfsJunction
 title: IOfflineFilesShareInfo::IsShareDfsJunction (cscobj.h)
-
 description: Determines whether the share item is a DFS junction or a shared folder on a server.
 old-location: of\iofflinefilesshareinfo_issharedfsjunction.htm
 tech.root: offlinefiles
 ms.assetid: fdb29270-2fe5-4313-afd9-c21b82b1949a
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesShareInfo interface [Offline Files],IsShareDfsJunction method, IOfflineFilesShareInfo.IsShareDfsJunction, IOfflineFilesShareInfo::IsShareDfsJunction, IsShareDfsJunction, IsShareDfsJunction method [Offline Files], IsShareDfsJunction method [Offline Files],IOfflineFilesShareInfo interface, cscobj/IOfflineFilesShareInfo::IsShareDfsJunction, of.iofflinefilesshareinfo_issharedfsjunction
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesShareInfo.IsShareDfsJunction"
+f1_keywords:
+- cscobj/IOfflineFilesShareInfo.IsShareDfsJunction
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesShareInfo.IsShareDfsJunction
+- IOfflineFilesShareInfo.IsShareDfsJunction
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaSink.AddStreamSink
 title: IMFMediaSink::AddStreamSink (mfidl.h)
-
 description: Adds a new stream sink to the media sink.
 old-location: mf\imfmediasink_addstreamsink.htm
 tech.root: medfound
 ms.assetid: 1b05ef87-5559-4310-942c-54ab113eb42d
-
 ms.date: 12/05/2018
 ms.keywords: 1b05ef87-5559-4310-942c-54ab113eb42d, AddStreamSink, AddStreamSink method [Media Foundation], AddStreamSink method [Media Foundation],IMFMediaSink interface, IMFMediaSink interface [Media Foundation],AddStreamSink method, IMFMediaSink.AddStreamSink, IMFMediaSink::AddStreamSink, mf.imfmediasink_addstreamsink, mfidl/IMFMediaSink::AddStreamSink
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaSink.AddStreamSink"
+f1_keywords:
+- mfidl/IMFMediaSink.AddStreamSink
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSink.AddStreamSink
+- IMFMediaSink.AddStreamSink
 targetos: Windows
 req.typenames: 
 req.redist: 

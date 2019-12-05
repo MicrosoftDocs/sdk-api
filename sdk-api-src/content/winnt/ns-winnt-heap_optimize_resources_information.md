@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._HEAP_OPTIMIZE_RESOURCES_INFORMATION
 title: HEAP_OPTIMIZE_RESOURCES_INFORMATION (winnt.h)
-
 description: Specifies flags for a HeapOptimizeResources operation initiated with HeapSetInformation.
 old-location: base\heap_optimize_resources_information.htm
 tech.root: Memory
 ms.assetid: c801a08a-0b1a-4ffe-8ec7-c3ea8d913ec8
-
 ms.date: 12/05/2018
-ms.keywords: "*PHEAP_OPTIMIZE_RESOURCES_INFORMATION, HEAP_OPTIMIZE_RESOURCES_INFORMATION, HEAP_OPTIMIZE_RESOURCES_INFORMATION structure, PHEAP_OPTIMIZE_RESOURCES_INFORMATION, PHEAP_OPTIMIZE_RESOURCES_INFORMATION structure pointer, base.heap_optimize_resources_information, winnt/HEAP_OPTIMIZE_RESOURCES_INFORMATION, winnt/PHEAP_OPTIMIZE_RESOURCES_INFORMATION"
+ms.keywords: '*PHEAP_OPTIMIZE_RESOURCES_INFORMATION, HEAP_OPTIMIZE_RESOURCES_INFORMATION, HEAP_OPTIMIZE_RESOURCES_INFORMATION structure, PHEAP_OPTIMIZE_RESOURCES_INFORMATION, PHEAP_OPTIMIZE_RESOURCES_INFORMATION structure pointer, base.heap_optimize_resources_information, winnt/HEAP_OPTIMIZE_RESOURCES_INFORMATION, winnt/PHEAP_OPTIMIZE_RESOURCES_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "winnt/HEAP_OPTIMIZE_RESOURCES_INFORMATION"
+f1_keywords:
+- winnt/HEAP_OPTIMIZE_RESOURCES_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - HEAP_OPTIMIZE_RESOURCES_INFORMATION
+- HEAP_OPTIMIZE_RESOURCES_INFORMATION
 targetos: Windows
 req.typenames: HEAP_OPTIMIZE_RESOURCES_INFORMATION, *PHEAP_OPTIMIZE_RESOURCES_INFORMATION
 req.redist: 

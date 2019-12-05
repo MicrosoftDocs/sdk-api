@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawArc(IN const Pen,IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL)
 title: Graphics::DrawArc(IN const Pen,IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL) (gdiplusgraphics.h)
-
 description: The Graphics::DrawArc method draws an arc. The arc is part of an ellipse.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawArc_Pen_pen_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sweepA.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawarcmethods\drawarc_40penpen_intx_inty_intwidth_intheight_re.htm
-
 ms.date: 12/05/2018
 ms.keywords: DrawArc, DrawArc method [GDI+], DrawArc method [GDI+],Graphics class, Graphics class [GDI+],DrawArc method, Graphics.DrawArc, Graphics.DrawArc(IN const Pen,IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL), Graphics.DrawArc(const Pen*,INT,INT,INT,INT,REAL,REAL), Graphics::DrawArc, Graphics::DrawArc(IN const Pen,IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL), _gdiplus_CLASS_Graphics_DrawArc_Pen_pen_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sweepA, gdiplus._gdiplus_CLASS_Graphics_DrawArc_Pen_pen_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sweepA
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.DrawArc"
+f1_keywords:
+- gdiplusgraphics/Graphics.DrawArc
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.DrawArc
+- Graphics.DrawArc
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTime.GetFILETIME
 title: WBEMTime::GetFILETIME (wbemtime.h)
-
 description: The GetFILETIME method gets the time as an MFC FILETIME structure.
 old-location: wmi\wbemtime_getfiletime.htm
 tech.root: WmiSdk
 ms.assetid: 3debc121-ff7b-4e2c-9d77-502ee491cad8
-
 ms.date: 12/05/2018
-ms.keywords: "?GetFILETIME@WBEMTime@@QBEHPAU_FILETIME@@@Z, GetFILETIME, GetFILETIME method [Windows Management Instrumentation], GetFILETIME method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetFILETIME method, WBEMTime.GetFILETIME, WBEMTime::GetFILETIME, _hmm_wbemtime_getfiletime, wbemtime/WBEMTime::GetFILETIME, wmi.wbemtime_getfiletime"
+ms.keywords: ?GetFILETIME@WBEMTime@@QBEHPAU_FILETIME@@@Z, GetFILETIME, GetFILETIME method [Windows Management Instrumentation], GetFILETIME method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetFILETIME method, WBEMTime.GetFILETIME, WBEMTime::GetFILETIME, _hmm_wbemtime_getfiletime, wbemtime/WBEMTime::GetFILETIME, wmi.wbemtime_getfiletime
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTime.GetFILETIME"
+f1_keywords:
+- wbemtime/WBEMTime.GetFILETIME
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTime.GetFILETIME
- - ?GetFILETIME@WBEMTime@@QBEHPAU_FILETIME@@@Z
+- WBEMTime.GetFILETIME
+- ?GetFILETIME@WBEMTime@@QBEHPAU_FILETIME@@@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PolicyServerListManager.Initialize
 title: IX509PolicyServerListManager::Initialize (certenroll.h)
-
 description: Initializes an IX509PolicyServerListManager object.
 old-location: security\ix509policyserverlistmanager_initialize.htm
 tech.root: seccertenroll
 ms.assetid: 9b3d2913-a0a8-4ec0-b705-8525b54e5494
-
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerListManager interface [Security],Initialize method, IX509PolicyServerListManager.Initialize, IX509PolicyServerListManager::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509PolicyServerListManager interface, PsfLocationGroupPolicy, PsfLocationRegistry, certenroll/IX509PolicyServerListManager::Initialize, security.ix509policyserverlistmanager_initialize
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PolicyServerListManager.Initialize"
+f1_keywords:
+- certenroll/IX509PolicyServerListManager.Initialize
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PolicyServerListManager.Initialize
+- IX509PolicyServerListManager.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

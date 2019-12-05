@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridItemPattern.get_CurrentRowSpan
 title: IUIAutomationGridItemPattern::get_CurrentRowSpan (uiautomationclient.h)
-
 description: Retrieves the number of rows spanned by the grid item.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern_CurrentRowSpan.htm
 tech.root: WinAuto
 ms.assetid: 3153a62e-59d6-4efc-9bdf-2076a3baa9ca
-
 ms.date: 12/05/2018
 ms.keywords: CurrentRowSpan property [Windows Accessibility], CurrentRowSpan property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CurrentRowSpan property, IUIAutomationGridItemPattern.CurrentRowSpan, IUIAutomationGridItemPattern.get_CurrentRowSpan, IUIAutomationGridItemPattern::CurrentRowSpan, IUIAutomationGridItemPattern::get_CurrentRowSpan, get_CurrentRowSpan, uiauto.uiauto_IUIAutomationGridItemPattern_CurrentRowSpan, uiauto_IUIAutomationGridItemPattern_CurrentRowSpan, uiautomationclient/IUIAutomationGridItemPattern::CurrentRowSpan, uiautomationclient/IUIAutomationGridItemPattern::get_CurrentRowSpan, winauto.uiauto_IUIAutomationGridItemPattern_CurrentRowSpan
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationGridItemPattern.CurrentRowSpan"
+f1_keywords:
+- uiautomationclient/IUIAutomationGridItemPattern.CurrentRowSpan
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationGridItemPattern.CurrentRowSpan
- - IUIAutomationGridItemPattern.get_CurrentRowSpan
+- IUIAutomationGridItemPattern.CurrentRowSpan
+- IUIAutomationGridItemPattern.get_CurrentRowSpan
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPropertyPage.Deactivate
 title: IPropertyPage::Deactivate (ocidl.h)
-
 description: Destroys the window created in IPropertyPage::Activate.
 old-location: com\ipropertypage_deactivate.htm
 tech.root: com
 ms.assetid: 545f7c3d-3c6f-42c2-b472-3da3bc184200
-
 ms.date: 12/05/2018
 ms.keywords: Deactivate, Deactivate method [COM], Deactivate method [COM],IPropertyPage interface, IPropertyPage interface [COM],Deactivate method, IPropertyPage.Deactivate, IPropertyPage::Deactivate, _ctrl_ipropertypage_deactivate, com.ipropertypage_deactivate, ocidl/IPropertyPage::Deactivate
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPropertyPage.Deactivate"
+f1_keywords:
+- ocidl/IPropertyPage.Deactivate
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPropertyPage.Deactivate
+- IPropertyPage.Deactivate
 targetos: Windows
 req.typenames: 
 req.redist: 

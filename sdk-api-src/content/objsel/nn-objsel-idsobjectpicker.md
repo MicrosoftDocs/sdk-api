@@ -1,19 +1,17 @@
 ---
 UID: NN:objsel.IDsObjectPicker
 title: IDsObjectPicker (objsel.h)
-
 description: The IDsObjectPicker interface is used by an application to initialize and display an object picker dialog box. To create an instance of this interface, call CoCreateInstance with the CLSID_DsObjectPicker class identifier as shown below.
 old-location: ad\idsobjectpicker.htm
 tech.root: ad
 ms.assetid: f2f9da7d-7a09-4b49-a750-078a4573e213
-
 ms.date: 12/05/2018
 ms.keywords: IDsObjectPicker, IDsObjectPicker interface [Active Directory], IDsObjectPicker interface [Active Directory],described, _glines_idsobjectpicker, ad.idsobjectpicker, objsel/IDsObjectPicker
 ms.topic: interface
-f1_keywords: 
- - "objsel/IDsObjectPicker"
+f1_keywords:
+- objsel/IDsObjectPicker
 dev_langs:
- - c++
+- c++
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Objsel.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Objsel.dll
+- Objsel.dll
 api_name:
- - IDsObjectPicker
+- IDsObjectPicker
 targetos: Windows
 req.typenames: 
 req.redist: 

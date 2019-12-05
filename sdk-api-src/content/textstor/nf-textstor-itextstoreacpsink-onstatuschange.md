@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreACPSink.OnStatusChange
 title: ITextStoreACPSink::OnStatusChange (textstor.h)
-
 description: ITextStoreACPSink::OnStatusChange method
 old-location: tsf\itextstoreacpsink_onstatuschange.htm
 tech.root: TSF
 ms.assetid: 44ecc116-e6f3-48dd-9bff-16d3c1e4cc97
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnStatusChange method, ITextStoreACPSink.OnStatusChange, ITextStoreACPSink::OnStatusChange, OnStatusChange, OnStatusChange method [Text Services Framework], OnStatusChange method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onstatuschange_ref, textstor/ITextStoreACPSink::OnStatusChange, tsf.itextstoreacpsink_onstatuschange
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreACPSink.OnStatusChange"
+f1_keywords:
+- textstor/ITextStoreACPSink.OnStatusChange
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACPSink.OnStatusChange
+- ITextStoreACPSink.OnStatusChange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

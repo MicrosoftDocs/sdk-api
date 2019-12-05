@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceQuery.Execute
 title: IFunctionInstanceQuery::Execute (functiondiscoveryapi.h)
-
 description: Performs the query defined by IFunctionDiscovery::CreateInstanceQuery.
 old-location: ncd\ifunctioninstancequery_execute_method.htm
 tech.root: FunDisc
 ms.assetid: 42618944-6ae6-45f0-85f9-3c958d719ed2
-
 ms.date: 12/05/2018
 ms.keywords: Execute, Execute method, Execute method,IFunctionInstanceQuery interface, IFunctionInstanceQuery interface,Execute method, IFunctionInstanceQuery.Execute, IFunctionInstanceQuery::Execute, functiondiscoveryapi/IFunctionInstanceQuery::Execute, ncd.ifunctioninstancequery_execute_method
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryapi/IFunctionInstanceQuery.Execute"
+f1_keywords:
+- functiondiscoveryapi/IFunctionInstanceQuery.Execute
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FunDisc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunDisc.dll
+- FunDisc.dll
 api_name:
- - IFunctionInstanceQuery.Execute
+- IFunctionInstanceQuery.Execute
 targetos: Windows
 req.typenames: 
 req.redist: 

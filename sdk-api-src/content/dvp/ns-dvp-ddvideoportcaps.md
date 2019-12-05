@@ -1,19 +1,17 @@
 ---
 UID: NS:dvp._DDVIDEOPORTCAPS
 title: DDVIDEOPORTCAPS (dvp.h)
-
 description: The DDVIDEOPORTCAPS structure describes the capabilities and alignment restrictions of a hardware video port.
 old-location: display\ddvideoportcaps.htm
 tech.root: display
 ms.assetid: ea85f189-7308-48ad-b159-1809749f8183
-
 ms.date: 12/05/2018
 ms.keywords: '*LPDDVIDEOPORTCAPS, DDVIDEOPORTCAPS, DDVIDEOPORTCAPS structure [Display Devices], ddstrcts_6955b71e-772c-41a5-9aa0-7d0247fc9d0a.xml, display.ddvideoportcaps, dvp/DDVIDEOPORTCAPS'
 ms.topic: struct
 f1_keywords:
 - dvp/DDVIDEOPORTCAPS
 dev_langs:
- - c++
+- c++
 req.header: dvp.h
 req.include-header: Dvp.h
 req.target-type: Windows

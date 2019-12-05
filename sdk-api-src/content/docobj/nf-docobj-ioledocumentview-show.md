@@ -1,19 +1,17 @@
 ---
 UID: NF:docobj.IOleDocumentView.Show
 title: IOleDocumentView::Show (docobj.h)
-
 description: Activates or deactivates a view.
 old-location: com\ioledocumentview_show.htm
 tech.root: com
 ms.assetid: eecc0230-0713-40e9-913c-c51b8a905575
-
 ms.date: 12/05/2018
 ms.keywords: IOleDocumentView interface [COM],Show method, IOleDocumentView.Show, IOleDocumentView::Show, Show, Show method [COM], Show method [COM],IOleDocumentView interface, _ole_ioledocumentview_show, com.ioledocumentview_show, docobj/IOleDocumentView::Show
 ms.topic: method
-f1_keywords: 
- - "docobj/IOleDocumentView.Show"
+f1_keywords:
+- docobj/IOleDocumentView.Show
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IOleDocumentView.Show
+- IOleDocumentView.Show
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoDecrementMTAUsage
 title: CoDecrementMTAUsage function (combaseapi.h)
-
 description: Releases the increment made by a previous call to the CoIncrementMTAUsage function.
 old-location: com\codecrementmtausage.htm
 tech.root: com
 ms.assetid: 66AA2783-7F24-41BB-911B-D452DF54C003
-
 ms.date: 12/05/2018
 ms.keywords: CoDecrementMTAUsage, CoDecrementMTAUsage function [COM], com.codecrementmtausage, combaseapi/CoDecrementMTAUsage
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoDecrementMTAUsage"
+f1_keywords:
+- combaseapi/CoDecrementMTAUsage
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
 api_name:
- - CoDecrementMTAUsage
+- CoDecrementMTAUsage
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:clfsmgmtw32.PLOG_UNPINNED_CALLBACK
 title: PLOG_UNPINNED_CALLBACK (clfsmgmtw32.h)
-
 description: The LOG_UNPINNED_CALLBACK function is an application-defined callback function that receives notification that the log has become unpinned.
 old-location: fs\log_unpinned_callback.htm
 tech.root: Clfs
 ms.assetid: ab3b5ffb-01a5-4678-bcfa-7e71b1f4c0f3
-
 ms.date: 12/05/2018
 ms.keywords: LOG_UNPINNED_CALLBACK, LOG_UNPINNED_CALLBACK callback function [Files], PLOG_UNPINNED_CALLBACK, PLOG_UNPINNED_CALLBACK callback, clfsmgmtw32/LOG_UNPINNED_CALLBACK, fs.log_unpinned_callback
 ms.topic: callback
 f1_keywords:
 - clfsmgmtw32/LOG_UNPINNED_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows

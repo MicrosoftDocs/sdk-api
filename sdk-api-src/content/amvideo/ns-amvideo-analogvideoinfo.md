@@ -1,19 +1,17 @@
 ---
 UID: NS:amvideo.tagAnalogVideoInfo
 title: ANALOGVIDEOINFO (amvideo.h)
-
 description: The ANALOGVIDEOINFO structure maintains information about the format of the analog video signal.
 old-location: dshow\analogvideoinfo.htm
 tech.root: DirectShow
 ms.assetid: c0c568ce-6834-4bfe-aaae-addfbc0218bd
-
 ms.date: 12/05/2018
 ms.keywords: ANALOGVIDEOINFO, ANALOGVIDEOINFO structure [DirectShow], ANALOGVIDEOINFOStructure, amvideo/ANALOGVIDEOINFO, dshow.analogvideoinfo
 ms.topic: struct
-f1_keywords: 
- - "amvideo/ANALOGVIDEOINFO"
+f1_keywords:
+- amvideo/ANALOGVIDEOINFO
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - amvideo.h
+- amvideo.h
 api_name:
- - ANALOGVIDEOINFO
+- ANALOGVIDEOINFO
 targetos: Windows
 req.typenames: ANALOGVIDEOINFO
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContext.GetDocumentMgr
 title: ITfContext::GetDocumentMgr (msctf.h)
-
 description: ITfContext::GetDocumentMgr method
 old-location: tsf\itfcontext_getdocumentmgr.htm
 tech.root: TSF
 ms.assetid: 21fa683d-c386-4aa2-8bc5-d5170443c5cd
-
 ms.date: 12/05/2018
 ms.keywords: GetDocumentMgr, GetDocumentMgr method [Text Services Framework], GetDocumentMgr method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetDocumentMgr method, ITfContext.GetDocumentMgr, ITfContext::GetDocumentMgr, _tsf_itfcontext_getdocumentmgr_ref, msctf/ITfContext::GetDocumentMgr, tsf.itfcontext_getdocumentmgr
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContext.GetDocumentMgr"
+f1_keywords:
+- msctf/ITfContext.GetDocumentMgr
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfContext.GetDocumentMgr
+- ITfContext.GetDocumentMgr
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

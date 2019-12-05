@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpCreateVbl
 title: SnmpCreateVbl function (winsnmp.h)
-
 description: The WinSNMP SnmpCreateVbl function creates a new variable bindings list for the calling WinSNMP application.
 old-location: snmp\snmpcreatevbl.htm
 tech.root: SNMP
 ms.assetid: 5e973b32-3e7e-41f7-9257-4ac3d67fd853
-
 ms.date: 12/05/2018
 ms.keywords: SnmpCreateVbl, SnmpCreateVbl function [SNMP], _snmp_snmpcreatevbl, snmp.snmpcreatevbl, winsnmp/SnmpCreateVbl
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpCreateVbl"
+f1_keywords:
+- winsnmp/SnmpCreateVbl
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpCreateVbl
+- SnmpCreateVbl
 targetos: Windows
 req.typenames: 
 req.redist: 

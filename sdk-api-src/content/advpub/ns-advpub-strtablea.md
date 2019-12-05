@@ -1,19 +1,17 @@
 ---
 UID: NS:advpub._StrTableA
 title: STRTABLEA (advpub.h)
-
 description: Represents a table of registry string replacements.
 old-location: winprog\_strtablea.htm
 tech.root: DevNotes
 ms.assetid: BCDD9AE4-6ADF-4018-A9C0-7924DE30B954
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSTRTABLEA, LPSTRTABLEA, LPSTRTABLEA structure pointer [Windows API], STRTABLE, STRTABLEA, STRTABLEA structure [Windows API], _StrTableA, _StrTableA structure [Windows API], advpub/LPSTRTABLEA, advpub/_StrTableA, winprog._strtablea"
+ms.keywords: '*LPSTRTABLEA, LPSTRTABLEA, LPSTRTABLEA structure pointer [Windows API], STRTABLE, STRTABLEA, STRTABLEA structure [Windows API], _StrTableA, _StrTableA structure [Windows API], advpub/LPSTRTABLEA, advpub/_StrTableA, winprog._strtablea'
 ms.topic: struct
-f1_keywords: 
- - "advpub/STRTABLEA"
+f1_keywords:
+- advpub/STRTABLEA
 dev_langs:
- - c++
+- c++
 req.header: advpub.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - advpack.lib
+- advpack.lib
 api_name:
- - STRTABLEA
+- STRTABLEA
 targetos: Windows
 req.typenames: STRTABLEA, *LPSTRTABLEA
 req.redist: 

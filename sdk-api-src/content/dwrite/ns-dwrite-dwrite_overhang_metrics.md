@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite.DWRITE_OVERHANG_METRICS
 title: DWRITE_OVERHANG_METRICS (dwrite.h)
-
 description: Indicates how much any visible DIPs (device independent pixels) overshoot each side of the layout or inline objects.
 old-location: directwrite\dwrite_overhang_metrics.htm
 tech.root: DirectWrite
 ms.assetid: a285f06b-a4d0-4ebe-80f5-157e59bfba31
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_OVERHANG_METRICS, DWRITE_OVERHANG_METRICS structure [Direct Write], PDWRITE_OVERHANG_METRICS, PDWRITE_OVERHANG_METRICS structure pointer [Direct Write], directwrite.dwrite_overhang_metrics, dwrite/DWRITE_OVERHANG_METRICS, dwrite/PDWRITE_OVERHANG_METRICS
 ms.topic: struct
-f1_keywords: 
- - "dwrite/DWRITE_OVERHANG_METRICS"
+f1_keywords:
+- dwrite/DWRITE_OVERHANG_METRICS
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite.h
+- dwrite.h
 api_name:
- - DWRITE_OVERHANG_METRICS
+- DWRITE_OVERHANG_METRICS
 targetos: Windows
 req.typenames: 
 req.redist: 

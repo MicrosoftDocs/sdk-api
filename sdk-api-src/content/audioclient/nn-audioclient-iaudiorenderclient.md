@@ -1,19 +1,17 @@
 ---
 UID: NN:audioclient.IAudioRenderClient
 title: IAudioRenderClient (audioclient.h)
-
 description: The IAudioRenderClient interface enables a client to write output data to a rendering endpoint buffer.
 old-location: coreaudio\iaudiorenderclient.htm
 tech.root: CoreAudio
 ms.assetid: e3e18e1e-1a09-4072-add6-36d2a6428a74
-
 ms.date: 12/05/2018
 ms.keywords: IAudioRenderClient, IAudioRenderClient interface [Core Audio], IAudioRenderClient interface [Core Audio],described, audioclient/IAudioRenderClient, coreaudio.iaudiorenderclient
 ms.topic: interface
-f1_keywords: 
- - "audioclient/IAudioRenderClient"
+f1_keywords:
+- audioclient/IAudioRenderClient
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - IAudioRenderClient
+- IAudioRenderClient
 targetos: Windows
 req.typenames: 
 req.redist: 

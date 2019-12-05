@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX509CertificateRequestCertificate
 title: IX509CertificateRequestCertificate (certenroll.h)
-
 description: The IX509CertificateRequestCertificate interface represents a request object for a self-generated certificate, enabling you to create a certificate directly without going through a registration or certification authority.
 old-location: security\ix509certificaterequestcertificate.htm
 tech.root: seccertenroll
 ms.assetid: 7197a225-b2dc-47bb-8843-d3fb4bf95811
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCertificate, IX509CertificateRequestCertificate interface [Security], IX509CertificateRequestCertificate interface [Security],described, certenroll/IX509CertificateRequestCertificate, security.ix509certificaterequestcertificate
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX509CertificateRequestCertificate"
+f1_keywords:
+- certenroll/IX509CertificateRequestCertificate
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestCertificate
+- IX509CertificateRequestCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

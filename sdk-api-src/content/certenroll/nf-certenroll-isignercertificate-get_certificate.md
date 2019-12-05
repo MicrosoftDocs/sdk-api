@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ISignerCertificate.get_Certificate
 title: ISignerCertificate::get_Certificate (certenroll.h)
-
 description: Retrieves a Distinguished Encoding Rules (DER) encoded byte array that contains the certificate.
 old-location: security\isignercertificate_certificate_property.htm
 tech.root: seccertenroll
 ms.assetid: 7c7cc326-593d-4b2b-b8db-46aaf894279b
-
 ms.date: 12/05/2018
 ms.keywords: Certificate property [Security], Certificate property [Security],ISignerCertificate interface, ISignerCertificate interface [Security],Certificate property, ISignerCertificate.Certificate, ISignerCertificate.get_Certificate, ISignerCertificate::Certificate, ISignerCertificate::get_Certificate, certenroll/ISignerCertificate::Certificate, certenroll/ISignerCertificate::get_Certificate, get_Certificate, security.isignercertificate_certificate_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ISignerCertificate.Certificate"
+f1_keywords:
+- certenroll/ISignerCertificate.Certificate
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ISignerCertificate.Certificate
- - ISignerCertificate.get_Certificate
+- ISignerCertificate.Certificate
+- ISignerCertificate.get_Certificate
 targetos: Windows
 req.typenames: 
 req.redist: 

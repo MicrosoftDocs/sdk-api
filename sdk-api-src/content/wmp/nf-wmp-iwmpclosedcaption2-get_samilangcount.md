@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPClosedCaption2.get_SAMILangCount
 title: IWMPClosedCaption2::get_SAMILangCount (wmp.h)
-
 description: The get_SAMILangCount method retrieves the number of languages supported by the current SAMI file.
 old-location: wmp\iwmpclosedcaption2_get_samilangcount.htm
 tech.root: WMP
 ms.assetid: 6de8bef5-f0d1-498b-a482-e3f1c3e53c24
-
 ms.date: 12/05/2018
 ms.keywords: IWMPClosedCaption2 interface [Windows Media Player],get_SAMILangCount method, IWMPClosedCaption2.get_SAMILangCount, IWMPClosedCaption2::get_SAMILangCount, IWMPClosedCaption2get_SAMILangCount, get_SAMILangCount, get_SAMILangCount method [Windows Media Player], get_SAMILangCount method [Windows Media Player],IWMPClosedCaption2 interface, wmp.iwmpclosedcaption2_get_samilangcount, wmp/IWMPClosedCaption2::get_SAMILangCount
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPClosedCaption2.get_SAMILangCount"
+f1_keywords:
+- wmp/IWMPClosedCaption2.get_SAMILangCount
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPClosedCaption2.get_SAMILangCount
+- IWMPClosedCaption2.get_SAMILangCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IExecuteCommand
 title: IExecuteCommand (shobjidl_core.h)
-
 description: Exposes methods that set a given state or parameter related to the command verb, as well as a method to invoke that verb.
 old-location: shell\IExecuteCommand.htm
 tech.root: shell
 ms.assetid: a3432f1a-dd33-4e0d-8b26-1312bb5151f7
-
 ms.date: 12/05/2018
 ms.keywords: IExecuteCommand, IExecuteCommand interface [Windows Shell], IExecuteCommand interface [Windows Shell],described, _shell_IExecuteCommand, shell.IExecuteCommand, shobjidl_core/IExecuteCommand
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IExecuteCommand"
+f1_keywords:
+- shobjidl_core/IExecuteCommand
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExecuteCommand
+- IExecuteCommand
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:adhoc.IDot11AdHocManagerNotificationSink.OnNetworkRemove
 title: IDot11AdHocManagerNotificationSink::OnNetworkRemove (adhoc.h)
-
 description: Notifies the client that a wireless ad hoc network destination is no longer available for connection.
 old-location: nwifi\idot11adhocmanagernotificationsink_onnetworkremove.htm
 tech.root: NativeWiFi
 ms.assetid: 9f325b86-3aff-4344-a154-86b74a922372
-
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocManagerNotificationSink interface [NativeWIFI],OnNetworkRemove method, IDot11AdHocManagerNotificationSink.OnNetworkRemove, IDot11AdHocManagerNotificationSink::OnNetworkRemove, OnNetworkRemove, OnNetworkRemove method [NativeWIFI], OnNetworkRemove method [NativeWIFI],IDot11AdHocManagerNotificationSink interface, adhoc/IDot11AdHocManagerNotificationSink::OnNetworkRemove, nwifi.idot11adhocmanagernotificationsink_onnetworkremove
 ms.topic: method
-f1_keywords: 
- - "adhoc/IDot11AdHocManagerNotificationSink.OnNetworkRemove"
+f1_keywords:
+- adhoc/IDot11AdHocManagerNotificationSink.OnNetworkRemove
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IDot11AdHocManagerNotificationSink.OnNetworkRemove
+- IDot11AdHocManagerNotificationSink.OnNetworkRemove
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReference.GetDigestValue
 title: IOpcSignatureRelationshipReference::GetDigestValue (msopc.h)
-
 description: Gets the digest value calculated for the selected relationships when they are signed.
 old-location: opc\iopcsignaturerelationshipreference_getdigestvalue.htm
 tech.root: OPC
 ms.assetid: 3c1f3e73-45fc-4325-bc7a-db9241385c4e
-
 ms.date: 12/05/2018
 ms.keywords: GetDigestValue, GetDigestValue method [Open Packaging Conventions], GetDigestValue method [Open Packaging Conventions],IOpcSignatureRelationshipReference interface, IOpcSignatureRelationshipReference interface [Open Packaging Conventions],GetDigestValue method, IOpcSignatureRelationshipReference.GetDigestValue, IOpcSignatureRelationshipReference::GetDigestValue, msopc/IOpcSignatureRelationshipReference::GetDigestValue, opc.iopcsignaturerelationshipreference_getdigestvalue
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSignatureRelationshipReference.GetDigestValue"
+f1_keywords:
+- msopc/IOpcSignatureRelationshipReference.GetDigestValue
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignatureRelationshipReference.GetDigestValue
+- IOpcSignatureRelationshipReference.GetDigestValue
 targetos: Windows
 req.typenames: 
 req.redist: 

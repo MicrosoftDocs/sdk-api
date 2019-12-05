@@ -1,19 +1,17 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorDisplayAreaSize
 title: GetMonitorDisplayAreaSize function (highlevelmonitorconfigurationapi.h)
-
 description: Retrieves a monitor's minimum, maximum, and current width or height.
 old-location: monitor\getmonitordisplayareasize.htm
 tech.root: Monitor
 ms.assetid: c27cbcf8-bb89-47c4-9f37-8b7a3d61c99f
-
 ms.date: 12/05/2018
 ms.keywords: GetMonitorDisplayAreaSize, GetMonitorDisplayAreaSize function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorDisplayAreaSize, monitor.getmonitordisplayareasize
 ms.topic: function
-f1_keywords: 
- - "highlevelmonitorconfigurationapi/GetMonitorDisplayAreaSize"
+f1_keywords:
+- highlevelmonitorconfigurationapi/GetMonitorDisplayAreaSize
 dev_langs:
- - c++
+- c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - GetMonitorDisplayAreaSize
+- GetMonitorDisplayAreaSize
 targetos: Windows
 req.typenames: 
 req.redist: 

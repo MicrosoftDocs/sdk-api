@@ -1,19 +1,17 @@
 ---
 UID: NF:xamlom.IVisualTreeService.GetCollectionElements
 title: IVisualTreeService::GetCollectionElements (xamlom.h)
-
 description: Gets the elements in a collection.
 old-location: xaml_diagnostics\ivisualtreeservice_getcollectionelements.htm
 tech.root: xaml_diagnostics
 ms.assetid: 01A2694F-E9CF-4DD2-95EA-6CD5C72C65A8
-
 ms.date: 12/05/2018
 ms.keywords: GetCollectionElements, GetCollectionElements method, GetCollectionElements method,IVisualTreeService interface, IVisualTreeService interface,GetCollectionElements method, IVisualTreeService.GetCollectionElements, IVisualTreeService::GetCollectionElements, xaml_diagnostics.ivisualtreeservice_getcollectionelements, xamlom/IVisualTreeService::GetCollectionElements
 ms.topic: method
-f1_keywords: 
- - "xamlom/IVisualTreeService.GetCollectionElements"
+f1_keywords:
+- xamlom/IVisualTreeService.GetCollectionElements
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - IVisualTreeService.GetCollectionElements
+- IVisualTreeService.GetCollectionElements
 targetos: Windows
 req.typenames: 
 req.redist: 

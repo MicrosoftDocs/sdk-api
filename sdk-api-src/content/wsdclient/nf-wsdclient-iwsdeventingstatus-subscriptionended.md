@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdclient.IWSDEventingStatus.SubscriptionEnded
 title: IWSDEventingStatus::SubscriptionEnded (wsdclient.h)
-
 description: Called when the device terminated the subscription.
 old-location: ncd\iwsdeventingstatus_subscriptionended.htm
 tech.root: WsdApi
 ms.assetid: 4ccb16ed-d7c6-4242-ae53-9e58cecc475b
-
 ms.date: 12/05/2018
 ms.keywords: IWSDEventingStatus interface,SubscriptionEnded method, IWSDEventingStatus.SubscriptionEnded, IWSDEventingStatus::SubscriptionEnded, SubscriptionEnded, SubscriptionEnded method, SubscriptionEnded method,IWSDEventingStatus interface, ncd.iwsdeventingstatus_subscriptionended, wsdclient/IWSDEventingStatus::SubscriptionEnded
 ms.topic: method
-f1_keywords: 
- - "wsdclient/IWSDEventingStatus.SubscriptionEnded"
+f1_keywords:
+- wsdclient/IWSDEventingStatus.SubscriptionEnded
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDEventingStatus.SubscriptionEnded
+- IWSDEventingStatus.SubscriptionEnded
 targetos: Windows
 req.typenames: 
 req.redist: 

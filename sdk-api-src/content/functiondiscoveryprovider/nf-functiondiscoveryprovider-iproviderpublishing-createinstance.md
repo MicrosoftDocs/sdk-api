@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderPublishing.CreateInstance
 title: IProviderPublishing::CreateInstance (functiondiscoveryprovider.h)
-
 description: Creates a new function instance.
 old-location: ncd\iproviderpublishing_createinstance_method.htm
 tech.root: FunDisc
 ms.assetid: 1c8988d0-552a-434b-b33c-31017a191896
-
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method, CreateInstance method,IProviderPublishing interface, IProviderPublishing interface,CreateInstance method, IProviderPublishing.CreateInstance, IProviderPublishing::CreateInstance, functiondiscoveryprovider/IProviderPublishing::CreateInstance, ncd.iproviderpublishing_createinstance_method, ncd.iproviderpublishing_oncreateinstance_method
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryprovider/IProviderPublishing.CreateInstance"
+f1_keywords:
+- functiondiscoveryprovider/IProviderPublishing.CreateInstance
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunctionDiscoveryProvider.h
+- FunctionDiscoveryProvider.h
 api_name:
- - IProviderPublishing.CreateInstance
+- IProviderPublishing.CreateInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

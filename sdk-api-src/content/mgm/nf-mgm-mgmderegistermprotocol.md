@@ -1,19 +1,17 @@
 ---
 UID: NF:mgm.MgmDeRegisterMProtocol
 title: MgmDeRegisterMProtocol function (mgm.h)
-
 description: The MgmDeRegisterMProtocol function deregisters a client handle obtained from a call to MgmRegisterMProtocol.
 old-location: rras\mgmderegistermprotocol.htm
 tech.root: RRAS
 ms.assetid: e9b2613e-4e52-4993-81dd-0be50a072db6
-
 ms.date: 12/05/2018
 ms.keywords: MgmDeRegisterMProtocol, MgmDeRegisterMProtocol function [RAS], _mpr_mgmderegistermprotocol, mgm/MgmDeRegisterMProtocol, rras.mgmderegistermprotocol
 ms.topic: function
-f1_keywords: 
- - "mgm/MgmDeRegisterMProtocol"
+f1_keywords:
+- mgm/MgmDeRegisterMProtocol
 dev_langs:
- - c++
+- c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - MgmDeRegisterMProtocol
+- MgmDeRegisterMProtocol
 targetos: Windows
 req.typenames: 
 req.redist: 

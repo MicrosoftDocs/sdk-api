@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.TranslateTransform
 title: PathGradientBrush::TranslateTransform (gdipluspath.h)
-
 description: The PathGradientBrush::TranslateTransform method updates this brush's current transformation matrix with the product of itself and a translation matrix.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_TranslateTransform_dx_dy_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\translatetransform_44dx_dy_order.htm
-
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush class [GDI+],TranslateTransform method, PathGradientBrush.TranslateTransform, PathGradientBrush::TranslateTransform, TranslateTransform, TranslateTransform method [GDI+], TranslateTransform method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_TranslateTransform_dx_dy_order_, gdiplus._gdiplus_CLASS_PathGradientBrush_TranslateTransform_dx_dy_order_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/PathGradientBrush.TranslateTransform"
+f1_keywords:
+- gdipluspath/PathGradientBrush.TranslateTransform
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - PathGradientBrush.TranslateTransform
+- PathGradientBrush.TranslateTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

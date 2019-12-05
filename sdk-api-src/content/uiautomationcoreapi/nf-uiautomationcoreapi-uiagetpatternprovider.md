@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaGetPatternProvider
 title: UiaGetPatternProvider function (uiautomationcoreapi.h)
-
 description: Retrieves a control pattern.
 old-location: winauto\uiauto_UiaGetPatternProviderAutoMeth.htm
 tech.root: WinAuto
 ms.assetid: f4df6a48-3028-4acb-a924-4c20662a7b86
-
 ms.date: 12/05/2018
 ms.keywords: UiaGetPatternProvider, UiaGetPatternProvider function [Windows Accessibility], uiauto.uiauto_UiaGetPatternProviderAutoMeth, uiauto_UiaGetPatternProviderAutoMeth, uiautomationcoreapi/UiaGetPatternProvider, winauto.uiauto_UiaGetPatternProviderAutoMeth
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaGetPatternProvider"
+f1_keywords:
+- uiautomationcoreapi/UiaGetPatternProvider
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - UiaGetPatternProvider
+- UiaGetPatternProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

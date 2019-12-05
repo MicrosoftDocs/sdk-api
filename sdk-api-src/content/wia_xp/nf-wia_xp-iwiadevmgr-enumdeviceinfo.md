@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaDevMgr.EnumDeviceInfo
 title: IWiaDevMgr::EnumDeviceInfo (wia_xp.h)
-
 description: Applications use the IWiaDevMgr::EnumDeviceInfo method to enumerate property information for each available Windows Image Acquisition (WIA) device.
 old-location: wia\_wia_IWiaDevMgr_EnumDeviceInfo.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\enumdeviceinfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: EnumDeviceInfo, EnumDeviceInfo method [WIA], EnumDeviceInfo method [WIA],IWiaDevMgr interface, IWiaDevMgr interface [WIA],EnumDeviceInfo method, IWiaDevMgr.EnumDeviceInfo, IWiaDevMgr::EnumDeviceInfo, _wia_IWiaDevMgr_EnumDeviceInfo, wia._wia_IWiaDevMgr_EnumDeviceInfo, wia_xp/IWiaDevMgr::EnumDeviceInfo
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaDevMgr.EnumDeviceInfo"
+f1_keywords:
+- wia_xp/IWiaDevMgr.EnumDeviceInfo
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaDevMgr.EnumDeviceInfo
+- IWiaDevMgr.EnumDeviceInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

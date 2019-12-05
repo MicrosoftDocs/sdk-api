@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetDialogBaseUnits
 title: GetDialogBaseUnits function (winuser.h)
-
 description: Retrieves the system's dialog base units, which are the average width and height of characters in the system font.
 old-location: dlgbox\getdialogbaseunits.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getdialogbaseunits.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetDialogBaseUnits, GetDialogBaseUnits function [Dialog Boxes], _win32_GetDialogBaseUnits, _win32_getdialogbaseunits_cpp, dlgbox.getdialogbaseunits, winui._win32_getdialogbaseunits, winuser/GetDialogBaseUnits
 ms.topic: function
-f1_keywords: 
- - "winuser/GetDialogBaseUnits"
+f1_keywords:
+- winuser/GetDialogBaseUnits
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
+- User32.dll
+- ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
- - GetDialogBaseUnits
+- GetDialogBaseUnits
 targetos: Windows
 req.typenames: 
 req.redist: 

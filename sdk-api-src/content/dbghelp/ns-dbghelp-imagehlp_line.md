@@ -1,19 +1,17 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_LINE
 title: IMAGEHLP_LINE (dbghelp.h)
-
 description: Represents a source file line.
 old-location: base\imagehlp_line64_str.htm
 tech.root: Debug
 ms.assetid: 62124983-8381-4eb4-94f6-220b844aca45
-
 ms.date: 12/05/2018
-ms.keywords: "*PIMAGEHLP_LINE, IMAGEHLP_LINE, IMAGEHLP_LINE structure, IMAGEHLP_LINE64, IMAGEHLP_LINE64 structure, IMAGEHLP_LINEW64, PIMAGEHLP_LINE64, PIMAGEHLP_LINE64 structure pointer, _IMAGEHLP_LINE64, _win32_imagehlp_line64_str, base.imagehlp_line64_str, dbghelp/IMAGEHLP_LINE64, dbghelp/IMAGEHLP_LINEW64, dbghelp/PIMAGEHLP_LINE64"
+ms.keywords: '*PIMAGEHLP_LINE, IMAGEHLP_LINE, IMAGEHLP_LINE structure, IMAGEHLP_LINE64, IMAGEHLP_LINE64 structure, IMAGEHLP_LINEW64, PIMAGEHLP_LINE64, PIMAGEHLP_LINE64 structure pointer, _IMAGEHLP_LINE64, _win32_imagehlp_line64_str, base.imagehlp_line64_str, dbghelp/IMAGEHLP_LINE64, dbghelp/IMAGEHLP_LINEW64, dbghelp/PIMAGEHLP_LINE64'
 ms.topic: struct
-f1_keywords: 
- - "dbghelp/IMAGEHLP_LINE64"
+f1_keywords:
+- dbghelp/IMAGEHLP_LINE64
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - IMAGEHLP_LINE64
- - IMAGEHLP_LINE64
- - IMAGEHLP_LINEW64
- - IMAGEHLP_LINE
+- IMAGEHLP_LINE64
+- IMAGEHLP_LINE64
+- IMAGEHLP_LINEW64
+- IMAGEHLP_LINE
 targetos: Windows
 req.typenames: IMAGEHLP_LINE, *PIMAGEHLP_LINE
 req.redist: DbgHelp.dll 5.1 or later

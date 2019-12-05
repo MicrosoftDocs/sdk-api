@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll.freeRequestInfoBlob
 title: IEnroll::freeRequestInfoBlob (xenroll.h)
-
 description: The freeRequestInfoBlob method deletes a certificate context. This method was first defined in the IEnroll interface.
 old-location: security\ienroll4_freerequestinfoblob.htm
 tech.root: SecCrypto
 ms.assetid: 7c89de98-51b6-44c2-acd2-879d1d4e7f29
-
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],freeRequestInfoBlob method, IEnroll.freeRequestInfoBlob, IEnroll::freeRequestInfoBlob, freeRequestInfoBlob, freeRequestInfoBlob method [Security], freeRequestInfoBlob method [Security],IEnroll interface, security.ienroll4_freerequestinfoblob, xenroll/IEnroll::freeRequestInfoBlob
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll.freeRequestInfoBlob"
+f1_keywords:
+- xenroll/IEnroll.freeRequestInfoBlob
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll.freeRequestInfoBlob
+- IEnroll.freeRequestInfoBlob
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IFileSourceFilter.GetCurFile
 title: IFileSourceFilter::GetCurFile (strmif.h)
-
 description: The GetCurFile method retrieves the name and media type of the current file.
 old-location: dshow\ifilesourcefilter_getcurfile.htm
 tech.root: DirectShow
 ms.assetid: 67373df9-06a3-4678-b661-29580df4f359
-
 ms.date: 12/05/2018
 ms.keywords: GetCurFile, GetCurFile method [DirectShow], GetCurFile method [DirectShow],IFileSourceFilter interface, IFileSourceFilter interface [DirectShow],GetCurFile method, IFileSourceFilter.GetCurFile, IFileSourceFilter::GetCurFile, IFileSourceFilterGetCurfile, dshow.ifilesourcefilter_getcurfile, strmif/IFileSourceFilter::GetCurFile
 ms.topic: method
-f1_keywords: 
- - "strmif/IFileSourceFilter.GetCurFile"
+f1_keywords:
+- strmif/IFileSourceFilter.GetCurFile
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFileSourceFilter.GetCurFile
+- IFileSourceFilter.GetCurFile
 targetos: Windows
 req.typenames: 
 req.redist: 

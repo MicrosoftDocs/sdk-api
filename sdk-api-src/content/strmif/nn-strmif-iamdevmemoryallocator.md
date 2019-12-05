@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMDevMemoryAllocator
 title: IAMDevMemoryAllocator (strmif.h)
-
 description: Note  This interface is no longer supported by the AVI Splitter. Note  This interface was defined to support older hardware decoders that required AVI files to be read into directly hardware memory.
 old-location: dshow\iamdevmemoryallocator.htm
 tech.root: DirectShow
 ms.assetid: bab1e582-928a-408b-a9c5-8e9827e9928b
-
 ms.date: 12/05/2018
 ms.keywords: IAMDevMemoryAllocator, IAMDevMemoryAllocator interface [DirectShow], IAMDevMemoryAllocator interface [DirectShow],described, IAMDevMemoryAllocatorInterface, dshow.iamdevmemoryallocator, strmif/IAMDevMemoryAllocator
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMDevMemoryAllocator"
+f1_keywords:
+- strmif/IAMDevMemoryAllocator
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - IAMDevMemoryAllocator
+- IAMDevMemoryAllocator
 targetos: Windows
 req.typenames: 
 req.redist: 

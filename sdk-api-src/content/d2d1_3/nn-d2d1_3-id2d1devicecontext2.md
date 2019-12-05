@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1_3.ID2D1DeviceContext2
 title: ID2D1DeviceContext2 (d2d1_3.h)
-
 description: This interface performs all the same functions as the ID2D1DeviceContext1 interface, plus it enables functionality such as ink rendering, gradient mesh rendering, and improved image loading.
 old-location: direct2d\id2d1devicecontext2.htm
 tech.root: Direct2D
 ms.assetid: 25c11cfc-75af-20a1-8f54-6b370942b841
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1DeviceContext2, ID2D1DeviceContext2 interface [Direct2D], ID2D1DeviceContext2 interface [Direct2D],described, d2d1_3/ID2D1DeviceContext2, direct2d.id2d1devicecontext2
 ms.topic: interface
-f1_keywords: 
- - "d2d1_3/ID2D1DeviceContext2"
+f1_keywords:
+- d2d1_3/ID2D1DeviceContext2
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.lib
- - D2d1.dll
+- D2d1.lib
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext2
+- ID2D1DeviceContext2
 targetos: Windows
 req.typenames: 
 req.redist: 

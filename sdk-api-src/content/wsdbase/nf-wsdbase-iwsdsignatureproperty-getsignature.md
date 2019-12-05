@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.IWSDSignatureProperty.GetSignature
 title: IWSDSignatureProperty::GetSignature (wsdbase.h)
-
 description: Gets the signature of a message.
 old-location: ncd\iwsdsignatureproperty_getsignature.htm
 tech.root: WsdApi
 ms.assetid: e13df6a4-f51f-4453-8482-563ff7c398c3
-
 ms.date: 12/05/2018
 ms.keywords: GetSignature, GetSignature method, GetSignature method,IWSDSignatureProperty interface, IWSDSignatureProperty interface,GetSignature method, IWSDSignatureProperty.GetSignature, IWSDSignatureProperty::GetSignature, ncd.iwsdsignatureproperty_getsignature, wsdbase/IWSDSignatureProperty::GetSignature
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDSignatureProperty.GetSignature"
+f1_keywords:
+- wsdbase/IWSDSignatureProperty.GetSignature
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wsdapi.dll
+- wsdapi.dll
 api_name:
- - IWSDSignatureProperty.GetSignature
+- IWSDSignatureProperty.GetSignature
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IConsole2.SetStatusText
 title: IConsole2::SetStatusText (mmc.h)
-
 description: The IConsole2::SetStatusText method enables the snap-in to change the text in the status bar. Be aware that this is used only by instances of IComponent.
 old-location: mmc\iconsole2_setstatustext.htm
 tech.root: mmc
 ms.assetid: 31c95dcc-8bb8-4a11-9977-d4fa2ca30992
-
 ms.date: 12/05/2018
 ms.keywords: IConsole2 interface [MMC],SetStatusText method, IConsole2.SetStatusText, IConsole2::SetStatusText, SetStatusText, SetStatusText method [MMC], SetStatusText method [MMC],IConsole2 interface, _slate_iconsole2_setstatustext, mmc.iconsole2_setstatustext, mmc/IConsole2::SetStatusText
 ms.topic: method
-f1_keywords: 
- - "mmc/IConsole2.SetStatusText"
+f1_keywords:
+- mmc/IConsole2.SetStatusText
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IConsole2.SetStatusText
+- IConsole2.SetStatusText
 targetos: Windows
 req.typenames: 
 req.redist: 

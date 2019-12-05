@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.ITraceDataCollector.put_ClockType
 title: ITraceDataCollector::put_ClockType (pla.h)
-
 description: Retrieves or sets the clock resolution to use when logging the time stamp for each event.
 old-location: pla\itracedatacollector_clocktype.htm
 tech.root: PLA
 ms.assetid: 8c62d441-01c5-4fca-a802-41c7328a22e9
-
 ms.date: 12/05/2018
 ms.keywords: ClockType property [PLA], ClockType property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],ClockType property, ITraceDataCollector.ClockType, ITraceDataCollector.put_ClockType, ITraceDataCollector::ClockType, ITraceDataCollector::get_ClockType, ITraceDataCollector::put_ClockType, base.itracedatacollector_clocktype, pla.itracedatacollector_clocktype, pla/ITraceDataCollector::ClockType, pla/ITraceDataCollector::get_ClockType, pla/ITraceDataCollector::put_ClockType, put_ClockType
 ms.topic: method
-f1_keywords: 
- - "pla/ITraceDataCollector.ClockType"
+f1_keywords:
+- pla/ITraceDataCollector.ClockType
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ITraceDataCollector.ClockType
- - ITraceDataCollector.get_ClockType
- - ITraceDataCollector.put_ClockType
+- ITraceDataCollector.ClockType
+- ITraceDataCollector.get_ClockType
+- ITraceDataCollector.put_ClockType
 targetos: Windows
 req.typenames: 
 req.redist: 

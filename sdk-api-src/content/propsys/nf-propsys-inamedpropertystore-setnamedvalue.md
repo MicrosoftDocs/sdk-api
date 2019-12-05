@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.INamedPropertyStore.SetNamedValue
 title: INamedPropertyStore::SetNamedValue (propsys.h)
-
 description: Sets the value of a named property.
 old-location: shell\INamedPropertyStore_SetNamedValue.htm
 tech.root: shell
 ms.assetid: e1ccf53f-3117-45c2-a0ff-94f1bb084414
-
 ms.date: 12/05/2018
 ms.keywords: INamedPropertyStore interface [Windows Shell],SetNamedValue method, INamedPropertyStore.SetNamedValue, INamedPropertyStore::SetNamedValue, SetNamedValue, SetNamedValue method [Windows Shell], SetNamedValue method [Windows Shell],INamedPropertyStore interface, _shell_INamedPropertyStore_SetNamedValue, propsys/INamedPropertyStore::SetNamedValue, shell.INamedPropertyStore_SetNamedValue
 ms.topic: method
-f1_keywords: 
- - "propsys/INamedPropertyStore.SetNamedValue"
+f1_keywords:
+- propsys/INamedPropertyStore.SetNamedValue
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - INamedPropertyStore.SetNamedValue
+- INamedPropertyStore.SetNamedValue
 targetos: Windows
 req.typenames: 
 req.redist: 

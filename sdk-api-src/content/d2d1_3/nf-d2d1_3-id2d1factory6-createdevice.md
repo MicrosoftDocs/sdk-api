@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1Factory6.CreateDevice
 title: ID2D1Factory6::CreateDevice (d2d1_3.h)
-
 description: Creates a new Direct2D device from the given IDXGIDevice.
 old-location: direct2d\id2d1factory6_createdevice.htm
 tech.root: Direct2D
 ms.assetid: 980F35D2-7BAB-4F6B-B75B-9582A3CCCAEB
-
 ms.date: 12/05/2018
 ms.keywords: CreateDevice, CreateDevice method [Direct2D], CreateDevice method [Direct2D],ID2D1Factory6 interface, ID2D1Factory6 interface [Direct2D],CreateDevice method, ID2D1Factory6.CreateDevice, ID2D1Factory6::CreateDevice, d2d1_3/ID2D1Factory6::CreateDevice, direct2d.id2d1factory6_createdevice
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1Factory6.CreateDevice"
+f1_keywords:
+- d2d1_3/ID2D1Factory6.CreateDevice
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Factory6.CreateDevice
+- ID2D1Factory6.CreateDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

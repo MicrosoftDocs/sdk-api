@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetVarHelpContext
 title: ICreateTypeInfo::SetVarHelpContext (oaidl.h)
-
 description: Sets the Help context ID for the variable with the specified index.
 old-location: automat\icreatetypeinfo_setvarhelpcontext.htm
 tech.root: automat
 ms.assetid: ab15e7fc-63fa-433f-9191-c7087143a7c1
-
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetVarHelpContext method, ICreateTypeInfo.SetVarHelpContext, ICreateTypeInfo::SetVarHelpContext, SetVarHelpContext, SetVarHelpContext method [Automation], SetVarHelpContext method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetVarHelpContext, automat.icreatetypeinfo_setvarhelpcontext, oaidl/ICreateTypeInfo::SetVarHelpContext
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeInfo.SetVarHelpContext"
+f1_keywords:
+- oaidl/ICreateTypeInfo.SetVarHelpContext
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeInfo.SetVarHelpContext
+- ICreateTypeInfo.SetVarHelpContext
 targetos: Windows
 req.typenames: 
 req.redist: 

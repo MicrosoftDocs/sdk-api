@@ -1,19 +1,17 @@
 ---
 UID: NC:ddrawint.PDD_VPORTCB_GETFLIPSTATUS
 title: PDD_VPORTCB_GETFLIPSTATUS (ddrawint.h)
-
 description: The DdVideoPortGetFlipStatus callback function determines whether the most recently requested flip on a surface has occurred.
 old-location: display\ddvideoportgetflipstatus.htm
 tech.root: display
 ms.assetid: 67a7aa80-2201-4bb7-919b-dd9ca1228f06
-
 ms.date: 12/05/2018
 ms.keywords: DdVideoPortGetFlipStatus, DdVideoPortGetFlipStatus callback function [Display Devices], PDD_VPORTCB_GETFLIPSTATUS, PDD_VPORTCB_GETFLIPSTATUS callback, ddfncs_b5004bc9-0486-40b0-9be0-b17b10b0241a.xml, ddrawint/DdVideoPortGetFlipStatus, display.ddvideoportgetflipstatus
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdVideoPortGetFlipStatus
 dev_langs:
- - c++
+- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

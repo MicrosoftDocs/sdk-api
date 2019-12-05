@@ -1,19 +1,17 @@
 ---
 UID: NF:sdoias.ISdo.Apply
 title: ISdo::Apply (sdoias.h)
-
 description: The Apply method writes to persistent storage the changes made by calls to the ISdo::PutProperty method.
 old-location: nps\SDO_isdo_apply.htm
 tech.root: Nps
 ms.assetid: aceca2f9-7b17-46a5-bcd1-e6fec3c369ed
-
 ms.date: 12/05/2018
 ms.keywords: Apply, Apply method [Network Policy Server], Apply method [Network Policy Server],ISdo interface, ISdo interface [Network Policy Server],Apply method, ISdo.Apply, ISdo::Apply, _sdo_isdo_apply, nps.SDO_isdo_apply, sdo.isdo_apply, sdoias/ISdo::Apply
 ms.topic: method
-f1_keywords: 
- - "sdoias/ISdo.Apply"
+f1_keywords:
+- sdoias/ISdo.Apply
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Iassdo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Iassdo.dll
+- Iassdo.dll
 api_name:
- - ISdo.Apply
+- ISdo.Apply
 targetos: Windows
 req.typenames: 
 req.redist: 

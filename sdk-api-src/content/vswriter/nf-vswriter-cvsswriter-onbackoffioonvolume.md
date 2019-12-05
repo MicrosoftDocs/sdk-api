@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.CVssWriter.OnBackOffIOOnVolume
 title: CVssWriter::OnBackOffIOOnVolume (vswriter.h)
-
 description: Not supported.
 old-location: base\cvsswriter_onbackoffioonvolume.htm
 tech.root: VSS
 ms.assetid: 64aaae49-1d78-48ba-a38f-cab2ef2c4271
-
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnBackOffIOOnVolume method, CVssWriter.OnBackOffIOOnVolume, CVssWriter::OnBackOffIOOnVolume, OnBackOffIOOnVolume, OnBackOffIOOnVolume method [VSS], OnBackOffIOOnVolume method [VSS],CVssWriter interface, _win32_cvsswriter_onbackoffioonvolume, base.cvsswriter_onbackoffioonvolume, vswriter/CVssWriter::OnBackOffIOOnVolume
 ms.topic: method
-f1_keywords: 
- - "vswriter/CVssWriter.OnBackOffIOOnVolume"
+f1_keywords:
+- vswriter/CVssWriter.OnBackOffIOOnVolume
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - CVssWriter.OnBackOffIOOnVolume
+- CVssWriter.OnBackOffIOOnVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

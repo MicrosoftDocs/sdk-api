@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IProgressItems.get_Item
 title: IProgressItems::get_Item (imapi2fs.h)
-
 description: Retrieves the specified progress item from the collection.
 old-location: imapi\iprogressitems_get_item.htm
 tech.root: imapi
 ms.assetid: 74d8e74d-0af6-457a-a16b-f959757b5a86
-
 ms.date: 12/05/2018
 ms.keywords: IProgressItems interface [IMAPI],get_Item method, IProgressItems.get_Item, IProgressItems::get_Item, get_Item, get_Item method [IMAPI], get_Item method [IMAPI],IProgressItems interface, imapi.iprogressitems_get_item, imapi2fs/IProgressItems::get_Item
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IProgressItems.get_Item"
+f1_keywords:
+- imapi2fs/IProgressItems.get_Item
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IProgressItems.get_Item
+- IProgressItems.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

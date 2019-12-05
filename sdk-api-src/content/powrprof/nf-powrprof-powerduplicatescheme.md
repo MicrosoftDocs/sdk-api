@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.PowerDuplicateScheme
 title: PowerDuplicateScheme function (powrprof.h)
-
 description: Duplicates an existing power scheme.
 old-location: base\powerduplicatescheme.htm
 tech.root: power
 ms.assetid: e58dee69-309c-4b52-bf28-f54b300801b9
-
 ms.date: 12/05/2018
 ms.keywords: PowerDuplicateScheme, PowerDuplicateScheme function, base.powerduplicatescheme, powrprof/PowerDuplicateScheme
 ms.topic: function
-f1_keywords: 
- - "powrprof/PowerDuplicateScheme"
+f1_keywords:
+- powrprof/PowerDuplicateScheme
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - PowerDuplicateScheme
+- PowerDuplicateScheme
 targetos: Windows
 req.typenames: 
 req.redist: 

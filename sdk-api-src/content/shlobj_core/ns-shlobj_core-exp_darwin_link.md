@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_2
 title: EXP_DARWIN_LINK (shlobj_core.h)
-
 description: Holds an extra data block used by IShellLinkDataList. It holds the link's Windows Installer ID.
 old-location: shell\EXP_DARWIN_LINK_str.htm
 tech.root: shell
 ms.assetid: 016c539e-6035-4752-99b6-71e2d7199bf0
-
 ms.date: 12/05/2018
-ms.keywords: "*LPEXP_DARWIN_LINK, EXP_DARWIN_ID_SIG, EXP_DARWIN_LINK, EXP_DARWIN_LINK structure [Windows Shell], LPEXP_DARWIN_LINK, LPEXP_DARWIN_LINK structure pointer [Windows Shell], _win32_EXP_DARWIN_LINK_str, shell.EXP_DARWIN_LINK_str, shlobj_core/EXP_DARWIN_LINK, shlobj_core/LPEXP_DARWIN_LINK"
+ms.keywords: '*LPEXP_DARWIN_LINK, EXP_DARWIN_ID_SIG, EXP_DARWIN_LINK, EXP_DARWIN_LINK structure [Windows Shell], LPEXP_DARWIN_LINK, LPEXP_DARWIN_LINK structure pointer [Windows Shell], _win32_EXP_DARWIN_LINK_str, shell.EXP_DARWIN_LINK_str, shlobj_core/EXP_DARWIN_LINK, shlobj_core/LPEXP_DARWIN_LINK'
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/EXP_DARWIN_LINK"
+f1_keywords:
+- shlobj_core/EXP_DARWIN_LINK
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - EXP_DARWIN_LINK
+- EXP_DARWIN_LINK
 targetos: Windows
 req.typenames: EXP_DARWIN_LINK, *LPEXP_DARWIN_LINK
 req.redist: 

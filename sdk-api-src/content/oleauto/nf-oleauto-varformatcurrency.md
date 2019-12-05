@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarFormatCurrency
 title: VarFormatCurrency function (oleauto.h)
-
 description: Formats a variant containing currency values into a string form.
 old-location: automat\varformatcurrency.htm
 tech.root: automat
 ms.assetid: a0ad0c42-1b61-4421-9ea6-a256812bb342
-
 ms.date: 12/05/2018
 ms.keywords: VarFormatCurrency, VarFormatCurrency function [Automation], _oa96_VarFormatCurrency, automat.varformatcurrency, oleauto/VarFormatCurrency
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarFormatCurrency"
+f1_keywords:
+- oleauto/VarFormatCurrency
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarFormatCurrency
+- VarFormatCurrency
 targetos: Windows
 req.typenames: 
 req.redist: 

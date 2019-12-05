@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.SetFormattedText
 title: ITextRange::SetFormattedText (tom.h)
-
 description: Sets the formatted text of this range text to the formatted text of the specified range.
 old-location: controls\ITextRange_SetFormattedText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setformattedtext.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],SetFormattedText method, ITextRange.SetFormattedText, ITextRange::SetFormattedText, SetFormattedText, SetFormattedText method [Windows Controls], SetFormattedText method [Windows Controls],ITextRange interface, _win32_ITextRange_SetFormattedText, _win32_ITextRange_SetFormattedText_cpp, controls.ITextRange_SetFormattedText, controls._win32_ITextRange_SetFormattedText, tom/ITextRange::SetFormattedText
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.SetFormattedText"
+f1_keywords:
+- tom/ITextRange.SetFormattedText
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.SetFormattedText
+- ITextRange.SetFormattedText
 targetos: Windows
 req.typenames: 
 req.redist: 

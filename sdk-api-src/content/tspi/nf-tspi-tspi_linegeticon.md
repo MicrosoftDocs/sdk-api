@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineGetIcon
 title: TSPI_lineGetIcon function (tspi.h)
-
 description: The TSPI_lineGetIcon function retrieves a service line device-specific icon to display to the user.
 old-location: tspi\tspi_linegeticon.htm
 tech.root: Tapi
 ms.assetid: 0fa8a030-1b56-4d14-affd-ba1574696a3c
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetIcon, TSPI_lineGetIcon function [TAPI 2.2], _tspi_tspi_linegeticon, tspi.tspi_linegeticon, tspi/TSPI_lineGetIcon
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineGetIcon"
+f1_keywords:
+- tspi/TSPI_lineGetIcon
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineGetIcon
+- TSPI_lineGetIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

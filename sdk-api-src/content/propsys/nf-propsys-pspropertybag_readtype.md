@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadType
 title: PSPropertyBag_ReadType function (propsys.h)
-
 description: Reads the type of data value of a property that is stored in a property bag.
 old-location: properties\PSPropertyBag_ReadType.htm
 tech.root: properties
 ms.assetid: 826038F7-FD93-474e-BCA7-910E214F3E01
-
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadType, PSPropertyBag_ReadType function [Windows Properties], properties.PSPropertyBag_ReadType, propsys/PSPropertyBag_ReadType, shell.PSPropertyBag_ReadType, shell_PSPropertyBag_ReadType
 ms.topic: function
-f1_keywords: 
- - "propsys/PSPropertyBag_ReadType"
+f1_keywords:
+- propsys/PSPropertyBag_ReadType
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSPropertyBag_ReadType
+- PSPropertyBag_ReadType
 targetos: Windows
 req.typenames: 
 req.redist: 

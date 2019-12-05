@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRImagePresenter9.StartPresenting
 title: IVMRImagePresenter9::StartPresenting (vmr9.h)
-
 description: The StartPresenting method is called just before the video starts playing. The allocator-presenter should perform any necessary configuration in this method.
 old-location: dshow\ivmrimagepresenter9_startpresenting.htm
 tech.root: DirectShow
 ms.assetid: 654ac7eb-d6ea-4b9a-8dfb-7ba7bc7e8429
-
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenter9 interface [DirectShow],StartPresenting method, IVMRImagePresenter9.StartPresenting, IVMRImagePresenter9::StartPresenting, IVMRImagePresenter9StartPresenting, StartPresenting, StartPresenting method [DirectShow], StartPresenting method [DirectShow],IVMRImagePresenter9 interface, dshow.ivmrimagepresenter9_startpresenting, vmr9/IVMRImagePresenter9::StartPresenting
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRImagePresenter9.StartPresenting"
+f1_keywords:
+- vmr9/IVMRImagePresenter9.StartPresenting
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRImagePresenter9.StartPresenting
+- IVMRImagePresenter9.StartPresenting
 targetos: Windows
 req.typenames: 
 req.redist: 

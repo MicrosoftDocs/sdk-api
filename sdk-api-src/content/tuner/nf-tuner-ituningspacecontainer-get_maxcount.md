@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.get_MaxCount
 title: ITuningSpaceContainer::get_MaxCount (tuner.h)
-
 description: The get_MaxCount method retrieves the maximum number of tuning spaces allowed on the system.
 old-location: mstv\ituningspacecontainer_get_maxcount.htm
 tech.root: mstv
 ms.assetid: 72692bc6-a210-4e60-9c04-14a7ea531cb4
-
 ms.date: 12/05/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get_MaxCount method, ITuningSpaceContainer.get_MaxCount, ITuningSpaceContainer::get_MaxCount, ITuningSpaceContainerget_MaxCount, get_MaxCount, get_MaxCount method [Microsoft TV Technologies], get_MaxCount method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get_maxcount, tuner/ITuningSpaceContainer::get_MaxCount
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuningSpaceContainer.get_MaxCount"
+f1_keywords:
+- tuner/ITuningSpaceContainer.get_MaxCount
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuningSpaceContainer.get_MaxCount
+- ITuningSpaceContainer.get_MaxCount
 targetos: Windows
 req.typenames: 
 req.redist: 

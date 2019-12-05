@@ -1,19 +1,17 @@
 ---
 UID: NN:mpeg2data.ISectionList
 title: ISectionList (mpeg2data.h)
-
 description: The ISectionList interface represents a list of MPEG-2 table sections.
 old-location: mstv\isectionlist.htm
 tech.root: mstv
 ms.assetid: eb6d31b4-ee4a-468f-9e58-115159095858
-
 ms.date: 12/05/2018
 ms.keywords: ISectionList, ISectionList interface [Microsoft TV Technologies], ISectionList interface [Microsoft TV Technologies],described, ISectionListInterface, mpeg2data/ISectionList, mstv.isectionlist
 ms.topic: interface
-f1_keywords: 
- - "mpeg2data/ISectionList"
+f1_keywords:
+- mpeg2data/ISectionList
 dev_langs:
- - c++
+- c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2data.h
+- Mpeg2data.h
 api_name:
- - ISectionList
+- ISectionList
 targetos: Windows
 req.typenames: 
 req.redist: 

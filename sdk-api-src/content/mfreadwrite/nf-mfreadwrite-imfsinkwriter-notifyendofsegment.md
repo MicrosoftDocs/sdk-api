@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.NotifyEndOfSegment
 title: IMFSinkWriter::NotifyEndOfSegment (mfreadwrite.h)
-
 description: Notifies the media sink that a stream has reached the end of a segment.
 old-location: mf\imfsinkwriter_notifyendofsegment.htm
 tech.root: medfound
 ms.assetid: cb5b76b4-ff08-4cac-bd30-d4f3b57acb78
-
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriter interface [Media Foundation],NotifyEndOfSegment method, IMFSinkWriter.NotifyEndOfSegment, IMFSinkWriter::NotifyEndOfSegment, NotifyEndOfSegment, NotifyEndOfSegment method [Media Foundation], NotifyEndOfSegment method [Media Foundation],IMFSinkWriter interface, mf.imfsinkwriter_notifyendofsegment, mfreadwrite/IMFSinkWriter::NotifyEndOfSegment
 ms.topic: method
-f1_keywords: 
- - "mfreadwrite/IMFSinkWriter.NotifyEndOfSegment"
+f1_keywords:
+- mfreadwrite/IMFSinkWriter.NotifyEndOfSegment
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSinkWriter.NotifyEndOfSegment
+- IMFSinkWriter.NotifyEndOfSegment
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:mapi.MAPIDELETEMAIL
 title: MAPIDELETEMAIL (mapi.h)
-
 description: The MAPIDeleteMail function deletes a message.
 old-location: mapi\mapideletemail.htm
 tech.root: WindowsMAPI
 ms.assetid: b149ef88-de0e-4a99-9150-7250d2b9540a
-
 ms.date: 12/05/2018
 ms.keywords: MAPIDeleteMail, MAPIDeleteMail callback, MAPIDeleteMail callback function, mapi.mapideletemail, mapi/MAPIDeleteMail
 ms.topic: callback
-f1_keywords: 
- - "mapi/MAPIDeleteMail"
+f1_keywords:
+- mapi/MAPIDeleteMail
 dev_langs:
- - c++
+- c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mapi.h
+- Mapi.h
 api_name:
- - MAPIDeleteMail
+- MAPIDeleteMail
 targetos: Windows
 req.typenames: 
 req.redist: 

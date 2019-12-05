@@ -1,19 +1,17 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointRT.SetPinActive
 title: IAudioEndpointRT::SetPinActive (audioengineendpoint.h)
-
 description: Notifies the endpoint that it must change the state of the underlying streaming resources to an active state.
 old-location: termserv\iaudioendpointrt_setpinactive.htm
 tech.root: TermServ
 ms.assetid: 6c445b06-d576-4474-be8f-b984c43d3765
-
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointRT interface [Remote Desktop Services],SetPinActive method, IAudioEndpointRT.SetPinActive, IAudioEndpointRT::SetPinActive, SetPinActive, SetPinActive method [Remote Desktop Services], SetPinActive method [Remote Desktop Services],IAudioEndpointRT interface, audioengineendpoint/IAudioEndpointRT::SetPinActive, termserv.iaudioendpointrt_setpinactive
 ms.topic: method
-f1_keywords: 
- - "audioengineendpoint/IAudioEndpointRT.SetPinActive"
+f1_keywords:
+- audioengineendpoint/IAudioEndpointRT.SetPinActive
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioengineendpoint.h
+- Audioengineendpoint.h
 api_name:
- - IAudioEndpointRT.SetPinActive
+- IAudioEndpointRT.SetPinActive
 targetos: Windows
 req.typenames: 
 req.redist: 

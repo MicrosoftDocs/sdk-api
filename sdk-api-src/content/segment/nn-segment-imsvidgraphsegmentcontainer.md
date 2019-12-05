@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidGraphSegmentContainer
 title: IMSVidGraphSegmentContainer (segment.h)
-
 description: The IMSVidGraphSegmentContainer interface is exposed by the Video Control and contains one supported method, get_Graph, which obtains a pointer to the Filter Graph Manager.
 old-location: mstv\imsvidgraphsegmentcontainer.htm
 tech.root: mstv
 ms.assetid: a314693f-8fc2-4816-b64b-d5f8886da39e
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidGraphSegmentContainer, IMSVidGraphSegmentContainer interface [Microsoft TV Technologies], IMSVidGraphSegmentContainer interface [Microsoft TV Technologies],described, IMSVidGraphSegmentContainerInterface, mstv.imsvidgraphsegmentcontainer, segment/IMSVidGraphSegmentContainer
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidGraphSegmentContainer"
+f1_keywords:
+- segment/IMSVidGraphSegmentContainer
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidGraphSegmentContainer
+- IMSVidGraphSegmentContainer
 targetos: Windows
 req.typenames: 
 req.redist: 

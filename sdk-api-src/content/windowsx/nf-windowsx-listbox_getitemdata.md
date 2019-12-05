@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ListBox_GetItemData
 title: ListBox_GetItemData macro (windowsx.h)
-
 description: Gets the application-defined value associated with the specified list box item. You can use this macro or send the LB_GETITEMDATA message explicitly.
 old-location: controls\ListBox_GetItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getitemdata.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListBox_GetItemData, ListBox_GetItemData macro [Windows Controls], _win32_ListBox_GetItemData, _win32_ListBox_GetItemData_cpp, controls.ListBox_GetItemData, controls._win32_ListBox_GetItemData, windowsx/ListBox_GetItemData
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ListBox_GetItemData"
+f1_keywords:
+- windowsx/ListBox_GetItemData
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ListBox_GetItemData
+- ListBox_GetItemData
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteTextLayout3.GetLineMetrics
 title: IDWriteTextLayout3::GetLineMetrics (dwrite_3.h)
-
 description: Retrieves properties of each line.
 old-location: directwrite\idwritetextlayout3_getlinemetrics.htm
 tech.root: DirectWrite
 ms.assetid: 352ca3e3-7b08-823c-0881-0b051d4ce574
-
 ms.date: 12/05/2018
 ms.keywords: GetLineMetrics, GetLineMetrics method [Direct Write], GetLineMetrics method [Direct Write],IDWriteTextLayout3 interface, IDWriteTextLayout3 interface [Direct Write],GetLineMetrics method, IDWriteTextLayout3.GetLineMetrics, IDWriteTextLayout3::GetLineMetrics, directwrite.idwritetextlayout3_getlinemetrics, dwrite_3/IDWriteTextLayout3::GetLineMetrics
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteTextLayout3.GetLineMetrics"
+f1_keywords:
+- dwrite_3/IDWriteTextLayout3.GetLineMetrics
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout3.GetLineMetrics
+- IDWriteTextLayout3.GetLineMetrics
 targetos: Windows
 req.typenames: 
 req.redist: 

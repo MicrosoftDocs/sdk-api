@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.ITfFnGetSAPIObject.Get
 title: ITfFnGetSAPIObject::Get (ctffunc.h)
-
 description: ITfFnGetSAPIObject::Get method
 old-location: tsf\itffngetsapiobject_get.htm
 tech.root: TSF
 ms.assetid: 4dfa2bd2-e25c-4481-ab07-2f764434504d
-
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [Text Services Framework], Get method [Text Services Framework],ITfFnGetSAPIObject interface, ITfFnGetSAPIObject interface [Text Services Framework],Get method, ITfFnGetSAPIObject.Get, ITfFnGetSAPIObject::Get, _tsf_itffngetsapiobject_get_ref, ctffunc/ITfFnGetSAPIObject::Get, tsf.itffngetsapiobject_get
 ms.topic: method
-f1_keywords: 
- - "ctffunc/ITfFnGetSAPIObject.Get"
+f1_keywords:
+- ctffunc/ITfFnGetSAPIObject.Get
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfFnGetSAPIObject.Get
+- ITfFnGetSAPIObject.Get
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

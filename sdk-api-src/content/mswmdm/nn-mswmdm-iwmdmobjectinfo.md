@@ -1,19 +1,17 @@
 ---
 UID: NN:mswmdm.IWMDMObjectInfo
 title: IWMDMObjectInfo (mswmdm.h)
-
 description: The IWMDMObjectInfo interface gets and sets information that controls how playable files on device are handled by the IWMDMDeviceControl interface.This interface is not intended for non-playable files.
 old-location: wmdm\iwmdmobjectinfo.htm
 tech.root: WMDM
 ms.assetid: ebc6ad10-02c1-4cc9-8a09-d1fe7aef146a
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMObjectInfo, IWMDMObjectInfo interface [windows Media Device Manager], IWMDMObjectInfo interface [windows Media Device Manager],described, IWMDMObjectInfoInterface, mswmdm/IWMDMObjectInfo, wmdm.iwmdmobjectinfo
 ms.topic: interface
-f1_keywords: 
- - "mswmdm/IWMDMObjectInfo"
+f1_keywords:
+- mswmdm/IWMDMObjectInfo
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mswmdm.h
+- mswmdm.h
 api_name:
- - IWMDMObjectInfo
+- IWMDMObjectInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

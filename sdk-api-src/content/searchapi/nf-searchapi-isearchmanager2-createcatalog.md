@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchManager2.CreateCatalog
 title: ISearchManager2::CreateCatalog (searchapi.h)
-
 description: Creates a new custom catalog in the Windows Search indexer and returns a reference to it.
 old-location: search\isearchmanager2_createcatalog.htm
 tech.root: search
 ms.assetid: 2ADC48B8-87A2-4527-9AA8-9B0BA3A12462
-
 ms.date: 12/05/2018
 ms.keywords: CreateCatalog, CreateCatalog method [search], CreateCatalog method [search],ISearchManager2 interface, ISearchManager2 interface [search],CreateCatalog method, ISearchManager2.CreateCatalog, ISearchManager2::CreateCatalog, search.isearchmanager2_createcatalog, searchapi/ISearchManager2::CreateCatalog
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchManager2.CreateCatalog"
+f1_keywords:
+- searchapi/ISearchManager2.CreateCatalog
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - searchapi.h
+- searchapi.h
 api_name:
- - ISearchManager2.CreateCatalog
+- ISearchManager2.CreateCatalog
 targetos: Windows
 req.typenames: 
 req.redist: 

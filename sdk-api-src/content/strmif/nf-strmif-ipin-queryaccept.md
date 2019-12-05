@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IPin.QueryAccept
 title: IPin::QueryAccept (strmif.h)
-
 description: The QueryAccept method determines whether the pin accepts a specified media type.
 old-location: dshow\ipin_queryaccept.htm
 tech.root: DirectShow
 ms.assetid: ed11eeef-464b-4a75-958b-2bc6dbc7af04
-
 ms.date: 12/05/2018
 ms.keywords: IPin interface [DirectShow],QueryAccept method, IPin.QueryAccept, IPin::QueryAccept, IPinQueryAccept, QueryAccept, QueryAccept method [DirectShow], QueryAccept method [DirectShow],IPin interface, dshow.ipin_queryaccept, strmif/IPin::QueryAccept
 ms.topic: method
-f1_keywords: 
- - "strmif/IPin.QueryAccept"
+f1_keywords:
+- strmif/IPin.QueryAccept
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IPin.QueryAccept
+- IPin.QueryAccept
 targetos: Windows
 req.typenames: 
 req.redist: 

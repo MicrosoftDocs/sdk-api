@@ -1,19 +1,17 @@
 ---
 UID: NF:schannel.SslGetServerIdentity
 title: SslGetServerIdentity function (schannel.h)
-
 description: Gets the identity of the server.
 old-location: security\sslgetserveridentity.htm
 tech.root: SecAuthN
 ms.assetid: 5FA7A0F5-187F-4CE6-AD62-44B71A40568D
-
 ms.date: 12/05/2018
 ms.keywords: SslGetServerIdentity, SslGetServerIdentity function [Security], schannel/SslGetServerIdentity, security.sslgetserveridentity
 ms.topic: function
-f1_keywords: 
- - "schannel/SslGetServerIdentity"
+f1_keywords:
+- schannel/SslGetServerIdentity
 dev_langs:
- - c++
+- c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Schannel.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Schannel.dll
+- Schannel.dll
 api_name:
- - SslGetServerIdentity
+- SslGetServerIdentity
 targetos: Windows
 req.typenames: 
 req.redist: 

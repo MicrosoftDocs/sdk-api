@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_Interface_Property_KeysW
 title: CM_Get_Device_Interface_Property_KeysW function (cfgmgr32.h)
-
 description: The CM_Get_Device_Interface_Property_Keys function retrieves an array of device property keys that represent the device properties that are set for a device interface.
 old-location: devinst\cm_get_device_interface_property_keys.htm
 tech.root: devinst
 ms.assetid: 0C0FE652-57DE-45DE-B1F2-84EB1BD14285
-
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Device_Interface_Property_Keys, CM_Get_Device_Interface_Property_Keys function [Device and Driver Installation], CM_Get_Device_Interface_Property_KeysW, cfgmgr32/CM_Get_Device_Interface_Property_Keys, cfgmgr32/CM_Get_Device_Interface_Property_KeysW, devinst.cm_get_device_interface_property_keys
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Get_Device_Interface_Property_Keys"
+f1_keywords:
+- cfgmgr32/CM_Get_Device_Interface_Property_Keys
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -32,19 +30,19 @@ req.lib: Cfgmgr32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.lib
- - Cfgmgr32.dll
- - API-Ms-Win-Devices-Config-L1-1-0.dll
- - API-Ms-Win-Devices-Config-L1-1-1.dll
- - CfgMgr32.dll
+- Cfgmgr32.lib
+- Cfgmgr32.dll
+- API-Ms-Win-Devices-Config-L1-1-0.dll
+- API-Ms-Win-Devices-Config-L1-1-1.dll
+- CfgMgr32.dll
 api_name:
- - CM_Get_Device_Interface_Property_Keys
- - CM_Get_Device_Interface_Property_KeysW
+- CM_Get_Device_Interface_Property_Keys
+- CM_Get_Device_Interface_Property_KeysW
 targetos: Windows
 req.typenames: 
 req.redist: 

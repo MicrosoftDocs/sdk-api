@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationContent.GetTag
 title: IDirectManipulationContent::GetTag (directmanipulation.h)
-
 description: Retrieves the tag object set on this content.
 old-location: directmanipulation\idirectmanipulationcontent_gettag.htm
 tech.root: directmanipulation
 ms.assetid: 11acda14-3932-43e4-b45e-e129886c354f
-
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Direct Manipulation], GetTag method [Direct Manipulation],IDirectManipulationContent interface, IDirectManipulationContent interface [Direct Manipulation],GetTag method, IDirectManipulationContent.GetTag, IDirectManipulationContent::GetTag, directmanipulation.idirectmanipulationcontent_gettag, directmanipulation/IDirectManipulationContent::GetTag
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationContent.GetTag"
+f1_keywords:
+- directmanipulation/IDirectManipulationContent.GetTag
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationContent.GetTag
+- IDirectManipulationContent.GetTag
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Edit_HideBalloonTip
 title: Edit_HideBalloonTip macro (commctrl.h)
-
 description: Hides any balloon tip associated with an edit control. You can use this macro or send the EM_HIDEBALLOONTIP message explicitly.
 old-location: controls\Edit_HideBalloonTip.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_hideballoontip.htm
-
 ms.date: 12/05/2018
 ms.keywords: Edit_HideBalloonTip, Edit_HideBalloonTip macro [Windows Controls], _win32_Edit_HideBalloonTip, _win32_Edit_HideBalloonTip_cpp, commctrl/Edit_HideBalloonTip, controls.Edit_HideBalloonTip, controls._win32_Edit_HideBalloonTip
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Edit_HideBalloonTip"
+f1_keywords:
+- commctrl/Edit_HideBalloonTip
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Edit_HideBalloonTip
+- Edit_HideBalloonTip
 targetos: Windows
 req.typenames: 
 req.redist: 

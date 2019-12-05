@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.lstrcmpiW
 title: lstrcmpiW function (winbase.h)
-
 description: Compares two character strings. The comparison is not case-sensitive.
 old-location: menurc\lstrcmpi.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcmpi.htm
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_lstrcmpi, _win32_lstrcmpi_cpp, lstrcmpi, lstrcmpi function [Menus and Other Resources], lstrcmpiA, lstrcmpiW, menurc.lstrcmpi, winbase/lstrcmpi, winbase/lstrcmpiA, winbase/lstrcmpiW, winui._win32_lstrcmpi"
+ms.keywords: _win32_lstrcmpi, _win32_lstrcmpi_cpp, lstrcmpi, lstrcmpi function [Menus and Other Resources], lstrcmpiA, lstrcmpiW, menurc.lstrcmpi, winbase/lstrcmpi, winbase/lstrcmpiA, winbase/lstrcmpiW, winui._win32_lstrcmpi
 ms.topic: function
-f1_keywords: 
- - "winbase/lstrcmpi"
+f1_keywords:
+- winbase/lstrcmpi
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-String-Obsolete-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-String-Obsolete-l1-1-1.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-misc-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-deprecated-apis-Obsolete-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-String-Obsolete-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-String-Obsolete-l1-1-1.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-misc-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-deprecated-apis-Obsolete-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - lstrcmpi
- - lstrcmpiA
- - lstrcmpiW
+- lstrcmpi
+- lstrcmpiA
+- lstrcmpiW
 targetos: Windows
 req.typenames: 
 req.redist: 

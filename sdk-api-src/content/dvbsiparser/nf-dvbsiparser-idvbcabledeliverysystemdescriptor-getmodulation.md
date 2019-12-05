@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbCableDeliverySystemDescriptor.GetModulation
 title: IDvbCableDeliverySystemDescriptor::GetModulation (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbcabledeliverysystemdescriptor_getmodulation.htm
 tech.root: mstv
 ms.assetid: 896c9ff6-8333-4fb4-bd25-fda9d12129e8
-
 ms.date: 12/05/2018
 ms.keywords: GetModulation, GetModulation method [Microsoft TV Technologies], GetModulation method [Microsoft TV Technologies],IDvbCableDeliverySystemDescriptor interface, IDvbCableDeliverySystemDescriptor interface [Microsoft TV Technologies],GetModulation method, IDvbCableDeliverySystemDescriptor.GetModulation, IDvbCableDeliverySystemDescriptor::GetModulation, IDvbCableDeliverySystemDescriptorGetModulation, dvbsiparser/IDvbCableDeliverySystemDescriptor::GetModulation, mstv.idvbcabledeliverysystemdescriptor_getmodulation
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbCableDeliverySystemDescriptor.GetModulation"
+f1_keywords:
+- dvbsiparser/IDvbCableDeliverySystemDescriptor.GetModulation
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbCableDeliverySystemDescriptor.GetModulation
+- IDvbCableDeliverySystemDescriptor.GetModulation
 targetos: Windows
 req.typenames: 
 req.redist: 

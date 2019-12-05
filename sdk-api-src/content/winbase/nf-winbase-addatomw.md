@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.AddAtomW
 title: AddAtomW function (winbase.h)
-
 description: Adds a character string to the local atom table and returns a unique value (an atom) identifying the string.
 old-location: dataxchg\addatom.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\addatom.htm
-
 ms.date: 12/05/2018
 ms.keywords: AddAtom, AddAtom function [Data Exchange], AddAtomA, AddAtomW, _win32_AddAtom, _win32_addatom_cpp, dataxchg.addatom, winbase/AddAtom, winbase/AddAtomA, winbase/AddAtomW, winui._win32_addatom
 ms.topic: function
-f1_keywords: 
- - "winbase/AddAtom"
+f1_keywords:
+- winbase/AddAtom
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-atoms-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-atoms-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - AddAtom
- - AddAtomA
- - AddAtomW
+- AddAtom
+- AddAtomA
+- AddAtomW
 targetos: Windows
 req.typenames: 
 req.redist: 

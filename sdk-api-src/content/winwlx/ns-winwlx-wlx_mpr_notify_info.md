@@ -1,19 +1,17 @@
 ---
 UID: NS:winwlx._WLX_MPR_NOTIFY_INFO
 title: WLX_MPR_NOTIFY_INFO (winwlx.h)
-
 description: Provides identification and authentication information to network providers.
 old-location: security\wlx_mpr_notify_info.htm
 tech.root: SecAuthN
 ms.assetid: 68098b26-c58d-45fb-aebe-780a73cded80
-
 ms.date: 12/05/2018
-ms.keywords: "*PWLX_MPR_NOTIFY_INFO, PWLX_MPR_NOTIFY_INFO, PWLX_MPR_NOTIFY_INFO structure pointer [Security], WLX_MPR_NOTIFY_INFO, WLX_MPR_NOTIFY_INFO structure [Security], _gina_wlx_mpr_notify_info, security.wlx_mpr_notify_info, winwlx/PWLX_MPR_NOTIFY_INFO, winwlx/WLX_MPR_NOTIFY_INFO"
+ms.keywords: '*PWLX_MPR_NOTIFY_INFO, PWLX_MPR_NOTIFY_INFO, PWLX_MPR_NOTIFY_INFO structure pointer [Security], WLX_MPR_NOTIFY_INFO, WLX_MPR_NOTIFY_INFO structure [Security], _gina_wlx_mpr_notify_info, security.wlx_mpr_notify_info, winwlx/PWLX_MPR_NOTIFY_INFO, winwlx/WLX_MPR_NOTIFY_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winwlx/WLX_MPR_NOTIFY_INFO"
+f1_keywords:
+- winwlx/WLX_MPR_NOTIFY_INFO
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winwlx.h
+- Winwlx.h
 api_name:
- - WLX_MPR_NOTIFY_INFO
+- WLX_MPR_NOTIFY_INFO
 targetos: Windows
 req.typenames: WLX_MPR_NOTIFY_INFO, *PWLX_MPR_NOTIFY_INFO
 req.redist: 

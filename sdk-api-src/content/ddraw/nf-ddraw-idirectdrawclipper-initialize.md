@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawClipper.Initialize
 title: IDirectDrawClipper::Initialize (ddraw.h)
-
 description: Initializes a DirectDrawClipper object that was created by using the CoCreateInstance COM function.
 old-location: directdraw\idirectdrawclipper_initialize.htm
 tech.root: directdraw
 ms.assetid: b0b71af4-f806-4264-bd14-b556b31aab29
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawClipper interface [DirectDraw],Initialize method, IDirectDrawClipper.Initialize, IDirectDrawClipper::Initialize, Initialize, Initialize method [DirectDraw], Initialize method [DirectDraw],IDirectDrawClipper interface, ddraw/IDirectDrawClipper::Initialize, directdraw.idirectdrawclipper_initialize
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawClipper.Initialize"
+f1_keywords:
+- ddraw/IDirectDrawClipper.Initialize
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawClipper.Initialize
+- IDirectDrawClipper.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

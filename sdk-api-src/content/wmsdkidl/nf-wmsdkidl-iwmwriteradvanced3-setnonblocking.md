@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced3.SetNonBlocking
 title: IWMWriterAdvanced3::SetNonBlocking (wmsdkidl.h)
-
 description: The SetNonBlocking method configures the writer so that the calling thread is not blocked while writing samples.
 old-location: wmformat\iwmwriteradvanced3_setnonblocking.htm
 tech.root: wmformat
 ms.assetid: 4bec5e6c-5f77-433c-95e0-e3df4dba905c
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriterAdvanced3 interface [windows Media Format],SetNonBlocking method, IWMWriterAdvanced3.SetNonBlocking, IWMWriterAdvanced3::SetNonBlocking, IWMWriterAdvanced3SetNonBlocking, SetNonBlocking, SetNonBlocking method [windows Media Format], SetNonBlocking method [windows Media Format],IWMWriterAdvanced3 interface, wmformat.iwmwriteradvanced3_setnonblocking, wmsdkidl/IWMWriterAdvanced3::SetNonBlocking
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterAdvanced3.SetNonBlocking"
+f1_keywords:
+- wmsdkidl/IWMWriterAdvanced3.SetNonBlocking
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterAdvanced3.SetNonBlocking
+- IWMWriterAdvanced3.SetNonBlocking
 targetos: Windows
 req.typenames: 
 req.redist: 

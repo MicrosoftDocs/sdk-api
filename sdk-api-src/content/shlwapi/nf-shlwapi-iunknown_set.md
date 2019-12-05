@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.IUnknown_Set
 title: IUnknown_Set function (shlwapi.h)
-
 description: Changes the value of a Component Object Model (COM) interface pointer and releases the previous interface.
 old-location: shell\IUnknown_Set.htm
 tech.root: shell
 ms.assetid: b3c4bee2-12cb-483e-9a46-f09d63ae9a2e
-
 ms.date: 12/05/2018
 ms.keywords: IUnknown_Set, IUnknown_Set function [Windows Shell], _win32_IUnknown_Set, shell.IUnknown_Set, shlwapi/IUnknown_Set
 ms.topic: function
-f1_keywords: 
- - "shlwapi/IUnknown_Set"
+f1_keywords:
+- shlwapi/IUnknown_Set
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
- - ShCore.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
- - API-MS-Win-ShCore-comhelpers-l1-1-0.dll
+- Shlwapi.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+- ShCore.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+- API-MS-Win-ShCore-comhelpers-l1-1-0.dll
 api_name:
- - IUnknown_Set
+- IUnknown_Set
 targetos: Windows
 req.typenames: 
 req.redist: 

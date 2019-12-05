@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBTLocator.put_LPInnerFEC
 title: IDVBTLocator::put_LPInnerFEC (tuner.h)
-
 description: The put_LPInnerFEC method sets the inner FEC type of the low-priority stream.
 old-location: mstv\idvbtlocator_put_lpinnerfec.htm
 tech.root: mstv
 ms.assetid: 37b5b063-a0ae-4ef8-a63b-44c009a31eb8
-
 ms.date: 12/05/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],put_LPInnerFEC method, IDVBTLocator.put_LPInnerFEC, IDVBTLocator::put_LPInnerFEC, IDVBTLocatorput_LPInnerFEC, mstv.idvbtlocator_put_lpinnerfec, put_LPInnerFEC, put_LPInnerFEC method [Microsoft TV Technologies], put_LPInnerFEC method [Microsoft TV Technologies],IDVBTLocator interface, tuner/IDVBTLocator::put_LPInnerFEC
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBTLocator.put_LPInnerFEC"
+f1_keywords:
+- tuner/IDVBTLocator.put_LPInnerFEC
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBTLocator.put_LPInnerFEC
+- IDVBTLocator.put_LPInnerFEC
 targetos: Windows
 req.typenames: 
 req.redist: 

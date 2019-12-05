@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.ICertPropertyKeyProvInfo
 title: ICertPropertyKeyProvInfo (certenroll.h)
-
 description: Represents a certificate property that contains information about a private key.
 old-location: security\icertpropertykeyprovinfo.htm
 tech.root: seccertenroll
 ms.assetid: 1c35c2f0-8e79-4031-bae2-2be081f3c8dd
-
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyKeyProvInfo, ICertPropertyKeyProvInfo interface [Security], ICertPropertyKeyProvInfo interface [Security],described, certenroll/ICertPropertyKeyProvInfo, security.icertpropertykeyprovinfo
 ms.topic: interface
-f1_keywords: 
- - "certenroll/ICertPropertyKeyProvInfo"
+f1_keywords:
+- certenroll/ICertPropertyKeyProvInfo
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertPropertyKeyProvInfo
+- ICertPropertyKeyProvInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

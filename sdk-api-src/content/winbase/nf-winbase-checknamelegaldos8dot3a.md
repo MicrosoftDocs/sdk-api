@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.CheckNameLegalDOS8Dot3A
 title: CheckNameLegalDOS8Dot3A function (winbase.h)
-
 description: Determines whether the specified name can be used to create a file on a FAT file system.
 old-location: fs\checknamelegaldos8dot3.htm
 tech.root: FileIO
 ms.assetid: bb0edcc5-4991-47d0-9ade-6c6776a36f39
-
 ms.date: 12/05/2018
 ms.keywords: CheckNameLegalDOS8Dot3, CheckNameLegalDOS8Dot3 function [Files], CheckNameLegalDOS8Dot3A, CheckNameLegalDOS8Dot3W, base.checknamelegaldos8dot3, fs.checknamelegaldos8dot3, winbase/CheckNameLegalDOS8Dot3, winbase/CheckNameLegalDOS8Dot3A, winbase/CheckNameLegalDOS8Dot3W
 ms.topic: function
-f1_keywords: 
- - "winbase/CheckNameLegalDOS8Dot3"
+f1_keywords:
+- winbase/CheckNameLegalDOS8Dot3
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - CheckNameLegalDOS8Dot3
- - CheckNameLegalDOS8Dot3A
- - CheckNameLegalDOS8Dot3W
+- CheckNameLegalDOS8Dot3
+- CheckNameLegalDOS8Dot3A
+- CheckNameLegalDOS8Dot3W
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IPinFlowControl
 title: IPinFlowControl (strmif.h)
-
 description: Blocks data flow from an active output pin.
 old-location: dshow\ipinflowcontrol.htm
 tech.root: DirectShow
 ms.assetid: 27e607d9-85f0-4e17-b8e7-6df729288acd
-
 ms.date: 12/05/2018
 ms.keywords: IPinFlowControl, IPinFlowControl interface [DirectShow], IPinFlowControl interface [DirectShow],described, IPinFlowControlInterface, dshow.ipinflowcontrol, strmif/IPinFlowControl
 ms.topic: interface
-f1_keywords: 
- - "strmif/IPinFlowControl"
+f1_keywords:
+- strmif/IPinFlowControl
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IPinFlowControl
+- IPinFlowControl
 targetos: Windows
 req.typenames: 
 req.redist: 

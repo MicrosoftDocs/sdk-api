@@ -1,19 +1,17 @@
 ---
 UID: NF:pathcch.PathCchRenameExtension
 title: PathCchRenameExtension function (pathcch.h)
-
 description: Replaces a file name's extension at the end of a path string with a new extension.
 old-location: shell\PathCchRenameExtension.htm
 tech.root: shell
 ms.assetid: 79cd9499-03b7-4482-abd3-a42edd1b2b67
-
 ms.date: 12/05/2018
 ms.keywords: PathCchRenameExtension, PathCchRenameExtension function [Windows Shell], pathcch/PathCchRenameExtension, shell.PathCchRenameExtension
 ms.topic: function
-f1_keywords: 
- - "pathcch/PathCchRenameExtension"
+f1_keywords:
+- pathcch/PathCchRenameExtension
 dev_langs:
- - c++
+- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - pathcch.lib
- - API-MS-Win-Core-Path-l1-1-0.dll
- - KernelBase.dll
+- pathcch.lib
+- API-MS-Win-Core-Path-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PathCchRenameExtension
+- PathCchRenameExtension
 targetos: Windows
 req.typenames: 
 req.redist: 

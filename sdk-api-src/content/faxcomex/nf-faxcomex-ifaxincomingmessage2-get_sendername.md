@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage2.get_SenderName
 title: IFaxIncomingMessage2::get_SenderName (faxcomex.h)
-
 description: Contains the name of the sender that is associated with the inbound fax message. This property is a null-terminated string.
 old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_sendername_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxincomingmessage2\sendername.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessage2 interface [Fax Service],SenderName property, IFaxIncomingMessage2.SenderName, IFaxIncomingMessage2.get_SenderName, IFaxIncomingMessage2.put_SenderName, IFaxIncomingMessage2::SenderName, IFaxIncomingMessage2::get_SenderName, IFaxIncomingMessage2::put_SenderName, SenderName property [Fax Service], SenderName property [Fax Service],IFaxIncomingMessage2 interface, _mfax_faxincomingmessage.sendername, fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_sendername_cpp, fax._mfax_faxincomingmessage_sendername, faxcomex/IFaxIncomingMessage2::SenderName, faxcomex/IFaxIncomingMessage2::get_SenderName, faxcomex/IFaxIncomingMessage2::put_SenderName, get_SenderName
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxIncomingMessage2.SenderName"
+f1_keywords:
+- faxcomex/IFaxIncomingMessage2.SenderName
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingMessage2.SenderName
- - IFaxIncomingMessage2.get_SenderName
- - IFaxIncomingMessage2.put_SenderName
- - IFaxIncomingMessage2.get_SenderName
- - IFaxIncomingMessage2.put_SenderName
+- IFaxIncomingMessage2.SenderName
+- IFaxIncomingMessage2.get_SenderName
+- IFaxIncomingMessage2.put_SenderName
+- IFaxIncomingMessage2.get_SenderName
+- IFaxIncomingMessage2.put_SenderName
 targetos: Windows
 req.typenames: 
 req.redist: 

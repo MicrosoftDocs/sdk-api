@@ -1,19 +1,17 @@
 ---
 UID: NC:fwpmu.IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0
 title: IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0 (fwpmu.h)
-
 description: Indicates whether the Trusted Intermediary Agent (TIA) will dictate the keys for the SA being negotiated.
 old-location: fwp\ipsec_key_manager_key_dictation_check0.htm
 tech.root: fwp
 ms.assetid: 0B91B57C-6943-4702-8926-8ED2B7B3E48D
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0, IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0 function, IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0 function pointer [Filtering], fwp.ipsec_key_manager_key_dictation_check0, fwpmu/IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0
 ms.topic: callback
-f1_keywords: 
- - "fwpmu/IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0"
+f1_keywords:
+- fwpmu/IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Fwpmu.h
+- Fwpmu.h
 api_name:
- - IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0
+- IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0
 targetos: Windows
 req.typenames: 
 req.redist: 

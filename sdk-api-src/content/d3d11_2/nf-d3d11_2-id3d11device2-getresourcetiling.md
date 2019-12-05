@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_2.ID3D11Device2.GetResourceTiling
 title: ID3D11Device2::GetResourceTiling (d3d11_2.h)
-
 description: Gets info about how a tiled resource is broken into tiles.
 old-location: direct3d11\id3d11device2_getresourcetiling.htm
 tech.root: direct3d11
 ms.assetid: 51E7C948-5B14-4389-94BA-DB0DA7DFFC14
-
 ms.date: 12/05/2018
 ms.keywords: GetResourceTiling, GetResourceTiling method [Direct3D 11], GetResourceTiling method [Direct3D 11],ID3D11Device2 interface, ID3D11Device2 interface [Direct3D 11],GetResourceTiling method, ID3D11Device2.GetResourceTiling, ID3D11Device2::GetResourceTiling, d3d11_2/ID3D11Device2::GetResourceTiling, direct3d11.id3d11device2_getresourcetiling
 ms.topic: method
-f1_keywords: 
- - "d3d11_2/ID3D11Device2.GetResourceTiling"
+f1_keywords:
+- d3d11_2/ID3D11Device2.GetResourceTiling
 dev_langs:
- - c++
+- c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Device2.GetResourceTiling
+- ID3D11Device2.GetResourceTiling
 targetos: Windows
 req.typenames: 
 req.redist: 

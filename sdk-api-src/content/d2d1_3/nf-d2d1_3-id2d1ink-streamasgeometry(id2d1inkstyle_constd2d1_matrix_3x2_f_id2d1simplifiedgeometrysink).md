@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1Ink.StreamAsGeometry(ID2D1InkStyle,const D2D1_MATRIX_3X2_F,ID2D1SimplifiedGeometrySink)
 title: ID2D1Ink::StreamAsGeometry(ID2D1InkStyle,const D2D1_MATRIX_3X2_F,ID2D1SimplifiedGeometrySink) (d2d1_3.h)
-
 description: Retrieves a geometric representation of this ink object.
 old-location: direct2d\id2d1ink_streamasgeometry_3.htm
 tech.root: Direct2D
 ms.assetid: F00E48F7-24A3-4F05-B664-0236BCBA62D2
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1Ink interface [Direct2D],StreamAsGeometry method, ID2D1Ink.StreamAsGeometry, ID2D1Ink.StreamAsGeometry(ID2D1InkStyle,const D2D1_MATRIX_3X2_F,ID2D1SimplifiedGeometrySink), ID2D1Ink::StreamAsGeometry, ID2D1Ink::StreamAsGeometry(ID2D1InkStyle,const D2D1_MATRIX_3X2_F,ID2D1SimplifiedGeometrySink), StreamAsGeometry, StreamAsGeometry method [Direct2D], StreamAsGeometry method [Direct2D],ID2D1Ink interface, d2d1_3/ID2D1Ink::StreamAsGeometry, direct2d.id2d1ink_streamasgeometry_3
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1Ink.StreamAsGeometry"
+f1_keywords:
+- d2d1_3/ID2D1Ink.StreamAsGeometry
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1_3.lib
 req.dll: D2d1_3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1_3.dll
+- d2d1_3.dll
 api_name:
- - ID2D1Ink.StreamAsGeometry
+- ID2D1Ink.StreamAsGeometry
 targetos: Windows
 req.typenames: 
 req.redist: 

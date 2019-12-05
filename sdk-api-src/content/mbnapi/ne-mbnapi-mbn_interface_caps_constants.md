@@ -1,19 +1,17 @@
 ---
 UID: NE:mbnapi.MBN_INTERFACE_CAPS_CONSTANTS
 title: MBN_INTERFACE_CAPS_CONSTANTS (mbnapi.h)
-
 description: The MBN_INTERFACE_CAPS_CONSTANTS enumerated type defines the maximum length of string values used by assorted elements of the MBN_INTERFACE_CAPS structure.
 old-location: mbn\mbn_interface_caps_constants.htm
 tech.root: mbn
 ms.assetid: d5478721-7d7b-487e-b223-0240f3451aed
-
 ms.date: 12/05/2018
 ms.keywords: MBN_DEVICEID_LEN, MBN_FIRMWARE_LEN, MBN_INTERFACE_CAPS_CONSTANTS, MBN_INTERFACE_CAPS_CONSTANTS enumeration [Microsoft Broadband Networks], MBN_MANUFACTURER_LEN, MBN_MODEL_LEN, mbn.mbn_interface_caps_constants, mbnapi/MBN_DEVICEID_LEN, mbnapi/MBN_FIRMWARE_LEN, mbnapi/MBN_INTERFACE_CAPS_CONSTANTS, mbnapi/MBN_MANUFACTURER_LEN, mbnapi/MBN_MODEL_LEN
 ms.topic: enum
-f1_keywords: 
- - "mbnapi/MBN_INTERFACE_CAPS_CONSTANTS"
+f1_keywords:
+- mbnapi/MBN_INTERFACE_CAPS_CONSTANTS
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - MBN_INTERFACE_CAPS_CONSTANTS
+- MBN_INTERFACE_CAPS_CONSTANTS
 targetos: Windows
 req.typenames: MBN_INTERFACE_CAPS_CONSTANTS
 req.redist: 

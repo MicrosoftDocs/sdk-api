@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.SetSelected
 title: ICredentialProviderCredential::SetSelected (credentialprovider.h)
-
 description: Called when a credential is selected. Enables the implementer to set logon characteristics.
 old-location: shell\ICredentialProviderCredential_SetSelected.htm
 tech.root: shell
 ms.assetid: 06a0482c-100c-445f-9a77-279d85492f42
-
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredential interface [Windows Shell],SetSelected method, ICredentialProviderCredential.SetSelected, ICredentialProviderCredential::SetSelected, SetSelected, SetSelected method [Windows Shell], SetSelected method [Windows Shell],ICredentialProviderCredential interface, _shell_ICredentialProviderCredential_SetSelected, credentialprovider/ICredentialProviderCredential::SetSelected, shell.ICredentialProviderCredential_SetSelected
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderCredential.SetSelected"
+f1_keywords:
+- credentialprovider/ICredentialProviderCredential.SetSelected
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProviderCredential.SetSelected
+- ICredentialProviderCredential.SetSelected
 targetos: Windows
 req.typenames: 
 req.redist: 

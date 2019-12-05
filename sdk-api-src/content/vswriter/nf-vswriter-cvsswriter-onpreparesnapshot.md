@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.CVssWriter.OnPrepareSnapshot
 title: CVssWriter::OnPrepareSnapshot (vswriter.h)
-
 description: The OnPrepareSnapshot method is called by a writer to handle a PrepareForSnapshot event. It is used to perform operations needed to prepare a writer to participate in the shadow copy or to veto a shadow copy.
 old-location: base\cvsswriter_onpreparesnapshot.htm
 tech.root: VSS
 ms.assetid: a077323e-d04c-4bf7-8aa6-5028fa1c6e6b
-
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnPrepareSnapshot method, CVssWriter.OnPrepareSnapshot, CVssWriter::OnPrepareSnapshot, OnPrepareSnapshot, OnPrepareSnapshot method [VSS], OnPrepareSnapshot method [VSS],CVssWriter interface, _win32_cvsswriter_onpreparesnapshot, base.cvsswriter_onpreparesnapshot, vswriter/CVssWriter::OnPrepareSnapshot
 ms.topic: method
-f1_keywords: 
- - "vswriter/CVssWriter.OnPrepareSnapshot"
+f1_keywords:
+- vswriter/CVssWriter.OnPrepareSnapshot
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - CVssWriter.OnPrepareSnapshot
+- CVssWriter.OnPrepareSnapshot
 targetos: Windows
 req.typenames: 
 req.redist: 

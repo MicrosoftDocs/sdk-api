@@ -1,19 +1,17 @@
 ---
 UID: NE:appmodel.AppPolicyCreateFileAccess
 title: AppPolicyCreateFileAccess (appmodel.h)
-
 description: The AppPolicyCreateFileAccess enumeration indicates whether a process has full or restricted access to the IO devices (file, file stream, directory, physical disk, volume, console buffer, tape drive, communications resource, mailslot, and pipe).
 old-location: appxpkg\apppolicycreatefileaccess_enumeration.htm
 tech.root: appxpkg
 ms.assetid: B21CF29E-D3B8-46A3-8443-161646E23ECA
-
 ms.date: 12/05/2018
 ms.keywords: AppPolicyCreateFileAccess, AppPolicyCreateFileAccess enumeration [App packaging and management], AppPolicyCreateFileAccess_Full, AppPolicyCreateFileAccess_Limited, appmodel/AppPolicyCreateFileAccess, appmodel/AppPolicyCreateFileAccess_Full, appmodel/AppPolicyCreateFileAccess_Limited, appxpkg.apppolicycreatefileaccess_enumeration
 ms.topic: enum
-f1_keywords: 
- - "appmodel/AppPolicyCreateFileAccess"
+f1_keywords:
+- appmodel/AppPolicyCreateFileAccess
 dev_langs:
- - c++
+- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AppModel.h
+- AppModel.h
 api_name:
- - AppPolicyCreateFileAccess
+- AppPolicyCreateFileAccess
 targetos: Windows
 req.typenames: AppPolicyCreateFileAccess
 req.redist: 

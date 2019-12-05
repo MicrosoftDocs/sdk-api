@@ -1,19 +1,17 @@
 ---
 UID: NS:filehc.NAME_CACHE_CONTEXT
 title: NAME_CACHE_CONTEXT (filehc.h)
-
 description: Represents a name cache.
 old-location: winprog\name_cache_context.htm
 tech.root: DevNotes
 ms.assetid: 2d2a6066-b59a-418c-a726-0a1a39243988
-
 ms.date: 12/05/2018
-ms.keywords: "*PNAME_CACHE_CONTEXT, NAME_CACHE_CONTEXT, NAME_CACHE_CONTEXT structure [Windows API], PNAME_CACHE_CONTEXT, PNAME_CACHE_CONTEXT structure pointer [Windows API], filehc/NAME_CACHE_CONTEXT, filehc/PNAME_CACHE_CONTEXT, winprog.name_cache_context"
+ms.keywords: '*PNAME_CACHE_CONTEXT, NAME_CACHE_CONTEXT, NAME_CACHE_CONTEXT structure [Windows API], PNAME_CACHE_CONTEXT, PNAME_CACHE_CONTEXT structure pointer [Windows API], filehc/NAME_CACHE_CONTEXT, filehc/PNAME_CACHE_CONTEXT, winprog.name_cache_context'
 ms.topic: struct
-f1_keywords: 
- - "filehc/NAME_CACHE_CONTEXT"
+f1_keywords:
+- filehc/NAME_CACHE_CONTEXT
 dev_langs:
- - c++
+- c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Filehc.h
+- Filehc.h
 api_name:
- - NAME_CACHE_CONTEXT
+- NAME_CACHE_CONTEXT
 targetos: Windows
-req.typenames: "*PNAME_CACHE_CONTEXT"
+req.typenames: '*PNAME_CACHE_CONTEXT'
 req.redist: 
 ms.custom: 19H1
 ---

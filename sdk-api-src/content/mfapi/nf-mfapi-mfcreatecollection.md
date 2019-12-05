@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateCollection
 title: MFCreateCollection function (mfapi.h)
-
 description: Creates an empty collection object.
 old-location: mf\mfcreatecollection.htm
 tech.root: medfound
 ms.assetid: 6a7bf7b6-62f1-4eac-9849-39021ee50f42
-
 ms.date: 12/05/2018
 ms.keywords: 6a7bf7b6-62f1-4eac-9849-39021ee50f42, MFCreateCollection, MFCreateCollection function [Media Foundation], mf.mfcreatecollection, mfapi/MFCreateCollection
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateCollection"
+f1_keywords:
+- mfapi/MFCreateCollection
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateCollection
+- MFCreateCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

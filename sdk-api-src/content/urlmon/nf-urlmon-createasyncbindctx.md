@@ -1,19 +1,17 @@
 ---
 UID: NF:urlmon.CreateAsyncBindCtx
 title: CreateAsyncBindCtx function (urlmon.h)
-
 description: Creates an asynchronous bind context for use with asynchronous monikers.
 old-location: com\createasyncbindctx.htm
 tech.root: com
 ms.assetid: 0c79b61b-d3d6-48fd-aaee-21cddad09208
-
 ms.date: 12/05/2018
 ms.keywords: CreateAsyncBindCtx, CreateAsyncBindCtx function [COM], _com_CreateAsyncBindCtx, com.createasyncbindctx, urlmon/CreateAsyncBindCtx
 ms.topic: function
-f1_keywords: 
- - "urlmon/CreateAsyncBindCtx"
+f1_keywords:
+- urlmon/CreateAsyncBindCtx
 dev_langs:
- - c++
+- c++
 req.header: urlmon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Urlmon.lib
 req.dll: Urlmon.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Urlmon.dll
+- Urlmon.dll
 api_name:
- - CreateAsyncBindCtx
+- CreateAsyncBindCtx
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:propsys.INamedPropertyStore
 title: INamedPropertyStore (propsys.h)
-
 description: Exposes methods that get and set named properties.
 old-location: shell\INamedPropertyStore.htm
 tech.root: shell
 ms.assetid: 5f7997ba-a5c8-42b5-90c8-5cb34afd6092
-
 ms.date: 12/05/2018
 ms.keywords: INamedPropertyStore, INamedPropertyStore interface [Windows Shell], INamedPropertyStore interface [Windows Shell],described, _shell_INamedPropertyStore, propsys/INamedPropertyStore, shell.INamedPropertyStore
 ms.topic: interface
-f1_keywords: 
- - "propsys/INamedPropertyStore"
+f1_keywords:
+- propsys/INamedPropertyStore
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - INamedPropertyStore
+- INamedPropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzScope2.CreateRoleDefinition
 title: IAzScope2::CreateRoleDefinition (azroles.h)
-
 description: Creates a new IAzRoleDefinition object with the specified name in this scope.
 old-location: security\iazscope2_createroledefinition.htm
 tech.root: SecAuthZ
 ms.assetid: bcd78233-a484-4c99-9dbb-9f559f7542a4
-
 ms.date: 12/05/2018
 ms.keywords: CreateRoleDefinition, CreateRoleDefinition method [Security], CreateRoleDefinition method [Security],IAzScope2 interface, IAzScope2 interface [Security],CreateRoleDefinition method, IAzScope2.CreateRoleDefinition, IAzScope2::CreateRoleDefinition, azroles/IAzScope2::CreateRoleDefinition, security.iazscope2_createroledefinition
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzScope2.CreateRoleDefinition"
+f1_keywords:
+- azroles/IAzScope2.CreateRoleDefinition
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzScope2.CreateRoleDefinition
+- IAzScope2.CreateRoleDefinition
 targetos: Windows
 req.typenames: 
 req.redist: 

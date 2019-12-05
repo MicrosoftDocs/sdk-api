@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoGetCurrentProcess
 title: CoGetCurrentProcess function (combaseapi.h)
-
 description: Returns a value that is unique to the current thread. CoGetCurrentProcess can be used to avoid thread ID reuse problems.
 old-location: com\cogetcurrentprocess.htm
 tech.root: com
 ms.assetid: 46b0448f-f1c5-4da7-8489-bbd6d0fab79e
-
 ms.date: 12/05/2018
 ms.keywords: CoGetCurrentProcess, CoGetCurrentProcess function [COM], _com_CoGetCurrentProcess, com.cogetcurrentprocess, combaseapi/CoGetCurrentProcess
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoGetCurrentProcess"
+f1_keywords:
+- combaseapi/CoGetCurrentProcess
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoGetCurrentProcess
+- CoGetCurrentProcess
 targetos: Windows
 req.typenames: 
 req.redist: 

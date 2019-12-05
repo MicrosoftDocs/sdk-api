@@ -1,19 +1,17 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_TabStop
 title: IMSVidCtl::put_TabStop (msvidctl.h)
-
 description: The put_TabStop method specifies whether a user can use the TAB key to give the focus to the Video Control.
 old-location: mstv\imsvidctl_put_tabstop.htm
 tech.root: mstv
 ms.assetid: c0e3d216-ea3f-4db4-80fd-aaf4d520ba1a
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_TabStop method, IMSVidCtl.put_TabStop, IMSVidCtl::put_TabStop, IMSVidCtlput_TabStop, mstv.imsvidctl_put_tabstop, msvidctl/IMSVidCtl::put_TabStop, put_TabStop, put_TabStop method [Microsoft TV Technologies], put_TabStop method [Microsoft TV Technologies],IMSVidCtl interface
 ms.topic: method
-f1_keywords: 
- - "msvidctl/IMSVidCtl.put_TabStop"
+f1_keywords:
+- msvidctl/IMSVidCtl.put_TabStop
 dev_langs:
- - c++
+- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msvidctl.h
+- msvidctl.h
 api_name:
- - IMSVidCtl.put_TabStop
+- IMSVidCtl.put_TabStop
 targetos: Windows
 req.typenames: 
 req.redist: 

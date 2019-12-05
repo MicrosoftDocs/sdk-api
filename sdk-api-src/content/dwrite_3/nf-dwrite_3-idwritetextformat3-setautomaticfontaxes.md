@@ -1,17 +1,15 @@
 ---
 UID: NF:dwrite_3.IDWriteTextFormat3.SetAutomaticFontAxes
 title: IDWriteTextFormat3::SetAutomaticFontAxes
-
 description: Sets the automatic font axis options.
 tech.root: DirectWrite
-
 ms.date: 09/17/2019
 ms.keywords: IDWriteTextFormat3 interface [Direct Write],SetAutomaticFontAxes method, IDWriteTextFormat3.SetAutomaticFontAxes, IDWriteTextFormat3::SetAutomaticFontAxes, SetAutomaticFontAxes, SetAutomaticFontAxes method [Direct Write], SetAutomaticFontAxes method [Direct Write],IDWriteTextFormat3 interface, directwrite.idwritetextformat3_setautomaticfontaxes, dwrite_3/IDWriteTextFormat3::SetAutomaticFontAxes
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteTextFormat3.SetAutomaticFontAxes"
+f1_keywords:
+- dwrite_3/IDWriteTextFormat3.SetAutomaticFontAxes
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,15 +29,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteTextFormat3::SetAutomaticFontAxes
+- IDWriteTextFormat3::SetAutomaticFontAxes
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMResult
 title: IGPMResult (gpmgmt.h)
-
 description: The IGPMResult interface contains methods to retrieve status message information while performing various types of GPO processing operations such as restore, import, copy and backup.
 old-location: gpmc\igpmresult.htm
 tech.root: gpmc
 ms.assetid: 0228ed1a-3a8f-486a-9dd8-806ca35c649e
-
 ms.date: 12/05/2018
 ms.keywords: GPMResult, IGPMResult, IGPMResult interface [GPMC], IGPMResult interface [GPMC],described, _win32_igpmresult, gpmc.igpmresult, gpmgmt/IGPMResult
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMResult"
+f1_keywords:
+- gpmgmt/IGPMResult
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMResult
- - GPMResult
+- IGPMResult
+- GPMResult
 targetos: Windows
 req.typenames: 
 req.redist: 

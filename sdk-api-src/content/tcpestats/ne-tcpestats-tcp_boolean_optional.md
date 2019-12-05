@@ -1,19 +1,17 @@
 ---
 UID: NE:tcpestats._TCP_BOOLEAN_OPTIONAL
 title: TCP_BOOLEAN_OPTIONAL (tcpestats.h)
-
 description: Defines the states that a caller can specify when updating a member in the read/write information for a TCP connection.
 old-location: iphlp\tcp_boolean_optional.htm
 tech.root: IpHlp
 ms.assetid: 68f8f797-06fb-4286-88bc-220c54977575
-
 ms.date: 12/05/2018
-ms.keywords: "*PTCP_BOOLEAN_OPTIONAL, TCP_BOOLEAN_OPTIONAL, TCP_BOOLEAN_OPTIONAL enumeration [IP Helper], TcpBoolOptDisabled, TcpBoolOptEnabled, TcpBoolOptUnchanged, iphlp.tcp_boolean_optional, tcpestats/TCP_BOOLEAN_OPTIONAL, tcpestats/TcpBoolOptDisabled, tcpestats/TcpBoolOptEnabled, tcpestats/TcpBoolOptUnchanged"
+ms.keywords: '*PTCP_BOOLEAN_OPTIONAL, TCP_BOOLEAN_OPTIONAL, TCP_BOOLEAN_OPTIONAL enumeration [IP Helper], TcpBoolOptDisabled, TcpBoolOptEnabled, TcpBoolOptUnchanged, iphlp.tcp_boolean_optional, tcpestats/TCP_BOOLEAN_OPTIONAL, tcpestats/TcpBoolOptDisabled, tcpestats/TcpBoolOptEnabled, tcpestats/TcpBoolOptUnchanged'
 ms.topic: enum
-f1_keywords: 
- - "tcpestats/TCP_BOOLEAN_OPTIONAL"
+f1_keywords:
+- tcpestats/TCP_BOOLEAN_OPTIONAL
 dev_langs:
- - c++
+- c++
 req.header: tcpestats.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tcpestats.h
+- Tcpestats.h
 api_name:
- - TCP_BOOLEAN_OPTIONAL
+- TCP_BOOLEAN_OPTIONAL
 targetos: Windows
 req.typenames: TCP_BOOLEAN_OPTIONAL, *PTCP_BOOLEAN_OPTIONAL
 req.redist: 

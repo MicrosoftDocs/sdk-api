@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.SetTransformLocal
 title: IXpsOMTileBrush::SetTransformLocal (xpsobjectmodel.h)
-
 description: Sets the IXpsOMMatrixTransform interface pointer to a local, unshared matrix transform.
 old-location: xps\ixpsomtilebrush_settransformlocal.htm
 tech.root: printdocs
 ms.assetid: a0a0f0e9-d8b5-4b42-804b-66780f56b09a
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMTileBrush interface [XPS Documents and Packaging],SetTransformLocal method, IXpsOMTileBrush.SetTransformLocal, IXpsOMTileBrush::SetTransformLocal, SetTransformLocal, SetTransformLocal method [XPS Documents and Packaging], SetTransformLocal method [XPS Documents and Packaging],IXpsOMTileBrush interface, xps.ixpsomtilebrush_settransformlocal, xpsobjectmodel/IXpsOMTileBrush::SetTransformLocal
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMTileBrush.SetTransformLocal"
+f1_keywords:
+- xpsobjectmodel/IXpsOMTileBrush.SetTransformLocal
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMTileBrush.SetTransformLocal
+- IXpsOMTileBrush.SetTransformLocal
 targetos: Windows
 req.typenames: 
 req.redist: 

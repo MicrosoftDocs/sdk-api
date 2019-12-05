@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IVMRVideoStreamControl
 title: IVMRVideoStreamControl (strmif.h)
-
 description: The IVMRVideoStreamControl interface is implemented on each input pin of the Video Mixing Renderer Filter 7 (VMR-7).
 old-location: dshow\ivmrvideostreamcontrol.htm
 tech.root: DirectShow
 ms.assetid: b42fa81e-99d7-4051-b909-2189581825d0
-
 ms.date: 12/05/2018
 ms.keywords: IVMRVideoStreamControl, IVMRVideoStreamControl interface [DirectShow], IVMRVideoStreamControl interface [DirectShow],described, IVMRVideoStreamControlInterface, dshow.ivmrvideostreamcontrol, strmif/IVMRVideoStreamControl
 ms.topic: interface
-f1_keywords: 
- - "strmif/IVMRVideoStreamControl"
+f1_keywords:
+- strmif/IVMRVideoStreamControl
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRVideoStreamControl
+- IVMRVideoStreamControl
 targetos: Windows
 req.typenames: 
 req.redist: 

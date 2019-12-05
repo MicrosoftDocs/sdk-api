@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTimecodeTranslate.EndConvertTimecodeToHNS
 title: IMFTimecodeTranslate::EndConvertTimecodeToHNS (mfidl.h)
-
 description: Completes an asynchronous request to convert time in Society of Motion Picture and Television Engineers (SMPTE) time code to 100-nanosecond units.
 old-location: mf\imftimecodetranslate_endconverttimecodetohns.htm
 tech.root: medfound
 ms.assetid: d1b8b8ba-d03a-4a45-8788-38dbb2be8c6a
-
 ms.date: 12/05/2018
 ms.keywords: EndConvertTimecodeToHNS, EndConvertTimecodeToHNS method [Media Foundation], EndConvertTimecodeToHNS method [Media Foundation],IMFTimecodeTranslate interface, IMFTimecodeTranslate interface [Media Foundation],EndConvertTimecodeToHNS method, IMFTimecodeTranslate.EndConvertTimecodeToHNS, IMFTimecodeTranslate::EndConvertTimecodeToHNS, mf.imftimecodetranslate_endconverttimecodetohns, mfidl/IMFTimecodeTranslate::EndConvertTimecodeToHNS
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTimecodeTranslate.EndConvertTimecodeToHNS"
+f1_keywords:
+- mfidl/IMFTimecodeTranslate.EndConvertTimecodeToHNS
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFTimecodeTranslate.EndConvertTimecodeToHNS
+- IMFTimecodeTranslate.EndConvertTimecodeToHNS
 targetos: Windows
 req.typenames: 
 req.redist: 

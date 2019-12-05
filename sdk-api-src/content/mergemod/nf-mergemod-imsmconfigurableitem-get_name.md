@@ -1,19 +1,17 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_Name
 title: IMsmConfigurableItem::get_Name (mergemod.h)
-
 description: The get_Name method retrieves the Name property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_name.htm
 tech.root: Msi
 ms.assetid: 310fcf76-457b-43d0-b33b-181b32480042
-
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigurableItem interface,get_Name method, IMsmConfigurableItem.get_Name, IMsmConfigurableItem::get_Name, _msi_get_name_function, get_Name, get_Name method, get_Name method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Name, setup.imsmconfigurableitem_get_name
 ms.topic: method
-f1_keywords: 
- - "mergemod/IMsmConfigurableItem.get_Name"
+f1_keywords:
+- mergemod/IMsmConfigurableItem.get_Name
 dev_langs:
- - c++
+- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mergemod.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mergemod.dll
+- Mergemod.dll
 api_name:
- - IMsmConfigurableItem.get_Name
+- IMsmConfigurableItem.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

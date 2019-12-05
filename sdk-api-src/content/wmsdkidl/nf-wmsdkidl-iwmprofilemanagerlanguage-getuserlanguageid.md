@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManagerLanguage.GetUserLanguageID
 title: IWMProfileManagerLanguage::GetUserLanguageID (wmsdkidl.h)
-
 description: The GetUserLanguageID method retrieves the language identifier for the system profiles loaded by the profile manager object.
 old-location: wmformat\iwmprofilemanagerlanguage_getuserlanguageid.htm
 tech.root: wmformat
 ms.assetid: 92d18ac9-8f68-47c6-91d7-de7653df69a6
-
 ms.date: 12/05/2018
 ms.keywords: GetUserLanguageID, GetUserLanguageID method [windows Media Format], GetUserLanguageID method [windows Media Format],IWMProfileManagerLanguage interface, IWMProfileManagerLanguage interface [windows Media Format],GetUserLanguageID method, IWMProfileManagerLanguage.GetUserLanguageID, IWMProfileManagerLanguage::GetUserLanguageID, IWMProfileManagerLanguageGetUserLanguageID, wmformat.iwmprofilemanagerlanguage_getuserlanguageid, wmsdkidl/IWMProfileManagerLanguage::GetUserLanguageID
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfileManagerLanguage.GetUserLanguageID"
+f1_keywords:
+- wmsdkidl/IWMProfileManagerLanguage.GetUserLanguageID
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMProfileManagerLanguage.GetUserLanguageID
+- IWMProfileManagerLanguage.GetUserLanguageID
 targetos: Windows
 req.typenames: 
 req.redist: 

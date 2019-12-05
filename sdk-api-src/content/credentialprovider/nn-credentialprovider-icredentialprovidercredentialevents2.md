@@ -1,19 +1,17 @@
 ---
 UID: NN:credentialprovider.ICredentialProviderCredentialEvents2
 title: ICredentialProviderCredentialEvents2 (credentialprovider.h)
-
 description: Extends the ICredentialProviderCredentialEvents interface by adding methods that enable batch updating of fields in theLogon UI or Credential UI.
 old-location: shell\ICredentialProviderCredentialEvents2.htm
 tech.root: shell
 ms.assetid: 47290FF7-1785-4470-B3A9-F35C5028A6FE
-
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredentialEvents2, ICredentialProviderCredentialEvents2 interface [Windows Shell], ICredentialProviderCredentialEvents2 interface [Windows Shell],described, credentialprovider/ICredentialProviderCredentialEvents2, shell.ICredentialProviderCredentialEvents2
 ms.topic: interface
-f1_keywords: 
- - "credentialprovider/ICredentialProviderCredentialEvents2"
+f1_keywords:
+- credentialprovider/ICredentialProviderCredentialEvents2
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CredentialProvider.h
+- CredentialProvider.h
 api_name:
- - ICredentialProviderCredentialEvents2
+- ICredentialProviderCredentialEvents2
 targetos: Windows
 req.typenames: 
 req.redist: 

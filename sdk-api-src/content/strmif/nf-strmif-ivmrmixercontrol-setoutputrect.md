@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRMixerControl.SetOutputRect
 title: IVMRMixerControl::SetOutputRect (strmif.h)
-
 description: The SetOutputRect method sets the position of this stream within the composition rectangle.
 old-location: dshow\ivmrmixercontrol_setoutputrect.htm
 tech.root: DirectShow
 ms.assetid: e7e1689c-03b4-457e-8d4c-6d59a70c42af
-
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl interface [DirectShow],SetOutputRect method, IVMRMixerControl.SetOutputRect, IVMRMixerControl::SetOutputRect, IVMRMixerControlSetMixingPrefs, SetOutputRect, SetOutputRect method [DirectShow], SetOutputRect method [DirectShow],IVMRMixerControl interface, dshow.ivmrmixercontrol_setoutputrect, strmif/IVMRMixerControl::SetOutputRect
 ms.topic: method
 f1_keywords:
 - strmif/IVMRMixerControl.SetOutputRect
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

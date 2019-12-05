@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IComObjectConstructionEvents
 title: IComObjectConstructionEvents (comsvcs.h)
-
 description: Notifies the subscriber if a constructed object is created in an object pool.
 old-location: cos\icomobjectconstructionevents.htm
 tech.root: cossdk
 ms.assetid: c5fdb9b1-937e-43cb-93ff-e90f8c268fee
-
 ms.date: 12/05/2018
 ms.keywords: IComObjectConstructionEvents, IComObjectConstructionEvents interface [COM+], IComObjectConstructionEvents interface [COM+],described, _dtc_IComObjectConstructionEvents, comsvcs/IComObjectConstructionEvents, cos.icomobjectconstructionevents
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IComObjectConstructionEvents"
+f1_keywords:
+- comsvcs/IComObjectConstructionEvents
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComObjectConstructionEvents
+- IComObjectConstructionEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

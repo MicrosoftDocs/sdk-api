@@ -1,19 +1,17 @@
 ---
 UID: NF:winsvc.NotifyBootConfigStatus
 title: NotifyBootConfigStatus function (winsvc.h)
-
 description: Reports the boot status to the service control manager. It is used by boot verification programs.
 old-location: base\notifybootconfigstatus.htm
 tech.root: Services
 ms.assetid: 0b2b9cd0-f897-4681-9e99-5d0bed986112
-
 ms.date: 12/05/2018
 ms.keywords: NotifyBootConfigStatus, NotifyBootConfigStatus function, _win32_notifybootconfigstatus, base.notifybootconfigstatus, winsvc/NotifyBootConfigStatus
 ms.topic: function
-f1_keywords: 
- - "winsvc/NotifyBootConfigStatus"
+f1_keywords:
+- winsvc/NotifyBootConfigStatus
 dev_langs:
- - c++
+- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-base-bootconfig-l1-1-0.dll
- - advapi32legacy.dll
+- Advapi32.dll
+- API-MS-Win-base-bootconfig-l1-1-0.dll
+- advapi32legacy.dll
 api_name:
- - NotifyBootConfigStatus
+- NotifyBootConfigStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

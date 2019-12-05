@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDropTargetPattern.get_CachedDropTargetEffects
 title: IUIAutomationDropTargetPattern::get_CachedDropTargetEffects (uiautomationclient.h)
-
 description: Retrieves a cached array of localized strings that enumerate the full set of effects that can happen when the user drops a grabbed element on this drop target as part of a drag-and-drop operation.
 old-location: winauto\uiauto_iuiautomationdroptargetpattern_cacheddroptargeteffects.htm
 tech.root: WinAuto
 ms.assetid: 6F61F13B-0E5B-449D-A237-FF494B730392
-
 ms.date: 12/05/2018
 ms.keywords: CachedDropTargetEffects property [Windows Accessibility], CachedDropTargetEffects property [Windows Accessibility],IUIAutomationDropTargetPattern interface, IUIAutomationDropTargetPattern interface [Windows Accessibility],CachedDropTargetEffects property, IUIAutomationDropTargetPattern.CachedDropTargetEffects, IUIAutomationDropTargetPattern.get_CachedDropTargetEffects, IUIAutomationDropTargetPattern::CachedDropTargetEffects, IUIAutomationDropTargetPattern::get_CachedDropTargetEffects, get_CachedDropTargetEffects, uiautomationclient/IUIAutomationDropTargetPattern::CachedDropTargetEffects, uiautomationclient/IUIAutomationDropTargetPattern::get_CachedDropTargetEffects, winauto.uiauto_iuiautomationdroptargetpattern_cacheddroptargeteffects
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationDropTargetPattern.CachedDropTargetEffects"
+f1_keywords:
+- uiautomationclient/IUIAutomationDropTargetPattern.CachedDropTargetEffects
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationDropTargetPattern.CachedDropTargetEffects
- - IUIAutomationDropTargetPattern.get_CachedDropTargetEffects
+- IUIAutomationDropTargetPattern.CachedDropTargetEffects
+- IUIAutomationDropTargetPattern.get_CachedDropTargetEffects
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IPersistMediaPropertyBag.Load
 title: IPersistMediaPropertyBag::Load (strmif.h)
-
 description: The Load method loads properties from the media property bag into the filter.
 old-location: dshow\ipersistmediapropertybag_load.htm
 tech.root: DirectShow
 ms.assetid: 02ee3911-0b85-404d-81c9-7d0e6b3ccd5d
-
 ms.date: 12/05/2018
 ms.keywords: IPersistMediaPropertyBag interface [DirectShow],Load method, IPersistMediaPropertyBag.Load, IPersistMediaPropertyBag::Load, IPersistMediaPropertyBagLoad, Load, Load method [DirectShow], Load method [DirectShow],IPersistMediaPropertyBag interface, dshow.ipersistmediapropertybag_load, strmif/IPersistMediaPropertyBag::Load
 ms.topic: method
-f1_keywords: 
- - "strmif/IPersistMediaPropertyBag.Load"
+f1_keywords:
+- strmif/IPersistMediaPropertyBag.Load
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IPersistMediaPropertyBag.Load
+- IPersistMediaPropertyBag.Load
 targetos: Windows
 req.typenames: 
 req.redist: 

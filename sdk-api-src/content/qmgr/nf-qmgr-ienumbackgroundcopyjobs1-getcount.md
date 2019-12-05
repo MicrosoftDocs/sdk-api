@@ -1,19 +1,17 @@
 ---
 UID: NF:qmgr.IEnumBackgroundCopyJobs1.GetCount
 title: IEnumBackgroundCopyJobs1::GetCount (qmgr.h)
-
 description: Use the GetCount method to retrieve a count of the number of jobs in the enumeration.
 old-location: bits\ienumbackgroundcopyjobs1_getcount.htm
 tech.root: Bits
 ms.assetid: 3deaf2fd-84a0-49f8-8a7d-91a39701683a
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [BITS], GetCount method [BITS],IEnumBackgroundCopyJobs1 interface, IEnumBackgroundCopyJobs1 interface [BITS],GetCount method, IEnumBackgroundCopyJobs1.GetCount, IEnumBackgroundCopyJobs1::GetCount, bits.ienumbackgroundcopyjobs1_getcount, qmgr/IEnumBackgroundCopyJobs1::GetCount
 ms.topic: method
-f1_keywords: 
- - "qmgr/IEnumBackgroundCopyJobs1.GetCount"
+f1_keywords:
+- qmgr/IEnumBackgroundCopyJobs1.GetCount
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IEnumBackgroundCopyJobs1.GetCount
+- IEnumBackgroundCopyJobs1.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

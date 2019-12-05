@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PushEmptyRetrievalFilter
 title: IDXGIInfoQueue::PushEmptyRetrievalFilter (dxgidebug.h)
-
 description: Pushes an empty retrieval filter onto the retrieval-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_pushemptyretrievalfilter.htm
 tech.root: direct3ddxgi
 ms.assetid: F6125FB9-EA1B-4052-A527-F4E5FAEE5C61
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushEmptyRetrievalFilter method, IDXGIInfoQueue.PushEmptyRetrievalFilter, IDXGIInfoQueue::PushEmptyRetrievalFilter, PushEmptyRetrievalFilter, PushEmptyRetrievalFilter method [DXGI], PushEmptyRetrievalFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushemptyretrievalfilter, dxgidebug/IDXGIInfoQueue::PushEmptyRetrievalFilter
 ms.topic: method
-f1_keywords: 
- - "dxgidebug/IDXGIInfoQueue.PushEmptyRetrievalFilter"
+f1_keywords:
+- dxgidebug/IDXGIInfoQueue.PushEmptyRetrievalFilter
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.PushEmptyRetrievalFilter
+- IDXGIInfoQueue.PushEmptyRetrievalFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

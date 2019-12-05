@@ -1,19 +1,17 @@
 ---
 UID: NF:encdec.IETFilterConfig.InitLicense
 title: IETFilterConfig::InitLicense (encdec.h)
-
 description: The InitLicense method initializes an encryption license.
 old-location: mstv\ietfilterconfig_initlicense.htm
 tech.root: mstv
 ms.assetid: d88d9ee0-1748-43e4-90d4-671b1449ef03
-
 ms.date: 12/05/2018
 ms.keywords: IETFilterConfig interface [Microsoft TV Technologies],InitLicense method, IETFilterConfig.InitLicense, IETFilterConfig::InitLicense, IETFilterConfigInitLicense, InitLicense, InitLicense method [Microsoft TV Technologies], InitLicense method [Microsoft TV Technologies],IETFilterConfig interface, encdec/IETFilterConfig::InitLicense, mstv.ietfilterconfig_initlicense
 ms.topic: method
-f1_keywords: 
- - "encdec/IETFilterConfig.InitLicense"
+f1_keywords:
+- encdec/IETFilterConfig.InitLicense
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EncDec.h
+- EncDec.h
 api_name:
- - IETFilterConfig.InitLicense
+- IETFilterConfig.InitLicense
 targetos: Windows
 req.typenames: 
 req.redist: 

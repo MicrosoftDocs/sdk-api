@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.Flush
 title: ID2D1RenderTarget::Flush (d2d1.h)
-
 description: Executes all pending drawing commands.
 old-location: direct2d\ID2D1RenderTarget_Flush.htm
 tech.root: Direct2D
 ms.assetid: 3ad9c966-85f5-4ddb-a8c1-aefcba533509
-
 ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [Direct2D], Flush method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],Flush method, ID2D1RenderTarget.Flush, ID2D1RenderTarget::Flush, d2d1/ID2D1RenderTarget::Flush, direct2d.ID2D1RenderTarget_Flush
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1RenderTarget.Flush"
+f1_keywords:
+- d2d1/ID2D1RenderTarget.Flush
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1RenderTarget.Flush
+- ID2D1RenderTarget.Flush
 targetos: Windows
 req.typenames: 
 req.redist: 

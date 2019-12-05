@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineGetAgentActivityListA
 title: lineGetAgentActivityListA function (tapi.h)
-
 description: The lineGetAgentActivityList function obtains the identities of activities that the application can select using lineSetAgentActivity to indicate what function the agent is actually performing at the moment.
 old-location: tapi2\linegetagentactivitylist.htm
 tech.root: Tapi
 ms.assetid: 8f0be375-2891-45bd-a2cb-246ea5c4b9bb
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linegetagentactivitylist, lineGetAgentActivityList, lineGetAgentActivityList function [TAPI 2.2], lineGetAgentActivityListA, lineGetAgentActivityListW, tapi/lineGetAgentActivityList, tapi/lineGetAgentActivityListA, tapi/lineGetAgentActivityListW, tapi2.linegetagentactivitylist"
+ms.keywords: _tapi2_linegetagentactivitylist, lineGetAgentActivityList, lineGetAgentActivityList function [TAPI 2.2], lineGetAgentActivityListA, lineGetAgentActivityListW, tapi/lineGetAgentActivityList, tapi/lineGetAgentActivityListA, tapi/lineGetAgentActivityListW, tapi2.linegetagentactivitylist
 ms.topic: function
-f1_keywords: 
- - "tapi/lineGetAgentActivityList"
+f1_keywords:
+- tapi/lineGetAgentActivityList
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineGetAgentActivityList
- - lineGetAgentActivityListA
- - lineGetAgentActivityListW
+- lineGetAgentActivityList
+- lineGetAgentActivityListA
+- lineGetAgentActivityListW
 targetos: Windows
 req.typenames: 
 req.redist: 

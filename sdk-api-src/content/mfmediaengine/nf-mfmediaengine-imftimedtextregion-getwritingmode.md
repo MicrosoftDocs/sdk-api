@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetWritingMode
 title: IMFTimedTextRegion::GetWritingMode (mfmediaengine.h)
-
 description: Gets the writing mode of the region.
 old-location: mf\imftimedtextregion_getwritingmode.htm
 tech.root: medfound
 ms.assetid: BCF99D3C-554A-4788-B54B-236F463B1EAE
-
 ms.date: 12/05/2018
 ms.keywords: GetWritingMode, GetWritingMode method [Media Foundation], GetWritingMode method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetWritingMode method, IMFTimedTextRegion.GetWritingMode, IMFTimedTextRegion::GetWritingMode, mf.imftimedtextregion_getwritingmode, mfmediaengine/IMFTimedTextRegion::GetWritingMode
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextRegion.GetWritingMode"
+f1_keywords:
+- mfmediaengine/IMFTimedTextRegion.GetWritingMode
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextRegion.GetWritingMode
+- IMFTimedTextRegion.GetWritingMode
 targetos: Windows
 req.typenames: 
 req.redist: 

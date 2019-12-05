@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchItemsChangedSink.StoppedMonitoringScope
 title: ISearchItemsChangedSink::StoppedMonitoringScope (searchapi.h)
-
 description: Not implemented.
 old-location: search\_search_ISearchItemsChangedSink_StoppedMonitoringScope.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchitemschangedsink\stoppedmonitoringscope.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchItemsChangedSink interface [search],StoppedMonitoringScope method, ISearchItemsChangedSink.StoppedMonitoringScope, ISearchItemsChangedSink::StoppedMonitoringScope, StoppedMonitoringScope, StoppedMonitoringScope method [search], StoppedMonitoringScope method [search],ISearchItemsChangedSink interface, _search_ISearchItemsChangedSink_StoppedMonitoringScope, search._search_ISearchItemsChangedSink_StoppedMonitoringScope, searchapi/ISearchItemsChangedSink::StoppedMonitoringScope
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchItemsChangedSink.StoppedMonitoringScope"
+f1_keywords:
+- searchapi/ISearchItemsChangedSink.StoppedMonitoringScope
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - searchapi.h
+- searchapi.h
 api_name:
- - ISearchItemsChangedSink.StoppedMonitoringScope
+- ISearchItemsChangedSink.StoppedMonitoringScope
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

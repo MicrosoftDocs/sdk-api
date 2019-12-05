@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetType
 title: IBackgroundCopyJob::GetType (bits.h)
-
 description: Retrieves the type of transfer being performed, such as a file download or upload.
 old-location: bits\ibackgroundcopyjob_gettype.htm
 tech.root: Bits
 ms.assetid: b84c45c2-379a-40d0-91ab-0124f0ef6b00
-
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [BITS], GetType method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetType method, IBackgroundCopyJob.GetType, IBackgroundCopyJob::GetType, _drz_ibackgroundcopyjob_gettype, bits.ibackgroundcopyjob_gettype, bits/IBackgroundCopyJob::GetType
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyJob.GetType"
+f1_keywords:
+- bits/IBackgroundCopyJob.GetType
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.GetType
+- IBackgroundCopyJob.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

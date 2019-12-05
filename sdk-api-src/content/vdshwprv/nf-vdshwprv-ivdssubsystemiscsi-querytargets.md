@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystemIscsi.QueryTargets
 title: IVdsSubSystemIscsi::QueryTargets (vdshwprv.h)
-
 description: Returns an object that enumerates the iSCSI targets of the subsystem.
 old-location: base\ivdssubsystemiscsi_querytargets.htm
 tech.root: VDS
 ms.assetid: 86a89c23-beed-48d0-8d35-ed8dd39db3c6
-
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystemIscsi interface [VDS],QueryTargets method, IVdsSubSystemIscsi.QueryTargets, IVdsSubSystemIscsi::QueryTargets, QueryTargets, QueryTargets method [VDS], QueryTargets method [VDS],IVdsSubSystemIscsi interface, base.ivdssubsystemiscsi_querytargets, vds/IVdsSubSystemIscsi::QueryTargets, vdshwprv/IVdsSubSystemIscsi::QueryTargets
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsSubSystemIscsi.QueryTargets"
+f1_keywords:
+- vdshwprv/IVdsSubSystemIscsi.QueryTargets
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsSubSystemIscsi.QueryTargets
+- IVdsSubSystemIscsi.QueryTargets
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

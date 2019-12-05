@@ -1,19 +1,17 @@
 ---
 UID: NS:wininet.__unnamed_struct_9
 title: INTERNET_CONNECTED_INFO (wininet.h)
-
 description: Contains the information to set the global online/offline state.
 old-location: wininet\internet_connected_info.htm
 tech.root: wininet
 ms.assetid: 585dbacb-33b1-4655-9ae3-5dacf30a70da
-
 ms.date: 12/05/2018
-ms.keywords: "*LPINTERNET_CONNECTED_INFO, INTERNET_CONNECTED_INFO, INTERNET_CONNECTED_INFO structure [WinINet], INTERNET_STATE_BUSY, INTERNET_STATE_CONNECTED, INTERNET_STATE_DISCONNECTED, INTERNET_STATE_DISCONNECTED_BY_USER, INTERNET_STATE_IDLE, LPINTERNET_CONNECTED_INFO, LPINTERNET_CONNECTED_INFO structure pointer [WinINet], _inet_internet_connected_info_structure, wininet.internet_connected_info, wininet/ LPINTERNET_CONNECTED_INFO, wininet/INTERNET_CONNECTED_INFO"
+ms.keywords: '*LPINTERNET_CONNECTED_INFO, INTERNET_CONNECTED_INFO, INTERNET_CONNECTED_INFO structure [WinINet], INTERNET_STATE_BUSY, INTERNET_STATE_CONNECTED, INTERNET_STATE_DISCONNECTED, INTERNET_STATE_DISCONNECTED_BY_USER, INTERNET_STATE_IDLE, LPINTERNET_CONNECTED_INFO, LPINTERNET_CONNECTED_INFO structure pointer [WinINet], _inet_internet_connected_info_structure, wininet.internet_connected_info, wininet/ LPINTERNET_CONNECTED_INFO, wininet/INTERNET_CONNECTED_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wininet/INTERNET_CONNECTED_INFO"
+f1_keywords:
+- wininet/INTERNET_CONNECTED_INFO
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wininet.h
+- Wininet.h
 api_name:
- - INTERNET_CONNECTED_INFO
+- INTERNET_CONNECTED_INFO
 targetos: Windows
 req.typenames: INTERNET_CONNECTED_INFO, *LPINTERNET_CONNECTED_INFO
 req.redist: 

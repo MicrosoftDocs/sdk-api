@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRaiseAsyncContentLoadedEvent
 title: UiaRaiseAsyncContentLoadedEvent function (uiautomationcoreapi.h)
-
 description: Called by a provider to notify the Microsoft UI Automation core that content is being loaded asynchronously.
 old-location: winauto\uiauto_UiaRaiseAsyncContentLoadedEventFunction.htm
 tech.root: WinAuto
 ms.assetid: 19047933-40c4-4ddb-aa95-af5cfeec44b6
-
 ms.date: 12/05/2018
 ms.keywords: UiaRaiseAsyncContentLoadedEvent, UiaRaiseAsyncContentLoadedEvent function [Windows Accessibility], uiauto.uiauto_UiaRaiseAsyncContentLoadedEventFunction, uiauto_UiaRaiseAsyncContentLoadedEventFunction, uiautomationcoreapi/UiaRaiseAsyncContentLoadedEvent, winauto.uiauto_UiaRaiseAsyncContentLoadedEventFunction
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaRaiseAsyncContentLoadedEvent"
+f1_keywords:
+- uiautomationcoreapi/UiaRaiseAsyncContentLoadedEvent
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - UiaRaiseAsyncContentLoadedEvent
+- UiaRaiseAsyncContentLoadedEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

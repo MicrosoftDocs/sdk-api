@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsPropertyList.Skip
 title: IADsPropertyList::Skip (iads.h)
-
 description: Skips a specified number of items, counting from the current cursor position, in the property list.
 old-location: adsi\iadspropertylist_skip.htm
 tech.root: adsi
 ms.assetid: 3bbdf1e8-444c-4d5e-83df-95a1f4fd7508
-
 ms.date: 12/05/2018
 ms.keywords: IADsPropertyList interface [ADSI],Skip method, IADsPropertyList.Skip, IADsPropertyList::Skip, Skip, Skip method [ADSI], Skip method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_skip, adsi.iadspropertylist__skip, adsi.iadspropertylist_skip, iads/IADsPropertyList::Skip
 ms.topic: method
-f1_keywords: 
- - "iads/IADsPropertyList.Skip"
+f1_keywords:
+- iads/IADsPropertyList.Skip
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsPropertyList.Skip
+- IADsPropertyList.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

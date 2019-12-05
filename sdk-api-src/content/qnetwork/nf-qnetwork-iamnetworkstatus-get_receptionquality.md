@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMNetworkStatus.get_ReceptionQuality
 title: IAMNetworkStatus::get_ReceptionQuality (qnetwork.h)
-
 description: The get_ReceptionQuality method retrieves a value indicating the reception quality.
 old-location: dshow\iamnetworkstatus_get_receptionquality.htm
 tech.root: DirectShow
 ms.assetid: 6c80f874-c176-4e52-acc9-26c10fac08d9
-
 ms.date: 12/05/2018
 ms.keywords: IAMNetworkStatus interface [DirectShow],get_ReceptionQuality method, IAMNetworkStatus.get_ReceptionQuality, IAMNetworkStatus::get_ReceptionQuality, IAMNetworkStatusget_ReceptionQuality, dshow.iamnetworkstatus_get_receptionquality, get_ReceptionQuality, get_ReceptionQuality method [DirectShow], get_ReceptionQuality method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_ReceptionQuality
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMNetworkStatus.get_ReceptionQuality"
+f1_keywords:
+- qnetwork/IAMNetworkStatus.get_ReceptionQuality
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMNetworkStatus.get_ReceptionQuality
+- IAMNetworkStatus.get_ReceptionQuality
 targetos: Windows
 req.typenames: 
 req.redist: 

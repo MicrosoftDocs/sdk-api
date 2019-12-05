@@ -1,19 +1,17 @@
 ---
 UID: NS:dxmini._DDSURFACEDATA
 title: DDSURFACEDATA (dxmini.h)
-
 description: The DDSURFACEDATA structure is used by DirectDraw to represent a surface to the kernel-mode miniport driver.
 old-location: display\ddsurfacedata.htm
 tech.root: display
 ms.assetid: 4057cfcf-675e-439f-8b51-23adede1d35a
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDDSURFACEDATA, DDSURFACEDATA, DDSURFACEDATA structure [Display Devices], LPDDSURFACEDATA, LPDDSURFACEDATA structure pointer [Display Devices], Video_Structs_0138ef0b-62f2-4d2d-a76e-48d153080ca7.xml, display.ddsurfacedata, dxmini/DDSURFACEDATA, dxmini/LPDDSURFACEDATA"
+ms.keywords: '*LPDDSURFACEDATA, DDSURFACEDATA, DDSURFACEDATA structure [Display Devices], LPDDSURFACEDATA, LPDDSURFACEDATA structure pointer [Display Devices], Video_Structs_0138ef0b-62f2-4d2d-a76e-48d153080ca7.xml, display.ddsurfacedata, dxmini/DDSURFACEDATA, dxmini/LPDDSURFACEDATA'
 ms.topic: struct
-f1_keywords: 
- - "dxmini/DDSURFACEDATA"
+f1_keywords:
+- dxmini/DDSURFACEDATA
 dev_langs:
- - c++
+- c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxmini.h
+- dxmini.h
 api_name:
- - DDSURFACEDATA
+- DDSURFACEDATA
 targetos: Windows
 req.typenames: DDSURFACEDATA, *LPDDSURFACEDATA
 req.redist: 

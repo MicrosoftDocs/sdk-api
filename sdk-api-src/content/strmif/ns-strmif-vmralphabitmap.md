@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif._VMRALPHABITMAP
 title: VMRALPHABITMAP (strmif.h)
-
 description: The VMRALPHABITMAP structure is used in the VMR-7 filter's IVMRMixerBitmap methods when the application is providing a static alpha-blended bitmap to be displayed on the composited video frame.
 old-location: dshow\vmralphabitmap.htm
 tech.root: DirectShow
 ms.assetid: 03b3e619-4804-42de-88d5-5422089e875a
-
 ms.date: 12/05/2018
-ms.keywords: "*PVMRALPHABITMAP, PVMRALPHABITMAP, PVMRALPHABITMAP structure pointer [DirectShow], VMRALPHABITMAP, VMRALPHABITMAP structure [DirectShow], VMRALPHABITMAPStructure, VMRBITMAP_DISABLE, VMRBITMAP_ENTIREDDS, VMRBITMAP_HDC, VMRBITMAP_SRCCOLORKEY, VMRBITMAP_SRCRECT, dshow.vmralphabitmap, strmif/PVMRALPHABITMAP, strmif/VMRALPHABITMAP"
+ms.keywords: '*PVMRALPHABITMAP, PVMRALPHABITMAP, PVMRALPHABITMAP structure pointer [DirectShow], VMRALPHABITMAP, VMRALPHABITMAP structure [DirectShow], VMRALPHABITMAPStructure, VMRBITMAP_DISABLE, VMRBITMAP_ENTIREDDS, VMRBITMAP_HDC, VMRBITMAP_SRCCOLORKEY, VMRBITMAP_SRCRECT, dshow.vmralphabitmap, strmif/PVMRALPHABITMAP, strmif/VMRALPHABITMAP'
 ms.topic: struct
-f1_keywords: 
- - "strmif/VMRALPHABITMAP"
+f1_keywords:
+- strmif/VMRALPHABITMAP
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - VMRALPHABITMAP
+- VMRALPHABITMAP
 targetos: Windows
 req.typenames: VMRALPHABITMAP, *PVMRALPHABITMAP
 req.redist: 

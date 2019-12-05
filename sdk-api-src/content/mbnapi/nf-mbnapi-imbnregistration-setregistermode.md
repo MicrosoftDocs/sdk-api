@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.SetRegisterMode
 title: IMbnRegistration::SetRegisterMode (mbnapi.h)
-
 description: Sets the registration mode for the device.
 old-location: mbn\imbnregistration_setregistermode.htm
 tech.root: mbn
 ms.assetid: 71434e46-7055-4721-8cc9-140e196b6097
-
 ms.date: 12/05/2018
 ms.keywords: IMbnRegistration interface [Microsoft Broadband Networks],SetRegisterMode method, IMbnRegistration.SetRegisterMode, IMbnRegistration::SetRegisterMode, SetRegisterMode, SetRegisterMode method [Microsoft Broadband Networks], SetRegisterMode method [Microsoft Broadband Networks],IMbnRegistration interface, mbn.imbnregistration_setregistermode, mbnapi/IMbnRegistration::SetRegisterMode
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnRegistration.SetRegisterMode"
+f1_keywords:
+- mbnapi/IMbnRegistration.SetRegisterMode
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnRegistration.SetRegisterMode
+- IMbnRegistration.SetRegisterMode
 targetos: Windows
 req.typenames: 
 req.redist: 

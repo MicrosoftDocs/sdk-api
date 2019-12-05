@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CMC_TAGGED_ATTRIBUTE
 title: CMC_TAGGED_ATTRIBUTE (wincrypt.h)
-
 description: Used in the CMC_DATA_INFO and CMC_RESPONSE_INFO structures.
 old-location: security\cmc_tagged_attribute.htm
 tech.root: SecCrypto
 ms.assetid: 4c350cda-2318-49b2-86dc-452423ceb9e3
-
 ms.date: 12/05/2018
 ms.keywords: '*PCMC_TAGGED_ATTRIBUTE, CMC_TAGGED_ATTRIBUTE, CMC_TAGGED_ATTRIBUTE structure [Security], PCMC_TAGGED_ATTRIBUTE, PCMC_TAGGED_ATTRIBUTE structure pointer [Security], _crypto2_cmc_tagged_attribute, security.cmc_tagged_attribute, wincrypt/CMC_TAGGED_ATTRIBUTE, wincrypt/PCMC_TAGGED_ATTRIBUTE'
 ms.topic: struct
 f1_keywords:
 - wincrypt/CMC_TAGGED_ATTRIBUTE
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

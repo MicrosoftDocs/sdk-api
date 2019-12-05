@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumUserStrings
 title: IMetaDataImport::EnumUserStrings (rometadataapi.h)
-
 description: Enumerates String tokens representing hard-coded strings in the current metadata scope.
 old-location: winrt\imetadataimport_enumuserstrings.htm
 tech.root: WinRT
 ms.assetid: 646f6e8a-4c78-493c-90e2-2114bce82c46
-
 ms.date: 12/05/2018
 ms.keywords: EnumUserStrings, EnumUserStrings method [Windows Runtime], EnumUserStrings method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumUserStrings method, IMetaDataImport.EnumUserStrings, IMetaDataImport::EnumUserStrings, rometadataapi/IMetaDataImport::EnumUserStrings, winrt.imetadataimport_enumuserstrings
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.EnumUserStrings"
+f1_keywords:
+- rometadataapi/IMetaDataImport.EnumUserStrings
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.EnumUserStrings
+- IMetaDataImport.EnumUserStrings
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IDiscMaster.Close
 title: IDiscMaster::Close (imapi.h)
-
 description: Closes the interface so other applications can use it.
 old-location: imapi\idiscmaster_close.htm
 tech.root: imapi
 ms.assetid: c5ebeca1-baaa-49ac-87ac-134d4b37e8c9
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [IMAPI], Close method [IMAPI],IDiscMaster interface, IDiscMaster interface [IMAPI],Close method, IDiscMaster.Close, IDiscMaster::Close, _win32_idiscmaster_close, base.idiscmaster_close, imapi.idiscmaster_close, imapi/IDiscMaster::Close
 ms.topic: method
-f1_keywords: 
- - "imapi/IDiscMaster.Close"
+f1_keywords:
+- imapi/IDiscMaster.Close
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IDiscMaster.Close
+- IDiscMaster.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_TEX2DMS_RTV
 title: D3D12_TEX2DMS_RTV (d3d12.h)
-
 description: Describes the subresource from a multi sampled 2D texture to use in a render-target view.
 old-location: direct3d12\d3d12_tex2dms_rtv.htm
 tech.root: direct3d12
 ms.assetid: 000B37D4-261D-48E1-B7ED-EEA1EC2DA0DD
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_TEX2DMS_RTV, D3D12_TEX2DMS_RTV structure, d3d12/D3D12_TEX2DMS_RTV, direct3d12.d3d12_tex2dms_rtv
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_TEX2DMS_RTV"
+f1_keywords:
+- d3d12/D3D12_TEX2DMS_RTV
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_TEX2DMS_RTV
+- D3D12_TEX2DMS_RTV
 targetos: Windows
 req.typenames: D3D12_TEX2DMS_RTV
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ListBox_GetItemRect
 title: ListBox_GetItemRect macro (windowsx.h)
-
 description: Gets the dimensions of the rectangle that bounds a list box item as it is currently displayed in the list box. You can use this macro or send the LB_GETITEMRECT message explicitly.
 old-location: controls\ListBox_GetItemRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getitemrect.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListBox_GetItemRect, ListBox_GetItemRect macro [Windows Controls], _win32_ListBox_GetItemRect, _win32_ListBox_GetItemRect_cpp, controls.ListBox_GetItemRect, controls._win32_ListBox_GetItemRect, windowsx/ListBox_GetItemRect
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ListBox_GetItemRect"
+f1_keywords:
+- windowsx/ListBox_GetItemRect
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ListBox_GetItemRect
+- ListBox_GetItemRect
 targetos: Windows
 req.typenames: 
 req.redist: 

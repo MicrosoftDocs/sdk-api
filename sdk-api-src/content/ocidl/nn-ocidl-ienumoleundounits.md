@@ -1,19 +1,17 @@
 ---
 UID: NN:ocidl.IEnumOleUndoUnits
 title: IEnumOleUndoUnits (ocidl.h)
-
 description: Enumerates the undo units on the undo or redo stack.
 old-location: com\ienumoleundounits.htm
 tech.root: com
 ms.assetid: f43cbd9d-d91b-4230-816f-693dec7056a4
-
 ms.date: 12/05/2018
 ms.keywords: IEnumOleUndoUnits, IEnumOleUndoUnits interface [COM], IEnumOleUndoUnits interface [COM],described, _ole_ienumoleundounits, com.ienumoleundounits, ocidl/IEnumOleUndoUnits
 ms.topic: interface
-f1_keywords: 
- - "ocidl/IEnumOleUndoUnits"
+f1_keywords:
+- ocidl/IEnumOleUndoUnits
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IEnumOleUndoUnits
+- IEnumOleUndoUnits
 targetos: Windows
 req.typenames: 
 req.redist: 

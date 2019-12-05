@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcnsi.RpcNsGroupMbrInqNextW
 title: RpcNsGroupMbrInqNextW function (rpcnsi.h)
-
 description: The RpcNsGroupMbrInqNext function returns one entry name from a group at a time.
 old-location: rpc\rpcnsgroupmbrinqnext.htm
 tech.root: Rpc
 ms.assetid: 58f32594-85de-4d20-86b2-210367ccb7ce
-
 ms.date: 12/05/2018
 ms.keywords: RpcNsGroupMbrInqNext, RpcNsGroupMbrInqNext function [RPC], RpcNsGroupMbrInqNextA, RpcNsGroupMbrInqNextW, _rpc_rpcnsgroupmbrinqnext, rpc.rpcnsgroupmbrinqnext, rpcnsi/RpcNsGroupMbrInqNext, rpcnsi/RpcNsGroupMbrInqNextA, rpcnsi/RpcNsGroupMbrInqNextW
 ms.topic: function
-f1_keywords: 
- - "rpcnsi/RpcNsGroupMbrInqNext"
+f1_keywords:
+- rpcnsi/RpcNsGroupMbrInqNext
 dev_langs:
- - c++
+- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcns4.dll
+- Rpcns4.dll
 api_name:
- - RpcNsGroupMbrInqNext
- - RpcNsGroupMbrInqNextA
- - RpcNsGroupMbrInqNextW
+- RpcNsGroupMbrInqNext
+- RpcNsGroupMbrInqNextA
+- RpcNsGroupMbrInqNextW
 targetos: Windows
 req.typenames: 
 req.redist: 

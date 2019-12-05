@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.UmsThreadYield
 title: UmsThreadYield function (winbase.h)
-
 description: Yields control to the user-mode scheduling (UMS) scheduler thread on which the calling UMS worker thread is running.
 old-location: base\umsthreadyield.htm
 tech.root: ProcThread
 ms.assetid: d7c94ed5-9536-4c39-8658-27e4237cc9ba
-
 ms.date: 12/05/2018
 ms.keywords: UmsThreadYield, UmsThreadYield function, base.umsthreadyield, winbase/UmsThreadYield
 ms.topic: function
-f1_keywords: 
- - "winbase/UmsThreadYield"
+f1_keywords:
+- winbase/UmsThreadYield
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-ums-l1-1-0.dll
+- kernel32.dll
+- API-MS-Win-Core-ums-l1-1-0.dll
 api_name:
- - UmsThreadYield
+- UmsThreadYield
 targetos: Windows
 req.typenames: 
 req.redist: 

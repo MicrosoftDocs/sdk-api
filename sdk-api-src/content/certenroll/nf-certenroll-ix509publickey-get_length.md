@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PublicKey.get_Length
 title: IX509PublicKey::get_Length (certenroll.h)
-
 description: Retrieves the length of the public key.
 old-location: security\ix509publickey_length_property.htm
 tech.root: seccertenroll
 ms.assetid: c386fb27-84c5-4570-9cdb-202baa726b96
-
 ms.date: 12/05/2018
 ms.keywords: IX509PublicKey interface [Security],Length property, IX509PublicKey.Length, IX509PublicKey.get_Length, IX509PublicKey::Length, IX509PublicKey::get_Length, Length property [Security], Length property [Security],IX509PublicKey interface, certenroll/IX509PublicKey::Length, certenroll/IX509PublicKey::get_Length, get_Length, security.ix509publickey_length_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PublicKey.Length"
+f1_keywords:
+- certenroll/IX509PublicKey.Length
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PublicKey.Length
- - IX509PublicKey.get_Length
+- IX509PublicKey.Length
+- IX509PublicKey.get_Length
 targetos: Windows
 req.typenames: 
 req.redist: 

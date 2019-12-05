@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11.D3D11_DSV_FLAG
 title: D3D11_DSV_FLAG (d3d11.h)
-
 description: Depth-stencil view options.
 old-location: direct3d11\d3d11_dsv_flag.htm
 tech.root: direct3d11
 ms.assetid: 8894ec55-9d56-4d41-a5d6-72ce064e3351
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_DSV_FLAG, D3D11_DSV_FLAG enumeration [Direct3D 11], D3D11_DSV_READ_ONLY_DEPTH, D3D11_DSV_READ_ONLY_STENCIL, d3d11/D3D11_DSV_FLAG, d3d11/D3D11_DSV_READ_ONLY_DEPTH, d3d11/D3D11_DSV_READ_ONLY_STENCIL, direct3d11.d3d11_dsv_flag, f62b0b22-d913-ed95-64ca-e81a26c5564b
 ms.topic: enum
-f1_keywords: 
- - "d3d11/D3D11_DSV_FLAG"
+f1_keywords:
+- d3d11/D3D11_DSV_FLAG
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_DSV_FLAG
+- D3D11_DSV_FLAG
 targetos: Windows
 req.typenames: D3D11_DSV_FLAG
 req.redist: 

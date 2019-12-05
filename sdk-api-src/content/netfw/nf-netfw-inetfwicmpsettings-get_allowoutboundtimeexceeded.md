@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.get_AllowOutboundTimeExceeded
 title: INetFwIcmpSettings::get_AllowOutboundTimeExceeded (netfw.h)
-
 description: Indicates whether exceeding the outbound time is allowed.
 old-location: ics\inetfwicmpsettings_allowoutboundtimeexceeded.htm
 tech.root: ics
 ms.assetid: b0a78d16-ce10-4978-bd66-e4841a4c52b6
-
 ms.date: 12/05/2018
 ms.keywords: AllowOutboundTimeExceeded property [ICS/ICF], AllowOutboundTimeExceeded property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowOutboundTimeExceeded property, INetFwIcmpSettings.AllowOutboundTimeExceeded, INetFwIcmpSettings.get_AllowOutboundTimeExceeded, INetFwIcmpSettings::AllowOutboundTimeExceeded, INetFwIcmpSettings::get_AllowOutboundTimeExceeded, INetFwIcmpSettings::put_AllowOutboundTimeExceeded, get_AllowOutboundTimeExceeded, ics.inetfwicmpsettings_allowoutboundtimeexceeded, netfw/INetFwIcmpSettings::AllowOutboundTimeExceeded, netfw/INetFwIcmpSettings::get_AllowOutboundTimeExceeded, netfw/INetFwIcmpSettings::put_AllowOutboundTimeExceeded
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwIcmpSettings.AllowOutboundTimeExceeded"
+f1_keywords:
+- netfw/INetFwIcmpSettings.AllowOutboundTimeExceeded
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwIcmpSettings.AllowOutboundTimeExceeded
- - INetFwIcmpSettings.get_AllowOutboundTimeExceeded
- - INetFwIcmpSettings.put_AllowOutboundTimeExceeded
+- INetFwIcmpSettings.AllowOutboundTimeExceeded
+- INetFwIcmpSettings.get_AllowOutboundTimeExceeded
+- INetFwIcmpSettings.put_AllowOutboundTimeExceeded
 targetos: Windows
 req.typenames: 
 req.redist: 

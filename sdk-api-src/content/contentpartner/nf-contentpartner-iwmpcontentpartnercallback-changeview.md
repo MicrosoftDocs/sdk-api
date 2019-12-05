@@ -1,19 +1,17 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.ChangeView
 title: IWMPContentPartnerCallback::ChangeView (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The ChangeView method changes the view in Windows Media Player.
 old-location: wmp\iwmpcontentpartnercallback_changeview.htm
 tech.root: WMP
 ms.assetid: eb796ef2-6d08-4746-952b-24ac51ae7733
-
 ms.date: 12/05/2018
 ms.keywords: ChangeView, ChangeView method [Windows Media Player], ChangeView method [Windows Media Player],IWMPContentPartnerCallback interface, IWMPContentPartnerCallback interface [Windows Media Player],ChangeView method, IWMPContentPartnerCallback.ChangeView, IWMPContentPartnerCallback::ChangeView, IWMPContentPartnerCallbackChangeView, contentpartner/IWMPContentPartnerCallback::ChangeView, wmp.iwmpcontentpartnercallback_changeview
 ms.topic: method
-f1_keywords: 
- - "contentpartner/IWMPContentPartnerCallback.ChangeView"
+f1_keywords:
+- contentpartner/IWMPContentPartnerCallback.ChangeView
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - IWMPContentPartnerCallback.ChangeView
+- IWMPContentPartnerCallback.ChangeView
 targetos: Windows
 req.typenames: 
 req.redist: 

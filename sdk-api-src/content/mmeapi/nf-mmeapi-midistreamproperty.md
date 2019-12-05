@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.midiStreamProperty
 title: midiStreamProperty function (mmeapi.h)
-
 description: The midiStreamProperty function sets or retrieves properties of a MIDI data stream associated with a MIDI output device.
 old-location: multimedia\midistreamproperty.htm
 tech.root: Multimedia
 ms.assetid: fb0f8bf4-5802-444e-9b2e-d9a7c80e3a20
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_midiStreamProperty, midiStreamProperty, midiStreamProperty function [Windows Multimedia], mmeapi/midiStreamProperty, multimedia.midistreamproperty"
+ms.keywords: _win32_midiStreamProperty, midiStreamProperty, midiStreamProperty function [Windows Multimedia], mmeapi/midiStreamProperty, multimedia.midistreamproperty
 ms.topic: function
-f1_keywords: 
- - "mmeapi/midiStreamProperty"
+f1_keywords:
+- mmeapi/midiStreamProperty
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - midiStreamProperty
+- midiStreamProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

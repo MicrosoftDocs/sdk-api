@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertPropertyBackedUp.Initialize
 title: ICertPropertyBackedUp::Initialize (certenroll.h)
-
 description: Initializes the object from a Boolean value and a date.
 old-location: security\icertpropertybackedup_initialize_method.htm
 tech.root: seccertenroll
 ms.assetid: 2ca941a6-898d-4955-b334-ffc15e10b330
-
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyBackedUp interface [Security],Initialize method, ICertPropertyBackedUp.Initialize, ICertPropertyBackedUp::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyBackedUp interface, certenroll/ICertPropertyBackedUp::Initialize, security.icertpropertybackedup_initialize_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertPropertyBackedUp.Initialize"
+f1_keywords:
+- certenroll/ICertPropertyBackedUp.Initialize
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertPropertyBackedUp.Initialize
+- ICertPropertyBackedUp.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

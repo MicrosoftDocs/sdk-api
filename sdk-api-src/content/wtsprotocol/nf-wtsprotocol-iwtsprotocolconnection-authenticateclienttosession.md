@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.AuthenticateClientToSession
 title: IWTSProtocolConnection::AuthenticateClientToSession (wtsprotocol.h)
-
 description: IWTSProtocolConnection::AuthenticateClientToSession is no longer available. Instead, use IWRdsProtocolConnection::AuthenticateClientToSession.
 old-location: termserv\iwtsprotocolconnection_authenticateclienttosession.htm
 tech.root: TermServ
 ms.assetid: 541bf463-9a4a-4237-8a61-1288ab1540cc
-
 ms.date: 12/05/2018
 ms.keywords: AuthenticateClientToSession, AuthenticateClientToSession method [Remote Desktop Services], AuthenticateClientToSession method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],AuthenticateClientToSession method, IWTSProtocolConnection.AuthenticateClientToSession, IWTSProtocolConnection::AuthenticateClientToSession, termserv.iwtsprotocolconnection_authenticateclienttosession, wtsprotocol/IWTSProtocolConnection::AuthenticateClientToSession
 ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolConnection.AuthenticateClientToSession
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

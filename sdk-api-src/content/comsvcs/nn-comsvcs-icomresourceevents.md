@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IComResourceEvents
 title: IComResourceEvents (comsvcs.h)
-
 description: Notifies the subscriber if a resource is created, allocated, tracked, or destroyed.
 old-location: cos\icomresourceevents.htm
 tech.root: cossdk
 ms.assetid: fdc664b6-0459-4cbd-8e9e-0c3fe82e4321
-
 ms.date: 12/05/2018
 ms.keywords: IComResourceEvents, IComResourceEvents interface [COM+], IComResourceEvents interface [COM+],described, _dtc_IComResourceEvents, comsvcs/IComResourceEvents, cos.icomresourceevents
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IComResourceEvents"
+f1_keywords:
+- comsvcs/IComResourceEvents
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComResourceEvents
+- IComResourceEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

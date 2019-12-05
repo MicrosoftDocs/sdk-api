@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsRemoteFXGraphicsConnection.GetVirtualChannelTransport
 title: IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport (wtsprotocol.h)
-
 description: Retrieves the virtual channel transport object.
 old-location: termserv\iwrdsremotefxgraphicsconnection_getvirtualchanneltransport.htm
 tech.root: TermServ
 ms.assetid: 70de545f-f630-40cc-8456-ea0703caba17
-
 ms.date: 12/05/2018
 ms.keywords: GetVirtualChannelTransport, GetVirtualChannelTransport method [Remote Desktop Services], GetVirtualChannelTransport method [Remote Desktop Services],IWRdsRemoteFXGraphicsConnection interface, IWRdsRemoteFXGraphicsConnection interface [Remote Desktop Services],GetVirtualChannelTransport method, IWRdsRemoteFXGraphicsConnection.GetVirtualChannelTransport, IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport, termserv.iwrdsremotefxgraphicsconnection_getvirtualchanneltransport, wtsprotocol/IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsRemoteFXGraphicsConnection.GetVirtualChannelTransport"
+f1_keywords:
+- wtsprotocol/IWRdsRemoteFXGraphicsConnection.GetVirtualChannelTransport
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsRemoteFXGraphicsConnection.GetVirtualChannelTransport
+- IWRdsRemoteFXGraphicsConnection.GetVirtualChannelTransport
 targetos: Windows
 req.typenames: 
 req.redist: 

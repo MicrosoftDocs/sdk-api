@@ -1,19 +1,17 @@
 ---
 UID: NF:msaatext.IAccClientDocMgr.LookupByPoint
 title: IAccClientDocMgr::LookupByPoint (msaatext.h)
-
 description: Clients call IAccClientDocMgr::LookupByPoint to get a document object from a point within the document.
 old-location: winauto\iaccclientdocmgr_iaccclientdocmgr__lookupbypoint.htm
 tech.root: WinAuto
 ms.assetid: 6de40049-3c61-458c-b7e0-c4b416780581
-
 ms.date: 12/05/2018
 ms.keywords: IAccClientDocMgr interface [Windows Accessibility],LookupByPoint method, IAccClientDocMgr.LookupByPoint, IAccClientDocMgr::LookupByPoint, LookupByPoint, LookupByPoint method [Windows Accessibility], LookupByPoint method [Windows Accessibility],IAccClientDocMgr interface, _msaa_IAccClientDocMgr_LookupByPoint, msaa.iaccclientdocmgr_iaccclientdocmgr__lookupbypoint, msaatext/IAccClientDocMgr::LookupByPoint, winauto.iaccclientdocmgr_iaccclientdocmgr__lookupbypoint
 ms.topic: method
-f1_keywords: 
- - "msaatext/IAccClientDocMgr.LookupByPoint"
+f1_keywords:
+- msaatext/IAccClientDocMgr.LookupByPoint
 dev_langs:
- - c++
+- c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msaatext.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msaatext.dll
+- msaatext.dll
 api_name:
- - IAccClientDocMgr.LookupByPoint
+- IAccClientDocMgr.LookupByPoint
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98

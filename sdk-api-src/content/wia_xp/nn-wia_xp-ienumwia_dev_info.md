@@ -1,19 +1,17 @@
 ---
 UID: NN:wia_xp.IEnumWIA_DEV_INFO
 title: IEnumWIA_DEV_INFO (wia_xp.h)
-
 description: The IEnumWIA_DEV_INFO interface enumerates the currently available Windows Image Acquisition (WIA) hardware devices and their properties. Device information properties describe the installation and configuration of WIA hardware devices.
 old-location: wia\_wia_IEnumWIA_DEV_INFO.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_dev_info\ienumwia_dev_info.htm
-
 ms.date: 12/05/2018
 ms.keywords: IEnumWIA_DEV_INFO, IEnumWIA_DEV_INFO interface [WIA], IEnumWIA_DEV_INFO interface [WIA],described, _wia_IEnumWIA_DEV_INFO, wia._wia_IEnumWIA_DEV_INFO, wia_xp/IEnumWIA_DEV_INFO
 ms.topic: interface
-f1_keywords: 
- - "wia_xp/IEnumWIA_DEV_INFO"
+f1_keywords:
+- wia_xp/IEnumWIA_DEV_INFO
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wiaguid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaguid.lib
- - Wiaguid.dll
+- Wiaguid.lib
+- Wiaguid.dll
 api_name:
- - IEnumWIA_DEV_INFO
+- IEnumWIA_DEV_INFO
 targetos: Windows
 req.typenames: 
 req.redist: 

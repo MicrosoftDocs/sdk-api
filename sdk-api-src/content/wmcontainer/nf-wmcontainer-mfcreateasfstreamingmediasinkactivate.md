@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.MFCreateASFStreamingMediaSinkActivate
 title: MFCreateASFStreamingMediaSinkActivate function (wmcontainer.h)
-
 description: Creates an activation object for the ASF streaming sink.
 old-location: mf\mfcreateasfstreamingmediasinkactivate.htm
 tech.root: medfound
 ms.assetid: ffcab5ee-400a-424f-ab98-3c9e36ef40ce
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateASFStreamingMediaSinkActivate, MFCreateASFStreamingMediaSinkActivate function [Media Foundation], mf.mfcreateasfstreamingmediasinkactivate, wmcontainer/MFCreateASFStreamingMediaSinkActivate
 ms.topic: function
-f1_keywords: 
- - "wmcontainer/MFCreateASFStreamingMediaSinkActivate"
+f1_keywords:
+- wmcontainer/MFCreateASFStreamingMediaSinkActivate
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateASFStreamingMediaSinkActivate
+- MFCreateASFStreamingMediaSinkActivate
 targetos: Windows
 req.typenames: 
 req.redist: 

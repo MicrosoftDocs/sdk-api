@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_ArchiveSizeLow
 title: IFaxConfiguration::get_ArchiveSizeLow (faxcomex.h)
-
 description: The value that specifies the low-order 32-bit value (in bytes) for the size of the fax message archive.
 old-location: fax\_mfax_ifaxconfiguration_archivesizelow.htm
 tech.root: Fax
 ms.assetid: e10cde26-deec-47b8-bc69-0b785087ab74
-
 ms.date: 12/05/2018
 ms.keywords: ArchiveSizeLow property [Fax Service], ArchiveSizeLow property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],ArchiveSizeLow property, IFaxConfiguration.ArchiveSizeLow, IFaxConfiguration.get_ArchiveSizeLow, IFaxConfiguration::ArchiveSizeLow, IFaxConfiguration::get_ArchiveSizeLow, fax._mfax_ifaxconfiguration_archivesizelow, faxcomex/IFaxConfiguration::ArchiveSizeLow, faxcomex/IFaxConfiguration::get_ArchiveSizeLow, get_ArchiveSizeLow
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxConfiguration.ArchiveSizeLow"
+f1_keywords:
+- faxcomex/IFaxConfiguration.ArchiveSizeLow
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxConfiguration.ArchiveSizeLow
- - IFaxConfiguration.get_ArchiveSizeLow
+- IFaxConfiguration.ArchiveSizeLow
+- IFaxConfiguration.get_ArchiveSizeLow
 targetos: Windows
 req.typenames: 
 req.redist: 

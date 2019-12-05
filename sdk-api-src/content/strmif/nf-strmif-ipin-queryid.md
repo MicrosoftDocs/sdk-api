@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IPin.QueryId
 title: IPin::QueryId (strmif.h)
-
 description: The QueryId method retrieves an identifier for the pin.
 old-location: dshow\ipin_queryid.htm
 tech.root: DirectShow
 ms.assetid: d4fb2713-549d-4c0d-9768-386bcffd696f
-
 ms.date: 12/05/2018
 ms.keywords: IPin interface [DirectShow],QueryId method, IPin.QueryId, IPin::QueryId, IPinQueryId, QueryId, QueryId method [DirectShow], QueryId method [DirectShow],IPin interface, dshow.ipin_queryid, strmif/IPin::QueryId
 ms.topic: method
-f1_keywords: 
- - "strmif/IPin.QueryId"
+f1_keywords:
+- strmif/IPin.QueryId
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IPin.QueryId
+- IPin.QueryId
 targetos: Windows
 req.typenames: 
 req.redist: 

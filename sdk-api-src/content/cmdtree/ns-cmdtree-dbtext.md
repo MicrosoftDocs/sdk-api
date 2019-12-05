@@ -1,19 +1,17 @@
 ---
 UID: NS:cmdtree.tagDBTEXT
 title: DBTEXT (cmdtree.h)
-
 description: The DBTEXT structure is used by the DBOP_text_command node.
 old-location: indexsrv\dbtext.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_2qyc.htm
-
 ms.date: 12/05/2018
 ms.keywords: DBTEXT, DBTEXT structure [Indexing Service], _idxs_DBTEXT, cmdtree/DBTEXT, indexsrv.dbtext, tagDBTEXT
 ms.topic: struct
-f1_keywords: 
- - "cmdtree/DBTEXT"
+f1_keywords:
+- cmdtree/DBTEXT
 dev_langs:
- - c++
+- c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - cmdtree.h
+- cmdtree.h
 api_name:
- - DBTEXT
+- DBTEXT
 targetos: Windows
 req.typenames: DBTEXT
 req.redist: 

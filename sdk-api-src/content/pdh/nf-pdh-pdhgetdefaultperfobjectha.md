@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhGetDefaultPerfObjectHA
 title: PdhGetDefaultPerfObjectHA function (pdh.h)
-
 description: Retrieves the name of the default object.
 old-location: perf\pdhgetdefaultperfobjecth.htm
 tech.root: perfctrs
 ms.assetid: 4950d5b7-3a6f-410d-830f-7868aa84f6d5
-
 ms.date: 12/05/2018
 ms.keywords: PdhGetDefaultPerfObjectH, PdhGetDefaultPerfObjectH function [Perf], PdhGetDefaultPerfObjectHA, PdhGetDefaultPerfObjectHW, _win32_pdhgetdefaultperfobjecth, base.pdhgetdefaultperfobjecth, pdh/PdhGetDefaultPerfObjectH, pdh/PdhGetDefaultPerfObjectHA, pdh/PdhGetDefaultPerfObjectHW, perf.pdhgetdefaultperfobjecth
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhGetDefaultPerfObjectH"
+f1_keywords:
+- pdh/PdhGetDefaultPerfObjectH
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhGetDefaultPerfObjectH
- - PdhGetDefaultPerfObjectHA
- - PdhGetDefaultPerfObjectHW
+- PdhGetDefaultPerfObjectH
+- PdhGetDefaultPerfObjectHA
+- PdhGetDefaultPerfObjectHW
 targetos: Windows
 req.typenames: 
 req.redist: 

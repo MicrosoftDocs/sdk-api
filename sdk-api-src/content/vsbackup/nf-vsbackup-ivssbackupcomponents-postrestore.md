@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.PostRestore
 title: IVssBackupComponents::PostRestore (vsbackup.h)
-
 description: The PostRestore method will cause VSS to generate a PostRestore event, signaling writers that the current restore operation has finished.
 old-location: base\ivssbackupcomponents_postrestore.htm
 tech.root: VSS
 ms.assetid: 01cf3931-59ef-4572-9f2e-aa210da0ac2d
-
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],PostRestore method, IVssBackupComponents.PostRestore, IVssBackupComponents::PostRestore, PostRestore, PostRestore method [VSS], PostRestore method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_postrestore, base.ivssbackupcomponents_postrestore, vsbackup/IVssBackupComponents::PostRestore
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.PostRestore"
+f1_keywords:
+- vsbackup/IVssBackupComponents.PostRestore
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.PostRestore
+- IVssBackupComponents.PostRestore
 targetos: Windows
 req.typenames: 
 req.redist: 

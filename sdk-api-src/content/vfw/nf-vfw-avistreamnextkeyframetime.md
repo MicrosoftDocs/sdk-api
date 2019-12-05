@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIStreamNextKeyFrameTime
 title: AVIStreamNextKeyFrameTime macro (vfw.h)
-
 description: The AVIStreamNextKeyFrameTime macro returns the time of the next key frame in the stream, starting at a given time.
 old-location: multimedia\avistreamnextkeyframetime.htm
 tech.root: Multimedia
 ms.assetid: 5eb338aa-6ccb-4adc-a46c-9f796c36a121
-
 ms.date: 12/05/2018
 ms.keywords: AVIStreamNextKeyFrameTime, AVIStreamNextKeyFrameTime macro [Windows Multimedia], _win32_AVIStreamNextKeyFrameTime, multimedia.avistreamnextkeyframetime, vfw/AVIStreamNextKeyFrameTime
 ms.topic: macro
-f1_keywords: 
- - "vfw/AVIStreamNextKeyFrameTime"
+f1_keywords:
+- vfw/AVIStreamNextKeyFrameTime
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - AVIStreamNextKeyFrameTime
+- AVIStreamNextKeyFrameTime
 targetos: Windows
 req.typenames: 
 req.redist: 

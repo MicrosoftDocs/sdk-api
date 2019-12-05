@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.IEnumTfContexts
 title: IEnumTfContexts (msctf.h)
-
 description: The IEnumTfContexts interface is implemented by the TSF manager to provide an enumeration of context objects.
 old-location: tsf\ienumtfcontexts.htm
 tech.root: TSF
 ms.assetid: 20b342e6-cac4-4bc5-820b-e397e0ce4648
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfContexts, IEnumTfContexts interface [Text Services Framework], IEnumTfContexts interface [Text Services Framework],described, _tsf_ienumtfcontexts_ref, msctf/IEnumTfContexts, tsf.ienumtfcontexts
 ms.topic: interface
-f1_keywords: 
- - "msctf/IEnumTfContexts"
+f1_keywords:
+- msctf/IEnumTfContexts
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - IEnumTfContexts
+- IEnumTfContexts
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

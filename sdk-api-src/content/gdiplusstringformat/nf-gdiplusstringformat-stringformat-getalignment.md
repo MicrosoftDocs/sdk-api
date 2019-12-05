@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GetAlignment
 title: StringFormat::GetAlignment (gdiplusstringformat.h)
-
 description: The StringFormat::GetAlignment method gets an element of the StringAlignment enumeration that indicates the character alignment of this StringFormat object in relation to the origin of the layout rectangle.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetAlignment_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\getalignment_66.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetAlignment, GetAlignment method [GDI+], GetAlignment method [GDI+],StringFormat class, StringFormat class [GDI+],GetAlignment method, StringFormat.GetAlignment, StringFormat::GetAlignment, _gdiplus_CLASS_StringFormat_GetAlignment_, gdiplus._gdiplus_CLASS_StringFormat_GetAlignment_
 ms.topic: method
-f1_keywords: 
- - "gdiplusstringformat/StringFormat.GetAlignment"
+f1_keywords:
+- gdiplusstringformat/StringFormat.GetAlignment
 dev_langs:
- - c++
+- c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - StringFormat.GetAlignment
+- StringFormat.GetAlignment
 targetos: Windows
 req.typenames: 
 req.redist: 

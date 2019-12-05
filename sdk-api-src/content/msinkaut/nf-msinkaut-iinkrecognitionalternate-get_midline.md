@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.get_Midline
 title: IInkRecognitionAlternate::get_Midline (msinkaut.h)
-
 description: Gets the midline for a IInkRecognitionAlternate object that represents a single line of text.
 old-location: tablet\iinkrecognitionalternate_midline.htm
 tech.root: tablet
 ms.assetid: ff12de3d-f760-4227-9406-634b19e66b4c
-
 ms.date: 12/05/2018
 ms.keywords: IInkRecognitionAlternate interface [Tablet PC],Midline property, IInkRecognitionAlternate.Midline, IInkRecognitionAlternate.get_Midline, IInkRecognitionAlternate::Midline, IInkRecognitionAlternate::get_Midline, Midline property [Tablet PC], Midline property [Tablet PC],IInkRecognitionAlternate interface, ff12de3d-f760-4227-9406-634b19e66b4c, get_Midline, msinkaut/IInkRecognitionAlternate::Midline, msinkaut/IInkRecognitionAlternate::get_Midline, tablet.iinkrecognitionalternate_midline
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognitionAlternate.Midline"
+f1_keywords:
+- msinkaut/IInkRecognitionAlternate.Midline
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognitionAlternate.Midline
- - IInkRecognitionAlternate.get_Midline
- - IInkRecognitionAlternate.get_Midline
+- IInkRecognitionAlternate.Midline
+- IInkRecognitionAlternate.get_Midline
+- IInkRecognitionAlternate.get_Midline
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.EjectNtmsCleaner
 title: EjectNtmsCleaner function (ntmsapi.h)
-
 description: The EjectNtmsCleaner function ejects the cleaning cartridge from the currently reserved cleaner slot.
 old-location: fs\ejectntmscleaner.htm
 tech.root: Rsm
 ms.assetid: a55a8f17-1a14-4267-ae39-1585e1090f21
-
 ms.date: 12/05/2018
 ms.keywords: EjectNtmsCleaner, EjectNtmsCleaner function [Files], NTMS_EJECT_START, NTMS_EJECT_STOP, _zaw_ejectntmscleaner, base.ejectntmscleaner, fs.ejectntmscleaner, ntmsapi/EjectNtmsCleaner
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/EjectNtmsCleaner"
+f1_keywords:
+- ntmsapi/EjectNtmsCleaner
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - EjectNtmsCleaner
+- EjectNtmsCleaner
 targetos: Windows
 req.typenames: 
 req.redist: 

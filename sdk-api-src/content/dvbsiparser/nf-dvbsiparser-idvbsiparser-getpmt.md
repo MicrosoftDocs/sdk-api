@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbSiParser.GetPMT
 title: IDvbSiParser::GetPMT (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsiparser_getpmt.htm
 tech.root: mstv
 ms.assetid: cb8f21f4-fa03-4006-8563-2026e70d5f43
-
 ms.date: 12/05/2018
 ms.keywords: GetPMT, GetPMT method [Microsoft TV Technologies], GetPMT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetPMT method, IDvbSiParser.GetPMT, IDvbSiParser::GetPMT, IDvbSiParserGetPMT, dvbsiparser/IDvbSiParser::GetPMT, mstv.idvbsiparser_getpmt
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbSiParser.GetPMT"
+f1_keywords:
+- dvbsiparser/IDvbSiParser.GetPMT
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbSiParser.GetPMT
+- IDvbSiParser.GetPMT
 targetos: Windows
 req.typenames: 
 req.redist: 

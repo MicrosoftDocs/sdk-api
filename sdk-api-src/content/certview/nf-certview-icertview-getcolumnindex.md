@@ -1,19 +1,17 @@
 ---
 UID: NF:certview.ICertView.GetColumnIndex
 title: ICertView::GetColumnIndex (certview.h)
-
 description: Retrieves the zero-based index of a column.
 old-location: security\icertview2_getcolumnindex.htm
 tech.root: SecCrypto
 ms.assetid: 3d869db9-b4df-4fcd-85e7-19fe773b4262
-
 ms.date: 12/05/2018
 ms.keywords: CCertView object [Security],GetColumnIndex method, CVRC_COLUMN_MASK, CVRC_COLUMN_RESULT, CVRC_COLUMN_SCHEMA, CVRC_COLUMN_VALUE, GetColumnIndex, GetColumnIndex method [Security], GetColumnIndex method [Security],CCertView object, GetColumnIndex method [Security],ICertView interface, GetColumnIndex method [Security],ICertView2 interface, ICertView interface [Security],GetColumnIndex method, ICertView.GetColumnIndex, ICertView2 interface [Security],GetColumnIndex method, ICertView2::GetColumnIndex, ICertView::GetColumnIndex, certview/ICertView2::GetColumnIndex, certview/ICertView::GetColumnIndex, security.icertview2_getcolumnindex
 ms.topic: method
-f1_keywords: 
- - "certview/ICertView2.GetColumnIndex"
+f1_keywords:
+- certview/ICertView2.GetColumnIndex
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - ICertView2.GetColumnIndex
- - ICertView.GetColumnIndex
- - CCertView.GetColumnIndex
+- ICertView2.GetColumnIndex
+- ICertView.GetColumnIndex
+- CCertView.GetColumnIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:syncregistration.ISyncRegistrationChange
 title: ISyncRegistrationChange (syncregistration.h)
-
 description: Represents a change to the registration of a synchronization provider or a synchronization provider configuration UI. The changes are reported as registration events.
 old-location: winsync\isyncregistrationchange.htm
 tech.root: winsync
 ms.assetid: 45376bd2-1f5f-4f4c-9c4c-f5add9438d5c
-
 ms.date: 12/05/2018
 ms.keywords: ISyncRegistrationChange, ISyncRegistrationChange interface [Windows Sync], ISyncRegistrationChange interface [Windows Sync],described, syncregistration/ISyncRegistrationChange, winsync.isyncregistrationchange
 ms.topic: interface
-f1_keywords: 
- - "syncregistration/ISyncRegistrationChange"
+f1_keywords:
+- syncregistration/ISyncRegistrationChange
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - ISyncRegistrationChange
+- ISyncRegistrationChange
 targetos: Windows
 req.typenames: 
 req.redist: 

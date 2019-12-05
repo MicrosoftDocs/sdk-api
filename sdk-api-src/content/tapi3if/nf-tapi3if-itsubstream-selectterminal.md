@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITSubStream.SelectTerminal
 title: ITSubStream::SelectTerminal (tapi3if.h)
-
 description: The SelectTerminal method selects an ITTerminal object onto the substream. See the Remarks section under ITStream::SelectTerminal for additional information.
 old-location: tapi3\itsubstream_selectterminal.htm
 tech.root: Tapi
 ms.assetid: 5dc558ab-7422-4106-831e-9d2812530e0a
-
 ms.date: 12/05/2018
 ms.keywords: ITSubStream interface [TAPI 2.2],SelectTerminal method, ITSubStream.SelectTerminal, ITSubStream::SelectTerminal, SelectTerminal, SelectTerminal method [TAPI 2.2], SelectTerminal method [TAPI 2.2],ITSubStream interface, _tapi3_itsubstream_selectterminal, tapi3.itsubstream_selectterminal, tapi3if/ITSubStream::SelectTerminal
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITSubStream.SelectTerminal"
+f1_keywords:
+- tapi3if/ITSubStream.SelectTerminal
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - ITSubStream.SelectTerminal
+- ITSubStream.SelectTerminal
 targetos: Windows
 req.typenames: 
 req.redist: 

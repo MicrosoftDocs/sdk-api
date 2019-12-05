@@ -1,19 +1,17 @@
 ---
 UID: NF:wcsplugin.IGamutMapModelPlugIn.Initialize
 title: IGamutMapModelPlugIn::Initialize (wcsplugin.h)
-
 description: Initializes a gamut map model profile (GMMP) by using the specified source and destination gamut boundary descriptions and optional source and destination device model plug-ins.
 old-location: wcs\IGamutMapModelPlugIn_Initialize.htm
 tech.root: WCS
 ms.assetid: 86fb0f6b-d293-44de-ad1d-724436403535
-
 ms.date: 12/05/2018
 ms.keywords: IGamutMapModelPlugIn interface [Windows Color System],Initialize method, IGamutMapModelPlugIn.Initialize, IGamutMapModelPlugIn::Initialize, Initialize, Initialize method [Windows Color System], Initialize method [Windows Color System],IGamutMapModelPlugIn interface, _color_IGamutMapModelPlugIn::Initialize, wcs.IGamutMapModelPlugIn_Initialize, wcsplugin/IGamutMapModelPlugIn::Initialize
 ms.topic: method
 f1_keywords:
 - wcsplugin/IGamutMapModelPlugIn.Initialize
 dev_langs:
- - c++
+- c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

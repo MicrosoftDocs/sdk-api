@@ -1,19 +1,17 @@
 ---
 UID: NS:documenttarget.__MIDL___MIDL_itf_documenttarget_0000_0001_0001
 title: PrintDocumentPackageStatus (documenttarget.h)
-
 description: Defines a payload to be used by the PackageStatusUpdated method. This structure is a generic version of XPS_JOB_STATUS.
 old-location: xps\printdocumentpackagestatus.htm
 tech.root: printdocs
 ms.assetid: A499CB8D-B2E3-4343-A9AF-079C75EF1441
-
 ms.date: 12/05/2018
 ms.keywords: PPrintDocumentPackageStatus, PPrintDocumentPackageStatus structure pointer [XPS Documents and Packaging], PrintDocumentPackageStatus, PrintDocumentPackageStatus structure [XPS Documents and Packaging], documenttarget/PPrintDocumentPackageStatus, documenttarget/PrintDocumentPackageStatus, xps.printdocumentpackagestatus
 ms.topic: struct
-f1_keywords: 
- - "documenttarget/PrintDocumentPackageStatus"
+f1_keywords:
+- documenttarget/PrintDocumentPackageStatus
 dev_langs:
- - c++
+- c++
 req.header: documenttarget.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Documenttarget.h
+- Documenttarget.h
 api_name:
- - PrintDocumentPackageStatus
+- PrintDocumentPackageStatus
 targetos: Windows
 req.typenames: PrintDocumentPackageStatus
 req.redist: 

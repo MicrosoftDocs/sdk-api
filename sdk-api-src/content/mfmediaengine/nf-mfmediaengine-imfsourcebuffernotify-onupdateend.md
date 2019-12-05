@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBufferNotify.OnUpdateEnd
 title: IMFSourceBufferNotify::OnUpdateEnd (mfmediaengine.h)
-
 description: Used to indicate that the source buffer has finished updating.
 old-location: mf\imfsourcebuffernotify_onupdateend.htm
 tech.root: medfound
 ms.assetid: a06d5765-d91e-4cbc-ac12-09d1ce4d84f6
-
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnUpdateEnd method, IMFSourceBufferNotify.OnUpdateEnd, IMFSourceBufferNotify::OnUpdateEnd, OnUpdateEnd, OnUpdateEnd method [Media Foundation], OnUpdateEnd method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onupdateend, mfmediaengine/IMFSourceBufferNotify::OnUpdateEnd
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFSourceBufferNotify.OnUpdateEnd"
+f1_keywords:
+- mfmediaengine/IMFSourceBufferNotify.OnUpdateEnd
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFSourceBufferNotify.OnUpdateEnd
+- IMFSourceBufferNotify.OnUpdateEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

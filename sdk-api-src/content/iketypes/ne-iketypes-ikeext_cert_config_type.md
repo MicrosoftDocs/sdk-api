@@ -1,19 +1,17 @@
 ---
 UID: NE:iketypes.IKEEXT_CERT_CONFIG_TYPE_
 title: IKEEXT_CERT_CONFIG_TYPE (iketypes.h)
-
 description: Indicates a type of certificate configuration.
 old-location: fwp\ikeext_cert_config_type.htm
 tech.root: fwp
 ms.assetid: b137e27b-c361-4fd2-9b3b-5c2b364576d4
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_CERT_CONFIG_ENTERPRISE_STORE, IKEEXT_CERT_CONFIG_EXPLICIT_TRUST_LIST, IKEEXT_CERT_CONFIG_TRUSTED_ROOT_STORE, IKEEXT_CERT_CONFIG_TYPE, IKEEXT_CERT_CONFIG_TYPE enumeration [Filtering], IKEEXT_CERT_CONFIG_TYPE_MAX, IKEEXT_CERT_CONFIG_UNSPECIFIED, fwp.ikeext_cert_config_type, iketypes/IKEEXT_CERT_CONFIG_ENTERPRISE_STORE, iketypes/IKEEXT_CERT_CONFIG_EXPLICIT_TRUST_LIST, iketypes/IKEEXT_CERT_CONFIG_TRUSTED_ROOT_STORE, iketypes/IKEEXT_CERT_CONFIG_TYPE, iketypes/IKEEXT_CERT_CONFIG_TYPE_MAX, iketypes/IKEEXT_CERT_CONFIG_UNSPECIFIED
 ms.topic: enum
-f1_keywords: 
- - "iketypes/IKEEXT_CERT_CONFIG_TYPE"
+f1_keywords:
+- iketypes/IKEEXT_CERT_CONFIG_TYPE
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_CERT_CONFIG_TYPE
+- IKEEXT_CERT_CONFIG_TYPE
 targetos: Windows
 req.typenames: IKEEXT_CERT_CONFIG_TYPE
 req.redist: 

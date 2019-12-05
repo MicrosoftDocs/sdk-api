@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumITfCompositionView.Next
 title: IEnumITfCompositionView::Next (msctf.h)
-
 description: IEnumITfCompositionView::Next method
 old-location: tsf\ienumitfcompositionview_next.htm
 tech.root: TSF
 ms.assetid: 70b0dd55-41c0-4188-b79e-e49a0e203949
-
 ms.date: 12/05/2018
 ms.keywords: IEnumITfCompositionView interface [Text Services Framework],Next method, IEnumITfCompositionView.Next, IEnumITfCompositionView::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumITfCompositionView interface, _tsf_ienumitfcompositionview_next_ref, msctf/IEnumITfCompositionView::Next, tsf.ienumitfcompositionview_next
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumITfCompositionView.Next"
+f1_keywords:
+- msctf/IEnumITfCompositionView.Next
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - IEnumITfCompositionView.Next
+- IEnumITfCompositionView.Next
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

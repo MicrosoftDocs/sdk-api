@@ -1,19 +1,17 @@
 ---
 UID: NE:objidl.tagMKREDUCE
 title: MKRREDUCE (objidl.h)
-
 description: Specifies how far a moniker should be reduced.
 old-location: com\mkrreduce.htm
 tech.root: com
 ms.assetid: ab918d0f-18f2-4ab0-805f-aa228c0d6a82
-
 ms.date: 12/05/2018
 ms.keywords: MKRREDUCE, MKRREDUCE enumeration [COM], MKRREDUCE_ALL, MKRREDUCE_ONE, MKRREDUCE_THROUGHUSER, MKRREDUCE_TOUSER, _com_MKRREDUCE, com.mkrreduce, objidl/MKRREDUCE, objidl/MKRREDUCE_ALL, objidl/MKRREDUCE_ONE, objidl/MKRREDUCE_THROUGHUSER, objidl/MKRREDUCE_TOUSER
 ms.topic: enum
-f1_keywords: 
- - "objidl/MKRREDUCE"
+f1_keywords:
+- objidl/MKRREDUCE
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Objidl.h
+- Objidl.h
 api_name:
- - MKRREDUCE
+- MKRREDUCE
 targetos: Windows
 req.typenames: MKRREDUCE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaSession.ClearTopologies
 title: IMFMediaSession::ClearTopologies (mfidl.h)
-
 description: Clears all of the presentations that are queued for playback in the Media Session.
 old-location: mf\imfmediasession_cleartopologies.htm
 tech.root: medfound
 ms.assetid: fcb7e5f1-1095-4766-afed-43ad2279abb4
-
 ms.date: 12/05/2018
 ms.keywords: ClearTopologies, ClearTopologies method [Media Foundation], ClearTopologies method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],ClearTopologies method, IMFMediaSession.ClearTopologies, IMFMediaSession::ClearTopologies, fcb7e5f1-1095-4766-afed-43ad2279abb4, mf.imfmediasession_cleartopologies, mfidl/IMFMediaSession::ClearTopologies
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaSession.ClearTopologies"
+f1_keywords:
+- mfidl/IMFMediaSession.ClearTopologies
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSession.ClearTopologies
+- IMFMediaSession.ClearTopologies
 targetos: Windows
 req.typenames: 
 req.redist: 

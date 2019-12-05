@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.ImpersonateAnonymousToken
 title: ImpersonateAnonymousToken function (securitybaseapi.h)
-
 description: Enables the specified thread to impersonate the system's anonymous logon token.
 old-location: security\impersonateanonymoustoken.htm
 tech.root: SecAuthZ
 ms.assetid: 98d1072e-f569-4c8c-9254-fa558054c7ec
-
 ms.date: 12/05/2018
 ms.keywords: ImpersonateAnonymousToken, ImpersonateAnonymousToken function [Security], _win32_impersonateanonymoustoken, security.impersonateanonymoustoken, securitybaseapi/ImpersonateAnonymousToken
 ms.topic: function
-f1_keywords: 
- - "securitybaseapi/ImpersonateAnonymousToken"
+f1_keywords:
+- securitybaseapi/ImpersonateAnonymousToken
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - KernelBase.dll
- - API-MS-Win-Security-base-l1-1-0.dll
- - API-MS-Win-Security-base-l1-2-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Security-Base-L1-2-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- KernelBase.dll
+- API-MS-Win-Security-base-l1-1-0.dll
+- API-MS-Win-Security-base-l1-2-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - ImpersonateAnonymousToken
+- ImpersonateAnonymousToken
 targetos: Windows
 req.typenames: 
 req.redist: 

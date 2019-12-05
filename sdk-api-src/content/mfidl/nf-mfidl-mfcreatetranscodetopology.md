@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateTranscodeTopology
 title: MFCreateTranscodeTopology function (mfidl.h)
-
 description: Creates a partial transcode topology.
 old-location: mf\mfcreatetranscodetopology.htm
 tech.root: medfound
 ms.assetid: ef3f19bf-1db9-459d-9617-d6cca9d6aba7
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateTranscodeTopology, MFCreateTranscodeTopology function [Media Foundation], mf.mfcreatetranscodetopology, mfidl/MFCreateTranscodeTopology
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateTranscodeTopology"
+f1_keywords:
+- mfidl/MFCreateTranscodeTopology
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateTranscodeTopology
+- MFCreateTranscodeTopology
 targetos: Windows
 req.typenames: 
 req.redist: 

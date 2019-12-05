@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilEnumResources
 title: ResUtilEnumResources function (resapi.h)
-
 description: Enumerates all of the resources in the local cluster and initiates a user-defined operation for each resource. The PRESUTIL_ENUM_RESOURCES type defines a pointer to this function.
 old-location: mscs\resutilenumresources.htm
 tech.root: MsCS
 ms.assetid: 109fefb7-a5fc-44d2-80c0-9a08ce8d91bf
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_ENUM_RESOURCES, PRESUTIL_ENUM_RESOURCES function [Failover Cluster], ResUtilEnumResources, ResUtilEnumResources function [Failover Cluster], _wolf_resutilenumresources, mscs.resutilenumresources, resapi/PRESUTIL_ENUM_RESOURCES, resapi/ResUtilEnumResources
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilEnumResources"
+f1_keywords:
+- resapi/ResUtilEnumResources
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilEnumResources
+- ResUtilEnumResources
 targetos: Windows
 req.typenames: 
 req.redist: 

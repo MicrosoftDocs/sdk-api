@@ -1,19 +1,17 @@
 ---
 UID: NF:dispatcherqueue.CreateDispatcherQueueController
 title: CreateDispatcherQueueController function (dispatcherqueue.h)
-
 description: Creates a DispatcherQueueController on the caller's thread. Use the created DispatcherQueueController to create and manage the lifetime of a DispatcherQueue to run queued tasks in priority order on the Dispatcher queue's thread.
 old-location: base\createdispatcherqueuecontroller.htm
 tech.root: ProcThread
 ms.assetid: 750097BB-C4D1-4579-9353-582124D5CE3B
-
 ms.date: 12/05/2018
 ms.keywords: CreateDispatcherQueueController, CreateDispatcherQueueController function, base.createdispatcherqueuecontroller, dispatcherqueue/CreateDispatcherQueueController
 ms.topic: function
-f1_keywords: 
- - "dispatcherqueue/CreateDispatcherQueueController"
+f1_keywords:
+- dispatcherqueue/CreateDispatcherQueueController
 dev_langs:
- - c++
+- c++
 req.header: dispatcherqueue.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CoreMessaging.lib
 req.dll: CoreMessaging.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CoreMessaging.dll
+- CoreMessaging.dll
 api_name:
- - CreateDispatcherQueueController
+- CreateDispatcherQueueController
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:cscobj.IOfflineFilesFileItem
 title: IOfflineFilesFileItem (cscobj.h)
-
 description: Represents a file item in the Offline Files cache.
 old-location: of\iofflinefilesfileitem.htm
 tech.root: offlinefiles
 ms.assetid: 53b9af4b-7526-4b54-bae2-61c97aa67ebf
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesFileItem, IOfflineFilesFileItem interface [Offline Files], IOfflineFilesFileItem interface [Offline Files],described, cscobj/IOfflineFilesFileItem, of.iofflinefilesfileitem
 ms.topic: interface
-f1_keywords: 
- - "cscobj/IOfflineFilesFileItem"
+f1_keywords:
+- cscobj/IOfflineFilesFileItem
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesFileItem
+- IOfflineFilesFileItem
 targetos: Windows
 req.typenames: 
 req.redist: 

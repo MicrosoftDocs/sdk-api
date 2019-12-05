@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IPin.EndFlush
 title: IPin::EndFlush (strmif.h)
-
 description: The EndFlush method ends a flush operation.
 old-location: dshow\ipin_endflush.htm
 tech.root: DirectShow
 ms.assetid: 42b201b6-1fbf-4a01-aed7-23a9e66c11ea
-
 ms.date: 12/05/2018
 ms.keywords: EndFlush, EndFlush method [DirectShow], EndFlush method [DirectShow],IPin interface, IPin interface [DirectShow],EndFlush method, IPin.EndFlush, IPin::EndFlush, IPinEndFlush, dshow.ipin_endflush, strmif/IPin::EndFlush
 ms.topic: method
-f1_keywords: 
- - "strmif/IPin.EndFlush"
+f1_keywords:
+- strmif/IPin.EndFlush
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IPin.EndFlush
+- IPin.EndFlush
 targetos: Windows
 req.typenames: 
 req.redist: 

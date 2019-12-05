@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS
 title: D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS (d3d11.h)
-
 description: Defines a group of video processor capabilities that are associated with frame-rate conversion, including deinterlacing and inverse telecine.
 old-location: mf\d3d11_video_processor_rate_conversion_caps.htm
 tech.root: medfound
 ms.assetid: C8C50AE4-5F4F-42AB-8FBB-37D24C4D6081
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS, D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS, mf.d3d11_video_processor_rate_conversion_caps
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS"
+f1_keywords:
+- d3d11/D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS
+- D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS
 targetos: Windows
 req.typenames: D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:propsys.IPropertyDescription
 title: IPropertyDescription (propsys.h)
-
 description: Exposes methods that enumerate and retrieve individual property description details.
 old-location: properties\IPropertyDescription.htm
 tech.root: properties
 ms.assetid: 9abd476c-450e-4381-b28e-afca00d4b179
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyDescription, IPropertyDescription interface [Windows Properties], IPropertyDescription interface [Windows Properties],described, properties.IPropertyDescription, propsys/IPropertyDescription, shell.IPropertyDescription, shell_IPropertyDescription
 ms.topic: interface
-f1_keywords: 
- - "propsys/IPropertyDescription"
+f1_keywords:
+- propsys/IPropertyDescription
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyDescription
+- IPropertyDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetLastPrinted
 title: IXpsOMCoreProperties::SetLastPrinted (xpsobjectmodel.h)
-
 description: Sets the lastPrinted property.
 old-location: xps\ixpsomcoreproperties_setlastprinted.htm
 tech.root: printdocs
 ms.assetid: 7b1cf459-b140-4793-a9e0-4153a00b9bc2
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetLastPrinted method, IXpsOMCoreProperties.SetLastPrinted, IXpsOMCoreProperties::SetLastPrinted, SetLastPrinted, SetLastPrinted method [XPS Documents and Packaging], SetLastPrinted method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setlastprinted, xpsobjectmodel/IXpsOMCoreProperties::SetLastPrinted
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCoreProperties.SetLastPrinted"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCoreProperties.SetLastPrinted
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.SetLastPrinted
+- IXpsOMCoreProperties.SetLastPrinted
 targetos: Windows
 req.typenames: 
 req.redist: 

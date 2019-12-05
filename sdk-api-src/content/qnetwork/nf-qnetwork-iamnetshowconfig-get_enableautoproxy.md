@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_EnableAutoProxy
 title: IAMNetShowConfig::get_EnableAutoProxy (qnetwork.h)
-
 description: The get_EnableAutoProxy method queries whether the control or filter should use the browser's proxy settings.
 old-location: dshow\iamnetshowconfig_get_enableautoproxy.htm
 tech.root: DirectShow
 ms.assetid: 7037f326-3320-4e4a-8f6f-feda1a306c2d
-
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_EnableAutoProxy method, IAMNetShowConfig.get_EnableAutoProxy, IAMNetShowConfig::get_EnableAutoProxy, IAMNetShowConfigget_EnableAutoProxy, dshow.iamnetshowconfig_get_enableautoproxy, get_EnableAutoProxy, get_EnableAutoProxy method [DirectShow], get_EnableAutoProxy method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_EnableAutoProxy
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMNetShowConfig.get_EnableAutoProxy"
+f1_keywords:
+- qnetwork/IAMNetShowConfig.get_EnableAutoProxy
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMNetShowConfig.get_EnableAutoProxy
+- IAMNetShowConfig.get_EnableAutoProxy
 targetos: Windows
 req.typenames: 
 req.redist: 

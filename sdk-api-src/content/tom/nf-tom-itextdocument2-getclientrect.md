@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument2.GetClientRect
 title: ITextDocument2::GetClientRect (tom.h)
-
 description: Retrieves the client rectangle of the rich edit control.
 old-location: controls\itextdocument2_getclientrect.htm
 tech.root: Controls
 ms.assetid: a5736c58-e402-421d-aa4a-79b65460b692
-
 ms.date: 12/05/2018
 ms.keywords: GetClientRect, GetClientRect method [Windows Controls], GetClientRect method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetClientRect method, ITextDocument2.GetClientRect, ITextDocument2::GetClientRect, controls.itextdocument2_getclientrect, tom/ITextDocument2::GetClientRect, tomClientCoord, tomIncludeInset, tomTransform
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument2.GetClientRect"
+f1_keywords:
+- tom/ITextDocument2.GetClientRect
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument2.GetClientRect
+- ITextDocument2.GetClientRect
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantGetUInt32Elem
 title: VariantGetUInt32Elem function (propvarutil.h)
-
 description: Extracts a single unsigned Int32 element from a variant structure.
 old-location: properties\VariantGetUInt32Elem.htm
 tech.root: properties
 ms.assetid: b950d051-2500-4523-8307-5817274878f2
-
 ms.date: 12/05/2018
 ms.keywords: VariantGetUInt32Elem, VariantGetUInt32Elem function [Windows Properties], _shell_VariantGetUInt32Elem, properties.VariantGetUInt32Elem, propvarutil/VariantGetUInt32Elem, shell.VariantGetUInt32Elem
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantGetUInt32Elem"
+f1_keywords:
+- propvarutil/VariantGetUInt32Elem
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantGetUInt32Elem
+- VariantGetUInt32Elem
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

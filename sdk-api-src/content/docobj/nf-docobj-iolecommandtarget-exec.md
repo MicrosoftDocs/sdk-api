@@ -1,19 +1,17 @@
 ---
 UID: NF:docobj.IOleCommandTarget.Exec
 title: IOleCommandTarget::Exec (docobj.h)
-
 description: Executes the specified command or displays help for the command.
 old-location: com\iolecommandtarget_exec.htm
 tech.root: com
 ms.assetid: a2071ca9-8675-4f53-b30e-8c7198c2acca
-
 ms.date: 12/05/2018
 ms.keywords: Exec, Exec method [COM], Exec method [COM],IOleCommandTarget interface, IOleCommandTarget interface [COM],Exec method, IOleCommandTarget.Exec, IOleCommandTarget::Exec, _ole_iolecommandtarget_exec, com.iolecommandtarget_exec, docobj/IOleCommandTarget::Exec
 ms.topic: method
-f1_keywords: 
- - "docobj/IOleCommandTarget.Exec"
+f1_keywords:
+- docobj/IOleCommandTarget.Exec
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IOleCommandTarget.Exec
+- IOleCommandTarget.Exec
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProvider.get_MajorBuild
 title: IFaxDeviceProvider::get_MajorBuild (faxcomex.h)
-
 description: The IFaxDeviceProvider::get_MajorBuild property is a value that specifies the major part of the build number for the fax service provider (FSP)Â DLL.
 old-location: fax\_mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_majorbuild_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1z6s.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDeviceProvider interface [Fax Service],MajorBuild property, IFaxDeviceProvider.MajorBuild, IFaxDeviceProvider.get_MajorBuild, IFaxDeviceProvider::MajorBuild, IFaxDeviceProvider::get_MajorBuild, MajorBuild property [Fax Service], MajorBuild property [Fax Service],IFaxDeviceProvider interface, _mfax_faxdeviceprovider.majorbuild, fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_majorbuild_cpp, fax._mfax_faxdeviceprovider_majorbuild, faxcomex/IFaxDeviceProvider::MajorBuild, faxcomex/IFaxDeviceProvider::get_MajorBuild, get_MajorBuild
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDeviceProvider.MajorBuild"
+f1_keywords:
+- faxcomex/IFaxDeviceProvider.MajorBuild
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDeviceProvider.MajorBuild
- - IFaxDeviceProvider.get_MajorBuild
- - IFaxDeviceProvider.get_MajorBuild
+- IFaxDeviceProvider.MajorBuild
+- IFaxDeviceProvider.get_MajorBuild
+- IFaxDeviceProvider.get_MajorBuild
 targetos: Windows
 req.typenames: 
 req.redist: 

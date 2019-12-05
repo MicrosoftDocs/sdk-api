@@ -1,19 +1,17 @@
 ---
 UID: NF:lmshare.NetSessionDel
 title: NetSessionDel function (lmshare.h)
-
 description: Ends a network session between a server and a workstation.
 old-location: fs\netsessiondel.htm
 tech.root: NetShare
 ms.assetid: a1360f5d-9fd0-44af-b9f5-ab9bc057dfe6
-
 ms.date: 12/05/2018
 ms.keywords: NetSessionDel, NetSessionDel function [Files], _win32_netsessiondel, fs.netsessiondel, lmshare/NetSessionDel, netmgmt.netsessiondel
 ms.topic: function
-f1_keywords: 
- - "lmshare/NetSessionDel"
+f1_keywords:
+- lmshare/NetSessionDel
 dev_langs:
- - c++
+- c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetSessionDel
+- NetSessionDel
 targetos: Windows
 req.typenames: 
 req.redist: 

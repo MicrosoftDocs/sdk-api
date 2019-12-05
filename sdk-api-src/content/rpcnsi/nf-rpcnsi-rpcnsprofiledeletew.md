@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcnsi.RpcNsProfileDeleteW
 title: RpcNsProfileDeleteW function (rpcnsi.h)
-
 description: The RpcNsProfileDelete function deletes a profile attribute.
 old-location: rpc\rpcnsprofiledelete.htm
 tech.root: Rpc
 ms.assetid: bac77a37-a4e8-4edf-a31b-28692ccec0f7
-
 ms.date: 12/05/2018
 ms.keywords: RpcNsProfileDelete, RpcNsProfileDelete function [RPC], RpcNsProfileDeleteA, RpcNsProfileDeleteW, _rpc_rpcnsprofiledelete, rpc.rpcnsprofiledelete, rpcnsi/RpcNsProfileDelete, rpcnsi/RpcNsProfileDeleteA, rpcnsi/RpcNsProfileDeleteW
 ms.topic: function
-f1_keywords: 
- - "rpcnsi/RpcNsProfileDelete"
+f1_keywords:
+- rpcnsi/RpcNsProfileDelete
 dev_langs:
- - c++
+- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcns4.dll
+- Rpcns4.dll
 api_name:
- - RpcNsProfileDelete
- - RpcNsProfileDeleteA
- - RpcNsProfileDeleteW
+- RpcNsProfileDelete
+- RpcNsProfileDeleteA
+- RpcNsProfileDeleteW
 targetos: Windows
 req.typenames: 
 req.redist: 

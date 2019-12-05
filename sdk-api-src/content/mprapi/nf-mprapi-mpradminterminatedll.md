@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminTerminateDll
 title: MprAdminTerminateDll function (mprapi.h)
-
 description: When the RAS shuts down, it calls the MprAdminTerminateDll function exported by the administration DLL. Use this function to perform any required clean-up for the DLL.
 old-location: rras\mpradminterminatedll.htm
 tech.root: RRAS
 ms.assetid: 7be485ce-fd45-4968-9e9d-2128d5a8967d
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminTerminateDll, MprAdminTerminateDll callback, MprAdminTerminateDll callback function [RAS], _mpr_mpradminterminatedll, mprapi/MprAdminTerminateDll, rras.mpradminterminatedll
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminTerminateDll"
+f1_keywords:
+- mprapi/MprAdminTerminateDll
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - MprAdminTerminateDll
+- MprAdminTerminateDll
 targetos: Windows
 req.typenames: 
 req.redist: 

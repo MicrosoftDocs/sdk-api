@@ -1,19 +1,17 @@
 ---
 UID: NF:powersetting.PowerSettingRegisterNotification
 title: PowerSettingRegisterNotification function (powersetting.h)
-
 description: Registers to receive notification when a power setting changes.
 old-location: base\powersettingregisternotification.htm
 tech.root: power
 ms.assetid: 0fbca717-2367-4407-8094-3eb2b717b59c
-
 ms.date: 12/05/2018
 ms.keywords: DEVICE_NOTIFY_CALLBACK, DEVICE_NOTIFY_SERVICE_HANDLE, PowerSettingRegisterNotification, PowerSettingRegisterNotification function, base.powersettingregisternotification, powersetting/PowerSettingRegisterNotification, powrprof/PowerSettingRegisterNotification
 ms.topic: function
-f1_keywords: 
- - "powersetting/PowerSettingRegisterNotification"
+f1_keywords:
+- powersetting/PowerSettingRegisterNotification
 dev_langs:
- - c++
+- c++
 req.header: powersetting.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Powrprof.lib
 req.dll: Powrprof.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Powrprof.dll
- - API-MS-Win-power-setting-l1-1-0.dll
+- Powrprof.dll
+- API-MS-Win-power-setting-l1-1-0.dll
 api_name:
- - PowerSettingRegisterNotification
+- PowerSettingRegisterNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

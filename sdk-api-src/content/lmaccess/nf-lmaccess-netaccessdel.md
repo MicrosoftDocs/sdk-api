@@ -1,19 +1,17 @@
 ---
 UID: NF:lmaccess.NetAccessDel
 title: NetAccessDel function (lmaccess.h)
-
 description: Not supported.
 old-location: netmgmt\netaccessdel.htm
 tech.root: NetMgmt
 ms.assetid: be33d9b4-9740-4ccb-ac95-25ae02edaa42
-
 ms.date: 12/05/2018
 ms.keywords: NetAccessDel, NetAccessDel function [Network Management], _win32_netaccessdel, lmaccess/NetAccessDel, netmgmt.netaccessdel
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetAccessDel"
+f1_keywords:
+- lmaccess/NetAccessDel
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h, Lmaccess.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetAccessDel
+- NetAccessDel
 targetos: Windows
 req.typenames: 
 req.redist: 

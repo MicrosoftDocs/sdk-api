@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11_2.D3D11_TILE_MAPPING_FLAG
 title: D3D11_TILE_MAPPING_FLAG (d3d11_2.h)
-
 description: Identifies how to perform a tile-mapping operation.
 old-location: direct3d11\d3d11_tile_mapping_flags.htm
 tech.root: direct3d11
 ms.assetid: 13B4665C-F8A2-45A7-BBE9-FEB45FB08963
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_TILE_MAPPING_FLAG, D3D11_TILE_MAPPING_FLAG enumeration [Direct3D 11], D3D11_TILE_MAPPING_NO_OVERWRITE, d3d11_2/D3D11_TILE_MAPPING_FLAG, d3d11_2/D3D11_TILE_MAPPING_NO_OVERWRITE, direct3d11.d3d11_tile_mapping_flags
 ms.topic: enum
-f1_keywords: 
- - "d3d11_2/D3D11_TILE_MAPPING_FLAG"
+f1_keywords:
+- d3d11_2/D3D11_TILE_MAPPING_FLAG
 dev_langs:
- - c++
+- c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11_2.h
+- D3D11_2.h
 api_name:
- - D3D11_TILE_MAPPING_FLAG
+- D3D11_TILE_MAPPING_FLAG
 targetos: Windows
 req.typenames: D3D11_TILE_MAPPING_FLAG
 req.redist: 

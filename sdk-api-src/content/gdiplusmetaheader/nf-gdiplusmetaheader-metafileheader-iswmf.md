@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.IsWmf
 title: MetafileHeader::IsWmf (gdiplusmetaheader.h)
-
 description: The MetafileHeader::IsWmf method determines whether the associated metafile is in the WMF format.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_IsWmf_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\iswmf.htm
-
 ms.date: 12/05/2018
 ms.keywords: IsWmf, IsWmf method [GDI+], IsWmf method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],IsWmf method, MetafileHeader.IsWmf, MetafileHeader::IsWmf, _gdiplus_CLASS_MetafileHeader_IsWmf_, gdiplus._gdiplus_CLASS_MetafileHeader_IsWmf_
 ms.topic: method
-f1_keywords: 
- - "gdiplusmetaheader/MetafileHeader.IsWmf"
+f1_keywords:
+- gdiplusmetaheader/MetafileHeader.IsWmf
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - MetafileHeader.IsWmf
+- MetafileHeader.IsWmf
 targetos: Windows
 req.typenames: 
 req.redist: 

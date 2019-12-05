@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPCdromCollection.getByDriveSpecifier
 title: IWMPCdromCollection::getByDriveSpecifier (wmp.h)
-
 description: The getByDriveSpecifier method retrieves a pointer to an IWMPCdrom interface associated with a particular drive letter.
 old-location: wmp\iwmpcdromcollection_getbydrivespecifier.htm
 tech.root: WMP
 ms.assetid: b48679da-c8f3-4e9d-89cd-0ecbcbc07fe4
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromCollection interface [Windows Media Player],getByDriveSpecifier method, IWMPCdromCollection.getByDriveSpecifier, IWMPCdromCollection::getByDriveSpecifier, IWMPCdromCollectiongetByDriveSpecifier, getByDriveSpecifier, getByDriveSpecifier method [Windows Media Player], getByDriveSpecifier method [Windows Media Player],IWMPCdromCollection interface, wmp.iwmpcdromcollection_getbydrivespecifier, wmp/IWMPCdromCollection::getByDriveSpecifier
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPCdromCollection.getByDriveSpecifier"
+f1_keywords:
+- wmp/IWMPCdromCollection.getByDriveSpecifier
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPCdromCollection.getByDriveSpecifier
+- IWMPCdromCollection.getByDriveSpecifier
 targetos: Windows
 req.typenames: 
 req.redist: 

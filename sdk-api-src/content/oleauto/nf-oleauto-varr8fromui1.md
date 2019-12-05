@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarR8FromUI1
 title: VarR8FromUI1 function (oleauto.h)
-
 description: Converts an unsigned char value to a double value.
 old-location: automat\varr8fromui1.htm
 tech.root: automat
 ms.assetid: f7c3e1f5-ed39-45e0-bfb3-a3a7c396c4ee
-
 ms.date: 12/05/2018
 ms.keywords: VarR8FromUI1, VarR8FromUI1 function [Automation], _oa96_VarR8FromUI1, automat.varr8fromui1, oleauto/VarR8FromUI1
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarR8FromUI1"
+f1_keywords:
+- oleauto/VarR8FromUI1
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarR8FromUI1
+- VarR8FromUI1
 targetos: Windows
 req.typenames: 
 req.redist: 

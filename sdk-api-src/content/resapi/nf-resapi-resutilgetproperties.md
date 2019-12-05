@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilGetProperties
 title: ResUtilGetProperties function (resapi.h)
-
 description: Retrieves properties specified by a property table from the cluster database and returns them in a property list. The PRESUTIL_GET_PROPERTIES type defines a pointer to this function.
 old-location: mscs\resutilgetproperties.htm
 tech.root: MsCS
 ms.assetid: 6ed03916-660f-4862-b638-900c9b8e4bef
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_PROPERTIES, PRESUTIL_GET_PROPERTIES function [Failover Cluster], ResUtilGetProperties, ResUtilGetProperties function [Failover Cluster], _wolf_resutilgetproperties, mscs.resutilgetproperties, resapi/PRESUTIL_GET_PROPERTIES, resapi/ResUtilGetProperties
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilGetProperties"
+f1_keywords:
+- resapi/ResUtilGetProperties
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilGetProperties
+- ResUtilGetProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

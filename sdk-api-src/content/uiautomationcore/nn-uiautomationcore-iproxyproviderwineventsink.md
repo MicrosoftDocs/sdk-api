@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationcore.IProxyProviderWinEventSink
 title: IProxyProviderWinEventSink (uiautomationcore.h)
-
 description: Exposes methods used by proxy providers to raise events.
 old-location: winauto\uiauto_IProxyProviderWinEventSink.htm
 tech.root: WinAuto
 ms.assetid: 55489e34-ab23-4c65-9d6f-e2ff39bca74c
-
 ms.date: 12/05/2018
 ms.keywords: IProxyProviderWinEventSink, IProxyProviderWinEventSink interface [Windows Accessibility], IProxyProviderWinEventSink interface [Windows Accessibility],described, uiauto.uiauto_IProxyProviderWinEventSink, uiauto_IProxyProviderWinEventSink, uiautomationcore/IProxyProviderWinEventSink, winauto.uiauto_IProxyProviderWinEventSink
 ms.topic: interface
-f1_keywords: 
- - "uiautomationcore/IProxyProviderWinEventSink"
+f1_keywords:
+- uiautomationcore/IProxyProviderWinEventSink
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IProxyProviderWinEventSink
+- IProxyProviderWinEventSink
 targetos: Windows
 req.typenames: 
 req.redist: 

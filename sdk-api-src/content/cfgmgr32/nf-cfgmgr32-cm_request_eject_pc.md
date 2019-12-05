@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Request_Eject_PC
 title: CM_Request_Eject_PC function (cfgmgr32.h)
-
 description: The CM_Request_Eject_PC function requests that a portable PC, which is inserted in a local docking station, be ejected.
 old-location: devinst\cm_request_eject_pc.htm
 tech.root: devinst
 ms.assetid: 45d8151a-67d0-4cb1-8593-4cfb271a3411
-
 ms.date: 12/05/2018
 ms.keywords: CM_Request_Eject_PC, CM_Request_Eject_PC function [Device and Driver Installation], cfgmgr32/CM_Request_Eject_PC, cfgmgrfn_b5855f88-c1d1-432e-bac2-ffe6a728418e.xml, devinst.cm_request_eject_pc
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Request_Eject_PC"
+f1_keywords:
+- cfgmgr32/CM_Request_Eject_PC
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib: Cfgmgr32.lib
 req.dll: Cfgmgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.dll
+- Cfgmgr32.dll
 api_name:
- - CM_Request_Eject_PC
+- CM_Request_Eject_PC
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certif.ICertServerPolicy.GetCertificateExtension
 title: ICertServerPolicy::GetCertificateExtension (certif.h)
-
 description: Retrieves a specific certificate extension.
 old-location: security\icertserverpolicy_getcertificateextension.htm
 tech.root: SecCrypto
 ms.assetid: e2c8e1d5-6ddb-4c8f-8052-f45cd52e2bef
-
 ms.date: 12/05/2018
 ms.keywords: CCertServerPolicy object [Security],GetCertificateExtension method, GetCertificateExtension, GetCertificateExtension method [Security], GetCertificateExtension method [Security],CCertServerPolicy object, GetCertificateExtension method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],GetCertificateExtension method, ICertServerPolicy.GetCertificateExtension, ICertServerPolicy::GetCertificateExtension, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, _certsrv_icertserverpolicy_getcertificateextension, certif/ICertServerPolicy::GetCertificateExtension, security.icertserverpolicy_getcertificateextension
 ms.topic: method
-f1_keywords: 
- - "certif/ICertServerPolicy.GetCertificateExtension"
+f1_keywords:
+- certif/ICertServerPolicy.GetCertificateExtension
 dev_langs:
- - c++
+- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certcli.dll
+- Certcli.dll
 api_name:
- - ICertServerPolicy.GetCertificateExtension
- - CCertServerPolicy.GetCertificateExtension
+- ICertServerPolicy.GetCertificateExtension
+- CCertServerPolicy.GetCertificateExtension
 targetos: Windows
 req.typenames: 
 req.redist: 

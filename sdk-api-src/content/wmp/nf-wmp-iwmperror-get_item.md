@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPError.get_item
 title: IWMPError::get_item (wmp.h)
-
 description: The get_item method retrieves a pointer to an IWMPErrorItem interface from the error queue.
 old-location: wmp\iwmperror_get_item.htm
 tech.root: WMP
 ms.assetid: 6fda2f53-e8d8-4b67-9aa1-72273fc68f6c
-
 ms.date: 12/05/2018
 ms.keywords: IWMPError interface [Windows Media Player],get_item method, IWMPError.get_item, IWMPError::get_item, IWMPErrorget_item, get_item, get_item method [Windows Media Player], get_item method [Windows Media Player],IWMPError interface, wmp.iwmperror_get_item, wmp/IWMPError::get_item
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPError.get_item"
+f1_keywords:
+- wmp/IWMPError.get_item
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPError.get_item
+- IWMPError.get_item
 targetos: Windows
 req.typenames: 
 req.redist: 

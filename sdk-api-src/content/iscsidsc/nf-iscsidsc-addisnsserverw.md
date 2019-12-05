@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.AddISNSServerW
 title: AddISNSServerW function (iscsidsc.h)
-
 description: AddIsnsServer function adds a new server to the list of Internet Storage Name Service (iSNS) servers that the iSCSI initiator service uses to discover targets.
 old-location: iscsidisc\addisnsserver.htm
 tech.root: iSCSIDisc
 ms.assetid: c01f00f9-2929-4745-a60b-89ab1143a084
-
 ms.date: 12/05/2018
 ms.keywords: AddISNSServerW, AddIsnsServer, AddIsnsServer function [iSCSI Discovery Library API], AddIsnsServerA, AddIsnsServerW, iscsidisc.addisnsserver, iscsidsc/AddIsnsServer, iscsidsc/AddIsnsServerA, iscsidsc/AddIsnsServerW
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/AddIsnsServer"
+f1_keywords:
+- iscsidsc/AddIsnsServer
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - AddIsnsServer
- - AddIsnsServerA
- - AddIsnsServerW
+- AddIsnsServer
+- AddIsnsServerA
+- AddIsnsServerW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:ifdef._NET_PHYSICAL_LOCATION_LH
 title: NET_PHYSICAL_LOCATION_LH (ifdef.h)
-
 description: The NET_PHYSICAL_LOCATION structure provides NDIS with information about the physical location of a registered network interface.
 old-location: netvista\net_physical_location.htm
 tech.root: NetVista
 ms.assetid: e5661e05-a83f-4632-af98-2a021eeb7d80
-
 ms.date: 12/05/2018
-ms.keywords: "*PNET_PHYSICAL_LOCATION, *PNET_PHYSICAL_LOCATION_LH, NET_PHYSICAL_LOCATION, NET_PHYSICAL_LOCATION structure [Network Drivers Starting with Windows Vista], NET_PHYSICAL_LOCATION_LH, ifdef/NET_PHYSICAL_LOCATION, net_if_struct_ref_838a8166-a43e-4b5a-ab96-15286d981684.xml, netvista.net_physical_location"
+ms.keywords: '*PNET_PHYSICAL_LOCATION, *PNET_PHYSICAL_LOCATION_LH, NET_PHYSICAL_LOCATION, NET_PHYSICAL_LOCATION structure [Network Drivers Starting with Windows Vista], NET_PHYSICAL_LOCATION_LH, ifdef/NET_PHYSICAL_LOCATION, net_if_struct_ref_838a8166-a43e-4b5a-ab96-15286d981684.xml, netvista.net_physical_location'
 ms.topic: struct
-f1_keywords: 
- - "ifdef/NET_PHYSICAL_LOCATION"
+f1_keywords:
+- ifdef/NET_PHYSICAL_LOCATION
 dev_langs:
- - c++
+- c++
 req.header: ifdef.h
 req.include-header: Ntddndis.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ifdef.h
+- Ifdef.h
 api_name:
- - NET_PHYSICAL_LOCATION
+- NET_PHYSICAL_LOCATION
 targetos: Windows
 req.typenames: NET_PHYSICAL_LOCATION_LH, *PNET_PHYSICAL_LOCATION_LH
 req.redist: 

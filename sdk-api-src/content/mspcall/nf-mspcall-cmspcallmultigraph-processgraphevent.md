@@ -1,19 +1,17 @@
 ---
 UID: NF:mspcall.CMSPCallMultiGraph.ProcessGraphEvent
 title: CMSPCallMultiGraph::ProcessGraphEvent (mspcall.h)
-
 description: The ProcessGraphEvent method (as defined in MSPCall.h) is called on the MSP worker thread.
 old-location: tapi3\cmspcallmultigraph_processgraphevent.htm
 tech.root: Tapi
 ms.assetid: 2b41a8ac-8aa1-47d0-ad90-f6f177895149
-
 ms.date: 12/05/2018
 ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],ProcessGraphEvent method, CMSPCallMultiGraph.ProcessGraphEvent, CMSPCallMultiGraph::ProcessGraphEvent, ProcessGraphEvent, ProcessGraphEvent method [TAPI 2.2], ProcessGraphEvent method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_processgraphevent, mspcall/CMSPCallMultiGraph::ProcessGraphEvent, tapi3.cmspcallmultigraph_processgraphevent
 ms.topic: method
-f1_keywords: 
- - "mspcall/CMSPCallMultiGraph.ProcessGraphEvent"
+f1_keywords:
+- mspcall/CMSPCallMultiGraph.ProcessGraphEvent
 dev_langs:
- - c++
+- c++
 req.header: mspcall.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mspcall.h
+- Mspcall.h
 api_name:
- - CMSPCallMultiGraph.ProcessGraphEvent
+- CMSPCallMultiGraph.ProcessGraphEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

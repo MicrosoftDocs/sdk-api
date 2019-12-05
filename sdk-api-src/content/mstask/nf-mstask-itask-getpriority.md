@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.ITask.GetPriority
 title: ITask::GetPriority (mstask.h)
-
 description: This method retrieves the priority for the task.
 old-location: taskschd\itask_getpriority.htm
 tech.root: taskschd
 ms.assetid: 4ace8ab8-e629-4cf9-9bdf-416b2f67c4cd
-
 ms.date: 12/05/2018
 ms.keywords: GetPriority, GetPriority method [Task Scheduler], GetPriority method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetPriority method, ITask.GetPriority, ITask::GetPriority, _msb_itask_getpriority, mstask/ITask::GetPriority, taskschd.itask_getpriority
 ms.topic: method
-f1_keywords: 
- - "mstask/ITask.GetPriority"
+f1_keywords:
+- mstask/ITask.GetPriority
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - ITask.GetPriority
+- ITask.GetPriority
 targetos: Windows
 req.typenames: 
 req.redist: 

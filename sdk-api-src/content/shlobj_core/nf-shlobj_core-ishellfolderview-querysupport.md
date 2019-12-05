@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.QuerySupport
 title: IShellFolderView::QuerySupport (shlobj_core.h)
-
 description: QuerySupport may be altered or unavailable.
 old-location: shell\IShellFolderView_QuerySupport.htm
 tech.root: shell
 ms.assetid: 0e998e31-7842-4d17-a9e6-35663ff1474a
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],QuerySupport method, IShellFolderView.QuerySupport, IShellFolderView::QuerySupport, QuerySupport, QuerySupport method [Windows Shell], QuerySupport method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_QuerySupport, shell.IShellFolderView_QuerySupport, shlobj_core/IShellFolderView::QuerySupport
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IShellFolderView.QuerySupport"
+f1_keywords:
+- shlobj_core/IShellFolderView.QuerySupport
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - IShellFolderView.QuerySupport
+- IShellFolderView.QuerySupport
 targetos: Windows
 req.typenames: 
 req.redist: 

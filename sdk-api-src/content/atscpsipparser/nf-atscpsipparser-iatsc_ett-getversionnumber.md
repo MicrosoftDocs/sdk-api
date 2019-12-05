@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IATSC_ETT.GetVersionNumber
 title: IATSC_ETT::GetVersionNumber (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_ett_getversionnumber.htm
 tech.root: mstv
 ms.assetid: bd9eefda-51ff-472c-b363-2f3c21ae2fec
-
 ms.date: 12/05/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IATSC_ETT interface, IATSC_ETT interface [Microsoft TV Technologies],GetVersionNumber method, IATSC_ETT.GetVersionNumber, IATSC_ETT::GetVersionNumber, IATSC_ETTGetVersionNumber, atscpsipparser/IATSC_ETT::GetVersionNumber, mstv.iatsc_ett_getversionnumber
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IATSC_ETT.GetVersionNumber"
+f1_keywords:
+- atscpsipparser/IATSC_ETT.GetVersionNumber
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IATSC_ETT.GetVersionNumber
+- IATSC_ETT.GetVersionNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

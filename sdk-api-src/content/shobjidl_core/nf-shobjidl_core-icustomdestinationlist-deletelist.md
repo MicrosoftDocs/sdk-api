@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ICustomDestinationList.DeleteList
 title: ICustomDestinationList::DeleteList (shobjidl_core.h)
-
 description: Deletes a custom Jump List for a specified application.
 old-location: shell\ICustomDestinationList_DeleteList.htm
 tech.root: shell
 ms.assetid: ef246f5a-9fcf-4475-b19a-e676f0351f3f
-
 ms.date: 12/05/2018
 ms.keywords: DeleteList, DeleteList method [Windows Shell], DeleteList method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],DeleteList method, ICustomDestinationList.DeleteList, ICustomDestinationList::DeleteList, _shell_ICustomDestinationList_DeleteList, shell.ICustomDestinationList_DeleteList, shobjidl_core/ICustomDestinationList::DeleteList
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ICustomDestinationList.DeleteList"
+f1_keywords:
+- shobjidl_core/ICustomDestinationList.DeleteList
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICustomDestinationList.DeleteList
+- ICustomDestinationList.DeleteList
 targetos: Windows
 req.typenames: 
 req.redist: 

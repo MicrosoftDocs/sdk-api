@@ -1,19 +1,17 @@
 ---
 UID: NF:bluetoothapis.BluetoothSelectDevicesFree
 title: BluetoothSelectDevicesFree function (bluetoothapis.h)
-
 description: Frees resources associated with a previous call to BluetoothSelectDevices.
 old-location: bluetooth\bluetoothselectdevicesfree.htm
 tech.root: bluetooth
 ms.assetid: 9332e62d-a7ee-452e-8e21-27bbbc82448e
-
 ms.date: 12/05/2018
 ms.keywords: BluetoothSelectDevicesFree, BluetoothSelectDevicesFree function [Bluetooth], _bth_bluetoothselectdevicesfree, bluetooth.bluetoothselectdevicesfree, bluetoothapis/BluetoothSelectDevicesFree
 ms.topic: function
-f1_keywords: 
- - "bluetoothapis/BluetoothSelectDevicesFree"
+f1_keywords:
+- bluetoothapis/BluetoothSelectDevicesFree
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bthprops.lib
 req.dll: Bthprops.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bthprops.dll
+- Bthprops.dll
 api_name:
- - BluetoothSelectDevicesFree
+- BluetoothSelectDevicesFree
 targetos: Windows
 req.typenames: 
 req.redist: 

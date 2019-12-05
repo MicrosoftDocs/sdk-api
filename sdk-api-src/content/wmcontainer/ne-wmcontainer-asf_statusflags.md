@@ -1,19 +1,17 @@
 ---
 UID: NE:wmcontainer.ASF_STATUSFLAGS
 title: ASF_STATUSFLAGS (wmcontainer.h)
-
 description: Defines status conditions for the IMFASFSplitter::GetNextSample method.
 old-location: mf\asf_statusflags.htm
 tech.root: medfound
 ms.assetid: c8f1944a-2b61-4c6e-8c87-37c2985fbdca
-
 ms.date: 12/05/2018
 ms.keywords: ASF_STATUSFLAGS, ASF_STATUSFLAGS enumeration [Media Foundation], ASF_STATUSFLAGS_INCOMPLETE, ASF_STATUSFLAGS_NONFATAL_ERROR, c8f1944a-2b61-4c6e-8c87-37c2985fbdca, mf.asf_statusflags, wmcontainer/ASF_STATUSFLAGS, wmcontainer/ASF_STATUSFLAGS_INCOMPLETE, wmcontainer/ASF_STATUSFLAGS_NONFATAL_ERROR
 ms.topic: enum
-f1_keywords: 
- - "wmcontainer/ASF_STATUSFLAGS"
+f1_keywords:
+- wmcontainer/ASF_STATUSFLAGS
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmcontainer.h
+- wmcontainer.h
 api_name:
- - ASF_STATUSFLAGS
+- ASF_STATUSFLAGS
 targetos: Windows
 req.typenames: ASF_STATUSFLAGS
 req.redist: 

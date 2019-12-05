@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IBaseFilter
 title: IBaseFilter (strmif.h)
-
 description: The IBaseFilter interface is the primary interface for DirectShow filters.
 old-location: dshow\ibasefilter.htm
 tech.root: DirectShow
 ms.assetid: d8c09dc7-dae8-4b51-8da8-69e64928a091
-
 ms.date: 12/05/2018
 ms.keywords: IBaseFilter, IBaseFilter interface [DirectShow], IBaseFilter interface [DirectShow],described, IBaseFilterInterface, dshow.ibasefilter, strmif/IBaseFilter
 ms.topic: interface
-f1_keywords: 
- - "strmif/IBaseFilter"
+f1_keywords:
+- strmif/IBaseFilter
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBaseFilter
+- IBaseFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

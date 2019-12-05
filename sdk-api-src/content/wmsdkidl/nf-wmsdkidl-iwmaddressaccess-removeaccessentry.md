@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMAddressAccess.RemoveAccessEntry
 title: IWMAddressAccess::RemoveAccessEntry (wmsdkidl.h)
-
 description: The RemoveAccessEntry method removes an access entry.
 old-location: wmformat\iwmaddressaccess_removeaccessentry.htm
 tech.root: wmformat
 ms.assetid: f3f9d493-90b4-4b2a-ad18-baf2b09bc72e
-
 ms.date: 12/05/2018
 ms.keywords: IWMAddressAccess interface [windows Media Format],RemoveAccessEntry method, IWMAddressAccess.RemoveAccessEntry, IWMAddressAccess::RemoveAccessEntry, IWMAddressAccessRemoveAccessEntry, RemoveAccessEntry, RemoveAccessEntry method [windows Media Format], RemoveAccessEntry method [windows Media Format],IWMAddressAccess interface, wmformat.iwmaddressaccess_removeaccessentry, wmsdkidl/IWMAddressAccess::RemoveAccessEntry
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMAddressAccess.RemoveAccessEntry"
+f1_keywords:
+- wmsdkidl/IWMAddressAccess.RemoveAccessEntry
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMAddressAccess.RemoveAccessEntry
+- IWMAddressAccess.RemoveAccessEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

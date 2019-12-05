@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.RemoveClusterGroupToGroupSetDependency
 title: RemoveClusterGroupToGroupSetDependency function (clusapi.h)
-
 description: Removes a groupset from a group's dependency expression.
 old-location: mscs\removeclustergrouptogroupcollectiondependency.htm
 tech.root: MsCS
 ms.assetid: 2bd7e1f4-0b88-466f-a408-dddb9a11a52d
-
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_REMOVE_CLUSTER_GROUP_TO_GROUP_GROUPSET_DEPENDENCY, PCLUSAPI_REMOVE_CLUSTER_GROUP_TO_GROUP_GROUPSET_DEPENDENCY function [Failover Cluster], RemoveClusterGroupToGroupSetDependency, RemoveClusterGroupToGroupSetDependency function [Failover Cluster], clusapi/PCLUSAPI_REMOVE_CLUSTER_GROUP_TO_GROUP_GROUPSET_DEPENDENCY, clusapi/RemoveClusterGroupToGroupSetDependency, mscs.removeclustergrouptogroupcollectiondependency
 ms.topic: function
-f1_keywords: 
- - "clusapi/RemoveClusterGroupToGroupSetDependency"
+f1_keywords:
+- clusapi/RemoveClusterGroupToGroupSetDependency
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - RemoveClusterGroupToGroupSetDependency
+- RemoveClusterGroupToGroupSetDependency
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITMultiTrackTerminal.EnumerateTrackTerminals
 title: ITMultiTrackTerminal::EnumerateTrackTerminals (tapi3if.h)
-
 description: The EnumerateTrackTerminals method creates and returns an enumeration containing the terminals contained by the multitrack terminal on which this method was called.
 old-location: tapi3\itmultitrackterminal_enumeratetrackterminals.htm
 tech.root: Tapi
 ms.assetid: 90ef12f5-1a94-49ca-85c3-092306503827
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateTrackTerminals, EnumerateTrackTerminals method [TAPI 2.2], EnumerateTrackTerminals method [TAPI 2.2],ITMultiTrackTerminal interface, ITMultiTrackTerminal interface [TAPI 2.2],EnumerateTrackTerminals method, ITMultiTrackTerminal.EnumerateTrackTerminals, ITMultiTrackTerminal::EnumerateTrackTerminals, _tapi3_itmultitrackterminal_enumeratetrackterminals, tapi3.itmultitrackterminal_enumeratetrackterminals, tapi3if/ITMultiTrackTerminal::EnumerateTrackTerminals
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITMultiTrackTerminal.EnumerateTrackTerminals"
+f1_keywords:
+- tapi3if/ITMultiTrackTerminal.EnumerateTrackTerminals
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITMultiTrackTerminal.EnumerateTrackTerminals
+- ITMultiTrackTerminal.EnumerateTrackTerminals
 targetos: Windows
 req.typenames: 
 req.redist: 

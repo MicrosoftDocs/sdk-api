@@ -1,19 +1,17 @@
 ---
 UID: NF:peerdist.PeerDistClientCloseContent
 title: PeerDistClientCloseContent function (peerdist.h)
-
 description: PeerDistClientCloseContent function closes the content handle opened by PeerDistClientOpenContent.
 old-location: p2p\peerdistclientclosecontent.htm
 tech.root: P2PSdk
 ms.assetid: c55300b7-13b6-42bf-b673-56a5e077416d
-
 ms.date: 12/05/2018
 ms.keywords: PeerDistClientCloseContent, PeerDistClientCloseContent function [Peer Networking], p2p.peerdistclientclosecontent, peerdist/PeerDistClientCloseContent
 ms.topic: function
-f1_keywords: 
- - "peerdist/PeerDistClientCloseContent"
+f1_keywords:
+- peerdist/PeerDistClientCloseContent
 dev_langs:
- - c++
+- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PeerDist.lib
 req.dll: PeerDist.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PeerDist.dll
+- PeerDist.dll
 api_name:
- - PeerDistClientCloseContent
+- PeerDistClientCloseContent
 targetos: Windows
 req.typenames: 
 req.redist: 

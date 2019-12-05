@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetNamedWhitePoint
 title: IWICDevelopRaw::SetNamedWhitePoint (wincodec.h)
-
 description: Sets the named white point of the raw file.
 old-location: wic\_wic_codec_iwicdevelopraw_setnamedwhitepoint.htm
 tech.root: wic
 ms.assetid: eb83233d-7967-4160-bebf-2b06378f77ab
-
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetNamedWhitePoint method, IWICDevelopRaw.SetNamedWhitePoint, IWICDevelopRaw::SetNamedWhitePoint, SetNamedWhitePoint, SetNamedWhitePoint method [Windows Imaging Component], SetNamedWhitePoint method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setnamedwhitepoint, wic._wic_codec_iwicdevelopraw_setnamedwhitepoint, wincodec/IWICDevelopRaw::SetNamedWhitePoint
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICDevelopRaw.SetNamedWhitePoint"
+f1_keywords:
+- wincodec/IWICDevelopRaw.SetNamedWhitePoint
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICDevelopRaw.SetNamedWhitePoint
+- IWICDevelopRaw.SetNamedWhitePoint
 targetos: Windows
 req.typenames: 
 req.redist: 

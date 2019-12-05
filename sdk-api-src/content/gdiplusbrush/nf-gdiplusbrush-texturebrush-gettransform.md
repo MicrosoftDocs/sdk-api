@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.GetTransform
 title: TextureBrush::GetTransform (gdiplusbrush.h)
-
 description: The TextureBrush::GetTransform method gets the transformation matrix of this texture brush.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_GetTransform_matrix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\gettransform_92matrix.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetTransform, GetTransform method [GDI+], GetTransform method [GDI+],TextureBrush class, TextureBrush class [GDI+],GetTransform method, TextureBrush.GetTransform, TextureBrush::GetTransform, _gdiplus_CLASS_TextureBrush_GetTransform_matrix_, gdiplus._gdiplus_CLASS_TextureBrush_GetTransform_matrix_
 ms.topic: method
-f1_keywords: 
- - "gdiplusbrush/TextureBrush.GetTransform"
+f1_keywords:
+- gdiplusbrush/TextureBrush.GetTransform
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - TextureBrush.GetTransform
+- TextureBrush.GetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.SYNC_TRANSFER_STATUS
 title: SYNC_TRANSFER_STATUS (shobjidl_core.h)
-
 description: Specifies possible status values used in the System.SyncTransferStatus property.
 old-location: properties\SYNC_TRANSFER_STATUS.htm
 tech.root: properties
 ms.assetid: B772BF05-0E82-48E6-9A0B-A3C53FBC5F60
-
 ms.date: 12/05/2018
 ms.keywords: STS_FETCHING_METADATA, STS_HASERROR, STS_NEEDSDOWNLOAD, STS_NEEDSUPLOAD, STS_NONE, STS_PAUSED, STS_TRANSFERRING, SYNC_TRANSFER_STATUS, SYNC_TRANSFER_STATUS enumeration [Windows Properties], properties.SYNC_TRANSFER_STATUS, shobjidl_core/STS_FETCHING_METADATA, shobjidl_core/STS_HASERROR, shobjidl_core/STS_NEEDSDOWNLOAD, shobjidl_core/STS_NEEDSUPLOAD, shobjidl_core/STS_NONE, shobjidl_core/STS_PAUSED, shobjidl_core/STS_TRANSFERRING, shobjidl_core/SYNC_TRANSFER_STATUS
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/SYNC_TRANSFER_STATUS"
+f1_keywords:
+- shobjidl_core/SYNC_TRANSFER_STATUS
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - SYNC_TRANSFER_STATUS
+- SYNC_TRANSFER_STATUS
 targetos: Windows
 req.typenames: SYNC_TRANSFER_STATUS
 req.redist: 

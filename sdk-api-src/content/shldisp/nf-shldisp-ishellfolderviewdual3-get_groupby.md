@@ -1,19 +1,17 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual3.get_GroupBy
 title: IShellFolderViewDual3::get_GroupBy (shldisp.h)
-
 description: Gets the column used for grouping the folder view.
 old-location: shell\IShellFolderViewDual3_get_GroupBy.htm
 tech.root: shell
 ms.assetid: 144fa908-01d3-43f4-95e6-2aad62c23912
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewDual3 interface [Windows Shell],get_GroupBy method, IShellFolderViewDual3.get_GroupBy, IShellFolderViewDual3::get_GroupBy, _shell_IShellFolderViewDual3_get_GroupBy, get_GroupBy, get_GroupBy method [Windows Shell], get_GroupBy method [Windows Shell],IShellFolderViewDual3 interface, shell.IShellFolderViewDual3_get_GroupBy, shldisp/IShellFolderViewDual3::get_GroupBy
 ms.topic: method
-f1_keywords: 
- - "shldisp/IShellFolderViewDual3.get_GroupBy"
+f1_keywords:
+- shldisp/IShellFolderViewDual3.get_GroupBy
 dev_langs:
- - c++
+- c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shldisp.h
+- Shldisp.h
 api_name:
- - IShellFolderViewDual3.get_GroupBy
+- IShellFolderViewDual3.get_GroupBy
 targetos: Windows
 req.typenames: 
 req.redist: 

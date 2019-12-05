@@ -1,19 +1,17 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.put_DefaultPanel
 title: IPenInputPanel::put_DefaultPanel (peninputpanel.h)
-
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets the default panel type used for input within the PenInputPanel object.
 old-location: tablet\peninputpanel_defaultpanel.htm
 tech.root: tablet
 ms.assetid: 2b0ff320-02ce-4b23-ae47-91504c93ac24
-
 ms.date: 12/05/2018
 ms.keywords: 2b0ff320-02ce-4b23-ae47-91504c93ac24, DefaultPanel property [Tablet PC], DefaultPanel property [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],DefaultPanel property, IPenInputPanel.DefaultPanel, IPenInputPanel.put_DefaultPanel, IPenInputPanel::DefaultPanel, IPenInputPanel::get_DefaultPanel, IPenInputPanel::put_DefaultPanel, PenInputPanel.get_DefaultPanel, PenInputPanel.put_DefaultPanel, get_DefaultPanel, peninputpanel/IPenInputPanel::DefaultPanel, peninputpanel/IPenInputPanel::get_DefaultPanel, peninputpanel/IPenInputPanel::put_DefaultPanel, put_DefaultPanel, tablet.peninputpanel_defaultpanel
 ms.topic: method
-f1_keywords: 
- - "peninputpanel/IPenInputPanel.DefaultPanel"
+f1_keywords:
+- peninputpanel/IPenInputPanel.DefaultPanel
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IPenInputPanel.DefaultPanel
- - IPenInputPanel.get_DefaultPanel
- - IPenInputPanel.put_DefaultPanel
- - PenInputPanel.get_DefaultPanel
- - PenInputPanel.put_DefaultPanel
+- IPenInputPanel.DefaultPanel
+- IPenInputPanel.get_DefaultPanel
+- IPenInputPanel.put_DefaultPanel
+- PenInputPanel.get_DefaultPanel
+- PenInputPanel.put_DefaultPanel
 targetos: Windows
 req.typenames: 
 req.redist: 

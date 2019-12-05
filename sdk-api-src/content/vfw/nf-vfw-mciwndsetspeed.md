@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.MCIWndSetSpeed
 title: MCIWndSetSpeed macro (vfw.h)
-
 description: The MCIWndSetSpeed macro sets the playback speed of an MCI device. You can use this macro or explicitly send the MCIWNDM_SETSPEED message.
 old-location: multimedia\mciwndsetspeed.htm
 tech.root: Multimedia
 ms.assetid: aaf45d2f-3f6c-4b87-82fe-3fca3f36f57d
-
 ms.date: 12/05/2018
 ms.keywords: MCIWndSetSpeed, MCIWndSetSpeed macro [Windows Multimedia], _win32_MCIWndSetSpeed, multimedia.mciwndsetspeed, vfw/MCIWndSetSpeed
 ms.topic: macro
-f1_keywords: 
- - "vfw/MCIWndSetSpeed"
+f1_keywords:
+- vfw/MCIWndSetSpeed
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - MCIWndSetSpeed
+- MCIWndSetSpeed
 targetos: Windows
 req.typenames: 
 req.redist: 

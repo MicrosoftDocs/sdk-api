@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBundleReader.GetBlockMap
 title: IAppxBundleReader::GetBlockMap (appxpackaging.h)
-
 description: Retrieves a read-only block map object from the bundle.
 old-location: appxpkg\iappxbundlereader_getblockmap.htm
 tech.root: appxpkg
 ms.assetid: 721940C7-0680-4AD0-93BC-20D630EDE228
-
 ms.date: 12/05/2018
 ms.keywords: GetBlockMap, GetBlockMap method [App packaging and management], GetBlockMap method [App packaging and management],IAppxBundleReader interface, IAppxBundleReader interface [App packaging and management],GetBlockMap method, IAppxBundleReader.GetBlockMap, IAppxBundleReader::GetBlockMap, appxpackaging/IAppxBundleReader::GetBlockMap, appxpkg.iappxbundlereader_getblockmap
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBundleReader.GetBlockMap"
+f1_keywords:
+- appxpackaging/IAppxBundleReader.GetBlockMap
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleReader.GetBlockMap
+- IAppxBundleReader.GetBlockMap
 targetos: Windows
 req.typenames: 
 req.redist: 

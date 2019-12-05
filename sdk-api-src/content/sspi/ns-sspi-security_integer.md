@@ -1,19 +1,17 @@
 ---
 UID: NS:sspi._SECURITY_INTEGER
 title: SECURITY_INTEGER (sspi.h)
-
 description: SECURITY_INTEGER is a structure that holds a numeric value. It is used in defining other types.
 old-location: security\security_integer.htm
 tech.root: SecAuthN
 ms.assetid: 51805230-afcb-490c-8c3d-1a533f3a58f0
-
 ms.date: 12/05/2018
-ms.keywords: "*PSECURITY_INTEGER, *PTimeStamp, SECURITY_INTEGER, SECURITY_INTEGER structure [Security], TimeStamp, _ssp_security_integer, security.security_integer, sspi/SECURITY_INTEGER"
+ms.keywords: '*PSECURITY_INTEGER, *PTimeStamp, SECURITY_INTEGER, SECURITY_INTEGER structure [Security], TimeStamp, _ssp_security_integer, security.security_integer, sspi/SECURITY_INTEGER'
 ms.topic: struct
-f1_keywords: 
- - "sspi/SECURITY_INTEGER"
+f1_keywords:
+- sspi/SECURITY_INTEGER
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sspi.h
+- Sspi.h
 api_name:
- - SECURITY_INTEGER
+- SECURITY_INTEGER
 targetos: Windows
 req.typenames: SECURITY_INTEGER, *PSECURITY_INTEGER
 req.redist: 

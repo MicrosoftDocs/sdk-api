@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IBandSite.QueryBand
 title: IBandSite::QueryBand (shobjidl_core.h)
-
 description: Gets information about a band in a band site.
 old-location: shell\IBandSite_QueryBand.htm
 tech.root: shell
 ms.assetid: 0618ad7d-4e8f-4fbf-ab64-2b1c0d42158c
-
 ms.date: 12/05/2018
 ms.keywords: IBandSite interface [Windows Shell],QueryBand method, IBandSite.QueryBand, IBandSite::QueryBand, QueryBand, QueryBand method [Windows Shell], QueryBand method [Windows Shell],IBandSite interface, _win32_IBandSite_QueryBand, shell.IBandSite_QueryBand, shobjidl_core/IBandSite::QueryBand
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IBandSite.QueryBand"
+f1_keywords:
+- shobjidl_core/IBandSite.QueryBand
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IBandSite.QueryBand
+- IBandSite.QueryBand
 targetos: Windows
 req.typenames: 
 req.redist: 

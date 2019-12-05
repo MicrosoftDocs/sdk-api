@@ -1,19 +1,17 @@
 ---
 UID: NF:ntdsapi.DsReplicaDelW
 title: DsReplicaDelW function (ntdsapi.h)
-
 description: Removes a replication source reference from a destination naming context (NC).
 old-location: ad\dsreplicadel.htm
 tech.root: ad
 ms.assetid: 68c767c4-bbb6-477b-8ffb-94f3ae235375
-
 ms.date: 12/05/2018
 ms.keywords: DS_REPDEL_ASYNCHRONOUS_OPERATION, DS_REPDEL_IGNORE_ERRORS, DS_REPDEL_INTERSITE_MESSAGING, DS_REPDEL_LOCAL_ONLY, DS_REPDEL_NO_SOURCE, DS_REPDEL_REF_OK, DS_REPDEL_WRITEABLE, DsReplicaDel, DsReplicaDel function [Active Directory], DsReplicaDelA, DsReplicaDelW, _glines_dsreplicadel, ad.dsreplicadel, ntdsapi/DsReplicaDel, ntdsapi/DsReplicaDelA, ntdsapi/DsReplicaDelW
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsReplicaDel"
+f1_keywords:
+- ntdsapi/DsReplicaDel
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsReplicaDel
- - DsReplicaDelA
- - DsReplicaDelW
+- DsReplicaDel
+- DsReplicaDelA
+- DsReplicaDelW
 targetos: Windows
 req.typenames: 
 req.redist: 

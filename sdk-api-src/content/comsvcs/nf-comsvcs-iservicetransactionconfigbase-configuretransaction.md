@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IServiceTransactionConfigBase.ConfigureTransaction
 title: IServiceTransactionConfigBase::ConfigureTransaction (comsvcs.h)
-
 description: Configures how transactions are used in the enclosed work.
 old-location: cos\iservicetransactionconfigbase_configuretransaction.htm
 tech.root: cossdk
 ms.assetid: 8277b133-2c0c-4a21-b441-457efb285178
-
 ms.date: 12/05/2018
 ms.keywords: ConfigureTransaction, ConfigureTransaction method [COM+], ConfigureTransaction method [COM+],IServiceTransactionConfigBase interface, IServiceTransactionConfigBase interface [COM+],ConfigureTransaction method, IServiceTransactionConfigBase.ConfigureTransaction, IServiceTransactionConfigBase::ConfigureTransaction, _cos_IServiceTransactionConfigBase_ConfigureTransaction, comsvcs/IServiceTransactionConfigBase::ConfigureTransaction, cos.iservicetransactionconfigbase_configuretransaction
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IServiceTransactionConfigBase.ConfigureTransaction"
+f1_keywords:
+- comsvcs/IServiceTransactionConfigBase.ConfigureTransaction
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServiceTransactionConfigBase.ConfigureTransaction
+- IServiceTransactionConfigBase.ConfigureTransaction
 targetos: Windows
 req.typenames: 
 req.redist: 

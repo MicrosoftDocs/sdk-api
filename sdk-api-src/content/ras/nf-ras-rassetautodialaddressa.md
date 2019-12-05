@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasSetAutodialAddressA
 title: RasSetAutodialAddressA function (ras.h)
-
 description: The RasSetAutodialAddress function can add an address to the AutoDial mapping database. Alternatively, the function can delete or modify the data associated with an existing address in the database.
 old-location: rras\rassetautodialaddress.htm
 tech.root: RRAS
 ms.assetid: 267d4f8e-0e0b-4636-8f30-3c39bbb8d4e9
-
 ms.date: 12/05/2018
 ms.keywords: RasSetAutodialAddress, RasSetAutodialAddress function [RAS], RasSetAutodialAddressA, RasSetAutodialAddressW, _ras_rassetautodialaddress, ras/RasSetAutodialAddress, ras/RasSetAutodialAddressA, ras/RasSetAutodialAddressW, rras.rassetautodialaddress
 ms.topic: function
-f1_keywords: 
- - "ras/RasSetAutodialAddress"
+f1_keywords:
+- ras/RasSetAutodialAddress
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
- - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
- - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
+- Rasapi32.dll
+- Ext-MS-Win-ras-rasapi32-l1-1-0.dll
+- Ext-MS-Win-ras-rasapi32-l1-1-1.dll
 api_name:
- - RasSetAutodialAddress
- - RasSetAutodialAddressA
- - RasSetAutodialAddressW
+- RasSetAutodialAddress
+- RasSetAutodialAddressA
+- RasSetAutodialAddressW
 targetos: Windows
 req.typenames: 
 req.redist: 

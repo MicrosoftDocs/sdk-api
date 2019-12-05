@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupGetLineByIndexA
 title: SetupGetLineByIndexA function (setupapi.h)
-
 description: The SetupGetLineByIndex function locates a line by its index value in the specified section in the INF file.
 old-location: setup\setupgetlinebyindex.htm
 tech.root: SetupApi
 ms.assetid: 7a1c313b-3150-4f4f-a1e9-0fc9544b97ab
-
 ms.date: 12/05/2018
 ms.keywords: SetupGetLineByIndex, SetupGetLineByIndex function [Setup API], SetupGetLineByIndexA, SetupGetLineByIndexW, _setupapi_setupgetlinebyindex, setup.setupgetlinebyindex, setupapi/SetupGetLineByIndex, setupapi/SetupGetLineByIndexA, setupapi/SetupGetLineByIndexW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupGetLineByIndex"
+f1_keywords:
+- setupapi/SetupGetLineByIndex
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
- - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-1.dll
- - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
+- Setupapi.dll
+- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-1.dll
+- Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
 api_name:
- - SetupGetLineByIndex
- - SetupGetLineByIndexA
- - SetupGetLineByIndexW
+- SetupGetLineByIndex
+- SetupGetLineByIndexA
+- SetupGetLineByIndexW
 targetos: Windows
 req.typenames: 
 req.redist: 

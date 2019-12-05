@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.IOCSPAdmin.SetConfiguration
 title: IOCSPAdmin::SetConfiguration (certadm.h)
-
 description: Updates a responder service with configuration changes.
 old-location: security\iocspadmin_setconfiguration_method.htm
 tech.root: SecCrypto
 ms.assetid: 973c69c3-282b-4e17-bb44-119965a4b443
-
 ms.date: 12/05/2018
 ms.keywords: IOCSPAdmin interface [Security],SetConfiguration method, IOCSPAdmin.SetConfiguration, IOCSPAdmin::SetConfiguration, SetConfiguration, SetConfiguration method [Security], SetConfiguration method [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::SetConfiguration, security.iocspadmin_setconfiguration_method
 ms.topic: method
-f1_keywords: 
- - "certadm/IOCSPAdmin.SetConfiguration"
+f1_keywords:
+- certadm/IOCSPAdmin.SetConfiguration
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPAdmin.SetConfiguration
+- IOCSPAdmin.SetConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 

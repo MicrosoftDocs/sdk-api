@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.SetUserGeoID
 title: SetUserGeoID function (winnls.h)
-
 description: Sets the geographical location identifier for the user. This identifier should have one of the values described in Table of Geographical Locations.
 old-location: intl\setusergeoid.htm
 tech.root: Intl
 ms.assetid: 2e201a7e-6767-4908-b98c-f5b7f0544e60
-
 ms.date: 12/05/2018
 ms.keywords: SetUserGeoID, SetUserGeoID function [Internationalization for Windows Applications], _win32_SetUserGeoID, intl.setusergeoid, winnls/SetUserGeoID
 ms.topic: function
-f1_keywords: 
- - "winnls/SetUserGeoID"
+f1_keywords:
+- winnls/SetUserGeoID
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - SetUserGeoID
+- SetUserGeoID
 targetos: Windows
 req.typenames: 
 req.redist: 

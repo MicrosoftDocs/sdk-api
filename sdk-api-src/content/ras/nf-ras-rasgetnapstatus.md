@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasGetNapStatus
 title: RasGetNapStatus function (ras.h)
-
 description: Retrieves the Network Access Protection (NAP) connection state variables for a given remote access connection.
 old-location: rras\rasgetnapstatus.htm
 tech.root: RRAS
 ms.assetid: 7f36f93f-7e07-4ad8-923f-59146bda4687
-
 ms.date: 12/05/2018
 ms.keywords: RasGetNapStatus, ras/rasgetnapstatus, rasgetnapstatus, rasgetnapstatus function [RAS], rras.rasgetnapstatus
 ms.topic: function
 f1_keywords:
 - ras/rasgetnapstatus
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

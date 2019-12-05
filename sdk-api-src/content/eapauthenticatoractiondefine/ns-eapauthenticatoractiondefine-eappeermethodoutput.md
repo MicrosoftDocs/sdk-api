@@ -1,19 +1,17 @@
 ---
 UID: NS:eapauthenticatoractiondefine.tagEapPeerMethodOuput
 title: EapPeerMethodOutput (eapauthenticatoractiondefine.h)
-
 description: Contains the action information returned by an EAP peer method.
 old-location: eaphost\eappeermethodoutput.htm
 tech.root: eaphost
 ms.assetid: fb3d423e-8509-4478-87d5-86bcbd90a8e7
-
 ms.date: 12/05/2018
 ms.keywords: EapPeerMethodOutput, EapPeerMethodOutput structure [EAPHost], eapauthenticatoractiondefine/EapPeerMethodOutput, eaphost.eappeermethodoutput
 ms.topic: struct
-f1_keywords: 
- - "eapauthenticatoractiondefine/EapPeerMethodOutput"
+f1_keywords:
+- eapauthenticatoractiondefine/EapPeerMethodOutput
 dev_langs:
- - c++
+- c++
 req.header: eapauthenticatoractiondefine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - EapAuthenticatorActionDefine.h
+- EapAuthenticatorActionDefine.h
 api_name:
- - EapPeerMethodOutput
+- EapPeerMethodOutput
 targetos: Windows
 req.typenames: EapPeerMethodOutput
 req.redist: 

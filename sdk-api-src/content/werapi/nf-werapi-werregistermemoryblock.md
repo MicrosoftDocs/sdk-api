@@ -1,19 +1,17 @@
 ---
 UID: NF:werapi.WerRegisterMemoryBlock
 title: WerRegisterMemoryBlock function (werapi.h)
-
 description: Registers a memory block to be collected when WER creates an error report.
 old-location: wer\werregistermemoryblock.htm
 tech.root: wer
 ms.assetid: 10fa2bf3-ec12-4c7c-b986-9b22cdaa7319
-
 ms.date: 12/05/2018
 ms.keywords: WerRegisterMemoryBlock, WerRegisterMemoryBlock function [Windows Error Reporting], base.werregistermemoryblock, wer.werregistermemoryblock, werapi/WerRegisterMemoryBlock
 ms.topic: function
-f1_keywords: 
- - "werapi/WerRegisterMemoryBlock"
+f1_keywords:
+- werapi/WerRegisterMemoryBlock
 dev_langs:
- - c++
+- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - WerRegisterMemoryBlock
+- WerRegisterMemoryBlock
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IMediaSample
 title: IMediaSample (strmif.h)
-
 description: The IMediaSample interface sets and retrieves properties on media samples.
 old-location: dshow\imediasample.htm
 tech.root: DirectShow
 ms.assetid: 883e5e3b-db91-4806-96cc-c6f8cddfcca6
-
 ms.date: 12/05/2018
 ms.keywords: IMediaSample, IMediaSample interface [DirectShow], IMediaSample interface [DirectShow],described, IMediaSampleInterface, dshow.imediasample, strmif/IMediaSample
 ms.topic: interface
-f1_keywords: 
- - "strmif/IMediaSample"
+f1_keywords:
+- strmif/IMediaSample
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaSample
+- IMediaSample
 targetos: Windows
 req.typenames: 
 req.redist: 

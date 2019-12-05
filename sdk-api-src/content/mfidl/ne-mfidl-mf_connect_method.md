@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl._MF_CONNECT_METHOD
 title: MF_CONNECT_METHOD (mfidl.h)
-
 description: Specifies how the topology loader connects a topology node.
 old-location: mf\mf_connect_method.htm
 tech.root: medfound
 ms.assetid: 881045bf-ea3b-46e2-aae0-b26e35882da1
-
 ms.date: 12/05/2018
 ms.keywords: 881045bf-ea3b-46e2-aae0-b26e35882da1, MF_CONNECT_ALLOW_CONVERTER, MF_CONNECT_ALLOW_DECODER, MF_CONNECT_AS_OPTIONAL, MF_CONNECT_AS_OPTIONAL_BRANCH, MF_CONNECT_DIRECT, MF_CONNECT_METHOD, MF_CONNECT_METHOD enumeration [Media Foundation], MF_CONNECT_RESOLVE_INDEPENDENT_OUTPUTTYPES, mf.mf_connect_method, mfidl/MF_CONNECT_ALLOW_CONVERTER, mfidl/MF_CONNECT_ALLOW_DECODER, mfidl/MF_CONNECT_AS_OPTIONAL, mfidl/MF_CONNECT_AS_OPTIONAL_BRANCH, mfidl/MF_CONNECT_DIRECT, mfidl/MF_CONNECT_METHOD, mfidl/MF_CONNECT_RESOLVE_INDEPENDENT_OUTPUTTYPES
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MF_CONNECT_METHOD"
+f1_keywords:
+- mfidl/MF_CONNECT_METHOD
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MF_CONNECT_METHOD
+- MF_CONNECT_METHOD
 targetos: Windows
 req.typenames: MF_CONNECT_METHOD
 req.redist: 

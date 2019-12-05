@@ -1,19 +1,17 @@
 ---
 UID: NF:mmcobj.ISnapinProperties.Initialize
 title: ISnapinProperties::Initialize (mmcobj.h)
-
 description: The Initialize method initializes a snap-in.
 old-location: mmc\isnapinproperties_initialize.htm
 tech.root: mmc
 ms.assetid: b5140b15-d622-4abe-baef-061fe13a213f
-
 ms.date: 12/05/2018
 ms.keywords: ISnapinProperties interface [MMC],Initialize method, ISnapinProperties.Initialize, ISnapinProperties::Initialize, Initialize, Initialize method [MMC], Initialize method [MMC],ISnapinProperties interface, _slate_isnapinproperties_initialize, mmc.isnapinproperties_initialize, mmcobj/ISnapinProperties::Initialize
 ms.topic: method
-f1_keywords: 
- - "mmcobj/ISnapinProperties.Initialize"
+f1_keywords:
+- mmcobj/ISnapinProperties.Initialize
 dev_langs:
- - c++
+- c++
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcobj.h
+- Mmcobj.h
 api_name:
- - ISnapinProperties.Initialize
+- ISnapinProperties.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

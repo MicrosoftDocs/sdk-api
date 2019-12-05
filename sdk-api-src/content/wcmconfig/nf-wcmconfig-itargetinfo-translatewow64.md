@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.TranslateWow64
 title: ITargetInfo::TranslateWow64 (wcmconfig.h)
-
 description: Translates paths for wow64 redirection.
 old-location: smi\itargetinfo_translatewow64.htm
 tech.root: SMI
 ms.assetid: 0325bac8-1843-4e32-97a6-fb6e2bef9e16
-
 ms.date: 12/05/2018
 ms.keywords: ITargetInfo interface [SMI],TranslateWow64 method, ITargetInfo.TranslateWow64, ITargetInfo::TranslateWow64, TranslateWow64, TranslateWow64 method [SMI], TranslateWow64 method [SMI],ITargetInfo interface, smi.itargetinfo_translatewow64, wcmconfig/ITargetInfo::TranslateWow64
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ITargetInfo.TranslateWow64"
+f1_keywords:
+- wcmconfig/ITargetInfo.TranslateWow64
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ITargetInfo.TranslateWow64
+- ITargetInfo.TranslateWow64
 targetos: Windows
 req.typenames: 
 req.redist: 

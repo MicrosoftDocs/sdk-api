@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IReferenceClock.Unadvise
 title: IReferenceClock::Unadvise (strmif.h)
-
 description: The Unadvise method removes a pending advise request.
 old-location: dshow\ireferenceclock_unadvise.htm
 tech.root: DirectShow
 ms.assetid: 1f032036-4502-473a-93e1-976a66d8bde1
-
 ms.date: 12/05/2018
 ms.keywords: IReferenceClock interface [DirectShow],Unadvise method, IReferenceClock.Unadvise, IReferenceClock::Unadvise, IReferenceClockUnadvise, Unadvise, Unadvise method [DirectShow], Unadvise method [DirectShow],IReferenceClock interface, dshow.ireferenceclock_unadvise, strmif/IReferenceClock::Unadvise
 ms.topic: method
-f1_keywords: 
- - "strmif/IReferenceClock.Unadvise"
+f1_keywords:
+- strmif/IReferenceClock.Unadvise
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IReferenceClock.Unadvise
+- IReferenceClock.Unadvise
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1helper.Matrix4x4F.RotationY
 title: Matrix4x4F::RotationY (d2d1_1helper.h)
-
 description: Rotates the transform matrix around the Y axis.
 old-location: direct2d\matrix4x4f_rotationy.htm
 tech.root: Direct2D
 ms.assetid: F761CAB1-77F8-4C98-9085-3FBF4452AA51
-
 ms.date: 12/05/2018
 ms.keywords: Matrix4x4F interface [Direct2D],RotationY method, Matrix4x4F.RotationY, Matrix4x4F::RotationY, RotationY, RotationY method [Direct2D], RotationY method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::RotationY, direct2d.matrix4x4f_rotationy
 ms.topic: method
-f1_keywords: 
- - "d2d1_1helper/Matrix4x4F.RotationY"
+f1_keywords:
+- d2d1_1helper/Matrix4x4F.RotationY
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1_1helper.h
+- d2d1_1helper.h
 api_name:
- - Matrix4x4F.RotationY
+- Matrix4x4F.RotationY
 targetos: Windows
 req.typenames: 
 req.redist: 

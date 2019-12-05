@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IMTSActivity
 title: IMTSActivity (comsvcs.h)
-
 description: Submits batch work through the activity created by the MTSCreateActivity function.
 old-location: cos\imtsactivity.htm
 tech.root: cossdk
 ms.assetid: a45b29f0-d3f1-4593-9df5-4f6d617b93fa
-
 ms.date: 12/05/2018
 ms.keywords: IMTSActivity, IMTSActivity interface [COM+], IMTSActivity interface [COM+],described, _cos_IMTSActivity, comsvcs/IMTSActivity, cos.imtsactivity
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IMTSActivity"
+f1_keywords:
+- comsvcs/IMTSActivity
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IMTSActivity
+- IMTSActivity
 targetos: Windows
 req.typenames: 
 req.redist: 

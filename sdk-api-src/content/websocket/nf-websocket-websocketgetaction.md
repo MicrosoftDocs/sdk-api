@@ -1,19 +1,17 @@
 ---
 UID: NF:websocket.WebSocketGetAction
 title: WebSocketGetAction function (websocket.h)
-
 description: Returns an action from a call to WebSocketSend, WebSocketReceive or WebSocketCompleteAction.
 old-location: websock\websocketgetaction.htm
 tech.root: WebSock
 ms.assetid: 566cff2d-15dd-45c6-bc41-550be1f45cfd
-
 ms.date: 12/05/2018
 ms.keywords: WebSocketGetAction, WebSocketGetAction function [Websocket Protocol Component API], websock.websocketgetaction, websocket/WebSocketGetAction
 ms.topic: function
 f1_keywords:
 - websocket/WebSocketGetAction
 dev_langs:
- - c++
+- c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

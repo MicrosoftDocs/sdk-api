@@ -1,19 +1,17 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAGS
 title: MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAGS (mfmediaengine.h)
-
 description: Specifies the content protection requirements for a video frame.
 old-location: mf\mf_media_engine_frame_protection_flags.htm
 tech.root: medfound
 ms.assetid: 6864ED4B-BB75-4176-992B-ABC95B81001A
-
 ms.date: 12/05/2018
 ms.keywords: MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAGS, MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAGS enumeration [Media Foundation], MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAG_PROTECTED, MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAG_REQUIRES_ANTI_SCREEN_SCRAPE_PROTECTION, MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAG_REQUIRES_SURFACE_PROTECTION, mf.mf_media_engine_frame_protection_flags, mfmediaengine/MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAGS, mfmediaengine/MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAG_PROTECTED, mfmediaengine/MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAG_REQUIRES_ANTI_SCREEN_SCRAPE_PROTECTION, mfmediaengine/MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAG_REQUIRES_SURFACE_PROTECTION
 ms.topic: enum
-f1_keywords: 
- - "mfmediaengine/MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAGS"
+f1_keywords:
+- mfmediaengine/MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAGS
+- MF_MEDIA_ENGINE_FRAME_PROTECTION_FLAGS
 targetos: Windows
 req.typenames: 
 req.redist: 

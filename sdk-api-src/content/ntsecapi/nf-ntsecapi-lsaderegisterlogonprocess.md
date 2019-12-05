@@ -1,19 +1,17 @@
 ---
 UID: NF:ntsecapi.LsaDeregisterLogonProcess
 title: LsaDeregisterLogonProcess function (ntsecapi.h)
-
 description: Deletes the caller's logon application context and closes the connection to the LSA server.
 old-location: security\lsaderegisterlogonprocess.htm
 tech.root: SecAuthN
 ms.assetid: 8a956469-9538-4d71-8158-af22aa26f840
-
 ms.date: 12/05/2018
 ms.keywords: LsaDeregisterLogonProcess, LsaDeregisterLogonProcess function [Security], _lsa_lsaderegisterlogonprocess, ntsecapi/LsaDeregisterLogonProcess, security.lsaderegisterlogonprocess
 ms.topic: function
-f1_keywords: 
- - "ntsecapi/LsaDeregisterLogonProcess"
+f1_keywords:
+- ntsecapi/LsaDeregisterLogonProcess
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Secur32.dll
+- Secur32.dll
 api_name:
- - LsaDeregisterLogonProcess
+- LsaDeregisterLogonProcess
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsReadElement
 title: WsReadElement function (webservices.h)
-
 description: Read an element producing a value of the specified WS_TYPE.
 old-location: wsw\wsreadelement.htm
 tech.root: wsw
 ms.assetid: 88e0cc4d-ae24-46af-998d-fdbfbcc1be64
-
 ms.date: 12/05/2018
 ms.keywords: WsReadElement, WsReadElement function [Web Services for Windows], webservices/WsReadElement, wsw.wsreadelement
 ms.topic: function
-f1_keywords: 
- - "webservices/WsReadElement"
+f1_keywords:
+- webservices/WsReadElement
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsReadElement
+- WsReadElement
 targetos: Windows
 req.typenames: 
 req.redist: 

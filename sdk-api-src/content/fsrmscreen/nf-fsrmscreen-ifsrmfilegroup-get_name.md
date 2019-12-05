@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroup.get_Name
 title: IFsrmFileGroup::get_Name (fsrmscreen.h)
-
 description: Retrieves or sets the name of the file group.
 old-location: fsrm\ifsrmfilegroup_name.htm
 tech.root: fsrm
 ms.assetid: 46baa451-21d5-4a03-a437-483f9bcc2812
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileGroup interface [File Server Resource Manager],Name property, IFsrmFileGroup.Name, IFsrmFileGroup.get_Name, IFsrmFileGroup::Name, IFsrmFileGroup::get_Name, IFsrmFileGroup::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmFileGroup interface, fs.ifsrmfilegroup_name, fsrm.ifsrmfilegroup_name, fsrmscreen/IFsrmFileGroup::Name, fsrmscreen/IFsrmFileGroup::get_Name, fsrmscreen/IFsrmFileGroup::put_Name, get_Name
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileGroup.Name"
+f1_keywords:
+- fsrmscreen/IFsrmFileGroup.Name
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileGroup.Name
- - IFsrmFileGroup.get_Name
- - IFsrmFileGroup.put_Name
+- IFsrmFileGroup.Name
+- IFsrmFileGroup.get_Name
+- IFsrmFileGroup.put_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

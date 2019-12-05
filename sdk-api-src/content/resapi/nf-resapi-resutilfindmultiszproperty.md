@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilFindMultiSzProperty
 title: ResUtilFindMultiSzProperty function (resapi.h)
-
 description: Locates a multiple string property in a property list. The PRESUTIL_FIND_MULTI_SZ_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfindmultiszproperty.htm
 tech.root: MsCS
 ms.assetid: 65209ca8-e293-40cc-ac8a-9643933e049f
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_FIND_MULTI_SZ_PROPERTY, PRESUTIL_FIND_MULTI_SZ_PROPERTY function [Failover Cluster], ResUtilFindMultiSzProperty, ResUtilFindMultiSzProperty function [Failover Cluster], _wolf_resutilfindmultiszproperty, mscs.resutilfindmultiszproperty, resapi/PRESUTIL_FIND_MULTI_SZ_PROPERTY, resapi/ResUtilFindMultiSzProperty
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilFindMultiSzProperty"
+f1_keywords:
+- resapi/ResUtilFindMultiSzProperty
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilFindMultiSzProperty
+- ResUtilFindMultiSzProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

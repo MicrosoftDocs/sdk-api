@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinitionValue.get_Name
 title: IFsrmPropertyDefinitionValue::get_Name (fsrmpipeline.h)
-
 description: Name of the classification property definition value.
 old-location: fsrm\ifsrmpropertydefinitionvalue_name.htm
 tech.root: fsrm
 ms.assetid: d7839713-61a8-4cb4-bc1d-0cc2b2234fd4
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyDefinitionValue interface [File Server Resource Manager],Name property, IFsrmPropertyDefinitionValue.Name, IFsrmPropertyDefinitionValue.get_Name, IFsrmPropertyDefinitionValue::Name, IFsrmPropertyDefinitionValue::get_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmPropertyDefinitionValue interface, fs.ifsrmpropertydefinitionvalue_name, fsrm.ifsrmpropertydefinitionvalue_name, fsrmpipeline/IFsrmPropertyDefinitionValue::Name, fsrmpipeline/IFsrmPropertyDefinitionValue::get_Name, get_Name
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPropertyDefinitionValue.Name"
+f1_keywords:
+- fsrmpipeline/IFsrmPropertyDefinitionValue.Name
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyDefinitionValue.Name
- - IFsrmPropertyDefinitionValue.get_Name
+- IFsrmPropertyDefinitionValue.Name
+- IFsrmPropertyDefinitionValue.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

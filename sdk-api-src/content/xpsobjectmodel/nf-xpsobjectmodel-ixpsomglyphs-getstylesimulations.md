@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetStyleSimulations
 title: IXpsOMGlyphs::GetStyleSimulations (xpsobjectmodel.h)
-
 description: Gets the style simulations that will be applied when rendering the glyphs.
 old-location: xps\ixpsomglyphs_getstylesimulations.htm
 tech.root: printdocs
 ms.assetid: 5678f67e-ed26-4846-b2f7-4e7f9690ca43
-
 ms.date: 12/05/2018
 ms.keywords: GetStyleSimulations, GetStyleSimulations method [XPS Documents and Packaging], GetStyleSimulations method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetStyleSimulations method, IXpsOMGlyphs.GetStyleSimulations, IXpsOMGlyphs::GetStyleSimulations, xps.ixpsomglyphs_getstylesimulations, xpsobjectmodel/IXpsOMGlyphs::GetStyleSimulations
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGlyphs.GetStyleSimulations"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGlyphs.GetStyleSimulations
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphs.GetStyleSimulations
+- IXpsOMGlyphs.GetStyleSimulations
 targetos: Windows
 req.typenames: 
 req.redist: 

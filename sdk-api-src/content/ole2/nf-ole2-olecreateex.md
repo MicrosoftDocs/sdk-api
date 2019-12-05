@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleCreateEx
 title: OleCreateEx function (ole2.h)
-
 description: Extends OleCreate functionality by supporting more efficient instantiation of objects in containers requiring caching of multiple presentation formats or data, instead of the single format supported by OleCreate.
 old-location: com\olecreateex.htm
 tech.root: com
 ms.assetid: 11f2703c-b596-4cb9-855a-d8cf4b947fae
-
 ms.date: 12/05/2018
 ms.keywords: OleCreateEx, OleCreateEx function [COM], _ole_OleCreateEx, com.olecreateex, ole2/OleCreateEx
 ms.topic: function
-f1_keywords: 
- - "ole2/OleCreateEx"
+f1_keywords:
+- ole2/OleCreateEx
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - OleCreateEx
+- OleCreateEx
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataManager.put_MinFreeDisk
 title: IDataManager::put_MinFreeDisk (pla.h)
-
 description: Retrieves or sets the minimum free disk space that needs to exist before data collection begins.
 old-location: pla\idatamanager_minfreedisk.htm
 tech.root: PLA
 ms.assetid: e5f4f752-ae96-4a1b-99a4-ff3b73fe3743
-
 ms.date: 12/05/2018
 ms.keywords: IDataManager interface [PLA],MinFreeDisk property, IDataManager.MinFreeDisk, IDataManager.put_MinFreeDisk, IDataManager::MinFreeDisk, IDataManager::get_MinFreeDisk, IDataManager::put_MinFreeDisk, MinFreeDisk property [PLA], MinFreeDisk property [PLA],IDataManager interface, base.idatamanager_minfreedisk, pla.idatamanager_minfreedisk, pla/IDataManager::MinFreeDisk, pla/IDataManager::get_MinFreeDisk, pla/IDataManager::put_MinFreeDisk, put_MinFreeDisk
 ms.topic: method
-f1_keywords: 
- - "pla/IDataManager.MinFreeDisk"
+f1_keywords:
+- pla/IDataManager.MinFreeDisk
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataManager.MinFreeDisk
- - IDataManager.get_MinFreeDisk
- - IDataManager.put_MinFreeDisk
+- IDataManager.MinFreeDisk
+- IDataManager.get_MinFreeDisk
+- IDataManager.put_MinFreeDisk
 targetos: Windows
 req.typenames: 
 req.redist: 

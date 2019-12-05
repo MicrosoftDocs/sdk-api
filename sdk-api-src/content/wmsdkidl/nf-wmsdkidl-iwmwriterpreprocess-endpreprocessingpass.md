@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPreprocess.EndPreprocessingPass
 title: IWMWriterPreprocess::EndPreprocessingPass (wmsdkidl.h)
-
 description: The EndPreprocessingPass method ends a preprocessing pass started with a call to IWMWriterPreprocess::BeginPreprocessingPass.
 old-location: wmformat\iwmwriterpreprocess_endpreprocessingpass.htm
 tech.root: wmformat
 ms.assetid: 04ec12fb-946b-46cc-aa3f-515a86b9a217
-
 ms.date: 12/05/2018
 ms.keywords: EndPreprocessingPass, EndPreprocessingPass method [windows Media Format], EndPreprocessingPass method [windows Media Format],IWMWriterPreprocess interface, IWMWriterPreprocess interface [windows Media Format],EndPreprocessingPass method, IWMWriterPreprocess.EndPreprocessingPass, IWMWriterPreprocess::EndPreprocessingPass, IWMWriterPreprocessEndPreprocessingPass, wmformat.iwmwriterpreprocess_endpreprocessingpass, wmsdkidl/IWMWriterPreprocess::EndPreprocessingPass
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterPreprocess.EndPreprocessingPass"
+f1_keywords:
+- wmsdkidl/IWMWriterPreprocess.EndPreprocessingPass
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterPreprocess.EndPreprocessingPass
+- IWMWriterPreprocess.EndPreprocessingPass
 targetos: Windows
 req.typenames: 
 req.redist: 

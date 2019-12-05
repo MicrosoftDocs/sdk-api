@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComLTxEvents.OnLtxTransactionCommit
 title: IComLTxEvents::OnLtxTransactionCommit (comsvcs.h)
-
 description: Generated when a transaction is committed.
 old-location: cos\icomltxevents_onltxtransactioncommit.htm
 tech.root: cossdk
 ms.assetid: c3462a79-6056-4a57-b971-78d8b4bd2a70
-
 ms.date: 12/05/2018
 ms.keywords: IComLTxEvents interface [COM+],OnLtxTransactionCommit method, IComLTxEvents.OnLtxTransactionCommit, IComLTxEvents::OnLtxTransactionCommit, OnLtxTransactionCommit, OnLtxTransactionCommit method [COM+], OnLtxTransactionCommit method [COM+],IComLTxEvents interface, comsvcs/IComLTxEvents::OnLtxTransactionCommit, cos.icomltxevents_onltxtransactioncommit
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComLTxEvents.OnLtxTransactionCommit"
+f1_keywords:
+- comsvcs/IComLTxEvents.OnLtxTransactionCommit
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComLTxEvents.OnLtxTransactionCommit
+- IComLTxEvents.OnLtxTransactionCommit
 targetos: Windows
 req.typenames: 
 req.redist: 

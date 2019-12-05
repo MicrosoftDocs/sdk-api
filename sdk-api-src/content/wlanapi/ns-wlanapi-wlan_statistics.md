@@ -1,19 +1,17 @@
 ---
 UID: NS:wlanapi.WLAN_STATISTICS
 title: WLAN_STATISTICS (wlanapi.h)
-
 description: Assorted statistics about an interface.
 old-location: nwifi\wlan_statistics.htm
 tech.root: NativeWiFi
 ms.assetid: d66d89f1-bb12-4c2e-8c7a-a4eba008955d
-
 ms.date: 12/05/2018
-ms.keywords: "*PWLAN_STATISTICS, PWLAN_STATISTICS, PWLAN_STATISTICS structure pointer [NativeWIFI], WLAN_STATISTICS, WLAN_STATISTICS structure [NativeWIFI], nwifi.wlan_statistics, wlanapi/PWLAN_STATISTICS, wlanapi/WLAN_STATISTICS"
+ms.keywords: '*PWLAN_STATISTICS, PWLAN_STATISTICS, PWLAN_STATISTICS structure pointer [NativeWIFI], WLAN_STATISTICS, WLAN_STATISTICS structure [NativeWIFI], nwifi.wlan_statistics, wlanapi/PWLAN_STATISTICS, wlanapi/WLAN_STATISTICS'
 ms.topic: struct
-f1_keywords: 
- - "wlanapi/WLAN_STATISTICS"
+f1_keywords:
+- wlanapi/WLAN_STATISTICS
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wlanapi.h
+- wlanapi.h
 api_name:
- - WLAN_STATISTICS
+- WLAN_STATISTICS
 targetos: Windows
 req.typenames: WLAN_STATISTICS, *PWLAN_STATISTICS
 req.redist: 

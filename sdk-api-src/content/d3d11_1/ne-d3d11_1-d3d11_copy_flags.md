@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11_1.D3D11_COPY_FLAGS
 title: D3D11_COPY_FLAGS (d3d11_1.h)
-
 description: Specifies how to handle the existing contents of a resource during a copy or update operation of a region within that resource.
 old-location: direct3d11\d3d11_copy_flags.htm
 tech.root: direct3d11
 ms.assetid: 2141A053-931B-42F2-BC8C-AAE9F4739ED7
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_COPY_DISCARD, D3D11_COPY_FLAGS, D3D11_COPY_FLAGS enumeration [Direct3D 11], D3D11_COPY_NO_OVERWRITE, d3d11_1/D3D11_COPY_DISCARD, d3d11_1/D3D11_COPY_FLAGS, d3d11_1/D3D11_COPY_NO_OVERWRITE, direct3d11.d3d11_copy_flags
 ms.topic: enum
-f1_keywords: 
- - "d3d11_1/D3D11_COPY_FLAGS"
+f1_keywords:
+- d3d11_1/D3D11_COPY_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11_1.h
+- D3D11_1.h
 api_name:
- - D3D11_COPY_FLAGS
+- D3D11_COPY_FLAGS
 targetos: Windows
 req.typenames: D3D11_COPY_FLAGS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmMonitorClerks.ActivityId
 title: ICrmMonitorClerks::ActivityId (comsvcs.h)
-
 description: Retrieves the activity ID of the CRM Worker for the specified index.
 old-location: cos\icrmmonitorclerks_activityid.htm
 tech.root: cossdk
 ms.assetid: 19a242a6-ce21-4ce5-984e-cc2220476e2b
-
 ms.date: 12/05/2018
 ms.keywords: ActivityId, ActivityId method [COM+], ActivityId method [COM+],ICrmMonitorClerks interface, ICrmMonitorClerks interface [COM+],ActivityId method, ICrmMonitorClerks.ActivityId, ICrmMonitorClerks::ActivityId, _dtc_ICrmMonitorClerks_ActivityId, comsvcs/ICrmMonitorClerks::ActivityId, cos.icrmmonitorclerks_activityid
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmMonitorClerks.ActivityId"
+f1_keywords:
+- comsvcs/ICrmMonitorClerks.ActivityId
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmMonitorClerks.ActivityId
+- ICrmMonitorClerks.ActivityId
 targetos: Windows
 req.typenames: 
 req.redist: 

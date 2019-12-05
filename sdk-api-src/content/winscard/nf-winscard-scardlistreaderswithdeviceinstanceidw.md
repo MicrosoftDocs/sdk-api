@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardListReadersWithDeviceInstanceIdW
 title: SCardListReadersWithDeviceInstanceIdW function (winscard.h)
-
 description: Gets the list of readers that have provided a device instance identifier. This function does not affect the state of the reader.
 old-location: security\scardlistreaderswithdeviceinstanceid.htm
 tech.root: SecAuthN
 ms.assetid: D470A10B-B167-4BCA-9042-BF63B9A3A92F
-
 ms.date: 12/05/2018
 ms.keywords: SCardListReadersWithDeviceInstanceId, SCardListReadersWithDeviceInstanceId function [Security], SCardListReadersWithDeviceInstanceIdA, SCardListReadersWithDeviceInstanceIdW, security.scardgetreadernamefromdeviceinstanceid, security.scardlistreaderswithdeviceinstanceid, winscard/SCardListReadersWithDeviceInstanceId
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardListReadersWithDeviceInstanceId"
+f1_keywords:
+- winscard/SCardListReadersWithDeviceInstanceId
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winscard.h
+- Winscard.h
 api_name:
- - SCardListReadersWithDeviceInstanceId
+- SCardListReadersWithDeviceInstanceId
 targetos: Windows
 req.typenames: 
 req.redist: 

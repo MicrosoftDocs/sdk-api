@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSMan.CreateSession
 title: IWSMan::CreateSession (wsmandisp.h)
-
 description: Creates a Session object that can then be used for subsequent network operations.
 old-location: winrm\iwsman_createsession.htm
 tech.root: winrm
 ms.assetid: 0ccab9bf-f8b4-432e-92d1-b5a5d3a2dfe5
-
 ms.date: 12/05/2018
 ms.keywords: CreateSession, CreateSession method [Windows Remote Management], CreateSession method [Windows Remote Management],IWSMan interface, IWSMan interface [Windows Remote Management],CreateSession method, IWSMan.CreateSession, IWSMan::CreateSession, winrm.iwsman_createsession, wsmandisp/IWSMan::CreateSession
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSMan.CreateSession"
+f1_keywords:
+- wsmandisp/IWSMan.CreateSession
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSMan.CreateSession
+- IWSMan.CreateSession
 targetos: Windows
 req.typenames: 
 req.redist: 

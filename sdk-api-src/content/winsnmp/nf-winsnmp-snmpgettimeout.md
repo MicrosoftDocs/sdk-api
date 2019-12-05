@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpGetTimeout
 title: SnmpGetTimeout function (winsnmp.h)
-
 description: The WinSNMP SnmpGetTimeout function returns the time-out value, in hundredths of a second, for the transmission of SNMP message requests.
 old-location: snmp\snmpgettimeout.htm
 tech.root: SNMP
 ms.assetid: 95f7afad-241c-473a-8041-3d1642f9d1fe
-
 ms.date: 12/05/2018
 ms.keywords: SnmpGetTimeout, SnmpGetTimeout function [SNMP], _snmp_snmpgettimeout, snmp.snmpgettimeout, winsnmp/SnmpGetTimeout
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpGetTimeout"
+f1_keywords:
+- winsnmp/SnmpGetTimeout
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpGetTimeout
+- SnmpGetTimeout
 targetos: Windows
 req.typenames: 
 req.redist: 

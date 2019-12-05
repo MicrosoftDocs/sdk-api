@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsNameTranslate.GetEx
 title: IADsNameTranslate::GetEx (iads.h)
-
 description: Gets the object names in the specified format.
 old-location: adsi\iadsnametranslate_getex.htm
 tech.root: adsi
 ms.assetid: 01c4fc79-ed5b-4a24-9b97-25b4095a9c8f
-
 ms.date: 12/05/2018
 ms.keywords: GetEx, GetEx method [ADSI], GetEx method [ADSI],IADsNameTranslate interface, IADsNameTranslate interface [ADSI],GetEx method, IADsNameTranslate.GetEx, IADsNameTranslate::GetEx, _ds_iadsnametranslate_getex, adsi.iadsnametranslate__getex, adsi.iadsnametranslate_getex, iads/IADsNameTranslate::GetEx
 ms.topic: method
-f1_keywords: 
- - "iads/IADsNameTranslate.GetEx"
+f1_keywords:
+- iads/IADsNameTranslate.GetEx
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsNameTranslate.GetEx
+- IADsNameTranslate.GetEx
 targetos: Windows
 req.typenames: 
 req.redist: 

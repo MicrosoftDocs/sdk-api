@@ -1,7 +1,6 @@
 ---
 UID: TP:ics
 ms.assetid: 9d94480c-7b4f-37ab-b155-d62cf72d1a3e
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

@@ -1,19 +1,17 @@
 ---
 UID: NF:scclient.CSecureChannelClient.GetSessionKey
 title: CSecureChannelClient::GetSessionKey (scclient.h)
-
 description: The GetSessionKey method retrieves the current session key. This method is not used by applications.
 old-location: wmdm\csecurechannelclient_getsessionkey.htm
 tech.root: WMDM
 ms.assetid: b5963027-ef6e-44e0-a1ed-31ac82477002
-
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelClient class [windows Media Device Manager],GetSessionKey method, CSecureChannelClient.GetSessionKey, CSecureChannelClient::GetSessionKey, CSecureChannelClientGetSessionKey, GetSessionKey, GetSessionKey method [windows Media Device Manager], GetSessionKey method [windows Media Device Manager],CSecureChannelClient class, scclient/CSecureChannelClient::GetSessionKey, wmdm.csecurechannelclient_getsessionkey
 ms.topic: method
-f1_keywords: 
- - "scclient/CSecureChannelClient.GetSessionKey"
+f1_keywords:
+- scclient/CSecureChannelClient.GetSessionKey
 dev_langs:
- - c++
+- c++
 req.header: scclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - CSecureChannelClient.GetSessionKey
+- CSecureChannelClient.GetSessionKey
 targetos: Windows
 req.typenames: 
 req.redist: 

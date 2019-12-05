@@ -1,19 +1,17 @@
 ---
 UID: NF:tssbx.IWTSSBPlugin.WTSSBX_MachineChangeNotification
 title: IWTSSBPlugin::WTSSBX_MachineChangeNotification (tssbx.h)
-
 description: Notifies the plug-in that a change occurred in the server environment.
 old-location: termserv\iwtssbplugin_wtssbx_machinechangenotification.htm
 tech.root: TermServ
 ms.assetid: 226ca68e-6c3d-4160-a569-ca0b92cb9316
-
 ms.date: 12/05/2018
 ms.keywords: IWTSSBPlugin interface [Remote Desktop Services],WTSSBX_MachineChangeNotification method, IWTSSBPlugin.WTSSBX_MachineChangeNotification, IWTSSBPlugin::WTSSBX_MachineChangeNotification, WTSSBX_MachineChangeNotification, WTSSBX_MachineChangeNotification method [Remote Desktop Services], WTSSBX_MachineChangeNotification method [Remote Desktop Services],IWTSSBPlugin interface, termserv.iwtssbplugin_wtssbx_machinechangenotification, tssbx/IWTSSBPlugin::WTSSBX_MachineChangeNotification
 ms.topic: method
-f1_keywords: 
- - "tssbx/IWTSSBPlugin.WTSSBX_MachineChangeNotification"
+f1_keywords:
+- tssbx/IWTSSBPlugin.WTSSBX_MachineChangeNotification
 dev_langs:
- - c++
+- c++
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tssbx.h
+- Tssbx.h
 api_name:
- - IWTSSBPlugin.WTSSBX_MachineChangeNotification
+- IWTSSBPlugin.WTSSBX_MachineChangeNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

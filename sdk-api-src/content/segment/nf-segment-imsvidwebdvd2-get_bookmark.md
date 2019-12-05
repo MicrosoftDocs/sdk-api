@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidWebDVD2.get_Bookmark
 title: IMSVidWebDVD2::get_Bookmark (segment.h)
-
 description: Saves or loads the playback position and state information for a DVD.
 old-location: mstv\imsvidwebdvd2_bookmark.htm
 tech.root: mstv
 ms.assetid: e7b0f28d-16f3-4dd4-8b28-f46e492f5c8e
-
 ms.date: 12/05/2018
 ms.keywords: Bookmark property [Microsoft TV Technologies], Bookmark property [Microsoft TV Technologies],IMSVidWebDVD2 interface, IMSVidWebDVD2 interface [Microsoft TV Technologies],Bookmark property, IMSVidWebDVD2.Bookmark, IMSVidWebDVD2.get_Bookmark, IMSVidWebDVD2::Bookmark, IMSVidWebDVD2::get_Bookmark, IMSVidWebDVD2::put_Bookmark, get_Bookmark, mstv.imsvidwebdvd2_bookmark, segment/IMSVidWebDVD2::Bookmark, segment/IMSVidWebDVD2::get_Bookmark, segment/IMSVidWebDVD2::put_Bookmark
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidWebDVD2.Bookmark"
+f1_keywords:
+- segment/IMSVidWebDVD2.Bookmark
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidWebDVD2.Bookmark
- - IMSVidWebDVD2.get_Bookmark
- - IMSVidWebDVD2.put_Bookmark
+- IMSVidWebDVD2.Bookmark
+- IMSVidWebDVD2.get_Bookmark
+- IMSVidWebDVD2.put_Bookmark
 targetos: Windows
 req.typenames: 
 req.redist: 

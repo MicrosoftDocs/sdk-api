@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzScope.get_CanBeDelegated
 title: IAzScope::get_CanBeDelegated (azroles.h)
-
 description: Retrieves a value that indicates whether the scope can be delegated.
 old-location: security\iazscope_canbedelegated.htm
 tech.root: SecAuthZ
 ms.assetid: e68bd5b2-060b-478b-9375-b23761888e6a
-
 ms.date: 12/05/2018
 ms.keywords: AzScope object [Security],CanBeDelegated property, CanBeDelegated property [Security], CanBeDelegated property [Security],AzScope object, CanBeDelegated property [Security],IAzScope interface, IAzScope interface [Security],CanBeDelegated property, IAzScope.CanBeDelegated, IAzScope.get_CanBeDelegated, IAzScope::CanBeDelegated, IAzScope::get_CanBeDelegated, azroles/IAzScope::CanBeDelegated, azroles/IAzScope::get_CanBeDelegated, get_CanBeDelegated, security.iazscope_canbedelegated
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzScope.CanBeDelegated"
+f1_keywords:
+- azroles/IAzScope.CanBeDelegated
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzScope.CanBeDelegated
- - IAzScope.get_CanBeDelegated
- - AzScope.CanBeDelegated
+- IAzScope.CanBeDelegated
+- IAzScope.get_CanBeDelegated
+- AzScope.CanBeDelegated
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

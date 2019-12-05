@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer_Invoke
 title: CStdStubBuffer_Invoke function (rpcproxy.h)
-
 description: The CStdStubBuffer_Invoke function implements the IRpcStubBuffer::Invoke method.
 old-location: rpc\cstdstubbuffer_invoke.htm
 tech.root: Rpc
 ms.assetid: ad092a99-5a30-489a-9743-a06b148e9797
-
 ms.date: 12/05/2018
 ms.keywords: CStdStubBuffer_Invoke, CStdStubBuffer_Invoke function [RPC], rpc.cstdstubbuffer_invoke, rpcproxy/CStdStubBuffer_Invoke
 ms.topic: function
-f1_keywords: 
- - "rpcproxy/CStdStubBuffer_Invoke"
+f1_keywords:
+- rpcproxy/CStdStubBuffer_Invoke
 dev_langs:
- - c++
+- c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RpcRT4.dll
+- RpcRT4.dll
 api_name:
- - CStdStubBuffer_Invoke
+- CStdStubBuffer_Invoke
 targetos: Windows
 req.typenames: 
 req.redist: 

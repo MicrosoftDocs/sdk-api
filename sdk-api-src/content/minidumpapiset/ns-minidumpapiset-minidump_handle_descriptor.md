@@ -1,19 +1,17 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_HANDLE_DESCRIPTOR
 title: MINIDUMP_HANDLE_DESCRIPTOR (minidumpapiset.h)
-
 description: Contains the state of an individual system handle at the time the minidump was written.
 old-location: base\minidump_handle_descriptor_str.htm
 tech.root: Debug
 ms.assetid: 8387513a-137a-418e-8341-8066965849e6
-
 ms.date: 12/05/2018
 ms.keywords: '*PMINIDUMP_HANDLE_DESCRIPTOR, MINIDUMP_HANDLE_DESCRIPTOR, MINIDUMP_HANDLE_DESCRIPTOR structure, PMINIDUMP_HANDLE_DESCRIPTOR, PMINIDUMP_HANDLE_DESCRIPTOR structure pointer, _MINIDUMP_HANDLE_DESCRIPTOR, _win32_minidump_handle_descriptor_str, base.minidump_handle_descriptor_str, minidumpapiset/MINIDUMP_HANDLE_DESCRIPTOR, minidumpapiset/PMINIDUMP_HANDLE_DESCRIPTOR'
 ms.topic: struct
 f1_keywords:
 - minidumpapiset/MINIDUMP_HANDLE_DESCRIPTOR
 dev_langs:
- - c++
+- c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.Draw
 title: ID3D11DeviceContext::Draw (d3d11.h)
-
 description: Draw non-indexed, non-instanced primitives.
 old-location: direct3d11\id3d11devicecontext_draw.htm
 tech.root: direct3d11
 ms.assetid: 9c63067b-c7ac-412c-ad49-c35d4fba1d68
-
 ms.date: 12/05/2018
 ms.keywords: 531461d1-7b41-e75e-d7e7-78e6386f31f4, Draw, Draw method [Direct3D 11], Draw method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],Draw method, ID3D11DeviceContext.Draw, ID3D11DeviceContext::Draw, d3d11/ID3D11DeviceContext::Draw, direct3d11.id3d11devicecontext_draw
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.Draw"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.Draw
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.Draw
+- ID3D11DeviceContext.Draw
 targetos: Windows
 req.typenames: 
 req.redist: 

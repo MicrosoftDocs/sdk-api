@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara.SetIndents
 title: ITextPara::SetIndents (tom.h)
-
 description: Sets the first-line indent, the left indent, and the right indent for a paragraph.
 old-location: controls\ITextPara_SetIndents.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setindents.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetIndents method, ITextPara.SetIndents, ITextPara::SetIndents, SetIndents, SetIndents method [Windows Controls], SetIndents method [Windows Controls],ITextPara interface, _win32_ITextPara_SetIndents, _win32_ITextPara_SetIndents_cpp, controls.ITextPara_SetIndents, controls._win32_ITextPara_SetIndents, tom/ITextPara::SetIndents
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara.SetIndents"
+f1_keywords:
+- tom/ITextPara.SetIndents
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara.SetIndents
+- ITextPara.SetIndents
 targetos: Windows
 req.typenames: 
 req.redist: 

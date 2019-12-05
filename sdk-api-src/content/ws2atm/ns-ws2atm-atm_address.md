@@ -1,19 +1,17 @@
 ---
 UID: NS:ws2atm.__unnamed_struct_0
 title: ATM_ADDRESS (ws2atm.h)
-
 description: The ATM_ADDRESS structure holds ATM address data for ATM-based sockets.
 old-location: winsock\atm_address_2.htm
 tech.root: WinSock
 ms.assetid: 794d4070-45d7-41c3-8229-660ba3c5f72a
-
 ms.date: 12/05/2018
 ms.keywords: ATM_ADDRESS, ATM_ADDRESS structure [Winsock], ATM_CALLED_PARTY_NUMBER_IE, ATM_CALLED_PARTY_SUBADDRESS_IE, ATM_CALLING_PARTY_SUBADDRESS_IE, _win32_atm_address_2, winsock.atm_address_2, ws2atm/ATM_ADDRESS
 ms.topic: struct
-f1_keywords: 
- - "ws2atm/ATM_ADDRESS"
+f1_keywords:
+- ws2atm/ATM_ADDRESS
 dev_langs:
- - c++
+- c++
 req.header: ws2atm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ws2atm.h
+- Ws2atm.h
 api_name:
- - ATM_ADDRESS
+- ATM_ADDRESS
 targetos: Windows
 req.typenames: ATM_ADDRESS
 req.redist: 

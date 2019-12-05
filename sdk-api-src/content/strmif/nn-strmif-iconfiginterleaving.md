@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IConfigInterleaving
 title: IConfigInterleaving (strmif.h)
-
 description: The IConfigInterleaving interface controls how the AVI Mux filter interleaves audio and video samples.
 old-location: dshow\iconfiginterleaving.htm
 tech.root: DirectShow
 ms.assetid: 68594752-a711-4372-95db-10947bd2ce39
-
 ms.date: 12/05/2018
 ms.keywords: IConfigInterleaving, IConfigInterleaving interface [DirectShow], IConfigInterleaving interface [DirectShow],described, IConfigInterleavingInterface, dshow.iconfiginterleaving, strmif/IConfigInterleaving
 ms.topic: interface
-f1_keywords: 
- - "strmif/IConfigInterleaving"
+f1_keywords:
+- strmif/IConfigInterleaving
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IConfigInterleaving
+- IConfigInterleaving
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d12.ID3D12Resource
 title: ID3D12Resource (d3d12.h)
-
 description: Encapsulates a generalized ability of the CPU and GPU to read and write to physical memory, or heaps. It contains abstractions for organizing and manipulating simple arrays of data as well as multidimensional data optimized for shader sampling.
 old-location: direct3d12\id3d12resource.htm
 tech.root: direct3d12
 ms.assetid: AF453D2F-F0FD-4552-A843-84119A829CD5
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12Resource, ID3D12Resource interface, ID3D12Resource interface,described, d3d12/ID3D12Resource, direct3d12.id3d12resource
 ms.topic: interface
-f1_keywords: 
- - "d3d12/ID3D12Resource"
+f1_keywords:
+- d3d12/ID3D12Resource
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Resource
+- ID3D12Resource
 targetos: Windows
 req.typenames: 
 req.redist: 

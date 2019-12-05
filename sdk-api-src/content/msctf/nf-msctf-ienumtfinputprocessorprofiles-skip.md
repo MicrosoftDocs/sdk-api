@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumTfInputProcessorProfiles.Skip
 title: IEnumTfInputProcessorProfiles::Skip (msctf.h)
-
 description: The IEnumTfInputProcessorProfiles::Skip method moves the current position forward in the enumeration sequence by the specified number of elements.
 old-location: tsf\ienumtfinputprocessorprofiles_skip.htm
 tech.root: TSF
 ms.assetid: 7b0bf0be-1f0d-4da9-a8d2-c8a29ae3dcac
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfInputProcessorProfiles interface [Text Services Framework],Skip method, IEnumTfInputProcessorProfiles.Skip, IEnumTfInputProcessorProfiles::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfInputProcessorProfiles interface, msctf/IEnumTfInputProcessorProfiles::Skip, tsf.ienumtfinputprocessorprofiles_skip
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumTfInputProcessorProfiles.Skip"
+f1_keywords:
+- msctf/IEnumTfInputProcessorProfiles.Skip
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - IEnumTfInputProcessorProfiles.Skip
+- IEnumTfInputProcessorProfiles.Skip
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

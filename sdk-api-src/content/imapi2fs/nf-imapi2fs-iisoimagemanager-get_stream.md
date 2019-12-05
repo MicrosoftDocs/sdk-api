@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IIsoImageManager.get_Stream
 title: IIsoImageManager::get_Stream (imapi2fs.h)
-
 description: Retrieves the IStream object associated with the .iso image.
 old-location: imapi\iisoimagemanager_get_stream.htm
 tech.root: imapi
 ms.assetid: 0655edb2-5dce-4428-b883-984ef53712cd
-
 ms.date: 12/05/2018
 ms.keywords: IIsoImageManager interface [IMAPI],get_Stream method, IIsoImageManager.get_Stream, IIsoImageManager::get_Stream, get_Stream, get_Stream method [IMAPI], get_Stream method [IMAPI],IIsoImageManager interface, imapi.iisoimagemanager_get_stream, imapi2fs/IIsoImageManager::get_Stream
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IIsoImageManager.get_Stream"
+f1_keywords:
+- imapi2fs/IIsoImageManager.get_Stream
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IIsoImageManager.get_Stream
+- IIsoImageManager.get_Stream
 targetos: Windows
 req.typenames: 
 req.redist: 

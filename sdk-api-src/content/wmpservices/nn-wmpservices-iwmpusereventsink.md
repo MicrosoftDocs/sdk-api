@@ -1,19 +1,17 @@
 ---
 UID: NN:wmpservices.IWMPUserEventSink
 title: IWMPUserEventSink (wmpservices.h)
-
 description: The IWMPUserEventSink interface receives event notifications from a custom video presenter.
 old-location: wmp\iwmpusereventsink.htm
 tech.root: WMP
 ms.assetid: b9afa601-543e-4338-a603-2fe4cd56db36
-
 ms.date: 12/05/2018
 ms.keywords: IWMPUserEventSink, IWMPUserEventSink interface [Windows Media Player], IWMPUserEventSink interface [Windows Media Player],described, IWMPUserEventSinkInterface, wmp.iwmpusereventsink, wmpservices/IWMPUserEventSink
 ms.topic: interface
-f1_keywords: 
- - "wmpservices/IWMPUserEventSink"
+f1_keywords:
+- wmpservices/IWMPUserEventSink
 dev_langs:
- - c++
+- c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmpservices.h
+- wmpservices.h
 api_name:
- - IWMPUserEventSink
+- IWMPUserEventSink
 targetos: Windows
 req.typenames: 
 req.redist: 

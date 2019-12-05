@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalysisSink.SetLineBreakpoints
 title: IDWriteTextAnalysisSink::SetLineBreakpoints (dwrite.h)
-
 description: Sets line-break opportunities for each character, starting from the specified position.
 old-location: directwrite\idwritetextanalysissink_setlinebreakpoints.htm
 tech.root: DirectWrite
 ms.assetid: 423f1f0e-b2bd-48b6-aa3b-c79a2b542d5d
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextAnalysisSink interface [Direct Write],SetLineBreakpoints method, IDWriteTextAnalysisSink.SetLineBreakpoints, IDWriteTextAnalysisSink::SetLineBreakpoints, SetLineBreakpoints, SetLineBreakpoints method [Direct Write], SetLineBreakpoints method [Direct Write],IDWriteTextAnalysisSink interface, directwrite.idwritetextanalysissink_setlinebreakpoints, dwrite/IDWriteTextAnalysisSink::SetLineBreakpoints
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextAnalysisSink.SetLineBreakpoints"
+f1_keywords:
+- dwrite/IDWriteTextAnalysisSink.SetLineBreakpoints
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextAnalysisSink.SetLineBreakpoints
+- IDWriteTextAnalysisSink.SetLineBreakpoints
 targetos: Windows
 req.typenames: 
 req.redist: 

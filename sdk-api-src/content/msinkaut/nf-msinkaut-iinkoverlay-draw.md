@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkOverlay.Draw
 title: IInkOverlay::Draw (msinkaut.h)
-
 description: Sets a rectangle in which to redraw the ink within the InkOverlay object.
 old-location: tablet\inkoverlay_draw.htm
 tech.root: tablet
 ms.assetid: 80c2de5c-c6ce-4f51-9bd5-5fcf16fd4bcb
-
 ms.date: 12/05/2018
 ms.keywords: 80c2de5c-c6ce-4f51-9bd5-5fcf16fd4bcb, Draw, Draw method [Tablet PC], Draw method [Tablet PC],IInkOverlay interface, IInkOverlay, IInkOverlay interface [Tablet PC],Draw method, IInkOverlay.Draw, IInkOverlay::Draw, msinkaut/IInkOverlay::Draw, tablet.inkoverlay_draw
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkOverlay.Draw"
+f1_keywords:
+- msinkaut/IInkOverlay.Draw
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkOverlay.Draw
+- IInkOverlay.Draw
 targetos: Windows
 req.typenames: 
 req.redist: 

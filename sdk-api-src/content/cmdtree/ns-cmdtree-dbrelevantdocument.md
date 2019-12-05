@@ -1,19 +1,17 @@
 ---
 UID: NS:cmdtree.tagDBRELEVANTDOCUMENT
 title: DBRELEVANTDOCUMENT (cmdtree.h)
-
 description: The DBRELEVANTDOCUMENT structure is reserved for future use.
 old-location: indexsrv\dbrelevantdocument.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_8ph0.htm
-
 ms.date: 12/05/2018
 ms.keywords: DBRELEVANTDOCUMENT, DBRELEVANTDOCUMENT structure [Indexing Service], _idxs_DBRELEVANTDOCUMENT, cmdtree/DBRELEVANTDOCUMENT, indexsrv.dbrelevantdocument, tagDBRELEVANTDOCUMENT
 ms.topic: struct
-f1_keywords: 
- - "cmdtree/DBRELEVANTDOCUMENT"
+f1_keywords:
+- cmdtree/DBRELEVANTDOCUMENT
 dev_langs:
- - c++
+- c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - cmdtree.h
+- cmdtree.h
 api_name:
- - DBRELEVANTDOCUMENT
+- DBRELEVANTDOCUMENT
 targetos: Windows
 req.typenames: DBRELEVANTDOCUMENT
 req.redist: 

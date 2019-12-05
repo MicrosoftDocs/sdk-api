@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll3.GetKeyLen
 title: ICEnroll3::GetKeyLen (xenroll.h)
-
 description: Retrieves the minimum and maximum key lengths for the signature and exchange keys.
 old-location: security\icenroll4_getkeylen.htm
 tech.root: SecCrypto
 ms.assetid: 9d4cde68-f47c-46ad-a0ca-ee287f6e5bed
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],GetKeyLen method, GetKeyLen, GetKeyLen method [Security], GetKeyLen method [Security],CEnroll object, GetKeyLen method [Security],ICEnroll3 interface, GetKeyLen method [Security],ICEnroll4 interface, ICEnroll3 interface [Security],GetKeyLen method, ICEnroll3.GetKeyLen, ICEnroll3::GetKeyLen, ICEnroll4 interface [Security],GetKeyLen method, ICEnroll4::GetKeyLen, security.icenroll4_getkeylen, xenroll/ICEnroll3::GetKeyLen, xenroll/ICEnroll4::GetKeyLen
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.GetKeyLen"
+f1_keywords:
+- xenroll/ICEnroll4.GetKeyLen
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.GetKeyLen
- - ICEnroll3.GetKeyLen
- - CEnroll.GetKeyLen
+- ICEnroll4.GetKeyLen
+- ICEnroll3.GetKeyLen
+- CEnroll.GetKeyLen
 targetos: Windows
 req.typenames: 
 req.redist: 

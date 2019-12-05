@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ListBox_DeleteString
 title: ListBox_DeleteString macro (windowsx.h)
-
 description: Deletes the item at the specified location in a list box. You can use this macro or send the LB_DELETESTRING message explicitly.
 old-location: controls\ListBox_DeleteString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_deletestring.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListBox_DeleteString, ListBox_DeleteString macro [Windows Controls], _win32_ListBox_DeleteString, _win32_ListBox_DeleteString_cpp, controls.ListBox_DeleteString, controls._win32_ListBox_DeleteString, windowsx/ListBox_DeleteString
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ListBox_DeleteString"
+f1_keywords:
+- windowsx/ListBox_DeleteString
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ListBox_DeleteString
+- ListBox_DeleteString
 targetos: Windows
 req.typenames: 
 req.redist: 

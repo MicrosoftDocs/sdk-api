@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSystemId.Setup
 title: IMFSystemId::Setup (mfidl.h)
-
 description: Sets up the IMFSystemId.
 old-location: mf\imfsystemid_setup.htm
 tech.root: medfound
 ms.assetid: 6a779581-326a-4666-8e11-d7cdcb02faa2
-
 ms.date: 12/05/2018
 ms.keywords: IMFSystemId interface [Media Foundation],Setup method, IMFSystemId.Setup, IMFSystemId::Setup, Setup, Setup method [Media Foundation], Setup method [Media Foundation],IMFSystemId interface, mf.imfsystemid_setup, mfidl/IMFSystemId::Setup
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSystemId.Setup"
+f1_keywords:
+- mfidl/IMFSystemId.Setup
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFSystemId.Setup
+- IMFSystemId.Setup
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetDouble
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-
 description: Gets the 64-bit floating point value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getdouble.htm
 tech.root: WinRT
 ms.assetid: 93EC7793-DAEF-4E1D-A9B8-2D79A3CBBBDC
-
 ms.date: 12/05/2018
 ms.keywords: GetDouble, GetDouble method [Windows Runtime], GetDouble method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetDouble method, IPropertyValue.GetDouble, IPropertyValue.IPropertyValue, IPropertyValue::GetDouble, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetDouble, winrt.ipropertyvalue_getdouble
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValue.GetDouble"
+f1_keywords:
+- windows.foundation/IPropertyValue.GetDouble
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValue.GetDouble
+- IPropertyValue.GetDouble
 targetos: Windows
 req.typenames: 
 req.redist: 

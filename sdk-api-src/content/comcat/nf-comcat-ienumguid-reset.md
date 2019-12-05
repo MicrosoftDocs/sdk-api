@@ -1,19 +1,17 @@
 ---
 UID: NF:comcat.IEnumGUID.Reset
 title: IEnumGUID::Reset (comcat.h)
-
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumguid_reset.htm
 tech.root: com
 ms.assetid: 5f31c45a-c7a2-4cdc-a468-76a31a9ba1e9
-
 ms.date: 12/05/2018
 ms.keywords: IEnumGUID interface [COM],Reset method, IEnumGUID.Reset, IEnumGUID::Reset, Reset, Reset method [COM], Reset method [COM],IEnumGUID interface, _com_ienumguid_reset, com.ienumguid_reset, comcat/IEnumGUID::Reset
 ms.topic: method
-f1_keywords: 
- - "comcat/IEnumGUID.Reset"
+f1_keywords:
+- comcat/IEnumGUID.Reset
 dev_langs:
- - c++
+- c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComCat.h
+- ComCat.h
 api_name:
- - IEnumGUID.Reset
+- IEnumGUID.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

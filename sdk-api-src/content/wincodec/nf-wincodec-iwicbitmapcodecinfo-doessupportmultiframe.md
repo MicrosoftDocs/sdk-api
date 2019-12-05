@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.DoesSupportMultiframe
 title: IWICBitmapCodecInfo::DoesSupportMultiframe (wincodec.h)
-
 description: Retrieves a value indicating whether the codec supports multi frame images.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_doessupportmultiframe.htm
 tech.root: wic
 ms.assetid: b20bceb4-71aa-4ef6-865a-0afb4850e316
-
 ms.date: 12/05/2018
 ms.keywords: DoesSupportMultiframe, DoesSupportMultiframe method [Windows Imaging Component], DoesSupportMultiframe method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],DoesSupportMultiframe method, IWICBitmapCodecInfo.DoesSupportMultiframe, IWICBitmapCodecInfo::DoesSupportMultiframe, _wic_codec_iwicbitmapcodecinfo_doessupportmultiframe, wic._wic_codec_iwicbitmapcodecinfo_doessupportmultiframe, wincodec/IWICBitmapCodecInfo::DoesSupportMultiframe
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapCodecInfo.DoesSupportMultiframe"
+f1_keywords:
+- wincodec/IWICBitmapCodecInfo.DoesSupportMultiframe
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapCodecInfo.DoesSupportMultiframe
+- IWICBitmapCodecInfo.DoesSupportMultiframe
 targetos: Windows
 req.typenames: 
 req.redist: 

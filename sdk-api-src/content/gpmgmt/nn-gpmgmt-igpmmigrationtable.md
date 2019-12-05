@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMMigrationTable
 title: IGPMMigrationTable (gpmgmt.h)
-
 description: The IGPMMigrationTable interface provides an interface to a migration table.
 old-location: gpmc\igpmmigrationtable.htm
 tech.root: gpmc
 ms.assetid: c80c76b0-8589-4ecb-b9bf-6b8377fa98dd
-
 ms.date: 12/05/2018
 ms.keywords: GPMMigrationTable, IGPMMigrationTable, IGPMMigrationTable interface [GPMC], IGPMMigrationTable interface [GPMC],described, gpmc.igpmmigrationtable, gpmgmt/IGPMMigrationTable
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMMigrationTable"
+f1_keywords:
+- gpmgmt/IGPMMigrationTable
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMMigrationTable
- - GPMMigrationTable
+- IGPMMigrationTable
+- GPMMigrationTable
 targetos: Windows
 req.typenames: 
 req.redist: 

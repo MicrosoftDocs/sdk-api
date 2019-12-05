@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3cc.ITAgentSessionEvent.get_Event
 title: ITAgentSessionEvent::get_Event (tapi3cc.h)
-
 description: The get_Event method gets an AGENT_SESSION_EVENT descriptor of the event that occurred.
 old-location: tapi3\itagentsessionevent_get_event.htm
 tech.root: Tapi
 ms.assetid: 34779590-c2f6-4bd7-932b-5ac6365bcb20
-
 ms.date: 12/05/2018
 ms.keywords: ITAgentSessionEvent interface [TAPI 2.2],get_Event method, ITAgentSessionEvent.get_Event, ITAgentSessionEvent::get_Event, _tapi3_itagentsessionevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITAgentSessionEvent interface, tapi3.itagentsessionevent_get_event, tapi3cc/ITAgentSessionEvent::get_Event
 ms.topic: method
-f1_keywords: 
- - "tapi3cc/ITAgentSessionEvent.get_Event"
+f1_keywords:
+- tapi3cc/ITAgentSessionEvent.get_Event
 dev_langs:
- - c++
+- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAgentSessionEvent.get_Event
+- ITAgentSessionEvent.get_Event
 targetos: Windows
 req.typenames: 
 req.redist: 

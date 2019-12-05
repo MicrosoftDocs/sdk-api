@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.RefreshComponents
 title: ICOMAdminCatalog::RefreshComponents (comadmin.h)
-
 description: Updates component registration information from the registry.
 old-location: cos\icomadmincatalog_refreshcomponents.htm
 tech.root: cossdk
 ms.assetid: 50528312-60e1-4648-b0e5-709a6b49737e
-
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],RefreshComponents method, ICOMAdminCatalog.RefreshComponents, ICOMAdminCatalog::RefreshComponents, RefreshComponents, RefreshComponents method [COM+], RefreshComponents method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_RefreshComponents, comadmin/ICOMAdminCatalog::RefreshComponents, cos.icomadmincatalog_refreshcomponents
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog.RefreshComponents"
+f1_keywords:
+- comadmin/ICOMAdminCatalog.RefreshComponents
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog.RefreshComponents
+- ICOMAdminCatalog.RefreshComponents
 targetos: Windows
 req.typenames: 
 req.redist: 

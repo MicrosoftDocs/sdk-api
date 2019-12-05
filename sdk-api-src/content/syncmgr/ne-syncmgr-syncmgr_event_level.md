@@ -1,19 +1,17 @@
 ---
 UID: NE:syncmgr.SYNCMGR_EVENT_LEVEL
 title: SYNCMGR_EVENT_LEVEL (syncmgr.h)
-
 description: Specifies the type of event being reported to Sync Center.
 old-location: shell\SYNCMGR_EVENT_LEVEL.htm
 tech.root: shell
 ms.assetid: 9a961cd2-c05f-47cf-a50a-40af18eac0cd
-
 ms.date: 12/05/2018
 ms.keywords: SYNCMGR_EL_ERROR, SYNCMGR_EL_INFORMATION, SYNCMGR_EL_MAX, SYNCMGR_EL_WARNING, SYNCMGR_EVENT_LEVEL, SYNCMGR_EVENT_LEVEL enumeration [Windows Shell], shell.SYNCMGR_EVENT_LEVEL, shell_SYNCMGR_EVENT_LEVEL, syncmgr/SYNCMGR_EL_ERROR, syncmgr/SYNCMGR_EL_INFORMATION, syncmgr/SYNCMGR_EL_MAX, syncmgr/SYNCMGR_EL_WARNING, syncmgr/SYNCMGR_EVENT_LEVEL
 ms.topic: enum
-f1_keywords: 
- - "syncmgr/SYNCMGR_EVENT_LEVEL"
+f1_keywords:
+- syncmgr/SYNCMGR_EVENT_LEVEL
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - SYNCMGR_EVENT_LEVEL
+- SYNCMGR_EVENT_LEVEL
 targetos: Windows
 req.typenames: SYNCMGR_EVENT_LEVEL
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:dcommon.DWRITE_GLYPH_IMAGE_FORMATS
 title: DWRITE_GLYPH_IMAGE_FORMATS (dcommon.h)
-
 description: Specifies which formats are supported in the font, either at a font-wide level or per glyph.
 old-location: directwrite\dwrite_glyph_image_formats.htm
 tech.root: DirectWrite
 ms.assetid: ECC868B5-3D17-4D55-8E00-AB446C1C22FE
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_GLYPH_IMAGE_FORMATS, DWRITE_GLYPH_IMAGE_FORMATS enumeration [Direct Write], DWRITE_GLYPH_IMAGE_FORMATS_CFF, DWRITE_GLYPH_IMAGE_FORMATS_COLR, DWRITE_GLYPH_IMAGE_FORMATS_JPEG, DWRITE_GLYPH_IMAGE_FORMATS_NONE, DWRITE_GLYPH_IMAGE_FORMATS_PNG, DWRITE_GLYPH_IMAGE_FORMATS_PREMULTIPLIED_B8G8R8A8, DWRITE_GLYPH_IMAGE_FORMATS_SVG, DWRITE_GLYPH_IMAGE_FORMATS_TIFF, DWRITE_GLYPH_IMAGE_FORMATS_TRUETYPE, dcommon/DWRITE_GLYPH_IMAGE_FORMATS, dcommon/DWRITE_GLYPH_IMAGE_FORMATS_CFF, dcommon/DWRITE_GLYPH_IMAGE_FORMATS_COLR, dcommon/DWRITE_GLYPH_IMAGE_FORMATS_JPEG, dcommon/DWRITE_GLYPH_IMAGE_FORMATS_NONE, dcommon/DWRITE_GLYPH_IMAGE_FORMATS_PNG, dcommon/DWRITE_GLYPH_IMAGE_FORMATS_PREMULTIPLIED_B8G8R8A8, dcommon/DWRITE_GLYPH_IMAGE_FORMATS_SVG, dcommon/DWRITE_GLYPH_IMAGE_FORMATS_TIFF, dcommon/DWRITE_GLYPH_IMAGE_FORMATS_TRUETYPE, directwrite.dwrite_glyph_image_formats
 ms.topic: enum
-f1_keywords: 
- - "dcommon/DWRITE_GLYPH_IMAGE_FORMATS"
+f1_keywords:
+- dcommon/DWRITE_GLYPH_IMAGE_FORMATS
 dev_langs:
- - c++
+- c++
 req.header: dcommon.h
 req.include-header: Dwrite_3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dcommon.h
+- dcommon.h
 api_name:
- - DWRITE_GLYPH_IMAGE_FORMATS
+- DWRITE_GLYPH_IMAGE_FORMATS
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.SetSlideshow
 title: IDesktopWallpaper::SetSlideshow (shobjidl_core.h)
-
 description: Specifies the images to use for the desktop wallpaper slideshow.
 old-location: shell\IDesktopWallpaper_SetSlideshow.htm
 tech.root: shell
 ms.assetid: 0E4743A0-75AB-456a-BAAE-8EC4C0D14E6C
-
 ms.date: 12/05/2018
 ms.keywords: IDesktopWallpaper interface [Windows Shell],SetSlideshow method, IDesktopWallpaper.SetSlideshow, IDesktopWallpaper::SetSlideshow, SetSlideshow, SetSlideshow method [Windows Shell], SetSlideshow method [Windows Shell],IDesktopWallpaper interface, shell.IDesktopWallpaper_SetSlideshow, shobjidl_core/IDesktopWallpaper::SetSlideshow
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDesktopWallpaper.SetSlideshow"
+f1_keywords:
+- shobjidl_core/IDesktopWallpaper.SetSlideshow
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IDesktopWallpaper.SetSlideshow
+- IDesktopWallpaper.SetSlideshow
 targetos: Windows
 req.typenames: 
 req.redist: 

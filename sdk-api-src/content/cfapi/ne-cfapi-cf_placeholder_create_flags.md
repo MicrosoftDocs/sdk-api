@@ -1,19 +1,17 @@
 ---
 UID: NE:cfapi.CF_PLACEHOLDER_CREATE_FLAGS
 title: CF_PLACEHOLDER_CREATE_FLAGS (cfapi.h)
-
 description: Flags for creating a placeholder on a per-placeholder basis.
 old-location: cloudapi\cf_placeholder_create_flags.htm
 tech.root: cfApi
 ms.assetid: 7DB55949-E209-490C-9FF9-53E1D72CD0FA
-
 ms.date: 12/05/2018
 ms.keywords: CF_PLACEHOLDER_CREATE_FLAGS, CF_PLACEHOLDER_CREATE_FLAGS enumeration, CF_PLACEHOLDER_CREATE_FLAG_DISABLE_ON_DEMAND_POPULATION, CF_PLACEHOLDER_CREATE_FLAG_MARK_IN_SYNC, CF_PLACEHOLDER_CREATE_FLAG_NONE, cfapi/CF_PLACEHOLDER_CREATE_FLAGS, cfapi/CF_PLACEHOLDER_CREATE_FLAG_DISABLE_ON_DEMAND_POPULATION, cfapi/CF_PLACEHOLDER_CREATE_FLAG_MARK_IN_SYNC, cfapi/CF_PLACEHOLDER_CREATE_FLAG_NONE, cloudApi.cf_placeholder_create_flags
 ms.topic: enum
-f1_keywords: 
- - "cfapi/CF_PLACEHOLDER_CREATE_FLAGS"
+f1_keywords:
+- cfapi/CF_PLACEHOLDER_CREATE_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_PLACEHOLDER_CREATE_FLAGS
+- CF_PLACEHOLDER_CREATE_FLAGS
 targetos: Windows
 req.typenames: CF_PLACEHOLDER_CREATE_FLAGS
 req.redist: 

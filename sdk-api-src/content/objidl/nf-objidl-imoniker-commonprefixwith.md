@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMoniker.CommonPrefixWith
 title: IMoniker::CommonPrefixWith (objidl.h)
-
 description: Creates a new moniker based on the prefix that this moniker has in common with the specified moniker.
 old-location: com\imoniker_commonprefixwith.htm
 tech.root: com
 ms.assetid: ef2a3191-7b7c-4e51-ab55-cf601f444561
-
 ms.date: 12/05/2018
 ms.keywords: CommonPrefixWith, CommonPrefixWith method [COM], CommonPrefixWith method [COM],IMoniker interface, IMoniker interface [COM],CommonPrefixWith method, IMoniker.CommonPrefixWith, IMoniker::CommonPrefixWith, _com_imoniker_commonprefixwith, com.imoniker_commonprefixwith, objidl/IMoniker::CommonPrefixWith
 ms.topic: method
-f1_keywords: 
- - "objidl/IMoniker.CommonPrefixWith"
+f1_keywords:
+- objidl/IMoniker.CommonPrefixWith
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMoniker.CommonPrefixWith
+- IMoniker.CommonPrefixWith
 targetos: Windows
 req.typenames: 
 req.redist: 

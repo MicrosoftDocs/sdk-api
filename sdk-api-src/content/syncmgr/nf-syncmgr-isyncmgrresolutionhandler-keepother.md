@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrResolutionHandler.KeepOther
 title: ISyncMgrResolutionHandler::KeepOther (syncmgr.h)
-
 description: Replaces the versions in conflict with a different Shell item that is usually a merged version of the originals.
 old-location: shell\ISyncMgrResolutionHandler_KeepOther.htm
 tech.root: shell
 ms.assetid: 6d3e3b01-447c-4f7b-8a63-5bd9084de00a
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrResolutionHandler interface [Windows Shell],KeepOther method, ISyncMgrResolutionHandler.KeepOther, ISyncMgrResolutionHandler::KeepOther, KeepOther, KeepOther method [Windows Shell], KeepOther method [Windows Shell],ISyncMgrResolutionHandler interface, _shell_ISyncMgrResolutionHandler_KeepOther, shell.ISyncMgrResolutionHandler_KeepOther, syncmgr/ISyncMgrResolutionHandler::KeepOther
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrResolutionHandler.KeepOther"
+f1_keywords:
+- syncmgr/ISyncMgrResolutionHandler.KeepOther
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrResolutionHandler.KeepOther
+- ISyncMgrResolutionHandler.KeepOther
 targetos: Windows
 req.typenames: 
 req.redist: 

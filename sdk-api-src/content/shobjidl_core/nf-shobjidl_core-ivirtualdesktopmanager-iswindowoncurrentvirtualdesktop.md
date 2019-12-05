@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IVirtualDesktopManager.IsWindowOnCurrentVirtualDesktop
 title: IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop (shobjidl_core.h)
-
 description: Indicates whether the provided window is on the currently active virtual desktop.
 old-location: shell\ivirtualdesktopmanager_iswindowoncurrentvirtualdesktop.htm
 tech.root: shell
 ms.assetid: CBC97CF4-0C88-4C68-A873-5A5962C5817D
-
 ms.date: 12/05/2018
 ms.keywords: IVirtualDesktopManager interface [Windows Shell],IsWindowOnCurrentVirtualDesktop method, IVirtualDesktopManager.IsWindowOnCurrentVirtualDesktop, IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop, IsWindowOnCurrentVirtualDesktop, IsWindowOnCurrentVirtualDesktop method [Windows Shell], IsWindowOnCurrentVirtualDesktop method [Windows Shell],IVirtualDesktopManager interface, shell.ivirtualdesktopmanager_iswindowoncurrentvirtualdesktop, shobjidl_core/IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IVirtualDesktopManager.IsWindowOnCurrentVirtualDesktop"
+f1_keywords:
+- shobjidl_core/IVirtualDesktopManager.IsWindowOnCurrentVirtualDesktop
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IVirtualDesktopManager.IsWindowOnCurrentVirtualDesktop
+- IVirtualDesktopManager.IsWindowOnCurrentVirtualDesktop
 targetos: Windows
 req.typenames: 
 req.redist: 

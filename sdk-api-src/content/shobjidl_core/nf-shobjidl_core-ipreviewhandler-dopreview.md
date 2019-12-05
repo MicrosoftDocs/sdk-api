@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IPreviewHandler.DoPreview
 title: IPreviewHandler::DoPreview (shobjidl_core.h)
-
 description: Directs the preview handler to load data from the source specified in an earlier Initialize method call, and to begin rendering to the previewer window.
 old-location: shell\IPreviewHandler_DoPreview.htm
 tech.root: shell
 ms.assetid: f6bad84f-9089-4905-ad4d-9b69ff9d11d6
-
 ms.date: 12/05/2018
 ms.keywords: DoPreview, DoPreview method [Windows Shell], DoPreview method [Windows Shell],IPreviewHandler interface, IPreviewHandler interface [Windows Shell],DoPreview method, IPreviewHandler.DoPreview, IPreviewHandler::DoPreview, _shell_IPreviewHandler_DoPreview, shell.IPreviewHandler_DoPreview, shobjidl_core/IPreviewHandler::DoPreview
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IPreviewHandler.DoPreview"
+f1_keywords:
+- shobjidl_core/IPreviewHandler.DoPreview
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IPreviewHandler.DoPreview
+- IPreviewHandler.DoPreview
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search 4 or later

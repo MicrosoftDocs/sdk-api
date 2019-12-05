@@ -1,19 +1,17 @@
 ---
 UID: NS:ddrawi._DDHAL_DESTROYDDLOCALDATA
 title: DDHAL_DESTROYDDLOCALDATA (ddrawi.h)
-
 description: DDHAL_DESTROYDDLOCALDATA contains the information required for the driver to destroy a set of surfaces associated to a given local DirectDraw object.
 old-location: display\ddhal_destroyddlocaldata.htm
 tech.root: display
 ms.assetid: 9d1d14b8-ceaf-4845-a388-a084aa0472a7
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA structure [Display Devices], d3dstrct_1c587282-0c7f-4a8a-90ce-199cca0e86b9.xml, ddrawi/DDHAL_DESTROYDDLOCALDATA, display.ddhal_destroyddlocaldata"
+ms.keywords: '*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA structure [Display Devices], d3dstrct_1c587282-0c7f-4a8a-90ce-199cca0e86b9.xml, ddrawi/DDHAL_DESTROYDDLOCALDATA, display.ddhal_destroyddlocaldata'
 ms.topic: struct
-f1_keywords: 
- - "ddrawi/DDHAL_DESTROYDDLOCALDATA"
+f1_keywords:
+- ddrawi/DDHAL_DESTROYDDLOCALDATA
 dev_langs:
- - c++
+- c++
 req.header: ddrawi.h
 req.include-header: D3dhal.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawi.h
+- ddrawi.h
 api_name:
- - DDHAL_DESTROYDDLOCALDATA
+- DDHAL_DESTROYDDLOCALDATA
 targetos: Windows
-req.typenames: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA"
+req.typenames: '*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA'
 req.redist: 
 ms.custom: 19H1
 ---

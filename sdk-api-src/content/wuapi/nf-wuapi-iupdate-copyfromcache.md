@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdate.CopyFromCache
 title: IUpdate::CopyFromCache (wuapi.h)
-
 description: Copies the contents of an update to a specified path.
 old-location: wua\iupdate_copyfromcache.htm
 tech.root: Wua_Sdk
 ms.assetid: 43af8bb9-0e09-4541-bc2e-fd40be64a980
-
 ms.date: 12/05/2018
 ms.keywords: CopyFromCache, CopyFromCache method [Windows Update Agent], CopyFromCache method [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],CopyFromCache method, IUpdate.CopyFromCache, IUpdate::CopyFromCache, wua.iupdate_copyfromcache, wuapi/IUpdate::CopyFromCache
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdate.CopyFromCache"
+f1_keywords:
+- wuapi/IUpdate.CopyFromCache
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdate.CopyFromCache
+- IUpdate.CopyFromCache
 targetos: Windows
 req.typenames: 
 req.redist: 

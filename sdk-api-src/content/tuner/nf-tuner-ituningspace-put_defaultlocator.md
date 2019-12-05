@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuningSpace.put_DefaultLocator
 title: ITuningSpace::put_DefaultLocator (tuner.h)
-
 description: The put_DefaultLocator method sets the default locator for this tuning space.
 old-location: mstv\ituningspace_put_defaultlocator.htm
 tech.root: mstv
 ms.assetid: 59065cc9-8a11-4551-ad3d-e7963628aa20
-
 ms.date: 12/05/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],put_DefaultLocator method, ITuningSpace.put_DefaultLocator, ITuningSpace::put_DefaultLocator, ITuningSpaceput_DefaultLocator, mstv.ituningspace_put_defaultlocator, put_DefaultLocator, put_DefaultLocator method [Microsoft TV Technologies], put_DefaultLocator method [Microsoft TV Technologies],ITuningSpace interface, tuner/ITuningSpace::put_DefaultLocator
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuningSpace.put_DefaultLocator"
+f1_keywords:
+- tuner/ITuningSpace.put_DefaultLocator
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuningSpace.put_DefaultLocator
+- ITuningSpace.put_DefaultLocator
 targetos: Windows
 req.typenames: 
 req.redist: 

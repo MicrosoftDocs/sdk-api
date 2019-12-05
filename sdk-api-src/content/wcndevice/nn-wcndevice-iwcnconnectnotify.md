@@ -1,19 +1,17 @@
 ---
 UID: NN:wcndevice.IWCNConnectNotify
 title: IWCNConnectNotify (wcndevice.h)
-
 description: Use this interface to receive a success or failure notification when a Windows Connect Now connect session completes.
 old-location: wcn\iwcnconnectnotify.htm
 tech.root: wcn
 ms.assetid: 63ea2b5a-4bec-4050-9a61-962a1faef0a0
-
 ms.date: 12/05/2018
 ms.keywords: IWCNConnectNotify, IWCNConnectNotify interface [Windows Connect Now], IWCNConnectNotify interface [Windows Connect Now],described, wcn.iwcnconnectnotify, wcndevice/IWCNConnectNotify
 ms.topic: interface
-f1_keywords: 
- - "wcndevice/IWCNConnectNotify"
+f1_keywords:
+- wcndevice/IWCNConnectNotify
 dev_langs:
- - c++
+- c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WcnDevice.h
+- WcnDevice.h
 api_name:
- - IWCNConnectNotify
+- IWCNConnectNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NI:tcpioctl.IOCTL_TCP_QUERY_INFORMATION_EX
 title: IOCTL_TCP_QUERY_INFORMATION_EX (tcpioctl.h)
-
 description: Retrieves information from the TCP/IP driver.
 old-location: winprog\ioctl_tcp_query_information_ex.htm
 tech.root: DevNotes
 ms.assetid: b992b585-e1c8-4262-a6e0-ad8b5047620f
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_TCP_QUERY_INFORMATION_EX, IOCTL_TCP_QUERY_INFORMATION_EX control, IOCTL_TCP_QUERY_INFORMATION_EX control code [Windows API], tcpioctl/IOCTL_TCP_QUERY_INFORMATION_EX, winprog.ioctl_tcp_query_information_ex
 ms.topic: ioctl
-f1_keywords: 
- - "tcpioctl/IOCTL_TCP_QUERY_INFORMATION_EX"
+f1_keywords:
+- tcpioctl/IOCTL_TCP_QUERY_INFORMATION_EX
 dev_langs:
- - c++
+- c++
 req.header: tcpioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tcpioctl.h
+- Tcpioctl.h
 api_name:
- - IOCTL_TCP_QUERY_INFORMATION_EX
+- IOCTL_TCP_QUERY_INFORMATION_EX
 targetos: Windows
 req.typenames: 
 req.redist: 

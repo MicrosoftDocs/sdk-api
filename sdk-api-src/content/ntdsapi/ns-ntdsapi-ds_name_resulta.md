@@ -1,19 +1,17 @@
 ---
 UID: NS:ntdsapi.__unnamed_struct_1
 title: DS_NAME_RESULTA (ntdsapi.h)
-
 description: The DS_NAME_RESULT structure is used with the DsCrackNames function to contain the names converted by the function.
 old-location: ad\ds_name_result.htm
 tech.root: ad
 ms.assetid: 8c3cedae-f998-482c-95db-33bca94e119b
-
 ms.date: 12/05/2018
-ms.keywords: "*PDS_NAME_RESULTA, DS_NAME_RESULT, DS_NAME_RESULT structure [Active Directory], DS_NAME_RESULTA, DS_NAME_RESULTW, PDS_NAME_RESULT, PDS_NAME_RESULT structure pointer [Active Directory], _glines_ds_name_result, ad.ds__name__result, ad.ds_name_result, ntdsapi/DS_NAME_RESULT, ntdsapi/DS_NAME_RESULTA, ntdsapi/DS_NAME_RESULTW, ntdsapi/PDS_NAME_RESULT"
+ms.keywords: '*PDS_NAME_RESULTA, DS_NAME_RESULT, DS_NAME_RESULT structure [Active Directory], DS_NAME_RESULTA, DS_NAME_RESULTW, PDS_NAME_RESULT, PDS_NAME_RESULT structure pointer [Active Directory], _glines_ds_name_result, ad.ds__name__result, ad.ds_name_result, ntdsapi/DS_NAME_RESULT, ntdsapi/DS_NAME_RESULTA, ntdsapi/DS_NAME_RESULTW, ntdsapi/PDS_NAME_RESULT'
 ms.topic: struct
-f1_keywords: 
- - "ntdsapi/DS_NAME_RESULT"
+f1_keywords:
+- ntdsapi/DS_NAME_RESULT
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntdsapi.h
+- Ntdsapi.h
 api_name:
- - DS_NAME_RESULT
- - DS_NAME_RESULTA
- - DS_NAME_RESULTW
+- DS_NAME_RESULT
+- DS_NAME_RESULTA
+- DS_NAME_RESULTW
 targetos: Windows
 req.typenames: DS_NAME_RESULTA, *PDS_NAME_RESULTA
 req.redist: 

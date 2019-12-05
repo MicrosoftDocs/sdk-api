@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll4.createRequest
 title: ICEnroll4::createRequest (xenroll.h)
-
-description: Creates a PKCS #10, PKCS #7, or full Certificate Management over CMS (CMC) format certificate request and stores it in a string. This method was first defined in the ICEnroll4 interface.
+description: Creates a PKCS
 old-location: security\icenroll4_createrequest.htm
 tech.root: SecCrypto
 ms.assetid: d2a1c1c4-dbbf-423c-bf59-da0ab9a71078
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],createRequest method, ICEnroll4 interface [Security],createRequest method, ICEnroll4.createRequest, ICEnroll4::createRequest, XECR_CMC, XECR_PKCS10_V1_5, XECR_PKCS10_V2_0, XECR_PKCS7, _xen_icenroll4_createrequest, createRequest, createRequest method [Security], createRequest method [Security],CEnroll object, createRequest method [Security],ICEnroll4 interface, security.icenroll4_createrequest, xenroll/ICEnroll4::createRequest
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.createRequest"
+f1_keywords:
+- xenroll/ICEnroll4.createRequest
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.createRequest
- - CEnroll.createRequest
+- ICEnroll4.createRequest
+- CEnroll.createRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

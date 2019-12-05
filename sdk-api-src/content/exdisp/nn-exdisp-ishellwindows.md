@@ -1,19 +1,17 @@
 ---
 UID: NN:exdisp.IShellWindows
 title: IShellWindows (exdisp.h)
-
 description: Provides access to the collection of open Shell windows.
 old-location: shell\IShellWindows.htm
 tech.root: shell
 ms.assetid: e609c8b6-2b2e-4188-894c-5c85960206ea
-
 ms.date: 12/05/2018
 ms.keywords: IShellWindows, IShellWindows interface [Windows Shell], IShellWindows interface [Windows Shell],described, _win32_IShellWindows, exdisp/IShellWindows, shell.IShellWindows
 ms.topic: interface
-f1_keywords: 
- - "exdisp/IShellWindows"
+f1_keywords:
+- exdisp/IShellWindows
 dev_langs:
- - c++
+- c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdocvw.dll
+- Shdocvw.dll
 api_name:
- - IShellWindows
+- IShellWindows
 targetos: Windows
 req.typenames: 
 req.redist: 

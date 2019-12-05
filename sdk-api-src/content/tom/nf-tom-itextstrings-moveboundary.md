@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextStrings.MoveBoundary
 title: ITextStrings::MoveBoundary (tom.h)
-
 description: Moves the start boundary of a string, by index, for a selected number of characters.
 old-location: controls\itextstrings_moveboundary.htm
 tech.root: Controls
 ms.assetid: db0eff33-f20a-481e-bcae-8a72674ab906
-
 ms.date: 12/05/2018
 ms.keywords: ITextStrings interface [Windows Controls],MoveBoundary method, ITextStrings.MoveBoundary, ITextStrings::MoveBoundary, MoveBoundary, MoveBoundary method [Windows Controls], MoveBoundary method [Windows Controls],ITextStrings interface, controls.itextstrings_moveboundary, tom/ITextStrings::MoveBoundary
 ms.topic: method
-f1_keywords: 
- - "tom/ITextStrings.MoveBoundary"
+f1_keywords:
+- tom/ITextStrings.MoveBoundary
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextStrings.MoveBoundary
+- ITextStrings.MoveBoundary
 targetos: Windows
 req.typenames: 
 req.redist: 

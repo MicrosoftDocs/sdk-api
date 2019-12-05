@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICPalette.IsGrayscale
 title: IWICPalette::IsGrayscale (wincodec.h)
-
 description: Retrieves a value that describes whether a palette is grayscale.
 old-location: wic\_wic_codec_iwicpalette_isgrayscale.htm
 tech.root: wic
 ms.assetid: a559fa20-a967-4f8f-b978-f36365d3f00a
-
 ms.date: 12/05/2018
 ms.keywords: IWICPalette interface [Windows Imaging Component],IsGrayscale method, IWICPalette.IsGrayscale, IWICPalette::IsGrayscale, IsGrayscale, IsGrayscale method [Windows Imaging Component], IsGrayscale method [Windows Imaging Component],IWICPalette interface, _wic_codec_iwicpalette_isgrayscale, wic._wic_codec_iwicpalette_isgrayscale, wincodec/IWICPalette::IsGrayscale
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICPalette.IsGrayscale"
+f1_keywords:
+- wincodec/IWICPalette.IsGrayscale
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICPalette.IsGrayscale
+- IWICPalette.IsGrayscale
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetCaretPos
 title: GetCaretPos function (winuser.h)
-
 description: Copies the caret's position to the specified POINT structure.
 old-location: menurc\getcaretpos.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreference\caretfunctions\getcaretpos.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetCaretPos, GetCaretPos function [Menus and Other Resources], _win32_GetCaretPos, _win32_getcaretpos_cpp, menurc.getcaretpos, winui._win32_getcaretpos, winuser/GetCaretPos
 ms.topic: function
-f1_keywords: 
- - "winuser/GetCaretPos"
+f1_keywords:
+- winuser/GetCaretPos
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-caret-l1-1-0.dll
- - api-ms-win-ntuser-ie-caret-l1-1-0.dll
- - ie_stubs.dll
+- User32.dll
+- Ext-MS-Win-NTUser-caret-l1-1-0.dll
+- api-ms-win-ntuser-ie-caret-l1-1-0.dll
+- ie_stubs.dll
 api_name:
- - GetCaretPos
+- GetCaretPos
 targetos: Windows
 req.typenames: 
 req.redist: 

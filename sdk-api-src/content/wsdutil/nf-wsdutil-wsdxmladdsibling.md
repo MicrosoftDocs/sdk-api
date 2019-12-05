@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdutil.WSDXMLAddSibling
 title: WSDXMLAddSibling function (wsdutil.h)
-
 description: Adds a sibling element.
 old-location: ncd\wsdxmladdsibling.htm
 tech.root: WsdApi
 ms.assetid: dbe5de39-eb8e-4352-b0c4-32d10e324185
-
 ms.date: 12/05/2018
 ms.keywords: WSDXMLAddSibling, WSDXMLAddSibling function, ncd.wsdxmladdsibling, wsdutil/WSDXMLAddSibling
 ms.topic: function
 f1_keywords:
 - wsdutil/WSDXMLAddSibling
 dev_langs:
- - c++
+- c++
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

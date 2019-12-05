@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1BoundsAdjustmentTransform.GetOutputBounds
 title: ID2D1BoundsAdjustmentTransform::GetOutputBounds (d2d1effectauthor.h)
-
 description: Returns the output rectangle of the support transform.
 old-location: direct2d\id2d1boundsadjustmenttransform_getoutputbounds.htm
 tech.root: Direct2D
 ms.assetid: 779654CB-1E9F-49F6-BD50-0BF8A2595713
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputBounds, GetOutputBounds method [Direct2D], GetOutputBounds method [Direct2D],ID2D1BoundsAdjustmentTransform interface, ID2D1BoundsAdjustmentTransform interface [Direct2D],GetOutputBounds method, ID2D1BoundsAdjustmentTransform.GetOutputBounds, ID2D1BoundsAdjustmentTransform::GetOutputBounds, d2d1effectauthor/ID2D1BoundsAdjustmentTransform::GetOutputBounds, direct2d.id2d1boundsadjustmenttransform_getoutputbounds
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1BoundsAdjustmentTransform.GetOutputBounds"
+f1_keywords:
+- d2d1effectauthor/ID2D1BoundsAdjustmentTransform.GetOutputBounds
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1BoundsAdjustmentTransform.GetOutputBounds
+- ID2D1BoundsAdjustmentTransform.GetOutputBounds
 targetos: Windows
 req.typenames: 
 req.redist: 

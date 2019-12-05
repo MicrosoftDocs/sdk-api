@@ -1,19 +1,17 @@
 ---
 UID: NE:virtdisk._EXPAND_VIRTUAL_DISK_VERSION
 title: EXPAND_VIRTUAL_DISK_VERSION (virtdisk.h)
-
 description: Contains the version of the virtual disk EXPAND_VIRTUAL_DISK_PARAMETERS structure to use in calls to virtual disk functions.
 old-location: vhd\expand_virtual_disk_version.htm
 tech.root: VStor
 ms.assetid: 28651993-81ad-4dfc-9c8b-3768fab5d3ae
-
 ms.date: 12/05/2018
 ms.keywords: EXPAND_VIRTUAL_DISK_VERSION, EXPAND_VIRTUAL_DISK_VERSION enumeration [VHD], EXPAND_VIRTUAL_DISK_VERSION_1, EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED, vdssys/EXPAND_VIRTUAL_DISK_VERSION, vdssys/EXPAND_VIRTUAL_DISK_VERSION_1, vdssys/EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED, vhd.expand_virtual_disk_version, virtdisk/EXPAND_VIRTUAL_DISK_VERSION, virtdisk/EXPAND_VIRTUAL_DISK_VERSION_1, virtdisk/EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED
 ms.topic: enum
-f1_keywords: 
- - "virtdisk/EXPAND_VIRTUAL_DISK_VERSION"
+f1_keywords:
+- virtdisk/EXPAND_VIRTUAL_DISK_VERSION
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VirtDisk.h
- - vdssys.h
+- VirtDisk.h
+- vdssys.h
 api_name:
- - EXPAND_VIRTUAL_DISK_VERSION
+- EXPAND_VIRTUAL_DISK_VERSION
 targetos: Windows
 req.typenames: EXPAND_VIRTUAL_DISK_VERSION
 req.redist: 

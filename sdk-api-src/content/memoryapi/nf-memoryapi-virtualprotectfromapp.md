@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.VirtualProtectFromApp
 title: VirtualProtectFromApp function (memoryapi.h)
-
 description: Changes the protection on a region of committed pages in the virtual address space of the calling process.
 old-location: base\virtualprotectfromapp.htm
 tech.root: Memory
 ms.assetid: 04202DB6-8A28-4B3C-9320-557E5F4D42AC
-
 ms.date: 12/05/2018
 ms.keywords: VirtualProtectFromApp, VirtualProtectFromApp function, base.virtualprotectfromapp, memoryapi/VirtualProtectFromApp
 ms.topic: function
-f1_keywords: 
- - "memoryapi/VirtualProtectFromApp"
+f1_keywords:
+- memoryapi/VirtualProtectFromApp
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-memory-l1-1-3.dll
- - KernelBase.dll
- - API-MS-Win-Core-Memory-L1-1-4.dll
+- Kernel32.dll
+- API-MS-Win-Core-memory-l1-1-3.dll
+- KernelBase.dll
+- API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - VirtualProtectFromApp
+- VirtualProtectFromApp
 targetos: Windows
 req.typenames: 
 req.redist: 

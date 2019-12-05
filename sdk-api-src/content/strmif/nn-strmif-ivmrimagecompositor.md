@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IVMRImageCompositor
 title: IVMRImageCompositor (strmif.h)
-
 description: The IVMRImageCompositor interface is implemented by the default compositor for the Video Mixing Renderer Filter 7 (VMR-7).
 old-location: dshow\ivmrimagecompositor.htm
 tech.root: DirectShow
 ms.assetid: d905e871-c156-4140-bb3f-a19fa0cd79be
-
 ms.date: 12/05/2018
 ms.keywords: IVMRImageCompositor, IVMRImageCompositor interface [DirectShow], IVMRImageCompositor interface [DirectShow],described, IVMRImageCompositorInterface, dshow.ivmrimagecompositor, strmif/IVMRImageCompositor
 ms.topic: interface
-f1_keywords: 
- - "strmif/IVMRImageCompositor"
+f1_keywords:
+- strmif/IVMRImageCompositor
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRImageCompositor
+- IVMRImageCompositor
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wcndevice.IWCNDevice.GetAttribute
 title: IWCNDevice::GetAttribute (wcndevice.h)
-
 description: The IWCNDevice::GetAttribute method gets a cached attribute from the device.
 old-location: wcn\iwcndevice_getattribute.htm
 tech.root: wcn
 ms.assetid: 06a73bb5-c339-4069-853d-ab22c15c1462
-
 ms.date: 12/05/2018
 ms.keywords: GetAttribute, GetAttribute method [Windows Connect Now], GetAttribute method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],GetAttribute method, IWCNDevice.GetAttribute, IWCNDevice::GetAttribute, wcn.iwcndevice_getattribute, wcndevice/IWCNDevice::GetAttribute
 ms.topic: method
-f1_keywords: 
- - "wcndevice/IWCNDevice.GetAttribute"
+f1_keywords:
+- wcndevice/IWCNDevice.GetAttribute
 dev_langs:
- - c++
+- c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WcnDevice.h
+- WcnDevice.h
 api_name:
- - IWCNDevice.GetAttribute
+- IWCNDevice.GetAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

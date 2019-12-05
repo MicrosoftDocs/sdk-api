@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.WaitForInputIdle
 title: IUIAutomationWindowPattern::WaitForInputIdle (uiautomationclient.h)
-
 description: Causes the calling code to block for the specified time or until the associated process enters an idle state, whichever completes first.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_WaitForInputIdle.htm
 tech.root: WinAuto
 ms.assetid: 2e08c3b1-6437-40ce-9dd3-2beb3e1f37fb
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationWindowPattern interface [Windows Accessibility],WaitForInputIdle method, IUIAutomationWindowPattern.WaitForInputIdle, IUIAutomationWindowPattern::WaitForInputIdle, WaitForInputIdle, WaitForInputIdle method [Windows Accessibility], WaitForInputIdle method [Windows Accessibility],IUIAutomationWindowPattern interface, uiauto.uiauto_IUIAutomationWindowPattern_WaitForInputIdle, uiauto_IUIAutomationWindowPattern_WaitForInputIdle, uiautomationclient/IUIAutomationWindowPattern::WaitForInputIdle, winauto.uiauto_IUIAutomationWindowPattern_WaitForInputIdle
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationWindowPattern.WaitForInputIdle"
+f1_keywords:
+- uiautomationclient/IUIAutomationWindowPattern.WaitForInputIdle
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationWindowPattern.WaitForInputIdle
+- IUIAutomationWindowPattern.WaitForInputIdle
 targetos: Windows
 req.typenames: 
 req.redist: 

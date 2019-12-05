@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertOIDToAlgId
 title: CertOIDToAlgId function (wincrypt.h)
-
 description: Use the CryptFindOIDInfo function instead of this function because ALG_ID identifiers are no longer supported in CNG.
 old-location: security\certoidtoalgid.htm
 tech.root: SecCrypto
 ms.assetid: 920b2642-ce7c-4098-8720-5a6f24128787
-
 ms.date: 12/05/2018
 ms.keywords: CertOIDToAlgId, CertOIDToAlgId function [Security], _crypto2_certoidtoalgid, security.certoidtoalgid, wincrypt/CertOIDToAlgId
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertOIDToAlgId"
+f1_keywords:
+- wincrypt/CertOIDToAlgId
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertOIDToAlgId
+- CertOIDToAlgId
 targetos: Windows
 req.typenames: 
 req.redist: 

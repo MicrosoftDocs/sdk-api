@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPCore.get_isOnline
 title: IWMPCore::get_isOnline (wmp.h)
-
 description: The get_isOnline method retrieves a value indicating whether the user is connected to a network.
 old-location: wmp\iwmpcore_get_isonline.htm
 tech.root: WMP
 ms.assetid: 5507a80f-4bef-4712-af41-49e58d8396aa
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_isOnline method, IWMPCore.get_isOnline, IWMPCore::get_isOnline, IWMPCoreget_isOnline, get_isOnline, get_isOnline method [Windows Media Player], get_isOnline method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_isonline, wmp/IWMPCore::get_isOnline
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPCore.get_isOnline"
+f1_keywords:
+- wmp/IWMPCore.get_isOnline
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPCore.get_isOnline
+- IWMPCore.get_isOnline
 targetos: Windows
 req.typenames: 
 req.redist: 

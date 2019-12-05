@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.Append
 title: IXpsOMColorProfileResourceCollection::Append (xpsobjectmodel.h)
-
 description: Appends an IXpsOMColorProfileResource interface pointer to the end of the collection.
 old-location: xps\ixpsomcolorprofileresourcecollection_append.htm
 tech.root: printdocs
 ms.assetid: 6aa00a6d-59f2-41d9-8a11-0810ac336d4b
-
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],Append method, IXpsOMColorProfileResourceCollection.Append, IXpsOMColorProfileResourceCollection::Append, xps.ixpsomcolorprofileresourcecollection_append, xpsobjectmodel/IXpsOMColorProfileResourceCollection::Append
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMColorProfileResourceCollection.Append"
+f1_keywords:
+- xpsobjectmodel/IXpsOMColorProfileResourceCollection.Append
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMColorProfileResourceCollection.Append
+- IXpsOMColorProfileResourceCollection.Append
 targetos: Windows
 req.typenames: 
 req.redist: 

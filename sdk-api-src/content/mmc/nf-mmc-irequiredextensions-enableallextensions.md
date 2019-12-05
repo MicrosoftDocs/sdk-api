@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IRequiredExtensions.EnableAllExtensions
 title: IRequiredExtensions::EnableAllExtensions (mmc.h)
-
 description: The IRequiredExtensions::EnableAllExtensions method enables the snap-in to specify that all extension snap-ins registered for the snap-in are required.
 old-location: mmc\irequiredextensions_enableallextensions.htm
 tech.root: mmc
 ms.assetid: f7278976-8f15-43a4-b9ef-fb1952fdd455
-
 ms.date: 12/05/2018
 ms.keywords: EnableAllExtensions, EnableAllExtensions method [MMC], EnableAllExtensions method [MMC],IRequiredExtensions interface, IRequiredExtensions interface [MMC],EnableAllExtensions method, IRequiredExtensions.EnableAllExtensions, IRequiredExtensions::EnableAllExtensions, _slate_irequiredextensions_enableallextensions, mmc.irequiredextensions_enableallextensions, mmc/IRequiredExtensions::EnableAllExtensions
 ms.topic: method
-f1_keywords: 
- - "mmc/IRequiredExtensions.EnableAllExtensions"
+f1_keywords:
+- mmc/IRequiredExtensions.EnableAllExtensions
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IRequiredExtensions.EnableAllExtensions
+- IRequiredExtensions.EnableAllExtensions
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_1
 title: WS_XML_CANONICALIZATION_ALGORITHM (webservices.h)
-
 description: The values for the XML canonicalization algorithms.
 old-location: wsw\ws_xml_canonicalization_algorithm.htm
 tech.root: wsw
 ms.assetid: 230e4b9d-f6ce-45a8-9efd-2a6949d3e6f4
-
 ms.date: 12/05/2018
 ms.keywords: WS_EXCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM, WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM, WS_INCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM, WS_INCLUSIVE_XML_CANONICALIZATION_ALGORITHM, WS_XML_CANONICALIZATION_ALGORITHM, WS_XML_CANONICALIZATION_ALGORITHM enumeration [Web Services for Windows], webservices/WS_EXCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM, webservices/WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM, webservices/WS_INCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM, webservices/WS_INCLUSIVE_XML_CANONICALIZATION_ALGORITHM, webservices/WS_XML_CANONICALIZATION_ALGORITHM, wsw.ws_xml_canonicalization_algorithm
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_XML_CANONICALIZATION_ALGORITHM"
+f1_keywords:
+- webservices/WS_XML_CANONICALIZATION_ALGORITHM
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_XML_CANONICALIZATION_ALGORITHM
+- WS_XML_CANONICALIZATION_ALGORITHM
 targetos: Windows
 req.typenames: WS_XML_CANONICALIZATION_ALGORITHM
 req.redist: 

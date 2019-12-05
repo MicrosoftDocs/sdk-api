@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.EnumObjects
 title: EnumObjects function (wingdi.h)
-
 description: The EnumObjects function enumerates the pens or brushes available for the specified device context (DC).
 old-location: gdi\enumobjects.htm
 tech.root: gdi
 ms.assetid: 2a7b60b2-9a68-4c56-9376-c1b780488535
-
 ms.date: 12/05/2018
 ms.keywords: EnumObjects, EnumObjects function [Windows GDI], _win32_EnumObjects, gdi.enumobjects, wingdi/EnumObjects
 ms.topic: function
-f1_keywords: 
- - "wingdi/EnumObjects"
+f1_keywords:
+- wingdi/EnumObjects
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-DC-L1-2-1.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-DC-L1-2-1.dll
+- GDI32Full.dll
 api_name:
- - EnumObjects
+- EnumObjects
 targetos: Windows
 req.typenames: 
 req.redist: 

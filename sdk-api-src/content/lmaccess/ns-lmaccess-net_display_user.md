@@ -1,19 +1,17 @@
 ---
 UID: NS:lmaccess._NET_DISPLAY_USER
 title: NET_DISPLAY_USER (lmaccess.h)
-
 description: The NET_DISPLAY_USER structure contains information that an account manager can access to determine information about user accounts.
 old-location: netmgmt\net_display_user_str.htm
 tech.root: NetMgmt
 ms.assetid: 308966f7-448c-4748-bbe7-9ac63afae1d9
-
 ms.date: 12/05/2018
-ms.keywords: "*PNET_DISPLAY_USER, NET_DISPLAY_USER, NET_DISPLAY_USER structure [Network Management], PNET_DISPLAY_USER, PNET_DISPLAY_USER structure pointer [Network Management], UF_ACCOUNTDISABLE, UF_DONT_EXPIRE_PASSWD, UF_DONT_REQUIRE_PREAUTH, UF_ENCRYPTED_TEXT_PASSWORD_ALLOWED, UF_INTERDOMAIN_TRUST_ACCOUNT, UF_LOCKOUT, UF_NORMAL_ACCOUNT, UF_NOT_DELEGATED, UF_PASSWD_CANT_CHANGE, UF_PASSWD_NOTREQD, UF_PASSWORD_EXPIRED, UF_SCRIPT, UF_SERVER_TRUST_ACCOUNT, UF_SMARTCARD_REQUIRED, UF_TEMP_DUPLICATE_ACCOUNT, UF_TRUSTED_FOR_DELEGATION, UF_TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION, UF_USE_DES_KEY_ONLY, UF_WORKSTATION_TRUST_ACCOUNT, _win32_net_display_user_str, lmaccess/NET_DISPLAY_USER, lmaccess/PNET_DISPLAY_USER, netmgmt.net_display_user_str"
+ms.keywords: '*PNET_DISPLAY_USER, NET_DISPLAY_USER, NET_DISPLAY_USER structure [Network Management], PNET_DISPLAY_USER, PNET_DISPLAY_USER structure pointer [Network Management], UF_ACCOUNTDISABLE, UF_DONT_EXPIRE_PASSWD, UF_DONT_REQUIRE_PREAUTH, UF_ENCRYPTED_TEXT_PASSWORD_ALLOWED, UF_INTERDOMAIN_TRUST_ACCOUNT, UF_LOCKOUT, UF_NORMAL_ACCOUNT, UF_NOT_DELEGATED, UF_PASSWD_CANT_CHANGE, UF_PASSWD_NOTREQD, UF_PASSWORD_EXPIRED, UF_SCRIPT, UF_SERVER_TRUST_ACCOUNT, UF_SMARTCARD_REQUIRED, UF_TEMP_DUPLICATE_ACCOUNT, UF_TRUSTED_FOR_DELEGATION, UF_TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION, UF_USE_DES_KEY_ONLY, UF_WORKSTATION_TRUST_ACCOUNT, _win32_net_display_user_str, lmaccess/NET_DISPLAY_USER, lmaccess/PNET_DISPLAY_USER, netmgmt.net_display_user_str'
 ms.topic: struct
-f1_keywords: 
- - "lmaccess/NET_DISPLAY_USER"
+f1_keywords:
+- lmaccess/NET_DISPLAY_USER
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmaccess.h
+- Lmaccess.h
 api_name:
- - NET_DISPLAY_USER
+- NET_DISPLAY_USER
 targetos: Windows
 req.typenames: NET_DISPLAY_USER, *PNET_DISPLAY_USER
 req.redist: 

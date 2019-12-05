@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IOperationsProgressDialog.PauseTimer
 title: IOperationsProgressDialog::PauseTimer (shobjidl_core.h)
-
 description: Pauses progress dialog timer.
 old-location: shell\IOperationsProgressDialog_PauseTimer.htm
 tech.root: shell
 ms.assetid: 9fdfd3b1-23fb-4172-a3e4-2142a29c21e3
-
 ms.date: 12/05/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],PauseTimer method, IOperationsProgressDialog.PauseTimer, IOperationsProgressDialog::PauseTimer, PauseTimer, PauseTimer method [Windows Shell], PauseTimer method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_PauseTimer, shell.IOperationsProgressDialog_PauseTimer, shobjidl_core/IOperationsProgressDialog::PauseTimer
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IOperationsProgressDialog.PauseTimer"
+f1_keywords:
+- shobjidl_core/IOperationsProgressDialog.PauseTimer
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IOperationsProgressDialog.PauseTimer
+- IOperationsProgressDialog.PauseTimer
 targetos: Windows
 req.typenames: 
 req.redist: 

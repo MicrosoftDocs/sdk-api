@@ -1,19 +1,17 @@
 ---
 UID: NS:dcommon.D2D_POINT_2U
 title: D2D_POINT_2U (dcommon.h)
-
 description: Represents an x-coordinate and y-coordinate pair, expressed as an unsigned 32-bit integer value, in two-dimensional space.
 old-location: direct2d\D2D_POINT_2U.htm
 tech.root: Direct2D
 ms.assetid: 154e3f7b-7e3e-40e5-a1e1-762ec8950426
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_POINT_2U, D2D_POINT_2U, D2D_POINT_2U structure [Direct2D], dcommon/D2D_POINT_2U, direct2d.D2D_POINT_2U
 ms.topic: struct
-f1_keywords: 
- - "dcommon/D2D_POINT_2U"
+f1_keywords:
+- dcommon/D2D_POINT_2U
 dev_langs:
- - c++
+- c++
 req.header: dcommon.h
 req.include-header: D2d1.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dcommon.h
+- dcommon.h
 api_name:
- - D2D_POINT_2U
+- D2D_POINT_2U
 targetos: Windows
 req.typenames: D2D_POINT_2U
 req.redist: 

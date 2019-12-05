@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.PushEmptyStorageFilter
 title: ID3D10InfoQueue::PushEmptyStorageFilter (d3d10sdklayers.h)
-
 description: Push an empty storage filter onto the storage-filter stack.
 old-location: direct3d10\id3d10infoqueue_pushemptystoragefilter.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_pushemptystoragefilter.htm
-
 ms.date: 12/05/2018
 ms.keywords: 0cfc6f25-169a-17b2-a049-aacf4f194e68, ID3D10InfoQueue interface [Direct3D 10],PushEmptyStorageFilter method, ID3D10InfoQueue.PushEmptyStorageFilter, ID3D10InfoQueue::PushEmptyStorageFilter, PushEmptyStorageFilter, PushEmptyStorageFilter method [Direct3D 10], PushEmptyStorageFilter method [Direct3D 10],ID3D10InfoQueue interface, d3d10sdklayers/ID3D10InfoQueue::PushEmptyStorageFilter, direct3d10.id3d10infoqueue_pushemptystoragefilter
 ms.topic: method
-f1_keywords: 
- - "d3d10sdklayers/ID3D10InfoQueue.PushEmptyStorageFilter"
+f1_keywords:
+- d3d10sdklayers/ID3D10InfoQueue.PushEmptyStorageFilter
 dev_langs:
- - c++
+- c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10SDKLayers.h
+- D3D10SDKLayers.h
 api_name:
- - ID3D10InfoQueue.PushEmptyStorageFilter
+- ID3D10InfoQueue.PushEmptyStorageFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

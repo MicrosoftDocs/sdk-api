@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPM.InitializeReporting
 title: IGPM::InitializeReporting (gpmgmt.h)
-
 description: The InitializeReporting method sets the location to search for .adm files. This method initializes reporting in an asynchronous manner.
 old-location: gpmc\igpm_initializereporting.htm
 tech.root: gpmc
 ms.assetid: 6e9f6ac5-d6d7-4360-b722-0b22e2391d20
-
 ms.date: 12/05/2018
 ms.keywords: GPM object [GPMC],InitializeReporting method, IGPM interface [GPMC],InitializeReporting method, IGPM.InitializeReporting, IGPM::InitializeReporting, InitializeReporting, InitializeReporting method [GPMC], InitializeReporting method [GPMC],GPM object, InitializeReporting method [GPMC],IGPM interface, gpmc.igpm_initializereporting, gpmgmt/IGPM::InitializeReporting
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPM.InitializeReporting"
+f1_keywords:
+- gpmgmt/IGPM.InitializeReporting
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPM.InitializeReporting
- - GPM.InitializeReporting
+- IGPM.InitializeReporting
+- GPM.InitializeReporting
 targetos: Windows
 req.typenames: 
 req.redist: 

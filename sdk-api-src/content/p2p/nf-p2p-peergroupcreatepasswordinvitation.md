@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupCreatePasswordInvitation
 title: PeerGroupCreatePasswordInvitation function (p2p.h)
-
 description: Returns an XML string that can be used by the specified peer to join a group with a matching password.
 old-location: p2p\peergroupcreatepasswordinvitation.htm
 tech.root: P2PSdk
 ms.assetid: 12d2920d-35b6-41e3-9129-1f11ce4cb5eb
-
 ms.date: 12/05/2018
 ms.keywords: PeerGroupCreatePasswordInvitation, PeerGroupCreatePasswordInvitation function [Peer Networking], p2p.peergroupcreatepasswordinvitation, p2p/PeerGroupCreatePasswordInvitation
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupCreatePasswordInvitation"
+f1_keywords:
+- p2p/PeerGroupCreatePasswordInvitation
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupCreatePasswordInvitation
+- PeerGroupCreatePasswordInvitation
 targetos: Windows
 req.typenames: 
 req.redist: 

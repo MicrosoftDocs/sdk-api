@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.GetReceiveSelectionCallbacks
 title: IWMReaderAdvanced::GetReceiveSelectionCallbacks (wmsdkidl.h)
-
 description: The GetReceiveSelectionCallbacks method ascertains whether the option to receive stream selection notifications has been enabled.
 old-location: wmformat\iwmreaderadvanced_getreceiveselectioncallbacks.htm
 tech.root: wmformat
 ms.assetid: 7923564d-23d5-4163-9316-347c466c7dc0
-
 ms.date: 12/05/2018
 ms.keywords: GetReceiveSelectionCallbacks, GetReceiveSelectionCallbacks method [windows Media Format], GetReceiveSelectionCallbacks method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetReceiveSelectionCallbacks method, IWMReaderAdvanced.GetReceiveSelectionCallbacks, IWMReaderAdvanced::GetReceiveSelectionCallbacks, IWMReaderAdvancedGetReceiveSelectionCallbacks, wmformat.iwmreaderadvanced_getreceiveselectioncallbacks, wmsdkidl/IWMReaderAdvanced::GetReceiveSelectionCallbacks
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced.GetReceiveSelectionCallbacks"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced.GetReceiveSelectionCallbacks
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced.GetReceiveSelectionCallbacks
+- IWMReaderAdvanced.GetReceiveSelectionCallbacks
 targetos: Windows
 req.typenames: 
 req.redist: 

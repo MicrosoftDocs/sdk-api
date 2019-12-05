@@ -1,19 +1,17 @@
 ---
 UID: NE:mobsync._tagSYNCMGRFLAG
 title: SYNCMGRFLAG (mobsync.h)
-
 description: The SYNCMGRFLAG enumeration values are used in the ISyncMgrSynchronize::Initialize method to indicate how the synchronization event was initiated.
 old-location: shell\syncmgr_syncmgrflag.htm
 tech.root: shell
 ms.assetid: b1a60a6b-b4f8-4c89-853b-5a5584c415e9
-
 ms.date: 12/05/2018
 ms.keywords: SYNCMGRFLAG, SYNCMGRFLAG enumeration [Windows Shell], SYNCMGRFLAG_CONNECT, SYNCMGRFLAG_EVENTMASK, SYNCMGRFLAG_IDLE, SYNCMGRFLAG_INVOKE, SYNCMGRFLAG_MANUAL, SYNCMGRFLAG_MAYBOTHERUSER, SYNCMGRFLAG_PENDINGDISCONNECT, SYNCMGRFLAG_SCHEDULED, SYNCMGRFLAG_SETTINGS, mobsync/SYNCMGRFLAG, mobsync/SYNCMGRFLAG_CONNECT, mobsync/SYNCMGRFLAG_EVENTMASK, mobsync/SYNCMGRFLAG_IDLE, mobsync/SYNCMGRFLAG_INVOKE, mobsync/SYNCMGRFLAG_MANUAL, mobsync/SYNCMGRFLAG_MAYBOTHERUSER, mobsync/SYNCMGRFLAG_PENDINGDISCONNECT, mobsync/SYNCMGRFLAG_SCHEDULED, mobsync/SYNCMGRFLAG_SETTINGS, shell.syncmgr_syncmgrflag, syncmgr.syncmgrflag
 ms.topic: enum
-f1_keywords: 
- - "mobsync/SYNCMGRFLAG"
+f1_keywords:
+- mobsync/SYNCMGRFLAG
 dev_langs:
- - c++
+- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mobsync.h
+- Mobsync.h
 api_name:
- - SYNCMGRFLAG
+- SYNCMGRFLAG
 targetos: Windows
 req.typenames: SYNCMGRFLAG
 req.redist: 

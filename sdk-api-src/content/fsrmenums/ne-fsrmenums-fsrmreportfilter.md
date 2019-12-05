@@ -1,19 +1,17 @@
 ---
 UID: NE:fsrmenums._FsrmReportFilter
 title: FsrmReportFilter (fsrmenums.h)
-
 description: Defines the filters that you can use to limit the files that are included in a report.
 old-location: fsrm\fsrmreportfilter.htm
 tech.root: fsrm
 ms.assetid: 6f38ec9a-8876-44ce-9d44-f3982f1880ca
-
 ms.date: 12/05/2018
 ms.keywords: FsrmReportFilter, FsrmReportFilter enumeration [File Server Resource Manager], FsrmReportFilter_FileGroups, FsrmReportFilter_MaxAgeDays, FsrmReportFilter_MinAgeDays, FsrmReportFilter_MinQuotaUsage, FsrmReportFilter_MinSize, FsrmReportFilter_NamePattern, FsrmReportFilter_Owners, FsrmReportFilter_Property, fs.fsrmreportfilter, fsrm.fsrmreportfilter, fsrmenums/FsrmReportFilter, fsrmenums/FsrmReportFilter_FileGroups, fsrmenums/FsrmReportFilter_MaxAgeDays, fsrmenums/FsrmReportFilter_MinAgeDays, fsrmenums/FsrmReportFilter_MinQuotaUsage, fsrmenums/FsrmReportFilter_MinSize, fsrmenums/FsrmReportFilter_NamePattern, fsrmenums/FsrmReportFilter_Owners, fsrmenums/FsrmReportFilter_Property
 ms.topic: enum
-f1_keywords: 
- - "fsrmenums/FsrmReportFilter"
+f1_keywords:
+- fsrmenums/FsrmReportFilter
 dev_langs:
- - c++
+- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FsrmEnums.h
+- FsrmEnums.h
 api_name:
- - FsrmReportFilter
+- FsrmReportFilter
 targetos: Windows
 req.typenames: FsrmReportFilter
 req.redist: 

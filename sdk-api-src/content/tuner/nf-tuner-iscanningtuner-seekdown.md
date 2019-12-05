@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IScanningTuner.SeekDown
 title: IScanningTuner::SeekDown (tuner.h)
-
 description: The SeekDown method changes the channel to the next lower channel with valid programming.
 old-location: mstv\iscanningtuner_seekdown.htm
 tech.root: mstv
 ms.assetid: ef78bae1-238f-4774-ab9a-b3681ba53656
-
 ms.date: 12/05/2018
 ms.keywords: IScanningTuner interface [Microsoft TV Technologies],SeekDown method, IScanningTuner.SeekDown, IScanningTuner::SeekDown, IScanningTunerSeekDown, SeekDown, SeekDown method [Microsoft TV Technologies], SeekDown method [Microsoft TV Technologies],IScanningTuner interface, mstv.iscanningtuner_seekdown, tuner/IScanningTuner::SeekDown
 ms.topic: method
-f1_keywords: 
- - "tuner/IScanningTuner.SeekDown"
+f1_keywords:
+- tuner/IScanningTuner.SeekDown
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IScanningTuner.SeekDown
+- IScanningTuner.SeekDown
 targetos: Windows
 req.typenames: 
 req.redist: 

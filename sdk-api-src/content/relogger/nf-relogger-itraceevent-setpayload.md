@@ -1,19 +1,17 @@
 ---
 UID: NF:relogger.ITraceEvent.SetPayload
 title: ITraceEvent::SetPayload (relogger.h)
-
 description: Sets the payload for an event.
 old-location: etw\ievent_setpayload.htm
 tech.root: ETW
 ms.assetid: 180e0487-5262-45ae-a701-3fcb575637ae
-
 ms.date: 12/05/2018
 ms.keywords: ITraceEvent interface [ETW],SetPayload method, ITraceEvent.SetPayload, ITraceEvent::SetPayload, SetPayload, SetPayload method [ETW], SetPayload method [ETW],ITraceEvent interface, etw.ievent_setpayload, relogger/ITraceEvent::SetPayload
 ms.topic: method
-f1_keywords: 
- - "relogger/ITraceEvent.SetPayload"
+f1_keywords:
+- relogger/ITraceEvent.SetPayload
 dev_langs:
- - c++
+- c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Relogger.h
+- Relogger.h
 api_name:
- - ITraceEvent.SetPayload
+- ITraceEvent.SetPayload
 targetos: Windows
 req.typenames: 
 req.redist: 

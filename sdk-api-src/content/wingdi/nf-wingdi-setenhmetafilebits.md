@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.SetEnhMetaFileBits
 title: SetEnhMetaFileBits function (wingdi.h)
-
 description: The SetEnhMetaFileBits function creates a memory-based enhanced-format metafile from the specified data.
 old-location: gdi\setenhmetafilebits.htm
 tech.root: gdi
 ms.assetid: 0f21ed97-e37f-4b44-a2eb-b8e284b3dc4b
-
 ms.date: 12/05/2018
 ms.keywords: SetEnhMetaFileBits, SetEnhMetaFileBits function [Windows GDI], _win32_SetEnhMetaFileBits, gdi.setenhmetafilebits, wingdi/SetEnhMetaFileBits
 ms.topic: function
-f1_keywords: 
- - "wingdi/SetEnhMetaFileBits"
+f1_keywords:
+- wingdi/SetEnhMetaFileBits
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Metafile-l1-1-0.dll
- - Ext-MS-Win-GDI-Metafile-l1-1-1.dll
- - ext-ms-win-gdi-metafile-l1-1-2.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Metafile-l1-1-0.dll
+- Ext-MS-Win-GDI-Metafile-l1-1-1.dll
+- ext-ms-win-gdi-metafile-l1-1-2.dll
+- GDI32Full.dll
 api_name:
- - SetEnhMetaFileBits
+- SetEnhMetaFileBits
 targetos: Windows
 req.typenames: 
 req.redist: 

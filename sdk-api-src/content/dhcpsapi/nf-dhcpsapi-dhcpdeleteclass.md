@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpDeleteClass
 title: DhcpDeleteClass function (dhcpsapi.h)
-
 description: Deletes a DHCP class from the DHCP server.
 old-location: dhcp\dhcpdeleteclass.htm
 tech.root: DHCP
 ms.assetid: 45659805-d0d0-4b84-ac98-4a0f53133b0c
-
 ms.date: 12/05/2018
 ms.keywords: DhcpDeleteClass, DhcpDeleteClass function [DHCP], dhcp.dhcpdeleteclass, dhcpsapi/DhcpDeleteClass
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpDeleteClass"
+f1_keywords:
+- dhcpsapi/DhcpDeleteClass
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpDeleteClass
+- DhcpDeleteClass
 targetos: Windows
 req.typenames: 
 req.redist: 

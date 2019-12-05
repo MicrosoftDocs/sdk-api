@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.WritePrivateProfileStructA
 title: WritePrivateProfileStructA function (winbase.h)
-
 description: Copies data into a key in the specified section of an initialization file. As it copies the data, the function calculates a checksum and appends it to the end of the data.
 old-location: base\writeprivateprofilestruct.htm
 tech.root: SysInfo
 ms.assetid: 21b1927c-40b0-4b79-931b-6d3db176fb71
-
 ms.date: 12/05/2018
 ms.keywords: WritePrivateProfileStruct, WritePrivateProfileStruct function, WritePrivateProfileStructA, WritePrivateProfileStructW, _win32_writeprivateprofilestruct, base.writeprivateprofilestruct, winbase/WritePrivateProfileStruct, winbase/WritePrivateProfileStructA, winbase/WritePrivateProfileStructW
 ms.topic: function
-f1_keywords: 
- - "winbase/WritePrivateProfileStruct"
+f1_keywords:
+- winbase/WritePrivateProfileStruct
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - WritePrivateProfileStruct
- - WritePrivateProfileStructA
- - WritePrivateProfileStructW
+- WritePrivateProfileStruct
+- WritePrivateProfileStructA
+- WritePrivateProfileStructW
 targetos: Windows
 req.typenames: 
 req.redist: 

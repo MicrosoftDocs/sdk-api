@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextHost.TxGetMaxLength
 title: ITextHost::TxGetMaxLength (textserv.h)
-
 description: Gets the text host's maximum allowed length for the text.
 old-location: controls\ITextHost_TxGetMaxLength.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetmaxlength.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetMaxLength method, ITextHost.TxGetMaxLength, ITextHost::TxGetMaxLength, TxGetMaxLength, TxGetMaxLength method [Windows Controls], TxGetMaxLength method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetMaxLength, _win32_ITextHost_TxGetMaxLength_cpp, controls.ITextHost_TxGetMaxLength, controls._win32_ITextHost_TxGetMaxLength, textserv/ITextHost::TxGetMaxLength
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextHost.TxGetMaxLength"
+f1_keywords:
+- textserv/ITextHost.TxGetMaxLength
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextHost.TxGetMaxLength
+- ITextHost.TxGetMaxLength
 targetos: Windows
 req.typenames: 
 req.redist: 

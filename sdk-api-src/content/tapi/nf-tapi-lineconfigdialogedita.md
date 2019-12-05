@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineConfigDialogEditA
 title: lineConfigDialogEditA function (tapi.h)
-
 description: The lineConfigDialogEdit function causes the provider of the specified line device to display a dialog box (attached to hwndOwner of the application) to allow the user to configure parameters related to the line device.
 old-location: tapi2\lineconfigdialogedit.htm
 tech.root: Tapi
 ms.assetid: 417016c3-8053-4a70-bce4-b96cce5e09a5
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_lineconfigdialogedit, lineConfigDialogEdit, lineConfigDialogEdit function [TAPI 2.2], lineConfigDialogEditA, lineConfigDialogEditW, tapi/lineConfigDialogEdit, tapi/lineConfigDialogEditA, tapi/lineConfigDialogEditW, tapi2.lineconfigdialogedit"
+ms.keywords: _tapi2_lineconfigdialogedit, lineConfigDialogEdit, lineConfigDialogEdit function [TAPI 2.2], lineConfigDialogEditA, lineConfigDialogEditW, tapi/lineConfigDialogEdit, tapi/lineConfigDialogEditA, tapi/lineConfigDialogEditW, tapi2.lineconfigdialogedit
 ms.topic: function
-f1_keywords: 
- - "tapi/lineConfigDialogEdit"
+f1_keywords:
+- tapi/lineConfigDialogEdit
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineConfigDialogEdit
- - lineConfigDialogEditA
- - lineConfigDialogEditW
+- lineConfigDialogEdit
+- lineConfigDialogEditA
+- lineConfigDialogEditW
 targetos: Windows
 req.typenames: 
 req.redist: 

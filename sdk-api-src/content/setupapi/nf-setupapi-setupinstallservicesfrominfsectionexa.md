@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupInstallServicesFromInfSectionExA
 title: SetupInstallServicesFromInfSectionExA function (setupapi.h)
-
 description: The SetupInstallServicesFromInfSectionEx function performs service installation and deletion operations that are specified in the Service Install sections listed in the Service section of an INF file.
 old-location: setup\setupinstallservicesfrominfsectionex.htm
 tech.root: SetupApi
 ms.assetid: c0bf6442-56dc-41f1-8a21-ff7b92b1ef0f
-
 ms.date: 12/05/2018
 ms.keywords: SPSVCINST_ASSOCSERVICE, SPSVCINST_CLOBBER_SECURITY, SPSVCINST_DELETEEVENTLOGENTRY, SPSVCINST_NOCLOBBER_DEPENDENCIES, SPSVCINST_NOCLOBBER_DESCRIPTION, SPSVCINST_NOCLOBBER_DISPLAYNAME, SPSVCINST_NOCLOBBER_ERRORCONTROL, SPSVCINST_NOCLOBBER_LOADORDERGROUP, SPSVCINST_NOCLOBBER_REQUIREDPRIVILEGES, SPSVCINST_NOCLOBBER_STARTTYPE, SPSVCINST_STARTSERVICE, SPSVCINST_STOPSERVICE, SPSVCINST_TAGTOFRONT, SetupInstallServicesFromInfSectionEx, SetupInstallServicesFromInfSectionEx function [Setup API], SetupInstallServicesFromInfSectionExA, SetupInstallServicesFromInfSectionExW, _setupapi_setupinstallservicesfrominfsectionex, setup.setupinstallservicesfrominfsectionex, setupapi/SetupInstallServicesFromInfSectionEx, setupapi/SetupInstallServicesFromInfSectionExA, setupapi/SetupInstallServicesFromInfSectionExW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupInstallServicesFromInfSectionEx"
+f1_keywords:
+- setupapi/SetupInstallServicesFromInfSectionEx
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupInstallServicesFromInfSectionEx
- - SetupInstallServicesFromInfSectionExA
- - SetupInstallServicesFromInfSectionExW
+- SetupInstallServicesFromInfSectionEx
+- SetupInstallServicesFromInfSectionExA
+- SetupInstallServicesFromInfSectionExW
 targetos: Windows
 req.typenames: 
 req.redist: 

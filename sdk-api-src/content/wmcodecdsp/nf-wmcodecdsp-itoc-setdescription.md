@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.IToc.SetDescription
 title: IToc::SetDescription (wmcodecdsp.h)
-
 description: The SetDescription method associates a description with the table of contents.
 old-location: mf\itoc_setdescription.htm
 tech.root: medfound
 ms.assetid: 718eb8bd-fdf9-434d-b859-3a38cb8fabee
-
 ms.date: 12/05/2018
 ms.keywords: IToc interface [Media Foundation],SetDescription method, IToc.SetDescription, IToc::SetDescription, SetDescription, SetDescription method [Media Foundation], SetDescription method [Media Foundation],IToc interface, codecapi.itoc_setdescription, mf.itoc_setdescription, wmcodecdsp/IToc::SetDescription
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/IToc.SetDescription"
+f1_keywords:
+- wmcodecdsp/IToc.SetDescription
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmvdspa.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmvdspa.dll
+- wmvdspa.dll
 api_name:
- - IToc.SetDescription
+- IToc.SetDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

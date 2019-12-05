@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_VIDEO_SIGNAL_INFO
 title: DISPLAYCONFIG_VIDEO_SIGNAL_INFO (wingdi.h)
-
 description: The DISPLAYCONFIG_VIDEO_SIGNAL_INFO structure contains information about the video signal for a display.
 old-location: display\displayconfig_video_signal_info.htm
 tech.root: display
 ms.assetid: 960089fe-dbb7-41a1-af73-0002cfce6da2
-
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_17b322c2-76a8-4f82-8ee7-c70d3f613d5a.xml, DISPLAYCONFIG_VIDEO_SIGNAL_INFO, DISPLAYCONFIG_VIDEO_SIGNAL_INFO structure [Display Devices], display.displayconfig_video_signal_info, wingdi/DISPLAYCONFIG_VIDEO_SIGNAL_INFO
 ms.topic: struct
-f1_keywords: 
- - "wingdi/DISPLAYCONFIG_VIDEO_SIGNAL_INFO"
+f1_keywords:
+- wingdi/DISPLAYCONFIG_VIDEO_SIGNAL_INFO
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wingdi.h
+- wingdi.h
 api_name:
- - DISPLAYCONFIG_VIDEO_SIGNAL_INFO
+- DISPLAYCONFIG_VIDEO_SIGNAL_INFO
 targetos: Windows
 req.typenames: DISPLAYCONFIG_VIDEO_SIGNAL_INFO
 req.redist: 

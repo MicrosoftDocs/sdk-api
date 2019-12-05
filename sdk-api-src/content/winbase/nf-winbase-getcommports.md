@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetCommPorts
 title: GetCommPorts function (winbase.h)
-
 description: Gets an array that contains the well-formed COM ports.
 old-location: base\getcommports.htm
 tech.root: devio
 ms.assetid: 8E57FB62-D7A0-4B47-942B-E33E0B7A37B1
-
 ms.date: 12/05/2018
 ms.keywords: GetCommPorts, GetCommPorts function, base.getcommports, winbase/GetCommPorts
 ms.topic: function
-f1_keywords: 
- - "winbase/GetCommPorts"
+f1_keywords:
+- winbase/GetCommPorts
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: OneCore.lib
 req.dll: KernelBase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - KernelBase.dll
- - API-MS-Win-Core-comm-l1-1-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- KernelBase.dll
+- API-MS-Win-Core-comm-l1-1-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - GetCommPorts
+- GetCommPorts
 targetos: Windows
 req.typenames: 
 req.redist: 

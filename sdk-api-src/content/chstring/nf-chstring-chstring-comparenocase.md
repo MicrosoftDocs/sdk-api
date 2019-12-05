@@ -1,19 +1,17 @@
 ---
 UID: NF:chstring.CHString.CompareNoCase
 title: CHString::CompareNoCase (chstring.h)
-
 description: The CompareNoCase method uses the _wcsicmp function to compare a CHString string with another string.
 old-location: wmi\chstring_comparenocase.htm
 tech.root: WmiSdk
 ms.assetid: 72ad2532-ece8-43e2-b768-7dec6a378c98
-
 ms.date: 12/05/2018
-ms.keywords: "?CompareNoCase@CHString@@QBEHPBG@Z, ?CompareNoCase@CHString@@QEBAHPEBG@Z, CHString interface [Windows Management Instrumentation],CompareNoCase method, CHString.CompareNoCase, CHString::CompareNoCase, CompareNoCase, CompareNoCase method [Windows Management Instrumentation], CompareNoCase method [Windows Management Instrumentation],CHString interface, _hmm_chstring_comparenocase, chstring/CHString::CompareNoCase, wmi.chstring_comparenocase"
+ms.keywords: ?CompareNoCase@CHString@@QBEHPBG@Z, ?CompareNoCase@CHString@@QEBAHPEBG@Z, CHString interface [Windows Management Instrumentation],CompareNoCase method, CHString.CompareNoCase, CHString::CompareNoCase, CompareNoCase, CompareNoCase method [Windows Management Instrumentation], CompareNoCase method [Windows Management Instrumentation],CHString interface, _hmm_chstring_comparenocase, chstring/CHString::CompareNoCase, wmi.chstring_comparenocase
 ms.topic: method
-f1_keywords: 
- - "chstring/CHString.CompareNoCase"
+f1_keywords:
+- chstring/CHString.CompareNoCase
 dev_langs:
- - c++
+- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHString.CompareNoCase
- - ?CompareNoCase@CHString@@QBEHPBG@Z
- - ?CompareNoCase@CHString@@QEBAHPEBG@Z
+- CHString.CompareNoCase
+- ?CompareNoCase@CHString@@QBEHPBG@Z
+- ?CompareNoCase@CHString@@QEBAHPEBG@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

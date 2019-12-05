@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertRDNValueToStrA
 title: CertRDNValueToStrA function (wincrypt.h)
-
 description: The CertRDNValueToStr function converts a name in a CERT_RDN_VALUE_BLOB to a null-terminated character string.
 old-location: security\certrdnvaluetostr.htm
 tech.root: SecCrypto
 ms.assetid: c1e0af19-320e-411e-85bf-c7f01befcac4
-
 ms.date: 12/05/2018
 ms.keywords: CertRDNValueToStr, CertRDNValueToStr function [Security], CertRDNValueToStrA, CertRDNValueToStrW, _crypto2_certrdnvaluetostr, security.certrdnvaluetostr, wincrypt/CertRDNValueToStr, wincrypt/CertRDNValueToStrA, wincrypt/CertRDNValueToStrW
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertRDNValueToStr"
+f1_keywords:
+- wincrypt/CertRDNValueToStr
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertRDNValueToStr
- - CertRDNValueToStrA
- - CertRDNValueToStrW
+- CertRDNValueToStr
+- CertRDNValueToStrA
+- CertRDNValueToStrW
 targetos: Windows
 req.typenames: 
 req.redist: 

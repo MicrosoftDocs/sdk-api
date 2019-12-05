@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.put_EncryptionStrength
 title: IX509CertificateRequestCmc::put_EncryptionStrength (certenroll.h)
-
 description: Specifies or retrieves the relative encryption level applied to the private key to be archived.
 old-location: security\ix509certificaterequestcmc_encryptionstrength_property.htm
 tech.root: seccertenroll
 ms.assetid: 9cade9f0-d614-4838-bf42-0a19b4ce53d5
-
 ms.date: 12/05/2018
 ms.keywords: EncryptionStrength property [Security], EncryptionStrength property [Security],IX509CertificateRequestCmc interface, IX509CertificateRequestCmc interface [Security],EncryptionStrength property, IX509CertificateRequestCmc.EncryptionStrength, IX509CertificateRequestCmc.put_EncryptionStrength, IX509CertificateRequestCmc::EncryptionStrength, IX509CertificateRequestCmc::get_EncryptionStrength, IX509CertificateRequestCmc::put_EncryptionStrength, certenroll/IX509CertificateRequestCmc::EncryptionStrength, certenroll/IX509CertificateRequestCmc::get_EncryptionStrength, certenroll/IX509CertificateRequestCmc::put_EncryptionStrength, put_EncryptionStrength, security.ix509certificaterequestcmc_encryptionstrength_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestCmc.EncryptionStrength"
+f1_keywords:
+- certenroll/IX509CertificateRequestCmc.EncryptionStrength
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestCmc.EncryptionStrength
- - IX509CertificateRequestCmc.get_EncryptionStrength
- - IX509CertificateRequestCmc.put_EncryptionStrength
+- IX509CertificateRequestCmc.EncryptionStrength
+- IX509CertificateRequestCmc.get_EncryptionStrength
+- IX509CertificateRequestCmc.put_EncryptionStrength
 targetos: Windows
 req.typenames: 
 req.redist: 

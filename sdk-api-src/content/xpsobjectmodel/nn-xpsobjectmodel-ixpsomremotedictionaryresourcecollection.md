@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMRemoteDictionaryResourceCollection
 title: IXpsOMRemoteDictionaryResourceCollection (xpsobjectmodel.h)
-
 description: A collection of IXpsOMRemoteDictionaryResource interface pointers.
 old-location: xps\ixpsomremotedictionaryresourcecollection.htm
 tech.root: printdocs
 ms.assetid: 50c9bd7a-226f-4785-96b4-d0b5e861ae37
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRemoteDictionaryResourceCollection, IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging], IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],described, xps.ixpsomremotedictionaryresourcecollection, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection"
+f1_keywords:
+- xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMRemoteDictionaryResourceCollection
+- IXpsOMRemoteDictionaryResourceCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

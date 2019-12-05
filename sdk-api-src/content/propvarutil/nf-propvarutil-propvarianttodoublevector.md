@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToDoubleVector
 title: PropVariantToDoubleVector function (propvarutil.h)
-
 description: Extracts a vector of doubles from a PROPVARIANT structure.
 old-location: properties\PropVariantToDoubleVector.htm
 tech.root: properties
 ms.assetid: 2d90bf96-8a3f-4949-8480-bb75f0deeb2e
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToDoubleVector, PropVariantToDoubleVector function [Windows Properties], _shell_PropVariantToDoubleVector, properties.PropVariantToDoubleVector, propvarutil/PropVariantToDoubleVector, shell.PropVariantToDoubleVector
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToDoubleVector"
+f1_keywords:
+- propvarutil/PropVariantToDoubleVector
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToDoubleVector
+- PropVariantToDoubleVector
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509ExtensionSmimeCapabilities.get_SmimeCapabilities
 title: IX509ExtensionSmimeCapabilities::get_SmimeCapabilities (certenroll.h)
-
 description: Retrieves a collection of ISmimeCapability objects.
 old-location: security\ix509extensionsmimecapabilities_smimecapabilities.htm
 tech.root: seccertenroll
 ms.assetid: 6e3ce718-16f9-47df-aff9-38e922fe505c
-
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionSmimeCapabilities interface [Security],SmimeCapabilities property, IX509ExtensionSmimeCapabilities.SmimeCapabilities, IX509ExtensionSmimeCapabilities.get_SmimeCapabilities, IX509ExtensionSmimeCapabilities::SmimeCapabilities, IX509ExtensionSmimeCapabilities::get_SmimeCapabilities, SmimeCapabilities property [Security], SmimeCapabilities property [Security],IX509ExtensionSmimeCapabilities interface, certenroll/IX509ExtensionSmimeCapabilities::SmimeCapabilities, certenroll/IX509ExtensionSmimeCapabilities::get_SmimeCapabilities, get_SmimeCapabilities, security.ix509extensionsmimecapabilities_smimecapabilities
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509ExtensionSmimeCapabilities.SmimeCapabilities"
+f1_keywords:
+- certenroll/IX509ExtensionSmimeCapabilities.SmimeCapabilities
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509ExtensionSmimeCapabilities.SmimeCapabilities
- - IX509ExtensionSmimeCapabilities.get_SmimeCapabilities
+- IX509ExtensionSmimeCapabilities.SmimeCapabilities
+- IX509ExtensionSmimeCapabilities.get_SmimeCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

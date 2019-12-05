@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpSetSubnetInfoVQ
 title: DhcpSetSubnetInfoVQ function (dhcpsapi.h)
-
 description: Sets information about a subnet defined on the DHCP server.
 old-location: dhcp\dhcpsetsubnetinfovq.htm
 tech.root: DHCP
 ms.assetid: 1e584377-aded-4888-9641-8b9e5b8d2f98
-
 ms.date: 12/05/2018
 ms.keywords: DhcpSetSubnetInfoVQ, DhcpSetSubnetInfoVQ function [DHCP], dhcp.dhcpsetsubnetinfovq, dhcpsapi/DhcpSetSubnetInfoVQ
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpSetSubnetInfoVQ
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

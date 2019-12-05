@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.add_TransportParametersUpdate
 title: IMediaRenderer::streaming (windows.media.streaming.h)
-
 description: Registers an event handler for the TransportParametersUpdate event.
 old-location: mediastreaming\imediarenderer_add_transportparametersupdate.htm
 tech.root: mediastreaming
 ms.assetid: 34D11925-387B-414F-A176-336BBCF87821
-
 ms.date: 12/05/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],add_TransportParametersUpdate method, IMediaRenderer.add_TransportParametersUpdate, IMediaRenderer.streaming, IMediaRenderer::add_TransportParametersUpdate, IMediaRenderer::streaming, add_TransportParametersUpdate, add_TransportParametersUpdate method [Media Streaming API], add_TransportParametersUpdate method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_add_transportparametersupdate, windows/IMediaRenderer::add_TransportParametersUpdate
 ms.topic: method
-f1_keywords: 
- - "windows.media.streaming/IMediaRenderer.add_TransportParametersUpdate"
+f1_keywords:
+- windows.media.streaming/IMediaRenderer.add_TransportParametersUpdate
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.media.streaming.h
+- windows.media.streaming.h
 api_name:
- - IMediaRenderer.add_TransportParametersUpdate
+- IMediaRenderer.add_TransportParametersUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 

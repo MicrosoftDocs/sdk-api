@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureRecordSink.SetOutputByteStream
 title: IMFCaptureRecordSink::SetOutputByteStream (mfcaptureengine.h)
-
 description: Specifies a byte stream that will receive the data for the recording.
 old-location: mf\imfcapturerecordsink_setoutputbytestream.htm
 tech.root: medfound
 ms.assetid: C33357C8-882A-4350-8638-46C2220FC445
-
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureRecordSink interface [Media Foundation],SetOutputByteStream method, IMFCaptureRecordSink.SetOutputByteStream, IMFCaptureRecordSink::SetOutputByteStream, SetOutputByteStream, SetOutputByteStream method [Media Foundation], SetOutputByteStream method [Media Foundation],IMFCaptureRecordSink interface, mf.imfcapturerecordsink_setoutputbytestream, mfcaptureengine/IMFCaptureRecordSink::SetOutputByteStream
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureRecordSink.SetOutputByteStream"
+f1_keywords:
+- mfcaptureengine/IMFCaptureRecordSink.SetOutputByteStream
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureRecordSink.SetOutputByteStream
+- IMFCaptureRecordSink.SetOutputByteStream
 targetos: Windows
 req.typenames: 
 req.redist: 

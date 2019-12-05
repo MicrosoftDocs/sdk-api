@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.GetStatus
 title: CInstance::GetStatus (instance.h)
-
 description: The GetStatus method determines whether a property exists and, if so, determines its type.
 old-location: wmi\cinstance_getstatus.htm
 tech.root: WmiSdk
 ms.assetid: 355386c5-7cd2-46de-8696-a83bd3f96cc5
-
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetStatus method, CInstance.GetStatus, CInstance::GetStatus, GetStatus, GetStatus method [Windows Management Instrumentation], GetStatus method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getstatus, instance/CInstance::GetStatus, wmi.cinstance_getstatus
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.GetStatus"
+f1_keywords:
+- instance/CInstance.GetStatus
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.GetStatus
+- CInstance.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

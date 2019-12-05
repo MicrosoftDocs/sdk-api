@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1effects_1.D2D1_YCBCR_CHROMA_SUBSAMPLING
 title: D2D1_YCBCR_CHROMA_SUBSAMPLING (d2d1effects_1.h)
-
 description: Specifies the chroma subsampling of the input chroma image used by the YCbCr effect.
 old-location: direct2d\d2d1_ycbcr_chroma_subsampling.htm
 tech.root: Direct2D
 ms.assetid: 4B0BDC1D-B39C-4787-90D3-50845C3A2B9A
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_YCBCR_CHROMA_SUBSAMPLING, D2D1_YCBCR_CHROMA_SUBSAMPLING enumeration [Direct2D], D2D1_YCBCR_CHROMA_SUBSAMPLING_420, D2D1_YCBCR_CHROMA_SUBSAMPLING_422, D2D1_YCBCR_CHROMA_SUBSAMPLING_440, D2D1_YCBCR_CHROMA_SUBSAMPLING_444, D2D1_YCBCR_CHROMA_SUBSAMPLING_AUTO, d2d1effects_1/D2D1_YCBCR_CHROMA_SUBSAMPLING, d2d1effects_1/D2D1_YCBCR_CHROMA_SUBSAMPLING_420, d2d1effects_1/D2D1_YCBCR_CHROMA_SUBSAMPLING_422, d2d1effects_1/D2D1_YCBCR_CHROMA_SUBSAMPLING_440, d2d1effects_1/D2D1_YCBCR_CHROMA_SUBSAMPLING_444, d2d1effects_1/D2D1_YCBCR_CHROMA_SUBSAMPLING_AUTO, direct2d.d2d1_ycbcr_chroma_subsampling
 ms.topic: enum
-f1_keywords: 
- - "d2d1effects_1/D2D1_YCBCR_CHROMA_SUBSAMPLING"
+f1_keywords:
+- d2d1effects_1/D2D1_YCBCR_CHROMA_SUBSAMPLING
 dev_langs:
- - c++
+- c++
 req.header: d2d1effects_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effects_1.h
+- d2d1effects_1.h
 api_name:
- - D2D1_YCBCR_CHROMA_SUBSAMPLING
+- D2D1_YCBCR_CHROMA_SUBSAMPLING
 targetos: Windows
 req.typenames: D2D1_YCBCR_CHROMA_SUBSAMPLING
 req.redist: 

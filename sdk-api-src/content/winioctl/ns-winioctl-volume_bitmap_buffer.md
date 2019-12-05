@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl.__unnamed_struct_6
 title: VOLUME_BITMAP_BUFFER
-
 description: Represents the occupied and available clusters on a disk.
 old-location: fs\volume_bitmap_buffer_str.htm
 tech.root: FileIO
 ms.assetid: 7273f469-bc5e-46b7-b908-59ddb7389c27
-
 ms.date: 12/05/2018
-ms.keywords: "*PVOLUME_BITMAP_BUFFER, PVOLUME_BITMAP_BUFFER, PVOLUME_BITMAP_BUFFER structure pointer [Files], VOLUME_BITMAP_BUFFER, VOLUME_BITMAP_BUFFER structure [Files], _win32_volume_bitmap_buffer_str, base.volume_bitmap_buffer_str, fs.volume_bitmap_buffer_str, winioctl/PVOLUME_BITMAP_BUFFER, winioctl/VOLUME_BITMAP_BUFFER"
+ms.keywords: '*PVOLUME_BITMAP_BUFFER, PVOLUME_BITMAP_BUFFER, PVOLUME_BITMAP_BUFFER structure pointer [Files], VOLUME_BITMAP_BUFFER, VOLUME_BITMAP_BUFFER structure [Files], _win32_volume_bitmap_buffer_str, base.volume_bitmap_buffer_str, fs.volume_bitmap_buffer_str, winioctl/PVOLUME_BITMAP_BUFFER, winioctl/VOLUME_BITMAP_BUFFER'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/VOLUME_BITMAP_BUFFER"
+f1_keywords:
+- winioctl/VOLUME_BITMAP_BUFFER
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - VOLUME_BITMAP_BUFFER
+- VOLUME_BITMAP_BUFFER
 targetos: Windows
 req.typenames: VOLUME_BITMAP_BUFFER, *PVOLUME_BITMAP_BUFFER
 req.redist: 

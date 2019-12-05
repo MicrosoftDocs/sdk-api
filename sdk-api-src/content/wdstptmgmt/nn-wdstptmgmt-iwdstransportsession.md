@@ -1,19 +1,17 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportSession
 title: IWdsTransportSession (wdstptmgmt.h)
-
 description: Represents an active transport session on the WDS transport server.
 old-location: wds\iwdstransportsession.htm
 tech.root: wds
 ms.assetid: acf417ea-2396-4178-84e5-6d6b495476f8
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSession, IWdsTransportSession interface [Windows Deployment Services], IWdsTransportSession interface [Windows Deployment Services],described, wds.iwdstransportsession, wdstptmgmt/IWdsTransportSession
 ms.topic: interface
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportSession"
+f1_keywords:
+- wdstptmgmt/IWdsTransportSession
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportSession
+- IWdsTransportSession
 targetos: Windows
 req.typenames: 
 req.redist: 

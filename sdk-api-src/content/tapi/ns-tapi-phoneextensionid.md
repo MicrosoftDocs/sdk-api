@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.phoneextensionid_tag
 title: PHONEEXTENSIONID (tapi.h)
-
 description: The PHONEEXTENSIONID structure describes an extension identifier.
 old-location: tapi2\phoneextensionid_str.htm
 tech.root: Tapi
 ms.assetid: 61f376fd-2287-4425-9445-163f71aebf04
-
 ms.date: 12/05/2018
-ms.keywords: "*LPPHONEEXTENSIONID, LPPHONEEXTENSIONID, LPPHONEEXTENSIONID structure pointer [TAPI 2.2], PHONEEXTENSIONID, PHONEEXTENSIONID structure [TAPI 2.2], _tapi2_phoneextensionid_str, tapi/LPPHONEEXTENSIONID, tapi/PHONEEXTENSIONID, tapi2.phoneextensionid_str"
+ms.keywords: '*LPPHONEEXTENSIONID, LPPHONEEXTENSIONID, LPPHONEEXTENSIONID structure pointer [TAPI 2.2], PHONEEXTENSIONID, PHONEEXTENSIONID structure [TAPI 2.2], _tapi2_phoneextensionid_str, tapi/LPPHONEEXTENSIONID, tapi/PHONEEXTENSIONID, tapi2.phoneextensionid_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/PHONEEXTENSIONID"
+f1_keywords:
+- tapi/PHONEEXTENSIONID
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - PHONEEXTENSIONID
+- PHONEEXTENSIONID
 targetos: Windows
 req.typenames: PHONEEXTENSIONID, *LPPHONEEXTENSIONID
 req.redist: 

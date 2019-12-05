@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceDataStream.Cancel
 title: IPortableDeviceDataStream::Cancel (portabledeviceapi.h)
-
 description: The Cancel method cancels a call in progress on this interface.
 old-location: wpdsdk\iportabledevicedatastream_cancel.htm
 tech.root: wpd_sdk
 ms.assetid: 4a86cc78-8ef8-45e1-b63a-dac4c9dcdd9c
-
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK],IPortableDeviceDataStream interface, IPortableDeviceDataStream interface [Windows Portable Devices SDK],Cancel method, IPortableDeviceDataStream.Cancel, IPortableDeviceDataStream::Cancel, IPortableDeviceDataStreamCancel, portabledeviceapi/IPortableDeviceDataStream::Cancel, wpdsdk.iportabledevicedatastream_cancel
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceDataStream.Cancel"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceDataStream.Cancel
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceDataStream.Cancel
+- IPortableDeviceDataStream.Cancel
 targetos: Windows
 req.typenames: 
 req.redist: 

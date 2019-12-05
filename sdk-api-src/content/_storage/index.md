@@ -1,7 +1,6 @@
 ---
 UID: TP:storage
 ms.assetid: 2c8add25-915b-3bb1-957b-a04df40081fc
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

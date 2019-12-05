@@ -1,19 +1,17 @@
 ---
 UID: NF:natupnp.INATEventManager.put_NumberOfEntriesCallback
 title: INATEventManager::put_NumberOfEntriesCallback (natupnp.h)
-
 description: The put_NumberOfEntriesCallback method enables the NAT application with UPnP technology to register a callback interface with the NAT. The system calls the first method in this callback interface if the number of NAT port mappings changes.
 old-location: ics\inateventmanager_put_numberofentriescallback.htm
 tech.root: ics
 ms.assetid: a02a0f1e-5085-444b-adc4-c3cd919f7e25
-
 ms.date: 12/05/2018
 ms.keywords: INATEventManager interface [ICS/ICF],put_NumberOfEntriesCallback method, INATEventManager.put_NumberOfEntriesCallback, INATEventManager::put_NumberOfEntriesCallback, _ics_inateventmanager_put_numberofentriescallback, ics.inateventmanager_put_numberofentriescallback, natupnp/INATEventManager::put_NumberOfEntriesCallback, put_NumberOfEntriesCallback, put_NumberOfEntriesCallback method [ICS/ICF], put_NumberOfEntriesCallback method [ICS/ICF],INATEventManager interface
 ms.topic: method
-f1_keywords: 
- - "natupnp/INATEventManager.put_NumberOfEntriesCallback"
+f1_keywords:
+- natupnp/INATEventManager.put_NumberOfEntriesCallback
 dev_langs:
- - c++
+- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INATEventManager.put_NumberOfEntriesCallback
+- INATEventManager.put_NumberOfEntriesCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

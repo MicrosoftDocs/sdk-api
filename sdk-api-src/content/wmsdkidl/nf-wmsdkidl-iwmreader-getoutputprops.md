@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReader.GetOutputProps
 title: IWMReader::GetOutputProps (wmsdkidl.h)
-
 description: The GetOutputProps method retrieves the current properties of an uncompressed output stream.
 old-location: wmformat\iwmreader_getoutputprops.htm
 tech.root: wmformat
 ms.assetid: 8958abd0-cc2b-4d02-a831-c998d468fb06
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputProps, GetOutputProps method [windows Media Format], GetOutputProps method [windows Media Format],IWMReader interface, IWMReader interface [windows Media Format],GetOutputProps method, IWMReader.GetOutputProps, IWMReader::GetOutputProps, IWMReaderGetOutputProps, wmformat.iwmreader_getoutputprops, wmsdkidl/IWMReader::GetOutputProps
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReader.GetOutputProps"
+f1_keywords:
+- wmsdkidl/IWMReader.GetOutputProps
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReader.GetOutputProps
+- IWMReader.GetOutputProps
 targetos: Windows
 req.typenames: 
 req.redist: 

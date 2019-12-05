@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.RemoveSecureMemoryCacheCallback
 title: RemoveSecureMemoryCacheCallback function (winbase.h)
-
 description: Unregisters a callback function that was previously registered with the AddSecureMemoryCacheCallback function.
 old-location: base\removesecurememorycachecallback.htm
 tech.root: Memory
 ms.assetid: 8be6ff04-34c7-4942-a38c-507584c8bbeb
-
 ms.date: 12/05/2018
 ms.keywords: RemoveSecureMemoryCacheCallback, RemoveSecureMemoryCacheCallback function, base.removesecurememorycachecallback, winbase/RemoveSecureMemoryCacheCallback
 ms.topic: function
-f1_keywords: 
- - "winbase/RemoveSecureMemoryCacheCallback"
+f1_keywords:
+- winbase/RemoveSecureMemoryCacheCallback
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
+- kernel32.dll
 api_name:
- - RemoveSecureMemoryCacheCallback
+- RemoveSecureMemoryCacheCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

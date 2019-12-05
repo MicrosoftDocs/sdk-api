@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcServerUseAllProtseqsIf
 title: RpcServerUseAllProtseqsIf function (rpcdce.h)
-
 description: The RpcServerUseAllProtseqsIf function tells the RPC run-time library to use all specified protocol sequences and endpoints in the interface specification for receiving remote procedure calls.
 old-location: rpc\rpcserveruseallprotseqsif.htm
 tech.root: Rpc
 ms.assetid: 6f3f7726-3e12-4b0b-8454-25f06a29b245
-
 ms.date: 12/05/2018
 ms.keywords: RpcServerUseAllProtseqsIf, RpcServerUseAllProtseqsIf function [RPC], _rpc_rpcserveruseallprotseqsif, rpc.rpcserveruseallprotseqsif, rpcdce/RpcServerUseAllProtseqsIf
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcServerUseAllProtseqsIf"
+f1_keywords:
+- rpcdce/RpcServerUseAllProtseqsIf
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcServerUseAllProtseqsIf
+- RpcServerUseAllProtseqsIf
 targetos: Windows
 req.typenames: 
 req.redist: 

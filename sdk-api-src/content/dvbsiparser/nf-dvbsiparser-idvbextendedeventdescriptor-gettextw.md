@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbExtendedEventDescriptor.GetTextW
 title: IDvbExtendedEventDescriptor::GetTextW (dvbsiparser.h)
-
 description: Gets the text describing an itemfrom a Digital Video Broadcast (DVB) extended event descriptor, in string format.
 old-location: mstv\idvbextendedeventdescriptor_gettextw.htm
 tech.root: mstv
 ms.assetid: 18433c81-c58f-4657-90b0-183b1ad9f8e8
-
 ms.date: 12/05/2018
 ms.keywords: GetTextW, GetTextW method [Microsoft TV Technologies], GetTextW method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetTextW method, IDvbExtendedEventDescriptor.GetTextW, IDvbExtendedEventDescriptor::GetTextW, dvbsiparser/IDvbExtendedEventDescriptor::GetTextW, mstv.idvbextendedeventdescriptor_gettextw
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbExtendedEventDescriptor.GetTextW"
+f1_keywords:
+- dvbsiparser/IDvbExtendedEventDescriptor.GetTextW
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbExtendedEventDescriptor.GetTextW
+- IDvbExtendedEventDescriptor.GetTextW
 targetos: Windows
 req.typenames: 
 req.redist: 

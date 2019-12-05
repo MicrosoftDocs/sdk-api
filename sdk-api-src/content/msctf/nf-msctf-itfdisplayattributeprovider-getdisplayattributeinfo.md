@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeProvider.GetDisplayAttributeInfo
 title: ITfDisplayAttributeProvider::GetDisplayAttributeInfo (msctf.h)
-
 description: ITfDisplayAttributeProvider::GetDisplayAttributeInfo method
 old-location: tsf\itfdisplayattributeprovider_getdisplayattributeinfo.htm
 tech.root: TSF
 ms.assetid: 2081f1b4-45b4-43bd-ba20-392a5ad0a30e
-
 ms.date: 12/05/2018
 ms.keywords: GetDisplayAttributeInfo, GetDisplayAttributeInfo method [Text Services Framework], GetDisplayAttributeInfo method [Text Services Framework],ITfDisplayAttributeProvider interface, ITfDisplayAttributeProvider interface [Text Services Framework],GetDisplayAttributeInfo method, ITfDisplayAttributeProvider.GetDisplayAttributeInfo, ITfDisplayAttributeProvider::GetDisplayAttributeInfo, _tsf_itfdisplayattributeprovider_getdisplayattributeinfo_ref, msctf/ITfDisplayAttributeProvider::GetDisplayAttributeInfo, tsf.itfdisplayattributeprovider_getdisplayattributeinfo
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfDisplayAttributeProvider.GetDisplayAttributeInfo"
+f1_keywords:
+- msctf/ITfDisplayAttributeProvider.GetDisplayAttributeInfo
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Imjpcic.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imjpcic.dll
+- imjpcic.dll
 api_name:
- - ITfDisplayAttributeProvider.GetDisplayAttributeInfo
+- ITfDisplayAttributeProvider.GetDisplayAttributeInfo
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

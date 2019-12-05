@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateMesh
 title: ID2D1RenderTarget::CreateMesh (d2d1.h)
-
 description: Create a mesh that uses triangles to describe a shape.
 old-location: direct2d\ID2D1RenderTarget_CreateMesh.htm
 tech.root: Direct2D
 ms.assetid: 6c0036d8-1f91-4d90-a301-b58bde8da974
-
 ms.date: 12/05/2018
 ms.keywords: CreateMesh, CreateMesh method [Direct2D], CreateMesh method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],CreateMesh method, ID2D1RenderTarget.CreateMesh, ID2D1RenderTarget::CreateMesh, d2d1/ID2D1RenderTarget::CreateMesh, direct2d.ID2D1RenderTarget_CreateMesh
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1RenderTarget.CreateMesh"
+f1_keywords:
+- d2d1/ID2D1RenderTarget.CreateMesh
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1RenderTarget.CreateMesh
+- ID2D1RenderTarget.CreateMesh
 targetos: Windows
 req.typenames: 
 req.redist: 

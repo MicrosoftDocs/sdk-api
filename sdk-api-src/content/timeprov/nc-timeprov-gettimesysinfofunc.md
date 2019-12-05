@@ -1,19 +1,17 @@
 ---
 UID: NC:timeprov.GetTimeSysInfoFunc
 title: GetTimeSysInfoFunc (timeprov.h)
-
 description: Retrieves the system time state information.
 old-location: base\gettimesysinfo.htm
 tech.root: SysInfo
 ms.assetid: e1b527e2-ab7c-4106-b203-e74b4ce2a89b
-
 ms.date: 12/05/2018
 ms.keywords: GetTimeSysInfoFunc, GetTimeSysInfoFunc callback, GetTimeSysInfoFunc callback function, TSI_ClockPrecision, TSI_ClockTickSize, TSI_CurrentTime, TSI_LastSyncTime, TSI_LeapFlags, TSI_PhaseOffset, TSI_PollInterval, TSI_ReferenceIdentifier, TSI_RootDelay, TSI_RootDispersion, TSI_Stratum, TSI_TSFlags, TSI_TickCount, _win32_gettimesysinfo, base.gettimesysinfo, timeprov/GetTimeSysInfoFunc
 ms.topic: callback
-f1_keywords: 
- - "timeprov/GetTimeSysInfoFunc"
+f1_keywords:
+- timeprov/GetTimeSysInfoFunc
 dev_langs:
- - c++
+- c++
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Timeprov.h
+- Timeprov.h
 api_name:
- - GetTimeSysInfoFunc
+- GetTimeSysInfoFunc
 targetos: Windows
 req.typenames: 
 req.redist: 

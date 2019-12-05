@@ -1,19 +1,17 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_VERTICALALIGNMENT
 title: DIRECTMANIPULATION_VERTICALALIGNMENT (directmanipulation.h)
-
 description: Defines the vertical alignment settings for content within the viewport.
 old-location: directmanipulation\directmanipulation_verticalalignment.htm
 tech.root: directmanipulation
 ms.assetid: 37e9a604-f713-4203-928c-0799206b76fe
-
 ms.date: 12/05/2018
 ms.keywords: DIRECTMANIPULATION_VERTICALALIGNMENT, DIRECTMANIPULATION_VERTICALALIGNMENT enumeration [Direct Manipulation], DIRECTMANIPULATION_VERTICALALIGNMENT_BOTTOM, DIRECTMANIPULATION_VERTICALALIGNMENT_CENTER, DIRECTMANIPULATION_VERTICALALIGNMENT_NONE, DIRECTMANIPULATION_VERTICALALIGNMENT_TOP, DIRECTMANIPULATION_VERTICALALIGNMENT_UNLOCKCENTER, directmanipulation.directmanipulation_verticalalignment, directmanipulation/DIRECTMANIPULATION_VERTICALALIGNMENT, directmanipulation/DIRECTMANIPULATION_VERTICALALIGNMENT_BOTTOM, directmanipulation/DIRECTMANIPULATION_VERTICALALIGNMENT_CENTER, directmanipulation/DIRECTMANIPULATION_VERTICALALIGNMENT_NONE, directmanipulation/DIRECTMANIPULATION_VERTICALALIGNMENT_TOP, directmanipulation/DIRECTMANIPULATION_VERTICALALIGNMENT_UNLOCKCENTER
 ms.topic: enum
-f1_keywords: 
- - "directmanipulation/DIRECTMANIPULATION_VERTICALALIGNMENT"
+f1_keywords:
+- directmanipulation/DIRECTMANIPULATION_VERTICALALIGNMENT
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - directmanipulation.h
+- directmanipulation.h
 api_name:
- - DIRECTMANIPULATION_VERTICALALIGNMENT
+- DIRECTMANIPULATION_VERTICALALIGNMENT
 targetos: Windows
 req.typenames: DIRECTMANIPULATION_VERTICALALIGNMENT
 req.redist: 

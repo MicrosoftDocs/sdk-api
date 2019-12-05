@@ -1,19 +1,17 @@
 ---
 UID: NS:windns.__unnamed_struct_4
 title: DNS_PTR_DATAA (windns.h)
-
 description: The DNS_PTR_DATA structure represents a DNS pointer (PTR) record as specified in section 3.3.12 of RFC 1035.
 old-location: dns\dns_ptr_data.htm
 tech.root: DNS
 ms.assetid: 8b7f8898-ac91-46da-876c-889c427068a3
-
 ms.date: 12/05/2018
-ms.keywords: "*PDNS_PTR_DATA, *PDNS_PTR_DATAA, DNS_PTR_DATA, DNS_PTR_DATA structure [DNS], DNS_PTR_DATAA, PDNS_PTR_DATA, PDNS_PTR_DATA structure pointer [DNS], _dns_dns_ptr_data, dns.dns_ptr_data, windns/DNS_PTR_DATA, windns/PDNS_PTR_DATA"
+ms.keywords: '*PDNS_PTR_DATA, *PDNS_PTR_DATAA, DNS_PTR_DATA, DNS_PTR_DATA structure [DNS], DNS_PTR_DATAA, PDNS_PTR_DATA, PDNS_PTR_DATA structure pointer [DNS], _dns_dns_ptr_data, dns.dns_ptr_data, windns/DNS_PTR_DATA, windns/PDNS_PTR_DATA'
 ms.topic: struct
-f1_keywords: 
- - "windns/DNS_PTR_DATA"
+f1_keywords:
+- windns/DNS_PTR_DATA
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_PTR_DATA
+- DNS_PTR_DATA
 targetos: Windows
 req.typenames: DNS_PTR_DATAA, *PDNS_PTR_DATAA
 req.redist: 

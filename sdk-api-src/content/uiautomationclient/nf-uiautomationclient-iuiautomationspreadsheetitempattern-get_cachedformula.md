@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSpreadsheetItemPattern.get_CachedFormula
 title: IUIAutomationSpreadsheetItemPattern::get_CachedFormula (uiautomationclient.h)
-
 description: Retrieves the cached formula for this cell.
 old-location: winauto\uiauto_IUIAutomationSpreadsheetItemPattern_CachedFormula.htm
 tech.root: WinAuto
 ms.assetid: BA4A13A3-6BB3-45B9-87A7-8239F148B1CE
-
 ms.date: 12/05/2018
 ms.keywords: CachedFormula property [Windows Accessibility], CachedFormula property [Windows Accessibility],IUIAutomationSpreadsheetItemPattern interface, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],CachedFormula property, IUIAutomationSpreadsheetItemPattern.CachedFormula, IUIAutomationSpreadsheetItemPattern.get_CachedFormula, IUIAutomationSpreadsheetItemPattern::CachedFormula, IUIAutomationSpreadsheetItemPattern::get_CachedFormula, get_CachedFormula, uiautomationclient/IUIAutomationSpreadsheetItemPattern::CachedFormula, uiautomationclient/IUIAutomationSpreadsheetItemPattern::get_CachedFormula, winauto.uiauto_IUIAutomationSpreadsheetItemPattern_CachedFormula
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationSpreadsheetItemPattern.CachedFormula"
+f1_keywords:
+- uiautomationclient/IUIAutomationSpreadsheetItemPattern.CachedFormula
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationSpreadsheetItemPattern.CachedFormula
- - IUIAutomationSpreadsheetItemPattern.get_CachedFormula
+- IUIAutomationSpreadsheetItemPattern.CachedFormula
+- IUIAutomationSpreadsheetItemPattern.get_CachedFormula
 targetos: Windows
 req.typenames: 
 req.redist: 

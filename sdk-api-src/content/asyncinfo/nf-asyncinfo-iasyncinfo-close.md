@@ -1,19 +1,17 @@
 ---
 UID: NF:asyncinfo.IAsyncInfo.Close
 title: IAsyncInfo::Close (asyncinfo.h)
-
 description: Closes the asynchronous work object.
 old-location: winrt\iasyncinfo_close.htm
 tech.root: WinRT
 ms.assetid: 1c357343-79cf-4808-8e41-f898dfdb99f6
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Windows Runtime], Close method [Windows Runtime],IAsyncInfo interface, IAsyncInfo interface [Windows Runtime],Close method, IAsyncInfo.Close, IAsyncInfo::Close, asyncinfo/IAsyncInfo::Close, winrt.iasyncinfo_close
 ms.topic: method
-f1_keywords: 
- - "asyncinfo/IAsyncInfo.Close"
+f1_keywords:
+- asyncinfo/IAsyncInfo.Close
 dev_langs:
- - c++
+- c++
 req.header: asyncinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AsyncInfo.h
+- AsyncInfo.h
 api_name:
- - IAsyncInfo.Close
+- IAsyncInfo.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

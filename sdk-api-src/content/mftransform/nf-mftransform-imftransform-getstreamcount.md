@@ -1,19 +1,17 @@
 ---
 UID: NF:mftransform.IMFTransform.GetStreamCount
 title: IMFTransform::GetStreamCount (mftransform.h)
-
 description: Gets the current number of input and output streams on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getstreamcount.htm
 tech.root: medfound
 ms.assetid: 491f7f44-fcac-4236-ba5c-e5705267c6c2
-
 ms.date: 12/05/2018
 ms.keywords: 491f7f44-fcac-4236-ba5c-e5705267c6c2, GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetStreamCount method, IMFTransform.GetStreamCount, IMFTransform::GetStreamCount, mf.imftransform_getstreamcount, mftransform/IMFTransform::GetStreamCount
 ms.topic: method
-f1_keywords: 
- - "mftransform/IMFTransform.GetStreamCount"
+f1_keywords:
+- mftransform/IMFTransform.GetStreamCount
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTransform.GetStreamCount
+- IMFTransform.GetStreamCount
 targetos: Windows
 req.typenames: 
 req.redist: 

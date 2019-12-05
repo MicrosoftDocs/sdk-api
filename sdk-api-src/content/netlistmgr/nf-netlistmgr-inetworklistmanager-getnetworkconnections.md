@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.GetNetworkConnections
 title: INetworkListManager::GetNetworkConnections (netlistmgr.h)
-
 description: The GetNetworkConnections method enumerates a complete list of the network connections that have been made.
 old-location: nla\inetworklistmanager_getnetworkconnections.htm
 tech.root: nla
 ms.assetid: ddbf02ae-3232-4866-b4c1-e4611b680f9f
-
 ms.date: 12/05/2018
 ms.keywords: GetNetworkConnections, GetNetworkConnections method [Network Awareness], GetNetworkConnections method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],GetNetworkConnections method, INetworkListManager.GetNetworkConnections, INetworkListManager::GetNetworkConnections, netlistmgr/INetworkListManager::GetNetworkConnections, nla.inetworklistmanager_getnetworkconnections
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/INetworkListManager.GetNetworkConnections"
+f1_keywords:
+- netlistmgr/INetworkListManager.GetNetworkConnections
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetworkListManager.GetNetworkConnections
+- INetworkListManager.GetNetworkConnections
 targetos: Windows
 req.typenames: 
 req.redist: 

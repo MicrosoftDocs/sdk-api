@@ -1,19 +1,17 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProvider.Attach
 title: IWSDiscoveryProvider::Attach (wsddisco.h)
-
 description: Attaches a callback interface to the discovery provider.
 old-location: ncd\iwsdiscoveryprovider_attach_method.htm
 tech.root: WsdApi
 ms.assetid: 3bb2aead-b082-4a2b-b4bf-97a1feb1e11e
-
 ms.date: 12/05/2018
 ms.keywords: Attach, Attach method, Attach method,IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,Attach method, IWSDiscoveryProvider.Attach, IWSDiscoveryProvider::Attach, ncd.iwsdiscoveryprovider_attach_method, wsddisco/IWSDiscoveryProvider::Attach
 ms.topic: method
-f1_keywords: 
- - "wsddisco/IWSDiscoveryProvider.Attach"
+f1_keywords:
+- wsddisco/IWSDiscoveryProvider.Attach
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDiscoveryProvider.Attach
+- IWSDiscoveryProvider.Attach
 targetos: Windows
 req.typenames: 
 req.redist: 

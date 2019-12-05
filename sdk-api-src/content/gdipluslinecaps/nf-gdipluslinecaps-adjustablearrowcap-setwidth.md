@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluslinecaps.AdjustableArrowCap.SetWidth
 title: AdjustableArrowCap::SetWidth (gdipluslinecaps.h)
-
 description: The AdjustableArrowCap::SetWidth method sets the width of the arrow cap. The width is the distance between the endpoints of the base of the arrow.
 old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_SetWidth_width_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass\adjustablearrowcapmethods\setwidth.htm
-
 ms.date: 12/05/2018
 ms.keywords: AdjustableArrowCap class [GDI+],SetWidth method, AdjustableArrowCap.SetWidth, AdjustableArrowCap::SetWidth, SetWidth, SetWidth method [GDI+], SetWidth method [GDI+],AdjustableArrowCap class, _gdiplus_CLASS_AdjustableArrowCap_SetWidth_width_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_SetWidth_width_
 ms.topic: method
-f1_keywords: 
- - "gdipluslinecaps/AdjustableArrowCap.SetWidth"
+f1_keywords:
+- gdipluslinecaps/AdjustableArrowCap.SetWidth
 dev_langs:
- - c++
+- c++
 req.header: gdipluslinecaps.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - AdjustableArrowCap.SetWidth
+- AdjustableArrowCap.SetWidth
 targetos: Windows
 req.typenames: 
 req.redist: 

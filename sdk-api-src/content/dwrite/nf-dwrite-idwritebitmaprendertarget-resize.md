@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteBitmapRenderTarget.Resize
 title: IDWriteBitmapRenderTarget::Resize (dwrite.h)
-
 description: Resizes the bitmap.
 old-location: directwrite\IDWriteBitmapRenderTarget_Resize.htm
 tech.root: DirectWrite
 ms.assetid: 5686be35-bbc9-4d3a-a8a4-0277da7633b3
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteBitmapRenderTarget interface [Direct Write],Resize method, IDWriteBitmapRenderTarget.Resize, IDWriteBitmapRenderTarget::Resize, Resize, Resize method [Direct Write], Resize method [Direct Write],IDWriteBitmapRenderTarget interface, directwrite.IDWriteBitmapRenderTarget_Resize, dwrite/IDWriteBitmapRenderTarget::Resize
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteBitmapRenderTarget.Resize"
+f1_keywords:
+- dwrite/IDWriteBitmapRenderTarget.Resize
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteBitmapRenderTarget.Resize
+- IDWriteBitmapRenderTarget.Resize
 targetos: Windows
 req.typenames: 
 req.redist: 

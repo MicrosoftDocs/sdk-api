@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_PhoneHandlingEnabled
 title: ITAutomatedPhoneControl::get_PhoneHandlingEnabled (tapi3if.h)
-
 description: The get_PhoneHandlingEnabled method retrieves the current value of the PhoneHandlingEnabled property.
 old-location: tapi3\itautomatedphonecontrol_get_phonehandlingenabled.htm
 tech.root: Tapi
 ms.assetid: a6174caa-6045-4b82-9b13-11b86f8cf8a8
-
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_PhoneHandlingEnabled method, ITAutomatedPhoneControl.get_PhoneHandlingEnabled, ITAutomatedPhoneControl::get_PhoneHandlingEnabled, _tapi3_itautomatedphonecontrol_get_phonehandlingenabled, get_PhoneHandlingEnabled, get_PhoneHandlingEnabled method [TAPI 2.2], get_PhoneHandlingEnabled method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_phonehandlingenabled, tapi3if/ITAutomatedPhoneControl::get_PhoneHandlingEnabled
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAutomatedPhoneControl.get_PhoneHandlingEnabled"
+f1_keywords:
+- tapi3if/ITAutomatedPhoneControl.get_PhoneHandlingEnabled
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl.get_PhoneHandlingEnabled
+- ITAutomatedPhoneControl.get_PhoneHandlingEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

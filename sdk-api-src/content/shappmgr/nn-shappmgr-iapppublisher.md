@@ -1,19 +1,17 @@
 ---
 UID: NN:shappmgr.IAppPublisher
 title: IAppPublisher (shappmgr.h)
-
 description: Exposes methods for publishing applications through Add/Remove Programs in Control Panel. This is the principal interface implemented for this purpose.
 old-location: shell\IAppPublisher.htm
 tech.root: shell
 ms.assetid: 5391444a-53b6-48c9-9a94-d045b3f97182
-
 ms.date: 12/05/2018
 ms.keywords: IAppPublisher, IAppPublisher interface [Windows Shell], IAppPublisher interface [Windows Shell],described, inet_IAppPublisher, shappmgr/IAppPublisher, shell.IAppPublisher
 ms.topic: interface
-f1_keywords: 
- - "shappmgr/IAppPublisher"
+f1_keywords:
+- shappmgr/IAppPublisher
 dev_langs:
- - c++
+- c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shappmgr.h
+- Shappmgr.h
 api_name:
- - IAppPublisher
+- IAppPublisher
 targetos: Windows
 req.typenames: 
 req.redist: 

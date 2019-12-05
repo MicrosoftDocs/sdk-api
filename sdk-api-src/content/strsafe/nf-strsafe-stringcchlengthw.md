@@ -1,19 +1,17 @@
 ---
 UID: NF:strsafe.StringCchLengthW
 title: StringCchLengthW function (strsafe.h)
-
 description: Determines whether a string exceeds the specified length, in characters.
 old-location: menurc\stringcchlength.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchlength.htm
-
 ms.date: 12/05/2018
 ms.keywords: StringCchLength, StringCchLength function [Menus and Other Resources], StringCchLengthA, StringCchLengthW, UnalignedStringCchLength, _shell_StringCchLength, _shell_stringcchlength_cpp, menurc.stringcchlength, strsafe/StringCchLength, strsafe/StringCchLengthA, strsafe/StringCchLengthW, winui._shell_stringcchlength
 ms.topic: function
-f1_keywords: 
- - "strsafe/StringCchLength"
+f1_keywords:
+- strsafe/StringCchLength
 dev_langs:
- - c++
+- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Strsafe.h
+- Strsafe.h
 api_name:
- - StringCchLength
- - StringCchLengthA
- - StringCchLengthW
+- StringCchLength
+- StringCchLengthA
+- StringCchLengthW
 targetos: Windows
 req.typenames: 
 req.redist: 

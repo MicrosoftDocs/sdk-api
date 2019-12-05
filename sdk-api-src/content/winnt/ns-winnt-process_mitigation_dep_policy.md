@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._PROCESS_MITIGATION_DEP_POLICY
 title: PROCESS_MITIGATION_DEP_POLICY (winnt.h)
-
 description: Contains process mitigation policy settings for data execution prevention (DEP).
 old-location: base\process_mitigation_dep_policy.htm
 tech.root: ProcThread
 ms.assetid: 49f257fe-82e2-41b3-b692-9c88d5896273
-
 ms.date: 12/05/2018
-ms.keywords: "*PPROCESS_MITIGATION_DEP_POLICY, PPROCESS_MITIGATION_DEP_POLICY, PPROCESS_MITIGATION_DEP_POLICY structure pointer, PROCESS_MITIGATION_DEP_POLICY, PROCESS_MITIGATION_DEP_POLICY structure, _PROCESS_MITIGATION_DEP_POLICY, base.process_mitigation_dep_policy, winnt/PPROCESS_MITIGATION_DEP_POLICY, winnt/PROCESS_MITIGATION_DEP_POLICY"
+ms.keywords: '*PPROCESS_MITIGATION_DEP_POLICY, PPROCESS_MITIGATION_DEP_POLICY, PPROCESS_MITIGATION_DEP_POLICY structure pointer, PROCESS_MITIGATION_DEP_POLICY, PROCESS_MITIGATION_DEP_POLICY structure, _PROCESS_MITIGATION_DEP_POLICY, base.process_mitigation_dep_policy, winnt/PPROCESS_MITIGATION_DEP_POLICY, winnt/PROCESS_MITIGATION_DEP_POLICY'
 ms.topic: struct
-f1_keywords: 
- - "winnt/PROCESS_MITIGATION_DEP_POLICY"
+f1_keywords:
+- winnt/PROCESS_MITIGATION_DEP_POLICY
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - PROCESS_MITIGATION_DEP_POLICY
+- PROCESS_MITIGATION_DEP_POLICY
 targetos: Windows
 req.typenames: PROCESS_MITIGATION_DEP_POLICY, *PPROCESS_MITIGATION_DEP_POLICY
 req.redist: 

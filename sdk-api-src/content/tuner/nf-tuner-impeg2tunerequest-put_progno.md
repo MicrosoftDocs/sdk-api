@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IMPEG2TuneRequest.put_ProgNo
 title: IMPEG2TuneRequest::put_ProgNo (tuner.h)
-
 description: The put_ProgNo method sets the program number ID.
 old-location: mstv\impeg2tunerequest_put_progno.htm
 tech.root: mstv
 ms.assetid: 08fc9cc1-52b7-4782-96a1-af00a76ff6c6
-
 ms.date: 12/05/2018
 ms.keywords: IMPEG2TuneRequest interface [Microsoft TV Technologies],put_ProgNo method, IMPEG2TuneRequest.put_ProgNo, IMPEG2TuneRequest::put_ProgNo, IMPEG2TuneRequestput_ProgNo, mstv.impeg2tunerequest_put_progno, put_ProgNo, put_ProgNo method [Microsoft TV Technologies], put_ProgNo method [Microsoft TV Technologies],IMPEG2TuneRequest interface, tuner/IMPEG2TuneRequest::put_ProgNo
 ms.topic: method
-f1_keywords: 
- - "tuner/IMPEG2TuneRequest.put_ProgNo"
+f1_keywords:
+- tuner/IMPEG2TuneRequest.put_ProgNo
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IMPEG2TuneRequest.put_ProgNo
+- IMPEG2TuneRequest.put_ProgNo
 targetos: Windows
 req.typenames: 
 req.redist: 

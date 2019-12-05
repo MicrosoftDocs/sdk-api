@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManSession.get_BatchItems
 title: IWSManSession::get_BatchItems (wsmandisp.h)
-
 description: Sets and gets the number of items in each enumeration batch.
 old-location: winrm\iwsmansession_batchitems.htm
 tech.root: winrm
 ms.assetid: 883fc265-b84e-4757-a9b1-8c52174cb701
-
 ms.date: 12/05/2018
 ms.keywords: BatchItems property [Windows Remote Management], BatchItems property [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],BatchItems property, IWSManSession.BatchItems, IWSManSession.get_BatchItems, IWSManSession::BatchItems, IWSManSession::get_BatchItems, IWSManSession::put_BatchItems, get_BatchItems, winrm.iwsmansession_batchitems, wsmandisp/IWSManSession::BatchItems, wsmandisp/IWSManSession::get_BatchItems, wsmandisp/IWSManSession::put_BatchItems
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManSession.BatchItems"
+f1_keywords:
+- wsmandisp/IWSManSession.BatchItems
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManSession.BatchItems
- - IWSManSession.get_BatchItems
- - IWSManSession.put_BatchItems
+- IWSManSession.BatchItems
+- IWSManSession.get_BatchItems
+- IWSManSession.put_BatchItems
 targetos: Windows
 req.typenames: 
 req.redist: 

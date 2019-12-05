@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite_3.DWRITE_FILE_FRAGMENT
 title: DWRITE_FILE_FRAGMENT (dwrite_3.h)
-
 description: Represents a range of bytes in a font file.
 old-location: directwrite\dwrite_file_fragment.htm
 tech.root: DirectWrite
 ms.assetid: 6E893719-E2A7-482A-B344-8FE2AA59A6B9
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_FILE_FRAGMENT, DWRITE_FILE_FRAGMENT structure [Direct Write], directwrite.dwrite_file_fragment, dwrite_3/DWRITE_FILE_FRAGMENT
 ms.topic: struct
-f1_keywords: 
- - "dwrite_3/DWRITE_FILE_FRAGMENT"
+f1_keywords:
+- dwrite_3/DWRITE_FILE_FRAGMENT
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite_3.h
+- dwrite_3.h
 api_name:
- - DWRITE_FILE_FRAGMENT
+- DWRITE_FILE_FRAGMENT
 targetos: Windows
 req.typenames: 
 req.redist: 

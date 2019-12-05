@@ -1,19 +1,17 @@
 ---
 UID: NS:rtmv2._RTM_NEXTHOP_LIST
 title: RTM_NEXTHOP_LIST (rtmv2.h)
-
 description: The RTM_NEXTHOP_LIST structure contains a list of next hops used to determine equal-cost paths in a route.
 old-location: rras\rtm_nexthop_list.htm
 tech.root: RRAS
 ms.assetid: f27269e5-ad7e-4426-ac07-cb3a05532579
-
 ms.date: 12/05/2018
 ms.keywords: '*PRTM_NEXTHOP_LIST, PRTM_NEXTHOP_LIST, PRTM_NEXTHOP_LIST structure pointer [RAS], RTM_NEXTHOP_LIST, RTM_NEXTHOP_LIST structure [RAS], _rtmv2ref_rtm_nexthop_list, rras.rtm_nexthop_list, rtmv2/PRTM_NEXTHOP_LIST, rtmv2/RTM_NEXTHOP_LIST'
 ms.topic: struct
 f1_keywords:
 - rtmv2/RTM_NEXTHOP_LIST
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

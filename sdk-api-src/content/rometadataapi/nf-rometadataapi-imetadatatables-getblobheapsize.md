@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetBlobHeapSize
 title: IMetaDataTables::GetBlobHeapSize (rometadataapi.h)
-
 description: A pointer to a pointer to the binary data retrieved.
 old-location: winrt\imetadatatables_getblobheapsize.htm
 tech.root: WinRT
 ms.assetid: 9001b2ee-846e-476b-b1db-7860c25075ee
-
 ms.date: 12/05/2018
 ms.keywords: GetBlobHeapSize, GetBlobHeapSize method [Windows Runtime], GetBlobHeapSize method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetBlobHeapSize method, IMetaDataTables.GetBlobHeapSize, IMetaDataTables::GetBlobHeapSize, rometadataapi/IMetaDataTables::GetBlobHeapSize, winrt.imetadatatables_getblobheapsize
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataTables.GetBlobHeapSize"
+f1_keywords:
+- rometadataapi/IMetaDataTables.GetBlobHeapSize
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataTables.GetBlobHeapSize
+- IMetaDataTables.GetBlobHeapSize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHRegDeleteUSValueA
 title: SHRegDeleteUSValueA function (shlwapi.h)
-
 description: Deletes a registry subkey value in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegDeleteUSValue.htm
 tech.root: shell
 ms.assetid: f70407af-d8ee-4333-be32-01887d4add4c
-
 ms.date: 12/05/2018
 ms.keywords: SHRegDeleteUSValue, SHRegDeleteUSValue function [Windows Shell], SHRegDeleteUSValueA, SHRegDeleteUSValueW, _win32_SHRegDeleteUSValue, shell.SHRegDeleteUSValue, shlwapi/SHRegDeleteUSValue, shlwapi/SHRegDeleteUSValueA, shlwapi/SHRegDeleteUSValueW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHRegDeleteUSValue"
+f1_keywords:
+- shlwapi/SHRegDeleteUSValue
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-Registryuserspecific-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-Registryuserspecific-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - SHRegDeleteUSValue
- - SHRegDeleteUSValueA
- - SHRegDeleteUSValueW
+- SHRegDeleteUSValue
+- SHRegDeleteUSValueA
+- SHRegDeleteUSValueW
 targetos: Windows
 req.typenames: 
 req.redist: 

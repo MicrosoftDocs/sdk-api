@@ -1,19 +1,17 @@
 ---
 UID: NF:objbase.MonikerCommonPrefixWith
 title: MonikerCommonPrefixWith function (objbase.h)
-
 description: Creates a new moniker based on the common prefix that this moniker (the one comprising the data of this moniker object) shares with another moniker.
 old-location: com\monikercommonprefixwith.htm
 tech.root: com
 ms.assetid: 6caa8c2e-c3d6-45d5-8efe-74d6a2c4a926
-
 ms.date: 12/05/2018
 ms.keywords: MonikerCommonPrefixWith, MonikerCommonPrefixWith function [COM], _com_MonikerCommonPrefixWith, com.monikercommonprefixwith, objbase/MonikerCommonPrefixWith
 ms.topic: function
-f1_keywords: 
- - "objbase/MonikerCommonPrefixWith"
+f1_keywords:
+- objbase/MonikerCommonPrefixWith
 dev_langs:
- - c++
+- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - MonikerCommonPrefixWith
+- MonikerCommonPrefixWith
 targetos: Windows
 req.typenames: 
 req.redist: 

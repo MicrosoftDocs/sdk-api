@@ -1,19 +1,17 @@
 ---
 UID: NS:evntrace._TRACE_GUID_PROPERTIES
 title: TRACE_GUID_PROPERTIES (evntrace.h)
-
 description: The TRACE_GUID_PROPERTIES structure contains information about an event trace provider.
 old-location: etw\trace_guid_properties.htm
 tech.root: ETW
 ms.assetid: 849f2d34-14e0-43e8-a735-d46e94671725
-
 ms.date: 12/05/2018
-ms.keywords: "*PTRACE_GUID_PROPERTIES, PTRACE_GUID_PROPERTIES, PTRACE_GUID_PROPERTIES structure pointer [ETW], TRACE_GUID_PROPERTIES, TRACE_GUID_PROPERTIES structure [ETW], _TRACE_GUID_PROPERTIES, _evt_trace_guid_properties, base.trace_guid_properties, etw.trace_guid_properties, evntrace/PTRACE_GUID_PROPERTIES, evntrace/TRACE_GUID_PROPERTIES"
+ms.keywords: '*PTRACE_GUID_PROPERTIES, PTRACE_GUID_PROPERTIES, PTRACE_GUID_PROPERTIES structure pointer [ETW], TRACE_GUID_PROPERTIES, TRACE_GUID_PROPERTIES structure [ETW], _TRACE_GUID_PROPERTIES, _evt_trace_guid_properties, base.trace_guid_properties, etw.trace_guid_properties, evntrace/PTRACE_GUID_PROPERTIES, evntrace/TRACE_GUID_PROPERTIES'
 ms.topic: struct
-f1_keywords: 
- - "evntrace/TRACE_GUID_PROPERTIES"
+f1_keywords:
+- evntrace/TRACE_GUID_PROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Evntrace.h
+- Evntrace.h
 api_name:
- - TRACE_GUID_PROPERTIES
+- TRACE_GUID_PROPERTIES
 targetos: Windows
 req.typenames: TRACE_GUID_PROPERTIES, *PTRACE_GUID_PROPERTIES
 req.redist: 

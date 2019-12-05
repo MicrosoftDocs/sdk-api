@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.GetIndexByteStreamCount
 title: IMFASFIndexer::GetIndexByteStreamCount (wmcontainer.h)
-
 description: Retrieves the number of byte streams that are in use by the indexer object.
 old-location: mf\imfasfindexer_getindexbytestreamcount.htm
 tech.root: medfound
 ms.assetid: a433af8a-9e8a-4234-9694-c3a5420a1710
-
 ms.date: 12/05/2018
 ms.keywords: GetIndexByteStreamCount, GetIndexByteStreamCount method [Media Foundation], GetIndexByteStreamCount method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetIndexByteStreamCount method, IMFASFIndexer.GetIndexByteStreamCount, IMFASFIndexer::GetIndexByteStreamCount, a433af8a-9e8a-4234-9694-c3a5420a1710, mf.imfasfindexer_getindexbytestreamcount, wmcontainer/IMFASFIndexer::GetIndexByteStreamCount
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFIndexer.GetIndexByteStreamCount"
+f1_keywords:
+- wmcontainer/IMFASFIndexer.GetIndexByteStreamCount
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFIndexer.GetIndexByteStreamCount
+- IMFASFIndexer.GetIndexByteStreamCount
 targetos: Windows
 req.typenames: 
 req.redist: 

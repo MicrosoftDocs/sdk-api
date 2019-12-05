@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcObjectSetType
 title: RpcObjectSetType function (rpcdce.h)
-
 description: The RpcObjectSetType function assigns the type of an object.
 old-location: rpc\rpcobjectsettype.htm
 tech.root: Rpc
 ms.assetid: 2fb22b97-97ce-403a-bfcb-101bb63f906f
-
 ms.date: 12/05/2018
 ms.keywords: RpcObjectSetType, RpcObjectSetType function [RPC], _rpc_rpcobjectsettype, rpc.rpcobjectsettype, rpcdce/RpcObjectSetType
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcObjectSetType"
+f1_keywords:
+- rpcdce/RpcObjectSetType
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcObjectSetType
+- RpcObjectSetType
 targetos: Windows
 req.typenames: 
 req.redist: 

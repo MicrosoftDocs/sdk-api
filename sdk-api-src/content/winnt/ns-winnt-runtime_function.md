@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._IMAGE_RUNTIME_FUNCTION_ENTRY
 title: RUNTIME_FUNCTION (winnt.h)
-
 description: Represents an entry in the function table on 64-bit Windows.
 old-location: base\_image_runtime_function_entry.htm
 tech.root: Debug
 ms.assetid: 9ed16f9a-3403-4ba9-9968-f51f6788a1f8
-
 ms.date: 12/05/2018
-ms.keywords: "*PRUNTIME_FUNCTION, *_PIMAGE_RUNTIME_FUNCTION_ENTRY, IMAGE_IA64_RUNTIME_FUNCTION_ENTRY, IMAGE_RUNTIME_FUNCTION_ENTRY, RUNTIME_FUNCTION, _IMAGE_RUNTIME_FUNCTION_ENTRY, _IMAGE_RUNTIME_FUNCTION_ENTRY structure, _PIMAGE_RUNTIME_FUNCTION_ENTRY, _PIMAGE_RUNTIME_FUNCTION_ENTRY structure pointer, base._image_runtime_function_entry, winnt/_IMAGE_RUNTIME_FUNCTION_ENTRY, winnt/_PIMAGE_RUNTIME_FUNCTION_ENTRY"
+ms.keywords: '*PRUNTIME_FUNCTION, *_PIMAGE_RUNTIME_FUNCTION_ENTRY, IMAGE_IA64_RUNTIME_FUNCTION_ENTRY, IMAGE_RUNTIME_FUNCTION_ENTRY, RUNTIME_FUNCTION, _IMAGE_RUNTIME_FUNCTION_ENTRY, _IMAGE_RUNTIME_FUNCTION_ENTRY structure, _PIMAGE_RUNTIME_FUNCTION_ENTRY, _PIMAGE_RUNTIME_FUNCTION_ENTRY structure pointer, base._image_runtime_function_entry, winnt/_IMAGE_RUNTIME_FUNCTION_ENTRY, winnt/_PIMAGE_RUNTIME_FUNCTION_ENTRY'
 ms.topic: struct
-f1_keywords: 
- - "winnt/_IMAGE_RUNTIME_FUNCTION_ENTRY"
+f1_keywords:
+- winnt/_IMAGE_RUNTIME_FUNCTION_ENTRY
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - _IMAGE_RUNTIME_FUNCTION_ENTRY
+- _IMAGE_RUNTIME_FUNCTION_ENTRY
 targetos: Windows
 req.typenames: RUNTIME_FUNCTION, *PRUNTIME_FUNCTION, _IMAGE_RUNTIME_FUNCTION_ENTRY, *_PIMAGE_RUNTIME_FUNCTION_ENTRY
 req.redist: DbgHelp.dll 5.1 or later

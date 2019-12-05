@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarMul
 title: VarMul function (oleauto.h)
-
 description: Returns the result from multiplying two variants.
 old-location: automat\varmul.htm
 tech.root: automat
 ms.assetid: d804a23b-7d52-4f11-a93e-3eb02a079d2c
-
 ms.date: 12/05/2018
 ms.keywords: VarMul, VarMul function [Automation], _oa96_VarMul, automat.varmul, oleauto/VarMul
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarMul"
+f1_keywords:
+- oleauto/VarMul
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarMul
+- VarMul
 targetos: Windows
 req.typenames: 
 req.redist: 

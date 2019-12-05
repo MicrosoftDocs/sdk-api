@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo3.GetCodecEnumerationSetting
 title: IWMCodecInfo3::GetCodecEnumerationSetting (wmsdkidl.h)
-
 description: The GetCodecEnumerationSetting method retrieves the current value for one codec enumeration setting.
 old-location: wmformat\iwmcodecinfo3_getcodecenumerationsetting.htm
 tech.root: wmformat
 ms.assetid: 9a8f34ef-4d52-47d4-b6d5-e6f07f27cc8d
-
 ms.date: 12/05/2018
 ms.keywords: GetCodecEnumerationSetting, GetCodecEnumerationSetting method [windows Media Format], GetCodecEnumerationSetting method [windows Media Format],IWMCodecInfo3 interface, IWMCodecInfo3 interface [windows Media Format],GetCodecEnumerationSetting method, IWMCodecInfo3.GetCodecEnumerationSetting, IWMCodecInfo3::GetCodecEnumerationSetting, IWMCodecInfo3GetCodecEnumerationSetting, wmformat.iwmcodecinfo3_getcodecenumerationsetting, wmsdkidl/IWMCodecInfo3::GetCodecEnumerationSetting
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMCodecInfo3.GetCodecEnumerationSetting"
+f1_keywords:
+- wmsdkidl/IWMCodecInfo3.GetCodecEnumerationSetting
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMCodecInfo3.GetCodecEnumerationSetting
+- IWMCodecInfo3.GetCodecEnumerationSetting
 targetos: Windows
 req.typenames: 
 req.redist: 

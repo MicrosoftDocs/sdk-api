@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IModalWindow.Show
 title: IModalWindow::Show (shobjidl_core.h)
-
 description: Launches the modal window.
 old-location: shell\IModalWindow_Show.htm
 tech.root: shell
 ms.assetid: 0284b694-64d1-48db-bef3-92f808b29b23
-
 ms.date: 12/05/2018
 ms.keywords: IModalWindow interface [Windows Shell],Show method, IModalWindow.Show, IModalWindow::Show, Show, Show method [Windows Shell], Show method [Windows Shell],IModalWindow interface, _win32_IModalWindow_Show, shell.IModalWindow_Show, shobjidl_core/IModalWindow::Show
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IModalWindow.Show"
+f1_keywords:
+- shobjidl_core/IModalWindow.Show
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IModalWindow.Show
+- IModalWindow.Show
 targetos: Windows
 req.typenames: 
 req.redist: 

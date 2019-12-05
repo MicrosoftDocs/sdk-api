@@ -1,19 +1,17 @@
 ---
 UID: NF:prsht.PropSheet_ShowWizButtons
 title: PropSheet_ShowWizButtons macro (prsht.h)
-
 description: Show or hide buttons in a wizard. You can use this macro or send the PSM_SHOWWIZBUTTONS message explicitly.
 old-location: controls\PropSheet_ShowWizButtons.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_showwizbuttons.htm
-
 ms.date: 12/05/2018
 ms.keywords: PSWIZB_BACK, PSWIZB_CANCEL, PSWIZB_FINISH, PSWIZB_NEXT, PSWIZB_RESTORE, PSWIZB_SHOW, PropSheet_ShowWizButtons, PropSheet_ShowWizButtons macro [Windows Controls], _shell_PropSheet_ShowWizButtons, _shell_PropSheet_ShowWizButtons_cpp, controls.PropSheet_ShowWizButtons, controls._shell_PropSheet_ShowWizButtons, prsht/PropSheet_ShowWizButtons
 ms.topic: macro
-f1_keywords: 
- - "prsht/PropSheet_ShowWizButtons"
+f1_keywords:
+- prsht/PropSheet_ShowWizButtons
 dev_langs:
- - c++
+- c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Prsht.h
+- Prsht.h
 api_name:
- - PropSheet_ShowWizButtons
+- PropSheet_ShowWizButtons
 targetos: Windows
 req.typenames: 
 req.redist: 

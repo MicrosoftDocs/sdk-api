@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPControls.playItem
 title: IWMPControls::playItem (wmp.h)
-
 description: The playItem method plays the specified media item.
 old-location: wmp\iwmpcontrols_playitem.htm
 tech.root: WMP
 ms.assetid: 8d4282b0-08a9-4c66-ab8b-93429e77e05d
-
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],playItem method, IWMPControls.playItem, IWMPControls::playItem, IWMPControlsplayItem, playItem, playItem method [Windows Media Player], playItem method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_playitem, wmp/IWMPControls::playItem
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPControls.playItem"
+f1_keywords:
+- wmp/IWMPControls.playItem
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPControls.playItem
+- IWMPControls.playItem
 targetos: Windows
 req.typenames: 
 req.redist: 

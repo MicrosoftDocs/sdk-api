@@ -1,19 +1,17 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.GetVolumeStepInfo
 title: IAudioEndpointVolume::GetVolumeStepInfo (endpointvolume.h)
-
 description: The GetVolumeStepInfo method gets information about the current step in the volume range.
 old-location: coreaudio\iaudioendpointvolume_getvolumestepinfo.htm
 tech.root: CoreAudio
 ms.assetid: 895f5dd1-73f5-464e-9498-b3832edf4dc7
-
 ms.date: 12/05/2018
 ms.keywords: GetVolumeStepInfo, GetVolumeStepInfo method [Core Audio], GetVolumeStepInfo method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetVolumeStepInfo method, IAudioEndpointVolume.GetVolumeStepInfo, IAudioEndpointVolume::GetVolumeStepInfo, IAudioEndpointVolumeGetVolumeStepInfo, coreaudio.iaudioendpointvolume_getvolumestepinfo, endpointvolume/IAudioEndpointVolume::GetVolumeStepInfo
 ms.topic: method
-f1_keywords: 
- - "endpointvolume/IAudioEndpointVolume.GetVolumeStepInfo"
+f1_keywords:
+- endpointvolume/IAudioEndpointVolume.GetVolumeStepInfo
 dev_langs:
- - c++
+- c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Endpointvolume.h
+- Endpointvolume.h
 api_name:
- - IAudioEndpointVolume.GetVolumeStepInfo
+- IAudioEndpointVolume.GetVolumeStepInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

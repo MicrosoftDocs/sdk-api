@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IBootOptions.get_ImageSize
 title: IBootOptions::get_ImageSize (imapi2fs.h)
-
 description: Retrieves the size of the boot image.
 old-location: imapi\ibootoptions_get_imagesize.htm
 tech.root: imapi
 ms.assetid: 2e3fd791-5a38-4082-9553-29eae92dfd5e
-
 ms.date: 12/05/2018
 ms.keywords: IBootOptions interface [IMAPI],get_ImageSize method, IBootOptions.get_ImageSize, IBootOptions::get_ImageSize, get_ImageSize, get_ImageSize method [IMAPI], get_ImageSize method [IMAPI],IBootOptions interface, imapi.ibootoptions_get_imagesize, imapi2fs/IBootOptions::get_ImageSize
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IBootOptions.get_ImageSize"
+f1_keywords:
+- imapi2fs/IBootOptions.get_ImageSize
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IBootOptions.get_ImageSize
+- IBootOptions.get_ImageSize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMColorIsInfinite
 title: XMColorIsInfinite function (directxmath.h)
-
 description: Tests to see whether any of the components of a color are either positive or negative infinity.
 old-location: dxmath\xmcolorisinfinite.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorIsInfinite(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorIsInfinite, XMColorIsInfinite, XMColorIsInfinite method [DirectX Math Support APIs], dxmath.xmcolorisinfinite
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMColorIsInfinite"
+f1_keywords:
+- directxmath/XMColorIsInfinite
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMColorIsInfinite
+- XMColorIsInfinite
 targetos: Windows
 req.typenames: 
 req.redist: 

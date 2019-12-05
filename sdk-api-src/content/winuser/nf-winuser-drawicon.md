@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.DrawIcon
 title: DrawIcon function (winuser.h)
-
 description: Draws an icon or cursor into the specified device context.
 old-location: menurc\drawicon.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\drawicon.htm
-
 ms.date: 12/05/2018
 ms.keywords: DrawIcon, DrawIcon function [Menus and Other Resources], _win32_DrawIcon, _win32_drawicon_cpp, menurc.drawicon, winui._win32_drawicon, winuser/DrawIcon
 ms.topic: function
-f1_keywords: 
- - "winuser/DrawIcon"
+f1_keywords:
+- winuser/DrawIcon
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - DrawIcon
+- DrawIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

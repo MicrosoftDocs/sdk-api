@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGIOutput.GetGammaControlCapabilities
 title: IDXGIOutput::GetGammaControlCapabilities (dxgi.h)
-
 description: Gets a description of the gamma-control capabilities.
 old-location: direct3ddxgi\idxgioutput_getgammacontrolcapabilities.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_getgammacontrolcapabilities.htm
-
 ms.date: 12/05/2018
 ms.keywords: 7a21bfd4-6142-892e-82c8-bfe1be182780, GetGammaControlCapabilities, GetGammaControlCapabilities method [DXGI], GetGammaControlCapabilities method [DXGI],IDXGIOutput interface, IDXGIOutput interface [DXGI],GetGammaControlCapabilities method, IDXGIOutput.GetGammaControlCapabilities, IDXGIOutput::GetGammaControlCapabilities, direct3ddxgi.idxgioutput_getgammacontrolcapabilities, dxgi/IDXGIOutput::GetGammaControlCapabilities
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGIOutput.GetGammaControlCapabilities"
+f1_keywords:
+- dxgi/IDXGIOutput.GetGammaControlCapabilities
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIOutput.GetGammaControlCapabilities
+- IDXGIOutput.GetGammaControlCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

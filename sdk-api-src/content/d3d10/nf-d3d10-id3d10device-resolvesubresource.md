@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.ResolveSubresource
 title: ID3D10Device::ResolveSubresource (d3d10.h)
-
 description: Copy a multisampled resource into a non-multisampled resource. This API is most useful when re-using the resulting rendertarget of one render pass as an input to a second render pass.
 old-location: direct3d10\id3d10device_resolvesubresource.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_resolvesubresource.htm
-
 ms.date: 12/05/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],ResolveSubresource method, ID3D10Device.ResolveSubresource, ID3D10Device::ResolveSubresource, ResolveSubresource, ResolveSubresource method [Direct3D 10], ResolveSubresource method [Direct3D 10],ID3D10Device interface, ba86f6c0-1c03-0ae4-a93b-f0475c4a5a37, d3d10/ID3D10Device::ResolveSubresource, direct3d10.id3d10device_resolvesubresource
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.ResolveSubresource"
+f1_keywords:
+- d3d10/ID3D10Device.ResolveSubresource
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: D3d10core
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d10.h
+- d3d10.h
 api_name:
- - ID3D10Device.ResolveSubresource
+- ID3D10Device.ResolveSubresource
 targetos: Windows
 req.typenames: 
 req.redist: 

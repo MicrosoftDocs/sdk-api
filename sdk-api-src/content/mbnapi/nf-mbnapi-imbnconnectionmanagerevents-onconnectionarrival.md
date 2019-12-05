@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnConnectionManagerEvents.OnConnectionArrival
 title: IMbnConnectionManagerEvents::OnConnectionArrival (mbnapi.h)
-
 description: Notification method that indicates a new connection was added to the system.
 old-location: mbn\imbnconnectionmanagerevents_onconnectionarrival.htm
 tech.root: mbn
 ms.assetid: 88e48ce0-b2eb-431e-be0f-03b1d22ca61b
-
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionManagerEvents interface [Microsoft Broadband Networks],OnConnectionArrival method, IMbnConnectionManagerEvents.OnConnectionArrival, IMbnConnectionManagerEvents::OnConnectionArrival, OnConnectionArrival, OnConnectionArrival method [Microsoft Broadband Networks], OnConnectionArrival method [Microsoft Broadband Networks],IMbnConnectionManagerEvents interface, mbn.imbnconnectionmanagerevents_onconnectionarrival, mbnapi/IMbnConnectionManagerEvents::OnConnectionArrival
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnConnectionManagerEvents.OnConnectionArrival"
+f1_keywords:
+- mbnapi/IMbnConnectionManagerEvents.OnConnectionArrival
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnectionManagerEvents.OnConnectionArrival
+- IMbnConnectionManagerEvents.OnConnectionArrival
 targetos: Windows
 req.typenames: 
 req.redist: 

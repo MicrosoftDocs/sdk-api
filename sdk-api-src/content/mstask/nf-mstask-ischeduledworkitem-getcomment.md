@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetComment
 title: IScheduledWorkItem::GetComment (mstask.h)
-
 description: Retrieves the comment for the work item.
 old-location: taskschd\ischeduledworkitem_getcomment.htm
 tech.root: taskschd
 ms.assetid: 49bfd451-8100-40e1-9727-e54c5478b415
-
 ms.date: 12/05/2018
 ms.keywords: GetComment, GetComment method [Task Scheduler], GetComment method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetComment method, IScheduledWorkItem.GetComment, IScheduledWorkItem::GetComment, _msb_ischeduledworkitem_getcomment, mstask/IScheduledWorkItem::GetComment, taskschd.ischeduledworkitem_getcomment
 ms.topic: method
-f1_keywords: 
- - "mstask/IScheduledWorkItem.GetComment"
+f1_keywords:
+- mstask/IScheduledWorkItem.GetComment
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IScheduledWorkItem.GetComment
+- IScheduledWorkItem.GetComment
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

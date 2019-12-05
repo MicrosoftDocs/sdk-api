@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetContentStatus
 title: IXpsOMCoreProperties::SetContentStatus (xpsobjectmodel.h)
-
 description: Sets the contentStatus property.
 old-location: xps\ixpsomcoreproperties_setcontentstatus.htm
 tech.root: printdocs
 ms.assetid: f500407d-3eb4-4bf1-88ef-8f6bd2bcf472
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetContentStatus method, IXpsOMCoreProperties.SetContentStatus, IXpsOMCoreProperties::SetContentStatus, SetContentStatus, SetContentStatus method [XPS Documents and Packaging], SetContentStatus method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setcontentstatus, xpsobjectmodel/IXpsOMCoreProperties::SetContentStatus
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCoreProperties.SetContentStatus"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCoreProperties.SetContentStatus
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.SetContentStatus
+- IXpsOMCoreProperties.SetContentStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

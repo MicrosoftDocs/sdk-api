@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmquota.IFsrmQuotaManager
 title: IFsrmQuotaManager (fsrmquota.h)
-
 description: Used to manage quotas.
 old-location: fsrm\ifsrmquotamanager.htm
 tech.root: fsrm
 ms.assetid: 20bda7d6-5c7b-4066-82e2-83ad52515568
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaManager, IFsrmQuotaManager interface [File Server Resource Manager], IFsrmQuotaManager interface [File Server Resource Manager],described, fs.ifsrmquotamanager, fsrm.ifsrmquotamanager, fsrmquota/IFsrmQuotaManager
 ms.topic: interface
-f1_keywords: 
- - "fsrmquota/IFsrmQuotaManager"
+f1_keywords:
+- fsrmquota/IFsrmQuotaManager
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuotaManager
+- IFsrmQuotaManager
 targetos: Windows
 req.typenames: 
 req.redist: 

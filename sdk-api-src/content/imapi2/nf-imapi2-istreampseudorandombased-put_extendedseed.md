@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IStreamPseudoRandomBased.put_ExtendedSeed
 title: IStreamPseudoRandomBased::put_ExtendedSeed (imapi2.h)
-
 description: Sets a list of seed values for the random number generator and seeks to the start of stream.
 old-location: imapi\istreampseudorandombased_put_extendedseed.htm
 tech.root: imapi
 ms.assetid: a6edf21f-b89a-4780-8065-4d09758fe701
-
 ms.date: 12/05/2018
 ms.keywords: IStreamPseudoRandomBased interface [IMAPI],put_ExtendedSeed method, IStreamPseudoRandomBased.put_ExtendedSeed, IStreamPseudoRandomBased::put_ExtendedSeed, imapi.istreampseudorandombased_put_extendedseed, imapi2/IStreamPseudoRandomBased::put_ExtendedSeed, put_ExtendedSeed, put_ExtendedSeed method [IMAPI], put_ExtendedSeed method [IMAPI],IStreamPseudoRandomBased interface
 ms.topic: method
-f1_keywords: 
- - "imapi2/IStreamPseudoRandomBased.put_ExtendedSeed"
+f1_keywords:
+- imapi2/IStreamPseudoRandomBased.put_ExtendedSeed
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IStreamPseudoRandomBased.put_ExtendedSeed
+- IStreamPseudoRandomBased.put_ExtendedSeed
 targetos: Windows
 req.typenames: 
 req.redist: 

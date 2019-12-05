@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.GetEnabledUnicodeRanges
 title: GetEnabledUnicodeRanges function (recapis.h)
-
 description: Retrieves a list of Unicode point ranges enabled on the context. If you do not call the SetEnabledUnicodeRanges function to specify the enabled ranges, this function returns the recognizer's default Unicode point ranges.
 old-location: tablet\getenabledunicoderanges.htm
 tech.root: tablet
 ms.assetid: 047a72f9-a627-4c8b-b271-13d3c873abc9
-
 ms.date: 12/05/2018
 ms.keywords: 047a72f9-a627-4c8b-b271-13d3c873abc9, GetEnabledUnicodeRanges, GetEnabledUnicodeRanges function [Tablet PC], recapis/GetEnabledUnicodeRanges, tablet.getenabledunicoderanges
 ms.topic: function
-f1_keywords: 
- - "recapis/GetEnabledUnicodeRanges"
+f1_keywords:
+- recapis/GetEnabledUnicodeRanges
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - GetEnabledUnicodeRanges
+- GetEnabledUnicodeRanges
 targetos: Windows
 req.typenames: 
 req.redist: 

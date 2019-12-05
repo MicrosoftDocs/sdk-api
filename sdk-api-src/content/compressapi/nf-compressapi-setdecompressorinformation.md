@@ -1,19 +1,17 @@
 ---
 UID: NF:compressapi.SetDecompressorInformation
 title: SetDecompressorInformation function (compressapi.h)
-
 description: Sets information in a decompressor for a particular compression algorithm.
 old-location: cmpapi\setdecompressorinformation.htm
 tech.root: cmpapi
 ms.assetid: 804B73D3-E68E-43A3-8F23-6A46ABDECB23
-
 ms.date: 12/05/2018
 ms.keywords: SetDecompressorInformation, SetDecompressorInformation function [Compression API], cmpapi.setdecompressorinformation, compressapi/SetDecompressorInformation
 ms.topic: function
-f1_keywords: 
- - "compressapi/SetDecompressorInformation"
+f1_keywords:
+- compressapi/SetDecompressorInformation
 dev_langs:
- - c++
+- c++
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Cabinet.lib
 req.dll: Cabinet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - cabinet.dll
+- cabinet.dll
 api_name:
- - SetDecompressorInformation
+- SetDecompressorInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

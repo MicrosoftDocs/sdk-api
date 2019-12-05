@@ -1,19 +1,17 @@
 ---
 UID: NF:strsafe.StringCchVPrintf_lA
 title: StringCchVPrintf_lA function (strsafe.h)
-
 description: Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 old-location: menurc\stringcchvprintf_l.htm
 tech.root: menurc
 ms.assetid: 90c83405-f2c8-480b-883c-c3ce258016cd
-
 ms.date: 12/05/2018
 ms.keywords: StringCchVPrintf_l, StringCchVPrintf_l function [Menus and Other Resources], StringCchVPrintf_lA, StringCchVPrintf_lW, menurc.stringcchvprintf_l, strsafe/StringCchVPrintf_l, strsafe/StringCchVPrintf_lA, strsafe/StringCchVPrintf_lW
 ms.topic: function
-f1_keywords: 
- - "strsafe/StringCchVPrintf_l"
+f1_keywords:
+- strsafe/StringCchVPrintf_l
 dev_langs:
- - c++
+- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - StrSafe.h
+- StrSafe.h
 api_name:
- - StringCchVPrintf_l
- - StringCchVPrintf_lA
- - StringCchVPrintf_lW
+- StringCchVPrintf_l
+- StringCchVPrintf_lA
+- StringCchVPrintf_lW
 targetos: Windows
 req.typenames: 
 req.redist: 

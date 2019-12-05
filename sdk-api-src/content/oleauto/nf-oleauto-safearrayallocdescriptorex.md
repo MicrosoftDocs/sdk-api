@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.SafeArrayAllocDescriptorEx
 title: SafeArrayAllocDescriptorEx function (oleauto.h)
-
 description: Creates a safe array descriptor for an array of any valid variant type, including VT_RECORD, without allocating the array data.
 old-location: automat\safearrayallocdescriptorex.htm
 tech.root: automat
 ms.assetid: c368d278-ef62-4cf3-a7f8-c48549207c09
-
 ms.date: 12/05/2018
 ms.keywords: SafeArrayAllocDescriptorEx, SafeArrayAllocDescriptorEx function [Automation], _oa96_SafeArrayAllocDescriptorEx, automat.safearrayallocdescriptorex, oleauto/SafeArrayAllocDescriptorEx
 ms.topic: function
-f1_keywords: 
- - "oleauto/SafeArrayAllocDescriptorEx"
+f1_keywords:
+- oleauto/SafeArrayAllocDescriptorEx
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - SafeArrayAllocDescriptorEx
+- SafeArrayAllocDescriptorEx
 targetos: Windows
 req.typenames: 
 req.redist: 

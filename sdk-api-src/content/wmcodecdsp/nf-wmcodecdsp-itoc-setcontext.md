@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.IToc.SetContext
 title: IToc::SetContext (wmcodecdsp.h)
-
 description: The SetContext method associates a caller-supplied context block with the table of contents.
 old-location: mf\itoc_setcontext.htm
 tech.root: medfound
 ms.assetid: 45aadac5-6c65-4525-a1fc-b045337a6030
-
 ms.date: 12/05/2018
 ms.keywords: IToc interface [Media Foundation],SetContext method, IToc.SetContext, IToc::SetContext, SetContext, SetContext method [Media Foundation], SetContext method [Media Foundation],IToc interface, codecapi.itoc_setcontext, mf.itoc_setcontext, wmcodecdsp/IToc::SetContext
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/IToc.SetContext"
+f1_keywords:
+- wmcodecdsp/IToc.SetContext
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmvdspa.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmvdspa.dll
+- wmvdspa.dll
 api_name:
- - IToc.SetContext
+- IToc.SetContext
 targetos: Windows
 req.typenames: 
 req.redist: 

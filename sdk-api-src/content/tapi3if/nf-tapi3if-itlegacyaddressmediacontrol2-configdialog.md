@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITLegacyAddressMediaControl2.ConfigDialog
 title: ITLegacyAddressMediaControl2::ConfigDialog (tapi3if.h)
-
 description: The ConfigDialog method causes the provider of the specified line device to display a dialog box to allow the user to configure parameters related to the line device. The parameters that can be edited are those currently in use on the device.
 old-location: tapi3\itlegacyaddressmediacontrol2_configdialog.htm
 tech.root: Tapi
 ms.assetid: ac2f7afe-4531-454a-8696-ca21556a049a
-
 ms.date: 12/05/2018
 ms.keywords: ConfigDialog, ConfigDialog method [TAPI 2.2], ConfigDialog method [TAPI 2.2],ITLegacyAddressMediaControl2 interface, ITLegacyAddressMediaControl2 interface [TAPI 2.2],ConfigDialog method, ITLegacyAddressMediaControl2.ConfigDialog, ITLegacyAddressMediaControl2::ConfigDialog, _tapi3_itlegacyaddressmediacontrol2_configdialog, tapi3.itlegacyaddressmediacontrol2_configdialog, tapi3if/ITLegacyAddressMediaControl2::ConfigDialog
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITLegacyAddressMediaControl2.ConfigDialog"
+f1_keywords:
+- tapi3if/ITLegacyAddressMediaControl2.ConfigDialog
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITLegacyAddressMediaControl2.ConfigDialog
+- ITLegacyAddressMediaControl2.ConfigDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

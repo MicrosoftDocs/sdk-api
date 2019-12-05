@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IContextMenuCB
 title: IContextMenuCB (shobjidl_core.h)
-
 description: Exposes a method that enables the callback of a context menu. For example, to add a shield icon to a menuItem that requires elevation.
 old-location: shell\IContextMenuCB.htm
 tech.root: shell
 ms.assetid: 1a4c183b-97cf-4c9a-af5a-bcea7c2755a5
-
 ms.date: 12/05/2018
 ms.keywords: IContextMenuCB, IContextMenuCB interface [Windows Shell], IContextMenuCB interface [Windows Shell],described, _shell_IContextMenuCB, shell.IContextMenuCB, shobjidl_core/IContextMenuCB
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IContextMenuCB"
+f1_keywords:
+- shobjidl_core/IContextMenuCB
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 6.0.6000 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IContextMenuCB
+- IContextMenuCB
 targetos: Windows
 req.typenames: 
 req.redist: 

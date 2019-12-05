@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ITransferDestination.Advise
 title: ITransferDestination::Advise (shobjidl_core.h)
-
 description: Sets up an advisory connection for notifications on the status of file operations.
 old-location: shell\ITransferDestination_Advise.htm
 tech.root: shell
 ms.assetid: e25040dd-bb51-45cc-99fb-9113e26d0baa
-
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],ITransferDestination interface, ITransferDestination interface [Windows Shell],Advise method, ITransferDestination.Advise, ITransferDestination::Advise, _shell_ITransferDestination_Advise, shell.ITransferDestination_Advise, shobjidl_core/ITransferDestination::Advise
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITransferDestination.Advise"
+f1_keywords:
+- shobjidl_core/ITransferDestination.Advise
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ITransferDestination.Advise
+- ITransferDestination.Advise
 targetos: Windows
 req.typenames: 
 req.redist: 

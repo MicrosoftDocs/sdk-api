@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IApplicationDocumentLists.SetAppID
 title: IApplicationDocumentLists::SetAppID (shobjidl_core.h)
-
 description: Specifies a unique Application User Model ID (AppUserModelID) for the application whose destination lists are being retrieved. This method is optional.
 old-location: shell\IApplicationDocumentLists_SetAppID.htm
 tech.root: shell
 ms.assetid: 1c5135c1-b98d-4d27-8437-5ca57af9a525
-
 ms.date: 12/05/2018
 ms.keywords: IApplicationDocumentLists interface [Windows Shell],SetAppID method, IApplicationDocumentLists.SetAppID, IApplicationDocumentLists::SetAppID, SetAppID, SetAppID method [Windows Shell], SetAppID method [Windows Shell],IApplicationDocumentLists interface, _shell_IApplicationDocumentLists_SetAppID, shell.IApplicationDocumentLists_SetAppID, shobjidl_core/IApplicationDocumentLists::SetAppID
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IApplicationDocumentLists.SetAppID"
+f1_keywords:
+- shobjidl_core/IApplicationDocumentLists.SetAppID
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IApplicationDocumentLists.SetAppID
+- IApplicationDocumentLists.SetAppID
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mfobjects.IMFSample
 title: IMFSample (mfobjects.h)
-
 description: Represents a media sample, which is a container object for media data.
 old-location: mf\imfsample.htm
 tech.root: medfound
 ms.assetid: b1c3758c-5133-41ee-b991-ae99d0296ccc
-
 ms.date: 12/05/2018
 ms.keywords: IMFSample, IMFSample interface [Media Foundation], IMFSample interface [Media Foundation],described, b1c3758c-5133-41ee-b991-ae99d0296ccc, mf.imfsample, mfobjects/IMFSample
 ms.topic: interface
-f1_keywords: 
- - "mfobjects/IMFSample"
+f1_keywords:
+- mfobjects/IMFSample
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSample
+- IMFSample
 targetos: Windows
 req.typenames: 
 req.redist: 

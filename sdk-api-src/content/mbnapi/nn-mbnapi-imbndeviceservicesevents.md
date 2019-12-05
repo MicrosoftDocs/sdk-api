@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnDeviceServicesEvents
 title: IMbnDeviceServicesEvents (mbnapi.h)
-
 description: Signals an application about notification events related to Mobile Broadband device services on the system.
 old-location: mbn\imbndeviceservicesevents.htm
 tech.root: mbn
 ms.assetid: 66A388D0-C704-45D2-AD56-4F81E1928774
-
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesEvents, IMbnDeviceServicesEvents interface [Microsoft Broadband Networks], IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],described, mbn.imbndeviceservicesevents, mbnapi/IMbnDeviceServicesEvents
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnDeviceServicesEvents"
+f1_keywords:
+- mbnapi/IMbnDeviceServicesEvents
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnDeviceServicesEvents
+- IMbnDeviceServicesEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

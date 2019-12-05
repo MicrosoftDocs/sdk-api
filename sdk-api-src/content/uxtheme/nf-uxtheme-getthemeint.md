@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemeInt
 title: GetThemeInt function (uxtheme.h)
-
 description: Retrieves the value of an int property.
 old-location: controls\GetThemeInt.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeint.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetThemeInt, GetThemeInt function [Windows Controls], controls.GetThemeInt, controls.inet_GetThemeInt, inet_GetThemeInt, inet_GetThemeInt_cpp, uxtheme/GetThemeInt
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemeInt"
+f1_keywords:
+- uxtheme/GetThemeInt
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
- - xamlpalwp.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
+- UxTheme.dll
+- Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+- xamlpalwp.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
 api_name:
- - GetThemeInt
+- GetThemeInt
 targetos: Windows
 req.typenames: 
 req.redist: 

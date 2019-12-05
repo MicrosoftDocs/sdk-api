@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_check_filterW
 title: ldap_check_filterW function (winldap.h)
-
 description: The ldap_check_filter function is used to verify filter syntax.
 old-location: ldap\ldap_check_filter.htm
 tech.root: ldap
 ms.assetid: 33b549bc-4b23-484a-a7cf-f4963154d492
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_check_filter, ldap.ldap__check__filter, ldap.ldap_check_filter, ldap_check_filter, ldap_check_filter function [LDAP], ldap_check_filterA, ldap_check_filterW, winldap/ldap_check_filter, winldap/ldap_check_filterA, winldap/ldap_check_filterW"
+ms.keywords: _ldap_ldap_check_filter, ldap.ldap__check__filter, ldap.ldap_check_filter, ldap_check_filter, ldap_check_filter function [LDAP], ldap_check_filterA, ldap_check_filterW, winldap/ldap_check_filter, winldap/ldap_check_filterA, winldap/ldap_check_filterW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_check_filter"
+f1_keywords:
+- winldap/ldap_check_filter
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_check_filter
- - ldap_check_filterA
- - ldap_check_filterW
+- ldap_check_filter
+- ldap_check_filterA
+- ldap_check_filterW
 targetos: Windows
 req.typenames: 
 req.redist: 

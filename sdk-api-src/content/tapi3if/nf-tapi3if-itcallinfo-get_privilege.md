@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITCallInfo.get_Privilege
 title: ITCallInfo::get_Privilege (tapi3if.h)
-
 description: The get_Privilege method gets the call privilege of the application for the current call, such as CP_MONITOR.
 old-location: tapi3\itcallinfo_get_privilege.htm
 tech.root: Tapi
 ms.assetid: 64a80fb6-b5bc-45c5-9f1d-a89ac95b9c53
-
 ms.date: 12/05/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],get_Privilege method, ITCallInfo.get_Privilege, ITCallInfo::get_Privilege, _tapi3_itcallinfo_get_privilege, get_Privilege, get_Privilege method [TAPI 2.2], get_Privilege method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_get_privilege, tapi3if/ITCallInfo::get_Privilege
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITCallInfo.get_Privilege"
+f1_keywords:
+- tapi3if/ITCallInfo.get_Privilege
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCallInfo.get_Privilege
+- ITCallInfo.get_Privilege
 targetos: Windows
 req.typenames: 
 req.redist: 

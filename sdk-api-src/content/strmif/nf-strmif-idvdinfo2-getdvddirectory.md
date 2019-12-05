@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDVDDirectory
 title: IDvdInfo2::GetDVDDirectory (strmif.h)
-
 description: The GetDVDDirectory method retrieves the root directory that is set in the DVD Navigator.
 old-location: dshow\idvdinfo2_getdvddirectory.htm
 tech.root: DirectShow
 ms.assetid: fad4dd0a-4831-4460-9631-ed06b6647f2d
-
 ms.date: 12/05/2018
 ms.keywords: GetDVDDirectory, GetDVDDirectory method [DirectShow], GetDVDDirectory method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDVDDirectory method, IDvdInfo2.GetDVDDirectory, IDvdInfo2::GetDVDDirectory, IDvdInfo2GetDVDDirectory, dshow.idvdinfo2_getdvddirectory, strmif/IDvdInfo2::GetDVDDirectory
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo2.GetDVDDirectory"
+f1_keywords:
+- strmif/IDvdInfo2.GetDVDDirectory
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdInfo2.GetDVDDirectory
+- IDvdInfo2.GetDVDDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 

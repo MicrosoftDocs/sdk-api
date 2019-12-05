@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMPushSource.SetPushSourceFlags
 title: IAMPushSource::SetPushSourceFlags (strmif.h)
-
 description: The SetPushSourceFlags method sets flags that specify the behavior of the filter. Currently, applications should not call this method, because request flags are not supported and an application should not override the flags set by the filter.
 old-location: dshow\iampushsource_setpushsourceflags.htm
 tech.root: DirectShow
 ms.assetid: c07bbf7e-8d81-4eba-a5a1-fde02e8e8c35
-
 ms.date: 12/05/2018
 ms.keywords: IAMPushSource interface [DirectShow],SetPushSourceFlags method, IAMPushSource.SetPushSourceFlags, IAMPushSource::SetPushSourceFlags, IAMPushSourceSetPushSourceFlags, SetPushSourceFlags, SetPushSourceFlags method [DirectShow], SetPushSourceFlags method [DirectShow],IAMPushSource interface, dshow.iampushsource_setpushsourceflags, strmif/IAMPushSource::SetPushSourceFlags
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMPushSource.SetPushSourceFlags"
+f1_keywords:
+- strmif/IAMPushSource.SetPushSourceFlags
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMPushSource.SetPushSourceFlags
+- IAMPushSource.SetPushSourceFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

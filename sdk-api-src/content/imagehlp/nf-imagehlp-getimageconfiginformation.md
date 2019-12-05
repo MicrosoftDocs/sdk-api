@@ -1,19 +1,17 @@
 ---
 UID: NF:imagehlp.GetImageConfigInformation
 title: GetImageConfigInformation function (imagehlp.h)
-
 description: Locates and returns the load configuration data of an image.
 old-location: base\getimageconfiginformation.htm
 tech.root: Debug
 ms.assetid: 5d9b6705-7e65-4a60-912e-8ffcff9d7921
-
 ms.date: 12/05/2018
 ms.keywords: GetImageConfigInformation, GetImageConfigInformation function, _win32_getimageconfiginformation, base.getimageconfiginformation, imagehlp/GetImageConfigInformation
 ms.topic: function
 f1_keywords:
 - imagehlp/GetImageConfigInformation
 dev_langs:
- - c++
+- c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

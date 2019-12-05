@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMClientConnections.GetClientProperties
 title: IWMClientConnections::GetClientProperties (wmsdkidl.h)
-
 description: The GetClientProperties method retrieves information, including the IP address and protocol, about a connected client.
 old-location: wmformat\iwmclientconnections_getclientproperties.htm
 tech.root: wmformat
 ms.assetid: a05d7d1e-21dc-4e2a-a17b-5f04e639b143
-
 ms.date: 12/05/2018
 ms.keywords: GetClientProperties, GetClientProperties method [windows Media Format], GetClientProperties method [windows Media Format],IWMClientConnections interface, IWMClientConnections interface [windows Media Format],GetClientProperties method, IWMClientConnections.GetClientProperties, IWMClientConnections::GetClientProperties, IWMClientConnectionsGetClientProperties, wmformat.iwmclientconnections_getclientproperties, wmsdkidl/IWMClientConnections::GetClientProperties
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMClientConnections.GetClientProperties"
+f1_keywords:
+- wmsdkidl/IWMClientConnections.GetClientProperties
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMClientConnections.GetClientProperties
+- IWMClientConnections.GetClientProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

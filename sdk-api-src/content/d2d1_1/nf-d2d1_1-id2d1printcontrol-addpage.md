@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1PrintControl.AddPage
 title: ID2D1PrintControl::AddPage (d2d1_1.h)
-
 description: Converts Direct2D primitives in the passed-in command list into a fixed page representation for use by the print subsystem.
 old-location: direct2d\id2d1printcontrol_addpage.htm
 tech.root: Direct2D
 ms.assetid: 6B157EE8-36C8-4054-9975-3D3B82B3D013
-
 ms.date: 12/05/2018
 ms.keywords: AddPage, AddPage method [Direct2D], AddPage method [Direct2D],ID2D1PrintControl interface, ID2D1PrintControl interface [Direct2D],AddPage method, ID2D1PrintControl.AddPage, ID2D1PrintControl::AddPage, d2d1_1/ID2D1PrintControl::AddPage, direct2d.id2d1printcontrol_addpage
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1PrintControl.AddPage"
+f1_keywords:
+- d2d1_1/ID2D1PrintControl.AddPage
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1PrintControl.AddPage
+- ID2D1PrintControl.AddPage
 targetos: Windows
 req.typenames: 
 req.redist: 

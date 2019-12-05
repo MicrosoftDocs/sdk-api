@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignature.GetSigningTimeFormat
 title: IXpsSignature::GetSigningTimeFormat (xpsdigitalsignature.h)
-
 description: Gets the format of the signing time.
 old-location: xps\ixpssignature_getsigningtimeformat.htm
 tech.root: printdocs
 ms.assetid: a75df35c-dd12-4217-a6f8-91401be46225
-
 ms.date: 12/05/2018
 ms.keywords: GetSigningTimeFormat, GetSigningTimeFormat method [XPS Documents and Packaging], GetSigningTimeFormat method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetSigningTimeFormat method, IXpsSignature.GetSigningTimeFormat, IXpsSignature::GetSigningTimeFormat, xps.ixpssignature_getsigningtimeformat, xpsdigitalsignature/IXpsSignature::GetSigningTimeFormat
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignature.GetSigningTimeFormat"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignature.GetSigningTimeFormat
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignature.GetSigningTimeFormat
+- IXpsSignature.GetSigningTimeFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:timeapi.timeEndPeriod
 title: timeEndPeriod function (timeapi.h)
-
 description: The timeEndPeriod function clears a previously set minimum timer resolution.
 old-location: multimedia\timeendperiod.htm
 tech.root: Multimedia
 ms.assetid: b06531f9-4fd7-4051-80d4-5a175fdd37e7
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_timeEndPeriod, mmsystem/timeEndPeriod, multimedia.timeendperiod, timeEndPeriod, timeEndPeriod function [Windows Multimedia], timeapi/timeEndPeriod"
+ms.keywords: _win32_timeEndPeriod, mmsystem/timeEndPeriod, multimedia.timeendperiod, timeEndPeriod, timeEndPeriod function [Windows Multimedia], timeapi/timeEndPeriod
 ms.topic: function
-f1_keywords: 
- - "timeapi/timeEndPeriod"
+f1_keywords:
+- timeapi/timeEndPeriod
 dev_langs:
- - c++
+- c++
 req.header: timeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-Time-l1-1-0.dll
- - Kernel32.dll
- - Kernel32legacy.dll
+- Winmm.dll
+- API-MS-Win-mm-Time-l1-1-0.dll
+- Kernel32.dll
+- Kernel32legacy.dll
 api_name:
- - timeEndPeriod
+- timeEndPeriod
 targetos: Windows
 req.typenames: 
 req.redist: 

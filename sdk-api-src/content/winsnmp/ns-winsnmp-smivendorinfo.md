@@ -1,19 +1,17 @@
 ---
 UID: NS:winsnmp.__unnamed_struct_4
 title: smiVENDORINFO (winsnmp.h)
-
 description: The smiVENDORINFO structure contains information about the Microsoft WinSNMP implementation.
 old-location: snmp\smivendorinfo_str.htm
 tech.root: SNMP
 ms.assetid: 78b7b736-f68a-456a-9178-9a5b40e3bc8d
-
 ms.date: 12/05/2018
-ms.keywords: "*smiLPVENDORINFO, _snmp_smivendorinfo_str, smiLPVENDORINFO, smiLPVENDORINFO structure pointer [SNMP], smiVENDORINFO, smiVENDORINFO structure [SNMP], snmp.smivendorinfo_str, winsnmp/smiLPVENDORINFO, winsnmp/smiVENDORINFO"
+ms.keywords: '*smiLPVENDORINFO, _snmp_smivendorinfo_str, smiLPVENDORINFO, smiLPVENDORINFO structure pointer [SNMP], smiVENDORINFO, smiVENDORINFO structure [SNMP], snmp.smivendorinfo_str, winsnmp/smiLPVENDORINFO, winsnmp/smiVENDORINFO'
 ms.topic: struct
-f1_keywords: 
- - "winsnmp/smiVENDORINFO"
+f1_keywords:
+- winsnmp/smiVENDORINFO
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsnmp.h
+- Winsnmp.h
 api_name:
- - smiVENDORINFO
+- smiVENDORINFO
 targetos: Windows
 req.typenames: smiVENDORINFO, *smiLPVENDORINFO
 req.redist: 

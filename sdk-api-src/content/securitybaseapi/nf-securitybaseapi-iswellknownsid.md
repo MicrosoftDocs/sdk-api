@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.IsWellKnownSid
 title: IsWellKnownSid function (securitybaseapi.h)
-
 description: Compares a SID to a well-known SID and returns TRUE if they match.
 old-location: security\iswellknownsid.htm
 tech.root: SecAuthZ
 ms.assetid: 1a08c70c-00fa-4c62-883d-4f17f9d7c04b
-
 ms.date: 12/05/2018
 ms.keywords: IsWellKnownSid, IsWellKnownSid function [Security], _win32_iswellknownsid, security.iswellknownsid, securitybaseapi/IsWellKnownSid
 ms.topic: function
 f1_keywords:
 - securitybaseapi/IsWellKnownSid
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

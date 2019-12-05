@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwProfile.get_GloballyOpenPorts
 title: INetFwProfile::get_GloballyOpenPorts (netfw.h)
-
 description: Retrieves the collection of globally open ports of the profile.
 old-location: ics\inetfwprofile_globallyopenports.htm
 tech.root: ics
 ms.assetid: 9bb27bb1-7185-4b9a-a529-383e052e5016
-
 ms.date: 12/05/2018
 ms.keywords: GloballyOpenPorts property [ICS/ICF], GloballyOpenPorts property [ICS/ICF],INetFwProfile interface, INetFwProfile interface [ICS/ICF],GloballyOpenPorts property, INetFwProfile.GloballyOpenPorts, INetFwProfile.get_GloballyOpenPorts, INetFwProfile::GloballyOpenPorts, INetFwProfile::get_GloballyOpenPorts, get_GloballyOpenPorts, ics.inetfwprofile_globallyopenports, netfw/INetFwProfile::GloballyOpenPorts, netfw/INetFwProfile::get_GloballyOpenPorts
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwProfile.GloballyOpenPorts"
+f1_keywords:
+- netfw/INetFwProfile.GloballyOpenPorts
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwProfile.GloballyOpenPorts
- - INetFwProfile.get_GloballyOpenPorts
+- INetFwProfile.GloballyOpenPorts
+- INetFwProfile.get_GloballyOpenPorts
 targetos: Windows
 req.typenames: 
 req.redist: 

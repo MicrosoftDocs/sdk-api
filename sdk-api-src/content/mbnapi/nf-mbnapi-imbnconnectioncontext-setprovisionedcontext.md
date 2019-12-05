@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnConnectionContext.SetProvisionedContext
 title: IMbnConnectionContext::SetProvisionedContext (mbnapi.h)
-
 description: Adds or updates a provisioned context.
 old-location: mbn\imbnconnectioncontext_setprovisionedcontext.htm
 tech.root: mbn
 ms.assetid: 738a3037-01a9-465a-a67d-979a29968b68
-
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionContext interface [Microsoft Broadband Networks],SetProvisionedContext method, IMbnConnectionContext.SetProvisionedContext, IMbnConnectionContext::SetProvisionedContext, SetProvisionedContext, SetProvisionedContext method [Microsoft Broadband Networks], SetProvisionedContext method [Microsoft Broadband Networks],IMbnConnectionContext interface, mbn.imbnconnectioncontext_setprovisionedcontext, mbnapi/IMbnConnectionContext::SetProvisionedContext
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnConnectionContext.SetProvisionedContext"
+f1_keywords:
+- mbnapi/IMbnConnectionContext.SetProvisionedContext
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnectionContext.SetProvisionedContext
+- IMbnConnectionContext.SetProvisionedContext
 targetos: Windows
 req.typenames: 
 req.redist: 

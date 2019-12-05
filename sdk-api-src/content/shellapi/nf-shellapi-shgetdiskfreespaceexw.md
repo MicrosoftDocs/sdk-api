@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.SHGetDiskFreeSpaceExW
 title: SHGetDiskFreeSpaceExW function (shellapi.h)
-
 description: Retrieves disk space information for a disk volume.
 old-location: shell\SHGetDiskFreeSpaceEx.htm
 tech.root: shell
 ms.assetid: f8adbfa8-124a-4934-b5dc-16e261c15a8b
-
 ms.date: 12/05/2018
 ms.keywords: SHGetDiskFreeSpace, SHGetDiskFreeSpaceEx, SHGetDiskFreeSpaceEx function [Windows Shell], SHGetDiskFreeSpaceExA, SHGetDiskFreeSpaceExW, _shell_SHGetDiskFreeSpaceEx, shell.SHGetDiskFreeSpaceEx, shellapi/SHGetDiskFreeSpaceEx, shellapi/SHGetDiskFreeSpaceExA, shellapi/SHGetDiskFreeSpaceExW
 ms.topic: function
-f1_keywords: 
- - "shellapi/SHGetDiskFreeSpaceEx"
+f1_keywords:
+- shellapi/SHGetDiskFreeSpaceEx
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHGetDiskFreeSpaceEx
- - SHGetDiskFreeSpaceExA
- - SHGetDiskFreeSpaceExW
+- SHGetDiskFreeSpaceEx
+- SHGetDiskFreeSpaceExA
+- SHGetDiskFreeSpaceExW
 targetos: Windows
 req.typenames: 
 req.redist: 

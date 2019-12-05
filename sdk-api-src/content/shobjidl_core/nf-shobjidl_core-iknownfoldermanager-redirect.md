@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IKnownFolderManager.Redirect
 title: IKnownFolderManager::Redirect (shobjidl_core.h)
-
 description: Redirects folder requests for common and per-user folders.
 old-location: shell\IKnownFolderManager_Redirect.htm
 tech.root: shell
 ms.assetid: 0f4fc609-597b-4c72-b875-4b3f051dd056
-
 ms.date: 12/05/2018
 ms.keywords: IKnownFolderManager interface [Windows Shell],Redirect method, IKnownFolderManager.Redirect, IKnownFolderManager::Redirect, Redirect, Redirect method [Windows Shell], Redirect method [Windows Shell],IKnownFolderManager interface, _shell_IKnownFolderManager_Redirect, shell.IKnownFolderManager_Redirect, shobjidl_core/IKnownFolderManager::Redirect
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IKnownFolderManager.Redirect"
+f1_keywords:
+- shobjidl_core/IKnownFolderManager.Redirect
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IKnownFolderManager.Redirect
+- IKnownFolderManager.Redirect
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.Resume
 title: IUIAnimationManager2::Resume (uianimation.h)
-
 description: Resumes all animations.
 old-location: uianimation\iuianimationmanager2_resume.htm
 tech.root: UIAnimation
 ms.assetid: 943BCFBB-3E16-4CC8-BA9F-06D4C99B1DF0
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager2 interface [Windows Animation],Resume method, IUIAnimationManager2.Resume, IUIAnimationManager2::Resume, Resume, Resume method [Windows Animation], Resume method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_resume, uianimation/IUIAnimationManager2::Resume
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationManager2.Resume"
+f1_keywords:
+- uianimation/IUIAnimationManager2.Resume
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationManager2.Resume
+- IUIAnimationManager2.Resume
 targetos: Windows
 req.typenames: 
 req.redist: 

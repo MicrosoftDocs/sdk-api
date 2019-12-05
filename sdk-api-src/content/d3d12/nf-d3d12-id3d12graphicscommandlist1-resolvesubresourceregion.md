@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList1.ResolveSubresourceRegion
 title: ID3D12GraphicsCommandList1::ResolveSubresourceRegion (d3d12.h)
-
 description: Copy a region of a multisampled or compressed resource into a non-multisampled or non-compressed resource.
 old-location: direct3d12\id3d12graphicscommandlist1_resolvesubresourceregion.htm
 tech.root: direct3d12
 ms.assetid: 8CF3809C-0EC7-4FBB-AEEF-E74FCD9B836D
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList1 interface,ResolveSubresourceRegion method, ID3D12GraphicsCommandList1.ResolveSubresourceRegion, ID3D12GraphicsCommandList1::ResolveSubresourceRegion, ResolveSubresourceRegion, ResolveSubresourceRegion method, ResolveSubresourceRegion method,ID3D12GraphicsCommandList1 interface, d3d12/ID3D12GraphicsCommandList1::ResolveSubresourceRegion, direct3d12.id3d12graphicscommandlist1_resolvesubresourceregion
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList1.ResolveSubresourceRegion"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList1.ResolveSubresourceRegion
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList1.ResolveSubresourceRegion
+- ID3D12GraphicsCommandList1.ResolveSubresourceRegion
 targetos: Windows
 req.typenames: 
 req.redist: 

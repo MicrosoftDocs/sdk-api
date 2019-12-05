@@ -1,19 +1,17 @@
 ---
 UID: NE:mfobjects.MF_PLUGIN_CONTROL_POLICY
 title: MF_PLUGIN_CONTROL_POLICY (mfobjects.h)
-
 description: Defines policy settings for the IMFPluginControl2::SetPolicy method.
 old-location: mf\mf_plugin_control_policy.htm
 tech.root: medfound
 ms.assetid: AEA55D69-B3F1-463E-9DEC-B6BF7B9859D6
-
 ms.date: 12/05/2018
 ms.keywords: MF_PLUGIN_CONTROL_POLICY, MF_PLUGIN_CONTROL_POLICY enumeration [Media Foundation], MF_PLUGIN_CONTROL_POLICY_USE_ALL_PLUGINS, MF_PLUGIN_CONTROL_POLICY_USE_APPROVED_PLUGINS, MF_PLUGIN_CONTROL_POLICY_USE_WEB_PLUGINS, mf.mf_plugin_control_policy, mfobjects/MF_PLUGIN_CONTROL_POLICY, mfobjects/MF_PLUGIN_CONTROL_POLICY_USE_ALL_PLUGINS, mfobjects/MF_PLUGIN_CONTROL_POLICY_USE_APPROVED_PLUGINS, mfobjects/MF_PLUGIN_CONTROL_POLICY_USE_WEB_PLUGINS
 ms.topic: enum
-f1_keywords: 
- - "mfobjects/MF_PLUGIN_CONTROL_POLICY"
+f1_keywords:
+- mfobjects/MF_PLUGIN_CONTROL_POLICY
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - MF_PLUGIN_CONTROL_POLICY
+- MF_PLUGIN_CONTROL_POLICY
 targetos: Windows
 req.typenames: MF_PLUGIN_CONTROL_POLICY
 req.redist: 

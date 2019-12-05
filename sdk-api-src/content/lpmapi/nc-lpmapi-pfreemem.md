@@ -1,19 +1,17 @@
 ---
 UID: NC:lpmapi.PFREEMEM
 title: PFREEMEM (lpmapi.h)
-
 description: The PFREEMEM function is a memory-freeing function provided by the PCM.
 old-location: qos\pfreemem.htm
 tech.root: QOS
 ms.assetid: b700b5c1-9fd7-4fc9-a5ed-f8ac75d22037
-
 ms.date: 12/05/2018
 ms.keywords: PFREEMEM, PFREEMEM callback, PFREEMEM callback function [QOS], _gqos_pfreemem, lpmapi/PFREEMEM, qos.pfreemem
 ms.topic: callback
-f1_keywords: 
- - "lpmapi/PFREEMEM"
+f1_keywords:
+- lpmapi/PFREEMEM
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - PFREEMEM
+- PFREEMEM
 targetos: Windows
 req.typenames: 
 req.redist: 

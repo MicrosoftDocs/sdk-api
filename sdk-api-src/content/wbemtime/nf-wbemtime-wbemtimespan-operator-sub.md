@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.operator-sub
 title: WBEMTimeSpan::operator-sub (wbemtime.h)
-
 description: The WBEMTimeSpan class subtract operator (&#8211;) subtracts a time span from the object on which the method is executed.
 old-location: wmi\wbemtimespan_operator_minus.htm
 tech.root: WmiSdk
 ms.assetid: 643e3353-c770-46e6-aa59-b6df43097988
-
 ms.date: 12/05/2018
 ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operator- method, WBEMTimeSpan.operator-, WBEMTimeSpan.operator-sub, WBEMTimeSpan::operator-, WBEMTimeSpan::operator-sub, _hmm_wbemtimespan_operator_minus, operator-, operator- method [Windows Management Instrumentation], operator- method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator-, wmi.wbemtimespan_operator_minus
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTimeSpan.operator-"
+f1_keywords:
+- wbemtime/WBEMTimeSpan.operator-
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTimeSpan.operator-
+- WBEMTimeSpan.operator-
 targetos: Windows
 req.typenames: 
 req.redist: 

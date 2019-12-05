@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrm.IFsrmDerivedObjectsResult
 title: IFsrmDerivedObjectsResult (fsrm.h)
-
 description: Used to access the results when the source template calls the CommitAndUpdateDerived method.
 old-location: fsrm\ifsrmderivedobjectsresult.htm
 tech.root: fsrm
 ms.assetid: 1486d53a-d09a-4eff-ba07-b9dbb32e18ba
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmDerivedObjectsResult, IFsrmDerivedObjectsResult interface [File Server Resource Manager], IFsrmDerivedObjectsResult interface [File Server Resource Manager],described, fs.ifsrmderivedobjectsresult, fsrm.ifsrmderivedobjectsresult, fsrm/IFsrmDerivedObjectsResult
 ms.topic: interface
-f1_keywords: 
- - "fsrm/IFsrmDerivedObjectsResult"
+f1_keywords:
+- fsrm/IFsrmDerivedObjectsResult
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmDerivedObjectsResult
+- IFsrmDerivedObjectsResult
 targetos: Windows
 req.typenames: 
 req.redist: 

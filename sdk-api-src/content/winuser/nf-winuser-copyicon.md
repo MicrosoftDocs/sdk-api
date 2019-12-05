@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.CopyIcon
 title: CopyIcon function (winuser.h)
-
 description: Copies the specified icon from another module to the current module.
 old-location: menurc\copyicon.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\copyicon.htm
-
 ms.date: 12/05/2018
 ms.keywords: CopyIcon, CopyIcon function [Menus and Other Resources], _win32_CopyIcon, _win32_copyicon_cpp, menurc.copyicon, winui._win32_copyicon, winuser/CopyIcon
 ms.topic: function
-f1_keywords: 
- - "winuser/CopyIcon"
+f1_keywords:
+- winuser/CopyIcon
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - ext-ms-win-ntuser-gui-l1-2-1.dll
- - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
+- User32.dll
+- ext-ms-win-ntuser-gui-l1-2-1.dll
+- Ext-MS-Win-NTUser-Gui-L1-3-0.dll
 api_name:
- - CopyIcon
+- CopyIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

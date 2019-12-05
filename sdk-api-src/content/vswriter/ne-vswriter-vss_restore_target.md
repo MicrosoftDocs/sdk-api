@@ -1,19 +1,17 @@
 ---
 UID: NE:vswriter.VSS_RESTORE_TARGET
 title: VSS_RESTORE_TARGET (vswriter.h)
-
 description: Used by a writer at restore time to indicate how all the files included in a selected component, and all the files in any component set it defines, are to be restored.
 old-location: base\vss_restore_target.htm
 tech.root: VSS
 ms.assetid: 85b154c0-ebe8-4c17-8cab-0f886bf070e2
-
 ms.date: 12/05/2018
 ms.keywords: VSS_RESTORE_TARGET, VSS_RESTORE_TARGET enumeration [VSS], VSS_RT_ALTERNATE, VSS_RT_DIRECTED, VSS_RT_ORIGINAL, VSS_RT_ORIGINAL_LOCATION, VSS_RT_UNDEFINED, _win32_vss_restore_target, base.vss_restore_target, enumeration [VSS], vswriter/VSS_RESTORE_TARGET, vswriter/VSS_RT_ALTERNATE, vswriter/VSS_RT_DIRECTED, vswriter/VSS_RT_ORIGINAL, vswriter/VSS_RT_ORIGINAL_LOCATION, vswriter/VSS_RT_UNDEFINED
 ms.topic: enum
-f1_keywords: 
- - "vswriter/VSS_RESTORE_TARGET"
+f1_keywords:
+- vswriter/VSS_RESTORE_TARGET
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VsWriter.h
+- VsWriter.h
 api_name:
- - VSS_RESTORE_TARGET
+- VSS_RESTORE_TARGET
 targetos: Windows
 req.typenames: VSS_RESTORE_TARGET
 req.redist: 

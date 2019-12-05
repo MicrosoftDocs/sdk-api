@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11.ID3D11VideoProcessorEnumerator
 title: ID3D11VideoProcessorEnumerator (d3d11.h)
-
 description: Enumerates the video processor capabilities of a Microsoft Direct3D 11 device.
 old-location: mf\id3d11videoprocessorenumerator.htm
 tech.root: medfound
 ms.assetid: 8713B4C6-B08E-4616-92A7-05280CCE7AB3
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoProcessorEnumerator, ID3D11VideoProcessorEnumerator interface [Media Foundation], ID3D11VideoProcessorEnumerator interface [Media Foundation],described, d3d11/ID3D11VideoProcessorEnumerator, mf.id3d11videoprocessorenumerator
 ms.topic: interface
-f1_keywords: 
- - "d3d11/ID3D11VideoProcessorEnumerator"
+f1_keywords:
+- d3d11/ID3D11VideoProcessorEnumerator
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoProcessorEnumerator
+- ID3D11VideoProcessorEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

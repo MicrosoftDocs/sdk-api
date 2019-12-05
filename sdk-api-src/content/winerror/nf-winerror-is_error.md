@@ -1,19 +1,17 @@
 ---
 UID: NF:winerror.IS_ERROR
 title: IS_ERROR macro (winerror.h)
-
 description: Provides a generic test for errors on any status value.
 old-location: com\is_error_macro.htm
 tech.root: com
 ms.assetid: 74497f4b-1c88-4c8a-b9e7-606e77364f48
-
 ms.date: 12/05/2018
 ms.keywords: IS_ERROR, IS_ERROR macro [COM], _com_IS_ERROR, com.is_error, com.is_error_macro, winerror/IS_ERROR
 ms.topic: macro
-f1_keywords: 
- - "winerror/IS_ERROR"
+f1_keywords:
+- winerror/IS_ERROR
 dev_langs:
- - c++
+- c++
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winerror.h
+- Winerror.h
 api_name:
- - IS_ERROR
+- IS_ERROR
 targetos: Windows
 req.typenames: 
 req.redist: 

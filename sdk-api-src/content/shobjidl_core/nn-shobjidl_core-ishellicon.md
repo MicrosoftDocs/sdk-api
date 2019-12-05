@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IShellIcon
 title: IShellIcon (shobjidl_core.h)
-
 description: Exposes a method that obtains an icon index for an IShellFolder object.
 old-location: shell\IShellIcon.htm
 tech.root: shell
 ms.assetid: 64711453-bc70-4acb-bff7-8b5534cceff5
-
 ms.date: 12/05/2018
 ms.keywords: IShellIcon, IShellIcon interface [Windows Shell], IShellIcon interface [Windows Shell],described, _win32_IShellIcon, shell.IShellIcon, shobjidl_core/IShellIcon
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IShellIcon"
+f1_keywords:
+- shobjidl_core/IShellIcon
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellIcon
+- IShellIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

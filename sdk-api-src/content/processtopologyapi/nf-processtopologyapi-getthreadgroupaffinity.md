@@ -1,19 +1,17 @@
 ---
 UID: NF:processtopologyapi.GetThreadGroupAffinity
 title: GetThreadGroupAffinity function (processtopologyapi.h)
-
 description: Retrieves the processor group affinity of the specified thread.
 old-location: base\getthreadgroupaffinity.htm
 tech.root: ProcThread
 ms.assetid: effc75be-60da-43cc-bfb3-5fb905e1404d
-
 ms.date: 12/05/2018
 ms.keywords: GetThreadGroupAffinity, GetThreadGroupAffinity function, base.getthreadgroupaffinity, processtopologyapi/GetThreadGroupAffinity, winbase/GetThreadGroupAffinity
 ms.topic: function
-f1_keywords: 
- - "processtopologyapi/GetThreadGroupAffinity"
+f1_keywords:
+- processtopologyapi/GetThreadGroupAffinity
 dev_langs:
- - c++
+- c++
 req.header: processtopologyapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-Processtopology-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Processtopology-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- kernel32.dll
+- API-MS-Win-Core-Processtopology-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Processtopology-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
 api_name:
- - GetThreadGroupAffinity
+- GetThreadGroupAffinity
 targetos: Windows
 req.typenames: 
 req.redist: 

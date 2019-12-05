@@ -1,19 +1,17 @@
 ---
 UID: NF:fhcfg.IFhReassociation.GetConfigurationDetails
 title: IFhReassociation::GetConfigurationDetails (fhcfg.h)
-
 description: This method enumerates File History configurations that were discovered on a storage device or network share by the IFhReassociation::ScanTargetForConfigurations method and returns additional information about each of the discovered configurations.
 old-location: winprog\ifhreassociation_getconfigurationdetails.htm
 tech.root: DevNotes
 ms.assetid: 4B5259B7-D845-4CF1-AC33-56DF9D00F2E2
-
 ms.date: 12/05/2018
 ms.keywords: FhReassociation class [Windows API],GetConfigurationDetails method, GetConfigurationDetails, GetConfigurationDetails method [Windows API], GetConfigurationDetails method [Windows API],FhReassociation class, GetConfigurationDetails method [Windows API],IFhReassociation interface, IFhReassociation interface [Windows API],GetConfigurationDetails method, IFhReassociation.GetConfigurationDetails, IFhReassociation::GetConfigurationDetails, fhcfg/IFhReassociation::GetConfigurationDetails, winprog.ifhreassociation_getconfigurationdetails
 ms.topic: method
-f1_keywords: 
- - "fhcfg/IFhReassociation.GetConfigurationDetails"
+f1_keywords:
+- fhcfg/IFhReassociation.GetConfigurationDetails
 dev_langs:
- - c++
+- c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fhcfg.h
+- Fhcfg.h
 api_name:
- - IFhReassociation.GetConfigurationDetails
- - FhReassociation.GetConfigurationDetails
+- IFhReassociation.GetConfigurationDetails
+- FhReassociation.GetConfigurationDetails
 targetos: Windows
 req.typenames: 
 req.redist: 

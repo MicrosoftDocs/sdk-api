@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileMgr.ReleaseInputProcessor
 title: ITfInputProcessorProfileMgr::ReleaseInputProcessor (msctf.h)
-
 description: The ITfInputProcessorProfileMgr::ReleaseInputProcessor method deactivates the profiles belonging to the text services of the specified CLSID and releases the instance of ITfTextInputProcessorEx interface.
 old-location: tsf\itfinputprocessorprofilemgr_releaseinputprocessor.htm
 tech.root: TSF
 ms.assetid: a7bcc50a-9f94-4a55-aca2-db9a40be2157
-
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfileMgr interface [Text Services Framework],ReleaseInputProcessor method, ITfInputProcessorProfileMgr.ReleaseInputProcessor, ITfInputProcessorProfileMgr::ReleaseInputProcessor, ReleaseInputProcessor, ReleaseInputProcessor method [Text Services Framework], ReleaseInputProcessor method [Text Services Framework],ITfInputProcessorProfileMgr interface, TF_RIP_FLAG_FREEUNUSEDLIBRARIES, msctf/ITfInputProcessorProfileMgr::ReleaseInputProcessor, tsf.itfinputprocessorprofilemgr_releaseinputprocessor
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfInputProcessorProfileMgr.ReleaseInputProcessor"
+f1_keywords:
+- msctf/ITfInputProcessorProfileMgr.ReleaseInputProcessor
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfInputProcessorProfileMgr.ReleaseInputProcessor
+- ITfInputProcessorProfileMgr.ReleaseInputProcessor
 targetos: Windows
 req.typenames: 
 req.redist: 

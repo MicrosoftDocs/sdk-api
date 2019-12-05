@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_2.ID2D1CommandSink1.SetPrimitiveBlend1
 title: ID2D1CommandSink1::SetPrimitiveBlend1 (d2d1_2.h)
-
 description: Sets a new primitive blend mode.
 old-location: direct2d\id2d1commandsink_setprimitiveblend1.htm
 tech.root: Direct2D
 ms.assetid: 3EA9EC07-1B2F-48A2-ABFB-2DA0E2EFFBF4
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1CommandSink1 interface [Direct2D],SetPrimitiveBlend1 method, ID2D1CommandSink1.SetPrimitiveBlend1, ID2D1CommandSink1::SetPrimitiveBlend1, SetPrimitiveBlend1, SetPrimitiveBlend1 method [Direct2D], SetPrimitiveBlend1 method [Direct2D],ID2D1CommandSink1 interface, d2d1_2/ID2D1CommandSink1::SetPrimitiveBlend1, direct2d.id2d1commandsink_setprimitiveblend1
 ms.topic: method
-f1_keywords: 
- - "d2d1_2/ID2D1CommandSink1.SetPrimitiveBlend1"
+f1_keywords:
+- d2d1_2/ID2D1CommandSink1.SetPrimitiveBlend1
 dev_langs:
- - c++
+- c++
 req.header: d2d1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1_2.h
+- d2d1_2.h
 api_name:
- - ID2D1CommandSink1.SetPrimitiveBlend1
+- ID2D1CommandSink1.SetPrimitiveBlend1
 targetos: Windows
 req.typenames: 
 req.redist: 

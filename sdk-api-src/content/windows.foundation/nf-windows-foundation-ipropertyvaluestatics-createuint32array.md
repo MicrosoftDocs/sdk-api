@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateUInt32Array
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-
 description: Creates a new IPropertyValue object that contains the specified array of unsigned 32-bit integer values.
 old-location: winrt\ipropertyvaluestatics_createuint32array.htm
 tech.root: WinRT
 ms.assetid: 0f56b855-a116-4c58-ae93-1a3d49240685
-
 ms.date: 12/05/2018
 ms.keywords: CreateUInt32Array, CreateUInt32Array method [Windows Runtime], CreateUInt32Array method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateUInt32Array method, IPropertyValueStatics.CreateUInt32Array, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateUInt32Array, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateUInt32Array, winrt.ipropertyvaluefactory_createuint32array, winrt.ipropertyvaluestatics_createuint32array
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValueStatics.CreateUInt32Array"
+f1_keywords:
+- windows.foundation/IPropertyValueStatics.CreateUInt32Array
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValueStatics.CreateUInt32Array
+- IPropertyValueStatics.CreateUInt32Array
 targetos: Windows
 req.typenames: 
 req.redist: 

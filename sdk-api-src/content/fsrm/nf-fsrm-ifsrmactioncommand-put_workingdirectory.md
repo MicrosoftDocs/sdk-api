@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrm.IFsrmActionCommand.put_WorkingDirectory
 title: IFsrmActionCommand::put_WorkingDirectory (fsrm.h)
-
 description: Retrieves or sets the working directory in which the executable program will run.
 old-location: fsrm\ifsrmactioncommand_workingdirectory.htm
 tech.root: fsrm
 ms.assetid: 6844b6c3-11b4-4544-bd4e-bf2b89af00b7
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmActionCommand interface [File Server Resource Manager],WorkingDirectory property, IFsrmActionCommand.WorkingDirectory, IFsrmActionCommand.put_WorkingDirectory, IFsrmActionCommand::WorkingDirectory, IFsrmActionCommand::get_WorkingDirectory, IFsrmActionCommand::put_WorkingDirectory, WorkingDirectory property [File Server Resource Manager], WorkingDirectory property [File Server Resource Manager],IFsrmActionCommand interface, fs.ifsrmactioncommand_workingdirectory, fsrm.ifsrmactioncommand_workingdirectory, fsrm/IFsrmActionCommand::WorkingDirectory, fsrm/IFsrmActionCommand::get_WorkingDirectory, fsrm/IFsrmActionCommand::put_WorkingDirectory, put_WorkingDirectory
 ms.topic: method
-f1_keywords: 
- - "fsrm/IFsrmActionCommand.WorkingDirectory"
+f1_keywords:
+- fsrm/IFsrmActionCommand.WorkingDirectory
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmActionCommand.WorkingDirectory
- - IFsrmActionCommand.get_WorkingDirectory
- - IFsrmActionCommand.put_WorkingDirectory
+- IFsrmActionCommand.WorkingDirectory
+- IFsrmActionCommand.get_WorkingDirectory
+- IFsrmActionCommand.put_WorkingDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 

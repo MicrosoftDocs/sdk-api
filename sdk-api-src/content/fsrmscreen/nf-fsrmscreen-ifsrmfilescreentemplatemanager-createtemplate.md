@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenTemplateManager.CreateTemplate
 title: IFsrmFileScreenTemplateManager::CreateTemplate (fsrmscreen.h)
-
 description: Creates a file screen template object.
 old-location: fsrm\ifsrmfilescreentemplatemanager_createtemplate.htm
 tech.root: fsrm
 ms.assetid: 3d654dee-2a27-4dc0-8e2b-fba546abe17e
-
 ms.date: 12/05/2018
 ms.keywords: CreateTemplate, CreateTemplate method [File Server Resource Manager], CreateTemplate method [File Server Resource Manager],FsrmFileScreenTemplateManager class, CreateTemplate method [File Server Resource Manager],IFsrmFileScreenTemplateManager interface, FsrmFileScreenTemplateManager class [File Server Resource Manager],CreateTemplate method, IFsrmFileScreenTemplateManager interface [File Server Resource Manager],CreateTemplate method, IFsrmFileScreenTemplateManager.CreateTemplate, IFsrmFileScreenTemplateManager::CreateTemplate, fs.ifsrmfilescreentemplatemanager_createtemplate, fsrm.ifsrmfilescreentemplatemanager_createtemplate, fsrmscreen/IFsrmFileScreenTemplateManager::CreateTemplate
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileScreenTemplateManager.CreateTemplate"
+f1_keywords:
+- fsrmscreen/IFsrmFileScreenTemplateManager.CreateTemplate
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileScreenTemplateManager.CreateTemplate
- - FsrmFileScreenTemplateManager.CreateTemplate
+- IFsrmFileScreenTemplateManager.CreateTemplate
+- FsrmFileScreenTemplateManager.CreateTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 

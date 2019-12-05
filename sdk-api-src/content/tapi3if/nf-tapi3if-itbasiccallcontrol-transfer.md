@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.Transfer
 title: ITBasicCallControl::Transfer (tapi3if.h)
-
 description: The Transfer method transfers the current call to the destination address.
 old-location: tapi3\itbasiccallcontrol_transfer.htm
 tech.root: Tapi
 ms.assetid: 4f2a06e6-9f0b-4bf3-9f18-6e9f57c4b02f
-
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],Transfer method, ITBasicCallControl.Transfer, ITBasicCallControl::Transfer, Transfer, Transfer method [TAPI 2.2], Transfer method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_transfer, tapi3.itbasiccallcontrol_transfer, tapi3if/ITBasicCallControl::Transfer
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITBasicCallControl.Transfer"
+f1_keywords:
+- tapi3if/ITBasicCallControl.Transfer
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITBasicCallControl.Transfer
+- ITBasicCallControl.Transfer
 targetos: Windows
 req.typenames: 
 req.redist: 

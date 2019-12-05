@@ -1,19 +1,17 @@
 ---
 UID: NF:wdspxe.PxePacketFree
 title: PxePacketFree function (wdspxe.h)
-
 description: Frees a packet allocated by the PxePacketAllocate function.
 old-location: wds\pxepacketfree.htm
 tech.root: wds
 ms.assetid: de93d42d-9c46-4944-a6e9-5dd72b8a3278
-
 ms.date: 12/05/2018
 ms.keywords: PxePacketFree, PxePacketFree function [Windows Deployment Services], wds.pxepacketfree, wdspxe/PxePacketFree
 ms.topic: function
-f1_keywords: 
- - "wdspxe/PxePacketFree"
+f1_keywords:
+- wdspxe/PxePacketFree
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsPxe.dll
+- WdsPxe.dll
 api_name:
- - PxePacketFree
+- PxePacketFree
 targetos: Windows
 req.typenames: 
 req.redist: 

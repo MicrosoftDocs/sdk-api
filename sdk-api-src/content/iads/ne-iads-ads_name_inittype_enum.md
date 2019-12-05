@@ -1,19 +1,17 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0050_0002
 title: ADS_NAME_INITTYPE_ENUM (iads.h)
-
 description: The ADS_NAME_INITTYPE_ENUM enumeration specifies the types of initialization to perform on a NameTranslate object. It is used in the IADsNameTranslate interface.
 old-location: adsi\ads_name_inittype_enum.htm
 tech.root: adsi
 ms.assetid: cd7e4786-b20c-4dad-bae6-4e703e60f330
-
 ms.date: 12/05/2018
 ms.keywords: ADS_NAME_INITTYPE_DOMAIN, ADS_NAME_INITTYPE_ENUM, ADS_NAME_INITTYPE_ENUM enumeration [ADSI], ADS_NAME_INITTYPE_GC, ADS_NAME_INITTYPE_SERVER, _ds_ads_name_inittype_enum, adsi.ads__name__inittype__enum, adsi.ads_name_inittype_enum, iads/ADS_NAME_INITTYPE_DOMAIN, iads/ADS_NAME_INITTYPE_ENUM, iads/ADS_NAME_INITTYPE_GC, iads/ADS_NAME_INITTYPE_SERVER
 ms.topic: enum
-f1_keywords: 
- - "iads/ADS_NAME_INITTYPE_ENUM"
+f1_keywords:
+- iads/ADS_NAME_INITTYPE_ENUM
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_NAME_INITTYPE_ENUM
+- ADS_NAME_INITTYPE_ENUM
 targetos: Windows
 req.typenames: ADS_NAME_INITTYPE_ENUM
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetOutputPrefType
 title: IMFTopologyNode::GetOutputPrefType (mfidl.h)
-
 description: Retrieves the preferred media type for an output stream on this node.
 old-location: mf\imftopologynode_getoutputpreftype.htm
 tech.root: medfound
 ms.assetid: 972052ca-1d87-4fa4-abeb-6e74ba6c9368
-
 ms.date: 12/05/2018
 ms.keywords: 972052ca-1d87-4fa4-abeb-6e74ba6c9368, GetOutputPrefType, GetOutputPrefType method [Media Foundation], GetOutputPrefType method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetOutputPrefType method, IMFTopologyNode.GetOutputPrefType, IMFTopologyNode::GetOutputPrefType, mf.imftopologynode_getoutputpreftype, mfidl/IMFTopologyNode::GetOutputPrefType
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTopologyNode.GetOutputPrefType"
+f1_keywords:
+- mfidl/IMFTopologyNode.GetOutputPrefType
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTopologyNode.GetOutputPrefType
+- IMFTopologyNode.GetOutputPrefType
 targetos: Windows
 req.typenames: 
 req.redist: 

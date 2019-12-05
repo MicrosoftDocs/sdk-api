@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.InheritsFrom
 title: IWbemClassObject::InheritsFrom (wbemcli.h)
-
 description: The IWbemClassObject::InheritsFrom method determines if the current class or instance derives from a specified parent class.
 old-location: wmi\iwbemclassobject_inheritsfrom.htm
 tech.root: WmiSdk
 ms.assetid: 05431e05-440e-4241-bde9-0dbd32039921
-
 ms.date: 12/05/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],InheritsFrom method, IWbemClassObject.InheritsFrom, IWbemClassObject::InheritsFrom, InheritsFrom, InheritsFrom method [Windows Management Instrumentation], InheritsFrom method [Windows Management Instrumentation],IWbemClassObject interface, _hmm_iwbemclassobject_inheritsfrom, wbemcli/IWbemClassObject::InheritsFrom, wmi.iwbemclassobject_inheritsfrom
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemClassObject.InheritsFrom"
+f1_keywords:
+- wbemcli/IWbemClassObject.InheritsFrom
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: WbemUuid.lib
 req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CIMWin32.dll
- - Esscli.dll
- - Fastprox.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Krnlprov.dll
- - Ncprov.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wmipiprt.dll
+- CIMWin32.dll
+- Esscli.dll
+- Fastprox.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Krnlprov.dll
+- Ncprov.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wmipiprt.dll
 api_name:
- - IWbemClassObject.InheritsFrom
+- IWbemClassObject.InheritsFrom
 targetos: Windows
 req.typenames: 
 req.redist: 

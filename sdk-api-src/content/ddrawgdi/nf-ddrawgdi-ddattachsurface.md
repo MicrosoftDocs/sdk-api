@@ -1,19 +1,17 @@
 ---
 UID: NF:ddrawgdi.DdAttachSurface
 title: DdAttachSurface function (ddrawgdi.h)
-
 description: The DdAttachSurface function attaches two kernel-mode surface representations. GdiEntry11 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_ddattachsurface.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddattachsurface.htm
-
 ms.date: 12/05/2018
 ms.keywords: DdAttachSurface, DdAttachSurface function [Windows API], GdiEntry11, _dxgkernel_ddattachsurface, ddrawgdi/DdAttachSurface, ddrawgdi/GdiEntry11, winprog._dxgkernel_ddattachsurface, winui._dxgkernel_ddattachsurface
 ms.topic: function
-f1_keywords: 
- - "ddrawgdi/DdAttachSurface"
+f1_keywords:
+- ddrawgdi/DdAttachSurface
 dev_langs:
- - c++
+- c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ddrawgdi.h
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Ddrawgdi.h
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - DdAttachSurface
- - GdiEntry11
+- DdAttachSurface
+- GdiEntry11
 targetos: Windows
 req.typenames: 
 req.redist: 

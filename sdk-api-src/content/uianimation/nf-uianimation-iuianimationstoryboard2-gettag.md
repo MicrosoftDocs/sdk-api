@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.GetTag
 title: IUIAnimationStoryboard2::GetTag (uianimation.h)
-
 description: Gets the tag for a storyboard.
 old-location: uianimation\iuianimationstoryboard2_gettag.htm
 tech.root: UIAnimation
 ms.assetid: A73D5003-FC28-4A79-B157-3D0D2E0DEB3D
-
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Windows Animation], GetTag method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],GetTag method, IUIAnimationStoryboard2.GetTag, IUIAnimationStoryboard2::GetTag, uianimation.iuianimationstoryboard2_gettag, uianimation/IUIAnimationStoryboard2::GetTag
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationStoryboard2.GetTag"
+f1_keywords:
+- uianimation/IUIAnimationStoryboard2.GetTag
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard2.GetTag
+- IUIAnimationStoryboard2.GetTag
 targetos: Windows
 req.typenames: 
 req.redist: 

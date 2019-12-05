@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextStrings.Remove
 title: ITextStrings::Remove (tom.h)
-
 description: Removes a string from a string collection, starting at an index.
 old-location: controls\itextstrings_remove.htm
 tech.root: Controls
 ms.assetid: 1909e8b6-ee18-4d17-87cf-29bb3553bb25
-
 ms.date: 12/05/2018
 ms.keywords: ITextStrings interface [Windows Controls],Remove method, ITextStrings.Remove, ITextStrings::Remove, Remove, Remove method [Windows Controls], Remove method [Windows Controls],ITextStrings interface, controls.itextstrings_remove, tom/ITextStrings::Remove
 ms.topic: method
-f1_keywords: 
- - "tom/ITextStrings.Remove"
+f1_keywords:
+- tom/ITextStrings.Remove
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextStrings.Remove
+- ITextStrings.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:directxmath.XMFLOAT2
 title: XMFLOAT2 (directxmath.h)
-
 description: A 2D vector consisting of two single-precision floating-point values.
 old-location: dxmath\xmfloat2.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT2
-
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT2, XMFLOAT2 structure [DirectX Math Support APIs], directxmath/XMFLOAT2, dxmath.xmfloat2
 ms.topic: struct
-f1_keywords: 
- - "directxmath/XMFLOAT2"
+f1_keywords:
+- directxmath/XMFLOAT2
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMFLOAT2
+- XMFLOAT2
 targetos: Windows
 req.typenames: 
 req.redist: 

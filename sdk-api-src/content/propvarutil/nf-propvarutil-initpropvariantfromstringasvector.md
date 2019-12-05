@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromStringAsVector
 title: InitPropVariantFromStringAsVector function (propvarutil.h)
-
 description: Initializes a PROPVARIANT structure from a specified string. The string is parsed as a semi-colon delimited list (for example:\_&#0034;A;B;C&#0034;).
 old-location: properties\InitPropVariantFromStringAsVector.htm
 tech.root: properties
 ms.assetid: fc48f2e0-ce4a-4f48-a624-202def4bcff0
-
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromStringAsVector, InitPropVariantFromStringAsVector function [Windows Properties], properties.InitPropVariantFromStringAsVector, propvarutil/InitPropVariantFromStringAsVector, shell.InitPropVariantFromStringAsVector, shell_InitPropVariantFromStringAsVector
 ms.topic: function
-f1_keywords: 
- - "propvarutil/InitPropVariantFromStringAsVector"
+f1_keywords:
+- propvarutil/InitPropVariantFromStringAsVector
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - InitPropVariantFromStringAsVector
+- InitPropVariantFromStringAsVector
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:peerdist.PeerDistClientCompleteContentInformation
 title: PeerDistClientCompleteContentInformation function (peerdist.h)
-
 description: PeerDistClientCompleteContentInformation function completes the process of adding the content information.
 old-location: p2p\peerdistclientcompletecontentinformation.htm
 tech.root: P2PSdk
 ms.assetid: 0951e5e5-ad00-463e-8aa8-21b11a8acedc
-
 ms.date: 12/05/2018
 ms.keywords: PeerDistClientCompleteContentInformation, PeerDistClientCompleteContentInformation function [Peer Networking], p2p.peerdistclientcompletecontentinformation, peerdist/PeerDistClientCompleteContentInformation
 ms.topic: function
-f1_keywords: 
- - "peerdist/PeerDistClientCompleteContentInformation"
+f1_keywords:
+- peerdist/PeerDistClientCompleteContentInformation
 dev_langs:
- - c++
+- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PeerDist.lib
 req.dll: PeerDist.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PeerDist.dll
+- PeerDist.dll
 api_name:
- - PeerDistClientCompleteContentInformation
+- PeerDistClientCompleteContentInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

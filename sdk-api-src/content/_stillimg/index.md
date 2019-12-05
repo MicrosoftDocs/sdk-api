@@ -1,7 +1,6 @@
 ---
 UID: TP:stillimg
 ms.assetid: 23d8f852-8b2d-3283-8690-f9d1e0f7ef36
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

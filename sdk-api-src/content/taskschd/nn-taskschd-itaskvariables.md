@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.ITaskVariables
 title: ITaskVariables (taskschd.h)
-
 description: Defines task variables that can be passed as parameters to task handlers and external executables that are launched by tasks.
 old-location: taskschd\itaskvariables.htm
 tech.root: taskschd
 ms.assetid: 4f7a9dd3-0bf4-4c23-acdb-a5e0389120cc
-
 ms.date: 12/05/2018
 ms.keywords: ITaskVariables, ITaskVariables interface [Task Scheduler], ITaskVariables interface [Task Scheduler],described, taskschd.itaskvariables, taskschd/ITaskVariables
 ms.topic: interface
-f1_keywords: 
- - "taskschd/ITaskVariables"
+f1_keywords:
+- taskschd/ITaskVariables
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskVariables
+- ITaskVariables
 targetos: Windows
 req.typenames: 
 req.redist: 

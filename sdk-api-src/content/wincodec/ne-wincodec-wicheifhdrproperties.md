@@ -3,14 +3,13 @@ UID: NE:wincodec.WICHeifHdrProperties
 title: WICHeifHdrProperties
 description: Specifies the HDR properties of a High Efficiency Image Format (HEIF) image.
 tech.root: wic
-
 ms.date: 01/31/19
 ms.keywords: WICHeifHdrProperties
 ms.topic: enum
 f1_keywords:
 - wincodec/WICHeifHdrProperties
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

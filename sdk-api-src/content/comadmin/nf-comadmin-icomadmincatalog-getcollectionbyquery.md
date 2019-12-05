@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.GetCollectionByQuery
 title: ICOMAdminCatalog::GetCollectionByQuery (comadmin.h)
-
 description: Retrieves a collection on the COM+ catalog given the key property values for all of its parent items.
 old-location: cos\icomadmincatalog_getcollectionbyquery.htm
 tech.root: cossdk
 ms.assetid: 6ec65e7c-fb67-4435-90cd-d17b8fbcbc84
-
 ms.date: 12/05/2018
 ms.keywords: GetCollectionByQuery, GetCollectionByQuery method [COM+], GetCollectionByQuery method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],GetCollectionByQuery method, ICOMAdminCatalog.GetCollectionByQuery, ICOMAdminCatalog::GetCollectionByQuery, _cos_ICOMAdminCatalog_GetCollectionByQuery, comadmin/ICOMAdminCatalog::GetCollectionByQuery, cos.icomadmincatalog_getcollectionbyquery
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog.GetCollectionByQuery"
+f1_keywords:
+- comadmin/ICOMAdminCatalog.GetCollectionByQuery
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog.GetCollectionByQuery
+- ICOMAdminCatalog.GetCollectionByQuery
 targetos: Windows
 req.typenames: 
 req.redist: 

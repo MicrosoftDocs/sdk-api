@@ -1,19 +1,17 @@
 ---
 UID: NF:tdh.TdhFormatProperty
 title: TdhFormatProperty function (tdh.h)
-
 description: Formats a property value for display.
 old-location: etw\tdhformatproperty.htm
 tech.root: ETW
 ms.assetid: ecc954f8-840e-4963-a0c8-64aac25355e3
-
 ms.date: 12/05/2018
 ms.keywords: TdhFormatProperty, TdhFormatProperty function [ETW], etw.tdhformatproperty, tdh/TdhFormatProperty
 ms.topic: function
 f1_keywords:
 - tdh/TdhFormatProperty
 dev_langs:
- - c++
+- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

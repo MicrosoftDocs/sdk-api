@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMVideoProcAmp.Get
 title: IAMVideoProcAmp::Get (strmif.h)
-
 description: The Get method gets the current setting of a video property.
 old-location: dshow\iamvideoprocamp_get.htm
 tech.root: DirectShow
 ms.assetid: 8924383e-23e1-4732-9eff-dc7c8d0e361a
-
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [DirectShow], Get method [DirectShow],IAMVideoProcAmp interface, IAMVideoProcAmp interface [DirectShow],Get method, IAMVideoProcAmp.Get, IAMVideoProcAmp::Get, IAMVideoProcAmpGet, dshow.iamvideoprocamp_get, strmif/IAMVideoProcAmp::Get
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMVideoProcAmp.Get"
+f1_keywords:
+- strmif/IAMVideoProcAmp.Get
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVideoProcAmp.Get
+- IAMVideoProcAmp.Get
 targetos: Windows
 req.typenames: 
 req.redist: 

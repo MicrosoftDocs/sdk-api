@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMNetShowExProps.get_SourceLink
 title: IAMNetShowExProps::get_SourceLink (qnetwork.h)
-
 description: The get_SourceLink method retrieves the source link.
 old-location: dshow\iamnetshowexprops_get_sourcelink.htm
 tech.root: DirectShow
 ms.assetid: a5d79169-ae1b-4532-b367-ec2d24fae0b1
-
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_SourceLink method, IAMNetShowExProps.get_SourceLink, IAMNetShowExProps::get_SourceLink, IAMNetShowExPropsget_SourceLink, dshow.iamnetshowexprops_get_sourcelink, get_SourceLink, get_SourceLink method [DirectShow], get_SourceLink method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_SourceLink
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMNetShowExProps.get_SourceLink"
+f1_keywords:
+- qnetwork/IAMNetShowExProps.get_SourceLink
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMNetShowExProps.get_SourceLink
+- IAMNetShowExProps.get_SourceLink
 targetos: Windows
 req.typenames: 
 req.redist: 

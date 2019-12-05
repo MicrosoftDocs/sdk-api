@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetSupportedEvents
 title: IPortableDeviceCapabilities::GetSupportedEvents (portabledeviceapi.h)
-
 description: The GetSupportedEvents method retrieves the supported events for this device.
 old-location: wpdsdk\iportabledevicecapabilities_getsupportedevents.htm
 tech.root: wpd_sdk
 ms.assetid: f5082b2b-d925-4f9d-bbfd-edcf4553a6fa
-
 ms.date: 12/05/2018
 ms.keywords: GetSupportedEvents, GetSupportedEvents method [Windows Portable Devices SDK], GetSupportedEvents method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetSupportedEvents method, IPortableDeviceCapabilities.GetSupportedEvents, IPortableDeviceCapabilities::GetSupportedEvents, IPortableDeviceCapabilitiesGetSupportedEvents, portabledeviceapi/IPortableDeviceCapabilities::GetSupportedEvents, wpdsdk.iportabledevicecapabilities_getsupportedevents
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceCapabilities.GetSupportedEvents"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceCapabilities.GetSupportedEvents
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceCapabilities.GetSupportedEvents
+- IPortableDeviceCapabilities.GetSupportedEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

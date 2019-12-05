@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.put_AutoStopTonesOnOnHook
 title: ITAutomatedPhoneControl::put_AutoStopTonesOnOnHook (tapi3if.h)
-
 description: The put_AutoStopTonesOnOnHook method sets the AutoStopTonesOnOnHook property for this phone.
 old-location: tapi3\itautomatedphonecontrol_put_autostoptonesononhook.htm
 tech.root: Tapi
 ms.assetid: 0047b631-91fc-47fb-aa38-cedb096a5646
-
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_AutoStopTonesOnOnHook method, ITAutomatedPhoneControl.put_AutoStopTonesOnOnHook, ITAutomatedPhoneControl::put_AutoStopTonesOnOnHook, _tapi3_itautomatedphonecontrol_put_autostoptonesononhook, put_AutoStopTonesOnOnHook, put_AutoStopTonesOnOnHook method [TAPI 2.2], put_AutoStopTonesOnOnHook method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_put_autostoptonesononhook, tapi3if/ITAutomatedPhoneControl::put_AutoStopTonesOnOnHook
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAutomatedPhoneControl.put_AutoStopTonesOnOnHook"
+f1_keywords:
+- tapi3if/ITAutomatedPhoneControl.put_AutoStopTonesOnOnHook
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl.put_AutoStopTonesOnOnHook
+- ITAutomatedPhoneControl.put_AutoStopTonesOnOnHook
 targetos: Windows
 req.typenames: 
 req.redist: 

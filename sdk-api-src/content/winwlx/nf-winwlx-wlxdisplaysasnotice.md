@@ -1,19 +1,17 @@
 ---
 UID: NF:winwlx.WlxDisplaySASNotice
 title: WlxDisplaySASNotice function (winwlx.h)
-
 description: Winlogon calls this function when no user is logged on.
 old-location: security\wlxdisplaysasnotice.htm
 tech.root: SecAuthN
 ms.assetid: 2b56c037-aae6-4cb7-932f-15cf18c4444a
-
 ms.date: 12/05/2018
 ms.keywords: WlxDisplaySASNotice, WlxDisplaySASNotice function [Security], _gina_wlxdisplaysasnotice, security.wlxdisplaysasnotice, winwlx/WlxDisplaySASNotice
 ms.topic: function
-f1_keywords: 
- - "winwlx/WlxDisplaySASNotice"
+f1_keywords:
+- winwlx/WlxDisplaySASNotice
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winwlx.h
+- Winwlx.h
 api_name:
- - WlxDisplaySASNotice
+- WlxDisplaySASNotice
 targetos: Windows
 req.typenames: 
 req.redist: 

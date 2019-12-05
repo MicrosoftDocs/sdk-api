@@ -1,19 +1,17 @@
 ---
 UID: NF:dde.PackDDElParam
 title: PackDDElParam function (dde.h)
-
 description: Packs a Dynamic Data Exchange (DDE) lParam value into an internal structure used for sharing DDE data between processes.
 old-location: dataxchg\packddelparam.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangefunctions\packddelparam.htm
-
 ms.date: 12/05/2018
 ms.keywords: PackDDElParam, PackDDElParam function [Data Exchange], _win32_PackDDElParam, _win32_packddelparam_cpp, dataxchg.packddelparam, dde/PackDDElParam, winui._win32_packddelparam
 ms.topic: function
-f1_keywords: 
- - "dde/PackDDElParam"
+f1_keywords:
+- dde/PackDDElParam
 dev_langs:
- - c++
+- c++
 req.header: dde.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Misc-L1-1-0.dll
- - Ext-MS-Win-NTUser-Misc-L1-2-0.dll
- - Ext-MS-Win-NTUser-Misc-L1-3-0.dll
- - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
- - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
- - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Misc-L1-1-0.dll
+- Ext-MS-Win-NTUser-Misc-L1-2-0.dll
+- Ext-MS-Win-NTUser-Misc-L1-3-0.dll
+- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - PackDDElParam
+- PackDDElParam
 targetos: Windows
 req.typenames: 
 req.redist: 

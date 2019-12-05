@@ -1,19 +1,17 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT2_
 title: FWPM_NET_EVENT2 (fwpmtypes.h)
-
 description: Contains information about all event types.
 old-location: fwp\fwpm_net_event2.htm
 tech.root: fwp
 ms.assetid: fbcacfb1-b471-474e-bdee-12a481fadc63
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_NET_EVENT2, FWPM_NET_EVENT2 structure [Filtering], fwp.fwpm_net_event2, fwpmtypes/FWPM_NET_EVENT2
 ms.topic: struct
-f1_keywords: 
- - "fwpmtypes/FWPM_NET_EVENT2"
+f1_keywords:
+- fwpmtypes/FWPM_NET_EVENT2
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_NET_EVENT2
+- FWPM_NET_EVENT2
 targetos: Windows
 req.typenames: FWPM_NET_EVENT2
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_lostPackets
 title: IWMPNetwork::get_lostPackets (wmp.h)
-
 description: The get_lostPackets method retrieves the number of packets lost.
 old-location: wmp\iwmpnetwork_get_lostpackets.htm
 tech.root: WMP
 ms.assetid: 821b9bfc-931c-4e83-a899-4755bad3e7ae
-
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_lostPackets method, IWMPNetwork.get_lostPackets, IWMPNetwork::get_lostPackets, IWMPNetworkget_lostPackets, get_lostPackets, get_lostPackets method [Windows Media Player], get_lostPackets method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_lostpackets, wmp/IWMPNetwork::get_lostPackets
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPNetwork.get_lostPackets"
+f1_keywords:
+- wmp/IWMPNetwork.get_lostPackets
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPNetwork.get_lostPackets
+- IWMPNetwork.get_lostPackets
 targetos: Windows
 req.typenames: 
 req.redist: 

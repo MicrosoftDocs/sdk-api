@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchProtocol.ShutDown
 title: ISearchProtocol::ShutDown (searchapi.h)
-
 description: Shuts down the protocol handler.
 old-location: search\_search_ISearchProtocol_ShutDown.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocol\shutdown.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchProtocol interface [search],ShutDown method, ISearchProtocol.ShutDown, ISearchProtocol::ShutDown, ShutDown, ShutDown method [search], ShutDown method [search],ISearchProtocol interface, _search_ISearchProtocol_ShutDown, search._search_ISearchProtocol_ShutDown, searchapi/ISearchProtocol::ShutDown
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchProtocol.ShutDown"
+f1_keywords:
+- searchapi/ISearchProtocol.ShutDown
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchProtocol.ShutDown
+- ISearchProtocol.ShutDown
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

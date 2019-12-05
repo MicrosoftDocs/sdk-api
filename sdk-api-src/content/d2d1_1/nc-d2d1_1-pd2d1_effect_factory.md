@@ -1,19 +1,17 @@
 ---
 UID: NC:d2d1_1.PD2D1_EFFECT_FACTORY
 title: PD2D1_EFFECT_FACTORY (d2d1_1.h)
-
 description: Describes the implementation of an effect.
 old-location: direct2d\pd2d1_effect_factory.htm
 tech.root: Direct2D
 ms.assetid: e4f99762-4328-4b9c-ab0d-14b78a1581b5
-
 ms.date: 12/05/2018
 ms.keywords: PD2D1_EFFECT_FACTORY, PD2D1_EFFECT_FACTORY callback, PD2D1_EFFECT_FACTORY callback function [Direct2D], d2d1_1/PD2D1_EFFECT_FACTORY, direct2d.pd2d1_effect_factory
 ms.topic: callback
-f1_keywords: 
- - "d2d1_1/PD2D1_EFFECT_FACTORY"
+f1_keywords:
+- d2d1_1/PD2D1_EFFECT_FACTORY
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - D2D1_1.h
+- D2D1_1.h
 api_name:
- - PD2D1_EFFECT_FACTORY
+- PD2D1_EFFECT_FACTORY
 targetos: Windows
 req.typenames: 
 req.redist: 

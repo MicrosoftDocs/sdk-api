@@ -1,19 +1,17 @@
 ---
 UID: NF:ddrawgdi.DdSwapTextureHandles
 title: DdSwapTextureHandles function (ddrawgdi.h)
-
 description: Developed for device driver interfaces (DDIs) prior to Microsoft DirectDraw 7.0 and does nothing on Microsoft Windows NT systems. All parameters are ignored. GdiEntry16 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_ddswaptexturehandles.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddswaptexturehandles.htm
-
 ms.date: 12/05/2018
 ms.keywords: DdSwapTextureHandles, DdSwapTextureHandles function [Windows API], GdiEntry16, _dxgkernel_ddswaptexturehandles, ddrawgdi/DdSwapTextureHandles, ddrawgdi/GdiEntry16, winprog._dxgkernel_ddswaptexturehandles, winui._dxgkernel_ddswaptexturehandles
 ms.topic: function
-f1_keywords: 
- - "ddrawgdi/DdSwapTextureHandles"
+f1_keywords:
+- ddrawgdi/DdSwapTextureHandles
 dev_langs:
- - c++
+- c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ddrawgdi.h
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Ddrawgdi.h
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - DdSwapTextureHandles
- - GdiEntry16
+- DdSwapTextureHandles
+- GdiEntry16
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:dvdmedia._AM_DVDCOPY_DISCKEY
 title: AM_DVDCOPY_DISCKEY (dvdmedia.h)
-
 description: Specifies the DVD disc key.
 old-location: dshow\am_dvdcopy_disckey.htm
 tech.root: DirectShow
 ms.assetid: ab4d7b2d-59a6-4ad1-9120-552747b96596
-
 ms.date: 12/05/2018
-ms.keywords: "*PAM_DVDCOPY_DISCKEY, AM_DVDCOPY_DISCKEY, AM_DVDCOPY_DISCKEY structure [DirectShow], PAM_DVDCOPY_DISCKEY, PAM_DVDCOPY_DISCKEY structure pointer [DirectShow], dshow.am_dvdcopy_disckey, dvdmedia/AM_DVDCOPY_DISCKEY, dvdmedia/PAM_DVDCOPY_DISCKEY"
+ms.keywords: '*PAM_DVDCOPY_DISCKEY, AM_DVDCOPY_DISCKEY, AM_DVDCOPY_DISCKEY structure [DirectShow], PAM_DVDCOPY_DISCKEY, PAM_DVDCOPY_DISCKEY structure pointer [DirectShow], dshow.am_dvdcopy_disckey, dvdmedia/AM_DVDCOPY_DISCKEY, dvdmedia/PAM_DVDCOPY_DISCKEY'
 ms.topic: struct
-f1_keywords: 
- - "dvdmedia/AM_DVDCOPY_DISCKEY"
+f1_keywords:
+- dvdmedia/AM_DVDCOPY_DISCKEY
 dev_langs:
- - c++
+- c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dvdmedia.h
+- Dvdmedia.h
 api_name:
- - AM_DVDCOPY_DISCKEY
+- AM_DVDCOPY_DISCKEY
 targetos: Windows
 req.typenames: AM_DVDCOPY_DISCKEY, *PAM_DVDCOPY_DISCKEY
 req.redist: 

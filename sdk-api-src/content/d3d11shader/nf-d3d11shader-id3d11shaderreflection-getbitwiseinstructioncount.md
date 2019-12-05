@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetBitwiseInstructionCount
 title: ID3D11ShaderReflection::GetBitwiseInstructionCount (d3d11shader.h)
-
 description: Gets the number of bitwise instructions.
 old-location: direct3d11\id3d11shaderreflection_getbitwiseinstructioncount.htm
 tech.root: direct3d11
 ms.assetid: 095fc6e0-972a-43d1-9738-16d7f0846e26
-
 ms.date: 12/05/2018
 ms.keywords: 211dac0a-7e08-9fdc-fa7e-a5ccaf4c20ac, GetBitwiseInstructionCount, GetBitwiseInstructionCount method [Direct3D 11], GetBitwiseInstructionCount method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetBitwiseInstructionCount method, ID3D11ShaderReflection.GetBitwiseInstructionCount, ID3D11ShaderReflection::GetBitwiseInstructionCount, d3d11shader/ID3D11ShaderReflection::GetBitwiseInstructionCount, direct3d11.id3d11shaderreflection_getbitwiseinstructioncount
 ms.topic: method
-f1_keywords: 
- - "d3d11shader/ID3D11ShaderReflection.GetBitwiseInstructionCount"
+f1_keywords:
+- d3d11shader/ID3D11ShaderReflection.GetBitwiseInstructionCount
 dev_langs:
- - c++
+- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3D11ShaderReflection.GetBitwiseInstructionCount
+- ID3D11ShaderReflection.GetBitwiseInstructionCount
 targetos: Windows
 req.typenames: 
 req.redist: 

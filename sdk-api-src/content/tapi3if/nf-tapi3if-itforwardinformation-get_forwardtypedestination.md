@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITForwardInformation.get_ForwardTypeDestination
 title: ITForwardInformation::get_ForwardTypeDestination (tapi3if.h)
-
 description: The get_ForwardTypeDestination method gets the destination for a forwarding mode.
 old-location: tapi3\itforwardinformation_get_forwardtypedestination.htm
 tech.root: Tapi
 ms.assetid: 84a5737c-3bcd-4fdf-9a51-ef726fe71682
-
 ms.date: 12/05/2018
 ms.keywords: ITForwardInformation interface [TAPI 2.2],get_ForwardTypeDestination method, ITForwardInformation.get_ForwardTypeDestination, ITForwardInformation::get_ForwardTypeDestination, _tapi3_itforwardinformation_get_forwardtypedestination, get_ForwardTypeDestination, get_ForwardTypeDestination method [TAPI 2.2], get_ForwardTypeDestination method [TAPI 2.2],ITForwardInformation interface, tapi3.itforwardinformation_get_forwardtypedestination, tapi3if/ITForwardInformation::get_ForwardTypeDestination
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITForwardInformation.get_ForwardTypeDestination"
+f1_keywords:
+- tapi3if/ITForwardInformation.get_ForwardTypeDestination
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITForwardInformation.get_ForwardTypeDestination
+- ITForwardInformation.get_ForwardTypeDestination
 targetos: Windows
 req.typenames: 
 req.redist: 

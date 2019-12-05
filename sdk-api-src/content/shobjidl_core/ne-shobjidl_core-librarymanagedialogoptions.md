@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.LIBRARYMANAGEDIALOGOPTIONS
 title: LIBRARYMANAGEDIALOGOPTIONS (shobjidl_core.h)
-
 description: Used by SHShowManageLibraryUI to define options for handling a name collision when saving a library.
 old-location: shell\LIBRARYMANAGEDIALOGOPTIONS.htm
 tech.root: shell
 ms.assetid: e5eaf131-9562-4ab0-a8bc-4eaaaa806a8f
-
 ms.date: 12/05/2018
 ms.keywords: LIBRARYMANAGEDIALOGOPTIONS, LIBRARYMANAGEDIALOGOPTIONS enumeration [Windows Shell], LMD_ALLOWUNINDEXABLENETWORKLOCATIONS, LMD_DEFAULT, _shell_LIBRARYMANAGEDIALOGOPTIONS, shell.LIBRARYMANAGEDIALOGOPTIONS, shobjidl_core/LIBRARYMANAGEDIALOGOPTIONS, shobjidl_core/LMD_ALLOWUNINDEXABLENETWORKLOCATIONS, shobjidl_core/LMD_DEFAULT
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/LIBRARYMANAGEDIALOGOPTIONS"
+f1_keywords:
+- shobjidl_core/LIBRARYMANAGEDIALOGOPTIONS
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - LIBRARYMANAGEDIALOGOPTIONS
+- LIBRARYMANAGEDIALOGOPTIONS
 targetos: Windows
 req.typenames: LIBRARYMANAGEDIALOGOPTIONS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.ReplaceDrive
 title: IVdsSubSystem::ReplaceDrive (vdshwprv.h)
-
 description: Replaces or migrates one drive with another in the subsystem.
 old-location: base\ivdssubsystem_replacedrive.htm
 tech.root: VDS
 ms.assetid: 349fa2aa-94cd-4db0-9682-c39bcd9f9109
-
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystem interface [VDS],ReplaceDrive method, IVdsSubSystem.ReplaceDrive, IVdsSubSystem::ReplaceDrive, ReplaceDrive, ReplaceDrive method [VDS], ReplaceDrive method [VDS],IVdsSubSystem interface, base.ivdssubsystem_replacedrive, vds/IVdsSubSystem::ReplaceDrive, vdshwprv/IVdsSubSystem::ReplaceDrive
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsSubSystem.ReplaceDrive"
+f1_keywords:
+- vdshwprv/IVdsSubSystem.ReplaceDrive
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsSubSystem.ReplaceDrive
+- IVdsSubSystem.ReplaceDrive
 targetos: Windows
 req.typenames: 
 req.redist: 

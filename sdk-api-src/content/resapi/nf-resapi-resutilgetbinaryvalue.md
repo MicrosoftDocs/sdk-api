@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilGetBinaryValue
 title: ResUtilGetBinaryValue function (resapi.h)
-
 description: Returns a binary value from the cluster database.
 old-location: mscs\resutilgetbinaryvalue.htm
 tech.root: MsCS
 ms.assetid: d5068cc4-1fdc-430a-a48b-8e024bc20ca3
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_BINARY_VALUE, PRESUTIL_GET_BINARY_VALUE function [Failover Cluster], ResUtilGetBinaryValue, ResUtilGetBinaryValue function [Failover Cluster], _wolf_resutilgetbinaryvalue, mscs.resutilgetbinaryvalue, resapi/PRESUTIL_GET_BINARY_VALUE, resapi/ResUtilGetBinaryValue
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilGetBinaryValue"
+f1_keywords:
+- resapi/ResUtilGetBinaryValue
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilGetBinaryValue
+- ResUtilGetBinaryValue
 targetos: Windows
 req.typenames: 
 req.redist: 

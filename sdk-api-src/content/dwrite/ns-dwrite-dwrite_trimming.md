@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite.DWRITE_TRIMMING
 title: DWRITE_TRIMMING (dwrite.h)
-
 description: Specifies the trimming option for text overflowing the layout box.
 old-location: directwrite\dwrite_trimming.htm
 tech.root: DirectWrite
 ms.assetid: c252b936-8a09-45b4-8138-84cf54058f72
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_TRIMMING, DWRITE_TRIMMING structure [Direct Write], directwrite.dwrite_trimming, dwrite/DWRITE_TRIMMING
 ms.topic: struct
-f1_keywords: 
- - "dwrite/DWRITE_TRIMMING"
+f1_keywords:
+- dwrite/DWRITE_TRIMMING
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite.h
+- dwrite.h
 api_name:
- - DWRITE_TRIMMING
+- DWRITE_TRIMMING
 targetos: Windows
 req.typenames: 
 req.redist: 

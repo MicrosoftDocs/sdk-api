@@ -1,19 +1,17 @@
 ---
 UID: NS:vfw.tagCaptureParms
 title: CAPTUREPARMS (vfw.h)
-
 description: The CAPTUREPARMS structure contains parameters that control the streaming video capture process. This structure is used to get and set parameters that affect the capture rate, the number of buffers to use while capturing, and how capture is terminated.
 old-location: multimedia\captureparms.htm
 tech.root: Multimedia
 ms.assetid: 6bf7e374-5991-4a7b-984a-628d3e77b2d7
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCAPTUREPARMS, *PCAPTUREPARMS, CAPTUREPARMS, CAPTUREPARMS structure [Windows Multimedia], _win32_CAPTUREPARMS_str, multimedia.captureparms, vfw/CAPTUREPARMS"
+ms.keywords: '*LPCAPTUREPARMS, *PCAPTUREPARMS, CAPTUREPARMS, CAPTUREPARMS structure [Windows Multimedia], _win32_CAPTUREPARMS_str, multimedia.captureparms, vfw/CAPTUREPARMS'
 ms.topic: struct
-f1_keywords: 
- - "vfw/CAPTUREPARMS"
+f1_keywords:
+- vfw/CAPTUREPARMS
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - CAPTUREPARMS
+- CAPTUREPARMS
 targetos: Windows
 req.typenames: CAPTUREPARMS, *PCAPTUREPARMS, *LPCAPTUREPARMS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dxva2api.DXVA2_Fixed32TransparentAlpha
 title: DXVA2_Fixed32TransparentAlpha function (dxva2api.h)
-
 description: Returns a DXVA2_Fixed32 structure that contains a transparent alpha value.
 old-location: mf\dxva2_fixed32transparentalpha.htm
 tech.root: medfound
 ms.assetid: beb80542-f608-43e2-ab71-8ecee7884c62
-
 ms.date: 12/05/2018
 ms.keywords: DXVA2_Fixed32TransparentAlpha, DXVA2_Fixed32TransparentAlpha function [Media Foundation], beb80542-f608-43e2-ab71-8ecee7884c62, dxva2api/DXVA2_Fixed32TransparentAlpha, mf.dxva2_fixed32transparentalpha
 ms.topic: function
 f1_keywords:
 - dxva2api/DXVA2_Fixed32TransparentAlpha
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

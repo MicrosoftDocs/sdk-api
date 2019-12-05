@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.RemoveTrack
 title: IMFTimedText::RemoveTrack (mfmediaengine.h)
-
 description: Removes the timed-text track with the specified identifier.
 old-location: mf\imftimedtext_removetrack.htm
 tech.root: medfound
 ms.assetid: 34B785F6-0B34-431A-91CD-3C2DCEFEDAA4
-
 ms.date: 12/05/2018
 ms.keywords: IMFTimedText interface [Media Foundation],RemoveTrack method, IMFTimedText.RemoveTrack, IMFTimedText::RemoveTrack, RemoveTrack, RemoveTrack method [Media Foundation], RemoveTrack method [Media Foundation],IMFTimedText interface, mf.imftimedtext_removetrack, mfmediaengine/IMFTimedText::RemoveTrack
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedText.RemoveTrack"
+f1_keywords:
+- mfmediaengine/IMFTimedText.RemoveTrack
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfmediaengine.lib
 req.dll: Mfmediaengine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.dll
+- mfmediaengine.dll
 api_name:
- - IMFTimedText.RemoveTrack
+- IMFTimedText.RemoveTrack
 targetos: Windows
 req.typenames: 
 req.redist: 

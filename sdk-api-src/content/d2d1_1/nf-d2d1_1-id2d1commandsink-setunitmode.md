@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.SetUnitMode
 title: ID2D1CommandSink::SetUnitMode (d2d1_1.h)
-
 description: The unit mode changes the meaning of subsequent units from device-independent pixels (DIPs) to pixels or the other way. The command sink does not record a DPI, this is implied by the playback context or other playback interface such as ID2D1PrintControl.
 old-location: direct2d\id2d1commandsink_setunitmode.htm
 tech.root: Direct2D
 ms.assetid: e524aa51-2499-4333-9562-a4893666b666
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1CommandSink interface [Direct2D],SetUnitMode method, ID2D1CommandSink.SetUnitMode, ID2D1CommandSink::SetUnitMode, SetUnitMode, SetUnitMode method [Direct2D], SetUnitMode method [Direct2D],ID2D1CommandSink interface, d2d1_1/ID2D1CommandSink::SetUnitMode, direct2d.id2d1commandsink_setunitmode
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1CommandSink.SetUnitMode"
+f1_keywords:
+- d2d1_1/ID2D1CommandSink.SetUnitMode
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1CommandSink.SetUnitMode
+- ID2D1CommandSink.SetUnitMode
 targetos: Windows
 req.typenames: 
 req.redist: 

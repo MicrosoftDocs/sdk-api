@@ -1,19 +1,17 @@
 ---
 UID: NF:workspaceruntime.IWorkspace3.SetClaimsToken
 title: IWorkspace3::SetClaimsToken (workspaceruntime.h)
-
 description: Sets the claims token.
 old-location: termserv\iworkspace3_setclaimstoken.htm
 tech.root: TermServ
 ms.assetid: 221b0e8f-b43a-4942-9e70-152daf5b1ef0
-
 ms.date: 12/05/2018
 ms.keywords: IWorkspace3 interface [Remote Desktop Services],SetClaimsToken method, IWorkspace3.SetClaimsToken, IWorkspace3::SetClaimsToken, SetClaimsToken, SetClaimsToken method [Remote Desktop Services], SetClaimsToken method [Remote Desktop Services],IWorkspace3 interface, termserv.iworkspace3_setclaimstoken, workspaceruntime/IWorkspace3::SetClaimsToken
 ms.topic: method
-f1_keywords: 
- - "workspaceruntime/IWorkspace3.SetClaimsToken"
+f1_keywords:
+- workspaceruntime/IWorkspace3.SetClaimsToken
 dev_langs:
- - c++
+- c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - workspaceruntime.h
+- workspaceruntime.h
 api_name:
- - IWorkspace3.SetClaimsToken
+- IWorkspace3.SetClaimsToken
 targetos: Windows
 req.typenames: 
 req.redist: 

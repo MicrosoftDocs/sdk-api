@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.get_Thresholds
 title: IFsrmQuotaBase::get_Thresholds (fsrmquota.h)
-
 description: Retrieves the thresholds for the quota object.
 old-location: fsrm\ifsrmquotabase_thresholds.htm
 tech.root: fsrm
 ms.assetid: e9a68b62-5d53-419f-a0c4-2e284fa51313
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaBase interface [File Server Resource Manager],Thresholds property, IFsrmQuotaBase.Thresholds, IFsrmQuotaBase.get_Thresholds, IFsrmQuotaBase::Thresholds, IFsrmQuotaBase::get_Thresholds, Thresholds property [File Server Resource Manager], Thresholds property [File Server Resource Manager],IFsrmQuotaBase interface, fs.ifsrmquotabase_thresholds, fsrm.ifsrmquotabase_thresholds, fsrmquota/IFsrmQuotaBase::Thresholds, fsrmquota/IFsrmQuotaBase::get_Thresholds, get_Thresholds
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmQuotaBase.Thresholds"
+f1_keywords:
+- fsrmquota/IFsrmQuotaBase.Thresholds
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuotaBase.Thresholds
- - IFsrmQuotaBase.get_Thresholds
+- IFsrmQuotaBase.Thresholds
+- IFsrmQuotaBase.get_Thresholds
 targetos: Windows
 req.typenames: 
 req.redist: 

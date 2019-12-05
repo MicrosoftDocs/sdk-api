@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupIterateCabinetW
 title: SetupIterateCabinetW function (setupapi.h)
-
 description: The SetupIterateCabinet function iterates through all the files in a cabinet and sends a notification to a callback function for each file found.
 old-location: setup\setupiteratecabinet.htm
 tech.root: SetupApi
 ms.assetid: 2fa2d140-fa8e-41a8-9800-d10e5559fab4
-
 ms.date: 12/05/2018
 ms.keywords: SetupIterateCabinet, SetupIterateCabinet function [Setup API], SetupIterateCabinetA, SetupIterateCabinetW, _setupapi_setupiteratecabinet, setup.setupiteratecabinet, setupapi/SetupIterateCabinet, setupapi/SetupIterateCabinetA, setupapi/SetupIterateCabinetW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupIterateCabinet"
+f1_keywords:
+- setupapi/SetupIterateCabinet
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
- - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-1.dll
- - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
+- Setupapi.dll
+- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-1.dll
+- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
 api_name:
- - SetupIterateCabinet
- - SetupIterateCabinetA
- - SetupIterateCabinetW
+- SetupIterateCabinet
+- SetupIterateCabinetA
+- SetupIterateCabinetW
 targetos: Windows
 req.typenames: 
 req.redist: 

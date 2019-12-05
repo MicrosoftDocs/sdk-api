@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTVAudio.GetHardwareSupportedTVAudioModes
 title: IAMTVAudio::GetHardwareSupportedTVAudioModes (strmif.h)
-
 description: The GetHardwareSupportedTVAudioModes method retrieves a bitmask of the formats available in the hardware.
 old-location: dshow\iamtvaudio_gethardwaresupportedtvaudiomodes.htm
 tech.root: DirectShow
 ms.assetid: 2c67abc9-2419-473b-a2e6-4fc7df50752c
-
 ms.date: 12/05/2018
 ms.keywords: GetHardwareSupportedTVAudioModes, GetHardwareSupportedTVAudioModes method [DirectShow], GetHardwareSupportedTVAudioModes method [DirectShow],IAMTVAudio interface, IAMTVAudio interface [DirectShow],GetHardwareSupportedTVAudioModes method, IAMTVAudio.GetHardwareSupportedTVAudioModes, IAMTVAudio::GetHardwareSupportedTVAudioModes, IAMTVAudioGetHardwareSupportedTVAudioModes, dshow.iamtvaudio_gethardwaresupportedtvaudiomodes, strmif/IAMTVAudio::GetHardwareSupportedTVAudioModes
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTVAudio.GetHardwareSupportedTVAudioModes"
+f1_keywords:
+- strmif/IAMTVAudio.GetHardwareSupportedTVAudioModes
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTVAudio.GetHardwareSupportedTVAudioModes
+- IAMTVAudio.GetHardwareSupportedTVAudioModes
 targetos: Windows
 req.typenames: 
 req.redist: 

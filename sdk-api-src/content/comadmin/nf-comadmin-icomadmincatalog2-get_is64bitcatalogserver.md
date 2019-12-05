@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.get_Is64BitCatalogServer
 title: ICOMAdminCatalog2::get_Is64BitCatalogServer (comadmin.h)
-
 description: Indicates whether the currently connected catalog server is a 64-bit computer.
 old-location: cos\icomadmincatalog2_is64bitcatalogserver.htm
 tech.root: cossdk
 ms.assetid: 6c5371e2-c196-4a98-9738-bbf3c456c36e
-
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],Is64BitCatalogServer property, ICOMAdminCatalog2.Is64BitCatalogServer, ICOMAdminCatalog2.get_Is64BitCatalogServer, ICOMAdminCatalog2::Is64BitCatalogServer, ICOMAdminCatalog2::get_Is64BitCatalogServer, Is64BitCatalogServer property [COM+], Is64BitCatalogServer property [COM+],ICOMAdminCatalog2 interface, _cos_IComAdminCatalog2_get_Is64BitCatalogServer, comadmin/ICOMAdminCatalog2::Is64BitCatalogServer, comadmin/ICOMAdminCatalog2::get_Is64BitCatalogServer, cos.icomadmincatalog2_is64bitcatalogserver, get_Is64BitCatalogServer
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog2.Is64BitCatalogServer"
+f1_keywords:
+- comadmin/ICOMAdminCatalog2.Is64BitCatalogServer
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog2.Is64BitCatalogServer
- - ICOMAdminCatalog2.get_Is64BitCatalogServer
+- ICOMAdminCatalog2.Is64BitCatalogServer
+- ICOMAdminCatalog2.get_Is64BitCatalogServer
 targetos: Windows
 req.typenames: 
 req.redist: 

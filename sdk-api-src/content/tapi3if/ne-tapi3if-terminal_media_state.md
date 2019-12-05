@@ -1,19 +1,17 @@
 ---
 UID: NE:tapi3if.TERMINAL_MEDIA_STATE
 title: TERMINAL_MEDIA_STATE (tapi3if.h)
-
 description: The TERMINAL_MEDIA_STATE enum indicates the state of a file terminal.
 old-location: tapi3\terminal_media_state.htm
 tech.root: Tapi
 ms.assetid: 9cc07684-9804-41ac-bc25-f37f6ae00280
-
 ms.date: 12/05/2018
 ms.keywords: TERMINAL_MEDIA_STATE, TERMINAL_MEDIA_STATE enumeration [TAPI 2.2], TMS_ACTIVE, TMS_IDLE, TMS_LASTITEM, TMS_PAUSED, _tapi3_terminal_media_state, tapi3.terminal_media_state, tapi3if/TERMINAL_MEDIA_STATE, tapi3if/TMS_ACTIVE, tapi3if/TMS_IDLE, tapi3if/TMS_LASTITEM, tapi3if/TMS_PAUSED
 ms.topic: enum
-f1_keywords: 
- - "tapi3if/TERMINAL_MEDIA_STATE"
+f1_keywords:
+- tapi3if/TERMINAL_MEDIA_STATE
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi3if.h
+- Tapi3if.h
 api_name:
- - TERMINAL_MEDIA_STATE
+- TERMINAL_MEDIA_STATE
 targetos: Windows
 req.typenames: TERMINAL_MEDIA_STATE
 req.redist: 

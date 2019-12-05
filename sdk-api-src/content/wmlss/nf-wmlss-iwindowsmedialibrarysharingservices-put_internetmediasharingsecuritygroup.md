@@ -1,19 +1,17 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.put_internetMediaSharingSecurityGroup
 title: IWindowsMediaLibrarySharingServices::put_internetMediaSharingSecurityGroup (wmlss.h)
-
 description: The put_internetMediaSharingSecurityGroup method specifies the name of the security group that is used to authenticate connections coming in over the Internet.
 old-location: wmlss\IWMLSSput_internetMediaSharingSecurityGroup.htm
 tech.root: WMLSS
 ms.assetid: 4195fee6-5a4a-4ed0-b433-99932d28579f
-
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],put_internetMediaSharingSecurityGroup method, IWindowsMediaLibrarySharingServices.put_internetMediaSharingSecurityGroup, IWindowsMediaLibrarySharingServices::put_internetMediaSharingSecurityGroup, put_internetMediaSharingSecurityGroup, put_internetMediaSharingSecurityGroup method [Windows Media Library Sharing Services], put_internetMediaSharingSecurityGroup method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSput_internetMediaSharingSecurityGroup, wmlss/IWindowsMediaLibrarySharingServices::put_internetMediaSharingSecurityGroup
 ms.topic: method
-f1_keywords: 
- - "wmlss/IWindowsMediaLibrarySharingServices.put_internetMediaSharingSecurityGroup"
+f1_keywords:
+- wmlss/IWindowsMediaLibrarySharingServices.put_internetMediaSharingSecurityGroup
 dev_langs:
- - c++
+- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: WMPMediaSharing.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMPMediaSharing.dll
+- WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingServices.put_internetMediaSharingSecurityGroup
+- IWindowsMediaLibrarySharingServices.put_internetMediaSharingSecurityGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

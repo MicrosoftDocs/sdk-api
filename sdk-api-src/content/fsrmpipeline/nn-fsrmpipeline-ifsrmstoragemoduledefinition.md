@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmpipeline.IFsrmStorageModuleDefinition
 title: IFsrmStorageModuleDefinition (fsrmpipeline.h)
-
 description: Defines a local storage module that is used to read and write property values.
 old-location: fsrm\ifsrmstoragemoduledefinition.htm
 tech.root: fsrm
 ms.assetid: 68ecb5e6-61b0-488f-b6bb-181f253de70e
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmStorageModuleDefinition, IFsrmStorageModuleDefinition interface [File Server Resource Manager], IFsrmStorageModuleDefinition interface [File Server Resource Manager],described, fs.ifsrmstoragemoduledefinition, fsrm.ifsrmstoragemoduledefinition, fsrm/IFsrmStorageModuleDefinition
 ms.topic: interface
-f1_keywords: 
- - "fsrmpipeline/IFsrmStorageModuleDefinition"
+f1_keywords:
+- fsrmpipeline/IFsrmStorageModuleDefinition
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmStorageModuleDefinition
+- IFsrmStorageModuleDefinition
 targetos: Windows
 req.typenames: 
 req.redist: 

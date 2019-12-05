@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.ReleaseFromTrackerSource
 title: IReferenceTracker::xaml (windows.ui.xaml.hosting.referencetracker.h)
-
 description: Indicates each time that a tracker source calls IUnknown::Release on the reference tracker; must be called before the Release call.
 old-location: winrt\ireferencetracker_releasefromtrackersource.htm
 tech.root: WinRT
 ms.assetid: 70ecc98e-30bd-48e6-966b-4b5955a58d8a
-
 ms.date: 12/05/2018
 ms.keywords: IReferenceTracker interface [Windows Runtime],ReleaseFromTrackerSource method, IReferenceTracker.ReleaseFromTrackerSource, IReferenceTracker.xaml, IReferenceTracker::ReleaseFromTrackerSource, IReferenceTracker::xaml, ReleaseFromTrackerSource, ReleaseFromTrackerSource method [Windows Runtime], ReleaseFromTrackerSource method [Windows Runtime],IReferenceTracker interface, windows/IReferenceTracker::ReleaseFromTrackerSource, winrt.ireferencetracker_releasefromtrackersource
 ms.topic: method
-f1_keywords: 
- - "windows.ui.xaml.hosting.referencetracker/IReferenceTracker.ReleaseFromTrackerSource"
+f1_keywords:
+- windows.ui.xaml.hosting.referencetracker/IReferenceTracker.ReleaseFromTrackerSource
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.ui.xaml.hosting.referencetracker.h
+- Windows.ui.xaml.hosting.referencetracker.h
 api_name:
- - IReferenceTracker.ReleaseFromTrackerSource
+- IReferenceTracker.ReleaseFromTrackerSource
 targetos: Windows
 req.typenames: 
 req.redist: 

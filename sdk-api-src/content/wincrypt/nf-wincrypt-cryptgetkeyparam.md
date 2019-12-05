@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptGetKeyParam
 title: CryptGetKeyParam function (wincrypt.h)
-
 description: Retrieves data that governs the operations of a key.
 old-location: security\cryptgetkeyparam.htm
 tech.root: SecCrypto
 ms.assetid: 07956d74-0e22-484b-9bf1-e0184a2ff32f
-
 ms.date: 12/05/2018
 ms.keywords: CryptGetKeyParam, CryptGetKeyParam function [Security], KP_ALGID, KP_BLOCKLEN, KP_CERTIFICATE, KP_EFFECTIVE_KEYLEN, KP_G, KP_GET_USE_COUNT, KP_IV, KP_KEYLEN, KP_KEYVAL, KP_MODE, KP_MODE_BITS, KP_P, KP_PADDING, KP_PERMISSIONS, KP_Q, KP_SALT, KP_VERIFY_PARAMS, _crypto2_cryptgetkeyparam, security.cryptgetkeyparam, wincrypt/CryptGetKeyParam
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptGetKeyParam"
+f1_keywords:
+- wincrypt/CryptGetKeyParam
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptGetKeyParam
+- CryptGetKeyParam
 targetos: Windows
 req.typenames: 
 req.redist: 

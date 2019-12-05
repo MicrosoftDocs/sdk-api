@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminEstablishDomainRasServer
 title: MprAdminEstablishDomainRasServer function (mprapi.h)
-
 description: The MprAdminEstablishDomainRasServer function establishes the given machine as a Remote Access Server in the domain. This function must be executed only on a machine joined to a domain.
 old-location: rras\mpradminestablishdomainrasserver.htm
 tech.root: RRAS
 ms.assetid: 756e267b-73bf-46d3-a1af-d2442ceb7b52
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminEstablishDomainRasServer, MprAdminEstablishDomainRasServer function [RAS], mprapi/MprAdminEstablishDomainRasServer, rras.mpradminestablishdomainrasserver
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminEstablishDomainRasServer"
+f1_keywords:
+- mprapi/MprAdminEstablishDomainRasServer
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminEstablishDomainRasServer
+- MprAdminEstablishDomainRasServer
 targetos: Windows
 req.typenames: 
 req.redist: 

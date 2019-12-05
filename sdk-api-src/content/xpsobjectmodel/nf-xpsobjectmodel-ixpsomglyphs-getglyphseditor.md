@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetGlyphsEditor
 title: IXpsOMGlyphs::GetGlyphsEditor (xpsobjectmodel.h)
-
 description: Gets a pointer to the IXpsOMGlyphsEditor interface that will be used to edit the glyphs in the object.
 old-location: xps\ixpsomglyphs_getglyphseditor.htm
 tech.root: printdocs
 ms.assetid: 1c641d99-9303-484d-82e0-2d71e2c43561
-
 ms.date: 12/05/2018
 ms.keywords: GetGlyphsEditor, GetGlyphsEditor method [XPS Documents and Packaging], GetGlyphsEditor method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetGlyphsEditor method, IXpsOMGlyphs.GetGlyphsEditor, IXpsOMGlyphs::GetGlyphsEditor, xps.ixpsomglyphs_getglyphseditor, xpsobjectmodel/IXpsOMGlyphs::GetGlyphsEditor
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGlyphs.GetGlyphsEditor"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGlyphs.GetGlyphsEditor
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphs.GetGlyphsEditor
+- IXpsOMGlyphs.GetGlyphsEditor
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dmoreg.DMOUnregister
 title: DMOUnregister function (dmoreg.h)
-
 description: The DMOUnregister function unregisters a DMO.
 old-location: dshow\dmounregister.htm
 tech.root: DirectShow
 ms.assetid: 7f65789d-7654-4da2-a572-e07c1e81b4ae
-
 ms.date: 12/05/2018
 ms.keywords: DMOUnregister, DMOUnregister function [DirectShow], dmoreg/DMOUnregister, dshow.dmounregister
 ms.topic: function
-f1_keywords: 
- - "dmoreg/DMOUnregister"
+f1_keywords:
+- dmoreg/DMOUnregister
 dev_langs:
- - c++
+- c++
 req.header: dmoreg.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdmo.lib
 req.dll: Msdmo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdmo.dll
+- Msdmo.dll
 api_name:
- - DMOUnregister
+- DMOUnregister
 targetos: Windows
 req.typenames: 
 req.redist: 

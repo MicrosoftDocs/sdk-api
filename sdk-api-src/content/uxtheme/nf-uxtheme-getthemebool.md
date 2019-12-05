@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemeBool
 title: GetThemeBool function (uxtheme.h)
-
 description: Retrieves the value of a BOOL property from the SysMetrics section of theme data.
 old-location: controls\GetThemeBool.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebool.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetThemeBool, GetThemeBool function [Windows Controls], TMT_ALWAYSSHOWSIZINGBAR, TMT_AUTOSIZE, TMT_BGFILL, TMT_BORDERONLY, TMT_COMPOSITED, TMT_GLYPHONLY, TMT_GLYPHTRANSPARENT, TMT_INTEGRALSIZING, TMT_MIRRORIMAGE, TMT_SOURCEGROW, TMT_SOURCESHRINK, TMT_TRANSPARENT, TMT_UNIFORMSIZING, TMT_USERPICTURE, controls.GetThemeBool, controls.inet_GetThemeBool, inet_GetThemeBool, inet_GetThemeBool_cpp, uxtheme/GetThemeBool
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemeBool"
+f1_keywords:
+- uxtheme/GetThemeBool
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - GetThemeBool
+- GetThemeBool
 targetos: Windows
 req.typenames: 
 req.redist: 

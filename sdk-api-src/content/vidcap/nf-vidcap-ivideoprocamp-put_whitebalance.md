@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_WhiteBalance
 title: IVideoProcAmp::put_WhiteBalance (vidcap.h)
-
 description: The put_WhiteBalance method sets the camera's white balance, specified as a color temperature.
 old-location: dshow\ivideoprocamp_put_whitebalance.htm
 tech.root: DirectShow
 ms.assetid: b79e64e1-4b0f-4111-ae25-54891f743c01
-
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_WhiteBalance method, IVideoProcAmp.put_WhiteBalance, IVideoProcAmp::put_WhiteBalance, IVideoProcAmpput_WhiteBalance, dshow.ivideoprocamp_put_whitebalance, put_WhiteBalance, put_WhiteBalance method [DirectShow], put_WhiteBalance method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_WhiteBalance
 ms.topic: method
-f1_keywords: 
- - "vidcap/IVideoProcAmp.put_WhiteBalance"
+f1_keywords:
+- vidcap/IVideoProcAmp.put_WhiteBalance
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vidcap.h
+- Vidcap.h
 api_name:
- - IVideoProcAmp.put_WhiteBalance
+- IVideoProcAmp.put_WhiteBalance
 targetos: Windows
 req.typenames: 
 req.redist: 

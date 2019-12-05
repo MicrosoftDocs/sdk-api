@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IATSCChannelTuneRequest.get_MinorChannel
 title: IATSCChannelTuneRequest::get_MinorChannel (tuner.h)
-
 description: The get_MinorChannel method gets the current minor channel.
 old-location: mstv\iatscchanneltunerequest_get_minorchannel.htm
 tech.root: mstv
 ms.assetid: 2b8aa006-faba-472b-836b-0ff1ae134232
-
 ms.date: 12/05/2018
 ms.keywords: IATSCChannelTuneRequest interface [Microsoft TV Technologies],get_MinorChannel method, IATSCChannelTuneRequest.get_MinorChannel, IATSCChannelTuneRequest::get_MinorChannel, IATSCChannelTuneRequestget_MinorChannel, get_MinorChannel, get_MinorChannel method [Microsoft TV Technologies], get_MinorChannel method [Microsoft TV Technologies],IATSCChannelTuneRequest interface, mstv.iatscchanneltunerequest_get_minorchannel, tuner/IATSCChannelTuneRequest::get_MinorChannel
 ms.topic: method
-f1_keywords: 
- - "tuner/IATSCChannelTuneRequest.get_MinorChannel"
+f1_keywords:
+- tuner/IATSCChannelTuneRequest.get_MinorChannel
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IATSCChannelTuneRequest.get_MinorChannel
+- IATSCChannelTuneRequest.get_MinorChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

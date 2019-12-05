@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IInputObject2
 title: IInputObject2 (shobjidl_core.h)
-
 description: Exposes a method that extends IInputObject by handling global accelerators.
 old-location: shell\IInputObject2.htm
 tech.root: shell
 ms.assetid: 76d8672c-ea19-4d61-b6b5-e6c3951ec710
-
 ms.date: 12/05/2018
 ms.keywords: IInputObject2, IInputObject2 interface [Windows Shell], IInputObject2 interface [Windows Shell],described, _shell_IInputObject2, shell.IInputObject2, shobjidl_core/IInputObject2
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IInputObject2"
+f1_keywords:
+- shobjidl_core/IInputObject2
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IInputObject2
+- IInputObject2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_State
 title: IMSVidCtl::get_State (msvidctl.h)
-
 description: The get_State method retrieves the state of the filter graph.
 old-location: mstv\imsvidctl_get_state.htm
 tech.root: mstv
 ms.assetid: 45f35832-709c-4f78-9e1a-a6ad489fc81f
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_State method, IMSVidCtl.get_State, IMSVidCtl::get_State, IMSVidCtlget_State, get_State, get_State method [Microsoft TV Technologies], get_State method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_state, msvidctl/IMSVidCtl::get_State
 ms.topic: method
-f1_keywords: 
- - "msvidctl/IMSVidCtl.get_State"
+f1_keywords:
+- msvidctl/IMSVidCtl.get_State
 dev_langs:
- - c++
+- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msvidctl.h
+- msvidctl.h
 api_name:
- - IMSVidCtl.get_State
+- IMSVidCtl.get_State
 targetos: Windows
 req.typenames: 
 req.redist: 

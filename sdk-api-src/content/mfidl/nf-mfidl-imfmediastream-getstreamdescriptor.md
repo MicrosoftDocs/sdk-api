@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaStream.GetStreamDescriptor
 title: IMFMediaStream::GetStreamDescriptor (mfidl.h)
-
 description: Retrieves a stream descriptor for this media stream.
 old-location: mf\imfmediastream_getstreamdescriptor.htm
 tech.root: medfound
 ms.assetid: 574eacfb-3acd-4b47-9c25-3a67aae01178
-
 ms.date: 12/05/2018
 ms.keywords: 574eacfb-3acd-4b47-9c25-3a67aae01178, GetStreamDescriptor, GetStreamDescriptor method [Media Foundation], GetStreamDescriptor method [Media Foundation],IMFMediaStream interface, IMFMediaStream interface [Media Foundation],GetStreamDescriptor method, IMFMediaStream.GetStreamDescriptor, IMFMediaStream::GetStreamDescriptor, mf.imfmediastream_getstreamdescriptor, mfidl/IMFMediaStream::GetStreamDescriptor
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaStream.GetStreamDescriptor"
+f1_keywords:
+- mfidl/IMFMediaStream.GetStreamDescriptor
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaStream.GetStreamDescriptor
+- IMFMediaStream.GetStreamDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

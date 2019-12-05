@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetString
 title: ITfCandidateListUIElement::GetString (msctf.h)
-
 description: The ITfCandidateListUIElement::GetString method returns the string of the index.
 old-location: tsf\itfcandidatelistuielement_getstring.htm
 tech.root: TSF
 ms.assetid: 85cf60e3-f068-499f-b726-9ccea3cd8503
-
 ms.date: 12/05/2018
 ms.keywords: GetString, GetString method [Text Services Framework], GetString method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetString method, ITfCandidateListUIElement.GetString, ITfCandidateListUIElement::GetString, msctf/ITfCandidateListUIElement::GetString, tsf.itfcandidatelistuielement_getstring
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfCandidateListUIElement.GetString"
+f1_keywords:
+- msctf/ITfCandidateListUIElement.GetString
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfCandidateListUIElement.GetString
+- ITfCandidateListUIElement.GetString
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

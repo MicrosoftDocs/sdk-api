@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaGetUpdatedCache
 title: UiaGetUpdatedCache function (uiautomationcoreapi.h)
-
 description: Updates the cache of property values and control patterns.
 old-location: winauto\uiauto_UiaGetUpdatedCacheAutoMeth.htm
 tech.root: WinAuto
 ms.assetid: 06f0874d-ca25-4fa8-8cbc-96c1eee1b36c
-
 ms.date: 12/05/2018
 ms.keywords: UiaGetUpdatedCache, UiaGetUpdatedCache function [Windows Accessibility], uiauto.uiauto_UiaGetUpdatedCacheAutoMeth, uiauto_UiaGetUpdatedCacheAutoMeth, uiautomationcoreapi/UiaGetUpdatedCache, winauto.uiauto_UiaGetUpdatedCacheAutoMeth
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaGetUpdatedCache"
+f1_keywords:
+- uiautomationcoreapi/UiaGetUpdatedCache
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - UiaGetUpdatedCache
+- UiaGetUpdatedCache
 targetos: Windows
 req.typenames: 
 req.redist: 

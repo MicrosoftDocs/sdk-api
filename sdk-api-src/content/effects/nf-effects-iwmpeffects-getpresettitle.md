@@ -1,19 +1,17 @@
 ---
 UID: NF:effects.IWMPEffects.GetPresetTitle
 title: IWMPEffects::GetPresetTitle (effects.h)
-
 description: The GetPresetTitle method gets the title of the current preset.
 old-location: wmp\iwmpeffects_getpresettitle.htm
 tech.root: WMP
 ms.assetid: 73e80221-2170-4724-b902-5c30796cb6a4
-
 ms.date: 12/05/2018
 ms.keywords: EffectsGetPresetTitle, GetPresetTitle, GetPresetTitle method [Windows Media Player], GetPresetTitle method [Windows Media Player],IWMPEffects interface, IWMPEffects interface [Windows Media Player],GetPresetTitle method, IWMPEffects.GetPresetTitle, IWMPEffects::GetPresetTitle, effects/IWMPEffects::GetPresetTitle, wmp.iwmpeffects_getpresettitle
 ms.topic: method
-f1_keywords: 
- - "effects/IWMPEffects.GetPresetTitle"
+f1_keywords:
+- effects/IWMPEffects.GetPresetTitle
 dev_langs:
- - c++
+- c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - effects.h
+- effects.h
 api_name:
- - IWMPEffects.GetPresetTitle
+- IWMPEffects.GetPresetTitle
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_phoneSetDisplay
 title: TSPI_phoneSetDisplay function (tspi.h)
-
 description: The TSPI_phoneSetDisplay function causes the specified string to be displayed on the specified open phone device.
 old-location: tspi\tspi_phonesetdisplay.htm
 tech.root: Tapi
 ms.assetid: c320122c-037a-40f5-8314-6aa3352cc994
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneSetDisplay, TSPI_phoneSetDisplay function [TAPI 2.2], _tspi_tspi_phonesetdisplay, tspi.tspi_phonesetdisplay, tspi/TSPI_phoneSetDisplay
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_phoneSetDisplay"
+f1_keywords:
+- tspi/TSPI_phoneSetDisplay
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_phoneSetDisplay
+- TSPI_phoneSetDisplay
 targetos: Windows
 req.typenames: 
 req.redist: 

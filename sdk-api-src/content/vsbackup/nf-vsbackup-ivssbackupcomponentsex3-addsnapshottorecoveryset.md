@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx3.AddSnapshotToRecoverySet
 title: IVssBackupComponentsEx3::AddSnapshotToRecoverySet (vsbackup.h)
-
 description: Specifies the volumes to be included in a LUN resynchronization operation.
 old-location: base\ivssbackupcomponentsex3_addsnapshottorecoveryset.htm
 tech.root: VSS
 ms.assetid: f489d353-7c8a-45d2-8917-82d29fbdf5f5
-
 ms.date: 12/05/2018
 ms.keywords: AddSnapshotToRecoverySet, AddSnapshotToRecoverySet method, AddSnapshotToRecoverySet method,IVssBackupComponentsEx3 interface, IVssBackupComponentsEx3 interface,AddSnapshotToRecoverySet method, IVssBackupComponentsEx3.AddSnapshotToRecoverySet, IVssBackupComponentsEx3::AddSnapshotToRecoverySet, base.ivssbackupcomponentsex3_addsnapshottorecoveryset, vsbackup/IVssBackupComponentsEx3::AddSnapshotToRecoverySet
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponentsEx3.AddSnapshotToRecoverySet"
+f1_keywords:
+- vsbackup/IVssBackupComponentsEx3.AddSnapshotToRecoverySet
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsBackup.h
+- VsBackup.h
 api_name:
- - IVssBackupComponentsEx3.AddSnapshotToRecoverySet
+- IVssBackupComponentsEx3.AddSnapshotToRecoverySet
 targetos: Windows
 req.typenames: 
 req.redist: 

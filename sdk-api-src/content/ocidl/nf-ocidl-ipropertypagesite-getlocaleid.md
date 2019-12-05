@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPropertyPageSite.GetLocaleID
 title: IPropertyPageSite::GetLocaleID (ocidl.h)
-
 description: Retrieves the locale identifier (an LCID) that a property page can use to adjust its locale-specific settings.
 old-location: com\ipropertypagesite_getlocaleid.htm
 tech.root: com
 ms.assetid: d569346d-4a40-42a4-ac8e-539588c4dd66
-
 ms.date: 12/05/2018
 ms.keywords: GetLocaleID, GetLocaleID method [COM], GetLocaleID method [COM],IPropertyPageSite interface, IPropertyPageSite interface [COM],GetLocaleID method, IPropertyPageSite.GetLocaleID, IPropertyPageSite::GetLocaleID, _ctrl_ipropertypagesite_getlocaleid, com.ipropertypagesite_getlocaleid, ocidl/IPropertyPageSite::GetLocaleID
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPropertyPageSite.GetLocaleID"
+f1_keywords:
+- ocidl/IPropertyPageSite.GetLocaleID
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPropertyPageSite.GetLocaleID
+- IPropertyPageSite.GetLocaleID
 targetos: Windows
 req.typenames: 
 req.redist: 

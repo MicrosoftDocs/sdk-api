@@ -1,19 +1,17 @@
 ---
 UID: NF:certcli.ICertConfig2.SetSharedFolder
 title: ICertConfig2::SetSharedFolder (certcli.h)
-
 description: Specifies the path to be used as the certification authority's (CA) shared folder.
 old-location: security\icertconfig2_setsharedfolder.htm
 tech.root: SecCrypto
 ms.assetid: f0fc4218-ca07-4488-bd0c-bfa8bdcd2179
-
 ms.date: 12/05/2018
 ms.keywords: CCertConfig object [Security],SetSharedFolder method, ICertConfig2 interface [Security],SetSharedFolder method, ICertConfig2.SetSharedFolder, ICertConfig2::SetSharedFolder, SetSharedFolder, SetSharedFolder method [Security], SetSharedFolder method [Security],CCertConfig object, SetSharedFolder method [Security],ICertConfig2 interface, _certsrv_icertconfig2_setsharedfolder, certcli/ICertConfig2::SetSharedFolder, security.icertconfig2_setsharedfolder
 ms.topic: method
-f1_keywords: 
- - "certcli/ICertConfig2.SetSharedFolder"
+f1_keywords:
+- certcli/ICertConfig2.SetSharedFolder
 dev_langs:
- - c++
+- c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certcli.dll
+- Certcli.dll
 api_name:
- - ICertConfig2.SetSharedFolder
- - CCertConfig.SetSharedFolder
+- ICertConfig2.SetSharedFolder
+- CCertConfig.SetSharedFolder
 targetos: Windows
 req.typenames: 
 req.redist: 

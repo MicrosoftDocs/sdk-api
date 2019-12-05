@@ -1,19 +1,17 @@
 ---
 UID: NF:commoncontrols.IImageList.GetIconSize
 title: IImageList::GetIconSize (commoncontrols.h)
-
 description: Gets the dimensions of images in an image list. All images in an image list have the same dimensions.
 old-location: controls\IImageList_GetIconSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\geticonsize.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetIconSize, GetIconSize method [Windows Controls], GetIconSize method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetIconSize method, IImageList.GetIconSize, IImageList::GetIconSize, comctl_IImageList_GetIconSize, comctl_IImageList_GetIconSize_cpp, commoncontrols/IImageList::GetIconSize, controls.IImageList_GetIconSize, controls.comctl_IImageList_GetIconSize
 ms.topic: method
-f1_keywords: 
- - "commoncontrols/IImageList.GetIconSize"
+f1_keywords:
+- commoncontrols/IImageList.GetIconSize
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - IImageList.GetIconSize
+- IImageList.GetIconSize
 targetos: Windows
 req.typenames: 
 req.redist: 

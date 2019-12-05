@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IResultData.DeleteItem
 title: IResultData::DeleteItem (mmc.h)
-
 description: Enables the snap-in to delete a single item in the result view pane.
 old-location: mmc\iresultdata_deleteitem.htm
 tech.root: mmc
 ms.assetid: e0e6192a-2cc0-4a90-9793-e425879fcff2
-
 ms.date: 12/05/2018
 ms.keywords: DeleteItem, DeleteItem method [MMC], DeleteItem method [MMC],IResultData interface, DeleteItem method [MMC],IResultData2 interface, IResultData interface [MMC],DeleteItem method, IResultData.DeleteItem, IResultData2 interface [MMC],DeleteItem method, IResultData2::DeleteItem, IResultData::DeleteItem, _slate_iresultdata_deleteitem, mmc.iresultdata_deleteitem, mmc/IResultData2::DeleteItem, mmc/IResultData::DeleteItem
 ms.topic: method
-f1_keywords: 
- - "mmc/IResultData.DeleteItem"
+f1_keywords:
+- mmc/IResultData.DeleteItem
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IResultData.DeleteItem
- - IResultData2.DeleteItem
+- IResultData.DeleteItem
+- IResultData2.DeleteItem
 targetos: Windows
 req.typenames: 
 req.redist: 

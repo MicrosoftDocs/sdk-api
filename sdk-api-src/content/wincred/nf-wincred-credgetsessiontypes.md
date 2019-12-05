@@ -1,19 +1,17 @@
 ---
 UID: NF:wincred.CredGetSessionTypes
 title: CredGetSessionTypes function (wincred.h)
-
 description: The CredGetSessionTypes function returns the maximum persistence supported by the current logon session. A separate maximum persistence is returned for each credential type.
 old-location: security\credgetsessiontypes.htm
 tech.root: SecAuthN
 ms.assetid: 70f8d5e0-235b-4330-8add-566b41c91c17
-
 ms.date: 12/05/2018
 ms.keywords: CRED_PERSIST_ENTERPRISE, CRED_PERSIST_LOCAL_MACHINE, CRED_PERSIST_NONE, CRED_PERSIST_SESSION, CredGetSessionTypes, CredGetSessionTypes function [Security], _cred_credgetsessiontypes, security.credgetsessiontypes, wincred/CredGetSessionTypes
 ms.topic: function
-f1_keywords: 
- - "wincred/CredGetSessionTypes"
+f1_keywords:
+- wincred/CredGetSessionTypes
 dev_langs:
- - c++
+- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - sechost.dll
- - API-MS-Win-Security-credentials-l1-1-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- sechost.dll
+- API-MS-Win-Security-credentials-l1-1-0.dll
 api_name:
- - CredGetSessionTypes
+- CredGetSessionTypes
 targetos: Windows
 req.typenames: 
 req.redist: 

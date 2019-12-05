@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10.ID3D10Texture2D
 title: ID3D10Texture2D (d3d10.h)
-
 description: A 2D texture interface manages texel data, which is structured memory.
 old-location: direct3d10\id3d10texture2d.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10texture2d.htm
-
 ms.date: 12/05/2018
 ms.keywords: 9a2f06c7-c0b0-a077-da90-1fba199f3a88, ID3D10Texture2D, ID3D10Texture2D interface [Direct3D 10], ID3D10Texture2D interface [Direct3D 10],described, d3d10/ID3D10Texture2D, direct3d10.id3d10texture2d
 ms.topic: interface
-f1_keywords: 
- - "d3d10/ID3D10Texture2D"
+f1_keywords:
+- d3d10/ID3D10Texture2D
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Texture2D
+- ID3D10Texture2D
 targetos: Windows
 req.typenames: 
 req.redist: 

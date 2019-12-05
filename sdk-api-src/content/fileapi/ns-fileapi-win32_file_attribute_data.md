@@ -1,19 +1,17 @@
 ---
 UID: NS:fileapi._WIN32_FILE_ATTRIBUTE_DATA
 title: WIN32_FILE_ATTRIBUTE_DATA (fileapi.h)
-
 description: Contains attribute information for a file or directory.
 old-location: fs\win32_file_attribute_data_str.htm
 tech.root: FileIO
 ms.assetid: e1a7fb5c-2d69-40e3-b9d8-b583a03d828a
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWIN32_FILE_ATTRIBUTE_DATA, LPWIN32_FILE_ATTRIBUTE_DATA, LPWIN32_FILE_ATTRIBUTE_DATA structure pointer [Files], WIN32_FILE_ATTRIBUTE_DATA, WIN32_FILE_ATTRIBUTE_DATA structure [Files], _win32_win32_file_attribute_data_str, base.win32_file_attribute_data_str, fileapi/LPWIN32_FILE_ATTRIBUTE_DATA, fileapi/WIN32_FILE_ATTRIBUTE_DATA, fs.win32_file_attribute_data_str"
+ms.keywords: '*LPWIN32_FILE_ATTRIBUTE_DATA, LPWIN32_FILE_ATTRIBUTE_DATA, LPWIN32_FILE_ATTRIBUTE_DATA structure pointer [Files], WIN32_FILE_ATTRIBUTE_DATA, WIN32_FILE_ATTRIBUTE_DATA structure [Files], _win32_win32_file_attribute_data_str, base.win32_file_attribute_data_str, fileapi/LPWIN32_FILE_ATTRIBUTE_DATA, fileapi/WIN32_FILE_ATTRIBUTE_DATA, fs.win32_file_attribute_data_str'
 ms.topic: struct
-f1_keywords: 
- - "fileapi/WIN32_FILE_ATTRIBUTE_DATA"
+f1_keywords:
+- fileapi/WIN32_FILE_ATTRIBUTE_DATA
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - fileapi.h
+- fileapi.h
 api_name:
- - WIN32_FILE_ATTRIBUTE_DATA
+- WIN32_FILE_ATTRIBUTE_DATA
 targetos: Windows
 req.typenames: WIN32_FILE_ATTRIBUTE_DATA, *LPWIN32_FILE_ATTRIBUTE_DATA
 req.redist: 

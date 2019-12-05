@@ -1,19 +1,17 @@
 ---
 UID: NS:wabdefs._SPropProblem
 title: SPropProblem (wabdefs.h)
-
 description: Do not use. Describes an error relating to an operation involving a property.
 old-location: wab\_wab_SPropProblem.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\spropproblem.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSPropProblem, SPropProblem, SPropProblem structure [Windows Address Book], _wab_SPropProblem, wab._wab_SPropProblem, wabdefs/SPropProblem"
+ms.keywords: '*LPSPropProblem, SPropProblem, SPropProblem structure [Windows Address Book], _wab_SPropProblem, wab._wab_SPropProblem, wabdefs/SPropProblem'
 ms.topic: struct
-f1_keywords: 
- - "wabdefs/SPropProblem"
+f1_keywords:
+- wabdefs/SPropProblem
 dev_langs:
- - c++
+- c++
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wabdefs.h
+- Wabdefs.h
 api_name:
- - SPropProblem
+- SPropProblem
 targetos: Windows
 req.typenames: SPropProblem, *LPSPropProblem
 req.redist: 

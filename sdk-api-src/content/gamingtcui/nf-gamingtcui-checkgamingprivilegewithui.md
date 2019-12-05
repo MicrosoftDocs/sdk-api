@@ -1,19 +1,17 @@
 ---
 UID: NF:gamingtcui.CheckGamingPrivilegeWithUI
 title: CheckGamingPrivilegeWithUI function (gamingtcui.h)
-
 description: Do not use. This API is only supported for Xbox developers.
 old-location: tcui\CheckGamingPrivilegeWithUI.htm
 tech.root: tcui
 ms.assetid: D6336E6F-427B-4122-B437-411A7F6A0751
-
 ms.date: 12/05/2018
 ms.keywords: CheckGamingPrivilegeWithUI, CheckGamingPrivilegeWithUI function, gamingtcui/CheckGamingPrivilegeWithUI, tcui.CheckGamingPrivilegeWithUI
 ms.topic: function
-f1_keywords: 
- - "gamingtcui/CheckGamingPrivilegeWithUI"
+f1_keywords:
+- gamingtcui/CheckGamingPrivilegeWithUI
 dev_langs:
- - c++
+- c++
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WindowsApp.lib
 req.dll: Gamingtcui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gamingtcui.dll
+- gamingtcui.dll
 api_name:
- - CheckGamingPrivilegeWithUI
+- CheckGamingPrivilegeWithUI
 targetos: Windows
 req.typenames: 
 req.redist: 

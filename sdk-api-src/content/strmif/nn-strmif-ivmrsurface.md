@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IVMRSurface
 title: IVMRSurface (strmif.h)
-
 description: The IVMRSurface interface is implemented on the media samples used by the Video Mixing Renderer Filter 7 (VMR-7).
 old-location: dshow\ivmrsurface.htm
 tech.root: DirectShow
 ms.assetid: 8222ea5c-be77-4f33-83ff-073fb3e85e73
-
 ms.date: 12/05/2018
 ms.keywords: IVMRSurface, IVMRSurface interface [DirectShow], IVMRSurface interface [DirectShow],described, IVMRSurfaceInterface, dshow.ivmrsurface, strmif/IVMRSurface
 ms.topic: interface
-f1_keywords: 
- - "strmif/IVMRSurface"
+f1_keywords:
+- strmif/IVMRSurface
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurface
+- IVMRSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

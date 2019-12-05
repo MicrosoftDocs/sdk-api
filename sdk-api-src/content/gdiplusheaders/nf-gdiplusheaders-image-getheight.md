@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.GetHeight
 title: Image::GetHeight (gdiplusheaders.h)
-
 description: The Image::GetHeight method gets the image height, in pixels, of this image.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetHeight_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getheight_27.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetHeight, GetHeight method [GDI+], GetHeight method [GDI+],Image class, Image class [GDI+],GetHeight method, Image.GetHeight, Image::GetHeight, _gdiplus_CLASS_Image_GetHeight_, gdiplus._gdiplus_CLASS_Image_GetHeight_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.GetHeight"
+f1_keywords:
+- gdiplusheaders/Image.GetHeight
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.GetHeight
+- Image.GetHeight
 targetos: Windows
 req.typenames: 
 req.redist: 

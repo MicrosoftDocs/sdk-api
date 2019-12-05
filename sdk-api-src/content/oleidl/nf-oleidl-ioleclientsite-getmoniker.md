@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleClientSite.GetMoniker
 title: IOleClientSite::GetMoniker (oleidl.h)
-
 description: Retrieves a moniker for the object's client site. An object can force the assignment of its own or its container's moniker by specifying a value for dwAssign.
 old-location: com\ioleclientsite_getmoniker.htm
 tech.root: com
 ms.assetid: 9ca3e997-9a96-43c3-a213-de8c8440cd54
-
 ms.date: 12/05/2018
 ms.keywords: GetMoniker, GetMoniker method [COM], GetMoniker method [COM],IOleClientSite interface, IOleClientSite interface [COM],GetMoniker method, IOleClientSite.GetMoniker, IOleClientSite::GetMoniker, _ole_ioleclientsite_getmoniker, com.ioleclientsite_getmoniker, oleidl/IOleClientSite::GetMoniker
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleClientSite.GetMoniker"
+f1_keywords:
+- oleidl/IOleClientSite.GetMoniker
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleClientSite.GetMoniker
+- IOleClientSite.GetMoniker
 targetos: Windows
 req.typenames: 
 req.redist: 

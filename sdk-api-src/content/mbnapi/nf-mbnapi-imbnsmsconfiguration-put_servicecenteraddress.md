@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnSmsConfiguration.put_ServiceCenterAddress
 title: IMbnSmsConfiguration::put_ServiceCenterAddress (mbnapi.h)
-
 description: SMS default Service Center address.
 old-location: mbn\imbnsmsconfiguration_servicecenteraddress.htm
 tech.root: mbn
 ms.assetid: 10f34db2-2f1b-4e51-96c7-70a080804fd4
-
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsConfiguration interface [Microsoft Broadband Networks],ServiceCenterAddress property, IMbnSmsConfiguration.ServiceCenterAddress, IMbnSmsConfiguration.put_ServiceCenterAddress, IMbnSmsConfiguration::ServiceCenterAddress, IMbnSmsConfiguration::get_ServiceCenterAddress, IMbnSmsConfiguration::put_ServiceCenterAddress, ServiceCenterAddress property [Microsoft Broadband Networks], ServiceCenterAddress property [Microsoft Broadband Networks],IMbnSmsConfiguration interface, mbn.imbnsmsconfiguration_servicecenteraddress, mbnapi/IMbnSmsConfiguration::ServiceCenterAddress, mbnapi/IMbnSmsConfiguration::get_ServiceCenterAddress, mbnapi/IMbnSmsConfiguration::put_ServiceCenterAddress, put_ServiceCenterAddress
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnSmsConfiguration.ServiceCenterAddress"
+f1_keywords:
+- mbnapi/IMbnSmsConfiguration.ServiceCenterAddress
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: Mbnapi.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnSmsConfiguration.ServiceCenterAddress
- - IMbnSmsConfiguration.get_ServiceCenterAddress
- - IMbnSmsConfiguration.put_ServiceCenterAddress
+- IMbnSmsConfiguration.ServiceCenterAddress
+- IMbnSmsConfiguration.get_ServiceCenterAddress
+- IMbnSmsConfiguration.put_ServiceCenterAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

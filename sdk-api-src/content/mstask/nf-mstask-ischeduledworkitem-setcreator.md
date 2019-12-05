@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.SetCreator
 title: IScheduledWorkItem::SetCreator (mstask.h)
-
 description: Sets the name of the work item's creator.
 old-location: taskschd\ischeduledworkitem_setcreator.htm
 tech.root: taskschd
 ms.assetid: e15c6aba-79f7-407f-81d1-b7ec404c68f9
-
 ms.date: 12/05/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetCreator method, IScheduledWorkItem.SetCreator, IScheduledWorkItem::SetCreator, SetCreator, SetCreator method [Task Scheduler], SetCreator method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setcreator, mstask/IScheduledWorkItem::SetCreator, taskschd.ischeduledworkitem_setcreator
 ms.topic: method
-f1_keywords: 
- - "mstask/IScheduledWorkItem.SetCreator"
+f1_keywords:
+- mstask/IScheduledWorkItem.SetCreator
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IScheduledWorkItem.SetCreator
+- IScheduledWorkItem.SetCreator
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

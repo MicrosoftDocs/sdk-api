@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.DeliverTime
 title: IWMReaderAdvanced::DeliverTime (wmsdkidl.h)
-
 description: The DeliverTime method provides the reader with a clock time. Use this method only when the application is providing the clock.
 old-location: wmformat\iwmreaderadvanced_delivertime.htm
 tech.root: wmformat
 ms.assetid: 5e47ef96-9971-47b0-a003-b38f4045da7a
-
 ms.date: 12/05/2018
 ms.keywords: DeliverTime, DeliverTime method [windows Media Format], DeliverTime method [windows Media Format],IWMReaderAdvanced interface, DeliverTime method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced interface [windows Media Format],DeliverTime method, IWMReaderAdvanced.DeliverTime, IWMReaderAdvanced2 interface [windows Media Format],DeliverTime method, IWMReaderAdvanced2::DeliverTime, IWMReaderAdvanced::DeliverTime, IWMReaderAdvancedDeliverTime, wmformat.iwmreaderadvanced_delivertime, wmsdkidl/IWMReaderAdvanced2::DeliverTime, wmsdkidl/IWMReaderAdvanced::DeliverTime
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced.DeliverTime"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced.DeliverTime
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
- - qasf.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
+- qasf.dll
 api_name:
- - IWMReaderAdvanced.DeliverTime
- - IWMReaderAdvanced2.DeliverTime
+- IWMReaderAdvanced.DeliverTime
+- IWMReaderAdvanced2.DeliverTime
 targetos: Windows
 req.typenames: 
 req.redist: 

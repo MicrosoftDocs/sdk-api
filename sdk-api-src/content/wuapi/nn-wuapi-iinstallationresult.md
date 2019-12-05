@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IInstallationResult
 title: IInstallationResult (wuapi.h)
-
 description: Represents the result of an installation or uninstallation.
 old-location: wua\iinstallationresult.htm
 tech.root: Wua_Sdk
 ms.assetid: 453945d7-11a3-4237-b1c8-928194be558d
-
 ms.date: 12/05/2018
 ms.keywords: IInstallationResult, IInstallationResult interface [Windows Update Agent], IInstallationResult interface [Windows Update Agent],described, wua.iinstallationresult, wuapi/IInstallationResult
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IInstallationResult"
+f1_keywords:
+- wuapi/IInstallationResult
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IInstallationResult
+- IInstallationResult
 targetos: Windows
 req.typenames: 
 req.redist: 

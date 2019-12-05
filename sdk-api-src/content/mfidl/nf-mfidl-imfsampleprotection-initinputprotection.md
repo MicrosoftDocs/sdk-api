@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSampleProtection.InitInputProtection
 title: IMFSampleProtection::InitInputProtection (mfidl.h)
-
 description: Initializes sample protection on the downstream component.
 old-location: mf\imfsampleprotection_initinputprotection.htm
 tech.root: medfound
 ms.assetid: 2bd43f33-8528-4e78-97d5-2af39a2ac06b
-
 ms.date: 12/05/2018
 ms.keywords: 2bd43f33-8528-4e78-97d5-2af39a2ac06b, IMFSampleProtection interface [Media Foundation],InitInputProtection method, IMFSampleProtection.InitInputProtection, IMFSampleProtection::InitInputProtection, InitInputProtection, InitInputProtection method [Media Foundation], InitInputProtection method [Media Foundation],IMFSampleProtection interface, mf.imfsampleprotection_initinputprotection, mfidl/IMFSampleProtection::InitInputProtection
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSampleProtection.InitInputProtection"
+f1_keywords:
+- mfidl/IMFSampleProtection.InitInputProtection
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSampleProtection.InitInputProtection
+- IMFSampleProtection.InitInputProtection
 targetos: Windows
 req.typenames: 
 req.redist: 

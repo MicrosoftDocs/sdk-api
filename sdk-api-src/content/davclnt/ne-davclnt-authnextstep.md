@@ -1,19 +1,17 @@
 ---
 UID: NE:davclnt.__unnamed_enum_0
 title: AUTHNEXTSTEP (davclnt.h)
-
 description: Specifies the next action that the WebDAV client should take after a successful call to the DavAuthCallback callback function.
 old-location: webdav\authnextstep.htm
 tech.root: WebDAV
 ms.assetid: e9ce9e61-c395-4f6b-843c-c1caa13ac3b4
-
 ms.date: 12/05/2018
 ms.keywords: AUTHNEXTSTEP, AUTHNEXTSTEP enumeration [WebDAV], CancelRequest, DefaultBehavior, RetryRequest, davclnt/AUTHNEXTSTEP, davclnt/CancelRequest, davclnt/DefaultBehavior, davclnt/RetryRequest, webdav.authnextstep
 ms.topic: enum
-f1_keywords: 
- - "davclnt/AUTHNEXTSTEP"
+f1_keywords:
+- davclnt/AUTHNEXTSTEP
 dev_langs:
- - c++
+- c++
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - davclnt.h
+- davclnt.h
 api_name:
- - AUTHNEXTSTEP
+- AUTHNEXTSTEP
 targetos: Windows
 req.typenames: AUTHNEXTSTEP
 req.redist: 

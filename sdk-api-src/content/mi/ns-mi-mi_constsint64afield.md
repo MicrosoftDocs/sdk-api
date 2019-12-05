@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_ConstSint64AField
 title: MI_ConstSint64AField (mi.h)
-
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_constsint64afield.htm
 tech.root: wmi_v2
 ms.assetid: fe1098d5-70a1-454f-820a-37737d353c2b
-
 ms.date: 12/05/2018
 ms.keywords: MI_ConstSint64AField, MI_ConstSint64AField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstSint64AField, wmi._mi_constsint64afield, wmi_v2.mi_constsint64afield
 ms.topic: struct
 f1_keywords:
 - mi/MI_ConstSint64AField
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

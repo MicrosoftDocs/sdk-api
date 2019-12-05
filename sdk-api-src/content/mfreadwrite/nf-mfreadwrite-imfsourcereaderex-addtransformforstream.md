@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderEx.AddTransformForStream
 title: IMFSourceReaderEx::AddTransformForStream (mfreadwrite.h)
-
 description: Adds a transform, such as an audio or video effect, to a stream.
 old-location: mf\imfsourcereaderex_addtransformforstream.htm
 tech.root: medfound
 ms.assetid: 493BB3CF-044D-4E83-9FF7-BD2039358501
-
 ms.date: 12/05/2018
 ms.keywords: AddTransformForStream, AddTransformForStream method [Media Foundation], AddTransformForStream method [Media Foundation],IMFSourceReaderEx interface, IMFSourceReaderEx interface [Media Foundation],AddTransformForStream method, IMFSourceReaderEx.AddTransformForStream, IMFSourceReaderEx::AddTransformForStream, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereaderex_addtransformforstream, mfreadwrite/IMFSourceReaderEx::AddTransformForStream
 ms.topic: method
-f1_keywords: 
- - "mfreadwrite/IMFSourceReaderEx.AddTransformForStream"
+f1_keywords:
+- mfreadwrite/IMFSourceReaderEx.AddTransformForStream
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSourceReaderEx.AddTransformForStream
+- IMFSourceReaderEx.AddTransformForStream
 targetos: Windows
 req.typenames: 
 req.redist: 

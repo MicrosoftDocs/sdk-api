@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_51
 title: WS_SECURITY_HEADER_VERSION (webservices.h)
-
 description: The WS-Security specification version to be used with message security and mixed-mode security.
 old-location: wsw\ws_security_header_version.htm
 tech.root: wsw
 ms.assetid: 27093dc0-f4aa-4602-a51c-76633358792a
-
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_HEADER_VERSION, WS_SECURITY_HEADER_VERSION enumeration [Web Services for Windows], WS_SECURITY_HEADER_VERSION_1_0, WS_SECURITY_HEADER_VERSION_1_1, webservices/WS_SECURITY_HEADER_VERSION, webservices/WS_SECURITY_HEADER_VERSION_1_0, webservices/WS_SECURITY_HEADER_VERSION_1_1, wsw.ws_security_header_version
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_SECURITY_HEADER_VERSION"
+f1_keywords:
+- webservices/WS_SECURITY_HEADER_VERSION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SECURITY_HEADER_VERSION
+- WS_SECURITY_HEADER_VERSION
 targetos: Windows
 req.typenames: WS_SECURITY_HEADER_VERSION
 req.redist: 

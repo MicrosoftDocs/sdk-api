@@ -1,19 +1,17 @@
 ---
 UID: NE:sdoias._NTEVENTLOGPROPERTIES
 title: NTEVENTLOGPROPERTIES (sdoias.h)
-
 description: The values of the NTEVENTLOGPROPERTIES enumeration type enumerate what types of events should be logged in the NT Event Log.
 old-location: nps\SDO_nteventlogproperties.htm
 tech.root: Nps
 ms.assetid: 5b52eae6-4a72-4935-8a82-6e7747ce942e
-
 ms.date: 12/05/2018
 ms.keywords: NTEVENTLOGPROPERTIES, NTEVENTLOGPROPERTIES enumeration [Network Policy Server], PROPERTY_EVENTLOG_LOG_APPLICATION_EVENTS, PROPERTY_EVENTLOG_LOG_DEBUG, PROPERTY_EVENTLOG_LOG_MALFORMED, _sdo_nteventlogproperties, nps.SDO_nteventlogproperties, sdo.nteventlogproperties, sdoias/NTEVENTLOGPROPERTIES, sdoias/PROPERTY_EVENTLOG_LOG_APPLICATION_EVENTS, sdoias/PROPERTY_EVENTLOG_LOG_DEBUG, sdoias/PROPERTY_EVENTLOG_LOG_MALFORMED
 ms.topic: enum
-f1_keywords: 
- - "sdoias/NTEVENTLOGPROPERTIES"
+f1_keywords:
+- sdoias/NTEVENTLOGPROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - NTEVENTLOGPROPERTIES
+- NTEVENTLOGPROPERTIES
 targetos: Windows
 req.typenames: NTEVENTLOGPROPERTIES
 req.redist: 

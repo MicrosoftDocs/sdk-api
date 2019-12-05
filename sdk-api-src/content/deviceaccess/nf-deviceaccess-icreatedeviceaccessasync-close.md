@@ -1,19 +1,17 @@
 ---
 UID: NF:deviceaccess.ICreateDeviceAccessAsync.Close
 title: ICreateDeviceAccessAsync::Close (deviceaccess.h)
-
 description: The Close method performs cleanup after the asynchronous operation is completed and you retrieve the results.
 old-location: deviceaccess\icreatedeviceaccessasync_close.htm
 tech.root: deviceaccess
 ms.assetid: 58887745-6a36-4600-9a1b-f9709a0e37e8
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Device Access Broker API], Close method [Device Access Broker API],ICreateDeviceAccessAsync interface, ICreateDeviceAccessAsync interface [Device Access Broker API],Close method, ICreateDeviceAccessAsync.Close, ICreateDeviceAccessAsync::Close, deviceaccess.icreatedeviceaccessasync_close, deviceaccess/ICreateDeviceAccessAsync::Close
 ms.topic: method
-f1_keywords: 
- - "deviceaccess/ICreateDeviceAccessAsync.Close"
+f1_keywords:
+- deviceaccess/ICreateDeviceAccessAsync.Close
 dev_langs:
- - c++
+- c++
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Deviceaccess.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Deviceaccess.lib
- - Deviceaccess.dll
+- Deviceaccess.lib
+- Deviceaccess.dll
 api_name:
- - ICreateDeviceAccessAsync.Close
+- ICreateDeviceAccessAsync.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10sdklayers.ID3D10Debug
 title: ID3D10Debug (d3d10sdklayers.h)
-
 description: A debug interface controls debug settings, validates pipeline state and can only be used if the debug layer is turned on.
 old-location: direct3d10\id3d10debug.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10debug.htm
-
 ms.date: 12/05/2018
 ms.keywords: 9243084e-1ae3-39f6-3e6b-d8150af7e0cc, ID3D10Debug, ID3D10Debug interface [Direct3D 10], ID3D10Debug interface [Direct3D 10],described, d3d10sdklayers/ID3D10Debug, direct3d10.id3d10debug
 ms.topic: interface
-f1_keywords: 
- - "d3d10sdklayers/ID3D10Debug"
+f1_keywords:
+- d3d10sdklayers/ID3D10Debug
 dev_langs:
- - c++
+- c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Debug
+- ID3D10Debug
 targetos: Windows
 req.typenames: 
 req.redist: 

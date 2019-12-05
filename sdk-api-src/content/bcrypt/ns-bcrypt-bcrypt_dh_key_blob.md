@@ -1,19 +1,17 @@
 ---
 UID: NS:bcrypt._BCRYPT_DH_KEY_BLOB
 title: BCRYPT_DH_KEY_BLOB (bcrypt.h)
-
 description: Used as a header for a Diffie-Hellman public key or private key BLOB in memory.
 old-location: security\bcrypt_dh_key_blob.htm
 tech.root: SecCNG
 ms.assetid: 6004b2e5-7e06-4108-a0da-472b9b6d5fea
-
 ms.date: 12/05/2018
-ms.keywords: "*PBCRYPT_DH_KEY_BLOB, BCRYPT_DH_KEY_BLOB, BCRYPT_DH_KEY_BLOB structure [Security], BCRYPT_DH_PRIVATE_MAGIC, BCRYPT_DH_PUBLIC_MAGIC, PBCRYPT_DH_KEY_BLOB, PBCRYPT_DH_KEY_BLOB structure pointer [Security], bcrypt/BCRYPT_DH_KEY_BLOB, bcrypt/PBCRYPT_DH_KEY_BLOB, security.bcrypt_dh_key_blob"
+ms.keywords: '*PBCRYPT_DH_KEY_BLOB, BCRYPT_DH_KEY_BLOB, BCRYPT_DH_KEY_BLOB structure [Security], BCRYPT_DH_PRIVATE_MAGIC, BCRYPT_DH_PUBLIC_MAGIC, PBCRYPT_DH_KEY_BLOB, PBCRYPT_DH_KEY_BLOB structure pointer [Security], bcrypt/BCRYPT_DH_KEY_BLOB, bcrypt/PBCRYPT_DH_KEY_BLOB, security.bcrypt_dh_key_blob'
 ms.topic: struct
-f1_keywords: 
- - "bcrypt/BCRYPT_DH_KEY_BLOB"
+f1_keywords:
+- bcrypt/BCRYPT_DH_KEY_BLOB
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bcrypt.h
+- Bcrypt.h
 api_name:
- - BCRYPT_DH_KEY_BLOB
+- BCRYPT_DH_KEY_BLOB
 targetos: Windows
 req.typenames: BCRYPT_DH_KEY_BLOB, *PBCRYPT_DH_KEY_BLOB
 req.redist: 

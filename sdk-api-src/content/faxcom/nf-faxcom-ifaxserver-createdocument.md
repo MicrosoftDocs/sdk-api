@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxServer.CreateDocument
 title: IFaxServer::CreateDocument (faxcom.h)
-
 description: The IFaxServer::CreateDocument method creates a FaxDoc object for a specified FaxServer object. The FaxDoc object allows a user to create and transmit a document to one or more fax recipients.
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_createdocument_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0cfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateDocument, CreateDocument method [Fax Service], CreateDocument method [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],CreateDocument method, IFaxServer.CreateDocument, IFaxServer::CreateDocument, _mfax_ifaxserver_createdocument, fax._mfax_ifaxserver_client_mfax_ifaxserver_createdocument_cpp, fax._mfax_ifaxserver_createdocument, faxcom/IFaxServer::CreateDocument
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxServer.CreateDocument"
+f1_keywords:
+- faxcom/IFaxServer.CreateDocument
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxServer.CreateDocument
- - IFaxServer.CreateDocument
+- IFaxServer.CreateDocument
+- IFaxServer.CreateDocument
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedLocalizedControlType
 title: IUIAutomationElement::get_CachedLocalizedControlType (uiautomationclient.h)
-
 description: Retrieves the cached localized description of the control type of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedLocalizedControlType.htm
 tech.root: WinAuto
 ms.assetid: 815cce32-45ca-4fd1-aedc-5b288d876d60
-
 ms.date: 12/05/2018
 ms.keywords: CachedLocalizedControlType property [Windows Accessibility], CachedLocalizedControlType property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedLocalizedControlType property, IUIAutomationElement.CachedLocalizedControlType, IUIAutomationElement.get_CachedLocalizedControlType, IUIAutomationElement::CachedLocalizedControlType, IUIAutomationElement::get_CachedLocalizedControlType, get_CachedLocalizedControlType, uiauto.uiauto_IUIAutomationElement_CachedLocalizedControlType, uiauto_IUIAutomationElement_CachedLocalizedControlType, uiautomationclient/IUIAutomationElement::CachedLocalizedControlType, uiautomationclient/IUIAutomationElement::get_CachedLocalizedControlType, winauto.uiauto_IUIAutomationElement_CachedLocalizedControlType
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CachedLocalizedControlType"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CachedLocalizedControlType
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedLocalizedControlType
- - IUIAutomationElement.get_CachedLocalizedControlType
+- IUIAutomationElement.CachedLocalizedControlType
+- IUIAutomationElement.get_CachedLocalizedControlType
 targetos: Windows
 req.typenames: 
 req.redist: 

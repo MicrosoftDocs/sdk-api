@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.get_Operations
 title: ICspAlgorithm::get_Operations (certenroll.h)
-
 description: Retrieves the operations that can be performed by the algorithm.
 old-location: security\icspalgorithm_operations.htm
 tech.root: seccertenroll
 ms.assetid: 46e6bf91-a50a-4360-9bfe-e41e8bcc1112
-
 ms.date: 12/05/2018
 ms.keywords: ICspAlgorithm interface [Security],Operations property, ICspAlgorithm.Operations, ICspAlgorithm.get_Operations, ICspAlgorithm::Operations, ICspAlgorithm::get_Operations, Operations property [Security], Operations property [Security],ICspAlgorithm interface, XCN_NCRYPT_ANY_ASYMMETRIC_OPERATION, XCN_NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, XCN_NCRYPT_CIPHER_OPERATION, XCN_NCRYPT_HASH_OPERATION, XCN_NCRYPT_RNG_OPERATION, XCN_NCRYPT_SECRET_AGREEMENT_OPERATION, XCN_NCRYPT_SIGNATURE_OPERATION, certenroll/ICspAlgorithm::Operations, certenroll/ICspAlgorithm::get_Operations, get_Operations, security.icspalgorithm_operations
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspAlgorithm.Operations"
+f1_keywords:
+- certenroll/ICspAlgorithm.Operations
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspAlgorithm.Operations
- - ICspAlgorithm.get_Operations
+- ICspAlgorithm.Operations
+- ICspAlgorithm.get_Operations
 targetos: Windows
 req.typenames: 
 req.redist: 

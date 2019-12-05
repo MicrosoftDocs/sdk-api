@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetUserObjectSecurity
 title: SetUserObjectSecurity function (winuser.h)
-
 description: Sets the security of a user object. This can be, for example, a window or a DDE conversation.
 old-location: security\setuserobjectsecurity.htm
 tech.root: SecAuthZ
 ms.assetid: 219e41b8-9ac7-4747-a585-b6b9df6a1c9c
-
 ms.date: 12/05/2018
 ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, SetUserObjectSecurity, SetUserObjectSecurity function [Security], _win32_setuserobjectsecurity, security.setuserobjectsecurity, winuser/SetUserObjectSecurity
 ms.topic: function
 f1_keywords:
 - winuser/SetUserObjectSecurity
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

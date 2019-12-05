@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_RESOLVE_MODE
 title: D3D12_RESOLVE_MODE (d3d12.h)
-
 description: Specifies a resolve operation.
 old-location: direct3d12\d3d12_resolve_mode.htm
 tech.root: direct3d12
 ms.assetid: 1E14F62A-E6B9-4C88-AC28-2322C4662E1F
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_RESOLVE_MODE, D3D12_RESOLVE_MODE enumeration, D3D12_RESOLVE_MODE_AVERAGE, D3D12_RESOLVE_MODE_DECOMPRESS, D3D12_RESOLVE_MODE_MAX, D3D12_RESOLVE_MODE_MIN, d3d12/D3D12_RESOLVE_MODE, d3d12/D3D12_RESOLVE_MODE_AVERAGE, d3d12/D3D12_RESOLVE_MODE_DECOMPRESS, d3d12/D3D12_RESOLVE_MODE_MAX, d3d12/D3D12_RESOLVE_MODE_MIN, direct3d12.d3d12_resolve_mode
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_RESOLVE_MODE"
+f1_keywords:
+- d3d12/D3D12_RESOLVE_MODE
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_RESOLVE_MODE
+- D3D12_RESOLVE_MODE
 targetos: Windows
 req.typenames: D3D12_RESOLVE_MODE
 req.redist: 

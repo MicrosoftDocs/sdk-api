@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.IAccPropServer.GetPropValue
 title: IAccPropServer::GetPropValue (oleacc.h)
-
 description: Retrieves a property value for an accessible element.
 old-location: winauto\iaccpropserver_iaccpropserver__getpropvalue.htm
 tech.root: WinAuto
 ms.assetid: 35cb2935-c41b-4588-9199-23789af23b72
-
 ms.date: 12/05/2018
 ms.keywords: GetPropValue, GetPropValue method [Windows Accessibility], GetPropValue method [Windows Accessibility],IAccPropServer interface, IAccPropServer interface [Windows Accessibility],GetPropValue method, IAccPropServer.GetPropValue, IAccPropServer::GetPropValue, _msaa_IAccPropServer_GetPropValue, msaa.iaccpropserver_iaccpropserver__getpropvalue, oleacc/IAccPropServer::GetPropValue, winauto.iaccpropserver_iaccpropserver__getpropvalue
 ms.topic: method
-f1_keywords: 
- - "oleacc/IAccPropServer.GetPropValue"
+f1_keywords:
+- oleacc/IAccPropServer.GetPropValue
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - IAccPropServer.GetPropValue
+- IAccPropServer.GetPropValue
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98

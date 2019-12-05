@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhValidatePathExW
 title: PdhValidatePathExW function (pdh.h)
-
 description: Validates that the specified counter is present on the computer or in the log file.
 old-location: perf\pdhvalidatepathex.htm
 tech.root: perfctrs
 ms.assetid: e6b52af7-7276-4565-aa61-73899796a13c
-
 ms.date: 12/05/2018
 ms.keywords: PdhValidatePathEx, PdhValidatePathEx function [Perf], PdhValidatePathExA, PdhValidatePathExW, pdh/PdhValidatePathEx, pdh/PdhValidatePathExA, pdh/PdhValidatePathExW, perf.pdhvalidatepathex
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhValidatePathEx"
+f1_keywords:
+- pdh/PdhValidatePathEx
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhValidatePathEx
- - PdhValidatePathExA
- - PdhValidatePathExW
+- PdhValidatePathEx
+- PdhValidatePathExA
+- PdhValidatePathExW
 targetos: Windows
 req.typenames: 
 req.redist: 

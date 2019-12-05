@@ -1,19 +1,17 @@
 ---
 UID: NF:winnetwk.WNetGetLastErrorW
 title: WNetGetLastErrorW function (winnetwk.h)
-
 description: The WNetGetLastError function retrieves the most recent extended error code set by a WNet function. The network provider reported this error code; it will not generally be one of the errors included in the SDK header file WinError.h.
 old-location: wnet\wnetgetlasterror.htm
 tech.root: WNet
 ms.assetid: 8e13c467-adcf-4e97-b51a-1f5fc919b51e
-
 ms.date: 12/05/2018
 ms.keywords: WNetGetLastError, WNetGetLastError function [Windows Networking (WNet)], WNetGetLastErrorA, WNetGetLastErrorW, _win32_wnetgetlasterror, winnetwk/WNetGetLastError, winnetwk/WNetGetLastErrorA, winnetwk/WNetGetLastErrorW, wnet.wnetgetlasterror
 ms.topic: function
-f1_keywords: 
- - "winnetwk/WNetGetLastError"
+f1_keywords:
+- winnetwk/WNetGetLastError
 dev_langs:
- - c++
+- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mpr.dll
+- Mpr.dll
 api_name:
- - WNetGetLastError
- - WNetGetLastErrorA
- - WNetGetLastErrorW
+- WNetGetLastError
+- WNetGetLastErrorA
+- WNetGetLastErrorW
 targetos: Windows
 req.typenames: 
 req.redist: 

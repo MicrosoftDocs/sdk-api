@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Enumerate_Classes_Ex
 title: CM_Enumerate_Classes_Ex function (cfgmgr32.h)
-
 description: The CM_Enumerate_Classes_Ex function, when called repeatedly, enumerates a local or a remote machine's installed device classes, by supplying each class's GUID.
 old-location: devinst\cm_enumerate_classes_ex.htm
 tech.root: devinst
 ms.assetid: 8dce071c-3f91-42c2-a334-ec1051b6436a
-
 ms.date: 12/05/2018
 ms.keywords: CM_Enumerate_Classes_Ex, CM_Enumerate_Classes_Ex function [Device and Driver Installation], cfgmgr32/CM_Enumerate_Classes_Ex, cfgmgrfn_586eceae-046e-4e4a-8763-e287b039585e.xml, devinst.cm_enumerate_classes_ex
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Enumerate_Classes_Ex"
+f1_keywords:
+- cfgmgr32/CM_Enumerate_Classes_Ex
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib: Cfgmgr32.lib
 req.dll: Cfgmgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.dll
+- Cfgmgr32.dll
 api_name:
- - CM_Enumerate_Classes_Ex
+- CM_Enumerate_Classes_Ex
 targetos: Windows
 req.typenames: 
 req.redist: 

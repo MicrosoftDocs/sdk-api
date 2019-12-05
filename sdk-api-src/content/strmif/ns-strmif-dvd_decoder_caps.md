@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif.tagDVD_DECODER_CAPS
 title: DVD_DECODER_CAPS (strmif.h)
-
 description: The DVD_DECODER_CAPS structure indicates the capabilities of a DVD decoder.
 old-location: dshow\dvd_decoder_caps.htm
 tech.root: DirectShow
 ms.assetid: 7bfe5922-5d84-4ec8-87a0-e9bad102508b
-
 ms.date: 12/05/2018
 ms.keywords: DVD_AUDIO_CAPS_AC3, DVD_AUDIO_CAPS_DTS, DVD_AUDIO_CAPS_LPCM, DVD_AUDIO_CAPS_MPEG2, DVD_AUDIO_CAPS_SDDS, DVD_DECODER_CAPS, DVD_DECODER_CAPS structure [DirectShow], DVD_DECODER_CAPSStructure, dshow.dvd_decoder_caps, strmif/DVD_DECODER_CAPS
 ms.topic: struct
-f1_keywords: 
- - "strmif/DVD_DECODER_CAPS"
+f1_keywords:
+- strmif/DVD_DECODER_CAPS
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - DVD_DECODER_CAPS
+- DVD_DECODER_CAPS
 targetos: Windows
 req.typenames: DVD_DECODER_CAPS
 req.redist: 

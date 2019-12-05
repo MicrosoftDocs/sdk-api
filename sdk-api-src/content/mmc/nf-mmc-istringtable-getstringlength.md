@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IStringTable.GetStringLength
 title: IStringTable::GetStringLength (mmc.h)
-
 description: Enables a snap-in to determine the length of a string in the snap-in's string table.
 old-location: mmc\istringtable_getstringlength.htm
 tech.root: mmc
 ms.assetid: 1924c4fa-ecbb-4f03-8c93-e2bb3dc8f4e3
-
 ms.date: 12/05/2018
 ms.keywords: GetStringLength, GetStringLength method [MMC], GetStringLength method [MMC],IStringTable interface, IStringTable interface [MMC],GetStringLength method, IStringTable.GetStringLength, IStringTable::GetStringLength, _slate_istringtable_getstringlength, mmc.istringtable_getstringlength, mmc/IStringTable::GetStringLength
 ms.topic: method
-f1_keywords: 
- - "mmc/IStringTable.GetStringLength"
+f1_keywords:
+- mmc/IStringTable.GetStringLength
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IStringTable.GetStringLength
+- IStringTable.GetStringLength
 targetos: Windows
 req.typenames: 
 req.redist: 

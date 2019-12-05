@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory.CreateEncryptedBundleReader
 title: IAppxEncryptionFactory::CreateEncryptedBundleReader (appxpackaging.h)
-
 description: Creates a read-only bundle object to which encrypted Windows app packages can be added.
 old-location: appxpkg\iappxencryptionfactory_createencryptedbundlereader.htm
 tech.root: appxpkg
 ms.assetid: 1802E721-9320-4B05-9C38-6C3AC3FB413C
-
 ms.date: 12/05/2018
 ms.keywords: CreateEncryptedBundleReader, CreateEncryptedBundleReader method [App packaging and management], CreateEncryptedBundleReader method [App packaging and management],IAppxEncryptionFactory interface, IAppxEncryptionFactory interface [App packaging and management],CreateEncryptedBundleReader method, IAppxEncryptionFactory.CreateEncryptedBundleReader, IAppxEncryptionFactory::CreateEncryptedBundleReader, appxpackaging/IAppxEncryptionFactory::CreateEncryptedBundleReader, appxpkg.iappxencryptionfactory_createencryptedbundlereader
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxEncryptionFactory.CreateEncryptedBundleReader"
+f1_keywords:
+- appxpackaging/IAppxEncryptionFactory.CreateEncryptedBundleReader
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxEncryptionFactory.CreateEncryptedBundleReader
+- IAppxEncryptionFactory.CreateEncryptedBundleReader
 targetos: Windows
 req.typenames: 
 req.redist: 

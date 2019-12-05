@@ -1,19 +1,17 @@
 ---
 UID: NF:wsbapp.IWsbApplicationAsync.QueryStatus
 title: IWsbApplicationAsync::QueryStatus (wsbapp.h)
-
 description: Queries the status of an asynchronous operation.
 old-location: wsb\iwsbapplicationasync_querystatus.htm
 tech.root: wsb
 ms.assetid: 0705e4a8-b65e-4740-b073-7fb24e5d02ef
-
 ms.date: 12/05/2018
 ms.keywords: IWsbApplicationAsync interface [Windows Server Backup],QueryStatus method, IWsbApplicationAsync.QueryStatus, IWsbApplicationAsync::QueryStatus, QueryStatus, QueryStatus method [Windows Server Backup], QueryStatus method [Windows Server Backup],IWsbApplicationAsync interface, S_OK, WSBAPP_ASYNC_IN_PROGRESS, wsb.iwsbapplicationasync_querystatus, wsbapp/IWsbApplicationAsync::QueryStatus
 ms.topic: method
-f1_keywords: 
- - "wsbapp/IWsbApplicationAsync.QueryStatus"
+f1_keywords:
+- wsbapp/IWsbApplicationAsync.QueryStatus
 dev_langs:
- - c++
+- c++
 req.header: wsbapp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WsbApp.h
+- WsbApp.h
 api_name:
- - IWsbApplicationAsync.QueryStatus
+- IWsbApplicationAsync.QueryStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

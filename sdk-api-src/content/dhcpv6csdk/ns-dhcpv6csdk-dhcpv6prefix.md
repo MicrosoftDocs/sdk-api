@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpv6csdk._DHCPV6Prefix
 title: DHCPV6Prefix (dhcpv6csdk.h)
-
 description: The DHCPV6Prefix contains an IPv6 prefix.
 old-location: dhcp\dhcpv6prefix.htm
 tech.root: DHCP
 ms.assetid: e04e3275-e4be-44bc-bd63-c45500971af7
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCPV6Prefix, *PDHCPV6Prefix, DHCPV6Prefix, DHCPV6Prefix structure [DHCP], LPDHCPV6Prefix, LPDHCPV6Prefix structure pointer [DHCP], PDHCPV6Prefix, PDHCPV6Prefix structure pointer [DHCP], dhcp.dhcpv6prefix, dhcpv6csdk/DHCPV6Prefix, dhcpv6csdk/LPDHCPV6Prefix, dhcpv6csdk/PDHCPV6Prefix"
+ms.keywords: '*LPDHCPV6Prefix, *PDHCPV6Prefix, DHCPV6Prefix, DHCPV6Prefix structure [DHCP], LPDHCPV6Prefix, LPDHCPV6Prefix structure pointer [DHCP], PDHCPV6Prefix, PDHCPV6Prefix structure pointer [DHCP], dhcp.dhcpv6prefix, dhcpv6csdk/DHCPV6Prefix, dhcpv6csdk/LPDHCPV6Prefix, dhcpv6csdk/PDHCPV6Prefix'
 ms.topic: struct
-f1_keywords: 
- - "dhcpv6csdk/DHCPV6Prefix"
+f1_keywords:
+- dhcpv6csdk/DHCPV6Prefix
 dev_langs:
- - c++
+- c++
 req.header: dhcpv6csdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpv6csdk.h
+- Dhcpv6csdk.h
 api_name:
- - DHCPV6Prefix
+- DHCPV6Prefix
 targetos: Windows
 req.typenames: DHCPV6Prefix, *PDHCPV6Prefix, *LPDHCPV6Prefix
 req.redist: 

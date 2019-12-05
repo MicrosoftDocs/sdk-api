@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFSample.AddBuffer
 title: IMFSample::AddBuffer (mfobjects.h)
-
 description: Adds a buffer to the end of the list of buffers in the sample.
 old-location: mf\imfsample_addbuffer.htm
 tech.root: medfound
 ms.assetid: 61c2a1dc-b9fe-4296-bf33-d54006cad32b
-
 ms.date: 12/05/2018
 ms.keywords: 61c2a1dc-b9fe-4296-bf33-d54006cad32b, AddBuffer, AddBuffer method [Media Foundation], AddBuffer method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],AddBuffer method, IMFSample.AddBuffer, IMFSample::AddBuffer, mf.imfsample_addbuffer, mfobjects/IMFSample::AddBuffer
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFSample.AddBuffer"
+f1_keywords:
+- mfobjects/IMFSample.AddBuffer
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSample.AddBuffer
+- IMFSample.AddBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

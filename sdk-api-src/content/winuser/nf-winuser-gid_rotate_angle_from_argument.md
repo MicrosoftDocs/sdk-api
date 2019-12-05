@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GID_ROTATE_ANGLE_FROM_ARGUMENT
 title: GID_ROTATE_ANGLE_FROM_ARGUMENT macro (winuser.h)
-
 description: The GID_ROTATE_ANGLE_FROM_ARGUMENT macro is used to interpret the GID_ROTATE ullArgument value when receiving the value in the WM_GESTURE structure.
 old-location: wintouch\gci_rotate_angle_from_argument.htm
 tech.root: wintouch
 ms.assetid: 8967e870-b444-402e-a343-9ac427ce1f07
-
 ms.date: 12/05/2018
 ms.keywords: GID_ROTATE_ANGLE_FROM_ARGUMENT, GID_ROTATE_ANGLE_FROM_ARGUMENT macro [Windows Touch], wintouch.gci_rotate_angle_from_argument, winuser/GID_ROTATE_ANGLE_FROM_ARGUMENT
 ms.topic: macro
-f1_keywords: 
- - "winuser/GID_ROTATE_ANGLE_FROM_ARGUMENT"
+f1_keywords:
+- winuser/GID_ROTATE_ANGLE_FROM_ARGUMENT
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winuser.h
+- winuser.h
 api_name:
- - GID_ROTATE_ANGLE_FROM_ARGUMENT
+- GID_ROTATE_ANGLE_FROM_ARGUMENT
 targetos: Windows
 req.typenames: 
 req.redist: 

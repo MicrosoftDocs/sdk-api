@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagLITEM
 title: LITEM (commctrl.h)
-
 description: Used to set and retrieve information about a link item.
 old-location: controls\LITEM.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\syslink\structures\litem.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PLITEM, LITEM, LITEM structure [Windows Controls], PLITEM, PLITEM structure pointer [Windows Controls], commctrl/LITEM, commctrl/PLITEM, controls.LITEM, controls.inet_LITEM, inet_LITEM, inet_LITEM_cpp"
+ms.keywords: '*PLITEM, LITEM, LITEM structure [Windows Controls], PLITEM, PLITEM structure pointer [Windows Controls], commctrl/LITEM, commctrl/PLITEM, controls.LITEM, controls.inet_LITEM, inet_LITEM, inet_LITEM_cpp'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/LITEM"
+f1_keywords:
+- commctrl/LITEM
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - LITEM
+- LITEM
 targetos: Windows
 req.typenames: LITEM, *PLITEM
 req.redist: 

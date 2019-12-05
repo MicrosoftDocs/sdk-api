@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication3.ScopeExists
 title: IAzApplication3::ScopeExists (azroles.h)
-
 description: Indicates whether the specified scope exists in this IAzApplication3 object.
 old-location: security\iazapplication3_scopeexists.htm
 tech.root: SecAuthZ
 ms.assetid: 585f8b16-e634-4ac6-a20a-214eea344b0a
-
 ms.date: 12/05/2018
 ms.keywords: IAzApplication3 interface [Security],ScopeExists method, IAzApplication3.ScopeExists, IAzApplication3::ScopeExists, ScopeExists, ScopeExists method [Security], ScopeExists method [Security],IAzApplication3 interface, azroles/IAzApplication3::ScopeExists, security.iazapplication3_scopeexists
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication3.ScopeExists"
+f1_keywords:
+- azroles/IAzApplication3.ScopeExists
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication3.ScopeExists
+- IAzApplication3.ScopeExists
 targetos: Windows
 req.typenames: 
 req.redist: 

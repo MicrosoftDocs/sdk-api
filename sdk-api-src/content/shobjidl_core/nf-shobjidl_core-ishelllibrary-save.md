@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.Save
 title: IShellLibrary::Save (shobjidl_core.h)
-
 description: Saves the library to a new Library Description (*.library-ms) file.
 old-location: shell\IShellLibrary_Save.htm
 tech.root: shell
 ms.assetid: 2a7de829-f0bc-4ace-aed4-83d0611ae292
-
 ms.date: 12/05/2018
 ms.keywords: IShellLibrary interface [Windows Shell],Save method, IShellLibrary.Save, IShellLibrary::Save, Save, Save method [Windows Shell], Save method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_Save, shell.IShellLibrary_Save, shobjidl_core/IShellLibrary::Save
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellLibrary.Save"
+f1_keywords:
+- shobjidl_core/IShellLibrary.Save
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellLibrary.Save
+- IShellLibrary.Save
 targetos: Windows
 req.typenames: 
 req.redist: 

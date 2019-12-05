@@ -1,19 +1,17 @@
 ---
 UID: NF:uiribbon.IUICollection.GetItem
 title: IUICollection::GetItem (uiribbon.h)
-
 description: Retrieves an item from the IUICollection at the specified index.
 old-location: windowsribbon\windowsribbon_iuicollection_getitem.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\getitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetItem, GetItem method [Windows Ribbon], GetItem method [Windows Ribbon],IUICollection interface, IUICollection interface [Windows Ribbon],GetItem method, IUICollection.GetItem, IUICollection::GetItem, scenicintent_IUICollection_GetItem, uiribbon/IUICollection::GetItem, windowsribbon.windowsribbon_iuicollection_getitem
 ms.topic: method
-f1_keywords: 
- - "uiribbon/IUICollection.GetItem"
+f1_keywords:
+- uiribbon/IUICollection.GetItem
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mshtml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mshtml.dll
+- Mshtml.dll
 api_name:
- - IUICollection.GetItem
+- IUICollection.GetItem
 targetos: Windows
 req.typenames: 
 req.redist: 

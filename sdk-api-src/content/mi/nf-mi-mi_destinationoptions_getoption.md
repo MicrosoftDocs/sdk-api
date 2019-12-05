@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetOption
 title: MI_DestinationOptions_GetOption function (mi.h)
-
 description: Gets a previously added option value based on the option name.
 old-location: wmi_v2\mi_destinationoptions_getoption.htm
 tech.root: wmi_v2
 ms.assetid: f7f26a4f-109f-4169-bc77-b0c763d7bcb8
-
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_GetOption, MI_DestinationOptions_GetOption function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetOption, wmi_v2.mi_destinationoptions_getoption
 ms.topic: function
 f1_keywords:
 - mi/MI_DestinationOptions_GetOption
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

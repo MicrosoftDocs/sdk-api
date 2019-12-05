@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextStory.GetDisplay
 title: ITextStory::GetDisplay (tom.h)
-
 description: Gets a new display for a story.
 old-location: controls\itextstory_getdisplay.htm
 tech.root: Controls
 ms.assetid: e9ea7fbc-b814-4dbd-ae8a-9e260b56abab
-
 ms.date: 12/05/2018
 ms.keywords: GetDisplay, GetDisplay method [Windows Controls], GetDisplay method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetDisplay method, ITextStory.GetDisplay, ITextStory::GetDisplay, controls.itextstory_getdisplay, tom/ITextStory::GetDisplay
 ms.topic: method
-f1_keywords: 
- - "tom/ITextStory.GetDisplay"
+f1_keywords:
+- tom/ITextStory.GetDisplay
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tom.h
+- tom.h
 api_name:
- - ITextStory.GetDisplay
+- ITextStory.GetDisplay
 targetos: Windows
 req.typenames: 
 req.redist: 

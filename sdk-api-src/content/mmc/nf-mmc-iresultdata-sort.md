@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IResultData.Sort
 title: IResultData::Sort (mmc.h)
-
 description: Sorts all items in the result pane.
 old-location: mmc\iresultdata_sort.htm
 tech.root: mmc
 ms.assetid: 457eccaf-3727-4b29-a38b-9f009749673e
-
 ms.date: 12/05/2018
 ms.keywords: IResultData interface [MMC],Sort method, IResultData.Sort, IResultData2 interface [MMC],Sort method, IResultData2::Sort, IResultData::Sort, RSI_DESCENDING = 0x0001, RSI_NOSORTICON = 0x0002, Sort, Sort method [MMC], Sort method [MMC],IResultData interface, Sort method [MMC],IResultData2 interface, _slate_iresultdata_sort, mmc.iresultdata_sort, mmc/IResultData2::Sort, mmc/IResultData::Sort
 ms.topic: method
-f1_keywords: 
- - "mmc/IResultData.Sort"
+f1_keywords:
+- mmc/IResultData.Sort
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IResultData.Sort
- - IResultData2.Sort
+- IResultData.Sort
+- IResultData2.Sort
 targetos: Windows
 req.typenames: 
 req.redist: 

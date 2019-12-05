@@ -1,19 +1,17 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.ReleaseBuffer
 title: IAMVideoAccelerator::ReleaseBuffer (videoacc.h)
-
 description: The ReleaseBuffer method releases a buffer that was locked by a previous call to IAMVideoAccelerator::GetBuffer.
 old-location: dshow\iamvideoaccelerator_releasebuffer.htm
 tech.root: DirectShow
 ms.assetid: 2170cf7e-85c8-4658-84fd-96ebc0d2704f
-
 ms.date: 12/05/2018
 ms.keywords: IAMVideoAccelerator interface [DirectShow],ReleaseBuffer method, IAMVideoAccelerator.ReleaseBuffer, IAMVideoAccelerator::ReleaseBuffer, IAMVideoAcceleratorReleaseBuffer, ReleaseBuffer, ReleaseBuffer method [DirectShow], ReleaseBuffer method [DirectShow],IAMVideoAccelerator interface, dshow.iamvideoaccelerator_releasebuffer, videoacc/IAMVideoAccelerator::ReleaseBuffer
 ms.topic: method
-f1_keywords: 
- - "videoacc/IAMVideoAccelerator.ReleaseBuffer"
+f1_keywords:
+- videoacc/IAMVideoAccelerator.ReleaseBuffer
 dev_langs:
- - c++
+- c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVideoAccelerator.ReleaseBuffer
+- IAMVideoAccelerator.ReleaseBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

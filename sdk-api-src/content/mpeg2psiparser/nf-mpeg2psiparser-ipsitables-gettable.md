@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.IPSITables.GetTable
 title: IPSITables::GetTable (mpeg2psiparser.h)
-
 description: Gets an MPEG-2 Program Specific Information (PSI) table from an MPEG-2 transport stream. The table that is returned and its contents depend on the values of the three input parameters to this method.
 old-location: mstv\ipsitables_gettable.htm
 tech.root: mstv
 ms.assetid: 4b2362c7-bfcb-40b8-813d-1a904149600e
-
 ms.date: 12/05/2018
 ms.keywords: GetTable, GetTable method [Microsoft TV Technologies], GetTable method [Microsoft TV Technologies],IPSITables interface, IPSITables interface [Microsoft TV Technologies],GetTable method, IPSITables.GetTable, IPSITables::GetTable, mpeg2psiparser/IPSITables::GetTable, mstv.ipsitables_gettable
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/IPSITables.GetTable"
+f1_keywords:
+- mpeg2psiparser/IPSITables.GetTable
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: Mpeg2psiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mpeg2psiparser.h
+- mpeg2psiparser.h
 api_name:
- - IPSITables.GetTable
+- IPSITables.GetTable
 targetos: Windows
 req.typenames: 
 req.redist: 

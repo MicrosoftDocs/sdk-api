@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1.D2D1_LAYER_PARAMETERS
 title: D2D1_LAYER_PARAMETERS (d2d1.h)
-
 description: Contains the content bounds, mask information, opacity settings, and other options for a layer resource.
 old-location: direct2d\D2D1_LAYER_PARAMETERS.htm
 tech.root: Direct2D
 ms.assetid: ce575df6-9464-4672-9a0e-ff7e016d9354
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_LAYER_PARAMETERS, D2D1_LAYER_PARAMETERS structure [Direct2D], d2d1/D2D1_LAYER_PARAMETERS, direct2d.D2D1_LAYER_PARAMETERS
 ms.topic: struct
-f1_keywords: 
- - "d2d1/D2D1_LAYER_PARAMETERS"
+f1_keywords:
+- d2d1/D2D1_LAYER_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1.h
+- d2d1.h
 api_name:
- - D2D1_LAYER_PARAMETERS
+- D2D1_LAYER_PARAMETERS
 targetos: Windows
 req.typenames: D2D1_LAYER_PARAMETERS
 req.redist: 

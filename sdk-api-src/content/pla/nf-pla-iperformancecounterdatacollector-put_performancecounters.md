@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IPerformanceCounterDataCollector.put_PerformanceCounters
 title: IPerformanceCounterDataCollector::put_PerformanceCounters (pla.h)
-
 description: Retrieves or sets the performance counters to query.
 old-location: pla\iperformancecounterdatacollector_performancecounters.htm
 tech.root: PLA
 ms.assetid: 9c75f560-a161-4659-9fd9-9f73c964fa5b
-
 ms.date: 12/05/2018
 ms.keywords: IPerformanceCounterDataCollector interface [PLA],PerformanceCounters property, IPerformanceCounterDataCollector.PerformanceCounters, IPerformanceCounterDataCollector.put_PerformanceCounters, IPerformanceCounterDataCollector::PerformanceCounters, IPerformanceCounterDataCollector::get_PerformanceCounters, IPerformanceCounterDataCollector::put_PerformanceCounters, PerformanceCounters property [PLA], PerformanceCounters property [PLA],IPerformanceCounterDataCollector interface, base.iperformancecounterdatacollector_performancecounters, pla.iperformancecounterdatacollector_performancecounters, pla/IPerformanceCounterDataCollector::PerformanceCounters, pla/IPerformanceCounterDataCollector::get_PerformanceCounters, pla/IPerformanceCounterDataCollector::put_PerformanceCounters, put_PerformanceCounters
 ms.topic: method
-f1_keywords: 
- - "pla/IPerformanceCounterDataCollector.PerformanceCounters"
+f1_keywords:
+- pla/IPerformanceCounterDataCollector.PerformanceCounters
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IPerformanceCounterDataCollector.PerformanceCounters
- - IPerformanceCounterDataCollector.get_PerformanceCounters
- - IPerformanceCounterDataCollector.put_PerformanceCounters
+- IPerformanceCounterDataCollector.PerformanceCounters
+- IPerformanceCounterDataCollector.get_PerformanceCounters
+- IPerformanceCounterDataCollector.put_PerformanceCounters
 targetos: Windows
 req.typenames: 
 req.redist: 

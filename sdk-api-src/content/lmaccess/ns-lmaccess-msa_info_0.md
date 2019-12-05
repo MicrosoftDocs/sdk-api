@@ -1,19 +1,17 @@
 ---
 UID: NS:lmaccess._MSA_INFO_0
 title: MSA_INFO_0 (lmaccess.h)
-
 description: Specifies information about a managed service account.
 old-location: security\msa_info_0.htm
 tech.root: SecMgmt
 ms.assetid: 21e04ee8-98c9-4c78-9564-e07f5edaf847
-
 ms.date: 12/05/2018
 ms.keywords: '*LPMSA_INFO_0, *PMSA_INFO_0, MSA_INFO_0, MSA_INFO_0 structure [Security], PMSA_INFO_0, PMSA_INFO_0 structure pointer [Security], lmaccess/MSA_INFO_0, lmaccess/PMSA_INFO_0, security.msa_info_0'
 ms.topic: struct
 f1_keywords:
 - lmaccess/MSA_INFO_0
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows

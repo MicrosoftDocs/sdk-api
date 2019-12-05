@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1.ID2D1Resource
 title: ID2D1Resource (d2d1.h)
-
 description: Represents a Direct2D drawing resource.
 old-location: direct2d\ID2D1Resource.htm
 tech.root: Direct2D
 ms.assetid: 8f19e74a-f010-4082-a4da-d1dc3cfe3192
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1Resource, ID2D1Resource interface [Direct2D], ID2D1Resource interface [Direct2D],described, d2d1/ID2D1Resource, direct2d.ID2D1Resource
 ms.topic: interface
-f1_keywords: 
- - "d2d1/ID2D1Resource"
+f1_keywords:
+- d2d1/ID2D1Resource
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Resource
+- ID2D1Resource
 targetos: Windows
 req.typenames: 
 req.redist: 

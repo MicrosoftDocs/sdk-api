@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.AbortRecordVariants
 title: ICrmCompensatorVariants::AbortRecordVariants (comsvcs.h)
-
 description: Delivers a log record to the CRM Compensator during the abort phase.
 old-location: cos\icrmcompensatorvariants_abortrecordvariants.htm
 tech.root: cossdk
 ms.assetid: a1ea366d-f3c6-4987-9f5b-32e3dd3e5d12
-
 ms.date: 12/05/2018
 ms.keywords: AbortRecordVariants, AbortRecordVariants method [COM+], AbortRecordVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],AbortRecordVariants method, ICrmCompensatorVariants.AbortRecordVariants, ICrmCompensatorVariants::AbortRecordVariants, _dtc_ICrmCompensatorVariants_AbortRecordVariants, comsvcs/ICrmCompensatorVariants::AbortRecordVariants, cos.icrmcompensatorvariants_abortrecordvariants
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmCompensatorVariants.AbortRecordVariants"
+f1_keywords:
+- comsvcs/ICrmCompensatorVariants.AbortRecordVariants
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmCompensatorVariants.AbortRecordVariants
+- ICrmCompensatorVariants.AbortRecordVariants
 targetos: Windows
 req.typenames: 
 req.redist: 

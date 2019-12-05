@@ -1,19 +1,17 @@
 ---
 UID: NF:wmnetsourcecreator.INSNetSourceCreator.GetNetSourceAdminInterface
 title: INSNetSourceCreator::GetNetSourceAdminInterface (wmnetsourcecreator.h)
-
 description: The GetNetSourceAdminInterface method retrieves a pointer to the IDispatch interface of the administrative network source object.
 old-location: wmformat\insnetsourcecreator_getnetsourceadmininterface.htm
 tech.root: wmformat
 ms.assetid: 147b431f-84ed-40b9-85a8-3c220b56cd3f
-
 ms.date: 12/05/2018
 ms.keywords: GetNetSourceAdminInterface, GetNetSourceAdminInterface method [windows Media Format], GetNetSourceAdminInterface method [windows Media Format],INSNetSourceCreator interface, INSNetSourceCreator interface [windows Media Format],GetNetSourceAdminInterface method, INSNetSourceCreator.GetNetSourceAdminInterface, INSNetSourceCreator::GetNetSourceAdminInterface, INSNetSourceCreatorGetNetSourceAdminInterface, wmformat.insnetsourcecreator_getnetsourceadmininterface, wmnetsourcecreator/INSNetSourceCreator::GetNetSourceAdminInterface
 ms.topic: method
-f1_keywords: 
- - "wmnetsourcecreator/INSNetSourceCreator.GetNetSourceAdminInterface"
+f1_keywords:
+- wmnetsourcecreator/INSNetSourceCreator.GetNetSourceAdminInterface
 dev_langs:
- - c++
+- c++
 req.header: wmnetsourcecreator.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - INSNetSourceCreator.GetNetSourceAdminInterface
+- INSNetSourceCreator.GetNetSourceAdminInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

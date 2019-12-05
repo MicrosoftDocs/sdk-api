@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_SetExtendedListViewStyleEx
 title: ListView_SetExtendedListViewStyleEx macro (commctrl.h)
-
 description: Sets extended styles for list-view controls using the style mask. You can use this macro or send the LVM_SETEXTENDEDLISTVIEWSTYLE message explicitly.
 old-location: controls\ListView_SetExtendedListViewStyleEx.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setextendedlistviewstyleex.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_SetExtendedListViewStyleEx, ListView_SetExtendedListViewStyleEx macro [Windows Controls], _win32_ListView_SetExtendedListViewStyleEx, _win32_ListView_SetExtendedListViewStyleEx_cpp, commctrl/ListView_SetExtendedListViewStyleEx, controls.ListView_SetExtendedListViewStyleEx, controls._win32_ListView_SetExtendedListViewStyleEx
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_SetExtendedListViewStyleEx"
+f1_keywords:
+- commctrl/ListView_SetExtendedListViewStyleEx
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_SetExtendedListViewStyleEx
+- ListView_SetExtendedListViewStyleEx
 targetos: Windows
 req.typenames: 
 req.redist: 

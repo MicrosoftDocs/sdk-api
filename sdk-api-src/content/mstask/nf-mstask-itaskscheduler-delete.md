@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.ITaskScheduler.Delete
 title: ITaskScheduler::Delete (mstask.h)
-
 description: The Delete method deletes a task.
 old-location: taskschd\itaskscheduler_delete.htm
 tech.root: taskschd
 ms.assetid: 87f21acc-e6e0-4645-84b8-b35a2eb2e80b
-
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [Task Scheduler], Delete method [Task Scheduler],ITaskScheduler interface, ITaskScheduler interface [Task Scheduler],Delete method, ITaskScheduler.Delete, ITaskScheduler::Delete, _msb_itaskscheduler_delete, mstask/ITaskScheduler::Delete, taskschd.itaskscheduler_delete
 ms.topic: method
-f1_keywords: 
- - "mstask/ITaskScheduler.Delete"
+f1_keywords:
+- mstask/ITaskScheduler.Delete
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - ITaskScheduler.Delete
+- ITaskScheduler.Delete
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResource.SetContent
 title: IXpsOMColorProfileResource::SetContent (xpsobjectmodel.h)
-
 description: Sets the read-only stream to be associated with this resource.
 old-location: xps\ixpsomcolorprofileresource_setcontent.htm
 tech.root: printdocs
 ms.assetid: d93ae074-6565-45ea-bc0e-e8401b7d5b47
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMColorProfileResource interface [XPS Documents and Packaging],SetContent method, IXpsOMColorProfileResource.SetContent, IXpsOMColorProfileResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMColorProfileResource interface, xps.ixpsomcolorprofileresource_setcontent, xpsobjectmodel/IXpsOMColorProfileResource::SetContent
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMColorProfileResource.SetContent"
+f1_keywords:
+- xpsobjectmodel/IXpsOMColorProfileResource.SetContent
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMColorProfileResource.SetContent
+- IXpsOMColorProfileResource.SetContent
 targetos: Windows
 req.typenames: 
 req.redist: 

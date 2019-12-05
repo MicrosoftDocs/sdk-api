@@ -1,19 +1,17 @@
 ---
 UID: NF:npapi.NPPropertyDialog
 title: NPPropertyDialog function (npapi.h)
-
 description: Called when the user clicks a button added by using the NPPropertyDialog function. The NPPropertyDialog function is called only for file and directory network properties.
 old-location: security\nppropertydialog.htm
 tech.root: SecAuthN
 ms.assetid: 856057f3-2746-4c1e-89a6-6d4e06d0e353
-
 ms.date: 12/05/2018
 ms.keywords: NPPropertyDialog, NPPropertyDialog function [Security], WNPS_DIR, WNPS_FILE, WNPS_MULT, _mnp_nppropertydialog, npapi/NPPropertyDialog, security.nppropertydialog
 ms.topic: function
-f1_keywords: 
- - "npapi/NPPropertyDialog"
+f1_keywords:
+- npapi/NPPropertyDialog
 dev_langs:
- - c++
+- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Npapi.h
+- Npapi.h
 api_name:
- - NPPropertyDialog
+- NPPropertyDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

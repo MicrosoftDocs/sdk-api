@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IChangeUnitListFilterInfo.GetChangeUnitId
 title: IChangeUnitListFilterInfo::GetChangeUnitId (winsync.h)
-
 description: Gets the change unit ID that is stored at the specified index in the array of change unit IDs that define the filter.
 old-location: winsync\ichangeunitlistfilterinfo_getchangeunitid.htm
 tech.root: winsync
 ms.assetid: 67420b58-b3c9-4500-8395-4d176133c142
-
 ms.date: 12/05/2018
 ms.keywords: GetChangeUnitId, GetChangeUnitId method [Windows Sync], GetChangeUnitId method [Windows Sync],IChangeUnitListFilterInfo interface, IChangeUnitListFilterInfo interface [Windows Sync],GetChangeUnitId method, IChangeUnitListFilterInfo.GetChangeUnitId, IChangeUnitListFilterInfo::GetChangeUnitId, winsync.ichangeunitlistfilterinfo_getchangeunitid, winsync/IChangeUnitListFilterInfo::GetChangeUnitId
 ms.topic: method
-f1_keywords: 
- - "winsync/IChangeUnitListFilterInfo.GetChangeUnitId"
+f1_keywords:
+- winsync/IChangeUnitListFilterInfo.GetChangeUnitId
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IChangeUnitListFilterInfo.GetChangeUnitId
+- IChangeUnitListFilterInfo.GetChangeUnitId
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.StrCatBuffW
 title: StrCatBuffW function (shlwapi.h)
-
 description: Copies and appends characters from one string to the end of another.
 old-location: shell\StrCatBuff.htm
 tech.root: shell
 ms.assetid: ce8c002f-f4f8-4b5f-a9e2-7bcd21f8808c
-
 ms.date: 12/05/2018
 ms.keywords: StrCatBuff, StrCatBuff function [Windows Shell], StrCatBuffA, StrCatBuffW, _win32_StrCatBuff, shell.StrCatBuff, shlwapi/StrCatBuff, shlwapi/StrCatBuffA, shlwapi/StrCatBuffW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/StrCatBuff"
+f1_keywords:
+- shlwapi/StrCatBuff
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - StrCatBuff
- - StrCatBuffA
- - StrCatBuffW
+- StrCatBuff
+- StrCatBuffA
+- StrCatBuffW
 targetos: Windows
 req.typenames: 
 req.redist: 

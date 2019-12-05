@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.OffsetWindowOrgEx
 title: OffsetWindowOrgEx function (wingdi.h)
-
 description: The OffsetWindowOrgEx function modifies the window origin for a device context using the specified horizontal and vertical offsets.
 old-location: gdi\offsetwindoworgex.htm
 tech.root: gdi
 ms.assetid: 085f40ac-d91f-4853-8ad1-1fc5da08b981
-
 ms.date: 12/05/2018
 ms.keywords: OffsetWindowOrgEx, OffsetWindowOrgEx function [Windows GDI], _win32_OffsetWindowOrgEx, gdi.offsetwindoworgex, wingdi/OffsetWindowOrgEx
 ms.topic: function
-f1_keywords: 
- - "wingdi/OffsetWindowOrgEx"
+f1_keywords:
+- wingdi/OffsetWindowOrgEx
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - OffsetWindowOrgEx
+- OffsetWindowOrgEx
 targetos: Windows
 req.typenames: 
 req.redist: 

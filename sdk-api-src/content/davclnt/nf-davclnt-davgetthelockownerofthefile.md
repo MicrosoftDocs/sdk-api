@@ -1,19 +1,17 @@
 ---
 UID: NF:davclnt.DavGetTheLockOwnerOfTheFile
 title: DavGetTheLockOwnerOfTheFile function (davclnt.h)
-
 description: Returns the file lock owner for a file that is locked on a WebDAV server.
 old-location: webdav\davgetthelockownerofthefile.htm
 tech.root: WebDAV
 ms.assetid: 94a4607c-2770-4656-8710-987d6b951e0e
-
 ms.date: 12/05/2018
 ms.keywords: DavGetTheLockOwnerOfTheFile, DavGetTheLockOwnerOfTheFile function [WebDAV], davclnt/DavGetTheLockOwnerOfTheFile, webdav.davgetthelockownerofthefile
 ms.topic: function
-f1_keywords: 
- - "davclnt/DavGetTheLockOwnerOfTheFile"
+f1_keywords:
+- davclnt/DavGetTheLockOwnerOfTheFile
 dev_langs:
- - c++
+- c++
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Davclnt.lib
 req.dll: Davclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - davclnt.dll
+- davclnt.dll
 api_name:
- - DavGetTheLockOwnerOfTheFile
+- DavGetTheLockOwnerOfTheFile
 targetos: Windows
 req.typenames: 
 req.redist: 

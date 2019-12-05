@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantToUInt64Array
 title: VariantToUInt64Array function (propvarutil.h)
-
 description: Extracts data from a vector structure into an unsigned Int64 array.
 old-location: properties\VariantToUInt64Array.htm
 tech.root: properties
 ms.assetid: 90b39ed2-a8a9-424c-bfd2-90517b9224fd
-
 ms.date: 12/05/2018
 ms.keywords: VariantToUInt64Array, VariantToUInt64Array function [Windows Properties], _shell_VariantToUInt64Array, properties.VariantToUInt64Array, propvarutil/VariantToUInt64Array, shell.VariantToUInt64Array
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantToUInt64Array"
+f1_keywords:
+- propvarutil/VariantToUInt64Array
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantToUInt64Array
+- VariantToUInt64Array
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

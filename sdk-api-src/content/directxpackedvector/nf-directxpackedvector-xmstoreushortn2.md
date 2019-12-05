@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMStoreUShortN2
 title: XMStoreUShortN2 function (directxpackedvector.h)
-
 description: Stores an XMVECTOR in an XMUSHORTN2.
 old-location: dxmath\xmstoreushortn2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreUShortN2(XMUSHORTN2@,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMStoreUShortN2, XMStoreUShortN2, XMStoreUShortN2 method [DirectX Math Support APIs], dxmath.xmstoreushortn2
 ms.topic: function
-f1_keywords: 
- - "directxpackedvector/XMStoreUShortN2"
+f1_keywords:
+- directxpackedvector/XMStoreUShortN2
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxpackedvector.inl
+- directxpackedvector.inl
 api_name:
- - XMStoreUShortN2
+- XMStoreUShortN2
 targetos: Windows
 req.typenames: 
 req.redist: 

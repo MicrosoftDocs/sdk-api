@@ -1,19 +1,17 @@
 ---
 UID: NF:msaatext.IAccDictionary.GetParentTerm
 title: IAccDictionary::GetParentTerm (msaatext.h)
-
 description: Clients call the IAccDictionary::GetParentTerm method to navigate through the object hierarchy tree. This method returns the parent object of a specified property.
 old-location: winauto\iaccdictionary_iaccdictionary__getparentterm.htm
 tech.root: WinAuto
 ms.assetid: 202058e8-50c2-4366-9bb6-bbc46dc5ea3f
-
 ms.date: 12/05/2018
 ms.keywords: GetParentTerm, GetParentTerm method [Windows Accessibility], GetParentTerm method [Windows Accessibility],IAccDictionary interface, IAccDictionary interface [Windows Accessibility],GetParentTerm method, IAccDictionary.GetParentTerm, IAccDictionary::GetParentTerm, _msaa_IAccDictionary_GetParentTerm, msaa.iaccdictionary_iaccdictionary__getparentterm, msaatext/IAccDictionary::GetParentTerm, winauto.iaccdictionary_iaccdictionary__getparentterm
 ms.topic: method
-f1_keywords: 
- - "msaatext/IAccDictionary.GetParentTerm"
+f1_keywords:
+- msaatext/IAccDictionary.GetParentTerm
 dev_langs:
- - c++
+- c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msaatext.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msaatext.dll
+- msaatext.dll
 api_name:
- - IAccDictionary.GetParentTerm
+- IAccDictionary.GetParentTerm
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98

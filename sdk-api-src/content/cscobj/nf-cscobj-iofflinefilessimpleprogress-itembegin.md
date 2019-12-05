@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesSimpleProgress.ItemBegin
 title: IOfflineFilesSimpleProgress::ItemBegin (cscobj.h)
-
 description: Reports that an operation on an item is beginning.
 old-location: of\iofflinefilessimpleprogress_itembegin.htm
 tech.root: offlinefiles
 ms.assetid: 0e3496ee-e987-4c37-93ff-bc8409acabde
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSimpleProgress interface [Offline Files],ItemBegin method, IOfflineFilesSimpleProgress.ItemBegin, IOfflineFilesSimpleProgress::ItemBegin, ItemBegin, ItemBegin method [Offline Files], ItemBegin method [Offline Files],IOfflineFilesSimpleProgress interface, cscobj/IOfflineFilesSimpleProgress::ItemBegin, of.iofflinefilessimpleprogress_itembegin
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesSimpleProgress.ItemBegin"
+f1_keywords:
+- cscobj/IOfflineFilesSimpleProgress.ItemBegin
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesSimpleProgress.ItemBegin
+- IOfflineFilesSimpleProgress.ItemBegin
 targetos: Windows
 req.typenames: 
 req.redist: 

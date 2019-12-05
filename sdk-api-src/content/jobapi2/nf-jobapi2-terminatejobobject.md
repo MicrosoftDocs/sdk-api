@@ -1,19 +1,17 @@
 ---
 UID: NF:jobapi2.TerminateJobObject
 title: TerminateJobObject function (jobapi2.h)
-
 description: Terminates all processes currently associated with the job.
 old-location: base\terminatejobobject.htm
 tech.root: ProcThread
 ms.assetid: ff8eb4a8-26d0-4f01-ab56-3c51fb16e87c
-
 ms.date: 12/05/2018
 ms.keywords: TerminateJobObject, TerminateJobObject function, _win32_terminatejobobject, base.terminatejobobject, winbase/TerminateJobObject
 ms.topic: function
-f1_keywords: 
- - "jobapi2/TerminateJobObject"
+f1_keywords:
+- jobapi2/TerminateJobObject
 dev_langs:
- - c++
+- c++
 req.header: jobapi2.h
 req.include-header: Windows.h, Jobapi2.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-job-l2-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Job-L2-1-1.dll
+- Kernel32.dll
+- API-MS-Win-Core-job-l2-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Job-L2-1-1.dll
 api_name:
- - TerminateJobObject
+- TerminateJobObject
 targetos: Windows
 req.typenames: 
 req.redist: 

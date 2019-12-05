@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDVB_NIT.GetVersionHash
 title: IDVB_NIT::GetVersionHash (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_nit_getversionhash.htm
 tech.root: mstv
 ms.assetid: b12a2363-a8a6-49b4-8d12-1e947d659eee
-
 ms.date: 12/05/2018
 ms.keywords: GetVersionHash, GetVersionHash method [Microsoft TV Technologies], GetVersionHash method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetVersionHash method, IDVB_NIT.GetVersionHash, IDVB_NIT::GetVersionHash, IDVB_NITGetVersionHash, dvbsiparser/IDVB_NIT::GetVersionHash, mstv.idvb_nit_getversionhash
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDVB_NIT.GetVersionHash"
+f1_keywords:
+- dvbsiparser/IDVB_NIT.GetVersionHash
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_NIT.GetVersionHash
+- IDVB_NIT.GetVersionHash
 targetos: Windows
 req.typenames: 
 req.redist: 

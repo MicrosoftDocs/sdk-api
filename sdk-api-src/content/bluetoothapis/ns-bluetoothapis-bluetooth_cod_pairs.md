@@ -1,19 +1,17 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_COD_PAIRS
 title: BLUETOOTH_COD_PAIRS (bluetoothapis.h)
-
 description: The BLUETOOTH_COD_PAIRS structure provides for specification and retrieval of Bluetooth Class Of Device (COD) information.
 old-location: bluetooth\bluetooth_cod_pairs.htm
 tech.root: bluetooth
 ms.assetid: e80ab664-77eb-4352-ac35-64325238d4ac
-
 ms.date: 12/05/2018
 ms.keywords: BLUETOOTH_COD_PAIRS, BLUETOOTH_COD_PAIRS structure [Bluetooth], _bth_bluetooth_cod_pairs, bluetooth.bluetooth_cod_pairs, bluetoothapis/BLUETOOTH_COD_PAIRS
 ms.topic: struct
-f1_keywords: 
- - "bluetoothapis/BLUETOOTH_COD_PAIRS"
+f1_keywords:
+- bluetoothapis/BLUETOOTH_COD_PAIRS
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - BluetoothAPIs.h
+- BluetoothAPIs.h
 api_name:
- - BLUETOOTH_COD_PAIRS
+- BLUETOOTH_COD_PAIRS
 targetos: Windows
 req.typenames: BLUETOOTH_COD_PAIRS
 req.redist: 

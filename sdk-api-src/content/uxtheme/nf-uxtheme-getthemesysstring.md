@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemeSysString
 title: GetThemeSysString function (uxtheme.h)
-
 description: Retrieves the value of a system string.
 old-location: controls\GetThemeSysString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesysstring.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetThemeSysString, GetThemeSysString function [Windows Controls], TMT_CSSNAME, TMT_XMLNAME, controls.GetThemeSysString, controls.inet_GetThemeSysString, inet_GetThemeSysString, inet_GetThemeSysString_cpp, uxtheme/GetThemeSysString
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemeSysString"
+f1_keywords:
+- uxtheme/GetThemeSysString
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - GetThemeSysString
+- GetThemeSysString
 targetos: Windows
 req.typenames: 
 req.redist: 

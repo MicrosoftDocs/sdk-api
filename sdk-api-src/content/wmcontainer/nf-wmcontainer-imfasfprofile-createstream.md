@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.CreateStream
 title: IMFASFProfile::CreateStream (wmcontainer.h)
-
 description: Creates an Advanced Systems Format (ASF) stream configuration object.
 old-location: mf\imfasfprofile_createstream.htm
 tech.root: medfound
 ms.assetid: 3da52c1a-24c0-456b-a9e8-57b5467eda2a
-
 ms.date: 12/05/2018
 ms.keywords: 3da52c1a-24c0-456b-a9e8-57b5467eda2a, CreateStream, CreateStream method [Media Foundation], CreateStream method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],CreateStream method, IMFASFProfile.CreateStream, IMFASFProfile::CreateStream, mf.imfasfprofile_createstream, wmcontainer/IMFASFProfile::CreateStream
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFProfile.CreateStream"
+f1_keywords:
+- wmcontainer/IMFASFProfile.CreateStream
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFProfile.CreateStream
+- IMFASFProfile.CreateStream
 targetos: Windows
 req.typenames: 
 req.redist: 

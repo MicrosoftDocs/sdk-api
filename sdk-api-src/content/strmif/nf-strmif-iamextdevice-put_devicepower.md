@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMExtDevice.put_DevicePower
 title: IAMExtDevice::put_DevicePower (strmif.h)
-
 description: The put_DevicePower method assigns the external device's power mode to either on, off, or standby.
 old-location: dshow\iamextdevice_put_devicepower.htm
 tech.root: DirectShow
 ms.assetid: 9cb0c200-aaf4-44fb-b217-6a44a36089b5
-
 ms.date: 12/05/2018
 ms.keywords: IAMExtDevice interface [DirectShow],put_DevicePower method, IAMExtDevice.put_DevicePower, IAMExtDevice::put_DevicePower, IAMExtDeviceput_DevicePower, dshow.iamextdevice_put_devicepower, put_DevicePower, put_DevicePower method [DirectShow], put_DevicePower method [DirectShow],IAMExtDevice interface, strmif/IAMExtDevice::put_DevicePower
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMExtDevice.put_DevicePower"
+f1_keywords:
+- strmif/IAMExtDevice.put_DevicePower
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtDevice.put_DevicePower
+- IAMExtDevice.put_DevicePower
 targetos: Windows
 req.typenames: 
 req.redist: 

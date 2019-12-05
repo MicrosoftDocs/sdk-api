@@ -1,19 +1,17 @@
 ---
 UID: NE:clusapi.CLUSTER_NOTIFICATIONS_VERSION
 title: CLUSTER_NOTIFICATIONS_VERSION (clusapi.h)
-
 description: Defines the various versions of cluster notification enumerations.
 old-location: mscs\cluster_notifications_version.htm
 tech.root: MsCS
 ms.assetid: 0328B52E-F9C7-4DA4-85C6-109E3AD3E1A7
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_NOTIFICATIONS_V1, CLUSTER_NOTIFICATIONS_V2, CLUSTER_NOTIFICATIONS_VERSION, CLUSTER_NOTIFICATIONS_VERSION enumeration [Failover Cluster], clusapi/CLUSTER_NOTIFICATIONS_V1, clusapi/CLUSTER_NOTIFICATIONS_V2, clusapi/CLUSTER_NOTIFICATIONS_VERSION, msclus/CLUSTER_NOTIFICATIONS_V1, msclus/CLUSTER_NOTIFICATIONS_V2, msclus/CLUSTER_NOTIFICATIONS_VERSION, mscs.cluster_notifications_version
 ms.topic: enum
-f1_keywords: 
- - "clusapi/CLUSTER_NOTIFICATIONS_VERSION"
+f1_keywords:
+- clusapi/CLUSTER_NOTIFICATIONS_VERSION
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusApi.h
- - MsClus.h
+- ClusApi.h
+- MsClus.h
 api_name:
- - CLUSTER_NOTIFICATIONS_VERSION
+- CLUSTER_NOTIFICATIONS_VERSION
 targetos: Windows
 req.typenames: CLUSTER_NOTIFICATIONS_VERSION
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DTexture9.GetLevelDesc
 title: IDirect3DTexture9::GetLevelDesc (d3d9.h)
-
 description: Retrieves a level description of a texture resource.
 old-location: direct3d9\idirect3dtexture9__getleveldesc.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dtexture9__getleveldesc.htm
-
 ms.date: 12/05/2018
 ms.keywords: 56fc4d84-d125-0b2e-6670-ecb45faa49cd, GetLevelDesc, GetLevelDesc method [Direct3D 9], GetLevelDesc method [Direct3D 9],IDirect3DTexture9 interface, IDirect3DTexture9 interface [Direct3D 9],GetLevelDesc method, IDirect3DTexture9.GetLevelDesc, IDirect3DTexture9::GetLevelDesc, d3d9helper/IDirect3DTexture9::GetLevelDesc, direct3d9.idirect3dtexture9__getleveldesc
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DTexture9.GetLevelDesc"
+f1_keywords:
+- d3d9/IDirect3DTexture9.GetLevelDesc
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DTexture9.GetLevelDesc
+- IDirect3DTexture9.GetLevelDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

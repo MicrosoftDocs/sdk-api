@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._LUID_AND_ATTRIBUTES
 title: LUID_AND_ATTRIBUTES (winnt.h)
-
 description: Represents a locally unique identifier (LUID) and its attributes.
 old-location: security\luid_and_attributes.htm
 tech.root: SecAuthZ
 ms.assetid: f337b561-4b67-42a0-b8de-06f546bafb26
-
 ms.date: 12/05/2018
 ms.keywords: '*PLUID_AND_ATTRIBUTES, LUID_AND_ATTRIBUTES, LUID_AND_ATTRIBUTES structure [Security], PLUID_AND_ATTRIBUTES, PLUID_AND_ATTRIBUTES structure pointer [Security], _LUID_AND_ATTRIBUTES, _win32_luid_and_attributes_str, security.luid_and_attributes, winnt/LUID_AND_ATTRIBUTES, winnt/PLUID_AND_ATTRIBUTES'
 ms.topic: struct
 f1_keywords:
 - winnt/LUID_AND_ATTRIBUTES
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

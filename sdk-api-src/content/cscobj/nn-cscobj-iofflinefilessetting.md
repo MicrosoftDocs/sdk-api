@@ -1,19 +1,17 @@
 ---
 UID: NN:cscobj.IOfflineFilesSetting
 title: IOfflineFilesSetting (cscobj.h)
-
 description: Represents a setting that controls the behavior the Offline Files service.
 old-location: of\iofflinefilessetting.htm
 tech.root: offlinefiles
 ms.assetid: 6f47c67b-9438-4229-89b2-6b3f9da8fb68
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSetting, IOfflineFilesSetting interface [Offline Files], IOfflineFilesSetting interface [Offline Files],described, cscobj/IOfflineFilesSetting, of.iofflinefilessetting
 ms.topic: interface
-f1_keywords: 
- - "cscobj/IOfflineFilesSetting"
+f1_keywords:
+- cscobj/IOfflineFilesSetting
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesSetting
+- IOfflineFilesSetting
 targetos: Windows
 req.typenames: 
 req.redist: 

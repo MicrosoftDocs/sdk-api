@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICDecompressSetPalette
 title: ICDecompressSetPalette macro (vfw.h)
-
 description: The ICDecompressSetPalette macro specifies a palette for a video decompression driver to use if it is decompressing to a format that uses a palette. You can use this macro or explicitly call the ICM_DECOMPRESS_SET_PALETTE message.
 old-location: multimedia\icdecompresssetpalette.htm
 tech.root: Multimedia
 ms.assetid: a3c4b04f-23a5-4499-b76e-50ab4565857d
-
 ms.date: 12/05/2018
 ms.keywords: ICDecompressSetPalette, ICDecompressSetPalette macro [Windows Multimedia], _win32_ICDecompressSetPalette, multimedia.icdecompresssetpalette, vfw/ICDecompressSetPalette
 ms.topic: macro
-f1_keywords: 
- - "vfw/ICDecompressSetPalette"
+f1_keywords:
+- vfw/ICDecompressSetPalette
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - ICDecompressSetPalette
+- ICDecompressSetPalette
 targetos: Windows
 req.typenames: 
 req.redist: 

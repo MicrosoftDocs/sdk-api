@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsResult.GetColumn
 title: ISettingsResult::GetColumn (wcmconfig.h)
-
 description: Returns the column number where the error occurred.
 old-location: smi\isettingsresult_getcolumn.htm
 tech.root: SMI
 ms.assetid: 09e1c5ae-f5ba-4f5a-b35d-a1c2e8dbdfe9
-
 ms.date: 12/05/2018
 ms.keywords: GetColumn, GetColumn method [SMI], GetColumn method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetColumn method, ISettingsResult.GetColumn, ISettingsResult::GetColumn, smi.isettingsresult_getcolumn, wcmconfig/ISettingsResult::GetColumn
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsResult.GetColumn"
+f1_keywords:
+- wcmconfig/ISettingsResult.GetColumn
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsResult.GetColumn
+- ISettingsResult.GetColumn
 targetos: Windows
 req.typenames: 
 req.redist: 

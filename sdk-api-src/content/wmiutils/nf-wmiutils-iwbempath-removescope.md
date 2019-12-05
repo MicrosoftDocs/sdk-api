@@ -1,19 +1,17 @@
 ---
 UID: NF:wmiutils.IWbemPath.RemoveScope
 title: IWbemPath::RemoveScope (wmiutils.h)
-
 description: The IWbemPath::RemoveScope method removes a scope based on the index.
 old-location: wmi\iwbempath_removescope.htm
 tech.root: WmiSdk
 ms.assetid: ae7f4e88-32ca-45e1-8934-2801cfbe4cee
-
 ms.date: 12/05/2018
 ms.keywords: IWbemPath interface [Windows Management Instrumentation],RemoveScope method, IWbemPath.RemoveScope, IWbemPath::RemoveScope, RemoveScope, RemoveScope method [Windows Management Instrumentation], RemoveScope method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_removescope, wmi.iwbempath_removescope, wmiutils/IWbemPath::RemoveScope
 ms.topic: method
-f1_keywords: 
- - "wmiutils/IWbemPath.RemoveScope"
+f1_keywords:
+- wmiutils/IWbemPath.RemoveScope
 dev_langs:
- - c++
+- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wmiutils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmiutils.dll
+- Wmiutils.dll
 api_name:
- - IWbemPath.RemoveScope
+- IWbemPath.RemoveScope
 targetos: Windows
 req.typenames: 
 req.redist: 

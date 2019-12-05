@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManEx.EnumerationFlagHierarchyShallow
 title: IWSManEx::EnumerationFlagHierarchyShallow (wsmandisp.h)
-
 description: Returns the value of the enumeration constant EnumerationFlagHierarchyShallow for use in the flags parameter of the IWSManSession::Enumerate method.
 old-location: winrm\iwsmanex_enumerationflaghierarchyshallow.htm
 tech.root: winrm
 ms.assetid: 590cf20d-56bc-4472-9d40-cc423bfb00df
-
 ms.date: 12/05/2018
 ms.keywords: EnumerationFlagHierarchyShallow, EnumerationFlagHierarchyShallow method [Windows Remote Management], EnumerationFlagHierarchyShallow method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagHierarchyShallow method, IWSManEx.EnumerationFlagHierarchyShallow, IWSManEx::EnumerationFlagHierarchyShallow, winrm.iwsmanex_enumerationflaghierarchyshallow, wsmandisp/IWSManEx::EnumerationFlagHierarchyShallow
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManEx.EnumerationFlagHierarchyShallow"
+f1_keywords:
+- wsmandisp/IWSManEx.EnumerationFlagHierarchyShallow
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManEx.EnumerationFlagHierarchyShallow
+- IWSManEx.EnumerationFlagHierarchyShallow
 targetos: Windows
 req.typenames: 
 req.redist: 

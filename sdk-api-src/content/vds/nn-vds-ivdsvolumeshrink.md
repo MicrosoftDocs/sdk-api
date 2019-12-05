@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsVolumeShrink
 title: IVdsVolumeShrink (vds.h)
-
 description: Provides methods to support volume shrinking.
 old-location: base\ivdsvolumeshrink.htm
 tech.root: VDS
 ms.assetid: 08c354a6-5cc0-405c-91cf-dca55b87b49a
-
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeShrink, IVdsVolumeShrink interface, IVdsVolumeShrink interface,described, base.ivdsvolumeshrink, vds/IVdsVolumeShrink
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsVolumeShrink"
+f1_keywords:
+- vds/IVdsVolumeShrink
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsVolumeShrink
+- IVdsVolumeShrink
 targetos: Windows
 req.typenames: 
 req.redist: 

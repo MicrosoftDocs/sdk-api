@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRRESIZEPALETTE
 title: EMRRESIZEPALETTE (wingdi.h)
-
 description: The EMRRESIZEPALETTE structure contains members for the ResizePalette enhanced metafile record.
 old-location: gdi\emrresizepalette.htm
 tech.root: gdi
 ms.assetid: b9c31591-bf9f-44d9-8c9a-9682d29fc541
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRRESIZEPALETTE, EMRRESIZEPALETTE, EMRRESIZEPALETTE structure [Windows GDI], PEMRRESIZEPALETTE, PEMRRESIZEPALETTE structure pointer [Windows GDI], _win32_EMRRESIZEPALETTE_str, gdi.emrresizepalette, wingdi/EMRRESIZEPALETTE, wingdi/PEMRRESIZEPALETTE"
+ms.keywords: '*PEMRRESIZEPALETTE, EMRRESIZEPALETTE, EMRRESIZEPALETTE structure [Windows GDI], PEMRRESIZEPALETTE, PEMRRESIZEPALETTE structure pointer [Windows GDI], _win32_EMRRESIZEPALETTE_str, gdi.emrresizepalette, wingdi/EMRRESIZEPALETTE, wingdi/PEMRRESIZEPALETTE'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRRESIZEPALETTE"
+f1_keywords:
+- wingdi/EMRRESIZEPALETTE
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRRESIZEPALETTE
+- EMRRESIZEPALETTE
 targetos: Windows
 req.typenames: EMRRESIZEPALETTE, *PEMRRESIZEPALETTE
 req.redist: 

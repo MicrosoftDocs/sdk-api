@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbDataBroadcastDescriptor.GetLength
 title: IDvbDataBroadcastDescriptor::GetLength (dvbsiparser.h)
-
 description: Gets the length of a Digital Video Broadcast (DVB) data broadcast descriptor, in bytes.
 old-location: mstv\idvbdatabroadcastdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 426292bf-0cc3-4494-bd9a-b63229671bfb
-
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbDataBroadcastDescriptor interface, IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbDataBroadcastDescriptor.GetLength, IDvbDataBroadcastDescriptor::GetLength, dvbsiparser/IDvbDataBroadcastDescriptor::GetLength, mstv.idvbdatabroadcastdescriptor_getlength
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbDataBroadcastDescriptor.GetLength"
+f1_keywords:
+- dvbsiparser/IDvbDataBroadcastDescriptor.GetLength
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbDataBroadcastDescriptor.GetLength
+- IDvbDataBroadcastDescriptor.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 

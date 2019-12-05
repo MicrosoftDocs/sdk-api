@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerEnumGroups
 title: PeerEnumGroups function (p2p.h)
-
 description: The PeerEnumGroups function creates and returns a peer enumeration handle used to enumerate all the peer groups associated with a specific peer identity.
 old-location: p2p\peerenumgroups.htm
 tech.root: P2PSdk
 ms.assetid: debb3c57-b5d2-440b-acf2-b6d8e712849b
-
 ms.date: 12/05/2018
 ms.keywords: PeerEnumGroups, PeerEnumGroups function [Peer Networking], p2p.peerenumgroups, p2p/PeerEnumGroups
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerEnumGroups"
+f1_keywords:
+- p2p/PeerEnumGroups
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerEnumGroups
+- PeerEnumGroups
 targetos: Windows
 req.typenames: 
 req.redist: 

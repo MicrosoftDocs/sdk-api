@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsClass
 title: IADsClass (iads.h)
-
 description: The IADsClass interface is designed for managing schema class objects that provide class definitions for any ADSI object. Other schema management interfaces include IADsProperty for attribute definitions and IADsSyntax for attribute syntax.
 old-location: adsi\iadsclass.htm
 tech.root: adsi
 ms.assetid: 690b0c96-6319-42d8-8b0e-c43f46f91031
-
 ms.date: 12/05/2018
 ms.keywords: IADsClass, IADsClass interface [ADSI], IADsClass interface [ADSI],described, _ds_iadsclass, adsi.iadsclass, iads/IADsClass
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsClass"
+f1_keywords:
+- iads/IADsClass
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsClass
+- IADsClass
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.GetDeviceType
 title: IWMRegisteredDevice::GetDeviceType (wmsdkidl.h)
-
 description: The GetDeviceType method retrieves the device type associated with the device.
 old-location: wmformat\iwmregistereddevice_getdevicetype.htm
 tech.root: wmformat
 ms.assetid: 12f0dbf5-bc76-4fa2-ab64-cced1f41c313
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceType, GetDeviceType method [windows Media Format], GetDeviceType method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetDeviceType method, IWMRegisteredDevice.GetDeviceType, IWMRegisteredDevice::GetDeviceType, IWMRegisteredDeviceGetDeviceType, wmformat.iwmregistereddevice_getdevicetype, wmsdkidl/IWMRegisteredDevice::GetDeviceType
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMRegisteredDevice.GetDeviceType"
+f1_keywords:
+- wmsdkidl/IWMRegisteredDevice.GetDeviceType
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMStubDRM.lib
- - WMStubDRM.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMRegisteredDevice.GetDeviceType
+- IWMRegisteredDevice.GetDeviceType
 targetos: Windows
 req.typenames: 
 req.redist: 

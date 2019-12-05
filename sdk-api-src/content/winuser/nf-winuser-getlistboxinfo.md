@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetListBoxInfo
 title: GetListBoxInfo function (winuser.h)
-
 description: Retrieves the number of items per column in a specified list box.
 old-location: controls\GetListBoxInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxfunctions\getlistboxinfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetListBoxInfo, GetListBoxInfo function [Windows Controls], _win32_GetListBoxInfo, _win32_GetListBoxInfo_cpp, controls.GetListBoxInfo, controls._win32_GetListBoxInfo, winuser/GetListBoxInfo
 ms.topic: function
-f1_keywords: 
- - "winuser/GetListBoxInfo"
+f1_keywords:
+- winuser/GetListBoxInfo
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - GetListBoxInfo
+- GetListBoxInfo
 targetos: Windows
 req.typenames: 
 req.redist: Service Pack 6

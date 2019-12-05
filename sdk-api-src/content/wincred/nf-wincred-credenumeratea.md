@@ -1,19 +1,17 @@
 ---
 UID: NF:wincred.CredEnumerateA
 title: CredEnumerateA function (wincred.h)
-
 description: Enumerates the credentials from the user's credential set.
 old-location: security\credenumerate.htm
 tech.root: SecAuthN
 ms.assetid: ef0b7620-7b00-45f1-af16-141d2e940783
-
 ms.date: 12/05/2018
 ms.keywords: CRED_ENUMERATE_ALL_CREDENTIALS, CredEnumerate, CredEnumerate function [Security], CredEnumerateA, CredEnumerateW, _cred_credenumerate, security.credenumerate, wincred/CredEnumerate, wincred/CredEnumerateA, wincred/CredEnumerateW
 ms.topic: function
-f1_keywords: 
- - "wincred/CredEnumerate"
+f1_keywords:
+- wincred/CredEnumerate
 dev_langs:
- - c++
+- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
- - sechost.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - API-MS-Win-Security-credentials-l1-1-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
+- sechost.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- API-MS-Win-Security-credentials-l1-1-0.dll
 api_name:
- - CredEnumerate
- - CredEnumerateA
- - CredEnumerateW
+- CredEnumerate
+- CredEnumerateA
+- CredEnumerateW
 targetos: Windows
 req.typenames: 
 req.redist: 

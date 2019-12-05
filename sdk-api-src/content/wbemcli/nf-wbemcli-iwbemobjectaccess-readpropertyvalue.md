@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemObjectAccess.ReadPropertyValue
 title: IWbemObjectAccess::ReadPropertyValue (wbemcli.h)
-
 description: The ReadPropertyValue method returns a specified number of bytes of a property associated with a property handle.
 old-location: wmi\iwbemobjectaccess_readpropertyvalue.htm
 tech.root: WmiSdk
 ms.assetid: 878fa803-73dc-45ad-8d58-2decb7e316b2
-
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectAccess interface [Windows Management Instrumentation],ReadPropertyValue method, IWbemObjectAccess.ReadPropertyValue, IWbemObjectAccess::ReadPropertyValue, ReadPropertyValue, ReadPropertyValue method [Windows Management Instrumentation], ReadPropertyValue method [Windows Management Instrumentation],IWbemObjectAccess interface, _hmm_iwbemobjectaccess_readpropertyvalue, wbemcli/IWbemObjectAccess::ReadPropertyValue, wmi.iwbemobjectaccess_readpropertyvalue
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemObjectAccess.ReadPropertyValue"
+f1_keywords:
+- wbemcli/IWbemObjectAccess.ReadPropertyValue
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wbemuuid.lib
 req.dll: Esscli.dll; Fastprox.dll; Wbemess.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Esscli.dll
- - Fastprox.dll
- - Wbemess.dll
+- Esscli.dll
+- Fastprox.dll
+- Wbemess.dll
 api_name:
- - IWbemObjectAccess.ReadPropertyValue
+- IWbemObjectAccess.ReadPropertyValue
 targetos: Windows
 req.typenames: 
 req.redist: 

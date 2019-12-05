@@ -3,14 +3,13 @@ UID: NF:gdipluspath.GraphicsPath.AddLines(IN const PointF,IN INT)
 title: GraphicsPath::AddLines
 description: The GraphicsPath::AddLines method adds a sequence of connected lines to the current figure of this path.
 ms.assetid: 8b530334-98d8-4f73-88d5-e585c4b8e8ea
-
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddLines
 ms.topic: language-reference
-f1_keywords: 
- - "gdipluspath/GraphicsPath::AddLines"
+f1_keywords:
+- gdipluspath/GraphicsPath::AddLines
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdipluspath.h
+- gdipluspath.h
 api_name:
- - GraphicsPath::AddLines
+- GraphicsPath::AddLines
 ---
 # GraphicsPath::AddLines
 

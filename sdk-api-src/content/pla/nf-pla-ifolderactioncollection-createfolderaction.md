@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IFolderActionCollection.CreateFolderAction
 title: IFolderActionCollection::CreateFolderAction (pla.h)
-
 description: Creates a folder action object.
 old-location: pla\ifolderactioncollection_createfolderaction.htm
 tech.root: PLA
 ms.assetid: caced576-cbe8-49d1-a372-70f035a6e3ed
-
 ms.date: 12/05/2018
 ms.keywords: CreateFolderAction, CreateFolderAction method [PLA], CreateFolderAction method [PLA],IFolderActionCollection interface, IFolderActionCollection interface [PLA],CreateFolderAction method, IFolderActionCollection.CreateFolderAction, IFolderActionCollection::CreateFolderAction, pla.ifolderactioncollection_createfolderaction, pla/IFolderActionCollection::CreateFolderAction
 ms.topic: method
-f1_keywords: 
- - "pla/IFolderActionCollection.CreateFolderAction"
+f1_keywords:
+- pla/IFolderActionCollection.CreateFolderAction
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IFolderActionCollection.CreateFolderAction
+- IFolderActionCollection.CreateFolderAction
 targetos: Windows
 req.typenames: 
 req.redist: 

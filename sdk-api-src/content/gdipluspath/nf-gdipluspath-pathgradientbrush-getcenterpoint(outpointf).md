@@ -3,14 +3,13 @@ UID: NF:gdipluspath.PathGradientBrush.GetCenterPoint(OUT PointF)
 title: PathGradientBrush::GetCenterPoint
 description: The PathGradientBrush::GetCenterPoint method gets the center point of this path gradient brush.
 ms.assetid: 80e265c4-6f87-4a3f-b198-b2857a0aa182
-
 ms.date: 05/13/2019
 ms.keywords: PathGradientBrush::GetCenterPoint
 ms.topic: language-reference
-f1_keywords: 
- - "gdipluspath/PathGradientBrush::GetCenterPoint"
+f1_keywords:
+- gdipluspath/PathGradientBrush::GetCenterPoint
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdipluspath.h
+- gdipluspath.h
 api_name:
- - PathGradientBrush::GetCenterPoint
+- PathGradientBrush::GetCenterPoint
 ---
 
 # PathGradientBrush::GetCenterPoint

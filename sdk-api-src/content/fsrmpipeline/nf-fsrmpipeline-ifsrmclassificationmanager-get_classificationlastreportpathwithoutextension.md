@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.get_ClassificationLastReportPathWithoutExtension
 title: IFsrmClassificationManager::get_ClassificationLastReportPathWithoutExtension (fsrmpipeline.h)
-
 description: The local directory path where the reports were stored the last time that classification ran.
 old-location: fsrm\ifsrmclassificationmanager_classificationlastreportpathwithoutextension.htm
 tech.root: fsrm
 ms.assetid: bdc32bbc-e8e5-48ed-97a1-0b42db3c3676
-
 ms.date: 12/05/2018
 ms.keywords: ClassificationLastReportPathWithoutExtension property [File Server Resource Manager], ClassificationLastReportPathWithoutExtension property [File Server Resource Manager],IFsrmClassificationManager interface, ClassificationLastReportPathWithoutExtension property [File Server Resource Manager],IFsrmClassificationManager2 interface, IFsrmClassificationManager interface [File Server Resource Manager],ClassificationLastReportPathWithoutExtension property, IFsrmClassificationManager.ClassificationLastReportPathWithoutExtension, IFsrmClassificationManager.get_ClassificationLastReportPathWithoutExtension, IFsrmClassificationManager2 interface [File Server Resource Manager],ClassificationLastReportPathWithoutExtension property, IFsrmClassificationManager2.ClassificationLastReportPathWithoutExtension, IFsrmClassificationManager2::get_ClassificationLastReportPathWithoutExtension, IFsrmClassificationManager::ClassificationLastReportPathWithoutExtension, IFsrmClassificationManager::get_ClassificationLastReportPathWithoutExtension, fs.ifsrmclassificationmanager_classificationlastreportpathwithoutextension, fsrm.ifsrmclassificationmanager_classificationlastreportpathwithoutextension, fsrmpipeline/IFsrmClassificationManager2::ClassificationLastReportPathWithoutExtension, fsrmpipeline/IFsrmClassificationManager2::get_ClassificationLastReportPathWithoutExtension, fsrmpipeline/IFsrmClassificationManager::ClassificationLastReportPathWithoutExtension, fsrmpipeline/IFsrmClassificationManager::get_ClassificationLastReportPathWithoutExtension, get_ClassificationLastReportPathWithoutExtension
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmClassificationManager.ClassificationLastReportPathWithoutExtension"
+f1_keywords:
+- fsrmpipeline/IFsrmClassificationManager.ClassificationLastReportPathWithoutExtension
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmClassificationManager.ClassificationLastReportPathWithoutExtension
- - IFsrmClassificationManager.get_ClassificationLastReportPathWithoutExtension
- - IFsrmClassificationManager2.ClassificationLastReportPathWithoutExtension
- - IFsrmClassificationManager2.get_ClassificationLastReportPathWithoutExtension
+- IFsrmClassificationManager.ClassificationLastReportPathWithoutExtension
+- IFsrmClassificationManager.get_ClassificationLastReportPathWithoutExtension
+- IFsrmClassificationManager2.ClassificationLastReportPathWithoutExtension
+- IFsrmClassificationManager2.get_ClassificationLastReportPathWithoutExtension
 targetos: Windows
 req.typenames: 
 req.redist: 

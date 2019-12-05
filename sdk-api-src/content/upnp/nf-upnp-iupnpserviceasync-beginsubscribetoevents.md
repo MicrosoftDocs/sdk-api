@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPServiceAsync.BeginSubscribeToEvents
 title: IUPnPServiceAsync::BeginSubscribeToEvents (upnp.h)
-
 description: BeginSubscribeToEvents initiates event subscription in asynchronous mode and registers the application callback with the UPnP framework.
 old-location: upnp\iupnpserviceasync_beginsubscribetoevents.htm
 tech.root: upnp
 ms.assetid: 605629CB-9DBA-4130-B55D-957187551435
-
 ms.date: 12/05/2018
 ms.keywords: BeginSubscribeToEvents, BeginSubscribeToEvents method [UPnP APIs], BeginSubscribeToEvents method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],BeginSubscribeToEvents method, IUPnPServiceAsync.BeginSubscribeToEvents, IUPnPServiceAsync::BeginSubscribeToEvents, upnp.iupnpserviceasync_beginsubscribetoevents, upnp/IUPnPServiceAsync::BeginSubscribeToEvents
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPServiceAsync.BeginSubscribeToEvents"
+f1_keywords:
+- upnp/IUPnPServiceAsync.BeginSubscribeToEvents
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPServiceAsync.BeginSubscribeToEvents
+- IUPnPServiceAsync.BeginSubscribeToEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

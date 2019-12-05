@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialogEvents.OnShareViolation
 title: IFileDialogEvents::OnShareViolation (shobjidl_core.h)
-
 description: Enables an application to respond to sharing violations that arise from Open or Save operations.
 old-location: shell\IFileDialogEvents_OnShareViolation.htm
 tech.root: shell
 ms.assetid: bd9cfa69-4e55-48ca-915a-e5ecccf8bf96
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnShareViolation method, IFileDialogEvents.OnShareViolation, IFileDialogEvents::OnShareViolation, OnShareViolation, OnShareViolation method [Windows Shell], OnShareViolation method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnShareViolation, shell_IFileDialogEvents_OnShareViolation, shobjidl_core/IFileDialogEvents::OnShareViolation
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialogEvents.OnShareViolation"
+f1_keywords:
+- shobjidl_core/IFileDialogEvents.OnShareViolation
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialogEvents.OnShareViolation
+- IFileDialogEvents.OnShareViolation
 targetos: Windows
 req.typenames: 
 req.redist: 

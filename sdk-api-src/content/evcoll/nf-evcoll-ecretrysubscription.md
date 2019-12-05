@@ -1,19 +1,17 @@
 ---
 UID: NF:evcoll.EcRetrySubscription
 title: EcRetrySubscription function (evcoll.h)
-
 description: Retries connecting to the event source of a subscription that is not connected.
 old-location: wec\ecretrysubscription.htm
 tech.root: WEC
 ms.assetid: 31a9148d-8026-4383-9f31-04b75b4a278d
-
 ms.date: 12/05/2018
 ms.keywords: EcRetrySubscription, EcRetrySubscription function, evcoll/EcRetrySubscription, wec.ecretrysubscription, wes.ecretrysubscription
 ms.topic: function
-f1_keywords: 
- - "evcoll/EcRetrySubscription"
+f1_keywords:
+- evcoll/EcRetrySubscription
 dev_langs:
- - c++
+- c++
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wecapi.lib
 req.dll: Wecapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wecapi.dll
+- Wecapi.dll
 api_name:
- - EcRetrySubscription
+- EcRetrySubscription
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMPushSource.GetStreamOffset
 title: IAMPushSource::GetStreamOffset (strmif.h)
-
 description: The GetStreamOffset method retrieves the offset that the filter uses when generating time stamps.
 old-location: dshow\iampushsource_getstreamoffset.htm
 tech.root: DirectShow
 ms.assetid: 249d5262-e02d-4df7-a968-0680b64ab7d4
-
 ms.date: 12/05/2018
 ms.keywords: GetStreamOffset, GetStreamOffset method [DirectShow], GetStreamOffset method [DirectShow],IAMPushSource interface, IAMPushSource interface [DirectShow],GetStreamOffset method, IAMPushSource.GetStreamOffset, IAMPushSource::GetStreamOffset, IAMPushSourceGetStreamOffset, dshow.iampushsource_getstreamoffset, strmif/IAMPushSource::GetStreamOffset
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMPushSource.GetStreamOffset"
+f1_keywords:
+- strmif/IAMPushSource.GetStreamOffset
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMPushSource.GetStreamOffset
+- IAMPushSource.GetStreamOffset
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dsparse.DsIsMangledDnA
 title: DsIsMangledDnA function (dsparse.h)
-
 description: The DsIsMangledDn function determines if the first relative distinguished name (RDN) in a distinguished name (DN) is a mangled name of a given type.
 old-location: ad\dsismangleddn.htm
 tech.root: ad
 ms.assetid: e4aaa83c-3bd6-48db-9d34-367b76ba629c
-
 ms.date: 12/05/2018
 ms.keywords: DsIsMangledDn, DsIsMangledDn function [Active Directory], DsIsMangledDnA, DsIsMangledDnW, _glines_dsismangleddn, ad.dsismangleddn, dsparse/DsIsMangledDn, dsparse/DsIsMangledDnA, dsparse/DsIsMangledDnW
 ms.topic: function
 f1_keywords:
 - dsparse/DsIsMangledDn
 dev_langs:
- - c++
+- c++
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
 req.target-type: Windows

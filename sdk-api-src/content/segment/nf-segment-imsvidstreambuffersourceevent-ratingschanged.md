@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent.RatingsChanged
 title: IMSVidStreamBufferSourceEvent::RatingsChanged (segment.h)
-
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\imsvidstreambuffersourceevent_ratingschanged.htm
 tech.root: mstv
 ms.assetid: 0754fb90-3f68-4f10-ab9b-74f7f7aeb047
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],RatingsChanged method, IMSVidStreamBufferSourceEvent.RatingsChanged, IMSVidStreamBufferSourceEvent::RatingsChanged, IMSVidStreamBufferSourceEventRatingsChanged, RatingsChanged, RatingsChanged method [Microsoft TV Technologies], RatingsChanged method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, mstv.imsvidstreambuffersourceevent_ratingschanged, segment/IMSVidStreamBufferSourceEvent::RatingsChanged
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferSourceEvent.RatingsChanged"
+f1_keywords:
+- segment/IMSVidStreamBufferSourceEvent.RatingsChanged
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSourceEvent.RatingsChanged
+- IMSVidStreamBufferSourceEvent.RatingsChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

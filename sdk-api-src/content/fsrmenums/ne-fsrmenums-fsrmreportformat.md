@@ -1,19 +1,17 @@
 ---
 UID: NE:fsrmenums._FsrmReportFormat
 title: FsrmReportFormat (fsrmenums.h)
-
 description: Defines the file formats that you can use when generating reports.
 old-location: fsrm\fsrmreportformat.htm
 tech.root: fsrm
 ms.assetid: 0f8fd733-034a-40d0-b59b-4c70fff5fd42
-
 ms.date: 12/05/2018
 ms.keywords: FsrmReportFormat, FsrmReportFormat enumeration [File Server Resource Manager], FsrmReportFormat_Csv, FsrmReportFormat_DHtml, FsrmReportFormat_Html, FsrmReportFormat_Txt, FsrmReportFormat_Unknown, FsrmReportFormat_Xml, fs.fsrmreportformat, fsrm.fsrmreportformat, fsrmenums/FsrmReportFormat, fsrmenums/FsrmReportFormat_Csv, fsrmenums/FsrmReportFormat_DHtml, fsrmenums/FsrmReportFormat_Html, fsrmenums/FsrmReportFormat_Txt, fsrmenums/FsrmReportFormat_Unknown, fsrmenums/FsrmReportFormat_Xml
 ms.topic: enum
-f1_keywords: 
- - "fsrmenums/FsrmReportFormat"
+f1_keywords:
+- fsrmenums/FsrmReportFormat
 dev_langs:
- - c++
+- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FsrmEnums.h
+- FsrmEnums.h
 api_name:
- - FsrmReportFormat
+- FsrmReportFormat
 targetos: Windows
 req.typenames: FsrmReportFormat
 req.redist: 

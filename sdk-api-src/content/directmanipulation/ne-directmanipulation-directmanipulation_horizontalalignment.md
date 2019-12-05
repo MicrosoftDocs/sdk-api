@@ -1,19 +1,17 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_HORIZONTALALIGNMENT
 title: DIRECTMANIPULATION_HORIZONTALALIGNMENT (directmanipulation.h)
-
 description: Defines the horizontal alignment options for content within a viewport.
 old-location: directmanipulation\directmanipulation_horizontalalignment.htm
 tech.root: directmanipulation
 ms.assetid: ced17ad6-0728-46ed-8c04-d0c588f0bb38
-
 ms.date: 12/05/2018
 ms.keywords: DIRECTMANIPULATION_HORIZONTALALIGNMENT, DIRECTMANIPULATION_HORIZONTALALIGNMENT enumeration [Direct Manipulation], DIRECTMANIPULATION_HORIZONTALALIGNMENT_CENTER, DIRECTMANIPULATION_HORIZONTALALIGNMENT_LEFT, DIRECTMANIPULATION_HORIZONTALALIGNMENT_NONE, DIRECTMANIPULATION_HORIZONTALALIGNMENT_RIGHT, DIRECTMANIPULATION_HORIZONTALALIGNMENT_UNLOCKCENTER, directmanipulation.directmanipulation_horizontalalignment, directmanipulation/DIRECTMANIPULATION_HORIZONTALALIGNMENT, directmanipulation/DIRECTMANIPULATION_HORIZONTALALIGNMENT_CENTER, directmanipulation/DIRECTMANIPULATION_HORIZONTALALIGNMENT_LEFT, directmanipulation/DIRECTMANIPULATION_HORIZONTALALIGNMENT_NONE, directmanipulation/DIRECTMANIPULATION_HORIZONTALALIGNMENT_RIGHT, directmanipulation/DIRECTMANIPULATION_HORIZONTALALIGNMENT_UNLOCKCENTER
 ms.topic: enum
-f1_keywords: 
- - "directmanipulation/DIRECTMANIPULATION_HORIZONTALALIGNMENT"
+f1_keywords:
+- directmanipulation/DIRECTMANIPULATION_HORIZONTALALIGNMENT
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - directmanipulation.h
+- directmanipulation.h
 api_name:
- - DIRECTMANIPULATION_HORIZONTALALIGNMENT
+- DIRECTMANIPULATION_HORIZONTALALIGNMENT
 targetos: Windows
 req.typenames: DIRECTMANIPULATION_HORIZONTALALIGNMENT
 req.redist: 

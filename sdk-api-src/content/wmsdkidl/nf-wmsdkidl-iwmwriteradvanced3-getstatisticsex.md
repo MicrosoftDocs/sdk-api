@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced3.GetStatisticsEx
 title: IWMWriterAdvanced3::GetStatisticsEx (wmsdkidl.h)
-
 description: The GetStatisticsEx method retrieves extended statistics for the writer.
 old-location: wmformat\iwmwriteradvanced3_getstatisticsex.htm
 tech.root: wmformat
 ms.assetid: 3ea41491-409c-42b7-a4b2-f0d7c222c299
-
 ms.date: 12/05/2018
 ms.keywords: GetStatisticsEx, GetStatisticsEx method [windows Media Format], GetStatisticsEx method [windows Media Format],IWMWriterAdvanced3 interface, IWMWriterAdvanced3 interface [windows Media Format],GetStatisticsEx method, IWMWriterAdvanced3.GetStatisticsEx, IWMWriterAdvanced3::GetStatisticsEx, IWMWriterAdvanced3GetStatisticsEx, wmformat.iwmwriteradvanced3_getstatisticsex, wmsdkidl/IWMWriterAdvanced3::GetStatisticsEx
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterAdvanced3.GetStatisticsEx"
+f1_keywords:
+- wmsdkidl/IWMWriterAdvanced3.GetStatisticsEx
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterAdvanced3.GetStatisticsEx
+- IWMWriterAdvanced3.GetStatisticsEx
 targetos: Windows
 req.typenames: 
 req.redist: 

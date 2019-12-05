@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_Encoder.EnumVideoCapability
 title: IBDA_Encoder::EnumVideoCapability (bdaiface.h)
-
 description: Gets one of the video formats supported by the device.
 old-location: mstv\ibda_encoder_enumvideocapability.htm
 tech.root: mstv
 ms.assetid: 81a780d3-1b1c-4c9a-9b4b-cb82f83fb7d6
-
 ms.date: 12/05/2018
 ms.keywords: EnumVideoCapability, EnumVideoCapability method [Microsoft TV Technologies], EnumVideoCapability method [Microsoft TV Technologies],IBDA_Encoder interface, IBDA_Encoder interface [Microsoft TV Technologies],EnumVideoCapability method, IBDA_Encoder.EnumVideoCapability, IBDA_Encoder::EnumVideoCapability, PBDA_Encoder_Video_AVC, PBDA_Encoder_Video_H264, PBDA_Encoder_Video_MPEG2PartII, PBDA_Encoder_Video_MPEG4Part10, bdaiface/IBDA_Encoder::EnumVideoCapability, mstv.ibda_encoder_enumvideocapability
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_Encoder.EnumVideoCapability"
+f1_keywords:
+- bdaiface/IBDA_Encoder.EnumVideoCapability
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_Encoder.EnumVideoCapability
+- IBDA_Encoder.EnumVideoCapability
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_Enabled
 title: IInkPicture::put_Enabled (msinkaut.h)
-
 description: Gets or sets a value that determines whether the InkPicture control can respond to user-generated events.
 old-location: tablet\inkpicture_enabled.htm
 tech.root: tablet
 ms.assetid: 1c6e9fb4-be51-4d68-8241-17119deeba3f
-
 ms.date: 12/05/2018
 ms.keywords: 1c6e9fb4-be51-4d68-8241-17119deeba3f, Enabled property [Tablet PC], Enabled property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],Enabled property, IInkPicture.Enabled, IInkPicture.put_Enabled, IInkPicture::Enabled, IInkPicture::get_Enabled, IInkPicture::put_Enabled, InkPicture.get_Enabled, InkPicture.put_Enabled, msinkaut/IInkPicture::Enabled, msinkaut/IInkPicture::get_Enabled, msinkaut/IInkPicture::put_Enabled, put_Enabled, tablet.inkpicture_enabled
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkPicture.Enabled"
+f1_keywords:
+- msinkaut/IInkPicture.Enabled
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkPicture.Enabled
- - IInkPicture.get_Enabled
- - IInkPicture.put_Enabled
- - InkPicture.get_Enabled
- - InkPicture.put_Enabled
+- IInkPicture.Enabled
+- IInkPicture.get_Enabled
+- IInkPicture.put_Enabled
+- InkPicture.get_Enabled
+- InkPicture.put_Enabled
 targetos: Windows
 req.typenames: 
 req.redist: 

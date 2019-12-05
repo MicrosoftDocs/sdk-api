@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMDeviceRemoval.DeviceInfo
 title: IAMDeviceRemoval::DeviceInfo (strmif.h)
-
 description: The DeviceInfo method retrieves information about the device.
 old-location: dshow\iamdeviceremoval_deviceinfo.htm
 tech.root: DirectShow
 ms.assetid: ec3628cf-fcb4-46c4-9de1-79bf1259c3db
-
 ms.date: 12/05/2018
 ms.keywords: DeviceInfo, DeviceInfo method [DirectShow], DeviceInfo method [DirectShow],IAMDeviceRemoval interface, IAMDeviceRemoval interface [DirectShow],DeviceInfo method, IAMDeviceRemoval.DeviceInfo, IAMDeviceRemoval::DeviceInfo, IAMDeviceRemovalDeviceInfo, dshow.iamdeviceremoval_deviceinfo, strmif/IAMDeviceRemoval::DeviceInfo
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMDeviceRemoval.DeviceInfo"
+f1_keywords:
+- strmif/IAMDeviceRemoval.DeviceInfo
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMDeviceRemoval.DeviceInfo
+- IAMDeviceRemoval.DeviceInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

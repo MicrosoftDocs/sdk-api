@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IDeskBandInfo
 title: IDeskBandInfo (shobjidl_core.h)
-
 description: Exposes a method for getting the default Desk Band bandwidth.
 old-location: shell\IDeskBandInfo.htm
 tech.root: shell
 ms.assetid: 1fff31d0-e732-4c93-8238-a8b4a5a62d37
-
 ms.date: 12/05/2018
 ms.keywords: IDeskBandInfo, IDeskBandInfo interface [Windows Shell], IDeskBandInfo interface [Windows Shell],described, _shell_IDeskBandInfo, shell.IDeskBandInfo, shobjidl_core/IDeskBandInfo
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IDeskBandInfo"
+f1_keywords:
+- shobjidl_core/IDeskBandInfo
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IDeskBandInfo
+- IDeskBandInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

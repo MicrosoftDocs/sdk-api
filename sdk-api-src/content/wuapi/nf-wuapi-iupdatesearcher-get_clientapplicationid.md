@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.get_ClientApplicationID
 title: IUpdateSearcher::get_ClientApplicationID (wuapi.h)
-
 description: Identifies the current client application.
 old-location: wua\iupdatesearcherclientapplicationid.htm
 tech.root: Wua_Sdk
 ms.assetid: 5b9ae823-5304-4ec4-937e-684d35bd3aed
-
 ms.date: 12/05/2018
 ms.keywords: ClientApplicationID property [Windows Update Agent], ClientApplicationID property [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],ClientApplicationID property, IUpdateSearcher.ClientApplicationID, IUpdateSearcher.get_ClientApplicationID, IUpdateSearcher::ClientApplicationID, IUpdateSearcher::get_ClientApplicationID, IUpdateSearcher::put_ClientApplicationID, get_ClientApplicationID, wua.iupdatesearcherclientapplicationid, wuapi/IUpdateSearcher::ClientApplicationID, wuapi/IUpdateSearcher::get_ClientApplicationID, wuapi/IUpdateSearcher::put_ClientApplicationID
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateSearcher.ClientApplicationID"
+f1_keywords:
+- wuapi/IUpdateSearcher.ClientApplicationID
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateSearcher.ClientApplicationID
- - IUpdateSearcher.get_ClientApplicationID
- - IUpdateSearcher.put_ClientApplicationID
+- IUpdateSearcher.ClientApplicationID
+- IUpdateSearcher.get_ClientApplicationID
+- IUpdateSearcher.put_ClientApplicationID
 targetos: Windows
 req.typenames: 
 req.redist: 

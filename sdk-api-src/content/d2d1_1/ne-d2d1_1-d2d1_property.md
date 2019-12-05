@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1_1.D2D1_PROPERTY
 title: D2D1_PROPERTY (d2d1_1.h)
-
 description: Specifies the indices of the system properties present on the ID2D1Properties interface for an ID2D1Effect.
 old-location: direct2d\__d2d1_property.htm
 tech.root: Direct2D
 ms.assetid: 7261ea3c-bd52-4809-93c8-9e7a0a7424d0
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_PROPERTY, D2D1_PROPERTY , D2D1_PROPERTY enumeration [Direct2D], D2D1_PROPERTY_AUTHOR, D2D1_PROPERTY_CACHED, D2D1_PROPERTY_CATEGORY, D2D1_PROPERTY_CLSID, D2D1_PROPERTY_DESCRIPTION, D2D1_PROPERTY_DISPLAYNAME, D2D1_PROPERTY_INPUTS, D2D1_PROPERTY_MAX_INPUTS, D2D1_PROPERTY_MIN_INPUTS, D2D1_PROPERTY_PRECISION, d2d1_1/D2D1_PROPERTY, d2d1_1/D2D1_PROPERTY_AUTHOR, d2d1_1/D2D1_PROPERTY_CACHED, d2d1_1/D2D1_PROPERTY_CATEGORY, d2d1_1/D2D1_PROPERTY_CLSID, d2d1_1/D2D1_PROPERTY_DESCRIPTION, d2d1_1/D2D1_PROPERTY_DISPLAYNAME, d2d1_1/D2D1_PROPERTY_INPUTS, d2d1_1/D2D1_PROPERTY_MAX_INPUTS, d2d1_1/D2D1_PROPERTY_MIN_INPUTS, d2d1_1/D2D1_PROPERTY_PRECISION, direct2d.__d2d1_property
 ms.topic: enum
-f1_keywords: 
- - "d2d1_1/D2D1_PROPERTY"
+f1_keywords:
+- d2d1_1/D2D1_PROPERTY
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D2d1_1.h
+- D2d1_1.h
 api_name:
- - D2D1_PROPERTY
+- D2D1_PROPERTY
 targetos: Windows
 req.typenames: D2D1_PROPERTY
 req.redist: 

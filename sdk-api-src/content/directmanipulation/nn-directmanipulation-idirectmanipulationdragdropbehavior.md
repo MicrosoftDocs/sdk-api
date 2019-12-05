@@ -1,19 +1,17 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationDragDropBehavior
 title: IDirectManipulationDragDropBehavior (directmanipulation.h)
-
 description: Represents behaviors for drag and drop interactions, which are triggered by cross-slide or press-and-hold gestures.
 old-location: directmanipulation\idirectmanipulationdragdropbehavior.htm
 tech.root: directmanipulation
 ms.assetid: 99D99BB6-1DA1-4B49-88F8-16A9561A9098
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationDragDropBehavior, IDirectManipulationDragDropBehavior interface [Direct Manipulation], IDirectManipulationDragDropBehavior interface [Direct Manipulation],described, directmanipulation.idirectmanipulationdragdropbehavior, directmanipulation/IDirectManipulationDragDropBehavior
 ms.topic: interface
-f1_keywords: 
- - "directmanipulation/IDirectManipulationDragDropBehavior"
+f1_keywords:
+- directmanipulation/IDirectManipulationDragDropBehavior
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationDragDropBehavior
+- IDirectManipulationDragDropBehavior
 targetos: Windows
 req.typenames: 
 req.redist: 

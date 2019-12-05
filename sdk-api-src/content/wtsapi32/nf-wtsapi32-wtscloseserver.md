@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsapi32.WTSCloseServer
 title: WTSCloseServer function (wtsapi32.h)
-
 description: Closes an open handle to a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtscloseserver.htm
 tech.root: TermServ
 ms.assetid: 092a6107-21bf-40a7-9fe7-f069eb0c89ca
-
 ms.date: 12/05/2018
 ms.keywords: WTSCloseServer, WTSCloseServer function [Remote Desktop Services], _win32_wtscloseserver, termserv.wtscloseserver, wtsapi32/WTSCloseServer
 ms.topic: function
-f1_keywords: 
- - "wtsapi32/WTSCloseServer"
+f1_keywords:
+- wtsapi32/WTSCloseServer
 dev_langs:
- - c++
+- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wtsapi32.dll
+- Wtsapi32.dll
 api_name:
- - WTSCloseServer
+- WTSCloseServer
 targetos: Windows
 req.typenames: 
 req.redist: 

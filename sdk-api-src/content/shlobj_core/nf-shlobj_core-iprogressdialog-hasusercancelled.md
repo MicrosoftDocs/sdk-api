@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IProgressDialog.HasUserCancelled
 title: IProgressDialog::HasUserCancelled (shlobj_core.h)
-
 description: Checks whether the user has canceled the operation.
 old-location: shell\IProgressDialog_HasUserCancelled.htm
 tech.root: shell
 ms.assetid: bd817850-7776-47cd-b1b3-ccb946660781
-
 ms.date: 12/05/2018
 ms.keywords: HasUserCancelled, HasUserCancelled method [Windows Shell], HasUserCancelled method [Windows Shell],IProgressDialog interface, IProgressDialog interface [Windows Shell],HasUserCancelled method, IProgressDialog.HasUserCancelled, IProgressDialog::HasUserCancelled, _win32_IProgressDialog_HasUserCancelled, shell.IProgressDialog_HasUserCancelled, shlobj_core/IProgressDialog::HasUserCancelled
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IProgressDialog.HasUserCancelled"
+f1_keywords:
+- shlobj_core/IProgressDialog.HasUserCancelled
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IProgressDialog.HasUserCancelled
+- IProgressDialog.HasUserCancelled
 targetos: Windows
 req.typenames: 
 req.redist: 

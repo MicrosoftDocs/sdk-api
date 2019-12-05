@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange2.GetGravity
 title: ITextRange2::GetGravity (tom.h)
-
 description: Gets the gravity of this range.
 old-location: controls\itextrange2_getgravity.htm
 tech.root: Controls
 ms.assetid: a57ab2c2-1871-413a-bccd-47f5c1dd4570
-
 ms.date: 12/05/2018
 ms.keywords: GetGravity, GetGravity method [Windows Controls], GetGravity method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetGravity method, ITextRange2.GetGravity, ITextRange2::GetGravity, controls.itextrange2_getgravity, tom/ITextRange2::GetGravity, tomGravityBack, tomGravityFore, tomGravityIn, tomGravityOut, tomGravityUI
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange2.GetGravity"
+f1_keywords:
+- tom/ITextRange2.GetGravity
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange2.GetGravity
+- ITextRange2.GetGravity
 targetos: Windows
 req.typenames: 
 req.redist: 

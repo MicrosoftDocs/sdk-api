@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IExplorerCommandProvider
 title: IExplorerCommandProvider (shobjidl_core.h)
-
 description: Exposes methods to create Explorer commands and command enumerators.
 old-location: shell\IExplorerCommandProvider.htm
 tech.root: shell
 ms.assetid: f39ea1f7-28ba-4a5e-ac19-bcfc6052fdeb
-
 ms.date: 12/05/2018
 ms.keywords: IExplorerCommandProvider, IExplorerCommandProvider interface [Windows Shell], IExplorerCommandProvider interface [Windows Shell],described, _shell_IExplorerCommandProvider, shell.IExplorerCommandProvider, shobjidl_core/IExplorerCommandProvider
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IExplorerCommandProvider"
+f1_keywords:
+- shobjidl_core/IExplorerCommandProvider
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerCommandProvider
+- IExplorerCommandProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbTSInformationDescriptor.GetRecordNumberOfServices
 title: IIsdbTSInformationDescriptor::GetRecordNumberOfServices (dvbsiparser.h)
-
 description: Gets the number of service records from an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor.
 old-location: mstv\iisdbtsinformationdescriptor_getrecordnumberofservices.htm
 tech.root: mstv
 ms.assetid: bf9ec856-951e-4a75-a136-9fa6eaf9e8cd
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordNumberOfServices, GetRecordNumberOfServices method [Microsoft TV Technologies], GetRecordNumberOfServices method [Microsoft TV Technologies],IIsdbTSInformationDescriptor interface, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],GetRecordNumberOfServices method, IIsdbTSInformationDescriptor.GetRecordNumberOfServices, IIsdbTSInformationDescriptor::GetRecordNumberOfServices, dvbsiparser/IIsdbTSInformationDescriptor::GetRecordNumberOfServices, mstv.iisdbtsinformationdescriptor_getrecordnumberofservices
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbTSInformationDescriptor.GetRecordNumberOfServices"
+f1_keywords:
+- dvbsiparser/IIsdbTSInformationDescriptor.GetRecordNumberOfServices
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbTSInformationDescriptor.GetRecordNumberOfServices
+- IIsdbTSInformationDescriptor.GetRecordNumberOfServices
 targetos: Windows
 req.typenames: 
 req.redist: 

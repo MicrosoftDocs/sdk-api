@@ -1,19 +1,17 @@
 ---
 UID: NF:evntrace.FlushTraceW
 title: FlushTraceW function (evntrace.h)
-
 description: The FlushTrace function causes an event tracing session to immediately deliver buffered events for the specified session.
 old-location: etw\flushtrace.htm
 tech.root: ETW
 ms.assetid: bc7d0dac-93d9-4614-9cb6-fee99765eb39
-
 ms.date: 12/05/2018
 ms.keywords: FlushTrace, FlushTrace function [ETW], FlushTraceA, FlushTraceW, _evt_flushtrace, base.flushtrace, etw.flushtrace, evntrace/FlushTrace, evntrace/FlushTraceA, evntrace/FlushTraceW
 ms.topic: function
-f1_keywords: 
- - "evntrace/FlushTrace"
+f1_keywords:
+- evntrace/FlushTrace
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-eventing-Legacy-l1-1-0.dll
- - advapi32legacy.dll
+- Advapi32.dll
+- API-MS-Win-eventing-Legacy-l1-1-0.dll
+- advapi32legacy.dll
 api_name:
- - FlushTrace
- - FlushTraceA
- - FlushTraceW
+- FlushTrace
+- FlushTraceA
+- FlushTraceW
 targetos: Windows
 req.typenames: 
 req.redist: 

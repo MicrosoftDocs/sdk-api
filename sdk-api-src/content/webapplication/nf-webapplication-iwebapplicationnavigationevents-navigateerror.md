@@ -1,19 +1,17 @@
 ---
 UID: NF:webapplication.IWebApplicationNavigationEvents.NavigateError
 title: IWebApplicationNavigationEvents::NavigateError (webapplication.h)
-
 description: Fired when a binding error occurs (window or frameset element).
 old-location: debug\iwebapplicationnavigationevents_navigateerror.htm
 tech.root: debug_wwahost
 ms.assetid: 1c6e34e8-e14f-4b6c-ad83-140a7141cf64
-
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationNavigationEvents interface [Debugging Windows Store apps],NavigateError method, IWebApplicationNavigationEvents.NavigateError, IWebApplicationNavigationEvents::NavigateError, NavigateError, NavigateError method [Debugging Windows Store apps], NavigateError method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, debug.iwebapplicationnavigationevents_navigateerror, webapplication/IWebApplicationNavigationEvents::NavigateError
 ms.topic: method
-f1_keywords: 
- - "webapplication/IWebApplicationNavigationEvents.NavigateError"
+f1_keywords:
+- webapplication/IWebApplicationNavigationEvents.NavigateError
 dev_langs:
- - c++
+- c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - webapplication.h
+- webapplication.h
 api_name:
- - IWebApplicationNavigationEvents.NavigateError
+- IWebApplicationNavigationEvents.NavigateError
 targetos: Windows
 req.typenames: 
 req.redist: 

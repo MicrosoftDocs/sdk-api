@@ -1,19 +1,17 @@
 ---
 UID: NN:oleidl.IOleInPlaceFrame
 title: IOleInPlaceFrame (oleidl.h)
-
 description: Controls the container's top-level frame window.
 old-location: com\ioleinplaceframe.htm
 tech.root: com
 ms.assetid: c530aff7-fd83-413d-8945-0c9d1bfb51ba
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceFrame, IOleInPlaceFrame interface [COM], IOleInPlaceFrame interface [COM],described, _ole_ioleinplaceframe, com.ioleinplaceframe, oleidl/IOleInPlaceFrame
 ms.topic: interface
-f1_keywords: 
- - "oleidl/IOleInPlaceFrame"
+f1_keywords:
+- oleidl/IOleInPlaceFrame
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleInPlaceFrame
+- IOleInPlaceFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

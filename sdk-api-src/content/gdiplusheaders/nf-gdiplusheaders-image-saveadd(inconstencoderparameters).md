@@ -3,14 +3,13 @@ UID: NF:gdiplusheaders.Image.SaveAdd(IN const EncoderParameters)
 title: Image::SaveAdd
 description: The Image::SaveAdd method adds a frame to a file or stream specified in a previous call to the Save method.
 ms.assetid: 03ebcd9f-83c9-4970-bc89-cfed876de44b
-
 ms.date: 05/20/2019
 ms.keywords: Image::SaveAdd
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusheaders/Image::SaveAdd"
+f1_keywords:
+- gdiplusheaders/Image::SaveAdd
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusheaders.h
+- gdiplusheaders.h
 api_name:
- - Image::SaveAdd
+- Image::SaveAdd
 ---
 
 # Image::SaveAdd(EncoderParameters*)

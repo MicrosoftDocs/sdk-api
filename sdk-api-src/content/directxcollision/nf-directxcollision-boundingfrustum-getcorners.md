@@ -1,19 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.GetCorners
 title: BoundingFrustum::GetCorners
-
 description: Gets the corners making up the BoundingFrustum.
 old-location: dxmath\boundingfrustum_getcorners.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.GetCorners(XMFLOAT3)
-
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],GetCorners method, BoundingFrustum.GetCorners, BoundingFrustum::GetCorners, GetCorners, GetCorners method [DirectX Math Support APIs], GetCorners method [DirectX Math Support APIs],BoundingFrustum interface, dxmath.boundingfrustum_getcorners
 ms.topic: method
-f1_keywords: 
- - "directxcollision/BoundingFrustum.GetCorners"
+f1_keywords:
+- directxcollision/BoundingFrustum.GetCorners
 dev_langs:
- - c++
+- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXCollision.h
+- DirectXCollision.h
 api_name:
- - BoundingFrustum.GetCorners
+- BoundingFrustum.GetCorners
 targetos: Windows
 req.typenames: 
 req.redist: 

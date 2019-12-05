@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.TransformPattern_Move
 title: TransformPattern_Move function (uiautomationcoreapi.h)
-
 description: Moves an element to a specified location on the screen.
 old-location: winauto\uiauto_TransformPattern_MoveConPat.htm
 tech.root: WinAuto
 ms.assetid: 283bf97f-b5fd-438c-b923-9aca97a69e1b
-
 ms.date: 12/05/2018
 ms.keywords: TransformPattern_Move, TransformPattern_Move function [Windows Accessibility], uiauto.uiauto_TransformPattern_MoveConPat, uiauto_TransformPattern_MoveConPat, uiautomationcoreapi/TransformPattern_Move, winauto.uiauto_TransformPattern_MoveConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/TransformPattern_Move"
+f1_keywords:
+- uiautomationcoreapi/TransformPattern_Move
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - TransformPattern_Move
+- TransformPattern_Move
 targetos: Windows
 req.typenames: 
 req.redist: 

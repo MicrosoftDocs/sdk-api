@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IEnumComponents.Clone
 title: IEnumComponents::Clone (tuner.h)
-
 description: The Clone method creates a new copy of the entire collection.
 old-location: mstv\ienumcomponents_clone.htm
 tech.root: mstv
 ms.assetid: ca15a67e-1788-4f57-bfe8-ec1a3014044f
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IEnumComponents interface, IEnumComponents interface [Microsoft TV Technologies],Clone method, IEnumComponents.Clone, IEnumComponents::Clone, IEnumComponentsClone, mstv.ienumcomponents_clone, tuner/IEnumComponents::Clone
 ms.topic: method
-f1_keywords: 
- - "tuner/IEnumComponents.Clone"
+f1_keywords:
+- tuner/IEnumComponents.Clone
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IEnumComponents.Clone
+- IEnumComponents.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

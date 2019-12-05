@@ -1,19 +1,17 @@
 ---
 UID: NF:wofapi.WofWimSuspendEntry
 title: WofWimSuspendEntry function (wofapi.h)
-
 description: Temporarily removes a WIM data source from backing files on a volume until the volume is remounted or the data source is updated with WofWimUpdateEntry.
 old-location: fs\wofwimsuspendentry.htm
 tech.root: FileIO
 ms.assetid: 1F3DA0FF-37B5-4DEE-BEA0-7A0E63F3E97D
-
 ms.date: 12/05/2018
 ms.keywords: WofWimSuspendEntry, WofWimSuspendEntry function [Files], fs.wofwimsuspendentry, wofapi/WofWimSuspendEntry
 ms.topic: function
-f1_keywords: 
- - "wofapi/WofWimSuspendEntry"
+f1_keywords:
+- wofapi/WofWimSuspendEntry
 dev_langs:
- - c++
+- c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wofutil.lib
 req.dll: Wofutil.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wofutil.dll
+- wofutil.dll
 api_name:
- - WofWimSuspendEntry
+- WofWimSuspendEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

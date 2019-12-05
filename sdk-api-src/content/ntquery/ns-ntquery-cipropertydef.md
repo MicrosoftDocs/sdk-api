@@ -1,19 +1,17 @@
 ---
 UID: NS:ntquery.tagCIPROPERTYDEF
 title: CIPROPERTYDEF (ntquery.h)
-
 description: Represents the friendly name, type, and property identifier (ID) information.
 old-location: indexsrv\cipropertydef.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_0ucm.htm
-
 ms.date: 12/05/2018
 ms.keywords: CIPROPERTYDEF, CIPROPERTYDEF structure [Indexing Service], _idxs_CIPROPERTYDEF, indexsrv.cipropertydef, ntquery/CIPROPERTYDEF
 ms.topic: struct
-f1_keywords: 
- - "ntquery/CIPROPERTYDEF"
+f1_keywords:
+- ntquery/CIPROPERTYDEF
 dev_langs:
- - c++
+- c++
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntquery.h
+- Ntquery.h
 api_name:
- - CIPROPERTYDEF
+- CIPROPERTYDEF
 targetos: Windows
 req.typenames: CIPROPERTYDEF
 req.redist: 

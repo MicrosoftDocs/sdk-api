@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite_3.IDWriteFontFaceReference
 title: IDWriteFontFaceReference (dwrite_3.h)
-
 description: Represents a reference to a font face.
 old-location: directwrite\idwritefontfacereference.htm
 tech.root: DirectWrite
 ms.assetid: 04242508-7439-43B6-B3E7-07617B782038
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFaceReference, IDWriteFontFaceReference interface [Direct Write], IDWriteFontFaceReference interface [Direct Write],described, directwrite.idwritefontfacereference, dwrite_3/IDWriteFontFaceReference
 ms.topic: interface
-f1_keywords: 
- - "dwrite_3/IDWriteFontFaceReference"
+f1_keywords:
+- dwrite_3/IDWriteFontFaceReference
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFaceReference
+- IDWriteFontFaceReference
 targetos: Windows
 req.typenames: 
 req.redist: 

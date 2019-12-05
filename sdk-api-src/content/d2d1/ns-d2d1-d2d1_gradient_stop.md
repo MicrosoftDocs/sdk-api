@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1.D2D1_GRADIENT_STOP
 title: D2D1_GRADIENT_STOP (d2d1.h)
-
 description: Contains the position and color of a gradient stop.
 old-location: direct2d\D2D1_GRADIENT_STOP.htm
 tech.root: Direct2D
 ms.assetid: f6798542-382a-4074-bbe1-707bc00b3575
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_GRADIENT_STOP, D2D1_GRADIENT_STOP structure [Direct2D], d2d1/D2D1_GRADIENT_STOP, direct2d.D2D1_GRADIENT_STOP
 ms.topic: struct
-f1_keywords: 
- - "d2d1/D2D1_GRADIENT_STOP"
+f1_keywords:
+- d2d1/D2D1_GRADIENT_STOP
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1.h
+- d2d1.h
 api_name:
- - D2D1_GRADIENT_STOP
+- D2D1_GRADIENT_STOP
 targetos: Windows
 req.typenames: D2D1_GRADIENT_STOP
 req.redist: 

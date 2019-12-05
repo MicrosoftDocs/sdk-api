@@ -1,19 +1,17 @@
 ---
 UID: NF:winwlx.WlxIsLockOk
 title: WlxIsLockOk function (winwlx.h)
-
 description: Winlogon calls this function before attempting to lock the workstation.
 old-location: security\wlxislockok.htm
 tech.root: SecAuthN
 ms.assetid: 764d7fc9-57d8-472a-9b91-ebfbe3628452
-
 ms.date: 12/05/2018
 ms.keywords: WlxIsLockOk, WlxIsLockOk function [Security], _gina_wlxislockok, security.wlxislockok, winwlx/WlxIsLockOk
 ms.topic: function
-f1_keywords: 
- - "winwlx/WlxIsLockOk"
+f1_keywords:
+- winwlx/WlxIsLockOk
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winwlx.h
+- Winwlx.h
 api_name:
- - WlxIsLockOk
+- WlxIsLockOk
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMProgress.Begin
 title: IWMDMProgress::Begin (mswmdm.h)
-
 description: The Begin method indicates that an operation is beginning. An estimate of the duration of the operation is provided when possible.
 old-location: wmdm\iwmdmprogress_begin.htm
 tech.root: WMDM
 ms.assetid: 207b7cb5-4471-4be9-8252-9d467d67d7a2
-
 ms.date: 12/05/2018
 ms.keywords: Begin, Begin method [windows Media Device Manager], Begin method [windows Media Device Manager],IWMDMProgress interface, IWMDMProgress interface [windows Media Device Manager],Begin method, IWMDMProgress.Begin, IWMDMProgress::Begin, IWMDMProgressBegin, mswmdm/IWMDMProgress::Begin, wmdm.iwmdmprogress_begin
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMProgress.Begin"
+f1_keywords:
+- mswmdm/IWMDMProgress.Begin
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMProgress.Begin
+- IWMDMProgress.Begin
 targetos: Windows
 req.typenames: 
 req.redist: 

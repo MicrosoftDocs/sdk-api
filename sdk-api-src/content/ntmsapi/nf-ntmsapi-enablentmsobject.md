@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.EnableNtmsObject
 title: EnableNtmsObject function (ntmsapi.h)
-
 description: The EnableNtmsObject function enables the specified object.
 old-location: fs\enablentmsobject.htm
 tech.root: Rsm
 ms.assetid: 6a752f8e-7be0-4f2c-9bd3-3678d7328b20
-
 ms.date: 12/05/2018
 ms.keywords: EnableNtmsObject, EnableNtmsObject function [Files], NTMS_DRIVE, NTMS_LIBRARY, NTMS_PHYSICAL_MEDIA, _zaw_enablentmsobject, base.enablentmsobject, fs.enablentmsobject, ntmsapi/EnableNtmsObject
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/EnableNtmsObject"
+f1_keywords:
+- ntmsapi/EnableNtmsObject
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - EnableNtmsObject
+- EnableNtmsObject
 targetos: Windows
 req.typenames: 
 req.redist: 

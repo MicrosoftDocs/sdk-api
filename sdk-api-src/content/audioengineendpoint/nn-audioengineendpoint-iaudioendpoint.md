@@ -1,19 +1,17 @@
 ---
 UID: NN:audioengineendpoint.IAudioEndpoint
 title: IAudioEndpoint (audioengineendpoint.h)
-
 description: Provides information to the audio engine about an audio endpoint. This interface is implemented by an audio endpoint.
 old-location: termserv\iaudioendpoint.htm
 tech.root: TermServ
 ms.assetid: a1bb3fe4-6051-4b9c-8270-70375e700f01
-
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpoint, IAudioEndpoint interface [Remote Desktop Services], IAudioEndpoint interface [Remote Desktop Services],described, audioengineendpoint/IAudioEndpoint, termserv.iaudioendpoint
 ms.topic: interface
-f1_keywords: 
- - "audioengineendpoint/IAudioEndpoint"
+f1_keywords:
+- audioengineendpoint/IAudioEndpoint
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioengineendpoint.h
+- Audioengineendpoint.h
 api_name:
- - IAudioEndpoint
+- IAudioEndpoint
 targetos: Windows
 req.typenames: 
 req.redist: 

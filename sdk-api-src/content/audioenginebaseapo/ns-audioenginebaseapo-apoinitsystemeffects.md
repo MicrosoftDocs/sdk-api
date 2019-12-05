@@ -1,19 +1,17 @@
 ---
 UID: NS:audioenginebaseapo.APOInitSystemEffects
 title: APOInitSystemEffects (audioenginebaseapo.h)
-
 description: The APOInitSystemEffects structure gets passed to the system effects APO for initialization.
 old-location: audio\apoinitsystemeffects.htm
 tech.root: audio
 ms.assetid: E33B1F94-4E3A-4EC1-AFB5-FD803FA391BC
-
 ms.date: 12/05/2018
 ms.keywords: APOInitSystemEffects, APOInitSystemEffects structure [Audio Devices], PAPOInitSystemEffects, PAPOInitSystemEffects structure pointer [Audio Devices], audio.apoinitsystemeffects, audioenginebaseapo/APOInitSystemEffects, audioenginebaseapo/PAPOInitSystemEffects
 ms.topic: struct
-f1_keywords: 
- - "audioenginebaseapo/APOInitSystemEffects"
+f1_keywords:
+- audioenginebaseapo/APOInitSystemEffects
 dev_langs:
- - c++
+- c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Audioenginebaseapo.h
+- Audioenginebaseapo.h
 api_name:
- - APOInitSystemEffects
+- APOInitSystemEffects
 targetos: Windows
 req.typenames: APOInitSystemEffects
 req.redist: 

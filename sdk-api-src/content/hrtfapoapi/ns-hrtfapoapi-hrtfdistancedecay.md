@@ -1,19 +1,17 @@
 ---
 UID: NS:hrtfapoapi.HrtfDistanceDecay
 title: HrtfDistanceDecay (hrtfapoapi.h)
-
 description: Describes a distance-based decay behavior.
 old-location: xaudio2\hrtfdistancedecay.htm
 tech.root: xaudio2
 ms.assetid: B488A674-91A7-41CB-9FF5-8270C6E941D2
-
 ms.date: 12/05/2018
 ms.keywords: HrtfDistanceDecay, HrtfDistanceDecay structure [XAudio2 Audio Mixing APIs], PHrtfDistanceDecay, PHrtfDistanceDecay structure pointer [XAudio2 Audio Mixing APIs], hrtfapoapi/HrtfDistanceDecay, hrtfapoapi/PHrtfDistanceDecay, xaudio2.hrtfdistancedecay
 ms.topic: struct
-f1_keywords: 
- - "hrtfapoapi/HrtfDistanceDecay"
+f1_keywords:
+- hrtfapoapi/HrtfDistanceDecay
 dev_langs:
- - c++
+- c++
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - HrtfApoApi.h
+- HrtfApoApi.h
 api_name:
- - HrtfDistanceDecay
+- HrtfDistanceDecay
 targetos: Windows
 req.typenames: HrtfDistanceDecay
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.OpenThemeData
 title: OpenThemeData function (uxtheme.h)
-
 description: Opens the theme data for a window and its associated class.
 old-location: controls\OpenThemeData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\openthemedata.htm
-
 ms.date: 12/05/2018
 ms.keywords: OpenThemeData, OpenThemeData function [Windows Controls], controls.OpenThemeData, controls.inet_OpenThemeData, inet_OpenThemeData, inet_OpenThemeData_cpp, uxtheme/OpenThemeData
 ms.topic: function
-f1_keywords: 
- - "uxtheme/OpenThemeData"
+f1_keywords:
+- uxtheme/OpenThemeData
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
- - xamlpalwp.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
+- UxTheme.dll
+- Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+- xamlpalwp.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
 api_name:
- - OpenThemeData
+- OpenThemeData
 targetos: Windows
 req.typenames: 
 req.redist: 

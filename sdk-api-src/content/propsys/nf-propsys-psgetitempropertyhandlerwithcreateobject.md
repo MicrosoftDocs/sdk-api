@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSGetItemPropertyHandlerWithCreateObject
 title: PSGetItemPropertyHandlerWithCreateObject function (propsys.h)
-
 description: Retrieves a property handler for a Shell item.
 old-location: properties\PSGetItemPropertyHandlerWithCreateObject.htm
 tech.root: properties
 ms.assetid: 82e0aa15-b67c-4c0a-bafb-f1dc5f822aec
-
 ms.date: 12/05/2018
 ms.keywords: PSGetItemPropertyHandlerWithCreateObject, PSGetItemPropertyHandlerWithCreateObject function [Windows Properties], _shell_PSGetItemPropertyHandlerWithCreateObject, properties.PSGetItemPropertyHandlerWithCreateObject, propsys/PSGetItemPropertyHandlerWithCreateObject, shell.PSGetItemPropertyHandlerWithCreateObject
 ms.topic: function
-f1_keywords: 
- - "propsys/PSGetItemPropertyHandlerWithCreateObject"
+f1_keywords:
+- propsys/PSGetItemPropertyHandlerWithCreateObject
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSGetItemPropertyHandlerWithCreateObject
+- PSGetItemPropertyHandlerWithCreateObject
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

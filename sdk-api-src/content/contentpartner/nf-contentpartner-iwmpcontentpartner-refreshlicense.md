@@ -1,19 +1,17 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.RefreshLicense
 title: IWMPContentPartner::RefreshLicense (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The RefreshLicense method initiates the update of a license for the specified media file.
 old-location: wmp\iwmpcontentpartner_refreshlicense.htm
 tech.root: WMP
 ms.assetid: 2f0d8ed9-027c-45a3-a61a-f6d571e78a0a
-
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],RefreshLicense method, IWMPContentPartner.RefreshLicense, IWMPContentPartner::RefreshLicense, IWMPContentPartnerRefreshLicense, RefreshLicense, RefreshLicense method [Windows Media Player], RefreshLicense method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::RefreshLicense, wmp.iwmpcontentpartner_refreshlicense
 ms.topic: method
-f1_keywords: 
- - "contentpartner/IWMPContentPartner.RefreshLicense"
+f1_keywords:
+- contentpartner/IWMPContentPartner.RefreshLicense
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - IWMPContentPartner.RefreshLicense
+- IWMPContentPartner.RefreshLicense
 targetos: Windows
 req.typenames: 
 req.redist: 

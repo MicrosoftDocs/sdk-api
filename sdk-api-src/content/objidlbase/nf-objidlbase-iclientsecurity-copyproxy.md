@@ -1,19 +1,17 @@
 ---
 UID: NF:objidlbase.IClientSecurity.CopyProxy
 title: IClientSecurity::CopyProxy (objidlbase.h)
-
 description: Makes a private copy of the proxy for the specified interface.
 old-location: com\iclientsecurity_copyproxy.htm
 tech.root: com
 ms.assetid: 4664351b-d43b-45dc-800e-574685afd0f6
-
 ms.date: 12/05/2018
 ms.keywords: CopyProxy, CopyProxy method [COM], CopyProxy method [COM],IClientSecurity interface, IClientSecurity interface [COM],CopyProxy method, IClientSecurity.CopyProxy, IClientSecurity::CopyProxy, _com_iclientsecurity_copyproxy, com.iclientsecurity_copyproxy, objidlbase/IClientSecurity::CopyProxy
 ms.topic: method
-f1_keywords: 
- - "objidlbase/IClientSecurity.CopyProxy"
+f1_keywords:
+- objidlbase/IClientSecurity.CopyProxy
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IClientSecurity.CopyProxy
+- IClientSecurity.CopyProxy
 targetos: Windows
 req.typenames: 
 req.redist: 

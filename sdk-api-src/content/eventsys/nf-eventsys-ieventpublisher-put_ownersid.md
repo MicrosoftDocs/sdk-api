@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventPublisher.put_OwnerSID
 title: IEventPublisher::put_OwnerSID (eventsys.h)
-
 description: The security identifier of the creator of the event publisher.
 old-location: com\ieventpublisher_ownersid.htm
 tech.root: com
 ms.assetid: 7555992f-ba50-4d3e-afa8-6304fec8b5c5
-
 ms.date: 12/05/2018
 ms.keywords: IEventPublisher interface [COM],OwnerSID property, IEventPublisher.OwnerSID, IEventPublisher.put_OwnerSID, IEventPublisher::OwnerSID, IEventPublisher::get_OwnerSID, IEventPublisher::put_OwnerSID, OwnerSID property [COM], OwnerSID property [COM],IEventPublisher interface, _com_ieventpublisher_ownersid, com.ieventpublisher_ownersid, eventsys/IEventPublisher::OwnerSID, eventsys/IEventPublisher::get_OwnerSID, eventsys/IEventPublisher::put_OwnerSID, put_OwnerSID
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventPublisher.OwnerSID"
+f1_keywords:
+- eventsys/IEventPublisher.OwnerSID
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IEventPublisher.OwnerSID
- - IEventPublisher.get_OwnerSID
- - IEventPublisher.put_OwnerSID
+- IEventPublisher.OwnerSID
+- IEventPublisher.get_OwnerSID
+- IEventPublisher.put_OwnerSID
 targetos: Windows
 req.typenames: 
 req.redist: 

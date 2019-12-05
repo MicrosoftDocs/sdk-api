@@ -1,19 +1,17 @@
 ---
 UID: NN:wtsprotocol.IWTSProtocolListenerCallback
 title: IWTSProtocolListenerCallback (wtsprotocol.h)
-
 description: IWTSProtocolListenerCallback is no longer available. Instead, use IWRdsProtocolListenerCallback.
 old-location: termserv\iwtsprotocollistenercallback.htm
 tech.root: TermServ
 ms.assetid: 607fcb85-4602-4651-b246-3e32c8868e47
-
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolListenerCallback, IWTSProtocolListenerCallback interface [Remote Desktop Services], IWTSProtocolListenerCallback interface [Remote Desktop Services],described, termserv.iwtsprotocollistenercallback, wtsprotocol/IWTSProtocolListenerCallback
 ms.topic: interface
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolListenerCallback"
+f1_keywords:
+- wtsprotocol/IWTSProtocolListenerCallback
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWTSProtocolListenerCallback
+- IWTSProtocolListenerCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

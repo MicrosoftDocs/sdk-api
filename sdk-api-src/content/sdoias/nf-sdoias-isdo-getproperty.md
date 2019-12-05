@@ -1,19 +1,17 @@
 ---
 UID: NF:sdoias.ISdo.GetProperty
 title: ISdo::GetProperty (sdoias.h)
-
 description: The GetProperty method retrieves the value of the specified property.
 old-location: nps\SDO_isdo_getproperty.htm
 tech.root: Nps
 ms.assetid: 9567e731-4240-4b37-8757-2e25824bba0a
-
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Network Policy Server], GetProperty method [Network Policy Server],ISdo interface, ISdo interface [Network Policy Server],GetProperty method, ISdo.GetProperty, ISdo::GetProperty, _sdo_isdo_getproperty, nps.SDO_isdo_getproperty, sdo.isdo_getproperty, sdoias/ISdo::GetProperty
 ms.topic: method
 f1_keywords:
 - sdoias/ISdo.GetProperty
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetRetrievalFilter
 title: ID3D12InfoQueue::GetRetrievalFilter (d3d12sdklayers.h)
-
 description: Get the retrieval filter at the top of the retrieval-filter stack.
 old-location: direct3d12\id3d12infoqueue_getretrievalfilter.htm
 tech.root: direct3d12
 ms.assetid: A5F4A602-C5C1-402E-9208-D183EEDF6F27
-
 ms.date: 12/05/2018
 ms.keywords: GetRetrievalFilter, GetRetrievalFilter method, GetRetrievalFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetRetrievalFilter method, ID3D12InfoQueue.GetRetrievalFilter, ID3D12InfoQueue::GetRetrievalFilter, d3d12sdklayers/ID3D12InfoQueue::GetRetrievalFilter, direct3d12.id3d12infoqueue_getretrievalfilter
 ms.topic: method
-f1_keywords: 
- - "d3d12sdklayers/ID3D12InfoQueue.GetRetrievalFilter"
+f1_keywords:
+- d3d12sdklayers/ID3D12InfoQueue.GetRetrievalFilter
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - ID3D12InfoQueue.GetRetrievalFilter
+- ID3D12InfoQueue.GetRetrievalFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

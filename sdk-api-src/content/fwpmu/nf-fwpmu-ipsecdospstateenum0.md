@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.IPsecDospStateEnum0
 title: IPsecDospStateEnum0 function (fwpmu.h)
-
 description: Returns the next page of results from the IPsec DoS Protection state enumerator. Each IPsec DoS Protection state entry corresponds to a flow that has successfully passed the IPsec DoS Protection authentication checks.
 old-location: fwp\ipsecdospstateenum0.htm
 tech.root: fwp
 ms.assetid: d69e323b-249b-4b90-8754-2c910fbc2fc4
-
 ms.date: 12/05/2018
 ms.keywords: IPsecDospStateEnum0, IPsecDospStateEnum0 function [Filtering], fwp.ipsecdospstateenum0, fwpmu/IPsecDospStateEnum0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/IPsecDospStateEnum0"
+f1_keywords:
+- fwpmu/IPsecDospStateEnum0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - IPsecDospStateEnum0
+- IPsecDospStateEnum0
 targetos: Windows
 req.typenames: 
 req.redist: 

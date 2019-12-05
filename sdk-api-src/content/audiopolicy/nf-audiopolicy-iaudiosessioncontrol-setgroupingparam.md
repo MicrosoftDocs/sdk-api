@@ -1,19 +1,17 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl.SetGroupingParam
 title: IAudioSessionControl::SetGroupingParam (audiopolicy.h)
-
 description: The SetGroupingParam method assigns a session to a grouping of sessions.
 old-location: coreaudio\iaudiosessioncontrol_setgroupingparam.htm
 tech.root: CoreAudio
 ms.assetid: 990bebd9-c37d-4f72-b349-a43a074d8992
-
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionControl interface [Core Audio],SetGroupingParam method, IAudioSessionControl.SetGroupingParam, IAudioSessionControl::SetGroupingParam, IAudioSessionControlSetGroupingParam, SetGroupingParam, SetGroupingParam method [Core Audio], SetGroupingParam method [Core Audio],IAudioSessionControl interface, audiopolicy/IAudioSessionControl::SetGroupingParam, coreaudio.iaudiosessioncontrol_setgroupingparam
 ms.topic: method
-f1_keywords: 
- - "audiopolicy/IAudioSessionControl.SetGroupingParam"
+f1_keywords:
+- audiopolicy/IAudioSessionControl.SetGroupingParam
 dev_langs:
- - c++
+- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audiopolicy.h
+- Audiopolicy.h
 api_name:
- - IAudioSessionControl.SetGroupingParam
+- IAudioSessionControl.SetGroupingParam
 targetos: Windows
 req.typenames: 
 req.redist: 

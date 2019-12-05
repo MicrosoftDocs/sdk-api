@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFDRMNetHelper.GetChainedLicenseResponse
 title: IMFDRMNetHelper::GetChainedLicenseResponse (wmcontainer.h)
-
 description: Not implemented in this release.
 old-location: mf\imfdrmnethelper_getchainedlicenseresponse.htm
 tech.root: medfound
 ms.assetid: eedbefd8-8540-4bf9-b602-6bebf089fcf7
-
 ms.date: 12/05/2018
 ms.keywords: GetChainedLicenseResponse, GetChainedLicenseResponse method [Media Foundation], GetChainedLicenseResponse method [Media Foundation],IMFDRMNetHelper interface, IMFDRMNetHelper interface [Media Foundation],GetChainedLicenseResponse method, IMFDRMNetHelper.GetChainedLicenseResponse, IMFDRMNetHelper::GetChainedLicenseResponse, mf.imfdrmnethelper_getchainedlicenseresponse, wmcontainer/IMFDRMNetHelper::GetChainedLicenseResponse
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFDRMNetHelper.GetChainedLicenseResponse"
+f1_keywords:
+- wmcontainer/IMFDRMNetHelper.GetChainedLicenseResponse
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcontainer.h
+- wmcontainer.h
 api_name:
- - IMFDRMNetHelper.GetChainedLicenseResponse
+- IMFDRMNetHelper.GetChainedLicenseResponse
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2tcpip.WSAQuerySocketSecurity
 title: WSAQuerySocketSecurity function (ws2tcpip.h)
-
 description: Queries information about the security applied to a connection on a socket.
 old-location: winsock\wsaquerysocketsecurity.htm
 tech.root: WinSock
 ms.assetid: fda7738f-b7fc-49c3-aa40-9beea31d1009
-
 ms.date: 12/05/2018
 ms.keywords: WSAQuerySocketSecurity, WSAQuerySocketSecurity function [Winsock], winsock.wsaquerysocketsecurity, ws2tcpip/WSAQuerySocketSecurity
 ms.topic: function
 f1_keywords:
 - ws2tcpip/WSAQuerySocketSecurity
 dev_langs:
- - c++
+- c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

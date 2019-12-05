@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._JOBOBJECT_END_OF_JOB_TIME_INFORMATION
 title: JOBOBJECT_END_OF_JOB_TIME_INFORMATION (winnt.h)
-
 description: Specifies the action the system will perform when an end-of-job time limit is exceeded.
 old-location: base\jobobject_end_of_job_time_information_str.htm
 tech.root: ProcThread
 ms.assetid: 0054d018-c358-4cb0-a4db-fc6464b4b08c
-
 ms.date: 12/05/2018
 ms.keywords: '*PJOBOBJECT_END_OF_JOB_TIME_INFORMATION, JOBOBJECT_END_OF_JOB_TIME_INFORMATION, JOBOBJECT_END_OF_JOB_TIME_INFORMATION structure, JOB_OBJECT_POST_AT_END_OF_JOB, JOB_OBJECT_TERMINATE_AT_END_OF_JOB, PJOBOBJECT_END_OF_JOB_TIME_INFORMATION, PJOBOBJECT_END_OF_JOB_TIME_INFORMATION structure, _JOBOBJECT_END_OF_JOB_TIME_INFORMATION, _win32_jobobject_end_of_job_time_information_str, base.jobobject_end_of_job_time_information_str, winnt/JOBOBJECT_END_OF_JOB_TIME_INFORMATION, winnt/PJOBOBJECT_END_OF_JOB_TIME_INFORMATION'
 ms.topic: struct
 f1_keywords:
 - winnt/JOBOBJECT_END_OF_JOB_TIME_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

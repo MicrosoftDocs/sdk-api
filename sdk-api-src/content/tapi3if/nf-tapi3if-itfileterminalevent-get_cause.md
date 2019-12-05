@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITFileTerminalEvent.get_Cause
 title: ITFileTerminalEvent::get_Cause (tapi3if.h)
-
 description: The get_Cause method gets the cause associated with this event.
 old-location: tapi3\itfileterminalevent_get_cause.htm
 tech.root: Tapi
 ms.assetid: 90594778-712e-4d26-9fe5-cb5cfd240359
-
 ms.date: 12/05/2018
 ms.keywords: ITFileTerminalEvent interface [TAPI 2.2],get_Cause method, ITFileTerminalEvent.get_Cause, ITFileTerminalEvent::get_Cause, _tapi3_itfileterminalevent_get_cause, get_Cause, get_Cause method [TAPI 2.2], get_Cause method [TAPI 2.2],ITFileTerminalEvent interface, tapi3.itfileterminalevent_get_cause, tapi3if/ITFileTerminalEvent::get_Cause
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITFileTerminalEvent.get_Cause"
+f1_keywords:
+- tapi3if/ITFileTerminalEvent.get_Cause
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITFileTerminalEvent.get_Cause
+- ITFileTerminalEvent.get_Cause
 targetos: Windows
 req.typenames: 
 req.redist: 

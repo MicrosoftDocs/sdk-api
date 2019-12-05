@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComThreadEvents.OnThreadUnassignApartment
 title: IComThreadEvents::OnThreadUnassignApartment (comsvcs.h)
-
 description: Generated when an activity is unassigned from an apartment thread.
 old-location: cos\icomthreadevents_onthreadunassignapartment.htm
 tech.root: cossdk
 ms.assetid: c57b2427-9c39-4068-b531-9f18264746a1
-
 ms.date: 12/05/2018
 ms.keywords: IComThreadEvents interface [COM+],OnThreadUnassignApartment method, IComThreadEvents.OnThreadUnassignApartment, IComThreadEvents::OnThreadUnassignApartment, OnThreadUnassignApartment, OnThreadUnassignApartment method [COM+], OnThreadUnassignApartment method [COM+],IComThreadEvents interface, _dtc_IComThreadEvents_OnThreadUnassignApartment, comsvcs/IComThreadEvents::OnThreadUnassignApartment, cos.icomthreadevents_onthreadunassignapartment
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComThreadEvents.OnThreadUnassignApartment"
+f1_keywords:
+- comsvcs/IComThreadEvents.OnThreadUnassignApartment
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComThreadEvents.OnThreadUnassignApartment
+- IComThreadEvents.OnThreadUnassignApartment
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xinput.XInputGetAudioDeviceIds
 title: XInputGetAudioDeviceIds function (xinput.h)
-
 description: Retrieves the sound rendering and sound capture audio device IDs that are associated with the headset connected to the specified controller.
 old-location: xinput\xinputgetaudiodeviceids.htm
 tech.root: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputGetAudioDeviceIds(DWORD,LPWSTR@,UINT@,LPWSTR@,UINT@)
-
 ms.date: 12/05/2018
 ms.keywords: XInputGetAudioDeviceIds, XInputGetAudioDeviceIds function [XInput Game Controller APIs], xinput.xinputgetaudiodeviceids, xinput/XInputGetAudioDeviceIds
 ms.topic: function
-f1_keywords: 
- - "xinput/XInputGetAudioDeviceIds"
+f1_keywords:
+- xinput/XInputGetAudioDeviceIds
 dev_langs:
- - c++
+- c++
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Xinput.lib
 req.dll: Xinput1_4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - xinput1_4.dll
- - Ext-MS-Win-Gaming-XInput-L1-1-0.dll
- - xinputuap.dll
+- xinput1_4.dll
+- Ext-MS-Win-Gaming-XInput-L1-1-0.dll
+- xinputuap.dll
 api_name:
- - XInputGetAudioDeviceIds
+- XInputGetAudioDeviceIds
 targetos: Windows
 req.typenames: 
 req.redist: 

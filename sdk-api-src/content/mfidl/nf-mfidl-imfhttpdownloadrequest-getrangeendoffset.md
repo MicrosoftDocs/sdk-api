@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.GetRangeEndOffset
 title: IMFHttpDownloadRequest::GetRangeEndOffset (mfidl.h)
-
 description: Invoked by Microsoft Media Foundation to retrieve the offset of the last byte in the current response, counted from the start of the resource. This is useful when a request uses the HTTP “Range” header to download only a portion of a resource.
 old-location: mf\imfhttpdownloadrequest_getrangeendoffset.htm
 tech.root: medfound
 ms.assetid: 015CBC40-BE9E-4C9F-AC1B-30FFDD2B11CC
-
 ms.date: 12/05/2018
 ms.keywords: GetRangeEndOffset, GetRangeEndOffset method [Media Foundation], GetRangeEndOffset method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetRangeEndOffset method, IMFHttpDownloadRequest.GetRangeEndOffset, IMFHttpDownloadRequest::GetRangeEndOffset, mf.imfhttpdownloadrequest_getrangeendoffset, mfidl/IMFHttpDownloadRequest::GetRangeEndOffset
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFHttpDownloadRequest.GetRangeEndOffset"
+f1_keywords:
+- mfidl/IMFHttpDownloadRequest.GetRangeEndOffset
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest.GetRangeEndOffset
+- IMFHttpDownloadRequest.GetRangeEndOffset
 targetos: Windows
 req.typenames: 
 req.redist: 

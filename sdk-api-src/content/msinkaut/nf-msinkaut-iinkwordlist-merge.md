@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkWordList.Merge
 title: IInkWordList::Merge (msinkaut.h)
-
 description: Merges the specified InkWordList object into this word list.
 old-location: tablet\inkwordlist_merge.htm
 tech.root: tablet
 ms.assetid: 81c013c3-c033-4dc8-a828-95fcc810e608
-
 ms.date: 12/05/2018
 ms.keywords: 81c013c3-c033-4dc8-a828-95fcc810e608, IInkWordList, IInkWordList interface [Tablet PC],Merge method, IInkWordList.Merge, IInkWordList::Merge, InkWordList class [Tablet PC],Merge method, Merge, Merge method [Tablet PC], Merge method [Tablet PC],IInkWordList interface, Merge method [Tablet PC],InkWordList class, msinkaut/IInkWordList::Merge, tablet.inkwordlist_merge
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkWordList.Merge"
+f1_keywords:
+- msinkaut/IInkWordList.Merge
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkWordList.Merge
- - InkWordList.Merge
+- IInkWordList.Merge
+- InkWordList.Merge
 targetos: Windows
 req.typenames: 
 req.redist: 

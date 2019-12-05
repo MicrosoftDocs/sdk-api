@@ -1,19 +1,17 @@
 ---
 UID: NE:dxvahd._DXVAHD_FILTER_CAPS
 title: DXVAHD_FILTER_CAPS (dxvahd.h)
-
 description: Defines capabilities related to image adjustment and filtering for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\dxvahd_filter_caps.htm
 tech.root: medfound
 ms.assetid: 2f4e0b48-fbce-49e8-9ea8-1b6f0a022d60
-
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_FILTER_CAPS, DXVAHD_FILTER_CAPS enumeration [Media Foundation], DXVAHD_FILTER_CAPS_ANAMORPHIC_SCALING, DXVAHD_FILTER_CAPS_BRIGHTNESS, DXVAHD_FILTER_CAPS_CONTRAST, DXVAHD_FILTER_CAPS_EDGE_ENHANCEMENT, DXVAHD_FILTER_CAPS_HUE, DXVAHD_FILTER_CAPS_NOISE_REDUCTION, DXVAHD_FILTER_CAPS_SATURATION, dxvahd/DXVAHD_FILTER_CAPS, dxvahd/DXVAHD_FILTER_CAPS_ANAMORPHIC_SCALING, dxvahd/DXVAHD_FILTER_CAPS_BRIGHTNESS, dxvahd/DXVAHD_FILTER_CAPS_CONTRAST, dxvahd/DXVAHD_FILTER_CAPS_EDGE_ENHANCEMENT, dxvahd/DXVAHD_FILTER_CAPS_HUE, dxvahd/DXVAHD_FILTER_CAPS_NOISE_REDUCTION, dxvahd/DXVAHD_FILTER_CAPS_SATURATION, mf.dxvahd_filter_caps
 ms.topic: enum
-f1_keywords: 
- - "dxvahd/DXVAHD_FILTER_CAPS"
+f1_keywords:
+- dxvahd/DXVAHD_FILTER_CAPS
 dev_langs:
- - c++
+- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxvahd.h
+- dxvahd.h
 api_name:
- - DXVAHD_FILTER_CAPS
+- DXVAHD_FILTER_CAPS
 targetos: Windows
 req.typenames: DXVAHD_FILTER_CAPS
 req.redist: 

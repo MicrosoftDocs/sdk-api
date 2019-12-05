@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509ExtensionAlternativeNames.InitializeEncode
 title: IX509ExtensionAlternativeNames::InitializeEncode (certenroll.h)
-
 description: Initializes the extension from an IAlternativeNames collection.
 old-location: security\ix509extensionalternativenames_initializeencode_method.htm
 tech.root: seccertenroll
 ms.assetid: e520b2b4-c181-4fb1-98e8-f159bd0d31b4
-
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionAlternativeNames interface [Security],InitializeEncode method, IX509ExtensionAlternativeNames.InitializeEncode, IX509ExtensionAlternativeNames::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionAlternativeNames interface, certenroll/IX509ExtensionAlternativeNames::InitializeEncode, security.ix509extensionalternativenames_initializeencode_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509ExtensionAlternativeNames.InitializeEncode"
+f1_keywords:
+- certenroll/IX509ExtensionAlternativeNames.InitializeEncode
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509ExtensionAlternativeNames.InitializeEncode
+- IX509ExtensionAlternativeNames.InitializeEncode
 targetos: Windows
 req.typenames: 
 req.redist: 

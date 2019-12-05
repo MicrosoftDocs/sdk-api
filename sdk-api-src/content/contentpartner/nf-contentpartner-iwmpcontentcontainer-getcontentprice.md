@@ -1,19 +1,17 @@
 ---
 UID: NF:contentpartner.IWMPContentContainer.GetContentPrice
 title: IWMPContentContainer::GetContentPrice (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentcontainer_getcontentprice.htm
 tech.root: WMP
 ms.assetid: ae0a9f37-2337-419e-b912-2102e8eb2a39
-
 ms.date: 12/05/2018
 ms.keywords: GetContentPrice, GetContentPrice method [Windows Media Player], GetContentPrice method [Windows Media Player],IWMPContentContainer interface, IWMPContentContainer interface [Windows Media Player],GetContentPrice method, IWMPContentContainer.GetContentPrice, IWMPContentContainer::GetContentPrice, IWMPContentContainerGetContentPrice, contentpartner/IWMPContentContainer::GetContentPrice, wmp.iwmpcontentcontainer_getcontentprice
 ms.topic: method
-f1_keywords: 
- - "contentpartner/IWMPContentContainer.GetContentPrice"
+f1_keywords:
+- contentpartner/IWMPContentContainer.GetContentPrice
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - IWMPContentContainer.GetContentPrice
+- IWMPContentContainer.GetContentPrice
 targetos: Windows
 req.typenames: 
 req.redist: 

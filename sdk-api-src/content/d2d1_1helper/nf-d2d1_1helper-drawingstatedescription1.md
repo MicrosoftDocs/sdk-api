@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1helper.DrawingStateDescription1
 title: DrawingStateDescription1 function (d2d1_1helper.h)
-
 description: Creates a D2D1_DRAWING_STATE_DESCRIPTION1 structure.
 old-location: direct2d\drawingstatedescription1.htm
 tech.root: Direct2D
 ms.assetid: 9D2F5196-0C37-465E-AFCF-FAAC3C19D3C2
-
 ms.date: 12/05/2018
 ms.keywords: DrawingStateDescription1, DrawingStateDescription1 function [Direct2D], d2d1_1helper/DrawingStateDescription1, direct2d.drawingstatedescription1
 ms.topic: function
-f1_keywords: 
- - "d2d1_1helper/DrawingStateDescription1"
+f1_keywords:
+- d2d1_1helper/DrawingStateDescription1
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - d2d1.dll
+- d2d1.dll
 api_name:
- - DrawingStateDescription1
+- DrawingStateDescription1
 targetos: Windows
 req.typenames: 
 req.redist: 

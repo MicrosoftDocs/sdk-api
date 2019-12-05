@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfRange.GetGravity
 title: ITfRange::GetGravity (msctf.h)
-
 description: ITfRange::GetGravity method
 old-location: tsf\itfrange_getgravity.htm
 tech.root: TSF
 ms.assetid: 7569b9dd-869f-49a6-ad0f-c2d9b5f0ae70
-
 ms.date: 12/05/2018
 ms.keywords: GetGravity, GetGravity method [Text Services Framework], GetGravity method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],GetGravity method, ITfRange.GetGravity, ITfRange::GetGravity, _tsf_itfrange_getgravity_ref, msctf/ITfRange::GetGravity, tsf.itfrange_getgravity
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfRange.GetGravity"
+f1_keywords:
+- msctf/ITfRange.GetGravity
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfRange.GetGravity
+- ITfRange.GetGravity
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

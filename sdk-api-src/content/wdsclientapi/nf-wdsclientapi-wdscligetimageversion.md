@@ -1,19 +1,17 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageVersion
 title: WdsCliGetImageVersion function (wdsclientapi.h)
-
 description: Returns the version of the current image.
 old-location: wds\wdscligetimageversion.htm
 tech.root: wds
 ms.assetid: 50cd6ca0-dffd-452c-9e68-904037f71ccc
-
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetImageVersion, WdsCliGetImageVersion function [Windows Deployment Services], wds.wdscligetimageversion, wdsclientapi/WdsCliGetImageVersion
 ms.topic: function
-f1_keywords: 
- - "wdsclientapi/WdsCliGetImageVersion"
+f1_keywords:
+- wdsclientapi/WdsCliGetImageVersion
 dev_langs:
- - c++
+- c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsClientAPI.lib
 req.dll: WdsClientAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsClientAPI.dll
+- WdsClientAPI.dll
 api_name:
- - WdsCliGetImageVersion
+- WdsCliGetImageVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

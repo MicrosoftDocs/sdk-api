@@ -1,19 +1,17 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.Advise
 title: ITextInputPanel::Advise (peninputpanel.h)
-
 description: Establishes an advisory connection between the Tablet PC Input Panel and the specified sink object.
 old-location: tablet\itextinputpanel_advise.htm
 tech.root: tablet
 ms.assetid: 4ea32572-84e6-4230-a634-fc83cb86601f
-
 ms.date: 12/05/2018
 ms.keywords: 4ea32572-84e6-4230-a634-fc83cb86601f, Advise, Advise method [Tablet PC], Advise method [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],Advise method, ITextInputPanel.Advise, ITextInputPanel::Advise, peninputpanel/ITextInputPanel::Advise, tablet.itextinputpanel_advise
 ms.topic: method
-f1_keywords: 
- - "peninputpanel/ITextInputPanel.Advise"
+f1_keywords:
+- peninputpanel/ITextInputPanel.Advise
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tiptsf.dll
+- tiptsf.dll
 api_name:
- - ITextInputPanel.Advise
+- ITextInputPanel.Advise
 targetos: Windows
 req.typenames: 
 req.redist: 

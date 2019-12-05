@@ -1,19 +1,17 @@
 ---
 UID: NF:bluetoothapis.BluetoothFindDeviceClose
 title: BluetoothFindDeviceClose function (bluetoothapis.h)
-
 description: The BluetoothFindDeviceClose function closes an enumeration handle associated with a device query.
 old-location: bluetooth\bluetoothfinddeviceclose.htm
 tech.root: bluetooth
 ms.assetid: 8b482d7f-56a3-47ef-be49-5272423c10f6
-
 ms.date: 12/05/2018
 ms.keywords: BluetoothFindDeviceClose, BluetoothFindDeviceClose function [Bluetooth], bluetooth.bluetoothfinddeviceclose, bluetoothapis/BluetoothFindDeviceClose
 ms.topic: function
-f1_keywords: 
- - "bluetoothapis/BluetoothFindDeviceClose"
+f1_keywords:
+- bluetoothapis/BluetoothFindDeviceClose
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Bthprops.lib
 req.dll: Bthprops.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bthprops.dll
- - BluetoothAPIs.dll
- - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+- Bthprops.dll
+- BluetoothAPIs.dll
+- Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
 api_name:
- - BluetoothFindDeviceClose
+- BluetoothFindDeviceClose
 targetos: Windows
 req.typenames: 
 req.redist: 

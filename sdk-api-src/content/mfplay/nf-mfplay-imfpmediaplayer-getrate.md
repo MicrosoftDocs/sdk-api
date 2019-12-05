@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetRate
 title: IMFPMediaPlayer::GetRate (mfplay.h)
-
 description: Gets the current playback rate.
 old-location: mf\imfpmediaplayer_getrate.htm
 tech.root: medfound
 ms.assetid: 51257361-0362-43c4-8aca-81fd49be8482
-
 ms.date: 12/05/2018
 ms.keywords: GetRate, GetRate method [Media Foundation], GetRate method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetRate method, IMFPMediaPlayer.GetRate, IMFPMediaPlayer::GetRate, mf.imfpmediaplayer_getrate, mfplay/IMFPMediaPlayer::GetRate
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaPlayer.GetRate"
+f1_keywords:
+- mfplay/IMFPMediaPlayer.GetRate
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaPlayer.GetRate
+- IMFPMediaPlayer.GetRate
 targetos: Windows
 req.typenames: 
 req.redist: 

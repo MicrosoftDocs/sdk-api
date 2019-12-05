@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.CreateBitmapBrush(ID2D1Bitmap,ID2D1BitmapBrush1)
 title: ID2D1DeviceContext::CreateBitmapBrush(ID2D1Bitmap,ID2D1BitmapBrush1) (d2d1_1.h)
-
 description: Creates a bitmap brush, the input image is a Direct2D bitmap object.
 old-location: direct2d\id2d1devicecontext_createbitmapbrush4.htm
 tech.root: Direct2D
 ms.assetid: ED701935-BA23-4D4F-A196-99480953ACBF
-
 ms.date: 12/05/2018
 ms.keywords: CreateBitmapBrush, CreateBitmapBrush method [Direct2D], CreateBitmapBrush method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateBitmapBrush method, ID2D1DeviceContext.CreateBitmapBrush, ID2D1DeviceContext.CreateBitmapBrush(ID2D1Bitmap,ID2D1BitmapBrush1), ID2D1DeviceContext::CreateBitmapBrush, ID2D1DeviceContext::CreateBitmapBrush(ID2D1Bitmap,ID2D1BitmapBrush1), d2d1_1/ID2D1DeviceContext::CreateBitmapBrush, direct2d.id2d1devicecontext_createbitmapbrush4
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1DeviceContext.CreateBitmapBrush"
+f1_keywords:
+- d2d1_1/ID2D1DeviceContext.CreateBitmapBrush
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext.CreateBitmapBrush
+- ID2D1DeviceContext.CreateBitmapBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

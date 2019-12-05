@@ -1,19 +1,17 @@
 ---
 UID: NF:shellscalingapi.RevokeScaleChangeNotifications
 title: RevokeScaleChangeNotifications function (shellscalingapi.h)
-
 description: Revokes the registration of a window, preventing it from receiving callbacks when scaling information changes.
 old-location: shell\RevokeScaleChangeNotifications.htm
 tech.root: shell
 ms.assetid: 95F1D147-D364-4b11-AE2B-CD1FCEA07B5D
-
 ms.date: 12/05/2018
 ms.keywords: RevokeScaleChangeNotifications, RevokeScaleChangeNotifications function [Windows Shell], shell.RevokeScaleChangeNotifications, shellscalingapi/RevokeScaleChangeNotifications
 ms.topic: function
-f1_keywords: 
- - "shellscalingapi/RevokeScaleChangeNotifications"
+f1_keywords:
+- shellscalingapi/RevokeScaleChangeNotifications
 dev_langs:
- - c++
+- c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Shcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shcore.dll
- - API-MS-Win-shcore-scaling-l1-1-0.dll
- - API-MS-Win-shcore-scaling-l1-1-1.dll
- - API-MS-Win-ShCore-Scaling-l1-1-2.dll
- - api-ms-win-shcore-scaling-l1.dll
+- Shcore.dll
+- API-MS-Win-shcore-scaling-l1-1-0.dll
+- API-MS-Win-shcore-scaling-l1-1-1.dll
+- API-MS-Win-ShCore-Scaling-l1-1-2.dll
+- api-ms-win-shcore-scaling-l1.dll
 api_name:
- - RevokeScaleChangeNotifications
+- RevokeScaleChangeNotifications
 targetos: Windows
 req.typenames: 
 req.redist: 

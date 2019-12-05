@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IFont.put_Weight
 title: IFont::put_Weight (ocidl.h)
-
 description: Sets the font's Weight property.
 old-location: com\ifont_put_weight.htm
 tech.root: com
 ms.assetid: 716c77f3-6224-40d7-abea-46ed5eedb08a
-
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],put_Weight method, IFont.put_Weight, IFont::put_Weight, _ctrl_ifont_put_weight, com.ifont_put_weight, ocidl/IFont::put_Weight, put_Weight, put_Weight method [COM], put_Weight method [COM],IFont interface
 ms.topic: method
-f1_keywords: 
- - "ocidl/IFont.put_Weight"
+f1_keywords:
+- ocidl/IFont.put_Weight
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IFont.put_Weight
+- IFont.put_Weight
 targetos: Windows
 req.typenames: 
 req.redist: 

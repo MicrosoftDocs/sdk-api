@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IBasicVideo.GetSourcePosition
 title: IBasicVideo::GetSourcePosition (control.h)
-
 description: The GetSourcePosition method retrieves the position of the source rectangle.
 old-location: dshow\ibasicvideo_getsourceposition.htm
 tech.root: DirectShow
 ms.assetid: 4624e38c-63ff-4860-a899-c70e44e0f8aa
-
 ms.date: 12/05/2018
 ms.keywords: GetSourcePosition, GetSourcePosition method [DirectShow], GetSourcePosition method [DirectShow],IBasicVideo interface, IBasicVideo interface [DirectShow],GetSourcePosition method, IBasicVideo.GetSourcePosition, IBasicVideo::GetSourcePosition, IBasicVideoGetSourcePosition, control/IBasicVideo::GetSourcePosition, dshow.ibasicvideo_getsourceposition
 ms.topic: method
-f1_keywords: 
- - "control/IBasicVideo.GetSourcePosition"
+f1_keywords:
+- control/IBasicVideo.GetSourcePosition
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBasicVideo.GetSourcePosition
+- IBasicVideo.GetSourcePosition
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:bitscfg.IBITSExtensionSetup.EnableBITSUploads
 title: IBITSExtensionSetup::EnableBITSUploads (bitscfg.h)
-
 description: Use the EnableBITSUploads method to enable BITS upload on the virtual directory to which the ADSI object points. This method sets the BITSUploadEnabled IIS extension property.
 old-location: bits\ibitsextensionsetup_enablebitsuploads.htm
 tech.root: Bits
 ms.assetid: 5b68dea2-f9a7-4a99-93d3-62c4f24b769f
-
 ms.date: 12/05/2018
 ms.keywords: EnableBITSUploads, EnableBITSUploads method [BITS], EnableBITSUploads method [BITS],IBITSExtensionSetup interface, IBITSExtensionSetup interface [BITS],EnableBITSUploads method, IBITSExtensionSetup.EnableBITSUploads, IBITSExtensionSetup::EnableBITSUploads, _drz_ibitsextensionsetup_enablebitsuploads, bits.ibitsextensionsetup_enablebitsuploads, bitscfg/IBITSExtensionSetup::EnableBITSUploads
 ms.topic: method
-f1_keywords: 
- - "bitscfg/IBITSExtensionSetup.EnableBITSUploads"
+f1_keywords:
+- bitscfg/IBITSExtensionSetup.EnableBITSUploads
 dev_langs:
- - c++
+- c++
 req.header: bitscfg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: BitsMgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - BitsMgr.dll
+- BitsMgr.dll
 api_name:
- - IBITSExtensionSetup.EnableBITSUploads
+- IBITSExtensionSetup.EnableBITSUploads
 targetos: Windows
 req.typenames: 
 req.redist: BITS 1.5 on Windows XP

@@ -1,19 +1,17 @@
 ---
 UID: NF:synchapi.TryAcquireSRWLockShared
 title: TryAcquireSRWLockShared function (synchapi.h)
-
 description: Attempts to acquire a slim reader/writer (SRW) lock in shared mode. If the call is successful, the calling thread takes ownership of the lock.
 old-location: base\tryacquiresrwlockshared.htm
 tech.root: Sync
 ms.assetid: e7b0c273-c1d4-4a1c-a824-f519fb52ad8f
-
 ms.date: 12/05/2018
 ms.keywords: TryAcquireSRWLockShared, TryAcquireSRWLockShared function, base.tryacquiresrwlockshared, synchapi/TryAcquireSRWLockShared, winbase/TryAcquireSRWLockShared
 ms.topic: function
-f1_keywords: 
- - "synchapi/TryAcquireSRWLockShared"
+f1_keywords:
+- synchapi/TryAcquireSRWLockShared
 dev_langs:
- - c++
+- c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-Synch-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Synch-l1-2-0.dll
- - API-MS-Win-Core-Synch-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - ntdll.dll
+- kernel32.dll
+- API-MS-Win-Core-Synch-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Synch-l1-2-0.dll
+- API-MS-Win-Core-Synch-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- ntdll.dll
 api_name:
- - TryAcquireSRWLockShared
- - RtlTryAcquireSRWLockShared
+- TryAcquireSRWLockShared
+- RtlTryAcquireSRWLockShared
 targetos: Windows
 req.typenames: 
 req.redist: 

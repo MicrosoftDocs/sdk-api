@@ -1,19 +1,17 @@
 ---
 UID: NF:winenclaveapi.EnclaveUnsealData
 title: EnclaveUnsealData function (winenclaveapi.h)
-
 description: Decrypts an encrypted binary large object (blob).
 old-location: base\enclaveunsealdata.htm
 tech.root: Memory
 ms.assetid: DDBDBEDE-E7EA-43B0-B2C7-B85D75EF3EB0
-
 ms.date: 12/05/2018
 ms.keywords: ENCLAVE_UNSEAL_FLAG_STALE_KEY, EnclaveUnsealData, EnclaveUnsealData function, base.enclaveunsealdata, winenclaveapi/EnclaveUnsealData
 ms.topic: function
-f1_keywords: 
- - "winenclaveapi/EnclaveUnsealData"
+f1_keywords:
+- winenclaveapi/EnclaveUnsealData
 dev_langs:
- - c++
+- c++
 req.header: winenclaveapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vertdll.lib
 req.dll: Vertdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - vertdll.dll
+- vertdll.dll
 api_name:
- - EnclaveUnsealData
+- EnclaveUnsealData
 targetos: Windows
 req.typenames: 
 req.redist: 

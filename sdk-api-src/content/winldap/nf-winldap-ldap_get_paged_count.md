@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_get_paged_count
 title: ldap_get_paged_count function (winldap.h)
-
 description: Records the number of paged results that the server has returned for a search.
 old-location: ldap\ldap_get_paged_count.htm
 tech.root: ldap
 ms.assetid: 17ad1c7e-c3a1-4f6a-8303-fbbedfc36409
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_get_paged_count, ldap.ldap__get__paged__count, ldap.ldap_get_paged_count, ldap_get_paged_count, ldap_get_paged_count function [LDAP], winldap/ldap_get_paged_count"
+ms.keywords: _ldap_ldap_get_paged_count, ldap.ldap__get__paged__count, ldap.ldap_get_paged_count, ldap_get_paged_count, ldap_get_paged_count function [LDAP], winldap/ldap_get_paged_count
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_get_paged_count"
+f1_keywords:
+- winldap/ldap_get_paged_count
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_get_paged_count
+- ldap_get_paged_count
 targetos: Windows
 req.typenames: 
 req.redist: 

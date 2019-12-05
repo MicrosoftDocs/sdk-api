@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumTfProperties.Clone
 title: IEnumTfProperties::Clone (msctf.h)
-
 description: IEnumTfProperties::Clone method
 old-location: tsf\ienumtfproperties_clone.htm
 tech.root: TSF
 ms.assetid: ee90f452-7e50-4b9a-b81d-b5d4244f55b4
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfProperties interface, IEnumTfProperties interface [Text Services Framework],Clone method, IEnumTfProperties.Clone, IEnumTfProperties::Clone, _tsf_ienumtfproperties_clone_ref, msctf/IEnumTfProperties::Clone, tsf.ienumtfproperties_clone
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumTfProperties.Clone"
+f1_keywords:
+- msctf/IEnumTfProperties.Clone
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - IEnumTfProperties.Clone
+- IEnumTfProperties.Clone
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

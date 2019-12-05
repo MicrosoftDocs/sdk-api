@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFRequireProtectedEnvironment
 title: MFRequireProtectedEnvironment function (mfidl.h)
-
 description: Queries whether a media presentation requires the Protected Media Path (PMP).
 old-location: mf\mfrequireprotectedenvironment.htm
 tech.root: medfound
 ms.assetid: 5129d8c0-4049-4b90-ade8-b4cd32277664
-
 ms.date: 12/05/2018
 ms.keywords: 5129d8c0-4049-4b90-ade8-b4cd32277664, MFRequireProtectedEnvironment, MFRequireProtectedEnvironment function [Media Foundation], mf.mfrequireprotectedenvironment, mfidl/MFRequireProtectedEnvironment
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFRequireProtectedEnvironment"
+f1_keywords:
+- mfidl/MFRequireProtectedEnvironment
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFRequireProtectedEnvironment
+- MFRequireProtectedEnvironment
 targetos: Windows
 req.typenames: 
 req.redist: 

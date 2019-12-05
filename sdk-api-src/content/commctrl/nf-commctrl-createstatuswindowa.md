@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.CreateStatusWindowA
 title: CreateStatusWindowA function (commctrl.h)
-
 description: Creates a status window, which is typically used to display the status of an application.
 old-location: controls\CreateStatusWindow.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\status\functions\createstatuswindow.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateStatusWindow, CreateStatusWindow function [Windows Controls], CreateStatusWindowA, CreateStatusWindowW, _win32_CreateStatusWindow, _win32_CreateStatusWindow_cpp, commctrl/CreateStatusWindow, commctrl/CreateStatusWindowA, commctrl/CreateStatusWindowW, controls.CreateStatusWindow, controls._win32_CreateStatusWindow
 ms.topic: function
-f1_keywords: 
- - "commctrl/CreateStatusWindow"
+f1_keywords:
+- commctrl/CreateStatusWindow
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - CreateStatusWindow
- - CreateStatusWindowA
- - CreateStatusWindowW
+- CreateStatusWindow
+- CreateStatusWindowA
+- CreateStatusWindowW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.RoGetAgileReference
 title: RoGetAgileReference function (combaseapi.h)
-
 description: Creates an agile reference for an object specified by the given interface.
 old-location: winrt\rogetagilereference.htm
 tech.root: WinRT
 ms.assetid: D16224C7-1BB7-46F5-B66C-54D0B9679006
-
 ms.date: 12/05/2018
 ms.keywords: RoGetAgileReference, RoGetAgileReference function [Windows Runtime], combaseapi/RoGetAgileReference, winrt.rogetagilereference
 ms.topic: function
-f1_keywords: 
- - "combaseapi/RoGetAgileReference"
+f1_keywords:
+- combaseapi/RoGetAgileReference
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - ComBase.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- ComBase.dll
 api_name:
- - RoGetAgileReference
+- RoGetAgileReference
 targetos: Windows
 req.typenames: 
 req.redist: 

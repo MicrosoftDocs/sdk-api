@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.put_DaysSinceFileCreated
 title: IFsrmFileManagementJob::put_DaysSinceFileCreated (fsrmreports.h)
-
 description: The number of days that have elapsed since the file was created.
 old-location: fsrm\ifsrmfilemanagementjob_dayssincefilecreated.htm
 tech.root: fsrm
 ms.assetid: f897321f-3e32-4965-b6c0-33d156601481
-
 ms.date: 12/05/2018
 ms.keywords: DaysSinceFileCreated property [File Server Resource Manager], DaysSinceFileCreated property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],DaysSinceFileCreated property, IFsrmFileManagementJob.DaysSinceFileCreated, IFsrmFileManagementJob.put_DaysSinceFileCreated, IFsrmFileManagementJob::DaysSinceFileCreated, IFsrmFileManagementJob::get_DaysSinceFileCreated, IFsrmFileManagementJob::put_DaysSinceFileCreated, fs.ifsrmfilemanagementjob_dayssincefilecreated, fsrm.ifsrmfilemanagementjob_dayssincefilecreated, fsrmreports/IFsrmFileManagementJob::DaysSinceFileCreated, fsrmreports/IFsrmFileManagementJob::get_DaysSinceFileCreated, fsrmreports/IFsrmFileManagementJob::put_DaysSinceFileCreated, put_DaysSinceFileCreated
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmFileManagementJob.DaysSinceFileCreated"
+f1_keywords:
+- fsrmreports/IFsrmFileManagementJob.DaysSinceFileCreated
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.DaysSinceFileCreated
- - IFsrmFileManagementJob.get_DaysSinceFileCreated
- - IFsrmFileManagementJob.put_DaysSinceFileCreated
+- IFsrmFileManagementJob.DaysSinceFileCreated
+- IFsrmFileManagementJob.get_DaysSinceFileCreated
+- IFsrmFileManagementJob.put_DaysSinceFileCreated
 targetos: Windows
 req.typenames: 
 req.redist: 

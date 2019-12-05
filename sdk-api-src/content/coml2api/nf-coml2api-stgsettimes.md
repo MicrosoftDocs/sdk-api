@@ -1,19 +1,17 @@
 ---
 UID: NF:coml2api.StgSetTimes
 title: StgSetTimes function (coml2api.h)
-
 description: The StgSetTimes function sets the creation, access, and modification times of the indicated file, if supported by the underlying file system.
 old-location: stg\stgsettimes.htm
 tech.root: Stg
 ms.assetid: 5ade3e7a-a22a-458f-b463-1680893edc15
-
 ms.date: 12/05/2018
 ms.keywords: StgSetTimes, StgSetTimes function [Structured Storage], _stg_stgsettimes, coml2api/StgSetTimes, stg.stgsettimes
 ms.topic: function
-f1_keywords: 
- - "coml2api/StgSetTimes"
+f1_keywords:
+- coml2api/StgSetTimes
 dev_langs:
- - c++
+- c++
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l2-1-1.dll
- - coml2.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l2-1-1.dll
+- coml2.dll
 api_name:
- - StgSetTimes
+- StgSetTimes
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.SafeRef
 title: SafeRef function (comsvcs.h)
-
 description: SafeRef function
 old-location: cos\saferef.htm
 tech.root: cossdk
 ms.assetid: 14d75a5e-33e8-4b35-9813-3632454b89b6
-
 ms.date: 12/05/2018
 ms.keywords: SafeRef, SafeRef function [COM+], _cos_SafeRef, comsvcs/SafeRef, cos.saferef
 ms.topic: function
-f1_keywords: 
- - "comsvcs/SafeRef"
+f1_keywords:
+- comsvcs/SafeRef
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ComSvcs.lib
 req.dll: ComSvcs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComSvcs.dll
+- ComSvcs.dll
 api_name:
- - SafeRef
+- SafeRef
 targetos: Windows
 req.typenames: 
 req.redist: 

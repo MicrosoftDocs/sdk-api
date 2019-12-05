@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GlobalAddAtomA
 title: GlobalAddAtomA function (winbase.h)
-
 description: Adds a character string to the global atom table and returns a unique value (an atom) identifying the string.
 old-location: dataxchg\globaladdatom.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\globaladdatom.htm
-
 ms.date: 12/05/2018
 ms.keywords: GlobalAddAtom, GlobalAddAtom function [Data Exchange], GlobalAddAtomA, GlobalAddAtomW, _win32_GlobalAddAtom, _win32_globaladdatom_cpp, dataxchg.globaladdatom, winbase/GlobalAddAtom, winbase/GlobalAddAtomA, winbase/GlobalAddAtomW, winui._win32_globaladdatom
 ms.topic: function
-f1_keywords: 
- - "winbase/GlobalAddAtom"
+f1_keywords:
+- winbase/GlobalAddAtom
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-atoms-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-atoms-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - GlobalAddAtom
- - GlobalAddAtomA
- - GlobalAddAtomW
+- GlobalAddAtom
+- GlobalAddAtomA
+- GlobalAddAtomW
 targetos: Windows
 req.typenames: 
 req.redist: 

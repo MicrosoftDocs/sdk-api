@@ -1,19 +1,17 @@
 ---
 UID: NF:docobj.IOleDocument.EnumViews
 title: IOleDocument::EnumViews (docobj.h)
-
 description: Creates an object that enumerates the views supported by a document object, or if only one view is supported, returns a pointer to that view.
 old-location: com\ioledocument_enumviews.htm
 tech.root: com
 ms.assetid: ca186853-0792-4a34-b718-46927a73e670
-
 ms.date: 12/05/2018
 ms.keywords: EnumViews, EnumViews method [COM], EnumViews method [COM],IOleDocument interface, IOleDocument interface [COM],EnumViews method, IOleDocument.EnumViews, IOleDocument::EnumViews, _ole_ioledocument_enumviews, com.ioledocument_enumviews, docobj/IOleDocument::EnumViews
 ms.topic: method
-f1_keywords: 
- - "docobj/IOleDocument.EnumViews"
+f1_keywords:
+- docobj/IOleDocument.EnumViews
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IOleDocument.EnumViews
+- IOleDocument.EnumViews
 targetos: Windows
 req.typenames: 
 req.redist: 

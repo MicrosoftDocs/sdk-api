@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsPropertyList.Reset
 title: IADsPropertyList::Reset (iads.h)
-
 description: Resets the list to the first item.
 old-location: adsi\iadspropertylist_reset.htm
 tech.root: adsi
 ms.assetid: ca9f92e5-d81f-40e5-8223-38fd8312ef7c
-
 ms.date: 12/05/2018
 ms.keywords: IADsPropertyList interface [ADSI],Reset method, IADsPropertyList.Reset, IADsPropertyList::Reset, Reset, Reset method [ADSI], Reset method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_reset, adsi.iadspropertylist__reset, adsi.iadspropertylist_reset, iads/IADsPropertyList::Reset
 ms.topic: method
-f1_keywords: 
- - "iads/IADsPropertyList.Reset"
+f1_keywords:
+- iads/IADsPropertyList.Reset
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsPropertyList.Reset
+- IADsPropertyList.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

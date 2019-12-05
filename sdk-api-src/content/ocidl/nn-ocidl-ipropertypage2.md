@@ -1,19 +1,17 @@
 ---
 UID: NN:ocidl.IPropertyPage2
 title: IPropertyPage2 (ocidl.h)
-
 description: An extension to IPropertyPage to support initial selection of a property on a page.
 old-location: com\ipropertypage2.htm
 tech.root: com
 ms.assetid: 65cd8f97-f88c-433c-b4e7-9dace7193ec1
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyPage2, IPropertyPage2 interface [COM], IPropertyPage2 interface [COM],described, _ctrl_ipropertypage2, com.ipropertypage2, ocidl/IPropertyPage2
 ms.topic: interface
-f1_keywords: 
- - "ocidl/IPropertyPage2"
+f1_keywords:
+- ocidl/IPropertyPage2
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPropertyPage2
+- IPropertyPage2
 targetos: Windows
 req.typenames: 
 req.redist: 

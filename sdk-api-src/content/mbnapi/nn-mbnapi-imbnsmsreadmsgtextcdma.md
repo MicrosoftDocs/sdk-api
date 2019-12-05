@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnSmsReadMsgTextCdma
 title: IMbnSmsReadMsgTextCdma (mbnapi.h)
-
 description: A collection of properties that represent a CDMA format SMS message read from the device memory.
 old-location: mbn\imbnsmsreadmsgtextcdma.htm
 tech.root: mbn
 ms.assetid: d26b09f7-eb83-46ed-82cb-a702d3af5d05
-
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsReadMsgTextCdma, IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks], IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],described, mbn.imbnsmsreadmsgtextcdma, mbnapi/IMbnSmsReadMsgTextCdma
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnSmsReadMsgTextCdma"
+f1_keywords:
+- mbnapi/IMbnSmsReadMsgTextCdma
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnSmsReadMsgTextCdma
+- IMbnSmsReadMsgTextCdma
 targetos: Windows
 req.typenames: 
 req.redist: 

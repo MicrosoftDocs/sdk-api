@@ -1,19 +1,17 @@
 ---
 UID: NF:evntprov.EventWriteTransfer
 title: EventWriteTransfer function (evntprov.h)
-
 description: Links events together when tracing events in an end-to-end scenario.
 old-location: etw\eventwritetransfer_func.htm
 tech.root: ETW
 ms.assetid: 798cf3ba-e1cc-4eaf-a1d2-2313a64aab1a
-
 ms.date: 12/05/2018
 ms.keywords: EventWriteTransfer, EventWriteTransfer function [ETW], base.eventwritetransfer_func, etw.eventwritetransfer_func, evntprov/EventWriteTransfer
 ms.topic: function
 f1_keywords:
 - evntprov/EventWriteTransfer
 dev_langs:
- - c++
+- c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

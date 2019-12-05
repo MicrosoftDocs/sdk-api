@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaSample.GetSize
 title: IMediaSample::GetSize (strmif.h)
-
 description: The GetSize method retrieves the size of the buffer.
 old-location: dshow\imediasample_getsize.htm
 tech.root: DirectShow
 ms.assetid: 6dc50db2-dc75-4c04-ac30-78275ee35ce8
-
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [DirectShow], GetSize method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetSize method, IMediaSample.GetSize, IMediaSample::GetSize, IMediaSampleGetSize, dshow.imediasample_getsize, strmif/IMediaSample::GetSize
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaSample.GetSize"
+f1_keywords:
+- strmif/IMediaSample.GetSize
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaSample.GetSize
+- IMediaSample.GetSize
 targetos: Windows
 req.typenames: 
 req.redist: 

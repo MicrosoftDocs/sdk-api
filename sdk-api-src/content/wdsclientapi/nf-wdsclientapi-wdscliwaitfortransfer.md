@@ -1,19 +1,17 @@
 ---
 UID: NF:wdsclientapi.WdsCliWaitForTransfer
 title: WdsCliWaitForTransfer function (wdsclientapi.h)
-
 description: Waits for an image or file transfer to complete.
 old-location: wds\wdscliwaitfortransfer.htm
 tech.root: wds
 ms.assetid: 2328ce69-5a2d-4c4e-bf24-95a379fb7faa
-
 ms.date: 12/05/2018
 ms.keywords: WdsCliWaitForTransfer, WdsCliWaitForTransfer function [Windows Deployment Services], wds.wdscliwaitfortransfer, wdsclientapi/WdsCliWaitForTransfer
 ms.topic: function
-f1_keywords: 
- - "wdsclientapi/WdsCliWaitForTransfer"
+f1_keywords:
+- wdsclientapi/WdsCliWaitForTransfer
 dev_langs:
- - c++
+- c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsClientAPI.lib
 req.dll: WdsClientAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsClientAPI.dll
+- WdsClientAPI.dll
 api_name:
- - WdsCliWaitForTransfer
+- WdsCliWaitForTransfer
 targetos: Windows
 req.typenames: 
 req.redist: 

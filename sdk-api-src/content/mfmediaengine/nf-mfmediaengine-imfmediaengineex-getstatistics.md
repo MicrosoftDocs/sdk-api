@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetStatistics
 title: IMFMediaEngineEx::GetStatistics (mfmediaengine.h)
-
 description: Gets a playback statistic from the Media Engine.
 old-location: mf\imfmediaengineex_getstatistics.htm
 tech.root: medfound
 ms.assetid: 3C2FDE86-2EBD-4A5C-BD02-90613DBFDE65
-
 ms.date: 12/05/2018
 ms.keywords: GetStatistics, GetStatistics method [Media Foundation], GetStatistics method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetStatistics method, IMFMediaEngineEx.GetStatistics, IMFMediaEngineEx::GetStatistics, mf.imfmediaengineex_getstatistics, mfmediaengine/IMFMediaEngineEx::GetStatistics
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineEx.GetStatistics"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineEx.GetStatistics
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineEx.GetStatistics
+- IMFMediaEngineEx.GetStatistics
 targetos: Windows
 req.typenames: 
 req.redist: 

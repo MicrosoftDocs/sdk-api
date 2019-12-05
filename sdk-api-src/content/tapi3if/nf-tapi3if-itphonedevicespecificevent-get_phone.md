@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPhoneDeviceSpecificEvent.get_Phone
 title: ITPhoneDeviceSpecificEvent::get_Phone (tapi3if.h)
-
 description: The get_Phone method retrieves the ITPhone interface pointer for a phone device event.
 old-location: tapi3\itphonedevicespecificevent_get_phone.htm
 tech.root: Tapi
 ms.assetid: 068f4172-92a4-41cc-b554-c6e4014505eb
-
 ms.date: 12/05/2018
 ms.keywords: ITPhoneDeviceSpecificEvent interface [TAPI 2.2],get_Phone method, ITPhoneDeviceSpecificEvent.get_Phone, ITPhoneDeviceSpecificEvent::get_Phone, _tapi3_itphonedevicespecificevent_get_phone, get_Phone, get_Phone method [TAPI 2.2], get_Phone method [TAPI 2.2],ITPhoneDeviceSpecificEvent interface, tapi3.itphonedevicespecificevent_get_phone, tapi3if/ITPhoneDeviceSpecificEvent::get_Phone
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPhoneDeviceSpecificEvent.get_Phone"
+f1_keywords:
+- tapi3if/ITPhoneDeviceSpecificEvent.get_Phone
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhoneDeviceSpecificEvent.get_Phone
+- ITPhoneDeviceSpecificEvent.get_Phone
 targetos: Windows
 req.typenames: 
 req.redist: 

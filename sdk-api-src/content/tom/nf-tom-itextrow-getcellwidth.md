@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.GetCellWidth
 title: ITextRow::GetCellWidth (tom.h)
-
 description: Gets the width of the active cell.
 old-location: controls\itextrow_getcellwidth.htm
 tech.root: Controls
 ms.assetid: dc73fdf4-29ce-4432-825d-725d61717b7a
-
 ms.date: 12/05/2018
 ms.keywords: GetCellWidth, GetCellWidth method [Windows Controls], GetCellWidth method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellWidth method, ITextRow.GetCellWidth, ITextRow::GetCellWidth, controls.itextrow_getcellwidth, tom/ITextRow::GetCellWidth
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.GetCellWidth"
+f1_keywords:
+- tom/ITextRow.GetCellWidth
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.GetCellWidth
+- ITextRow.GetCellWidth
 targetos: Windows
 req.typenames: 
 req.redist: 

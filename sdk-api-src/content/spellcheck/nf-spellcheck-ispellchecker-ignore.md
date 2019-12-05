@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheck.ISpellChecker.Ignore
 title: ISpellChecker::Ignore (spellcheck.h)
-
 description: Ignores the provided word for the rest of this session.
 old-location: intl\ispellchecker_ignore.htm
 tech.root: Intl
 ms.assetid: e82dd7a3-3ec4-4ef4-a19f-ad44866bbb1c
-
 ms.date: 12/05/2018
 ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],Ignore method, ISpellChecker.Ignore, ISpellChecker::Ignore, Ignore, Ignore method [Internationalization for Windows Applications], Ignore method [Internationalization for Windows Applications],ISpellChecker interface, intl.ispellchecker_ignore, spellcheck/ISpellChecker::Ignore
 ms.topic: method
-f1_keywords: 
- - "spellcheck/ISpellChecker.Ignore"
+f1_keywords:
+- spellcheck/ISpellChecker.Ignore
 dev_langs:
- - c++
+- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheck.h
+- Spellcheck.h
 api_name:
- - ISpellChecker.Ignore
+- ISpellChecker.Ignore
 targetos: Windows
 req.typenames: 
 req.redist: 

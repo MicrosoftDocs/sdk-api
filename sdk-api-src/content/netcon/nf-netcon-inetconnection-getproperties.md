@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.INetConnection.GetProperties
 title: INetConnection::GetProperties (netcon.h)
-
 description: The GetProperties method retrieves a structure that contains the properties for this network connection.
 old-location: ics\inetconnection_getproperties.htm
 tech.root: ics
 ms.assetid: ab27a7fd-061f-4ea2-8ce8-23d59957a46f
-
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [ICS/ICF], GetProperties method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],GetProperties method, INetConnection.GetProperties, INetConnection::GetProperties, _ics_inetconnection_getproperties, ics.inetconnection_getproperties, netcon/INetConnection::GetProperties
 ms.topic: method
-f1_keywords: 
- - "netcon/INetConnection.GetProperties"
+f1_keywords:
+- netcon/INetConnection.GetProperties
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetConnection.GetProperties
+- INetConnection.GetProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

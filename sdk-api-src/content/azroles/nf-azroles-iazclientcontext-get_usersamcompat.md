@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzClientContext.get_UserSamCompat
 title: IAzClientContext::get_UserSamCompat (azroles.h)
-
 description: Retrieves the name of the current client in a format compatible with Windows&#160;Security&#160;Account&#160;Manager (SAM).
 old-location: security\iazclientcontext_usersamcompat.htm
 tech.root: SecAuthZ
 ms.assetid: 3b1f9e8a-cc3b-4be6-b2d9-8e8b3164d46a
-
 ms.date: 12/05/2018
 ms.keywords: AzClientContext object [Security],UserSamCompat property, IAzClientContext interface [Security],UserSamCompat property, IAzClientContext.UserSamCompat, IAzClientContext.get_UserSamCompat, IAzClientContext::UserSamCompat, IAzClientContext::get_UserSamCompat, UserSamCompat property [Security], UserSamCompat property [Security],AzClientContext object, UserSamCompat property [Security],IAzClientContext interface, azroles/IAzClientContext::UserSamCompat, azroles/IAzClientContext::get_UserSamCompat, get_UserSamCompat, security.iazclientcontext_usersamcompat
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzClientContext.UserSamCompat"
+f1_keywords:
+- azroles/IAzClientContext.UserSamCompat
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzClientContext.UserSamCompat
- - IAzClientContext.get_UserSamCompat
- - AzClientContext.UserSamCompat
+- IAzClientContext.UserSamCompat
+- IAzClientContext.get_UserSamCompat
+- AzClientContext.UserSamCompat
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

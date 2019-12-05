@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupQueueDeleteSectionW
 title: SetupQueueDeleteSectionW function (setupapi.h)
-
 description: The SetupQueueDeleteSection function queues all the files in a section of an INF file for deletion. The section must be in the correct Delete Files format and the INF file must contain a DestinationDirs section.
 old-location: setup\setupqueuedeletesection.htm
 tech.root: SetupApi
 ms.assetid: 3e76e345-1d6c-4eb5-a743-b71d5ccc52e5
-
 ms.date: 12/05/2018
 ms.keywords: SetupQueueDeleteSection, SetupQueueDeleteSection function [Setup API], SetupQueueDeleteSectionA, SetupQueueDeleteSectionW, _setupapi_setupqueuedeletesection, setup.setupqueuedeletesection, setupapi/SetupQueueDeleteSection, setupapi/SetupQueueDeleteSectionA, setupapi/SetupQueueDeleteSectionW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupQueueDeleteSection"
+f1_keywords:
+- setupapi/SetupQueueDeleteSection
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupQueueDeleteSection
- - SetupQueueDeleteSectionA
- - SetupQueueDeleteSectionW
+- SetupQueueDeleteSection
+- SetupQueueDeleteSectionA
+- SetupQueueDeleteSectionW
 targetos: Windows
 req.typenames: 
 req.redist: 

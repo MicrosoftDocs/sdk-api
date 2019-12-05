@@ -1,19 +1,17 @@
 ---
 UID: NF:certenc.ICertEncodeStringArray.SetValue
 title: ICertEncodeStringArray::SetValue (certenc.h)
-
 description: Sets a string value at the specified index of the string array.
 old-location: security\icertencodestringarray_setvalue.htm
 tech.root: SecCrypto
 ms.assetid: 41e5c2b8-a0da-426a-b411-0bdc3fd7ecfe
-
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeStringArray object [Security],SetValue method, ICertEncodeStringArray interface [Security],SetValue method, ICertEncodeStringArray.SetValue, ICertEncodeStringArray::SetValue, SetValue, SetValue method [Security], SetValue method [Security],CCertEncodeStringArray object, SetValue method [Security],ICertEncodeStringArray interface, _certsrv_icertencodestringarray_setvalue, certenc/ICertEncodeStringArray::SetValue, security.icertencodestringarray_setvalue
 ms.topic: method
-f1_keywords: 
- - "certenc/ICertEncodeStringArray.SetValue"
+f1_keywords:
+- certenc/ICertEncodeStringArray.SetValue
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeStringArray.SetValue
- - CCertEncodeStringArray.SetValue
+- ICertEncodeStringArray.SetValue
+- CCertEncodeStringArray.SetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

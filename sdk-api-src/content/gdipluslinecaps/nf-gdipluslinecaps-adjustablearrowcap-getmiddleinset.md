@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluslinecaps.AdjustableArrowCap.GetMiddleInset
 title: AdjustableArrowCap::GetMiddleInset (gdipluslinecaps.h)
-
 description: The AdjustableArrowCap::GetMiddleInset method gets the value of the inset. The middle inset is the number of units that the midpoint of the base shifts towards the vertex.
 old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_GetMiddleInset_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass\adjustablearrowcapmethods\getmiddleinset.htm
-
 ms.date: 12/05/2018
 ms.keywords: AdjustableArrowCap class [GDI+],GetMiddleInset method, AdjustableArrowCap.GetMiddleInset, AdjustableArrowCap::GetMiddleInset, GetMiddleInset, GetMiddleInset method [GDI+], GetMiddleInset method [GDI+],AdjustableArrowCap class, _gdiplus_CLASS_AdjustableArrowCap_GetMiddleInset_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_GetMiddleInset_
 ms.topic: method
-f1_keywords: 
- - "gdipluslinecaps/AdjustableArrowCap.GetMiddleInset"
+f1_keywords:
+- gdipluslinecaps/AdjustableArrowCap.GetMiddleInset
 dev_langs:
- - c++
+- c++
 req.header: gdipluslinecaps.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - AdjustableArrowCap.GetMiddleInset
+- AdjustableArrowCap.GetMiddleInset
 targetos: Windows
 req.typenames: 
 req.redist: 

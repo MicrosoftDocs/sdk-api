@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBTLocator.put_Bandwidth
 title: IDVBTLocator::put_Bandwidth (tuner.h)
-
 description: The put_BandWidth method sets the bandwidth of the frequency.
 old-location: mstv\idvbtlocator_put_bandwidth.htm
 tech.root: mstv
 ms.assetid: a842e905-cd4a-4d62-a9da-153832e44382
-
 ms.date: 12/05/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],put_Bandwidth method, IDVBTLocator.put_Bandwidth, IDVBTLocator::put_Bandwidth, IDVBTLocatorput_Bandwidth, mstv.idvbtlocator_put_bandwidth, put_Bandwidth, put_Bandwidth method [Microsoft TV Technologies], put_Bandwidth method [Microsoft TV Technologies],IDVBTLocator interface, tuner/IDVBTLocator::put_Bandwidth
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBTLocator.put_Bandwidth"
+f1_keywords:
+- tuner/IDVBTLocator.put_Bandwidth
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBTLocator.put_Bandwidth
+- IDVBTLocator.put_Bandwidth
 targetos: Windows
 req.typenames: 
 req.redist: 

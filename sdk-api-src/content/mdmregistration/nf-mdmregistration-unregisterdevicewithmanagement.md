@@ -1,19 +1,17 @@
 ---
 UID: NF:mdmregistration.UnregisterDeviceWithManagement
 title: UnregisterDeviceWithManagement function (mdmregistration.h)
-
 description: Unregisters a device with the MDM service.
 old-location: mdmreg\unregisterdevicewithmanagement.htm
 tech.root: MDMReg
 ms.assetid: 4095197d-40c9-4f51-b28f-fd2fd6d0bba2
-
 ms.date: 12/05/2018
 ms.keywords: UnregisterDeviceWithManagement, UnregisterDeviceWithManagement function [MDM Registration], mdmreg.unregisterdevicewithmanagement, mdmregistration/UnregisterDeviceWithManagement
 ms.topic: function
-f1_keywords: 
- - "mdmregistration/UnregisterDeviceWithManagement"
+f1_keywords:
+- mdmregistration/UnregisterDeviceWithManagement
 dev_langs:
- - c++
+- c++
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: MDMRegistration.lib
 req.dll: MDMRegistration.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - MDMRegistration.dll
+- MDMRegistration.dll
 api_name:
- - UnregisterDeviceWithManagement
+- UnregisterDeviceWithManagement
 targetos: Windows
 req.typenames: 
 req.redist: 

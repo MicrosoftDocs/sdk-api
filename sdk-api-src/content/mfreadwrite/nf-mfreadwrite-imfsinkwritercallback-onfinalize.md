@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriterCallback.OnFinalize
 title: IMFSinkWriterCallback::OnFinalize (mfreadwrite.h)
-
 description: Called when the IMFSinkWriter::Finalize method completes.
 old-location: mf\imfsinkwritercallback_onfinalize.htm
 tech.root: medfound
 ms.assetid: 9da7bb55-bf9f-4579-ae8e-b33ce5461950
-
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriterCallback interface [Media Foundation],OnFinalize method, IMFSinkWriterCallback.OnFinalize, IMFSinkWriterCallback::OnFinalize, OnFinalize, OnFinalize method [Media Foundation], OnFinalize method [Media Foundation],IMFSinkWriterCallback interface, mf.imfsinkwritercallback_onfinalize, mfreadwrite/IMFSinkWriterCallback::OnFinalize
 ms.topic: method
-f1_keywords: 
- - "mfreadwrite/IMFSinkWriterCallback.OnFinalize"
+f1_keywords:
+- mfreadwrite/IMFSinkWriterCallback.OnFinalize
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSinkWriterCallback.OnFinalize
+- IMFSinkWriterCallback.OnFinalize
 targetos: Windows
 req.typenames: 
 req.redist: 

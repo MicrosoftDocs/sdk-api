@@ -1,19 +1,17 @@
 ---
 UID: NF:wintrust.WTHelperCertCheckValidSignature
 title: WTHelperCertCheckValidSignature function (wintrust.h)
-
 description: Checks whether a signature is valid.
 old-location: security\wthelpercertcheckvalidsignature.htm
 tech.root: SecCrypto
 ms.assetid: d46eea18-03cb-4199-873e-0e9e13061598
-
 ms.date: 12/05/2018
 ms.keywords: WTHelperCertCheckValidSignature, WTHelperCertCheckValidSignature function [Security], security.wthelpercertcheckvalidsignature, wintrust/WTHelperCertCheckValidSignature
 ms.topic: function
 f1_keywords:
 - wintrust/WTHelperCertCheckValidSignature
 dev_langs:
- - c++
+- c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

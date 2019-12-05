@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.SetStoryboardEventHandler
 title: IUIAnimationStoryboard::SetStoryboardEventHandler (uianimation.h)
-
 description: Specifies a handler for storyboard events.
 old-location: uianimation\iuianimationstoryboard_setstoryboardeventhandler.htm
 tech.root: UIAnimation
 ms.assetid: 8fbe8e94-8585-4adc-8643-3962aff6a031
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboard interface [Windows Animation],SetStoryboardEventHandler method, IUIAnimationStoryboard.SetStoryboardEventHandler, IUIAnimationStoryboard::SetStoryboardEventHandler, SetStoryboardEventHandler, SetStoryboardEventHandler method [Windows Animation], SetStoryboardEventHandler method [Windows Animation],IUIAnimationStoryboard interface, uianimation.iuianimationstoryboard_setstoryboardeventhandler, uianimation/IUIAnimationStoryboard::SetStoryboardEventHandler
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationStoryboard.SetStoryboardEventHandler"
+f1_keywords:
+- uianimation/IUIAnimationStoryboard.SetStoryboardEventHandler
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard.SetStoryboardEventHandler
+- IUIAnimationStoryboard.SetStoryboardEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

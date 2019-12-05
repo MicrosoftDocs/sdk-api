@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIPerfCounterLogger.LogValue
 title: IRDPSRAPIPerfCounterLogger::LogValue (rdpencomapi.h)
-
 description: Logs a value.
 old-location: rdp\irdpsrapiperfcounterlogger_logvalue.htm
 tech.root: rdp
 ms.assetid: B6EF608E-5AA9-4AB7-920D-F6E567E1258C
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIPerfCounterLogger interface [RDP],LogValue method, IRDPSRAPIPerfCounterLogger.LogValue, IRDPSRAPIPerfCounterLogger::LogValue, LogValue, LogValue method [RDP], LogValue method [RDP],IRDPSRAPIPerfCounterLogger interface, rdp.irdpsrapiperfcounterlogger_logvalue, rdpencomapi/IRDPSRAPIPerfCounterLogger::LogValue
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIPerfCounterLogger.LogValue"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIPerfCounterLogger.LogValue
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIPerfCounterLogger.LogValue
+- IRDPSRAPIPerfCounterLogger.LogValue
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mpegtype.IMpegAudioDecoder
 title: IMpegAudioDecoder (mpegtype.h)
-
 description: The IMpegAudioDecoder interface is exposed on the MPEG-1 Audio Decoder filter and it enables applications to control decoding parameters.
 old-location: dshow\impegaudiodecoder.htm
 tech.root: DirectShow
 ms.assetid: 59fd96ef-2f9a-4a8e-bd08-2695de52b1c6
-
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder, IMpegAudioDecoder interface [DirectShow], IMpegAudioDecoder interface [DirectShow],described, IMpegAudioDecoderInterface, dshow.impegaudiodecoder, mpegtype/IMpegAudioDecoder
 ms.topic: interface
-f1_keywords: 
- - "mpegtype/IMpegAudioDecoder"
+f1_keywords:
+- mpegtype/IMpegAudioDecoder
 dev_langs:
- - c++
+- c++
 req.header: mpegtype.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMpegAudioDecoder
+- IMpegAudioDecoder
 targetos: Windows
 req.typenames: 
 req.redist: 

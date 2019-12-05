@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITQOSEvent.get_MediaType
 title: ITQOSEvent::get_MediaType (tapi3if.h)
-
 description: The get_MediaType method gets the media type indicator.
 old-location: tapi3\itqosevent_get_mediatype.htm
 tech.root: Tapi
 ms.assetid: 0f062eea-386d-4f25-8d51-88adbce1aefe
-
 ms.date: 12/05/2018
 ms.keywords: ITQOSEvent interface [TAPI 2.2],get_MediaType method, ITQOSEvent.get_MediaType, ITQOSEvent::get_MediaType, _tapi3_itqosevent_get_mediatype, get_MediaType, get_MediaType method [TAPI 2.2], get_MediaType method [TAPI 2.2],ITQOSEvent interface, tapi3.itqosevent_get_mediatype, tapi3if/ITQOSEvent::get_MediaType
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITQOSEvent.get_MediaType"
+f1_keywords:
+- tapi3if/ITQOSEvent.get_MediaType
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITQOSEvent.get_MediaType
+- ITQOSEvent.get_MediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

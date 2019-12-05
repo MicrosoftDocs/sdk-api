@@ -1,19 +1,17 @@
 ---
 UID: NE:sbtsv._TS_SB_SORT_BY
 title: TS_SB_SORT_BY (sbtsv.h)
-
 description: Specifies sort order. It is used as a parameter in the EnumerateTargets method.
 old-location: termserv\ts_sb_sort_by.htm
 tech.root: TermServ
 ms.assetid: 50945048-5E79-4423-8983-543085E3D953
-
 ms.date: 12/05/2018
 ms.keywords: TS_SB_SORT_BY, TS_SB_SORT_BY enumeration [Remote Desktop Services], TS_SB_SORT_BY_NAME, TS_SB_SORT_BY_NONE, TS_SB_SORT_BY_PROP, sbtsv/TS_SB_SORT_BY, sbtsv/TS_SB_SORT_BY_NAME, sbtsv/TS_SB_SORT_BY_NONE, sbtsv/TS_SB_SORT_BY_PROP, termserv.ts_sb_sort_by
 ms.topic: enum
-f1_keywords: 
- - "sbtsv/TS_SB_SORT_BY"
+f1_keywords:
+- sbtsv/TS_SB_SORT_BY
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - TS_SB_SORT_BY
+- TS_SB_SORT_BY
 targetos: Windows
 req.typenames: TS_SB_SORT_BY
 req.redist: 

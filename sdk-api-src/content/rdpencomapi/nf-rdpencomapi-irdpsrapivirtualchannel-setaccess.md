@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIVirtualChannel.SetAccess
 title: IRDPSRAPIVirtualChannel::SetAccess (rdpencomapi.h)
-
 description: Enables the channel for an attendee.
 old-location: rdp\irdpsrapivirtualchannel_setaccess.htm
 tech.root: rdp
 ms.assetid: 7d4a19d3-b089-4689-9062-a5b52251776f
-
 ms.date: 12/05/2018
 ms.keywords: CHANNEL_ACCESS_ENUM_NONE, CHANNEL_ACCESS_ENUM_SENDRECEIVE, IRDPSRAPIVirtualChannel interface [RDP],SetAccess method, IRDPSRAPIVirtualChannel.SetAccess, IRDPSRAPIVirtualChannel::SetAccess, SetAccess, SetAccess method [RDP], SetAccess method [RDP],IRDPSRAPIVirtualChannel interface, rdp.irdpsrapivirtualchannel_setaccess, rdpencomapi/IRDPSRAPIVirtualChannel::SetAccess
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIVirtualChannel.SetAccess"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIVirtualChannel.SetAccess
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIVirtualChannel.SetAccess
+- IRDPSRAPIVirtualChannel.SetAccess
 targetos: Windows
 req.typenames: 
 req.redist: 

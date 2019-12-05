@@ -1,19 +1,17 @@
 ---
 UID: NS:wsdxmldom._WSDXML_TYPE
 title: WSDXML_TYPE (wsdxmldom.h)
-
 description: Describes an XSD type.
 old-location: ncd\wsdxml_type_struct.htm
 tech.root: WsdApi
 ms.assetid: dc214dfb-1717-4f84-af4d-6eb8cf17522c
-
 ms.date: 12/05/2018
 ms.keywords: WSDXML_TYPE, WSDXML_TYPE structure, _WSDXML_TYPE, ncd.wsdxml_type_struct, wsdxmldom/WSDXML_TYPE
 ms.topic: struct
-f1_keywords: 
- - "wsdxmldom/WSDXML_TYPE"
+f1_keywords:
+- wsdxmldom/WSDXML_TYPE
 dev_langs:
- - c++
+- c++
 req.header: wsdxmldom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdXmldom.h
+- WsdXmldom.h
 api_name:
- - WSDXML_TYPE
+- WSDXML_TYPE
 targetos: Windows
 req.typenames: WSDXML_TYPE
 req.redist: 

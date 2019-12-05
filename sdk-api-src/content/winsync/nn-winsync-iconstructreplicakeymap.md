@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.IConstructReplicaKeyMap
 title: IConstructReplicaKeyMap (winsync.h)
-
 description: Adds entries to an IReplicaKeyMap object.
 old-location: winsync\iconstructreplicakeymap.htm
 tech.root: winsync
 ms.assetid: 742b5606-5d24-4494-9f96-e381af1145db
-
 ms.date: 12/05/2018
 ms.keywords: IConstructReplicaKeyMap, IConstructReplicaKeyMap interface [Windows Sync], IConstructReplicaKeyMap interface [Windows Sync],described, winsync.iconstructreplicakeymap, winsync/IConstructReplicaKeyMap
 ms.topic: interface
-f1_keywords: 
- - "winsync/IConstructReplicaKeyMap"
+f1_keywords:
+- winsync/IConstructReplicaKeyMap
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IConstructReplicaKeyMap
+- IConstructReplicaKeyMap
 targetos: Windows
 req.typenames: 
 req.redist: 

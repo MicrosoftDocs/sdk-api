@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetSignatureId
 title: IXpsSigningOptions::GetSignatureId (xpsdigitalsignature.h)
-
 description: Gets the value of the Id attribute of the Signature element.
 old-location: xps\ixpssigningoptions_getsignatureid.htm
 tech.root: printdocs
 ms.assetid: ebcb9f75-c9da-4559-9a9f-915b166801bf
-
 ms.date: 12/05/2018
 ms.keywords: GetSignatureId, GetSignatureId method [XPS Documents and Packaging], GetSignatureId method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetSignatureId method, IXpsSigningOptions.GetSignatureId, IXpsSigningOptions::GetSignatureId, xps.ixpssigningoptions_getsignatureid, xpsdigitalsignature/IXpsSigningOptions::GetSignatureId
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSigningOptions.GetSignatureId"
+f1_keywords:
+- xpsdigitalsignature/IXpsSigningOptions.GetSignatureId
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSigningOptions.GetSignatureId
+- IXpsSigningOptions.GetSignatureId
 targetos: Windows
 req.typenames: 
 req.redist: 

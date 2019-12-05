@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextServices.OnTxSetCursor
 title: ITextServices::OnTxSetCursor (textserv.h)
-
 description: Notifies the text services object to set the cursor.
 old-location: controls\ITextServices_OnTxSetCursor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxsetcursor.htm
-
 ms.date: 12/05/2018
 ms.keywords: DVASPECT_CONTENT, DVASPECT_DOCPRINT, ITextServices interface [Windows Controls],OnTxSetCursor method, ITextServices.OnTxSetCursor, ITextServices::OnTxSetCursor, OnTxSetCursor, OnTxSetCursor method [Windows Controls], OnTxSetCursor method [Windows Controls],ITextServices interface, _win32_ITextServices_OnTxSetCursor, _win32_ITextServices_OnTxSetCursor_cpp, controls.ITextServices_OnTxSetCursor, controls._win32_ITextServices_OnTxSetCursor, textserv/ITextServices::OnTxSetCursor
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextServices.OnTxSetCursor"
+f1_keywords:
+- textserv/ITextServices.OnTxSetCursor
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextServices.OnTxSetCursor
+- ITextServices.OnTxSetCursor
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IAnalogRadioTuningSpace2.get_CountryCode
 title: IAnalogRadioTuningSpace2::get_CountryCode (tuner.h)
-
 description: This topic applies to Windows XP Media Center Edition 2004 and later.
 old-location: mstv\ianalogradiotuningspace2_get_countrycode.htm
 tech.root: mstv
 ms.assetid: dc619247-90fc-4db0-9b46-cc81b9ae6916
-
 ms.date: 12/05/2018
 ms.keywords: IAnalogRadioTuningSpace2 interface [Microsoft TV Technologies],get_CountryCode method, IAnalogRadioTuningSpace2.get_CountryCode, IAnalogRadioTuningSpace2::get_CountryCode, IAnalogRadioTuningSpace2get_CountryCode, get_CountryCode, get_CountryCode method [Microsoft TV Technologies], get_CountryCode method [Microsoft TV Technologies],IAnalogRadioTuningSpace2 interface, mstv.ianalogradiotuningspace2_get_countrycode, tuner/IAnalogRadioTuningSpace2::get_CountryCode
 ms.topic: method
-f1_keywords: 
- - "tuner/IAnalogRadioTuningSpace2.get_CountryCode"
+f1_keywords:
+- tuner/IAnalogRadioTuningSpace2.get_CountryCode
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IAnalogRadioTuningSpace2.get_CountryCode
+- IAnalogRadioTuningSpace2.get_CountryCode
 targetos: Windows
 req.typenames: 
 req.redist: 

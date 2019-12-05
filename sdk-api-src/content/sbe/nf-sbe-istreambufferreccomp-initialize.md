@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.IStreamBufferRecComp.Initialize
 title: IStreamBufferRecComp::Initialize (sbe.h)
-
 description: The Initialize method sets the file name and the profile for the new recording. Call this method once, after creating the RecComp object.
 old-location: mstv\istreambufferreccomp_initialize.htm
 tech.root: mstv
 ms.assetid: 97a8519f-2377-43e9-b1ba-7d407caa44a9
-
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferRecComp interface [Microsoft TV Technologies],Initialize method, IStreamBufferRecComp.Initialize, IStreamBufferRecComp::Initialize, IStreamBufferRecCompInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IStreamBufferRecComp interface, mstv.istreambufferreccomp_initialize, sbe/IStreamBufferRecComp::Initialize
 ms.topic: method
-f1_keywords: 
- - "sbe/IStreamBufferRecComp.Initialize"
+f1_keywords:
+- sbe/IStreamBufferRecComp.Initialize
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IStreamBufferRecComp.Initialize
+- IStreamBufferRecComp.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

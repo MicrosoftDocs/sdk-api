@@ -1,19 +1,17 @@
 ---
 UID: NF:virtdisk.RawSCSIVirtualDisk
 title: RawSCSIVirtualDisk function (virtdisk.h)
-
 description: Issues an embedded SCSI request directly to a virtual hard disk.
 old-location: vhd\rawscsivirtualdisk.htm
 tech.root: VStor
 ms.assetid: AB766EC7-2D6E-44EB-9C5C-C840A77242CE
-
 ms.date: 12/05/2018
 ms.keywords: RawSCSIVirtualDisk, RawSCSIVirtualDisk function [VHD], vdssys/RawSCSIVirtualDisk, vhd.rawscsivirtualdisk, virtdisk/RawSCSIVirtualDisk
 ms.topic: function
-f1_keywords: 
- - "virtdisk/RawSCSIVirtualDisk"
+f1_keywords:
+- virtdisk/RawSCSIVirtualDisk
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: VirtDisk.lib
 req.dll: VirtDisk.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - VirtDisk.dll
+- VirtDisk.dll
 api_name:
- - RawSCSIVirtualDisk
+- RawSCSIVirtualDisk
 targetos: Windows
 req.typenames: 
 req.redist: 

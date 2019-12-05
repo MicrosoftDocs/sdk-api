@@ -1,19 +1,17 @@
 ---
 UID: NS:directml.DML_ACTIVATION_LEAKY_RELU_OPERATOR_DESC
 title: DML_ACTIVATION_LEAKY_RELU_OPERATOR_DESC
-
 description: Describes a DirectML operator that performs a leaky rectified linear unit (ReLU) activation function on every element in the input, f(x) = if x &gt;= 0 then x else x * alpha.
 old-location: direct3d12\dml_activation_leaky_relu_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 75893E5C-D379-47CE-8291-CA00A98D43EA
-
 ms.date: 12/5/2018
 ms.keywords: DML_ACTIVATION_LEAKY_RELU_OPERATOR_DESC, DML_ACTIVATION_LEAKY_RELU_OPERATOR_DESC structure, direct3d12.dml_activation_leaky_relu_operator_desc, directml/DML_ACTIVATION_LEAKY_RELU_OPERATOR_DESC
 ms.topic: struct
-f1_keywords: 
- - "directml/DML_ACTIVATION_LEAKY_RELU_OPERATOR_DESC"
+f1_keywords:
+- directml/DML_ACTIVATION_LEAKY_RELU_OPERATOR_DESC
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - DML_ACTIVATION_LEAKY_RELU_OPERATOR_DESC
+- DML_ACTIVATION_LEAKY_RELU_OPERATOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 

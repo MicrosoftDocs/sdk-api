@@ -1,19 +1,17 @@
 ---
 UID: NF:wdsclientapi.WdsCliAuthorizeSession
 title: WdsCliAuthorizeSession function (wdsclientapi.h)
-
 description: Converts a session with a WDS server into an authenticated session.
 old-location: wds\wdscliauthorizesession.htm
 tech.root: wds
 ms.assetid: 88e95fa8-1a83-4ef9-b486-c8086cb08116
-
 ms.date: 12/05/2018
 ms.keywords: WdsCliAuthorizeSession, WdsCliAuthorizeSession function [Windows Deployment Services], wds.wdscliauthorizesession, wdsclientapi/WdsCliAuthorizeSession
 ms.topic: function
-f1_keywords: 
- - "wdsclientapi/WdsCliAuthorizeSession"
+f1_keywords:
+- wdsclientapi/WdsCliAuthorizeSession
 dev_langs:
- - c++
+- c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsClientAPI.lib
 req.dll: WdsClientAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsClientAPI.dll
+- WdsClientAPI.dll
 api_name:
- - WdsCliAuthorizeSession
+- WdsCliAuthorizeSession
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwRule.put_EdgeTraversal
 title: INetFwRule::put_EdgeTraversal (netfw.h)
-
 description: Indicates whether edge traversal is enabled or disabled for this rule.
 old-location: ics\inetfwrule_edgetraversal.htm
 tech.root: ics
 ms.assetid: a45a8161-3273-4d43-86bf-34d1b776dbbc
-
 ms.date: 12/05/2018
 ms.keywords: EdgeTraversal property [ICS/ICF], EdgeTraversal property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],EdgeTraversal property, INetFwRule.EdgeTraversal, INetFwRule.put_EdgeTraversal, INetFwRule::EdgeTraversal, INetFwRule::get_EdgeTraversal, INetFwRule::put_EdgeTraversal, ics.inetfwrule_edgetraversal, netfw/INetFwRule::EdgeTraversal, netfw/INetFwRule::get_EdgeTraversal, netfw/INetFwRule::put_EdgeTraversal, put_EdgeTraversal
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwRule.EdgeTraversal"
+f1_keywords:
+- netfw/INetFwRule.EdgeTraversal
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwRule.EdgeTraversal
- - INetFwRule.get_EdgeTraversal
- - INetFwRule.put_EdgeTraversal
+- INetFwRule.EdgeTraversal
+- INetFwRule.get_EdgeTraversal
+- INetFwRule.put_EdgeTraversal
 targetos: Windows
 req.typenames: 
 req.redist: 

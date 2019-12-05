@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyError.GetProtocol
 title: IBackgroundCopyError::GetProtocol (bits.h)
-
 description: Retrieves the protocol used to transfer the file. The remote file name identifies the protocol to use to transfer the file.
 old-location: bits\ibackgroundcopyerror_getprotocol.htm
 tech.root: Bits
 ms.assetid: 94c1fcc8-7132-41db-9a1c-cbe105e3b0bb
-
 ms.date: 12/05/2018
 ms.keywords: GetProtocol, GetProtocol method [BITS], GetProtocol method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetProtocol method, IBackgroundCopyError.GetProtocol, IBackgroundCopyError::GetProtocol, _drz_ibackgroundcopyerror_getprotocol, bits.ibackgroundcopyerror_getprotocol, bits/IBackgroundCopyError::GetProtocol
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyError.GetProtocol"
+f1_keywords:
+- bits/IBackgroundCopyError.GetProtocol
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyError.GetProtocol
+- IBackgroundCopyError.GetProtocol
 targetos: Windows
 req.typenames: 
 req.redist: 

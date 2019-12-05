@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IESFileExpiryDateEvent.DoesExpireAfterFirstUse
 title: IESFileExpiryDateEvent::DoesExpireAfterFirstUse (tuner.h)
-
 description: Gets a flag from a FileExpiryDate event that indicates whether a license for protected content expires after its first use.
 old-location: mstv\iesfileexpirydateevent_doesexpireafterfirstuse.htm
 tech.root: mstv
 ms.assetid: 24a1d5aa-fee5-4436-a3ee-6a2108ff0f32
-
 ms.date: 12/05/2018
 ms.keywords: DoesExpireAfterFirstUse, DoesExpireAfterFirstUse method [Microsoft TV Technologies], DoesExpireAfterFirstUse method [Microsoft TV Technologies],IESFileExpiryDateEvent interface, IESFileExpiryDateEvent interface [Microsoft TV Technologies],DoesExpireAfterFirstUse method, IESFileExpiryDateEvent.DoesExpireAfterFirstUse, IESFileExpiryDateEvent::DoesExpireAfterFirstUse, mstv.iesfileexpirydateevent_doesexpireafterfirstuse, tuner/IESFileExpiryDateEvent::DoesExpireAfterFirstUse
 ms.topic: method
-f1_keywords: 
- - "tuner/IESFileExpiryDateEvent.DoesExpireAfterFirstUse"
+f1_keywords:
+- tuner/IESFileExpiryDateEvent.DoesExpireAfterFirstUse
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IESFileExpiryDateEvent.DoesExpireAfterFirstUse
+- IESFileExpiryDateEvent.DoesExpireAfterFirstUse
 targetos: Windows
 req.typenames: 
 req.redist: 

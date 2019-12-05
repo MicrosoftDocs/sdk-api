@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupGetSourceFileLocationA
 title: SetupGetSourceFileLocationA function (setupapi.h)
-
 description: The SetupGetSourceFileLocation function retrieves the location of a source file listed in an INF file.
 old-location: setup\setupgetsourcefilelocation.htm
 tech.root: SetupApi
 ms.assetid: 00245cb9-99de-464a-a0b4-d1efb1f1331b
-
 ms.date: 12/05/2018
 ms.keywords: SetupGetSourceFileLocation, SetupGetSourceFileLocation function [Setup API], SetupGetSourceFileLocationA, SetupGetSourceFileLocationW, _setupapi_setupgetsourcefilelocation, setup.setupgetsourcefilelocation, setupapi/SetupGetSourceFileLocation, setupapi/SetupGetSourceFileLocationA, setupapi/SetupGetSourceFileLocationW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupGetSourceFileLocation"
+f1_keywords:
+- setupapi/SetupGetSourceFileLocation
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupGetSourceFileLocation
- - SetupGetSourceFileLocationA
- - SetupGetSourceFileLocationW
+- SetupGetSourceFileLocation
+- SetupGetSourceFileLocationA
+- SetupGetSourceFileLocationW
 targetos: Windows
 req.typenames: 
 req.redist: 

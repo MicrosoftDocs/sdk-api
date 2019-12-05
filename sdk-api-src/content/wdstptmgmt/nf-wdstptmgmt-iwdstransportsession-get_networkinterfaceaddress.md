@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSession.get_NetworkInterfaceAddress
 title: IWdsTransportSession::get_NetworkInterfaceAddress (wdstptmgmt.h)
-
 description: Receives the MAC address of the server network interface used by this transport session.
 old-location: wds\iwdstransportsession_networkinterfaceaddress.htm
 tech.root: wds
 ms.assetid: 6585452b-037c-4ee8-807a-144b6b53695a
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSession interface [Windows Deployment Services],NetworkInterfaceAddress property, IWdsTransportSession.NetworkInterfaceAddress, IWdsTransportSession.get_NetworkInterfaceAddress, IWdsTransportSession::NetworkInterfaceAddress, IWdsTransportSession::get_NetworkInterfaceAddress, NetworkInterfaceAddress property [Windows Deployment Services], NetworkInterfaceAddress property [Windows Deployment Services],IWdsTransportSession interface, get_NetworkInterfaceAddress, wds.iwdstransportsession_networkinterfaceaddress, wdstptmgmt/IWdsTransportSession::NetworkInterfaceAddress, wdstptmgmt/IWdsTransportSession::get_NetworkInterfaceAddress
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportSession.NetworkInterfaceAddress"
+f1_keywords:
+- wdstptmgmt/IWdsTransportSession.NetworkInterfaceAddress
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportSession.NetworkInterfaceAddress
- - IWdsTransportSession.get_NetworkInterfaceAddress
+- IWdsTransportSession.NetworkInterfaceAddress
+- IWdsTransportSession.get_NetworkInterfaceAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

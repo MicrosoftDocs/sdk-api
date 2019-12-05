@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterCloseEnumEx
 title: ClusterCloseEnumEx function (clusapi.h)
-
 description: Closes a handle to an enumeration that was opened by the ClusterOpenEnumEx function.
 old-location: mscs\clustercloseenumex.htm
 tech.root: MsCS
 ms.assetid: B62F1259-C4FF-45FC-9EA1-24CABFE1C0F3
-
 ms.date: 12/05/2018
 ms.keywords: ClusterCloseEnumEx, ClusterCloseEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_CLOSE_ENUM_EX, PCLUSAPI_CLUSTER_CLOSE_ENUM_EX function [Failover Cluster], clusapi/ClusterCloseEnumEx, clusapi/PCLUSAPI_CLUSTER_CLOSE_ENUM_EX, mscs.clustercloseenumex
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterCloseEnumEx"
+f1_keywords:
+- clusapi/ClusterCloseEnumEx
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ClusterCloseEnumEx
+- ClusterCloseEnumEx
 targetos: Windows
 req.typenames: 
 req.redist: 

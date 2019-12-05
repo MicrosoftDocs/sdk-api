@@ -1,19 +1,17 @@
 ---
 UID: NN:msaatext.ICoCreateLocally
 title: ICoCreateLocally (msaatext.h)
-
 description: Exposes a method that enables a client application to create a helper object in the server context.
 old-location: winauto\icocreatelocally.htm
 tech.root: WinAuto
 ms.assetid: df432ace-01ff-4100-a9df-4ed6abea7f1c
-
 ms.date: 12/05/2018
 ms.keywords: ICoCreateLocally, ICoCreateLocally interface [Windows Accessibility], ICoCreateLocally interface [Windows Accessibility],described, msaa.icocreatelocally, msaatext/ICoCreateLocally, winauto.icocreatelocally
 ms.topic: interface
-f1_keywords: 
- - "msaatext/ICoCreateLocally"
+f1_keywords:
+- msaatext/ICoCreateLocally
 dev_langs:
- - c++
+- c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msaatext.h
+- msaatext.h
 api_name:
- - ICoCreateLocally
+- ICoCreateLocally
 targetos: Windows
 req.typenames: 
 req.redist: 

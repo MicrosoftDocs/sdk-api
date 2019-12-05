@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Region.IsInfinite
 title: Region::IsInfinite (gdiplusheaders.h)
-
 description: The Region::IsInfinite method determines whether this region is infinite.
 old-location: gdiplus\_gdiplus_CLASS_Region_IsInfinite_g_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\isinfinite.htm
-
 ms.date: 12/05/2018
 ms.keywords: IsInfinite, IsInfinite method [GDI+], IsInfinite method [GDI+],Region class, Region class [GDI+],IsInfinite method, Region.IsInfinite, Region::IsInfinite, _gdiplus_CLASS_Region_IsInfinite_g_, gdiplus._gdiplus_CLASS_Region_IsInfinite_g_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Region.IsInfinite"
+f1_keywords:
+- gdiplusheaders/Region.IsInfinite
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Region.IsInfinite
+- Region.IsInfinite
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:uianimation.IUIAnimationTransition
 title: IUIAnimationTransition (uianimation.h)
-
 description: Defines a transition, which determines how an animation variable changes over time.
 old-location: uianimation\iuianimationtransition.htm
 tech.root: UIAnimation
 ms.assetid: 99804a2f-82c9-494c-b75d-69e66f1e49ef
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTransition, IUIAnimationTransition interface [Windows Animation], IUIAnimationTransition interface [Windows Animation],described, uianimation.iuianimationtransition, uianimation/IUIAnimationTransition
 ms.topic: interface
-f1_keywords: 
- - "uianimation/IUIAnimationTransition"
+f1_keywords:
+- uianimation/IUIAnimationTransition
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTransition
+- IUIAnimationTransition
 targetos: Windows
 req.typenames: 
 req.redist: 

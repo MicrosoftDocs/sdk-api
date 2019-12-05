@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcndr.NdrClientCall3
 title: NdrClientCall3 function (rpcndr.h)
-
 description: NdrClientCall3 may be altered or unavailable.
 old-location: rpc\ndrclientcall3.htm
 tech.root: Rpc
 ms.assetid: 88A69217-3ACE-4A3B-B148-4ECDDE08117B
-
 ms.date: 12/05/2018
 ms.keywords: NdrClientCall3, NdrClientCall3 function [RPC], rpc.ndrclientcall3, rpcndr/NdrClientCall3
 ms.topic: function
-f1_keywords: 
- - "rpcndr/NdrClientCall3"
+f1_keywords:
+- rpcndr/NdrClientCall3
 dev_langs:
- - c++
+- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RpcRT4.dll
+- RpcRT4.dll
 api_name:
- - NdrClientCall3
+- NdrClientCall3
 targetos: Windows
 req.typenames: 
 req.redist: 

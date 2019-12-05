@@ -1,19 +1,17 @@
 ---
 UID: NS:richedit._getcontextmenuex
 title: GETCONTEXTMENUEX (richedit.h)
-
 description: Contains context menu information that is passed to the IRichEditOleCallback::GetContextMenu method.
 old-location: controls\getcontextmenuex.htm
 tech.root: Controls
 ms.assetid: 6354921F-3C9F-4CBD-AC48-1EB67D1FDEB7
-
 ms.date: 12/05/2018
 ms.keywords: GCMF_GRIPPER, GCMF_MOUSEMENU, GCMF_SPELLING, GCMF_TOUCHMENU, GETCONTEXTMENUEX, GETCONTEXTMENUEX structure [Windows Controls], controls.getcontextmenuex, richedit/GETCONTEXTMENUEX
 ms.topic: struct
-f1_keywords: 
- - "richedit/GETCONTEXTMENUEX"
+f1_keywords:
+- richedit/GETCONTEXTMENUEX
 dev_langs:
- - c++
+- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Richedit.h
+- Richedit.h
 api_name:
- - GETCONTEXTMENUEX
+- GETCONTEXTMENUEX
 targetos: Windows
 req.typenames: GETCONTEXTMENUEX
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.GetStatus
 title: IUIAnimationStoryboard2::GetStatus (uianimation.h)
-
 description: Gets the status of the storyboard.
 old-location: uianimation\iuianimationstoryboard2_getstatus.htm
 tech.root: UIAnimation
 ms.assetid: 1694B720-891A-4214-A009-6AA722E5B83D
-
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Windows Animation], GetStatus method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],GetStatus method, IUIAnimationStoryboard2.GetStatus, IUIAnimationStoryboard2::GetStatus, uianimation.iuianimationstoryboard2_getstatus, uianimation/IUIAnimationStoryboard2::GetStatus
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationStoryboard2.GetStatus"
+f1_keywords:
+- uianimation/IUIAnimationStoryboard2.GetStatus
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard2.GetStatus
+- IUIAnimationStoryboard2.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

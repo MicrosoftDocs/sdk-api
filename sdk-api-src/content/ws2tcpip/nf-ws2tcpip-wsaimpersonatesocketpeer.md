@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2tcpip.WSAImpersonateSocketPeer
 title: WSAImpersonateSocketPeer function (ws2tcpip.h)
-
 description: Used to impersonate the security principal corresponding to a socket peer in order to perform application-level authorization.
 old-location: winsock\wsaimpersonatesocketpeer.htm
 tech.root: WinSock
 ms.assetid: 8dd2c0dd-ca1d-40b8-8e58-a980e67b6941
-
 ms.date: 12/05/2018
 ms.keywords: WSAImpersonateSocketPeer, WSAImpersonateSocketPeer function [Winsock], winsock.wsaimpersonatesocketpeer, ws2tcpip/WSAImpersonateSocketPeer
 ms.topic: function
-f1_keywords: 
- - "ws2tcpip/WSAImpersonateSocketPeer"
+f1_keywords:
+- ws2tcpip/WSAImpersonateSocketPeer
 dev_langs:
- - c++
+- c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - WSAImpersonateSocketPeer
+- WSAImpersonateSocketPeer
 targetos: Windows
 req.typenames: 
 req.redist: 

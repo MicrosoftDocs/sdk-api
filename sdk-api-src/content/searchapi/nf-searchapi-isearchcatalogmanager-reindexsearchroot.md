@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.ReindexSearchRoot
 title: ISearchCatalogManager::ReindexSearchRoot (searchapi.h)
-
 description: Re-indexes all URLs from a specified root.
 old-location: search\_search_ISearchCatalogManager_ReindexSearchRoot.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\reindexsearchroot.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager interface [search],ReindexSearchRoot method, ISearchCatalogManager.ReindexSearchRoot, ISearchCatalogManager::ReindexSearchRoot, ReindexSearchRoot, ReindexSearchRoot method [search], ReindexSearchRoot method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_ReindexSearchRoot, search._search_ISearchCatalogManager_ReindexSearchRoot, searchapi/ISearchCatalogManager::ReindexSearchRoot
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchCatalogManager.ReindexSearchRoot"
+f1_keywords:
+- searchapi/ISearchCatalogManager.ReindexSearchRoot
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchCatalogManager.ReindexSearchRoot
+- ISearchCatalogManager.ReindexSearchRoot
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

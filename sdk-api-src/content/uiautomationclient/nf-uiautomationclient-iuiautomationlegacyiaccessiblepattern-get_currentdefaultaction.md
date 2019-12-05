@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CurrentDefaultAction
 title: IUIAutomationLegacyIAccessiblePattern::get_CurrentDefaultAction (uiautomationclient.h)
-
 description: Retrieves the Microsoft Active Accessibility current default action for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDefaultAction.htm
 tech.root: WinAuto
 ms.assetid: d9fe2161-db5a-4e41-9f07-17cb3e4ce78a
-
 ms.date: 12/05/2018
 ms.keywords: CurrentDefaultAction property [Windows Accessibility], CurrentDefaultAction property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CurrentDefaultAction property, IUIAutomationLegacyIAccessiblePattern.CurrentDefaultAction, IUIAutomationLegacyIAccessiblePattern.get_CurrentDefaultAction, IUIAutomationLegacyIAccessiblePattern::CurrentDefaultAction, IUIAutomationLegacyIAccessiblePattern::get_CurrentDefaultAction, get_CurrentDefaultAction, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDefaultAction, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDefaultAction, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentDefaultAction, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentDefaultAction, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDefaultAction
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CurrentDefaultAction"
+f1_keywords:
+- uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CurrentDefaultAction
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationLegacyIAccessiblePattern.CurrentDefaultAction
- - IUIAutomationLegacyIAccessiblePattern.get_CurrentDefaultAction
+- IUIAutomationLegacyIAccessiblePattern.CurrentDefaultAction
+- IUIAutomationLegacyIAccessiblePattern.get_CurrentDefaultAction
 targetos: Windows
 req.typenames: 
 req.redist: 

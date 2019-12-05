@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.IsCharLowerA
 title: IsCharLowerA function (winuser.h)
-
 description: Determines whether a character is lowercase. This determination is based on the semantics of the language selected by the user during setup or through Control Panel.
 old-location: menurc\ischarlower.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\ischarlower.htm
-
 ms.date: 12/05/2018
 ms.keywords: IsCharLower, IsCharLower function [Menus and Other Resources], IsCharLowerA, _win32_IsCharLower, _win32_ischarlower_cpp, menurc.ischarlower, winui._win32_ischarlower, winuser/IsCharLower, winuser/IsCharLowerA
 ms.topic: function
-f1_keywords: 
- - "winuser/IsCharLower"
+f1_keywords:
+- winuser/IsCharLower
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-Core-Stringansi-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-user32-l1-1-0.dll
- - API-MS-Win-DownLevel-user32-l1-1-1.dll
+- User32.dll
+- API-MS-Win-Core-Stringansi-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-user32-l1-1-0.dll
+- API-MS-Win-DownLevel-user32-l1-1-1.dll
 api_name:
- - IsCharLower
- - IsCharLowerA
+- IsCharLower
+- IsCharLowerA
 targetos: Windows
 req.typenames: 
 req.redist: 

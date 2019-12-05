@@ -1,19 +1,17 @@
 ---
 UID: NF:dpa_dsa.DSA_DestroyCallback
 title: DSA_DestroyCallback function (dpa_dsa.h)
-
 description: Iterates through a dynamic structure array (DSA), calling a specified callback function on each item. Upon reaching the end of the array, the DSA is freed.
 old-location: controls\DSA_DestroyCallback.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_destroycallback.htm
-
 ms.date: 12/05/2018
 ms.keywords: DSA_DestroyCallback, DSA_DestroyCallback function [Windows Controls], _win32_DSA_DestroyCallback, _win32_DSA_DestroyCallback_cpp, controls.DSA_DestroyCallback, controls._win32_DSA_DestroyCallback, dpa_dsa/DSA_DestroyCallback
 ms.topic: function
-f1_keywords: 
- - "dpa_dsa/DSA_DestroyCallback"
+f1_keywords:
+- dpa_dsa/DSA_DestroyCallback
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: ComCtl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComCtl32.dll
+- ComCtl32.dll
 api_name:
- - DSA_DestroyCallback
+- DSA_DestroyCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPicture.get_CurDC
 title: IPicture::get_CurDC (ocidl.h)
-
 description: Retrieves the handle of the current device context. This property is valid only for bitmap pictures.
 old-location: com\ipicture_get_curdc.htm
 tech.root: com
 ms.assetid: a5c13a54-692d-423f-824d-5a96c137dec9
-
 ms.date: 12/05/2018
 ms.keywords: IPicture interface [COM],get_CurDC method, IPicture.get_CurDC, IPicture::get_CurDC, _ctrl_ipicture_get_curdc, com.ipicture_get_curdc, get_CurDC, get_CurDC method [COM], get_CurDC method [COM],IPicture interface, ocidl/IPicture::get_CurDC
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPicture.get_CurDC"
+f1_keywords:
+- ocidl/IPicture.get_CurDC
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPicture.get_CurDC
+- IPicture.get_CurDC
 targetos: Windows
 req.typenames: 
 req.redist: 

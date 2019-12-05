@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcasync.RpcErrorEndEnumeration
 title: RpcErrorEndEnumeration function (rpcasync.h)
-
 description: The RpcErrorEndEnumeration function ends enumeration of extended error information and frees all resources allocated by RPC for the enumeration.
 old-location: rpc\rpcerrorendenumeration.htm
 tech.root: Rpc
 ms.assetid: 04da6e7d-bbdb-47d3-9924-604ddf56d177
-
 ms.date: 12/05/2018
 ms.keywords: RpcErrorEndEnumeration, RpcErrorEndEnumeration function [RPC], _rpc_rpcerrorendenumeration, rpc.rpcerrorendenumeration, rpcasync/RpcErrorEndEnumeration
 ms.topic: function
-f1_keywords: 
- - "rpcasync/RpcErrorEndEnumeration"
+f1_keywords:
+- rpcasync/RpcErrorEndEnumeration
 dev_langs:
- - c++
+- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcErrorEndEnumeration
+- RpcErrorEndEnumeration
 targetos: Windows
 req.typenames: 
 req.redist: 

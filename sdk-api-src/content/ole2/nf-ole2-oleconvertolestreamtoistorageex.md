@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleConvertOLESTREAMToIStorageEx
 title: OleConvertOLESTREAMToIStorageEx function (ole2.h)
-
 description: The OleConvertOLESTREAMToIStorageEx function converts the specified object from the OLE 1 storage model to an OLE 2 structured storage object including presentation data. This is one of several compatibility functions.
 old-location: stg\oleconvertolestreamtoistorageex.htm
 tech.root: Stg
 ms.assetid: 2e77fa0e-1d98-4c59-8d3c-65bd7235ec8f
-
 ms.date: 12/05/2018
 ms.keywords: OleConvertOLESTREAMToIStorageEx, OleConvertOLESTREAMToIStorageEx function [Structured Storage], _stg_oleconvertolestreamtoistorageex, ole2/OleConvertOLESTREAMToIStorageEx, stg.oleconvertolestreamtoistorageex
 ms.topic: function
-f1_keywords: 
- - "ole2/OleConvertOLESTREAMToIStorageEx"
+f1_keywords:
+- ole2/OleConvertOLESTREAMToIStorageEx
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - OleConvertOLESTREAMToIStorageEx
+- OleConvertOLESTREAMToIStorageEx
 targetos: Windows
 req.typenames: 
 req.redist: 

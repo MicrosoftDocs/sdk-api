@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.GetMaxIdealVideoSize
 title: IVMRWindowlessControl9::GetMaxIdealVideoSize (vmr9.h)
-
 description: The GetMaxIdealVideoSize method retrieves the maximum video size that the VMR can display without incurring significant performance or image quality degradation.
 old-location: dshow\ivmrwindowlesscontrol9_getmaxidealvideosize.htm
 tech.root: DirectShow
 ms.assetid: 0aac9c10-c152-4c26-b520-b4ccaf37600c
-
 ms.date: 12/05/2018
 ms.keywords: GetMaxIdealVideoSize, GetMaxIdealVideoSize method [DirectShow], GetMaxIdealVideoSize method [DirectShow],IVMRWindowlessControl9 interface, IVMRWindowlessControl9 interface [DirectShow],GetMaxIdealVideoSize method, IVMRWindowlessControl9.GetMaxIdealVideoSize, IVMRWindowlessControl9::GetMaxIdealVideoSize, IVMRWindowlessControl9GetMaxIdealVideoSize, dshow.ivmrwindowlesscontrol9_getmaxidealvideosize, vmr9/IVMRWindowlessControl9::GetMaxIdealVideoSize
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRWindowlessControl9.GetMaxIdealVideoSize"
+f1_keywords:
+- vmr9/IVMRWindowlessControl9.GetMaxIdealVideoSize
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRWindowlessControl9.GetMaxIdealVideoSize
+- IVMRWindowlessControl9.GetMaxIdealVideoSize
 targetos: Windows
 req.typenames: 
 req.redist: 

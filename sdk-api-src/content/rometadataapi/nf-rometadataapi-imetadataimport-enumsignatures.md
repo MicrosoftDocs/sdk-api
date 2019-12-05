@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumSignatures
 title: IMetaDataImport::EnumSignatures (rometadataapi.h)
-
 description: Enumerates Signature tokens representing stand-alone signatures in the current scope.
 old-location: winrt\imetadataimport_enumsignatures.htm
 tech.root: WinRT
 ms.assetid: 311cfa18-6eb5-4872-9a46-3c8dcf901f4f
-
 ms.date: 12/05/2018
 ms.keywords: EnumSignatures, EnumSignatures method [Windows Runtime], EnumSignatures method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumSignatures method, IMetaDataImport.EnumSignatures, IMetaDataImport::EnumSignatures, rometadataapi/IMetaDataImport::EnumSignatures, winrt.imetadataimport_enumsignatures
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.EnumSignatures"
+f1_keywords:
+- rometadataapi/IMetaDataImport.EnumSignatures
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.EnumSignatures
+- IMetaDataImport.EnumSignatures
 targetos: Windows
 req.typenames: 
 req.redist: 

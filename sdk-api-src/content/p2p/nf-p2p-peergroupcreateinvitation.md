@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupCreateInvitation
 title: PeerGroupCreateInvitation function (p2p.h)
-
 description: The PeerGroupCreateInvitation function returns an XML string that can be used by the specified peer to join a group.
 old-location: p2p\peergroupcreateinvitation.htm
 tech.root: P2PSdk
 ms.assetid: 1ae5c288-6e9b-452a-8994-7878d713cd6d
-
 ms.date: 12/05/2018
 ms.keywords: PEER_GROUP_ROLE_ADMIN, PEER_GROUP_ROLE_MEMBER, PeerGroupCreateInvitation, PeerGroupCreateInvitation function [Peer Networking], p2p.peergroupcreateinvitation, p2p/PeerGroupCreateInvitation
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupCreateInvitation"
+f1_keywords:
+- p2p/PeerGroupCreateInvitation
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupCreateInvitation
+- PeerGroupCreateInvitation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManEx.EnumerationFlagNonXmlText
 title: IWSManEx::EnumerationFlagNonXmlText (wsmandisp.h)
-
 description: Returns the value of the enumeration constant WSManFlagNonXmlText for use in the flags parameter of the IWSManSession::Enumerate method.
 old-location: winrm\iwsmanex_enumerationflagnonxmltext.htm
 tech.root: winrm
 ms.assetid: f94dc9cc-a4c5-44b8-9ace-63b80b1087d2
-
 ms.date: 12/05/2018
 ms.keywords: EnumerationFlagNonXmlText, EnumerationFlagNonXmlText method [Windows Remote Management], EnumerationFlagNonXmlText method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagNonXmlText method, IWSManEx.EnumerationFlagNonXmlText, IWSManEx::EnumerationFlagNonXmlText, winrm.iwsmanex_enumerationflagnonxmltext, wsmandisp/IWSManEx::EnumerationFlagNonXmlText
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManEx.EnumerationFlagNonXmlText"
+f1_keywords:
+- wsmandisp/IWSManEx.EnumerationFlagNonXmlText
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManEx.EnumerationFlagNonXmlText
+- IWSManEx.EnumerationFlagNonXmlText
 targetos: Windows
 req.typenames: 
 req.redist: 

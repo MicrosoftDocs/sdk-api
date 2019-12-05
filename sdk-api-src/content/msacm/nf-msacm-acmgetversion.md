@@ -1,19 +1,17 @@
 ---
 UID: NF:msacm.acmGetVersion
 title: acmGetVersion function (msacm.h)
-
 description: The acmGetVersion function returns the version number of the ACM.
 old-location: multimedia\acmgetversion.htm
 tech.root: Multimedia
 ms.assetid: 5a710149-0c3a-4dde-8069-db2e42826080
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_acmGetVersion, acmGetVersion, acmGetVersion function [Windows Multimedia], msacm/acmGetVersion, multimedia.acmgetversion"
+ms.keywords: _win32_acmGetVersion, acmGetVersion, acmGetVersion function [Windows Multimedia], msacm/acmGetVersion, multimedia.acmgetversion
 ms.topic: function
-f1_keywords: 
- - "msacm/acmGetVersion"
+f1_keywords:
+- msacm/acmGetVersion
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msacm32.dll
- - Ext-MS-Win-mm-msacm-l1-1-0.dll
+- Msacm32.dll
+- Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
- - acmGetVersion
+- acmGetVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

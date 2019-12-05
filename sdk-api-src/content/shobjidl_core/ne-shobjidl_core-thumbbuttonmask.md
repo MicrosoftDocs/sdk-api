@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.THUMBBUTTONMASK
 title: THUMBBUTTONMASK (shobjidl_core.h)
-
 description: Used by the THUMBBUTTON structure to specify which members of that structure contain valid data.
 old-location: shell\THUMBBUTTONMASK.htm
 tech.root: shell
 ms.assetid: 12c6a535-6a23-4b41-b4fd-4ed4e192d629
-
 ms.date: 12/05/2018
 ms.keywords: THB_BITMAP, THB_FLAGS, THB_ICON, THB_TOOLTIP, THUMBBUTTONMASK, THUMBBUTTONMASK enumeration [Windows Shell], _shell_THUMBBUTTONMASK, shell.THUMBBUTTONMASK, shobjidl_core/THB_BITMAP, shobjidl_core/THB_FLAGS, shobjidl_core/THB_ICON, shobjidl_core/THB_TOOLTIP, shobjidl_core/THUMBBUTTONMASK
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/THUMBBUTTONMASK"
+f1_keywords:
+- shobjidl_core/THUMBBUTTONMASK
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - THUMBBUTTONMASK
+- THUMBBUTTONMASK
 targetos: Windows
 req.typenames: THUMBBUTTONMASK
 req.redist: 

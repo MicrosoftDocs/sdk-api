@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.RegisterSuspendResumeNotification
 title: RegisterSuspendResumeNotification function (winuser.h)
-
 description: Registers to receive notification when the system is suspended or resumed. Similar to PowerRegisterSuspendResumeNotification, but operates in user mode and can take a window handle.
 old-location: base\registersuspendresumenotification.htm
 tech.root: power
 ms.assetid: 6cd42d32-07e9-4cbd-83f9-6146b1cb54db
-
 ms.date: 12/05/2018
 ms.keywords: RegisterSuspendResumeNotification, RegisterSuspendResumeNotification function, base.registersuspendresumenotification, winuser/RegisterSuspendResumeNotification
 ms.topic: function
-f1_keywords: 
- - "winuser/RegisterSuspendResumeNotification"
+f1_keywords:
+- winuser/RegisterSuspendResumeNotification
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - RegisterSuspendResumeNotification
+- RegisterSuspendResumeNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

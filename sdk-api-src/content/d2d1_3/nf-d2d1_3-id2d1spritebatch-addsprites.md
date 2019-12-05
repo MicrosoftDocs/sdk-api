@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1SpriteBatch.AddSprites
 title: ID2D1SpriteBatch::AddSprites (d2d1_3.h)
-
 description: Adds the given sprites to the end of this sprite batch.
 old-location: direct2d\id2d1spritebatch_addsprites.htm
 tech.root: Direct2D
 ms.assetid: 49EA1F42-76C3-4505-B46A-422A336A13F6
-
 ms.date: 12/05/2018
 ms.keywords: AddSprites, AddSprites method [Direct2D], AddSprites method [Direct2D],ID2D1SpriteBatch interface, ID2D1SpriteBatch interface [Direct2D],AddSprites method, ID2D1SpriteBatch.AddSprites, ID2D1SpriteBatch::AddSprites, d2d1_3/ID2D1SpriteBatch::AddSprites, direct2d.id2d1spritebatch_addsprites
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1SpriteBatch.AddSprites"
+f1_keywords:
+- d2d1_3/ID2D1SpriteBatch.AddSprites
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1SpriteBatch.AddSprites
+- ID2D1SpriteBatch.AddSprites
 targetos: Windows
 req.typenames: 
 req.redist: 

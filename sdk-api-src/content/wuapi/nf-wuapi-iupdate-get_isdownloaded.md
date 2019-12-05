@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdate.get_IsDownloaded
 title: IUpdate::get_IsDownloaded (wuapi.h)
-
 description: Gets a Boolean value that indicates whether all the update content is cached on the computer.
 old-location: wua\iupdate_isdownloaded.htm
 tech.root: Wua_Sdk
 ms.assetid: 4e20f2b0-096c-4ec6-b554-1891522b8933
-
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],IsDownloaded property, IUpdate.IsDownloaded, IUpdate.get_IsDownloaded, IUpdate::IsDownloaded, IUpdate::get_IsDownloaded, IsDownloaded property [Windows Update Agent], IsDownloaded property [Windows Update Agent],IUpdate interface, get_IsDownloaded, wua.iupdate_isdownloaded, wuapi/IUpdate::IsDownloaded, wuapi/IUpdate::get_IsDownloaded
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdate.IsDownloaded"
+f1_keywords:
+- wuapi/IUpdate.IsDownloaded
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdate.IsDownloaded
- - IUpdate.get_IsDownloaded
+- IUpdate.IsDownloaded
+- IUpdate.get_IsDownloaded
 targetos: Windows
 req.typenames: 
 req.redist: 

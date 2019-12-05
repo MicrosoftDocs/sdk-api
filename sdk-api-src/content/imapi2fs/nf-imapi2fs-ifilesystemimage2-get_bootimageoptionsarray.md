@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage2.get_BootImageOptionsArray
 title: IFileSystemImage2::get_BootImageOptionsArray (imapi2fs.h)
-
 description: Retrieves the boot option array that will be utilized to generate the file system image.
 old-location: imapi\ifilesystemimage2_get_bootimageoptionsarray.htm
 tech.root: imapi
 ms.assetid: 31e4c8e8-7a00-41e7-b3cf-78dbc10fc3d2
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage2 interface [IMAPI],get_BootImageOptionsArray method, IFileSystemImage2.get_BootImageOptionsArray, IFileSystemImage2::get_BootImageOptionsArray, get_BootImageOptionsArray, get_BootImageOptionsArray method [IMAPI], get_BootImageOptionsArray method [IMAPI],IFileSystemImage2 interface, imapi.ifilesystemimage2_get_bootimageoptionsarray, imapi2fs/IFileSystemImage2::get_BootImageOptionsArray
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage2.get_BootImageOptionsArray"
+f1_keywords:
+- imapi2fs/IFileSystemImage2.get_BootImageOptionsArray
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage2.get_BootImageOptionsArray
+- IFileSystemImage2.get_BootImageOptionsArray
 targetos: Windows
 req.typenames: 
 req.redist: 

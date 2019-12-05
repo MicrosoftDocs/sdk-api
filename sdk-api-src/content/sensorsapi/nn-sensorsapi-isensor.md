@@ -1,19 +1,17 @@
 ---
 UID: NN:sensorsapi.ISensor
 title: ISensor (sensorsapi.h)
-
 description: Represents a sensor.
 old-location: winsensors\isensor.htm
 tech.root: SensorsAPI
 ms.assetid: 3216afbb-d524-486d-99ad-0ee0cfb884e0
-
 ms.date: 12/05/2018
 ms.keywords: ISensor, ISensor interface [WinSensors], ISensor interface [WinSensors],described, sensorsapi/ISensor, winsensors.isensor
 ms.topic: interface
-f1_keywords: 
- - "sensorsapi/ISensor"
+f1_keywords:
+- sensorsapi/ISensor
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensor
+- ISensor
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:af_irda._SOCKADDR_IRDA
 title: SOCKADDR_IRDA (af_irda.h)
-
 description: The SOCKADDR_IRDA structure is used in conjunction with IrDA socket operations, defined by address family AF_IRDA.
 old-location: winsock\sockaddr_irda_2.htm
 tech.root: WinSock
 ms.assetid: 6a5b8d70-f005-4d84-b575-22ad48564793
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSOCKADDR_IRDA, *PSOCKADDR_IRDA, LPSOCKADDR_IRDA, LPSOCKADDR_IRDA structure pointer [Winsock], PSOCKADDR_IRDA, PSOCKADDR_IRDA structure pointer [Winsock], SOCKADDR_IRDA, SOCKADDR_IRDA structure [Winsock], _win32_sockaddr_irda_2, af_irda/LPSOCKADDR_IRDA, af_irda/PSOCKADDR_IRDA, af_irda/SOCKADDR_IRDA, winsock.sockaddr_irda_2"
+ms.keywords: '*LPSOCKADDR_IRDA, *PSOCKADDR_IRDA, LPSOCKADDR_IRDA, LPSOCKADDR_IRDA structure pointer [Winsock], PSOCKADDR_IRDA, PSOCKADDR_IRDA structure pointer [Winsock], SOCKADDR_IRDA, SOCKADDR_IRDA structure [Winsock], _win32_sockaddr_irda_2, af_irda/LPSOCKADDR_IRDA, af_irda/PSOCKADDR_IRDA, af_irda/SOCKADDR_IRDA, winsock.sockaddr_irda_2'
 ms.topic: struct
-f1_keywords: 
- - "af_irda/SOCKADDR_IRDA"
+f1_keywords:
+- af_irda/SOCKADDR_IRDA
 dev_langs:
- - c++
+- c++
 req.header: af_irda.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Af_irda.h
+- Af_irda.h
 api_name:
- - SOCKADDR_IRDA
+- SOCKADDR_IRDA
 targetos: Windows
 req.typenames: SOCKADDR_IRDA, *PSOCKADDR_IRDA, *LPSOCKADDR_IRDA
 req.redist: 

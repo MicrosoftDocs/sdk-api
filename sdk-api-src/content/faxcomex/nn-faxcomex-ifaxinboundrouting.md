@@ -1,19 +1,17 @@
 ---
 UID: NN:faxcomex.IFaxInboundRouting
 title: IFaxInboundRouting (faxcomex.h)
-
 description: The IFaxInboundRouting interface defines a configuration object used by a fax client application to access the inbound routing extensions registered with the fax service, represented by FaxInboundRoutingExtensions objects, and the routing methods the extensions expose, represented by FaxInboundRoutingMethods objects.
 old-location: fax\_mfax_faxinboundrouting_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0zc7_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxInboundRouting, IFaxInboundRouting interface [Fax Service], IFaxInboundRouting interface [Fax Service],described, _mfax_faxinboundrouting_cpp, fax._mfax_faxinboundrouting_cpp, faxcomex/IFaxInboundRouting
 ms.topic: interface
-f1_keywords: 
- - "faxcomex/IFaxInboundRouting"
+f1_keywords:
+- faxcomex/IFaxInboundRouting
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxInboundRouting
+- IFaxInboundRouting
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcRevertContainerImpersonation
 title: RpcRevertContainerImpersonation function (rpcdce.h)
-
 description: RpcRevertContainerImpersonation may be altered or unavailable.
 old-location: rpc\rpcrevertcontainerimpersonation.htm
 tech.root: Rpc
 ms.assetid: 331D32B5-1583-4A2C-9A1A-0D546DDE846D
-
 ms.date: 12/05/2018
 ms.keywords: RpcRevertContainerImpersonation, RpcRevertContainerImpersonation function [RPC], rpc.rpcrevertcontainerimpersonation, rpcdce/RpcRevertContainerImpersonation
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcRevertContainerImpersonation"
+f1_keywords:
+- rpcdce/RpcRevertContainerImpersonation
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcRevertContainerImpersonation
+- RpcRevertContainerImpersonation
 targetos: Windows
 req.typenames: 
 req.redist: 

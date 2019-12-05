@@ -1,19 +1,17 @@
 ---
 UID: NN:cluadmex.IWEInvokeCommand
 title: IWEInvokeCommand (cluadmex.h)
-
 description: Failover Cluster Administrator calls your implementation of the IWEInvokeCommand interface when users select context menu items that you created with the IWEExtendContextMenu interface.
 old-location: mscs\iweinvokecommand.htm
 tech.root: MsCS
 ms.assetid: 53997e65-5011-4c3b-9586-ede9ed693ab5
-
 ms.date: 12/05/2018
 ms.keywords: IWEInvokeCommand, IWEInvokeCommand interface [Failover Cluster], IWEInvokeCommand interface [Failover Cluster],described, _wolf_iweinvokecommand, cluadmex/IWEInvokeCommand, mscs.iweinvokecommand
 ms.topic: interface
-f1_keywords: 
- - "cluadmex/IWEInvokeCommand"
+f1_keywords:
+- cluadmex/IWEInvokeCommand
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IWEInvokeCommand
+- IWEInvokeCommand
 targetos: Windows
 req.typenames: 
 req.redist: 

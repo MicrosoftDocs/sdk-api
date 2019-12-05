@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlayerApplication.get_playerDocked
 title: IWMPPlayerApplication::get_playerDocked (wmp.h)
-
 description: The get_playerDocked method retrieves a value indicating whether Windows Media Player is in a docked state.
 old-location: wmp\iwmpplayerapplication_get_playerdocked.htm
 tech.root: WMP
 ms.assetid: ca590b80-433d-4a9f-9d6b-cbb33d328fda
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayerApplication interface [Windows Media Player],get_playerDocked method, IWMPPlayerApplication.get_playerDocked, IWMPPlayerApplication::get_playerDocked, IWMPPlayerApplicationget_playerDocked, get_playerDocked, get_playerDocked method [Windows Media Player], get_playerDocked method [Windows Media Player],IWMPPlayerApplication interface, wmp.iwmpplayerapplication_get_playerdocked, wmp/IWMPPlayerApplication::get_playerDocked
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlayerApplication.get_playerDocked"
+f1_keywords:
+- wmp/IWMPPlayerApplication.get_playerDocked
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlayerApplication.get_playerDocked
+- IWMPPlayerApplication.get_playerDocked
 targetos: Windows
 req.typenames: 
 req.redist: 

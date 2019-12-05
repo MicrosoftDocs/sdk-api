@@ -1,19 +1,17 @@
 ---
 UID: NS:fwpmtypes.FWPM_PROVIDER0_
 title: FWPM_PROVIDER0 (fwpmtypes.h)
-
 description: Stores the state associated with a policy provider.
 old-location: fwp\fwpm_provider0_struct.htm
 tech.root: fwp
 ms.assetid: 692714fd-14f1-4f8b-a033-1f30b6d0b95a
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_PROVIDER0, FWPM_PROVIDER0 structure [Filtering], FWPM_PROVIDER_FLAG_DISABLED, FWPM_PROVIDER_FLAG_PERSISTENT, fwp.fwpm_provider0_struct, fwpmtypes/FWPM_PROVIDER0
 ms.topic: struct
-f1_keywords: 
- - "fwpmtypes/FWPM_PROVIDER0"
+f1_keywords:
+- fwpmtypes/FWPM_PROVIDER0
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_PROVIDER0
+- FWPM_PROVIDER0
 targetos: Windows
 req.typenames: FWPM_PROVIDER0
 req.redist: 

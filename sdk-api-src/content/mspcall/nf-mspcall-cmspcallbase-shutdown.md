@@ -1,19 +1,17 @@
 ---
 UID: NF:mspcall.CMSPCallBase.ShutDown
 title: CMSPCallBase::ShutDown (mspcall.h)
-
 description: The ShutDown method is called by the MSPAddress object (in the method ShutdownMSPCall) to shut down the call.
 old-location: tapi3\cmspcallbase_shutdown.htm
 tech.root: Tapi
 ms.assetid: eec5b712-5cee-41f7-819f-60815d5fba5c
-
 ms.date: 12/05/2018
 ms.keywords: CMSPCallBase interface [TAPI 2.2],ShutDown method, CMSPCallBase.ShutDown, CMSPCallBase::ShutDown, ShutDown, ShutDown method [TAPI 2.2], ShutDown method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_shutdown, mspcall/CMSPCallBase::ShutDown, tapi3.cmspcallbase_shutdown
 ms.topic: method
-f1_keywords: 
- - "mspcall/CMSPCallBase.ShutDown"
+f1_keywords:
+- mspcall/CMSPCallBase.ShutDown
 dev_langs:
- - c++
+- c++
 req.header: mspcall.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mspcall.h
+- Mspcall.h
 api_name:
- - CMSPCallBase.ShutDown
+- CMSPCallBase.ShutDown
 targetos: Windows
 req.typenames: 
 req.redist: 

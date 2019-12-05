@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagTTPOLYGONHEADER
 title: TTPOLYGONHEADER (wingdi.h)
-
 description: The TTPOLYGONHEADER structure specifies the starting position and type of a contour in a TrueType character outline.
 old-location: gdi\ttpolygonheader.htm
 tech.root: gdi
 ms.assetid: eea54aeb-7847-4393-87fa-86de93017be8
-
 ms.date: 12/05/2018
-ms.keywords: "*LPTTPOLYGONHEADER, LPTTPOLYGONHEADER, LPTTPOLYGONHEADER structure pointer [Windows GDI], TTPOLYGONHEADER, TTPOLYGONHEADER structure [Windows GDI], _win32_TTPOLYGONHEADER_str, gdi.ttpolygonheader, wingdi/LPTTPOLYGONHEADER, wingdi/TTPOLYGONHEADER"
+ms.keywords: '*LPTTPOLYGONHEADER, LPTTPOLYGONHEADER, LPTTPOLYGONHEADER structure pointer [Windows GDI], TTPOLYGONHEADER, TTPOLYGONHEADER structure [Windows GDI], _win32_TTPOLYGONHEADER_str, gdi.ttpolygonheader, wingdi/LPTTPOLYGONHEADER, wingdi/TTPOLYGONHEADER'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/TTPOLYGONHEADER"
+f1_keywords:
+- wingdi/TTPOLYGONHEADER
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - TTPOLYGONHEADER
+- TTPOLYGONHEADER
 targetos: Windows
 req.typenames: TTPOLYGONHEADER, *LPTTPOLYGONHEADER
 req.redist: 

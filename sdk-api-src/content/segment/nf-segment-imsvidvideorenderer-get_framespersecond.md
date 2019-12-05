@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_FramesPerSecond
 title: IMSVidVideoRenderer::get_FramesPerSecond (segment.h)
-
 description: The get_FramesPerSecond method retrieves the current frame rate.
 old-location: mstv\imsvidvideorenderer_get_framespersecond.htm
 tech.root: mstv
 ms.assetid: 94634499-748d-42d1-8d06-fb52d10d4656
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_FramesPerSecond method, IMSVidVideoRenderer.get_FramesPerSecond, IMSVidVideoRenderer::get_FramesPerSecond, IMSVidVideoRendererget_FramesPerSecond, get_FramesPerSecond, get_FramesPerSecond method [Microsoft TV Technologies], get_FramesPerSecond method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_framespersecond, segment/IMSVidVideoRenderer::get_FramesPerSecond
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidVideoRenderer.get_FramesPerSecond"
+f1_keywords:
+- segment/IMSVidVideoRenderer.get_FramesPerSecond
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoRenderer.get_FramesPerSecond
+- IMSVidVideoRenderer.get_FramesPerSecond
 targetos: Windows
 req.typenames: 
 req.redist: 

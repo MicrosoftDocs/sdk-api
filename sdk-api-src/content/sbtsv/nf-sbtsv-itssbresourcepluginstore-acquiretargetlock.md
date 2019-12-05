@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.AcquireTargetLock
 title: ITsSbResourcePluginStore::AcquireTargetLock (sbtsv.h)
-
 description: Locks a target.
 old-location: termserv\itssbresourcepluginstore_acquiretargetlock.htm
 tech.root: TermServ
 ms.assetid: ee6f22cf-c111-4a11-ab84-b52904a148b6
-
 ms.date: 12/05/2018
 ms.keywords: AcquireTargetLock, AcquireTargetLock method [Remote Desktop Services], AcquireTargetLock method [Remote Desktop Services],ITsSbResourcePluginStore interface, ITsSbResourcePluginStore interface [Remote Desktop Services],AcquireTargetLock method, ITsSbResourcePluginStore.AcquireTargetLock, ITsSbResourcePluginStore::AcquireTargetLock, sbtsv/ITsSbResourcePluginStore::AcquireTargetLock, termserv.itssbresourcepluginstore_acquiretargetlock
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbResourcePluginStore.AcquireTargetLock"
+f1_keywords:
+- sbtsv/ITsSbResourcePluginStore.AcquireTargetLock
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbResourcePluginStore.AcquireTargetLock
+- ITsSbResourcePluginStore.AcquireTargetLock
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfEditRecord.GetTextAndPropertyUpdates
 title: ITfEditRecord::GetTextAndPropertyUpdates (msctf.h)
-
 description: ITfEditRecord::GetTextAndPropertyUpdates method
 old-location: tsf\itfeditrecord_gettextandpropertyupdates.htm
 tech.root: TSF
 ms.assetid: bfc9cba0-298c-4823-b70a-366bdc5bfb29
-
 ms.date: 12/05/2018
 ms.keywords: 0, GetTextAndPropertyUpdates, GetTextAndPropertyUpdates method [Text Services Framework], GetTextAndPropertyUpdates method [Text Services Framework],ITfEditRecord interface, ITfEditRecord interface [Text Services Framework],GetTextAndPropertyUpdates method, ITfEditRecord.GetTextAndPropertyUpdates, ITfEditRecord::GetTextAndPropertyUpdates, TF_GTP_INCL_TEXT, _tsf_itfeditrecord_gettextandpropertyupdates_ref, msctf/ITfEditRecord::GetTextAndPropertyUpdates, tsf.itfeditrecord_gettextandpropertyupdates
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfEditRecord.GetTextAndPropertyUpdates"
+f1_keywords:
+- msctf/ITfEditRecord.GetTextAndPropertyUpdates
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfEditRecord.GetTextAndPropertyUpdates
+- ITfEditRecord.GetTextAndPropertyUpdates
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

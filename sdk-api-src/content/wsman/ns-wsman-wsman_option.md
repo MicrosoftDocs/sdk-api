@@ -1,19 +1,17 @@
 ---
 UID: NS:wsman._WSMAN_OPTION
 title: WSMAN_OPTION (wsman.h)
-
 description: Represents a specific option name and value pair.
 old-location: winrm\wsman_option.htm
 tech.root: winrm
 ms.assetid: 9ebb9b21-1418-476d-a7a2-395c77f26dc9
-
 ms.date: 12/05/2018
 ms.keywords: WSMAN_OPTION, WSMAN_OPTION structure [Windows Remote Management], winrm.wsman_option, wsman/WSMAN_OPTION
 ms.topic: struct
-f1_keywords: 
- - "wsman/WSMAN_OPTION"
+f1_keywords:
+- wsman/WSMAN_OPTION
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_OPTION
+- WSMAN_OPTION
 targetos: Windows
 req.typenames: WSMAN_OPTION
 req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2

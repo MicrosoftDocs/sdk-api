@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.GetRecordInfoFromGuids
 title: GetRecordInfoFromGuids function (oleauto.h)
-
 description: Returns a pointer to the IRecordInfo interface for a UDT by passing the GUID of the type information without having to load the type library.
 old-location: automat\getrecordinfofromguids.htm
 tech.root: automat
 ms.assetid: 0f132a13-ebcd-4886-b842-e6852d6fb2c8
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordInfoFromGuids, GetRecordInfoFromGuids function [Automation], _oa96_GetRecordInfoFromGuids, automat.getrecordinfofromguids, oleauto/GetRecordInfoFromGuids
 ms.topic: function
-f1_keywords: 
- - "oleauto/GetRecordInfoFromGuids"
+f1_keywords:
+- oleauto/GetRecordInfoFromGuids
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - GetRecordInfoFromGuids
+- GetRecordInfoFromGuids
 targetos: Windows
 req.typenames: 
 req.redist: 

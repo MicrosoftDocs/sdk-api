@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.PropVariantCopy
 title: PropVariantCopy function (combaseapi.h)
-
 description: The PropVariantCopy function copies the contents of one PROPVARIANT structure to another.
 old-location: stg\propvariantcopy.htm
 tech.root: Stg
 ms.assetid: ee97d3b2-4dec-43c3-b38d-29edc775b82a
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantCopy, PropVariantCopy function [Structured Storage], _stg_propvariantcopy, combaseapi/PropVariantCopy, stg.propvariantcopy
 ms.topic: function
-f1_keywords: 
- - "combaseapi/PropVariantCopy"
+f1_keywords:
+- combaseapi/PropVariantCopy
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - PropVariantCopy
+- PropVariantCopy
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRDeinterlaceControl.GetDeinterlaceMode
 title: IVMRDeinterlaceControl::GetDeinterlaceMode (strmif.h)
-
 description: The GetDeinterlaceMode method retrieves the deinterlacing mode for the specified video stream.
 old-location: dshow\ivmrdeinterlacecontrol_getdeinterlacemode.htm
 tech.root: DirectShow
 ms.assetid: 558b4902-596a-45f9-ad95-f8e868ba4a30
-
 ms.date: 12/05/2018
 ms.keywords: GetDeinterlaceMode, GetDeinterlaceMode method [DirectShow], GetDeinterlaceMode method [DirectShow],IVMRDeinterlaceControl interface, IVMRDeinterlaceControl interface [DirectShow],GetDeinterlaceMode method, IVMRDeinterlaceControl.GetDeinterlaceMode, IVMRDeinterlaceControl::GetDeinterlaceMode, IVMRDeinterlaceControlGetDeinterlaceMode, dshow.ivmrdeinterlacecontrol_getdeinterlacemode, strmif/IVMRDeinterlaceControl::GetDeinterlaceMode
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRDeinterlaceControl.GetDeinterlaceMode"
+f1_keywords:
+- strmif/IVMRDeinterlaceControl.GetDeinterlaceMode
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRDeinterlaceControl.GetDeinterlaceMode
+- IVMRDeinterlaceControl.GetDeinterlaceMode
 targetos: Windows
 req.typenames: 
 req.redist: 

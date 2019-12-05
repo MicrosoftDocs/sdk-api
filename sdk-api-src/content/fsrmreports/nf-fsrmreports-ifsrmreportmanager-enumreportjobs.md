@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmReportManager.EnumReportJobs
 title: IFsrmReportManager::EnumReportJobs (fsrmreports.h)
-
 description: Enumerates the report jobs.
 old-location: fsrm\ifsrmreportmanager_enumreportjobs.htm
 tech.root: fsrm
 ms.assetid: af66beb6-e82c-47e6-8658-da9702041053
-
 ms.date: 12/05/2018
 ms.keywords: EnumReportJobs, EnumReportJobs method [File Server Resource Manager], EnumReportJobs method [File Server Resource Manager],FsrmReportManager class, EnumReportJobs method [File Server Resource Manager],IFsrmReportManager interface, FsrmReportManager class [File Server Resource Manager],EnumReportJobs method, IFsrmReportManager interface [File Server Resource Manager],EnumReportJobs method, IFsrmReportManager.EnumReportJobs, IFsrmReportManager::EnumReportJobs, fs.ifsrmreportmanager_enumreportjobs, fsrm.ifsrmreportmanager_enumreportjobs, fsrmreports/IFsrmReportManager::EnumReportJobs
 ms.topic: method
 f1_keywords:
 - fsrmreports/IFsrmReportManager.EnumReportJobs
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.FtpGetCurrentDirectoryA
 title: FtpGetCurrentDirectoryA function (wininet.h)
-
 description: Retrieves the current directory for the specified FTP session.
 old-location: wininet\ftpgetcurrentdirectory.htm
 tech.root: wininet
 ms.assetid: 1b757061-469b-4c11-9d0d-38b300216221
-
 ms.date: 12/05/2018
 ms.keywords: FtpGetCurrentDirectory, FtpGetCurrentDirectory function [WinINet], FtpGetCurrentDirectoryA, FtpGetCurrentDirectoryW, _inet_ftpgetcurrentdirectory_function, wininet.ftpgetcurrentdirectory, wininet/FtpGetCurrentDirectory, wininet/FtpGetCurrentDirectoryA, wininet/FtpGetCurrentDirectoryW
 ms.topic: function
-f1_keywords: 
- - "wininet/FtpGetCurrentDirectory"
+f1_keywords:
+- wininet/FtpGetCurrentDirectory
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - FtpGetCurrentDirectory
- - FtpGetCurrentDirectoryA
- - FtpGetCurrentDirectoryW
+- FtpGetCurrentDirectory
+- FtpGetCurrentDirectoryA
+- FtpGetCurrentDirectoryW
 targetos: Windows
 req.typenames: 
 req.redist: 

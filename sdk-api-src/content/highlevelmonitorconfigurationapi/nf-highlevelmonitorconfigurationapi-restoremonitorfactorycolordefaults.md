@@ -1,19 +1,17 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.RestoreMonitorFactoryColorDefaults
 title: RestoreMonitorFactoryColorDefaults function (highlevelmonitorconfigurationapi.h)
-
 description: Restores a monitor's color settings to their factory defaults.
 old-location: monitor\restoremonitorfactorycolordefaults.htm
 tech.root: Monitor
 ms.assetid: e5676134-ae4d-4db6-86fa-dbff0dd14a25
-
 ms.date: 12/05/2018
 ms.keywords: RestoreMonitorFactoryColorDefaults, RestoreMonitorFactoryColorDefaults function [Monitor Configuration], highlevelmonitorconfigurationapi/RestoreMonitorFactoryColorDefaults, monitor.restoremonitorfactorycolordefaults
 ms.topic: function
-f1_keywords: 
- - "highlevelmonitorconfigurationapi/RestoreMonitorFactoryColorDefaults"
+f1_keywords:
+- highlevelmonitorconfigurationapi/RestoreMonitorFactoryColorDefaults
 dev_langs:
- - c++
+- c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - RestoreMonitorFactoryColorDefaults
+- RestoreMonitorFactoryColorDefaults
 targetos: Windows
 req.typenames: 
 req.redist: 

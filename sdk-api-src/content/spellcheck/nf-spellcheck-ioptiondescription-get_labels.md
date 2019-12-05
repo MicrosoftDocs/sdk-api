@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheck.IOptionDescription.get_Labels
 title: IOptionDescription::get_Labels (spellcheck.h)
-
 description: Gets the label enumerator for the spell checker option.
 old-location: intl\ioptiondescription_labels.htm
 tech.root: Intl
 ms.assetid: cead418f-2c89-4b7c-a52e-604f5d8685d1
-
 ms.date: 12/05/2018
 ms.keywords: IOptionDescription interface [Internationalization for Windows Applications],Labels property, IOptionDescription.Labels, IOptionDescription.get_Labels, IOptionDescription::Labels, IOptionDescription::get_Labels, Labels property [Internationalization for Windows Applications], Labels property [Internationalization for Windows Applications],IOptionDescription interface, get_Labels, intl.ioptiondescription_labels, spellcheck/IOptionDescription::Labels, spellcheck/IOptionDescription::get_Labels
 ms.topic: method
-f1_keywords: 
- - "spellcheck/IOptionDescription.Labels"
+f1_keywords:
+- spellcheck/IOptionDescription.Labels
 dev_langs:
- - c++
+- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheck.h
+- Spellcheck.h
 api_name:
- - IOptionDescription.Labels
- - IOptionDescription.get_Labels
+- IOptionDescription.Labels
+- IOptionDescription.get_Labels
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.DeleteAnycastIpAddressEntry
 title: DeleteAnycastIpAddressEntry function (netioapi.h)
-
 description: Deletes an existing anycast IP address entry on the local computer.
 old-location: iphlp\deleteanycastipaddressentry.htm
 tech.root: IpHlp
 ms.assetid: 3d6b7c5c-97a8-4a1d-a4cd-7ccf1f585305
-
 ms.date: 12/05/2018
 ms.keywords: DeleteAnycastIpAddressEntry, DeleteAnycastIpAddressEntry function [IP Helper], iphlp.deleteanycastipaddressentry, netioapi/DeleteAnycastIpAddressEntry
 ms.topic: function
-f1_keywords: 
- - "netioapi/DeleteAnycastIpAddressEntry"
+f1_keywords:
+- netioapi/DeleteAnycastIpAddressEntry
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - DeleteAnycastIpAddressEntry
+- DeleteAnycastIpAddressEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

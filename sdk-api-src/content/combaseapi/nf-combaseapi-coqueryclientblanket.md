@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoQueryClientBlanket
 title: CoQueryClientBlanket function (combaseapi.h)
-
 description: Called by the server to find out about the client that invoked the method executing on the current thread.
 old-location: com\coqueryclientblanket.htm
 tech.root: com
 ms.assetid: 58a2c121-c324-4c33-aaca-490b5a09738c
-
 ms.date: 12/05/2018
 ms.keywords: CoQueryClientBlanket, CoQueryClientBlanket function [COM], _com_CoQueryClientBlanket, com.coqueryclientblanket, combaseapi/CoQueryClientBlanket
 ms.topic: function
 f1_keywords:
 - combaseapi/CoQueryClientBlanket
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

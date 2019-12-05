@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_0
 title: RsvpObjHdr (lpmapi.h)
-
 description: The RsvpObjHdr structure provides an object header for an RSVP message.
 old-location: qos\rsvpobjhdr.htm
 tech.root: QOS
 ms.assetid: 90a237c0-0e62-4f27-927a-e3f3c1ac629e
-
 ms.date: 12/05/2018
 ms.keywords: RsvpObjHdr, RsvpObjHdr structure [QOS], lpmapi/RsvpObjHdr, qos.rsvpobjhdr
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/RsvpObjHdr"
+f1_keywords:
+- lpmapi/RsvpObjHdr
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - RsvpObjHdr
+- RsvpObjHdr
 targetos: Windows
 req.typenames: RsvpObjHdr
 req.redist: 

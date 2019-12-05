@@ -1,19 +1,17 @@
 ---
 UID: NF:threadpoolapiset.FreeLibraryWhenCallbackReturns
 title: FreeLibraryWhenCallbackReturns function (threadpoolapiset.h)
-
 description: Specifies the DLL that the thread pool will unload when the current callback completes.
 old-location: base\freelibrarywhencallbackreturns.htm
 tech.root: ProcThread
 ms.assetid: a29ba988-5d66-4914-9e37-a229bce75af2
-
 ms.date: 12/05/2018
 ms.keywords: FreeLibraryWhenCallbackReturns, FreeLibraryWhenCallbackReturns function, base.freelibrarywhencallbackreturns, threadpoolapiset/FreeLibraryWhenCallbackReturns, winbase/FreeLibraryWhenCallbackReturns
 ms.topic: function
-f1_keywords: 
- - "threadpoolapiset/FreeLibraryWhenCallbackReturns"
+f1_keywords:
+- threadpoolapiset/FreeLibraryWhenCallbackReturns
 dev_langs:
- - c++
+- c++
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-threadpool-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-threadpool-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-threadpool-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-threadpool-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - FreeLibraryWhenCallbackReturns
+- FreeLibraryWhenCallbackReturns
 targetos: Windows
 req.typenames: 
 req.redist: 

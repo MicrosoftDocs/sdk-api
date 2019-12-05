@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaSink.Shutdown
 title: IMFMediaSink::Shutdown (mfidl.h)
-
 description: Shuts down the media sink and releases the resources it is using.
 old-location: mf\imfmediasink_shutdown.htm
 tech.root: medfound
 ms.assetid: acda4e37-2dd0-4322-90fc-8f48d6842054
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSink interface [Media Foundation],Shutdown method, IMFMediaSink.Shutdown, IMFMediaSink::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFMediaSink interface, acda4e37-2dd0-4322-90fc-8f48d6842054, mf.imfmediasink_shutdown, mfidl/IMFMediaSink::Shutdown
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaSink.Shutdown"
+f1_keywords:
+- mfidl/IMFMediaSink.Shutdown
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSink.Shutdown
+- IMFMediaSink.Shutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

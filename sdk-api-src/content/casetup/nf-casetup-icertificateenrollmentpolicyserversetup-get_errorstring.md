@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentPolicyServerSetup.get_ErrorString
 title: ICertificateEnrollmentPolicyServerSetup::get_ErrorString (casetup.h)
-
 description: Retrieves a string that contains additional information about Certificate Enrollment Policy (CEP) Web Service setup failure.
 old-location: security\icertificateenrollmentpolicyserversetup_errorstring.htm
 tech.root: SecCrypto
 ms.assetid: CA9103BD-96CA-4FF3-B78D-A1F1345E58D3
-
 ms.date: 12/05/2018
 ms.keywords: ErrorString property [Security], ErrorString property [Security],ICertificateEnrollmentPolicyServerSetup interface, ICertificateEnrollmentPolicyServerSetup interface [Security],ErrorString property, ICertificateEnrollmentPolicyServerSetup.ErrorString, ICertificateEnrollmentPolicyServerSetup.get_ErrorString, ICertificateEnrollmentPolicyServerSetup::ErrorString, ICertificateEnrollmentPolicyServerSetup::get_ErrorString, casetup/ICertificateEnrollmentPolicyServerSetup::ErrorString, casetup/ICertificateEnrollmentPolicyServerSetup::get_ErrorString, get_ErrorString, security.icertificateenrollmentpolicyserversetup_errorstring
 ms.topic: method
-f1_keywords: 
- - "casetup/ICertificateEnrollmentPolicyServerSetup.ErrorString"
+f1_keywords:
+- casetup/ICertificateEnrollmentPolicyServerSetup.ErrorString
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertificateEnrollmentPolicyServerSetup.ErrorString
- - ICertificateEnrollmentPolicyServerSetup.get_ErrorString
+- ICertificateEnrollmentPolicyServerSetup.ErrorString
+- ICertificateEnrollmentPolicyServerSetup.get_ErrorString
 targetos: Windows
 req.typenames: 
 req.redist: 

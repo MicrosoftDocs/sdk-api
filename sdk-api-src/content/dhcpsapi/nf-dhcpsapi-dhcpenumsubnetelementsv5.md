@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumSubnetElementsV5
 title: DhcpEnumSubnetElementsV5 function (dhcpsapi.h)
-
 description: The DhcpEnumSubnetElementsV5 function returns an enumerated list of elements for a specific DHCP subnet.
 old-location: dhcp\dhcpenumsubnetelementsv5.htm
 tech.root: DHCP
 ms.assetid: d6fd543c-5036-469e-9e48-02573c7dcb9f
-
 ms.date: 12/05/2018
 ms.keywords: DhcpEnumSubnetElementsV5, DhcpEnumSubnetElementsV5 function [DHCP], dhcp.dhcpenumsubnetelementsv5, dhcpsapi/DhcpEnumSubnetElementsV5
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpEnumSubnetElementsV5"
+f1_keywords:
+- dhcpsapi/DhcpEnumSubnetElementsV5
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpEnumSubnetElementsV5
+- DhcpEnumSubnetElementsV5
 targetos: Windows
 req.typenames: 
 req.redist: 

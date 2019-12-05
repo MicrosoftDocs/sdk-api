@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d12.ID3D12CommandSignature
 title: ID3D12CommandSignature (d3d12.h)
-
 description: A command signature object enables apps to specify indirect drawing, including the buffer format, command type and resource bindings to be used.
 old-location: direct3d12\id3d12commandsignature.htm
 tech.root: direct3d12
 ms.assetid: 57EC15D0-9056-4AFC-86EF-3658DEA8AF40
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12CommandSignature, ID3D12CommandSignature interface, ID3D12CommandSignature interface,described, d3d12/ID3D12CommandSignature, direct3d12.id3d12commandsignature
 ms.topic: interface
-f1_keywords: 
- - "d3d12/ID3D12CommandSignature"
+f1_keywords:
+- d3d12/ID3D12CommandSignature
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12CommandSignature
+- ID3D12CommandSignature
 targetos: Windows
 req.typenames: 
 req.redist: 

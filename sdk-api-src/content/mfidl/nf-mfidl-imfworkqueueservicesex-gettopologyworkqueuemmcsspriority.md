@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServicesEx.GetTopologyWorkQueueMMCSSPriority
 title: IMFWorkQueueServicesEx::GetTopologyWorkQueueMMCSSPriority (mfidl.h)
-
 description: Retrieves the Multimedia Class Scheduler Service (MMCSS) string associated with the given topology work queue.
 old-location: mf\imfworkqueueservicesex_gettopologyworkqueuemmcsspriority.htm
 tech.root: medfound
 ms.assetid: d5550e53-cbe9-4956-a079-d2a825fd17ef
-
 ms.date: 12/05/2018
 ms.keywords: GetTopologyWorkQueueMMCSSPriority, GetTopologyWorkQueueMMCSSPriority method [Media Foundation], GetTopologyWorkQueueMMCSSPriority method [Media Foundation],IMFWorkQueueServicesEx interface, IMFWorkQueueServicesEx interface [Media Foundation],GetTopologyWorkQueueMMCSSPriority method, IMFWorkQueueServicesEx.GetTopologyWorkQueueMMCSSPriority, IMFWorkQueueServicesEx::GetTopologyWorkQueueMMCSSPriority, mf.imfworkqueueservicesex_gettopologyworkqueuemmcsspriority, mfidl/IMFWorkQueueServicesEx::GetTopologyWorkQueueMMCSSPriority
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFWorkQueueServicesEx.GetTopologyWorkQueueMMCSSPriority"
+f1_keywords:
+- mfidl/IMFWorkQueueServicesEx.GetTopologyWorkQueueMMCSSPriority
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFWorkQueueServicesEx.GetTopologyWorkQueueMMCSSPriority
+- IMFWorkQueueServicesEx.GetTopologyWorkQueueMMCSSPriority
 targetos: Windows
 req.typenames: 
 req.redist: 

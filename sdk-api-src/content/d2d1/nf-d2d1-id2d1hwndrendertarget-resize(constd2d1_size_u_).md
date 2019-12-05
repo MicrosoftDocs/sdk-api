@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1HwndRenderTarget.Resize(const D2D1_SIZE_U &)
 title: ID2D1HwndRenderTarget::Resize(const D2D1_SIZE_U &) (d2d1.h)
-
 description: Changes the size of the render target to the specified pixel size.
 old-location: direct2d\ID2D1HwndRenderTarget_Resize_ref_D2D_SIZE_U.htm
 tech.root: Direct2D
 ms.assetid: 99cee6c1-3c0c-4a6d-ab58-a90fc502e8d5
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1HwndRenderTarget interface [Direct2D],Resize method, ID2D1HwndRenderTarget.Resize, ID2D1HwndRenderTarget.Resize(const D2D1_SIZE_U &), ID2D1HwndRenderTarget::Resize, ID2D1HwndRenderTarget::Resize(const D2D1_SIZE_U &), Resize, Resize method [Direct2D], Resize method [Direct2D],ID2D1HwndRenderTarget interface, d2d1/ID2D1HwndRenderTarget::Resize, direct2d.ID2D1HwndRenderTarget_Resize_ref_D2D_SIZE_U
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1HwndRenderTarget.Resize"
+f1_keywords:
+- d2d1/ID2D1HwndRenderTarget.Resize
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1HwndRenderTarget.Resize
+- ID2D1HwndRenderTarget.Resize
 targetos: Windows
 req.typenames: 
 req.redist: 

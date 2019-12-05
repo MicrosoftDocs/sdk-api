@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventClass.get_EventClassName
 title: IEventClass::get_EventClassName (eventsys.h)
-
 description: The ProgID for the event class object.
 old-location: cos\ieventclass_eventclassname.htm
 tech.root: cossdk
 ms.assetid: 40565df4-01c8-42fa-baf0-deadad77ef1f
-
 ms.date: 12/05/2018
 ms.keywords: EventClassName property [COM+], EventClassName property [COM+],IEventClass interface, IEventClass interface [COM+],EventClassName property, IEventClass.EventClassName, IEventClass.get_EventClassName, IEventClass::EventClassName, IEventClass::get_EventClassName, IEventClass::put_EventClassName, cos.ieventclass_eventclassname, eventsys/IEventClass::EventClassName, eventsys/IEventClass::get_EventClassName, eventsys/IEventClass::put_EventClassName, get_EventClassName
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventClass.EventClassName"
+f1_keywords:
+- eventsys/IEventClass.EventClassName
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: Eventsys.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - eventsys.h
+- eventsys.h
 api_name:
- - IEventClass.EventClassName
- - IEventClass.get_EventClassName
- - IEventClass.put_EventClassName
+- IEventClass.EventClassName
+- IEventClass.get_EventClassName
+- IEventClass.put_EventClassName
 targetos: Windows
 req.typenames: 
 req.redist: 

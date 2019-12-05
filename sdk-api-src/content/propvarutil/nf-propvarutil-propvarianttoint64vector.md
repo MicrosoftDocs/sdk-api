@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToInt64Vector
 title: PropVariantToInt64Vector function (propvarutil.h)
-
 description: Extracts data from a PROPVARIANT structure into an Int64 vector.
 old-location: properties\PropVariantToInt64Vector.htm
 tech.root: properties
 ms.assetid: cda5589a-726f-4e43-aec4-bb7a7ca62b1a
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToInt64Vector, PropVariantToInt64Vector function [Windows Properties], _shell_PropVariantToInt64Vector, properties.PropVariantToInt64Vector, propvarutil/PropVariantToInt64Vector, shell.PropVariantToInt64Vector
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToInt64Vector"
+f1_keywords:
+- propvarutil/PropVariantToInt64Vector
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToInt64Vector
+- PropVariantToInt64Vector
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

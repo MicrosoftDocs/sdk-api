@@ -1,19 +1,17 @@
 ---
 UID: NN:oleacc.IAccessibleHandler
 title: IAccessibleHandler (oleacc.h)
-
 description: Exposes a method that retrieves an accessible element from an object ID.
 old-location: winauto\iaccessiblehandler.htm
 tech.root: WinAuto
 ms.assetid: 1b6b2c02-f3b5-4a8a-9388-b3833cd0cd44
-
 ms.date: 12/05/2018
 ms.keywords: IAccessibleHandler, IAccessibleHandler interface [Windows Accessibility], IAccessibleHandler interface [Windows Accessibility],described, msaa.iaccessiblehandler, oleacc/IAccessibleHandler, winauto.iaccessiblehandler
 ms.topic: interface
-f1_keywords: 
- - "oleacc/IAccessibleHandler"
+f1_keywords:
+- oleacc/IAccessibleHandler
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oleacc.h
+- oleacc.h
 api_name:
- - IAccessibleHandler
+- IAccessibleHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.SetConfig
 title: IDirectInputJoyConfig8::SetConfig (dinputd.h)
-
 description: The IDirectInputJoyConfig8::SetConfig method creates or redefines configuration information about a joystick.
 old-location: hid\idirectinputjoyconfig8_setconfig.htm
 tech.root: hid
 ms.assetid: 58f413c4-7b4c-47bd-8991-ffe681e96f48
-
 ms.date: 12/05/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],SetConfig method, IDirectInputJoyConfig8.SetConfig, IDirectInputJoyConfig8::SetConfig, SetConfig, SetConfig method [Human Input Devices], SetConfig method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_e9168f2d-cee8-4cac-8299-65360fd784f1.xml, dinputd/IDirectInputJoyConfig8::SetConfig, hid.idirectinputjoyconfig8_setconfig
 ms.topic: method
-f1_keywords: 
- - "dinputd/IDirectInputJoyConfig8.SetConfig"
+f1_keywords:
+- dinputd/IDirectInputJoyConfig8.SetConfig
 dev_langs:
- - c++
+- c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dinputd.h
+- dinputd.h
 api_name:
- - IDirectInputJoyConfig8.SetConfig
+- IDirectInputJoyConfig8.SetConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

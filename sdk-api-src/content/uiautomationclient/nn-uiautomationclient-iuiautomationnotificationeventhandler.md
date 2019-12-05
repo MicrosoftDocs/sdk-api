@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationNotificationEventHandler
 title: IUIAutomationNotificationEventHandler (uiautomationclient.h)
-
 description: Exposes a method to handle Microsoft UI Automation notification events.
 old-location: winauto\uiauto_IUIAutomationNotificationEventHandler.htm
 tech.root: WinAuto
 ms.assetid: 7E12B8C2-D6A7-4637-9049-312B78EC01DE
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationNotificationEventHandler, IUIAutomationNotificationEventHandler interface [Windows Accessibility], IUIAutomationNotificationEventHandler interface [Windows Accessibility],described, uiautomationclient/IUIAutomationNotificationEventHandler, winauto.uiauto_IUIAutomationNotificationEventHandler
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationNotificationEventHandler"
+f1_keywords:
+- uiautomationclient/IUIAutomationNotificationEventHandler
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationNotificationEventHandler
+- IUIAutomationNotificationEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

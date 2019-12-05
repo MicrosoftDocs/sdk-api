@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFContentEnabler
 title: IMFContentEnabler (mfidl.h)
-
 description: Implements one step that must be performed for the user to access media content.
 old-location: mf\imfcontentenabler.htm
 tech.root: medfound
 ms.assetid: 45d02bd0-1104-47ec-8559-8cc51590fc62
-
 ms.date: 12/05/2018
 ms.keywords: 45d02bd0-1104-47ec-8559-8cc51590fc62, IMFContentEnabler, IMFContentEnabler interface [Media Foundation], IMFContentEnabler interface [Media Foundation],described, mf.imfcontentenabler, mfidl/IMFContentEnabler
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFContentEnabler"
+f1_keywords:
+- mfidl/IMFContentEnabler
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFContentEnabler
+- IMFContentEnabler
 targetos: Windows
 req.typenames: 
 req.redist: 

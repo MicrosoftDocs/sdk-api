@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.DisableSharing
 title: INetSharingConfiguration::DisableSharing (netcon.h)
-
 description: The DisableSharing method disables sharing on this connection. It also disables all mappings on this connection. It does not disable Internet Connection Firewall or bridge configuration.
 old-location: ics\inetsharingconfiguration_disablesharing.htm
 tech.root: ics
 ms.assetid: 85fda578-603c-4447-8546-374077235943
-
 ms.date: 12/05/2018
 ms.keywords: DisableSharing, DisableSharing method [ICS/ICF], DisableSharing method [ICS/ICF],INetSharingConfiguration interface, INetSharingConfiguration interface [ICS/ICF],DisableSharing method, INetSharingConfiguration.DisableSharing, INetSharingConfiguration::DisableSharing, _ics_inetsharingconfiguration_disablesharing, ics.inetsharingconfiguration_disablesharing, netcon/INetSharingConfiguration::DisableSharing
 ms.topic: method
-f1_keywords: 
- - "netcon/INetSharingConfiguration.DisableSharing"
+f1_keywords:
+- netcon/INetSharingConfiguration.DisableSharing
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetSharingConfiguration.DisableSharing
+- INetSharingConfiguration.DisableSharing
 targetos: Windows
 req.typenames: 
 req.redist: 

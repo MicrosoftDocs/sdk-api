@@ -4,10 +4,10 @@ title: AudioClientProperties
 ms.date: 01/30/19
 ms.keywords: AudioClientProperties
 ms.topic: language-reference
-f1_keywords: 
- - "audioclient/AudioClientProperties"
+f1_keywords:
+- audioclient/AudioClientProperties
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -25,13 +25,13 @@ req.typenames: AudioClientProperties
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - audioclient.h
+- audioclient.h
 api_name:
- - AudioClientProperties
+- AudioClientProperties
 ---
 
 # AudioClientProperties structure

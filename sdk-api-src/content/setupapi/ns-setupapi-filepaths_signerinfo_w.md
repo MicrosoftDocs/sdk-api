@@ -1,19 +1,17 @@
 ---
 UID: NS:setupapi._FILEPATHS_SIGNERINFO_W
 title: FILEPATHS_SIGNERINFO_W (setupapi.h)
-
 description: The FILEPATHS_SINGNERINFO structure stores source and target path information, and also file signature information.
 old-location: setup\filepaths_signerinfo.htm
 tech.root: SetupApi
 ms.assetid: c651933f-cf61-4012-9d08-195336f2cb3d
-
 ms.date: 12/05/2018
 ms.keywords: '*PFILEPATHS_SIGNERINFO_W, FILEOP_COPY, FILEOP_DELETE, FILEPATHS_SIGNERINFO, FILEPATHS_SIGNERINFO structure [Setup API], FILEPATHS_SIGNERINFO_W, PFILEPATHS_SIGNERINFO, PFILEPATHS_SIGNERINFO structure pointer [Setup API], SP_COPY_NOBROWSE, SP_COPY_NOSKIP, SP_COPY_WARNIFSKIP, _setupapi_filepaths_signerinfo, setup.filepaths_signerinfo, setupapi/FILEPATHS_SIGNERINFO, setupapi/PFILEPATHS_SIGNERINFO'
 ms.topic: struct
 f1_keywords:
 - setupapi/FILEPATHS_SIGNERINFO
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -39,8 +37,7 @@ api_type:
 api_location:
 - Setupapi.h
 api_name:
-- FILEPATHS_SIGNERINFO
- - filepaths_signerinfo_w
+- FILEPATHS_SIGNERINFO - filepaths_signerinfo_w
 targetos: Windows
 req.typenames: FILEPATHS_SIGNERINFO_W, *PFILEPATHS_SIGNERINFO_W
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl.__MIDL___MIDL_itf_mfidl_0000_0109_0002
 title: MFSensorStreamType (mfidl.h)
-
 description: Specifies whether a stream associated with an IMFSensorDevice is an input or an output stream.
 old-location: mf\mfsensorstreamtype.htm
 tech.root: medfound
 ms.assetid: 598AE9EC-3B8D-419A-A6A9-02DCDD459162
-
 ms.date: 12/05/2018
 ms.keywords: MFSensorStreamType, MFSensorStreamType enumeration [Media Foundation], MFSensorStreamType_Input, MFSensorStreamType_Output, MFSensorStreamType_Unknown, mf.mfsensorstreamtype, mfidl/MFSensorStreamType, mfidl/MFSensorStreamType_Input, mfidl/MFSensorStreamType_Output, mfidl/MFSensorStreamType_Unknown
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MFSensorStreamType"
+f1_keywords:
+- mfidl/MFSensorStreamType
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFSensorStreamType
+- MFSensorStreamType
 targetos: Windows
 req.typenames: MFSensorStreamType
 req.redist: 

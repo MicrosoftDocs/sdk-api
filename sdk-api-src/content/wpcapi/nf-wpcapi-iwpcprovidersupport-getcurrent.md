@@ -1,19 +1,17 @@
 ---
 UID: NF:wpcapi.IWPCProviderSupport.GetCurrent
 title: IWPCProviderSupport::GetCurrent (wpcapi.h)
-
 description: Retrieves the GUID of the current provider.
 old-location: parcon\iwpcprovidersupport_getcurrent.htm
 tech.root: parcon
 ms.assetid: 36496cba-229c-45bb-9608-04fb4b1955ae
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrent, GetCurrent method, GetCurrent method,IWPCProviderSupport interface, IWPCProviderSupport interface,GetCurrent method, IWPCProviderSupport.GetCurrent, IWPCProviderSupport::GetCurrent, parcon.iwpcprovidersupport_getcurrent, wpcapi/IWPCProviderSupport::GetCurrent
 ms.topic: method
-f1_keywords: 
- - "wpcapi/IWPCProviderSupport.GetCurrent"
+f1_keywords:
+- wpcapi/IWPCProviderSupport.GetCurrent
 dev_langs:
- - c++
+- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wpcapi.h
+- Wpcapi.h
 api_name:
- - IWPCProviderSupport.GetCurrent
+- IWPCProviderSupport.GetCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_GetNextItemIndex
 title: ListView_GetNextItemIndex macro (commctrl.h)
-
 description: Gets the index of the item in a particular list-view control that has the specified properties and relationship to another specific item. Use this macro or send the LVM_GETNEXTITEMINDEX message explicitly.
 old-location: controls\ListView_GetNextItemIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getnextitemindex.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_GetNextItemIndex, ListView_GetNextItemIndex macro [Windows Controls], _shell_ListView_GetNextItemIndex, _shell_ListView_GetNextItemIndex_cpp, commctrl/ListView_GetNextItemIndex, controls.ListView_GetNextItemIndex, controls._shell_ListView_GetNextItemIndex
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_GetNextItemIndex"
+f1_keywords:
+- commctrl/ListView_GetNextItemIndex
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_GetNextItemIndex
+- ListView_GetNextItemIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

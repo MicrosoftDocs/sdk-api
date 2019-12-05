@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetOwner
 title: IXpsOMGeometryFigure::GetOwner (xpsobjectmodel.h)
-
 description: Gets a pointer to the IXpsOMGeometry interface that contains the geometry figure.
 old-location: xps\ixpsomgeometryfigure_getowner.htm
 tech.root: printdocs
 ms.assetid: 520e52ff-fb65-430f-972c-40ca2ab959b2
-
 ms.date: 12/05/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetOwner method, IXpsOMGeometryFigure.GetOwner, IXpsOMGeometryFigure::GetOwner, xps.ixpsomgeometryfigure_getowner, xpsobjectmodel/IXpsOMGeometryFigure::GetOwner
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGeometryFigure.GetOwner"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGeometryFigure.GetOwner
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGeometryFigure.GetOwner
+- IXpsOMGeometryFigure.GetOwner
 targetos: Windows
 req.typenames: 
 req.redist: 

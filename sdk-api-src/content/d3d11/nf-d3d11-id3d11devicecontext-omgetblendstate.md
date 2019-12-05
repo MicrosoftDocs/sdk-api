@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.OMGetBlendState
 title: ID3D11DeviceContext::OMGetBlendState (d3d11.h)
-
 description: Get the blend state of the output-merger stage.
 old-location: direct3d11\id3d11devicecontext_omgetblendstate.htm
 tech.root: direct3d11
 ms.assetid: 871429b4-8f4a-43bb-ae55-3b07f8d00f68
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext interface [Direct3D 11],OMGetBlendState method, ID3D11DeviceContext.OMGetBlendState, ID3D11DeviceContext::OMGetBlendState, OMGetBlendState, OMGetBlendState method [Direct3D 11], OMGetBlendState method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::OMGetBlendState, db30eb26-ca10-d827-172b-7c7a6fe1ff83, direct3d11.id3d11devicecontext_omgetblendstate
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.OMGetBlendState"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.OMGetBlendState
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.OMGetBlendState
+- ID3D11DeviceContext.OMGetBlendState
 targetos: Windows
 req.typenames: 
 req.redist: 

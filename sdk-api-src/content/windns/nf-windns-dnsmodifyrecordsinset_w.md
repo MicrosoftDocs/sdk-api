@@ -1,19 +1,17 @@
 ---
 UID: NF:windns.DnsModifyRecordsInSet_W
 title: DnsModifyRecordsInSet_W function (windns.h)
-
 description: Function adds, modifies or removes a Resource Record (RR) set that may have been previously registered with DNS servers.
 old-location: dns\dnsmodifyrecordsinset.htm
 tech.root: DNS
 ms.assetid: 4287b4e1-a7a2-4b73-b5bb-21bc639bae73
-
 ms.date: 12/05/2018
 ms.keywords: DnsModifyRecordsInSet, DnsModifyRecordsInSet function [DNS], DnsModifyRecordsInSet_A, DnsModifyRecordsInSet_UTF8, DnsModifyRecordsInSet_W, _dns_dnsmodifyrecordsinset, dns.dnsmodifyrecordsinset, windns/DnsModifyRecordsInSet, windns/DnsModifyRecordsInSet_A, windns/DnsModifyRecordsInSet_UTF8, windns/DnsModifyRecordsInSet_W
 ms.topic: function
-f1_keywords: 
- - "windns/DnsModifyRecordsInSet"
+f1_keywords:
+- windns/DnsModifyRecordsInSet
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Dnsapi.lib
 req.dll: Dnsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dnsapi.dll
+- Dnsapi.dll
 api_name:
- - DnsModifyRecordsInSet
- - DnsModifyRecordsInSet_A
- - DnsModifyRecordsInSet_W
- - DnsModifyRecordsInSet_UTF8
+- DnsModifyRecordsInSet
+- DnsModifyRecordsInSet_A
+- DnsModifyRecordsInSet_W
+- DnsModifyRecordsInSet_UTF8
 targetos: Windows
 req.typenames: 
 req.redist: 

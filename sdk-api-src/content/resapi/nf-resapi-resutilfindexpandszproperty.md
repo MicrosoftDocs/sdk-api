@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilFindExpandSzProperty
 title: ResUtilFindExpandSzProperty function (resapi.h)
-
 description: Locates an expandable string property in a property list. The PRESUTIL_FIND_EXPAND_SZ_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfindexpandszproperty.htm
 tech.root: MsCS
 ms.assetid: 44fb21bd-6cc2-4b1b-ae8f-c977fa336747
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_FIND_EXPAND_SZ_PROPERTY, PRESUTIL_FIND_EXPAND_SZ_PROPERTY function [Failover Cluster], ResUtilFindExpandSzProperty, ResUtilFindExpandSzProperty function [Failover Cluster], _wolf_resutilfindexpandszproperty, mscs.resutilfindexpandszproperty, resapi/PRESUTIL_FIND_EXPAND_SZ_PROPERTY, resapi/ResUtilFindExpandSzProperty
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilFindExpandSzProperty"
+f1_keywords:
+- resapi/ResUtilFindExpandSzProperty
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilFindExpandSzProperty
+- ResUtilFindExpandSzProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

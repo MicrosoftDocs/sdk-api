@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSignatureReference.GetTransformMethod
 title: IOpcSignatureReference::GetTransformMethod (msopc.h)
-
 description: Gets the canonicalization method to use on the referenced XML element, when the element is signed.
 old-location: opc\iopcsignaturereference_gettransformmethod.htm
 tech.root: OPC
 ms.assetid: f3f3f6a8-c15e-420a-b56d-5dac0a054fac
-
 ms.date: 12/05/2018
 ms.keywords: GetTransformMethod, GetTransformMethod method [Open Packaging Conventions], GetTransformMethod method [Open Packaging Conventions],IOpcSignatureReference interface, IOpcSignatureReference interface [Open Packaging Conventions],GetTransformMethod method, IOpcSignatureReference.GetTransformMethod, IOpcSignatureReference::GetTransformMethod, msopc/IOpcSignatureReference::GetTransformMethod, opc.iopcsignaturereference_gettransformmethod
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSignatureReference.GetTransformMethod"
+f1_keywords:
+- msopc/IOpcSignatureReference.GetTransformMethod
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignatureReference.GetTransformMethod
+- IOpcSignatureReference.GetTransformMethod
 targetos: Windows
 req.typenames: 
 req.redist: 

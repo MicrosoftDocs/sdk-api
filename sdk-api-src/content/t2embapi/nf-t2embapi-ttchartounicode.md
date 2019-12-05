@@ -1,19 +1,17 @@
 ---
 UID: NF:t2embapi.TTCharToUnicode
 title: TTCharToUnicode function (t2embapi.h)
-
 description: Converts an array of 8-bit character code values to 16-bit Unicode values.
 old-location: gdi\ttchartounicode.htm
 tech.root: gdi
 ms.assetid: b5ed9429-31fa-4f78-8fc3-aeb5cb1540d1
-
 ms.date: 12/05/2018
 ms.keywords: TTCharToUnicode, TTCharToUnicode function [Windows GDI], _win32_BytesToUnicode, gdi.ttchartounicode, t2embapi/TTCharToUnicode
 ms.topic: function
-f1_keywords: 
- - "t2embapi/TTCharToUnicode"
+f1_keywords:
+- t2embapi/TTCharToUnicode
 dev_langs:
- - c++
+- c++
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: T2embed.lib
 req.dll: T2embed.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - T2embed.dll
+- T2embed.dll
 api_name:
- - TTCharToUnicode
+- TTCharToUnicode
 targetos: Windows
 req.typenames: 
 req.redist: 

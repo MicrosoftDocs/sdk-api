@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHChangeNotifyDeregister
 title: SHChangeNotifyDeregister function (shlobj_core.h)
-
 description: Unregisters the client's window process from receiving SHChangeNotify messages.
 old-location: shell\SHChangeNotifyDeregister.htm
 tech.root: shell
 ms.assetid: fad021dc-8199-4384-b623-c98bc618799f
-
 ms.date: 12/05/2018
 ms.keywords: NTSHChangeNotifyDeregister, SHChangeNotifyDeregister, SHChangeNotifyDeregister function [Windows Shell], _win32_SHChangeNotifyDeregister, shell.SHChangeNotifyDeregister, shlobj_core/NTSHChangeNotifyDeregister, shlobj_core/SHChangeNotifyDeregister
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHChangeNotifyDeregister"
+f1_keywords:
+- shlobj_core/SHChangeNotifyDeregister
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
- - windows.storage.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- windows.storage.dll
 api_name:
- - SHChangeNotifyDeregister
- - NTSHChangeNotifyDeregister
+- SHChangeNotifyDeregister
+- NTSHChangeNotifyDeregister
 targetos: Windows
 req.typenames: 
 req.redist: 

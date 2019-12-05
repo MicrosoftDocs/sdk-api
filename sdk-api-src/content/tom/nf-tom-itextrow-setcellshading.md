@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.SetCellShading
 title: ITextRow::SetCellShading (tom.h)
-
 description: Sets the shading of the active cell.
 old-location: controls\itextrow_setcellshading.htm
 tech.root: Controls
 ms.assetid: 9163a9a3-6f8c-4318-a5a1-4b00a9037f6a
-
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellShading method, ITextRow.SetCellShading, ITextRow::SetCellShading, SetCellShading, SetCellShading method [Windows Controls], SetCellShading method [Windows Controls],ITextRow interface, controls.itextrow_setcellshading, tom/ITextRow::SetCellShading
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.SetCellShading"
+f1_keywords:
+- tom/ITextRow.SetCellShading
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.SetCellShading
+- ITextRow.SetCellShading
 targetos: Windows
 req.typenames: 
 req.redist: 

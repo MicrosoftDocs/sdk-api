@@ -1,19 +1,17 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetDiagnosticsInfo
 title: INetDiagHelper::GetDiagnosticsInfo (ndhelper.h)
-
 description: Enables the Helper Class Extension instance to provide an estimate.
 old-location: ndf\inetdiaghelpe_getdiagnosticsinfo.htm
 tech.root: NDF
 ms.assetid: bc162b1b-a22e-4ee3-96a6-c2eecc13e479
-
 ms.date: 12/05/2018
 ms.keywords: GetDiagnosticsInfo, GetDiagnosticsInfo method [NDF], GetDiagnosticsInfo method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetDiagnosticsInfo method, INetDiagHelper.GetDiagnosticsInfo, INetDiagHelper::GetDiagnosticsInfo, ndf.inetdiaghelpe_getdiagnosticsinfo, ndhelper/INetDiagHelper::GetDiagnosticsInfo
 ms.topic: method
-f1_keywords: 
- - "ndhelper/INetDiagHelper.GetDiagnosticsInfo"
+f1_keywords:
+- ndhelper/INetDiagHelper.GetDiagnosticsInfo
 dev_langs:
- - c++
+- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ndhelper.h
+- ndhelper.h
 api_name:
- - INetDiagHelper.GetDiagnosticsInfo
+- INetDiagHelper.GetDiagnosticsInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

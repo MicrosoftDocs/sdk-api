@@ -1,19 +1,17 @@
 ---
 UID: NF:systemtopologyapi.GetNumaProximityNodeEx
 title: GetNumaProximityNodeEx function (systemtopologyapi.h)
-
 description: Retrieves the NUMA node number that corresponds to the specified proximity identifier as a USHORT value.
 old-location: base\getnumaproximitynodeex.htm
 tech.root: ProcThread
 ms.assetid: c3da519f-d2bc-4cd0-9c11-587af1ad6e60
-
 ms.date: 12/05/2018
 ms.keywords: GetNumaProximityNodeEx, GetNumaProximityNodeEx function, base.getnumaproximitynodeex, systemtopologyapi/GetNumaProximityNodeEx
 ms.topic: function
-f1_keywords: 
- - "systemtopologyapi/GetNumaProximityNodeEx"
+f1_keywords:
+- systemtopologyapi/GetNumaProximityNodeEx
 dev_langs:
- - c++
+- c++
 req.header: systemtopologyapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-Systemtopology-L1-1-1.dll
- - KernelBase.dll
+- kernel32.dll
+- API-MS-Win-Core-Systemtopology-L1-1-1.dll
+- KernelBase.dll
 api_name:
- - GetNumaProximityNodeEx
+- GetNumaProximityNodeEx
 targetos: Windows
 req.typenames: 
 req.redist: 

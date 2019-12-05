@@ -1,19 +1,17 @@
 ---
 UID: NC:winnt.PAPCFUNC
 title: PAPCFUNC (winnt.h)
-
 description: An application-defined completion routine. Specify this address when calling the QueueUserAPC function.
 old-location: base\apcproc.htm
 tech.root: Sync
 ms.assetid: 8d52ad73-0172-4d1d-b625-39629e7f5823
-
 ms.date: 12/05/2018
 ms.keywords: APCProc, APCProc callback, APCProc callback function, PAPCFUNC, _win32_apcproc, base.apcproc, winnt/APCProc
 ms.topic: callback
-f1_keywords: 
- - "winnt/APCProc"
+f1_keywords:
+- winnt/APCProc
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - APCProc
+- APCProc
 targetos: Windows
 req.typenames: 
 req.redist: 

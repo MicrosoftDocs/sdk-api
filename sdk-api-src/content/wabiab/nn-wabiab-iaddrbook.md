@@ -1,19 +1,17 @@
 ---
 UID: NN:wabiab.IAddrBook
 title: IAddrBook (wabiab.h)
-
 description: Do not use.
 old-location: wab\_wab_IAddrBook.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iaddrbook\iaddrbook.htm
-
 ms.date: 12/05/2018
 ms.keywords: IAddrBook, IAddrBook interface [Windows Address Book], IAddrBook interface [Windows Address Book],described, _wab_IAddrBook, wab._wab_IAddrBook, wabiab/IAddrBook
 ms.topic: interface
-f1_keywords: 
- - "wabiab/IAddrBook"
+f1_keywords:
+- wabiab/IAddrBook
 dev_langs:
- - c++
+- c++
 req.header: wabiab.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IAddrBook
+- IAddrBook
 targetos: Windows
 req.typenames: 
 req.redist: 

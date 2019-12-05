@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform.SetScaleX(float)
 title: IDCompositionScaleTransform::SetScaleX(float) (dcomp.h)
-
 description: Changes the value of the ScaleX property of a 2D scale transform.
 old-location: directcomp\idcompositionscaletransform_setscalex_float.htm
 tech.root: directcomp
 ms.assetid: 4976851C-E711-4A31-8243-6CC10DF16717
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform interface [DirectComposition],SetScaleX method, IDCompositionScaleTransform.SetScaleX, IDCompositionScaleTransform.SetScaleX(float), IDCompositionScaleTransform::SetScaleX, IDCompositionScaleTransform::SetScaleX(float), SetScaleX, SetScaleX method [DirectComposition], SetScaleX method [DirectComposition],IDCompositionScaleTransform interface, dcomp/IDCompositionScaleTransform::SetScaleX, directcomp.idcompositionscaletransform_setscalex_float
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionScaleTransform.SetScaleX"
+f1_keywords:
+- dcomp/IDCompositionScaleTransform.SetScaleX
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionScaleTransform.SetScaleX
+- IDCompositionScaleTransform.SetScaleX
 targetos: Windows
 req.typenames: 
 req.redist: 

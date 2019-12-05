@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilGetResourceDependencyByClassEx
 title: ResUtilGetResourceDependencyByClassEx function (resapi.h)
-
 description: Enumerates the dependencies of a specified resource in a specified cluster and returns a handle to a dependency that matches a specified resource class. The PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX type defines a pointer to this function.
 old-location: mscs\resutilgetresourcedependencybyclassex.htm
 tech.root: MsCS
 ms.assetid: D35816C8-A449-41FF-9398-A6A4E19C29FB
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX, PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX function [Failover Cluster], ResUtilGetResourceDependencyByClassEx, ResUtilGetResourceDependencyByClassEx function [Failover Cluster], mscs.resutilgetresourcedependencybyclassex, resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX, resapi/ResUtilGetResourceDependencyByClassEx
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilGetResourceDependencyByClassEx"
+f1_keywords:
+- resapi/ResUtilGetResourceDependencyByClassEx
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilGetResourceDependencyByClassEx
+- ResUtilGetResourceDependencyByClassEx
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IToggleProvider.Toggle
 title: IToggleProvider::Toggle (uiautomationcore.h)
-
 description: Cycles through the toggle states of a control.
 old-location: winauto\uiauto_IToggleProvider_Toggle.htm
 tech.root: WinAuto
 ms.assetid: afadbcaf-156f-496e-a0f3-900e7f8d44da
-
 ms.date: 12/05/2018
 ms.keywords: IToggleProvider interface [Windows Accessibility],Toggle method, IToggleProvider.Toggle, IToggleProvider::Toggle, Toggle, Toggle method [Windows Accessibility], Toggle method [Windows Accessibility],IToggleProvider interface, uiauto.uiauto_IToggleProvider_Toggle, uiauto_IToggleProvider_Toggle, uiautomationcore/IToggleProvider::Toggle, winauto.uiauto_IToggleProvider_Toggle
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IToggleProvider.Toggle"
+f1_keywords:
+- uiautomationcore/IToggleProvider.Toggle
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IToggleProvider.Toggle
+- IToggleProvider.Toggle
 targetos: Windows
 req.typenames: 
 req.redist: 

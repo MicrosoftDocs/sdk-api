@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroup.GetFiles
 title: IAppxContentGroup::GetFiles (appxpackaging.h)
-
 description: Gets files from a content group.
 old-location: appxpkg\iappxcontentgroup_getfiles.htm
 tech.root: appxpkg
 ms.assetid: AC946014-C0A2-45F8-9287-5852FD1B9981
-
 ms.date: 12/05/2018
 ms.keywords: GetFiles, GetFiles method [App packaging and management], GetFiles method [App packaging and management],IAppxContentGroup interface, IAppxContentGroup interface [App packaging and management],GetFiles method, IAppxContentGroup.GetFiles, IAppxContentGroup::GetFiles, appxpackaging/IAppxContentGroup::GetFiles, appxpkg.iappxcontentgroup_getfiles
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxContentGroup.GetFiles"
+f1_keywords:
+- appxpackaging/IAppxContentGroup.GetFiles
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxContentGroup.GetFiles
+- IAppxContentGroup.GetFiles
 targetos: Windows
 req.typenames: 
 req.redist: 

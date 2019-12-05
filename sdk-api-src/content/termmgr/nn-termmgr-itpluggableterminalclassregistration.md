@@ -1,19 +1,17 @@
 ---
 UID: NN:termmgr.ITPluggableTerminalClassRegistration
 title: ITPluggableTerminalClassRegistration (termmgr.h)
-
 description: The ITPluggableTerminalClassRegistration interface exposes methods that allow the creation, modification, and deletion of the registry entry for a pluggable terminal.
 old-location: tapi3\itpluggableterminalclassregistration.htm
 tech.root: Tapi
 ms.assetid: 178824f5-9dda-4e8a-b921-f2c9d064a83c
-
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassRegistration, ITPluggableTerminalClassRegistration interface [TAPI 2.2], ITPluggableTerminalClassRegistration interface [TAPI 2.2],described, _tapi3_itpluggableterminalclassregistration, tapi3.itpluggableterminalclassregistration, termmgr/ITPluggableTerminalClassRegistration
 ms.topic: interface
-f1_keywords: 
- - "termmgr/ITPluggableTerminalClassRegistration"
+f1_keywords:
+- termmgr/ITPluggableTerminalClassRegistration
 dev_langs:
- - c++
+- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPluggableTerminalClassRegistration
+- ITPluggableTerminalClassRegistration
 targetos: Windows
 req.typenames: 
 req.redist: 

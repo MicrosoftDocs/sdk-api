@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMClosePubHandle
 title: DRMClosePubHandle function (msdrm.h)
-
 description: Closes a previously created DRMPUBHANDLE.
 old-location: rm\drmclosepubhandle.htm
 tech.root: AdRms_Sdk
 ms.assetid: a263a1a8-01b8-4ca6-aefb-f4374459c0c0
-
 ms.date: 12/05/2018
 ms.keywords: DRMClosePubHandle, DRMClosePubHandle function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMClosePubHandle, rm.drmclosepubhandle
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMClosePubHandle"
+f1_keywords:
+- msdrm/DRMClosePubHandle
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMClosePubHandle
+- DRMClosePubHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

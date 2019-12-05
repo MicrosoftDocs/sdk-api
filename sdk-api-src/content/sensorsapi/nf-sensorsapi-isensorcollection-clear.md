@@ -1,19 +1,17 @@
 ---
 UID: NF:sensorsapi.ISensorCollection.Clear
 title: ISensorCollection::Clear (sensorsapi.h)
-
 description: Empties the sensor collection.
 old-location: winsensors_com_ref\isensorcollection_clear.htm
 tech.root: SensorsAPI
 ms.assetid: 03b2345b-1d06-449e-9ecf-ecce9aa60c08
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method, Clear method,ISensorCollection interface, ISensorCollection interface,Clear method, ISensorCollection.Clear, ISensorCollection::Clear, sensorsapi/ISensorCollection::Clear, winsensors_com_ref.isensorcollection_clear
 ms.topic: method
-f1_keywords: 
- - "sensorsapi/ISensorCollection.Clear"
+f1_keywords:
+- sensorsapi/ISensorCollection.Clear
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensorCollection.Clear
+- ISensorCollection.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11.D3D11_CULL_MODE
 title: D3D11_CULL_MODE (d3d11.h)
-
 description: Indicates triangles facing a particular direction are not drawn.
 old-location: direct3d11\d3d11_cull_mode.htm
 tech.root: direct3d11
 ms.assetid: 437c4e2f-f120-44db-b0ce-f4dd4e666814
-
 ms.date: 12/05/2018
 ms.keywords: 6a382bf1-a9ce-3b9b-41ed-46a4fee9ef85, D3D11_CULL_BACK, D3D11_CULL_FRONT, D3D11_CULL_MODE, D3D11_CULL_MODE enumeration [Direct3D 11], D3D11_CULL_NONE, d3d11/D3D11_CULL_BACK, d3d11/D3D11_CULL_FRONT, d3d11/D3D11_CULL_MODE, d3d11/D3D11_CULL_NONE, direct3d11.d3d11_cull_mode
 ms.topic: enum
-f1_keywords: 
- - "d3d11/D3D11_CULL_MODE"
+f1_keywords:
+- d3d11/D3D11_CULL_MODE
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_CULL_MODE
+- D3D11_CULL_MODE
 targetos: Windows
 req.typenames: D3D11_CULL_MODE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetTint
 title: IWICDevelopRaw::SetTint (wincodec.h)
-
 description: Sets the tint value of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_settint.htm
 tech.root: wic
 ms.assetid: a5c6a15b-19d3-4b6f-a00e-842ec8614ce5
-
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetTint method, IWICDevelopRaw.SetTint, IWICDevelopRaw::SetTint, SetTint, SetTint method [Windows Imaging Component], SetTint method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_settint, wic._wic_codec_iwicdevelopraw_settint, wincodec/IWICDevelopRaw::SetTint
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICDevelopRaw.SetTint"
+f1_keywords:
+- wincodec/IWICDevelopRaw.SetTint
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICDevelopRaw.SetTint
+- IWICDevelopRaw.SetTint
 targetos: Windows
 req.typenames: 
 req.redist: 

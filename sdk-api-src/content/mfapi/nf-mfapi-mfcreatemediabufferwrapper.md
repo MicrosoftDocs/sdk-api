@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateMediaBufferWrapper
 title: MFCreateMediaBufferWrapper function (mfapi.h)
-
 description: Creates a media buffer that wraps an existing media buffer.
 old-location: mf\mfcreatemediabufferwrapper.htm
 tech.root: medfound
 ms.assetid: 6850e75c-4612-4514-a74d-9b36fd88a598
-
 ms.date: 12/05/2018
 ms.keywords: 6850e75c-4612-4514-a74d-9b36fd88a598, MFCreateMediaBufferWrapper, MFCreateMediaBufferWrapper function [Media Foundation], mf.mfcreatemediabufferwrapper, mfapi/MFCreateMediaBufferWrapper
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateMediaBufferWrapper"
+f1_keywords:
+- mfapi/MFCreateMediaBufferWrapper
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateMediaBufferWrapper
+- MFCreateMediaBufferWrapper
 targetos: Windows
 req.typenames: 
 req.redist: 

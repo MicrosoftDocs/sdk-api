@@ -1,19 +1,17 @@
 ---
 UID: NF:srpapi.SrpGetEnterpriseIds
 title: SrpGetEnterpriseIds function (srpapi.h)
-
 description: Gets the list of enterprise identifiers for the given token.
 old-location: edp\srpgetenterpriseids.htm
 tech.root: EDP
 ms.assetid: 850FA83D-A90F-40CA-99BE-F6DD890F4E6F
-
 ms.date: 12/05/2018
 ms.keywords: EDP.srpgetenterpriseids, SrpGetEnterpriseIds, SrpGetEnterpriseIds function, srpapi/SrpGetEnterpriseIds
 ms.topic: function
-f1_keywords: 
- - "srpapi/SrpGetEnterpriseIds"
+f1_keywords:
+- srpapi/SrpGetEnterpriseIds
 dev_langs:
- - c++
+- c++
 req.header: srpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Srpapi.lib
 req.dll: Srpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - srpapi.dll
- - Ext-MS-Win-Security-Srp-L1-1-0.dll
- - Ext-MS-Win-Security-Srp-L1-1-1.dll
+- srpapi.dll
+- Ext-MS-Win-Security-Srp-L1-1-0.dll
+- Ext-MS-Win-Security-Srp-L1-1-1.dll
 api_name:
- - SrpGetEnterpriseIds
+- SrpGetEnterpriseIds
 targetos: Windows
 req.typenames: 
 req.redist: 

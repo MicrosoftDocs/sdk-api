@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IQualProp.get_Jitter
 title: IQualProp::get_Jitter (amvideo.h)
-
 description: The get_Jitter method gets the jitter (variation in time) between successive frames delivered to the video renderer.
 old-location: dshow\iqualprop_get_jitter.htm
 tech.root: DirectShow
 ms.assetid: e1f6e93f-58d6-41b4-b16f-e9f02bfec0fe
-
 ms.date: 12/05/2018
 ms.keywords: IQualProp interface [DirectShow],get_Jitter method, IQualProp.get_Jitter, IQualProp::get_Jitter, IQualPropget_Jitter, amvideo/IQualProp::get_Jitter, dshow.iqualprop_get_jitter, get_Jitter, get_Jitter method [DirectShow], get_Jitter method [DirectShow],IQualProp interface
 ms.topic: method
-f1_keywords: 
- - "amvideo/IQualProp.get_Jitter"
+f1_keywords:
+- amvideo/IQualProp.get_Jitter
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IQualProp.get_Jitter
+- IQualProp.get_Jitter
 targetos: Windows
 req.typenames: 
 req.redist: 

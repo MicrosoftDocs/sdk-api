@@ -1,19 +1,17 @@
 ---
 UID: NF:relogger.ITraceRelogger.SetOutputFilename
 title: ITraceRelogger::SetOutputFilename (relogger.h)
-
 description: Indicates the file to which ETW should write the new, relogged trace.
 old-location: etw\itracerelogger_setoutputfilename.htm
 tech.root: ETW
 ms.assetid: ed3f8bcd-88c7-4d05-a396-41ee8f35bc97
-
 ms.date: 12/05/2018
 ms.keywords: ITraceRelogger interface [ETW],SetOutputFilename method, ITraceRelogger.SetOutputFilename, ITraceRelogger::SetOutputFilename, SetOutputFilename, SetOutputFilename method [ETW], SetOutputFilename method [ETW],ITraceRelogger interface, etw.itracerelogger_setoutputfilename, relogger/ITraceRelogger::SetOutputFilename
 ms.topic: method
-f1_keywords: 
- - "relogger/ITraceRelogger.SetOutputFilename"
+f1_keywords:
+- relogger/ITraceRelogger.SetOutputFilename
 dev_langs:
- - c++
+- c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Relogger.h
+- Relogger.h
 api_name:
- - ITraceRelogger.SetOutputFilename
+- ITraceRelogger.SetOutputFilename
 targetos: Windows
 req.typenames: 
 req.redist: 

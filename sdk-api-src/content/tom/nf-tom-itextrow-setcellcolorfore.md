@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.SetCellColorFore
 title: ITextRow::SetCellColorFore (tom.h)
-
 description: Sets the foreground color of the active cell.
 old-location: controls\itextrow_setcellcolorfore.htm
 tech.root: Controls
 ms.assetid: 2eff9f39-b79d-4fcb-b8ee-ef067cff2c78
-
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellColorFore method, ITextRow.SetCellColorFore, ITextRow::SetCellColorFore, SetCellColorFore, SetCellColorFore method [Windows Controls], SetCellColorFore method [Windows Controls],ITextRow interface, controls.itextrow_setcellcolorfore, tom/ITextRow::SetCellColorFore
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.SetCellColorFore"
+f1_keywords:
+- tom/ITextRow.SetCellColorFore
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.SetCellColorFore
+- ITextRow.SetCellColorFore
 targetos: Windows
 req.typenames: 
 req.redist: 

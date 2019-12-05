@@ -1,19 +1,17 @@
 ---
 UID: NF:threadpoolapiset.StartThreadpoolIo
 title: StartThreadpoolIo function (threadpoolapiset.h)
-
 description: Notifies the thread pool that I/O operations may possibly begin for the specified I/O completion object. A worker thread calls the I/O completion object's callback function after the operation completes on the file handle bound to this object.
 old-location: base\startthreadpoolio.htm
 tech.root: ProcThread
 ms.assetid: 5a817d6f-a8e6-4aaa-b560-0128eacb98b1
-
 ms.date: 12/05/2018
 ms.keywords: StartThreadpoolIo, StartThreadpoolIo function, base.startthreadpoolio, threadpoolapiset/StartThreadpoolIo, winbase/StartThreadpoolIo
 ms.topic: function
-f1_keywords: 
- - "threadpoolapiset/StartThreadpoolIo"
+f1_keywords:
+- threadpoolapiset/StartThreadpoolIo
 dev_langs:
- - c++
+- c++
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-threadpool-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-threadpool-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-threadpool-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-threadpool-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - StartThreadpoolIo
+- StartThreadpoolIo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.FindDebugInfoFile
 title: FindDebugInfoFile function (dbghelp.h)
-
 description: Locates a debug (.dbg) file.
 old-location: base\finddebuginfofile.htm
 tech.root: Debug
 ms.assetid: a13d3bf4-f34d-4304-9d47-aa21c3fa23b8
-
 ms.date: 12/05/2018
 ms.keywords: FindDebugInfoFile, FindDebugInfoFile function, _win32_finddebuginfofile, base.finddebuginfofile, dbghelp/FindDebugInfoFile
 ms.topic: function
-f1_keywords: 
- - "dbghelp/FindDebugInfoFile"
+f1_keywords:
+- dbghelp/FindDebugInfoFile
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - FindDebugInfoFile
+- FindDebugInfoFile
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

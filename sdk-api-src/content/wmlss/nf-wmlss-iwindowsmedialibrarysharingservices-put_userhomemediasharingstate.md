@@ -1,19 +1,17 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingState
 title: IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState (wmlss.h)
-
 description: The put_userHomeMediaSharingState method enables or disables sharing of the current user's media library on the home network.
 old-location: wmlss\IWMLSSput_userHomeMediaSharingState.htm
 tech.root: WMLSS
 ms.assetid: d638da61-8196-4d46-ad98-fd7ab8a19e9b
-
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],put_userHomeMediaSharingState method, IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingState, IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState, put_userHomeMediaSharingState, put_userHomeMediaSharingState method [Windows Media Library Sharing Services], put_userHomeMediaSharingState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSput_userHomeMediaSharingState, wmlss/IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState
 ms.topic: method
-f1_keywords: 
- - "wmlss/IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingState"
+f1_keywords:
+- wmlss/IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingState
 dev_langs:
- - c++
+- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: WMPMediaSharing.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMPMediaSharing.dll
+- WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingState
+- IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingState
 targetos: Windows
 req.typenames: 
 req.redist: 

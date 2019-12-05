@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3.ITAgentSession.get_AverageTimeToAnswer
 title: ITAgentSession::get_AverageTimeToAnswer (tapi3.h)
-
 description: The get_AverageTimeToAnswer method gets the average time (in seconds) that calls waited to be answered.
 old-location: tapi3\itagentsession_get_averagetimetoanswer.htm
 tech.root: Tapi
 ms.assetid: 24d2b9ee-4fd0-41d3-add1-5c136944a250
-
 ms.date: 12/05/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_AverageTimeToAnswer method, ITAgentSession.get_AverageTimeToAnswer, ITAgentSession::get_AverageTimeToAnswer, _tapi3_itagentsession_get_averagetimetoanswer, get_AverageTimeToAnswer, get_AverageTimeToAnswer method [TAPI 2.2], get_AverageTimeToAnswer method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_averagetimetoanswer, tapi3cc/ITAgentSession::get_AverageTimeToAnswer
 ms.topic: method
-f1_keywords: 
- - "tapi3/ITAgentSession.get_AverageTimeToAnswer"
+f1_keywords:
+- tapi3/ITAgentSession.get_AverageTimeToAnswer
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAgentSession.get_AverageTimeToAnswer
+- ITAgentSession.get_AverageTimeToAnswer
 targetos: Windows
 req.typenames: 
 req.redist: 

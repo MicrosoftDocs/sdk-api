@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_37
 title: WS_IP_VERSION (webservices.h)
-
 description: Specifies an IP version.
 old-location: wsw\ws_ip_version.htm
 tech.root: wsw
 ms.assetid: 40e6d76a-4ac5-4759-ae82-6bbb482adae2
-
 ms.date: 12/05/2018
 ms.keywords: WS_IP_VERSION, WS_IP_VERSION enumeration [Web Services for Windows], WS_IP_VERSION_4, WS_IP_VERSION_6, webservices/WS_IP_VERSION, webservices/WS_IP_VERSION_4, webservices/WS_IP_VERSION_6, wsw.ws_ip_version
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_IP_VERSION"
+f1_keywords:
+- webservices/WS_IP_VERSION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_IP_VERSION
+- WS_IP_VERSION
 targetos: Windows
 req.typenames: WS_IP_VERSION
 req.redist: 

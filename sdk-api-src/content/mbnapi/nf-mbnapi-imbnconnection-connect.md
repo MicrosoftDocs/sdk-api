@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnConnection.Connect
 title: IMbnConnection::Connect (mbnapi.h)
-
 description: Establishes a data connection.
 old-location: mbn\imbnconnection_connect.htm
 tech.root: mbn
 ms.assetid: 66acb84e-8e0f-4ff1-abc4-b32f782ce9f3
-
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [Microsoft Broadband Networks], Connect method [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],Connect method, IMbnConnection.Connect, IMbnConnection::Connect, mbn.imbnconnection_connect, mbnapi/IMbnConnection::Connect
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnConnection.Connect"
+f1_keywords:
+- mbnapi/IMbnConnection.Connect
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnection.Connect
+- IMbnConnection.Connect
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.midiOutGetDevCapsA
 title: midiOutGetDevCapsA function (mmeapi.h)
-
 description: The midiOutGetDevCaps function queries a specified MIDI output device to determine its capabilities.
 old-location: multimedia\midioutgetdevcaps.htm
 tech.root: Multimedia
 ms.assetid: 8777a903-fd47-4f3f-b534-1e72a5951846
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_midiOutGetDevCaps, midiOutGetDevCaps, midiOutGetDevCaps function [Windows Multimedia], midiOutGetDevCapsA, midiOutGetDevCapsW, mmeapi/midiOutGetDevCaps, mmeapi/midiOutGetDevCapsA, mmeapi/midiOutGetDevCapsW, multimedia.midioutgetdevcaps"
+ms.keywords: _win32_midiOutGetDevCaps, midiOutGetDevCaps, midiOutGetDevCaps function [Windows Multimedia], midiOutGetDevCapsA, midiOutGetDevCapsW, mmeapi/midiOutGetDevCaps, mmeapi/midiOutGetDevCapsA, mmeapi/midiOutGetDevCapsW, multimedia.midioutgetdevcaps
 ms.topic: function
-f1_keywords: 
- - "mmeapi/midiOutGetDevCaps"
+f1_keywords:
+- mmeapi/midiOutGetDevCaps
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - midiOutGetDevCaps
- - midiOutGetDevCapsA
- - midiOutGetDevCapsW
+- midiOutGetDevCaps
+- midiOutGetDevCapsA
+- midiOutGetDevCapsW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiDatabaseOpenViewW
 title: MsiDatabaseOpenViewW function (msiquery.h)
-
 description: The MsiDatabaseOpenView function prepares a database query and creates a view object. This function returns a handle that should be closed using MsiCloseHandle.
 old-location: setup\msidatabaseopenview.htm
 tech.root: Msi
 ms.assetid: 1ef23f9a-7d79-4d07-9349-8e9c132f1b94
-
 ms.date: 12/05/2018
 ms.keywords: MsiDatabaseOpenView, MsiDatabaseOpenView function, MsiDatabaseOpenViewA, MsiDatabaseOpenViewW, _msi_msidatabaseopenview, msiquery/MsiDatabaseOpenView, msiquery/MsiDatabaseOpenViewA, msiquery/MsiDatabaseOpenViewW, setup.msidatabaseopenview
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiDatabaseOpenView"
+f1_keywords:
+- msiquery/MsiDatabaseOpenView
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
- - Ext-MS-Win-MSI-Misc-l1-1-0.dll
+- Msi.dll
+- Ext-MS-Win-MSI-Misc-l1-1-0.dll
 api_name:
- - MsiDatabaseOpenView
- - MsiDatabaseOpenViewA
- - MsiDatabaseOpenViewW
+- MsiDatabaseOpenView
+- MsiDatabaseOpenViewA
+- MsiDatabaseOpenViewW
 targetos: Windows
 req.typenames: 
 req.redist: 

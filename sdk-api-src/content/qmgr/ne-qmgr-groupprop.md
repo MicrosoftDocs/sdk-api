@@ -1,19 +1,17 @@
 ---
 UID: NE:qmgr.GROUPPROP
 title: GROUPPROP (qmgr.h)
-
 description: The GROUPPROP enumeration defines the constant values for retrieving and setting group property values.
 old-location: bits\groupprop.htm
 tech.root: Bits
 ms.assetid: 8bd5d1df-237a-4c42-afe1-6540ab1ad8c1
-
 ms.date: 12/05/2018
 ms.keywords: GROUPPROP, GROUPPROP enumeration [BITS], GROUPPROP_DESCRIPTION, GROUPPROP_DISPLAYNAME, GROUPPROP_LOCALUSERID, GROUPPROP_LOCALUSERPWD, GROUPPROP_NOTIFYCLSID, GROUPPROP_NOTIFYFLAGS, GROUPPROP_PRIORITY, GROUPPROP_PROGRESSPERCENT, GROUPPROP_PROGRESSSIZE, GROUPPROP_PROGRESSTIME, GROUPPROP_PROTOCOLFLAGS, GROUPPROP_REMOTEUSERID, GROUPPROP_REMOTEUSERPWD, bits.groupprop, qmgr/GROUPPROP, qmgr/GROUPPROP_DESCRIPTION, qmgr/GROUPPROP_DISPLAYNAME, qmgr/GROUPPROP_LOCALUSERID, qmgr/GROUPPROP_LOCALUSERPWD, qmgr/GROUPPROP_NOTIFYCLSID, qmgr/GROUPPROP_NOTIFYFLAGS, qmgr/GROUPPROP_PRIORITY, qmgr/GROUPPROP_PROGRESSPERCENT, qmgr/GROUPPROP_PROGRESSSIZE, qmgr/GROUPPROP_PROGRESSTIME, qmgr/GROUPPROP_PROTOCOLFLAGS, qmgr/GROUPPROP_REMOTEUSERID, qmgr/GROUPPROP_REMOTEUSERPWD
 ms.topic: enum
-f1_keywords: 
- - "qmgr/GROUPPROP"
+f1_keywords:
+- qmgr/GROUPPROP
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qmgr.h
+- Qmgr.h
 api_name:
- - GROUPPROP
+- GROUPPROP
 targetos: Windows
 req.typenames: GROUPPROP
 req.redist: 

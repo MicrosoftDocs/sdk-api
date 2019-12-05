@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemeDocumentationProperty
 title: GetThemeDocumentationProperty function (uxtheme.h)
-
 description: Retrieves the value for a theme property from the documentation section of the specified theme file.
 old-location: controls\GetThemeDocumentationProperty.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemedocumentationproperty.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetThemeDocumentationProperty, GetThemeDocumentationProperty function [Windows Controls], SZ_THDOCPROP_AUTHOR, SZ_THDOCPROP_CANONICALNAME, SZ_THDOCPROP_DISPLAYNAME, SZ_THDOCPROP_TOOLTIP, controls.GetThemeDocumentationProperty, controls.inet_GetThemeDocumentationProperty, inet_GetThemeDocumentationProperty, inet_GetThemeDocumentationProperty_cpp, uxtheme/GetThemeDocumentationProperty
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemeDocumentationProperty"
+f1_keywords:
+- uxtheme/GetThemeDocumentationProperty
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - GetThemeDocumentationProperty
+- GetThemeDocumentationProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

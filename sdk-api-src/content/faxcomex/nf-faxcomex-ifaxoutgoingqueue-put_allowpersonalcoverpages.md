@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.put_AllowPersonalCoverPages
 title: IFaxOutgoingQueue::put_AllowPersonalCoverPages (faxcomex.h)
-
 description: The AllowPersonalCoverPages property is a Boolean value that indicates whether fax client applications can include a user-designed cover page with fax transmissions.
 old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_allowpersonalcoverpages_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5cc3.htm
-
 ms.date: 12/05/2018
 ms.keywords: AllowPersonalCoverPages property [Fax Service], AllowPersonalCoverPages property [Fax Service],IFaxOutgoingQueue interface, IFaxOutgoingQueue interface [Fax Service],AllowPersonalCoverPages property, IFaxOutgoingQueue.AllowPersonalCoverPages, IFaxOutgoingQueue.put_AllowPersonalCoverPages, IFaxOutgoingQueue::AllowPersonalCoverPages, IFaxOutgoingQueue::get_AllowPersonalCoverPages, IFaxOutgoingQueue::put_AllowPersonalCoverPages, _mfax_faxoutgoingqueue.allowpersonalcoverpages, fax._mfax_faxoutgoingqueue_allowpersonalcoverpages, fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_allowpersonalcoverpages_cpp, faxcomex/IFaxOutgoingQueue::AllowPersonalCoverPages, faxcomex/IFaxOutgoingQueue::get_AllowPersonalCoverPages, faxcomex/IFaxOutgoingQueue::put_AllowPersonalCoverPages, put_AllowPersonalCoverPages
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingQueue.AllowPersonalCoverPages"
+f1_keywords:
+- faxcomex/IFaxOutgoingQueue.AllowPersonalCoverPages
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingQueue.AllowPersonalCoverPages
- - IFaxOutgoingQueue.get_AllowPersonalCoverPages
- - IFaxOutgoingQueue.put_AllowPersonalCoverPages
+- IFaxOutgoingQueue.AllowPersonalCoverPages
+- IFaxOutgoingQueue.get_AllowPersonalCoverPages
+- IFaxOutgoingQueue.put_AllowPersonalCoverPages
 targetos: Windows
 req.typenames: 
 req.redist: 

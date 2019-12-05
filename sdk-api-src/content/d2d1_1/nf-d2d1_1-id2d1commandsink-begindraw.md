@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.BeginDraw
 title: ID2D1CommandSink::BeginDraw (d2d1_1.h)
-
 description: Notifies the implementation of the command sink that drawing is about to commence.
 old-location: direct2d\id2d1commandsink_begindraw.htm
 tech.root: Direct2D
 ms.assetid: acadc36f-5028-4f8f-93c6-7fbc0de3c3d5
-
 ms.date: 12/05/2018
 ms.keywords: BeginDraw, BeginDraw method [Direct2D], BeginDraw method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],BeginDraw method, ID2D1CommandSink.BeginDraw, ID2D1CommandSink::BeginDraw, d2d1_1/ID2D1CommandSink::BeginDraw, direct2d.id2d1commandsink_begindraw
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1CommandSink.BeginDraw"
+f1_keywords:
+- d2d1_1/ID2D1CommandSink.BeginDraw
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1CommandSink.BeginDraw
+- ID2D1CommandSink.BeginDraw
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IDvbExtendedEventDescriptor
 title: IDvbExtendedEventDescriptor (dvbsiparser.h)
-
 description: Implements methods that get data from a Digital Video Broadcast (DVB) extended event descriptor.
 old-location: mstv\idvbextendedeventdescriptor.htm
 tech.root: mstv
 ms.assetid: db100f17-f7b8-4252-8090-44567ab9dcbe
-
 ms.date: 12/05/2018
 ms.keywords: IDvbExtendedEventDescriptor, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies], IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbExtendedEventDescriptor, mstv.idvbextendedeventdescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IDvbExtendedEventDescriptor"
+f1_keywords:
+- dvbsiparser/IDvbExtendedEventDescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbExtendedEventDescriptor
+- IDvbExtendedEventDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

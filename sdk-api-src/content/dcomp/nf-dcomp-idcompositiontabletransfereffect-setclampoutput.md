@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetClampOutput
 title: IDCompositionTableTransferEffect::SetClampOutput (dcomp.h)
-
 description: Specifies whether the effect clamps color values to between 0 and 1 before the effect passes the values to the next effect in the graph.
 old-location: directcomp\idcompositiontabletransfereffect_setclampoutput.htm
 tech.root: directcomp
 ms.assetid: 6F1A7757-92DA-4BDC-9894-7A8906461FD5
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetClampOutput method, IDCompositionTableTransferEffect.SetClampOutput, IDCompositionTableTransferEffect::SetClampOutput, SetClampOutput, SetClampOutput method [DirectComposition], SetClampOutput method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetClampOutput, directcomp.idcompositiontabletransfereffect_setclampoutput
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionTableTransferEffect.SetClampOutput"
+f1_keywords:
+- dcomp/IDCompositionTableTransferEffect.SetClampOutput
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionTableTransferEffect.SetClampOutput
+- IDCompositionTableTransferEffect.SetClampOutput
 targetos: Windows
 req.typenames: 
 req.redist: 

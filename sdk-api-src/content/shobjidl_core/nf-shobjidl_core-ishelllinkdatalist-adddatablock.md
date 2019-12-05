@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellLinkDataList.AddDataBlock
 title: IShellLinkDataList::AddDataBlock (shobjidl_core.h)
-
 description: Adds a data block to a link.
 old-location: shell\IShellLinkDataList_AddDataBlock.htm
 tech.root: shell
 ms.assetid: 6580736f-e217-4e3e-9b6e-1c1c004916f4
-
 ms.date: 12/05/2018
 ms.keywords: AddDataBlock, AddDataBlock method [Windows Shell], AddDataBlock method [Windows Shell],IShellLinkDataList interface, IShellLinkDataList interface [Windows Shell],AddDataBlock method, IShellLinkDataList.AddDataBlock, IShellLinkDataList::AddDataBlock, _win32_IShellLinkDataList_AddDataBlock, shell.IShellLinkDataList_AddDataBlock, shobjidl_core/IShellLinkDataList::AddDataBlock
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellLinkDataList.AddDataBlock"
+f1_keywords:
+- shobjidl_core/IShellLinkDataList.AddDataBlock
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellLinkDataList.AddDataBlock
+- IShellLinkDataList.AddDataBlock
 targetos: Windows
 req.typenames: 
 req.redist: 

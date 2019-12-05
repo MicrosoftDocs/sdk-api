@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink2.GetFileDuration
 title: IWMWriterFileSink2::GetFileDuration (wmsdkidl.h)
-
 description: The GetFileDuration method retrieves the duration of the portion of the file that has been written.
 old-location: wmformat\iwmwriterfilesink2_getfileduration.htm
 tech.root: wmformat
 ms.assetid: b0685760-929d-4c65-84e0-a9745635eddd
-
 ms.date: 12/05/2018
 ms.keywords: GetFileDuration, GetFileDuration method [windows Media Format], GetFileDuration method [windows Media Format],IWMWriterFileSink2 interface, IWMWriterFileSink2 interface [windows Media Format],GetFileDuration method, IWMWriterFileSink2.GetFileDuration, IWMWriterFileSink2::GetFileDuration, IWMWriterFileSink2GetFileDuration, wmformat.iwmwriterfilesink2_getfileduration, wmsdkidl/IWMWriterFileSink2::GetFileDuration
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterFileSink2.GetFileDuration"
+f1_keywords:
+- wmsdkidl/IWMWriterFileSink2.GetFileDuration
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterFileSink2.GetFileDuration
+- IWMWriterFileSink2.GetFileDuration
 targetos: Windows
 req.typenames: 
 req.redist: 

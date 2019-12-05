@@ -1,19 +1,17 @@
 ---
 UID: NN:certview.ICertView2
 title: ICertView2 (certview.h)
-
 description: Allow properly authorized clients to create a customized or complete view of the Certificate Services database.
 old-location: security\icertview2.htm
 tech.root: SecCrypto
 ms.assetid: c29f1db3-0cdf-463e-a202-47fbba8e1c81
-
 ms.date: 12/05/2018
 ms.keywords: ICertView2, ICertView2 interface [Security], ICertView2 interface [Security],described, _certsrv_icertview2, certview/ICertView2, security.icertview2
 ms.topic: interface
-f1_keywords: 
- - "certview/ICertView2"
+f1_keywords:
+- certview/ICertView2
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - ICertView2
+- ICertView2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncChangeBatchAdvanced.GetBatchLevelKnowledgeShouldBeApplied
 title: ISyncChangeBatchAdvanced::GetBatchLevelKnowledgeShouldBeApplied (winsync.h)
-
 description: Gets a value that indicates whether the learned knowledge for the batch must be saved after the batch is applied to the destination replica.
 old-location: winsync\isyncchangebatchadvanced_getbatchlevelknowledgeshouldbeapplied.htm
 tech.root: winsync
 ms.assetid: 911ac2dd-a8df-4f71-81da-032219664453
-
 ms.date: 12/05/2018
 ms.keywords: GetBatchLevelKnowledgeShouldBeApplied, GetBatchLevelKnowledgeShouldBeApplied method [Windows Sync], GetBatchLevelKnowledgeShouldBeApplied method [Windows Sync],ISyncChangeBatchAdvanced interface, ISyncChangeBatchAdvanced interface [Windows Sync],GetBatchLevelKnowledgeShouldBeApplied method, ISyncChangeBatchAdvanced.GetBatchLevelKnowledgeShouldBeApplied, ISyncChangeBatchAdvanced::GetBatchLevelKnowledgeShouldBeApplied, winsync.isyncchangebatchadvanced_getbatchlevelknowledgeshouldbeapplied, winsync/ISyncChangeBatchAdvanced::GetBatchLevelKnowledgeShouldBeApplied
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChangeBatchAdvanced.GetBatchLevelKnowledgeShouldBeApplied"
+f1_keywords:
+- winsync/ISyncChangeBatchAdvanced.GetBatchLevelKnowledgeShouldBeApplied
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChangeBatchAdvanced.GetBatchLevelKnowledgeShouldBeApplied
+- ISyncChangeBatchAdvanced.GetBatchLevelKnowledgeShouldBeApplied
 targetos: Windows
 req.typenames: 
 req.redist: 

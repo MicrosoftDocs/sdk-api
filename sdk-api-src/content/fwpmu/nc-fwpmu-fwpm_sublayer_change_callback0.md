@@ -1,19 +1,17 @@
 ---
 UID: NC:fwpmu.FWPM_SUBLAYER_CHANGE_CALLBACK0
 title: FWPM_SUBLAYER_CHANGE_CALLBACK0 (fwpmu.h)
-
 description: Is used to added custom behavior to the sublayer change notification process.
 old-location: fwp\fwpm_sublayer_change_callback0_func.htm
 tech.root: fwp
 ms.assetid: b608d13f-bc76-478b-b18f-527f438a1222
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_SUBLAYER_CHANGE_CALLBACK0, FWPM_SUBLAYER_CHANGE_CALLBACK0 callback, FWPM_SUBLAYER_CHANGE_CALLBACK0 callback function [Filtering], fwp.fwpm_sublayer_change_callback0_func, fwpmu/FWPM_SUBLAYER_CHANGE_CALLBACK0
 ms.topic: callback
-f1_keywords: 
- - "fwpmu/FWPM_SUBLAYER_CHANGE_CALLBACK0"
+f1_keywords:
+- fwpmu/FWPM_SUBLAYER_CHANGE_CALLBACK0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Fwpmu.h
+- Fwpmu.h
 api_name:
- - FWPM_SUBLAYER_CHANGE_CALLBACK0
+- FWPM_SUBLAYER_CHANGE_CALLBACK0
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.CreateThread
 title: CreateThread function (processthreadsapi.h)
-
 description: Creates a thread to execute within the virtual address space of the calling process.
 old-location: base\createthread.htm
 tech.root: ProcThread
 ms.assetid: 202a4b42-513a-45de-894a-72e56c706a58
-
 ms.date: 12/05/2018
 ms.keywords: CREATE_SUSPENDED, CreateThread, CreateThread function, STACK_SIZE_PARAM_IS_A_RESERVATION, _win32_createthread, base.createthread, processthreadsapi/CreateThread, winbase/CreateThread
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/CreateThread"
+f1_keywords:
+- processthreadsapi/CreateThread
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib; WindowsPhoneCore.lib on Windows Phone 8.1
 req.dll: Kernel32.dll; KernelBase.dll on Windows Phone 8.1
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - KernelBase.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
- - api-ms-win-downlevel-kernel32-l1-1-0.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- Kernel32.dll
+- KernelBase.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
- - CreateThread
+- CreateThread
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.EndBufferedPaint
 title: EndBufferedPaint function (uxtheme.h)
-
 description: Completes a buffered paint operation and frees the associated buffered paint handle.
 old-location: controls\EndBufferedPaint.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\endbufferedpaint.htm
-
 ms.date: 12/05/2018
 ms.keywords: EndBufferedPaint, EndBufferedPaint function [Windows Controls], _shell_EndBufferedPaint, _shell_EndBufferedPaint_cpp, controls.EndBufferedPaint, controls._shell_EndBufferedPaint, uxtheme/EndBufferedPaint
 ms.topic: function
-f1_keywords: 
- - "uxtheme/EndBufferedPaint"
+f1_keywords:
+- uxtheme/EndBufferedPaint
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
- - xamlpalwp.dll
+- UxTheme.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
+- xamlpalwp.dll
 api_name:
- - EndBufferedPaint
+- EndBufferedPaint
 targetos: Windows
 req.typenames: 
 req.redist: 

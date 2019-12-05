@@ -1,19 +1,17 @@
 ---
 UID: NE:wtsdefs._WRDS_SETTING_TYPE
 title: WRDS_SETTING_TYPE (wtsdefs.h)
-
 description: Specifies the category of settings being stored in a WRDS_SETTINGS structure.
 old-location: termserv\wrds_setting_type.htm
 tech.root: TermServ
 ms.assetid: 2B8191F8-FF54-4CF6-9239-F9BFA0FA0A6B
-
 ms.date: 12/05/2018
 ms.keywords: '*PWRDS_SETTING_TYPE, PWRDS_SETTING_TYPE, PWRDS_SETTING_TYPE enumeration pointer [Remote Desktop Services], WRDS_SETTING_TYPE, WRDS_SETTING_TYPE enumeration [Remote Desktop Services], WRDS_SETTING_TYPE_INVALID, WRDS_SETTING_TYPE_MACHINE, WRDS_SETTING_TYPE_SAM, WRDS_SETTING_TYPE_USER, termserv.wrds_setting_type, wtsdefs/PWRDS_SETTING_TYPE, wtsdefs/WRDS_SETTING_TYPE, wtsdefs/WRDS_SETTING_TYPE_INVALID, wtsdefs/WRDS_SETTING_TYPE_MACHINE, wtsdefs/WRDS_SETTING_TYPE_SAM, wtsdefs/WRDS_SETTING_TYPE_USER'
 ms.topic: enum
 f1_keywords:
 - wtsdefs/WRDS_SETTING_TYPE
 dev_langs:
- - c++
+- c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

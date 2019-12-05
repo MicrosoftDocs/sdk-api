@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfDocumentMgr.Push
 title: ITfDocumentMgr::Push (msctf.h)
-
 description: ITfDocumentMgr::Push method
 old-location: tsf\itfdocumentmgr_push.htm
 tech.root: TSF
 ms.assetid: afd5452b-4121-428d-801f-1638c2767c67
-
 ms.date: 12/05/2018
 ms.keywords: ITfDocumentMgr interface [Text Services Framework],Push method, ITfDocumentMgr.Push, ITfDocumentMgr::Push, Push, Push method [Text Services Framework], Push method [Text Services Framework],ITfDocumentMgr interface, _tsf_itfdocumentmgr_push_ref, msctf/ITfDocumentMgr::Push, tsf.itfdocumentmgr_push
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfDocumentMgr.Push"
+f1_keywords:
+- msctf/ITfDocumentMgr.Push
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfDocumentMgr.Push
+- ITfDocumentMgr.Push
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

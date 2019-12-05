@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ScrollBar_Show
 title: ScrollBar_Show macro (windowsx.h)
-
 description: Shows or hides a scroll bar control.
 old-location: controls\ScrollBar_Show.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmacros\scrollbar_show.htm
-
 ms.date: 12/05/2018
 ms.keywords: ScrollBar_Show, ScrollBar_Show macro [Windows Controls], _win32_ScrollBar_Show, _win32_ScrollBar_Show_cpp, controls.ScrollBar_Show, controls._win32_ScrollBar_Show, windowsx/ScrollBar_Show
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ScrollBar_Show"
+f1_keywords:
+- windowsx/ScrollBar_Show
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ScrollBar_Show
+- ScrollBar_Show
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_INCLUDE_MODULE_CALLBACK
 title: MINIDUMP_INCLUDE_MODULE_CALLBACK (minidumpapiset.h)
-
 description: Contains information for the MiniDumpCallback function when the callback type is IncludeModuleCallback.
 old-location: base\minidump_include_module_callback_str.htm
 tech.root: Debug
 ms.assetid: 01dd2217-fd7b-4bcf-a15e-4769c7518741
-
 ms.date: 12/05/2018
-ms.keywords: "*PMINIDUMP_INCLUDE_MODULE_CALLBACK, MINIDUMP_INCLUDE_MODULE_CALLBACK, MINIDUMP_INCLUDE_MODULE_CALLBACK structure, PMINIDUMP_INCLUDE_MODULE_CALLBACK, PMINIDUMP_INCLUDE_MODULE_CALLBACK structure pointer, _MINIDUMP_INCLUDE_MODULE_CALLBACK, _win32_minidump_include_module_callback_str, base.minidump_include_module_callback_str, minidumpapiset/MINIDUMP_INCLUDE_MODULE_CALLBACK, minidumpapiset/PMINIDUMP_INCLUDE_MODULE_CALLBACK"
+ms.keywords: '*PMINIDUMP_INCLUDE_MODULE_CALLBACK, MINIDUMP_INCLUDE_MODULE_CALLBACK, MINIDUMP_INCLUDE_MODULE_CALLBACK structure, PMINIDUMP_INCLUDE_MODULE_CALLBACK, PMINIDUMP_INCLUDE_MODULE_CALLBACK structure pointer, _MINIDUMP_INCLUDE_MODULE_CALLBACK, _win32_minidump_include_module_callback_str, base.minidump_include_module_callback_str, minidumpapiset/MINIDUMP_INCLUDE_MODULE_CALLBACK, minidumpapiset/PMINIDUMP_INCLUDE_MODULE_CALLBACK'
 ms.topic: struct
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_INCLUDE_MODULE_CALLBACK"
+f1_keywords:
+- minidumpapiset/MINIDUMP_INCLUDE_MODULE_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_INCLUDE_MODULE_CALLBACK
+- MINIDUMP_INCLUDE_MODULE_CALLBACK
 targetos: Windows
 req.typenames: MINIDUMP_INCLUDE_MODULE_CALLBACK, *PMINIDUMP_INCLUDE_MODULE_CALLBACK
 req.redist: DbgHelp.dll 5.1 or later

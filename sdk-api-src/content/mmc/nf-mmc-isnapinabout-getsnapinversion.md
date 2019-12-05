@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.ISnapinAbout.GetSnapinVersion
 title: ISnapinAbout::GetSnapinVersion (mmc.h)
-
 description: Enables the console to obtain the snap-in's version number.
 old-location: mmc\isnapinabout_getsnapinversion.htm
 tech.root: mmc
 ms.assetid: c933bb14-cf07-4eca-9a97-c833ed5f5438
-
 ms.date: 12/05/2018
 ms.keywords: GetSnapinVersion, GetSnapinVersion method [MMC], GetSnapinVersion method [MMC],ISnapinAbout interface, ISnapinAbout interface [MMC],GetSnapinVersion method, ISnapinAbout.GetSnapinVersion, ISnapinAbout::GetSnapinVersion, _slate_isnapinabout_getsnapinversion, mmc.isnapinabout_getsnapinversion, mmc/ISnapinAbout::GetSnapinVersion
 ms.topic: method
-f1_keywords: 
- - "mmc/ISnapinAbout.GetSnapinVersion"
+f1_keywords:
+- mmc/ISnapinAbout.GetSnapinVersion
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - ISnapinAbout.GetSnapinVersion
+- ISnapinAbout.GetSnapinVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

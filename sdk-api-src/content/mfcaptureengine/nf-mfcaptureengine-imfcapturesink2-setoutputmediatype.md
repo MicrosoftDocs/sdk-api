@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSink2.SetOutputMediaType
 title: IMFCaptureSink2::SetOutputMediaType (mfcaptureengine.h)
-
 description: Dynamically sets the output media type of the record sink or preview sink.
 old-location: mf\imfcapturesink2_setoutputmediatype.htm
 tech.root: medfound
 ms.assetid: e9a653c3-927b-4577-9a54-2d63f6b29c06
-
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureSink2 interface [Media Foundation],SetOutputMediaType method, IMFCaptureSink2.SetOutputMediaType, IMFCaptureSink2::SetOutputMediaType, SetOutputMediaType, SetOutputMediaType method [Media Foundation], SetOutputMediaType method [Media Foundation],IMFCaptureSink2 interface, mf.imfcapturesink2_setoutputmediatype, mfcaptureengine/IMFCaptureSink2::SetOutputMediaType
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureSink2.SetOutputMediaType"
+f1_keywords:
+- mfcaptureengine/IMFCaptureSink2.SetOutputMediaType
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureSink2.SetOutputMediaType
+- IMFCaptureSink2.SetOutputMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

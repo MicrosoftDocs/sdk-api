@@ -1,19 +1,17 @@
 ---
 UID: NN:peninputpanel.IHandwrittenTextInsertion
 title: IHandwrittenTextInsertion (peninputpanel.h)
-
 description: Used by the application's custom text entry code to insert the text into both the text field and the Text Services backing-store.
 old-location: tablet\ihandwrittentextinsertion.htm
 tech.root: tablet
 ms.assetid: 67fcf19a-a864-40de-987f-406f18726a9f
-
 ms.date: 12/05/2018
 ms.keywords: 67fcf19a-a864-40de-987f-406f18726a9f, IHandWrittenTextInsertion, IHandWrittenTextInsertion interface [Tablet PC], IHandWrittenTextInsertion interface [Tablet PC],described, peninputpanel/IHandWrittenTextInsertion, tablet.ihandwrittentextinsertion
 ms.topic: interface
-f1_keywords: 
- - "peninputpanel/IHandWrittenTextInsertion"
+f1_keywords:
+- peninputpanel/IHandWrittenTextInsertion
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tiptsf.dll
+- tiptsf.dll
 api_name:
- - IHandWrittenTextInsertion
+- IHandWrittenTextInsertion
 targetos: Windows
 req.typenames: 
 req.redist: 

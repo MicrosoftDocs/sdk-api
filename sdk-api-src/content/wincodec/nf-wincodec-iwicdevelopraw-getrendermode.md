@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetRenderMode
 title: IWICDevelopRaw::GetRenderMode (wincodec.h)
-
 description: Gets the current WICRawRenderMode.
 old-location: wic\_wic_codec_iwicdevelopraw_getrendermode.htm
 tech.root: wic
 ms.assetid: d8cf4508-6a2c-4d02-b98f-0455a3dc966c
-
 ms.date: 12/05/2018
 ms.keywords: GetRenderMode, GetRenderMode method [Windows Imaging Component], GetRenderMode method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetRenderMode method, IWICDevelopRaw.GetRenderMode, IWICDevelopRaw::GetRenderMode, _wic_codec_iwicdevelopraw_getrendermode, wic._wic_codec_iwicdevelopraw_getrendermode, wincodec/IWICDevelopRaw::GetRenderMode
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICDevelopRaw.GetRenderMode"
+f1_keywords:
+- wincodec/IWICDevelopRaw.GetRenderMode
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.lib
- - Windowscodecs.dll
+- Windowscodecs.lib
+- Windowscodecs.dll
 api_name:
- - IWICDevelopRaw.GetRenderMode
+- IWICDevelopRaw.GetRenderMode
 targetos: Windows
 req.typenames: 
 req.redist: 

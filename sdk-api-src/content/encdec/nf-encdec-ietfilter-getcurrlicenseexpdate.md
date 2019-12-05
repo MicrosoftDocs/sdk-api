@@ -1,19 +1,17 @@
 ---
 UID: NF:encdec.IETFilter.GetCurrLicenseExpDate
 title: IETFilter::GetCurrLicenseExpDate (encdec.h)
-
 description: This method is currently not supported.
 old-location: mstv\ietfilter_getcurrlicenseexpdate.htm
 tech.root: mstv
 ms.assetid: d2ec57fc-ad5b-4f7b-a6d7-68f5ee0607b6
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrLicenseExpDate, GetCurrLicenseExpDate method [Microsoft TV Technologies], GetCurrLicenseExpDate method [Microsoft TV Technologies],IETFilter interface, IETFilter interface [Microsoft TV Technologies],GetCurrLicenseExpDate method, IETFilter.GetCurrLicenseExpDate, IETFilter::GetCurrLicenseExpDate, IETFilterGetCurrLicenseExpDate, encdec/IETFilter::GetCurrLicenseExpDate, mstv.ietfilter_getcurrlicenseexpdate
 ms.topic: method
-f1_keywords: 
- - "encdec/IETFilter.GetCurrLicenseExpDate"
+f1_keywords:
+- encdec/IETFilter.GetCurrLicenseExpDate
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EncDec.h
+- EncDec.h
 api_name:
- - IETFilter.GetCurrLicenseExpDate
+- IETFilter.GetCurrLicenseExpDate
 targetos: Windows
 req.typenames: 
 req.redist: 

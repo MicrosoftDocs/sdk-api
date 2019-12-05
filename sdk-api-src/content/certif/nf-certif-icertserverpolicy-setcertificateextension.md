@@ -1,19 +1,17 @@
 ---
 UID: NF:certif.ICertServerPolicy.SetCertificateExtension
 title: ICertServerPolicy::SetCertificateExtension (certif.h)
-
 description: Adds a new extension to the certificate.
 old-location: security\icertserverpolicy_setcertificateextension.htm
 tech.root: SecCrypto
 ms.assetid: aed8b621-3881-41fe-b7a3-657fecdab351
-
 ms.date: 12/05/2018
 ms.keywords: CCertServerPolicy object [Security],SetCertificateExtension method, EXTENSION_CRITICAL_FLAG, EXTENSION_DISABLE_FLAG, ICertServerPolicy interface [Security],SetCertificateExtension method, ICertServerPolicy.SetCertificateExtension, ICertServerPolicy::SetCertificateExtension, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, SetCertificateExtension, SetCertificateExtension method [Security], SetCertificateExtension method [Security],CCertServerPolicy object, SetCertificateExtension method [Security],ICertServerPolicy interface, _certsrv_icertserverpolicy_setcertificateextension, certif/ICertServerPolicy::SetCertificateExtension, security.icertserverpolicy_setcertificateextension
 ms.topic: method
-f1_keywords: 
- - "certif/ICertServerPolicy.SetCertificateExtension"
+f1_keywords:
+- certif/ICertServerPolicy.SetCertificateExtension
 dev_langs:
- - c++
+- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certcli.dll
+- Certcli.dll
 api_name:
- - ICertServerPolicy.SetCertificateExtension
- - CCertServerPolicy.SetCertificateExtension
+- ICertServerPolicy.SetCertificateExtension
+- CCertServerPolicy.SetCertificateExtension
 targetos: Windows
 req.typenames: 
 req.redist: 

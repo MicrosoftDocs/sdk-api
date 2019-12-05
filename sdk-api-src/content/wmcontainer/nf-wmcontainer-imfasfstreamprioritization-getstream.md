@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamPrioritization.GetStream
 title: IMFASFStreamPrioritization::GetStream (wmcontainer.h)
-
 description: Note  This interface is not implemented in this version of Media Foundation. Retrieves the stream number of a stream in the stream priority list.
 old-location: mf\imfasfstreamprioritization_getstream.htm
 tech.root: medfound
 ms.assetid: 460a929b-71bf-4f41-9e7a-af04a8f1c10f
-
 ms.date: 12/05/2018
 ms.keywords: 460a929b-71bf-4f41-9e7a-af04a8f1c10f, GetStream, GetStream method [Media Foundation], GetStream method [Media Foundation],IMFASFStreamPrioritization interface, IMFASFStreamPrioritization interface [Media Foundation],GetStream method, IMFASFStreamPrioritization.GetStream, IMFASFStreamPrioritization::GetStream, mf.imfasfstreamprioritization_getstream, wmcontainer/IMFASFStreamPrioritization::GetStream
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFStreamPrioritization.GetStream"
+f1_keywords:
+- wmcontainer/IMFASFStreamPrioritization.GetStream
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFStreamPrioritization.GetStream
+- IMFASFStreamPrioritization.GetStream
 targetos: Windows
 req.typenames: 
 req.redist: 

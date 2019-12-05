@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector2EqualR
 title: XMVector2EqualR function (directxmath.h)
-
 description: Tests whether two 2D vectors are equal. In addition, this function returns a comparison value that can be examined using functions such as XMComparisonAllTrue.
 old-location: dxmath\xmvector2equalr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector2EqualR(XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2EqualR, XMVector2EqualR, XMVector2EqualR method [DirectX Math Support APIs], dxmath.xmvector2equalr
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector2EqualR"
+f1_keywords:
+- directxmath/XMVector2EqualR
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector2EqualR
+- XMVector2EqualR
 targetos: Windows
 req.typenames: 
 req.redist: 

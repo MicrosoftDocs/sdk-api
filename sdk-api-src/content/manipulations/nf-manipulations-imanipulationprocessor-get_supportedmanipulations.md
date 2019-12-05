@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.get_SupportedManipulations
 title: IManipulationProcessor::get_SupportedManipulations (manipulations.h)
-
 description: The SupportedManipulations property is used to indicate which manipulations are supported by an object.
 old-location: wintouch\imanipulationprocessor_supportedmanipulations.htm
 tech.root: wintouch
 ms.assetid: 1909394f-83ec-4e13-81af-3e6c70210865
-
 ms.date: 12/05/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],SupportedManipulations property, IManipulationProcessor.SupportedManipulations, IManipulationProcessor.get_SupportedManipulations, IManipulationProcessor::SupportedManipulations, IManipulationProcessor::get_SupportedManipulations, IManipulationProcessor::put_SupportedManipulations, SupportedManipulations property [Windows Touch], SupportedManipulations property [Windows Touch],IManipulationProcessor interface, get_SupportedManipulations, manipulations/IManipulationProcessor::SupportedManipulations, manipulations/IManipulationProcessor::get_SupportedManipulations, manipulations/IManipulationProcessor::put_SupportedManipulations, wintouch.imanipulationprocessor_supportedmanipulations
 ms.topic: method
-f1_keywords: 
- - "manipulations/IManipulationProcessor.SupportedManipulations"
+f1_keywords:
+- manipulations/IManipulationProcessor.SupportedManipulations
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IManipulationProcessor.SupportedManipulations
- - IManipulationProcessor.get_SupportedManipulations
- - IManipulationProcessor.put_SupportedManipulations
+- IManipulationProcessor.SupportedManipulations
+- IManipulationProcessor.get_SupportedManipulations
+- IManipulationProcessor.put_SupportedManipulations
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.PaintRgn
 title: PaintRgn function (wingdi.h)
-
 description: The PaintRgn function paints the specified region by using the brush currently selected into the device context.
 old-location: gdi\paintrgn.htm
 tech.root: gdi
 ms.assetid: 7656fb67-d865-459e-b379-4f2e44c76fd0
-
 ms.date: 12/05/2018
 ms.keywords: PaintRgn, PaintRgn function [Windows GDI], _win32_PaintRgn, gdi.paintrgn, wingdi/PaintRgn
 ms.topic: function
-f1_keywords: 
- - "wingdi/PaintRgn"
+f1_keywords:
+- wingdi/PaintRgn
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - PaintRgn
+- PaintRgn
 targetos: Windows
 req.typenames: 
 req.redist: 

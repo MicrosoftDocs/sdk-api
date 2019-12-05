@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.ICreateDevEnum.CreateClassEnumerator
 title: ICreateDevEnum::CreateClassEnumerator (strmif.h)
-
 description: The CreateClassEnumerator method creates an enumerator for a specified device category.
 old-location: dshow\icreatedevenum_createclassenumerator.htm
 tech.root: DirectShow
 ms.assetid: 07457acc-51f1-4d1b-b795-e8d980a5531e
-
 ms.date: 12/05/2018
 ms.keywords: CreateClassEnumerator, CreateClassEnumerator method [DirectShow], CreateClassEnumerator method [DirectShow],ICreateDevEnum interface, ICreateDevEnum interface [DirectShow],CreateClassEnumerator method, ICreateDevEnum.CreateClassEnumerator, ICreateDevEnum::CreateClassEnumerator, ICreateDevEnumCreateClassEnumerator, dshow.icreatedevenum_createclassenumerator, strmif/ICreateDevEnum::CreateClassEnumerator
 ms.topic: method
-f1_keywords: 
- - "strmif/ICreateDevEnum.CreateClassEnumerator"
+f1_keywords:
+- strmif/ICreateDevEnum.CreateClassEnumerator
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICreateDevEnum.CreateClassEnumerator
+- ICreateDevEnum.CreateClassEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.QueueUserAPC
 title: QueueUserAPC function (processthreadsapi.h)
-
 description: Adds a user-mode asynchronous procedure call (APC) object to the APC queue of the specified thread.
 old-location: base\queueuserapc.htm
 tech.root: Sync
 ms.assetid: 5b141372-7c95-4eb2-987b-64fdf7d0783d
-
 ms.date: 12/05/2018
 ms.keywords: QueueUserAPC, QueueUserAPC function, _win32_queueuserapc, base.queueuserapc, processthreadsapi/QueueUserAPC, winbase/QueueUserAPC
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/QueueUserAPC"
+f1_keywords:
+- processthreadsapi/QueueUserAPC
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
- - api-ms-win-downlevel-kernel32-l1-1-0.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
- - QueueUserAPC
+- QueueUserAPC
 targetos: Windows
 req.typenames: 
 req.redist: 

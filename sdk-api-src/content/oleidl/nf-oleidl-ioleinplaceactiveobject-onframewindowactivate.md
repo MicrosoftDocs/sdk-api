@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleInPlaceActiveObject.OnFrameWindowActivate
 title: IOleInPlaceActiveObject::OnFrameWindowActivate (oleidl.h)
-
 description: Notifies the object when the container's top-level frame window is activated or deactivated.
 old-location: com\ioleinplaceactiveobject_onframewindowactivate.htm
 tech.root: com
 ms.assetid: 6534ea03-5f1b-4d3e-b6d8-b8d478a0a144
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceActiveObject interface [COM],OnFrameWindowActivate method, IOleInPlaceActiveObject.OnFrameWindowActivate, IOleInPlaceActiveObject::OnFrameWindowActivate, OnFrameWindowActivate, OnFrameWindowActivate method [COM], OnFrameWindowActivate method [COM],IOleInPlaceActiveObject interface, _ole_ioleinplaceactiveobject_onframewindowactivate, com.ioleinplaceactiveobject_onframewindowactivate, oleidl/IOleInPlaceActiveObject::OnFrameWindowActivate
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleInPlaceActiveObject.OnFrameWindowActivate"
+f1_keywords:
+- oleidl/IOleInPlaceActiveObject.OnFrameWindowActivate
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleInPlaceActiveObject.OnFrameWindowActivate
+- IOleInPlaceActiveObject.OnFrameWindowActivate
 targetos: Windows
 req.typenames: 
 req.redist: 

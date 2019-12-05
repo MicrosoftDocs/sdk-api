@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_SetLineColor
 title: TreeView_SetLineColor macro (commctrl.h)
-
 description: Sets the current line color. You can also use the TVM_SETLINECOLOR message directly.
 old-location: controls\TreeView_SetLineColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setlinecolor.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_SetLineColor, TreeView_SetLineColor macro [Windows Controls], _win32_TreeView_SetLineColor, _win32_TreeView_SetLineColor_cpp, commctrl/TreeView_SetLineColor, controls.TreeView_SetLineColor, controls._win32_TreeView_SetLineColor
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_SetLineColor"
+f1_keywords:
+- commctrl/TreeView_SetLineColor
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_SetLineColor
+- TreeView_SetLineColor
 targetos: Windows
 req.typenames: 
 req.redist: 

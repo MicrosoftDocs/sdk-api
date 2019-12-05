@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectEvents.PropertyChange
 title: IMILBitmapEffectEvents::PropertyChange (mileffects.h)
-
 description: Notifies an IMILBitmapEffectPrimitive of a property change.
 old-location: wibe\_wibe_imilbitmapeffectevents_propertychange.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectevents\propertychange.htm
-
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectEvents interface [WPF Bitmap Effects],PropertyChange method, IMILBitmapEffectEvents.PropertyChange, IMILBitmapEffectEvents::PropertyChange, PropertyChange, PropertyChange method [WPF Bitmap Effects], PropertyChange method [WPF Bitmap Effects],IMILBitmapEffectEvents interface, _wibe_imilbitmapeffectevents_propertychange, mileffects/IMILBitmapEffectEvents::PropertyChange, wibe._wibe_imilbitmapeffectevents_propertychange
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectEvents.PropertyChange"
+f1_keywords:
+- mileffects/IMILBitmapEffectEvents.PropertyChange
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mileffects.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.dll
+- Mileffects.dll
 api_name:
- - IMILBitmapEffectEvents.PropertyChange
+- IMILBitmapEffectEvents.PropertyChange
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

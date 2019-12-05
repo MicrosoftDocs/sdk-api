@@ -1,19 +1,17 @@
 ---
 UID: NN:msopc.IOpcSigningOptions
 title: IOpcSigningOptions (msopc.h)
-
 description: Provides methods to set and access information required to generate a signature.
 old-location: opc\iopcsigningoptions.htm
 tech.root: OPC
 ms.assetid: 5fb66c8f-2eb2-48c3-8e6f-04a1c509f6ec
-
 ms.date: 12/05/2018
 ms.keywords: IOpcSigningOptions, IOpcSigningOptions interface [Open Packaging Conventions], IOpcSigningOptions interface [Open Packaging Conventions],described, msopc/IOpcSigningOptions, opc.iopcsigningoptions
 ms.topic: interface
-f1_keywords: 
- - "msopc/IOpcSigningOptions"
+f1_keywords:
+- msopc/IOpcSigningOptions
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSigningOptions
+- IOpcSigningOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

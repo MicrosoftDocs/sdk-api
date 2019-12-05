@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.GetRTL
 title: ITextRow::GetRTL (tom.h)
-
 description: Gets whether this row has right-to-left orientation.
 old-location: controls\itextrow_getrtl.htm
 tech.root: Controls
 ms.assetid: 60261327-71f1-4bc3-97ac-b9c5ee3d44c0
-
 ms.date: 12/05/2018
 ms.keywords: GetRTL, GetRTL method [Windows Controls], GetRTL method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetRTL method, ITextRow.GetRTL, ITextRow::GetRTL, controls.itextrow_getrtl, tom/ITextRow::GetRTL
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.GetRTL"
+f1_keywords:
+- tom/ITextRow.GetRTL
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.GetRTL
+- ITextRow.GetRTL
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern2.get_CachedCanZoom
 title: IUIAutomationTransformPattern2::get_CachedCanZoom (uiautomationclient.h)
-
 description: Retrieves a cached value that indicates whether the control supports zooming of its viewport.
 old-location: winauto\uiauto_IUIAutomationTransformPattern2_CachedCanZoom.htm
 tech.root: WinAuto
 ms.assetid: 36C0CEFE-8035-42CF-B480-7C9BA02F7BB3
-
 ms.date: 12/05/2018
 ms.keywords: CachedCanZoom property [Windows Accessibility], CachedCanZoom property [Windows Accessibility],IUIAutomationTransformPattern2 interface, IUIAutomationTransformPattern2 interface [Windows Accessibility],CachedCanZoom property, IUIAutomationTransformPattern2.CachedCanZoom, IUIAutomationTransformPattern2.get_CachedCanZoom, IUIAutomationTransformPattern2::CachedCanZoom, IUIAutomationTransformPattern2::get_CachedCanZoom, get_CachedCanZoom, uiautomationclient/IUIAutomationTransformPattern2::CachedCanZoom, uiautomationclient/IUIAutomationTransformPattern2::get_CachedCanZoom, winauto.uiauto_IUIAutomationTransformPattern2_CachedCanZoom
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTransformPattern2.CachedCanZoom"
+f1_keywords:
+- uiautomationclient/IUIAutomationTransformPattern2.CachedCanZoom
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTransformPattern2.CachedCanZoom
- - IUIAutomationTransformPattern2.get_CachedCanZoom
+- IUIAutomationTransformPattern2.CachedCanZoom
+- IUIAutomationTransformPattern2.get_CachedCanZoom
 targetos: Windows
 req.typenames: 
 req.redist: 

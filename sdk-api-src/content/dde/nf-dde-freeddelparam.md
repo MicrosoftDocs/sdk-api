@@ -1,19 +1,17 @@
 ---
 UID: NF:dde.FreeDDElParam
 title: FreeDDElParam function (dde.h)
-
 description: Frees the memory specified by the lParam parameter of a posted Dynamic Data Exchange (DDE) message. An application receiving a posted DDE message should call this function after it has used the UnpackDDElParam function to unpack the lParam value.
 old-location: dataxchg\freeddelparam.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangefunctions\freeddelparam.htm
-
 ms.date: 12/05/2018
 ms.keywords: FreeDDElParam, FreeDDElParam function [Data Exchange], _win32_FreeDDElParam, _win32_freeddelparam_cpp, dataxchg.freeddelparam, dde/FreeDDElParam, winui._win32_freeddelparam
 ms.topic: function
-f1_keywords: 
- - "dde/FreeDDElParam"
+f1_keywords:
+- dde/FreeDDElParam
 dev_langs:
- - c++
+- c++
 req.header: dde.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Misc-L1-1-0.dll
- - Ext-MS-Win-NTUser-Misc-L1-2-0.dll
- - Ext-MS-Win-NTUser-Misc-L1-3-0.dll
- - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
- - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
- - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Misc-L1-1-0.dll
+- Ext-MS-Win-NTUser-Misc-L1-2-0.dll
+- Ext-MS-Win-NTUser-Misc-L1-3-0.dll
+- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - FreeDDElParam
+- FreeDDElParam
 targetos: Windows
 req.typenames: 
 req.redist: 

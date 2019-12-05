@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl._MFNETSOURCE_TRANSPORT_TYPE
 title: MFNETSOURCE_TRANSPORT_TYPE (mfidl.h)
-
 description: Describes the type of transport used in streaming or downloading data (TCP or UDP).
 old-location: mf\mfnetsource_transport_type.htm
 tech.root: medfound
 ms.assetid: b3cdb604-15eb-4df7-af30-b21093c93781
-
 ms.date: 12/05/2018
 ms.keywords: MFNETSOURCE_TCP, MFNETSOURCE_TRANSPORT_TYPE, MFNETSOURCE_TRANSPORT_TYPE enumeration [Media Foundation], MFNETSOURCE_UDP, b3cdb604-15eb-4df7-af30-b21093c93781, mf.mfnetsource_transport_type, mfidl/MFNETSOURCE_TCP, mfidl/MFNETSOURCE_TRANSPORT_TYPE, mfidl/MFNETSOURCE_UDP
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MFNETSOURCE_TRANSPORT_TYPE"
+f1_keywords:
+- mfidl/MFNETSOURCE_TRANSPORT_TYPE
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFNETSOURCE_TRANSPORT_TYPE
+- MFNETSOURCE_TRANSPORT_TYPE
 targetos: Windows
 req.typenames: MFNETSOURCE_TRANSPORT_TYPE
 req.redist: 

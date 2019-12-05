@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.SetThreadpoolCallbackPriority
 title: SetThreadpoolCallbackPriority function (winbase.h)
-
 description: Specifies the priority of a callback function relative to other work items in the same thread pool.
 old-location: base\setthreadpoolcallbackpriority.htm
 tech.root: ProcThread
 ms.assetid: c24d3e9b-5a4e-43e1-a903-b612d022aa97
-
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolCallbackPriority, SetThreadpoolCallbackPriority function, TP_CALLBACK_PRIORITY_HIGH, TP_CALLBACK_PRIORITY_LOW, TP_CALLBACK_PRIORITY_NORMAL, base.setthreadpoolcallbackpriority, winbase/SetThreadpoolCallbackPriority
 ms.topic: function
-f1_keywords: 
- - "winbase/SetThreadpoolCallbackPriority"
+f1_keywords:
+- winbase/SetThreadpoolCallbackPriority
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
+- WinBase.h
 api_name:
- - SetThreadpoolCallbackPriority
+- SetThreadpoolCallbackPriority
 targetos: Windows
 req.typenames: 
 req.redist: 

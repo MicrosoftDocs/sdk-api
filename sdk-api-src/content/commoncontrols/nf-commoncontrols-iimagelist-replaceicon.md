@@ -1,19 +1,17 @@
 ---
 UID: NF:commoncontrols.IImageList.ReplaceIcon
 title: IImageList::ReplaceIcon (commoncontrols.h)
-
 description: Replaces an image with an icon or cursor.
 old-location: controls\IImageList_ReplaceIcon.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\replaceicon.htm
-
 ms.date: 12/05/2018
 ms.keywords: IImageList interface [Windows Controls],ReplaceIcon method, IImageList.ReplaceIcon, IImageList::ReplaceIcon, ReplaceIcon, ReplaceIcon method [Windows Controls], ReplaceIcon method [Windows Controls],IImageList interface, comctl_IImageList_ReplaceIcon, comctl_IImageList_ReplaceIcon_cpp, commoncontrols/IImageList::ReplaceIcon, controls.IImageList_ReplaceIcon, controls.comctl_IImageList_ReplaceIcon
 ms.topic: method
-f1_keywords: 
- - "commoncontrols/IImageList.ReplaceIcon"
+f1_keywords:
+- commoncontrols/IImageList.ReplaceIcon
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - IImageList.ReplaceIcon
+- IImageList.ReplaceIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

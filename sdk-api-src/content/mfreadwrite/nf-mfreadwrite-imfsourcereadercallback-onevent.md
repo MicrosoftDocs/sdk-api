@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderCallback.OnEvent
 title: IMFSourceReaderCallback::OnEvent (mfreadwrite.h)
-
 description: Called when the source reader receives certain events from the media source.
 old-location: mf\imfsourcereadercallback_onevent.htm
 tech.root: medfound
 ms.assetid: cbe85d0f-26a1-4526-bfe6-b6183812a271
-
 ms.date: 12/05/2018
 ms.keywords: IMFSourceReaderCallback interface [Media Foundation],OnEvent method, IMFSourceReaderCallback.OnEvent, IMFSourceReaderCallback::OnEvent, OnEvent, OnEvent method [Media Foundation], OnEvent method [Media Foundation],IMFSourceReaderCallback interface, mf.imfsourcereadercallback_onevent, mfreadwrite/IMFSourceReaderCallback::OnEvent
 ms.topic: method
-f1_keywords: 
- - "mfreadwrite/IMFSourceReaderCallback.OnEvent"
+f1_keywords:
+- mfreadwrite/IMFSourceReaderCallback.OnEvent
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSourceReaderCallback.OnEvent
+- IMFSourceReaderCallback.OnEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imm.ImmGetDefaultIMEWnd
 title: ImmGetDefaultIMEWnd function (imm.h)
-
 description: Retrieves the default window handle to the IME class.
 old-location: intl\immgetdefaultimewnd.htm
 tech.root: Intl
 ms.assetid: fc3cdfc2-fcdc-4682-b391-83ea4bb1571f
-
 ms.date: 12/05/2018
 ms.keywords: ImmGetDefaultIMEWnd, ImmGetDefaultIMEWnd function [Internationalization for Windows Applications], _win32_ImmGetDefaultIMEWnd, imm/ImmGetDefaultIMEWnd, intl.immgetdefaultimewnd
 ms.topic: function
-f1_keywords: 
- - "imm/ImmGetDefaultIMEWnd"
+f1_keywords:
+- imm/ImmGetDefaultIMEWnd
 dev_langs:
- - c++
+- c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
- - Ext-MS-Win-imm-l1-1-0.dll
- - ext-ms-win-imm-l1-1-1.dll
+- Imm32.dll
+- Ext-MS-Win-imm-l1-1-0.dll
+- ext-ms-win-imm-l1-1-1.dll
 api_name:
- - ImmGetDefaultIMEWnd
+- ImmGetDefaultIMEWnd
 targetos: Windows
 req.typenames: 
 req.redist: 

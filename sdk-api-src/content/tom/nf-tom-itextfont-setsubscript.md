@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.SetSubscript
 title: ITextFont::SetSubscript (tom.h)
-
 description: Sets whether characters are displayed as subscript.
 old-location: controls\ITextFont_SetSubscript.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setsubscript.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetSubscript method, ITextFont.SetSubscript, ITextFont::SetSubscript, SetSubscript, SetSubscript method [Windows Controls], SetSubscript method [Windows Controls],ITextFont interface, _win32_ITextFont_SetSubscript, _win32_ITextFont_SetSubscript_cpp, controls.ITextFont_SetSubscript, controls._win32_ITextFont_SetSubscript, tom/ITextFont::SetSubscript
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.SetSubscript"
+f1_keywords:
+- tom/ITextFont.SetSubscript
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.SetSubscript
+- ITextFont.SetSubscript
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFRegisterLocalSchemeHandler
 title: MFRegisterLocalSchemeHandler function (mfapi.h)
-
 description: Registers a scheme handler in the caller's process.
 old-location: mf\mfregisterlocalschemehandler.htm
 tech.root: medfound
 ms.assetid: B0F14D11-D896-4CFC-8914-087611347BEB
-
 ms.date: 12/05/2018
 ms.keywords: MFRegisterLocalSchemeHandler, MFRegisterLocalSchemeHandler function [Media Foundation], mf.mfregisterlocalschemehandler, mfapi/MFRegisterLocalSchemeHandler
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFRegisterLocalSchemeHandler"
+f1_keywords:
+- mfapi/MFRegisterLocalSchemeHandler
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFRegisterLocalSchemeHandler
+- MFRegisterLocalSchemeHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.DAD_DragEnterEx2
 title: DAD_DragEnterEx2 function (shlobj_core.h)
-
 description: Locks updates to the specified window during a drag-and-drop operation and displays the drag image at the specified position within the window.
 old-location: shell\DAD_DragEnterEx2.htm
 tech.root: shell
 ms.assetid: d9d902c5-c488-4e23-a749-bae42c6cb719
-
 ms.date: 12/05/2018
 ms.keywords: DAD_DragEnterEx2, DAD_DragEnterEx2 function [Windows Shell], _shell_DAD_DragEnterEx2, shell.DAD_DragEnterEx2, shlobj_core/DAD_DragEnterEx2
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/DAD_DragEnterEx2"
+f1_keywords:
+- shlobj_core/DAD_DragEnterEx2
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - DAD_DragEnterEx2
+- DAD_DragEnterEx2
 targetos: Windows
 req.typenames: 
 req.redist: 

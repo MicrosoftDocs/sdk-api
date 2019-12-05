@@ -1,19 +1,17 @@
 ---
 UID: NS:directml.DML_BUFFER_BINDING
 title: DML_BUFFER_BINDING
-
 description: Specifies a resource binding described by a range of bytes in a Direct3D 12 buffer, represented by an offset and size into an ID3D12Resource.
 old-location: direct3d12\dml_buffer_binding.htm
 tech.root: direct3d12
 ms.assetid: 05BF22D6-D660-4A80-AFE3-27D7BF2D8BDE
-
 ms.date: 12/5/2018
 ms.keywords: DML_BUFFER_BINDING, DML_BUFFER_BINDING structure, direct3d12.dml_buffer_binding, directml/DML_BUFFER_BINDING
 ms.topic: struct
-f1_keywords: 
- - "directml/DML_BUFFER_BINDING"
+f1_keywords:
+- directml/DML_BUFFER_BINDING
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - DML_BUFFER_BINDING
+- DML_BUFFER_BINDING
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation2.put_ConnectionTimeout
 title: IUIAutomation2::put_ConnectionTimeout (uiautomationclient.h)
-
 description: Specifies the length of time that UI Automation will wait for a provider to respond to a client request for an automation element.
 old-location: winauto\uiauto_iuiautomation2_connectiontimeout.htm
 tech.root: WinAuto
 ms.assetid: 636838C8-A5F6-4757-923D-2C69282B04EF
-
 ms.date: 12/05/2018
 ms.keywords: ConnectionTimeout property [Windows Accessibility], ConnectionTimeout property [Windows Accessibility],IUIAutomation2 interface, IUIAutomation2 interface [Windows Accessibility],ConnectionTimeout property, IUIAutomation2.ConnectionTimeout, IUIAutomation2.put_ConnectionTimeout, IUIAutomation2::ConnectionTimeout, IUIAutomation2::get_ConnectionTimeout, IUIAutomation2::put_ConnectionTimeout, put_ConnectionTimeout, uiautomationclient/IUIAutomation2::ConnectionTimeout, uiautomationclient/IUIAutomation2::get_ConnectionTimeout, uiautomationclient/IUIAutomation2::put_ConnectionTimeout, winauto.uiauto_iuiautomation2_connectiontimeout
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation2.ConnectionTimeout"
+f1_keywords:
+- uiautomationclient/IUIAutomation2.ConnectionTimeout
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomation2.ConnectionTimeout
- - IUIAutomation2.get_ConnectionTimeout
- - IUIAutomation2.put_ConnectionTimeout
+- IUIAutomation2.ConnectionTimeout
+- IUIAutomation2.get_ConnectionTimeout
+- IUIAutomation2.put_ConnectionTimeout
 targetos: Windows
 req.typenames: 
 req.redist: 

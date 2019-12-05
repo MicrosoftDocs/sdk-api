@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetGuid
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-
 description: Gets the GUID value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getguid.htm
 tech.root: WinRT
 ms.assetid: d094f70f-dfd3-4601-b288-4f9f79479609
-
 ms.date: 12/05/2018
 ms.keywords: GetGuid, GetGuid method [Windows Runtime], GetGuid method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetGuid method, IPropertyValue.GetGuid, IPropertyValue.IPropertyValue, IPropertyValue::GetGuid, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetGuid, winrt.ipropertyvalue_getguid
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValue.GetGuid"
+f1_keywords:
+- windows.foundation/IPropertyValue.GetGuid
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValue.GetGuid
+- IPropertyValue.GetGuid
 targetos: Windows
 req.typenames: 
 req.redist: 

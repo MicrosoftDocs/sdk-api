@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9helper.IDirect3DVolume9.GetPrivateData
 title: IDirect3DVolume9::GetPrivateData (d3d9helper.h)
-
 description: Copies the private data associated with the volume to a provided buffer.
 old-location: direct3d9\idirect3dvolume9__getprivatedata.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolume9__getprivatedata.htm
-
 ms.date: 12/05/2018
 ms.keywords: 1b475aea-86d8-9a27-8391-6760763a593e, GetPrivateData, GetPrivateData method [Direct3D 9], GetPrivateData method [Direct3D 9],IDirect3DVolume9 interface, IDirect3DVolume9 interface [Direct3D 9],GetPrivateData method, IDirect3DVolume9.GetPrivateData, IDirect3DVolume9::GetPrivateData, d3d9helper/IDirect3DVolume9::GetPrivateData, direct3d9.idirect3dvolume9__getprivatedata
 ms.topic: method
-f1_keywords: 
- - "d3d9helper/IDirect3DVolume9.GetPrivateData"
+f1_keywords:
+- d3d9helper/IDirect3DVolume9.GetPrivateData
 dev_langs:
- - c++
+- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DVolume9.GetPrivateData
+- IDirect3DVolume9.GetPrivateData
 targetos: Windows
 req.typenames: 
 req.redist: 

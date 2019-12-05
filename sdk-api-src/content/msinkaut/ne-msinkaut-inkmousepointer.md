@@ -1,19 +1,17 @@
 ---
 UID: NE:msinkaut.InkMousePointer
 title: InkMousePointer (msinkaut.h)
-
 description: Specifies the type of mouse pointer to appear.
 old-location: tablet\inkmousepointer.htm
 tech.root: tablet
 ms.assetid: 74f489f2-d568-4133-96e6-de15cbfabfe7
-
 ms.date: 12/05/2018
 ms.keywords: 74f489f2-d568-4133-96e6-de15cbfabfe7, IMP_Arrow, IMP_ArrowHourglass, IMP_ArrowQuestion, IMP_Crosshair, IMP_Custom, IMP_Default, IMP_Hand, IMP_Hourglass, IMP_Ibeam, IMP_NoDrop, IMP_SizeAll, IMP_SizeNESW, IMP_SizeNS, IMP_SizeNWSE, IMP_SizeWE, IMP_UpArrow, InkMousePointer, InkMousePointer enumeration [Tablet PC], msinkaut/IMP_Arrow, msinkaut/IMP_ArrowHourglass, msinkaut/IMP_ArrowQuestion, msinkaut/IMP_Crosshair, msinkaut/IMP_Custom, msinkaut/IMP_Default, msinkaut/IMP_Hand, msinkaut/IMP_Hourglass, msinkaut/IMP_Ibeam, msinkaut/IMP_NoDrop, msinkaut/IMP_SizeAll, msinkaut/IMP_SizeNESW, msinkaut/IMP_SizeNS, msinkaut/IMP_SizeNWSE, msinkaut/IMP_SizeWE, msinkaut/IMP_UpArrow, msinkaut/InkMousePointer, tablet.inkmousepointer
 ms.topic: enum
-f1_keywords: 
- - "msinkaut/InkMousePointer"
+f1_keywords:
+- msinkaut/InkMousePointer
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msinkaut.h
+- msinkaut.h
 api_name:
- - InkMousePointer
+- InkMousePointer
 targetos: Windows
 req.typenames: InkMousePointer
 req.redist: 

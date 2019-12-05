@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.LocalSize
 title: LocalSize function (winbase.h)
-
 description: Retrieves the current size of the specified local memory object, in bytes.
 old-location: base\localsize.htm
 tech.root: Memory
 ms.assetid: d1337845-d89c-4cd5-a584-36fe0c682c1a
-
 ms.date: 12/05/2018
 ms.keywords: LocalSize, LocalSize function, _win32_localsize, base.localsize, winbase/LocalSize
 ms.topic: function
-f1_keywords: 
- - "winbase/LocalSize"
+f1_keywords:
+- winbase/LocalSize
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - LocalSize
+- LocalSize
 targetos: Windows
 req.typenames: 
 req.redist: 

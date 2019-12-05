@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_CONTEXT_ENUM_TEMPLATE0_
 title: IPSEC_SA_CONTEXT_ENUM_TEMPLATE0 (ipsectypes.h)
-
 description: Enumeration template used to enumerate security association (SA) contexts.
 old-location: fwp\ipsec_sa_context_enum_template0.htm
 tech.root: fwp
 ms.assetid: 2e099545-4075-4ea0-9035-53ce334decc4
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_SA_CONTEXT_ENUM_TEMPLATE0, IPSEC_SA_CONTEXT_ENUM_TEMPLATE0 structure [Filtering], fwp.ipsec_sa_context_enum_template0, ipsectypes/IPSEC_SA_CONTEXT_ENUM_TEMPLATE0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_SA_CONTEXT_ENUM_TEMPLATE0"
+f1_keywords:
+- ipsectypes/IPSEC_SA_CONTEXT_ENUM_TEMPLATE0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_SA_CONTEXT_ENUM_TEMPLATE0
+- IPSEC_SA_CONTEXT_ENUM_TEMPLATE0
 targetos: Windows
 req.typenames: IPSEC_SA_CONTEXT_ENUM_TEMPLATE0
 req.redist: 

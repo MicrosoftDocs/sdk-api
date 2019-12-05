@@ -1,19 +1,17 @@
 ---
 UID: NS:richedit._tableRowParms
 title: TABLEROWPARMS (richedit.h)
-
 description: Defines the attributes of rows in a table.
 old-location: controls\tablerowparms.htm
 tech.root: Controls
 ms.assetid: 8b538d72-1210-4344-b673-592ef9a8cc85
-
 ms.date: 12/05/2018
 ms.keywords: PFA_CENTER, PFA_LEFT, PFA_RIGHT, TABLEROWPARMS, TABLEROWPARMS structure [Windows Controls], controls.tablerowparms, richedit/TABLEROWPARMS
 ms.topic: struct
 f1_keywords:
 - richedit/TABLEROWPARMS
 dev_langs:
- - c++
+- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

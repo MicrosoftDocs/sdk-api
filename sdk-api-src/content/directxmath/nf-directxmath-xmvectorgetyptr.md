@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorGetYPtr
 title: XMVectorGetYPtr function (directxmath.h)
-
 description: Retrieve the y component of an XMVECTOR Data Type containing floating-point data, and storing that component's value in an instance of float referred to by a pointer.
 old-location: dxmath\xmvectorgetyptr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorGetYPtr(float@,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorGetYPtr, XMVectorGetYPtr, XMVectorGetYPtr method [DirectX Math Support APIs], dxmath.xmvectorgetyptr
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorGetYPtr"
+f1_keywords:
+- directxmath/XMVectorGetYPtr
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorGetYPtr
+- XMVectorGetYPtr
 targetos: Windows
 req.typenames: 
 req.redist: 

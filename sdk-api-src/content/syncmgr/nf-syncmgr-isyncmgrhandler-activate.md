@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandler.Activate
 title: ISyncMgrHandler::Activate (syncmgr.h)
-
 description: Requests that the handler is activated or deactivated. An active handler can be synchronized; an inactive handler cannot.
 old-location: shell\ISyncMgrHandler_Activate.htm
 tech.root: shell
 ms.assetid: 0061387d-516d-44c5-b511-3236593382a9
-
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method [Windows Shell], Activate method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],Activate method, ISyncMgrHandler.Activate, ISyncMgrHandler::Activate, _shell_ISyncMgrHandler_Activate, shell.ISyncMgrHandler_Activate, syncmgr/ISyncMgrHandler::Activate
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrHandler.Activate"
+f1_keywords:
+- syncmgr/ISyncMgrHandler.Activate
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrHandler.Activate
+- ISyncMgrHandler.Activate
 targetos: Windows
 req.typenames: 
 req.redist: 

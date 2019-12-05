@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICProgressiveLevelControl.GetLevelCount
 title: IWICProgressiveLevelControl::GetLevelCount (wincodec.h)
-
 description: Gets the number of levels of progressive decoding supported by the CODEC.
 old-location: wic\_wic_codec_iwicprogressivelevelcontrol_getlevelcount.htm
 tech.root: wic
 ms.assetid: f7949d31-c679-43ea-aa07-5f9f8579b4f7
-
 ms.date: 12/05/2018
 ms.keywords: GetLevelCount, GetLevelCount method [Windows Imaging Component], GetLevelCount method [Windows Imaging Component],IWICProgressiveLevelControl interface, IWICProgressiveLevelControl interface [Windows Imaging Component],GetLevelCount method, IWICProgressiveLevelControl.GetLevelCount, IWICProgressiveLevelControl::GetLevelCount, _wic_codec_iwicprogressivelevelcontrol_getlevelcount, wic._wic_codec_iwicprogressivelevelcontrol_getlevelcount, wincodec/IWICProgressiveLevelControl::GetLevelCount
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICProgressiveLevelControl.GetLevelCount"
+f1_keywords:
+- wincodec/IWICProgressiveLevelControl.GetLevelCount
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICProgressiveLevelControl.GetLevelCount
+- IWICProgressiveLevelControl.GetLevelCount
 targetos: Windows
 req.typenames: 
 req.redist: 

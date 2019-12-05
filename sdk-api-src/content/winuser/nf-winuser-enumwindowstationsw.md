@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.EnumWindowStationsW
 title: EnumWindowStationsW function (winuser.h)
-
 description: Enumerates all window stations in the current session. The function passes the name of each window station, in turn, to an application-defined callback function.
 old-location: winstation\enumwindowstations.htm
 tech.root: winstation
 ms.assetid: 418d4d6a-9e4d-4fe3-8e1b-398c732c6e23
-
 ms.date: 12/05/2018
 ms.keywords: EnumWindowStations, EnumWindowStations function [Windows Stations and Desktops], EnumWindowStationsA, EnumWindowStationsW, _win32_enumwindowstations, base.enumwindowstations, winstation.enumwindowstations, winuser/EnumWindowStations, winuser/EnumWindowStationsA, winuser/EnumWindowStationsW
 ms.topic: function
-f1_keywords: 
- - "winuser/EnumWindowStations"
+f1_keywords:
+- winuser/EnumWindowStations
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - EnumWindowStations
- - EnumWindowStationsA
- - EnumWindowStationsW
+- EnumWindowStations
+- EnumWindowStationsA
+- EnumWindowStationsW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcMgmtEnableIdleCleanup
 title: RpcMgmtEnableIdleCleanup function (rpcdce.h)
-
 description: The RpcMgmtEnableIdleCleanup function enables RPC to close idle resources, such as network connections, on the client.
 old-location: rpc\rpcmgmtenableidlecleanup.htm
 tech.root: Rpc
 ms.assetid: f24bf105-2cdb-4efa-b095-8479545fecb5
-
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtEnableIdleCleanup, RpcMgmtEnableIdleCleanup function [RPC], _rpc_rpcmgmtenableidlecleanup, rpc.rpcmgmtenableidlecleanup, rpcdce/RpcMgmtEnableIdleCleanup
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcMgmtEnableIdleCleanup"
+f1_keywords:
+- rpcdce/RpcMgmtEnableIdleCleanup
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcMgmtEnableIdleCleanup
+- RpcMgmtEnableIdleCleanup
 targetos: Windows
 req.typenames: 
 req.redist: 

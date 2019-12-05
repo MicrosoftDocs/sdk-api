@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite_1.IDWriteRenderingParams1
 title: IDWriteRenderingParams1 (dwrite_1.h)
-
 description: Represents text rendering settings for glyph rasterization and filtering.
 old-location: directwrite\idwriterenderingparams1.htm
 tech.root: DirectWrite
 ms.assetid: 3A69E77A-5C22-422E-AC50-4EB9A0A472FE
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteRenderingParams1, IDWriteRenderingParams1 interface [Direct Write], IDWriteRenderingParams1 interface [Direct Write],described, directwrite.idwriterenderingparams1, dwrite_1/IDWriteRenderingParams1
 ms.topic: interface
-f1_keywords: 
- - "dwrite_1/IDWriteRenderingParams1"
+f1_keywords:
+- dwrite_1/IDWriteRenderingParams1
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteRenderingParams1
+- IDWriteRenderingParams1
 targetos: Windows
 req.typenames: 
 req.redist: 

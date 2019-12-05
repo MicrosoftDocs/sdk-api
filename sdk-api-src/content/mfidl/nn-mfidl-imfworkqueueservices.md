@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFWorkQueueServices
 title: IMFWorkQueueServices (mfidl.h)
-
 description: Controls the work queues created by the Media Session.
 old-location: mf\imfworkqueueservices.htm
 tech.root: medfound
 ms.assetid: 7a6ddb67-9a8c-408c-b750-4f3fd3ba0d7d
-
 ms.date: 12/05/2018
 ms.keywords: 7a6ddb67-9a8c-408c-b750-4f3fd3ba0d7d, IMFWorkQueueServices, IMFWorkQueueServices interface [Media Foundation], IMFWorkQueueServices interface [Media Foundation],described, mf.imfworkqueueservices, mfidl/IMFWorkQueueServices
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFWorkQueueServices"
+f1_keywords:
+- mfidl/IMFWorkQueueServices
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFWorkQueueServices
+- IMFWorkQueueServices
 targetos: Windows
 req.typenames: 
 req.redist: 

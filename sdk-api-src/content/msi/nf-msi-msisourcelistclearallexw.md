@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiSourceListClearAllExW
 title: MsiSourceListClearAllExW function (msi.h)
-
 description: The MsiSourceListClearAllEx function removes all the existing sources of a given source type for the specified product or patch instance.
 old-location: setup\msisourcelistclearallex.htm
 tech.root: Msi
 ms.assetid: 3caa16f0-da9e-44a9-82c3-79d881278b81
-
 ms.date: 12/05/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MSISOURCETYPE_MEDIA, MSISOURCETYPE_NETWORK, MSISOURCETYPE_URL, MsiSourceListClearAllEx, MsiSourceListClearAllEx function, MsiSourceListClearAllExA, MsiSourceListClearAllExW, msi/MsiSourceListClearAllEx, msi/MsiSourceListClearAllExA, msi/MsiSourceListClearAllExW, setup.msisourcelistclearallex
 ms.topic: function
-f1_keywords: 
- - "msi/MsiSourceListClearAllEx"
+f1_keywords:
+- msi/MsiSourceListClearAllEx
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiSourceListClearAllEx
- - MsiSourceListClearAllExA
- - MsiSourceListClearAllExW
+- MsiSourceListClearAllEx
+- MsiSourceListClearAllExA
+- MsiSourceListClearAllExW
 targetos: Windows
 req.typenames: 
 req.redist: 

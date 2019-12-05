@@ -1,19 +1,17 @@
 ---
 UID: NE:vds._VDS_PATH_STATUS
 title: VDS_PATH_STATUS (vds.h)
-
 description: Defines the set of valid status values for a port.
 old-location: base\vds_path_status.htm
 tech.root: VDS
 ms.assetid: f0682db1-9058-4514-abb2-c10b936d4f41
-
 ms.date: 12/05/2018
 ms.keywords: VDS_MPS_FAILED, VDS_MPS_ONLINE, VDS_MPS_STANDBY, VDS_MPS_UNKNOWN, VDS_PATH_STATUS, VDS_PATH_STATUS enumeration [VDS], base.vds_path_status, vds/VDS_MPS_FAILED, vds/VDS_MPS_ONLINE, vds/VDS_MPS_STANDBY, vds/VDS_MPS_UNKNOWN, vds/VDS_PATH_STATUS, vdshwprv/VDS_MPS_FAILED, vdshwprv/VDS_MPS_ONLINE, vdshwprv/VDS_MPS_STANDBY, vdshwprv/VDS_MPS_UNKNOWN, vdshwprv/VDS_PATH_STATUS
 ms.topic: enum
-f1_keywords: 
- - "vds/VDS_PATH_STATUS"
+f1_keywords:
+- vds/VDS_PATH_STATUS
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_PATH_STATUS
+- VDS_PATH_STATUS
 targetos: Windows
 req.typenames: VDS_PATH_STATUS
 req.redist: 

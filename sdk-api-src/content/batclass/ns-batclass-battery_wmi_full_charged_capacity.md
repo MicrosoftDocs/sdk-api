@@ -1,19 +1,17 @@
 ---
 UID: NS:batclass._BATTERY_WMI_FULL_CHARGED_CAPACITY
 title: BATTERY_WMI_FULL_CHARGED_CAPACITY (batclass.h)
-
 description: Defines information about the capacity of a battery for use with the BatteryClassQueryWmiDataBlock).
 old-location: battery\battery_wmi_full_charged_capacity.htm
 tech.root: battery
 ms.assetid: BE01DF36-71A8-464A-977B-499325DDB37E
-
 ms.date: 12/05/2018
-ms.keywords: "*PBATTERY_WMI_FULL_CHARGED_CAPACITY, BATTERY_WMI_FULL_CHARGED_CAPACITY, BATTERY_WMI_FULL_CHARGED_CAPACITY structure [Battery Devices], PBATTERY_WMI_FULL_CHARGED_CAPACITY, PBATTERY_WMI_FULL_CHARGED_CAPACITY structure pointer [Battery Devices], batclass/BATTERY_WMI_FULL_CHARGED_CAPACITY, batclass/PBATTERY_WMI_FULL_CHARGED_CAPACITY, battery.battery_wmi_full_charged_capacity"
+ms.keywords: '*PBATTERY_WMI_FULL_CHARGED_CAPACITY, BATTERY_WMI_FULL_CHARGED_CAPACITY, BATTERY_WMI_FULL_CHARGED_CAPACITY structure [Battery Devices], PBATTERY_WMI_FULL_CHARGED_CAPACITY, PBATTERY_WMI_FULL_CHARGED_CAPACITY structure pointer [Battery Devices], batclass/BATTERY_WMI_FULL_CHARGED_CAPACITY, batclass/PBATTERY_WMI_FULL_CHARGED_CAPACITY, battery.battery_wmi_full_charged_capacity'
 ms.topic: struct
-f1_keywords: 
- - "batclass/BATTERY_WMI_FULL_CHARGED_CAPACITY"
+f1_keywords:
+- batclass/BATTERY_WMI_FULL_CHARGED_CAPACITY
 dev_langs:
- - c++
+- c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Batclass.h
+- Batclass.h
 api_name:
- - BATTERY_WMI_FULL_CHARGED_CAPACITY
+- BATTERY_WMI_FULL_CHARGED_CAPACITY
 targetos: Windows
 req.typenames: BATTERY_WMI_FULL_CHARGED_CAPACITY, *PBATTERY_WMI_FULL_CHARGED_CAPACITY
 req.redist: 

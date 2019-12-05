@@ -3,14 +3,13 @@ UID: NF:gdipluspath.GraphicsPath.AddBezier(IN const PointF &,IN const PointF &,I
 title: GraphicsPath::AddBezier
 description: The GraphicsPath::AddBezier method adds a Bezier spline to the current figure of this path.
 ms.assetid: 9ab28c47-f72b-472e-8b8e-22f4839a0b42
-
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddBezier
 ms.topic: language-reference
-f1_keywords: 
- - "gdipluspath/GraphicsPath::AddBezier"
+f1_keywords:
+- gdipluspath/GraphicsPath::AddBezier
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdipluspath.h
+- gdipluspath.h
 api_name:
- - GraphicsPath::AddBezier
+- GraphicsPath::AddBezier
 ---
 
 # GraphicsPath::AddBezier

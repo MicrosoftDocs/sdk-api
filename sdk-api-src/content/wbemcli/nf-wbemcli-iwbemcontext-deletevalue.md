@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemContext.DeleteValue
 title: IWbemContext::DeleteValue (wbemcli.h)
-
 description: The IWbemContext::DeleteValue method deletes a named context value created by IWbemContext::SetValue.
 old-location: wmi\iwbemcontext_deletevalue.htm
 tech.root: WmiSdk
 ms.assetid: 5f2956cf-8901-441f-b1bd-4b2f21d74683
-
 ms.date: 12/05/2018
 ms.keywords: DeleteValue, DeleteValue method [Windows Management Instrumentation], DeleteValue method [Windows Management Instrumentation],IWbemContext interface, IWbemContext interface [Windows Management Instrumentation],DeleteValue method, IWbemContext.DeleteValue, IWbemContext::DeleteValue, _hmm_iwbemcontext_deletevalue, wbemcli/IWbemContext::DeleteValue, wmi.iwbemcontext_deletevalue
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemContext.DeleteValue"
+f1_keywords:
+- wbemcli/IWbemContext.DeleteValue
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Wbemuuid.lib
 req.dll: Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wmipjobj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Esscli.dll
- - Fastprox.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Wbemcomn.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wmipjobj.dll
+- Esscli.dll
+- Fastprox.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Wbemcomn.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wmipjobj.dll
 api_name:
- - IWbemContext.DeleteValue
+- IWbemContext.DeleteValue
 targetos: Windows
 req.typenames: 
 req.redist: 

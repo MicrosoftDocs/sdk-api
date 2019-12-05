@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaItem.EnumChildItems
 title: IWiaItem::EnumChildItems (wia_xp.h)
-
 description: The IWiaItem::EnumChildItems method creates an enumerator object and passes back a pointer to its IEnumWiaItem interface for non-empty folders in a IWiaItem tree of a Windows Image Acquisition (WIA) device.
 old-location: wia\_wia_IWiaItem_EnumChildItems.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\enumchilditems.htm
-
 ms.date: 12/05/2018
 ms.keywords: EnumChildItems, EnumChildItems method [WIA], EnumChildItems method [WIA],IWiaItem interface, IWiaItem interface [WIA],EnumChildItems method, IWiaItem.EnumChildItems, IWiaItem::EnumChildItems, _wia_IWiaItem_EnumChildItems, wia._wia_IWiaItem_EnumChildItems, wia_xp/IWiaItem::EnumChildItems
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaItem.EnumChildItems"
+f1_keywords:
+- wia_xp/IWiaItem.EnumChildItems
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaItem.EnumChildItems
+- IWiaItem.EnumChildItems
 targetos: Windows
 req.typenames: 
 req.redist: 

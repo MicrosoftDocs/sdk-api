@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator2.get_GuardInterval
 title: IBDA_DigitalDemodulator2::get_GuardInterval (bdaiface.h)
-
 description: Gets the demodulator's guard interval.
 old-location: mstv\ibda_digitaldemodulator2_get_guardinterval.htm
 tech.root: mstv
 ms.assetid: e122fac7-bad8-4fbf-bf7d-ffbfad75a5d8
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],get_GuardInterval method, IBDA_DigitalDemodulator2.get_GuardInterval, IBDA_DigitalDemodulator2::get_GuardInterval, bdaiface/IBDA_DigitalDemodulator2::get_GuardInterval, get_GuardInterval, get_GuardInterval method [Microsoft TV Technologies], get_GuardInterval method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface, mstv.ibda_digitaldemodulator2_get_guardinterval
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_DigitalDemodulator2.get_GuardInterval"
+f1_keywords:
+- bdaiface/IBDA_DigitalDemodulator2.get_GuardInterval
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_DigitalDemodulator2.get_GuardInterval
+- IBDA_DigitalDemodulator2.get_GuardInterval
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolLogonErrorRedirector.RedirectStatus
 title: IWTSProtocolLogonErrorRedirector::RedirectStatus (wtsprotocol.h)
-
 description: IWTSProtocolLogonErrorRedirector::RedirectStatus is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector::RedirectStatus.
 old-location: termserv\iwtsprotocollogonerrorredirector_redirectstatus.htm
 tech.root: TermServ
 ms.assetid: a333db5a-3564-4d33-bfd6-244975cc3c4f
-
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services],RedirectStatus method, IWTSProtocolLogonErrorRedirector.RedirectStatus, IWTSProtocolLogonErrorRedirector::RedirectStatus, RedirectStatus, RedirectStatus method [Remote Desktop Services], RedirectStatus method [Remote Desktop Services],IWTSProtocolLogonErrorRedirector interface, termserv.iwtsprotocollogonerrorredirector_redirectstatus, wtsprotocol/IWTSProtocolLogonErrorRedirector::RedirectStatus
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolLogonErrorRedirector.RedirectStatus"
+f1_keywords:
+- wtsprotocol/IWTSProtocolLogonErrorRedirector.RedirectStatus
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWTSProtocolLogonErrorRedirector.RedirectStatus
+- IWTSProtocolLogonErrorRedirector.RedirectStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMCommit
 title: IComCRMEvents::OnCRMCommit (comsvcs.h)
-
 description: Generated when CRM clerk receives a commit notification to pass on to the CRM compensator.
 old-location: cos\icomcrmevents_oncrmcommit.htm
 tech.root: cossdk
 ms.assetid: 76b87452-fa29-49f7-acc8-2ae2039757b0
-
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMCommit method, IComCRMEvents.OnCRMCommit, IComCRMEvents::OnCRMCommit, OnCRMCommit, OnCRMCommit method [COM+], OnCRMCommit method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMCommit, comsvcs/IComCRMEvents::OnCRMCommit, cos.icomcrmevents_oncrmcommit
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComCRMEvents.OnCRMCommit"
+f1_keywords:
+- comsvcs/IComCRMEvents.OnCRMCommit
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComCRMEvents.OnCRMCommit
+- IComCRMEvents.OnCRMCommit
 targetos: Windows
 req.typenames: 
 req.redist: 

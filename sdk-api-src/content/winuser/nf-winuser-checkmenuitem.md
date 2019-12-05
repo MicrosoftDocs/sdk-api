@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.CheckMenuItem
 title: CheckMenuItem function (winuser.h)
-
 description: Sets the state of the specified menu item's check-mark attribute to either selected or clear.
 old-location: menurc\checkmenuitem.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\checkmenuitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: CheckMenuItem, CheckMenuItem function [Menus and Other Resources], MF_BYCOMMAND, MF_BYPOSITION, MF_CHECKED, MF_UNCHECKED, _win32_CheckMenuItem, _win32_checkmenuitem_cpp, menurc.checkmenuitem, winui._win32_checkmenuitem, winuser/CheckMenuItem
 ms.topic: function
-f1_keywords: 
- - "winuser/CheckMenuItem"
+f1_keywords:
+- winuser/CheckMenuItem
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Menu-l1-1-0.dll
- - Ext-MS-Win-NTUser-Menu-l1-1-1.dll
- - ext-ms-win-ntuser-menu-l1-1-2.dll
- - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Menu-l1-1-0.dll
+- Ext-MS-Win-NTUser-Menu-l1-1-1.dll
+- ext-ms-win-ntuser-menu-l1-1-2.dll
+- Ext-MS-Win-NTUser-Menu-L1-1-3.dll
 api_name:
- - CheckMenuItem
+- CheckMenuItem
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleRegEnumVerbs
 title: OleRegEnumVerbs function (ole2.h)
-
 description: Supplies an enumeration of the registered verbs for the specified class. Developers of custom DLL object applications use this function to emulate the behavior of the default object handler.
 old-location: com\oleregenumverbs.htm
 tech.root: com
 ms.assetid: 25cd0876-90b6-4fa3-b180-ffa0c3b51497
-
 ms.date: 12/05/2018
 ms.keywords: OleRegEnumVerbs, OleRegEnumVerbs function [COM], _ole_OleRegEnumVerbs, com.oleregenumverbs, ole2/OleRegEnumVerbs
 ms.topic: function
-f1_keywords: 
- - "ole2/OleRegEnumVerbs"
+f1_keywords:
+- ole2/OleRegEnumVerbs
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - ext-ms-win-com-ole32-l1-1-3.dll
- - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+- Ole32.dll
+- ext-ms-win-com-ole32-l1-1-3.dll
+- Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
- - OleRegEnumVerbs
+- OleRegEnumVerbs
 targetos: Windows
 req.typenames: 
 req.redist: 

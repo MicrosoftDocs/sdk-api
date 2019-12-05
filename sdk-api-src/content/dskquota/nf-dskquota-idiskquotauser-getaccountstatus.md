@@ -1,19 +1,17 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.GetAccountStatus
 title: IDiskQuotaUser::GetAccountStatus (dskquota.h)
-
 description: Retrieves the status of the user object's account.
 old-location: fs\idiskquotauser_getaccountstatus.htm
 tech.root: FileIO
 ms.assetid: d4027660-beb1-45eb-9dd3-f4c12df28051
-
 ms.date: 12/05/2018
 ms.keywords: DISKQUOTA_USER_ABLE, DISKQUOTA_USER_ACCOUNT_DELETED, DISKQUOTA_USER_ACCOUNT_INVALID, DISKQUOTA_USER_ACCOUNT_RESOLVED, DISKQUOTA_USER_ACCOUNT_UNKNOWN, DISKQUOTA_USER_ACCOUNT_UNRESOLVED, GetAccountStatus, GetAccountStatus method [Files], GetAccountStatus method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetAccountStatus method, IDiskQuotaUser.GetAccountStatus, IDiskQuotaUser::GetAccountStatus, _win32_idiskquotauser_getaccountstatus, base.idiskquotauser_getaccountstatus, dskquota/IDiskQuotaUser::GetAccountStatus, fs.idiskquotauser_getaccountstatus
 ms.topic: method
-f1_keywords: 
- - "dskquota/IDiskQuotaUser.GetAccountStatus"
+f1_keywords:
+- dskquota/IDiskQuotaUser.GetAccountStatus
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaUser.GetAccountStatus
+- IDiskQuotaUser.GetAccountStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

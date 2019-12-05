@@ -1,19 +1,17 @@
 ---
 UID: NF:roerrorapi.RoOriginateLanguageException
 title: RoOriginateLanguageException function
-
 description: Reports an error, an informative string, and an error object to an attached debugger.
 old-location: winrt\rooriginatelanguageexception.htm
 tech.root: WinRT
 ms.assetid: 573A9209-31EF-4FD4-A504-16795BA42337
-
 ms.date: 12/5/2018
 ms.keywords: RoOriginateLanguageException, RoOriginateLanguageException function [Windows Runtime], roerrorapi/RoOriginateLanguageException, winrt.rooriginatelanguageexception
 ms.topic: function
-f1_keywords: 
- - "roerrorapi/RoOriginateLanguageException"
+f1_keywords:
+- roerrorapi/RoOriginateLanguageException
 dev_langs:
- - c++
+- c++
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComBase.dll
- - API-MS-Win-Core-WinRT-error-l1-1-1.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-error-l1-1-1.dll
 api_name:
- - RoOriginateLanguageException
+- RoOriginateLanguageException
 targetos: Windows
 req.typenames: 
 req.redist: 

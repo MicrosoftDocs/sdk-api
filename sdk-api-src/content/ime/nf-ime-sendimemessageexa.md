@@ -1,19 +1,17 @@
 ---
 UID: NF:ime.SendIMEMessageExA
 title: SendIMEMessageExA function (ime.h)
-
 description: Specifies an action or processing for the Input Method Editor (IME) through a specified subfunction.
 old-location: winprog\_win32_sendimemessageex.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\sendimemessageex.htm
-
 ms.date: 12/05/2018
 ms.keywords: SendIMEMessageEx, SendIMEMessageEx function [Windows API], SendIMEMessageExA, SendIMEMessageExW, _win32_SendIMEMessageEx, ime/SendIMEMessageEx, ime/SendIMEMessageExA, ime/SendIMEMessageExW, winprog._win32_sendimemessageex, winui._win32_sendimemessageex
 ms.topic: function
-f1_keywords: 
- - "ime/SendIMEMessageEx"
+f1_keywords:
+- ime/SendIMEMessageEx
 dev_langs:
- - c++
+- c++
 req.header: ime.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - SendIMEMessageEx
- - SendIMEMessageExA
- - SendIMEMessageExW
+- SendIMEMessageEx
+- SendIMEMessageExA
+- SendIMEMessageExW
 targetos: Windows
 req.typenames: 
 req.redist: 

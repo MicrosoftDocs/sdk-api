@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMarshal.GetUnmarshalClass
 title: IMarshal::GetUnmarshalClass (objidl.h)
-
 description: Retrieves the CLSID of the unmarshaling code.
 old-location: com\imarshal_getunmarshalclass.htm
 tech.root: com
 ms.assetid: 900a0f19-dcd5-4135-bab8-c191ec7e95e4
-
 ms.date: 12/05/2018
 ms.keywords: GetUnmarshalClass, GetUnmarshalClass method [COM], GetUnmarshalClass method [COM],IMarshal interface, IMarshal interface [COM],GetUnmarshalClass method, IMarshal.GetUnmarshalClass, IMarshal::GetUnmarshalClass, _com_imarshal_getunmarshalclass, com.imarshal_getunmarshalclass, objidl/IMarshal::GetUnmarshalClass
 ms.topic: method
-f1_keywords: 
- - "objidl/IMarshal.GetUnmarshalClass"
+f1_keywords:
+- objidl/IMarshal.GetUnmarshalClass
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMarshal.GetUnmarshalClass
+- IMarshal.GetUnmarshalClass
 targetos: Windows
 req.typenames: 
 req.redist: 

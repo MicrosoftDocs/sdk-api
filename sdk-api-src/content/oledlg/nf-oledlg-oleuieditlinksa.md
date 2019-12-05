@@ -1,19 +1,17 @@
 ---
 UID: NF:oledlg.OleUIEditLinksA
 title: OleUIEditLinksA function (oledlg.h)
-
 description: Invokes the standard Links dialog box, allowing the user to make modifications to a container's linked objects.
 old-location: com\oleuieditlinks.htm
 tech.root: com
 ms.assetid: 17c7daf8-83bf-4cfd-a67c-a638630ca263
-
 ms.date: 12/05/2018
 ms.keywords: OleUIEditLinks, OleUIEditLinks function [COM], OleUIEditLinksA, OleUIEditLinksW, _ole_OleUIEditLinks, com.oleuieditlinks, oledlg/OleUIEditLinks, oledlg/OleUIEditLinksA, oledlg/OleUIEditLinksW
 ms.topic: function
-f1_keywords: 
- - "oledlg/OleUIEditLinks"
+f1_keywords:
+- oledlg/OleUIEditLinks
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleDlg.dll
+- OleDlg.dll
 api_name:
- - OleUIEditLinks
- - OleUIEditLinksA
- - OleUIEditLinksW
+- OleUIEditLinks
+- OleUIEditLinksA
+- OleUIEditLinksW
 targetos: Windows
 req.typenames: 
 req.redist: 

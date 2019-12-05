@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IExtendView
 title: IExtendView (mmc.h)
-
 description: The IExtendView interface provides information about the extended view.
 old-location: mmc\iextendview.htm
 tech.root: mmc
 ms.assetid: a6ea8735-4cad-4c04-be97-dfad01b00388
-
 ms.date: 12/05/2018
 ms.keywords: IExtendView, IExtendView interface [MMC], IExtendView interface [MMC],described, _slate_iextendview, mmc.iextendview, mmc/IExtendView
 ms.topic: interface
-f1_keywords: 
- - "mmc/IExtendView"
+f1_keywords:
+- mmc/IExtendView
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IExtendView
+- IExtendView
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DTexture9.AddDirtyRect
 title: IDirect3DTexture9::AddDirtyRect (d3d9.h)
-
 description: Adds a dirty region to a texture resource.
 old-location: direct3d9\idirect3dtexture9__adddirtyrect.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dtexture9__adddirtyrect.htm
-
 ms.date: 12/05/2018
 ms.keywords: 5056714a-00c4-8318-bc7b-f4fc70438ea2, AddDirtyRect, AddDirtyRect method [Direct3D 9], AddDirtyRect method [Direct3D 9],IDirect3DTexture9 interface, IDirect3DTexture9 interface [Direct3D 9],AddDirtyRect method, IDirect3DTexture9.AddDirtyRect, IDirect3DTexture9::AddDirtyRect, d3d9helper/IDirect3DTexture9::AddDirtyRect, direct3d9.idirect3dtexture9__adddirtyrect
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DTexture9.AddDirtyRect"
+f1_keywords:
+- d3d9/IDirect3DTexture9.AddDirtyRect
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DTexture9.AddDirtyRect
+- IDirect3DTexture9.AddDirtyRect
 targetos: Windows
 req.typenames: 
 req.redist: 

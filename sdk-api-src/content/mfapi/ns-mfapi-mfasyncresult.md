@@ -1,19 +1,17 @@
 ---
 UID: NS:mfapi.tagMFASYNCRESULT
 title: MFASYNCRESULT (mfapi.h)
-
 description: Contains data that is needed to implement the IMFAsyncResult interface.
 old-location: mf\mfasyncresult.htm
 tech.root: medfound
 ms.assetid: fffa32d6-5e9f-42a1-9978-04f5726528bc
-
 ms.date: 12/05/2018
 ms.keywords: MFASYNCRESULT, MFASYNCRESULT structure [Media Foundation], fffa32d6-5e9f-42a1-9978-04f5726528bc, mf.mfasyncresult, mfapi/MFASYNCRESULT
 ms.topic: struct
-f1_keywords: 
- - "mfapi/MFASYNCRESULT"
+f1_keywords:
+- mfapi/MFASYNCRESULT
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - MFASYNCRESULT
+- MFASYNCRESULT
 targetos: Windows
 req.typenames: MFASYNCRESULT
 req.redist: 

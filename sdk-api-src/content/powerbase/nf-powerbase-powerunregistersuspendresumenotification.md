@@ -1,19 +1,17 @@
 ---
 UID: NF:powerbase.PowerUnregisterSuspendResumeNotification
 title: PowerUnregisterSuspendResumeNotification function (powerbase.h)
-
 description: Cancels a registration to receive notification when the system is suspended or resumed.
 old-location: base\powerunregistersuspendresumenotification.htm
 tech.root: power
 ms.assetid: 5680e6bd-1694-4d5f-94ea-41b24149c741
-
 ms.date: 12/05/2018
 ms.keywords: PowerUnregisterSuspendResumeNotification, PowerUnregisterSuspendResumeNotification function, base.powerunregistersuspendresumenotification, powerbase/PowerUnregisterSuspendResumeNotification
 ms.topic: function
-f1_keywords: 
- - "powerbase/PowerUnregisterSuspendResumeNotification"
+f1_keywords:
+- powerbase/PowerUnregisterSuspendResumeNotification
 dev_langs:
- - c++
+- c++
 req.header: powerbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Powrprof.lib
 req.dll: Powrprof.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Powrprof.dll
- - API-MS-Win-power-base-l1-1-0.dll
+- Powrprof.dll
+- API-MS-Win-power-base-l1-1-0.dll
 api_name:
- - PowerUnregisterSuspendResumeNotification
+- PowerUnregisterSuspendResumeNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

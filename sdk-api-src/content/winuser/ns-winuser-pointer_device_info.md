@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagPOINTER_DEVICE_INFO
 title: POINTER_DEVICE_INFO (winuser.h)
-
 description: Contains information about a pointer device. An array of these structures is returned from the GetPointerDevices function. A single structure is returned from a call to the GetPointerDevice function.
 old-location: input_pointerdevice\pointer_device_info.htm
 tech.root: Input_PointerDevice
 ms.assetid: 1b909caf-2d69-42b9-8d60-5d89a0286f59
-
 ms.date: 12/05/2018
 ms.keywords: POINTER_DEVICE_INFO, POINTER_DEVICE_INFO structure, input_pointerdevice.pointer_device_info, tagPOINTER_DEVICE_INFO, unifiedinputstack.pointer_device_info, winuser/POINTER_DEVICE_INFO
 ms.topic: struct
-f1_keywords: 
- - "winuser/POINTER_DEVICE_INFO"
+f1_keywords:
+- winuser/POINTER_DEVICE_INFO
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - POINTER_DEVICE_INFO
+- POINTER_DEVICE_INFO
 targetos: Windows
 req.typenames: POINTER_DEVICE_INFO
 req.redist: 

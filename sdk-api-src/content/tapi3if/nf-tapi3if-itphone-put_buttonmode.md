@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPhone.put_ButtonMode
 title: ITPhone::put_ButtonMode (tapi3if.h)
-
 description: The put_ButtonMode method sets the button mode.
 old-location: tapi3\itphone_put_buttonmode.htm
 tech.root: Tapi
 ms.assetid: d2287c86-5884-4890-956c-fcc26c426cd3
-
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],put_ButtonMode method, ITPhone.put_ButtonMode, ITPhone::put_ButtonMode, _tapi3_itphone_put_buttonmode, put_ButtonMode, put_ButtonMode method [TAPI 2.2], put_ButtonMode method [TAPI 2.2],ITPhone interface, tapi3.itphone_put_buttonmode, tapi3if/ITPhone::put_ButtonMode
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPhone.put_ButtonMode"
+f1_keywords:
+- tapi3if/ITPhone.put_ButtonMode
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhone.put_ButtonMode
+- ITPhone.put_ButtonMode
 targetos: Windows
 req.typenames: 
 req.redist: 

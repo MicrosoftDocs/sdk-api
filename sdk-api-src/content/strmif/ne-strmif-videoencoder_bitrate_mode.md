@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.VIDEOENCODER_BITRATE_MODE
 title: VIDEOENCODER_BITRATE_MODE (strmif.h)
-
 description: The VIDEOENCODER_BITRATE_MODE enumeration type defines the three types of bitrates supported by the IEncoderAPI interface.
 old-location: dshow\videoencoder_bitrate_mode.htm
 tech.root: DirectShow
 ms.assetid: ccceae9a-6d1d-4453-bd84-88cefc20320e
-
 ms.date: 12/05/2018
 ms.keywords: ConstantBitRate, VIDEOENCODER_BITRATE_MODE, VIDEOENCODER_BITRATE_MODE , VIDEOENCODER_BITRATE_MODE enumeration [DirectShow], VIDEOENCODER_BITRATE_MODEEnumeration, VariableBitRateAverage, VariableBitRatePeak, dshow.videoencoder_bitrate_mode, strmif/ConstantBitRate, strmif/VIDEOENCODER_BITRATE_MODE, strmif/VariableBitRateAverage, strmif/VariableBitRatePeak
 ms.topic: enum
-f1_keywords: 
- - "strmif/VIDEOENCODER_BITRATE_MODE"
+f1_keywords:
+- strmif/VIDEOENCODER_BITRATE_MODE
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - VIDEOENCODER_BITRATE_MODE
+- VIDEOENCODER_BITRATE_MODE
 targetos: Windows
 req.typenames: VIDEOENCODER_BITRATE_MODE
 req.redist: 

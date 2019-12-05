@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFNetResourceFilter.OnSendingRequest
 title: IMFNetResourceFilter::OnSendingRequest (mfidl.h)
-
 description: Called when the byte stream requests a URL.
 old-location: mf\imfnetresourcefilter_onsendingrequest.htm
 tech.root: medfound
 ms.assetid: 4FE6BBE8-A8EC-4304-BC4B-4D49F8EADC25
-
 ms.date: 12/05/2018
 ms.keywords: IMFNetResourceFilter interface [Media Foundation],OnSendingRequest method, IMFNetResourceFilter.OnSendingRequest, IMFNetResourceFilter::OnSendingRequest, OnSendingRequest, OnSendingRequest method [Media Foundation], OnSendingRequest method [Media Foundation],IMFNetResourceFilter interface, mf.imfnetresourcefilter_onsendingrequest, mfidl/IMFNetResourceFilter::OnSendingRequest
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFNetResourceFilter.OnSendingRequest"
+f1_keywords:
+- mfidl/IMFNetResourceFilter.OnSendingRequest
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFNetResourceFilter.OnSendingRequest
+- IMFNetResourceFilter.OnSendingRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

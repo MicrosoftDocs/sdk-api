@@ -1,19 +1,17 @@
 ---
 UID: NF:wdspxe.PxeDhcpv6CreateRelayRepl
 title: PxeDhcpv6CreateRelayRepl function (wdspxe.h)
-
 description: Generates a RELAY-REPL message.
 old-location: wds\pxedhcpv6createrelayrepl.htm
 tech.root: wds
 ms.assetid: 0FE31279-64CA-4B5E-87E4-6BD035A59A02
-
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpv6CreateRelayRepl, PxeDhcpv6CreateRelayRepl function [Windows Deployment Services], wds.pxedhcpv6createrelayrepl, wdspxe/PxeDhcpv6CreateRelayRepl
 ms.topic: function
-f1_keywords: 
- - "wdspxe/PxeDhcpv6CreateRelayRepl"
+f1_keywords:
+- wdspxe/PxeDhcpv6CreateRelayRepl
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsPxe.dll
+- WdsPxe.dll
 api_name:
- - PxeDhcpv6CreateRelayRepl
+- PxeDhcpv6CreateRelayRepl
 targetos: Windows
 req.typenames: 
 req.redist: 

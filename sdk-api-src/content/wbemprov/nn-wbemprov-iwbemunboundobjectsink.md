@@ -1,19 +1,17 @@
 ---
 UID: NN:wbemprov.IWbemUnboundObjectSink
 title: IWbemUnboundObjectSink (wbemprov.h)
-
 description: The IWbemUnboundObjectSink interface is implemented by all logical event consumers. It is a simple sink interface that accepts delivery of event objects.
 old-location: wmi\iwbemunboundobjectsink.htm
 tech.root: WmiSdk
 ms.assetid: a890aefe-e35e-4635-874d-953194f99a82
-
 ms.date: 12/05/2018
 ms.keywords: IWbemUnboundObjectSink, IWbemUnboundObjectSink interface [Windows Management Instrumentation], IWbemUnboundObjectSink interface [Windows Management Instrumentation],described, _hmm_iwbemunboundobjectsink, wbemprov/IWbemUnboundObjectSink, wmi.iwbemunboundobjectsink
 ms.topic: interface
-f1_keywords: 
- - "wbemprov/IWbemUnboundObjectSink"
+f1_keywords:
+- wbemprov/IWbemUnboundObjectSink
 dev_langs:
- - c++
+- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fastprox.dll
+- Fastprox.dll
 api_name:
- - IWbemUnboundObjectSink
+- IWbemUnboundObjectSink
 targetos: Windows
 req.typenames: 
 req.redist: 

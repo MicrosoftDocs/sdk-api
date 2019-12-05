@@ -1,19 +1,17 @@
 ---
 UID: NS:ksopmapi._OPM_RANDOM_NUMBER
 title: OPM_RANDOM_NUMBER (ksopmapi.h)
-
 description: Contains a 128-bit random number for use with Output Protection Manager (OPM).
 old-location: mf\opm_random_number.htm
 tech.root: medfound
 ms.assetid: d3a5be4b-39d1-43da-b87e-ab4dd7815262
-
 ms.date: 12/05/2018
-ms.keywords: "*POPM_RANDOM_NUMBER, OPM_RANDOM_NUMBER, OPM_RANDOM_NUMBER structure [Media Foundation], _OPM_RANDOM_NUMBER, ksopmapi/OPM_RANDOM_NUMBER, mf.opm_random_number"
+ms.keywords: '*POPM_RANDOM_NUMBER, OPM_RANDOM_NUMBER, OPM_RANDOM_NUMBER structure [Media Foundation], _OPM_RANDOM_NUMBER, ksopmapi/OPM_RANDOM_NUMBER, mf.opm_random_number'
 ms.topic: struct
-f1_keywords: 
- - "ksopmapi/OPM_RANDOM_NUMBER"
+f1_keywords:
+- ksopmapi/OPM_RANDOM_NUMBER
 dev_langs:
- - c++
+- c++
 req.header: ksopmapi.h
 req.include-header: Opmapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ksopmapi.h
+- ksopmapi.h
 api_name:
- - OPM_RANDOM_NUMBER
+- OPM_RANDOM_NUMBER
 targetos: Windows
 req.typenames: OPM_RANDOM_NUMBER, *POPM_RANDOM_NUMBER
 req.redist: 

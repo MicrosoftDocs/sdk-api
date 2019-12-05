@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_CONTEXT_SUBSCRIPTION0_
 title: IPSEC_SA_CONTEXT_SUBSCRIPTION0 (ipsectypes.h)
-
 description: Stores information used to subscribe to notifications about a particular IPsec security association (SA) context.
 old-location: fwp\ipsec_sa_context_subscription0.htm
 tech.root: fwp
 ms.assetid: d729f4e2-621a-4a39-beed-e339b76f53fc
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_SA_CONTEXT_SUBSCRIPTION0, IPSEC_SA_CONTEXT_SUBSCRIPTION0 structure [Filtering], fwp.ipsec_sa_context_subscription0, ipsectypes/IPSEC_SA_CONTEXT_SUBSCRIPTION0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_SA_CONTEXT_SUBSCRIPTION0"
+f1_keywords:
+- ipsectypes/IPSEC_SA_CONTEXT_SUBSCRIPTION0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_SA_CONTEXT_SUBSCRIPTION0
+- IPSEC_SA_CONTEXT_SUBSCRIPTION0
 targetos: Windows
 req.typenames: IPSEC_SA_CONTEXT_SUBSCRIPTION0
 req.redist: 

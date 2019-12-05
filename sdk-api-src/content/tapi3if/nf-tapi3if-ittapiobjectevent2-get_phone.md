@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITTAPIObjectEvent2.get_Phone
 title: ITTAPIObjectEvent2::get_Phone (tapi3if.h)
-
 description: The get_Phone method returns a pointer to the ITPhone interface on the phone object that caused this TAPI object event to be fired.
 old-location: tapi3\ittapiobjectevent2_get_phone.htm
 tech.root: Tapi
 ms.assetid: 76e316f6-536b-4531-a4a6-397e258678cc
-
 ms.date: 12/05/2018
 ms.keywords: ITTAPIObjectEvent2 interface [TAPI 2.2],get_Phone method, ITTAPIObjectEvent2.get_Phone, ITTAPIObjectEvent2::get_Phone, _tapi3_ittapiobjectevent2_get_phone, get_Phone, get_Phone method [TAPI 2.2], get_Phone method [TAPI 2.2],ITTAPIObjectEvent2 interface, tapi3.ittapiobjectevent2_get_phone, tapi3if/ITTAPIObjectEvent2::get_Phone
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITTAPIObjectEvent2.get_Phone"
+f1_keywords:
+- tapi3if/ITTAPIObjectEvent2.get_Phone
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITTAPIObjectEvent2.get_Phone
+- ITTAPIObjectEvent2.get_Phone
 targetos: Windows
 req.typenames: 
 req.redist: 

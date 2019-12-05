@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.ITDirectory.get_IsDynamic
 title: ITDirectory::get_IsDynamic (rend.h)
-
 description: The get_IsDynamic method gets an indicator of whether the object on the server needs to be refreshed.
 old-location: tapi3\itdirectory_get_isdynamic.htm
 tech.root: Tapi
 ms.assetid: 4260ad95-d684-44e4-877f-fcdbe4fe0fd7
-
 ms.date: 12/05/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],get_IsDynamic method, ITDirectory.get_IsDynamic, ITDirectory::get_IsDynamic, _tapi3_itdirectory_get_isdynamic, get_IsDynamic, get_IsDynamic method [TAPI 2.2], get_IsDynamic method [TAPI 2.2],ITDirectory interface, rend/ITDirectory::get_IsDynamic, tapi3.itdirectory_get_isdynamic
 ms.topic: method
-f1_keywords: 
- - "rend/ITDirectory.get_IsDynamic"
+f1_keywords:
+- rend/ITDirectory.get_IsDynamic
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITDirectory.get_IsDynamic
+- ITDirectory.get_IsDynamic
 targetos: Windows
 req.typenames: 
 req.redist: 

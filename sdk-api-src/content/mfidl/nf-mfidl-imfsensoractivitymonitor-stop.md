@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorActivityMonitor.Stop
 title: IMFSensorActivityMonitor::Stop (mfidl.h)
-
 description: Stops the sensor activity monitor.
 old-location: mf\imfsensoractivitymonitor_stop.htm
 tech.root: medfound
 ms.assetid: A40BD926-66BB-498C-B26B-BBDE0A122456
-
 ms.date: 12/05/2018
 ms.keywords: IMFSensorActivityMonitor interface [Media Foundation],Stop method, IMFSensorActivityMonitor.Stop, IMFSensorActivityMonitor::Stop, Stop, Stop method [Media Foundation], Stop method [Media Foundation],IMFSensorActivityMonitor interface, mf.imfsensoractivitymonitor_stop, mfidl/IMFSensorActivityMonitor::Stop
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorActivityMonitor.Stop"
+f1_keywords:
+- mfidl/IMFSensorActivityMonitor.Stop
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorActivityMonitor.Stop
+- IMFSensorActivityMonitor.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 

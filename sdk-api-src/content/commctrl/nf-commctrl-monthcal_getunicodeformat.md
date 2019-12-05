@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.MonthCal_GetUnicodeFormat
 title: MonthCal_GetUnicodeFormat macro (commctrl.h)
-
 description: Retrieves the Unicode character format flag for the control. You can use this macro or send the MCM_GETUNICODEFORMAT message explicitly.
 old-location: controls\MonthCal_GetUnicodeFormat.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getunicodeformat.htm
-
 ms.date: 12/05/2018
 ms.keywords: MonthCal_GetUnicodeFormat, MonthCal_GetUnicodeFormat macro [Windows Controls], _win32_MonthCal_GetUnicodeFormat, _win32_MonthCal_GetUnicodeFormat_cpp, commctrl/MonthCal_GetUnicodeFormat, controls.MonthCal_GetUnicodeFormat, controls._win32_MonthCal_GetUnicodeFormat
 ms.topic: macro
-f1_keywords: 
- - "commctrl/MonthCal_GetUnicodeFormat"
+f1_keywords:
+- commctrl/MonthCal_GetUnicodeFormat
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - MonthCal_GetUnicodeFormat
+- MonthCal_GetUnicodeFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

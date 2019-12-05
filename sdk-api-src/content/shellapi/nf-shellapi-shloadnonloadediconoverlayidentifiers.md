@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.SHLoadNonloadedIconOverlayIdentifiers
 title: SHLoadNonloadedIconOverlayIdentifiers function (shellapi.h)
-
 description: Signals the Shell that during the next operation requiring overlay information, it should load icon overlay identifiers that either failed creation or were not present for creation at startup. Identifiers that have already been loaded are not affected.
 old-location: shell\SHLoadNonloadedIconOverlayIdentifiers.htm
 tech.root: shell
 ms.assetid: d2c4f37e-6e9d-4536-90ea-d69461c4105a
-
 ms.date: 12/05/2018
 ms.keywords: SHLoadNonloadedIconOverlayIdentifiers, SHLoadNonloadedIconOverlayIdentifiers function [Windows Shell], _shell_shloadnonloadediconoverlayidentifiers, shell.SHLoadNonloadedIconOverlayIdentifiers, shellapi/SHLoadNonloadedIconOverlayIdentifiers
 ms.topic: function
-f1_keywords: 
- - "shellapi/SHLoadNonloadedIconOverlayIdentifiers"
+f1_keywords:
+- shellapi/SHLoadNonloadedIconOverlayIdentifiers
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHLoadNonloadedIconOverlayIdentifiers
+- SHLoadNonloadedIconOverlayIdentifiers
 targetos: Windows
 req.typenames: 
 req.redist: 

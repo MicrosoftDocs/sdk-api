@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.GetSpacing
 title: ITextFont::GetSpacing (tom.h)
-
 description: Gets the amount of horizontal spacing between characters.
 old-location: controls\ITextFont_GetSpacing.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getspacing.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetSpacing, GetSpacing method [Windows Controls], GetSpacing method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetSpacing method, ITextFont.GetSpacing, ITextFont::GetSpacing, _win32_ITextFont_GetSpacing, _win32_ITextFont_GetSpacing_cpp, controls.ITextFont_GetSpacing, controls._win32_ITextFont_GetSpacing, tom/ITextFont::GetSpacing
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.GetSpacing"
+f1_keywords:
+- tom/ITextFont.GetSpacing
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.GetSpacing
+- ITextFont.GetSpacing
 targetos: Windows
 req.typenames: 
 req.redist: 

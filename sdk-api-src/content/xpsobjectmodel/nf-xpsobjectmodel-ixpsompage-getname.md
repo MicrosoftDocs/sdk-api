@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetName
 title: IXpsOMPage::GetName (xpsobjectmodel.h)
-
 description: Gets the Name property of the page.
 old-location: xps\ixpsompage_getname.htm
 tech.root: printdocs
 ms.assetid: 0c133dce-3a5a-4d7f-af83-2e185450c207
-
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [XPS Documents and Packaging], GetName method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetName method, IXpsOMPage.GetName, IXpsOMPage::GetName, xps.ixpsompage_getname, xpsobjectmodel/IXpsOMPage::GetName
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPage.GetName"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPage.GetName
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPage.GetName
+- IXpsOMPage.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 

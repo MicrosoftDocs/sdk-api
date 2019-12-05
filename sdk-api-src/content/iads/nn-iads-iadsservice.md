@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsService
 title: IADsService (iads.h)
-
 description: The IADsService interface is a dual interface that inherits from IADs.
 old-location: adsi\iadsservice.htm
 tech.root: adsi
 ms.assetid: b59a6594-1109-4913-8a83-4888e56e71d0
-
 ms.date: 12/05/2018
 ms.keywords: IADsService, IADsService interface [ADSI], IADsService interface [ADSI],described, _ds_iadsservice, adsi.iadsservice, iads/IADsService
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsService"
+f1_keywords:
+- iads/IADsService
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsService
+- IADsService
 targetos: Windows
 req.typenames: 
 req.redist: 

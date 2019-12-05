@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.IRtwqPlatformEvents.ShutdownStart
 title: IRtwqPlatformEvents::ShutdownStart (rtworkq.h)
-
 description: Called before the platform is about to shutdown.
 old-location: base\irtwqplatformevents_shutdownstart.htm
 tech.root: ProcThread
 ms.assetid: B2D3F35E-B859-4735-A11C-B3CB6ACD81EC
-
 ms.date: 12/05/2018
 ms.keywords: IRtwqPlatformEvents interface,ShutdownStart method, IRtwqPlatformEvents.ShutdownStart, IRtwqPlatformEvents::ShutdownStart, ShutdownStart, ShutdownStart method, ShutdownStart method,IRtwqPlatformEvents interface, base.irtwqplatformevents_shutdownstart, rtworkq/IRtwqPlatformEvents::ShutdownStart
 ms.topic: method
-f1_keywords: 
- - "rtworkq/IRtwqPlatformEvents.ShutdownStart"
+f1_keywords:
+- rtworkq/IRtwqPlatformEvents.ShutdownStart
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - IRtwqPlatformEvents.ShutdownStart
+- IRtwqPlatformEvents.ShutdownStart
 targetos: Windows
 req.typenames: 
 req.redist: 

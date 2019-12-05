@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.get_State
 title: ILegacyIAccessibleProvider::get_State (uiautomationcore.h)
-
 description: Specifies the state of this element.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_State.htm
 tech.root: WinAuto
 ms.assetid: fe1a3ffe-b532-4bb4-850f-032fa32e4c56
-
 ms.date: 12/05/2018
 ms.keywords: ILegacyIAccessibleProvider interface [Windows Accessibility],State property, ILegacyIAccessibleProvider.State, ILegacyIAccessibleProvider.get_State, ILegacyIAccessibleProvider::State, ILegacyIAccessibleProvider::get_State, State property [Windows Accessibility], State property [Windows Accessibility],ILegacyIAccessibleProvider interface, get_State, uiauto.uiauto_ILegacyIAccessibleProvider_State, uiauto_ILegacyIAccessibleProvider_State, uiautomationcore/ILegacyIAccessibleProvider::State, uiautomationcore/ILegacyIAccessibleProvider::get_State, winauto.uiauto_ILegacyIAccessibleProvider_State
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ILegacyIAccessibleProvider.State"
+f1_keywords:
+- uiautomationcore/ILegacyIAccessibleProvider.State
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: UiAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UiAutomationCore.dll
+- UiAutomationCore.dll
 api_name:
- - ILegacyIAccessibleProvider.State
- - ILegacyIAccessibleProvider.get_State
+- ILegacyIAccessibleProvider.State
+- ILegacyIAccessibleProvider.get_State
 targetos: Windows
 req.typenames: 
 req.redist: 

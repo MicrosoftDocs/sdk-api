@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetScopeProps
 title: IMetaDataImport::GetScopeProps (rometadataapi.h)
-
 description: Gets the name and optionally the version identifier of the assembly or module in the current metadata scope.
 old-location: winrt\imetadataimport_getscopeprops.htm
 tech.root: WinRT
 ms.assetid: e7c7cc92-fa0e-426d-b26d-d8f87bffad7d
-
 ms.date: 12/05/2018
 ms.keywords: GetScopeProps, GetScopeProps method [Windows Runtime], GetScopeProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetScopeProps method, IMetaDataImport.GetScopeProps, IMetaDataImport::GetScopeProps, rometadataapi/IMetaDataImport::GetScopeProps, winrt.imetadataimport_getscopeprops
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.GetScopeProps"
+f1_keywords:
+- rometadataapi/IMetaDataImport.GetScopeProps
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.GetScopeProps
+- IMetaDataImport.GetScopeProps
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:tokenbinding.TOKENBINDING_EXTENSION_FORMAT
 title: TOKENBINDING_EXTENSION_FORMAT (tokenbinding.h)
-
 description: Specifies the formats that are available to interpret extension data.
 old-location: security\tokenbinding_extension_format.htm
 tech.root: SecCNG
 ms.assetid: EBF14890-3F7D-4814-93E1-570E81E05DF2
-
 ms.date: 12/05/2018
 ms.keywords: TOKENBINDING_EXTENSION_FORMAT, TOKENBINDING_EXTENSION_FORMAT enumeration [Security], TOKENBINDING_EXTENSION_FORMAT_UNDEFINED, security.tokenbinding_extension_format, tokenbinding/TOKENBINDING_EXTENSION_FORMAT, tokenbinding/TOKENBINDING_EXTENSION_FORMAT_UNDEFINED
 ms.topic: enum
-f1_keywords: 
- - "tokenbinding/TOKENBINDING_EXTENSION_FORMAT"
+f1_keywords:
+- tokenbinding/TOKENBINDING_EXTENSION_FORMAT
 dev_langs:
- - c++
+- c++
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - tokenbinding.h
+- tokenbinding.h
 api_name:
- - TOKENBINDING_EXTENSION_FORMAT
+- TOKENBINDING_EXTENSION_FORMAT
 targetos: Windows
 req.typenames: TOKENBINDING_EXTENSION_FORMAT
 req.redist: 

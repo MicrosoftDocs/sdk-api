@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwRule.get_LocalAddresses
 title: INetFwRule::get_LocalAddresses (netfw.h)
-
 description: Specifies the list of local addresses for this rule.
 old-location: ics\inetfwrule_localaddresses.htm
 tech.root: ics
 ms.assetid: e95c6545-770b-430f-a1fc-32dcaac0eaa0
-
 ms.date: 12/05/2018
 ms.keywords: INetFwRule interface [ICS/ICF],LocalAddresses property, INetFwRule.LocalAddresses, INetFwRule.get_LocalAddresses, INetFwRule::LocalAddresses, INetFwRule::get_LocalAddresses, INetFwRule::put_LocalAddresses, LocalAddresses property [ICS/ICF], LocalAddresses property [ICS/ICF],INetFwRule interface, get_LocalAddresses, ics.inetfwrule_localaddresses, netfw/INetFwRule::LocalAddresses, netfw/INetFwRule::get_LocalAddresses, netfw/INetFwRule::put_LocalAddresses
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwRule.LocalAddresses"
+f1_keywords:
+- netfw/INetFwRule.LocalAddresses
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwRule.LocalAddresses
- - INetFwRule.get_LocalAddresses
- - INetFwRule.put_LocalAddresses
+- INetFwRule.LocalAddresses
+- INetFwRule.get_LocalAddresses
+- INetFwRule.put_LocalAddresses
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:inked.IInkEdit.get_Locked
 title: IInkEdit::get_Locked (inked.h)
-
 description: Gets or sets a value indicating whether the contents of the InkEdit control can be edited.
 old-location: tablet\inkedit_locked.htm
 tech.root: tablet
 ms.assetid: 67488146-b2ca-484a-b9e5-e2a8c9519d69
-
 ms.date: 12/05/2018
 ms.keywords: IInkEdit interface [Tablet PC],Locked property, IInkEdit.Locked, IInkEdit.get_Locked, IInkEdit::Locked, IInkEdit::get_Locked, IInkEdit::put_Locked, InkEdit.get_Locked, InkEdit.put_Locked, Locked property [Tablet PC], Locked property [Tablet PC],IInkEdit interface, get_Locked, inked/IInkEdit::Locked, inked/IInkEdit::get_Locked, inked/IInkEdit::put_Locked, put_Locked, tablet.inkedit_locked
 ms.topic: method
-f1_keywords: 
- - "inked/IInkEdit.Locked"
+f1_keywords:
+- inked/IInkEdit.Locked
 dev_langs:
- - c++
+- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkEd.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkEd.dll
- - InkEd.dll.dll
+- InkEd.dll
+- InkEd.dll.dll
 api_name:
- - IInkEdit.Locked
- - IInkEdit.get_Locked
- - IInkEdit.put_Locked
- - InkEdit.get_Locked
- - InkEdit.put_Locked
+- IInkEdit.Locked
+- IInkEdit.get_Locked
+- IInkEdit.put_Locked
+- InkEdit.get_Locked
+- InkEdit.put_Locked
 targetos: Windows
 req.typenames: 
 req.redist: 

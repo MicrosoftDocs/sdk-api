@@ -1,19 +1,17 @@
 ---
 UID: NN:directml.IDMLDebugDevice
 title: IDMLDebugDevice
-
 description: Controls the DirectML debug layers.
 old-location: direct3d12\idmldebugdevice.htm
 tech.root: direct3d12
 ms.assetid: 6602B70E-19EA-4C3D-B01C-16EC4830AB7F
-
 ms.date: 12/5/2018
 ms.keywords: IDMLDebugDevice, IDMLDebugDevice interface, IDMLDebugDevice interface,described, direct3d12.idmldebugdevice, directml/IDMLDebugDevice
 ms.topic: interface
-f1_keywords: 
- - "directml/IDMLDebugDevice"
+f1_keywords:
+- directml/IDMLDebugDevice
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - IDMLDebugDevice
+- IDMLDebugDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

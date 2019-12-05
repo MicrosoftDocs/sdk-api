@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_2
 title: RSVP_SESSION (lpmapi.h)
-
 description: The RSVP_SESSION structure stores information about an RSVP SESSION message.
 old-location: qos\rsvp_session.htm
 tech.root: QOS
 ms.assetid: d6674de9-7d79-40f2-ae45-4410408ba047
-
 ms.date: 12/05/2018
 ms.keywords: RSVP_SESSION, RSVP_SESSION structure [QOS], lpmapi/RSVP_SESSION, qos.rsvp_session
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/RSVP_SESSION"
+f1_keywords:
+- lpmapi/RSVP_SESSION
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - RSVP_SESSION
+- RSVP_SESSION
 targetos: Windows
 req.typenames: RSVP_SESSION
 req.redist: 

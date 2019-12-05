@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFontFile.GetLoader
 title: IDWriteFontFile::GetLoader (dwrite.h)
-
 description: Obtains the file loader associated with a font file object.
 old-location: directwrite\IDWriteFontFile_GetLoader.htm
 tech.root: DirectWrite
 ms.assetid: 60f13a03-2063-4f74-8bfe-217b6c1682ff
-
 ms.date: 12/05/2018
 ms.keywords: GetLoader, GetLoader method [Direct Write], GetLoader method [Direct Write],IDWriteFontFile interface, IDWriteFontFile interface [Direct Write],GetLoader method, IDWriteFontFile.GetLoader, IDWriteFontFile::GetLoader, directwrite.IDWriteFontFile_GetLoader, dwrite/IDWriteFontFile::GetLoader
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFontFile.GetLoader"
+f1_keywords:
+- dwrite/IDWriteFontFile.GetLoader
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFile.GetLoader
+- IDWriteFontFile.GetLoader
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_FDC.GetStatus
 title: IBDA_FDC::GetStatus (bdaiface.h)
-
 description: Gets the tuning status of the Forward Data Channel (FDC) stream.
 old-location: mstv\ibda_fdc_getstatus.htm
 tech.root: mstv
 ms.assetid: feaa3d72-353f-45ed-b458-7345bbe07dd2
-
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Microsoft TV Technologies], GetStatus method [Microsoft TV Technologies],IBDA_FDC interface, IBDA_FDC interface [Microsoft TV Technologies],GetStatus method, IBDA_FDC.GetStatus, IBDA_FDC::GetStatus, bdaiface/IBDA_FDC::GetStatus, mstv.ibda_fdc_getstatus
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_FDC.GetStatus"
+f1_keywords:
+- bdaiface/IBDA_FDC.GetStatus
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_FDC.GetStatus
+- IBDA_FDC.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

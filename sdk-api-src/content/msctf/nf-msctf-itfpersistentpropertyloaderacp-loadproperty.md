@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfPersistentPropertyLoaderACP.LoadProperty
 title: ITfPersistentPropertyLoaderACP::LoadProperty (msctf.h)
-
 description: ITfPersistentPropertyLoaderACP::LoadProperty method
 old-location: tsf\itfpersistentpropertyloaderacp_loadproperty.htm
 tech.root: TSF
 ms.assetid: 20730a90-e59c-46ae-a0bf-a212b201351c
-
 ms.date: 12/05/2018
 ms.keywords: ITfPersistentPropertyLoaderACP interface [Text Services Framework],LoadProperty method, ITfPersistentPropertyLoaderACP.LoadProperty, ITfPersistentPropertyLoaderACP::LoadProperty, LoadProperty, LoadProperty method [Text Services Framework], LoadProperty method [Text Services Framework],ITfPersistentPropertyLoaderACP interface, _tsf_itfpersistentpropertyloaderacp_loadproperty_ref, msctf/ITfPersistentPropertyLoaderACP::LoadProperty, tsf.itfpersistentpropertyloaderacp_loadproperty
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfPersistentPropertyLoaderACP.LoadProperty"
+f1_keywords:
+- msctf/ITfPersistentPropertyLoaderACP.LoadProperty
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfPersistentPropertyLoaderACP.LoadProperty
+- ITfPersistentPropertyLoaderACP.LoadProperty
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

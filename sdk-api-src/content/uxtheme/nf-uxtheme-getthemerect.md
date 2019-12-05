@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemeRect
 title: GetThemeRect function (uxtheme.h)
-
 description: Retrieves the value of a RECT property.
 old-location: controls\GetThemeRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemerect.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetThemeRect, GetThemeRect function [Windows Controls], controls.GetThemeRect, controls.inet_GetThemeRect, inet_GetThemeRect, inet_GetThemeRect_cpp, uxtheme/GetThemeRect
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemeRect"
+f1_keywords:
+- uxtheme/GetThemeRect
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - GetThemeRect
+- GetThemeRect
 targetos: Windows
 req.typenames: 
 req.redist: 

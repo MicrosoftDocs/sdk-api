@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaSourceEx.GetSourceAttributes
 title: IMFMediaSourceEx::GetSourceAttributes (mfidl.h)
-
 description: Gets an attribute store for the media source.
 old-location: mf\imfmediasourceex_getsourceattributes.htm
 tech.root: medfound
 ms.assetid: A58A2537-1ABD-4EC5-AC84-A5FFA7127CEB
-
 ms.date: 12/05/2018
 ms.keywords: GetSourceAttributes, GetSourceAttributes method [Media Foundation], GetSourceAttributes method [Media Foundation],IMFMediaSourceEx interface, IMFMediaSourceEx interface [Media Foundation],GetSourceAttributes method, IMFMediaSourceEx.GetSourceAttributes, IMFMediaSourceEx::GetSourceAttributes, mf.imfmediasourceex_getsourceattributes, mfidl/IMFMediaSourceEx::GetSourceAttributes
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaSourceEx.GetSourceAttributes"
+f1_keywords:
+- mfidl/IMFMediaSourceEx.GetSourceAttributes
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFMediaSourceEx.GetSourceAttributes
+- IMFMediaSourceEx.GetSourceAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

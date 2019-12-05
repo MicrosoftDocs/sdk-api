@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITTerminal
 title: ITTerminal (tapi3if.h)
-
 description: The ITTerminal interface is the base interface for a Terminal object.
 old-location: tapi3\itterminal.htm
 tech.root: Tapi
 ms.assetid: 38bc30fa-3e4e-417a-9d04-931ba2451fa4
-
 ms.date: 12/05/2018
 ms.keywords: ITTerminal, ITTerminal interface [TAPI 2.2], ITTerminal interface [TAPI 2.2],described, _tapi3_itterminal, tapi3.itterminal, tapi3if/ITTerminal
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITTerminal"
+f1_keywords:
+- tapi3if/ITTerminal
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3if.h
+- Tapi3if.h
 api_name:
- - ITTerminal
+- ITTerminal
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imm.ImmConfigureIMEA
 title: ImmConfigureIMEA function (imm.h)
-
 description: Displays the configuration dialog box for the IME of the specified input locale identifier.
 old-location: intl\immconfigureime.htm
 tech.root: Intl
 ms.assetid: acefb3a0-82c7-4af6-8ef0-aba561f570c1
-
 ms.date: 12/05/2018
 ms.keywords: IME_CONFIG_GENERAL, IME_CONFIG_REGISTERWORD, IME_CONFIG_SELECTDICTIONARY, ImmConfigureIME, ImmConfigureIME function [Internationalization for Windows Applications], ImmConfigureIMEA, ImmConfigureIMEW, _win32_ImmConfigureIME, imm/ImmConfigureIME, imm/ImmConfigureIMEA, imm/ImmConfigureIMEW, intl.immconfigureime
 ms.topic: function
-f1_keywords: 
- - "imm/ImmConfigureIME"
+f1_keywords:
+- imm/ImmConfigureIME
 dev_langs:
- - c++
+- c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - imm32.dll
+- imm32.dll
 api_name:
- - ImmConfigureIME
- - ImmConfigureIMEA
- - ImmConfigureIMEW
+- ImmConfigureIME
+- ImmConfigureIMEA
+- ImmConfigureIMEW
 targetos: Windows
 req.typenames: 
 req.redist: 

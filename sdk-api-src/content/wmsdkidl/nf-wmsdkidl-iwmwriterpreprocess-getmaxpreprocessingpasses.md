@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPreprocess.GetMaxPreprocessingPasses
 title: IWMWriterPreprocess::GetMaxPreprocessingPasses (wmsdkidl.h)
-
 description: The GetMaxPreprocessingPasses method retrieves the maximum number of preprocessing passes for a specified input stream.
 old-location: wmformat\iwmwriterpreprocess_getmaxpreprocessingpasses.htm
 tech.root: wmformat
 ms.assetid: 6acdc536-8b38-4fd4-9705-f4399dfc3faa
-
 ms.date: 12/05/2018
 ms.keywords: GetMaxPreprocessingPasses, GetMaxPreprocessingPasses method [windows Media Format], GetMaxPreprocessingPasses method [windows Media Format],IWMWriterPreprocess interface, IWMWriterPreprocess interface [windows Media Format],GetMaxPreprocessingPasses method, IWMWriterPreprocess.GetMaxPreprocessingPasses, IWMWriterPreprocess::GetMaxPreprocessingPasses, IWMWriterPreprocessGetMaxPreprocessingPasses, wmformat.iwmwriterpreprocess_getmaxpreprocessingpasses, wmsdkidl/IWMWriterPreprocess::GetMaxPreprocessingPasses
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterPreprocess.GetMaxPreprocessingPasses"
+f1_keywords:
+- wmsdkidl/IWMWriterPreprocess.GetMaxPreprocessingPasses
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterPreprocess.GetMaxPreprocessingPasses
+- IWMWriterPreprocess.GetMaxPreprocessingPasses
 targetos: Windows
 req.typenames: 
 req.redist: 

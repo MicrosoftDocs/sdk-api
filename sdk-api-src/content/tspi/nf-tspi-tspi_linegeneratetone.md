@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineGenerateTone
 title: TSPI_lineGenerateTone function (tspi.h)
-
 description: The TSPI_lineGenerateTone function generates the specified tone inband over the specified call.
 old-location: tspi\tspi_linegeneratetone.htm
 tech.root: Tapi
 ms.assetid: 195d0974-ff0f-4274-9278-5276512fcba4
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGenerateTone, TSPI_lineGenerateTone function [TAPI 2.2], _tspi_tspi_linegeneratetone, tspi.tspi_linegeneratetone, tspi/TSPI_lineGenerateTone
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineGenerateTone"
+f1_keywords:
+- tspi/TSPI_lineGenerateTone
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineGenerateTone
+- TSPI_lineGenerateTone
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IPin.ConnectedTo
 title: IPin::ConnectedTo (strmif.h)
-
 description: The ConnectedTo method retrieves a pointer to the connected pin, if any.
 old-location: dshow\ipin_connectedto.htm
 tech.root: DirectShow
 ms.assetid: 970c814f-2309-481e-9e8e-9bd32b83fdc7
-
 ms.date: 12/05/2018
 ms.keywords: ConnectedTo, ConnectedTo method [DirectShow], ConnectedTo method [DirectShow],IPin interface, IPin interface [DirectShow],ConnectedTo method, IPin.ConnectedTo, IPin::ConnectedTo, IPinConnectedTo, dshow.ipin_connectedto, strmif/IPin::ConnectedTo
 ms.topic: method
-f1_keywords: 
- - "strmif/IPin.ConnectedTo"
+f1_keywords:
+- strmif/IPin.ConnectedTo
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IPin.ConnectedTo
+- IPin.ConnectedTo
 targetos: Windows
 req.typenames: 
 req.redist: 

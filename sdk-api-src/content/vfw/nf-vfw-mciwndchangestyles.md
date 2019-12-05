@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.MCIWndChangeStyles
 title: MCIWndChangeStyles macro (vfw.h)
-
 description: The MCIWndChangeStyles macro changes the styles used by the MCIWnd window. You can use this macro or explicitly send the MCIWNDM_CHANGESTYLES message.
 old-location: multimedia\mciwndchangestyles.htm
 tech.root: Multimedia
 ms.assetid: d87da0b0-4217-421d-a9d5-03602fb2b477
-
 ms.date: 12/05/2018
 ms.keywords: MCIWndChangeStyles, MCIWndChangeStyles macro [Windows Multimedia], _win32_MCIWndChangeStyles, multimedia.mciwndchangestyles, vfw/MCIWndChangeStyles
 ms.topic: macro
-f1_keywords: 
- - "vfw/MCIWndChangeStyles"
+f1_keywords:
+- vfw/MCIWndChangeStyles
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - MCIWndChangeStyles
+- MCIWndChangeStyles
 targetos: Windows
 req.typenames: 
 req.redist: 

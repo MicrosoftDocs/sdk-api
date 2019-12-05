@@ -1,19 +1,17 @@
 ---
 UID: NE:drt.drt_scope_tag
 title: DRT_SCOPE (drt.h)
-
 description: The DRT_SCOPE enumeration defines the set of IPv6 scopes in which DRT operates while using the IPv6 UDP transport created by DrtCreateIpv6UdpTransport.
 old-location: p2p\drt_scope.htm
 tech.root: P2PSdk
 ms.assetid: 0b144ec0-c2d7-4996-84a0-4ab137285a30
-
 ms.date: 12/05/2018
 ms.keywords: DRT_GLOBAL_SCOPE, DRT_LINK_LOCAL_SCOPE, DRT_SCOPE, DRT_SCOPE enumeration [Peer Networking], DRT_SITE_LOCAL_SCOPE, drt/DRT_GLOBAL_SCOPE, drt/DRT_LINK_LOCAL_SCOPE, drt/DRT_SCOPE, drt/DRT_SITE_LOCAL_SCOPE, p2p.drt_scope
 ms.topic: enum
-f1_keywords: 
- - "drt/DRT_SCOPE"
+f1_keywords:
+- drt/DRT_SCOPE
 dev_langs:
- - c++
+- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - drt.h
+- drt.h
 api_name:
- - DRT_SCOPE
+- DRT_SCOPE
 targetos: Windows
 req.typenames: DRT_SCOPE
 req.redist: 

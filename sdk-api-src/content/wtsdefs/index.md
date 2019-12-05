@@ -1,7 +1,6 @@
 ---
 UID: NA:wtsdefs
 ms.assetid: ed07fa69-7fea-3bcc-b479-b6d13983e720
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoder.GetFrame
 title: IWICBitmapDecoder::GetFrame (wincodec.h)
-
 description: Retrieves the specified frame of the image.
 old-location: wic\_wic_codec_iwicbitmapdecoder_getframe.htm
 tech.root: wic
 ms.assetid: 5e8c1cfd-50f3-431c-aedb-6e57d1368695
-
 ms.date: 12/05/2018
 ms.keywords: GetFrame, GetFrame method [Windows Imaging Component], GetFrame method [Windows Imaging Component],IWICBitmapDecoder interface, IWICBitmapDecoder interface [Windows Imaging Component],GetFrame method, IWICBitmapDecoder.GetFrame, IWICBitmapDecoder::GetFrame, _wic_codec_iwicbitmapdecoder_getframe, wic._wic_codec_iwicbitmapdecoder_getframe, wincodec/IWICBitmapDecoder::GetFrame
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapDecoder.GetFrame"
+f1_keywords:
+- wincodec/IWICBitmapDecoder.GetFrame
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapDecoder.GetFrame
+- IWICBitmapDecoder.GetFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

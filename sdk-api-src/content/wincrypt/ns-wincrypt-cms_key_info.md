@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CMS_KEY_INFO
 title: CMS_KEY_INFO (wincrypt.h)
-
 description: Not used.
 old-location: security\cms_key_info.htm
 tech.root: SecCrypto
 ms.assetid: 4aec1184-d375-48a0-8b98-d5ff5932d297
-
 ms.date: 12/05/2018
-ms.keywords: "*PCMS_KEY_INFO, CMS_KEY_INFO, CMS_KEY_INFO structure [Security], PCMS_KEY_INFO, PCMS_KEY_INFO structure pointer [Security], security.cms_key_info, wincrypt/CMS_KEY_INFO, wincrypt/PCMS_KEY_INFO"
+ms.keywords: '*PCMS_KEY_INFO, CMS_KEY_INFO, CMS_KEY_INFO structure [Security], PCMS_KEY_INFO, PCMS_KEY_INFO structure pointer [Security], security.cms_key_info, wincrypt/CMS_KEY_INFO, wincrypt/PCMS_KEY_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CMS_KEY_INFO"
+f1_keywords:
+- wincrypt/CMS_KEY_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CMS_KEY_INFO
+- CMS_KEY_INFO
 targetos: Windows
 req.typenames: CMS_KEY_INFO, *PCMS_KEY_INFO
 req.redist: 

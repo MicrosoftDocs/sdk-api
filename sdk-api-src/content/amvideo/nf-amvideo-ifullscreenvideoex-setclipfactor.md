@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.SetClipFactor
 title: IFullScreenVideoEx::SetClipFactor (amvideo.h)
-
 description: The SetClipFactor method specifies the clip factor, which determines how much of the video the Full Screen Renderer is allowed to clip.
 old-location: dshow\ifullscreenvideoex_setclipfactor.htm
 tech.root: DirectShow
 ms.assetid: 3e2cefd3-491f-4ba4-a234-047fe4e6c6cc
-
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetClipFactor method, IFullScreenVideoEx.SetClipFactor, IFullScreenVideoEx::SetClipFactor, IFullScreenVideoSetClipFactor, SetClipFactor, SetClipFactor method [DirectShow], SetClipFactor method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetClipFactor, dshow.ifullscreenvideoex_setclipfactor
 ms.topic: method
-f1_keywords: 
- - "amvideo/IFullScreenVideoEx.SetClipFactor"
+f1_keywords:
+- amvideo/IFullScreenVideoEx.SetClipFactor
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFullScreenVideoEx.SetClipFactor
+- IFullScreenVideoEx.SetClipFactor
 targetos: Windows
 req.typenames: 
 req.redist: 

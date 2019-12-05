@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.ui.composition.interop.ICompositionDrawingSurfaceInterop.SuspendDraw
 title: ICompositionDrawingSurfaceInterop::composition (windows.ui.composition.interop.h)
-
 description: Suspends drawing on the surface object.
 old-location: w_ui_comp\icompositiondrawingsurfaceinterop_suspenddraw.htm
 tech.root: w_ui_comp
 ms.assetid: F8FEA76A-C271-44D6-9314-88E4AE535953
-
 ms.date: 12/05/2018
 ms.keywords: ICompositionDrawingSurfaceInterop interface,SuspendDraw method, ICompositionDrawingSurfaceInterop.SuspendDraw, ICompositionDrawingSurfaceInterop.composition, ICompositionDrawingSurfaceInterop::SuspendDraw, ICompositionDrawingSurfaceInterop::composition, SuspendDraw, SuspendDraw method, SuspendDraw method,ICompositionDrawingSurfaceInterop interface, w_ui_comp.icompositiondrawingsurfaceinterop_suspenddraw, windows/ICompositionDrawingSurfaceInterop::SuspendDraw
 ms.topic: method
-f1_keywords: 
- - "windows.ui.composition.interop/ICompositionDrawingSurfaceInterop.SuspendDraw"
+f1_keywords:
+- windows.ui.composition.interop/ICompositionDrawingSurfaceInterop.SuspendDraw
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.composition.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.ui.composition.interop.h
+- windows.ui.composition.interop.h
 api_name:
- - ICompositionDrawingSurfaceInterop.SuspendDraw
+- ICompositionDrawingSurfaceInterop.SuspendDraw
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.STPFLAG
 title: STPFLAG (shobjidl_core.h)
-
 description: Used by the ITaskbarList4::SetTabProperties method to specify tab properties.
 old-location: shell\STPFLAG.htm
 tech.root: shell
 ms.assetid: 7d50e4fe-1689-4dbd-b367-f4881d8d5d78
-
 ms.date: 12/05/2018
 ms.keywords: STPFLAG, STPFLAG enumeration [Windows Shell], STPF_NONE, STPF_USEAPPPEEKALWAYS, STPF_USEAPPPEEKWHENACTIVE, STPF_USEAPPTHUMBNAILALWAYS, STPF_USEAPPTHUMBNAILWHENACTIVE, _shell_STPFLAG, shell.STPFLAG, shobjidl_core/STPFLAG, shobjidl_core/STPF_NONE, shobjidl_core/STPF_USEAPPPEEKALWAYS, shobjidl_core/STPF_USEAPPPEEKWHENACTIVE, shobjidl_core/STPF_USEAPPTHUMBNAILALWAYS, shobjidl_core/STPF_USEAPPTHUMBNAILWHENACTIVE
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/STPFLAG"
+f1_keywords:
+- shobjidl_core/STPFLAG
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - STPFLAG
+- STPFLAG
 targetos: Windows
 req.typenames: STPFLAG
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IAutomaticUpdates.Resume
 title: IAutomaticUpdates::Resume (wuapi.h)
-
 description: Restarts automatic updating if automatic updating is paused.
 old-location: wua\iautomaticupdates_resume.htm
 tech.root: Wua_Sdk
 ms.assetid: 8aabfb89-89e2-450e-bfe6-62a48f93746f
-
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdates interface [Windows Update Agent],Resume method, IAutomaticUpdates.Resume, IAutomaticUpdates::Resume, Resume, Resume method [Windows Update Agent], Resume method [Windows Update Agent],IAutomaticUpdates interface, wua.iautomaticupdates_resume, wuapi/IAutomaticUpdates::Resume
 ms.topic: method
-f1_keywords: 
- - "wuapi/IAutomaticUpdates.Resume"
+f1_keywords:
+- wuapi/IAutomaticUpdates.Resume
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IAutomaticUpdates.Resume
+- IAutomaticUpdates.Resume
 targetos: Windows
 req.typenames: 
 req.redist: 

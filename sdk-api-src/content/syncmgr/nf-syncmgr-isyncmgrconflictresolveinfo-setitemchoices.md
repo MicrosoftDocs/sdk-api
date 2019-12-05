@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolveInfo.SetItemChoices
 title: ISyncMgrConflictResolveInfo::SetItemChoices (syncmgr.h)
-
 description: Sets the array of indexes that represents which items the user wants to keep. This method is used when the user chooses to apply the same operation to all selected conflicts of the same type from the same handler.
 old-location: shell\ISyncMgrConflictResolveInfo_SetItemChoices.htm
 tech.root: shell
 ms.assetid: e4485f49-9bcb-47a8-8559-da2217ee1eab
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrConflictResolveInfo interface [Windows Shell],SetItemChoices method, ISyncMgrConflictResolveInfo.SetItemChoices, ISyncMgrConflictResolveInfo::SetItemChoices, SetItemChoices, SetItemChoices method [Windows Shell], SetItemChoices method [Windows Shell],ISyncMgrConflictResolveInfo interface, _shell_ISyncMgrConflictResolveInfo_SetItemChoices, shell.ISyncMgrConflictResolveInfo_SetItemChoices, syncmgr/ISyncMgrConflictResolveInfo::SetItemChoices
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrConflictResolveInfo.SetItemChoices"
+f1_keywords:
+- syncmgr/ISyncMgrConflictResolveInfo.SetItemChoices
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrConflictResolveInfo.SetItemChoices
+- ISyncMgrConflictResolveInfo.SetItemChoices
 targetos: Windows
 req.typenames: 
 req.redist: 
