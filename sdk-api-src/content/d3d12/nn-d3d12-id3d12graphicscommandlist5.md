@@ -2,6 +2,7 @@
 UID: NN:d3d12.ID3D12GraphicsCommandList5
 title: ID3D12GraphicsCommandList5
 description: Encapsulates a list of graphics commands for rendering, extending the interface to support variable-rate shading (VRS).
+tech.root: direct3d12
 ms.date: 05/20/2019
 ms.keywords: ID3D12GraphicsCommandList5
 ms.topic: language-reference
