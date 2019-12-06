@@ -5,7 +5,7 @@ description: Converts the specified path to its long form.
 old-location: fs\getlongpathname.htm
 tech.root: FileIO
 ms.assetid: 8ce69033-b69b-438b-a27f-938dd327c8ec
-ms.date: 12/05/2018
+ms.date: 11/25/2019
 ms.keywords: GetLongPathName, GetLongPathName function [Files], GetLongPathNameA, GetLongPathNameW, _win32_getlongpathname, base.getlongpathname, fileapi/GetLongPathName, fileapi/GetLongPathNameA, fileapi/GetLongPathNameW, fs.getlongpathname, winbase/GetLongPathName, winbase/GetLongPathNameA, winbase/GetLongPathNameW
 ms.topic: function
 f1_keywords:
@@ -67,6 +67,11 @@ To perform this operation as a transacted operation, use the
 For more information about file and path names, see 
     <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
 
+> [!IMPORTANT]  
+> To use this function, the caller must have the following permissions on the specified path and parent directories:  
+> - List Folder
+> - Read Data
+> - Read Attributes
 
 ## -parameters
 
