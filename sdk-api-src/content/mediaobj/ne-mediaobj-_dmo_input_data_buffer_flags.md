@@ -1,12 +1,10 @@
 ---
 UID: NE:mediaobj._DMO_INPUT_DATA_BUFFER_FLAGS
-title: "_DMO_INPUT_DATA_BUFFER_FLAGS" (mediaobj.h)
-
+title: "_DMO_INPUT_DATA_BUFFER_FLAGS (mediaobj.h)"
 description: The DMO_INPUT_DATA_BUFFER_FLAGS enumeration defines flags that describe an input buffer.
 old-location: dshow\dmo_input_data_buffer_flags.htm
 tech.root: DirectShow
 ms.assetid: b0217926-ac2d-48e5-a5d0-e31be6ea20ac
-
 ms.date: 12/05/2018
 ms.keywords: DMO_INPUT_DATA_BUFFERF_SYNCPOINT, DMO_INPUT_DATA_BUFFERF_TIME, DMO_INPUT_DATA_BUFFERF_TIMELENGTH, DMO_INPUT_DATA_BUFFER_FLAGS , DMO_INPUT_DATA_BUFFER_FLAGSEnumeration, _DMO_INPUT_DATA_BUFFER_FLAGS, _DMO_INPUT_DATA_BUFFER_FLAGS enumeration [DirectShow], dshow.dmo_input_data_buffer_flags, mediaobj/DMO_INPUT_DATA_BUFFERF_SYNCPOINT, mediaobj/DMO_INPUT_DATA_BUFFERF_TIME, mediaobj/DMO_INPUT_DATA_BUFFERF_TIMELENGTH, mediaobj/_DMO_INPUT_DATA_BUFFER_FLAGS
 ms.topic: enum
