@@ -56,14 +56,14 @@ This property is read/write.
 
 ## -remarks
 
-### Parameters
-
-`coalesceEventsOptions` [out]
-
-Type: **CoalesceEventsOptions**
-
-Value indicating whether events are filtered. The default is [CoalesceEventsOptions_Disabled](ne-uiautomationclient-coalesceeventsoptions.md).
+> ### Parameters
+>
+> `coalesceEventsOptions` [out]
+>
+> Type: **CoalesceEventsOptions**
+>
+> Value indicating whether events are filtered. The default is [CoalesceEventsOptions_Disabled](ne-uiautomationclient-coalesceeventsoptions.md).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation6">IUIAutomation6</a>
+[IUIAutomation6 interface](nn-uiautomationclient-iuiautomation6.md)

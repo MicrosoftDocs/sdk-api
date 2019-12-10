@@ -54,7 +54,11 @@ Normalizes the text range by the specified text unit. The range is expanded if i
 
 #### - textUnit [in]
 
+<<<<<<< HEAD
+Type: **[TextUnit](../uiautomationcore/ne-uiautomationcore-textunit.md)**
+=======
 Type: **[TextUnit enumeration](../uiautomationcore/ne-uiautomationcore-textunit.md)**
+>>>>>>> master
 
 The text unit, such as line or paragraph.
 
@@ -66,6 +70,17 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 
 ## -remarks
 
+<<<<<<< HEAD
+> ### Parameters
+>
+> `textUnit` [in]
+>
+> Type: **[TextUnit](../uiautomationcore/ne-uiautomationcore-textunit.md)**
+>
+> The text unit, such as line or paragraph.
+
+=======
+>>>>>>> master
 Client applications such as screen readers use this method  to retrieve  the full word, sentence, or paragraph that exists at the insertion point or caret position.
 
 Despite its name, the ExpandToEnclosingUnit method does not necessarily expand a text range. Instead, it "normalizes" a text range by moving the endpoints so that the range encompasses the specified text unit. The range is expanded if it is smaller than the specified unit, or shortened if it is longer than the specified unit. If the range is already an exact quantity of the specified units, it remains unchanged. The following diagram shows how ExpandToEnclosingUnit normalizes a text range by moving the endpoints of the range.

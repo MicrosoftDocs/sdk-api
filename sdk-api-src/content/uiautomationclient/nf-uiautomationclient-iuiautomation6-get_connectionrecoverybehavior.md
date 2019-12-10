@@ -56,14 +56,14 @@ This property is read/write.
 
 ## -remarks
 
-### Parameters
-
-`connectionRecoveryBehaviorOptions` [in]
-
-Type: **ConnectionRecoveryBehaviorOptions**
-
-Value indicating whether provider request timeouts are adjusted. The default is [ConnectionRecoveryBehaviorOptions_Disabled](ne-uiautomationclient-connectionrecoverybehavioroptions.md).
+> ### Parameters
+>
+> `connectionRecoveryBehaviorOptions` [in]
+>
+> Type: **ConnectionRecoveryBehaviorOptions**
+>
+> Value indicating whether provider request timeouts are adjusted. The default is [ConnectionRecoveryBehaviorOptions_Disabled](ne-uiautomationclient-connectionrecoverybehavioroptions.md).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation6">IUIAutomation6</a>
+[IUIAutomation6 interface](nn-uiautomationclient-iuiautomation6.md)

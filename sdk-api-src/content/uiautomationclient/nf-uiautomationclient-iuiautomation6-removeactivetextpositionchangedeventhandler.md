@@ -46,60 +46,30 @@ ms.custom: RS5, 19H1
 
 # IUIAutomation6::RemoveActiveTextPositionChangedEventHandler
 
-
 ## -description
-
 
 Removes an active text position changed event handler.
 
-
 ## -parameters
-
-
-
 
 ### -param element [in]
 
 A pointer to the UI Automation element associated with the event handler.
 
-
 ### -param handler [in]
 
 A pointer to the object that handles the active text position changed event.
 
-
-
 ## -returns
-
-
 
 This method does not return a value.
 
-
-
-
 ## -remarks
 
-
-
-Before implementing an event handler, you should be familiar with the threading issues described in <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-threading">Understanding Threading Issues</a>.
+Before implementing an event handler, you should be familiar with the threading issues described in [Understanding Threading Issues](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-threading).
 
 It is possible for an event to be delivered to an event handler after the handler has been unsubscribed, if the event is received simultaneously with the request to unsubscribe the event. The best practice is to follow the Component Object Model (COM) standard and avoid destroying the event handler object until its reference count has reached zero. Destroying an event handler immediately after unsubscribing for events may result in an access violation if an event is delivered late.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation6-addactivetextpositionchangedeventhandler">AddActiveTextPositionChangedEventHandler</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation6">IUIAutomation6</a>
- 
-
- 
-
+[IUIAutomation6::AddActiveTextPositionChangedEventHandler](nf-uiautomationclient-iuiautomation6-addactivetextpositionchangedeventhandler.md), [IUIAutomation6 interface](nn-uiautomationclient-iuiautomation6.md)
