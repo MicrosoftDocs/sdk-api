@@ -46,92 +46,73 @@ ms.custom: 19H1
 
 # IUIAutomationTextRange::ExpandToEnclosingUnit
 
-
 ## -description
 
-
-Normalizes the text range by the specified text unit. The range is expanded if it is smaller than the specified unit, or shortened if it is 
-		  longer than the specified unit.
-
+Normalizes the text range by the specified text unit. The range is expanded if it is smaller than the specified unit, or shortened if it is longer than the specified unit.
 
 ## -parameters
 
-
-
-
-
-
 #### - textUnit [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textunit">TextUnit</a></b>
+<<<<<<< HEAD
+Type: **[TextUnit](../uiautomationcore/ne-uiautomationcore-textunit.md)**
+=======
+Type: **[TextUnit enumeration](../uiautomationcore/ne-uiautomationcore-textunit.md)**
+>>>>>>> master
 
 The text unit, such as line or paragraph.
 
-
 ## -returns
 
+Type: **[HRESULT](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
 
 ## -remarks
 
+<<<<<<< HEAD
+> ### Parameters
+>
+> `textUnit` [in]
+>
+> Type: **[TextUnit](../uiautomationcore/ne-uiautomationcore-textunit.md)**
+>
+> The text unit, such as line or paragraph.
 
-
+=======
+>>>>>>> master
 Client applications such as screen readers use this method  to retrieve  the full word, sentence, or paragraph that exists at the insertion point or caret position.
 
-Despite its name, the <b>ExpandToEnclosingUnit</b> method does not necessarily expand a text range. Instead, it "normalizes" a text range by moving the endpoints so that the range encompasses the specified text unit. The range is expanded if it is smaller than the specified unit, or shortened if it is longer than the specified unit. If the range is already an exact quantity of the specified units, it remains unchanged. The following diagram shows how <b>ExpandToEnclosingUnit</b> normalizes a text range by moving the endpoints of the range. 
-            
+Despite its name, the ExpandToEnclosingUnit method does not necessarily expand a text range. Instead, it "normalizes" a text range by moving the endpoints so that the range encompasses the specified text unit. The range is expanded if it is smaller than the specified unit, or shortened if it is longer than the specified unit. If the range is already an exact quantity of the specified units, it remains unchanged. The following diagram shows how ExpandToEnclosingUnit normalizes a text range by moving the endpoints of the range.
 
-<img alt="Diagram showing endpoints before and after ExpandToEnclosingUnit" src="./images/ExpandToEnclosingUnit.jpg"/>
-<b>ExpandToEnclosingUnit</b> defaults to the next largest text unit 
-        supported if the specified text unit is not supported by the control. 
-        
-        The order, from smallest unit to largest, is as follows:
-        
+![Diagram showing endpoints before and after ExpandToEnclosingUnit](./images/ExpandToEnclosingUnit.jpg)
 
-<ul>
-<li><i>Character</i></li>
-<li><i>Format</i></li>
-<li><i>Word</i></li>
-<li><i>Line</i></li>
-<li><i>Paragraph</i></li>
-<li><i>Page</i></li>
-<li><i>Document</i></li>
-</ul>
-<b>ExpandToEnclosingUnit</b> respects both visible and hidden text. 
-        
+*Diagram showing endpoints before and after ExpandToEnclosingUnit*
 
-<h3><a id="Range_behavior_when_unit_is_TextUnit__Format"></a><a id="range_behavior_when_unit_is_textunit__format"></a><a id="RANGE_BEHAVIOR_WHEN_UNIT_IS_TEXTUNIT__FORMAT"></a>Range behavior when <i>unit</i> is <code>TextUnit::Format</code></h3>
-<code>TextUnit::Format</code> as a <i>unit</i> value positions the boundary of a text range to expand or move the range based on shared text attributes (format) of the text within the range. However, using the format text unit will not move or expand a text range across the boundary of an embedded object, such as an image or hyperlink. For more info, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-uiautomationtextunits">UI Automation Text Units</a> or <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>.
+ExpandToEnclosingUnit defaults to the next largest text unit supported if the specified text unit is not supported by the control.
 
+The order, from smallest unit to largest, is as follows:
 
+- Character
+- Format
+- Word
+- Line
+- Paragraph
+- Page
+- Document
 
+ExpandToEnclosingUnit respects both visible and hidden text.
+
+### Range behavior when *unit* is `TextUnit::Format`
+
+`TextUnit::Format`, as a *unit* value, positions the boundary of a text range to expand or move the range based on shared text attributes (format) of the text within the range. However, using the Format text unit does not move or expand a text range across the boundary of an embedded object, such as an image or hyperlink. For more info, see [UI Automation Text Units](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-uiautomationtextunits) or [UI Automation Support for Textual Content](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview).
 
 ## -see-also
 
-
-
-
 <b>Conceptual</b>
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextrange">IUIAutomationTextRange</a>
-
-
+[IUIAutomationTextRange interface](nn-uiautomationclient-iuiautomationtextrange.md)
 
 <b>Reference</b>
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
- 
-
- 
-
+[UI Automation Support for Textual Content](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview)

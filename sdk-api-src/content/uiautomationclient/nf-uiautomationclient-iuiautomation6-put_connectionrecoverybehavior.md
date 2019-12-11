@@ -5,7 +5,7 @@ description: Indicates whether an accessible technology client adjusts provider 
 old-location: winauto\uiauto_IUIAutomation6_ConnectionRecoveryBehavior.htm
 tech.root: WinAuto
 ms.assetid: 09184E02-1007-4F49-8B03-97430CD6327E
-ms.date: 12/05/2018
+ms.date: 12/05/2019
 ms.keywords: ConnectionRecoveryBehavior property [Windows Accessibility], ConnectionRecoveryBehavior property [Windows Accessibility],IUIAutomation6 interface, IUIAutomation6 interface [Windows Accessibility],ConnectionRecoveryBehavior property, IUIAutomation6.ConnectionRecoveryBehavior, IUIAutomation6.put_ConnectionRecoveryBehavior, IUIAutomation6::ConnectionRecoveryBehavior, IUIAutomation6::get_ConnectionRecoveryBehavior, IUIAutomation6::put_ConnectionRecoveryBehavior, put_ConnectionRecoveryBehavior, uiautomationclient/IUIAutomation6::ConnectionRecoveryBehavior, uiautomationclient/IUIAutomation6::get_ConnectionRecoveryBehavior, uiautomationclient/IUIAutomation6::put_ConnectionRecoveryBehavior, winauto.uiauto_IUIAutomation6_ConnectionRecoveryBehavior
 ms.topic: method
 f1_keywords:
@@ -60,14 +60,14 @@ See remarks.
 
 ## -remarks
 
-### Parameters
-
-`connectionRecoveryBehaviorOptions` [out]
-
-Type: **ConnectionRecoveryBehaviorOptions**
-
-Value indicating whether provider request timeouts are adjusted. The default is [ConnectionRecoveryBehaviorOptions_Disabled](ne-uiautomationclient-connectionrecoverybehavioroptions.md).
+> ### Parameters
+>
+> `connectionRecoveryBehaviorOptions` [out]
+>
+> Type: **ConnectionRecoveryBehaviorOptions**
+>
+> Value indicating whether provider request timeouts are adjusted. The default is [ConnectionRecoveryBehaviorOptions_Disabled](ne-uiautomationclient-connectionrecoverybehavioroptions.md).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation6">IUIAutomation6</a>
+[IUIAutomation6 interface](nn-uiautomationclient-iuiautomation6.md)
