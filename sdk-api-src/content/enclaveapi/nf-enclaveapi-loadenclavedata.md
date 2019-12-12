@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
-req.dll: Api-ms-win-core-enclave-l1-1-0.dll; Kernel32.dll; KernelBase.dll
+req.lib: onecore.lib
+req.dll: Api-ms-win-core-enclave-l1-1-0.dll; kernel32.dll; KernelBase.dll
 req.irql: 
 topic_type:
 - APIRef
