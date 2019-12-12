@@ -69,7 +69,7 @@ The
 ### -param lpNetResource [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure that specifies details of the proposed connection, such as information about the network resource, the local device, and the network resource provider. 
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure that specifies details of the proposed connection, such as information about the network resource, the local device, and the network resource provider. 
 
 
 
@@ -147,7 +147,7 @@ You should set this member only if you know the network provider you want to use
 
 The 
 <b>WNetAddConnection2</b> function ignores the other members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure.
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure.
 
 
 ### -param lpPassword [in]
@@ -270,7 +270,7 @@ This flag instructs the system not to use any default settings for user names or
 This flag forces the redirection of a local device when making the connection.
 
 If the <b>lpLocalName</b> member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> specifies a local device to redirect, this flag has no effect, because the operating system still attempts to redirect the specified device. When the operating system automatically chooses a local device, the <b>dwType</b> member must not be equal to RESOURCETYPE_ANY.
+<a href="https://docs.microsoft.com/en-us/windows/win32/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> specifies a local device to redirect, this flag has no effect, because the operating system still attempts to redirect the specified device. When the operating system automatically chooses a local device, the <b>dwType</b> member must not be equal to RESOURCETYPE_ANY.
 
 If this flag is not set, a local device is automatically chosen for redirection only if the network requires a local device to be redirected.
 
@@ -386,7 +386,7 @@ The type of local device and the type of network resource do not match.
 </dl>
 </td>
 <td width="60%">
-The specified device name is not valid. This error is returned if the <b>lpLocalName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter specifies a device that is not redirectable.
+The specified device name is not valid. This error is returned if the <b>lpLocalName</b> member of the <a href="https://docs.microsoft.com/en-us/windows/win32/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter specifies a device that is not redirectable.
 
 </td>
 </tr>
@@ -397,7 +397,7 @@ The specified device name is not valid. This error is returned if the <b>lpLocal
 </dl>
 </td>
 <td width="60%">
-The network name cannot be found. This value is returned if the <b>lpRemoteName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter specifies a resource that is not acceptable to any network resource provider, either because the resource name is empty, not valid, or because the named resource cannot be located.
+The network name cannot be found. This value is returned if the <b>lpRemoteName</b> member of the <a href="https://docs.microsoft.com/en-us/windows/win32/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter specifies a resource that is not acceptable to any network resource provider, either because the resource name is empty, not valid, or because the named resource cannot be located.
 
 </td>
 </tr>
@@ -419,7 +419,7 @@ The user profile is in an incorrect format.
 </dl>
 </td>
 <td width="60%">
-The specified network provider name is not valid. This error is returned if the <b>lpProvider</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter specifies a value that does not match any network provider.
+The specified network provider name is not valid. This error is returned if the <b>lpProvider</b> member of the <a href="https://docs.microsoft.com/en-us/windows/win32/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter specifies a value that does not match any network provider.
 
 </td>
 </tr>
@@ -474,7 +474,7 @@ The system is unable to open the user profile to process persistent connections.
 </dl>
 </td>
 <td width="60%">
-The local device name has a remembered connection to another network resource. This error is returned if an entry for the device specified by <b>lpLocalName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter specifies a value that is already in the user profile for a different connection than that specified in the
+The local device name has a remembered connection to another network resource. This error is returned if an entry for the device specified by <b>lpLocalName</b> member of the <a href="https://docs.microsoft.com/en-us/windows/win32/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter specifies a value that is already in the user profile for a different connection than that specified in the
         <i>lpNetResource</i> parameter.
 
 </td>
@@ -498,7 +498,7 @@ A network-specific error occurred. Call the
 </dl>
 </td>
 <td width="60%">
-An attempt was made to access an invalid address. This error is returned if the <i>dwFlags</i> parameter specifies a value of CONNECT_REDIRECT, but the <b>lpLocalName</b> member  of the  <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter was unspecified.
+An attempt was made to access an invalid address. This error is returned if the <i>dwFlags</i> parameter specifies a value of CONNECT_REDIRECT, but the <b>lpLocalName</b> member  of the  <a href="https://docs.microsoft.com/en-us/windows/win32/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter was unspecified.
 
 </td>
 </tr>
@@ -509,7 +509,7 @@ An attempt was made to access an invalid address. This error is returned if the 
 </dl>
 </td>
 <td width="60%">
-A parameter is incorrect. This error is returned if the <b>dwType</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter specifies a value other than RESOURCETYPE_DISK, RESOURCETYPE_PRINT, or RESOURCETYPE_ANY. This error is also returned if the <i>dwFlags</i> parameter specifies an incorrect or unknown value. 
+A parameter is incorrect. This error is returned if the <b>dwType</b> member of the  <a href="https://docs.microsoft.com/en-us/windows/win32/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter specifies a value other than RESOURCETYPE_DISK, RESOURCETYPE_PRINT, or RESOURCETYPE_ANY. This error is also returned if the <i>dwFlags</i> parameter specifies an incorrect or unknown value. 
 
 </td>
 </tr>
@@ -542,7 +542,7 @@ A logon failure because of an unknown user name or a bad password.
 </dl>
 </td>
 <td width="60%">
-No network provider accepted the given network path. This error is returned if no network provider recognized the <b>lpRemoteName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter.
+No network provider accepted the given network path. This error is returned if no network provider recognized the <b>lpRemoteName</b> member of the <a href="https://docs.microsoft.com/en-us/windows/win32/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter.
 
 </td>
 </tr>
@@ -587,12 +587,12 @@ On Windows Server 2003 and Windows XP, the WNet functions create and delete ne
 
 On Windows Server 2003 and Windows XP, if a service that runs as LocalSystem calls the <b>WNetAddConnection2</b> function, then the mapped drive is visible to all user logon sessions.  
 
-For Microsoft network providers, the <b>lpRemoteName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter can contain an IPv4 address in dotted-decimal notation. An example for a share might be the following:
+For Microsoft network providers, the <b>lpRemoteName</b> member of the <a href="https://docs.microsoft.com/en-us/windows/win32/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter can contain an IPv4 address in dotted-decimal notation. An example for a share might be the following:
 
 <code>\\192.168.1.1\share
 </code>
 
-For Microsoft network providers on Windows Vista and later, the <b>lpRemoteName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter can contain an IPv6 address. However, the IPv6 literal format must be used so that the IPv6 address is parsed correctly. An IPv6 literal address is of the form:
+For Microsoft network providers on Windows Vista and later, the <b>lpRemoteName</b> member of the <a href="https://docs.microsoft.com/en-us/windows/win32/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter can contain an IPv6 address. However, the IPv6 literal format must be used so that the IPv6 address is parsed correctly. An IPv6 literal address is of the form:
 
 ipv6-address with the ':' characters replaced by '-' characters followed by the ".ipv6-literal.net" string.
 
@@ -606,7 +606,7 @@ an example for a share might be the following:
 
 <code>\\2001-4898-9-3-c069-aa97-fe76-2449.ipv6-literal.net\share</code>
 
-Other network providers may support the <b>lpRemoteName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter that contains an IPv4 or IPv6 address, but this is up to specific network provider.
+Other network providers may support the <b>lpRemoteName</b> member of the <a href="https://docs.microsoft.com/en-us/windows/win32/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter that contains an IPv4 or IPv6 address, but this is up to specific network provider.
 
 <b>Windows 7 and Windows Server 2008 R2:  </b>If the <b>WNetAddConnection2</b> function is called with explicit user credentials specified in the <i>pUsername</i> and <i>lpPassword</i> to establish a connection with a network resource on a specific server and then called again with either of these parameters as <b>NULL</b> (to use the default user name or default password) to the same server, the call with fail. The error returned will be <b>ERROR_BAD_USERNAME</b> or <b>ERROR_INVALID_PASSWORD</b>. 
 
