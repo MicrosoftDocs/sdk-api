@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Vertdll.lib
-req.dll: Vertdll.dll; Api-ms-win-core-enclave-l1-1-0.dll
+req.lib: onecore.lib
+req.dll: kernel32.dll; Api-ms-win-core-enclave-l1-1-0.dll
 req.irql: 
 topic_type:
 - APIRef
@@ -35,7 +35,7 @@ topic_type:
 api_type:
 - DllExport
 api_location:
-- vertdll.dll
+- kernel32.dll
 - api-ms-win-core-enclave-l1-1-0.dll
 api_name:
 - TerminateEnclave
