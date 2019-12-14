@@ -70,7 +70,7 @@ This marker indicates the end of a segment within a presentation. There might be
 
 ### -field MFSTREAMSINK_MARKER_TICK
 
-This marker indicates that there is a gap in the stream. The marker data is a <b>LONGLONG</b> value (VT_I8) that specifies the time for the missing sample. The next sample received after this marker will have the discontinuity flag. This marker corresponds to an <a href="https://docs.microsoft.com/windows/desktop/medfound/mestreamtick">MEStreamTick</a> event from the stream.
+This marker indicates that there is a gap in the stream. The marker data is a <b>LONGLONG</b> value (VT_I8) that specifies the time for the missing sample. The next sample received after this marker might but will not necessarily have the discontinuity flag: the data might remain continuous after the time gap. This marker corresponds to an <a href="https://docs.microsoft.com/windows/desktop/medfound/mestreamtick">MEStreamTick</a> event from the stream.
 
 
 ### -field MFSTREAMSINK_MARKER_EVENT
