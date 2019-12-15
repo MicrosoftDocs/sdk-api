@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 Creates or opens a waitable timer object.
 
-To specify an access mask for the object, use the [CreateWaitableTimerEx](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerexw)a> function.
+To specify an access mask for the object, use the [CreateWaitableTimerEx](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerexw) function.
 
 
 ## -parameters
@@ -167,7 +167,7 @@ For an example that uses
 
 
 
-[CreateWaitableTimerEx](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerexw)a>
+[CreateWaitableTimerEx](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerexw)
 
 
 
@@ -183,7 +183,7 @@ For an example that uses
 
 
 
-[OpenWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw)a>
+[OpenWaitableTimer](/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw)
 
 
 
