@@ -26,8 +26,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
+req.lib: onecore.lib
+req.dll: kernelbase.dll
 req.irql: 
 topic_type:
 - APIRef
@@ -35,7 +35,6 @@ topic_type:
 api_type:
 - DllExport
 api_location:
-- kernel32.dll
 - API-MS-Win-Core-SysInfo-L1-2-3.dll
 - KernelBase.dll
 api_name:
@@ -82,8 +81,8 @@ The result code indicating if the function succeeded or failed.
 
 Uses the display driver as the source for display size information. Registry overrides to screen size will not be used. Uses the display adapter connection type to determine which display, if any, is integral to the system.  If no internal display detected, an error will be returned.   This requires the display to be active to be detected. For example, the lid cannot be closed when the function is called.
 
-To compile an application that uses this function, define _WIN32_WINNT as 0x0501 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+To compile an application that uses this function, see 
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">using the Windows Headers</a>.
 
 
 #### Examples
