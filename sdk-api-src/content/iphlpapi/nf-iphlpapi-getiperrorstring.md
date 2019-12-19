@@ -70,7 +70,7 @@ A pointer to the buffer that contains the error code string if the function retu
 
 ### -param Size [in, out]
 
-A pointer to a <b>DWORD</b> that specifies the length, in bytes, of the buffer pointed to by <i>Buffer</i> parameter.
+A pointer to a <b>DWORD</b> that specifies the length, in characters, of the buffer pointed to by <i>Buffer</i> parameter, excluding the terminating null (i.e. the size of Buffer in characters, minus one).
 
 
 ## -returns
