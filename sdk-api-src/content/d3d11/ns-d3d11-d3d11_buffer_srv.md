@@ -62,7 +62,7 @@ Specifies the elements in a buffer resource to use in a shader-resource view.
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Number of bytes between the beginning of the buffer and the first element to access.
+Index of the first element to access.
             
 
 
