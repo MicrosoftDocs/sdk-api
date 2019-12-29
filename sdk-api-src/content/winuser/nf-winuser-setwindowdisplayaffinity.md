@@ -73,11 +73,7 @@ A handle to the window.
 
 Type: <b>DWORD</b>
 
-The display affinity setting. This setting specifies where the window's 
-				contents are can be displayed. Set this value to WDA_MONITOR to display the window's contents only on a monitor.
- 				
-				
-				Set this value to WDA_NONE to remove the monitor-only affinity.
+The display affinity setting. This setting specifies where the window's contents can be displayed. Set this value to WDA_MONITOR to display the window's contents only on a monitor. Set this value to WDA_NONE to remove the monitor-only affinity.
 
 
 ## -returns
