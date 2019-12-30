@@ -10,7 +10,6 @@ ms.keywords: InitializeObjectAttributes, InitializeObjectAttributes macro [Kerne
 ms.topic: macro
 f1_keywords:
 - ntdef/- InitializeObjectAttributes
-- "ntdef/FIELD_OFFSET"
 dev_langs:
 - c++
 req.header: ntdef.h
