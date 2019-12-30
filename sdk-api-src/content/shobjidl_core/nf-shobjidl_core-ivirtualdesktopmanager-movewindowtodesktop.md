@@ -65,7 +65,7 @@ The window to move.
 
 ### -param desktopId [in]
 
-The identifier of the virtual desktop to move the [GetWindowDesktopId](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ivirtualdesktopmanager-getwindowdesktopid)a> to get a window's identifier.
+The identifier of the virtual desktop to move the [GetWindowDesktopId](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ivirtualdesktopmanager-getwindowdesktopid) to get a window's identifier.
 
 
 ## -returns
