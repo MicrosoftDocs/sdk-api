@@ -63,7 +63,7 @@ The <b>PCMWAVEFORMAT</b> structure describes the data format for PCM waveform-au
 
 ### -field wf
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-twaveformatex">WAVEFORMAT</a> structure containing general information about the format of the data.
+A <a href="/windows/win32/api/mmeapi/ns-mmeapi-waveformatex">WAVEFORMAT</a> structure containing general information about the format of the data.
 
 
 ### -field wBitsPerSample
@@ -76,7 +76,7 @@ Number of bits per sample.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-twaveformatex">WAVEFORMAT</a>
+<a href="/windows/win32/api/mmeapi/ns-mmeapi-waveformatex">WAVEFORMAT</a>
 
 
 

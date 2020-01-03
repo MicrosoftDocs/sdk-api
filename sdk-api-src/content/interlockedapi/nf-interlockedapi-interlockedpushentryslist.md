@@ -72,7 +72,7 @@ Pointer to an <b>SLIST_HEADER</b> structure that represents the head of a singly
 ### -param ListEntry [in, out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a> structure that represents an item in a singly linked list.
+<a href="/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a> structure that represents an item in a singly linked list.
 
 
 ## -returns
@@ -125,7 +125,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a>
 
 
 

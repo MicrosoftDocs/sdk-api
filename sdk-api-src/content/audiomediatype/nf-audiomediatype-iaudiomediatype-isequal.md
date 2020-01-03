@@ -88,7 +88,7 @@ AUDIOMEDIATYPE_EQUAL_FORMAT_DATA
 
 </td>
 <td>
-The format information matches, not including extra data beyond the base <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a> structure.
+The format information matches, not including extra data beyond the base <a href="/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a> structure.
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ If the method succeeds and all the comparison flags are set in <i>pdwFlags</i>, 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a>
+<a href="/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a>
  
 
  

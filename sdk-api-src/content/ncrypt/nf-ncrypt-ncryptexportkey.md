@@ -202,7 +202,7 @@ Export a PKCS #7 envelope BLOB. The parameters identified by the <i>pParameterLi
 <tr>
 <td>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbuffer">NCRYPTBUFFER_CERT_BLOB</a>
+NCRYPTBUFFER_CERT_BLOB
 
 
 </td>
@@ -214,7 +214,7 @@ Required
 <tr>
 <td>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbuffer">NCRYPTBUFFER_PKCS_ALG_OID</a>
+NCRYPTBUFFER_PKCS_ALG_OID
 
 
 </td>
@@ -226,7 +226,7 @@ Required
 <tr>
 <td>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbuffer">NCRYPTBUFFER_PKCS_ALG_PARAM</a>
+NCRYPTBUFFER_PKCS_ALG_PARAM
 
 
 </td>
@@ -252,7 +252,7 @@ Export a PKCS #8 private key BLOB. The parameters identified by the <i>pParamete
 <tr>
 <td>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbuffer">NCRYPTBUFFER_PKCS_ALG_OID</a>
+NCRYPTBUFFER_PKCS_ALG_OID
 
 
 </td>
@@ -264,7 +264,7 @@ Optional
 <tr>
 <td>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbuffer">NCRYPTBUFFER_PKCS_ALG_PARAM</a>
+NCRYPTBUFFER_PKCS_ALG_PARAM
 
 
 </td>
@@ -276,7 +276,7 @@ Optional
 <tr>
 <td>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbuffer">NCRYPTBUFFER_PKCS_SECRET</a>
+NCRYPTBUFFER_PKCS_SECRET
 
 
 </td>

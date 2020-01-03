@@ -63,7 +63,7 @@ Enumerates the <a href="https://docs.microsoft.com/previous-versions/windows/des
 ### -param hGroupEnum [in]
 
 A group enumeration handle returned by the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nc-clusapi-pclusapi_cluster_group_open_enum">ClusterGroupOpenEnum</a> function.
+       <a href="/windows/win32/api/clusapi/nf-clusapi-clustergroupopenenum">ClusterGroupOpenEnum</a> function.
 
 
 ### -param dwIndex [in]
@@ -199,7 +199,7 @@ See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/e
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nc-clusapi-pclusapi_cluster_group_open_enum">ClusterGroupOpenEnum</a>
+<a href="/windows/win32/api/clusapi/nf-clusapi-clustergroupopenenum">ClusterGroupOpenEnum</a>
 
 
 

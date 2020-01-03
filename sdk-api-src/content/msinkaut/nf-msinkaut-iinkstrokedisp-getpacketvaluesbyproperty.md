@@ -71,12 +71,12 @@ For more information about the BSTR data type, see <a href="https://docs.microso
 
 ### -param Index [in, optional]
 
-Optional. The starting point of the zero-based index to a packet within the stroke. The default value ISC_FirstElement, defined in the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants">ItemSelectionConstants</a> enumeration type, specifies the first packet.
+Optional. The starting point of the zero-based index to a packet within the stroke. The default value ISC_FirstElement, defined in the <a href="/windows/win32/api/msinkaut/ne-msinkaut-inkselectionconstants">InkSelectionConstants</a> enumeration type, specifies the first packet.
 
 
 ### -param Count [in, optional]
 
-Optional. The number of points that make up the stroke data. The default value ISC_AllElements, defined in the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants">ItemSelectionConstants</a> enumeration type, specifies all of the points that make up the stroke data.
+Optional. The number of points that make up the stroke data. The default value ISC_AllElements, defined in the <a href="/windows/win32/api/msinkaut/ne-msinkaut-inkselectionconstants">InkSelectionConstants</a> enumeration type, specifies all of the points that make up the stroke data.
 
 
 ### -param PacketValues [out, retval]
