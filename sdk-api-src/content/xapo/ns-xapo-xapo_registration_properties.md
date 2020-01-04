@@ -132,7 +132,7 @@ For example, consider an effect which may be ran in stereo to 5.1 mode or
 <tr>
 <td>XAPO_FLAG_BUFFERCOUNT_MUST_MATCH</td>
 <td>Number of input and output buffers must match, applies to 
-     			<a href="https://docs.microsoft.com/windows/desktop/api/xapo/ns-xapo-xapo_lockforprocess_buffer_parameters">XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS</a>. When the XAPO_FLAG_BUFFERCOUNT_MUST_MATCH flag is set
+     			<a href="/windows/win32/api/xapo/ns-xapo-xapo_lockforprocess_parameters">XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS</a>. When the XAPO_FLAG_BUFFERCOUNT_MUST_MATCH flag is set
             <b>XAPO_REGISTRATION_PROPERTIES</b>.<b>MinInputBufferCount</b> must equal
             <b>XAPO_REGISTRATION_PROPERTIES</b>.<b>MinOutputBufferCount</b> and
             <b>XAPO_REGISTRATION_PROPERTIES</b>.<b>MaxInputBufferCount</b> must equal

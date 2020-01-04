@@ -66,7 +66,7 @@ Number of elements in <i>ppInputLockedParameters</i>. Must be within the <a href
 
 ### -param pInputLockedParameters
 
-Array of input <a href="https://docs.microsoft.com/windows/desktop/api/xapo/ns-xapo-xapo_lockforprocess_buffer_parameters">XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS</a> structures. <i>pInputLockedParameters</i> may be NULL if <i>InputLockedParameterCount</i> is 0, otherwise it must have <i>InputLockedParameterCount</i> elements.
+Array of input <a href="/windows/win32/api/xapo/ns-xapo-xapo_lockforprocess_parameters">XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS</a> structures. <i>pInputLockedParameters</i> may be NULL if <i>InputLockedParameterCount</i> is 0, otherwise it must have <i>InputLockedParameterCount</i> elements.
 
 
 ### -param OutputLockedParameterCount
@@ -76,7 +76,7 @@ Number of elements in ppOutputLockedParameters. Must be within the <a href="http
 
 ### -param pOutputLockedParameters
 
-Array of output <a href="https://docs.microsoft.com/windows/desktop/api/xapo/ns-xapo-xapo_lockforprocess_buffer_parameters">XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS</a> structures. <i>pOutputLockedParameters</i> may be NULL if <i>OutputLockedParameterCount</i> is 0, otherwise it must have <i>OutputLockedParameterCount</i> elements.
+Array of output <a href="/windows/win32/api/xapo/ns-xapo-xapo_lockforprocess_parameters">XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS</a> structures. <i>pOutputLockedParameters</i> may be NULL if <i>OutputLockedParameterCount</i> is 0, otherwise it must have <i>OutputLockedParameterCount</i> elements.
 
 
 ## -returns

@@ -47,7 +47,7 @@ A pointer to the **[LPWSPAccept](nc-ws2spi-lpwspaccept.md)** function.
 
 ### -field lpWSPAddressToString
 
-A pointer to the [**LPWSPAddressToString**](9nc-ws2spi-lpwspaddresstostring.md) function.
+A pointer to the [**LPWSPAddressToString**](nc-ws2spi-lpwspaddresstostring.md) function.
 
 ### -field lpWSPAsyncSelect
 
@@ -66,7 +66,7 @@ A pointer to the <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/
 
  
 
-A pointer to the [**WSPCleanup**](wspcleanup-2.md) function.
+A pointer to the [**WSPCleanup**](/windows/win32/api/ws2spi/nc-ws2spi-lpwspcleanup) function.
 
 ### -field lpWSPCloseSocket
 
@@ -84,24 +84,24 @@ A pointer to the <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/
 
  
 
-A pointer to the [**WSPDuplicateSocket**](wspduplicatesocket-2.md) function.
+A pointer to the [**WSPDuplicateSocket**](/windows/win32/api/ws2spi/nc-ws2spi-lpwspduplicatesocket) function.
 
 ### -field lpWSPEnumNetworkEvents
 
  
-A pointer to the [**WSPEnumNetworkEvents**](wspenumnetworkevents-2.md) function.
+A pointer to the [**WSPEnumNetworkEvents**](/windows/win32/api/ws2spi/nc-ws2spi-lpwspenumnetworkevents) function.
 
 ### -field lpWSPEventSelect
 
  
 
-A pointer to the [**LPWSPEventSelect**](wspeventselect-2.md) function.
+A pointer to the [**LPWSPEventSelect**](/windows/win32/api/ws2spi/nc-ws2spi-lpwspenumnetworkevents) function.
 
 ### -field lpWSPGetOverlappedResult
 
  
 
-A pointer to the [**LPWSPGetOverlappedResult**](wspgetoverlappedresult-2.md) function.
+A pointer to the [**LPWSPGetOverlappedResult**](/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult) function.
 
 ### -field lpWSPGetPeerName
 
@@ -110,7 +110,7 @@ A pointer to the    function.
 
 ### -field lpWSPGetSockName
 
-A pointer to the [**WSPGetSockName**](wspgetsockname-2.md) function.
+A pointer to the [**WSPGetSockName**](/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetsockname) function.
 
 ### -field lpWSPGetSockOpt
 
@@ -121,7 +121,7 @@ A pointer to the <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/
 
  
 
-A pointer to the [**WSPGetQOSByName**](wspgetqosbyname-2.md) function.
+A pointer to the [**WSPGetQOSByName**](/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetqosbyname) function.
 
 ### -field lpWSPIoctl
 
@@ -151,7 +151,7 @@ A pointer to the <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/
 
  
 
-A pointer to the [**WSPRecvDisconnect**](wsprecvdisconnect-2.md) function.
+A pointer to the [**WSPRecvDisconnect**](/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecvdisconnect) function.
 
 ### -field lpWSPRecvFrom
 
@@ -163,7 +163,7 @@ A pointer to the <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/
 
  
 
-A pointer to the [**LPWSPSelect**](wspselect-2.md) function.
+A pointer to the [**LPWSPSelect**](/windows/win32/api/ws2spi/nc-ws2spi-lpwspselect) function.
 
 ### -field lpWSPSend
 
@@ -175,7 +175,7 @@ A pointer to the <b><a href="https://docs.microsoft.com/en-us/windows/win32/api/
 
  
 
-A pointer to the [**WSPSendDisconnect**](wspsenddisconnect-2.md) function.
+A pointer to the [**WSPSendDisconnect**](/windows/win32/api/ws2spi/nc-ws2spi-lpwspsenddisconnect) function.
 
 ### -field lpWSPSendTo
 

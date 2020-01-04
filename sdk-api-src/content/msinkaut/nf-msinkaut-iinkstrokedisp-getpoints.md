@@ -64,12 +64,12 @@ Retrieves the points that make up a stroke.
 
 ### -param Index [in, optional]
 
-Optional. The starting index within the array of points that make up the stroke. The default value ISC_FirstElement, defined in the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants">ItemSelectionConstants</a> enumeration type, specifies the first point.
+Optional. The starting index within the array of points that make up the stroke. The default value ISC_FirstElement, defined in the <a href="/windows/win32/api/msinkaut/ne-msinkaut-inkselectionconstants">InkSelectionConstants</a> enumeration type, specifies the first point.
 
 
 ### -param Count [in, optional]
 
-Optional. The number of points to return. The default value ISC_AllElements, defined in the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants">ItemSelectionConstants</a> enumeration type, specifies all of the points that make up the stroke data.
+Optional. The number of points to return. The default value ISC_AllElements, defined in the <a href="/windows/win32/api/msinkaut/ne-msinkaut-inkselectionconstants">InkSelectionConstants</a> enumeration type, specifies all of the points that make up the stroke data.
 
 
 ### -param Points [out, retval]

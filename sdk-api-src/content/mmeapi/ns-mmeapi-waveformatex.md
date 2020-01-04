@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The <b>WAVEFORMATEX</b> structure defines the format of waveform-audio data. Only format information common to all waveform-audio data formats is included in this structure. For formats that require additional information, this structure is included as the first member in another structure, along with the additional information.
 
-Formats that support more than two channels or sample sizes of more than 16 bits can be described in a <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-waveformatextensible">WAVEFORMATEXTENSIBLE</a> structure, which includes the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-twaveformatex">WAVEFORMAT</a> structure.
+Formats that support more than two channels or sample sizes of more than 16 bits can be described in a <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-waveformatextensible">WAVEFORMATEXTENSIBLE</a> structure, which includes the <a href="/windows/win32/api/mmeapi/ns-mmeapi-waveformatex">WAVEFORMAT</a> structure.
 
 
 

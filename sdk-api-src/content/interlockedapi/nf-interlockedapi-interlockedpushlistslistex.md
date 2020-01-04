@@ -69,13 +69,13 @@ Pointer to an <b>SLIST_HEADER</b> structure that represents the head of a singly
 ### -param List [in, out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a> structure that represents the first item in the  list to be inserted. 
+<a href="/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a> structure that represents the first item in the  list to be inserted. 
 
 
 ### -param ListEnd [in, out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a> structure that represents the last item in the  list to be inserted. 
+<a href="/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a> structure that represents the last item in the  list to be inserted. 
 
 
 ### -param Count [in]
@@ -122,7 +122,7 @@ All list items must be aligned on a <b>MEMORY_ALLOCATION_ALIGNMENT</b> boundary;
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-_list_entry">SLIST_ENTRY</a>
 
 
 

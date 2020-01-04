@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Describes the type of cluster object being enumerated by the 
     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clustergroupenum">ClusterGroupEnum</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nc-clusapi-pclusapi_cluster_group_open_enum">ClusterGroupOpenEnum</a> functions.
+    <a href="/windows/win32/api/clusapi/nf-clusapi-clustergroupopenenum">ClusterGroupOpenEnum</a> functions.
 
 
 ## -enum-fields
@@ -96,7 +96,7 @@ The <b>CLUSTER_GROUP_ENUM_ALL</b> enumeration value is not a valid value for the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nc-clusapi-pclusapi_cluster_group_open_enum">ClusterGroupOpenEnum</a>
+<a href="/windows/win32/api/clusapi/nf-clusapi-clustergroupopenenum">ClusterGroupOpenEnum</a>
 
 
 
