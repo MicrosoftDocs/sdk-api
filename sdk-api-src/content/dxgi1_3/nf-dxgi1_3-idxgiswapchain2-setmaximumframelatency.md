@@ -61,7 +61,7 @@ Sets the number of frames that the swap chain is allowed to queue for rendering.
 
 ### -param MaxLatency
 
-The maximum number of back buffer frames that will be queued for the swap chain. This value is 3 by default.
+The maximum number of back buffer frames that will be queued for the swap chain. This value is 1 by default.
 
 
 ## -returns
