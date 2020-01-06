@@ -38,8 +38,6 @@ api_location:
 - ntdef.h
 api_name:
 - UNICODE_STRING
-product:
-- Windows
 targetos: Windows
 req.typenames: UNICODE_STRING
 ---

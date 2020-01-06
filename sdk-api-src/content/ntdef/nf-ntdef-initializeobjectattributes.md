@@ -38,8 +38,6 @@ api_location:
 - ntdef.h
 api_name:
 - InitializeObjectAttributes
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 ---
