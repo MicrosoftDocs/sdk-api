@@ -169,6 +169,7 @@ The abstracted heap types (_DEFAULT, _UPLOAD, and _READBACK) are useful to simpl
 
 
 
+Note that textures (unlike buffers) can't be heap type UPLOAD or READBACK.
 
 ## -see-also
 
