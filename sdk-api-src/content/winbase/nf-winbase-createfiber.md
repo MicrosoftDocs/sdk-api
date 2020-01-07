@@ -68,7 +68,7 @@ To specify both a commit and reserve stack size, use the
 
 ### -param dwStackSize [in]
 
-The initial size of the stack, in bytes. If this parameter is zero, the new fiber uses the default stack size for the executable. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-stack-size">Thread Stack Size</a>.
+The initial committed size of the stack, in bytes. If this parameter is zero, the new fiber uses the default commit stack size for the executable. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-stack-size">Thread Stack Size</a>.
 
 
 ### -param lpStartAddress [in]
