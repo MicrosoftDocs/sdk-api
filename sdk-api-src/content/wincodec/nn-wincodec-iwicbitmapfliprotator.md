@@ -1,7 +1,7 @@
 ---
 UID: NN:wincodec.IWICBitmapFlipRotator
 title: IWICBitmapFlipRotator (wincodec.h)
-description: Exposes methods that produce a flipped (horizontal or vertical) and/or rotated (by 90 degree increments) bitmap source. Rotations are done before the flip.
+description: Exposes methods that produce a flipped (horizontal or vertical) and/or rotated (by 90 degree increments) bitmap source. The flip is done before the rotation.
 old-location: wic\_wic_codec_iwicbitmapfliprotator.htm
 tech.root: wic
 ms.assetid: 1fcb19ba-34bd-48c0-9964-0c973c31cacc
@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Exposes methods that produce a flipped (horizontal or vertical) and/or rotated (by 90 degree increments) bitmap source. Rotations are done before the flip.
+Exposes methods that produce a flipped (horizontal or vertical) and/or rotated (by 90 degree increments) bitmap source. The flip is done before the rotation.
 
 
 ## -inheritance
@@ -84,7 +84,7 @@ Initializes the bitmap flip rotator with the provided parameters.
 
 
 
-IWICBitmapFipRotator requests data on a per-pixel basis, while WIC codecs provide data on a per-scanline basis. This causes the fliprotator object to exhibit n² behavior if there is no buffering.  This occures because each pixel in the transformed image requires an entire scanline to be decoded in the file. It is recommended that you buffer the image using <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>, or flip/rotate the image using Direct2D.
+IWICBitmapFipRotator requests data on a per-pixel basis, while WIC codecs provide data on a per-scanline basis. This causes the fliprotator object to exhibit n² behavior if there is no buffering.  This occurs because each pixel in the transformed image requires an entire scanline to be decoded in the file. It is recommended that you buffer the image using <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>, or flip/rotate the image using Direct2D.
 
 
 
