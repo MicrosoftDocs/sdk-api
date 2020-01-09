@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <code>GetAudioFormat</code> method returns the <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a> structure for the audio data format.
+The <code>GetAudioFormat</code> method returns the <a href="/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a> structure for the audio data format.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ The <code>GetAudioFormat</code> method returns the <a href="https://docs.microso
 
 
 
-The <code>GetAudioFormat</code> method returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a> structure.
+The <code>GetAudioFormat</code> method returns a pointer to a <a href="/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a> structure.
 
 
 

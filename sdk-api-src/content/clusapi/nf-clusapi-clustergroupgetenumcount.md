@@ -62,7 +62,7 @@ Returns the number of <a href="https://docs.microsoft.com/previous-versions/wind
 ### -param hGroupEnum [in]
 
 Handle to a group enumeration. This handle is obtained from 
-      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nc-clusapi-pclusapi_cluster_group_open_enum">ClusterGroupOpenEnum</a>. A valid handle is 
+      <a href="/windows/win32/api/clusapi/nf-clusapi-clustergroupopenenum">ClusterGroupOpenEnum</a>. A valid handle is 
       required. This parameter cannot be <b>NULL</b>.
 
 

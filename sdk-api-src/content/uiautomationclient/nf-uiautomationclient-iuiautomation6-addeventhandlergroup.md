@@ -5,7 +5,7 @@ description: Registers a collection of event handler methods specified with the 
 old-location: winauto\uiauto_IUIAutomation6_AddEventHandlerGroup.htm
 tech.root: WinAuto
 ms.assetid: 8F131A7C-BC03-4967-9ED8-624086DEA112
-ms.date: 12/05/2018
+ms.date: 12/05/2019
 ms.keywords: AddEventHandlerGroup, AddEventHandlerGroup method [Windows Accessibility], AddEventHandlerGroup method [Windows Accessibility],IUIAutomation6 interface, IUIAutomation6 interface [Windows Accessibility],AddEventHandlerGroup method, IUIAutomation6.AddEventHandlerGroup, IUIAutomation6::AddEventHandlerGroup, uiautomationclient/IUIAutomation6::AddEventHandlerGroup, winauto.uiauto_IUIAutomation6_AddEventHandlerGroup
 ms.topic: method
 f1_keywords:
@@ -46,57 +46,33 @@ ms.custom: RS5, 19H1
 
 # IUIAutomation6::AddEventHandlerGroup
 
-
 ## -description
 
+Registers a collection of event handler methods specified with the [IUIAutomation6::CreateEventHandlerGroup](nf-uiautomationclient-iuiautomation6-createeventhandlergroup.md).
 
-Registers a collection of event handler methods specified with the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation6-createeventhandlergroup">CreateEventHandlerGroup</a>.
-<div class="alert"><b>Important</b>  Microsoft UI Automation clients should use the handler group methods to register event listeners instead of individual event registration methods defined in the various <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a> namespaces.</div><div> </div>
+> [!Important]
+> Microsoft UI Automation clients should use the handler group methods to register event listeners instead of individual event registration methods defined in the various [IUIAutomation interface](nn-uiautomationclient-iuiautomation.md) namespaces.
 
 ## -parameters
-
-
-
 
 ### -param element [in]
 
 A pointer to the UI Automation element associated with the event handler group.
 
-
 ### -param handlerGroup
 
 A collection of UI Automation event listeners.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
 
 ## -remarks
 
+Before implementing an event handler, you should be familiar with the threading issues described in [Understanding Threading Issues](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-threading).
 
-
-Before implementing an event handler, you should be familiar with the threading issues described in <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-threading">Understanding Threading Issues</a>.
-
-
-
+It is possible for an event to be delivered to an event handler after the handler has been unsubscribed, if the event is received simultaneously with the request to unsubscribe the event. The best practice is to follow the Component Object Model (COM) standard and avoid destroying the event handler object until its reference count has reached zero. Destroying an event handler immediately after unsubscribing for events may result in an access violation if an event is delivered late.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation6">IUIAutomation6</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation6-removeeventhandlergroup">RemoveEventHandlerGroup</a>
- 
-
- 
-
+[IUIAutomation6::RemoveEventHandlerGroup](nf-uiautomationclient-iuiautomation6-removeeventhandlergroup.md), [IUIAutomation6 interface](nn-uiautomationclient-iuiautomation6.md)

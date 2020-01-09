@@ -65,7 +65,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mmdevice
 
 ### -param _pwfxFormat [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a> structure that provides information about the hardware audio engine.
+A pointer to a <a href="/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a> structure that provides information about the hardware audio engine.
 
 
 ## -returns

@@ -38,8 +38,6 @@ api_location:
 - ntdef.h
 api_name:
 - OBJECT_ATTRIBUTES
-product:
-- Windows
 targetos: Windows
 req.typenames: OBJECT_ATTRIBUTES
 ---

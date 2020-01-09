@@ -84,7 +84,7 @@ XAudio2 supports PCM and ADPCM voice types.
 <tr>
 <td>-or-</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a>
+<a href="/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a>
 </td>
 <td>18</td>
 </tr>
