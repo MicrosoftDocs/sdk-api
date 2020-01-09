@@ -273,7 +273,7 @@ With regard to TCP and UDP sockets:
 </ul>
 
 
-The number of elements (not sockets) in <i>fdarray</i> is indicated by <i>nfds</i>. Members of <i>fdarray</i> which have their <b>fd</b> member set to a negative value are ignored and their <b>revents</b> will be cleared upon return. This behavior is useful to an application which maintains a fixed <i>fdarray</i> allocation and will not compact the array to remove unused entries or to reallocate memory. It is not necessary to clear <b>revents</b> for any element prior to calling <b>WSAPoll</b>.
+The number of elements (not sockets) in <i>fdarray</i> is indicated by <i>nfds</i>. Members of <i>fdarray</i> which have their <b>fd</b> member set to a negative value are ignored and their <b>revents</b> will be set to <b>POLLNVAL</b> upon return. This behavior is useful to an application which maintains a fixed <i>fdarray</i> allocation and will not compact the array to remove unused entries or to reallocate memory. It is not necessary to clear <b>revents</b> for any element prior to calling <b>WSAPoll</b>.
 
 The timeout argument specifies how long the function is to wait before returning. A positive value contains the number of milliseconds to wait before returning. A zero value forces <b>WSAPoll</b> to return immediately, and a negative value indicates that <b>WSAPoll</b> should wait indefinitely.
 
