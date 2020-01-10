@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: dabbb399-2d72-41c3-8b2f-aea49d7ad0cb
 ms.date: 12/05/2018
 ms.keywords: DrawEllipse, DrawEllipse methods [Direct2D], ID2D1RenderTarget.DrawEllipse, ID2D1RenderTarget::DrawEllipse, d2d1/DrawEllipse, direct2d.id2d1rendertarget_drawellipse
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1RenderTarget::DrawEllipse
 dev_langs:

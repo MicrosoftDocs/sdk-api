@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 125E5CBE-8ADF-4725-9F1D-66C38CD7A567
 ms.date: 12/5/2018
 ms.keywords: BindInputs, BindInputs method, BindInputs method,IDMLBindingTable interface, IDMLBindingTable interface,BindInputs method, IDMLBindingTable.BindInputs, IDMLBindingTable::BindInputs, direct3d12.idmlbindingtable_bindinputs, directml/IDMLBindingTable::BindInputs
-ms.topic: method
 f1_keywords:
 - directml/IDMLBindingTable.BindInputs
 dev_langs:

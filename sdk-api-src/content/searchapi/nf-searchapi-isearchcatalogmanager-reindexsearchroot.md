@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\reindexsearchroot.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager interface [search],ReindexSearchRoot method, ISearchCatalogManager.ReindexSearchRoot, ISearchCatalogManager::ReindexSearchRoot, ReindexSearchRoot, ReindexSearchRoot method [search], ReindexSearchRoot method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_ReindexSearchRoot, search._search_ISearchCatalogManager_ReindexSearchRoot, searchapi/ISearchCatalogManager::ReindexSearchRoot
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchCatalogManager.ReindexSearchRoot
 dev_langs:

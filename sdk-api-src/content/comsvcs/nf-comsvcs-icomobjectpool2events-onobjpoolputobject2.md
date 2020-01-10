@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 5a0cfbd2-d88c-4773-96e5-0e97767d647d
 ms.date: 12/05/2018
 ms.keywords: IComObjectPool2Events interface [COM+],OnObjPoolPutObject2 method, IComObjectPool2Events.OnObjPoolPutObject2, IComObjectPool2Events::OnObjPoolPutObject2, OnObjPoolPutObject2, OnObjPoolPutObject2 method [COM+], OnObjPoolPutObject2 method [COM+],IComObjectPool2Events interface, _dtc_IComObjectPool2Events_OnObjPoolPutObject2, comsvcs/IComObjectPool2Events::OnObjPoolPutObject2, cos.icomobjectpool2events_onobjpoolputobject2
-ms.topic: method
 f1_keywords:
 - comsvcs/IComObjectPool2Events.OnObjPoolPutObject2
 dev_langs:

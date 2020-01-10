@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: C16C2A5D-7373-4EA9-A02C-3AF97EA47D34
 ms.date: 12/05/2018
 ms.keywords: MFCreateMFByteStreamOnStreamEx, MFCreateMFByteStreamOnStreamEx function [Media Foundation], mf.mfcreatemfbytestreamonstreamex, mf.mfcreatemfbytestreamonwinrtstream, mfidl/MFCreateMFByteStreamOnStreamEx
-ms.topic: function
 f1_keywords:
 - mfidl/MFCreateMFByteStreamOnStreamEx
 dev_langs:

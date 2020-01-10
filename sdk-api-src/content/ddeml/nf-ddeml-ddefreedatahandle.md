@@ -7,7 +7,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddefreedatahandle.htm
 ms.date: 12/05/2018
 ms.keywords: DdeFreeDataHandle, DdeFreeDataHandle function [Data Exchange], _win32_DdeFreeDataHandle, _win32_ddefreedatahandle_cpp, dataxchg.ddefreedatahandle, ddeml/DdeFreeDataHandle, winui._win32_ddefreedatahandle
-ms.topic: function
 f1_keywords:
 - ddeml/DdeFreeDataHandle
 dev_langs:

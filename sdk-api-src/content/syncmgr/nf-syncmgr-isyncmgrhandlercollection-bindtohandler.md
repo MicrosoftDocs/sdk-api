@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a3ae2427-7c7d-45b6-82ea-a8f5607f9623
 ms.date: 12/05/2018
 ms.keywords: BindToHandler, BindToHandler method [Windows Shell], BindToHandler method [Windows Shell],ISyncMgrHandlerCollection interface, ISyncMgrHandlerCollection interface [Windows Shell],BindToHandler method, ISyncMgrHandlerCollection.BindToHandler, ISyncMgrHandlerCollection::BindToHandler, _shell_ISyncMgrHandlerCollection_BindToHandler, shell.ISyncMgrHandlerCollection_BindToHandler, syncmgr/ISyncMgrHandlerCollection::BindToHandler
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrHandlerCollection.BindToHandler
 dev_langs:

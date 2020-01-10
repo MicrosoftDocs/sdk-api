@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: fe40be4d-1468-429a-aa20-694467076bde
 ms.date: 12/05/2018
 ms.keywords: RpcNsGroupMbrInqDone, RpcNsGroupMbrInqDone function [RPC], _rpc_rpcnsgroupmbrinqdone, rpc.rpcnsgroupmbrinqdone, rpcnsi/RpcNsGroupMbrInqDone
-ms.topic: function
 f1_keywords:
 - rpcnsi/RpcNsGroupMbrInqDone
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: cba78857-0b59-4012-84d6-f5e7ae28b8bd
 ms.date: 12/05/2018
 ms.keywords: EventClassID property [COM+], EventClassID property [COM+],IEventSubscription interface, IEventSubscription interface [COM+],EventClassID property, IEventSubscription.EventClassID, IEventSubscription.put_EventClassID, IEventSubscription::EventClassID, IEventSubscription::get_EventClassID, IEventSubscription::put_EventClassID, cos.ieventsubscription_eventclassid, eventsys/IEventSubscription::EventClassID, eventsys/IEventSubscription::get_EventClassID, eventsys/IEventSubscription::put_EventClassID, put_EventClassID
-ms.topic: method
 f1_keywords:
 - eventsys/IEventSubscription.EventClassID
 dev_langs:

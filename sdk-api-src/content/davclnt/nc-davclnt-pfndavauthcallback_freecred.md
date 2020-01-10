@@ -7,7 +7,6 @@ tech.root: WebDAV
 ms.assetid: 96bacda5-8f24-4119-b0ae-82ff8aff54b4
 ms.date: 12/05/2018
 ms.keywords: DavFreeCredCallback, DavFreeCredCallback callback function [WebDAV], PFNDAVAUTHCALLBACK_FREECRED, PFNDAVAUTHCALLBACK_FREECRED callback, davclnt/DavFreeCredCallback, webdav.freecredcallback
-ms.topic: callback
 f1_keywords:
 - davclnt/DavFreeCredCallback
 dev_langs:

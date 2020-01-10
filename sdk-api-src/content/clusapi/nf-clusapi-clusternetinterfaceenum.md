@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 691362e9-88ba-4f10-8fde-eebcc72157b4
 ms.date: 12/05/2018
 ms.keywords: ClusterNetInterfaceEnum, ClusterNetInterfaceEnum function [Failover Cluster], clusapi/ClusterNetInterfaceEnum, mscs.clusternetinterfaceenum
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterNetInterfaceEnum
 dev_langs:

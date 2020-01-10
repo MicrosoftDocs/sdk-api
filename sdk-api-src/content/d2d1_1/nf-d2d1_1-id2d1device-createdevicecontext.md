@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: d14255d4-ae59-42b4-ada9-bd7a3c5e8024
 ms.date: 12/05/2018
 ms.keywords: CreateDeviceContext, CreateDeviceContext method [Direct2D], CreateDeviceContext method [Direct2D],ID2D1Device interface, ID2D1Device interface [Direct2D],CreateDeviceContext method, ID2D1Device.CreateDeviceContext, ID2D1Device::CreateDeviceContext, d2d1_1/ID2D1Device::CreateDeviceContext, direct2d.id2d1device_createdevicecontext
-ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1Device.CreateDeviceContext
 dev_langs:

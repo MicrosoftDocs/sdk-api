@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: A2D0CDED-0E8B-41D6-8435-BDB4E5445DE4
 ms.date: 12/05/2018
 ms.keywords: '*PAPP_MEMORY_INFORMATION, APP_MEMORY_INFORMATION, APP_MEMORY_INFORMATION structure, PAPP_MEMORY_INFORMATION, PAPP_MEMORY_INFORMATION structure pointer, base.app_memory_information, processthreadsapi/APP_MEMORY_INFORMATION, processthreadsapi/PAPP_MEMORY_INFORMATION'
-ms.topic: struct
 f1_keywords:
 - processthreadsapi/APP_MEMORY_INFORMATION
 dev_langs:

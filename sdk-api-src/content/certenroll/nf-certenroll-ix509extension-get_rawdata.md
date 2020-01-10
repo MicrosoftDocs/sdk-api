@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 779ad765-e767-4594-afdb-49fe79a8e64b
 ms.date: 12/05/2018
 ms.keywords: IX509Extension interface [Security],RawData property, IX509Extension.RawData, IX509Extension.get_RawData, IX509Extension::RawData, IX509Extension::get_RawData, RawData property [Security], RawData property [Security],IX509Extension interface, certenroll/IX509Extension::RawData, certenroll/IX509Extension::get_RawData, get_RawData, security.ix509extension_rawdata_property
-ms.topic: method
 f1_keywords:
 - certenroll/IX509Extension.RawData
 dev_langs:

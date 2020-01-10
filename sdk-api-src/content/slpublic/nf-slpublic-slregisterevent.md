@@ -7,7 +7,6 @@ tech.root: SecSLApi
 ms.assetid: a18f58d4-c8e7-4974-a015-e4941e834e79
 ms.date: 12/05/2018
 ms.keywords: SLRegisterEvent, SLRegisterEvent function [Security], security.slregisterevent, slpublic/SLRegisterEvent
-ms.topic: function
 f1_keywords:
 - slpublic/SLRegisterEvent
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 064acc6a-ba2f-4394-a3bf-a9b70e30e07e
 ms.date: 12/05/2018
 ms.keywords: IAMFilterGraphCallback, IAMFilterGraphCallback interface [DirectShow], IAMFilterGraphCallback interface [DirectShow],described, IAMFilterGraphCallbackInterface, dshow.iamfiltergraphcallback, strmif/IAMFilterGraphCallback
-ms.topic: interface
 f1_keywords:
 - strmif/IAMFilterGraphCallback
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 4490901c-a58c-465c-a7b3-230456848da3
 ms.date: 12/05/2018
 ms.keywords: MCIWndStep, MCIWndStep macro [Windows Multimedia], _win32_MCIWndStep, multimedia.mciwndstep, vfw/MCIWndStep
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndStep
 dev_langs:

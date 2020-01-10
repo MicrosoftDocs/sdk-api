@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: b27ce81a-8463-46af-8acf-2de091f625df
 ms.date: 12/05/2018
 ms.keywords: CreateUmsThreadContext, CreateUmsThreadContext function, base.createumsthreadcontext, winbase/CreateUmsThreadContext
-ms.topic: function
 f1_keywords:
 - winbase/CreateUmsThreadContext
 dev_langs:

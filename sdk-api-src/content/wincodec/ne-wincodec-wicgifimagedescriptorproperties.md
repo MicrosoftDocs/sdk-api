@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 5488e63b-503b-47cd-99f3-5d359c7e0070
 ms.date: 12/05/2018
 ms.keywords: WICGifImageDescriptorHeight, WICGifImageDescriptorInterlaceFlag, WICGifImageDescriptorLeft, WICGifImageDescriptorLocalColorTableFlag, WICGifImageDescriptorLocalColorTableSize, WICGifImageDescriptorProperties, WICGifImageDescriptorProperties enumeration [Windows Imaging Component], WICGifImageDescriptorSortFlag, WICGifImageDescriptorTop, WICGifImageDescriptorWidth, _wic_codec_wicgifimagedescriptorproperties, wic._wic_codec_wicgifimagedescriptorproperties, wincodec/WICGifImageDescriptorHeight, wincodec/WICGifImageDescriptorInterlaceFlag, wincodec/WICGifImageDescriptorLeft, wincodec/WICGifImageDescriptorLocalColorTableFlag, wincodec/WICGifImageDescriptorLocalColorTableSize, wincodec/WICGifImageDescriptorProperties, wincodec/WICGifImageDescriptorSortFlag, wincodec/WICGifImageDescriptorTop, wincodec/WICGifImageDescriptorWidth
-ms.topic: enum
 f1_keywords:
 - wincodec/WICGifImageDescriptorProperties
 dev_langs:

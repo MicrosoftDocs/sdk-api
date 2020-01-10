@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 20294ff2-b783-41a2-92a8-41cd974a2ccb
 ms.date: 12/05/2018
 ms.keywords: GetLocaleInfoEx, GetLocaleInfoEx function [Internationalization for Windows Applications], _win32_GetLocaleInfoEx, intl.getlocaleinfoex, winnls/GetLocaleInfoEx
-ms.topic: function
 f1_keywords:
 - winnls/GetLocaleInfoEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 8da9d625-5cda-45bd-a664-7211593fab92
 ms.date: 12/05/2018
 ms.keywords: WMVIDEOINFOHEADER2, WMVIDEOINFOHEADER2 structure [windows Media Format], wmformat.wmvideoinfoheader2, wmsdkidl/WMVIDEOINFOHEADER2
-ms.topic: struct
 f1_keywords:
 - wmsdkidl/WMVIDEOINFOHEADER2
 dev_langs:

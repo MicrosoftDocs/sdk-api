@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: 1C4F7986-9282-4775-B9B2-338AC44F2243
 ms.date: 12/05/2018
 ms.keywords: EndSCPDDownload, EndSCPDDownload method [UPnP APIs], EndSCPDDownload method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],EndSCPDDownload method, IUPnPServiceAsync.EndSCPDDownload, IUPnPServiceAsync::EndSCPDDownload, upnp.iupnpserviceasync_endscpddownload, upnp/IUPnPServiceAsync::EndSCPDDownload
-ms.topic: method
 f1_keywords:
 - upnp/IUPnPServiceAsync.EndSCPDDownload
 dev_langs:

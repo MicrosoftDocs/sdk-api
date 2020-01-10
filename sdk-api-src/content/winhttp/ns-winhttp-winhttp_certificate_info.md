@@ -7,7 +7,6 @@ tech.root: WinHttp
 ms.assetid: 72b0094b-ac9d-499f-8a75-6728be2826ea
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_CERTIFICATE_INFO, WINHTTP_CERTIFICATE_INFO structure [HTTP], http.internet_certificate_info, winhttp/WINHTTP_CERTIFICATE_INFO, winhttp_internet_certificate_info_structure
-ms.topic: struct
 f1_keywords:
 - winhttp/WINHTTP_CERTIFICATE_INFO
 dev_langs:

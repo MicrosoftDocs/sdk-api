@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 5e2ddd7e-dcb8-4a13-8889-2d0e9dd102f2
 ms.date: 12/05/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,SetContext method, IVssSoftwareSnapshotProvider.SetContext, IVssSoftwareSnapshotProvider::SetContext, SetContext, SetContext method, SetContext method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_setcontext, vsprov/IVssSoftwareSnapshotProvider::SetContext
-ms.topic: method
 f1_keywords:
 - vsprov/IVssSoftwareSnapshotProvider.SetContext
 dev_langs:

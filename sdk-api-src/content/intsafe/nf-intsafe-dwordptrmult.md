@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9f5beb13-17cd-44ef-a352-843d51304ab6
 ms.date: 12/05/2018
 ms.keywords: DWordPtrMult, DWordPtrMult function [Windows Shell], _shell_DWordPtrMult, intsafe/DWordPtrMult, shell.DWordPtrMult
-ms.topic: function
 f1_keywords:
 - intsafe/DWordPtrMult
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ed670d8a-ede5-47c5-9cf9-eea32609f195
 ms.date: 12/05/2018
 ms.keywords: PtrdiffTAdd, PtrdiffTAdd function [Windows Shell], intsafe/PtrdiffTAdd, shell.PtrdiffTAdd
-ms.topic: function
 f1_keywords:
 - intsafe/PtrdiffTAdd
 dev_langs:

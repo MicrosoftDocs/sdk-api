@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 53980b1f-2be1-4267-a581-a4b09255b89f
 ms.date: 12/05/2018
 ms.keywords: 53980b1f-2be1-4267-a581-a4b09255b89f, GetDecoderDeviceGuids, GetDecoderDeviceGuids method [Media Foundation], GetDecoderDeviceGuids method [Media Foundation],IDirectXVideoDecoderService interface, IDirectXVideoDecoderService interface [Media Foundation],GetDecoderDeviceGuids method, IDirectXVideoDecoderService.GetDecoderDeviceGuids, IDirectXVideoDecoderService::GetDecoderDeviceGuids, dxva2api/IDirectXVideoDecoderService::GetDecoderDeviceGuids, mf.idirectxvideodecoderservice_getdecoderdeviceguids
-ms.topic: method
 f1_keywords:
 - dxva2api/IDirectXVideoDecoderService.GetDecoderDeviceGuids
 dev_langs:

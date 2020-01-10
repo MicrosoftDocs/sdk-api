@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 5350a1b1-a099-4b09-af89-f652e40b1d20
 ms.date: 12/05/2018
 ms.keywords: SHPropStgReadMultiple, SHPropStgReadMultiple function [Windows Properties], _win32_SHPropStgReadMultiple, properties.SHPropStgReadMultiple, shell.SHPropStgReadMultiple, shlobj_core/SHPropStgReadMultiple
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHPropStgReadMultiple
 dev_langs:

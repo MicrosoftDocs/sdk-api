@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: d69075a3-7b5a-4c99-9e51-d07a3dde511a
 ms.date: 12/05/2018
 ms.keywords: IMultiInterfacePublisherFilter interface [COM+],Initialize method, IMultiInterfacePublisherFilter.Initialize, IMultiInterfacePublisherFilter::Initialize, Initialize, Initialize method [COM+], Initialize method [COM+],IMultiInterfacePublisherFilter interface, _cos_IMultiInterfacePublisherFilter_Initialize, cos.imultiinterfacepublisherfilter_initialize, eventsys/IMultiInterfacePublisherFilter::Initialize
-ms.topic: method
 f1_keywords:
 - eventsys/IMultiInterfacePublisherFilter.Initialize
 dev_langs:

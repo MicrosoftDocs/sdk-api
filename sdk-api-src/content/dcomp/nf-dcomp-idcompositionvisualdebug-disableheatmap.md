@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: C186E930-4523-4DF7-8E74-B69AF91622F4
 ms.date: 12/05/2018
 ms.keywords: DisableHeatMap, DisableHeatMap method [DirectComposition], DisableHeatMap method [DirectComposition],IDCompositionVisualDebug interface, IDCompositionVisualDebug interface [DirectComposition],DisableHeatMap method, IDCompositionVisualDebug.DisableHeatMap, IDCompositionVisualDebug::DisableHeatMap, dcomp/IDCompositionVisualDebug::DisableHeatMap, directcomp.idcompositionvisualdebug_disableheatmap
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionVisualDebug.DisableHeatMap
 dev_langs:

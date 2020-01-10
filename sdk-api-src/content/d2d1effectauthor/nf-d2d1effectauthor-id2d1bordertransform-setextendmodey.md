@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 0D29121A-A6FE-49A6-96DE-FB707ACD15B2
 ms.date: 12/05/2018
 ms.keywords: ID2D1BorderTransform interface [Direct2D],SetExtendModeY method, ID2D1BorderTransform.SetExtendModeY, ID2D1BorderTransform::SetExtendModeY, SetExtendModeY, SetExtendModeY method [Direct2D], SetExtendModeY method [Direct2D],ID2D1BorderTransform interface, d2d1effectauthor/ID2D1BorderTransform::SetExtendModeY, direct2d.id2d1bordertransform_setextendmodey
-ms.topic: method
 f1_keywords:
 - d2d1effectauthor/ID2D1BorderTransform.SetExtendModeY
 dev_langs:

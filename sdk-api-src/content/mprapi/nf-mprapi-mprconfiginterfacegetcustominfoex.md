@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 97fa62f4-5e1c-4634-a3c7-974425717080
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceGetCustomInfoEx, MprConfigInterfaceGetCustomInfoEx function [RAS], mprapi/MprConfigInterfaceGetCustomInfoEx, rras.mprconfiginterfacegetcustominfoex
-ms.topic: function
 f1_keywords:
 - mprapi/MprConfigInterfaceGetCustomInfoEx
 dev_langs:

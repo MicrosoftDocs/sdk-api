@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 6c676065-0226-456c-b8c4-10752a8daec8
 ms.date: 12/05/2018
 ms.keywords: AnalyzeLineBreakpoints, AnalyzeLineBreakpoints method [Direct Write], AnalyzeLineBreakpoints method [Direct Write],IDWriteTextAnalyzer interface, IDWriteTextAnalyzer interface [Direct Write],AnalyzeLineBreakpoints method, IDWriteTextAnalyzer.AnalyzeLineBreakpoints, IDWriteTextAnalyzer::AnalyzeLineBreakpoints, directwrite.IDWriteTextAnalyzer_AnalyzeLineBreakpoints, dwrite/IDWriteTextAnalyzer::AnalyzeLineBreakpoints
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextAnalyzer.AnalyzeLineBreakpoints
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: b3a210f9-90ea-4a6e-8aab-9e8cd7e21ab6
 ms.date: 12/05/2018
 ms.keywords: GetApplicationName, GetApplicationName method [Windows Media Player], GetApplicationName method [Windows Media Player],IWMPRemoteMediaServices interface, IWMPRemoteMediaServices interface [Windows Media Player],GetApplicationName method, IWMPRemoteMediaServices.GetApplicationName, IWMPRemoteMediaServices::GetApplicationName, IWMPRemoteMediaServicesGetApplicationName, wmp.iwmpremotemediaservices_getapplicationname, wmp/IWMPRemoteMediaServices::GetApplicationName
-ms.topic: method
 f1_keywords:
 - wmp/IWMPRemoteMediaServices.GetApplicationName
 dev_langs:

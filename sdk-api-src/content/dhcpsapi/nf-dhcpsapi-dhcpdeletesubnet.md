@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: e000a81b-b61b-4ba9-adee-4940edc78050
 ms.date: 12/05/2018
 ms.keywords: DhcpDeleteSubnet, DhcpDeleteSubnet function [DHCP], dhcp.dhcpdeletesubnet, dhcpsapi/DhcpDeleteSubnet
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpDeleteSubnet
 dev_langs:

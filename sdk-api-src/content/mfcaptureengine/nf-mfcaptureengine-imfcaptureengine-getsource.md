@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 9DED11CA-BDBB-4E1A-BAD1-2EB6216543F9
 ms.date: 12/05/2018
 ms.keywords: GetSource, GetSource method [Media Foundation], GetSource method [Media Foundation],IMFCaptureEngine interface, IMFCaptureEngine interface [Media Foundation],GetSource method, IMFCaptureEngine.GetSource, IMFCaptureEngine::GetSource, mf.imfcaptureengine_getsource, mfcaptureengine/IMFCaptureEngine::GetSource
-ms.topic: method
 f1_keywords:
 - mfcaptureengine/IMFCaptureEngine.GetSource
 dev_langs:

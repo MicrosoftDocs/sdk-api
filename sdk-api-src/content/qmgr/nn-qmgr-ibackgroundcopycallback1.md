@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: d5d22cf6-d9b5-4001-a0ac-f67d59dde779
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyCallback1, IBackgroundCopyCallback1 interface [BITS], IBackgroundCopyCallback1 interface [BITS],described, bits.ibackgroundcopycallback1, qmgr/IBackgroundCopyCallback1
-ms.topic: interface
 f1_keywords:
 - qmgr/IBackgroundCopyCallback1
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 557493ea-b685-44e4-b8c3-3f8c5fbe49b8
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_enableErrorDialogs method, IWMPSettings.get_enableErrorDialogs, IWMPSettings::get_enableErrorDialogs, IWMPSettingsget_enableErrorDialogs, get_enableErrorDialogs, get_enableErrorDialogs method [Windows Media Player], get_enableErrorDialogs method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_enableerrordialogs, wmp/IWMPSettings::get_enableErrorDialogs
-ms.topic: method
 f1_keywords:
 - wmp/IWMPSettings.get_enableErrorDialogs
 dev_langs:

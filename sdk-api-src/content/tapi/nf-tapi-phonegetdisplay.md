@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: f9176550-f48a-451d-be98-ad4bd593276b
 ms.date: 12/05/2018
 ms.keywords: _tapi2_phonegetdisplay, phoneGetDisplay, phoneGetDisplay function [TAPI 2.2], tapi/phoneGetDisplay, tapi2.phonegetdisplay
-ms.topic: function
 f1_keywords:
 - tapi/phoneGetDisplay
 dev_langs:

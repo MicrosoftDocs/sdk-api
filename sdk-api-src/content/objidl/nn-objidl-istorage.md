@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 2f454538-0f40-4811-b908-cd317ef79487
 ms.date: 12/05/2018
 ms.keywords: IStorage, IStorage interface [Structured Storage], IStorage interface [Structured Storage],described, _stg_istorage, objidl/IStorage, stg.istorage
-ms.topic: interface
 f1_keywords:
 - objidl/IStorage
 dev_langs:

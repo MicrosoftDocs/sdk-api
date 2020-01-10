@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: e6973c1b-86bc-4fd1-aff6-26e87f8013c4
 ms.date: 12/05/2018
 ms.keywords: GetProcessIoCounters, GetProcessIoCounters function, _win32_getprocessiocounters, base.getprocessiocounters, winbase/GetProcessIoCounters
-ms.topic: function
 f1_keywords:
 - winbase/GetProcessIoCounters
 dev_langs:

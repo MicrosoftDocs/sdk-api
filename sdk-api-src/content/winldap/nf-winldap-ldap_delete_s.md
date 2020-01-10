@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: cded1b76-0fad-454f-bf5a-c500c9079f08
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_delete_s, ldap.ldap__delete__s, ldap.ldap_delete_s, ldap_delete_s, ldap_delete_s function [LDAP], ldap_delete_sA, ldap_delete_sW, winldap/ldap_delete_s, winldap/ldap_delete_sA, winldap/ldap_delete_sW
-ms.topic: function
 f1_keywords:
 - winldap/ldap_delete_s
 dev_langs:

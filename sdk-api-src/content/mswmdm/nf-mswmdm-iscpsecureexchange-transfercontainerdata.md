@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 97b55751-b45e-4204-87e2-1e653d55a718
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureExchange interface [windows Media Device Manager],TransferContainerData method, ISCPSecureExchange.TransferContainerData, ISCPSecureExchange::TransferContainerData, ISCPSecureExchangeTransferContainerData, TransferContainerData, TransferContainerData method [windows Media Device Manager], TransferContainerData method [windows Media Device Manager],ISCPSecureExchange interface, mswmdm/ISCPSecureExchange::TransferContainerData, wmdm.iscpsecureexchange_transfercontainerdata
-ms.topic: method
 f1_keywords:
 - mswmdm/ISCPSecureExchange.TransferContainerData
 dev_langs:

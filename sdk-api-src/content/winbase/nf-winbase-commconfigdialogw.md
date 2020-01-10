@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: 6c7a3833-1d40-40c5-bfa7-14523bc73ab0
 ms.date: 12/05/2018
 ms.keywords: CommConfigDialog, CommConfigDialog function, CommConfigDialogA, CommConfigDialogW, _win32_commconfigdialog, base.commconfigdialog, winbase/CommConfigDialog, winbase/CommConfigDialogA, winbase/CommConfigDialogW
-ms.topic: function
 f1_keywords:
 - winbase/CommConfigDialog
 dev_langs:

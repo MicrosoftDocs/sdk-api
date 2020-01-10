@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 4866BD8B-31F8-47E0-9228-5F61D6CA2190
 ms.date: 12/05/2018
 ms.keywords: ID3D12Device interface,OpenSharedHandleByName method, ID3D12Device.OpenSharedHandleByName, ID3D12Device::OpenSharedHandleByName, OpenSharedHandleByName, OpenSharedHandleByName method, OpenSharedHandleByName method,ID3D12Device interface, d3d12/ID3D12Device::OpenSharedHandleByName, direct3d12.id3d12device_opensharedhandlebyname
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Device.OpenSharedHandleByName
 dev_langs:

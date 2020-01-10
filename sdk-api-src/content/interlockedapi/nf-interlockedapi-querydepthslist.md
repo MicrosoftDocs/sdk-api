@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 3f9b4481-647f-457f-bdfb-62e6ae4198e5
 ms.date: 12/05/2018
 ms.keywords: QueryDepthSList, QueryDepthSList function, base.querydepthslist, interlockedapi/QueryDepthSList, winbase/QueryDepthSList
-ms.topic: function
 f1_keywords:
 - interlockedapi/QueryDepthSList
 dev_langs:

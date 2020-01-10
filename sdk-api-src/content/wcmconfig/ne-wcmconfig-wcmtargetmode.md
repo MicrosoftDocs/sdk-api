@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: 7a3b61f4-c98f-4c59-98dd-b513f69ac7d8
 ms.date: 12/05/2018
 ms.keywords: OfflineMode, OnlineMode, WcmTargetMode, WcmTargetMode enumeration [SMI], smi.wcmtargetmode, wcmconfig/OfflineMode, wcmconfig/OnlineMode, wcmconfig/WcmTargetMode
-ms.topic: enum
 f1_keywords:
 - wcmconfig/WcmTargetMode
 dev_langs:

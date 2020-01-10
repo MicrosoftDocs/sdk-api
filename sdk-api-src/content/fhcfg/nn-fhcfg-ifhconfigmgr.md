@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: CDE8A011-6E78-49DF-A5E1-8E968355BA11
 ms.date: 12/05/2018
 ms.keywords: IFhConfigMgr, IFhConfigMgr interface [Windows API], IFhConfigMgr interface [Windows API],described, fhcfg/IFhConfigMgr, winprog.ifhconfigmgr
-ms.topic: interface
 f1_keywords:
 - fhcfg/IFhConfigMgr
 dev_langs:

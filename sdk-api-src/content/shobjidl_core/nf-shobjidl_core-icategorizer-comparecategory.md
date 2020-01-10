@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 25775fa5-595d-4911-9cd4-47fde429b923
 ms.date: 12/05/2018
 ms.keywords: CompareCategory, CompareCategory method [Windows Shell], CompareCategory method [Windows Shell],ICategorizer interface, ICategorizer interface [Windows Shell],CompareCategory method, ICategorizer.CompareCategory, ICategorizer::CompareCategory, inet_ICategorizer_CompareCategory, shell.ICategorizer_CompareCategory, shobjidl_core/ICategorizer::CompareCategory
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ICategorizer.CompareCategory
 dev_langs:

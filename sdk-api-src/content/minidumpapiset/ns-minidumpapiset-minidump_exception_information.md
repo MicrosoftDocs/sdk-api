@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 86416432-99e4-45ae-84e0-84b7b2341d11
 ms.date: 12/05/2018
 ms.keywords: '*PMINIDUMP_EXCEPTION_INFORMATION, MINIDUMP_EXCEPTION_INFORMATION, MINIDUMP_EXCEPTION_INFORMATION structure, PMINIDUMP_EXCEPTION_INFORMATION, PMINIDUMP_EXCEPTION_INFORMATION structure pointer, _MINIDUMP_EXCEPTION_INFORMATION, _win32_minidump_exception_information_str, base.minidump_exception_information_str, minidumpapiset/MINIDUMP_EXCEPTION_INFORMATION, minidumpapiset/PMINIDUMP_EXCEPTION_INFORMATION'
-ms.topic: struct
 f1_keywords:
 - minidumpapiset/MINIDUMP_EXCEPTION_INFORMATION
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: b666002f-2cd6-4e96-b055-34d801c1982e
 ms.date: 12/05/2018
 ms.keywords: IWSDUdpAddress, IWSDUdpAddress interface, IWSDUdpAddress interface,described, ncd.iwsdudpaddress, wsdbase/IWSDUdpAddress
-ms.topic: interface
 f1_keywords:
 - wsdbase/IWSDUdpAddress
 dev_langs:

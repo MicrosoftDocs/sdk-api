@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: bf42b26e-0f10-47b4-9d3b-48c59618342d
 ms.date: 12/05/2018
 ms.keywords: SHOpenPropSheet, SHOpenPropSheet function [Windows Shell], SHOpenPropSheetA, SHOpenPropSheetW, _win32_SHOpenPropSheetW, shell.SHOpenPropSheetW, shlobj/SHOpenPropSheet, shlobj/SHOpenPropSheetA, shlobj/SHOpenPropSheetW
-ms.topic: function
 f1_keywords:
 - shlobj/SHOpenPropSheet
 dev_langs:

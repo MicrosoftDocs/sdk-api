@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixTransformation2D(XMVECTOR,float,XMVECTOR,XMVECTOR,float,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixTransformation2D, XMMatrixTransformation2D, XMMatrixTransformation2D method [DirectX Math Support APIs], dxmath.xmmatrixtransformation2d
-ms.topic: function
 f1_keywords:
 - directxmath/XMMatrixTransformation2D
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: 735eb056-1e2a-49d0-9613-10a326afb872
 ms.date: 12/05/2018
 ms.keywords: SNMP_LOG_ERROR, SNMP_LOG_FATAL, SNMP_LOG_SILENT, SNMP_LOG_TRACE, SNMP_LOG_VERBOSE, SNMP_LOG_WARNING, SnmpSvcSetLogLevel, SnmpSvcSetLogLevel function [SNMP], _snmp_snmpsvcsetloglevel, snmp.snmpsvcsetloglevel, snmp/SnmpSvcSetLogLevel
-ms.topic: function
 f1_keywords:
 - snmp/SnmpSvcSetLogLevel
 dev_langs:

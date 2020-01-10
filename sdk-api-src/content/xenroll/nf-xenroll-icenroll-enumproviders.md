@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 05188aee-2b03-46bc-89f4-506a019496a4
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],enumProviders method, ICEnroll interface [Security],enumProviders method, ICEnroll.enumProviders, ICEnroll2 interface [Security],enumProviders method, ICEnroll2::enumProviders, ICEnroll3 interface [Security],enumProviders method, ICEnroll3::enumProviders, ICEnroll4 interface [Security],enumProviders method, ICEnroll4::enumProviders, ICEnroll::enumProviders, enumProviders, enumProviders method [Security], enumProviders method [Security],CEnroll object, enumProviders method [Security],ICEnroll interface, enumProviders method [Security],ICEnroll2 interface, enumProviders method [Security],ICEnroll3 interface, enumProviders method [Security],ICEnroll4 interface, security.icenroll4_enumproviders, xenroll/ICEnroll2::enumProviders, xenroll/ICEnroll3::enumProviders, xenroll/ICEnroll4::enumProviders, xenroll/ICEnroll::enumProviders
-ms.topic: method
 f1_keywords:
 - xenroll/ICEnroll4.enumProviders
 dev_langs:

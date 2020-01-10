@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f82922dc-ec33-499d-b052-a1ba38632c52
 ms.date: 12/05/2018
 ms.keywords: IQualityControl interface [DirectShow],SetSink method, IQualityControl.SetSink, IQualityControl::SetSink, IQualityControlSetSink, SetSink, SetSink method [DirectShow], SetSink method [DirectShow],IQualityControl interface, dshow.iqualitycontrol_setsink, strmif/IQualityControl::SetSink
-ms.topic: method
 f1_keywords:
 - strmif/IQualityControl.SetSink
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 808ba120-f0e1-4348-94e7-69a27c77cf42
 ms.date: 12/05/2018
 ms.keywords: GetVideoAcceleratorGUIDs, GetVideoAcceleratorGUIDs method [DirectShow], GetVideoAcceleratorGUIDs method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetVideoAcceleratorGUIDs method, IAMVideoAccelerator.GetVideoAcceleratorGUIDs, IAMVideoAccelerator::GetVideoAcceleratorGUIDs, IAMVideoAcceleratorGetVideoAcceleratorGUIDs, dshow.iamvideoaccelerator_getvideoacceleratorguids, videoacc/IAMVideoAccelerator::GetVideoAcceleratorGUIDs
-ms.topic: method
 f1_keywords:
 - videoacc/IAMVideoAccelerator.GetVideoAcceleratorGUIDs
 dev_langs:

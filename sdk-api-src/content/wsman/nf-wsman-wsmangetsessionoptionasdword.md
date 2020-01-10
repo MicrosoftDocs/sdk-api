@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 73ff4a3a-89f7-4362-99fb-7423e3fd853f
 ms.date: 12/05/2018
 ms.keywords: WSManGetSessionOptionAsDword, WSManGetSessionOptionAsDword function [Windows Remote Management], winrm.wsmangetsessionoptionasdword, wsman/WSManGetSessionOptionAsDword
-ms.topic: function
 f1_keywords:
 - wsman/WSManGetSessionOptionAsDword
 dev_langs:

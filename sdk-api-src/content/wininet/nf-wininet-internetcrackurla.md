@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 30677071-3eb2-4d9c-a0a3-ff11a077f98a
 ms.date: 12/05/2018
 ms.keywords: ICU_DECODE, ICU_ESCAPE, InternetCrackUrl, InternetCrackUrl function [WinINet], InternetCrackUrlA, InternetCrackUrlW, _inet_internetcrackurl_function, wininet.internetcrackurl, wininet/InternetCrackUrl, wininet/InternetCrackUrlA, wininet/InternetCrackUrlW
-ms.topic: function
 f1_keywords:
 - wininet/InternetCrackUrl
 dev_langs:

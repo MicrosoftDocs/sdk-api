@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 3191f2b3-e754-4f2d-ae8b-11da859c94b7
 ms.date: 12/05/2018
 ms.keywords: WSMAN_PLUGIN_REQUEST, WSMAN_PLUGIN_REQUEST structure [Windows Remote Management], winrm.wsman_plugin_request, wsman/WSMAN_PLUGIN_REQUEST
-ms.topic: struct
 f1_keywords:
 - wsman/WSMAN_PLUGIN_REQUEST
 dev_langs:

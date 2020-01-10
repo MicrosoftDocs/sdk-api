@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcalid.htm
 ms.date: 12/05/2018
 ms.keywords: MonthCal_GetCALID, MonthCal_GetCALID macro [Windows Controls], _shell_MonthCal_GetCALID, _shell_MonthCal_GetCALID_cpp, commctrl/MonthCal_GetCALID, controls.MonthCal_GetCALID, controls._shell_MonthCal_GetCALID
-ms.topic: macro
 f1_keywords:
 - commctrl/MonthCal_GetCALID
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 19fc9dd8-d732-4078-9db3-bad18681c7ea
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetInlineObject method, IDWriteTextLayout.SetInlineObject, IDWriteTextLayout::SetInlineObject, SetInlineObject, SetInlineObject method [Direct Write], SetInlineObject method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetInlineObject, dwrite/IDWriteTextLayout::SetInlineObject
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextLayout.SetInlineObject
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wcn
 ms.assetid: f7fa8446-8013-431a-95ed-fa5d78a90df7
 ms.date: 12/05/2018
 ms.keywords: GetVendorExtension, GetVendorExtension method [Windows Connect Now], GetVendorExtension method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],GetVendorExtension method, IWCNDevice.GetVendorExtension, IWCNDevice::GetVendorExtension, wcn.iwcndevice_getvendorextension, wcndevice/IWCNDevice::GetVendorExtension
-ms.topic: method
 f1_keywords:
 - wcndevice/IWCNDevice.GetVendorExtension
 dev_langs:

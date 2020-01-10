@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2dfab719-3c16-49db-9cf3-1db236eae141
 ms.date: 12/05/2018
 ms.keywords: Int8Sub, Int8Sub function [Windows Shell], intsafe/Int8Sub, shell.Int8Sub
-ms.topic: function
 f1_keywords:
 - intsafe/Int8Sub
 dev_langs:

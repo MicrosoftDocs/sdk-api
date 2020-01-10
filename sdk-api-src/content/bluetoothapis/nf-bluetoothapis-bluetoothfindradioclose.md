@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: 859771b1-d06c-414b-81cb-bb3913fd0380
 ms.date: 12/05/2018
 ms.keywords: BluetoothFindRadioClose, BluetoothFindRadioClose function [Bluetooth], bluetooth.bluetoothfindradioclose, bluetoothapis/BluetoothFindRadioClose
-ms.topic: function
 f1_keywords:
 - bluetoothapis/BluetoothFindRadioClose
 dev_langs:

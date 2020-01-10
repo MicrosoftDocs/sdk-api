@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a37c20b9-e2c6-438b-9fd5-749c680d5ee0
 ms.date: 12/05/2018
 ms.keywords: IBrowserService interface [Windows Shell],NotifyRedirect method, IBrowserService.NotifyRedirect, IBrowserService::NotifyRedirect, NotifyRedirect, NotifyRedirect method [Windows Shell], NotifyRedirect method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::NotifyRedirect, shell.IBrowserService_NotifyRedirect, zone_IBrowserService_NotifyRedirect
-ms.topic: method
 f1_keywords:
 - shdeprecated/IBrowserService.NotifyRedirect
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 1eca2ba5-c0c3-4388-9384-db9dbcfc8405
 ms.date: 12/05/2018
 ms.keywords: ClusterRegCreateBatchNotifyPort, ClusterRegCreateBatchNotifyPort function [Failover Cluster], PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT, clusapi/ClusterRegCreateBatchNotifyPort, mscs.clusterregcreatebatchnotifyport
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterRegCreateBatchNotifyPort
 dev_langs:

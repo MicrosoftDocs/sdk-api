@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 9529284f-2150-4d32-af6c-178ba8681945
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponentsEx2 interface,SetRollForward method, IVssBackupComponentsEx2.SetRollForward, IVssBackupComponentsEx2::SetRollForward, SetRollForward, SetRollForward method, SetRollForward method,IVssBackupComponentsEx2 interface, base.ivssbackupcomponentsex2_setrollforward, vsbackup/IVssBackupComponentsEx2::SetRollForward
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponentsEx2.SetRollForward
 dev_langs:

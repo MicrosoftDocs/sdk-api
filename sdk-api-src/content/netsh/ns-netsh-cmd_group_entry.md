@@ -7,7 +7,6 @@ tech.root: netshell
 ms.assetid: dc0d6449-f635-417c-8363-51e61c417051
 ms.date: 12/05/2018
 ms.keywords: '*PCMD_GROUP_ENTRY, CMD_GROUP_ENTRY, CMD_GROUP_ENTRY structure [NetShell], PCMD_GROUP_ENTRY, PCMD_GROUP_ENTRY structure pointer [NetShell], _netsh_cmd_group_entry, netsh/CMD_GROUP_ENTRY, netsh/PCMD_GROUP_ENTRY, netshell.cmd_group_entry'
-ms.topic: struct
 f1_keywords:
 - netsh/CMD_GROUP_ENTRY
 dev_langs:

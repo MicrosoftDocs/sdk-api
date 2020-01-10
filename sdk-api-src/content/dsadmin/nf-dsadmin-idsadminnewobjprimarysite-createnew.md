@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: ec685ae1-6a37-43d3-84ed-7409611ab63b
 ms.date: 12/05/2018
 ms.keywords: CreateNew, CreateNew method [Active Directory], CreateNew method [Active Directory],IDsAdminNewObjPrimarySite interface, IDsAdminNewObjPrimarySite interface [Active Directory],CreateNew method, IDsAdminNewObjPrimarySite.CreateNew, IDsAdminNewObjPrimarySite::CreateNew, _glines_idsadminnewobjprimarysite_createnew, ad.idsadminnewobjprimarysite__createnew, ad.idsadminnewobjprimarysite_createnew, dsadmin/IDsAdminNewObjPrimarySite::CreateNew
-ms.topic: method
 f1_keywords:
 - dsadmin/IDsAdminNewObjPrimarySite.CreateNew
 dev_langs:

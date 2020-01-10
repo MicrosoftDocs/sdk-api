@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 9320c396-4da8-4b35-a620-4bb7cbd80e9a
 ms.date: 12/05/2018
 ms.keywords: CM_Modify_Res_Des, CM_Modify_Res_Des function [Device and Driver Installation], cfgmgr32/CM_Modify_Res_Des, cfgmgrfn_7bf5dade-d4e6-4460-8b3c-a4b99458ed28.xml, devinst.cm_modify_res_des
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Modify_Res_Des
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 825dcbed-3248-4d2e-bf5f-5d51f8f0529b
 ms.date: 12/05/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnOverwrite method, IFileDialogEvents.OnOverwrite, IFileDialogEvents::OnOverwrite, OnOverwrite, OnOverwrite method [Windows Shell], OnOverwrite method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnOverwrite, shell_IFileDialogEvents_OnOverwrite, shobjidl_core/IFileDialogEvents::OnOverwrite
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileDialogEvents.OnOverwrite
 dev_langs:

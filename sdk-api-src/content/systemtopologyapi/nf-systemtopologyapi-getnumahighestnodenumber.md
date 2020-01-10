@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: ce944fa7-b42a-4b99-ac8d-30bd026fba21
 ms.date: 12/05/2018
 ms.keywords: GetNumaHighestNodeNumber, GetNumaHighestNodeNumber function, _win32_getnumahighestnodenumber, base.getnumahighestnodenumber, systemtopologyapi/GetNumaHighestNodeNumber, winbase/GetNumaHighestNodeNumber
-ms.topic: function
 f1_keywords:
 - systemtopologyapi/GetNumaHighestNodeNumber
 dev_langs:

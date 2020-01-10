@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: f0491047-d20d-49e4-9319-421b48feca48
 ms.date: 12/05/2018
 ms.keywords: INetFwOpenPorts interface [ICS/ICF],Item method, INetFwOpenPorts.Item, INetFwOpenPorts::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwOpenPorts interface, ics.inetfwopenports_item, netfw/INetFwOpenPorts::Item
-ms.topic: method
 f1_keywords:
 - netfw/INetFwOpenPorts.Item
 dev_langs:

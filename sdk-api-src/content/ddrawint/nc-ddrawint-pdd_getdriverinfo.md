@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 89a22163-a678-4c72-932a-ae4d17922e0b
 ms.date: 12/05/2018
 ms.keywords: DdGetDriverInfo, DdGetDriverInfo callback function [Display Devices], PDD_GETDRIVERINFO, PDD_GETDRIVERINFO callback, ddfncs_0b5e1f3a-ee8b-4e55-bdd9-d872f568f95d.xml, ddrawint/DdGetDriverInfo, display.ddgetdriverinfo
-ms.topic: callback
 f1_keywords:
 - ddrawint/DdGetDriverInfo
 dev_langs:

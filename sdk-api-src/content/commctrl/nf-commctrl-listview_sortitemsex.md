@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_sortitemsex.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_SortItemsEx, ListView_SortItemsEx macro [Windows Controls], _win32_ListView_SortItemsEx, _win32_ListView_SortItemsEx_cpp, commctrl/ListView_SortItemsEx, controls.ListView_SortItemsEx, controls._win32_ListView_SortItemsEx
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_SortItemsEx
 dev_langs:

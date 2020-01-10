@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: a8417d3f-5932-4993-b206-b43b6a93ef8f
 ms.date: 12/05/2018
 ms.keywords: WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK, WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK callback, WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK callback function [Web Services for Windows], webservices/WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK, wsw.ws_cert_issuer_list_notification_callback
-ms.topic: callback
 f1_keywords:
 - webservices/WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 5507a80f-4bef-4712-af41-49e58d8396aa
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_isOnline method, IWMPCore.get_isOnline, IWMPCore::get_isOnline, IWMPCoreget_isOnline, get_isOnline, get_isOnline method [Windows Media Player], get_isOnline method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_isonline, wmp/IWMPCore::get_isOnline
-ms.topic: method
 f1_keywords:
 - wmp/IWMPCore.get_isOnline
 dev_langs:

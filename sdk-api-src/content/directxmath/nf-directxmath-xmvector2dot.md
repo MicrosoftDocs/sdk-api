@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2Dot(XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2Dot, XMVector2Dot, XMVector2Dot method [DirectX Math Support APIs], dxmath.xmvector2dot
-ms.topic: function
 f1_keywords:
 - directxmath/XMVector2Dot
 dev_langs:

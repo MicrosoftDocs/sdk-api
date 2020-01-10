@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 95a1490c-3a0f-4380-a11f-0979e94f88ab
 ms.date: 12/05/2018
 ms.keywords: _win32_midiInClose, midiInClose, midiInClose function [Windows Multimedia], mmeapi/midiInClose, multimedia.midiinclose
-ms.topic: function
 f1_keywords:
 - mmeapi/midiInClose
 dev_langs:

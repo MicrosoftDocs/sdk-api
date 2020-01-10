@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: ca8c5b70-ea5e-4fb9-82d3-1de839f0d244
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_MACHINE_KEY_FLAG, NCRYPT_SILENT_FLAG, NCryptEnumKeys, NCryptEnumKeys function [Security], ncrypt/NCryptEnumKeys, security.ncryptenumkeys_func
-ms.topic: function
 f1_keywords:
 - ncrypt/NCryptEnumKeys
 dev_langs:

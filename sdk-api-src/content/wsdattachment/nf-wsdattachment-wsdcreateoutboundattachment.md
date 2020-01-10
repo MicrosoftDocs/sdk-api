@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 92e4ed8a-4a17-49dd-9ed8-bc867ec8bba9
 ms.date: 12/05/2018
 ms.keywords: WSDCreateOutboundAttachment, WSDCreateOutboundAttachment function, ncd.wsdcreateoutboundattachment, wsdattachment/WSDCreateOutboundAttachment
-ms.topic: function
 f1_keywords:
 - wsdattachment/WSDCreateOutboundAttachment
 dev_langs:

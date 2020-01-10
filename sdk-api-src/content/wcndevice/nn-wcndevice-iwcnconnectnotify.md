@@ -7,7 +7,6 @@ tech.root: wcn
 ms.assetid: 63ea2b5a-4bec-4050-9a61-962a1faef0a0
 ms.date: 12/05/2018
 ms.keywords: IWCNConnectNotify, IWCNConnectNotify interface [Windows Connect Now], IWCNConnectNotify interface [Windows Connect Now],described, wcn.iwcnconnectnotify, wcndevice/IWCNConnectNotify
-ms.topic: interface
 f1_keywords:
 - wcndevice/IWCNConnectNotify
 dev_langs:

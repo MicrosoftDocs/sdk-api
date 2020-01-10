@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: c0dd01a0-1a08-43dc-8cef-dff290e73ca1
 ms.date: 12/05/2018
 ms.keywords: AddSIDToBoundaryDescriptor, AddSIDToBoundaryDescriptor function, base.addsidtoboundarydescriptor, namespaceapi/AddSIDToBoundaryDescriptor, winbase/AddSIDToBoundaryDescriptor
-ms.topic: function
 f1_keywords:
 - namespaceapi/AddSIDToBoundaryDescriptor
 dev_langs:

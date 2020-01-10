@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 6e1738b3-f1ce-407e-bbaa-7f4c57e30028
 ms.date: 12/05/2018
 ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetPolicy method, IXpsSigningOptions.SetPolicy, IXpsSigningOptions::SetPolicy, SetPolicy, SetPolicy method [XPS Documents and Packaging], SetPolicy method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setpolicy, xpsdigitalsignature/IXpsSigningOptions::SetPolicy
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSigningOptions.SetPolicy
 dev_langs:

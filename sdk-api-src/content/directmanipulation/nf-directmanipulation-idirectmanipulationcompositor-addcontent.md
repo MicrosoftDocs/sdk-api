@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: 16c1a911-43cb-4c18-9e29-12a69b715e6a
 ms.date: 12/05/2018
 ms.keywords: AddContent, AddContent method [Direct Manipulation], AddContent method [Direct Manipulation],IDirectManipulationCompositor interface, IDirectManipulationCompositor interface [Direct Manipulation],AddContent method, IDirectManipulationCompositor.AddContent, IDirectManipulationCompositor::AddContent, directmanipulation.idirectmanipulationcompositor_addcontent, directmanipulation/IDirectManipulationCompositor::AddContent
-ms.topic: method
 f1_keywords:
 - directmanipulation/IDirectManipulationCompositor.AddContent
 dev_langs:

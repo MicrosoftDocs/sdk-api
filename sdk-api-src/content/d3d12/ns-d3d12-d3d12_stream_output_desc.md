@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 9EFAA901-857B-40E3-B4B7-7C04D53BCA67
 ms.date: 12/05/2018
 ms.keywords: D3D12_STREAM_OUTPUT_DESC, D3D12_STREAM_OUTPUT_DESC structure, d3d12/D3D12_STREAM_OUTPUT_DESC, direct3d12.d3d12_stream_output_desc
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_STREAM_OUTPUT_DESC
 dev_langs:

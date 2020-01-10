@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setelevationrequiredstate.htm
 ms.date: 12/05/2018
 ms.keywords: Button_SetElevationRequiredState, Button_SetElevationRequiredState macro [Windows Controls], _shell_Button_SetElevationRequiredState, _shell_Button_SetElevationRequiredState_cpp, commctrl/Button_SetElevationRequiredState, controls.Button_SetElevationRequiredState, controls._shell_Button_SetElevationRequiredState
-ms.topic: macro
 f1_keywords:
 - commctrl/Button_SetElevationRequiredState
 dev_langs:

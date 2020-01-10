@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ae3cf911-991d-4363-985a-746846e3c08a
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],OnCreatingWindow method, ICredentialProviderCredentialEvents.OnCreatingWindow, ICredentialProviderCredentialEvents::OnCreatingWindow, OnCreatingWindow, OnCreatingWindow method [Windows Shell], OnCreatingWindow method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_OnCreatingWindow, credentialprovider/ICredentialProviderCredentialEvents::OnCreatingWindow, shell.ICredentialProviderCredentialEvents_OnCreatingWindow
-ms.topic: method
 f1_keywords:
 - credentialprovider/ICredentialProviderCredentialEvents.OnCreatingWindow
 dev_langs:

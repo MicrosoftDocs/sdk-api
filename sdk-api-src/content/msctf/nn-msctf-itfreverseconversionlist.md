@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 2659bade-af85-42c5-bdb3-32eab16753a8
 ms.date: 12/05/2018
 ms.keywords: ITfReverseConversionList, ITfReverseConversionList interface [Text Services Framework], ITfReverseConversionList interface [Text Services Framework],described, msctf/ITfReverseConversionList, tsf.itfreverseconversionlist
-ms.topic: interface
 f1_keywords:
 - msctf/ITfReverseConversionList
 dev_langs:

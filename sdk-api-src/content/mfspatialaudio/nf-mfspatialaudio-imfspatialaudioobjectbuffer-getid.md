@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 5BB0DEB2-B3B9-4723-973D-A9296D94DDE6
 ms.date: 12/05/2018
 ms.keywords: GetID, GetID method [Media Foundation], GetID method [Media Foundation],IMFSpatialAudioObjectBuffer interface, IMFSpatialAudioObjectBuffer interface [Media Foundation],GetID method, IMFSpatialAudioObjectBuffer.GetID, IMFSpatialAudioObjectBuffer::GetID, mf.imfspatialaudioobjectbuffer_getid, mfspatialaudio/IMFSpatialAudioObjectBuffer::GetID
-ms.topic: method
 f1_keywords:
 - mfspatialaudio/IMFSpatialAudioObjectBuffer.GetID
 dev_langs:

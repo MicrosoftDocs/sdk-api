@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: fcb965f4-8fd6-415f-8fb6-a80d0c92731d
 ms.date: 12/05/2018
 ms.keywords: IComponents interface [Microsoft TV Technologies],get__NewEnum method, IComponents.get__NewEnum, IComponents::get__NewEnum, IComponentsget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],IComponents interface, mstv.icomponents_get__newenum, tuner/IComponents::get__NewEnum
-ms.topic: method
 f1_keywords:
 - tuner/IComponents.get__NewEnum
 dev_langs:

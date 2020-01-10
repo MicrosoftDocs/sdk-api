@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: ba3f29d9-88cd-4050-aa9f-f9317745a16b
 ms.date: 12/05/2018
 ms.keywords: IWMDMOperation interface [windows Media Device Manager],TransferObjectData method, IWMDMOperation.TransferObjectData, IWMDMOperation::TransferObjectData, IWMDMOperationTransferObjectData, TransferObjectData, TransferObjectData method [windows Media Device Manager], TransferObjectData method [windows Media Device Manager],IWMDMOperation interface, mswmdm/IWMDMOperation::TransferObjectData, wmdm.iwmdmoperation_transferobjectdata
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMOperation.TransferObjectData
 dev_langs:

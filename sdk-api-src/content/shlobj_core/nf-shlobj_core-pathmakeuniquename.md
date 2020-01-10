@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8456ae0c-e83c-43d0-a86a-1861a373d237
 ms.date: 12/05/2018
 ms.keywords: PathMakeUniqueName, PathMakeUniqueName function [Windows Shell], _win32_PathMakeUniqueName, shell.PathMakeUniqueName, shlobj_core/PathMakeUniqueName
-ms.topic: function
 f1_keywords:
 - shlobj_core/PathMakeUniqueName
 dev_langs:

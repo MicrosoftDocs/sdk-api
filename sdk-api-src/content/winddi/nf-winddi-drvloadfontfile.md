@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: d9bcf8f8-40bc-48dc-85b7-67773c8a4ded
 ms.date: 12/05/2018
 ms.keywords: DrvLoadFontFile, DrvLoadFontFile function [Display Devices], ddifncs_42238b28-ad71-4df8-b572-4ffd7ca2d3c1.xml, display.drvloadfontfile, winddi/DrvLoadFontFile
-ms.topic: function
 f1_keywords:
 - winddi/DrvLoadFontFile
 dev_langs:

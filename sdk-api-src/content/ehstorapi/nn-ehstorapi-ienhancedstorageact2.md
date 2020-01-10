@@ -7,7 +7,6 @@ tech.root: enstor
 ms.assetid: 23f47a1a-c2d1-43ed-871a-ca80aab2eed6
 ms.date: 12/05/2018
 ms.keywords: IEnhancedStorageACT2, IEnhancedStorageACT2 interface [Enhanced Storage], IEnhancedStorageACT2 interface [Enhanced Storage],described, ehstorapi/IEnhancedStorageACT2, enstor.ienhancedstorageact2
-ms.topic: interface
 f1_keywords:
 - ehstorapi/IEnhancedStorageACT2
 dev_langs:

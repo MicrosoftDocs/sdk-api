@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 06760319-aeeb-4ad7-b77a-01efea7ed904
 ms.date: 12/05/2018
 ms.keywords: WSAInstallServiceClass, WSAInstallServiceClass function [Winsock], WSAInstallServiceClassA, WSAInstallServiceClassW, _win32_wsainstallserviceclass_2, winsock.wsainstallserviceclass_2, winsock2/WSAInstallServiceClass, winsock2/WSAInstallServiceClassA, winsock2/WSAInstallServiceClassW
-ms.topic: function
 f1_keywords:
 - winsock2/WSAInstallServiceClass
 dev_langs:

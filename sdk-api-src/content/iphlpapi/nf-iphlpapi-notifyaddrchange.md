@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 22ac3b5b-452c-454b-8fbd-47a873675c6c
 ms.date: 12/05/2018
 ms.keywords: NotifyAddrChange, NotifyAddrChange function [IP Helper], _iphlp_notifyaddrchange, iphlp.notifyaddrchange, iphlpapi/NotifyAddrChange
-ms.topic: function
 f1_keywords:
 - iphlpapi/NotifyAddrChange
 dev_langs:

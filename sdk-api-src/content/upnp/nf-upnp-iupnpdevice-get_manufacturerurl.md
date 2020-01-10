@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: 7019716a-4a64-43cd-bb44-21bdb6b022c2
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_ManufacturerURL method, IUPnPDevice.get_ManufacturerURL, IUPnPDevice::get_ManufacturerURL, _upnp_iupnpdevice_manufacturerurl, get_ManufacturerURL, get_ManufacturerURL method [UPnP APIs], get_ManufacturerURL method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_manufacturerurl, upnp/IUPnPDevice::get_ManufacturerURL
-ms.topic: method
 f1_keywords:
 - upnp/IUPnPDevice.get_ManufacturerURL
 dev_langs:

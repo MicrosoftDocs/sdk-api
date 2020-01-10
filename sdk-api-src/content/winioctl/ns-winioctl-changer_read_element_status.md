@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: 4eefc457-ba39-4025-98c8-21f599a87fcb
 ms.date: 12/05/2018
 ms.keywords: '*PCHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS structure, PCHANGER_READ_ELEMENT_STATUS, PCHANGER_READ_ELEMENT_STATUS structure pointer, _win32_changer_read_element_status_str, base.changer_read_element_status_str, winioctl/CHANGER_READ_ELEMENT_STATUS, winioctl/PCHANGER_READ_ELEMENT_STATUS'
-ms.topic: struct
 f1_keywords:
 - winioctl/CHANGER_READ_ELEMENT_STATUS
 dev_langs:

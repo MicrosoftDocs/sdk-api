@@ -7,7 +7,6 @@ tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistsaveheader.htm
 ms.date: 12/05/2018
 ms.keywords: IITPropList interface [HTML Help Workshop],SaveHeader method, IITPropList.SaveHeader, IITPropList::SaveHeader, SaveHeader, SaveHeader method [HTML Help Workshop], SaveHeader method [HTML Help Workshop],IITPropList interface, htmlhelp.iitproplist_saveheader, infotech/IITPropList::SaveHeader, refIITPropListSaveHeader
-ms.topic: method
 f1_keywords:
 - infotech/IITPropList.SaveHeader
 dev_langs:

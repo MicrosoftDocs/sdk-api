@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: A13265FD-DC14-4552-A9FD-C954A7EA08C9
 ms.date: 12/5/2018
 ms.keywords: RoTransformErrorW, RoTransformErrorW function [Windows Runtime], WinRTTransformErrorW, roerrorapi/RoTransformErrorW, roerrorapi/WinRTTransformErrorW, winrt.rotransformerrorw, winrt.winrttransformerrorw
-ms.topic: function
 f1_keywords:
 - roerrorapi/RoTransformErrorW
 dev_langs:

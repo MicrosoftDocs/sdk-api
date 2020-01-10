@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 9A51A059-59EC-4D30-9ECE-C81351C0861F
 ms.date: 12/05/2018
 ms.keywords: '*PTCP_INFO_v0, PTCP_INFO_v0, PTCP_INFO_v0 structure pointer [Winsock], TCP_INFO_v0, TCP_INFO_v0 structure [Winsock], mstcpip/PTCP_INFO_v0, mstcpip/TCP_INFO_v0, winsock.tcp_info_v0'
-ms.topic: struct
 f1_keywords:
 - mstcpip/TCP_INFO_v0
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 654b4e1d-f717-459a-bbf5-dcc733756608
 ms.date: 12/05/2018
 ms.keywords: INDESPolicy interface [Security],Initialize method, INDESPolicy.Initialize, INDESPolicy::Initialize, Initialize, Initialize method [Security], Initialize method [Security],INDESPolicy interface, certpol/INDESPolicy::Initialize, security.indespolicy_initialize
-ms.topic: method
 f1_keywords:
 - certpol/INDESPolicy.Initialize
 dev_langs:

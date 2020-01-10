@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: e2997929-d0a9-4732-8a8f-8f94c413fae5
 ms.date: 12/05/2018
 ms.keywords: IBDA_Topology interface [Microsoft TV Technologies],SetMedium method, IBDA_Topology.SetMedium, IBDA_Topology::SetMedium, IBDA_TopologySetMedium, SetMedium, SetMedium method [Microsoft TV Technologies], SetMedium method [Microsoft TV Technologies],IBDA_Topology interface, bdaiface/IBDA_Topology::SetMedium, mstv.ibda_topology_setmedium
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_Topology.SetMedium
 dev_langs:

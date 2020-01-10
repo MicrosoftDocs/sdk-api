@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: a45fd5e4-0ae4-47fc-bb50-931e0947a6bc
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_SERVICE_CONFIG_IP_LISTEN_PARAM, HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM, HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM structure [HTTP], PHTTP_SERVICE_CONFIG_IP_LISTEN_PARAM, PHTTP_SERVICE_CONFIG_IP_LISTEN_PARAM structure pointer [HTTP], _http_http_service_config_ip_listen_param, http.http_service_config_ip_listen_param, http/HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM, http/PHTTP_SERVICE_CONFIG_IP_LISTEN_PARAM'
-ms.topic: struct
 f1_keywords:
 - http/HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM
 dev_langs:

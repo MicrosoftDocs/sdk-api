@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 8f7f90dd-0967-4caf-a781-5fc9c588238d
 ms.date: 12/05/2018
 ms.keywords: WS_SET_CHANNEL_PROPERTY_CALLBACK, WS_SET_CHANNEL_PROPERTY_CALLBACK callback, WS_SET_CHANNEL_PROPERTY_CALLBACK callback function [Web Services for Windows], webservices/WS_SET_CHANNEL_PROPERTY_CALLBACK, wsw.ws_set_channel_property_callback
-ms.topic: callback
 f1_keywords:
 - webservices/WS_SET_CHANNEL_PROPERTY_CALLBACK
 dev_langs:

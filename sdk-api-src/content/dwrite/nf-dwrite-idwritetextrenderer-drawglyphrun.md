@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 95a0044c-dffd-4c6a-a6eb-2f87b02ef89a
 ms.date: 12/05/2018
 ms.keywords: DrawGlyphRun, DrawGlyphRun method [Direct Write], DrawGlyphRun method [Direct Write],IDWriteTextRenderer interface, IDWriteTextRenderer interface [Direct Write],DrawGlyphRun method, IDWriteTextRenderer.DrawGlyphRun, IDWriteTextRenderer::DrawGlyphRun, directwrite.IDWriteTextRenderer_DrawGlyphRun, dwrite/IDWriteTextRenderer::DrawGlyphRun
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextRenderer.DrawGlyphRun
 dev_langs:

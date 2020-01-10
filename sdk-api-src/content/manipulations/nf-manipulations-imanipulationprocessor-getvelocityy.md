@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: b531c4e5-8437-4869-9264-3fe131b8acc8
 ms.date: 12/05/2018
 ms.keywords: GetVelocityY, GetVelocityY method [Windows Touch], GetVelocityY method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],GetVelocityY method, IManipulationProcessor.GetVelocityY, IManipulationProcessor::GetVelocityY, manipulations/IManipulationProcessor::GetVelocityY, wintouch.imanipulationprocessor_getvelocityy
-ms.topic: method
 f1_keywords:
 - manipulations/IManipulationProcessor.GetVelocityY
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: nla
 ms.assetid: f866f7e1-385c-476e-baf6-b028592fcd0b
 ms.date: 12/05/2018
 ms.keywords: IEnumNetworks interface [Network Awareness],Reset method, IEnumNetworks.Reset, IEnumNetworks::Reset, Reset, Reset method [Network Awareness], Reset method [Network Awareness],IEnumNetworks interface, netlistmgr/IEnumNetworks::Reset, nla.ienumnetworks_reset
-ms.topic: method
 f1_keywords:
 - netlistmgr/IEnumNetworks.Reset
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 72c0db41-8391-4923-8961-6aefce9886c4
 ms.date: 12/05/2018
 ms.keywords: IEnumPluggableTerminalClassInfo, IEnumPluggableTerminalClassInfo interface [TAPI 2.2], IEnumPluggableTerminalClassInfo interface [TAPI 2.2],described, _tapi3_ienumpluggableterminalclassinfo, tapi3.ienumpluggableterminalclassinfo, tapi3if/IEnumPluggableTerminalClassInfo
-ms.topic: interface
 f1_keywords:
 - tapi3if/IEnumPluggableTerminalClassInfo
 dev_langs:

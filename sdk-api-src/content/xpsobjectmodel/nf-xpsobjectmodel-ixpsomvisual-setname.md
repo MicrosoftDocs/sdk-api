@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 8bf30b4c-bddf-4ca8-91c6-af739125829c
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetName method, IXpsOMVisual.SetName, IXpsOMVisual::SetName, SetName, SetName method [XPS Documents and Packaging], SetName method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setname, xpsobjectmodel/IXpsOMVisual::SetName
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisual.SetName
 dev_langs:

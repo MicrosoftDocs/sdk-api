@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 17d5eab5-a308-40a5-823a-f176508dda71
 ms.date: 12/05/2018
 ms.keywords: ITfCompositionSink, ITfCompositionSink interface [Text Services Framework], ITfCompositionSink interface [Text Services Framework],described, _tsf_itfcompositionsink_ref, msctf/ITfCompositionSink, tsf.itfcompositionsink
-ms.topic: interface
 f1_keywords:
 - msctf/ITfCompositionSink
 dev_langs:

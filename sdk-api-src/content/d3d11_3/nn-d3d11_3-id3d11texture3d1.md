@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 8ADF6845-BC62-4FCC-946E-7DE676C250B0
 ms.date: 12/05/2018
 ms.keywords: ID3D11Texture3D1, ID3D11Texture3D1 interface [Direct3D 11], ID3D11Texture3D1 interface [Direct3D 11],described, d3d11_3/ID3D11Texture3D1, direct3d11.id3d11texture3d1
-ms.topic: interface
 f1_keywords:
 - d3d11_3/ID3D11Texture3D1
 dev_langs:

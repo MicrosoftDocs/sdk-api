@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: f474563e-01c5-4f2a-aec4-477e0ffc7ab2
 ms.date: 12/05/2018
 ms.keywords: '*PRAS_CONNECTION_3, PRAS_CONNECTION_3, PRAS_CONNECTION_3 structure pointer [RAS], RAS_CONNECTION_3, RAS_CONNECTION_3 structure [RAS], mprapi/PRAS_CONNECTION_3, mprapi/RAS_CONNECTION_3, rras.ras_connection_3'
-ms.topic: struct
 f1_keywords:
 - mprapi/RAS_CONNECTION_3
 dev_langs:

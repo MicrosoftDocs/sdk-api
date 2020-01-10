@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 55eb2073-87c4-49b1-b294-35bfeb13d530
 ms.date: 12/05/2018
 ms.keywords: DhcpSetServerBindingInfoV6, DhcpSetServerBindingInfoV6 function [DHCP], dhcp.dhcpsetserverbindinginfov6, dhcpsapi/DhcpSetServerBindingInfoV6
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpSetServerBindingInfoV6
 dev_langs:

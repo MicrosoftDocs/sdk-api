@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: D4322BE8-1CED-47D0-98C2-D5D7C151DEAB
 ms.date: 12/05/2018
 ms.keywords: ErrorString property [Security], ErrorString property [Security],ICertificateEnrollmentServerSetup interface, ICertificateEnrollmentServerSetup interface [Security],ErrorString property, ICertificateEnrollmentServerSetup.ErrorString, ICertificateEnrollmentServerSetup.get_ErrorString, ICertificateEnrollmentServerSetup::ErrorString, ICertificateEnrollmentServerSetup::get_ErrorString, casetup/ICertificateEnrollmentServerSetup::ErrorString, casetup/ICertificateEnrollmentServerSetup::get_ErrorString, get_ErrorString, security.icertificateenrollmentserversetup_errorstring
-ms.topic: method
 f1_keywords:
 - casetup/ICertificateEnrollmentServerSetup.ErrorString
 dev_langs:

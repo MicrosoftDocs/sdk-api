@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 12532ac2-96bd-4ebf-9d09-c240e7357e20
 ms.date: 12/05/2018
 ms.keywords: GetController, GetController method [VDS], GetController method [VDS],IVdsControllerPort interface, IVdsControllerPort interface [VDS],GetController method, IVdsControllerPort.GetController, IVdsControllerPort::GetController, base.ivdscontrollerport_getcontroller, vds/IVdsControllerPort::GetController, vdshwprv/IVdsControllerPort::GetController
-ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsControllerPort.GetController
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 07608b42-972c-4d5a-9e1c-5d9060f16644
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Core Audio], GetValue method [Core Audio],IDeviceSpecificProperty interface, IDeviceSpecificProperty interface [Core Audio],GetValue method, IDeviceSpecificProperty.GetValue, IDeviceSpecificProperty::GetValue, IDeviceSpecificPropertyGetValue, coreaudio.idevicespecificproperty_getvalue, devicetopology/IDeviceSpecificProperty::GetValue
-ms.topic: method
 f1_keywords:
 - devicetopology/IDeviceSpecificProperty.GetValue
 dev_langs:

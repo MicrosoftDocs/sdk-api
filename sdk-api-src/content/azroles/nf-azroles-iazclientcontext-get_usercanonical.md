@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 413cdbbd-a9c6-4117-9df5-d7eb202191a4
 ms.date: 12/05/2018
 ms.keywords: AzClientContext object [Security],UserCanonical property, IAzClientContext interface [Security],UserCanonical property, IAzClientContext.UserCanonical, IAzClientContext.get_UserCanonical, IAzClientContext::UserCanonical, IAzClientContext::get_UserCanonical, UserCanonical property [Security], UserCanonical property [Security],AzClientContext object, UserCanonical property [Security],IAzClientContext interface, azroles/IAzClientContext::UserCanonical, azroles/IAzClientContext::get_UserCanonical, get_UserCanonical, security.iazclientcontext_usercanonical
-ms.topic: method
 f1_keywords:
 - azroles/IAzClientContext.UserCanonical
 dev_langs:

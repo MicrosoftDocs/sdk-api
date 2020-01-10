@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 38bc4d53-818d-48c5-9ec5-d2e33d98c63e
 ms.date: 12/05/2018
 ms.keywords: SHPropStgWriteMultiple, SHPropStgWriteMultiple function [Windows Properties], _win32_SHPropStgWriteMultiple, properties.SHPropStgWriteMultiple, shell.SHPropStgWriteMultiple, shlobj_core/SHPropStgWriteMultiple
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHPropStgWriteMultiple
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 0684f52f-13dd-4734-9242-acd03f7a25ae
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetproxystatus, lineGetProxyStatus, lineGetProxyStatus function [TAPI 2.2], tapi/lineGetProxyStatus, tapi2.linegetproxystatus
-ms.topic: function
 f1_keywords:
 - tapi/lineGetProxyStatus
 dev_langs:

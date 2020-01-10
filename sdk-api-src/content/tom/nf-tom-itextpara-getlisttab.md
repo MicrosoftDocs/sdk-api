@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlisttab.htm
 ms.date: 12/05/2018
 ms.keywords: GetListTab, GetListTab method [Windows Controls], GetListTab method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetListTab method, ITextPara.GetListTab, ITextPara::GetListTab, _win32_ITextPara_GetListTab, _win32_ITextPara_GetListTab_cpp, controls.ITextPara_GetListTab, controls._win32_ITextPara_GetListTab, tom/ITextPara::GetListTab
-ms.topic: method
 f1_keywords:
 - tom/ITextPara.GetListTab
 dev_langs:

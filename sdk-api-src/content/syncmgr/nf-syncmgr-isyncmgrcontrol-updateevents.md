@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 72848e6a-eec3-45fc-b599-a5a8da2e1070
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateEvents method, ISyncMgrControl.UpdateEvents, ISyncMgrControl::UpdateEvents, UpdateEvents, UpdateEvents method [Windows Shell], UpdateEvents method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateEvents, shell.ISyncMgrControl_UpdateEvents, syncmgr/ISyncMgrControl::UpdateEvents
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrControl.UpdateEvents
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 80c22d39-0197-4e4d-b47e-e04ae90716f9
 ms.date: 12/05/2018
 ms.keywords: GetProbeResolveTag, GetProbeResolveTag method, GetProbeResolveTag method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetProbeResolveTag method, IWSDiscoveredService.GetProbeResolveTag, IWSDiscoveredService::GetProbeResolveTag, ncd.iwsdiscoveredservice_getproberesolvetag, wsddisco/IWSDiscoveredService::GetProbeResolveTag
-ms.topic: method
 f1_keywords:
 - wsddisco/IWSDiscoveredService.GetProbeResolveTag
 dev_langs:

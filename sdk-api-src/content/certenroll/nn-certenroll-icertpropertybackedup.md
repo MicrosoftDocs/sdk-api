@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 9c694991-6f2d-420e-9f9f-5a36b10c39aa
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyBackedUp, ICertPropertyBackedUp interface [Security], ICertPropertyBackedUp interface [Security],described, certenroll/ICertPropertyBackedUp, security.icertpropertybackedup
-ms.topic: interface
 f1_keywords:
 - certenroll/ICertPropertyBackedUp
 dev_langs:

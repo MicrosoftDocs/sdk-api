@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setcursel.htm
 ms.date: 12/05/2018
 ms.keywords: PropSheet_SetCurSel, PropSheet_SetCurSel macro [Windows Controls], _win32_PropSheet_SetCurSel, _win32_PropSheet_SetCurSel_cpp, controls.PropSheet_SetCurSel, controls._win32_PropSheet_SetCurSel, prsht/PropSheet_SetCurSel
-ms.topic: macro
 f1_keywords:
 - prsht/PropSheet_SetCurSel
 dev_langs:

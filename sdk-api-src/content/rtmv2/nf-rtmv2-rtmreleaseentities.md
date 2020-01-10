@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 1f6c4275-0129-4f27-b9b2-bfda33d34d21
 ms.date: 12/05/2018
 ms.keywords: RtmReleaseEntities, RtmReleaseEntities function [RAS], _rtmv2ref_rtmreleaseentities, rras.rtmreleaseentities, rtmv2/RtmReleaseEntities
-ms.topic: function
 f1_keywords:
 - rtmv2/RtmReleaseEntities
 dev_langs:

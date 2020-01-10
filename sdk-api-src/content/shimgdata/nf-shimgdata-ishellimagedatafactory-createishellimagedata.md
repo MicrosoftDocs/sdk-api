@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: fdba8376-c878-4fc8-bedc-e73cfeef8b9b
 ms.date: 12/05/2018
 ms.keywords: CreateIShellImageData, CreateIShellImageData method [Windows Shell], CreateIShellImageData method [Windows Shell],IShellImageDataFactory interface, IShellImageDataFactory interface [Windows Shell],CreateIShellImageData method, IShellImageDataFactory.CreateIShellImageData, IShellImageDataFactory::CreateIShellImageData, _shell_IShellImageDataFactory_CreateIShellImageData, shell.IShellImageDataFactory_CreateIShellImageData, shimgdata/IShellImageDataFactory::CreateIShellImageData
-ms.topic: method
 f1_keywords:
 - shimgdata/IShellImageDataFactory.CreateIShellImageData
 dev_langs:

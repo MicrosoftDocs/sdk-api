@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: c253100b-092e-4975-8411-31edb7791068
 ms.date: 12/05/2018
 ms.keywords: _ldap_ber_flatten, ber_flatten, ber_flatten function [LDAP], ldap.ber__flatten, ldap.ber_flatten, winber/ber_flatten
-ms.topic: function
 f1_keywords:
 - winber/ber_flatten
 dev_langs:

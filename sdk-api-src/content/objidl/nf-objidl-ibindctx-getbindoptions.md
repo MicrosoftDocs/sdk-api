@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: ccb239ee-922f-4e66-8aca-7651c0243a2b
 ms.date: 12/05/2018
 ms.keywords: GetBindOptions, GetBindOptions method [COM], GetBindOptions method [COM],IBindCtx interface, IBindCtx interface [COM],GetBindOptions method, IBindCtx.GetBindOptions, IBindCtx::GetBindOptions, _com_ibindctx_getbindoptions, com.ibindctx_getbindoptions, objidl/IBindCtx::GetBindOptions
-ms.topic: method
 f1_keywords:
 - objidl/IBindCtx.GetBindOptions
 dev_langs:

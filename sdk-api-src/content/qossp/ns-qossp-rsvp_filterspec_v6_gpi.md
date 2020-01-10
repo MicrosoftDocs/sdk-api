@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: ede040f4-4858-42d8-a4b5-af6e79c036d7
 ms.date: 12/05/2018
 ms.keywords: '*LPRSVP_FILTERSPEC_V6_GPI, *LPRSVP_FILTERSPEC_V6_GPI structure [QOS], RSVP_FILTERSPEC_V6_GPI, RSVP_FILTERSPEC_V6_GPI structure [QOS], qos.rsvp_filterspec_v6_gpi, qossp/*LPRSVP_FILTERSPEC_V6_GPI, qossp/RSVP_FILTERSPEC_V6_GPI'
-ms.topic: struct
 f1_keywords:
 - qossp/RSVP_FILTERSPEC_V6_GPI
 dev_langs:

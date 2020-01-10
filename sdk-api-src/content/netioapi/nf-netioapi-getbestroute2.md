@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 7bc16824-c98f-4cd5-a589-e198b48b637c
 ms.date: 12/05/2018
 ms.keywords: GetBestRoute2, GetBestRoute2 function [IP Helper], iphlp.getbestroute2, netioapi/GetBestRoute2
-ms.topic: function
 f1_keywords:
 - netioapi/GetBestRoute2
 dev_langs:

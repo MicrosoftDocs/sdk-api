@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 34ddece6-87c8-469d-b275-443d1e99b1c9
 ms.date: 12/05/2018
 ms.keywords: VarEqv, VarEqv function [Automation], _oa96_VarEqv, automat.vareqv, oleauto/VarEqv
-ms.topic: function
 f1_keywords:
 - oleauto/VarEqv
 dev_langs:

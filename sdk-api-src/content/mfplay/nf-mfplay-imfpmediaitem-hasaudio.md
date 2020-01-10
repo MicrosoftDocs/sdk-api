@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 38d308d7-77e3-4f13-82e7-677ac94234e7
 ms.date: 12/05/2018
 ms.keywords: HasAudio, HasAudio method [Media Foundation], HasAudio method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],HasAudio method, IMFPMediaItem.HasAudio, IMFPMediaItem::HasAudio, mf.imfpmediaitem_hasaudio, mfplay/IMFPMediaItem::HasAudio
-ms.topic: method
 f1_keywords:
 - mfplay/IMFPMediaItem.HasAudio
 dev_langs:

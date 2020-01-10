@@ -7,7 +7,6 @@ tech.root: rdc
 ms.assetid: 2db66eb0-7213-446a-ad4b-f0df9e48abd4
 ms.date: 12/05/2018
 ms.keywords: GetFileSize, GetFileSize method [Remote Differential Compression], GetFileSize method [Remote Differential Compression],IRdcFileReader interface, IRdcFileReader interface [Remote Differential Compression],GetFileSize method, IRdcFileReader.GetFileSize, IRdcFileReader::GetFileSize, fs.irdcfilereader_getfilesize, msrdc/IRdcFileReader::GetFileSize, rdc.irdcfilereader_getfilesize
-ms.topic: method
 f1_keywords:
 - msrdc/IRdcFileReader.GetFileSize
 dev_langs:

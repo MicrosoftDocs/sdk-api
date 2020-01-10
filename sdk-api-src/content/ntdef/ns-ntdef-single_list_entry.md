@@ -7,7 +7,6 @@ tech.root: Kernel
 ms.assetid: 2db8ce7e-67e0-43e8-98b5-a2112db5bd5a
 ms.date: 12/05/2018
 ms.keywords: '*PSINGLE_LIST_ENTRY, PSINGLE_LIST_ENTRY, PSINGLE_LIST_ENTRY structure pointer [Kernel-Mode Driver Architecture], SINGLE_LIST_ENTRY, SINGLE_LIST_ENTRY structure [Kernel-Mode Driver Architecture], kernel.single_list_entry, kstruct_d_146e3fe9-b909-4cd8-9eba-61203c32d658.xml, ntdef/PSINGLE_LIST_ENTRY, ntdef/SINGLE_LIST_ENTRY'
-ms.topic: struct
 f1_keywords:
 - ntdef/SINGLE_LIST_ENTRY
 dev_langs:

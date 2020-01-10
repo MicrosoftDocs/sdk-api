@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 7a9ba0b8-160e-4ab3-8686-d3d12e4f4ecc
 ms.date: 12/05/2018
 ms.keywords: GetLearnedKnowledge, GetLearnedKnowledge method [Windows Sync], GetLearnedKnowledge method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetLearnedKnowledge method, ISyncChange.GetLearnedKnowledge, ISyncChange::GetLearnedKnowledge, winsync.isyncchange_getlearnedknowledge, winsync/ISyncChange::GetLearnedKnowledge
-ms.topic: method
 f1_keywords:
 - winsync/ISyncChange.GetLearnedKnowledge
 dev_langs:

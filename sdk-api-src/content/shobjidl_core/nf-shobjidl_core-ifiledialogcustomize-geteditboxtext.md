@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7c3db511-d357-48b4-9ac3-07f6b3d23a5f
 ms.date: 12/05/2018
 ms.keywords: GetEditBoxText, GetEditBoxText method [Windows Shell], GetEditBoxText method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],GetEditBoxText method, IFileDialogCustomize.GetEditBoxText, IFileDialogCustomize::GetEditBoxText, shell.IFileDialogCustomize_GetEditBoxText, shell_IFileDialogCustomize_GetEditBoxText, shobjidl_core/IFileDialogCustomize::GetEditBoxText
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileDialogCustomize.GetEditBoxText
 dev_langs:

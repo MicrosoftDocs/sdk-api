@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 54b5cd73-4011-4dcf-a951-7350dbd6eeab
 ms.date: 12/05/2018
 ms.keywords: MapGenericMask, MapGenericMask function [Security], _win32_mapgenericmask, security.mapgenericmask, securitybaseapi/MapGenericMask
-ms.topic: function
 f1_keywords:
 - securitybaseapi/MapGenericMask
 dev_langs:

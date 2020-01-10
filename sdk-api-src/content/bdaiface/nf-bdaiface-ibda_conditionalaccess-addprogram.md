@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 7e0e2905-fb7c-4532-be3e-198ca620f894
 ms.date: 12/05/2018
 ms.keywords: AddProgram, AddProgram method [Microsoft TV Technologies], AddProgram method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, IBDA_ConditionalAccess interface [Microsoft TV Technologies],AddProgram method, IBDA_ConditionalAccess.AddProgram, IBDA_ConditionalAccess::AddProgram, IBDA_ConditionalAccessAddProgram, bdaiface/IBDA_ConditionalAccess::AddProgram, mstv.ibda_conditionalaccess_addprogram
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_ConditionalAccess.AddProgram
 dev_langs:

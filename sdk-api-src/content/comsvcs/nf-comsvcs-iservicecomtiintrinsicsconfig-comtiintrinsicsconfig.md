@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 2e534123-6300-4da3-a220-ba0b41a7c9a2
 ms.date: 12/05/2018
 ms.keywords: ComTIIntrinsicsConfig, ComTIIntrinsicsConfig method [COM+], ComTIIntrinsicsConfig method [COM+],IServiceComTIIntrinsicsConfig interface, IServiceComTIIntrinsicsConfig interface [COM+],ComTIIntrinsicsConfig method, IServiceComTIIntrinsicsConfig.ComTIIntrinsicsConfig, IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig, _cos_IServiceComTIIntrinsicsConfig_ComTIIntrinsicsConfig, comsvcs/IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig, cos.iservicecomtiintrinsicsconfig_comtiintrinsicsconfig
-ms.topic: method
 f1_keywords:
 - comsvcs/IServiceComTIIntrinsicsConfig.ComTIIntrinsicsConfig
 dev_langs:

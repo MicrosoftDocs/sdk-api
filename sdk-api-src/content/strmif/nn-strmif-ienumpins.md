@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 839190b4-fd29-4a94-8838-d84adfdd9668
 ms.date: 12/05/2018
 ms.keywords: IEnumPins, IEnumPins interface [DirectShow], IEnumPins interface [DirectShow],described, IEnumPinsInterface, dshow.ienumpins, strmif/IEnumPins
-ms.topic: interface
 f1_keywords:
 - strmif/IEnumPins
 dev_langs:

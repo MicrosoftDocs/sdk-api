@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 2c20e215-a4ef-456e-ba19-0d9268279bf3
 ms.date: 12/05/2018
 ms.keywords: IEnumDot11AdHocInterfaces interface [NativeWIFI],Next method, IEnumDot11AdHocInterfaces.Next, IEnumDot11AdHocInterfaces::Next, Next, Next method [NativeWIFI], Next method [NativeWIFI],IEnumDot11AdHocInterfaces interface, adhoc/IEnumDot11AdHocInterfaces::Next, nwifi.ienumdot11adhocinterfaces_next
-ms.topic: method
 f1_keywords:
 - adhoc/IEnumDot11AdHocInterfaces.Next
 dev_langs:

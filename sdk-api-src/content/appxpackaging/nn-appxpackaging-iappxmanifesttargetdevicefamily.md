@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 52C2950B-FB7F-44A8-BAB5-BCC238B012FE
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestTargetDeviceFamily, IAppxManifestTargetDeviceFamily interface [App packaging and management], IAppxManifestTargetDeviceFamily interface [App packaging and management],described, appxpackaging/IAppxManifestTargetDeviceFamily, appxpkg.iappxmanifesttargetdevicefamily
-ms.topic: interface
 f1_keywords:
 - appxpackaging/IAppxManifestTargetDeviceFamily
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 420daab1-71e7-4610-b454-a49a64061f97
 ms.date: 12/05/2018
 ms.keywords: Rect, Rect structure [Windows Runtime], windows/Rect, winrt.rect
-ms.topic: struct
 f1_keywords:
 - windows.foundation/Rect
 dev_langs:

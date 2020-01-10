@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 65fe8b2d-31b2-4335-8f5d-9c601e2a64e5
 ms.date: 12/05/2018
 ms.keywords: GetSDT, GetSDT method [Microsoft TV Technologies], GetSDT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetSDT method, IDvbSiParser.GetSDT, IDvbSiParser::GetSDT, IDvbSiParserGetSDT, dvbsiparser/IDvbSiParser::GetSDT, mstv.idvbsiparser_getsdt
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbSiParser.GetSDT
 dev_langs:

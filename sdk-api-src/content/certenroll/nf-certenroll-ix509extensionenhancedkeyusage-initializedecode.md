@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: e83d0577-8eb9-4a59-8f52-ce1d9ab7f58a
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionEnhancedKeyUsage interface [Security],InitializeDecode method, IX509ExtensionEnhancedKeyUsage.InitializeDecode, IX509ExtensionEnhancedKeyUsage::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509ExtensionEnhancedKeyUsage interface, certenroll/IX509ExtensionEnhancedKeyUsage::InitializeDecode, security.ix509extensionenhancedkeyusage_initializedecode_method
-ms.topic: method
 f1_keywords:
 - certenroll/IX509ExtensionEnhancedKeyUsage.InitializeDecode
 dev_langs:

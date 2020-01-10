@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: f74f31cc-8e3a-41b8-bf27-f60b9cbcfcdb
 ms.date: 12/05/2018
 ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],get_CountryCode method, IAnalogTVTuningSpace.get_CountryCode, IAnalogTVTuningSpace::get_CountryCode, IAnalogTVTuningSpaceget_CountryCode, get_CountryCode, get_CountryCode method [Microsoft TV Technologies], get_CountryCode method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, mstv.ianalogtvtuningspace_get_countrycode, tuner/IAnalogTVTuningSpace::get_CountryCode
-ms.topic: method
 f1_keywords:
 - tuner/IAnalogTVTuningSpace.get_CountryCode
 dev_langs:

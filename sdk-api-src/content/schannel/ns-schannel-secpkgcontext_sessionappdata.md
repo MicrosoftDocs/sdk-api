@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 7bda791a-dd60-4651-bfe8-13333017d6a3
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_SessionAppData, SecPkgContext_SessionAppData, SecPkgContext_SessionAppData structure [Security], schannel/SecPkgContext_SessionAppData, security.secpkgcontext_sessionappdata'
-ms.topic: struct
 f1_keywords:
 - schannel/SecPkgContext_SessionAppData
 dev_langs:

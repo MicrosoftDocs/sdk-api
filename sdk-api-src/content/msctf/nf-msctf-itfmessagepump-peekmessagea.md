@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 4b20fa18-f5c3-4f3b-bb93-0e352d620d31
 ms.date: 12/05/2018
 ms.keywords: ITfMessagePump interface [Text Services Framework],PeekMessageA method, ITfMessagePump.PeekMessageA, ITfMessagePump::PeekMessageA, PeekMessageA, PeekMessageA method [Text Services Framework], PeekMessageA method [Text Services Framework],ITfMessagePump interface, _tsf_itfmessagepump_peekmessagea_ref, msctf/ITfMessagePump::PeekMessageA, tsf.itfmessagepump_peekmessagea
-ms.topic: method
 f1_keywords:
 - msctf/ITfMessagePump.PeekMessageA
 dev_langs:

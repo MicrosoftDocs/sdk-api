@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: b563606d-f4d5-48d7-914d-a11ed5f536a1
 ms.date: 12/05/2018
 ms.keywords: PWLX_QUERY_CLIENT_CREDENTIALS, PWLX_QUERY_CLIENT_CREDENTIALS callback, WlxQueryClientCredentials, WlxQueryClientCredentials callback function [Security], _gina_wlxqueryclientcredentials, security.wlxqueryclientcredentials, winwlx/WlxQueryClientCredentials
-ms.topic: callback
 f1_keywords:
 - winwlx/WlxQueryClientCredentials
 dev_langs:

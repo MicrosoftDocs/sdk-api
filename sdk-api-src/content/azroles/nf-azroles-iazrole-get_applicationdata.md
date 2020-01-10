@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 6cb85528-35b4-4fed-98bb-6209dd0af0fd
 ms.date: 12/05/2018
 ms.keywords: ApplicationData property [Security], ApplicationData property [Security],AzRole object, ApplicationData property [Security],IAzRole interface, AzRole object [Security],ApplicationData property, IAzRole interface [Security],ApplicationData property, IAzRole.ApplicationData, IAzRole.get_ApplicationData, IAzRole::ApplicationData, IAzRole::get_ApplicationData, IAzRole::put_ApplicationData, azroles/IAzRole::ApplicationData, azroles/IAzRole::get_ApplicationData, azroles/IAzRole::put_ApplicationData, get_ApplicationData, security.iazrole_applicationdata
-ms.topic: method
 f1_keywords:
 - azroles/IAzRole.ApplicationData
 dev_langs:

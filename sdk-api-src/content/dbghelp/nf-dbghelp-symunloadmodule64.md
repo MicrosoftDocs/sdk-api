@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: f4801039-eba2-4ec3-8c23-706ab89bb442
 ms.date: 12/05/2018
 ms.keywords: SymUnloadModule, SymUnloadModule function, SymUnloadModule64, SymUnloadModule64 function, _win32_symunloadmodule64, base.symunloadmodule64, dbghelp/SymUnloadModule, dbghelp/SymUnloadModule64
-ms.topic: function
 f1_keywords:
 - dbghelp/SymUnloadModule64
 dev_langs:

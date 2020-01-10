@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c45da114-6711-427b-8533-4ed339a42ff4
 ms.date: 12/05/2018
 ms.keywords: HideCursor, HideCursor method [DirectShow], HideCursor method [DirectShow],IVideoWindow interface, IVideoWindow interface [DirectShow],HideCursor method, IVideoWindow.HideCursor, IVideoWindow::HideCursor, IVideoWindowHideCursor, OAFALSE, OATRUE, control/IVideoWindow::HideCursor, dshow.ivideowindow_hidecursor
-ms.topic: method
 f1_keywords:
 - control/IVideoWindow.HideCursor
 dev_langs:

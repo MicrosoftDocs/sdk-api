@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 68f0c073-0ba5-4a46-a459-b213145aebd6
 ms.date: 12/05/2018
 ms.keywords: IEnumTfContexts interface [Text Services Framework],Skip method, IEnumTfContexts.Skip, IEnumTfContexts::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfContexts interface, _tsf_ienumtfcontexts_skip_ref, msctf/IEnumTfContexts::Skip, tsf.ienumtfcontexts_skip
-ms.topic: method
 f1_keywords:
 - msctf/IEnumTfContexts.Skip
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: f2b4285c-3cf8-40dc-87eb-57419ef7343e
 ms.date: 12/05/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],put_EnableResetOnStop method, IMSVidPlayback.put_EnableResetOnStop, IMSVidPlayback::put_EnableResetOnStop, IMSVidPlaybackput_EnableResetOnStop, mstv.imsvidplayback_put_enableresetonstop, put_EnableResetOnStop, put_EnableResetOnStop method [Microsoft TV Technologies], put_EnableResetOnStop method [Microsoft TV Technologies],IMSVidPlayback interface, segment/IMSVidPlayback::put_EnableResetOnStop
-ms.topic: method
 f1_keywords:
 - segment/IMSVidPlayback.put_EnableResetOnStop
 dev_langs:

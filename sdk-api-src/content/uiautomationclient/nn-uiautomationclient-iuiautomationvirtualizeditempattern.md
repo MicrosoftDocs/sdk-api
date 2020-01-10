@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 48f066f3-c78c-47a2-9668-ab79b1438130
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationVirtualizedItemPattern, IUIAutomationVirtualizedItemPattern interface [Windows Accessibility], IUIAutomationVirtualizedItemPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationVirtualizedItemPattern, uiauto_IUIAutomationVirtualizedItemPattern, uiautomationclient/IUIAutomationVirtualizedItemPattern, winauto.uiauto_IUIAutomationVirtualizedItemPattern
-ms.topic: interface
 f1_keywords:
 - uiautomationclient/IUIAutomationVirtualizedItemPattern
 dev_langs:

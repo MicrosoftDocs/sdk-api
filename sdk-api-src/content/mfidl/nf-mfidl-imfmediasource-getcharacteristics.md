@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: cb5d54cd-58a3-4903-b22e-8207f90dbbc0
 ms.date: 12/05/2018
 ms.keywords: GetCharacteristics, GetCharacteristics method [Media Foundation], GetCharacteristics method [Media Foundation],IMFMediaSource interface, IMFMediaSource interface [Media Foundation],GetCharacteristics method, IMFMediaSource.GetCharacteristics, IMFMediaSource::GetCharacteristics, cb5d54cd-58a3-4903-b22e-8207f90dbbc0, mf.imfmediasource_getcharacteristics, mfidl/IMFMediaSource::GetCharacteristics
-ms.topic: method
 f1_keywords:
 - mfidl/IMFMediaSource.GetCharacteristics
 dev_langs:

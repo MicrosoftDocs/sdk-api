@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: e9ed2027-cba4-4701-a416-a2190b51570c
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_downloadProgress method, IWMPNetwork.get_downloadProgress, IWMPNetwork::get_downloadProgress, IWMPNetworkget_downloadProgress, get_downloadProgress, get_downloadProgress method [Windows Media Player], get_downloadProgress method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_downloadprogress, wmp/IWMPNetwork::get_downloadProgress
-ms.topic: method
 f1_keywords:
 - wmp/IWMPNetwork.get_downloadProgress
 dev_langs:

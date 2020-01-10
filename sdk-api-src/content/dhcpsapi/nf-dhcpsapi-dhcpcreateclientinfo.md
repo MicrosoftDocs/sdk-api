@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 121718db-a7d8-42b7-b1a1-5c2dbe7d3d6b
 ms.date: 12/05/2018
 ms.keywords: DhcpCreateClientInfo, DhcpCreateClientInfo function [DHCP], dhcp.dhcpcreateclientinfo, dhcpsapi/DhcpCreateClientInfo
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpCreateClientInfo
 dev_langs:

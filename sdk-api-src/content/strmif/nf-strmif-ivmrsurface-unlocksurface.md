@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f6acaf96-925c-46b9-8d56-11d94f3dbda3
 ms.date: 12/05/2018
 ms.keywords: IVMRSurface interface [DirectShow],UnlockSurface method, IVMRSurface.UnlockSurface, IVMRSurface::UnlockSurface, IVMRSurfaceUnlockSurface, UnlockSurface, UnlockSurface method [DirectShow], UnlockSurface method [DirectShow],IVMRSurface interface, dshow.ivmrsurface_unlocksurface, strmif/IVMRSurface::UnlockSurface
-ms.topic: method
 f1_keywords:
 - strmif/IVMRSurface.UnlockSurface
 dev_langs:

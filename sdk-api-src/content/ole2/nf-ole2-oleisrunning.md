@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 9392666f-c269-4667-aeac-67c68bcc5f06
 ms.date: 12/05/2018
 ms.keywords: OleIsRunning, OleIsRunning function [COM], _ole_OleIsRunning, com.oleisrunning, ole2/OleIsRunning
-ms.topic: function
 f1_keywords:
 - ole2/OleIsRunning
 dev_langs:

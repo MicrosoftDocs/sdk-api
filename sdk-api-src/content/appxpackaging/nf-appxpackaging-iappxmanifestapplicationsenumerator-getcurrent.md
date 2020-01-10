@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 54357408-57EA-4BD0-A619-F297C6248050
 ms.date: 12/05/2018
 ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxManifestApplicationsEnumerator interface, IAppxManifestApplicationsEnumerator interface [App packaging and management],GetCurrent method, IAppxManifestApplicationsEnumerator.GetCurrent, IAppxManifestApplicationsEnumerator::GetCurrent, appxpackaging/IAppxManifestApplicationsEnumerator::GetCurrent, appxpkg.iappxmanifestapplicationsenumerator_getcurrent
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxManifestApplicationsEnumerator.GetCurrent
 dev_langs:

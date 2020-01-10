@@ -7,7 +7,6 @@ tech.root: wnv
 ms.assetid: CA0F9AAE-95E5-4A62-8A26-11F933B2D09E
 ms.date: 12/05/2018
 ms.keywords: WnvRequestNotification, WnvRequestNotification function [Windows Network Virtualization], wnv.wnvrequestnotification, wnvapi/WnvRequestNotification
-ms.topic: function
 f1_keywords:
 - wnvapi/WnvRequestNotification
 dev_langs:

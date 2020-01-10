@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: af85e976-cc79-4285-b553-a8001e84ec68
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs7 interface [Security],RequesterName property, IX509CertificateRequestPkcs7.RequesterName, IX509CertificateRequestPkcs7.put_RequesterName, IX509CertificateRequestPkcs7::RequesterName, IX509CertificateRequestPkcs7::get_RequesterName, IX509CertificateRequestPkcs7::put_RequesterName, RequesterName property [Security], RequesterName property [Security],IX509CertificateRequestPkcs7 interface, certenroll/IX509CertificateRequestPkcs7::RequesterName, certenroll/IX509CertificateRequestPkcs7::get_RequesterName, certenroll/IX509CertificateRequestPkcs7::put_RequesterName, put_RequesterName, security.ix509certificaterequestpkcs7_requestername_property
-ms.topic: method
 f1_keywords:
 - certenroll/IX509CertificateRequestPkcs7.RequesterName
 dev_langs:

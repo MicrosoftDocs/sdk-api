@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: a73ab8f4-724f-4d61-909e-7d43a3e373e3
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRendererEvent2, IMSVidVideoRendererEvent2 interface [Microsoft TV Technologies], IMSVidVideoRendererEvent2 interface [Microsoft TV Technologies],described, mstv.imsvidvideorendererevent2, segment/IMSVidVideoRendererEvent2
-ms.topic: interface
 f1_keywords:
 - segment/IMSVidVideoRendererEvent2
 dev_langs:

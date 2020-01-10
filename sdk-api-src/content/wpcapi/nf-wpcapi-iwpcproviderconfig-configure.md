@@ -7,7 +7,6 @@ tech.root: parcon
 ms.assetid: a2853259-4fc5-47e7-a77e-0ea4024ee00c
 ms.date: 12/05/2018
 ms.keywords: Configure, Configure method, Configure method,IWPCProviderConfig interface, IWPCProviderConfig interface,Configure method, IWPCProviderConfig.Configure, IWPCProviderConfig::Configure, parcon.iwpcproviderconfig_configure, wpcapi/IWPCProviderConfig::Configure
-ms.topic: method
 f1_keywords:
 - wpcapi/IWPCProviderConfig.Configure
 dev_langs:

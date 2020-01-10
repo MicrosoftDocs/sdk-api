@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: e38166da-2139-4108-bb8a-74bb7a7997c1
 ms.date: 12/05/2018
 ms.keywords: IBitsPeer interface [BITS],IsAvailable method, IBitsPeer.IsAvailable, IBitsPeer::IsAvailable, IsAvailable, IsAvailable method [BITS], IsAvailable method [BITS],IBitsPeer interface, bits.ibitspeer_isavailable, bits3_0/IBitsPeer::IsAvailable
-ms.topic: method
 f1_keywords:
 - bits3_0/IBitsPeer.IsAvailable
 dev_langs:

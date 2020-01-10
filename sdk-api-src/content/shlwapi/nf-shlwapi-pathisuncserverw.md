@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9158ceb6-dd20-4b1a-93d3-cf7a5a5c6c75
 ms.date: 12/05/2018
 ms.keywords: PathIsUNCServer, PathIsUNCServer function [Windows Shell], PathIsUNCServerA, PathIsUNCServerW, _win32_PathIsUNCServer, shell.PathIsUNCServer, shlwapi/PathIsUNCServer, shlwapi/PathIsUNCServerA, shlwapi/PathIsUNCServerW
-ms.topic: function
 f1_keywords:
 - shlwapi/PathIsUNCServer
 dev_langs:

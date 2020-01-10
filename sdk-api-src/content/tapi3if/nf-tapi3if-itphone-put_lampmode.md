@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 0445cf2c-1b00-4136-bdab-3c6e0669ef11
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],put_LampMode method, ITPhone.put_LampMode, ITPhone::put_LampMode, _tapi3_itphone_put_lampmode, put_LampMode, put_LampMode method [TAPI 2.2], put_LampMode method [TAPI 2.2],ITPhone interface, tapi3.itphone_put_lampmode, tapi3if/ITPhone::put_LampMode
-ms.topic: method
 f1_keywords:
 - tapi3if/ITPhone.put_LampMode
 dev_langs:

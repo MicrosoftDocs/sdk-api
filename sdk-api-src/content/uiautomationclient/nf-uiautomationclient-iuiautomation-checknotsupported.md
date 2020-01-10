@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: c7fd7d1e-3f7b-4700-9263-2cab6e0de896
 ms.date: 12/05/2018
 ms.keywords: CheckNotSupported, CheckNotSupported method [Windows Accessibility], CheckNotSupported method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CheckNotSupported method, IUIAutomation.CheckNotSupported, IUIAutomation::CheckNotSupported, uiauto.uiauto_IUIAutomation_CheckNotSupported, uiauto_IUIAutomation_CheckNotSupported, uiautomationclient/IUIAutomation::CheckNotSupported, winauto.uiauto_IUIAutomation_CheckNotSupported
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomation.CheckNotSupported
 dev_langs:

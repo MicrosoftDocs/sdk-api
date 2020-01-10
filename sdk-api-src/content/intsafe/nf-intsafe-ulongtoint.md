@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 601ed067-13a9-4d0c-b1e1-d05745d8dbe2
 ms.date: 12/05/2018
 ms.keywords: DWordToInt, ULongToInt, ULongToInt function [Windows Shell], _shell_ULongToInt, intsafe/ULongToInt, shell.ULongToInt
-ms.topic: function
 f1_keywords:
 - intsafe/ULongToInt
 dev_langs:

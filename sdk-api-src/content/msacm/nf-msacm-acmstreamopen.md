@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 9e323d35-e640-4c6d-ab74-c4abacaea1bd
 ms.date: 12/05/2018
 ms.keywords: _win32_acmStreamOpen, acmStreamOpen, acmStreamOpen function [Windows Multimedia], msacm/acmStreamOpen, multimedia.acmstreamopen
-ms.topic: function
 f1_keywords:
 - msacm/acmStreamOpen
 dev_langs:

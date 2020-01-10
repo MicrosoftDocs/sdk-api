@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: fb2c8420-12f4-4bd7-ac00-b53bab760db0
 ms.date: 12/05/2018
 ms.keywords: GetNextUmsListItem, GetNextUmsListItem function, base.getnextumslistitem, winbase/GetNextUmsListItem
-ms.topic: function
 f1_keywords:
 - winbase/GetNextUmsListItem
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 0361a3e1-814c-4ef2-b574-2870a9289e52
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_CURSOR_3, DS_REPL_CURSOR_3 structure [Active Directory], DS_REPL_CURSOR_3W, _DS_REPL_CURSOR_3W, ad.ds_repl_cursor_3, ntdsapi/DS_REPL_CURSOR_3
-ms.topic: struct
 f1_keywords:
 - ntdsapi/DS_REPL_CURSOR_3
 dev_langs:

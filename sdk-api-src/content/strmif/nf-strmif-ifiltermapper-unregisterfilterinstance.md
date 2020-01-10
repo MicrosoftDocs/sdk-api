@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: bfeb0129-f67c-4318-8206-aa08e3b5b370
 ms.date: 12/05/2018
 ms.keywords: IFilterMapper interface [DirectShow],UnregisterFilterInstance method, IFilterMapper.UnregisterFilterInstance, IFilterMapper::UnregisterFilterInstance, IFilterMapperUnregisterFilterInstance, UnregisterFilterInstance, UnregisterFilterInstance method [DirectShow], UnregisterFilterInstance method [DirectShow],IFilterMapper interface, dshow.ifiltermapper_unregisterfilterinstance, strmif/IFilterMapper::UnregisterFilterInstance
-ms.topic: method
 f1_keywords:
 - strmif/IFilterMapper.UnregisterFilterInstance
 dev_langs:

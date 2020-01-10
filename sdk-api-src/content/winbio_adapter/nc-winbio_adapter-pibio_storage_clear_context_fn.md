@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: d7022363-01e9-4675-9bd0-e9369d237c3c
 ms.date: 12/05/2018
 ms.keywords: PIBIO_STORAGE_CLEAR_CONTEXT_FN, PIBIO_STORAGE_CLEAR_CONTEXT_FN callback, StorageAdapterClearContext, StorageAdapterClearContext callback function [Windows Biometric Framework API], secbiomet.storageadapterclearcontext, winbio_adapter/StorageAdapterClearContext
-ms.topic: callback
 f1_keywords:
 - winbio_adapter/StorageAdapterClearContext
 dev_langs:

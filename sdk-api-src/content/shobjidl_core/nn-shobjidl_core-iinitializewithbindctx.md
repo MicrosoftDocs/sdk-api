@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0741c172-cd5a-4170-837f-774049fcab9d
 ms.date: 12/05/2018
 ms.keywords: IInitializeWithBindCtx, IInitializeWithBindCtx interface [Windows Shell], IInitializeWithBindCtx interface [Windows Shell],described, _shell_IInitializeWithBindCtx, shell.IInitializeWithBindCtx, shobjidl_core/IInitializeWithBindCtx
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IInitializeWithBindCtx
 dev_langs:

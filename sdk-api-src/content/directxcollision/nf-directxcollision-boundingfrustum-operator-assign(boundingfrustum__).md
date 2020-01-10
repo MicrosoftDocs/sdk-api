@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.op_Assignment(BoundingFrustum)
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],op_Assignment method, BoundingFrustum.op_Assignment, BoundingFrustum.operator-assign(BoundingFrustum &&), BoundingFrustum.operator=, BoundingFrustum::operator-assign(BoundingFrustum &&), BoundingFrustum::operator=, dxmath.boundingfrustum_op_assignment, op_Assignment method [DirectX Math Support APIs], op_Assignment method [DirectX Math Support APIs],BoundingFrustum interface, operator=
-ms.topic: method
 f1_keywords:
 - directxcollision/BoundingFrustum.op_Assignment
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 4293316a-bafe-4fca-ad6a-68d8e99c8fba
 ms.date: 12/05/2018
 ms.keywords: CoDisconnectObject, CoDisconnectObject function [COM], _com_CoDisconnectObject, com.codisconnectobject, combaseapi/CoDisconnectObject
-ms.topic: function
 f1_keywords:
 - combaseapi/CoDisconnectObject
 dev_langs:

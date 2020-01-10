@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 9DA1541E-0792-482E-81AF-A6C91665D9D8
 ms.date: 12/05/2018
 ms.keywords: CreateCompositeEffect, CreateCompositeEffect method [DirectComposition], CreateCompositeEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateCompositeEffect method, IDCompositionDevice3.CreateCompositeEffect, IDCompositionDevice3::CreateCompositeEffect, dcomp/IDCompositionDevice3::CreateCompositeEffect, directcomp.idcompositiondevice3_createcompositeeffect
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionDevice3.CreateCompositeEffect
 dev_langs:

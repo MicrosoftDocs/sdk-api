@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 72cdcb3c-c44c-405c-ab4b-93bf9c628acf
 ms.date: 12/05/2018
 ms.keywords: MprAdminAcceptNewConnection2, MprAdminAcceptNewConnection2 callback, MprAdminAcceptNewConnection2 callback function [RAS], _mpr_mpradminacceptnewconnection2, mprapi/MprAdminAcceptNewConnection2, rras.mpradminacceptnewconnection2
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminAcceptNewConnection2
 dev_langs:

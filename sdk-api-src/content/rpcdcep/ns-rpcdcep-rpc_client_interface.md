@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: be995f3b-1d4f-4622-9a00-ddaaeab3788d
 ms.date: 12/05/2018
 ms.keywords: '*PRPC_CLIENT_INTERFACE, RPC_CLIENT_INTERFACE, RPC_CLIENT_INTERFACE structure [RPC], _rpc_rpc_client_interface, rpc.rpc_client_interface, rpcdcep/RPC_CLIENT_INTERFACE'
-ms.topic: struct
 f1_keywords:
 - rpcdcep/RPC_CLIENT_INTERFACE
 dev_langs:

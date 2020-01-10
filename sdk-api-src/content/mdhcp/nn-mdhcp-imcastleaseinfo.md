@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: a4ad8009-559e-4db9-9ae2-28e4d36cf346
 ms.date: 12/05/2018
 ms.keywords: IMcastLeaseInfo, IMcastLeaseInfo interface [TAPI 2.2], IMcastLeaseInfo interface [TAPI 2.2],described, _tapi3_imcastleaseinfo, mdhcp/IMcastLeaseInfo, tapi3.imcastleaseinfo
-ms.topic: interface
 f1_keywords:
 - mdhcp/IMcastLeaseInfo
 dev_langs:

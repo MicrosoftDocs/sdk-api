@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 0f1abfdd-e6b2-42a8-8c77-54590e3b3a89
 ms.date: 12/05/2018
 ms.keywords: CLUSCTL_GET_CONTROL_FUNCTION, CLUSCTL_GET_CONTROL_FUNCTION macro [Failover Cluster], _wolf_clusctl_get_control_function, clusapi/CLUSCTL_GET_CONTROL_FUNCTION, mscs.clusctl_get_control_function
-ms.topic: macro
 f1_keywords:
 - clusapi/CLUSCTL_GET_CONTROL_FUNCTION
 dev_langs:

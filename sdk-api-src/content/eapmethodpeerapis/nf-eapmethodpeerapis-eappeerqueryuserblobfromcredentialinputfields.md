@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: decfe3cd-642e-41c8-9bec-d079a0f74504
 ms.date: 12/05/2018
 ms.keywords: EapPeerQueryUserBlobFromCredentialInputFields, EapPeerQueryUserBlobFromCredentialInputFields function [EAPHost], eaphost.eappeerqueryuserblobfrominteractiveuiinputfields, eapmethodpeerapis/EapPeerQueryUserBlobFromCredentialInputFields
-ms.topic: function
 f1_keywords:
 - eapmethodpeerapis/EapPeerQueryUserBlobFromCredentialInputFields
 dev_langs:

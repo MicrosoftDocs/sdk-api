@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: E0AD1507-3018-42B5-B4DD-E19CC49FD25F
 ms.date: 12/05/2018
 ms.keywords: PXE_GSI_SERVER_DUID, PXE_GSI_TRACE_ENABLED, PxeGetServerInfoEx, PxeGetServerInfoEx function [Windows Deployment Services], wds.pxegetserverinfoex, wdspxe/PxeGetServerInfoEx
-ms.topic: function
 f1_keywords:
 - wdspxe/PxeGetServerInfoEx
 dev_langs:

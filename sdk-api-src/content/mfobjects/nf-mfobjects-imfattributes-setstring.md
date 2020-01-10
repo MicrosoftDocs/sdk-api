@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 51d2a2a0-92cb-49e0-b4a9-7201e9d92322
 ms.date: 12/05/2018
 ms.keywords: 51d2a2a0-92cb-49e0-b4a9-7201e9d92322, IMFAttributes interface [Media Foundation],SetString method, IMFAttributes.SetString, IMFAttributes::SetString, SetString, SetString method [Media Foundation], SetString method [Media Foundation],IMFAttributes interface, mf.imfattributes_setstring, mfobjects/IMFAttributes::SetString
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFAttributes.SetString
 dev_langs:

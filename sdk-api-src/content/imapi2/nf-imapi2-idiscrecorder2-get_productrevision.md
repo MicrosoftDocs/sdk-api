@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 0d727937-8581-4001-96f2-f83795e1ee52
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_ProductRevision method, IDiscRecorder2.get_ProductRevision, IDiscRecorder2::get_ProductRevision, get_ProductRevision, get_ProductRevision method [IMAPI], get_ProductRevision method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_productrevision, imapi2/IDiscRecorder2::get_ProductRevision
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscRecorder2.get_ProductRevision
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: d1e6d734-0c5b-4aa0-b1b3-220f2615e56b
 ms.date: 12/05/2018
 ms.keywords: SwitchToThread, SwitchToThread function, _win32_switchtothread, base.switchtothread, processthreadsapi/SwitchToThread, winbase/SwitchToThread
-ms.topic: function
 f1_keywords:
 - processthreadsapi/SwitchToThread
 dev_langs:

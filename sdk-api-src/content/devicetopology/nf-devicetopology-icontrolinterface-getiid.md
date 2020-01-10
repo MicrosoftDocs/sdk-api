@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: c6d46f37-6b9a-4d20-8a97-9fb5284dbc42
 ms.date: 12/05/2018
 ms.keywords: GetIID, GetIID method [Core Audio], GetIID method [Core Audio],IControlInterface interface, IControlInterface interface [Core Audio],GetIID method, IControlInterface.GetIID, IControlInterface::GetIID, IControlInterfaceGetIID, coreaudio.icontrolinterface_getiid, devicetopology/IControlInterface::GetIID
-ms.topic: method
 f1_keywords:
 - devicetopology/IControlInterface.GetIID
 dev_langs:

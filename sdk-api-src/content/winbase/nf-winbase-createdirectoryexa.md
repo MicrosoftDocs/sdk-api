@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 287996f8-e8ca-4b72-a5f6-016754785c5c
 ms.date: 12/05/2018
 ms.keywords: CreateDirectoryEx, CreateDirectoryEx function [Files], CreateDirectoryExA, CreateDirectoryExW, _win32_createdirectoryex, base.createdirectoryex, fs.createdirectoryex, winbase/CreateDirectoryEx, winbase/CreateDirectoryExA, winbase/CreateDirectoryExW
-ms.topic: function
 f1_keywords:
 - winbase/CreateDirectoryEx
 dev_langs:

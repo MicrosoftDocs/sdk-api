@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\rangefrompoint.htm
 ms.date: 12/05/2018
 ms.keywords: ITextDocument interface [Windows Controls],RangeFromPoint method, ITextDocument.RangeFromPoint, ITextDocument::RangeFromPoint, RangeFromPoint, RangeFromPoint method [Windows Controls], RangeFromPoint method [Windows Controls],ITextDocument interface, _win32_ITextDocument_RangeFromPoint, _win32_ITextDocument_RangeFromPoint_cpp, controls.ITextDocument_RangeFromPoint, controls._win32_ITextDocument_RangeFromPoint, tom/ITextDocument::RangeFromPoint
-ms.topic: method
 f1_keywords:
 - tom/ITextDocument.RangeFromPoint
 dev_langs:

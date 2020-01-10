@@ -7,7 +7,6 @@ tech.root: ktm
 ms.assetid: a6411fad-8ad0-4a31-9e09-0c18dd384634
 ms.date: 12/05/2018
 ms.keywords: ReadOnlyEnlistment, ReadOnlyEnlistment function [Files], fs.readonlyenlistment, ktmw32/ReadOnlyEnlistment
-ms.topic: function
 f1_keywords:
 - ktmw32/ReadOnlyEnlistment
 dev_langs:

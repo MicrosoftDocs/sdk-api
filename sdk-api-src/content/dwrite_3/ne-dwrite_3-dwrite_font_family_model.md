@@ -5,7 +5,6 @@ description: Defines constants that specify how font families are grouped togeth
 tech.root: DirectWrite
 ms.date: 09/12/2019
 ms.keywords: DWRITE_FONT_FAMILY_MODEL, DWRITE_FONT_FAMILY_MODEL enumeration [Direct Write], directwrite.dwrite_font_family_model, dwrite_3/DWRITE_FONT_FAMILY_MODEL
-ms.topic: enum
 f1_keywords:
 - dwrite_3/DWRITE_FONT_FAMILY_MODEL
 dev_langs:

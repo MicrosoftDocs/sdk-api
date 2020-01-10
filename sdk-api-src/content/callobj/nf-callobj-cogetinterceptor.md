@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: d1ffee1d-f907-4091-b993-cf13d8ce616c
 ms.date: 12/05/2018
 ms.keywords: CoGetInterceptor, CoGetInterceptor function [COM], _com_CoGetInterceptor, callobj/CoGetInterceptor, com.cogetinterceptor
-ms.topic: function
 f1_keywords:
 - callobj/CoGetInterceptor
 dev_langs:

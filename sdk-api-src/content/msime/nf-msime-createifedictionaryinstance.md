@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 1B762B74-D282-46FE-8202-CA88E478940F
 ms.date: 12/05/2018
 ms.keywords: CreateIFEDictionaryInstance, CreateIFEDictionaryInstance function [Internationalization for Windows Applications], intl.createifedictionaryinstance, msime/CreateIFEDictionaryInstance
-ms.topic: function
 f1_keywords:
 - msime/CreateIFEDictionaryInstance
 dev_langs:

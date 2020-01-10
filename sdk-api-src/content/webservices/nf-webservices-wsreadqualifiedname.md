@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: bc49fb89-72ba-435a-ac50-303f16d36da2
 ms.date: 12/05/2018
 ms.keywords: WsReadQualifiedName, WsReadQualifiedName function [Web Services for Windows], webservices/WsReadQualifiedName, wsw.wsreadqualifiedname
-ms.topic: function
 f1_keywords:
 - webservices/WsReadQualifiedName
 dev_langs:

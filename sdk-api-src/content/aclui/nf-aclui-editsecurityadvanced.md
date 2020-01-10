@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: E451BBB9-4E01-4A8F-9ACD-750351F16453
 ms.date: 12/05/2018
 ms.keywords: EditSecurityAdvanced, EditSecurityAdvanced function [Security], aclui/EditSecurityAdvanced, security.editsecurityadvanced
-ms.topic: function
 f1_keywords:
 - aclui/EditSecurityAdvanced
 dev_langs:

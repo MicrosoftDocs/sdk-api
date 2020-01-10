@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: d801e1dd-d038-4864-a156-4800fc634462
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Uint64Field, MI_Uint64Field structure [Windows Management Infrastructure (MI)], mi/MI_Uint64Field, wmi._mi_uint64field, wmi_v2.mi_uint64field
-ms.topic: struct
 f1_keywords:
 - mi/MI_Uint64Field
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e2e62966-dfe2-4458-8c3f-fc88669b3aeb
 ms.date: 12/05/2018
 ms.keywords: IShellRunDll, IShellRunDll interface [Windows Shell], IShellRunDll interface [Windows Shell],described, _shell_IShellRunDll, shell.IShellRunDll, shobjidl/IShellRunDll
-ms.topic: interface
 f1_keywords:
 - shobjidl/IShellRunDll
 dev_langs:

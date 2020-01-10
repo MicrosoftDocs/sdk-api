@@ -4,7 +4,6 @@ title: LPWSPCLOSESOCKET
 description: The LPWSPCloseSocket function closes a socket.
 ms.date: 9/12/2019
 ms.keywords: LPWSPCLOSESOCKET
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

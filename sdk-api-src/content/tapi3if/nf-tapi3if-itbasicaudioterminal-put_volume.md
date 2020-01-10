@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 6c611505-74b4-48fa-bb36-ec765cb24f96
 ms.date: 12/05/2018
 ms.keywords: ITBasicAudioTerminal interface [TAPI 2.2],put_Volume method, ITBasicAudioTerminal.put_Volume, ITBasicAudioTerminal::put_Volume, _tapi3_itbasicaudioterminal_put_volume, put_Volume, put_Volume method [TAPI 2.2], put_Volume method [TAPI 2.2],ITBasicAudioTerminal interface, tapi3.itbasicaudioterminal_put_volume, tapi3if/ITBasicAudioTerminal::put_Volume
-ms.topic: method
 f1_keywords:
 - tapi3if/ITBasicAudioTerminal.put_Volume
 dev_langs:

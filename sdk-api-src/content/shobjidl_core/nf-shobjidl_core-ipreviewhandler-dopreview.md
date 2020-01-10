@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f6bad84f-9089-4905-ad4d-9b69ff9d11d6
 ms.date: 12/05/2018
 ms.keywords: DoPreview, DoPreview method [Windows Shell], DoPreview method [Windows Shell],IPreviewHandler interface, IPreviewHandler interface [Windows Shell],DoPreview method, IPreviewHandler.DoPreview, IPreviewHandler::DoPreview, _shell_IPreviewHandler_DoPreview, shell.IPreviewHandler_DoPreview, shobjidl_core/IPreviewHandler::DoPreview
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IPreviewHandler.DoPreview
 dev_langs:

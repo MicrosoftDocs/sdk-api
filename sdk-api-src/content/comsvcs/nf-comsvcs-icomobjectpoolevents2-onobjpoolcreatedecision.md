@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: a66c00ac-b9b9-431e-b1c8-6642cb35ec3c
 ms.date: 12/05/2018
 ms.keywords: IComObjectPoolEvents2 interface [COM+],OnObjPoolCreateDecision method, IComObjectPoolEvents2.OnObjPoolCreateDecision, IComObjectPoolEvents2::OnObjPoolCreateDecision, OnObjPoolCreateDecision, OnObjPoolCreateDecision method [COM+], OnObjPoolCreateDecision method [COM+],IComObjectPoolEvents2 interface, _dtc_IComObjectPoolEvents2_OnObjPoolCreateDecision, comsvcs/IComObjectPoolEvents2::OnObjPoolCreateDecision, cos.icomobjectpoolevents2_onobjpoolcreatedecision
-ms.topic: method
 f1_keywords:
 - comsvcs/IComObjectPoolEvents2.OnObjPoolCreateDecision
 dev_langs:

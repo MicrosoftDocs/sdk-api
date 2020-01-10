@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: f0d97b49-8ab3-4632-9055-e2208b3121e4
 ms.date: 12/05/2018
 ms.keywords: GetVersionHash, GetVersionHash method [Microsoft TV Technologies], GetVersionHash method [Microsoft TV Technologies],IISDB_EMM interface, IISDB_EMM interface [Microsoft TV Technologies],GetVersionHash method, IISDB_EMM.GetVersionHash, IISDB_EMM::GetVersionHash, dvbsiparser/IISDB_EMM::GetVersionHash, mstv.iisdb_emm_getversionhash
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IISDB_EMM.GetVersionHash
 dev_langs:

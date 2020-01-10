@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: E7EBB743-4847-4966-A2EA-486BBA6A4A6F
 ms.date: 12/05/2018
 ms.keywords: ActivateForFile, ActivateForFile method [Windows Shell], ActivateForFile method [Windows Shell],IApplicationActivationManager interface, IApplicationActivationManager interface [Windows Shell],ActivateForFile method, IApplicationActivationManager.ActivateForFile, IApplicationActivationManager::ActivateForFile, shell.IApplicationActivationManager_ActivateForFile, shobjidl_core/IApplicationActivationManager::ActivateForFile
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IApplicationActivationManager.ActivateForFile
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: abebc651-0575-4b76-9fe8-2cea3d617582
 ms.date: 12/05/2018
 ms.keywords: IBlockRange, IBlockRange interface [IMAPI], IBlockRange interface [IMAPI],described, imapi.iblockrange, imapi2/IBlockRange
-ms.topic: interface
 f1_keywords:
 - imapi2/IBlockRange
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 21157b6b-3cbd-4fe5-8df0-470b2a2c87d7
 ms.date: 12/05/2018
 ms.keywords: Error property [Windows Remote Management], Error property [Windows Remote Management],IWSManEnumerator interface, IWSManEnumerator interface [Windows Remote Management],Error property, IWSManEnumerator.Error, IWSManEnumerator.get_Error, IWSManEnumerator::Error, IWSManEnumerator::get_Error, get_Error, winrm.iwsmanenumerator_error, wsmandisp/IWSManEnumerator::Error, wsmandisp/IWSManEnumerator::get_Error
-ms.topic: method
 f1_keywords:
 - wsmandisp/IWSManEnumerator.Error
 dev_langs:

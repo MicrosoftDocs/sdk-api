@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 015CBC40-BE9E-4C9F-AC1B-30FFDD2B11CC
 ms.date: 12/05/2018
 ms.keywords: GetRangeEndOffset, GetRangeEndOffset method [Media Foundation], GetRangeEndOffset method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetRangeEndOffset method, IMFHttpDownloadRequest.GetRangeEndOffset, IMFHttpDownloadRequest::GetRangeEndOffset, mf.imfhttpdownloadrequest_getrangeendoffset, mfidl/IMFHttpDownloadRequest::GetRangeEndOffset
-ms.topic: method
 f1_keywords:
 - mfidl/IMFHttpDownloadRequest.GetRangeEndOffset
 dev_langs:

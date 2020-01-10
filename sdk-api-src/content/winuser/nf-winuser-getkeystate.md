@@ -7,7 +7,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getkeystate.htm
 ms.date: 12/05/2018
 ms.keywords: GetKeyState, GetKeyState function [Keyboard and Mouse Input], _win32_GetKeyState, _win32_getkeystate_cpp, inputdev.getkeystate, winui._win32_getkeystate, winuser/GetKeyState
-ms.topic: function
 f1_keywords:
 - winuser/GetKeyState
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 74313e56-a820-4d02-91f4-f629d2fc72d4
 ms.date: 12/05/2018
 ms.keywords: StrToInt, StrToInt function [Windows Shell], StrToIntA, StrToIntW, _win32_StrToInt, shell.StrToInt, shlwapi/StrToInt, shlwapi/StrToIntA, shlwapi/StrToIntW
-ms.topic: function
 f1_keywords:
 - shlwapi/StrToInt
 dev_langs:

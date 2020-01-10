@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 4a2b8529-b342-4491-a7ce-db4150223682
 ms.date: 12/05/2018
 ms.keywords: ILog interface [COM],ReadRecordPrefix method, ILog.ReadRecordPrefix, ILog::ReadRecordPrefix, ReadRecordPrefix, ReadRecordPrefix method [COM], ReadRecordPrefix method [COM],ILog interface, _com_ilog_readrecordprefix, com.ilog_readrecordprefix, txlogpub/ILog::ReadRecordPrefix
-ms.topic: method
 f1_keywords:
 - txlogpub/ILog.ReadRecordPrefix
 dev_langs:

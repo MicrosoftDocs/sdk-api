@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: a614ea59-0661-43db-8ad5-b732d4acee80
 ms.date: 12/05/2018
 ms.keywords: MMC_EXPANDSYNC_STRUCT, MMC_EXPANDSYNC_STRUCT structure [MMC], _slate_mmc_expandsync_struct, mmc.mmc_expandsync_struct, mmc/MMC_EXPANDSYNC_STRUCT
-ms.topic: struct
 f1_keywords:
 - mmc/MMC_EXPANDSYNC_STRUCT
 dev_langs:

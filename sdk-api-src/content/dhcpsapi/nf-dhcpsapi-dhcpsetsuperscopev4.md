@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 70da0113-0c4a-4c4e-80ae-1e55773f9904
 ms.date: 12/05/2018
 ms.keywords: DhcpSetSuperScopeV4, DhcpSetSuperScopeV4 function [DHCP], dhcp.dhcpsetsuperscopev4, dhcpsapi/DhcpSetSuperScopeV4
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpSetSuperScopeV4
 dev_langs:

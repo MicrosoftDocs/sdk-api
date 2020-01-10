@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 9606A611-6C55-4548-B9C4-688580338F08
 ms.date: 12/05/2018
 ms.keywords: IPsecKeyManagerAddAndRegister0, IPsecKeyManagerAddAndRegister0 function [Filtering], fwp.ipseckeymanageraddandregister0, fwpmu/IPsecKeyManagerAddAndRegister0
-ms.topic: function
 f1_keywords:
 - fwpmu/IPsecKeyManagerAddAndRegister0
 dev_langs:

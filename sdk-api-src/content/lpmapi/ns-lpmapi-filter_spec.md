@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 72d08944-7ac9-496f-a18b-e6fcddb59c56
 ms.date: 12/05/2018
 ms.keywords: FILTER_SPEC, FILTER_SPEC structure [QOS], SENDER_TEMPLATE, lpmapi/FILTER_SPEC, qos.filter_spec
-ms.topic: struct
 f1_keywords:
 - lpmapi/FILTER_SPEC
 dev_langs:

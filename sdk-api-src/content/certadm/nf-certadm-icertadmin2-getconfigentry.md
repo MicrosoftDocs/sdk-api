@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 1acb9e06-c9e5-419a-899a-b0ae80fab99e
 ms.date: 12/05/2018
 ms.keywords: GetConfigEntry, GetConfigEntry method [Security], GetConfigEntry method [Security],ICertAdmin2 interface, ICertAdmin2 interface [Security],GetConfigEntry method, ICertAdmin2.GetConfigEntry, ICertAdmin2::GetConfigEntry, certadm/ICertAdmin2::GetConfigEntry, security.icertadmin2_getconfigentry
-ms.topic: method
 f1_keywords:
 - certadm/ICertAdmin2.GetConfigEntry
 dev_langs:

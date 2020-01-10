@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ff4f3707-1f2e-499b-8108-81616fe4ae9b
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],SetWindowForeground method, IVideoWindow.SetWindowForeground, IVideoWindow::SetWindowForeground, IVideoWindowSetWindowForeground, SetWindowForeground, SetWindowForeground method [DirectShow], SetWindowForeground method [DirectShow],IVideoWindow interface, control/IVideoWindow::SetWindowForeground, dshow.ivideowindow_setwindowforeground
-ms.topic: method
 f1_keywords:
 - control/IVideoWindow.SetWindowForeground
 dev_langs:

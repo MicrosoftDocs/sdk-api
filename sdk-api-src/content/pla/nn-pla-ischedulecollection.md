@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 40b4a77c-5ab4-4443-801c-2e425b6ca1bc
 ms.date: 12/05/2018
 ms.keywords: IScheduleCollection, IScheduleCollection interface [PLA], IScheduleCollection interface [PLA],described, base.ischedulecollection, pla.ischedulecollection, pla/IScheduleCollection
-ms.topic: interface
 f1_keywords:
 - pla/IScheduleCollection
 dev_langs:

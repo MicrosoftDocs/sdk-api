@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: ddf3b9ec-dea7-4333-9ffe-142811048c83
 ms.date: 12/05/2018
 ms.keywords: LsaEnumerateLogonSessions, LsaEnumerateLogonSessions function [Security], _lsa_lsaenumeratelogonsessions, ntsecapi/LsaEnumerateLogonSessions, security.lsaenumeratelogonsessions
-ms.topic: function
 f1_keywords:
 - ntsecapi/LsaEnumerateLogonSessions
 dev_langs:

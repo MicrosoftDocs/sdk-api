@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 84610d5f-9b90-4830-b6d3-7b5622709668
 ms.date: 12/05/2018
 ms.keywords: WSDCreateUdpAddress, WSDCreateUdpAddress function, ncd.wsdcreateudpaddress, wsdbase/WSDCreateUdpAddress
-ms.topic: function
 f1_keywords:
 - wsdbase/WSDCreateUdpAddress
 dev_langs:

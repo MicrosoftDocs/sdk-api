@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a4365c05-718e-4d48-bb2c-a13a609df82f
 ms.date: 12/05/2018
 ms.keywords: DVD_AudioAttributes, DVD_AudioAttributes structure [DirectShow], DVD_AudioAttributesStructure, dshow.dvd_audioattributes, strmif/DVD_AudioAttributes
-ms.topic: struct
 f1_keywords:
 - strmif/DVD_AudioAttributes
 dev_langs:

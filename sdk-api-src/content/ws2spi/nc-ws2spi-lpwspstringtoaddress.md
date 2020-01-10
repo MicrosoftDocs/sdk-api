@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 65cf8f7e-7ef0-472c-82d8-e8f7df9976a9
 ms.date: 12/05/2018
 ms.keywords: LPWSPSTRINGTOADDRESS, WSPStringToAddress, WSPStringToAddress function [Winsock], _win32_wspstringtoaddress_2, winsock.wspstringtoaddress_2, ws2spi/WSPStringToAddress
-ms.topic: callback
 f1_keywords:
 - ws2spi/WSPStringToAddress
 dev_langs:

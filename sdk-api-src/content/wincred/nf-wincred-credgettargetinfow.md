@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 14dca0af-72d7-4ca8-84bb-c7040c5b5fb9
 ms.date: 12/05/2018
 ms.keywords: CredGetTargetInfo, CredGetTargetInfo function [Security], CredGetTargetInfoA, CredGetTargetInfoW, _cred_credgettargetinfo, security.credgettargetinfo, wincred/CredGetTargetInfo, wincred/CredGetTargetInfoA, wincred/CredGetTargetInfoW
-ms.topic: function
 f1_keywords:
 - wincred/CredGetTargetInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\setmenu.htm
 ms.date: 12/05/2018
 ms.keywords: SetMenu, SetMenu function [Menus and Other Resources], _win32_SetMenu, _win32_setmenu_cpp, menurc.setmenu, winui._win32_setmenu, winuser/SetMenu
-ms.topic: function
 f1_keywords:
 - winuser/SetMenu
 dev_langs:

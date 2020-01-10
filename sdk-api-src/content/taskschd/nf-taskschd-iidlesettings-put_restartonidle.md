@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 42779c7d-4739-47c5-bf35-5d6c612c59c0
 ms.date: 12/05/2018
 ms.keywords: IIdleSettings interface [Task Scheduler],RestartOnIdle property, IIdleSettings.RestartOnIdle, IIdleSettings.put_RestartOnIdle, IIdleSettings::RestartOnIdle, IIdleSettings::get_RestartOnIdle, IIdleSettings::put_RestartOnIdle, RestartOnIdle property [Task Scheduler], RestartOnIdle property [Task Scheduler],IIdleSettings interface, put_RestartOnIdle, taskschd.iidlesettings_restartonidle, taskschd/IIdleSettings::RestartOnIdle, taskschd/IIdleSettings::get_RestartOnIdle, taskschd/IIdleSettings::put_RestartOnIdle
-ms.topic: method
 f1_keywords:
 - taskschd/IIdleSettings.RestartOnIdle
 dev_langs:

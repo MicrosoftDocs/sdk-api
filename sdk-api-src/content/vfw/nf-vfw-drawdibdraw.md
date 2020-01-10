@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: b503fcd8-e928-4b3c-9ff5-96b88c5fb2f4
 ms.date: 12/05/2018
 ms.keywords: DrawDibDraw, DrawDibDraw function [Windows Multimedia], _win32_DrawDibDraw, multimedia.drawdibdraw, vfw/DrawDibDraw
-ms.topic: function
 f1_keywords:
 - vfw/DrawDibDraw
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: c3da519f-d2bc-4cd0-9c11-587af1ad6e60
 ms.date: 12/05/2018
 ms.keywords: GetNumaProximityNodeEx, GetNumaProximityNodeEx function, base.getnumaproximitynodeex, systemtopologyapi/GetNumaProximityNodeEx
-ms.topic: function
 f1_keywords:
 - systemtopologyapi/GetNumaProximityNodeEx
 dev_langs:

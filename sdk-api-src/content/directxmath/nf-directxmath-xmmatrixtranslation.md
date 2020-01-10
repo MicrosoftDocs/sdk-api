@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixTranslation(float,float,float)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixTranslation, XMMatrixTranslation, XMMatrixTranslation method [DirectX Math Support APIs], dxmath.xmmatrixtranslation
-ms.topic: function
 f1_keywords:
 - directxmath/XMMatrixTranslation
 dev_langs:

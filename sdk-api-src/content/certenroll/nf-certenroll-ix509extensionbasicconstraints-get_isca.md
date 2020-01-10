@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 1547d015-b497-4f91-acc2-4cbb2a69709f
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionBasicConstraints interface [Security],IsCA property, IX509ExtensionBasicConstraints.IsCA, IX509ExtensionBasicConstraints.get_IsCA, IX509ExtensionBasicConstraints::IsCA, IX509ExtensionBasicConstraints::get_IsCA, IsCA property [Security], IsCA property [Security],IX509ExtensionBasicConstraints interface, certenroll/IX509ExtensionBasicConstraints::IsCA, certenroll/IX509ExtensionBasicConstraints::get_IsCA, get_IsCA, security.ix509extensionbasicconstraints_isca_property
-ms.topic: method
 f1_keywords:
 - certenroll/IX509ExtensionBasicConstraints.IsCA
 dev_langs:

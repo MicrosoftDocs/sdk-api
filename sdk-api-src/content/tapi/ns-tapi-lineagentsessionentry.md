@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 406b003a-11a2-445d-a466-a8549e201199
 ms.date: 12/05/2018
 ms.keywords: '*LPLINEAGENTSESSIONENTRY, LINEAGENTSESSIONENTRY, LINEAGENTSESSIONENTRY structure [TAPI 2.2], LPLINEAGENTSESSIONENTRY, LPLINEAGENTSESSIONENTRY structure pointer [TAPI 2.2], _tapi2_lineagentsessionentry_str, tapi/LINEAGENTSESSIONENTRY, tapi/LPLINEAGENTSESSIONENTRY, tapi2.lineagentsessionentry_str'
-ms.topic: struct
 f1_keywords:
 - tapi/LINEAGENTSESSIONENTRY
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\addmasked.htm
 ms.date: 12/05/2018
 ms.keywords: AddMasked, AddMasked method [Windows Controls], AddMasked method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],AddMasked method, IImageList.AddMasked, IImageList::AddMasked, comctl_IImageList_AddMasked, comctl_IImageList_AddMasked_cpp, commoncontrols/IImageList::AddMasked, controls.IImageList_AddMasked, controls.comctl_IImageList_AddMasked
-ms.topic: method
 f1_keywords:
 - commoncontrols/IImageList.AddMasked
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 4418fe47-4d54-4874-9ab1-6747f9d9eb72
 ms.date: 12/05/2018
 ms.keywords: WdsBpAddOption, WdsBpAddOption function [Windows Deployment Services], wds.wdsbpaddoption, wdsbp/WdsBpAddOption
-ms.topic: function
 f1_keywords:
 - wdsbp/WdsBpAddOption
 dev_langs:

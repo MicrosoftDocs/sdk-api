@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: e84fef94-3e75-4812-8427-b20a023588fa
 ms.date: 12/05/2018
 ms.keywords: IkeextSaDbGetSecurityInfo0, IkeextSaDbGetSecurityInfo0 function [Filtering], fwp.ikeextsadbgetsecurityinfo0, fwpmu/IkeextSaDbGetSecurityInfo0
-ms.topic: function
 f1_keywords:
 - fwpmu/IkeextSaDbGetSecurityInfo0
 dev_langs:

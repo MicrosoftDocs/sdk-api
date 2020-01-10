@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: cb12fe80-9e94-4797-adf5-a1986512bf57
 ms.date: 12/05/2018
 ms.keywords: GetRemoteDictionaryResources, GetRemoteDictionaryResources method [XPS Documents and Packaging], GetRemoteDictionaryResources method [XPS Documents and Packaging],IXpsOMPartResources interface, IXpsOMPartResources interface [XPS Documents and Packaging],GetRemoteDictionaryResources method, IXpsOMPartResources.GetRemoteDictionaryResources, IXpsOMPartResources::GetRemoteDictionaryResources, xps.ixpsompartresources_getremotedictionaryresources, xpsobjectmodel/IXpsOMPartResources::GetRemoteDictionaryResources
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPartResources.GetRemoteDictionaryResources
 dev_langs:

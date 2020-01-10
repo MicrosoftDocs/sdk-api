@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: EFCE3FC5-A815-401F-96C1-2A4F12E01C1C
 ms.date: 12/05/2018
 ms.keywords: GetSymLoadError, GetSymLoadError function, base.getsymloaderror, dbghelp/GetSymLoadError
-ms.topic: function
 f1_keywords:
 - dbghelp/GetSymLoadError
 dev_langs:

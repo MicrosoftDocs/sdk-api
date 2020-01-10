@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 6f3c74af-8d7f-4c66-8a11-6408a6897cbe
 ms.date: 12/05/2018
 ms.keywords: ScriptLayout, ScriptLayout function [Internationalization for Windows Applications], _win32_ScriptLayout, intl.scriptlayout, usp10/ScriptLayout
-ms.topic: function
 f1_keywords:
 - usp10/ScriptLayout
 dev_langs:

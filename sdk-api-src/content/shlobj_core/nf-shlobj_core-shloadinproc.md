@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 307b99d9-2d0a-47c5-8a10-dfdc0a408942
 ms.date: 12/05/2018
 ms.keywords: SHLoadInProc, SHLoadInProc function [Windows Shell], _win32_SHLoadInProc, shell.SHLoadInProc, shlobj_core/SHLoadInProc
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHLoadInProc
 dev_langs:

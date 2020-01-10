@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 8f879b94-d15a-48e6-9e71-a24c1c39c618
 ms.date: 12/05/2018
 ms.keywords: CCertAdmin object [Security],GetCAPropertyDisplayName method, GetCAPropertyDisplayName, GetCAPropertyDisplayName method [Security], GetCAPropertyDisplayName method [Security],CCertAdmin object, GetCAPropertyDisplayName method [Security],ICertAdmin2 interface, ICertAdmin2 interface [Security],GetCAPropertyDisplayName method, ICertAdmin2.GetCAPropertyDisplayName, ICertAdmin2::GetCAPropertyDisplayName, _certsrv_icertadmin2_getcapropertydisplayname, certadm/ICertAdmin2::GetCAPropertyDisplayName, security.icertadmin2_getcapropertydisplayname
-ms.topic: method
 f1_keywords:
 - certadm/ICertAdmin2.GetCAPropertyDisplayName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 22E94B52-98B6-4F8A-83B5-7D672143A210
 ms.date: 12/05/2018
 ms.keywords: ICoreWindowInterop interface [Windows Runtime],MessageHandled property, ICoreWindowInterop.MessageHandled, ICoreWindowInterop.put_MessageHandled, ICoreWindowInterop::MessageHandled, ICoreWindowInterop::put_MessageHandled, MessageHandled property [Windows Runtime], MessageHandled property [Windows Runtime],ICoreWindowInterop interface, corewindow/ICoreWindowInterop::MessageHandled, corewindow/ICoreWindowInterop::put_MessageHandled, put_MessageHandled, winrt.icorewindowinterop_messagehandled
-ms.topic: method
 f1_keywords:
 - corewindow/ICoreWindowInterop.MessageHandled
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: b395d587-02a7-496e-8bfd-8fcaba2a3edc
 ms.date: 12/05/2018
 ms.keywords: ITfFnBalloon interface [Text Services Framework],UpdateBalloon method, ITfFnBalloon.UpdateBalloon, ITfFnBalloon::UpdateBalloon, UpdateBalloon, UpdateBalloon method [Text Services Framework], UpdateBalloon method [Text Services Framework],ITfFnBalloon interface, _tsf_itffnballoon_updateballoon_ref, ctffunc/ITfFnBalloon::UpdateBalloon, tsf.itffnballoon_updateballoon
-ms.topic: method
 f1_keywords:
 - ctffunc/ITfFnBalloon.UpdateBalloon
 dev_langs:

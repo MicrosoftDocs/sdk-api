@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: d512508a-fb6a-41ec-a80d-f625abfdd184
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineshutdown, lineShutdown, lineShutdown function [TAPI 2.2], tapi/lineShutdown, tapi2.lineshutdown
-ms.topic: function
 f1_keywords:
 - tapi/lineShutdown
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: d42c48b5-cfd9-4de8-b0aa-b108d242e2e9
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromDispatch, InitVariantFromDispatch function [Windows Properties], _shell_InitVariantFromDispatch, properties.InitVariantFromDispatch, propvarutil/InitVariantFromDispatch, shell.InitVariantFromDispatch
-ms.topic: function
 f1_keywords:
 - propvarutil/InitVariantFromDispatch
 dev_langs:

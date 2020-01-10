@@ -7,7 +7,6 @@ tech.root: debug_wwahost
 ms.assetid: 51a80227-69ec-4f12-8d19-d2b932fbbfc0
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationNavigationEvents interface [Debugging Windows Store apps],NavigateComplete method, IWebApplicationNavigationEvents.NavigateComplete, IWebApplicationNavigationEvents::NavigateComplete, NavigateComplete, NavigateComplete method [Debugging Windows Store apps], NavigateComplete method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, debug.iwebapplicationnavigationevents_navigatecomplete, webapplication/IWebApplicationNavigationEvents::NavigateComplete
-ms.topic: method
 f1_keywords:
 - webapplication/IWebApplicationNavigationEvents.NavigateComplete
 dev_langs:

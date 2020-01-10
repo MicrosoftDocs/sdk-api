@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\saveall.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchCrawlScopeManager interface [search],SaveAll method, ISearchCrawlScopeManager.SaveAll, ISearchCrawlScopeManager::SaveAll, SaveAll, SaveAll method [search], SaveAll method [search],ISearchCrawlScopeManager interface, _search_ISearchCrawlScopeManager_SaveAll, search._search_ISearchCrawlScopeManager_SaveAll, searchapi/ISearchCrawlScopeManager::SaveAll
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchCrawlScopeManager.SaveAll
 dev_langs:

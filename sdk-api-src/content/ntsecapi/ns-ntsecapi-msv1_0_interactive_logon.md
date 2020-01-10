@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: f9b9a966-54b9-4f89-98cc-d92e3f74571d
 ms.date: 12/05/2018
 ms.keywords: '*PMSV1_0_INTERACTIVE_LOGON, MSV1_0_INTERACTIVE_LOGON, MSV1_0_INTERACTIVE_LOGON structure [Security], _lsa_msv1_0_interactive_logon, ntsecapi/MSV1_0_INTERACTIVE_LOGON, security.msv1_0_interactive_logon'
-ms.topic: struct
 f1_keywords:
 - ntsecapi/MSV1_0_INTERACTIVE_LOGON
 dev_langs:

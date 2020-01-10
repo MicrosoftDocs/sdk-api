@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 86512d40-380b-4e98-840d-b7be99a86623
 ms.date: 12/05/2018
 ms.keywords: CMSPCallMultiGraph, CMSPCallMultiGraph class [TAPI 2.2], CMSPCallMultiGraph class [TAPI 2.2],described, _tapi3_cmspcallmultigraph, mspcall/CMSPCallMultiGraph, tapi3.cmspcallmultigraph
-ms.topic: class
 f1_keywords:
 - mspcall/CMSPCallMultiGraph
 dev_langs:

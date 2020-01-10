@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: E3225AEB-AFF9-432F-B4FA-D9125210258A
 ms.date: 12/05/2018
 ms.keywords: SetSymLoadError, SetSymLoadError function, base.setsymloaderror, dbghelp/SetSymLoadError
-ms.topic: function
 f1_keywords:
 - dbghelp/SetSymLoadError
 dev_langs:

@@ -4,7 +4,6 @@ title: LPWSPCLEANUP
 description: The LPWSPCleanup function terminates use of the Windows Sockets service provider.
 ms.date: 9/12/2019
 ms.keywords: LPWSPCLEANUP
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

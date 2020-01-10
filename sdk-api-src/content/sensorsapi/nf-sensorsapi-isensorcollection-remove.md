@@ -7,7 +7,6 @@ tech.root: SensorsAPI
 ms.assetid: 9e96bae1-9ac8-41fd-99c7-3c025baf674a
 ms.date: 12/05/2018
 ms.keywords: ISensorCollection interface,Remove method, ISensorCollection.Remove, ISensorCollection::Remove, Remove, Remove method, Remove method,ISensorCollection interface, sensorsapi/ISensorCollection::Remove, winsensors_com_ref.isensorcollection_remove
-ms.topic: method
 f1_keywords:
 - sensorsapi/ISensorCollection.Remove
 dev_langs:

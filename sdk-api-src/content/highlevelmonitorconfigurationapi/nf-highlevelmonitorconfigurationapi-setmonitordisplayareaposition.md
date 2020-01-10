@@ -7,7 +7,6 @@ tech.root: Monitor
 ms.assetid: ad7604e5-5ede-479b-881e-0a6060182e5b
 ms.date: 12/05/2018
 ms.keywords: SetMonitorDisplayAreaPosition, SetMonitorDisplayAreaPosition function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorDisplayAreaPosition, monitor.setmonitordisplayareaposition
-ms.topic: function
 f1_keywords:
 - highlevelmonitorconfigurationapi/SetMonitorDisplayAreaPosition
 dev_langs:

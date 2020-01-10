@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: 8df40980-56e2-485f-87e0-42878b320e4e
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SnmpGetRetransmitMode, SnmpGetRetransmitMode function [SNMP], _snmp_snmpgetretransmitmode, snmp.snmpgetretransmitmode, winsnmp/SnmpGetRetransmitMode
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpGetRetransmitMode
 dev_langs:

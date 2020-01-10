@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 7fa72a65-68f8-438e-8a0c-6e0e0208420d
 ms.date: 12/05/2018
 ms.keywords: IIDFromString, IIDFromString function [COM], _com_IIDFromString, com.iidfromstring, combaseapi/IIDFromString
-ms.topic: function
 f1_keywords:
 - combaseapi/IIDFromString
 dev_langs:

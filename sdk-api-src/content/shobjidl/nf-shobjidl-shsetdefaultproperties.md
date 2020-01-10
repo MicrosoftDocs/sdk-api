@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c3ab80a3-c1f3-4223-9fe3-f7fe48c36460
 ms.date: 12/05/2018
 ms.keywords: SHSetDefaultProperties, SHSetDefaultProperties function [Windows Shell], _shell_SHSetDefaultProperties, shell.SHSetDefaultProperties, shobjidl/SHSetDefaultProperties
-ms.topic: function
 f1_keywords:
 - shobjidl/SHSetDefaultProperties
 dev_langs:

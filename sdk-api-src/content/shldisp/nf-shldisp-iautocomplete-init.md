@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e5ee36b7-11b4-4eca-ae8e-eefa6245f287
 ms.date: 12/05/2018
 ms.keywords: IAutoComplete interface [Windows Shell],Init method, IAutoComplete.Init, IAutoComplete::Init, Init, Init method [Windows Shell], Init method [Windows Shell],IAutoComplete interface, _win32_IAutoComplete_Init, shell.IAutoComplete_Init, shldisp/IAutoComplete::Init
-ms.topic: method
 f1_keywords:
 - shldisp/IAutoComplete.Init
 dev_langs:

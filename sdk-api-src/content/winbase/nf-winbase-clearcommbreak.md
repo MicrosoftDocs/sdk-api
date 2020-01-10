@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: 9692242c-e209-4492-ab0b-333f09595597
 ms.date: 12/05/2018
 ms.keywords: ClearCommBreak, ClearCommBreak function, _win32_clearcommbreak, base.clearcommbreak, winbase/ClearCommBreak
-ms.topic: function
 f1_keywords:
 - winbase/ClearCommBreak
 dev_langs:

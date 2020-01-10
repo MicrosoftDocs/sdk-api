@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 9b5010e3-d4c2-4194-ad8a-f8f4e0a41446
 ms.date: 12/05/2018
 ms.keywords: ICspInformation interface [Security],Version property, ICspInformation.Version, ICspInformation.get_Version, ICspInformation::Version, ICspInformation::get_Version, Version property [Security], Version property [Security],ICspInformation interface, certenroll/ICspInformation::Version, certenroll/ICspInformation::get_Version, get_Version, security.icspinformation_version_property
-ms.topic: method
 f1_keywords:
 - certenroll/ICspInformation.Version
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: d34e8da0-2689-4514-be10-4c11008432b3
 ms.date: 12/05/2018
 ms.keywords: ConsolePower, IConsolePower, IConsolePower interface [MMC], IConsolePower interface [MMC],described, _slate_iconsolepower, mmc.iconsolepower, mmc/IConsolePower
-ms.topic: interface
 f1_keywords:
 - mmc/IConsolePower
 dev_langs:

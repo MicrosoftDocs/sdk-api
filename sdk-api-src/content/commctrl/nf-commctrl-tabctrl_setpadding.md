@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setpadding.htm
 ms.date: 12/05/2018
 ms.keywords: TabCtrl_SetPadding, TabCtrl_SetPadding macro [Windows Controls], _win32_TabCtrl_SetPadding, _win32_TabCtrl_SetPadding_cpp, commctrl/TabCtrl_SetPadding, controls.TabCtrl_SetPadding, controls._win32_TabCtrl_SetPadding
-ms.topic: macro
 f1_keywords:
 - commctrl/TabCtrl_SetPadding
 dev_langs:

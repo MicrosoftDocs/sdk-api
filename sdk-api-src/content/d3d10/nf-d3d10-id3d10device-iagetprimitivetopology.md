@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_iagetprimitivetopology.htm
 ms.date: 12/05/2018
 ms.keywords: 00286006-d7cd-22c0-fbe8-077a333cce09, IAGetPrimitiveTopology, IAGetPrimitiveTopology method [Direct3D 10], IAGetPrimitiveTopology method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],IAGetPrimitiveTopology method, ID3D10Device.IAGetPrimitiveTopology, ID3D10Device::IAGetPrimitiveTopology, d3d10/ID3D10Device::IAGetPrimitiveTopology, direct3d10.id3d10device_iagetprimitivetopology
-ms.topic: method
 f1_keywords:
 - d3d10/ID3D10Device.IAGetPrimitiveTopology
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2d1db351-797f-4785-b67c-9ab6e661282a
 ms.date: 12/05/2018
 ms.keywords: DWordToByte, ULongToUInt8, ULongToUInt8 function [Windows Shell], intsafe/ULongToUInt8, shell.ULongToUInt8
-ms.topic: function
 f1_keywords:
 - intsafe/ULongToUInt8
 dev_langs:

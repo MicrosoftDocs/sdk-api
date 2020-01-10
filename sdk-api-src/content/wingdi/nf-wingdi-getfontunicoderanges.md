@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 51b0ab12-c467-4a89-8173-fdc513868aae
 ms.date: 12/05/2018
 ms.keywords: GetFontUnicodeRanges, GetFontUnicodeRanges function [Windows GDI], _win32_GetFontUnicodeRanges, gdi.getfontunicoderanges, wingdi/GetFontUnicodeRanges
-ms.topic: function
 f1_keywords:
 - wingdi/GetFontUnicodeRanges
 dev_langs:

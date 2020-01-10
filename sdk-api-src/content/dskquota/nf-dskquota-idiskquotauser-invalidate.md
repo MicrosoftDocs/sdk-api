@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 23a51df4-0578-43fe-99cd-491f709accab
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaUser interface [Files],Invalidate method, IDiskQuotaUser.Invalidate, IDiskQuotaUser::Invalidate, Invalidate, Invalidate method [Files], Invalidate method [Files],IDiskQuotaUser interface, _win32_idiskquotauser_invalidate, base.idiskquotauser_invalidate, dskquota/IDiskQuotaUser::Invalidate, fs.idiskquotauser_invalidate
-ms.topic: method
 f1_keywords:
 - dskquota/IDiskQuotaUser.Invalidate
 dev_langs:

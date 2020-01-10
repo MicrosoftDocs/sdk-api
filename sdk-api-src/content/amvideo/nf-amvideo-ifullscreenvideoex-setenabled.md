@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f05c1b3e-3ebc-4753-b3ca-e52907c59121
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetEnabled method, IFullScreenVideoEx.SetEnabled, IFullScreenVideoEx::SetEnabled, IFullScreenVideoSetEnabled, OAFALSE, OATRUE, SetEnabled, SetEnabled method [DirectShow], SetEnabled method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetEnabled, dshow.ifullscreenvideoex_setenabled
-ms.topic: method
 f1_keywords:
 - amvideo/IFullScreenVideoEx.SetEnabled
 dev_langs:

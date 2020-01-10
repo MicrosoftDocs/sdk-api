@@ -7,7 +7,6 @@ tech.root: wpdauto
 ms.assetid: ba375082-3f4f-44d7-96d3-bf8151408b9e
 ms.date: 12/05/2018
 ms.keywords: GetDeviceFromId, GetDeviceFromId method [WPD Automation], GetDeviceFromId method [WPD Automation],IPortableDeviceWebControl interface, IPortableDeviceWebControl interface [WPD Automation],GetDeviceFromId method, IPortableDeviceWebControl.GetDeviceFromId, IPortableDeviceWebControl::GetDeviceFromId, portabledeviceapi/IPortableDeviceWebControl::GetDeviceFromId, wpdauto.iportabledevicewebcontrol_getdevicefromid
-ms.topic: method
 f1_keywords:
 - portabledeviceapi/IPortableDeviceWebControl.GetDeviceFromId
 dev_langs:

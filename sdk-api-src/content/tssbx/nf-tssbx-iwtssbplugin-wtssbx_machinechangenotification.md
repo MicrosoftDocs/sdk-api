@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 226ca68e-6c3d-4160-a569-ca0b92cb9316
 ms.date: 12/05/2018
 ms.keywords: IWTSSBPlugin interface [Remote Desktop Services],WTSSBX_MachineChangeNotification method, IWTSSBPlugin.WTSSBX_MachineChangeNotification, IWTSSBPlugin::WTSSBX_MachineChangeNotification, WTSSBX_MachineChangeNotification, WTSSBX_MachineChangeNotification method [Remote Desktop Services], WTSSBX_MachineChangeNotification method [Remote Desktop Services],IWTSSBPlugin interface, termserv.iwtssbplugin_wtssbx_machinechangenotification, tssbx/IWTSSBPlugin::WTSSBX_MachineChangeNotification
-ms.topic: method
 f1_keywords:
 - tssbx/IWTSSBPlugin.WTSSBX_MachineChangeNotification
 dev_langs:

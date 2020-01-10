@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: cbdb4409-a51a-4ddf-b3ec-c5b958fc2527
 ms.date: 12/05/2018
 ms.keywords: '*LPLINEFORWARD, LINEFORWARD, LINEFORWARD structure [TAPI 2.2], LINEFORWARDMODE_BUSYNASPECIFIC, LINEFORWARDMODE_BUSYSPECIFIC, LINEFORWARDMODE_NOANSWSPECIFIC, LINEFORWARDMODE_UNCONDSPECIFIC, LPLINEFORWARD, LPLINEFORWARD structure pointer [TAPI 2.2], _tapi2_lineforward_str, tapi/LINEFORWARD, tapi/LPLINEFORWARD, tapi2.lineforward_str'
-ms.topic: struct
 f1_keywords:
 - tapi/LINEFORWARD
 dev_langs:

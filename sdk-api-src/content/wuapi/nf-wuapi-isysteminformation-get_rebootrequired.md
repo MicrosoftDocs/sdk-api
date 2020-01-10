@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 069a4ace-d69e-4d8d-b880-81c58d9668bd
 ms.date: 12/05/2018
 ms.keywords: ISystemInformation interface [Windows Update Agent],RebootRequired property, ISystemInformation.RebootRequired, ISystemInformation.get_RebootRequired, ISystemInformation::RebootRequired, ISystemInformation::get_RebootRequired, RebootRequired property [Windows Update Agent], RebootRequired property [Windows Update Agent],ISystemInformation interface, get_RebootRequired, wua.isysteminformation_rebootrequired, wuapi/ISystemInformation::RebootRequired, wuapi/ISystemInformation::get_RebootRequired
-ms.topic: method
 f1_keywords:
 - wuapi/ISystemInformation.RebootRequired
 dev_langs:

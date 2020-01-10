@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 408291ca-66fe-4f4a-8f6e-3a1b60eb2d15
 ms.date: 12/05/2018
 ms.keywords: WINBIO_EVENT_FP_UNCLAIMED, WINBIO_EVENT_FP_UNCLAIMED_IDENTIFY, WinBioRegisterEventMonitor, WinBioRegisterEventMonitor function [Windows Biometric Framework API], secbiomet.winbioregistereventmonitor, winbio/WinBioRegisterEventMonitor
-ms.topic: function
 f1_keywords:
 - winbio/WinBioRegisterEventMonitor
 dev_langs:

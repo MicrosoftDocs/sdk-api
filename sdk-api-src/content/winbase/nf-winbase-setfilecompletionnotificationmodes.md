@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 23796484-ee47-4f80-856d-5a5d5635547c
 ms.date: 12/05/2018
 ms.keywords: FILE_SKIP_COMPLETION_PORT_ON_SUCCESS, FILE_SKIP_SET_EVENT_ON_HANDLE, SetFileCompletionNotificationModes, SetFileCompletionNotificationModes function [Files], fs.setfilecompletionnotificationmodes_func, winbase/SetFileCompletionNotificationModes
-ms.topic: function
 f1_keywords:
 - winbase/SetFileCompletionNotificationModes
 dev_langs:

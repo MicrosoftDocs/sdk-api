@@ -7,7 +7,6 @@ tech.root: Rsm
 ms.assetid: 30aa06af-70d4-45c0-b624-575dcf867efb
 ms.date: 12/05/2018
 ms.keywords: CloseNtmsNotification, CloseNtmsNotification function [Files], _zaw_closentmsnotification, base.closentmsnotification, fs.closentmsnotification, ntmsapi/CloseNtmsNotification
-ms.topic: function
 f1_keywords:
 - ntmsapi/CloseNtmsNotification
 dev_langs:

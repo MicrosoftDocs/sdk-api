@@ -4,7 +4,6 @@ title: DnsServiceDeRegister function
 description: Used to remove a registered service.
 ms.date: 02/14/2019
 ms.keywords: DnsServiceDeRegister
-ms.topic: language-reference
 f1_keywords:
 - windns/DnsServiceDeRegister
 dev_langs:

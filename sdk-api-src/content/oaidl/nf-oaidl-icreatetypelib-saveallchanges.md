@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 67824f38-e515-487e-8f4b-6682a5ac669c
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeLib interface [Automation],SaveAllChanges method, ICreateTypeLib.SaveAllChanges, ICreateTypeLib::SaveAllChanges, SaveAllChanges, SaveAllChanges method [Automation], SaveAllChanges method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SaveAllChanges, automat.icreatetypelib_saveallchanges, oaidl/ICreateTypeLib::SaveAllChanges
-ms.topic: method
 f1_keywords:
 - oaidl/ICreateTypeLib.SaveAllChanges
 dev_langs:

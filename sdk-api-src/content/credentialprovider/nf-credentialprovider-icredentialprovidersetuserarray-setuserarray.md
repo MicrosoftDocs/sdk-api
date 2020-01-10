@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 14A9DFBD-7B44-4983-8B02-5880017B9B04
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderSetUserArray interface [Windows Shell],SetUserArray method, ICredentialProviderSetUserArray.SetUserArray, ICredentialProviderSetUserArray::SetUserArray, SetUserArray, SetUserArray method [Windows Shell], SetUserArray method [Windows Shell],ICredentialProviderSetUserArray interface, credentialprovider/ICredentialProviderSetUserArray::SetUserArray, shell.ICredentialProviderSetUserArray_SetUserArray
-ms.topic: method
 f1_keywords:
 - credentialprovider/ICredentialProviderSetUserArray.SetUserArray
 dev_langs:

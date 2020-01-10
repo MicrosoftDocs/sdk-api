@@ -7,7 +7,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rawinput.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPRAWINPUT, *PRAWINPUT, LPRAWINPUT, LPRAWINPUT structure pointer [Keyboard and Mouse Input], PRAWINPUT, PRAWINPUT structure pointer [Keyboard and Mouse Input], RAWINPUT, RAWINPUT structure [Keyboard and Mouse Input], _win32_RAWINPUT_str, _win32_rawinput_str_cpp, inputdev.rawinput, winui._win32_rawinput_str, winuser/LPRAWINPUT, winuser/PRAWINPUT, winuser/RAWINPUT'
-ms.topic: struct
 f1_keywords:
 - winuser/RAWINPUT
 dev_langs:

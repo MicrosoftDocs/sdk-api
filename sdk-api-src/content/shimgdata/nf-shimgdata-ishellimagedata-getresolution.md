@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9e3c3e0f-010b-4d7d-a8fa-178a808687f8
 ms.date: 12/05/2018
 ms.keywords: GetResolution, GetResolution method [Windows Shell], GetResolution method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetResolution method, IShellImageData.GetResolution, IShellImageData::GetResolution, _shell_IShellImageData_GetResolution, shell.IShellImageData_GetResolution, shimgdata/IShellImageData::GetResolution
-ms.topic: method
 f1_keywords:
 - shimgdata/IShellImageData.GetResolution
 dev_langs:

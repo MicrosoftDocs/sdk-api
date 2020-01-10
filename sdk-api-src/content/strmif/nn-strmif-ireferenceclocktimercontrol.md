@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 08638917-88b1-42f0-8324-ae6fb9afe5bd
 ms.date: 12/05/2018
 ms.keywords: IReferenceClockTimerControl, IReferenceClockTimerControl interface [DirectShow], IReferenceClockTimerControl interface [DirectShow],described, IReferenceClockTimerControlInterface, dshow.ireferenceclocktimercontrol, strmif/IReferenceClockTimerControl
-ms.topic: interface
 f1_keywords:
 - strmif/IReferenceClockTimerControl
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 8406B781-7CBE-47F8-B7EF-5FF599BB8EDE
 ms.date: 12/05/2018
 ms.keywords: IFastRundown, IFastRundown interface [COM], IFastRundown interface [COM],described, com.ifastrundown, objidl/IFastRundown
-ms.topic: interface
 f1_keywords:
 - objidl/IFastRundown
 dev_langs:

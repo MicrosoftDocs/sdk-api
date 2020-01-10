@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 6e3dd220-ba98-46b5-8522-93cbe2029aa4
 ms.date: 12/05/2018
 ms.keywords: DsUnquoteRdnValue, DsUnquoteRdnValue function [Active Directory], DsUnquoteRdnValueA, DsUnquoteRdnValueW, ERROR_BUFFER_OVERFLOW, ERROR_SUCCESS, _glines_dsunquoterdnvalue, ad.dsunquoterdnvalue, dsparse/DsUnquoteRdnValue, dsparse/DsUnquoteRdnValueA, dsparse/DsUnquoteRdnValueW
-ms.topic: function
 f1_keywords:
 - dsparse/DsUnquoteRdnValue
 dev_langs:

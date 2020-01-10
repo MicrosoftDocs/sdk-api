@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: e50f5acf-06ef-49bb-bcf1-1fadeb4b808a
 ms.date: 12/05/2018
 ms.keywords: CloseHandle, CloseHandle method [Security], CloseHandle method [Security],ISceSvcAttachmentData interface, ISceSvcAttachmentData interface [Security],CloseHandle method, ISceSvcAttachmentData.CloseHandle, ISceSvcAttachmentData::CloseHandle, _config_iscesvcattachmentdata_closehandle, scesvc/ISceSvcAttachmentData::CloseHandle, security.iscesvcattachmentdata_closehandle
-ms.topic: method
 f1_keywords:
 - scesvc/ISceSvcAttachmentData.CloseHandle
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_8xpn.htm
 ms.date: 12/05/2018
 ms.keywords: FaxLineCallback, FaxLineCallback callback function [Fax Service], PFAX_LINECALLBACK, PFAX_LINECALLBACK callback, _mfax_faxlinecallback, fax._mfax_faxlinecallback, faxdev/FaxLineCallback
-ms.topic: callback
 f1_keywords:
 - faxdev/FaxLineCallback
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 9F969C0C-93CA-4355-8556-2F43542570F1
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpv6GetVendorOptionValue, PxeDhcpv6GetVendorOptionValue function [Windows Deployment Services], wds.pxedhcpv6getvendoroptionvalue, wdspxe/PxeDhcpv6GetVendorOptionValue
-ms.topic: function
 f1_keywords:
 - wdspxe/PxeDhcpv6GetVendorOptionValue
 dev_langs:

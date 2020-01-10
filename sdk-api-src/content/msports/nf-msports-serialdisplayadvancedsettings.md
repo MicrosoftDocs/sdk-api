@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 185c66e9-0c72-4aca-a99c-54995384e26e
 ms.date: 12/05/2018
 ms.keywords: SerialDisplayAdvancedSettings, SerialDisplayAdvancedSettings function [Serial Ports], comdb_6cace01c-3c22-4699-938d-9fb180d79f12.xml, msports/SerialDisplayAdvancedSettings, serports.serialdisplayadvancedsettings
-ms.topic: function
 f1_keywords:
 - msports/SerialDisplayAdvancedSettings
 dev_langs:

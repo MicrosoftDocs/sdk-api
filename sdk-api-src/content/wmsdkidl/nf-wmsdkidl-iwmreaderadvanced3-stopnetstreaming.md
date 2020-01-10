@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: e323f967-02d5-4472-a9b3-cb8a2b80070e
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced3 interface [windows Media Format],StopNetStreaming method, IWMReaderAdvanced3.StopNetStreaming, IWMReaderAdvanced3::StopNetStreaming, IWMReaderAdvanced3StopNetStreaming, StopNetStreaming, StopNetStreaming method [windows Media Format], StopNetStreaming method [windows Media Format],IWMReaderAdvanced3 interface, wmformat.iwmreaderadvanced3_stopnetstreaming, wmsdkidl/IWMReaderAdvanced3::StopNetStreaming
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderAdvanced3.StopNetStreaming
 dev_langs:

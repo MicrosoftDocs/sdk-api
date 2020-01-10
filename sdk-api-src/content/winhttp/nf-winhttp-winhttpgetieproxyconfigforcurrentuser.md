@@ -7,7 +7,6 @@ tech.root: WinHttp
 ms.assetid: 3de4dfb9-881f-47db-9fdf-af0ce162e380
 ms.date: 12/05/2018
 ms.keywords: WinHttpGetIEProxyConfigForCurrentUser, WinHttpGetIEProxyConfigForCurrentUser function [WinHTTP], http.winhttpgetieproxyconfigforcurrentuser, winhttp/WinHttpGetIEProxyConfigForCurrentUser
-ms.topic: function
 f1_keywords:
 - winhttp/WinHttpGetIEProxyConfigForCurrentUser
 dev_langs:

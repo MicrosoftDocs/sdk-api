@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwianotifydevmgr\iwianotifydevmgr.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaNotifyDevMgr, IWiaNotifyDevMgr interface [WIA], IWiaNotifyDevMgr interface [WIA],described, _wia_IWiaNotifyDevMgr, wia._wia_IWiaNotifyDevMgr, wia_xp/IWiaNotifyDevMgr
-ms.topic: interface
 f1_keywords:
 - wia_xp/IWiaNotifyDevMgr
 dev_langs:

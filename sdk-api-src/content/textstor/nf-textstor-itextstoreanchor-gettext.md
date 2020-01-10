@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: fd3f91df-b107-4284-8435-d859c843555f
 ms.date: 12/05/2018
 ms.keywords: GetText, GetText method [Text Services Framework], GetText method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetText method, ITextStoreAnchor.GetText, ITextStoreAnchor::GetText, textstor/ITextStoreAnchor::GetText, tsf.itextstoreanchor_gettext
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreAnchor.GetText
 dev_langs:

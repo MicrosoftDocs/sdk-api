@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: F18A5596-F21E-427B-8281-544DD7CA9E0B
 ms.date: 12/05/2018
 ms.keywords: RegisterServerForPMP, RegisterServerForPMP function [Windows API], comppkgsup/RegisterServerForPMP, winprog.registerserverforpmp
-ms.topic: function
 f1_keywords:
 - comppkgsup/RegisterServerForPMP
 dev_langs:

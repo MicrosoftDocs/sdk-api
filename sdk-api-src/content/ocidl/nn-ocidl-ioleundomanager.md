@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 0f507506-3589-4d5b-b1b3-010bce9ae42f
 ms.date: 12/05/2018
 ms.keywords: IOleUndoManager, IOleUndoManager interface [COM], IOleUndoManager interface [COM],described, _ole_ioleundomanager, com.ioleundomanager, ocidl/IOleUndoManager
-ms.topic: interface
 f1_keywords:
 - ocidl/IOleUndoManager
 dev_langs:

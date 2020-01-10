@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: A22F6DF1-E8A6-4FA8-B60C-5C566F0ED5CD
 ms.date: 12/5/2018
 ms.keywords: IDMLPageable, IDMLPageable interface, IDMLPageable interface,described, direct3d12.idmlpageable, directml/IDMLPageable
-ms.topic: interface
 f1_keywords:
 - directml/IDMLPageable
 dev_langs:

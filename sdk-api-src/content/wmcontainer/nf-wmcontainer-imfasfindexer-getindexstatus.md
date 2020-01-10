@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: dc38a060-36e4-458e-829e-2770387fc484
 ms.date: 12/05/2018
 ms.keywords: GetIndexStatus, GetIndexStatus method [Media Foundation], GetIndexStatus method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetIndexStatus method, IMFASFIndexer.GetIndexStatus, IMFASFIndexer::GetIndexStatus, dc38a060-36e4-458e-829e-2770387fc484, mf.imfasfindexer_getindexstatus, wmcontainer/IMFASFIndexer::GetIndexStatus
-ms.topic: method
 f1_keywords:
 - wmcontainer/IMFASFIndexer.GetIndexStatus
 dev_langs:

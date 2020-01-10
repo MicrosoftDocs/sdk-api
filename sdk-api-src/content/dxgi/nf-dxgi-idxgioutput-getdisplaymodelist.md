@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_getdisplaymodelist.htm
 ms.date: 12/05/2018
 ms.keywords: 3a76a6e4-1ab8-3f7a-7a2b-1bd9540d34fa, GetDisplayModeList, GetDisplayModeList method [DXGI], GetDisplayModeList method [DXGI],IDXGIOutput interface, IDXGIOutput interface [DXGI],GetDisplayModeList method, IDXGIOutput.GetDisplayModeList, IDXGIOutput::GetDisplayModeList, direct3ddxgi.idxgioutput_getdisplaymodelist, dxgi/IDXGIOutput::GetDisplayModeList
-ms.topic: method
 f1_keywords:
 - dxgi/IDXGIOutput.GetDisplayModeList
 dev_langs:

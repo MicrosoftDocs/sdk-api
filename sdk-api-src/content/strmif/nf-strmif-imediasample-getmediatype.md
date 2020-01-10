@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: abccec09-c5a0-4192-9bdf-9240d1b73357
 ms.date: 12/05/2018
 ms.keywords: GetMediaType, GetMediaType method [DirectShow], GetMediaType method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetMediaType method, IMediaSample.GetMediaType, IMediaSample::GetMediaType, IMediaSampleGetMediaType, dshow.imediasample_getmediatype, strmif/IMediaSample::GetMediaType
-ms.topic: method
 f1_keywords:
 - strmif/IMediaSample.GetMediaType
 dev_langs:

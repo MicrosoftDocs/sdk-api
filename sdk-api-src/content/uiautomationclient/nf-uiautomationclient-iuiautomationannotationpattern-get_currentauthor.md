@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 8F1573D5-3804-4C1D-A838-1D5D837BCE25
 ms.date: 12/05/2018
 ms.keywords: CurrentAuthor property [Windows Accessibility], CurrentAuthor property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CurrentAuthor property, IUIAutomationAnnotationPattern.CurrentAuthor, IUIAutomationAnnotationPattern.get_CurrentAuthor, IUIAutomationAnnotationPattern::CurrentAuthor, IUIAutomationAnnotationPattern::get_CurrentAuthor, get_CurrentAuthor, uiautomationclient/IUIAutomationAnnotationPattern::CurrentAuthor, uiautomationclient/IUIAutomationAnnotationPattern::get_CurrentAuthor, winauto.uiauto_IUIAutomationAnnotationPattern_CurrentAuthor
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationAnnotationPattern.CurrentAuthor
 dev_langs:

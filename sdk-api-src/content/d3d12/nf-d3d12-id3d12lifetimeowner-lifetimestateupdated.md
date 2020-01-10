@@ -5,7 +5,6 @@ description: Called when the lifetime state of a lifetime-tracked object changes
 tech.root: direct3d12
 ms.date: 10/30/2019
 ms.keywords: ID3D12LifetimeOwner::LifetimeStateUpdated
-ms.topic: language-reference
 f1_keywords:
 - d3d12/ID3D12LifetimeOwner.LifetimeStateUpdated
 dev_langs:

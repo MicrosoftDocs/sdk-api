@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 4d6d0b7d-ae20-456c-9ef4-97fa682ece8b
 ms.date: 12/05/2018
 ms.keywords: VariantToInt16WithDefault, VariantToInt16WithDefault function [Windows Properties], _shell_VariantToInt16WithDefault, properties.VariantToInt16WithDefault, propvarutil/VariantToInt16WithDefault, shell.VariantToInt16WithDefault
-ms.topic: function
 f1_keywords:
 - propvarutil/VariantToInt16WithDefault
 dev_langs:

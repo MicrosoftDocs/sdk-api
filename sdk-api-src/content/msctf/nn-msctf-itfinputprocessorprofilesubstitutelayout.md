@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: e801ca27-4581-4369-886c-04b824d55013
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfileSubstituteLayout, ITfInputProcessorProfileSubstituteLayout interface [Text Services Framework], ITfInputProcessorProfileSubstituteLayout interface [Text Services Framework],described, msctf/ITfInputProcessorProfileSubstituteLayout, tsf.itfinputprocessorprofilesubstitutelayout
-ms.topic: interface
 f1_keywords:
 - msctf/ITfInputProcessorProfileSubstituteLayout
 dev_langs:

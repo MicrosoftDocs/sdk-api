@@ -7,7 +7,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__getadaptercount.htm
 ms.date: 12/05/2018
 ms.keywords: 7f2637d0-4165-4508-af2d-ac07385cee3e, GetAdapterCount, GetAdapterCount method [Direct3D 9], GetAdapterCount method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],GetAdapterCount method, IDirect3D9.GetAdapterCount, IDirect3D9::GetAdapterCount, d3d9helper/IDirect3D9::GetAdapterCount, direct3d9.idirect3d9__getadaptercount
-ms.topic: method
 f1_keywords:
 - d3d9helper/IDirect3D9.GetAdapterCount
 dev_langs:

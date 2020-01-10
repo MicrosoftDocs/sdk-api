@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 75C9C9AF-9C27-402C-886D-269BF567825F
 ms.date: 12/05/2018
 ms.keywords: '*PWRDS_LISTENER_SETTINGS, PWRDS_LISTENER_SETTINGS, PWRDS_LISTENER_SETTINGS structure pointer [Remote Desktop Services], WRDS_LISTENER_SETTINGS, WRDS_LISTENER_SETTINGS structure [Remote Desktop Services], WRDS_LISTENER_SETTING_LEVEL_1, termserv.wrds_listener_settings, wtsdefs/PWRDS_LISTENER_SETTINGS, wtsdefs/WRDS_LISTENER_SETTINGS'
-ms.topic: struct
 f1_keywords:
 - wtsdefs/WRDS_LISTENER_SETTINGS
 dev_langs:

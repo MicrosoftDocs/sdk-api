@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2b5964e5-dfc8-44f9-86a7-5ea5acc68c1b
 ms.date: 12/05/2018
 ms.keywords: '*LPOVERLAPPED, LPOVERLAPPED, LPOVERLAPPED structure pointer [Windows Shell], OVERLAPPED, OVERLAPPED structure [Windows Shell], _shell_OVERLAPPED, shell.OVERLAPPED, shobjidl/LPOVERLAPPED, shobjidl/OVERLAPPED'
-ms.topic: struct
 f1_keywords:
 - shobjidl/OVERLAPPED
 dev_langs:

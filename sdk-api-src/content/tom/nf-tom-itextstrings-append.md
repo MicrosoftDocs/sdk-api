@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: e280008b-b41e-43e3-9f16-6fe1f88e10ea
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [Windows Controls], Append method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],Append method, ITextStrings.Append, ITextStrings::Append, controls.itextstrings_append, tom/ITextStrings::Append
-ms.topic: method
 f1_keywords:
 - tom/ITextStrings.Append
 dev_langs:

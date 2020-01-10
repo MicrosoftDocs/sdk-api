@@ -7,7 +7,6 @@ tech.root: proc_snap
 ms.assetid: 93A79F7F-2164-4F7A-ADE7-C1655EEFC9BF
 ms.date: 12/05/2018
 ms.keywords: PSS_WALK_AUXILIARY_PAGES, PSS_WALK_HANDLES, PSS_WALK_INFORMATION_CLASS, PSS_WALK_INFORMATION_CLASS enumeration, PSS_WALK_THREADS, PSS_WALK_VA_SPACE, proc_snap.pss_walk_information_class, processsnapshot/PSS_WALK_AUXILIARY_PAGES, processsnapshot/PSS_WALK_HANDLES, processsnapshot/PSS_WALK_INFORMATION_CLASS, processsnapshot/PSS_WALK_THREADS, processsnapshot/PSS_WALK_VA_SPACE
-ms.topic: enum
 f1_keywords:
 - processsnapshot/PSS_WALK_INFORMATION_CLASS
 dev_langs:

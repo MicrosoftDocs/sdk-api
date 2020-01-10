@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: ef0402aa-7263-4a4b-9204-a35d8da154c5
 ms.date: 12/05/2018
 ms.keywords: VarCyAdd, VarCyAdd function [Automation], _oa96_VarCyAdd, automat.varcyadd, oleauto/VarCyAdd
-ms.topic: function
 f1_keywords:
 - oleauto/VarCyAdd
 dev_langs:

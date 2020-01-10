@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 6f499d08-d2a1-46d0-b931-e6c16c4e1d3a
 ms.date: 12/05/2018
 ms.keywords: DrvFillPath, DrvFillPath function [Display Devices], ddifncs_176fcd15-80b2-49da-a11d-a1ed5ca67201.xml, display.drvfillpath, winddi/DrvFillPath
-ms.topic: function
 f1_keywords:
 - winddi/DrvFillPath
 dev_langs:

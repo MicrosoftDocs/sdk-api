@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: 4c36685e-8eb7-4d91-a479-8f099d5e712b
 ms.date: 12/05/2018
 ms.keywords: GetSurfaceDesc, GetSurfaceDesc method [DirectDraw], GetSurfaceDesc method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetSurfaceDesc method, IDirectDrawSurface7.GetSurfaceDesc, IDirectDrawSurface7::GetSurfaceDesc, ddraw/IDirectDrawSurface7::GetSurfaceDesc, directdraw.idirectdrawsurface7_getsurfacedesc
-ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawSurface7.GetSurfaceDesc
 dev_langs:

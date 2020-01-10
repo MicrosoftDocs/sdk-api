@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 2ae3d695-4dfe-4c72-8e66-64dce88c2bb2
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetupKeyInformationCollection interface [Security],Item property, ICertSrvSetupKeyInformationCollection.Item, ICertSrvSetupKeyInformationCollection.get_Item, ICertSrvSetupKeyInformationCollection::Item, ICertSrvSetupKeyInformationCollection::get_Item, Item property [Security], Item property [Security],ICertSrvSetupKeyInformationCollection interface, casetup/ICertSrvSetupKeyInformationCollection::Item, casetup/ICertSrvSetupKeyInformationCollection::get_Item, get_Item, security.icertsrvsetupkeyinformationcollection_item
-ms.topic: method
 f1_keywords:
 - casetup/ICertSrvSetupKeyInformationCollection.Item
 dev_langs:

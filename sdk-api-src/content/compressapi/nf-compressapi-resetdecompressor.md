@@ -7,7 +7,6 @@ tech.root: cmpapi
 ms.assetid: 45243dac-bf07-4fee-aaf3-1482f4f009d9
 ms.date: 12/05/2018
 ms.keywords: ResetDecompressor, ResetDecompressor function [Compression API], cmpapi.resetdecompressor, compressapi/ResetDecompressor
-ms.topic: function
 f1_keywords:
 - compressapi/ResetDecompressor
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 7C4A3982-3623-4F1F-929C-6D0503700450
 ms.date: 12/05/2018
 ms.keywords: IMarshalingStream, IMarshalingStream interface [COM], IMarshalingStream interface [COM],described, com.imarshalingstream, objidl/IMarshalingStream
-ms.topic: interface
 f1_keywords:
 - objidlbase/IMarshalingStream
 dev_langs:

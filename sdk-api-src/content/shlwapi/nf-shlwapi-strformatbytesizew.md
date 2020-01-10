@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 00192755-9135-4193-90bc-6e312b294007
 ms.date: 12/05/2018
 ms.keywords: StrFormatByteSizeW, StrFormatByteSizeW function [Windows Shell], _win32_StrFormatByteSizeW, shell.StrFormatByteSizeW, shlwapi/StrFormatByteSizeW
-ms.topic: function
 f1_keywords:
 - shlwapi/StrFormatByteSizeW
 dev_langs:

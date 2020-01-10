@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: e48132c4-b222-4401-99b3-7906c0df4ec1
 ms.date: 12/05/2018
 ms.keywords: AllocateForPostView, AllocateForPostView method [windows Media Format], AllocateForPostView method [windows Media Format],IWMWriterPostViewCallback interface, IWMWriterPostViewCallback interface [windows Media Format],AllocateForPostView method, IWMWriterPostViewCallback.AllocateForPostView, IWMWriterPostViewCallback::AllocateForPostView, IWMWriterPostViewCallbackAllocateForPostView, wmformat.iwmwriterpostviewcallback_allocateforpostview, wmsdkidl/IWMWriterPostViewCallback::AllocateForPostView
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMWriterPostViewCallback.AllocateForPostView
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b0e3b7cf-c133-4b47-8209-1014d1e3d671
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_Brightness method, IVideoProcAmp.get_Brightness, IVideoProcAmp::get_Brightness, IVideoProcAmpget_Brightness, dshow.ivideoprocamp_get_brightness, get_Brightness, get_Brightness method [DirectShow], get_Brightness method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_Brightness
-ms.topic: method
 f1_keywords:
 - vidcap/IVideoProcAmp.get_Brightness
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: b0cae173-a552-4c5a-8181-ba20143d846b
 ms.date: 12/05/2018
 ms.keywords: MI_HostedProvider_Close, MI_HostedProvider_Close function [Windows Management Infrastructure (MI)], mi/MI_HostedProvider_Close, wmi_v2.mi_hostedprovider_close
-ms.topic: function
 f1_keywords:
 - mi/MI_HostedProvider_Close
 dev_langs:

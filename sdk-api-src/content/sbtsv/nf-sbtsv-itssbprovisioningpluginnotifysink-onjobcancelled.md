@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: c4e65194-47c1-43d9-93b3-fbbb57d7f34a
 ms.date: 12/05/2018
 ms.keywords: ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],OnJobCancelled method, ITsSbProvisioningPluginNotifySink.OnJobCancelled, ITsSbProvisioningPluginNotifySink::OnJobCancelled, OnJobCancelled, OnJobCancelled method [Remote Desktop Services], OnJobCancelled method [Remote Desktop Services],ITsSbProvisioningPluginNotifySink interface, sbtsv/ITsSbProvisioningPluginNotifySink::OnJobCancelled, termserv.itssbprovisioningpluginnotifysink_onjobcancelled
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbProvisioningPluginNotifySink.OnJobCancelled
 dev_langs:

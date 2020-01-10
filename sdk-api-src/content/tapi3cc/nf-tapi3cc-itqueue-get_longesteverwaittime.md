@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 686ea264-a826-4205-a422-7d1dc3d430f8
 ms.date: 12/05/2018
 ms.keywords: ITQueue interface [TAPI 2.2],get_LongestEverWaitTime method, ITQueue.get_LongestEverWaitTime, ITQueue::get_LongestEverWaitTime, _tapi3_itqueue_get_longesteverwaittime, get_LongestEverWaitTime, get_LongestEverWaitTime method [TAPI 2.2], get_LongestEverWaitTime method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_longesteverwaittime, tapi3cc/ITQueue::get_LongestEverWaitTime
-ms.topic: method
 f1_keywords:
 - tapi3cc/ITQueue.get_LongestEverWaitTime
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: 2e4591b5-c8a9-4645-8001-8ac09c706ee2
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Offline Files], GetName method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetName method, IOfflineFilesSetting.GetName, IOfflineFilesSetting::GetName, cscobj/IOfflineFilesSetting::GetName, of.iofflinefilessetting_getname
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesSetting.GetName
 dev_langs:

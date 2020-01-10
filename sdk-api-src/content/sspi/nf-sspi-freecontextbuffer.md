@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 3c3d27bb-4f9a-4979-b679-1e10fa1ff221
 ms.date: 12/05/2018
 ms.keywords: FreeContextBuffer, FreeContextBuffer function [Security], _ssp_freecontextbuffer, security.freecontextbuffer, sspi/FreeContextBuffer
-ms.topic: function
 f1_keywords:
 - sspi/FreeContextBuffer
 dev_langs:

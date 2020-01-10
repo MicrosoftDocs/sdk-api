@@ -7,7 +7,6 @@ tech.root: WNF
 ms.assetid: D1581B09-06A7-483F-929D-1AF93832942D
 ms.date: 12/05/2018
 ms.keywords: RegisterWaitUntilOOBECompleted, RegisterWaitUntilOOBECompleted function, oobenotification/RegisterWaitUntilOOBECompleted, windowssetupandmigration.registerwaituntiloobecompleted
-ms.topic: function
 f1_keywords:
 - oobenotification/RegisterWaitUntilOOBECompleted
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: a3c45e91-3e30-4f22-aedb-d81024160e88
 ms.date: 12/05/2018
 ms.keywords: GetUTCTime, GetUTCTime method [Microsoft TV Technologies], GetUTCTime method [Microsoft TV Technologies],IDVB_TDT interface, IDVB_TDT interface [Microsoft TV Technologies],GetUTCTime method, IDVB_TDT.GetUTCTime, IDVB_TDT::GetUTCTime, IDVB_TDTGetUTCTime, dvbsiparser/IDVB_TDT::GetUTCTime, mstv.idvb_tdt_getutctime
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDVB_TDT.GetUTCTime
 dev_langs:

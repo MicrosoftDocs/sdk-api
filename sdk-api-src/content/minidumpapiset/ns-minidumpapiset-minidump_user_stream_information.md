@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 2a6b20ee-83cb-4000-b00a-61c4ab513205
 ms.date: 12/05/2018
 ms.keywords: '*PMINIDUMP_USER_STREAM_INFORMATION, MINIDUMP_USER_STREAM_INFORMATION, MINIDUMP_USER_STREAM_INFORMATION structure, PMINIDUMP_USER_STREAM_INFORMATION, PMINIDUMP_USER_STREAM_INFORMATION structure pointer, _MINIDUMP_USER_STREAM_INFORMATION, _win32_minidump_user_stream_information_str, base.minidump_user_stream_information_str, minidumpapiset/MINIDUMP_USER_STREAM_INFORMATION, minidumpapiset/PMINIDUMP_USER_STREAM_INFORMATION'
-ms.topic: struct
 f1_keywords:
 - minidumpapiset/MINIDUMP_USER_STREAM_INFORMATION
 dev_langs:

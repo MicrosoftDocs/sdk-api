@@ -5,7 +5,6 @@ description: The GraphicsPath::AddClosedCurve method adds a closed cardinal spli
 ms.assetid: cd2aaebd-da69-4664-ae8b-c559bb510913
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddClosedCurve
-ms.topic: language-reference
 f1_keywords:
 - gdipluspath/GraphicsPath::AddClosedCurve
 dev_langs:

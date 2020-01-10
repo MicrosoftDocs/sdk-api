@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 726e480d-1a34-4fd6-ac2d-876fa08f4eae
 ms.date: 12/05/2018
 ms.keywords: AuthzRegisterSecurityEventSource, AuthzRegisterSecurityEventSource function [Security], authz/AuthzRegisterSecurityEventSource, security.authzregistersecurityeventsource
-ms.topic: function
 f1_keywords:
 - authz/AuthzRegisterSecurityEventSource
 dev_langs:

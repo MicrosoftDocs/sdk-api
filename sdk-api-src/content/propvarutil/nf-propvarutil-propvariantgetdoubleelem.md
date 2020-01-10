@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 387e23df-bfbd-42c0-adef-dc53ba95a9f2
 ms.date: 12/05/2018
 ms.keywords: PropVariantGetDoubleElem, PropVariantGetDoubleElem function [Windows Properties], _shell_PropVariantGetDoubleElem, properties.PropVariantGetDoubleElem, propvarutil/PropVariantGetDoubleElem, shell.PropVariantGetDoubleElem
-ms.topic: function
 f1_keywords:
 - propvarutil/PropVariantGetDoubleElem
 dev_langs:

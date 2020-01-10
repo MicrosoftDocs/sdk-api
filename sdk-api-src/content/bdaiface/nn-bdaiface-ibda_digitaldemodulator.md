@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 13ecd348-dc2b-4e80-9875-927f4ed55c95
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator, IBDA_DigitalDemodulator interface [Microsoft TV Technologies], IBDA_DigitalDemodulator interface [Microsoft TV Technologies],described, IBDA_DigitalDemodulatorInterface, bdaiface/IBDA_DigitalDemodulator, mstv.ibda_digitaldemodulator
-ms.topic: interface
 f1_keywords:
 - bdaiface/IBDA_DigitalDemodulator
 dev_langs:

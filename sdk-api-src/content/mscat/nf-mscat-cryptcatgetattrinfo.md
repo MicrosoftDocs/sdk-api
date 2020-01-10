@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: e36966ea-741e-4380-85cd-5a3c9db38e6d
 ms.date: 12/05/2018
 ms.keywords: CryptCATGetAttrInfo, CryptCATGetAttrInfo function [Security], mscat/CryptCATGetAttrInfo, security.cryptcatgetattrinfo
-ms.topic: function
 f1_keywords:
 - mscat/CryptCATGetAttrInfo
 dev_langs:

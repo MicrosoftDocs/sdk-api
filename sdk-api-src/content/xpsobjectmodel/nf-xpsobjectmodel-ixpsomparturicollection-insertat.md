@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 672e3cc7-ac25-4d9d-9983-66cf6d26f574
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPartUriCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMPartUriCollection.InsertAt, IXpsOMPartUriCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMPartUriCollection interface, xps.ixpsomparturicollection_insertat, xpsobjectmodel/IXpsOMPartUriCollection::InsertAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPartUriCollection.InsertAt
 dev_langs:

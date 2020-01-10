@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: b7922300-1dc7-487f-b703-736cb0393f17
 ms.date: 12/05/2018
 ms.keywords: WSD_PROBE_MATCH_LIST, WSD_PROBE_MATCH_LIST structure, ncd.wsd_probe_match_list_struct, wsdtypes/WSD_PROBE_MATCH_LIST
-ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_PROBE_MATCH_LIST
 dev_langs:

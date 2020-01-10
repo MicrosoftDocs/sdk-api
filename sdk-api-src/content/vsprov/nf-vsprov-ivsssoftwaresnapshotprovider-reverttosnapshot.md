@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 55c55bbc-b40e-4659-bee6-2448e6b6a4df
 ms.date: 12/05/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,RevertToSnapshot method, IVssSoftwareSnapshotProvider.RevertToSnapshot, IVssSoftwareSnapshotProvider::RevertToSnapshot, RevertToSnapshot, RevertToSnapshot method, RevertToSnapshot method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_reverttosnapshot, vsprov/IVssSoftwareSnapshotProvider::RevertToSnapshot
-ms.topic: method
 f1_keywords:
 - vsprov/IVssSoftwareSnapshotProvider.RevertToSnapshot
 dev_langs:

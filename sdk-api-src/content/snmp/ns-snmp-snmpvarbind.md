@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: 40f9930d-93d1-45eb-aa3a-499947004fcf
 ms.date: 12/05/2018
 ms.keywords: SnmpVarBind, SnmpVarBind structure [SNMP], _snmp_snmpvarbind_str, snmp.snmpvarbind_str, snmp/SnmpVarBind
-ms.topic: struct
 f1_keywords:
 - snmp/SnmpVarBind
 dev_langs:

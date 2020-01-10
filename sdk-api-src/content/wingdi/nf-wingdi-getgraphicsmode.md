@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 62e2960b-d414-4e84-a94f-60b192071402
 ms.date: 12/05/2018
 ms.keywords: GetGraphicsMode, GetGraphicsMode function [Windows GDI], _win32_GetGraphicsMode, gdi.getgraphicsmode, wingdi/GetGraphicsMode
-ms.topic: function
 f1_keywords:
 - wingdi/GetGraphicsMode
 dev_langs:

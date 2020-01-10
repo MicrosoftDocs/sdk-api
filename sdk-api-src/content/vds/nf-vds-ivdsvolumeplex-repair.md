@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 21c91e85-8a49-4e74-9191-37aeb03b299e
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumePlex interface [VDS],Repair method, IVdsVolumePlex.Repair, IVdsVolumePlex::Repair, Repair, Repair method [VDS], Repair method [VDS],IVdsVolumePlex interface, base.ivdsvolumeplex_repair, vds/IVdsVolumePlex::Repair
-ms.topic: method
 f1_keywords:
 - vds/IVdsVolumePlex.Repair
 dev_langs:

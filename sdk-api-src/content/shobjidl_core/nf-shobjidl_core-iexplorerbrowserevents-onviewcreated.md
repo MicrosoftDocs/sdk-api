@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 801d59f5-6e92-4e3c-938a-e94b43b7c6f1
 ms.date: 12/05/2018
 ms.keywords: IExplorerBrowserEvents interface [Windows Shell],OnViewCreated method, IExplorerBrowserEvents.OnViewCreated, IExplorerBrowserEvents::OnViewCreated, OnViewCreated, OnViewCreated method [Windows Shell], OnViewCreated method [Windows Shell],IExplorerBrowserEvents interface, _shell_IExplorerBrowserEvents_OnViewCreated, shell.IExplorerBrowserEvents_OnViewCreated, shobjidl_core/IExplorerBrowserEvents::OnViewCreated
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IExplorerBrowserEvents.OnViewCreated
 dev_langs:

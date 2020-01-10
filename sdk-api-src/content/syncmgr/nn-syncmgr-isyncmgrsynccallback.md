@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4f2b6dc3-3b81-4c0a-b0a2-b48f13fba397
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncCallback, ISyncMgrSyncCallback interface [Windows Shell], ISyncMgrSyncCallback interface [Windows Shell],described, _shell_ISyncMgrSyncCallback, shell.ISyncMgrSyncCallback, syncmgr/ISyncMgrSyncCallback
-ms.topic: interface
 f1_keywords:
 - syncmgr/ISyncMgrSyncCallback
 dev_langs:

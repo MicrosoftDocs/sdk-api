@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: c40973e8-72a9-43a2-9873-ea5c666a094c
 ms.date: 12/05/2018
 ms.keywords: GetEffectiveRightsFromAcl, GetEffectiveRightsFromAcl function [Security], GetEffectiveRightsFromAclA, GetEffectiveRightsFromAclW, _win32_geteffectiverightsfromacl, aclapi/GetEffectiveRightsFromAcl, aclapi/GetEffectiveRightsFromAclA, aclapi/GetEffectiveRightsFromAclW, security.geteffectiverightsfromacl
-ms.topic: function
 f1_keywords:
 - aclapi/GetEffectiveRightsFromAcl
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a0314423-79d6-416e-8be0-be946477da3e
 ms.date: 12/05/2018
 ms.keywords: ExtractIcon, ExtractIcon function [Windows Shell], ExtractIconA, ExtractIconW, _shell_ExtractIcon, shell.ExtractIcon, shellapi/ExtractIcon, shellapi/ExtractIconA, shellapi/ExtractIconW
-ms.topic: function
 f1_keywords:
 - shellapi/ExtractIcon
 dev_langs:

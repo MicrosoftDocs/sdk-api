@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 14031490-be8e-47f9-8c66-ae27f7d3599c
 ms.date: 12/05/2018
 ms.keywords: ICertPolicy, ICertPolicy interface [Security], ICertPolicy interface [Security],described, _certsrv_icertpolicy, certpol/ICertPolicy, security.icertpolicy
-ms.topic: interface
 f1_keywords:
 - certpol/ICertPolicy
 dev_langs:

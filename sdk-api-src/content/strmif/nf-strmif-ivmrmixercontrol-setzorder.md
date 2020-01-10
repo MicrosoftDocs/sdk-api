@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f1ef562e-049c-4edf-a83c-76675e2113c6
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl interface [DirectShow],SetZOrder method, IVMRMixerControl.SetZOrder, IVMRMixerControl::SetZOrder, IVMRMixerControlSetZOrder, SetZOrder, SetZOrder method [DirectShow], SetZOrder method [DirectShow],IVMRMixerControl interface, dshow.ivmrmixercontrol_setzorder, strmif/IVMRMixerControl::SetZOrder
-ms.topic: method
 f1_keywords:
 - strmif/IVMRMixerControl.SetZOrder
 dev_langs:

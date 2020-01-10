@@ -7,7 +7,6 @@ tech.root: psapi
 ms.assetid: 0c0445cb-27d2-4857-a4a5-7a4c180b068b
 ms.date: 12/05/2018
 ms.keywords: EnumProcesses, EnumProcesses function [PSAPI], K32EnumProcesses, _win32_enumprocesses, base.enumprocesses, psapi.enumprocesses, psapi/EnumProcesses, psapi/K32EnumProcesses
-ms.topic: function
 f1_keywords:
 - psapi/EnumProcesses
 dev_langs:

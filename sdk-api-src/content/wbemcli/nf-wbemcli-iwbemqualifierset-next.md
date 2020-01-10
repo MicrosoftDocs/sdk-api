@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 76afa293-1bd9-442b-bc9b-2247459bd49c
 ms.date: 12/05/2018
 ms.keywords: IWbemQualifierSet interface [Windows Management Instrumentation],Next method, IWbemQualifierSet.Next, IWbemQualifierSet::Next, Next, Next method [Windows Management Instrumentation], Next method [Windows Management Instrumentation],IWbemQualifierSet interface, _hmm_iwbemqualifierset_next, wbemcli/IWbemQualifierSet::Next, wmi.iwbemqualifierset_next
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemQualifierSet.Next
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 0EEA1C89-4B8B-4ECC-AF34-EB516C91997A
 ms.date: 12/05/2018
 ms.keywords: MFCreateSensorProfileCollection, MFCreateSensorProfileCollection function [Media Foundation], mf.mfcreatesensorprofilecollection, mfidl/MFCreateSensorProfileCollection
-ms.topic: function
 f1_keywords:
 - mfidl/MFCreateSensorProfileCollection
 dev_langs:

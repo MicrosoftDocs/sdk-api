@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: D2F6264D-3855-4AF8-B295-59D51B90FD94
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAudioStream interface [RDP],Stop method, IRDPSRAPIAudioStream.Stop, IRDPSRAPIAudioStream::Stop, Stop, Stop method [RDP], Stop method [RDP],IRDPSRAPIAudioStream interface, rdp.irdpsrapiaudiostream_stop, rdpencomapi/IRDPSRAPIAudioStream::Stop
-ms.topic: method
 f1_keywords:
 - rdpencomapi/IRDPSRAPIAudioStream.Stop
 dev_langs:

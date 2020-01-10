@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ab731d68-969b-425d-978a-879b15c06a88
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_ErrorCorrection method, IAMNetShowExProps.get_ErrorCorrection, IAMNetShowExProps::get_ErrorCorrection, IAMNetShowExPropsget_ErrorCorrection, dshow.iamnetshowexprops_get_errorcorrection, get_ErrorCorrection, get_ErrorCorrection method [DirectShow], get_ErrorCorrection method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_ErrorCorrection
-ms.topic: method
 f1_keywords:
 - qnetwork/IAMNetShowExProps.get_ErrorCorrection
 dev_langs:

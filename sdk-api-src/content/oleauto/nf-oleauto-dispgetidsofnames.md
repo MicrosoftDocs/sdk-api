@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 720a0237-9c68-4252-9f66-43610d4be106
 ms.date: 12/05/2018
 ms.keywords: DispGetIDsOfNames, DispGetIDsOfNames function [Automation], _oa96_DispGetIDsOfNames, automat.dispgetidsofnames, oleauto/DispGetIDsOfNames
-ms.topic: function
 f1_keywords:
 - oleauto/DispGetIDsOfNames
 dev_langs:

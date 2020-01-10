@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 0a64cb89-9e44-4af1-9b0f-2eec6e5267c7
 ms.date: 12/05/2018
 ms.keywords: IEnumDialableAddrs, IEnumDialableAddrs interface [TAPI 2.2], IEnumDialableAddrs interface [TAPI 2.2],described, _tapi3_ienumdialableaddrs, rend/IEnumDialableAddrs, tapi3.ienumdialableaddrs
-ms.topic: interface
 f1_keywords:
 - rend/IEnumDialableAddrs
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 9fa722a4-1e3f-4845-aea7-3b24b517f2a5
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfiles, ITfInputProcessorProfiles interface [Text Services Framework], ITfInputProcessorProfiles interface [Text Services Framework],described, _tsf_itfinputprocessorprofiles_ref, msctf/ITfInputProcessorProfiles, tsf.itfinputprocessorprofiles
-ms.topic: interface
 f1_keywords:
 - msctf/ITfInputProcessorProfiles
 dev_langs:

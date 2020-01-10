@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 27B0CB7B-08BE-48FD-BF65-4F2B9C481A9C
 ms.date: 12/05/2018
 ms.keywords: Edit_GetEndOfLine, Edit_GetEndOfLine macro [Windows Controls], commctrl/Edit_GetEndOfLine, controls.edit_getendofline
-ms.topic: macro
 f1_keywords:
 - commctrl/Edit_GetEndOfLine
 dev_langs:

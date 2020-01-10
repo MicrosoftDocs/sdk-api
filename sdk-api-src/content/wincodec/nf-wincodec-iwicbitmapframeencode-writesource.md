@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: bc748982-6dc8-41cc-a23b-9d127dc22a1f
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],WriteSource method, IWICBitmapFrameEncode.WriteSource, IWICBitmapFrameEncode::WriteSource, WriteSource, WriteSource method [Windows Imaging Component], WriteSource method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_writesource, wic._wic_codec_iwicbitmapframeencode_writesource, wincodec/IWICBitmapFrameEncode::WriteSource
-ms.topic: method
 f1_keywords:
 - wincodec/IWICBitmapFrameEncode.WriteSource
 dev_langs:

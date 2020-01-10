@@ -7,7 +7,6 @@ tech.root: NDF
 ms.assetid: 4a555683-f7fd-43a4-808a-60579723293c
 ms.date: 12/05/2018
 ms.keywords: HighUtilization, HighUtilization method [NDF], HighUtilization method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],HighUtilization method, INetDiagHelper.HighUtilization, INetDiagHelper::HighUtilization, ndf.inetdiaghelpe_highutilization, ndhelper/INetDiagHelper::HighUtilization
-ms.topic: method
 f1_keywords:
 - ndhelper/INetDiagHelper.HighUtilization
 dev_langs:

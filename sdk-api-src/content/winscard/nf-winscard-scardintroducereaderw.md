@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 1f8b9d75-5bba-40c3-99a0-6910855fcd4d
 ms.date: 12/05/2018
 ms.keywords: SCardIntroduceReader, SCardIntroduceReader function [Security], SCardIntroduceReaderA, SCardIntroduceReaderW, _smart_scardintroducereader, security.scardintroducereader, winscard/SCardIntroduceReader, winscard/SCardIntroduceReaderA, winscard/SCardIntroduceReaderW
-ms.topic: function
 f1_keywords:
 - winscard/SCardIntroduceReader
 dev_langs:

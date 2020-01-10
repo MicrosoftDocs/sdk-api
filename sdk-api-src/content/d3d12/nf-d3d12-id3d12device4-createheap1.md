@@ -5,7 +5,6 @@ description: Creates a heap (optionally for a protected session) that can be use
 tech.root: direct3d12
 ms.date: 10/14/2019
 ms.keywords: ID3D12Device4 interface,CreateHeap1 method, ID3D12Device4.CreateHeap1, ID3D12Device4::CreateHeap1, CreateHeap1, CreateHeap1 method, CreateHeap1 method,ID3D12Device4 interface, direct3d12.id3d12device4_createheap1, d3d12/ID3D12Device4::CreateHeap1
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Device4.CreateHeap1
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: ce762764-dcaf-4419-8ca0-44a8462a848e
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfilesEx, ITfInputProcessorProfilesEx interface [Text Services Framework],SetLanguageProfileDisplayName method, ITfInputProcessorProfilesEx.SetLanguageProfileDisplayName, ITfInputProcessorProfilesEx::SetLanguageProfileDisplayName, SetLanguageProfileDisplayName, SetLanguageProfileDisplayName method [Text Services Framework], SetLanguageProfileDisplayName method [Text Services Framework],ITfInputProcessorProfilesEx interface, msctf/ITfInputProcessorProfilesEx::SetLanguageProfileDisplayName, tsf.itfinputprocessorprofilesex_setlanguageprofiledisplayname, tsf.setlanguageprofiledisplayname
-ms.topic: method
 f1_keywords:
 - msctf/ITfInputProcessorProfilesEx.SetLanguageProfileDisplayName
 dev_langs:

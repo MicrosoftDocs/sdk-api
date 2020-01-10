@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 966e2093-6ebd-42a0-923d-17f0494a9d0c
 ms.date: 12/05/2018
 ms.keywords: '*LPDSA_NEWOBJ_DISPINFO, DSA_NEWOBJ_DISPINFO, DSA_NEWOBJ_DISPINFO structure [Active Directory], LPDSA_NEWOBJ_DISPINFO, LPDSA_NEWOBJ_DISPINFO structure pointer [Active Directory], ad.dsa_newobj_dispinfo, dsadmin/DSA_NEWOBJ_DISPINFO, dsadmin/LPDSA_NEWOBJ_DISPINFO'
-ms.topic: struct
 f1_keywords:
 - dsadmin/DSA_NEWOBJ_DISPINFO
 dev_langs:

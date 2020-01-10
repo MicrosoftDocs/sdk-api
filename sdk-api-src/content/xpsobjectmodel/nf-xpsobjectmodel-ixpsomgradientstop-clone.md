@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: ea4cdf1d-bb65-4a1b-b5bc-3eb1e90929ff
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMGradientStop interface, IXpsOMGradientStop interface [XPS Documents and Packaging],Clone method, IXpsOMGradientStop.Clone, IXpsOMGradientStop::Clone, xps.ixpsomgradientstop_clone, xpsobjectmodel/IXpsOMGradientStop::Clone
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGradientStop.Clone
 dev_langs:

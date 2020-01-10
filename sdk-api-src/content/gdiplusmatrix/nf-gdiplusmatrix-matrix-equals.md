@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\equals.htm
 ms.date: 12/05/2018
 ms.keywords: Equals, Equals method [GDI+], Equals method [GDI+],Matrix class, Matrix class [GDI+],Equals method, Matrix.Equals, Matrix::Equals, _gdiplus_CLASS_Matrix_Equals_matrix_, gdiplus._gdiplus_CLASS_Matrix_Equals_matrix_
-ms.topic: method
 f1_keywords:
 - gdiplusmatrix/Matrix.Equals
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 80644b51-4b04-4299-a486-284e77583feb
 ms.date: 12/05/2018
 ms.keywords: ITFileTrack interface [TAPI 2.2],get_EmptyAudioFormatForScripting method, ITFileTrack.get_EmptyAudioFormatForScripting, ITFileTrack::get_EmptyAudioFormatForScripting, _tapi3_itfiletrack_get_emptyaudioformatforscripting, get_EmptyAudioFormatForScripting, get_EmptyAudioFormatForScripting method [TAPI 2.2], get_EmptyAudioFormatForScripting method [TAPI 2.2],ITFileTrack interface, tapi3.itfiletrack_get_emptyaudioformatforscripting, tapi3if/ITFileTrack::get_EmptyAudioFormatForScripting
-ms.topic: method
 f1_keywords:
 - tapi3if/ITFileTrack.get_EmptyAudioFormatForScripting
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 2d147224-64d8-4c15-b860-e6dd216cb170
 ms.date: 12/05/2018
 ms.keywords: FlushToDisk, FlushToDisk method [Files], FlushToDisk method [Files],IDiskQuotaUserBatch interface, IDiskQuotaUserBatch interface [Files],FlushToDisk method, IDiskQuotaUserBatch.FlushToDisk, IDiskQuotaUserBatch::FlushToDisk, _win32_idiskquotauserbatch_flushtodisk, base.idiskquotauserbatch_flushtodisk, dskquota/IDiskQuotaUserBatch::FlushToDisk, fs.idiskquotauserbatch_flushtodisk
-ms.topic: method
 f1_keywords:
 - dskquota/IDiskQuotaUserBatch.FlushToDisk
 dev_langs:

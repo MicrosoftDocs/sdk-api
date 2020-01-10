@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 20909420-5f90-4334-b21a-82d6cdc6d019
 ms.date: 12/05/2018
 ms.keywords: WMPFolderScanState, WMPFolderScanState enumeration [Windows Media Player], wmp.wmpfolderscanstate, wmp/WMPFolderScanState, wmp/wmpfssScanning, wmp/wmpfssStopped, wmp/wmpfssUnknown, wmp/wmpfssUpdating, wmpfssScanning, wmpfssStopped, wmpfssUnknown, wmpfssUpdating
-ms.topic: enum
 f1_keywords:
 - wmp/WMPFolderScanState
 dev_langs:

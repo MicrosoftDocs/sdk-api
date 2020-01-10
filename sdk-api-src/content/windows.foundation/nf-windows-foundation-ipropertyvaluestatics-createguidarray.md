@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 8284b582-2bba-4afd-9f8c-3b2169e0adbf
 ms.date: 12/05/2018
 ms.keywords: CreateGuidArray, CreateGuidArray method [Windows Runtime], CreateGuidArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateGuidArray method, IPropertyValueStatics.CreateGuidArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateGuidArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateGuidArray, winrt.ipropertyvaluefactory_createguidarray, winrt.ipropertyvaluestatics_createguidarray
-ms.topic: method
 f1_keywords:
 - windows.foundation/IPropertyValueStatics.CreateGuidArray
 dev_langs:

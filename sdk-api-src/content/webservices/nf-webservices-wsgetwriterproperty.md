@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 1167662f-0383-44bb-a7e1-1ec12539903e
 ms.date: 12/05/2018
 ms.keywords: WsGetWriterProperty, WsGetWriterProperty function [Web Services for Windows], webservices/WsGetWriterProperty, wsw.wsgetwriterproperty
-ms.topic: function
 f1_keywords:
 - webservices/WsGetWriterProperty
 dev_langs:

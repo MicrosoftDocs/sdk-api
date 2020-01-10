@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e82c73e6-d32e-4875-9f9d-124a1c6ce504
 ms.date: 12/05/2018
 ms.keywords: IAMVideoAcceleratorNotify interface [DirectShow],SetUncompSurfacesInfo method, IAMVideoAcceleratorNotify.SetUncompSurfacesInfo, IAMVideoAcceleratorNotify::SetUncompSurfacesInfo, IAMVideoAcceleratorNotifySetUncompSurfacesInfo, SetUncompSurfacesInfo, SetUncompSurfacesInfo method [DirectShow], SetUncompSurfacesInfo method [DirectShow],IAMVideoAcceleratorNotify interface, dshow.iamvideoacceleratornotify_setuncompsurfacesinfo, videoacc/IAMVideoAcceleratorNotify::SetUncompSurfacesInfo
-ms.topic: method
 f1_keywords:
 - videoacc/IAMVideoAcceleratorNotify.SetUncompSurfacesInfo
 dev_langs:

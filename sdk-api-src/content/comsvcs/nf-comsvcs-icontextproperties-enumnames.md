@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: cae9eaf7-a422-4daa-9f0a-e7863f167112
 ms.date: 12/05/2018
 ms.keywords: EnumNames, EnumNames method [COM+], EnumNames method [COM+],IContextProperties interface, IContextProperties interface [COM+],EnumNames method, IContextProperties.EnumNames, IContextProperties::EnumNames, _cos_IContextProperties_EnumNames, comsvcs/IContextProperties::EnumNames, cos.icontextproperties_enumnames
-ms.topic: method
 f1_keywords:
 - comsvcs/IContextProperties.EnumNames
 dev_langs:

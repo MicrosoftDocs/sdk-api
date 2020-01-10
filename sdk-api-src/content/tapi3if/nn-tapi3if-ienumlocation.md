@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: fc8c235c-92ec-448f-bbea-c93192d36beb
 ms.date: 12/05/2018
 ms.keywords: IEnumLocation, IEnumLocation interface [TAPI 2.2], IEnumLocation interface [TAPI 2.2],described, _tapi3_ienumlocation, tapi3.ienumlocation, tapi3if/IEnumLocation
-ms.topic: interface
 f1_keywords:
 - tapi3if/IEnumLocation
 dev_langs:

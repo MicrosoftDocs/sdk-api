@@ -7,7 +7,6 @@ tech.root: Rsm
 ms.assetid: 973441cb-2ec4-4a8d-8e75-3c6d01552a59
 ms.date: 12/05/2018
 ms.keywords: InjectNtmsCleaner, InjectNtmsCleaner function [Files], NTMS_INJECT_START, NTMS_INJECT_STOP, _zaw_injectntmscleaner, base.injectntmscleaner, fs.injectntmscleaner, ntmsapi/InjectNtmsCleaner
-ms.topic: function
 f1_keywords:
 - ntmsapi/InjectNtmsCleaner
 dev_langs:

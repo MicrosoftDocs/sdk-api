@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: a8a86e1d-f009-4352-a388-822c2577ebe3
 ms.date: 12/05/2018
 ms.keywords: MFP_GET_ERROR_EVENT, MFP_GET_ERROR_EVENT macro [Media Foundation], mf.mfp_get_error_event, mfplay/MFP_GET_ERROR_EVENT
-ms.topic: macro
 f1_keywords:
 - mfplay/MFP_GET_ERROR_EVENT
 dev_langs:

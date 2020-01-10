@@ -5,7 +5,6 @@ description: Sets values for the font axes of the format.
 tech.root: DirectWrite
 ms.date: 09/17/2019
 ms.keywords: IDWriteTextFormat3 interface [Direct Write],SetFontAxisValues method, IDWriteTextFormat3.SetFontAxisValues, IDWriteTextFormat3::SetFontAxisValues, SetFontAxisValues, SetFontAxisValues method [Direct Write], SetFontAxisValues method [Direct Write],IDWriteTextFormat3 interface, directwrite.idwritetextformat3_setfontaxisvalues, dwrite_3/IDWriteTextFormat3::SetFontAxisValues
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteTextFormat3.SetFontAxisValues
 dev_langs:

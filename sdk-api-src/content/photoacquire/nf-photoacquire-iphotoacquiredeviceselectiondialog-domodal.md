@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: eb79c07b-3b80-4f2b-b1f1-2394e1c7a30b
 ms.date: 12/05/2018
 ms.keywords: DoModal, DoModal method [Picture Acquisition], DoModal method [Picture Acquisition],IPhotoAcquireDeviceSelectionDialog interface, IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition],DoModal method, IPhotoAcquireDeviceSelectionDialog.DoModal, IPhotoAcquireDeviceSelectionDialog::DoModal, IPhotoAcquireDeviceSelectionDialogDoModal, photoacquire/IPhotoAcquireDeviceSelectionDialog::DoModal, picacq.iphotoacquiredeviceselectiondialog_domodal
-ms.topic: method
 f1_keywords:
 - photoacquire/IPhotoAcquireDeviceSelectionDialog.DoModal
 dev_langs:

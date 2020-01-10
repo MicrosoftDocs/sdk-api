@@ -7,7 +7,6 @@ tech.root: proc_snap
 ms.assetid: D9580147-28ED-4FF5-B7DB-844ACB19769F
 ms.date: 12/05/2018
 ms.keywords: PssQuerySnapshot, PssQuerySnapshot function, proc_snap.pssquerysnapshot, processsnapshot/PssQuerySnapshot
-ms.topic: function
 f1_keywords:
 - processsnapshot/PssQuerySnapshot
 dev_langs:

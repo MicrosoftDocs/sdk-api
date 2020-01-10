@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 2b465775-6eda-49cb-aa9a-091e4d815da3
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeStartLineCap method, IXpsOMPath.SetStrokeStartLineCap, IXpsOMPath::SetStrokeStartLineCap, SetStrokeStartLineCap, SetStrokeStartLineCap method [XPS Documents and Packaging], SetStrokeStartLineCap method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokestartlinecap, xpsobjectmodel/IXpsOMPath::SetStrokeStartLineCap
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPath.SetStrokeStartLineCap
 dev_langs:

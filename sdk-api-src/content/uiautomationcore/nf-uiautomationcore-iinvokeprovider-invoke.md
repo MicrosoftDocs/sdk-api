@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 9bd2aba1-0751-412c-a6fe-0c10b9baa01e
 ms.date: 12/05/2018
 ms.keywords: IInvokeProvider interface [Windows Accessibility],Invoke method, IInvokeProvider.Invoke, IInvokeProvider::Invoke, Invoke, Invoke method [Windows Accessibility], Invoke method [Windows Accessibility],IInvokeProvider interface, uiauto.uiauto_IInvokeProvider_Invoke, uiauto_IInvokeProvider_Invoke, uiautomationcore/IInvokeProvider::Invoke, winauto.uiauto_IInvokeProvider_Invoke
-ms.topic: method
 f1_keywords:
 - uiautomationcore/IInvokeProvider.Invoke
 dev_langs:

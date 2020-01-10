@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 6e7a6cfc-f881-43cc-a5af-b97e0bf14bf4
 ms.date: 12/05/2018
 ms.keywords: UserHandleGrantAccess, UserHandleGrantAccess function, _win32_userhandlegrantaccess, base.userhandlegrantaccess, winuser/UserHandleGrantAccess
-ms.topic: function
 f1_keywords:
 - winuser/UserHandleGrantAccess
 dev_langs:

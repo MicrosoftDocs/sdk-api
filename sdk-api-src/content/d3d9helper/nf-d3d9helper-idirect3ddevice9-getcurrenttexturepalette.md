@@ -7,7 +7,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getcurrenttexturepalette.htm
 ms.date: 12/05/2018
 ms.keywords: GetCurrentTexturePalette, GetCurrentTexturePalette method [Direct3D 9], GetCurrentTexturePalette method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetCurrentTexturePalette method, IDirect3DDevice9.GetCurrentTexturePalette, IDirect3DDevice9::GetCurrentTexturePalette, d3d9helper/IDirect3DDevice9::GetCurrentTexturePalette, direct3d9.idirect3ddevice9__getcurrenttexturepalette, e2c8a5f6-1d2a-0371-2db7-743fbfb6531b
-ms.topic: method
 f1_keywords:
 - d3d9helper/IDirect3DDevice9.GetCurrentTexturePalette
 dev_langs:

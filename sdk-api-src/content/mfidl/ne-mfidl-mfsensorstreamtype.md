@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 598AE9EC-3B8D-419A-A6A9-02DCDD459162
 ms.date: 12/05/2018
 ms.keywords: MFSensorStreamType, MFSensorStreamType enumeration [Media Foundation], MFSensorStreamType_Input, MFSensorStreamType_Output, MFSensorStreamType_Unknown, mf.mfsensorstreamtype, mfidl/MFSensorStreamType, mfidl/MFSensorStreamType_Input, mfidl/MFSensorStreamType_Output, mfidl/MFSensorStreamType_Unknown
-ms.topic: enum
 f1_keywords:
 - mfidl/MFSensorStreamType
 dev_langs:

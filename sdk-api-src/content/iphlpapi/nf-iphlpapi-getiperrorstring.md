@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 4f71777a-2e87-4411-89fd-12c165d4d8ae
 ms.date: 12/05/2018
 ms.keywords: GetIpErrorString, GetIpErrorString function [IP Helper], iphlp.getiperrorstring, iphlpapi/GetIpErrorString
-ms.topic: function
 f1_keywords:
 - iphlpapi/GetIpErrorString
 dev_langs:

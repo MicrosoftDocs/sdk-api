@@ -7,7 +7,6 @@ tech.root: xblidp
 ms.assetid: 733EF96D-EDB5-4C8C-83C9-9CE225C510FC
 ms.date: 12/05/2018
 ms.keywords: GetMessage, GetMessage method, GetMessage method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetMessage method, IXblIdpAuthTokenResult.GetMessage, IXblIdpAuthTokenResult::GetMessage, xblidp.ixblidpauthtokenresult_getmessage, xblidpauthmanager/IXblIdpAuthTokenResult::GetMessage
-ms.topic: method
 f1_keywords:
 - xblidpauthmanager/IXblIdpAuthTokenResult.GetMessage
 dev_langs:

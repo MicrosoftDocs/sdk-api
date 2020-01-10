@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 35d41764-7ed6-4be3-8854-37444f2a44a8
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linereleaseuseruserinfo, lineReleaseUserUserInfo, lineReleaseUserUserInfo function [TAPI 2.2], tapi/lineReleaseUserUserInfo, tapi2.linereleaseuseruserinfo
-ms.topic: function
 f1_keywords:
 - tapi/lineReleaseUserUserInfo
 dev_langs:

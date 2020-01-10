@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 669264cd-a43c-4681-9416-2704d4232685
 ms.date: 12/05/2018
 ms.keywords: AddIPAddress, AddIPAddress function [IP Helper], _iphlp_addipaddress, iphlp.addipaddress, iphlpapi/AddIPAddress
-ms.topic: function
 f1_keywords:
 - iphlpapi/AddIPAddress
 dev_langs:

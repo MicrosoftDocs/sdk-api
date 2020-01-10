@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreUNibble4(XMUNIBBLE4@,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMStoreUNibble4, XMStoreUNibble4, XMStoreUNibble4 method [DirectX Math Support APIs], dxmath.xmstoreunibble4
-ms.topic: function
 f1_keywords:
 - directxpackedvector/XMStoreUNibble4
 dev_langs:

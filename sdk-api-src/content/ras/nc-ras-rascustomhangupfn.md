@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 56410af3-7b23-4536-998d-88d78d45585d
 ms.date: 12/05/2018
 ms.keywords: RasCustomHangUp, RasCustomHangUp callback function [RAS], RasCustomHangUpFn, RasCustomHangUpFn callback, _ras_rascustomhangup, ras/RasCustomHangUp, rras.rascustomhangup
-ms.topic: callback
 f1_keywords:
 - ras/RasCustomHangUp
 dev_langs:

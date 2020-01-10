@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 411e15bc-7f47-4ef7-9400-292203b581af
 ms.date: 12/05/2018
 ms.keywords: RtmGetRegisteredEntities, RtmGetRegisteredEntities function [RAS], _rtmv2ref_rtmgetregisteredentities, rras.rtmgetregisteredentities, rtmv2/RtmGetRegisteredEntities
-ms.topic: function
 f1_keywords:
 - rtmv2/RtmGetRegisteredEntities
 dev_langs:

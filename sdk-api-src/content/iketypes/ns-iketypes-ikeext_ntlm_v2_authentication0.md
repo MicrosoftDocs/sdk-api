@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 8ac34054-5066-49f2-80b6-e674f6175c8e
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_NTLM_V2_AUTHENTICATION0, IKEEXT_NTLM_V2_AUTHENTICATION0 structure [Filtering], IKEEXT_NTLM_V2_AUTH_DONT_ACCEPT_EXPLICIT_CREDENTIALS, fwp.ikeext_ntlm_v2_authentication0, iketypes/IKEEXT_NTLM_V2_AUTHENTICATION0
-ms.topic: struct
 f1_keywords:
 - iketypes/IKEEXT_NTLM_V2_AUTHENTICATION0
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: ccc06e31-e56f-4910-882a-40b1ce0b43aa
 ms.date: 12/05/2018
 ms.keywords: GetStreamLatency, GetStreamLatency method [Core Audio], GetStreamLatency method [Core Audio],IAudioClient interface, IAudioClient interface [Core Audio],GetStreamLatency method, IAudioClient.GetStreamLatency, IAudioClient::GetStreamLatency, IAudioClientGetStreamLatency, audioclient/IAudioClient::GetStreamLatency, coreaudio.iaudioclient_getstreamlatency
-ms.topic: method
 f1_keywords:
 - audioclient/IAudioClient.GetStreamLatency
 dev_langs:

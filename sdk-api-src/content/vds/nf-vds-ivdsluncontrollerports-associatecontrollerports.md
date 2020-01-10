@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 3b889cb7-92e4-4c18-b9b9-768865895595
 ms.date: 12/05/2018
 ms.keywords: AssociateControllerPorts, AssociateControllerPorts method [VDS], AssociateControllerPorts method [VDS],IVdsLunControllerPorts interface, IVdsLunControllerPorts interface [VDS],AssociateControllerPorts method, IVdsLunControllerPorts.AssociateControllerPorts, IVdsLunControllerPorts::AssociateControllerPorts, base.ivdsluncontrollerports_associatecontrollerports, vds/IVdsLunControllerPorts::AssociateControllerPorts, vdshwprv/IVdsLunControllerPorts::AssociateControllerPorts
-ms.topic: method
 f1_keywords:
 - vds/IVdsLunControllerPorts.AssociateControllerPorts
 dev_langs:

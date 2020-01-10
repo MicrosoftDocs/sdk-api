@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: a661b74b-04ba-49b9-bde2-3e368ae6228e
 ms.date: 12/05/2018
 ms.keywords: CAImportPFX, CAImportPFX method [Security], CAImportPFX method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],CAImportPFX method, ICertSrvSetup.CAImportPFX, ICertSrvSetup::CAImportPFX, casetup/ICertSrvSetup::CAImportPFX, security.icertsrvsetup_caimportpfx
-ms.topic: method
 f1_keywords:
 - casetup/ICertSrvSetup.CAImportPFX
 dev_langs:

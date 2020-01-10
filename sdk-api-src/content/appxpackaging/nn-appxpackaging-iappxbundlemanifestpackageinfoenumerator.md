@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 4861D5CF-9FDC-4BAA-8462-D239DAEB5195
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleManifestPackageInfoEnumerator, IAppxBundleManifestPackageInfoEnumerator interface [App packaging and management], IAppxBundleManifestPackageInfoEnumerator interface [App packaging and management],described, appxpackaging/IAppxBundleManifestPackageInfoEnumerator, appxpkg.iappxbundlemanifestpackageinfoenumerator
-ms.topic: interface
 f1_keywords:
 - appxpackaging/IAppxBundleManifestPackageInfoEnumerator
 dev_langs:

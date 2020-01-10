@@ -7,7 +7,6 @@ tech.root: input_ink
 ms.assetid: 17480bbd-7d4f-4ba9-9d54-80f440104055
 ms.date: 12/05/2018
 ms.keywords: CreateInkPresenter, CreateInkPresenter method, CreateInkPresenter method,IInkDesktopHost interface, IInkDesktopHost interface,CreateInkPresenter method, IInkDesktopHost.CreateInkPresenter, IInkDesktopHost::CreateInkPresenter, InkPresenterDesktop.iinkdesktophost_createinkpresenter, inkpresenterdesktop/IInkDesktopHost::CreateInkPresenter, input_ink.iinkdesktophost_createinkpresenter
-ms.topic: method
 f1_keywords:
 - inkpresenterdesktop/IInkDesktopHost.CreateInkPresenter
 dev_langs:

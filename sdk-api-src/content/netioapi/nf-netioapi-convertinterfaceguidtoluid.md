@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: cae669dc-899b-4485-b70a-5f58207a07df
 ms.date: 12/05/2018
 ms.keywords: ConvertInterfaceGuidToLuid, ConvertInterfaceGuidToLuid function [IP Helper], iphlp.convertinterfaceguidtoluid, netioapi/ConvertInterfaceGuidToLuid
-ms.topic: function
 f1_keywords:
 - netioapi/ConvertInterfaceGuidToLuid
 dev_langs:

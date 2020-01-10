@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: f4fc7a4f-abc5-486a-89c8-dfea17770f3c
 ms.date: 12/05/2018
 ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF],INetFwOpenPort interface, INetFwOpenPort interface [ICS/ICF],Enabled property, INetFwOpenPort.Enabled, INetFwOpenPort.get_Enabled, INetFwOpenPort::Enabled, INetFwOpenPort::get_Enabled, INetFwOpenPort::put_Enabled, get_Enabled, ics.inetfwopenport_enabled, netfw/INetFwOpenPort::Enabled, netfw/INetFwOpenPort::get_Enabled, netfw/INetFwOpenPort::put_Enabled
-ms.topic: method
 f1_keywords:
 - netfw/INetFwOpenPort.Enabled
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: f2e20816-919a-443d-96d3-94e98afc28f2
 ms.date: 12/05/2018
 ms.keywords: GetCurrentUmsThread, GetCurrentUmsThread function, base.getcurrentumsthread, winbase/GetCurrentUmsThread
-ms.topic: function
 f1_keywords:
 - winbase/GetCurrentUmsThread
 dev_langs:

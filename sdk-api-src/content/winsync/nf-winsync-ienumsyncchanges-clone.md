@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: d81282ed-ff18-4ca2-a240-e9e79aea275a
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumSyncChanges interface, IEnumSyncChanges interface [Windows Sync],Clone method, IEnumSyncChanges.Clone, IEnumSyncChanges::Clone, winsync.ienumsyncchanges_clone, winsync/IEnumSyncChanges::Clone
-ms.topic: method
 f1_keywords:
 - winsync/IEnumSyncChanges.Clone
 dev_langs:

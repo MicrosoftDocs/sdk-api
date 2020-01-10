@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 90f8ce9b-2a85-43d0-9f2a-a3d248414a2d
 ms.date: 12/05/2018
 ms.keywords: IXDSCodecConfig, IXDSCodecConfig interface [Microsoft TV Technologies], IXDSCodecConfig interface [Microsoft TV Technologies],described, IXDSCodecConfigInterface, encdec/IXDSCodecConfig, mstv.ixdscodecconfig
-ms.topic: interface
 f1_keywords:
 - encdec/IXDSCodecConfig
 dev_langs:

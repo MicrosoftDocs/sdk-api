@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 338c31ac-d5eb-4d2d-8ee1-953963c1a8b0
 ms.date: 12/05/2018
 ms.keywords: WS_XML_ATTRIBUTE, WS_XML_ATTRIBUTE structure [Web Services for Windows], webservices/WS_XML_ATTRIBUTE, wsw.ws_xml_attribute
-ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_ATTRIBUTE
 dev_langs:

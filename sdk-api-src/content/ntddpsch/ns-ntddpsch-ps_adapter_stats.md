@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 365b3987-9a7a-4c15-980d-aa39956c68c8
 ms.date: 12/05/2018
 ms.keywords: '*PPS_ADAPTER_STATS, PPS_ADAPTER_STATS, PPS_ADAPTER_STATS structure pointer [QOS], PS_ADAPTER_STATS, PS_ADAPTER_STATS structure [QOS], _gqos_ps_adapter_stats, ntddpsch/PPS_ADAPTER_STATS, ntddpsch/PS_ADAPTER_STATS, qos.ps_adapter_stats'
-ms.topic: struct
 f1_keywords:
 - ntddpsch/PS_ADAPTER_STATS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: e0f1e7ef-fd72-48f5-895d-feabde4a3ded
 ms.date: 12/05/2018
 ms.keywords: GetDiskFromVDisk, GetDiskFromVDisk method, GetDiskFromVDisk method,IVdsVdProvider interface, IVdsVdProvider interface,GetDiskFromVDisk method, IVdsVdProvider.GetDiskFromVDisk, IVdsVdProvider::GetDiskFromVDisk, base.ivdsvdprovider_getdiskfromvdisk, vds/IVdsVdProvider::GetDiskFromVDisk
-ms.topic: method
 f1_keywords:
 - vds/IVdsVdProvider.GetDiskFromVDisk
 dev_langs:

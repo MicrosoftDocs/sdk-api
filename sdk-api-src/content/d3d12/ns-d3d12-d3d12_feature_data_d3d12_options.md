@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 3193E3CC-C6CA-43D4-8D8C-41B7FCEE2BDF
 ms.date: 12/05/2018
 ms.keywords: D3D12_FEATURE_DATA_D3D12_OPTIONS, D3D12_FEATURE_DATA_D3D12_OPTIONS structure, d3d12/D3D12_FEATURE_DATA_D3D12_OPTIONS, direct3d12.d3d12_feature_data_d3d12_options
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_FEATURE_DATA_D3D12_OPTIONS
 dev_langs:

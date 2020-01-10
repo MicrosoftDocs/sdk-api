@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 6248cf51-acd8-4317-9837-99dcf918e816
 ms.date: 12/05/2018
 ms.keywords: GetRunningTasks, GetRunningTasks method [Task Scheduler], GetRunningTasks method [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],GetRunningTasks method, ITaskService.GetRunningTasks, ITaskService::GetRunningTasks, taskschd.itaskservice_getrunningtasks, taskschd/ITaskService::GetRunningTasks
-ms.topic: method
 f1_keywords:
 - taskschd/ITaskService.GetRunningTasks
 dev_langs:

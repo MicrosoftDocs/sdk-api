@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 654841ce-6689-47cc-93fb-bd8de8f4dd3a
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayNextChapter method, IDvdControl2.PlayNextChapter, IDvdControl2::PlayNextChapter, IDvdControl2PlayNextChapter, PlayNextChapter, PlayNextChapter method [DirectShow], PlayNextChapter method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playnextchapter, strmif/IDvdControl2::PlayNextChapter
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl2.PlayNextChapter
 dev_langs:

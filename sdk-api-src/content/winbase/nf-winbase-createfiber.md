@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 3e44776b-7ef2-43fb-a2ae-e8ab7e20644b
 ms.date: 12/05/2018
 ms.keywords: CreateFiber, CreateFiber function, _win32_createfiber, base.createfiber, winbase/CreateFiber
-ms.topic: function
 f1_keywords:
 - winbase/CreateFiber
 dev_langs:

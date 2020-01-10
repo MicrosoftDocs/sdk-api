@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 0ca472d7-4e97-4998-b883-05329dfdb27a
 ms.date: 12/05/2018
 ms.keywords: IEnumRangeExceptions interface [Windows Sync],Next method, IEnumRangeExceptions.Next, IEnumRangeExceptions::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumRangeExceptions interface, winsync.ienumrangeexceptions_next, winsync/IEnumRangeExceptions::Next
-ms.topic: method
 f1_keywords:
 - winsync/IEnumRangeExceptions.Next
 dev_langs:

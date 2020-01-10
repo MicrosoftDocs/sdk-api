@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 1481f108-1ea3-4952-9131-8b15e373d83e
 ms.date: 12/05/2018
 ms.keywords: '*PTCP_ESTATS_REC_ROD_v0, PTCP_ESTATS_REC_ROD_v0, PTCP_ESTATS_REC_ROD_v0 structure pointer [IP Helper], TCP_ESTATS_REC_ROD_v0, TCP_ESTATS_REC_ROD_v0 structure [IP Helper], iphlp.tcp_estats_rec_rod_v0, tcpestats/PTCP_ESTATS_REC_ROD_v0, tcpestats/TCP_ESTATS_REC_ROD_v0'
-ms.topic: struct
 f1_keywords:
 - tcpestats/TCP_ESTATS_REC_ROD_v0
 dev_langs:

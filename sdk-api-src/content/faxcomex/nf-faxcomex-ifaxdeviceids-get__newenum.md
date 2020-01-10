@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4gj1.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxDeviceIds interface [Fax Service],get__NewEnum method, IFaxDeviceIds.get__NewEnum, IFaxDeviceIds::get__NewEnum, _mfax_ifaxdeviceids_get__newenum, fax._mfax_ifaxdeviceids_get__newenum, faxcomex/IFaxDeviceIds::get__NewEnum, get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service],IFaxDeviceIds interface
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxDeviceIds.get__NewEnum
 dev_langs:

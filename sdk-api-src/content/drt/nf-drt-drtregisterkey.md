@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 9aa1ee16-648d-4769-a464-4659dea14dba
 ms.date: 12/05/2018
 ms.keywords: DrtRegisterKey, DrtRegisterKey function [Peer Networking], drt/DrtRegisterKey, p2p.drtregisterkey
-ms.topic: function
 f1_keywords:
 - drt/DrtRegisterKey
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: MIB
 ms.assetid: d97921f8-8be0-4a14-887f-aaafcb82eb1f
 ms.date: 12/05/2018
 ms.keywords: '*PMIBICMPSTATS_EX, *PMIBICMPSTATS_EX_XPSP1, MIBICMPSTATS_EX, MIBICMPSTATS_EX structure [MIB], MIBICMPSTATS_EX_XPSP1, PMIBICMPSTATS_EX, PMIBICMPSTATS_EX structure pointer [MIB], ipmib/MIBICMPSTATS_EX, ipmib/PMIBICMPSTATS_EX, iprtrmib/MIBICMPSTATS_EX, iprtrmib/PMIBICMPSTATS_EX, mib.mibicmpstats_ex, rras.mibicmpstats_ex'
-ms.topic: struct
 f1_keywords:
 - ipmib/MIBICMPSTATS_EX
 dev_langs:

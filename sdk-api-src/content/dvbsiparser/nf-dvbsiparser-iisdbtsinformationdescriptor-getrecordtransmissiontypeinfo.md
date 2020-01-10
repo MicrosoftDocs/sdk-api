@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 992ef7de-ccf8-42a1-bb83-4b5f396164ce
 ms.date: 12/05/2018
 ms.keywords: GetRecordTransmissionTypeInfo, GetRecordTransmissionTypeInfo method [Microsoft TV Technologies], GetRecordTransmissionTypeInfo method [Microsoft TV Technologies],IIsdbTSInformationDescriptor interface, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],GetRecordTransmissionTypeInfo method, IIsdbTSInformationDescriptor.GetRecordTransmissionTypeInfo, IIsdbTSInformationDescriptor::GetRecordTransmissionTypeInfo, dvbsiparser/IIsdbTSInformationDescriptor::GetRecordTransmissionTypeInfo, mstv.iisdbtsinformationdescriptor_getrecordtransmissiontypeinfo
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbTSInformationDescriptor.GetRecordTransmissionTypeInfo
 dev_langs:

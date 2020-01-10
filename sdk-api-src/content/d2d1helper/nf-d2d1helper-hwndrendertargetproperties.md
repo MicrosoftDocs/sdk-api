@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 41d4c58d-6840-48b6-8e31-1a0c412156cb
 ms.date: 12/05/2018
 ms.keywords: HwndRenderTargetProperties, HwndRenderTargetProperties function [Direct2D], d2d1helper/HwndRenderTargetProperties, direct2d.hwndrendertargetproperties
-ms.topic: function
 f1_keywords:
 - d2d1helper/HwndRenderTargetProperties
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: ad58b7ff-cd61-4719-9028-b470ae7e9bb0
 ms.date: 12/05/2018
 ms.keywords: RegOverridePredefKey, RegOverridePredefKey function, _win32_regoverridepredefkey, base.regoverridepredefkey, winreg/RegOverridePredefKey
-ms.topic: function
 f1_keywords:
 - winreg/RegOverridePredefKey
 dev_langs:

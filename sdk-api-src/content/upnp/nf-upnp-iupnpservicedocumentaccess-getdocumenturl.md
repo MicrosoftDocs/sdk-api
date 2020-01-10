@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: 57AF4510-89D6-4DD5-B164-1478A5C27E20
 ms.date: 12/05/2018
 ms.keywords: GetDocumentURL, GetDocumentURL method [UPnP APIs], GetDocumentURL method [UPnP APIs],IUPnPServiceDocumentAccess interface, IUPnPServiceDocumentAccess interface [UPnP APIs],GetDocumentURL method, IUPnPServiceDocumentAccess.GetDocumentURL, IUPnPServiceDocumentAccess::GetDocumentURL, upnp.iupnpservicedocumentaccess_getdocumenturl, upnp/IUPnPServiceDocumentAccess::GetDocumentURL
-ms.topic: method
 f1_keywords:
 - upnp/IUPnPServiceDocumentAccess.GetDocumentURL
 dev_langs:

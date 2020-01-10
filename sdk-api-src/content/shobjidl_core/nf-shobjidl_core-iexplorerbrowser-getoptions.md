@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e2c7ee6a-fbd9-4b75-a9ed-734e7977088d
 ms.date: 12/05/2018
 ms.keywords: GetOptions, GetOptions method [Windows Shell], GetOptions method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],GetOptions method, IExplorerBrowser.GetOptions, IExplorerBrowser::GetOptions, _shell_IExplorerBrowser_GetOptions, shell.IExplorerBrowser_GetOptions, shobjidl_core/IExplorerBrowser::GetOptions
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IExplorerBrowser.GetOptions
 dev_langs:

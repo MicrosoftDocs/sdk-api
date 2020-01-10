@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: aaf94823-845b-49cb-8599-962229fef4cb
 ms.date: 12/05/2018
 ms.keywords: IVssHardwareSnapshotProviderEx, IVssHardwareSnapshotProviderEx interface, IVssHardwareSnapshotProviderEx interface,described, base.ivsshardwaresnapshotproviderex, vsprov/IVssHardwareSnapshotProviderEx
-ms.topic: interface
 f1_keywords:
 - vsprov/IVssHardwareSnapshotProviderEx
 dev_langs:

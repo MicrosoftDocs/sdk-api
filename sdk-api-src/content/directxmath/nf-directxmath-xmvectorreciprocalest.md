@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorReciprocalEst(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorReciprocalEst, XMVectorReciprocalEst, XMVectorReciprocalEst method [DirectX Math Support APIs], dxmath.xmvectorreciprocalest
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorReciprocalEst
 dev_langs:

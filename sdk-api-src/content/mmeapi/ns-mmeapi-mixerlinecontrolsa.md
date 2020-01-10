@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: a028785b-2d58-41da-825b-32e98fb44405
 ms.date: 12/05/2018
 ms.keywords: '*LPMIXERLINECONTROLSA, *PMIXERLINECONTROLSA, MIXERLINECONTROLS, MIXERLINECONTROLS structure [Windows Multimedia], MIXERLINECONTROLSA, _win32_MIXERLINECONTROLS_str, mmeapi/MIXERLINECONTROLS, multimedia.mixerlinecontrols, tMIXERLINECONTROLS, tagMIXERLINECONTROLSA, tagMIXERLINECONTROLSW'
-ms.topic: struct
 f1_keywords:
 - mmeapi/MIXERLINECONTROLS
 dev_langs:

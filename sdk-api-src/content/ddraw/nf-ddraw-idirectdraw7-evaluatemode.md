@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: c8027183-07b5-4b7f-8c36-7bd711dac7dd
 ms.date: 12/05/2018
 ms.keywords: DDEM_MODEFAILED, DDEM_MODEPASSED, EvaluateMode, EvaluateMode method [DirectDraw], EvaluateMode method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],EvaluateMode method, IDirectDraw7.EvaluateMode, IDirectDraw7::EvaluateMode, ddraw/IDirectDraw7::EvaluateMode, directdraw.idirectdraw7_evaluatemode
-ms.topic: method
 f1_keywords:
 - ddraw/IDirectDraw7.EvaluateMode
 dev_langs:

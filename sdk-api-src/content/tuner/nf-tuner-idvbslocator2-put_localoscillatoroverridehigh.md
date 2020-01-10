@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 72cc7ca2-f021-4f86-b5d5-443db88298b8
 ms.date: 12/05/2018
 ms.keywords: IDVBSLocator2 interface [Microsoft TV Technologies],LocalOscillatorOverrideHigh property, IDVBSLocator2.LocalOscillatorOverrideHigh, IDVBSLocator2.put_LocalOscillatorOverrideHigh, IDVBSLocator2::LocalOscillatorOverrideHigh, IDVBSLocator2::get_LocalOscillatorOverrideHigh, IDVBSLocator2::put_LocalOscillatorOverrideHigh, LocalOscillatorOverrideHigh property [Microsoft TV Technologies], LocalOscillatorOverrideHigh property [Microsoft TV Technologies],IDVBSLocator2 interface, mstv.idvbslocator2_localoscillatoroverridehigh, put_LocalOscillatorOverrideHigh, tuner/IDVBSLocator2::LocalOscillatorOverrideHigh, tuner/IDVBSLocator2::get_LocalOscillatorOverrideHigh, tuner/IDVBSLocator2::put_LocalOscillatorOverrideHigh
-ms.topic: method
 f1_keywords:
 - tuner/IDVBSLocator2.LocalOscillatorOverrideHigh
 dev_langs:

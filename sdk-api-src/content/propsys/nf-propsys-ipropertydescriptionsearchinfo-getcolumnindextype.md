@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: a519cfe5-e9ae-48ef-9538-a03ddc538efd
 ms.date: 12/05/2018
 ms.keywords: GetColumnIndexType, GetColumnIndexType method [Windows Properties], GetColumnIndexType method [Windows Properties],IPropertyDescriptionSearchInfo interface, IPropertyDescriptionSearchInfo interface [Windows Properties],GetColumnIndexType method, IPropertyDescriptionSearchInfo.GetColumnIndexType, IPropertyDescriptionSearchInfo::GetColumnIndexType, _shell_IPropertyDescriptionSearchInfo_GetColumnIndexType, properties.IPropertyDescriptionSearchInfo_GetColumnIndexType, propsys/IPropertyDescriptionSearchInfo::GetColumnIndexType, shell.IPropertyDescriptionSearchInfo_GetColumnIndexType
-ms.topic: method
 f1_keywords:
 - propsys/IPropertyDescriptionSearchInfo.GetColumnIndexType
 dev_langs:

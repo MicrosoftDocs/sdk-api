@@ -7,7 +7,6 @@ tech.root: debug_wwahost
 ms.assetid: 51127F64-2FE1-49F9-9E68-E38F4DDB8D1B
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationActivation, IWebApplicationActivation interface [Debugging Windows Store apps], IWebApplicationActivation interface [Debugging Windows Store apps],described, debug.iwebapplicationactivation, webapplication/IWebApplicationActivation
-ms.topic: interface
 f1_keywords:
 - webapplication/IWebApplicationActivation
 dev_langs:

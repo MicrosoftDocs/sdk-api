@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: eb9b1daa-b04f-419a-88e3-7c772f9e62eb
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_CTRL_DECRYPT_PARA, AT_KEYEXCHANGE, AT_SIGNATURE, CMSG_CTRL_DECRYPT_PARA, CMSG_CTRL_DECRYPT_PARA structure [Security], PCMSG_CTRL_DECRYPT_PARA, PCMSG_CTRL_DECRYPT_PARA structure pointer [Security], _crypto2_cmsg_ctrl_decrypt_para, security.cmsg_ctrl_decrypt_para, wincrypt/CMSG_CTRL_DECRYPT_PARA, wincrypt/PCMSG_CTRL_DECRYPT_PARA'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CMSG_CTRL_DECRYPT_PARA
 dev_langs:

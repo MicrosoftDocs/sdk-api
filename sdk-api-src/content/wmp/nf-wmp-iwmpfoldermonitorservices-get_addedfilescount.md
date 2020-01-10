@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 56dcbb46-8de9-4fbe-b82c-927d42e39b2b
 ms.date: 12/05/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],get_addedFilesCount method, IWMPFolderMonitorServices.get_addedFilesCount, IWMPFolderMonitorServices::get_addedFilesCount, IWMPFolderMonitorServicesget_addedFilesCount, get_addedFilesCount, get_addedFilesCount method [Windows Media Player], get_addedFilesCount method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_get_addedfilescount, wmp/IWMPFolderMonitorServices::get_addedFilesCount
-ms.topic: method
 f1_keywords:
 - wmp/IWMPFolderMonitorServices.get_addedFilesCount
 dev_langs:

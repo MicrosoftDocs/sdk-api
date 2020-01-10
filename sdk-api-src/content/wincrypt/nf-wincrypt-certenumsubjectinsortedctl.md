@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: b37cff03-5e9c-4e6c-b46e-d3f02dbf8783
 ms.date: 12/05/2018
 ms.keywords: CertEnumSubjectInSortedCTL, CertEnumSubjectInSortedCTL function [Security], _crypto2_certenumsubjectinsortedctl, security.certenumsubjectinsortedctl, wincrypt/CertEnumSubjectInSortedCTL
-ms.topic: function
 f1_keywords:
 - wincrypt/CertEnumSubjectInSortedCTL
 dev_langs:

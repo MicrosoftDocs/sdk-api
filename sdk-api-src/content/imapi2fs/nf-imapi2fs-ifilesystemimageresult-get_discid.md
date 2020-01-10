@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 2288b4e4-6f36-4830-a077-dcf710741911
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImageResult interface [IMAPI],get_DiscId method, IFileSystemImageResult.get_DiscId, IFileSystemImageResult::get_DiscId, get_DiscId, get_DiscId method [IMAPI], get_DiscId method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_discid, imapi2fs/IFileSystemImageResult::get_DiscId
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFileSystemImageResult.get_DiscId
 dev_langs:

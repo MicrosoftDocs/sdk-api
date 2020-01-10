@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 22ae3485-15d9-47e4-988e-fb760e67595b
 ms.date: 12/05/2018
 ms.keywords: ILayoutStorage interface [Structured Storage],LayoutScript method, ILayoutStorage.LayoutScript, ILayoutStorage::LayoutScript, LayoutScript, LayoutScript method [Structured Storage], LayoutScript method [Structured Storage],ILayoutStorage interface, _stg_ilayoutstorage_layoutscript, objidl/ILayoutStorage::LayoutScript, stg.ilayoutstorage_layoutscript
-ms.topic: method
 f1_keywords:
 - objidl/ILayoutStorage.LayoutScript
 dev_langs:

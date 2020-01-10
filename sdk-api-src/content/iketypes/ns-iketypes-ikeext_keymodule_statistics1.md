@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 3b5fdf04-e3a6-4658-a53d-66928b5682f5
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_KEYMODULE_STATISTICS1, IKEEXT_KEYMODULE_STATISTICS1 structure [Filtering], fwp.ikeext_keymodule_statistics1, iketypes/IKEEXT_KEYMODULE_STATISTICS1
-ms.topic: struct
 f1_keywords:
 - iketypes/IKEEXT_KEYMODULE_STATISTICS1
 dev_langs:

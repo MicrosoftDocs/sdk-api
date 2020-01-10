@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 4fb4124f-5beb-426a-890f-3a8fe236411f
 ms.date: 12/05/2018
 ms.keywords: WsGetServiceProxyProperty, WsGetServiceProxyProperty function [Web Services for Windows], webservices/WsGetServiceProxyProperty, wsw.wsgetserviceproxyproperty
-ms.topic: function
 f1_keywords:
 - webservices/WsGetServiceProxyProperty
 dev_langs:

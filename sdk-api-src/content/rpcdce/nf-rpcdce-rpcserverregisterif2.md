@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 0c05ec68-4f1f-4a54-b6cd-776e9993b7da
 ms.date: 12/05/2018
 ms.keywords: RpcServerRegisterIf2, RpcServerRegisterIf2 function [RPC], _rpc_rpcserverregisterif2, rpc.rpcserverregisterif2, rpcdce/RpcServerRegisterIf2
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcServerRegisterIf2
 dev_langs:

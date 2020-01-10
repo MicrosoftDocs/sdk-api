@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 11561aee-0b73-4e4a-8a53-11a46c7838c7
 ms.date: 12/05/2018
 ms.keywords: '*PWTSCONFIGINFOA, PWTSCONFIGINFO, PWTSCONFIGINFO structure pointer [Remote Desktop Services], WTSCONFIGINFO, WTSCONFIGINFO structure [Remote Desktop Services], WTSCONFIGINFOA, WTSCONFIGINFOW, termserv.wtsconfiginfo, wtsapi32/PWTSCONFIGINFO, wtsapi32/WTSCONFIGINFO, wtsapi32/WTSCONFIGINFOA, wtsapi32/WTSCONFIGINFOW'
-ms.topic: struct
 f1_keywords:
 - wtsapi32/WTSCONFIGINFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 65ac2bad-26f4-43b0-b90d-9a44131dbe6f
 ms.date: 12/05/2018
 ms.keywords: VarDecInt, VarDecInt function [Automation], _oa96_VarDecInt, automat.vardecint, oleauto/VarDecInt
-ms.topic: function
 f1_keywords:
 - oleauto/VarDecInt
 dev_langs:

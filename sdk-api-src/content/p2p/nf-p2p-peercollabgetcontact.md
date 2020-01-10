@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: b1233942-1bd5-4198-a00c-6d0516ab32dc
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetContact, PeerCollabGetContact function [Peer Networking], p2p.peercollabgetcontact, p2p/PeerCollabGetContact
-ms.topic: function
 f1_keywords:
 - p2p/PeerCollabGetContact
 dev_langs:

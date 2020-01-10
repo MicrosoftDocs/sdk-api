@@ -7,7 +7,6 @@ tech.root: tcui
 ms.assetid: 054F3612-EE10-446C-87D1-BF3E0F751440
 ms.date: 12/05/2018
 ms.keywords: ProcessPendingGameUI, ProcessPendingGameUI function, gamingtcui/ProcessPendingGameUI, tcui.processpendinggameui
-ms.topic: function
 f1_keywords:
 - gamingtcui/ProcessPendingGameUI
 dev_langs:

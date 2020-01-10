@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: 5959FD6F-7C48-43EA-8C7C-BCA659D06CE2
 ms.date: 12/05/2018
 ms.keywords: EnumModesCallback, EnumModesCallback callback function [DirectDraw], LPDDENUMMODESCALLBACK, LPDDENUMMODESCALLBACK callback, ddraw/EnumModesCallback, directdraw.enummodescallback
-ms.topic: callback
 f1_keywords:
 - ddraw/EnumModesCallback
 dev_langs:

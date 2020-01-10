@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxfunctions\dlgdirselectcomboboxex.htm
 ms.date: 12/05/2018
 ms.keywords: DlgDirSelectComboBoxEx, DlgDirSelectComboBoxEx function [Windows Controls], DlgDirSelectComboBoxExA, DlgDirSelectComboBoxExW, _win32_DlgDirSelectComboBoxEx, _win32_DlgDirSelectComboBoxEx_cpp, controls.DlgDirSelectComboBoxEx, controls._win32_DlgDirSelectComboBoxEx, winuser/DlgDirSelectComboBoxEx, winuser/DlgDirSelectComboBoxExA, winuser/DlgDirSelectComboBoxExW
-ms.topic: function
 f1_keywords:
 - winuser/DlgDirSelectComboBoxEx
 dev_langs:

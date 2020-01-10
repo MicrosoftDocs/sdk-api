@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 2a78374f-8163-4323-a62d-beeb25cd5bea
 ms.date: 12/05/2018
 ms.keywords: D2D1.Matrix3x2F.Matrix3x2F, D2D1::Matrix3x2F::Matrix3x2F, Matrix3x2F, Matrix3x2F constructor [Direct2D], Matrix3x2F constructor [Direct2D],Matrix3x2F interface, Matrix3x2F interface [Direct2D],Matrix3x2F constructor, Matrix3x2F.Matrix3x2F, Matrix3x2F.Matrix3x2F~r2, Matrix3x2F::Matrix3x2F, Matrix3x2F::Matrix3x2F(), Matrix3x2F::Matrix3x2F~r2, d2d1helper/Matrix3x2F::Matrix3x2F, direct2d.matrix3x2f_matrix3x2f
-ms.topic: method
 f1_keywords:
 - d2d1helper/Matrix3x2F.Matrix3x2F
 dev_langs:

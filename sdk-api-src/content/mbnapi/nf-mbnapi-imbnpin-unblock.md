@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 7e5ec24c-681c-4259-9f6a-949bf40d5b3e
 ms.date: 12/05/2018
 ms.keywords: IMbnPin interface [Microsoft Broadband Networks],Unblock method, IMbnPin.Unblock, IMbnPin::Unblock, Unblock, Unblock method [Microsoft Broadband Networks], Unblock method [Microsoft Broadband Networks],IMbnPin interface, mbn.imbnpin_unblock, mbnapi/IMbnPin::Unblock
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnPin.Unblock
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wpdauto
 ms.assetid: 80aa36cd-3831-4eb5-a5bb-a8e48f20fc62
 ms.date: 12/05/2018
 ms.keywords: GetDeviceDispatch, GetDeviceDispatch method [WPD Automation], GetDeviceDispatch method [WPD Automation],IPortableDeviceDispatchFactory interface, IPortableDeviceDispatchFactory interface [WPD Automation],GetDeviceDispatch method, IPortableDeviceDispatchFactory.GetDeviceDispatch, IPortableDeviceDispatchFactory::GetDeviceDispatch, portabledeviceapi/IPortableDeviceDispatchFactory::GetDeviceDispatch, wpdauto.iportabledevicedispatchfactory_getdevicedispatch
-ms.topic: method
 f1_keywords:
 - portabledeviceapi/IPortableDeviceDispatchFactory.GetDeviceDispatch
 dev_langs:

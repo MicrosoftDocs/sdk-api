@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a3f6ae04-fa81-4b41-9792-5e3403016f1d
 ms.date: 12/05/2018
 ms.keywords: IntToShort, IntToShort function [Windows Shell], _shell_IntToShort, intsafe/IntToShort, shell.IntToShort
-ms.topic: function
 f1_keywords:
 - intsafe/IntToShort
 dev_langs:

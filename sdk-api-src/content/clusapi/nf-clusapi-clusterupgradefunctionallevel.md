@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: EA013501-A4E2-48D8-9062-D20141485CC5
 ms.date: 12/05/2018
 ms.keywords: ClusterUpgradeFunctionalLevel, ClusterUpgradeFunctionalLevel function [Failover Cluster], PCLUSAPI_CLUSTER_UPGRADE, PCLUSAPI_CLUSTER_UPGRADE function [Failover Cluster], clusapi/ClusterUpgradeFunctionalLevel, clusapi/PCLUSAPI_CLUSTER_UPGRADE, mscs.clusterupgradefunctionallevel
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterUpgradeFunctionalLevel
 dev_langs:

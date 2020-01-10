@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 0ebb380a-5c14-4630-8ae4-825809f4737a
 ms.date: 12/05/2018
 ms.keywords: IWMGetSecureChannel, IWMGetSecureChannel interface [windows Media Format], IWMGetSecureChannel interface [windows Media Format],described, wmformat.iwmgetsecurechannel, wmsecure/IWMGetSecureChannel
-ms.topic: interface
 f1_keywords:
 - wmsecure/IWMGetSecureChannel
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 843946a4-d270-4440-9818-59e95cbf9a5b
 ms.date: 12/05/2018
 ms.keywords: 843946a4-d270-4440-9818-59e95cbf9a5b, MFGetAttributeUINT64, MFGetAttributeUINT64 function [Media Foundation], mf.mfgetattributeuint64, mfapi/MFGetAttributeUINT64
-ms.topic: function
 f1_keywords:
 - mfapi/MFGetAttributeUINT64
 dev_langs:

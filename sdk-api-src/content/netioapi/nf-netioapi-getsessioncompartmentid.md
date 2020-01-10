@@ -7,7 +7,6 @@ tech.root: NetVista
 ms.assetid: e051f228-6d53-49b8-a94b-32c65dc41b77
 ms.date: 12/05/2018
 ms.keywords: GetSessionCompartmentId, GetSessionCompartmentId function [Network Drivers Starting with Windows Vista], iphelper_969bb416-bc97-41a4-85ca-54869540d6ca.xml, netioapi/GetSessionCompartmentId, netvista.getsessioncompartmentid
-ms.topic: function
 f1_keywords:
 - netioapi/GetSessionCompartmentId
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 56c61902-4b34-4d92-b352-cd1837754aa3
 ms.date: 12/05/2018
 ms.keywords: RpcErrorStartEnumeration, RpcErrorStartEnumeration function [RPC], _rpc_rpcerrorstartenumeration, rpc.rpcerrorstartenumeration, rpcasync/RpcErrorStartEnumeration
-ms.topic: function
 f1_keywords:
 - rpcasync/RpcErrorStartEnumeration
 dev_langs:

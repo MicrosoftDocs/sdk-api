@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 88a2474b-c14d-41ce-9687-f498644c0315
 ms.date: 12/05/2018
 ms.keywords: GetLocaleName, GetLocaleName method [Direct Write], GetLocaleName method [Direct Write],IDWriteTextAnalysisSource interface, IDWriteTextAnalysisSource interface [Direct Write],GetLocaleName method, IDWriteTextAnalysisSource.GetLocaleName, IDWriteTextAnalysisSource::GetLocaleName, directwrite.idwritetextanalysissource_getlocalename, dwrite/IDWriteTextAnalysisSource::GetLocaleName
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextAnalysisSource.GetLocaleName
 dev_langs:

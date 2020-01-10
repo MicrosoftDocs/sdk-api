@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: efbb6238-e9e3-4603-896a-75fcff2bb362
 ms.date: 12/05/2018
 ms.keywords: CloseDatabase, CloseDatabase method, CloseDatabase method,IMsmMerge interface, IMsmMerge interface,CloseDatabase method, IMsmMerge.CloseDatabase, IMsmMerge::CloseDatabase, _msi_closedatabase_function, mergemod/IMsmMerge::CloseDatabase, setup.imsmmerge_closedatabase
-ms.topic: method
 f1_keywords:
 - mergemod/IMsmMerge.CloseDatabase
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Rsm
 ms.assetid: 99626e6f-2716-4e36-b4ec-3fef0315ea41
 ms.date: 12/05/2018
 ms.keywords: CancelNtmsLibraryRequest, CancelNtmsLibraryRequest function [Files], _zaw_cancelntmslibraryrequest, base.cancelntmslibraryrequest, fs.cancelntmslibraryrequest, ntmsapi/CancelNtmsLibraryRequest
-ms.topic: function
 f1_keywords:
 - ntmsapi/CancelNtmsLibraryRequest
 dev_langs:

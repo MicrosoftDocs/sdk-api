@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 2ca13d58-59d2-4e5d-8094-9f1c03bf463c
 ms.date: 12/05/2018
 ms.keywords: REGKIND, REGKIND enumeration [Automation], REGKIND_DEFAULT, REGKIND_NONE, REGKIND_REGISTER, _oa96_REGKIND, automat.regkind, oleauto/REGKIND, oleauto/REGKIND_DEFAULT, oleauto/REGKIND_NONE, oleauto/REGKIND_REGISTER
-ms.topic: enum
 f1_keywords:
 - oleauto/REGKIND
 dev_langs:

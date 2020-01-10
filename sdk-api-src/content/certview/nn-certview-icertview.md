@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 0b6660ee-458f-457f-8a38-0d950aee2710
 ms.date: 12/05/2018
 ms.keywords: ICertView, ICertView interface [Security], ICertView interface [Security],described, _certsrv_icertview, certview/ICertView, security.icertview
-ms.topic: interface
 f1_keywords:
 - certview/ICertView
 dev_langs:

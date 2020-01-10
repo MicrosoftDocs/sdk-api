@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 714b8222-ab8b-4ece-8ae5-61bb41a7ed3c
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get__MixerBitmap method, IMSVidVideoRenderer.get__MixerBitmap, IMSVidVideoRenderer::get__MixerBitmap, IMSVidVideoRendererget__MixerBitmap, get__MixerBitmap, get__MixerBitmap method [Microsoft TV Technologies], get__MixerBitmap method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get__mixerbitmap, segment/IMSVidVideoRenderer::get__MixerBitmap
-ms.topic: method
 f1_keywords:
 - segment/IMSVidVideoRenderer.get__MixerBitmap
 dev_langs:

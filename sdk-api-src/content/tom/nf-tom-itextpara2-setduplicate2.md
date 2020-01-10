@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 403fd23b-5d66-4e30-b1aa-eec9e4676318
 ms.date: 12/05/2018
 ms.keywords: ITextPara2 interface [Windows Controls],SetDuplicate2 method, ITextPara2.SetDuplicate2, ITextPara2::SetDuplicate2, SetDuplicate2, SetDuplicate2 method [Windows Controls], SetDuplicate2 method [Windows Controls],ITextPara2 interface, controls.itextpara2_setduplicate2, tom/ITextPara2::SetDuplicate2
-ms.topic: method
 f1_keywords:
 - tom/ITextPara2.SetDuplicate2
 dev_langs:

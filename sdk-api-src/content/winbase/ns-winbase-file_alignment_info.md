@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: a6d3cba0-d59b-45c2-a763-ecdde5b36348
 ms.date: 12/05/2018
 ms.keywords: '*PFILE_ALIGNMENT_INFO, FILE_ALIGNMENT_INFO, FILE_ALIGNMENT_INFO structure [Files], PFILE_ALIGNMENT_INFO, PFILE_ALIGNMENT_INFO structure pointer [Files], _FILE_ALIGNMENT_INFO, fs.file_alignment_info, winbase/FILE_ALIGNMENT_INFO, winbase/PFILE_ALIGNMENT_INFO'
-ms.topic: struct
 f1_keywords:
 - winbase/FILE_ALIGNMENT_INFO
 dev_langs:

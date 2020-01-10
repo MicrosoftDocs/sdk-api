@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 2d975482-74f6-4ffa-a243-baa5f6a8d200
 ms.date: 12/05/2018
 ms.keywords: IADsPathname interface [ADSI],SetDisplayType method, IADsPathname.SetDisplayType, IADsPathname::SetDisplayType, SetDisplayType, SetDisplayType method [ADSI], SetDisplayType method [ADSI],IADsPathname interface, _ds_iadspathname_setdisplaytype, adsi.iadspathname__setdisplaytype, adsi.iadspathname_setdisplaytype, iads/IADsPathname::SetDisplayType
-ms.topic: method
 f1_keywords:
 - iads/IADsPathname.SetDisplayType
 dev_langs:

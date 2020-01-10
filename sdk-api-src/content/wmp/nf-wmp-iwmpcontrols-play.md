@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 45b5634b-6d23-4e61-90e4-ef0cc9d90a14
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],play method, IWMPControls.play, IWMPControls::play, IWMPControlsplay, play, play method [Windows Media Player], play method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_play, wmp/IWMPControls::play
-ms.topic: method
 f1_keywords:
 - wmp/IWMPControls.play
 dev_langs:

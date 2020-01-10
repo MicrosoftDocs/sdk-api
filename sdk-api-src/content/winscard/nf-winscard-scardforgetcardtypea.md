@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 4f2d4791-d517-43e4-bff9-f88e12983dea
 ms.date: 12/05/2018
 ms.keywords: SCardForgetCardType, SCardForgetCardType function [Security], SCardForgetCardTypeA, SCardForgetCardTypeW, _smart_scardforgetcardtype, security.scardforgetcardtype, winscard/SCardForgetCardType, winscard/SCardForgetCardTypeA, winscard/SCardForgetCardTypeW
-ms.topic: function
 f1_keywords:
 - winscard/SCardForgetCardType
 dev_langs:

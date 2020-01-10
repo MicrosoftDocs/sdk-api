@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: E374F95B-9F0A-41D6-A916-F5CD5F5E442D
 ms.date: 12/05/2018
 ms.keywords: IObjectModelProvider, IObjectModelProvider interface [Windows Accessibility], IObjectModelProvider interface [Windows Accessibility],described, uiautomationcore/IObjectModelProvider, winauto.uiauto_IObjectModelProvider
-ms.topic: interface
 f1_keywords:
 - uiautomationcore/IObjectModelProvider
 dev_langs:

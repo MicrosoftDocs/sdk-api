@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 50780131-c0ed-443b-86e8-deb996a5c98e
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromBooleanArray, InitVariantFromBooleanArray function [Windows Properties], _shell_InitVariantFromBooleanArray, properties.InitVariantFromBooleanArray, propvarutil/InitVariantFromBooleanArray, shell.InitVariantFromBooleanArray
-ms.topic: function
 f1_keywords:
 - propvarutil/InitVariantFromBooleanArray
 dev_langs:

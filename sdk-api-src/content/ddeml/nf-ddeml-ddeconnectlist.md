@@ -7,7 +7,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeconnectlist.htm
 ms.date: 12/05/2018
 ms.keywords: DdeConnectList, DdeConnectList function [Data Exchange], _win32_DdeConnectList, _win32_ddeconnectlist_cpp, dataxchg.ddeconnectlist, ddeml/DdeConnectList, winui._win32_ddeconnectlist
-ms.topic: function
 f1_keywords:
 - ddeml/DdeConnectList
 dev_langs:

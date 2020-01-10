@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 34670748-460b-4ece-b742-83b0cf87d901
 ms.date: 12/05/2018
 ms.keywords: ITfFnConfigure interface [Text Services Framework],Show method, ITfFnConfigure.Show, ITfFnConfigure::Show, Show, Show method [Text Services Framework], Show method [Text Services Framework],ITfFnConfigure interface, _tsf_itffnconfigure_show_ref, ctffunc/ITfFnConfigure::Show, tsf.itffnconfigure_show
-ms.topic: method
 f1_keywords:
 - ctffunc/ITfFnConfigure.Show
 dev_langs:

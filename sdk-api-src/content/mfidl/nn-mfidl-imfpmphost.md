@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: fab1fb42-07c5-4a74-b6f5-0950b2c3ba46
 ms.date: 12/05/2018
 ms.keywords: IMFPMPHost, IMFPMPHost interface [Media Foundation], IMFPMPHost interface [Media Foundation],described, fab1fb42-07c5-4a74-b6f5-0950b2c3ba46, mf.imfpmphost, mfidl/IMFPMPHost
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFPMPHost
 dev_langs:

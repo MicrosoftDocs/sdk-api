@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\privatefontcollectionclass\privatefontcollectionmethods\addmemoryfont.htm
 ms.date: 12/05/2018
 ms.keywords: AddMemoryFont, AddMemoryFont method [GDI+], AddMemoryFont method [GDI+],PrivateFontCollection class, PrivateFontCollection class [GDI+],AddMemoryFont method, PrivateFontCollection.AddMemoryFont, PrivateFontCollection::AddMemoryFont, _gdiplus_CLASS_PrivateFontCollection_AddMemoryFont_memory_length_, gdiplus._gdiplus_CLASS_PrivateFontCollection_AddMemoryFont_memory_length_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/PrivateFontCollection.AddMemoryFont
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e2a9492f-acfa-4cbd-8426-895e361f0174
 ms.date: 12/05/2018
 ms.keywords: StrFromTimeInterval, StrFromTimeInterval function [Windows Shell], StrFromTimeIntervalA, StrFromTimeIntervalW, _win32_StrFromTimeInterval, shell.StrFromTimeInterval, shlwapi/StrFromTimeInterval, shlwapi/StrFromTimeIntervalA, shlwapi/StrFromTimeIntervalW
-ms.topic: function
 f1_keywords:
 - shlwapi/StrFromTimeInterval
 dev_langs:

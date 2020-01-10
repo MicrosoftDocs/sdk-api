@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 1205b1d7-3dc1-4ecd-b4fa-c833dd4e1a74
 ms.date: 12/05/2018
 ms.keywords: GPMSecurityInfo, IGPMSecurityInfo, IGPMSecurityInfo interface [GPMC], IGPMSecurityInfo interface [GPMC],described, _win32_igpmsecurityinfo, gpmc.igpmsecurityinfo, gpmgmt/IGPMSecurityInfo
-ms.topic: interface
 f1_keywords:
 - gpmgmt/IGPMSecurityInfo
 dev_langs:

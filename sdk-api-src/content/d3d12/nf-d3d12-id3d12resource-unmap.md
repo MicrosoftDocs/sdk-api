@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: EB0E3936-47CC-4FDC-BF17-A506AC8E4C15
 ms.date: 12/05/2018
 ms.keywords: ID3D12Resource interface,Unmap method, ID3D12Resource.Unmap, ID3D12Resource::Unmap, Unmap, Unmap method, Unmap method,ID3D12Resource interface, d3d12/ID3D12Resource::Unmap, direct3d12.id3d12resource_unmap
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Resource.Unmap
 dev_langs:

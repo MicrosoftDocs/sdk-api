@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 1e04381c-49b2-436b-9e92-ec13b88e42f1
 ms.date: 12/05/2018
 ms.keywords: AddMemoryPressure, AddMemoryPressure method [Windows Runtime], AddMemoryPressure method [Windows Runtime],IReferenceTrackerHost interface, IReferenceTrackerHost interface [Windows Runtime],AddMemoryPressure method, IReferenceTrackerHost.AddMemoryPressure, IReferenceTrackerHost.xaml, IReferenceTrackerHost::AddMemoryPressure, IReferenceTrackerHost::xaml, windows/IReferenceTrackerHost::AddMemoryPressure, winrt.ireferencetrackerhost_addmemorypressure
-ms.topic: method
 f1_keywords:
 - windows.ui.xaml.hosting.referencetracker/IReferenceTrackerHost.AddMemoryPressure
 dev_langs:

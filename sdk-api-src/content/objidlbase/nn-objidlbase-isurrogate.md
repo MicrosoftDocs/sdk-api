@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: fbed0514-3646-4744-aa7a-4a98f1a12cc0
 ms.date: 12/05/2018
 ms.keywords: ISurrogate, ISurrogate interface [COM], ISurrogate interface [COM],described, _com_isurrogate, com.isurrogate, objidlbase/ISurrogate
-ms.topic: interface
 f1_keywords:
 - objidlbase/ISurrogate
 dev_langs:

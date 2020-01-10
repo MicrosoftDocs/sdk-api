@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: ec9ad1a1-72c7-4fc6-8812-577b44b4c5eb
 ms.date: 12/05/2018
 ms.keywords: CreateAndConditionFromArray, CreateAndConditionFromArray method [Windows Accessibility], CreateAndConditionFromArray method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateAndConditionFromArray method, IUIAutomation.CreateAndConditionFromArray, IUIAutomation::CreateAndConditionFromArray, uiauto.uiauto_IUIAutomation_CreateAndConditionFromArray, uiauto_IUIAutomation_CreateAndConditionFromArray, uiautomationclient/IUIAutomation::CreateAndConditionFromArray, winauto.uiauto_IUIAutomation_CreateAndConditionFromArray
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomation.CreateAndConditionFromArray
 dev_langs:

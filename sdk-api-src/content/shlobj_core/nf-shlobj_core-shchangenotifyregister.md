@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 73143865-ca2f-4578-a7a2-2ba4833eddd8
 ms.date: 12/05/2018
 ms.keywords: NTSHChangeNotifyRegister, SHCNRF_InterruptLevel, SHCNRF_NewDelivery, SHCNRF_RecursiveInterrupt, SHCNRF_ShellLevel, SHChangeNotifyRegister, SHChangeNotifyRegister function [Windows Shell], _win32_SHChangeNotifyRegister, shell.SHChangeNotifyRegister, shlobj_core/NTSHChangeNotifyRegister, shlobj_core/SHChangeNotifyRegister
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHChangeNotifyRegister
 dev_langs:

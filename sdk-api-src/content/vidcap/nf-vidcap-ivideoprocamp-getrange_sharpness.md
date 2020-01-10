@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9a5fe298-e76b-44ac-9fcd-a5d1aeb3593c
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_Sharpness method, IVideoProcAmp.getRange_Sharpness, IVideoProcAmp::getRange_Sharpness, IVideoProcAmpgetRange_Sharpness, dshow.ivideoprocamp_getrange_sharpness, getRange_Sharpness, getRange_Sharpness method [DirectShow], getRange_Sharpness method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_Sharpness
-ms.topic: method
 f1_keywords:
 - vidcap/IVideoProcAmp.getRange_Sharpness
 dev_langs:

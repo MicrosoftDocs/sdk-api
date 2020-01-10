@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e54a1276-5c86-4127-9005-f2935e1664d0
 ms.date: 12/05/2018
 ms.keywords: GetICreateDevEnum, GetICreateDevEnum method [DirectShow], GetICreateDevEnum method [DirectShow],IFilterMapper3 interface, IFilterMapper3 interface [DirectShow],GetICreateDevEnum method, IFilterMapper3.GetICreateDevEnum, IFilterMapper3::GetICreateDevEnum, IFilterMapper3GetICreateDevEnum, dshow.ifiltermapper3_geticreatedevenum, strmif/IFilterMapper3::GetICreateDevEnum
-ms.topic: method
 f1_keywords:
 - strmif/IFilterMapper3.GetICreateDevEnum
 dev_langs:

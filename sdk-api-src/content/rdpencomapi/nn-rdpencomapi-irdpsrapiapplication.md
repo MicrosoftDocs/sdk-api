@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 9a934718-1eea-4406-a1da-b7d493f6667e
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIApplication, IRDPSRAPIApplication interface [RDP], IRDPSRAPIApplication interface [RDP],described, rdp.irdpsrapiapplication, rdpencomapi/IRDPSRAPIApplication
-ms.topic: interface
 f1_keywords:
 - rdpencomapi/IRDPSRAPIApplication
 dev_langs:

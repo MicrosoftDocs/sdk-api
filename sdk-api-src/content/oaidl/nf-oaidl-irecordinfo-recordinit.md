@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: e10355b3-b751-487d-b7ce-77a39803c38c
 ms.date: 12/05/2018
 ms.keywords: IRecordInfo interface [Automation],RecordInit method, IRecordInfo.RecordInit, IRecordInfo::RecordInit, RecordInit, RecordInit method [Automation], RecordInit method [Automation],IRecordInfo interface, _oa96_IRecordInfo_RecordInit, automat.irecordinfo_recordinit, oaidl/IRecordInfo::RecordInit
-ms.topic: method
 f1_keywords:
 - oaidl/IRecordInfo.RecordInit
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 8a2fb319-094e-4384-b520-2cb8b8819d42
 ms.date: 12/05/2018
 ms.keywords: IComThreadingInfo interface [COM],SetCurrentLogicalThreadId method, IComThreadingInfo.SetCurrentLogicalThreadId, IComThreadingInfo::SetCurrentLogicalThreadId, SetCurrentLogicalThreadId, SetCurrentLogicalThreadId method [COM], SetCurrentLogicalThreadId method [COM],IComThreadingInfo interface, _com_icomthreadinginfo_setcurrentlogicalthreadid, com.icomthreadinginfo_setcurrentlogicalthreadid, objidlbase/IComThreadingInfo::SetCurrentLogicalThreadId
-ms.topic: method
 f1_keywords:
 - objidlbase/IComThreadingInfo.SetCurrentLogicalThreadId
 dev_langs:

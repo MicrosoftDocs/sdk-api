@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 7524de26-360e-49c7-b636-7d05cf4d0ad2
 ms.date: 12/05/2018
 ms.keywords: IBaseFilter interface [DirectShow],QueryVendorInfo method, IBaseFilter.QueryVendorInfo, IBaseFilter::QueryVendorInfo, IBaseFilterQueryVendorInfo, QueryVendorInfo, QueryVendorInfo method [DirectShow], QueryVendorInfo method [DirectShow],IBaseFilter interface, dshow.ibasefilter_queryvendorinfo, strmif/IBaseFilter::QueryVendorInfo
-ms.topic: method
 f1_keywords:
 - strmif/IBaseFilter.QueryVendorInfo
 dev_langs:

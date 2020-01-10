@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\internalgetwindowtext.htm
 ms.date: 12/05/2018
 ms.keywords: InternalGetWindowText, InternalGetWindowText function [Windows and Messages], _win32_InternalGetWindowText, _win32_internalgetwindowtext_cpp, winmsg.internalgetwindowtext, winui._win32_internalgetwindowtext, winuser/InternalGetWindowText
-ms.topic: function
 f1_keywords:
 - winuser/InternalGetWindowText
 dev_langs:

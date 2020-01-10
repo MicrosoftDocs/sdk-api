@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 0ca2ebb6-1394-48a2-972b-bdf43bf58ced
 ms.date: 12/05/2018
 ms.keywords: IVdsDisk3 interface,QueryFreeExtents method, IVdsDisk3.QueryFreeExtents, IVdsDisk3::QueryFreeExtents, QueryFreeExtents, QueryFreeExtents method, QueryFreeExtents method,IVdsDisk3 interface, base.ivdsdisk3_queryfreeextents, vds/IVdsDisk3::QueryFreeExtents
-ms.topic: method
 f1_keywords:
 - vds/IVdsDisk3.QueryFreeExtents
 dev_langs:

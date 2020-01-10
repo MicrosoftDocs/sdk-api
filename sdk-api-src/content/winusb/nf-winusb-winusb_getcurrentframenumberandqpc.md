@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 9D94408F-C1EE-4940-8D33-8C32F5DE7DC4
 ms.date: 12/05/2018
 ms.keywords: WinUsb_GetCurrentFrameNumberAndQpc, WinUsb_GetCurrentFrameNumberAndQpc function [Buses], buses.winusb_getcurrentframenumberandqpc, winusb/WinUsb_GetCurrentFrameNumberAndQpc
-ms.topic: function
 f1_keywords:
 - winusb/WinUsb_GetCurrentFrameNumberAndQpc
 dev_langs:

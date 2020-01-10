@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 16104e70-c800-49a6-a9cf-2b4669c865eb
 ms.date: 12/05/2018
 ms.keywords: IWMProfileManager interface [windows Media Format],LoadProfileByID method, IWMProfileManager.LoadProfileByID, IWMProfileManager::LoadProfileByID, IWMProfileManagerLoadProfileByID, LoadProfileByID, LoadProfileByID method [windows Media Format], LoadProfileByID method [windows Media Format],IWMProfileManager interface, wmformat.iwmprofilemanager_loadprofilebyid, wmsdkidl/IWMProfileManager::LoadProfileByID
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMProfileManager.LoadProfileByID
 dev_langs:

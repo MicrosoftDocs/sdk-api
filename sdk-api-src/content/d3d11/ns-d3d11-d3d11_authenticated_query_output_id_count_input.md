@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 9968985F-64F4-4BCC-801A-4929A52A10B7
 ms.date: 12/05/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_INPUT, D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_INPUT, mf.d3d11_authenticated_query_output_id_count_input
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_INPUT
 dev_langs:

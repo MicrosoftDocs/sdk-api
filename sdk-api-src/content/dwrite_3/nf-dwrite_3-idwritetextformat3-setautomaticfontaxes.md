@@ -5,7 +5,6 @@ description: Sets the automatic font axis options.
 tech.root: DirectWrite
 ms.date: 09/17/2019
 ms.keywords: IDWriteTextFormat3 interface [Direct Write],SetAutomaticFontAxes method, IDWriteTextFormat3.SetAutomaticFontAxes, IDWriteTextFormat3::SetAutomaticFontAxes, SetAutomaticFontAxes, SetAutomaticFontAxes method [Direct Write], SetAutomaticFontAxes method [Direct Write],IDWriteTextFormat3 interface, directwrite.idwritetextformat3_setautomaticfontaxes, dwrite_3/IDWriteTextFormat3::SetAutomaticFontAxes
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteTextFormat3.SetAutomaticFontAxes
 dev_langs:

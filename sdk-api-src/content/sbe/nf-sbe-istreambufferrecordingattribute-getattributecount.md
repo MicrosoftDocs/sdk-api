@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 44ff4991-f6f2-4f70-bdf5-b8e1dc06611c
 ms.date: 12/05/2018
 ms.keywords: GetAttributeCount, GetAttributeCount method [Microsoft TV Technologies], GetAttributeCount method [Microsoft TV Technologies],IStreamBufferRecordingAttribute interface, IStreamBufferRecordingAttribute interface [Microsoft TV Technologies],GetAttributeCount method, IStreamBufferRecordingAttribute.GetAttributeCount, IStreamBufferRecordingAttribute::GetAttributeCount, IStreamBufferRecordingAttributeGetAttributeCount, mstv.istreambufferrecordingattribute_getattributecount, sbe/IStreamBufferRecordingAttribute::GetAttributeCount
-ms.topic: method
 f1_keywords:
 - sbe/IStreamBufferRecordingAttribute.GetAttributeCount
 dev_langs:

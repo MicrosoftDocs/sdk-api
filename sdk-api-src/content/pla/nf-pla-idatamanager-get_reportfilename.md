@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 5b4c1d99-2f41-423a-b019-845dcd61d516
 ms.date: 12/05/2018
 ms.keywords: IDataManager interface [PLA],ReportFileName property, IDataManager.ReportFileName, IDataManager.get_ReportFileName, IDataManager::ReportFileName, IDataManager::get_ReportFileName, IDataManager::put_ReportFileName, ReportFileName property [PLA], ReportFileName property [PLA],IDataManager interface, base.idatamanager_reportfilename, get_ReportFileName, pla.idatamanager_reportfilename, pla/IDataManager::ReportFileName, pla/IDataManager::get_ReportFileName, pla/IDataManager::put_ReportFileName
-ms.topic: method
 f1_keywords:
 - pla/IDataManager.ReportFileName
 dev_langs:

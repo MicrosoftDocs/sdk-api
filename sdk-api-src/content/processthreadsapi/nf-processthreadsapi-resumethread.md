@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: ffc4e474-635b-4bf7-a68f-073899fb3fde
 ms.date: 12/05/2018
 ms.keywords: ResumeThread, ResumeThread function, _win32_resumethread, base.resumethread, processthreadsapi/ResumeThread, winbase/ResumeThread
-ms.topic: function
 f1_keywords:
 - processthreadsapi/ResumeThread
 dev_langs:

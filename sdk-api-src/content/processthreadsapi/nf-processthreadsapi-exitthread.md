@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: e7f6d054-c535-4521-a3b4-800a9174732f
 ms.date: 12/05/2018
 ms.keywords: ExitThread, ExitThread function, _win32_exitthread, base.exitthread, processthreadsapi/ExitThread, winbase/ExitThread
-ms.topic: function
 f1_keywords:
 - processthreadsapi/ExitThread
 dev_langs:

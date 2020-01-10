@@ -7,7 +7,6 @@ tech.root: lwef
 ms.assetid: 4d572b86-36e8-417b-857c-eb477c04c691
 ms.date: 12/05/2018
 ms.keywords: IActiveDesktop, IActiveDesktop interface [Legacy Windows Environment Features], IActiveDesktop interface [Legacy Windows Environment Features],described, _win32_IActiveDesktop_Interface, lwef.iactivedesktop_interface, shell.iactivedesktop_interface, shlobj_core/IActiveDesktop
-ms.topic: interface
 f1_keywords:
 - shlobj_core/IActiveDesktop
 dev_langs:

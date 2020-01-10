@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: ba816a00-e238-4dbd-a09a-ad4e191d9c4e
 ms.date: 12/05/2018
 ms.keywords: ISettingsEngine, ISettingsEngine interface [SMI], ISettingsEngine interface [SMI],described, smi.isettingsengine, wcmconfig/ISettingsEngine
-ms.topic: interface
 f1_keywords:
 - wcmconfig/ISettingsEngine
 dev_langs:

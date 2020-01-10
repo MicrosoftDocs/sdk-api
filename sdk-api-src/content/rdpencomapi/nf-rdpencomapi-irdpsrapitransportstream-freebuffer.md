@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: db2f0bc2-cddf-44bd-9899-192e5eb014bb
 ms.date: 12/05/2018
 ms.keywords: FreeBuffer, FreeBuffer method [RDP], FreeBuffer method [RDP],IRDPSRAPITransportStream interface, IRDPSRAPITransportStream interface [RDP],FreeBuffer method, IRDPSRAPITransportStream.FreeBuffer, IRDPSRAPITransportStream::FreeBuffer, rdp.irdpsrapitransportstream_freebuffer, rdpencomapi/IRDPSRAPITransportStream::FreeBuffer
-ms.topic: method
 f1_keywords:
 - rdpencomapi/IRDPSRAPITransportStream.FreeBuffer
 dev_langs:

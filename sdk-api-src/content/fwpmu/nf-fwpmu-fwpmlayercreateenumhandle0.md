@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 94738168-9f02-420a-96cd-b7c3f6418c6f
 ms.date: 12/05/2018
 ms.keywords: FwpmLayerCreateEnumHandle0, FwpmLayerCreateEnumHandle0 function [Filtering], fwp.fwpmlayercreateenumhandle0_func, fwpmu/FwpmLayerCreateEnumHandle0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmLayerCreateEnumHandle0
 dev_langs:

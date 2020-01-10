@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: a6198229-a6db-43ef-9ef6-957429f270cc
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linepark, linePark, linePark function [TAPI 2.2], lineParkA, lineParkW, tapi/linePark, tapi/lineParkA, tapi/lineParkW, tapi2.linepark
-ms.topic: function
 f1_keywords:
 - tapi/linePark
 dev_langs:

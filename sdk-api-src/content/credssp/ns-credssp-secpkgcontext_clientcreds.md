@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 85ab1bf7-a4d9-4b0e-b1e3-cb938c3183d3
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_ClientCreds, PSecPkgContext_ClientCreds, PSecPkgContext_ClientCreds structure pointer [Security], SecPkgContext_ClientCreds, SecPkgContext_ClientCreds structure [Security], credssp/PSecPkgContext_ClientCreds, credssp/SecPkgContext_ClientCreds, security.secpkgcontext_clientcreds'
-ms.topic: struct
 f1_keywords:
 - credssp/SecPkgContext_ClientCreds
 dev_langs:

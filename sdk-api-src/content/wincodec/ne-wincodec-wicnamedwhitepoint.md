@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: e256a6d6-a035-47c3-a82c-d9aec284de17
 ms.date: 12/05/2018
 ms.keywords: WICNamedWhitePoint, WICNamedWhitePoint enumeration [Windows Imaging Component], WICWhitePointAsShot, WICWhitePointAutoWhiteBalance, WICWhitePointCloudy, WICWhitePointCustom, WICWhitePointDaylight, WICWhitePointDefault, WICWhitePointFlash, WICWhitePointFluorescent, WICWhitePointShade, WICWhitePointTungsten, WICWhitePointUnderwater, _wic_codec_wicnamedwhitepoint, wic._wic_codec_wicnamedwhitepoint, wincodec/WICNamedWhitePoint, wincodec/WICWhitePointAsShot, wincodec/WICWhitePointAutoWhiteBalance, wincodec/WICWhitePointCloudy, wincodec/WICWhitePointCustom, wincodec/WICWhitePointDaylight, wincodec/WICWhitePointDefault, wincodec/WICWhitePointFlash, wincodec/WICWhitePointFluorescent, wincodec/WICWhitePointShade, wincodec/WICWhitePointTungsten, wincodec/WICWhitePointUnderwater
-ms.topic: enum
 f1_keywords:
 - wincodec/WICNamedWhitePoint
 dev_langs:

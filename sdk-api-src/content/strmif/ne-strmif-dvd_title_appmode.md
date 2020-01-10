@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f0a12b00-89a5-4b70-9a78-519ae36d1bac
 ms.date: 12/05/2018
 ms.keywords: DVD_AppMode_Karaoke, DVD_AppMode_Not_Specified, DVD_AppMode_Other, DVD_TITLE_APPMODE, DVD_TITLE_APPMODE , DVD_TITLE_APPMODE enumeration [DirectShow], DVD_TITLE_APPMODEEnumeration, dshow.dvd_title_appmode, strmif/DVD_AppMode_Karaoke, strmif/DVD_AppMode_Not_Specified, strmif/DVD_AppMode_Other, strmif/DVD_TITLE_APPMODE
-ms.topic: enum
 f1_keywords:
 - strmif/DVD_TITLE_APPMODE
 dev_langs:

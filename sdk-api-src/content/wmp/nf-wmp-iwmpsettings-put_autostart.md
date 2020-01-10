@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 34f80fa4-6e9c-4435-b360-55c2856f89fb
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_autoStart method, IWMPSettings.put_autoStart, IWMPSettings::put_autoStart, IWMPSettingsput_autoStart, put_autoStart, put_autoStart method [Windows Media Player], put_autoStart method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_autostart, wmp/IWMPSettings::put_autoStart
-ms.topic: method
 f1_keywords:
 - wmp/IWMPSettings.put_autoStart
 dev_langs:

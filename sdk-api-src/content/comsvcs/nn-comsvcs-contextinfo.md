@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: ef8d7ef7-fae4-4a20-80fb-18f5daa9b564
 ms.date: 12/05/2018
 ms.keywords: ContextInfo, ContextInfo interface [COM+], ContextInfo interface [COM+],described, _cos_ContextInfo, comsvcs/ContextInfo, cos.contextinfo
-ms.topic: interface
 f1_keywords:
 - comsvcs/ContextInfo
 dev_langs:

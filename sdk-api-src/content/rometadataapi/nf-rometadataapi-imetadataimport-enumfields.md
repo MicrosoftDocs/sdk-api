@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: c9f8f389-fdb2-404b-a24e-cf2cf119bf55
 ms.date: 12/05/2018
 ms.keywords: EnumFields, EnumFields method [Windows Runtime], EnumFields method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumFields method, IMetaDataImport.EnumFields, IMetaDataImport::EnumFields, rometadataapi/IMetaDataImport::EnumFields, winrt.imetadataimport_enumfields
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataImport.EnumFields
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 7fe0b142-04a1-4a92-99ca-523412f7c94e
 ms.date: 12/05/2018
 ms.keywords: WS_FAULT, WS_FAULT structure [Web Services for Windows], webservices/WS_FAULT, wsw.ws_fault
-ms.topic: struct
 f1_keywords:
 - webservices/WS_FAULT
 dev_langs:

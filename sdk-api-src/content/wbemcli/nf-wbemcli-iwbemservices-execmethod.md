@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 9acba1aa-bcca-416a-863c-704d2e72df07
 ms.date: 12/05/2018
 ms.keywords: ExecMethod, ExecMethod method [Windows Management Instrumentation], ExecMethod method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecMethod method, IWbemServices.ExecMethod, IWbemServices::ExecMethod, _hmm_iwbemservices_execmethod, wbemcli/IWbemServices::ExecMethod, wmi.iwbemservices_execmethod
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemServices.ExecMethod
 dev_langs:

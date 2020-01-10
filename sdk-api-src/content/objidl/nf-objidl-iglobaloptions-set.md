@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 5a59c862-64a4-45b5-8b6b-dacbfb4d170b
 ms.date: 12/05/2018
 ms.keywords: IGlobalOptions interface [COM],Set method, IGlobalOptions.Set, IGlobalOptions::Set, Set, Set method [COM], Set method [COM],IGlobalOptions interface, _com_iglobaloptions_set, com.iglobaloptions_set, objidlbase/IGlobalOptions::Set
-ms.topic: method
 f1_keywords:
 - objidl/IGlobalOptions.Set
 dev_langs:

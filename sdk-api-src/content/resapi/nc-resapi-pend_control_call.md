@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 0FB2C129-B98C-4570-8621-6BAD46911682
 ms.date: 12/05/2018
 ms.keywords: EndControlCall, EndControlCall callback, EndControlCall callback function [Failover Cluster], PEND_CONTROL_CALL, PEND_CONTROL_CALL callback function [Failover Cluster], mscs.endcontrolcall, resapi/EndControlCall, resapi/PEND_CONTROL_CALL
-ms.topic: callback
 f1_keywords:
 - resapi/EndControlCall callback
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: CA459E57-90D5-44F6-A896-4E1C2FA0DC57
 ms.date: 12/5/2018
 ms.keywords: GetRestrictedErrorInfo, GetRestrictedErrorInfo function [Windows Runtime], roerrorapi/GetRestrictedErrorInfo, winrt.getrestrictederrorinfo
-ms.topic: function
 f1_keywords:
 - roerrorapi/GetRestrictedErrorInfo
 dev_langs:

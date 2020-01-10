@@ -5,7 +5,6 @@ description: The GraphicsPath::AddBezier method adds a Bezier spline to the curr
 ms.assetid: 9ab28c47-f72b-472e-8b8e-22f4839a0b42
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddBezier
-ms.topic: language-reference
 f1_keywords:
 - gdipluspath/GraphicsPath::AddBezier
 dev_langs:

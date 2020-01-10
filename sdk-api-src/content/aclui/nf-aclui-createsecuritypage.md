@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 52cb20fd-7f3a-4984-a898-f4b9e9738e1a
 ms.date: 12/05/2018
 ms.keywords: CreateSecurityPage, CreateSecurityPage function [Security], _win32_createsecuritypage, aclui/CreateSecurityPage, security.createsecuritypage
-ms.topic: function
 f1_keywords:
 - aclui/CreateSecurityPage
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: a7187b7a-0090-4380-82bb-a7f72d54232e
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnError method, IMFSourceBufferNotify.OnError, IMFSourceBufferNotify::OnError, OnError, OnError method [Media Foundation], OnError method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onerror, mfmediaengine/IMFSourceBufferNotify::OnError
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFSourceBufferNotify.OnError
 dev_langs:

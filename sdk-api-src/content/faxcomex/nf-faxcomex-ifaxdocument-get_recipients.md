@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_8foz.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxDocument interface [Fax Service],Recipients property, IFaxDocument.Recipients, IFaxDocument.get_Recipients, IFaxDocument::Recipients, IFaxDocument::get_Recipients, Recipients property [Fax Service], Recipients property [Fax Service],IFaxDocument interface, _mfax_faxdocument.recipients, fax._mfax_faxdocument_cpp_mfax_faxdocument_recipients_cpp, fax._mfax_faxdocument_recipients, faxcomex/IFaxDocument::Recipients, faxcomex/IFaxDocument::get_Recipients, get_Recipients
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxDocument.Recipients
 dev_langs:

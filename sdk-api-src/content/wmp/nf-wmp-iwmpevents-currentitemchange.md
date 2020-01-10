@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 3669fe6e-233e-4214-9f84-763a06835f48
 ms.date: 12/05/2018
 ms.keywords: CurrentItemChange, CurrentItemChange method [Windows Media Player], CurrentItemChange method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],CurrentItemChange method, IWMPEvents.CurrentItemChange, IWMPEvents::CurrentItemChange, IWMPEventsCurrentItemChange, wmp.iwmpevents_iwmpevents__currentitemchange, wmp/IWMPEvents::CurrentItemChange
-ms.topic: method
 f1_keywords:
 - wmp/IWMPEvents.CurrentItemChange
 dev_langs:

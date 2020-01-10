@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 28b4397c-dcb1-4c81-b6a3-d6abd7f7ad24
 ms.date: 12/05/2018
 ms.keywords: ITransferMediumItem, ITransferMediumItem interface [Windows Shell], ITransferMediumItem interface [Windows Shell],described, _shell_ITransferMediumItem, shell.ITransferMediumItem, shobjidl_core/ITransferMediumItem
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/ITransferMediumItem
 dev_langs:

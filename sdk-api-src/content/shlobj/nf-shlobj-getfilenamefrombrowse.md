@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1f075051-18c8-4ec2-b010-f983ba2d3303
 ms.date: 12/05/2018
 ms.keywords: GetFileNameFromBrowse, GetFileNameFromBrowse function [Windows Shell], _win32_GetFileNameFromBrowse, shell.GetFileNameFromBrowse, shlobj_core/GetFileNameFromBrowse
-ms.topic: function
 f1_keywords:
 - shlobj/GetFileNameFromBrowse
 dev_langs:

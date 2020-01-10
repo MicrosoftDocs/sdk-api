@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 0505a1e9-489f-416a-88b8-e8b76ae94b70
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],StationEvent method, IWMPContentPartner.StationEvent, IWMPContentPartner::StationEvent, IWMPContentPartnerStationEvent, StationEvent, StationEvent method [Windows Media Player], StationEvent method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::StationEvent, wmp.iwmpcontentpartner_stationevent
-ms.topic: method
 f1_keywords:
 - contentpartner/IWMPContentPartner.StationEvent
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 47009cac-fcfe-43f5-9676-4e5db863c909
 ms.date: 12/05/2018
 ms.keywords: '*PRESUTIL_FILETIME_DATA, PRESUTIL_FILETIME_DATA, PRESUTIL_FILETIME_DATA structure pointer [Failover Cluster], RESUTIL_FILETIME_DATA, RESUTIL_FILETIME_DATA structure [Failover Cluster], mscs.resutil_filetime_data, resapi/PRESUTIL_FILETIME_DATA, resapi/RESUTIL_FILETIME_DATA'
-ms.topic: struct
 f1_keywords:
 - resapi/RESUTIL_FILETIME_DATA
 dev_langs:

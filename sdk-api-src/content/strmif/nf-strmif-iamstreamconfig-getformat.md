@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 5443141b-eb2c-412c-8bd1-7175e724b602
 ms.date: 12/05/2018
 ms.keywords: GetFormat, GetFormat method [DirectShow], GetFormat method [DirectShow],IAMStreamConfig interface, IAMStreamConfig interface [DirectShow],GetFormat method, IAMStreamConfig.GetFormat, IAMStreamConfig::GetFormat, IAMStreamConfigGetFormat, dshow.iamstreamconfig_getformat, strmif/IAMStreamConfig::GetFormat
-ms.topic: method
 f1_keywords:
 - strmif/IAMStreamConfig.GetFormat
 dev_langs:

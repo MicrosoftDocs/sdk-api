@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 986e3bec-9915-4a7c-8f54-faf25fa2848c
 ms.date: 12/05/2018
 ms.keywords: '*PPEER_PNRP_ENDPOINT_INFO, PEER_PNRP_ENDPOINT_INFO, PEER_PNRP_ENDPOINT_INFO structure [Peer Networking], PPEER_PNRP_ENDPOINT_INFO, PPEER_PNRP_ENDPOINT_INFO structure pointer [Peer Networking], p2p.peer_pnrp_endpoint_info, p2p/PEER_PNRP_ENDPOINT_INFO, p2p/PPEER_PNRP_ENDPOINT_INFO'
-ms.topic: struct
 f1_keywords:
 - p2p/PEER_PNRP_ENDPOINT_INFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 155a2e61-3b53-4225-b298-ee51e2afca96
 ms.date: 12/05/2018
 ms.keywords: ISBE2SpanningEvent, ISBE2SpanningEvent interface [Microsoft TV Technologies], ISBE2SpanningEvent interface [Microsoft TV Technologies],described, mstv.isbe2spanningevent, sbe/ISBE2SpanningEvent
-ms.topic: interface
 f1_keywords:
 - sbe/ISBE2SpanningEvent
 dev_langs:

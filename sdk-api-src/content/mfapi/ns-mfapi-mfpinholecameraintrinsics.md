@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 477F4DF6-CAE5-4BCD-A7D9-B1656DEA11E6
 ms.date: 12/05/2018
 ms.keywords: MFPinholeCameraIntrinsics, MFPinholeCameraIntrinsics structure [Media Foundation], PMFPinholeCameraIntrinsics, PMFPinholeCameraIntrinsics structure pointer [Media Foundation], mf.mfpinholecameraintrinsics, mfapi/MFPinholeCameraIntrinsics, mfapi/PMFPinholeCameraIntrinsics
-ms.topic: struct
 f1_keywords:
 - mfapi/MFPinholeCameraIntrinsics
 dev_langs:

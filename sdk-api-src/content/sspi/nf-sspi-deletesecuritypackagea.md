@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 7a9a2c64-92a4-419b-8b20-d0f5cba64147
 ms.date: 12/05/2018
 ms.keywords: DeleteSecurityPackage, DeleteSecurityPackage function [Security], DeleteSecurityPackageA, DeleteSecurityPackageW, security.deletesecuritypackage, sspi/DeleteSecurityPackage, sspi/DeleteSecurityPackageA, sspi/DeleteSecurityPackageW
-ms.topic: function
 f1_keywords:
 - sspi/DeleteSecurityPackage
 dev_langs:

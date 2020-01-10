@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: da486ade-88ef-40c4-8151-356e718da7db
 ms.date: 12/05/2018
 ms.keywords: MI_Application, MI_Application structure [Windows Management Infrastructure (MI)], mi/MI_Application, wmi_v2.mi_application
-ms.topic: struct
 f1_keywords:
 - mi/MI_Application
 dev_langs:

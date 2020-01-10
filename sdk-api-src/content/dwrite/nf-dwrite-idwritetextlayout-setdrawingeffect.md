@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: d3269f8e-c1bc-4e84-92cb-a8899a0268ff
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetDrawingEffect method, IDWriteTextLayout.SetDrawingEffect, IDWriteTextLayout::SetDrawingEffect, SetDrawingEffect, SetDrawingEffect method [Direct Write], SetDrawingEffect method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetDrawingEffect, dwrite/IDWriteTextLayout::SetDrawingEffect
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextLayout.SetDrawingEffect
 dev_langs:

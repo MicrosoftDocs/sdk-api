@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 7331afda-d021-428e-aa09-eecc96709744
 ms.date: 12/05/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],GetCallMediaTypes method, CMSPAddress.GetCallMediaTypes, CMSPAddress::GetCallMediaTypes, GetCallMediaTypes, GetCallMediaTypes method [TAPI 2.2], GetCallMediaTypes method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_getcallmediatypes, mspaddr/CMSPAddress::GetCallMediaTypes, tapi3.cmspaddress_getcallmediatypes
-ms.topic: method
 f1_keywords:
 - mspaddr/CMSPAddress.GetCallMediaTypes
 dev_langs:

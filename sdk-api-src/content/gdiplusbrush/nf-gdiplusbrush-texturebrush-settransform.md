@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\settransform_41matrix.htm
 ms.date: 12/05/2018
 ms.keywords: SetTransform, SetTransform method [GDI+], SetTransform method [GDI+],TextureBrush class, TextureBrush class [GDI+],SetTransform method, TextureBrush.SetTransform, TextureBrush::SetTransform, _gdiplus_CLASS_TextureBrush_SetTransform_matrix_, gdiplus._gdiplus_CLASS_TextureBrush_SetTransform_matrix_
-ms.topic: method
 f1_keywords:
 - gdiplusbrush/TextureBrush.SetTransform
 dev_langs:

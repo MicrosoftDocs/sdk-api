@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: A164EB9F-290E-446E-98E9-95C6C3C3D00C
 ms.date: 12/05/2018
 ms.keywords: ClusterRegCloseReadBatch, ClusterRegCloseReadBatch function [Failover Cluster], PCLUSTER_REG_CLOSE_READ_BATCH, PCLUSTER_REG_CLOSE_READ_BATCH function [Failover Cluster], clusapi/ClusterRegCloseReadBatch, clusapi/PCLUSTER_REG_CLOSE_READ_BATCH, mscs.clusterregclosereadbatch
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterRegCloseReadBatch
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 5cf156fe-bfdd-444d-be4e-422c11ab08dc
 ms.date: 12/05/2018
 ms.keywords: GetDescriptorNumber, GetDescriptorNumber method [Microsoft TV Technologies], GetDescriptorNumber method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetDescriptorNumber method, IDvbExtendedEventDescriptor.GetDescriptorNumber, IDvbExtendedEventDescriptor::GetDescriptorNumber, dvbsiparser/IDvbExtendedEventDescriptor::GetDescriptorNumber, mstv.idvbextendedeventdescriptor_getdescriptornumber
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbExtendedEventDescriptor.GetDescriptorNumber
 dev_langs:

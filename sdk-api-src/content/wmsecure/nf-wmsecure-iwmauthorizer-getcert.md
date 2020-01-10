@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: e165356c-b14b-47dc-b046-a74499251cab
 ms.date: 12/05/2018
 ms.keywords: GetCert, GetCert method [windows Media Format], GetCert method [windows Media Format],IWMAuthorizer interface, IWMAuthorizer interface [windows Media Format],GetCert method, IWMAuthorizer.GetCert, IWMAuthorizer::GetCert, wmformat.iwmauthorizer_getcert, wmsecure/IWMAuthorizer::GetCert
-ms.topic: method
 f1_keywords:
 - wmsecure/IWMAuthorizer.GetCert
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 69aa7ecf-4816-460b-b4f8-480c0d4f8331
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],put_TiltRelative method, ICameraControl.put_TiltRelative, ICameraControl::put_TiltRelative, ICameraControlput_TiltRelative, dshow.icameracontrol_put_tiltrelative, put_TiltRelative, put_TiltRelative method [DirectShow], put_TiltRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_TiltRelative
-ms.topic: method
 f1_keywords:
 - vidcap/ICameraControl.put_TiltRelative
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbinsertmark.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPTBINSERTMARK, 0, LPTBINSERTMARK, LPTBINSERTMARK structure pointer [Windows Controls], TBIMHT_AFTER, TBIMHT_BACKGROUND, TBINSERTMARK, TBINSERTMARK structure [Windows Controls], _win32_TBINSERTMARK, _win32_TBINSERTMARK_cpp, commctrl/LPTBINSERTMARK, commctrl/TBINSERTMARK, controls.TBINSERTMARK, controls._win32_TBINSERTMARK'
-ms.topic: struct
 f1_keywords:
 - commctrl/TBINSERTMARK
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 92b290a5-0923-42fc-8231-1decca26adc1
 ms.date: 12/05/2018
 ms.keywords: CoInstall, CoInstall function [Windows API], objbase/CoInstall, winprog.coinstall
-ms.topic: function
 f1_keywords:
 - objbase/CoInstall
 dev_langs:

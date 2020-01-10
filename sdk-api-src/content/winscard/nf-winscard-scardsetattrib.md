@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 755b9295-5daf-4e85-9e09-cce3a0e39c0b
 ms.date: 12/05/2018
 ms.keywords: SCARD_ATTR_SUPRESS_T1_IFS_REQUEST, SCardSetAttrib, SCardSetAttrib function [Security], _smart_scardsetattrib, security.scardsetattrib, winscard/SCardSetAttrib
-ms.topic: function
 f1_keywords:
 - winscard/SCardSetAttrib
 dev_langs:

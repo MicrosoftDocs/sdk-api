@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 12507432-bf18-444d-9bcc-4ebc1418c083
 ms.date: 12/05/2018
 ms.keywords: MprAdminConnectionEnumEx, MprAdminConnectionEnumEx function [RAS], mprapi/MprAdminConnectionEnumEx, rras.mpradminconnectionenumex
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminConnectionEnumEx
 dev_langs:

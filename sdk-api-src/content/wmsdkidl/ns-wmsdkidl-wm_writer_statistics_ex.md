@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: f98a5934-968e-4c74-9fd2-f824ad77692c
 ms.date: 12/05/2018
 ms.keywords: WM_WRITER_STATISTICS_EX, WM_WRITER_STATISTICS_EX structure [windows Media Format], wmformat.wm_writer_statistics_ex, wmsdkidl/WM_WRITER_STATISTICS_EX
-ms.topic: struct
 f1_keywords:
 - wmsdkidl/WM_WRITER_STATISTICS_EX
 dev_langs:

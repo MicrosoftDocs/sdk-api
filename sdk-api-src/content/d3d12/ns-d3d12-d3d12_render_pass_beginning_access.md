@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 48356954-F233-4FD5-A32B-099E83DC46C0
 ms.date: 12/05/2018
 ms.keywords: D3D12_RENDER_PASS_BEGINNING_ACCESS, D3D12_RENDER_PASS_BEGINNING_ACCESS structure, d3d12/D3D12_RENDER_PASS_BEGINNING_ACCESS, direct3d12.d3d12_render_pass_beginning_access
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_RENDER_PASS_BEGINNING_ACCESS
 dev_langs:

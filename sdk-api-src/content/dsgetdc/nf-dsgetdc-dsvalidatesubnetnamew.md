@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: bed49e08-4cb7-439c-bfb7-815263ec7568
 ms.date: 12/05/2018
 ms.keywords: DsValidateSubnetName, DsValidateSubnetName function [Active Directory], DsValidateSubnetNameA, DsValidateSubnetNameW, _glines_dsvalidatesubnetname, ad.dsvalidatesubnetname, dsgetdc/DsValidateSubnetName, dsgetdc/DsValidateSubnetNameA, dsgetdc/DsValidateSubnetNameW
-ms.topic: function
 f1_keywords:
 - dsgetdc/DsValidateSubnetName
 dev_langs:

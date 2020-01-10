@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: f33f9e66-1668-4839-9c98-5945104110bc
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceGetInfo, MprConfigInterfaceGetInfo function [RAS], _mpr_mprconfiginterfacegetinfo, mprapi/MprConfigInterfaceGetInfo, rras.mprconfiginterfacegetinfo
-ms.topic: function
 f1_keywords:
 - mprapi/MprConfigInterfaceGetInfo
 dev_langs:

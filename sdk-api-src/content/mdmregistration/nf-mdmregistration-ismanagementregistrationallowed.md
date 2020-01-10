@@ -7,7 +7,6 @@ tech.root: MDMReg
 ms.assetid: 138f567d-4c50-4e13-be10-269eb44f9fe5
 ms.date: 12/05/2018
 ms.keywords: IsManagementRegistrationAllowed, IsManagementRegistrationAllowed function [MDM Registration], mdmreg.ismanagementregistrationallowed, mdmregistration/IsManagementRegistrationAllowed
-ms.topic: function
 f1_keywords:
 - mdmregistration/IsManagementRegistrationAllowed
 dev_langs:

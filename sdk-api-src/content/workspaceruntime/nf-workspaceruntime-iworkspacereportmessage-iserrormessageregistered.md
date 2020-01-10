@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: ea66553b-915b-4244-add7-08c7bc255203
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceReportMessage interface [Remote Desktop Services],IsErrorMessageRegistered method, IWorkspaceReportMessage.IsErrorMessageRegistered, IWorkspaceReportMessage::IsErrorMessageRegistered, IsErrorMessageRegistered, IsErrorMessageRegistered method [Remote Desktop Services], IsErrorMessageRegistered method [Remote Desktop Services],IWorkspaceReportMessage interface, IsErrorMessageRegistered method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],IsErrorMessageRegistered method, termserv.iworkspacereportmessage_iserrormessageregistered, workspaceruntime/IWorkspaceReportMessage::IsErrorMessageRegistered
-ms.topic: method
 f1_keywords:
 - workspaceruntime/IWorkspaceReportMessage.IsErrorMessageRegistered
 dev_langs:

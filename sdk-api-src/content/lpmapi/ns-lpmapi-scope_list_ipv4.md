@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: f1651371-d192-45d9-9a9e-d272b624f40d
 ms.date: 12/05/2018
 ms.keywords: Scope_list_ipv4, Scope_list_ipv4 structure [QOS], lpmapi/Scope_list_ipv4, qos.scope_list_ipv4
-ms.topic: struct
 f1_keywords:
 - lpmapi/Scope_list_ipv4
 dev_langs:

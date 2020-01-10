@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: af9953c0-481d-4aa8-b938-e10d5d733a59
 ms.date: 12/05/2018
 ms.keywords: WsVerifyXmlNCName, WsVerifyXmlNCName function [Web Services for Windows], webservices/WsVerifyXmlNCName, wsw.wsverifyxmlncname
-ms.topic: function
 f1_keywords:
 - webservices/WsVerifyXmlNCName
 dev_langs:

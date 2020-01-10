@@ -7,7 +7,6 @@ tech.root: MixedReality
 ms.assetid: 8B7A226E-FB47-4BA2-B13E-B37250C75920
 ms.date: 01/25/2019
 ms.keywords: CreateForWindow, CreateForWindow method, CreateForWindow method,IHolographicSpaceInterop interface, IHolographicSpaceInterop interface,CreateForWindow method, IHolographicSpaceInterop.CreateForWindow, IHolographicSpaceInterop::CreateForWindow, MixedReality.iholographicspaceinterop_createforwindow, holographicspaceinterop/IHolographicSpaceInterop::CreateForWindow
-ms.topic: method
 f1_keywords:
 - holographicspaceinterop/IHolographicSpaceInterop.CreateForWindow
 dev_langs:

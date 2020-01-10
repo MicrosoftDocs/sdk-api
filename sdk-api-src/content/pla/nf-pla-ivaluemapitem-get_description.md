@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: ee0669f1-6400-4c32-9f5f-82fd69b7cacd
 ms.date: 12/05/2018
 ms.keywords: Description property [PLA], Description property [PLA],IValueMapItem interface, IValueMapItem interface [PLA],Description property, IValueMapItem.Description, IValueMapItem.get_Description, IValueMapItem::Description, IValueMapItem::get_Description, IValueMapItem::put_Description, base.ivaluemapitem_description, get_Description, pla.ivaluemapitem_description, pla/IValueMapItem::Description, pla/IValueMapItem::get_Description, pla/IValueMapItem::put_Description
-ms.topic: method
 f1_keywords:
 - pla/IValueMapItem.Description
 dev_langs:

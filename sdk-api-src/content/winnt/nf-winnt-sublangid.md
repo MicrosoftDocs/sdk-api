@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 0441c915-f910-4ac7-ac0a-0b113f490d40
 ms.date: 12/05/2018
 ms.keywords: SUBLANGID, SUBLANGID macro [Internationalization for Windows Applications], _win32_SUBLANGID, intl.sublangid, winnt/SUBLANGID
-ms.topic: macro
 f1_keywords:
 - winnt/SUBLANGID
 dev_langs:

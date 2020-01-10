@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 8c82d287-b73e-46dd-a319-70c5d0f536c6
 ms.date: 12/05/2018
 ms.keywords: 8c82d287-b73e-46dd-a319-70c5d0f536c6, IMFCollection interface [Media Foundation],RemoveAllElements method, IMFCollection.RemoveAllElements, IMFCollection::RemoveAllElements, RemoveAllElements, RemoveAllElements method [Media Foundation], RemoveAllElements method [Media Foundation],IMFCollection interface, mf.imfcollection_removeallelements, mfobjects/IMFCollection::RemoveAllElements
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFCollection.RemoveAllElements
 dev_langs:

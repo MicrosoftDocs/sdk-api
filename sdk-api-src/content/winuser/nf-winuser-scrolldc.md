@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\scrolldc.htm
 ms.date: 12/05/2018
 ms.keywords: ScrollDC, ScrollDC function [Windows Controls], _win32_ScrollDC, _win32_ScrollDC_cpp, controls.ScrollDC, controls._win32_ScrollDC, winuser/ScrollDC
-ms.topic: function
 f1_keywords:
 - winuser/ScrollDC
 dev_langs:

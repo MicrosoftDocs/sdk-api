@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: D096B1FA-E92F-4B09-9177-13203FF1704D
 ms.date: 12/05/2018
 ms.keywords: GetId, GetId method [Media Foundation], GetId method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetId method, IMFTimedTextCue.GetId, IMFTimedTextCue::GetId, mf.imftimedtextcue_getid, mfmediaengine/IMFTimedTextCue::GetId
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFTimedTextCue.GetId
 dev_langs:

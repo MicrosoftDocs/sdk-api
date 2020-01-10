@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: a7bf1ea2-b127-410c-8b11-84b786ad4a34
 ms.date: 12/05/2018
 ms.keywords: VarCyFromDec, VarCyFromDec function [Automation], _oa96_VarCyFromDec, automat.varcyfromdec, oleauto/VarCyFromDec
-ms.topic: function
 f1_keywords:
 - oleauto/VarCyFromDec
 dev_langs:

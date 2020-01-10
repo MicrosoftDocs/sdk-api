@@ -5,7 +5,6 @@ description: Describes the width, height, format, and color space of a picture b
 tech.root: mf
 ms.assetid: 68428ae9-b052-49bd-9e50-6b5fce7e3e1a
 ms.date: 05/28/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_VIDEO_SAMPLE
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 16bcfd69-9fb2-4214-8a7d-4188c6516ebb
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyGroups interface [BITS],Reset method, IEnumBackgroundCopyGroups.Reset, IEnumBackgroundCopyGroups::Reset, Reset, Reset method [BITS], Reset method [BITS],IEnumBackgroundCopyGroups interface, bits.ienumbackgroundcopygroups_reset, qmgr/IEnumBackgroundCopyGroups::Reset
-ms.topic: method
 f1_keywords:
 - qmgr/IEnumBackgroundCopyGroups.Reset
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 3ddb2d5e-d9ef-4bfd-892e-d59f430f818a
 ms.date: 12/05/2018
 ms.keywords: MFP_GET_FRAME_STEP_EVENT, MFP_GET_FRAME_STEP_EVENT macro [Media Foundation], mf.mfp_get_frame_step_event, mfplay/MFP_GET_FRAME_STEP_EVENT
-ms.topic: macro
 f1_keywords:
 - mfplay/MFP_GET_FRAME_STEP_EVENT
 dev_langs:

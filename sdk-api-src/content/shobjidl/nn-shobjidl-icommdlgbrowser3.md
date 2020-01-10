@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c9286061-8ac8-452b-9204-193bc6b571cb
 ms.date: 12/05/2018
 ms.keywords: ICommDlgBrowser3, ICommDlgBrowser3 interface [Windows Shell], ICommDlgBrowser3 interface [Windows Shell],described, _shell_ICommDlgBrowser3, shell.ICommDlgBrowser3, shobjidl/ICommDlgBrowser3
-ms.topic: interface
 f1_keywords:
 - shobjidl/ICommDlgBrowser3
 dev_langs:

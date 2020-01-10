@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 8ee96d96-bd66-4738-bfae-fbbc98ba8621
 ms.date: 12/05/2018
 ms.keywords: GetCreated, GetCreated method [XPS Documents and Packaging], GetCreated method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetCreated method, IXpsOMCoreProperties.GetCreated, IXpsOMCoreProperties::GetCreated, xps.ixpsomcoreproperties_getcreated, xpsobjectmodel/IXpsOMCoreProperties::GetCreated
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.GetCreated
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\insendmessage.htm
 ms.date: 12/05/2018
 ms.keywords: InSendMessage, InSendMessage function [Windows and Messages], _win32_InSendMessage, _win32_insendmessage_cpp, winmsg.insendmessage, winui._win32_insendmessage, winuser/InSendMessage
-ms.topic: function
 f1_keywords:
 - winuser/InSendMessage
 dev_langs:

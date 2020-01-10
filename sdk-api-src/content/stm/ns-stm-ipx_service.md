@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 37da1071-b665-405c-a4ce-f1a484aeb19b
 ms.date: 12/05/2018
 ms.keywords: '*PIPX_SERVICE, IPX_SERVICE, IPX_SERVICE structure [RAS], PIPX_SERVICE, PIPX_SERVICE structure pointer [RAS], _mpr_ipx_service, rras.ipx_service, stm/IPX_SERVICE, stm/PIPX_SERVICE'
-ms.topic: struct
 f1_keywords:
 - stm/IPX_SERVICE
 dev_langs:

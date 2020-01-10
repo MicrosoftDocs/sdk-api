@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_0j03.htm
 ms.date: 12/05/2018
 ms.keywords: IFILTER_FLAGS, IFILTER_FLAGS enumeration [Indexing Service], IFILTER_FLAGS_OLE_PROPERTIES, _idxs_IFILTER_FLAGS, filter/IFILTER_FLAGS, filter/IFILTER_FLAGS_OLE_PROPERTIES, indexsrv.ifilter_flags, tagIFILTER_FLAGS
-ms.topic: enum
 f1_keywords:
 - filter/IFILTER_FLAGS
 dev_langs:

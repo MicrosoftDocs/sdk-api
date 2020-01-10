@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 2e7de42f-da7a-41a7-b38e-849ab8d72ab2
 ms.date: 12/05/2018
 ms.keywords: IVdsDisk interface [VDS],QueryExtents method, IVdsDisk.QueryExtents, IVdsDisk::QueryExtents, QueryExtents, QueryExtents method [VDS], QueryExtents method [VDS],IVdsDisk interface, base.ivdsdisk_queryextents, vds/IVdsDisk::QueryExtents
-ms.topic: method
 f1_keywords:
 - vds/IVdsDisk.QueryExtents
 dev_langs:

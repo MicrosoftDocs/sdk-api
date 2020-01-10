@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: b354cf0e-2f15-42a5-8e84-4db9bc4e6a8d
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWEXTENSION interface [Security],Skip method, IEnumCERTVIEWEXTENSION object [Security],Skip method, IEnumCERTVIEWEXTENSION.Skip, IEnumCERTVIEWEXTENSION::Skip, Skip, Skip method [Security], Skip method [Security],IEnumCERTVIEWEXTENSION interface, Skip method [Security],IEnumCERTVIEWEXTENSION object, _certsrv_ienumcertviewextension_skip, certview/IEnumCERTVIEWEXTENSION::Skip, security.ienumcertviewextension_skip
-ms.topic: method
 f1_keywords:
 - certview/IEnumCERTVIEWEXTENSION.Skip
 dev_langs:

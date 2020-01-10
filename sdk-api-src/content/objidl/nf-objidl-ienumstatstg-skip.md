@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 97d785d9-961c-44af-a0a0-1d2f610e6c9a
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATSTG interface [Structured Storage],Skip method, IEnumSTATSTG.Skip, IEnumSTATSTG::Skip, Skip, Skip method [Structured Storage], Skip method [Structured Storage],IEnumSTATSTG interface, objidl/IEnumSTATSTG::Skip, stg.ienumstatstg_skip
-ms.topic: method
 f1_keywords:
 - objidl/IEnumSTATSTG.Skip
 dev_langs:

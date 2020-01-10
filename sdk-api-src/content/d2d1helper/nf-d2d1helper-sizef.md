@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: dbb75605-a0ec-464c-bb10-4455a90c4ae9
 ms.date: 12/05/2018
 ms.keywords: SizeF, SizeF function [Direct2D], d2d1helper/SizeF, direct2d.sizef
-ms.topic: function
 f1_keywords:
 - d2d1helper/SizeF
 dev_langs:

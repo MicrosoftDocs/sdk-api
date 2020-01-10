@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 8dc0a2c5-3734-47c7-a716-f53322fee39d
 ms.date: 12/05/2018
 ms.keywords: AddRange, AddRange method [Security], AddRange method [Security],ICryptAttributes interface, ICryptAttributes interface [Security],AddRange method, ICryptAttributes.AddRange, ICryptAttributes::AddRange, certenroll/ICryptAttributes::AddRange, security.icryptattributes_addrange_method
-ms.topic: method
 f1_keywords:
 - certenroll/ICryptAttributes.AddRange
 dev_langs:

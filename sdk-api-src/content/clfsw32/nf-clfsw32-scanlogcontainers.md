@@ -7,7 +7,6 @@ tech.root: Clfs
 ms.assetid: a3a374ab-e5e9-47c0-9a62-d880823035b5
 ms.date: 12/05/2018
 ms.keywords: CLFS_SCAN_BACKWARD, CLFS_SCAN_CLOSE, CLFS_SCAN_FORWARD, CLFS_SCAN_INIT, ScanLogContainers, ScanLogContainers function [Files], clfsw32/ScanLogContainers, fs.scanlogcontainers
-ms.topic: function
 f1_keywords:
 - clfsw32/ScanLogContainers
 dev_langs:

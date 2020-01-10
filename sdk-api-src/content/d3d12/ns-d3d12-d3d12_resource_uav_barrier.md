@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 683F645F-9A90-4648-99EF-2F7444254B41
 ms.date: 12/05/2018
 ms.keywords: D3D12_RESOURCE_UAV_BARRIER, D3D12_RESOURCE_UAV_BARRIER structure, d3d12/D3D12_RESOURCE_UAV_BARRIER, direct3d12.d3d12_resource_uav_barrier
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_RESOURCE_UAV_BARRIER
 dev_langs:

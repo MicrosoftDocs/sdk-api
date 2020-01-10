@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 813d13ba-abe1-4b14-88c7-87ba88a42a3b
 ms.date: 12/05/2018
 ms.keywords: NetScheduleJobAdd, NetScheduleJobAdd function [Network Management], _win32_netschedulejobadd, lmat/NetScheduleJobAdd, netmgmt.netschedulejobadd
-ms.topic: function
 f1_keywords:
 - lmat/NetScheduleJobAdd
 dev_langs:

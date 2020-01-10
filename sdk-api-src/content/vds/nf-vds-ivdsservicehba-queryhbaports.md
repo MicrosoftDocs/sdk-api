@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 2f81e5e9-5563-4435-8ecb-82f2c385c3dc
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceHba interface [VDS],QueryHbaPorts method, IVdsServiceHba.QueryHbaPorts, IVdsServiceHba::QueryHbaPorts, QueryHbaPorts, QueryHbaPorts method [VDS], QueryHbaPorts method [VDS],IVdsServiceHba interface, base.ivdsservicehba_queryhbaports, vds/IVdsServiceHba::QueryHbaPorts
-ms.topic: method
 f1_keywords:
 - vds/IVdsServiceHba.QueryHbaPorts
 dev_langs:

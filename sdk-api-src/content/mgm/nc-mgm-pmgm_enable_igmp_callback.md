@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 6c23779b-d759-4443-a134-0ff27c48dc8e
 ms.date: 12/05/2018
 ms.keywords: PMGM_ENABLE_IGMP_CALLBACK, PMGM_ENABLE_IGMP_CALLBACK callback, PMGM_ENABLE_IGMP_CALLBACK callback function [RAS], _mpr_pmgm_enable_igmp_callback, mgm/PMGM_ENABLE_IGMP_CALLBACK, rras.pmgm_enable_igmp_callback
-ms.topic: callback
 f1_keywords:
 - mgm/PMGM_ENABLE_IGMP_CALLBACK
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: a17d87b2-91d7-4a03-bff7-9bc0ee48c3b4
 ms.date: 12/05/2018
 ms.keywords: BluetoothFindNextDevice, BluetoothFindNextDevice function [Bluetooth], bluetooth.bluetoothfindnextdevice, bluetoothapis/BluetoothFindNextDevice
-ms.topic: function
 f1_keywords:
 - bluetoothapis/BluetoothFindNextDevice
 dev_langs:

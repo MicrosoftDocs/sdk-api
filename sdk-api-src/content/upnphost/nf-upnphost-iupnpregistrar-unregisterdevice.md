@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: 76fca00c-8638-4e2f-8dd1-20b24cde0108
 ms.date: 12/05/2018
 ms.keywords: IUPnPRegistrar interface [UPnP APIs],UnregisterDevice method, IUPnPRegistrar.UnregisterDevice, IUPnPRegistrar::UnregisterDevice, UnregisterDevice, UnregisterDevice method [UPnP APIs], UnregisterDevice method [UPnP APIs],IUPnPRegistrar interface, _upnp_iupnpregistrar_unregisterdevice, upnp.iupnpregistrar_unregisterdevice, upnphost/IUPnPRegistrar::UnregisterDevice
-ms.topic: method
 f1_keywords:
 - upnphost/IUPnPRegistrar.UnregisterDevice
 dev_langs:

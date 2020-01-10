@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: b6f8a61a-493c-4626-9134-f8badce678c4
 ms.date: 12/05/2018
 ms.keywords: SnmpDeleteVb, SnmpDeleteVb function [SNMP], _snmp_snmpdeletevb, snmp.snmpdeletevb, winsnmp/SnmpDeleteVb
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpDeleteVb
 dev_langs:

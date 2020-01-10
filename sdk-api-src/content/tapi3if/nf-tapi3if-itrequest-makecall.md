@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 6896a18a-75ff-4f43-81e2-7b828bb16ff6
 ms.date: 12/05/2018
 ms.keywords: ITRequest interface [TAPI 2.2],MakeCall method, ITRequest.MakeCall, ITRequest::MakeCall, MakeCall, MakeCall method [TAPI 2.2], MakeCall method [TAPI 2.2],ITRequest interface, _tapi3_itrequest_makecall, tapi3.itrequest_makecall, tapi3if/ITRequest::MakeCall
-ms.topic: method
 f1_keywords:
 - tapi3if/ITRequest.MakeCall
 dev_langs:

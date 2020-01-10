@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: FEE1018B-AE00-4934-9C64-AB7A679E6A8C
 ms.date: 12/05/2018
 ms.keywords: Edit_GetFileLineCount, Edit_GetFileLineCount macro [Windows Controls], commctrl/Edit_GetFileLineCount, controls.edit_getfilelinecount
-ms.topic: macro
 f1_keywords:
 - commctrl/Edit_GetFileLineCount
 dev_langs:

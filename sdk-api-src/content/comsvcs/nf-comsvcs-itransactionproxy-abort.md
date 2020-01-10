@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 15ad94ac-311f-486d-988b-9071396f6e34
 ms.date: 12/05/2018
 ms.keywords: Abort, Abort method [COM+], Abort method [COM+],ITransactionProxy interface, ITransactionProxy interface [COM+],Abort method, ITransactionProxy.Abort, ITransactionProxy::Abort, comsvcs/ITransactionProxy::Abort, cos.itransactionproxy_abort
-ms.topic: method
 f1_keywords:
 - comsvcs/ITransactionProxy.Abort
 dev_langs:

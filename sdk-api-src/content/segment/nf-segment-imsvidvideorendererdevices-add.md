@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 650b7895-4e4b-494a-bc06-dafb67fca391
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IMSVidVideoRendererDevices interface, IMSVidVideoRendererDevices interface [Microsoft TV Technologies],Add method, IMSVidVideoRendererDevices.Add, IMSVidVideoRendererDevices::Add, IMSVidVideoRendererDevicesAdd, mstv.imsvidvideorendererdevices_add, segment/IMSVidVideoRendererDevices::Add
-ms.topic: method
 f1_keywords:
 - segment/IMSVidVideoRendererDevices.Add
 dev_langs:

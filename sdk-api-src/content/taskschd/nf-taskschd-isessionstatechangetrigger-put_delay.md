@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 0382b3e7-018d-43e3-893e-b754fe38ed3d
 ms.date: 12/05/2018
 ms.keywords: Delay property [Task Scheduler], Delay property [Task Scheduler],ISessionStateChangeTrigger interface, ISessionStateChangeTrigger interface [Task Scheduler],Delay property, ISessionStateChangeTrigger.Delay, ISessionStateChangeTrigger.put_Delay, ISessionStateChangeTrigger::Delay, ISessionStateChangeTrigger::get_Delay, ISessionStateChangeTrigger::put_Delay, put_Delay, taskschd.isessionstatechangetrigger_delay, taskschd/ISessionStateChangeTrigger::Delay, taskschd/ISessionStateChangeTrigger::get_Delay, taskschd/ISessionStateChangeTrigger::put_Delay
-ms.topic: method
 f1_keywords:
 - taskschd/ISessionStateChangeTrigger.Delay
 dev_langs:

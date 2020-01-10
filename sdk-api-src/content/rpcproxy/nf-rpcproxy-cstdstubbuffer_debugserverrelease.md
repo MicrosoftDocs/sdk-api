@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 3bdf74bf-2aed-4527-8c60-02537465354b
 ms.date: 12/05/2018
 ms.keywords: CStdStubBuffer_DebugServerRelease, CStdStubBuffer_DebugServerRelease function [RPC], rpc.cstdstubbuffer_debugserverrelease, rpcproxy/CStdStubBuffer_DebugServerRelease
-ms.topic: function
 f1_keywords:
 - rpcproxy/CStdStubBuffer_DebugServerRelease
 dev_langs:

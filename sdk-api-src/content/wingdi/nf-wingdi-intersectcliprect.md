@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 9b3f9bfb-337b-45f0-b9ec-399e5f563638
 ms.date: 12/05/2018
 ms.keywords: IntersectClipRect, IntersectClipRect function [Windows GDI], _win32_IntersectClipRect, gdi.intersectcliprect, wingdi/IntersectClipRect
-ms.topic: function
 f1_keywords:
 - wingdi/IntersectClipRect
 dev_langs:

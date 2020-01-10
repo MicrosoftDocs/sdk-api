@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 2d538cea-06cb-4973-8677-27ebcde0aa6f
 ms.date: 12/05/2018
 ms.keywords: WakeByAddressAll, WakeByAddressAll function, base.wakebyaddressall, synchapi/WakeByAddressAll
-ms.topic: function
 f1_keywords:
 - synchapi/WakeByAddressAll
 dev_langs:

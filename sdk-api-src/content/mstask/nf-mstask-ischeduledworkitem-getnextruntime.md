@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: a53700f7-0e2c-413f-b7b3-64aa2e970f11
 ms.date: 12/05/2018
 ms.keywords: GetNextRunTime, GetNextRunTime method [Task Scheduler], GetNextRunTime method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetNextRunTime method, IScheduledWorkItem.GetNextRunTime, IScheduledWorkItem::GetNextRunTime, _msb_ischeduledworkitem_getnextruntime, mstask/IScheduledWorkItem::GetNextRunTime, taskschd.ischeduledworkitem_getnextruntime
-ms.topic: method
 f1_keywords:
 - mstask/IScheduledWorkItem.GetNextRunTime
 dev_langs:

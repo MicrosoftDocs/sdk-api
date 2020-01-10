@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvcustomdraw.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMLVCUSTOMDRAW, LPNMLVCUSTOMDRAW, LPNMLVCUSTOMDRAW structure pointer [Windows Controls], LVCDI_GROUP, LVCDI_ITEM, LVCDI_ITEMSLIST, LVGA_HEADER_CENTER, LVGA_HEADER_LEFT, LVGA_HEADER_RIGHT, NMLVCUSTOMDRAW, NMLVCUSTOMDRAW structure [Windows Controls], _win32_NMLVCUSTOMDRAW, _win32_NMLVCUSTOMDRAW_cpp, commctrl/LPNMLVCUSTOMDRAW, commctrl/NMLVCUSTOMDRAW, controls.NMLVCUSTOMDRAW, controls._win32_NMLVCUSTOMDRAW'
-ms.topic: struct
 f1_keywords:
 - commctrl/NMLVCUSTOMDRAW
 dev_langs:

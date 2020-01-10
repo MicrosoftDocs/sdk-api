@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: d3c739bd-9285-49ec-b2cf-d607f3d9be0c
 ms.date: 12/05/2018
 ms.keywords: ITraceRelogger interface [ETW],RegisterCallback method, ITraceRelogger.RegisterCallback, ITraceRelogger::RegisterCallback, RegisterCallback, RegisterCallback method [ETW], RegisterCallback method [ETW],ITraceRelogger interface, etw.itracerelogger_registercallback, relogger/ITraceRelogger::RegisterCallback
-ms.topic: method
 f1_keywords:
 - relogger/ITraceRelogger.RegisterCallback
 dev_langs:

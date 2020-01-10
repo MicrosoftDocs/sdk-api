@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 61fefc3b-7299-4b52-962d-98f4c2f386dc
 ms.date: 12/05/2018
 ms.keywords: PrintAsyncNotifyConversationStyle, PrintAsyncNotifyConversationStyle enumeration [Windows GDI], _win32_PrintAsyncNotifyConversationStyle, gdi.printasyncnotifyconversationstyle, kBiDirectional, kUniDirectional, prnasnot/PrintAsyncNotifyConversationStyle, prnasnot/kBiDirectional, prnasnot/kUniDirectional
-ms.topic: enum
 f1_keywords:
 - prnasnot/PrintAsyncNotifyConversationStyle
 dev_langs:

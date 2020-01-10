@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: EC694B26-988B-4765-8B9F-130FCF614166
 ms.date: 12/05/2018
 ms.keywords: PSpatialAudioMetadataItemsInfo, PSpatialAudioMetadataItemsInfo structure pointer [Core Audio], SpatialAudioMetadataItemsInfo, SpatialAudioMetadataItemsInfo structure [Core Audio], coreaudio.spatialaudiometadataitemsinfo, spatialaudiometadata/PSpatialAudioMetadataItemsInfo, spatialaudiometadata/SpatialAudioMetadataItemsInfo
-ms.topic: struct
 f1_keywords:
 - spatialaudiometadata/SpatialAudioMetadataItemsInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: b969700d-7145-45eb-ad4b-c6e643975709
 ms.date: 12/05/2018
 ms.keywords: WsSetOutputToBuffer, WsSetOutputToBuffer function [Web Services for Windows], webservices/WsSetOutputToBuffer, wsw.wssetoutputtobuffer
-ms.topic: function
 f1_keywords:
 - webservices/WsSetOutputToBuffer
 dev_langs:

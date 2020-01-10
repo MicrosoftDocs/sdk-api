@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 1d2f8041-2744-4f37-afde-ddce49a8bdc5
 ms.date: 12/05/2018
 ms.keywords: FindNextFileNameW, FindNextFileNameW function [Files], fileapi/FindNextFileNameW, fs.findnextfilenamew
-ms.topic: function
 f1_keywords:
 - fileapi/FindNextFileNameW
 dev_langs:

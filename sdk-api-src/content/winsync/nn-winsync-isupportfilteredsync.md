@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: cf07e322-7c75-49a4-a514-b4c782ceb2d7
 ms.date: 12/05/2018
 ms.keywords: ISupportFilteredSync, ISupportFilteredSync interface [Windows Sync], ISupportFilteredSync interface [Windows Sync],described, winsync.isupportfilteredsync, winsync/ISupportFilteredSync
-ms.topic: interface
 f1_keywords:
 - winsync/ISupportFilteredSync
 dev_langs:

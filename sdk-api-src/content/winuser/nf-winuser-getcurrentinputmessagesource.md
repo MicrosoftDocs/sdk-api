@@ -7,7 +7,6 @@ tech.root: Input_SourceId
 ms.assetid: 35e4ebf5-df9d-4168-9996-355204c2ab93
 ms.date: 12/05/2018
 ms.keywords: GetCurrentInputMessageSource, GetCurrentInputMessageSource function, input_sourceid.getcurrentinputmessagesource, inputsourceid.getcurrentinputmessagesource, winuser/GetCurrentInputMessageSource
-ms.topic: function
 f1_keywords:
 - winuser/GetCurrentInputMessageSource
 dev_langs:

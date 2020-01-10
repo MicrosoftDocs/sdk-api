@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 8ad1a680-0037-40d5-9263-2a2f0862154c
 ms.date: 12/05/2018
 ms.keywords: IBDA_TransportStreamInfo interface [Microsoft TV Technologies],get_PatTableTickCount method, IBDA_TransportStreamInfo.get_PatTableTickCount, IBDA_TransportStreamInfo::get_PatTableTickCount, IBDA_TransportStreamInfoget_PatTableTickCount, bdaiface/IBDA_TransportStreamInfo::get_PatTableTickCount, get_PatTableTickCount, get_PatTableTickCount method [Microsoft TV Technologies], get_PatTableTickCount method [Microsoft TV Technologies],IBDA_TransportStreamInfo interface, mstv.ibda_transportstreaminfo_get_pattabletickcount
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_TransportStreamInfo.get_PatTableTickCount
 dev_langs:

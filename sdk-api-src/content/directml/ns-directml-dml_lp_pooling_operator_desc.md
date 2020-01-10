@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: A1E3AC75-F611-42BD-938E-F5BA0BC8282F
 ms.date: 12/5/2018
 ms.keywords: DML_LP_POOLING_OPERATOR_DESC, DML_LP_POOLING_OPERATOR_DESC structure, direct3d12.dml_lp_pooling_operator_desc, directml/DML_LP_POOLING_OPERATOR_DESC
-ms.topic: struct
 f1_keywords:
 - directml/DML_LP_POOLING_OPERATOR_DESC
 dev_langs:

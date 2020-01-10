@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 3f209586-5452-4928-8f97-70648b22460d
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolCallbackPersistent, SetThreadpoolCallbackPersistent function, base.setthreadpoolcallbackpersistent, winbase/SetThreadpoolCallbackPersistent
-ms.topic: function
 f1_keywords:
 - winbase/SetThreadpoolCallbackPersistent
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 797498ba-5ad6-4476-87d8-de85b30396f4
 ms.date: 12/05/2018
 ms.keywords: OLEVERBATTRIB, OLEVERBATTRIB enumeration [COM], OLEVERBATTRIB_NEVERDIRTIES, OLEVERBATTRIB_ONCONTAINERMENU, _ole_OLEVERBATTRIB, com.oleverbattrib, oleidl/OLEVERBATTRIB, oleidl/OLEVERBATTRIB_NEVERDIRTIES, oleidl/OLEVERBATTRIB_ONCONTAINERMENU
-ms.topic: enum
 f1_keywords:
 - oleidl/OLEVERBATTRIB
 dev_langs:

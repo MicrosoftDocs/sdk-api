@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 3c2a9899-add7-4c09-b32e-11061fc2c5a5
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],UnselectCall method, ITAutomatedPhoneControl.UnselectCall, ITAutomatedPhoneControl::UnselectCall, UnselectCall, UnselectCall method [TAPI 2.2], UnselectCall method [TAPI 2.2],ITAutomatedPhoneControl interface, _tapi3_itautomatedphonecontrol_unselectcall, tapi3.itautomatedphonecontrol_unselectcall, tapi3if/ITAutomatedPhoneControl::UnselectCall
-ms.topic: method
 f1_keywords:
 - tapi3if/ITAutomatedPhoneControl.UnselectCall
 dev_langs:

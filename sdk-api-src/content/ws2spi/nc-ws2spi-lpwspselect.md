@@ -4,7 +4,6 @@ title: LPWSPSELECT
 description: The LPWSPSelect function determines the status of one or more sockets.
 ms.date: 9/12/2019
 ms.keywords: LPWSPSELECT
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

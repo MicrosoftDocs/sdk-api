@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 61db33de-a38c-4c52-9f1b-66d46f25c297
 ms.date: 12/05/2018
 ms.keywords: IBitsPeerCacheRecord, IBitsPeerCacheRecord interface [BITS], IBitsPeerCacheRecord interface [BITS],described, bits.ibitspeercacherecord, bits3_0/IBitsPeerCacheRecord
-ms.topic: interface
 f1_keywords:
 - bits3_0/IBitsPeerCacheRecord
 dev_langs:

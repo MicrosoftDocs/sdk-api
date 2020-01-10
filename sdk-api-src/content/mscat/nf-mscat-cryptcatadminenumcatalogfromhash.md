@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 33ab2d01-94ab-4d23-a054-9da0731485d6
 ms.date: 12/05/2018
 ms.keywords: CryptCATAdminEnumCatalogFromHash, CryptCATAdminEnumCatalogFromHash function [Security], mscat/CryptCATAdminEnumCatalogFromHash, security.cryptcatadminenumcatalogfromhash
-ms.topic: function
 f1_keywords:
 - mscat/CryptCATAdminEnumCatalogFromHash
 dev_langs:

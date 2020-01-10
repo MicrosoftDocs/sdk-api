@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenucheckmarkdimensions.htm
 ms.date: 12/05/2018
 ms.keywords: GetMenuCheckMarkDimensions, GetMenuCheckMarkDimensions function [Menus and Other Resources], _win32_GetMenuCheckMarkDimensions, _win32_getmenucheckmarkdimensions_cpp, menurc.getmenucheckmarkdimensions, winui._win32_getmenucheckmarkdimensions, winuser/GetMenuCheckMarkDimensions
-ms.topic: function
 f1_keywords:
 - winuser/GetMenuCheckMarkDimensions
 dev_langs:

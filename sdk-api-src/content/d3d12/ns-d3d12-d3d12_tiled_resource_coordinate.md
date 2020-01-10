@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: B7C51C7A-8500-4570-99C1-AE51D6A88529
 ms.date: 12/05/2018
 ms.keywords: D3D12_TILED_RESOURCE_COORDINATE, D3D12_TILED_RESOURCE_COORDINATE structure, d3d12/D3D12_TILED_RESOURCE_COORDINATE, direct3d12.d3d12_tiled_resource_coordinate
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_TILED_RESOURCE_COORDINATE
 dev_langs:

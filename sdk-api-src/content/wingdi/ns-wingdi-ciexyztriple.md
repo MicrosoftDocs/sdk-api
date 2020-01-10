@@ -7,7 +7,6 @@ tech.root: WCS
 ms.assetid: cf4473b0-7e54-42d1-a013-2442a540daee
 ms.date: 12/05/2018
 ms.keywords: '*LPCIEXYZTRIPLE, CIEXYZTRIPLE, CIEXYZTRIPLE structure [Windows Color System], CIEXYZTRIPLE typedef CIEXYZTRIPLE FAR* LPCIEXYZTRIPLE, CIEXYZTRIPLE typedef CIEXYZTRIPLE FAR* LPCIEXYZTRIPLE structure [Windows Color System], _color_CIEXYZTRIPLE_str, wcs.ciexyztriple, wingdi/CIEXYZTRIPLE'
-ms.topic: struct
 f1_keywords:
 - wingdi/CIEXYZTRIPLE typedef CIEXYZTRIPLE FAR* LPCIEXYZTRIPLE
 dev_langs:

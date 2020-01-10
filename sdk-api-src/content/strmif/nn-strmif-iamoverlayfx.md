@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6bc78464-8c9e-4016-b9aa-6589d53d45bf
 ms.date: 12/05/2018
 ms.keywords: IAMOverlayFX, IAMOverlayFX interface [DirectShow], IAMOverlayFX interface [DirectShow],described, IAMOverlayFXInterface, dshow.iamoverlayfx, strmif/IAMOverlayFX
-ms.topic: interface
 f1_keywords:
 - strmif/IAMOverlayFX
 dev_langs:

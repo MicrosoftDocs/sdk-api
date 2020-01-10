@@ -5,7 +5,6 @@ description: Retrieves the number of past and future reference frames required f
 tech.root: mf
 ms.assetid: 4d1ee0ed-59a3-4a6d-b636-9fb0bd3e5141
 ms.date: 05/28/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_FEATURE_DATA_VIDEO_PROCESS_REFERENCE_INFO
 dev_langs:

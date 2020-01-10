@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 398bb0c1-39f1-4a51-9382-421639ab7b8e
 ms.date: 12/05/2018
 ms.keywords: IParentAndItem interface [Windows Shell],SetParentAndItem method, IParentAndItem.SetParentAndItem, IParentAndItem::SetParentAndItem, SetParentAndItem, SetParentAndItem method [Windows Shell], SetParentAndItem method [Windows Shell],IParentAndItem interface, _shell_IParentAndItem_SetParentAndItem, shell.IParentAndItem_SetParentAndItem, shobjidl_core/IParentAndItem::SetParentAndItem
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IParentAndItem.SetParentAndItem
 dev_langs:

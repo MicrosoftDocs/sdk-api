@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 1c642958-88df-48b2-8eb1-0d032af71f71
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenter9 interface [DirectShow],PresentImage method, IVMRImagePresenter9.PresentImage, IVMRImagePresenter9::PresentImage, IVMRImagePresenter9PresentImage, PresentImage, PresentImage method [DirectShow], PresentImage method [DirectShow],IVMRImagePresenter9 interface, dshow.ivmrimagepresenter9_presentimage, vmr9/IVMRImagePresenter9::PresentImage
-ms.topic: method
 f1_keywords:
 - vmr9/IVMRImagePresenter9.PresentImage
 dev_langs:

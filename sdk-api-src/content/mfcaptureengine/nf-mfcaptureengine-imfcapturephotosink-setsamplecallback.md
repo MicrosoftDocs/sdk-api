@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 595716F6-8059-4B56-9FB3-906846BA3CBB
 ms.date: 12/05/2018
 ms.keywords: IMFCapturePhotoSink interface [Media Foundation],SetSampleCallback method, IMFCapturePhotoSink.SetSampleCallback, IMFCapturePhotoSink::SetSampleCallback, SetSampleCallback, SetSampleCallback method [Media Foundation], SetSampleCallback method [Media Foundation],IMFCapturePhotoSink interface, mf.imfcapturephotosink_setsamplecallback, mfcaptureengine/IMFCapturePhotoSink::SetSampleCallback
-ms.topic: method
 f1_keywords:
 - mfcaptureengine/IMFCapturePhotoSink.SetSampleCallback
 dev_langs:

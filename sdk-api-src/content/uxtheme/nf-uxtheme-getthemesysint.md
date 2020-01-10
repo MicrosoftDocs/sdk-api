@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesysint.htm
 ms.date: 12/05/2018
 ms.keywords: GetThemeSysInt, GetThemeSysInt function [Windows Controls], TMT_MINCOLORDEPTH, controls.GetThemeSysInt, controls.inet_GetThemeSysInt, inet_GetThemeSysInt, inet_GetThemeSysInt_cpp, uxtheme/GetThemeSysInt
-ms.topic: function
 f1_keywords:
 - uxtheme/GetThemeSysInt
 dev_langs:

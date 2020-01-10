@@ -7,7 +7,6 @@ tech.root: xblidp
 ms.assetid: E1113568-9C4D-4091-80C2-A04549A857F2
 ms.date: 12/05/2018
 ms.keywords: GetEnvironment, GetEnvironment method, GetEnvironment method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetEnvironment method, IXblIdpAuthTokenResult.GetEnvironment, IXblIdpAuthTokenResult::GetEnvironment, xblidp.ixblidpauthtokenresult_getenvironment, xblidpauthmanager/IXblIdpAuthTokenResult::GetEnvironment
-ms.topic: method
 f1_keywords:
 - xblidpauthmanager/IXblIdpAuthTokenResult.GetEnvironment
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: proc_snap
 ms.assetid: 68BC42FD-9A30-462F-AFB1-DF9587C50F45
 ms.date: 12/05/2018
 ms.keywords: PSS_THREAD_INFORMATION, PSS_THREAD_INFORMATION structure, proc_snap.pss_thread_information, processsnapshot/PSS_THREAD_INFORMATION
-ms.topic: struct
 f1_keywords:
 - processsnapshot/PSS_THREAD_INFORMATION
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 2fd838b5-5623-4133-9ad8-ec051b2b698d
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportCacheable interface [Windows Deployment Services],Refresh method, IWdsTransportCacheable.Refresh, IWdsTransportCacheable::Refresh, Refresh, Refresh method [Windows Deployment Services], Refresh method [Windows Deployment Services],IWdsTransportCacheable interface, wds.iwdstransportcacheable_refresh, wdstptmgmt/IWdsTransportCacheable::Refresh
-ms.topic: method
 f1_keywords:
 - wdstptmgmt/IWdsTransportCacheable.Refresh
 dev_langs:

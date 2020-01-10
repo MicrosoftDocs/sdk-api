@@ -7,7 +7,6 @@ tech.root: devlic
 ms.assetid: C75F8B6E-EAFB-48E2-93B1-CEC1A1FF5FC0
 ms.date: 12/05/2018
 ms.keywords: RemoveDeveloperLicense, RemoveDeveloperLicense function, devlic.removedeveloperlicense, wsdevlicensing/RemoveDeveloperLicense
-ms.topic: function
 f1_keywords:
 - wsdevlicensing/RemoveDeveloperLicense
 dev_langs:

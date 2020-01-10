@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 32f432a7-76be-4b75-8863-bc67cdcda781
 ms.date: 12/05/2018
 ms.keywords: _win32_capPreviewScale, capPreviewScale, capPreviewScale macro [Windows Multimedia], multimedia.cappreviewscale, vfw/capPreviewScale
-ms.topic: macro
 f1_keywords:
 - vfw/capPreviewScale
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 90b3f2f4-5655-42e3-bdef-62c090800e5e
 ms.date: 12/05/2018
 ms.keywords: ITfKeyEventSink interface [Text Services Framework],OnPreservedKey method, ITfKeyEventSink.OnPreservedKey, ITfKeyEventSink::OnPreservedKey, OnPreservedKey, OnPreservedKey method [Text Services Framework], OnPreservedKey method [Text Services Framework],ITfKeyEventSink interface, _tsf_itfkeyeventsink_onpreservedkey_ref, msctf/ITfKeyEventSink::OnPreservedKey, tsf.itfkeyeventsink_onpreservedkey
-ms.topic: method
 f1_keywords:
 - msctf/ITfKeyEventSink.OnPreservedKey
 dev_langs:

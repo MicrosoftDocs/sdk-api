@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 5cac3834-5f0a-4977-802e-b3b824a01dbc
 ms.date: 12/05/2018
 ms.keywords: GetPrimaryBufferInterface, GetPrimaryBufferInterface method [DirectShow], GetPrimaryBufferInterface method [DirectShow],IAMDirectSound interface, IAMDirectSound interface [DirectShow],GetPrimaryBufferInterface method, IAMDirectSound.GetPrimaryBufferInterface, IAMDirectSound::GetPrimaryBufferInterface, IAMDirectSoundGetPrimaryBufferInterface, amaudio/IAMDirectSound::GetPrimaryBufferInterface, dshow.iamdirectsound_getprimarybufferinterface
-ms.topic: method
 f1_keywords:
 - amaudio/IAMDirectSound.GetPrimaryBufferInterface
 dev_langs:

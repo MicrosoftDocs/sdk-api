@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 3cfbb16f-88fa-41f1-b719-cd5e8ad636cc
 ms.date: 12/05/2018
 ms.keywords: ISmimeCapability, ISmimeCapability interface [Security], ISmimeCapability interface [Security],described, certenroll/ISmimeCapability, security.ismimecapability
-ms.topic: interface
 f1_keywords:
 - certenroll/ISmimeCapability
 dev_langs:

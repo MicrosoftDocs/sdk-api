@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: 2ae65ed2-7702-4e9b-b986-68b83ebe8bf5
 ms.date: 12/05/2018
 ms.keywords: DRMParseUnboundLicense, DRMParseUnboundLicense function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMParseUnboundLicense, rm.drmparseunboundlicense
-ms.topic: function
 f1_keywords:
 - msdrm/DRMParseUnboundLicense
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: f5461326-3def-4564-81ea-32a63b889da0
 ms.date: 12/05/2018
 ms.keywords: SetTextContext, SetTextContext function [Tablet PC], f5461326-3def-4564-81ea-32a63b889da0, recapis/SetTextContext, tablet.settextcontext
-ms.topic: function
 f1_keywords:
 - recapis/SetTextContext
 dev_langs:

@@ -5,7 +5,6 @@ description: Describes a ID3D12VideoDecoderHeap.
 tech.root: mf
 ms.assetid: c7a67ba0-08c0-46d2-84c8-ec5d3b127b89
 ms.date: 05/28/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_VIDEO_DECODER_HEAP_DESC
 dev_langs:

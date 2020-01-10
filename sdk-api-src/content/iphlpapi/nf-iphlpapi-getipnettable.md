@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 01bcf86e-5fcc-4ce9-bb89-02d393e75d1d
 ms.date: 12/05/2018
 ms.keywords: GetIpNetTable, GetIpNetTable function [IP Helper], _iphlp_getipnettable, iphlp.getipnettable, iphlpapi/GetIpNetTable
-ms.topic: function
 f1_keywords:
 - iphlpapi/GetIpNetTable
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 53a0fdb3-583d-4da2-939c-6640ca9e6c31
 ms.date: 12/05/2018
 ms.keywords: '*LPDDOPENVIDEOPORTIN, DDOPENVIDEOPORTIN, DDOPENVIDEOPORTIN structure [Display Devices], LPDDOPENVIDEOPORTIN, LPDDOPENVIDEOPORTIN structure pointer [Display Devices], ddkmapi/DDOPENVIDEOPORTIN, ddkmapi/LPDDOPENVIDEOPORTIN, ddstrcts_946323a4-8ead-46d5-aa18-2a3e1eaef2f1.xml, display.ddopenvideoportin'
-ms.topic: struct
 f1_keywords:
 - ddkmapi/DDOPENVIDEOPORTIN
 dev_langs:

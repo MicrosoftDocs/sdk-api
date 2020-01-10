@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: ce10ae94-5bd5-4f97-a341-8d5f894bda59
 ms.date: 12/05/2018
 ms.keywords: IAttributeSet, IAttributeSet interface [Microsoft TV Technologies], IAttributeSet interface [Microsoft TV Technologies],described, IAttributeSetInterface, dsattrib/IAttributeSet, mstv.iattributeset
-ms.topic: interface
 f1_keywords:
 - dsattrib/IAttributeSet
 dev_langs:

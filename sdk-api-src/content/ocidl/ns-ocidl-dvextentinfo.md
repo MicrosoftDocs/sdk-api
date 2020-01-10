@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: bd603de2-39db-43a1-a391-01dcfedc073f
 ms.date: 12/05/2018
 ms.keywords: DVEXTENTINFO, DVEXTENTINFO structure [COM], _ole_DVEXTENTINFO, com.dvextentinfo, ocidl/DVEXTENTINFO
-ms.topic: struct
 f1_keywords:
 - ocidl/DVEXTENTINFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 896737ef-a05c-4f0f-b8b0-56355ae9c2d9
 ms.date: 12/05/2018
 ms.keywords: PathAppend, PathAppend function [Windows Shell], PathAppendA, PathAppendW, _win32_PathAppend, shell.PathAppend, shlwapi/PathAppend, shlwapi/PathAppendA, shlwapi/PathAppendW
-ms.topic: function
 f1_keywords:
 - shlwapi/PathAppend
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 2FEA3583-8868-4763-8308-3C1E8F72A9BC
 ms.date: 12/05/2018
 ms.keywords: ID3D11Linker interface [Direct3D 11],UseLibrary method, ID3D11Linker.UseLibrary, ID3D11Linker::UseLibrary, UseLibrary, UseLibrary method [Direct3D 11], UseLibrary method [Direct3D 11],ID3D11Linker interface, d3d11shader/ID3D11Linker::UseLibrary, direct3d11.id3d11linker_uselibrary
-ms.topic: method
 f1_keywords:
 - d3d11shader/ID3D11Linker.UseLibrary
 dev_langs:

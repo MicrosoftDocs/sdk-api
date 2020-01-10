@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.conversion.XMConvertFloatToHalf(float)
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMConvertFloatToHalf, XMConvertFloatToHalf, XMConvertFloatToHalf method [DirectX Math Support APIs], dxmath.xmconvertfloattohalf
-ms.topic: function
 f1_keywords:
 - directxpackedvector/XMConvertFloatToHalf
 dev_langs:

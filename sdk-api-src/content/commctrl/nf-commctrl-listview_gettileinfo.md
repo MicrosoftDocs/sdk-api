@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gettileinfo.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_GetTileInfo, ListView_GetTileInfo macro [Windows Controls], _win32_ListView_GetTileInfo, _win32_ListView_GetTileInfo_cpp, commctrl/ListView_GetTileInfo, controls.ListView_GetTileInfo, controls._win32_ListView_GetTileInfo
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_GetTileInfo
 dev_langs:

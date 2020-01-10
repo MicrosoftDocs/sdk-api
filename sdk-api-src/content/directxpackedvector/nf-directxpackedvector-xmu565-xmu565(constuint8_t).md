@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: d723974d-8834-4798-8911-8026b0eb5b79
 ms.date: 05/06/2019
 ms.keywords: XMU565, XMU565 constructor [DirectX Math Support APIs], XMU565 constructor [DirectX Math Support APIs],XMU565 structure, XMU565 structure [DirectX Math Support APIs],XMU565 constructor, XMU565.XMU565, XMU565.XMU565(), XMU565.XMU565(const uint8_t), XMU565::XMU565, XMU565::XMU565(const uint8_t), dxmath.xmu565_ctor_1
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMU565.XMU565
 dev_langs:

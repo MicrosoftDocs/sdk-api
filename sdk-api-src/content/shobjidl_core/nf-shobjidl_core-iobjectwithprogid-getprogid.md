@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 37023615-09cb-4607-9496-7fe9d9f7c947
 ms.date: 12/05/2018
 ms.keywords: GetProgID, GetProgID method [Windows Shell], GetProgID method [Windows Shell],IObjectWithProgID interface, IObjectWithProgID interface [Windows Shell],GetProgID method, IObjectWithProgID.GetProgID, IObjectWithProgID::GetProgID, _shell_IObjectWithProgID_GetProgID, shell.IObjectWithProgID_GetProgID, shobjidl_core/IObjectWithProgID::GetProgID
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IObjectWithProgID.GetProgID
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: xaml_diagnostics
 ms.assetid: BE45AF9E-0C2D-439B-A360-2B9AE9359AEE
 ms.date: 12/05/2018
 ms.keywords: GetUiLayer, GetUiLayer method, GetUiLayer method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetUiLayer method, IXamlDiagnostics.GetUiLayer, IXamlDiagnostics::GetUiLayer, xaml_diagnostics.ixamldiagnostics_getuilayer, xamlom/IXamlDiagnostics::GetUiLayer
-ms.topic: method
 f1_keywords:
 - xamlom/IXamlDiagnostics.GetUiLayer
 dev_langs:

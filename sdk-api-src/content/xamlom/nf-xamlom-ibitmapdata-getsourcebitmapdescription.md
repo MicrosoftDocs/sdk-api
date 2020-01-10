@@ -7,7 +7,6 @@ tech.root: xaml_diagnostics
 ms.assetid: 3B11A54C-347D-4F14-A5F8-36250FC5E06B
 ms.date: 12/05/2018
 ms.keywords: GetSourceBitmapDescription, GetSourceBitmapDescription method, GetSourceBitmapDescription method,IBitmapData interface, IBitmapData interface,GetSourceBitmapDescription method, IBitmapData.GetSourceBitmapDescription, IBitmapData::GetSourceBitmapDescription, xaml_diagnostics.ibitmapdata_getsourcebitmapdescription, xamlom/IBitmapData::GetSourceBitmapDescription
-ms.topic: method
 f1_keywords:
 - xamlom/IBitmapData.GetSourceBitmapDescription
 dev_langs:

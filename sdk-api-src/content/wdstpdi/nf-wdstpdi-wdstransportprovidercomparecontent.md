@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 206b85e2-e139-4f62-9107-ed78893a7ad2
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderCompareContent, WdsTransportProviderCompareContent callback, WdsTransportProviderCompareContent callback function [Windows Deployment Services], wds.wdstransportprovidercomparecontent, wdstpdi/WdsTransportProviderCompareContent
-ms.topic: function
 f1_keywords:
 - wdstpdi/WdsTransportProviderCompareContent
 dev_langs:

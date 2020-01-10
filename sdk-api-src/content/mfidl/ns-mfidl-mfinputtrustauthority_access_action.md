@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 24e74739-054c-46ef-8df7-b29a9a2ea94a
 ms.date: 12/05/2018
 ms.keywords: 24e74739-054c-46ef-8df7-b29a9a2ea94a, MFINPUTTRUSTAUTHORITY_ACCESS_ACTION, MFINPUTTRUSTAUTHORITY_ACCESS_ACTION structure [Media Foundation], mf.mfinputtrustauthority_access_action, mfidl/MFINPUTTRUSTAUTHORITY_ACCESS_ACTION
-ms.topic: struct
 f1_keywords:
 - mfidl/MFINPUTTRUSTAUTHORITY_ACCESS_ACTION
 dev_langs:

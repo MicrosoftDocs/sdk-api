@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: e89c9315-efe4-4241-a7c4-f4475b107701
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SnmpListen, SnmpListen function [SNMP], _snmp_snmplisten, snmp.snmplisten, winsnmp/SnmpListen
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpListen
 dev_langs:

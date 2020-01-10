@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 237E52F7-5EB9-45DA-ACC3-391ED3BF7C5E
 ms.date: 12/05/2018
 ms.keywords: ISnapinHelp, ISnapinHelp interface [MMC], ISnapinHelp interface [MMC],described, mmc.isnapinhelp, mmc/ISnapinHelp
-ms.topic: interface
 f1_keywords:
 - mmc/ISnapinHelp
 dev_langs:

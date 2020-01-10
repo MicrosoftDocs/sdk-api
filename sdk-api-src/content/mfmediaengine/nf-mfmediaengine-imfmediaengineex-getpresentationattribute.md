@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 127667EA-8ED2-428E-8F6B-C280CF42E1C5
 ms.date: 12/05/2018
 ms.keywords: GetPresentationAttribute, GetPresentationAttribute method [Media Foundation], GetPresentationAttribute method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetPresentationAttribute method, IMFMediaEngineEx.GetPresentationAttribute, IMFMediaEngineEx::GetPresentationAttribute, mf.imfmediaengineex_getpresentationattribute, mfmediaengine/IMFMediaEngineEx::GetPresentationAttribute
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngineEx.GetPresentationAttribute
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: fb4f6b03-01cc-4855-8bc7-de5191068040
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileGroupImported, IFsrmFileGroupImported interface [File Server Resource Manager], IFsrmFileGroupImported interface [File Server Resource Manager],described, fs.ifsrmfilegroupimported, fsrm.ifsrmfilegroupimported, fsrm/IFsrmFileGroupImported
-ms.topic: interface
 f1_keywords:
 - fsrmscreen/IFsrmFileGroupImported
 dev_langs:

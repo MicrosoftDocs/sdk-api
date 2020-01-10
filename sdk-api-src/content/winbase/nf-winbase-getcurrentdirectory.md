@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 1fbe6289-2ca8-4ca8-b004-ecf513f9b0bd
 ms.date: 12/05/2018
 ms.keywords: GetCurrentDirectory, GetCurrentDirectory function [Files], GetCurrentDirectoryA, GetCurrentDirectoryW, _win32_getcurrentdirectory, base.getcurrentdirectory, fs.getcurrentdirectory, winbase/GetCurrentDirectory, winbase/GetCurrentDirectoryA, winbase/GetCurrentDirectoryW
-ms.topic: function
 f1_keywords:
 - winbase/GetCurrentDirectory
 dev_langs:

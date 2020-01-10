@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 0453B37B-A73A-4CD8-AD09-49B9A65B9FD6
 ms.date: 12/05/2018
 ms.keywords: GetPosTable, GetPosTable method [Internationalization for Windows Applications], GetPosTable method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],GetPosTable method, IFEDictionary.GetPosTable, IFEDictionary::GetPosTable, intl.ifedictionary_getpostable, msime/IFEDictionary::GetPosTable
-ms.topic: method
 f1_keywords:
 - msime/IFEDictionary.GetPosTable
 dev_langs:

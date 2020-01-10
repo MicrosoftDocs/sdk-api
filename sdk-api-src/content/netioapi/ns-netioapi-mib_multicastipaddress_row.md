@@ -7,7 +7,6 @@ tech.root: MIB
 ms.assetid: 2b75d1bd-2867-43e1-94e6-626fc761dac6
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_MULTICASTIPADDRESS_ROW, MIB_MULTICASTIPADDRESS_ROW, MIB_MULTICASTIPADDRESS_ROW structure [MIB], PMIB_MULTICASTIPADDRESS_ROW, PMIB_MULTICASTIPADDRESS_ROW structure pointer [MIB], mib.mib_multicastipaddress_row, netioapi/MIB_MULTICASTIPADDRESS_ROW, netioapi/PMIB_MULTICASTIPADDRESS_ROW'
-ms.topic: struct
 f1_keywords:
 - netioapi/MIB_MULTICASTIPADDRESS_ROW
 dev_langs:

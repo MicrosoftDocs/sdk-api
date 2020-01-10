@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 6fe02f0a-8cce-47f0-807e-e627336adf2c
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceScriptable3, IWorkspaceScriptable3 interface [Remote Desktop Services], IWorkspaceScriptable3 interface [Remote Desktop Services],described, termserv.iworkspacescriptable3, workspaceruntime/IWorkspaceScriptable3
-ms.topic: interface
 f1_keywords:
 - workspaceruntime/IWorkspaceScriptable3
 dev_langs:

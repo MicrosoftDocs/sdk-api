@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 0ED396CC-3CDA-440A-9FA7-3F3A85522778
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [App packaging and management], Close method [App packaging and management],IAppxEncryptedBundleWriter interface, IAppxEncryptedBundleWriter interface [App packaging and management],Close method, IAppxEncryptedBundleWriter.Close, IAppxEncryptedBundleWriter::Close, appxpackaging/IAppxEncryptedBundleWriter::Close, appxpkg.iappxencryptedbundlewriter_close
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxEncryptedBundleWriter.Close
 dev_langs:

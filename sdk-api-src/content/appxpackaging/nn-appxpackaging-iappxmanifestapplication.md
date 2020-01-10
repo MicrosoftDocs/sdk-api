@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 16FC78D1-7387-4C90-9F63-BCFA110BC487
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestApplication, IAppxManifestApplication interface [App packaging and management], IAppxManifestApplication interface [App packaging and management],described, appxpackaging/IAppxManifestApplication, appxpkg.iappxmanifestapplication
-ms.topic: interface
 f1_keywords:
 - appxpackaging/IAppxManifestApplication
 dev_langs:

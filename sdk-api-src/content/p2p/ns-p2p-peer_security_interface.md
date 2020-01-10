@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: b4331cfc-dc1a-490b-b21d-0550f1d3fe33
 ms.date: 12/05/2018
 ms.keywords: '*PPEER_SECURITY_INTERFACE, PEER_SECURITY_INTERFACE, PEER_SECURITY_INTERFACE structure [Peer Networking], PPEER_SECURITY_INTERFACE, PPEER_SECURITY_INTERFACE structure pointer [Peer Networking], p2p.peer_security_interface, p2p/PPEER_SECURITY_INTERFACE, p2p/peer_security_interface_tag'
-ms.topic: struct
 f1_keywords:
 - p2p/PEER_SECURITY_INTERFACE
 dev_langs:

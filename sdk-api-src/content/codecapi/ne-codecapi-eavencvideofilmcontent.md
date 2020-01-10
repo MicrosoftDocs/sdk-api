@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 64a7c075-342d-49c1-90eb-9ac34d0c2318
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncVideoFilmContent, codecapi/eAVEncVideoFilmContent_FilmOnly, codecapi/eAVEncVideoFilmContent_Mixed, codecapi/eAVEncVideoFilmContent_VideoOnly, dshow.eavencvideofilmcontent, eAVEncVideoFilmContent, eAVEncVideoFilmContent enumeration [DirectShow], eAVEncVideoFilmContentEnumeration, eAVEncVideoFilmContent_FilmOnly, eAVEncVideoFilmContent_Mixed, eAVEncVideoFilmContent_VideoOnly
-ms.topic: enum
 f1_keywords:
 - codecapi/eAVEncVideoFilmContent
 dev_langs:

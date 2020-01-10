@@ -4,7 +4,6 @@ title: BoundingOrientedBox::Transform
 description: Transforms the BoundingOrientedBox.
 ms.date: 04/22/19
 ms.keywords: BoundingOrientedBox::Transform
-ms.topic: language-reference
 f1_keywords:
 - directxcollision/BoundingOrientedBox::Transform
 dev_langs:

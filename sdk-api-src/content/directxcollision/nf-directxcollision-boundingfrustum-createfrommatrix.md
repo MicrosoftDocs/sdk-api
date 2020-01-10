@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.CreateFromMatrix(BoundingFrustum@,XMMATRIX)
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],CreateFromMatrix method, BoundingFrustum.CreateFromMatrix, BoundingFrustum::CreateFromMatrix, CreateFromMatrix, CreateFromMatrix method [DirectX Math Support APIs], CreateFromMatrix method [DirectX Math Support APIs],BoundingFrustum interface, dxmath.boundingfrustum_createfrommatrix
-ms.topic: method
 f1_keywords:
 - directxcollision/BoundingFrustum.CreateFromMatrix
 dev_langs:

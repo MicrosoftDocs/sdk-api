@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ce1ee472-e245-4112-858a-1d9739f5a36d
 ms.date: 12/05/2018
 ms.keywords: IDelegateFolder interface [Windows Shell],SetItemAlloc method, IDelegateFolder.SetItemAlloc, IDelegateFolder::SetItemAlloc, SetItemAlloc, SetItemAlloc method [Windows Shell], SetItemAlloc method [Windows Shell],IDelegateFolder interface, shell.IDelegateFolder_SetItemAlloc, shell_IDelegateFolder_SetItemAlloc, shobjidl_core/IDelegateFolder::SetItemAlloc
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IDelegateFolder.SetItemAlloc
 dev_langs:

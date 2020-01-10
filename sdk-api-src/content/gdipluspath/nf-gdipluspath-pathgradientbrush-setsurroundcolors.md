@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\setsurroundcolors.htm
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush class [GDI+],SetSurroundColors method, PathGradientBrush.SetSurroundColors, PathGradientBrush::SetSurroundColors, SetSurroundColors, SetSurroundColors method [GDI+], SetSurroundColors method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetSurroundColors_colors_count_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetSurroundColors_colors_count_
-ms.topic: method
 f1_keywords:
 - gdipluspath/PathGradientBrush.SetSurroundColors
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: D05A558E-79D9-4063-A714-F54D8EB8BBF8
 ms.date: 12/05/2018
 ms.keywords: EndFieldUpdates, EndFieldUpdates method [Windows Shell], EndFieldUpdates method [Windows Shell],ICredentialProviderCredentialEvents2 interface, ICredentialProviderCredentialEvents2 interface [Windows Shell],EndFieldUpdates method, ICredentialProviderCredentialEvents2.EndFieldUpdates, ICredentialProviderCredentialEvents2::EndFieldUpdates, credentialprovider/ICredentialProviderCredentialEvents2::EndFieldUpdates, shell.ICredentialProviderCredentialEvents2_EndFieldUpdates
-ms.topic: method
 f1_keywords:
 - credentialprovider/ICredentialProviderCredentialEvents2.EndFieldUpdates
 dev_langs:

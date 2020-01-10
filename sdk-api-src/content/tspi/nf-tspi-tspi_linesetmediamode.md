@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 3a0a5daf-eb4a-4e60-b343-8a47d342a86a
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetMediaMode, TSPI_lineSetMediaMode function [TAPI 2.2], _tspi_tspi_linesetmediamode, tspi.tspi_linesetmediamode, tspi/TSPI_lineSetMediaMode
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineSetMediaMode
 dev_langs:

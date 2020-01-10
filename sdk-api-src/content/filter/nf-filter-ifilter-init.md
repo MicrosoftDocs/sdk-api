@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_2oc4.htm
 ms.date: 12/05/2018
 ms.keywords: IFilter interface [Indexing Service],Init method, IFilter.Init, IFilter::Init, Init, Init method [Indexing Service], Init method [Indexing Service],IFilter interface, _idxs_IFilter_Init, filter/IFilter::Init, indexsrv.ifilter_init
-ms.topic: method
 f1_keywords:
 - filter/IFilter.Init
 dev_langs:

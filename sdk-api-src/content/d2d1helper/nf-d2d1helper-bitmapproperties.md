@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 5f85602a-3706-4cd6-8124-07e06be2d29c
 ms.date: 12/05/2018
 ms.keywords: BitmapProperties, BitmapProperties function [Direct2D], d2d1helper/BitmapProperties, direct2d.bitmapproperties
-ms.topic: function
 f1_keywords:
 - d2d1helper/BitmapProperties
 dev_langs:

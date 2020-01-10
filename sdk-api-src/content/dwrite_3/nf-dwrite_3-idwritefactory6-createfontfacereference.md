@@ -5,7 +5,6 @@ description: Creates a reference to a specific font instance within a file.
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: IDWriteFactory6 interface [Direct Write],CreateFontFaceReference method, IDWriteFactory6.CreateFontFaceReference, IDWriteFactory6::CreateFontFaceReference, CreateFontFaceReference, CreateFontFaceReference method [Direct Write], CreateFontFaceReference method [Direct Write],IDWriteFactory6 interface, directwrite.idwritefactory6_createfontfacereference, dwrite_3/IDWriteFactory6::CreateFontFaceReference
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFactory6.CreateFontFaceReference
 dev_langs:

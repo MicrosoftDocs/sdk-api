@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 9360522a-05fd-41ae-95b1-9270a9f4f728
 ms.date: 12/05/2018
 ms.keywords: GetKeyLengthList, GetKeyLengthList method [Security], GetKeyLengthList method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetKeyLengthList method, ICertSrvSetup.GetKeyLengthList, ICertSrvSetup::GetKeyLengthList, casetup/ICertSrvSetup::GetKeyLengthList, security.icertsrvsetup_getkeylengthlist
-ms.topic: method
 f1_keywords:
 - casetup/ICertSrvSetup.GetKeyLengthList
 dev_langs:

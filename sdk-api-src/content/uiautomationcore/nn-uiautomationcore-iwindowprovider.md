@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: cf09ad4e-fd5b-4304-b5fb-165205bff1f3
 ms.date: 12/05/2018
 ms.keywords: IWindowProvider, IWindowProvider interface [Windows Accessibility], IWindowProvider interface [Windows Accessibility],described, uiauto.uiauto_IWindowProvider, uiauto_IWindowProvider, uiautomationcore/IWindowProvider, winauto.uiauto_IWindowProvider
-ms.topic: interface
 f1_keywords:
 - uiautomationcore/IWindowProvider
 dev_langs:

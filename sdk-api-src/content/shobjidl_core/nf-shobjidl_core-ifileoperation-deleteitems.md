@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 708072c4-c0c7-4d7d-a54f-234c57ff08e6
 ms.date: 12/05/2018
 ms.keywords: DeleteItems, DeleteItems method [Windows Shell], DeleteItems method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],DeleteItems method, IFileOperation.DeleteItems, IFileOperation::DeleteItems, _shell_IFileOperation_DeleteItems, shell.IFileOperation_DeleteItems, shobjidl_core/IFileOperation::DeleteItems
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileOperation.DeleteItems
 dev_langs:

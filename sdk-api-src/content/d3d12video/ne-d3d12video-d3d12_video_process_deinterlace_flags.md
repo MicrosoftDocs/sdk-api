@@ -5,7 +5,6 @@ description: Specifies the deinterlacing video processor capabilities.
 tech.root: mf
 ms.assetid: 7f25af81-344c-4a70-9d58-9eed1604c11a
 ms.date: 05/28/2019
-ms.topic: enum
 f1_keywords:
 - D3D12_VIDEO_PROCESS_DEINTERLACE_FLAGS
 dev_langs:

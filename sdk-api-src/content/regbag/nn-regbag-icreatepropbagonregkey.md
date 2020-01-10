@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: f634a04f-911f-4d53-be70-d5dbf2395ce5
 ms.date: 12/05/2018
 ms.keywords: ICreatePropBagOnRegKey, ICreatePropBagOnRegKey interface [Microsoft TV Technologies], ICreatePropBagOnRegKey interface [Microsoft TV Technologies],described, ICreatePropBagOnRegKeyInterface, mstv.icreatepropbagonregkey, regbag/ICreatePropBagOnRegKey
-ms.topic: interface
 f1_keywords:
 - regbag/ICreatePropBagOnRegKey
 dev_langs:

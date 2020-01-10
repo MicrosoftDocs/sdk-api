@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 1d635dfc-a3b3-4f75-8356-534a32156686
 ms.date: 12/05/2018
 ms.keywords: GetCurFile, GetCurFile method [DirectShow], GetCurFile method [DirectShow],IFileSinkFilter interface, IFileSinkFilter interface [DirectShow],GetCurFile method, IFileSinkFilter.GetCurFile, IFileSinkFilter::GetCurFile, IFileSinkFilterGetCurFile, dshow.ifilesinkfilter_getcurfile, strmif/IFileSinkFilter::GetCurFile
-ms.topic: method
 f1_keywords:
 - strmif/IFileSinkFilter.GetCurFile
 dev_langs:

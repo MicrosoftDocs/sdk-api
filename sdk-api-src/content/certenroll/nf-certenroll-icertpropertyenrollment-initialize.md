@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 47e9b11f-3f23-4e2f-817a-4b6311e3d710
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyEnrollment interface [Security],Initialize method, ICertPropertyEnrollment.Initialize, ICertPropertyEnrollment::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyEnrollment interface, certenroll/ICertPropertyEnrollment::Initialize, security.icertpropertyenrollment_initialize_method
-ms.topic: method
 f1_keywords:
 - certenroll/ICertPropertyEnrollment.Initialize
 dev_langs:

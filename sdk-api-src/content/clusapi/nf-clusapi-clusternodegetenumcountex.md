@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 5C45ED88-9CB4-4C20-97D1-6F02A51048CE
 ms.date: 12/05/2018
 ms.keywords: ClusterNodeGetEnumCountEx, ClusterNodeGetEnumCountEx function [Failover Cluster], PCLUSAPI_CLUSTER_NODE_GET_ENUM_COUNT_EX, PCLUSAPI_CLUSTER_NODE_GET_ENUM_COUNT_EX function [Failover Cluster], clusapi/ClusterNodeGetEnumCountEx, clusapi/PCLUSAPI_CLUSTER_NODE_GET_ENUM_COUNT_EX, mscs.clusternodegetenumcountex
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterNodeGetEnumCountEx
 dev_langs:

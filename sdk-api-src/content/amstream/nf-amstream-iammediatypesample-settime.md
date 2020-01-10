@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b8f2c1bd-ea78-43b8-881c-d1f1a64ee575
 ms.date: 12/05/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],SetTime method, IAMMediaTypeSample.SetTime, IAMMediaTypeSample::SetTime, IAMMediaTypeSampleSetTime, SetTime, SetTime method [DirectShow], SetTime method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::SetTime, dshow.iammediatypesample_settime
-ms.topic: method
 f1_keywords:
 - amstream/IAMMediaTypeSample.SetTime
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 5f664ee8-895e-4235-a119-9dc10ababffe
 ms.date: 12/05/2018
 ms.keywords: Age property [PLA], Age property [PLA],IFolderAction interface, IFolderAction interface [PLA],Age property, IFolderAction.Age, IFolderAction.get_Age, IFolderAction::Age, IFolderAction::get_Age, IFolderAction::put_Age, base.ifolderaction_age, get_Age, pla.ifolderaction_age, pla/IFolderAction::Age, pla/IFolderAction::get_Age, pla/IFolderAction::put_Age
-ms.topic: method
 f1_keywords:
 - pla/IFolderAction.Age
 dev_langs:

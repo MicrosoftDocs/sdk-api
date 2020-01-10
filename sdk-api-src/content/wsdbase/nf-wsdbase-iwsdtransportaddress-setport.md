@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 0959e6f9-82cf-4634-9547-682df1965efa
 ms.date: 12/05/2018
 ms.keywords: IWSDTransportAddress interface,SetPort method, IWSDTransportAddress.SetPort, IWSDTransportAddress::SetPort, SetPort, SetPort method, SetPort method,IWSDTransportAddress interface, ncd.iwsdtransportaddress_setport, wsdbase/IWSDTransportAddress::SetPort
-ms.topic: method
 f1_keywords:
 - wsdbase/IWSDTransportAddress.SetPort
 dev_langs:

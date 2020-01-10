@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 4c437f26-6fe1-477d-9955-bc900215aa59
 ms.date: 12/05/2018
 ms.keywords: 4c437f26-6fe1-477d-9955-bc900215aa59, MFInitVideoFormat_RGB, MFInitVideoFormat_RGB function [Media Foundation], mf.mfinitvideoformat_rgb, mfapi/MFInitVideoFormat_RGB
-ms.topic: function
 f1_keywords:
 - mfapi/MFInitVideoFormat_RGB
 dev_langs:

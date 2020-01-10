@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: ca1930e0-f6f4-44c8-979c-f50881f3c225
 ms.date: 12/05/2018
 ms.keywords: GetROP2, GetROP2 function [Windows GDI], _win32_GetROP2, gdi.getrop2, wingdi/GetROP2
-ms.topic: function
 f1_keywords:
 - wingdi/GetROP2
 dev_langs:

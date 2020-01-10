@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 7000f937-2f58-43c1-b0e1-60d3171485b0
 ms.date: 12/05/2018
 ms.keywords: IDvbTerrestrialDeliverySystemDescriptor, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies], IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],described, IDvbTerrestrialDeliverySystemDescriptorInterface, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor, mstv.idvbterrestrialdeliverysystemdescriptor
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor
 dev_langs:

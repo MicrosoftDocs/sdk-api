@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorSelect(XMVECTOR,XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSelect, XMVectorSelect, XMVectorSelect method [DirectX Math Support APIs], dxmath.xmvectorselect
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorSelect
 dev_langs:

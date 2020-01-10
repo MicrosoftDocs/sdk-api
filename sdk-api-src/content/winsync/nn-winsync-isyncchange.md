@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 0cd29977-8d02-4a1e-b63f-783cc10021ee
 ms.date: 12/05/2018
 ms.keywords: ISyncChange, ISyncChange interface [Windows Sync], ISyncChange interface [Windows Sync],described, winsync.isyncchange, winsync/ISyncChange
-ms.topic: interface
 f1_keywords:
 - winsync/ISyncChange
 dev_langs:

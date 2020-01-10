@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 07257d34-23b1-47bf-b613-f65f5d2a977e
 ms.date: 12/05/2018
 ms.keywords: ClearVolumeProtectFault, ClearVolumeProtectFault method, ClearVolumeProtectFault method,IVssDifferentialSoftwareSnapshotMgmt3 interface, IVssDifferentialSoftwareSnapshotMgmt3 interface,ClearVolumeProtectFault method, IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault, IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault, base.ivssdifferentialsoftwaresnapshotmgmt3_clearvolumeprotectfault, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault
-ms.topic: method
 f1_keywords:
 - vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault
 dev_langs:

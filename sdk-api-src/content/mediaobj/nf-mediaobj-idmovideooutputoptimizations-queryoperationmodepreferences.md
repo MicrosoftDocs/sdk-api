@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 55916330-8395-4952-a349-f1ab5a3a2d64
 ms.date: 12/05/2018
 ms.keywords: IDMOVideoOutputOptimizations interface [DirectShow],QueryOperationModePreferences method, IDMOVideoOutputOptimizations.QueryOperationModePreferences, IDMOVideoOutputOptimizations::QueryOperationModePreferences, IDMOVideoOutputOptimizationsQueryOperationModePreferences, QueryOperationModePreferences, QueryOperationModePreferences method [DirectShow], QueryOperationModePreferences method [DirectShow],IDMOVideoOutputOptimizations interface, dshow.idmovideooutputoptimizations_queryoperationmodepreferences, mediaobj/IDMOVideoOutputOptimizations::QueryOperationModePreferences
-ms.topic: method
 f1_keywords:
 - mediaobj/IDMOVideoOutputOptimizations.QueryOperationModePreferences
 dev_langs:

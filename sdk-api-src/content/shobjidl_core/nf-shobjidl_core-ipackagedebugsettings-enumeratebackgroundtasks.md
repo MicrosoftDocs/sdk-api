@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 14a516c8-fb15-41b6-807c-b14d81148e0e
 ms.date: 12/05/2018
 ms.keywords: EnumerateBackgroundTasks, EnumerateBackgroundTasks method [Windows Shell], EnumerateBackgroundTasks method [Windows Shell],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Shell],EnumerateBackgroundTasks method, IPackageDebugSettings.EnumerateBackgroundTasks, IPackageDebugSettings::EnumerateBackgroundTasks, shell.IPackageDebugSettings_EnumerateBackgroundTasks, shobjidl_core/IPackageDebugSettings::EnumerateBackgroundTasks
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IPackageDebugSettings.EnumerateBackgroundTasks
 dev_langs:

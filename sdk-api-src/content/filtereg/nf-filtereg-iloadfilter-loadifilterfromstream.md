@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: 6a577306-d5ff-43c1-ab9f-3a7437661d2a
 ms.date: 12/05/2018
 ms.keywords: ILoadFilter interface [search],LoadIFilterFromStream method, ILoadFilter.LoadIFilterFromStream, ILoadFilter::LoadIFilterFromStream, LoadIFilterFromStream, LoadIFilterFromStream method [search], LoadIFilterFromStream method [search],ILoadFilter interface, filtereg/ILoadFilter::LoadIFilterFromStream, search.iloadfilter_loadifilterfromstream
-ms.topic: method
 f1_keywords:
 - filtereg/ILoadFilter.LoadIFilterFromStream
 dev_langs:

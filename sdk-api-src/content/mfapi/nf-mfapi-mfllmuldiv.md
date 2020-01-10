@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: ee369c2e-99a1-4ee4-ac67-02f14e11e269
 ms.date: 12/05/2018
 ms.keywords: MFllMulDiv, MFllMulDiv function [Media Foundation], mf.mfllmuldiv, mfapi/MFllMulDiv
-ms.topic: function
 f1_keywords:
 - mfapi/MFllMulDiv
 dev_langs:

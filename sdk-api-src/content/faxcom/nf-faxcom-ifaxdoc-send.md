@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8o2s.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],Send method, IFaxDoc.Send, IFaxDoc::Send, Send, Send method [Fax Service], Send method [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_send, fax._mfax_ifaxdoc_mfax_ifaxdoc_send_cpp, fax._mfax_ifaxdoc_send, faxcom/IFaxDoc::Send
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxDoc.Send
 dev_langs:

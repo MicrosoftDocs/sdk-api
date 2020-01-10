@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 11ef1bd4-301f-456b-a68b-2f32b75ac5ae
 ms.date: 12/05/2018
 ms.keywords: ITsSbBaseNotifySink, ITsSbBaseNotifySink interface [Remote Desktop Services], ITsSbBaseNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbBaseNotifySink, termserv.itssbbasenotifysink
-ms.topic: interface
 f1_keywords:
 - sbtsv/ITsSbBaseNotifySink
 dev_langs:

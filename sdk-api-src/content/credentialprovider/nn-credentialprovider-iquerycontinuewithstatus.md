@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3f41714e-d8f6-46ea-aea4-19dca4723ca5
 ms.date: 12/05/2018
 ms.keywords: IQueryContinueWithStatus, IQueryContinueWithStatus interface [Windows Shell], IQueryContinueWithStatus interface [Windows Shell],described, _shell_IQueryContinueWithStatus, credentialprovider/IQueryContinueWithStatus, shell.IQueryContinueWithStatus
-ms.topic: interface
 f1_keywords:
 - credentialprovider/IQueryContinueWithStatus
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SensorsAPI
 ms.assetid: 03b2345b-1d06-449e-9ecf-ecce9aa60c08
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method, Clear method,ISensorCollection interface, ISensorCollection interface,Clear method, ISensorCollection.Clear, ISensorCollection::Clear, sensorsapi/ISensorCollection::Clear, winsensors_com_ref.isensorcollection_clear
-ms.topic: method
 f1_keywords:
 - sensorsapi/ISensorCollection.Clear
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: f63783a8-9434-4fe4-943c-9383d049f848
 ms.date: 12/05/2018
 ms.keywords: ImmEscape, ImmEscape function [Internationalization for Windows Applications], ImmEscapeA, ImmEscapeW, _win32_ImmEscape, imm/ImmEscape, imm/ImmEscapeA, imm/ImmEscapeW, intl.immescape
-ms.topic: function
 f1_keywords:
 - imm/ImmEscape
 dev_langs:

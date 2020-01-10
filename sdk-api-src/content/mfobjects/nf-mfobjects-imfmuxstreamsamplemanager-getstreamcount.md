@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 7DB1AEAD-591F-4FA0-9DF0-9774C76A4B91
 ms.date: 12/05/2018
 ms.keywords: GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFMuxStreamSampleManager interface, IMFMuxStreamSampleManager interface [Media Foundation],GetStreamCount method, IMFMuxStreamSampleManager.GetStreamCount, IMFMuxStreamSampleManager::GetStreamCount, mf.imfmuxstreamsamplemanager_getstreamcount, mfobjects/IMFMuxStreamSampleManager::GetStreamCount
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFMuxStreamSampleManager.GetStreamCount
 dev_langs:

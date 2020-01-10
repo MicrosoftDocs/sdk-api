@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 0caca891-7c25-4b04-bda3-47de2f0ab6ce
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Windows Controls], GetCount method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetCount method, ITextFont2.GetCount, ITextFont2::GetCount, controls.itextfont2_getcount, tom/ITextFont2::GetCount
-ms.topic: method
 f1_keywords:
 - tom/ITextFont2.GetCount
 dev_langs:

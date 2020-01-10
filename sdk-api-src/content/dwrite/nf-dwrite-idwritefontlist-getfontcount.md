@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 62755704-f4bf-423c-b19b-781529dd9718
 ms.date: 12/05/2018
 ms.keywords: GetFontCount, GetFontCount method [Direct Write], GetFontCount method [Direct Write],IDWriteFontList interface, IDWriteFontList interface [Direct Write],GetFontCount method, IDWriteFontList.GetFontCount, IDWriteFontList::GetFontCount, directwrite.IDWriteFontList_GetFontCount, dwrite/IDWriteFontList::GetFontCount
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteFontList.GetFontCount
 dev_langs:

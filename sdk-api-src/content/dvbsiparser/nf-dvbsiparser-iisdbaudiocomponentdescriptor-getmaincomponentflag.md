@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 223bb5d2-2b19-44e7-a347-16b2930f00a6
 ms.date: 12/05/2018
 ms.keywords: GetMainComponentFlag, GetMainComponentFlag method [Microsoft TV Technologies], GetMainComponentFlag method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetMainComponentFlag method, IIsdbAudioComponentDescriptor.GetMainComponentFlag, IIsdbAudioComponentDescriptor::GetMainComponentFlag, dvbsiparser/IIsdbAudioComponentDescriptor::GetMainComponentFlag, mstv.iisdbaudiocomponentdescriptor_getmaincomponentflag
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbAudioComponentDescriptor.GetMainComponentFlag
 dev_langs:

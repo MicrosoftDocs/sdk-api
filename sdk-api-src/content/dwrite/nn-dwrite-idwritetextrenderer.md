@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: a2ac70c8-e33b-46f1-b53b-1ab07555f109
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextRenderer, IDWriteTextRenderer interface [Direct Write], IDWriteTextRenderer interface [Direct Write],described, directwrite.IDWriteTextRenderer, dwrite/IDWriteTextRenderer
-ms.topic: interface
 f1_keywords:
 - dwrite/IDWriteTextRenderer
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 45a8c5bf-c776-49da-8517-29055a5e74bc
 ms.date: 12/05/2018
 ms.keywords: TYPEDESC, TYPEDESC structure [Automation], _oa96_TYPEDESC, automat.typedesc, oaidl/TYPEDESC
-ms.topic: struct
 f1_keywords:
 - oaidl/TYPEDESC
 dev_langs:

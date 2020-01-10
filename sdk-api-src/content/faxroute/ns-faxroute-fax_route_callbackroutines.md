@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_6ctu.htm
 ms.date: 12/05/2018
 ms.keywords: '*PFAX_ROUTE_CALLBACKROUTINES, FAX_ROUTE_CALLBACKROUTINES, FAX_ROUTE_CALLBACKROUTINES structure [Fax Service], PFAX_ROUTE_CALLBACKROUTINES, PFAX_ROUTE_CALLBACKROUTINES structure pointer [Fax Service], _mfax_fax_route_callbackroutines_str, fax._mfax_fax_route_callbackroutines_str, faxroute/FAX_ROUTE_CALLBACKROUTINES, faxroute/PFAX_ROUTE_CALLBACKROUTINES'
-ms.topic: struct
 f1_keywords:
 - faxroute/FAX_ROUTE_CALLBACKROUTINES
 dev_langs:

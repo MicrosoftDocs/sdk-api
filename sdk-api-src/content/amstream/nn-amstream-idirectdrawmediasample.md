@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 0a83b257-e88f-4870-924c-56ddc325f17f
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawMediaSample, IDirectDrawMediaSample interface [DirectShow], IDirectDrawMediaSample interface [DirectShow],described, IDirectDrawMediaSampleInterface, amstream/IDirectDrawMediaSample, dshow.idirectdrawmediasample
-ms.topic: interface
 f1_keywords:
 - amstream/IDirectDrawMediaSample
 dev_langs:

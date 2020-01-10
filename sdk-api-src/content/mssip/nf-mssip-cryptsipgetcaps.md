@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: F939F6D5-DDFE-478F-8FDD-8FA9FAB26010
 ms.date: 12/05/2018
 ms.keywords: CryptSIPGetCaps, CryptSIPGetCaps function [Security], mssip/CryptSIPGetCaps, security.cryptsipgetcaps
-ms.topic: function
 f1_keywords:
 - mssip/CryptSIPGetCaps
 dev_langs:

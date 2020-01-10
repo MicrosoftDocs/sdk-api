@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_25ph.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxReceiptOptions interface [Fax Service],Save method, IFaxReceiptOptions.Save, IFaxReceiptOptions::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxReceiptOptions interface, _mfax_faxreceiptoptions.save, fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_save_cpp, fax._mfax_faxreceiptoptions_save, faxcomex/IFaxReceiptOptions::Save
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxReceiptOptions.Save
 dev_langs:

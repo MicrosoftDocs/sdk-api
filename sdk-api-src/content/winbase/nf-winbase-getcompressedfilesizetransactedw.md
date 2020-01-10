@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: df062eb4-70e1-4ee7-b489-624938af7834
 ms.date: 12/05/2018
 ms.keywords: GetCompressedFileSizeTransacted, GetCompressedFileSizeTransacted function [Files], GetCompressedFileSizeTransactedA, GetCompressedFileSizeTransactedW, fs.getcompressedfilesizetransacted, winbase/GetCompressedFileSizeTransacted, winbase/GetCompressedFileSizeTransactedA, winbase/GetCompressedFileSizeTransactedW
-ms.topic: function
 f1_keywords:
 - winbase/GetCompressedFileSizeTransacted
 dev_langs:

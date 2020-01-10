@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 2769328c-5c05-49fb-bfa6-729115dd417e
 ms.date: 12/05/2018
 ms.keywords: GetBandwidth, GetBandwidth method [windows Media Format], GetBandwidth method [windows Media Format],IWMBandwidthSharing interface, IWMBandwidthSharing interface [windows Media Format],GetBandwidth method, IWMBandwidthSharing.GetBandwidth, IWMBandwidthSharing::GetBandwidth, IWMBandwidthSharingGetBandwidth, wmformat.iwmbandwidthsharing_getbandwidth, wmsdkidl/IWMBandwidthSharing::GetBandwidth
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMBandwidthSharing.GetBandwidth
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 6266e96d-81da-478f-99da-86936b4cfc6b
 ms.date: 12/05/2018
 ms.keywords: CCertServerPolicy object [Security],GetCertificateExtensionFlags method, GetCertificateExtensionFlags, GetCertificateExtensionFlags method [Security], GetCertificateExtensionFlags method [Security],CCertServerPolicy object, GetCertificateExtensionFlags method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],GetCertificateExtensionFlags method, ICertServerPolicy.GetCertificateExtensionFlags, ICertServerPolicy::GetCertificateExtensionFlags, _certsrv_icertserverpolicy_getcertificateextensionflags, certif/ICertServerPolicy::GetCertificateExtensionFlags, security.icertserverpolicy_getcertificateextensionflags
-ms.topic: method
 f1_keywords:
 - certif/ICertServerPolicy.GetCertificateExtensionFlags
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 4e5acfa6-9883-4716-ac69-92161c926c66
 ms.date: 12/05/2018
 ms.keywords: IWSMan, IWSMan interface [Windows Remote Management], IWSMan interface [Windows Remote Management],described, winrm.iwsman, wsmandisp/IWSMan
-ms.topic: interface
 f1_keywords:
 - wsmandisp/IWSMan
 dev_langs:

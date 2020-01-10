@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_getptrptr.htm
 ms.date: 12/05/2018
 ms.keywords: DPA_GetPtrPtr, DPA_GetPtrPtr macro [Windows Controls], _shell_DPA_GetPtrPtr, _shell_DPA_GetPtrPtr_cpp, controls.DPA_GetPtrPtr, controls._shell_DPA_GetPtrPtr, dpa_dsa/DPA_GetPtrPtr
-ms.topic: macro
 f1_keywords:
 - dpa_dsa/DPA_GetPtrPtr
 dev_langs:

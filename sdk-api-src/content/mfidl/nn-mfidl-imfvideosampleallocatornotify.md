@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 909c2a68-81dd-4816-b34f-71a67b620faf
 ms.date: 12/05/2018
 ms.keywords: IMFVideoSampleAllocatorNotify, IMFVideoSampleAllocatorNotify interface [Media Foundation], IMFVideoSampleAllocatorNotify interface [Media Foundation],described, mf.imfvideosampleallocatornotify, mfidl/IMFVideoSampleAllocatorNotify
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFVideoSampleAllocatorNotify
 dev_langs:

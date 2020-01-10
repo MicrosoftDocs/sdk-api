@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 2832f99b-16e9-4c09-903d-8d89f2cc7715
 ms.date: 12/05/2018
 ms.keywords: IMSVidXDSEvent interface [Microsoft TV Technologies],RatingChange method, IMSVidXDSEvent.RatingChange, IMSVidXDSEvent::RatingChange, IMSVidXDSEventRatingChange, RatingChange, RatingChange method [Microsoft TV Technologies], RatingChange method [Microsoft TV Technologies],IMSVidXDSEvent interface, mstv.imsvidxdsevent_ratingchange, segment/IMSVidXDSEvent::RatingChange
-ms.topic: method
 f1_keywords:
 - segment/IMSVidXDSEvent.RatingChange
 dev_langs:

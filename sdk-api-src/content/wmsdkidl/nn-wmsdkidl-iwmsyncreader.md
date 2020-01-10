@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 2a46e79f-084e-4173-ad0f-211d3065d81a
 ms.date: 12/05/2018
 ms.keywords: IWMSyncReader, IWMSyncReader interface [windows Media Format], IWMSyncReader interface [windows Media Format],described, IWMSyncReaderInterface, wmformat.iwmsyncreader, wmsdkidl/IWMSyncReader
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMSyncReader
 dev_langs:

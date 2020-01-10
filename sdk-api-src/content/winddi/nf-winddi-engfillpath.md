@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 81c4ae89-391c-482b-b5dc-ef34d41607a1
 ms.date: 12/05/2018
 ms.keywords: EngFillPath, EngFillPath function [Display Devices], display.engfillpath, gdifncs_5128f1e3-265b-4570-8504-1782a07268d5.xml, winddi/EngFillPath
-ms.topic: function
 f1_keywords:
 - winddi/EngFillPath
 dev_langs:

@@ -5,7 +5,6 @@ description: Specifes the status of a video decode operation.
 tech.root: mf
 ms.assetid: 4ed97807-90ca-4709-a635-004ecf8f235d
 ms.date: 05/28/2019
-ms.topic: enum
 f1_keywords:
 - D3D12_VIDEO_DECODE_STATUS
 dev_langs:

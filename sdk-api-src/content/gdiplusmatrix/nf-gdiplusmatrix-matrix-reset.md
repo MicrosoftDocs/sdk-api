@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\reset_41.htm
 ms.date: 12/05/2018
 ms.keywords: Matrix class [GDI+],Reset method, Matrix.Reset, Matrix::Reset, Reset, Reset method [GDI+], Reset method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_Reset_, gdiplus._gdiplus_CLASS_Matrix_Reset_
-ms.topic: method
 f1_keywords:
 - gdiplusmatrix/Matrix.Reset
 dev_langs:

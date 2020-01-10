@@ -5,7 +5,6 @@ description: Describes the configuration for a video decoder.
 tech.root: mf
 ms.assetid: 5caab68c-7bdb-4344-beab-ca09341459a1
 ms.date: 05/28/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_VIDEO_DECODE_CONFIGURATION
 dev_langs:

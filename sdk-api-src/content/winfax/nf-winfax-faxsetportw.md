@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5sac.htm
 ms.date: 12/05/2018
 ms.keywords: FaxSetPort, FaxSetPort function [Fax Service], FaxSetPortA, FaxSetPortW, _mfax_faxsetport, fax._mfax_faxsetport, winfax/FaxSetPort, winfax/FaxSetPortA, winfax/FaxSetPortW
-ms.topic: function
 f1_keywords:
 - winfax/FaxSetPort
 dev_langs:

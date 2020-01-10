@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 44ae8377-c375-4dc3-9f54-a5674e24763f
 ms.date: 12/05/2018
 ms.keywords: IROTData, IROTData interface [COM], IROTData interface [COM],described, _com_irotdata, com.irotdata, objidl/IROTData
-ms.topic: interface
 f1_keywords:
 - objidl/IROTData
 dev_langs:

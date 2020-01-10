@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 067614ca-c32d-4160-ae77-4e6c3dbafdf0
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncDDSurroundExMode, codecapi/eAVEncDDSurroundExMode_No, codecapi/eAVEncDDSurroundExMode_NotIndicated, codecapi/eAVEncDDSurroundExMode_Yes, dshow.eavencddsurroundexmode, eAVEncDDSurroundExMode, eAVEncDDSurroundExMode enumeration [DirectShow], eAVEncDDSurroundExModeEnumeration, eAVEncDDSurroundExMode_No, eAVEncDDSurroundExMode_NotIndicated, eAVEncDDSurroundExMode_Yes
-ms.topic: enum
 f1_keywords:
 - codecapi/eAVEncDDSurroundExMode
 dev_langs:

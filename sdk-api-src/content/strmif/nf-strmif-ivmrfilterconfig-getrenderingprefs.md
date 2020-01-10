@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: aabf3628-3179-430c-a74b-0cb4e552cbe2
 ms.date: 12/05/2018
 ms.keywords: GetRenderingPrefs, GetRenderingPrefs method [DirectShow], GetRenderingPrefs method [DirectShow],IVMRFilterConfig interface, IVMRFilterConfig interface [DirectShow],GetRenderingPrefs method, IVMRFilterConfig.GetRenderingPrefs, IVMRFilterConfig::GetRenderingPrefs, IVMRFilterConfigGetRenderingPrefs, dshow.ivmrfilterconfig_getrenderingprefs, strmif/IVMRFilterConfig::GetRenderingPrefs
-ms.topic: method
 f1_keywords:
 - strmif/IVMRFilterConfig.GetRenderingPrefs
 dev_langs:

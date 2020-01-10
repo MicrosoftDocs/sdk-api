@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 2E7DE3C3-F64B-4D5E-ADE9-B7CE60CB0E78
 ms.date: 12/05/2018
 ms.keywords: RegisterClusterResourceTypeNotifyV2, RegisterClusterResourceTypeNotifyV2 function [Failover Cluster], clusapi/RegisterClusterResourceTypeNotifyV2, mscs.registerclusterresourcetypenotifyv2
-ms.topic: function
 f1_keywords:
 - clusapi/RegisterClusterResourceTypeNotifyV2
 dev_langs:

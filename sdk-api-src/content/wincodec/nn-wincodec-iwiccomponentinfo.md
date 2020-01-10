@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: a31267ed-60cd-4de9-9fed-26bb390b29e6
 ms.date: 12/05/2018
 ms.keywords: IWICComponentInfo, IWICComponentInfo interface [Windows Imaging Component], IWICComponentInfo interface [Windows Imaging Component],described, _wic_codec_iwiccomponentinfo, wic._wic_codec_iwiccomponentinfo, wincodec/IWICComponentInfo
-ms.topic: interface
 f1_keywords:
 - wincodec/IWICComponentInfo
 dev_langs:

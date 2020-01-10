@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushconstructors.htm
 ms.date: 12/05/2018
 ms.keywords: LinearGradientBrush, LinearGradientBrush constructors [GDI+], LinearGradientBrush.LinearGradientBrush, LinearGradientBrush.LinearGradientBrush(IN const Point &,IN const Point &,IN const Color &,IN const Color &), LinearGradientBrush::LinearGradientBrush, LinearGradientBrush::LinearGradientBrush(IN const Point &,IN const Point &,IN const Color &,IN const Color &), _gdiplus_CLASS_LinearGradientBrush_Constructors, gdiplus._gdiplus_CLASS_LinearGradientBrush_Constructors, gdiplusbrush/LinearGradientBrush
-ms.topic: method
 f1_keywords:
 - gdiplusbrush/LinearGradientBrush.LinearGradientBrush
 dev_langs:

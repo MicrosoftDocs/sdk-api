@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 7c4e7d3f-6ab2-46f9-a5a0-f2901a8b5734
 ms.date: 12/05/2018
 ms.keywords: INetFwAuthorizedApplications interface [ICS/ICF],Remove method, INetFwAuthorizedApplications.Remove, INetFwAuthorizedApplications::Remove, Remove, Remove method [ICS/ICF], Remove method [ICS/ICF],INetFwAuthorizedApplications interface, ics.inetfwauthorizedapplications_remove, netfw/INetFwAuthorizedApplications::Remove
-ms.topic: method
 f1_keywords:
 - netfw/INetFwAuthorizedApplications.Remove
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: a3afdfc9-c3e7-4735-b13f-84c45230128a
 ms.date: 12/05/2018
 ms.keywords: ITfCandidateListUIElementBehavior interface [Text Services Framework],SetSelection method, ITfCandidateListUIElementBehavior.SetSelection, ITfCandidateListUIElementBehavior::SetSelection, SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework],ITfCandidateListUIElementBehavior interface, msctf/ITfCandidateListUIElementBehavior::SetSelection, tsf.itfcandidatelistuielementbehavior_setselection
-ms.topic: method
 f1_keywords:
 - msctf/ITfCandidateListUIElementBehavior.SetSelection
 dev_langs:

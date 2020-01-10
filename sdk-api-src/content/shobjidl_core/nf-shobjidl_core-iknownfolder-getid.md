@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c20fc32f-394d-4fbe-b7dd-072d84be2713
 ms.date: 12/05/2018
 ms.keywords: GetId, GetId method [Windows Shell], GetId method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetId method, IKnownFolder.GetId, IKnownFolder::GetId, _shell_IKnownFolder_GetId, shell.IKnownFolder_GetId, shobjidl_core/IKnownFolder::GetId
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IKnownFolder.GetId
 dev_langs:

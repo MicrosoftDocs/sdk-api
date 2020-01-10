@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 04e5d5e0-02b1-4335-9830-ecf04fdc0db1
 ms.date: 12/05/2018
 ms.keywords: EngSetEvent, EngSetEvent function [Display Devices], display.engsetevent, gdifncs_1f6bd838-607b-47fa-bb1e-e21d92e65d39.xml, winddi/EngSetEvent
-ms.topic: function
 f1_keywords:
 - winddi/EngSetEvent
 dev_langs:

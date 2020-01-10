@@ -5,7 +5,6 @@ description: Divides an XMVECTOR instance by a floating point value, returning t
 ms.assetid: 7f917647-be7e-4a70-95ac-134d9728b39b
 ms.date: 05/13/2019
 ms.keywords: operator/
-ms.topic: language-reference
 f1_keywords:
 - directxmath/operator/
 dev_langs:

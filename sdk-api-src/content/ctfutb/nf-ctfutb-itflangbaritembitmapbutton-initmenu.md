@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 0f34f488-729b-42d3-9a24-85b3f95607ec
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemBitmapButton interface [Text Services Framework],InitMenu method, ITfLangBarItemBitmapButton.InitMenu, ITfLangBarItemBitmapButton::InitMenu, InitMenu, InitMenu method [Text Services Framework], InitMenu method [Text Services Framework],ITfLangBarItemBitmapButton interface, _tsf_itflangbaritembitmapbutton_initmenu_ref, ctfutb/ITfLangBarItemBitmapButton::InitMenu, tsf.itflangbaritembitmapbutton_initmenu
-ms.topic: method
 f1_keywords:
 - ctfutb/ITfLangBarItemBitmapButton.InitMenu
 dev_langs:

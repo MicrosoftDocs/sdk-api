@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 609ecdb0-b135-474f-b959-9ab6f427e5d6
 ms.date: 12/05/2018
 ms.keywords: GetRecoverableErrorDataForChangeUnit, GetRecoverableErrorDataForChangeUnit method [Windows Sync], GetRecoverableErrorDataForChangeUnit method [Windows Sync],IRecoverableError interface, IRecoverableError interface [Windows Sync],GetRecoverableErrorDataForChangeUnit method, IRecoverableError.GetRecoverableErrorDataForChangeUnit, IRecoverableError::GetRecoverableErrorDataForChangeUnit, winsync.irecoverableerror_getrecoverableerrordataforchangeunit, winsync/IRecoverableError::GetRecoverableErrorDataForChangeUnit
-ms.topic: method
 f1_keywords:
 - winsync/IRecoverableError.GetRecoverableErrorDataForChangeUnit
 dev_langs:

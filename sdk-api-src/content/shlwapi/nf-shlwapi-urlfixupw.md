@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3750d027-847f-4f33-851d-a10be7562bcb
 ms.date: 12/05/2018
 ms.keywords: UrlFixupW, UrlFixupW function [Windows Shell], _win32_UrlFixupW, shell.UrlFixupW, shlwapi/UrlFixupW
-ms.topic: function
 f1_keywords:
 - shlwapi/UrlFixupW
 dev_langs:

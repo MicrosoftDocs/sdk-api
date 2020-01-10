@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: 79e955c0-8756-4d6f-bce6-49e8e44d0d3f
 ms.date: 12/05/2018
 ms.keywords: EV_BREAK, EV_CTS, EV_DSR, EV_ERR, EV_RING, EV_RLSD, EV_RXCHAR, EV_RXFLAG, EV_TXEMPTY, WaitCommEvent, WaitCommEvent function, _win32_waitcommevent, base.waitcommevent, winbase/WaitCommEvent
-ms.topic: function
 f1_keywords:
 - winbase/WaitCommEvent
 dev_langs:

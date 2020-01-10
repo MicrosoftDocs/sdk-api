@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 164bb345-c092-4adb-8f0f-83e31d36390f
 ms.date: 12/05/2018
 ms.keywords: _win32_capFileSaveAs, capFileSaveAs, capFileSaveAs macro [Windows Multimedia], multimedia.capfilesaveas, vfw/capFileSaveAs
-ms.topic: macro
 f1_keywords:
 - vfw/capFileSaveAs
 dev_langs:

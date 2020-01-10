@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 336e11ce-6212-4d08-8c50-76b2128ddc35
 ms.date: 12/05/2018
 ms.keywords: IWMIStreamProps, IWMIStreamProps interface [windows Media Format], IWMIStreamProps interface [windows Media Format],described, IWMIStreamPropsInterface, wmformat.iwmistreamprops, wmsdkidl/IWMIStreamProps
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMIStreamProps
 dev_langs:

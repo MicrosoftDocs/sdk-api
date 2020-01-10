@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: e2ce0cde-43ab-4681-be66-bd7509fd6ca2
 ms.date: 12/05/2018
 ms.keywords: RtlCaptureContext, RtlCaptureContext function, base.rtlcapturecontext, winnt/RtlCaptureContext
-ms.topic: function
 f1_keywords:
 - winnt/RtlCaptureContext
 dev_langs:

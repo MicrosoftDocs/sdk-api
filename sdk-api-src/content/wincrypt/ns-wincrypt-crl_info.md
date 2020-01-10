@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 06a28de3-dd7c-4efe-9baa-20aac69d63f3
 ms.date: 12/05/2018
 ms.keywords: '*PCRL_INFO, CRL_INFO, CRL_INFO structure [Security], CRL_V1, CRL_V2, PCRL_INFO, PCRL_INFO structure pointer [Security], _crypto2_crl_info, security.crl_info, wincrypt/CRL_INFO, wincrypt/PCRL_INFO'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CRL_INFO
 dev_langs:

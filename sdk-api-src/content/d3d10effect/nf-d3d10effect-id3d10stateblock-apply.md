@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10stateblock_apply.htm
 ms.date: 12/05/2018
 ms.keywords: 8047c555-4a3e-a6b4-9733-42350b374f15, Apply, Apply method [Direct3D 10], Apply method [Direct3D 10],ID3D10StateBlock interface, ID3D10StateBlock interface [Direct3D 10],Apply method, ID3D10StateBlock.Apply, ID3D10StateBlock::Apply, d3d10effect/ID3D10StateBlock::Apply, direct3d10.id3d10stateblock_apply
-ms.topic: method
 f1_keywords:
 - d3d10effect/ID3D10StateBlock.Apply
 dev_langs:

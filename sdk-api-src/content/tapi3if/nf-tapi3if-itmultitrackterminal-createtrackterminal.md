@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: fe853de7-5a22-4b49-aca0-e2e2a8c3e1d7
 ms.date: 12/05/2018
 ms.keywords: CreateTrackTerminal, CreateTrackTerminal method [TAPI 2.2], CreateTrackTerminal method [TAPI 2.2],ITMultiTrackTerminal interface, ITMultiTrackTerminal interface [TAPI 2.2],CreateTrackTerminal method, ITMultiTrackTerminal.CreateTrackTerminal, ITMultiTrackTerminal::CreateTrackTerminal, _tapi3_itmultitrackterminal_createtrackterminal, tapi3.itmultitrackterminal_createtrackterminal, tapi3if/ITMultiTrackTerminal::CreateTrackTerminal
-ms.topic: method
 f1_keywords:
 - tapi3if/ITMultiTrackTerminal.CreateTrackTerminal
 dev_langs:

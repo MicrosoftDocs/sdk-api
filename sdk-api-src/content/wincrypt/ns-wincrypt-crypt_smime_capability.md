@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: c7d1e04f-d2b9-4bab-88f4-8a528c527e7c
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_SMIME_CAPABILITY, CRYPT_SMIME_CAPABILITY, CRYPT_SMIME_CAPABILITY structure [Security], PCRYPT_SMIME_CAPABILITY, PCRYPT_SMIME_CAPABILITY structure pointer [Security], _crypto2_crypt_smime_capability, security.crypt_smime_capability, wincrypt/CRYPT_SMIME_CAPABILITY, wincrypt/PCRYPT_SMIME_CAPABILITY'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_SMIME_CAPABILITY
 dev_langs:

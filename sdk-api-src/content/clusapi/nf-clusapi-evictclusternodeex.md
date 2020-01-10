@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 7f7ba010-265e-40d5-a429-a776d164fa07
 ms.date: 12/05/2018
 ms.keywords: EvictClusterNodeEx, EvictClusterNodeEx function [Failover Cluster], PCLUSAPI_EVICT_CLUSTER_NODE_EX, PCLUSAPI_EVICT_CLUSTER_NODE_EX function [Failover Cluster], _wolf_evictclusternodeex, clusapi/EvictClusterNodeEx, clusapi/PCLUSAPI_EVICT_CLUSTER_NODE_EX, mscs.evictclusternodeex
-ms.topic: function
 f1_keywords:
 - clusapi/EvictClusterNodeEx
 dev_langs:

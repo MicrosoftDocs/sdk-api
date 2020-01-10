@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 09e5921c-c7da-40fc-902a-1e22ebe19b0a
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_Terminals method, ITPhone.get_Terminals, ITPhone::get_Terminals, _tapi3_itphone_get_terminals, get_Terminals, get_Terminals method [TAPI 2.2], get_Terminals method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_terminals, tapi3if/ITPhone::get_Terminals
-ms.topic: method
 f1_keywords:
 - tapi3if/ITPhone.get_Terminals
 dev_langs:

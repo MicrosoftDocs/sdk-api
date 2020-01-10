@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 3f972fc9-67ca-4aa7-a0a0-204a8d90e928
 ms.date: 12/05/2018
 ms.keywords: RpcStringBindingCompose, RpcStringBindingCompose function [RPC], RpcStringBindingComposeA, RpcStringBindingComposeW, _rpc_rpcstringbindingcompose, rpc.rpcstringbindingcompose, rpcdce/RpcStringBindingCompose, rpcdce/RpcStringBindingComposeA, rpcdce/RpcStringBindingComposeW
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcStringBindingCompose
 dev_langs:

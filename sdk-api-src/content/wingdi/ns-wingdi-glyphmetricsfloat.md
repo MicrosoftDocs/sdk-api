@@ -7,7 +7,6 @@ tech.root: OpenGL
 ms.assetid: 6ceccb76-be31-4a4d-b093-1f8e35261a60
 ms.date: 12/05/2018
 ms.keywords: '*LPGLYPHMETRICSFLOAT, *PGLYPHMETRICSFLOAT, GLYPHMETRICSFLOAT, GLYPHMETRICSFLOAT structure [OpenGL], PGLYPHMETRICSFLOAT, PGLYPHMETRICSFLOAT structure pointer [OpenGL], _ogl_GLYPHMETRICSFLOAT, opengl.glyphmetricsfloat, wingdi/GLYPHMETRICSFLOAT, wingdi/PGLYPHMETRICSFLOAT'
-ms.topic: struct
 f1_keywords:
 - wingdi/GLYPHMETRICSFLOAT
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: xaml_diagnostics
 ms.assetid: 8D4EAB0A-1976-4A40-932C-AAE67F524B94
 ms.date: 12/05/2018
 ms.keywords: GetStride, GetStride method, GetStride method,IBitmapData interface, IBitmapData interface,GetStride method, IBitmapData.GetStride, IBitmapData::GetStride, xaml_diagnostics.ibitmapdata_getstride, xamlom/IBitmapData::GetStride
-ms.topic: method
 f1_keywords:
 - xamlom/IBitmapData.GetStride
 dev_langs:

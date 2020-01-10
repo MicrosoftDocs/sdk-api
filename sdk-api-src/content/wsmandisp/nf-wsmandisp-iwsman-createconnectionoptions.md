@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: e24813cb-b996-4712-803b-360c9bcfdee3
 ms.date: 12/05/2018
 ms.keywords: CreateConnectionOptions, CreateConnectionOptions method [Windows Remote Management], CreateConnectionOptions method [Windows Remote Management],IWSMan interface, IWSMan interface [Windows Remote Management],CreateConnectionOptions method, IWSMan.CreateConnectionOptions, IWSMan::CreateConnectionOptions, winrm.iwsman_createconnectionoptions, wsmandisp/IWSMan::CreateConnectionOptions
-ms.topic: method
 f1_keywords:
 - wsmandisp/IWSMan.CreateConnectionOptions
 dev_langs:

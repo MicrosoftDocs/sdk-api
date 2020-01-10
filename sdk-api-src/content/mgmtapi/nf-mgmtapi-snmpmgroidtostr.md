@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: 4864b864-3381-4129-8cc3-ecfc6566e530
 ms.date: 12/05/2018
 ms.keywords: SnmpMgrOidToStr, SnmpMgrOidToStr function [SNMP], _snmp_snmpmgroidtostr, mgmtapi/SnmpMgrOidToStr, snmp.snmpmgroidtostr
-ms.topic: function
 f1_keywords:
 - mgmtapi/SnmpMgrOidToStr
 dev_langs:

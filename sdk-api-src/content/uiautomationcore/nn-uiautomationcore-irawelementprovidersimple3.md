@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 33D6DD52-B6D4-4AD4-AED9-9BFA6230C86B
 ms.date: 12/05/2018
 ms.keywords: IRawElementProviderSimple3, IRawElementProviderSimple3 interface [Windows Accessibility], IRawElementProviderSimple3 interface [Windows Accessibility],described, uiautomationcore/IRawElementProviderSimple3, winauto.uiauto_IRawElementProviderSimple3
-ms.topic: interface
 f1_keywords:
 - uiautomationcore/IRawElementProviderSimple3
 dev_langs:

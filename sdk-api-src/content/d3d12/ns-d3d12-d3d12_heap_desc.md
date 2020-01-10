@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 3A473476-F37E-4F01-B121-87E998EE9411
 ms.date: 12/05/2018
 ms.keywords: D3D12_HEAP_DESC, D3D12_HEAP_DESC structure, d3d12/D3D12_HEAP_DESC, direct3d12.d3d12_heap_desc
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_HEAP_DESC
 dev_langs:

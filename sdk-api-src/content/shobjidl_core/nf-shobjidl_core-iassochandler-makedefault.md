@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 106ac493-bde6-4327-b3be-3132bfd47415
 ms.date: 12/05/2018
 ms.keywords: IAssocHandler interface [Windows Shell],MakeDefault method, IAssocHandler.MakeDefault, IAssocHandler::MakeDefault, MakeDefault, MakeDefault method [Windows Shell], MakeDefault method [Windows Shell],IAssocHandler interface, _shell_IAssocHandler_MakeDefault, shell.IAssocHandler_MakeDefault, shobjidl_core/IAssocHandler::MakeDefault
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IAssocHandler.MakeDefault
 dev_langs:

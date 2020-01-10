@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 82c678a5-adba-42ea-b85c-4bbdcec78673
 ms.date: 12/05/2018
 ms.keywords: FWPM_CALLOUT_CHANGE_CALLBACK0, FWPM_CALLOUT_CHANGE_CALLBACK0 callback, FWPM_CALLOUT_CHANGE_CALLBACK0 callback function [Filtering], fwp.fwpm_callout_change_callback0_func, fwpmu/FWPM_CALLOUT_CHANGE_CALLBACK0
-ms.topic: callback
 f1_keywords:
 - fwpmu/FWPM_CALLOUT_CHANGE_CALLBACK0
 dev_langs:

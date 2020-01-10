@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 86a821c1-e04b-4bc3-846d-767c55008aed
 ms.date: 12/05/2018
 ms.keywords: ConvertInterfaceLuidToAlias, ConvertInterfaceLuidToAlias function [IP Helper], iphlp.convertinterfaceluidtoalias, netioapi/ConvertInterfaceLuidToAlias
-ms.topic: function
 f1_keywords:
 - netioapi/ConvertInterfaceLuidToAlias
 dev_langs:

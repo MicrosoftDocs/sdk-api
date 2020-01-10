@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: b0bafd3d-8f54-429e-b423-dae3d61b0030
 ms.date: 12/05/2018
 ms.keywords: InternetQueryOption, InternetQueryOption function [WinINet], InternetQueryOptionA, InternetQueryOptionW, _inet_internetqueryoption_function, wininet.internetqueryoption, wininet/InternetQueryOption, wininet/InternetQueryOptionA, wininet/InternetQueryOptionW
-ms.topic: function
 f1_keywords:
 - wininet/InternetQueryOption
 dev_langs:

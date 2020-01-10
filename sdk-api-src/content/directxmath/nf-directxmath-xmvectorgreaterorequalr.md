@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVectorGreaterOrEqualR(uint32_t@,XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorGreaterOrEqualR, XMVectorGreaterOrEqualR, XMVectorGreaterOrEqualR method [DirectX Math Support APIs], dxmath.xmvectorgreaterorequalr
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorGreaterOrEqualR
 dev_langs:

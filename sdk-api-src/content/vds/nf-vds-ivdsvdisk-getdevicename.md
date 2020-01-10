@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 4ce60f7f-a7f2-4e1e-aae0-bd082b62480f
 ms.date: 12/05/2018
 ms.keywords: GetDeviceName, GetDeviceName method, GetDeviceName method,IVdsVDisk interface, IVdsVDisk interface,GetDeviceName method, IVdsVDisk.GetDeviceName, IVdsVDisk::GetDeviceName, base.ivdsvdisk_getdevicename, vds/IVdsVDisk::GetDeviceName
-ms.topic: method
 f1_keywords:
 - vds/IVdsVDisk.GetDeviceName
 dev_langs:

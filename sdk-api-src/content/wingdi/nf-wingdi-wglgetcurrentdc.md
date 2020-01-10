@@ -7,7 +7,6 @@ tech.root: OpenGL
 ms.assetid: 026f6181-75a2-4781-8762-d5599ce90af2
 ms.date: 12/05/2018
 ms.keywords: _ogl_wglGetCurrentDC, opengl.wglgetcurrentdc, wglGetCurrentDC, wglGetCurrentDC function [OpenGL], wingdi/wglGetCurrentDC
-ms.topic: function
 f1_keywords:
 - wingdi/wglGetCurrentDC
 dev_langs:

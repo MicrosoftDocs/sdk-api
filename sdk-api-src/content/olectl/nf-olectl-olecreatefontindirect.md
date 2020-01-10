@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 9ab384d6-fc21-4152-a0cf-744948f2f72c
 ms.date: 12/05/2018
 ms.keywords: OleCreateFontIndirect, OleCreateFontIndirect function [COM], _ole_OleCreateFontIndirect, com.olecreatefontindirect, olectl/OleCreateFontIndirect
-ms.topic: function
 f1_keywords:
 - olectl/OleCreateFontIndirect
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: d4ffdbc8-123e-4cb4-bcc9-8d52c3362529
 ms.date: 12/05/2018
 ms.keywords: NETSOURCE_URLCREDPOLICY_SETTINGS, NETSOURCE_URLCREDPOLICY_SETTINGS enumeration [windows Media Format], NETSOURCE_URLCREDPOLICY_SETTING_ANONYMOUSONLY, NETSOURCE_URLCREDPOLICY_SETTING_MUSTPROMPTUSER, NETSOURCE_URLCREDPOLICY_SETTING_SILENTLOGONOK, enumeration [windows Media Format], wmformat.netsource_urlcredpolicy_settings, wmsinternaladminnetsource/NETSOURCE_URLCREDPOLICY_SETTINGS, wmsinternaladminnetsource/NETSOURCE_URLCREDPOLICY_SETTING_ANONYMOUSONLY, wmsinternaladminnetsource/NETSOURCE_URLCREDPOLICY_SETTING_MUSTPROMPTUSER, wmsinternaladminnetsource/NETSOURCE_URLCREDPOLICY_SETTING_SILENTLOGONOK
-ms.topic: enum
 f1_keywords:
 - wmsinternaladminnetsource/NETSOURCE_URLCREDPOLICY_SETTINGS
 dev_langs:

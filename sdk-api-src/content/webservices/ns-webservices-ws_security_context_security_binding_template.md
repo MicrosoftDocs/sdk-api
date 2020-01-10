@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 09b6be85-ec60-4ba9-857f-fffc1f5fb368
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_CONTEXT_SECURITY_BINDING_TEMPLATE, WS_SECURITY_CONTEXT_SECURITY_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_SECURITY_CONTEXT_SECURITY_BINDING_TEMPLATE, wsw.ws_security_context_security_binding_template
-ms.topic: struct
 f1_keywords:
 - webservices/WS_SECURITY_CONTEXT_SECURITY_BINDING_TEMPLATE
 dev_langs:

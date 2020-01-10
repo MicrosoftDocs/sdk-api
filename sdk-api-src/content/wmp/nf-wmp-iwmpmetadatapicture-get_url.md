@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: e61c9c1a-4ffc-4a71-83b7-ad3f9937e303
 ms.date: 12/05/2018
 ms.keywords: IWMPMetadataPicture interface [Windows Media Player],get_URL method, IWMPMetadataPicture.get_URL, IWMPMetadataPicture::get_URL, IWMPMetadataPictureget_URL, get_URL, get_URL method [Windows Media Player], get_URL method [Windows Media Player],IWMPMetadataPicture interface, wmp.iwmpmetadatapicture_get_url, wmp/IWMPMetadataPicture::get_URL
-ms.topic: method
 f1_keywords:
 - wmp/IWMPMetadataPicture.get_URL
 dev_langs:

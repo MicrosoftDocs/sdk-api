@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: fae9cf56-c211-445b-b962-9a9d7d67c59c
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyFile, IBackgroundCopyFile interface [BITS], IBackgroundCopyFile interface [BITS],described, _drz_ibackgroundcopyfile, bits.ibackgroundcopyfile, bits/IBackgroundCopyFile
-ms.topic: interface
 f1_keywords:
 - bits/IBackgroundCopyFile
 dev_langs:

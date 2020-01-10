@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 367eb374-1295-41f6-a1b3-cfc04e94b816
 ms.date: 12/05/2018
 ms.keywords: SetupGetInfInformation, SetupGetInfInformation function [Setup API], SetupGetInfInformationA, SetupGetInfInformationW, _setupapi_setupgetinfinformation, setup.setupgetinfinformation, setupapi/SetupGetInfInformation, setupapi/SetupGetInfInformationA, setupapi/SetupGetInfInformationW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupGetInfInformation
 dev_langs:

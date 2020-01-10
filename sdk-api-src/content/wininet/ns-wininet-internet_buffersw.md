@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 9381184d-17f4-46ad-bd09-15c7e653d1b9
 ms.date: 12/05/2018
 ms.keywords: '*LPINTERNET_BUFFERSW, INTERNET_BUFFERS, INTERNET_BUFFERS structure [WinINet], INTERNET_BUFFERSA, INTERNET_BUFFERSW, LPINTERNET_BUFFERS, LPINTERNET_BUFFERS structure pointer [WinINet], _win32_internet_buffers, wininet.internet_buffers, wininet/ LPINTERNET_BUFFERS, wininet/INTERNET_BUFFERS, wininet/INTERNET_BUFFERSA, wininet/INTERNET_BUFFERSW'
-ms.topic: struct
 f1_keywords:
 - wininet/INTERNET_BUFFERS
 dev_langs:

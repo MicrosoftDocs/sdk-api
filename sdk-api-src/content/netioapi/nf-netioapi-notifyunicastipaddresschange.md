@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 56945aa2-ca1e-44b3-9765-d862978a9dbe
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, NotifyUnicastIpAddressChange, NotifyUnicastIpAddressChange function [IP Helper], iphlp.notifyunicastipaddresschange, netioapi/NotifyUnicastIpAddressChange
-ms.topic: function
 f1_keywords:
 - netioapi/NotifyUnicastIpAddressChange
 dev_langs:

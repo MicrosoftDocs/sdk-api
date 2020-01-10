@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 355cf034-e1d7-4530-b117-4c505ad0aac6
 ms.date: 12/05/2018
 ms.keywords: _win32_midiStreamOpen, midiStreamOpen, midiStreamOpen function [Windows Multimedia], mmeapi/midiStreamOpen, multimedia.midistreamopen
-ms.topic: function
 f1_keywords:
 - mmeapi/midiStreamOpen
 dev_langs:

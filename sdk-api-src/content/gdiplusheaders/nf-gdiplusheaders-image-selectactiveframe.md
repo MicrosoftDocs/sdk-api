@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\selectactiveframe.htm
 ms.date: 12/05/2018
 ms.keywords: Image class [GDI+],SelectActiveFrame method, Image.SelectActiveFrame, Image::SelectActiveFrame, SelectActiveFrame, SelectActiveFrame method [GDI+], SelectActiveFrame method [GDI+],Image class, _gdiplus_CLASS_Image_SelectActiveFrame_dimensionID_frameIndex_, gdiplus._gdiplus_CLASS_Image_SelectActiveFrame_dimensionID_frameIndex_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Image.SelectActiveFrame
 dev_langs:

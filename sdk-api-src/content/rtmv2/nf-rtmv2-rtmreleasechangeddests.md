@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 542cb23f-81c2-4b29-b049-ebb5827b1d62
 ms.date: 12/05/2018
 ms.keywords: RtmReleaseChangedDests, RtmReleaseChangedDests function [RAS], _rtmv2ref_rtmreleasechangeddests, rras.rtmreleasechangeddests, rtmv2/RtmReleaseChangedDests
-ms.topic: function
 f1_keywords:
 - rtmv2/RtmReleaseChangedDests
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\iwiadevmgr.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaDevMgr, IWiaDevMgr interface [WIA], IWiaDevMgr interface [WIA],described, _wia_IWiaDevMgr, wia._wia_IWiaDevMgr, wia_xp/IWiaDevMgr
-ms.topic: interface
 f1_keywords:
 - wia_xp/IWiaDevMgr
 dev_langs:

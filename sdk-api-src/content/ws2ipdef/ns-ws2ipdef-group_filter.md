@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 09aa1f67-c858-4bef-9a98-ce25ebcc1d4e
 ms.date: 12/05/2018
 ms.keywords: '*PGROUP_FILTER, GROUP_FILTER, GROUP_FILTER structure [Winsock], MCAST_EXCLUDE, MCAST_INCLUDE, PGROUP_FILTER, PGROUP_FILTER structure pointer [Winsock], winsock.group_filter, ws2ipdef/GROUP_FILTER, ws2ipdef/PGROUP_FILTER'
-ms.topic: struct
 f1_keywords:
 - ws2ipdef/GROUP_FILTER
 dev_langs:

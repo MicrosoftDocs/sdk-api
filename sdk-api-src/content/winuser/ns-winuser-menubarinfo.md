@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\menubarinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPMENUBARINFO, *PMENUBARINFO, MENUBARINFO, MENUBARINFO structure [Menus and Other Resources], PMENUBARINFO, PMENUBARINFO structure pointer [Menus and Other Resources], _win32_MENUBARINFO_str, _win32_menubarinfo_str_cpp, menurc.menubarinfo, winui._win32_menubarinfo_str, winuser/MENUBARINFO, winuser/PMENUBARINFO'
-ms.topic: struct
 f1_keywords:
 - winuser/MENUBARINFO
 dev_langs:

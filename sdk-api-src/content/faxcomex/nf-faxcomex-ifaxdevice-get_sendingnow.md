@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3vzr.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxDevice interface [Fax Service],SendingNow property, IFaxDevice.SendingNow, IFaxDevice.get_SendingNow, IFaxDevice::SendingNow, IFaxDevice::get_SendingNow, SendingNow property [Fax Service], SendingNow property [Fax Service],IFaxDevice interface, _mfax_faxdevice.sendingnow, fax._mfax_faxdevice_cpp_mfax_faxdevice_sendingnow_cpp, fax._mfax_faxdevice_sendingnow, faxcomex/IFaxDevice::SendingNow, faxcomex/IFaxDevice::get_SendingNow, get_SendingNow
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxDevice.SendingNow
 dev_langs:

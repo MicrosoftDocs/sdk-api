@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 38ef67b9-362f-4776-9b4c-6ca40e1efe0b
 ms.date: 12/05/2018
 ms.keywords: LongPtrToInt8, LongPtrToInt8 function [Windows Shell], intsafe/LongPtrToInt8, shell.LongPtrToInt8
-ms.topic: function
 f1_keywords:
 - intsafe/LongPtrToInt8
 dev_langs:

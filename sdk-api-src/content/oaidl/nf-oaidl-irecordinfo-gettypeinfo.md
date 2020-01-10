@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: c8c05c4a-000a-4e48-aace-ff9f9292e3ea
 ms.date: 12/05/2018
 ms.keywords: GetTypeInfo, GetTypeInfo method [Automation], GetTypeInfo method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetTypeInfo method, IRecordInfo.GetTypeInfo, IRecordInfo::GetTypeInfo, _oa96_IRecordInfo_GetTypeInfo, automat.irecordinfo_gettypeinfo, oaidl/IRecordInfo::GetTypeInfo
-ms.topic: method
 f1_keywords:
 - oaidl/IRecordInfo.GetTypeInfo
 dev_langs:

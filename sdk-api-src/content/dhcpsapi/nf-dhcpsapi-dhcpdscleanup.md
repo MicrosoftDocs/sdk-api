@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 7d722ca5-a779-4481-b2c7-6d9d7bb5fcfe
 ms.date: 12/05/2018
 ms.keywords: DhcpDsCleanup, DhcpDsCleanup function [DHCP], dhcp.dhcpdscleanup, dhcpsapi/DhcpDsCleanup
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpDsCleanup
 dev_langs:

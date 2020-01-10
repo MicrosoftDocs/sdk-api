@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 80292d9b-fced-4726-8f83-5ba355df06a2
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],NotifySettingsChange method, IWRdsProtocolManager.NotifySettingsChange, IWRdsProtocolManager::NotifySettingsChange, NotifySettingsChange, NotifySettingsChange method [Remote Desktop Services], NotifySettingsChange method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_notifysettingschange, wtsprotocol/IWRdsProtocolManager::NotifySettingsChange
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWRdsProtocolManager.NotifySettingsChange
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: c64e5ce3-78f6-4f51-8ae1-c871c4716d26
 ms.date: 12/05/2018
 ms.keywords: INATNumberOfEntriesCallback, INATNumberOfEntriesCallback interface [ICS/ICF], INATNumberOfEntriesCallback interface [ICS/ICF],described, _ics_inatnumberofentriescallback, ics.inatnumberofentriescallback, natupnp/INATNumberOfEntriesCallback
-ms.topic: interface
 f1_keywords:
 - natupnp/INATNumberOfEntriesCallback
 dev_langs:

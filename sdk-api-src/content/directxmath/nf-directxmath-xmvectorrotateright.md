@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorRotateRight(XMVECTOR,uint32_t)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorRotateRight, XMVectorRotateRight, XMVectorRotateRight method [DirectX Math Support APIs], dxmath.xmvectorrotateright
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorRotateRight
 dev_langs:

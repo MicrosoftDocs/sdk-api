@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 3fc9dbb3-83bb-4c46-8ada-a7b7b8a784fe
 ms.date: 12/05/2018
 ms.keywords: IAMDirectSound interface [DirectShow],SetFocusWindow method, IAMDirectSound.SetFocusWindow, IAMDirectSound::SetFocusWindow, IAMDirectSoundSetWindowFocus, SetFocusWindow, SetFocusWindow method [DirectShow], SetFocusWindow method [DirectShow],IAMDirectSound interface, amaudio/IAMDirectSound::SetFocusWindow, dshow.iamdirectsound_setfocuswindow
-ms.topic: method
 f1_keywords:
 - amaudio/IAMDirectSound.SetFocusWindow
 dev_langs:

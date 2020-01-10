@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getpropertyitemsize.htm
 ms.date: 12/05/2018
 ms.keywords: GetPropertyItemSize, GetPropertyItemSize method [GDI+], GetPropertyItemSize method [GDI+],Image class, Image class [GDI+],GetPropertyItemSize method, Image.GetPropertyItemSize, Image::GetPropertyItemSize, _gdiplus_CLASS_Image_GetPropertyItemSize_propId_, gdiplus._gdiplus_CLASS_Image_GetPropertyItemSize_propId_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Image.GetPropertyItemSize
 dev_langs:

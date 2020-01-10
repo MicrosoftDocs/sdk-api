@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 25466a29-368b-4970-9995-5272cbca3c0a
 ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingPublicConnection interface [ICS/ICF],Skip method, IEnumNetSharingPublicConnection.Skip, IEnumNetSharingPublicConnection::Skip, Skip, Skip method [ICS/ICF], Skip method [ICS/ICF],IEnumNetSharingPublicConnection interface, _ics_ienumnetsharingpublicconnection_skip, ics.ienumnetsharingpublicconnection_skip, netcon/IEnumNetSharingPublicConnection::Skip
-ms.topic: method
 f1_keywords:
 - netcon/IEnumNetSharingPublicConnection.Skip
 dev_langs:

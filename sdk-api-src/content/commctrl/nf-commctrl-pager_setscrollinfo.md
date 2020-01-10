@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_setscrollinfo.htm
 ms.date: 12/05/2018
 ms.keywords: Pager_SetScrollInfo, Pager_SetScrollInfo macro [Windows Controls], _win32_Pager_SetScrollInfo, _win32_Pager_SetScrollInfo_cpp, commctrl/Pager_SetScrollInfo, controls.Pager_SetScrollInfo, controls._win32_Pager_SetScrollInfo
-ms.topic: macro
 f1_keywords:
 - commctrl/Pager_SetScrollInfo
 dev_langs:

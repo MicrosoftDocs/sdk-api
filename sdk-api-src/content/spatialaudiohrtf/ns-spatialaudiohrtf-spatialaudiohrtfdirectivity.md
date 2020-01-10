@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: A3D149E0-F2C1-47C7-8858-35C5F51C7F75
 ms.date: 12/05/2018
 ms.keywords: PSpatialAudioHrtfDirectivity, PSpatialAudioHrtfDirectivity structure pointer [Core Audio], SpatialAudioHrtfDirectivity, SpatialAudioHrtfDirectivity structure [Core Audio], coreaudio.spatialaudiohrtfdirectivity, spatialaudiohrtf/PSpatialAudioHrtfDirectivity, spatialaudiohrtf/SpatialAudioHrtfDirectivity
-ms.topic: struct
 f1_keywords:
 - spatialaudiohrtf/SpatialAudioHrtfDirectivity
 dev_langs:

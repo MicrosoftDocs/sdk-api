@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 7a92e545-805b-4ce6-bbf1-397f7a5f6524
 ms.date: 12/05/2018
 ms.keywords: '*PMPEG_CONTEXT, MPEG_CONTEXT, MPEG_CONTEXT structure [Microsoft TV Technologies], mpeg2structs/MPEG_CONTEXT, mstv.mpeg_context'
-ms.topic: struct
 f1_keywords:
 - mpeg2structs/MPEG_CONTEXT
 dev_langs:

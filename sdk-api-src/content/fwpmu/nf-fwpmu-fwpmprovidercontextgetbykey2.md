@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: df8803be-ce24-42c1-9dd2-80ce2a3e1e3e
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderContextGetByKey2, FwpmProviderContextGetByKey2 function [Filtering], fwp.fwpmprovidercontextgetbykey2, fwpmu/FwpmProviderContextGetByKey2
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmProviderContextGetByKey2
 dev_langs:

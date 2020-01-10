@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 4b36e801-dea9-44fe-ae12-104ea7dce1ee
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_BINDING_PROPERTIES, WS_SECURITY_BINDING_PROPERTIES structure [Web Services for Windows], webservices/WS_SECURITY_BINDING_PROPERTIES, wsw.ws_security_binding_properties
-ms.topic: struct
 f1_keywords:
 - webservices/WS_SECURITY_BINDING_PROPERTIES
 dev_langs:

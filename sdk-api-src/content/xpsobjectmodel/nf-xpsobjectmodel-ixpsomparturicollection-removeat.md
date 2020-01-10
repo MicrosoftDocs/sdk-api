@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: db5e7595-eba0-454f-8fb3-f129ab537886
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPartUriCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMPartUriCollection.RemoveAt, IXpsOMPartUriCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMPartUriCollection interface, xps.ixpsomparturicollection_removeat, xpsobjectmodel/IXpsOMPartUriCollection::RemoveAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPartUriCollection.RemoveAt
 dev_langs:

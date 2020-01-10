@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 159ed107-383d-4a1a-b172-f2e339d6bc83
 ms.date: 12/05/2018
 ms.keywords: IAMAsyncReaderTimestampScaling, IAMAsyncReaderTimestampScaling interface [DirectShow], IAMAsyncReaderTimestampScaling interface [DirectShow],described, dshow.iamasyncreadertimestampscaling, strmif/IAMAsyncReaderTimestampScaling
-ms.topic: interface
 f1_keywords:
 - strmif/IAMAsyncReaderTimestampScaling
 dev_langs:

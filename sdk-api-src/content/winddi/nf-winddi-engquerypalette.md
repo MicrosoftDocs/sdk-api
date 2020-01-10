@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: be4d0547-b71a-49b4-9d2c-12fab67c9412
 ms.date: 12/05/2018
 ms.keywords: EngQueryPalette, EngQueryPalette function [Display Devices], display.engquerypalette, gdifncs_e11ff13c-9834-4911-9a02-a7d98f4cdfdc.xml, winddi/EngQueryPalette
-ms.topic: function
 f1_keywords:
 - winddi/EngQueryPalette
 dev_langs:

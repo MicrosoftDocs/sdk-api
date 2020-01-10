@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 2f966d39-8d7c-41e7-bf6a-5a30170b100d
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_AUTHORITY_KEY_ID_INFO, CERT_AUTHORITY_KEY_ID_INFO, CERT_AUTHORITY_KEY_ID_INFO structure [Security], PCERT_AUTHORITY_KEY_ID_INFO, PCERT_AUTHORITY_KEY_ID_INFO structure pointer [Security], _crypto2_cert_authority_key_id_info, security.cert_authority_key_id_info, wincrypt/CERT_AUTHORITY_KEY_ID_INFO, wincrypt/PCERT_AUTHORITY_KEY_ID_INFO'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_AUTHORITY_KEY_ID_INFO
 dev_langs:

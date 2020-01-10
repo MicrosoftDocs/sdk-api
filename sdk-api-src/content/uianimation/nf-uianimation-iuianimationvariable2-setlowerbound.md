@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 5149778F-C78D-49C2-8C2E-DBAB00B78DE8
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariable2 interface [Windows Animation],SetLowerBound method, IUIAnimationVariable2.SetLowerBound, IUIAnimationVariable2::SetLowerBound, SetLowerBound, SetLowerBound method [Windows Animation], SetLowerBound method [Windows Animation],IUIAnimationVariable2 interface, uianimation.iuianimationvariable2_setlowerbound, uianimation/IUIAnimationVariable2::SetLowerBound
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationVariable2.SetLowerBound
 dev_langs:

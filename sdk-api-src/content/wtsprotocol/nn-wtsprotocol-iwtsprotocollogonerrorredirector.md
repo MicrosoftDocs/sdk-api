@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 1ff30217-9091-47df-a38f-30784538f0b9
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolLogonErrorRedirector, IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services], IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services],described, termserv.iwtsprotocollogonerrorredirector, wtsprotocol/IWTSProtocolLogonErrorRedirector
-ms.topic: interface
 f1_keywords:
 - wtsprotocol/IWTSProtocolLogonErrorRedirector
 dev_langs:

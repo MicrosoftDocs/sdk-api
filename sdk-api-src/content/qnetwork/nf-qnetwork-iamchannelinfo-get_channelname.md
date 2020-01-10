@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6cf4f8aa-d6aa-46bd-83b1-fba762fbb8bb
 ms.date: 12/05/2018
 ms.keywords: IAMChannelInfo interface [DirectShow],get_ChannelName method, IAMChannelInfo.get_ChannelName, IAMChannelInfo::get_ChannelName, IAMChannelInfoget_ChannelName, dshow.iamchannelinfo_get_channelname, get_ChannelName, get_ChannelName method [DirectShow], get_ChannelName method [DirectShow],IAMChannelInfo interface, qnetwork/IAMChannelInfo::get_ChannelName
-ms.topic: method
 f1_keywords:
 - qnetwork/IAMChannelInfo.get_ChannelName
 dev_langs:

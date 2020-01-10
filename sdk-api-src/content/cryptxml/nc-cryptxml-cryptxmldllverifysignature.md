@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 6e864156-37bd-4f2a-b2e9-f7269aa70241
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllVerifySignature, CryptXmlDllVerifySignature callback, CryptXmlDllVerifySignature callback function [Security], cryptxml/CryptXmlDllVerifySignature, security.cryptxmldllverifysignature
-ms.topic: callback
 f1_keywords:
 - cryptxml/CryptXmlDllVerifySignature
 dev_langs:

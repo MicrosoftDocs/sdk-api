@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 565ceb6c-0e44-4c71-8b67-092cd33d088e
 ms.date: 12/05/2018
 ms.keywords: WdsTransportServerRegisterCallback, WdsTransportServerRegisterCallback function [Windows Deployment Services], wds.wdstransportserverregistercallback, wdstpdi/WdsTransportServerRegisterCallback
-ms.topic: function
 f1_keywords:
 - wdstpdi/WdsTransportServerRegisterCallback
 dev_langs:

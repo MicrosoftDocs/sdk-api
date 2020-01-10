@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e9de2468-3676-4b4b-8eec-385c33b3f44b
 ms.date: 12/05/2018
 ms.keywords: AVEncAudioInputContent_Music, AVEncAudioInputContent_Unknown, AVEncAudioInputContent_Voice, codecapi/AVEncAudioInputContent_Music, codecapi/AVEncAudioInputContent_Unknown, codecapi/AVEncAudioInputContent_Voice, codecapi/eAVEncAudioInputContent, dshow.eavencaudioinputcontent, eAVEncAudioInputContent, eAVEncAudioInputContent enumeration [DirectShow], eAVEncAudioInputContentEnumeration
-ms.topic: enum
 f1_keywords:
 - codecapi/eAVEncAudioInputContent
 dev_langs:

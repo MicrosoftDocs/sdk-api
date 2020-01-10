@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: eed64bd9-1300-4db3-a3ed-c7e8ff9c7c8f
 ms.date: 12/05/2018
 ms.keywords: IMediaSample interface [DirectShow],IsSyncPoint method, IMediaSample.IsSyncPoint, IMediaSample::IsSyncPoint, IMediaSampleIsSyncPoint, IsSyncPoint, IsSyncPoint method [DirectShow], IsSyncPoint method [DirectShow],IMediaSample interface, dshow.imediasample_issyncpoint, strmif/IMediaSample::IsSyncPoint
-ms.topic: method
 f1_keywords:
 - strmif/IMediaSample.IsSyncPoint
 dev_langs:

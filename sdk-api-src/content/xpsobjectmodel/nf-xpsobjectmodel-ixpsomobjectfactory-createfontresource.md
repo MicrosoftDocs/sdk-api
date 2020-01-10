@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 9893716b-5004-4886-9bed-49a447e97f42
 ms.date: 12/05/2018
 ms.keywords: CreateFontResource, CreateFontResource method [XPS Documents and Packaging], CreateFontResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, FALSE, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateFontResource method, IXpsOMObjectFactory.CreateFontResource, IXpsOMObjectFactory::CreateFontResource, TRUE, xps.ixpsomobjectfactory_createfontresource, xpsobjectmodel/IXpsOMObjectFactory::CreateFontResource
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreateFontResource
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: a890707f-b773-4b66-8817-68efdb8d47f8
 ms.date: 12/05/2018
 ms.keywords: '*PDD_RENDERMOCOMPDATA, DD_RENDERMOCOMPDATA, DD_RENDERMOCOMPDATA structure [Display Devices], ddrawint/DD_RENDERMOCOMPDATA, ddstrcts_ac8e2378-be85-4257-a664-d757ec914561.xml, display.dd_rendermocompdata'
-ms.topic: struct
 f1_keywords:
 - ddrawint/DD_RENDERMOCOMPDATA
 dev_langs:

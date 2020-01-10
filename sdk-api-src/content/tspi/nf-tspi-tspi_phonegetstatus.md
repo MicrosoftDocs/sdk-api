@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 92cf7299-2e1f-42ce-abf7-2824d993bd59
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneGetStatus, TSPI_phoneGetStatus function [TAPI 2.2], _tspi_tspi_phonegetstatus, tspi.tspi_phonegetstatus, tspi/TSPI_phoneGetStatus
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_phoneGetStatus
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 640E1933-E23D-4852-95A2-4FD630162D2C
 ms.date: 12/05/2018
 ms.keywords: GetThemeTimingFunction, GetThemeTimingFunction function [Windows Controls], controls.getthemetimingfunction, uxtheme/GetThemeTimingFunction
-ms.topic: function
 f1_keywords:
 - uxtheme/GetThemeTimingFunction
 dev_langs:

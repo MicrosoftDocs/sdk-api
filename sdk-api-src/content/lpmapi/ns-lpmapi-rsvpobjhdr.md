@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 90a237c0-0e62-4f27-927a-e3f3c1ac629e
 ms.date: 12/05/2018
 ms.keywords: RsvpObjHdr, RsvpObjHdr structure [QOS], lpmapi/RsvpObjHdr, qos.rsvpobjhdr
-ms.topic: struct
 f1_keywords:
 - lpmapi/RsvpObjHdr
 dev_langs:

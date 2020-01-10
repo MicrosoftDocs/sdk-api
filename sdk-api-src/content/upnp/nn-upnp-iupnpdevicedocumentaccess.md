@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: 6d71425e-3e33-44e0-845a-4bcd05939d24
 ms.date: 12/05/2018
 ms.keywords: IUPnPDeviceDocumentAccess, IUPnPDeviceDocumentAccess interface [UPnP APIs], IUPnPDeviceDocumentAccess interface [UPnP APIs],described, _upnp_iupnpdevicedocumentaccess, upnp.iupnpdevicedocumentaccess, upnp/IUPnPDeviceDocumentAccess
-ms.topic: interface
 f1_keywords:
 - upnp/IUPnPDeviceDocumentAccess
 dev_langs:

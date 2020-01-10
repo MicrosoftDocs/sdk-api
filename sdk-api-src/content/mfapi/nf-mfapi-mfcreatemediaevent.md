@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 64da695e-5f56-4f23-9a06-0b0c358e3cc3
 ms.date: 12/05/2018
 ms.keywords: 64da695e-5f56-4f23-9a06-0b0c358e3cc3, MFCreateMediaEvent, MFCreateMediaEvent function [Media Foundation], mf.mfcreatemediaevent, mfapi/MFCreateMediaEvent
-ms.topic: function
 f1_keywords:
 - mfapi/MFCreateMediaEvent
 dev_langs:

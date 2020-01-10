@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: 0840ef85-9b18-4248-96fe-93653274a89a
 ms.date: 12/05/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessMoveWithTime method, IManipulationProcessor.ProcessMoveWithTime, IManipulationProcessor::ProcessMoveWithTime, ProcessMoveWithTime, ProcessMoveWithTime method [Windows Touch], ProcessMoveWithTime method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessMoveWithTime, wintouch.imanpiulationprocessor_processmovewithtime
-ms.topic: method
 f1_keywords:
 - manipulations/IManipulationProcessor.ProcessMoveWithTime
 dev_langs:

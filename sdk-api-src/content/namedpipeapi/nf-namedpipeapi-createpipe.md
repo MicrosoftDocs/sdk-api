@@ -7,7 +7,6 @@ tech.root: ipc
 ms.assetid: a2d2fee8-c174-49d3-9e5a-2ce3bb763932
 ms.date: 12/05/2018
 ms.keywords: CreatePipe, CreatePipe function, _win32_createpipe, base.createpipe, namedpipeapi/CreatePipe
-ms.topic: function
 f1_keywords:
 - namedpipeapi/CreatePipe
 dev_langs:

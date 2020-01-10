@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 1b2724a3-2f5f-4f30-8cf5-e31f16d4cd14
 ms.date: 12/05/2018
 ms.keywords: IEnumRangeExceptions, IEnumRangeExceptions interface [Windows Sync], IEnumRangeExceptions interface [Windows Sync],described, winsync.ienumrangeexceptions, winsync/IEnumRangeExceptions
-ms.topic: interface
 f1_keywords:
 - winsync/IEnumRangeExceptions
 dev_langs:

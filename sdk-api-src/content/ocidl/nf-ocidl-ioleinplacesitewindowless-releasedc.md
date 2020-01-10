@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 8778a58c-2995-4c14-826c-9c97e97e957b
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],ReleaseDC method, IOleInPlaceSiteWindowless.ReleaseDC, IOleInPlaceSiteWindowless::ReleaseDC, ReleaseDC, ReleaseDC method [COM], ReleaseDC method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_releasedc, com.ioleinplacesitewindowless_releasedc, ocidl/IOleInPlaceSiteWindowless::ReleaseDC
-ms.topic: method
 f1_keywords:
 - ocidl/IOleInPlaceSiteWindowless.ReleaseDC
 dev_langs:

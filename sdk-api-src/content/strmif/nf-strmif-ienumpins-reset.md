@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c2147884-aec2-43ae-b85a-61383ad6ca15
 ms.date: 12/05/2018
 ms.keywords: IEnumPins interface [DirectShow],Reset method, IEnumPins.Reset, IEnumPins::Reset, IEnumPinsReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumPins interface, dshow.ienumpins_reset, strmif/IEnumPins::Reset
-ms.topic: method
 f1_keywords:
 - strmif/IEnumPins.Reset
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 5a2d7fee-666e-4b3b-b6fa-b9f6d785c2c1
 ms.date: 12/05/2018
 ms.keywords: GetObjectInformation, GetObjectInformation method [ADSI], GetObjectInformation method [ADSI],IDirectoryObject interface, IDirectoryObject interface [ADSI],GetObjectInformation method, IDirectoryObject.GetObjectInformation, IDirectoryObject::GetObjectInformation, _ds_idirectoryobject_getobjectinformation, adsi.idirectoryobject__getobjectinformation, adsi.idirectoryobject_getobjectinformation, iads/IDirectoryObject::GetObjectInformation
-ms.topic: method
 f1_keywords:
 - iads/IDirectoryObject.GetObjectInformation
 dev_langs:

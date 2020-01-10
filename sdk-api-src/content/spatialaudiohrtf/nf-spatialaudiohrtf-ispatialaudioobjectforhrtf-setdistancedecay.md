@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 62C95E6A-C27E-4C17-91E1-D6D80172F15B
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetDistanceDecay method, ISpatialAudioObjectForHrtf.SetDistanceDecay, ISpatialAudioObjectForHrtf::SetDistanceDecay, SetDistanceDecay, SetDistanceDecay method [Core Audio], SetDistanceDecay method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setdistancedecay, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetDistanceDecay
-ms.topic: method
 f1_keywords:
 - spatialaudiohrtf/ISpatialAudioObjectForHrtf.SetDistanceDecay
 dev_langs:

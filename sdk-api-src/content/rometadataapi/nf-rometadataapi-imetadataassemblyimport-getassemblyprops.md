@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 1f60657c-46b4-4491-a9e2-73868886f51d
 ms.date: 12/05/2018
 ms.keywords: GetAssemblyProps, GetAssemblyProps method [Windows Runtime], GetAssemblyProps method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetAssemblyProps method, IMetaDataAssemblyImport.GetAssemblyProps, IMetaDataAssemblyImport::GetAssemblyProps, rometadataapi/IMetaDataAssemblyImport::GetAssemblyProps, winrt.imetadataassemblyimport_getassemblyprops
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataAssemblyImport.GetAssemblyProps
 dev_langs:

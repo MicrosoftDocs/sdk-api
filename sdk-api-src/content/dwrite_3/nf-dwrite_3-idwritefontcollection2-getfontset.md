@@ -5,7 +5,6 @@ description: Retrieves the underlying font set used by this collection.
 tech.root: DirectWrite
 ms.date: 09/12/2019
 ms.keywords: IDWriteFontCollection2 interface [Direct Write],GetFontSet method, IDWriteFontCollection2.GetFontSet, IDWriteFontCollection2::GetFontSet, GetFontSet, GetFontSet method [Direct Write], GetFontSet method [Direct Write],IDWriteFontCollection2 interface, directwrite.idwritefontcollection2_getfontset, dwrite_3/IDWriteFontCollection2::GetFontSet
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontCollection2.GetFontSet
 dev_langs:

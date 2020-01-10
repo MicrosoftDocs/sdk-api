@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 7ad0b11e-5bb7-426f-9a2c-fbc34b2f45b4
 ms.date: 12/05/2018
 ms.keywords: DVD_TIMECODE, DVD_TIMECODE structure [DirectShow], DVD_TIMECODEStructure, dshow.dvd_timecode, strmif/DVD_TIMECODE
-ms.topic: struct
 f1_keywords:
 - strmif/DVD_TIMECODE
 dev_langs:

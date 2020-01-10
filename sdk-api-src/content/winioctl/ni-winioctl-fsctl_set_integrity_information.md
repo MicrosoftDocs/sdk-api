@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: bd5be96d-6fdc-4fad-9d01-81b913a5b653
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SET_INTEGRITY_INFORMATION, FSCTL_SET_INTEGRITY_INFORMATION control, FSCTL_SET_INTEGRITY_INFORMATION control code [Files], fs.fsctl_set_integrity_information, winioctl/FSCTL_SET_INTEGRITY_INFORMATION
-ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_SET_INTEGRITY_INFORMATION
 dev_langs:

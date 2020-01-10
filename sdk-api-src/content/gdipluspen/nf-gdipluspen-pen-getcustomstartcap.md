@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getcustomstartcap.htm
 ms.date: 12/05/2018
 ms.keywords: GetCustomStartCap, GetCustomStartCap method [GDI+], GetCustomStartCap method [GDI+],Pen class, Pen class [GDI+],GetCustomStartCap method, Pen.GetCustomStartCap, Pen::GetCustomStartCap, _gdiplus_CLASS_Pen_GetCustomStartCap_customCap_, gdiplus._gdiplus_CLASS_Pen_GetCustomStartCap_customCap_
-ms.topic: method
 f1_keywords:
 - gdipluspen/Pen.GetCustomStartCap
 dev_langs:

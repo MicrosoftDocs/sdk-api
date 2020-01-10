@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: e5800978-198e-479d-8cca-5c4ac2399d5d
 ms.date: 12/05/2018
 ms.keywords: IEnumDirectory interface [TAPI 2.2],Reset method, IEnumDirectory.Reset, IEnumDirectory::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumDirectory interface, _tapi3_ienumdirectory_reset, rend/IEnumDirectory::Reset, tapi3.ienumdirectory_reset
-ms.topic: method
 f1_keywords:
 - rend/IEnumDirectory.Reset
 dev_langs:

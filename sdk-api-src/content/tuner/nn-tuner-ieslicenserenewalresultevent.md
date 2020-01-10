@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 6f9cbec4-7934-41fc-b387-3f45aa273a72
 ms.date: 12/05/2018
 ms.keywords: IESLicenseRenewalResultEvent, IESLicenseRenewalResultEvent interface [DirectShow], IESLicenseRenewalResultEvent interface [DirectShow],described, mstv.ieslicenserenewalresultevent, tuner/IESLicenseRenewalResultEvent
-ms.topic: interface
 f1_keywords:
 - tuner/IESLicenseRenewalResultEvent
 dev_langs:

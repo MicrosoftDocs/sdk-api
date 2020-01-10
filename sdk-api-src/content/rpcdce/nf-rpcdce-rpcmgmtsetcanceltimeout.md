@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 0a616f5d-b30a-4cd3-9348-19f09f373c50
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtSetCancelTimeout, RpcMgmtSetCancelTimeout function [RPC], _rpc_rpcmgmtsetcanceltimeout, rpc.rpcmgmtsetcanceltimeout, rpcdce/RpcMgmtSetCancelTimeout
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcMgmtSetCancelTimeout
 dev_langs:

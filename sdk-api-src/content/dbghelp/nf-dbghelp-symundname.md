@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: f7bea3a4-5e17-4743-894f-8eb8f9992cac
 ms.date: 12/05/2018
 ms.keywords: SymUnDName, SymUnDName function, SymUnDName64, SymUnDName64 function, base.symundname64, dbghelp/SymUnDName, dbghelp/SymUnDName64
-ms.topic: function
 f1_keywords:
 - dbghelp/SymUnDName64
 dev_langs:

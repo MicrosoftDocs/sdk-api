@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 92666512-BE10-4ee7-B670-18F0C714A4C9
 ms.date: 12/05/2018
 ms.keywords: GetBackgroundColor, GetBackgroundColor method [Windows Shell], GetBackgroundColor method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetBackgroundColor method, IDesktopWallpaper.GetBackgroundColor, IDesktopWallpaper::GetBackgroundColor, shell.IDesktopWallpaper_GetBackgroundColor, shobjidl_core/IDesktopWallpaper::GetBackgroundColor
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IDesktopWallpaper.GetBackgroundColor
 dev_langs:

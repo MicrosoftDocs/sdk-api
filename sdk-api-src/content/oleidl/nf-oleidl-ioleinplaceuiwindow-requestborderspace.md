@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: fd477b1d-e9a5-4b99-adf1-8e62de975730
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceUIWindow interface [COM],RequestBorderSpace method, IOleInPlaceUIWindow.RequestBorderSpace, IOleInPlaceUIWindow::RequestBorderSpace, RequestBorderSpace, RequestBorderSpace method [COM], RequestBorderSpace method [COM],IOleInPlaceUIWindow interface, _ole_ioleinplaceuiwindow_requestborderspace, com.ioleinplaceuiwindow_requestborderspace, oleidl/IOleInPlaceUIWindow::RequestBorderSpace
-ms.topic: method
 f1_keywords:
 - oleidl/IOleInPlaceUIWindow.RequestBorderSpace
 dev_langs:

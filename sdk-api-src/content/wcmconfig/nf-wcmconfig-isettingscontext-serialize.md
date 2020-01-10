@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: 13b29096-8572-4539-abd4-de22a9594f38
 ms.date: 12/05/2018
 ms.keywords: ISettingsContext interface [SMI],Serialize method, ISettingsContext.Serialize, ISettingsContext::Serialize, Serialize, Serialize method [SMI], Serialize method [SMI],ISettingsContext interface, smi.isettingscontext_serialize, wcmconfig/ISettingsContext::Serialize
-ms.topic: method
 f1_keywords:
 - wcmconfig/ISettingsContext.Serialize
 dev_langs:

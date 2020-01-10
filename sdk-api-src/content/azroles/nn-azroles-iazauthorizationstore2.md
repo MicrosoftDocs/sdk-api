@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 8b3901a9-003f-4346-a0c7-34a1ed730949
 ms.date: 12/05/2018
 ms.keywords: IAzAuthorizationStore2, IAzAuthorizationStore2 interface [Security], IAzAuthorizationStore2 interface [Security],described, azroles/IAzAuthorizationStore2, security.iazauthorizationstore2
-ms.topic: interface
 f1_keywords:
 - azroles/IAzAuthorizationStore2
 dev_langs:

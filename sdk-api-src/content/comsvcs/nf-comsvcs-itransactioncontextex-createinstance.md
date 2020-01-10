@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 49684f80-847b-4613-9148-dd34dc22a476
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method [COM+],ITransactionContextEx interface, ITransactionContextEx interface [COM+],CreateInstance method, ITransactionContextEx.CreateInstance, ITransactionContextEx::CreateInstance, _cos_ITransactionContextEx_CreateInstance, comsvcs/ITransactionContextEx::CreateInstance, cos.itransactioncontextex_createinstance
-ms.topic: method
 f1_keywords:
 - comsvcs/ITransactionContextEx.CreateInstance
 dev_langs:

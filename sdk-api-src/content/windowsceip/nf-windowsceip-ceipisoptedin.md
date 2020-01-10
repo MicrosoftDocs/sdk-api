@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 4CDB5B09-B172-4E99-AB46-A08E32346266
 ms.date: 12/05/2018
 ms.keywords: CeipIsOptedIn, CeipIsOptedIn function, base.ceipisoptedin, windowsceip/ CeipIsOptedIn
-ms.topic: function
 f1_keywords:
 - windowsceip/CeipIsOptedIn
 dev_langs:

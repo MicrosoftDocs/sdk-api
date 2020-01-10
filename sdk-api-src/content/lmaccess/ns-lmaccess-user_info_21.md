@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 227e97c5-972e-4d4a-9609-53e60e76d43e
 ms.date: 12/05/2018
 ms.keywords: '*LPUSER_INFO_21, *PUSER_INFO_21, LPUSER_INFO_21, LPUSER_INFO_21 structure pointer [Network Management], PUSER_INFO_21, PUSER_INFO_21 structure pointer [Network Management], USER_INFO_21, USER_INFO_21 structure [Network Management], _win32_user_info_21_str, lmaccess/LPUSER_INFO_21, lmaccess/PUSER_INFO_21, lmaccess/USER_INFO_21, netmgmt.user_info_21_str'
-ms.topic: struct
 f1_keywords:
 - lmaccess/USER_INFO_21
 dev_langs:

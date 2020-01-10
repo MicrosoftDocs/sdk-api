@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: b8e5075f-4d30-4c32-8041-7e60d7d82f8d
 ms.date: 12/05/2018
 ms.keywords: IAnalogRadioTuningSpace interface [Microsoft TV Technologies],put_Step method, IAnalogRadioTuningSpace.put_Step, IAnalogRadioTuningSpace::put_Step, IAnalogRadioTuningSpaceput_Step, mstv.ianalogradiotuningspace_put_step, put_Step, put_Step method [Microsoft TV Technologies], put_Step method [Microsoft TV Technologies],IAnalogRadioTuningSpace interface, tuner/IAnalogRadioTuningSpace::put_Step
-ms.topic: method
 f1_keywords:
 - tuner/IAnalogRadioTuningSpace.put_Step
 dev_langs:

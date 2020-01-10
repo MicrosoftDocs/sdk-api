@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 8c161755-4fdd-48bd-9dc4-6510cc9ce8ab
 ms.date: 12/05/2018
 ms.keywords: VarOr, VarOr function [Automation], _oa96_VarOr, automat.varor, oleauto/VarOr
-ms.topic: function
 f1_keywords:
 - oleauto/VarOr
 dev_langs:

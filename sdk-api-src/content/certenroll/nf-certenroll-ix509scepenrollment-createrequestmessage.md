@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: b86d6dc3-aa96-45f3-9551-f24c39ea6cbf
 ms.date: 12/05/2018
 ms.keywords: CreateRequestMessage, CreateRequestMessage method [Security], CreateRequestMessage method [Security],IX509SCEPEnrollment interface, IX509SCEPEnrollment interface [Security],CreateRequestMessage method, IX509SCEPEnrollment.CreateRequestMessage, IX509SCEPEnrollment::CreateRequestMessage, certenroll/IX509SCEPEnrollment::CreateRequestMessage, security.ix509scepenrollment_createrequestmessage
-ms.topic: method
 f1_keywords:
 - certenroll/IX509SCEPEnrollment.CreateRequestMessage
 dev_langs:

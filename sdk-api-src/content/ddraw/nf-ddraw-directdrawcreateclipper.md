@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: 12d499d2-dd4a-4831-9290-c225aec1a160
 ms.date: 12/05/2018
 ms.keywords: DirectDrawCreateClipper, DirectDrawCreateClipper function [DirectDraw], ddraw/DirectDrawCreateClipper, directdraw.directdrawcreateclipper
-ms.topic: function
 f1_keywords:
 - ddraw/DirectDrawCreateClipper
 dev_langs:

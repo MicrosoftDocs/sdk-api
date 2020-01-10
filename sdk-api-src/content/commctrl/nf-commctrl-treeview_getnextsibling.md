@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getnextsibling.htm
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetNextSibling, TreeView_GetNextSibling macro [Windows Controls], _win32_TreeView_GetNextSibling, _win32_TreeView_GetNextSibling_cpp, commctrl/TreeView_GetNextSibling, controls.TreeView_GetNextSibling, controls._win32_TreeView_GetNextSibling
-ms.topic: macro
 f1_keywords:
 - commctrl/TreeView_GetNextSibling
 dev_langs:

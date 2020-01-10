@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 731A60CA-644A-4FC2-8461-DDD686363BED
 ms.date: 12/05/2018
 ms.keywords: CreateFence, CreateFence method, CreateFence method,ID3D12Device interface, ID3D12Device interface,CreateFence method, ID3D12Device.CreateFence, ID3D12Device::CreateFence, d3d12/ID3D12Device::CreateFence, direct3d12.id3d12device_createfence
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Device.CreateFence
 dev_langs:

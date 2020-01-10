@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: fcdff2f8-7f43-4c0f-b548-4914b1991937
 ms.date: 12/05/2018
 ms.keywords: AllocateAndInitializeSid, AllocateAndInitializeSid function [Security], _win32_allocateandinitializesid, security.allocateandinitializesid, securitybaseapi/AllocateAndInitializeSid
-ms.topic: function
 f1_keywords:
 - securitybaseapi/AllocateAndInitializeSid
 dev_langs:

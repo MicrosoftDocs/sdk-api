@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 61907979-fa4a-45da-96c5-7cd12021fbb7
 ms.date: 12/05/2018
 ms.keywords: IAlertDataCollector, IAlertDataCollector interface [PLA], IAlertDataCollector interface [PLA],described, base.ialertdatacollector, pla.ialertdatacollector, pla/IAlertDataCollector
-ms.topic: interface
 f1_keywords:
 - pla/IAlertDataCollector
 dev_langs:

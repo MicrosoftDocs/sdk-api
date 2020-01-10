@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 2168c76e-2b83-40ad-8ac1-9b76f1a31b7b
 ms.date: 12/05/2018
 ms.keywords: 2168c76e-2b83-40ad-8ac1-9b76f1a31b7b, GetVideoFormat, GetVideoFormat method [Media Foundation], GetVideoFormat method [Media Foundation],IMFVideoMediaType interface, IMFVideoMediaType interface [Media Foundation],GetVideoFormat method, IMFVideoMediaType.GetVideoFormat, IMFVideoMediaType::GetVideoFormat, mf.imfvideomediatype_getvideoformat, mfobjects/IMFVideoMediaType::GetVideoFormat
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFVideoMediaType.GetVideoFormat
 dev_langs:

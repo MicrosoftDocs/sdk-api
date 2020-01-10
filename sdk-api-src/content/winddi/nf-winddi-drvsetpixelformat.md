@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: b2211639-13ae-455c-97ef-8145318af591
 ms.date: 12/05/2018
 ms.keywords: DrvSetPixelFormat, DrvSetPixelFormat function [Display Devices], ddifncs_095cf66c-832a-49c2-9bf2-f97ef74665b2.xml, display.drvsetpixelformat, winddi/DrvSetPixelFormat
-ms.topic: function
 f1_keywords:
 - winddi/DrvSetPixelFormat
 dev_langs:

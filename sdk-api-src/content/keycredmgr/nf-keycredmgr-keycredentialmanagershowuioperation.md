@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 94AB2BA7-810C-4AC4-A719-FD9684C21BA0
 ms.date: 12/05/2018
 ms.keywords: KeyCredentialManagerShowUIOperation, KeyCredentialManagerShowUIOperation function [Security], keycredmgr/KeyCredentialManagerShowUIOperation, security.keycredentialmanagershowuioperation
-ms.topic: function
 f1_keywords:
 - keycredmgr/KeyCredentialManagerShowUIOperation
 dev_langs:

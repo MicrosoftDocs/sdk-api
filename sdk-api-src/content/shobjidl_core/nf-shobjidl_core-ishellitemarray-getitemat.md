@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 58307102-1ae3-4249-81e0-25c1166500d0
 ms.date: 12/05/2018
 ms.keywords: GetItemAt, GetItemAt method [Windows Shell], GetItemAt method [Windows Shell],IShellItemArray interface, IShellItemArray interface [Windows Shell],GetItemAt method, IShellItemArray.GetItemAt, IShellItemArray::GetItemAt, _shell_IShellItemArray_GetItemAt, shell.IShellItemArray_GetItemAt, shobjidl_core/IShellItemArray::GetItemAt
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellItemArray.GetItemAt
 dev_langs:

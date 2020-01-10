@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 734a1bf9-ff63-48a5-9508-3a576ea24ab7
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [Windows Shell], GetProperties method [Windows Shell],IFileSaveDialog interface, IFileSaveDialog interface [Windows Shell],GetProperties method, IFileSaveDialog.GetProperties, IFileSaveDialog::GetProperties, shell.IFileSaveDialog_GetProperties, shell_IFileSaveDialog_GetProperties, shobjidl_core/IFileSaveDialog::GetProperties
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileSaveDialog.GetProperties
 dev_langs:

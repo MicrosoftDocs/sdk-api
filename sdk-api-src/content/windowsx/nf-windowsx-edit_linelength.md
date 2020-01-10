@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_linelength.htm
 ms.date: 12/05/2018
 ms.keywords: Edit_LineLength, Edit_LineLength macro [Windows Controls], _win32_Edit_LineLength, _win32_Edit_LineLength_cpp, controls.Edit_LineLength, controls._win32_Edit_LineLength, windowsx/Edit_LineLength
-ms.topic: macro
 f1_keywords:
 - windowsx/Edit_LineLength
 dev_langs:

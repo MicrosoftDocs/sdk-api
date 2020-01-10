@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: FB27BB00-239A-42A8-86D3-C78E2E8E820B
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetRight method, IDCompositionRectangleClip.SetRight, IDCompositionRectangleClip::SetRight, IDCompositionRectangleClip::SetRight(float), SetRight, SetRight method [DirectComposition], SetRight method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetRight, directcomp.idcompositionrectangleclip_setright_float
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionRectangleClip.SetRight
 dev_langs:

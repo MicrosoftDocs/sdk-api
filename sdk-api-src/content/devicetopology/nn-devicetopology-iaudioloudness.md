@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: c182d6ae-c55b-4e3b-9639-7c2f2f7d826d
 ms.date: 12/05/2018
 ms.keywords: IAudioLoudness, IAudioLoudness interface [Core Audio], IAudioLoudness interface [Core Audio],described, coreaudio.iaudioloudness, devicetopology/IAudioLoudness
-ms.topic: interface
 f1_keywords:
 - devicetopology/IAudioLoudness
 dev_langs:

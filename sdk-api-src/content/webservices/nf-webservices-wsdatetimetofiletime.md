@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 19e987d8-fe20-4bc6-a887-77bc1cfa65cf
 ms.date: 12/05/2018
 ms.keywords: WsDateTimeToFileTime, WsDateTimeToFileTime function [Web Services for Windows], webservices/WsDateTimeToFileTime, wsw.wsdatetimetofiletime
-ms.topic: function
 f1_keywords:
 - webservices/WsDateTimeToFileTime
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 3a8a4cd3-d98e-467b-bbed-5cbd66f892ed
 ms.date: 12/05/2018
 ms.keywords: WsFreeListener, WsFreeListener function [Web Services for Windows], webservices/WsFreeListener, wsw.wsfreelistener
-ms.topic: function
 f1_keywords:
 - webservices/WsFreeListener
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: BEC58B57-66A1-4645-A0B8-D546334E1E23
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRotateTransform3D, IDCompositionRotateTransform3D interface [DirectComposition], IDCompositionRotateTransform3D interface [DirectComposition],described, dcomp/IDCompositionRotateTransform3D, directcomp.idcompositionrotatetransform3d
-ms.topic: interface
 f1_keywords:
 - dcomp/IDCompositionRotateTransform3D
 dev_langs:

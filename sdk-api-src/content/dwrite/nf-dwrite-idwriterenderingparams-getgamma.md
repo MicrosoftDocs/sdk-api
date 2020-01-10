@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: f83adfd6-055d-4b73-89a8-e0fe5af0b661
 ms.date: 12/05/2018
 ms.keywords: GetGamma, GetGamma method [Direct Write], GetGamma method [Direct Write],IDWriteRenderingParams interface, IDWriteRenderingParams interface [Direct Write],GetGamma method, IDWriteRenderingParams.GetGamma, IDWriteRenderingParams::GetGamma, directwrite.IDWriteRenderingParams_GetGamma, dwrite/IDWriteRenderingParams::GetGamma
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteRenderingParams.GetGamma
 dev_langs:

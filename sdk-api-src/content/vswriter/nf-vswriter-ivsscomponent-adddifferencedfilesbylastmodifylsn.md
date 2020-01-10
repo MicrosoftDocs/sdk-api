@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: e708a6e9-9e4e-4620-8251-65b14a7bc6ee
 ms.date: 12/05/2018
 ms.keywords: AddDifferencedFilesByLastModifyLSN, AddDifferencedFilesByLastModifyLSN method [VSS], AddDifferencedFilesByLastModifyLSN method [VSS],IVssComponent interface, IVssComponent interface [VSS],AddDifferencedFilesByLastModifyLSN method, IVssComponent.AddDifferencedFilesByLastModifyLSN, IVssComponent::AddDifferencedFilesByLastModifyLSN, _win32_ivsscomponent_adddifferencedfilesbylastmodifylsn, base.ivsscomponent_adddifferencedfilesbylastmodifylsn, vswriter/IVssComponent::AddDifferencedFilesByLastModifyLSN
-ms.topic: method
 f1_keywords:
 - vswriter/IVssComponent.AddDifferencedFilesByLastModifyLSN
 dev_langs:

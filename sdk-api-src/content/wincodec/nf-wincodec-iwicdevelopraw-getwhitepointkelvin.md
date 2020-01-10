@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 9f649de0-6b53-4c67-b75d-73a44cc07c56
 ms.date: 12/05/2018
 ms.keywords: GetWhitePointKelvin, GetWhitePointKelvin method [Windows Imaging Component], GetWhitePointKelvin method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetWhitePointKelvin method, IWICDevelopRaw.GetWhitePointKelvin, IWICDevelopRaw::GetWhitePointKelvin, _wic_codec_iwicdevelopraw_getwhitepointkelvin, wic._wic_codec_iwicdevelopraw_getwhitepointkelvin, wincodec/IWICDevelopRaw::GetWhitePointKelvin
-ms.topic: method
 f1_keywords:
 - wincodec/IWICDevelopRaw.GetWhitePointKelvin
 dev_langs:

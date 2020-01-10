@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 3ae58096-fe11-4cc8-9887-2e13f56a958d
 ms.date: 12/05/2018
 ms.keywords: 3ae58096-fe11-4cc8-9887-2e13f56a958d, MFCreateVideoMediaTypeFromSubtype, MFCreateVideoMediaTypeFromSubtype function [Media Foundation], mf.mfcreatevideomediatypefromsubtype, mfapi/MFCreateVideoMediaTypeFromSubtype
-ms.topic: function
 f1_keywords:
 - mfapi/MFCreateVideoMediaTypeFromSubtype
 dev_langs:

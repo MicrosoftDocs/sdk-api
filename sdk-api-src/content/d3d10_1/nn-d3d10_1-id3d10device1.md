@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device1.htm
 ms.date: 12/05/2018
 ms.keywords: ID3D10Device1, ID3D10Device1 interface [Direct3D 10], ID3D10Device1 interface [Direct3D 10],described, a168edcd-989a-13da-7972-09b5d5e9210a, d3d10_1/ID3D10Device1, direct3d10.id3d10device1
-ms.topic: interface
 f1_keywords:
 - d3d10_1/ID3D10Device1
 dev_langs:

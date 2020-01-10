@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: bdac39a0-a51a-49cc-b554-58450c722a46
 ms.date: 12/05/2018
 ms.keywords: IReferenceTrackerManager, IReferenceTrackerManager interface [Windows Runtime], IReferenceTrackerManager interface [Windows Runtime],described, windows/IReferenceTrackerManager, winrt.ireferencetrackermanager
-ms.topic: interface
 f1_keywords:
 - windows.ui.xaml.hosting.referencetracker/IReferenceTrackerManager
 dev_langs:

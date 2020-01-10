@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 52c92629-4c9e-4996-80a2-30e2212b3009
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeArchiveKeyHash, IX509AttributeArchiveKeyHash interface [Security], IX509AttributeArchiveKeyHash interface [Security],described, certenroll/IX509AttributeArchiveKeyHash, security.ix509attributearchivekeyhash
-ms.topic: interface
 f1_keywords:
 - certenroll/IX509AttributeArchiveKeyHash
 dev_langs:

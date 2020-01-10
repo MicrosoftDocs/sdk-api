@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 11876b73-10a1-49e2-ad45-33d9641c3647
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],isAvailable method, IWMPCdromBurn.isAvailable, IWMPCdromBurn::isAvailable, IWMPCdromBurnisAvailable, isAvailable, isAvailable method [Windows Media Player], isAvailable method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_isavailable, wmp/IWMPCdromBurn::isAvailable
-ms.topic: method
 f1_keywords:
 - wmp/IWMPCdromBurn.isAvailable
 dev_langs:

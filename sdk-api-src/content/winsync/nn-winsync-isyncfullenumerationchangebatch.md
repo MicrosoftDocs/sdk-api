@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 9086991d-03e3-4f2c-ad03-c1f554fe32ce
 ms.date: 12/05/2018
 ms.keywords: ISyncFullEnumerationChangeBatch, ISyncFullEnumerationChangeBatch interface [Windows Sync], ISyncFullEnumerationChangeBatch interface [Windows Sync],described, winsync.isyncfullenumerationchangebatch, winsync/ISyncFullEnumerationChangeBatch
-ms.topic: interface
 f1_keywords:
 - winsync/ISyncFullEnumerationChangeBatch
 dev_langs:

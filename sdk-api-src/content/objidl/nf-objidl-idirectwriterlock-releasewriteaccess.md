@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 849eeb79-60fd-4345-9e04-2ed7a7ede5ca
 ms.date: 12/05/2018
 ms.keywords: IDirectWriterLock interface [Structured Storage],ReleaseWriteAccess method, IDirectWriterLock.ReleaseWriteAccess, IDirectWriterLock::ReleaseWriteAccess, ReleaseWriteAccess, ReleaseWriteAccess method [Structured Storage], ReleaseWriteAccess method [Structured Storage],IDirectWriterLock interface, _stg_idirectwriterlock_releasewriteaccess, objidl/IDirectWriterLock::ReleaseWriteAccess, stg.idirectwriterlock_releasewriteaccess
-ms.topic: method
 f1_keywords:
 - objidl/IDirectWriterLock.ReleaseWriteAccess
 dev_langs:

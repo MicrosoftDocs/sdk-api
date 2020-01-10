@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: c718c957-3523-4281-aa7e-761977a6b4c5
 ms.date: 12/05/2018
 ms.keywords: GetKelvinRangeInfo, GetKelvinRangeInfo method [Windows Imaging Component], GetKelvinRangeInfo method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetKelvinRangeInfo method, IWICDevelopRaw.GetKelvinRangeInfo, IWICDevelopRaw::GetKelvinRangeInfo, _wic_codec_iwicdevelopraw_getkelvinrangeinfo, wic._wic_codec_iwicdevelopraw_getkelvinrangeinfo, wincodec/IWICDevelopRaw::GetKelvinRangeInfo
-ms.topic: method
 f1_keywords:
 - wincodec/IWICDevelopRaw.GetKelvinRangeInfo
 dev_langs:

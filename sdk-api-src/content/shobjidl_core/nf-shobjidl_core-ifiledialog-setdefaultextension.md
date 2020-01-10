@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2e1739f4-d229-4bf1-99f4-6bded830de2b
 ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetDefaultExtension method, IFileDialog.SetDefaultExtension, IFileDialog::SetDefaultExtension, SetDefaultExtension, SetDefaultExtension method [Windows Shell], SetDefaultExtension method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetDefaultExtension, shell_IFileDialog_SetDefaultExtension, shobjidl_core/IFileDialog::SetDefaultExtension
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileDialog.SetDefaultExtension
 dev_langs:

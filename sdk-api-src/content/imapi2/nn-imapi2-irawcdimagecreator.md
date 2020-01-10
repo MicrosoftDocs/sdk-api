@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: b5fe1a32-545e-417d-9996-34d12862a0ea
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageCreator, IRawCDImageCreator interface [IMAPI], IRawCDImageCreator interface [IMAPI],described, imapi.irawcdimagecreator, imapi2/IRawCDImageCreator
-ms.topic: interface
 f1_keywords:
 - imapi2/IRawCDImageCreator
 dev_langs:

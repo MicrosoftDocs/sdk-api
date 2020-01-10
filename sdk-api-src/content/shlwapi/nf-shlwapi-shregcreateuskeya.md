@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 10e3e31e-bff6-4260-95fa-2d750de16ab3
 ms.date: 12/05/2018
 ms.keywords: SHREGSET_DEFAULT, SHREGSET_FORCE_HKCU, SHREGSET_FORCE_HKLM, SHREGSET_HKCU, SHREGSET_HKLM, SHRegCreateUSKey, SHRegCreateUSKey function [Windows Shell], SHRegCreateUSKeyA, SHRegCreateUSKeyW, _win32_SHRegCreateUSKey, shell.SHRegCreateUSKey, shlwapi/SHRegCreateUSKey, shlwapi/SHRegCreateUSKeyA, shlwapi/SHRegCreateUSKeyW
-ms.topic: function
 f1_keywords:
 - shlwapi/SHRegCreateUSKey
 dev_langs:

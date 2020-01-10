@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: b6a635f3-a603-4c2f-9aa9-1baa51922394
 ms.date: 12/05/2018
 ms.keywords: DestroyThreadpoolEnvironment, DestroyThreadpoolEnvironment function, base.destroythreadpoolenvironment, winbase/DestroyThreadpoolEnvironment
-ms.topic: function
 f1_keywords:
 - winbase/DestroyThreadpoolEnvironment
 dev_langs:

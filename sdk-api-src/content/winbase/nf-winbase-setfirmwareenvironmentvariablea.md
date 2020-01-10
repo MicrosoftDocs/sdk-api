@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 42117632-61aa-4f83-abe1-c08f40cf3f0a
 ms.date: 12/05/2018
 ms.keywords: SetFirmwareEnvironmentVariable, SetFirmwareEnvironmentVariable function, SetFirmwareEnvironmentVariableA, SetFirmwareEnvironmentVariableW, base.setfirmwareenvironmentvariable, winbase/SetFirmwareEnvironmentVariable, winbase/SetFirmwareEnvironmentVariableA, winbase/SetFirmwareEnvironmentVariableW
-ms.topic: function
 f1_keywords:
 - winbase/SetFirmwareEnvironmentVariable
 dev_langs:

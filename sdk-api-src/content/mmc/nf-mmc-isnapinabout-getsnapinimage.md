@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 0a009125-fee0-4ea4-9778-e28797e47465
 ms.date: 12/05/2018
 ms.keywords: GetSnapinImage, GetSnapinImage method [MMC], GetSnapinImage method [MMC],ISnapinAbout interface, ISnapinAbout interface [MMC],GetSnapinImage method, ISnapinAbout.GetSnapinImage, ISnapinAbout::GetSnapinImage, _slate_isnapinabout_getsnapinimage, mmc.isnapinabout_getsnapinimage, mmc/ISnapinAbout::GetSnapinImage
-ms.topic: method
 f1_keywords:
 - mmc/ISnapinAbout.GetSnapinImage
 dev_langs:

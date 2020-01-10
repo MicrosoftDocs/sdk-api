@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b5a5d04c-b666-4063-bf0b-02564aa967ab
 ms.date: 12/05/2018
 ms.keywords: GetDefaultCategory, GetDefaultCategory method [Windows Shell], GetDefaultCategory method [Windows Shell],ICategoryProvider interface, ICategoryProvider interface [Windows Shell],GetDefaultCategory method, ICategoryProvider.GetDefaultCategory, ICategoryProvider::GetDefaultCategory, inet_ICategoryProvider_GetDefaultCategory, shell.ICategoryProvider_GetDefaultCategory, shobjidl_core/ICategoryProvider::GetDefaultCategory
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ICategoryProvider.GetDefaultCategory
 dev_langs:

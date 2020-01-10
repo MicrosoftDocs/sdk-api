@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 66ea86a6-82c3-4f91-a2d3-a08014f555be
 ms.date: 12/05/2018
 ms.keywords: IAMCrossbar interface [DirectShow],get_PinCounts method, IAMCrossbar.get_PinCounts, IAMCrossbar::get_PinCounts, IAMCrossbarget_PinCounts, dshow.iamcrossbar_get_pincounts, get_PinCounts, get_PinCounts method [DirectShow], get_PinCounts method [DirectShow],IAMCrossbar interface, strmif/IAMCrossbar::get_PinCounts
-ms.topic: method
 f1_keywords:
 - strmif/IAMCrossbar.get_PinCounts
 dev_langs:

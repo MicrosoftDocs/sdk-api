@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: d9efe2f7-3628-4e1f-b554-a6889d82a973
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],Open method, ITPhone.Open, ITPhone::Open, Open, Open method [TAPI 2.2], Open method [TAPI 2.2],ITPhone interface, _tapi3_itphone_open, tapi3.itphone_open, tapi3if/ITPhone::Open
-ms.topic: method
 f1_keywords:
 - tapi3if/ITPhone.Open
 dev_langs:

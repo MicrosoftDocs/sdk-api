@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionRotationRollPitchYawFromVector(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionRotationRollPitchYawFromVector, XMQuaternionRotationRollPitchYawFromVector, XMQuaternionRotationRollPitchYawFromVector method [DirectX Math Support APIs], dxmath.xmquaternionrotationrollpitchyawfromvector
-ms.topic: function
 f1_keywords:
 - directxmath/XMQuaternionRotationRollPitchYawFromVector
 dev_langs:

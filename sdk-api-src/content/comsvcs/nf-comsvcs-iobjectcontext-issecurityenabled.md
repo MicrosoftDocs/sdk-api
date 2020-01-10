@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: eba720e5-5c25-4723-b9e5-3bbdb69ada30
 ms.date: 12/05/2018
 ms.keywords: IObjectContext interface [COM+],IsSecurityEnabled method, IObjectContext.IsSecurityEnabled, IObjectContext::IsSecurityEnabled, IsSecurityEnabled, IsSecurityEnabled method [COM+], IsSecurityEnabled method [COM+],IObjectContext interface, _cos_IObjectContext_IsSecurityEnabled, comsvcs/IObjectContext::IsSecurityEnabled, cos.iobjectcontext_issecurityenabled
-ms.topic: method
 f1_keywords:
 - comsvcs/IObjectContext.IsSecurityEnabled
 dev_langs:

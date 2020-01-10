@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 37f413e8-36ee-462d-8419-908690094c49
 ms.date: 12/05/2018
 ms.keywords: GradientStop, GradientStop function [Direct2D], d2d1helper/GradientStop, direct2d.gradientstop
-ms.topic: function
 f1_keywords:
 - d2d1helper/GradientStop
 dev_langs:

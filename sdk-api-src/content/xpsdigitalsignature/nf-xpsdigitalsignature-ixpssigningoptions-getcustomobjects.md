@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 17a3f913-57f2-40e1-b886-6cefb9e42a83
 ms.date: 12/05/2018
 ms.keywords: GetCustomObjects, GetCustomObjects method [XPS Documents and Packaging], GetCustomObjects method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetCustomObjects method, IXpsSigningOptions.GetCustomObjects, IXpsSigningOptions::GetCustomObjects, xps.ixpssigningoptions_getcustomobjects, xpsdigitalsignature/IXpsSigningOptions::GetCustomObjects
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSigningOptions.GetCustomObjects
 dev_langs:

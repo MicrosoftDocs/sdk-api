@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 764a4e93-0865-49f8-9b3a-1a178073454d
 ms.date: 12/05/2018
 ms.keywords: SetSecurityAccessMask, SetSecurityAccessMask function [Security], security.setsecurityaccessmask, securitybaseapi/SetSecurityAccessMask, winbase/SetSecurityAccessMask
-ms.topic: function
 f1_keywords:
 - securitybaseapi/SetSecurityAccessMask
 dev_langs:

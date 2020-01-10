@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 3c5e0209-f64b-4235-9855-e5ad4ce88032
 ms.date: 12/05/2018
 ms.keywords: MCIWndPause, MCIWndPause macro [Windows Multimedia], _win32_MCIWndPause, multimedia.mciwndpause, vfw/MCIWndPause
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndPause
 dev_langs:

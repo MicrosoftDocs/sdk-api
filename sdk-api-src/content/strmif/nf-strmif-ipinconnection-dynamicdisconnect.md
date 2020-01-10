@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 44a5a219-fd42-4fe1-a767-f74d01d86012
 ms.date: 12/05/2018
 ms.keywords: DynamicDisconnect, DynamicDisconnect method [DirectShow], DynamicDisconnect method [DirectShow],IPinConnection interface, IPinConnection interface [DirectShow],DynamicDisconnect method, IPinConnection.DynamicDisconnect, IPinConnection::DynamicDisconnect, IPinConnectionDynamicDisconnect, dshow.ipinconnection_dynamicdisconnect, strmif/IPinConnection::DynamicDisconnect
-ms.topic: method
 f1_keywords:
 - strmif/IPinConnection.DynamicDisconnect
 dev_langs:

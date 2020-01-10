@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 16164368-7c46-4d6e-8259-f98ae7f65244
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportContent interface [Windows Deployment Services],Id property, IWdsTransportContent.Id, IWdsTransportContent.get_Id, IWdsTransportContent::Id, IWdsTransportContent::get_Id, Id property [Windows Deployment Services], Id property [Windows Deployment Services],IWdsTransportContent interface, get_Id, wds.iwdstransportcontent_id, wdstptmgmt/IWdsTransportContent::Id, wdstptmgmt/IWdsTransportContent::get_Id
-ms.topic: method
 f1_keywords:
 - wdstptmgmt/IWdsTransportContent.Id
 dev_langs:

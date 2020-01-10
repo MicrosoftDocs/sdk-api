@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 19790fab-0530-4a17-8a3c-a50576fea9ca
 ms.date: 12/05/2018
 ms.keywords: IMSVidFeatures, IMSVidFeatures interface [Microsoft TV Technologies], IMSVidFeatures interface [Microsoft TV Technologies],described, IMSVidFeaturesInterface, mstv.imsvidfeatures, segment/IMSVidFeatures
-ms.topic: interface
 f1_keywords:
 - segment/IMSVidFeatures
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\findnextitem.htm
 ms.date: 12/05/2018
 ms.keywords: FindNextItem, FindNextItem method [GDI+], FindNextItem method [GDI+],Image class, Image class [GDI+],FindNextItem method, Image.FindNextItem, Image::FindNextItem, _gdiplus_CLASS_Image_FindNextItem_, gdiplus._gdiplus_CLASS_Image_FindNextItem_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Image.FindNextItem
 dev_langs:

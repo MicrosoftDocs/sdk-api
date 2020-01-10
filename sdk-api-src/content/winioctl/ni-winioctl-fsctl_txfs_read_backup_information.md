@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 41c5df47-b815-47ef-bf37-d0b8030c5bfc
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_READ_BACKUP_INFORMATION, FSCTL_TXFS_READ_BACKUP_INFORMATION control, FSCTL_TXFS_READ_BACKUP_INFORMATION control code [Files], fs.fsctl_txfs_read_backup_information, winioctl/FSCTL_TXFS_READ_BACKUP_INFORMATION
-ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_TXFS_READ_BACKUP_INFORMATION
 dev_langs:

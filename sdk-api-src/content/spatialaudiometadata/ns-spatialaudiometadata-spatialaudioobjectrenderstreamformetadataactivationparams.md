@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 5B92F521-537F-4296-B9A7-7EC6985530B3
 ms.date: 12/05/2018
 ms.keywords: PSpatialAudioObjectRenderStreamForMetadataActivationParams, PSpatialAudioObjectRenderStreamForMetadataActivationParams structure pointer [Core Audio], SpatialAudioObjectRenderStreamForMetadataActivationParams, SpatialAudioObjectRenderStreamForMetadataActivationParams structure [Core Audio], coreaudio.spatialaudioobjectrenderstreamformetadataactivationparams, spatialaudiometadata/PSpatialAudioObjectRenderStreamForMetadataActivationParams, spatialaudiometadata/SpatialAudioObjectRenderStreamForMetadataActivationParams
-ms.topic: struct
 f1_keywords:
 - spatialaudiometadata/SpatialAudioObjectRenderStreamForMetadataActivationParams
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: B2038241-201B-402B-9B5A-BA2D2239A62A
 ms.date: 12/05/2018
 ms.keywords: ID3D12Debug1 interface,SetEnableSynchronizedCommandQueueValidation method, ID3D12Debug1.SetEnableSynchronizedCommandQueueValidation, ID3D12Debug1::SetEnableSynchronizedCommandQueueValidation, SetEnableSynchronizedCommandQueueValidation, SetEnableSynchronizedCommandQueueValidation method, SetEnableSynchronizedCommandQueueValidation method,ID3D12Debug1 interface, d3d12sdklayers/ID3D12Debug1::SetEnableSynchronizedCommandQueueValidation, direct3d12.id3d12debugdevice1_setenablesynchronizedcommandqueuevalidation
-ms.topic: method
 f1_keywords:
 - d3d12sdklayers/ID3D12Debug1.SetEnableSynchronizedCommandQueueValidation
 dev_langs:

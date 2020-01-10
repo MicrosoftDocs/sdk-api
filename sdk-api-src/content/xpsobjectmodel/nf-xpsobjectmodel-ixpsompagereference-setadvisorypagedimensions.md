@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 8286fd78-a7d8-4bf4-9b08-b93e19abccf9
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReference interface [XPS Documents and Packaging],SetAdvisoryPageDimensions method, IXpsOMPageReference.SetAdvisoryPageDimensions, IXpsOMPageReference::SetAdvisoryPageDimensions, SetAdvisoryPageDimensions, SetAdvisoryPageDimensions method [XPS Documents and Packaging], SetAdvisoryPageDimensions method [XPS Documents and Packaging],IXpsOMPageReference interface, xps.ixpsompagereference_setadvisorypagedimensions, xpsobjectmodel/IXpsOMPageReference::SetAdvisoryPageDimensions
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPageReference.SetAdvisoryPageDimensions
 dev_langs:

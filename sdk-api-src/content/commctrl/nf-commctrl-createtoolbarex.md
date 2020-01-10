@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\functions\createtoolbarex.htm
 ms.date: 12/05/2018
 ms.keywords: CreateToolbarEx, CreateToolbarEx function [Windows Controls], _win32_CreateToolbarEx, _win32_CreateToolbarEx_cpp, commctrl/CreateToolbarEx, controls.CreateToolbarEx, controls._win32_CreateToolbarEx
-ms.topic: function
 f1_keywords:
 - commctrl/CreateToolbarEx
 dev_langs:

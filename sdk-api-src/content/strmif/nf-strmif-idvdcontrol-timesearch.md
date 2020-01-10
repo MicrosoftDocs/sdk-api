@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c2e6848e-569e-44f0-b676-e22e4df07d8d
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],TimeSearch method, IDvdControl.TimeSearch, IDvdControl::TimeSearch, IDvdControlTimeSearch, TimeSearch, TimeSearch method [DirectShow], TimeSearch method [DirectShow],IDvdControl interface, dshow.idvdcontrol_timesearch, strmif/IDvdControl::TimeSearch
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.TimeSearch
 dev_langs:

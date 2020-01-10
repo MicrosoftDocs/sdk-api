@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: f2bcd80b-b36c-44b1-9a87-beda7ae12117
 ms.date: 12/05/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get__NewEnum method, ITuningSpaceContainer.get__NewEnum, ITuningSpaceContainer::get__NewEnum, ITuningSpaceContainerget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get__newenum, tuner/ITuningSpaceContainer::get__NewEnum
-ms.topic: method
 f1_keywords:
 - tuner/ITuningSpaceContainer.get__NewEnum
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 3f22dc1d-554a-4dd1-a79a-121117f65caf
 ms.date: 12/05/2018
 ms.keywords: '*LPCONTROLINFO, CONTROLINFO, CONTROLINFO structure [COM], LPCONTROLINFO, LPCONTROLINFO structure pointer [COM], _ctrl_CONTROLINFO, com.controlinfo, ocidl/CONTROLINFO, ocidl/LPCONTROLINFO'
-ms.topic: struct
 f1_keywords:
 - ocidl/CONTROLINFO
 dev_langs:

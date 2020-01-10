@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: ca11187e-3a91-438f-9a7f-606da7c88f6d
 ms.date: 12/05/2018
 ms.keywords: FwpmFilterAdd0, FwpmFilterAdd0 function [Filtering], fwp.fwpmfilteradd0_func, fwpmu/FwpmFilterAdd0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmFilterAdd0
 dev_langs:

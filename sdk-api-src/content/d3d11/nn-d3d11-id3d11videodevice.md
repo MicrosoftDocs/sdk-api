@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 420DE3C4-15A9-4EEB-A1FD-6350DE109CFF
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoDevice, ID3D11VideoDevice interface [Media Foundation], ID3D11VideoDevice interface [Media Foundation],described, d3d11/ID3D11VideoDevice, mf.id3d11videodevice
-ms.topic: interface
 f1_keywords:
 - d3d11/ID3D11VideoDevice
 dev_langs:

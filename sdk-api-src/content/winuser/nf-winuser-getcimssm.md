@@ -7,7 +7,6 @@ tech.root: Input_SourceId
 ms.assetid: DF5C9B54-0B32-44D8-BFF6-80A190DC5294
 ms.date: 12/05/2018
 ms.keywords: GetCIMSSM, GetCIMSSM function, input_sourceid.getcimssm, winuser/GetCIMSSM
-ms.topic: function
 f1_keywords:
 - winuser/GetCIMSSM
 dev_langs:

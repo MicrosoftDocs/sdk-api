@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 96a00afb-e957-4e49-8f30-d6a3d639680f
 ms.date: 12/05/2018
 ms.keywords: IPdfRendererNative, IPdfRendererNative interface [Windows Runtime], IPdfRendererNative interface [Windows Runtime],described, windows/IPdfRendererNative, winrt.ipdfrenderernative
-ms.topic: interface
 f1_keywords:
 - windows.data.pdf.interop/IPdfRendererNative
 dev_langs:

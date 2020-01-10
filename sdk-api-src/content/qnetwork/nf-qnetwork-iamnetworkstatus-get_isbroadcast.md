@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 578fe82b-0c87-47ea-9600-91d68f4c733f
 ms.date: 12/05/2018
 ms.keywords: IAMNetworkStatus interface [DirectShow],get_IsBroadcast method, IAMNetworkStatus.get_IsBroadcast, IAMNetworkStatus::get_IsBroadcast, IAMNetworkStatusget_IsBroadcast, dshow.iamnetworkstatus_get_isbroadcast, get_IsBroadcast, get_IsBroadcast method [DirectShow], get_IsBroadcast method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_IsBroadcast
-ms.topic: method
 f1_keywords:
 - qnetwork/IAMNetworkStatus.get_IsBroadcast
 dev_langs:

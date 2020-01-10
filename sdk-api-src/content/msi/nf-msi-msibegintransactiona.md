@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 05904e58-b24d-4d2c-8b59-a66ad71b494a
 ms.date: 12/05/2018
 ms.keywords: MsiBeginTransaction, MsiBeginTransaction function [Setup API], MsiBeginTransactionA, MsiBeginTransactionW, msi/MsiBeginTransaction, msi/MsiBeginTransactionA, msi/MsiBeginTransactionW, setup.msibegintransaction
-ms.topic: function
 f1_keywords:
 - msi/MsiBeginTransaction
 dev_langs:

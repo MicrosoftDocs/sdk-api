@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: CD6F7DCD-23D8-4485-9803-142EE9730458
 ms.date: 12/05/2018
 ms.keywords: HSTRING_UserUnmarshal64, HSTRING_UserUnmarshal64 function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserUnmarshal64, winrt.hstring_userunmarshal64
-ms.topic: function
 f1_keywords:
 - inspectable/HSTRING_UserUnmarshal64
 dev_langs:

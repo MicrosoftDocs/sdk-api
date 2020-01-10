@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: bb77499b-520b-4def-97d8-504983953d4b
 ms.date: 12/05/2018
 ms.keywords: PeerDistClientFlushContent, PeerDistClientFlushContent function [Peer Networking], p2p.peerdistclientflushcontent, peerdist/PeerDistClientFlushContent
-ms.topic: function
 f1_keywords:
 - peerdist/PeerDistClientFlushContent
 dev_langs:

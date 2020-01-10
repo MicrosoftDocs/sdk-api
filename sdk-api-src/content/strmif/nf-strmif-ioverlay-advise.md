@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 02db2233-b185-47a9-9655-409991a74d4e
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [DirectShow], Advise method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],Advise method, IOverlay.Advise, IOverlay::Advise, IOverlayAdvise, dshow.ioverlay_advise, strmif/IOverlay::Advise
-ms.topic: method
 f1_keywords:
 - strmif/IOverlay.Advise
 dev_langs:

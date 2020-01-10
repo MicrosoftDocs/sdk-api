@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 42594B92-298B-4659-87EC-D10C6996CECF
 ms.date: 12/05/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxGetWindow method, ITextHost2.TxGetWindow, ITextHost2::TxGetWindow, TxGetWindow, TxGetWindow method [Windows Controls], TxGetWindow method [Windows Controls],ITextHost2 interface, controls.itexthost2_txgetwindow, textserv/ITextHost2::TxGetWindow
-ms.topic: method
 f1_keywords:
 - textserv/ITextHost2.TxGetWindow
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 7c522920-8bd7-4385-b77d-34df26967179
 ms.date: 12/05/2018
 ms.keywords: BeginUIElement, BeginUIElement method [Text Services Framework], BeginUIElement method [Text Services Framework],ITfUIElementMgr interface, ITfUIElementMgr interface [Text Services Framework],BeginUIElement method, ITfUIElementMgr.BeginUIElement, ITfUIElementMgr::BeginUIElement, msctf/ITfUIElementMgr::BeginUIElement, tsf.itfuielementmgr_beginuielement
-ms.topic: method
 f1_keywords:
 - msctf/ITfUIElementMgr.BeginUIElement
 dev_langs:

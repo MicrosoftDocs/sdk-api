@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: a194ef11-5203-4e85-af91-cdce0c53fe76
 ms.date: 12/05/2018
 ms.keywords: IWMWriter, IWMWriter interface [windows Media Format], IWMWriter interface [windows Media Format],described, IWMWriterInterface, wmformat.iwmwriter, wmsdkidl/IWMWriter
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMWriter
 dev_langs:

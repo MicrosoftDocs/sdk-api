@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVectorBaryCentric(XMVECTOR,XMVECTOR,XMVECTOR,float,float)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorBaryCentric, XMVectorBaryCentric, XMVectorBaryCentric method [DirectX Math Support APIs], dxmath.xmvectorbarycentric
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorBaryCentric
 dev_langs:

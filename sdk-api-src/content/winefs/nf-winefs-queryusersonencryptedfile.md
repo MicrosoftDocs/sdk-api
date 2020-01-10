@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 1bdab753-e7f2-4c08-8b37-3903c0842227
 ms.date: 12/05/2018
 ms.keywords: QueryUsersOnEncryptedFile, QueryUsersOnEncryptedFile function [Files], _win32_queryusersonencryptedfile, base.queryusersonencryptedfile, fs.queryusersonencryptedfile, winefs/QueryUsersOnEncryptedFile
-ms.topic: function
 f1_keywords:
 - winefs/QueryUsersOnEncryptedFile
 dev_langs:

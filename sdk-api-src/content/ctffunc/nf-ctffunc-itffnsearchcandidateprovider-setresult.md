@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 5C4DA0D3-58FD-4955-9658-29ECD8FECEC1
 ms.date: 12/05/2018
 ms.keywords: ITfFnSearchCandidateProvider interface [Text Services Framework],SetResult method, ITfFnSearchCandidateProvider.SetResult, ITfFnSearchCandidateProvider::SetResult, SetResult, SetResult method [Text Services Framework], SetResult method [Text Services Framework],ITfFnSearchCandidateProvider interface, ctffunc/ITfFnSearchCandidateProvider::SetResult, tsf.itffnsearchcandidateprovider_setresult
-ms.topic: method
 f1_keywords:
 - ctffunc/ITfFnSearchCandidateProvider.SetResult
 dev_langs:

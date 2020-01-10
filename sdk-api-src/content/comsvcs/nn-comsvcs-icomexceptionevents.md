@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: e484cad0-3b7e-4822-bbde-c953cb0301ca
 ms.date: 12/05/2018
 ms.keywords: IComExceptionEvents, IComExceptionEvents interface [COM+], IComExceptionEvents interface [COM+],described, _dtc_IComExceptionEvents, comsvcs/IComExceptionEvents, cos.icomexceptionevents
-ms.topic: interface
 f1_keywords:
 - comsvcs/IComExceptionEvents
 dev_langs:

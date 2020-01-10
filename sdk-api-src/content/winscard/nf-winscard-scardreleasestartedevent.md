@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 2c08500f-3ebf-4267-8436-b67543e1c13c
 ms.date: 12/05/2018
 ms.keywords: SCardReleaseStartedEvent, SCardReleaseStartedEvent function [Security], _smart_scardreleasestartedevent, security.scardreleasestartedevent, winscard/SCardReleaseStartedEvent
-ms.topic: function
 f1_keywords:
 - winscard/SCardReleaseStartedEvent
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: c5102e1b-ba33-4cce-a4e5-93cf10c1c0bb
 ms.date: 12/05/2018
 ms.keywords: RGN_AND, RGN_COPY, RGN_DIFF, RGN_OR, RGN_XOR, SelectClipPath, SelectClipPath function [Windows GDI], _win32_SelectClipPath, gdi.selectclippath, wingdi/SelectClipPath
-ms.topic: function
 f1_keywords:
 - wingdi/SelectClipPath
 dev_langs:

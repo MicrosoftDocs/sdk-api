@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 2c4b1a0b-8c3f-47c5-8829-2f9c9bfda946
 ms.date: 12/05/2018
 ms.keywords: EAPHOST_PEER_API_VERSION, EapHostPeerQueryUIBlobFromInteractiveUIInputFields, EapHostPeerQueryUIBlobFromInteractiveUIInputFields function [EAPHost], eaphost.eaphostpeerqueryuiblobfrominteractiveuiinputfields, eaphostpeerconfigapis/EapHostPeerQueryUIBlobFromInteractiveUIInputFields
-ms.topic: function
 f1_keywords:
 - eaphostpeerconfigapis/EapHostPeerQueryUIBlobFromInteractiveUIInputFields
 dev_langs:

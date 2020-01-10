@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: 868846bc-9f63-4bb3-ac8d-cea34232bb41
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_DHCID_DATA, DNS_DHCID_DATA, DNS_DHCID_DATA structure [DNS], PDNS_DHCID_DATA, PDNS_DHCID_DATA structure pointer [DNS], dns.dns_dhcid_data, windns/DNS_DHCID_DATA, windns/PDNS_DHCID_DATA'
-ms.topic: struct
 f1_keywords:
 - windns/DNS_DHCID_DATA
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 99d70a0e-ac61-4a88-a500-66443e7882ad
 ms.date: 12/05/2018
 ms.keywords: '*LPLOGPALETTE, *NPLOGPALETTE, *PLOGPALETTE, LOGPALETTE, LOGPALETTE structure [Windows GDI], _win32_LOGPALETTE_str, gdi.logpalette, tagLOGPALETTE, wingdi/LOGPALETTE'
-ms.topic: struct
 f1_keywords:
 - wingdi/LOGPALETTE
 dev_langs:

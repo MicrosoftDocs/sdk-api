@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 7cf4e512-d557-4187-b489-5cca76c0560f
 ms.date: 12/05/2018
 ms.keywords: IVssComponentEx interface,SetPostSnapshotFailureMsg method, IVssComponentEx.SetPostSnapshotFailureMsg, IVssComponentEx::SetPostSnapshotFailureMsg, SetPostSnapshotFailureMsg, SetPostSnapshotFailureMsg method, SetPostSnapshotFailureMsg method,IVssComponentEx interface, base.ivsscomponentex_setpostsnapshotfailuremsg, vswriter/IVssComponentEx::SetPostSnapshotFailureMsg
-ms.topic: method
 f1_keywords:
 - vswriter/IVssComponentEx.SetPostSnapshotFailureMsg
 dev_langs:

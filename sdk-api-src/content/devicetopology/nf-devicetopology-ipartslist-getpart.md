@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 505e2412-2849-4e64-9751-ce68831823b8
 ms.date: 12/05/2018
 ms.keywords: GetPart, GetPart method [Core Audio], GetPart method [Core Audio],IPartsList interface, IPartsList interface [Core Audio],GetPart method, IPartsList.GetPart, IPartsList::GetPart, IPartsListGetPart, coreaudio.ipartslist_getpart, devicetopology/IPartsList::GetPart
-ms.topic: method
 f1_keywords:
 - devicetopology/IPartsList.GetPart
 dev_langs:

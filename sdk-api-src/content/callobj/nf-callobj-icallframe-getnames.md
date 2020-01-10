@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 3efb0819-51db-419b-a9f1-710bb3abae2d
 ms.date: 12/05/2018
 ms.keywords: GetNames, GetNames method [COM], GetNames method [COM],ICallFrame interface, ICallFrame interface [COM],GetNames method, ICallFrame.GetNames, ICallFrame::GetNames, _com_icallframe_getnames, callobj/ICallFrame::GetNames, com.icallframe_getnames
-ms.topic: method
 f1_keywords:
 - callobj/ICallFrame.GetNames
 dev_langs:

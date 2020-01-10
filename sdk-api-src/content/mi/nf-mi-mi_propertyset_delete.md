@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 8ab75a67-0b0e-443b-87b1-ca33f44dde9b
 ms.date: 12/05/2018
 ms.keywords: MI_PropertySet_Delete, MI_PropertySet_Delete function [Windows Management Infrastructure (MI)], mi/MI_PropertySet_Delete, wmi_v2.mi_propertyset_delete
-ms.topic: function
 f1_keywords:
 - mi/MI_PropertySet_Delete
 dev_langs:

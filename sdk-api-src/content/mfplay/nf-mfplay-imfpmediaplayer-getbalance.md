@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 27deeb41-5347-4a6d-bfd4-4e4444540651
 ms.date: 12/05/2018
 ms.keywords: GetBalance, GetBalance method [Media Foundation], GetBalance method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetBalance method, IMFPMediaPlayer.GetBalance, IMFPMediaPlayer::GetBalance, mf.imfpmediaplayer_getbalance, mfplay/IMFPMediaPlayer::GetBalance
-ms.topic: method
 f1_keywords:
 - mfplay/IMFPMediaPlayer.GetBalance
 dev_langs:

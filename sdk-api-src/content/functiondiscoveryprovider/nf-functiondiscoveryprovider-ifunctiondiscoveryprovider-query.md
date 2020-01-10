@@ -7,7 +7,6 @@ tech.root: FunDisc
 ms.assetid: 8c368ea7-c9db-4e80-a080-eef8068f7402
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProvider interface,Query method, IFunctionDiscoveryProvider.Query, IFunctionDiscoveryProvider::Query, Query, Query method, Query method,IFunctionDiscoveryProvider interface, functiondiscoveryprovider/IFunctionDiscoveryProvider::Query, ncd.ifunctiondiscoveryprovider_query_method
-ms.topic: method
 f1_keywords:
 - functiondiscoveryprovider/IFunctionDiscoveryProvider.Query
 dev_langs:

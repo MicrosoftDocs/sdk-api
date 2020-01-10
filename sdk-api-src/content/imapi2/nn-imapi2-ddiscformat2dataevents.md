@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: f9f1d976-9ec9-40a5-92b6-d00a7e15d0aa
 ms.date: 12/05/2018
 ms.keywords: DDiscFormat2DataEvents, DDiscFormat2DataEvents interface [IMAPI], DDiscFormat2DataEvents interface [IMAPI],described, imapi.ddiscformat2dataevents, imapi2/DDiscFormat2DataEvents
-ms.topic: interface
 f1_keywords:
 - imapi2/DDiscFormat2DataEvents
 dev_langs:

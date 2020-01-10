@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 54fc7bea-4cc1-4034-93c3-49ec88817648
 ms.date: 12/05/2018
 ms.keywords: FindCloseUrlCache, FindCloseUrlCache function [WinINet], _inet_findcloseurlcache_function, wininet.findcloseurlcache, wininet/FindCloseUrlCache
-ms.topic: function
 f1_keywords:
 - wininet/FindCloseUrlCache
 dev_langs:

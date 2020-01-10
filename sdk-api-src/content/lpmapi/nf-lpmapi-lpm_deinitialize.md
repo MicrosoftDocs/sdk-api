@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: d3a1edc5-a3fd-4c49-9cd9-f06ba56fec81
 ms.date: 12/05/2018
 ms.keywords: LPM_Deinitialize, LPM_Deinitialize callback, LPM_Deinitialize callback function [QOS], _gqos_lpm_deinitialize, lpmapi/LPM_Deinitialize, qos.lpm_deinitialize
-ms.topic: function
 f1_keywords:
 - lpmapi/LPM_Deinitialize
 dev_langs:

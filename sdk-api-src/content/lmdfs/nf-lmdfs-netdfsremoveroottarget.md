@@ -7,7 +7,6 @@ tech.root: Dfs
 ms.assetid: 9a8c78f4-3170-4568-940c-1c51aebad3ae
 ms.date: 12/05/2018
 ms.keywords: DFS_FORCE_REMOVE, NetDfsRemoveRootTarget, NetDfsRemoveRootTarget function [Distributed File System], dfs.netdfsremoveroottarget, fs.netdfsremoveroottarget, lmdfs/NetDfsRemoveRootTarget
-ms.topic: function
 f1_keywords:
 - lmdfs/NetDfsRemoveRootTarget
 dev_langs:

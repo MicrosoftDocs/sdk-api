@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchpersistentitemschangedsink\onitemschanged.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchPersistentItemsChangedSink interface [search],OnItemsChanged method, ISearchPersistentItemsChangedSink.OnItemsChanged, ISearchPersistentItemsChangedSink::OnItemsChanged, OnItemsChanged, OnItemsChanged method [search], OnItemsChanged method [search],ISearchPersistentItemsChangedSink interface, _search_ISearchPersistentItemsChangedSink_OnItemsChanged, search._search_ISearchPersistentItemsChangedSink_OnItemsChanged, searchapi/ISearchPersistentItemsChangedSink::OnItemsChanged
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchPersistentItemsChangedSink.OnItemsChanged
 dev_langs:

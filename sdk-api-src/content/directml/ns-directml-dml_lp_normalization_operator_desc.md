@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: EEE59313-F8F4-4617-9499-1BEF5A4C635D
 ms.date: 12/5/2018
 ms.keywords: DML_LP_NORMALIZATION_OPERATOR_DESC, DML_LP_NORMALIZATION_OPERATOR_DESC structure, direct3d12.dml_lp_normalization_operator_desc, directml/DML_LP_NORMALIZATION_OPERATOR_DESC
-ms.topic: struct
 f1_keywords:
 - directml/DML_LP_NORMALIZATION_OPERATOR_DESC
 dev_langs:

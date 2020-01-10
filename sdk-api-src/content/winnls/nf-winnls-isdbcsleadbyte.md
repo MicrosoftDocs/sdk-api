@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 13767af5-9313-4c11-8386-fe41c7720d49
 ms.date: 12/05/2018
 ms.keywords: IsDBCSLeadByte, IsDBCSLeadByte function [Internationalization for Windows Applications], _win32_IsDBCSLeadByte, intl.isdbcsleadbyte, winnls/IsDBCSLeadByte
-ms.topic: function
 f1_keywords:
 - winnls/IsDBCSLeadByte
 dev_langs:

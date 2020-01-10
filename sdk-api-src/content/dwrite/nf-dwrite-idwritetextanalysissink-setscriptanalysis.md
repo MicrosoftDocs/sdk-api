@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: beae0420-b244-4c87-a3cb-a1b34562c3ed
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextAnalysisSink interface [Direct Write],SetScriptAnalysis method, IDWriteTextAnalysisSink.SetScriptAnalysis, IDWriteTextAnalysisSink::SetScriptAnalysis, SetScriptAnalysis, SetScriptAnalysis method [Direct Write], SetScriptAnalysis method [Direct Write],IDWriteTextAnalysisSink interface, directwrite.idwritetextanalysissink_setscriptanalysis, dwrite/IDWriteTextAnalysisSink::SetScriptAnalysis
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextAnalysisSink.SetScriptAnalysis
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NAP
 ms.assetid: 79f81e8e-a105-4cc9-b175-8a364648f3a6
 ms.date: 12/05/2018
 ms.keywords: IsolationState, IsolationState enumeration [NAP], isolationStateInProbation, isolationStateNotRestricted, isolationStateRestrictedAccess, nap.isolationstate_enum, naptypes/IsolationState, naptypes/isolationStateInProbation, naptypes/isolationStateNotRestricted, naptypes/isolationStateRestrictedAccess
-ms.topic: enum
 f1_keywords:
 - naptypes/IsolationState
 dev_langs:

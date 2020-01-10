@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 4F7C8BF5-3C6E-470E-AFAA-34F4F78DAC15
 ms.date: 12/05/2018
 ms.keywords: D3D11_COMPUTE_SHADER, D3D11_DOMAIN_SHADER, D3D11_GEOMETRY_SHADER, D3D11_HULL_SHADER, D3D11_PIXEL_SHADER, D3D11_SHADER_TYPE, D3D11_SHADER_TYPE enumeration [Direct3D 11], D3D11_VERTEX_SHADER, d3d11shadertracing/D3D11_COMPUTE_SHADER, d3d11shadertracing/D3D11_DOMAIN_SHADER, d3d11shadertracing/D3D11_GEOMETRY_SHADER, d3d11shadertracing/D3D11_HULL_SHADER, d3d11shadertracing/D3D11_PIXEL_SHADER, d3d11shadertracing/D3D11_SHADER_TYPE, d3d11shadertracing/D3D11_VERTEX_SHADER, direct3d11.d3d11_shader_type
-ms.topic: enum
 f1_keywords:
 - d3d11shadertracing/D3D11_SHADER_TYPE
 dev_langs:

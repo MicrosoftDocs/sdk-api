@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: e7ad32a5-d7df-407f-8efe-c9931610c2d2
 ms.date: 12/05/2018
 ms.keywords: CCertServerPolicy object [Security],EnumerateExtensionsSetup method, EnumerateExtensionsSetup, EnumerateExtensionsSetup method [Security], EnumerateExtensionsSetup method [Security],CCertServerPolicy object, EnumerateExtensionsSetup method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],EnumerateExtensionsSetup method, ICertServerPolicy.EnumerateExtensionsSetup, ICertServerPolicy::EnumerateExtensionsSetup, _certsrv_icertserverpolicy_enumerateextensionssetup, certif/ICertServerPolicy::EnumerateExtensionsSetup, security.icertserverpolicy_enumerateextensionssetup
-ms.topic: method
 f1_keywords:
 - certif/ICertServerPolicy.EnumerateExtensionsSetup
 dev_langs:

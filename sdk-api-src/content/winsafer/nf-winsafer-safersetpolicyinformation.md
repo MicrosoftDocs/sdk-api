@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: B8F3AFC4-8CAD-4AD2-AF17-CCE05A315AD8
 ms.date: 12/05/2018
 ms.keywords: SAFER_SCOPEID_MACHINE, SAFER_SCOPEID_USER, SaferPolicyDefaultLevel, SaferPolicyEnableTransparentEnforcement, SaferPolicyEvaluateUserScope, SaferPolicyLevelList, SaferPolicyScopeFlags, SaferSetPolicyInformation, SaferSetPolicyInformation function [Security], security.safersetpolicyinformation, winsafer/SaferSetPolicyInformation
-ms.topic: function
 f1_keywords:
 - winsafer/SaferSetPolicyInformation
 dev_langs:

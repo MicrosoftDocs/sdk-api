@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 9070ccdb-8e10-440d-9851-5b596467f7a2
 ms.date: 12/05/2018
 ms.keywords: VarR4FromBool, VarR4FromBool function [Automation], _oa96_VarR4FromBool, automat.varr4frombool, oleauto/VarR4FromBool
-ms.topic: function
 f1_keywords:
 - oleauto/VarR4FromBool
 dev_langs:

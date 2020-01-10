@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: dd52af03-94fa-4227-b4fc-25089ef54fd7
 ms.date: 12/05/2018
 ms.keywords: mmTaskYield, mmTaskYield function [Windows Multimedia], mmddk/mmTaskYield, multimedia.mmtaskyield
-ms.topic: function
 f1_keywords:
 - mmddk/mmTaskYield
 dev_langs:

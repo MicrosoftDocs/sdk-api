@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 070bc947-bf2b-4c06-9ffa-6a23625d178a
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection2 interface [Windows Media Player],getStringCollectionByQuery method, IWMPMediaCollection2.getStringCollectionByQuery, IWMPMediaCollection2::getStringCollectionByQuery, IWMPMediaCollection2getStringCollectionByQuery, getStringCollectionByQuery, getStringCollectionByQuery method [Windows Media Player], getStringCollectionByQuery method [Windows Media Player],IWMPMediaCollection2 interface, wmp.iwmpmediacollection2_getstringcollectionbyquery, wmp/IWMPMediaCollection2::getStringCollectionByQuery
-ms.topic: method
 f1_keywords:
 - wmp/IWMPMediaCollection2.getStringCollectionByQuery
 dev_langs:

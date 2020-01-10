@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 8f774509-0efb-49e5-bf56-61f4810631bd
 ms.date: 12/05/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_INetSharingConfigurationForINetConnection method, INetSharingManager.get_INetSharingConfigurationForINetConnection, INetSharingManager::get_INetSharingConfigurationForINetConnection, _ics_inetsharingmanager_get_inetsharingconfigurationforinetconnection, get_INetSharingConfigurationForINetConnection, get_INetSharingConfigurationForINetConnection method [ICS/ICF], get_INetSharingConfigurationForINetConnection method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_inetsharingconfigurationforinetconnection, netcon/INetSharingManager::get_INetSharingConfigurationForINetConnection
-ms.topic: method
 f1_keywords:
 - netcon/INetSharingManager.get_INetSharingConfigurationForINetConnection
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\iszoomed.htm
 ms.date: 12/05/2018
 ms.keywords: IsZoomed, IsZoomed function [Windows and Messages], _win32_IsZoomed, _win32_iszoomed_cpp, winmsg.iszoomed, winui._win32_iszoomed, winuser/IsZoomed
-ms.topic: function
 f1_keywords:
 - winuser/IsZoomed
 dev_langs:

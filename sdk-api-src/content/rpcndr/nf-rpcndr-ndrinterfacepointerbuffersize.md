@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 815ebf99-f616-44e3-9b87-25d9a889cf6b
 ms.date: 12/05/2018
 ms.keywords: NdrInterfacePointerBufferSize, NdrInterfacePointerBufferSize function [RPC], rpc.ndrinterfacepointerbuffersize, rpcndr/NdrInterfacePointerBufferSize
-ms.topic: function
 f1_keywords:
 - rpcndr/NdrInterfacePointerBufferSize
 dev_langs:

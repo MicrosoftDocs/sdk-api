@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 92aac379-6145-4556-a4cd-6a27fda4d910
 ms.date: 12/05/2018
 ms.keywords: FWPM_CONNECTION_CALLBACK0, FWPM_CONNECTION_CALLBACK0 callback, FWPM_CONNECTION_CALLBACK0 callback function [Filtering], fwp.fwpm_connection_callback0, fwpmu/FWPM_CONNECTION_CALLBACK0
-ms.topic: callback
 f1_keywords:
 - fwpmu/FWPM_CONNECTION_CALLBACK0
 dev_langs:

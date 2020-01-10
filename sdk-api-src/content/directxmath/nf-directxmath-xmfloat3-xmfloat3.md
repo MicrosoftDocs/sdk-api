@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3.#ctor
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT3, XMFLOAT3 constructor [DirectX Math Support APIs], XMFLOAT3 constructor [DirectX Math Support APIs],XMFLOAT3 structure, XMFLOAT3 structure [DirectX Math Support APIs],XMFLOAT3 constructor, XMFLOAT3.XMFLOAT3, XMFLOAT3.XMFLOAT3(), XMFLOAT3::XMFLOAT3, dxmath.xmfloat3_ctor_1
-ms.topic: method
 f1_keywords:
 - directxmath/XMFLOAT3.XMFLOAT3
 dev_langs:

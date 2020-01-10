@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 6538fee8-a807-45ce-abdf-1c20524d78f2
 ms.date: 12/05/2018
 ms.keywords: ??0WBEMTime@@QAE@ABU_FILETIME@@@Z, ??0WBEMTime@@QEAA@AEBU_FILETIME@@@Z, WBEMTime, WBEMTime constructor [Windows Management Instrumentation], WBEMTime constructor [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],WBEMTime constructor, WBEMTime.WBEMTime, WBEMTime.WBEMTime(const FILETIME &), WBEMTime::WBEMTime, WBEMTime::WBEMTime(const FILETIME &), WBEMTime::WBEMTime(const FILETIME&), wbemtime/WBEMTime::WBEMTime, wmi.wbemtime_wbemtime_const_filetime__
-ms.topic: method
 f1_keywords:
 - wbemtime/WBEMTime.WBEMTime
 dev_langs:

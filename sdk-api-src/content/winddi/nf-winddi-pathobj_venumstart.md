@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: b83e6f87-be79-4743-bc52-b9310853c4f5
 ms.date: 12/05/2018
 ms.keywords: PATHOBJ_vEnumStart, PATHOBJ_vEnumStart function [Display Devices], display.pathobj_venumstart, gdifncs_93ed4330-ebfd-4ba1-b095-99beb3146452.xml, winddi/PATHOBJ_vEnumStart
-ms.topic: function
 f1_keywords:
 - winddi/PATHOBJ_vEnumStart
 dev_langs:

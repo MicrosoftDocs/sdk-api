@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: b02ca192-274a-4d15-8c16-4975134c92b4
 ms.date: 12/05/2018
 ms.keywords: IX509PolicyServerUrl interface [Security],SetStringProperty method, IX509PolicyServerUrl.SetStringProperty, IX509PolicyServerUrl::SetStringProperty, PsFriendlyName, PsPolicyID, SetStringProperty, SetStringProperty method [Security], SetStringProperty method [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::SetStringProperty, security.ix509policyserverurl_setstringproperty
-ms.topic: method
 f1_keywords:
 - certenroll/IX509PolicyServerUrl.SetStringProperty
 dev_langs:

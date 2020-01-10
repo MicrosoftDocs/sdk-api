@@ -7,7 +7,6 @@ tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmunregisterthumbnail.htm
 ms.date: 12/05/2018
 ms.keywords: DwmUnregisterThumbnail, DwmUnregisterThumbnail function [Desktop Window Manager], _udwm_dwmunregisterthumbnail, _udwm_dwmunregisterthumbnail_cpp, dwm.dwmunregisterthumbnail, dwmapi/DwmUnregisterThumbnail, winui._udwm_dwmunregisterthumbnail
-ms.topic: function
 f1_keywords:
 - dwmapi/DwmUnregisterThumbnail
 dev_langs:

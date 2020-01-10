@@ -7,7 +7,6 @@ tech.root: win32_tile_badge_notif
 ms.assetid: 9DB90C47-6FFA-44CA-8D33-709DD8CDDA29
 ms.date: 12/05/2018
 ms.keywords: INotificationActivationCallback, INotificationActivationCallback interface, INotificationActivationCallback interface,described, notificationactivationcallback/INotificationActivationCallback, win32_tile_badge_notif.inotificationactivationcallback
-ms.topic: interface
 f1_keywords:
 - notificationactivationcallback/INotificationActivationCallback
 dev_langs:

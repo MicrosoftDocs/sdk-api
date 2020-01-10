@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 1c675bf7-f292-49b1-8b60-720499a497fd
 ms.date: 12/05/2018
 ms.keywords: EVENT_ENABLE_PROPERTY_SID, EVENT_ENABLE_PROPERTY_TS_ID, EnableTraceEx, EnableTraceEx function [ETW], TRACE_LEVEL_CRITICAL, TRACE_LEVEL_ERROR, TRACE_LEVEL_INFORMATION, TRACE_LEVEL_VERBOSE, TRACE_LEVEL_WARNING, base.enabletraceex_func, etw.enabletraceex_func, evntrace/EnableTraceEx
-ms.topic: function
 f1_keywords:
 - evntrace/EnableTraceEx
 dev_langs:

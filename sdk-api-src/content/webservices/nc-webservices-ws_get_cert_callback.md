@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 36e787ff-f6bc-4814-be3f-a64f3edc2326
 ms.date: 12/05/2018
 ms.keywords: WS_GET_CERT_CALLBACK, WS_GET_CERT_CALLBACK callback, WS_GET_CERT_CALLBACK callback function [Web Services for Windows], webservices/WS_GET_CERT_CALLBACK, wsw.ws_get_cert_callback
-ms.topic: callback
 f1_keywords:
 - webservices/WS_GET_CERT_CALLBACK
 dev_langs:

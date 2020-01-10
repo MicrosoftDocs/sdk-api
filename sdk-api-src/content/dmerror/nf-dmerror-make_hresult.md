@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: f9624cbd-35a4-4e44-a796-cf463366299a
 ms.date: 12/05/2018
 ms.keywords: MAKE_HRESULT, MAKE_HRESULT macro [COM], _com_MAKE_HRESULT, com.make_hresult, com.make_hresult_macro, dmerror/MAKE_HRESULT
-ms.topic: macro
 f1_keywords:
 - dmerror/MAKE_HRESULT
 dev_langs:

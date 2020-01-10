@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointfclass\pointfmethods\operatorplus_90point.htm
 ms.date: 12/05/2018
 ms.keywords: PointF class [GDI+],operator+ method, PointF.operator+, PointF.operator+(const PointF&), PointF.operator-add, PointF::operator+, PointF::operator-add, _gdiplus_CLASS_PointF_operator_opadd_point_, gdiplus._gdiplus_CLASS_PointF_operator_opadd_point_, operator+, operator+ method [GDI+], operator+ method [GDI+],PointF class
-ms.topic: method
 f1_keywords:
 - gdiplustypes/PointF.operator+
 dev_langs:

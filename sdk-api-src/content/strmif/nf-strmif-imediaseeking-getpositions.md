@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 1b267c02-ec2d-4251-aac7-f2f711b16062
 ms.date: 12/05/2018
 ms.keywords: GetPositions, GetPositions method [DirectShow], GetPositions method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetPositions method, IMediaSeeking.GetPositions, IMediaSeeking::GetPositions, IMediaSeekingGetPositions, dshow.imediaseeking_getpositions, strmif/IMediaSeeking::GetPositions
-ms.topic: method
 f1_keywords:
 - strmif/IMediaSeeking.GetPositions
 dev_langs:

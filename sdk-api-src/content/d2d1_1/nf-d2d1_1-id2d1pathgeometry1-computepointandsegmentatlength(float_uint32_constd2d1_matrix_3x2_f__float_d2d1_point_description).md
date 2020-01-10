@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: E9F1428E-CDD0-4355-A692-30D9C8663D0A
 ms.date: 12/05/2018
 ms.keywords: ComputePointAndSegmentAtLength, ComputePointAndSegmentAtLength method [Direct2D], ComputePointAndSegmentAtLength method [Direct2D],ID2D1PathGeometry1 interface, ID2D1PathGeometry1 interface [Direct2D],ComputePointAndSegmentAtLength method, ID2D1PathGeometry1.ComputePointAndSegmentAtLength, ID2D1PathGeometry1.ComputePointAndSegmentAtLength(FLOAT,UINT32,const D2D1_MATRIX_3X2_F &,FLOAT,D2D1_POINT_DESCRIPTION), ID2D1PathGeometry1::ComputePointAndSegmentAtLength, ID2D1PathGeometry1::ComputePointAndSegmentAtLength(FLOAT,UINT32,const D2D1_MATRIX_3X2_F &,FLOAT,D2D1_POINT_DESCRIPTION), d2d1_3/ID2D1PathGeometry1::ComputePointAndSegmentAtLength, direct2d.id2d1pathgeometry1_computepointandsegmentatlength_2
-ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1PathGeometry1.ComputePointAndSegmentAtLength
 dev_langs:

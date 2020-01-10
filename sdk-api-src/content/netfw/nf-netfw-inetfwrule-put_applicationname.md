@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 2ab808fc-39ec-4d3a-9343-4d06f3faa563
 ms.date: 12/05/2018
 ms.keywords: ApplicationName property [ICS/ICF], ApplicationName property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],ApplicationName property, INetFwRule.ApplicationName, INetFwRule.put_ApplicationName, INetFwRule::ApplicationName, INetFwRule::get_ApplicationName, INetFwRule::put_ApplicationName, ics.inetfwrule_applicationname, netfw/INetFwRule::ApplicationName, netfw/INetFwRule::get_ApplicationName, netfw/INetFwRule::put_ApplicationName, put_ApplicationName
-ms.topic: method
 f1_keywords:
 - netfw/INetFwRule.ApplicationName
 dev_langs:

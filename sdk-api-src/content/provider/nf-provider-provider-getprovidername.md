@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 9ea7558d-11bd-4f19-b4d3-a711eca632a8
 ms.date: 12/05/2018
 ms.keywords: GetProviderName, GetProviderName method [Windows Management Instrumentation], GetProviderName method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],GetProviderName method, Provider.GetProviderName, Provider::GetProviderName, _hmm_provider_getprovidername, provider/Provider::GetProviderName, wmi.provider_getprovidername
-ms.topic: method
 f1_keywords:
 - provider/Provider.GetProviderName
 dev_langs:

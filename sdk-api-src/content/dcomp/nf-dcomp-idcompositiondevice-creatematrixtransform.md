@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 79291366-2fb2-4130-a642-4993648d8aa6
 ms.date: 12/05/2018
 ms.keywords: CreateMatrixTransform, CreateMatrixTransform method [DirectComposition], CreateMatrixTransform method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateMatrixTransform method, IDCompositionDevice.CreateMatrixTransform, IDCompositionDevice::CreateMatrixTransform, dcomp/IDCompositionDevice::CreateMatrixTransform, directcomp.idcompositiondevice_creatematrixtransform
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionDevice.CreateMatrixTransform
 dev_langs:

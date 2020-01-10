@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 1e2a3bf0-a73e-4406-99ac-32652f7f5b25
 ms.date: 12/05/2018
 ms.keywords: HasOverlappedIoCompleted, HasOverlappedIoCompleted macro, _win32_hasoverlappediocompleted, base.hasoverlappediocompleted, winbase/HasOverlappedIoCompleted
-ms.topic: macro
 f1_keywords:
 - winbase/HasOverlappedIoCompleted
 dev_langs:

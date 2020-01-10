@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2c8p.htm
 ms.date: 12/05/2018
 ms.keywords: Company property [Fax Service], Company property [Fax Service],IFaxSender interface, IFaxSender interface [Fax Service],Company property, IFaxSender.Company, IFaxSender.get_Company, IFaxSender::Company, IFaxSender::get_Company, IFaxSender::put_Company, _mfax_faxsender.company, fax._mfax_faxsender_company, fax._mfax_faxsender_cpp_mfax_faxsender_company_cpp, faxcomex/IFaxSender::Company, faxcomex/IFaxSender::get_Company, faxcomex/IFaxSender::put_Company, get_Company
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxSender.Company
 dev_langs:

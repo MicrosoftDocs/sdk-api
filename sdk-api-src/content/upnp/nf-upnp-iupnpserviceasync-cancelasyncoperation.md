@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: FBEC2DF3-6D45-49F2-AAA8-6DED697BC5A6
 ms.date: 12/05/2018
 ms.keywords: CancelAsyncOperation, CancelAsyncOperation method [UPnP APIs], CancelAsyncOperation method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],CancelAsyncOperation method, IUPnPServiceAsync.CancelAsyncOperation, IUPnPServiceAsync::CancelAsyncOperation, upnp.iupnpserviceasync_cancelasyncoperation, upnp/IUPnPServiceAsync::CancelAsyncOperation
-ms.topic: method
 f1_keywords:
 - upnp/IUPnPServiceAsync.CancelAsyncOperation
 dev_langs:

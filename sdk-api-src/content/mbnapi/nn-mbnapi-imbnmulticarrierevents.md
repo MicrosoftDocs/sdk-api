@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: F7CAF21B-F487-4F35-806B-312B5246C1B2
 ms.date: 12/05/2018
 ms.keywords: IMbnMultiCarrierEvents, IMbnMultiCarrierEvents interface [Microsoft Broadband Networks], IMbnMultiCarrierEvents interface [Microsoft Broadband Networks],described, mbn.imbnmulticarrierevents, mbnapi/IMbnMultiCarrierEvents
-ms.topic: interface
 f1_keywords:
 - mbnapi/IMbnMultiCarrierEvents
 dev_langs:

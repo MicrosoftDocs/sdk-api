@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 0102A98E-5EE0-4FBE-AF82-97C7A25038FB
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineProtectedContent interface [Media Foundation],SetOPMWindow method, IMFMediaEngineProtectedContent.SetOPMWindow, IMFMediaEngineProtectedContent::SetOPMWindow, SetOPMWindow, SetOPMWindow method [Media Foundation], SetOPMWindow method [Media Foundation],IMFMediaEngineProtectedContent interface, mf.imfmediaengineprotectedcontent_setopmwindow, mfmediaengine/IMFMediaEngineProtectedContent::SetOPMWindow
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngineProtectedContent.SetOPMWindow
 dev_langs:

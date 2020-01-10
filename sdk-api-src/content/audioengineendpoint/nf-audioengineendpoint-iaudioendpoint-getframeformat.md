@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: fb34ef19-4155-461e-a8d7-0a903e9d7c72
 ms.date: 12/05/2018
 ms.keywords: GetFrameFormat, GetFrameFormat method [Remote Desktop Services], GetFrameFormat method [Remote Desktop Services],IAudioEndpoint interface, IAudioEndpoint interface [Remote Desktop Services],GetFrameFormat method, IAudioEndpoint.GetFrameFormat, IAudioEndpoint::GetFrameFormat, audioengineendpoint/IAudioEndpoint::GetFrameFormat, termserv.iaudioendpoint_getframeformat
-ms.topic: method
 f1_keywords:
 - audioengineendpoint/IAudioEndpoint.GetFrameFormat
 dev_langs:

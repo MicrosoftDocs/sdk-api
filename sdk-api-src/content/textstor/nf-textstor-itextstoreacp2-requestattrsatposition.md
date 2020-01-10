@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 0eb663be-3e70-415b-89cd-7e5a0308e72a
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],RequestAttrsAtPosition method, ITextStoreACP2.RequestAttrsAtPosition, ITextStoreACP2::RequestAttrsAtPosition, RequestAttrsAtPosition, RequestAttrsAtPosition method [Text Services Framework], RequestAttrsAtPosition method [Text Services Framework],ITextStoreACP2 interface, TS_ATTR_FIND_WANT_END, TS_ATTR_FIND_WANT_VALUE, textstor/ITextStoreACP2::RequestAttrsAtPosition, tsf.itextstoreacp2_requestattrsatposition
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreACP2.RequestAttrsAtPosition
 dev_langs:

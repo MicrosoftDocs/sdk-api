@@ -7,7 +7,6 @@ tech.root: Sens
 ms.assetid: be61b5b9-d4f1-40ea-a734-7b02c06e41e8
 ms.date: 12/05/2018
 ms.keywords: ISensLogon2, ISensLogon2 interface [SENS], ISensLogon2 interface [SENS],described, _zaw_isenslogon2, sens.isenslogon2, sensevts/ISensLogon2, syncmgr.isenslogon2
-ms.topic: interface
 f1_keywords:
 - sensevts/ISensLogon2
 dev_langs:

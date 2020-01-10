@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d5940fec-8cf2-4bc7-8001-42b68ce97f7d
 ms.date: 12/05/2018
 ms.keywords: LongToDWord, LongToULong, LongToULong function [Windows Shell], _shell_LongToULong, intsafe/LongToULong, shell.LongToULong
-ms.topic: function
 f1_keywords:
 - intsafe/LongToULong
 dev_langs:

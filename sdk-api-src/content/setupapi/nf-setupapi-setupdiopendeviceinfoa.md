@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 0c4a2d09-62b2-43ce-a202-aeb59248d9fc
 ms.date: 12/05/2018
 ms.keywords: SetupDiOpenDeviceInfo, SetupDiOpenDeviceInfo function [Device and Driver Installation], SetupDiOpenDeviceInfoA, SetupDiOpenDeviceInfoW, devinst.setupdiopendeviceinfo, di-rtns_57646ff4-705a-46ff-9c51-49880bb19f90.xml, setupapi/SetupDiOpenDeviceInfo
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiOpenDeviceInfo
 dev_langs:

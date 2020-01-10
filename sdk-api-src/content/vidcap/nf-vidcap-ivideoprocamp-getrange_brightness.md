@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 236f919a-5ed3-4ce4-877e-023af1a4e4d0
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_Brightness method, IVideoProcAmp.getRange_Brightness, IVideoProcAmp::getRange_Brightness, IVideoProcAmpgetRange_Brightness, dshow.ivideoprocamp_getrange_brightness, getRange_Brightness, getRange_Brightness method [DirectShow], getRange_Brightness method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_Brightness
-ms.topic: method
 f1_keywords:
 - vidcap/IVideoProcAmp.getRange_Brightness
 dev_langs:

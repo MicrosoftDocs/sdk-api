@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3560b088-d899-4fb2-a47c-101f8f5e3bf7
 ms.date: 12/05/2018
 ms.keywords: '*PAPPINFODATA, APPINFODATA, APPINFODATA structure [Windows Shell], inet_APPINFODATA, shappmgr/APPINFODATA, shell.APPINFODATA'
-ms.topic: struct
 f1_keywords:
 - shappmgr/APPINFODATA
 dev_langs:

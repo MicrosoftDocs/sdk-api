@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 24108143-55b7-4098-a4cc-025dfdfd054a
 ms.date: 12/05/2018
 ms.keywords: IWSDAsyncCallback, IWSDAsyncCallback interface, IWSDAsyncCallback interface,described, ncd.iwsdasynccallback, wsdclient/IWSDAsyncCallback
-ms.topic: interface
 f1_keywords:
 - wsdclient/IWSDAsyncCallback
 dev_langs:

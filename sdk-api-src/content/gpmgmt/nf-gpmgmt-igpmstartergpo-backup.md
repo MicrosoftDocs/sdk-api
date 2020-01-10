@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: bf419f56-803f-44c2-ae08-7e428940f79d
 ms.date: 12/05/2018
 ms.keywords: Backup, Backup method [GPMC], Backup method [GPMC],IGPMStarterGPO interface, IGPMStarterGPO interface [GPMC],Backup method, IGPMStarterGPO.Backup, IGPMStarterGPO::Backup, gpmc.igpmstartergpo_backup, gpmgmt/IGPMStarterGPO::Backup
-ms.topic: method
 f1_keywords:
 - gpmgmt/IGPMStarterGPO.Backup
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 00d9d23e-fb39-4f3c-a2b9-9983322879fd
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_BIND_ELEMENT, DHCP_BIND_ELEMENT, DHCP_BIND_ELEMENT structure [DHCP], DHCP_ENDPOINT_FLAG_CANT_MODIFY, LPDHCP_BIND_ELEMENT, LPDHCP_BIND_ELEMENT structure pointer [DHCP], dhcp.dhcp_bind_element, dhcpsapi/LPDHCP_BIND_ELEMENT, dhcpsapi/_DHCP_BIND_ELEMENT'
-ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_BIND_ELEMENT
 dev_langs:

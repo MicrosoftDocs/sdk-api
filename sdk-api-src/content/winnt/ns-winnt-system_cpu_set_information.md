@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 48C38098-C42E-46D0-B938-CBD0BA7F8586
 ms.date: 12/05/2018
 ms.keywords: '*PSYSTEM_CPU_SET_INFORMATION, PSYSTEM_CPU_SET_INFORMATION, PSYSTEM_CPU_SET_INFORMATION structure pointer, SYSTEM_CPU_SET_INFORMATION, SYSTEM_CPU_SET_INFORMATION structure, base.system_cpu_set_information, winnt/PSYSTEM_CPU_SET_INFORMATION, winnt/SYSTEM_CPU_SET_INFORMATION'
-ms.topic: struct
 f1_keywords:
 - winnt/SYSTEM_CPU_SET_INFORMATION
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 587805a4-6713-40be-83b6-5c772b5396cf
 ms.date: 12/05/2018
 ms.keywords: ContextInfo interface [COM+],IsInTransaction method, ContextInfo.IsInTransaction, ContextInfo::IsInTransaction, IsInTransaction, IsInTransaction method [COM+], IsInTransaction method [COM+],ContextInfo interface, _cos_ContextInfo_IsInTransaction, comsvcs/ContextInfo::IsInTransaction, cos.contextinfo_isintransaction
-ms.topic: method
 f1_keywords:
 - comsvcs/ContextInfo.IsInTransaction
 dev_langs:

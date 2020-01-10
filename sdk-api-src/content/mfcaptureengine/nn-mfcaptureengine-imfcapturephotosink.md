@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 14BB9A86-47F2-4CFE-A932-3F2C7B6AF2BA
 ms.date: 12/05/2018
 ms.keywords: IMFCapturePhotoSink, IMFCapturePhotoSink interface [Media Foundation], IMFCapturePhotoSink interface [Media Foundation],described, mf.imfcapturephotosink, mfcaptureengine/IMFCapturePhotoSink
-ms.topic: interface
 f1_keywords:
 - mfcaptureengine/IMFCapturePhotoSink
 dev_langs:

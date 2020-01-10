@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: AEF5923D-C4ED-4BEA-A969-163ED837A5BD
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureRecordSink, IMFCaptureRecordSink interface [Media Foundation], IMFCaptureRecordSink interface [Media Foundation],described, mf.imfcapturerecordsink, mfcaptureengine/IMFCaptureRecordSink
-ms.topic: interface
 f1_keywords:
 - mfcaptureengine/IMFCaptureRecordSink
 dev_langs:

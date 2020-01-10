@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 5033557c-d43c-42b1-ae4e-0fb0569d697a
 ms.date: 12/05/2018
 ms.keywords: FreePropVariantArray, FreePropVariantArray function [Windows Properties], _shell_FreePropVariantArray, properties.FreePropVariantArray, propidl/FreePropVariantArray, shell.FreePropVariantArray
-ms.topic: function
 f1_keywords:
 - propidl/FreePropVariantArray
 dev_langs:

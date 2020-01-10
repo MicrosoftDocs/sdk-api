@@ -7,7 +7,6 @@ tech.root: netshell
 ms.assetid: 6646a4f7-24b7-460c-8027-80485ac50785
 ms.date: 12/05/2018
 ms.keywords: PrintMessage, PrintMessage function [NetShell], _netsh_printmessage, netsh/PrintMessage, netshell.printmessage
-ms.topic: function
 f1_keywords:
 - netsh/PrintMessage
 dev_langs:

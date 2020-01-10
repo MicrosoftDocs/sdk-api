@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: fe0bc709-b410-4a61-bea3-d11fc8f71883
 ms.date: 12/05/2018
 ms.keywords: MsiGetProductInfoFromScript, MsiGetProductInfoFromScript function, MsiGetProductInfoFromScriptA, MsiGetProductInfoFromScriptW, _msi_msigetproductinfofromscript, msi/MsiGetProductInfoFromScript, msi/MsiGetProductInfoFromScriptA, msi/MsiGetProductInfoFromScriptW, setup.msigetproductinfofromscript
-ms.topic: function
 f1_keywords:
 - msi/MsiGetProductInfoFromScript
 dev_langs:

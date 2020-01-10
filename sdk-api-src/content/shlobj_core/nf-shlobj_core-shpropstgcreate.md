@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: fd99e04e-ef96-4357-9226-da6604fb0e84
 ms.date: 12/05/2018
 ms.keywords: CREATE_ALWAYS, CREATE_NEW, OPEN_ALWAYS, OPEN_EXISTING, SHPropStgCreate, SHPropStgCreate function [Windows Properties], _win32_SHPropStgCreate, properties.SHPropStgCreate, shell.SHPropStgCreate, shlobj_core/SHPropStgCreate
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHPropStgCreate
 dev_langs:

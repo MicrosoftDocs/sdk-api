@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\lowquotawatermark.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],LowQuotaWaterMark property, IFaxConfiguration.LowQuotaWaterMark, IFaxConfiguration.put_LowQuotaWaterMark, IFaxConfiguration::LowQuotaWaterMark, IFaxConfiguration::get_LowQuotaWaterMark, IFaxConfiguration::put_LowQuotaWaterMark, LowQuotaWaterMark property [Fax Service], LowQuotaWaterMark property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_LowQuotaWaterMark, fax._mfax_IFaxConfiguration_LowQuotaWaterMark, faxcomex/IFaxConfiguration::LowQuotaWaterMark, faxcomex/IFaxConfiguration::get_LowQuotaWaterMark, faxcomex/IFaxConfiguration::put_LowQuotaWaterMark, put_LowQuotaWaterMark
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxConfiguration.LowQuotaWaterMark
 dev_langs:

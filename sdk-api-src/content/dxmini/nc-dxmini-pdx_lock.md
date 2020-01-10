@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 1eeeb68b-9098-4030-924a-634e79c3e682
 ms.date: 12/05/2018
 ms.keywords: DxLock, DxLock callback function [Display Devices], PDX_LOCK, PDX_LOCK callback, VideoMiniPort_DxApiFunctions_35d3fff6-f764-4dd7-a239-74dde81cdebb.xml, display.dxlock, dxmini/DxLock
-ms.topic: callback
 f1_keywords:
 - dxmini/DxLock
 dev_langs:

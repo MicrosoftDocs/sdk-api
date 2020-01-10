@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 598bdaa4-01ef-4b40-b8b2-c17fe9c2c4c3
 ms.date: 12/05/2018
 ms.keywords: DeviceStatus property [Windows Update Agent], DeviceStatus property [Windows Update Agent],IWindowsDriverUpdateEntry interface, IWindowsDriverUpdateEntry interface [Windows Update Agent],DeviceStatus property, IWindowsDriverUpdateEntry.DeviceStatus, IWindowsDriverUpdateEntry.get_DeviceStatus, IWindowsDriverUpdateEntry::DeviceStatus, IWindowsDriverUpdateEntry::get_DeviceStatus, get_DeviceStatus, wua.iwindowsdriverupdateentry_devicestatus, wuapi/IWindowsDriverUpdateEntry::DeviceStatus, wuapi/IWindowsDriverUpdateEntry::get_DeviceStatus
-ms.topic: method
 f1_keywords:
 - wuapi/IWindowsDriverUpdateEntry.DeviceStatus
 dev_langs:

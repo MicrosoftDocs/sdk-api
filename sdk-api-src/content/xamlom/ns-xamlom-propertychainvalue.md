@@ -7,7 +7,6 @@ tech.root: xaml_diagnostics
 ms.assetid: 111D10AB-2C16-4D21-A716-968C810B928F
 ms.date: 12/05/2018
 ms.keywords: PPropertyChainValue, PPropertyChainValue structure pointer, PropertyChainValue, PropertyChainValue structure, xaml_diagnostics.propertychainvalue, xamlom/PPropertyChainValue, xamlom/PropertyChainValue
-ms.topic: struct
 f1_keywords:
 - xamlom/PropertyChainValue
 dev_langs:

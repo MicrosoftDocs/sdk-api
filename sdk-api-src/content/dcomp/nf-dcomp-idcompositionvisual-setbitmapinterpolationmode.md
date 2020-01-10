@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: F45A3619-556B-4D2C-BCB0-8D55A1397579
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetBitmapInterpolationMode method, IDCompositionVisual.SetBitmapInterpolationMode, IDCompositionVisual::SetBitmapInterpolationMode, SetBitmapInterpolationMode, SetBitmapInterpolationMode method [DirectComposition], SetBitmapInterpolationMode method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetBitmapInterpolationMode, directcomp.idcompositionvisual_setbitmapinterpolationmode
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionVisual.SetBitmapInterpolationMode
 dev_langs:

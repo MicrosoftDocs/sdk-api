@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 66efee4f-61af-447a-b668-81fbe2107b7f
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyArchived interface [Security],Initialize method, ICertPropertyArchived.Initialize, ICertPropertyArchived::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyArchived interface, certenroll/ICertPropertyArchived::Initialize, security.icertpropertyarchived_initialize_method
-ms.topic: method
 f1_keywords:
 - certenroll/ICertPropertyArchived.Initialize
 dev_langs:

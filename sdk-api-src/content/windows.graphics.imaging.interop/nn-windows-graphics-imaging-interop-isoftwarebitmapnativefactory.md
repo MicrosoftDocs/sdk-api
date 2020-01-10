@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 613BFE81-AC55-4786-B6BD-0FFB7506D7F1
 ms.date: 12/05/2018
 ms.keywords: ISoftwareBitmapNativeFactory, ISoftwareBitmapNativeFactory interface [Windows Runtime], ISoftwareBitmapNativeFactory interface [Windows Runtime],described, windows/ISoftwareBitmapNativeFactory, winrt.isoftwarebitmapnativefactory
-ms.topic: interface
 f1_keywords:
 - windows.graphics.imaging.interop/ISoftwareBitmapNativeFactory
 dev_langs:

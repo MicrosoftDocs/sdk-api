@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: f97a2a39-7291-4a1d-b770-0a34f7f5b60f
 ms.date: 12/05/2018
 ms.keywords: CoCreateFreeThreadedMarshaler, CoCreateFreeThreadedMarshaler function [COM], _com_CoCreateFreeThreadedMarshaler, com.cocreatefreethreadedmarshaler, combaseapi/CoCreateFreeThreadedMarshaler
-ms.topic: function
 f1_keywords:
 - combaseapi/CoCreateFreeThreadedMarshaler
 dev_langs:

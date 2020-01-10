@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: d672ee59-f702-49c7-8ccf-5ba0260c9b23
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineClassFactoryEx, IMFMediaEngineClassFactoryEx interface [Media Foundation], IMFMediaEngineClassFactoryEx interface [Media Foundation],described, mf.imfmediaengineclassfactoryex, mfmediaengine/IMFMediaEngineClassFactoryEx
-ms.topic: interface
 f1_keywords:
 - mfmediaengine/IMFMediaEngineClassFactoryEx
 dev_langs:

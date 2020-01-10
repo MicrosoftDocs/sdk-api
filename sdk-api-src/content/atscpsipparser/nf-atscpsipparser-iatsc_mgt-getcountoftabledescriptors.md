@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 14bd596f-ca24-456b-bb53-4e7e37183422
 ms.date: 12/05/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],IATSC_MGT interface, IATSC_MGT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, IATSC_MGT.GetCountOfTableDescriptors, IATSC_MGT::GetCountOfTableDescriptors, IATSC_MGTGetCountOfTableDescriptors, atscpsipparser/IATSC_MGT::GetCountOfTableDescriptors, mstv.iatsc_mgt_getcountoftabledescriptors
-ms.topic: method
 f1_keywords:
 - atscpsipparser/IATSC_MGT.GetCountOfTableDescriptors
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 9ad9d818-7b3e-47eb-bc99-e26e7664383c
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataBlockWriter interface [Windows Imaging Component],InitializeFromBlockReader method, IWICMetadataBlockWriter.InitializeFromBlockReader, IWICMetadataBlockWriter::InitializeFromBlockReader, InitializeFromBlockReader, InitializeFromBlockReader method [Windows Imaging Component], InitializeFromBlockReader method [Windows Imaging Component],IWICMetadataBlockWriter interface, _wic_codec_iwicmetadatablockwriter_initializefromblockreader, wic._wic_codec_iwicmetadatablockwriter_initializefromblockreader, wincodecsdk/IWICMetadataBlockWriter::InitializeFromBlockReader
-ms.topic: method
 f1_keywords:
 - wincodecsdk/IWICMetadataBlockWriter.InitializeFromBlockReader
 dev_langs:

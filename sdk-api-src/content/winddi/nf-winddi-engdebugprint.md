@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 2480adec-68b6-4ffe-8b20-2ca7cb1a4d79
 ms.date: 12/05/2018
 ms.keywords: EngDebugPrint, EngDebugPrint function [Display Devices], display.engdebugprint, gdifncs_e3529861-721f-41f3-aedc-12ef88353b24.xml, winddi/EngDebugPrint
-ms.topic: function
 f1_keywords:
 - winddi/EngDebugPrint
 dev_langs:

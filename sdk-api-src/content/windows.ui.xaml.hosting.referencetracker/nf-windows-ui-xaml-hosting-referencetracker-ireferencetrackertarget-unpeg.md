@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: c070957f-3bf8-4e72-ad56-e9cb023692c6
 ms.date: 12/05/2018
 ms.keywords: IReferenceTrackerTarget interface [Windows Runtime],Unpeg method, IReferenceTrackerTarget.Unpeg, IReferenceTrackerTarget.xaml, IReferenceTrackerTarget::Unpeg, IReferenceTrackerTarget::xaml, Unpeg, Unpeg method [Windows Runtime], Unpeg method [Windows Runtime],IReferenceTrackerTarget interface, windows/IReferenceTrackerTarget::Unpeg, winrt.ireferencetrackertarget_unpeg
-ms.topic: method
 f1_keywords:
 - windows.ui.xaml.hosting.referencetracker/IReferenceTrackerTarget.Unpeg
 dev_langs:

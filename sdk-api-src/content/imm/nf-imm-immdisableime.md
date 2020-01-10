@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: c563fc24-3c56-40ac-8539-8336d5231537
 ms.date: 12/05/2018
 ms.keywords: ImmDisableIME, ImmDisableIME function [Internationalization for Windows Applications], _win32_ImmDisableIME, imm/ImmDisableIME, intl.immdisableime
-ms.topic: function
 f1_keywords:
 - imm/ImmDisableIME
 dev_langs:

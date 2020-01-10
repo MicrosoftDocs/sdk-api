@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 16cd38f2-5029-4b95-871d-a8ba6c96b78c
 ms.date: 12/05/2018
 ms.keywords: MprConfigGetFriendlyName, MprConfigGetFriendlyName function [RAS], _mpr_mprconfiggetfriendlyname, mprapi/MprConfigGetFriendlyName, rras.mprconfiggetfriendlyname
-ms.topic: function
 f1_keywords:
 - mprapi/MprConfigGetFriendlyName
 dev_langs:

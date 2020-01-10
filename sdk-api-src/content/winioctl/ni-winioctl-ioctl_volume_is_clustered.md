@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 3722b08c-237d-4551-b75e-1d28fe8e94c3
 ms.date: 12/05/2018
 ms.keywords: IOCTL_VOLUME_IS_CLUSTERED, IOCTL_VOLUME_IS_CLUSTERED control, IOCTL_VOLUME_IS_CLUSTERED control code [Files], _win32_ioctl_volume_is_clustered, base.ioctl_volume_is_clustered, fs.ioctl_volume_is_clustered, winioctl/IOCTL_VOLUME_IS_CLUSTERED
-ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_VOLUME_IS_CLUSTERED
 dev_langs:

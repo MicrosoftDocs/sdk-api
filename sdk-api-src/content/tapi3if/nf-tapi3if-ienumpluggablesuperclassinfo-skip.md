@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: ad23eeb8-295c-43d0-af50-fa5fef0f295b
 ms.date: 12/05/2018
 ms.keywords: IEnumPluggableSuperclassInfo interface [TAPI 2.2],Skip method, IEnumPluggableSuperclassInfo.Skip, IEnumPluggableSuperclassInfo::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumPluggableSuperclassInfo interface, _tapi3_ienumpluggablesuperclassinfo_skip, tapi3.ienumpluggablesuperclassinfo_skip, tapi3if/IEnumPluggableSuperclassInfo::Skip
-ms.topic: method
 f1_keywords:
 - tapi3if/IEnumPluggableSuperclassInfo.Skip
 dev_langs:

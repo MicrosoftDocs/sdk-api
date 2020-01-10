@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f2c57560-7ffa-4bd4-8d0c-a048dafa35bc
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],KeepPixelAspectRatio method, IFullScreenVideoEx.KeepPixelAspectRatio, IFullScreenVideoEx::KeepPixelAspectRatio, IFullScreenVideoExKeepPixelAspectRatio, KeepPixelAspectRatio, KeepPixelAspectRatio method [DirectShow], KeepPixelAspectRatio method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::KeepPixelAspectRatio, dshow.ifullscreenvideoex_keeppixelaspectratio
-ms.topic: method
 f1_keywords:
 - amvideo/IFullScreenVideoEx.KeepPixelAspectRatio
 dev_langs:

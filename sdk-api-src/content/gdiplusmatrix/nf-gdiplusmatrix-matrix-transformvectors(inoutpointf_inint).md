@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\matrixtransformvectorsmethods.htm
 ms.date: 12/05/2018
 ms.keywords: Matrix.TransformVectors, Matrix::TransformVectors, TransformVectors, TransformVectors methods [GDI+], _gdiplus_CLASS_Matrix_TransformVectors_Methods, gdiplus._gdiplus_CLASS_Matrix_TransformVectors_Methods, gdiplusmatrix/TransformVectors
-ms.topic: method
 f1_keywords:
 - gdiplusmatrix/Matrix.TransformVectors
 dev_langs:

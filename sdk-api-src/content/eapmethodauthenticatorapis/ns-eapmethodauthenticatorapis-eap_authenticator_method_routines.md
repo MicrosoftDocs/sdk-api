@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 8ec96ee2-678a-45c0-bfeb-c460ee863620
 ms.date: 12/05/2018
 ms.keywords: '*PEAP_AUTHENTICATOR_METHOD_ROUTINES, EAP_AUTHENTICATOR_METHOD_ROUTINES, EAP_AUTHENTICATOR_METHOD_ROUTINES structure [EAPHost], eaphost.eap_authenticator_method_routines, eapmethodauthenticatorapis/EAP_AUTHENTICATOR_METHOD_ROUTINES'
-ms.topic: struct
 f1_keywords:
 - eapmethodauthenticatorapis/EAP_AUTHENTICATOR_METHOD_ROUTINES
 dev_langs:

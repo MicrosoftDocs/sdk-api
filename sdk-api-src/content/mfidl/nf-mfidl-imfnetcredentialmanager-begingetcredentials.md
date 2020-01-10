@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: ff11ff99-18bf-4c4c-93fd-31c06309f105
 ms.date: 12/05/2018
 ms.keywords: BeginGetCredentials, BeginGetCredentials method [Media Foundation], BeginGetCredentials method [Media Foundation],IMFNetCredentialManager interface, IMFNetCredentialManager interface [Media Foundation],BeginGetCredentials method, IMFNetCredentialManager.BeginGetCredentials, IMFNetCredentialManager::BeginGetCredentials, ff11ff99-18bf-4c4c-93fd-31c06309f105, mf.imfnetcredentialmanager_begingetcredentials, mfidl/IMFNetCredentialManager::BeginGetCredentials
-ms.topic: method
 f1_keywords:
 - mfidl/IMFNetCredentialManager.BeginGetCredentials
 dev_langs:

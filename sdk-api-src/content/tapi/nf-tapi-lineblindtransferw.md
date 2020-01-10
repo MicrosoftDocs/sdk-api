@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: c1997933-475e-4bcd-be44-ad92a2a678eb
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineblindtransfer, lineBlindTransfer, lineBlindTransfer function [TAPI 2.2], lineBlindTransferA, lineBlindTransferW, tapi/lineBlindTransfer, tapi/lineBlindTransferA, tapi/lineBlindTransferW, tapi2.lineblindtransfer
-ms.topic: function
 f1_keywords:
 - tapi/lineBlindTransfer
 dev_langs:

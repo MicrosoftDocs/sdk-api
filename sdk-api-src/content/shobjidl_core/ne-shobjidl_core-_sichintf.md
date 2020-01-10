@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4d333302-5be3-4e8d-9018-e42729df0cc3
 ms.date: 12/05/2018
 ms.keywords: SICHINTF, SICHINTF enumeration [Windows Shell], SICHINT_ALLFIELDS, SICHINT_CANONICAL, SICHINT_DISPLAY, SICHINT_TEST_FILESYSPATH_IF_NOT_EQUAL, _SICHINTF, inet_SICHINT, shell.SICHINT, shobjidl_core/SICHINTF, shobjidl_core/SICHINT_ALLFIELDS, shobjidl_core/SICHINT_CANONICAL, shobjidl_core/SICHINT_DISPLAY, shobjidl_core/SICHINT_TEST_FILESYSPATH_IF_NOT_EQUAL
-ms.topic: enum
 f1_keywords:
 - shobjidl_core/SICHINTF
 dev_langs:

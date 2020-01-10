@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: E364F423-AF17-4F91-993B-CEA0E50CAF67
 ms.date: 12/05/2018
 ms.keywords: ComprehensiveCheck, ComprehensiveCheck method [Internationalization for Windows Applications], ComprehensiveCheck method [Internationalization for Windows Applications],ISpellChecker interface, ISpellChecker interface [Internationalization for Windows Applications],ComprehensiveCheck method, ISpellChecker.ComprehensiveCheck, ISpellChecker::ComprehensiveCheck, intl.ispellchecker_comprehensivecheck, spellcheck/ISpellChecker::ComprehensiveCheck
-ms.topic: method
 f1_keywords:
 - spellcheck/ISpellChecker.ComprehensiveCheck
 dev_langs:

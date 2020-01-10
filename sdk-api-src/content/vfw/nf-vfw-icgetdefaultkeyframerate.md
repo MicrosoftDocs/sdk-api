@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 81ae287a-13e3-4bf0-bdd8-915a81e78d32
 ms.date: 12/05/2018
 ms.keywords: ICGetDefaultKeyFrameRate, ICGetDefaultKeyFrameRate macro [Windows Multimedia], _win32_ICGetDefaultKeyFrameRate, multimedia.icgetdefaultkeyframerate, vfw/ICGetDefaultKeyFrameRate
-ms.topic: macro
 f1_keywords:
 - vfw/ICGetDefaultKeyFrameRate
 dev_langs:

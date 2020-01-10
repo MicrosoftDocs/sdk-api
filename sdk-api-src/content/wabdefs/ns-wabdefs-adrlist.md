@@ -7,7 +7,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\adrlist.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPADRLIST, ADRLIST, ADRLIST structure [Windows Address Book], Gender, Gender structure [Windows Address Book], _wab_ADRLIST, wab._wab_ADRLIST, wabdefs/ADRLIST'
-ms.topic: struct
 f1_keywords:
 - wabdefs/Gender
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: D6D387EB-85CC-413E-926D-A222274ABD52
 ms.date: 12/05/2018
 ms.keywords: '*PPXE_DHCPV6_MESSAGE_HEADER, PPXE_DHCPV6_MESSAGE_HEADER, PPXE_DHCPV6_MESSAGE_HEADER structure pointer [Windows Deployment Services], PXE_DHCPV6_MESSAGE_HEADER, PXE_DHCPV6_MESSAGE_HEADER structure [Windows Deployment Services], wds.pxe_dhcpv6_message_header, wdspxe/PPXE_DHCPV6_MESSAGE_HEADER, wdspxe/PXE_DHCPV6_MESSAGE_HEADER'
-ms.topic: struct
 f1_keywords:
 - wdspxe/PXE_DHCPV6_MESSAGE_HEADER
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: ab29362e-fa85-4833-a2c8-df5cfacc6140
 ms.date: 12/05/2018
 ms.keywords: _win32_acmFilterDetails, acmFilterDetails, acmFilterDetails function [Windows Multimedia], acmFilterDetailsA, acmFilterDetailsW, msacm/acmFilterDetails, msacm/acmFilterDetailsA, msacm/acmFilterDetailsW, multimedia.acmfilterdetails
-ms.topic: function
 f1_keywords:
 - msacm/acmFilterDetails
 dev_langs:

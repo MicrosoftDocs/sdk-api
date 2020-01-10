@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: e7dbe536-778a-445c-929b-56e490fdeffb
 ms.date: 12/05/2018
 ms.keywords: WcmSettingType, WcmSettingType enumeration [SMI], settingTypeComplex, settingTypeList, settingTypeScalar, smi.wcmsettingtype, wcmconfig/WcmSettingType, wcmconfig/settingTypeComplex, wcmconfig/settingTypeList, wcmconfig/settingTypeScalar
-ms.topic: enum
 f1_keywords:
 - wcmconfig/WcmSettingType
 dev_langs:

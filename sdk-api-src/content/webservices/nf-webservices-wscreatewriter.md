@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 5b4bb009-764e-4892-903a-5939f5570016
 ms.date: 12/05/2018
 ms.keywords: WsCreateWriter, WsCreateWriter function [Web Services for Windows], webservices/WsCreateWriter, wsw.wscreatewriter
-ms.topic: function
 f1_keywords:
 - webservices/WsCreateWriter
 dev_langs:

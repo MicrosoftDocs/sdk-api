@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: c8f58c17-b3b1-4fc8-b6e0-2ab23681280d
 ms.date: 12/05/2018
 ms.keywords: GetRecordKeys, GetRecordKeys method [Microsoft TV Technologies], GetRecordKeys method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordKeys method, IISDB_NBIT.GetRecordKeys, IISDB_NBIT::GetRecordKeys, dvbsiparser/IISDB_NBIT::GetRecordKeys, mstv.iisdb_nbit_getrecordkeys
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IISDB_NBIT.GetRecordKeys
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: d095acbe-30bf-4449-bd00-a9f8813111c5
 ms.date: 12/05/2018
 ms.keywords: DrtGetSearchPath, DrtGetSearchPath function [Peer Networking], drt/DrtGetSearchPath, p2p.drtgetsearchpath
-ms.topic: function
 f1_keywords:
 - drt/DrtGetSearchPath
 dev_langs:

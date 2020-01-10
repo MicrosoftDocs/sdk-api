@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: f85d8cd9-958a-490a-b155-3a9abdeda922
 ms.date: 12/05/2018
 ms.keywords: SSRVOPT_DWORD, SSRVOPT_DWORDPTR, SSRVOPT_GUIDPTR, SymFindFileInPath, SymFindFileInPath function, SymFindFileInPathW, _win32_symfindfileinpath, base.symfindfileinpath, dbghelp/SymFindFileInPath, dbghelp/SymFindFileInPathW
-ms.topic: function
 f1_keywords:
 - dbghelp/SymFindFileInPath
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 81b896de-1f06-4315-aa64-90806c0fed75
 ms.date: 12/05/2018
 ms.keywords: GetUserDefaultLocaleName, GetUserDefaultLocaleName function [Internationalization for Windows Applications], _win32_GetUserDefaultLocaleName, intl.getuserdefaultlocalename, winnls/GetUserDefaultLocaleName
-ms.topic: function
 f1_keywords:
 - winnls/GetUserDefaultLocaleName
 dev_langs:

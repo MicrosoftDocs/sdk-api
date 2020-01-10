@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: e92fa253-7e00-457f-805e-ed13bca84254
 ms.date: 12/05/2018
 ms.keywords: IBDA_SignalProperties interface [Microsoft TV Technologies],PutNetworkType method, IBDA_SignalProperties.PutNetworkType, IBDA_SignalProperties::PutNetworkType, IBDA_SignalPropertiesPutNetworkType, PutNetworkType, PutNetworkType method [Microsoft TV Technologies], PutNetworkType method [Microsoft TV Technologies],IBDA_SignalProperties interface, bdaiface/IBDA_SignalProperties::PutNetworkType, mstv.ibda_signalproperties_putnetworktype
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_SignalProperties.PutNetworkType
 dev_langs:

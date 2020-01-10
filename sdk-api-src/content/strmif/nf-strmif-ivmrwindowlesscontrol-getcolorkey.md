@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e10f9e03-fbcd-4002-babc-fb028e399d72
 ms.date: 12/05/2018
 ms.keywords: GetColorKey, GetColorKey method [DirectShow], GetColorKey method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetColorKey method, IVMRWindowlessControl.GetColorKey, IVMRWindowlessControl::GetColorKey, IVMRWindowlessControlGetColorKey, dshow.ivmrwindowlesscontrol_getcolorkey, strmif/IVMRWindowlessControl::GetColorKey
-ms.topic: method
 f1_keywords:
 - strmif/IVMRWindowlessControl.GetColorKey
 dev_langs:

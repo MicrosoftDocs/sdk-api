@@ -3,7 +3,6 @@ UID: NS:wtypes.tagDEC~r1
 title: DECIMAL
 ms.date: 01/30/19
 ms.keywords: tagDEC, DECIMAL
-ms.topic: language-reference
 f1_keywords:
 - wtypes/tagDEC
 dev_langs:

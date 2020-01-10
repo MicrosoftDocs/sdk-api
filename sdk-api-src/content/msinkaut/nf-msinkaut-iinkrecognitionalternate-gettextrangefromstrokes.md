@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: b481e356-0a3c-4437-9700-6d8badcb0b0b
 ms.date: 12/05/2018
 ms.keywords: GetTextRangeFromStrokes, GetTextRangeFromStrokes method [Tablet PC], GetTextRangeFromStrokes method [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],GetTextRangeFromStrokes method, IInkRecognitionAlternate.GetTextRangeFromStrokes, IInkRecognitionAlternate::GetTextRangeFromStrokes, b481e356-0a3c-4437-9700-6d8badcb0b0b, msinkaut/IInkRecognitionAlternate::GetTextRangeFromStrokes, tablet.iinkrecognitionalternate_gettextrangefromstrokes
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkRecognitionAlternate.GetTextRangeFromStrokes
 dev_langs:

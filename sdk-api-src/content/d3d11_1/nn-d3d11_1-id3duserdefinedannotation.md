@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 255DE24B-3D6D-49D9-B6A8-D296AB99B4C9
 ms.date: 12/05/2018
 ms.keywords: ID3DUserDefinedAnnotation, ID3DUserDefinedAnnotation interface [Direct3D 11], ID3DUserDefinedAnnotation interface [Direct3D 11],described, d3d11_1/ID3DUserDefinedAnnotation, direct3d11.id3duserdefinedannotation
-ms.topic: interface
 f1_keywords:
 - d3d11_1/ID3DUserDefinedAnnotation
 dev_langs:

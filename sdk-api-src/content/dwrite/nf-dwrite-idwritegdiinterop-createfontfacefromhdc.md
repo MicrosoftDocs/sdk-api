@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 583acf9a-2982-4491-bc57-8cf6bfc98598
 ms.date: 12/05/2018
 ms.keywords: CreateFontFaceFromHdc, CreateFontFaceFromHdc method [Direct Write], CreateFontFaceFromHdc method [Direct Write],IDWriteGdiInterop interface, IDWriteGdiInterop interface [Direct Write],CreateFontFaceFromHdc method, IDWriteGdiInterop.CreateFontFaceFromHdc, IDWriteGdiInterop::CreateFontFaceFromHdc, directwrite.IDWriteGdiInterop_CreateFontFaceFromHdc, dwrite/IDWriteGdiInterop::CreateFontFaceFromHdc
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteGdiInterop.CreateFontFaceFromHdc
 dev_langs:

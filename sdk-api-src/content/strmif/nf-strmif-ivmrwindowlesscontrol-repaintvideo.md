@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 16ef3bc1-1781-44f7-a997-ae9b1b3c405c
 ms.date: 12/05/2018
 ms.keywords: IVMRWindowlessControl interface [DirectShow],RepaintVideo method, IVMRWindowlessControl.RepaintVideo, IVMRWindowlessControl::RepaintVideo, IVMRWindowlessControlRepaintVideo, RepaintVideo, RepaintVideo method [DirectShow], RepaintVideo method [DirectShow],IVMRWindowlessControl interface, dshow.ivmrwindowlesscontrol_repaintvideo, strmif/IVMRWindowlessControl::RepaintVideo
-ms.topic: method
 f1_keywords:
 - strmif/IVMRWindowlessControl.RepaintVideo
 dev_langs:

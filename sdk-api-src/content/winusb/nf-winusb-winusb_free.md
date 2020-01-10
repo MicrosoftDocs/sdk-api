@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 0f453364-fb2b-4b29-a96d-37c1d0d22608
 ms.date: 12/05/2018
 ms.keywords: WinUsb_Free, WinUsb_Free function [Buses], buses.winusb_free, winusb/WinUsb_Free, winusbfunc_5364f078-34b5-4844-ab20-60e601f036b9.xml
-ms.topic: function
 f1_keywords:
 - winusb/WinUsb_Free
 dev_langs:

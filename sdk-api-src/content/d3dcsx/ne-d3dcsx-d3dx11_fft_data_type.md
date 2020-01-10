@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: a9e2cf90-cef0-44af-9863-f8f742673950
 ms.date: 12/05/2018
 ms.keywords: 76576b3e-407c-57fa-1de1-b8b141dba30d, D3DX11_FFT_DATA_TYPE, D3DX11_FFT_DATA_TYPE enumeration [Direct3D 11], D3DX11_FFT_DATA_TYPE_COMPLEX, D3DX11_FFT_DATA_TYPE_REAL, d3dcsx/D3DX11_FFT_DATA_TYPE, d3dcsx/D3DX11_FFT_DATA_TYPE_COMPLEX, d3dcsx/D3DX11_FFT_DATA_TYPE_REAL, direct3d11.d3dx11_fft_data_type
-ms.topic: enum
 f1_keywords:
 - d3dcsx/D3DX11_FFT_DATA_TYPE
 dev_langs:

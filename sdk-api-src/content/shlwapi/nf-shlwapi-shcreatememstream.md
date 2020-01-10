@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f3ae8241-f3a6-4007-a10f-ff05960c5de8
 ms.date: 12/05/2018
 ms.keywords: SHCreateMemStream, SHCreateMemStream function [Windows Shell], _win32_SHCreateMemStream, shell.SHCreateMemStream, shlwapi/SHCreateMemStream
-ms.topic: function
 f1_keywords:
 - shlwapi/SHCreateMemStream
 dev_langs:

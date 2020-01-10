@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 1EE62E60-629A-4D3B-A8CD-C0D9D9FBCB93
 ms.date: 12/5/2018
 ms.keywords: GetParentDevice, GetParentDevice method, GetParentDevice method,IDMLDevice interface, IDMLDevice interface,GetParentDevice method, IDMLDevice.GetParentDevice, IDMLDevice::GetParentDevice, direct3d12.idmldevice_getparentdevice, directml/IDMLDevice::GetParentDevice
-ms.topic: method
 f1_keywords:
 - directml/IDMLDevice.GetParentDevice
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 2eceda3b-b3d6-4714-85c5-ec8bb0986b6f
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],TimeHole method, IMSVidStreamBufferV2SourceEvent.TimeHole, IMSVidStreamBufferV2SourceEvent::TimeHole, TimeHole, TimeHole method [Microsoft TV Technologies], TimeHole method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, mstv.imsvidstreambufferv2sourceevent_timehole, segment/IMSVidStreamBufferV2SourceEvent::TimeHole
-ms.topic: method
 f1_keywords:
 - segment/IMSVidStreamBufferV2SourceEvent.TimeHole
 dev_langs:

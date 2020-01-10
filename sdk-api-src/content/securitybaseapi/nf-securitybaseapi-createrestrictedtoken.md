@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: e087f360-5d1d-4846-b3d6-214a426e5222
 ms.date: 12/05/2018
 ms.keywords: CreateRestrictedToken, CreateRestrictedToken function [Security], DISABLE_MAX_PRIVILEGE, LUA_TOKEN, SANDBOX_INERT, WRITE_RESTRICTED, _win32_createrestrictedtoken, security.createrestrictedtoken, securitybaseapi/CreateRestrictedToken
-ms.topic: function
 f1_keywords:
 - securitybaseapi/CreateRestrictedToken
 dev_langs:

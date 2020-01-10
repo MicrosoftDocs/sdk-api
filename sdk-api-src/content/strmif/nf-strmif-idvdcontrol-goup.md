@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 2a553a5f-f221-4161-95f1-cb1629abb87a
 ms.date: 12/05/2018
 ms.keywords: GoUp, GoUp method [DirectShow], GoUp method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],GoUp method, IDvdControl.GoUp, IDvdControl::GoUp, IDvdControlGoUp, dshow.idvdcontrol_goup, strmif/IDvdControl::GoUp
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.GoUp
 dev_langs:

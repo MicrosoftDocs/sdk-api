@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 61da742b-d8cd-48db-a9b7-c754b8963907
 ms.date: 12/05/2018
 ms.keywords: IComTrackingInfoCollection interface [COM+],Item method, IComTrackingInfoCollection.Item, IComTrackingInfoCollection::Item, Item, Item method [COM+], Item method [COM+],IComTrackingInfoCollection interface, _dtc_IComTrackingInfoCollection_Item, comsvcs/IComTrackingInfoCollection::Item, cos.icomtrackinginfocollection_item
-ms.topic: method
 f1_keywords:
 - comsvcs/IComTrackingInfoCollection.Item
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: e9f2e203-bbfb-4b27-b9ca-ab6b6ea1e60f
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_ENUM_RESOURCES_EX, PRESUTIL_ENUM_RESOURCES_EX function [Failover Cluster], ResUtilEnumResourcesEx, ResUtilEnumResourcesEx function [Failover Cluster], _wolf_resutilenumresourcesex, mscs.resutilenumresourcesex, resapi/PRESUTIL_ENUM_RESOURCES_EX, resapi/ResUtilEnumResourcesEx
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilEnumResourcesEx
 dev_langs:

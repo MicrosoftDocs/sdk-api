@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 9576a2a7-4379-4c1b-8ad5-284720cf7ccc
 ms.date: 12/05/2018
 ms.keywords: CryptEncodeObject, CryptEncodeObject function [Security], _crypto2_cryptencodeobject, security.cryptencodeobject, wincrypt/CryptEncodeObject
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptEncodeObject
 dev_langs:

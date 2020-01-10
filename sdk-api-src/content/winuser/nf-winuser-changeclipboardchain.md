@@ -7,7 +7,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\changeclipboardchain.htm
 ms.date: 12/05/2018
 ms.keywords: ChangeClipboardChain, ChangeClipboardChain function [Data Exchange], _win32_ChangeClipboardChain, _win32_changeclipboardchain_cpp, dataxchg.changeclipboardchain, winui._win32_changeclipboardchain, winuser/ChangeClipboardChain
-ms.topic: function
 f1_keywords:
 - winuser/ChangeClipboardChain
 dev_langs:

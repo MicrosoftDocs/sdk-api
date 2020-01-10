@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: dd456988-ec9d-4e62-a93f-753ac08a18d9
 ms.date: 12/05/2018
 ms.keywords: ScriptPlaceOpenType, ScriptPlaceOpenType function [Internationalization for Windows Applications], _win32_ScriptPlaceOpenType, intl.scriptplaceopentype, usp10/ScriptPlaceOpenType
-ms.topic: function
 f1_keywords:
 - usp10/ScriptPlaceOpenType
 dev_langs:

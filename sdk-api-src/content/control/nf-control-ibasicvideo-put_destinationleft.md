@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 718fcc07-1e37-4e37-ab99-39f629e65309
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],put_DestinationLeft method, IBasicVideo.put_DestinationLeft, IBasicVideo::put_DestinationLeft, IBasicVideoput_DestinationLeft, control/IBasicVideo::put_DestinationLeft, dshow.ibasicvideo_put_destinationleft, put_DestinationLeft, put_DestinationLeft method [DirectShow], put_DestinationLeft method [DirectShow],IBasicVideo interface
-ms.topic: method
 f1_keywords:
 - control/IBasicVideo.put_DestinationLeft
 dev_langs:

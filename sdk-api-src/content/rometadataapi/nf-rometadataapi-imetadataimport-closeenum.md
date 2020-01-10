@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 3495afdf-ca88-4967-b7b3-6320114b9c50
 ms.date: 12/05/2018
 ms.keywords: CloseEnum, CloseEnum method [Windows Runtime], CloseEnum method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],CloseEnum method, IMetaDataImport.CloseEnum, IMetaDataImport::CloseEnum, rometadataapi/IMetaDataImport::CloseEnum, winrt.imetadataimport_closeenum
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataImport.CloseEnum
 dev_langs:

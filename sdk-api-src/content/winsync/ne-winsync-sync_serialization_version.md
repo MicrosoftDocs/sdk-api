@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 840a1f5e-56f7-4774-a154-0dab66c3d407
 ms.date: 12/05/2018
 ms.keywords: SYNC_SERIALIZATION_VERSION, SYNC_SERIALIZATION_VERSION enumeration [Windows Sync], SYNC_SERIALIZATION_VERSION_V1, SYNC_SERIALIZATION_VERSION_V2, winsync.sync_serialization_version, winsync/SYNC_SERIALIZATION_VERSION, winsync/SYNC_SERIALIZATION_VERSION_V1, winsync/SYNC_SERIALIZATION_VERSION_V2
-ms.topic: enum
 f1_keywords:
 - winsync/SYNC_SERIALIZATION_VERSION
 dev_langs:

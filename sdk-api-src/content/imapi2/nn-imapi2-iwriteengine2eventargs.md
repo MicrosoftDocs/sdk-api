@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 1922410a-5871-477f-b778-36b12ad95168
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2EventArgs, IWriteEngine2EventArgs interface [IMAPI], IWriteEngine2EventArgs interface [IMAPI],described, imapi.iwriteengine2eventargs, imapi2/IWriteEngine2EventArgs
-ms.topic: interface
 f1_keywords:
 - imapi2/IWriteEngine2EventArgs
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 0311bd92-3b12-46bc-a21d-13bd57a2c545
 ms.date: 12/05/2018
 ms.keywords: RoRevokeActivationFactories, RoRevokeActivationFactories function [Windows Runtime], WinRTRevokeActivationFactories, roapi/RoRevokeActivationFactories, roapi/WinRTRevokeActivationFactories, winrt.rorevokeactivationfactories, winrt.winrtrevokeactivationfactories
-ms.topic: function
 f1_keywords:
 - roapi/RoRevokeActivationFactories
 dev_langs:

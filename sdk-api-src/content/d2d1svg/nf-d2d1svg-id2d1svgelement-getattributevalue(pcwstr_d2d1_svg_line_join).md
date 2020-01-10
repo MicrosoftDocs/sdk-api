@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: F7B2E7B0-CCDE-4B37-93F7-5DBA83AE9191
 ms.date: 12/05/2018
 ms.keywords: GetAttributeValue, GetAttributeValue method [Direct2D], GetAttributeValue method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetAttributeValue method, ID2D1SvgElement.GetAttributeValue, ID2D1SvgElement.GetAttributeValue(PCWSTR,D2D1_SVG_LINE_JOIN), ID2D1SvgElement::GetAttributeValue, ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_LINE_JOIN), d2d1svg/ID2D1SvgElement::GetAttributeValue, direct2d.id2d1svgelement_getattributevalue_9
-ms.topic: method
 f1_keywords:
 - d2d1svg/ID2D1SvgElement.GetAttributeValue
 dev_langs:

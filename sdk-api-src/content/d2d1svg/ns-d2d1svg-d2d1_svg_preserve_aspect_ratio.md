@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 3DA4DEBF-ACCE-4F43-9C75-DF32A2F88ACD
 ms.date: 12/05/2018
 ms.keywords: D2D1_SVG_PRESERVE_ASPECT_RATIO, D2D1_SVG_PRESERVE_ASPECT_RATIO structure [Direct2D], d2d1svg/D2D1_SVG_PRESERVE_ASPECT_RATIO, direct2d.d2d1_svg_preserve_aspect_ratio
-ms.topic: struct
 f1_keywords:
 - d2d1svg/D2D1_SVG_PRESERVE_ASPECT_RATIO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 3cfc27a4-fe43-4e47-b857-7c80e8ee0dd5
 ms.date: 12/05/2018
 ms.keywords: INetSharingPortMapping interface [ICS/ICF],get_Properties method, INetSharingPortMapping.get_Properties, INetSharingPortMapping::get_Properties, _ics_inetsharingportmapping_get_properties, get_Properties, get_Properties method [ICS/ICF], get_Properties method [ICS/ICF],INetSharingPortMapping interface, ics.inetsharingportmapping_get_properties, netcon/INetSharingPortMapping::get_Properties
-ms.topic: method
 f1_keywords:
 - netcon/INetSharingPortMapping.get_Properties
 dev_langs:

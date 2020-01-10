@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 36f9f126-361f-448a-a464-ffef1de25d26
 ms.date: 12/05/2018
 ms.keywords: FDS_NOTSUPPORTED, FDS_SUPPORTED, FDS_UNKNOWN, FULLDUPLEX_SUPPORT, FULLDUPLEX_SUPPORT enumeration [TAPI 2.2], _tapi3_fullduplex_support, tapi3.fullduplex_support, tapi3if/FDS_NOTSUPPORTED, tapi3if/FDS_SUPPORTED, tapi3if/FDS_UNKNOWN, tapi3if/FULLDUPLEX_SUPPORT
-ms.topic: enum
 f1_keywords:
 - tapi3if/FULLDUPLEX_SUPPORT
 dev_langs:

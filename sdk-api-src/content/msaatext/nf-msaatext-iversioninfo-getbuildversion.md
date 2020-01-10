@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: ae54ad59-665c-494c-8054-3f19aec9968f
 ms.date: 12/05/2018
 ms.keywords: GetBuildVersion, GetBuildVersion method [Windows Accessibility], GetBuildVersion method [Windows Accessibility],IVersionInfo interface, IVersionInfo interface [Windows Accessibility],GetBuildVersion method, IVersionInfo.GetBuildVersion, IVersionInfo::GetBuildVersion, _msaa_IVersionInfo_GetBuildVersion, msaa.iversioninfo_iversioninfo__getbuildversion, msaatext/IVersionInfo::GetBuildVersion, winauto.iversioninfo_iversioninfo__getbuildversion
-ms.topic: method
 f1_keywords:
 - msaatext/IVersionInfo.GetBuildVersion
 dev_langs:

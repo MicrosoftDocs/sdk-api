@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 9de0b04d-96be-4c93-b7af-09200fdcf807
 ms.date: 12/05/2018
 ms.keywords: CM_Add_Empty_Log_Conf, CM_Add_Empty_Log_Conf function [Device and Driver Installation], cfgmgr32/CM_Add_Empty_Log_Conf, cfgmgrfn_91cca29b-dad4-43a7-882c-0cc465811429.xml, devinst.cm_add_empty_log_conf
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Add_Empty_Log_Conf
 dev_langs:

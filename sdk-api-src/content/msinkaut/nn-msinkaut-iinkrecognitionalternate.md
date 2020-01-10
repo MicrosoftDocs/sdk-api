@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 219e96ee-6492-4f76-9928-f2e8dc28493d
 ms.date: 12/05/2018
 ms.keywords: 219e96ee-6492-4f76-9928-f2e8dc28493d, IInkRecognitionAlternate, IInkRecognitionAlternate interface [Tablet PC], IInkRecognitionAlternate interface [Tablet PC],described, msinkaut/IInkRecognitionAlternate, tablet.iinkrecognitionalternate
-ms.topic: interface
 f1_keywords:
 - msinkaut/IInkRecognitionAlternate
 dev_langs:

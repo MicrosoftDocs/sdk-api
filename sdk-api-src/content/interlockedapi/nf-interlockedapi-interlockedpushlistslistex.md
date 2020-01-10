@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: f4f334c6-fda8-4c5f-9177-b672c8aed6b3
 ms.date: 12/05/2018
 ms.keywords: InterlockedPushListSListEx, InterlockedPushListSListEx function, base.interlockedpushlistslistex, interlockedapi/InterlockedPushListSListEx
-ms.topic: function
 f1_keywords:
 - interlockedapi/InterlockedPushListSListEx
 dev_langs:

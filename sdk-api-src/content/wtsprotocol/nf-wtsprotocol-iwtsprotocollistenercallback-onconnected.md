@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 0874c394-6260-4ac1-b5a8-27879f562e19
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolListenerCallback interface [Remote Desktop Services],OnConnected method, IWTSProtocolListenerCallback.OnConnected, IWTSProtocolListenerCallback::OnConnected, OnConnected, OnConnected method [Remote Desktop Services], OnConnected method [Remote Desktop Services],IWTSProtocolListenerCallback interface, termserv.iwtsprotocollistenercallback_onconnected, wtsprotocol/IWTSProtocolListenerCallback::OnConnected
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolListenerCallback.OnConnected
 dev_langs:

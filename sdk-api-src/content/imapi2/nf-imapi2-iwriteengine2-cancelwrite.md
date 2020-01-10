@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: cd658bd3-71ab-4e63-adec-8b7405a76c12
 ms.date: 12/05/2018
 ms.keywords: CancelWrite, CancelWrite method [IMAPI], CancelWrite method [IMAPI],IWriteEngine2 interface, IWriteEngine2 interface [IMAPI],CancelWrite method, IWriteEngine2.CancelWrite, IWriteEngine2::CancelWrite, imapi.iwriteengine2_cancelwrite, imapi2/IWriteEngine2::CancelWrite
-ms.topic: method
 f1_keywords:
 - imapi2/IWriteEngine2.CancelWrite
 dev_langs:

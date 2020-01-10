@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3bs5.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],RecipientTitle property, IFaxDoc.RecipientTitle, IFaxDoc.get_RecipientTitle, IFaxDoc::RecipientTitle, IFaxDoc::get_RecipientTitle, IFaxDoc::put_RecipientTitle, RecipientTitle property [Fax Service], RecipientTitle property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_recipienttitle, fax._mfax_ifaxdoc_get_recipienttitle, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipienttitle_cpp, faxcom/IFaxDoc::RecipientTitle, faxcom/IFaxDoc::get_RecipientTitle, faxcom/IFaxDoc::put_RecipientTitle, get_RecipientTitle
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxDoc.RecipientTitle
 dev_langs:

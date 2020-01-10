@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: E48E4D01-DED2-4FB0-AD5A-EE1496ACF025
 ms.date: 12/05/2018
 ms.keywords: D3D12_DISPATCH_ARGUMENTS, D3D12_DISPATCH_ARGUMENTS structure, d3d12/D3D12_DISPATCH_ARGUMENTS, direct3d12.d3d12_dispatch_arguments
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_DISPATCH_ARGUMENTS
 dev_langs:

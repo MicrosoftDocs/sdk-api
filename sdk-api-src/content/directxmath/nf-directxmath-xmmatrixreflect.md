@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixReflect(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixReflect, XMMatrixReflect, XMMatrixReflect method [DirectX Math Support APIs], dxmath.xmmatrixreflect
-ms.topic: function
 f1_keywords:
 - directxmath/XMMatrixReflect
 dev_langs:

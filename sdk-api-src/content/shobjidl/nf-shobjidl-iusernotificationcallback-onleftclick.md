@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0202aace-94d6-4619-8838-eea0b174ffb6
 ms.date: 12/05/2018
 ms.keywords: IUserNotificationCallback interface [Windows Shell],OnLeftClick method, IUserNotificationCallback.OnLeftClick, IUserNotificationCallback::OnLeftClick, OnLeftClick, OnLeftClick method [Windows Shell], OnLeftClick method [Windows Shell],IUserNotificationCallback interface, _shell_IUserNotificationCallback_OnLeftClick, shell.IUserNotificationCallback_OnLeftClick, shobjidl/IUserNotificationCallback::OnLeftClick
-ms.topic: method
 f1_keywords:
 - shobjidl/IUserNotificationCallback.OnLeftClick
 dev_langs:

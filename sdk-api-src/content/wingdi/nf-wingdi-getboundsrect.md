@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 139d4550-9adc-48b3-a15c-03ae1f1ef1ab
 ms.date: 12/05/2018
 ms.keywords: DCB_RESET, GetBoundsRect, GetBoundsRect function [Windows GDI], _win32_GetBoundsRect, gdi.getboundsrect, wingdi/GetBoundsRect
-ms.topic: function
 f1_keywords:
 - wingdi/GetBoundsRect
 dev_langs:

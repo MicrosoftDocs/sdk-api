@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 6e6c7090-edf4-46a3-8bcd-10a00c0cf847
 ms.date: 12/05/2018
 ms.keywords: GetViewportOrgEx, GetViewportOrgEx function [Windows GDI], _win32_GetViewportOrgEx, gdi.getviewportorgex, wingdi/GetViewportOrgEx
-ms.topic: function
 f1_keywords:
 - wingdi/GetViewportOrgEx
 dev_langs:

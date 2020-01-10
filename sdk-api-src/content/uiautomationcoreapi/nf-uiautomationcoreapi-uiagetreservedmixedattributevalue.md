@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 597ace91-197a-4cda-9386-78c6e429871b
 ms.date: 12/05/2018
 ms.keywords: UiaGetReservedMixedAttributeValue, UiaGetReservedMixedAttributeValue function [Windows Accessibility], uiauto.uiauto_UiaGetReservedMixedAttributeValueAutoMeth, uiauto_UiaGetReservedMixedAttributeValueAutoMeth, uiautomationcoreapi/UiaGetReservedMixedAttributeValue, winauto.uiauto_UiaGetReservedMixedAttributeValueAutoMeth
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/UiaGetReservedMixedAttributeValue
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadInt3A(const VOID)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadInt3A, XMLoadInt3A, XMLoadInt3A method [DirectX Math Support APIs], dxmath.xmloadint3a
-ms.topic: function
 f1_keywords:
 - directxmath/XMLoadInt3A
 dev_langs:

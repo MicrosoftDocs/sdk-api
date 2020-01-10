@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 6442977d-e980-419e-abe9-9d15dbb045c1
 ms.date: 12/05/2018
 ms.keywords: All other values of stgfmt, STGFMT_DOCFILE, StgCreateStorageEx, StgCreateStorageEx function [Structured Storage], _stg_stgcreatestorageex, coml2api/StgCreateStorageEx, stg.stgcreatestorageex
-ms.topic: function
 f1_keywords:
 - coml2api/StgCreateStorageEx
 dev_langs:

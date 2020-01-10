@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: a1083cb5-5e6c-4134-badf-9fc5142d1453
 ms.date: 12/05/2018
 ms.keywords: FrameRect, FrameRect function [Windows GDI], _win32_FrameRect, gdi.framerect, winuser/FrameRect
-ms.topic: function
 f1_keywords:
 - winuser/FrameRect
 dev_langs:

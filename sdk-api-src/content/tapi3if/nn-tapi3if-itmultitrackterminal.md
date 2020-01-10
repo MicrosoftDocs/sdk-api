@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: c9e5d8a4-78a6-4449-9c11-c780e72ab925
 ms.date: 12/05/2018
 ms.keywords: ITMultiTrackTerminal, ITMultiTrackTerminal interface [TAPI 2.2], ITMultiTrackTerminal interface [TAPI 2.2],described, _tapi3_itmultitrackterminal, tapi3.itmultitrackterminal, tapi3if/ITMultiTrackTerminal
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITMultiTrackTerminal
 dev_langs:

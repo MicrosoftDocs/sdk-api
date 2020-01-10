@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: A3CB19E9-634D-4023-926E-BAA717DE4528
 ms.date: 12/05/2018
 ms.keywords: GetCachedGrabbedItems, GetCachedGrabbedItems method [Windows Accessibility], GetCachedGrabbedItems method [Windows Accessibility],IUIAutomationDragPattern interface, IUIAutomationDragPattern interface [Windows Accessibility],GetCachedGrabbedItems method, IUIAutomationDragPattern.GetCachedGrabbedItems, IUIAutomationDragPattern::GetCachedGrabbedItems, uiautomationclient/IUIAutomationDragPattern::GetCachedGrabbedItems, winauto.uiauto_iuiautomationdragpattern_getcachedgrabbeditems
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationDragPattern.GetCachedGrabbedItems
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: ed94977e-e930-4045-a69d-36109e7e21c9
 ms.date: 12/05/2018
 ms.keywords: IWMSyncReader2 interface [windows Media Format],SetAllocateForStream method, IWMSyncReader2.SetAllocateForStream, IWMSyncReader2::SetAllocateForStream, IWMSyncReader2SetAllocateForStream, SetAllocateForStream, SetAllocateForStream method [windows Media Format], SetAllocateForStream method [windows Media Format],IWMSyncReader2 interface, wmformat.iwmsyncreader2_setallocateforstream, wmsdkidl/IWMSyncReader2::SetAllocateForStream
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMSyncReader2.SetAllocateForStream
 dev_langs:

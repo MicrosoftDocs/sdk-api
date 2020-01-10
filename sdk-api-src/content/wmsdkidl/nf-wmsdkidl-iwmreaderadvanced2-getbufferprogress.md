@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: e0419f53-9962-4d81-9153-0538c60861eb
 ms.date: 12/05/2018
 ms.keywords: GetBufferProgress, GetBufferProgress method [windows Media Format], GetBufferProgress method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetBufferProgress method, IWMReaderAdvanced2.GetBufferProgress, IWMReaderAdvanced2::GetBufferProgress, IWMReaderAdvanced2GetBufferProgress, wmformat.iwmreaderadvanced2_getbufferprogress, wmsdkidl/IWMReaderAdvanced2::GetBufferProgress
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderAdvanced2.GetBufferProgress
 dev_langs:

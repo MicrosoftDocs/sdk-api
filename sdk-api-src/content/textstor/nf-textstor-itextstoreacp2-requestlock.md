@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 82254529-3deb-4e69-8571-3f8eaa533459
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],RequestLock method, ITextStoreACP2.RequestLock, ITextStoreACP2::RequestLock, RequestLock, RequestLock method [Text Services Framework], RequestLock method [Text Services Framework],ITextStoreACP2 interface, TS_LF_READ, TS_LF_READWRITE, TS_LF_SYNC, textstor/ITextStoreACP2::RequestLock, tsf.itextstoreacp2_requestlock
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreACP2.RequestLock
 dev_langs:

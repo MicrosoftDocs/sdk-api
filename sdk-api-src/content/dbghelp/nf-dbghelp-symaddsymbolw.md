@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 28405993-035f-4946-91c3-0e3e34fd8824
 ms.date: 12/05/2018
 ms.keywords: SymAddSymbol, SymAddSymbol function, SymAddSymbolW, _win32_symaddsymbol, base.symaddsymbol, dbghelp/SymAddSymbol, dbghelp/SymAddSymbolW
-ms.topic: function
 f1_keywords:
 - dbghelp/SymAddSymbol
 dev_langs:

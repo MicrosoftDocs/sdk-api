@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 4ece9a88-dc5e-4c5c-bf75-ad22a3d3cfb5
 ms.date: 12/05/2018
 ms.keywords: 4ece9a88-dc5e-4c5c-bf75-ad22a3d3cfb5, AttachedEditWindow property [Tablet PC], AttachedEditWindow property [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],AttachedEditWindow property, IPenInputPanel.AttachedEditWindow, IPenInputPanel.get_AttachedEditWindow, IPenInputPanel::AttachedEditWindow, IPenInputPanel::get_AttachedEditWindow, IPenInputPanel::put_AttachedEditWindow, PenInputPanel.get_AttachedEditWindow, PenInputPanel.put_AttachedEditWindow, get_AttachedEditWindow, peninputpanel/IPenInputPanel::AttachedEditWindow, peninputpanel/IPenInputPanel::get_AttachedEditWindow, peninputpanel/IPenInputPanel::put_AttachedEditWindow, put_AttachedEditWindow, tablet.peninputpanel_attachededitwindow
-ms.topic: method
 f1_keywords:
 - peninputpanel/IPenInputPanel.AttachedEditWindow
 dev_langs:

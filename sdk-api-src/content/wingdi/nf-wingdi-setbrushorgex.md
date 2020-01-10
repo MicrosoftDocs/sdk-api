@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: dcc7575a-49fd-4306-8baa-57e9e0d5ed1f
 ms.date: 12/05/2018
 ms.keywords: SetBrushOrgEx, SetBrushOrgEx function [Windows GDI], _win32_SetBrushOrgEx, gdi.setbrushorgex, wingdi/SetBrushOrgEx
-ms.topic: function
 f1_keywords:
 - wingdi/SetBrushOrgEx
 dev_langs:

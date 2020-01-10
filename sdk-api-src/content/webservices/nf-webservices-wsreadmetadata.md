@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 0b824948-e06d-482d-8d53-c4e27d1ecf0f
 ms.date: 12/05/2018
 ms.keywords: WsReadMetadata, WsReadMetadata function [Web Services for Windows], webservices/WsReadMetadata, wsw.wsreadmetadata
-ms.topic: function
 f1_keywords:
 - webservices/WsReadMetadata
 dev_langs:

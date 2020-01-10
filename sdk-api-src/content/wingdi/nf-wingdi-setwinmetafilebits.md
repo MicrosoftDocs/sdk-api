@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: b7170c8a-da5f-4946-9c56-da3cffc84567
 ms.date: 12/05/2018
 ms.keywords: SetWinMetaFileBits, SetWinMetaFileBits function [Windows GDI], _win32_SetWinMetaFileBits, gdi.setwinmetafilebits, wingdi/SetWinMetaFileBits
-ms.topic: function
 f1_keywords:
 - wingdi/SetWinMetaFileBits
 dev_langs:

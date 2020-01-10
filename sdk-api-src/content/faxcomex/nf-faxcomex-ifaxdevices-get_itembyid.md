@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4gmc.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxDevices interface [Fax Service],get_ItemById method, IFaxDevices.get_ItemById, IFaxDevices::get_ItemById, _mfax_faxdevices.itembyid, fax._mfax_faxdevices_itembyid, faxcomex/IFaxDevices::get_ItemById, get_ItemById, get_ItemById method [Fax Service], get_ItemById method [Fax Service],IFaxDevices interface
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxDevices.get_ItemById
 dev_langs:

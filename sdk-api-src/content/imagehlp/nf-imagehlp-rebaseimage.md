@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: b17eb5e6-38de-4baf-a958-189d8c4454af
 ms.date: 12/05/2018
 ms.keywords: ReBaseImage, ReBaseImage function, _win32_rebaseimage, base.rebaseimage, imagehlp/ReBaseImage
-ms.topic: function
 f1_keywords:
 - imagehlp/ReBaseImage
 dev_langs:

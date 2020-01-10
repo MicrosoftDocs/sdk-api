@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\hascurve.htm
 ms.date: 12/05/2018
 ms.keywords: GraphicsPathIterator class [GDI+],HasCurve method, GraphicsPathIterator.HasCurve, GraphicsPathIterator::HasCurve, HasCurve, HasCurve method [GDI+], HasCurve method [GDI+],GraphicsPathIterator class, _gdiplus_CLASS_GraphicsPathIterator_HasCurve_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_HasCurve_
-ms.topic: method
 f1_keywords:
 - gdipluspath/GraphicsPathIterator.HasCurve
 dev_langs:

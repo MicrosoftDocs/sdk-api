@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: EEDED20E-B1AC-4464-ABB5-C413E10B3E7E
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetAxisY method, IDCompositionRotateTransform3D.SetAxisY, IDCompositionRotateTransform3D::SetAxisY, IDCompositionRotateTransform3D::SetAxisY(float), SetAxisY, SetAxisY method [DirectComposition], SetAxisY method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetAxisY, directcomp.idcompositionrotatetransform3d_setaxisy_float
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionRotateTransform3D.SetAxisY
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 2e03b513-5c03-4436-99f8-3a6d3a45aff2
 ms.date: 12/05/2018
 ms.keywords: '*PPEB_LDR_DATA, PEB_LDR_DATA, PEB_LDR_DATA structure, PPEB_LDR_DATA, PPEB_LDR_DATA structure pointer, base.peb_ldr_data, winternl/PEB_LDR_DATA, winternl/PPEB_LDR_DATA'
-ms.topic: struct
 f1_keywords:
 - winternl/PEB_LDR_DATA
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\isemptyarea.htm
 ms.date: 12/05/2018
 ms.keywords: IsEmptyArea, IsEmptyArea method [GDI+], IsEmptyArea method [GDI+],Rect class, Rect class [GDI+],IsEmptyArea method, Rect.IsEmptyArea, Rect::IsEmptyArea, _gdiplus_CLASS_Rect_IsEmptyArea_, gdiplus._gdiplus_CLASS_Rect_IsEmptyArea_
-ms.topic: method
 f1_keywords:
 - gdiplustypes/Rect.IsEmptyArea
 dev_langs:

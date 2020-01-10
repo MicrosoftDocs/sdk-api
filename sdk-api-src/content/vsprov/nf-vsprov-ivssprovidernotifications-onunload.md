@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 5b9e0940-70b4-4913-9281-0347e60baa0d
 ms.date: 12/05/2018
 ms.keywords: IVssProviderNotifications interface [VSS],OnUnload method, IVssProviderNotifications.OnUnload, IVssProviderNotifications::OnUnload, OnUnload, OnUnload method [VSS], OnUnload method [VSS],IVssProviderNotifications interface, base.ivssprovidernotifications_onunload, vsprov/IVssProviderNotifications::OnUnload
-ms.topic: method
 f1_keywords:
 - vsprov/IVssProviderNotifications.OnUnload
 dev_langs:

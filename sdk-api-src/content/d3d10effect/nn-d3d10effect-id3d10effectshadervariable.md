@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectshadervariable.htm
 ms.date: 12/05/2018
 ms.keywords: 7e1a8b15-5ab3-8e81-cf9f-cb84e1a408ae, ID3D10EffectShaderVariable, ID3D10EffectShaderVariable interface [Direct3D 10], ID3D10EffectShaderVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectShaderVariable, direct3d10.id3d10effectshadervariable
-ms.topic: interface
 f1_keywords:
 - d3d10effect/ID3D10EffectShaderVariable
 dev_langs:

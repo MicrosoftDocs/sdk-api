@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 3399219f-96a5-4c66-8e41-89927ea1020d
 ms.date: 12/05/2018
 ms.keywords: 3399219f-96a5-4c66-8e41-89927ea1020d, Dirty property [Tablet PC], Dirty property [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],Dirty property, IInkDisp.Dirty, IInkDisp.get_Dirty, IInkDisp::Dirty, IInkDisp::get_Dirty, IInkDisp::put_Dirty, InkDisp.get_Dirty, InkDisp.put_Dirty, get_Dirty, msinkaut/IInkDisp::Dirty, msinkaut/IInkDisp::get_Dirty, msinkaut/IInkDisp::put_Dirty, put_Dirty, tablet.inkdisp_dirty
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkDisp.Dirty
 dev_langs:

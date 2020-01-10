@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 507888ad-4e3f-4e31-83c4-63a473eb7681
 ms.date: 12/05/2018
 ms.keywords: IWICPalette interface [Windows Imaging Component],InitializePredefined method, IWICPalette.InitializePredefined, IWICPalette::InitializePredefined, InitializePredefined, InitializePredefined method [Windows Imaging Component], InitializePredefined method [Windows Imaging Component],IWICPalette interface, _wic_codec_iwicpalette_initializepredefined, wic._wic_codec_iwicpalette_initializepredefined, wincodec/IWICPalette::InitializePredefined
-ms.topic: method
 f1_keywords:
 - wincodec/IWICPalette.InitializePredefined
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\colorscheme.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPCOLORSCHEME, COLORSCHEME, COLORSCHEME structure [Windows Controls], LPCOLORSCHEME, LPCOLORSCHEME structure pointer [Windows Controls], _win32_COLORSCHEME, _win32_COLORSCHEME_cpp, commctrl/COLORSCHEME, commctrl/LPCOLORSCHEME, controls.COLORSCHEME, controls._win32_COLORSCHEME'
-ms.topic: struct
 f1_keywords:
 - commctrl/COLORSCHEME
 dev_langs:

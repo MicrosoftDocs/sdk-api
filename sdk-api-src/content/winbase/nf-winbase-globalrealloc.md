@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 2439b16a-f27d-4e95-bc9e-6f1e563933c9
 ms.date: 12/05/2018
 ms.keywords: GMEM_MOVEABLE, GMEM_ZEROINIT, GlobalReAlloc, GlobalReAlloc function, _win32_globalrealloc, base.globalrealloc, winbase/GlobalReAlloc
-ms.topic: function
 f1_keywords:
 - winbase/GlobalReAlloc
 dev_langs:

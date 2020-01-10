@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 0e91b77c-e4dd-4e23-8af6-bf549168cfc5
 ms.date: 12/05/2018
 ms.keywords: POLICY_DATA, POLICY_DATA structure [QOS], lpmapi/POLICY_DATA, qos.policy_data
-ms.topic: struct
 f1_keywords:
 - lpmapi/POLICY_DATA
 dev_langs:

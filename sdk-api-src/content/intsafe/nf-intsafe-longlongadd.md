@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b3010519-583e-4341-a673-9cc97a6f4232
 ms.date: 12/05/2018
 ms.keywords: LongLongAdd, LongLongAdd function [Windows Shell], intsafe/LongLongAdd, shell.LongLongAdd
-ms.topic: function
 f1_keywords:
 - intsafe/LongLongAdd
 dev_langs:

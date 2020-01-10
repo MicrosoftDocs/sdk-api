@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 7f84e38e-f0e8-4cf7-bad0-d41f24ce9499
 ms.date: 12/05/2018
 ms.keywords: GetCurrentTransform, GetCurrentTransform method [Direct Write], GetCurrentTransform method [Direct Write],IDWriteBitmapRenderTarget interface, IDWriteBitmapRenderTarget interface [Direct Write],GetCurrentTransform method, IDWriteBitmapRenderTarget.GetCurrentTransform, IDWriteBitmapRenderTarget::GetCurrentTransform, directwrite.IDWriteBitmapRenderTarget_GetCurrentTransform, dwrite/IDWriteBitmapRenderTarget::GetCurrentTransform
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteBitmapRenderTarget.GetCurrentTransform
 dev_langs:

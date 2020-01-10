@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: eb0d15c0-8a34-4211-b840-29d5862cf767
 ms.date: 12/05/2018
 ms.keywords: IPrint, IPrint interface [COM], IPrint interface [COM],described, _ctrl_iprint, com.iprint, docobj/IPrint
-ms.topic: interface
 f1_keywords:
 - docobj/IPrint
 dev_langs:

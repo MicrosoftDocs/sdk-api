@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: c3c4f0a1-eff5-4e83-8a1d-16e007bd119a
 ms.date: 12/05/2018
 ms.keywords: IVssSnapshotMgmt interface [VSS],QueryVolumesSupportedForSnapshots method, IVssSnapshotMgmt.QueryVolumesSupportedForSnapshots, IVssSnapshotMgmt::QueryVolumesSupportedForSnapshots, QueryVolumesSupportedForSnapshots, QueryVolumesSupportedForSnapshots method [VSS], QueryVolumesSupportedForSnapshots method [VSS],IVssSnapshotMgmt interface, base.ivsssnapshotmgmt_queryvolumessupportedforsnapshots, vsmgmt/IVssSnapshotMgmt::QueryVolumesSupportedForSnapshots
-ms.topic: method
 f1_keywords:
 - vsmgmt/IVssSnapshotMgmt.QueryVolumesSupportedForSnapshots
 dev_langs:

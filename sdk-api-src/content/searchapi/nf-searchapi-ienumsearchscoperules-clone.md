@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchscoperules\clone.htm
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [search], Clone method [search],IEnumSearchScopeRules interface, IEnumSearchScopeRules interface [search],Clone method, IEnumSearchScopeRules.Clone, IEnumSearchScopeRules::Clone, _search_IEnumSearchScopeRules_Clone, search._search_IEnumSearchScopeRules_Clone, searchapi/IEnumSearchScopeRules::Clone
-ms.topic: method
 f1_keywords:
 - searchapi/IEnumSearchScopeRules.Clone
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: f18d8b16-ffe1-49f1-98be-ba8d49db86ef
 ms.date: 12/05/2018
 ms.keywords: FatalAppExit, FatalAppExit function, FatalAppExitA, FatalAppExitW, _win32_fatalappexit, base.fatalappexit, errhandlingapi/FatalAppExit, errhandlingapi/FatalAppExitA, errhandlingapi/FatalAppExitW
-ms.topic: function
 f1_keywords:
 - errhandlingapi/FatalAppExit
 dev_langs:

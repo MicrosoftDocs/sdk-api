@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: 22664B9A-5010-42E7-880B-8D5B16A9F2DC
 ms.date: 12/05/2018
 ms.keywords: DnsQueryEx, DnsQueryEx function [DNS], dns.dnsqueryex, windns/DnsQueryEx
-ms.topic: function
 f1_keywords:
 - windns/DnsQueryEx
 dev_langs:

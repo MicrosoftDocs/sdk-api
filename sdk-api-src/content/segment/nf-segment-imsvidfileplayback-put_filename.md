@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 1055a053-28d3-470f-aff5-ade71eebc809
 ms.date: 12/05/2018
 ms.keywords: IMSVidFilePlayback interface [Microsoft TV Technologies],put_FileName method, IMSVidFilePlayback.put_FileName, IMSVidFilePlayback::put_FileName, IMSVidFilePlaybackput_FileName, mstv.imsvidfileplayback_put_filename, put_FileName, put_FileName method [Microsoft TV Technologies], put_FileName method [Microsoft TV Technologies],IMSVidFilePlayback interface, segment/IMSVidFilePlayback::put_FileName
-ms.topic: method
 f1_keywords:
 - segment/IMSVidFilePlayback.put_FileName
 dev_langs:

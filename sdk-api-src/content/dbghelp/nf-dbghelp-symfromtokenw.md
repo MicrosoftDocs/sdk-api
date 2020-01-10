@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: ecef5213-9301-4ca0-852c-1e6be0d7b2a5
 ms.date: 12/05/2018
 ms.keywords: SymFromToken, SymFromToken function, SymFromTokenW, base.symfromtoken, dbghelp/SymFromToken, dbghelp/SymFromTokenW
-ms.topic: function
 f1_keywords:
 - dbghelp/SymFromToken
 dev_langs:

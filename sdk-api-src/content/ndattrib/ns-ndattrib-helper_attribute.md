@@ -7,7 +7,6 @@ tech.root: NDF
 ms.assetid: bff9303e-7fab-49af-b213-aa0a9c83676e
 ms.date: 12/05/2018
 ms.keywords: '*PHELPER_ATTRIBUTE, HELPER_ATTRIBUTE, HELPER_ATTRIBUTE structure [NDF], ndattrib/HELPER_ATTRIBUTE, ndf.helper_attribute'
-ms.topic: struct
 f1_keywords:
 - ndattrib/HELPER_ATTRIBUTE
 dev_langs:

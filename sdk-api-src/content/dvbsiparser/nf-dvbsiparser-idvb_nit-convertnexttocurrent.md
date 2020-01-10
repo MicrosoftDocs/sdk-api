@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 068f5dd8-f0fc-4d34-a49c-91cedb7bf7e7
 ms.date: 12/05/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],ConvertNextToCurrent method, IDVB_NIT.ConvertNextToCurrent, IDVB_NIT::ConvertNextToCurrent, IDVB_NITConvertNextToCurrent, dvbsiparser/IDVB_NIT::ConvertNextToCurrent, mstv.idvb_nit_convertnexttocurrent
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDVB_NIT.ConvertNextToCurrent
 dev_langs:

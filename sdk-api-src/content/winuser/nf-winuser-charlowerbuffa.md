@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charlowerbuff.htm
 ms.date: 12/05/2018
 ms.keywords: CharLowerBuff, CharLowerBuff function [Menus and Other Resources], CharLowerBuffA, CharLowerBuffW, _win32_CharLowerBuff, _win32_charlowerbuff_cpp, menurc.charlowerbuff, winui._win32_charlowerbuff, winuser/CharLowerBuff, winuser/CharLowerBuffA, winuser/CharLowerBuffW
-ms.topic: function
 f1_keywords:
 - winuser/CharLowerBuff
 dev_langs:

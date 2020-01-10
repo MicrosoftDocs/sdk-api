@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 5fdad296-5024-4360-b1c5-f0192929c612
 ms.date: 12/05/2018
 ms.keywords: WsAddErrorString, WsAddErrorString function [Web Services for Windows], webservices/WsAddErrorString, wsw.wsadderrorstring
-ms.topic: function
 f1_keywords:
 - webservices/WsAddErrorString
 dev_langs:

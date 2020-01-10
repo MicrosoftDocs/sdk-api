@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8e2af85f-5eca-46e4-b193-bf25e2366fac
 ms.date: 12/05/2018
 ms.keywords: IFileSystemBindData interface [Windows Shell],SetFindData method, IFileSystemBindData.SetFindData, IFileSystemBindData::SetFindData, SetFindData, SetFindData method [Windows Shell], SetFindData method [Windows Shell],IFileSystemBindData interface, _shell_ifilesystembinddata_setfinddata, shell.IFileSystemBindData_SetFindData, shobjidl_core/IFileSystemBindData::SetFindData
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileSystemBindData.SetFindData
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 86deb09e-d6ad-4a8d-9fdf-e3bc5ee73b1f
 ms.date: 12/05/2018
 ms.keywords: Duration property [Task Scheduler], Duration property [Task Scheduler],IRepetitionPattern interface, IRepetitionPattern interface [Task Scheduler],Duration property, IRepetitionPattern.Duration, IRepetitionPattern.put_Duration, IRepetitionPattern::Duration, IRepetitionPattern::get_Duration, IRepetitionPattern::put_Duration, put_Duration, taskschd.irepetitionpattern_duration, taskschd/IRepetitionPattern::Duration, taskschd/IRepetitionPattern::get_Duration, taskschd/IRepetitionPattern::put_Duration
-ms.topic: method
 f1_keywords:
 - taskschd/IRepetitionPattern.Duration
 dev_langs:

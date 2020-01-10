@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 40d7db61-cf27-4c27-8774-d565ebee2c93
 ms.date: 12/05/2018
 ms.keywords: MFMPEG2DLNASINKSTATS, MFMPEG2DLNASINKSTATS structure [Media Foundation], mf.mfmpeg2dlnasinkstats, mfmp2dlna/MFMPEG2DLNASINKSTATS
-ms.topic: struct
 f1_keywords:
 - mfmp2dlna/MFMPEG2DLNASINKSTATS
 dev_langs:

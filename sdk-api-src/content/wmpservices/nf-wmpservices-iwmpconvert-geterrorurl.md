@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 27a2ff9a-0c95-4c82-8e4a-c91d2a595005
 ms.date: 12/05/2018
 ms.keywords: GetErrorURL, GetErrorURL method [Windows Media Player], GetErrorURL method [Windows Media Player],IWMPConvert interface, IWMPConvert interface [Windows Media Player],GetErrorURL method, IWMPConvert.GetErrorURL, IWMPConvert::GetErrorURL, IWMPConvertGetErrorURL, wmp.iwmpconvert_geterrorurl, wmpservices/IWMPConvert::GetErrorURL
-ms.topic: method
 f1_keywords:
 - wmpservices/IWMPConvert.GetErrorURL
 dev_langs:

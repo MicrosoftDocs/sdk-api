@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: f3b191b2-a92f-491d-bd77-500e2d3b37e8
 ms.date: 12/05/2018
 ms.keywords: WS_ENCODER_ENCODE_CALLBACK, WS_ENCODER_ENCODE_CALLBACK callback, WS_ENCODER_ENCODE_CALLBACK callback function [Web Services for Windows], webservices/WS_ENCODER_ENCODE_CALLBACK, wsw.ws_encoder_encode_callback
-ms.topic: callback
 f1_keywords:
 - webservices/WS_ENCODER_ENCODE_CALLBACK
 dev_langs:

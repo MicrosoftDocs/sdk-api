@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9ec1f8f2-8f20-4d38-9d41-70315b890336
 ms.date: 12/05/2018
 ms.keywords: LoadUserProfile, LoadUserProfile function [Windows Shell], LoadUserProfileA, LoadUserProfileW, _shell_LoadUserProfile, shell.LoadUserProfile, userenv/LoadUserProfile, userenv/LoadUserProfileA, userenv/LoadUserProfileW
-ms.topic: function
 f1_keywords:
 - userenv/LoadUserProfile
 dev_langs:

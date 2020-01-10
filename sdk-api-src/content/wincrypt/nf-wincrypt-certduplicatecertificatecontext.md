@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 589edd25-c8d0-4f93-83b2-9df2ed2e2812
 ms.date: 12/05/2018
 ms.keywords: CertDuplicateCertificateContext, CertDuplicateCertificateContext function [Security], _crypto2_certduplicatecertificatecontext, security.certduplicatecertificatecontext, wincrypt/CertDuplicateCertificateContext
-ms.topic: function
 f1_keywords:
 - wincrypt/CertDuplicateCertificateContext
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 0d0d3174-8489-4951-858c-024d58477ae0
 ms.date: 12/05/2018
 ms.keywords: ERole, ERole enumeration [Core Audio], ERole_enum_count, coreaudio.erole, eCommunications, eConsole, eMultimedia, mmdeviceapi/ERole, mmdeviceapi/ERole_enum_count, mmdeviceapi/eCommunications, mmdeviceapi/eConsole, mmdeviceapi/eMultimedia
-ms.topic: enum
 f1_keywords:
 - mmdeviceapi/ERole
 dev_langs:

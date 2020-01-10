@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: a8feda02-113a-4763-b695-c4cd48781ade
 ms.date: 12/05/2018
 ms.keywords: GetAcceleratedStreamingDuration, GetAcceleratedStreamingDuration method [windows Media Format], GetAcceleratedStreamingDuration method [windows Media Format],IWMReaderNetworkConfig2 interface, IWMReaderNetworkConfig2 interface [windows Media Format],GetAcceleratedStreamingDuration method, IWMReaderNetworkConfig2.GetAcceleratedStreamingDuration, IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration, IWMReaderNetworkConfig2GetAcceleratedStreamingDuration, wmformat.iwmreadernetworkconfig2_getacceleratedstreamingduration, wmsdkidl/IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderNetworkConfig2.GetAcceleratedStreamingDuration
 dev_langs:

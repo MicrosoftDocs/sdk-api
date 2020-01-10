@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 1B693705-1118-4B9B-A7B7-E8811AE881AC
 ms.date: 12/05/2018
 ms.keywords: IDCompositionAffineTransform2DEffect, IDCompositionAffineTransform2DEffect interface [DirectComposition], IDCompositionAffineTransform2DEffect interface [DirectComposition],described, dcomp/IDCompositionAffineTransform2DEffect, directcomp.idcompositionaffinetransform2deffect
-ms.topic: interface
 f1_keywords:
 - dcomp/IDCompositionAffineTransform2DEffect
 dev_langs:

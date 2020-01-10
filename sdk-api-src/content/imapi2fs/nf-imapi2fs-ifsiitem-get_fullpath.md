@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: fb2d6f13-a833-42a3-abbd-39f86b95082d
 ms.date: 12/05/2018
 ms.keywords: IFsiItem interface [IMAPI],get_FullPath method, IFsiItem.get_FullPath, IFsiItem::get_FullPath, get_FullPath, get_FullPath method [IMAPI], get_FullPath method [IMAPI],IFsiItem interface, imapi.ifsiitem_get_fullpath, imapi2fs/IFsiItem::get_FullPath
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFsiItem.get_FullPath
 dev_langs:

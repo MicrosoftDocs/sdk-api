@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: dc9de369-f739-475c-96f5-e2e058705fe8
 ms.date: 12/05/2018
 ms.keywords: IPInterfaceInfo, IPInterfaceInfo structure [Windows API], tcpioctl/IPInterfaceInfo, winprog.ipinterfaceinfo
-ms.topic: struct
 f1_keywords:
 - tcpioctl/IPInterfaceInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: bb4ecc95-972f-415c-9722-59b00a27cddc
 ms.date: 12/05/2018
 ms.keywords: CryptSIPCreateIndirectData, CryptSIPCreateIndirectData function [Security], mssip/CryptSIPCreateIndirectData, security.cryptsipcreateindirectdata
-ms.topic: function
 f1_keywords:
 - mssip/CryptSIPCreateIndirectData
 dev_langs:

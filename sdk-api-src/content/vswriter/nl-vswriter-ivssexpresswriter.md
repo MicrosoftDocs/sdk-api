@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: debb0731-6e24-4320-8236-220e07ec37c3
 ms.date: 12/05/2018
 ms.keywords: IVssExpressWriter, IVssExpressWriter interface, IVssExpressWriter interface,described, base.ivssexpresswriter, vswriter/IVssExpressWriter
-ms.topic: class
 f1_keywords:
 - vswriter/IVssExpressWriter
 dev_langs:

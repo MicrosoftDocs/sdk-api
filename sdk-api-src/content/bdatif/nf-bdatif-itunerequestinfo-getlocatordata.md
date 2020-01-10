@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: c325d61d-c99b-4033-bd16-36b74fc38d07
 ms.date: 12/05/2018
 ms.keywords: GetLocatorData, GetLocatorData method [Microsoft TV Technologies], GetLocatorData method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetLocatorData method, ITuneRequestInfo.GetLocatorData, ITuneRequestInfo::GetLocatorData, ITuneRequestInfoGetLocatorData, bdatif/ITuneRequestInfo::GetLocatorData, mstv.itunerequestinfo_getlocatordata
-ms.topic: method
 f1_keywords:
 - bdatif/ITuneRequestInfo.GetLocatorData
 dev_langs:

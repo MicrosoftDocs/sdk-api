@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 489d79ab-8a59-4789-9dca-df26018bf58c
 ms.date: 12/05/2018
 ms.keywords: '*PTSSD_ConnectionPoint, PTSSD_ConnectionPoint, PTSSD_ConnectionPoint structure pointer [Remote Desktop Services], TSSD_ConnectionPoint, TSSD_ConnectionPoint structure [Remote Desktop Services], sessdirpublictypes/PTSSD_ConnectionPoint, sessdirpublictypes/TSSD_ConnectionPoint, termserv.tssd_connectionpoint'
-ms.topic: struct
 f1_keywords:
 - sessdirpublictypes/TSSD_ConnectionPoint
 dev_langs:

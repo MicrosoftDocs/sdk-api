@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 60b11476-07ca-476e-a2f0-669631835128
 ms.date: 12/05/2018
 ms.keywords: sockaddr_gen, sockaddr_gen union [Winsock], winsock.sockaddr_gen, ws2ipdef/sockaddr_gen, ws2tcpip/sockaddr_gen
-ms.topic: struct
 f1_keywords:
 - ws2ipdef/sockaddr_gen
 dev_langs:

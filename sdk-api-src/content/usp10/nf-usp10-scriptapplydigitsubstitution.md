@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 486b8a56-eb14-48c3-b2f0-f5494f79baea
 ms.date: 12/05/2018
 ms.keywords: ScriptApplyDigitSubstitution, ScriptApplyDigitSubstitution function [Internationalization for Windows Applications], _win32_ScriptApplyDigitSubstitution, intl.scriptapplydigitsubstitution, usp10/ScriptApplyDigitSubstitution
-ms.topic: function
 f1_keywords:
 - usp10/ScriptApplyDigitSubstitution
 dev_langs:

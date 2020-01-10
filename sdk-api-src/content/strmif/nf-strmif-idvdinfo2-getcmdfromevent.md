@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 488a394f-222f-4536-a20a-579df5c2f91f
 ms.date: 12/05/2018
 ms.keywords: GetCmdFromEvent, GetCmdFromEvent method [DirectShow], GetCmdFromEvent method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCmdFromEvent method, IDvdInfo2.GetCmdFromEvent, IDvdInfo2::GetCmdFromEvent, IDvdInfo2GetCmdFromEvent, dshow.idvdinfo2_getcmdfromevent, strmif/IDvdInfo2::GetCmdFromEvent
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo2.GetCmdFromEvent
 dev_langs:

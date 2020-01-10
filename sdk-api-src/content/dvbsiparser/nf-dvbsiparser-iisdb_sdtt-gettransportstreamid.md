@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: d73b705f-8409-438e-9f30-3bf2bbf86404
 ms.date: 12/05/2018
 ms.keywords: GetTransportStreamId, GetTransportStreamId method [Microsoft TV Technologies], GetTransportStreamId method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetTransportStreamId method, IISDB_SDTT.GetTransportStreamId, IISDB_SDTT::GetTransportStreamId, dvbsiparser/IISDB_SDTT::GetTransportStreamId, mstv.iisdb_sdtt_gettransportstreamid
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IISDB_SDTT.GetTransportStreamId
 dev_langs:

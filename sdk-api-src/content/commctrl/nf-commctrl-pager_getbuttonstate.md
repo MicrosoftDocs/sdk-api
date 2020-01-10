@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_getbuttonstate.htm
 ms.date: 12/05/2018
 ms.keywords: Pager_GetButtonState, Pager_GetButtonState macro [Windows Controls], _win32_Pager_GetButtonState, _win32_Pager_GetButtonState_cpp, commctrl/Pager_GetButtonState, controls.Pager_GetButtonState, controls._win32_Pager_GetButtonState
-ms.topic: macro
 f1_keywords:
 - commctrl/Pager_GetButtonState
 dev_langs:

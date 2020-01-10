@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 687A4275-5963-486E-8D59-B1858D7E388D
 ms.date: 12/05/2018
 ms.keywords: GetSensorDeviceCount, GetSensorDeviceCount method [Media Foundation], GetSensorDeviceCount method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetSensorDeviceCount method, IMFSensorGroup.GetSensorDeviceCount, IMFSensorGroup::GetSensorDeviceCount, mf.imfsensorgroup_getsensordevicecount, mfidl/IMFSensorGroup::GetSensorDeviceCount
-ms.topic: method
 f1_keywords:
 - mfidl/IMFSensorGroup.GetSensorDeviceCount
 dev_langs:

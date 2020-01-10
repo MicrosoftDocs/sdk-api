@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: da92c68b-176c-4773-9ae1-63f803bc206e
 ms.date: 12/05/2018
 ms.keywords: GetTime, GetTime method [DirectShow], GetTime method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],GetTime method, IMultiMediaStream.GetTime, IMultiMediaStream::GetTime, IMultiMediaStreamGetTime, dshow.imultimediastream_gettime, mmstream/IMultiMediaStream::GetTime
-ms.topic: method
 f1_keywords:
 - mmstream/IMultiMediaStream.GetTime
 dev_langs:

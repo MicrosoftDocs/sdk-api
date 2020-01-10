@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c47bcf8a-c59d-4d6a-81a9-a3960ae39867
 ms.date: 12/05/2018
 ms.keywords: PathRemoveFileSpec, PathRemoveFileSpec function [Windows Shell], PathRemoveFileSpecA, PathRemoveFileSpecW, _win32_PathRemoveFileSpec, shell.PathRemoveFileSpec, shlwapi/PathRemoveFileSpec, shlwapi/PathRemoveFileSpecA, shlwapi/PathRemoveFileSpecW
-ms.topic: function
 f1_keywords:
 - shlwapi/PathRemoveFileSpec
 dev_langs:

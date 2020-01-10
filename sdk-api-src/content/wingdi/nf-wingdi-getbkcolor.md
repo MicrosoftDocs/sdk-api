@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 1c6e8d05-4b8d-476d-852c-f06f316cb8b7
 ms.date: 12/05/2018
 ms.keywords: GetBkColor, GetBkColor function [Windows GDI], _win32_GetBkColor, gdi.getbkcolor, wingdi/GetBkColor
-ms.topic: function
 f1_keywords:
 - wingdi/GetBkColor
 dev_langs:

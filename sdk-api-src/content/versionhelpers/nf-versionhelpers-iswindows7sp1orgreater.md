@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: E8AD3423-91EF-4ECE-9EF2-808C68CEA861
 ms.date: 12/05/2018
 ms.keywords: IsWindows7SP1OrGreater, IsWindows7SP1OrGreater function, base.iswindows7sp1orgreater, versionhelpers/IsWindows7SP1OrGreater
-ms.topic: function
 f1_keywords:
 - versionhelpers/IsWindows7SP1OrGreater
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 2459aaae-4c3a-458a-ad2c-bfff3a0322d3
 ms.date: 12/05/2018
 ms.keywords: ITaskService, ITaskService interface [Task Scheduler], ITaskService interface [Task Scheduler],described, taskschd.itaskservice, taskschd/ITaskService
-ms.topic: interface
 f1_keywords:
 - taskschd/ITaskService
 dev_langs:

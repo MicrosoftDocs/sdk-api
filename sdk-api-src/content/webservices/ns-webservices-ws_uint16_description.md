@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 62bc0e6c-a8f0-4b57-89bc-a2832d785703
 ms.date: 12/05/2018
 ms.keywords: WS_UINT16_DESCRIPTION, WS_UINT16_DESCRIPTION structure [Web Services for Windows], webservices/WS_UINT16_DESCRIPTION, wsw.ws_uint16_description
-ms.topic: struct
 f1_keywords:
 - webservices/WS_UINT16_DESCRIPTION
 dev_langs:

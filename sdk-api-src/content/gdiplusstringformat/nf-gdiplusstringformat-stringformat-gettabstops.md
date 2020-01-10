@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\gettabstops.htm
 ms.date: 12/05/2018
 ms.keywords: GetTabStops, GetTabStops method [GDI+], GetTabStops method [GDI+],StringFormat class, StringFormat class [GDI+],GetTabStops method, StringFormat.GetTabStops, StringFormat::GetTabStops, _gdiplus_CLASS_StringFormat_GetTabStops_count_firstTabOffset_tabStops_, gdiplus._gdiplus_CLASS_StringFormat_GetTabStops_count_firstTabOffset_tabStops_
-ms.topic: method
 f1_keywords:
 - gdiplusstringformat/StringFormat.GetTabStops
 dev_langs:

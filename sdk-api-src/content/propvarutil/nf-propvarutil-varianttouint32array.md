@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 506a02f8-6390-44a0-9f14-bfc8fb7ad180
 ms.date: 12/05/2018
 ms.keywords: VariantToUInt32Array, VariantToUInt32Array function [Windows Properties], _shell_VariantToUInt32Array, properties.VariantToUInt32Array, propvarutil/VariantToUInt32Array, shell.VariantToUInt32Array
-ms.topic: function
 f1_keywords:
 - propvarutil/VariantToUInt32Array
 dev_langs:

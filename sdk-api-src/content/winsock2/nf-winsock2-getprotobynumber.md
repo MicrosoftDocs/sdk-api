@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: f1f55ab7-01ca-4ed7-b8f9-e7ddbaa95855
 ms.date: 12/05/2018
 ms.keywords: _win32_getprotobynumber_2, getprotobynumber, getprotobynumber function [Winsock], winsock.getprotobynumber_2, winsock/getprotobynumber
-ms.topic: function
 f1_keywords:
 - winsock2/getprotobynumber
 dev_langs:

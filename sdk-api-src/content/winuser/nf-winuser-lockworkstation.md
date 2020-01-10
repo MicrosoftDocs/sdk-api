@@ -7,7 +7,6 @@ tech.root: Shutdown
 ms.assetid: e0f7f2b9-0fc1-4e76-b5bb-286408240fc6
 ms.date: 12/05/2018
 ms.keywords: LockWorkStation, LockWorkStation function, _win32_lockworkstation, base.lockworkstation, winuser/LockWorkStation
-ms.topic: function
 f1_keywords:
 - winuser/LockWorkStation
 dev_langs:

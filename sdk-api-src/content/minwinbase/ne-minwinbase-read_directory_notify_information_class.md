@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 193D018B-80FE-45B2-826A-A00D173E32D3
 ms.date: 12/05/2018
 ms.keywords: '*PREAD_DIRECTORY_NOTIFY_INFORMATION_CLASS, PREAD_DIRECTORY_NOTIFY_INFORMATION_CLASS, PREAD_DIRECTORY_NOTIFY_INFORMATION_CLASS enumeration pointer [Files], READ_DIRECTORY_NOTIFY_INFORMATION_CLASS, READ_DIRECTORY_NOTIFY_INFORMATION_CLASS enumeration [Files], ReadDirectoryNotifyExtendedInformation, ReadDirectoryNotifyInformation, fs.read_directory_notify_information_class, minwinbase/PREAD_DIRECTORY_NOTIFY_INFORMATION_CLASS, minwinbase/READ_DIRECTORY_NOTIFY_INFORMATION_CLASS, minwinbase/ReadDirectoryNotifyExtendedInformation, minwinbase/ReadDirectoryNotifyInformation'
-ms.topic: enum
 f1_keywords:
 - minwinbase/READ_DIRECTORY_NOTIFY_INFORMATION_CLASS
 dev_langs:

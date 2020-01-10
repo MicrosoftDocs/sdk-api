@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 4d2819a2-c780-47bb-b3e5-0836b8b4c5dd
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnEndEditTransaction method, ITextStoreACPSink.OnEndEditTransaction, ITextStoreACPSink::OnEndEditTransaction, OnEndEditTransaction, OnEndEditTransaction method [Text Services Framework], OnEndEditTransaction method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onendedittransaction_ref, textstor/ITextStoreACPSink::OnEndEditTransaction, tsf.itextstoreacpsink_onendedittransaction
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreACPSink.OnEndEditTransaction
 dev_langs:

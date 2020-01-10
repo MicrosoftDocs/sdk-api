@@ -7,7 +7,6 @@ tech.root: wes
 ms.assetid: c177029f-84e3-41ec-bbdb-26b0c1bf481f
 ms.date: 12/05/2018
 ms.keywords: EvtExportLog, EvtExportLog function [EventLog], wes.evtexportlog, winevt/EvtExportLog
-ms.topic: function
 f1_keywords:
 - winevt/EvtExportLog
 dev_langs:

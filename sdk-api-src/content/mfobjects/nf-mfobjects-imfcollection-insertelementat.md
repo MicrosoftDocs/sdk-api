@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: d8f64bf8-eb5b-4673-91be-796f4ea8dce0
 ms.date: 12/05/2018
 ms.keywords: IMFCollection interface [Media Foundation],InsertElementAt method, IMFCollection.InsertElementAt, IMFCollection::InsertElementAt, InsertElementAt, InsertElementAt method [Media Foundation], InsertElementAt method [Media Foundation],IMFCollection interface, d8f64bf8-eb5b-4673-91be-796f4ea8dce0, mf.imfcollection_insertelementat, mfobjects/IMFCollection::InsertElementAt
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFCollection.InsertElementAt
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 349e6635-5ba6-4b8e-b321-8ffd87cd762c
 ms.date: 12/05/2018
 ms.keywords: GetMaxQueuedRequests, GetMaxQueuedRequests method [COM+], GetMaxQueuedRequests method [COM+],IThreadPoolKnobs interface, IThreadPoolKnobs interface [COM+],GetMaxQueuedRequests method, IThreadPoolKnobs.GetMaxQueuedRequests, IThreadPoolKnobs::GetMaxQueuedRequests, _cos_IThreadPoolKnobs_GetMaxQueuedRequests, comsvcs/IThreadPoolKnobs::GetMaxQueuedRequests, cos.ithreadpoolknobs_getmaxqueuedrequests
-ms.topic: method
 f1_keywords:
 - comsvcs/IThreadPoolKnobs.GetMaxQueuedRequests
 dev_langs:

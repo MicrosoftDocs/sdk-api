@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7D907B01-E0C4-428b-A8A4-FA383B0970BF
 ms.date: 12/05/2018
 ms.keywords: IDefaultFolderMenuInitialize interface [Windows Shell],SetMenuRestrictions method, IDefaultFolderMenuInitialize.SetMenuRestrictions, IDefaultFolderMenuInitialize::SetMenuRestrictions, SetMenuRestrictions, SetMenuRestrictions method [Windows Shell], SetMenuRestrictions method [Windows Shell],IDefaultFolderMenuInitialize interface, shell.IDefaultFolderMenuInitialize_SetMenuRestrictions, shobjidl_core/IDefaultFolderMenuInitialize::SetMenuRestrictions
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IDefaultFolderMenuInitialize.SetMenuRestrictions
 dev_langs:

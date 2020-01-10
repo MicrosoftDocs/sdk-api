@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 1466cd90-8eab-4c5c-bb77-c75d35fe586b
 ms.date: 12/05/2018
 ms.keywords: WICRawCapabilitiesInfo, WICRawCapabilitiesInfo structure [Windows Imaging Component], _wic_codec_wicrawcapabilitiesinfo, wic._wic_codec_wicrawcapabilitiesinfo, wincodec/WICRawCapabilitiesInfo
-ms.topic: struct
 f1_keywords:
 - wincodec/WICRawCapabilitiesInfo
 dev_langs:

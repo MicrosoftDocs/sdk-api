@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: CB69E0B6-519D-4268-A09B-196BBB6EB460
 ms.date: 01/30/19
 ms.keywords: LPFN_RIOCREATEREQUESTQUEUE
-ms.topic: language-reference
 f1_keywords:
 - mswsock/LPFN_RIOCREATEREQUESTQUEUE
 dev_langs:

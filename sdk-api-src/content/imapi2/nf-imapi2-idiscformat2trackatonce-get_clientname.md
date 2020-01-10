@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: c259233b-4e36-4ee2-8068-d77ece1e927e
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_ClientName method, IDiscFormat2TrackAtOnce.get_ClientName, IDiscFormat2TrackAtOnce::get_ClientName, get_ClientName, get_ClientName method [IMAPI], get_ClientName method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_clientname, imapi2/IDiscFormat2TrackAtOnce::get_ClientName
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2TrackAtOnce.get_ClientName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 18aa4a36-8e47-4e35-973f-376d412ed923
 ms.date: 12/05/2018
 ms.keywords: '*LPPANOSE, LPPANOSE, LPPANOSE structure pointer [Windows GDI], PANOSE, PANOSE structure [Windows GDI], _win32_PANOSE_str, gdi.panose, wingdi/LPPANOSE, wingdi/PANOSE'
-ms.topic: struct
 f1_keywords:
 - wingdi/PANOSE
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: ECCDC429-4829-46E0-AE77-270024E2DA48
 ms.date: 12/05/2018
 ms.keywords: IDropTargetProvider, IDropTargetProvider interface [Windows Accessibility], IDropTargetProvider interface [Windows Accessibility],described, uiautomationcore/IDropTargetProvider, winauto.uiauto_idroptargetprovider
-ms.topic: interface
 f1_keywords:
 - uiautomationcore/IDropTargetProvider
 dev_langs:

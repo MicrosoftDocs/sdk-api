@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 50434617-E70E-4931-B98E-61650E9DEA7E
 ms.date: 12/05/2018
 ms.keywords: IAudioFormatEnumerator, IAudioFormatEnumerator interface [Core Audio], IAudioFormatEnumerator interface [Core Audio],described, coreaudio.iaudioformatenumerator, spatialaudioclient/IAudioFormatEnumerator
-ms.topic: interface
 f1_keywords:
 - spatialaudioclient/IAudioFormatEnumerator
 dev_langs:

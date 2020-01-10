@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 8566fd31-ec0c-4325-b182-4765e81c7884
 ms.date: 12/05/2018
 ms.keywords: ACMDRIVERENUMCB, ACMDRIVERENUMCB callback, ACMDRIVERENUMCB callback function [Windows Multimedia], _win32_acmDriverEnumCallback, acmDriverEnumCallback, msacm/ACMDRIVERENUMCB, multimedia.acmdriverenumcallback
-ms.topic: callback
 f1_keywords:
 - msacm/ACMDRIVERENUMCB
 dev_langs:

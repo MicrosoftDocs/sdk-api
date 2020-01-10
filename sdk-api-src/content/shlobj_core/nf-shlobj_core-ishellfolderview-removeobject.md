@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5e96040b-5b6a-4323-a5c4-f30e534ed15a
 ms.date: 12/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],RemoveObject method, IShellFolderView.RemoveObject, IShellFolderView::RemoveObject, RemoveObject, RemoveObject method [Windows Shell], RemoveObject method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_RemoveObject, shell.IShellFolderView_RemoveObject, shlobj_core/IShellFolderView::RemoveObject
-ms.topic: method
 f1_keywords:
 - shlobj_core/IShellFolderView.RemoveObject
 dev_langs:

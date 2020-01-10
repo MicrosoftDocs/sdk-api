@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 75faea24-91cd-448b-b67a-09fe530f1800
 ms.date: 12/05/2018
 ms.keywords: UnregisterPointerInputTarget, UnregisterPointerInputTarget function [Windows Accessibility], inputmsg.getactivepointers, winauto.unregisterpointerinputtarget, winuser/UnregisterPointerInputTarget
-ms.topic: function
 f1_keywords:
 - winuser/UnregisterPointerInputTarget
 dev_langs:

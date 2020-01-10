@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 4335d480-5af0-4764-b8f8-0e6edc1598b7
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],isIdentical method, IWMPSyncDevice.isIdentical, IWMPSyncDevice::isIdentical, IWMPSyncDeviceisIdentical, isIdentical, isIdentical method [Windows Media Player], isIdentical method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_isidentical, wmp/IWMPSyncDevice::isIdentical
-ms.topic: method
 f1_keywords:
 - wmp/IWMPSyncDevice.isIdentical
 dev_langs:

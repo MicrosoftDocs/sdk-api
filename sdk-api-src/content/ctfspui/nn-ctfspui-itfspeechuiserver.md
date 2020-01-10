@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 40961001-b659-4ddb-ae7d-5342957770be
 ms.date: 12/05/2018
 ms.keywords: ITfSpeechUIServer, ITfSpeechUIServer interface [Text Services Framework], ITfSpeechUIServer interface [Text Services Framework],described, ctfspui/ITfSpeechUIServer, tsf.itfspeechuiserver
-ms.topic: interface
 f1_keywords:
 - ctfspui/ITfSpeechUIServer
 dev_langs:

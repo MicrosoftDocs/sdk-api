@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMDEC4.operator = (const XMDEC4)
 ms.date: 05/06/2019
 ms.keywords: XMDEC4 structure [DirectX Math Support APIs],operator = method, XMDEC4.operator =(const XMDEC4&), XMDEC4.operator-assign(XMDEC4 &&), XMDEC4.operator=, XMDEC4::operator-assign(XMDEC4 &&), XMDEC4::operator=, dxmath.xmdec4_operator_eq_1, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMDEC4 structure, operator=
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMDEC4.operator =
 dev_langs:

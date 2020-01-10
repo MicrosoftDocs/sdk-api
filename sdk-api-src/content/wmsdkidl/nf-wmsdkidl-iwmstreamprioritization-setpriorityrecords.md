@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 9bd42132-b391-4941-87db-5ce2254e19cf
 ms.date: 12/05/2018
 ms.keywords: IWMStreamPrioritization interface [windows Media Format],SetPriorityRecords method, IWMStreamPrioritization.SetPriorityRecords, IWMStreamPrioritization::SetPriorityRecords, IWMStreamPrioritizationSetPriorityRecords, SetPriorityRecords, SetPriorityRecords method [windows Media Format], SetPriorityRecords method [windows Media Format],IWMStreamPrioritization interface, wmformat.iwmstreamprioritization_setpriorityrecords, wmsdkidl/IWMStreamPrioritization::SetPriorityRecords
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMStreamPrioritization.SetPriorityRecords
 dev_langs:

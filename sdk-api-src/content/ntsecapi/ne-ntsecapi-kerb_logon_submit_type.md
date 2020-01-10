@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 500bee53-638b-4782-b42d-1df158396fb6
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_LOGON_SUBMIT_TYPE, KERB_LOGON_SUBMIT_TYPE, KERB_LOGON_SUBMIT_TYPE enumeration [Security], KerbCertificateLogon, KerbCertificateS4ULogon, KerbCertificateUnlockLogon, KerbInteractiveLogon, KerbProxyLogon, KerbS4ULogon, KerbSmartCardLogon, KerbSmartCardUnlockLogon, KerbTicketLogon, KerbTicketUnlockLogon, KerbWorkstationUnlockLogon, PKERB_LOGON_SUBMIT_TYPE, PKERB_LOGON_SUBMIT_TYPE enumeration pointer [Security], _lsa_kerb_logon_submit_type, ntsecapi/KERB_LOGON_SUBMIT_TYPE, ntsecapi/KerbCertificateLogon, ntsecapi/KerbCertificateS4ULogon, ntsecapi/KerbCertificateUnlockLogon, ntsecapi/KerbInteractiveLogon, ntsecapi/KerbProxyLogon, ntsecapi/KerbS4ULogon, ntsecapi/KerbSmartCardLogon, ntsecapi/KerbSmartCardUnlockLogon, ntsecapi/KerbTicketLogon, ntsecapi/KerbTicketUnlockLogon, ntsecapi/KerbWorkstationUnlockLogon, ntsecapi/PKERB_LOGON_SUBMIT_TYPE, security.kerb_logon_submit_type'
-ms.topic: enum
 f1_keywords:
 - ntsecapi/KERB_LOGON_SUBMIT_TYPE
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9945bffb-6748-4c7d-ba14-91470cf6c651
 ms.date: 12/05/2018
 ms.keywords: IAMDevMemoryControl, IAMDevMemoryControl interface [DirectShow], IAMDevMemoryControl interface [DirectShow],described, IAMDevMemoryControlInterface, dshow.iamdevmemorycontrol, strmif/IAMDevMemoryControl
-ms.topic: interface
 f1_keywords:
 - strmif/IAMDevMemoryControl
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 067003ef-bb92-48cc-bc13-5b90066c9123
 ms.date: 12/05/2018
 ms.keywords: MgmGetNextMfe, MgmGetNextMfe function [RAS], _mpr_mgmgetnextmfe, mgm/MgmGetNextMfe, rras.mgmgetnextmfe
-ms.topic: function
 f1_keywords:
 - mgm/MgmGetNextMfe
 dev_langs:

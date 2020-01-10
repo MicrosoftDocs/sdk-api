@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorbalance.htm
 ms.date: 12/05/2018
 ms.keywords: ColorBalance, ColorBalance class [GDI+], ColorBalance class [GDI+],described, _gdiplus_CLASS_ColorBalance_Class, gdiplus._gdiplus_CLASS_ColorBalance_Class, gdipluseffects/ColorBalance
-ms.topic: class
 f1_keywords:
 - gdipluseffects/ColorBalance
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: a96a3790-ee5d-4983-b69a-30c7af96afd9
 ms.date: 12/05/2018
 ms.keywords: HandoffDirect, HandoffDirect method [TAPI 2.2], HandoffDirect method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],HandoffDirect method, ITBasicCallControl.HandoffDirect, ITBasicCallControl::HandoffDirect, _tapi3_itbasiccallcontrol_handoffdirect, tapi3.itbasiccallcontrol_handoffdirect, tapi3if/ITBasicCallControl::HandoffDirect
-ms.topic: method
 f1_keywords:
 - tapi3if/ITBasicCallControl.HandoffDirect
 dev_langs:

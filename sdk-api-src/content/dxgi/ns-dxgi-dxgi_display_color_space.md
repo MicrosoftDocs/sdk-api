@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: AE549DD8-240C-41F9-9223-728BFCA19DD7
 ms.date: 12/05/2018
 ms.keywords: DXGI_DISPLAY_COLOR_SPACE, DXGI_DISPLAY_COLOR_SPACE structure [DXGI], direct3ddxgi.dxgi_display_color_space, dxgi/DXGI_DISPLAY_COLOR_SPACE
-ms.topic: struct
 f1_keywords:
 - dxgi/DXGI_DISPLAY_COLOR_SPACE
 dev_langs:

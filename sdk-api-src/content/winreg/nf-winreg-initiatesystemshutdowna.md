@@ -7,7 +7,6 @@ tech.root: Shutdown
 ms.assetid: cad54fea-7f59-438c-83ac-f0160d81496b
 ms.date: 12/05/2018
 ms.keywords: InitiateSystemShutdown, InitiateSystemShutdown function, InitiateSystemShutdownA, InitiateSystemShutdownW, _win32_initiatesystemshutdown, base.initiatesystemshutdown, winreg/InitiateSystemShutdown, winreg/InitiateSystemShutdownA, winreg/InitiateSystemShutdownW
-ms.topic: function
 f1_keywords:
 - winreg/InitiateSystemShutdown
 dev_langs:

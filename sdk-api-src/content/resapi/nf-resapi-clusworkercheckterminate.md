@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: e8833961-ac0e-4d8c-a57e-5aabdb2c8c96
 ms.date: 12/05/2018
 ms.keywords: ClusWorkerCheckTerminate, ClusWorkerCheckTerminate function [Failover Cluster], PCLUSAPIClusWorkerCheckTerminate, PCLUSAPIClusWorkerCheckTerminate function [Failover Cluster], _wolf_clusworkercheckterminate, mscs.clusworkercheckterminate, resapi/ClusWorkerCheckTerminate, resapi/PCLUSAPIClusWorkerCheckTerminate
-ms.topic: function
 f1_keywords:
 - resapi/ClusWorkerCheckTerminate
 dev_langs:

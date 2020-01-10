@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 3596141c-e359-4ea5-8d6a-9ec374c1f854
 ms.date: 12/05/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],get_Top method, IMSVidRect.get_Top, IMSVidRect::get_Top, IMSVidRectget_Top, get_Top, get_Top method [Microsoft TV Technologies], get_Top method [Microsoft TV Technologies],IMSVidRect interface, mstv.imsvidrect_get_top, segment/IMSVidRect::get_Top
-ms.topic: method
 f1_keywords:
 - segment/IMSVidRect.get_Top
 dev_langs:

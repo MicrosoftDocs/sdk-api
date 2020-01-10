@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 00000000-0000-0000-0000-000000000001
 ms.date: 12/05/2018
 ms.keywords: '*LPABC, *NPABC, *PABC, ABC, ABC structure [Windows GDI], PABC, PABC structure pointer [Windows GDI], _win32_ABC_str, gdi.abc, wingdi/ABC, wingdi/PABC'
-ms.topic: struct
 f1_keywords:
 - wingdi/ABC
 dev_langs:

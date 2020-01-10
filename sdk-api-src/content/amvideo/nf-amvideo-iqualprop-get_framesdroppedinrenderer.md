@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 342aff30-ed1c-406d-8fbe-0524acbcd2d7
 ms.date: 12/05/2018
 ms.keywords: IQualProp interface [DirectShow],get_FramesDroppedInRenderer method, IQualProp.get_FramesDroppedInRenderer, IQualProp::get_FramesDroppedInRenderer, IQualPropget_FramesDroppedInRenderer, amvideo/IQualProp::get_FramesDroppedInRenderer, dshow.iqualprop_get_framesdroppedinrenderer, get_FramesDroppedInRenderer, get_FramesDroppedInRenderer method [DirectShow], get_FramesDroppedInRenderer method [DirectShow],IQualProp interface
-ms.topic: method
 f1_keywords:
 - amvideo/IQualProp.get_FramesDroppedInRenderer
 dev_langs:

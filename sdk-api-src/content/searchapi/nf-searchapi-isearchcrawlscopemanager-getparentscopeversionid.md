@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\getparentscopeversionid.htm
 ms.date: 12/05/2018
 ms.keywords: GetParentScopeVersionId, GetParentScopeVersionId method [search], GetParentScopeVersionId method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],GetParentScopeVersionId method, ISearchCrawlScopeManager.GetParentScopeVersionId, ISearchCrawlScopeManager::GetParentScopeVersionId, _search_ISearchCrawlScopeManager_GetParentScopeVersionId, search._search_ISearchCrawlScopeManager_GetParentScopeVersionId, searchapi/ISearchCrawlScopeManager::GetParentScopeVersionId
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchCrawlScopeManager.GetParentScopeVersionId
 dev_langs:

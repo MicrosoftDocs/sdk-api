@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: d9c452e3-3850-4ca2-8114-b3866fbdeba6
 ms.date: 12/05/2018
 ms.keywords: DrvSendPage, DrvSendPage function [Display Devices], ddifncs_4211c283-c7c9-493d-b673-0fdc0d8ad04f.xml, display.drvsendpage, winddi/DrvSendPage
-ms.topic: function
 f1_keywords:
 - winddi/DrvSendPage
 dev_langs:

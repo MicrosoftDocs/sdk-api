@@ -7,7 +7,6 @@ tech.root: xaml_diagnostics
 ms.assetid: C5E1BA37-738C-4251-8648-681C58B740E1
 ms.date: 12/05/2018
 ms.keywords: BitmapDescription, BitmapDescription structure, PBitmapDescription, PBitmapDescription structure pointer, xaml_diagnostics.bitmapdescription, xamlom/BitmapDescription, xamlom/PBitmapDescription
-ms.topic: struct
 f1_keywords:
 - xamlom/BitmapDescription
 dev_langs:

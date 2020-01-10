@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 80983033-A348-4B25-B17E-AE7EE189EA1A
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain3 interface [DXGI],ResizeBuffers1 method, IDXGISwapChain3.ResizeBuffers1, IDXGISwapChain3::ResizeBuffers1, ResizeBuffers1, ResizeBuffers1 method [DXGI], ResizeBuffers1 method [DXGI],IDXGISwapChain3 interface, direct3ddxgi.idxgiswapchain3_resizebuffers1, dxgi1_4/IDXGISwapChain3::ResizeBuffers1
-ms.topic: method
 f1_keywords:
 - dxgi1_4/IDXGISwapChain3.ResizeBuffers1
 dev_langs:

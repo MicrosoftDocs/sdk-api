@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: daceabf9-ff43-4206-9f8f-f3924de9c5a5
 ms.date: 12/05/2018
 ms.keywords: ConvertInterfaceNameToLuidA, ConvertInterfaceNameToLuidA function [IP Helper], iphlp.convertinterfacenametoluida, netioapi/ConvertInterfaceNameToLuidA
-ms.topic: function
 f1_keywords:
 - netioapi/ConvertInterfaceNameToLuidA
 dev_langs:

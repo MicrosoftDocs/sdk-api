@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 2303fac8-21ae-44df-8e47-9fe0fa88d90b
 ms.date: 12/05/2018
 ms.keywords: IEnumFeedClockVector interface [Windows Sync],Next method, IEnumFeedClockVector.Next, IEnumFeedClockVector::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumFeedClockVector interface, winsync.ienumfeedclockvector_next, winsync/IEnumFeedClockVector::Next
-ms.topic: method
 f1_keywords:
 - winsync/IEnumFeedClockVector.Next
 dev_langs:

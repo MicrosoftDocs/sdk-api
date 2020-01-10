@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\ischild.htm
 ms.date: 12/05/2018
 ms.keywords: IsChild, IsChild function [Windows and Messages], _win32_IsChild, _win32_ischild_cpp, winmsg.ischild, winui._win32_ischild, winuser/IsChild
-ms.topic: function
 f1_keywords:
 - winuser/IsChild
 dev_langs:

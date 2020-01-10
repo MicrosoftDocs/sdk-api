@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: e96fafa6-1c10-42c1-8d85-5e338899411d
 ms.date: 12/05/2018
 ms.keywords: UuidHash, UuidHash function [RPC], _rpc_uuidhash, rpc.uuidhash, rpcdce/UuidHash
-ms.topic: function
 f1_keywords:
 - rpcdce/UuidHash
 dev_langs:

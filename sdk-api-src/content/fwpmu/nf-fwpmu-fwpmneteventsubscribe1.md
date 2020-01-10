@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 1e079574-3ab0-48d4-84ab-b2b3f34f757b
 ms.date: 12/05/2018
 ms.keywords: FwpmNetEventSubscribe1, FwpmNetEventSubscribe1 function [Filtering], fwp.fwpmneteventsubscribe1, fwpmu/FwpmNetEventSubscribe1
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmNetEventSubscribe1
 dev_langs:

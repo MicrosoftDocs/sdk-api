@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: b7d12b31-488c-4b0b-b803-516054c99c34
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilOctetsCmp, SnmpUtilOctetsCmp function [SNMP], _snmp_snmputiloctetscmp, snmp.snmputiloctetscmp, snmp/SnmpUtilOctetsCmp
-ms.topic: function
 f1_keywords:
 - snmp/SnmpUtilOctetsCmp
 dev_langs:

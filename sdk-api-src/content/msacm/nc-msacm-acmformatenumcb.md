@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 58775258-c42c-4d59-8922-c478b5bdf0d7
 ms.date: 12/05/2018
 ms.keywords: ACMFORMATENUMCB, ACMFORMATENUMCB callback, ACMFORMATENUMCB callback function [Windows Multimedia], ACMFORMATENUMCBA, ACMFORMATENUMCBW, _win32_acmFormatEnumCallback, acmFormatEnumCallback, msacm/ACMFORMATENUMCB, msacm/ACMFORMATENUMCBA, msacm/ACMFORMATENUMCBW, multimedia.acmformatenumcallback
-ms.topic: callback
 f1_keywords:
 - msacm/ACMFORMATENUMCB
 dev_langs:

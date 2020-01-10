@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 7CF0A38A-D557-417B-A863-0E5AA346B55C
 ms.date: 12/05/2018
 ms.keywords: AddAutomaticGroup, AddAutomaticGroup method [App packaging and management], AddAutomaticGroup method [App packaging and management],IAppxContentGroupMapWriter interface, IAppxContentGroupMapWriter interface [App packaging and management],AddAutomaticGroup method, IAppxContentGroupMapWriter.AddAutomaticGroup, IAppxContentGroupMapWriter::AddAutomaticGroup, appxpackaging/IAppxContentGroupMapWriter::AddAutomaticGroup, appxpkg.iappxcontentgroupmapwriter_addautomaticgroup
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxContentGroupMapWriter.AddAutomaticGroup
 dev_langs:

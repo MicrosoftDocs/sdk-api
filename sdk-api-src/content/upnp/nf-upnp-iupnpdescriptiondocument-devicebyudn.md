@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: 0f8ae379-3ec6-4fe2-ae7b-fe3750a5d4c3
 ms.date: 12/05/2018
 ms.keywords: DeviceByUDN, DeviceByUDN method [UPnP APIs], DeviceByUDN method [UPnP APIs],IUPnPDescriptionDocument interface, IUPnPDescriptionDocument interface [UPnP APIs],DeviceByUDN method, IUPnPDescriptionDocument.DeviceByUDN, IUPnPDescriptionDocument::DeviceByUDN, _upnp_iupnpdescriptiondocument_devicebyudn, upnp.iupnpdescriptiondocument_devicebyudn, upnp/IUPnPDescriptionDocument::DeviceByUDN
-ms.topic: method
 f1_keywords:
 - upnp/IUPnPDescriptionDocument.DeviceByUDN
 dev_langs:

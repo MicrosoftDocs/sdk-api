@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: A9E18EC3-83E4-430B-B7A4-49FC9736A94E
 ms.date: 12/05/2018
 ms.keywords: GetProcessActivity, GetProcessActivity method [Media Foundation], GetProcessActivity method [Media Foundation],IMFSensorActivityReport interface, IMFSensorActivityReport interface [Media Foundation],GetProcessActivity method, IMFSensorActivityReport.GetProcessActivity, IMFSensorActivityReport::GetProcessActivity, mf.imfsensoractivityreport_getprocessactivity, mfidl/IMFSensorActivityReport::GetProcessActivity
-ms.topic: method
 f1_keywords:
 - mfidl/IMFSensorActivityReport.GetProcessActivity
 dev_langs:

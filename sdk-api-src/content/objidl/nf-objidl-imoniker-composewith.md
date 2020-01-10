@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 6e41d79c-1a57-4270-aa84-160e0639852b
 ms.date: 12/05/2018
 ms.keywords: ComposeWith, ComposeWith method [COM], ComposeWith method [COM],IMoniker interface, IMoniker interface [COM],ComposeWith method, IMoniker.ComposeWith, IMoniker::ComposeWith, _com_imoniker_composewith, com.imoniker_composewith, objidl/IMoniker::ComposeWith
-ms.topic: method
 f1_keywords:
 - objidl/IMoniker.ComposeWith
 dev_langs:

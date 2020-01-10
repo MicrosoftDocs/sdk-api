@@ -7,7 +7,6 @@ tech.root: mediastreaming
 ms.assetid: 0129ABDA-E634-4236-A3A9-76C94D35D052
 ms.date: 12/05/2018
 ms.keywords: IDevicePair, IDevicePair interface [Media Streaming API], IDevicePair interface [Media Streaming API],described, mediastreaming.idevicepair, windows/IDevicePair
-ms.topic: interface
 f1_keywords:
 - windows.media.streaming/IDevicePair
 dev_langs:

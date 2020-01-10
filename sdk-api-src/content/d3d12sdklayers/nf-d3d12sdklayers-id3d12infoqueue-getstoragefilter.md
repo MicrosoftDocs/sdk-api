@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 077C3BA1-9686-4405-A561-4A6A2B128320
 ms.date: 12/05/2018
 ms.keywords: GetStorageFilter, GetStorageFilter method, GetStorageFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetStorageFilter method, ID3D12InfoQueue.GetStorageFilter, ID3D12InfoQueue::GetStorageFilter, d3d12sdklayers/ID3D12InfoQueue::GetStorageFilter, direct3d12.id3d12infoqueue_getstoragefilter
-ms.topic: method
 f1_keywords:
 - d3d12sdklayers/ID3D12InfoQueue.GetStorageFilter
 dev_langs:

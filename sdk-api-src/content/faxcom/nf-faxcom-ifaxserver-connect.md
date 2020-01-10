@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7984.htm
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [Fax Service], Connect method [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],Connect method, IFaxServer.Connect, IFaxServer::Connect, _mfax_ifaxserver_connect_client, fax._mfax_ifaxserver_client_mfax_ifaxserver_connect_client_cpp, fax._mfax_ifaxserver_connect_client, faxcom/IFaxServer::Connect
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxServer.Connect
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: 2b8bf753-a3c4-4a41-89c7-0caac76cfd33
 ms.date: 12/05/2018
 ms.keywords: SdpAttributeRange, SdpAttributeRange structure [Bluetooth], bluetooth.sdpattributerange, bthsdpdef/SdpAttributeRange
-ms.topic: struct
 f1_keywords:
 - bthsdpdef/SdpAttributeRange
 dev_langs:

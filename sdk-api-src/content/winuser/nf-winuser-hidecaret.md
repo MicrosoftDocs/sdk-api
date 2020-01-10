@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreference\caretfunctions\hidecaret.htm
 ms.date: 12/05/2018
 ms.keywords: HideCaret, HideCaret function [Menus and Other Resources], _win32_HideCaret, _win32_hidecaret_cpp, menurc.hidecaret, winui._win32_hidecaret, winuser/HideCaret
-ms.topic: function
 f1_keywords:
 - winuser/HideCaret
 dev_langs:

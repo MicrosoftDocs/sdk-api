@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 0421f082-9281-4cdb-8b33-2a90c14404dc
 ms.date: 12/05/2018
 ms.keywords: AVIStreamNextSampleTime, AVIStreamNextSampleTime macro [Windows Multimedia], _win32_AVIStreamNextSampleTime, multimedia.avistreamnextsampletime, vfw/AVIStreamNextSampleTime
-ms.topic: macro
 f1_keywords:
 - vfw/AVIStreamNextSampleTime
 dev_langs:

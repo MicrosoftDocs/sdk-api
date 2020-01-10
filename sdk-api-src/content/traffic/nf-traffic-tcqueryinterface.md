@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 7cbee5e9-fecc-4bfc-8b65-f3fc3427c85d
 ms.date: 12/05/2018
 ms.keywords: TcQueryInterface, TcQueryInterface function [QOS], _gqos_tcqueryinterface, qos.tcqueryinterface, traffic/TcQueryInterface
-ms.topic: function
 f1_keywords:
 - traffic/TcQueryInterface
 dev_langs:

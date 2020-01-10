@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 96cc527f-490f-4701-b000-6a42db8715fc
 ms.date: 12/05/2018
 ms.keywords: '*LPDSQUERYCLASSLIST, DSQUERYCLASSLIST, DSQUERYCLASSLIST structure [Active Directory], LPDSQUERYCLASSLIST, LPDSQUERYCLASSLIST structure pointer [Active Directory], _glines_dsqueryclasslist, ad.dsqueryclasslist, dsquery/DSQUERYCLASSLIST, dsquery/LPDSQUERYCLASSLIST'
-ms.topic: struct
 f1_keywords:
 - dsquery/DSQUERYCLASSLIST
 dev_langs:

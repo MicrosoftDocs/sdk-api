@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 8f861c69-2967-4a8d-a64a-e2409d722984
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryProviderNotify interface,SearchFailed method, IWSDiscoveryProviderNotify.SearchFailed, IWSDiscoveryProviderNotify::SearchFailed, SearchFailed, SearchFailed method, SearchFailed method,IWSDiscoveryProviderNotify interface, ncd.iwsdiscoveryprovidernotify_searchfailed_method, wsddisco/IWSDiscoveryProviderNotify::SearchFailed
-ms.topic: method
 f1_keywords:
 - wsddisco/IWSDiscoveryProviderNotify.SearchFailed
 dev_langs:

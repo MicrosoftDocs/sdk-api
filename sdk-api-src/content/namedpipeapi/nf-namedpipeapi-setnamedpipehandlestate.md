@@ -7,7 +7,6 @@ tech.root: ipc
 ms.assetid: 1e62c98e-cecb-4f42-9269-e58ca69e5d39
 ms.date: 12/05/2018
 ms.keywords: PIPE_NOWAIT, PIPE_READMODE_BYTE, PIPE_READMODE_MESSAGE, PIPE_WAIT, SetNamedPipeHandleState, SetNamedPipeHandleState function, _win32_setnamedpipehandlestate, base.setnamedpipehandlestate, namedpipeapi/SetNamedPipeHandleState
-ms.topic: function
 f1_keywords:
 - namedpipeapi/SetNamedPipeHandleState
 dev_langs:

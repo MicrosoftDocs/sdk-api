@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: bb9de83c-087e-4d6e-861a-7db388d59a7c
 ms.date: 12/05/2018
 ms.keywords: GetDeinterlacePrefs, GetDeinterlacePrefs method [DirectShow], GetDeinterlacePrefs method [DirectShow],IVMRDeinterlaceControl interface, IVMRDeinterlaceControl interface [DirectShow],GetDeinterlacePrefs method, IVMRDeinterlaceControl.GetDeinterlacePrefs, IVMRDeinterlaceControl::GetDeinterlacePrefs, IVMRDeinterlaceControlGetDeinterlacePrefs, dshow.ivmrdeinterlacecontrol_getdeinterlaceprefs, strmif/IVMRDeinterlaceControl::GetDeinterlacePrefs
-ms.topic: method
 f1_keywords:
 - strmif/IVMRDeinterlaceControl.GetDeinterlacePrefs
 dev_langs:

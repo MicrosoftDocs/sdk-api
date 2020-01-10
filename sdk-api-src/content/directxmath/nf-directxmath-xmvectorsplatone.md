@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorSplatOne
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSplatOne, XMVectorSplatOne, XMVectorSplatOne method [DirectX Math Support APIs], dxmath.xmvectorsplatone
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorSplatOne
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: ba7b64cf-28de-40d9-80f1-f4b5b1909b77
 ms.date: 12/05/2018
 ms.keywords: GetContainerFormat, GetContainerFormat method [Windows Imaging Component], GetContainerFormat method [Windows Imaging Component],IWICBitmapDecoder interface, IWICBitmapDecoder interface [Windows Imaging Component],GetContainerFormat method, IWICBitmapDecoder.GetContainerFormat, IWICBitmapDecoder::GetContainerFormat, _wic_codec_iwicbitmapdecoder_getcontainerformat, wic._wic_codec_iwicbitmapdecoder_getcontainerformat, wincodec/IWICBitmapDecoder::GetContainerFormat
-ms.topic: method
 f1_keywords:
 - wincodec/IWICBitmapDecoder.GetContainerFormat
 dev_langs:

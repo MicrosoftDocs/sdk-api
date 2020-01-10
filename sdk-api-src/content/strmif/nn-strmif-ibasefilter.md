@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d8c09dc7-dae8-4b51-8da8-69e64928a091
 ms.date: 12/05/2018
 ms.keywords: IBaseFilter, IBaseFilter interface [DirectShow], IBaseFilter interface [DirectShow],described, IBaseFilterInterface, dshow.ibasefilter, strmif/IBaseFilter
-ms.topic: interface
 f1_keywords:
 - strmif/IBaseFilter
 dev_langs:

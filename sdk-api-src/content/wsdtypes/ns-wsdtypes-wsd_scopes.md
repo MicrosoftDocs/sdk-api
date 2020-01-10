@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 3415fef0-dbf4-4ece-bad0-6cd6831404db
 ms.date: 12/05/2018
 ms.keywords: WSD_SCOPES, WSD_SCOPES structure, ncd.wsd_scopes_struct, wsdtypes/WSD_SCOPES
-ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_SCOPES
 dev_langs:

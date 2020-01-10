@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 83695dfd-3634-47e7-8311-7216876a827a
 ms.date: 12/05/2018
 ms.keywords: 83695dfd-3634-47e7-8311-7216876a827a, IInkRecognizerContext interface [Tablet PC],Recognize method, IInkRecognizerContext.Recognize, IInkRecognizerContext::Recognize, Recognize, Recognize method [Tablet PC], Recognize method [Tablet PC],IInkRecognizerContext interface, msinkaut/IInkRecognizerContext::Recognize, tablet.inkrecognizercontext_recognize
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkRecognizerContext.Recognize
 dev_langs:

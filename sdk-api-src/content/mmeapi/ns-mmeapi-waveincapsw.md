@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: e96524fd-82d3-4363-989b-23fb20786f3c
 ms.date: 12/05/2018
 ms.keywords: '*LPWAVEINCAPSW, *NPWAVEINCAPSW, *PWAVEINCAPSW, WAVEINCAPS, WAVEINCAPS structure [Windows Multimedia], WAVEINCAPSW, _win32_WAVEINCAPS_str, mmeapi/WAVEINCAPS, multimedia.waveincaps, tagWAVEINCAPSA, tagWAVEINCAPSW, waveincaps_tag'
-ms.topic: struct
 f1_keywords:
 - mmeapi/WAVEINCAPS
 dev_langs:

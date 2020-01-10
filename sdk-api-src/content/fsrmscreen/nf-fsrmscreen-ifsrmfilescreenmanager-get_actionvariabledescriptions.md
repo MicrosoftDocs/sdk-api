@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 93d7cc4d-3367-4fe2-8e4c-c12be6867d69
 ms.date: 12/05/2018
 ms.keywords: ActionVariableDescriptions property [File Server Resource Manager], ActionVariableDescriptions property [File Server Resource Manager],FsrmFileScreenManager class, ActionVariableDescriptions property [File Server Resource Manager],IFsrmFileScreenManager interface, FsrmFileScreenManager class [File Server Resource Manager],ActionVariableDescriptions property, IFsrmFileScreenManager interface [File Server Resource Manager],ActionVariableDescriptions property, IFsrmFileScreenManager.ActionVariableDescriptions, IFsrmFileScreenManager.get_ActionVariableDescriptions, IFsrmFileScreenManager::ActionVariableDescriptions, IFsrmFileScreenManager::get_ActionVariableDescriptions, fs.ifsrmfilescreenmanager_actionvariabledescriptions, fsrm.ifsrmfilescreenmanager_actionvariabledescriptions, fsrmscreen/IFsrmFileScreenManager::ActionVariableDescriptions, fsrmscreen/IFsrmFileScreenManager::get_ActionVariableDescriptions, get_ActionVariableDescriptions
-ms.topic: method
 f1_keywords:
 - fsrmscreen/IFsrmFileScreenManager.ActionVariableDescriptions
 dev_langs:

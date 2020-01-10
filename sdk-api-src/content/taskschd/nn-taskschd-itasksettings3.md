@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: B0315585-A41C-423C-A059-14C2F04F6652
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings3, ITaskSettings3 interface [Task Scheduler], ITaskSettings3 interface [Task Scheduler],described, taskschd.itasksettings3, taskschd/ITaskSettings3
-ms.topic: interface
 f1_keywords:
 - taskschd/ITaskSettings3
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: e38be757-81c6-49ae-8d90-4387893e8ec5
 ms.date: 12/05/2018
 ms.keywords: SetCommConfig, SetCommConfig function, _win32_setcommconfig, base.setcommconfig, winbase/SetCommConfig
-ms.topic: function
 f1_keywords:
 - winbase/SetCommConfig
 dev_langs:

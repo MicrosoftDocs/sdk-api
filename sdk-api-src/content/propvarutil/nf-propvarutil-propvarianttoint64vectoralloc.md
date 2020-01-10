@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 06f82bf5-5009-4c8b-9f99-4325328bc2e2
 ms.date: 12/05/2018
 ms.keywords: PropVariantToInt64VectorAlloc, PropVariantToInt64VectorAlloc function [Windows Properties], _shell_PropVariantToInt64VectorAlloc, properties.PropVariantToInt64VectorAlloc, propvarutil/PropVariantToInt64VectorAlloc, shell.PropVariantToInt64VectorAlloc
-ms.topic: function
 f1_keywords:
 - propvarutil/PropVariantToInt64VectorAlloc
 dev_langs:

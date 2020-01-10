@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountnotify\faxinto_z_ifaxaccountnotify.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountNotify, IFaxAccountNotify interface [Fax Service], IFaxAccountNotify interface [Fax Service],described, IIFaxAccountNotify, _IFaxAccountNotify, _mfax_ifaxaccountnotify, fax._mfax_ifaxaccountnotify, faxcomex/_IFaxAccountNotify
-ms.topic: interface
 f1_keywords:
 - faxcomex/IFaxAccountNotify
 dev_langs:

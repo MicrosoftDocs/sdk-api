@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 0b69abaf-95ab-49b9-9555-a2244224cb5d
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_VideoRendererActive method, IMSVidCtl.get_VideoRendererActive, IMSVidCtl::get_VideoRendererActive, IMSVidCtlget_VideoRendererActive, get_VideoRendererActive, get_VideoRendererActive method [Microsoft TV Technologies], get_VideoRendererActive method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_videorendereractive, msvidctl/IMSVidCtl::get_VideoRendererActive
-ms.topic: method
 f1_keywords:
 - msvidctl/IMSVidCtl.get_VideoRendererActive
 dev_langs:

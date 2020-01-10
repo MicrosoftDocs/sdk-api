@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: fe1dcd53-fcdd-4190-9a07-65d0b34112d0
 ms.date: 12/05/2018
 ms.keywords: GetImage, GetImage method [windows Media Format], GetImage method [windows Media Format],IWMImageInfo interface, IWMImageInfo interface [windows Media Format],GetImage method, IWMImageInfo.GetImage, IWMImageInfo::GetImage, IWMImageInfoGetImage, wmformat.iwmimageinfo_getimage, wmsdkidl/IWMImageInfo::GetImage
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMImageInfo.GetImage
 dev_langs:

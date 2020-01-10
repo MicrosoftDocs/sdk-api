@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 7cdc32ea-b28a-400f-ad8a-984f86bb95fd
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_PROVUI_FUNCS, CRYPT_PROVUI_FUNCS, CRYPT_PROVUI_FUNCS structure [Security], PCRYPT_PROVUI_FUNCS, PCRYPT_PROVUI_FUNCS structure pointer [Security], security.crypt_provui_funcs, wintrust/CRYPT_PROVUI_FUNCS, wintrust/PCRYPT_PROVUI_FUNCS'
-ms.topic: struct
 f1_keywords:
 - wintrust/CRYPT_PROVUI_FUNCS
 dev_langs:

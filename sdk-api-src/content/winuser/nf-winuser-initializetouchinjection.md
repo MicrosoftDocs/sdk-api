@@ -7,7 +7,6 @@ tech.root: Input_TouchInjection
 ms.assetid: 79cc2a05-d8ee-4d87-9c7b-fa7d5354b04f
 ms.date: 12/05/2018
 ms.keywords: InitializeTouchInjection, InitializeTouchInjection function [Windows Touch], input_touchinjection.initializetouchinjection, touch_injection.initializetouchinjection, winuser/InitializeTouchInjection
-ms.topic: function
 f1_keywords:
 - winuser/InitializeTouchInjection
 dev_langs:

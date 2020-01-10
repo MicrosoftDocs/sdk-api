@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 5c825337-bd60-48e4-9d71-bfd1d38ab171
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_INIT_AUTH_MODE_INFO, BCRYPT_INIT_AUTH_MODE_INFO macro [Security], bcrypt/BCRYPT_INIT_AUTH_MODE_INFO, security.bcrypt_init_auth_mode_info
-ms.topic: macro
 f1_keywords:
 - bcrypt/BCRYPT_INIT_AUTH_MODE_INFO
 dev_langs:

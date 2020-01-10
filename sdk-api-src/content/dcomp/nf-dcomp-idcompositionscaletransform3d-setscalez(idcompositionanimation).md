@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: B086983A-C436-4FF9-B8D6-8A00EEB0931C
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetScaleZ method, IDCompositionScaleTransform3D.SetScaleZ, IDCompositionScaleTransform3D.SetScaleZ(IDCompositionAnimation), IDCompositionScaleTransform3D::SetScaleZ, IDCompositionScaleTransform3D::SetScaleZ(IDCompositionAnimation), IDCompositionScaleTransform3D::SetScaleZ(IDCompositionAnimation*), SetScaleZ, SetScaleZ method [DirectComposition], SetScaleZ method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetScaleZ, directcomp.idcompositionscaletransform3d_setscalez_idcompositionanimation
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionScaleTransform3D.SetScaleZ
 dev_langs:

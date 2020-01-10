@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 937722d6-cabf-4c4d-8ca9-06d6ed91b77a
 ms.date: 12/05/2018
 ms.keywords: PropVariantToInt32, PropVariantToInt32 function [Windows Properties], properties.PropVariantToInt32, propvarutil/PropVariantToInt32, shell.PropVariantToInt32, shell_PropVariantToInt32
-ms.topic: function
 f1_keywords:
 - propvarutil/PropVariantToInt32
 dev_langs:

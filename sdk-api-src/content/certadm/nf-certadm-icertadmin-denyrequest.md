@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: a432fd66-0f80-4fb8-9778-38b240dd6369
 ms.date: 12/05/2018
 ms.keywords: CCertAdmin interface [Security],DenyRequest method, DenyRequest, DenyRequest method [Security], DenyRequest method [Security],CCertAdmin interface, DenyRequest method [Security],ICertAdmin interface, DenyRequest method [Security],ICertAdmin2 interface, ICertAdmin interface [Security],DenyRequest method, ICertAdmin.DenyRequest, ICertAdmin2 interface [Security],DenyRequest method, ICertAdmin2::DenyRequest, ICertAdmin::DenyRequest, certadm/ICertAdmin2::DenyRequest, certadm/ICertAdmin::DenyRequest, security.icertadmin2_denyrequest
-ms.topic: method
 f1_keywords:
 - certadm/ICertAdmin2.DenyRequest
 dev_langs:

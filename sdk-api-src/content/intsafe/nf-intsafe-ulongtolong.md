@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0cf73a49-84a9-4062-9dd3-6e0ad1a00b1c
 ms.date: 12/05/2018
 ms.keywords: DWordToLong, ULongToLong, ULongToLong function [Windows Shell], _shell_ULongToLong, intsafe/ULongToLong, shell.ULongToLong
-ms.topic: function
 f1_keywords:
 - intsafe/ULongToLong
 dev_langs:

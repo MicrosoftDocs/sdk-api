@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: c47ad9d7-cf04-4ab4-9c44-78a5e54fc04e
 ms.date: 12/05/2018
 ms.keywords: GPMigrationTable class [GPMC],UpdateDestination method, IGPMMigrationTable interface [GPMC],UpdateDestination method, IGPMMigrationTable.UpdateDestination, IGPMMigrationTable::UpdateDestination, UpdateDestination, UpdateDestination method [GPMC], UpdateDestination method [GPMC],GPMigrationTable class, UpdateDestination method [GPMC],IGPMMigrationTable interface, gpmc.igpmmigrationtable_updatedestination, gpmgmt/IGPMMigrationTable::UpdateDestination
-ms.topic: method
 f1_keywords:
 - gpmgmt/IGPMMigrationTable.UpdateDestination
 dev_langs:

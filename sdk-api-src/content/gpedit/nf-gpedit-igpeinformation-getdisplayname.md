@@ -7,7 +7,6 @@ tech.root: Policy
 ms.assetid: 3c1a43a5-5d16-4abc-85e0-1eeace2ee086
 ms.date: 12/05/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Group Policy], GetDisplayName method [Group Policy],IGPEInformation interface, IGPEInformation interface [Group Policy],GetDisplayName method, IGPEInformation.GetDisplayName, IGPEInformation::GetDisplayName, _win32_igpeinformation_getdisplayname, gpedit/IGPEInformation::GetDisplayName, policy.igpeinformation_getdisplayname
-ms.topic: method
 f1_keywords:
 - gpedit/IGPEInformation.GetDisplayName
 dev_langs:

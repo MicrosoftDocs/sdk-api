@@ -4,7 +4,6 @@ title: D3D12_LIFETIME_STATE
 description: Defines constants that specify the lifetime state of a lifetime-tracked object.
 ms.date: 10/30/2019
 ms.keywords: D3D12_LIFETIME_STATE
-ms.topic: language-reference
 f1_keywords:
 - d3d12/D3D12_LIFETIME_STATE
 dev_langs:

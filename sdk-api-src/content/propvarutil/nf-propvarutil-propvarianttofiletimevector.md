@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: ef665f50-3f3b-47db-9133-490305da5341
 ms.date: 12/05/2018
 ms.keywords: PropVariantToFileTimeVector, PropVariantToFileTimeVector function [Windows Properties], _shell_PropVariantToFileTimeVector, properties.PropVariantToFileTimeVector, propvarutil/PropVariantToFileTimeVector, shell.PropVariantToFileTimeVector
-ms.topic: function
 f1_keywords:
 - propvarutil/PropVariantToFileTimeVector
 dev_langs:

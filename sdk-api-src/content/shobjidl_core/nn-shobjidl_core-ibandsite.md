@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d7893136-a1a3-4c4b-b8f3-e4679710d827
 ms.date: 12/05/2018
 ms.keywords: IBandSite, IBandSite interface [Windows Shell], IBandSite interface [Windows Shell],described, _win32_IBandSite, shell.IBandSite, shobjidl_core/IBandSite
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IBandSite
 dev_langs:

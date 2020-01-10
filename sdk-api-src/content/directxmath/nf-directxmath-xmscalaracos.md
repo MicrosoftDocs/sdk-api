@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.scalar.XMScalarACos(float)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMScalarACos, XMScalarACos, XMScalarACos method [DirectX Math Support APIs], dxmath.xmscalaracos
-ms.topic: function
 f1_keywords:
 - directxmath/XMScalarACos
 dev_langs:

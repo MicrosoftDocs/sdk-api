@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: e6c4e802-c1dd-4ee9-b1d8-d1ad1ec19a65
 ms.date: 12/05/2018
 ms.keywords: GetResultPropertyList, GetResultPropertyList function [Tablet PC], e6c4e802-c1dd-4ee9-b1d8-d1ad1ec19a65, recapis/GetResultPropertyList, tablet.getresultpropertylist
-ms.topic: function
 f1_keywords:
 - recapis/GetResultPropertyList
 dev_langs:

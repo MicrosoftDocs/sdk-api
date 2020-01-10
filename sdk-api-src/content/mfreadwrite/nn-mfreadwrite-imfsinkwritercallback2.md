@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 92885A3C-137D-42DD-A65D-D2CE56A69A68
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriterCallback2, IMFSinkWriterCallback2 interface [Media Foundation], IMFSinkWriterCallback2 interface [Media Foundation],described, mf.imfsinkwritercallback2, mfreadwrite/IMFSinkWriterCallback2
-ms.topic: interface
 f1_keywords:
 - mfreadwrite/IMFSinkWriterCallback2
 dev_langs:

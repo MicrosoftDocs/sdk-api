@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 1a6fd68c-8e71-45f8-8a8e-c8a5f4f36868
 ms.date: 12/05/2018
 ms.keywords: IServerSecurity interface [COM],QueryBlanket method, IServerSecurity.QueryBlanket, IServerSecurity::QueryBlanket, QueryBlanket, QueryBlanket method [COM], QueryBlanket method [COM],IServerSecurity interface, _com_iserversecurity_queryblanket, com.iserversecurity_queryblanket, objidlbase/IServerSecurity::QueryBlanket
-ms.topic: method
 f1_keywords:
 - objidl/IServerSecurity.QueryBlanket
 dev_langs:

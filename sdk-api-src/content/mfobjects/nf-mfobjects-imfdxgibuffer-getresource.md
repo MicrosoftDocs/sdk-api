@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: E8FF3346-D60A-4FF9-AF3E-673397EA6E6A
 ms.date: 12/05/2018
 ms.keywords: GetResource, GetResource method [Media Foundation], GetResource method [Media Foundation],IMFDXGIBuffer interface, IMFDXGIBuffer interface [Media Foundation],GetResource method, IMFDXGIBuffer.GetResource, IMFDXGIBuffer::GetResource, mf.imfdxgibuffer_getresource, mfobjects/IMFDXGIBuffer::GetResource
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFDXGIBuffer.GetResource
 dev_langs:

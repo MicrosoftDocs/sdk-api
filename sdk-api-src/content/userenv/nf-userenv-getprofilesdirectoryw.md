@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e21411fa-f7e1-4944-93ce-7d9314d79fbf
 ms.date: 12/05/2018
 ms.keywords: GetProfilesDirectory, GetProfilesDirectory function [Windows Shell], GetProfilesDirectoryA, GetProfilesDirectoryW, _shell_GetProfilesDirectory, shell.GetProfilesDirectory, userenv/GetProfilesDirectory, userenv/GetProfilesDirectoryA, userenv/GetProfilesDirectoryW
-ms.topic: function
 f1_keywords:
 - userenv/GetProfilesDirectory
 dev_langs:

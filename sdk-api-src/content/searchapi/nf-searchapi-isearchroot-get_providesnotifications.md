@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_providesnotifications.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchRoot interface [search],get_ProvidesNotifications method, ISearchRoot.get_ProvidesNotifications, ISearchRoot::get_ProvidesNotifications, _search_ISearchRoot_get_ProvidesNotifications, get_ProvidesNotifications, get_ProvidesNotifications method [search], get_ProvidesNotifications method [search],ISearchRoot interface, search._search_ISearchRoot_get_ProvidesNotifications, searchapi/ISearchRoot::get_ProvidesNotifications
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchRoot.get_ProvidesNotifications
 dev_langs:

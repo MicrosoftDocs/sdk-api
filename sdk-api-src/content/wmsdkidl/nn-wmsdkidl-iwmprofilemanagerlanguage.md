@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 54875162-65fe-4959-b567-38c17ba2894d
 ms.date: 12/05/2018
 ms.keywords: IWMProfileManagerLanguage, IWMProfileManagerLanguage interface [windows Media Format], IWMProfileManagerLanguage interface [windows Media Format],described, IWMProfileManagerLanguageInterface, wmformat.iwmprofilemanagerlanguage, wmsdkidl/IWMProfileManagerLanguage
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMProfileManagerLanguage
 dev_langs:

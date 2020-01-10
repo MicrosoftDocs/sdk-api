@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 0b764eca-552b-4431-812b-93fa0c03179e
 ms.date: 12/05/2018
 ms.keywords: UuidIsNil, UuidIsNil function [RPC], _rpc_uuidisnil, rpc.uuidisnil, rpcdce/UuidIsNil
-ms.topic: function
 f1_keywords:
 - rpcdce/UuidIsNil
 dev_langs:

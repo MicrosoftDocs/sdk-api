@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 64107d5b-3071-4bd4-9c2c-dd06006aec4d
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterVerifyFeatureSet, EngineAdapterVerifyFeatureSet callback function [Windows Biometric Framework API], PIBIO_ENGINE_VERIFY_FEATURE_SET_FN, PIBIO_ENGINE_VERIFY_FEATURE_SET_FN callback, secbiomet.engineadapterverifyfeatureset, winbio_adapter/EngineAdapterVerifyFeatureSet
-ms.topic: callback
 f1_keywords:
 - winbio_adapter/EngineAdapterVerifyFeatureSet
 dev_langs:

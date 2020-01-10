@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: C712DA82-CA4F-4C5B-A391-3B40D5EE61C4
 ms.date: 12/05/2018
 ms.keywords: GetQualifiedResources, GetQualifiedResources method [App packaging and management], GetQualifiedResources method [App packaging and management],IAppxManifestReader2 interface, IAppxManifestReader2 interface [App packaging and management],GetQualifiedResources method, IAppxManifestReader2.GetQualifiedResources, IAppxManifestReader2::GetQualifiedResources, appxpackaging/IAppxManifestReader2::GetQualifiedResources, appxpkg.iappxmanifestreader2_getqualifiedresources
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxManifestReader2.GetQualifiedResources
 dev_langs:

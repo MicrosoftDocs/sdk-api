@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_getborder.htm
 ms.date: 12/05/2018
 ms.keywords: Pager_GetBorder, Pager_GetBorder macro [Windows Controls], _win32_Pager_GetBorder, _win32_Pager_GetBorder_cpp, commctrl/Pager_GetBorder, controls.Pager_GetBorder, controls._win32_Pager_GetBorder
-ms.topic: macro
 f1_keywords:
 - commctrl/Pager_GetBorder
 dev_langs:

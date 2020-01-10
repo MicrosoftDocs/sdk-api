@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 746fd84f-58f8-42ab-bcf7-8fd18dcd02af
 ms.date: 12/05/2018
 ms.keywords: 746fd84f-58f8-42ab-bcf7-8fd18dcd02af, MFVideoInfo, MFVideoInfo structure [Media Foundation], mf.mfvideoinfo, mfobjects/MFVideoInfo
-ms.topic: struct
 f1_keywords:
 - mfobjects/MFVideoInfo
 dev_langs:

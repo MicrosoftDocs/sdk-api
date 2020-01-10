@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.SubmitSourceBuffer(const XAUDIO2_BUFFER,const XAUDIO2_BUFFER_WMA)
 ms.date: 12/05/2018
 ms.keywords: IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],SubmitSourceBuffer method, IXAudio2SourceVoice.SubmitSourceBuffer, IXAudio2SourceVoice::SubmitSourceBuffer, SubmitSourceBuffer, SubmitSourceBuffer method [XAudio2 Audio Mixing APIs], SubmitSourceBuffer method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, xaudio2.ixaudio2sourcevoice_interface_submitsourcebuffer, xaudio2/IXAudio2SourceVoice::SubmitSourceBuffer
-ms.topic: method
 f1_keywords:
 - xaudio2/IXAudio2SourceVoice.SubmitSourceBuffer
 dev_langs:

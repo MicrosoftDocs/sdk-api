@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 821b9bfc-931c-4e83-a899-4755bad3e7ae
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_lostPackets method, IWMPNetwork.get_lostPackets, IWMPNetwork::get_lostPackets, IWMPNetworkget_lostPackets, get_lostPackets, get_lostPackets method [Windows Media Player], get_lostPackets method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_lostpackets, wmp/IWMPNetwork::get_lostPackets
-ms.topic: method
 f1_keywords:
 - wmp/IWMPNetwork.get_lostPackets
 dev_langs:

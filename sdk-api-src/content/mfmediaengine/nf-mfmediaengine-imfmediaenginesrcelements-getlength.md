@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 212883A5-5613-4BCC-8713-9CD5E6480136
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Media Foundation], GetLength method [Media Foundation],IMFMediaEngineSrcElements interface, IMFMediaEngineSrcElements interface [Media Foundation],GetLength method, IMFMediaEngineSrcElements.GetLength, IMFMediaEngineSrcElements::GetLength, mf.imfmediaenginesrcelements_getlength, mfmediaengine/IMFMediaEngineSrcElements::GetLength
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngineSrcElements.GetLength
 dev_langs:

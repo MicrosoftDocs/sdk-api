@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 35dfe39e-05b4-4c7b-9358-081429b064f2
 ms.date: 12/05/2018
 ms.keywords: IBDA_Topology, IBDA_Topology interface [Microsoft TV Technologies], IBDA_Topology interface [Microsoft TV Technologies],described, IBDA_TopologyInterface, bdaiface/IBDA_Topology, mstv.ibda_topology
-ms.topic: interface
 f1_keywords:
 - bdaiface/IBDA_Topology
 dev_langs:

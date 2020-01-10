@@ -4,7 +4,6 @@ title: LPWSPSETSOCKOPT
 description: The LPWSPSetSockOpt function sets a socket option.
 ms.date: 9/12/2019
 ms.keywords: LPWSPSETSOCKOPT
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

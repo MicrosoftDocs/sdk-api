@@ -5,7 +5,6 @@ description: The Graphics::DrawCurve method draws a cardinal spline.
 ms.assetid: c42c3e85-d967-4b68-983b-fa96be63d1e8
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawCurve
-ms.topic: language-reference
 f1_keywords:
 - gdiplusgraphics/Graphics::DrawCurve
 dev_langs:

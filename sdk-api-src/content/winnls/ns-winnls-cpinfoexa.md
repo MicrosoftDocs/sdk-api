@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 9639bb11-477e-45ee-b9fb-d5d099925e00
 ms.date: 12/05/2018
 ms.keywords: '*LPCPINFOEXA, CPINFOEX, CPINFOEX structure [Internationalization for Windows Applications], CPINFOEXA, LPCPINFOEX, LPCPINFOEX structure pointer [Internationalization for Windows Applications], _win32_CPINFOEX_str, intl.cpinfoex, winnls/CPINFOEX, winnls/LPCPINFOEX'
-ms.topic: struct
 f1_keywords:
 - winnls/CPINFOEX
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookfunctions\deregistershellhookwindow.htm
 ms.date: 12/05/2018
 ms.keywords: DeregisterShellHookWindow, DeregisterShellHookWindow function [Windows and Messages], _win32_DeregisterShellHookWindow, _win32_deregistershellhookwindow_cpp, winmsg.deregistershellhookwindow, winui._win32_deregistershellhookwindow, winuser/DeregisterShellHookWindow
-ms.topic: function
 f1_keywords:
 - winuser/DeregisterShellHookWindow
 dev_langs:

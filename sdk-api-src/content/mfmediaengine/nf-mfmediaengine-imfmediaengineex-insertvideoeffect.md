@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 7F59BE62-D3F1-4C5A-94FD-F864342797BF
 ms.date: 12/05/2018
 ms.keywords: FALSE, IMFMediaEngineEx interface [Media Foundation],InsertVideoEffect method, IMFMediaEngineEx.InsertVideoEffect, IMFMediaEngineEx::InsertVideoEffect, InsertVideoEffect, InsertVideoEffect method [Media Foundation], InsertVideoEffect method [Media Foundation],IMFMediaEngineEx interface, TRUE, mf.imfmediaengineex_insertvideoeffect, mfmediaengine/IMFMediaEngineEx::InsertVideoEffect
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngineEx.InsertVideoEffect
 dev_langs:

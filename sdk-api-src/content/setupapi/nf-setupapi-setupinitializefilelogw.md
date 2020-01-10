@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: fac7abac-76a9-456a-843a-e1048df268b7
 ms.date: 12/05/2018
 ms.keywords: SetupInitializeFileLog, SetupInitializeFileLog function [Setup API], SetupInitializeFileLogA, SetupInitializeFileLogW, _setupapi_setupinitializefilelog, setup.setupinitializefilelog, setupapi/SetupInitializeFileLog, setupapi/SetupInitializeFileLogA, setupapi/SetupInitializeFileLogW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupInitializeFileLog
 dev_langs:

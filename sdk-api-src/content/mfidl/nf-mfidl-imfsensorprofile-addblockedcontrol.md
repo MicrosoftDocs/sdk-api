@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 1D1EAD84-5053-47B2-9366-EEBE8681970F
 ms.date: 12/05/2018
 ms.keywords: AddBlockedControl, AddBlockedControl method [Media Foundation], AddBlockedControl method [Media Foundation],IMFSensorProfile interface, IMFSensorProfile interface [Media Foundation],AddBlockedControl method, IMFSensorProfile.AddBlockedControl, IMFSensorProfile::AddBlockedControl, mf.imfsensorprofile_addblockedcontrol, mfidl/IMFSensorProfile::AddBlockedControl
-ms.topic: method
 f1_keywords:
 - mfidl/IMFSensorProfile.AddBlockedControl
 dev_langs:

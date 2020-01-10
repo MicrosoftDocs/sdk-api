@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: d8dbc0fb-de02-4491-94f5-e845a2338251
 ms.date: 12/05/2018
 ms.keywords: CreateTemplate, CreateTemplate method [File Server Resource Manager], CreateTemplate method [File Server Resource Manager],FsrmQuotaTemplateManager class, CreateTemplate method [File Server Resource Manager],IFsrmQuotaTemplateManager interface, FsrmQuotaTemplateManager class [File Server Resource Manager],CreateTemplate method, IFsrmQuotaTemplateManager interface [File Server Resource Manager],CreateTemplate method, IFsrmQuotaTemplateManager.CreateTemplate, IFsrmQuotaTemplateManager::CreateTemplate, fs.ifsrmquotatemplatemanager_createtemplate, fsrm.ifsrmquotatemplatemanager_createtemplate, fsrmquota/IFsrmQuotaTemplateManager::CreateTemplate
-ms.topic: method
 f1_keywords:
 - fsrmquota/IFsrmQuotaTemplateManager.CreateTemplate
 dev_langs:

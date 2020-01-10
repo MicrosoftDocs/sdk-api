@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 6B157EE8-36C8-4054-9975-3D3B82B3D013
 ms.date: 12/05/2018
 ms.keywords: AddPage, AddPage method [Direct2D], AddPage method [Direct2D],ID2D1PrintControl interface, ID2D1PrintControl interface [Direct2D],AddPage method, ID2D1PrintControl.AddPage, ID2D1PrintControl::AddPage, d2d1_1/ID2D1PrintControl::AddPage, direct2d.id2d1printcontrol_addpage
-ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1PrintControl.AddPage
 dev_langs:

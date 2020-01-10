@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: FAEBC952-EDCB-4855-AB2B-193B87E3ECF7
 ms.date: 12/05/2018
 ms.keywords: IApartmentShutdown interface [Windows Runtime],OnUninitialize method, IApartmentShutdown.OnUninitialize, IApartmentShutdown::OnUninitialize, OnUninitialize, OnUninitialize method [Windows Runtime], OnUninitialize method [Windows Runtime],IApartmentShutdown interface, objidl/IApartmentShutdown::OnUninitialize, winrt.iapartmentshutdown_onuninitialize
-ms.topic: method
 f1_keywords:
 - objidl/IApartmentShutdown.OnUninitialize
 dev_langs:

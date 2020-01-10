@@ -5,7 +5,6 @@ description: The Graphics::GetClipBounds method gets a rectangle that encloses t
 ms.assetid: e33964c8-d643-420c-87d7-91fc561bcd1d
 ms.date: 05/13/2019
 ms.keywords: Graphics::GetClipBounds
-ms.topic: language-reference
 f1_keywords:
 - gdiplusgraphics/Graphics::GetClipBounds
 dev_langs:

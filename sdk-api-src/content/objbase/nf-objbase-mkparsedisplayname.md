@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: ada46dd3-e2c5-4ff5-89bd-3805f98b247b
 ms.date: 12/05/2018
 ms.keywords: MkParseDisplayName, MkParseDisplayName function [COM], _com_MkParseDisplayName, com.mkparsedisplayname, objbase/MkParseDisplayName
-ms.topic: function
 f1_keywords:
 - objbase/MkParseDisplayName
 dev_langs:

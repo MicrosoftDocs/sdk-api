@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2d22c987-3a25-4a36-8411-eaed921d066e
 ms.date: 12/05/2018
 ms.keywords: IAssocHandler interface [Windows Shell],Invoke method, IAssocHandler.Invoke, IAssocHandler::Invoke, Invoke, Invoke method [Windows Shell], Invoke method [Windows Shell],IAssocHandler interface, _shell_IAssocHandler_Invoke, shell.IAssocHandler_Invoke, shobjidl_core/IAssocHandler::Invoke
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IAssocHandler.Invoke
 dev_langs:

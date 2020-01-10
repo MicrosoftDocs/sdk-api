@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 249dcb1a-4ce3-4478-8331-fb81e91313b0
 ms.date: 12/05/2018
 ms.keywords: CCD_Functions_e8c6c762-da08-4b21-b016-e66bb44c248d.xml, DisplayConfigGetDeviceInfo, DisplayConfigGetDeviceInfo function [Display Devices], display.displayconfiggetdeviceinfo, winuser/DisplayConfigGetDeviceInfo
-ms.topic: function
 f1_keywords:
 - winuser/DisplayConfigGetDeviceInfo
 dev_langs:

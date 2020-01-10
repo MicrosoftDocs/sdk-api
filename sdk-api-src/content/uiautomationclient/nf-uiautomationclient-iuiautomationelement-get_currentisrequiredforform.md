@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 30482395-1d26-4f86-868c-4c46d5375c00
 ms.date: 12/05/2018
 ms.keywords: CurrentIsRequiredForForm property [Windows Accessibility], CurrentIsRequiredForForm property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentIsRequiredForForm property, IUIAutomationElement.CurrentIsRequiredForForm, IUIAutomationElement.get_CurrentIsRequiredForForm, IUIAutomationElement::CurrentIsRequiredForForm, IUIAutomationElement::get_CurrentIsRequiredForForm, get_CurrentIsRequiredForForm, uiauto.uiauto_IUIAutomationElement_CurrentIsRequiredForForm, uiauto_IUIAutomationElement_CurrentIsRequiredForForm, uiautomationclient/IUIAutomationElement::CurrentIsRequiredForForm, uiautomationclient/IUIAutomationElement::get_CurrentIsRequiredForForm, winauto.uiauto_IUIAutomationElement_CurrentIsRequiredForForm
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationElement.CurrentIsRequiredForForm
 dev_langs:

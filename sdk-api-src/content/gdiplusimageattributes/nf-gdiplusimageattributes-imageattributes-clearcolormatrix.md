@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\clearcolormatrix.htm
 ms.date: 12/05/2018
 ms.keywords: ClearColorMatrix, ClearColorMatrix method [GDI+], ClearColorMatrix method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],ClearColorMatrix method, ImageAttributes.ClearColorMatrix, ImageAttributes::ClearColorMatrix, _gdiplus_CLASS_ImageAttributes_ClearColorMatrix_type_, gdiplus._gdiplus_CLASS_ImageAttributes_ClearColorMatrix_type_
-ms.topic: method
 f1_keywords:
 - gdiplusimageattributes/ImageAttributes.ClearColorMatrix
 dev_langs:

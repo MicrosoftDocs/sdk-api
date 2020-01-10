@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: d4a4ac59-56fb-4693-9007-f358105f82f0
 ms.date: 12/05/2018
 ms.keywords: MesHandleFree, MesHandleFree function [RPC], _rpc_meshandlefree, midles/MesHandleFree, rpc.meshandlefree
-ms.topic: function
 f1_keywords:
 - midles/MesHandleFree
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7a42ba12-987a-4b43-9d95-085a5e896245
 ms.date: 12/05/2018
 ms.keywords: GetBandInfoSFB, GetBandInfoSFB method [Windows Shell], GetBandInfoSFB method [Windows Shell],IShellFolderBand interface, IShellFolderBand interface [Windows Shell],GetBandInfoSFB method, IShellFolderBand.GetBandInfoSFB, IShellFolderBand::GetBandInfoSFB, _win32_IShellFolderBand_GetBandInfoSFB, shell.IShellFolderBand_GetBandInfoSFB, shlobj/IShellFolderBand::GetBandInfoSFB
-ms.topic: method
 f1_keywords:
 - shlobj/IShellFolderBand.GetBandInfoSFB
 dev_langs:

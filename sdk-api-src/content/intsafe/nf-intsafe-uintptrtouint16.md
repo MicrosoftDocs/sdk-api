@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ff01f865-5955-48a6-abcd-205488028f00
 ms.date: 12/05/2018
 ms.keywords: UIntPtrToUInt16, UIntPtrToUInt16 function [Windows Shell], intsafe/UIntPtrToUInt16, shell.UIntPtrToUInt16
-ms.topic: function
 f1_keywords:
 - intsafe/UIntPtrToUInt16
 dev_langs:

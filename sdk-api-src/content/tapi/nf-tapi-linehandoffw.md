@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 931c2fa4-dad6-432d-8f07-bb04b646916b
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linehandoff, lineHandoff, lineHandoff function [TAPI 2.2], lineHandoffA, lineHandoffW, tapi/lineHandoff, tapi/lineHandoffA, tapi/lineHandoffW, tapi2.linehandoff
-ms.topic: function
 f1_keywords:
 - tapi/lineHandoff
 dev_langs:

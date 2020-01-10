@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 14c48484-59b0-4e39-8684-9875edfd6556
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [Microsoft TV Technologies], GetStream method [Microsoft TV Technologies],ISBE2MediaTypeProfile interface, ISBE2MediaTypeProfile interface [Microsoft TV Technologies],GetStream method, ISBE2MediaTypeProfile.GetStream, ISBE2MediaTypeProfile::GetStream, mstv.isbe2mediatypeprofile_getstream, sbe/ISBE2MediaTypeProfile::GetStream
-ms.topic: method
 f1_keywords:
 - sbe/ISBE2MediaTypeProfile.GetStream
 dev_langs:

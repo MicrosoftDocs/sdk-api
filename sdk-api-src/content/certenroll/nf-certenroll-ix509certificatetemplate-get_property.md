@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 4588891e-7be4-482a-bbad-c23759b06b1b
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateTemplate interface [Security],Property property, IX509CertificateTemplate.Property, IX509CertificateTemplate.get_Property, IX509CertificateTemplate::Property, IX509CertificateTemplate::get_Property, Property property [Security], Property property [Security],IX509CertificateTemplate interface, certenroll/IX509CertificateTemplate::Property, certenroll/IX509CertificateTemplate::get_Property, get_Property, security.ix509certificatetemplate_property
-ms.topic: method
 f1_keywords:
 - certenroll/IX509CertificateTemplate.Property
 dev_langs:

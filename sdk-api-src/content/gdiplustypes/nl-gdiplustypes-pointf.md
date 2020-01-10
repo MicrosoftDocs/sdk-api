@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointf.htm
 ms.date: 12/05/2018
 ms.keywords: PointF, PointF class [GDI+], PointF class [GDI+],described, _gdiplus_CLASS_PointF_Class, gdiplus._gdiplus_CLASS_PointF_Class, gdiplustypes/PointF
-ms.topic: class
 f1_keywords:
 - gdiplustypes/PointF
 dev_langs:

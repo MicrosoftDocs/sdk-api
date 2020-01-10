@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 114a2a71-babd-4cd7-860a-fea523bcc865
 ms.date: 12/05/2018
 ms.keywords: WlanSetInterface, WlanSetInterface function [NativeWIFI], nwifi.wlansetinterface, wlanapi/WlanSetInterface
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanSetInterface
 dev_langs:

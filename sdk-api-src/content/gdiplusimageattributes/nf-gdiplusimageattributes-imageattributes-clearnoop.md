@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\clearnoop.htm
 ms.date: 12/05/2018
 ms.keywords: ClearNoOp, ClearNoOp method [GDI+], ClearNoOp method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],ClearNoOp method, ImageAttributes.ClearNoOp, ImageAttributes::ClearNoOp, _gdiplus_CLASS_ImageAttributes_ClearNoOp_type_, gdiplus._gdiplus_CLASS_ImageAttributes_ClearNoOp_type_
-ms.topic: method
 f1_keywords:
 - gdiplusimageattributes/ImageAttributes.ClearNoOp
 dev_langs:

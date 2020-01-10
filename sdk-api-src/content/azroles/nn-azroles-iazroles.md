@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: bc69ec52-ea73-4a0c-a9a2-913a6725489e
 ms.date: 12/05/2018
 ms.keywords: IAzRoles, IAzRoles interface [Security], IAzRoles interface [Security],described, azroles/IAzRoles, security.iazroles
-ms.topic: interface
 f1_keywords:
 - azroles/IAzRoles
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 77740dfc-6423-451d-859b-7c894122309d
 ms.date: 12/05/2018
 ms.keywords: IFolderViewHost interface [Windows Shell],Initialize method, IFolderViewHost.Initialize, IFolderViewHost::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IFolderViewHost interface, _shell_IFolderViewHost_Initialize, shell.IFolderViewHost_Initialize, shobjidl/IFolderViewHost::Initialize
-ms.topic: method
 f1_keywords:
 - shobjidl/IFolderViewHost.Initialize
 dev_langs:

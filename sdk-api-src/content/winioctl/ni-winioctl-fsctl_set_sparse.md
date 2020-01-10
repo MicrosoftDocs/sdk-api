@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: aa8f5880-f831-49b6-8359-fe07c78c032f
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SET_SPARSE, FSCTL_SET_SPARSE control, FSCTL_SET_SPARSE control code [Files], _win32_fsctl_set_sparse, base.fsctl_set_sparse, fs.fsctl_set_sparse, winioctl/FSCTL_SET_SPARSE
-ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_SET_SPARSE
 dev_langs:

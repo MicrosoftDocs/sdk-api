@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: d01cf5a6-1fdb-4354-8b43-b04bdc562d71
 ms.date: 12/05/2018
 ms.keywords: GetStorage, GetStorage method [windows Media Device Manager], GetStorage method [windows Media Device Manager],IMDSPDevice2 interface, IMDSPDevice2 interface [windows Media Device Manager],GetStorage method, IMDSPDevice2.GetStorage, IMDSPDevice2::GetStorage, IMDSPDevice2GetStorage, mswmdm/IMDSPDevice2::GetStorage, wmdm.imdspdevice2_getstorage
-ms.topic: method
 f1_keywords:
 - mswmdm/IMDSPDevice2.GetStorage
 dev_langs:

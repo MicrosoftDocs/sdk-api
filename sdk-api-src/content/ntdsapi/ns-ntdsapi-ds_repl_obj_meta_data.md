@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 7851ffbc-5d05-4ea7-b3b4-1b8b77299be5
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_OBJ_META_DATA, DS_REPL_OBJ_META_DATA structure [Active Directory], _glines_ds_repl_obj_meta_data, ad.ds__repl__obj__meta__data, ad.ds_repl_obj_meta_data, ntdsapi/DS_REPL_OBJ_META_DATA
-ms.topic: struct
 f1_keywords:
 - ntdsapi/DS_REPL_OBJ_META_DATA
 dev_langs:

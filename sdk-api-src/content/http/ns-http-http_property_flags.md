@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: cafa3b04-ac8b-4269-bfa9-fe8e9ab65936
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_PROPERTY_FLAGS, *PHTTP_PROPERTY_FLAGS structure [HTTP], HTTP_PROPERTY_FLAGS, HTTP_PROPERTY_FLAGS structure [HTTP], http.http_property_flags, http/*PHTTP_PROPERTY_FLAGS, http/HTTP_PROPERTY_FLAGS'
-ms.topic: struct
 f1_keywords:
 - http/HTTP_PROPERTY_FLAGS
 dev_langs:

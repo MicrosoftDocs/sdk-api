@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 57a3b413-f658-4793-abad-358455b5b9f4
 ms.date: 12/05/2018
 ms.keywords: IADsPropertyValue2, IADsPropertyValue2 interface [ADSI], IADsPropertyValue2 interface [ADSI],described, _ds_iadspropertyvalue2, adsi.iadspropertyvalue2, iads/IADsPropertyValue2
-ms.topic: interface
 f1_keywords:
 - iads/IADsPropertyValue2
 dev_langs:

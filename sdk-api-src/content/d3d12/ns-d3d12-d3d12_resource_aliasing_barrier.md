@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 9855D609-E863-4334-B6BA-B6777FDAB82B
 ms.date: 12/05/2018
 ms.keywords: D3D12_RESOURCE_ALIASING_BARRIER, D3D12_RESOURCE_ALIASING_BARRIER structure, d3d12/D3D12_RESOURCE_ALIASING_BARRIER, direct3d12.d3d12_resource_aliasing_barrier
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_RESOURCE_ALIASING_BARRIER
 dev_langs:

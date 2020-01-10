@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 79fa7b8a-9d24-49ab-8e5d-1471b023c459
 ms.date: 12/05/2018
 ms.keywords: '*PVDS_DISK_EXTENT, PVDS_DISK_EXTENT, PVDS_DISK_EXTENT structure pointer [VDS], VDS_DISK_EXTENT, VDS_DISK_EXTENT structure [VDS], base.vds_disk_extent, vds/PVDS_DISK_EXTENT, vds/_VDS_DISK_EXTENT'
-ms.topic: struct
 f1_keywords:
 - vds/VDS_DISK_EXTENT
 dev_langs:

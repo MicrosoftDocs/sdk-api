@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: a34656f1-3e29-4bcb-a8a7-0eed19368184
 ms.date: 12/05/2018
 ms.keywords: PeerGraphOpen, PeerGraphOpen function [Peer Networking], p2p.peergraphopen, p2p/PeerGraphOpen
-ms.topic: function
 f1_keywords:
 - p2p/PeerGraphOpen
 dev_langs:

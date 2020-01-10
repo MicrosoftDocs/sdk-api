@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4857b824-2b58-4c26-bbab-8a799d20f584
 ms.date: 12/05/2018
 ms.keywords: GetTimes, GetTimes method [Windows Shell], GetTimes method [Windows Shell],IShellItemResources interface, IShellItemResources interface [Windows Shell],GetTimes method, IShellItemResources.GetTimes, IShellItemResources::GetTimes, _shell_IShellItemResources_GetTimes, shell.IShellItemResources_GetTimes, shobjidl_core/IShellItemResources::GetTimes
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellItemResources.GetTimes
 dev_langs:

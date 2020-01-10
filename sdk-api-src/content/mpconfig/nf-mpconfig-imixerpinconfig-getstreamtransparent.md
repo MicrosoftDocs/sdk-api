@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: adee4565-ccc3-4a72-a4ee-c27980868dfa
 ms.date: 12/05/2018
 ms.keywords: GetStreamTransparent, GetStreamTransparent method [DirectShow], GetStreamTransparent method [DirectShow],IMixerPinConfig interface, IMixerPinConfig interface [DirectShow],GetStreamTransparent method, IMixerPinConfig.GetStreamTransparent, IMixerPinConfig::GetStreamTransparent, IMixerPinConfigGetStreamTransparent, dshow.imixerpinconfig_getstreamtransparent, mpconfig/IMixerPinConfig::GetStreamTransparent
-ms.topic: method
 f1_keywords:
 - mpconfig/IMixerPinConfig.GetStreamTransparent
 dev_langs:

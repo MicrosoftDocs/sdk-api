@@ -7,7 +7,6 @@ tech.root: wpd_sdk
 ms.assetid: 7568f5cf-2f9e-459c-ae08-d23b9e37ce4e
 ms.date: 12/05/2018
 ms.keywords: GetSupportedFormats, GetSupportedFormats method [Windows Portable Devices SDK], GetSupportedFormats method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetSupportedFormats method, IPortableDeviceCapabilities.GetSupportedFormats, IPortableDeviceCapabilities::GetSupportedFormats, IPortableDeviceCapabilitiesGetSupportedFormats, portabledeviceapi/IPortableDeviceCapabilities::GetSupportedFormats, wpdsdk.iportabledevicecapabilities_getsupportedformats
-ms.topic: method
 f1_keywords:
 - portabledeviceapi/IPortableDeviceCapabilities.GetSupportedFormats
 dev_langs:

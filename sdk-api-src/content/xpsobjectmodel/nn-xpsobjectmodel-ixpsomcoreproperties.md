@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 705ec9c7-5aa9-4fc5-ad2c-441cb545d056
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], IXpsOMCoreProperties interface [XPS Documents and Packaging],described, xps.ixpsomcoreproperties, xpsobjectmodel/IXpsOMCoreProperties
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties
 dev_langs:

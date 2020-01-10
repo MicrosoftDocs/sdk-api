@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 579a9038-8216-4948-a065-fd45b97da73a
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, RasDial, RasDial function [RAS], RasDialA, RasDialW, _ras_rasdial, ras/RasDial, ras/RasDialA, ras/RasDialW, rras.rasdial
-ms.topic: function
 f1_keywords:
 - ras/RasDial
 dev_langs:

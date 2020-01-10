@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getbufferedpaintbits.htm
 ms.date: 12/05/2018
 ms.keywords: GetBufferedPaintBits, GetBufferedPaintBits function [Windows Controls], _shell_GetBufferedPaintBits, _shell_GetBufferedPaintBits_cpp, controls.GetBufferedPaintBits, controls._shell_GetBufferedPaintBits, uxtheme/GetBufferedPaintBits
-ms.topic: function
 f1_keywords:
 - uxtheme/GetBufferedPaintBits
 dev_langs:

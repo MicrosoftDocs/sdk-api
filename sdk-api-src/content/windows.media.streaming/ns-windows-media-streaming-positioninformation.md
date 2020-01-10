@@ -7,7 +7,6 @@ tech.root: mediastreaming
 ms.assetid: 9601c1ae-3fd2-4761-8aa7-102b72ef4733
 ms.date: 12/05/2018
 ms.keywords: PositionInformation, PositionInformation structure [Media Streaming API], mediastreaming.positioninformation, windows/PositionInformation
-ms.topic: struct
 f1_keywords:
 - windows.media.streaming/PositionInformation
 dev_langs:

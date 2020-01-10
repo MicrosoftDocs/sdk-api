@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 6cccd096-eb8f-488f-9883-3e16e57d3efb
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbShortEventDescriptor interface, IDvbShortEventDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbShortEventDescriptor.GetLength, IDvbShortEventDescriptor::GetLength, dvbsiparser/IDvbShortEventDescriptor::GetLength, mstv.idvbshorteventdescriptor_getlength
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbShortEventDescriptor.GetLength
 dev_langs:

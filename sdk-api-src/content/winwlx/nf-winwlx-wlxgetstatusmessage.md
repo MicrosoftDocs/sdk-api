@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 16208bbe-e697-4e75-8a28-a6d311ecb46c
 ms.date: 12/05/2018
 ms.keywords: WlxGetStatusMessage, WlxGetStatusMessage function [Security], _gina_wlxgetstatusmessage, security.wlxgetstatusmessage, winwlx/WlxGetStatusMessage
-ms.topic: function
 f1_keywords:
 - winwlx/WlxGetStatusMessage
 dev_langs:

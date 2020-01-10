@@ -7,7 +7,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\ldapurl.htm
 ms.date: 12/05/2018
 ms.keywords: IWABObject interface [Windows Address Book],LDAPUrl method, IWABObject.LDAPUrl, IWABObject::LDAPUrl, LDAPUrl, LDAPUrl method [Windows Address Book], LDAPUrl method [Windows Address Book],IWABObject interface, LDAP_AUTH_NEGOTIATE, MAPI_UNICODE, WABOBJECT_LDAPURL_RETURN_MAILUSER, _wab_IWABObject_LDAPUrl, wab._wab_IWABObject_LDAPUrl, wabapi/IWABObject::LDAPUrl
-ms.topic: method
 f1_keywords:
 - wabapi/IWABObject.LDAPUrl
 dev_langs:

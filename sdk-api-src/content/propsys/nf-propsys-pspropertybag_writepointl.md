@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 881A9D35-DF77-44d1-86DF-D6BC97AC0DD4
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_WritePOINTL, PSPropertyBag_WritePOINTL function [Windows Properties], properties.PSPropertyBag_WritePOINTL, propsys/PSPropertyBag_WritePOINTL, shell.PSPropertyBag_WritePOINTL, shell_PSPropertyBag_WritePOINTL
-ms.topic: function
 f1_keywords:
 - propsys/PSPropertyBag_WritePOINTL
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 156948c9-d7b4-4491-bdb1-e1864a32caab
 ms.date: 12/05/2018
 ms.keywords: ExportCallback, ExportCallback callback, ExportCallback callback function [Files], PFE_EXPORT_FUNC, PFE_EXPORT_FUNC callback function [Files], base.exportcallback, fs.exportcallback, winbase/ExportCallback, winbase/PFE_EXPORT_FUNC
-ms.topic: callback
 f1_keywords:
 - winbase/ExportCallback
 dev_langs:

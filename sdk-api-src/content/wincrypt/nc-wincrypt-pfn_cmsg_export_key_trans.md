@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: bbb976df-5c8d-4d5e-ba92-7c534bba59de
 ms.date: 12/05/2018
 ms.keywords: PFN_CMSG_EXPORT_KEY_TRANS, PFN_CMSG_EXPORT_KEY_TRANS callback, PFN_CMSG_EXPORT_KEY_TRANS callback function [Security], security.pfn_cmsg_export_key_trans, wincrypt/PFN_CMSG_EXPORT_KEY_TRANS
-ms.topic: callback
 f1_keywords:
 - wincrypt/PFN_CMSG_EXPORT_KEY_TRANS
 dev_langs:

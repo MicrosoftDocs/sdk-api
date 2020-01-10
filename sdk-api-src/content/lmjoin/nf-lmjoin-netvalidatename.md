@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 772603df-ec17-4a83-a715-2d9a14d5c2bb
 ms.date: 12/05/2018
 ms.keywords: NetSetupDnsMachine, NetSetupDomain, NetSetupMachine, NetSetupNonExistentDomain, NetSetupUnknown, NetSetupWorkgroup, NetValidateName, NetValidateName function [Network Management], _win32_netvalidatename, lmjoin/NetValidateName, netmgmt.netvalidatename
-ms.topic: function
 f1_keywords:
 - lmjoin/NetValidateName
 dev_langs:

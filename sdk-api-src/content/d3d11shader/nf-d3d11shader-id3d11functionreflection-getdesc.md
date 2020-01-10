@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: CD4A0602-BF89-4B17-99E3-35293FB0B66C
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11FunctionReflection interface, ID3D11FunctionReflection interface [Direct3D 11],GetDesc method, ID3D11FunctionReflection.GetDesc, ID3D11FunctionReflection::GetDesc, d3d11shader/ID3D11FunctionReflection::GetDesc, direct3d11.id3d11functionreflection_getdesc
-ms.topic: method
 f1_keywords:
 - d3d11shader/ID3D11FunctionReflection.GetDesc
 dev_langs:

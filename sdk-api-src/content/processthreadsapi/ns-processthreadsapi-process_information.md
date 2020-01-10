@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 78d84499-7e56-4ff7-a8cd-1cf1b275597a
 ms.date: 12/05/2018
 ms.keywords: '*LPPROCESS_INFORMATION, *PPROCESS_INFORMATION, LPPROCESS_INFORMATION, LPPROCESS_INFORMATION structure pointer, PROCESS_INFORMATION, PROCESS_INFORMATION structure, _win32_process_information_str, base.process_information_str, processthreadsapi/LPPROCESS_INFORMATION, processthreadsapi/PROCESS_INFORMATION, winbase/LPPROCESS_INFORMATION, winbase/PROCESS_INFORMATION'
-ms.topic: struct
 f1_keywords:
 - processthreadsapi/PROCESS_INFORMATION
 dev_langs:

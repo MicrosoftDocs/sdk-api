@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: ff137b76-2a05-4e58-8d4f-d12cdd89656b
 ms.date: 12/05/2018
 ms.keywords: BeginSave, BeginSave method [Media Foundation], BeginSave method [Media Foundation],IMFSaveJob interface, IMFSaveJob interface [Media Foundation],BeginSave method, IMFSaveJob.BeginSave, IMFSaveJob::BeginSave, ff137b76-2a05-4e58-8d4f-d12cdd89656b, mf.imfsavejob_beginsave, mfidl/IMFSaveJob::BeginSave
-ms.topic: method
 f1_keywords:
 - mfidl/IMFSaveJob.BeginSave
 dev_langs:

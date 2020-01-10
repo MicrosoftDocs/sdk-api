@@ -7,7 +7,6 @@ tech.root: SbsCs
 ms.assetid: b27ebe4e-02b6-473f-a8cb-c68a3e65e493
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Side-by-side Assemblies], GetName method [Side-by-side Assemblies],IAssemblyName interface, IAssemblyName interface [Side-by-side Assemblies],GetName method, IAssemblyName.GetName, IAssemblyName::GetName, setup.iassemblyname_getname, winsxs/IAssemblyName::GetName
-ms.topic: method
 f1_keywords:
 - winsxs/IAssemblyName.GetName
 dev_langs:

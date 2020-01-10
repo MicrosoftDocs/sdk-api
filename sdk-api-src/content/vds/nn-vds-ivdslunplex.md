@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: de795ae2-784c-43d7-a34c-546af31d2747
 ms.date: 12/05/2018
 ms.keywords: IVdsLunPlex, IVdsLunPlex interface [VDS], IVdsLunPlex interface [VDS],described, base.ivdslunplex, vds/IVdsLunPlex, vdshwprv/IVdsLunPlex
-ms.topic: interface
 f1_keywords:
 - vds/IVdsLunPlex
 dev_langs:

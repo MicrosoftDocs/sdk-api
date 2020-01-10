@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: d67a85e7-6dfc-4444-bb69-a46e1234d021
 ms.date: 12/05/2018
 ms.keywords: DrawingAttributes property [Tablet PC], DrawingAttributes property [Tablet PC],IDynamicRenderer interface, IDynamicRenderer interface [Tablet PC],DrawingAttributes property, IDynamicRenderer.DrawingAttributes, IDynamicRenderer.get_DrawingAttributes, IDynamicRenderer.put_DrawingAttributes, IDynamicRenderer::DrawingAttributes, IDynamicRenderer::get_DrawingAttributes, IDynamicRenderer::put_DrawingAttributes, d67a85e7-6dfc-4444-bb69-a46e1234d021, get_DrawingAttributes, rtscom/IDynamicRenderer::DrawingAttributes, rtscom/IDynamicRenderer::get_DrawingAttributes, rtscom/IDynamicRenderer::put_DrawingAttributes, tablet.idynamicrenderer_drawingattributes
-ms.topic: method
 f1_keywords:
 - rtscom/IDynamicRenderer.DrawingAttributes
 dev_langs:

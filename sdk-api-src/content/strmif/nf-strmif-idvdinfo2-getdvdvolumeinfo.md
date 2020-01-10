@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d55973af-5f56-4e22-b3b0-2cee9f57c2d4
 ms.date: 12/05/2018
 ms.keywords: GetDVDVolumeInfo, GetDVDVolumeInfo method [DirectShow], GetDVDVolumeInfo method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDVDVolumeInfo method, IDvdInfo2.GetDVDVolumeInfo, IDvdInfo2::GetDVDVolumeInfo, IDvdInfo2GetDVDVolumeInfo, dshow.idvdinfo2_getdvdvolumeinfo, strmif/IDvdInfo2::GetDVDVolumeInfo
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo2.GetDVDVolumeInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 651561d1-4e7e-48de-9cba-769ddb553e63
 ms.date: 12/05/2018
 ms.keywords: IMediaEvent, IMediaEvent interface [DirectShow], IMediaEvent interface [DirectShow],described, IMediaEventInterface, control/IMediaEvent, dshow.imediaevent
-ms.topic: interface
 f1_keywords:
 - control/IMediaEvent
 dev_langs:

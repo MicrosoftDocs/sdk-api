@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 433d6d97-9541-496a-8d10-2a2fc31d043d
 ms.date: 12/05/2018
 ms.keywords: RtmHoldDestination, RtmHoldDestination function [RAS], _rtmv2ref_rtmholddestination, rras.rtmholddestination, rtmv2/RtmHoldDestination
-ms.topic: function
 f1_keywords:
 - rtmv2/RtmHoldDestination
 dev_langs:

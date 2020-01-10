@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 6e3d6341-6e5b-445e-b6ac-48853a5b56f2
 ms.date: 12/05/2018
 ms.keywords: ITfPropertyStore interface [Text Services Framework],OnTextUpdated method, ITfPropertyStore.OnTextUpdated, ITfPropertyStore::OnTextUpdated, OnTextUpdated, OnTextUpdated method [Text Services Framework], OnTextUpdated method [Text Services Framework],ITfPropertyStore interface, TF_TU_CORRECTION, _tsf_itfpropertystore_ontextupdated_ref, msctf/ITfPropertyStore::OnTextUpdated, tsf.itfpropertystore_ontextupdated
-ms.topic: method
 f1_keywords:
 - msctf/ITfPropertyStore.OnTextUpdated
 dev_langs:

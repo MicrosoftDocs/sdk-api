@@ -7,7 +7,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\ofnhookproc.htm
 ms.date: 12/05/2018
 ms.keywords: LPOFNHOOKPROC, LPOFNHOOKPROC callback, LPOFNHOOKPROC callback function [Dialog Boxes], _win32_OFNHookProc, _win32_ofnhookproc_cpp, commdlg/LPOFNHOOKPROC, dlgbox.ofnhookproc, winui._win32_ofnhookproc
-ms.topic: callback
 f1_keywords:
 - commdlg/LPOFNHOOKPROC
 dev_langs:

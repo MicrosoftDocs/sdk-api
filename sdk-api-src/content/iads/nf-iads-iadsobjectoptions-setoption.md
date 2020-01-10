@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: e6e43c99-fc8b-4f34-82cf-8cf30c506859
 ms.date: 12/05/2018
 ms.keywords: IADsObjectOptions interface [ADSI],SetOption method, IADsObjectOptions.SetOption, IADsObjectOptions::SetOption, SetOption, SetOption method [ADSI], SetOption method [ADSI],IADsObjectOptions interface, _ds_iadsobjectoptions_setoption, adsi.iadsobjectoptions__setoption, adsi.iadsobjectoptions_setoption, iads/IADsObjectOptions::SetOption
-ms.topic: method
 f1_keywords:
 - iads/IADsObjectOptions.SetOption
 dev_langs:

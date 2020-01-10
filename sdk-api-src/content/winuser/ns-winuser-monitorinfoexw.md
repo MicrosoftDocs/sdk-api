@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: f296ce29-3fc8-41c9-a201-56e222aa2219
 ms.date: 12/05/2018
 ms.keywords: '*LPMONITORINFOEXW, LPMONITORINFOEX, LPMONITORINFOEX structure pointer [Windows GDI], MONITORINFOEX, MONITORINFOEX structure [Windows GDI], MONITORINFOEXW, _win32_MONITORINFOEX_str, gdi.monitorinfoex, tagMONITORINFOEXA, tagMONITORINFOEXW, winuser/LPMONITORINFOEX, winuser/MONITORINFOEX'
-ms.topic: struct
 f1_keywords:
 - winuser/MONITORINFOEX
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 3a410bde-bcff-4a86-aadc-650862dbf38b
 ms.date: 12/05/2018
 ms.keywords: '*PONEX_VARIABLE_BLOB, ONEX_VARIABLE_BLOB, ONEX_VARIABLE_BLOB structure [NativeWIFI], PONEX_VARIABLE_BLOB, PONEX_VARIABLE_BLOB structure pointer [NativeWIFI], dot1x/ONEX_VARIABLE_BLOB, dot1x/PONEX_VARIABLE_BLOB, nwifi.onex_variable_blob'
-ms.topic: struct
 f1_keywords:
 - dot1x/ONEX_VARIABLE_BLOB
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 3C451FF9-F5CD-48C6-A7FE-88BD3E82DA83
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureRecordSink interface [Media Foundation],SetRotation method, IMFCaptureRecordSink.SetRotation, IMFCaptureRecordSink::SetRotation, SetRotation, SetRotation method [Media Foundation], SetRotation method [Media Foundation],IMFCaptureRecordSink interface, mf.imfcapturerecordsink_setrotation, mfcaptureengine/IMFCaptureRecordSink::SetRotation
-ms.topic: method
 f1_keywords:
 - mfcaptureengine/IMFCaptureRecordSink.SetRotation
 dev_langs:

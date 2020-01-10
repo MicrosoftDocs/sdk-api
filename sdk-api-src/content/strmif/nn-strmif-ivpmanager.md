@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9064daa7-5868-49a5-9fd6-9a332ab3b470
 ms.date: 12/05/2018
 ms.keywords: IVPManager, IVPManager interface [DirectShow], IVPManager interface [DirectShow],described, IVPManagerInterface, dshow.ivpmanager, strmif/IVPManager
-ms.topic: interface
 f1_keywords:
 - strmif/IVPManager
 dev_langs:

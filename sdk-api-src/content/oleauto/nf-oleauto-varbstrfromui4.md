@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 6b3d21c4-d473-4f47-8b98-bef4d898f624
 ms.date: 12/05/2018
 ms.keywords: VarBstrFromUI4, VarBstrFromUI4 function [Automation], _oa96_VarBstrFromUI4, automat.varbstrfromui4, oleauto/VarBstrFromUI4
-ms.topic: function
 f1_keywords:
 - oleauto/VarBstrFromUI4
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: b41f01a4-dc38-4954-a3c5-19fa72910d6f
 ms.date: 12/05/2018
 ms.keywords: FreeBuffer, FreeBuffer method [Security], FreeBuffer method [Security],ISceSvcAttachmentPersistInfo interface, ISceSvcAttachmentPersistInfo interface [Security],FreeBuffer method, ISceSvcAttachmentPersistInfo.FreeBuffer, ISceSvcAttachmentPersistInfo::FreeBuffer, _config_iscesvcattachmentpersistinfo_freebuffer, scesvc/ISceSvcAttachmentPersistInfo::FreeBuffer, security.iscesvcattachmentpersistinfo_freebuffer
-ms.topic: method
 f1_keywords:
 - scesvc/ISceSvcAttachmentPersistInfo.FreeBuffer
 dev_langs:

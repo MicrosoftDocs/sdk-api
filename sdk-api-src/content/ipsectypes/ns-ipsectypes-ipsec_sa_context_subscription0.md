@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: d729f4e2-621a-4a39-beed-e339b76f53fc
 ms.date: 12/05/2018
 ms.keywords: IPSEC_SA_CONTEXT_SUBSCRIPTION0, IPSEC_SA_CONTEXT_SUBSCRIPTION0 structure [Filtering], fwp.ipsec_sa_context_subscription0, ipsectypes/IPSEC_SA_CONTEXT_SUBSCRIPTION0
-ms.topic: struct
 f1_keywords:
 - ipsectypes/IPSEC_SA_CONTEXT_SUBSCRIPTION0
 dev_langs:

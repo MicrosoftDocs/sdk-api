@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: cae6b2fd-362b-43a2-b0cb-b42bd103f359
 ms.date: 12/05/2018
 ms.keywords: GetWorkingDirectory, GetWorkingDirectory method [Windows Shell], GetWorkingDirectory method [Windows Shell],IShellLink interface, GetWorkingDirectory method [Windows Shell],IShellLinkA interface, GetWorkingDirectory method [Windows Shell],IShellLinkW interface, IShellLink interface [Windows Shell],GetWorkingDirectory method, IShellLink::GetWorkingDirectory, IShellLinkA interface [Windows Shell],GetWorkingDirectory method, IShellLinkA.GetWorkingDirectory, IShellLinkA::GetWorkingDirectory, IShellLinkW interface [Windows Shell],GetWorkingDirectory method, IShellLinkW::GetWorkingDirectory, _win32_IShellLink_GetWorkingDirectory, shell.IShellLink_GetWorkingDirectory, shobjidl_core/IShellLink::GetWorkingDirectory, shobjidl_core/IShellLinkA::GetWorkingDirectory, shobjidl_core/IShellLinkW::GetWorkingDirectory
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellLink.GetWorkingDirectory
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProjFS
 ms.assetid: 90E37386-C647-476C-A53D-C479411DF8F9
 ms.date: 12/05/2018
 ms.keywords: PrjClearNegativePathCache, PrjClearNegativePathCache function, ProjFS.prjclearnegativepathcache, projectedfslib/PrjClearNegativePathCache
-ms.topic: function
 f1_keywords:
 - projectedfslib/PrjClearNegativePathCache
 dev_langs:

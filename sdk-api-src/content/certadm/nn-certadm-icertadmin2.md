@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: df40b6ac-825d-4e8d-a80b-6e57a4e740a2
 ms.date: 12/05/2018
 ms.keywords: ICertAdmin2, ICertAdmin2 interface [Security], ICertAdmin2 interface [Security],described, _certsrv_icertadmin2, certadm/ICertAdmin2, security.icertadmin2
-ms.topic: interface
 f1_keywords:
 - certadm/ICertAdmin2
 dev_langs:

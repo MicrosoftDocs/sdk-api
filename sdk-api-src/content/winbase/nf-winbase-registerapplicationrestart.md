@@ -7,7 +7,6 @@ tech.root: Recovery
 ms.assetid: f4cd25b3-2aee-460f-9f9f-b45ecded094f
 ms.date: 12/05/2018
 ms.keywords: RESTART_NO_CRASH, RESTART_NO_HANG, RESTART_NO_PATCH, RESTART_NO_REBOOT, RegisterApplicationRestart, RegisterApplicationRestart function [Recovery], base.registerapplicationrestart, recovery.registerapplicationrestart, winbase/RegisterApplicationRestart
-ms.topic: function
 f1_keywords:
 - winbase/RegisterApplicationRestart
 dev_langs:

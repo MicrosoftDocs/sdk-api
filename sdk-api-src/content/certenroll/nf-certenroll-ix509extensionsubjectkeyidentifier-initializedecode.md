@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 5886187d-33b1-4151-a01f-de263c41c27b
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionSubjectKeyIdentifier interface [Security],InitializeDecode method, IX509ExtensionSubjectKeyIdentifier.InitializeDecode, IX509ExtensionSubjectKeyIdentifier::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509ExtensionSubjectKeyIdentifier interface, certenroll/IX509ExtensionSubjectKeyIdentifier::InitializeDecode, security.ix509extensionsubjectkeyidentifier_initializedecode_method
-ms.topic: method
 f1_keywords:
 - certenroll/IX509ExtensionSubjectKeyIdentifier.InitializeDecode
 dev_langs:

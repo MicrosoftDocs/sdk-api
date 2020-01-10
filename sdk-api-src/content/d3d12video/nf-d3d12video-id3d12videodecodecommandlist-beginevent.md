@@ -5,7 +5,6 @@ description: For internal use only. Not intended to be called directly.
 tech.root: mf
 ms.assetid: 3b3a9834-5ecf-449a-b0ab-5fcce86e9ec9
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoDecodeCommandList::BeginEvent
 dev_langs:

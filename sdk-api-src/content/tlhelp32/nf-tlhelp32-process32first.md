@@ -7,7 +7,6 @@ tech.root: ToolHelp
 ms.assetid: 097790e8-30c2-4b00-9256-fa26e2ceb893
 ms.date: 12/05/2018
 ms.keywords: Process32First, Process32First function [ToolHelp], Process32FirstW, _win32_process32first, base.process32first, tlhelp32/Process32First, tlhelp32/Process32FirstW, toolhelp.process32first
-ms.topic: function
 f1_keywords:
 - tlhelp32/Process32First
 dev_langs:

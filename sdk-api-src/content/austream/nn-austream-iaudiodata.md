@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8b253715-a294-4e95-b730-e6efe7f895af
 ms.date: 12/05/2018
 ms.keywords: IAudioData, IAudioData interface [DirectShow], IAudioData interface [DirectShow],described, IAudioDataInterface, austream/IAudioData, dshow.iaudiodata
-ms.topic: interface
 f1_keywords:
 - austream/IAudioData
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: a3064be4-b975-47cb-b0f9-445a09791ebd
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_GetUseMachineID, MI_OperationOptions_GetUseMachineID function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetUseMachineID, wmi_v2.mi_operationoptions_getusemachineid
-ms.topic: function
 f1_keywords:
 - mi/MI_OperationOptions_GetUseMachineID
 dev_langs:

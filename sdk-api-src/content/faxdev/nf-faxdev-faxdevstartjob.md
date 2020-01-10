@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_5ode.htm
 ms.date: 12/05/2018
 ms.keywords: FaxDevStartJob, FaxDevStartJob function [Fax Service], _mfax_faxdevstartjob, fax._mfax_faxdevstartjob, faxdev/FaxDevStartJob
-ms.topic: function
 f1_keywords:
 - faxdev/FaxDevStartJob
 dev_langs:

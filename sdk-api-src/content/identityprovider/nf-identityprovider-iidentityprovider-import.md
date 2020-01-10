@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 16cf4e84-1a68-4794-a456-1a9f5ce4896d
 ms.date: 12/05/2018
 ms.keywords: IIdentityProvider interface [Security],Import method, IIdentityProvider.Import, IIdentityProvider::Import, Import, Import method [Security], Import method [Security],IIdentityProvider interface, identityprovider/IIdentityProvider::Import, security.iidentityprovider_import
-ms.topic: method
 f1_keywords:
 - identityprovider/IIdentityProvider.Import
 dev_langs:

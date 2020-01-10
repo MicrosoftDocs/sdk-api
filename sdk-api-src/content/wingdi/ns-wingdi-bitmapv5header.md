@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: ec5db6f9-93fa-4dbe-afdb-c039292b26e3
 ms.date: 12/05/2018
 ms.keywords: '*LPBITMAPV5HEADER, *PBITMAPV5HEADER, BITMAPV5HEADER, BITMAPV5HEADER structure [Windows GDI], PBITMAPV5HEADER, PBITMAPV5HEADER structure pointer [Windows GDI], _win32_BITMAPV5HEADER_str, gdi.bitmapv5header, wingdi/BITMAPV5HEADER, wingdi/PBITMAPV5HEADER'
-ms.topic: struct
 f1_keywords:
 - wingdi/BITMAPV5HEADER
 dev_langs:

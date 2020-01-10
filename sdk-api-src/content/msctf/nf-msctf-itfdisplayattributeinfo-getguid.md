@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 5202bf19-ae24-44f4-98f0-1f9d64d383a6
 ms.date: 12/05/2018
 ms.keywords: GetGUID, GetGUID method [Text Services Framework], GetGUID method [Text Services Framework],ITfDisplayAttributeInfo interface, ITfDisplayAttributeInfo interface [Text Services Framework],GetGUID method, ITfDisplayAttributeInfo.GetGUID, ITfDisplayAttributeInfo::GetGUID, _tsf_itfdisplayattributeinfo_getguid_ref, msctf/ITfDisplayAttributeInfo::GetGUID, tsf.itfdisplayattributeinfo_getguid
-ms.topic: method
 f1_keywords:
 - msctf/ITfDisplayAttributeInfo.GetGUID
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5bb38b1e-dc09-4868-b424-f11beca6e64f
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],ThumbBarUpdateButtons method, ITaskbarList3.ThumbBarUpdateButtons, ITaskbarList3::ThumbBarUpdateButtons, ThumbBarUpdateButtons, ThumbBarUpdateButtons method [Windows Shell], ThumbBarUpdateButtons method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_ThumbBarUpdateButtons, shell.ITaskbarList3_ThumbBarUpdateButtons, shobjidl_core/ITaskbarList3::ThumbBarUpdateButtons
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ITaskbarList3.ThumbBarUpdateButtons
 dev_langs:

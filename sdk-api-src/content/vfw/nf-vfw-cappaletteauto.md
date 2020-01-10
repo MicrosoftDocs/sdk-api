@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: d83e7dbc-d063-4e76-a7a1-37eaf73b5e8a
 ms.date: 12/05/2018
 ms.keywords: _win32_capPaletteAuto, capPaletteAuto, capPaletteAuto macro [Windows Multimedia], multimedia.cappaletteauto, vfw/capPaletteAuto
-ms.topic: macro
 f1_keywords:
 - vfw/capPaletteAuto
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7d6d6bd5-14cc-432b-b712-64bac78f5df9
 ms.date: 12/05/2018
 ms.keywords: IShellLibrary interface [Windows Shell],SetIcon method, IShellLibrary.SetIcon, IShellLibrary::SetIcon, SetIcon, SetIcon method [Windows Shell], SetIcon method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_SetIcon, shell.IShellLibrary_SetIcon, shobjidl_core/IShellLibrary::SetIcon
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellLibrary.SetIcon
 dev_langs:

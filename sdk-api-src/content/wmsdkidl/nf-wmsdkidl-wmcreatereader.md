@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: f40d4b43-529d-4a78-80ec-4c339a91b28c
 ms.date: 12/05/2018
 ms.keywords: WMCreateReader, WMCreateReader function [windows Media Format], wmformat.wmcreatereader, wmsdkidl/WMCreateReader
-ms.topic: function
 f1_keywords:
 - wmsdkidl/WMCreateReader
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: f3b02b4a-109c-419f-94c1-fc2f15ea5291
 ms.date: 12/05/2018
 ms.keywords: ClearFileSystemFlags, ClearFileSystemFlags method [VDS], ClearFileSystemFlags method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],ClearFileSystemFlags method, IVdsVolumeMF.ClearFileSystemFlags, IVdsVolumeMF::ClearFileSystemFlags, base.ivdsvolumemf_clearfilesystemflags, vds/IVdsVolumeMF::ClearFileSystemFlags
-ms.topic: method
 f1_keywords:
 - vds/IVdsVolumeMF.ClearFileSystemFlags
 dev_langs:

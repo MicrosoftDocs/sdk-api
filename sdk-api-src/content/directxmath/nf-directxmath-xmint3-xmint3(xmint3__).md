@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: 
 ms.date: 05/13/2019
 ms.keywords: XMINT3, XMINT3 constructor [DirectX Math Support APIs], XMINT3 constructor [DirectX Math Support APIs],XMINT3 structure, XMINT3 structure [DirectX Math Support APIs],XMINT3 constructor, XMINT3.XMINT3, XMINT3.XMINT3(), XMINT3.XMINT3(XMINT3 &&), XMINT3::XMINT3, XMINT3::XMINT3(XMINT3 &&), dxmath.xmint3_ctor_1
-ms.topic: method
 f1_keywords:
 - directxmath/XMINT3.XMINT3
 dev_langs:

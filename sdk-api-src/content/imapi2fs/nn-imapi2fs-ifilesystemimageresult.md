@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 30ec514c-97b8-41fc-b814-11f50cacaa25
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImageResult, IFileSystemImageResult interface [IMAPI], IFileSystemImageResult interface [IMAPI],described, imapi.ifilesystemimageresult, imapi2fs/IFileSystemImageResult
-ms.topic: interface
 f1_keywords:
 - imapi2fs/IFileSystemImageResult
 dev_langs:

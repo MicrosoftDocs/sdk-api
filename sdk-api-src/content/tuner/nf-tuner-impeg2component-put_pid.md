@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 0bc19b79-1586-470d-85d5-3ef1babe60e2
 ms.date: 12/05/2018
 ms.keywords: IMPEG2Component interface [Microsoft TV Technologies],put_PID method, IMPEG2Component.put_PID, IMPEG2Component::put_PID, IMPEG2Componentput_PID, mstv.impeg2component_put_pid, put_PID, put_PID method [Microsoft TV Technologies], put_PID method [Microsoft TV Technologies],IMPEG2Component interface, tuner/IMPEG2Component::put_PID
-ms.topic: method
 f1_keywords:
 - tuner/IMPEG2Component.put_PID
 dev_langs:

@@ -5,7 +5,6 @@ description: Encapsulates a list of graphics commands for video decoding.
 tech.root: mf
 ms.assetid: 31a1f145-9be2-4d05-8a20-4d9906471fb6
 ms.date: 05/28/2019
-ms.topic: interface
 f1_keywords:
 - ID3D12VideoDecodeCommandList1
 dev_langs:

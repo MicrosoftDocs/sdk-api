@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 99563293-662f-4478-b8da-8526b832012d
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptIsAlgSupported, NCryptIsAlgSupported function [Security], ncrypt/NCryptIsAlgSupported, security.ncryptisalgsupported_func
-ms.topic: function
 f1_keywords:
 - ncrypt/NCryptIsAlgSupported
 dev_langs:

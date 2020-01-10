@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 4118bb2b-8373-434a-896b-de5a1ba8c793
 ms.date: 12/05/2018
 ms.keywords: IMFTranscodeProfile interface [Media Foundation],SetAudioAttributes method, IMFTranscodeProfile.SetAudioAttributes, IMFTranscodeProfile::SetAudioAttributes, SetAudioAttributes, SetAudioAttributes method [Media Foundation], SetAudioAttributes method [Media Foundation],IMFTranscodeProfile interface, mf.imftranscodeprofile_setaudioattributes, mfidl/IMFTranscodeProfile::SetAudioAttributes
-ms.topic: method
 f1_keywords:
 - mfidl/IMFTranscodeProfile.SetAudioAttributes
 dev_langs:

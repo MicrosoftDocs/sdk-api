@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a35342fd-448b-48cf-8400-30f4b7776bbf
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetTabOrder method, ITaskbarList3.SetTabOrder, ITaskbarList3::SetTabOrder, SetTabOrder, SetTabOrder method [Windows Shell], SetTabOrder method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_SetTabOrder, shell.ITaskbarList3_SetTabOrder, shobjidl_core/ITaskbarList3::SetTabOrder
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ITaskbarList3.SetTabOrder
 dev_langs:

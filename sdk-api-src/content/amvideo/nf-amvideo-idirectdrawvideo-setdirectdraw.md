@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: fd7b9571-2edb-4f36-b7a3-b280c37cb471
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],SetDirectDraw method, IDirectDrawVideo.SetDirectDraw, IDirectDrawVideo::SetDirectDraw, IDirectDrawVideoSetDirectDraw, SetDirectDraw, SetDirectDraw method [DirectShow], SetDirectDraw method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::SetDirectDraw, dshow.idirectdrawvideo_setdirectdraw
-ms.topic: method
 f1_keywords:
 - amvideo/IDirectDrawVideo.SetDirectDraw
 dev_langs:

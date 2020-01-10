@@ -3,7 +3,6 @@ UID: NS:mfapi.tagMFASYNCRESULT~r1
 title: MFASYNCRESULT
 ms.date: 01/30/19
 ms.keywords: tagMFASYNCRESULT, MFASYNCRESULT
-ms.topic: language-reference
 f1_keywords:
 - mfapi/tagMFASYNCRESULT
 dev_langs:

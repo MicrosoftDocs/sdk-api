@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 08bf0bb3-4ee2-4229-9f41-64924c6122c9
 ms.date: 12/05/2018
 ms.keywords: GetVolume, GetVolume method [Media Foundation], GetVolume method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetVolume method, IMFPMediaPlayer.GetVolume, IMFPMediaPlayer::GetVolume, mf.imfpmediaplayer_getvolume, mfplay/IMFPMediaPlayer::GetVolume
-ms.topic: method
 f1_keywords:
 - mfplay/IMFPMediaPlayer.GetVolume
 dev_langs:

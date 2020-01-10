@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: d87d1932-85d4-4d7d-99a7-933a87b48b6a
 ms.date: 12/05/2018
 ms.keywords: AddTreeWithNamedStreams, AddTreeWithNamedStreams method [IMAPI], AddTreeWithNamedStreams method [IMAPI],IFsiDirectoryItem2 interface, IFsiDirectoryItem2 interface [IMAPI],AddTreeWithNamedStreams method, IFsiDirectoryItem2.AddTreeWithNamedStreams, IFsiDirectoryItem2::AddTreeWithNamedStreams, imapi.ifsidirectoryitem2_addtreewithnamedstreams, imapi2fs/IFsiDirectoryItem2::AddTreeWithNamedStreams
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFsiDirectoryItem2.AddTreeWithNamedStreams
 dev_langs:

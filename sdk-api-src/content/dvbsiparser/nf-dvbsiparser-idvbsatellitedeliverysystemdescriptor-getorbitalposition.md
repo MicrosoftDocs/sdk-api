@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 1fc3f934-5a9f-4e76-ae1c-e74ea332e8e6
 ms.date: 12/05/2018
 ms.keywords: GetOrbitalPosition, GetOrbitalPosition method [Microsoft TV Technologies], GetOrbitalPosition method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetOrbitalPosition method, IDvbSatelliteDeliverySystemDescriptor.GetOrbitalPosition, IDvbSatelliteDeliverySystemDescriptor::GetOrbitalPosition, IDvbSatelliteDeliverySystemDescriptorGetOrbitalPosition, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetOrbitalPosition, mstv.idvbsatellitedeliverysystemdescriptor_getorbitalposition
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbSatelliteDeliverySystemDescriptor.GetOrbitalPosition
 dev_langs:

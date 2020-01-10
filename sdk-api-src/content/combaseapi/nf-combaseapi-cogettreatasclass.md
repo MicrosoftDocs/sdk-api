@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: f95fefe6-dc37-45f4-93be-87c996990ab9
 ms.date: 12/05/2018
 ms.keywords: CoGetTreatAsClass, CoGetTreatAsClass function [COM], _com_CoGetTreatAsClass, com.cogettreatasclass, combaseapi/CoGetTreatAsClass
-ms.topic: function
 f1_keywords:
 - combaseapi/CoGetTreatAsClass
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getsplitinfo.htm
 ms.date: 12/05/2018
 ms.keywords: Button_GetSplitInfo, Button_GetSplitInfo macro [Windows Controls], _shell_Button_GetSplitInfo, _shell_Button_GetSplitInfo_cpp, commctrl/Button_GetSplitInfo, controls.Button_GetSplitInfo, controls._shell_Button_GetSplitInfo
-ms.topic: macro
 f1_keywords:
 - commctrl/Button_GetSplitInfo
 dev_langs:

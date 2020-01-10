@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_84rp.htm
 ms.date: 12/05/2018
 ms.keywords: DBLIKE, DBLIKE structure [Indexing Service], _idxs_DBLIKE, cmdtree/DBLIKE, indexsrv.dblike, tagDBLIKE
-ms.topic: struct
 f1_keywords:
 - cmdtree/DBLIKE
 dev_langs:

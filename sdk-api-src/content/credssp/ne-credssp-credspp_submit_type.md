@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: d30e219b-ea39-41da-b714-3ceb13a5614d
 ms.date: 12/05/2018
 ms.keywords: CREDSPP_SUBMIT_TYPE, CREDSPP_SUBMIT_TYPE enumeration [Security], CredsspCertificateCreds, CredsspPasswordCreds, CredsspSchannelCreds, CredsspSubmitBufferBoth, CredsspSubmitBufferBothOld, credssp/CREDSPP_SUBMIT_TYPE, credssp/CredsspCertificateCreds, credssp/CredsspPasswordCreds, credssp/CredsspSchannelCreds, credssp/CredsspSubmitBufferBoth, credssp/CredsspSubmitBufferBothOld, security.credspp_submit_type
-ms.topic: enum
 f1_keywords:
 - credssp/CREDSPP_SUBMIT_TYPE
 dev_langs:

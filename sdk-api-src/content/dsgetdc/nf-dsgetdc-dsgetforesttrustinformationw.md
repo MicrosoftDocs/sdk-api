@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: c94fdc5b-920b-4807-9cbf-3172ec1c7386
 ms.date: 12/05/2018
 ms.keywords: DS_GFTI_UPDATE_TDO, DsGetForestTrustInformationW, DsGetForestTrustInformationW function [Active Directory], ad.dsgetforesttrustinformationw, dsgetdc/DsGetForestTrustInformationW
-ms.topic: function
 f1_keywords:
 - dsgetdc/DsGetForestTrustInformationW
 dev_langs:

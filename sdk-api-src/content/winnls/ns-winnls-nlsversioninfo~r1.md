@@ -3,7 +3,6 @@ UID: NS:winnls._nlsversioninfo~r1
 title: NLSVERSIONINFO
 ms.date: 01/30/19
 ms.keywords: _nlsversioninfo, NLSVERSIONINFO
-ms.topic: language-reference
 f1_keywords:
 - winnls/_nlsversioninfo
 dev_langs:

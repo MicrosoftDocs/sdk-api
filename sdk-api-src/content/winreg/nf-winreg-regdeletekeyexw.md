@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 41fde6a5-647c-4293-92b8-74be54fa4136
 ms.date: 12/05/2018
 ms.keywords: KEY_WOW64_32KEY, KEY_WOW64_64KEY, RegDeleteKeyEx, RegDeleteKeyEx function, RegDeleteKeyExA, RegDeleteKeyExW, base.regdeletekeyex, winreg/RegDeleteKeyEx, winreg/RegDeleteKeyExA, winreg/RegDeleteKeyExW
-ms.topic: function
 f1_keywords:
 - winreg/RegDeleteKeyEx
 dev_langs:

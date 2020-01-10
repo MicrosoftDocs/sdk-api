@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: a7d52959-8386-464f-958d-c870f286b265
 ms.date: 12/05/2018
 ms.keywords: IAnchor, IAnchor interface [Text Services Framework], IAnchor interface [Text Services Framework],described, textstor/IAnchor, tsf.ianchor
-ms.topic: interface
 f1_keywords:
 - textstor/IAnchor
 dev_langs:

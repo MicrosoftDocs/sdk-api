@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: cfd1108e-d7a0-4fe5-be3f-299189089d37
 ms.date: 12/05/2018
 ms.keywords: GetBestInterfaceEx, GetBestInterfaceEx function [IP Helper], iphlp.getbestinterfaceex, iphlpapi/GetBestInterfaceEx
-ms.topic: function
 f1_keywords:
 - iphlpapi/GetBestInterfaceEx
 dev_langs:

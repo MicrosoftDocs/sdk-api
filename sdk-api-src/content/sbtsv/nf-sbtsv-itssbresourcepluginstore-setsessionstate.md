@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: e6cb83d4-9d85-43d0-812d-ad6e2bdcb067
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetSessionState method, ITsSbResourcePluginStore.SetSessionState, ITsSbResourcePluginStore::SetSessionState, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],SetSessionState method, ITsSbResourcePluginStoreEx::SetSessionState, SetSessionState, SetSessionState method [Remote Desktop Services], SetSessionState method [Remote Desktop Services],ITsSbResourcePluginStore interface, SetSessionState method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::SetSessionState, sbtsv/ITsSbResourcePluginStoreEx::SetSessionState, termserv.itssbresourcepluginstore_setsessionstate
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbResourcePluginStore.SetSessionState
 dev_langs:

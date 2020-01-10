@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 8d94694e-1724-42aa-99bb-6ed2c6d3bc0e
 ms.date: 12/05/2018
 ms.keywords: CryptUIDlgCertMgr, CryptUIDlgCertMgr function [Security], cryptuiapi/CryptUIDlgCertMgr, security.cryptuidlgcertmgr
-ms.topic: function
 f1_keywords:
 - cryptuiapi/CryptUIDlgCertMgr
 dev_langs:

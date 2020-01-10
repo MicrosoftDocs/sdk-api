@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 4c757d19-ac66-4ba4-a691-f575f61961be
 ms.date: 12/05/2018
 ms.keywords: '*PFILEMUIINFO, FILEMUIINFO, FILEMUIINFO structure [Internationalization for Windows Applications], PFILEMUIINFO, PFILEMUIINFO structure pointer [Internationalization for Windows Applications], _win32_FILEMUIINFO, intl.filemuiinfo, winnls/FILEMUIINFO, winnls/PFILEMUIINFO'
-ms.topic: struct
 f1_keywords:
 - winnls/FILEMUIINFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 66f8ca3d-2080-4560-8e64-1dc26ceaaad4
 ms.date: 12/05/2018
 ms.keywords: EngGetType1FontList, EngGetType1FontList function [Display Devices], display.enggettype1fontlist, gdifncs_66e06beb-5f9a-4184-9ab8-a0aca467e59d.xml, winddi/EngGetType1FontList
-ms.topic: function
 f1_keywords:
 - winddi/EngGetType1FontList
 dev_langs:

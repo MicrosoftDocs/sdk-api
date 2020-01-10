@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 9719f672-d706-44e3-b976-28d0d0feacd1
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method [COM+],ObjectContext interface, ObjectContext interface [COM+],CreateInstance method, ObjectContext.CreateInstance, ObjectContext::CreateInstance, _cos_ObjectContext_CreateInstance, comsvcs/ObjectContext::CreateInstance, cos.objectcontext_createinstance
-ms.topic: method
 f1_keywords:
 - comsvcs/ObjectContext.CreateInstance
 dev_langs:

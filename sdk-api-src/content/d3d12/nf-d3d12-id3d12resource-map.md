@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 71E43B63-9C84-4E4B-A43D-92B958C8AAF5
 ms.date: 12/05/2018
 ms.keywords: ID3D12Resource interface,Map method, ID3D12Resource.Map, ID3D12Resource::Map, Map, Map method, Map method,ID3D12Resource interface, d3d12/ID3D12Resource::Map, direct3d12.id3d12resource_map
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Resource.Map
 dev_langs:

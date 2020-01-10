@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 9e76487c-465c-4d15-82d0-ed2a21decc33
 ms.date: 12/05/2018
 ms.keywords: GetSignatureXml, GetSignatureXml method [XPS Documents and Packaging], GetSignatureXml method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetSignatureXml method, IXpsSignature.GetSignatureXml, IXpsSignature::GetSignatureXml, xps.ixpssignature_getsignaturexml, xpsdigitalsignature/IXpsSignature::GetSignatureXml
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignature.GetSignatureXml
 dev_langs:

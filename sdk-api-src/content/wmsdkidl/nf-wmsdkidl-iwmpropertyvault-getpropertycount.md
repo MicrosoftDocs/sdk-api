@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 2045183d-8683-416f-bda0-87c5fecf8c11
 ms.date: 12/05/2018
 ms.keywords: GetPropertyCount, GetPropertyCount method [windows Media Format], GetPropertyCount method [windows Media Format],IWMPropertyVault interface, IWMPropertyVault interface [windows Media Format],GetPropertyCount method, IWMPropertyVault.GetPropertyCount, IWMPropertyVault::GetPropertyCount, IWMPropertyVaultGetPropertyCount, wmformat.iwmpropertyvault_getpropertycount, wmsdkidl/IWMPropertyVault::GetPropertyCount
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMPropertyVault.GetPropertyCount
 dev_langs:

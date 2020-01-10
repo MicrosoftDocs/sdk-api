@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a3f6823d-e389-478a-b882-2556a3cbd821
 ms.date: 12/05/2018
 ms.keywords: IAMCrossbar interface [DirectShow],Route method, IAMCrossbar.Route, IAMCrossbar::Route, IAMCrossbarRoute, Route, Route method [DirectShow], Route method [DirectShow],IAMCrossbar interface, dshow.iamcrossbar_route, strmif/IAMCrossbar::Route
-ms.topic: method
 f1_keywords:
 - strmif/IAMCrossbar.Route
 dev_langs:

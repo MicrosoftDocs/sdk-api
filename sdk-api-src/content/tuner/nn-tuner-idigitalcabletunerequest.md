@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 75c3c80f-2f02-4cb7-a9e0-aad4076793e4
 ms.date: 12/05/2018
 ms.keywords: IDigitalCableTuneRequest, IDigitalCableTuneRequest interface [Microsoft TV Technologies], IDigitalCableTuneRequest interface [Microsoft TV Technologies],described, IDigitalCableTuneRequestInterface, mstv.idigitalcabletunerequest, tuner/IDigitalCableTuneRequest
-ms.topic: interface
 f1_keywords:
 - tuner/IDigitalCableTuneRequest
 dev_langs:

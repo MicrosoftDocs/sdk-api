@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 208b40cd-c138-4311-8702-18a61713b71a
 ms.date: 12/05/2018
 ms.keywords: GetClientCount, GetClientCount method [windows Media Format], GetClientCount method [windows Media Format],IWMClientConnections interface, IWMClientConnections interface [windows Media Format],GetClientCount method, IWMClientConnections.GetClientCount, IWMClientConnections::GetClientCount, IWMClientConnectionsGetClientCount, wmformat.iwmclientconnections_getclientcount, wmsdkidl/IWMClientConnections::GetClientCount
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMClientConnections.GetClientCount
 dev_langs:

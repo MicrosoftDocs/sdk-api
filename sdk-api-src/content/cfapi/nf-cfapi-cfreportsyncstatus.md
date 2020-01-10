@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: DC77D18A-CBF4-4172-815A-AB49A48D10B3
 ms.date: 12/05/2018
 ms.keywords: CfReportSyncStatus, CfReportSyncStatus function, cfapi/CfReportSyncStatus, cloudApi.cfreportsyncstatus
-ms.topic: function
 f1_keywords:
 - cfapi/CfReportSyncStatus
 dev_langs:

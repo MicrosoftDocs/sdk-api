@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 8EA09675-971E-4399-B718-E7433D894867
 ms.date: 12/05/2018
 ms.keywords: ID2D1Ink interface [Direct2D],RemoveSegmentsAtEnd method, ID2D1Ink.RemoveSegmentsAtEnd, ID2D1Ink::RemoveSegmentsAtEnd, RemoveSegmentsAtEnd, RemoveSegmentsAtEnd method [Direct2D], RemoveSegmentsAtEnd method [Direct2D],ID2D1Ink interface, d2d1_3/ID2D1Ink::RemoveSegmentsAtEnd, direct2d.id2d1ink_removesegmentsatend
-ms.topic: method
 f1_keywords:
 - d2d1_3/ID2D1Ink.RemoveSegmentsAtEnd
 dev_langs:

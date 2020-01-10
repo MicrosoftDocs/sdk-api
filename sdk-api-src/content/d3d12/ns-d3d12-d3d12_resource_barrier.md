@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 49F02D65-767E-4BA4-A90D-68AA2D709E09
 ms.date: 12/05/2018
 ms.keywords: D3D12_RESOURCE_BARRIER, D3D12_RESOURCE_BARRIER structure, d3d12/D3D12_RESOURCE_BARRIER, direct3d12.d3d12_resource_barrier
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_RESOURCE_BARRIER
 dev_langs:

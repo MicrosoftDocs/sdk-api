@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: d24c1a64-e006-4229-a675-54f29b8ac1c2
 ms.date: 12/05/2018
 ms.keywords: ITsSbTaskInfo, ITsSbTaskInfo interface [Remote Desktop Services], ITsSbTaskInfo interface [Remote Desktop Services],described, sbtsv/ITsSbTaskInfo, termserv.itssbtaskinfo
-ms.topic: interface
 f1_keywords:
 - sbtsv/ITsSbTaskInfo
 dev_langs:

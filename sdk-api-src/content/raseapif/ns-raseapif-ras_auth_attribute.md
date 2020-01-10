@@ -7,7 +7,6 @@ tech.root: EAP
 ms.assetid: 36659154-de2b-4a94-b25e-b731a4ef9d99
 ms.date: 12/05/2018
 ms.keywords: '*PRAS_AUTH_ATTRIBUTE, PRAS_AUTH_ATTRIBUTE, PRAS_AUTH_ATTRIBUTE structure pointer [EAP], RAS_AUTH_ATTRIBUTE, RAS_AUTH_ATTRIBUTE structure [EAP], _eap_ras_auth_attribute, eap.ras_auth_attribute, raseapif/PRAS_AUTH_ATTRIBUTE, raseapif/RAS_AUTH_ATTRIBUTE'
-ms.topic: struct
 f1_keywords:
 - raseapif/RAS_AUTH_ATTRIBUTE
 dev_langs:

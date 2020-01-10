@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: aeee7dfc-5ccd-4c30-a59e-5eec93505288
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],get_Size method, IFont.get_Size, IFont::get_Size, _ctrl_ifont_get_size, com.ifont_get_size, get_Size, get_Size method [COM], get_Size method [COM],IFont interface, ocidl/IFont::get_Size
-ms.topic: method
 f1_keywords:
 - ocidl/IFont.get_Size
 dev_langs:

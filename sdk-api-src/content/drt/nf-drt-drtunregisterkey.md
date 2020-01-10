@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: cf8f877b-44a8-4153-bf02-0b0061bc53d2
 ms.date: 12/05/2018
 ms.keywords: DrtUnregisterKey, DrtUnregisterKey function [Peer Networking], drt/DrtUnregisterKey, p2p.drtunregisterkey
-ms.topic: function
 f1_keywords:
 - drt/DrtUnregisterKey
 dev_langs:

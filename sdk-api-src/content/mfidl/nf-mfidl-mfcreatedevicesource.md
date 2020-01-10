@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 9f80b604-1cc2-4d0d-b94e-a2b9dab1fdde
 ms.date: 12/05/2018
 ms.keywords: MFCreateDeviceSource, MFCreateDeviceSource function [Media Foundation], mf.mfcreatedevicesource, mfidl/MFCreateDeviceSource
-ms.topic: function
 f1_keywords:
 - mfidl/MFCreateDeviceSource
 dev_langs:

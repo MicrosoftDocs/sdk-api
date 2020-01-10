@@ -7,7 +7,6 @@ tech.root: hidpi
 ms.assetid: 40044856-82F2-47E2-AD4B-5E4F3868E7B8
 ms.date: 12/05/2018
 ms.keywords: OpenThemeDataForDpi, OpenThemeDataForDpi function [High DPI], hidpi.openthemedatafordpi, uxtheme/OpenThemeDataForDpi
-ms.topic: function
 f1_keywords:
 - uxtheme/OpenThemeDataForDpi
 dev_langs:

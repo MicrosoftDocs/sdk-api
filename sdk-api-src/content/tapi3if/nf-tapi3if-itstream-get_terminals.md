@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 2861dbf7-fc13-4182-90e5-32347f3d1e54
 ms.date: 12/05/2018
 ms.keywords: ITStream interface [TAPI 2.2],get_Terminals method, ITStream.get_Terminals, ITStream::get_Terminals, _tapi3_itstream_get_terminals, get_Terminals, get_Terminals method [TAPI 2.2], get_Terminals method [TAPI 2.2],ITStream interface, tapi3.itstream_get_terminals, tapi3if/ITStream::get_Terminals
-ms.topic: method
 f1_keywords:
 - tapi3if/ITStream.get_Terminals
 dev_langs:

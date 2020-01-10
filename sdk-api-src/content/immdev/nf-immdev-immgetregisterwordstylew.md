@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 29ddf963-f421-4fad-9861-a6ed51e481ac
 ms.date: 12/05/2018
 ms.keywords: ImmGetRegisterWordStyle, ImmGetRegisterWordStyle function [Internationalization for Windows Applications], ImmGetRegisterWordStyleA, ImmGetRegisterWordStyleW, _win32_ImmGetRegisterWordStyle, imm/ImmGetRegisterWordStyle, imm/ImmGetRegisterWordStyleA, imm/ImmGetRegisterWordStyleW, intl.immgetregisterwordstyle
-ms.topic: function
 f1_keywords:
 - immdev/ImmGetRegisterWordStyle
 dev_langs:

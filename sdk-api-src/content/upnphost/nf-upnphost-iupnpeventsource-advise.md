@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: ec68f4ff-7549-4d48-b347-0320bc55329c
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [UPnP APIs], Advise method [UPnP APIs],IUPnPEventSource interface, IUPnPEventSource interface [UPnP APIs],Advise method, IUPnPEventSource.Advise, IUPnPEventSource::Advise, _upnp_iupnpeventsource_advise, upnp.iupnpeventsource_advise, upnphost/IUPnPEventSource::Advise
-ms.topic: method
 f1_keywords:
 - upnphost/IUPnPEventSource.Advise
 dev_langs:

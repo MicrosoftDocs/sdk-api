@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 62d71bca-d2cb-4668-b0bf-2e53756f2cd9
 ms.date: 12/05/2018
 ms.keywords: CreateViewWindow, CreateViewWindow method [Windows Shell], CreateViewWindow method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],CreateViewWindow method, IShellView.CreateViewWindow, IShellView::CreateViewWindow, _win32_IShellView_CreateViewWindow, shell.IShellView_CreateViewWindow, shobjidl_core/IShellView::CreateViewWindow
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellView.CreateViewWindow
 dev_langs:

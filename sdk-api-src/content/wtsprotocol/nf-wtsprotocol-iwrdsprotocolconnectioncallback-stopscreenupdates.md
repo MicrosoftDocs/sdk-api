@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 698b59d3-8391-4101-801c-8d5fd701a757
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolConnectionCallback interface [Remote Desktop Services],StopScreenUpdates method, IWRdsProtocolConnectionCallback.StopScreenUpdates, IWRdsProtocolConnectionCallback::StopScreenUpdates, StopScreenUpdates, StopScreenUpdates method [Remote Desktop Services], StopScreenUpdates method [Remote Desktop Services],IWRdsProtocolConnectionCallback interface, termserv.iwrdsprotocolconnectioncallback_stopscreenupdates, wtsprotocol/IWRdsProtocolConnectionCallback::StopScreenUpdates
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWRdsProtocolConnectionCallback.StopScreenUpdates
 dev_langs:

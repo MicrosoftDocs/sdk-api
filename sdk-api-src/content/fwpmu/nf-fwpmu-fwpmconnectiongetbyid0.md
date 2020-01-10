@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 630f513b-49c9-4d3a-a5e2-7ea6b940d333
 ms.date: 12/05/2018
 ms.keywords: FwpmConnectionGetById0, FwpmConnectionGetById0 function [Filtering], fwp.fwpmconnectiongetbyid0, fwpmu/FwpmConnectionGetById0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmConnectionGetById0
 dev_langs:

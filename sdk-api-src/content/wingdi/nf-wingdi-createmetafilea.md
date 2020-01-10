@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 81b3baae-f0e6-4b71-a6de-953ad3376dbd
 ms.date: 12/05/2018
 ms.keywords: CreateMetaFile, CreateMetaFile function [Windows GDI], CreateMetaFileA, CreateMetaFileW, _win32_CreateMetaFile, gdi.createmetafile, wingdi/CreateMetaFile, wingdi/CreateMetaFileA, wingdi/CreateMetaFileW
-ms.topic: function
 f1_keywords:
 - wingdi/CreateMetaFile
 dev_langs:

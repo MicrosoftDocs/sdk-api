@@ -5,7 +5,6 @@ description: Defines constants that specify a level of dynamic optimization to a
 tech.root: direct3d12
 ms.date: 10/14/2019
 ms.keywords: D3D12_BACKGROUND_PROCESSING_MODE, D3D12_BACKGROUND_PROCESSING_MODE enumeration, direct3d12.d3d12_background_processing_mode
-ms.topic: enum
 f1_keywords:
 - d3d12/D3D12_BACKGROUND_PROCESSING_MODE
 dev_langs:

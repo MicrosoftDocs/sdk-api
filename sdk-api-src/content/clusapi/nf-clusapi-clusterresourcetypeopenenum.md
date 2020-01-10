@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: fa05875a-26c7-401d-ae81-1d204bfd7df1
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_RESOURCE_TYPE_ENUM_ALL, CLUSTER_RESOURCE_TYPE_ENUM_NODES, CLUSTER_RESOURCE_TYPE_ENUM_RESOURCES, ClusterResourceTypeOpenEnum, ClusterResourceTypeOpenEnum function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_TYPE_OPEN_ENUM, PCLUSAPI_CLUSTER_RESOURCE_TYPE_OPEN_ENUM function [Failover Cluster], _wolf_clusterresourcetypeopenenum, clusapi/ClusterResourceTypeOpenEnum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_TYPE_OPEN_ENUM, mscs.clusterresourcetypeopenenum
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterResourceTypeOpenEnum
 dev_langs:

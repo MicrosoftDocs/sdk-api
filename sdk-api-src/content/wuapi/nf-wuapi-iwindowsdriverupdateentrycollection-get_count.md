@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: a3fb3a1c-f555-4443-9afc-9ad6e613fdda
 ms.date: 12/05/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent],IWindowsDriverUpdateEntryCollection interface, IWindowsDriverUpdateEntryCollection interface [Windows Update Agent],Count property, IWindowsDriverUpdateEntryCollection.Count, IWindowsDriverUpdateEntryCollection.get_Count, IWindowsDriverUpdateEntryCollection::Count, IWindowsDriverUpdateEntryCollection::get_Count, get_Count, wua.iwindowsdriverupdateentrycollection_count, wuapi/IWindowsDriverUpdateEntryCollection::Count, wuapi/IWindowsDriverUpdateEntryCollection::get_Count
-ms.topic: method
 f1_keywords:
 - wuapi/IWindowsDriverUpdateEntryCollection.Count
 dev_langs:

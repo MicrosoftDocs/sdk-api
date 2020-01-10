@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 25479814-825a-4af2-8751-b35cf39bbb80
 ms.date: 12/05/2018
 ms.keywords: SHStripMneumonic, SHStripMneumonic function [Windows Shell], SHStripMneumonicA, SHStripMneumonicW, _win32_SHStripMneumonic, shell.SHStripMneumonic, shlwapi/SHStripMneumonic, shlwapi/SHStripMneumonicA, shlwapi/SHStripMneumonicW
-ms.topic: function
 f1_keywords:
 - shlwapi/SHStripMneumonic
 dev_langs:

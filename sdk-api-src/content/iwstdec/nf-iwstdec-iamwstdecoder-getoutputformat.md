@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 63ef7dbe-138b-442a-bf54-1f409c969418
 ms.date: 12/05/2018
 ms.keywords: GetOutputFormat, GetOutputFormat method [DirectShow], GetOutputFormat method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetOutputFormat method, IAMWstDecoder.GetOutputFormat, IAMWstDecoder::GetOutputFormat, IAMWstDecoderGetOutputFormat, dshow.iamwstdecoder_getoutputformat, iwstdec/IAMWstDecoder::GetOutputFormat
-ms.topic: method
 f1_keywords:
 - iwstdec/IAMWstDecoder.GetOutputFormat
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 4e70569b-8502-4eee-bd23-173269b345d1
 ms.date: 12/05/2018
 ms.keywords: DMORegister, DMORegister function [DirectShow], dmoreg/DMORegister, dshow.dmoregister
-ms.topic: function
 f1_keywords:
 - dmoreg/DMORegister
 dev_langs:

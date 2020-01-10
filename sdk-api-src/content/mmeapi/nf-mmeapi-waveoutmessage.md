@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: b4f06107-781f-4b95-8138-ca0e11a21cf4
 ms.date: 12/05/2018
 ms.keywords: _win32_waveOutMessage, mmeapi/waveOutMessage, multimedia.waveoutmessage, waveOutMessage, waveOutMessage function [Windows Multimedia]
-ms.topic: function
 f1_keywords:
 - mmeapi/waveOutMessage
 dev_langs:

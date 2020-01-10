@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: bcdda3e6-d599-4266-ba66-6634ab26f9d0
 ms.date: 12/05/2018
 ms.keywords: VarAnd, VarAnd function [Automation], _oa96_VarAnd, automat.varand, oleauto/VarAnd
-ms.topic: function
 f1_keywords:
 - oleauto/VarAnd
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 59382114-f3da-45e0-843e-51c0fd52a164
 ms.date: 12/05/2018
 ms.keywords: GetNumaAvailableMemoryNodeEx, GetNumaAvailableMemoryNodeEx function, base.getnumaavailablememorynodeex, winbase/GetNumaAvailableMemoryNodeEx
-ms.topic: function
 f1_keywords:
 - winbase/GetNumaAvailableMemoryNodeEx
 dev_langs:

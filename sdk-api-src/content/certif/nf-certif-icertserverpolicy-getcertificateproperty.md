@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: e7ece535-31c7-4468-a9ef-84f4dbf16d76
 ms.date: 12/05/2018
 ms.keywords: CAType, CCertServerPolicy object [Security],GetCertificateProperty method, CRLIndex, CRLState, CRLSuffix, CertCount, CertState, CertSuffix, GeneralFlags, GetCertificateProperty, GetCertificateProperty method [Security], GetCertificateProperty method [Security],CCertServerPolicy object, GetCertificateProperty method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],GetCertificateProperty method, ICertServerPolicy.GetCertificateProperty, ICertServerPolicy::GetCertificateProperty, MachineDNSName, ModuleRegistryLocation, NotAfter, NotBefore, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, PublicKeyAlgorithm, RawCACertificate, RawCRL, RawPublicKey, RawPublicKeyAlgorithmParameters, RequestID, RequesterCAAccess, RequesterNameFromOldCertificate, SanitizedCAName, SanitizedShortName, _certsrv_icertserverpolicy_getcertificateproperty, certif/ICertServerPolicy::GetCertificateProperty, fUseDS, security.icertserverpolicy_getcertificateproperty
-ms.topic: method
 f1_keywords:
 - certif/ICertServerPolicy.GetCertificateProperty
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcalendarborder.htm
 ms.date: 12/05/2018
 ms.keywords: MonthCal_GetCalendarBorder, MonthCal_GetCalendarBorder macro [Windows Controls], _shell_MonthCal_GetCalendarBorder, _shell_MonthCal_GetCalendarBorder_cpp, commctrl/MonthCal_GetCalendarBorder, controls.MonthCal_GetCalendarBorder, controls._shell_MonthCal_GetCalendarBorder
-ms.topic: macro
 f1_keywords:
 - commctrl/MonthCal_GetCalendarBorder
 dev_langs:

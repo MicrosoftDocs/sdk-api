@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 0c4fa9e2-9b7b-4c9e-be58-e28da408337d
 ms.date: 12/05/2018
 ms.keywords: WMT_VIDEOIMAGE_SAMPLE2, WMT_VIDEOIMAGE_SAMPLE2 structure [windows Media Format], wmformat.wmt_videoimage_sample2, wmsdkidl/WMT_VIDEOIMAGE_SAMPLE2
-ms.topic: struct
 f1_keywords:
 - wmsdkidl/WMT_VIDEOIMAGE_SAMPLE2
 dev_langs:

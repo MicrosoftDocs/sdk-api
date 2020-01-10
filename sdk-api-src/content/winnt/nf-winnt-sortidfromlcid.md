@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 78da443e-ad92-4e2f-aebe-c0aed880b8b6
 ms.date: 12/05/2018
 ms.keywords: SORTIDFROMLCID, SORTIDFROMLCID macro [Internationalization for Windows Applications], _win32_SORTIDFROMLCID, intl.sortidfromlcid, winnt/SORTIDFROMLCID
-ms.topic: macro
 f1_keywords:
 - winnt/SORTIDFROMLCID
 dev_langs:

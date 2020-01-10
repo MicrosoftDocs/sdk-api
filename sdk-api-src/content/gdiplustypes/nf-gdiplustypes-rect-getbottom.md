@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\getbottom.htm
 ms.date: 12/05/2018
 ms.keywords: GetBottom, GetBottom method [GDI+], GetBottom method [GDI+],Rect class, Rect class [GDI+],GetBottom method, Rect.GetBottom, Rect::GetBottom, _gdiplus_CLASS_Rect_GetBottom_, gdiplus._gdiplus_CLASS_Rect_GetBottom_
-ms.topic: method
 f1_keywords:
 - gdiplustypes/Rect.GetBottom
 dev_langs:

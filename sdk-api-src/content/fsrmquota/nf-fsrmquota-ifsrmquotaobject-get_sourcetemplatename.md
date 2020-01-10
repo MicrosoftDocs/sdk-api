@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 976b804e-f292-47ff-95df-18e63b8b23d0
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaObject interface [File Server Resource Manager],SourceTemplateName property, IFsrmQuotaObject.SourceTemplateName, IFsrmQuotaObject.get_SourceTemplateName, IFsrmQuotaObject::SourceTemplateName, IFsrmQuotaObject::get_SourceTemplateName, SourceTemplateName property [File Server Resource Manager], SourceTemplateName property [File Server Resource Manager],IFsrmQuotaObject interface, fs.ifsrmquotaobject_sourcetemplatename, fsrm.ifsrmquotaobject_sourcetemplatename, fsrmquota/IFsrmQuotaObject::SourceTemplateName, fsrmquota/IFsrmQuotaObject::get_SourceTemplateName, get_SourceTemplateName
-ms.topic: method
 f1_keywords:
 - fsrmquota/IFsrmQuotaObject.SourceTemplateName
 dev_langs:

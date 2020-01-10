@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 1df2c1d4-ce70-494d-98e4-cda553403215
 ms.date: 12/05/2018
 ms.keywords: NPFMXGetPermCaps, NPFMXGetPermCaps function [Security], _mnp_npfmxgetpermcaps, npapi/NPFMXGetPermCaps, security.npfmxgetpermcaps
-ms.topic: function
 f1_keywords:
 - npapi/NPFMXGetPermCaps
 dev_langs:

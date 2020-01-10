@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_settitle.htm
 ms.date: 12/05/2018
 ms.keywords: PropSheet_SetTitle, PropSheet_SetTitle macro [Windows Controls], _win32_PropSheet_SetTitle, _win32_PropSheet_SetTitle_cpp, controls.PropSheet_SetTitle, controls._win32_PropSheet_SetTitle, prsht/PropSheet_SetTitle
-ms.topic: macro
 f1_keywords:
 - prsht/PropSheet_SetTitle
 dev_langs:

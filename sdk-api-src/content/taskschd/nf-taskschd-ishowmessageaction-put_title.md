@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 6ec51ebb-5aa3-4338-bc88-dd8df34d59ac
 ms.date: 12/05/2018
 ms.keywords: IShowMessageAction interface [Task Scheduler],Title property, IShowMessageAction.Title, IShowMessageAction.put_Title, IShowMessageAction::Title, IShowMessageAction::get_Title, IShowMessageAction::put_Title, Title property [Task Scheduler], Title property [Task Scheduler],IShowMessageAction interface, put_Title, taskschd.ishowmessageaction_title, taskschd/IShowMessageAction::Title, taskschd/IShowMessageAction::get_Title, taskschd/IShowMessageAction::put_Title
-ms.topic: method
 f1_keywords:
 - taskschd/IShowMessageAction.Title
 dev_langs:

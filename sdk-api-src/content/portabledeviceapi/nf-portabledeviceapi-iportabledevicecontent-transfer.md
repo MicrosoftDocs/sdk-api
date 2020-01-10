@@ -7,7 +7,6 @@ tech.root: wpd_sdk
 ms.assetid: 52fd2ca7-56ba-4e7a-9dcc-5b28f344c1df
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceContent interface [Windows Portable Devices SDK],Transfer method, IPortableDeviceContent.Transfer, IPortableDeviceContent::Transfer, IPortableDeviceContentTransfer, Transfer, Transfer method [Windows Portable Devices SDK], Transfer method [Windows Portable Devices SDK],IPortableDeviceContent interface, portabledeviceapi/IPortableDeviceContent::Transfer, wpdsdk.iportabledevicecontent_transfer
-ms.topic: method
 f1_keywords:
 - portabledeviceapi/IPortableDeviceContent.Transfer
 dev_langs:

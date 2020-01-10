@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 99e7d87a-cbf5-42d3-897c-5f5c8860a13a
 ms.date: 12/05/2018
 ms.keywords: AVIIF_KEYFRAME, ICCOMPRESS_KEYFRAME, ICCompress, ICCompress function [Windows Multimedia], _win32_ICCompress, multimedia.iccompress, vfw/ICCompress
-ms.topic: function
 f1_keywords:
 - vfw/ICCompress
 dev_langs:

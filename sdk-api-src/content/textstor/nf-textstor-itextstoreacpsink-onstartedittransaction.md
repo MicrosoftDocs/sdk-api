@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 1d5452a1-b2f3-42d6-a32d-95965c2af8d3
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnStartEditTransaction method, ITextStoreACPSink.OnStartEditTransaction, ITextStoreACPSink::OnStartEditTransaction, OnStartEditTransaction, OnStartEditTransaction method [Text Services Framework], OnStartEditTransaction method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onstartedittransaction_ref, textstor/ITextStoreACPSink::OnStartEditTransaction, tsf.itextstoreacpsink_onstartedittransaction
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreACPSink.OnStartEditTransaction
 dev_langs:

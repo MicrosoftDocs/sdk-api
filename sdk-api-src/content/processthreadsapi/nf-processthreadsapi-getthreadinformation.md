@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: b7996647-78ab-4f32-bcf6-41aa87d13bb8
 ms.date: 12/05/2018
 ms.keywords: GetThreadInformation, GetThreadInformation function, base.getthreadinformation, processthreadsapi/GetThreadInformation
-ms.topic: function
 f1_keywords:
 - processthreadsapi/GetThreadInformation
 dev_langs:

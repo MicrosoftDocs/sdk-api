@@ -7,7 +7,6 @@ tech.root: WinHttp
 ms.assetid: 06340601-9b2d-487a-a82a-aa2175a52dc5
 ms.date: 12/05/2018
 ms.keywords: WinHttpReadData, WinHttpReadData function [WinHTTP], http.winhttpreaddata, winhttp.winhttpreaddata_function, winhttp/WinHttpReadData
-ms.topic: function
 f1_keywords:
 - winhttp/WinHttpReadData
 dev_langs:

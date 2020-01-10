@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 772e3e6c-0616-41f6-a681-d76da97d85fb
 ms.date: 12/05/2018
 ms.keywords: 772e3e6c-0616-41f6-a681-d76da97d85fb, GetCurrentLength, GetCurrentLength method [Media Foundation], GetCurrentLength method [Media Foundation],IMFMediaBuffer interface, IMFMediaBuffer interface [Media Foundation],GetCurrentLength method, IMFMediaBuffer.GetCurrentLength, IMFMediaBuffer::GetCurrentLength, mf.imfmediabuffer_getcurrentlength, mfobjects/IMFMediaBuffer::GetCurrentLength
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFMediaBuffer.GetCurrentLength
 dev_langs:

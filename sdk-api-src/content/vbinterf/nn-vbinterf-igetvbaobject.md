@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: dda96834-7fc9-4361-9861-b9831fc7e6fe
 ms.date: 12/05/2018
 ms.keywords: IGetVBAObject, IGetVBAObject interface [COM], IGetVBAObject interface [COM],described, _com_IGetVBAObject, com.igetvbaobject, vbinterf/IGetVBAObject
-ms.topic: interface
 f1_keywords:
 - vbinterf/IGetVBAObject
 dev_langs:

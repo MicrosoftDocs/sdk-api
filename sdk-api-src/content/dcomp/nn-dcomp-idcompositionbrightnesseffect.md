@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 22503D7B-A359-4877-A437-6A97D8835BC7
 ms.date: 12/05/2018
 ms.keywords: IDCompositionBrightnessEffect, IDCompositionBrightnessEffect interface [DirectComposition], IDCompositionBrightnessEffect interface [DirectComposition],described, dcomp/IDCompositionBrightnessEffect, directcomp.idcompositionbrightnesseffect
-ms.topic: interface
 f1_keywords:
 - dcomp/IDCompositionBrightnessEffect
 dev_langs:

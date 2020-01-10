@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: c103d205-a568-4206-a66e-5473e16cfa3f
 ms.date: 12/05/2018
 ms.keywords: IWMWriterFileSink3 interface [windows Media Format],SetControlStream method, IWMWriterFileSink3.SetControlStream, IWMWriterFileSink3::SetControlStream, IWMWriterFileSink3SetControlStream, SetControlStream, SetControlStream method [windows Media Format], SetControlStream method [windows Media Format],IWMWriterFileSink3 interface, wmformat.iwmwriterfilesink3_setcontrolstream, wmsdkidl/IWMWriterFileSink3::SetControlStream
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMWriterFileSink3.SetControlStream
 dev_langs:

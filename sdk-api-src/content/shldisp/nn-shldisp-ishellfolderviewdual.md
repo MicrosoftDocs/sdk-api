@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 48135f9d-ee80-4dec-87dc-83f407c25777
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewDual, IShellFolderViewDual interface [Windows Shell], IShellFolderViewDual interface [Windows Shell],described, _shell_IShellFolderViewDual, shell.IShellFolderViewDual, shldisp/IShellFolderViewDual
-ms.topic: interface
 f1_keywords:
 - shldisp/IShellFolderViewDual
 dev_langs:

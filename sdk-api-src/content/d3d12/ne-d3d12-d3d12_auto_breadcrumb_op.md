@@ -4,7 +4,6 @@ title: D3D12_AUTO_BREADCRUMB_OP
 description: Defines constants that specify render/compute GPU operations.
 ms.date: 02/07/2019
 ms.keywords: D3D12_AUTO_BREADCRUMB_OP, D3D12_AUTO_BREADCRUMB_OP enumeration, d3d12/D3D12_AUTO_BREADCRUMB_OP, d3d12/D3D12_AUTO_BREADCRUMB_OP enumeration, direct3d12.d3d12_auto_breadcrumb_op
-ms.topic: enum
 f1_keywords:
 - d3d12/D3D12_AUTO_BREADCRUMB_OP
 dev_langs:

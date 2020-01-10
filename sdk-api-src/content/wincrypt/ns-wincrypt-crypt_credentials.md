@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: d28b2f52-3258-44ad-a3ab-0743d3afcd62
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_CREDENTIALS, CREDENTIAL_OID_PASSWORD_CREDENTIALS, CRYPT_CREDENTIALS, CRYPT_CREDENTIALS structure [Security], PCRYPT_CREDENTIALS, PCRYPT_CREDENTIALS structure pointer [Security], security.crypt_credentials, wincrypt/CRYPT_CREDENTIALS, wincrypt/PCRYPT_CREDENTIALS'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_CREDENTIALS
 dev_langs:

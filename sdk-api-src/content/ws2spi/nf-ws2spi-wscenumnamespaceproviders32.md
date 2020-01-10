@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 792737d9-231d-4524-b1a6-b9904951d5b4
 ms.date: 12/05/2018
 ms.keywords: WSCEnumNameSpaceProviders32, WSCEnumNameSpaceProviders32 function [Winsock], winsock.wscenumnamespaceproviders32, ws2spi/WSCEnumNameSpaceProviders32
-ms.topic: function
 f1_keywords:
 - ws2spi/WSCEnumNameSpaceProviders32
 dev_langs:

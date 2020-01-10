@@ -7,7 +7,6 @@ tech.root: MIB
 ms.assetid: 9ae304e0-4653-4757-a823-d4ccf68627bf
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_UDPROW_OWNER_MODULE, MIB_UDPROW_OWNER_MODULE, MIB_UDPROW_OWNER_MODULE structure [MIB], PMIB_UDPROW_OWNER_MODULE, PMIB_UDPROW_OWNER_MODULE structure pointer [MIB], iprtrmib/MIB_UDPROW_OWNER_MODULE, iprtrmib/PMIB_UDPROW_OWNER_MODULE, mib.mib_udprow_owner_module, udpmib/MIB_UDPROW_OWNER_MODULE, udpmib/PMIB_UDPROW_OWNER_MODULE'
-ms.topic: struct
 f1_keywords:
 - udpmib/MIB_UDPROW_OWNER_MODULE
 dev_langs:

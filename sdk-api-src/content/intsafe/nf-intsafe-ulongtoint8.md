@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b6c87822-ad6a-4549-925c-f73ef183b27f
 ms.date: 12/05/2018
 ms.keywords: ULongToInt8, ULongToInt8 function [Windows Shell], intsafe/ULongToInt8, shell.ULongToInt8
-ms.topic: function
 f1_keywords:
 - intsafe/ULongToInt8
 dev_langs:

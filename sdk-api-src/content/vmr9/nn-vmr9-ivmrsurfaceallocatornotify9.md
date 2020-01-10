@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f275b835-e5b3-46f4-8b26-a4b0e2554c7c
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocatorNotify9, IVMRSurfaceAllocatorNotify9 interface [DirectShow], IVMRSurfaceAllocatorNotify9 interface [DirectShow],described, IVMRSurfaceAllocatorNotify9Interface, dshow.ivmrsurfaceallocatornotify9, vmr9/IVMRSurfaceAllocatorNotify9
-ms.topic: interface
 f1_keywords:
 - vmr9/IVMRSurfaceAllocatorNotify9
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 238c3e39-62ba-4e97-9a15-19ad2e2d12e7
 ms.date: 12/05/2018
 ms.keywords: IObjectWithPropertyKey, IObjectWithPropertyKey interface [Windows Shell], IObjectWithPropertyKey interface [Windows Shell],described, _shell_IObjectWithPropertyKey, propsys/IObjectWithPropertyKey, shell.IObjectWithPropertyKey
-ms.topic: interface
 f1_keywords:
 - propsys/IObjectWithPropertyKey
 dev_langs:

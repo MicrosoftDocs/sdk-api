@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 95648480-5b53-4a8c-ba82-6c7f204520d2
 ms.date: 12/05/2018
 ms.keywords: RpcNsEntryObjectInqNext, RpcNsEntryObjectInqNext function [RPC], _rpc_rpcnsentryobjectinqnext, rpc.rpcnsentryobjectinqnext, rpcnsi/RpcNsEntryObjectInqNext
-ms.topic: function
 f1_keywords:
 - rpcnsi/RpcNsEntryObjectInqNext
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2850bdf1-12ea-42cd-a0fb-68491337ae69
 ms.date: 12/05/2018
 ms.keywords: IItemNameLimits, IItemNameLimits interface [Windows Shell], IItemNameLimits interface [Windows Shell],described, _shell_IItemNameLimits, shell.IItemNameLimits, shobjidl_core/IItemNameLimits
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IItemNameLimits
 dev_langs:

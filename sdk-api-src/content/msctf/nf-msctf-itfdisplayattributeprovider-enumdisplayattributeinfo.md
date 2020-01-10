@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 1a19de91-ad79-4c75-956b-5f5de6700cbe
 ms.date: 12/05/2018
 ms.keywords: EnumDisplayAttributeInfo, EnumDisplayAttributeInfo method [Text Services Framework], EnumDisplayAttributeInfo method [Text Services Framework],ITfDisplayAttributeProvider interface, ITfDisplayAttributeProvider interface [Text Services Framework],EnumDisplayAttributeInfo method, ITfDisplayAttributeProvider.EnumDisplayAttributeInfo, ITfDisplayAttributeProvider::EnumDisplayAttributeInfo, _tsf_itfdisplayattributeprovider_enumdisplayattributeinfo_ref, msctf/ITfDisplayAttributeProvider::EnumDisplayAttributeInfo, tsf.itfdisplayattributeprovider_enumdisplayattributeinfo
-ms.topic: method
 f1_keywords:
 - msctf/ITfDisplayAttributeProvider.EnumDisplayAttributeInfo
 dev_langs:

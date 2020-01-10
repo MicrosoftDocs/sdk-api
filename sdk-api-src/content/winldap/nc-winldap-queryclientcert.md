@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: c2788fb9-14db-41d2-9555-ae264f825121
 ms.date: 12/05/2018
 ms.keywords: QUERYCLIENTCERT, QUERYCLIENTCERT callback, QUERYCLIENTCERT callback function [LDAP], _ldap_queryclientcert, ldap.queryclientcert, winldap/QUERYCLIENTCERT
-ms.topic: callback
 f1_keywords:
 - winldap/QUERYCLIENTCERT
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 9d855ae4-a49c-43d6-9ba0-9f6158f4034f
 ms.date: 12/05/2018
 ms.keywords: IScanningTunerEx interface [Microsoft TV Technologies],ResumeCurrentScan method, IScanningTunerEx.ResumeCurrentScan, IScanningTunerEx::ResumeCurrentScan, IScanningTunerExResumeCurrentScan, ResumeCurrentScan, ResumeCurrentScan method [Microsoft TV Technologies], ResumeCurrentScan method [Microsoft TV Technologies],IScanningTunerEx interface, mstv.iscanningtunerex_resumecurrentscan, tuner/IScanningTunerEx::ResumeCurrentScan
-ms.topic: method
 f1_keywords:
 - tuner/IScanningTunerEx.ResumeCurrentScan
 dev_langs:

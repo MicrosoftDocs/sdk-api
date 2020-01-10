@@ -7,7 +7,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9__getcontainer.htm
 ms.date: 12/05/2018
 ms.keywords: GetContainer, GetContainer method [Direct3D 9], GetContainer method [Direct3D 9],IDirect3DSurface9 interface, IDirect3DSurface9 interface [Direct3D 9],GetContainer method, IDirect3DSurface9.GetContainer, IDirect3DSurface9::GetContainer, b487bd6c-1138-b391-b264-d95eb2cadb18, d3d9helper/IDirect3DSurface9::GetContainer, direct3d9.idirect3dsurface9__getcontainer
-ms.topic: method
 f1_keywords:
 - d3d9helper/IDirect3DSurface9.GetContainer
 dev_langs:

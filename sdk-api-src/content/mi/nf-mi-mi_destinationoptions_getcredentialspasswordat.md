@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 95ea5856-5b15-4522-9652-a7b52d89055a
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_GetCredentialsPasswordAt, MI_DestinationOptions_GetCredentialsPasswordAt function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetCredentialsPasswordAt, wmi_v2.mi_destinationoptions_getcredentialspasswordat
-ms.topic: function
 f1_keywords:
 - mi/MI_DestinationOptions_GetCredentialsPasswordAt
 dev_langs:

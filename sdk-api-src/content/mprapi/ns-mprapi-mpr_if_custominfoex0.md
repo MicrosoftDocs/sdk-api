@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 53c4b7ae-db73-4d97-a99f-a98354c48a92
 ms.date: 12/05/2018
 ms.keywords: '*PMPR_IF_CUSTOMINFOEX0, MPRAPI_IF_CUSTOM_CONFIG_FOR_IKEV2, MPR_IF_CUSTOMINFOEX0, MPR_IF_CUSTOMINFOEX0 structure [RAS], PMPR_IF_CUSTOMINFOEX0, PMPR_IF_CUSTOMINFOEX0 structure pointer [RAS], mprapi/MPR_IF_CUSTOMINFOEX0, mprapi/PMPR_IF_CUSTOMINFOEX0, rras.mpr_if_custominfoex0'
-ms.topic: struct
 f1_keywords:
 - mprapi/MPR_IF_CUSTOMINFOEX0
 dev_langs:

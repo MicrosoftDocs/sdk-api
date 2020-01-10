@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 8333d707-4d34-4a87-9990-b25597ffa9fc
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceActiveObject interface [COM],OnDocWindowActivate method, IOleInPlaceActiveObject.OnDocWindowActivate, IOleInPlaceActiveObject::OnDocWindowActivate, OnDocWindowActivate, OnDocWindowActivate method [COM], OnDocWindowActivate method [COM],IOleInPlaceActiveObject interface, _ole_ioleinplaceactiveobject_ondocwindowactivate, com.ioleinplaceactiveobject_ondocwindowactivate, oleidl/IOleInPlaceActiveObject::OnDocWindowActivate
-ms.topic: method
 f1_keywords:
 - oleidl/IOleInPlaceActiveObject.OnDocWindowActivate
 dev_langs:

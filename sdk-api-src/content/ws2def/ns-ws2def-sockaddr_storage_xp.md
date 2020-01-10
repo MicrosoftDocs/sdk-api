@@ -7,7 +7,6 @@ tech.root: NetVista
 ms.assetid: 27e56c1a-ce11-4cdb-9be8-25ed2f94fb37
 ms.date: 12/05/2018
 ms.keywords: '*LPSOCKADDR_STORAGE_XP, *PSOCKADDR_STORAGE, *PSOCKADDR_STORAGE_XP, FAR *LPSOCKADDR_STORAGE_LH, FAR *LPSOCKADDR_STORAGE_LH structure [Network Drivers Starting with Windows Vista], PSOCKADDR_STORAGE_LH, PSOCKADDR_STORAGE_LH structure pointer [Network Drivers Starting with Windows Vista], SOCKADDR_STORAGE, SOCKADDR_STORAGE structure [Network Drivers Starting with Windows Vista], SOCKADDR_STORAGE_LH, SOCKADDR_STORAGE_LH structure [Network Drivers Starting with Windows Vista], SOCKADDR_STORAGE_XP, netvista.sockaddr_storage, ws2def/FAR *LPSOCKADDR_STORAGE_LH, ws2def/PSOCKADDR_STORAGE_LH, ws2def/SOCKADDR_STORAGE, wskref_6daf4329-4069-419a-add7-dada30940663.xml'
-ms.topic: struct
 f1_keywords:
 - ws2def/SOCKADDR_STORAGE_LH
 dev_langs:

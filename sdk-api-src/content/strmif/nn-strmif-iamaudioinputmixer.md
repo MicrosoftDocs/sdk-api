@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 217cb49d-7f5f-42c5-83db-546621f6a375
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer, IAMAudioInputMixer interface [DirectShow], IAMAudioInputMixer interface [DirectShow],described, IAMAudioInputMixerInterface, dshow.iamaudioinputmixer, strmif/IAMAudioInputMixer
-ms.topic: interface
 f1_keywords:
 - strmif/IAMAudioInputMixer
 dev_langs:

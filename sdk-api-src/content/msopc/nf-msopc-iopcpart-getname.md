@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 83fed005-c061-4f1d-8b2b-73397e0b7a92
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Open Packaging Conventions], GetName method [Open Packaging Conventions],IOpcPart interface, IOpcPart interface [Open Packaging Conventions],GetName method, IOpcPart.GetName, IOpcPart::GetName, msopc/IOpcPart::GetName, opc.iopcpart_getname
-ms.topic: method
 f1_keywords:
 - msopc/IOpcPart.GetName
 dev_langs:

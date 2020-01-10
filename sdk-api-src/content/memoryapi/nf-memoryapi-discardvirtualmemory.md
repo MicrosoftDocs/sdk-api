@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 942e80cb-5a68-24fa-5d5d-fe3741bee2dc
 ms.date: 12/05/2018
 ms.keywords: DiscardVirtualMemory, DiscardVirtualMemory function, base.discardvirtualmemory, winbase/DiscardVirtualMemory
-ms.topic: function
 f1_keywords:
 - memoryapi/DiscardVirtualMemory
 dev_langs:

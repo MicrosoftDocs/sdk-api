@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: ddaea389-3f58-4011-bcf8-c60546d1bce1
 ms.date: 12/05/2018
 ms.keywords: Error, Information, LogTimeProvEventFunc, LogTimeProvEventFunc callback, LogTimeProvEventFunc callback function, Warning, _win32_logtimeprovevent, base.logtimeprovevent, timeprov/LogTimeProvEventFunc
-ms.topic: callback
 f1_keywords:
 - timeprov/LogTimeProvEventFunc
 dev_langs:

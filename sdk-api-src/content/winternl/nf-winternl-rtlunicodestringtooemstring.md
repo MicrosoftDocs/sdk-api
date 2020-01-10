@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlunicodestringtooemstring.htm
 ms.date: 12/05/2018
 ms.keywords: FALSE, RtlUnicodeStringToOemString, RtlUnicodeStringToOemString function [Windows API], TRUE, winprog.rtlunicodestringtooemstring, winternl/RtlUnicodeStringToOemString, winui.rtlunicodestringtooemstring
-ms.topic: function
 f1_keywords:
 - winternl/RtlUnicodeStringToOemString
 dev_langs:

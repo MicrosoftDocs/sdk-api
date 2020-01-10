@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: ADD40A97-6BE1-4EDA-BBBB-6B186694F3E6
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorRGBToSRGB, XMColorRGBToSRGB, XMColorRGBToSRGB method [DirectX Math Support APIs], dxmath._xmcolorrgbtosrgb
-ms.topic: function
 f1_keywords:
 - directxmath/XMColorRGBToSRGB
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 738a3037-01a9-465a-a67d-979a29968b68
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionContext interface [Microsoft Broadband Networks],SetProvisionedContext method, IMbnConnectionContext.SetProvisionedContext, IMbnConnectionContext::SetProvisionedContext, SetProvisionedContext, SetProvisionedContext method [Microsoft Broadband Networks], SetProvisionedContext method [Microsoft Broadband Networks],IMbnConnectionContext interface, mbn.imbnconnectioncontext_setprovisionedcontext, mbnapi/IMbnConnectionContext::SetProvisionedContext
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnConnectionContext.SetProvisionedContext
 dev_langs:

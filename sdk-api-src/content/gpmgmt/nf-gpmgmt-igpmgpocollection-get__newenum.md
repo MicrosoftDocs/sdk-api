@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 7db1ec65-9850-4f14-b223-a7decc7648a6
 ms.date: 12/05/2018
 ms.keywords: IGPMGPOCollection interface [GPMC],get__NewEnum method, IGPMGPOCollection.get__NewEnum, IGPMGPOCollection::get__NewEnum, _win32_igpmgpocollection_get__newenum, get__NewEnum, get__NewEnum method [GPMC], get__NewEnum method [GPMC],IGPMGPOCollection interface, gpmc.igpmgpocollection_get__newenum, gpmgmt/IGPMGPOCollection::get__NewEnum
-ms.topic: method
 f1_keywords:
 - gpmgmt/IGPMGPOCollection.get__NewEnum
 dev_langs:

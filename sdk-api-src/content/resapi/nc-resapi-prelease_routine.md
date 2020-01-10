@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 9e8e4557-b223-4f8f-9393-67f589181754
 ms.date: 12/05/2018
 ms.keywords: PRELEASE_ROUTINE, PRELEASE_ROUTINE callback, Release, Release callback function [Failover Cluster], _wolf_release, mscs.release, resapi/PRELEASE_ROUTINE, resapi/Release
-ms.topic: callback
 f1_keywords:
 - resapi/Release
 dev_langs:

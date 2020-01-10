@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 531eef13-8b04-48d2-9070-7f6e34cacd9e
 ms.date: 12/05/2018
 ms.keywords: IMediaSample interface [DirectShow],SetTime method, IMediaSample.SetTime, IMediaSample::SetTime, IMediaSampleSetTime, SetTime, SetTime method [DirectShow], SetTime method [DirectShow],IMediaSample interface, dshow.imediasample_settime, strmif/IMediaSample::SetTime
-ms.topic: method
 f1_keywords:
 - strmif/IMediaSample.SetTime
 dev_langs:

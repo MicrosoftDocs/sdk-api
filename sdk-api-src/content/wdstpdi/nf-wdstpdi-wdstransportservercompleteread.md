@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 0f98305d-4173-4d6f-9132-f1fcc12364ed
 ms.date: 12/05/2018
 ms.keywords: WdsTransportServerCompleteRead, WdsTransportServerCompleteRead function [Windows Deployment Services], wds.wdstransportservercompleteread, wdstpdi/WdsTransportServerCompleteRead
-ms.topic: function
 f1_keywords:
 - wdstpdi/WdsTransportServerCompleteRead
 dev_langs:

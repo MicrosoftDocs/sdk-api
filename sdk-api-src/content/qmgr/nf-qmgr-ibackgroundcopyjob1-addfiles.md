@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 4a9860da-3977-4b97-957f-dd4de1e775cb
 ms.date: 12/05/2018
 ms.keywords: AddFiles, AddFiles method [BITS], AddFiles method [BITS],IBackgroundCopyJob1 interface, IBackgroundCopyJob1 interface [BITS],AddFiles method, IBackgroundCopyJob1.AddFiles, IBackgroundCopyJob1::AddFiles, bits.ibackgroundcopyjob1_addfiles, qmgr/IBackgroundCopyJob1::AddFiles
-ms.topic: method
 f1_keywords:
 - qmgr/IBackgroundCopyJob1.AddFiles
 dev_langs:

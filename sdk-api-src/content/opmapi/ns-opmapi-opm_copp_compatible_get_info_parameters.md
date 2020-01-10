@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 20094e3d-3140-451a-a572-c268ad4c50c1
 ms.date: 12/05/2018
 ms.keywords: OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS, OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS structure [Media Foundation], mf.opm_copp_compatible_get_info_parameters, opmapi/OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS
-ms.topic: struct
 f1_keywords:
 - opmapi/OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS
 dev_langs:

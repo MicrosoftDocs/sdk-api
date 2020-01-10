@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 037d722f-3efb-4c01-8445-b23caafbbdb2
 ms.date: 12/05/2018
 ms.keywords: GetGuid, GetGuid method [Windows Runtime], GetGuid method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetGuid method, IMetaDataTables.GetGuid, IMetaDataTables::GetGuid, rometadataapi/IMetaDataTables::GetGuid, winrt.imetadatatables_getguid
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataTables.GetGuid
 dev_langs:

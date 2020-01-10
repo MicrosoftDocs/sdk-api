@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: a5814a01-9e4b-4510-b6a5-fa6edc6a15ed
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolLicenseConnection interface [Remote Desktop Services],RequestLicensingCapabilities method, IWRdsProtocolLicenseConnection.RequestLicensingCapabilities, IWRdsProtocolLicenseConnection::RequestLicensingCapabilities, RequestLicensingCapabilities, RequestLicensingCapabilities method [Remote Desktop Services], RequestLicensingCapabilities method [Remote Desktop Services],IWRdsProtocolLicenseConnection interface, termserv.iwrdsprotocollicenseconnection_requestlicensingcapabilities, wtsprotocol/IWRdsProtocolLicenseConnection::RequestLicensingCapabilities
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWRdsProtocolLicenseConnection.RequestLicensingCapabilities
 dev_langs:

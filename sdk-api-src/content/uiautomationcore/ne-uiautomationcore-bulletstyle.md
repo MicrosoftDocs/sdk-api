@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: fb4e4df3-ef0d-43e9-abeb-01e328c32692
 ms.date: 12/05/2018
 ms.keywords: BulletStyle, BulletStyle enumeration [Windows Accessibility], BulletStyle_DashBullet, BulletStyle_FilledRoundBullet, BulletStyle_FilledSquareBullet, BulletStyle_HollowRoundBullet, BulletStyle_HollowSquareBullet, BulletStyle_None, BulletStyle_Other, uiauto.uiauto_BulletStyleEnum, uiauto_BulletStyleEnum, uiautomationcore/BulletStyle, uiautomationcore/BulletStyle_DashBullet, uiautomationcore/BulletStyle_FilledRoundBullet, uiautomationcore/BulletStyle_FilledSquareBullet, uiautomationcore/BulletStyle_HollowRoundBullet, uiautomationcore/BulletStyle_HollowSquareBullet, uiautomationcore/BulletStyle_None, uiautomationcore/BulletStyle_Other, winauto.uiauto_BulletStyleEnum
-ms.topic: enum
 f1_keywords:
 - uiautomationcore/BulletStyle
 dev_langs:

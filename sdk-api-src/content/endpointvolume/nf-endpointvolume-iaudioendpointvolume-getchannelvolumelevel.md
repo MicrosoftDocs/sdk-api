@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 3c5b594f-60b5-4172-8e4e-440b51cb13f4
 ms.date: 12/05/2018
 ms.keywords: GetChannelVolumeLevel, GetChannelVolumeLevel method [Core Audio], GetChannelVolumeLevel method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetChannelVolumeLevel method, IAudioEndpointVolume.GetChannelVolumeLevel, IAudioEndpointVolume::GetChannelVolumeLevel, IAudioEndpointVolumeGetChannelVolumeLevel, coreaudio.iaudioendpointvolume_getchannelvolumelevel, endpointvolume/IAudioEndpointVolume::GetChannelVolumeLevel
-ms.topic: method
 f1_keywords:
 - endpointvolume/IAudioEndpointVolume.GetChannelVolumeLevel
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 019823a3-e70d-4b0c-b996-07a13f2bd5f3
 ms.date: 12/05/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],ReleaseUserUserInfo method, ITCallInfo.ReleaseUserUserInfo, ITCallInfo::ReleaseUserUserInfo, ReleaseUserUserInfo, ReleaseUserUserInfo method [TAPI 2.2], ReleaseUserUserInfo method [TAPI 2.2],ITCallInfo interface, _tapi3_itcallinfo_releaseuseruserinfo, tapi3.itcallinfo_releaseuseruserinfo, tapi3if/ITCallInfo::ReleaseUserUserInfo
-ms.topic: method
 f1_keywords:
 - tapi3if/ITCallInfo.ReleaseUserUserInfo
 dev_langs:

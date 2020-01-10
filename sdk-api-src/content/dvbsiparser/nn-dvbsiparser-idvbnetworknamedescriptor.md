@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 1b80892d-05e6-4776-932a-a9e2bf985984
 ms.date: 12/05/2018
 ms.keywords: IDvbNetworkNameDescriptor, IDvbNetworkNameDescriptor interface [Microsoft TV Technologies], IDvbNetworkNameDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/ IDvbNetworkNameDescriptor, mstv.idvbnetworknamedescriptor
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IDvbNetworkNameDescriptor
 dev_langs:

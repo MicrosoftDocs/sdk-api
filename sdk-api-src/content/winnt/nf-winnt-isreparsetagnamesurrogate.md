@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 6d79527a-0c78-42d2-b079-3eb487de295f
 ms.date: 12/05/2018
 ms.keywords: IsReparseTagNameSurrogate, IsReparseTagNameSurrogate macro [Files], _win32_isreparsetagnamesurrogate, base.isreparsetagnamesurrogate, fs.isreparsetagnamesurrogate, winnt/IsReparseTagNameSurrogate
-ms.topic: macro
 f1_keywords:
 - winnt/IsReparseTagNameSurrogate
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: bltooth
 ms.assetid: 6EC1D80A-6327-4D5A-8460-87C339669BDA
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTAbortReliableWrite, BluetoothGATTAbortReliableWrite function [Bluetooth Devices], bltooth.bluetoothgattabortreliablewrite, bluetoothleapis/BluetoothGATTAbortReliableWrite
-ms.topic: function
 f1_keywords:
 - bluetoothleapis/BluetoothGATTAbortReliableWrite
 dev_langs:

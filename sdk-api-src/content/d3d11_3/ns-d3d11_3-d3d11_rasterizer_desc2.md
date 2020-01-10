@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 54B5744A-1F50-4203-A43B-7E830D769534
 ms.date: 12/05/2018
 ms.keywords: CD3D11_RASTERIZER_DESC2, D3D11_RASTERIZER_DESC2, D3D11_RASTERIZER_DESC2 structure [Direct3D 11], d3d11_3/D3D11_RASTERIZER_DESC2, direct3d11.d3d11_rasterizer_desc2
-ms.topic: struct
 f1_keywords:
 - d3d11_3/D3D11_RASTERIZER_DESC2
 dev_langs:

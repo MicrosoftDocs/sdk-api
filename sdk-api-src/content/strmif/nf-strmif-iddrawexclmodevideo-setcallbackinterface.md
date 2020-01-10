@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f8f885fe-d1a2-4635-9f30-d57ac0eb905e
 ms.date: 12/05/2018
 ms.keywords: IDDrawExclModeVideo interface [DirectShow],SetCallbackInterface method, IDDrawExclModeVideo.SetCallbackInterface, IDDrawExclModeVideo::SetCallbackInterface, IDDrawExclModeVideoSetCallbackInterface, SetCallbackInterface, SetCallbackInterface method [DirectShow], SetCallbackInterface method [DirectShow],IDDrawExclModeVideo interface, dshow.iddrawexclmodevideo_setcallbackinterface, strmif/IDDrawExclModeVideo::SetCallbackInterface
-ms.topic: method
 f1_keywords:
 - strmif/IDDrawExclModeVideo.SetCallbackInterface
 dev_langs:

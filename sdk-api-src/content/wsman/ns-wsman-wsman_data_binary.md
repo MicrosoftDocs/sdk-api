@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 35beedc3-30c6-4e04-bc27-bb9eb21256fe
 ms.date: 12/05/2018
 ms.keywords: WSMAN_DATA_BINARY, WSMAN_DATA_BINARY structure [Windows Remote Management], winrm.wsman_data_binary, wsman/WSMAN_DATA_BINARY
-ms.topic: struct
 f1_keywords:
 - wsman/WSMAN_DATA_BINARY
 dev_langs:

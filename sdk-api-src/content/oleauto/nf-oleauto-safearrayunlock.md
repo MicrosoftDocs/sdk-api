@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 654995ab-1959-44dc-9e26-11c34e489c14
 ms.date: 12/05/2018
 ms.keywords: SafeArrayUnlock, SafeArrayUnlock function [Automation], _oa96_SafeArrayUnlock, automat.safearrayunlock, oleauto/SafeArrayUnlock
-ms.topic: function
 f1_keywords:
 - oleauto/SafeArrayUnlock
 dev_langs:

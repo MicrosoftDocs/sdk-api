@@ -7,7 +7,6 @@ tech.root: FunDisc
 ms.assetid: 46f74e55-8060-4f02-85e3-dbd2fc8fce78
 ms.date: 12/05/2018
 ms.keywords: CreateInstanceCollectionQuery, CreateInstanceCollectionQuery method, CreateInstanceCollectionQuery method,IFunctionDiscovery interface, IFunctionDiscovery interface,CreateInstanceCollectionQuery method, IFunctionDiscovery.CreateInstanceCollectionQuery, IFunctionDiscovery::CreateInstanceCollectionQuery, functiondiscoveryapi/IFunctionDiscovery::CreateInstanceCollectionQuery, ncd.ifunctiondiscovery_createinstancecollectionquery_method
-ms.topic: method
 f1_keywords:
 - functiondiscoveryapi/IFunctionDiscovery.CreateInstanceCollectionQuery
 dev_langs:

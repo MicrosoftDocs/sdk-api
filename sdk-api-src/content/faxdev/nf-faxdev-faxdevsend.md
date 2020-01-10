@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_7rz8.htm
 ms.date: 12/05/2018
 ms.keywords: FaxDevSend, FaxDevSend function [Fax Service], _mfax_faxdevsend, fax._mfax_faxdevsend, faxdev/FaxDevSend
-ms.topic: function
 f1_keywords:
 - faxdev/FaxDevSend
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 01dd09ff-35d2-4e00-9eab-5110a426449f
 ms.date: 12/05/2018
 ms.keywords: IWMMetadataEditor interface [windows Media Format],Open method, IWMMetadataEditor.Open, IWMMetadataEditor::Open, IWMMetadataEditorOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMMetadataEditor interface, wmformat.iwmmetadataeditor_open, wmsdkidl/IWMMetadataEditor::Open
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMMetadataEditor.Open
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 4303c24d-e3e1-e188-bbef-e654c0e7e266
 ms.date: 12/05/2018
 ms.keywords: IDCompositionFilterEffect, IDCompositionFilterEffect interface [DirectComposition], IDCompositionFilterEffect interface [DirectComposition],described, dcomp/IDCompositionFilterEffect, directcomp.idcompositionfiltereffect
-ms.topic: interface
 f1_keywords:
 - dcomp/IDCompositionFilterEffect
 dev_langs:

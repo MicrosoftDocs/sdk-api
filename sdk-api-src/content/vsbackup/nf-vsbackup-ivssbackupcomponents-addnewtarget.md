@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 9a4e2638-f6e7-4264-997d-41880f23c981
 ms.date: 12/05/2018
 ms.keywords: AddNewTarget, AddNewTarget method [VSS], AddNewTarget method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddNewTarget method, IVssBackupComponents.AddNewTarget, IVssBackupComponents::AddNewTarget, _win32_ivssbackupcomponents_addnewtarget, base.ivssbackupcomponents_addnewtarget, vsbackup/IVssBackupComponents::AddNewTarget
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponents.AddNewTarget
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: psapi
 ms.assetid: 583caafe-7fa3-4041-b5bc-4e8899b3a08a
 ms.date: 12/05/2018
 ms.keywords: '*LPMODULEINFO, LPMODULEINFO, LPMODULEINFO structure pointer [PSAPI], MODULEINFO, MODULEINFO structure [PSAPI], _win32_moduleinfo_str, base.moduleinfo_str, psapi.moduleinfo_str, psapi/LPMODULEINFO, psapi/MODULEINFO'
-ms.topic: struct
 f1_keywords:
 - psapi/MODULEINFO
 dev_langs:

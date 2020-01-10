@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 7a1570a9-b43f-4603-a5ed-6d078a5bbb7c
 ms.date: 12/05/2018
 ms.keywords: MprAdminReleaseIpAddress, MprAdminReleaseIpAddress callback, MprAdminReleaseIpAddress callback function [RAS], _mpr_mpradminreleaseipaddress, mprapi/MprAdminReleaseIpAddress, rras.mpradminreleaseipaddress
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminReleaseIpAddress
 dev_langs:

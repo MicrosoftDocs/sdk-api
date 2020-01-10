@@ -7,7 +7,6 @@ tech.root: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputGetState(DWORD,XINPUT_STATE*@)
 ms.date: 12/05/2018
 ms.keywords: XInputGetState, XInputGetState function [XInput Game Controller APIs], xinput.xinputgetstate, xinput/XInputGetState
-ms.topic: function
 f1_keywords:
 - xinput/XInputGetState
 dev_langs:

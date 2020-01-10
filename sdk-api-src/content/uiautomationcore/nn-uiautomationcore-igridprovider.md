@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 37e2cc95-d765-4c2c-ae8a-5a072a43ad5a
 ms.date: 12/05/2018
 ms.keywords: IGridProvider, IGridProvider interface [Windows Accessibility], IGridProvider interface [Windows Accessibility],described, uiauto.uiauto_IGridProvider, uiauto_IGridProvider, uiautomationcore/IGridProvider, winauto.uiauto_IGridProvider
-ms.topic: interface
 f1_keywords:
 - uiautomationcore/IGridProvider
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontcollectionclass\fontcollection_82.htm
 ms.date: 12/05/2018
 ms.keywords: FontCollection, FontCollection class [GDI+],FontCollection constructor, FontCollection constructor [GDI+], FontCollection constructor [GDI+],FontCollection class, FontCollection.FontCollection, FontCollection::FontCollection, _gdiplus_CLASS_FontCollection_FontCollection_, gdiplus._gdiplus_CLASS_FontCollection_FontCollection_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/FontCollection.FontCollection
 dev_langs:

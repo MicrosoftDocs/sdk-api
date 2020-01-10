@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: c677b0ba-fd52-40e8-b7c3-b80a01c9fb26
 ms.date: 12/05/2018
 ms.keywords: '*LPFONTDESC, FONTDESC, FONTDESC structure [COM], LPFONTDESC, LPFONTDESC structure pointer [COM], _ctrl_FONTDESC, com.fontdesc, olectl/FONTDESC, olectl/LPFONTDESC'
-ms.topic: struct
 f1_keywords:
 - olectl/FONTDESC
 dev_langs:

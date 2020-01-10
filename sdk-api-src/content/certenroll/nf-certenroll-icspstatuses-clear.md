@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 6a959d88-3ee6-4233-8fc7-23c60b24c14e
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICspStatuses interface, ICspStatuses interface [Security],Clear method, ICspStatuses.Clear, ICspStatuses::Clear, certenroll/ICspStatuses::Clear, security.icspstatuses_clear_method
-ms.topic: method
 f1_keywords:
 - certenroll/ICspStatuses.Clear
 dev_langs:

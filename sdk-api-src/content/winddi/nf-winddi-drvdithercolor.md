@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 635a4af8-ec19-4f99-80b2-bad2a6e87edc
 ms.date: 12/05/2018
 ms.keywords: DrvDitherColor, DrvDitherColor function [Display Devices], ddifncs_2b62d877-2c36-41ad-bca7-88f1daf3640c.xml, display.drvdithercolor, winddi/DrvDitherColor
-ms.topic: function
 f1_keywords:
 - winddi/DrvDitherColor
 dev_langs:

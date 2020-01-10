@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 29556DB4-E569-4161-9E47-149E4C12DD3B
 ms.date: 12/05/2018
 ms.keywords: IsValidNLSVersion, IsValidNLSVersion function [Internationalization for Windows Applications], intl.isvalidnlsversion, winnls/IsValidNLSVersion
-ms.topic: function
 f1_keywords:
 - winnls/IsValidNLSVersion
 dev_langs:

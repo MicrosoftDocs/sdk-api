@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\setformatflags.htm
 ms.date: 12/05/2018
 ms.keywords: SetFormatFlags, SetFormatFlags method [GDI+], SetFormatFlags method [GDI+],StringFormat class, StringFormat class [GDI+],SetFormatFlags method, StringFormat.SetFormatFlags, StringFormat::SetFormatFlags, _gdiplus_CLASS_StringFormat_SetFormatFlags_flags_, gdiplus._gdiplus_CLASS_StringFormat_SetFormatFlags_flags_
-ms.topic: method
 f1_keywords:
 - gdiplusstringformat/StringFormat.SetFormatFlags
 dev_langs:

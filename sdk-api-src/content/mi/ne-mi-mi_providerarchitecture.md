@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 9dd275aa-23a9-44f4-916f-355b77490161
 ms.date: 12/05/2018
 ms.keywords: MI_PROVIDER_ARCHITECTURE_32BIT, MI_PROVIDER_ARCHITECTURE_64BIT, MI_ProviderArchitecture, MI_ProviderArchitecture enumeration [Windows Management Infrastructure (MI)], mi/MI_PROVIDER_ARCHITECTURE_32BIT, mi/MI_PROVIDER_ARCHITECTURE_64BIT, mi/MI_ProviderArchitecture, wmi._mi_providerarchitecture, wmi_v2.mi_providerarchitecture
-ms.topic: enum
 f1_keywords:
 - mi/MI_ProviderArchitecture
 dev_langs:

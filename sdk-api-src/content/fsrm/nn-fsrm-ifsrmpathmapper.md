@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 04e62a10-1719-454b-adfb-6320e31c7a88
 ms.date: 12/05/2018
 ms.keywords: IFsrmPathMapper, IFsrmPathMapper interface [File Server Resource Manager], IFsrmPathMapper interface [File Server Resource Manager],described, fs.ifsrmpathmapper, fsrm.ifsrmpathmapper, fsrm/IFsrmPathMapper
-ms.topic: interface
 f1_keywords:
 - fsrm/IFsrmPathMapper
 dev_langs:

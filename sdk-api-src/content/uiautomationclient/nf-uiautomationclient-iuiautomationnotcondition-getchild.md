@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 5d3a5df4-045a-41bf-aa98-3e9ac20c1c52
 ms.date: 12/05/2018
 ms.keywords: GetChild, GetChild method [Windows Accessibility], GetChild method [Windows Accessibility],IUIAutomationNotCondition interface, IUIAutomationNotCondition interface [Windows Accessibility],GetChild method, IUIAutomationNotCondition.GetChild, IUIAutomationNotCondition::GetChild, uiauto.uiauto_IUIAutomationNotCondition_GetChild, uiauto_IUIAutomationNotCondition_GetChild, uiautomationclient/IUIAutomationNotCondition::GetChild, winauto.uiauto_IUIAutomationNotCondition_GetChild
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationNotCondition.GetChild
 dev_langs:

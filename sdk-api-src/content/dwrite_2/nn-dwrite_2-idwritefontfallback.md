@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: CBC4100A-756B-429E-8368-D5D018A2B0AC
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFallback, IDWriteFontFallback interface [Direct Write], IDWriteFontFallback interface [Direct Write],described, directwrite.idwritefontfallback, dwrite_2/IDWriteFontFallback
-ms.topic: interface
 f1_keywords:
 - dwrite_2/IDWriteFontFallback
 dev_langs:

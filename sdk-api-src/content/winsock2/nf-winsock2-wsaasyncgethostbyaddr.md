@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 814cbb2e-8dd2-44b0-b8be-cfc5491bdc49
 ms.date: 12/05/2018
 ms.keywords: WSAAsyncGetHostByAddr, WSAAsyncGetHostByAddr function [Winsock], _win32_wsaasyncgethostbyaddr_2, winsock.wsaasyncgethostbyaddr_2, wsipv6ok/WSAAsyncGetHostByAddr
-ms.topic: function
 f1_keywords:
 - winsock2/WSAAsyncGetHostByAddr
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: edff88dd-80ae-4704-b320-925006346dda
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceDeviceGetInfo, MprAdminInterfaceDeviceGetInfo function [RAS], _mpr_mpradmininterfacedevicegetinfo, mprapi/MprAdminInterfaceDeviceGetInfo, rras.mpradmininterfacedevicegetinfo
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminInterfaceDeviceGetInfo
 dev_langs:

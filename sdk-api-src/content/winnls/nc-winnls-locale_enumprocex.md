@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 583cc7bc-da1d-4dfc-83f2-2da2b304af62
 ms.date: 12/05/2018
 ms.keywords: EnumLocalesProcEx, LOCALE_ENUMPROCEX, LOCALE_ENUMPROCEX callback, LOCALE_ENUMPROCEX callback function [Internationalization for Windows Applications], _win32_EnumLocalesProcEx, intl.enumlocalesprocex, winnls/LOCALE_ENUMPROCEX
-ms.topic: callback
 f1_keywords:
 - winnls/LOCALE_ENUMPROCEX
 dev_langs:

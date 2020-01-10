@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 96b36a6e-f67b-40fb-ab05-4782e7cb659f
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IPolicyQualifiers interface, IPolicyQualifiers interface [Security],Clear method, IPolicyQualifiers.Clear, IPolicyQualifiers::Clear, certenroll/IPolicyQualifiers::Clear, security.ipolicyqualifiers_clear_method
-ms.topic: method
 f1_keywords:
 - certenroll/IPolicyQualifiers.Clear
 dev_langs:

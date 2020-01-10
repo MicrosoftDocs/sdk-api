@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 7d54922f-0531-4eab-afa9-f51ce6c75bfe
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystem interface [VDS],QueryDrives method, IVdsSubSystem.QueryDrives, IVdsSubSystem::QueryDrives, QueryDrives, QueryDrives method [VDS], QueryDrives method [VDS],IVdsSubSystem interface, base.ivdssubsystem_querydrives, vds/IVdsSubSystem::QueryDrives, vdshwprv/IVdsSubSystem::QueryDrives
-ms.topic: method
 f1_keywords:
 - vds/IVdsSubSystem.QueryDrives
 dev_langs:

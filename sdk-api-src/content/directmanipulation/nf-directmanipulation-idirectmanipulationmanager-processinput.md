@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: ed7fa19b-acfe-4d5d-bd71-a77e5016fe68
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationManager interface [Direct Manipulation],ProcessInput method, IDirectManipulationManager.ProcessInput, IDirectManipulationManager::ProcessInput, ProcessInput, ProcessInput method [Direct Manipulation], ProcessInput method [Direct Manipulation],IDirectManipulationManager interface, directmanipulation.idirectmanipulationmanager_processinput, directmanipulation/IDirectManipulationManager::ProcessInput
-ms.topic: method
 f1_keywords:
 - directmanipulation/IDirectManipulationManager.ProcessInput
 dev_langs:

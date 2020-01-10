@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 696B7466-5ED0-4202-9AAF-CE2544C5A5B8
 ms.date: 12/05/2018
 ms.keywords: WFDUpdateDeviceVisibility, WFDUpdateDeviceVisibility function [NativeWIFI], nwifi.wfdupdatedevicevisibility, wlanapi/WFDUpdateDeviceVisibility
-ms.topic: function
 f1_keywords:
 - wlanapi/WFDUpdateDeviceVisibility
 dev_langs:

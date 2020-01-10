@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 720f9759-96c1-45f0-9251-90d60532d247
 ms.date: 12/05/2018
 ms.keywords: GetNotificationMode, GetNotificationMode method [Windows Controls], GetNotificationMode method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetNotificationMode method, ITextDocument2.GetNotificationMode, ITextDocument2::GetNotificationMode, controls.itextdocument2_getnotificationmode, tom/ITextDocument2::GetNotificationMode
-ms.topic: method
 f1_keywords:
 - tom/ITextDocument2.GetNotificationMode
 dev_langs:

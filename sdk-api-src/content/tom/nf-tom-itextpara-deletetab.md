@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\deletetab.htm
 ms.date: 12/05/2018
 ms.keywords: DeleteTab, DeleteTab method [Windows Controls], DeleteTab method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],DeleteTab method, ITextPara.DeleteTab, ITextPara::DeleteTab, _win32_ITextPara_DeleteTab, _win32_ITextPara_DeleteTab_cpp, controls.ITextPara_DeleteTab, controls._win32_ITextPara_DeleteTab, tom/ITextPara::DeleteTab
-ms.topic: method
 f1_keywords:
 - tom/ITextPara.DeleteTab
 dev_langs:

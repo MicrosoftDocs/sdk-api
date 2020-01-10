@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: b76d5003-b9af-4a48-91d3-8075f45cf131
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationSelectionItemPattern, IUIAutomationSelectionItemPattern interface [Windows Accessibility], IUIAutomationSelectionItemPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationSelectionItemPattern, uiauto_IUIAutomationSelectionItemPattern, uiautomationclient/IUIAutomationSelectionItemPattern, winauto.uiauto_IUIAutomationSelectionItemPattern
-ms.topic: interface
 f1_keywords:
 - uiautomationclient/IUIAutomationSelectionItemPattern
 dev_langs:

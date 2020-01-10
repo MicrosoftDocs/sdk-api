@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: FFA361B2-D8FA-4F5A-8D0C-022C2AA76B57
 ms.date: 12/05/2018
 ms.keywords: CreateComputePipelineState, CreateComputePipelineState method, CreateComputePipelineState method,ID3D12Device interface, ID3D12Device interface,CreateComputePipelineState method, ID3D12Device.CreateComputePipelineState, ID3D12Device::CreateComputePipelineState, d3d12/ID3D12Device::CreateComputePipelineState, direct3d12.id3d12device_createcomputepipelinestate
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Device.CreateComputePipelineState
 dev_langs:

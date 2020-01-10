@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 7620e9fa-74d6-4b41-93db-4a562be63202
 ms.date: 12/05/2018
 ms.keywords: EncryptFile, EncryptFile function [Files], EncryptFileA, EncryptFileW, _win32_encryptfile, base.encryptfile, fs.encryptfile, winbase/EncryptFile, winbase/EncryptFileA, winbase/EncryptFileW
-ms.topic: function
 f1_keywords:
 - winbase/EncryptFile
 dev_langs:

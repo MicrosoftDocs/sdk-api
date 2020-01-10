@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 01dac90a-98a0-46b7-8d9e-ce5fdf8014a9
 ms.date: 12/05/2018
 ms.keywords: FwpmFilterSetSecurityInfoByKey0, FwpmFilterSetSecurityInfoByKey0 function [Filtering], fwp.fwpmfiltersetsecurityinfobykey0_func, fwpmu/FwpmFilterSetSecurityInfoByKey0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmFilterSetSecurityInfoByKey0
 dev_langs:

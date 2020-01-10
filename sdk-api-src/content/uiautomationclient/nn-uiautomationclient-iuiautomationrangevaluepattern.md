@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 145c14e5-1b6b-4eb1-a73a-aa59b5e1b4c4
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationRangeValuePattern, IUIAutomationRangeValuePattern interface [Windows Accessibility], IUIAutomationRangeValuePattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationRangeValuePattern, uiauto_IUIAutomationRangeValuePattern, uiautomationclient/IUIAutomationRangeValuePattern, winauto.uiauto_IUIAutomationRangeValuePattern
-ms.topic: interface
 f1_keywords:
 - uiautomationclient/IUIAutomationRangeValuePattern
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 340d938a-a107-4317-af65-3dca98102767
 ms.date: 12/05/2018
 ms.keywords: ITAddressEvent, ITAddressEvent interface [TAPI 2.2], ITAddressEvent interface [TAPI 2.2],described, _tapi3_itaddressevent, tapi3.itaddressevent, tapi3if/ITAddressEvent
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITAddressEvent
 dev_langs:

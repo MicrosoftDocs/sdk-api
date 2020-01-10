@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 095f0ed3-46e4-48f9-97d5-5bca1c2efa30
 ms.date: 12/05/2018
 ms.keywords: GetBackgroundClr, GetBackgroundClr method [DirectShow], GetBackgroundClr method [DirectShow],IVMRMixerControl interface, IVMRMixerControl interface [DirectShow],GetBackgroundClr method, IVMRMixerControl.GetBackgroundClr, IVMRMixerControl::GetBackgroundClr, IVMRMixerControlGetBackgroundClr, dshow.ivmrmixercontrol_getbackgroundclr, strmif/IVMRMixerControl::GetBackgroundClr
-ms.topic: method
 f1_keywords:
 - strmif/IVMRMixerControl.GetBackgroundClr
 dev_langs:

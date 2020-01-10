@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 7aff8040-5d67-42a0-89ba-028cf39bd40a
 ms.date: 12/05/2018
 ms.keywords: IFsrmReport interface [File Server Resource Manager],LastGeneratedFileNamePrefix property, IFsrmReport.LastGeneratedFileNamePrefix, IFsrmReport.get_LastGeneratedFileNamePrefix, IFsrmReport::LastGeneratedFileNamePrefix, IFsrmReport::get_LastGeneratedFileNamePrefix, LastGeneratedFileNamePrefix property [File Server Resource Manager], LastGeneratedFileNamePrefix property [File Server Resource Manager],IFsrmReport interface, fs.ifsrmreport_lastgeneratedfilenameprefix, fsrm.ifsrmreport_lastgeneratedfilenameprefix, fsrmreports/IFsrmReport::LastGeneratedFileNamePrefix, fsrmreports/IFsrmReport::get_LastGeneratedFileNamePrefix, get_LastGeneratedFileNamePrefix
-ms.topic: method
 f1_keywords:
 - fsrmreports/IFsrmReport.LastGeneratedFileNamePrefix
 dev_langs:

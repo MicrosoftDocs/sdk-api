@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: a40fc3a4-40ff-4752-abd9-e4dd906bc27f
 ms.date: 12/05/2018
 ms.keywords: Detach, Detach method [MMC], Detach method [MMC],IControlbar interface, IControlbar interface [MMC],Detach method, IControlbar.Detach, IControlbar::Detach, _slate_icontrolbar_detach, mmc.icontrolbar_detach, mmc/IControlbar::Detach
-ms.topic: method
 f1_keywords:
 - mmc/IControlbar.Detach
 dev_langs:

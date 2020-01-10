@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.CreateFromPoints(BoundingOrientedBox@,size_t,XMFLOAT3,size_t)
 ms.date: 12/05/2018
 ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],CreateFromPoints method, BoundingOrientedBox.CreateFromPoints, BoundingOrientedBox::CreateFromPoints, CreateFromPoints, CreateFromPoints method [DirectX Math Support APIs], CreateFromPoints method [DirectX Math Support APIs],BoundingOrientedBox interface, dxmath.boundingorientedbox_createfrompoints
-ms.topic: method
 f1_keywords:
 - directxcollision/BoundingOrientedBox.CreateFromPoints
 dev_langs:

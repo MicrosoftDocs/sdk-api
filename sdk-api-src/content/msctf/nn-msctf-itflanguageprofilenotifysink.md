@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: c0c8d02a-cc3f-4c1c-96e9-516f49b868e6
 ms.date: 12/05/2018
 ms.keywords: ITfLanguageProfileNotifySink, ITfLanguageProfileNotifySink interface [Text Services Framework], ITfLanguageProfileNotifySink interface [Text Services Framework],described, _tsf_itflanguageprofilenotifysink_ref, msctf/ITfLanguageProfileNotifySink, tsf.itflanguageprofilenotifysink
-ms.topic: interface
 f1_keywords:
 - msctf/ITfLanguageProfileNotifySink
 dev_langs:

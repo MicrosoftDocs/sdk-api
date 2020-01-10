@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\staticcontrols\staticcontrolreference\staticcontrolmacros\static_seticon.htm
 ms.date: 12/05/2018
 ms.keywords: Static_SetIcon, Static_SetIcon macro [Windows Controls], _win32_Static_SetIcon, _win32_Static_SetIcon_cpp, controls.Static_SetIcon, controls._win32_Static_SetIcon, windowsx/Static_SetIcon
-ms.topic: macro
 f1_keywords:
 - windowsx/Static_SetIcon
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getformattedtext.htm
 ms.date: 12/05/2018
 ms.keywords: GetFormattedText, GetFormattedText method [Windows Controls], GetFormattedText method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetFormattedText method, ITextRange.GetFormattedText, ITextRange::GetFormattedText, _win32_ITextRange_GetFormattedText, _win32_ITextRange_GetFormattedText_cpp, controls.ITextRange_GetFormattedText, controls._win32_ITextRange_GetFormattedText, tom/ITextRange::GetFormattedText
-ms.topic: method
 f1_keywords:
 - tom/ITextRange.GetFormattedText
 dev_langs:

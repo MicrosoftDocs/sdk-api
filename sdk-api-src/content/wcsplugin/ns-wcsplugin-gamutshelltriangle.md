@@ -7,7 +7,6 @@ tech.root: WCS
 ms.assetid: 3b49d548-640c-47d0-a7bb-4edbb654464e
 ms.date: 12/05/2018
 ms.keywords: GamutShellTriangle, GamutShellTriangle structure [Windows Color System], _color_GamutShellTriangle_str, wcs.gamutshelltriangle, wcsplugin/GamutShellTriangle
-ms.topic: struct
 f1_keywords:
 - wcsplugin/GamutShellTriangle
 dev_langs:

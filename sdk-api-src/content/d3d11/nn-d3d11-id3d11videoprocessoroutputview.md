@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: D07829ED-2C1E-4150-A0A1-5CD95F30209F
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoProcessorOutputView, ID3D11VideoProcessorOutputView interface [Media Foundation], ID3D11VideoProcessorOutputView interface [Media Foundation],described, d3d11/ID3D11VideoProcessorOutputView, mf.id3d11videoprocessoroutputview
-ms.topic: interface
 f1_keywords:
 - d3d11/ID3D11VideoProcessorOutputView
 dev_langs:

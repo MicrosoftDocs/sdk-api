@@ -7,7 +7,6 @@ tech.root: Clfs
 ms.assetid: 76ef1a01-ba5c-4419-ac2f-4ba53dcc5bc4
 ms.date: 12/05/2018
 ms.keywords: TruncateLog, TruncateLog function [Files], clfsw32/TruncateLog, fs.truncatelog
-ms.topic: function
 f1_keywords:
 - clfsw32/TruncateLog
 dev_langs:

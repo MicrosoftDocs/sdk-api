@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 70016fbd-060c-4f2a-89d3-d474850f9d01
 ms.date: 12/05/2018
 ms.keywords: UI_ANIMATION_IDLE_BEHAVIOR, UI_ANIMATION_IDLE_BEHAVIOR enumeration [Windows Animation], UI_ANIMATION_IDLE_BEHAVIOR_CONTINUE, UI_ANIMATION_IDLE_BEHAVIOR_DISABLE, uianimation.ui_animation_idle_behavior, uianimation/UI_ANIMATION_IDLE_BEHAVIOR, uianimation/UI_ANIMATION_IDLE_BEHAVIOR_CONTINUE, uianimation/UI_ANIMATION_IDLE_BEHAVIOR_DISABLE
-ms.topic: enum
 f1_keywords:
 - uianimation/UI_ANIMATION_IDLE_BEHAVIOR
 dev_langs:

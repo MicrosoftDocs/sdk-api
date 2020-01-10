@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\resolvecondition.htm
 ms.date: 12/05/2018
 ms.keywords: IConditionFactory2 interface [search],ResolveCondition method, IConditionFactory2.ResolveCondition, IConditionFactory2::ResolveCondition, ResolveCondition, ResolveCondition method [search], ResolveCondition method [search],IConditionFactory2 interface, _search_IConditionFactory2_ResolveCondition, search._search_IConditionFactory2_ResolveCondition, structuredquery/IConditionFactory2::ResolveCondition
-ms.topic: method
 f1_keywords:
 - structuredquery/IConditionFactory2.ResolveCondition
 dev_langs:

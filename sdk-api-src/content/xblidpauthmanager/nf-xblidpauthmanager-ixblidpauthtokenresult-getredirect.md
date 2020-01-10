@@ -7,7 +7,6 @@ tech.root: xblidp
 ms.assetid: 4341F176-5C7C-42C1-8C17-FFBA293AFD53
 ms.date: 12/05/2018
 ms.keywords: GetRedirect, GetRedirect method, GetRedirect method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetRedirect method, IXblIdpAuthTokenResult.GetRedirect, IXblIdpAuthTokenResult::GetRedirect, xblidp.ixblidpauthtokenresult_getredirect, xblidpauthmanager/IXblIdpAuthTokenResult::GetRedirect
-ms.topic: method
 f1_keywords:
 - xblidpauthmanager/IXblIdpAuthTokenResult.GetRedirect
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 557ebb26-cce0-4c41-b49c-769b2831cf35
 ms.date: 12/05/2018
 ms.keywords: CryptGetSignerCertificateCallback, CryptGetSignerCertificateCallback callback function [Security], PFN_CRYPT_GET_SIGNER_CERTIFICATE, PFN_CRYPT_GET_SIGNER_CERTIFICATE callback, security.cryptgetsignercertificatecallback, wincrypt/CryptGetSignerCertificateCallback
-ms.topic: callback
 f1_keywords:
 - wincrypt/CryptGetSignerCertificateCallback
 dev_langs:

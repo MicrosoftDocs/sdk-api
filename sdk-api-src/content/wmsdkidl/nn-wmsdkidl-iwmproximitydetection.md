@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 0897ad8f-8e06-4de9-840e-1588e0e20c54
 ms.date: 12/05/2018
 ms.keywords: IWMProximityDetection, IWMProximityDetection interface [windows Media Format], IWMProximityDetection interface [windows Media Format],described, IWMProximityDetectionInterface, wmformat.iwmproximitydetection, wmsdkidl/IWMProximityDetection
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMProximityDetection
 dev_langs:

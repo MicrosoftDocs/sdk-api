@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: A1004454-1C9F-46AF-8C88-BB8204FA0410
 ms.date: 12/05/2018
 ms.keywords: IRoMetaDataLocator, IRoMetaDataLocator structure [Windows Runtime], PIRoMetaDataLocator, PIRoMetaDataLocator structure pointer [Windows Runtime], roparameterizediid/IRoMetaDataLocator, roparameterizediid/PIRoMetaDataLocator, winrt.irometadatalocator_struct
-ms.topic: struct
 f1_keywords:
 - roparameterizediid/IRoMetaDataLocator
 dev_langs:

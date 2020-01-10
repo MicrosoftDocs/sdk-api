@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: e0fbcf43-cd52-4b5b-af4b-f7d673f7a7c9
 ms.date: 12/05/2018
 ms.keywords: ICameraUIControl, ICameraUIControl interface [Windows API], ICameraUIControl interface [Windows API],described, camerauicontrol/ICameraUIControl, winprog.icamerauicontrol
-ms.topic: interface
 f1_keywords:
 - camerauicontrol/ICameraUIControl
 dev_langs:

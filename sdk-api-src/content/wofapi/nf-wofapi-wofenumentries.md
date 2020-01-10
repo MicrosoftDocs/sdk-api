@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: D6BCBFC1-C916-43E3-BB6A-E8EB6467850B
 ms.date: 12/05/2018
 ms.keywords: WofEnumEntries, WofEnumEntries function [Files], fs.wofenumentries, wofapi/WofEnumEntries
-ms.topic: function
 f1_keywords:
 - wofapi/WofEnumEntries
 dev_langs:

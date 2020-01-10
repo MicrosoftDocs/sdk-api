@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 2b05403a-cf9e-4f23-907f-ffb90b6fc5e3
 ms.date: 12/05/2018
 ms.keywords: GetRecordContentNibbles, GetRecordContentNibbles method [Microsoft TV Technologies], GetRecordContentNibbles method [Microsoft TV Technologies],IDvbContentDescriptor interface, IDvbContentDescriptor interface [Microsoft TV Technologies],GetRecordContentNibbles method, IDvbContentDescriptor.GetRecordContentNibbles, IDvbContentDescriptor::GetRecordContentNibbles, dvbsiparser/IDvbContentDescriptor::GetRecordContentNibbles, mstv.idvbcontentdescriptor_getrecordcontentnibbles
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbContentDescriptor.GetRecordContentNibbles
 dev_langs:

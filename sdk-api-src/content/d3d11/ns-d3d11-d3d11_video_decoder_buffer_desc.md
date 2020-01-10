@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: B7F10FD2-79D1-483F-A95A-4CA7BAC7434F
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_DECODER_BUFFER_DESC, D3D11_VIDEO_DECODER_BUFFER_DESC structure [Media Foundation], d3d11/D3D11_VIDEO_DECODER_BUFFER_DESC, mf.d3d11_video_decoder_buffer_desc
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_VIDEO_DECODER_BUFFER_DESC
 dev_langs:

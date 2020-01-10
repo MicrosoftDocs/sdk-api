@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 685471bd-3228-4fdd-a91f-e8da2a6c3b91
 ms.date: 12/05/2018
 ms.keywords: GetWaitTimeout, GetWaitTimeout method [Remote Desktop Services], GetWaitTimeout method [Remote Desktop Services],ITsSbGenericNotifySink interface, ITsSbGenericNotifySink interface [Remote Desktop Services],GetWaitTimeout method, ITsSbGenericNotifySink.GetWaitTimeout, ITsSbGenericNotifySink::GetWaitTimeout, sbtsv/ITsSbGenericNotifySink::GetWaitTimeout, termserv.itssbgenericnotifysink_getwaittimeout
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbGenericNotifySink.GetWaitTimeout
 dev_langs:

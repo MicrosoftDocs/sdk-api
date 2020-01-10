@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguration\allowpersonalcoverpages.htm
 ms.date: 12/05/2018
 ms.keywords: AllowPersonalCoverPages property [Fax Service], AllowPersonalCoverPages property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],AllowPersonalCoverPages property, IFaxConfiguration.AllowPersonalCoverPages, IFaxConfiguration.get_AllowPersonalCoverPages, IFaxConfiguration::AllowPersonalCoverPages, IFaxConfiguration::get_AllowPersonalCoverPages, IFaxConfiguration::put_AllowPersonalCoverPages, _mfax_IFaxConfiguration_AllowPersonalCoverPages, fax._mfax_IFaxConfiguration_AllowPersonalCoverPages, faxcomex/IFaxConfiguration::AllowPersonalCoverPages, faxcomex/IFaxConfiguration::get_AllowPersonalCoverPages, faxcomex/IFaxConfiguration::put_AllowPersonalCoverPages, get_AllowPersonalCoverPages
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxConfiguration.AllowPersonalCoverPages
 dev_langs:

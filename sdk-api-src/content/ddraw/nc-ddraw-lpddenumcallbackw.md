@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: 7F86FA67-C13B-49EE-8D17-9F54E5060A85
 ms.date: 12/05/2018
 ms.keywords: DDEnumCallback, DDEnumCallback callback function [DirectDraw], LPDDENUMCALLBACK, LPDDENUMCALLBACK callback, LPDDENUMCALLBACKA, LPDDENUMCALLBACKW, ddraw/DDEnumCallback, directdraw.ddenumcallback
-ms.topic: callback
 f1_keywords:
 - ddraw/DDEnumCallback
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 393c777c-f262-462b-ac59-035f590bee1c
 ms.date: 12/05/2018
 ms.keywords: CreateOrConditionFromNativeArray, CreateOrConditionFromNativeArray method [Windows Accessibility], CreateOrConditionFromNativeArray method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateOrConditionFromNativeArray method, IUIAutomation.CreateOrConditionFromNativeArray, IUIAutomation::CreateOrConditionFromNativeArray, uiauto.uiauto_IUIAutomation_CreateOrConditionFromNativeArray, uiauto_IUIAutomation_CreateOrConditionFromNativeArray, uiautomationclient/IUIAutomation::CreateOrConditionFromNativeArray, winauto.uiauto_IUIAutomation_CreateOrConditionFromNativeArray
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomation.CreateOrConditionFromNativeArray
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 0f00553f-c0b1-4ff5-9c92-fe3a1990ef20
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],get_ModulationType method, IBDA_DigitalDemodulator.get_ModulationType, IBDA_DigitalDemodulator::get_ModulationType, IBDA_DigitalDemodulatorget_ModulationType, bdaiface/IBDA_DigitalDemodulator::get_ModulationType, get_ModulationType, get_ModulationType method [Microsoft TV Technologies], get_ModulationType method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface, mstv.ibda_digitaldemodulator_get_modulationtype
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_DigitalDemodulator.get_ModulationType
 dev_langs:

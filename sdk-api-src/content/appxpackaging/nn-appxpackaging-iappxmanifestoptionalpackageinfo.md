@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 2B21676C-90AF-418D-8213-065EBB6C165C
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestOptionalPackageInfo, IAppxManifestOptionalPackageInfo interface [App packaging and management], IAppxManifestOptionalPackageInfo interface [App packaging and management],described, appxpackaging/IAppxManifestOptionalPackageInfo, appxpkg.iappxmanifestoptionalpackageinfo
-ms.topic: interface
 f1_keywords:
 - appxpackaging/IAppxManifestOptionalPackageInfo
 dev_langs:

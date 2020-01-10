@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0cd2bce8-d77a-4140-869b-707aaa279796
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewCB, IShellFolderViewCB interface [Windows Shell], IShellFolderViewCB interface [Windows Shell],described, _win32_IShellFolderViewCB, shell.IShellFolderViewCB, shlobj_core/IShellFolderViewCB
-ms.topic: interface
 f1_keywords:
 - shlobj_core/IShellFolderViewCB
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 718e7143-a6df-4912-954c-cc63bb490044
 ms.date: 12/05/2018
 ms.keywords: '*LPUSER_INFO_11, *PUSER_INFO_11, AF_OP_ACCOUNTS, AF_OP_COMM, AF_OP_PRINT, AF_OP_SERVER, LPUSER_INFO_11, LPUSER_INFO_11 structure pointer [Network Management], PUSER_INFO_11, PUSER_INFO_11 structure pointer [Network Management], USER_INFO_11, USER_INFO_11 structure [Network Management], USER_PRIV_ADMIN, USER_PRIV_GUEST, USER_PRIV_USER, _win32_user_info_11_str, lmaccess/LPUSER_INFO_11, lmaccess/PUSER_INFO_11, lmaccess/USER_INFO_11, netmgmt.user_info_11_str'
-ms.topic: struct
 f1_keywords:
 - lmaccess/USER_INFO_11
 dev_langs:

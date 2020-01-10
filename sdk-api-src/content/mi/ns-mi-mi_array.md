@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: c44e9a00-e0ec-48d3-9997-b998a31080b7
 ms.date: 12/05/2018
 ms.keywords: MI_Array, MI_Array structure [Windows Management Infrastructure (MI)], mi/MI_Array, wmi._mi_array, wmi_v2.mi_array
-ms.topic: struct
 f1_keywords:
 - mi/MI_Array
 dev_langs:

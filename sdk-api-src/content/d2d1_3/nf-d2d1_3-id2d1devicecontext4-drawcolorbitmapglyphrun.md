@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: E3DDC924-87A1-43C7-8FC7-3C4E3FC2AC59
 ms.date: 12/05/2018
 ms.keywords: DrawColorBitmapGlyphRun, DrawColorBitmapGlyphRun method [Direct2D], DrawColorBitmapGlyphRun method [Direct2D],ID2D1DeviceContext4 interface, ID2D1DeviceContext4 interface [Direct2D],DrawColorBitmapGlyphRun method, ID2D1DeviceContext4.DrawColorBitmapGlyphRun, ID2D1DeviceContext4::DrawColorBitmapGlyphRun, d2d1_3/ID2D1DeviceContext4::DrawColorBitmapGlyphRun, direct2d.id2d1devicecontext4_drawcolorbitmapglyphrun
-ms.topic: method
 f1_keywords:
 - d2d1_3/ID2D1DeviceContext4.DrawColorBitmapGlyphRun
 dev_langs:

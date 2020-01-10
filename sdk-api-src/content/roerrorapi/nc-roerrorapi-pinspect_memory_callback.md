@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: A5BF207D-BB8D-47C1-8D32-0B6494809E2B
 ms.date: 12/5/2018
 ms.keywords: PINSPECT_MEMORY_CALLBACK, PINSPECT_MEMORY_CALLBACK callback, PINSPECT_MEMORY_CALLBACK callback function [Windows Runtime], roerrorapi/PINSPECT_MEMORY_CALLBACK, winrt.pinspect_memory_callback
-ms.topic: callback
 f1_keywords:
 - roerrorapi/PINSPECT_MEMORY_CALLBACK
 dev_langs:

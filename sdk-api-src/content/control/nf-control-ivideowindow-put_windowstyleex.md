@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 19d56e9d-6f6d-46aa-b46f-a62302b41d2f
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_WindowStyleEx method, IVideoWindow.put_WindowStyleEx, IVideoWindow::put_WindowStyleEx, IVideoWindowput_WindowStyleEx, control/IVideoWindow::put_WindowStyleEx, dshow.ivideowindow_put_windowstyleex, put_WindowStyleEx, put_WindowStyleEx method [DirectShow], put_WindowStyleEx method [DirectShow],IVideoWindow interface
-ms.topic: method
 f1_keywords:
 - control/IVideoWindow.put_WindowStyleEx
 dev_langs:

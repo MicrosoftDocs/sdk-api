@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 808abe6d-384b-4d75-a792-0896297cfe4c
 ms.date: 12/05/2018
 ms.keywords: Enabled property [File Server Resource Manager], Enabled property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, IFsrmPipelineModuleDefinition interface [File Server Resource Manager],Enabled property, IFsrmPipelineModuleDefinition.Enabled, IFsrmPipelineModuleDefinition.get_Enabled, IFsrmPipelineModuleDefinition::Enabled, IFsrmPipelineModuleDefinition::get_Enabled, IFsrmPipelineModuleDefinition::put_Enabled, fs.ifsrmpipelinemoduledefinition_enabled, fsrm.ifsrmpipelinemoduledefinition_enabled, fsrmpipeline/IFsrmPipelineModuleDefinition::Enabled, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Enabled, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Enabled, get_Enabled
-ms.topic: method
 f1_keywords:
 - fsrmpipeline/IFsrmPipelineModuleDefinition.Enabled
 dev_langs:

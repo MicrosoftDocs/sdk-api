@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 8d9a13c7-bb28-4ed3-9335-f99c50d96f6f
 ms.date: 12/05/2018
 ms.keywords: ScriptStringGetLogicalWidths, ScriptStringGetLogicalWidths function [Internationalization for Windows Applications], _win32_ScriptStringGetLogicalWidths, intl.scriptstringgetlogicalwidths, usp10/ScriptStringGetLogicalWidths
-ms.topic: function
 f1_keywords:
 - usp10/ScriptStringGetLogicalWidths
 dev_langs:

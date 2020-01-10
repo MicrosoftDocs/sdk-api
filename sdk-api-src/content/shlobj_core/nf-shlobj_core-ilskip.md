@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0ed0409a-eab3-49b6-bd8d-06ad38ac2f8c
 ms.date: 12/05/2018
 ms.keywords: ILSkip, ILSkip function [Windows Shell], ILSkip(PCUIDLIST_RELATIVE,UINT), _shell_ILSkip_PCUIDLIST_RELATIVE_UINT, shell.ILSkip_PCUIDLIST_RELATIVE_UINT, shlobj_core/ILSkip
-ms.topic: function
 f1_keywords:
 - shlobj_core/ILSkip
 dev_langs:

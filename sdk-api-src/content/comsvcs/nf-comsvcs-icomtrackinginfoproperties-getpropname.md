@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 9a26bd3d-89e2-46fd-b9d1-b65ed12ae2ee
 ms.date: 12/05/2018
 ms.keywords: GetPropName, GetPropName method [COM+], GetPropName method [COM+],IComTrackingInfoProperties interface, IComTrackingInfoProperties interface [COM+],GetPropName method, IComTrackingInfoProperties.GetPropName, IComTrackingInfoProperties::GetPropName, _dtc_IComTrackingInfoProperties_GetPropName, comsvcs/IComTrackingInfoProperties::GetPropName, cos.icomtrackinginfoproperties_getpropname
-ms.topic: method
 f1_keywords:
 - comsvcs/IComTrackingInfoProperties.GetPropName
 dev_langs:

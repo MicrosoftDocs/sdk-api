@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 234de4d8-896f-462d-8785-8b768697bf2e
 ms.date: 12/05/2018
 ms.keywords: CreateTraceDataProvider, CreateTraceDataProvider method [PLA], CreateTraceDataProvider method [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],CreateTraceDataProvider method, ITraceDataProviderCollection.CreateTraceDataProvider, ITraceDataProviderCollection::CreateTraceDataProvider, pla.itracedataprovidercollection_createtracedataprovider, pla/ITraceDataProviderCollection::CreateTraceDataProvider
-ms.topic: method
 f1_keywords:
 - pla/ITraceDataProviderCollection.CreateTraceDataProvider
 dev_langs:

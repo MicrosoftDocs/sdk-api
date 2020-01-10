@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 16e9aa76-8ecf-471e-a30c-b8cf834cee0e
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],PlayerReconnect method, IWMPEvents.PlayerReconnect, IWMPEvents::PlayerReconnect, IWMPEventsPlayerReconnect, PlayerReconnect, PlayerReconnect method [Windows Media Player], PlayerReconnect method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__playerreconnect, wmp/IWMPEvents::PlayerReconnect
-ms.topic: method
 f1_keywords:
 - wmp/IWMPEvents.PlayerReconnect
 dev_langs:

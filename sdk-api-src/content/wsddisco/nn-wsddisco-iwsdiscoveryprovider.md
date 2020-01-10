@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: e3d3acc2-914b-40bd-9e1e-a3a612821ab7
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryProvider, IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,described, ncd.iwsdiscoveryprovider, wsddisco/IWSDiscoveryProvider
-ms.topic: interface
 f1_keywords:
 - wsddisco/IWSDiscoveryProvider
 dev_langs:

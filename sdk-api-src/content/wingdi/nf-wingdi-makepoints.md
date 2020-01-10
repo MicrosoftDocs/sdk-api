@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 1f84cfd0-2836-4c20-9408-17e0d57742be
 ms.date: 12/05/2018
 ms.keywords: MAKEPOINTS, MAKEPOINTS macro [Windows GDI], _win32_MAKEPOINTS, gdi.makepoints, wingdi/MAKEPOINTS
-ms.topic: macro
 f1_keywords:
 - wingdi/MAKEPOINTS
 dev_langs:

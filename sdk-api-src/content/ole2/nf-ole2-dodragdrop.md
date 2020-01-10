@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 095172ac-9e08-4797-b9da-41a4e5a61315
 ms.date: 12/05/2018
 ms.keywords: DoDragDrop, DoDragDrop function [COM], _ole_DoDragDrop, com.dodragdrop, ole2/DoDragDrop
-ms.topic: function
 f1_keywords:
 - ole2/DoDragDrop
 dev_langs:

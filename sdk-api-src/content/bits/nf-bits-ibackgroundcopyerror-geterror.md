@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: abdf115d-3ff2-4664-b053-f55872ad24ab
 ms.date: 12/05/2018
 ms.keywords: GetError, GetError method [BITS], GetError method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetError method, IBackgroundCopyError.GetError, IBackgroundCopyError::GetError, _drz_ibackgroundcopyerror_geterror, bits.ibackgroundcopyerror_geterror, bits/IBackgroundCopyError::GetError
-ms.topic: method
 f1_keywords:
 - bits/IBackgroundCopyError.GetError
 dev_langs:

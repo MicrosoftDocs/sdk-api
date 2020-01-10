@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: def3120b-98b6-4e31-8166-822cea7fea69
 ms.date: 12/05/2018
 ms.keywords: DrtCreateIpv6UdpTransport, DrtCreateIpv6UdpTransport function [Peer Networking], drt/DrtCreateIpv6UdpTransport, p2p.drtcreateipv6udptransport
-ms.topic: function
 f1_keywords:
 - drt/DrtCreateIpv6UdpTransport
 dev_langs:

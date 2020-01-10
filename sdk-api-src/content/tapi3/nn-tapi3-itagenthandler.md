@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 11861d77-39ad-4d85-bf68-ba0f4321ba7c
 ms.date: 12/05/2018
 ms.keywords: ITAgentHandler, ITAgentHandler interface [TAPI 2.2], ITAgentHandler interface [TAPI 2.2],described, _tapi3_itagenthandler, tapi3.itagenthandler, tapi3cc/ITAgentHandler
-ms.topic: interface
 f1_keywords:
 - tapi3/ITAgentHandler
 dev_langs:

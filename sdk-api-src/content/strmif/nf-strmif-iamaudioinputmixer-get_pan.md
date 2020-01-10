@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: aa1aae16-484e-4f78-901e-2fdb0d8e365c
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_Pan method, IAMAudioInputMixer.get_Pan, IAMAudioInputMixer::get_Pan, IAMAudioInputMixerget_Pan, dshow.iamaudioinputmixer_get_pan, get_Pan, get_Pan method [DirectShow], get_Pan method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_Pan
-ms.topic: method
 f1_keywords:
 - strmif/IAMAudioInputMixer.get_Pan
 dev_langs:

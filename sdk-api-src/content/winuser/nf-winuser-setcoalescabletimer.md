@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: 39303811-972f-4131-deea-cebf84c50867
 ms.date: 12/05/2018
 ms.keywords: Any other value, SetCoalescableTimer, SetCoalescableTimer function [Windows and Messages], TIMERV_DEFAULT_COALESCING, TIMERV_NO_COALESCING, winmsg.setcoalescabletimer, winuser/SetCoalescableTimer
-ms.topic: function
 f1_keywords:
 - winuser/SetCoalescableTimer
 dev_langs:

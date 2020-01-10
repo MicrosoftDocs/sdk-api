@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 2448c9aa-0e90-4454-b168-c31b36f569af
 ms.date: 12/05/2018
 ms.keywords: Description property [Windows Update Agent], Description property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],Description property, IUpdate.Description, IUpdate.get_Description, IUpdate::Description, IUpdate::get_Description, get_Description, wua.iupdate_description, wuapi/IUpdate::Description, wuapi/IUpdate::get_Description
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdate.Description
 dev_langs:

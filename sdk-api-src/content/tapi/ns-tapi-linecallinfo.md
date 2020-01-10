@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: b077546b-cc95-44ce-99ee-f0007fd916b2
 ms.date: 12/05/2018
 ms.keywords: '*LPLINECALLINFO, LINECALLINFO, LINECALLINFO structure [TAPI 2.2], LPLINECALLINFO, LPLINECALLINFO structure pointer [TAPI 2.2], _tapi2_linecallinfo_str, tapi/LINECALLINFO, tapi/LPLINECALLINFO, tapi2.linecallinfo_str'
-ms.topic: struct
 f1_keywords:
 - tapi/LINECALLINFO
 dev_langs:

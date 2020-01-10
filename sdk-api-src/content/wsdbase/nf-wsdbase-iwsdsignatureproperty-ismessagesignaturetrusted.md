@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: b71ddd44-4823-455c-aea7-ee2f63b423bb
 ms.date: 12/05/2018
 ms.keywords: IWSDSignatureProperty interface,IsMessageSignatureTrusted method, IWSDSignatureProperty.IsMessageSignatureTrusted, IWSDSignatureProperty::IsMessageSignatureTrusted, IsMessageSignatureTrusted, IsMessageSignatureTrusted method, IsMessageSignatureTrusted method,IWSDSignatureProperty interface, ncd.iwsdsignatureproperty_ismessagesignaturetrusted, wsdbase/IWSDSignatureProperty::IsMessageSignatureTrusted
-ms.topic: method
 f1_keywords:
 - wsdbase/IWSDSignatureProperty.IsMessageSignatureTrusted
 dev_langs:

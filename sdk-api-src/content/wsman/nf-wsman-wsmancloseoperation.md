@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 4fd51026-6a48-42ef-a245-7593a615c103
 ms.date: 12/05/2018
 ms.keywords: WSManCloseOperation, WSManCloseOperation function [Windows Remote Management], winrm.wsmancloseoperation, wsman/WSManCloseOperation
-ms.topic: function
 f1_keywords:
 - wsman/WSManCloseOperation
 dev_langs:

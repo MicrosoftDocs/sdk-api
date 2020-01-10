@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63
 ms.date: 12/05/2018
 ms.keywords: CLIPOBJ, CLIPOBJ structure [Display Devices], display.clipobj, grstrcts_028034f6-2370-4e77-be77-7bc8e9ee8504.xml, winddi/CLIPOBJ
-ms.topic: struct
 f1_keywords:
 - winddi/CLIPOBJ
 dev_langs:

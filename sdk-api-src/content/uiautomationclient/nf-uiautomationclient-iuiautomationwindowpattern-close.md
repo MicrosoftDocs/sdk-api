@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 925484e2-6ad1-49ca-b2d4-a6436e7a3ddd
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Windows Accessibility], Close method [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],Close method, IUIAutomationWindowPattern.Close, IUIAutomationWindowPattern::Close, uiauto.uiauto_IUIAutomationWindowPattern_Close, uiauto_IUIAutomationWindowPattern_Close, uiautomationclient/IUIAutomationWindowPattern::Close, winauto.uiauto_IUIAutomationWindowPattern_Close
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationWindowPattern.Close
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 591B277C-44C7-4C21-86B1-239F6A71308D
 ms.date: 12/05/2018
 ms.keywords: EndQuery, EndQuery method, EndQuery method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,EndQuery method, ID3D12GraphicsCommandList.EndQuery, ID3D12GraphicsCommandList::EndQuery, d3d12/ID3D12GraphicsCommandList::EndQuery, direct3d12.id3d12graphicscommandlist_endquery
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12GraphicsCommandList.EndQuery
 dev_langs:

@@ -4,7 +4,6 @@ title: BoundingBox::Transform
 description: Transforms the BoundingBox.
 ms.date: 04/22/19
 ms.keywords: BoundingBox::Transform
-ms.topic: language-reference
 f1_keywords:
 - directxcollision/BoundingBox::Transform
 dev_langs:

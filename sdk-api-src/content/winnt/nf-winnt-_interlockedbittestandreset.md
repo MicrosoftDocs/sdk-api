@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 620bc56b-e85a-403f-94b8-14c838f046f0
 ms.date: 12/05/2018
 ms.keywords: InterlockedBitTestAndReset, InterlockedBitTestAndReset function, _interlockedbittestandreset, base.interlockedbittestandreset, winnt/InterlockedBitTestAndReset
-ms.topic: function
 f1_keywords:
 - winnt/InterlockedBitTestAndReset
 dev_langs:

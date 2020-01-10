@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: f5b1e8fc-02eb-4a06-b606-2b647944029b
 ms.date: 12/05/2018
 ms.keywords: TlsFree, TlsFree function, _win32_tlsfree, base.tlsfree, processthreadsapi/TlsFree, winbase/TlsFree
-ms.topic: function
 f1_keywords:
 - processthreadsapi/TlsFree
 dev_langs:

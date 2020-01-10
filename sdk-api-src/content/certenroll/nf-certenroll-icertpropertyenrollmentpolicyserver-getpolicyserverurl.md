@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 9d7ba049-4566-423d-b750-ff091dce1e2a
 ms.date: 12/05/2018
 ms.keywords: GetPolicyServerUrl, GetPolicyServerUrl method [Security], GetPolicyServerUrl method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetPolicyServerUrl method, ICertPropertyEnrollmentPolicyServer.GetPolicyServerUrl, ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl, certenroll/ICertPropertyEnrollmentPolicyServer::GetPolicyServerUrl, security.icertpropertyenrollmentpolicyserver_getpolicyserverurl
-ms.topic: method
 f1_keywords:
 - certenroll/ICertPropertyEnrollmentPolicyServer.GetPolicyServerUrl
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 87BA97F8-E905-44C7-BBC6-A62240216984
 ms.date: 12/05/2018
 ms.keywords: NdrDcomAsyncClientCall2, NdrDcomAsyncClientCall2 function [RPC], rpc.ndrdcomasyncclientcall2, rpcndr/NdrDcomAsyncClientCall2
-ms.topic: function
 f1_keywords:
 - rpcndr/NdrDcomAsyncClientCall2
 dev_langs:

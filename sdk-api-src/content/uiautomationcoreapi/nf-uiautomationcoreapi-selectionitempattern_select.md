@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 73cc27bd-b309-4de1-9249-23b0b209db3c
 ms.date: 12/05/2018
 ms.keywords: SelectionItemPattern_Select, SelectionItemPattern_Select function [Windows Accessibility], uiauto.uiauto_SelectionItemPattern_SelectConPat, uiauto_SelectionItemPattern_SelectConPat, uiautomationcoreapi/SelectionItemPattern_Select, winauto.uiauto_SelectionItemPattern_SelectConPat
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/SelectionItemPattern_Select
 dev_langs:

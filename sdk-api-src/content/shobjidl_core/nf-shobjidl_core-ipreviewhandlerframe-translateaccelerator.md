@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4f33a0b1-28ad-4e2d-9e2a-e58f44ab6f00
 ms.date: 12/05/2018
 ms.keywords: IPreviewHandlerFrame interface [Windows Shell],TranslateAccelerator method, IPreviewHandlerFrame.TranslateAccelerator, IPreviewHandlerFrame::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [Windows Shell], TranslateAccelerator method [Windows Shell],IPreviewHandlerFrame interface, _shell_IPreviewHandlerFrame_TranslateAccelerator, shell.IPreviewHandlerFrame_TranslateAccelerator, shobjidl_core/IPreviewHandlerFrame::TranslateAccelerator
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IPreviewHandlerFrame.TranslateAccelerator
 dev_langs:

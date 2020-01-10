@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 4118b9fe-4252-4591-862d-a1cc48fa3cff
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetFileName, MCIWndGetFileName macro [Windows Multimedia], _win32_MCIWndGetFileName, multimedia.mciwndgetfilename, vfw/MCIWndGetFileName
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndGetFileName
 dev_langs:

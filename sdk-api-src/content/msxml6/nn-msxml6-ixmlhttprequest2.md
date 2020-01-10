@@ -7,7 +7,6 @@ tech.root: ixhr2
 ms.assetid: BBC11C4A-AECF-4D6D-8275-3E852E309908
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2, IXMLHTTPRequest2 interface [XMLHttpRequest2], IXMLHTTPRequest2 interface [XMLHttpRequest2],described, ixhr2.ixmlhttprequest2, msxml6/IXMLHTTPRequest2
-ms.topic: interface
 f1_keywords:
 - msxml6/IXMLHTTPRequest2
 dev_langs:

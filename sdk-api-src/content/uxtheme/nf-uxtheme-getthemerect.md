@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemerect.htm
 ms.date: 12/05/2018
 ms.keywords: GetThemeRect, GetThemeRect function [Windows Controls], controls.GetThemeRect, controls.inet_GetThemeRect, inet_GetThemeRect, inet_GetThemeRect_cpp, uxtheme/GetThemeRect
-ms.topic: function
 f1_keywords:
 - uxtheme/GetThemeRect
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackqueryinsertobject.htm
 ms.date: 12/05/2018
 ms.keywords: IRichEditOleCallback interface [Windows Controls],QueryInsertObject method, IRichEditOleCallback.QueryInsertObject, IRichEditOleCallback::QueryInsertObject, QueryInsertObject, QueryInsertObject method [Windows Controls], QueryInsertObject method [Windows Controls],IRichEditOleCallback interface, _win32_IRichEditOleCallback_QueryInsertObject, _win32_IRichEditOleCallback_QueryInsertObject_cpp, controls.IRichEditOleCallback_QueryInsertObject, controls._win32_IRichEditOleCallback_QueryInsertObject, richole/IRichEditOleCallback::QueryInsertObject
-ms.topic: method
 f1_keywords:
 - richole/IRichEditOleCallback.QueryInsertObject
 dev_langs:

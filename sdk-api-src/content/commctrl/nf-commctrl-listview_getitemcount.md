@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemcount.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_GetItemCount, ListView_GetItemCount macro [Windows Controls], _win32_ListView_GetItemCount, _win32_ListView_GetItemCount_cpp, commctrl/ListView_GetItemCount, controls.ListView_GetItemCount, controls._win32_ListView_GetItemCount
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_GetItemCount
 dev_langs:

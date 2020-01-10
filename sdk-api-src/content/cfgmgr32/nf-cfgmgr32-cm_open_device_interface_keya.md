@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 71802D33-9024-4D7F-9120-8EEFECA53A60
 ms.date: 12/05/2018
 ms.keywords: CM_Open_Device_Interface_Key, CM_Open_Device_Interface_Key function [Device and Driver Installation], CM_Open_Device_Interface_KeyA, CM_Open_Device_Interface_KeyW, cfgmgr32/CM_Open_Device_Interface_Key, cfgmgr32/CM_Open_Device_Interface_KeyA, cfgmgr32/CM_Open_Device_Interface_KeyW, devinst.cm_open_device_interface_key
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Open_Device_Interface_Key
 dev_langs:

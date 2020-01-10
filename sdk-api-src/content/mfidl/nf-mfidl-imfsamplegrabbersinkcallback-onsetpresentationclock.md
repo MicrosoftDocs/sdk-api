@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: bd367a8f-e7a0-4032-8f62-7dd9896d24ef
 ms.date: 12/05/2018
 ms.keywords: IMFSampleGrabberSinkCallback interface [Media Foundation],OnSetPresentationClock method, IMFSampleGrabberSinkCallback.OnSetPresentationClock, IMFSampleGrabberSinkCallback::OnSetPresentationClock, OnSetPresentationClock, OnSetPresentationClock method [Media Foundation], OnSetPresentationClock method [Media Foundation],IMFSampleGrabberSinkCallback interface, bd367a8f-e7a0-4032-8f62-7dd9896d24ef, mf.imfsamplegrabbersinkcallback_onsetpresentationclock, mfidl/IMFSampleGrabberSinkCallback::OnSetPresentationClock
-ms.topic: method
 f1_keywords:
 - mfidl/IMFSampleGrabberSinkCallback.OnSetPresentationClock
 dev_langs:

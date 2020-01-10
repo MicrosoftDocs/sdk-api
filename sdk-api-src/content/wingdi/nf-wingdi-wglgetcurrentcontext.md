@@ -7,7 +7,6 @@ tech.root: OpenGL
 ms.assetid: 8e2a4f24-689c-48b7-a06e-fc57d65b5567
 ms.date: 12/05/2018
 ms.keywords: _ogl_wglGetCurrentContext, opengl.wglgetcurrentcontext, wglGetCurrentContext, wglGetCurrentContext function [OpenGL], wingdi/wglGetCurrentContext
-ms.topic: function
 f1_keywords:
 - wingdi/wglGetCurrentContext
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 3040f56b-2c60-43c8-81b8-5c3538db08db
 ms.date: 12/05/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],get_SignalStrength method, ITuner.get_SignalStrength, ITuner::get_SignalStrength, ITunerget_SignalStrength, get_SignalStrength, get_SignalStrength method [Microsoft TV Technologies], get_SignalStrength method [Microsoft TV Technologies],ITuner interface, mstv.ituner_get_signalstrength, tuner/ITuner::get_SignalStrength
-ms.topic: method
 f1_keywords:
 - tuner/ITuner.get_SignalStrength
 dev_langs:

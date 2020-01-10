@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 027d92b7-17dc-4ee5-a85a-e00b425a7a7a
 ms.date: 12/05/2018
 ms.keywords: GetActivityId, GetActivityId method [COM+], GetActivityId method [COM+],IObjectContextActivity interface, IObjectContextActivity interface [COM+],GetActivityId method, IObjectContextActivity.GetActivityId, IObjectContextActivity::GetActivityId, _cos_IObjectContextActivity_GetActivityID, comsvcs/IObjectContextActivity::GetActivityId, cos.iobjectcontextactivity_getactivityid
-ms.topic: method
 f1_keywords:
 - comsvcs/IObjectContextActivity.GetActivityId
 dev_langs:

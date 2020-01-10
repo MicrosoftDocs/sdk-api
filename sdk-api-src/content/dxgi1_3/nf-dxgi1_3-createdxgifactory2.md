@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: D3CF43B0-8F17-486E-8750-CF0B9052BE74
 ms.date: 12/05/2018
 ms.keywords: CreateDXGIFactory2, CreateDXGIFactory2 function [DXGI], direct3ddxgi.createdxgifactory2, dxgi1_3/CreateDXGIFactory2
-ms.topic: function
 f1_keywords:
 - dxgi1_3/CreateDXGIFactory2
 dev_langs:

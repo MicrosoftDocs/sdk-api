@@ -7,7 +7,6 @@ tech.root: FunDisc
 ms.assetid: 35e98e8a-5e6c-4cbb-9a61-9720f11f90d6
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProvider interface,InstancePropertyStoreOpen method, IFunctionDiscoveryProvider.InstancePropertyStoreOpen, IFunctionDiscoveryProvider::InstancePropertyStoreOpen, InstancePropertyStoreOpen, InstancePropertyStoreOpen method, InstancePropertyStoreOpen method,IFunctionDiscoveryProvider interface, STGM_READ, STGM_READWRITE, STGM_WRITE, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstancePropertyStoreOpen, ncd.ifunctiondiscoveryprovider_instancepropertystoreopen
-ms.topic: method
 f1_keywords:
 - functiondiscoveryprovider/IFunctionDiscoveryProvider.InstancePropertyStoreOpen
 dev_langs:

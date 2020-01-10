@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 36140833-8e30-4c32-a88a-c10751b6c223
 ms.date: 12/05/2018
 ms.keywords: ConvertSecurityDescriptorToStringSecurityDescriptor, ConvertSecurityDescriptorToStringSecurityDescriptor function [Security], ConvertSecurityDescriptorToStringSecurityDescriptorA, ConvertSecurityDescriptorToStringSecurityDescriptorW, _win32_convertsecuritydescriptortostringsecuritydescriptor, sddl/ConvertSecurityDescriptorToStringSecurityDescriptor, sddl/ConvertSecurityDescriptorToStringSecurityDescriptorA, sddl/ConvertSecurityDescriptorToStringSecurityDescriptorW, security.convertsecuritydescriptortostringsecuritydescriptor
-ms.topic: function
 f1_keywords:
 - sddl/ConvertSecurityDescriptorToStringSecurityDescriptor
 dev_langs:

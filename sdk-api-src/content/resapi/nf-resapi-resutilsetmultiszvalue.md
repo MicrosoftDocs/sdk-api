@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: db048ce5-ca83-424b-853f-eda445176c0b
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_SET_MULTI_SZ_VALUE, PRESUTIL_SET_MULTI_SZ_VALUE function [Failover Cluster], ResUtilSetMultiSzValue, ResUtilSetMultiSzValue function [Failover Cluster], _wolf_resutilsetmultiszvalue, mscs.resutilsetmultiszvalue, resapi/PRESUTIL_SET_MULTI_SZ_VALUE, resapi/ResUtilSetMultiSzValue
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilSetMultiSzValue
 dev_langs:

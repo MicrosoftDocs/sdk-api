@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: a9b5f5f3-6e54-4a97-b3e7-e9e026947116
 ms.date: 12/05/2018
 ms.keywords: MgmRegisterMProtocol, MgmRegisterMProtocol function [RAS], _mpr_mgmregistermprotocol, mgm/MgmRegisterMProtocol, rras.mgmregistermprotocol
-ms.topic: function
 f1_keywords:
 - mgm/MgmRegisterMProtocol
 dev_langs:

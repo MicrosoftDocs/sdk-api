@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b98ec1ee-8439-494b-b8e6-aa3d127042fa
 ms.date: 12/05/2018
 ms.keywords: UIntPtrToChar, UIntPtrToChar function [Windows Shell], intsafe/UIntPtrToChar, shell.UIntPtrToChar
-ms.topic: function
 f1_keywords:
 - intsafe/UIntPtrToChar
 dev_langs:

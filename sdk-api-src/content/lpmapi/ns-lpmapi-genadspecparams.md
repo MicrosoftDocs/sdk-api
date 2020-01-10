@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 0d980286-bce6-483e-b2a1-117c7280c1c1
 ms.date: 12/05/2018
 ms.keywords: GenAdspecParams, GenAdspecParams structure [QOS], lpmapi/GenAdspecParams, qos.genadspecparams
-ms.topic: struct
 f1_keywords:
 - lpmapi/GenAdspecParams
 dev_langs:

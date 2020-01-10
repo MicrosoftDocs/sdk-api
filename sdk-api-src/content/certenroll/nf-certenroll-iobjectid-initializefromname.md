@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: dce84308-aecc-4841-88da-e948313b90b3
 ms.date: 12/05/2018
 ms.keywords: IObjectId interface [Security],InitializeFromName method, IObjectId.InitializeFromName, IObjectId::InitializeFromName, InitializeFromName, InitializeFromName method [Security], InitializeFromName method [Security],IObjectId interface, certenroll/IObjectId::InitializeFromName, security.iobjectid_initializefromname_method
-ms.topic: method
 f1_keywords:
 - certenroll/IObjectId.InitializeFromName
 dev_langs:

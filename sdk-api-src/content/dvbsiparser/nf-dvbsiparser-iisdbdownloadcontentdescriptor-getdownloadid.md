@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: b57eba56-b9d6-4555-8d5d-80fd2b9fd23f
 ms.date: 12/05/2018
 ms.keywords: GetDownloadId, GetDownloadId method [Microsoft TV Technologies], GetDownloadId method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetDownloadId method, IIsdbDownloadContentDescriptor.GetDownloadId, IIsdbDownloadContentDescriptor::GetDownloadId, dvbsiparser/IIsdbDownloadContentDescriptor::GetDownloadId, mstv.iisdbdownloadcontentdescriptor_getdownloadid
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbDownloadContentDescriptor.GetDownloadId
 dev_langs:

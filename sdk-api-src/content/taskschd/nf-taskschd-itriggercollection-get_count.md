@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: ae4ff1b8-f030-420b-b96a-b5c1246c04ce
 ms.date: 12/05/2018
 ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],ITriggerCollection interface, ITriggerCollection interface [Task Scheduler],Count property, ITriggerCollection.Count, ITriggerCollection.get_Count, ITriggerCollection::Count, ITriggerCollection::get_Count, get_Count, taskschd.itriggercollection_count, taskschd/ITriggerCollection::Count, taskschd/ITriggerCollection::get_Count
-ms.topic: method
 f1_keywords:
 - taskschd/ITriggerCollection.Count
 dev_langs:

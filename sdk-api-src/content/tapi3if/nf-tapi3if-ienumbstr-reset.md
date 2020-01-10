@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 52199728-17ab-4c17-bfe5-f51cd1e0b150
 ms.date: 12/05/2018
 ms.keywords: IEnumBstr interface [TAPI 2.2],Reset method, IEnumBstr.Reset, IEnumBstr::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumBstr interface, _tapi3_ienumbstr_reset, tapi3.ienumbstr_reset, tapi3if/IEnumBstr::Reset
-ms.topic: method
 f1_keywords:
 - tapi3if/IEnumBstr.Reset
 dev_langs:

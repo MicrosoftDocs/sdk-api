@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: cde732ea-b2de-4eb7-bef6-bed01137d76a
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],UnlockBuffer method, CHString.UnlockBuffer, CHString::UnlockBuffer, UnlockBuffer, UnlockBuffer method [Windows Management Instrumentation], UnlockBuffer method [Windows Management Instrumentation],CHString interface, _hmm_chstring_unlockbuffer, chstring/CHString::UnlockBuffer, wmi.chstring_unlockbuffer
-ms.topic: method
 f1_keywords:
 - chstring/CHString.UnlockBuffer
 dev_langs:

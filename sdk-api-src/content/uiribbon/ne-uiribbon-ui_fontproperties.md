@@ -7,7 +7,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_fontproperties.htm
 ms.date: 12/05/2018
 ms.keywords: UI_FONTPROPERTIES, UI_FONTPROPERTIES enumeration [Windows Ribbon], UI_FONTPROPERTIES_NOTAVAILABLE, UI_FONTPROPERTIES_NOTSET, UI_FONTPROPERTIES_SET, scenicintent_UI_FONTPROPERTIES, uiribbon/UI_FONTPROPERTIES, uiribbon/UI_FONTPROPERTIES_NOTAVAILABLE, uiribbon/UI_FONTPROPERTIES_NOTSET, uiribbon/UI_FONTPROPERTIES_SET, windowsribbon.windowsribbon_ui_fontproperties
-ms.topic: enum
 f1_keywords:
 - uiribbon/UI_FONTPROPERTIES
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 8338989a-ef99-479c-8163-ad8d65eba32b
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetActualModelsSection, SetupDiGetActualModelsSection function [Device and Driver Installation], SetupDiGetActualModelsSectionA, SetupDiGetActualModelsSectionW, devinst.setupdigetactualmodelssection, di-rtns_d008a45e-8dbe-4d59-ac12-be4ac28eebcb.xml, setupapi/SetupDiGetActualModelsSection
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetActualModelsSection
 dev_langs:

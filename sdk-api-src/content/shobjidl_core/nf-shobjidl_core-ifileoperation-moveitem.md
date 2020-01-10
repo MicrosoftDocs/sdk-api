@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7b1e66c9-5264-42cb-9554-d1ea92625c6f
 ms.date: 12/05/2018
 ms.keywords: IFileOperation interface [Windows Shell],MoveItem method, IFileOperation.MoveItem, IFileOperation::MoveItem, MoveItem, MoveItem method [Windows Shell], MoveItem method [Windows Shell],IFileOperation interface, _shell_IFileOperation_MoveItem, shell.IFileOperation_MoveItem, shobjidl_core/IFileOperation::MoveItem
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileOperation.MoveItem
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: be50588b-066b-42ab-ba81-7537c811676f
 ms.date: 12/05/2018
 ms.keywords: SymLoadModule, SymLoadModule function, SymLoadModule64, SymLoadModule64 function, _win32_symloadmodule64, base.symloadmodule64, dbghelp/SymLoadModule, dbghelp/SymLoadModule64
-ms.topic: function
 f1_keywords:
 - dbghelp/SymLoadModule64
 dev_langs:

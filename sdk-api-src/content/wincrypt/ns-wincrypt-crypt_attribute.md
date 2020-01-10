@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: cdbaf38d-ddbe-4be0-afbc-f8bd76ef4847
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_ATTRIBUTE, CRYPT_ATTRIBUTE, CRYPT_ATTRIBUTE structure [Security], PCRYPT_ATTRIBUTE, PCRYPT_ATTRIBUTE structure pointer [Security], _crypto2_crypt_attribute, security.crypt_attribute, wincrypt/CRYPT_ATTRIBUTE, wincrypt/PCRYPT_ATTRIBUTE'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_ATTRIBUTE
 dev_langs:

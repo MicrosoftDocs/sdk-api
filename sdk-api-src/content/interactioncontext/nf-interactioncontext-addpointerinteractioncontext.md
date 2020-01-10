@@ -7,7 +7,6 @@ tech.root: Input_IntContext
 ms.assetid: a720284f-af50-4e55-ae48-c78a1e826dc4
 ms.date: 12/05/2018
 ms.keywords: AddPointerInteractionContext, AddPointerInteractionContext function, input_intcontext.addpointerinteractioncontext, interactioncontext.addpointerinteractioncontext, interactioncontext/AddPointerInteractionContext
-ms.topic: function
 f1_keywords:
 - interactioncontext/AddPointerInteractionContext
 dev_langs:

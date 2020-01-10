@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f5d5c608-1890-43f8-bdf3-3fcb0c6a2f5e
 ms.date: 12/05/2018
 ms.keywords: GetSurfaceType, GetSurfaceType method [DirectShow], GetSurfaceType method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetSurfaceType method, IDirectDrawVideo.GetSurfaceType, IDirectDrawVideo::GetSurfaceType, IDirectDrawVideoGetSurfaceType, amvideo/IDirectDrawVideo::GetSurfaceType, dshow.idirectdrawvideo_getsurfacetype
-ms.topic: method
 f1_keywords:
 - amvideo/IDirectDrawVideo.GetSurfaceType
 dev_langs:

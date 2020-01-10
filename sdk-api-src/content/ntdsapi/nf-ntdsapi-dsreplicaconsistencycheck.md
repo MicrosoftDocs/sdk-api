@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 2a83ffcb-1ebd-4024-a186-9c079896f4e1
 ms.date: 12/05/2018
 ms.keywords: DS_KCC_FLAG_ASYNC_OP, DS_KCC_FLAG_DAMPED, DsReplicaConsistencyCheck, DsReplicaConsistencyCheck function [Active Directory], _glines_dsreplicaconsistencycheck, ad.dsreplicaconsistencycheck, ntdsapi/DsReplicaConsistencyCheck
-ms.topic: function
 f1_keywords:
 - ntdsapi/DsReplicaConsistencyCheck
 dev_langs:

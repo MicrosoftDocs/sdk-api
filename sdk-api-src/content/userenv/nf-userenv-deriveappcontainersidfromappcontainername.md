@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 233EFA95-289D-4D55-9D56-0630C015ABC7
 ms.date: 12/05/2018
 ms.keywords: DeriveAppContainerSidFromAppContainerName, DeriveAppContainerSidFromAppContainerName function [Windows Shell], shell.deriveappcontainersidfromappcontainername, userenv/DeriveAppContainerSidFromAppContainerName
-ms.topic: function
 f1_keywords:
 - userenv/DeriveAppContainerSidFromAppContainerName
 dev_langs:

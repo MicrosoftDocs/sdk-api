@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: db21ab80-ea2f-4f9e-a43c-0d202e235516
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetAlignment method, ICreateTypeInfo.SetAlignment, ICreateTypeInfo::SetAlignment, SetAlignment, SetAlignment method [Automation], SetAlignment method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetAlignment, automat.icreatetypeinfo_setalignment, oaidl/ICreateTypeInfo::SetAlignment
-ms.topic: method
 f1_keywords:
 - oaidl/ICreateTypeInfo.SetAlignment
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 1435e083-c6a1-491c-a7c2-7d2cb1d54508
 ms.date: 12/05/2018
 ms.keywords: GetOwnerClsid, GetOwnerClsid method [Text Services Framework], GetOwnerClsid method [Text Services Framework],ITfCompositionView interface, ITfCompositionView interface [Text Services Framework],GetOwnerClsid method, ITfCompositionView.GetOwnerClsid, ITfCompositionView::GetOwnerClsid, _tsf_itfcompositionview_getownerclsid_ref, msctf/ITfCompositionView::GetOwnerClsid, tsf.itfcompositionview_getownerclsid
-ms.topic: method
 f1_keywords:
 - msctf/ITfCompositionView.GetOwnerClsid
 dev_langs:

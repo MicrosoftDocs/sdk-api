@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 48A41E3F-DDB0-431F-BCF0-E2452FEA57FA
 ms.date: 12/05/2018
 ms.keywords: AuditSetGlobalSacl, AuditSetGlobalSacl function [Security], AuditSetGlobalSaclA, AuditSetGlobalSaclW, ntsecapi/AuditSetGlobalSacl, ntsecapi/AuditSetGlobalSaclA, ntsecapi/AuditSetGlobalSaclW, security.auditsetglobalsacl
-ms.topic: function
 f1_keywords:
 - ntsecapi/AuditSetGlobalSacl
 dev_langs:

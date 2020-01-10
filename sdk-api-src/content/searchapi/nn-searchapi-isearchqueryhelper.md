@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\isearchqueryhelper.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper, ISearchQueryHelper interface [search], ISearchQueryHelper interface [search],described, _search_ISearchQueryHelper, search._search_ISearchQueryHelper, searchapi/ISearchQueryHelper
-ms.topic: interface
 f1_keywords:
 - searchapi/ISearchQueryHelper
 dev_langs:

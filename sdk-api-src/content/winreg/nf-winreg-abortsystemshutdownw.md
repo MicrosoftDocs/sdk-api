@@ -7,7 +7,6 @@ tech.root: Shutdown
 ms.assetid: 41212640-6a06-4d2f-9b0e-5b2d77d561b0
 ms.date: 12/05/2018
 ms.keywords: AbortSystemShutdown, AbortSystemShutdown function, AbortSystemShutdownA, AbortSystemShutdownW, _win32_abortsystemshutdown, base.abortsystemshutdown, winreg/AbortSystemShutdown, winreg/AbortSystemShutdownA, winreg/AbortSystemShutdownW
-ms.topic: function
 f1_keywords:
 - winreg/AbortSystemShutdown
 dev_langs:

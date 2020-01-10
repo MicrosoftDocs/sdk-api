@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imageconstructors\image_53filename_useembeddedcolormanagement.htm
 ms.date: 12/05/2018
 ms.keywords: FALSE, Image, Image class [GDI+],Image constructor, Image constructor [GDI+], Image constructor [GDI+],Image class, Image.Image, Image.Image(IN const WCHAR,IN BOOL), Image.Image(const WCHAR*,BOOL), Image::Image, Image::Image(IN const WCHAR,IN BOOL), TRUE, _gdiplus_CLASS_Image_Image_filename_useEmbeddedColorManagement_, gdiplus._gdiplus_CLASS_Image_Image_filename_useEmbeddedColorManagement_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Image.Image
 dev_langs:

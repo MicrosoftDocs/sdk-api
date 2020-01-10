@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: 2c47c690-0748-4ed4-a138-894d45c72581
 ms.date: 12/05/2018
 ms.keywords: PdhCollectQueryDataWithTime, PdhCollectQueryDataWithTime function [Perf], base.pdhcollectquerydatawithtime, pdh/PdhCollectQueryDataWithTime, perf.pdhcollectquerydatawithtime
-ms.topic: function
 f1_keywords:
 - pdh/PdhCollectQueryDataWithTime
 dev_langs:

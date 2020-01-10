@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 57b16024-5347-4218-90a7-d85e403aacf0
 ms.date: 12/05/2018
 ms.keywords: InnerRequestLevel, InnerRequestLevel enumeration [Security], LevelInnermost, LevelNext, certenroll/InnerRequestLevel, certenroll/LevelInnermost, certenroll/LevelNext, security.innerrequestlevel_enum
-ms.topic: enum
 f1_keywords:
 - certenroll/InnerRequestLevel
 dev_langs:

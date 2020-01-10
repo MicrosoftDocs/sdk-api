@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: d621e96b-d357-4468-8a89-89445fb1ca9e
 ms.date: 12/05/2018
 ms.keywords: GetTextExt, GetTextExt method [Text Services Framework], GetTextExt method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetTextExt method, ITextStoreACP.GetTextExt, ITextStoreACP::GetTextExt, _tsf_itextstoreacp_gettextext_ref, textstor/ITextStoreACP::GetTextExt, tsf.itextstoreacp_gettextext
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreACP.GetTextExt
 dev_langs:

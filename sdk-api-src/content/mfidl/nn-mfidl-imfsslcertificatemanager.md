@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 62e4227d-6bc9-4011-acee-6278fe388830
 ms.date: 12/05/2018
 ms.keywords: IMFSSLCertificateManager, IMFSSLCertificateManager interface [Media Foundation], IMFSSLCertificateManager interface [Media Foundation],described, mf.imfsslcertificatemanager, mfidl/IMFSSLCertificateManager
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFSSLCertificateManager
 dev_langs:

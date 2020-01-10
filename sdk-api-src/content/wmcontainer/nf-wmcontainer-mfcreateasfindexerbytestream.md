@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: edcce9d4-9296-4b39-8e58-58ae602c250f
 ms.date: 12/05/2018
 ms.keywords: MFCreateASFIndexerByteStream, MFCreateASFIndexerByteStream function [Media Foundation], edcce9d4-9296-4b39-8e58-58ae602c250f, mf.mfcreateasfindexerbytestream, wmcontainer/MFCreateASFIndexerByteStream
-ms.topic: function
 f1_keywords:
 - wmcontainer/MFCreateASFIndexerByteStream
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: F855478C-BF26-46B1-B3F8-9DD5E8F05862
 ms.date: 12/05/2018
 ms.keywords: WBEM_FLAG_REFRESH_AUTO_RECONNECT, WBEM_FLAG_REFRESH_NO_AUTO_RECONNECT, WBEM_REFRESHER_FLAGS, WBEM_REFRESHER_FLAGS enumeration [Windows Management Instrumentation], wbemcli/WBEM_FLAG_REFRESH_AUTO_RECONNECT, wbemcli/WBEM_FLAG_REFRESH_NO_AUTO_RECONNECT, wbemcli/WBEM_REFRESHER_FLAGS, wmi.wbem_refresher_flags
-ms.topic: enum
 f1_keywords:
 - wbemcli/WBEM_REFRESHER_FLAGS
 dev_langs:

@@ -5,7 +5,6 @@ description: Specifies a Direct3D 12 video feature or feature set to query about
 tech.root: mf
 ms.assetid: 19381358-07c5-4244-a28b-52b568da3b7c
 ms.date: 05/28/2019
-ms.topic: enum
 f1_keywords:
 - D3D12_FEATURE_VIDEO
 dev_langs:

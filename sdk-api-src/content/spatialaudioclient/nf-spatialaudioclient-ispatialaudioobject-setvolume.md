@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: DC1B4B9C-BFE0-4308-AD34-500A30C5744F
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObject interface [Core Audio],SetVolume method, ISpatialAudioObject.SetVolume, ISpatialAudioObject::SetVolume, SetVolume, SetVolume method [Core Audio], SetVolume method [Core Audio],ISpatialAudioObject interface, coreaudio.ispatialaudioobject_setvolume, spatialaudioclient/ISpatialAudioObject::SetVolume
-ms.topic: method
 f1_keywords:
 - spatialaudioclient/ISpatialAudioObject.SetVolume
 dev_langs:

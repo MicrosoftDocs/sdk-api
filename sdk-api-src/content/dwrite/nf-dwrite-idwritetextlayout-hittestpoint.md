@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 6eb10e03-beb6-4ad3-9b57-4b4be0e265de
 ms.date: 12/05/2018
 ms.keywords: HitTestPoint, HitTestPoint method [Direct Write], HitTestPoint method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],HitTestPoint method, IDWriteTextLayout.HitTestPoint, IDWriteTextLayout::HitTestPoint, directwrite.IDWriteTextLayout_HitTestPoint, dwrite/IDWriteTextLayout::HitTestPoint
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextLayout.HitTestPoint
 dev_langs:

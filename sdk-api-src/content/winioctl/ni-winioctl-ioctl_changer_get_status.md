@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: 6073230e-0ee7-40be-8fb5-1dd90c01de10
 ms.date: 12/05/2018
 ms.keywords: IOCTL_CHANGER_GET_STATUS, IOCTL_CHANGER_GET_STATUS control, IOCTL_CHANGER_GET_STATUS control code, _win32_ioctl_changer_get_status, base.ioctl_changer_get_status, winioctl/IOCTL_CHANGER_GET_STATUS
-ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_CHANGER_GET_STATUS
 dev_langs:

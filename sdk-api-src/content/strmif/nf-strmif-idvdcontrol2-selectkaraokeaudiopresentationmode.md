@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9101fd83-1349-4cdd-b5e9-6daeb7d1e3d8
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectKaraokeAudioPresentationMode method, IDvdControl2.SelectKaraokeAudioPresentationMode, IDvdControl2::SelectKaraokeAudioPresentationMode, IDvdControl2SelectKaraokeAudioPresentationMode, SelectKaraokeAudioPresentationMode, SelectKaraokeAudioPresentationMode method [DirectShow], SelectKaraokeAudioPresentationMode method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectkaraokeaudiopresentationmode, strmif/IDvdControl2::SelectKaraokeAudioPresentationMode
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl2.SelectKaraokeAudioPresentationMode
 dev_langs:

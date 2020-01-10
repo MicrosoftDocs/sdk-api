@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: c7ccc66a-7897-4430-8874-a4ba66a5cce7
 ms.date: 12/05/2018
 ms.keywords: FindDebugInfoFileProc, FindDebugInfoFileProc callback, FindDebugInfoFileProc callback function, PFIND_DEBUG_FILE_CALLBACK, PFIND_DEBUG_FILE_CALLBACKW, _win32_finddebuginfofileproc, base.finddebuginfofileproc, dbghelp/FindDebugInfoFileProc
-ms.topic: callback
 f1_keywords:
 - dbghelp/FindDebugInfoFileProc
 dev_langs:

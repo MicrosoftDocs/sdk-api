@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 202a4b42-513a-45de-894a-72e56c706a58
 ms.date: 12/05/2018
 ms.keywords: CREATE_SUSPENDED, CreateThread, CreateThread function, STACK_SIZE_PARAM_IS_A_RESERVATION, _win32_createthread, base.createthread, processthreadsapi/CreateThread, winbase/CreateThread
-ms.topic: function
 f1_keywords:
 - processthreadsapi/CreateThread
 dev_langs:

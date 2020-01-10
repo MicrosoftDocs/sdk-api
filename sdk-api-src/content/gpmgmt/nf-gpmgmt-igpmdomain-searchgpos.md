@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 19a8efae-0b85-49ba-bf7e-08ed700874c3
 ms.date: 12/05/2018
 ms.keywords: GPMDomain object [GPMC],SearchGPOs method, IGPMDomain interface [GPMC],SearchGPOs method, IGPMDomain.SearchGPOs, IGPMDomain::SearchGPOs, SearchGPOs, SearchGPOs method [GPMC], SearchGPOs method [GPMC],GPMDomain object, SearchGPOs method [GPMC],IGPMDomain interface, _win32_igpmdomain_searchgpos, gpmc.igpmdomain_searchgpos, gpmgmt/IGPMDomain::SearchGPOs, gpoComputerExtensions, gpoDisplayName, gpoEffectivePermissions, gpoID, gpoPermissions, gpoUserExtensions, gpoWMIFilter
-ms.topic: method
 f1_keywords:
 - gpmgmt/IGPMDomain.SearchGPOs
 dev_langs:

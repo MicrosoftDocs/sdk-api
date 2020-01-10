@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: b2149336-f1b2-4244-bf50-4e79638786e0
 ms.date: 12/05/2018
 ms.keywords: MFConvertToFP16Array, MFConvertToFP16Array function [Media Foundation], b2149336-f1b2-4244-bf50-4e79638786e0, mf.mfconverttofp16array, mfapi/MFConvertToFP16Array
-ms.topic: function
 f1_keywords:
 - mfapi/MFConvertToFP16Array
 dev_langs:

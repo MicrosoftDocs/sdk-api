@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: cc21f663-e8f8-4348-920c-bffad46d0aa0
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyGroups interface [BITS],Next method, IEnumBackgroundCopyGroups.Next, IEnumBackgroundCopyGroups::Next, Next, Next method [BITS], Next method [BITS],IEnumBackgroundCopyGroups interface, bits.ienumbackgroundcopygroups_next, qmgr/IEnumBackgroundCopyGroups::Next
-ms.topic: method
 f1_keywords:
 - qmgr/IEnumBackgroundCopyGroups.Next
 dev_langs:

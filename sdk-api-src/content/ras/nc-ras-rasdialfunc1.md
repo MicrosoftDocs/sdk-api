@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: f0b0dbbc-8544-4711-819a-48bb714a67d9
 ms.date: 12/05/2018
 ms.keywords: ERROR_AUTH_INTERNAL, ERROR_CANNOT_GET_LANA, ERROR_NETBIOS_ERROR, ERROR_SERVER_NOT_RESPONDING, RasDialFunc1, RasDialFunc1 callback, RasDialFunc1 callback function [RAS], _ras_rasdialfunc1, ras/RasDialFunc1, rras.rasdialfunc1
-ms.topic: callback
 f1_keywords:
 - ras/RasDialFunc1
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: 8304ecee-5141-450a-be11-838b9f52413b
 ms.date: 12/05/2018
 ms.keywords: PdhParseInstanceName, PdhParseInstanceName function [Perf], PdhParseInstanceNameA, PdhParseInstanceNameW, _win32_pdhparseinstancename, base.pdhparseinstancename, pdh/PdhParseInstanceName, pdh/PdhParseInstanceNameA, pdh/PdhParseInstanceNameW, perf.pdhparseinstancename
-ms.topic: function
 f1_keywords:
 - pdh/PdhParseInstanceName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 194c5289-0d25-4ce1-9c32-9e87b12db825
 ms.date: 12/05/2018
 ms.keywords: ConvertFiberToThread, ConvertFiberToThread function, _win32_convertfibertothread, base.convertfibertothread, winbase/ConvertFiberToThread
-ms.topic: function
 f1_keywords:
 - winbase/ConvertFiberToThread
 dev_langs:

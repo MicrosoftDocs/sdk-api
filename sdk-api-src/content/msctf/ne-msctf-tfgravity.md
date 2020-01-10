@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 844925e7-4c3e-41e7-b560-586c85530cb4
 ms.date: 12/05/2018
 ms.keywords: TF_GRAVITY_BACKWARD, TF_GRAVITY_FORWARD, TfGravity, TfGravity enumeration [Text Services Framework], _tsf_tfgravity_ref, msctf/TF_GRAVITY_BACKWARD, msctf/TF_GRAVITY_FORWARD, msctf/TfGravity, tsf.tfgravity
-ms.topic: enum
 f1_keywords:
 - msctf/TfGravity
 dev_langs:

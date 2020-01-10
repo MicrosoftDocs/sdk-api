@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 676d3fef-77b8-4f02-9a89-a7471898598f
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationSelectionItemPattern interface [Windows Accessibility],Select method, IUIAutomationSelectionItemPattern.Select, IUIAutomationSelectionItemPattern::Select, Select, Select method [Windows Accessibility], Select method [Windows Accessibility],IUIAutomationSelectionItemPattern interface, uiauto.uiauto_IUIAutomationSelectionItemPattern_Select, uiauto_IUIAutomationSelectionItemPattern_Select, uiautomationclient/IUIAutomationSelectionItemPattern::Select, winauto.uiauto_IUIAutomationSelectionItemPattern_Select
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationSelectionItemPattern.Select
 dev_langs:

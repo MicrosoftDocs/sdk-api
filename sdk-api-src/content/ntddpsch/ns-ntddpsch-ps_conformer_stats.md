@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 709274fe-de56-4f86-9002-71f0ee333ace
 ms.date: 12/05/2018
 ms.keywords: '*PPS_CONFORMER_STATS, PPS_CONFORMER_STATS, PPS_CONFORMER_STATS structure pointer [QOS], PS_CONFORMER_STATS, PS_CONFORMER_STATS structure [QOS], _gqos_ps_conformer_stats, ntddpsch/PPS_CONFORMER_STATS, ntddpsch/PS_CONFORMER_STATS, qos.ps_conformer_stats'
-ms.topic: struct
 f1_keywords:
 - ntddpsch/PS_CONFORMER_STATS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\getwidthscale.htm
 ms.date: 12/05/2018
 ms.keywords: CustomLineCap class [GDI+],GetWidthScale method, CustomLineCap.GetWidthScale, CustomLineCap::GetWidthScale, GetWidthScale, GetWidthScale method [GDI+], GetWidthScale method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_GetWidthScale_, gdiplus._gdiplus_CLASS_CustomLineCap_GetWidthScale_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/CustomLineCap.GetWidthScale
 dev_langs:

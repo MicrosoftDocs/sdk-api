@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 76b6bc3a-f5d1-4780-8071-9b221a6fd7d8
 ms.date: 12/05/2018
 ms.keywords: RpcAsyncCompleteCall, RpcAsyncCompleteCall function [RPC], _rpc_rpcasynccompletecall, rpc.rpcasynccompletecall, rpcasync/RpcAsyncCompleteCall
-ms.topic: function
 f1_keywords:
 - rpcasync/RpcAsyncCompleteCall
 dev_langs:

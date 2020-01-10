@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: a433af8a-9e8a-4234-9694-c3a5420a1710
 ms.date: 12/05/2018
 ms.keywords: GetIndexByteStreamCount, GetIndexByteStreamCount method [Media Foundation], GetIndexByteStreamCount method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetIndexByteStreamCount method, IMFASFIndexer.GetIndexByteStreamCount, IMFASFIndexer::GetIndexByteStreamCount, a433af8a-9e8a-4234-9694-c3a5420a1710, mf.imfasfindexer_getindexbytestreamcount, wmcontainer/IMFASFIndexer::GetIndexByteStreamCount
-ms.topic: method
 f1_keywords:
 - wmcontainer/IMFASFIndexer.GetIndexByteStreamCount
 dev_langs:

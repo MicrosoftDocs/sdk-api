@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 9980ddb1-9873-46d2-8dea-bfc3fd78bba8
 ms.date: 12/05/2018
 ms.keywords: IDailyTrigger, IDailyTrigger interface [Task Scheduler], IDailyTrigger interface [Task Scheduler],described, daily trigger [Task Scheduler],interface, taskschd.idailytrigger, taskschd/IDailyTrigger
-ms.topic: interface
 f1_keywords:
 - taskschd/IDailyTrigger
 dev_langs:

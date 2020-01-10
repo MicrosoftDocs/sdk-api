@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: f3c5f0cc-15a5-4a13-b3be-355de6633c66
 ms.date: 12/05/2018
 ms.keywords: GetText, GetText method [Windows Accessibility], GetText method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],GetText method, ITextRangeProvider.GetText, ITextRangeProvider::GetText, uiauto.uiauto_ITextRangeProvider_GetText, uiauto_ITextRangeProvider_GetText, uiautomationcore/ITextRangeProvider::GetText, winauto.uiauto_ITextRangeProvider_GetText
-ms.topic: method
 f1_keywords:
 - uiautomationcore/ITextRangeProvider.GetText
 dev_langs:

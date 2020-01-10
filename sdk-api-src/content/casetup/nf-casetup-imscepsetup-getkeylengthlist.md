@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 992619dd-1d59-4033-b3aa-ae32dc9948c2
 ms.date: 12/05/2018
 ms.keywords: GetKeyLengthList, GetKeyLengthList method [Security], GetKeyLengthList method [Security],IMSCEPSetup interface, IMSCEPSetup interface [Security],GetKeyLengthList method, IMSCEPSetup.GetKeyLengthList, IMSCEPSetup::GetKeyLengthList, casetup/IMSCEPSetup::GetKeyLengthList, security.imscepsetup_getkeylengthlist
-ms.topic: method
 f1_keywords:
 - casetup/IMSCEPSetup.GetKeyLengthList
 dev_langs:

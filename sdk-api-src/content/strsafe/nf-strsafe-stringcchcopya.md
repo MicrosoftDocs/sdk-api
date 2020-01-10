@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcopy.htm
 ms.date: 12/05/2018
 ms.keywords: StringCchCopy, StringCchCopy function [Menus and Other Resources], StringCchCopyA, StringCchCopyW, _shell_StringCchCopy, _shell_stringcchcopy_cpp, menurc.stringcchcopy, strsafe/StringCchCopy, strsafe/StringCchCopyA, strsafe/StringCchCopyW, winui._shell_stringcchcopy
-ms.topic: function
 f1_keywords:
 - strsafe/StringCchCopy
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5e75c524-5fa6-4d76-8fe9-a69ee1b509e8
 ms.date: 12/05/2018
 ms.keywords: ITravelLog interface [Windows Shell],InsertMenuEntries method, ITravelLog.InsertMenuEntries, ITravelLog::InsertMenuEntries, InsertMenuEntries, InsertMenuEntries method [Windows Shell], InsertMenuEntries method [Windows Shell],ITravelLog interface, TLMENUF_BACK, TLMENUF_BACKANDFORTH, TLMENUF_CHECKCURRENT, TLMENUF_FORE, TLMENUF_INCLUDECURRENT, shdeprecated/ITravelLog::InsertMenuEntries, shell.ITravelLog_InsertMenuEntries, zone_ITravelLog_InsertMenuEntries
-ms.topic: method
 f1_keywords:
 - shdeprecated/ITravelLog.InsertMenuEntries
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: bbe8ab14-3d8e-441c-a9bf-0319a9b3a5de
 ms.date: 12/05/2018
 ms.keywords: CloseModule, CloseModule method, CloseModule method,IMsmMerge interface, IMsmMerge interface,CloseModule method, IMsmMerge.CloseModule, IMsmMerge::CloseModule, _msi_closemodule_function, mergemod/IMsmMerge::CloseModule, setup.imsmmerge_closemodule
-ms.topic: method
 f1_keywords:
 - mergemod/IMsmMerge.CloseModule
 dev_langs:

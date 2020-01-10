@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 6013fec3-1fb3-4956-982d-5841518f5d31
 ms.date: 12/05/2018
 ms.keywords: CM_Disable_DevNode, CM_Disable_DevNode function [Device and Driver Installation], cfgmgr32/CM_Disable_DevNode, cfgmgrfn_3a8b48b2-fb94-421c-9ec4-2e88997eb9b5.xml, devinst.cm_disable_devnode
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Disable_DevNode
 dev_langs:

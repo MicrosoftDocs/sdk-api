@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: bb307b7a-66fc-4d19-b774-deca8bf90492
 ms.date: 12/05/2018
 ms.keywords: EnterCriticalSection, EnterCriticalSection function, _win32_entercriticalsection, base.entercriticalsection, synchapi/EnterCriticalSection, winbase/EnterCriticalSection
-ms.topic: function
 f1_keywords:
 - synchapi/EnterCriticalSection
 dev_langs:

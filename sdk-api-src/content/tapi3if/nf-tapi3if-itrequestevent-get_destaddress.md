@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: b3cf5a48-6d9f-4c66-91eb-c18a29d71ff9
 ms.date: 12/05/2018
 ms.keywords: ITRequestEvent interface [TAPI 2.2],get_DestAddress method, ITRequestEvent.get_DestAddress, ITRequestEvent::get_DestAddress, _tapi3_itrequestevent_get_destaddress, get_DestAddress, get_DestAddress method [TAPI 2.2], get_DestAddress method [TAPI 2.2],ITRequestEvent interface, tapi3.itrequestevent_get_destaddress, tapi3if/ITRequestEvent::get_DestAddress
-ms.topic: method
 f1_keywords:
 - tapi3if/ITRequestEvent.get_DestAddress
 dev_langs:

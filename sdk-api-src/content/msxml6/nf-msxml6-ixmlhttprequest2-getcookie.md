@@ -7,7 +7,6 @@ tech.root: ixhr2
 ms.assetid: A2A9C54B-92A2-41EA-A741-797BA219BCDA
 ms.date: 12/05/2018
 ms.keywords: GetCookie, GetCookie method [XMLHttpRequest2], GetCookie method [XMLHttpRequest2],IXMLHTTPRequest2 interface, IXMLHTTPRequest2 interface [XMLHttpRequest2],GetCookie method, IXMLHTTPRequest2.GetCookie, IXMLHTTPRequest2::GetCookie, ixhr2.ixmlhttprequest2_getcookie, msxml6/IXMLHTTPRequest2::GetCookie
-ms.topic: method
 f1_keywords:
 - msxml6/IXMLHTTPRequest2.GetCookie
 dev_langs:

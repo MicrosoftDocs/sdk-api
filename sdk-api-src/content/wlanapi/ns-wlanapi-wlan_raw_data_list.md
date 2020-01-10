@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: e0e59abf-1a78-4c7f-b044-2d4c75328329
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_RAW_DATA_LIST, PWLAN_RAW_DATA_LIST, PWLAN_RAW_DATA_LIST structure pointer [NativeWIFI], WLAN_RAW_DATA_LIST, WLAN_RAW_DATA_LIST structure [NativeWIFI], nwifi.dot11_psd_ie_data_list, wlanapi/PWLAN_RAW_DATA_LIST, wlanapi/WLAN_RAW_DATA_LIST'
-ms.topic: struct
 f1_keywords:
 - wlanapi/WLAN_RAW_DATA_LIST
 dev_langs:

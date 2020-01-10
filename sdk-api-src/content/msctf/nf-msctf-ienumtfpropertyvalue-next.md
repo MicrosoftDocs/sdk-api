@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: b0fe154c-df33-443d-95a2-f41e7b02def8
 ms.date: 12/05/2018
 ms.keywords: IEnumTfPropertyValue interface [Text Services Framework],Next method, IEnumTfPropertyValue.Next, IEnumTfPropertyValue::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfPropertyValue interface, _tsf_ienumtfpropertyvalue_next_ref, msctf/IEnumTfPropertyValue::Next, tsf.ienumtfpropertyvalue_next
-ms.topic: method
 f1_keywords:
 - msctf/IEnumTfPropertyValue.Next
 dev_langs:

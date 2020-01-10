@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: a6174caa-6045-4b82-9b13-11b86f8cf8a8
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_PhoneHandlingEnabled method, ITAutomatedPhoneControl.get_PhoneHandlingEnabled, ITAutomatedPhoneControl::get_PhoneHandlingEnabled, _tapi3_itautomatedphonecontrol_get_phonehandlingenabled, get_PhoneHandlingEnabled, get_PhoneHandlingEnabled method [TAPI 2.2], get_PhoneHandlingEnabled method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_phonehandlingenabled, tapi3if/ITAutomatedPhoneControl::get_PhoneHandlingEnabled
-ms.topic: method
 f1_keywords:
 - tapi3if/ITAutomatedPhoneControl.get_PhoneHandlingEnabled
 dev_langs:

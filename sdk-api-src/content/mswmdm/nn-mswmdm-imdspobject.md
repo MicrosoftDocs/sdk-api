@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 271d7185-1a9d-4bec-9289-4ae5461ed741
 ms.date: 12/05/2018
 ms.keywords: IMDSPObject, IMDSPObject interface [windows Media Device Manager], IMDSPObject interface [windows Media Device Manager],described, IMDSPObjectInterface, mswmdm/IMDSPObject, wmdm.imdspobject
-ms.topic: interface
 f1_keywords:
 - mswmdm/IMDSPObject
 dev_langs:

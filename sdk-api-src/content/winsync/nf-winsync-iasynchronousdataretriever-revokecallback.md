@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: bb7b1457-03aa-47e0-9e61-6195706a0fcd
 ms.date: 12/05/2018
 ms.keywords: IAsynchronousDataRetriever interface [Windows Sync],RevokeCallback method, IAsynchronousDataRetriever.RevokeCallback, IAsynchronousDataRetriever::RevokeCallback, RevokeCallback, RevokeCallback method [Windows Sync], RevokeCallback method [Windows Sync],IAsynchronousDataRetriever interface, winsync.iasynchronousdataretriever_revokecallback, winsync/IAsynchronousDataRetriever::RevokeCallback
-ms.topic: method
 f1_keywords:
 - winsync/IAsynchronousDataRetriever.RevokeCallback
 dev_langs:

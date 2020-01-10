@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: A2F61F18-A5DE-41D5-95D6-E341009484FF
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_PROTOCOL_COMMAND, PSTORAGE_PROTOCOL_COMMAND, PSTORAGE_PROTOCOL_COMMAND structure pointer [Files], STORAGE_PROTOCOL_COMMAND, STORAGE_PROTOCOL_COMMAND structure [Files], fs.storage_protocol_command, winioctl/PSTORAGE_PROTOCOL_COMMAND, winioctl/STORAGE_PROTOCOL_COMMAND'
-ms.topic: struct
 f1_keywords:
 - winioctl/STORAGE_PROTOCOL_COMMAND
 dev_langs:

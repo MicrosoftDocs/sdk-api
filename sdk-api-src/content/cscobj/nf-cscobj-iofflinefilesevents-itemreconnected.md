@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: beafae9d-3ef8-401f-8ab6-79d2ae3366a4
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemReconnected method, IOfflineFilesEvents.ItemReconnected, IOfflineFilesEvents::ItemReconnected, ItemReconnected, ItemReconnected method [Offline Files], ItemReconnected method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemReconnected, of.iofflinefilesevents_itemreconnected
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesEvents.ItemReconnected
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 3de74745-d9b3-47a7-8ba7-08b4e57d2ab7
 ms.date: 12/05/2018
 ms.keywords: IGPM2 interface [GPMC],InitializeReportingEx method, IGPM2.InitializeReportingEx, IGPM2::InitializeReportingEx, InitializeReportingEx, InitializeReportingEx method [GPMC], InitializeReportingEx method [GPMC],IGPM2 interface, gpmc.igpm2_initializereportingex, gpmgmt/IGPM2::InitializeReportingEx
-ms.topic: method
 f1_keywords:
 - gpmgmt/IGPM2.InitializeReportingEx
 dev_langs:

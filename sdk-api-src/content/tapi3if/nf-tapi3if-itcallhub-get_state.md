@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 0ca4bbad-6822-4a8b-8df4-da6e630752f0
 ms.date: 12/05/2018
 ms.keywords: ITCallHub interface [TAPI 2.2],get_State method, ITCallHub.get_State, ITCallHub::get_State, _tapi3_itcallhub_get_state, get_State, get_State method [TAPI 2.2], get_State method [TAPI 2.2],ITCallHub interface, tapi3.itcallhub_get_state, tapi3if/ITCallHub::get_State
-ms.topic: method
 f1_keywords:
 - tapi3if/ITCallHub.get_State
 dev_langs:

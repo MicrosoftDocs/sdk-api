@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 74058181-ab74-4a2d-8395-c8a1a7f02820
 ms.date: 12/05/2018
 ms.keywords: GetAllocateBuffers, GetAllocateBuffers method [TAPI 2.2], GetAllocateBuffers method [TAPI 2.2],ITAllocatorProperties interface, ITAllocatorProperties interface [TAPI 2.2],GetAllocateBuffers method, ITAllocatorProperties.GetAllocateBuffers, ITAllocatorProperties::GetAllocateBuffers, _tapi3_itallocatorproperties_getallocatebuffers, tapi3.itallocatorproperties_getallocatebuffers, tapi3ds/ITAllocatorProperties::GetAllocateBuffers
-ms.topic: method
 f1_keywords:
 - tapi3ds/ITAllocatorProperties.GetAllocateBuffers
 dev_langs:

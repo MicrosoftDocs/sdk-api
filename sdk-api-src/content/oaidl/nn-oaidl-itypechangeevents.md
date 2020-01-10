@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 5e286a4b-b36b-40d6-9a39-d572086e5a2d
 ms.date: 12/05/2018
 ms.keywords: ITypeChangeEvents, ITypeChangeEvents interface [Automation], ITypeChangeEvents interface [Automation],described, automat.itypechangeevents, oaidl/ITypeChangeEvents
-ms.topic: interface
 f1_keywords:
 - oaidl/ITypeChangeEvents
 dev_langs:

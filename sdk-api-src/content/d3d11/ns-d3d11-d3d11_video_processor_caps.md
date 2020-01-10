@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: EF79BE15-B92E-45C1-BC42-E89E06197C20
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_CAPS, D3D11_VIDEO_PROCESSOR_CAPS structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_CAPS, mf.d3d11_video_processor_caps
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_VIDEO_PROCESSOR_CAPS
 dev_langs:

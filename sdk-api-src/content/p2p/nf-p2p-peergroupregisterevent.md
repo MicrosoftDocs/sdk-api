@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: a4dc100a-d3dc-408e-a425-bded11d04db5
 ms.date: 12/05/2018
 ms.keywords: PeerGroupRegisterEvent, PeerGroupRegisterEvent function [Peer Networking], p2p.peergroupregisterevent, p2p/PeerGroupRegisterEvent
-ms.topic: function
 f1_keywords:
 - p2p/PeerGroupRegisterEvent
 dev_langs:

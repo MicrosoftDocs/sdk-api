@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 8b16dda3-bcb4-4a89-b2e5-b9330be3eb01
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineMonitorTones, TSPI_lineMonitorTones function [TAPI 2.2], _tspi_tspi_linemonitortones, tspi.tspi_linemonitortones, tspi/TSPI_lineMonitorTones
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineMonitorTones
 dev_langs:

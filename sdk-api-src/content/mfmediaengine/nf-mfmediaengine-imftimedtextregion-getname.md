@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 1B3C07CF-0E9C-4C7D-8F41-7A0B168967A3
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Media Foundation], GetName method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetName method, IMFTimedTextRegion.GetName, IMFTimedTextRegion::GetName, mf.imftimedtextregion_getname, mfmediaengine/IMFTimedTextRegion::GetName
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFTimedTextRegion.GetName
 dev_langs:

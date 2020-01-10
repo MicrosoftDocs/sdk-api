@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\dragenter.htm
 ms.date: 12/05/2018
 ms.keywords: DragEnter, DragEnter method [Windows Controls], DragEnter method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],DragEnter method, IImageList.DragEnter, IImageList::DragEnter, comctl_IImageList_DragEnter, comctl_IImageList_DragEnter_cpp, commoncontrols/IImageList::DragEnter, controls.IImageList_DragEnter, controls.comctl_IImageList_DragEnter
-ms.topic: method
 f1_keywords:
 - commoncontrols/IImageList.DragEnter
 dev_langs:

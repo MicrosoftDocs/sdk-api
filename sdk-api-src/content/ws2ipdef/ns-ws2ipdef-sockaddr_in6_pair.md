@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 0265f8e0-8b35-4d9d-bf22-e98e9ff36a17
 ms.date: 12/05/2018
 ms.keywords: '*PSOCKADDR_IN6_PAIR, PSOCKADDR_IN6_PAIR, PSOCKADDR_IN6_PAIR structure pointer [IP Helper], SOCKADDR_IN6_PAIR, SOCKADDR_IN6_PAIR structure [IP Helper], iphlp.sockaddr_in6_pair, ws2ipdef/PSOCKADDR_IN6_PAIR, ws2ipdef/SOCKADDR_IN6_PAIR'
-ms.topic: struct
 f1_keywords:
 - ws2ipdef/SOCKADDR_IN6_PAIR
 dev_langs:

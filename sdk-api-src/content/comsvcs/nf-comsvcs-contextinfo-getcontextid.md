@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 92566450-8351-49e7-94e1-35a331195322
 ms.date: 12/05/2018
 ms.keywords: ContextInfo interface [COM+],GetContextId method, ContextInfo.GetContextId, ContextInfo::GetContextId, GetContextId, GetContextId method [COM+], GetContextId method [COM+],ContextInfo interface, _cos_ContextInfo_GetContextId, comsvcs/ContextInfo::GetContextId, cos.contextinfo_getcontextid
-ms.topic: method
 f1_keywords:
 - comsvcs/ContextInfo.GetContextId
 dev_langs:

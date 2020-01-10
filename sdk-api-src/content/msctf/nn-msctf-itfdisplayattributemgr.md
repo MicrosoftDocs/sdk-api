@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 4a1f9a13-54a1-4294-9635-80eef8bcd8d5
 ms.date: 12/05/2018
 ms.keywords: ITfDisplayAttributeMgr, ITfDisplayAttributeMgr interface [Text Services Framework], ITfDisplayAttributeMgr interface [Text Services Framework],described, _tsf_itfdisplayattributemgr_ref, msctf/ITfDisplayAttributeMgr, tsf.itfdisplayattributemgr
-ms.topic: interface
 f1_keywords:
 - msctf/ITfDisplayAttributeMgr
 dev_langs:

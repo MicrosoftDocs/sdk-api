@@ -4,7 +4,6 @@ title: LPWSPEVENTSELECT
 description: The LPWSPEventSelect function specifies an event object to be associated with the supplied set of network events.
 ms.date: 9/12/2019
 ms.keywords: LPWSPEVENTSELECT
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

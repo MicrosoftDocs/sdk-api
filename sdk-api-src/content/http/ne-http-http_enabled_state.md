@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 15e27788-2d1a-4818-b31f-2faf649e15b2
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_ENABLED_STATE, *PHTTP_ENABLED_STATE enumeration [HTTP], HTTP_ENABLED_STATE, HTTP_ENABLED_STATE enumeration [HTTP], HttpEnabledStateActive, HttpEnabledStateInactive, http.http_enabled_state, http/*PHTTP_ENABLED_STATE, http/HTTP_ENABLED_STATE, http/HttpEnabledStateActive, http/HttpEnabledStateInactive'
-ms.topic: enum
 f1_keywords:
 - http/HTTP_ENABLED_STATE
 dev_langs:

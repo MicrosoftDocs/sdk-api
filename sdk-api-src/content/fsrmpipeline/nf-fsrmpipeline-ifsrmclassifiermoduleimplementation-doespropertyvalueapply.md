@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: ab42430c-1e30-4576-b6f8-c0488b6230dd
 ms.date: 12/05/2018
 ms.keywords: DoesPropertyValueApply, DoesPropertyValueApply method [File Server Resource Manager], DoesPropertyValueApply method [File Server Resource Manager],IFsrmClassifierModuleImplementation interface, IFsrmClassifierModuleImplementation interface [File Server Resource Manager],DoesPropertyValueApply method, IFsrmClassifierModuleImplementation.DoesPropertyValueApply, IFsrmClassifierModuleImplementation::DoesPropertyValueApply, fs.ifsrmclassifiermoduleimplementation_doespropertyvalueapply, fsrm.ifsrmclassifiermoduleimplementation_doespropertyvalueapply, fsrmpipeline/IFsrmClassifierModuleImplementation::DoesPropertyValueApply
-ms.topic: method
 f1_keywords:
 - fsrmpipeline/IFsrmClassifierModuleImplementation.DoesPropertyValueApply
 dev_langs:

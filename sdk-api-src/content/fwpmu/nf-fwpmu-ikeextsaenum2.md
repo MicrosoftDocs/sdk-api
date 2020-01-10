@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 890e6521-69c1-4cb6-ba64-4fe14cb0dffe
 ms.date: 12/05/2018
 ms.keywords: IkeextSaEnum2, IkeextSaEnum2 function [Filtering], fwp.ikeextsaenum2, fwpmu/IkeextSaEnum2
-ms.topic: function
 f1_keywords:
 - fwpmu/IkeextSaEnum2
 dev_langs:

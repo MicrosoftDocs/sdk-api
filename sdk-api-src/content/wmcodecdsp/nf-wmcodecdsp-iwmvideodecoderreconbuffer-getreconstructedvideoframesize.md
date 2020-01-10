@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 7faadeed-4c89-4b3e-8e08-51de66224aaa
 ms.date: 12/05/2018
 ms.keywords: GetReconstructedVideoFrameSize, GetReconstructedVideoFrameSize method [Media Foundation], GetReconstructedVideoFrameSize method [Media Foundation],IWMVideoDecoderReconBuffer interface, IWMVideoDecoderReconBuffer interface [Media Foundation],GetReconstructedVideoFrameSize method, IWMVideoDecoderReconBuffer.GetReconstructedVideoFrameSize, IWMVideoDecoderReconBuffer::GetReconstructedVideoFrameSize, codecapi.iwmvideodecoderreconbuffergetreconstructedvideoframesize, mf.iwmvideodecoderreconbuffergetreconstructedvideoframesize, wmcodecdsp/IWMVideoDecoderReconBuffer::GetReconstructedVideoFrameSize
-ms.topic: method
 f1_keywords:
 - wmcodecdsp/IWMVideoDecoderReconBuffer.GetReconstructedVideoFrameSize
 dev_langs:

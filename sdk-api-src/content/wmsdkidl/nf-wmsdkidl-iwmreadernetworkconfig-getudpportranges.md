@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: a1792fd0-e9c3-4e28-9928-a615e1c9aec8
 ms.date: 12/05/2018
 ms.keywords: GetUDPPortRanges, GetUDPPortRanges method [windows Media Format], GetUDPPortRanges method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetUDPPortRanges method, IWMReaderNetworkConfig.GetUDPPortRanges, IWMReaderNetworkConfig::GetUDPPortRanges, IWMReaderNetworkConfigGetUDPPortRanges, wmformat.iwmreadernetworkconfig_getudpportranges, wmsdkidl/IWMReaderNetworkConfig::GetUDPPortRanges
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderNetworkConfig.GetUDPPortRanges
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\timers\timerreference\timerfunctions\settimer.htm
 ms.date: 12/05/2018
 ms.keywords: SetTimer, SetTimer function [Windows and Messages], _win32_SetTimer, _win32_settimer_cpp, winmsg.settimer, winui._win32_settimer, winuser/SetTimer
-ms.topic: function
 f1_keywords:
 - winuser/SetTimer
 dev_langs:

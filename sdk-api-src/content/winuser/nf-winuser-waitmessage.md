@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\waitmessage.htm
 ms.date: 12/05/2018
 ms.keywords: WaitMessage, WaitMessage function [Windows and Messages], _win32_WaitMessage, _win32_waitmessage_cpp, winmsg.waitmessage, winui._win32_waitmessage, winuser/WaitMessage
-ms.topic: function
 f1_keywords:
 - winuser/WaitMessage
 dev_langs:

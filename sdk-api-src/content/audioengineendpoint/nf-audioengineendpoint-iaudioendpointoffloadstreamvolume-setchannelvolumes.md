@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 80E736B5-AF8E-46B3-9CDF-753B045F60D9
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointOffloadStreamVolume interface [Core Audio],SetChannelVolumes method, IAudioEndpointOffloadStreamVolume.SetChannelVolumes, IAudioEndpointOffloadStreamVolume::SetChannelVolumes, SetChannelVolumes, SetChannelVolumes method [Core Audio], SetChannelVolumes method [Core Audio],IAudioEndpointOffloadStreamVolume interface, audioengineendpoint/IAudioEndpointOffloadStreamVolume::SetChannelVolumes, coreaudio.iaudioendpointoffloadstreamvolume_setchannelvolumes
-ms.topic: method
 f1_keywords:
 - audioengineendpoint/IAudioEndpointOffloadStreamVolume.SetChannelVolumes
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: AA1682F8-1DDD-48C3-B16A-6C89D28455E8
 ms.date: 12/05/2018
 ms.keywords: AppPolicyGetWindowingModel, AppPolicyGetWindowingModel function [App packaging and management], appmodel/AppPolicyGetWindowingModel, appxpkg.apppolicygetwindowingmodel_function
-ms.topic: function
 f1_keywords:
 - appmodel/AppPolicyGetWindowingModel
 dev_langs:

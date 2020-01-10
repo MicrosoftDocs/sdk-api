@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 09b00b49-702e-4cef-bf1c-397c5d572513
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextAnalysisSink interface [Direct Write],SetNumberSubstitution method, IDWriteTextAnalysisSink.SetNumberSubstitution, IDWriteTextAnalysisSink::SetNumberSubstitution, SetNumberSubstitution, SetNumberSubstitution method [Direct Write], SetNumberSubstitution method [Direct Write],IDWriteTextAnalysisSink interface, directwrite.idwritetextanalysissink_setnumbersubstitution, dwrite/IDWriteTextAnalysisSink::SetNumberSubstitution
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextAnalysisSink.SetNumberSubstitution
 dev_langs:

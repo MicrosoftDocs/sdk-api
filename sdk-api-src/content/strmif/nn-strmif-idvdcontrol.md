@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a6ca0fe8-84e3-43e6-9421-29dcff056dfd
 ms.date: 12/05/2018
 ms.keywords: IDvdControl, IDvdControl interface [DirectShow], IDvdControl interface [DirectShow],described, IDvdControlInterface, dshow.idvdcontrol, strmif/IDvdControl
-ms.topic: interface
 f1_keywords:
 - strmif/IDvdControl
 dev_langs:

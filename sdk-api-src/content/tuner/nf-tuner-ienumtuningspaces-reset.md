@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: c9ac5d70-11f8-4bb4-a873-94eb72ea2f42
 ms.date: 12/05/2018
 ms.keywords: IEnumTuningSpaces interface [Microsoft TV Technologies],Reset method, IEnumTuningSpaces.Reset, IEnumTuningSpaces::Reset, IEnumTuningSpacesReset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],IEnumTuningSpaces interface, mstv.ienumtuningspaces_reset, tuner/IEnumTuningSpaces::Reset
-ms.topic: method
 f1_keywords:
 - tuner/IEnumTuningSpaces.Reset
 dev_langs:

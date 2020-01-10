@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 08a5f659-609d-4a86-a24e-b30bb7f9e835
 ms.date: 12/05/2018
 ms.keywords: 08a5f659-609d-4a86-a24e-b30bb7f9e835, GetScanline0AndPitch, GetScanline0AndPitch method [Media Foundation], GetScanline0AndPitch method [Media Foundation],IMF2DBuffer interface, IMF2DBuffer interface [Media Foundation],GetScanline0AndPitch method, IMF2DBuffer.GetScanline0AndPitch, IMF2DBuffer::GetScanline0AndPitch, mf.imf2dbuffer_getscanline0andpitch, mfobjects/IMF2DBuffer::GetScanline0AndPitch
-ms.topic: method
 f1_keywords:
 - mfobjects/IMF2DBuffer.GetScanline0AndPitch
 dev_langs:

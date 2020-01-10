@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 45ef0b45-92d0-47c1-9334-d0df74a43d28
 ms.date: 12/05/2018
 ms.keywords: IBDA_EventingService, IBDA_EventingService interface [Microsoft TV Technologies], IBDA_EventingService interface [Microsoft TV Technologies],described, bdaiface/IBDA_EventingService, mstv.ibda_eventingservice
-ms.topic: interface
 f1_keywords:
 - bdaiface/IBDA_EventingService
 dev_langs:

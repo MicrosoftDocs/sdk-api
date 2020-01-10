@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: f43245f1-81d9-4b06-8f0c-d490618a99fa
 ms.date: 12/05/2018
 ms.keywords: IItemEnumerator, IItemEnumerator interface [SMI], IItemEnumerator interface [SMI],described, smi.iitemenumerator, wcmconfig/IItemEnumerator
-ms.topic: interface
 f1_keywords:
 - wcmconfig/IItemEnumerator
 dev_langs:

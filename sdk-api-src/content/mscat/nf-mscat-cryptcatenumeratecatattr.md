@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 57b6ff5c-e47e-41ac-8ec8-01a47ea77acf
 ms.date: 12/05/2018
 ms.keywords: CryptCATEnumerateCatAttr, CryptCATEnumerateCatAttr function [Security], mscat/CryptCATEnumerateCatAttr, security.cryptcatenumeratecatattr
-ms.topic: function
 f1_keywords:
 - mscat/CryptCATEnumerateCatAttr
 dev_langs:

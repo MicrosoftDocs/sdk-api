@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: e65cf979-f482-4019-ab67-5e908d23bcfa
 ms.date: 12/05/2018
 ms.keywords: SymQueryInlineTrace, SymQueryInlineTrace function, base.symqueryinlinetrace, dbghelp/SymQueryInlineTrace
-ms.topic: function
 f1_keywords:
 - dbghelp/SymQueryInlineTrace
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorMergeXY(XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorMergeXY, XMVectorMergeXY, XMVectorMergeXY method [DirectX Math Support APIs], dxmath.xmvectormergexy
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorMergeXY
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: aff8a462-a4cf-462b-a641-b1573311037b
 ms.date: 12/05/2018
 ms.keywords: PeerGroupPasswordJoin, PeerGroupPasswordJoin function [Peer Networking], p2p.peergrouppasswordjoin, p2p/PeerGroupPasswordJoin
-ms.topic: function
 f1_keywords:
 - p2p/PeerGroupPasswordJoin
 dev_langs:

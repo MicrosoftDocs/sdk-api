@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 29ca157e-40e2-4e9a-95fb-a31bb45570f2
 ms.date: 12/05/2018
 ms.keywords: EnumElements, EnumElements method [Structured Storage], EnumElements method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],EnumElements method, IStorage.EnumElements, IStorage::EnumElements, _stg_istorage_enumelements, objidl/IStorage::EnumElements, stg.istorage_enumelements
-ms.topic: method
 f1_keywords:
 - objidl/IStorage.EnumElements
 dev_langs:

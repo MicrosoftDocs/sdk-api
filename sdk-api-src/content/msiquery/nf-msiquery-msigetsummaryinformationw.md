@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: f3a6d7cc-83b2-45c6-bf86-c579b39c2c92
 ms.date: 12/05/2018
 ms.keywords: MsiGetSummaryInformation, MsiGetSummaryInformation function, MsiGetSummaryInformationA, MsiGetSummaryInformationW, _msi_msigetsummaryinformation, msiquery/MsiGetSummaryInformation, msiquery/MsiGetSummaryInformationA, msiquery/MsiGetSummaryInformationW, setup.msigetsummaryinformation
-ms.topic: function
 f1_keywords:
 - msiquery/MsiGetSummaryInformation
 dev_langs:

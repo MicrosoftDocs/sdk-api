@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 5e157287-e4f3-49c4-9c18-a7b3ba1a965d
 ms.date: 12/05/2018
 ms.keywords: DeleteFuncDesc, DeleteFuncDesc method [Automation], DeleteFuncDesc method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteFuncDesc method, ICreateTypeInfo2.DeleteFuncDesc, ICreateTypeInfo2::DeleteFuncDesc, _oa96_ICreateTypeInfo2_DeleteFuncDesc, automat.icreatetypeinfo2_deletefuncdesc, oaidl/ICreateTypeInfo2::DeleteFuncDesc
-ms.topic: method
 f1_keywords:
 - oaidl/ICreateTypeInfo2.DeleteFuncDesc
 dev_langs:

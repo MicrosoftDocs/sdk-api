@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: C73B6AB0-F9C5-432E-BA26-3B7772411C95
 ms.date: 12/05/2018
 ms.keywords: D3D12_SUBRESOURCE_FOOTPRINT, D3D12_SUBRESOURCE_FOOTPRINT structure, d3d12/D3D12_SUBRESOURCE_FOOTPRINT, direct3d12.d3d12_subresource_footprint
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_SUBRESOURCE_FOOTPRINT
 dev_langs:

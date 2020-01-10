@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 1cf9f2ba-c303-4668-a959-8fad69746438
 ms.date: 12/05/2018
 ms.keywords: WsGetMetadataEndpoints, WsGetMetadataEndpoints function [Web Services for Windows], webservices/WsGetMetadataEndpoints, wsw.wsgetmetadataendpoints
-ms.topic: function
 f1_keywords:
 - webservices/WsGetMetadataEndpoints
 dev_langs:

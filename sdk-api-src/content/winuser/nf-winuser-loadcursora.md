@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\loadcursor.htm
 ms.date: 12/05/2018
 ms.keywords: IDC_APPSTARTING, IDC_ARROW, IDC_CROSS, IDC_HAND, IDC_HELP, IDC_IBEAM, IDC_ICON, IDC_NO, IDC_SIZE, IDC_SIZEALL, IDC_SIZENESW, IDC_SIZENS, IDC_SIZENWSE, IDC_SIZEWE, IDC_UPARROW, IDC_WAIT, LoadCursor, LoadCursor function [Menus and Other Resources], LoadCursorA, LoadCursorW, _win32_LoadCursor, _win32_loadcursor_cpp, menurc.loadcursor, winui._win32_loadcursor, winuser/LoadCursor, winuser/LoadCursorA, winuser/LoadCursorW
-ms.topic: function
 f1_keywords:
 - winuser/LoadCursor
 dev_langs:

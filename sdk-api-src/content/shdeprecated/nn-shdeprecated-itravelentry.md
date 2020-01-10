@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b8a5d532-c1fd-4302-b983-cc9a74270321
 ms.date: 12/05/2018
 ms.keywords: ITravelEntry, ITravelEntry interface [Windows Shell], ITravelEntry interface [Windows Shell],described, shdeprecated/ITravelEntry, shell.ITravelEntry, zone_ITravelEntry
-ms.topic: interface
 f1_keywords:
 - shdeprecated/ITravelEntry
 dev_langs:

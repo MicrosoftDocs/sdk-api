@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 2b353a8e-45cf-4108-9522-bcbde9c71ec4
 ms.date: 12/05/2018
 ms.keywords: IsBadWritePtr, IsBadWritePtr function, _win32_isbadwriteptr, base.isbadwriteptr, winbase/IsBadWritePtr
-ms.topic: function
 f1_keywords:
 - winbase/IsBadWritePtr
 dev_langs:

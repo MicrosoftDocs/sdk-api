@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: ff100db5-f244-4d34-8b55-9b6b21b9e382
 ms.date: 12/05/2018
 ms.keywords: '*PDEVICE_COPY_OFFLOAD_DESCRIPTOR, DEVICE_COPY_OFFLOAD_DESCRIPTOR, DEVICE_COPY_OFFLOAD_DESCRIPTOR structure [Files], PDEVICE_COPY_OFFLOAD_DESCRIPTOR, PDEVICE_COPY_OFFLOAD_DESCRIPTOR structure pointer [Files], fs.device_copy_offload_descriptor, winioctl/DEVICE_COPY_OFFLOAD_DESCRIPTOR, winioctl/PDEVICE_COPY_OFFLOAD_DESCRIPTOR'
-ms.topic: struct
 f1_keywords:
 - winioctl/DEVICE_COPY_OFFLOAD_DESCRIPTOR
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 8f84d4f6-1852-4ad8-b174-f3fa37e5bbd6
 ms.date: 12/05/2018
 ms.keywords: SafeArrayCopy, SafeArrayCopy function [Automation], _oa96_SafeArrayCopy, automat.safearraycopy, oleauto/SafeArrayCopy
-ms.topic: function
 f1_keywords:
 - oleauto/SafeArrayCopy
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 780ffe63-f4b6-4b3c-b7a6-571b58aba4dd
 ms.date: 12/05/2018
 ms.keywords: IAMCopyCaptureFileProgress, IAMCopyCaptureFileProgress interface [DirectShow], IAMCopyCaptureFileProgress interface [DirectShow],described, IAMCopyCaptureFileProgressInterface, dshow.iamcopycapturefileprogress, strmif/IAMCopyCaptureFileProgress
-ms.topic: interface
 f1_keywords:
 - strmif/IAMCopyCaptureFileProgress
 dev_langs:

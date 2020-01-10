@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 306a5b28-658a-4dab-a516-c638b73f4a77
 ms.date: 12/05/2018
 ms.keywords: DebugActiveProcess, DebugActiveProcess function, _win32_debugactiveprocess, base.debugactiveprocess, debugapi/DebugActiveProcess
-ms.topic: function
 f1_keywords:
 - debugapi/DebugActiveProcess
 dev_langs:

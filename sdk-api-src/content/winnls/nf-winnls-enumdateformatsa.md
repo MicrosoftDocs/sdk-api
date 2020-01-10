@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 77b5e753-aee9-42d8-a0fa-27b065fc3b20
 ms.date: 12/05/2018
 ms.keywords: EnumDateFormats, EnumDateFormats function [Internationalization for Windows Applications], EnumDateFormatsA, EnumDateFormatsW, _win32_EnumDateFormats, intl.enumdateformats, winnls/EnumDateFormats, winnls/EnumDateFormatsA, winnls/EnumDateFormatsW
-ms.topic: function
 f1_keywords:
 - winnls/EnumDateFormats
 dev_langs:

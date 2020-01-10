@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: F7769EE5-1819-4CB9-B902-AF3A0EA098F9
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportTftpClient interface [Windows Deployment Services],WindowSize property, IWdsTransportTftpClient.WindowSize, IWdsTransportTftpClient.get_WindowSize, IWdsTransportTftpClient::WindowSize, IWdsTransportTftpClient::get_WindowSize, WindowSize property [Windows Deployment Services], WindowSize property [Windows Deployment Services],IWdsTransportTftpClient interface, get_WindowSize, wds.iwdstransporttftpclient_windowsize, wdstptmgmt/IWdsTransportTftpClient::WindowSize, wdstptmgmt/IWdsTransportTftpClient::get_WindowSize
-ms.topic: method
 f1_keywords:
 - wdstptmgmt/IWdsTransportTftpClient.WindowSize
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 144EB343-DBBD-4E7E-8E05-87A35F4A5A64
 ms.date: 12/05/2018
 ms.keywords: EndDraw, EndDraw method [Windows Runtime], EndDraw method [Windows Runtime],ISurfaceImageSourceNative interface, ISurfaceImageSourceNative interface [Windows Runtime],EndDraw method, ISurfaceImageSourceNative.EndDraw, ISurfaceImageSourceNative.xaml, ISurfaceImageSourceNative::EndDraw, ISurfaceImageSourceNative::xaml, windows/ISurfaceImageSourceNative::EndDraw, winrt.isurfaceimagesourcenative_enddraw
-ms.topic: method
 f1_keywords:
 - windows.ui.xaml.media.dxinterop/ISurfaceImageSourceNative.EndDraw
 dev_langs:

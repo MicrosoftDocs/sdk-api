@@ -7,7 +7,6 @@ tech.root: wer
 ms.assetid: 22033278-2be3-4621-b618-3ccd21fb4cdd
 ms.date: 12/05/2018
 ms.keywords: OutOfProcessExceptionEventCallback, OutOfProcessExceptionEventCallback callback function [Windows Error Reporting], PFN_WER_RUNTIME_EXCEPTION_EVENT, PFN_WER_RUNTIME_EXCEPTION_EVENT callback, wer.outofprocessexceptioneventcallback, werapi/OutOfProcessExceptionEventCallback
-ms.topic: callback
 f1_keywords:
 - werapi/OutOfProcessExceptionEventCallback
 dev_langs:

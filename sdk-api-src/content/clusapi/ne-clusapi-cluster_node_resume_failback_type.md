@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 26A002F6-A933-450B-84FF-F2BC8B301B6B
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_NODE_RESUME_FAILBACK_TYPE, CLUSTER_NODE_RESUME_FAILBACK_TYPE enumeration [Failover Cluster], ClusterNodeResumeFailbackTypeCount, DoNotFailbackGroups, FailbackGroupsImmediately, FailbackGroupsPerPolicy, clusapi/CLUSTER_NODE_RESUME_FAILBACK_TYPE, clusapi/ClusterNodeResumeFailbackTypeCount, clusapi/DoNotFailbackGroups, clusapi/FailbackGroupsImmediately, clusapi/FailbackGroupsPerPolicy, mscs.cluster_node_resume_failback_type
-ms.topic: enum
 f1_keywords:
 - clusapi/CLUSTER_NODE_RESUME_FAILBACK_TYPE
 dev_langs:

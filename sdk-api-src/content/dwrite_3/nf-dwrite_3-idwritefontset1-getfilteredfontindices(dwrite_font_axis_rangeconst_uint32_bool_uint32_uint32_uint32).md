@@ -5,7 +5,6 @@ description: Retrives all the item indices, filtered by the given ranges.
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet1 interface [Direct Write],GetFilteredFontIndices method, IDWriteFontSet1.GetFilteredFontIndices, IDWriteFontSet1::GetFilteredFontIndices, GetFilteredFontIndices, GetFilteredFontIndices method [Direct Write], GetFilteredFontIndices method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_getfilteredfontindices, dwrite_3/IDWriteFontSet1::GetFilteredFontIndices
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontSet1.GetFilteredFontIndices
 dev_langs:

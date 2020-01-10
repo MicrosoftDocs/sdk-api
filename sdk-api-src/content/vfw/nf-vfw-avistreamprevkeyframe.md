@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 69933c8f-7e4e-45b2-aa72-ac127f3c8d05
 ms.date: 12/05/2018
 ms.keywords: AVIStreamPrevKeyFrame, AVIStreamPrevKeyFrame macro [Windows Multimedia], _win32_AVIStreamPrevKeyFrame, multimedia.avistreamprevkeyframe, vfw/AVIStreamPrevKeyFrame
-ms.topic: macro
 f1_keywords:
 - vfw/AVIStreamPrevKeyFrame
 dev_langs:

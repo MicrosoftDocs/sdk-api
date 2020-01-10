@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: d19d6451-1640-4c3b-9e60-d9cb591cf173
 ms.date: 12/05/2018
 ms.keywords: SnmpDecodeMsg, SnmpDecodeMsg function [SNMP], _snmp_snmpdecodemsg, snmp.snmpdecodemsg, winsnmp/SnmpDecodeMsg
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpDecodeMsg
 dev_langs:

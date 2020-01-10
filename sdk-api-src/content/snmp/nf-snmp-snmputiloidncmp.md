@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: a23df516-9559-4209-bf2d-8268737d1dfb
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilOidNCmp, SnmpUtilOidNCmp function [SNMP], _snmp_snmputiloidncmp, snmp.snmputiloidncmp, snmp/SnmpUtilOidNCmp
-ms.topic: function
 f1_keywords:
 - snmp/SnmpUtilOidNCmp
 dev_langs:

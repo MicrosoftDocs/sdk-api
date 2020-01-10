@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 2135ff86-a3b6-4e1c-a9de-867f4828f008
 ms.date: 12/05/2018
 ms.keywords: 2135ff86-a3b6-4e1c-a9de-867f4828f008, AM_MEDIA_TYPE_REPRESENTATION, FORMAT_MFVideoFormat, FORMAT_VideoInfo, FORMAT_VideoInfo2, GetRepresentation, GetRepresentation method [Media Foundation], GetRepresentation method [Media Foundation],IMFMediaType interface, IMFMediaType interface [Media Foundation],GetRepresentation method, IMFMediaType.GetRepresentation, IMFMediaType::GetRepresentation, mf.imfmediatype_getrepresentation, mfobjects/IMFMediaType::GetRepresentation
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFMediaType.GetRepresentation
 dev_langs:

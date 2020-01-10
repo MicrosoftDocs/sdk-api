@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\setrenderingorigin.htm
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],SetRenderingOrigin method, Graphics.SetRenderingOrigin, Graphics::SetRenderingOrigin, SetRenderingOrigin, SetRenderingOrigin method [GDI+], SetRenderingOrigin method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_SetRenderingOrigin_x_y_, gdiplus._gdiplus_CLASS_Graphics_SetRenderingOrigin_x_y_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.SetRenderingOrigin
 dev_langs:

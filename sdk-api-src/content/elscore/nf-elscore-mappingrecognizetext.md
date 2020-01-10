@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 49f30bdd-4612-423b-9913-9c35ad8a88d5
 ms.date: 12/05/2018
 ms.keywords: MappingRecognizeText, MappingRecognizeText function [Internationalization for Windows Applications], elscore/MappingRecognizeText, intl.mappingrecognizetext
-ms.topic: function
 f1_keywords:
 - elscore/MappingRecognizeText
 dev_langs:

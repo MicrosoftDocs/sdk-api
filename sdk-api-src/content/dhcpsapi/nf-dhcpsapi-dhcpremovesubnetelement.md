@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: b27de25f-c96d-4881-9788-495ffe220d61
 ms.date: 12/05/2018
 ms.keywords: DhcpRemoveSubnetElement, DhcpRemoveSubnetElement function [DHCP], dhcp.dhcpremovesubnetelement, dhcpsapi/DhcpRemoveSubnetElement
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpRemoveSubnetElement
 dev_langs:

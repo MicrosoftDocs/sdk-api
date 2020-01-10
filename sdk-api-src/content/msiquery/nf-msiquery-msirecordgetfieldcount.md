@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 17d4e593-f80c-4f67-bfd0-fa487e2477c4
 ms.date: 12/05/2018
 ms.keywords: MsiRecordGetFieldCount, MsiRecordGetFieldCount function, _msi_msirecordgetfieldcount, msiquery/MsiRecordGetFieldCount, setup.msirecordgetfieldcount
-ms.topic: function
 f1_keywords:
 - msiquery/MsiRecordGetFieldCount
 dev_langs:

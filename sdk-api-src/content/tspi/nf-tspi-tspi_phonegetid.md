@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: ed34641d-091a-45a3-becc-b5fca36a9367
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneGetID, TSPI_phoneGetID function [TAPI 2.2], _tspi_tspi_phonegetid, tspi.tspi_phonegetid, tspi/TSPI_phoneGetID
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_phoneGetID
 dev_langs:

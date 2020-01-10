@@ -7,7 +7,6 @@ tech.root: VStor
 ms.assetid: 08e2a82d-9110-42b1-be09-dc5150da42f6
 ms.date: 12/05/2018
 ms.keywords: OpenVirtualDisk, OpenVirtualDisk function [VHD], vdssys/OpenVirtualDisk, vhd.openvirtualdisk, virtdisk/OpenVirtualDisk
-ms.topic: function
 f1_keywords:
 - virtdisk/OpenVirtualDisk
 dev_langs:

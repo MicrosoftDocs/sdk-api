@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 941d5040-e6e4-4f7e-be31-2b52eb16fa9f
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SaveEnvironment method, ITsSbResourcePluginStore.SaveEnvironment, ITsSbResourcePluginStore::SaveEnvironment, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],SaveEnvironment method, ITsSbResourcePluginStoreEx::SaveEnvironment, SaveEnvironment, SaveEnvironment method [Remote Desktop Services], SaveEnvironment method [Remote Desktop Services],ITsSbResourcePluginStore interface, SaveEnvironment method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::SaveEnvironment, sbtsv/ITsSbResourcePluginStoreEx::SaveEnvironment, termserv.itssbresourcepluginstore_saveenvironment
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbResourcePluginStore.SaveEnvironment
 dev_langs:

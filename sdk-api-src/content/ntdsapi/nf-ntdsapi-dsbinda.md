@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: c73cd16d-ccfd-4f61-b1c5-50130bef64d7
 ms.date: 12/05/2018
 ms.keywords: DsBind, DsBind function [Active Directory], DsBindA, DsBindW, _glines_dsbind, ad.dsbind, ntdsapi/DsBind, ntdsapi/DsBindA, ntdsapi/DsBindW
-ms.topic: function
 f1_keywords:
 - ntdsapi/DsBind
 dev_langs:

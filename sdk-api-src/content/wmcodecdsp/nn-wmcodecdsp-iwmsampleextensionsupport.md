@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 3c6dd1c2-4692-4176-b164-bb90d661defc
 ms.date: 12/05/2018
 ms.keywords: IWMSampleExtensionSupport, IWMSampleExtensionSupport interface [Media Foundation], IWMSampleExtensionSupport interface [Media Foundation],described, codecapi.iwmsampleextensionsupportinterface, mf.iwmsampleextensionsupport, mf.iwmsampleextensionsupportinterface, wmcodecdsp/IWMSampleExtensionSupport
-ms.topic: interface
 f1_keywords:
 - wmcodecdsp/IWMSampleExtensionSupport
 dev_langs:

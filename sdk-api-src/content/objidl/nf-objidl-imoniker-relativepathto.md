@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 92e2e7d7-043e-4e95-8540-5a895b5a54f9
 ms.date: 12/05/2018
 ms.keywords: IMoniker interface [COM],RelativePathTo method, IMoniker.RelativePathTo, IMoniker::RelativePathTo, RelativePathTo, RelativePathTo method [COM], RelativePathTo method [COM],IMoniker interface, _com_imoniker_relativepathto, com.imoniker_relativepathto, objidl/IMoniker::RelativePathTo
-ms.topic: method
 f1_keywords:
 - objidl/IMoniker.RelativePathTo
 dev_langs:

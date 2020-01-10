@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 290a53fb-8be0-477d-837c-46251b30e245
 ms.date: 12/05/2018
 ms.keywords: GPMGPOLink, IGPMGPOLink, IGPMGPOLink interface [GPMC], IGPMGPOLink interface [GPMC],described, _win32_igpmgpolink, gpmc.igpmgpolink, gpmgmt/IGPMGPOLink
-ms.topic: interface
 f1_keywords:
 - gpmgmt/IGPMGPOLink
 dev_langs:

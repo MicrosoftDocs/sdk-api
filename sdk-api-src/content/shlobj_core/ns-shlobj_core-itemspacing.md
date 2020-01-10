@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: fcd7f3da-6aba-4683-bd5e-14a6b5f93cb5
 ms.date: 12/05/2018
 ms.keywords: ITEMSPACING, ITEMSPACING structure [Windows Shell], _ITEMSPACING, _shell_ITEMSPACING, shell.ITEMSPACING, shlobj_core/ITEMSPACING
-ms.topic: struct
 f1_keywords:
 - shlobj_core/ITEMSPACING
 dev_langs:

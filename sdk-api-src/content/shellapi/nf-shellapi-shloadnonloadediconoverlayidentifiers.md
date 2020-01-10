@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d2c4f37e-6e9d-4536-90ea-d69461c4105a
 ms.date: 12/05/2018
 ms.keywords: SHLoadNonloadedIconOverlayIdentifiers, SHLoadNonloadedIconOverlayIdentifiers function [Windows Shell], _shell_shloadnonloadediconoverlayidentifiers, shell.SHLoadNonloadedIconOverlayIdentifiers, shellapi/SHLoadNonloadedIconOverlayIdentifiers
-ms.topic: function
 f1_keywords:
 - shellapi/SHLoadNonloadedIconOverlayIdentifiers
 dev_langs:

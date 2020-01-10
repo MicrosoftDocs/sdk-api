@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 3E53903A-B716-45E7-B0EB-0D1226291275
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentPolicyServerSetup interface [Security],UnInstall method, ICertificateEnrollmentPolicyServerSetup.UnInstall, ICertificateEnrollmentPolicyServerSetup::UnInstall, UnInstall, UnInstall method [Security], UnInstall method [Security],ICertificateEnrollmentPolicyServerSetup interface, casetup/ICertificateEnrollmentPolicyServerSetup::UnInstall, security.icertificateenrollmentpolicyserversetup_uninstall
-ms.topic: method
 f1_keywords:
 - casetup/ICertificateEnrollmentPolicyServerSetup.UnInstall
 dev_langs:

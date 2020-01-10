@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: fb5c10ba-da8e-4a34-9302-67586a0a9624
 ms.date: 12/05/2018
 ms.keywords: CryptMemFree, CryptMemFree function [Security], _crypto2_cryptmemfree, security.cryptmemfree, wincrypt/CryptMemFree
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptMemFree
 dev_langs:

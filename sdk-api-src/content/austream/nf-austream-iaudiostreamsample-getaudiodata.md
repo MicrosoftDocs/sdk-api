@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b482e628-d4bc-461e-b529-58e891689513
 ms.date: 12/05/2018
 ms.keywords: GetAudioData, GetAudioData method [DirectShow], GetAudioData method [DirectShow],IAudioStreamSample interface, IAudioStreamSample interface [DirectShow],GetAudioData method, IAudioStreamSample.GetAudioData, IAudioStreamSample::GetAudioData, IAudioStreamSampleGetAudioData, austream/IAudioStreamSample::GetAudioData, dshow.iaudiostreamsample_getaudiodata
-ms.topic: method
 f1_keywords:
 - austream/IAudioStreamSample.GetAudioData
 dev_langs:

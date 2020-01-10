@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 8981042a-f11d-458d-be27-3b1749f9e995
 ms.date: 12/05/2018
 ms.keywords: DRM_VAL16, DRM_VAL16 structure [windows Media Format], structure [windows Media Format], wmformat.drm_val16, wmsdkidl/DRM_VAL16
-ms.topic: struct
 f1_keywords:
 - wmsdkidl/DRM_VAL16
 dev_langs:

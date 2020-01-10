@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: E82AAD40-1E91-449D-8F1C-CE31B394B2DF
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],QuerySupportedCommands method, IMbnDeviceService.QuerySupportedCommands, IMbnDeviceService::QuerySupportedCommands, QuerySupportedCommands, QuerySupportedCommands method [Microsoft Broadband Networks], QuerySupportedCommands method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_querysupportedcommands, mbnapi/IMbnDeviceService::QuerySupportedCommands
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnDeviceService.QuerySupportedCommands
 dev_langs:

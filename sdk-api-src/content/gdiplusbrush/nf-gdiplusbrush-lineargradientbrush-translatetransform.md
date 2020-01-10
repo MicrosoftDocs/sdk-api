@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\translatetransform_38dx_dy_order.htm
 ms.date: 12/05/2018
 ms.keywords: LinearGradientBrush class [GDI+],TranslateTransform method, LinearGradientBrush.TranslateTransform, LinearGradientBrush::TranslateTransform, TranslateTransform, TranslateTransform method [GDI+], TranslateTransform method [GDI+],LinearGradientBrush class, _gdiplus_CLASS_LinearGradientBrush_TranslateTransform_dx_dy_order_, gdiplus._gdiplus_CLASS_LinearGradientBrush_TranslateTransform_dx_dy_order_
-ms.topic: method
 f1_keywords:
 - gdiplusbrush/LinearGradientBrush.TranslateTransform
 dev_langs:

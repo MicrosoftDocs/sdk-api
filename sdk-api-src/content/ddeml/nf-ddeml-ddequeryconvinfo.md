@@ -7,7 +7,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddequeryconvinfo.htm
 ms.date: 12/05/2018
 ms.keywords: DdeQueryConvInfo, DdeQueryConvInfo function [Data Exchange], _win32_DdeQueryConvInfo, _win32_ddequeryconvinfo_cpp, dataxchg.ddequeryconvinfo, ddeml/DdeQueryConvInfo, winui._win32_ddequeryconvinfo
-ms.topic: function
 f1_keywords:
 - ddeml/DdeQueryConvInfo
 dev_langs:

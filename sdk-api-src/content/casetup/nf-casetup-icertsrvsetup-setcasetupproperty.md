@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 91df1926-a4b6-4ba2-ab59-0258293fc1c0
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],SetCASetupProperty method, ICertSrvSetup.SetCASetupProperty, ICertSrvSetup::SetCASetupProperty, SetCASetupProperty, SetCASetupProperty method [Security], SetCASetupProperty method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetCASetupProperty, security.icertsrvsetup_setcasetupproperty
-ms.topic: method
 f1_keywords:
 - casetup/ICertSrvSetup.SetCASetupProperty
 dev_langs:

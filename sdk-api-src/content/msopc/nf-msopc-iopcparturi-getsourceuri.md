@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 02e8570b-3826-4619-b4f5-c1f74e27aefc
 ms.date: 12/05/2018
 ms.keywords: GetSourceUri, GetSourceUri method [Open Packaging Conventions], GetSourceUri method [Open Packaging Conventions],IOpcPartUri interface, IOpcPartUri interface [Open Packaging Conventions],GetSourceUri method, IOpcPartUri.GetSourceUri, IOpcPartUri::GetSourceUri, msopc/IOpcPartUri::GetSourceUri, opc.iopcparturi_getsourceuri
-ms.topic: method
 f1_keywords:
 - msopc/IOpcPartUri.GetSourceUri
 dev_langs:

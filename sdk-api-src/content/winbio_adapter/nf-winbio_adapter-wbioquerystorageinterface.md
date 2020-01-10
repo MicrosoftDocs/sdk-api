@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: ff7297ee-8d0a-41f4-8abf-66ab5163dae7
 ms.date: 12/05/2018
 ms.keywords: WbioQueryStorageInterface, WbioQueryStorageInterface function [Windows Biometric Framework API], secbiomet.wbioquerystorageinterface, winbio_adapter/WbioQueryStorageInterface
-ms.topic: function
 f1_keywords:
 - winbio_adapter/WbioQueryStorageInterface
 dev_langs:

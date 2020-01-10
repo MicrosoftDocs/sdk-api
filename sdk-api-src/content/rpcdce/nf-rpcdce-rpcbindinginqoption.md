@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: f148c827-d18a-41f2-834a-f6b77b331bcc
 ms.date: 12/05/2018
 ms.keywords: RpcBindingInqOption, RpcBindingInqOption function [RPC], _rpc_rpcbindinginqoption, rpc.rpcbindinginqoption, rpcdce/RpcBindingInqOption
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcBindingInqOption
 dev_langs:

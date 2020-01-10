@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: f2b47196-8112-4f04-9944-a4a686d3c25c
 ms.date: 12/05/2018
 ms.keywords: ID_PARAMETER_PAIR, ID_PARAMETER_PAIR structure [Windows Sync], winsync.id_parameter_pair, winsync/ID_PARAMETER_PAIR
-ms.topic: struct
 f1_keywords:
 - winsync/ID_PARAMETER_PAIR
 dev_langs:

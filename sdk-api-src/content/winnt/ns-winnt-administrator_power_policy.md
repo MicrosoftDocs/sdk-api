@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: abd2e2c5-1056-4985-ae07-a40d53bb17b1
 ms.date: 12/05/2018
 ms.keywords: '*PADMINISTRATOR_POWER_POLICY, ADMINISTRATOR_POWER_POLICY, ADMINISTRATOR_POWER_POLICY structure, PADMINISTRATOR_POWER_POLICY, PADMINISTRATOR_POWER_POLICY structure pointer, _ADMINISTRATOR_POWER_POLICY, _win32_administrator_power_policy_str, base.administrator_power_policy_str, winnt/ADMINISTRATOR_POWER_POLICY, winnt/PADMINISTRATOR_POWER_POLICY'
-ms.topic: struct
 f1_keywords:
 - winnt/ADMINISTRATOR_POWER_POLICY
 dev_langs:

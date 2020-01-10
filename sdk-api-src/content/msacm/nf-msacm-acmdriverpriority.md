@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 62ab009e-b8fe-4b92-ba0f-a98cd761307b
 ms.date: 12/05/2018
 ms.keywords: _win32_acmDriverPriority, acmDriverPriority, acmDriverPriority function [Windows Multimedia], msacm/acmDriverPriority, multimedia.acmdriverpriority
-ms.topic: function
 f1_keywords:
 - msacm/acmDriverPriority
 dev_langs:

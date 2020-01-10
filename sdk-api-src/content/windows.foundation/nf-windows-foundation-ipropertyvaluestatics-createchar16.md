@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: E8400B85-029A-4E9A-963B-CC3012B7BE7F
 ms.date: 12/05/2018
 ms.keywords: CreateChar16, CreateChar16 method [Windows Runtime], CreateChar16 method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateChar16 method, IPropertyValueStatics.CreateChar16, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateChar16, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateChar16, winrt.ipropertyvaluefactory_createchar16, winrt.ipropertyvaluestatics_createchar16
-ms.topic: method
 f1_keywords:
 - windows.foundation/IPropertyValueStatics.CreateChar16
 dev_langs:

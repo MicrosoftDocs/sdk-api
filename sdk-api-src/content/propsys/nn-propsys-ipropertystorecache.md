@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: ac4f7e3b-6702-4239-b248-0645d961fbf8
 ms.date: 12/05/2018
 ms.keywords: IPropertyStoreCache, IPropertyStoreCache interface [Windows Properties], IPropertyStoreCache interface [Windows Properties],described, properties.IPropertyStoreCache, propsys/IPropertyStoreCache, shell.IPropertyStoreCache, shell_IPropertyStoreCache
-ms.topic: interface
 f1_keywords:
 - propsys/IPropertyStoreCache
 dev_langs:

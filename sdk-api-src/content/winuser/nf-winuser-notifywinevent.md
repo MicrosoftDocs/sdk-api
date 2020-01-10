@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 08e74d45-95b6-44c2-a2e0-5ba6ffdcd56a
 ms.date: 12/05/2018
 ms.keywords: NotifyWinEvent, NotifyWinEvent function [Windows Accessibility], _msaa_NotifyWinEvent, msaa.notifywinevent, winauto.notifywinevent, winuser/NotifyWinEvent
-ms.topic: function
 f1_keywords:
 - winuser/NotifyWinEvent
 dev_langs:

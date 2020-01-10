@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 07fd327f-d78b-4fc0-9c6a-69cdaa2bcdf6
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],put_MixLevel method, IAMAudioInputMixer.put_MixLevel, IAMAudioInputMixer::put_MixLevel, IAMAudioInputMixerput_MixLevel, dshow.iamaudioinputmixer_put_mixlevel, put_MixLevel, put_MixLevel method [DirectShow], put_MixLevel method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_MixLevel
-ms.topic: method
 f1_keywords:
 - strmif/IAMAudioInputMixer.put_MixLevel
 dev_langs:

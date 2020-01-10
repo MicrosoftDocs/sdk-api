@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: A4890300-2945-4973-ACFC-F950C5E15A0E
 ms.date: 12/05/2018
 ms.keywords: IUPnPServiceDocumentAccess, IUPnPServiceDocumentAccess interface [UPnP APIs], IUPnPServiceDocumentAccess interface [UPnP APIs],described, upnp.iupnpservicedocumentaccess, upnp/IUPnPServiceDocumentAccess
-ms.topic: interface
 f1_keywords:
 - upnp/IUPnPServiceDocumentAccess
 dev_langs:

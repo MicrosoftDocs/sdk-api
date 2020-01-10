@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex3d_rtv.htm
 ms.date: 12/05/2018
 ms.keywords: D3D10_TEX3D_RTV, D3D10_TEX3D_RTV structure [Direct3D 10], a846ce63-d213-1889-2297-8bc813006637, d3d10/D3D10_TEX3D_RTV, direct3d10.d3d10_tex3d_rtv
-ms.topic: struct
 f1_keywords:
 - d3d10/D3D10_TEX3D_RTV
 dev_langs:

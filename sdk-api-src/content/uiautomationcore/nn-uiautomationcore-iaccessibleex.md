@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 90211503-a73c-4380-be96-0be40ad29382
 ms.date: 12/05/2018
 ms.keywords: IAccessibleEx, IAccessibleEx interface [Windows Accessibility], IAccessibleEx interface [Windows Accessibility],described, uiauto.uiauto_IAccessibleEx, uiauto_IAccessibleEx, uiautomationcore/IAccessibleEx, winauto.uiauto_IAccessibleEx
-ms.topic: interface
 f1_keywords:
 - uiautomationcore/IAccessibleEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 81c013c3-c033-4dc8-a828-95fcc810e608
 ms.date: 12/05/2018
 ms.keywords: 81c013c3-c033-4dc8-a828-95fcc810e608, IInkWordList, IInkWordList interface [Tablet PC],Merge method, IInkWordList.Merge, IInkWordList::Merge, InkWordList class [Tablet PC],Merge method, Merge, Merge method [Tablet PC], Merge method [Tablet PC],IInkWordList interface, Merge method [Tablet PC],InkWordList class, msinkaut/IInkWordList::Merge, tablet.inkwordlist_merge
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkWordList.Merge
 dev_langs:

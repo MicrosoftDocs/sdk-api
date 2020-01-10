@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: E507BA9D-D2CA-4B28-BD13-B820B666B4C6
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [App packaging and management], GetProperties method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetProperties method, IAppxManifestReader.GetProperties, IAppxManifestReader::GetProperties, appxpackaging/IAppxManifestReader::GetProperties, appxpkg.iappxmanifestreader_getproperties
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxManifestReader.GetProperties
 dev_langs:

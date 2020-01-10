@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8cca6bfe-d365-4d10-bc8d-f3bebefaad02
 ms.date: 12/05/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHGetValue, SHGetValue function [Windows Shell], SHGetValueA, SHGetValueW, _win32_SHGetValue, shell.SHGetValue, shlwapi/SHGetValue, shlwapi/SHGetValueA, shlwapi/SHGetValueW
-ms.topic: function
 f1_keywords:
 - shlwapi/SHGetValue
 dev_langs:

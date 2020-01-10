@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: C72C79D5-FD65-4F27-A8C8-B94BF5A9E829
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourceEx, IMFMediaSourceEx interface [Media Foundation], IMFMediaSourceEx interface [Media Foundation],described, mf.imfmediasourceex, mfidl/IMFMediaSourceEx
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFMediaSourceEx
 dev_langs:

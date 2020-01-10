@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: dcdcc43c-9b5c-495b-bf4b-331c4d9461e7
 ms.date: 12/05/2018
 ms.keywords: SetupAdjustDiskSpaceList, SetupAdjustDiskSpaceList function [Setup API], SetupAdjustDiskSpaceListA, SetupAdjustDiskSpaceListW, setup.setupadjustdiskspacelist, setupapi/SetupAdjustDiskSpaceList, setupapi/SetupAdjustDiskSpaceListA, setupapi/SetupAdjustDiskSpaceListW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupAdjustDiskSpaceList
 dev_langs:

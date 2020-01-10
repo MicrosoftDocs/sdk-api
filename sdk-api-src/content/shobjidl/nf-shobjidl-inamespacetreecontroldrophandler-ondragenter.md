@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b9a87024-d62e-4006-a716-c1461d9c9ffe
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlDropHandler interface [Windows Shell],OnDragEnter method, INameSpaceTreeControlDropHandler.OnDragEnter, INameSpaceTreeControlDropHandler::OnDragEnter, OnDragEnter, OnDragEnter method [Windows Shell], OnDragEnter method [Windows Shell],INameSpaceTreeControlDropHandler interface, _shell_INameSpaceTreeControlDropHandler_OnDragEnter, shell.INameSpaceTreeControlDropHandler_OnDragEnter, shobjidl/INameSpaceTreeControlDropHandler::OnDragEnter
-ms.topic: method
 f1_keywords:
 - shobjidl/INameSpaceTreeControlDropHandler.OnDragEnter
 dev_langs:

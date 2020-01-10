@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 0d2166dc-24cf-4d5f-8b37-94c4f9990178
 ms.date: 12/05/2018
 ms.keywords: Guid property [PLA], Guid property [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],Guid property, ITraceDataProvider.Guid, ITraceDataProvider.put_Guid, ITraceDataProvider::Guid, ITraceDataProvider::get_Guid, ITraceDataProvider::put_Guid, base.itracedataprovider_guid, pla.itracedataprovider_guid, pla/ITraceDataProvider::Guid, pla/ITraceDataProvider::get_Guid, pla/ITraceDataProvider::put_Guid, put_Guid
-ms.topic: method
 f1_keywords:
 - pla/ITraceDataProvider.Guid
 dev_langs:

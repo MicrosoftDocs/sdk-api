@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 943faf31-7de4-45da-887b-7ded479ac732
 ms.date: 12/05/2018
 ms.keywords: Freeze, Freeze method [COM], Freeze method [COM],IViewObject interface, IViewObject interface [COM],Freeze method, IViewObject.Freeze, IViewObject::Freeze, _ole_iviewobject_freeze, com.iviewobject_freeze, oleidl/IViewObject::Freeze
-ms.topic: method
 f1_keywords:
 - oleidl/IViewObject.Freeze
 dev_langs:

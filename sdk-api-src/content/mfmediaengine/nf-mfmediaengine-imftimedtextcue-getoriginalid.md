@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: D5B94171-AEB0-4A7D-B596-F888B69A436D
 ms.date: 12/05/2018
 ms.keywords: GetOriginalId, GetOriginalId method [Media Foundation], GetOriginalId method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetOriginalId method, IMFTimedTextCue.GetOriginalId, IMFTimedTextCue::GetOriginalId, mf.imftimedtextcue_getoriginalid, mfmediaengine/IMFTimedTextCue::GetOriginalId
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFTimedTextCue.GetOriginalId
 dev_langs:

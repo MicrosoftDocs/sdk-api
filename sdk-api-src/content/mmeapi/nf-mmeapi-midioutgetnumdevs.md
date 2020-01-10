@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: f7abf545-3072-478e-9f6e-28b5fb6ab6e5
 ms.date: 12/05/2018
 ms.keywords: _win32_midiOutGetNumDevs, midiOutGetNumDevs, midiOutGetNumDevs function [Windows Multimedia], mmeapi/midiOutGetNumDevs, multimedia.midioutgetnumdevs
-ms.topic: function
 f1_keywords:
 - mmeapi/midiOutGetNumDevs
 dev_langs:

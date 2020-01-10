@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ce8c002f-f4f8-4b5f-a9e2-7bcd21f8808c
 ms.date: 12/05/2018
 ms.keywords: StrCatBuff, StrCatBuff function [Windows Shell], StrCatBuffA, StrCatBuffW, _win32_StrCatBuff, shell.StrCatBuff, shlwapi/StrCatBuff, shlwapi/StrCatBuffA, shlwapi/StrCatBuffW
-ms.topic: function
 f1_keywords:
 - shlwapi/StrCatBuff
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wer
 ms.assetid: 781D54A9-6F51-445E-89A8-A0C944081B81
 ms.date: 12/05/2018
 ms.keywords: WerStoreGetNextReportKey, WerStoreGetNextReportKey function [Windows Error Reporting], wer.werstoregetnextreportkey, werapi/WerStoreGetNextReportKey
-ms.topic: function
 f1_keywords:
 - werapi/WerStoreGetNextReportKey
 dev_langs:

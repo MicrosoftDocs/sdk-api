@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0xt9_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxDeviceIds interface [Fax Service],get_Item method, IFaxDeviceIds.get_Item, IFaxDeviceIds::get_Item, _mfax_faxdeviceids.item_cpp, fax._mfax_faxdeviceids_item_cpp, faxcomex/IFaxDeviceIds::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxDeviceIds interface
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxDeviceIds.get_Item
 dev_langs:

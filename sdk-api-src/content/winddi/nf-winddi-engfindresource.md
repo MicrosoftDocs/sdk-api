@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: f83d9112-af06-4b73-84b3-5b1c5b3daffb
 ms.date: 12/05/2018
 ms.keywords: EngFindResource, EngFindResource function [Display Devices], display.engfindresource, gdifncs_93a3a136-5dfb-4c3c-afbc-4a1c475ae0c6.xml, winddi/EngFindResource
-ms.topic: function
 f1_keywords:
 - winddi/EngFindResource
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Input_PointerDevice
 ms.assetid: 800E0BFE-6E57-4EAA-B47C-FEEC0B5BFA2F
 ms.date: 12/05/2018
 ms.keywords: GetPointerDevice, GetPointerDevice function, input_pointerdevice.getpointerdevice, unifiedinputstack.getpointerdevice, winuser/GetPointerDevice
-ms.topic: function
 f1_keywords:
 - winuser/GetPointerDevice
 dev_langs:

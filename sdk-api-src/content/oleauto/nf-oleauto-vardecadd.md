@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 67d7083f-2e1c-4d3f-9ba0-333bd5794681
 ms.date: 12/05/2018
 ms.keywords: VarDecAdd, VarDecAdd function [Automation], _oa96_VarDecAdd, automat.vardecadd, oleauto/VarDecAdd
-ms.topic: function
 f1_keywords:
 - oleauto/VarDecAdd
 dev_langs:

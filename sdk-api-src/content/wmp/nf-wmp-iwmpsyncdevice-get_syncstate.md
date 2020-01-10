@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: c93263a1-7976-43db-b514-97d9a263a60c
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_syncState method, IWMPSyncDevice.get_syncState, IWMPSyncDevice::get_syncState, IWMPSyncDeviceget_syncState, get_syncState, get_syncState method [Windows Media Player], get_syncState method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_syncstate, wmp/IWMPSyncDevice::get_syncState
-ms.topic: method
 f1_keywords:
 - wmp/IWMPSyncDevice.get_syncState
 dev_langs:

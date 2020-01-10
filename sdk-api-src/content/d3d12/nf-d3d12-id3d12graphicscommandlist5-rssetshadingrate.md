@@ -4,7 +4,6 @@ title: ID3D12GraphicsCommandList5::RSSetShadingRate
 tech.root: direct3d12
 ms.date: 01/31/19
 ms.keywords: ID3D12GraphicsCommandList5::RSSetShadingRate
-ms.topic: language-reference
 f1_keywords:
 - d3d12/ID3D12GraphicsCommandList5::RSSetShadingRate
 dev_langs:

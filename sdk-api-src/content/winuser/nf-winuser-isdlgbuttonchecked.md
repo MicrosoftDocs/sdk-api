@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonfunctions\isdlgbuttonchecked.htm
 ms.date: 12/05/2018
 ms.keywords: IsDlgButtonChecked, IsDlgButtonChecked function [Windows Controls], _win32_IsDlgButtonChecked, _win32_IsDlgButtonChecked_cpp, controls.IsDlgButtonChecked, controls._win32_IsDlgButtonChecked, winuser/IsDlgButtonChecked
-ms.topic: function
 f1_keywords:
 - winuser/IsDlgButtonChecked
 dev_langs:

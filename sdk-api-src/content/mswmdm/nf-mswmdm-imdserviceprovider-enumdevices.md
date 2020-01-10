@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: a3d4e404-7441-4a61-b2bb-ca373eb79b99
 ms.date: 12/05/2018
 ms.keywords: EnumDevices, EnumDevices method [windows Media Device Manager], EnumDevices method [windows Media Device Manager],IMDServiceProvider interface, IMDServiceProvider interface [windows Media Device Manager],EnumDevices method, IMDServiceProvider.EnumDevices, IMDServiceProvider::EnumDevices, IMDServiceProviderEnumDevices, mswmdm/IMDServiceProvider::EnumDevices, wmdm.imdserviceprovider_enumdevices
-ms.topic: method
 f1_keywords:
 - mswmdm/IMDServiceProvider.EnumDevices
 dev_langs:

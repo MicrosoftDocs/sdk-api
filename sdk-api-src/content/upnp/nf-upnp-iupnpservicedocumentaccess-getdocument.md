@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: B0C197A0-4987-43BD-A48D-BF2E6150A85F
 ms.date: 12/05/2018
 ms.keywords: GetDocument, GetDocument method [UPnP APIs], GetDocument method [UPnP APIs],IUPnPServiceDocumentAccess interface, IUPnPServiceDocumentAccess interface [UPnP APIs],GetDocument method, IUPnPServiceDocumentAccess.GetDocument, IUPnPServiceDocumentAccess::GetDocument, upnp.iupnpservicedocumentaccess_getdocument, upnp/IUPnPServiceDocumentAccess::GetDocument
-ms.topic: method
 f1_keywords:
 - upnp/IUPnPServiceDocumentAccess.GetDocument
 dev_langs:

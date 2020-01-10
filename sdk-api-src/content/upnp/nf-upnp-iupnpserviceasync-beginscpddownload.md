@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: CA573855-6D86-4C6C-B557-F8E8776BDBD3
 ms.date: 12/05/2018
 ms.keywords: BeginSCPDDownload, BeginSCPDDownload method [UPnP APIs], BeginSCPDDownload method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],BeginSCPDDownload method, IUPnPServiceAsync.BeginSCPDDownload, IUPnPServiceAsync::BeginSCPDDownload, upnp.iupnpserviceasync_beginscpddownload, upnp/IUPnPServiceAsync::BeginSCPDDownload
-ms.topic: method
 f1_keywords:
 - upnp/IUPnPServiceAsync.BeginSCPDDownload
 dev_langs:

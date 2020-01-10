@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: e0d4862d-a405-4c00-b7b0-af4dd60407c0
 ms.date: 12/05/2018
 ms.keywords: GetRegionData, GetRegionData function [Windows GDI], _win32_GetRegionData, gdi.getregiondata, wingdi/GetRegionData
-ms.topic: function
 f1_keywords:
 - wingdi/GetRegionData
 dev_langs:

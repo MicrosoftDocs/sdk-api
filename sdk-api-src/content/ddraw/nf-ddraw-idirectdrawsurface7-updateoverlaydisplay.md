@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: 50edf36f-ddf2-44a4-bcab-4b4dd5c5b65c
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],UpdateOverlayDisplay method, IDirectDrawSurface7.UpdateOverlayDisplay, IDirectDrawSurface7::UpdateOverlayDisplay, UpdateOverlayDisplay, UpdateOverlayDisplay method [DirectDraw], UpdateOverlayDisplay method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::UpdateOverlayDisplay, directdraw.idirectdrawsurface7_updateoverlaydisplay
-ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawSurface7.UpdateOverlayDisplay
 dev_langs:

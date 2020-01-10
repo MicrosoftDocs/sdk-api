@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 5144d290-444d-4a8c-ad3d-292bb8168e99
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureExchange3 interface [windows Media Device Manager],TransferCompleteForDevice method, ISCPSecureExchange3.TransferCompleteForDevice, ISCPSecureExchange3::TransferCompleteForDevice, ISCPSecureExchange3TransferCompleteForDevice, TransferCompleteForDevice, TransferCompleteForDevice method [windows Media Device Manager], TransferCompleteForDevice method [windows Media Device Manager],ISCPSecureExchange3 interface, mswmdm/ISCPSecureExchange3::TransferCompleteForDevice, wmdm.iscpsecureexchange3__transfercompletefordevice
-ms.topic: method
 f1_keywords:
 - mswmdm/ISCPSecureExchange3.TransferCompleteForDevice
 dev_langs:

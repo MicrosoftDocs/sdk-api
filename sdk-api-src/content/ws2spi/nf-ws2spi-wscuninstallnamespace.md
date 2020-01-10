@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 5267f986-99fc-4e53-9fbb-3850bb9d24cf
 ms.date: 12/05/2018
 ms.keywords: WSCUnInstallNameSpace, WSCUnInstallNameSpace function [Winsock], _win32_wscuninstallnamespace_2, winsock.wscuninstallnamespace_2, ws2spi/WSCUnInstallNameSpace
-ms.topic: function
 f1_keywords:
 - ws2spi/WSCUnInstallNameSpace
 dev_langs:

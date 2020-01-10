@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6143ba3c-6472-47d3-b3ca-55c06ca8da0e
 ms.date: 12/05/2018
 ms.keywords: GetAspectRatio, GetAspectRatio method [DirectShow], GetAspectRatio method [DirectShow],IMixerOCX interface, IMixerOCX interface [DirectShow],GetAspectRatio method, IMixerOCX.GetAspectRatio, IMixerOCX::GetAspectRatio, IMixerOCXGetAspectRatio, dshow.imixerocx_getaspectratio, mixerocx/IMixerOCX::GetAspectRatio
-ms.topic: method
 f1_keywords:
 - mixerocx/IMixerOCX.GetAspectRatio
 dev_langs:

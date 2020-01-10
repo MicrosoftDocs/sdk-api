@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 7a319fbb-9757-45da-8a8b-51dd48f08464
 ms.date: 12/05/2018
 ms.keywords: End, End method [Media Foundation], End method [Media Foundation],IMFCdmSuspendNotify interface, IMFCdmSuspendNotify interface [Media Foundation],End method, IMFCdmSuspendNotify.End, IMFCdmSuspendNotify::End, mf.imfcdmsuspendnotify_end, mfmediaengine/IMFCdmSuspendNotify::End
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFCdmSuspendNotify.End
 dev_langs:

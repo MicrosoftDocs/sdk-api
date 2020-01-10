@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: db516dcd-90b4-4421-b883-2f8462b36249
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetCheckboxText method, IPhotoProgressDialog.SetCheckboxText, IPhotoProgressDialog::SetCheckboxText, IPhotoProgressDialogSetCheckboxText, SetCheckboxText, SetCheckboxText method [Picture Acquisition], SetCheckboxText method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetCheckboxText, picacq.iphotoprogressdialog_setcheckboxtext
-ms.topic: method
 f1_keywords:
 - photoacquire/IPhotoProgressDialog.SetCheckboxText
 dev_langs:

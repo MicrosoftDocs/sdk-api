@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 747a7d5b-df7c-498b-a541-13c6561cebfe
 ms.date: 12/05/2018
 ms.keywords: ITranscodeImage, ITranscodeImage interface [Windows Shell], ITranscodeImage interface [Windows Shell],described, _shell_ITranscodeImage, imagetranscode/ITranscodeImage, shell.ITranscodeImage
-ms.topic: interface
 f1_keywords:
 - imagetranscode/ITranscodeImage
 dev_langs:

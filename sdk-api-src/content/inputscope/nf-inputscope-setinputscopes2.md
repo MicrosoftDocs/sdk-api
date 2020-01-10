@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 0b3e0e98-412f-4c6f-aa06-a7f17f8869ac
 ms.date: 12/05/2018
 ms.keywords: SetInputScopes2, SetInputScopes2 function [Text Services Framework], inputscope/SetInputScopes2, tsf.SetInputScopes2
-ms.topic: function
 f1_keywords:
 - inputscope/SetInputScopes2
 dev_langs:

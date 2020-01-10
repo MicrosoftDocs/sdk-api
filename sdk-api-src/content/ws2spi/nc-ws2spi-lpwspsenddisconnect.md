@@ -4,7 +4,6 @@ title: LPWSPSENDDISCONNECT
 description: The LPWSPSendDisconnect function initiates termination of the connection for the socket and sends disconnect data.
 ms.date: 9/12/2019
 ms.keywords: LPWSPSENDDISCONNECT
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

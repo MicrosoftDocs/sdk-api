@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: ecb6f06d-ccf5-44f3-ba36-b24176c3a20e
 ms.date: 12/05/2018
 ms.keywords: GetDetailsMajor, GetDetailsMajor method [Microsoft TV Technologies], GetDetailsMajor method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDetailsMajor method, ISCTE_EAS.GetDetailsMajor, ISCTE_EAS::GetDetailsMajor, ISCTE_EASGetDetailsMajor, atscpsipparser/ISCTE_EAS::GetDetailsMajor, mstv.iscte_eas_getdetailsmajor
-ms.topic: method
 f1_keywords:
 - atscpsipparser/ISCTE_EAS.GetDetailsMajor
 dev_langs:

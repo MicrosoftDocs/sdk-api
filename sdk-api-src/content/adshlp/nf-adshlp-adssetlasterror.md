@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: c9433af7-2ca5-492a-9b8e-9dfedb5e4d9d
 ms.date: 12/05/2018
 ms.keywords: ADsSetLastError, ADsSetLastError function [ADSI], _ds_adssetlasterror, adshlp/ADsSetLastError, adsi.adssetlasterror
-ms.topic: function
 f1_keywords:
 - adshlp/ADsSetLastError
 dev_langs:

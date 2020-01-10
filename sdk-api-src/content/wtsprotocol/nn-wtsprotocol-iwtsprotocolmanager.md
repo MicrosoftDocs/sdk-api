@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: a54bdb46-b18b-4a6d-90fc-75947f6dd191
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolManager, IWTSProtocolManager interface [Remote Desktop Services], IWTSProtocolManager interface [Remote Desktop Services],described, termserv.iwtsprotocolmanager, wtsprotocol/IWTSProtocolManager
-ms.topic: interface
 f1_keywords:
 - wtsprotocol/IWTSProtocolManager
 dev_langs:

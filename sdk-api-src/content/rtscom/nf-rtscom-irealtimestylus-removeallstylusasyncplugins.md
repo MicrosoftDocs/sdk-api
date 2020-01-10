@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 98b97156-f181-45f4-9cfb-13816f8042e6
 ms.date: 12/05/2018
 ms.keywords: 98b97156-f181-45f4-9cfb-13816f8042e6, IRealTimeStylus interface [Tablet PC],RemoveAllStylusAsyncPlugins method, IRealTimeStylus.RemoveAllStylusAsyncPlugins, IRealTimeStylus::RemoveAllStylusAsyncPlugins, RemoveAllStylusAsyncPlugins, RemoveAllStylusAsyncPlugins method [Tablet PC], RemoveAllStylusAsyncPlugins method [Tablet PC],IRealTimeStylus interface, rtscom/IRealTimeStylus::RemoveAllStylusAsyncPlugins, tablet.irealtimestylus_removeallstylusasyncplugins
-ms.topic: method
 f1_keywords:
 - rtscom/IRealTimeStylus.RemoveAllStylusAsyncPlugins
 dev_langs:

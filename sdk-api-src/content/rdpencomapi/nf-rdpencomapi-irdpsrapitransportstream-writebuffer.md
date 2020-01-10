@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 9e78360d-9ea6-4a74-8a20-5546057c24b0
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITransportStream interface [RDP],WriteBuffer method, IRDPSRAPITransportStream.WriteBuffer, IRDPSRAPITransportStream::WriteBuffer, WriteBuffer, WriteBuffer method [RDP], WriteBuffer method [RDP],IRDPSRAPITransportStream interface, rdp.irdpsrapitransportstream_writebuffer, rdpencomapi/IRDPSRAPITransportStream::WriteBuffer
-ms.topic: method
 f1_keywords:
 - rdpencomapi/IRDPSRAPITransportStream.WriteBuffer
 dev_langs:

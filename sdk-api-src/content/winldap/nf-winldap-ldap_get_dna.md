@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: 00484fe7-65d2-4300-ab5c-0a69a25e65e6
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_get_dn, ldap.ldap__get__dn, ldap.ldap_get_dn, ldap_get_dn, ldap_get_dn function [LDAP], ldap_get_dnA, ldap_get_dnW, winldap/ldap_get_dn, winldap/ldap_get_dnA, winldap/ldap_get_dnW
-ms.topic: function
 f1_keywords:
 - winldap/ldap_get_dn
 dev_langs:

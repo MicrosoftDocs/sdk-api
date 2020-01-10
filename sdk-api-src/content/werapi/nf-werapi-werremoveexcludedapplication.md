@@ -7,7 +7,6 @@ tech.root: wer
 ms.assetid: e7bab01b-a09c-4b06-a233-34ed63f75857
 ms.date: 12/05/2018
 ms.keywords: WerRemoveExcludedApplication, WerRemoveExcludedApplication function [Windows Error Reporting], base.werremoveexcludedapplication, wer.werremoveexcludedapplication, werapi/WerRemoveExcludedApplication
-ms.topic: function
 f1_keywords:
 - werapi/WerRemoveExcludedApplication
 dev_langs:

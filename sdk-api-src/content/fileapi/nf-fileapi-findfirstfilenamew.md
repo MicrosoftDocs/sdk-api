@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 9f64aa3e-4c73-47a8-8304-6134f1b4d153
 ms.date: 12/05/2018
 ms.keywords: FindFirstFileNameW, FindFirstFileNameW function [Files], fileapi/FindFirstFileNameW, fs.findfirstfilenamew
-ms.topic: function
 f1_keywords:
 - fileapi/FindFirstFileNameW
 dev_langs:

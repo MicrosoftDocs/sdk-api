@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 874A83C2-99DD-47EA-AF93-C3A47B61C4E5
 ms.date: 12/05/2018
 ms.keywords: D3DDisassemble11Trace, D3DDisassemble11Trace function [Direct3D 11], d3d11shadertracing/D3DDisassemble11Trace, direct3d11.d3ddisassemble11trace
-ms.topic: function
 f1_keywords:
 - d3d11shadertracing/D3DDisassemble11Trace
 dev_langs:

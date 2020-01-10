@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 8ac3bd90-a717-479c-b976-9ef536853ffe
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_TERMINATE_SERVICE_PROCESS_FROM_RES_DLL, PRESUTIL_TERMINATE_SERVICE_PROCESS_FROM_RES_DLL function [Failover Cluster], ResUtilTerminateServiceProcessFromResDll, ResUtilTerminateServiceProcessFromResDll function [Failover Cluster], _wolf_resutilterminateserviceprocessfromresdll, mscs.resutilterminateserviceprocessfromresdll, resapi/PRESUTIL_TERMINATE_SERVICE_PROCESS_FROM_RES_DLL, resapi/ResUtilTerminateServiceProcessFromResDll
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilTerminateServiceProcessFromResDll
 dev_langs:

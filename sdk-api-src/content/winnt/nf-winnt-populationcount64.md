@@ -7,7 +7,6 @@ tech.root: WinProg
 ms.assetid: 6123F331-7D4F-4D94-9543-D5A45F7559D8
 ms.date: 12/05/2018
 ms.keywords: PopulationCount64, PopulationCount64 function [Windows API], winnt/PopulationCount64, winprog.populationcount64
-ms.topic: function
 f1_keywords:
 - winnt/PopulationCount64
 dev_langs:

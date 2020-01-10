@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 5925f373-c862-4215-9877-5bb4d5411d36
 ms.date: 12/05/2018
 ms.keywords: IAudioMediaStream interface [DirectShow],SetFormat method, IAudioMediaStream.SetFormat, IAudioMediaStream::SetFormat, IAudioMediaStreamSetFormat, SetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow],IAudioMediaStream interface, austream/IAudioMediaStream::SetFormat, dshow.iaudiomediastream_setformat
-ms.topic: method
 f1_keywords:
 - austream/IAudioMediaStream.SetFormat
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProjFS
 ms.assetid: AE1896D4-0DFB-477F-ADD8-C6C14DAD27CD
 ms.date: 12/05/2018
 ms.keywords: PrjDoesNameContainWildCards, PrjDoesNameContainWildCards function, ProjFS.prjdoesnamecontainwildcards, projectedfslib/PrjDoesNameContainWildCards
-ms.topic: function
 f1_keywords:
 - projectedfslib/PrjDoesNameContainWildCards
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 963f44be-e0f4-4cb7-8e71-8641af0cd700
 ms.date: 12/05/2018
 ms.keywords: GetRecordModuleInfoLength, GetRecordModuleInfoLength method [Microsoft TV Technologies], GetRecordModuleInfoLength method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetRecordModuleInfoLength method, IIsdbDownloadContentDescriptor.GetRecordModuleInfoLength, IIsdbDownloadContentDescriptor::GetRecordModuleInfoLength, dvbsiparser/IIsdbDownloadContentDescriptor::GetRecordModuleInfoLength, mstv.iisdbdownloadcontentdescriptor_getrecordmoduleinfolength
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbDownloadContentDescriptor.GetRecordModuleInfoLength
 dev_langs:

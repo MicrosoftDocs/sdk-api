@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 0335b263-8d32-4690-a606-ba2b3e382680
 ms.date: 12/05/2018
 ms.keywords: IBasicAudio, IBasicAudio interface [DirectShow], IBasicAudio interface [DirectShow],described, IBasicAudioInterface, control/IBasicAudio, dshow.ibasicaudio
-ms.topic: interface
 f1_keywords:
 - control/IBasicAudio
 dev_langs:

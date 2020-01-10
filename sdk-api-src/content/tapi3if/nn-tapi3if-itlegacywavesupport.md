@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: f1ef5f5d-822d-466d-997e-e9c1a09abcbe
 ms.date: 12/05/2018
 ms.keywords: ITLegacyWaveSupport, ITLegacyWaveSupport interface [TAPI 2.2], ITLegacyWaveSupport interface [TAPI 2.2],described, _tapi3_itlegacywavesupport, tapi3.itlegacywavesupport, tapi3if/ITLegacyWaveSupport
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITLegacyWaveSupport
 dev_langs:

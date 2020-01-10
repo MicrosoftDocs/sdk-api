@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: a0737139-a820-455d-85f4-c56b63a1a8e0
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllEncodeKeyValue, CryptXmlDllEncodeKeyValue callback, CryptXmlDllEncodeKeyValue callback function [Security], cryptxml/CryptXmlDllEncodeKeyValue, security.cryptxmldllencodekeyvalue
-ms.topic: callback
 f1_keywords:
 - cryptxml/CryptXmlDllEncodeKeyValue
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: F0A07900-8F10-475B-B13F-E0F49B50C2EB
 ms.date: 12/05/2018
 ms.keywords: GetMaximumFrameLatency, GetMaximumFrameLatency method [DXGI], GetMaximumFrameLatency method [DXGI],IDXGISwapChain2 interface, IDXGISwapChain2 interface [DXGI],GetMaximumFrameLatency method, IDXGISwapChain2.GetMaximumFrameLatency, IDXGISwapChain2::GetMaximumFrameLatency, direct3ddxgi.idxgiswapchain2_getmaximumframelatency, dxgi1_3/IDXGISwapChain2::GetMaximumFrameLatency
-ms.topic: method
 f1_keywords:
 - dxgi1_3/IDXGISwapChain2.GetMaximumFrameLatency
 dev_langs:

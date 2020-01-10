@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: cfc9ba42-25a2-49a3-8047-7aaf331332ad
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_LastWrittenAddressOfPreviousSession method, IDiscFormat2Data.get_LastWrittenAddressOfPreviousSession, IDiscFormat2Data::get_LastWrittenAddressOfPreviousSession, get_LastWrittenAddressOfPreviousSession, get_LastWrittenAddressOfPreviousSession method [IMAPI], get_LastWrittenAddressOfPreviousSession method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_lastwrittenaddressofprevioussession, imapi2/IDiscFormat2Data::get_LastWrittenAddressOfPreviousSession
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2Data.get_LastWrittenAddressOfPreviousSession
 dev_langs:

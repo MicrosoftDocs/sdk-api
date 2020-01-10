@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 3d6c6183-d5ab-4939-8f44-dfc42458706f
 ms.date: 12/05/2018
 ms.keywords: TSPI_providerRemove, TSPI_providerRemove function [TAPI 2.2], _tspi_tspi_providerremove, tspi.tspi_providerremove, tspi/TSPI_providerRemove
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_providerRemove
 dev_langs:

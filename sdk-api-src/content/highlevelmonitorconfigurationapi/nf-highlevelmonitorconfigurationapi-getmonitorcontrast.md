@@ -7,7 +7,6 @@ tech.root: Monitor
 ms.assetid: 996d894d-3939-418f-b7d2-c0e9d667391e
 ms.date: 12/05/2018
 ms.keywords: GetMonitorContrast, GetMonitorContrast function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorContrast, monitor.getmonitorcontrast
-ms.topic: function
 f1_keywords:
 - highlevelmonitorconfigurationapi/GetMonitorContrast
 dev_langs:

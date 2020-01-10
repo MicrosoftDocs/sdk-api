@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 8e63be06-d311-4968-b436-262d9c3e9f10
 ms.date: 12/05/2018
 ms.keywords: _win32_capControlCallback, capControlCallback, capControlCallback callback, capControlCallback callback function [Windows Multimedia], multimedia.capcontrolcallback, vfw/capControlCallback
-ms.topic: callback
 f1_keywords:
 - vfw/capControlCallback
 dev_langs:

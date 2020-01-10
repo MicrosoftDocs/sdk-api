@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: a23ac1cd-d2af-4562-a623-64ca1deb1830
 ms.date: 12/05/2018
 ms.keywords: Deserialize, Deserialize method, Deserialize method,IWSDAddress interface, IWSDAddress interface,Deserialize method, IWSDAddress.Deserialize, IWSDAddress::Deserialize, ncd.iwsdaddress_deserialize, wsdbase/IWSDAddress::Deserialize
-ms.topic: method
 f1_keywords:
 - wsdbase/IWSDAddress.Deserialize
 dev_langs:

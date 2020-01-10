@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: cfabc06c-825d-488d-919e-4cd9109eae52
 ms.date: 12/05/2018
 ms.keywords: GetFolderByName, GetFolderByName method [Windows Shell], GetFolderByName method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],GetFolderByName method, IKnownFolderManager.GetFolderByName, IKnownFolderManager::GetFolderByName, _shell_IKnownFolderManager_GetFolderByName, shell.IKnownFolderManager_GetFolderByName, shobjidl_core/IKnownFolderManager::GetFolderByName
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IKnownFolderManager.GetFolderByName
 dev_langs:

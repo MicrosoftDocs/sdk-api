@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 465D75BF-67A0-410C-950E-DB42995379B0
 ms.date: 12/05/2018
 ms.keywords: GetDpi, GetDpi method [Direct2D], GetDpi method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],GetDpi method, ID2D1EffectContext.GetDpi, ID2D1EffectContext::GetDpi, d2d1effectauthor/ID2D1EffectContext::GetDpi, direct2d.id2d1contextinternal_getdpi
-ms.topic: method
 f1_keywords:
 - d2d1effectauthor/ID2D1EffectContext.GetDpi
 dev_langs:

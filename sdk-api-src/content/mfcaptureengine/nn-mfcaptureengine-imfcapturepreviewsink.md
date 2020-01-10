@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 5E64C24D-D6EC-419B-9DC8-309EBCE0077E
 ms.date: 12/05/2018
 ms.keywords: IMFCapturePreviewSink, IMFCapturePreviewSink interface [Media Foundation], IMFCapturePreviewSink interface [Media Foundation],described, mf.imfcapturepreviewsink, mfcaptureengine/IMFCapturePreviewSink
-ms.topic: interface
 f1_keywords:
 - mfcaptureengine/IMFCapturePreviewSink
 dev_langs:

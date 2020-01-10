@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 793eba59-6d21-4c7b-8fdb-bb7658fc410e
 ms.date: 12/05/2018
 ms.keywords: ITransferSource interface [Windows Shell],RenameItem method, ITransferSource.RenameItem, ITransferSource::RenameItem, RenameItem, RenameItem method [Windows Shell], RenameItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_RenameItem, shell.ITransferSource_RenameItem, shobjidl_core/ITransferSource::RenameItem
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ITransferSource.RenameItem
 dev_langs:

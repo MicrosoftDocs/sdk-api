@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: bb9796c5-0dd2-496a-b5b4-a6614d7770c1
 ms.date: 12/05/2018
 ms.keywords: IBasicAudio interface [DirectShow],get_Balance method, IBasicAudio.get_Balance, IBasicAudio::get_Balance, IBasicAudioget_Balance, control/IBasicAudio::get_Balance, dshow.ibasicaudio_get_balance, get_Balance, get_Balance method [DirectShow], get_Balance method [DirectShow],IBasicAudio interface
-ms.topic: method
 f1_keywords:
 - control/IBasicAudio.get_Balance
 dev_langs:

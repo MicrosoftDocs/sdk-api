@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 3c9eac16-9ba5-43f6-b52e-4340598745d8
 ms.date: 12/05/2018
 ms.keywords: INetFwAuthorizedApplications interface [ICS/ICF],Item method, INetFwAuthorizedApplications.Item, INetFwAuthorizedApplications::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwAuthorizedApplications interface, ics.inetfwauthorizedapplications_item, netfw/INetFwAuthorizedApplications::Item
-ms.topic: method
 f1_keywords:
 - netfw/INetFwAuthorizedApplications.Item
 dev_langs:

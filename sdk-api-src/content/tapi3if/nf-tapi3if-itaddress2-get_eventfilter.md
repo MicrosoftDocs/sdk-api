@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: cb0fbfc1-56bf-4455-8d6a-71c78b6a6534
 ms.date: 12/05/2018
 ms.keywords: ITAddress2 interface [TAPI 2.2],get_EventFilter method, ITAddress2.get_EventFilter, ITAddress2::get_EventFilter, _tapi3_itaddress2_get_eventfilter, get_EventFilter, get_EventFilter method [TAPI 2.2], get_EventFilter method [TAPI 2.2],ITAddress2 interface, tapi3.itaddress2_get_eventfilter, tapi3if/ITAddress2::get_EventFilter
-ms.topic: method
 f1_keywords:
 - tapi3if/ITAddress2.get_EventFilter
 dev_langs:

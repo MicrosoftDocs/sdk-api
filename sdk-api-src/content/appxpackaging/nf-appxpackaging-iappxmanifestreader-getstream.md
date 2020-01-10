@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 00467E92-5282-4119-A036-00CE769839B9
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [App packaging and management], GetStream method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetStream method, IAppxManifestReader.GetStream, IAppxManifestReader::GetStream, appxpackaging/IAppxManifestReader::GetStream, appxpkg.iappxmanifestreader_getstream
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxManifestReader.GetStream
 dev_langs:

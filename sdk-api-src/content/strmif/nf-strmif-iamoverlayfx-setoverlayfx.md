@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 08e44f4e-924a-4a4d-9fc5-c13b3c21c038
 ms.date: 12/05/2018
 ms.keywords: IAMOverlayFX interface [DirectShow],SetOverlayFX method, IAMOverlayFX.SetOverlayFX, IAMOverlayFX::SetOverlayFX, IAMOverlayFXSetOverlayFX, SetOverlayFX, SetOverlayFX method [DirectShow], SetOverlayFX method [DirectShow],IAMOverlayFX interface, dshow.iamoverlayfx_setoverlayfx, strmif/IAMOverlayFX::SetOverlayFX
-ms.topic: method
 f1_keywords:
 - strmif/IAMOverlayFX.SetOverlayFX
 dev_langs:

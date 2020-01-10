@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: d8b86549-3687-42e8-a82f-0f2dbd70cf66
 ms.date: 12/05/2018
 ms.keywords: CM_Query_Resource_Conflict_List, CM_Query_Resource_Conflict_List function [Device and Driver Installation], cfgmgr32/CM_Query_Resource_Conflict_List, cfgmgrfn_1d52e544-49ce-4c1a-acc1-b59b7aaec790.xml, devinst.cm_query_resource_conflict_list
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Query_Resource_Conflict_List
 dev_langs:

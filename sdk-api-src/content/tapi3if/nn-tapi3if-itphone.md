@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 94dff33c-67a1-4df8-9ef5-2b6524438f6f
 ms.date: 12/05/2018
 ms.keywords: ITPhone, ITPhone interface [TAPI 2.2], ITPhone interface [TAPI 2.2],described, _tapi3_itphone, tapi3.itphone, tapi3if/ITPhone
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITPhone
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: abad30e8-a483-4c29-ae87-4218882e8319
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],CreateRole method, CreateRole, CreateRole method [Security], CreateRole method [Security],AzApplication object, CreateRole method [Security],IAzApplication interface, IAzApplication interface [Security],CreateRole method, IAzApplication.CreateRole, IAzApplication::CreateRole, azroles/IAzApplication::CreateRole, security.iazapplication_createrole
-ms.topic: method
 f1_keywords:
 - azroles/IAzApplication.CreateRole
 dev_langs:

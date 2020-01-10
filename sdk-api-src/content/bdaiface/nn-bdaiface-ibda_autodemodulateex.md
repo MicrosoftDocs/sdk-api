@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: ecc642e4-7c36-400c-8a63-639f75b2bbc2
 ms.date: 12/05/2018
 ms.keywords: IBDA_AutoDemodulateEx, IBDA_AutoDemodulateEx interface [Microsoft TV Technologies], IBDA_AutoDemodulateEx interface [Microsoft TV Technologies],described, IBDA_AutoDemodulateExInterface, bdaiface/IBDA_AutoDemodulateEx, mstv.ibda_autodemodulateex
-ms.topic: interface
 f1_keywords:
 - bdaiface/IBDA_AutoDemodulateEx
 dev_langs:

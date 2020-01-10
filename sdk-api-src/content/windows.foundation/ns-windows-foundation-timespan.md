@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: fbc6ecc2-6372-4b15-9532-3cd68a72e7b4
 ms.date: 12/05/2018
 ms.keywords: TimeSpan, TimeSpan structure [Windows Runtime], windows/TimeSpan, winrt.timespan
-ms.topic: struct
 f1_keywords:
 - windows.foundation/TimeSpan
 dev_langs:

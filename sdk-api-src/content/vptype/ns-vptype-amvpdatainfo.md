@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b71fc468-b0ba-4c75-b1db-b7802e598e96
 ms.date: 12/05/2018
 ms.keywords: '*LPAMVPDATAINFO, AMVPDATAINFO, AMVPDATAINFO structure [DirectShow], AMVPDATAINFOStructure, LPAMVPDATAINFO, LPAMVPDATAINFO structure pointer [DirectShow], dshow.amvpdatainfo, vptype/AMVPDATAINFO, vptype/LPAMVPDATAINFO'
-ms.topic: struct
 f1_keywords:
 - vptype/AMVPDATAINFO
 dev_langs:

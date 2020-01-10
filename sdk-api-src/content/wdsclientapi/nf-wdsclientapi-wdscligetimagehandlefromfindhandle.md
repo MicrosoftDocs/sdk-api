@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 28cb93de-67f2-4e94-b0b7-0707c276662a
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetImageHandleFromFindHandle, WdsCliGetImageHandleFromFindHandle function [Windows Deployment Services], wds.wdscligetimagehandlefromfindhandle, wdsclientapi/WdsCliGetImageHandleFromFindHandle
-ms.topic: function
 f1_keywords:
 - wdsclientapi/WdsCliGetImageHandleFromFindHandle
 dev_langs:

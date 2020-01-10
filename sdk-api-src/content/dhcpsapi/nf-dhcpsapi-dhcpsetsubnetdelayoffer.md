@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: f58ba3da-a6c2-48a5-b744-edd9581610f1
 ms.date: 12/05/2018
 ms.keywords: DhcpSetSubnetDelayOffer, DhcpSetSubnetDelayOffer function [DHCP], dhcp.dhcpsetsubnetdelayoffer, dhcpsapi/DhcpSetSubnetDelayOffer
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpSetSubnetDelayOffer
 dev_langs:

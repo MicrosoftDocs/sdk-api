@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: af774fc5-d013-4da2-a737-9e99c09456a0
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineproxyresponse, lineProxyResponse, lineProxyResponse function [TAPI 2.2], tapi/lineProxyResponse, tapi2.lineproxyresponse
-ms.topic: function
 f1_keywords:
 - tapi/lineProxyResponse
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: e06768b2-760c-48f1-a6a4-896c3ea286f6
 ms.date: 12/05/2018
 ms.keywords: NPCancelConnection, NPCancelConnection function [Security], _mnp_npcancelconnection, npapi/NPCancelConnection, security.npcancelconnection
-ms.topic: function
 f1_keywords:
 - npapi/NPCancelConnection
 dev_langs:

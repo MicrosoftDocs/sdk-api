@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: d0a72c87-598b-4ebe-bc93-65e0927a4c3d
 ms.date: 12/05/2018
 ms.keywords: ICallInterceptor, ICallInterceptor interface [COM], ICallInterceptor interface [COM],described, _com_icallinterceptor_interface, callobj/ICallInterceptor, com.icallinterceptor
-ms.topic: interface
 f1_keywords:
 - callobj/ICallInterceptor
 dev_langs:

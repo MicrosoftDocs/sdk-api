@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\getadjustedpalette.htm
 ms.date: 12/05/2018
 ms.keywords: GetAdjustedPalette, GetAdjustedPalette method [GDI+], GetAdjustedPalette method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],GetAdjustedPalette method, ImageAttributes.GetAdjustedPalette, ImageAttributes::GetAdjustedPalette, _gdiplus_CLASS_ImageAttributes_GetAdjustedPalette_colorPalette_colorAdjustType_, gdiplus._gdiplus_CLASS_ImageAttributes_GetAdjustedPalette_colorPalette_colorAdjustType_
-ms.topic: method
 f1_keywords:
 - gdiplusimageattributes/ImageAttributes.GetAdjustedPalette
 dev_langs:

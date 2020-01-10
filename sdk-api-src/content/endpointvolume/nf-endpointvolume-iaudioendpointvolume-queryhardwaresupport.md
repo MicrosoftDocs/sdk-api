@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 20d04cff-f101-417e-912f-c87af16184db
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],QueryHardwareSupport method, IAudioEndpointVolume.QueryHardwareSupport, IAudioEndpointVolume::QueryHardwareSupport, IAudioEndpointVolumeQueryHardwareSupport, QueryHardwareSupport, QueryHardwareSupport method [Core Audio], QueryHardwareSupport method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_queryhardwaresupport, endpointvolume/IAudioEndpointVolume::QueryHardwareSupport
-ms.topic: method
 f1_keywords:
 - endpointvolume/IAudioEndpointVolume.QueryHardwareSupport
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: c551e373-77a4-4bac-848d-5aaec1e89cf1
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [PLA], Add method [PLA],IDataCollectorSetCollection interface, IDataCollectorSetCollection interface [PLA],Add method, IDataCollectorSetCollection.Add, IDataCollectorSetCollection::Add, base.idatacollectorsetcollection_add, pla.idatacollectorsetcollection_add, pla/IDataCollectorSetCollection::Add
-ms.topic: method
 f1_keywords:
 - pla/IDataCollectorSetCollection.Add
 dev_langs:

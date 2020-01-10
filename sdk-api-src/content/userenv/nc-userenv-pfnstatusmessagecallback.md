@@ -7,7 +7,6 @@ tech.root: Policy
 ms.assetid: 9eec6204-49b5-49fd-8db4-5c1777eb7c85
 ms.date: 12/05/2018
 ms.keywords: PFNSTATUSMESSAGECALLBACK, PFNSTATUSMESSAGECALLBACK callback, PFNSTATUSMESSAGECALLBACK callback function [Group Policy], StatusMessageCallback, _win32_statusmessagecallback, policy.statusmessagecallback, userenv/PFNSTATUSMESSAGECALLBACK
-ms.topic: callback
 f1_keywords:
 - userenv/PFNSTATUSMESSAGECALLBACK
 dev_langs:

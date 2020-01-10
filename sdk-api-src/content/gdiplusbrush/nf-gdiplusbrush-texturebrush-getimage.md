@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\getimage.htm
 ms.date: 12/05/2018
 ms.keywords: GetImage, GetImage method [GDI+], GetImage method [GDI+],TextureBrush class, TextureBrush class [GDI+],GetImage method, TextureBrush.GetImage, TextureBrush::GetImage, _gdiplus_CLASS_TextureBrush_GetImage_, gdiplus._gdiplus_CLASS_TextureBrush_GetImage_
-ms.topic: method
 f1_keywords:
 - gdiplusbrush/TextureBrush.GetImage
 dev_langs:

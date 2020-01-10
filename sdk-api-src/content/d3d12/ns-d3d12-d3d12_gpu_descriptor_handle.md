@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 16D09788-D527-4D9F-A6EF-648F42A426B5
 ms.date: 12/05/2018
 ms.keywords: D3D12_GPU_DESCRIPTOR_HANDLE, D3D12_GPU_DESCRIPTOR_HANDLE structure, d3d12/D3D12_GPU_DESCRIPTOR_HANDLE, direct3d12.d3d12_gpu_descriptor_handle
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_GPU_DESCRIPTOR_HANDLE
 dev_langs:

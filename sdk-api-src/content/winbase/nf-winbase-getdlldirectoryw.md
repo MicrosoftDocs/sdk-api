@@ -7,7 +7,6 @@ tech.root: Dlls
 ms.assetid: f892546a-6c48-48f2-8d9a-46e448fffb89
 ms.date: 12/05/2018
 ms.keywords: GetDllDirectory, GetDllDirectory function, GetDllDirectoryA, GetDllDirectoryW, base.getdlldirectory, winbase/GetDllDirectory, winbase/GetDllDirectoryA, winbase/GetDllDirectoryW
-ms.topic: function
 f1_keywords:
 - winbase/GetDllDirectory
 dev_langs:

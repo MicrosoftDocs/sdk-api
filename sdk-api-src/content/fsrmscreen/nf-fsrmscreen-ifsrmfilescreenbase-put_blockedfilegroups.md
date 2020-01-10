@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 1f75fa45-8de8-42ca-a0f5-5ffe8acea6b8
 ms.date: 12/05/2018
 ms.keywords: BlockedFileGroups property [File Server Resource Manager], BlockedFileGroups property [File Server Resource Manager],IFsrmFileScreenBase interface, IFsrmFileScreenBase interface [File Server Resource Manager],BlockedFileGroups property, IFsrmFileScreenBase.BlockedFileGroups, IFsrmFileScreenBase.put_BlockedFileGroups, IFsrmFileScreenBase::BlockedFileGroups, IFsrmFileScreenBase::get_BlockedFileGroups, IFsrmFileScreenBase::put_BlockedFileGroups, fs.ifsrmfilescreenbase_blockedfilegroups, fsrm.ifsrmfilescreenbase_blockedfilegroups, fsrmscreen/IFsrmFileScreenBase::BlockedFileGroups, fsrmscreen/IFsrmFileScreenBase::get_BlockedFileGroups, fsrmscreen/IFsrmFileScreenBase::put_BlockedFileGroups, put_BlockedFileGroups
-ms.topic: method
 f1_keywords:
 - fsrmscreen/IFsrmFileScreenBase.BlockedFileGroups
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 1fbc000a-76c2-4b80-856b-42f2e1829e93
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetDocumentFont method, ITextDocument2.SetDocumentFont, ITextDocument2::SetDocumentFont, SetDocumentFont, SetDocumentFont method [Windows Controls], SetDocumentFont method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setdocumentfont, tom/ITextDocument2::SetDocumentFont
-ms.topic: method
 f1_keywords:
 - tom/ITextDocument2.SetDocumentFont
 dev_langs:

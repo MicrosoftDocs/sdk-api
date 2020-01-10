@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 3d24d658-1016-4e63-8d93-5db0a3144121
 ms.date: 12/05/2018
 ms.keywords: GetAlgorithmName, GetAlgorithmName method [Security], GetAlgorithmName method [Security],IObjectId interface, IObjectId interface [Security],GetAlgorithmName method, IObjectId.GetAlgorithmName, IObjectId::GetAlgorithmName, certenroll/IObjectId::GetAlgorithmName, security.iobjectid_getalgorithmname
-ms.topic: method
 f1_keywords:
 - certenroll/IObjectId.GetAlgorithmName
 dev_langs:

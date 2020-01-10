@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: C819B72A-ACE7-4201-9C4A-9D72E9E95FF7
 ms.date: 12/05/2018
 ms.keywords: CreateLinearTransferEffect, CreateLinearTransferEffect method [DirectComposition], CreateLinearTransferEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateLinearTransferEffect method, IDCompositionDevice3.CreateLinearTransferEffect, IDCompositionDevice3::CreateLinearTransferEffect, dcomp/IDCompositionDevice3::CreateLinearTransferEffect, directcomp.idcompositiondevice3_createlineartransfereffect
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionDevice3.CreateLinearTransferEffect
 dev_langs:

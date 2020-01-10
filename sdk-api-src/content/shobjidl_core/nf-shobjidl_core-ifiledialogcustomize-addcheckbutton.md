@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 273ec875-43c1-454f-a4fc-01a513554e68
 ms.date: 12/05/2018
 ms.keywords: AddCheckButton, AddCheckButton method [Windows Shell], AddCheckButton method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddCheckButton method, IFileDialogCustomize.AddCheckButton, IFileDialogCustomize::AddCheckButton, shell.IFileDialogCustomize_AddCheckButton, shell_IFileDialogCustomize_AddCheckButton, shobjidl_core/IFileDialogCustomize::AddCheckButton
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileDialogCustomize.AddCheckButton
 dev_langs:

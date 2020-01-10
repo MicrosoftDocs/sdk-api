@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 7bda3916-6db3-4f56-b18c-288506c0b646
 ms.date: 12/05/2018
 ms.keywords: GetGdiCompatibleGlyphMetrics, GetGdiCompatibleGlyphMetrics method [Direct Write], GetGdiCompatibleGlyphMetrics method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetGdiCompatibleGlyphMetrics method, IDWriteFontFace.GetGdiCompatibleGlyphMetrics, IDWriteFontFace::GetGdiCompatibleGlyphMetrics, directwrite.idwritefontface_getgdicompatibleglyphmetrics, dwrite/IDWriteFontFace::GetGdiCompatibleGlyphMetrics
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteFontFace.GetGdiCompatibleGlyphMetrics
 dev_langs:

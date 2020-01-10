@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 3a74f763-a9f5-4e93-94fb-7ef2a116c82b
 ms.date: 12/05/2018
 ms.keywords: CreateGPOFromStarterGPO, CreateGPOFromStarterGPO method [GPMC], CreateGPOFromStarterGPO method [GPMC],IGPMDomain2 interface, IGPMDomain2 interface [GPMC],CreateGPOFromStarterGPO method, IGPMDomain2.CreateGPOFromStarterGPO, IGPMDomain2::CreateGPOFromStarterGPO, gpmc.igpmdomain2_creategpofromstartergpo, gpmgmt/IGPMDomain2::CreateGPOFromStarterGPO
-ms.topic: method
 f1_keywords:
 - gpmgmt/IGPMDomain2.CreateGPOFromStarterGPO
 dev_langs:

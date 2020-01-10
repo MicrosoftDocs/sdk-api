@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: ccebdbd8-fd3e-4e99-b1dd-1ec8e57cbff6
 ms.date: 12/05/2018
 ms.keywords: RtwqLockSharedWorkQueue, RtwqLockSharedWorkQueue function, base.rtwqlocksharedworkqueue, rtworkq/RtwqLockSharedWorkQueue
-ms.topic: function
 f1_keywords:
 - rtworkq/RtwqLockSharedWorkQueue
 dev_langs:

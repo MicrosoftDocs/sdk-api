@@ -7,7 +7,6 @@ tech.root: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputGetBatteryInformation(DWORD,BYTE,XINPUT_BATTERY_INFORMATION@)
 ms.date: 12/05/2018
 ms.keywords: XInputGetBatteryInformation, XInputGetBatteryInformation function [XInput Game Controller APIs], xinput.xinputgetbatteryinformation, xinput/XInputGetBatteryInformation
-ms.topic: function
 f1_keywords:
 - xinput/XInputGetBatteryInformation
 dev_langs:

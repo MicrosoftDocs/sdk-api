@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 773cbfef-1dc5-4d44-9997-591acbfb3783
 ms.date: 12/05/2018
 ms.keywords: DhcpServerQueryDnsRegCredentials, DhcpServerQueryDnsRegCredentials function [DHCP], dhcp.dhcpserverquerydnsregcredentials, dhcpsapi/DhcpServerQueryDnsRegCredentials
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpServerQueryDnsRegCredentials
 dev_langs:

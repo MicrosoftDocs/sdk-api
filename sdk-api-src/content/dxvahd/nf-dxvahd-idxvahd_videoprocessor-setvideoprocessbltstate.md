@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: adc08662-7977-402d-9eb1-505333550fc8
 ms.date: 12/05/2018
 ms.keywords: IDXVAHD_VideoProcessor interface [Media Foundation],SetVideoProcessBltState method, IDXVAHD_VideoProcessor.SetVideoProcessBltState, IDXVAHD_VideoProcessor::SetVideoProcessBltState, SetVideoProcessBltState, SetVideoProcessBltState method [Media Foundation], SetVideoProcessBltState method [Media Foundation],IDXVAHD_VideoProcessor interface, dxvahd/IDXVAHD_VideoProcessor::SetVideoProcessBltState, mf.idxvahd_videoprocessor_setvideoprocessbltstate
-ms.topic: method
 f1_keywords:
 - dxvahd/IDXVAHD_VideoProcessor.SetVideoProcessBltState
 dev_langs:

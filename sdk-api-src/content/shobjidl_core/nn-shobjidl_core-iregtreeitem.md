@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a9ae0fb3-4a6e-473e-9fa3-d3894834fb72
 ms.date: 12/05/2018
 ms.keywords: IRegTreeItem, IRegTreeItem interface [Windows Shell], IRegTreeItem interface [Windows Shell],described, _win32_IRegTreeItem, shell.IRegTreeItem, shobjidl_core/IRegTreeItem
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IRegTreeItem
 dev_langs:

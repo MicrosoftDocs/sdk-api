@@ -7,7 +7,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dbasetexture9__generatemipsublevels.htm
 ms.date: 12/05/2018
 ms.keywords: 7228ab65-d7b2-7a27-b076-d7bdec0f0e33, GenerateMipSubLevels, GenerateMipSubLevels method [Direct3D 9], GenerateMipSubLevels method [Direct3D 9],IDirect3DBaseTexture9 interface, IDirect3DBaseTexture9 interface [Direct3D 9],GenerateMipSubLevels method, IDirect3DBaseTexture9.GenerateMipSubLevels, IDirect3DBaseTexture9::GenerateMipSubLevels, d3d9helper/IDirect3DBaseTexture9::GenerateMipSubLevels, direct3d9.idirect3dbasetexture9__generatemipsublevels
-ms.topic: method
 f1_keywords:
 - d3d9helper/IDirect3DBaseTexture9.GenerateMipSubLevels
 dev_langs:

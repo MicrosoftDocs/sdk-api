@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: 70880905-E4DF-4064-A877-18AF5CE839FB
 ms.date: 12/05/2018
 ms.keywords: CreateICommand, CreateICommand method [search], CreateICommand method [search],ISimpleCommandCreator interface, ISimpleCommandCreator interface [search],CreateICommand method, ISimpleCommandCreator.CreateICommand, ISimpleCommandCreator::CreateICommand, indexsrv/ISimpleCommandCreator::CreateICommand, search.isimplecommandcreator_createicommand
-ms.topic: method
 f1_keywords:
 - indexsrv/ISimpleCommandCreator.CreateICommand
 dev_langs:

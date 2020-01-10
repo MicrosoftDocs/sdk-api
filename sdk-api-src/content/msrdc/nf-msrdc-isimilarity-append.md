@@ -7,7 +7,6 @@ tech.root: rdc
 ms.assetid: f8896d9e-ca6a-404f-b80f-ef739ec97b53
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [Remote Differential Compression], Append method [Remote Differential Compression],ISimilarity interface, ISimilarity interface [Remote Differential Compression],Append method, ISimilarity.Append, ISimilarity::Append, fs.isimilarity_append, msrdc/ISimilarity::Append, rdc.isimilarity_append
-ms.topic: method
 f1_keywords:
 - msrdc/ISimilarity.Append
 dev_langs:

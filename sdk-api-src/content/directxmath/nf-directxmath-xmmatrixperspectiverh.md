@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixPerspectiveRH(float,float,float,float)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixPerspectiveRH, XMMatrixPerspectiveRH, XMMatrixPerspectiveRH method [DirectX Math Support APIs], dxmath.xmmatrixperspectiverh
-ms.topic: function
 f1_keywords:
 - directxmath/XMMatrixPerspectiveRH
 dev_langs:

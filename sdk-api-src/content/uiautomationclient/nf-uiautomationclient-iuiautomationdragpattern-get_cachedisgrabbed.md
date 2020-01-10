@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: DA63B155-56FC-49EE-99EA-56288CC7F8E9
 ms.date: 12/05/2018
 ms.keywords: CachedIsGrabbed property [Windows Accessibility], CachedIsGrabbed property [Windows Accessibility],IUIAutomationDragPattern interface, IUIAutomationDragPattern interface [Windows Accessibility],CachedIsGrabbed property, IUIAutomationDragPattern.CachedIsGrabbed, IUIAutomationDragPattern.get_CachedIsGrabbed, IUIAutomationDragPattern::CachedIsGrabbed, IUIAutomationDragPattern::get_CachedIsGrabbed, get_CachedIsGrabbed, uiautomationclient/IUIAutomationDragPattern::CachedIsGrabbed, uiautomationclient/IUIAutomationDragPattern::get_CachedIsGrabbed, winauto.uiauto_iuiautomationdragpattern_cachedisgrabbed
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationDragPattern.CachedIsGrabbed
 dev_langs:

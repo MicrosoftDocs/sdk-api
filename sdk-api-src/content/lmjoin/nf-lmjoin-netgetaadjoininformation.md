@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: C63B3AA7-FC7E-4CB9-9318-BD25560591AB
 ms.date: 12/05/2018
 ms.keywords: NetGetAadJoinInformation, NetGetAadJoinInformation function [Network Management], lmjoin/NetGetAadJoinInformation, netmgmt.netgetaadjoininformation
-ms.topic: function
 f1_keywords:
 - lmjoin/NetGetAadJoinInformation
 dev_langs:

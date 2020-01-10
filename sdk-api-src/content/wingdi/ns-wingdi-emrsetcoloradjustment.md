@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: d9f99f71-d102-484f-beb4-0d2de1070345
 ms.date: 12/05/2018
 ms.keywords: '*PEMRSETCOLORADJUSTMENT, EMRSETCOLORADJUSTMENT, EMRSETCOLORADJUSTMENT structure [Windows GDI], PEMRSETCOLORADJUSTMENT, PEMRSETCOLORADJUSTMENT structure pointer [Windows GDI], _win32_EMRSETCOLORADJUSTMENT_str, gdi.emrsetcoloradjustment, wingdi/EMRSETCOLORADJUSTMENT, wingdi/PEMRSETCOLORADJUSTMENT'
-ms.topic: struct
 f1_keywords:
 - wingdi/EMRSETCOLORADJUSTMENT
 dev_langs:

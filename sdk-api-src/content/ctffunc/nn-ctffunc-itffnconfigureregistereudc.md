@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 40bbb994-fece-4c38-8480-2c50011aac64
 ms.date: 12/05/2018
 ms.keywords: ITfFnConfigureRegisterEudc, ITfFnConfigureRegisterEudc interface [Text Services Framework], ITfFnConfigureRegisterEudc interface [Text Services Framework],described, _tsf_itffnconfigureregistereudc_ref, ctffunc/ITfFnConfigureRegisterEudc, tsf.itffnconfigureregistereudc
-ms.topic: interface
 f1_keywords:
 - ctffunc/ITfFnConfigureRegisterEudc
 dev_langs:

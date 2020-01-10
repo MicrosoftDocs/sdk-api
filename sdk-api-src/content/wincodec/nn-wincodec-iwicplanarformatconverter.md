@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 07258A07-84AA-4DC2-B2E3-14A43AED5617
 ms.date: 12/05/2018
 ms.keywords: IWICPlanarFormatConverter, IWICPlanarFormatConverter interface [Windows Imaging Component], IWICPlanarFormatConverter interface [Windows Imaging Component],described, wic.iwicplanarformatconverter, wincodec/IWICPlanarFormatConverter
-ms.topic: interface
 f1_keywords:
 - wincodec/IWICPlanarFormatConverter
 dev_langs:

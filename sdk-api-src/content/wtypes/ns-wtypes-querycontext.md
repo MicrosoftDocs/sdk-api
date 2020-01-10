@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 5d6a17e1-dcdd-4691-aec2-f63dbcb26027
 ms.date: 12/05/2018
 ms.keywords: QUERYCONTEXT, QUERYCONTEXT structure [COM], _com_QUERYCONTEXT, com.querycontext, wtypes/tagQUERYCONTEXT
-ms.topic: struct
 f1_keywords:
 - wtypes/QUERYCONTEXT
 dev_langs:

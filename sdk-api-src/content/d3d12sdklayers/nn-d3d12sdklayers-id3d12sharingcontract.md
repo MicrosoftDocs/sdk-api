@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 10E61C88-0CDC-42E6-AB70-4911D254C40A
 ms.date: 12/05/2018
 ms.keywords: ID3D12SharingContract, ID3D12SharingContract interface, ID3D12SharingContract interface,described, d3d12sdklayers/ID3D12SharingContract, direct3d12.id3d12sharingcontract
-ms.topic: interface
 f1_keywords:
 - d3d12sdklayers/ID3D12SharingContract
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 11cd0d5e-6fe2-47eb-a410-0aa7ada30f87
 ms.date: 12/05/2018
 ms.keywords: '*PDDSETSTATEOUTINFO, DDSETSTATEOUTINFO, DDSETSTATEOUTINFO structure [Display Devices], PDDSETSTATEOUTINFO, PDDSETSTATEOUTINFO structure pointer [Display Devices], Video_Structs_2c99366e-e41f-460b-b8ff-d3173ecc010c.xml, display.ddsetstateoutinfo, dxmini/DDSETSTATEOUTINFO, dxmini/PDDSETSTATEOUTINFO'
-ms.topic: struct
 f1_keywords:
 - dxmini/DDSETSTATEOUTINFO
 dev_langs:

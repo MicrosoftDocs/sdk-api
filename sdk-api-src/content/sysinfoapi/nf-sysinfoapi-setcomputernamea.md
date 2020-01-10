@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: ff64fde2-d1b5-4211-b8c4-4823a5469e04
 ms.date: 12/05/2018
 ms.keywords: SetComputerName, SetComputerName function, SetComputerNameA, SetComputerNameW, _win32_setcomputername, base.setcomputername, sysinfoapi/SetComputerName, sysinfoapi/SetComputerNameA, sysinfoapi/SetComputerNameW
-ms.topic: function
 f1_keywords:
 - sysinfoapi/SetComputerName
 dev_langs:

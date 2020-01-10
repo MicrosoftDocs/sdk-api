@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 0f0ded09-7a7c-40bb-8198-b9f5058827d4
 ms.date: 12/05/2018
 ms.keywords: CreateBindCtx, CreateBindCtx function [COM], _com_CreateBindCtx, com.createbindctx, objbase/CreateBindCtx
-ms.topic: function
 f1_keywords:
 - objbase/CreateBindCtx
 dev_langs:

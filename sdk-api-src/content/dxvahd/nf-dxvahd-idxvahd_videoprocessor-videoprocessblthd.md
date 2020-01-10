@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 59c4deee-4ef2-4aba-8188-989904055e70
 ms.date: 12/05/2018
 ms.keywords: IDXVAHD_VideoProcessor interface [Media Foundation],VideoProcessBltHD method, IDXVAHD_VideoProcessor.VideoProcessBltHD, IDXVAHD_VideoProcessor::VideoProcessBltHD, VideoProcessBltHD, VideoProcessBltHD method [Media Foundation], VideoProcessBltHD method [Media Foundation],IDXVAHD_VideoProcessor interface, dxvahd/IDXVAHD_VideoProcessor::VideoProcessBltHD, mf.idxvahd_videoprocessor_videoprocessblthd
-ms.topic: method
 f1_keywords:
 - dxvahd/IDXVAHD_VideoProcessor.VideoProcessBltHD
 dev_langs:

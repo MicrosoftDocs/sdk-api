@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ce047464-d283-4ff4-a5eb-9e394d4ac3fd
 ms.date: 12/05/2018
 ms.keywords: GetHResult, GetHResult method [DirectShow], GetHResult method [DirectShow],IDeferredCommand interface, IDeferredCommand interface [DirectShow],GetHResult method, IDeferredCommand.GetHResult, IDeferredCommand::GetHResult, IDeferredCommandGetHResult, control/IDeferredCommand::GetHResult, dshow.ideferredcommand_gethresult
-ms.topic: method
 f1_keywords:
 - control/IDeferredCommand.GetHResult
 dev_langs:

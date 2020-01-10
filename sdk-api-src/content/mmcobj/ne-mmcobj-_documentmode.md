@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 62a215e1-a993-4994-a1b1-86a8c320758d
 ms.date: 12/05/2018
 ms.keywords: '*PDOCUMENTMODE, DOCUMENTMODE, DocumentMode, DocumentMode enumeration [MMC], DocumentMode_Author, DocumentMode_User, DocumentMode_User_MDI, DocumentMode_User_SDI, PDOCUMENTMODE, PDOCUMENTMODE enumeration pointer [MMC], PPDOCUMENTMODE, PPDOCUMENTMODE enumeration pointer [MMC], _DocumentMode, _DocumentMode enumeration [MMC], _slate_documentmode, mmc.documentmode, mmcobj/DocumentMode, mmcobj/DocumentMode_Author, mmcobj/DocumentMode_User, mmcobj/DocumentMode_User_MDI, mmcobj/DocumentMode_User_SDI, mmcobj/PDOCUMENTMODE, mmcobj/PPDOCUMENTMODE'
-ms.topic: enum
 f1_keywords:
 - mmcobj/_DocumentMode
 dev_langs:

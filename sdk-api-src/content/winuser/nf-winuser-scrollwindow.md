@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\scrollwindow.htm
 ms.date: 12/05/2018
 ms.keywords: ScrollWindow, ScrollWindow function [Windows Controls], _win32_ScrollWindow, _win32_ScrollWindow_cpp, controls.ScrollWindow, controls._win32_ScrollWindow, winuser/ScrollWindow
-ms.topic: function
 f1_keywords:
 - winuser/ScrollWindow
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 8c965b48-d178-4b41-add7-0b7d208380a3
 ms.date: 12/05/2018
 ms.keywords: IWMPError interface [Windows Media Player],clearErrorQueue method, IWMPError.clearErrorQueue, IWMPError::clearErrorQueue, IWMPErrorclearErrorQueue, clearErrorQueue, clearErrorQueue method [Windows Media Player], clearErrorQueue method [Windows Media Player],IWMPError interface, wmp.iwmperror_clearerrorqueue, wmp/IWMPError::clearErrorQueue
-ms.topic: method
 f1_keywords:
 - wmp/IWMPError.clearErrorQueue
 dev_langs:

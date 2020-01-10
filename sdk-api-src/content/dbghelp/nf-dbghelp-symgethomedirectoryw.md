@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 490de8cd-2738-4770-b708-fa2d61b83587
 ms.date: 12/05/2018
 ms.keywords: SymGetHomeDirectory, SymGetHomeDirectory function, SymGetHomeDirectoryW, base.symgethomedirectory, dbghelp/SymGetHomeDirectory, dbghelp/SymGetHomeDirectoryW, hdBase, hdSrc, hdSym
-ms.topic: function
 f1_keywords:
 - dbghelp/SymGetHomeDirectory
 dev_langs:

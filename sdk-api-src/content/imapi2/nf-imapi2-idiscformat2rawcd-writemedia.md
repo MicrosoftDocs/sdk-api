@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 137395f1-b0cf-4bd0-9d3b-a21122eb8b57
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],WriteMedia method, IDiscFormat2RawCD.WriteMedia, IDiscFormat2RawCD::WriteMedia, WriteMedia, WriteMedia method [IMAPI], WriteMedia method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_writemedia, imapi2/IDiscFormat2RawCD::WriteMedia
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2RawCD.WriteMedia
 dev_langs:

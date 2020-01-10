@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: dd1435da-93e5-440a-913a-9e40e39b4a01
 ms.date: 12/05/2018
 ms.keywords: GetFileAttributesTransacted, GetFileAttributesTransacted function [Files], GetFileAttributesTransactedA, GetFileAttributesTransactedW, GetFileExInfoStandard, fs.getfileattributestransacted, winbase/GetFileAttributesTransacted, winbase/GetFileAttributesTransactedA, winbase/GetFileAttributesTransactedW
-ms.topic: function
 f1_keywords:
 - winbase/GetFileAttributesTransacted
 dev_langs:

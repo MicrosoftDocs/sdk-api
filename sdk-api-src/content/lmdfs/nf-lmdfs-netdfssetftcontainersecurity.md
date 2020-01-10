@@ -7,7 +7,6 @@ tech.root: Dfs
 ms.assetid: 84300e38-b263-4c38-bc31-5221621b89f1
 ms.date: 12/05/2018
 ms.keywords: NetDfsSetFtContainerSecurity, NetDfsSetFtContainerSecurity function [Distributed File System], dfs.netdfssetftcontainersecurity, fs.netdfssetftcontainersecurity, lmdfs/NetDfsSetFtContainerSecurity, netmgmt.netdfssetftcontainersecurity
-ms.topic: function
 f1_keywords:
 - lmdfs/NetDfsSetFtContainerSecurity
 dev_langs:

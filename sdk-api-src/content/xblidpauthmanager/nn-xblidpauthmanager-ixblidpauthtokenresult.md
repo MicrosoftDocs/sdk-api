@@ -7,7 +7,6 @@ tech.root: xblidp
 ms.assetid: F3E2F3FD-0258-4AB9-B86E-5B12AD8ECA52
 ms.date: 12/05/2018
 ms.keywords: IXblIdpAuthTokenResult, IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,described, xblidp.ixblidpauthtokenresult, xblidpauthmanager/IXblIdpAuthTokenResult
-ms.topic: interface
 f1_keywords:
 - xblidpauthmanager/IXblIdpAuthTokenResult
 dev_langs:

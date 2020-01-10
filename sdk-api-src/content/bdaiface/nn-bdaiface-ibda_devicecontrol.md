@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 41e167b0-100e-41d2-8759-0411a10931ae
 ms.date: 12/05/2018
 ms.keywords: IBDA_DeviceControl, IBDA_DeviceControl interface [Microsoft TV Technologies], IBDA_DeviceControl interface [Microsoft TV Technologies],described, IBDA_DeviceControlInterface, bdaiface/IBDA_DeviceControl, mstv.ibda_devicecontrol
-ms.topic: interface
 f1_keywords:
 - bdaiface/IBDA_DeviceControl
 dev_langs:

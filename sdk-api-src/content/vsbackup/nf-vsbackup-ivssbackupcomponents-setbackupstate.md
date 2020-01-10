@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 18a1295d-b763-477b-bda2-baf8a878bf46
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetBackupState method, IVssBackupComponents.SetBackupState, IVssBackupComponents::SetBackupState, SetBackupState, SetBackupState method [VSS], SetBackupState method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setbackupstate, base.ivssbackupcomponents_setbackupstate, vsbackup/IVssBackupComponents::SetBackupState
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponents.SetBackupState
 dev_langs:

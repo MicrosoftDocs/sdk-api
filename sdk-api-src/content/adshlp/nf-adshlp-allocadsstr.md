@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 1e2b6d42-a879-4a53-a2ce-0e841f6b8543
 ms.date: 12/05/2018
 ms.keywords: AllocADsStr, AllocADsStr function [ADSI], _ds_allocadsstr, adshlp/AllocADsStr, adsi.allocadsstr
-ms.topic: function
 f1_keywords:
 - adshlp/AllocADsStr
 dev_langs:

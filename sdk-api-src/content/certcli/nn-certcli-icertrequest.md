@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 2f371aa6-492e-41ba-8455-66e9d5f5da44
 ms.date: 12/05/2018
 ms.keywords: ICertRequest, ICertRequest interface [Security], ICertRequest interface [Security],described, _certsrv_icertrequest, certcli/ICertRequest, security.icertrequest
-ms.topic: interface
 f1_keywords:
 - certcli/ICertRequest
 dev_langs:

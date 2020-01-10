@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: f01e4a42-3378-4ceb-b23b-5deb78fb18ca
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE, PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE, PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE enumeration pointer [NativeWIFI], WLAN_HOSTED_NETWORK_NOTIFICATION_CODE, WLAN_HOSTED_NETWORK_NOTIFICATION_CODE enumeration [NativeWIFI], nwifi.wlan_hosted_network_notification_code, wlan_hosted_network_peer_state_change, wlan_hosted_network_radio_state_change, wlan_hosted_network_state_change, wlanapi/PWLAN_HOSTED_NETWORK_NOTIFICATION_CODE, wlanapi/WLAN_HOSTED_NETWORK_NOTIFICATION_CODE, wlanapi/wlan_hosted_network_peer_state_change, wlanapi/wlan_hosted_network_radio_state_change, wlanapi/wlan_hosted_network_state_change'
-ms.topic: enum
 f1_keywords:
 - wlanapi/WLAN_HOSTED_NETWORK_NOTIFICATION_CODE
 dev_langs:

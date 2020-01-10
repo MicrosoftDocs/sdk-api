@@ -7,7 +7,6 @@ tech.root: MachineLearning
 ms.assetid: ABB51498-44CE-4B98-89FB-ED8B9B8159ED
 ms.date: 12/05/2018
 ms.keywords: EnumerateMetadata, EnumerateMetadata method, EnumerateMetadata method,IWinMLModel interface, IWinMLModel interface,EnumerateMetadata method, IWinMLModel.EnumerateMetadata, IWinMLModel::EnumerateMetadata, MachineLearning.iwinmlmodel_enumeratemetadata, winml/IWinMLModel::EnumerateMetadata
-ms.topic: method
 f1_keywords:
 - winml/IWinMLModel.EnumerateMetadata
 dev_langs:

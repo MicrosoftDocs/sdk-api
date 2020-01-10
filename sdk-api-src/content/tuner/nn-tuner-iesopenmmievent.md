@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: f54532e2-d1d1-4c6b-ae3d-9f50e0e61366
 ms.date: 12/05/2018
 ms.keywords: IESOpenMmiEvent, IESOpenMmiEvent interface [Microsoft TV Technologies], IESOpenMmiEvent interface [Microsoft TV Technologies],described, mstv.iesopenmmievent, tuner/IESOpenMmiEvent
-ms.topic: interface
 f1_keywords:
 - tuner/IESOpenMmiEvent
 dev_langs:

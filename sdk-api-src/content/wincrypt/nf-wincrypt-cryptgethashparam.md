@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: ed008c07-1a40-4075-bdaa-eb7f7e12d9c3
 ms.date: 12/05/2018
 ms.keywords: CryptGetHashParam, CryptGetHashParam function [Security], HP_ALGID, HP_HASHSIZE, HP_HASHVAL, _crypto2_cryptgethashparam, security.cryptgethashparam, wincrypt/CryptGetHashParam
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptGetHashParam
 dev_langs:

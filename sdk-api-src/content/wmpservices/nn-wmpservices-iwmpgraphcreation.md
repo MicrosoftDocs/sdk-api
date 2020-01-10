@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 80d6f1f0-10c9-4e60-9bb7-556e340730a8
 ms.date: 12/05/2018
 ms.keywords: IWMPGraphCreation, IWMPGraphCreation interface [Windows Media Player], IWMPGraphCreation interface [Windows Media Player],described, IWMPGraphCreationInterface, wmp.iwmpgraphcreation, wmpservices/IWMPGraphCreation
-ms.topic: interface
 f1_keywords:
 - wmpservices/IWMPGraphCreation
 dev_langs:

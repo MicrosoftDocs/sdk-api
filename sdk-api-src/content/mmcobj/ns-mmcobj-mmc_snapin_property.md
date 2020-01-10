@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 0815d6a0-ddc2-43d1-aafd-5a05352557fc
 ms.date: 12/05/2018
 ms.keywords: MMC_SNAPIN_PROPERTY, MMC_SNAPIN_PROPERTY structure [MMC], _slate_mmc_snapin_property, mmc.mmc_snapin_property, mmcobj/MMC_SNAPIN_PROPERTY
-ms.topic: struct
 f1_keywords:
 - mmcobj/MMC_SNAPIN_PROPERTY
 dev_langs:

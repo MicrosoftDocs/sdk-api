@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 3d9ca91f-c672-4ecb-a6db-67d7e1ddbe7e
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayerServices, IWMPPlayerServices interface [Windows Media Player], IWMPPlayerServices interface [Windows Media Player],described, IWMPPlayerServicesInterface, wmp.iwmpplayerservices, wmp/IWMPPlayerServices
-ms.topic: interface
 f1_keywords:
 - wmp/IWMPPlayerServices
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: cacacff3-25b7-4ed4-885b-b4b0b326628f
 ms.date: 12/05/2018
 ms.keywords: CryptFreeOIDFunctionAddress, CryptFreeOIDFunctionAddress function [Security], _crypto2_cryptfreeoidfunctionaddress, security.cryptfreeoidfunctionaddress, wincrypt/CryptFreeOIDFunctionAddress
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptFreeOIDFunctionAddress
 dev_langs:

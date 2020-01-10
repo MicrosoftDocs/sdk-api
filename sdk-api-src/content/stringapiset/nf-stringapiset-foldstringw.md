@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 986b9a72-04c0-49e2-8424-8948dc64de0c
 ms.date: 12/05/2018
 ms.keywords: FoldString, FoldString function [Internationalization for Windows Applications], FoldStringA, FoldStringW, MAP_COMPOSITE, MAP_EXPAND_LIGATURES, MAP_FOLDCZONE, MAP_FOLDDIGITS, MAP_PRECOMPOSED, _win32_FoldString, _win32_FoldString_cpp, intl.foldstring, stringapiset/FoldString, stringapiset/FoldStringA, stringapiset/FoldStringW, winnls/FoldString, winnls/FoldStringA, winnls/FoldStringW, winui._win32_FoldString
-ms.topic: function
 f1_keywords:
 - stringapiset/FoldString
 dev_langs:

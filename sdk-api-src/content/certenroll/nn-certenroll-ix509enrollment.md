@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 37f1dd3b-bbe9-40ab-87c9-2405d97f5541
 ms.date: 12/05/2018
 ms.keywords: IX509Enrollment, IX509Enrollment interface [Security], IX509Enrollment interface [Security],described, certenroll/IX509Enrollment, security.ix509enrollment
-ms.topic: interface
 f1_keywords:
 - certenroll/IX509Enrollment
 dev_langs:

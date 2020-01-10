@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 9cd9927c-355c-4d9f-b679-278e4b6897e1
 ms.date: 12/05/2018
 ms.keywords: IComLTxEvents interface [COM+],OnLtxTransactionPromote method, IComLTxEvents.OnLtxTransactionPromote, IComLTxEvents::OnLtxTransactionPromote, OnLtxTransactionPromote, OnLtxTransactionPromote method [COM+], OnLtxTransactionPromote method [COM+],IComLTxEvents interface, comsvcs/IComLTxEvents::OnLtxTransactionPromote, cos.icomltxevents_onltxtransactionpromote
-ms.topic: method
 f1_keywords:
 - comsvcs/IComLTxEvents.OnLtxTransactionPromote
 dev_langs:

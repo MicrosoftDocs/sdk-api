@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 529beae6-ba39-417c-8fa6-7b97fc720352
 ms.date: 12/05/2018
 ms.keywords: CreateStaticService, CreateStaticService callback function [RAS], PCREATE_STATIC_SERVICE, PCREATE_STATIC_SERVICE callback, _mpr_createstaticservice, rras.createstaticservice, stm/CreateStaticService
-ms.topic: callback
 f1_keywords:
 - stm/CreateStaticService
 dev_langs:

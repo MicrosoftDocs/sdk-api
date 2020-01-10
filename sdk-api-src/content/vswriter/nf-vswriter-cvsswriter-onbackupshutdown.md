@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 4b6d5efe-703b-4245-81d8-e2fc7f650d4b
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnBackupShutdown method, CVssWriter.OnBackupShutdown, CVssWriter::OnBackupShutdown, OnBackupShutdown, OnBackupShutdown method [VSS], OnBackupShutdown method [VSS],CVssWriter interface, _win32_cvsswriter_onbackupshutdown, base.cvsswriter_onbackupshutdown, vswriter/CVssWriter::OnBackupShutdown
-ms.topic: method
 f1_keywords:
 - vswriter/CVssWriter.OnBackupShutdown
 dev_langs:

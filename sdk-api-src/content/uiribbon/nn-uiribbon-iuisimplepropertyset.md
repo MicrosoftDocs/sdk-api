@@ -7,7 +7,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuisimplepropertyset\iuisimplepropertyset.htm
 ms.date: 12/05/2018
 ms.keywords: IUISimplePropertySet, IUISimplePropertySet interface [Windows Ribbon], IUISimplePropertySet interface [Windows Ribbon],described, scenicintent_IUISimplePropertySet, uiribbon/IUISimplePropertySet, windowsribbon.windowsribbon_iuisimplepropertyset
-ms.topic: interface
 f1_keywords:
 - uiribbon/IUISimplePropertySet
 dev_langs:

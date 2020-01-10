@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 87ef9425-5dab-442b-a487-3a4789005411
 ms.date: 12/05/2018
 ms.keywords: SetupCancelTemporarySourceList, SetupCancelTemporarySourceList function [Setup API], _setupapi_setupcanceltemporarysourcelist, setup.setupcanceltemporarysourcelist, setupapi/SetupCancelTemporarySourceList
-ms.topic: function
 f1_keywords:
 - setupapi/SetupCancelTemporarySourceList
 dev_langs:

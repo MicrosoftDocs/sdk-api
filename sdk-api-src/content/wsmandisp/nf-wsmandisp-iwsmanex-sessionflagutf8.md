@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 99c96057-fbd7-4d8c-a204-1660f84d640f
 ms.date: 12/05/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUTF8 method, IWSManEx.SessionFlagUTF8, IWSManEx::SessionFlagUTF8, SessionFlagUTF8, SessionFlagUTF8 method [Windows Remote Management], SessionFlagUTF8 method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagutf8, wsmandisp/IWSManEx::SessionFlagUTF8
-ms.topic: method
 f1_keywords:
 - wsmandisp/IWSManEx.SessionFlagUTF8
 dev_langs:

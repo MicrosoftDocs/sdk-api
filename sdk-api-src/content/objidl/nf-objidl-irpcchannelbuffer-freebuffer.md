@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: bcdd4783-4a75-42d0-86a9-ab2605abbbe1
 ms.date: 12/05/2018
 ms.keywords: FreeBuffer, FreeBuffer method [COM], FreeBuffer method [COM],IRpcChannelBuffer interface, IRpcChannelBuffer interface [COM],FreeBuffer method, IRpcChannelBuffer.FreeBuffer, IRpcChannelBuffer::FreeBuffer, _com_irpcchannelbuffer_freebuffer, com.irpcchannelbuffer_freebuffer, objidlbase/IRpcChannelBuffer::FreeBuffer
-ms.topic: method
 f1_keywords:
 - objidl/IRpcChannelBuffer.FreeBuffer
 dev_langs:

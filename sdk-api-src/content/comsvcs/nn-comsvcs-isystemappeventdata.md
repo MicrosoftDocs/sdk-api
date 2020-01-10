@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: fd88641e-e0ce-44b7-b8b6-59791be48026
 ms.date: 12/05/2018
 ms.keywords: ISystemAppEventData, ISystemAppEventData interface [COM+], ISystemAppEventData interface [COM+],described, _dtc_ISystemAppEventData, comsvcs/ISystemAppEventData, cos.isystemappeventdata
-ms.topic: interface
 f1_keywords:
 - comsvcs/ISystemAppEventData
 dev_langs:

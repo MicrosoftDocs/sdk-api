@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b3dd5332-e93e-4e55-9c7f-47c302ef11a3
 ms.date: 12/05/2018
 ms.keywords: IAMStreamControl interface [DirectShow],StopAt method, IAMStreamControl.StopAt, IAMStreamControl::StopAt, IAMStreamControlStopAt, StopAt, StopAt method [DirectShow], StopAt method [DirectShow],IAMStreamControl interface, dshow.iamstreamcontrol_stopat, strmif/IAMStreamControl::StopAt
-ms.topic: method
 f1_keywords:
 - strmif/IAMStreamControl.StopAt
 dev_langs:

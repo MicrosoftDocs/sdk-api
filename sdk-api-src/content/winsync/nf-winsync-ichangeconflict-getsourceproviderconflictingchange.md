@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: a77983ec-77fd-4e24-a978-df37a85b0ede
 ms.date: 12/05/2018
 ms.keywords: GetSourceProviderConflictingChange, GetSourceProviderConflictingChange method [Windows Sync], GetSourceProviderConflictingChange method [Windows Sync],IChangeConflict interface, IChangeConflict interface [Windows Sync],GetSourceProviderConflictingChange method, IChangeConflict.GetSourceProviderConflictingChange, IChangeConflict::GetSourceProviderConflictingChange, winsync.ichangeconflict_getsourceproviderconflictingchange, winsync/IChangeConflict::GetSourceProviderConflictingChange
-ms.topic: method
 f1_keywords:
 - winsync/IChangeConflict.GetSourceProviderConflictingChange
 dev_langs:

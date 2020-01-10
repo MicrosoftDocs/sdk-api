@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: d1f73422-37e9-488e-92e6-8e8dd99af57f
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Windows API], Close method [Windows API],ICameraUIControl interface, ICameraUIControl interface [Windows API],Close method, ICameraUIControl.Close, ICameraUIControl::Close, camerauicontrol/ICameraUIControl::Close, winprog.icamerauicontrol_close
-ms.topic: method
 f1_keywords:
 - camerauicontrol/ICameraUIControl.Close
 dev_langs:

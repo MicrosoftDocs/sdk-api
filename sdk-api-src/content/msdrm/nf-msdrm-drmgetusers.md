@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: 4c8c8249-2e90-4eea-9a3b-dd7d9970ba98
 ms.date: 12/05/2018
 ms.keywords: DRMGetUsers, DRMGetUsers function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUsers, rm.drmgetusers
-ms.topic: function
 f1_keywords:
 - msdrm/DRMGetUsers
 dev_langs:

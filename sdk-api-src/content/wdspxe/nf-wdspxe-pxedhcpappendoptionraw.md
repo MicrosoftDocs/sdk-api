@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: f6525a06-a3b0-4989-8132-fa8f1ad2fec3
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpAppendOptionRaw, PxeDhcpAppendOptionRaw function [Windows Deployment Services], wds.pxedhcpappendoptionraw, wdspxe/PxeDhcpAppendOptionRaw
-ms.topic: function
 f1_keywords:
 - wdspxe/PxeDhcpAppendOptionRaw
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\mapdialogrect.htm
 ms.date: 12/05/2018
 ms.keywords: MapDialogRect, MapDialogRect function [Dialog Boxes], _win32_MapDialogRect, _win32_mapdialogrect_cpp, dlgbox.mapdialogrect, winui._win32_mapdialogrect, winuser/MapDialogRect
-ms.topic: function
 f1_keywords:
 - winuser/MapDialogRect
 dev_langs:

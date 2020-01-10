@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: fe5f3145-b428-42c9-ab1d-1c0e63c4454b
 ms.date: 12/05/2018
 ms.keywords: IConnectableCredentialProviderCredential, IConnectableCredentialProviderCredential interface [Windows Shell], IConnectableCredentialProviderCredential interface [Windows Shell],described, _shell_IConnectableCredentialProviderCredential, credentialprovider/IConnectableCredentialProviderCredential, shell.IConnectableCredentialProviderCredential
-ms.topic: interface
 f1_keywords:
 - credentialprovider/IConnectableCredentialProviderCredential
 dev_langs:

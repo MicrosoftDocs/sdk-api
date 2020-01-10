@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c4c5eb83-4773-464d-8b0c-b46b13c3b6d3
 ms.date: 12/05/2018
 ms.keywords: DVD_SPType_Language, DVD_SPType_NotSpecified, DVD_SPType_Other, DVD_SUBPICTURE_TYPE, DVD_SUBPICTURE_TYPE , DVD_SUBPICTURE_TYPE enumeration [DirectShow], DVD_SUBPICTURE_TYPEEnumeration, dshow.dvd_subpicture_type, strmif/DVD_SPType_Language, strmif/DVD_SPType_NotSpecified, strmif/DVD_SPType_Other, strmif/DVD_SUBPICTURE_TYPE
-ms.topic: enum
 f1_keywords:
 - strmif/DVD_SUBPICTURE_TYPE
 dev_langs:

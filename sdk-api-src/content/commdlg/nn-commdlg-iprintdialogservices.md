@@ -7,7 +7,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogservices.htm
 ms.date: 12/05/2018
 ms.keywords: IPrintDialogServices, IPrintDialogServices interface [Dialog Boxes], IPrintDialogServices interface [Dialog Boxes],described, _win32_IPrintDialogServices, _win32_iprintdialogservices_cpp, commdlg/IPrintDialogServices, dlgbox.iprintdialogservices, winui._win32_iprintdialogservices
-ms.topic: interface
 f1_keywords:
 - commdlg/IPrintDialogServices
 dev_langs:

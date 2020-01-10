@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 99e28b85-effd-4f86-b2da-ec02a05dde40
 ms.date: 12/05/2018
 ms.keywords: IMPEG2StreamIdMap interface [DirectShow],UnmapStreamId method, IMPEG2StreamIdMap.UnmapStreamId, IMPEG2StreamIdMap::UnmapStreamId, IMPEG2StreamIdMapUnmapStreamId, UnmapStreamId, UnmapStreamId method [DirectShow], UnmapStreamId method [DirectShow],IMPEG2StreamIdMap interface, dshow.impeg2streamidmap_unmapstreamid, strmif/IMPEG2StreamIdMap::UnmapStreamId
-ms.topic: method
 f1_keywords:
 - strmif/IMPEG2StreamIdMap.UnmapStreamId
 dev_langs:

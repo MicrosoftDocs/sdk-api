@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: 9c68139c-6f55-4b5a-bea0-64681e32a7c5
 ms.date: 12/05/2018
 ms.keywords: BluetoothSetServiceState, BluetoothSetServiceState function [Bluetooth], bluetooth.bluetoothsetservicestate, bluetoothapis/BluetoothSetServiceState
-ms.topic: function
 f1_keywords:
 - bluetoothapis/BluetoothSetServiceState
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: B447D464-EFAF-4743-900F-E77A2FE140DD
 ms.date: 12/05/2018
 ms.keywords: GetAvailableSize, GetAvailableSize method [Windows Shell], GetAvailableSize method [Windows Shell],IAccessibilityDockingService interface, IAccessibilityDockingService interface [Windows Shell],GetAvailableSize method, IAccessibilityDockingService.GetAvailableSize, IAccessibilityDockingService::GetAvailableSize, shell.IAccessibilityDockingService_GetAvailableSize, shobjidl/IAccessibilityDockingService::GetAvailableSize
-ms.topic: method
 f1_keywords:
 - shobjidl/IAccessibilityDockingService.GetAvailableSize
 dev_langs:

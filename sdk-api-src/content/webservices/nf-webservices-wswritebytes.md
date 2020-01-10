@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 1fa9ecfc-c791-459f-ae11-ffcdc82b7145
 ms.date: 12/05/2018
 ms.keywords: WsWriteBytes, WsWriteBytes function [Web Services for Windows], webservices/WsWriteBytes, wsw.wswritebytes
-ms.topic: function
 f1_keywords:
 - webservices/WsWriteBytes
 dev_langs:

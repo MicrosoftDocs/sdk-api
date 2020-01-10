@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 628e1995-8207-4daa-a445-cb21a755ffa6
 ms.date: 12/05/2018
 ms.keywords: CryptCreateKeyIdentifierFromCSP, CryptCreateKeyIdentifierFromCSP function [Security], _crypto2_cryptcreatekeyidentifierfromcsp, security.cryptcreatekeyidentifierfromcsp, wincrypt/CryptCreateKeyIdentifierFromCSP
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptCreateKeyIdentifierFromCSP
 dev_langs:

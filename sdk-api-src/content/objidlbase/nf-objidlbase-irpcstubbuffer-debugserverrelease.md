@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 511f6e55-fb1d-4500-80fd-83e3fe2779d1
 ms.date: 12/05/2018
 ms.keywords: DebugServerRelease, DebugServerRelease method [COM], DebugServerRelease method [COM],IRpcStubBuffer interface, IRpcStubBuffer interface [COM],DebugServerRelease method, IRpcStubBuffer.DebugServerRelease, IRpcStubBuffer::DebugServerRelease, _com_irpcstubbuffer_debugserverrelease, com.irpcstubbuffer_debugserverrelease, objidlbase/IRpcStubBuffer::DebugServerRelease
-ms.topic: method
 f1_keywords:
 - objidlbase/IRpcStubBuffer.DebugServerRelease
 dev_langs:

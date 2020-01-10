@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b366d9c9-5dd3-43ee-99a1-417b9d907855
 ms.date: 12/05/2018
 ms.keywords: GetMenu, GetMenu method [Windows Shell], GetMenu method [Windows Shell],IShellMenu interface, IShellMenu interface [Windows Shell],GetMenu method, IShellMenu.GetMenu, IShellMenu::GetMenu, _shell_IShellMenu_GetMenu, shell.IShellMenu_GetMenu, shobjidl_core/IShellMenu::GetMenu
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellMenu.GetMenu
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: b5722904-24a4-491f-8563-bfb2d5695d86
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],get_TransmissionMode method, IBDA_DigitalDemodulator2.get_TransmissionMode, IBDA_DigitalDemodulator2::get_TransmissionMode, bdaiface/IBDA_DigitalDemodulator2::get_TransmissionMode, get_TransmissionMode, get_TransmissionMode method [Microsoft TV Technologies], get_TransmissionMode method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface, mstv.ibda_digitaldemodulator2_get_transmissionmode
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_DigitalDemodulator2.get_TransmissionMode
 dev_langs:

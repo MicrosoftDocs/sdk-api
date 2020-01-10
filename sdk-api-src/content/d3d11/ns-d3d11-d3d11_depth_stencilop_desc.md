@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 8c375d2f-ecec-4b9f-bd84-625dad53fa6a
 ms.date: 12/05/2018
 ms.keywords: D3D11_DEPTH_STENCILOP_DESC, D3D11_DEPTH_STENCILOP_DESC structure [Direct3D 11], b5c19838-9f15-a711-8c15-008fbca8d2a1, d3d11/D3D11_DEPTH_STENCILOP_DESC, direct3d11.d3d11_depth_stencilop_desc
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_DEPTH_STENCILOP_DESC
 dev_langs:

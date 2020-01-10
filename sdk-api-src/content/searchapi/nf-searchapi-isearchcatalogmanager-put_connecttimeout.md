@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\put_connecttimeout.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager interface [search],put_ConnectTimeout method, ISearchCatalogManager.put_ConnectTimeout, ISearchCatalogManager::put_ConnectTimeout, _search_ISearchCatalogManager_put_ConnectTimeout, put_ConnectTimeout, put_ConnectTimeout method [search], put_ConnectTimeout method [search],ISearchCatalogManager interface, search._search_ISearchCatalogManager_put_ConnectTimeout, searchapi/ISearchCatalogManager::put_ConnectTimeout
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchCatalogManager.put_ConnectTimeout
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 70b260e7-a51d-4ddc-b395-5478e368e776
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method [COM+], Activate method [COM+],ObjectControl interface, ObjectControl interface [COM+],Activate method, ObjectControl.Activate, ObjectControl::Activate, _cos_ObjectControl_Activate, comsvcs/ObjectControl::Activate, cos.objectcontrol_activate
-ms.topic: method
 f1_keywords:
 - comsvcs/ObjectControl.Activate
 dev_langs:

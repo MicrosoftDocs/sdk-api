@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 331D32B5-1583-4A2C-9A1A-0D546DDE846D
 ms.date: 12/05/2018
 ms.keywords: RpcRevertContainerImpersonation, RpcRevertContainerImpersonation function [RPC], rpc.rpcrevertcontainerimpersonation, rpcdce/RpcRevertContainerImpersonation
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcRevertContainerImpersonation
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorRGBToHSV(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorRGBToHSV, XMColorRGBToHSV, XMColorRGBToHSV method [DirectX Math Support APIs], dxmath.xmcolorrgbtohsv
-ms.topic: function
 f1_keywords:
 - directxmath/XMColorRGBToHSV
 dev_langs:

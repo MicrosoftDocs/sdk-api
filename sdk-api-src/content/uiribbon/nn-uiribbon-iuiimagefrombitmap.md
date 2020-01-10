@@ -7,7 +7,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiimagefrombitmap\iuiimagefrombitmap.htm
 ms.date: 12/05/2018
 ms.keywords: IUIImageFromBitmap, IUIImageFromBitmap interface [Windows Ribbon], IUIImageFromBitmap interface [Windows Ribbon],described, scenicintent_IUIImageFromBitmap, uiribbon/IUIImageFromBitmap, windowsribbon.windowsribbon_iuiimagefrombitmap
-ms.topic: interface
 f1_keywords:
 - uiribbon/IUIImageFromBitmap
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: rdc
 ms.assetid: 194944c8-94a8-4f9b-9970-012392e069b1
 ms.date: 12/05/2018
 ms.keywords: IRdcFileReader interface [Remote Differential Compression],Read method, IRdcFileReader.Read, IRdcFileReader::Read, Read, Read method [Remote Differential Compression], Read method [Remote Differential Compression],IRdcFileReader interface, fs.irdcfilereader_read, msrdc/IRdcFileReader::Read, rdc.irdcfilereader_read
-ms.topic: method
 f1_keywords:
 - msrdc/IRdcFileReader.Read
 dev_langs:

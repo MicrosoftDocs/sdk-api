@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: c5deaffb-ceac-4609-a862-b050a1afa1f9
 ms.date: 12/05/2018
 ms.keywords: GetDialogData, GetDialogData method [Microsoft TV Technologies], GetDialogData method [Microsoft TV Technologies],IESOpenMmiEvent interface, IESOpenMmiEvent interface [Microsoft TV Technologies],GetDialogData method, IESOpenMmiEvent.GetDialogData, IESOpenMmiEvent::GetDialogData, mstv.iesopenmmievent_getdialogdata, tuner/IESOpenMmiEvent::GetDialogData
-ms.topic: method
 f1_keywords:
 - tuner/IESOpenMmiEvent.GetDialogData
 dev_langs:

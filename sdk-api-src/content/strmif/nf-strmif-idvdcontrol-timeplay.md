@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 56b4b086-e315-486c-8dbd-97960f5b76d1
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],TimePlay method, IDvdControl.TimePlay, IDvdControl::TimePlay, IDvdControlTimePlay, TimePlay, TimePlay method [DirectShow], TimePlay method [DirectShow],IDvdControl interface, dshow.idvdcontrol_timeplay, strmif/IDvdControl::TimePlay
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.TimePlay
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isappthemed.htm
 ms.date: 12/05/2018
 ms.keywords: IsAppThemed, IsAppThemed function [Windows Controls], controls.IsAppThemed, controls.inet_IsAppThemed, inet_IsAppThemed, inet_IsAppThemed_cpp, uxtheme/IsAppThemed
-ms.topic: function
 f1_keywords:
 - uxtheme/IsAppThemed
 dev_langs:

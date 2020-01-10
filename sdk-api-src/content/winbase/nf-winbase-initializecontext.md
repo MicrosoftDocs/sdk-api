@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 909BF5F7-0622-4B22-A2EC-27722389700A
 ms.date: 12/05/2018
 ms.keywords: InitializeContext, InitializeContext function, base.initializecontext, winbase/InitializeContext
-ms.topic: function
 f1_keywords:
 - winbase/InitializeContext
 dev_langs:

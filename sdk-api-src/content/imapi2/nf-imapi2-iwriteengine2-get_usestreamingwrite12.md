@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 28f5673e-73f4-4bec-bdee-49cbd030a0d6
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],get_UseStreamingWrite12 method, IWriteEngine2.get_UseStreamingWrite12, IWriteEngine2::get_UseStreamingWrite12, get_UseStreamingWrite12, get_UseStreamingWrite12 method [IMAPI], get_UseStreamingWrite12 method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_get_usestreamingwrite12, imapi2/IWriteEngine2::get_UseStreamingWrite12
-ms.topic: method
 f1_keywords:
 - imapi2/IWriteEngine2.get_UseStreamingWrite12
 dev_langs:

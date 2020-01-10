@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 616c9d03-f641-49e3-af95-80ebaea3e8aa
 ms.date: 12/05/2018
 ms.keywords: VariantToInt16ArrayAlloc, VariantToInt16ArrayAlloc function [Windows Properties], _shell_VariantToInt16ArrayAlloc, properties.VariantToInt16ArrayAlloc, propvarutil/VariantToInt16ArrayAlloc, shell.VariantToInt16ArrayAlloc
-ms.topic: function
 f1_keywords:
 - propvarutil/VariantToInt16ArrayAlloc
 dev_langs:

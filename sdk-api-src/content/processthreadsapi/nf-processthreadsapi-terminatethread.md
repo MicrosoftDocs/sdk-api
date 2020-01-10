@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: ae1ad0f3-67df-4573-af22-7086f0470361
 ms.date: 12/05/2018
 ms.keywords: TerminateThread, TerminateThread function, _win32_terminatethread, base.terminatethread, processthreadsapi/TerminateThread, winbase/TerminateThread
-ms.topic: function
 f1_keywords:
 - processthreadsapi/TerminateThread
 dev_langs:

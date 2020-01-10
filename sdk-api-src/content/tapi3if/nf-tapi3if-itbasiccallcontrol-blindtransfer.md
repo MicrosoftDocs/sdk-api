@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 766a48af-512a-4ad6-99e1-436141bf8447
 ms.date: 12/05/2018
 ms.keywords: BlindTransfer, BlindTransfer method [TAPI 2.2], BlindTransfer method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],BlindTransfer method, ITBasicCallControl.BlindTransfer, ITBasicCallControl::BlindTransfer, _tapi3_itbasiccallcontrol_blindtransfer, tapi3.itbasiccallcontrol_blindtransfer, tapi3if/ITBasicCallControl::BlindTransfer
-ms.topic: method
 f1_keywords:
 - tapi3if/ITBasicCallControl.BlindTransfer
 dev_langs:

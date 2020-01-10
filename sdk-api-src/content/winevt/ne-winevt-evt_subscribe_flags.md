@@ -7,7 +7,6 @@ tech.root: wes
 ms.assetid: 2e0d5442-c9ac-4165-96ae-6f4122a5ce0a
 ms.date: 12/05/2018
 ms.keywords: EVT_SUBSCRIBE_FLAGS, EVT_SUBSCRIBE_FLAGS enumeration [EventLog], EvtSubscribeOriginMask, EvtSubscribeStartAfterBookmark, EvtSubscribeStartAtOldestRecord, EvtSubscribeStrict, EvtSubscribeToFutureEvents, EvtSubscribeTolerateQueryErrors, wes.evt_subscribe_flags, winevt/EVT_SUBSCRIBE_FLAGS, winevt/EvtSubscribeOriginMask, winevt/EvtSubscribeStartAfterBookmark, winevt/EvtSubscribeStartAtOldestRecord, winevt/EvtSubscribeStrict, winevt/EvtSubscribeToFutureEvents, winevt/EvtSubscribeTolerateQueryErrors
-ms.topic: enum
 f1_keywords:
 - winevt/EVT_SUBSCRIBE_FLAGS
 dev_langs:

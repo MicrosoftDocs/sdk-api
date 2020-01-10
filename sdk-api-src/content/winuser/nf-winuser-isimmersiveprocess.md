@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: E95FD9C0-8E4A-44FA-BBA6-0A7F53A0E584
 ms.date: 12/05/2018
 ms.keywords: IsImmersiveProcess, IsImmersiveProcess function, base.isimmersiveprocess, winuser/IsImmersiveProcess
-ms.topic: function
 f1_keywords:
 - winuser/IsImmersiveProcess
 dev_langs:

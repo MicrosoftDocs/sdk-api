@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 2a6ee33e-91dc-4f6d-bdb7-a93b7478b58e
 ms.date: 12/05/2018
 ms.keywords: AuxUlibSetSystemFileCacheSize, AuxUlibSetSystemFileCacheSize function [Windows API], aux_ulib/AuxUlibSetSystemFileCacheSize, winprog.auxulibsetsystemfilecachesize_func
-ms.topic: function
 f1_keywords:
 - aux_ulib/AuxUlibSetSystemFileCacheSize
 dev_langs:

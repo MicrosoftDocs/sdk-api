@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 58fffb8c-9726-4801-84ce-6fb670b865c8
 ms.date: 12/05/2018
 ms.keywords: OleQueryCreateFromData, OleQueryCreateFromData function [COM], _ole_OleQueryCreateFromData, com.olequerycreatefromdata, ole2/OleQueryCreateFromData
-ms.topic: function
 f1_keywords:
 - ole2/OleQueryCreateFromData
 dev_langs:

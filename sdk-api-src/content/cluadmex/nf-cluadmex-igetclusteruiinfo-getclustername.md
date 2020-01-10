@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 2c892250-80b7-4bf8-9514-64833d0e3450
 ms.date: 12/05/2018
 ms.keywords: GetClusterName, GetClusterName method [Failover Cluster], GetClusterName method [Failover Cluster],IGetClusterUIInfo interface, IGetClusterUIInfo interface [Failover Cluster],GetClusterName method, IGetClusterUIInfo.GetClusterName, IGetClusterUIInfo::GetClusterName, _wolf_igetclusteruiinfo_getclustername, cluadmex/IGetClusterUIInfo::GetClusterName, mscs.igetclusteruiinfo_getclustername
-ms.topic: method
 f1_keywords:
 - cluadmex/IGetClusterUIInfo.GetClusterName
 dev_langs:

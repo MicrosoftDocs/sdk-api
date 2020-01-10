@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 1097fa4c-d81d-4268-8492-c0d9f4888733
 ms.date: 12/05/2018
 ms.keywords: IRegisterServiceProvider, IRegisterServiceProvider interface [DirectShow], IRegisterServiceProvider interface [DirectShow],described, IRegisterServiceProviderInterface, dshow.iregisterserviceprovider, strmif/IRegisterServiceProvider
-ms.topic: interface
 f1_keywords:
 - strmif/IRegisterServiceProvider
 dev_langs:

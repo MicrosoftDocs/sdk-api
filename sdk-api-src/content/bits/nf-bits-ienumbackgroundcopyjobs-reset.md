@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 045df884-88e0-4d5a-a790-6b3b9ba2d4f5
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyJobs interface [BITS],Reset method, IEnumBackgroundCopyJobs.Reset, IEnumBackgroundCopyJobs::Reset, Reset, Reset method [BITS], Reset method [BITS],IEnumBackgroundCopyJobs interface, _drz_ienumbackgroundcopyjobs_reset, bits.ienumbackgroundcopyjobs_reset, bits/IEnumBackgroundCopyJobs::Reset
-ms.topic: method
 f1_keywords:
 - bits/IEnumBackgroundCopyJobs.Reset
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 82f5f5d5-8ec1-4693-b66c-f141a8999803
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_SET_PROPERTY_TABLE_EX, PRESUTIL_SET_PROPERTY_TABLE_EX function [Failover Cluster], ResUtilSetPropertyTableEx, ResUtilSetPropertyTableEx function [Failover Cluster], _wolf_resutilsetpropertytableex, mscs.resutilsetpropertytableex, resapi/PRESUTIL_SET_PROPERTY_TABLE_EX, resapi/ResUtilSetPropertyTableEx
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilSetPropertyTableEx
 dev_langs:

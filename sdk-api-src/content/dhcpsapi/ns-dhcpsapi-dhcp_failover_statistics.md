@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: a06d873c-fc82-40c1-be3e-45f24328897d
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_FAILOVER_STATISTICS, DHCP_FAILOVER_STATISTICS, DHCP_FAILOVER_STATISTICS structure [DHCP], LPDHCP_FAILOVER_STATISTICS, LPDHCP_FAILOVER_STATISTICS structure pointer [DHCP], dhcp.dhcp_failover_statistics, dhcpsapi/DHCP_FAILOVER_STATISTICS, dhcpsapi/LPDHCP_FAILOVER_STATISTICS'
-ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_FAILOVER_STATISTICS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: fd4ef7da-344d-4825-93b2-f0cd5622aeac
 ms.date: 12/05/2018
 ms.keywords: WSCGetProviderPath32, WSCGetProviderPath32 function [Winsock], winsock.wscgetproviderpath32, ws2spi/WSCGetProviderPath32
-ms.topic: function
 f1_keywords:
 - ws2spi/WSCGetProviderPath32
 dev_langs:

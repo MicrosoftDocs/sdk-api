@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: ed4aaf2a-270c-4518-b04d-cdac966bf9a5
 ms.date: 12/05/2018
 ms.keywords: BeginRead, BeginRead method [Media Foundation], BeginRead method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],BeginRead method, IMFByteStream.BeginRead, IMFByteStream::BeginRead, ed4aaf2a-270c-4518-b04d-cdac966bf9a5, mf.imfbytestream_beginread, mfobjects/IMFByteStream::BeginRead
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFByteStream.BeginRead
 dev_langs:

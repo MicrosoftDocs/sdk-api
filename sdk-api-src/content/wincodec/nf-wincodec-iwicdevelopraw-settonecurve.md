@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: cfb0b67d-7eb1-4bbb-90be-33ca82b9460f
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetToneCurve method, IWICDevelopRaw.SetToneCurve, IWICDevelopRaw::SetToneCurve, SetToneCurve, SetToneCurve method [Windows Imaging Component], SetToneCurve method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_settonecurve, wic._wic_codec_iwicdevelopraw_settonecurve, wincodec/IWICDevelopRaw::SetToneCurve
-ms.topic: method
 f1_keywords:
 - wincodec/IWICDevelopRaw.SetToneCurve
 dev_langs:

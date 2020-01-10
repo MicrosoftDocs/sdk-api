@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 77e16df3-aab6-4e5f-b0e5-c203379fc6e8
 ms.date: 12/05/2018
 ms.keywords: INetFwProduct interface [ICS/ICF],RuleCategories property, INetFwProduct.RuleCategories, INetFwProduct.get_RuleCategories, INetFwProduct::RuleCategories, INetFwProduct::get_RuleCategories, INetFwProduct::put_RuleCategories, RuleCategories property [ICS/ICF], RuleCategories property [ICS/ICF],INetFwProduct interface, get_RuleCategories, ics.inetfwproduct_rulecategories, netfw/INetFwProduct::RuleCategories, netfw/INetFwProduct::get_RuleCategories, netfw/INetFwProduct::put_RuleCategories
-ms.topic: method
 f1_keywords:
 - netfw/INetFwProduct.RuleCategories
 dev_langs:

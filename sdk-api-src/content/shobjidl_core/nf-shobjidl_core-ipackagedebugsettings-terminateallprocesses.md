@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e49faeaa-8fd8-4233-94ac-0899177a9bb3
 ms.date: 12/05/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],TerminateAllProcesses method, IPackageDebugSettings.TerminateAllProcesses, IPackageDebugSettings::TerminateAllProcesses, TerminateAllProcesses, TerminateAllProcesses method [Windows Shell], TerminateAllProcesses method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_TerminateAllProcesses, shobjidl_core/IPackageDebugSettings::TerminateAllProcesses
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IPackageDebugSettings.TerminateAllProcesses
 dev_langs:

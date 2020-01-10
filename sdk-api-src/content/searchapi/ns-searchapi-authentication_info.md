@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\authentication_info.htm
 ms.date: 12/05/2018
 ms.keywords: AUTHENTICATION_INFO, AUTHENTICATION_INFO structure [search], _search_AUTHENTICATION_INFO, search._search_AUTHENTICATION_INFO, searchapi/AUTHENTICATION_INFO
-ms.topic: struct
 f1_keywords:
 - searchapi/AUTHENTICATION_INFO
 dev_langs:

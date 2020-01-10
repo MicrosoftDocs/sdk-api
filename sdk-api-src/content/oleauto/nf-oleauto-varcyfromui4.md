@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: aa5c74d1-050c-4036-a8b0-9518761f6c0d
 ms.date: 12/05/2018
 ms.keywords: VarCyFromUI4, VarCyFromUI4 function [Automation], _oa96_VarCyFromUI4, automat.varcyfromui4, oleauto/VarCyFromUI4
-ms.topic: function
 f1_keywords:
 - oleauto/VarCyFromUI4
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 73721921-c943-4adc-a2b1-e8c19ec809ac
 ms.date: 12/05/2018
 ms.keywords: Conference, Conference method [TAPI 2.2], Conference method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Conference method, ITBasicCallControl.Conference, ITBasicCallControl::Conference, _tapi3_itbasiccallcontrol_conference, tapi3.itbasiccallcontrol_conference, tapi3if/ITBasicCallControl::Conference
-ms.topic: method
 f1_keywords:
 - tapi3if/ITBasicCallControl.Conference
 dev_langs:

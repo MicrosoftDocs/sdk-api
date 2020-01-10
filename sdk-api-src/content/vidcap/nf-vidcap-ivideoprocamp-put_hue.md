@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 7b0926c3-4167-423d-ac5c-ac4df06948aa
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_Hue method, IVideoProcAmp.put_Hue, IVideoProcAmp::put_Hue, IVideoProcAmpput_Hue, dshow.ivideoprocamp_put_hue, put_Hue, put_Hue method [DirectShow], put_Hue method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_Hue
-ms.topic: method
 f1_keywords:
 - vidcap/IVideoProcAmp.put_Hue
 dev_langs:

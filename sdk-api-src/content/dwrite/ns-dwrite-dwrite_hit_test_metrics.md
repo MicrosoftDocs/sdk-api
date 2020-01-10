@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 00aaed92-7078-4823-95c5-855c063c744a
 ms.date: 12/05/2018
 ms.keywords: DWRITE_HIT_TEST_METRICS, DWRITE_HIT_TEST_METRICS structure [Direct Write], directwrite.dwrite_hit_test_metrics, dwrite/DWRITE_HIT_TEST_METRICS
-ms.topic: struct
 f1_keywords:
 - dwrite/DWRITE_HIT_TEST_METRICS
 dev_langs:

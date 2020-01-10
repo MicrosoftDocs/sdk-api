@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d3a4f07e-a1c0-4180-a02c-12eaebaaf1d2
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],PrevPage method, IShellImageData.PrevPage, IShellImageData::PrevPage, PrevPage, PrevPage method [Windows Shell], PrevPage method [Windows Shell],IShellImageData interface, _shell_IShellImageData_PrevPage, shell.IShellImageData_PrevPage, shimgdata/IShellImageData::PrevPage
-ms.topic: method
 f1_keywords:
 - shimgdata/IShellImageData.PrevPage
 dev_langs:

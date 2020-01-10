@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: 08af0c55-17cc-4d7f-b4a3-c21a8ae91b74
 ms.date: 12/05/2018
 ms.keywords: CacheEvictEnd, CacheEvictEnd method [Offline Files], CacheEvictEnd method [Offline Files],IOfflineFilesEvents2 interface, IOfflineFilesEvents2 interface [Offline Files],CacheEvictEnd method, IOfflineFilesEvents2.CacheEvictEnd, IOfflineFilesEvents2::CacheEvictEnd, cscobj/IOfflineFilesEvents2::CacheEvictEnd, of.iofflinefilesevents2_cacheevictend
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesEvents2.CacheEvictEnd
 dev_langs:

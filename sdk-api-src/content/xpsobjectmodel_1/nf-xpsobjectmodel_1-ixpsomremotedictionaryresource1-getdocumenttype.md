@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: C8A55D98-0E3C-448B-9E67-575D5B66535D
 ms.date: 12/05/2018
 ms.keywords: GetDocumentType, GetDocumentType method [XPS Documents and Packaging], GetDocumentType method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResource1 interface, IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging],GetDocumentType method, IXpsOMRemoteDictionaryResource1.GetDocumentType, IXpsOMRemoteDictionaryResource1::GetDocumentType, xps.ixpsomremotedictionaryresource1_getdocumenttype, xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1::GetDocumentType
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1.GetDocumentType
 dev_langs:

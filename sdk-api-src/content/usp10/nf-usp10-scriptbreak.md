@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 1613819f-9473-4d9f-8a65-a109c9ef3f43
 ms.date: 12/05/2018
 ms.keywords: ScriptBreak, ScriptBreak function [Internationalization for Windows Applications], _win32_ScriptBreak, intl.scriptbreak, usp10/ScriptBreak
-ms.topic: function
 f1_keywords:
 - usp10/ScriptBreak
 dev_langs:

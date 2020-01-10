@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 8d19360f-de6b-40a9-a82b-6d8dace686b6
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs7V2 interface [Security],Template property, IX509CertificateRequestPkcs7V2.Template, IX509CertificateRequestPkcs7V2.get_Template, IX509CertificateRequestPkcs7V2::Template, IX509CertificateRequestPkcs7V2::get_Template, Template property [Security], Template property [Security],IX509CertificateRequestPkcs7V2 interface, certenroll/IX509CertificateRequestPkcs7V2::Template, certenroll/IX509CertificateRequestPkcs7V2::get_Template, get_Template, security.ix509certificaterequestpkcs7v2_template
-ms.topic: method
 f1_keywords:
 - certenroll/IX509CertificateRequestPkcs7V2.Template
 dev_langs:

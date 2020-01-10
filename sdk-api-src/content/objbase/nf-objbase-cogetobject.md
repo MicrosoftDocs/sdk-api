@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 0f5c9ef5-3918-4f93-bfd1-1017029b3dc1
 ms.date: 12/05/2018
 ms.keywords: CoGetObject, CoGetObject function [COM], _com_CoGetObject, com.cogetobject, objbase/CoGetObject
-ms.topic: function
 f1_keywords:
 - objbase/CoGetObject
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemetextex.htm
 ms.date: 12/05/2018
 ms.keywords: DrawThemeTextEx, DrawThemeTextEx function [Windows Controls], controls.DrawThemeTextEx, controls.inet_DrawThemeTextEx, inet_DrawThemeTextEx, inet_DrawThemeTextEx_cpp, uxtheme/DrawThemeTextEx
-ms.topic: function
 f1_keywords:
 - uxtheme/DrawThemeTextEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 5B1AD3A1-D5ED-4F9D-A895-0312E6EB3072
 ms.date: 12/05/2018
 ms.keywords: IMFSeekInfo, IMFSeekInfo interface [Media Foundation], IMFSeekInfo interface [Media Foundation],described, mf.imfseekinfo, mfidl/IMFSeekInfo
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFSeekInfo
 dev_langs:

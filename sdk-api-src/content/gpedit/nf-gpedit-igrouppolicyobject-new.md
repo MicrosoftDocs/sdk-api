@@ -7,7 +7,6 @@ tech.root: Policy
 ms.assetid: e251cac2-8fc8-4ed0-b940-4a9f47eca26b
 ms.date: 12/05/2018
 ms.keywords: GPO_OPEN_LOAD_REGISTRY, GPO_OPEN_READ_ONLY, IGroupPolicyObject interface [Group Policy],New method, IGroupPolicyObject.New, IGroupPolicyObject::New, New, New method [Group Policy], New method [Group Policy],IGroupPolicyObject interface, _win32_igrouppolicyobject_new, gpedit/IGroupPolicyObject::New, policy.igrouppolicyobject_new
-ms.topic: method
 f1_keywords:
 - gpedit/IGroupPolicyObject.New
 dev_langs:

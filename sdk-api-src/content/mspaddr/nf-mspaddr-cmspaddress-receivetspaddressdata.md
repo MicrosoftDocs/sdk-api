@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 56fc4024-bca0-405c-8a15-29ac8e486f80
 ms.date: 12/05/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],ReceiveTSPAddressData method, CMSPAddress.ReceiveTSPAddressData, CMSPAddress::ReceiveTSPAddressData, ReceiveTSPAddressData, ReceiveTSPAddressData method [TAPI 2.2], ReceiveTSPAddressData method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_receivetspaddressdata, mspaddr/CMSPAddress::ReceiveTSPAddressData, tapi3.cmspaddress_receivetspaddressdata
-ms.topic: method
 f1_keywords:
 - mspaddr/CMSPAddress.ReceiveTSPAddressData
 dev_langs:

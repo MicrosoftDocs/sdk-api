@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 555a9e8b-c720-4bd5-872c-1af317511858
 ms.date: 12/05/2018
 ms.keywords: NdrDllRegisterProxy, NdrDllRegisterProxy function [RPC], rpc.ndrdllregisterproxy, rpcproxy/NdrDllRegisterProxy
-ms.topic: function
 f1_keywords:
 - rpcproxy/NdrDllRegisterProxy
 dev_langs:

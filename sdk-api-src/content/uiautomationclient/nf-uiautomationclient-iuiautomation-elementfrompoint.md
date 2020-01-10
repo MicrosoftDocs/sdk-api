@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 4233cc97-94c8-4861-a364-823cca1e5ff8
 ms.date: 12/05/2018
 ms.keywords: ElementFromPoint, ElementFromPoint method [Windows Accessibility], ElementFromPoint method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ElementFromPoint method, IUIAutomation.ElementFromPoint, IUIAutomation::ElementFromPoint, uiauto.uiauto_IUIAutomation_ElementFromPoint, uiauto_IUIAutomation_ElementFromPoint, uiautomationclient/IUIAutomation::ElementFromPoint, winauto.uiauto_IUIAutomation_ElementFromPoint
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomation.ElementFromPoint
 dev_langs:

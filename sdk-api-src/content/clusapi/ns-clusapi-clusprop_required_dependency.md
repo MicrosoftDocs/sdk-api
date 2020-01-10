@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: dae7544d-31c0-4a4b-8acb-d652bae817dd
 ms.date: 12/05/2018
 ms.keywords: '*PCLUSPROP_REQUIRED_DEPENDENCY, CLUSPROP_REQUIRED_DEPENDENCY, CLUSPROP_REQUIRED_DEPENDENCY structure [Failover Cluster], CLUS_RESCLASS_NETWORK, CLUS_RESCLASS_STORAGE, CLUS_RESCLASS_UNKNOWN, CLUS_RESCLASS_USER, PCLUSPROP_REQUIRED_DEPENDENCY, PCLUSPROP_REQUIRED_DEPENDENCY structure pointer [Failover Cluster], _wolf_clusprop_required_dependency, clusapi/CLUSPROP_REQUIRED_DEPENDENCY, clusapi/PCLUSPROP_REQUIRED_DEPENDENCY, mscs.clusprop_required_dependency'
-ms.topic: struct
 f1_keywords:
 - clusapi/CLUSPROP_REQUIRED_DEPENDENCY
 dev_langs:

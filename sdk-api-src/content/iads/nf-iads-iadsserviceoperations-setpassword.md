@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: a10684d1-be61-4599-b232-638b416aa127
 ms.date: 12/05/2018
 ms.keywords: IADsServiceOperations interface [ADSI],SetPassword method, IADsServiceOperations.SetPassword, IADsServiceOperations::SetPassword, SetPassword, SetPassword method [ADSI], SetPassword method [ADSI],IADsServiceOperations interface, _ds_iadsserviceoperations_setpassword, adsi.iadsserviceoperations__setpassword, adsi.iadsserviceoperations_setpassword, iads/IADsServiceOperations::SetPassword
-ms.topic: method
 f1_keywords:
 - iads/IADsServiceOperations.SetPassword
 dev_langs:

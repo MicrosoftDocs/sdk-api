@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 7977680b-0967-4b85-9926-fc2725681de9
 ms.date: 12/05/2018
 ms.keywords: _win32_mixerOpen, mixerOpen, mixerOpen function [Windows Multimedia], mmeapi/mixerOpen, multimedia.mixeropen
-ms.topic: function
 f1_keywords:
 - mmeapi/mixerOpen
 dev_langs:

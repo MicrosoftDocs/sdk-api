@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8EE5FA54-E20E-4d24-AD73-2AE1F0090950
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderUser, ICredentialProviderUser interface [Windows Shell], ICredentialProviderUser interface [Windows Shell],described, credentialprovider/ICredentialProviderUser, shell.ICredentialProviderUser
-ms.topic: interface
 f1_keywords:
 - credentialprovider/ICredentialProviderUser
 dev_langs:

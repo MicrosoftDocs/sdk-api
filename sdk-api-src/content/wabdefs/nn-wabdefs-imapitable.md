@@ -7,7 +7,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\imapitable\imapitable.htm
 ms.date: 12/05/2018
 ms.keywords: IMAPITable, IMAPITable interface [Windows Address Book], IMAPITable interface [Windows Address Book],described, _wab_IMAPITable, wab._wab_IMAPITable, wabdefs/IMAPITable
-ms.topic: interface
 f1_keywords:
 - wabdefs/IMAPITable
 dev_langs:

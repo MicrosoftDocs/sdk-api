@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 61f3c21f-8658-421b-8494-d39a2faacc66
 ms.date: 12/05/2018
 ms.keywords: 61f3c21f-8658-421b-8494-d39a2faacc66, ITextInputPanelEventSink interface [Tablet PC],TextInserted method, ITextInputPanelEventSink.TextInserted, ITextInputPanelEventSink::TextInserted, TextInserted, TextInserted method [Tablet PC], TextInserted method [Tablet PC],ITextInputPanelEventSink interface, peninputpanel/ITextInputPanelEventSink::TextInserted, tablet.itextinputpaneleventsink_textinserted
-ms.topic: method
 f1_keywords:
 - peninputpanel/ITextInputPanelEventSink.TextInserted
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\flushintention.htm
 ms.date: 12/05/2018
 ms.keywords: FlushIntention, FlushIntention enumeration [GDI+], FlushIntentionFlush, FlushIntentionSync, _gdiplus_ENUM_FlushIntention, gdiplus._gdiplus_ENUM_FlushIntention, gdiplusenums/FlushIntention, gdiplusenums/FlushIntentionFlush, gdiplusenums/FlushIntentionSync
-ms.topic: enum
 f1_keywords:
 - gdiplusenums/FlushIntention
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 4ec8cff5-0652-4dd0-9393-7131e3be6ef8
 ms.date: 12/05/2018
 ms.keywords: DhcpCreateSubnetVQ, DhcpCreateSubnetVQ function [DHCP], dhcp.dhcpcreatesubnetvq, dhcpsapi/DhcpCreateSubnetVQ
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpCreateSubnetVQ
 dev_langs:

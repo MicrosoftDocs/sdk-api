@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 783c383d-7fd3-45bc-90f6-2e8ce01db3c3
 ms.date: 12/05/2018
 ms.keywords: '*PIP_ADDR_STRING, IP_ADDR_STRING, IP_ADDR_STRING structure [IP Helper], PIP_ADDR_STRING, PIP_ADDR_STRING structure pointer [IP Helper], _iphlp_ip_addr_string, iphlp.ip_addr_string, iptypes/IP_ADDR_STRING, iptypes/PIP_ADDR_STRING'
-ms.topic: struct
 f1_keywords:
 - iptypes/IP_ADDR_STRING
 dev_langs:

@@ -5,7 +5,6 @@ description: The Graphics::FillPolygon method uses a brush to fill the interior 
 ms.assetid: d5922fd8-b17d-4a1f-9e1b-3531f0b7d2d0
 ms.date: 05/13/2019
 ms.keywords: Graphics::FillPolygon
-ms.topic: language-reference
 f1_keywords:
 - gdiplusgraphics/Graphics::FillPolygon
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\privateextracticons.htm
 ms.date: 12/05/2018
 ms.keywords: PrivateExtractIcons, PrivateExtractIcons function [Menus and Other Resources], PrivateExtractIconsA, PrivateExtractIconsW, _win32_PrivateExtractIcons, _win32_privateextracticons_cpp, menurc.privateextracticons, winui._win32_privateextracticons, winuser/PrivateExtractIcons, winuser/PrivateExtractIconsA, winuser/PrivateExtractIconsW
-ms.topic: function
 f1_keywords:
 - winuser/PrivateExtractIcons
 dev_langs:

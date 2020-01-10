@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 3c0d8b6c-25c1-47c3-baef-d82e6d2fa52f
 ms.date: 12/05/2018
 ms.keywords: MprAdminSendUserMessage, MprAdminSendUserMessage function [RAS], _mpr_mpradminsendusermessage, mprapi/MprAdminSendUserMessage, rras.mpradminsendusermessage
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminSendUserMessage
 dev_langs:

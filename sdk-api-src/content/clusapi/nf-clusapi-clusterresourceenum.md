@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 73627594-90df-496d-8120-b24c34f13fb5
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_RESOURCE_ENUM_DEPENDS, CLUSTER_RESOURCE_ENUM_NODES, CLUSTER_RESOURCE_ENUM_PROVIDES, ClusterResourceEnum, ClusterResourceEnum function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_ENUM, PCLUSAPI_CLUSTER_RESOURCE_ENUM function [Failover Cluster], _wolf_clusterresourceenum, clusapi/ClusterResourceEnum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_ENUM, mscs.clusterresourceenum
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterResourceEnum
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: VStor
 ms.assetid: C0BDAF45-8F87-4EF5-81F3-F15E7E575EA1
 ms.date: 12/05/2018
 ms.keywords: ModifyVhdSet, ModifyVhdSet function [VHD], vdssys/ModifyVhdSet, vhd.modifyvhdset, virtdisk/ModifyVhdSet
-ms.topic: function
 f1_keywords:
 - virtdisk/ModifyVhdSet
 dev_langs:

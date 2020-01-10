@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: 16ff7951-08a7-49c5-93a5-0782cca50dab
 ms.date: 12/05/2018
 ms.keywords: '*PSDP_STRING_TYPE_DATA, *PSDP_STRING_TYPE_DATA structure [Bluetooth], SDP_STRING_TYPE_DATA, SDP_STRING_TYPE_DATA structure [Bluetooth], bluetooth.sdp_string_type_data, bluetoothapis/*PSDP_STRING_TYPE_DATA, bluetoothapis/SDP_STRING_TYPE_DATA'
-ms.topic: struct
 f1_keywords:
 - bluetoothapis/SDP_STRING_TYPE_DATA
 dev_langs:

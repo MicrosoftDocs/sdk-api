@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 899C25AB-6379-4016-9423-35A0B50577D2
 ms.date: 12/05/2018
 ms.keywords: CD3D11_DEPTH_STENCIL_DESC interface [Direct3D 11],operator const D3D11_DEPTH_STENCIL_DESC& method, CD3D11_DEPTH_STENCIL_DESC.operator const D3D11_DEPTH_STENCIL_DESC&, CD3D11_DEPTH_STENCIL_DESC::operator const D3D11_DEPTH_STENCIL_DESC&, CD3D11_DEPTH_STENCIL_DESC::operator const D3D11_DEPTH_STENCIL_DESC&(), d3d11/CD3D11_DEPTH_STENCIL_DESC::operator const D3D11_DEPTH_STENCIL_DESC&, direct3d11.cd3d11_depth_stencil_desc_d3d11_depth_stencil_desc__, operator const D3D11_DEPTH_STENCIL_DESC&, operator const D3D11_DEPTH_STENCIL_DESC& method [Direct3D 11], operator const D3D11_DEPTH_STENCIL_DESC& method [Direct3D 11],CD3D11_DEPTH_STENCIL_DESC interface
-ms.topic: method
 f1_keywords:
 - d3d11/CD3D11_DEPTH_STENCIL_DESC.operator const D3D11_DEPTH_STENCIL_DESC&
 dev_langs:

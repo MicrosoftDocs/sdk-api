@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 45C6F61E-8CF6-4188-9715-3954562F8AB0
 ms.date: 12/05/2018
 ms.keywords: IAppxContentGroupMapReader, IAppxContentGroupMapReader interface [App packaging and management], IAppxContentGroupMapReader interface [App packaging and management],described, appxpackaging/IAppxContentGroupMapReader, appxpkg.iappxcontentgroupmapreader
-ms.topic: interface
 f1_keywords:
 - appxpackaging/IAppxContentGroupMapReader
 dev_langs:

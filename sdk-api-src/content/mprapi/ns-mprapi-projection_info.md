@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 3f87d09a-2408-4fe4-97f9-61ed9b5d2fa5
 ms.date: 12/05/2018
 ms.keywords: '*PPROJECTION_INFO, MPRAPI_IKEV2_PROJECTION_INFO_TYPE, MPRAPI_PPP_PROJECTION_INFO_TYPE, PPROJECTION_INFO, PPROJECTION_INFO structure pointer [RAS], PROJECTION_INFO, PROJECTION_INFO structure [RAS], mprapi/PPROJECTION_INFO, mprapi/PROJECTION_INFO, rras.projection_info'
-ms.topic: struct
 f1_keywords:
 - mprapi/PROJECTION_INFO
 dev_langs:

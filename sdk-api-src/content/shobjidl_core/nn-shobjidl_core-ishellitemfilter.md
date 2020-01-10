@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c2873385-a25d-4d9d-94ef-05dcdf284be1
 ms.date: 12/05/2018
 ms.keywords: IShellItemFilter, IShellItemFilter interface [Windows Shell], IShellItemFilter interface [Windows Shell],described, _shell_IShellItemFilter, shell.IShellItemFilter, shobjidl_core/IShellItemFilter
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IShellItemFilter
 dev_langs:

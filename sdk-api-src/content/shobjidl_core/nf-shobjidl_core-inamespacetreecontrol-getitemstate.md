@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 78bee2db-6a28-4fcb-9c43-ab411196ab04
 ms.date: 12/05/2018
 ms.keywords: GetItemState, GetItemState method [Windows Shell], GetItemState method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],GetItemState method, INameSpaceTreeControl.GetItemState, INameSpaceTreeControl::GetItemState, _shell_INameSpaceTreeControl_GetItemState, shell.INameSpaceTreeControl_GetItemState, shobjidl_core/INameSpaceTreeControl::GetItemState
-ms.topic: method
 f1_keywords:
 - shobjidl_core/INameSpaceTreeControl.GetItemState
 dev_langs:

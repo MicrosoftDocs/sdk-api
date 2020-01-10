@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 036914da-4223-4601-9e4a-4c7840b7dd22
 ms.date: 12/05/2018
 ms.keywords: GetCurrentMode, GetCurrentMode method [DirectShow], GetCurrentMode method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetCurrentMode method, IFullScreenVideoEx.GetCurrentMode, IFullScreenVideoEx::GetCurrentMode, IFullScreenVideoGetCurrentMode, amvideo/IFullScreenVideoEx::GetCurrentMode, dshow.ifullscreenvideoex_getcurrentmode
-ms.topic: method
 f1_keywords:
 - amvideo/IFullScreenVideoEx.GetCurrentMode
 dev_langs:

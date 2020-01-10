@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\rbhittestinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPRBHITTESTINFO, LPRBHITTESTINFO, LPRBHITTESTINFO structure pointer [Windows Controls], RBHITTESTINFO, RBHITTESTINFO structure [Windows Controls], RBHT_CAPTION, RBHT_CHEVRON, RBHT_CLIENT, RBHT_GRABBER, RBHT_NOWHERE, RBHT_SPLITTER, _win32_RBHITTESTINFO, _win32_RBHITTESTINFO_cpp, commctrl/LPRBHITTESTINFO, commctrl/RBHITTESTINFO, controls.RBHITTESTINFO, controls._win32_RBHITTESTINFO'
-ms.topic: struct
 f1_keywords:
 - commctrl/RBHITTESTINFO
 dev_langs:

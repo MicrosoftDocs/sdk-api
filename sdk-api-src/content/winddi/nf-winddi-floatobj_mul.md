@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 95b4c3eb-5e62-4209-9c05-eae9ab48f7ab
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_Mul, FLOATOBJ_Mul function [Display Devices], display.floatobj_mul, gdifncs_1647a791-7781-4e67-a7b1-06b283c32b0b.xml, winddi/FLOATOBJ_Mul
-ms.topic: function
 f1_keywords:
 - winddi/FLOATOBJ_Mul
 dev_langs:

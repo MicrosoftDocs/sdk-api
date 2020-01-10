@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: eceba2a8-baff-436f-b561-d9e130df5702
 ms.date: 12/05/2018
 ms.keywords: GetProvisionedContexts, GetProvisionedContexts method [Microsoft Broadband Networks], GetProvisionedContexts method [Microsoft Broadband Networks],IMbnConnectionContext interface, IMbnConnectionContext interface [Microsoft Broadband Networks],GetProvisionedContexts method, IMbnConnectionContext.GetProvisionedContexts, IMbnConnectionContext::GetProvisionedContexts, mbn.imbnconnectioncontext_getprovisionedcontexts, mbnapi/IMbnConnectionContext::GetProvisionedContexts
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnConnectionContext.GetProvisionedContexts
 dev_langs:

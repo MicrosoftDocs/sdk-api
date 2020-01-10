@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 34dc6f52-6864-4edb-b22d-80eef05d4c8c
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo2, ICreateTypeInfo2 interface [Automation], ICreateTypeInfo2 interface [Automation],described, _oa96_ICreateTypeInfo2_Interface, automat.icreatetypeinfo2, oaidl/ICreateTypeInfo2
-ms.topic: interface
 f1_keywords:
 - oaidl/ICreateTypeInfo2
 dev_langs:

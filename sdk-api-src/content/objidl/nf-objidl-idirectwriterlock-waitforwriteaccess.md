@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: e4505bed-325b-494e-93bd-7bf23b3a1215
 ms.date: 12/05/2018
 ms.keywords: IDirectWriterLock interface [Structured Storage],WaitForWriteAccess method, IDirectWriterLock.WaitForWriteAccess, IDirectWriterLock::WaitForWriteAccess, WaitForWriteAccess, WaitForWriteAccess method [Structured Storage], WaitForWriteAccess method [Structured Storage],IDirectWriterLock interface, _stg_idirectwriterlock_waitforwriteaccess, objidl/IDirectWriterLock::WaitForWriteAccess, stg.idirectwriterlock_waitforwriteaccess
-ms.topic: method
 f1_keywords:
 - objidl/IDirectWriterLock.WaitForWriteAccess
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 3bcfab9f-fad8-4605-8780-0b7c2068fcdf
 ms.date: 12/05/2018
 ms.keywords: IPart, IPart interface [Core Audio], IPart interface [Core Audio],described, coreaudio.ipart, devicetopology/IPart
-ms.topic: interface
 f1_keywords:
 - devicetopology/IPart
 dev_langs:

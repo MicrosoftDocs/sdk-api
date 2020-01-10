@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: c86b8b07-3dd0-48b8-9119-cb438238fc50
 ms.date: 12/05/2018
 ms.keywords: IComTransactionEvents interface [COM+],OnTransactionCommit method, IComTransactionEvents.OnTransactionCommit, IComTransactionEvents::OnTransactionCommit, OnTransactionCommit, OnTransactionCommit method [COM+], OnTransactionCommit method [COM+],IComTransactionEvents interface, _dtc_IComTransactionEvents_OnTransactionCommit, comsvcs/IComTransactionEvents::OnTransactionCommit, cos.icomtransactionevents_ontransactioncommit
-ms.topic: method
 f1_keywords:
 - comsvcs/IComTransactionEvents.OnTransactionCommit
 dev_langs:

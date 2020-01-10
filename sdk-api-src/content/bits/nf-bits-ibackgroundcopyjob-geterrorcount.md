@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 04ca4752-8c4d-4f54-9dfa-3c9f567d7980
 ms.date: 12/05/2018
 ms.keywords: GetErrorCount, GetErrorCount method [BITS], GetErrorCount method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetErrorCount method, IBackgroundCopyJob.GetErrorCount, IBackgroundCopyJob::GetErrorCount, _drz_ibackgroundcopyjob_geterrorcount, bits.ibackgroundcopyjob_geterrorcount, bits/IBackgroundCopyJob::GetErrorCount
-ms.topic: method
 f1_keywords:
 - bits/IBackgroundCopyJob.GetErrorCount
 dev_langs:

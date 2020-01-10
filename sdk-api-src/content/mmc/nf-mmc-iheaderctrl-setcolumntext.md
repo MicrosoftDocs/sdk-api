@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: B760D7E1-DE2D-4E1A-898C-5EC1E99E9B91
 ms.date: 12/05/2018
 ms.keywords: IHeaderCtrl interface [MMC],SetColumnText method, IHeaderCtrl.SetColumnText, IHeaderCtrl::SetColumnText, SetColumnText, SetColumnText method [MMC], SetColumnText method [MMC],IHeaderCtrl interface, mmc.iheaderctrl_setcolumntext, mmc/IHeaderCtrl::SetColumnText
-ms.topic: method
 f1_keywords:
 - mmc/IHeaderCtrl.SetColumnText
 dev_langs:

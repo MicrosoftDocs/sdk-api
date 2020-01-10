@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getframecount.htm
 ms.date: 12/05/2018
 ms.keywords: GetFrameCount, GetFrameCount method [GDI+], GetFrameCount method [GDI+],Image class, Image class [GDI+],GetFrameCount method, Image.GetFrameCount, Image::GetFrameCount, _gdiplus_CLASS_Image_GetFrameCount_dimensionID_, gdiplus._gdiplus_CLASS_Image_GetFrameCount_dimensionID_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Image.GetFrameCount
 dev_langs:

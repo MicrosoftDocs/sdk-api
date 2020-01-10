@@ -7,7 +7,6 @@ tech.root: netshell
 ms.assetid: 2380cd4e-5e41-4bfb-874c-50be09044c85
 ms.date: 12/05/2018
 ms.keywords: NETSH_COMMIT, NETSH_FLUSH, NETSH_SAVE, NETSH_UNCOMMIT, NS_CONTEXT_COMMIT_FN, NS_CONTEXT_COMMIT_FN callback, NS_CONTEXT_COMMIT_FN callback function [NetShell], SampleCommit, _netsh_ns_context_commit_fn, netsh/NS_CONTEXT_COMMIT_FN, netshell.ns_context_commit_fn
-ms.topic: callback
 f1_keywords:
 - netsh/NS_CONTEXT_COMMIT_FN
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\syslink\structures\lhittestinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*PLHITTESTINFO, LHITTESTINFO, LHITTESTINFO structure [Windows Controls], PLHITTESTINFO, PLHITTESTINFO structure pointer [Windows Controls], commctrl/LHITTESTINFO, commctrl/PLHITTESTINFO, controls.LHITTESTINFO, controls.inet_LHITTESTINFO, inet_LHITTESTINFO, inet_LHITTESTINFO_cpp'
-ms.topic: struct
 f1_keywords:
 - commctrl/LHITTESTINFO
 dev_langs:

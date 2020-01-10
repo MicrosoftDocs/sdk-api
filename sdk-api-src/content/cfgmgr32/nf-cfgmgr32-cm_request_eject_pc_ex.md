@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 69bcbfa4-fb89-4b5f-bd0a-260569dfb466
 ms.date: 12/05/2018
 ms.keywords: CM_Request_Eject_PC_Ex, CM_Request_Eject_PC_Ex function [Device and Driver Installation], cfgmgr32/CM_Request_Eject_PC_Ex, cfgmgrfn_332d3bac-644d-407d-82e3-aa26af983184.xml, devinst.cm_request_eject_pc_ex
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Request_Eject_PC_Ex
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 020ee1ad-cab5-4a27-b97b-160319d84ac8
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionManagerEvents interface [Microsoft Broadband Networks],OnConnectionRemoval method, IMbnConnectionManagerEvents.OnConnectionRemoval, IMbnConnectionManagerEvents::OnConnectionRemoval, OnConnectionRemoval, OnConnectionRemoval method [Microsoft Broadband Networks], OnConnectionRemoval method [Microsoft Broadband Networks],IMbnConnectionManagerEvents interface, mbn.imbnconnectionmanagerevents_onconnectionremoval, mbnapi/IMbnConnectionManagerEvents::OnConnectionRemoval
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnConnectionManagerEvents.OnConnectionRemoval
 dev_langs:

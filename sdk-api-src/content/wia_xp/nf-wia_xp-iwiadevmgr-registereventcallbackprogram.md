@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\registereventcallbackprogram.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaDevMgr interface [WIA],RegisterEventCallbackProgram method, IWiaDevMgr.RegisterEventCallbackProgram, IWiaDevMgr::RegisterEventCallbackProgram, RegisterEventCallbackProgram, RegisterEventCallbackProgram method [WIA], RegisterEventCallbackProgram method [WIA],IWiaDevMgr interface, _wia_IWiaDevMgr_RegisterEventCallbackProgram, wia._wia_IWiaDevMgr_RegisterEventCallbackProgram, wia_xp/IWiaDevMgr::RegisterEventCallbackProgram
-ms.topic: method
 f1_keywords:
 - wia_xp/IWiaDevMgr.RegisterEventCallbackProgram
 dev_langs:

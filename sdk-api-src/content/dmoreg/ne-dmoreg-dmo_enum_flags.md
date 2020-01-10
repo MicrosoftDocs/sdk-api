@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ef2be8d8-99d9-4200-8edb-284a5b216814
 ms.date: 12/05/2018
 ms.keywords: DMO_ENUMF_INCLUDE_KEYED, DMO_ENUM_FLAGS, DMO_ENUM_FLAGS enumeration [DirectShow], DMO_ENUM_FLAGSEnumeration, dmoreg/DMO_ENUMF_INCLUDE_KEYED, dmoreg/DMO_ENUM_FLAGS, dshow.dmo_enum_flags
-ms.topic: enum
 f1_keywords:
 - dmoreg/DMO_ENUM_FLAGS
 dev_langs:

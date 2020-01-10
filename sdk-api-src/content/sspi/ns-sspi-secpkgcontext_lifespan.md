@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 7ef45795-f6af-4dac-a498-c6f8c915a168
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_Lifespan, PSecPkgContext_Lifespan, PSecPkgContext_Lifespan structure pointer [Security], SecPkgContext_Lifespan, SecPkgContext_Lifespan structure [Security], _ssp_secpkgcontext_lifespan, security.secpkgcontext_lifespan, sspi/PSecPkgContext_Lifespan, sspi/SecPkgContext_Lifespan'
-ms.topic: struct
 f1_keywords:
 - sspi/SecPkgContext_Lifespan
 dev_langs:

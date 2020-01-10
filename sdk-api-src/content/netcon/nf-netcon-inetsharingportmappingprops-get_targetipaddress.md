@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: af794535-8b36-4306-a220-f4938f0e6ee9
 ms.date: 12/05/2018
 ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_TargetIPAddress method, INetSharingPortMappingProps.get_TargetIPAddress, INetSharingPortMappingProps::get_TargetIPAddress, _ics_inetsharingportmappingprops_get_targetipaddress, get_TargetIPAddress, get_TargetIPAddress method [ICS/ICF], get_TargetIPAddress method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_targetipaddress, netcon/INetSharingPortMappingProps::get_TargetIPAddress
-ms.topic: method
 f1_keywords:
 - netcon/INetSharingPortMappingProps.get_TargetIPAddress
 dev_langs:

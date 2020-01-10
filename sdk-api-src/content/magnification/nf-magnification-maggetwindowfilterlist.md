@@ -7,7 +7,6 @@ tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\maggetwindowfilterlist.htm
 ms.date: 12/05/2018
 ms.keywords: MagGetWindowFilterList, MagGetWindowFilterList function [Magnification API], magapi.magapi_MagGetWindowFilterList, magapi_MagGetWindowFilterList, magnification/MagGetWindowFilterList
-ms.topic: function
 f1_keywords:
 - magnification/MagGetWindowFilterList
 dev_langs:

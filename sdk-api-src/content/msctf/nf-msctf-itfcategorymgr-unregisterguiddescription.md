@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 42bc1ddc-9f11-40dc-849c-2effc6efe1c8
 ms.date: 12/05/2018
 ms.keywords: ITfCategoryMgr interface [Text Services Framework],UnregisterGUIDDescription method, ITfCategoryMgr.UnregisterGUIDDescription, ITfCategoryMgr::UnregisterGUIDDescription, UnregisterGUIDDescription, UnregisterGUIDDescription method [Text Services Framework], UnregisterGUIDDescription method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_unregisterguiddescription_ref, msctf/ITfCategoryMgr::UnregisterGUIDDescription, tsf.itfcategorymgr_unregisterguiddescription
-ms.topic: method
 f1_keywords:
 - msctf/ITfCategoryMgr.UnregisterGUIDDescription
 dev_langs:

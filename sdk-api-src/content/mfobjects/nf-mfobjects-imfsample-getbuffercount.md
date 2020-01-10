@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: fe05e870-298b-44bf-90b7-70be40d045ab
 ms.date: 12/05/2018
 ms.keywords: GetBufferCount, GetBufferCount method [Media Foundation], GetBufferCount method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetBufferCount method, IMFSample.GetBufferCount, IMFSample::GetBufferCount, fe05e870-298b-44bf-90b7-70be40d045ab, mf.imfsample_getbuffercount, mfobjects/IMFSample::GetBufferCount
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFSample.GetBufferCount
 dev_langs:

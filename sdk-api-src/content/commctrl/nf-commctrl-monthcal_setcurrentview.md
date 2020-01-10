@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setcurrentview.htm
 ms.date: 12/05/2018
 ms.keywords: MCMV_CENTURY, MCMV_DECADE, MCMV_MONTH, MCMV_YEAR, MonthCal_SetCurrentView, MonthCal_SetCurrentView macro [Windows Controls], _shell_MonthCal_SetCurrentView, _shell_MonthCal_SetCurrentView_cpp, commctrl/MonthCal_SetCurrentView, controls.MonthCal_SetCurrentView, controls._shell_MonthCal_SetCurrentView
-ms.topic: macro
 f1_keywords:
 - commctrl/MonthCal_SetCurrentView
 dev_langs:

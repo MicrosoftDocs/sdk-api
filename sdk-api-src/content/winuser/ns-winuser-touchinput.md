@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: fc382759-3a1e-401e-a6a7-1bf209a5434b
 ms.date: 12/05/2018
 ms.keywords: '*PTOUCHINPUT, PTOUCHINPUT, PTOUCHINPUT structure pointer [Windows Touch], TOUCHINPUT, TOUCHINPUT structure [Windows Touch], tagTOUCHINPUT, wintouch.touchinput, winuser/PTOUCHINPUT, winuser/TOUCHINPUT'
-ms.topic: struct
 f1_keywords:
 - winuser/TOUCHINPUT
 dev_langs:

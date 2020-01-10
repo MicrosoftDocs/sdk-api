@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3089656d-2e64-4d65-aa18-0a451d82fa95
 ms.date: 12/05/2018
 ms.keywords: DriveType, DriveType function [Windows Shell], _shell_DriveType, shell.DriveType, shlobj_core/DriveType
-ms.topic: function
 f1_keywords:
 - shlobj/DriveType
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\draglb\functions\lbitemfrompt.htm
 ms.date: 12/05/2018
 ms.keywords: LBItemFromPt, LBItemFromPt function [Windows Controls], _win32_LBItemFromPt, _win32_LBItemFromPt_cpp, commctrl/LBItemFromPt, controls.LBItemFromPt, controls._win32_LBItemFromPt
-ms.topic: function
 f1_keywords:
 - commctrl/LBItemFromPt
 dev_langs:

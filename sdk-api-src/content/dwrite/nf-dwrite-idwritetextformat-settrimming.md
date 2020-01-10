@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 737eab93-2761-4a59-81e8-ef827be30325
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextFormat interface [Direct Write],SetTrimming method, IDWriteTextFormat.SetTrimming, IDWriteTextFormat::SetTrimming, SetTrimming, SetTrimming method [Direct Write], SetTrimming method [Direct Write],IDWriteTextFormat interface, directwrite.IDWriteTextFormat_SetTrimming, dwrite/IDWriteTextFormat::SetTrimming
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextFormat.SetTrimming
 dev_langs:

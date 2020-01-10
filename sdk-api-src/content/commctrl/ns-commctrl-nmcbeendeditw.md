@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboex\structures\nmcbeendedit.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMCBEENDEDITW, *PNMCBEENDEDITW, CBENF_DROPDOWN, CBENF_ESCAPE, CBENF_KILLFOCUS, CBENF_RETURN, NMCBEENDEDIT, NMCBEENDEDIT structure [Windows Controls], NMCBEENDEDITA, NMCBEENDEDITW, PNMCBEENDEDIT, PNMCBEENDEDIT structure pointer [Windows Controls], _win32_NMCBEENDEDIT, _win32_NMCBEENDEDIT_cpp, commctrl/NMCBEENDEDIT, commctrl/NMCBEENDEDITA, commctrl/NMCBEENDEDITW, commctrl/PNMCBEENDEDIT, controls.NMCBEENDEDIT, controls._win32_NMCBEENDEDIT'
-ms.topic: struct
 f1_keywords:
 - commctrl/NMCBEENDEDIT
 dev_langs:

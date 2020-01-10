@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 0f8c5353-5740-4c7e-91be-f336424fb93a
 ms.date: 12/05/2018
 ms.keywords: IServicePartitionConfig interface [COM+],PartitionConfig method, IServicePartitionConfig.PartitionConfig, IServicePartitionConfig::PartitionConfig, PartitionConfig, PartitionConfig method [COM+], PartitionConfig method [COM+],IServicePartitionConfig interface, _cos_IServicePartitionConfig_PartitionConfig, comsvcs/IServicePartitionConfig::PartitionConfig, cos.iservicepartitionconfig_partitionconfig
-ms.topic: method
 f1_keywords:
 - comsvcs/IServicePartitionConfig.PartitionConfig
 dev_langs:

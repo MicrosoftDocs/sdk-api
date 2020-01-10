@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: f650765e-7a72-42a3-baf7-29779fd04adc
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_SIGNED_CONTENT_INFO, CERT_SIGNED_CONTENT_INFO, CERT_SIGNED_CONTENT_INFO structure [Security], PCERT_SIGNED_CONTENT_INFO, PCERT_SIGNED_CONTENT_INFO structure pointer [Security], _crypto2_cert_signed_content_info, security.cert_signed_content_info, wincrypt/CERT_SIGNED_CONTENT_INFO, wincrypt/PCERT_SIGNED_CONTENT_INFO'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_SIGNED_CONTENT_INFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: B0AF7987-B25B-4496-9B8F-1D9C16DF5E50
 ms.date: 12/05/2018
 ms.keywords: D3D12_SHADER_TYPE_DESC, D3D12_SHADER_TYPE_DESC structure, d3d12shader/D3D12_SHADER_TYPE_DESC, direct3d12.d3d12_shader_type_desc
-ms.topic: struct
 f1_keywords:
 - d3d12shader/D3D12_SHADER_TYPE_DESC
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconstructures\iconmetrics.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPICONMETRICSW, *PICONMETRICSW, ICONMETRICS, ICONMETRICS structure [Menus and Other Resources], ICONMETRICSA, ICONMETRICSW, LPICONMETRICS, LPICONMETRICS structure pointer [Menus and Other Resources], PICONMETRICS, PICONMETRICS structure pointer [Menus and Other Resources], _win32_ICONMETRICS_str, _win32_iconmetrics_str_cpp, menurc.iconmetrics, winui._win32_iconmetrics_str, winuser/ICONMETRICS, winuser/ICONMETRICSA, winuser/ICONMETRICSW, winuser/LPICONMETRICS, winuser/PICONMETRICS'
-ms.topic: struct
 f1_keywords:
 - winuser/ICONMETRICS
 dev_langs:

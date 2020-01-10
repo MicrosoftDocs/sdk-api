@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 376c662d-c0e1-4136-937c-47a4681c14ec
 ms.date: 12/05/2018
 ms.keywords: PPP_NBFCP_INFO, PPP_NBFCP_INFO structure [RAS], _mpr_ppp_nbfcp_info, mprapi/PPP_NBFCP_INFO, rras.ppp_nbfcp_info
-ms.topic: struct
 f1_keywords:
 - mprapi/PPP_NBFCP_INFO
 dev_langs:

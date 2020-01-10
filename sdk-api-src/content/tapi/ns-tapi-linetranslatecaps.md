@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 9b4dcbe6-41e9-4b9c-9150-d0c7edef5a19
 ms.date: 12/05/2018
 ms.keywords: '*LPLINETRANSLATECAPS, LINETRANSLATECAPS, LINETRANSLATECAPS structure [TAPI 2.2], LPLINETRANSLATECAPS, LPLINETRANSLATECAPS structure pointer [TAPI 2.2], _tapi2_linetranslatecaps_str, tapi/LINETRANSLATECAPS, tapi/LPLINETRANSLATECAPS, tapi2.linetranslatecaps_str'
-ms.topic: struct
 f1_keywords:
 - tapi/LINETRANSLATECAPS
 dev_langs:

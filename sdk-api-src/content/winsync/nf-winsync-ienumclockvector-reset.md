@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: cf61db66-c621-486a-a70a-5d24d3cf74da
 ms.date: 12/05/2018
 ms.keywords: IEnumClockVector interface [Windows Sync],Reset method, IEnumClockVector.Reset, IEnumClockVector::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumClockVector interface, winsync.ienumclockvector_reset, winsync/IEnumClockVector::Reset
-ms.topic: method
 f1_keywords:
 - winsync/IEnumClockVector.Reset
 dev_langs:

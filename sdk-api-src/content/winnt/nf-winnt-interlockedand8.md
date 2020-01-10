@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 1b900308-f1dd-465b-b67d-ec2655819425
 ms.date: 12/05/2018
 ms.keywords: InterlockedAnd8, InterlockedAnd8 function, base.interlockedand8, winnt/InterlockedAnd8
-ms.topic: function
 f1_keywords:
 - winnt/InterlockedAnd8
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 71214ca2-2613-4dbe-a72b-37d4f768ab6b
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferSink2 interface [Microsoft TV Technologies],UnlockProfile method, IStreamBufferSink2.UnlockProfile, IStreamBufferSink2::UnlockProfile, IStreamBufferSink2UnlockProfile, UnlockProfile, UnlockProfile method [Microsoft TV Technologies], UnlockProfile method [Microsoft TV Technologies],IStreamBufferSink2 interface, mstv.istreambuffersink2_unlockprofile, sbe/IStreamBufferSink2::UnlockProfile
-ms.topic: method
 f1_keywords:
 - sbe/IStreamBufferSink2.UnlockProfile
 dev_langs:

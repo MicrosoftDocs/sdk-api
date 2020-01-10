@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 62027f7b-9ecc-4631-b755-2302e0bb49c0
 ms.date: 12/05/2018
 ms.keywords: QOSEnumerateFlows, QOSEnumerateFlows function [QOS], qos.qosenumerateflows, qos2/QOSEnumerateFlows
-ms.topic: function
 f1_keywords:
 - qos2/QOSEnumerateFlows
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: b2d933c0-5e52-4078-82ea-844c2415eb45
 ms.date: 12/05/2018
 ms.keywords: THREAD_WRITE_FLAGS, THREAD_WRITE_FLAGS enumeration, ThreadWriteBackingStore, ThreadWriteContext, ThreadWriteInstructionWindow, ThreadWriteStack, ThreadWriteThread, ThreadWriteThreadData, ThreadWriteThreadInfo, _win32_thread_write_flags, base.thread_write_flags, minidumpapiset/THREAD_WRITE_FLAGS, minidumpapiset/ThreadWriteBackingStore, minidumpapiset/ThreadWriteContext, minidumpapiset/ThreadWriteInstructionWindow, minidumpapiset/ThreadWriteStack, minidumpapiset/ThreadWriteThread, minidumpapiset/ThreadWriteThreadData, minidumpapiset/ThreadWriteThreadInfo
-ms.topic: enum
 f1_keywords:
 - minidumpapiset/THREAD_WRITE_FLAGS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: aaaafed9-be20-40a2-beed-09703970452f
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetDuplicate2 method, ITextFont2.SetDuplicate2, ITextFont2::SetDuplicate2, SetDuplicate2, SetDuplicate2 method [Windows Controls], SetDuplicate2 method [Windows Controls],ITextFont2 interface, controls.itextfont2_setduplicate2, tom/ITextFont2::SetDuplicate2
-ms.topic: method
 f1_keywords:
 - tom/ITextFont2.SetDuplicate2
 dev_langs:

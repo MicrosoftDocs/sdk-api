@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: c359c4c8-f53d-48f1-a2ac-9275751b48dc
 ms.date: 12/05/2018
 ms.keywords: HashAlgorithmWStr property [Security], HashAlgorithmWStr property [Security],IEnroll interface, IEnroll interface [Security],HashAlgorithmWStr property, IEnroll.HashAlgorithmWStr, IEnroll.get_HashAlgorithmWStr, IEnroll::HashAlgorithmWStr, IEnroll::get_HashAlgorithmWStr, IEnroll::put_HashAlgorithmWStr, get_HashAlgorithmWStr, security.ienroll4_hashalgorithmwstr, xenroll/IEnroll::HashAlgorithmWStr, xenroll/IEnroll::get_HashAlgorithmWStr, xenroll/IEnroll::put_HashAlgorithmWStr
-ms.topic: method
 f1_keywords:
 - xenroll/IEnroll.HashAlgorithmWStr
 dev_langs:

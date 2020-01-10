@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: B97ECFD8-2E96-425F-B29E-49E7D53BBFCB
 ms.date: 12/05/2018
 ms.keywords: GetPadding, GetPadding method [Media Foundation], GetPadding method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetPadding method, IMFTimedTextRegion.GetPadding, IMFTimedTextRegion::GetPadding, mf.imftimedtextregion_getpadding, mfmediaengine/IMFTimedTextRegion::GetPadding
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFTimedTextRegion.GetPadding
 dev_langs:

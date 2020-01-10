@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: c365029a-3ff3-49c1-9dfc-b52948e466f3
 ms.date: 12/05/2018
 ms.keywords: AuthzGetInformationFromContext, AuthzGetInformationFromContext function [Security], _win32_authzgetinformationfromcontext, authz/AuthzGetInformationFromContext, security.authzgetinformationfromcontext
-ms.topic: function
 f1_keywords:
 - authz/AuthzGetInformationFromContext
 dev_langs:

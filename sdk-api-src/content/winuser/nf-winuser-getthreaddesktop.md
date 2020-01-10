@@ -7,7 +7,6 @@ tech.root: winstation
 ms.assetid: 51eec935-43c7-495b-b1fc-2bd5ba1e0090
 ms.date: 12/05/2018
 ms.keywords: GetThreadDesktop, GetThreadDesktop function [Windows Stations and Desktops], _win32_getthreaddesktop, base.getthreaddesktop, winstation.getthreaddesktop, winuser/GetThreadDesktop
-ms.topic: function
 f1_keywords:
 - winuser/GetThreadDesktop
 dev_langs:

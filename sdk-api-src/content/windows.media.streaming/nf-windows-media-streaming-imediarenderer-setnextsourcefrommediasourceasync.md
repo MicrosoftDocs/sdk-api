@@ -7,7 +7,6 @@ tech.root: mediastreaming
 ms.assetid: 054203C8-766B-4448-A275-CA61C9D177AD
 ms.date: 12/05/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],SetNextSourceFromMediaSourceAsync method, IMediaRenderer.SetNextSourceFromMediaSourceAsync, IMediaRenderer.streaming, IMediaRenderer::SetNextSourceFromMediaSourceAsync, IMediaRenderer::streaming, SetNextSourceFromMediaSourceAsync, SetNextSourceFromMediaSourceAsync method [Media Streaming API], SetNextSourceFromMediaSourceAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_setnextsourcefrommediasourceasync, windows/IMediaRenderer::SetNextSourceFromMediaSourceAsync
-ms.topic: method
 f1_keywords:
 - windows.media.streaming/IMediaRenderer.SetNextSourceFromMediaSourceAsync
 dev_langs:

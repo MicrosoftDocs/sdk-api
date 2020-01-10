@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 3c38ecf5-1288-4a50-ad17-595e9ff4aaca
 ms.date: 12/05/2018
 ms.keywords: CredIsProtected, CredIsProtected function [Security], CredIsProtectedA, CredIsProtectedW, security.credisprotected, wincred/CredIsProtected, wincred/CredIsProtectedA, wincred/CredIsProtectedW
-ms.topic: function
 f1_keywords:
 - wincred/CredIsProtected
 dev_langs:

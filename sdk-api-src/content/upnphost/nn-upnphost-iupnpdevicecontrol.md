@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: c5d68459-f4ba-4df1-a00c-be86e24ce29f
 ms.date: 12/05/2018
 ms.keywords: IUPnPDeviceControl, IUPnPDeviceControl interface [UPnP APIs], IUPnPDeviceControl interface [UPnP APIs],described, _upnp_iupnpdevicecontrol, upnp.iupnpdevicecontrol, upnphost/IUPnPDeviceControl
-ms.topic: interface
 f1_keywords:
 - upnphost/IUPnPDeviceControl
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 4c589a79-c71f-40fc-8bf2-5163ae652d70
 ms.date: 12/05/2018
 ms.keywords: IAuxInTuningSpace2 interface [Microsoft TV Technologies],put_CountryCode method, IAuxInTuningSpace2.put_CountryCode, IAuxInTuningSpace2::put_CountryCode, IAuxInTuningSpace2put_CountryCode, mstv.iauxintuningspace2_put_countrycode, put_CountryCode, put_CountryCode method [Microsoft TV Technologies], put_CountryCode method [Microsoft TV Technologies],IAuxInTuningSpace2 interface, tuner/IAuxInTuningSpace2::put_CountryCode
-ms.topic: method
 f1_keywords:
 - tuner/IAuxInTuningSpace2.put_CountryCode
 dev_langs:

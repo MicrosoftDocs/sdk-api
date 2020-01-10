@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 541363e2-a112-4070-af6d-3f5de60a3cd1
 ms.date: 12/05/2018
 ms.keywords: Int8ToUShort, Int8ToUShort function [Windows Shell], intsafe/Int8ToUShort, shell.Int8ToUShort
-ms.topic: function
 f1_keywords:
 - intsafe/Int8ToUShort
 dev_langs:

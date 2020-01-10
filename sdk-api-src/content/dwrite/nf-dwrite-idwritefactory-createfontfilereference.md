@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: ec67407d-e19b-4135-83ff-f3115e2da90c
 ms.date: 12/05/2018
 ms.keywords: CreateFontFileReference, CreateFontFileReference method [Direct Write], CreateFontFileReference method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateFontFileReference method, IDWriteFactory.CreateFontFileReference, IDWriteFactory::CreateFontFileReference, directwrite.IDWriteFactory_CreateFontFileReference, dwrite/IDWriteFactory::CreateFontFileReference
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteFactory.CreateFontFileReference
 dev_langs:

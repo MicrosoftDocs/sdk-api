@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 0596f422-39ff-41ea-8bbd-63381d418ec8
 ms.date: 12/05/2018
 ms.keywords: SetupDiCreateDeviceInfoList, SetupDiCreateDeviceInfoList function [Device and Driver Installation], devinst.setupdicreatedeviceinfolist, di-rtns_8b7e7f05-0c72-4ae0-aee7-b88e8a59cc63.xml, setupapi/SetupDiCreateDeviceInfoList
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiCreateDeviceInfoList
 dev_langs:

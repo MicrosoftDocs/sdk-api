@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 5804dece-7243-4f41-a949-e663852219e8
 ms.date: 12/05/2018
 ms.keywords: ExportFileScreenTemplates, ExportFileScreenTemplates method [File Server Resource Manager], ExportFileScreenTemplates method [File Server Resource Manager],FsrmExportImport class, ExportFileScreenTemplates method [File Server Resource Manager],IFsrmExportImport interface, FsrmExportImport class [File Server Resource Manager],ExportFileScreenTemplates method, IFsrmExportImport interface [File Server Resource Manager],ExportFileScreenTemplates method, IFsrmExportImport.ExportFileScreenTemplates, IFsrmExportImport::ExportFileScreenTemplates, fs.ifsrmexportimport_exportfilescreentemplates, fsrm.ifsrmexportimport_exportfilescreentemplates, fsrm/IFsrmExportImport::ExportFileScreenTemplates
-ms.topic: method
 f1_keywords:
 - fsrm/IFsrmExportImport.ExportFileScreenTemplates
 dev_langs:

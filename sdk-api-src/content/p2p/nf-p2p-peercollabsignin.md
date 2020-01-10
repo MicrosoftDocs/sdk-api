@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 927cccfa-2711-439c-833f-348087927c09
 ms.date: 12/05/2018
 ms.keywords: PeerCollabSignin, PeerCollabSignin function [Peer Networking], p2p.peercollabsignin, p2p/PeerCollabSignin
-ms.topic: function
 f1_keywords:
 - p2p/PeerCollabSignin
 dev_langs:

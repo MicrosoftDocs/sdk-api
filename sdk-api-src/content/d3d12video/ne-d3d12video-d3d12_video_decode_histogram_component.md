@@ -5,7 +5,6 @@ description: Specifies indices for arrays of per component histogram information
 tech.root: mf
 ms.assetid: e503a4a5-9a6d-4c2d-8f6e-1fe0e2e24c22
 ms.date: 11/14/2019
-ms.topic: enum
 f1_keywords:
 - D3D12_VIDEO_DECODE_HISTOGRAM_COMPONENT
 dev_langs:

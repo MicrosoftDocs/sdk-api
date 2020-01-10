@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 73380F30-E219-4670-86DA-63CDA10C94BF
 ms.date: 12/05/2018
 ms.keywords: MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA, MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA structure [Media Foundation], mf.mfcontentprotectiondevice_output_data, mfidl/MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
-ms.topic: struct
 f1_keywords:
 - mfidl/MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
 dev_langs:

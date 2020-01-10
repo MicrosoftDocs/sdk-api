@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 966B23A1-5CE3-43C3-8D3B-2243C2D6322D
 ms.date: 12/5/2018
 ms.keywords: IDMLDevice interface,MakeResident method, IDMLDevice.MakeResident, IDMLDevice::MakeResident, MakeResident, MakeResident method, MakeResident method,IDMLDevice interface, direct3d12.idmldevice_makeresident, directml/IDMLDevice::MakeResident
-ms.topic: method
 f1_keywords:
 - directml/IDMLDevice.MakeResident
 dev_langs:

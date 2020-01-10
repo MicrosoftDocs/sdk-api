@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 75409b5a-c003-49f2-aceb-a28330b92b0a
 ms.date: 12/05/2018
 ms.keywords: SetWindowOrgEx, SetWindowOrgEx function [Windows GDI], _win32_SetWindowOrgEx, gdi.setwindoworgex, wingdi/SetWindowOrgEx
-ms.topic: function
 f1_keywords:
 - wingdi/SetWindowOrgEx
 dev_langs:

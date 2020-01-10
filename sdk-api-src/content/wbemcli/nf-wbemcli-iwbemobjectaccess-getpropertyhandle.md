@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 889d90cd-f53f-460e-b1c2-ed2b87863d58
 ms.date: 12/05/2018
 ms.keywords: GetPropertyHandle, GetPropertyHandle method [Windows Management Instrumentation], GetPropertyHandle method [Windows Management Instrumentation],IWbemObjectAccess interface, IWbemObjectAccess interface [Windows Management Instrumentation],GetPropertyHandle method, IWbemObjectAccess.GetPropertyHandle, IWbemObjectAccess::GetPropertyHandle, _hmm_iwbemobjectaccess_getpropertyhandle, wbemcli/IWbemObjectAccess::GetPropertyHandle, wmi.iwbemobjectaccess_getpropertyhandle
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemObjectAccess.GetPropertyHandle
 dev_langs:

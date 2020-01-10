@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: ca98c7bb-7348-405d-976a-18012b0886c6
 ms.date: 12/05/2018
 ms.keywords: ITfContext, ITfContext interface [Text Services Framework], ITfContext interface [Text Services Framework],described, _tsf_itfcontext_ref, msctf/ITfContext, tsf.itfcontext
-ms.topic: interface
 f1_keywords:
 - msctf/ITfContext
 dev_langs:

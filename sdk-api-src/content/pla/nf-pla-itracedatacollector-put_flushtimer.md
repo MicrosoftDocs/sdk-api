@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 545f40ec-cbe2-4109-a018-d27000eeaf08
 ms.date: 12/05/2018
 ms.keywords: FlushTimer property [PLA], FlushTimer property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],FlushTimer property, ITraceDataCollector.FlushTimer, ITraceDataCollector.put_FlushTimer, ITraceDataCollector::FlushTimer, ITraceDataCollector::get_FlushTimer, ITraceDataCollector::put_FlushTimer, base.itracedatacollector_flushtimer, pla.itracedatacollector_flushtimer, pla/ITraceDataCollector::FlushTimer, pla/ITraceDataCollector::get_FlushTimer, pla/ITraceDataCollector::put_FlushTimer, put_FlushTimer
-ms.topic: method
 f1_keywords:
 - pla/ITraceDataCollector.FlushTimer
 dev_langs:

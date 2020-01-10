@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: bdd8f7a6-0c77-4058-bcca-9d712da781e0
 ms.date: 12/05/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],ConvertNextToCurrent method, ICAT.ConvertNextToCurrent, ICAT::ConvertNextToCurrent, ICATConvertNextToCurrent, mpeg2psiparser/ICAT::ConvertNextToCurrent, mstv.icat_convertnexttocurrent
-ms.topic: method
 f1_keywords:
 - mpeg2psiparser/ICAT.ConvertNextToCurrent
 dev_langs:

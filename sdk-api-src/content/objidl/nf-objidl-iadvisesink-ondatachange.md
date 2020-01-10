@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 834a5328-3a1f-4edb-aad0-be8ab87acb04
 ms.date: 12/05/2018
 ms.keywords: IAdviseSink interface [COM],OnDataChange method, IAdviseSink.OnDataChange, IAdviseSink::OnDataChange, OnDataChange, OnDataChange method [COM], OnDataChange method [COM],IAdviseSink interface, _ole_iadvisesink_ondatachange, com.iadvisesink_ondatachange, objidl/IAdviseSink::OnDataChange
-ms.topic: method
 f1_keywords:
 - objidl/IAdviseSink.OnDataChange
 dev_langs:

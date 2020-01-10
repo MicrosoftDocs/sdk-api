@@ -5,7 +5,6 @@ description: Specifies a bitstream encryption type.
 tech.root: mf
 ms.assetid: 54de4ba4-fa73-4d1b-9d57-86387bbb90b0
 ms.date: 05/28/2019
-ms.topic: enum
 f1_keywords:
 - D3D12_BITSTREAM_ENCRYPTION_TYPE
 dev_langs:

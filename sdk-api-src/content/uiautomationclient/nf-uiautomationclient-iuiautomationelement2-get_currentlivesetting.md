@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 3510E0AD-FB79-4636-B6EF-AE0FB62AD55C
 ms.date: 12/05/2018
 ms.keywords: CurrentLiveSetting property [Windows Accessibility], CurrentLiveSetting property [Windows Accessibility],IUIAutomationElement2 interface, IUIAutomationElement2 interface [Windows Accessibility],CurrentLiveSetting property, IUIAutomationElement2.CurrentLiveSetting, IUIAutomationElement2.get_CurrentLiveSetting, IUIAutomationElement2::CurrentLiveSetting, IUIAutomationElement2::get_CurrentLiveSetting, get_CurrentLiveSetting, uiautomationclient/IUIAutomationElement2::CurrentLiveSetting, uiautomationclient/IUIAutomationElement2::get_CurrentLiveSetting, winauto.uiauto_iuiautomationelement2_currentlivesetting
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationElement2.CurrentLiveSetting
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: b1922ff2-6322-4868-ab7b-2f18386d7d08
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],RemoveEnvironmentFromStore method, ITsSbResourcePluginStore.RemoveEnvironmentFromStore, ITsSbResourcePluginStore::RemoveEnvironmentFromStore, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],RemoveEnvironmentFromStore method, ITsSbResourcePluginStoreEx::RemoveEnvironmentFromStore, RemoveEnvironmentFromStore, RemoveEnvironmentFromStore method [Remote Desktop Services], RemoveEnvironmentFromStore method [Remote Desktop Services],ITsSbResourcePluginStore interface, RemoveEnvironmentFromStore method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::RemoveEnvironmentFromStore, sbtsv/ITsSbResourcePluginStoreEx::RemoveEnvironmentFromStore, termserv.itssbresourcepluginstore_removeenvironmentfromstore
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbResourcePluginStore.RemoveEnvironmentFromStore
 dev_langs:

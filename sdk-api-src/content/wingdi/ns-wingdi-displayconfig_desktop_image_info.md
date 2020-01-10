@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 2DACA175-19BC-4192-A2FF-CB8AC7220B98
 ms.date: 12/05/2018
 ms.keywords: DISPLAYCONFIG_DESKTOP_IMAGE_INFO, DISPLAYCONFIG_DESKTOP_IMAGE_INFO structure [Display Devices], display.displayconfig_desktop_image_info, wingdi/DISPLAYCONFIG_DESKTOP_IMAGE_INFO
-ms.topic: struct
 f1_keywords:
 - wingdi/DISPLAYCONFIG_DESKTOP_IMAGE_INFO
 dev_langs:

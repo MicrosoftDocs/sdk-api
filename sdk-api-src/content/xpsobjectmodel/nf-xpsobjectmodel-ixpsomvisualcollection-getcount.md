@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 5a89f2ab-47b3-4e82-94ac-d3aa8c02ff60
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMVisualCollection interface, IXpsOMVisualCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMVisualCollection.GetCount, IXpsOMVisualCollection::GetCount, xps.ixpsomvisualcollection_getcount, xpsobjectmodel/IXpsOMVisualCollection::GetCount
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisualCollection.GetCount
 dev_langs:

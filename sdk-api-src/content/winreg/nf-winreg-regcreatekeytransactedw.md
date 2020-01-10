@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: f18e5ff9-41c3-4c26-8d01-a8ec69bcdef2
 ms.date: 12/05/2018
 ms.keywords: REG_CREATED_NEW_KEY, REG_OPENED_EXISTING_KEY, REG_OPTION_BACKUP_RESTORE, REG_OPTION_NON_VOLATILE, REG_OPTION_VOLATILE, RegCreateKeyTransacted, RegCreateKeyTransacted function, RegCreateKeyTransactedA, RegCreateKeyTransactedW, base.regcreatekeytransacted, winreg/RegCreateKeyTransacted, winreg/RegCreateKeyTransactedA, winreg/RegCreateKeyTransactedW
-ms.topic: function
 f1_keywords:
 - winreg/RegCreateKeyTransacted
 dev_langs:

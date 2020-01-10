@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: e807489a-250e-4d4c-adb6-eff8ac30603b
 ms.date: 12/05/2018
 ms.keywords: NetRemoteComputerSupports, NetRemoteComputerSupports function [Network Management], SUPPORTS_LOCAL, SUPPORTS_REMOTE_ADMIN_PROTOCOL, SUPPORTS_RPC, SUPPORTS_SAM_PROTOCOL, SUPPORTS_UNICODE, _win32_netremotecomputersupports, lmremutl/NetRemoteComputerSupports, netmgmt.netremotecomputersupports
-ms.topic: function
 f1_keywords:
 - lmremutl/NetRemoteComputerSupports
 dev_langs:

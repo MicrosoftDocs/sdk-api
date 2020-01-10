@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: cb11435a-86f0-4b06-bfc6-e0417f2897a1
 ms.date: 12/05/2018
 ms.keywords: SHChangeNotifyEntry, SHChangeNotifyEntry structure [Windows Shell], _SHChangeNotifyEntry, _win32_SHChangeNotifyEntry, shell.SHChangeNotifyEntry, shlobj_core/SHChangeNotifyEntry
-ms.topic: struct
 f1_keywords:
 - shlobj_core/SHChangeNotifyEntry
 dev_langs:

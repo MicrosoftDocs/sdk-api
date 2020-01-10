@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 97ef1fb3-11c8-4889-82d4-9be4734a95ba
 ms.date: 12/05/2018
 ms.keywords: VarI4FromDate, VarI4FromDate function [Automation], _oa96_VarI4FromDate, automat.vari4fromdate, oleauto/VarI4FromDate
-ms.topic: function
 f1_keywords:
 - oleauto/VarI4FromDate
 dev_langs:

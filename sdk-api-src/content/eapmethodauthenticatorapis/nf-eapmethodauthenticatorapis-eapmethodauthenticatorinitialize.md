@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 19484962-01fa-4abe-a6b4-c05b8112b0aa
 ms.date: 12/05/2018
 ms.keywords: EapMethodAuthenticatorInitialize, EapMethodAuthenticatorInitialize function [EAPHost], eaphost.eapmethodauthenticatorinitialize, eapmethodauthenticatorapis/EapMethodAuthenticatorInitialize
-ms.topic: function
 f1_keywords:
 - eapmethodauthenticatorapis/EapMethodAuthenticatorInitialize
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 96aec0cc-b3e1-4b4b-aa0e-ecf05b9fabbe
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_INTERACTIVE_LOGON, KERB_INTERACTIVE_LOGON, KERB_INTERACTIVE_LOGON structure [Security], PKERB_INTERACTIVE_LOGON, PKERB_INTERACTIVE_LOGON structure pointer [Security], _lsa_kerb_interactive_logon, ntsecapi/KERB_INTERACTIVE_LOGON, ntsecapi/PKERB_INTERACTIVE_LOGON, security.kerb_interactive_logon'
-ms.topic: struct
 f1_keywords:
 - ntsecapi/KERB_INTERACTIVE_LOGON
 dev_langs:

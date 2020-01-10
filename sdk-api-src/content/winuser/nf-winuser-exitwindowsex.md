@@ -7,7 +7,6 @@ tech.root: Shutdown
 ms.assetid: f44ccb66-10bd-4ee6-93e1-16948cf10e50
 ms.date: 12/05/2018
 ms.keywords: EWX_FORCE, EWX_FORCEIFHUNG, EWX_HYBRID_SHUTDOWN, EWX_LOGOFF, EWX_POWEROFF, EWX_REBOOT, EWX_RESTARTAPPS, EWX_SHUTDOWN, ExitWindowsEx, ExitWindowsEx function, _win32_exitwindowsex, base.exitwindowsex, winuser/ExitWindowsEx
-ms.topic: function
 f1_keywords:
 - winuser/ExitWindowsEx
 dev_langs:

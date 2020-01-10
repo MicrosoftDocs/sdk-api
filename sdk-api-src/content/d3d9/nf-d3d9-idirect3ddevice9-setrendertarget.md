@@ -7,7 +7,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setrendertarget.htm
 ms.date: 12/05/2018
 ms.keywords: 8a35c59a-95b2-ac1b-0fde-a907c6a0b520, IDirect3DDevice9 interface [Direct3D 9],SetRenderTarget method, IDirect3DDevice9.SetRenderTarget, IDirect3DDevice9::SetRenderTarget, SetRenderTarget, SetRenderTarget method [Direct3D 9], SetRenderTarget method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetRenderTarget, direct3d9.idirect3ddevice9__setrendertarget
-ms.topic: method
 f1_keywords:
 - d3d9/IDirect3DDevice9.SetRenderTarget
 dev_langs:

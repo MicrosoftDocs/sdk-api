@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 5901e5ec-1907-404b-b1a8-a00e13d3eab8
 ms.date: 12/05/2018
 ms.keywords: IXpsOMTileBrush interface [XPS Documents and Packaging],SetTileMode method, IXpsOMTileBrush.SetTileMode, IXpsOMTileBrush::SetTileMode, SetTileMode, SetTileMode method [XPS Documents and Packaging], SetTileMode method [XPS Documents and Packaging],IXpsOMTileBrush interface, xps.ixpsomtilebrush_settilemode, xpsobjectmodel/IXpsOMTileBrush::SetTileMode
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMTileBrush.SetTileMode
 dev_langs:

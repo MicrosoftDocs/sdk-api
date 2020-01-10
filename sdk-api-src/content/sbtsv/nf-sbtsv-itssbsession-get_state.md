@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 4e769ff7-2bd5-4fcb-b2d7-4dedc853482b
 ms.date: 12/05/2018
 ms.keywords: ITsSbSession interface [Remote Desktop Services],State property, ITsSbSession.State, ITsSbSession.get_State, ITsSbSession::State, ITsSbSession::get_State, ITsSbSession::put_State, State property [Remote Desktop Services], State property [Remote Desktop Services],ITsSbSession interface, get_State, sbtsv/ITsSbSession::State, sbtsv/ITsSbSession::get_State, sbtsv/ITsSbSession::put_State, termserv.itssbsession_state
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbSession.State
 dev_langs:

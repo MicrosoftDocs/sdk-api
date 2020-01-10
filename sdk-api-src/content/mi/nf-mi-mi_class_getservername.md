@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: bb7312a0-f851-44a4-8467-31bbe1a9ac41
 ms.date: 12/05/2018
 ms.keywords: MI_Class_GetServerName, MI_Class_GetServerName function [Windows Management Infrastructure (MI)], mi/MI_Class_GetServerName, wmi_v2.mi_class_getservername
-ms.topic: function
 f1_keywords:
 - mi/MI_Class_GetServerName
 dev_langs:

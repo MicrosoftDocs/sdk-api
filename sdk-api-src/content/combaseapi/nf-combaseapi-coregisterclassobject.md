@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: d27bfa6c-194a-41f1-8fcf-76c4dff14a8a
 ms.date: 12/05/2018
 ms.keywords: CoRegisterClassObject, CoRegisterClassObject function [COM], _com_CoRegisterClassObject, com.coregisterclassobject, combaseapi/CoRegisterClassObject
-ms.topic: function
 f1_keywords:
 - combaseapi/CoRegisterClassObject
 dev_langs:

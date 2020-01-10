@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 03317526-8c4f-4173-bc10-110c8112676a
 ms.date: 12/05/2018
 ms.keywords: GetErrorInfo, GetErrorInfo function [Automation], _oa96_GetErrorInfo, automat.geterrorinfo, oleauto/GetErrorInfo
-ms.topic: function
 f1_keywords:
 - oleauto/GetErrorInfo
 dev_langs:

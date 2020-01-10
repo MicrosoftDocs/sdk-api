@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: d543ec43-f6f1-4463-b27d-a1abf1cf3961
 ms.date: 12/05/2018
 ms.keywords: GetTextExtentExPointI, GetTextExtentExPointI function [Windows GDI], _win32_GetTextExtentExPointI, gdi.gettextextentexpointi, wingdi/GetTextExtentExPointI
-ms.topic: function
 f1_keywords:
 - wingdi/GetTextExtentExPointI
 dev_langs:

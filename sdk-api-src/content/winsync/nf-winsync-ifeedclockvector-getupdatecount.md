@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: a8cf6b0f-2049-4047-b72d-34530ae82605
 ms.date: 12/05/2018
 ms.keywords: GetUpdateCount, GetUpdateCount method [Windows Sync], GetUpdateCount method [Windows Sync],IFeedClockVector interface, IFeedClockVector interface [Windows Sync],GetUpdateCount method, IFeedClockVector.GetUpdateCount, IFeedClockVector::GetUpdateCount, winsync.ifeedclockvector_getupdatecount, winsync/IFeedClockVector::GetUpdateCount
-ms.topic: method
 f1_keywords:
 - winsync/IFeedClockVector.GetUpdateCount
 dev_langs:

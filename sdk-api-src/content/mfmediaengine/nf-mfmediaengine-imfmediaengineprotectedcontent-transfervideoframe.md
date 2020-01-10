@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 3A5C6908-65F4-4E7A-AD71-BBD1C2A4ACE3
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineProtectedContent interface [Media Foundation],TransferVideoFrame method, IMFMediaEngineProtectedContent.TransferVideoFrame, IMFMediaEngineProtectedContent::TransferVideoFrame, TransferVideoFrame, TransferVideoFrame method [Media Foundation], TransferVideoFrame method [Media Foundation],IMFMediaEngineProtectedContent interface, mf.imfmediaengineprotectedcontent_transfervideoframe, mfmediaengine/IMFMediaEngineProtectedContent::TransferVideoFrame
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngineProtectedContent.TransferVideoFrame
 dev_langs:

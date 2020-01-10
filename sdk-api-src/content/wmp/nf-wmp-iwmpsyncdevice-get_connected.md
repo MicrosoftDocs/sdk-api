@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: c22f4247-8df9-4ac6-ad27-a0e34780b832
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_connected method, IWMPSyncDevice.get_connected, IWMPSyncDevice::get_connected, IWMPSyncDeviceget_connected, get_connected, get_connected method [Windows Media Player], get_connected method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_connected, wmp/IWMPSyncDevice::get_connected
-ms.topic: method
 f1_keywords:
 - wmp/IWMPSyncDevice.get_connected
 dev_langs:

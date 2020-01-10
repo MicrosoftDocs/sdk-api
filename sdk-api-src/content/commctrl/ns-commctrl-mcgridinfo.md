@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\structures\mcgridinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*PMCGRIDINFO, MCGIF_DATE, MCGIF_NAME, MCGIF_RECT, MCGIP_CALENDAR, MCGIP_CALENDARBODY, MCGIP_CALENDARCELL, MCGIP_CALENDARCONTROL, MCGIP_CALENDARHEADER, MCGIP_CALENDARROW, MCGIP_FOOTER, MCGIP_NEXT, MCGIP_PREV, MCGRIDINFO, MCGRIDINFO structure [Windows Controls], PMCGRIDINFO, PMCGRIDINFO structure pointer [Windows Controls], _shell_MCGRIDINFO, _shell_MCGRIDINFO_cpp, commctrl/MCGRIDINFO, commctrl/PMCGRIDINFO, controls.MCGRIDINFO, controls._shell_MCGRIDINFO'
-ms.topic: struct
 f1_keywords:
 - commctrl/MCGRIDINFO
 dev_langs:

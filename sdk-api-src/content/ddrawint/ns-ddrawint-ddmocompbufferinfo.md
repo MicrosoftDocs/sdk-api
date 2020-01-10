@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: e039f85e-868f-4673-bbaa-9165bd760e9d
 ms.date: 12/05/2018
 ms.keywords: '*LPDDMOCOMPBUFFERINFO, DDMOCOMPBUFFERINFO, DDMOCOMPBUFFERINFO structure [Display Devices], LPDDMOCOMPBUFFERINFO, LPDDMOCOMPBUFFERINFO structure pointer [Display Devices], ddrawint/DDMOCOMPBUFFERINFO, ddrawint/LPDDMOCOMPBUFFERINFO, ddstrcts_8716da01-eda5-4102-b881-c2e368f0792a.xml, display.ddmocompbufferinfo'
-ms.topic: struct
 f1_keywords:
 - ddrawint/DDMOCOMPBUFFERINFO
 dev_langs:

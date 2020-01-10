@@ -7,7 +7,6 @@ tech.root: Input_IntContext
 ms.assetid: 35d581a9-b1be-4f9b-8783-ccea3469921a
 ms.date: 12/05/2018
 ms.keywords: GetStateInteractionContext, GetStateInteractionContext function, input_intcontext.getstateinteractioncontext, interactioncontext.getstateinteractioncontext, interactioncontext/GetStateInteractionContext
-ms.topic: function
 f1_keywords:
 - interactioncontext/GetStateInteractionContext
 dev_langs:

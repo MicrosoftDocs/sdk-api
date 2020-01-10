@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 985033ea-72ea-40c4-8176-60208b505040
 ms.date: 12/05/2018
 ms.keywords: IMpeg2Demultiplexer interface [DirectShow],SetOutputPinMediaType method, IMpeg2Demultiplexer.SetOutputPinMediaType, IMpeg2Demultiplexer::SetOutputPinMediaType, IMpeg2DemultiplexerSetOutputPinMediaType, SetOutputPinMediaType, SetOutputPinMediaType method [DirectShow], SetOutputPinMediaType method [DirectShow],IMpeg2Demultiplexer interface, dshow.impeg2demultiplexer_setoutputpinmediatype, strmif/IMpeg2Demultiplexer::SetOutputPinMediaType
-ms.topic: method
 f1_keywords:
 - strmif/IMpeg2Demultiplexer.SetOutputPinMediaType
 dev_langs:

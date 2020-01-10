@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: D967B4FE-8E11-4520-BF9E-725ACC7AA99A
 ms.date: 12/05/2018
 ms.keywords: AddSpatialAudioObject, AddSpatialAudioObject method [Media Foundation], AddSpatialAudioObject method [Media Foundation],IMFSpatialAudioSample interface, IMFSpatialAudioSample interface [Media Foundation],AddSpatialAudioObject method, IMFSpatialAudioSample.AddSpatialAudioObject, IMFSpatialAudioSample::AddSpatialAudioObject, mf.imfspatialaudiosample_addspatialaudioobject, mfspatialaudio/IMFSpatialAudioSample::AddSpatialAudioObject
-ms.topic: method
 f1_keywords:
 - mfspatialaudio/IMFSpatialAudioSample.AddSpatialAudioObject
 dev_langs:

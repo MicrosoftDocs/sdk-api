@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 8a7c7b46-3bea-4043-b568-6d91d6335737
 ms.date: 12/05/2018
 ms.keywords: CRYPT_BLOB_VER3, CRYPT_DESTROYKEY, CRYPT_OAEP, CRYPT_SSL2_FALLBACK, CRYPT_Y_ONLY, CryptExportKey, CryptExportKey function [Security], OPAQUEKEYBLOB, PLAINTEXTKEYBLOB, PRIVATEKEYBLOB, PUBLICKEYBLOB, SIMPLEBLOB, SYMMETRICWRAPKEYBLOB, _crypto2_cryptexportkey, security.cryptexportkey, wincrypt/CryptExportKey
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptExportKey
 dev_langs:

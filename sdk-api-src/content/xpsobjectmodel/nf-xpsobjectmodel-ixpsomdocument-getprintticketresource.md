@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 381bfbb3-1dfd-4761-acdc-cfe64a3aeeb5
 ms.date: 12/05/2018
 ms.keywords: GetPrintTicketResource, GetPrintTicketResource method [XPS Documents and Packaging], GetPrintTicketResource method [XPS Documents and Packaging],IXpsOMDocument interface, IXpsOMDocument interface [XPS Documents and Packaging],GetPrintTicketResource method, IXpsOMDocument.GetPrintTicketResource, IXpsOMDocument::GetPrintTicketResource, xps.ixpsomdocument_getprintticketresource, xpsobjectmodel/IXpsOMDocument::GetPrintTicketResource
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMDocument.GetPrintTicketResource
 dev_langs:

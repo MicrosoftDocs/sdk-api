@@ -5,7 +5,6 @@ description: Retrieves attributes describing the given axis, such as whether the
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetFontAxisAttributes method, IDWriteFontResource.GetFontAxisAttributes, IDWriteFontResource::GetFontAxisAttributes, GetFontAxisAttributes, GetFontAxisAttributes method [Direct Write], GetFontAxisAttributes method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getfontaxisattributes, dwrite_3/IDWriteFontResource::GetFontAxisAttributes
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontResource.GetFontAxisAttributes
 dev_langs:

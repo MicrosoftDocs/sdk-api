@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: d462445a-efe7-4d79-a712-b8c7dd9ac7c1
 ms.date: 12/05/2018
 ms.keywords: IWICEnumMetadataItem interface [Windows Imaging Component],Reset method, IWICEnumMetadataItem.Reset, IWICEnumMetadataItem::Reset, Reset, Reset method [Windows Imaging Component], Reset method [Windows Imaging Component],IWICEnumMetadataItem interface, _wic_codec_iwicenummetadataitem_reset, wic._wic_codec_iwicenummetadataitem_reset, wincodec/IWICEnumMetadataItem::Reset
-ms.topic: method
 f1_keywords:
 - wincodec/IWICEnumMetadataItem.Reset
 dev_langs:

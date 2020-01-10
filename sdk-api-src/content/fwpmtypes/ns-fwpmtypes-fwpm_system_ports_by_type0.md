@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 9a1d5431-fe83-468e-bc0e-8e55342ae205
 ms.date: 12/05/2018
 ms.keywords: FWPM_SYSTEM_PORTS_BY_TYPE0, FWPM_SYSTEM_PORTS_BY_TYPE0 structure [Filtering], fwp.fwpm_system_ports_by_type0, fwpmtypes/FWPM_SYSTEM_PORTS_BY_TYPE0
-ms.topic: struct
 f1_keywords:
 - fwpmtypes/FWPM_SYSTEM_PORTS_BY_TYPE0
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a724af67-6aac-4307-97bc-a79e73621ce1
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],KaraokeAudioPresentationModeChange method, IDvdControl.KaraokeAudioPresentationModeChange, IDvdControl::KaraokeAudioPresentationModeChange, IDvdControlKaraokeAudioPresentationModeChange, KaraokeAudioPresentationModeChange, KaraokeAudioPresentationModeChange method [DirectShow], KaraokeAudioPresentationModeChange method [DirectShow],IDvdControl interface, dshow.idvdcontrol_karaokeaudiopresentationmodechange, strmif/IDvdControl::KaraokeAudioPresentationModeChange
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.KaraokeAudioPresentationModeChange
 dev_langs:

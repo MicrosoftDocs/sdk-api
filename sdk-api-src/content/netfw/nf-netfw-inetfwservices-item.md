@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: a13740cc-7d9a-4c1f-ae18-a31ca4d39b54
 ms.date: 12/05/2018
 ms.keywords: INetFwServices interface [ICS/ICF],Item method, INetFwServices.Item, INetFwServices::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwServices interface, ics.inetfwservices_item, netfw/INetFwServices::Item
-ms.topic: method
 f1_keywords:
 - netfw/INetFwServices.Item
 dev_langs:

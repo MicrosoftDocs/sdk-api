@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 51d56b76-f9fc-44e1-88f0-d35d861a4697
 ms.date: 12/05/2018
 ms.keywords: IAMNetworkStatus, IAMNetworkStatus interface [DirectShow], IAMNetworkStatus interface [DirectShow],described, IAMNetworkStatusInterface, dshow.iamnetworkstatus, qnetwork/IAMNetworkStatus
-ms.topic: interface
 f1_keywords:
 - qnetwork/IAMNetworkStatus
 dev_langs:

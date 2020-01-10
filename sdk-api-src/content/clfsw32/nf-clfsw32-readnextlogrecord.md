@@ -7,7 +7,6 @@ tech.root: Clfs
 ms.assetid: 7736106b-6c43-496e-83b8-fa433c29e680
 ms.date: 12/05/2018
 ms.keywords: ClfsClientRecord, ClfsDataRecord, ClfsRestartRecord, ReadNextLogRecord, ReadNextLogRecord function [Files], clfsw32/ReadNextLogRecord, fs.readnextlogrecord
-ms.topic: function
 f1_keywords:
 - clfsw32/ReadNextLogRecord
 dev_langs:

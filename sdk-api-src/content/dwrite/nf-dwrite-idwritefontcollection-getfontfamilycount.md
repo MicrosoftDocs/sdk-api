@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 82b6409a-6f6c-4b8d-9c48-916f1f7f3750
 ms.date: 12/05/2018
 ms.keywords: GetFontFamilyCount, GetFontFamilyCount method [Direct Write], GetFontFamilyCount method [Direct Write],IDWriteFontCollection interface, IDWriteFontCollection interface [Direct Write],GetFontFamilyCount method, IDWriteFontCollection.GetFontFamilyCount, IDWriteFontCollection::GetFontFamilyCount, directwrite.IDWriteFontCollection_GetFontFamilyCount, dwrite/IDWriteFontCollection::GetFontFamilyCount
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteFontCollection.GetFontFamilyCount
 dev_langs:

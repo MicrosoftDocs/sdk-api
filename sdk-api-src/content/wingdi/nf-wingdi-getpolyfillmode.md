@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: febf96fb-bf2e-4eb2-ab5f-89741a1decad
 ms.date: 12/05/2018
 ms.keywords: GetPolyFillMode, GetPolyFillMode function [Windows GDI], _win32_GetPolyFillMode, gdi.getpolyfillmode, wingdi/GetPolyFillMode
-ms.topic: function
 f1_keywords:
 - wingdi/GetPolyFillMode
 dev_langs:

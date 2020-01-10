@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: ee0702fb-a3ff-442b-bd3b-6ff35fcba0ec
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetTypography method, IDWriteTextLayout.SetTypography, IDWriteTextLayout::SetTypography, SetTypography, SetTypography method [Direct Write], SetTypography method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetTypography, dwrite/IDWriteTextLayout::SetTypography
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextLayout.SetTypography
 dev_langs:

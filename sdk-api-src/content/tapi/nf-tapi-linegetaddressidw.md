@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: f714068c-8cdc-4098-b1f6-f2cfd62a83c4
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetaddressid, lineGetAddressID, lineGetAddressID function [TAPI 2.2], lineGetAddressIDA, lineGetAddressIDW, tapi/lineGetAddressID, tapi/lineGetAddressIDA, tapi/lineGetAddressIDW, tapi2.linegetaddressid
-ms.topic: function
 f1_keywords:
 - tapi/lineGetAddressID
 dev_langs:

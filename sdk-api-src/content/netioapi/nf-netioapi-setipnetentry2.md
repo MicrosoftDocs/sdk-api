@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 4f423700-f721-44a9-ade3-ea5b5b86e394
 ms.date: 12/05/2018
 ms.keywords: SetIpNetEntry2, SetIpNetEntry2 function [IP Helper], iphlp.setipnetentry2, netioapi/SetIpNetEntry2
-ms.topic: function
 f1_keywords:
 - netioapi/SetIpNetEntry2
 dev_langs:

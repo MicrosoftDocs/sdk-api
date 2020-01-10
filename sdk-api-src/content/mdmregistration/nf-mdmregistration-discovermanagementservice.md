@@ -7,7 +7,6 @@ tech.root: MDMReg
 ms.assetid: 0b01225c-83db-4b13-ad7e-52beae05a8ee
 ms.date: 12/05/2018
 ms.keywords: DiscoverManagementService, DiscoverManagementService function [MDM Registration], mdmreg.discovermanagementservice, mdmregistration/DiscoverManagementService
-ms.topic: function
 f1_keywords:
 - mdmregistration/DiscoverManagementService
 dev_langs:

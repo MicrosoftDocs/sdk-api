@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionReciprocalLength(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionReciprocalLength, XMQuaternionReciprocalLength, XMQuaternionReciprocalLength method [DirectX Math Support APIs], dxmath.xmquaternionreciprocallength
-ms.topic: function
 f1_keywords:
 - directxmath/XMQuaternionReciprocalLength
 dev_langs:

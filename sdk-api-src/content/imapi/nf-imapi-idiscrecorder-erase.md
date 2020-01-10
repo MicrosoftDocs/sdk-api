@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 61a9cada-a9f4-462d-ab73-a9319308ff01
 ms.date: 12/05/2018
 ms.keywords: Erase, Erase method [IMAPI], Erase method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],Erase method, IDiscRecorder.Erase, IDiscRecorder::Erase, _win32_idiscrecorder_erase, base.idiscrecorder_erase, imapi.idiscrecorder_erase, imapi/IDiscRecorder::Erase
-ms.topic: method
 f1_keywords:
 - imapi/IDiscRecorder.Erase
 dev_langs:

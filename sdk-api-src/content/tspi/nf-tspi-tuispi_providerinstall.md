@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 4b133336-7cd1-4af4-bc8d-4defce97559d
 ms.date: 12/05/2018
 ms.keywords: TUISPI_providerInstall, TUISPI_providerInstall function [TAPI 2.2], _tspi_tuispi_providerinstall, tspi.tuispi_providerinstall, tspi/TUISPI_providerInstall
-ms.topic: function
 f1_keywords:
 - tspi/TUISPI_providerInstall
 dev_langs:

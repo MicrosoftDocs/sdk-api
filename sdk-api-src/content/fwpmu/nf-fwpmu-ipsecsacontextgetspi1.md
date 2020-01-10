@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 623ef4ab-5bcc-4801-ba18-a246da392abe
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextGetSpi1, IPsecSaContextGetSpi1 function [Filtering], fwp.ipsecsacontextgetspi1, fwpmu/IPsecSaContextGetSpi1
-ms.topic: function
 f1_keywords:
 - fwpmu/IPsecSaContextGetSpi1
 dev_langs:

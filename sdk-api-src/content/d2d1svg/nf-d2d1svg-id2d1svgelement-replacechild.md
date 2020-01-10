@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: BEF74F58-D218-46CA-AE02-F15DDAC48FB4
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgElement interface [Direct2D],ReplaceChild method, ID2D1SvgElement.ReplaceChild, ID2D1SvgElement::ReplaceChild, ReplaceChild, ReplaceChild method [Direct2D], ReplaceChild method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::ReplaceChild, direct2d.id2d1svgelement_replacechild
-ms.topic: method
 f1_keywords:
 - d2d1svg/ID2D1SvgElement.ReplaceChild
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: ACE11946-113B-42EE-A3F1-0036B1DF8141
 ms.date: 12/05/2018
 ms.keywords: IInkOverlay, IInkOverlay interface [Tablet PC], IInkOverlay interface [Tablet PC],described, msinkaut/IInkOverlay, tablet.iinkoverlay
-ms.topic: interface
 f1_keywords:
 - msinkaut/IInkOverlay
 dev_langs:

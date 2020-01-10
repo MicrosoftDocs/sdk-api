@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: eae41b83-bba5-4656-9a5c-b6ef56845954
 ms.date: 12/05/2018
 ms.keywords: EnumDirTreeProc, EnumDirTreeProc callback, EnumDirTreeProc callback function, PENUMDIRTREE_CALLBACK, PENUMDIRTREE_CALLBACKW, _win32_enumdirtreeproc, base.enumdirtreeproc, dbghelp/EnumDirTreeProc
-ms.topic: callback
 f1_keywords:
 - dbghelp/EnumDirTreeProc
 dev_langs:

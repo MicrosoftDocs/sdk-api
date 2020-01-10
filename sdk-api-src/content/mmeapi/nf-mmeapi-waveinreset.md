@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 3f0735ec-3a0a-478d-8044-8a8671cf2d5c
 ms.date: 12/05/2018
 ms.keywords: _win32_waveInReset, mmeapi/waveInReset, multimedia.waveinreset, waveInReset, waveInReset function [Windows Multimedia]
-ms.topic: function
 f1_keywords:
 - mmeapi/waveInReset
 dev_langs:

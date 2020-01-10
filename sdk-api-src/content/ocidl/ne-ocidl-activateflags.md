@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 8748d3aa-3fea-4705-959c-3bc86b13a868
 ms.date: 12/05/2018
 ms.keywords: ACTIVATEFLAGS, ACTIVATEFLAGS enumeration [COM], ACTIVATE_WINDOWLESS, _ole_ACTIVATEFLAGS, com.activateflags, ocidl/ACTIVATEFLAGS, ocidl/ACTIVATE_WINDOWLESS
-ms.topic: enum
 f1_keywords:
 - ocidl/ACTIVATEFLAGS
 dev_langs:

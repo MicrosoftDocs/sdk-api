@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 684bfd94-5bef-415b-b548-49f564ce8a83
 ms.date: 12/05/2018
 ms.keywords: ITMediaSupport interface [TAPI 2.2],QueryMediaType method, ITMediaSupport.QueryMediaType, ITMediaSupport::QueryMediaType, QueryMediaType, QueryMediaType method [TAPI 2.2], QueryMediaType method [TAPI 2.2],ITMediaSupport interface, _tapi3_itmediasupport_querymediatype, tapi3.itmediasupport_querymediatype, tapi3if/ITMediaSupport::QueryMediaType
-ms.topic: method
 f1_keywords:
 - tapi3if/ITMediaSupport.QueryMediaType
 dev_langs:

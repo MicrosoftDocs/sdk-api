@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: a38186b6-4b27-4360-8721-49c95dd94806
 ms.date: 12/05/2018
 ms.keywords: EngDeviceIoControl, EngDeviceIoControl function [Display Devices], display.engdeviceiocontrol, gdifncs_735d205a-99e3-4397-a5ac-31312ac734e7.xml, winddi/EngDeviceIoControl
-ms.topic: function
 f1_keywords:
 - winddi/EngDeviceIoControl
 dev_langs:

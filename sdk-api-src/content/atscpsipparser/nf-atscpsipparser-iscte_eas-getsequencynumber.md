@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: c7988bb1-0c89-4f6f-beda-cbfd04a9b128
 ms.date: 12/05/2018
 ms.keywords: GetSequencyNumber, GetSequencyNumber method [Microsoft TV Technologies], GetSequencyNumber method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetSequencyNumber method, ISCTE_EAS.GetSequencyNumber, ISCTE_EAS::GetSequencyNumber, ISCTE_EASGetSequencyNumber, atscpsipparser/ISCTE_EAS::GetSequencyNumber, mstv.iscte_eas_getsequencynumber
-ms.topic: method
 f1_keywords:
 - atscpsipparser/ISCTE_EAS.GetSequencyNumber
 dev_langs:

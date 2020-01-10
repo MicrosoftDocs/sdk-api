@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 04e4c9ea-4570-4fd0-986b-c835c692b73b
 ms.date: 12/05/2018
 ms.keywords: GetSupportedTimeFormat, GetSupportedTimeFormat method [DirectShow], GetSupportedTimeFormat method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetSupportedTimeFormat method, IMediaParamInfo.GetSupportedTimeFormat, IMediaParamInfo::GetSupportedTimeFormat, IMediaParamInfoGetSupportedTimeFormat, dshow.imediaparaminfo_getsupportedtimeformat, medparam/IMediaParamInfo::GetSupportedTimeFormat
-ms.topic: method
 f1_keywords:
 - medparam/IMediaParamInfo.GetSupportedTimeFormat
 dev_langs:

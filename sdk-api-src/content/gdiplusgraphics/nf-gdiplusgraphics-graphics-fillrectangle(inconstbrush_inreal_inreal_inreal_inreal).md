@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillrectanglemethods\fillrectangle_55brushbrush_realx_realy_realwidth_realh.htm
 ms.date: 12/05/2018
 ms.keywords: FillRectangle, FillRectangle method [GDI+], FillRectangle method [GDI+],Graphics class, Graphics class [GDI+],FillRectangle method, Graphics.FillRectangle, Graphics.FillRectangle(IN const Brush,IN REAL,IN REAL,IN REAL,IN REAL), Graphics.FillRectangle(const Brush*,REAL,REAL,REAL,REAL), Graphics::FillRectangle, Graphics::FillRectangle(IN const Brush,IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_Graphics_FillRectangle_Brush_brush_REAL_x_REAL_y_REAL_width_REAL_height_, gdiplus._gdiplus_CLASS_Graphics_FillRectangle_Brush_brush_REAL_x_REAL_y_REAL_width_REAL_height_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.FillRectangle
 dev_langs:

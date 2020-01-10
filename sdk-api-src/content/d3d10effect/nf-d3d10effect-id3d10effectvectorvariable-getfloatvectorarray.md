@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable_getfloatvectorarray.htm
 ms.date: 12/05/2018
 ms.keywords: 0c6374bb-9ea0-894f-8f00-4c6aa56619e1, GetFloatVectorArray, GetFloatVectorArray method [Direct3D 10], GetFloatVectorArray method [Direct3D 10],ID3D10EffectVectorVariable interface, ID3D10EffectVectorVariable interface [Direct3D 10],GetFloatVectorArray method, ID3D10EffectVectorVariable.GetFloatVectorArray, ID3D10EffectVectorVariable::GetFloatVectorArray, d3d10effect/ID3D10EffectVectorVariable::GetFloatVectorArray, direct3d10.id3d10effectvectorvariable_getfloatvectorarray
-ms.topic: method
 f1_keywords:
 - d3d10effect/ID3D10EffectVectorVariable.GetFloatVectorArray
 dev_langs:

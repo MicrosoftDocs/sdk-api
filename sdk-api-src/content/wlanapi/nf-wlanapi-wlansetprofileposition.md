@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 06ef9f55-b425-4f61-9b9e-3c27cc3796f6
 ms.date: 12/05/2018
 ms.keywords: WlanSetProfilePosition, WlanSetProfilePosition function [NativeWIFI], nwifi.wlansetprofileposition, wlanapi/WlanSetProfilePosition
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanSetProfilePosition
 dev_langs:

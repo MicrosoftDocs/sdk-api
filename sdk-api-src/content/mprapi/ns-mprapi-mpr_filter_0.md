@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: f930b145-554b-40ea-ace0-60978ed428c1
 ms.date: 12/05/2018
 ms.keywords: '*PMPR_FILTER_0, MPR_FILTER_0, MPR_FILTER_0 structure [RAS], PMPR_FILTER_0, PMPR_FILTER_0 structure pointer [RAS], mprapi/MPR_FILTER_0, mprapi/PMPR_FILTER_0, rras.mpr_filter_0'
-ms.topic: struct
 f1_keywords:
 - mprapi/MPR_FILTER_0
 dev_langs:

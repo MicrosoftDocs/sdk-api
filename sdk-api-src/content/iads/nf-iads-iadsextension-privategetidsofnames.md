@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 533faef7-d504-443c-83e7-7eaf461ce550
 ms.date: 12/05/2018
 ms.keywords: IADsExtension interface [ADSI],PrivateGetIDsOfNames method, IADsExtension.PrivateGetIDsOfNames, IADsExtension::PrivateGetIDsOfNames, PrivateGetIDsOfNames, PrivateGetIDsOfNames method [ADSI], PrivateGetIDsOfNames method [ADSI],IADsExtension interface, _ds_iadsextension_privategetidsofnames, adsi.iadsextension__privategetidsofnames, adsi.iadsextension_privategetidsofnames, iads/IADsExtension::PrivateGetIDsOfNames
-ms.topic: method
 f1_keywords:
 - iads/IADsExtension.PrivateGetIDsOfNames
 dev_langs:

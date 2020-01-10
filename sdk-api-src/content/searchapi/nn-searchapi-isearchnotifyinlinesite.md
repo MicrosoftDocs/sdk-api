@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchnotifyinlinesite\isearchnotifyinlinesite.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchNotifyInlineSite, ISearchNotifyInlineSite interface [search], ISearchNotifyInlineSite interface [search],described, _search_ISearchNotifyInlineSite, search._search_ISearchNotifyInlineSite, searchapi/ISearchNotifyInlineSite
-ms.topic: interface
 f1_keywords:
 - searchapi/ISearchNotifyInlineSite
 dev_langs:

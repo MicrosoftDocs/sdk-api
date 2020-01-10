@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 9a9e2f53-9916-4a9c-a08e-c8affd5fc4c9
 ms.date: 12/05/2018
 ms.keywords: EnumerateTraceGuids, EnumerateTraceGuids function [ETW], _evt_enumeratetraceguids, base.enumeratetraceguids, etw.enumeratetraceguids, evntrace/EnumerateTraceGuids
-ms.topic: function
 f1_keywords:
 - evntrace/EnumerateTraceGuids
 dev_langs:

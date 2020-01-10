@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 37de166a-04a5-4a10-83b3-dd19d0bb48a4
 ms.date: 12/05/2018
 ms.keywords: IMalloc interface [COM],Realloc method, IMalloc.Realloc, IMalloc::Realloc, Realloc, Realloc method [COM], Realloc method [COM],IMalloc interface, _com_imalloc_realloc, com.imalloc_realloc, objidlbase/IMalloc::Realloc
-ms.topic: method
 f1_keywords:
 - objidl/IMalloc.Realloc
 dev_langs:

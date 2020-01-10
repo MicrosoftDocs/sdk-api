@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 27BB5319-74F0-480A-9600-8940491FB7E0
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportServer2, IWdsTransportServer2 interface [Windows Deployment Services], IWdsTransportServer2 interface [Windows Deployment Services],described, wds.iwdstransportserver2, wdstptmgmt/IWdsTransportServer2
-ms.topic: interface
 f1_keywords:
 - wdstptmgmt/IWdsTransportServer2
 dev_langs:

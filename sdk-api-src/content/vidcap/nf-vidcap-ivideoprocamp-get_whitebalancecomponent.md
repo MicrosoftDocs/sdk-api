@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b9beb89f-df55-4b76-a679-5e27cb0af9fb
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_WhiteBalanceComponent method, IVideoProcAmp.get_WhiteBalanceComponent, IVideoProcAmp::get_WhiteBalanceComponent, IVideoProcAmpget_WhiteBalanceComponent, dshow.ivideoprocamp_get_whitebalancecomponent, get_WhiteBalanceComponent, get_WhiteBalanceComponent method [DirectShow], get_WhiteBalanceComponent method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_WhiteBalanceComponent
-ms.topic: method
 f1_keywords:
 - vidcap/IVideoProcAmp.get_WhiteBalanceComponent
 dev_langs:

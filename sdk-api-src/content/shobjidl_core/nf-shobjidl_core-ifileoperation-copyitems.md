@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9899cac2-bc10-422c-ab7f-2b8c1b893fc9
 ms.date: 12/05/2018
 ms.keywords: CopyItems, CopyItems method [Windows Shell], CopyItems method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],CopyItems method, IFileOperation.CopyItems, IFileOperation::CopyItems, _shell_IFileOperation_CopyItems, shell.IFileOperation_CopyItems, shobjidl_core/IFileOperation::CopyItems
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileOperation.CopyItems
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: DE908C82-5D7C-415C-B08B-31786589979B
 ms.date: 12/05/2018
 ms.keywords: RoGetParameterizedTypeInstanceIID, RoGetParameterizedTypeInstanceIID function [Windows Runtime], roparameterizediid/RoGetParameterizedTypeInstanceIID, winrt.rogetparameterizedtypeinstanceiid
-ms.topic: function
 f1_keywords:
 - roparameterizediid/RoGetParameterizedTypeInstanceIID
 dev_langs:

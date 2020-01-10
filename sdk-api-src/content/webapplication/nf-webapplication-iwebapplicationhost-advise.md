@@ -7,7 +7,6 @@ tech.root: debug_wwahost
 ms.assetid: 94c016cb-f043-4ea6-a5d1-f3486b55c97f
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [Debugging Windows Store apps], Advise method [Debugging Windows Store apps],IWebApplicationHost interface, IWebApplicationHost interface [Debugging Windows Store apps],Advise method, IWebApplicationHost.Advise, IWebApplicationHost::Advise, debug.iwebapplicationhost_advise, webapplication/IWebApplicationHost::Advise
-ms.topic: method
 f1_keywords:
 - webapplication/IWebApplicationHost.Advise
 dev_langs:

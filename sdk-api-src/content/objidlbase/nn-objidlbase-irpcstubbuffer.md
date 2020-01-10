@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 0aa724f0-6110-4ebf-a0c1-d309074a61d9
 ms.date: 12/05/2018
 ms.keywords: IRpcStubBuffer, IRpcStubBuffer interface [COM], IRpcStubBuffer interface [COM],described, _com_irpcstubbuffer, com.irpcstubbuffer, objidlbase/IRpcStubBuffer
-ms.topic: interface
 f1_keywords:
 - objidlbase/IRpcStubBuffer
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\shellextension\f\faxshell_sendtofaxrecipient.htm
 ms.date: 12/05/2018
 ms.keywords: SendToFaxRecipient, SendToFaxRecipient function [Fax Service], _mfax_sendtofaxrecipient, fax._mfax_sendtofaxrecipient, fxsutility/SendToFaxRecipient
-ms.topic: function
 f1_keywords:
 - fxsutility/SendToFaxRecipient
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 828d34e5-efac-4776-85a2-51eb94d68dac
 ms.date: 12/05/2018
 ms.keywords: DeviceSpecificVariant, DeviceSpecificVariant method [TAPI 2.2], DeviceSpecificVariant method [TAPI 2.2],ITPhone interface, ITPhone interface [TAPI 2.2],DeviceSpecificVariant method, ITPhone.DeviceSpecificVariant, ITPhone::DeviceSpecificVariant, _tapi3_itphone_devicespecificvariant, tapi3.itphone_devicespecificvariant, tapi3if/ITPhone::DeviceSpecificVariant
-ms.topic: method
 f1_keywords:
 - tapi3if/ITPhone.DeviceSpecificVariant
 dev_langs:

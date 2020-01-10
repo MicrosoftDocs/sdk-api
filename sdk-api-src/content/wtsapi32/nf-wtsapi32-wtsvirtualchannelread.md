@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 7434e761-303f-496f-81cb-83c199ddec8a
 ms.date: 12/05/2018
 ms.keywords: WTSVirtualChannelRead, WTSVirtualChannelRead function [Remote Desktop Services], _win32_wtsvirtualchannelread, termserv.wtsvirtualchannelread, wtsapi32/WTSVirtualChannelRead
-ms.topic: function
 f1_keywords:
 - wtsapi32/WTSVirtualChannelRead
 dev_langs:

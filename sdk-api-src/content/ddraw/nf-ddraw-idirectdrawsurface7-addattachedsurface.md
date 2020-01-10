@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: 6d42c5ed-7f05-4450-b1f4-cb9ee6efa7d9
 ms.date: 12/05/2018
 ms.keywords: AddAttachedSurface, AddAttachedSurface method [DirectDraw], AddAttachedSurface method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],AddAttachedSurface method, IDirectDrawSurface7.AddAttachedSurface, IDirectDrawSurface7::AddAttachedSurface, ddraw/IDirectDrawSurface7::AddAttachedSurface, directdraw.idirectdrawsurface7_addattachedsurface
-ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawSurface7.AddAttachedSurface
 dev_langs:

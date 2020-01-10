@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: B3F587BC-0DA8-496B-A3F5-ADFD16ABABB9
 ms.date: 12/05/2018
 ms.keywords: D3D11_KEY_EXCHANGE_HW_PROTECTION_INPUT_DATA, D3D11_KEY_EXCHANGE_HW_PROTECTION_INPUT_DATA structure [Media Foundation], d3d11_1/D3D11_KEY_EXCHANGE_HW_PROTECTION_INPUT_DATA, mf.d3d11_key_exchange_hw_protection_input_data
-ms.topic: struct
 f1_keywords:
 - d3d11_1/D3D11_KEY_EXCHANGE_HW_PROTECTION_INPUT_DATA
 dev_langs:

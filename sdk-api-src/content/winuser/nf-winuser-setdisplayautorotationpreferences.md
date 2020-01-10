@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 99A92E92-7FED-468C-9A00-D8D4B212CBFF
 ms.date: 12/05/2018
 ms.keywords: SetDisplayAutoRotationPreferences, SetDisplayAutoRotationPreferences function, base.setdisplayautorotationpreferences, winuser/SetDisplayAutoRotationPreferences
-ms.topic: function
 f1_keywords:
 - winuser/SetDisplayAutoRotationPreferences
 dev_langs:

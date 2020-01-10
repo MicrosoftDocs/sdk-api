@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: B1D8AF8D-A80B-4F28-A9AA-A798D309D6E0
 ms.date: 12/05/2018
 ms.keywords: GetPackageId, GetPackageId method [App packaging and management], GetPackageId method [App packaging and management],IAppxBundleManifestReader interface, IAppxBundleManifestReader interface [App packaging and management],GetPackageId method, IAppxBundleManifestReader.GetPackageId, IAppxBundleManifestReader::GetPackageId, appxpackaging/IAppxBundleManifestReader::GetPackageId, appxpkg.iappxbundlemanifestreader_getpackageid
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxBundleManifestReader.GetPackageId
 dev_langs:

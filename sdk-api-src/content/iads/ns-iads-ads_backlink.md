@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 1352d304-b984-43ab-8c47-5108f35ae193
 ms.date: 12/05/2018
 ms.keywords: '*PADS_BACKLINK, ADS_BACKLINK, ADS_BACKLINK structure [ADSI], PADS_BACKLINK, PADS_BACKLINK structure pointer [ADSI], _ds_ads_backlink, adsi.ads__backlink, adsi.ads_backlink, iads/ADS_BACKLINK, iads/PADS_BACKLINK'
-ms.topic: struct
 f1_keywords:
 - iads/ADS_BACKLINK
 dev_langs:

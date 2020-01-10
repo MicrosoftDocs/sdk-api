@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: e98df845-71d9-41f9-bf05-b46014e861df
 ms.date: 12/05/2018
 ms.keywords: PeerGroupDelete, PeerGroupDelete function [Peer Networking], p2p.peergroupdelete, p2p/PeerGroupDelete
-ms.topic: function
 f1_keywords:
 - p2p/PeerGroupDelete
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: 5BCD0958-1FED-4F97-A4B4-2EB354E85BF6
 ms.date: 12/05/2018
 ms.keywords: CF_SYNC_POLICIES, CF_SYNC_POLICIES structure, cfapi/CF_SYNC_POLICIES, cloudApi.cf_sync_policies
-ms.topic: struct
 f1_keywords:
 - cfapi/CF_SYNC_POLICIES
 dev_langs:

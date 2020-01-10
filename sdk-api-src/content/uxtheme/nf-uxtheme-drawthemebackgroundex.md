@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemebackgroundex.htm
 ms.date: 12/05/2018
 ms.keywords: DrawThemeBackgroundEx, DrawThemeBackgroundEx function [Windows Controls], controls.DrawThemeBackgroundEx, controls.inet_DrawThemeBackgroundEx, inet_DrawThemeBackgroundEx, inet_DrawThemeBackgroundEx_cpp, uxtheme/DrawThemeBackgroundEx
-ms.topic: function
 f1_keywords:
 - uxtheme/DrawThemeBackgroundEx
 dev_langs:

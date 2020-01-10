@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: A0023F18-2D28-4F0D-9B00-B8FB11567034
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine, IMFMediaEngine interface [Media Foundation], IMFMediaEngine interface [Media Foundation],described, mf.imfmediaengine, mfmediaengine/IMFMediaEngine
-ms.topic: interface
 f1_keywords:
 - mfmediaengine/IMFMediaEngine
 dev_langs:

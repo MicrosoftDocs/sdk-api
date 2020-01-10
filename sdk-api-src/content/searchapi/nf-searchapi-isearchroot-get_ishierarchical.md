@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_ishierarchical.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchRoot interface [search],get_IsHierarchical method, ISearchRoot.get_IsHierarchical, ISearchRoot::get_IsHierarchical, _search_ISearchRoot_get_IsHierarchical, get_IsHierarchical, get_IsHierarchical method [search], get_IsHierarchical method [search],ISearchRoot interface, search._search_ISearchRoot_get_IsHierarchical, searchapi/ISearchRoot::get_IsHierarchical
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchRoot.get_IsHierarchical
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: add8bda6-b5b1-4026-9900-829ece926670
 ms.date: 12/05/2018
 ms.keywords: WSD_REFERENCE_PARAMETERS, WSD_REFERENCE_PARAMETERS structure, ncd.wsd_reference_parameters_struct, wsdtypes/WSD_REFERENCE_PARAMETERS
-ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_REFERENCE_PARAMETERS
 dev_langs:

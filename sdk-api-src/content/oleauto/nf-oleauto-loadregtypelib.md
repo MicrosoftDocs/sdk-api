@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 444b7768-2a4e-4de3-9f28-ef63ac23e8bc
 ms.date: 12/05/2018
 ms.keywords: LoadRegTypeLib, LoadRegTypeLib function [Automation], _oa96_LoadRegTypeLib, automat.loadregtypelib, oleauto/LoadRegTypeLib
-ms.topic: function
 f1_keywords:
 - oleauto/LoadRegTypeLib
 dev_langs:

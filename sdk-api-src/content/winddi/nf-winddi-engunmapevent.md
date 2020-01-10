@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 3be72e38-e7ea-407b-87e4-c6293d6160f6
 ms.date: 12/05/2018
 ms.keywords: EngUnmapEvent, EngUnmapEvent function [Display Devices], display.engunmapevent, gdifncs_0f5f2320-13d2-471a-93b6-739f9ecbd620.xml, winddi/EngUnmapEvent
-ms.topic: function
 f1_keywords:
 - winddi/EngUnmapEvent
 dev_langs:

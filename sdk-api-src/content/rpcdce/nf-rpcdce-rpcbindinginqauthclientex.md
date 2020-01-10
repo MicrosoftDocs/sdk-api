@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 4ee73a2b-8722-44f0-af0d-dedcb27ba224
 ms.date: 12/05/2018
 ms.keywords: RPC_C_FULL_CERT_CHAIN, RpcBindingInqAuthClientEx, RpcBindingInqAuthClientEx function [RPC], RpcBindingInqAuthClientExA, RpcBindingInqAuthClientExW, _rpc_rpcbindinginqauthclientex, rpc.rpcbindinginqauthclientex, rpcdce/RpcBindingInqAuthClientEx, rpcdce/RpcBindingInqAuthClientExA, rpcdce/RpcBindingInqAuthClientExW
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcBindingInqAuthClientEx
 dev_langs:

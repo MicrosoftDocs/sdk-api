@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: c5d914b4-0419-4c03-bed4-ecb87e44db5e
 ms.date: 12/05/2018
 ms.keywords: GetClusterNetworkKey, GetClusterNetworkKey function [Failover Cluster], _wolf_getclusternetworkkey, clusapi/GetClusterNetworkKey, mscs.getclusternetworkkey
-ms.topic: function
 f1_keywords:
 - clusapi/GetClusterNetworkKey
 dev_langs:

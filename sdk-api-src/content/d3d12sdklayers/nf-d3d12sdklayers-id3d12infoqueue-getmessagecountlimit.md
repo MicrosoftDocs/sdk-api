@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: FAE16E2C-6E18-4345-88A8-DDC5836A75A9
 ms.date: 12/05/2018
 ms.keywords: GetMessageCountLimit, GetMessageCountLimit method, GetMessageCountLimit method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetMessageCountLimit method, ID3D12InfoQueue.GetMessageCountLimit, ID3D12InfoQueue::GetMessageCountLimit, d3d12sdklayers/ID3D12InfoQueue::GetMessageCountLimit, direct3d12.id3d12infoqueue_getmessagecountlimit
-ms.topic: method
 f1_keywords:
 - d3d12sdklayers/ID3D12InfoQueue.GetMessageCountLimit
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: b21d9aa8-0c86-45fe-9573-023929cf7faa
 ms.date: 12/05/2018
 ms.keywords: DesiredExpansionDeceleration property [Windows Touch], DesiredExpansionDeceleration property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],DesiredExpansionDeceleration property, IInertiaProcessor.DesiredExpansionDeceleration, IInertiaProcessor.get_DesiredExpansionDeceleration, IInertiaProcessor::DesiredExpansionDeceleration, IInertiaProcessor::get_DesiredExpansionDeceleration, IInertiaProcessor::put_DesiredExpansionDeceleration, get_DesiredExpansionDeceleration, manipulations/IInertiaProcessor::DesiredExpansionDeceleration, manipulations/IInertiaProcessor::get_DesiredExpansionDeceleration, manipulations/IInertiaProcessor::put_DesiredExpansionDeceleration, wintouch.iinertiaprocessor_desiredexpansiondeceleration
-ms.topic: method
 f1_keywords:
 - manipulations/IInertiaProcessor.DesiredExpansionDeceleration
 dev_langs:

@@ -3,7 +3,6 @@ UID: NS:lmstats._STAT_WORKSTATION_0~r1
 title: STAT_WORKSTATION_0
 ms.date: 01/30/19
 ms.keywords: _STAT_WORKSTATION_0, STAT_WORKSTATION_0
-ms.topic: language-reference
 f1_keywords:
 - lmstats/_STAT_WORKSTATION_0
 dev_langs:

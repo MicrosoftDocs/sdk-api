@@ -7,7 +7,6 @@ tech.root: inputdev
 ms.assetid: 39b9ba8b-0cab-465c-9a58-2b69eea7de76
 ms.date: 12/05/2018
 ms.keywords: GetKeyboardType, GetKeyboardType function [Keyboard and Mouse Input], _win32_getkeyboardtype, base.getkeyboardtype, inputdev.getkeyboardtype, winui.getkeyboardtype, winuser/GetKeyboardType
-ms.topic: function
 f1_keywords:
 - winuser/GetKeyboardType
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: dcbea171-75fd-4d92-a2a0-ebd2867b233e
 ms.date: 12/05/2018
 ms.keywords: NetServiceGetInfo, NetServiceGetInfo function [Network Management], _win32_netservicegetinfo, lmsvc/NetServiceGetInfo, netmgmt.netservicegetinfo
-ms.topic: function
 f1_keywords:
 - lmsvc/NetServiceGetInfo
 dev_langs:

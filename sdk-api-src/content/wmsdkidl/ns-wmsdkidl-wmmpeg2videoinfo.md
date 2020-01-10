@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: e5907b04-200c-4459-971b-3680989a564f
 ms.date: 12/05/2018
 ms.keywords: WMMPEG2VIDEOINFO, WMMPEG2VIDEOINFO structure [windows Media Format], wmformat.wmmpeg2videoinfo, wmsdkidl/WMMPEG2VIDEOINFO
-ms.topic: struct
 f1_keywords:
 - wmsdkidl/WMMPEG2VIDEOINFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 4fff1328-d315-4a26-b7d8-43a273133e08
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher, IWSDiscoveryPublisher interface, IWSDiscoveryPublisher interface,described, ncd.iwsdiscoverypublisher, wsddisco/IWSDiscoveryPublisher
-ms.topic: interface
 f1_keywords:
 - wsddisco/IWSDiscoveryPublisher
 dev_langs:

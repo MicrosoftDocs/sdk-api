@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: ab4ee8d8-5ccd-4f3f-a1c0-de78c65a10d3
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_CURSOR, DS_REPL_CURSOR structure [Active Directory], _glines_ds_repl_cursor, ad.ds__repl__cursor, ad.ds_repl_cursor, ntdsapi/DS_REPL_CURSOR
-ms.topic: struct
 f1_keywords:
 - ntdsapi/DS_REPL_CURSOR
 dev_langs:

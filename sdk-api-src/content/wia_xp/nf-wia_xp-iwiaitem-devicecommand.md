@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\devicecommand.htm
 ms.date: 12/05/2018
 ms.keywords: DeviceCommand, DeviceCommand method [WIA], DeviceCommand method [WIA],IWiaItem interface, IWiaItem interface [WIA],DeviceCommand method, IWiaItem.DeviceCommand, IWiaItem::DeviceCommand, _wia_IWiaItem_DeviceCommand, wia._wia_IWiaItem_DeviceCommand, wia_xp/IWiaItem::DeviceCommand
-ms.topic: method
 f1_keywords:
 - wia_xp/IWiaItem.DeviceCommand
 dev_langs:

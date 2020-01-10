@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: b7bdf16c-7533-4db6-9bc4-06bc57d864ec
 ms.date: 12/05/2018
 ms.keywords: ADsEncodeBinaryData, ADsEncodeBinaryData function [ADSI], _ds_adsencodebinarydata, adshlp/ADsEncodeBinaryData, adsi.adsencodebinarydata
-ms.topic: function
 f1_keywords:
 - adshlp/ADsEncodeBinaryData
 dev_langs:

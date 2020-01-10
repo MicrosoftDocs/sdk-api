@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 93880116-e354-49d0-ba02-391fbb4d3f8c
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents3 interface [Windows Media Player],StringCollectionChange method, IWMPEvents3.StringCollectionChange, IWMPEvents3::StringCollectionChange, IWMPEvents3StringCollectionChange, StringCollectionChange, StringCollectionChange method [Windows Media Player], StringCollectionChange method [Windows Media Player],IWMPEvents3 interface, wmp.iwmpevents3_iwmpevents3__stringcollectionchange, wmp/IWMPEvents3::StringCollectionChange
-ms.topic: method
 f1_keywords:
 - wmp/IWMPEvents3.StringCollectionChange
 dev_langs:

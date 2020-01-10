@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: a596a005-a3ad-4d2b-b19b-60c2279590da
 ms.date: 12/05/2018
 ms.keywords: GetProgress, GetProgress method [BITS], GetProgress method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],GetProgress method, IBackgroundCopyGroup.GetProgress, IBackgroundCopyGroup::GetProgress, QM_PROGRESS_PERCENT_DONE, QM_PROGRESS_SIZE_DONE, QM_PROGRESS_TIME_DONE, bits.ibackgroundcopygroup_getprogress, qmgr/IBackgroundCopyGroup::GetProgress
-ms.topic: method
 f1_keywords:
 - qmgr/IBackgroundCopyGroup.GetProgress
 dev_langs:

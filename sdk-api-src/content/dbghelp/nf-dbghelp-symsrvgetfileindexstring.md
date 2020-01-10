@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: e66598fb-d7c7-4fde-a995-bfd1e7ceb24b
 ms.date: 12/05/2018
 ms.keywords: SymSrvGetFileIndexString, SymSrvGetFileIndexString function, SymSrvGetFileIndexStringW, base.symsrvgetfileindexstring, dbghelp/SymSrvGetFileIndexString, dbghelp/SymSrvGetFileIndexStringW
-ms.topic: function
 f1_keywords:
 - dbghelp/SymSrvGetFileIndexString
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 6c57b5e5-a5c7-416a-851c-fc8ef16b5a9a
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetCharRep method, ITextFont2.SetCharRep, ITextFont2::SetCharRep, SetCharRep, SetCharRep method [Windows Controls], SetCharRep method [Windows Controls],ITextFont2 interface, controls.itextfont2_setcharrep, tom/ITextFont2::SetCharRep
-ms.topic: method
 f1_keywords:
 - tom/ITextFont2.SetCharRep
 dev_langs:

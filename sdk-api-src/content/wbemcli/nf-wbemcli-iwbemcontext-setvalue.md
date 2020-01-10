@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 074d5ac7-aa86-44d8-99f9-959ef99a8004
 ms.date: 12/05/2018
 ms.keywords: IWbemContext interface [Windows Management Instrumentation],SetValue method, IWbemContext.SetValue, IWbemContext::SetValue, SetValue, SetValue method [Windows Management Instrumentation], SetValue method [Windows Management Instrumentation],IWbemContext interface, _hmm_iwbemcontext_setvalue, wbemcli/IWbemContext::SetValue, wmi.iwbemcontext_setvalue
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemContext.SetValue
 dev_langs:

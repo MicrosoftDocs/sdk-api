@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 2a4dd697-ef90-4c37-ab74-0e5ab92794cd
 ms.date: 12/05/2018
 ms.keywords: DeleteSecurityContext, DeleteSecurityContext function [Security], _ssp_deletesecuritycontext, security.deletesecuritycontext, sspi/DeleteSecurityContext
-ms.topic: function
 f1_keywords:
 - sspi/DeleteSecurityContext
 dev_langs:

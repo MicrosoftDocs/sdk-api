@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: bab1e582-928a-408b-a9c5-8e9827e9928b
 ms.date: 12/05/2018
 ms.keywords: IAMDevMemoryAllocator, IAMDevMemoryAllocator interface [DirectShow], IAMDevMemoryAllocator interface [DirectShow],described, IAMDevMemoryAllocatorInterface, dshow.iamdevmemoryallocator, strmif/IAMDevMemoryAllocator
-ms.topic: interface
 f1_keywords:
 - strmif/IAMDevMemoryAllocator
 dev_langs:

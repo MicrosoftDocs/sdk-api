@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 594a614a-8da1-4ef0-a6af-01284fb48ef7
 ms.date: 12/05/2018
 ms.keywords: IWMPRemoteMediaServices, IWMPRemoteMediaServices interface [Windows Media Player], IWMPRemoteMediaServices interface [Windows Media Player],described, IWMPRemoteMediaServicesInterface, wmp.iwmpremotemediaservices, wmp/IWMPRemoteMediaServices
-ms.topic: interface
 f1_keywords:
 - wmp/IWMPRemoteMediaServices
 dev_langs:

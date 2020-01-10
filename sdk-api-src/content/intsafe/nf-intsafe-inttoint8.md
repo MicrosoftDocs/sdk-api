@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7d738df4-9e63-4480-857b-1fb86ed85667
 ms.date: 12/05/2018
 ms.keywords: IntToInt8, IntToInt8 function [Windows Shell], intsafe/IntToInt8, shell.IntToInt8
-ms.topic: function
 f1_keywords:
 - intsafe/IntToInt8
 dev_langs:

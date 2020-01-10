@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 308e7905-dfa1-438f-9e7e-f895517e7adb
 ms.date: 12/05/2018
 ms.keywords: SHAddFolderPathToLibrary, SHAddFolderPathToLibrary function [Windows Shell], _shell_SHAddFolderPathToLibrary, shell.SHAddFolderPathToLibrary, shobjidl_core/SHAddFolderPathToLibrary
-ms.topic: function
 f1_keywords:
 - shobjidl_core/SHAddFolderPathToLibrary
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: fa881a0f-3087-4605-9c42-880f6694c018
 ms.date: 12/05/2018
 ms.keywords: AvRtDeleteThreadOrderingGroup, AvRtDeleteThreadOrderingGroup function, avrt/AvRtDeleteThreadOrderingGroup, base.avrtdeletethreadorderinggroup
-ms.topic: function
 f1_keywords:
 - avrt/AvRtDeleteThreadOrderingGroup
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 09fbf42d-ed7a-4b1d-bad6-3bf8f216603c
 ms.date: 12/05/2018
 ms.keywords: CertStoreProvReadCTL, PFN_CERT_STORE_PROV_READ_CTL, PFN_CERT_STORE_PROV_READ_CTL callback, PFN_CERT_STORE_PROV_READ_CTL callback function [Security], _crypto2_certstoreprovreadctl, security.certstoreprovreadctl, wincrypt/PFN_CERT_STORE_PROV_READ_CTL
-ms.topic: callback
 f1_keywords:
 - wincrypt/PFN_CERT_STORE_PROV_READ_CTL
 dev_langs:

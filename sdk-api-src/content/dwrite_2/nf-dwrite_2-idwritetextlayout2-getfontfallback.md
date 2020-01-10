@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 65787E7E-7475-4810-B929-377D50A2BEF5
 ms.date: 12/05/2018
 ms.keywords: GetFontFallback, GetFontFallback method [Direct Write], GetFontFallback method [Direct Write],IDWriteTextLayout2 interface, IDWriteTextLayout2 interface [Direct Write],GetFontFallback method, IDWriteTextLayout2.GetFontFallback, IDWriteTextLayout2::GetFontFallback, directwrite.idwritetextlayout2_getfontfallback, dwrite_2/IDWriteTextLayout2::GetFontFallback
-ms.topic: method
 f1_keywords:
 - dwrite_2/IDWriteTextLayout2.GetFontFallback
 dev_langs:

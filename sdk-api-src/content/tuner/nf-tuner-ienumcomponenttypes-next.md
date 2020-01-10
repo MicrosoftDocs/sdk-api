@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 491e9237-38cd-4c12-b93b-eb398a49d742
 ms.date: 12/05/2018
 ms.keywords: IEnumComponentTypes interface [Microsoft TV Technologies],Next method, IEnumComponentTypes.Next, IEnumComponentTypes::Next, IEnumComponentTypesNext, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],IEnumComponentTypes interface, mstv.ienumcomponenttypes_next, tuner/IEnumComponentTypes::Next
-ms.topic: method
 f1_keywords:
 - tuner/IEnumComponentTypes.Next
 dev_langs:

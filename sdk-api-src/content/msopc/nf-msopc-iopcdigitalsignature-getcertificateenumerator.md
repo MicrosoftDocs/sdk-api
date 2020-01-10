@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 5b5b803f-fc61-41fa-aa73-eefb1c1d2f00
 ms.date: 12/05/2018
 ms.keywords: GetCertificateEnumerator, GetCertificateEnumerator method [Open Packaging Conventions], GetCertificateEnumerator method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetCertificateEnumerator method, IOpcDigitalSignature.GetCertificateEnumerator, IOpcDigitalSignature::GetCertificateEnumerator, msopc/IOpcDigitalSignature::GetCertificateEnumerator, opc.iopcdigitalsignature_getcertificateenumerator
-ms.topic: method
 f1_keywords:
 - msopc/IOpcDigitalSignature.GetCertificateEnumerator
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e74a1e62-1bc4-43e1-9017-85012b2ece01
 ms.date: 12/05/2018
 ms.keywords: IMPEG2StreamIdMap interface [DirectShow],MapStreamId method, IMPEG2StreamIdMap.MapStreamId, IMPEG2StreamIdMap::MapStreamId, IMPEG2StreamIdMapMapStreamId, MapStreamId, MapStreamId method [DirectShow], MapStreamId method [DirectShow],IMPEG2StreamIdMap interface, dshow.impeg2streamidmap_mapstreamid, strmif/IMPEG2StreamIdMap::MapStreamId
-ms.topic: method
 f1_keywords:
 - strmif/IMPEG2StreamIdMap.MapStreamId
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: ead94980-0f02-4b21-a569-bcdf0f4b9449
 ms.date: 12/05/2018
 ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetNextTable method, IDVB_EIT.GetNextTable, IDVB_EIT::GetNextTable, IDVB_EITGetNextTable, dvbsiparser/IDVB_EIT::GetNextTable, mstv.idvb_eit_getnexttable
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDVB_EIT.GetNextTable
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 12d15872-4f35-4a6d-ae99-bc9fa69ffe06
 ms.date: 12/05/2018
 ms.keywords: Configure, Configure method [Media Foundation], Configure method [Media Foundation],IDirect3DAuthenticatedChannel9 interface, IDirect3DAuthenticatedChannel9 interface [Media Foundation],Configure method, IDirect3DAuthenticatedChannel9.Configure, IDirect3DAuthenticatedChannel9::Configure, d3d9/IDirect3DAuthenticatedChannel9::Configure, mf.idirect3dauthenticatedchannel9_configure
-ms.topic: method
 f1_keywords:
 - d3d9/IDirect3DAuthenticatedChannel9.Configure
 dev_langs:

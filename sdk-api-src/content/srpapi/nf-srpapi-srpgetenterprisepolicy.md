@@ -7,7 +7,6 @@ tech.root: EDP
 ms.assetid: BF31E36C-756E-4B4A-959B-4BA7517427CB
 ms.date: 12/05/2018
 ms.keywords: EDP.srpgetenterprisepolicy, SrpGetEnterprisePolicy, SrpGetEnterprisePolicy function, srpapi/SrpGetEnterprisePolicy
-ms.topic: function
 f1_keywords:
 - srpapi/SrpGetEnterprisePolicy
 dev_langs:

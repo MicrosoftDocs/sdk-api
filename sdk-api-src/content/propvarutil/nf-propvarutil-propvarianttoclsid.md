@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 35b638e3-7610-49d6-92f3-5e4021fea635
 ms.date: 12/05/2018
 ms.keywords: PropVariantToCLSID, PropVariantToCLSID function [Windows Properties], _shell_PropVariantToCLSID, properties.PropVariantToCLSID, propvarutil/PropVariantToCLSID, shell.PropVariantToCLSID
-ms.topic: function
 f1_keywords:
 - propvarutil/PropVariantToCLSID
 dev_langs:

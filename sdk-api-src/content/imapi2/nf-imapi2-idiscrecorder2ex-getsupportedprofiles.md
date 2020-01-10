@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 1295d536-8531-4470-a8b4-1e589736e0b1
 ms.date: 12/05/2018
 ms.keywords: GetSupportedProfiles, GetSupportedProfiles method [IMAPI], GetSupportedProfiles method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetSupportedProfiles method, IDiscRecorder2Ex.GetSupportedProfiles, IDiscRecorder2Ex::GetSupportedProfiles, imapi.idiscrecorder2ex_getsupportedprofiles, imapi2/IDiscRecorder2Ex::GetSupportedProfiles
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscRecorder2Ex.GetSupportedProfiles
 dev_langs:

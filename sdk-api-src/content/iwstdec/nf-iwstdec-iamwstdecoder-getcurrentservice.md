@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d16b3501-efee-48e6-8d5d-d76f206d77ed
 ms.date: 12/05/2018
 ms.keywords: GetCurrentService, GetCurrentService method [DirectShow], GetCurrentService method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetCurrentService method, IAMWstDecoder.GetCurrentService, IAMWstDecoder::GetCurrentService, IAMWstDecoderGetCurrentService, dshow.iamwstdecoder_getcurrentservice, iwstdec/IAMWstDecoder::GetCurrentService
-ms.topic: method
 f1_keywords:
 - iwstdec/IAMWstDecoder.GetCurrentService
 dev_langs:

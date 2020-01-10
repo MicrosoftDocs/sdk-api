@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 01FF3DF1-CCA8-49BF-9876-57A4DDA658D0
 ms.date: 12/05/2018
 ms.keywords: CreateEncryptedBundleWriter, CreateEncryptedBundleWriter method [App packaging and management], CreateEncryptedBundleWriter method [App packaging and management],IAppxEncryptionFactory interface, IAppxEncryptionFactory interface [App packaging and management],CreateEncryptedBundleWriter method, IAppxEncryptionFactory.CreateEncryptedBundleWriter, IAppxEncryptionFactory::CreateEncryptedBundleWriter, appxpackaging/IAppxEncryptionFactory::CreateEncryptedBundleWriter, appxpkg.iappxencryptionfactory_createencryptedbundlewriter
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxEncryptionFactory.CreateEncryptedBundleWriter
 dev_langs:

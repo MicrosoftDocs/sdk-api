@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4e1316e5-f736-4a9b-887b-ddc48a615c42
 ms.date: 12/05/2018
 ms.keywords: IPreviewHandlerFrame, IPreviewHandlerFrame interface [Windows Shell], IPreviewHandlerFrame interface [Windows Shell],described, _shell_IPreviewHandlerFrame, shell.IPreviewHandlerFrame, shobjidl_core/IPreviewHandlerFrame
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IPreviewHandlerFrame
 dev_langs:

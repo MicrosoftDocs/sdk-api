@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 7D7E8171-229F-4D9C-B086-D68E064A8A4C
 ms.date: 12/05/2018
 ms.keywords: GetSearchCandidates, GetSearchCandidates method [Text Services Framework], GetSearchCandidates method [Text Services Framework],ITfFnSearchCandidateProvider interface, ITfFnSearchCandidateProvider interface [Text Services Framework],GetSearchCandidates method, ITfFnSearchCandidateProvider.GetSearchCandidates, ITfFnSearchCandidateProvider::GetSearchCandidates, ctffunc/ITfFnSearchCandidateProvider::GetSearchCandidates, tsf.itffnsearchcandidateprovider_getsearchcandidates
-ms.topic: method
 f1_keywords:
 - ctffunc/ITfFnSearchCandidateProvider.GetSearchCandidates
 dev_langs:

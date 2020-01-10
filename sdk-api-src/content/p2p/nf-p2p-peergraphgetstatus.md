@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: a7d23640-4f69-4ce0-996f-562807db7768
 ms.date: 12/05/2018
 ms.keywords: PeerGraphGetStatus, PeerGraphGetStatus function [Peer Networking], p2p.peergraphgetstatus, p2p/PeerGraphGetStatus
-ms.topic: function
 f1_keywords:
 - p2p/PeerGraphGetStatus
 dev_langs:

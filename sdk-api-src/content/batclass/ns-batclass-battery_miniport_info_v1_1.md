@@ -7,7 +7,6 @@ tech.root: battery
 ms.assetid: 3266126A-AEFC-445C-89D3-736545101522
 ms.date: 12/05/2018
 ms.keywords: '*PBATTERY_MINIPORT_INFO_V1_1, BATTERY_MINIPORT_INFO_V1_1, BATTERY_MINIPORT_INFO_V1_1 structure [Battery Devices], PBATTERY_MINIPORT_INFO_V1_1, PBATTERY_MINIPORT_INFO_V1_1 structure pointer [Battery Devices], batclass/BATTERY_MINIPORT_INFO_V1_1, batclass/PBATTERY_MINIPORT_INFO_V1_1, battery.battery_miniport_info_v1_1'
-ms.topic: struct
 f1_keywords:
 - batclass/BATTERY_MINIPORT_INFO_V1_1
 dev_langs:

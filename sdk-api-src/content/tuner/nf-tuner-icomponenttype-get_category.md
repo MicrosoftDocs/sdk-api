@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: e0a61359-a15a-47f6-8388-90368867e945
 ms.date: 12/05/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get_Category method, IComponentType.get_Category, IComponentType::get_Category, IComponentTypeget_Category, get_Category, get_Category method [Microsoft TV Technologies], get_Category method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get_category, tuner/IComponentType::get_Category
-ms.topic: method
 f1_keywords:
 - tuner/IComponentType.get_Category
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: ed6a3560-53a8-4ead-8c6b-8e65c72dafe1
 ms.date: 12/05/2018
 ms.keywords: EapPeerMethodResult, EapPeerMethodResult structure [EAPHost], eaphost.eappeermethodresult, eapmethodpeerapis/EapPeerMethodResult
-ms.topic: struct
 f1_keywords:
 - eapmethodpeerapis/EapPeerMethodResult
 dev_langs:

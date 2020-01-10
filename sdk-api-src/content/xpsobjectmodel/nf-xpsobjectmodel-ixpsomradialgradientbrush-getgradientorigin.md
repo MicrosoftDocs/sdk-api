@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 44e55c42-a18b-45dd-aa92-b9336eedd9ad
 ms.date: 12/05/2018
 ms.keywords: GetGradientOrigin, GetGradientOrigin method [XPS Documents and Packaging], GetGradientOrigin method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],GetGradientOrigin method, IXpsOMRadialGradientBrush.GetGradientOrigin, IXpsOMRadialGradientBrush::GetGradientOrigin, xps.ixpsomradialgradientbrush_getgradientorigin, xpsobjectmodel/IXpsOMRadialGradientBrush::GetGradientOrigin
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMRadialGradientBrush.GetGradientOrigin
 dev_langs:

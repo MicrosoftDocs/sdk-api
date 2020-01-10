@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 8761bb58-9f28-4fe6-bf24-2687608ec5e8
 ms.date: 12/05/2018
 ms.keywords: IClientSecurity interface [COM],QueryBlanket method, IClientSecurity.QueryBlanket, IClientSecurity::QueryBlanket, QueryBlanket, QueryBlanket method [COM], QueryBlanket method [COM],IClientSecurity interface, _com_iclientsecurity_queryblanket, com.iclientsecurity_queryblanket, objidlbase/IClientSecurity::QueryBlanket
-ms.topic: method
 f1_keywords:
 - objidlbase/IClientSecurity.QueryBlanket
 dev_langs:

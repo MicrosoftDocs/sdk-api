@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: de6e8eaa-4436-4b82-8c47-76da53116ff2
 ms.date: 12/05/2018
 ms.keywords: ID_ERROR_OBJECT, ID_ERROR_OBJECT structure [QOS], lpmapi/ID_ERROR_OBJECT, qos.id_error_object
-ms.topic: struct
 f1_keywords:
 - lpmapi/ID_ERROR_OBJECT
 dev_langs:

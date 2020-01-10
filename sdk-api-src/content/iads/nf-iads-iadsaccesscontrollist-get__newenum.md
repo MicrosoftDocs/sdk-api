@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 569f3bfa-3933-43b3-9d16-c3d4382cfa9f
 ms.date: 12/05/2018
 ms.keywords: IADsAccessControlList interface [ADSI],get__NewEnum method, IADsAccessControlList.get__NewEnum, IADsAccessControlList::get__NewEnum, _ds_iadsaccesscontrollist_get__newenum, adsi.iadsaccesscontrollist__get____newenum, adsi.iadsaccesscontrollist_get__newenum, get__NewEnum, get__NewEnum method [ADSI], get__NewEnum method [ADSI],IADsAccessControlList interface, iads/IADsAccessControlList::get__NewEnum
-ms.topic: method
 f1_keywords:
 - iads/IADsAccessControlList.get__NewEnum
 dev_langs:

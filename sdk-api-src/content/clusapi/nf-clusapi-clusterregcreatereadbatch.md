@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: FED3986E-7383-46C4-B2D5-259812EF63A2
 ms.date: 12/05/2018
 ms.keywords: ClusterRegCreateReadBatch, ClusterRegCreateReadBatch function [Failover Cluster], clusapi/ClusterRegCreateReadBatch, mscs.clusterregcreatereadbatch
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterRegCreateReadBatch
 dev_langs:

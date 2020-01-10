@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 44d5145d-1c42-429e-89c4-dc31d275bc73
 ms.date: 12/05/2018
 ms.keywords: GetTextCharacterExtra, GetTextCharacterExtra function [Windows GDI], _win32_GetTextCharacterExtra, gdi.gettextcharacterextra, wingdi/GetTextCharacterExtra
-ms.topic: function
 f1_keywords:
 - wingdi/GetTextCharacterExtra
 dev_langs:

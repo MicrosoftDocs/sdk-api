@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 93a112e7-5e44-42a9-a5f5-d61e1ad1eabc
 ms.date: 12/05/2018
 ms.keywords: ITaskHandler interface [Task Scheduler],Stop method, ITaskHandler.Stop, ITaskHandler::Stop, Stop, Stop method [Task Scheduler], Stop method [Task Scheduler],ITaskHandler interface, taskschd.itaskhandler_stop, taskschd/ITaskHandler::Stop
-ms.topic: method
 f1_keywords:
 - taskschd/ITaskHandler.Stop
 dev_langs:

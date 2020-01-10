@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: ad7b2746-cb97-406e-a328-efc051681aa6
 ms.date: 12/05/2018
 ms.keywords: ITForwardInformation interface [TAPI 2.2],put_NumRingsNoAnswer method, ITForwardInformation.put_NumRingsNoAnswer, ITForwardInformation::put_NumRingsNoAnswer, _tapi3_itforwardinformation_put_numringsnoanswer, put_NumRingsNoAnswer, put_NumRingsNoAnswer method [TAPI 2.2], put_NumRingsNoAnswer method [TAPI 2.2],ITForwardInformation interface, tapi3.itforwardinformation_put_numringsnoanswer, tapi3if/ITForwardInformation::put_NumRingsNoAnswer
-ms.topic: method
 f1_keywords:
 - tapi3if/ITForwardInformation.put_NumRingsNoAnswer
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 5f4a25f8-1a5f-40ff-9a29-586d1c7c217c
 ms.date: 12/05/2018
 ms.keywords: ITAllocatorProperties interface [TAPI 2.2],SetAllocateBuffers method, ITAllocatorProperties.SetAllocateBuffers, ITAllocatorProperties::SetAllocateBuffers, SetAllocateBuffers, SetAllocateBuffers method [TAPI 2.2], SetAllocateBuffers method [TAPI 2.2],ITAllocatorProperties interface, _tapi3_itallocatorproperties_setallocatebuffers, tapi3.itallocatorproperties_setallocatebuffers, tapi3ds/ITAllocatorProperties::SetAllocateBuffers
-ms.topic: method
 f1_keywords:
 - tapi3/ITAllocatorProperties.SetAllocateBuffers
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: a03436da-e12a-45ac-9ac1-1d1896f87fd7
 ms.date: 12/05/2018
 ms.keywords: GetResourceHandle, GetResourceHandle method [Failover Cluster], GetResourceHandle method [Failover Cluster],IGetClusterResourceInfo interface, IGetClusterResourceInfo interface [Failover Cluster],GetResourceHandle method, IGetClusterResourceInfo.GetResourceHandle, IGetClusterResourceInfo::GetResourceHandle, _wolf_igetclusterresourceinfo_getresourcehandle, cluadmex/IGetClusterResourceInfo::GetResourceHandle, mscs.igetclusterresourceinfo_getresourcehandle
-ms.topic: method
 f1_keywords:
 - cluadmex/IGetClusterResourceInfo.GetResourceHandle
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4qzo.htm
 ms.date: 12/05/2018
 ms.keywords: DeviceId property [Fax Service], DeviceId property [Fax Service],IFaxOutgoingJob interface, IFaxOutgoingJob interface [Fax Service],DeviceId property, IFaxOutgoingJob.DeviceId, IFaxOutgoingJob.get_DeviceId, IFaxOutgoingJob::DeviceId, IFaxOutgoingJob::get_DeviceId, _mfax_faxoutgoingjob.deviceid, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_deviceid_cpp, fax._mfax_faxoutgoingjob_deviceid, faxcomex/IFaxOutgoingJob::DeviceId, faxcomex/IFaxOutgoingJob::get_DeviceId, get_DeviceId
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxOutgoingJob.DeviceId
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 47d724eb-07e9-4659-886a-4b492fbb2415
 ms.date: 12/05/2018
 ms.keywords: GetInformation, GetInformation method [Media Foundation], GetInformation method [Media Foundation],IOPMVideoOutput interface, IOPMVideoOutput interface [Media Foundation],GetInformation method, IOPMVideoOutput.GetInformation, IOPMVideoOutput::GetInformation, mf.iopmvideooutput_iopmvideooutput__getinformation, opmapi/IOPMVideoOutput::GetInformation
-ms.topic: method
 f1_keywords:
 - opmapi/IOPMVideoOutput.GetInformation
 dev_langs:

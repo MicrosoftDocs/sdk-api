@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 10760fd4-5973-4ab0-991c-7a5951c798a4
 ms.date: 12/05/2018
 ms.keywords: InterlockedPopEntrySList, InterlockedPopEntrySList function, _win32_interlockedpopentryslist, base.interlockedpopentryslist, interlockedapi/InterlockedPopEntrySList, winbase/InterlockedPopEntrySList
-ms.topic: function
 f1_keywords:
 - interlockedapi/InterlockedPopEntrySList
 dev_langs:

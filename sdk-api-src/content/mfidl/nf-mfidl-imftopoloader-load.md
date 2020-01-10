@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 02ce47db-54a1-456a-a763-c62039aea2c9
 ms.date: 12/05/2018
 ms.keywords: 02ce47db-54a1-456a-a763-c62039aea2c9, IMFTopoLoader interface [Media Foundation],Load method, IMFTopoLoader.Load, IMFTopoLoader::Load, Load, Load method [Media Foundation], Load method [Media Foundation],IMFTopoLoader interface, mf.imftopoloader_load, mfidl/IMFTopoLoader::Load
-ms.topic: method
 f1_keywords:
 - mfidl/IMFTopoLoader.Load
 dev_langs:

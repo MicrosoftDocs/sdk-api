@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 4e6c8181-3ff9-4ce1-aad5-9d7821771f69
 ms.date: 12/05/2018
 ms.keywords: GetStreamTime, GetStreamTime method [Windows Media Player], GetStreamTime method [Windows Media Player],IWMPServices interface, IWMPServices interface [Windows Media Player],GetStreamTime method, IWMPServices.GetStreamTime, IWMPServices::GetStreamTime, IWMPServicesGetStreamTimeDSP, wmp.iwmpservices_getstreamtime, wmpservices/IWMPServices::GetStreamTime
-ms.topic: method
 f1_keywords:
 - wmpservices/IWMPServices.GetStreamTime
 dev_langs:

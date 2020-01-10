@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: b71d06db-c9bc-44fc-9e23-a16f89c56c1c
 ms.date: 12/05/2018
 ms.keywords: IWMPErrorItem2, IWMPErrorItem2 interface [Windows Media Player], IWMPErrorItem2 interface [Windows Media Player],described, IWMPErrorItem2Interface, wmp.iwmperroritem2, wmp/IWMPErrorItem2
-ms.topic: interface
 f1_keywords:
 - wmp/IWMPErrorItem2
 dev_langs:

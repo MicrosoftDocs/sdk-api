@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 2646cfb7-e372-44d2-9d4c-fa68e0d567bb
 ms.date: 12/05/2018
 ms.keywords: REQUESTBODY_Renew, REQUESTBODY_Renew structure, ncd.requestbody_renew_struct, wsdtypes/REQUESTBODY_Renew
-ms.topic: struct
 f1_keywords:
 - wsdtypes/REQUESTBODY_Renew
 dev_langs:

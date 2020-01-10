@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4mjm_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob, IFaxOutgoingJob interface [Fax Service], IFaxOutgoingJob interface [Fax Service],described, _mfax_faxoutgoingjob_cpp, fax._mfax_faxoutgoingjob_cpp, faxcomex/IFaxOutgoingJob
-ms.topic: interface
 f1_keywords:
 - faxcomex/IFaxOutgoingJob
 dev_langs:

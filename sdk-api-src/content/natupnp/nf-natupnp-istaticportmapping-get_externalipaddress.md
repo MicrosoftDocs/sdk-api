@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 4641f827-5408-4a4b-8454-41e960926621
 ms.date: 12/05/2018
 ms.keywords: IStaticPortMapping interface [ICS/ICF],get_ExternalIPAddress method, IStaticPortMapping.get_ExternalIPAddress, IStaticPortMapping::get_ExternalIPAddress, _ics_istaticportmapping_get_externalipaddress, get_ExternalIPAddress, get_ExternalIPAddress method [ICS/ICF], get_ExternalIPAddress method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_externalipaddress, natupnp/IStaticPortMapping::get_ExternalIPAddress
-ms.topic: method
 f1_keywords:
 - natupnp/IStaticPortMapping.get_ExternalIPAddress
 dev_langs:

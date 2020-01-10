@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3a9c33bc-2325-4285-b6c3-4c3e1d323c1e
 ms.date: 12/05/2018
 ms.keywords: PathIsNetworkPath, PathIsNetworkPath function [Windows Shell], PathIsNetworkPathA, PathIsNetworkPathW, _win32_PathIsNetworkPath, shell.PathIsNetworkPath, shlwapi/PathIsNetworkPath, shlwapi/PathIsNetworkPathA, shlwapi/PathIsNetworkPathW
-ms.topic: function
 f1_keywords:
 - shlwapi/PathIsNetworkPath
 dev_langs:

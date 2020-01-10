@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 01585BBF-B8D7-4A69-BBB9-1B02E0864224
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTransformPattern2, IUIAutomationTransformPattern2 interface [Windows Accessibility], IUIAutomationTransformPattern2 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationTransformPattern2, winauto.uiauto_IUIAutomationTransformPattern2
-ms.topic: interface
 f1_keywords:
 - uiautomationclient/IUIAutomationTransformPattern2
 dev_langs:

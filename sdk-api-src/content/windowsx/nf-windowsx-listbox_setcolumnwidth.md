@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_setcolumnwidth.htm
 ms.date: 12/05/2018
 ms.keywords: ListBox_SetColumnWidth, ListBox_SetColumnWidth macro [Windows Controls], _win32_ListBox_SetColumnWidth, _win32_ListBox_SetColumnWidth_cpp, controls.ListBox_SetColumnWidth, controls._win32_ListBox_SetColumnWidth, windowsx/ListBox_SetColumnWidth
-ms.topic: macro
 f1_keywords:
 - windowsx/ListBox_SetColumnWidth
 dev_langs:

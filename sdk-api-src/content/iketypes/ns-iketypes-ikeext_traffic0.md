@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 99cb3774-7afd-44fd-9c3e-e2d913aaeecb
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_TRAFFIC0, IKEEXT_TRAFFIC0 structure [Filtering], fwp.ikeext_traffic0, iketypes/IKEEXT_TRAFFIC0
-ms.topic: struct
 f1_keywords:
 - iketypes/IKEEXT_TRAFFIC0
 dev_langs:

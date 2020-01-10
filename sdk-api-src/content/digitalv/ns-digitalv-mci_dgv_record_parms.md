@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: c0a537b1-d38c-41fa-8bd7-bee90ac625a7
 ms.date: 12/05/2018
 ms.keywords: '*LPMCI_DGV_RECORD_PARMS, MCI_DGV_RECORD_PARMS, MCI_DGV_RECORD_PARMS structure [Windows Multimedia], _win32_MCI_DGV_RECORD_PARMS_str, digitalv/MCI_DGV_RECORD_PARMS, multimedia.mci_dgv_record_parms'
-ms.topic: struct
 f1_keywords:
 - digitalv/MCI_DGV_RECORD_PARMS
 dev_langs:

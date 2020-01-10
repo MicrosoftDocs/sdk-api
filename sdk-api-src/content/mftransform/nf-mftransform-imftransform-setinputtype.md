@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 822a83d1-177a-4a8d-842e-eb76f8253283
 ms.date: 12/05/2018
 ms.keywords: 822a83d1-177a-4a8d-842e-eb76f8253283, IMFTransform interface [Media Foundation],SetInputType method, IMFTransform.SetInputType, IMFTransform::SetInputType, SetInputType, SetInputType method [Media Foundation], SetInputType method [Media Foundation],IMFTransform interface, mf.imftransform_setinputtype, mftransform/IMFTransform::SetInputType
-ms.topic: method
 f1_keywords:
 - mftransform/IMFTransform.SetInputType
 dev_langs:

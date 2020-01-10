@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\levelsclass\levelsconstructors\levels.htm
 ms.date: 12/05/2018
 ms.keywords: Levels, Levels class [GDI+],Levels constructor, Levels constructor [GDI+], Levels constructor [GDI+],Levels class, Levels.Levels, Levels::Levels, _gdiplus_CLASS_Levels_Levels_, gdiplus._gdiplus_CLASS_Levels_Levels_
-ms.topic: method
 f1_keywords:
 - gdipluseffects/Levels.Levels
 dev_langs:

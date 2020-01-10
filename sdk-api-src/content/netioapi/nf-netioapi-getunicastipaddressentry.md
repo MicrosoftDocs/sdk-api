@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: d5475c09-05dd-41d7-80ff-63c52d78468c
 ms.date: 12/05/2018
 ms.keywords: GetUnicastIpAddressEntry, GetUnicastIpAddressEntry function [IP Helper], iphlp.getunicastipaddressentry, netioapi/GetUnicastIpAddressEntry
-ms.topic: function
 f1_keywords:
 - netioapi/GetUnicastIpAddressEntry
 dev_langs:

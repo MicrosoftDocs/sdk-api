@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f376d8e7-65d2-4824-a20f-e8604295df3f
 ms.date: 12/05/2018
 ms.keywords: IRunnableTask interface [Windows Shell],Suspend method, IRunnableTask.Suspend, IRunnableTask::Suspend, Suspend, Suspend method [Windows Shell], Suspend method [Windows Shell],IRunnableTask interface, _win32_IRunnableTask_Suspend, shell.IRunnableTask_Suspend, shobjidl_core/IRunnableTask::Suspend
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IRunnableTask.Suspend
 dev_langs:

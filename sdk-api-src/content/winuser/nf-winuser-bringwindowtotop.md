@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\bringwindowtotop.htm
 ms.date: 12/05/2018
 ms.keywords: BringWindowToTop, BringWindowToTop function [Windows and Messages], _win32_BringWindowToTop, _win32_bringwindowtotop_cpp, winmsg.bringwindowtotop, winui._win32_bringwindowtotop, winuser/BringWindowToTop
-ms.topic: function
 f1_keywords:
 - winuser/BringWindowToTop
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 50b6f391-98a4-4276-840f-028cc18e99ef
 ms.date: 12/05/2018
 ms.keywords: CreateStdAccessibleObject, CreateStdAccessibleObject function [Windows Accessibility], _msaa_CreateStdAccessibleObject, msaa.createstdaccessibleobject, oleacc/CreateStdAccessibleObject, winauto.createstdaccessibleobject
-ms.topic: function
 f1_keywords:
 - oleacc/CreateStdAccessibleObject
 dev_langs:

@@ -4,7 +4,6 @@ title: LPWSPBIND
 description: The LPWSPBind function associates a local address (that is, name) with a socket.
 ms.date: 9/12/2019
 ms.keywords: LPWSPBIND
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

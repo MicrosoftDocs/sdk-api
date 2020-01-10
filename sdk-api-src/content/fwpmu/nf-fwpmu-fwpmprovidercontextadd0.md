@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: c31595b8-81e4-4399-b2a3-d228c35875fe
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderContextAdd0, FwpmProviderContextAdd0 function [Filtering], fwp.fwpmprovidercontextadd0_func, fwpmu/FwpmProviderContextAdd0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmProviderContextAdd0
 dev_langs:

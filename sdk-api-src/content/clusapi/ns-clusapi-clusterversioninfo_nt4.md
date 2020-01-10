@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 1420C1B9-3361-4D7C-B968-34967C0818F4
 ms.date: 12/05/2018
 ms.keywords: '*PCLUSTERVERSIONINFO_NT4, CLUSTERVERSIONINFO_NT4, CLUSTERVERSIONINFO_NT4 structure [Failover Cluster], PCLUSTERVERSIONINFO_NT4, PCLUSTERVERSIONINFO_NT4 structure pointer [Failover Cluster], clusapi/CLUSTERVERSIONINFO_NT4, clusapi/PCLUSTERVERSIONINFO_NT4, mscs.clusterversioninfo_nt4'
-ms.topic: struct
 f1_keywords:
 - clusapi/CLUSTERVERSIONINFO_NT4
 dev_langs:

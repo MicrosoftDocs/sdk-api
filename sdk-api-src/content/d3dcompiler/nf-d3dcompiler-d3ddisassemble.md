@@ -7,7 +7,6 @@ tech.root: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3ddisassemble.htm
 ms.date: 12/05/2018
 ms.keywords: 102070a9-01bc-45ad-cbcb-2ef04db4d6e7, D3DDisassemble, D3DDisassemble function [HLSL], d3dcompiler/D3DDisassemble, direct3dhlsl.d3ddisassemble
-ms.topic: function
 f1_keywords:
 - d3dcompiler/D3DDisassemble
 dev_langs:

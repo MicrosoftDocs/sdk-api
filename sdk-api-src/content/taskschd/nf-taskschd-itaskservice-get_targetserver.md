@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 2b8c55d7-72e2-4b75-8850-3f042ba83c60
 ms.date: 12/05/2018
 ms.keywords: ITaskService interface [Task Scheduler],TargetServer property, ITaskService.TargetServer, ITaskService.get_TargetServer, ITaskService::TargetServer, ITaskService::get_TargetServer, TargetServer property [Task Scheduler], TargetServer property [Task Scheduler],ITaskService interface, get_TargetServer, taskschd.itaskservice_targetserver, taskschd/ITaskService::TargetServer, taskschd/ITaskService::get_TargetServer
-ms.topic: method
 f1_keywords:
 - taskschd/ITaskService.TargetServer
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: e6f01e02-ea39-4b25-bcc0-2aee941c7834
 ms.date: 12/05/2018
 ms.keywords: SetupGetFileCompressionInfoEx, SetupGetFileCompressionInfoEx function [Setup API], SetupGetFileCompressionInfoExA, SetupGetFileCompressionInfoExW, _setupapi_setupgetfilecompressioninfoex, setup.setupgetfilecompressioninfoex, setupapi/SetupGetFileCompressionInfoEx, setupapi/SetupGetFileCompressionInfoExA, setupapi/SetupGetFileCompressionInfoExW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupGetFileCompressionInfoEx
 dev_langs:

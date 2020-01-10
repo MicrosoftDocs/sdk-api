@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: fcc65fd3-debf-4b5c-aaf2-3e7234510d35
 ms.date: 12/05/2018
 ms.keywords: GetSuggestedPollingInterval, GetSuggestedPollingInterval method [COM+], GetSuggestedPollingInterval method [COM+],IGetAppTrackerData interface, IGetAppTrackerData interface [COM+],GetSuggestedPollingInterval method, IGetAppTrackerData.GetSuggestedPollingInterval, IGetAppTrackerData::GetSuggestedPollingInterval, comsvcs/IGetAppTrackerData::GetSuggestedPollingInterval, cos.igetapptrackerdata_getsuggestedpollinginterval
-ms.topic: method
 f1_keywords:
 - comsvcs/IGetAppTrackerData.GetSuggestedPollingInterval
 dev_langs:

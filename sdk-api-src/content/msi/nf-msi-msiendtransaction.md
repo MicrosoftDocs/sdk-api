@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 70912430-63d7-4087-858c-fb13f47008e2
 ms.date: 12/05/2018
 ms.keywords: MsiEndTransaction, MsiEndTransaction function [Setup API], msi/MsiEndTransaction, setup.msiendtransaction
-ms.topic: function
 f1_keywords:
 - msi/MsiEndTransaction
 dev_langs:

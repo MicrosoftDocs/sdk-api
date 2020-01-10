@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 51E69696-CE8A-4390-8134-EE5C5F3C729B
 ms.date: 12/5/2018
 ms.keywords: IBufferByteAccess interface [Windows Runtime]
-ms.topic: method
 f1_keywords:
 - robuffer/IBufferByteAccess
 dev_langs:

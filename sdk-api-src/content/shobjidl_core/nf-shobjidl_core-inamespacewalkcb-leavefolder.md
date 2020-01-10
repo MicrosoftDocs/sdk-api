@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 307b0686-c4ec-40c6-8bd3-18a7aa790875
 ms.date: 12/05/2018
 ms.keywords: INamespaceWalkCB interface [Windows Shell],LeaveFolder method, INamespaceWalkCB.LeaveFolder, INamespaceWalkCB::LeaveFolder, LeaveFolder, LeaveFolder method [Windows Shell], LeaveFolder method [Windows Shell],INamespaceWalkCB interface, _win32_INamespaceWalkCB_LeaveFolder, shell.INamespaceWalkCB_LeaveFolder, shobjidl_core/INamespaceWalkCB::LeaveFolder
-ms.topic: method
 f1_keywords:
 - shobjidl_core/INamespaceWalkCB.LeaveFolder
 dev_langs:

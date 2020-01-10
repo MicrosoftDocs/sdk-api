@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d5bed27f-2918-4c1f-9340-a0d5714d911b
 ms.date: 12/05/2018
 ms.keywords: IOverlayNotify interface [DirectShow],OnClipChange method, IOverlayNotify.OnClipChange, IOverlayNotify::OnClipChange, IOverlayNotifyOnClipChange, OnClipChange, OnClipChange method [DirectShow], OnClipChange method [DirectShow],IOverlayNotify interface, dshow.ioverlaynotify_onclipchange, strmif/IOverlayNotify::OnClipChange
-ms.topic: method
 f1_keywords:
 - strmif/IOverlayNotify.OnClipChange
 dev_langs:

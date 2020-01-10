@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 6747534F-7121-4783-BC19-D564C7014815
 ms.date: 12/05/2018
 ms.keywords: GetDefaultCompartmentId, GetDefaultCompartmentId function [IP Helper], iphlp.getdefaultcompartmentid, netioapi/GetDefaultCompartmentId
-ms.topic: function
 f1_keywords:
 - netioapi/GetDefaultCompartmentId
 dev_langs:

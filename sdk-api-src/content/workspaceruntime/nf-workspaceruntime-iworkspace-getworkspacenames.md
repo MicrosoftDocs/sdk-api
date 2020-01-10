@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 379a9fb5-36e3-4c3d-a276-9d0804599b42
 ms.date: 12/05/2018
 ms.keywords: GetWorkspaceNames, GetWorkspaceNames method [Remote Desktop Services], GetWorkspaceNames method [Remote Desktop Services],IWorkspace interface, GetWorkspaceNames method [Remote Desktop Services],IWorkspace2 interface, GetWorkspaceNames method [Remote Desktop Services],IWorkspace3 interface, GetWorkspaceNames method [Remote Desktop Services],Workspace object, IWorkspace interface [Remote Desktop Services],GetWorkspaceNames method, IWorkspace.GetWorkspaceNames, IWorkspace2 interface [Remote Desktop Services],GetWorkspaceNames method, IWorkspace2::GetWorkspaceNames, IWorkspace3 interface [Remote Desktop Services],GetWorkspaceNames method, IWorkspace3::GetWorkspaceNames, IWorkspace::GetWorkspaceNames, Workspace object [Remote Desktop Services],GetWorkspaceNames method, termserv.iworkspace_getworkspacenames, workspaceruntime/IWorkspace2::GetWorkspaceNames, workspaceruntime/IWorkspace3::GetWorkspaceNames, workspaceruntime/IWorkspace::GetWorkspaceNames
-ms.topic: method
 f1_keywords:
 - workspaceruntime/IWorkspace.GetWorkspaceNames
 dev_langs:

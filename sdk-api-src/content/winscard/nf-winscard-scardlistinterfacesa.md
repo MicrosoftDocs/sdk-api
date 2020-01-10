@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 2460c133-3ad4-4f73-9f55-56fc3bab9cdb
 ms.date: 12/05/2018
 ms.keywords: SCardListInterfaces, SCardListInterfaces function [Security], SCardListInterfacesA, SCardListInterfacesW, _smart_scardlistinterfaces, security.scardlistinterfaces, winscard/SCardListInterfaces, winscard/SCardListInterfacesA, winscard/SCardListInterfacesW
-ms.topic: function
 f1_keywords:
 - winscard/SCardListInterfaces
 dev_langs:

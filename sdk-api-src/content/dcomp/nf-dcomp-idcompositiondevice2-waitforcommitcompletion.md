@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 98C790BD-5C51-4A77-9DB4-51A263A4EC2A
 ms.date: 12/05/2018
 ms.keywords: IDCompositionDevice2 interface [DirectComposition],WaitForCommitCompletion method, IDCompositionDevice2.WaitForCommitCompletion, IDCompositionDevice2::WaitForCommitCompletion, WaitForCommitCompletion, WaitForCommitCompletion method [DirectComposition], WaitForCommitCompletion method [DirectComposition],IDCompositionDevice2 interface, dcomp/IDCompositionDevice2::WaitForCommitCompletion, directcomp.idcompositiondevice2_waitforcommitcompletion
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionDevice2.WaitForCommitCompletion
 dev_langs:

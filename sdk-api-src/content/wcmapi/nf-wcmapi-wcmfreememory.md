@@ -7,7 +7,6 @@ tech.root: wcm
 ms.assetid: 43377f58-9702-472d-874a-898f29b743d8
 ms.date: 12/05/2018
 ms.keywords: WcmFreeMemory, WcmFreeMemory function [Windows Connection Manager], wcm.wcmfreememory, wcmapi/WcmFreeMemory
-ms.topic: function
 f1_keywords:
 - wcmapi/WcmFreeMemory
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 65c17590-3988-40d8-b6d8-b32b2e883059
 ms.date: 12/05/2018
 ms.keywords: Error, Error method [Windows Media Player], Error method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],Error method, IWMPEvents.Error, IWMPEvents::Error, IWMPEventsError, wmp.iwmpevents_iwmpevents__error, wmp/IWMPEvents::Error
-ms.topic: method
 f1_keywords:
 - wmp/IWMPEvents.Error
 dev_langs:

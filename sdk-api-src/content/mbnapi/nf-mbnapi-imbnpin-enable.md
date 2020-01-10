@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: bbdd767b-f08a-4e94-bccf-9ed0d1b4af29
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [Microsoft Broadband Networks], Enable method [Microsoft Broadband Networks],IMbnPin interface, IMbnPin interface [Microsoft Broadband Networks],Enable method, IMbnPin.Enable, IMbnPin::Enable, mbn.imbnpin_enable, mbnapi/IMbnPin::Enable
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnPin.Enable
 dev_langs:

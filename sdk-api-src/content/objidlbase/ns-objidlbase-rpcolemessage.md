@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: b4761462-1910-431c-b5cd-c14fdda0b6b6
 ms.date: 12/05/2018
 ms.keywords: '*PRPCOLEMESSAGE, PRPCOLEMESSAGE, PRPCOLEMESSAGE structure pointer [COM], RPCOLEMESSAGE, RPCOLEMESSAGE structure [COM], _com_RPCOLEMESSAGE, com.rpcolemessage, objidlbase/PRPCOLEMESSAGE, objidlbase/RPCOLEMESSAGE, tagRPCOLEMESSAGE'
-ms.topic: struct
 f1_keywords:
 - objidlbase/RPCOLEMESSAGE
 dev_langs:

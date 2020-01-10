@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 0f70bcef-2d56-4765-a44e-4549b4ae2ced
 ms.date: 12/05/2018
 ms.keywords: GetUrlCacheEntryInfo, GetUrlCacheEntryInfo function [WinINet], GetUrlCacheEntryInfoA, GetUrlCacheEntryInfoW, _inet_geturlcacheentryinfo_function, wininet.geturlcacheentryinfo, wininet/GetUrlCacheEntryInfo, wininet/GetUrlCacheEntryInfoA, wininet/GetUrlCacheEntryInfoW
-ms.topic: function
 f1_keywords:
 - wininet/GetUrlCacheEntryInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 4d308dd8-e623-467b-836e-faace19460f1
 ms.date: 12/05/2018
 ms.keywords: RasGetErrorString, RasGetErrorString function [RAS], RasGetErrorStringA, RasGetErrorStringW, _ras_rasgeterrorstring, ras/RasGetErrorString, ras/RasGetErrorStringA, ras/RasGetErrorStringW, rras.rasgeterrorstring
-ms.topic: function
 f1_keywords:
 - ras/RasGetErrorString
 dev_langs:

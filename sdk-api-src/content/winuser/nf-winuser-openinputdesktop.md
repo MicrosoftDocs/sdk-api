@@ -7,7 +7,6 @@ tech.root: winstation
 ms.assetid: 023d421e-bf32-4e08-b5b3-b7b2ca6c4e00
 ms.date: 12/05/2018
 ms.keywords: DF_ALLOWOTHERACCOUNTHOOK, OpenInputDesktop, OpenInputDesktop function [Windows Stations and Desktops], base.openinputdesktop, winstation.openinputdesktop, winuser/OpenInputDesktop
-ms.topic: function
 f1_keywords:
 - winuser/OpenInputDesktop
 dev_langs:

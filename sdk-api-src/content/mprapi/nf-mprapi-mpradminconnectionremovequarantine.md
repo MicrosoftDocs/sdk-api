@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 9d8c33b4-4227-4538-bc0e-f663d1d560f1
 ms.date: 12/05/2018
 ms.keywords: MprAdminConnectionRemoveQuarantine, MprAdminConnectionRemoveQuarantine function [RAS], _mpr_mpradminconnectionremovequarantine, mprapi/MprAdminConnectionRemoveQuarantine, rras.mpradminconnectionremovequarantine
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminConnectionRemoveQuarantine
 dev_langs:

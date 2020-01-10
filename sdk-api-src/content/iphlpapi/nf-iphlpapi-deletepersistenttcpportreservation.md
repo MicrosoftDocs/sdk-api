@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 533F8B35-6EC1-43BB-B8E6-EB086A9C646C
 ms.date: 12/05/2018
 ms.keywords: DeletePersistentTcpPortReservation, DeletePersistentTcpPortReservation function [IP Helper], iphlp.deletepersistenttcpportreservation, iphlpapi/DeletePersistentTcpPortReservation
-ms.topic: function
 f1_keywords:
 - iphlpapi/DeletePersistentTcpPortReservation
 dev_langs:

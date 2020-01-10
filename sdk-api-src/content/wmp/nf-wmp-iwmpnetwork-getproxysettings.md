@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 103e0d53-943d-4aba-9db1-20cdc1d75d52
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],getProxySettings method, IWMPNetwork.getProxySettings, IWMPNetwork::getProxySettings, IWMPNetworkgetProxySettings, getProxySettings, getProxySettings method [Windows Media Player], getProxySettings method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_getproxysettings, wmp/IWMPNetwork::getProxySettings
-ms.topic: method
 f1_keywords:
 - wmp/IWMPNetwork.getProxySettings
 dev_langs:

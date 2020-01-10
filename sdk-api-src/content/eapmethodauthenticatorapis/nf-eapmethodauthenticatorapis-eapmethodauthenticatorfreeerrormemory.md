@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 8fcf82d6-9809-4a28-a694-1f7494216f82
 ms.date: 12/05/2018
 ms.keywords: EapMethodAuthenticatorFreeErrorMemory, EapMethodAuthenticatorFreeErrorMemory function [EAPHost], eaphost.eapmethodauthenticatorfreeerrormemory, eapmethodauthenticatorapis/EapMethodAuthenticatorFreeErrorMemory
-ms.topic: function
 f1_keywords:
 - eapmethodauthenticatorapis/EapMethodAuthenticatorFreeErrorMemory
 dev_langs:

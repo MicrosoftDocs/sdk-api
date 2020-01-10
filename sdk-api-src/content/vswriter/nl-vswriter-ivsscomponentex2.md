@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: f40705bf-46a9-464d-a545-1d68d89876c2
 ms.date: 12/05/2018
 ms.keywords: IVssComponentEx2, IVssComponentEx2 interface, IVssComponentEx2 interface,described, base.ivsscomponentex2, vswriter/IVssComponentEx2
-ms.topic: class
 f1_keywords:
 - vswriter/IVssComponentEx2
 dev_langs:

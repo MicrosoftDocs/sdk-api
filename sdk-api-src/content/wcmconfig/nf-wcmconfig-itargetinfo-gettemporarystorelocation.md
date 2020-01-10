@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: aebebdee-3a24-4a9b-9ec6-cc411385af41
 ms.date: 12/05/2018
 ms.keywords: GetTemporaryStoreLocation, GetTemporaryStoreLocation method [SMI], GetTemporaryStoreLocation method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetTemporaryStoreLocation method, ITargetInfo.GetTemporaryStoreLocation, ITargetInfo::GetTemporaryStoreLocation, smi.itargetinfo_gettemporarystorelocation, wcmconfig/ITargetInfo::GetTemporaryStoreLocation
-ms.topic: method
 f1_keywords:
 - wcmconfig/ITargetInfo.GetTemporaryStoreLocation
 dev_langs:

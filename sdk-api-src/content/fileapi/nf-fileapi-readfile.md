@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 4ad4580d-c002-44a4-a5f6-757e83ed8732
 ms.date: 12/05/2018
 ms.keywords: ReadFile, ReadFile function [Files], _win32_readfile, base.readfile, fileapi/ReadFile, fs.readfile, winbase/ReadFile
-ms.topic: function
 f1_keywords:
 - fileapi/ReadFile
 dev_langs:

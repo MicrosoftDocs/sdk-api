@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 781cb67c-75bb-4d3c-8b86-fddbe9511255
 ms.date: 12/05/2018
 ms.keywords: ITsSbOrchestrationNotifySink interface [Remote Desktop Services],OnReadyToConnect method, ITsSbOrchestrationNotifySink.OnReadyToConnect, ITsSbOrchestrationNotifySink::OnReadyToConnect, OnReadyToConnect, OnReadyToConnect method [Remote Desktop Services], OnReadyToConnect method [Remote Desktop Services],ITsSbOrchestrationNotifySink interface, sbtsv/ITsSbOrchestrationNotifySink::OnReadyToConnect, termserv.itssborchestrationnotifysink_onreadytoconnect
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbOrchestrationNotifySink.OnReadyToConnect
 dev_langs:

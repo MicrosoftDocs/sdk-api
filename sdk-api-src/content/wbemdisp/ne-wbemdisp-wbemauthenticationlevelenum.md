@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 1789b25a-e9a0-42a3-97c2-077e902a2f41
 ms.date: 12/05/2018
 ms.keywords: WbemAuthenticationLevelCall, WbemAuthenticationLevelConnect, WbemAuthenticationLevelDefault, WbemAuthenticationLevelEnum, WbemAuthenticationLevelEnum enumeration [Windows Management Instrumentation], WbemAuthenticationLevelNone, WbemAuthenticationLevelPkt, WbemAuthenticationLevelPktIntegrity, WbemAuthenticationLevelPktPrivacy, _hmm_wbemauthenticationlevelenum, wbemdisp/WbemAuthenticationLevelCall, wbemdisp/WbemAuthenticationLevelConnect, wbemdisp/WbemAuthenticationLevelDefault, wbemdisp/WbemAuthenticationLevelEnum, wbemdisp/WbemAuthenticationLevelNone, wbemdisp/WbemAuthenticationLevelPkt, wbemdisp/WbemAuthenticationLevelPktIntegrity, wbemdisp/WbemAuthenticationLevelPktPrivacy, wmi.wbemauthenticationlevelenum
-ms.topic: enum
 f1_keywords:
 - wbemdisp/WbemAuthenticationLevelEnum
 dev_langs:

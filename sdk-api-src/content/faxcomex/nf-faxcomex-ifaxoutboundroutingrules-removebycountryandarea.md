@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_62e9.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutboundRoutingRules interface [Fax Service],RemoveByCountryAndArea method, IFaxOutboundRoutingRules.RemoveByCountryAndArea, IFaxOutboundRoutingRules::RemoveByCountryAndArea, RemoveByCountryAndArea, RemoveByCountryAndArea method [Fax Service], RemoveByCountryAndArea method [Fax Service],IFaxOutboundRoutingRules interface, _mfax_faxoutboundroutingrules.removebycountryandarea, fax._mfax_faxoutboundroutingrules_cpp_mfax_faxoutboundroutingrules_removebycountryandarea_cpp, fax._mfax_faxoutboundroutingrules_removebycountryandarea, faxcomex/IFaxOutboundRoutingRules::RemoveByCountryAndArea
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxOutboundRoutingRules.RemoveByCountryAndArea
 dev_langs:

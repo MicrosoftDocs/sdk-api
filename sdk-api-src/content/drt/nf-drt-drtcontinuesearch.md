@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 04bdeb53-4901-41d4-835e-da665095edc5
 ms.date: 12/05/2018
 ms.keywords: DrtContinueSearch, DrtContinueSearch function [Peer Networking], drt/DrtContinueSearch, p2p.drtcontinuesearch
-ms.topic: function
 f1_keywords:
 - drt/DrtContinueSearch
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 82561e4a-f2c2-46da-96bb-fbd50d4f7c39
 ms.date: 12/05/2018
 ms.keywords: IVdsLun interface [VDS],QueryActiveControllers method, IVdsLun.QueryActiveControllers, IVdsLun::QueryActiveControllers, QueryActiveControllers, QueryActiveControllers method [VDS], QueryActiveControllers method [VDS],IVdsLun interface, base.ivdslun_queryactivecontrollers, vds/IVdsLun::QueryActiveControllers, vdshwprv/IVdsLun::QueryActiveControllers
-ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsLun.QueryActiveControllers
 dev_langs:

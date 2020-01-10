@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 977e71a4-8118-4fc2-9f76-ec30293b33d0
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_Saturation method, IVideoProcAmp.get_Saturation, IVideoProcAmp::get_Saturation, IVideoProcAmpget_Saturation, dshow.ivideoprocamp_get_saturation, get_Saturation, get_Saturation method [DirectShow], get_Saturation method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_Saturation
-ms.topic: method
 f1_keywords:
 - vidcap/IVideoProcAmp.get_Saturation
 dev_langs:

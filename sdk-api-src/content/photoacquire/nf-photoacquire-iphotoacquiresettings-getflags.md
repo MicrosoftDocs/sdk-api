@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: 9ed9183b-c1a2-4251-bb65-bd947c2034ad
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Picture Acquisition], GetFlags method [Picture Acquisition],IPhotoAcquireSettings interface, IPhotoAcquireSettings interface [Picture Acquisition],GetFlags method, IPhotoAcquireSettings.GetFlags, IPhotoAcquireSettings::GetFlags, IPhotoAcquireSettingsGetFlags, photoacquire/IPhotoAcquireSettings::GetFlags, picacq.iphotoacquiresettings_getflags
-ms.topic: method
 f1_keywords:
 - photoacquire/IPhotoAcquireSettings.GetFlags
 dev_langs:

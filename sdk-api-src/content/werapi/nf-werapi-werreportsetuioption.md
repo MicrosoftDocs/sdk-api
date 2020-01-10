@@ -7,7 +7,6 @@ tech.root: wer
 ms.assetid: c8816782-faec-490e-898f-a40df8fb205b
 ms.date: 12/05/2018
 ms.keywords: WerReportSetUIOption, WerReportSetUIOption function [Windows Error Reporting], WerUIAdditionalDataDlgHeader, WerUICloseDlgBody, WerUICloseDlgButtonText, WerUICloseDlgHeader, WerUICloseText, WerUIConsentDlgBody, WerUIConsentDlgHeader, WerUIIconFilePath, WerUIOfflineSolutionCheckText, WerUIOnlineSolutionCheckText, base.werreportsetuioption, wer.werreportsetuioption, werapi/WerReportSetUIOption
-ms.topic: function
 f1_keywords:
 - werapi/WerReportSetUIOption
 dev_langs:

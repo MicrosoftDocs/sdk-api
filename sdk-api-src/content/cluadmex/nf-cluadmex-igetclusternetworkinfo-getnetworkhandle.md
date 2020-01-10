@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 596ebdb3-c4c1-4186-ac6b-e6a7d4a61688
 ms.date: 12/05/2018
 ms.keywords: GetNetworkHandle, GetNetworkHandle method [Failover Cluster], GetNetworkHandle method [Failover Cluster],IGetClusterNetworkInfo interface, IGetClusterNetworkInfo interface [Failover Cluster],GetNetworkHandle method, IGetClusterNetworkInfo.GetNetworkHandle, IGetClusterNetworkInfo::GetNetworkHandle, _wolf_igetclusternetworkinfo_getnetworkhandle, cluadmex/IGetClusterNetworkInfo::GetNetworkHandle, mscs.igetclusternetworkinfo_getnetworkhandle
-ms.topic: method
 f1_keywords:
 - cluadmex/IGetClusterNetworkInfo.GetNetworkHandle
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: xaml_diagnostics
 ms.assetid: EA010DA4-2D13-41E9-B3E4-AD84AAF4E3FD
 ms.date: 12/05/2018
 ms.keywords: GetApplication, GetApplication method, GetApplication method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetApplication method, IXamlDiagnostics.GetApplication, IXamlDiagnostics::GetApplication, xaml_diagnostics.ixamldiagnostics_getapplication, xamlom/IXamlDiagnostics::GetApplication
-ms.topic: method
 f1_keywords:
 - xamlom/IXamlDiagnostics.GetApplication
 dev_langs:

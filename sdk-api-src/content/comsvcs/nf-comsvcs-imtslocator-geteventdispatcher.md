@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 10e110bf-1a7c-48a2-ab9f-836ea21d442b
 ms.date: 12/05/2018
 ms.keywords: GetEventDispatcher, GetEventDispatcher method [COM+], GetEventDispatcher method [COM+],IMTSLocator interface, IMTSLocator interface [COM+],GetEventDispatcher method, IMTSLocator.GetEventDispatcher, IMTSLocator::GetEventDispatcher, _dtc_IMtsLocator_GetEventDispatcher, comsvcs/IMTSLocator::GetEventDispatcher, cos.imtslocator_geteventdispatcher
-ms.topic: method
 f1_keywords:
 - comsvcs/IMTSLocator.GetEventDispatcher
 dev_langs:

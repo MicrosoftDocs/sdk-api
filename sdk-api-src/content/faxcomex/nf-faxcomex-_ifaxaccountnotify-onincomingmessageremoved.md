@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountnotify\onincomingmessageremoved.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountNotify.OnIncomingMessageRemoved, OnIncomingMessageRemoved, OnIncomingMessageRemoved method [Fax Service], OnIncomingMessageRemoved method [Fax Service],_IFaxAccountNotify interface, _IFaxAccountNotify interface [Fax Service],OnIncomingMessageRemoved method, _IFaxAccountNotify.OnIncomingMessageRemoved, _IFaxAccountNotify::OnIncomingMessageRemoved, _mfax_ifaxaccountnotify_onincomingmessageremoved, fax._mfax_ifaxaccountnotify_onincomingmessageremoved, faxcomex/_IFaxAccountNotify::OnIncomingMessageRemoved
-ms.topic: method
 f1_keywords:
 - faxcomex/_IFaxAccountNotify.OnIncomingMessageRemoved
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: ccc91dfb-83e5-496a-921d-784fcaea5af5
 ms.date: 12/05/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_MeasurementPeriod method, ITAgent.get_MeasurementPeriod, ITAgent::get_MeasurementPeriod, _tapi3_itagent_get_measurementperiod, get_MeasurementPeriod, get_MeasurementPeriod method [TAPI 2.2], get_MeasurementPeriod method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_measurementperiod, tapi3cc/ITAgent::get_MeasurementPeriod
-ms.topic: method
 f1_keywords:
 - tapi3/ITAgent.get_MeasurementPeriod
 dev_langs:

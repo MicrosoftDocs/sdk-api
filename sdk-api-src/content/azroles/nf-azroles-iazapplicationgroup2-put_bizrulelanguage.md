@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 4f70daf0-57f2-47d8-93ce-133e0b714388
 ms.date: 12/05/2018
 ms.keywords: BizRuleLanguage property [Security], BizRuleLanguage property [Security],IAzApplicationGroup2 interface, IAzApplicationGroup2 interface [Security],BizRuleLanguage property, IAzApplicationGroup2.BizRuleLanguage, IAzApplicationGroup2.put_BizRuleLanguage, IAzApplicationGroup2::BizRuleLanguage, IAzApplicationGroup2::get_BizRuleLanguage, IAzApplicationGroup2::put_BizRuleLanguage, azroles/IAzApplicationGroup2::BizRuleLanguage, azroles/IAzApplicationGroup2::get_BizRuleLanguage, azroles/IAzApplicationGroup2::put_BizRuleLanguage, put_BizRuleLanguage, security.iazapplicationgroup2_bizrulelanguage_method
-ms.topic: method
 f1_keywords:
 - azroles/IAzApplicationGroup2.BizRuleLanguage
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 021849d8-ec61-4f35-8302-caa8338a8758
 ms.date: 12/05/2018
 ms.keywords: GetAllImplTypeCustData, GetAllImplTypeCustData method [Automation], GetAllImplTypeCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetAllImplTypeCustData method, ITypeInfo2.GetAllImplTypeCustData, ITypeInfo2::GetAllImplTypeCustData, _oa96_ITypeInfo2_GetAllImplTypeCustData, automat.itypeinfo2_getallimpltypecustdata, oaidl/ITypeInfo2::GetAllImplTypeCustData
-ms.topic: method
 f1_keywords:
 - oaidl/ITypeInfo2.GetAllImplTypeCustData
 dev_langs:

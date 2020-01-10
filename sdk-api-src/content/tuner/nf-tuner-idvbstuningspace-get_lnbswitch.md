@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 56cea4ef-7679-4b78-883d-194c9259032f
 ms.date: 12/05/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],get_LNBSwitch method, IDVBSTuningSpace.get_LNBSwitch, IDVBSTuningSpace::get_LNBSwitch, IDVBSTuningSpaceget_LNBSwitch, get_LNBSwitch, get_LNBSwitch method [Microsoft TV Technologies], get_LNBSwitch method [Microsoft TV Technologies],IDVBSTuningSpace interface, mstv.idvbstuningspace_get_lnbswitch, tuner/IDVBSTuningSpace::get_LNBSwitch
-ms.topic: method
 f1_keywords:
 - tuner/IDVBSTuningSpace.get_LNBSwitch
 dev_langs:

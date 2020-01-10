@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 9d911238-05d9-4bba-920f-40ca23ab9549
 ms.date: 12/05/2018
 ms.keywords: ILegacyIAccessibleProvider, ILegacyIAccessibleProvider interface [Windows Accessibility], ILegacyIAccessibleProvider interface [Windows Accessibility],described, uiauto.uiauto_ILegacyIAccessibleProvider, uiauto_ILegacyIAccessibleProvider, uiautomationcore/ILegacyIAccessibleProvider, winauto.uiauto_ILegacyIAccessibleProvider
-ms.topic: interface
 f1_keywords:
 - uiautomationcore/ILegacyIAccessibleProvider
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 2232fd7e-2015-466f-afd1-15e5b546239a
 ms.date: 12/05/2018
 ms.keywords: Description property [COM+], Description property [COM+],IEventClass interface, IEventClass interface [COM+],Description property, IEventClass.Description, IEventClass.put_Description, IEventClass::Description, IEventClass::get_Description, IEventClass::put_Description, cos.ieventclass_description, eventsys/IEventClass::Description, eventsys/IEventClass::get_Description, eventsys/IEventClass::put_Description, put_Description
-ms.topic: method
 f1_keywords:
 - eventsys/IEventClass.Description
 dev_langs:

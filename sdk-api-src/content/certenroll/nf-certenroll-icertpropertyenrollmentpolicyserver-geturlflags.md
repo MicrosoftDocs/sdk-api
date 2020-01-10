@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: eafd4290-5eef-432f-908c-0640a4ac667f
 ms.date: 12/05/2018
 ms.keywords: GetUrlFlags, GetUrlFlags method [Security], GetUrlFlags method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetUrlFlags method, ICertPropertyEnrollmentPolicyServer.GetUrlFlags, ICertPropertyEnrollmentPolicyServer::GetUrlFlags, PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, PsfLocationGroupPolicy, PsfLocationRegistry, PsfNone, PsfUseClientId, certenroll/ICertPropertyEnrollmentPolicyServer::GetUrlFlags, security.icertpropertyenrollmentpolicyserver_geturlflags
-ms.topic: method
 f1_keywords:
 - certenroll/ICertPropertyEnrollmentPolicyServer.GetUrlFlags
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_enable.htm
 ms.date: 12/05/2018
 ms.keywords: ComboBox_Enable, ComboBox_Enable macro [Windows Controls], _win32_ComboBox_Enable, _win32_ComboBox_Enable_cpp, controls.ComboBox_Enable, controls._win32_ComboBox_Enable, windowsx/ComboBox_Enable
-ms.topic: macro
 f1_keywords:
 - windowsx/ComboBox_Enable
 dev_langs:

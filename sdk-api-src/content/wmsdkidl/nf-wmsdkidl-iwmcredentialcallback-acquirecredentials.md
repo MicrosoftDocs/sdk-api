@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 5dce8281-b5d3-42cd-93f6-d76af0050a89
 ms.date: 12/05/2018
 ms.keywords: AcquireCredentials, AcquireCredentials method [windows Media Format], AcquireCredentials method [windows Media Format],IWMCredentialCallback interface, IWMCredentialCallback interface [windows Media Format],AcquireCredentials method, IWMCredentialCallback.AcquireCredentials, IWMCredentialCallback::AcquireCredentials, IWMCredentialCallbackAcquireCredentials, wmformat.iwmcredentialcallback_acquirecredentials, wmsdkidl/IWMCredentialCallback::AcquireCredentials
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMCredentialCallback.AcquireCredentials
 dev_langs:

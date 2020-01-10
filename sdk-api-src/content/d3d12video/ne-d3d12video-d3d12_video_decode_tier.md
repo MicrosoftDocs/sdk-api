@@ -5,7 +5,6 @@ description: Specifies the decoding tier of a hardware video decoder, which dete
 tech.root: mf
 ms.assetid: a7e84f4d-3aa0-4986-a1da-747bbbd6c889
 ms.date: 05/28/2019
-ms.topic: enum
 f1_keywords:
 - D3D12_VIDEO_DECODE_TIER
 dev_langs:

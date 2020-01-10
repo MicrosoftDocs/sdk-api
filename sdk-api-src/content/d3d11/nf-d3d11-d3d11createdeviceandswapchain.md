@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 84d73e8c-f13c-4343-91de-57f9f8a0ad96
 ms.date: 12/05/2018
 ms.keywords: 7e7df363-d5a2-5b79-817f-3e1d6053d170, D3D11CreateDeviceAndSwapChain, D3D11CreateDeviceAndSwapChain function [Direct3D 11], d3d11/D3D11CreateDeviceAndSwapChain, direct3d11.d3d11createdeviceandswapchain
-ms.topic: function
 f1_keywords:
 - d3d11/D3D11CreateDeviceAndSwapChain
 dev_langs:

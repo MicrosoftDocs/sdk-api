@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 9209ef60-6a1d-4aad-9f9f-775534116f37
 ms.date: 12/05/2018
 ms.keywords: TS_ATTRVAL, TS_ATTRVAL structure [Text Services Framework], _tsf_ts_attrval_ref, textstor/TS_ATTRVAL, tsf.ts_attrval
-ms.topic: struct
 f1_keywords:
 - textstor/TS_ATTRVAL
 dev_langs:

@@ -5,7 +5,6 @@ description: The Graphics::DrawClosedCurve method draws a closed cardinal spline
 ms.assetid: 49d14771-2cfb-4b42-b0cd-e8f9ef209b32
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawClosedCurve
-ms.topic: language-reference
 f1_keywords:
 - gdiplusgraphics/Graphics::DrawClosedCurve
 dev_langs:

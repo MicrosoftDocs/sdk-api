@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: BE3B0198-C6D1-4F3C-A9E2-F186FB025DCE
 ms.date: 12/05/2018
 ms.keywords: WindowsStringHasEmbeddedNull, WindowsStringHasEmbeddedNull function [Windows Runtime], winrt.windowsstringhasembeddednull, winstring/WindowsStringHasEmbeddedNull
-ms.topic: function
 f1_keywords:
 - winstring/WindowsStringHasEmbeddedNull
 dev_langs:

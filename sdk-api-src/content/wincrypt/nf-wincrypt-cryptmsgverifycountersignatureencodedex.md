@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: da756cd5-1dec-4d88-9c90-76dd263035eb
 ms.date: 12/05/2018
 ms.keywords: CMSG_VERIFY_COUNTER_SIGN_ENABLE_STRONG_FLAG, CryptMsgVerifyCountersignatureEncodedEx, CryptMsgVerifyCountersignatureEncodedEx function [Security], _crypto2_cryptmsgverifycountersignatureencodedex, security.cryptmsgverifycountersignatureencodedex, wincrypt/CryptMsgVerifyCountersignatureEncodedEx
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptMsgVerifyCountersignatureEncodedEx
 dev_langs:

@@ -5,7 +5,6 @@ description: Retrieves the list of supported formats.
 tech.root: mf
 ms.assetid: 685f27d9-b54d-40ca-a156-3bd85b8cae74
 ms.date: 05/28/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_FEATURE_DATA_VIDEO_DECODE_FORMATS
 dev_langs:

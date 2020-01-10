@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: fe825459-3daa-4e42-b421-302ad6d2a122
 ms.date: 12/05/2018
 ms.keywords: Drop, Drop method [Windows Shell], Drop method [Windows Shell],IDropTargetHelper interface, IDropTargetHelper interface [Windows Shell],Drop method, IDropTargetHelper.Drop, IDropTargetHelper::Drop, _win32_IDropTargetHelper_Drop, shell.IDropTargetHelper_Drop, shobjidl_core/IDropTargetHelper::Drop
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IDropTargetHelper.Drop
 dev_langs:

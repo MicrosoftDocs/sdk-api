@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: a53052a1-89f4-4571-9eee-031e0049a92e
 ms.date: 12/05/2018
 ms.keywords: IMDSPDevice2, IMDSPDevice2 interface [windows Media Device Manager], IMDSPDevice2 interface [windows Media Device Manager],described, IMDSPDevice2Interface, mswmdm/IMDSPDevice2, wmdm.imdspdevice2
-ms.topic: interface
 f1_keywords:
 - mswmdm/IMDSPDevice2
 dev_langs:

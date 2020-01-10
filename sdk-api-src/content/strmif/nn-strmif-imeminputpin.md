@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a4407c6f-6bb5-4274-920b-8bf7d76268bc
 ms.date: 12/05/2018
 ms.keywords: IMemInputPin, IMemInputPin interface [DirectShow], IMemInputPin interface [DirectShow],described, IMemInputPinInterface, dshow.imeminputpin, strmif/IMemInputPin
-ms.topic: interface
 f1_keywords:
 - strmif/IMemInputPin
 dev_langs:

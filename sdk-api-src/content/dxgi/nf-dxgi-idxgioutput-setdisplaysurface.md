@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_setdisplaysurface.htm
 ms.date: 12/05/2018
 ms.keywords: IDXGIOutput interface [DXGI],SetDisplaySurface method, IDXGIOutput.SetDisplaySurface, IDXGIOutput::SetDisplaySurface, SetDisplaySurface, SetDisplaySurface method [DXGI], SetDisplaySurface method [DXGI],IDXGIOutput interface, bc8ee3fe-fb5c-f873-f935-ac30c6491e36, direct3ddxgi.idxgioutput_setdisplaysurface, dxgi/IDXGIOutput::SetDisplaySurface
-ms.topic: method
 f1_keywords:
 - dxgi/IDXGIOutput.SetDisplaySurface
 dev_langs:

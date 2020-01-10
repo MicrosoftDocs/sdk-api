@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 20A538B5-ACD6-4BD9-9CDC-3F2CCDCAF251
 ms.date: 12/05/2018
 ms.keywords: IRandomAccessStreamFileAccessMode, IRandomAccessStreamFileAccessMode interface [Windows Runtime], IRandomAccessStreamFileAccessMode interface [Windows Runtime],described, windowsstoragecom/IRandomAccessStreamFileAccessMode, winrt.irandomaccessstreamfileaccessmode
-ms.topic: interface
 f1_keywords:
 - windowsstoragecom/IRandomAccessStreamFileAccessMode
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 188e9a3b-39cc-454e-af65-4ac797e275d4
 ms.date: 12/05/2018
 ms.keywords: CoFreeUnusedLibraries, CoFreeUnusedLibraries function [COM], _com_CoFreeUnusedLibraries, com.cofreeunusedlibraries, combaseapi/CoFreeUnusedLibraries
-ms.topic: function
 f1_keywords:
 - combaseapi/CoFreeUnusedLibraries
 dev_langs:

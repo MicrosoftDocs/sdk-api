@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 63ffa9ec-b8bb-4d5d-b380-e4dbe0fc865a
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureQuery3 interface [windows Media Device Manager],MakeDecisionOnClearChannel method, ISCPSecureQuery3.MakeDecisionOnClearChannel, ISCPSecureQuery3::MakeDecisionOnClearChannel, ISCPSecureQuery3MakeDecisionOnClearChannel, MakeDecisionOnClearChannel, MakeDecisionOnClearChannel method [windows Media Device Manager], MakeDecisionOnClearChannel method [windows Media Device Manager],ISCPSecureQuery3 interface, mswmdm/ISCPSecureQuery3::MakeDecisionOnClearChannel, wmdm.iscpsecurequery3_makedecisiononclearchannel
-ms.topic: method
 f1_keywords:
 - mswmdm/ISCPSecureQuery3.MakeDecisionOnClearChannel
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e078c952-2c3b-48cd-a898-ac2de9fc359a
 ms.date: 12/05/2018
 ms.keywords: IPinConnection interface [DirectShow],IsEndPin method, IPinConnection.IsEndPin, IPinConnection::IsEndPin, IPinConnectionIsEndPin, IsEndPin, IsEndPin method [DirectShow], IsEndPin method [DirectShow],IPinConnection interface, dshow.ipinconnection_isendpin, strmif/IPinConnection::IsEndPin
-ms.topic: method
 f1_keywords:
 - strmif/IPinConnection.IsEndPin
 dev_langs:

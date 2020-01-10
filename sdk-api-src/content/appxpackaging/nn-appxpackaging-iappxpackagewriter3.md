@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 0373AC0B-8988-494B-A795-CAA62A538FE4
 ms.date: 12/05/2018
 ms.keywords: IAppxPackageWriter3, IAppxPackageWriter3 interface [App packaging and management], IAppxPackageWriter3 interface [App packaging and management],described, appxpackaging/IAppxPackageWriter3, appxpkg.iappxpackagewriter3
-ms.topic: interface
 f1_keywords:
 - appxpackaging/IAppxPackageWriter3
 dev_langs:

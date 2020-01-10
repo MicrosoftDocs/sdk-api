@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: b124a7fe-c62c-42f7-9d2b-cbf74d17186a
 ms.date: 12/05/2018
 ms.keywords: RTL_ENCRYPT_OPTION_CROSS_PROCESS, RTL_ENCRYPT_OPTION_SAME_LOGON, RtlEncryptMemory, RtlEncryptMemory function [Security], ntsecapi/RtlEncryptMemory, security.rtlencryptmemory
-ms.topic: function
 f1_keywords:
 - ntsecapi/RtlEncryptMemory
 dev_langs:

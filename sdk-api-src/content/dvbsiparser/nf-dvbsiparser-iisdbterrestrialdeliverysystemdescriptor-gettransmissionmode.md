@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: d7f4659f-0aa6-46a6-a352-da801d132866
 ms.date: 12/05/2018
 ms.keywords: GetTransmissionMode, GetTransmissionMode method [Microsoft TV Technologies], GetTransmissionMode method [Microsoft TV Technologies],IIsdbTerrestrialDeliverySystemDescriptor interface, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetTransmissionMode method, IIsdbTerrestrialDeliverySystemDescriptor.GetTransmissionMode, IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode, mstv.iisdbterrestrialdeliverysystemdescriptor_gettransmissionmode
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor.GetTransmissionMode
 dev_langs:

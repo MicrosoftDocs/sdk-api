@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 00b84246-b5f2-48c2-a0ab-eaaa1ec80262
 ms.date: 12/05/2018
 ms.keywords: IUpdateSession, IUpdateSession interface [Windows Update Agent], IUpdateSession interface [Windows Update Agent],described, wua.iupdatesession, wuapi/IUpdateSession
-ms.topic: interface
 f1_keywords:
 - wuapi/IUpdateSession
 dev_langs:

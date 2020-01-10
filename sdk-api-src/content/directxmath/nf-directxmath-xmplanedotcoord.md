@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneDotCoord(XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneDotCoord, XMPlaneDotCoord, XMPlaneDotCoord method [DirectX Math Support APIs], dxmath.xmplanedotcoord
-ms.topic: function
 f1_keywords:
 - directxmath/XMPlaneDotCoord
 dev_langs:

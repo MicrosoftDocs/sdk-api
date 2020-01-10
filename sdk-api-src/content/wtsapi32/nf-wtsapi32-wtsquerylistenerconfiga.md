@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: abdcb98e-c00c-444f-a6f9-ce98161c8b62
 ms.date: 12/05/2018
 ms.keywords: WTSQueryListenerConfig, WTSQueryListenerConfig function [Remote Desktop Services], WTSQueryListenerConfigA, WTSQueryListenerConfigW, termserv.wtsquerylistenerconfig, wtsapi32/WTSQueryListenerConfig, wtsapi32/WTSQueryListenerConfigA, wtsapi32/WTSQueryListenerConfigW
-ms.topic: function
 f1_keywords:
 - wtsapi32/WTSQueryListenerConfig
 dev_langs:

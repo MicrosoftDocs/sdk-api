@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapoparameterbase.CXAPOParametersBase.CXAPOParametersBase(BYTE,UINT32,BOOL)
 ms.date: 12/05/2018
 ms.keywords: CXAPOParametersBase, CXAPOParametersBase interface [XAudio2 Audio Mixing APIs],CXAPOParametersBase method, CXAPOParametersBase method [XAudio2 Audio Mixing APIs], CXAPOParametersBase method [XAudio2 Audio Mixing APIs],CXAPOParametersBase interface, CXAPOParametersBase.CXAPOParametersBase, CXAPOParametersBase::CXAPOParametersBase, xapobase/CXAPOParametersBase::CXAPOParametersBase, xaudio2.cxapoparametersbase_cxapoparametersbase
-ms.topic: method
 f1_keywords:
 - xapobase/CXAPOParametersBase.CXAPOParametersBase
 dev_langs:

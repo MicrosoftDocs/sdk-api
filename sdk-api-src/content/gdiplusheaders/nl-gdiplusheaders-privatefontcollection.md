@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\privatefontcollection.htm
 ms.date: 12/05/2018
 ms.keywords: PrivateFontCollection, PrivateFontCollection class [GDI+], PrivateFontCollection class [GDI+],described, _gdiplus_CLASS_PrivateFontCollection_Class, gdiplus._gdiplus_CLASS_PrivateFontCollection_Class, gdiplusheaders/PrivateFontCollection
-ms.topic: class
 f1_keywords:
 - gdiplusheaders/PrivateFontCollection
 dev_langs:

@@ -5,7 +5,6 @@ description: Retrieves a matching font set based on the requested inputs, ordere
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet1 interface [Direct Write],GetMatchingFonts method, IDWriteFontSet1.GetMatchingFonts, IDWriteFontSet1::GetMatchingFonts, GetMatchingFonts, GetMatchingFonts method [Direct Write], GetMatchingFonts method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_getmatchingfonts, dwrite_3/IDWriteFontSet1::GetMatchingFonts
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontSet1.GetMatchingFonts
 dev_langs:

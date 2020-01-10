@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0498ce03-9949-48bb-a1eb-b569f4171884
 ms.date: 12/05/2018
 ms.keywords: GetAttributes, GetAttributes method [Windows Shell], GetAttributes method [Windows Shell],IShellItemArray interface, IShellItemArray interface [Windows Shell],GetAttributes method, IShellItemArray.GetAttributes, IShellItemArray::GetAttributes, SIATTRIBFLAGS_ALLITEMS, SIATTRIBFLAGS_AND, SIATTRIBFLAGS_APPCOMPAT, SIATTRIBFLAGS_MASK, SIATTRIBFLAGS_OR, _shell_IShellItemArray_GetAttributes, shell.IShellItemArray_GetAttributes, shobjidl_core/IShellItemArray::GetAttributes
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellItemArray.GetAttributes
 dev_langs:

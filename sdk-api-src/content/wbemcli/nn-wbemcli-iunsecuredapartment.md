@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 6293d8e3-cc5b-4401-8fdc-86f5d03720ea
 ms.date: 12/05/2018
 ms.keywords: IUnsecuredApartment, IUnsecuredApartment interface [Windows Management Instrumentation], IUnsecuredApartment interface [Windows Management Instrumentation],described, UnsecuredApartment, _hmm_iunsecuredapartment, wbemcli/IUnsecuredApartment, wmi.iunsecuredapartment
-ms.topic: interface
 f1_keywords:
 - wbemcli/IUnsecuredApartment
 dev_langs:

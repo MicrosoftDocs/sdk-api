@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 06047b7a-4bdd-42f9-bb85-49b6ec6f35a0
 ms.date: 12/05/2018
 ms.keywords: CertIsValidCRLForCertificate, CertIsValidCRLForCertificate function [Security], _crypto2_certisvalidcrlforcertificate, security.certisvalidcrlforcertificate, wincrypt/CertIsValidCRLForCertificate
-ms.topic: function
 f1_keywords:
 - wincrypt/CertIsValidCRLForCertificate
 dev_langs:

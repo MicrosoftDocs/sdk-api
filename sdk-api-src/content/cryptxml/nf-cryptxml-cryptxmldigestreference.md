@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 781bacc2-6783-4884-8290-a36f917c17c1
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_REFERENCE_DATA_TRANSFORMED, CryptXmlDigestReference, CryptXmlDigestReference function [Security], cryptxml/CryptXmlDigestReference, security.cryptxmldigestreference
-ms.topic: function
 f1_keywords:
 - cryptxml/CryptXmlDigestReference
 dev_langs:

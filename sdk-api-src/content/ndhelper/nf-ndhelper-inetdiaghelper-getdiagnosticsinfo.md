@@ -7,7 +7,6 @@ tech.root: NDF
 ms.assetid: bc162b1b-a22e-4ee3-96a6-c2eecc13e479
 ms.date: 12/05/2018
 ms.keywords: GetDiagnosticsInfo, GetDiagnosticsInfo method [NDF], GetDiagnosticsInfo method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetDiagnosticsInfo method, INetDiagHelper.GetDiagnosticsInfo, INetDiagHelper::GetDiagnosticsInfo, ndf.inetdiaghelpe_getdiagnosticsinfo, ndhelper/INetDiagHelper::GetDiagnosticsInfo
-ms.topic: method
 f1_keywords:
 - ndhelper/INetDiagHelper.GetDiagnosticsInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: d792283b-dde9-46b7-8483-b3011b4433eb
 ms.date: 12/05/2018
 ms.keywords: IOCSPAdmin interface [Security],OCSPServiceProperties property, IOCSPAdmin.OCSPServiceProperties, IOCSPAdmin.get_OCSPServiceProperties, IOCSPAdmin::OCSPServiceProperties, IOCSPAdmin::get_OCSPServiceProperties, OCSPServiceProperties property [Security], OCSPServiceProperties property [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::OCSPServiceProperties, certadm/IOCSPAdmin::get_OCSPServiceProperties, get_OCSPServiceProperties, security.iocspadmin_ocspserviceproperties_method
-ms.topic: method
 f1_keywords:
 - certadm/IOCSPAdmin.OCSPServiceProperties
 dev_langs:

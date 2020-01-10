@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4f07e989-ae74-4cf4-b3d9-0f59f2653095
 ms.date: 12/05/2018
 ms.keywords: ILFindChild, ILFindChild function [Windows Shell], _win32_ILFindChild, shell.ILFindChild, shlobj_core/ILFindChild
-ms.topic: function
 f1_keywords:
 - shlobj_core/ILFindChild
 dev_langs:

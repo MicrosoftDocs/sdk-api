@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 5bcc479e-8f33-408a-a82f-3c9e4ce53bb8
 ms.date: 12/05/2018
 ms.keywords: PROPVAR_COMPARE_UNIT, PROPVAR_COMPARE_UNIT enumeration [Windows Properties], PVCU_DAY, PVCU_DEFAULT, PVCU_HOUR, PVCU_MINUTE, PVCU_MONTH, PVCU_SECOND, PVCU_YEAR, _shell_PROPVAR_COMPARE_UNIT, properties.PROPVAR_COMPARE_UNIT, propvarutil/PROPVAR_COMPARE_UNIT, propvarutil/PVCU_DAY, propvarutil/PVCU_DEFAULT, propvarutil/PVCU_HOUR, propvarutil/PVCU_MINUTE, propvarutil/PVCU_MONTH, propvarutil/PVCU_SECOND, propvarutil/PVCU_YEAR, shell.PROPVAR_COMPARE_UNIT
-ms.topic: enum
 f1_keywords:
 - propvarutil/PROPVAR_COMPARE_UNIT
 dev_langs:

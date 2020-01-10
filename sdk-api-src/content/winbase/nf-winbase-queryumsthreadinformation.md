@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 5f694edf-ba5e-45a2-a938-5013edddcae2
 ms.date: 12/05/2018
 ms.keywords: QueryUmsThreadInformation, QueryUmsThreadInformation function, base.queryumsthreadinformation, winbase/QueryUmsThreadInformation
-ms.topic: function
 f1_keywords:
 - winbase/QueryUmsThreadInformation
 dev_langs:

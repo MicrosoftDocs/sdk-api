@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 1c200c44-6cd6-4e77-8187-54cd6cd79c84
 ms.date: 12/05/2018
 ms.keywords: D3D11_PACKED_MIP_DESC, D3D11_PACKED_MIP_DESC structure [Direct3D 11], d3d11_2/D3D11_PACKED_MIP_DESC, direct3d11.d3d11_packed_mip_desc
-ms.topic: struct
 f1_keywords:
 - d3d11_2/D3D11_PACKED_MIP_DESC
 dev_langs:

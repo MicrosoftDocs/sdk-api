@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 36663457-57B7-40D4-8A52-9C4E9B551E8E
 ms.date: 12/05/2018
 ms.keywords: IAccessibleWindowlessSite interface [Windows Accessibility],QueryObjectIdRanges method, IAccessibleWindowlessSite.QueryObjectIdRanges, IAccessibleWindowlessSite::QueryObjectIdRanges, QueryObjectIdRanges, QueryObjectIdRanges method [Windows Accessibility], QueryObjectIdRanges method [Windows Accessibility],IAccessibleWindowlessSite interface, oleacc/IAccessibleWindowlessSite::QueryObjectIdRanges, winauto.uiauto_IAccessibleWindowlessSite_QueryObjectIdRanges
-ms.topic: method
 f1_keywords:
 - oleacc/IAccessibleWindowlessSite.QueryObjectIdRanges
 dev_langs:

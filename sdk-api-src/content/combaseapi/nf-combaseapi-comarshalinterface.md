@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 04ca1217-eac1-43e2-b736-8d7522ce8592
 ms.date: 12/05/2018
 ms.keywords: CoMarshalInterface, CoMarshalInterface function [COM], _com_CoMarshalInterface, com.comarshalinterface, combaseapi/CoMarshalInterface
-ms.topic: function
 f1_keywords:
 - combaseapi/CoMarshalInterface
 dev_langs:

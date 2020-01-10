@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 8ca0e25e-6a3f-41ff-9a4a-7cca9a02d07c
 ms.date: 12/05/2018
 ms.keywords: PropVariantToUInt64WithDefault, PropVariantToUInt64WithDefault function [Windows Properties], properties.PropVariantToUInt64WithDefault, propvarutil/PropVariantToUInt64WithDefault, shell.PropVariantToUInt64WithDefault, shell_PropVariantToUInt64WithDefault
-ms.topic: function
 f1_keywords:
 - propvarutil/PropVariantToUInt64WithDefault
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 0321e315-b53c-487f-a015-80f7ed581737
 ms.date: 12/05/2018
 ms.keywords: IAMCertifiedOutputProtection interface [DirectShow],SessionSequenceStart method, IAMCertifiedOutputProtection.SessionSequenceStart, IAMCertifiedOutputProtection::SessionSequenceStart, IAMCertifiedOutputProtectionSessionSequenceStart, SessionSequenceStart, SessionSequenceStart method [DirectShow], SessionSequenceStart method [DirectShow],IAMCertifiedOutputProtection interface, dshow.iamcertifiedoutputprotection_sessionsequencestart, strmif/IAMCertifiedOutputProtection::SessionSequenceStart
-ms.topic: method
 f1_keywords:
 - strmif/IAMCertifiedOutputProtection.SessionSequenceStart
 dev_langs:

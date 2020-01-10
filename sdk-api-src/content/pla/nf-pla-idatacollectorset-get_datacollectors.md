@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 1bcfc15e-bc20-4dfa-a934-d0100b8db23f
 ms.date: 12/05/2018
 ms.keywords: DataCollectors property [PLA], DataCollectors property [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],DataCollectors property, IDataCollectorSet.DataCollectors, IDataCollectorSet.get_DataCollectors, IDataCollectorSet::DataCollectors, IDataCollectorSet::get_DataCollectors, base.idatacollectorset_get_datacollectors, get_DataCollectors, pla.idatacollectorset_get_datacollectors, pla/IDataCollectorSet::DataCollectors, pla/IDataCollectorSet::get_DataCollectors
-ms.topic: method
 f1_keywords:
 - pla/IDataCollectorSet.DataCollectors
 dev_langs:

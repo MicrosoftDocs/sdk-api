@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: bfc5889d-ab1d-4dbe-af11-625ee5e8c95f
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDocumentSequence interface [XPS Documents and Packaging],SetPrintTicketResource method, IXpsOMDocumentSequence.SetPrintTicketResource, IXpsOMDocumentSequence::SetPrintTicketResource, SetPrintTicketResource, SetPrintTicketResource method [XPS Documents and Packaging], SetPrintTicketResource method [XPS Documents and Packaging],IXpsOMDocumentSequence interface, xps.ixpsomdocumentsequence_setprintticketresource, xpsobjectmodel/IXpsOMDocumentSequence::SetPrintTicketResource
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMDocumentSequence.SetPrintTicketResource
 dev_langs:

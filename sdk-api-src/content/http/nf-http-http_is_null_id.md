@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 8a73585a-e531-4c5d-9ed3-9e6e1fef93ac
 ms.date: 12/05/2018
 ms.keywords: HTTP_IS_NULL_ID, HTTP_IS_NULL_ID macro [HTTP], http.http_is_null_id, http/HTTP_IS_NULL_ID
-ms.topic: macro
 f1_keywords:
 - http/HTTP_IS_NULL_ID
 dev_langs:

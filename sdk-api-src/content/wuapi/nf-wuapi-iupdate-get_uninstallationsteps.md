@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: f112ce5b-9f94-4fdc-96d8-1f216e3729d0
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],UninstallationSteps property, IUpdate.UninstallationSteps, IUpdate.get_UninstallationSteps, IUpdate::UninstallationSteps, IUpdate::get_UninstallationSteps, UninstallationSteps property [Windows Update Agent], UninstallationSteps property [Windows Update Agent],IUpdate interface, get_UninstallationSteps, wua.iupdate_uninstallationsteps, wuapi/IUpdate::UninstallationSteps, wuapi/IUpdate::get_UninstallationSteps
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdate.UninstallationSteps
 dev_langs:

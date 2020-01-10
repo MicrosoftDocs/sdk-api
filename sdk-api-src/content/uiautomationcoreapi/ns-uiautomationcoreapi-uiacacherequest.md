@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 426355e4-50ce-4189-824d-c2256903224c
 ms.date: 12/05/2018
 ms.keywords: UiaCacheRequest, UiaCacheRequest structure [Windows Accessibility], uiauto.uiauto_UiaCacheRequestStruct, uiauto_UiaCacheRequestStruct, uiautomationcoreapi/UiaCacheRequest, winauto.uiauto_UiaCacheRequestStruct
-ms.topic: struct
 f1_keywords:
 - uiautomationcoreapi/UiaCacheRequest
 dev_langs:

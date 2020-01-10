@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 038f9360-0515-4655-9397-cd1bfb6c3d21
 ms.date: 12/05/2018
 ms.keywords: IBDA_Encoder interface [Microsoft TV Technologies],QueryCapabilities method, IBDA_Encoder.QueryCapabilities, IBDA_Encoder::QueryCapabilities, QueryCapabilities, QueryCapabilities method [Microsoft TV Technologies], QueryCapabilities method [Microsoft TV Technologies],IBDA_Encoder interface, bdaiface/IBDA_Encoder::QueryCapabilities, mstv.ibda_encoder_querycapabilities
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_Encoder.QueryCapabilities
 dev_langs:

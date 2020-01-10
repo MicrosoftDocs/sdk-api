@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 940e186b-33bd-4846-8314-39ede19bad95
 ms.date: 12/05/2018
 ms.keywords: ITDigitsGatheredEvent interface [TAPI 2.2],get_Digits method, ITDigitsGatheredEvent.get_Digits, ITDigitsGatheredEvent::get_Digits, _tapi3_itdigitsgatheredevent_get_digits, get_Digits, get_Digits method [TAPI 2.2], get_Digits method [TAPI 2.2],ITDigitsGatheredEvent interface, tapi3.itdigitsgatheredevent_get_digits, tapi3if/ITDigitsGatheredEvent::get_Digits
-ms.topic: method
 f1_keywords:
 - tapi3if/ITDigitsGatheredEvent.get_Digits
 dev_langs:

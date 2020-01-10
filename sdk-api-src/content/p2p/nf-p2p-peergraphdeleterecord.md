@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: d6ecc762-8702-4366-81fc-c2b168dc8cb3
 ms.date: 12/05/2018
 ms.keywords: PeerGraphDeleteRecord, PeerGraphDeleteRecord function [Peer Networking], p2p.peergraphdeleterecord, p2p/PeerGraphDeleteRecord
-ms.topic: function
 f1_keywords:
 - p2p/PeerGraphDeleteRecord
 dev_langs:

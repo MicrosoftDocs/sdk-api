@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: da7d7bcb-0b5b-4053-8f0e-ff311c424375
 ms.date: 12/05/2018
 ms.keywords: ReleaseStgMedium, ReleaseStgMedium function [COM], _ole_ReleaseStgMedium, com.releasestgmedium, ole2/ReleaseStgMedium
-ms.topic: function
 f1_keywords:
 - ole2/ReleaseStgMedium
 dev_langs:

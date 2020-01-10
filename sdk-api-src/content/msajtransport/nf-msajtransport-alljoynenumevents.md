@@ -7,7 +7,6 @@ tech.root: AllJoyn
 ms.assetid: 0B53EAE5-9043-46F2-9C7B-A5836AF241A3
 ms.date: 12/05/2018
 ms.keywords: AllJoynEnumEvents, AllJoynEnumEvents function [AllJoyn API], alljoyn.alljoynenumevents, msajtransport/AllJoynEnumEvents
-ms.topic: function
 f1_keywords:
 - msajtransport/AllJoynEnumEvents
 dev_langs:

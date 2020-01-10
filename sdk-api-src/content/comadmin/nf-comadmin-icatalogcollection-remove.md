@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 984f60b1-0963-482c-90a3-563e8699f73d
 ms.date: 12/05/2018
 ms.keywords: ICatalogCollection interface [COM+],Remove method, ICatalogCollection.Remove, ICatalogCollection::Remove, Remove, Remove method [COM+], Remove method [COM+],ICatalogCollection interface, _cos_ICatalogCollection_Remove, comadmin/ICatalogCollection::Remove, cos.icatalogcollection_remove
-ms.topic: method
 f1_keywords:
 - comadmin/ICatalogCollection.Remove
 dev_langs:

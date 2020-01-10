@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: b4f2678d-8b3a-4208-b108-5474f3e54cb4
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevices interface [UPnP APIs],get__NewEnum method, IUPnPDevices.get__NewEnum, IUPnPDevices::get__NewEnum, _upnp_iupnpdevices__newenum, get__NewEnum, get__NewEnum method [UPnP APIs], get__NewEnum method [UPnP APIs],IUPnPDevices interface, upnp.iupnpdevices__newenum, upnp/IUPnPDevices::get__NewEnum
-ms.topic: method
 f1_keywords:
 - upnp/IUPnPDevices.get__NewEnum
 dev_langs:

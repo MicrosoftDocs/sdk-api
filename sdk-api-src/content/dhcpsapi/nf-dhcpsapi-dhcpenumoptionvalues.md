@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 4054cab9-b5f9-4ffa-8151-3ea705bc0755
 ms.date: 12/05/2018
 ms.keywords: DhcpEnumOptionValues, DhcpEnumOptionValues function [DHCP], dhcp.dhcpenumoptionvalues, dhcpsapi/DhcpEnumOptionValues
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpEnumOptionValues
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 187796db-2932-482e-833a-b4674f009b71
 ms.date: 12/05/2018
 ms.keywords: ITrackShellMenu, ITrackShellMenu interface [Windows Shell], ITrackShellMenu interface [Windows Shell],described, _shell_ITrackShellMenu, shdeprecated/ITrackShellMenu, shell.ITrackShellMenu
-ms.topic: interface
 f1_keywords:
 - shdeprecated/ITrackShellMenu
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: c10cbf84-8aaf-46c7-8b2f-e719e30f2556
 ms.date: 12/05/2018
 ms.keywords: GetThreadUILanguage, GetThreadUILanguage function [Internationalization for Windows Applications], _win32_GetThreadUILanguage, intl.getthreaduilanguage, winnls/GetThreadUILanguage
-ms.topic: function
 f1_keywords:
 - winnls/GetThreadUILanguage
 dev_langs:

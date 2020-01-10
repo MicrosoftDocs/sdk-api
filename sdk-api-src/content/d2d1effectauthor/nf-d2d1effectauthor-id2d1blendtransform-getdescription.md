@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 7608A055-FD44-406E-86C7-DF575718D936
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [Direct2D], GetDescription method [Direct2D],ID2D1BlendTransform interface, ID2D1BlendTransform interface [Direct2D],GetDescription method, ID2D1BlendTransform.GetDescription, ID2D1BlendTransform::GetDescription, d2d1effectauthor/ID2D1BlendTransform::GetDescription, direct2d.id2d1blendtransform_getdescription
-ms.topic: method
 f1_keywords:
 - d2d1effectauthor/ID2D1BlendTransform.GetDescription
 dev_langs:

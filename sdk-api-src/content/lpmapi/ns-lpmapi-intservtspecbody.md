@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: c4244dba-237a-437b-94b7-fd814edb3506
 ms.date: 12/05/2018
 ms.keywords: IntServTspecBody, IntServTspecBody structure [QOS], lpmapi/IntServTspecBody, qos.intservtspecbody
-ms.topic: struct
 f1_keywords:
 - lpmapi/IntServTspecBody
 dev_langs:

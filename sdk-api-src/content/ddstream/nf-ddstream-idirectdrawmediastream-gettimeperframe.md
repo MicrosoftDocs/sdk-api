@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 24133185-0d5f-41fc-b381-ef982db46dd1
 ms.date: 12/05/2018
 ms.keywords: GetTimePerFrame, GetTimePerFrame method [DirectShow], GetTimePerFrame method [DirectShow],IDirectDrawMediaStream interface, IDirectDrawMediaStream interface [DirectShow],GetTimePerFrame method, IDirectDrawMediaStream.GetTimePerFrame, IDirectDrawMediaStream::GetTimePerFrame, IDirectDrawMediaStreamGetTimePerFrame, ddstream/IDirectDrawMediaStream::GetTimePerFrame, dshow.idirectdrawmediastream_gettimeperframe
-ms.topic: method
 f1_keywords:
 - ddstream/IDirectDrawMediaStream.GetTimePerFrame
 dev_langs:

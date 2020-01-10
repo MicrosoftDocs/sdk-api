@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: c05ddc32-2c61-49ab-991f-8f9efae331a4
 ms.date: 12/05/2018
 ms.keywords: MsiEnumProducts, MsiEnumProducts function, MsiEnumProductsA, MsiEnumProductsW, _msi_msienumproducts, msi/MsiEnumProducts, msi/MsiEnumProductsA, msi/MsiEnumProductsW, setup.msienumproducts
-ms.topic: function
 f1_keywords:
 - msi/MsiEnumProducts
 dev_langs:

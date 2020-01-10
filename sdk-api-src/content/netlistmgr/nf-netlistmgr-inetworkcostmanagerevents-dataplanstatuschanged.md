@@ -7,7 +7,6 @@ tech.root: nla
 ms.assetid: A9908F22-A9E9-4C05-A434-57D0C433EA3E
 ms.date: 12/05/2018
 ms.keywords: DataPlanStatusChanged, DataPlanStatusChanged method [Network Awareness], DataPlanStatusChanged method [Network Awareness],INetworkCostManagerEvents interface, INetworkCostManagerEvents interface [Network Awareness],DataPlanStatusChanged method, INetworkCostManagerEvents.DataPlanStatusChanged, INetworkCostManagerEvents::DataPlanStatusChanged, netlistmgr/INetworkCostManagerEvents::DataPlanStatusChanged, nla.inetworkcostmanagerevents_dataplanstatuschanged
-ms.topic: method
 f1_keywords:
 - netlistmgr/INetworkCostManagerEvents.DataPlanStatusChanged
 dev_langs:

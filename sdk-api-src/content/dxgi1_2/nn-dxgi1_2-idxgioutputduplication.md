@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 02C4EC3D-D97F-4CFC-ABF5-03B44CE6A658
 ms.date: 12/05/2018
 ms.keywords: IDXGIOutputDuplication, IDXGIOutputDuplication interface [DXGI], IDXGIOutputDuplication interface [DXGI],described, direct3ddxgi.idxgioutputduplication, dxgi1_2/IDXGIOutputDuplication
-ms.topic: interface
 f1_keywords:
 - dxgi1_2/IDXGIOutputDuplication
 dev_langs:

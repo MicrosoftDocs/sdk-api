@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 8523cde9-f0dd-4832-8d9d-9e68bac89344
 ms.date: 12/05/2018
 ms.keywords: GetLongPathNameTransacted, GetLongPathNameTransacted function [Files], GetLongPathNameTransactedA, GetLongPathNameTransactedW, fs.getlongpathnametransacted, winbase/GetLongPathNameTransacted, winbase/GetLongPathNameTransactedA, winbase/GetLongPathNameTransactedW
-ms.topic: function
 f1_keywords:
 - winbase/GetLongPathNameTransacted
 dev_langs:

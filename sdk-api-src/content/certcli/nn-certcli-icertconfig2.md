@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 6bac5961-f9cc-4859-affa-aa7ed152ebfa
 ms.date: 12/05/2018
 ms.keywords: ICertConfig2, ICertConfig2 interface [Security], ICertConfig2 interface [Security],described, _certsrv_icertconfig2, certcli/ICertConfig2, security.icertconfig2
-ms.topic: interface
 f1_keywords:
 - certcli/ICertConfig2
 dev_langs:

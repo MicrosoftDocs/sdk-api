@@ -7,7 +7,6 @@ tech.root: NetBIOS
 ms.assetid: 3eadbfa7-53de-4c62-b61b-da84b9da58f7
 ms.date: 12/05/2018
 ms.keywords: Netbios, Netbios function [NetBIOS], nb30/Netbios, netbios.netbios
-ms.topic: function
 f1_keywords:
 - nb30/Netbios
 dev_langs:

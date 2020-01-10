@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: d2812c19-2b69-46a8-98ab-7e1eee43f383
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_BackColor method, IMSVidCtl.put_BackColor, IMSVidCtl::put_BackColor, IMSVidCtlput_BackColor, mstv.imsvidctl_put_backcolor, msvidctl/IMSVidCtl::put_BackColor, put_BackColor, put_BackColor method [Microsoft TV Technologies], put_BackColor method [Microsoft TV Technologies],IMSVidCtl interface
-ms.topic: method
 f1_keywords:
 - msvidctl/IMSVidCtl.put_BackColor
 dev_langs:

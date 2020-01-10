@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2tmb.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxServer interface [Fax Service],RegisteredEvents property, IFaxServer.RegisteredEvents, IFaxServer.get_RegisteredEvents, IFaxServer::RegisteredEvents, IFaxServer::get_RegisteredEvents, RegisteredEvents property [Fax Service], RegisteredEvents property [Fax Service],IFaxServer interface, _mfax_faxserver.registeredevents, fax._mfax_faxserver_cpp_mfax_faxserver_registeredevents_cpp, fax._mfax_faxserver_registeredevents, faxcomex/IFaxServer::RegisteredEvents, faxcomex/IFaxServer::get_RegisteredEvents, get_RegisteredEvents
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxServer.RegisteredEvents
 dev_langs:

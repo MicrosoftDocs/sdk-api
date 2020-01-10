@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7e682a2e-5140-49ad-88de-ac681025aca4
 ms.date: 12/05/2018
 ms.keywords: SHCreateLibrary, SHCreateLibrary function [Windows Shell], _shell_SHCreateLibrary, shell.SHCreateLibrary, shobjidl_core/SHCreateLibrary
-ms.topic: function
 f1_keywords:
 - shobjidl_core/SHCreateLibrary
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: BF4C0C6F-E02E-4458-AE04-D192AD304512
 ms.date: 12/5/2018
 ms.keywords: DML_RNN_OPERATOR_DESC, DML_RNN_OPERATOR_DESC structure, direct3d12.dml_rnn_operator_desc, directml/DML_RNN_OPERATOR_DESC
-ms.topic: struct
 f1_keywords:
 - directml/DML_RNN_OPERATOR_DESC
 dev_langs:

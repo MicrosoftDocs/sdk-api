@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 35D10150-A633-4D38-B684-3E2DF357FFC0
 ms.date: 12/05/2018
 ms.keywords: D3D12_GRAPHICS_PIPELINE_STATE_DESC, D3D12_GRAPHICS_PIPELINE_STATE_DESC structure, d3d12/D3D12_GRAPHICS_PIPELINE_STATE_DESC, direct3d12.d3d12_graphics_pipeline_state_desc
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_GRAPHICS_PIPELINE_STATE_DESC
 dev_langs:

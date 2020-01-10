@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: f34c682f-7677-4d20-bd37-b1a68293d85c
 ms.date: 12/05/2018
 ms.keywords: IOpcPartSet, IOpcPartSet interface [Open Packaging Conventions], IOpcPartSet interface [Open Packaging Conventions],described, msopc/IOpcPartSet, opc.iopcpartset
-ms.topic: interface
 f1_keywords:
 - msopc/IOpcPartSet
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1f00a485-42b5-4f91-88e0-d2ce78273be1
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [Windows Shell], GetDescription method [Windows Shell],IShellLink interface, GetDescription method [Windows Shell],IShellLinkA interface, GetDescription method [Windows Shell],IShellLinkW interface, IShellLink interface [Windows Shell],GetDescription method, IShellLink::GetDescription, IShellLinkA interface [Windows Shell],GetDescription method, IShellLinkA.GetDescription, IShellLinkA::GetDescription, IShellLinkW interface [Windows Shell],GetDescription method, IShellLinkW::GetDescription, _win32_IShellLink_GetDescription, shell.IShellLink_GetDescription, shobjidl_core/IShellLink::GetDescription, shobjidl_core/IShellLinkA::GetDescription, shobjidl_core/IShellLinkW::GetDescription
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellLink.GetDescription
 dev_langs:

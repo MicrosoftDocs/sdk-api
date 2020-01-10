@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 2A5C6F99-0610-457D-9850-867DCDA8F293
 ms.date: 12/05/2018
 ms.keywords: DXGI_OUTDUPL_FRAME_INFO, DXGI_OUTDUPL_FRAME_INFO structure [DXGI], direct3ddxgi.dxgi_outdupl_frame_info, dxgi1_2/DXGI_OUTDUPL_FRAME_INFO
-ms.topic: struct
 f1_keywords:
 - dxgi1_2/DXGI_OUTDUPL_FRAME_INFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 3e630987-82e3-4eb0-aec0-30562bc7c843
 ms.date: 12/05/2018
 ms.keywords: IWbemLocator, IWbemLocator interface [Windows Management Instrumentation], IWbemLocator interface [Windows Management Instrumentation],described, _hmm_iwbemlocator, wbemcli/IWbemLocator, wmi.iwbemlocator
-ms.topic: interface
 f1_keywords:
 - wbemcli/IWbemLocator
 dev_langs:

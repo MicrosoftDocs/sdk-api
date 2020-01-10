@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 5ad51469-a150-4322-ac16-782ef0d96a57
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylistCollection interface [Windows Media Player],newPlaylist method, IWMPPlaylistCollection.newPlaylist, IWMPPlaylistCollection::newPlaylist, IWMPPlaylistCollectionnewPlaylist, newPlaylist, newPlaylist method [Windows Media Player], newPlaylist method [Windows Media Player],IWMPPlaylistCollection interface, wmp.iwmpplaylistcollection_newplaylist, wmp/IWMPPlaylistCollection::newPlaylist
-ms.topic: method
 f1_keywords:
 - wmp/IWMPPlaylistCollection.newPlaylist
 dev_langs:

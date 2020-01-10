@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 62edadfe-0a7b-43ec-bd02-a63f928c7618
 ms.date: 12/05/2018
 ms.keywords: BuildTrusteeWithObjectsAndName, BuildTrusteeWithObjectsAndName function [Security], BuildTrusteeWithObjectsAndNameA, BuildTrusteeWithObjectsAndNameW, _win32_buildtrusteewithobjectsandname, aclapi/BuildTrusteeWithObjectsAndName, aclapi/BuildTrusteeWithObjectsAndNameA, aclapi/BuildTrusteeWithObjectsAndNameW, security.buildtrusteewithobjectsandname
-ms.topic: function
 f1_keywords:
 - aclapi/BuildTrusteeWithObjectsAndName
 dev_langs:

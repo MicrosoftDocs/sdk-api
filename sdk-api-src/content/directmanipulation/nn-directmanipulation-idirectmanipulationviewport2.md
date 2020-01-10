@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: 6EDFBA93-D2A2-4089-9976-CD1F8421B319
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport2, IDirectManipulationViewport2 interface [Direct Manipulation], IDirectManipulationViewport2 interface [Direct Manipulation],described, directmanipulation.idirectmanipulationviewport2, directmanipulation/IDirectManipulationViewport2
-ms.topic: interface
 f1_keywords:
 - directmanipulation/IDirectManipulationViewport2
 dev_langs:

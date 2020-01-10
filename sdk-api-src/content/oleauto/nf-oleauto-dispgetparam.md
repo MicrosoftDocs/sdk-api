@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 72cdb768-4791-4606-8e5d-72cd003e854a
 ms.date: 12/05/2018
 ms.keywords: DispGetParam, DispGetParam function [Automation], _oa96_DispGetParam, automat.dispgetparam, oleauto/DispGetParam
-ms.topic: function
 f1_keywords:
 - oleauto/DispGetParam
 dev_langs:

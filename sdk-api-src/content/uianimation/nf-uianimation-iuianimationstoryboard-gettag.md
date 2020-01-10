@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 9c74dc23-ea42-400d-a78c-79b716c5e614
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Windows Animation], GetTag method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],GetTag method, IUIAnimationStoryboard.GetTag, IUIAnimationStoryboard::GetTag, uianimation.iuianimationstoryboard_gettag, uianimation/IUIAnimationStoryboard::GetTag
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationStoryboard.GetTag
 dev_langs:

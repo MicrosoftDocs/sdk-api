@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_2p0y.htm
 ms.date: 12/05/2018
 ms.keywords: DBPARAMETER, DBPARAMETER structure [Indexing Service], _idxs_DBPARAMETER, cmdtree/DBPARAMETER, indexsrv.dbparameter, tagDBPARAMETER
-ms.topic: struct
 f1_keywords:
 - cmdtree/DBPARAMETER
 dev_langs:

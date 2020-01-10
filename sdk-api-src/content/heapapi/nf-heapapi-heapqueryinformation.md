@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 6bf6cb8b-7212-4ddb-9ea6-34bc78824a8f
 ms.date: 12/05/2018
 ms.keywords: HeapCompatibilityInformation, HeapQueryInformation, HeapQueryInformation function, _win32_heapqueryinformation, base.heapqueryinformation, heapapi/HeapQueryInformation, winbase/HeapQueryInformation
-ms.topic: function
 f1_keywords:
 - heapapi/HeapQueryInformation
 dev_langs:

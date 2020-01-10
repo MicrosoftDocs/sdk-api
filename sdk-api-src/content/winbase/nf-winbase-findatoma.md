@@ -7,7 +7,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\findatom.htm
 ms.date: 12/05/2018
 ms.keywords: FindAtom, FindAtom function [Data Exchange], FindAtomA, FindAtomW, _win32_FindAtom, _win32_findatom_cpp, dataxchg.findatom, winbase/FindAtom, winbase/FindAtomA, winbase/FindAtomW, winui._win32_findatom
-ms.topic: function
 f1_keywords:
 - winbase/FindAtom
 dev_langs:

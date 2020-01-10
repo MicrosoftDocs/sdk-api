@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 2e6abccd-c82c-4a6b-8720-259986ac9984
 ms.date: 12/05/2018
 ms.keywords: WSAEnumNetworkEvents, WSAEnumNetworkEvents function [Winsock], _win32_wsaenumnetworkevents_2, winsock.wsaenumnetworkevents_2, winsock2/WSAEnumNetworkEvents
-ms.topic: function
 f1_keywords:
 - winsock2/WSAEnumNetworkEvents
 dev_langs:

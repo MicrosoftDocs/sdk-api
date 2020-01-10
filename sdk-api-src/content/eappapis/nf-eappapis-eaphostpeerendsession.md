@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 6571b50b-f613-4da6-8262-1df2cf97a735
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerEndSession, EapHostPeerEndSession function [EAPHost], eaphost.eaphostpeerendsession, eappapis/EapHostPeerEndSession
-ms.topic: function
 f1_keywords:
 - eappapis/EapHostPeerEndSession
 dev_langs:

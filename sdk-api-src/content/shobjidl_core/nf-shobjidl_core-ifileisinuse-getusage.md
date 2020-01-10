@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7baba34d-b246-4d48-9f0c-e950d33ed5cf
 ms.date: 12/05/2018
 ms.keywords: GetUsage, GetUsage method [Windows Shell], GetUsage method [Windows Shell],IFileIsInUse interface, IFileIsInUse interface [Windows Shell],GetUsage method, IFileIsInUse.GetUsage, IFileIsInUse::GetUsage, _shell_IFileIsInUse_GetUsage, shell.IFileIsInUse_GetUsage, shobjidl_core/IFileIsInUse::GetUsage
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileIsInUse.GetUsage
 dev_langs:

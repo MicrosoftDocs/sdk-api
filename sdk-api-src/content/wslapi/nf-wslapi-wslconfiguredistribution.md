@@ -7,7 +7,6 @@ tech.root: wsl
 ms.assetid: 4E89F367-4E10-4E76-93BC-FD5E2450D430
 ms.date: 12/05/2018
 ms.keywords: WslConfigureDistribution, WslConfigureDistribution function, wsl.wslconfiguredistribution, wslapi/WslConfigureDistribution
-ms.topic: function
 f1_keywords:
 - wslapi/WslConfigureDistribution
 dev_langs:

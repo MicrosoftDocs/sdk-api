@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3zhi.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxTiff, IFaxTiff interface [Fax Service], IFaxTiff interface [Fax Service],described, _mfax_ifaxtiff, fax._mfax_ifaxtiff, faxcom/IFaxTiff
-ms.topic: interface
 f1_keywords:
 - faxcom/IFaxTiff
 dev_langs:

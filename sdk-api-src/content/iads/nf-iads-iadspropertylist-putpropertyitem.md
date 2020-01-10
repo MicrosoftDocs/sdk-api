@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 16af5cbf-3b87-467e-8e72-0110bcf95295
 ms.date: 12/05/2018
 ms.keywords: IADsPropertyList interface [ADSI],PutPropertyItem method, IADsPropertyList.PutPropertyItem, IADsPropertyList::PutPropertyItem, PutPropertyItem, PutPropertyItem method [ADSI], PutPropertyItem method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_putpropertyitem, adsi.iadspropertylist__putpropertyitem, adsi.iadspropertylist_putpropertyitem, iads/IADsPropertyList::PutPropertyItem
-ms.topic: method
 f1_keywords:
 - iads/IADsPropertyList.PutPropertyItem
 dev_langs:

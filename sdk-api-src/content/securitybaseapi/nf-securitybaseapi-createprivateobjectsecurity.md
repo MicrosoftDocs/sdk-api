@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 5f4832b6-5cf5-4050-9e20-56674f2e2cb1
 ms.date: 12/05/2018
 ms.keywords: CreatePrivateObjectSecurity, CreatePrivateObjectSecurity function [Security], _win32_createprivateobjectsecurity, security.createprivateobjectsecurity, securitybaseapi/CreatePrivateObjectSecurity
-ms.topic: function
 f1_keywords:
 - securitybaseapi/CreatePrivateObjectSecurity
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 5a60c96e-907a-409e-921c-59055452463f
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_PKCS8_EXPORT_PARAMS, AT_KEYEXCHANGE, AT_SIGNATURE, CRYPT_PKCS8_EXPORT_PARAMS, CRYPT_PKCS8_EXPORT_PARAMS structure [Security], PCRYPT_PKCS8_EXPORT_PARAMS, PCRYPT_PKCS8_EXPORT_PARAMS structure pointer [Security], security.crypt_pkcs8_export_params, wincrypt/CRYPT_PKCS8_EXPORT_PARAMS, wincrypt/PCRYPT_PKCS8_EXPORT_PARAMS'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_PKCS8_EXPORT_PARAMS
 dev_langs:

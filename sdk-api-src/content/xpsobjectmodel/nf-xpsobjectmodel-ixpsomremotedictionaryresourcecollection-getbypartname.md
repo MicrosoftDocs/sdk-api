@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: e90f23d9-c161-4b3c-a6bc-0059d2dfe5b5
 ms.date: 12/05/2018
 ms.keywords: GetByPartName, GetByPartName method [XPS Documents and Packaging], GetByPartName method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResourceCollection interface, IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],GetByPartName method, IXpsOMRemoteDictionaryResourceCollection.GetByPartName, IXpsOMRemoteDictionaryResourceCollection::GetByPartName, xps.ixpsomremotedictionaryresourcecollection_getbypartname, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::GetByPartName
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection.GetByPartName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: ea4f270b-c556-4f52-892a-199c9cfced26
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, NCRYPT_CIPHER_OPERATION, NCRYPT_HASH_OPERATION, NCRYPT_SECRET_AGREEMENT_OPERATION, NCRYPT_SIGNATURE_OPERATION, NCRYPT_SILENT_FLAG, NCryptEnumAlgorithms, NCryptEnumAlgorithms function [Security], ncrypt/NCryptEnumAlgorithms, security.ncryptenumalgorithms_func
-ms.topic: function
 f1_keywords:
 - ncrypt/NCryptEnumAlgorithms
 dev_langs:

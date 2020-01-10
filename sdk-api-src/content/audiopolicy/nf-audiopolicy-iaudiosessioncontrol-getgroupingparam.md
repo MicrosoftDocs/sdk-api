@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: d636aad7-c8b3-4179-ac32-5cb283611499
 ms.date: 12/05/2018
 ms.keywords: GetGroupingParam, GetGroupingParam method [Core Audio], GetGroupingParam method [Core Audio],IAudioSessionControl interface, IAudioSessionControl interface [Core Audio],GetGroupingParam method, IAudioSessionControl.GetGroupingParam, IAudioSessionControl::GetGroupingParam, IAudioSessionControlGetGroupingParam, audiopolicy/IAudioSessionControl::GetGroupingParam, coreaudio.iaudiosessioncontrol_getgroupingparam
-ms.topic: method
 f1_keywords:
 - audiopolicy/IAudioSessionControl.GetGroupingParam
 dev_langs:

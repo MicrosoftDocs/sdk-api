@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: CB533913-95A7-45D5-B0D3-E931E4F73B2E
 ms.date: 12/05/2018
 ms.keywords: AccNotifyTouchInteraction, AccNotifyTouchInteraction function [Windows Accessibility], oleacc/AccNotifyTouchInteraction, winauto.accnotifytouchinteraction
-ms.topic: function
 f1_keywords:
 - oleacc/AccNotifyTouchInteraction
 dev_langs:

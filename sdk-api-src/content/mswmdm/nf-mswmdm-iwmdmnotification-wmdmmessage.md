@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: e178db6b-2493-442e-95d1-04609b7726fe
 ms.date: 12/05/2018
 ms.keywords: IWMDMNotification interface [windows Media Device Manager],WMDMMessage method, IWMDMNotification.WMDMMessage, IWMDMNotification::WMDMMessage, IWMDMNotificationWMDMMessage, WMDMMessage, WMDMMessage method [windows Media Device Manager], WMDMMessage method [windows Media Device Manager],IWMDMNotification interface, mswmdm/IWMDMNotification::WMDMMessage, wmdm.iwmdmnotification_wmdmmessage
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMNotification.WMDMMessage
 dev_langs:

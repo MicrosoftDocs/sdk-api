@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 539e81d9-6362-4476-bdbc-849fb905b268
 ms.date: 12/05/2018
 ms.keywords: PWLX_SET_RETURN_DESKTOP, PWLX_SET_RETURN_DESKTOP callback, WlxSetReturnDesktop, WlxSetReturnDesktop callback function [Security], _gina_wlxsetreturndesktop, security.wlxsetreturndesktop, winwlx/WlxSetReturnDesktop
-ms.topic: callback
 f1_keywords:
 - winwlx/WlxSetReturnDesktop
 dev_langs:

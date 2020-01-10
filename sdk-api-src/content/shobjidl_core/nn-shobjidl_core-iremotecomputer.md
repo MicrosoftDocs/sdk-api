@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a2137043-baee-496b-b3ad-45af5a6f123e
 ms.date: 12/05/2018
 ms.keywords: IRemoteComputer, IRemoteComputer interface [Windows Shell], IRemoteComputer interface [Windows Shell],described, _win32_IRemoteComputer, shell.IRemoteComputer, shobjidl_core/IRemoteComputer
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IRemoteComputer
 dev_langs:

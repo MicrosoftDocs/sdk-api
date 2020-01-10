@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 1a5e7a99-484f-4862-bd28-edf85debc8e5
 ms.date: 12/05/2018
 ms.keywords: WPUCloseThread, WPUCloseThread function [Winsock], _win32_wpuclosethread_2, winsock.wpuclosethread_2, ws2spi/WPUCloseThread
-ms.topic: function
 f1_keywords:
 - ws2spi/WPUCloseThread
 dev_langs:

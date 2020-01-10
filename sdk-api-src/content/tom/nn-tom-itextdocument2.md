@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 0b0a54d7-7606-41f6-b8be-6367d9180ef4
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2, ITextDocument2 interface [Windows Controls], ITextDocument2 interface [Windows Controls],described, controls.itextdocument2, tom/ITextDocument2
-ms.topic: interface
 f1_keywords:
 - tom/ITextDocument2
 dev_langs:

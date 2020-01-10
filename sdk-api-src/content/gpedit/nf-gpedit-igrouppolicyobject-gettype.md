@@ -7,7 +7,6 @@ tech.root: Policy
 ms.assetid: e64314aa-340f-496c-aa6b-4744573565f6
 ms.date: 12/05/2018
 ms.keywords: GPOTypeDS, GPOTypeLocal, GPOTypeRemote, GetType, GetType method [Group Policy], GetType method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetType method, IGroupPolicyObject.GetType, IGroupPolicyObject::GetType, _win32_igrouppolicyobject_gettype, gpedit/IGroupPolicyObject::GetType, policy.igrouppolicyobject_gettype
-ms.topic: method
 f1_keywords:
 - gpedit/IGroupPolicyObject.GetType
 dev_langs:

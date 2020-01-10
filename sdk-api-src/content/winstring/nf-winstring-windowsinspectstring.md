@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: DB1A35D3-D7DF-439F-B4C2-9510FC1977E9
 ms.date: 12/05/2018
 ms.keywords: WindowsInspectString, WindowsInspectString function [Windows Runtime], winrt.windowsinspectstring, winstring/WindowsInspectString
-ms.topic: function
 f1_keywords:
 - winstring/WindowsInspectString
 dev_langs:

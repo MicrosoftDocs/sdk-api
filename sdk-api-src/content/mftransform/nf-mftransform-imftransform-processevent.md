@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 28366df3-c414-45ff-bb15-c5483f11de85
 ms.date: 12/05/2018
 ms.keywords: 28366df3-c414-45ff-bb15-c5483f11de85, IMFTransform interface [Media Foundation],ProcessEvent method, IMFTransform.ProcessEvent, IMFTransform::ProcessEvent, ProcessEvent, ProcessEvent method [Media Foundation], ProcessEvent method [Media Foundation],IMFTransform interface, mf.imftransform_processevent, mftransform/IMFTransform::ProcessEvent
-ms.topic: method
 f1_keywords:
 - mftransform/IMFTransform.ProcessEvent
 dev_langs:

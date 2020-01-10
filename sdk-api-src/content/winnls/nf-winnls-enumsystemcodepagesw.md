@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 4ef4d30f-3e38-47ee-8f68-fbb286b7b5c3
 ms.date: 12/05/2018
 ms.keywords: CP_INSTALLED, CP_SUPPORTED, EnumSystemCodePages, EnumSystemCodePages function [Internationalization for Windows Applications], EnumSystemCodePagesA, EnumSystemCodePagesW, _win32_EnumSystemCodePages, intl.enumsystemcodepages, winnls/EnumSystemCodePages, winnls/EnumSystemCodePagesA, winnls/EnumSystemCodePagesW
-ms.topic: function
 f1_keywords:
 - winnls/EnumSystemCodePages
 dev_langs:

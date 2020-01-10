@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 1487d788-c85a-4a58-a4c8-8abe198944b4
 ms.date: 12/05/2018
 ms.keywords: '*PEMRSETPIXELV, EMRSETPIXELV, EMRSETPIXELV structure [Windows GDI], PEMRSETPIXELV, PEMRSETPIXELV structure pointer [Windows GDI], _win32_EMRSETPIXELV_str, gdi.emrsetpixelv, wingdi/EMRSETPIXELV, wingdi/PEMRSETPIXELV'
-ms.topic: struct
 f1_keywords:
 - wingdi/EMRSETPIXELV
 dev_langs:

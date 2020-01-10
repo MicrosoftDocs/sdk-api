@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 7b6325bf-a996-467e-896d-a6dc41f63fd4
 ms.date: 12/05/2018
 ms.keywords: MoCopyMediaType, MoCopyMediaType function [DirectShow], dmort/MoCopyMediaType, dshow.mocopymediatype
-ms.topic: function
 f1_keywords:
 - dmort/MoCopyMediaType
 dev_langs:

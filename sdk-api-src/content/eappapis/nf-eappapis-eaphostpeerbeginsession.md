@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 9dc339bc-ef01-4432-83cb-b4b14a36f18e
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerBeginSession, EapHostPeerBeginSession function [EAPHost], eaphost.eaphostpeerbeginsession, eappapis/EapHostPeerBeginSession
-ms.topic: function
 f1_keywords:
 - eappapis/EapHostPeerBeginSession
 dev_langs:

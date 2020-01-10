@@ -7,7 +7,6 @@ tech.root: netshell
 ms.assetid: ecf4580a-c03c-4589-9cf8-f6498a3d33d9
 ms.date: 12/05/2018
 ms.keywords: CMD_FLAG_HIDDEN, CMD_FLAG_INTERACTIVE, CMD_FLAG_LIMIT_MASK, CMD_FLAG_LOCAL, CMD_FLAG_ONLINE, CMD_FLAG_PRIORITY, CMD_FLAG_PRIVATE, NS_CMD_FLAGS, NS_CMD_FLAGS enumeration [NetShell], netsh/CMD_FLAG_HIDDEN, netsh/CMD_FLAG_INTERACTIVE, netsh/CMD_FLAG_LIMIT_MASK, netsh/CMD_FLAG_LOCAL, netsh/CMD_FLAG_ONLINE, netsh/CMD_FLAG_PRIORITY, netsh/CMD_FLAG_PRIVATE, netsh/NS_CMD_FLAGS, netshell.ns_cmd_flags
-ms.topic: enum
 f1_keywords:
 - netsh/NS_CMD_FLAGS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: eb3619bb-470f-41bd-a231-d63df70592c2
 ms.date: 12/05/2018
 ms.keywords: IOpcRelationship, IOpcRelationship interface [Open Packaging Conventions], IOpcRelationship interface [Open Packaging Conventions],described, msopc/IOpcRelationship, opc.iopcrelationship
-ms.topic: interface
 f1_keywords:
 - msopc/IOpcRelationship
 dev_langs:

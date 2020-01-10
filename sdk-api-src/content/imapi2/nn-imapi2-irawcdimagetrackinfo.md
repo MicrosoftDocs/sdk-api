@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 5d074279-35fb-48d0-b298-c1a83f57d805
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageTrackInfo, IRawCDImageTrackInfo interface [IMAPI], IRawCDImageTrackInfo interface [IMAPI],described, imapi.irawcdimagetrackinfo, imapi2/IRawCDImageTrackInfo
-ms.topic: interface
 f1_keywords:
 - imapi2/IRawCDImageTrackInfo
 dev_langs:

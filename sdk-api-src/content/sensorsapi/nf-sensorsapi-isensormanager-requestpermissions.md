@@ -7,7 +7,6 @@ tech.root: SensorsAPI
 ms.assetid: 6a21820c-4f13-4220-ad13-34d0226597b6
 ms.date: 12/05/2018
 ms.keywords: FALSE, ISensorManager interface,RequestPermissions method, ISensorManager.RequestPermissions, ISensorManager::RequestPermissions, RequestPermissions, RequestPermissions method, RequestPermissions method,ISensorManager interface, TRUE, sensorsapi/ISensorManager::RequestPermissions, winsensors_com_ref.Isensormanager_requestpermissions
-ms.topic: method
 f1_keywords:
 - sensorsapi/ISensorManager.RequestPermissions
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 68e98afd-3275-49bb-b165-48ed40026e76
 ms.date: 12/05/2018
 ms.keywords: IAMBufferNegotiation, IAMBufferNegotiation interface [DirectShow], IAMBufferNegotiation interface [DirectShow],described, IAMBufferNegotiationInterface, dshow.iambuffernegotiation, strmif/IAMBufferNegotiation
-ms.topic: interface
 f1_keywords:
 - strmif/IAMBufferNegotiation
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: efe0c51c-1193-4a25-88ae-ad74550f42ba
 ms.date: 12/05/2018
 ms.keywords: IInstallationJob interface [Windows Update Agent],RequestAbort method, IInstallationJob.RequestAbort, IInstallationJob::RequestAbort, RequestAbort, RequestAbort method [Windows Update Agent], RequestAbort method [Windows Update Agent],IInstallationJob interface, wua.iinstallationjob_requestabort, wuapi/IInstallationJob::RequestAbort
-ms.topic: method
 f1_keywords:
 - wuapi/IInstallationJob.RequestAbort
 dev_langs:

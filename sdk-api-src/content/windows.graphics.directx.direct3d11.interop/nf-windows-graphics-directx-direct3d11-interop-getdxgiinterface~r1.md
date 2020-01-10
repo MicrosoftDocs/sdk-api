@@ -6,7 +6,6 @@ tech.root: WinRT
 ms.assetid: 1b3d7bd6-6618-d4a1-b2f4-0b4312a6db67
 ms.date: 05/13/2019
 ms.keywords: interop::GetDXGIInterface
-ms.topic: function
 f1_keywords:
 - windows.graphics.directx.direct3d11.interop/interop::GetDXGIInterface
 dev_langs:

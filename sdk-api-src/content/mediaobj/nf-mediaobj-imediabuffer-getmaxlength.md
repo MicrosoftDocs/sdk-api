@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9e312d3b-4994-4493-861c-cc0f6f112362
 ms.date: 12/05/2018
 ms.keywords: GetMaxLength, GetMaxLength method [DirectShow], GetMaxLength method [DirectShow],IMediaBuffer interface, IMediaBuffer interface [DirectShow],GetMaxLength method, IMediaBuffer.GetMaxLength, IMediaBuffer::GetMaxLength, IMediaBufferGetMaxLength, dshow.imediabuffer_getmaxlength, mediaobj/IMediaBuffer::GetMaxLength
-ms.topic: method
 f1_keywords:
 - mediaobj/IMediaBuffer.GetMaxLength
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_7ns8.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxEventLogging interface [Fax Service],Refresh method, IFaxEventLogging.Refresh, IFaxEventLogging::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxEventLogging interface, _mfax_faxeventlogging.refresh, fax._mfax_faxeventlogging_cpp_mfax_faxeventlogging_refresh_cpp, fax._mfax_faxeventlogging_refresh, faxcomex/IFaxEventLogging::Refresh
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxEventLogging.Refresh
 dev_langs:

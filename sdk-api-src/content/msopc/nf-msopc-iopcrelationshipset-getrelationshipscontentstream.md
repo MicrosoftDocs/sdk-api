@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 648e5bd1-25cc-48df-8120-ca1756eff8f7
 ms.date: 12/05/2018
 ms.keywords: GetRelationshipsContentStream, GetRelationshipsContentStream method [Open Packaging Conventions], GetRelationshipsContentStream method [Open Packaging Conventions],IOpcRelationshipSet interface, IOpcRelationshipSet interface [Open Packaging Conventions],GetRelationshipsContentStream method, IOpcRelationshipSet.GetRelationshipsContentStream, IOpcRelationshipSet::GetRelationshipsContentStream, msopc/IOpcRelationshipSet::GetRelationshipsContentStream, opc.iopcrelationshipset_getrelationshipscontentstream
-ms.topic: method
 f1_keywords:
 - msopc/IOpcRelationshipSet.GetRelationshipsContentStream
 dev_langs:

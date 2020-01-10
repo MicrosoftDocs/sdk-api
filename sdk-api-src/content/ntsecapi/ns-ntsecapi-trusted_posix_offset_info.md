@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: 0686da5e-43d4-49ac-8c5d-5c56b8d12e50
 ms.date: 12/05/2018
 ms.keywords: '*PTRUSTED_POSIX_OFFSET_INFO, PTRUSTED_POSIX_OFFSET_INFO, PTRUSTED_POSIX_OFFSET_INFO structure pointer [Security], TRUSTED_POSIX_OFFSET_INFO, TRUSTED_POSIX_OFFSET_INFO structure [Security], _TRUSTED_POSIX_OFFSET_INFO, _lsa_trusted_posix_offset_info, ntsecapi/PTRUSTED_POSIX_OFFSET_INFO, ntsecapi/TRUSTED_POSIX_OFFSET_INFO, security.trusted_posix_offset_info'
-ms.topic: struct
 f1_keywords:
 - ntsecapi/TRUSTED_POSIX_OFFSET_INFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 720cacb9-af54-41b7-9fb6-72dfa634c4c5
 ms.date: 12/05/2018
 ms.keywords: SHGetMalloc, SHGetMalloc function [Windows Shell], _win32_SHGetMalloc, shell.SHGetMalloc, shlobj_core/SHGetMalloc
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHGetMalloc
 dev_langs:

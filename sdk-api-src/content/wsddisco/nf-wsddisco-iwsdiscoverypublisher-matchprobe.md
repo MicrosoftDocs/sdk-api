@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 657f50ad-128f-4ccb-b89a-ed88f5d9b381
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher interface,MatchProbe method, IWSDiscoveryPublisher.MatchProbe, IWSDiscoveryPublisher::MatchProbe, MatchProbe, MatchProbe method, MatchProbe method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_matchprobe_method, wsddisco/IWSDiscoveryPublisher::MatchProbe
-ms.topic: method
 f1_keywords:
 - wsddisco/IWSDiscoveryPublisher.MatchProbe
 dev_langs:

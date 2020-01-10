@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\sendmessagetimeout.htm
 ms.date: 12/05/2018
 ms.keywords: SMTO_ABORTIFHUNG, SMTO_BLOCK, SMTO_ERRORONEXIT, SMTO_NORMAL, SMTO_NOTIMEOUTIFNOTHUNG, SendMessageTimeout, SendMessageTimeout function [Windows and Messages], SendMessageTimeoutA, SendMessageTimeoutW, _win32_SendMessageTimeout, _win32_sendmessagetimeout_cpp, winmsg.sendmessagetimeout, winui._win32_sendmessagetimeout, winuser/SendMessageTimeout, winuser/SendMessageTimeoutA, winuser/SendMessageTimeoutW
-ms.topic: function
 f1_keywords:
 - winuser/SendMessageTimeout
 dev_langs:

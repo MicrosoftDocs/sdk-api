@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: b901ec82-69d2-4a1c-b316-37f209af2b19
 ms.date: 12/05/2018
 ms.keywords: PeerCollabDeleteContact, PeerCollabDeleteContact function [Peer Networking], p2p.peercollabdeletecontact, p2p/PeerCollabDeleteContact
-ms.topic: function
 f1_keywords:
 - p2p/PeerCollabDeleteContact
 dev_langs:

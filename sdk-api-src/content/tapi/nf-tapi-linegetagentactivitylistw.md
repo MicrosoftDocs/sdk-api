@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 8f0be375-2891-45bd-a2cb-246ea5c4b9bb
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetagentactivitylist, lineGetAgentActivityList, lineGetAgentActivityList function [TAPI 2.2], lineGetAgentActivityListA, lineGetAgentActivityListW, tapi/lineGetAgentActivityList, tapi/lineGetAgentActivityListA, tapi/lineGetAgentActivityListW, tapi2.linegetagentactivitylist
-ms.topic: function
 f1_keywords:
 - tapi/lineGetAgentActivityList
 dev_langs:

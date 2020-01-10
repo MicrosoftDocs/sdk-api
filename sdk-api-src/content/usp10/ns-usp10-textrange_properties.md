@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: f43a0873-f499-4d66-9fce-57f332c1dc77
 ms.date: 12/05/2018
 ms.keywords: TEXTRANGE_PROPERTIES, TEXTRANGE_PROPERTIES structure [Internationalization for Windows Applications], _win32_TEXTRANGE_PROPERTIES, intl.textrange_properties, usp10/TEXTRANGE_PROPERTIES
-ms.topic: struct
 f1_keywords:
 - usp10/TEXTRANGE_PROPERTIES
 dev_langs:

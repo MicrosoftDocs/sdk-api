@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 5b413ade-4ab2-45fa-98b2-fd93c8f89a43
 ms.date: 12/05/2018
 ms.keywords: IMSVidInputDevice, IMSVidInputDevice interface [Microsoft TV Technologies], IMSVidInputDevice interface [Microsoft TV Technologies],described, IMSVidInputDeviceInterface, mstv.imsvidinputdevice, segment/IMSVidInputDevice
-ms.topic: interface
 f1_keywords:
 - segment/IMSVidInputDevice
 dev_langs:

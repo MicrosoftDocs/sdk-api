@@ -7,7 +7,6 @@ tech.root: wes
 ms.assetid: 26f1745c-dcca-4452-872e-1fffe20f049c
 ms.date: 12/05/2018
 ms.keywords: EvtOpenSession, EvtOpenSession function [EventLog], wes.evtopensession, winevt/EvtOpenSession
-ms.topic: function
 f1_keywords:
 - winevt/EvtOpenSession
 dev_langs:

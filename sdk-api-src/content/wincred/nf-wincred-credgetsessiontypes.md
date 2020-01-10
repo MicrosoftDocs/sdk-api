@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 70f8d5e0-235b-4330-8add-566b41c91c17
 ms.date: 12/05/2018
 ms.keywords: CRED_PERSIST_ENTERPRISE, CRED_PERSIST_LOCAL_MACHINE, CRED_PERSIST_NONE, CRED_PERSIST_SESSION, CredGetSessionTypes, CredGetSessionTypes function [Security], _cred_credgetsessiontypes, security.credgetsessiontypes, wincred/CredGetSessionTypes
-ms.topic: function
 f1_keywords:
 - wincred/CredGetSessionTypes
 dev_langs:

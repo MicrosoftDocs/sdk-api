@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: dbd895bd-a720-4c8e-a2e7-f5614d69922c
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_CREDENTIALS1, IKEEXT_CREDENTIALS1 structure [Filtering], fwp.ikeext_credentials1, iketypes/IKEEXT_CREDENTIALS1
-ms.topic: struct
 f1_keywords:
 - iketypes/IKEEXT_CREDENTIALS1
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3dhlsl
 ms.assetid: 9b62026f-0658-405c-8f45-ee921213148a
 ms.date: 12/05/2018
 ms.keywords: D3DDecompressShaders, D3DDecompressShaders function [HLSL], d3dcompiler/D3DDecompressShaders, direct3dhlsl.d3ddecompressshaders
-ms.topic: function
 f1_keywords:
 - d3dcompiler/D3DDecompressShaders
 dev_langs:

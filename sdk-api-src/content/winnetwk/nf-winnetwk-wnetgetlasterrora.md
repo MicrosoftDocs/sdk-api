@@ -7,7 +7,6 @@ tech.root: WNet
 ms.assetid: 8e13c467-adcf-4e97-b51a-1f5fc919b51e
 ms.date: 12/05/2018
 ms.keywords: WNetGetLastError, WNetGetLastError function [Windows Networking (WNet)], WNetGetLastErrorA, WNetGetLastErrorW, _win32_wnetgetlasterror, winnetwk/WNetGetLastError, winnetwk/WNetGetLastErrorA, winnetwk/WNetGetLastErrorW, wnet.wnetgetlasterror
-ms.topic: function
 f1_keywords:
 - winnetwk/WNetGetLastError
 dev_langs:

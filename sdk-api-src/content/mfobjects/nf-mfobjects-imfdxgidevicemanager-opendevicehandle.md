@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: B025DF73-1F85-46F3-9AD4-2385BD515DDD
 ms.date: 12/05/2018
 ms.keywords: IMFDXGIDeviceManager interface [Media Foundation],OpenDeviceHandle method, IMFDXGIDeviceManager.OpenDeviceHandle, IMFDXGIDeviceManager::OpenDeviceHandle, OpenDeviceHandle, OpenDeviceHandle method [Media Foundation], OpenDeviceHandle method [Media Foundation],IMFDXGIDeviceManager interface, mf.imfdxgidevicemanager_opendevicehandle, mfobjects/IMFDXGIDeviceManager::OpenDeviceHandle
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFDXGIDeviceManager.OpenDeviceHandle
 dev_langs:

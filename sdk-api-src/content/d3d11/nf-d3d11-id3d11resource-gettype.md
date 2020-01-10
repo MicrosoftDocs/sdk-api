@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 8358ab9b-acf3-41cd-8812-cc15862928da
 ms.date: 12/05/2018
 ms.keywords: 62bac8ef-4d59-ca5c-1bf7-3993d5ecf42e, GetType, GetType method [Direct3D 11], GetType method [Direct3D 11],ID3D11Resource interface, ID3D11Resource interface [Direct3D 11],GetType method, ID3D11Resource.GetType, ID3D11Resource::GetType, d3d11/ID3D11Resource::GetType, direct3d11.id3d11resource_gettype
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11Resource.GetType
 dev_langs:

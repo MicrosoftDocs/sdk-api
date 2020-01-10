@@ -4,7 +4,6 @@ title: LPWSPSENDTO
 description: The WSPSendTo function sends data to a specific destination using overlapped I/O.
 ms.date: 9/12/2019
 ms.keywords: LPWSPSENDTO
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

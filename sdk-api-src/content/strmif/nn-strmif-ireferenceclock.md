@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9818c67d-dfbe-4498-a744-d2efaa4bfb58
 ms.date: 12/05/2018
 ms.keywords: IReferenceClock, IReferenceClock interface [DirectShow], IReferenceClock interface [DirectShow],described, IReferenceClockInterface, dshow.ireferenceclock, strmif/IReferenceClock
-ms.topic: interface
 f1_keywords:
 - strmif/IReferenceClock
 dev_langs:

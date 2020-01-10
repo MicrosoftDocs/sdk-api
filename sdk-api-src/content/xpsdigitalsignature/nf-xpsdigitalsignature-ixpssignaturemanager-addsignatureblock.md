@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: a299882f-b9f4-4297-8438-e92d148a4014
 ms.date: 12/05/2018
 ms.keywords: AddSignatureBlock, AddSignatureBlock method [XPS Documents and Packaging], AddSignatureBlock method [XPS Documents and Packaging],IXpsSignatureManager interface, IXpsSignatureManager interface [XPS Documents and Packaging],AddSignatureBlock method, IXpsSignatureManager.AddSignatureBlock, IXpsSignatureManager::AddSignatureBlock, xps.ixpssignaturemanager_addsignatureblock, xpsdigitalsignature/IXpsSignatureManager::AddSignatureBlock
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignatureManager.AddSignatureBlock
 dev_langs:

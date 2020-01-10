@@ -7,7 +7,6 @@ tech.root: Input_PointerDevice
 ms.assetid: 5EA8012C-CF0C-4771-9A9C-A9DC218DC9AB
 ms.date: 12/05/2018
 ms.keywords: '*PPOINTER_TYPE_INFO, POINTER_TYPE_INFO, POINTER_TYPE_INFO structure, PPOINTER_TYPE_INFO, PPOINTER_TYPE_INFO structure pointer, input_pointerdevice.pointer_type_info, winuser/POINTER_TYPE_INFO, winuser/PPOINTER_TYPE_INFO'
-ms.topic: struct
 f1_keywords:
 - winuser/POINTER_TYPE_INFO
 dev_langs:

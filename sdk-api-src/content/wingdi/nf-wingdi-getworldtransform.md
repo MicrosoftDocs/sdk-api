@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 72945b1e-144e-4724-bf08-6f971f8adb43
 ms.date: 12/05/2018
 ms.keywords: GetWorldTransform, GetWorldTransform function [Windows GDI], _win32_GetWorldTransform, gdi.getworldtransform, wingdi/GetWorldTransform
-ms.topic: function
 f1_keywords:
 - wingdi/GetWorldTransform
 dev_langs:

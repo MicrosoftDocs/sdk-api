@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: c9006dd1-055b-4fb0-92e8-c7b6bc294941
 ms.date: 12/05/2018
 ms.keywords: DrvStartBanding, DrvStartBanding function [Display Devices], ddifncs_d0cd5c63-cf46-472a-be6c-8d9dd124a2b2.xml, display.drvstartbanding, winddi/DrvStartBanding
-ms.topic: function
 f1_keywords:
 - winddi/DrvStartBanding
 dev_langs:

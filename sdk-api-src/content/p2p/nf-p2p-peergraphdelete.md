@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 7962e425-ca74-4695-a394-5495e74bd460
 ms.date: 12/05/2018
 ms.keywords: PeerGraphDelete, PeerGraphDelete function [Peer Networking], p2p.peergraphdelete, p2p/PeerGraphDelete
-ms.topic: function
 f1_keywords:
 - p2p/PeerGraphDelete
 dev_langs:

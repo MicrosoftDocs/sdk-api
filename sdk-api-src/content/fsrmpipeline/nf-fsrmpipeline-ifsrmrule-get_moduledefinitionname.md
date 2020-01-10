@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: b003b31b-fe40-446d-9db8-619dfcecc6c7
 ms.date: 12/05/2018
 ms.keywords: IFsrmRule interface [File Server Resource Manager],ModuleDefinitionName property, IFsrmRule.ModuleDefinitionName, IFsrmRule.get_ModuleDefinitionName, IFsrmRule::ModuleDefinitionName, IFsrmRule::get_ModuleDefinitionName, IFsrmRule::put_ModuleDefinitionName, ModuleDefinitionName property [File Server Resource Manager], ModuleDefinitionName property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_moduledefinitionname, fsrm.ifsrmrule_moduledefinitionname, fsrmpipeline/IFsrmRule::ModuleDefinitionName, fsrmpipeline/IFsrmRule::get_ModuleDefinitionName, fsrmpipeline/IFsrmRule::put_ModuleDefinitionName, get_ModuleDefinitionName
-ms.topic: method
 f1_keywords:
 - fsrmpipeline/IFsrmRule.ModuleDefinitionName
 dev_langs:

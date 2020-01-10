@@ -7,7 +7,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dtexture9__getleveldesc.htm
 ms.date: 12/05/2018
 ms.keywords: 56fc4d84-d125-0b2e-6670-ecb45faa49cd, GetLevelDesc, GetLevelDesc method [Direct3D 9], GetLevelDesc method [Direct3D 9],IDirect3DTexture9 interface, IDirect3DTexture9 interface [Direct3D 9],GetLevelDesc method, IDirect3DTexture9.GetLevelDesc, IDirect3DTexture9::GetLevelDesc, d3d9helper/IDirect3DTexture9::GetLevelDesc, direct3d9.idirect3dtexture9__getleveldesc
-ms.topic: method
 f1_keywords:
 - d3d9/IDirect3DTexture9.GetLevelDesc
 dev_langs:

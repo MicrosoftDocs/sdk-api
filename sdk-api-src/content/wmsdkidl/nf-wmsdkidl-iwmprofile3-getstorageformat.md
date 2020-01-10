@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 42aea1df-63cd-4eda-86c8-3cebe92d5c82
 ms.date: 12/05/2018
 ms.keywords: GetStorageFormat, GetStorageFormat method [windows Media Format], GetStorageFormat method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],GetStorageFormat method, IWMProfile3.GetStorageFormat, IWMProfile3::GetStorageFormat, IWMProfile3GetStorageFormat, wmformat.iwmprofile3_getstorageformat, wmsdkidl/IWMProfile3::GetStorageFormat
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMProfile3.GetStorageFormat
 dev_langs:

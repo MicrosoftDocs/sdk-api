@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 73631804-5749-4764-9335-42F04D6BCB62
 ms.date: 12/05/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetGreenYIntercept method, IDCompositionLinearTransferEffect.SetGreenYIntercept, IDCompositionLinearTransferEffect.SetGreenYIntercept(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetGreenYIntercept, IDCompositionLinearTransferEffect::SetGreenYIntercept(IDCompositionAnimation), SetGreenYIntercept, SetGreenYIntercept method [DirectComposition], SetGreenYIntercept method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetGreenYIntercept, directcomp.idcompositionlineartransfereffect_setgreenyintercept_2
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionLinearTransferEffect.SetGreenYIntercept
 dev_langs:

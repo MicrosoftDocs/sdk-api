@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 168f5ac9-8a72-4356-82a4-de3a7ec72c05
 ms.date: 12/05/2018
 ms.keywords: CreateStream, CreateStream method [Structured Storage], CreateStream method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],CreateStream method, IStorage.CreateStream, IStorage::CreateStream, _stg_istorage_createstream, objidl/IStorage::CreateStream, stg.istorage_createstream
-ms.topic: method
 f1_keywords:
 - objidl/IStorage.CreateStream
 dev_langs:

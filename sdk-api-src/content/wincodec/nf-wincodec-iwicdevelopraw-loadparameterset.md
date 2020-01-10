@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: c3882d90-5772-4b10-8fcc-8d16f5004a05
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],LoadParameterSet method, IWICDevelopRaw.LoadParameterSet, IWICDevelopRaw::LoadParameterSet, LoadParameterSet, LoadParameterSet method [Windows Imaging Component], LoadParameterSet method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_loadparameterset, wic._wic_codec_iwicdevelopraw_loadparameterset, wincodec/IWICDevelopRaw::LoadParameterSet
-ms.topic: method
 f1_keywords:
 - wincodec/IWICDevelopRaw.LoadParameterSet
 dev_langs:

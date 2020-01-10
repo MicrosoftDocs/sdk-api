@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5d55107e-a07a-4d70-80f6-7ec99578bb48
 ms.date: 12/05/2018
 ms.keywords: IPreviousVersionsInfo, IPreviousVersionsInfo interface [Windows Shell], IPreviousVersionsInfo interface [Windows Shell],described, _shell_IPreviousVersionsInfo, shell.IPreviousVersionsInfo, shobjidl/IPreviousVersionsInfo
-ms.topic: interface
 f1_keywords:
 - shobjidl/IPreviousVersionsInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 942F38AF-13F4-4A2E-A504-5085EC90E74C
 ms.date: 12/05/2018
 ms.keywords: IPSEC_KEY_MANAGER0, IPSEC_KEY_MANAGER0 structure [Filtering], IPSEC_KEY_MANAGER_FLAG_DICTATE_KEY, fwp.ipsec_key_manager0, ipsectypes/IPSEC_KEY_MANAGER0
-ms.topic: struct
 f1_keywords:
 - ipsectypes/IPSEC_KEY_MANAGER0
 dev_langs:

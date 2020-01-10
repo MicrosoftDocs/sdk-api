@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 2fe4de87-e7ea-4120-8e37-5a26d836fcea
 ms.date: 12/05/2018
 ms.keywords: IObjectContextTip, IObjectContextTip interface [COM+], IObjectContextTip interface [COM+],described, _cos_IObjectContextTip, comsvcs/IObjectContextTip, cos.iobjectcontexttip
-ms.topic: interface
 f1_keywords:
 - comsvcs/IObjectContextTip
 dev_langs:

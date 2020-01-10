@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcolumnwidth.htm
 ms.date: 12/05/2018
 ms.keywords: LVSCW_AUTOSIZE, LVSCW_AUTOSIZE_USEHEADER, ListView_SetColumnWidth, ListView_SetColumnWidth macro [Windows Controls], _win32_ListView_SetColumnWidth, _win32_ListView_SetColumnWidth_cpp, commctrl/ListView_SetColumnWidth, controls.ListView_SetColumnWidth, controls._win32_ListView_SetColumnWidth
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_SetColumnWidth
 dev_langs:

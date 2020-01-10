@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 9F3A74F5-615B-40B2-8E69-145D0ECA22A9
 ms.date: 12/05/2018
 ms.keywords: IRtwqAsyncResult interface,SetStatus method, IRtwqAsyncResult.SetStatus, IRtwqAsyncResult::SetStatus, SetStatus, SetStatus method, SetStatus method,IRtwqAsyncResult interface, base.irtwqasyncresult_setstatus, rtworkq/IRtwqAsyncResult::SetStatus
-ms.topic: method
 f1_keywords:
 - rtworkq/IRtwqAsyncResult.SetStatus
 dev_langs:

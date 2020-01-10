@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: eca127eb-0e0a-4f43-afa4-42fde8d43284
 ms.date: 12/05/2018
 ms.keywords: IMultisession interface [IMAPI],get_ImportRecorder method, IMultisession.get_ImportRecorder, IMultisession::get_ImportRecorder, get_ImportRecorder, get_ImportRecorder method [IMAPI], get_ImportRecorder method [IMAPI],IMultisession interface, imapi.imultisession_get_importrecorder, imapi2/IMultisession::get_ImportRecorder
-ms.topic: method
 f1_keywords:
 - imapi2/IMultisession.get_ImportRecorder
 dev_langs:

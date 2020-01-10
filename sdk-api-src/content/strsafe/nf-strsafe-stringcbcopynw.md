@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcopyn.htm
 ms.date: 12/05/2018
 ms.keywords: StringCbCopyN, StringCbCopyN function [Menus and Other Resources], StringCbCopyNA, StringCbCopyNW, _shell_StringCbCopyN, _shell_stringcbcopyn_cpp, menurc.stringcbcopyn, strsafe/StringCbCopyN, strsafe/StringCbCopyNA, strsafe/StringCbCopyNW, winui._shell_stringcbcopyn
-ms.topic: function
 f1_keywords:
 - strsafe/StringCbCopyN
 dev_langs:

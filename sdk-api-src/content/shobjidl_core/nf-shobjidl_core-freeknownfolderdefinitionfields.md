@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0ad17dd3-e612-403a-b8c3-e93d5f259c1f
 ms.date: 12/05/2018
 ms.keywords: FreeKnownFolderDefinitionFields, FreeKnownFolderDefinitionFields function [Windows Shell], _shell_FreeKnownFolderDefinitionFields, shell.FreeKnownFolderDefinitionFields, shobjidl_core/FreeKnownFolderDefinitionFields
-ms.topic: function
 f1_keywords:
 - shobjidl_core/FreeKnownFolderDefinitionFields
 dev_langs:

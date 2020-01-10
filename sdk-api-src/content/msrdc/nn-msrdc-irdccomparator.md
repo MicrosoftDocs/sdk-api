@@ -7,7 +7,6 @@ tech.root: rdc
 ms.assetid: ad39b922-3271-491e-b74b-80a1f647e663
 ms.date: 12/05/2018
 ms.keywords: IRdcComparator, IRdcComparator interface [Remote Differential Compression], IRdcComparator interface [Remote Differential Compression],described, fs.irdccomparator, msrdc/IRdcComparator, rdc.irdccomparator
-ms.topic: interface
 f1_keywords:
 - msrdc/IRdcComparator
 dev_langs:

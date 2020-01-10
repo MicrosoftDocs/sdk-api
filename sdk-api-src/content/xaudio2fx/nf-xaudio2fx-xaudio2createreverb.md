@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2CreateReverb(IUnknown@,UINT32)
 ms.date: 12/05/2018
 ms.keywords: XAudio2CreateReverb, XAudio2CreateReverb function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2createreverb, xaudio2fx/XAudio2CreateReverb
-ms.topic: function
 f1_keywords:
 - xaudio2fx/XAudio2CreateReverb
 dev_langs:

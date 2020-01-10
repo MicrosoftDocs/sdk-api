@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f6e35f6a-9af1-4e14-82c0-0f96ecf01c15
 ms.date: 12/05/2018
 ms.keywords: LongPtrSub, LongPtrSub function [Windows Shell], intsafe/LongPtrSub, shell.LongPtrSub
-ms.topic: function
 f1_keywords:
 - intsafe/LongPtrSub
 dev_langs:

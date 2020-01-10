@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: bb3f32d9-298a-4099-8d87-4057ddefb0ba
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [BITS], Cancel method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],Cancel method, IBackgroundCopyJob.Cancel, IBackgroundCopyJob::Cancel, _drz_ibackgroundcopyjob_cancel, bits.ibackgroundcopyjob_cancel, bits/IBackgroundCopyJob::Cancel
-ms.topic: method
 f1_keywords:
 - bits/IBackgroundCopyJob.Cancel
 dev_langs:

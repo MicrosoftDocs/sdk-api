@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 85a5121a-7be0-4703-a1d4-4de21dd98697
 ms.date: 12/05/2018
 ms.keywords: ITfComposition interface [Text Services Framework],ShiftStart method, ITfComposition.ShiftStart, ITfComposition::ShiftStart, ShiftStart, ShiftStart method [Text Services Framework], ShiftStart method [Text Services Framework],ITfComposition interface, _tsf_itfcomposition_shiftstart_ref, msctf/ITfComposition::ShiftStart, tsf.itfcomposition_shiftstart
-ms.topic: method
 f1_keywords:
 - msctf/ITfComposition.ShiftStart
 dev_langs:

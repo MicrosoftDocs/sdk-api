@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 427190fc-f246-47c6-84e0-a28808a86b6b
 ms.date: 12/05/2018
 ms.keywords: Deactivate, Deactivate method [Text Services Framework], Deactivate method [Text Services Framework],ITfTextInputProcessor interface, ITfTextInputProcessor interface [Text Services Framework],Deactivate method, ITfTextInputProcessor.Deactivate, ITfTextInputProcessor::Deactivate, _tsf_itftextinputprocessor_deactivate_ref, msctf/ITfTextInputProcessor::Deactivate, tsf.itftextinputprocessor_deactivate
-ms.topic: method
 f1_keywords:
 - msctf/ITfTextInputProcessor.Deactivate
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: b9fdd596-8ca3-497e-8d40-6dd5ddbf0a1e
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_playCount method, IWMPSettings.put_playCount, IWMPSettings::put_playCount, IWMPSettingsput_playCount, put_playCount, put_playCount method [Windows Media Player], put_playCount method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_playcount, wmp/IWMPSettings::put_playCount
-ms.topic: method
 f1_keywords:
 - wmp/IWMPSettings.put_playCount
 dev_langs:

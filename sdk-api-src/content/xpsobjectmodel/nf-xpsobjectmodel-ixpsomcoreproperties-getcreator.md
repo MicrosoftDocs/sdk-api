@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 35d7a3ad-e1f7-49bf-ad30-d577cc9d4731
 ms.date: 12/05/2018
 ms.keywords: GetCreator, GetCreator method [XPS Documents and Packaging], GetCreator method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetCreator method, IXpsOMCoreProperties.GetCreator, IXpsOMCoreProperties::GetCreator, xps.ixpsomcoreproperties_getcreator, xpsobjectmodel/IXpsOMCoreProperties::GetCreator
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.GetCreator
 dev_langs:

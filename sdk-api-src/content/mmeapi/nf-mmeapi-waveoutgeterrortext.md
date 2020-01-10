@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 2728e30b-cf97-4320-873a-db98274f612f
 ms.date: 12/05/2018
 ms.keywords: _win32_waveOutGetErrorText, mmeapi/waveOutGetErrorText, multimedia.waveoutgeterrortext, waveOutGetErrorText, waveOutGetErrorText function [Windows Multimedia]
-ms.topic: function
 f1_keywords:
 - mmeapi/waveOutGetErrorText
 dev_langs:

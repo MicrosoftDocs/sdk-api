@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txactivate.htm
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxActivate method, ITextHost.TxActivate, ITextHost::TxActivate, TxActivate, TxActivate method [Windows Controls], TxActivate method [Windows Controls],ITextHost interface, _win32_ITextHost_TxActivate, _win32_ITextHost_TxActivate_cpp, controls.ITextHost_TxActivate, controls._win32_ITextHost_TxActivate, textserv/ITextHost::TxActivate
-ms.topic: method
 f1_keywords:
 - textserv/ITextHost.TxActivate
 dev_langs:

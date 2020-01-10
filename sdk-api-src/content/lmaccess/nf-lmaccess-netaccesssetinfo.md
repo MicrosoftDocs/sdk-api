@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 9daf70e0-2402-4823-9e17-4702bbb3aa3d
 ms.date: 12/05/2018
 ms.keywords: 1, NetAccessSetInfo, NetAccessSetInfo function [Network Management], _win32_netaccesssetinfo, lmaccess/NetAccessSetInfo, netmgmt.netaccesssetinfo
-ms.topic: function
 f1_keywords:
 - lmaccess/NetAccessSetInfo
 dev_langs:

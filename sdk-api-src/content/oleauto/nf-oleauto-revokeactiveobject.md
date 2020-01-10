@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 47e7b47b-dddc-445d-918f-02b1b6a37075
 ms.date: 12/05/2018
 ms.keywords: RevokeActiveObject, RevokeActiveObject function [Automation], _oa96_RevokeActiveObject, automat.revokeactiveobject, oleauto/RevokeActiveObject
-ms.topic: function
 f1_keywords:
 - oleauto/RevokeActiveObject
 dev_langs:

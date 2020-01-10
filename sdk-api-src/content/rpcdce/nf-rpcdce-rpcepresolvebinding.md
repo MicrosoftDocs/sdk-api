@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 839eefea-f06d-412b-9637-4af01b783121
 ms.date: 12/05/2018
 ms.keywords: RpcEpResolveBinding, RpcEpResolveBinding function [RPC], _rpc_rpcepresolvebinding, rpc.rpcepresolvebinding, rpcdce/RpcEpResolveBinding
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcEpResolveBinding
 dev_langs:

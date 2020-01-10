@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 4694BB45-4D26-4CB8-B0D3-560493D60D88
 ms.date: 12/05/2018
 ms.keywords: ID2D1OffsetTransform interface [Direct2D],SetOffset method, ID2D1OffsetTransform.SetOffset, ID2D1OffsetTransform::SetOffset, SetOffset, SetOffset method [Direct2D], SetOffset method [Direct2D],ID2D1OffsetTransform interface, d2d1effectauthor/ID2D1OffsetTransform::SetOffset, direct2d.id2d1offsettransform_setoffset
-ms.topic: method
 f1_keywords:
 - d2d1effectauthor/ID2D1OffsetTransform.SetOffset
 dev_langs:

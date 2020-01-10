@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 7bfe0c45-551f-47bb-a855-6965fed224dc
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolShadowConnection interface [Remote Desktop Services],Start method, IWTSProtocolShadowConnection.Start, IWTSProtocolShadowConnection::Start, Start, Start method [Remote Desktop Services], Start method [Remote Desktop Services],IWTSProtocolShadowConnection interface, termserv.iwtsprotocolshadowconnection_start, wtsprotocol/IWTSProtocolShadowConnection::Start
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolShadowConnection.Start
 dev_langs:

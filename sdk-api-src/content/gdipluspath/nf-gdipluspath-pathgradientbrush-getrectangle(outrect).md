@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\pathgradientbrushgetrectanglemethods\getrectangle_89rectrect.htm
 ms.date: 12/05/2018
 ms.keywords: GetRectangle, GetRectangle method [GDI+], GetRectangle method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetRectangle method, PathGradientBrush.GetRectangle, PathGradientBrush.GetRectangle(OUT Rect), PathGradientBrush.GetRectangle(Rect*), PathGradientBrush::GetRectangle, PathGradientBrush::GetRectangle(OUT Rect), _gdiplus_CLASS_PathGradientBrush_GetRectangle_Rect_rect_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetRectangle_Rect_rect_
-ms.topic: method
 f1_keywords:
 - gdipluspath/PathGradientBrush.GetRectangle
 dev_langs:

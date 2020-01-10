@@ -7,7 +7,6 @@ tech.root: Policy
 ms.assetid: 0a758da3-73a8-4d9b-8663-e6cab1a1bd3f
 ms.date: 12/05/2018
 ms.keywords: RegisterGPNotification, RegisterGPNotification function [Group Policy], _win32_registergpnotification, policy.registergpnotification, userenv/RegisterGPNotification
-ms.topic: function
 f1_keywords:
 - userenv/RegisterGPNotification
 dev_langs:

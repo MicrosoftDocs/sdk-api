@@ -7,7 +7,6 @@ tech.root: wer
 ms.assetid: 016800e8-4a03-40f6-9dba-54cd9082eb48
 ms.date: 12/05/2018
 ms.keywords: WerUnregisterMemoryBlock, WerUnregisterMemoryBlock function [Windows Error Reporting], base.werunregistermemoryblock, wer.werunregistermemoryblock, werapi/WerUnregisterMemoryBlock
-ms.topic: function
 f1_keywords:
 - werapi/WerUnregisterMemoryBlock
 dev_langs:

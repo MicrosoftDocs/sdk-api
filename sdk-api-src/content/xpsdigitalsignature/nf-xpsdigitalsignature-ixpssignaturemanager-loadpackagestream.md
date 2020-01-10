@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 755bbd41-0941-4956-a99d-45b39f9b030f
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],LoadPackageStream method, IXpsSignatureManager.LoadPackageStream, IXpsSignatureManager::LoadPackageStream, LoadPackageStream, LoadPackageStream method [XPS Documents and Packaging], LoadPackageStream method [XPS Documents and Packaging],IXpsSignatureManager interface, xps.ixpssignaturemanager_loadpackagestream, xpsdigitalsignature/IXpsSignatureManager::LoadPackageStream
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignatureManager.LoadPackageStream
 dev_langs:

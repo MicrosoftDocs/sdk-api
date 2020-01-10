@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: EF4ACEB1-E802-4337-AA76-467BCB90D7C6
 ms.date: 12/05/2018
 ms.keywords: SpatialAudioHrtfDistanceDecayType, SpatialAudioHrtfDistanceDecayType enumeration [Core Audio], SpatialAudioHrtfDistanceDecay_CustomDecay, SpatialAudioHrtfDistanceDecay_NaturalDecay, coreaudio.spatialaudiohrtfdistancedecaytype, spatialaudiohrtf/ SpatialAudioHrtfDistanceDecay_NaturalDecay, spatialaudiohrtf/SpatialAudioHrtfDistanceDecayType, spatialaudiohrtf/SpatialAudioHrtfDistanceDecay_CustomDecay
-ms.topic: enum
 f1_keywords:
 - spatialaudiohrtf/SpatialAudioHrtfDistanceDecayType
 dev_langs:

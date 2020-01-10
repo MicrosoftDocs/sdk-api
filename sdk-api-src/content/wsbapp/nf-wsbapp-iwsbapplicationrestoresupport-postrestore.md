@@ -7,7 +7,6 @@ tech.root: wsb
 ms.assetid: 8be7975e-9b94-4a6e-b1f5-794b8749ccbe
 ms.date: 12/05/2018
 ms.keywords: IWsbApplicationRestoreSupport interface [Windows Server Backup],PostRestore method, IWsbApplicationRestoreSupport.PostRestore, IWsbApplicationRestoreSupport::PostRestore, PostRestore, PostRestore method [Windows Server Backup], PostRestore method [Windows Server Backup],IWsbApplicationRestoreSupport interface, wsb.iwsbapplicationrestoresupport_postrestore, wsbapp/IWsbApplicationRestoreSupport::PostRestore
-ms.topic: method
 f1_keywords:
 - wsbapp/IWsbApplicationRestoreSupport.PostRestore
 dev_langs:

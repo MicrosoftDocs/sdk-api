@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 89e7526f-2b9b-4f37-b537-5046a0ac283d
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2, IWriteEngine2 interface [IMAPI], IWriteEngine2 interface [IMAPI],described, imapi.iwriteengine2, imapi2/IWriteEngine2
-ms.topic: interface
 f1_keywords:
 - imapi2/IWriteEngine2
 dev_langs:

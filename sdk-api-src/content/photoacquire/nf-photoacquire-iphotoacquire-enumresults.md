@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: 2f3bd36c-3daf-4738-8240-ce622d988861
 ms.date: 12/05/2018
 ms.keywords: EnumResults, EnumResults method [Picture Acquisition], EnumResults method [Picture Acquisition],IPhotoAcquire interface, IPhotoAcquire interface [Picture Acquisition],EnumResults method, IPhotoAcquire.EnumResults, IPhotoAcquire::EnumResults, IPhotoAcquireEnumResults, photoacquire/IPhotoAcquire::EnumResults, picacq.iphotoacquire_enumresults
-ms.topic: method
 f1_keywords:
 - photoacquire/IPhotoAcquire.EnumResults
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: ff0604d4-bbcd-409e-8e3d-a132218dc3a9
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferConfigure interface [Microsoft TV Technologies],SetDirectory method, IStreamBufferConfigure.SetDirectory, IStreamBufferConfigure::SetDirectory, IStreamBufferConfigureSetDirectory, SetDirectory, SetDirectory method [Microsoft TV Technologies], SetDirectory method [Microsoft TV Technologies],IStreamBufferConfigure interface, mstv.istreambufferconfigure_setdirectory, sbe/IStreamBufferConfigure::SetDirectory
-ms.topic: method
 f1_keywords:
 - sbe/IStreamBufferConfigure.SetDirectory
 dev_langs:

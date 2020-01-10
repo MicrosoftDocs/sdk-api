@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: c034ac81-43d4-482a-9dad-234d33a15046
 ms.date: 12/05/2018
 ms.keywords: OPMGetVideoOutputsFromHMONITOR, OPMGetVideoOutputsFromHMONITOR function [Media Foundation], OPM_VOS_COPP_SEMANTICS, OPM_VOS_OPM_SEMANTICS, mf.opmgetvideooutputsfromhmonitor, opmapi/OPMGetVideoOutputsFromHMONITOR
-ms.topic: function
 f1_keywords:
 - opmapi/OPMGetVideoOutputsFromHMONITOR
 dev_langs:

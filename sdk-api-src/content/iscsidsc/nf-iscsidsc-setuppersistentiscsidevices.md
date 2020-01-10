@@ -7,7 +7,6 @@ tech.root: iSCSIDisc
 ms.assetid: b21e5872-24b2-4a4c-86a7-528789c1b9aa
 ms.date: 12/05/2018
 ms.keywords: SetupPersistentIScsiDevices, SetupPersistentIscsiDevices, SetupPersistentIscsiDevices function [iSCSI Discovery Library API], iscsidisc.setuppersistentiscsidevices, iscsidsc/SetupPersistentIscsiDevices
-ms.topic: function
 f1_keywords:
 - iscsidsc/SetupPersistentIscsiDevices
 dev_langs:

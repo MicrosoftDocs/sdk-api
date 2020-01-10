@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 5b7377cf-b4a9-45c7-8456-72a52c3778a0
 ms.date: 12/05/2018
 ms.keywords: HttpFlushResponseCache, HttpFlushResponseCache function [HTTP], _http_httpflushresponsecache, http.httpflushresponsecache, http/HttpFlushResponseCache
-ms.topic: function
 f1_keywords:
 - http/HttpFlushResponseCache
 dev_langs:

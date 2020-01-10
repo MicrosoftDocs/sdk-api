@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorDivide(XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorDivide, XMVectorDivide, XMVectorDivide method [DirectX Math Support APIs], dxmath.xmvectordivide
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorDivide
 dev_langs:

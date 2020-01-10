@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontisequal.htm
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],IsEqual method, ITextFont.IsEqual, ITextFont::IsEqual, IsEqual, IsEqual method [Windows Controls], IsEqual method [Windows Controls],ITextFont interface, _win32_ITextFont_IsEqual, _win32_ITextFont_IsEqual_cpp, controls.ITextFont_IsEqual, controls._win32_ITextFont_IsEqual, tom/ITextFont::IsEqual
-ms.topic: method
 f1_keywords:
 - tom/ITextFont.IsEqual
 dev_langs:

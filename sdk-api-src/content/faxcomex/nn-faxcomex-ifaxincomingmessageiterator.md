@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9zg2_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessageIterator, IFaxIncomingMessageIterator interface [Fax Service], IFaxIncomingMessageIterator interface [Fax Service],described, _mfax_faxincomingmessageiterator_cpp, fax._mfax_faxincomingmessageiterator_cpp, faxcomex/IFaxIncomingMessageIterator
-ms.topic: interface
 f1_keywords:
 - faxcomex/IFaxIncomingMessageIterator
 dev_langs:

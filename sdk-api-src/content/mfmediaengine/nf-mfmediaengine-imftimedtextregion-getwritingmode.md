@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: BCF99D3C-554A-4788-B54B-236F463B1EAE
 ms.date: 12/05/2018
 ms.keywords: GetWritingMode, GetWritingMode method [Media Foundation], GetWritingMode method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetWritingMode method, IMFTimedTextRegion.GetWritingMode, IMFTimedTextRegion::GetWritingMode, mf.imftimedtextregion_getwritingmode, mfmediaengine/IMFTimedTextRegion::GetWritingMode
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFTimedTextRegion.GetWritingMode
 dev_langs:

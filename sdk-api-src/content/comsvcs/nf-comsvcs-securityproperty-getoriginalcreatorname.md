@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 403f0f36-f386-4eeb-905a-e04c5699db9b
 ms.date: 12/05/2018
 ms.keywords: GetOriginalCreatorName, GetOriginalCreatorName method [COM+], GetOriginalCreatorName method [COM+],SecurityProperty interface, SecurityProperty interface [COM+],GetOriginalCreatorName method, SecurityProperty.GetOriginalCreatorName, SecurityProperty::GetOriginalCreatorName, _cos_SecurityProperty_GetOriginalCreatorName, comsvcs/SecurityProperty::GetOriginalCreatorName, cos.securityproperty_getoriginalcreatorname
-ms.topic: method
 f1_keywords:
 - comsvcs/SecurityProperty.GetOriginalCreatorName
 dev_langs:

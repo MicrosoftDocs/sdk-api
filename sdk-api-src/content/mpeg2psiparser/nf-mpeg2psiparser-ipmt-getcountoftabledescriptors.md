@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: e1f91a13-afec-4703-8f1c-be64c8a8b8f9
 ms.date: 12/05/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, IPMT.GetCountOfTableDescriptors, IPMT::GetCountOfTableDescriptors, IPMTGetCountOfTableDescriptors, mpeg2psiparser/IPMT::GetCountOfTableDescriptors, mstv.ipmt_getcountoftabledescriptors
-ms.topic: method
 f1_keywords:
 - mpeg2psiparser/IPMT.GetCountOfTableDescriptors
 dev_langs:

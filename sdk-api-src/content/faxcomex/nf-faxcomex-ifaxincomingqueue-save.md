@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_2m3p.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingQueue interface [Fax Service],Save method, IFaxIncomingQueue.Save, IFaxIncomingQueue::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxIncomingQueue interface, _mfax_faxincomingqueue.save, fax._mfax_faxincomingqueue_cpp_mfax_faxincomingqueue_save_cpp, fax._mfax_faxincomingqueue_save, faxcomex/IFaxIncomingQueue::Save
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxIncomingQueue.Save
 dev_langs:

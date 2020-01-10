@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: bdf52cd6-a32d-4814-ac2f-51256dcc47cb
 ms.date: 12/05/2018
 ms.keywords: VarR8Round, VarR8Round function [Automation], _oa96_VarR8Round, automat.varr8round, oleauto/VarR8Round
-ms.topic: function
 f1_keywords:
 - oleauto/VarR8Round
 dev_langs:

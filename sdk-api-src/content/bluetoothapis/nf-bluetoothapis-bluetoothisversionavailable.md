@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: 735a4c3f-1977-4600-afb2-272de3f4e7ba
 ms.date: 12/05/2018
 ms.keywords: BluetoothIsVersionAvailable, BluetoothIsVersionAvailable function [Bluetooth], bluetooth.bluetoothisversionavailable, bluetoothapis/BluetoothIsVersionAvailable
-ms.topic: function
 f1_keywords:
 - bluetoothapis/BluetoothIsVersionAvailable
 dev_langs:

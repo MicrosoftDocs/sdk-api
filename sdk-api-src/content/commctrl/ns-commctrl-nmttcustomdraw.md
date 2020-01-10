@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\nmttcustomdraw.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMTTCUSTOMDRAW, LPNMTTCUSTOMDRAW, LPNMTTCUSTOMDRAW structure pointer [Windows Controls], NMTTCUSTOMDRAW, NMTTCUSTOMDRAW structure [Windows Controls], _win32_NMTTCUSTOMDRAW, _win32_NMTTCUSTOMDRAW_cpp, commctrl/LPNMTTCUSTOMDRAW, commctrl/NMTTCUSTOMDRAW, controls.NMTTCUSTOMDRAW, controls._win32_NMTTCUSTOMDRAW'
-ms.topic: struct
 f1_keywords:
 - commctrl/NMTTCUSTOMDRAW
 dev_langs:

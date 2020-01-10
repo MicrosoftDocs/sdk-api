@@ -7,7 +7,6 @@ tech.root: Dlls
 ms.assetid: 43690689-4372-48ae-ac6d-230250f05f7c
 ms.date: 12/05/2018
 ms.keywords: QueryOptionalDelayLoadedAPI, QueryOptionalDelayLoadedAPI function, base.queryoptionaldelayloadedapi, libloaderapi2/QueryOptionalDelayLoadedAPI
-ms.topic: function
 f1_keywords:
 - libloaderapi2/QueryOptionalDelayLoadedAPI
 dev_langs:

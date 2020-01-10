@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: d49a155a-a71b-4038-86a8-eb398db64e72
 ms.date: 12/05/2018
 ms.keywords: WSDXML_PREFIX_MAPPING, WSDXML_PREFIX_MAPPING structure, _WSDXML_PREFIX_MAPPING, ncd.wsdxml_prefix_mapping_struct, wsdxmldom/WSDXML_PREFIX_MAPPING
-ms.topic: struct
 f1_keywords:
 - wsdxmldom/WSDXML_PREFIX_MAPPING
 dev_langs:

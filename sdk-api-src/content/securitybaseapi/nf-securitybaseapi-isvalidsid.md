@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 0fb08512-90a1-4a5c-9b4c-121bf7701bba
 ms.date: 12/05/2018
 ms.keywords: IsValidSid, IsValidSid function [Security], _win32_isvalidsid, security.isvalidsid, securitybaseapi/IsValidSid
-ms.topic: function
 f1_keywords:
 - securitybaseapi/IsValidSid
 dev_langs:

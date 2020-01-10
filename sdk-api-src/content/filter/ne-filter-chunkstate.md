@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_6mat.htm
 ms.date: 12/05/2018
 ms.keywords: CHUNKSTATE, CHUNKSTATE enumeration [Indexing Service], CHUNK_FILTER_OWNED_VALUE, CHUNK_TEXT, CHUNK_VALUE, _idxs_CHUNKSTATE, filter/CHUNKSTATE, filter/CHUNK_FILTER_OWNED_VALUE, filter/CHUNK_TEXT, filter/CHUNK_VALUE, indexsrv.chunkstate, tagCHUNKSTATE
-ms.topic: enum
 f1_keywords:
 - filter/CHUNKSTATE
 dev_langs:

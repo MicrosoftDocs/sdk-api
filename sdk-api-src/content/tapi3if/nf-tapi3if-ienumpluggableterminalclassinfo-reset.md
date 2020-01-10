@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 075faaed-4678-4676-8780-e5b595541488
 ms.date: 12/05/2018
 ms.keywords: IEnumPluggableTerminalClassInfo interface [TAPI 2.2],Reset method, IEnumPluggableTerminalClassInfo.Reset, IEnumPluggableTerminalClassInfo::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumPluggableTerminalClassInfo interface, _tapi3_ienumpluggableterminalclassinfo_reset, tapi3.ienumpluggableterminalclassinfo_reset, tapi3if/IEnumPluggableTerminalClassInfo::Reset
-ms.topic: method
 f1_keywords:
 - tapi3if/IEnumPluggableTerminalClassInfo.Reset
 dev_langs:

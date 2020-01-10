@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 4be9191a-8f87-4571-a7b6-60d582ec471d
 ms.date: 12/05/2018
 ms.keywords: IBurnVerification interface [IMAPI],get_BurnVerificationLevel method, IBurnVerification.get_BurnVerificationLevel, IBurnVerification::get_BurnVerificationLevel, get_BurnVerificationLevel, get_BurnVerificationLevel method [IMAPI], get_BurnVerificationLevel method [IMAPI],IBurnVerification interface, imapi.iburnverification_get_burnverificationlevel, imapi2/IBurnVerification::get_BurnVerificationLevel
-ms.topic: method
 f1_keywords:
 - imapi2/IBurnVerification.get_BurnVerificationLevel
 dev_langs:

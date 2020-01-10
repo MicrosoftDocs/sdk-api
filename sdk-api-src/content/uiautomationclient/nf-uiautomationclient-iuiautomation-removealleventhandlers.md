@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 3bf6d15a-2aaf-4f94-a852-f9cbd25cd496
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],RemoveAllEventHandlers method, IUIAutomation.RemoveAllEventHandlers, IUIAutomation::RemoveAllEventHandlers, RemoveAllEventHandlers, RemoveAllEventHandlers method [Windows Accessibility], RemoveAllEventHandlers method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_RemoveAllEventHandlers, uiauto_IUIAutomation_RemoveAllEventHandlers, uiautomationclient/IUIAutomation::RemoveAllEventHandlers, winauto.uiauto_IUIAutomation_RemoveAllEventHandlers
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomation.RemoveAllEventHandlers
 dev_langs:

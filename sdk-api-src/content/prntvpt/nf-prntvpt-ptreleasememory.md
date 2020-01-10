@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: d568b3a9-7f13-4e4e-8bbc-f4ab0009fe83
 ms.date: 12/05/2018
 ms.keywords: PTReleaseMemory, PTReleaseMemory function [Windows GDI], _win32_PTReleaseMemory, gdi.ptreleasememory, prntvpt/PTReleaseMemory
-ms.topic: function
 f1_keywords:
 - prntvpt/PTReleaseMemory
 dev_langs:

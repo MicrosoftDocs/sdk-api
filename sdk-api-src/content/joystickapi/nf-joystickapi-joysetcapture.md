@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: d4511c2c-54b3-48f5-aa30-e198292a4728
 ms.date: 12/05/2018
 ms.keywords: _win32_joySetCapture, joySetCapture, joySetCapture function [Windows Multimedia], joystickapi/joySetCapture, multimedia.joysetcapture
-ms.topic: function
 f1_keywords:
 - joystickapi/joySetCapture
 dev_langs:

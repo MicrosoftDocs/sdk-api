@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 323dc627-3867-4170-b278-0bce46077729
 ms.date: 12/05/2018
 ms.keywords: ICallFactory, ICallFactory interface [COM], ICallFactory interface [COM],described, _com_icallfactory, com.icallfactory, objidlbase/ICallFactory
-ms.topic: interface
 f1_keywords:
 - objidl/ICallFactory
 dev_langs:

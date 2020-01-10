@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: 8d5e487f-d2d4-4603-918c-e751d698be3c
 ms.date: 12/05/2018
 ms.keywords: IUPnPServices, IUPnPServices interface [UPnP APIs], IUPnPServices interface [UPnP APIs],described, _upnp_iupnpservices, upnp.iupnpservices, upnp/IUPnPServices
-ms.topic: interface
 f1_keywords:
 - upnp/IUPnPServices
 dev_langs:

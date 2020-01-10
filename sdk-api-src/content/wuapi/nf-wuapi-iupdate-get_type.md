@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 2556ee19-b6ff-4e66-9e40-2c0a1d6a0176
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],Type property, IUpdate.Type, IUpdate.get_Type, IUpdate::Type, IUpdate::get_Type, Type property [Windows Update Agent], Type property [Windows Update Agent],IUpdate interface, get_Type, wua.iupdate_type, wuapi/IUpdate::Type, wuapi/IUpdate::get_Type
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdate.Type
 dev_langs:

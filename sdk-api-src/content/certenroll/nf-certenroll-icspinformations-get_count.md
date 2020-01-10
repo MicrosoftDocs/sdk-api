@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 7221e564-07c4-47ab-bb32-c1e94406eab9
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],ICspInformations interface, ICspInformations interface [Security],Count property, ICspInformations.Count, ICspInformations.get_Count, ICspInformations::Count, ICspInformations::get_Count, certenroll/ICspInformations::Count, certenroll/ICspInformations::get_Count, get_Count, security.icspinformations_count_property
-ms.topic: method
 f1_keywords:
 - certenroll/ICspInformations.Count
 dev_langs:

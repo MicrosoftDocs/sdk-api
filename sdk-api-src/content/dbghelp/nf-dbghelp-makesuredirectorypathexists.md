@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 2be9a53a-306a-4b89-a813-0491e8a6e794
 ms.date: 12/05/2018
 ms.keywords: MakeSureDirectoryPathExists, MakeSureDirectoryPathExists function, _win32_makesuredirectorypathexists, base.makesuredirectorypathexists, dbghelp/MakeSureDirectoryPathExists
-ms.topic: function
 f1_keywords:
 - dbghelp/MakeSureDirectoryPathExists
 dev_langs:

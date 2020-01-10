@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: a0edc656-0628-4020-bf8e-a5cd0bedd7c3
 ms.date: 12/05/2018
 ms.keywords: GetPriority, GetPriority method [Microsoft TV Technologies], GetPriority method [Microsoft TV Technologies],IESRequestTunerEvent interface, IESRequestTunerEvent interface [Microsoft TV Technologies],GetPriority method, IESRequestTunerEvent.GetPriority, IESRequestTunerEvent::GetPriority, mstv.iesrequesttunerevent_getpriority, tuner/IESRequestTunerEvent::GetPriority
-ms.topic: method
 f1_keywords:
 - tuner/IESRequestTunerEvent.GetPriority
 dev_langs:

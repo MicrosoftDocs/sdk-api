@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 141b33e8-5cb5-46a8-b91e-01bd9c634cbf
 ms.date: 12/05/2018
 ms.keywords: GetTotalFree, GetTotalFree method [windows Media Device Manager], GetTotalFree method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetTotalFree method, IMDSPStorageGlobals.GetTotalFree, IMDSPStorageGlobals::GetTotalFree, IMDSPStorageGlobalsGetTotalFree, mswmdm/IMDSPStorageGlobals::GetTotalFree, wmdm.imdspstorageglobals_gettotalfree
-ms.topic: method
 f1_keywords:
 - mswmdm/IMDSPStorageGlobals.GetTotalFree
 dev_langs:

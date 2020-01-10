@@ -7,7 +7,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectevents\dirtyregion.htm
 ms.date: 12/05/2018
 ms.keywords: DirtyRegion, DirtyRegion method [WPF Bitmap Effects], DirtyRegion method [WPF Bitmap Effects],IMILBitmapEffectEvents interface, IMILBitmapEffectEvents interface [WPF Bitmap Effects],DirtyRegion method, IMILBitmapEffectEvents.DirtyRegion, IMILBitmapEffectEvents::DirtyRegion, _wibe_imilbitmapeffectevents_dirtyregion, mileffects/IMILBitmapEffectEvents::DirtyRegion, wibe._wibe_imilbitmapeffectevents_dirtyregion
-ms.topic: method
 f1_keywords:
 - mileffects/IMILBitmapEffectEvents.DirtyRegion
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: aca304f6-cf7c-43ea-8ebe-d3bb46f8a2fd
 ms.date: 12/05/2018
 ms.keywords: MFBeginCreateFile, MFBeginCreateFile function [Media Foundation], aca304f6-cf7c-43ea-8ebe-d3bb46f8a2fd, mf.mfbegincreatefile, mfapi/MFBeginCreateFile
-ms.topic: function
 f1_keywords:
 - mfapi/MFBeginCreateFile
 dev_langs:

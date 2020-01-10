@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: A9E61E17-F1FE-4BF1-8A4A-F73B23FEDD08
 ms.date: 12/05/2018
 ms.keywords: BindResourceAsUnorderedAccessView, BindResourceAsUnorderedAccessView method [Direct3D 11], BindResourceAsUnorderedAccessView method [Direct3D 11],ID3D11ModuleInstance interface, ID3D11ModuleInstance interface [Direct3D 11],BindResourceAsUnorderedAccessView method, ID3D11ModuleInstance.BindResourceAsUnorderedAccessView, ID3D11ModuleInstance::BindResourceAsUnorderedAccessView, d3d11shader/ID3D11ModuleInstance::BindResourceAsUnorderedAccessView, direct3d11.id3d11moduleinstance_bindresourceasunorderedaccessview
-ms.topic: method
 f1_keywords:
 - d3d11shader/ID3D11ModuleInstance.BindResourceAsUnorderedAccessView
 dev_langs:

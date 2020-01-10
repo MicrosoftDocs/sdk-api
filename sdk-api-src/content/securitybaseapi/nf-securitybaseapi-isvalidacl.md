@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 3ae9f147-4e90-44df-a1af-cf6ebad92aea
 ms.date: 12/05/2018
 ms.keywords: IsValidAcl, IsValidAcl function [Security], _win32_isvalidacl, security.isvalidacl, securitybaseapi/IsValidAcl
-ms.topic: function
 f1_keywords:
 - securitybaseapi/IsValidAcl
 dev_langs:

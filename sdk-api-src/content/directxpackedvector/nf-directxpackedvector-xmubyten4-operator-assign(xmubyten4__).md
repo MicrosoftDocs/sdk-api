@@ -5,7 +5,6 @@ description: Assigns the vector component data from one instance of XMUBYTEN4 to
 ms.assetid: 6095451c-bc47-4d4f-890e-9fd752e29515
 ms.date: 05/20/2019
 ms.keywords: XMUBYTEN4::operator=
-ms.topic: language-reference
 f1_keywords:
 - directxpackedvector/XMUBYTEN4::operator=
 dev_langs:

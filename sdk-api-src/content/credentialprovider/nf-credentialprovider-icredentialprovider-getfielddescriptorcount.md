@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: dacaa846-1838-4348-ba63-c204cbe0e2ae
 ms.date: 12/05/2018
 ms.keywords: GetFieldDescriptorCount, GetFieldDescriptorCount method [Windows Shell], GetFieldDescriptorCount method [Windows Shell],ICredentialProvider interface, ICredentialProvider interface [Windows Shell],GetFieldDescriptorCount method, ICredentialProvider.GetFieldDescriptorCount, ICredentialProvider::GetFieldDescriptorCount, credentialprovider/ICredentialProvider::GetFieldDescriptorCount, shell.ICredentialProvider_GetFieldDescriptorCount, shell_ICredentialProvider_GetFieldDescriptorCount
-ms.topic: method
 f1_keywords:
 - credentialprovider/ICredentialProvider.GetFieldDescriptorCount
 dev_langs:

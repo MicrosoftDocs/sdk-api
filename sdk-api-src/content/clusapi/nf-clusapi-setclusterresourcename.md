@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 8525a0b4-d37e-4ed3-8914-2c427978de6c
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_RESOURCE_NAME, PCLUSAPI_SET_CLUSTER_RESOURCE_NAME function [Failover Cluster], SetClusterResourceName, SetClusterResourceName function [Failover Cluster], _wolf_setclusterresourcename, clusapi/PCLUSAPI_SET_CLUSTER_RESOURCE_NAME, clusapi/SetClusterResourceName, mscs.setclusterresourcename
-ms.topic: function
 f1_keywords:
 - clusapi/SetClusterResourceName
 dev_langs:

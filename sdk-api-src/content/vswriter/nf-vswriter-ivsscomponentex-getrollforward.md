@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 4ba52c80-2229-4653-bd5b-85d9f11cd127
 ms.date: 12/05/2018
 ms.keywords: GetRollForward, GetRollForward method, GetRollForward method,IVssComponentEx interface, IVssComponentEx interface,GetRollForward method, IVssComponentEx.GetRollForward, IVssComponentEx::GetRollForward, base.ivsscomponentex_getrollforward, vswriter/IVssComponentEx::GetRollForward
-ms.topic: method
 f1_keywords:
 - vswriter/IVssComponentEx.GetRollForward
 dev_langs:

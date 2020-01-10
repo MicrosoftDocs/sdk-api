@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 47012868-4c9e-4974-8549-11331836bed0
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSource2, IMSVidStreamBufferSource2 interface [Microsoft TV Technologies], IMSVidStreamBufferSource2 interface [Microsoft TV Technologies],described, IMSVidStreamBufferSource2Interface, mstv.imsvidstreambuffersource2, segment/IMSVidStreamBufferSource2
-ms.topic: interface
 f1_keywords:
 - segment/IMSVidStreamBufferSource2
 dev_langs:

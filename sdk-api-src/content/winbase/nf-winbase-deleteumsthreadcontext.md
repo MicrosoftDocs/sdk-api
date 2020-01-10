@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: cdd118fc-f664-44ce-958d-857216ceb9a7
 ms.date: 12/05/2018
 ms.keywords: DeleteUmsThreadContext, DeleteUmsThreadContext function, base.deleteumsthreadcontext, winbase/DeleteUmsThreadContext
-ms.topic: function
 f1_keywords:
 - winbase/DeleteUmsThreadContext
 dev_langs:

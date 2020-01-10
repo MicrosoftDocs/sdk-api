@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 1fa98b79-e646-4e48-9979-1817d2c1b713
 ms.date: 12/05/2018
 ms.keywords: CreateThreadpoolTimer, CreateThreadpoolTimer function, base.createthreadpooltimer, threadpoolapiset/CreateThreadpoolTimer, winbase/CreateThreadpoolTimer
-ms.topic: function
 f1_keywords:
 - threadpoolapiset/CreateThreadpoolTimer
 dev_langs:

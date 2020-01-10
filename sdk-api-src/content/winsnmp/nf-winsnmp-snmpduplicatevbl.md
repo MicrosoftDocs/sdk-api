@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: b6ca0167-43d7-4a85-b3ba-c2683ae27ff5
 ms.date: 12/05/2018
 ms.keywords: SnmpDuplicateVbl, SnmpDuplicateVbl function [SNMP], _snmp_snmpduplicatevbl, snmp.snmpduplicatevbl, winsnmp/SnmpDuplicateVbl
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpDuplicateVbl
 dev_langs:

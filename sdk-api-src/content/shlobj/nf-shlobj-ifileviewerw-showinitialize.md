@@ -6,7 +6,6 @@ tech.root: shell
 ms.assetid: 28f7deb9-09aa-4041-ac6a-3956fdc59191
 ms.date: 01/30/19
 ms.keywords: IFileViewerW::ShowInitialize
-ms.topic: language-reference
 f1_keywords:
 - shlobj/IFileViewerW::ShowInitialize
 dev_langs:

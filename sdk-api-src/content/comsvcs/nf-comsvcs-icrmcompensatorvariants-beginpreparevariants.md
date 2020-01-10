@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: f0cbfc39-2a29-4b1f-8d6e-87d0b1c68582
 ms.date: 12/05/2018
 ms.keywords: BeginPrepareVariants, BeginPrepareVariants method [COM+], BeginPrepareVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],BeginPrepareVariants method, ICrmCompensatorVariants.BeginPrepareVariants, ICrmCompensatorVariants::BeginPrepareVariants, _dtc_ICrmCompensatorVariants_BeginPrepareVariants, comsvcs/ICrmCompensatorVariants::BeginPrepareVariants, cos.icrmcompensatorvariants_beginpreparevariants
-ms.topic: method
 f1_keywords:
 - comsvcs/ICrmCompensatorVariants.BeginPrepareVariants
 dev_langs:

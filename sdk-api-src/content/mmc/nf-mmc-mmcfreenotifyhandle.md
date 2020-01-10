@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 92802835-4324-4678-be9c-51dc9ca27576
 ms.date: 12/05/2018
 ms.keywords: MMCFreeNotifyHandle, MMCFreeNotifyHandle callback, MMCFreeNotifyHandle callback function [MMC], _slate_mmcfreenotifyhandle, mmc.mmcfreenotifyhandle, mmc/MMCFreeNotifyHandle
-ms.topic: function
 f1_keywords:
 - mmc/MMCFreeNotifyHandle
 dev_langs:

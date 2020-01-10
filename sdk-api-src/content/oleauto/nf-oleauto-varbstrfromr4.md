@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 368f691b-1f9c-4271-a76b-cd07d05cda23
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarBstrFromR4, VarBstrFromR4 function [Automation], _oa96_VarBstrFromR4, automat.varbstrfromr4, oleauto/VarBstrFromR4
-ms.topic: function
 f1_keywords:
 - oleauto/VarBstrFromR4
 dev_langs:

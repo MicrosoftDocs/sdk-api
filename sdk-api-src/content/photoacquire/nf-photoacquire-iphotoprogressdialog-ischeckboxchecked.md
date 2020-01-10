@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: 05810577-c23a-4f75-9cd5-0b5b6be7d181
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],IsCheckboxChecked method, IPhotoProgressDialog.IsCheckboxChecked, IPhotoProgressDialog::IsCheckboxChecked, IPhotoProgressDialogIsCheckboxChecked, IsCheckboxChecked, IsCheckboxChecked method [Picture Acquisition], IsCheckboxChecked method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::IsCheckboxChecked, picacq.iphotoprogressdialog_ischeckboxchecked
-ms.topic: method
 f1_keywords:
 - photoacquire/IPhotoProgressDialog.IsCheckboxChecked
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 9F20AE4A-F693-4DDA-90F4-FCCA5291208B
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboard2 interface [Windows Animation],Schedule method, IUIAnimationStoryboard2.Schedule, IUIAnimationStoryboard2::Schedule, Schedule, Schedule method [Windows Animation], Schedule method [Windows Animation],IUIAnimationStoryboard2 interface, uianimation.iuianimationstoryboard2_schedule, uianimation/IUIAnimationStoryboard2::Schedule
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationStoryboard2.Schedule
 dev_langs:

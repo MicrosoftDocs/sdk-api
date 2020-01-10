@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 683054fd-7ee3-4c90-a5cd-234e7d60349d
 ms.date: 12/05/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagSkipCACheck method, IWSManEx.SessionFlagSkipCACheck, IWSManEx::SessionFlagSkipCACheck, SessionFlagSkipCACheck, SessionFlagSkipCACheck method [Windows Remote Management], SessionFlagSkipCACheck method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagskipcacheck, wsmandisp/IWSManEx::SessionFlagSkipCACheck
-ms.topic: method
 f1_keywords:
 - wsmandisp/IWSManEx.SessionFlagSkipCACheck
 dev_langs:

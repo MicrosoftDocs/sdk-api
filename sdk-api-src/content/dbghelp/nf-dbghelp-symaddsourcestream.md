@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 1f85a5d3-70dc-430f-9a54-7cc08484ca93
 ms.date: 12/05/2018
 ms.keywords: SymAddSourceStream, SymAddSourceStream function, SymAddSourceStreamW, base.symaddsourcestream, dbghelp/SymAddSourceStream, dbghelp/SymAddSourceStreamW
-ms.topic: function
 f1_keywords:
 - dbghelp/SymAddSourceStream
 dev_langs:

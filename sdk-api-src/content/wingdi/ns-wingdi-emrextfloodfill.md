@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 93c80ea4-42f3-4c0a-8f72-76d2a6634e15
 ms.date: 12/05/2018
 ms.keywords: '*PEMREXTFLOODFILL, EMREXTFLOODFILL, EMREXTFLOODFILL structure [Windows GDI], PEMREXTFLOODFILL, PEMREXTFLOODFILL structure pointer [Windows GDI], _win32_EMREXTFLOODFILL_str, gdi.emrextfloodfill, wingdi/EMREXTFLOODFILL, wingdi/PEMREXTFLOODFILL'
-ms.topic: struct
 f1_keywords:
 - wingdi/EMREXTFLOODFILL
 dev_langs:

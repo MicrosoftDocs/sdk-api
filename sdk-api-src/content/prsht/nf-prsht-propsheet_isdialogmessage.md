@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_isdialogmessage.htm
 ms.date: 12/05/2018
 ms.keywords: PropSheet_IsDialogMessage, PropSheet_IsDialogMessage macro [Windows Controls], _win32_PropSheet_IsDialogMessage, _win32_PropSheet_IsDialogMessage_cpp, controls.PropSheet_IsDialogMessage, controls._win32_PropSheet_IsDialogMessage, prsht/PropSheet_IsDialogMessage
-ms.topic: macro
 f1_keywords:
 - prsht/PropSheet_IsDialogMessage
 dev_langs:

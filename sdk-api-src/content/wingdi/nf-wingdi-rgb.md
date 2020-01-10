@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: e1dcb5f8-c026-4a4e-8541-928a057bf0ae
 ms.date: 12/05/2018
 ms.keywords: RGB, RGB macro [Windows GDI], _win32_RGB, gdi.rgb, wingdi/RGB
-ms.topic: macro
 f1_keywords:
 - wingdi/RGB
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: ced06ffd-668f-4d2b-b727-b705ad6a3149
 ms.date: 12/05/2018
 ms.keywords: FwpmFilterEnum0, FwpmFilterEnum0 function [Filtering], fwp.fwpmfilterenum0_func, fwpmu/FwpmFilterEnum0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmFilterEnum0
 dev_langs:

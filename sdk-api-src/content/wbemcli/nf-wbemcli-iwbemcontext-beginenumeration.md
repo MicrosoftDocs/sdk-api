@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 34106c63-3b50-4078-babf-12173bd702ba
 ms.date: 12/05/2018
 ms.keywords: BeginEnumeration, BeginEnumeration method [Windows Management Instrumentation], BeginEnumeration method [Windows Management Instrumentation],IWbemContext interface, IWbemContext interface [Windows Management Instrumentation],BeginEnumeration method, IWbemContext.BeginEnumeration, IWbemContext::BeginEnumeration, _hmm_iwbemcontext_beginenumeration, wbemcli/IWbemContext::BeginEnumeration, wmi.iwbemcontext_beginenumeration
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemContext.BeginEnumeration
 dev_langs:

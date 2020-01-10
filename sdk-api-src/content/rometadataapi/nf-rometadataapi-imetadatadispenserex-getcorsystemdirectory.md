@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 4f061c7f-bcb8-4b1e-b84b-0398f08a6d69
 ms.date: 12/05/2018
 ms.keywords: GetCORSystemDirectory, GetCORSystemDirectory method [Windows Runtime], GetCORSystemDirectory method [Windows Runtime],IMetaDataDispenserEx interface, IMetaDataDispenserEx interface [Windows Runtime],GetCORSystemDirectory method, IMetaDataDispenserEx.GetCORSystemDirectory, IMetaDataDispenserEx::GetCORSystemDirectory, rometadataapi/IMetaDataDispenserEx::GetCORSystemDirectory, winrt.imetadatadispenserex_getcorsystemdirectory
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataDispenserEx.GetCORSystemDirectory
 dev_langs:

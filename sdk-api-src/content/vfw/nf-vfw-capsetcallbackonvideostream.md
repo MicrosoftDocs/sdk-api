@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: c2e783a5-829b-4fa2-995a-c0cb4e63645b
 ms.date: 12/05/2018
 ms.keywords: _win32_capSetCallbackOnVideoStream, capSetCallbackOnVideoStream, capSetCallbackOnVideoStream macro [Windows Multimedia], multimedia.capsetcallbackonvideostream, vfw/capSetCallbackOnVideoStream
-ms.topic: macro
 f1_keywords:
 - vfw/capSetCallbackOnVideoStream
 dev_langs:

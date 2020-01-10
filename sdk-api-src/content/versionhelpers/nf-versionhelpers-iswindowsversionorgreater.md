@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: B28DFEC0-A94E-49F6-9DF0-4EE470EC4AF5
 ms.date: 12/05/2018
 ms.keywords: IsWindowsVersionOrGreater, IsWindowsVersionOrGreater function, base.iswindowsversionorgreater, versionhelpers/IsWindowsVersionOrGreater
-ms.topic: function
 f1_keywords:
 - versionhelpers/IsWindowsVersionOrGreater
 dev_langs:

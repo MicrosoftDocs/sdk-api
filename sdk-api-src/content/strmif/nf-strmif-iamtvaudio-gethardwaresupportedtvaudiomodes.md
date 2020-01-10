@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 2c67abc9-2419-473b-a2e6-4fc7df50752c
 ms.date: 12/05/2018
 ms.keywords: GetHardwareSupportedTVAudioModes, GetHardwareSupportedTVAudioModes method [DirectShow], GetHardwareSupportedTVAudioModes method [DirectShow],IAMTVAudio interface, IAMTVAudio interface [DirectShow],GetHardwareSupportedTVAudioModes method, IAMTVAudio.GetHardwareSupportedTVAudioModes, IAMTVAudio::GetHardwareSupportedTVAudioModes, IAMTVAudioGetHardwareSupportedTVAudioModes, dshow.iamtvaudio_gethardwaresupportedtvaudiomodes, strmif/IAMTVAudio::GetHardwareSupportedTVAudioModes
-ms.topic: method
 f1_keywords:
 - strmif/IAMTVAudio.GetHardwareSupportedTVAudioModes
 dev_langs:

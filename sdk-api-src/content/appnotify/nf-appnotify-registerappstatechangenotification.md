@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: EE55F783-BF18-49F0-934E-67A252138565
 ms.date: 12/05/2018
 ms.keywords: RegisterAppStateChangeNotification, RegisterAppStateChangeNotification function [Windows Shell], appnotify/RegisterAppStateChangeNotification, shell.RegisterAppStateChangeNotification
-ms.topic: function
 f1_keywords:
 - appnotify/RegisterAppStateChangeNotification
 dev_langs:

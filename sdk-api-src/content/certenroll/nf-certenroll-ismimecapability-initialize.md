@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: d972121d-ecfa-4a79-9322-dd0d0b81ba68
 ms.date: 12/05/2018
 ms.keywords: ISmimeCapability interface [Security],Initialize method, ISmimeCapability.Initialize, ISmimeCapability::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ISmimeCapability interface, certenroll/ISmimeCapability::Initialize, security.ismimecapability_initialize_method
-ms.topic: method
 f1_keywords:
 - certenroll/ISmimeCapability.Initialize
 dev_langs:

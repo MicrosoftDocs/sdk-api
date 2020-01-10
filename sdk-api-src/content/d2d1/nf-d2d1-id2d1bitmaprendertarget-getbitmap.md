@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 173a3e2d-82b8-4c33-9a74-1bbf755bbf65
 ms.date: 12/05/2018
 ms.keywords: GetBitmap, GetBitmap method [Direct2D], GetBitmap method [Direct2D],ID2D1BitmapRenderTarget interface, ID2D1BitmapRenderTarget interface [Direct2D],GetBitmap method, ID2D1BitmapRenderTarget.GetBitmap, ID2D1BitmapRenderTarget::GetBitmap, d2d1/ID2D1BitmapRenderTarget::GetBitmap, direct2d.ID2D1BitmapRenderTarget_GetBitmap
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1BitmapRenderTarget.GetBitmap
 dev_langs:

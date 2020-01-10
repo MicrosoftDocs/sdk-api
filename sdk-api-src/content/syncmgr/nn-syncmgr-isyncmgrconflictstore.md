@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 25f47c73-eb9f-4beb-aa10-4f12b38d6507
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrConflictStore, ISyncMgrConflictStore interface [Windows Shell], ISyncMgrConflictStore interface [Windows Shell],described, _shell_ISyncMgrConflictStore, shell.ISyncMgrConflictStore, syncmgr/ISyncMgrConflictStore
-ms.topic: interface
 f1_keywords:
 - syncmgr/ISyncMgrConflictStore
 dev_langs:

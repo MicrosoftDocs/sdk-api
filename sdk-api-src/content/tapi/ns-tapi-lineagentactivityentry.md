@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: e4f869a9-608c-4119-863b-b29e8b0d9680
 ms.date: 12/05/2018
 ms.keywords: '*LPLINEAGENTACTIVITYENTRY, LINEAGENTACTIVITYENTRY, LINEAGENTACTIVITYENTRY structure [TAPI 2.2], LPLINEAGENTACTIVITYENTRY, LPLINEAGENTACTIVITYENTRY structure pointer [TAPI 2.2], _tapi2_lineagentactivityentry_str, tapi/LINEAGENTACTIVITYENTRY, tapi/LPLINEAGENTACTIVITYENTRY, tapi2.lineagentactivityentry_str'
-ms.topic: struct
 f1_keywords:
 - tapi/LINEAGENTACTIVITYENTRY
 dev_langs:

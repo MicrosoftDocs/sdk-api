@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d3ce6a05-b1e5-4d99-a27e-3a97a28ed8e8
 ms.date: 12/05/2018
 ms.keywords: IPersistSerializedPropStorage, IPersistSerializedPropStorage interface [Windows Shell], IPersistSerializedPropStorage interface [Windows Shell],described, _shell_IPersistSerializedPropStorage, propsys/IPersistSerializedPropStorage, shell.IPersistSerializedPropStorage
-ms.topic: interface
 f1_keywords:
 - propsys/IPersistSerializedPropStorage
 dev_langs:

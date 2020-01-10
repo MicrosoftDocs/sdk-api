@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d565b493-0ee6-4a10-9af3-ff9d9ba48ba8
 ms.date: 12/05/2018
 ms.keywords: IMemoryData interface [DirectShow],SetBuffer method, IMemoryData.SetBuffer, IMemoryData::SetBuffer, IMemoryDataSetBuffer, SetBuffer, SetBuffer method [DirectShow], SetBuffer method [DirectShow],IMemoryData interface, austream/IMemoryData::SetBuffer, dshow.imemorydata_setbuffer
-ms.topic: method
 f1_keywords:
 - austream/IMemoryData.SetBuffer
 dev_langs:

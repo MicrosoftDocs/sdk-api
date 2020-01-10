@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 80e3bb55-b467-4fa4-bb3e-70233e5b0265
 ms.date: 12/05/2018
 ms.keywords: IEnumSingleItemExceptions interface [Windows Sync],Skip method, IEnumSingleItemExceptions.Skip, IEnumSingleItemExceptions::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumSingleItemExceptions interface, winsync.ienumsingleitemexceptions_skip, winsync/IEnumSingleItemExceptions::Skip
-ms.topic: method
 f1_keywords:
 - winsync/IEnumSingleItemExceptions.Skip
 dev_langs:

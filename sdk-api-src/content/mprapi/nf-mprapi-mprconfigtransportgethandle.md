@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 2d3a2300-de10-4ee0-ba0e-bda26cf9a910
 ms.date: 12/05/2018
 ms.keywords: MprConfigTransportGetHandle, MprConfigTransportGetHandle function [RAS], _mpr_mprconfigtransportgethandle, mprapi/MprConfigTransportGetHandle, rras.mprconfigtransportgethandle
-ms.topic: function
 f1_keywords:
 - mprapi/MprConfigTransportGetHandle
 dev_langs:

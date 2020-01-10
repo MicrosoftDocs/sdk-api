@@ -7,7 +7,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\setkeyboardstate.htm
 ms.date: 12/05/2018
 ms.keywords: SetKeyboardState, SetKeyboardState function [Keyboard and Mouse Input], _win32_SetKeyboardState, _win32_setkeyboardstate_cpp, inputdev.setkeyboardstate, winui._win32_setkeyboardstate, winuser/SetKeyboardState
-ms.topic: function
 f1_keywords:
 - winuser/SetKeyboardState
 dev_langs:

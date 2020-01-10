@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\selectdevicedlgid.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaDevMgr interface [WIA],SelectDeviceDlgID method, IWiaDevMgr.SelectDeviceDlgID, IWiaDevMgr::SelectDeviceDlgID, SelectDeviceDlgID, SelectDeviceDlgID method [WIA], SelectDeviceDlgID method [WIA],IWiaDevMgr interface, _wia_IWiaDevMgr_SelectDeviceDlgID, wia._wia_IWiaDevMgr_SelectDeviceDlgID, wia_xp/IWiaDevMgr::SelectDeviceDlgID
-ms.topic: method
 f1_keywords:
 - wia_xp/IWiaDevMgr.SelectDeviceDlgID
 dev_langs:

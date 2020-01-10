@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: a230063a-2b4a-4ed3-8624-4859a17f8ccc
 ms.date: 12/05/2018
 ms.keywords: SetupTerminateFileLog, SetupTerminateFileLog function [Setup API], _setupapi_setupterminatefilelog, setup.setupterminatefilelog, setupapi/SetupTerminateFileLog
-ms.topic: function
 f1_keywords:
 - setupapi/SetupTerminateFileLog
 dev_langs:

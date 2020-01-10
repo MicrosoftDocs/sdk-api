@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: acefa476-e607-45b4-854d-840e948af029
 ms.date: 12/05/2018
 ms.keywords: CreateSharedSample, CreateSharedSample method [DirectShow], CreateSharedSample method [DirectShow],IMediaStream interface, IMediaStream interface [DirectShow],CreateSharedSample method, IMediaStream.CreateSharedSample, IMediaStream::CreateSharedSample, IMediaStreamCreateSharedSample, dshow.imediastream_createsharedsample, mmstream/IMediaStream::CreateSharedSample
-ms.topic: method
 f1_keywords:
 - mmstream/IMediaStream.CreateSharedSample
 dev_langs:

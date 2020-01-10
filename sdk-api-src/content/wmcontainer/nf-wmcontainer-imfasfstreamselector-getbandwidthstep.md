@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 82d9b642-48e3-4ef5-b0e1-b72f1dd39b2c
 ms.date: 12/05/2018
 ms.keywords: 82d9b642-48e3-4ef5-b0e1-b72f1dd39b2c, GetBandwidthStep, GetBandwidthStep method [Media Foundation], GetBandwidthStep method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetBandwidthStep method, IMFASFStreamSelector.GetBandwidthStep, IMFASFStreamSelector::GetBandwidthStep, mf.imfasfstreamselector_getbandwidthstep, wmcontainer/IMFASFStreamSelector::GetBandwidthStep
-ms.topic: method
 f1_keywords:
 - wmcontainer/IMFASFStreamSelector.GetBandwidthStep
 dev_langs:

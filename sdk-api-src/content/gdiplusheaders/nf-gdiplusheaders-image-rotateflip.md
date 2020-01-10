@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\rotateflip.htm
 ms.date: 12/05/2018
 ms.keywords: Image class [GDI+],RotateFlip method, Image.RotateFlip, Image::RotateFlip, RotateFlip, RotateFlip method [GDI+], RotateFlip method [GDI+],Image class, _gdiplus_CLASS_Image_RotateFlip_rotateFlipType_, gdiplus._gdiplus_CLASS_Image_RotateFlip_rotateFlipType_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Image.RotateFlip
 dev_langs:

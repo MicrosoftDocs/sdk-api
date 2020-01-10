@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getpasswordchar.htm
 ms.date: 12/05/2018
 ms.keywords: Edit_GetPasswordChar, Edit_GetPasswordChar macro [Windows Controls], _win32_Edit_GetPasswordChar, _win32_Edit_GetPasswordChar_cpp, controls.Edit_GetPasswordChar, controls._win32_Edit_GetPasswordChar, windowsx/Edit_GetPasswordChar
-ms.topic: macro
 f1_keywords:
 - windowsx/Edit_GetPasswordChar
 dev_langs:

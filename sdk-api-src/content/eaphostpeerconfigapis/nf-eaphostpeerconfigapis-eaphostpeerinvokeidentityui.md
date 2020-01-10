@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 48c48162-44d8-45d2-9147-5bf006d493b5
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerInvokeIdentityUI, EapHostPeerInvokeIdentityUI function [EAPHost], eaphost.eaphostpeerinvokeidentityui, eaphostpeerconfigapis/EapHostPeerInvokeIdentityUI
-ms.topic: function
 f1_keywords:
 - eaphostpeerconfigapis/EapHostPeerInvokeIdentityUI
 dev_langs:

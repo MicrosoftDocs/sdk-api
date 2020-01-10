@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 72c37aa9-f9d8-4fc5-8ad8-854e01cb54f4
 ms.date: 12/05/2018
 ms.keywords: WS_METADATA_PROPERTY, WS_METADATA_PROPERTY structure [Web Services for Windows], webservices/WS_METADATA_PROPERTY, wsw.ws_metadata_property
-ms.topic: struct
 f1_keywords:
 - webservices/WS_METADATA_PROPERTY
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: BF0BDB21-DE87-4177-A94F-8BA8FD571B02
 ms.date: 12/05/2018
 ms.keywords: GetSymbolicLink, GetSymbolicLink method [Media Foundation], GetSymbolicLink method [Media Foundation],IMFSensorActivityReport interface, IMFSensorActivityReport interface [Media Foundation],GetSymbolicLink method, IMFSensorActivityReport.GetSymbolicLink, IMFSensorActivityReport::GetSymbolicLink, mf.imfsensoractivityreport_getsymboliclink, mfidl/IMFSensorActivityReport::GetSymbolicLink
-ms.topic: method
 f1_keywords:
 - mfidl/IMFSensorActivityReport.GetSymbolicLink
 dev_langs:

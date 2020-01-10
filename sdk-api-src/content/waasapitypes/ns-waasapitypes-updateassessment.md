@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: BD456DF6-4A29-41B4-8EB4-8F29910981E7
 ms.date: 12/05/2018
 ms.keywords: UpdateAssessment, UpdateAssessment structure, base.updateassessment, waasapitypes/UpdateAssessment
-ms.topic: struct
 f1_keywords:
 - waasapitypes/UpdateAssessment
 dev_langs:

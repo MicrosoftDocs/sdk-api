@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 3DA45F2F-7088-4A9B-968C-91E402CAA412
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestReader, IAppxManifestReader interface [App packaging and management], IAppxManifestReader interface [App packaging and management],described, appxpackaging/IAppxManifestReader, appxpkg.iappxmanifestreader
-ms.topic: interface
 f1_keywords:
 - appxpackaging/IAppxManifestReader
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: w_ui_comp
 ms.assetid: C8592A6E-8D54-49DE-B520-51F947BDDFAD
 ms.date: 12/05/2018
 ms.keywords: EndDraw, EndDraw method, EndDraw method,ICompositionDrawingSurfaceInterop interface, ICompositionDrawingSurfaceInterop interface,EndDraw method, ICompositionDrawingSurfaceInterop.EndDraw, ICompositionDrawingSurfaceInterop.composition, ICompositionDrawingSurfaceInterop::EndDraw, ICompositionDrawingSurfaceInterop::composition, w_ui_comp.icompositiondrawingsurfaceinterop_enddraw, windows/ICompositionDrawingSurfaceInterop::EndDraw
-ms.topic: method
 f1_keywords:
 - windows.ui.composition.interop/ICompositionDrawingSurfaceInterop.EndDraw
 dev_langs:

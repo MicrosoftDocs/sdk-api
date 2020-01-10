@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 416ceb78-50fb-4976-8814-3981b594ebec
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeShrink interface,QueryMaxReclaimableBytes method, IVdsVolumeShrink.QueryMaxReclaimableBytes, IVdsVolumeShrink::QueryMaxReclaimableBytes, QueryMaxReclaimableBytes, QueryMaxReclaimableBytes method, QueryMaxReclaimableBytes method,IVdsVolumeShrink interface, base.ivdsvolumeshrink_querymaxreclaimablebytes, vds/IVdsVolumeShrink::QueryMaxReclaimableBytes
-ms.topic: method
 f1_keywords:
 - vds/IVdsVolumeShrink.QueryMaxReclaimableBytes
 dev_langs:

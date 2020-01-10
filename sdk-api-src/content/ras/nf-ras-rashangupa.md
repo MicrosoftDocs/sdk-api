@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: b5720ddf-c7ac-439e-97cb-62240122a775
 ms.date: 12/05/2018
 ms.keywords: RasHangUp, RasHangUp function [RAS], RasHangUpA, RasHangUpW, _ras_rashangup, ras/RasHangUp, ras/RasHangUpA, ras/RasHangUpW, rras.rashangup
-ms.topic: function
 f1_keywords:
 - ras/RasHangUp
 dev_langs:

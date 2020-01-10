@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 311cfa18-6eb5-4872-9a46-3c8dcf901f4f
 ms.date: 12/05/2018
 ms.keywords: EnumSignatures, EnumSignatures method [Windows Runtime], EnumSignatures method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumSignatures method, IMetaDataImport.EnumSignatures, IMetaDataImport::EnumSignatures, rometadataapi/IMetaDataImport::EnumSignatures, winrt.imetadataimport_enumsignatures
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataImport.EnumSignatures
 dev_langs:

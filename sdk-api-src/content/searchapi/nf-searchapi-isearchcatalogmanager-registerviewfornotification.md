@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\registerviewfornotification.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager interface [search],RegisterViewForNotification method, ISearchCatalogManager.RegisterViewForNotification, ISearchCatalogManager::RegisterViewForNotification, RegisterViewForNotification, RegisterViewForNotification method [search], RegisterViewForNotification method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_RegisterViewForNotification, search._search_ISearchCatalogManager_RegisterViewForNotification, searchapi/ISearchCatalogManager::RegisterViewForNotification
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchCatalogManager.RegisterViewForNotification
 dev_langs:

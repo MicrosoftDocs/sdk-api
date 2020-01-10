@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: ba8e888a-5bd6-4624-94a6-2f2ce0a080d1
 ms.date: 12/05/2018
 ms.keywords: RtwqCreateAsyncResult, RtwqCreateAsyncResult function, base.rtwqcreateasyncresult, rtworkq/RtwqCreateAsyncResult
-ms.topic: function
 f1_keywords:
 - rtworkq/RtwqCreateAsyncResult
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: db540976-95a7-47c9-aeec-d5f874d22764
 ms.date: 12/05/2018
 ms.keywords: GetDashOffset, GetDashOffset method [Direct2D], GetDashOffset method [Direct2D],ID2D1StrokeStyle interface, ID2D1StrokeStyle interface [Direct2D],GetDashOffset method, ID2D1StrokeStyle.GetDashOffset, ID2D1StrokeStyle::GetDashOffset, d2d1/ID2D1StrokeStyle::GetDashOffset, direct2d.ID2D1StrokeStyle_GetDashOffset
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1StrokeStyle.GetDashOffset
 dev_langs:

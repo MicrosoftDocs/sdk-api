@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: b19358cf-1cf9-4d91-85df-ed7fa804a7f2
 ms.date: 12/05/2018
 ms.keywords: '*PCLUSPROP_SECURITY_DESCRIPTOR, CLUSPROP_SECURITY_DESCRIPTOR, CLUSPROP_SECURITY_DESCRIPTOR structure [Failover Cluster], PCLUSPROP_SECURITY_DESCRIPTOR, PCLUSPROP_SECURITY_DESCRIPTOR structure pointer [Failover Cluster], _wolf_clusprop_security_descriptor, clusapi/CLUSPROP_SECURITY_DESCRIPTOR, clusapi/PCLUSPROP_SECURITY_DESCRIPTOR, mscs.clusprop_security_descriptor'
-ms.topic: struct
 f1_keywords:
 - clusapi/CLUSPROP_SECURITY_DESCRIPTOR
 dev_langs:

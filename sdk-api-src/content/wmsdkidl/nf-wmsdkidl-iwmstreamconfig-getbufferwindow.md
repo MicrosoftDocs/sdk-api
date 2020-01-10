@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 7a78cd61-e7ae-42e2-9d64-f3344fefc59d
 ms.date: 12/05/2018
 ms.keywords: GetBufferWindow, GetBufferWindow method [windows Media Format], GetBufferWindow method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetBufferWindow method, IWMStreamConfig.GetBufferWindow, IWMStreamConfig::GetBufferWindow, IWMStreamConfigGetBufferWindow, wmformat.iwmstreamconfig_getbufferwindow, wmsdkidl/IWMStreamConfig::GetBufferWindow
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMStreamConfig.GetBufferWindow
 dev_langs:

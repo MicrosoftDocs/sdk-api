@@ -7,7 +7,6 @@ tech.root: Policy
 ms.assetid: 4606ff09-7e23-4953-aeef-cac822995d35
 ms.date: 12/05/2018
 ms.keywords: GetLocalManagedApplications, GetLocalManagedApplications function [Group Policy], appmgmt/GetLocalManagedApplications, policy.getlocalmanagedapplications
-ms.topic: function
 f1_keywords:
 - appmgmt/GetLocalManagedApplications
 dev_langs:

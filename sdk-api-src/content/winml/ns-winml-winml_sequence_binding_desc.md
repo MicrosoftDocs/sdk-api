@@ -7,7 +7,6 @@ tech.root: MachineLearning
 ms.assetid: 6662327D-4BB9-40CB-869C-7BB1ADCB2D1C
 ms.date: 12/05/2018
 ms.keywords: MachineLearning.winml_sequence_binding_desc, PWINML_SEQUENCE_BINDING_DESC, PWINML_SEQUENCE_BINDING_DESC structure pointer, WINML_SEQUENCE_BINDING_DESC, WINML_SEQUENCE_BINDING_DESC structure, winml/PWINML_SEQUENCE_BINDING_DESC, winml/WINML_SEQUENCE_BINDING_DESC
-ms.topic: struct
 f1_keywords:
 - winml/WINML_SEQUENCE_BINDING_DESC
 dev_langs:

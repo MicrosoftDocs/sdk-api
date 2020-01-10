@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: f8eb3dd9-b993-4b45-b7f4-e1925c233a80
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterCommitEnrollment, EngineAdapterCommitEnrollment callback function [Windows Biometric Framework API], PIBIO_ENGINE_COMMIT_ENROLLMENT_FN, PIBIO_ENGINE_COMMIT_ENROLLMENT_FN callback, secbiomet.engineadaptercommitenrollment, winbio_adapter/EngineAdapterCommitEnrollment
-ms.topic: callback
 f1_keywords:
 - winbio_adapter/EngineAdapterCommitEnrollment
 dev_langs:

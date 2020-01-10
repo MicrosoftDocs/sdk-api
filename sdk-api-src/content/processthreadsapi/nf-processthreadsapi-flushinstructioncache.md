@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 6267adde-8169-4673-97ec-78c66e2135c1
 ms.date: 12/05/2018
 ms.keywords: FlushInstructionCache, FlushInstructionCache function, _win32_flushinstructioncache, base.flushinstructioncache, processthreadsapi/FlushInstructionCache
-ms.topic: function
 f1_keywords:
 - processthreadsapi/FlushInstructionCache
 dev_langs:

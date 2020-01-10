@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e8f69203-f0b4-4537-980c-8e5bbdb49aab
 ms.date: 12/05/2018
 ms.keywords: FVM_DETAILS, FVM_ICON, FVM_LIST, FVM_SMALLICON, FVM_THUMBNAIL, FVM_THUMBSTRIP, FVM_TILE, GetCurrentViewMode, GetCurrentViewMode method [Windows Shell], GetCurrentViewMode method [Windows Shell],IFolderView interface, IFolderView interface [Windows Shell],GetCurrentViewMode method, IFolderView.GetCurrentViewMode, IFolderView::GetCurrentViewMode, _shell_IFolderView_GetCurrentViewMode, shell.IFolderView_GetCurrentViewMode, shobjidl_core/IFolderView::GetCurrentViewMode
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFolderView.GetCurrentViewMode
 dev_langs:

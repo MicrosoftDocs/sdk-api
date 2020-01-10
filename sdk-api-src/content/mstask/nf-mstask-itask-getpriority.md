@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 4ace8ab8-e629-4cf9-9bdf-416b2f67c4cd
 ms.date: 12/05/2018
 ms.keywords: GetPriority, GetPriority method [Task Scheduler], GetPriority method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetPriority method, ITask.GetPriority, ITask::GetPriority, _msb_itask_getpriority, mstask/ITask::GetPriority, taskschd.itask_getpriority
-ms.topic: method
 f1_keywords:
 - mstask/ITask.GetPriority
 dev_langs:

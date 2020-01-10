@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 75ebe328-1494-464c-9491-e8a39e1d8ee1
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],SchedulesEnabled property, IDataCollectorSet.SchedulesEnabled, IDataCollectorSet.put_SchedulesEnabled, IDataCollectorSet::SchedulesEnabled, IDataCollectorSet::get_SchedulesEnabled, IDataCollectorSet::put_SchedulesEnabled, SchedulesEnabled property [PLA], SchedulesEnabled property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_schedulesenabled, pla.idatacollectorset_get_schedulesenabled, pla/IDataCollectorSet::SchedulesEnabled, pla/IDataCollectorSet::get_SchedulesEnabled, pla/IDataCollectorSet::put_SchedulesEnabled, put_SchedulesEnabled
-ms.topic: method
 f1_keywords:
 - pla/IDataCollectorSet.SchedulesEnabled
 dev_langs:

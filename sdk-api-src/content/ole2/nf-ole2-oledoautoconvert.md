@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: fe470f8a-b2f0-48a4-a270-77420bd1472a
 ms.date: 12/05/2018
 ms.keywords: OleDoAutoConvert, OleDoAutoConvert function [COM], _com_OleDoAutoConvert, com.oledoautoconvert, ole2/OleDoAutoConvert
-ms.topic: function
 f1_keywords:
 - ole2/OleDoAutoConvert
 dev_langs:

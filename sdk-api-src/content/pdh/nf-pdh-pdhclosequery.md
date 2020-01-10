@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: af0fb9f4-3999-48fa-88d7-aa59b5caed75
 ms.date: 12/05/2018
 ms.keywords: PdhCloseQuery, PdhCloseQuery function [Perf], _win32_pdhclosequery, base.pdhclosequery, pdh/PdhCloseQuery, perf.pdhclosequery
-ms.topic: function
 f1_keywords:
 - pdh/PdhCloseQuery
 dev_langs:

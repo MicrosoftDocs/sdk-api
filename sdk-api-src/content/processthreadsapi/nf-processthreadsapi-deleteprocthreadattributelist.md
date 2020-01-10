@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 806326c8-2f1e-4ab8-a6f6-f84763ddc31f
 ms.date: 12/05/2018
 ms.keywords: DeleteProcThreadAttributeList, DeleteProcThreadAttributeList function, base.deleteprocthreadattributelist, processthreadsapi/DeleteProcThreadAttributeList, winbase/DeleteProcThreadAttributeList
-ms.topic: function
 f1_keywords:
 - processthreadsapi/DeleteProcThreadAttributeList
 dev_langs:

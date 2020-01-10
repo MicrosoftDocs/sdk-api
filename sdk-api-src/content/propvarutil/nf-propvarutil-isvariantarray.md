@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 3e3a4eb0-c50a-4e4a-b3e3-dc760a519901
 ms.date: 12/05/2018
 ms.keywords: IsVariantArray, IsVariantArray function [Windows Properties], _shell_IsVariantArray, properties.IsVariantArray, propvarutil/IsVariantArray, shell.IsVariantArray
-ms.topic: function
 f1_keywords:
 - propvarutil/IsVariantArray
 dev_langs:

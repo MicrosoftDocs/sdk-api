@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: a26d2c24-7092-40b0-9ae9-e7edf68aeb3d
 ms.date: 12/05/2018
 ms.keywords: SetupRemoveFileLogEntry, SetupRemoveFileLogEntry function [Setup API], SetupRemoveFileLogEntryA, SetupRemoveFileLogEntryW, _setupapi_setupremovefilelogentry, setup.setupremovefilelogentry, setupapi/SetupRemoveFileLogEntry, setupapi/SetupRemoveFileLogEntryA, setupapi/SetupRemoveFileLogEntryW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupRemoveFileLogEntry
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: C4F8C462-C8D8-4418-9543-7C8C32CE9498
 ms.date: 12/05/2018
 ms.keywords: AcquireNextFrame, AcquireNextFrame method [DXGI], AcquireNextFrame method [DXGI],IDXGIOutputDuplication interface, IDXGIOutputDuplication interface [DXGI],AcquireNextFrame method, IDXGIOutputDuplication.AcquireNextFrame, IDXGIOutputDuplication::AcquireNextFrame, direct3ddxgi.idxgioutputduplication_acquirenextframe, dxgi1_2/IDXGIOutputDuplication::AcquireNextFrame
-ms.topic: method
 f1_keywords:
 - dxgi1_2/IDXGIOutputDuplication.AcquireNextFrame
 dev_langs:

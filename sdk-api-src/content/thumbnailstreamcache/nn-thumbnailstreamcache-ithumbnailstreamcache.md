@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9D2C01E7-2B0B-462F-98A3-12ACBC40F6E7
 ms.date: 12/05/2018
 ms.keywords: IThumbnailStreamCache, IThumbnailStreamCache interface [Windows Shell], IThumbnailStreamCache interface [Windows Shell],described, shell.ithumbnailstreamcache, thumbnailstreamcache/IThumbnailStreamCache
-ms.topic: interface
 f1_keywords:
 - thumbnailstreamcache/IThumbnailStreamCache
 dev_langs:

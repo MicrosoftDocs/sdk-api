@@ -7,7 +7,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\getinputsource.htm
 ms.date: 12/05/2018
 ms.keywords: GetInputSource, GetInputSource method [WPF Bitmap Effects], GetInputSource method [WPF Bitmap Effects],IMILBitmapEffectImpl interface, IMILBitmapEffectImpl interface [WPF Bitmap Effects],GetInputSource method, IMILBitmapEffectImpl.GetInputSource, IMILBitmapEffectImpl::GetInputSource, _wibe_imilbitmapeffectimpl_getinputsource, mileffects/IMILBitmapEffectImpl::GetInputSource, wibe._wibe_imilbitmapeffectimpl_getinputsource
-ms.topic: method
 f1_keywords:
 - mileffects/IMILBitmapEffectImpl.GetInputSource
 dev_langs:

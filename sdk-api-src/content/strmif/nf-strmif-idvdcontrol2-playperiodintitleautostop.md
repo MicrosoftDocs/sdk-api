@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6c0d647c-a0c3-428e-8368-9204049dfea8
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayPeriodInTitleAutoStop method, IDvdControl2.PlayPeriodInTitleAutoStop, IDvdControl2::PlayPeriodInTitleAutoStop, IDvdControl2PlayPeriodInTitleAutoStop, PlayPeriodInTitleAutoStop, PlayPeriodInTitleAutoStop method [DirectShow], PlayPeriodInTitleAutoStop method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playperiodintitleautostop, strmif/IDvdControl2::PlayPeriodInTitleAutoStop
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl2.PlayPeriodInTitleAutoStop
 dev_langs:

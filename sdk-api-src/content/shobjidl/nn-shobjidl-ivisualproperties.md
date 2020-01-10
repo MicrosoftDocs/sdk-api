@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0f4921ad-18b4-447e-8e4b-0a40ce430137
 ms.date: 12/05/2018
 ms.keywords: IVisualProperties, IVisualProperties interface [Windows Shell], IVisualProperties interface [Windows Shell],described, _shell_IVisualProperties, shell.IVisualProperties, shobjidl/IVisualProperties
-ms.topic: interface
 f1_keywords:
 - shobjidl/IVisualProperties
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 81a1d567-191f-463c-ba67-0867025d8756
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionBasicConstraints, IX509ExtensionBasicConstraints interface [Security], IX509ExtensionBasicConstraints interface [Security],described, certenroll/IX509ExtensionBasicConstraints, security.ix509extensionbasicconstraints
-ms.topic: interface
 f1_keywords:
 - certenroll/IX509ExtensionBasicConstraints
 dev_langs:

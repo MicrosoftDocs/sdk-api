@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: db97b7e0-6f85-4b61-843f-efb4bc93149b
 ms.date: 12/05/2018
 ms.keywords: PeerGraphGetItemCount, PeerGraphGetItemCount function [Peer Networking], p2p.peergraphgetitemcount, p2p/PeerGraphGetItemCount
-ms.topic: function
 f1_keywords:
 - p2p/PeerGraphGetItemCount
 dev_langs:

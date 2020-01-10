@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 49FA2383-8AEC-4DDF-8998-25987EEC8223
 ms.date: 12/05/2018
 ms.keywords: GetCurrentTime, GetCurrentTime method [Media Foundation], GetCurrentTime method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetCurrentTime method, IMFMediaEngine.GetCurrentTime, IMFMediaEngine::GetCurrentTime, mf.imfmediaengine_getcurrenttime, mfmediaengine/IMFMediaEngine::GetCurrentTime
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngine.GetCurrentTime
 dev_langs:

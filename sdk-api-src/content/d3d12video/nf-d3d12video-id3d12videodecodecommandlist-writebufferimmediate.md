@@ -5,7 +5,6 @@ description: Writes a number of 32-bit immediate values to the specified buffer 
 tech.root: mf
 ms.assetid: cdc54874-4d54-4595-8f19-17dc35ff670c
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoDecodeCommandList::WriteBufferImmediate
 dev_langs:

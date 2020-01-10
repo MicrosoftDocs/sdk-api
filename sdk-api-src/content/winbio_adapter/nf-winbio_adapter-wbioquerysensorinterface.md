@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 83ca38e1-3258-4676-bcdd-4876ec8f3ae1
 ms.date: 12/05/2018
 ms.keywords: WbioQuerySensorInterface, WbioQuerySensorInterface function [Windows Biometric Framework API], secbiomet.wbioquerysensorinterface, winbio_adapter/WbioQuerySensorInterface
-ms.topic: function
 f1_keywords:
 - winbio_adapter/WbioQuerySensorInterface
 dev_langs:

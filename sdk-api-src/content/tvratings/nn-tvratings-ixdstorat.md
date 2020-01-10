@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: de65e5cd-3f4b-4925-a6b8-636fc2e332ec
 ms.date: 12/05/2018
 ms.keywords: IXDSToRat, IXDSToRat interface [Microsoft TV Technologies], IXDSToRat interface [Microsoft TV Technologies],described, IXDSToRatInterface, mstv.ixdstorat, tvratings/IXDSToRat
-ms.topic: interface
 f1_keywords:
 - tvratings/IXDSToRat
 dev_langs:

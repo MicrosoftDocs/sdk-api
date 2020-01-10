@@ -7,7 +7,6 @@ tech.root: FunDisc
 ms.assetid: e0019d0d-1495-4a0e-a7d9-7772046a4a26
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProvider, IFunctionDiscoveryProvider interface, IFunctionDiscoveryProvider interface,described, functiondiscoveryprovider/IFunctionDiscoveryProvider, ncd.ifunctiondiscoveryprovider
-ms.topic: interface
 f1_keywords:
 - functiondiscoveryprovider/IFunctionDiscoveryProvider
 dev_langs:

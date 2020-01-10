@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 7955dfa1-70b2-4b6e-975f-c489a6284c5c
 ms.date: 12/05/2018
 ms.keywords: ICertificatePolicy interface [Security],PolicyQualifiers property, ICertificatePolicy.PolicyQualifiers, ICertificatePolicy.get_PolicyQualifiers, ICertificatePolicy::PolicyQualifiers, ICertificatePolicy::get_PolicyQualifiers, PolicyQualifiers property [Security], PolicyQualifiers property [Security],ICertificatePolicy interface, certenroll/ICertificatePolicy::PolicyQualifiers, certenroll/ICertificatePolicy::get_PolicyQualifiers, get_PolicyQualifiers, security.icertificatepolicy_policyqualifiers_property
-ms.topic: method
 f1_keywords:
 - certenroll/ICertificatePolicy.PolicyQualifiers
 dev_langs:

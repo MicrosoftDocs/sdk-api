@@ -7,7 +7,6 @@ tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\structures\unsigned_ratio.htm
 ms.date: 12/05/2018
 ms.keywords: UNSIGNED_RATIO, UNSIGNED_RATIO structure [Desktop Window Manager], _udwm_unsigned_ratio, _udwm_unsigned_ratio_cpp, dwm.unsigned_ratio, dwmapi/UNSIGNED_RATIO, winui._udwm_unsigned_ratio
-ms.topic: struct
 f1_keywords:
 - dwmapi/UNSIGNED_RATIO
 dev_langs:

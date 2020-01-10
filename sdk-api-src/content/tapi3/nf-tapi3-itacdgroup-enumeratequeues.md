@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 1d9e0dcf-ce43-494f-8adc-845d2856bdd1
 ms.date: 12/05/2018
 ms.keywords: EnumerateQueues, EnumerateQueues method [TAPI 2.2], EnumerateQueues method [TAPI 2.2],ITACDGroup interface, ITACDGroup interface [TAPI 2.2],EnumerateQueues method, ITACDGroup.EnumerateQueues, ITACDGroup::EnumerateQueues, _tapi3_itacdgroup_enumeratequeues, tapi3.itacdgroup_enumeratequeues, tapi3cc/ITACDGroup::EnumerateQueues
-ms.topic: method
 f1_keywords:
 - tapi3/ITACDGroup.EnumerateQueues
 dev_langs:

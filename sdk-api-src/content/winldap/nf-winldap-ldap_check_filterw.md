@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: 33b549bc-4b23-484a-a7cf-f4963154d492
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_check_filter, ldap.ldap__check__filter, ldap.ldap_check_filter, ldap_check_filter, ldap_check_filter function [LDAP], ldap_check_filterA, ldap_check_filterW, winldap/ldap_check_filter, winldap/ldap_check_filterA, winldap/ldap_check_filterW
-ms.topic: function
 f1_keywords:
 - winldap/ldap_check_filter
 dev_langs:

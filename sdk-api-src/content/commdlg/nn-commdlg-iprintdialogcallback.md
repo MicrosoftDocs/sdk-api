@@ -7,7 +7,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogcallback.htm
 ms.date: 12/05/2018
 ms.keywords: IPrintDialogCallback, IPrintDialogCallback interface [Dialog Boxes], IPrintDialogCallback interface [Dialog Boxes],described, _win32_IPrintDialogCallback, _win32_iprintdialogcallback_cpp, commdlg/IPrintDialogCallback, dlgbox.iprintdialogcallback, winui._win32_iprintdialogcallback
-ms.topic: interface
 f1_keywords:
 - commdlg/IPrintDialogCallback
 dev_langs:

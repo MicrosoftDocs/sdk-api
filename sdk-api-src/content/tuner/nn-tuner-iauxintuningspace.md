@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: fd02375b-3493-4a59-aa85-6f1528d79630
 ms.date: 12/05/2018
 ms.keywords: IAuxInTuningSpace, IAuxInTuningSpace interface [Microsoft TV Technologies], IAuxInTuningSpace interface [Microsoft TV Technologies],described, IAuxInTuningSpaceInterface, mstv.iauxintuningspace, tuner/IAuxInTuningSpace
-ms.topic: interface
 f1_keywords:
 - tuner/IAuxInTuningSpace
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\emftowmfbitsflags.htm
 ms.date: 12/05/2018
 ms.keywords: EmfToWmfBitsFlags, EmfToWmfBitsFlags enumeration [GDI+], EmfToWmfBitsFlagsDefault, EmfToWmfBitsFlagsEmbedEmf, EmfToWmfBitsFlagsIncludePlaceable, EmfToWmfBitsFlagsNoXORClip, _gdiplus_ENUM_EmfToWmfBitsFlags, gdiplus._gdiplus_ENUM_EmfToWmfBitsFlags, gdiplusenums/EmfToWmfBitsFlags, gdiplusenums/EmfToWmfBitsFlagsDefault, gdiplusenums/EmfToWmfBitsFlagsEmbedEmf, gdiplusenums/EmfToWmfBitsFlagsIncludePlaceable, gdiplusenums/EmfToWmfBitsFlagsNoXORClip
-ms.topic: enum
 f1_keywords:
 - gdiplusenums/EmfToWmfBitsFlags
 dev_langs:

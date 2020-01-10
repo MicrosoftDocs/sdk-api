@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 7d19792c-cd37-4ea7-8830-c33c489e63e6
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystem2, IVdsSubSystem2 interface, IVdsSubSystem2 interface,described, base.ivdssubsystem2, vds/IVdsSubSystem2, vdshwprv/IVdsSubSystem2
-ms.topic: interface
 f1_keywords:
 - vds/IVdsSubSystem2
 dev_langs:

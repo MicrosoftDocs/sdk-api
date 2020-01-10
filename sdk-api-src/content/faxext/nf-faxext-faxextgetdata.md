@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxextconfigref_4s0x.htm
 ms.date: 12/05/2018
 ms.keywords: DEV_ID_SRC_FAX, DEV_ID_SRC_TAPI, FaxExtGetData, FaxExtGetData function [Fax Service], _mfax_faxextgetdata, fax._mfax_faxextgetdata, faxext/FaxExtGetData
-ms.topic: function
 f1_keywords:
 - faxext/FaxExtGetData
 dev_langs:

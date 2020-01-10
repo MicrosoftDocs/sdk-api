@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 0e3274e6-7c22-4175-8b2e-cdf4afc1225e
 ms.date: 12/05/2018
 ms.keywords: IAMExtendedErrorInfo, IAMExtendedErrorInfo interface [DirectShow], IAMExtendedErrorInfo interface [DirectShow],described, IAMExtendedErrorInfoInterface, dshow.iamextendederrorinfo, qnetwork/IAMExtendedErrorInfo
-ms.topic: interface
 f1_keywords:
 - qnetwork/IAMExtendedErrorInfo
 dev_langs:

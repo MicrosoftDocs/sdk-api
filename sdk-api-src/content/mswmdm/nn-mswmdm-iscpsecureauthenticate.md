@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: dfe37b41-f80b-4992-84c1-c23581cc4b69
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureAuthenticate, ISCPSecureAuthenticate interface [windows Media Device Manager], ISCPSecureAuthenticate interface [windows Media Device Manager],described, ISCPSecureAuthenticateInterface, mswmdm/ISCPSecureAuthenticate, wmdm.iscpsecureauthenticate
-ms.topic: interface
 f1_keywords:
 - mswmdm/ISCPSecureAuthenticate
 dev_langs:

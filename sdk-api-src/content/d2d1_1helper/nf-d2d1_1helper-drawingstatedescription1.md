@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 9D2F5196-0C37-465E-AFCF-FAAC3C19D3C2
 ms.date: 12/05/2018
 ms.keywords: DrawingStateDescription1, DrawingStateDescription1 function [Direct2D], d2d1_1helper/DrawingStateDescription1, direct2d.drawingstatedescription1
-ms.topic: function
 f1_keywords:
 - d2d1_1helper/DrawingStateDescription1
 dev_langs:

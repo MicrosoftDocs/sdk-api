@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 52db3b25-e6b0-4a0d-831b-89a203580cf1
 ms.date: 12/05/2018
 ms.keywords: 1, 2, 3, DsGetDomainControllerInfo, DsGetDomainControllerInfo function [Active Directory], DsGetDomainControllerInfoA, DsGetDomainControllerInfoW, _glines_dsgetdomaincontrollerinfo, ad.dsgetdomaincontrollerinfo, ntdsapi/DsGetDomainControllerInfo, ntdsapi/DsGetDomainControllerInfoA, ntdsapi/DsGetDomainControllerInfoW
-ms.topic: function
 f1_keywords:
 - ntdsapi/DsGetDomainControllerInfo
 dev_langs:

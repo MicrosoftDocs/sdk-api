@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8161932a-16aa-4700-b91d-b4d8948ad59f
 ms.date: 12/05/2018
 ms.keywords: IDeferredCommand, IDeferredCommand interface [DirectShow], IDeferredCommand interface [DirectShow],described, IDeferredCommandInterface, control/IDeferredCommand, dshow.ideferredcommand
-ms.topic: interface
 f1_keywords:
 - control/IDeferredCommand
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3be4a8ec-eeab-4453-a2cb-18cadf39464a
 ms.date: 12/05/2018
 ms.keywords: CONFIRM_CONFLICT_ITEM, CONFIRM_CONFLICT_ITEM structure [Windows Shell], _shell_CONFIRM_CONFLICT_ITEM, shell.CONFIRM_CONFLICT_ITEM, syncmgr/CONFIRM_CONFLICT_ITEM
-ms.topic: struct
 f1_keywords:
 - syncmgr/CONFIRM_CONFLICT_ITEM
 dev_langs:

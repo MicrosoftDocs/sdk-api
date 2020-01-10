@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 950f5634-1cc5-4981-9053-e9090374cc5e
 ms.date: 12/05/2018
 ms.keywords: GetErrorInfo, GetErrorInfo method, GetErrorInfo method,IWSDEndpointProxy interface, IWSDEndpointProxy interface,GetErrorInfo method, IWSDEndpointProxy.GetErrorInfo, IWSDEndpointProxy::GetErrorInfo, ncd.iwsdendpointproxy_geterrorinfo, wsdclient/IWSDEndpointProxy::GetErrorInfo
-ms.topic: method
 f1_keywords:
 - wsdclient/IWSDEndpointProxy.GetErrorInfo
 dev_langs:

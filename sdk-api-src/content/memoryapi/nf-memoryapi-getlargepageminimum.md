@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: ccde687d-ee8f-4668-93c1-a1fece86c2f6
 ms.date: 12/05/2018
 ms.keywords: GetLargePageMinimum, GetLargePageMinimum function, base.getlargepageminimum, winbase/GetLargePageMinimum
-ms.topic: function
 f1_keywords:
 - memoryapi/GetLargePageMinimum
 dev_langs:

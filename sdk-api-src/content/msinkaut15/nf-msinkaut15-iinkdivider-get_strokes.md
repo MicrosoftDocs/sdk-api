@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 611ccce9-7acb-4138-9655-938efcaa4c75
 ms.date: 12/05/2018
 ms.keywords: 611ccce9-7acb-4138-9655-938efcaa4c75, IInkDivider interface [Tablet PC],Strokes property, IInkDivider.Strokes, IInkDivider.get_Strokes, IInkDivider::Strokes, IInkDivider::get_Strokes, IInkDivider::putref_Strokes, InkDivider.get_Strokes, Strokes property [Tablet PC], Strokes property [Tablet PC],IInkDivider interface, get_Strokes, msinkaut15/IInkDivider::Strokes, msinkaut15/IInkDivider::get_Strokes, msinkaut15/IInkDivider::putref_Strokes, tablet.inkdivider_strokes
-ms.topic: method
 f1_keywords:
 - msinkaut15/IInkDivider.Strokes
 dev_langs:

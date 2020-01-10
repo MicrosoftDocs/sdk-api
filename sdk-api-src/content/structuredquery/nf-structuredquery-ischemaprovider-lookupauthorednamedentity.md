@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\lookupauthorednamedentity.htm
 ms.date: 12/05/2018
 ms.keywords: ISchemaProvider interface [search],LookupAuthoredNamedEntity method, ISchemaProvider.LookupAuthoredNamedEntity, ISchemaProvider::LookupAuthoredNamedEntity, LookupAuthoredNamedEntity, LookupAuthoredNamedEntity method [search], LookupAuthoredNamedEntity method [search],ISchemaProvider interface, _search_ISchemaProvider_LookupAuthoredNamedEntity, search._search_ISchemaProvider_LookupAuthoredNamedEntity, structuredquery/ISchemaProvider::LookupAuthoredNamedEntity
-ms.topic: method
 f1_keywords:
 - structuredquery/ISchemaProvider.LookupAuthoredNamedEntity
 dev_langs:

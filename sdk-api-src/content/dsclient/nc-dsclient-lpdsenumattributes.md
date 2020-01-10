@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: f4f35119-9ffc-4fe9-aea1-2d4a5d4edd0b
 ms.date: 12/05/2018
 ms.keywords: DSECAF_NOTLISTED, DSEnumAttributesCallback, DSEnumAttributesCallback callback, DSEnumAttributesCallback callback function [Active Directory], LPDSENUMATTRIBUTES, LPDSENUMATTRIBUTES callback function [Active Directory], ad.dsenumattributescallback, dsclient/DSEnumAttributesCallback
-ms.topic: callback
 f1_keywords:
 - dsclient/LPDSENUMATTRIBUTES
 dev_langs:

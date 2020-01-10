@@ -5,7 +5,6 @@ description: The Graphics::ExcludeClip method updates the clipping region to the
 ms.assetid: 3123dbf3-ea4c-4597-abe8-7fb97ec669f5
 ms.date: 05/13/2019
 ms.keywords: Graphics::ExcludeClip
-ms.topic: language-reference
 f1_keywords:
 - gdiplusgraphics/Graphics::ExcludeClip
 dev_langs:

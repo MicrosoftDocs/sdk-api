@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: aef0e173-d3df-466e-ac2a-c686cae5edc9
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_PROVIDERS, CRYPT_PROVIDERS, CRYPT_PROVIDERS structure [Security], PCRYPT_PROVIDERS, PCRYPT_PROVIDERS structure pointer [Security], bcrypt/CRYPT_PROVIDERS, bcrypt/PCRYPT_PROVIDERS, security.crypt_providers'
-ms.topic: struct
 f1_keywords:
 - bcrypt/CRYPT_PROVIDERS
 dev_langs:

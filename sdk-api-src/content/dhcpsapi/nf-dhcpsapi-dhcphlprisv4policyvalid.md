@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: f11386a6-2b80-4a2b-b859-fb399d7392e8
 ms.date: 12/05/2018
 ms.keywords: DhcpHlprIsV4PolicyValid, DhcpHlprIsV4PolicyValid function [DHCP], dhcp.dhcphlprisv4policyvalid, dhcpsapi/DhcpHlprIsV4PolicyValid
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpHlprIsV4PolicyValid
 dev_langs:

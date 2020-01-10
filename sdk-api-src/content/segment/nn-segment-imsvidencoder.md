@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 37d03dff-ae40-4e7f-a66f-facd0c1f6eee
 ms.date: 12/05/2018
 ms.keywords: IMSVidEncoder, IMSVidEncoder interface [Microsoft TV Technologies], IMSVidEncoder interface [Microsoft TV Technologies],described, IMSVidEncoderInterface, mstv.imsvidencoder, segment/IMSVidEncoder
-ms.topic: interface
 f1_keywords:
 - segment/IMSVidEncoder
 dev_langs:

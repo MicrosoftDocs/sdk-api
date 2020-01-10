@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 708a890e-4dc6-49c7-b857-cdb8504e7f7f
 ms.date: 12/05/2018
 ms.keywords: RtmDeleteNextHop, RtmDeleteNextHop function [RAS], _rtmv2ref_rtmdeletenexthop, rras.rtmdeletenexthop, rtmv2/RtmDeleteNextHop
-ms.topic: function
 f1_keywords:
 - rtmv2/RtmDeleteNextHop
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0ba25491-8d18-4040-a256-9078b91e4f3f
 ms.date: 12/05/2018
 ms.keywords: FALSE, IRegTreeItem interface [Windows Shell],SetCheckState method, IRegTreeItem.SetCheckState, IRegTreeItem::SetCheckState, SetCheckState, SetCheckState method [Windows Shell], SetCheckState method [Windows Shell],IRegTreeItem interface, TRUE, _win32_IRegTreeItem_SetCheckState, shell.IRegTreeItem_SetCheckState, shobjidl_core/IRegTreeItem::SetCheckState
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IRegTreeItem.SetCheckState
 dev_langs:

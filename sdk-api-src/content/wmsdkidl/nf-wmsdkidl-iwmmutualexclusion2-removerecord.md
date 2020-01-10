@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 74e2825e-2200-4750-bb16-f8cf9f80ab7e
 ms.date: 12/05/2018
 ms.keywords: IWMMutualExclusion2 interface [windows Media Format],RemoveRecord method, IWMMutualExclusion2.RemoveRecord, IWMMutualExclusion2::RemoveRecord, IWMMutualExclusion2RemoveRecord, RemoveRecord, RemoveRecord method [windows Media Format], RemoveRecord method [windows Media Format],IWMMutualExclusion2 interface, wmformat.iwmmutualexclusion2_removerecord, wmsdkidl/IWMMutualExclusion2::RemoveRecord
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMMutualExclusion2.RemoveRecord
 dev_langs:

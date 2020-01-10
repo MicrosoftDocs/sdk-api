@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 3830A242-CC73-42DF-9324-07AADCC82785
 ms.date: 05/06/2019
 ms.keywords: CD3D11_BOX, CD3D11_BOX constructor [Direct3D 11], CD3D11_BOX constructor [Direct3D 11],CD3D11_BOX interface, CD3D11_BOX interface [Direct3D 11],CD3D11_BOX constructor, CD3D11_BOX.CD3D11_BOX, CD3D11_BOX.CD3D11_BOX(const D3D11_BOX &), CD3D11_BOX::CD3D11_BOX, CD3D11_BOX::CD3D11_BOX(), CD3D11_BOX::CD3D11_BOX(const D3D11_BOX &), d3d11/CD3D11_BOX::CD3D11_BOX, direct3d11.cd3d11_box_cd3d11_box
-ms.topic: method
 f1_keywords:
 - d3d11/CD3D11_BOX.CD3D11_BOX
 dev_langs:

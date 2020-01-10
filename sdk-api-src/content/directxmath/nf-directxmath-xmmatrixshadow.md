@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixShadow(XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixShadow, XMMatrixShadow, XMMatrixShadow method [DirectX Math Support APIs], dxmath.xmmatrixshadow
-ms.topic: function
 f1_keywords:
 - directxmath/XMMatrixShadow
 dev_langs:

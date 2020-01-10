@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d86d3016-bca0-4a0b-946b-f50c49266c67
 ms.date: 12/05/2018
 ms.keywords: Free, Free method [DirectShow], Free method [DirectShow],IAMDevMemoryAllocator interface, IAMDevMemoryAllocator interface [DirectShow],Free method, IAMDevMemoryAllocator.Free, IAMDevMemoryAllocator::Free, IAMDevMemoryAllocatorFree, dshow.iamdevmemoryallocator_free, strmif/IAMDevMemoryAllocator::Free
-ms.topic: method
 f1_keywords:
 - strmif/IAMDevMemoryAllocator.Free
 dev_langs:

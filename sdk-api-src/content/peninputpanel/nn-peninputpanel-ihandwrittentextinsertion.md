@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 67fcf19a-a864-40de-987f-406f18726a9f
 ms.date: 12/05/2018
 ms.keywords: 67fcf19a-a864-40de-987f-406f18726a9f, IHandWrittenTextInsertion, IHandWrittenTextInsertion interface [Tablet PC], IHandWrittenTextInsertion interface [Tablet PC],described, peninputpanel/IHandWrittenTextInsertion, tablet.ihandwrittentextinsertion
-ms.topic: interface
 f1_keywords:
 - peninputpanel/IHandWrittenTextInsertion
 dev_langs:

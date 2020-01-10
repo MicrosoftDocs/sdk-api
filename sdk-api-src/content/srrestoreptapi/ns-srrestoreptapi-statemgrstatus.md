@@ -7,7 +7,6 @@ tech.root: sr
 ms.assetid: 3531474b-1499-4c83-ab32-8c464c0eece0
 ms.date: 12/05/2018
 ms.keywords: '*PSTATEMGRSTATUS, PSTATEMGRSTATUS, PSTATEMGRSTATUS structure pointer [System Restore], STATEMGRSTATUS, STATEMGRSTATUS structure [System Restore], _sr_statemgrstatus_str, sr.statemgrstatus_str, srrestoreptapi/PSTATEMGRSTATUS, srrestoreptapi/STATEMGRSTATUS'
-ms.topic: struct
 f1_keywords:
 - srrestoreptapi/STATEMGRSTATUS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 1252fa10-d19a-4335-8dc5-f230141eef79
 ms.date: 12/05/2018
 ms.keywords: WsReadEnvelopeEnd, WsReadEnvelopeEnd function [Web Services for Windows], webservices/WsReadEnvelopeEnd, wsw.wsreadenvelopeend
-ms.topic: function
 f1_keywords:
 - webservices/WsReadEnvelopeEnd
 dev_langs:

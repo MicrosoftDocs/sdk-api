@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 0dbfde78-b1d4-4cc6-99aa-81de3f647cdb
 ms.date: 12/05/2018
 ms.keywords: '*PTRACE_PROVIDER_INFO, TRACE_PROVIDER_INFO, TRACE_PROVIDER_INFO structure [ETW], etw.trace_provider_info_struct, tdh.trace_provider_info_struct, tdh/TRACE_PROVIDER_INFO'
-ms.topic: struct
 f1_keywords:
 - tdh/TRACE_PROVIDER_INFO
 dev_langs:

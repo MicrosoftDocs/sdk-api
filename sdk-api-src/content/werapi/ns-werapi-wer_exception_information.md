@@ -7,7 +7,6 @@ tech.root: wer
 ms.assetid: 4548068a-e654-40c9-9654-c5178575b42c
 ms.date: 12/05/2018
 ms.keywords: '*PWER_EXCEPTION_INFORMATION, PWER_EXCEPTION_INFORMATION, PWER_EXCEPTION_INFORMATION structure pointer [Windows Error Reporting], WER_EXCEPTION_INFORMATION, WER_EXCEPTION_INFORMATION structure [Windows Error Reporting], base.wer_exception_information, wer.wer_exception_information, werapi/PWER_EXCEPTION_INFORMATION, werapi/WER_EXCEPTION_INFORMATION'
-ms.topic: struct
 f1_keywords:
 - werapi/WER_EXCEPTION_INFORMATION
 dev_langs:

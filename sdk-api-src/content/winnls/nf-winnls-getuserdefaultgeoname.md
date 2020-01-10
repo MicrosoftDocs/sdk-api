@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 7938A5A1-E18E-4643-A07C-3354B4E94B5D
 ms.date: 12/05/2018
 ms.keywords: GetUserDefaultGeoName, GetUserDefaultGeoName function [Internationalization for Windows Applications], intl.getuserdefaultgeoname, winnls/GetUserDefaultGeoName
-ms.topic: function
 f1_keywords:
 - winnls/GetUserDefaultGeoName
 dev_langs:

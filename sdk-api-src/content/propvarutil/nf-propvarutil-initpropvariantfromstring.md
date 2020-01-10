@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: eeb1002c-d06b-4f7f-b850-4c33f6e0d7aa
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromString, InitPropVariantFromString function [Windows Properties], properties.InitPropVariantFromString, propvarutil/InitPropVariantFromString, shell.InitPropVariantFromString, shell_InitPropVariantFromString
-ms.topic: function
 f1_keywords:
 - propvarutil/InitPropVariantFromString
 dev_langs:

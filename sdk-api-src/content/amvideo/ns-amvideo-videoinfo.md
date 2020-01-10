@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f08a449c-fed4-400b-a2fc-817bd59ba3fd
 ms.date: 12/05/2018
 ms.keywords: VIDEOINFO, VIDEOINFO structure [DirectShow], VIDEOINFOStructure, amvideo/VIDEOINFO, dshow.videoinfo
-ms.topic: struct
 f1_keywords:
 - amvideo/VIDEOINFO
 dev_langs:

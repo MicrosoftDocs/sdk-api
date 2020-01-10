@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 7C8D581E-489D-48BE-8B3F-278E1C246BBA
 ms.date: 12/05/2018
 ms.keywords: CreateHttpFontFileLoader, CreateHttpFontFileLoader method [Direct Write], CreateHttpFontFileLoader method [Direct Write],IDWriteFactory5 interface, IDWriteFactory5 interface [Direct Write],CreateHttpFontFileLoader method, IDWriteFactory5.CreateHttpFontFileLoader, IDWriteFactory5::CreateHttpFontFileLoader, directwrite.idwritefactory5_createhttpfontfileloader, dwrite_3/IDWriteFactory5::CreateHttpFontFileLoader
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFactory5.CreateHttpFontFileLoader
 dev_langs:

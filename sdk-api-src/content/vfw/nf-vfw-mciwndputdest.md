@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: d058c1b7-f7f8-49a0-84cc-ece298a25289
 ms.date: 12/05/2018
 ms.keywords: MCIWndPutDest, MCIWndPutDest macro [Windows Multimedia], _win32_MCIWndPutDest, multimedia.mciwndputdest, vfw/MCIWndPutDest
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndPutDest
 dev_langs:

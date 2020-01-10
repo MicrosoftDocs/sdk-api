@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 98646a68-d505-4d9b-b0f9-efda3da77005
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetProgressValue method, ITaskbarList3.SetProgressValue, ITaskbarList3::SetProgressValue, SetProgressValue, SetProgressValue method [Windows Shell], SetProgressValue method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_SetProgressValue, shell.ITaskbarList3_SetProgressValue, shobjidl_core/ITaskbarList3::SetProgressValue
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ITaskbarList3.SetProgressValue
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: ac5261fd-2d31-4c65-84f2-4c6b4c3566bb
 ms.date: 12/05/2018
 ms.keywords: WindowsPromoteStringBuffer, WindowsPromoteStringBuffer function [Windows Runtime], winrt.windowspromotestringbuffer, winstring/WindowsPromoteStringBuffer
-ms.topic: function
 f1_keywords:
 - winstring/WindowsPromoteStringBuffer
 dev_langs:

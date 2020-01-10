@@ -7,7 +7,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicommandhandler\updateproperty.htm
 ms.date: 12/05/2018
 ms.keywords: IUICommandHandler interface [Windows Ribbon],UpdateProperty method, IUICommandHandler.UpdateProperty, IUICommandHandler::UpdateProperty, UpdateProperty, UpdateProperty method [Windows Ribbon], UpdateProperty method [Windows Ribbon],IUICommandHandler interface, scenicintent_IUICommandHandler_UpdateProperty, uiribbon/IUICommandHandler::UpdateProperty, windowsribbon.windowsribbon_iuicommandhandler_updateproperty
-ms.topic: method
 f1_keywords:
 - uiribbon/IUICommandHandler.UpdateProperty
 dev_langs:

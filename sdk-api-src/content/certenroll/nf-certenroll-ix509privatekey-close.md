@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: c4ed2375-0d50-4cb5-b0c4-c80962e22c9c
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Security], Close method [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Close method, IX509PrivateKey.Close, IX509PrivateKey::Close, certenroll/IX509PrivateKey::Close, security.ix509privatekey_close_method
-ms.topic: method
 f1_keywords:
 - certenroll/IX509PrivateKey.Close
 dev_langs:

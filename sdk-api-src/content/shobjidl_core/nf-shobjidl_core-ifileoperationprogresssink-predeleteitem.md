@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: bf54f2da-4861-4546-9b1e-35b5983e836c
 ms.date: 12/05/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PreDeleteItem method, IFileOperationProgressSink.PreDeleteItem, IFileOperationProgressSink::PreDeleteItem, PreDeleteItem, PreDeleteItem method [Windows Shell], PreDeleteItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PreDeleteItem, shell.IFileOperationProgressSink_PreDeleteItem, shobjidl_core/IFileOperationProgressSink::PreDeleteItem
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileOperationProgressSink.PreDeleteItem
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: e6ec156d-6a20-4b00-89fb-a27421fffbc0
 ms.date: 12/05/2018
 ms.keywords: '*PBOOT_AREA_INFO, BOOT_AREA_INFO, BOOT_AREA_INFO structure [Files], PBOOT_AREA_INFO, PBOOT_AREA_INFO structure pointer [Files], fs.boot_area_info, winioctl/BOOT_AREA_INFO, winioctl/PBOOT_AREA_INFO'
-ms.topic: struct
 f1_keywords:
 - winioctl/BOOT_AREA_INFO
 dev_langs:

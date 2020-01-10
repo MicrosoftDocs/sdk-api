@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ed11eeef-464b-4a75-958b-2bc6dbc7af04
 ms.date: 12/05/2018
 ms.keywords: IPin interface [DirectShow],QueryAccept method, IPin.QueryAccept, IPin::QueryAccept, IPinQueryAccept, QueryAccept, QueryAccept method [DirectShow], QueryAccept method [DirectShow],IPin interface, dshow.ipin_queryaccept, strmif/IPin::QueryAccept
-ms.topic: method
 f1_keywords:
 - strmif/IPin.QueryAccept
 dev_langs:

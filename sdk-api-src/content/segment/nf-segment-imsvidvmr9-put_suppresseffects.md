@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 6e51ed2a-7516-4621-9ecb-0e645c6d416c
 ms.date: 12/05/2018
 ms.keywords: IMSVidVMR9 interface [Microsoft TV Technologies],put_SuppressEffects method, IMSVidVMR9.put_SuppressEffects, IMSVidVMR9::put_SuppressEffects, IMSVidVMR9put_SuppressEffects, mstv.imsvidvmr9_put_suppresseffects, put_SuppressEffects, put_SuppressEffects method [Microsoft TV Technologies], put_SuppressEffects method [Microsoft TV Technologies],IMSVidVMR9 interface, segment/IMSVidVMR9::put_SuppressEffects
-ms.topic: method
 f1_keywords:
 - segment/IMSVidVMR9.put_SuppressEffects
 dev_langs:

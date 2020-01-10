@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: a0311454-3908-49a6-95c0-c118dca259ac
 ms.date: 12/05/2018
 ms.keywords: PowerDeterminePlatformRole, PowerDeterminePlatformRole function, base.powerdetermineplatformrole, powrprof/PowerDeterminePlatformRole
-ms.topic: function
 f1_keywords:
 - powrprof/PowerDeterminePlatformRole
 dev_langs:

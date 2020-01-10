@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 4887d299-8c63-4ead-b456-e80417e6ec56
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalEventSinkRegistration interface [TAPI 2.2],RegisterSink method, ITPluggableTerminalEventSinkRegistration.RegisterSink, ITPluggableTerminalEventSinkRegistration::RegisterSink, RegisterSink, RegisterSink method [TAPI 2.2], RegisterSink method [TAPI 2.2],ITPluggableTerminalEventSinkRegistration interface, _tapi3_itpluggableterminaleventsinkregistration_registersink, msp/ITPluggableTerminalEventSinkRegistration::RegisterSink, tapi3.itpluggableterminaleventsinkregistration_registersink
-ms.topic: method
 f1_keywords:
 - tapi3/ITPluggableTerminalEventSinkRegistration.RegisterSink
 dev_langs:

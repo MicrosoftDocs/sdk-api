@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: dd22d855-6ade-4e30-9d39-a4a6434e7185
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [Windows Shell], Enable method [Windows Shell],IAutoComplete interface, IAutoComplete interface [Windows Shell],Enable method, IAutoComplete.Enable, IAutoComplete::Enable, _win32_IAutoComplete_Enable, shell.IAutoComplete_Enable, shldisp/IAutoComplete::Enable
-ms.topic: method
 f1_keywords:
 - shldisp/IAutoComplete.Enable
 dev_langs:

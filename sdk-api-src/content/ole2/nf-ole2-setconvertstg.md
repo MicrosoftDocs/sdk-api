@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 98c8fd20-6384-4656-941c-1f24d9a4d4a9
 ms.date: 12/05/2018
 ms.keywords: SetConvertStg, SetConvertStg function [Structured Storage], _stg_setconvertstg, ole2/SetConvertStg, stg.setconvertstg
-ms.topic: function
 f1_keywords:
 - ole2/SetConvertStg
 dev_langs:

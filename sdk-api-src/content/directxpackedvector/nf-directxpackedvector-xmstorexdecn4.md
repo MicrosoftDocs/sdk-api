@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreXDecN4(XMXDECN4@,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMStoreXDecN4, XMStoreXDecN4, XMStoreXDecN4 method [DirectX Math Support APIs], dxmath.xmstorexdecn4
-ms.topic: function
 f1_keywords:
 - directxpackedvector/XMStoreXDecN4
 dev_langs:

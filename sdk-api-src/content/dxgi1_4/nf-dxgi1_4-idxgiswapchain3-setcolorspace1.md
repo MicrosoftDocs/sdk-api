@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 3B4391A5-C4E0-4D2E-BCEE-5DB635B98CFD
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain3 interface [DXGI],SetColorSpace1 method, IDXGISwapChain3.SetColorSpace1, IDXGISwapChain3::SetColorSpace1, SetColorSpace1, SetColorSpace1 method [DXGI], SetColorSpace1 method [DXGI],IDXGISwapChain3 interface, direct3ddxgi.idxgiswapchain3_setcolorspace1, dxgi1_4/IDXGISwapChain3::SetColorSpace1
-ms.topic: method
 f1_keywords:
 - dxgi1_4/IDXGISwapChain3.SetColorSpace1
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 332ab3f8-6ad3-4bbc-85a3-b0d2a4b07bc5
 ms.date: 12/05/2018
 ms.keywords: OffsetClipRgn, OffsetClipRgn function [Windows GDI], _win32_OffsetClipRgn, gdi.offsetcliprgn, wingdi/OffsetClipRgn
-ms.topic: function
 f1_keywords:
 - wingdi/OffsetClipRgn
 dev_langs:

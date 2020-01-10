@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 74d0c373-e9b1-4d9c-bdb6-caa743938e32
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncMgrEvents, IEnumSyncMgrEvents interface [Windows Shell], IEnumSyncMgrEvents interface [Windows Shell],described, _shell_IEnumSyncMgrEvents, shell.IEnumSyncMgrEvents, syncmgr/IEnumSyncMgrEvents
-ms.topic: interface
 f1_keywords:
 - syncmgr/IEnumSyncMgrEvents
 dev_langs:

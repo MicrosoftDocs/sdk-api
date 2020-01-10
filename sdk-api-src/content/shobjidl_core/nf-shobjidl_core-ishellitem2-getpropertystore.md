@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 706b2551-a9b0-4368-babb-e54cea6d297e
 ms.date: 12/05/2018
 ms.keywords: GetPropertyStore, GetPropertyStore method [Windows Shell], GetPropertyStore method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetPropertyStore method, IShellItem2.GetPropertyStore, IShellItem2::GetPropertyStore, _shell_IShellItem2_GetPropertyStore, shell.IShellItem2_GetPropertyStore, shobjidl_core/IShellItem2::GetPropertyStore
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellItem2.GetPropertyStore
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT4X4.#ctor
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT4X4, XMFLOAT4X4 constructor [DirectX Math Support APIs], XMFLOAT4X4 constructor [DirectX Math Support APIs],XMFLOAT4X4 structure, XMFLOAT4X4 structure [DirectX Math Support APIs],XMFLOAT4X4 constructor, XMFLOAT4X4.XMFLOAT4X4, XMFLOAT4X4.XMFLOAT4X4(), XMFLOAT4X4.XMFLOAT4X4(XMFLOAT4X4 &&), XMFLOAT4X4::XMFLOAT4X4, XMFLOAT4X4::XMFLOAT4X4(XMFLOAT4X4 &&), dxmath.xmfloat4x4_ctor_1
-ms.topic: method
 f1_keywords:
 - directxmath/XMFLOAT4X4.XMFLOAT4X4
 dev_langs:

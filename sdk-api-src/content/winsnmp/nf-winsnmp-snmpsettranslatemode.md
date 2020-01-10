@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: 8ee7e660-e718-40e6-adcd-1554eb7391d9
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_TRANSLATED, SNMPAPI_UNTRANSLATED_V1, SNMPAPI_UNTRANSLATED_V2, SnmpSetTranslateMode, SnmpSetTranslateMode function [SNMP], _snmp_snmpsettranslatemode, snmp.snmpsettranslatemode, winsnmp/SnmpSetTranslateMode
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpSetTranslateMode
 dev_langs:

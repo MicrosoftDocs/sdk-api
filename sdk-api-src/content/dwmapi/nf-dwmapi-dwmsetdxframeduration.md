@@ -7,7 +7,6 @@ tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmsetdxframeduration.htm
 ms.date: 12/05/2018
 ms.keywords: DwmSetDxFrameDuration, DwmSetDxFrameDuration function [Desktop Window Manager], _udwm_dwmsetdxframeduration, _udwm_dwmsetdxframeduration_cpp, dwm.dwmsetdxframeduration, dwmapi/DwmSetDxFrameDuration, winui._udwm_dwmsetdxframeduration
-ms.topic: function
 f1_keywords:
 - dwmapi/DwmSetDxFrameDuration
 dev_langs:

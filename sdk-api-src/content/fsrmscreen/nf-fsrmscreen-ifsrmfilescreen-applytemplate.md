@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: d495cb92-09c4-4fa5-873c-5f07475eb7bf
 ms.date: 12/05/2018
 ms.keywords: ApplyTemplate, ApplyTemplate method [File Server Resource Manager], ApplyTemplate method [File Server Resource Manager],IFsrmFileScreen interface, IFsrmFileScreen interface [File Server Resource Manager],ApplyTemplate method, IFsrmFileScreen.ApplyTemplate, IFsrmFileScreen::ApplyTemplate, fs.ifsrmfilescreen_applytemplate, fsrm.ifsrmfilescreen_applytemplate, fsrmscreen/IFsrmFileScreen::ApplyTemplate
-ms.topic: method
 f1_keywords:
 - fsrmscreen/IFsrmFileScreen.ApplyTemplate
 dev_langs:

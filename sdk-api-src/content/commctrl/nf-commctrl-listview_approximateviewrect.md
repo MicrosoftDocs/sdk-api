@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_approximateviewrect.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_ApproximateViewRect, ListView_ApproximateViewRect macro [Windows Controls], _win32_ListView_ApproximateViewRect, _win32_ListView_ApproximateViewRect_cpp, commctrl/ListView_ApproximateViewRect, controls.ListView_ApproximateViewRect, controls._win32_ListView_ApproximateViewRect
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_ApproximateViewRect
 dev_langs:

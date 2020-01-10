@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 3a2ba59c-3565-4f54-ac10-923dcb4882cb
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgr, ITfThreadMgr interface [Text Services Framework], ITfThreadMgr interface [Text Services Framework],described, _tsf_itfthreadmgr_ref, msctf/ITfThreadMgr, tsf.itfthreadmgr
-ms.topic: interface
 f1_keywords:
 - msctf/ITfThreadMgr
 dev_langs:

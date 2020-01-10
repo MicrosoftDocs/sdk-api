@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 4f0110b5-3770-4aae-8df7-d2481eac3417
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_IP_RESERVATION_INFO, CLIENT_TYPE_BOOTP, CLIENT_TYPE_BOTH, CLIENT_TYPE_DHCP, DHCP_IP_RESERVATION_INFO, DHCP_IP_RESERVATION_INFO structure [DHCP], LPDHCP_IP_RESERVATION_INFO, LPDHCP_IP_RESERVATION_INFO structure pointer [DHCP], dhcp.dhcp_ip_reservation_info, dhcpsapi/DHCP_IP_RESERVATION_INFO, dhcpsapi/LPDHCP_IP_RESERVATION_INFO'
-ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_IP_RESERVATION_INFO
 dev_langs:

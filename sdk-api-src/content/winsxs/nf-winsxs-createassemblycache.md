@@ -7,7 +7,6 @@ tech.root: SbsCs
 ms.assetid: 99032c27-d9a3-4319-ba6e-2271d35da804
 ms.date: 12/05/2018
 ms.keywords: CreateAssemblyCache, CreateAssemblyCache function [Side-by-side Assemblies], setup.createassemblycache, winsxs/CreateAssemblyCache
-ms.topic: function
 f1_keywords:
 - winsxs/CreateAssemblyCache
 dev_langs:

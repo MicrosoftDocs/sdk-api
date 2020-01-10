@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 89dab3ee-e9f8-499a-97ec-6fe732315891
 ms.date: 12/05/2018
 ms.keywords: StrRetToBuf, StrRetToBuf function [Windows Shell], StrRetToBufA, StrRetToBufW, _win32_StrRetToBuf, shell.StrRetToBuf, shlwapi/StrRetToBuf, shlwapi/StrRetToBufA, shlwapi/StrRetToBufW
-ms.topic: function
 f1_keywords:
 - shlwapi/StrRetToBuf
 dev_langs:

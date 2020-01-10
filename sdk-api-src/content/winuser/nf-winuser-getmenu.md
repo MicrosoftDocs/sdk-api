@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenu.htm
 ms.date: 12/05/2018
 ms.keywords: GetMenu, GetMenu function [Menus and Other Resources], _win32_GetMenu, _win32_getmenu_cpp, menurc.getmenu, winui._win32_getmenu, winuser/GetMenu
-ms.topic: function
 f1_keywords:
 - winuser/GetMenu
 dev_langs:

@@ -5,7 +5,6 @@ description: Creates a lifetime tracker associated with an application-defined c
 tech.root: direct3d12
 ms.date: 10/30/2019
 ms.keywords: ID3D12Device5::CreateLifetimeTracker
-ms.topic: language-reference
 f1_keywords:
 - d3d12/ID3D12Device5.CreateLifetimeTracker
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8415560c-0dc8-4d37-b584-9e278542cf15
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_EnableMulticast method, IAMNetShowConfig.put_EnableMulticast, IAMNetShowConfig::put_EnableMulticast, IAMNetShowConfigput_EnableMulticast, dshow.iamnetshowconfig_put_enablemulticast, put_EnableMulticast, put_EnableMulticast method [DirectShow], put_EnableMulticast method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_EnableMulticast
-ms.topic: method
 f1_keywords:
 - qnetwork/IAMNetShowConfig.put_EnableMulticast
 dev_langs:

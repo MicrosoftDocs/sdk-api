@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: b213ad08-8a72-4b4a-bffa-b68783693340
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSource2 interface [Microsoft TV Technologies],put_RateEx method, IMSVidStreamBufferSource2.put_RateEx, IMSVidStreamBufferSource2::put_RateEx, IMSVidStreamBufferSource2put_RateEx, mstv.imsvidstreambuffersource2_put_rateex, put_RateEx, put_RateEx method [Microsoft TV Technologies], put_RateEx method [Microsoft TV Technologies],IMSVidStreamBufferSource2 interface, segment/IMSVidStreamBufferSource2::put_RateEx
-ms.topic: method
 f1_keywords:
 - segment/IMSVidStreamBufferSource2.put_RateEx
 dev_langs:

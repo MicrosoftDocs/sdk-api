@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 6618ee02-1939-4c9c-8690-a8cd5d668cdb
 ms.date: 12/05/2018
 ms.keywords: PropVariantToStringVector, PropVariantToStringVector function [Windows Properties], _shell_PropVariantToStringVector, properties.PropVariantToStringVector, propvarutil/PropVariantToStringVector, shell.PropVariantToStringVector
-ms.topic: function
 f1_keywords:
 - propvarutil/PropVariantToStringVector
 dev_langs:

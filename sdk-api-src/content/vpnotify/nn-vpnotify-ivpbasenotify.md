@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c72bd662-366c-4102-9ad9-9e4c59096ede
 ms.date: 12/05/2018
 ms.keywords: IVPBaseNotify, IVPBaseNotify interface [DirectShow], IVPBaseNotify interface [DirectShow],described, IVPBaseNotifyInterface, dshow.ivpbasenotify, vpnotify/IVPBaseNotify
-ms.topic: interface
 f1_keywords:
 - vpnotify/IVPBaseNotify
 dev_langs:

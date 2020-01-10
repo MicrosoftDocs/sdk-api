@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: d2d690ba-8da2-4d53-a42c-14e4f010bc2d
 ms.date: 12/05/2018
 ms.keywords: ISyncCallback2, ISyncCallback2 interface [Windows Sync], ISyncCallback2 interface [Windows Sync],described, winsync.isynccallback2, winsync/ISyncCallback2
-ms.topic: interface
 f1_keywords:
 - winsync/ISyncCallback2
 dev_langs:

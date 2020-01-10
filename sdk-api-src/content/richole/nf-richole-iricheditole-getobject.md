@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolegetobject.htm
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [Windows Controls], GetObject method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],GetObject method, IRichEditOle.GetObject, IRichEditOle::GetObject, REO_GETOBJ_ALL_INTERFACES, REO_GETOBJ_NO_INTERFACES, REO_GETOBJ_POLEOBJ, REO_GETOBJ_POLESITE, REO_GETOBJ_PSTG, _win32_IRichEditOle_GetObject, _win32_IRichEditOle_GetObject_cpp, controls.IRichEditOle_GetObject, controls._win32_IRichEditOle_GetObject, richole/IRichEditOle::GetObject
-ms.topic: method
 f1_keywords:
 - richole/IRichEditOle.GetObject
 dev_langs:

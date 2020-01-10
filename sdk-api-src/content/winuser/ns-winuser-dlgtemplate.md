@@ -7,7 +7,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxstructures\dlgtemplate.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPDLGTEMPLATEA, *LPDLGTEMPLATEW, DLGTEMPLATE, DLGTEMPLATE structure [Dialog Boxes], LPDLGTEMPLATE, LPDLGTEMPLATE structure pointer [Dialog Boxes], _win32_DLGTEMPLATE_str, _win32_dlgtemplate_str_cpp, dlgbox.dlgtemplate, winui._win32_dlgtemplate_str, winuser/DLGTEMPLATE, winuser/LPDLGTEMPLATE'
-ms.topic: struct
 f1_keywords:
 - winuser/DLGTEMPLATE
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 4bcf994c-3091-445e-ad79-91958e48960a
 ms.date: 12/05/2018
 ms.keywords: Bind, Bind method [TAPI 2.2], Bind method [TAPI 2.2],ITDirectory interface, ITDirectory interface [TAPI 2.2],Bind method, ITDirectory.Bind, ITDirectory::Bind, _tapi3_itdirectory_bind, rend/ITDirectory::Bind, tapi3.itdirectory_bind
-ms.topic: method
 f1_keywords:
 - rend/ITDirectory.Bind
 dev_langs:

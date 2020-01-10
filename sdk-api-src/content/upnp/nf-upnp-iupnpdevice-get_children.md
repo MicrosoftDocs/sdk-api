@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: a8cdc66f-c5c0-4328-a8f2-f40d55a20a4f
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_Children method, IUPnPDevice.get_Children, IUPnPDevice::get_Children, _upnp_iupnpdevice_children, get_Children, get_Children method [UPnP APIs], get_Children method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_children, upnp/IUPnPDevice::get_Children
-ms.topic: method
 f1_keywords:
 - upnp/IUPnPDevice.get_Children
 dev_langs:

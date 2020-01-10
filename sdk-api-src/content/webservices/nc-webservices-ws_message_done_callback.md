@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 59ab7cbe-dc66-4e74-bec9-ffb25173ff87
 ms.date: 12/05/2018
 ms.keywords: WS_MESSAGE_DONE_CALLBACK, WS_MESSAGE_DONE_CALLBACK callback, WS_MESSAGE_DONE_CALLBACK callback function [Web Services for Windows], webservices/WS_MESSAGE_DONE_CALLBACK, wsw.ws_message_done_callback
-ms.topic: callback
 f1_keywords:
 - webservices/WS_MESSAGE_DONE_CALLBACK
 dev_langs:

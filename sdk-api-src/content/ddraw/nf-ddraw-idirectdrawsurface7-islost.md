@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: f4654478-ca09-4856-8221-ef5454c23535
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],IsLost method, IDirectDrawSurface7.IsLost, IDirectDrawSurface7::IsLost, IsLost, IsLost method [DirectDraw], IsLost method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::IsLost, directdraw.idirectdrawsurface7_islost
-ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawSurface7.IsLost
 dev_langs:

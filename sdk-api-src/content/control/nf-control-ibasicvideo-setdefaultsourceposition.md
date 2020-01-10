@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f7b440c0-8f91-4f32-adc6-82fa658125d0
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],SetDefaultSourcePosition method, IBasicVideo.SetDefaultSourcePosition, IBasicVideo::SetDefaultSourcePosition, IBasicVideoSetDefaultSourcePosition, SetDefaultSourcePosition, SetDefaultSourcePosition method [DirectShow], SetDefaultSourcePosition method [DirectShow],IBasicVideo interface, control/IBasicVideo::SetDefaultSourcePosition, dshow.ibasicvideo_setdefaultsourceposition
-ms.topic: method
 f1_keywords:
 - control/IBasicVideo.SetDefaultSourcePosition
 dev_langs:

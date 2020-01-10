@@ -7,7 +7,6 @@ tech.root: mediastreaming
 ms.assetid: E113C600-1F55-4653-A4FD-A1286699B137
 ms.date: 12/05/2018
 ms.keywords: CreateDevicesOnMatchingNetworkAsync, CreateDevicesOnMatchingNetworkAsync method [Media Streaming API], CreateDevicesOnMatchingNetworkAsync method [Media Streaming API],IActiveBasicDeviceStatics interface, IActiveBasicDeviceStatics interface [Media Streaming API],CreateDevicesOnMatchingNetworkAsync method, IActiveBasicDeviceStatics.CreateDevicesOnMatchingNetworkAsync, IActiveBasicDeviceStatics.streaming, IActiveBasicDeviceStatics::CreateDevicesOnMatchingNetworkAsync, IActiveBasicDeviceStatics::streaming, mediastreaming.iactivebasicdevicestatics_createdevicesonmatchingnetworkasync, windows/IActiveBasicDeviceStatics::CreateDevicesOnMatchingNetworkAsync
-ms.topic: method
 f1_keywords:
 - windows.media.streaming/IActiveBasicDeviceStatics.CreateDevicesOnMatchingNetworkAsync
 dev_langs:

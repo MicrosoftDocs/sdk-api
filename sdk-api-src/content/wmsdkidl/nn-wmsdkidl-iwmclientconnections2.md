@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 7148dd13-e5de-4adb-89e7-3f02a463c2d1
 ms.date: 12/05/2018
 ms.keywords: IWMClientConnections2, IWMClientConnections2 interface [windows Media Format], IWMClientConnections2 interface [windows Media Format],described, IWMClientConnections2Interface, wmformat.iwmclientconnections2, wmsdkidl/IWMClientConnections2
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMClientConnections2
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 80ed11fc-89f8-47ab-8b3b-c817733bd385
 ms.date: 12/05/2018
 ms.keywords: GdiComment, GdiComment function [Windows GDI], _win32_GdiComment, gdi.gdicomment, wingdi/GdiComment
-ms.topic: function
 f1_keywords:
 - wingdi/GdiComment
 dev_langs:

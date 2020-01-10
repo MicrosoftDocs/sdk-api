@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 955d0494-8418-42a1-ab6e-2c779165f578
 ms.date: 12/05/2018
 ms.keywords: CancelDefaultHandling, CancelDefaultHandling method [DirectShow], CancelDefaultHandling method [DirectShow],IMediaEvent interface, IMediaEvent interface [DirectShow],CancelDefaultHandling method, IMediaEvent.CancelDefaultHandling, IMediaEvent::CancelDefaultHandling, IMediaEventCancelDefaultHandling, control/IMediaEvent::CancelDefaultHandling, dshow.imediaevent_canceldefaulthandling
-ms.topic: method
 f1_keywords:
 - control/IMediaEvent.CancelDefaultHandling
 dev_langs:

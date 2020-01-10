@@ -7,7 +7,6 @@ tech.root: lwef
 ms.assetid: 1f88cd96-670f-4c54-9a66-2b3748b5e573
 ms.date: 12/05/2018
 ms.keywords: IActiveDesktopP interface [Legacy Windows Environment Features],SetSafeMode method, IActiveDesktopP.SetSafeMode, IActiveDesktopP::SetSafeMode, SSM_SET, SSM_UPDATE, SetSafeMode, SetSafeMode method [Legacy Windows Environment Features], SetSafeMode method [Legacy Windows Environment Features],IActiveDesktopP interface, _win32_IActiveDesktopP_SetSafeMode, lwef.iactivedesktopp_setsafemode, shell.iactivedesktopp_setsafemode, shlobj/IActiveDesktopP::SetSafeMode
-ms.topic: method
 f1_keywords:
 - shlobj/IActiveDesktopP.SetSafeMode
 dev_langs:

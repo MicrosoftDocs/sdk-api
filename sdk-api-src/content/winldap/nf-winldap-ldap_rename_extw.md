@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: 73633a71-ebe6-4169-a9ff-17151d90ebcd
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_rename_ext, ldap.ldap__rename__ext, ldap.ldap_rename_ext, ldap_rename_ext, ldap_rename_ext function [LDAP], ldap_rename_extA, ldap_rename_extW, winldap/ldap_rename_ext, winldap/ldap_rename_extA, winldap/ldap_rename_extW
-ms.topic: function
 f1_keywords:
 - winldap/ldap_rename_ext
 dev_langs:

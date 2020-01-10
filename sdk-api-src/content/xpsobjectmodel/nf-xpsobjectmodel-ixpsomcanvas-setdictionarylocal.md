@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f6cd655f-8850-4fce-95af-50edbdd38cb1
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCanvas interface [XPS Documents and Packaging],SetDictionaryLocal method, IXpsOMCanvas.SetDictionaryLocal, IXpsOMCanvas::SetDictionaryLocal, SetDictionaryLocal, SetDictionaryLocal method [XPS Documents and Packaging], SetDictionaryLocal method [XPS Documents and Packaging],IXpsOMCanvas interface, xps.ixpsomcanvas_setdictionarylocal, xpsobjectmodel/IXpsOMCanvas::SetDictionaryLocal
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCanvas.SetDictionaryLocal
 dev_langs:

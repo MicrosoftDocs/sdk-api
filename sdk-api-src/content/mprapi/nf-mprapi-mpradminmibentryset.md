@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 53dabf73-b9c5-4245-9269-bd7c6ce00026
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBEntrySet, MprAdminMIBEntrySet function [RAS], _mpr_mpradminmibentryset, mprapi/MprAdminMIBEntrySet, rras.mpradminmibentryset
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminMIBEntrySet
 dev_langs:

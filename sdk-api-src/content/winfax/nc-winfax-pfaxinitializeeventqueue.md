@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2ip1.htm
 ms.date: 12/05/2018
 ms.keywords: FaxInitializeEventQueueA, FaxInitializeEventQueueW, PFAXINITIALIZEEVENTQUEUE, PFAXINITIALIZEEVENTQUEUE callback, PFAXINITIALIZEEVENTQUEUE callback function [Fax Service], _mfax_faxinitializeeventqueue, fax._mfax_faxinitializeeventqueue, winfax/FaxInitializeEventQueueA, winfax/FaxInitializeEventQueueW, winfax/PFAXINITIALIZEEVENTQUEUE
-ms.topic: callback
 f1_keywords:
 - winfax/PFAXINITIALIZEEVENTQUEUE
 dev_langs:

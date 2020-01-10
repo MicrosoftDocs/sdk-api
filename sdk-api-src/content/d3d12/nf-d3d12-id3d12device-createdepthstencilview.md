@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 57C0CA35-CFBE-4D79-B8D7-BD01CEBEA144
 ms.date: 12/05/2018
 ms.keywords: CreateDepthStencilView, CreateDepthStencilView method, CreateDepthStencilView method,ID3D12Device interface, ID3D12Device interface,CreateDepthStencilView method, ID3D12Device.CreateDepthStencilView, ID3D12Device::CreateDepthStencilView, d3d12/ID3D12Device::CreateDepthStencilView, direct3d12.id3d12device_createdepthstencilview
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Device.CreateDepthStencilView
 dev_langs:

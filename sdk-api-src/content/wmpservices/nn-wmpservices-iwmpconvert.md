@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 316d1a13-0803-4414-8c51-0d5c4768b06d
 ms.date: 12/05/2018
 ms.keywords: IWMPConvert, IWMPConvert interface [Windows Media Player], IWMPConvert interface [Windows Media Player],described, IWMPConvertInterface, wmp.iwmpconvert, wmpservices/IWMPConvert
-ms.topic: interface
 f1_keywords:
 - wmpservices/IWMPConvert
 dev_langs:

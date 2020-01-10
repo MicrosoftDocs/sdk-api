@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 40353352-da1f-44d8-a2c3-e6fd4639bd98
 ms.date: 12/05/2018
 ms.keywords: ?GetDMTFNonNtfs@WBEMTime@@QBEPAGXZ, ?GetDMTFNonNtfs@WBEMTime@@QEBAPEAGXZ, GetDMTFNonNtfs, GetDMTFNonNtfs method [Windows Management Instrumentation], GetDMTFNonNtfs method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetDMTFNonNtfs method, WBEMTime.GetDMTFNonNtfs, WBEMTime::GetDMTFNonNtfs, _hmm_wbemtime_getdmtfnonntfs, wbemtime/WBEMTime::GetDMTFNonNtfs, wmi.wbemtime_getdmtfnonntfs
-ms.topic: method
 f1_keywords:
 - wbemtime/WBEMTime.GetDMTFNonNtfs
 dev_langs:

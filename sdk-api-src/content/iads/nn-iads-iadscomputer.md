@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: e2b90a98-5777-42c2-95dd-4623e738c4da
 ms.date: 12/05/2018
 ms.keywords: IADsComputer, IADsComputer interface [ADSI], IADsComputer interface [ADSI],described, _ds_iadscomputer, adsi.iadscomputer, iads/IADsComputer
-ms.topic: interface
 f1_keywords:
 - iads/IADsComputer
 dev_langs:

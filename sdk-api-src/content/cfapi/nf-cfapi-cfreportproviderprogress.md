@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: 33AB46FD-200E-40FF-B061-5842C6433069
 ms.date: 12/05/2018
 ms.keywords: CfReportProviderProgress, CfReportProviderProgress function, cfapi/CfReportProviderProgress, cloudApi.cfreportproviderprogress
-ms.topic: function
 f1_keywords:
 - cfapi/CfReportProviderProgress
 dev_langs:

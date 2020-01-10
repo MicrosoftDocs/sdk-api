@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 3008e70c-cc34-45b0-bdfc-17f2e9cd5de0
 ms.date: 12/05/2018
 ms.keywords: GPMBackupDirEx, IGPMBackupDirEx, IGPMBackupDirEx interface [GPMC], IGPMBackupDirEx interface [GPMC],described, gpmc.igpmbackupdirex, gpmgmt/IGPMBackupDirEx
-ms.topic: interface
 f1_keywords:
 - gpmgmt/IGPMBackupDirEx
 dev_langs:

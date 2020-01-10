@@ -7,7 +7,6 @@ tech.root: MachineLearning
 ms.assetid: 3D9FE11A-6053-4F59-9488-08A92EB45A09
 ms.date: 12/05/2018
 ms.keywords: MachineLearning.winml_map_binding_desc, PWINML_MAP_BINDING_DESC, PWINML_MAP_BINDING_DESC structure pointer, WINML_MAP_BINDING_DESC, WINML_MAP_BINDING_DESC structure, winml/PWINML_MAP_BINDING_DESC, winml/WINML_MAP_BINDING_DESC
-ms.topic: struct
 f1_keywords:
 - winml/WINML_MAP_BINDING_DESC
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 1d2115fb-2725-4fae-abb7-ff1b8a802c69
 ms.date: 12/05/2018
 ms.keywords: SymGetSourceFile, SymGetSourceFile function, SymGetSourceFileW, base.symgetsourcefile, dbghelp/SymGetSourceFile, dbghelp/SymGetSourceFileW
-ms.topic: function
 f1_keywords:
 - dbghelp/SymGetSourceFile
 dev_langs:

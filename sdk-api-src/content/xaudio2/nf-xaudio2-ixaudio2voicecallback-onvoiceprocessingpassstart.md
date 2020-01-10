@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.OnVoiceProcessingPassStart(UINT32)
 ms.date: 12/05/2018
 ms.keywords: IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs],OnVoiceProcessingPassStart method, IXAudio2VoiceCallback.OnVoiceProcessingPassStart, IXAudio2VoiceCallback::OnVoiceProcessingPassStart, OnVoiceProcessingPassStart, OnVoiceProcessingPassStart method [XAudio2 Audio Mixing APIs], OnVoiceProcessingPassStart method [XAudio2 Audio Mixing APIs],IXAudio2VoiceCallback interface, xaudio2.ixaudio2voicecallback_interface_onvoiceprocessingpassstart, xaudio2/IXAudio2VoiceCallback::OnVoiceProcessingPassStart
-ms.topic: method
 f1_keywords:
 - xaudio2/IXAudio2VoiceCallback.OnVoiceProcessingPassStart
 dev_langs:

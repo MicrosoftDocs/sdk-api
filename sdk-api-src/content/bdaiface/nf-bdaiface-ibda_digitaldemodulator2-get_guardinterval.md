@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: e122fac7-bad8-4fbf-bf7d-ffbfad75a5d8
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],get_GuardInterval method, IBDA_DigitalDemodulator2.get_GuardInterval, IBDA_DigitalDemodulator2::get_GuardInterval, bdaiface/IBDA_DigitalDemodulator2::get_GuardInterval, get_GuardInterval, get_GuardInterval method [Microsoft TV Technologies], get_GuardInterval method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface, mstv.ibda_digitaldemodulator2_get_guardinterval
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_DigitalDemodulator2.get_GuardInterval
 dev_langs:

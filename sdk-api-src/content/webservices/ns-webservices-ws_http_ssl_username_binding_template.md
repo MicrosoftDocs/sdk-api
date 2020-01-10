@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: df8d66bf-4407-4316-bc15-214b3b00de41
 ms.date: 12/05/2018
 ms.keywords: WS_HTTP_SSL_USERNAME_BINDING_TEMPLATE, WS_HTTP_SSL_USERNAME_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_HTTP_SSL_USERNAME_BINDING_TEMPLATE, wsw.ws_http_ssl_username_binding_template
-ms.topic: struct
 f1_keywords:
 - webservices/WS_HTTP_SSL_USERNAME_BINDING_TEMPLATE
 dev_langs:

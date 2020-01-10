@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: a559c0b4-ed63-47ef-b99a-866c87939d5b
 ms.date: 12/05/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_Length method, IMSVidPlayback.get_Length, IMSVidPlayback::get_Length, IMSVidPlaybackget_Length, get_Length, get_Length method [Microsoft TV Technologies], get_Length method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_get_length, segment/IMSVidPlayback::get_Length
-ms.topic: method
 f1_keywords:
 - segment/IMSVidPlayback.get_Length
 dev_langs:

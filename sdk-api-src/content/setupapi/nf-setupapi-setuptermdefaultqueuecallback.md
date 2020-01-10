@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: de99ee40-9fbb-42e2-b070-d1c25b238135
 ms.date: 12/05/2018
 ms.keywords: SetupTermDefaultQueueCallback, SetupTermDefaultQueueCallback function [Setup API], _setupapi_setuptermdefaultqueuecallback, setup.setuptermdefaultqueuecallback, setupapi/SetupTermDefaultQueueCallback
-ms.topic: function
 f1_keywords:
 - setupapi/SetupTermDefaultQueueCallback
 dev_langs:

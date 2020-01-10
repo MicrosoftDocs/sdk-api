@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 52dd85aa-033b-43ab-9b71-1080f969bebc
 ms.date: 12/05/2018
 ms.keywords: GetTemplates, GetTemplates method [Security], GetTemplates method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetTemplates method, IX509EnrollmentPolicyServer.GetTemplates, IX509EnrollmentPolicyServer::GetTemplates, certenroll/IX509EnrollmentPolicyServer::GetTemplates, security.ix509enrollmentpolicyserver_gettemplates
-ms.topic: method
 f1_keywords:
 - certenroll/IX509EnrollmentPolicyServer.GetTemplates
 dev_langs:

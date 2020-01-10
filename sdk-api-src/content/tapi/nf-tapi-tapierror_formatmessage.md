@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 95817592-467f-438e-ae81-b4c2fff42d1f
 ms.date: 12/05/2018
 ms.keywords: TAPIERROR_FORMATMESSAGE, TAPIERROR_FORMATMESSAGE macro [TAPI 2.2], _tapi2_tapierror_formatmessage, tapi/TAPIERROR_FORMATMESSAGE, tapi2.tapierror_formatmessage
-ms.topic: macro
 f1_keywords:
 - tapi/TAPIERROR_FORMATMESSAGE
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c0e249f4-4a17-4c5d-8f16-bb1aceef2064
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_BorderColor method, IVideoWindow.put_BorderColor, IVideoWindow::put_BorderColor, IVideoWindowput_BorderColor, control/IVideoWindow::put_BorderColor, dshow.ivideowindow_put_bordercolor, put_BorderColor, put_BorderColor method [DirectShow], put_BorderColor method [DirectShow],IVideoWindow interface
-ms.topic: method
 f1_keywords:
 - control/IVideoWindow.put_BorderColor
 dev_langs:

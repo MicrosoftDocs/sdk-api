@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: E173F5D8-955B-44FF-980E-CEF536A87AF5
 ms.date: 12/05/2018
 ms.keywords: '*PNOTIFY_FILTER_AND_TYPE, NOTIFY_FILTER_AND_TYPE, NOTIFY_FILTER_AND_TYPE structure [Failover Cluster], PNOTIFY_FILTER_AND_TYPE, PNOTIFY_FILTER_AND_TYPE structure pointer [Failover Cluster], _NOTIFY_FILTER_AND_TYPE, _NOTIFY_FILTER_AND_TYPE structure [Failover Cluster], clusapi/NOTIFY_FILTER_AND_TYPE, clusapi/PNOTIFY_FILTER_AND_TYPE, clusapi/_NOTIFY_FILTER_AND_TYPE, msclus/NOTIFY_FILTER_AND_TYPE, msclus/PNOTIFY_FILTER_AND_TYPE, msclus/_NOTIFY_FILTER_AND_TYPE, mscs.notify_filter_and_type'
-ms.topic: struct
 f1_keywords:
 - msclus/NOTIFY_FILTER_AND_TYPE
 dev_langs:

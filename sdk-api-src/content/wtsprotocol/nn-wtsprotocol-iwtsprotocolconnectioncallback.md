@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: ac8a2a66-fa1f-48bd-9502-def833e26f31
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolConnectionCallback, IWTSProtocolConnectionCallback interface [Remote Desktop Services], IWTSProtocolConnectionCallback interface [Remote Desktop Services],described, termserv.iwtsprotocolconnectioncallback, wtsprotocol/IWTSProtocolConnectionCallback
-ms.topic: interface
 f1_keywords:
 - wtsprotocol/IWTSProtocolConnectionCallback
 dev_langs:

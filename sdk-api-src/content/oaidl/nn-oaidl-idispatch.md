@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: ebbff4bc-36b2-4861-9efa-ffa45e013eb5
 ms.date: 12/05/2018
 ms.keywords: IDispatch, IDispatch interface [Automation], IDispatch interface [Automation],described, _oa96_IDispatch_Interface, automat.idispatch, oaidl/IDispatch
-ms.topic: interface
 f1_keywords:
 - oaidl/IDispatch
 dev_langs:

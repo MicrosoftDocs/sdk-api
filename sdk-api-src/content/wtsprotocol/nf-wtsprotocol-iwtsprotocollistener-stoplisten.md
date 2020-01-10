@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 5c5b09d3-74d6-4067-b18b-ed2a54af4153
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolListener interface [Remote Desktop Services],StopListen method, IWTSProtocolListener.StopListen, IWTSProtocolListener::StopListen, StopListen, StopListen method [Remote Desktop Services], StopListen method [Remote Desktop Services],IWTSProtocolListener interface, termserv.iwtsprotocollistener_stoplisten, wtsprotocol/IWTSProtocolListener::StopListen
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolListener.StopListen
 dev_langs:

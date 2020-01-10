@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 4ec3e676-cf08-4041-b5bf-5cb429569e03
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionEvents interface [Core Audio],OnStateChanged method, IAudioSessionEvents.OnStateChanged, IAudioSessionEvents::OnStateChanged, IAudioSessionEventsOnStateChanged, OnStateChanged, OnStateChanged method [Core Audio], OnStateChanged method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnStateChanged, coreaudio.iaudiosessionevents_onstatechanged
-ms.topic: method
 f1_keywords:
 - audiopolicy/IAudioSessionEvents.OnStateChanged
 dev_langs:

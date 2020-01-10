@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 66720991-3a3f-4c45-a543-b8050d31fcc3
 ms.date: 12/05/2018
 ms.keywords: IAMPluginControl, IAMPluginControl interface [DirectShow], IAMPluginControl interface [DirectShow],described, dshow.iamplugincontrol, strmif/IAMPluginControl
-ms.topic: interface
 f1_keywords:
 - strmif/IAMPluginControl
 dev_langs:

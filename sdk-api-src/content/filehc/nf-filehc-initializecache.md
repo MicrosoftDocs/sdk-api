@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 756235f6-293b-4535-9b0e-4294fafe9e5a
 ms.date: 12/05/2018
 ms.keywords: InitializeCache, InitializeCache function [Windows API], filehc/InitializeCache, winprog._initializecache
-ms.topic: function
 f1_keywords:
 - filehc/InitializeCache
 dev_langs:

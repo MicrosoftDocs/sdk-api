@@ -7,7 +7,6 @@ tech.root: mediatransport
 ms.assetid: 451A65AD-BF03-47F3-B2F1-30484A1B14F3
 ms.date: 12/05/2018
 ms.keywords: ISystemMediaTransportControlsInterop, ISystemMediaTransportControlsInterop interface, ISystemMediaTransportControlsInterop interface,described, mediatransport.isystemmediatransportcontrolsinterop, systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop
-ms.topic: interface
 f1_keywords:
 - systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop
 dev_langs:

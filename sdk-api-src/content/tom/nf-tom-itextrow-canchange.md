@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 721f3841-a50b-4569-b988-71a9fb96f16f
 ms.date: 12/05/2018
 ms.keywords: CanChange, CanChange method [Windows Controls], CanChange method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],CanChange method, ITextRow.CanChange, ITextRow::CanChange, controls.itextrow_canchange, tom/ITextRow::CanChange
-ms.topic: method
 f1_keywords:
 - tom/ITextRow.CanChange
 dev_langs:

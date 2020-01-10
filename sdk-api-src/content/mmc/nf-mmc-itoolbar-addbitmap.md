@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: f2ef31a7-61ce-4ac6-814a-c3a46964c4f1
 ms.date: 12/05/2018
 ms.keywords: AddBitmap, AddBitmap method [MMC], AddBitmap method [MMC],IToolbar interface, IToolbar interface [MMC],AddBitmap method, IToolbar.AddBitmap, IToolbar::AddBitmap, _slate_itoolbar_addbitmap, mmc.itoolbar_addbitmap, mmc/IToolbar::AddBitmap
-ms.topic: method
 f1_keywords:
 - mmc/IToolbar.AddBitmap
 dev_langs:

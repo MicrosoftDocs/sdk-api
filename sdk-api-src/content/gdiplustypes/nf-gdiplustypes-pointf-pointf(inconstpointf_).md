@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointfclass\pointfconstructors\pointf_92point.htm
 ms.date: 12/05/2018
 ms.keywords: PointF, PointF class [GDI+],PointF constructor, PointF constructor [GDI+], PointF constructor [GDI+],PointF class, PointF.PointF, PointF.PointF(IN const PointF &), PointF.PointF(const PointF&), PointF::PointF, PointF::PointF(IN const PointF &), _gdiplus_CLASS_PointF_PointF_point_, gdiplus._gdiplus_CLASS_PointF_PointF_point_
-ms.topic: method
 f1_keywords:
 - gdiplustypes/PointF.PointF
 dev_langs:

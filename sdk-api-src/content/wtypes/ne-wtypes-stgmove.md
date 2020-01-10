@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: f55c376b-f150-406a-b960-f096c2deeff1
 ms.date: 12/05/2018
 ms.keywords: STGMOVE, STGMOVE enumeration [Structured Storage], STGMOVE_COPY, STGMOVE_MOVE, STGMOVE_SHALLOWCOPY, _stg_stgmove, stg.stgmove, wtypes/STGMOVE, wtypes/STGMOVE_COPY, wtypes/STGMOVE_MOVE, wtypes/STGMOVE_SHALLOWCOPY
-ms.topic: enum
 f1_keywords:
 - wtypes/STGMOVE
 dev_langs:

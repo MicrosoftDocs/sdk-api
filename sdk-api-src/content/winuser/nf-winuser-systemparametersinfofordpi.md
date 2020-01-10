@@ -7,7 +7,6 @@ tech.root: hidpi
 ms.assetid: BA460A5B-5356-43A5-B232-03E6E72D15A2
 ms.date: 12/05/2018
 ms.keywords: SystemParametersInfoForDpi, SystemParametersInfoForDpi function [High DPI], hidpi.systemparametersinfofordpi, winuser/SystemParametersInfoForDpi
-ms.topic: function
 f1_keywords:
 - winuser/SystemParametersInfoForDpi
 dev_langs:

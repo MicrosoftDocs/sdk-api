@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 58506709-42e2-43e4-a4c7-b522b7d06e6f
 ms.date: 12/05/2018
 ms.keywords: DVD_PLAYBACK_LOCATION2, DVD_PLAYBACK_LOCATION2 structure [DirectShow], DVD_PLAYBACK_LOCATION2Structure, dshow.dvd_playback_location2, strmif/DVD_PLAYBACK_LOCATION2
-ms.topic: struct
 f1_keywords:
 - strmif/DVD_PLAYBACK_LOCATION2
 dev_langs:

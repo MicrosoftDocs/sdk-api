@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 2f6727bd-b7ba-4e91-9dce-53605b0b6fe1
 ms.date: 12/05/2018
 ms.keywords: IColumnData interface [MMC],SetColumnConfigData method, IColumnData.SetColumnConfigData, IColumnData::SetColumnConfigData, SetColumnConfigData, SetColumnConfigData method [MMC], SetColumnConfigData method [MMC],IColumnData interface, _slate_icolumndata_setcolumnconfigdata, mmc.icolumndata_setcolumnconfigdata, mmc/IColumnData::SetColumnConfigData
-ms.topic: method
 f1_keywords:
 - mmc/IColumnData.SetColumnConfigData
 dev_langs:

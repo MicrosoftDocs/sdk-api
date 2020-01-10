@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a92fbcbf-0cd5-4c7a-bcde-a616a7d022bd
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_IntegerDecode method, IMpegAudioDecoder.put_IntegerDecode, IMpegAudioDecoder::put_IntegerDecode, IMpegAudioDecoderputIntegerDecode, dshow.impegaudiodecoder_put_integerdecode, mpegtype/IMpegAudioDecoder::put_IntegerDecode, put_IntegerDecode, put_IntegerDecode method [DirectShow], put_IntegerDecode method [DirectShow],IMpegAudioDecoder interface
-ms.topic: method
 f1_keywords:
 - mpegtype/IMpegAudioDecoder.put_IntegerDecode
 dev_langs:

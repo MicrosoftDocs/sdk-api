@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 91D0BA4D-60A6-43F8-8BD3-9183DC6CD50D
 ms.date: 12/05/2018
 ms.keywords: StartXpsPrintJob1, StartXpsPrintJob1 function [Windows GDI], gdi.startxpsprintjob1, xpsprint/StartXpsPrintJob1
-ms.topic: function
 f1_keywords:
 - xpsprint/StartXpsPrintJob1
 dev_langs:

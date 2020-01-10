@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 33838ddc-8e0e-431a-a957-40e23f0ad0c7
 ms.date: 12/05/2018
 ms.keywords: IObjectWithFolderEnumMode, IObjectWithFolderEnumMode interface [Windows Shell], IObjectWithFolderEnumMode interface [Windows Shell],described, _shell_IObjectWithFolderEnumMode, shell.IObjectWithFolderEnumMode, shobjidl_core/IObjectWithFolderEnumMode
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IObjectWithFolderEnumMode
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: abc9fecf-7754-4f32-974f-5febfc68a6a7
 ms.date: 12/05/2018
 ms.keywords: IRAS_All, IRAS_DefaultCount, IRAS_Start, InkRecognitionAlternatesSelection, InkRecognitionAlternatesSelection enumeration [Tablet PC], abc9fecf-7754-4f32-974f-5febfc68a6a7, msinkaut/IRAS_All, msinkaut/IRAS_DefaultCount, msinkaut/IRAS_Start, msinkaut/InkRecognitionAlternatesSelection, tablet.inkrecognitionalternatesselection
-ms.topic: enum
 f1_keywords:
 - msinkaut/InkRecognitionAlternatesSelection
 dev_langs:

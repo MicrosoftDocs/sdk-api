@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4fa28126-e65c-49d9-ab76-fb4a0dd0747c
 ms.date: 12/05/2018
 ms.keywords: IExtractImage2, IExtractImage2 interface [Windows Shell], IExtractImage2 interface [Windows Shell],described, _win32_IExtractImage2, shell.IExtractImage2, shobjidl_core/IExtractImage2
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IExtractImage2
 dev_langs:

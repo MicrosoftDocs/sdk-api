@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 3b8de6d3-18a3-4c0a-94d1-04bcec05d41a
 ms.date: 12/05/2018
 ms.keywords: STATPROPSTG, STATPROPSTG [Strctd Stg], STATPROPSTG structure [Structured Storage], _stg_statpropstg, propidlbase/STATPROPSTG, stg.statpropstg, tagSTATPROPSTG
-ms.topic: struct
 f1_keywords:
 - propidlbase/STATPROPSTG
 dev_langs:

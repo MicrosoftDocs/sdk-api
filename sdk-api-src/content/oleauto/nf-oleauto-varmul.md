@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: d804a23b-7d52-4f11-a93e-3eb02a079d2c
 ms.date: 12/05/2018
 ms.keywords: VarMul, VarMul function [Automation], _oa96_VarMul, automat.varmul, oleauto/VarMul
-ms.topic: function
 f1_keywords:
 - oleauto/VarMul
 dev_langs:

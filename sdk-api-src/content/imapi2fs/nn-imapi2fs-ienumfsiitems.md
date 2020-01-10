@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: f3186af1-4056-4cb5-aac4-5253ee6dbc01
 ms.date: 12/05/2018
 ms.keywords: IEnumFsiItems, IEnumFsiItems interface [IMAPI], IEnumFsiItems interface [IMAPI],described, imapi.ienumfsiitems, imapi2fs/IEnumFsiItems
-ms.topic: interface
 f1_keywords:
 - imapi2fs/IEnumFsiItems
 dev_langs:

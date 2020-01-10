@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: cbb9342e-c06a-4040-9c6c-c761195734a4
 ms.date: 12/05/2018
 ms.keywords: PWLX_QUERY_CONSOLESWITCH_CREDENTIALS, PWLX_QUERY_CONSOLESWITCH_CREDENTIALS callback, WlxQueryConsoleSwitchCredentials, WlxQueryConsoleSwitchCredentials callback function [Security], _gina_wlxqueryconsoleswitchcredentials, security.wlxqueryconsoleswitchcredentials, winwlx/WlxQueryConsoleSwitchCredentials
-ms.topic: callback
 f1_keywords:
 - winwlx/WlxQueryConsoleSwitchCredentials
 dev_langs:

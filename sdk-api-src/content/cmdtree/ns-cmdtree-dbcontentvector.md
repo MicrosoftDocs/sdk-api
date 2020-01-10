@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_0coi.htm
 ms.date: 12/05/2018
 ms.keywords: DBCONTENTVECTOR, DBCONTENTVECTOR structure [Indexing Service], _idxs_DBCONTENTVECTOR, cmdtree/DBCONTENTVECTOR, indexsrv.dbcontentvector, tagDBCONTENTVECTOR
-ms.topic: struct
 f1_keywords:
 - cmdtree/DBCONTENTVECTOR
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: ab34a433-b641-4408-81d5-c93609204d24
 ms.date: 12/05/2018
 ms.keywords: TdhEnumerateProviderFieldInformation, TdhEnumerateProviderFieldInformation function [ETW], etw.tdhenumerateproviderfieldinformation_func, tdh.tdhenumerateproviderfieldinformation_func, tdh/TdhEnumerateProviderFieldInformation
-ms.topic: function
 f1_keywords:
 - tdh/TdhEnumerateProviderFieldInformation
 dev_langs:

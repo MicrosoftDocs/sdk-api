@@ -7,7 +7,6 @@ tech.root: WinProg
 ms.assetid: 2275A6AC-E9F9-4469-884B-38D86B53E0DE
 ms.date: 12/05/2018
 ms.keywords: UnsignedMulitplyHigh, UnsignedMultiplyHigh, UnsignedMultiplyHigh function [Windows API], winnt/UnsignedMultiplyHigh, winprog.unsignedmulitplyhigh
-ms.topic: function
 f1_keywords:
 - winnt/UnsignedMultiplyHigh
 dev_langs:

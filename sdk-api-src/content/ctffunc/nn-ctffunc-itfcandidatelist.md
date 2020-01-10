@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: e41ba461-6337-4feb-ba16-3942920ebb9f
 ms.date: 12/05/2018
 ms.keywords: ITfCandidateList, ITfCandidateList interface [Text Services Framework], ITfCandidateList interface [Text Services Framework],described, _tsf_itfcandidatelist_ref, ctffunc/ITfCandidateList, tsf.itfcandidatelist
-ms.topic: interface
 f1_keywords:
 - ctffunc/ITfCandidateList
 dev_langs:

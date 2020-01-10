@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: 3ed180d1-27c9-4f39-b353-1d417636ca62
 ms.date: 12/05/2018
 ms.keywords: DRMGetSignedIssuanceLicense, DRMGetSignedIssuanceLicense function [Active Directory Rights Management Services SDK 1.0], DRM_AUTO_GENERATE_KEY, DRM_OWNER_LICENSE_NOPERSIST, DRM_REUSE_KEY, DRM_SERVER_ISSUANCELICENSE, DRM_SIGN_CANCEL, DRM_SIGN_OFFLINE, DRM_SIGN_ONLINE, msdrm/DRMGetSignedIssuanceLicense, rm.drmgetsignedissuancelicense
-ms.topic: function
 f1_keywords:
 - msdrm/DRMGetSignedIssuanceLicense
 dev_langs:

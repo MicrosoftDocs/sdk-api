@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 16371d6c-adb9-43c2-80a4-377e94854bbb
 ms.date: 12/05/2018
 ms.keywords: BeginMonitor, BeginMonitor method [Structured Storage], BeginMonitor method [Structured Storage],ILayoutStorage interface, ILayoutStorage interface [Structured Storage],BeginMonitor method, ILayoutStorage.BeginMonitor, ILayoutStorage::BeginMonitor, _stg_ilayoutstorage_beginmonitor, objidl/ILayoutStorage::BeginMonitor, stg.ilayoutstorage_beginmonitor
-ms.topic: method
 f1_keywords:
 - objidl/ILayoutStorage.BeginMonitor
 dev_langs:

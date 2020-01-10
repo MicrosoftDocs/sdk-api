@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: bb16061d-a6bb-4816-b52d-c63097638f58
 ms.date: 12/05/2018
 ms.keywords: 0, 1, MMC_SORT_SET_DATA, MMC_SORT_SET_DATA structure [MMC], _slate_mmc_sort_set_data, mmc.mmc_sort_set_data, mmc/MMC_SORT_SET_DATA
-ms.topic: struct
 f1_keywords:
 - mmc/MMC_SORT_SET_DATA
 dev_langs:

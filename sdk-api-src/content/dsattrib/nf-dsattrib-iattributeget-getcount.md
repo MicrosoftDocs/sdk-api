@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 340a0a0d-26e9-4c63-8552-15f7c841c759
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Microsoft TV Technologies], GetCount method [Microsoft TV Technologies],IAttributeGet interface, IAttributeGet interface [Microsoft TV Technologies],GetCount method, IAttributeGet.GetCount, IAttributeGet::GetCount, IAttributeGetGetCount, dsattrib/IAttributeGet::GetCount, mstv.iattributeget_getcount
-ms.topic: method
 f1_keywords:
 - dsattrib/IAttributeGet.GetCount
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMINT4.#ctor(const int32_t)
 ms.date: 12/05/2018
 ms.keywords: XMINT4, XMINT4 constructor [DirectX Math Support APIs], XMINT4 constructor [DirectX Math Support APIs],XMINT4 structure, XMINT4 structure [DirectX Math Support APIs],XMINT4 constructor, XMINT4.XMINT4, XMINT4.XMINT4(const int32_t), XMINT4.XMINT4(const int32_t*), XMINT4::XMINT4, XMINT4::XMINT4(const int32_t), dxmath.xmint4_ctor_3
-ms.topic: method
 f1_keywords:
 - directxmath/XMINT4.XMINT4
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: b6cc23b4-b0cf-410c-9c15-03d58e795e6b
 ms.date: 12/05/2018
 ms.keywords: GetLogoVersion, GetLogoVersion method [Microsoft TV Technologies], GetLogoVersion method [Microsoft TV Technologies],IIsdbLogoTransmissionDescriptor interface, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies],GetLogoVersion method, IIsdbLogoTransmissionDescriptor.GetLogoVersion, IIsdbLogoTransmissionDescriptor::GetLogoVersion, dvbsiparser/IIsdbLogoTransmissionDescriptor::GetLogoVersion, mstv.iisdblogotransmissiondescriptor_getlogoversion
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbLogoTransmissionDescriptor.GetLogoVersion
 dev_langs:

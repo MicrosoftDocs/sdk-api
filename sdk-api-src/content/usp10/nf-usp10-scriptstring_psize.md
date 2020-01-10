@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 2938e600-3f6b-4178-bc0f-bcbcd97b9d04
 ms.date: 12/05/2018
 ms.keywords: ScriptString_pSize, ScriptString_pSize function [Internationalization for Windows Applications], _win32_ScriptString_pSize, intl.scriptstring_psize, usp10/ScriptString_pSize
-ms.topic: function
 f1_keywords:
 - usp10/ScriptString_pSize
 dev_langs:

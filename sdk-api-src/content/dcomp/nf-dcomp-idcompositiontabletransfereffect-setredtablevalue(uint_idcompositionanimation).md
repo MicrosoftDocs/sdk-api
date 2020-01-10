@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 983E302A-F13C-48A7-9C9F-9569EB4585D3
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetRedTableValue method, IDCompositionTableTransferEffect.SetRedTableValue, IDCompositionTableTransferEffect.SetRedTableValue(UINT,IDCompositionAnimation), IDCompositionTableTransferEffect::SetRedTableValue, IDCompositionTableTransferEffect::SetRedTableValue(UINT,IDCompositionAnimation), SetRedTableValue, SetRedTableValue method [DirectComposition], SetRedTableValue method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetRedTableValue, directcomp.idcompositiontabletransfereffect_setredtablevalue_2
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionTableTransferEffect.SetRedTableValue
 dev_langs:

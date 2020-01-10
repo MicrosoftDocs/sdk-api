@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\findresourceex.htm
 ms.date: 12/05/2018
 ms.keywords: FindResourceEx, FindResourceEx function [Menus and Other Resources], FindResourceExA, FindResourceExW, _win32_FindResourceEx, _win32_findresourceex_cpp, menurc.findresourceex, winbase/FindResourceEx, winbase/FindResourceExA, winbase/FindResourceExW, winui._win32_findresourceex
-ms.topic: function
 f1_keywords:
 - winbase/FindResourceEx
 dev_langs:

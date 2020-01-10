@@ -7,7 +7,6 @@ tech.root: MDMReg
 ms.assetid: B19B2E8F-6F1C-4648-97B2-C8D0DB296370
 ms.date: 12/05/2018
 ms.keywords: '*PREGISTRATION_INFORMATION_CLASS, DeviceRegistrationBasicInfo, REGISTRATION_INFORMATION_CLASS, REGISTRATION_INFORMATION_CLASS enumeration [MDM Registration], mdmreg.registration_information_class, mdmregistration/DeviceRegistrationBasicInfo, mdmregistration/REGISTRATION_INFORMATION_CLASS'
-ms.topic: enum
 f1_keywords:
 - mdmregistration/REGISTRATION_INFORMATION_CLASS
 dev_langs:

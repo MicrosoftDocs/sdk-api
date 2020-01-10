@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 7b7fd260-c863-41f7-8594-4ee435090228
 ms.date: 12/05/2018
 ms.keywords: PSGetItemPropertyHandler, PSGetItemPropertyHandler function [Windows Properties], _shell_PSGetItemPropertyHandler, properties.PSGetItemPropertyHandler, propsys/PSGetItemPropertyHandler, shell.PSGetItemPropertyHandler
-ms.topic: function
 f1_keywords:
 - propsys/PSGetItemPropertyHandler
 dev_langs:

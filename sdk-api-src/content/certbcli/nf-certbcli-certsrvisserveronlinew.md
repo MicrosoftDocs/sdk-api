@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: fce1ea87-6c02-433e-af38-99b33528b1f1
 ms.date: 12/05/2018
 ms.keywords: CertSrvIsServerOnline, CertSrvIsServerOnline function [Security], CertSrvIsServerOnlineW, _certsrv_certsrvisserveronline, certbcli/CertSrvIsServerOnline, certbcli/CertSrvIsServerOnlineW, security.certsrvisserveronline
-ms.topic: function
 f1_keywords:
 - certbcli/CertSrvIsServerOnline
 dev_langs:

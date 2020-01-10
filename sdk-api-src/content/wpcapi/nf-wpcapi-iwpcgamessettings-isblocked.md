@@ -7,7 +7,6 @@ tech.root: parcon
 ms.assetid: a8cdd3ca-8a0d-4e4a-8a54-eb3ddcab52ff
 ms.date: 12/05/2018
 ms.keywords: IWPCGamesSettings interface,IsBlocked method, IWPCGamesSettings.IsBlocked, IWPCGamesSettings::IsBlocked, IsBlocked, IsBlocked method, IsBlocked method,IWPCGamesSettings interface, parcon.iwpcgamessettings_isblocked, wpcapi/IWPCGamesSettings::IsBlocked
-ms.topic: method
 f1_keywords:
 - wpcapi/IWPCGamesSettings.IsBlocked
 dev_langs:

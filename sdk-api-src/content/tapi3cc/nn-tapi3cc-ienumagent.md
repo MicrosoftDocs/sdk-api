@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 4c75314c-72f0-4eae-a1f5-36f3959c322a
 ms.date: 12/05/2018
 ms.keywords: IEnumAgent, IEnumAgent interface [TAPI 2.2], IEnumAgent interface [TAPI 2.2],described, _tapi3_ienumagent, tapi3.ienumagent, tapi3cc/IEnumAgent
-ms.topic: interface
 f1_keywords:
 - tapi3cc/IEnumAgent
 dev_langs:

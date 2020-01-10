@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: C6569BC4-E722-418E-B469-B20877F44648
 ms.date: 12/05/2018
 ms.keywords: GetParameters, GetParameters method, GetParameters method,IRtwqAsyncCallback interface, IRtwqAsyncCallback interface,GetParameters method, IRtwqAsyncCallback.GetParameters, IRtwqAsyncCallback::GetParameters, Zero, base.irtwqasynccallback_getparameters, rtworkq/IRtwqAsyncCallback::GetParameters
-ms.topic: method
 f1_keywords:
 - rtworkq/IRtwqAsyncCallback.GetParameters
 dev_langs:

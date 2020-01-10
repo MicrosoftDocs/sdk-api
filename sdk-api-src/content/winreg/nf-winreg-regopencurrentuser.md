@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 10a8cbfb-52dc-436a-827e-78f12eb62af0
 ms.date: 12/05/2018
 ms.keywords: RegOpenCurrentUser, RegOpenCurrentUser function, _win32_regopencurrentuser, base.regopencurrentuser, winreg/RegOpenCurrentUser
-ms.topic: function
 f1_keywords:
 - winreg/RegOpenCurrentUser
 dev_langs:

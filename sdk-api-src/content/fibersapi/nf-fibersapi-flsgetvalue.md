@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 5d5a1fe6-10ed-42c5-87db-b24eef6f174c
 ms.date: 12/05/2018
 ms.keywords: FlsGetValue, FlsGetValue function, _win32_flsgetvalue, base.flsgetvalue, fibersapi/FlsGetValue, winbase/FlsGetValue
-ms.topic: function
 f1_keywords:
 - fibersapi/FlsGetValue
 dev_langs:

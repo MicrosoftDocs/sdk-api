@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: c05610ba-6b00-45e4-b28f-9ce288d08df8
 ms.date: 12/05/2018
 ms.keywords: RpcLocalAddressFormat, RpcLocalAddressFormat enumeration [RPC], rlafIPv4, rlafIPv6, rlafInvalid, rpc.rpclocaladdressformat, rpcasync/RpcLocalAddressFormat, rpcasync/rlafIPv4, rpcasync/rlafIPv6, rpcasync/rlafInvalid
-ms.topic: enum
 f1_keywords:
 - rpcasync/RpcLocalAddressFormat
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\gettabstopcount.htm
 ms.date: 12/05/2018
 ms.keywords: GetTabStopCount, GetTabStopCount method [GDI+], GetTabStopCount method [GDI+],StringFormat class, StringFormat class [GDI+],GetTabStopCount method, StringFormat.GetTabStopCount, StringFormat::GetTabStopCount, _gdiplus_CLASS_StringFormat_GetTabStopCount_, gdiplus._gdiplus_CLASS_StringFormat_GetTabStopCount_
-ms.topic: method
 f1_keywords:
 - gdiplusstringformat/StringFormat.GetTabStopCount
 dev_langs:

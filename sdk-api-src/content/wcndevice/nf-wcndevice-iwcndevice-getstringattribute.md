@@ -7,7 +7,6 @@ tech.root: wcn
 ms.assetid: 4ef065be-0046-4ce6-8f81-417a4c8a550a
 ms.date: 12/05/2018
 ms.keywords: GetStringAttribute, GetStringAttribute method [Windows Connect Now], GetStringAttribute method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],GetStringAttribute method, IWCNDevice.GetStringAttribute, IWCNDevice::GetStringAttribute, wcn.iwcndevice_getstringattribute, wcndevice/IWCNDevice::GetStringAttribute
-ms.topic: method
 f1_keywords:
 - wcndevice/IWCNDevice.GetStringAttribute
 dev_langs:

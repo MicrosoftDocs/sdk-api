@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: cc044746-1127-44a3-993d-ca2445c99ff6
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services],OnBeginPainting method, IWRdsProtocolLogonErrorRedirector.OnBeginPainting, IWRdsProtocolLogonErrorRedirector::OnBeginPainting, OnBeginPainting, OnBeginPainting method [Remote Desktop Services], OnBeginPainting method [Remote Desktop Services],IWRdsProtocolLogonErrorRedirector interface, termserv.iwrdsprotocollogonerrorredirector_onbeginpainting, wtsprotocol/IWRdsProtocolLogonErrorRedirector::OnBeginPainting
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWRdsProtocolLogonErrorRedirector.OnBeginPainting
 dev_langs:

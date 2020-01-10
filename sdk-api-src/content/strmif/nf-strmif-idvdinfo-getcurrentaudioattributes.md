@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b6cb0162-747a-468d-a28f-49621dd27df0
 ms.date: 12/05/2018
 ms.keywords: GetCurrentAudioAttributes, GetCurrentAudioAttributes method [DirectShow], GetCurrentAudioAttributes method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentAudioAttributes method, IDvdInfo.GetCurrentAudioAttributes, IDvdInfo::GetCurrentAudioAttributes, IDvdInfoGetCurrentAudioAttributes, dshow.idvdinfo_getcurrentaudioattributes, strmif/IDvdInfo::GetCurrentAudioAttributes
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo.GetCurrentAudioAttributes
 dev_langs:

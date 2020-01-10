@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 64a89038-4df1-4e30-8952-6dc039a2e18b
 ms.date: 12/05/2018
 ms.keywords: IAMTuner interface [DirectShow],SignalPresent method, IAMTuner.SignalPresent, IAMTuner::SignalPresent, IAMTunerSignalPresent, SignalPresent, SignalPresent method [DirectShow], SignalPresent method [DirectShow],IAMTuner interface, dshow.iamtuner_signalpresent, strmif/IAMTuner::SignalPresent
-ms.topic: method
 f1_keywords:
 - strmif/IAMTuner.SignalPresent
 dev_langs:

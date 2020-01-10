@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 3150d37e-84a3-4386-b38c-b37f7d6642cc
 ms.date: 12/05/2018
 ms.keywords: PeerHostNameToPeerName, PeerHostNameToPeerName function [Peer Networking], p2p.peerhostnametopeername, p2p/PeerHostNameToPeerName
-ms.topic: function
 f1_keywords:
 - p2p/PeerHostNameToPeerName
 dev_langs:

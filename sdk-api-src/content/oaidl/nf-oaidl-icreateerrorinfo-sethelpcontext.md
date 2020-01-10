@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 5c65f4bd-21ad-4118-bbe8-e2ff65b96213
 ms.date: 12/05/2018
 ms.keywords: ICreateErrorInfo interface [Automation],SetHelpContext method, ICreateErrorInfo.SetHelpContext, ICreateErrorInfo::SetHelpContext, SetHelpContext, SetHelpContext method [Automation], SetHelpContext method [Automation],ICreateErrorInfo interface, _oa96_ICreateErrorInfo_SetHelpContext, automat.icreateerrorinfo_sethelpcontext, oaidl/ICreateErrorInfo::SetHelpContext
-ms.topic: method
 f1_keywords:
 - oaidl/ICreateErrorInfo.SetHelpContext
 dev_langs:

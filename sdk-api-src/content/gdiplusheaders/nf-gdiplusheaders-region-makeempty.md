@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\makeempty.htm
 ms.date: 12/05/2018
 ms.keywords: MakeEmpty, MakeEmpty method [GDI+], MakeEmpty method [GDI+],Region class, Region class [GDI+],MakeEmpty method, Region.MakeEmpty, Region::MakeEmpty, _gdiplus_CLASS_Region_MakeEmpty_, gdiplus._gdiplus_CLASS_Region_MakeEmpty_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Region.MakeEmpty
 dev_langs:

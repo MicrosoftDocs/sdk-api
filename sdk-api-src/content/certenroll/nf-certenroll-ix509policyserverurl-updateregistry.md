@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: dfb43979-a630-497d-96eb-f2bd701b5e09
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerUrl interface [Security],UpdateRegistry method, IX509PolicyServerUrl.UpdateRegistry, IX509PolicyServerUrl::UpdateRegistry, UpdateRegistry, UpdateRegistry method [Security], UpdateRegistry method [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::UpdateRegistry, security.ix509policyserverurl_updateregistry
-ms.topic: method
 f1_keywords:
 - certenroll/IX509PolicyServerUrl.UpdateRegistry
 dev_langs:

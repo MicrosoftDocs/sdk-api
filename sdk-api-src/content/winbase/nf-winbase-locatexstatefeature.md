@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 7AAEA13B-E4A4-4410-BFC7-09B81B92FF26
 ms.date: 12/05/2018
 ms.keywords: LocateXStateFeature, LocateXStateFeature function, base.locatexstatefeature, winbase/LocateXStateFeature
-ms.topic: function
 f1_keywords:
 - winbase/LocateXStateFeature
 dev_langs:

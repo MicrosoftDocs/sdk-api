@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 805152AE-CCFE-4C05-8142-F9EF8D124625
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterNotifyPowerChange, EngineAdapterNotifyPowerChange callback function [Windows Biometric Framework API], PBT_APMPOWERSTATUSCHANGE, PBT_APMRESUMEAUTOMATIC, PBT_APMSUSPEND, PIBIO_ENGINE_NOTIFY_POWER_CHANGE_FN, PIBIO_ENGINE_NOTIFY_POWER_CHANGE_FN callback, secbiomet.engineadapternotifypowerchange, winbio_adapter/EngineAdapterNotifyPowerChange
-ms.topic: callback
 f1_keywords:
 - winbio_adapter/EngineAdapterNotifyPowerChange
 dev_langs:

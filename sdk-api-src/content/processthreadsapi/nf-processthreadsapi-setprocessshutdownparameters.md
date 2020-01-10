@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: c467950e-31e1-4608-a08a-0736a5524e0e
 ms.date: 12/05/2018
 ms.keywords: SHUTDOWN_NORETRY, SetProcessShutdownParameters, SetProcessShutdownParameters function, _win32_setprocessshutdownparameters, base.setprocessshutdownparameters, processthreadsapi/SetProcessShutdownParameters, winbase/SetProcessShutdownParameters
-ms.topic: function
 f1_keywords:
 - processthreadsapi/SetProcessShutdownParameters
 dev_langs:

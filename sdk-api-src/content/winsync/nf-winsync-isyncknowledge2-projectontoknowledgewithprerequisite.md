@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 71794c37-fea2-466b-a8dd-8a502b178f1b
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge2 interface [Windows Sync],ProjectOntoKnowledgeWithPrerequisite method, ISyncKnowledge2.ProjectOntoKnowledgeWithPrerequisite, ISyncKnowledge2::ProjectOntoKnowledgeWithPrerequisite, ProjectOntoKnowledgeWithPrerequisite, ProjectOntoKnowledgeWithPrerequisite method [Windows Sync], ProjectOntoKnowledgeWithPrerequisite method [Windows Sync],ISyncKnowledge2 interface, winsync.isyncknowledge2_projectontoknowledgewithprerequisite, winsync/ISyncKnowledge2::ProjectOntoKnowledgeWithPrerequisite
-ms.topic: method
 f1_keywords:
 - winsync/ISyncKnowledge2.ProjectOntoKnowledgeWithPrerequisite
 dev_langs:

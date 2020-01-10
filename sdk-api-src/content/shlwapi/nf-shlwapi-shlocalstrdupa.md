@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 79da6160-b1b1-41c3-9b21-229aadf251dd
 ms.date: 12/05/2018
 ms.keywords: SHLocalStrDup, SHLocalStrDup function [Windows Shell], SHLocalStrDupA, SHLocalStrDupW, _shell_SHLocalStrDup, shell.SHLocalStrDup, shlwapi/SHLocalStrDup, shlwapi/SHLocalStrDupA, shlwapi/SHLocalStrDupW
-ms.topic: function
 f1_keywords:
 - shlwapi/SHLocalStrDup
 dev_langs:

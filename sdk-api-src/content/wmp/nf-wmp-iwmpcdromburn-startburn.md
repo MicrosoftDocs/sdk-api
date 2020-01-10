@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 35357dca-4093-4c83-9cc9-f0dee1241e76
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],startBurn method, IWMPCdromBurn.startBurn, IWMPCdromBurn::startBurn, IWMPCdromBurnstartBurn, startBurn, startBurn method [Windows Media Player], startBurn method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_startburn, wmp/IWMPCdromBurn::startBurn
-ms.topic: method
 f1_keywords:
 - wmp/IWMPCdromBurn.startBurn
 dev_langs:

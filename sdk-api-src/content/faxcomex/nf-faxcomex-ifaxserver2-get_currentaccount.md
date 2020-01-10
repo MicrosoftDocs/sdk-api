@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxserver2\currentaccount.htm
 ms.date: 12/05/2018
 ms.keywords: CurrentAccount property [Fax Service], CurrentAccount property [Fax Service],IFaxServer2 interface, IFaxServer2 interface [Fax Service],CurrentAccount property, IFaxServer2.CurrentAccount, IFaxServer2.get_CurrentAccount, IFaxServer2::CurrentAccount, IFaxServer2::get_CurrentAccount, _mfax_faxserver2.currentaccount, fax._mfax_faxserver2_cpp_mfax_faxserver2_currentaccount_cpp, fax._mfax_faxserver2_currentaccount, faxcomex/IFaxServer2::CurrentAccount, faxcomex/IFaxServer2::get_CurrentAccount, get_CurrentAccount
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxServer2.CurrentAccount
 dev_langs:

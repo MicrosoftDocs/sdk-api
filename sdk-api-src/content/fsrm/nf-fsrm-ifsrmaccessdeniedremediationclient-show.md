@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: befebb2a-99a1-4a32-8bde-3b263d1f4459
 ms.date: 12/05/2018
 ms.keywords: IFsrmAccessDeniedRemediationClient interface [File Server Resource Manager],Show method, IFsrmAccessDeniedRemediationClient.Show, IFsrmAccessDeniedRemediationClient::Show, Show, Show method [File Server Resource Manager], Show method [File Server Resource Manager],IFsrmAccessDeniedRemediationClient interface, fs.ifsrmaccessdeniedremediationclient_show, fsrm.ifsrmaccessdeniedremediationclient_show, fsrm/IFsrmAccessDeniedRemediationClient::Show
-ms.topic: method
 f1_keywords:
 - fsrm/IFsrmAccessDeniedRemediationClient.Show
 dev_langs:

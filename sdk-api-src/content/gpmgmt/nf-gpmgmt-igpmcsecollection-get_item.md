@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 537ec04c-cea4-4878-a03d-131c1bac4155
 ms.date: 12/05/2018
 ms.keywords: GPMCSECollection object [GPMC],Item property, IGPMCSECollection interface [GPMC],Item property, IGPMCSECollection.Item, IGPMCSECollection.get_Item, IGPMCSECollection::Item, IGPMCSECollection::get_Item, Item property [GPMC], Item property [GPMC],GPMCSECollection object, Item property [GPMC],IGPMCSECollection interface, _win32_igpmcsecollection_get_item, get_Item, gpmc.igpmcsecollection_get_item, gpmgmt/IGPMCSECollection::Item, gpmgmt/IGPMCSECollection::get_Item
-ms.topic: method
 f1_keywords:
 - gpmgmt/IGPMCSECollection.Item
 dev_langs:

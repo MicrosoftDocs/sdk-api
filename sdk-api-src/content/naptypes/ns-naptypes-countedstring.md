@@ -7,7 +7,6 @@ tech.root: NAP
 ms.assetid: 92261dd3-504d-4a4b-b6fa-86f4f97a0df0
 ms.date: 12/05/2018
 ms.keywords: CountedString, CountedString structure [NAP], StringCorrelationId, nap.countedstring_struct, naptypes/CountedString
-ms.topic: struct
 f1_keywords:
 - naptypes/CountedString
 dev_langs:

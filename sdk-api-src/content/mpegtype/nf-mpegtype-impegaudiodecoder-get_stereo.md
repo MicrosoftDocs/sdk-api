@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: fb2b4b26-7588-42fd-a915-c09d512cb152
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],get_Stereo method, IMpegAudioDecoder.get_Stereo, IMpegAudioDecoder::get_Stereo, IMpegAudioDecodergetStereo, dshow.impegaudiodecoder_get_stereo, get_Stereo, get_Stereo method [DirectShow], get_Stereo method [DirectShow],IMpegAudioDecoder interface, mpegtype/IMpegAudioDecoder::get_Stereo
-ms.topic: method
 f1_keywords:
 - mpegtype/IMpegAudioDecoder.get_Stereo
 dev_langs:

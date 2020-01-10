@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\imagelist_addicon.htm
 ms.date: 12/05/2018
 ms.keywords: ImageList_AddIcon, ImageList_AddIcon macro [Windows Controls], _win32_ImageList_AddIcon, _win32_ImageList_AddIcon_cpp, commctrl/ImageList_AddIcon, controls.ImageList_AddIcon, controls._win32_ImageList_AddIcon
-ms.topic: macro
 f1_keywords:
 - commctrl/ImageList_AddIcon
 dev_langs:

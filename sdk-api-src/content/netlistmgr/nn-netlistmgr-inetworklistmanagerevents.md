@@ -7,7 +7,6 @@ tech.root: nla
 ms.assetid: cdcb661f-5f17-481a-a4b7-db06d53e1b97
 ms.date: 12/05/2018
 ms.keywords: INetworkListManagerEvents, INetworkListManagerEvents interface [Network Awareness], INetworkListManagerEvents interface [Network Awareness],described, netlistmgr/INetworkListManagerEvents, nla.inetworklistmanagerevents
-ms.topic: interface
 f1_keywords:
 - netlistmgr/INetworkListManagerEvents
 dev_langs:

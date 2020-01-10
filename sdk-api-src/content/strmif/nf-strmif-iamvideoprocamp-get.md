@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8924383e-23e1-4732-9eff-dc7c8d0e361a
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [DirectShow], Get method [DirectShow],IAMVideoProcAmp interface, IAMVideoProcAmp interface [DirectShow],Get method, IAMVideoProcAmp.Get, IAMVideoProcAmp::Get, IAMVideoProcAmpGet, dshow.iamvideoprocamp_get, strmif/IAMVideoProcAmp::Get
-ms.topic: method
 f1_keywords:
 - strmif/IAMVideoProcAmp.Get
 dev_langs:

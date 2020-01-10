@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: da0f01a3-ed47-42a1-b4af-5f3cbc9271a3
 ms.date: 12/05/2018
 ms.keywords: MFInitAttributesFromBlob, MFInitAttributesFromBlob function [Media Foundation], da0f01a3-ed47-42a1-b4af-5f3cbc9271a3, mf.mfinitattributesfromblob, mfapi/MFInitAttributesFromBlob
-ms.topic: function
 f1_keywords:
 - mfapi/MFInitAttributesFromBlob
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b50c8e95-929f-4c16-abd2-7b03bc0d5063
 ms.date: 12/05/2018
 ms.keywords: UShortToUChar, UShortToUChar function [Windows Shell], WordToUChar, _shell_UShortToUChar, intsafe/UShortToUChar, shell.UShortToUChar
-ms.topic: function
 f1_keywords:
 - intsafe/UShortToUChar
 dev_langs:

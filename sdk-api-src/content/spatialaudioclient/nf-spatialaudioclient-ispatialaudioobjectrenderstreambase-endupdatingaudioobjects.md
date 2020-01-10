@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 111DB695-66F6-45DD-B3B6-1DFB0D5D29FC
 ms.date: 12/05/2018
 ms.keywords: EndUpdatingAudioObjects, EndUpdatingAudioObjects method [Core Audio], EndUpdatingAudioObjects method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, ISpatialAudioObjectRenderStreamBase interface [Core Audio],EndUpdatingAudioObjects method, ISpatialAudioObjectRenderStreamBase.EndUpdatingAudioObjects, ISpatialAudioObjectRenderStreamBase::EndUpdatingAudioObjects, coreaudio.ispatialaudioobjectrenderstream_endupdatingaudioobjects, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::EndUpdatingAudioObjects
-ms.topic: method
 f1_keywords:
 - spatialaudioclient/ISpatialAudioObjectRenderStreamBase.EndUpdatingAudioObjects
 dev_langs:

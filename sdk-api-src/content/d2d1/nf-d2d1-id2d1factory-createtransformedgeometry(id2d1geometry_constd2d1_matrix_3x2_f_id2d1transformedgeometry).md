@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 71f26200-0f35-49d7-951d-2962768d16bc
 ms.date: 12/05/2018
 ms.keywords: CreateTransformedGeometry, CreateTransformedGeometry methods [Direct2D], ID2D1Factory.CreateTransformedGeometry, ID2D1Factory::CreateTransformedGeometry, d2d1/CreateTransformedGeometry, direct2d.id2d1factory_createtransformedgeometry
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1Factory::CreateTransformedGeometry
 dev_langs:

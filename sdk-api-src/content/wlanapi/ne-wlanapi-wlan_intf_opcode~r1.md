@@ -3,7 +3,6 @@ UID: NE:wlanapi._WLAN_INTF_OPCODE~r1
 title: WLAN_INTF_OPCODE
 ms.date: 01/30/19
 ms.keywords: _WLAN_INTF_OPCODE, WLAN_INTF_OPCODE
-ms.topic: language-reference
 f1_keywords:
 - wlanapi/_WLAN_INTF_OPCODE
 dev_langs:

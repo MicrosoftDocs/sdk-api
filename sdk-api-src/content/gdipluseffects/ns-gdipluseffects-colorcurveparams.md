@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\colorcurveparams.htm
 ms.date: 12/05/2018
 ms.keywords: ColorCurveParams, ColorCurveParams structure [GDI+], _gdiplus_STRUC_ColorCurveParams, gdiplus._gdiplus_STRUC_ColorCurveParams, gdipluseffects/ColorCurveParams
-ms.topic: struct
 f1_keywords:
 - gdipluseffects/ColorCurveParams
 dev_langs:

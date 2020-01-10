@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: b2a045dd-dc2c-489d-bcb9-80710faef9c2
 ms.date: 12/05/2018
 ms.keywords: ITfInputScope, ITfInputScope interface [Text Services Framework], ITfInputScope interface [Text Services Framework],described, _tsf_itfinputscope_ref, inputscope/ITfInputScope, tsf.ITfInputScope
-ms.topic: interface
 f1_keywords:
 - inputscope/ITfInputScope
 dev_langs:

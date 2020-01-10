@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 2fbadd9d-e741-482f-9ff1-655b149fec49
 ms.date: 12/05/2018
 ms.keywords: FALSE, GetTimestampMode, GetTimestampMode method [DirectShow], GetTimestampMode method [DirectShow],IAMAsyncReaderTimestampScaling interface, IAMAsyncReaderTimestampScaling interface [DirectShow],GetTimestampMode method, IAMAsyncReaderTimestampScaling.GetTimestampMode, IAMAsyncReaderTimestampScaling::GetTimestampMode, TRUE, dshow.iamasyncreadertimestampscaling_gettimestampmode, strmif/IAMAsyncReaderTimestampScaling::GetTimestampMode
-ms.topic: method
 f1_keywords:
 - strmif/IAMAsyncReaderTimestampScaling.GetTimestampMode
 dev_langs:

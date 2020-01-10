@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: d195f746-7f56-443f-9232-e95a6b026331
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [ETW], Cancel method [ETW],ITraceRelogger interface, ITraceRelogger interface [ETW],Cancel method, ITraceRelogger.Cancel, ITraceRelogger::Cancel, etw.itracerelogger_cancel, relogger/ITraceRelogger::Cancel
-ms.topic: method
 f1_keywords:
 - relogger/ITraceRelogger.Cancel
 dev_langs:

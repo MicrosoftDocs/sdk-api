@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6923dd91-7bdb-4a0c-833d-4742973825ee
 ms.date: 12/05/2018
 ms.keywords: IMediaObject interface [DirectShow],Lock method, IMediaObject.Lock, IMediaObject::Lock, IMediaObjectLock, Lock, Lock method [DirectShow], Lock method [DirectShow],IMediaObject interface, dshow.imediaobject_lock, mediaobj/IMediaObject::Lock
-ms.topic: method
 f1_keywords:
 - mediaobj/IMediaObject.Lock
 dev_langs:

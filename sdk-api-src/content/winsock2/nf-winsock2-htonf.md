@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 93011B2E-2B3C-4EDD-90F7-82A11542A154
 ms.date: 12/05/2018
 ms.keywords: htonf, htonf function [Winsock], winsock.htonf, winsock2/htonf
-ms.topic: function
 f1_keywords:
 - winsock2/htonf
 dev_langs:

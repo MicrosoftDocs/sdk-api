@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: e9137167-4a2d-4cc4-940e-20f9991c4187
 ms.date: 12/05/2018
 ms.keywords: GPMConstants, IGPMConstants, IGPMConstants interface [GPMC], IGPMConstants interface [GPMC],described, _win32_igpmconstants, gpmc.igpmconstants, gpmgmt/IGPMConstants
-ms.topic: interface
 f1_keywords:
 - gpmgmt/IGPMConstants
 dev_langs:

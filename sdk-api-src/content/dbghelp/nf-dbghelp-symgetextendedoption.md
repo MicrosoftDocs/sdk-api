@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 3D6D5E31-ECCB-48B2-A46B-0BB2D7A2DEC0
 ms.date: 12/05/2018
 ms.keywords: SYMOPT_EX_DISABLEACCESSTIMEUPDATE, SymGetExtendedOption, SymGetExtendedOption function, base.symgetextendedoption, dbghelp/SymGetExtendedOption
-ms.topic: function
 f1_keywords:
 - dbghelp/SymGetExtendedOption
 dev_langs:

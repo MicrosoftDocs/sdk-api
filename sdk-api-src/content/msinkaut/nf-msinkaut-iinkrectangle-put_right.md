@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: c31fd527-a6aa-4017-bc51-cedca42817f9
 ms.date: 12/05/2018
 ms.keywords: IInkRectangle interface [Tablet PC],Right property, IInkRectangle.Right, IInkRectangle.put_Right, IInkRectangle::Right, IInkRectangle::get_Right, IInkRectangle::put_Right, InkRectangle.get_Right, InkRectangle.put_Right, Right property [Tablet PC], Right property [Tablet PC],IInkRectangle interface, c31fd527-a6aa-4017-bc51-cedca42817f9, get_Right, msinkaut/IInkRectangle::Right, msinkaut/IInkRectangle::get_Right, msinkaut/IInkRectangle::put_Right, put_Right, tablet.inkrectangle_right
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkRectangle.Right
 dev_langs:

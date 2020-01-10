@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 81d273bd-06bc-4418-98af-8e7756aac91c
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncMPVSceneDetection, codecapi/eAVEncMPVSceneDetection_InsertIPicture, codecapi/eAVEncMPVSceneDetection_None, codecapi/eAVEncMPVSceneDetection_StartNewGOP, codecapi/eAVEncMPVSceneDetection_StartNewLocatableGOP, dshow.eavencmpvscenedetection, eAVEncMPVSceneDetection, eAVEncMPVSceneDetection enumeration [DirectShow], eAVEncMPVSceneDetectionEnumeration, eAVEncMPVSceneDetection_InsertIPicture, eAVEncMPVSceneDetection_None, eAVEncMPVSceneDetection_StartNewGOP, eAVEncMPVSceneDetection_StartNewLocatableGOP
-ms.topic: enum
 f1_keywords:
 - codecapi/eAVEncMPVSceneDetection
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 1a5df1f1-3867-4956-8e1b-090aa8d8ff3a
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_Top method, IVideoWindow.put_Top, IVideoWindow::put_Top, IVideoWindowput_Top, control/IVideoWindow::put_Top, dshow.ivideowindow_put_top, put_Top, put_Top method [DirectShow], put_Top method [DirectShow],IVideoWindow interface
-ms.topic: method
 f1_keywords:
 - control/IVideoWindow.put_Top
 dev_langs:

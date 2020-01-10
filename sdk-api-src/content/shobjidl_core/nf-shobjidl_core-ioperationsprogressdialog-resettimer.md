@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a16d1595-c601-45a0-b3f5-35fe31cd0f22
 ms.date: 12/05/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],ResetTimer method, IOperationsProgressDialog.ResetTimer, IOperationsProgressDialog::ResetTimer, ResetTimer, ResetTimer method [Windows Shell], ResetTimer method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_ResetTimer, shell.IOperationsProgressDialog_ResetTimer, shobjidl_core/IOperationsProgressDialog::ResetTimer
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IOperationsProgressDialog.ResetTimer
 dev_langs:

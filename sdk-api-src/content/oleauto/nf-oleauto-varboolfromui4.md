@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 942aafda-3c7e-4130-ac64-ed32f1cd66f7
 ms.date: 12/05/2018
 ms.keywords: VarBoolFromUI4, VarBoolFromUI4 function [Automation], _oa96_VarBoolFromUI4, automat.varboolfromui4, oleauto/VarBoolFromUI4
-ms.topic: function
 f1_keywords:
 - oleauto/VarBoolFromUI4
 dev_langs:

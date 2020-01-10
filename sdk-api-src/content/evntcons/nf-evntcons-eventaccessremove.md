@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 9f25f163-046c-41b0-82f9-0b214b74b87e
 ms.date: 12/05/2018
 ms.keywords: EventAccessRemove, EventAccessRemove function [ETW], base.eventaccessremove_func, etw.eventaccessremove_func, evntcons/EventAccessRemove
-ms.topic: function
 f1_keywords:
 - evntcons/EventAccessRemove
 dev_langs:

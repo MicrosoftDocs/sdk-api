@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: cddbe3de-c5e2-4161-801f-f3497714922c
 ms.date: 12/05/2018
 ms.keywords: VMRPRESENTATIONINFO, VMRPRESENTATIONINFO structure [DirectShow], VMRPRESENTATIONINFOStructure, dshow.vmrpresentationinfo, strmif/VMRPRESENTATIONINFO
-ms.topic: struct
 f1_keywords:
 - strmif/VMRPRESENTATIONINFO
 dev_langs:

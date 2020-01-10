@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 3945fdf1-6361-413e-9621-18871ded47a4
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [COM+], Commit method [COM+],ITransactionContext interface, ITransactionContext interface [COM+],Commit method, ITransactionContext.Commit, ITransactionContext::Commit, _cos_ITransactionContext_Commit, comsvcs/ITransactionContext::Commit, cos.itransactioncontext_commit
-ms.topic: method
 f1_keywords:
 - comsvcs/ITransactionContext.Commit
 dev_langs:

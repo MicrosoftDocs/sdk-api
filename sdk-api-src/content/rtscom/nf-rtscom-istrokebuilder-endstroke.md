@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: a535cd20-d24a-4044-a757-fb2b593650b9
 ms.date: 12/05/2018
 ms.keywords: EndStroke, EndStroke method [Tablet PC], EndStroke method [Tablet PC],IStrokeBuilder interface, IStrokeBuilder interface [Tablet PC],EndStroke method, IStrokeBuilder.EndStroke, IStrokeBuilder::EndStroke, a535cd20-d24a-4044-a757-fb2b593650b9, rtscom/IStrokeBuilder::EndStroke, tablet.istrokebuilder_endstroke
-ms.topic: method
 f1_keywords:
 - rtscom/IStrokeBuilder.EndStroke
 dev_langs:

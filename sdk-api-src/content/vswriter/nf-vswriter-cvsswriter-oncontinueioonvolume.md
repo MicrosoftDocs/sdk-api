@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: dd8271a3-4119-412d-abbd-1251196ac948
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnContinueIOOnVolume method, CVssWriter.OnContinueIOOnVolume, CVssWriter::OnContinueIOOnVolume, OnContinueIOOnVolume, OnContinueIOOnVolume method [VSS], OnContinueIOOnVolume method [VSS],CVssWriter interface, _win32_cvsswriter_oncontinueioonvolume, base.cvsswriter_oncontinueioonvolume, vswriter/CVssWriter::OnContinueIOOnVolume
-ms.topic: method
 f1_keywords:
 - vswriter/CVssWriter.OnContinueIOOnVolume
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 96399092-88fa-4b3c-aede-ee61c7c0320a
 ms.date: 12/05/2018
 ms.keywords: IEnumStream interface [TAPI 2.2],Next method, IEnumStream.Next, IEnumStream::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumStream interface, _tapi3_ienumstream_next, tapi3.ienumstream_next, tapi3if/IEnumStream::Next
-ms.topic: method
 f1_keywords:
 - tapi3if/IEnumStream.Next
 dev_langs:

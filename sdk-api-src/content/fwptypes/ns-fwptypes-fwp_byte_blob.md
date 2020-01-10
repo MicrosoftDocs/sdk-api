@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 85f360bf-5ee4-4980-b4ce-15ff310d8fbe
 ms.date: 12/05/2018
 ms.keywords: FWP_BYTE_BLOB, FWP_BYTE_BLOB structure [Filtering], fwp.fwp_byte_blob_struct, fwptypes/FWP_BYTE_BLOB
-ms.topic: struct
 f1_keywords:
 - fwptypes/FWP_BYTE_BLOB
 dev_langs:

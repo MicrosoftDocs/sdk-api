@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 0eeba231-2992-4dae-beb6-47408ebb333d
 ms.date: 12/05/2018
 ms.keywords: CachedIsModal property [Windows Accessibility], CachedIsModal property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CachedIsModal property, IUIAutomationWindowPattern.CachedIsModal, IUIAutomationWindowPattern.get_CachedIsModal, IUIAutomationWindowPattern::CachedIsModal, IUIAutomationWindowPattern::get_CachedIsModal, get_CachedIsModal, uiauto.uiauto_IUIAutomationWindowPattern_CachedIsModal, uiauto_IUIAutomationWindowPattern_CachedIsModal, uiautomationclient/IUIAutomationWindowPattern::CachedIsModal, uiautomationclient/IUIAutomationWindowPattern::get_CachedIsModal, winauto.uiauto_IUIAutomationWindowPattern_CachedIsModal
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationWindowPattern.CachedIsModal
 dev_langs:

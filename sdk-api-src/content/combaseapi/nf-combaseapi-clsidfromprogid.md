@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 89fb20af-65bf-4ed4-9f71-eb707ee8eb09
 ms.date: 12/05/2018
 ms.keywords: CLSIDFromProgID, CLSIDFromProgID function [COM], _com_CLSIDFromProgID, com.clsidfromprogid, combaseapi/CLSIDFromProgID
-ms.topic: function
 f1_keywords:
 - combaseapi/CLSIDFromProgID
 dev_langs:

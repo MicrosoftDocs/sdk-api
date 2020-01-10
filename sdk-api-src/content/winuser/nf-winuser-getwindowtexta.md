@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindowtext.htm
 ms.date: 12/05/2018
 ms.keywords: GetWindowText, GetWindowText function [Windows and Messages], GetWindowTextA, GetWindowTextW, _win32_GetWindowText, _win32_getwindowtext_cpp, winmsg.getwindowtext, winui._win32_getwindowtext, winuser/GetWindowText, winuser/GetWindowTextA, winuser/GetWindowTextW
-ms.topic: function
 f1_keywords:
 - winuser/GetWindowText
 dev_langs:

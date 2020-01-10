@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 09ff9078-3d97-432b-8626-62f12b5e3ef4
 ms.date: 12/05/2018
 ms.keywords: IWbemServices interface [Windows Management Instrumentation],OpenNamespace method, IWbemServices.OpenNamespace, IWbemServices::OpenNamespace, OpenNamespace, OpenNamespace method [Windows Management Instrumentation], OpenNamespace method [Windows Management Instrumentation],IWbemServices interface, _hmm_iwbemservices_opennamespace, wbemcli/IWbemServices::OpenNamespace, wmi.iwbemservices_opennamespace
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemServices.OpenNamespace
 dev_langs:

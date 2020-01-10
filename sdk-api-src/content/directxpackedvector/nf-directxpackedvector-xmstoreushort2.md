@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreUShort2(XMUSHORT2@,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMStoreUShort2, XMStoreUShort2, XMStoreUShort2 method [DirectX Math Support APIs], dxmath.xmstoreushort2
-ms.topic: function
 f1_keywords:
 - directxpackedvector/XMStoreUShort2
 dev_langs:

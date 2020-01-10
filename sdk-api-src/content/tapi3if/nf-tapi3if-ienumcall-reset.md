@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 9aa41bab-c575-440b-b1ff-bdbdde68da36
 ms.date: 12/05/2018
 ms.keywords: IEnumCall interface [TAPI 2.2],Reset method, IEnumCall.Reset, IEnumCall::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumCall interface, _tapi3_ienumcall_reset, tapi3.ienumcall_reset, tapi3if/IEnumCall::Reset
-ms.topic: method
 f1_keywords:
 - tapi3if/IEnumCall.Reset
 dev_langs:

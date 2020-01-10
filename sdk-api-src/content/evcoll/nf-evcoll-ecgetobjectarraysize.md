@@ -7,7 +7,6 @@ tech.root: WEC
 ms.assetid: f04c1748-d8b3-4000-a322-7854f8e7f5f9
 ms.date: 12/05/2018
 ms.keywords: EcGetObjectArraySize, EcGetObjectArraySize function, evcoll/EcGetObjectArraySize, wec.ecgetobjectarraysize, wes.ecgetobjectarraysize
-ms.topic: function
 f1_keywords:
 - evcoll/EcGetObjectArraySize
 dev_langs:

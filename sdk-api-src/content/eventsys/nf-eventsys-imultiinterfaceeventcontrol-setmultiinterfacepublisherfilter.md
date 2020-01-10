@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 0eb52937-3bd8-45ab-b4ba-c0264c47c909
 ms.date: 12/05/2018
 ms.keywords: IMultiInterfaceEventControl interface [COM+],SetMultiInterfacePublisherFilter method, IMultiInterfaceEventControl.SetMultiInterfacePublisherFilter, IMultiInterfaceEventControl::SetMultiInterfacePublisherFilter, SetMultiInterfacePublisherFilter, SetMultiInterfacePublisherFilter method [COM+], SetMultiInterfacePublisherFilter method [COM+],IMultiInterfaceEventControl interface, _cos_IMultiInterfaceEventControl_SetMultiInterfacePublisherFilter, cos.imultiinterfaceeventcontrol_setmultiinterfacepublisherfilter, eventsys/IMultiInterfaceEventControl::SetMultiInterfacePublisherFilter
-ms.topic: method
 f1_keywords:
 - eventsys/IMultiInterfaceEventControl.SetMultiInterfacePublisherFilter
 dev_langs:

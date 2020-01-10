@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_selectitem.htm
 ms.date: 12/05/2018
 ms.keywords: TreeView_SelectItem, TreeView_SelectItem macro [Windows Controls], _win32_TreeView_SelectItem, _win32_TreeView_SelectItem_cpp, commctrl/TreeView_SelectItem, controls.TreeView_SelectItem, controls._win32_TreeView_SelectItem
-ms.topic: macro
 f1_keywords:
 - commctrl/TreeView_SelectItem
 dev_langs:

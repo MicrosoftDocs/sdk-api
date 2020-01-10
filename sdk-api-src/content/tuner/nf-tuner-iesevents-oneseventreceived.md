@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: d715f598-0dd5-4c8c-9f5b-3aaa65768600
 ms.date: 12/05/2018
 ms.keywords: IESEvents interface [Microsoft TV Technologies],OnESEventReceived method, IESEvents.OnESEventReceived, IESEvents::OnESEventReceived, OnESEventReceived, OnESEventReceived method [Microsoft TV Technologies], OnESEventReceived method [Microsoft TV Technologies],IESEvents interface, mstv.iesevents_oneseventreceived, tuner/IESEvents::OnESEventReceived
-ms.topic: method
 f1_keywords:
 - tuner/IESEvents.OnESEventReceived
 dev_langs:

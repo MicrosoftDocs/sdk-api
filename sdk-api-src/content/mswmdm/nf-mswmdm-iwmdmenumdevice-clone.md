@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: c8118950-d96f-4720-ab3a-f5ea93065875
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [windows Media Device Manager], Clone method [windows Media Device Manager],IWMDMEnumDevice interface, IWMDMEnumDevice interface [windows Media Device Manager],Clone method, IWMDMEnumDevice.Clone, IWMDMEnumDevice::Clone, IWMDMEnumDeviceClone, mswmdm/IWMDMEnumDevice::Clone, wmdm.iwmdmenumdevice_clone
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMEnumDevice.Clone
 dev_langs:

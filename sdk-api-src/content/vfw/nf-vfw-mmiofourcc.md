@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 616c3b43-9305-49c1-bc46-2e1256647c7d
 ms.date: 12/05/2018
 ms.keywords: _win32_mmioFOURCC, mmioFOURCC, mmioFOURCC macro [Windows Multimedia], multimedia.mmiofourcc, vfw/mmioFOURCC
-ms.topic: macro
 f1_keywords:
 - vfw/mmioFOURCC
 dev_langs:

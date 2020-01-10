@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: fa05124c-e1ed-4059-9af3-2a914785799d
 ms.date: 12/05/2018
 ms.keywords: INSTALLMODE_NODETECTION, MsiUseFeatureEx, MsiUseFeatureEx function, MsiUseFeatureExA, MsiUseFeatureExW, _msi_msiusefeatureex, msi/MsiUseFeatureEx, msi/MsiUseFeatureExA, msi/MsiUseFeatureExW, setup.msiusefeatureex
-ms.topic: function
 f1_keywords:
 - msi/MsiUseFeatureEx
 dev_langs:

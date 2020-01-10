@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 9349ba83-59d6-49d0-ac9d-a4d9589748dd
 ms.date: 12/05/2018
 ms.keywords: CopyRect, CopyRect function [Windows GDI], _win32_CopyRect, gdi.copyrect, winuser/CopyRect
-ms.topic: function
 f1_keywords:
 - winuser/CopyRect
 dev_langs:

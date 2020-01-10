@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c50f2147-1b18-42bf-a5ae-fa20d487c52d
 ms.date: 12/05/2018
 ms.keywords: UIntToInt, UIntToInt function [Windows Shell], _shell_UIntToInt, intsafe/UIntToInt, shell.UIntToInt
-ms.topic: function
 f1_keywords:
 - intsafe/UIntToInt
 dev_langs:

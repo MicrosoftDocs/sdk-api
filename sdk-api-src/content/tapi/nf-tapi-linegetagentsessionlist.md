@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 6473d5dd-e08e-47f8-acad-b60943525b83
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetagentsessionlist, lineGetAgentSessionList, lineGetAgentSessionList function [TAPI 2.2], tapi/lineGetAgentSessionList, tapi2.linegetagentsessionlist
-ms.topic: function
 f1_keywords:
 - tapi/lineGetAgentSessionList
 dev_langs:

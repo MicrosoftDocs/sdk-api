@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: e1541e66-3ccc-494c-a909-72eeb9159d11
 ms.date: 12/05/2018
 ms.keywords: VariantGetElem, VariantGetElem function [Windows Properties], _shell_VariantGetElem, properties.VariantGetElem, propvarutil/VariantGetElem, shell.VariantGetElem
-ms.topic: function
 f1_keywords:
 - propvarutil/VariantGetElem
 dev_langs:

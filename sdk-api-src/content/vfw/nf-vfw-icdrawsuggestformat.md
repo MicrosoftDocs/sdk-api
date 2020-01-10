@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 748d09a6-52db-4bd0-9006-6ee96f07a74b
 ms.date: 12/05/2018
 ms.keywords: ICDrawSuggestFormat, ICDrawSuggestFormat function [Windows Multimedia], _win32_ICDrawSuggestFormat, multimedia.icdrawsuggestformat, vfw/ICDrawSuggestFormat
-ms.topic: function
 f1_keywords:
 - vfw/ICDrawSuggestFormat
 dev_langs:

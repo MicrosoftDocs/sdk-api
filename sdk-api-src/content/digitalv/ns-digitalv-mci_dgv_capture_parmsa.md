@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 8ab62c4b-6db2-4a52-b015-a1d635e1edd4
 ms.date: 12/05/2018
 ms.keywords: '*LPMCI_DGV_CAPTURE_PARMSA, MCI_DGV_CAPTURE_PARMS, MCI_DGV_CAPTURE_PARMS structure [Windows Multimedia], MCI_DGV_CAPTURE_PARMSA, _win32_MCI_DGV_CAPTURE_PARMS_str, digitalv/MCI_DGV_CAPTURE_PARMS, multimedia.mci_dgv_capture_parms'
-ms.topic: struct
 f1_keywords:
 - digitalv/MCI_DGV_CAPTURE_PARMS
 dev_langs:

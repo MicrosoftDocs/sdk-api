@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 4e94ab0c-0f39-4e6e-a272-6beff61e97c6
 ms.date: 12/05/2018
 ms.keywords: DetectAutoProxyUrl, DetectAutoProxyUrl function [WinINet], PROXY_AUTO_DETECT_TYPE_DHCP, PROXY_AUTO_DETECT_TYPE_DNS_A, _inet_detectautoproxyurl_function, wininet.detectautoproxyurl, winineti/DetectAutoProxyUrl
-ms.topic: function
 f1_keywords:
 - winineti/DetectAutoProxyUrl
 dev_langs:

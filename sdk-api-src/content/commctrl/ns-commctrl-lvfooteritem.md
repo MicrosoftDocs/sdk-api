@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvfooteritem.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPLVFOOTERITEM, LPLVFOOTERITEM, LPLVFOOTERITEM structure pointer [Windows Controls], LVFIF_STATE, LVFIF_TEXT, LVFIS_FOCUSED, LVFOOTERITEM, LVFOOTERITEM structure [Windows Controls], _shell_LVFOOTERITEM, _shell_LVFOOTERITEM_cpp, commctrl/LPLVFOOTERITEM, commctrl/LVFOOTERITEM, controls.LVFOOTERITEM, controls._shell_LVFOOTERITEM'
-ms.topic: struct
 f1_keywords:
 - commctrl/LVFOOTERITEM
 dev_langs:

@@ -5,7 +5,6 @@ description: Represents a font set.
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet2, IDWriteFontSet2 interface [Direct Write], IDWriteFontSet2 interface [Direct Write],described, directwrite.idwritefontset2, dwrite_3/IDWriteFontSet2
-ms.topic: interface
 f1_keywords:
 - IDWriteFontSet2
 dev_langs:

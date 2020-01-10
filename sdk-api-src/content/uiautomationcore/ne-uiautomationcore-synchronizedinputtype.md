@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 28c66392-89f0-40eb-be19-ac84c64dacb7
 ms.date: 12/05/2018
 ms.keywords: SynchronizedInputType, SynchronizedInputType enumeration [Windows Accessibility], SynchronizedInputType_KeyDown, SynchronizedInputType_KeyUp, SynchronizedInputType_LeftMouseDown, SynchronizedInputType_LeftMouseUp, SynchronizedInputType_RightMouseDown, SynchronizedInputType_RightMouseUp, uiauto.uiauto_SynchronizedInputTypeEnum, uiauto_SynchronizedInputTypeEnum, uiautomationcore/SynchronizedInputType, uiautomationcore/SynchronizedInputType_KeyDown, uiautomationcore/SynchronizedInputType_KeyUp, uiautomationcore/SynchronizedInputType_LeftMouseDown, uiautomationcore/SynchronizedInputType_LeftMouseUp, uiautomationcore/SynchronizedInputType_RightMouseDown, uiautomationcore/SynchronizedInputType_RightMouseUp, winauto.uiauto_SynchronizedInputTypeEnum
-ms.topic: enum
 f1_keywords:
 - uiautomationcore/SynchronizedInputType
 dev_langs:

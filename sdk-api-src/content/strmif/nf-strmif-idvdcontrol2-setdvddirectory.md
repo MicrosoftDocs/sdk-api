@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: fa64a614-14cb-4ea9-a005-0e738490b6d6
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SetDVDDirectory method, IDvdControl2.SetDVDDirectory, IDvdControl2::SetDVDDirectory, IDvdControl2SetDVDDirectory, SetDVDDirectory, SetDVDDirectory method [DirectShow], SetDVDDirectory method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_setdvddirectory, strmif/IDvdControl2::SetDVDDirectory
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl2.SetDVDDirectory
 dev_langs:

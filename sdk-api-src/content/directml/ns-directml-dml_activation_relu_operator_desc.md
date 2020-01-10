@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: F5D602C4-C4FF-49BE-B054-7C587B3AAE5F
 ms.date: 12/5/2018
 ms.keywords: DML_ACTIVATION_RELU_OPERATOR_DESC, DML_ACTIVATION_RELU_OPERATOR_DESC structure, direct3d12.dml_activation_relu_operator_desc, directml/DML_ACTIVATION_RELU_OPERATOR_DESC
-ms.topic: struct
 f1_keywords:
 - directml/DML_ACTIVATION_RELU_OPERATOR_DESC
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 2fb51794-83ac-44c5-b388-d7b945870324
 ms.date: 12/05/2018
 ms.keywords: EnumMediaStreams, EnumMediaStreams method [DirectShow], EnumMediaStreams method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],EnumMediaStreams method, IMultiMediaStream.EnumMediaStreams, IMultiMediaStream::EnumMediaStreams, IMultiMediaStreamEnumMediaStreams, dshow.imultimediastream_enummediastreams, mmstream/IMultiMediaStream::EnumMediaStreams
-ms.topic: method
 f1_keywords:
 - mmstream/IMultiMediaStream.EnumMediaStreams
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c91667fa-a48b-409a-ba96-35581fdd07dd
 ms.date: 12/05/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetSortColumns method, ISearchFolderItemFactory.SetSortColumns, ISearchFolderItemFactory::SetSortColumns, SetSortColumns, SetSortColumns method [Windows Shell], SetSortColumns method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetSortColumns, shell.ISearchFolderItemFactory_SetSortColumns, shobjidl_core/ISearchFolderItemFactory::SetSortColumns
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ISearchFolderItemFactory.SetSortColumns
 dev_langs:

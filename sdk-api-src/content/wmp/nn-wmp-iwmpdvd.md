@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: d133f1e1-cbeb-403d-b247-9f495cb6f0f7
 ms.date: 12/05/2018
 ms.keywords: IWMPDVD, IWMPDVD interface [Windows Media Player], IWMPDVD interface [Windows Media Player],described, IWMPDVDInterface, wmp.iwmpdvd, wmp/IWMPDVD
-ms.topic: interface
 f1_keywords:
 - wmp/IWMPDVD
 dev_langs:

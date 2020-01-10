@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 68c7c06b-eab1-419d-ad58-22cbd4c3065e
 ms.date: 12/05/2018
 ms.keywords: 68c7c06b-eab1-419d-ad58-22cbd4c3065e, SetEnabledUnicodeRanges, SetEnabledUnicodeRanges function [Tablet PC], recapis/SetEnabledUnicodeRanges, tablet.setenabledunicoderanges
-ms.topic: function
 f1_keywords:
 - recapis/SetEnabledUnicodeRanges
 dev_langs:

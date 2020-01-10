@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: E270CB86-D90B-43FA-843B-F824970BD4F3
 ms.date: 12/05/2018
 ms.keywords: GetPlaybackRate, GetPlaybackRate method [Media Foundation], GetPlaybackRate method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetPlaybackRate method, IMFMediaEngine.GetPlaybackRate, IMFMediaEngine::GetPlaybackRate, mf.imfmediaengine_getplaybackrate, mfmediaengine/IMFMediaEngine::GetPlaybackRate
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngine.GetPlaybackRate
 dev_langs:

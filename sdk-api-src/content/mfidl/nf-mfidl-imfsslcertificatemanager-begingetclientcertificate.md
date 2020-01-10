@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: e375cb97-bb43-4852-9671-dd8fdea34cef
 ms.date: 12/05/2018
 ms.keywords: BeginGetClientCertificate, BeginGetClientCertificate method [Media Foundation], BeginGetClientCertificate method [Media Foundation],IMFSSLCertificateManager interface, IMFSSLCertificateManager interface [Media Foundation],BeginGetClientCertificate method, IMFSSLCertificateManager.BeginGetClientCertificate, IMFSSLCertificateManager::BeginGetClientCertificate, mf.imfsslcertificatemanager_begingetclientcertificate, mfidl/IMFSSLCertificateManager::BeginGetClientCertificate
-ms.topic: method
 f1_keywords:
 - mfidl/IMFSSLCertificateManager.BeginGetClientCertificate
 dev_langs:

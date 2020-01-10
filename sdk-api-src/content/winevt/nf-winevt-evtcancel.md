@@ -7,7 +7,6 @@ tech.root: wes
 ms.assetid: c8770139-93de-4da2-b797-f82775f4c553
 ms.date: 12/05/2018
 ms.keywords: EvtCancel, EvtCancel function [EventLog], wes.evtcancel, winevt/EvtCancel
-ms.topic: function
 f1_keywords:
 - winevt/EvtCancel
 dev_langs:

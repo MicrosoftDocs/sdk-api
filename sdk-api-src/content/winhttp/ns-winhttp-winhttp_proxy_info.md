@@ -7,7 +7,6 @@ tech.root: WinHttp
 ms.assetid: acb51bc5-43e2-4657-96eb-8e3d3e82e018
 ms.date: 12/05/2018
 ms.keywords: '*LPWINHTTP_PROXY_INFO, WINHTTP_ACCESS_TYPE_DEFAULT_PROXY, WINHTTP_ACCESS_TYPE_NAMED_PROXY, WINHTTP_ACCESS_TYPE_NO_PROXY, WINHTTP_PROXY_INFO, WINHTTP_PROXY_INFO structure [HTTP], WINHTTP_PROXY_INFOW, http.internet_proxy_info, winhttp/WINHTTP_PROXY_INFO, winhttp_internet_proxy_info_structure'
-ms.topic: struct
 f1_keywords:
 - winhttp/WINHTTP_PROXY_INFO
 dev_langs:

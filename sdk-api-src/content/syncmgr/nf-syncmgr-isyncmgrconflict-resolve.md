@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9680b96e-9a83-45e1-a2bf-674aff6490ec
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrConflict interface [Windows Shell],Resolve method, ISyncMgrConflict.Resolve, ISyncMgrConflict::Resolve, Resolve, Resolve method [Windows Shell], Resolve method [Windows Shell],ISyncMgrConflict interface, _shell_ISyncMgrConflict_Resolve, shell.ISyncMgrConflict_Resolve, syncmgr/ISyncMgrConflict::Resolve
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrConflict.Resolve
 dev_langs:

@@ -3,7 +3,6 @@ UID: NN:d3d12video.ID3D12VideoDevice1
 title: ID3D12VideoDevice1
 ms.date: 4/26/2019
 ms.keywords: ID3D12VideoDevice1
-ms.topic: language-reference
 f1_keywords:
 - ID3D12VideoDevice1
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_59ki.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxServer interface [Fax Service],RegisterDeviceProvider method, IFaxServer.RegisterDeviceProvider, IFaxServer::RegisterDeviceProvider, RegisterDeviceProvider, RegisterDeviceProvider method [Fax Service], RegisterDeviceProvider method [Fax Service],IFaxServer interface, _mfax_faxserver.registerdeviceprovider, fax._mfax_faxserver_cpp_mfax_faxserver_registerdeviceprovider_cpp, fax._mfax_faxserver_registerdeviceprovider, faxcomex/IFaxServer::RegisterDeviceProvider
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxServer.RegisterDeviceProvider
 dev_langs:

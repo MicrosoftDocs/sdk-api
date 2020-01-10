@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: D75529BD-C572-4137-8F1E-91F7C6902EE0
 ms.date: 12/05/2018
 ms.keywords: IDXGIOutput5, IDXGIOutput5 interface [DXGI], IDXGIOutput5 interface [DXGI],described, direct3ddxgi.idxgioutput5, dxgi1_5/IDXGIOutput5
-ms.topic: interface
 f1_keywords:
 - dxgi1_5/IDXGIOutput5
 dev_langs:

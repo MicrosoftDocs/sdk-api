@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 751CBF14-C445-4F2A-96F6-CB6159FAA1EE
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextTrack interface [Media Foundation],SetLabel method, IMFTimedTextTrack.SetLabel, IMFTimedTextTrack::SetLabel, SetLabel, SetLabel method [Media Foundation], SetLabel method [Media Foundation],IMFTimedTextTrack interface, mf.imftimedtexttrack_setlabel, mfmediaengine/IMFTimedTextTrack::SetLabel
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFTimedTextTrack.SetLabel
 dev_langs:

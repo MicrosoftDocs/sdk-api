@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0pbh.htm
 ms.date: 12/05/2018
 ms.keywords: FAX_SERVER_APIVERSION_ENUM, FAX_SERVER_APIVERSION_ENUM enumeration [Fax Service], _mfax_fax_server_apiversion_enum, fax._mfax_fax_server_apiversion_enum, faxcomex/FAX_SERVER_APIVERSION_ENUM, faxcomex/fsAPI_VERSION_0, faxcomex/fsAPI_VERSION_1, faxcomex/fsAPI_VERSION_2, faxcomex/fsAPI_VERSION_3, fsAPI_VERSION_0, fsAPI_VERSION_1, fsAPI_VERSION_2, fsAPI_VERSION_3
-ms.topic: enum
 f1_keywords:
 - faxcomex/FAX_SERVER_APIVERSION_ENUM
 dev_langs:

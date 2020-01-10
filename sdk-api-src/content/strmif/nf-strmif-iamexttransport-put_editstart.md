@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 1fd9c788-2ccb-47e5-bed8-fece9cfdf2a6
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],put_EditStart method, IAMExtTransport.put_EditStart, IAMExtTransport::put_EditStart, IAMExtTransportput_EditStart, dshow.iamexttransport_put_editstart, put_EditStart, put_EditStart method [DirectShow], put_EditStart method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::put_EditStart
-ms.topic: method
 f1_keywords:
 - strmif/IAMExtTransport.put_EditStart
 dev_langs:

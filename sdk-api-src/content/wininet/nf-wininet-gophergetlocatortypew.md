@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: e6f0ef67-c411-43ff-a477-5a8635057f2c
 ms.date: 12/05/2018
 ms.keywords: GopherGetLocatorType, GopherGetLocatorType function [WinINet], GopherGetLocatorTypeA, GopherGetLocatorTypeW, _inet_gophergetlocatortype_function, wininet.gophergetlocatortype, wininet/GopherGetLocatorType, wininet/GopherGetLocatorTypeA, wininet/GopherGetLocatorTypeW
-ms.topic: function
 f1_keywords:
 - wininet/GopherGetLocatorType
 dev_langs:

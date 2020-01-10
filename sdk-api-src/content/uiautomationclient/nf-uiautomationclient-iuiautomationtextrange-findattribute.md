@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 12722d22-79ca-4390-8155-61234b821256
 ms.date: 12/05/2018
 ms.keywords: FindAttribute, FindAttribute method [Windows Accessibility], FindAttribute method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],FindAttribute method, IUIAutomationTextRange.FindAttribute, IUIAutomationTextRange::FindAttribute, uiauto.uiauto_IUIAutomationTextRange_FindAttribute, uiauto_IUIAutomationTextRange_FindAttribute, uiautomationclient/IUIAutomationTextRange::FindAttribute, winauto.uiauto_IUIAutomationTextRange_FindAttribute
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationTextRange.FindAttribute
 dev_langs:

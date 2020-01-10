@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: cbc11006-a434-46f8-a78c-3b67e35ed32a
 ms.date: 12/05/2018
 ms.keywords: DeleteStrokes, DeleteStrokes method [Tablet PC], DeleteStrokes method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],DeleteStrokes method, IInkDisp.DeleteStrokes, IInkDisp::DeleteStrokes, cbc11006-a434-46f8-a78c-3b67e35ed32a, msinkaut/IInkDisp::DeleteStrokes, tablet.inkdisp_deletestrokes
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkDisp.DeleteStrokes
 dev_langs:

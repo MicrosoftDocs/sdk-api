@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 03bcfb1a-6ed8-4e78-b3c8-64d29dc74dbc
 ms.date: 12/05/2018
 ms.keywords: TTVALIDATIONTESTSPARAMSEX, TTVALIDATIONTESTSPARAMSEX structure [Windows GDI], _win32_TTVALIDATIONTESTPARAMSEX, gdi.ttvalidationtestparamsex, t2embapi/TTVALIDATIONTESTSPARAMSEX
-ms.topic: struct
 f1_keywords:
 - t2embapi/TTVALIDATIONTESTSPARAMSEX
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: d2f46c31-10f3-4318-8185-40a6bbd8ef8a
 ms.date: 12/05/2018
 ms.keywords: D2D1_VERTEX_BUFFER_PROPERTIES, D2D1_VERTEX_BUFFER_PROPERTIES structure [Direct2D], d2d1effectauthor/D2D1_VERTEX_BUFFER_PROPERTIES, direct2d.d2d1_vertex_buffer_properties
-ms.topic: struct
 f1_keywords:
 - d2d1effectauthor/D2D1_VERTEX_BUFFER_PROPERTIES
 dev_langs:

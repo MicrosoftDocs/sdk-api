@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemalocalizersupport\ischemalocalizersupport.htm
 ms.date: 12/05/2018
 ms.keywords: ISchemaLocalizerSupport, ISchemaLocalizerSupport interface [search], ISchemaLocalizerSupport interface [search],described, _search_ISchemaLocalizerSupport, search._search_ISchemaLocalizerSupport, structuredquery/ISchemaLocalizerSupport
-ms.topic: interface
 f1_keywords:
 - structuredquery/ISchemaLocalizerSupport
 dev_langs:

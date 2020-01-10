@@ -7,7 +7,6 @@ tech.root: ixhr2
 ms.assetid: 8723F24B-0739-44D6-8443-1A378B585F42
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],Open method, IXMLHTTPRequest2.Open, IXMLHTTPRequest2::Open, Open, Open method [XMLHttpRequest2], Open method [XMLHttpRequest2],IXMLHTTPRequest2 interface, ixhr2.ixmlhttprequest2_open, msxml6/IXMLHTTPRequest2::Open
-ms.topic: method
 f1_keywords:
 - msxml6/IXMLHTTPRequest2.Open
 dev_langs:

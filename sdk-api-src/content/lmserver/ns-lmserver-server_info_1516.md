@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 3d2baa83-61b6-4f7e-8cee-d584f87daf7d
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVER_INFO_1516, *PSERVER_INFO_1516, LPSERVER_INFO_1516, LPSERVER_INFO_1516 structure pointer [Network Management], PSERVER_INFO_1516, PSERVER_INFO_1516 structure pointer [Network Management], SERVER_INFO_1516, SERVER_INFO_1516 structure [Network Management], _win32_server_info_1516_str, lmserver/LPSERVER_INFO_1516, lmserver/PSERVER_INFO_1516, lmserver/SERVER_INFO_1516, netmgmt.server_info_1516_str'
-ms.topic: struct
 f1_keywords:
 - lmserver/SERVER_INFO_1516
 dev_langs:

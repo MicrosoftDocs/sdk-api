@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brightnesscontrastclass\brightnesscontrastmethods\setparameters.htm
 ms.date: 12/05/2018
 ms.keywords: BrightnessContrast class [GDI+],SetParameters method, BrightnessContrast.SetParameters, BrightnessContrast::SetParameters, SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],BrightnessContrast class, _gdiplus_CLASS_BrightnessContrast_SetParameters_, gdiplus._gdiplus_CLASS_BrightnessContrast_SetParameters_
-ms.topic: method
 f1_keywords:
 - gdipluseffects/BrightnessContrast.SetParameters
 dev_langs:

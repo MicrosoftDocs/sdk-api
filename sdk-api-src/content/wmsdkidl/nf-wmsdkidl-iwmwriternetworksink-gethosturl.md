@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 66d4747e-aec5-47bd-ac4a-dc052e964601
 ms.date: 12/05/2018
 ms.keywords: GetHostURL, GetHostURL method [windows Media Format], GetHostURL method [windows Media Format],IWMWriterNetworkSink interface, IWMWriterNetworkSink interface [windows Media Format],GetHostURL method, IWMWriterNetworkSink.GetHostURL, IWMWriterNetworkSink::GetHostURL, IWMWriterNetworkSinkGetHostURL, wmformat.iwmwriternetworksink_gethosturl, wmsdkidl/IWMWriterNetworkSink::GetHostURL
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMWriterNetworkSink.GetHostURL
 dev_langs:

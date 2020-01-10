@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: C15C5099-B409-4F75-B6BB-D3ECFBE0B762
 ms.date: 12/05/2019
 ms.keywords: CreateEventHandlerGroup, CreateEventHandlerGroup method [Windows Accessibility], CreateEventHandlerGroup method [Windows Accessibility],IUIAutomation6 interface, IUIAutomation6 interface [Windows Accessibility],CreateEventHandlerGroup method, IUIAutomation6.CreateEventHandlerGroup, IUIAutomation6::CreateEventHandlerGroup, uiautomationclient/IUIAutomation6::CreateEventHandlerGroup, winauto.uiauto_IUIAutomation6_CreateEventHandlerGroup
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomation6.CreateEventHandlerGroup
 dev_langs:

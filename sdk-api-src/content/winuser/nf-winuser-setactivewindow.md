@@ -7,7 +7,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\setactivewindow.htm
 ms.date: 12/05/2018
 ms.keywords: SetActiveWindow, SetActiveWindow function [Keyboard and Mouse Input], _win32_SetActiveWindow, _win32_setactivewindow_cpp, inputdev.setactivewindow, winui._win32_setactivewindow, winuser/SetActiveWindow
-ms.topic: function
 f1_keywords:
 - winuser/SetActiveWindow
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 1a6dd7f9-d348-4c86-8d74-544aaa45581d
 ms.date: 12/05/2018
 ms.keywords: IEnumTfInputProcessorProfiles, IEnumTfInputProcessorProfiles interface [Text Services Framework], IEnumTfInputProcessorProfiles interface [Text Services Framework],described, _tsf_ienumtfinputprocessorprofiles_ref, msctf/IEnumTfInputProcessorProfiles, tsf.ienumtfinputprocessorprofiles
-ms.topic: interface
 f1_keywords:
 - msctf/IEnumTfInputProcessorProfiles
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: e2c0e975-3edd-43d5-8a58-2d8166413c76
 ms.date: 12/05/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessMove method, IManipulationProcessor.ProcessMove, IManipulationProcessor::ProcessMove, ProcessMove, ProcessMove method [Windows Touch], ProcessMove method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessMove, wintouch.imanipulationprocessor_processmove
-ms.topic: method
 f1_keywords:
 - manipulations/IManipulationProcessor.ProcessMove
 dev_langs:

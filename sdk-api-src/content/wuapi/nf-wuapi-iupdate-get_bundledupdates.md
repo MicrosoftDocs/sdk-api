@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 17fcde27-86be-4fe1-8cd2-a49cfe2b408f
 ms.date: 12/05/2018
 ms.keywords: BundledUpdates property [Windows Update Agent], BundledUpdates property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],BundledUpdates property, IUpdate.BundledUpdates, IUpdate.get_BundledUpdates, IUpdate::BundledUpdates, IUpdate::get_BundledUpdates, get_BundledUpdates, wua.iupdate_bundledupdates, wuapi/IUpdate::BundledUpdates, wuapi/IUpdate::get_BundledUpdates
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdate.BundledUpdates
 dev_langs:

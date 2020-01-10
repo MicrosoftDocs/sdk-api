@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: f98a71e4-47fb-47a4-b37e-e4cc801a8f98
 ms.date: 12/05/2018
 ms.keywords: WSAEventSelect, WSAEventSelect function [Winsock], _win32_wsaeventselect_2, winsock.wsaeventselect_2, winsock2/WSAEventSelect
-ms.topic: function
 f1_keywords:
 - winsock2/WSAEventSelect
 dev_langs:

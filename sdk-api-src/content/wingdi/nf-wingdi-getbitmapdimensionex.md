@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 3e4f5afc-26d3-4fb2-8d00-183165fdf471
 ms.date: 12/05/2018
 ms.keywords: GetBitmapDimensionEx, GetBitmapDimensionEx function [Windows GDI], _win32_GetBitmapDimensionEx, gdi.getbitmapdimensionex, wingdi/GetBitmapDimensionEx
-ms.topic: function
 f1_keywords:
 - wingdi/GetBitmapDimensionEx
 dev_langs:

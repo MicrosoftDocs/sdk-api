@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructures\drawitemstruct.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPDRAWITEMSTRUCT, *PDRAWITEMSTRUCT, DRAWITEMSTRUCT, DRAWITEMSTRUCT structure [Windows Controls], ODA_DRAWENTIRE, ODA_FOCUS, ODA_SELECT, ODS_CHECKED, ODS_COMBOBOXEDIT, ODS_DEFAULT, ODS_DISABLED, ODS_FOCUS, ODS_GRAYED, ODS_HOTLIGHT, ODS_INACTIVE, ODS_NOACCEL, ODS_NOFOCUSRECT, ODS_SELECTED, ODT_BUTTON, ODT_COMBOBOX, ODT_LISTBOX, ODT_LISTVIEW, ODT_MENU, ODT_STATIC, ODT_TAB, _win32_DRAWITEMSTRUCT_str, _win32_DRAWITEMSTRUCT_str_cpp, controls.DRAWITEMSTRUCT, controls._win32_DRAWITEMSTRUCT_str, winuser/DRAWITEMSTRUCT'
-ms.topic: struct
 f1_keywords:
 - winuser/DRAWITEMSTRUCT
 dev_langs:

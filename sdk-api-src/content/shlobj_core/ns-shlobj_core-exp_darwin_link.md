@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 016c539e-6035-4752-99b6-71e2d7199bf0
 ms.date: 12/05/2018
 ms.keywords: '*LPEXP_DARWIN_LINK, EXP_DARWIN_ID_SIG, EXP_DARWIN_LINK, EXP_DARWIN_LINK structure [Windows Shell], LPEXP_DARWIN_LINK, LPEXP_DARWIN_LINK structure pointer [Windows Shell], _win32_EXP_DARWIN_LINK_str, shell.EXP_DARWIN_LINK_str, shlobj_core/EXP_DARWIN_LINK, shlobj_core/LPEXP_DARWIN_LINK'
-ms.topic: struct
 f1_keywords:
 - shlobj_core/EXP_DARWIN_LINK
 dev_langs:

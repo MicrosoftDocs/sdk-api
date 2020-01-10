@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: D9208D00-F437-4B2E-8C39-044F75088659
 ms.date: 12/05/2018
 ms.keywords: DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION, DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION structure [Display Devices], display.displayconfig_support_virtual_resolution, wingdi/DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
-ms.topic: struct
 f1_keywords:
 - wingdi/DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
 dev_langs:

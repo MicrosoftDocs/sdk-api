@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 7efe43af-db07-4286-b0b7-6527403568f0
 ms.date: 12/05/2018
 ms.keywords: IAMTVAudio interface [DirectShow],put_TVAudioMode method, IAMTVAudio.put_TVAudioMode, IAMTVAudio::put_TVAudioMode, IAMTVAudioput_TVAudioMode, dshow.iamtvaudio_put_tvaudiomode, put_TVAudioMode, put_TVAudioMode method [DirectShow], put_TVAudioMode method [DirectShow],IAMTVAudio interface, strmif/IAMTVAudio::put_TVAudioMode
-ms.topic: method
 f1_keywords:
 - strmif/IAMTVAudio.put_TVAudioMode
 dev_langs:

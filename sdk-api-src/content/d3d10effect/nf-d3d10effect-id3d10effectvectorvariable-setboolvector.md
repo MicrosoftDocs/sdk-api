@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable_setboolvector.htm
 ms.date: 12/05/2018
 ms.keywords: 838a298a-5879-04ce-3b05-893c86f7f6b5, ID3D10EffectVectorVariable interface [Direct3D 10],SetBoolVector method, ID3D10EffectVectorVariable.SetBoolVector, ID3D10EffectVectorVariable::SetBoolVector, SetBoolVector, SetBoolVector method [Direct3D 10], SetBoolVector method [Direct3D 10],ID3D10EffectVectorVariable interface, d3d10effect/ID3D10EffectVectorVariable::SetBoolVector, direct3d10.id3d10effectvectorvariable_setboolvector
-ms.topic: method
 f1_keywords:
 - d3d10effect/ID3D10EffectVectorVariable.SetBoolVector
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 4655C6B6-02CE-42B2-A157-0C0325D1BE52
 ms.date: 12/05/2018
 ms.keywords: CoAllowUnmarshalerCLSID, CoAllowUnmarshalerCLSID function [COM], com.coallowunmarshalerclsid, combaseapi/CoAllowUnmarshalerCLSID
-ms.topic: function
 f1_keywords:
 - combaseapi/CoAllowUnmarshalerCLSID
 dev_langs:

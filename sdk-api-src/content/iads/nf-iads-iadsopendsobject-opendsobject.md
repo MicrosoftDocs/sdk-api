@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 9984ddb4-58bb-4264-930b-07e6534dc69f
 ms.date: 12/05/2018
 ms.keywords: IADsOpenDSObject interface [ADSI],OpenDSObject method, IADsOpenDSObject.OpenDSObject, IADsOpenDSObject::OpenDSObject, OpenDSObject, OpenDSObject method [ADSI], OpenDSObject method [ADSI],IADsOpenDSObject interface, _ds_iadsopendsobject_opendsobject, adsi.iadsopendsobject__opendsobject, adsi.iadsopendsobject_opendsobject, iads/IADsOpenDSObject::OpenDSObject
-ms.topic: method
 f1_keywords:
 - iads/IADsOpenDSObject.OpenDSObject
 dev_langs:

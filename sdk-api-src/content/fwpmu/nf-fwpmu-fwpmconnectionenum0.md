@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: ad4c8759-f1f8-460f-b1e1-78149ce3b386
 ms.date: 12/05/2018
 ms.keywords: FwpmConnectionEnum0, FwpmConnectionEnum0 function [Filtering], fwp.fwpmconnectionenum0, fwpmu/FwpmConnectionEnum0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmConnectionEnum0
 dev_langs:

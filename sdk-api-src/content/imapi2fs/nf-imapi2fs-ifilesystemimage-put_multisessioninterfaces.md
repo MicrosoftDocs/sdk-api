@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 632cd123-4e66-4ac3-891a-aa9d0c085b4f
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_MultisessionInterfaces method, IFileSystemImage.put_MultisessionInterfaces, IFileSystemImage::put_MultisessionInterfaces, imapi.ifilesystemimage_put_multisessioninterfaces, imapi2fs/IFileSystemImage::put_MultisessionInterfaces, put_MultisessionInterfaces, put_MultisessionInterfaces method [IMAPI], put_MultisessionInterfaces method [IMAPI],IFileSystemImage interface
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFileSystemImage.put_MultisessionInterfaces
 dev_langs:

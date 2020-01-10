@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 12dfe612-d5b9-438f-aaa2-e52ebc3d6ebc
 ms.date: 12/05/2018
 ms.keywords: IUseToBrowseItem, IUseToBrowseItem interface [Windows Shell], IUseToBrowseItem interface [Windows Shell],described, _shell_IUseToBrowseItem, shell.IUseToBrowseItem, shobjidl/IUseToBrowseItem
-ms.topic: interface
 f1_keywords:
 - shobjidl/IUseToBrowseItem
 dev_langs:

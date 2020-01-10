@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 363c987c-7d6c-4efe-988a-1b288f9b4d3c
 ms.date: 12/05/2018
 ms.keywords: IVssExamineWriterMetadataEx, IVssExamineWriterMetadataEx interface [VSS], IVssExamineWriterMetadataEx interface [VSS],described, base.ivssexaminewritermetadataex, vsbackup/IVssExamineWriterMetadataEx
-ms.topic: class
 f1_keywords:
 - vsbackup/IVssExamineWriterMetadataEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: caefafb8-55f8-47c3-adc7-26708b90d2cd
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManagerEventHandler, IUIAnimationManagerEventHandler interface [Windows Animation], IUIAnimationManagerEventHandler interface [Windows Animation],described, uianimation.iuianimationmanagereventhandler, uianimation/IUIAnimationManagerEventHandler
-ms.topic: interface
 f1_keywords:
 - uianimation/IUIAnimationManagerEventHandler
 dev_langs:

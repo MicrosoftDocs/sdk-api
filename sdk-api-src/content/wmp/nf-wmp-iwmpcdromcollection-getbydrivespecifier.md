@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: b48679da-c8f3-4e9d-89cd-0ecbcbc07fe4
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromCollection interface [Windows Media Player],getByDriveSpecifier method, IWMPCdromCollection.getByDriveSpecifier, IWMPCdromCollection::getByDriveSpecifier, IWMPCdromCollectiongetByDriveSpecifier, getByDriveSpecifier, getByDriveSpecifier method [Windows Media Player], getByDriveSpecifier method [Windows Media Player],IWMPCdromCollection interface, wmp.iwmpcdromcollection_getbydrivespecifier, wmp/IWMPCdromCollection::getByDriveSpecifier
-ms.topic: method
 f1_keywords:
 - wmp/IWMPCdromCollection.getByDriveSpecifier
 dev_langs:

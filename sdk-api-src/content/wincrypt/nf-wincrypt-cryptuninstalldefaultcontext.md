@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: ad7be5cf-f078-4a9f-81c4-959e4203dba8
 ms.date: 12/05/2018
 ms.keywords: CryptUninstallDefaultContext, CryptUninstallDefaultContext function [Security], _crypto2_cryptuninstalldefaultcontext, security.cryptuninstalldefaultcontext, wincrypt/CryptUninstallDefaultContext
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptUninstallDefaultContext
 dev_langs:

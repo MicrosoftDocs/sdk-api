@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: 0132194a-ee7b-4aa2-af79-f92071072429
 ms.date: 12/05/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],SetCooperativeLevel method, IDirectInputJoyConfig8.SetCooperativeLevel, IDirectInputJoyConfig8::SetCooperativeLevel, SetCooperativeLevel, SetCooperativeLevel method [Human Input Devices], SetCooperativeLevel method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_3730e9ce-af55-43a3-866f-ecb288958005.xml, dinputd/IDirectInputJoyConfig8::SetCooperativeLevel, hid.idirectinputjoyconfig8_setcooperativelevel
-ms.topic: method
 f1_keywords:
 - dinputd/IDirectInputJoyConfig8.SetCooperativeLevel
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 5dfba718-4c89-46e7-89b6-e4b133b0ce04
 ms.date: 12/05/2018
 ms.keywords: ProcAmpControl9_Brightness, ProcAmpControl9_Contrast, ProcAmpControl9_Hue, ProcAmpControl9_Mask, ProcAmpControl9_Saturation, VMR9ProcAmpControlFlags, VMR9ProcAmpControlFlags , VMR9ProcAmpControlFlags enumeration [DirectShow], dshow.vmr9procampcontrolflags, vmr9/ProcAmpControl9_Brightness, vmr9/ProcAmpControl9_Contrast, vmr9/ProcAmpControl9_Hue, vmr9/ProcAmpControl9_Mask, vmr9/ProcAmpControl9_Saturation, vmr9/VMR9ProcAmpControlFlags
-ms.topic: enum
 f1_keywords:
 - vmr9/VMR9ProcAmpControlFlags
 dev_langs:

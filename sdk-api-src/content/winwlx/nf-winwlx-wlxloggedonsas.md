@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: d60d1464-1948-444c-801a-dde17905091b
 ms.date: 12/05/2018
 ms.keywords: WLX_SAS_TYPE_CTRL_ALT_DEL, WLX_SAS_TYPE_SC_INSERT, WLX_SAS_TYPE_SC_REMOVE, WLX_SAS_TYPE_TIMEOUT, WlxLoggedOnSAS, WlxLoggedOnSAS function [Security], _gina_wlxloggedonsas, security.wlxloggedonsas, winwlx/WlxLoggedOnSAS
-ms.topic: function
 f1_keywords:
 - winwlx/WlxLoggedOnSAS
 dev_langs:

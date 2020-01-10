@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 044a6571-8ec0-48af-b105-07c60c25d68a
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorageControl3 interface [windows Media Device Manager],Insert3 method, IWMDMStorageControl3.Insert3, IWMDMStorageControl3::Insert3, IWMDMStorageControl3Insert3, Insert3, Insert3 method [windows Media Device Manager], Insert3 method [windows Media Device Manager],IWMDMStorageControl3 interface, mswmdm/IWMDMStorageControl3::Insert3, wmdm.iwmdmstoragecontrol3_insert3
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMStorageControl3.Insert3
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: C861307B-38DD-4FC0-A790-59E26AB6F7AD
 ms.date: 12/05/2018
 ms.keywords: GetMainWindow, GetMainWindow method [MMC], GetMainWindow method [MMC],IConsole interface, IConsole interface [MMC],GetMainWindow method, IConsole.GetMainWindow, IConsole::GetMainWindow, mmc.iconsole_getmainwindow, mmc/IConsole::GetMainWindow
-ms.topic: method
 f1_keywords:
 - mmc/IConsole.GetMainWindow
 dev_langs:

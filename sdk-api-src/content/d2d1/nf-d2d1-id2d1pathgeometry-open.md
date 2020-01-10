@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 08ff9ffb-1f1e-440c-a22c-dc58865b678a
 ms.date: 12/05/2018
 ms.keywords: ID2D1PathGeometry interface [Direct2D],Open method, ID2D1PathGeometry.Open, ID2D1PathGeometry::Open, Open, Open method [Direct2D], Open method [Direct2D],ID2D1PathGeometry interface, d2d1/ID2D1PathGeometry::Open, direct2d.ID2D1PathGeometry_Open
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1PathGeometry.Open
 dev_langs:

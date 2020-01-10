@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 294fbafc-6a8f-4617-bc34-413c89e3a43c
 ms.date: 12/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],MoveIcons method, IShellFolderView.MoveIcons, IShellFolderView::MoveIcons, MoveIcons, MoveIcons method [Windows Shell], MoveIcons method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_MoveIcons, shell.IShellFolderView_MoveIcons, shlobj_core/IShellFolderView::MoveIcons
-ms.topic: method
 f1_keywords:
 - shlobj_core/IShellFolderView.MoveIcons
 dev_langs:

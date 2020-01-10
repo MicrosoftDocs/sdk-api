@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 86dbfe68-e360-42cf-b572-960398ef06ba
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTarget, IDCompositionTarget interface [DirectComposition], IDCompositionTarget interface [DirectComposition],described, dcomp/IDCompositionTarget, directcomp.idcompositiontarget
-ms.topic: interface
 f1_keywords:
 - dcomp/IDCompositionTarget
 dev_langs:

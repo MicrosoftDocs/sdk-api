@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: bdec3ee4-e66a-4e93-9109-c5721d06eb63
 ms.date: 12/05/2018
 ms.keywords: IItemEnumerator interface [SMI],MoveNext method, IItemEnumerator.MoveNext, IItemEnumerator::MoveNext, MoveNext, MoveNext method [SMI], MoveNext method [SMI],IItemEnumerator interface, smi.iitemenumerator_movenext, wcmconfig/IItemEnumerator::MoveNext
-ms.topic: method
 f1_keywords:
 - wcmconfig/IItemEnumerator.MoveNext
 dev_langs:

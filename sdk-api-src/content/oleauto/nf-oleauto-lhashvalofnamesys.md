@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 929c2307-8e73-4576-a705-1cde1f728ba4
 ms.date: 12/05/2018
 ms.keywords: LHashValOfNameSys, LHashValOfNameSys function [Automation], _oa96_LHashValOfNameSys, automat.lhashvalofnamesys, oleauto/LHashValOfNameSys
-ms.topic: function
 f1_keywords:
 - oleauto/LHashValOfNameSys
 dev_langs:

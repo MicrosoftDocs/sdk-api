@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: acc16097-8301-4118-8cb5-00aa2705306a
 ms.date: 12/05/2018
 ms.keywords: SHBindToObject, SHBindToObject function [Windows Shell], _shell_SHBindToObject, shell.SHBindToObject, shlobj_core/SHBindToObject
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHBindToObject
 dev_langs:

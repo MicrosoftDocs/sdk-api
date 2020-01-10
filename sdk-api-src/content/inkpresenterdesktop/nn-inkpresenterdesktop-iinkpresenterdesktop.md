@@ -7,7 +7,6 @@ tech.root: input_ink
 ms.assetid: 6d175981-6379-4a61-84b0-8b08274bc3a3
 ms.date: 12/05/2018
 ms.keywords: IInkPresenterDesktop, IInkPresenterDesktop interface, IInkPresenterDesktop interface,described, InkPresenterDesktop.iinkpresenterdesktop, inkpresenterdesktop/IInkPresenterDesktop, input_ink.iinkpresenterdesktop
-ms.topic: interface
 f1_keywords:
 - inkpresenterdesktop/IInkPresenterDesktop
 dev_langs:

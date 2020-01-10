@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 5821f4bd-5165-4ffc-8d1c-5ef89188b307
 ms.date: 12/05/2018
 ms.keywords: IX509Attributes interface [Security],Remove method, IX509Attributes.Remove, IX509Attributes::Remove, Remove, Remove method [Security], Remove method [Security],IX509Attributes interface, certenroll/IX509Attributes::Remove, security.ix509attributes_remove_method
-ms.topic: method
 f1_keywords:
 - certenroll/IX509Attributes.Remove
 dev_langs:

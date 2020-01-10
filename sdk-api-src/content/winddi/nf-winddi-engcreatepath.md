@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: b41f77cb-5dd6-43bd-86dc-0bbcbb3e9f6a
 ms.date: 12/05/2018
 ms.keywords: EngCreatePath, EngCreatePath function [Display Devices], display.engcreatepath, gdifncs_73e7c8ea-ed9f-4479-bd8a-86a5d07e5d33.xml, winddi/EngCreatePath
-ms.topic: function
 f1_keywords:
 - winddi/EngCreatePath
 dev_langs:

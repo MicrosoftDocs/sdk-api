@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: ae035991-86c8-4ffc-b819-5a5ce81a980f
 ms.date: 12/05/2018
 ms.keywords: GetMarker, GetMarker method [windows Media Format], GetMarker method [windows Media Format],IWMHeaderInfo interface, GetMarker method [windows Media Format],IWMHeaderInfo2 interface, GetMarker method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],GetMarker method, IWMHeaderInfo.GetMarker, IWMHeaderInfo2 interface [windows Media Format],GetMarker method, IWMHeaderInfo2::GetMarker, IWMHeaderInfo3 interface [windows Media Format],GetMarker method, IWMHeaderInfo3::GetMarker, IWMHeaderInfo::GetMarker, IWMHeaderInfoGetMarker, wmformat.iwmheaderinfo_getmarker, wmsdkidl/IWMHeaderInfo2::GetMarker, wmsdkidl/IWMHeaderInfo3::GetMarker, wmsdkidl/IWMHeaderInfo::GetMarker
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMHeaderInfo.GetMarker
 dev_langs:

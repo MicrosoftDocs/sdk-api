@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_2dv0.htm
 ms.date: 12/05/2018
 ms.keywords: GeneralEventsLevel property [Fax Service], GeneralEventsLevel property [Fax Service],IFaxEventLogging interface, IFaxEventLogging interface [Fax Service],GeneralEventsLevel property, IFaxEventLogging.GeneralEventsLevel, IFaxEventLogging.get_GeneralEventsLevel, IFaxEventLogging.put_GeneralEventsLevel, IFaxEventLogging::GeneralEventsLevel, IFaxEventLogging::get_GeneralEventsLevel, IFaxEventLogging::put_GeneralEventsLevel, _mfax_faxeventlogging.generaleventslevel, fax._mfax_faxeventlogging_cpp_mfax_faxeventlogging_generaleventslevel_cpp, fax._mfax_faxeventlogging_generaleventslevel, faxcomex/IFaxEventLogging::GeneralEventsLevel, faxcomex/IFaxEventLogging::get_GeneralEventsLevel, faxcomex/IFaxEventLogging::put_GeneralEventsLevel, put_GeneralEventsLevel
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxEventLogging.GeneralEventsLevel
 dev_langs:

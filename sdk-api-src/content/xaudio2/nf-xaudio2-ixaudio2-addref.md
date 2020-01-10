@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.AddRef
 ms.date: 12/05/2018
 ms.keywords: AddRef, AddRef method [XAudio2 Audio Mixing APIs], AddRef method [XAudio2 Audio Mixing APIs],IXAudio2 interface, IXAudio2 interface [XAudio2 Audio Mixing APIs],AddRef method, IXAudio2.AddRef, IXAudio2::AddRef, xaudio2.ixaudio2_interface_addref, xaudio2/IXAudio2::AddRef
-ms.topic: method
 f1_keywords:
 - xaudio2/IXAudio2.AddRef
 dev_langs:

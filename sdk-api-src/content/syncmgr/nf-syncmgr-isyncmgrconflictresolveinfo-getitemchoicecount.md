@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7604455c-35ab-4f94-8e5a-3f6aa83fc9cf
 ms.date: 12/05/2018
 ms.keywords: GetItemChoiceCount, GetItemChoiceCount method [Windows Shell], GetItemChoiceCount method [Windows Shell],ISyncMgrConflictResolveInfo interface, ISyncMgrConflictResolveInfo interface [Windows Shell],GetItemChoiceCount method, ISyncMgrConflictResolveInfo.GetItemChoiceCount, ISyncMgrConflictResolveInfo::GetItemChoiceCount, _shell_ISyncMgrConflictResolveInfo_GetItemChoiceCount, shell.ISyncMgrConflictResolveInfo_GetItemChoiceCount, syncmgr/ISyncMgrConflictResolveInfo::GetItemChoiceCount
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrConflictResolveInfo.GetItemChoiceCount
 dev_langs:

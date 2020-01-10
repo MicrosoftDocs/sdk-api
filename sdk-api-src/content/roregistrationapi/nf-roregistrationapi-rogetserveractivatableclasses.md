@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 845AC938-DE04-4151-8500-B8657234201C
 ms.date: 12/05/2018
 ms.keywords: RoGetServerActivatableClasses, RoGetServerActivatableClasses function [Windows Runtime], roregistrationapi/RoGetServerActivatableClasses, winrt.rogetserveractivatableclasses
-ms.topic: function
 f1_keywords:
 - roregistrationapi/RoGetServerActivatableClasses
 dev_langs:

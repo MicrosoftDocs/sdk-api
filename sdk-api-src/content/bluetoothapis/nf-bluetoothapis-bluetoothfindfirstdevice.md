@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: f73acbb4-119f-4a73-a338-d11e8cf7e6be
 ms.date: 12/05/2018
 ms.keywords: BluetoothFindFirstDevice, BluetoothFindFirstDevice function [Bluetooth], bluetooth.bluetoothfindfirstdevice, bluetoothapis/BluetoothFindFirstDevice
-ms.topic: function
 f1_keywords:
 - bluetoothapis/BluetoothFindFirstDevice
 dev_langs:

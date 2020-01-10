@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: de3adac7-ff99-4415-9afc-e25ad420df59
 ms.date: 12/05/2018
 ms.keywords: IGraphBuilder interface [DirectShow],Render method, IGraphBuilder.Render, IGraphBuilder::Render, IGraphBuilderRender, Render, Render method [DirectShow], Render method [DirectShow],IGraphBuilder interface, dshow.igraphbuilder_render, strmif/IGraphBuilder::Render
-ms.topic: method
 f1_keywords:
 - strmif/IGraphBuilder.Render
 dev_langs:

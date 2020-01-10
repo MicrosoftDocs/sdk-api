@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: DBABC959-0692-4DB9-9726-AFE6972A6B52
 ms.date: 12/05/2018
 ms.keywords: GetResourceBindingDesc, GetResourceBindingDesc method, GetResourceBindingDesc method,ID3D12FunctionReflection interface, ID3D12FunctionReflection interface,GetResourceBindingDesc method, ID3D12FunctionReflection.GetResourceBindingDesc, ID3D12FunctionReflection::GetResourceBindingDesc, d3d12shader/ID3D12FunctionReflection::GetResourceBindingDesc, direct3d12.id3d12functionreflection_getresourcebindingdesc
-ms.topic: method
 f1_keywords:
 - d3d12shader/ID3D12FunctionReflection.GetResourceBindingDesc
 dev_langs:

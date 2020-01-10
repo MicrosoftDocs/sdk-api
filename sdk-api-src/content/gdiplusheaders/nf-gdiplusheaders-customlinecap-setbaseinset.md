@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\setbaseinset.htm
 ms.date: 12/05/2018
 ms.keywords: CustomLineCap class [GDI+],SetBaseInset method, CustomLineCap.SetBaseInset, CustomLineCap::SetBaseInset, SetBaseInset, SetBaseInset method [GDI+], SetBaseInset method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_SetBaseInset_inset_, gdiplus._gdiplus_CLASS_CustomLineCap_SetBaseInset_inset_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/CustomLineCap.SetBaseInset
 dev_langs:

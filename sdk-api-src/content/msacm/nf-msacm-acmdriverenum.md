@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 3e93284d-2810-4c8e-9619-1989d8bf788e
 ms.date: 12/05/2018
 ms.keywords: _win32_acmDriverEnum, acmDriverEnum, acmDriverEnum function [Windows Multimedia], msacm/acmDriverEnum, multimedia.acmdriverenum
-ms.topic: function
 f1_keywords:
 - msacm/acmDriverEnum
 dev_langs:

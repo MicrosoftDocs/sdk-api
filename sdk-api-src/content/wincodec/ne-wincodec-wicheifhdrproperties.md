@@ -5,7 +5,6 @@ description: Specifies the HDR properties of a High Efficiency Image Format (HEI
 tech.root: wic
 ms.date: 01/31/19
 ms.keywords: WICHeifHdrProperties
-ms.topic: enum
 f1_keywords:
 - wincodec/WICHeifHdrProperties
 dev_langs:

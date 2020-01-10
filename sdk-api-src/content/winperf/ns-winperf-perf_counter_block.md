@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: 5cff6142-6d71-46a5-a943-3ec91ebac62b
 ms.date: 12/05/2018
 ms.keywords: '*PPERF_COUNTER_BLOCK, PERF_COUNTER_BLOCK, PERF_COUNTER_BLOCK structure [Perf], _win32_perf_counter_block_str, base.perf_counter_block_str, perf.perf_counter_block_str, winperf/PERF_COUNTER_BLOCK'
-ms.topic: struct
 f1_keywords:
 - winperf/PERF_COUNTER_BLOCK
 dev_langs:

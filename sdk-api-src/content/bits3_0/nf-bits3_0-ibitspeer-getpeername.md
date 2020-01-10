@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 71cfc0a5-1f60-4e61-a706-bb9f9c5a6c76
 ms.date: 12/05/2018
 ms.keywords: GetPeerName, GetPeerName method [BITS], GetPeerName method [BITS],IBitsPeer interface, IBitsPeer interface [BITS],GetPeerName method, IBitsPeer.GetPeerName, IBitsPeer::GetPeerName, bits.ibitspeer_getpeername, bits3_0/IBitsPeer::GetPeerName
-ms.topic: method
 f1_keywords:
 - bits3_0/IBitsPeer.GetPeerName
 dev_langs:

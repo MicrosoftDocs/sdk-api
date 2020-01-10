@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 98A591F8-B85C-4400-9BA6-1B8F422C067B
 ms.date: 12/05/2018
 ms.keywords: GetForWindow, GetForWindow method [Windows Runtime], GetForWindow method [Windows Runtime],IInputPaneInterop interface, IInputPaneInterop interface [Windows Runtime],GetForWindow method, IInputPaneInterop.GetForWindow, IInputPaneInterop::GetForWindow, inputpaneinterop/IInputPaneInterop::GetForWindow, winrt.iinputpaneinterop_getforwindow
-ms.topic: method
 f1_keywords:
 - inputpaneinterop/IInputPaneInterop.GetForWindow
 dev_langs:

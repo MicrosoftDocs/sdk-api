@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_65gz.htm
 ms.date: 12/05/2018
 ms.keywords: FaxDevReportStatus, FaxDevReportStatus function [Fax Service], _mfax_faxdevreportstatus, fax._mfax_faxdevreportstatus, faxdev/FaxDevReportStatus
-ms.topic: function
 f1_keywords:
 - faxdev/FaxDevReportStatus
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: a6094069-af17-4921-b2c3-4ec89cbbb6f6
 ms.date: 12/05/2018
 ms.keywords: WSD_RESOLVE_MATCHES, WSD_RESOLVE_MATCHES structure, ncd.wsd_resolve_matches, wsdtypes/WSD_RESOLVE_MATCHES
-ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_RESOLVE_MATCHES
 dev_langs:

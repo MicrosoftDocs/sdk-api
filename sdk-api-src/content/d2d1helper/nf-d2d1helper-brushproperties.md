@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: eeb438e4-300a-4d7d-b8bf-91baba4a729e
 ms.date: 12/05/2018
 ms.keywords: BrushProperties, BrushProperties function [Direct2D], d2d1helper/BrushProperties, direct2d.brushproperties
-ms.topic: function
 f1_keywords:
 - d2d1helper/BrushProperties
 dev_langs:

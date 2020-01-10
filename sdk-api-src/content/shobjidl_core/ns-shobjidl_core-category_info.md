@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 6198cd31-94db-4d31-9cc9-f8b90e661809
 ms.date: 12/05/2018
 ms.keywords: CATEGORY_INFO, CATEGORY_INFO structure [Windows Shell], inet_CATEGORY_INFO, shell.CATEGORY_INFO, shobjidl_core/CATEGORY_INFO
-ms.topic: struct
 f1_keywords:
 - shobjidl_core/CATEGORY_INFO
 dev_langs:

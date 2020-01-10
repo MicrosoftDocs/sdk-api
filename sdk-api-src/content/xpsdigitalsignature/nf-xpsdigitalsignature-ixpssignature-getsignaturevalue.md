@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 40a21fa3-cf71-4c0d-8343-83a2c1a216c9
 ms.date: 12/05/2018
 ms.keywords: GetSignatureValue, GetSignatureValue method [XPS Documents and Packaging], GetSignatureValue method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetSignatureValue method, IXpsSignature.GetSignatureValue, IXpsSignature::GetSignatureValue, xps.ixpssignature_getsignaturevalue, xpsdigitalsignature/IXpsSignature::GetSignatureValue
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignature.GetSignatureValue
 dev_langs:

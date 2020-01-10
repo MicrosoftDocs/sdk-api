@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 2672e563-75d7-4a8a-b914-7b0712e856e8
 ms.date: 12/05/2018
 ms.keywords: IQualityControl, IQualityControl interface [DirectShow], IQualityControl interface [DirectShow],described, IQualityControlInterface, dshow.iqualitycontrol, strmif/IQualityControl
-ms.topic: interface
 f1_keywords:
 - strmif/IQualityControl
 dev_langs:

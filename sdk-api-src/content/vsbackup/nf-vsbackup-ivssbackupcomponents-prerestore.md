@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 7a4c8869-9655-49a7-818b-98a08103f4b4
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],PreRestore method, IVssBackupComponents.PreRestore, IVssBackupComponents::PreRestore, PreRestore, PreRestore method [VSS], PreRestore method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_prerestore, base.ivssbackupcomponents_prerestore, vsbackup/IVssBackupComponents::PreRestore
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponents.PreRestore
 dev_langs:

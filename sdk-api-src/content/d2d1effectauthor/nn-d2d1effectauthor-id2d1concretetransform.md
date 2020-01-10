@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 5349EF29-767F-4C78-A6F9-B0C6F143E762
 ms.date: 12/05/2018
 ms.keywords: ID2D1ConcreteTransform, ID2D1ConcreteTransform interface [Direct2D], ID2D1ConcreteTransform interface [Direct2D],described, d2d1effectauthor/ID2D1ConcreteTransform, direct2d.id2d1concretetransform
-ms.topic: interface
 f1_keywords:
 - d2d1effectauthor/ID2D1ConcreteTransform
 dev_langs:

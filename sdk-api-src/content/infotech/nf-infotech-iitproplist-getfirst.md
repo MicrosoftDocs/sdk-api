@@ -7,7 +7,6 @@ tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistgetfirst.htm
 ms.date: 12/05/2018
 ms.keywords: GetFirst, GetFirst method [HTML Help Workshop], GetFirst method [HTML Help Workshop],IITPropList interface, IITPropList interface [HTML Help Workshop],GetFirst method, IITPropList.GetFirst, IITPropList::GetFirst, htmlhelp.iitproplist_getfirst, infotech/IITPropList::GetFirst, refIITPropListGetFirst
-ms.topic: method
 f1_keywords:
 - infotech/IITPropList.GetFirst
 dev_langs:

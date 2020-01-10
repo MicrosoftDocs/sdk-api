@@ -5,7 +5,6 @@ description: Describes, as a node in a linked list, data about an allocation tra
 tech.root: direct3d12
 ms.date: 02/06/2019
 ms.keywords: D3D12_DRED_ALLOCATION_NODE, D3D12_DRED_ALLOCATION_NODE structure, d3d12/D3D12_DRED_ALLOCATION_NODE, direct3d12.d3d12_dred_allocation_node
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_DRED_ALLOCATION_NODE
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: ad250a01-7a24-4fae-975c-aa3e65731c82
 ms.date: 12/05/2018
 ms.keywords: LsaRemoveAccountRights, LsaRemoveAccountRights function [Security], _lsa_lsaremoveaccountrights, ntsecapi/LsaRemoveAccountRights, security.lsaremoveaccountrights
-ms.topic: function
 f1_keywords:
 - ntsecapi/LsaRemoveAccountRights
 dev_langs:

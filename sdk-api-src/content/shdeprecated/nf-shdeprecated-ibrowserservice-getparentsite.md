@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 91d031ae-1451-4379-9d8e-baddefd30435
 ms.date: 12/05/2018
 ms.keywords: GetParentSite, GetParentSite method [Windows Shell], GetParentSite method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetParentSite method, IBrowserService.GetParentSite, IBrowserService::GetParentSite, shdeprecated/IBrowserService::GetParentSite, shell.IBrowserService_GetParentSite, zone_IBrowserService_GetParentSite
-ms.topic: method
 f1_keywords:
 - shdeprecated/IBrowserService.GetParentSite
 dev_langs:

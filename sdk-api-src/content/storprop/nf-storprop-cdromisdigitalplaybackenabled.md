@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: 17d1ccc6-a552-434f-84f5-471455e97dc2
 ms.date: 12/05/2018
 ms.keywords: CdromIsDigitalPlaybackEnabled, CdromIsDigitalPlaybackEnabled function, base.cdromisdigitalplaybackenabled, storprop/CdromIsDigitalPlaybackEnabled
-ms.topic: function
 f1_keywords:
 - storprop/CdromIsDigitalPlaybackEnabled
 dev_langs:

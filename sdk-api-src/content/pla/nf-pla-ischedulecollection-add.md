@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 92586c08-2f37-4462-b7cb-af58b6cfcecf
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [PLA], Add method [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],Add method, IScheduleCollection.Add, IScheduleCollection::Add, base.ischedulecollection_add, pla.ischedulecollection_add, pla/IScheduleCollection::Add
-ms.topic: method
 f1_keywords:
 - pla/IScheduleCollection.Add
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: f3cb607b-a8fd-4a1b-9361-7ccd7cd8aac2
 ms.date: 12/05/2018
 ms.keywords: ObjectOpenAuditAlarm, ObjectOpenAuditAlarm function [Security], ObjectOpenAuditAlarmA, ObjectOpenAuditAlarmW, _win32_objectopenauditalarm, security.objectopenauditalarm, winbase/ObjectOpenAuditAlarm, winbase/ObjectOpenAuditAlarmA, winbase/ObjectOpenAuditAlarmW
-ms.topic: function
 f1_keywords:
 - winbase/ObjectOpenAuditAlarm
 dev_langs:

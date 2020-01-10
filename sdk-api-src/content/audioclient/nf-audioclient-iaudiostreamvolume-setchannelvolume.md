@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 49452b32-5ad0-446b-b237-2f17d60ff3f0
 ms.date: 12/05/2018
 ms.keywords: IAudioStreamVolume interface [Core Audio],SetChannelVolume method, IAudioStreamVolume.SetChannelVolume, IAudioStreamVolume::SetChannelVolume, IAudioStreamVolumeSetChannelVolume, SetChannelVolume, SetChannelVolume method [Core Audio], SetChannelVolume method [Core Audio],IAudioStreamVolume interface, audioclient/IAudioStreamVolume::SetChannelVolume, coreaudio.iaudiostreamvolume_setchannelvolume
-ms.topic: method
 f1_keywords:
 - audioclient/IAudioStreamVolume.SetChannelVolume
 dev_langs:

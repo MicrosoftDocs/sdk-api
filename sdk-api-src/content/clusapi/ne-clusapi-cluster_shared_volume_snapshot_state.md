@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: FE8F2117-7D23-42FF-B6BD-CA42224570EF
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE, CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE enumeration [Failover Cluster], ClusterSharedVolumeHWSnapshotCompleted, ClusterSharedVolumePrepareForFreeze, ClusterSharedVolumePrepareForHWSnapshot, ClusterSharedVolumeSnapshotStateUnknown, clusapi/CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE, clusapi/ClusterSharedVolumeHWSnapshotCompleted, clusapi/ClusterSharedVolumePrepareForFreeze, clusapi/ClusterSharedVolumePrepareForHWSnapshot, clusapi/ClusterSharedVolumeSnapshotStateUnknown, msclus/CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE, msclus/ClusterSharedVolumeHWSnapshotCompleted, msclus/ClusterSharedVolumePrepareForFreeze, msclus/ClusterSharedVolumePrepareForHWSnapshot, msclus/ClusterSharedVolumeSnapshotStateUnknown, mscs.cluster_shared_volume_snapshot_state
-ms.topic: enum
 f1_keywords:
 - clusapi/CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
 dev_langs:

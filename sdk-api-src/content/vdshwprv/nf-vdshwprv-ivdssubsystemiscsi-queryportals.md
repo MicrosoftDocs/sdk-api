@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 277cc256-ac9d-4a4c-b154-ba611c08db9f
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystemIscsi interface [VDS],QueryPortals method, IVdsSubSystemIscsi.QueryPortals, IVdsSubSystemIscsi::QueryPortals, QueryPortals, QueryPortals method [VDS], QueryPortals method [VDS],IVdsSubSystemIscsi interface, base.ivdssubsystemiscsi_queryportals, vds/IVdsSubSystemIscsi::QueryPortals, vdshwprv/IVdsSubSystemIscsi::QueryPortals
-ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsSubSystemIscsi.QueryPortals
 dev_langs:

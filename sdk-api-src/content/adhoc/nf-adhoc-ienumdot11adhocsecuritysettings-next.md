@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 77101f70-de5d-4db9-a59d-5b07f386c0b7
 ms.date: 12/05/2018
 ms.keywords: IEnumDot11AdHocSecuritySettings interface [NativeWIFI],Next method, IEnumDot11AdHocSecuritySettings.Next, IEnumDot11AdHocSecuritySettings::Next, Next, Next method [NativeWIFI], Next method [NativeWIFI],IEnumDot11AdHocSecuritySettings interface, adhoc/IEnumDot11AdHocSecuritySettings::Next, nwifi.ienumdot11adhocsecuritysettings_next
-ms.topic: method
 f1_keywords:
 - adhoc/IEnumDot11AdHocSecuritySettings.Next
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection1_getgsinputprimitive.htm
 ms.date: 12/05/2018
 ms.keywords: GetGSInputPrimitive, GetGSInputPrimitive method [Direct3D 10], GetGSInputPrimitive method [Direct3D 10],ID3D10ShaderReflection1 interface, ID3D10ShaderReflection1 interface [Direct3D 10],GetGSInputPrimitive method, ID3D10ShaderReflection1.GetGSInputPrimitive, ID3D10ShaderReflection1::GetGSInputPrimitive, d3d10_1shader/ID3D10ShaderReflection1::GetGSInputPrimitive, direct3d10.id3d10shaderreflection1_getgsinputprimitive, e6a690aa-8956-bd7e-467e-da156afe0b07
-ms.topic: method
 f1_keywords:
 - d3d10_1shader/ID3D10ShaderReflection1.GetGSInputPrimitive
 dev_langs:

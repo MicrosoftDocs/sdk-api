@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: aa13abb3-c16d-4b12-a3b8-9c3c727199e0
 ms.date: 12/05/2018
 ms.keywords: Equal to 0, Greater than 0, Less than 0, SnmpOidCompare, SnmpOidCompare function [SNMP], _snmp_snmpoidcompare, snmp.snmpoidcompare, winsnmp/SnmpOidCompare
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpOidCompare
 dev_langs:

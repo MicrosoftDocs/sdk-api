@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: e46bca2a-635c-4a80-849d-ee5fc0953161
 ms.date: 12/05/2018
 ms.keywords: MCIWndStop, MCIWndStop macro [Windows Multimedia], _win32_MCIWndStop, multimedia.mciwndstop, vfw/MCIWndStop
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndStop
 dev_langs:

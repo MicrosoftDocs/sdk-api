@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a9d16930-ac36-4781-99ee-e4da135b2e9c
 ms.date: 12/05/2018
 ms.keywords: LongPtrToInt, LongPtrToInt function [Windows Shell], SSIZETToInt, _shell_LongPtrToInt, intsafe/LongPtrToInt, shell.LongPtrToInt
-ms.topic: function
 f1_keywords:
 - intsafe/LongPtrToInt
 dev_langs:

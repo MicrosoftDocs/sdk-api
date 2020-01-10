@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: B21D3797-695F-4794-80A2-05D381F288C2
 ms.date: 12/05/2018
 ms.keywords: IMFClockConsumer, IMFClockConsumer interface [Media Foundation], IMFClockConsumer interface [Media Foundation],described, mf.imfclockconsumer, mfidl/IMFClockConsumer
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFClockConsumer
 dev_langs:

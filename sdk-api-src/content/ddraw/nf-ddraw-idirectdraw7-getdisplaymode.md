@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: bd31efc8-17c4-4744-a03b-a22a50c7d9c2
 ms.date: 12/05/2018
 ms.keywords: GetDisplayMode, GetDisplayMode method [DirectDraw], GetDisplayMode method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetDisplayMode method, IDirectDraw7.GetDisplayMode, IDirectDraw7::GetDisplayMode, ddraw/IDirectDraw7::GetDisplayMode, directdraw.idirectdraw7_getdisplaymode
-ms.topic: method
 f1_keywords:
 - ddraw/IDirectDraw7.GetDisplayMode
 dev_langs:

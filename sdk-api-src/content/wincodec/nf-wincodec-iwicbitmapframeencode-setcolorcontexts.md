@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: c955dede-297f-44c1-aa03-31a07a6d69d2
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],SetColorContexts method, IWICBitmapFrameEncode.SetColorContexts, IWICBitmapFrameEncode::SetColorContexts, SetColorContexts, SetColorContexts method [Windows Imaging Component], SetColorContexts method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_setcolorcontexts, wic._wic_codec_iwicbitmapframeencode_setcolorcontexts, wincodec/IWICBitmapFrameEncode::SetColorContexts
-ms.topic: method
 f1_keywords:
 - wincodec/IWICBitmapFrameEncode.SetColorContexts
 dev_langs:

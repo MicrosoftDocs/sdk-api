@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 065ebfa8-bfac-4c75-a3f9-9dc0409ea454
 ms.date: 12/05/2018
 ms.keywords: IRecordInfo, IRecordInfo interface [Automation], IRecordInfo interface [Automation],described, _oa96_IRecordInfo_Interface, automat.irecordinfo, oaidl/IRecordInfo
-ms.topic: interface
 f1_keywords:
 - oaidl/IRecordInfo
 dev_langs:

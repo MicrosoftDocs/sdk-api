@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: A5700ACD-3F4B-4AFF-8BA1-6AC59402E06C
 ms.date: 01/30/19
 ms.keywords: LPFN_RIOCREATECOMPLETIONQUEUE
-ms.topic: language-reference
 f1_keywords:
 - mswsock/LPFN_RIOCREATECOMPLETIONQUEUE
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 25ac1a9f-b23e-4613-a629-e14cecc8902b
 ms.date: 12/05/2018
 ms.keywords: VarR4FromCy, VarR4FromCy function [Automation], _oa96_VarR4FromCy, automat.varr4fromcy, oleauto/VarR4FromCy
-ms.topic: function
 f1_keywords:
 - oleauto/VarR4FromCy
 dev_langs:

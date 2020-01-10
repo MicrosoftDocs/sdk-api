@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: b829e8fe-5ef0-43d8-b115-9cddbfe1a255
 ms.date: 12/05/2018
 ms.keywords: CreateLinearGradientBrush, CreateLinearGradientBrush method [XPS Documents and Packaging], CreateLinearGradientBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateLinearGradientBrush method, IXpsOMObjectFactory.CreateLinearGradientBrush, IXpsOMObjectFactory::CreateLinearGradientBrush, xps.ixpsomobjectfactory_createlineargradientbrush, xpsobjectmodel/IXpsOMObjectFactory::CreateLinearGradientBrush
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreateLinearGradientBrush
 dev_langs:

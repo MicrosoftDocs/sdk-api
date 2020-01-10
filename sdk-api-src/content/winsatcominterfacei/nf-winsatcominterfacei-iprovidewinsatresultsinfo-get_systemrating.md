@@ -7,7 +7,6 @@ tech.root: WinSAT
 ms.assetid: 4fe20830-bf86-4551-ba73-534740cabab5
 ms.date: 12/05/2018
 ms.keywords: IProvideWinSATResultsInfo interface [WinSAT],SystemRating property, IProvideWinSATResultsInfo.SystemRating, IProvideWinSATResultsInfo.get_SystemRating, IProvideWinSATResultsInfo::SystemRating, IProvideWinSATResultsInfo::get_SystemRating, SystemRating property [WinSAT], SystemRating property [WinSAT],IProvideWinSATResultsInfo interface, get_SystemRating, winsat.iprovidewinsatresultsinfo_systemrating, winsatcominterfacei/IProvideWinSATResultsInfo::SystemRating, winsatcominterfacei/IProvideWinSATResultsInfo::get_SystemRating
-ms.topic: method
 f1_keywords:
 - winsatcominterfacei/IProvideWinSATResultsInfo.SystemRating
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 50aa04b4-9a04-4d0d-a558-42595a69aef7
 ms.date: 12/05/2018
 ms.keywords: IMediaEventSink, IMediaEventSink interface [DirectShow], IMediaEventSink interface [DirectShow],described, IMediaEventSinkInterface, dshow.imediaeventsink, strmif/IMediaEventSink
-ms.topic: interface
 f1_keywords:
 - strmif/IMediaEventSink
 dev_langs:

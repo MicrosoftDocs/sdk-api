@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: e41f01ef-5dd2-4066-82cd-45b57578c9bb
 ms.date: 12/05/2018
 ms.keywords: IFsrmMutableCollection, IFsrmMutableCollection interface [File Server Resource Manager], IFsrmMutableCollection interface [File Server Resource Manager],described, fs.ifsrmmutablecollection, fsrm.ifsrmmutablecollection, fsrm/IFsrmMutableCollection
-ms.topic: interface
 f1_keywords:
 - fsrm/IFsrmMutableCollection
 dev_langs:

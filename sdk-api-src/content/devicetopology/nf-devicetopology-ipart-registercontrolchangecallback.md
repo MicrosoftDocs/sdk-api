@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 58cf52c9-20ee-46c4-926e-c374a4f42240
 ms.date: 12/05/2018
 ms.keywords: IPart interface [Core Audio],RegisterControlChangeCallback method, IPart.RegisterControlChangeCallback, IPart::RegisterControlChangeCallback, IPartRegisterControlChangeCallback, RegisterControlChangeCallback, RegisterControlChangeCallback method [Core Audio], RegisterControlChangeCallback method [Core Audio],IPart interface, coreaudio.ipart_registercontrolchangecallback, devicetopology/IPart::RegisterControlChangeCallback
-ms.topic: method
 f1_keywords:
 - devicetopology/IPart.RegisterControlChangeCallback
 dev_langs:

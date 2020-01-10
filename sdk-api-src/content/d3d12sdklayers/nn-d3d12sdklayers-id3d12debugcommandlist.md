@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: EDE527F0-4091-4B03-9030-6F693FE901BE
 ms.date: 12/05/2018
 ms.keywords: ID3D12DebugCommandList, ID3D12DebugCommandList interface, ID3D12DebugCommandList interface,described, d3d12sdklayers/ID3D12DebugCommandList, direct3d12.id3d12debugcommandlist
-ms.topic: interface
 f1_keywords:
 - d3d12sdklayers/ID3D12DebugCommandList
 dev_langs:

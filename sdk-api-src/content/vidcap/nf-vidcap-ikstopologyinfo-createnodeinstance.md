@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f2c7ea1d-abd6-4179-b5b7-d89837ceecd7
 ms.date: 12/05/2018
 ms.keywords: CreateNodeInstance, CreateNodeInstance method [DirectShow], CreateNodeInstance method [DirectShow],IKsTopologyInfo interface, IKsTopologyInfo interface [DirectShow],CreateNodeInstance method, IKsTopologyInfo.CreateNodeInstance, IKsTopologyInfo::CreateNodeInstance, IKsTopologyInfoCreateNodeInstance, dshow.ikstopologyinfo_createnodeinstance, vidcap/IKsTopologyInfo::CreateNodeInstance
-ms.topic: method
 f1_keywords:
 - vidcap/IKsTopologyInfo.CreateNodeInstance
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 1777f742-8037-40d9-8279-b4bb89ea6f0d
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceDelete, MprConfigInterfaceDelete function [RAS], _mpr_mprconfiginterfacedelete, mprapi/MprConfigInterfaceDelete, rras.mprconfiginterfacedelete
-ms.topic: function
 f1_keywords:
 - mprapi/MprConfigInterfaceDelete
 dev_langs:

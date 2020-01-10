@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 67f418c8-184d-46f0-8939-69194c7e7a50
 ms.date: 12/05/2018
 ms.keywords: IWMWriterFileSink3, IWMWriterFileSink3 interface [windows Media Format], IWMWriterFileSink3 interface [windows Media Format],described, IWMWriterFileSink3Interface, wmformat.iwmwriterfilesink3, wmsdkidl/IWMWriterFileSink3
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMWriterFileSink3
 dev_langs:

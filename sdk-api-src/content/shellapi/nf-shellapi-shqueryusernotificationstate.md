@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: da6b3915-f4fe-4bab-9bae-9bff0b97b5a0
 ms.date: 12/05/2018
 ms.keywords: SHQueryUserNotificationState, SHQueryUserNotificationState function [Windows Shell], _shell_SHQueryUserNotificationState, shell.SHQueryUserNotificationState, shellapi/SHQueryUserNotificationState
-ms.topic: function
 f1_keywords:
 - shellapi/SHQueryUserNotificationState
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: ee253cab-bd53-426e-809a-12a1ccdc010b
 ms.date: 12/05/2018
 ms.keywords: NetQueryServiceAccount, NetQueryServiceAccount function [Security], lmaccess/NetQueryServiceAccount, security.netqueryserviceaccount
-ms.topic: function
 f1_keywords:
 - lmaccess/NetQueryServiceAccount
 dev_langs:

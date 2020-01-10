@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f7ab38b8-b378-4804-9d07-4644161b1450
 ms.date: 12/05/2018
 ms.keywords: FALSE, GetIsClosed, GetIsClosed method [XPS Documents and Packaging], GetIsClosed method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetIsClosed method, IXpsOMGeometryFigure.GetIsClosed, IXpsOMGeometryFigure::GetIsClosed, TRUE, xps.ixpsomgeometryfigure_getisclosed, xpsobjectmodel/IXpsOMGeometryFigure::GetIsClosed
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGeometryFigure.GetIsClosed
 dev_langs:

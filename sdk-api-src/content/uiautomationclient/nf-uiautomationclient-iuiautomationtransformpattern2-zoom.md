@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 7CCDDF69-32FA-486C-B319-4D2F7A2407B4
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTransformPattern2 interface [Windows Accessibility],Zoom method, IUIAutomationTransformPattern2.Zoom, IUIAutomationTransformPattern2::Zoom, Zoom, Zoom method [Windows Accessibility], Zoom method [Windows Accessibility],IUIAutomationTransformPattern2 interface, uiautomationclient/IUIAutomationTransformPattern2::Zoom, winauto.uiauto_IUIAutomationTransformPattern2_Zoom
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationTransformPattern2.Zoom
 dev_langs:

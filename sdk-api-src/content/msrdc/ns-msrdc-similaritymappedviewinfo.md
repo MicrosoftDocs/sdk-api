@@ -7,7 +7,6 @@ tech.root: rdc
 ms.assetid: f7bd0ebd-6abd-4d2c-af7d-21a90a633276
 ms.date: 12/05/2018
 ms.keywords: SimilarityMappedViewInfo, SimilarityMappedViewInfo structure [Remote Differential Compression], fs.similaritymappedviewinfo, msrdc/SimilarityMappedViewInfo, rdc.similaritymappedviewinfo
-ms.topic: struct
 f1_keywords:
 - msrdc/SimilarityMappedViewInfo
 dev_langs:

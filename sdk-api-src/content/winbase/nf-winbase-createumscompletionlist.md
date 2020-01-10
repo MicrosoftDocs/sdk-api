@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 6e77b793-a82e-4e23-8c8b-7aff79d69346
 ms.date: 12/05/2018
 ms.keywords: CreateUmsCompletionList, CreateUmsCompletionList function, base.createumscompletionlist, winbase/CreateUmsCompletionList
-ms.topic: function
 f1_keywords:
 - winbase/CreateUmsCompletionList
 dev_langs:

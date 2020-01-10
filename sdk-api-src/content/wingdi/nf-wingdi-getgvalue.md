@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: be989b36-8acb-435b-8d71-1c388c7884f0
 ms.date: 12/05/2018
 ms.keywords: GetGValue, GetGValue macro [Windows GDI], _win32_GetGValue, gdi.getgvalue, wingdi/GetGValue
-ms.topic: macro
 f1_keywords:
 - wingdi/GetGValue
 dev_langs:

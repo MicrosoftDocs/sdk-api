@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemefilename.htm
 ms.date: 12/05/2018
 ms.keywords: GetThemeFilename, GetThemeFilename function [Windows Controls], controls.GetThemeFilename, controls.inet_GetThemeFilename, inet_GetThemeFilename, inet_GetThemeFilename_cpp, uxtheme/GetThemeFilename
-ms.topic: function
 f1_keywords:
 - uxtheme/GetThemeFilename
 dev_langs:

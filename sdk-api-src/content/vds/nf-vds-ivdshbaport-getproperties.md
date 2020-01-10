@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 5472534f-66c8-4a78-a351-92f59e50ae32
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsHbaPort interface, IVdsHbaPort interface [VDS],GetProperties method, IVdsHbaPort.GetProperties, IVdsHbaPort::GetProperties, base.ivdshbaport_getproperties, vds/IVdsHbaPort::GetProperties
-ms.topic: method
 f1_keywords:
 - vds/IVdsHbaPort.GetProperties
 dev_langs:

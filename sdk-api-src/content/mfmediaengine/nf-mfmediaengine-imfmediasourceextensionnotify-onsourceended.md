@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 2ce65194-fb52-41e7-9ca4-d1e65fbbbeb0
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourceExtensionNotify interface [Media Foundation],OnSourceEnded method, IMFMediaSourceExtensionNotify.OnSourceEnded, IMFMediaSourceExtensionNotify::OnSourceEnded, OnSourceEnded, OnSourceEnded method [Media Foundation], OnSourceEnded method [Media Foundation],IMFMediaSourceExtensionNotify interface, mf.imfmediasourceextensionnotify_onsourceended, mfmediaengine/IMFMediaSourceExtensionNotify::OnSourceEnded
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaSourceExtensionNotify.OnSourceEnded
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 1eb80e7a-93f5-474c-bed9-5b19f6657788
 ms.date: 12/05/2018
 ms.keywords: '*PGLYPHPOS, GLYPHPOS, GLYPHPOS structure [Display Devices], PGLYPHPOS, PGLYPHPOS structure pointer [Display Devices], display.glyphpos, grstrcts_52c5687f-a40b-43c6-8513-accd4c72def5.xml, winddi/GLYPHPOS, winddi/PGLYPHPOS'
-ms.topic: struct
 f1_keywords:
 - winddi/GLYPHPOS
 dev_langs:

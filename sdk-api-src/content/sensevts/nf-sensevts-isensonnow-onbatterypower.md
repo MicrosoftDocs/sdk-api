@@ -7,7 +7,6 @@ tech.root: Sens
 ms.assetid: e8b4ce25-0d1b-401a-b16e-8eef7f292edf
 ms.date: 12/05/2018
 ms.keywords: ISensOnNow interface [SENS],OnBatteryPower method, ISensOnNow.OnBatteryPower, ISensOnNow::OnBatteryPower, OnBatteryPower, OnBatteryPower method [SENS], OnBatteryPower method [SENS],ISensOnNow interface, _zaw_isensonnow_onbatterypower, sens.isensonnow_onbatterypower, sensevts/ISensOnNow::OnBatteryPower, syncmgr.isensonnow_onbatterypower
-ms.topic: method
 f1_keywords:
 - sensevts/ISensOnNow.OnBatteryPower
 dev_langs:

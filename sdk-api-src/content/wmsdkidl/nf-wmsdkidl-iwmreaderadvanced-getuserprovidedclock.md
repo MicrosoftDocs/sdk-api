@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 54eb30ae-4b84-489c-a5e5-e73dee2c5056
 ms.date: 12/05/2018
 ms.keywords: GetUserProvidedClock, GetUserProvidedClock method [windows Media Format], GetUserProvidedClock method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetUserProvidedClock method, IWMReaderAdvanced.GetUserProvidedClock, IWMReaderAdvanced::GetUserProvidedClock, IWMReaderAdvancedGetUserProvidedClock, wmformat.iwmreaderadvanced_getuserprovidedclock, wmsdkidl/IWMReaderAdvanced::GetUserProvidedClock
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderAdvanced.GetUserProvidedClock
 dev_langs:

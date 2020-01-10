@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 920fa461-5b7e-4429-972d-e7c83fb62c64
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_PKCS1_PADDING_INFO, BCRYPT_PKCS1_PADDING_INFO structure [Security], bcrypt/BCRYPT_PKCS1_PADDING_INFO, security.bcrypt_pkcs1_padding_info
-ms.topic: struct
 f1_keywords:
 - bcrypt/BCRYPT_PKCS1_PADDING_INFO
 dev_langs:

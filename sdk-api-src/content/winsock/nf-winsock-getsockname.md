@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: be20a731-cdfc-48ae-90b2-43f2cf9ecf6d
 ms.date: 12/05/2018
 ms.keywords: _win32_getsockname_2, getsockname, getsockname function [Winsock], winsock.getsockname_2, winsock/getsockname
-ms.topic: function
 f1_keywords:
 - winsock/getsockname
 dev_langs:

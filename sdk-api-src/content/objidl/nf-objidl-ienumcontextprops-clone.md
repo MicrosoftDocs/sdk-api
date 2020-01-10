@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 0bf7f7da-9e40-49bd-9bd0-d2fcdfc2f517
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumContextProps interface, IEnumContextProps interface [COM],Clone method, IEnumContextProps.Clone, IEnumContextProps::Clone, _com_ienumcontextprops_clone, com.ienumcontextprops_clone, objidlbase/IEnumContextProps::Clone
-ms.topic: method
 f1_keywords:
 - objidl/IEnumContextProps.Clone
 dev_langs:

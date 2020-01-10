@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7d6a1080-dad4-4821-8f2a-bd1e01ca10cf
 ms.date: 12/05/2018
 ms.keywords: IStream_Copy, IStream_Copy function [Windows Shell], _shell_IStream_Copy, shell.IStream_Copy, shlwapi/IStream_Copy
-ms.topic: function
 f1_keywords:
 - shlwapi/IStream_Copy
 dev_langs:

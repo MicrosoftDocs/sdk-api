@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 0bacce1d-438d-4d33-91f8-235ffe26abb2
 ms.date: 12/05/2018
 ms.keywords: AutomaticUpdatesPermissionType, AutomaticUpdatesPermissionType enumeration [Windows Update Agent], auptDisableAutomaticUpdates, auptSetFeaturedUpdatesEnabled, auptSetIncludeRecommendedUpdates, auptSetNonAdministratorsElevated, auptSetNotificationLevel, wua.automaticupdatespermissiontype, wuapi/AutomaticUpdatesPermissionType, wuapi/auptDisableAutomaticUpdates, wuapi/auptSetFeaturedUpdatesEnabled, wuapi/auptSetIncludeRecommendedUpdates, wuapi/auptSetNonAdministratorsElevated, wuapi/auptSetNotificationLevel
-ms.topic: enum
 f1_keywords:
 - wuapi/AutomaticUpdatesPermissionType
 dev_langs:

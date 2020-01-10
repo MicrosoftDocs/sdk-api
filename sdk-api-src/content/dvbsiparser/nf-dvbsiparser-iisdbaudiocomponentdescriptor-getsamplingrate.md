@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: ccb31b56-10a1-47ee-9d1b-116d860bef11
 ms.date: 12/05/2018
 ms.keywords: GetSamplingRate, GetSamplingRate method [Microsoft TV Technologies], GetSamplingRate method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetSamplingRate method, IIsdbAudioComponentDescriptor.GetSamplingRate, IIsdbAudioComponentDescriptor::GetSamplingRate, dvbsiparser/IIsdbAudioComponentDescriptor::GetSamplingRate, mstv.iisdbaudiocomponentdescriptor_getsamplingrate
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbAudioComponentDescriptor.GetSamplingRate
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 6c8246a9-657e-4db1-ae8f-d9c0a2d41397
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [ADSI], Get method [ADSI],IADsNameTranslate interface, IADsNameTranslate interface [ADSI],Get method, IADsNameTranslate.Get, IADsNameTranslate::Get, _ds_iadsnametranslate_get, adsi.iadsnametranslate__get, adsi.iadsnametranslate_get, iads/IADsNameTranslate::Get
-ms.topic: method
 f1_keywords:
 - iads/IADsNameTranslate.Get
 dev_langs:

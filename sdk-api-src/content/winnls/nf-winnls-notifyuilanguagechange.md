@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: DA75201D-38F9-470E-BA04-9135C5CE169F
 ms.date: 12/05/2018
 ms.keywords: NotifyUILanguageChange, NotifyUILanguageChange function [Internationalization for Windows Applications], intl.notifyuilanguagechange, winnls/NotifyUILanguageChange
-ms.topic: function
 f1_keywords:
 - winnls/NotifyUILanguageChange
 dev_langs:

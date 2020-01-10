@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 11f2f873-d27e-411c-ba5b-a93134e1f027
 ms.date: 12/05/2018
 ms.keywords: FWPM_CLASSIFY_OPTION0, FWPM_CLASSIFY_OPTION0 structure [Filtering], fwp.fwpm_classify_option0, fwpmtypes/FWPM_CLASSIFY_OPTION0
-ms.topic: struct
 f1_keywords:
 - fwpmtypes/FWPM_CLASSIFY_OPTION0
 dev_langs:

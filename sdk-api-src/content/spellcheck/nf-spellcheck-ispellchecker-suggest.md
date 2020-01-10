@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: bd6b1d90-8dc0-4640-a43a-678b43e55cb5
 ms.date: 12/05/2018
 ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],Suggest method, ISpellChecker.Suggest, ISpellChecker::Suggest, Suggest, Suggest method [Internationalization for Windows Applications], Suggest method [Internationalization for Windows Applications],ISpellChecker interface, intl.ispellchecker_suggest, spellcheck/ISpellChecker::Suggest
-ms.topic: method
 f1_keywords:
 - spellcheck/ISpellChecker.Suggest
 dev_langs:

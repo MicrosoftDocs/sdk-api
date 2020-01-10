@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: f5cb512a-d9f5-451f-b6cb-2020ba32e855
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],InsertTextAtSelection method, ITextStoreAnchor.InsertTextAtSelection, ITextStoreAnchor::InsertTextAtSelection, InsertTextAtSelection, InsertTextAtSelection method [Text Services Framework], InsertTextAtSelection method [Text Services Framework],ITextStoreAnchor interface, TF_IAS_NOQUERY, TF_IAS_QUERYONLY, textstor/ITextStoreAnchor::InsertTextAtSelection, tsf.itextstoreanchor_inserttextatselection
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreAnchor.InsertTextAtSelection
 dev_langs:

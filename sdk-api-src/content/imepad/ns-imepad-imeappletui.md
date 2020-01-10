@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 9C44287B-77A9-48FB-8A17-6CB0FA234EE2
 ms.date: 12/05/2018
 ms.keywords: '*LPIMEAPPLETUI, IMEAPPLETUI, IMEAPPLETUI structure [Internationalization for Windows Applications], PIMEAPPLETUI, PIMEAPPLETUI structure pointer [Internationalization for Windows Applications], imepad/IMEAPPLETUI, imepad/PIMEAPPLETUI, intl.imeappletui'
-ms.topic: struct
 f1_keywords:
 - imepad/IMEAPPLETUI
 dev_langs:

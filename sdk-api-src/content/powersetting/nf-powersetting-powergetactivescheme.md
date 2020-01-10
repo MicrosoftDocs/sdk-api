@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: cd72562c-8987-40c1-89c7-04a95b5f1fd0
 ms.date: 12/05/2018
 ms.keywords: PowerGetActiveScheme, PowerGetActiveScheme function, base.powergetactivescheme, powersetting/PowerGetActiveScheme, powrprof/PowerGetActiveScheme
-ms.topic: function
 f1_keywords:
 - powersetting/PowerGetActiveScheme
 dev_langs:

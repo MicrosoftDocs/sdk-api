@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\physicaltologicalpoint.htm
 ms.date: 12/05/2018
 ms.keywords: PhysicalToLogicalPoint, PhysicalToLogicalPoint function [Windows and Messages], _win32_PhysicalToLogicalPoint, _win32_physicaltologicalpoint_cpp, winmsg.physicaltologicalpoint, winui._win32_physicaltologicalpoint, winuser/PhysicalToLogicalPoint
-ms.topic: function
 f1_keywords:
 - winuser/PhysicalToLogicalPoint
 dev_langs:

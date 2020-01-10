@@ -4,7 +4,6 @@ title: LPWSPACCEPT
 description: The LPWSPAccept function conditionally accepts a connection based on the return value of a condition function.
 ms.date: 9/9/2019
 ms.keywords: LPWSPACCEPT, WSPACCEPT
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

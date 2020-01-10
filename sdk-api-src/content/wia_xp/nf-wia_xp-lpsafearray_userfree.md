@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 87dc42de-70dc-4ae7-9bd0-89add31a5976
 ms.date: 12/05/2018
 ms.keywords: LPSAFEARRAY_UserFree, LPSAFEARRAY_UserFree function [Automation], _oa96_LPSAFEARRAY_UserFree, automat.lpsafearray_userfree, wia_xp/LPSAFEARRAY_UserFree
-ms.topic: function
 f1_keywords:
 - wia_xp/LPSAFEARRAY_UserFree
 dev_langs:

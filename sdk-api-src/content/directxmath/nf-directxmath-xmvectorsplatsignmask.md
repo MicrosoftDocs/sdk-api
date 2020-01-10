@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorSplatSignMask
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSplatSignMask, XMVectorSplatSignMask, XMVectorSplatSignMask method [DirectX Math Support APIs], dxmath.xmvectorsplatsignmask
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorSplatSignMask
 dev_langs:

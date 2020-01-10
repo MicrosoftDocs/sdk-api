@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f72be523-917a-439f-adc5-d7550e8d6cf9
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncInputVideoSystem, codecapi/eAVEncInputVideoSystem_Component, codecapi/eAVEncInputVideoSystem_HDV, codecapi/eAVEncInputVideoSystem_MAC, codecapi/eAVEncInputVideoSystem_NTSC, codecapi/eAVEncInputVideoSystem_PAL, codecapi/eAVEncInputVideoSystem_SECAM, codecapi/eAVEncInputVideoSystem_Unspecified, dshow.eavencinputvideosystem, eAVEncInputVideoSystem, eAVEncInputVideoSystem enumeration [DirectShow], eAVEncInputVideoSystemEnumeration, eAVEncInputVideoSystem_Component, eAVEncInputVideoSystem_HDV, eAVEncInputVideoSystem_MAC, eAVEncInputVideoSystem_NTSC, eAVEncInputVideoSystem_PAL, eAVEncInputVideoSystem_SECAM, eAVEncInputVideoSystem_Unspecified
-ms.topic: enum
 f1_keywords:
 - codecapi/eAVEncInputVideoSystem
 dev_langs:

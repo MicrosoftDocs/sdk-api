@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 93401708-6f11-474d-8009-24554f316e79
 ms.date: 12/05/2018
 ms.keywords: SHCreateShellItemArrayFromShellItem, SHCreateShellItemArrayFromShellItem function [Windows Shell], _shell_SHCreateShellItemArrayFromShellItem, shell.SHCreateShellItemArrayFromShellItem, shobjidl_core/SHCreateShellItemArrayFromShellItem
-ms.topic: function
 f1_keywords:
 - shobjidl_core/SHCreateShellItemArrayFromShellItem
 dev_langs:

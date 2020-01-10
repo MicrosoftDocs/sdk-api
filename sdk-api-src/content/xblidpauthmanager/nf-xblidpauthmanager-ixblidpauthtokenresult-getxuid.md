@@ -7,7 +7,6 @@ tech.root: xblidp
 ms.assetid: 9D5AFA02-06F8-4050-A84C-CF0B4F1FC51B
 ms.date: 12/05/2018
 ms.keywords: GetXuid, GetXuid method, GetXuid method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetXuid method, IXblIdpAuthTokenResult.GetXuid, IXblIdpAuthTokenResult::GetXuid, xblidp.ixblidpauthtokenresult_getxuid, xblidpauthmanager/IXblIdpAuthTokenResult::GetXuid
-ms.topic: method
 f1_keywords:
 - xblidpauthmanager/IXblIdpAuthTokenResult.GetXuid
 dev_langs:

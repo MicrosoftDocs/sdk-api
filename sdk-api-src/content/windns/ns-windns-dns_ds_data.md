@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: 8624cc27-feb5-4e4a-8970-40aa1d43960e
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_DS_DATA, 1, 2, 3, 4, 5, DNS_DS_DATA, DNS_DS_DATA structure [DNS], PDNS_DS_DATA, PDNS_DS_DATA structure pointer [DNS], dns.dns_ds_data, windns/DNS_DS_DATA, windns/PDNS_DS_DATA'
-ms.topic: struct
 f1_keywords:
 - windns/DNS_DS_DATA
 dev_langs:

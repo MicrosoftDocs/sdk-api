@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 6CFF2275-0649-4009-84F2-0657B2FF281C
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesManager, IMbnDeviceServicesManager interface [Microsoft Broadband Networks], IMbnDeviceServicesManager interface [Microsoft Broadband Networks],described, mbn.imbndeviceservicesmanager, mbnapi/IMbnDeviceServicesManager
-ms.topic: interface
 f1_keywords:
 - mbnapi/IMbnDeviceServicesManager
 dev_langs:

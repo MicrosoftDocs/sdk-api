@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonfunctions\checkdlgbutton.htm
 ms.date: 12/05/2018
 ms.keywords: BST_CHECKED, BST_INDETERMINATE, BST_UNCHECKED, CheckDlgButton, CheckDlgButton function [Windows Controls], _win32_CheckDlgButton, _win32_CheckDlgButton_cpp, controls.CheckDlgButton, controls._win32_CheckDlgButton, winuser/CheckDlgButton
-ms.topic: function
 f1_keywords:
 - winuser/CheckDlgButton
 dev_langs:

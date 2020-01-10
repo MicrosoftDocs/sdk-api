@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 196c4409-024a-41e4-b553-e3337c936f19
 ms.date: 12/05/2018
 ms.keywords: DrawDibSetPalette, DrawDibSetPalette function [Windows Multimedia], _win32_DrawDibSetPalette, multimedia.drawdibsetpalette, vfw/DrawDibSetPalette
-ms.topic: function
 f1_keywords:
 - vfw/DrawDibSetPalette
 dev_langs:

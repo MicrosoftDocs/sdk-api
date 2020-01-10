@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 1e0f6419-ef76-4465-bd1d-a92f4bf11903
 ms.date: 12/05/2018
 ms.keywords: WsWriteQualifiedName, WsWriteQualifiedName function [Web Services for Windows], webservices/WsWriteQualifiedName, wsw.wswritequalifiedname
-ms.topic: function
 f1_keywords:
 - webservices/WsWriteQualifiedName
 dev_langs:

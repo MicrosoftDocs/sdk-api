@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 838a255f-413e-424c-819e-47265224208d
 ms.date: 12/05/2018
 ms.keywords: PathGetCharType, PathGetCharType function [Windows Shell], PathGetCharTypeA, PathGetCharTypeW, _win32_PathGetCharType, shell.PathGetCharType, shlwapi/PathGetCharType, shlwapi/PathGetCharTypeA, shlwapi/PathGetCharTypeW
-ms.topic: function
 f1_keywords:
 - shlwapi/PathGetCharType
 dev_langs:

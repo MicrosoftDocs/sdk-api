@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 52f4c45d-d658-4de2-a494-2ae164604681
 ms.date: 12/05/2018
 ms.keywords: IPropertyNotifySink interface [COM],OnRequestEdit method, IPropertyNotifySink.OnRequestEdit, IPropertyNotifySink::OnRequestEdit, OnRequestEdit, OnRequestEdit method [COM], OnRequestEdit method [COM],IPropertyNotifySink interface, _ctrl_ipropertynotifysink_onrequestedit, com.ipropertynotifysink_onrequestedit, ocidl/IPropertyNotifySink::OnRequestEdit
-ms.topic: method
 f1_keywords:
 - ocidl/IPropertyNotifySink.OnRequestEdit
 dev_langs:

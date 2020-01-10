@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: eeaf8bd4-25ab-4ec3-9da9-9a72ba3813b9
 ms.date: 12/05/2018
 ms.keywords: DROPIMAGETYPE, DROPIMAGETYPE enumeration [Windows Shell], DROPIMAGE_COPY, DROPIMAGE_INVALID, DROPIMAGE_LABEL, DROPIMAGE_LINK, DROPIMAGE_MOVE, DROPIMAGE_NOIMAGE, DROPIMAGE_NONE, DROPIMAGE_WARNING, _shell_DROPIMAGETYPE, shell.DROPIMAGETYPE, shlobj_core/DROPIMAGETYPE, shlobj_core/DROPIMAGE_COPY, shlobj_core/DROPIMAGE_INVALID, shlobj_core/DROPIMAGE_LABEL, shlobj_core/DROPIMAGE_LINK, shlobj_core/DROPIMAGE_MOVE, shlobj_core/DROPIMAGE_NOIMAGE, shlobj_core/DROPIMAGE_NONE, shlobj_core/DROPIMAGE_WARNING
-ms.topic: enum
 f1_keywords:
 - shlobj_core/DROPIMAGETYPE
 dev_langs:

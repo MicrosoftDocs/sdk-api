@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 42b5de27-aaa6-4bd9-b2b0-3aeabfc28ef2
 ms.date: 12/05/2018
 ms.keywords: BeginConvertHNSToTimecode, BeginConvertHNSToTimecode method [Media Foundation], BeginConvertHNSToTimecode method [Media Foundation],IMFTimecodeTranslate interface, IMFTimecodeTranslate interface [Media Foundation],BeginConvertHNSToTimecode method, IMFTimecodeTranslate.BeginConvertHNSToTimecode, IMFTimecodeTranslate::BeginConvertHNSToTimecode, mf.imftimecodetranslate_beginconverthnstotimecode, mfidl/IMFTimecodeTranslate::BeginConvertHNSToTimecode
-ms.topic: method
 f1_keywords:
 - mfidl/IMFTimecodeTranslate.BeginConvertHNSToTimecode
 dev_langs:

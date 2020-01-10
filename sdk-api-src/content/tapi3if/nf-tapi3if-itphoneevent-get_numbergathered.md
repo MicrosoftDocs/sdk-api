@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 04537dbb-e1a1-445c-963e-13a8733f2566
 ms.date: 12/05/2018
 ms.keywords: ITPhoneEvent interface [TAPI 2.2],get_NumberGathered method, ITPhoneEvent.get_NumberGathered, ITPhoneEvent::get_NumberGathered, _tapi3_itphoneevent_get_numbergathered, get_NumberGathered, get_NumberGathered method [TAPI 2.2], get_NumberGathered method [TAPI 2.2],ITPhoneEvent interface, tapi3.itphoneevent_get_numbergathered, tapi3if/ITPhoneEvent::get_NumberGathered
-ms.topic: method
 f1_keywords:
 - tapi3if/ITPhoneEvent.get_NumberGathered
 dev_langs:

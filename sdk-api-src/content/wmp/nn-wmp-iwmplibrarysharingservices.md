@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 24cac18c-a3aa-4cd0-b5f7-025db2eed0b8
 ms.date: 12/05/2018
 ms.keywords: IWMPLibrarySharingServices, IWMPLibrarySharingServices interface [Windows Media Player], IWMPLibrarySharingServices interface [Windows Media Player],described, IWMPLibrarySharingServicesInterface, wmp.iwmplibrarysharingservices, wmp/IWMPLibrarySharingServices
-ms.topic: interface
 f1_keywords:
 - wmp/IWMPLibrarySharingServices
 dev_langs:

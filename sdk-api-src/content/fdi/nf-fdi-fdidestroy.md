@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: fe3b8045-a476-4a21-b732-0d4799798faf
 ms.date: 12/05/2018
 ms.keywords: FDIDestroy, FDIDestroy function [Windows API], fdi/FDIDestroy, winprog.fdidestroy
-ms.topic: function
 f1_keywords:
 - fdi/FDIDestroy
 dev_langs:

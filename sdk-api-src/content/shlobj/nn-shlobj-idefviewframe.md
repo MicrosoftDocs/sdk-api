@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 59dffa62-a26a-4dfa-95be-6b838a2d2903
 ms.date: 12/05/2018
 ms.keywords: IDefViewFrame, IDefViewFrame interface [Windows Shell], IDefViewFrame interface [Windows Shell],described, _win32_IDefViewFrame, shell.IDefViewFrame, shlobj/IDefViewFrame
-ms.topic: interface
 f1_keywords:
 - shlobj/IDefViewFrame
 dev_langs:

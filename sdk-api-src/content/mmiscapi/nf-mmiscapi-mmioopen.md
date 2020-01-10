@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 7361f0f2-1c3c-49f1-aec1-2927e05ef0f0
 ms.date: 12/05/2018
 ms.keywords: _win32_mmioOpen, mmioOpen, mmioOpen function [Windows Multimedia], mmioOpenA, mmioOpenW, mmsystem/mmioOpen, mmsystem/mmioOpenA, mmsystem/mmioOpenW, multimedia.mmioopen
-ms.topic: function
 f1_keywords:
 - mmiscapi/mmioOpen
 dev_langs:

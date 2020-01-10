@@ -8,7 +8,6 @@ tech.root: Multimedia
 ms.assetid: 401db941-cbf6-452b-84e2-605fafac8a6d
 ms.date: 12/05/2018
 ms.keywords: IAVIFile, IAVIFile interface [Windows Multimedia], IAVIFile interface [Windows Multimedia],described, _win32_IAVIFile, multimedia.iavifile, vfw/IAVIFile
-ms.topic: interface
 f1_keywords:
 - vfw/IAVIFile
 dev_langs:

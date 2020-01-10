@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getsecurityprovider.htm
 ms.date: 12/05/2018
 ms.keywords: GetSecurityProvider, GetSecurityProvider method [search], GetSecurityProvider method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetSecurityProvider method, IUrlAccessor.GetSecurityProvider, IUrlAccessor::GetSecurityProvider, _search_IUrlAccessor_GetSecurityProvider, search._search_IUrlAccessor_GetSecurityProvider, searchapi/IUrlAccessor::GetSecurityProvider
-ms.topic: method
 f1_keywords:
 - searchapi/IUrlAccessor.GetSecurityProvider
 dev_langs:

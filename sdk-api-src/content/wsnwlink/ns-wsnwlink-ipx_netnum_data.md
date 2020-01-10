@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 9ac7f6ea-5ed3-45f9-8422-62fef1681cdc
 ms.date: 12/05/2018
 ms.keywords: '*PIPX_NETNUM_DATA, IPX_NETNUM_DATA, IPX_NETNUM_DATA structure [Winsock], PIPX_NETNUM_DATA, PIPX_NETNUM_DATA structure pointer [Winsock], _win32_ipx_netnum_data_2, winsock.ipx_netnum_data_2, wsnwlink/IPX_NETNUM_DATA, wsnwlink/PIPX_NETNUM_DATA'
-ms.topic: struct
 f1_keywords:
 - wsnwlink/IPX_NETNUM_DATA
 dev_langs:

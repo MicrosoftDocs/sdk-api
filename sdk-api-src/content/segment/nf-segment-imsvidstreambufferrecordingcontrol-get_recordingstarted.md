@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 99abd883-5fec-4ac4-a167-aa2d4c3bf470
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies],get_RecordingStarted method, IMSVidStreamBufferRecordingControl.get_RecordingStarted, IMSVidStreamBufferRecordingControl::get_RecordingStarted, IMSVidStreamBufferRecordingControlget_RecordingStarted, get_RecordingStarted, get_RecordingStarted method [Microsoft TV Technologies], get_RecordingStarted method [Microsoft TV Technologies],IMSVidStreamBufferRecordingControl interface, mstv.imsvidstreambufferrecordingcontrol_get_recordingstarted, segment/IMSVidStreamBufferRecordingControl::get_RecordingStarted
-ms.topic: method
 f1_keywords:
 - segment/IMSVidStreamBufferRecordingControl.get_RecordingStarted
 dev_langs:

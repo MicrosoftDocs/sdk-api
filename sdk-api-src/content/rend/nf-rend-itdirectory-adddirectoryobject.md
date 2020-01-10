@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 7a379bdc-50e3-4034-ac16-d20d1b03cd35
 ms.date: 12/05/2018
 ms.keywords: AddDirectoryObject, AddDirectoryObject method [TAPI 2.2], AddDirectoryObject method [TAPI 2.2],ITDirectory interface, ITDirectory interface [TAPI 2.2],AddDirectoryObject method, ITDirectory.AddDirectoryObject, ITDirectory::AddDirectoryObject, _tapi3_itdirectory_adddirectoryobject, rend/ITDirectory::AddDirectoryObject, tapi3.itdirectory_adddirectoryobject
-ms.topic: method
 f1_keywords:
 - rend/ITDirectory.AddDirectoryObject
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: f48b90db-5984-4ea7-826b-6fbbf3c33788
 ms.date: 12/05/2018
 ms.keywords: IGPMAsyncProgress, IGPMAsyncProgress interface [GPMC], IGPMAsyncProgress interface [GPMC],described, _win32_igpmasyncprogress, gpmc.igpmasyncprogress, gpmgmt/IGPMAsyncProgress
-ms.topic: interface
 f1_keywords:
 - gpmgmt/IGPMAsyncProgress
 dev_langs:

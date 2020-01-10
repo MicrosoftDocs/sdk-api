@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 7a2afc36-c250-4eb1-9853-d79def85bb67
 ms.date: 12/05/2018
 ms.keywords: PAC_CHANGES_CALLBACK_FN, PAC_CHANGES_CALLBACK_FN callback, PAC_CHANGES_CALLBACK_FN callback function [ICS/ICF], ics.pac_changes_callback_fn, networkisolation/PAC_CHANGES_CALLBACK_FN
-ms.topic: callback
 f1_keywords:
 - netfw/PAC_CHANGES_CALLBACK_FN
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: eaff4d83-a614-4559-a357-dc2d241ecf67
 ms.date: 12/05/2018
 ms.keywords: GetParentElement, GetParentElement method [Windows Accessibility], GetParentElement method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetParentElement method, IUIAutomationTreeWalker.GetParentElement, IUIAutomationTreeWalker::GetParentElement, uiauto.uiauto_IUIAutomationTreeWalker_GetParent, uiauto_IUIAutomationTreeWalker_GetParent, uiautomationclient/IUIAutomationTreeWalker::GetParentElement, winauto.uiauto_IUIAutomationTreeWalker_GetParent
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationTreeWalker.GetParentElement
 dev_langs:

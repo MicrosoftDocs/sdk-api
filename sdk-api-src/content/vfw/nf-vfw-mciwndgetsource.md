@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 3ac01055-7d17-499f-af2e-e50fc08e5520
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetSource, MCIWndGetSource macro [Windows Multimedia], _win32_MCIWndGetSource, multimedia.mciwndgetsource, vfw/MCIWndGetSource
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndGetSource
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 67b4f7c6-0d49-4ed0-9bc3-e583451884af
 ms.date: 12/05/2018
 ms.keywords: 67b4f7c6-0d49-4ed0-9bc3-e583451884af, MFPutWorkItemEx, MFPutWorkItemEx function [Media Foundation], mf.mfputworkitemex, mfapi/MFPutWorkItemEx
-ms.topic: function
 f1_keywords:
 - mfapi/MFPutWorkItemEx
 dev_langs:

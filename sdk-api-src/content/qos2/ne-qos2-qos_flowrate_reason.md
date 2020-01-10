@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: bd2a1fec-d554-49e2-8803-624942455f74
 ms.date: 12/05/2018
 ms.keywords: '*PQOS_FLOWRATE_REASON, PQOS_FLOWRATE_REASON, PQOS_FLOWRATE_REASON enumeration [QOS], QOSFlowRateCongestion, QOSFlowRateContentChange, QOSFlowRateHigherContentEncoding, QOSFlowRateNotApplicable, QOSFlowRateUserCaused, QOS_FLOWRATE_REASON, QOS_FLOWRATE_REASON enumeration [QOS], qos.qos_flowrate_reason, qos2/PQOS_FLOWRATE_REASON, qos2/QOSFlowRateCongestion, qos2/QOSFlowRateContentChange, qos2/QOSFlowRateHigherContentEncoding, qos2/QOSFlowRateNotApplicable, qos2/QOSFlowRateUserCaused, qos2/QOS_FLOWRATE_REASON'
-ms.topic: enum
 f1_keywords:
 - qos2/QOS_FLOWRATE_REASON
 dev_langs:

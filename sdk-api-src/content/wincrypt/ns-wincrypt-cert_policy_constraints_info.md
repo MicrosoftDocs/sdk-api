@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: f0121ae9-165c-4e86-8672-352a177bb877
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_POLICY_CONSTRAINTS_INFO, CERT_POLICY_CONSTRAINTS_INFO, CERT_POLICY_CONSTRAINTS_INFO structure [Security], PCERT_POLICY_CONSTRAINTS_INFO, PCERT_POLICY_CONSTRAINTS_INFO structure pointer [Security], _crypto2_cert_policy_constraints_info, security.cert_policy_constraints_info, wincrypt/CERT_POLICY_CONSTRAINTS_INFO, wincrypt/PCERT_POLICY_CONSTRAINTS_INFO'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_POLICY_CONSTRAINTS_INFO
 dev_langs:

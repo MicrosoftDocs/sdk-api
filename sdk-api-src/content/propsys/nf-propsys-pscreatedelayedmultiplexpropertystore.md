@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 8b264d7e-6124-4724-8d23-605101705893
 ms.date: 12/05/2018
 ms.keywords: PSCreateDelayedMultiplexPropertyStore, PSCreateDelayedMultiplexPropertyStore function [Windows Properties], _shell_PSCreateDelayedMultiplexPropertyStore, properties.PSCreateDelayedMultiplexPropertyStore, propsys/PSCreateDelayedMultiplexPropertyStore, shell.PSCreateDelayedMultiplexPropertyStore
-ms.topic: function
 f1_keywords:
 - propsys/PSCreateDelayedMultiplexPropertyStore
 dev_langs:

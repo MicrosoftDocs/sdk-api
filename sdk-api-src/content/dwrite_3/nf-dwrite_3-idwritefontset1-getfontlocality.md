@@ -5,7 +5,6 @@ description: Retrieves the locality of a single item.
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet1 interface [Direct Write],GetFontLocality method, IDWriteFontSet1.GetFontLocality, IDWriteFontSet1::GetFontLocality, GetFontLocality, GetFontLocality method [Direct Write], GetFontLocality method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_getfontfacelocality, dwrite_3/IDWriteFontSet1::GetFontLocality
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontSet1.GetFontLocality
 dev_langs:

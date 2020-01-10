@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 12bb0fbf-3573-4efd-88a6-e94828906413
 ms.date: 12/05/2018
 ms.keywords: SymAddrIncludeInlineTrace, SymAddrIncludeInlineTrace function, base.symaddrincludeinlinetrace, dbghelp/SymAddrIncludeInlineTrace
-ms.topic: function
 f1_keywords:
 - dbghelp/SymAddrIncludeInlineTrace
 dev_langs:

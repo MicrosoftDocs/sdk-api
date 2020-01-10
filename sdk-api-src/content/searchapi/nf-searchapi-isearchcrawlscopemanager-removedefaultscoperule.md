@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\removedefaultscoperule.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchCrawlScopeManager interface [search],RemoveDefaultScopeRule method, ISearchCrawlScopeManager.RemoveDefaultScopeRule, ISearchCrawlScopeManager::RemoveDefaultScopeRule, RemoveDefaultScopeRule, RemoveDefaultScopeRule method [search], RemoveDefaultScopeRule method [search],ISearchCrawlScopeManager interface, _search_ISearchCrawlScopeManager_RemoveDefaultScopeRule, search._search_ISearchCrawlScopeManager_RemoveDefaultScopeRule, searchapi/ISearchCrawlScopeManager::RemoveDefaultScopeRule
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchCrawlScopeManager.RemoveDefaultScopeRule
 dev_langs:

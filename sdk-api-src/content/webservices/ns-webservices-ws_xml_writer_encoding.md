@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 5ca43d39-e714-4070-b343-6c8ab9484817
 ms.date: 12/05/2018
 ms.keywords: WS_XML_WRITER_ENCODING, WS_XML_WRITER_ENCODING structure [Web Services for Windows], webservices/WS_XML_WRITER_ENCODING, wsw.ws_xml_writer_encoding
-ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_WRITER_ENCODING
 dev_langs:

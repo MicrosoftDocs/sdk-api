@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: ac0b9da5-b0e3-4280-ae9c-602e28c907b1
 ms.date: 12/05/2018
 ms.keywords: IDsAdminNotifyHandler interface [Active Directory],Notify method, IDsAdminNotifyHandler.Notify, IDsAdminNotifyHandler::Notify, Notify, Notify method [Active Directory], Notify method [Active Directory],IDsAdminNotifyHandler interface, _glines_idsadminnotifyhandler_notify, ad.idsadminnotifyhandler__notify, ad.idsadminnotifyhandler_notify, dsadmin/IDsAdminNotifyHandler::Notify
-ms.topic: method
 f1_keywords:
 - dsadmin/IDsAdminNotifyHandler.Notify
 dev_langs:

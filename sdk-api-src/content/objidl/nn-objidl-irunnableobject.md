@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: c682447b-5b12-41d5-a81d-fe94a117f740
 ms.date: 12/05/2018
 ms.keywords: IRunnableObject, IRunnableObject interface [COM], IRunnableObject interface [COM],described, _com_irunnableobject, com.irunnableobject, objidl/IRunnableObject
-ms.topic: interface
 f1_keywords:
 - objidl/IRunnableObject
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 25f4c4d3-0b70-40fe-bf03-8f9ffd82fbec
 ms.date: 12/05/2018
 ms.keywords: CloseTrace, CloseTrace function [ETW], _evt_closetrace, base.closetrace, etw.closetrace, evntrace/CloseTrace
-ms.topic: function
 f1_keywords:
 - evntrace/CloseTrace
 dev_langs:

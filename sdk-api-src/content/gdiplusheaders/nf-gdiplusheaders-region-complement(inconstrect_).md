@@ -5,7 +5,6 @@ description: The Region::Complement method updates a region that does not inters
 ms.assetid: a83d400f-0a3d-4486-a9a7-831455908ff8
 ms.date: 05/20/2019
 ms.keywords: Region::Complement
-ms.topic: language-reference
 f1_keywords:
 - gdiplusheaders/Region::Complement
 dev_langs:

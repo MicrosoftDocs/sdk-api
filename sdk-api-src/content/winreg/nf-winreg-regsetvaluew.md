@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: f99774d4-575b-43a3-8887-e15acb0477fd
 ms.date: 12/05/2018
 ms.keywords: RegSetValue, RegSetValue function, RegSetValueA, RegSetValueW, _win32_regsetvalue, base.regsetvalue, winreg/RegSetValue, winreg/RegSetValueA, winreg/RegSetValueW
-ms.topic: function
 f1_keywords:
 - winreg/RegSetValue
 dev_langs:

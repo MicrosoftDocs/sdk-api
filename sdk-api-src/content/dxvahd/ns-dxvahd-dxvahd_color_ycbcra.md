@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 3e37daf1-5529-4042-ab6e-89a7f77d5e15
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_COLOR_YCbCrA, DXVAHD_COLOR_YCbCrA structure [Media Foundation], dxvahd/DXVAHD_COLOR_YCbCrA, mf.dxvahd_color_ycbcra
-ms.topic: struct
 f1_keywords:
 - dxvahd/DXVAHD_COLOR_YCbCrA
 dev_langs:

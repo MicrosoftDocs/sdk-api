@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 0E5934DE-F526-45B4-9DAF-C8941F00C162
 ms.date: 12/05/2018
 ms.keywords: SetUserGeoName, SetUserGeoName function [Internationalization for Windows Applications], intl.setusergeoname, winnls/SetUserGeoName
-ms.topic: function
 f1_keywords:
 - winnls/SetUserGeoName
 dev_langs:

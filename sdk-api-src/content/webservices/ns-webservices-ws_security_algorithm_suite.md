@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: aa2bb951-47ba-4241-b29a-2f54b92da4cb
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_ALGORITHM_SUITE, WS_SECURITY_ALGORITHM_SUITE structure [Web Services for Windows], webservices/WS_SECURITY_ALGORITHM_SUITE, wsw.ws_security_algorithm_suite
-ms.topic: struct
 f1_keywords:
 - webservices/WS_SECURITY_ALGORITHM_SUITE
 dev_langs:

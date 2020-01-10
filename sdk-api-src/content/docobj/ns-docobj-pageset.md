@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 9639c743-2509-4611-833b-16d16fce420a
 ms.date: 12/05/2018
 ms.keywords: PAGESET, PAGESET structure [COM], _ctrl_PAGESET, com.pageset, docobj/PAGESET
-ms.topic: struct
 f1_keywords:
 - docobj/PAGESET
 dev_langs:

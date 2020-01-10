@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 1c72546d-26e3-441c-875c-a41078ded0b7
 ms.date: 12/05/2018
 ms.keywords: IActionCollection interface [Task Scheduler],XmlText property, IActionCollection.XmlText, IActionCollection.put_XmlText, IActionCollection::XmlText, IActionCollection::get_XmlText, IActionCollection::put_XmlText, XmlText property [Task Scheduler], XmlText property [Task Scheduler],IActionCollection interface, put_XmlText, taskschd.iactioncollection_xmltext, taskschd/IActionCollection::XmlText, taskschd/IActionCollection::get_XmlText, taskschd/IActionCollection::put_XmlText
-ms.topic: method
 f1_keywords:
 - taskschd/IActionCollection.XmlText
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 95915a10-ba8f-41ca-89eb-777c85d2a411
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_KEY_TYPE, WS_SECURITY_KEY_TYPE enumeration [Web Services for Windows], WS_SECURITY_KEY_TYPE_ASYMMETRIC, WS_SECURITY_KEY_TYPE_NONE, WS_SECURITY_KEY_TYPE_SYMMETRIC, webservices/WS_SECURITY_KEY_TYPE, webservices/WS_SECURITY_KEY_TYPE_ASYMMETRIC, webservices/WS_SECURITY_KEY_TYPE_NONE, webservices/WS_SECURITY_KEY_TYPE_SYMMETRIC, wsw.ws_security_key_type
-ms.topic: enum
 f1_keywords:
 - webservices/WS_SECURITY_KEY_TYPE
 dev_langs:

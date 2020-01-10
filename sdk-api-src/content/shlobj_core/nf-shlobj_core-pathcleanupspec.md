@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 593fd2b7-44ae-4309-a185-97e42f3cc0fa
 ms.date: 12/05/2018
 ms.keywords: PathCleanupSpec, PathCleanupSpec function [Windows Shell], _win32_PathCleanupSpec, shell.PathCleanupSpec, shlobj_core/PathCleanupSpec
-ms.topic: function
 f1_keywords:
 - shlobj_core/PathCleanupSpec
 dev_langs:

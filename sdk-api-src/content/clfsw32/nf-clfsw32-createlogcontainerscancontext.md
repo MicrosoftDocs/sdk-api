@@ -7,7 +7,6 @@ tech.root: Clfs
 ms.assetid: 863e600c-3a7b-47b4-9cc3-dcee1bfcc66b
 ms.date: 12/05/2018
 ms.keywords: CLFS_SCAN_BACKWARD, CLFS_SCAN_FORWARD, CLFS_SCAN_INIT, CreateLogContainerScanContext, CreateLogContainerScanContext function [Files], clfsw32/CreateLogContainerScanContext, fs.createlogcontainerscancontext
-ms.topic: function
 f1_keywords:
 - clfsw32/CreateLogContainerScanContext
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 9b657f1c-1d59-4ba5-9af9-978ffda1a348
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileGroup, IFsrmFileGroup interface [File Server Resource Manager], IFsrmFileGroup interface [File Server Resource Manager],described, fs.ifsrmfilegroup, fsrm.ifsrmfilegroup, fsrm/IFsrmFileGroup
-ms.topic: interface
 f1_keywords:
 - fsrmscreen/IFsrmFileGroup
 dev_langs:

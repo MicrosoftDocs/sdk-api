@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 61f1751d-47ce-4b3f-9876-24ddd542dacb
 ms.date: 12/05/2018
 ms.keywords: GetCurFile, GetCurFile method [COM], GetCurFile method [COM],IPersistFile interface, IPersistFile interface [COM],GetCurFile method, IPersistFile.GetCurFile, IPersistFile::GetCurFile, _com_ipersistfile_getcurfile, com.ipersistfile_getcurfile, objidl/IPersistFile::GetCurFile
-ms.topic: method
 f1_keywords:
 - objidl/IPersistFile.GetCurFile
 dev_langs:

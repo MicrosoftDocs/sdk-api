@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 3bd27fce-90be-480b-b157-a17beccda068
 ms.date: 12/05/2018
 ms.keywords: IGuideData, IGuideData interface [Microsoft TV Technologies], IGuideData interface [Microsoft TV Technologies],described, IGuideDataInterface, bdatif/IGuideData, mstv.iguidedata
-ms.topic: interface
 f1_keywords:
 - bdatif/IGuideData
 dev_langs:

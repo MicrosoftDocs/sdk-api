@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: fbf2b5e4-b572-4b2c-907d-281570a0f26b
 ms.date: 12/05/2018
 ms.keywords: DSSSEED, DSSSEED structure [Security], _crypto2_dssseed, security.dssseed, wincrypt/DSSSEED
-ms.topic: struct
 f1_keywords:
 - wincrypt/DSSSEED
 dev_langs:

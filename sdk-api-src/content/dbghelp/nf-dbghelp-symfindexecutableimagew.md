@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: e81ff4bd-b9a0-4c90-86cb-67e721e2fd1b
 ms.date: 12/05/2018
 ms.keywords: SymFindExecutableImage, SymFindExecutableImage function, SymFindExecutableImageW, base.symfindexecutableimage, dbghelp/SymFindExecutableImage, dbghelp/SymFindExecutableImageW
-ms.topic: function
 f1_keywords:
 - dbghelp/SymFindExecutableImage
 dev_langs:

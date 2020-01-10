@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 89fce79b-9211-4e47-884c-11c98718570e
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMPageReferenceCollection interface, IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],Append method, IXpsOMPageReferenceCollection.Append, IXpsOMPageReferenceCollection::Append, xps.ixpsompagereferencecollection_append, xpsobjectmodel/IXpsOMPageReferenceCollection::Append
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPageReferenceCollection.Append
 dev_langs:

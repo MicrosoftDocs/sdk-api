@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 11c833ee-a9f3-4d08-a6cd-0da62844c589
 ms.date: 12/05/2018
 ms.keywords: PSYMBOLSERVERCALLBACKPROC, SSRVACTION_EVENT, SSRVACTION_QUERYCANCEL, SSRVACTION_SIZE, SSRVACTION_TRACE, SymbolServerCallback, SymbolServerCallback callback, SymbolServerCallback callback function [Windows API], _win32_symbolservercallback, base.symbolservercallback, dbghelp/SymbolServerCallback, winprog.symbolservercallback
-ms.topic: callback
 f1_keywords:
 - dbghelp/SymbolServerCallback
 dev_langs:

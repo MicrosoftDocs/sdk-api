@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: cffd18c4-6e37-447b-b749-64793711ea56
 ms.date: 12/05/2018
 ms.keywords: GetManagedExtensions, GetManagedExtensions function [COM+], _cos_GetManagedExtensions, comsvcs/GetManagedExtensions, cos.getmanagedextensions
-ms.topic: function
 f1_keywords:
 - comsvcs/GetManagedExtensions
 dev_langs:

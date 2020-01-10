@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: eb4558e3-60bb-4fcb-b998-b812e76bd8d0
 ms.date: 12/05/2018
 ms.keywords: Count property [COM+], Count property [COM+],IEventObjectCollection interface, IEventObjectCollection interface [COM+],Count property, IEventObjectCollection.Count, IEventObjectCollection.get_Count, IEventObjectCollection::Count, IEventObjectCollection::get_Count, cos.ieventobjectcollection_count, eventsys/IEventObjectCollection::Count, eventsys/IEventObjectCollection::get_Count, get_Count
-ms.topic: method
 f1_keywords:
 - eventsys/IEventObjectCollection.Count
 dev_langs:

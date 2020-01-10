@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 66513683-38ca-4b19-88d5-d14bf7ae73eb
 ms.date: 12/05/2018
 ms.keywords: IACList, IACList interface [Windows Shell], IACList interface [Windows Shell],described, _win32_IACList, shell.IACList, shlobj_core/IACList
-ms.topic: interface
 f1_keywords:
 - shlobj_core/IACList
 dev_langs:

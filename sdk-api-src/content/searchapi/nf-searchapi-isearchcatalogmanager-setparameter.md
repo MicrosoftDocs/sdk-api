@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\setparameter.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager interface [search],SetParameter method, ISearchCatalogManager.SetParameter, ISearchCatalogManager::SetParameter, SetParameter, SetParameter method [search], SetParameter method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_SetParameter, search._search_ISearchCatalogManager_SetParameter, searchapi/ISearchCatalogManager::SetParameter
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchCatalogManager.SetParameter
 dev_langs:

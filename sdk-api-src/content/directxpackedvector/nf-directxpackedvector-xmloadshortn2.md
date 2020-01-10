@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadShortN2(const XMSHORTN2)
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMLoadShortN2, XMLoadShortN2, XMLoadShortN2 method [DirectX Math Support APIs], dxmath.xmloadshortn2
-ms.topic: function
 f1_keywords:
 - directxpackedvector/XMLoadShortN2
 dev_langs:

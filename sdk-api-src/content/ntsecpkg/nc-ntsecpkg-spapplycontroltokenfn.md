@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 60c5e310-dd80-4bf7-9480-ac614c98d75f
 ms.date: 12/05/2018
 ms.keywords: SpApplyControlToken, SpApplyControlToken callback function [Security], SpApplyControlTokenFn, SpApplyControlTokenFn callback, _ssp_spapplycontroltoken, ntsecpkg/SpApplyControlToken, security.spapplycontroltoken
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpApplyControlToken
 dev_langs:

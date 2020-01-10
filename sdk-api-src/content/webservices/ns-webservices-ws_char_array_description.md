@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 3a489963-9ed3-40ca-be42-485415e7fa4a
 ms.date: 12/05/2018
 ms.keywords: WS_CHAR_ARRAY_DESCRIPTION, WS_CHAR_ARRAY_DESCRIPTION structure [Web Services for Windows], webservices/WS_CHAR_ARRAY_DESCRIPTION, wsw.ws_char_array_description
-ms.topic: struct
 f1_keywords:
 - webservices/WS_CHAR_ARRAY_DESCRIPTION
 dev_langs:

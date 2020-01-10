@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: ab81a183-6517-4353-accb-425f02004577
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_EqualLong, FLOATOBJ_EqualLong function [Display Devices], display.floatobj_equallong, gdifncs_8c714f1b-6b6b-465c-a481-74e3f475338c.xml, winddi/FLOATOBJ_EqualLong
-ms.topic: function
 f1_keywords:
 - winddi/FLOATOBJ_EqualLong
 dev_langs:

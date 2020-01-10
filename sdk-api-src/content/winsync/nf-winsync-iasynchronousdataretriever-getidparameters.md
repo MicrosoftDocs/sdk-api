@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 20f42e0d-dacb-4362-843b-8bc2fb664203
 ms.date: 12/05/2018
 ms.keywords: GetIdParameters, GetIdParameters method [Windows Sync], GetIdParameters method [Windows Sync],IAsynchronousDataRetriever interface, IAsynchronousDataRetriever interface [Windows Sync],GetIdParameters method, IAsynchronousDataRetriever.GetIdParameters, IAsynchronousDataRetriever::GetIdParameters, winsync.iasynchronousdataretriever_getidparameters, winsync/IAsynchronousDataRetriever::GetIdParameters
-ms.topic: method
 f1_keywords:
 - winsync/IAsynchronousDataRetriever.GetIdParameters
 dev_langs:

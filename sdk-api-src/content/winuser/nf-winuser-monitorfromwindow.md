@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: fe6505c9-b481-4fec-ae9d-995943234a3a
 ms.date: 12/05/2018
 ms.keywords: MONITOR_DEFAULTTONEAREST, MONITOR_DEFAULTTONULL, MONITOR_DEFAULTTOPRIMARY, MonitorFromWindow, MonitorFromWindow function [Windows GDI], _win32_MonitorFromWindow, gdi.monitorfromwindow, winuser/MonitorFromWindow
-ms.topic: function
 f1_keywords:
 - winuser/MonitorFromWindow
 dev_langs:

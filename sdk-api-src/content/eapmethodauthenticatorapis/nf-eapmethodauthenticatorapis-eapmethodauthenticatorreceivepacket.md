@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 93505c06-fc77-44e6-8ca2-e52ee67ca267
 ms.date: 12/05/2018
 ms.keywords: EapMethodAuthenticatorReceivePacket, EapMethodAuthenticatorReceivePacket function [EAPHost], eaphost.eapmethodauthenticatorreceivepacket, eapmethodauthenticatorapis/EapMethodAuthenticatorReceivePacket
-ms.topic: function
 f1_keywords:
 - eapmethodauthenticatorapis/EapMethodAuthenticatorReceivePacket
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 17443cab-7dc6-4bc9-ae0c-463c6f76d768
 ms.date: 12/05/2018
 ms.keywords: '*PDDGETCURRENTAUTOFLIPININFO, DDGETCURRENTAUTOFLIPININFO, DDGETCURRENTAUTOFLIPININFO structure [Display Devices], PDDGETCURRENTAUTOFLIPININFO, PDDGETCURRENTAUTOFLIPININFO structure pointer [Display Devices], Video_Structs_3476fe24-7963-4d7c-a794-ade9c2fdca57.xml, display.ddgetcurrentautoflipininfo, dxmini/DDGETCURRENTAUTOFLIPININFO, dxmini/PDDGETCURRENTAUTOFLIPININFO'
-ms.topic: struct
 f1_keywords:
 - dxmini/DDGETCURRENTAUTOFLIPININFO
 dev_langs:

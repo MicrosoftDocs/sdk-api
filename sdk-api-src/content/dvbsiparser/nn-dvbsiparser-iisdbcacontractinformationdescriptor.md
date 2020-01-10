@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: d877a625-d683-4472-98de-f24c165c753a
 ms.date: 12/05/2018
 ms.keywords: IIsdbCAContractInformationDescriptor, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies], IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbCAContractInformationDescriptor, mstv.iisdbcacontractinformationdescriptor
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IIsdbCAContractInformationDescriptor
 dev_langs:

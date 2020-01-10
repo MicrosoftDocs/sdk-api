@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 507B6C2B-92C6-4AEB-82D5-3F14A332D41F
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboard2, IUIAnimationStoryboard2 interface [Windows Animation], IUIAnimationStoryboard2 interface [Windows Animation],described, uianimation.iuianimationstoryboard2, uianimation/IUIAnimationStoryboard2
-ms.topic: interface
 f1_keywords:
 - uianimation/IUIAnimationStoryboard2
 dev_langs:

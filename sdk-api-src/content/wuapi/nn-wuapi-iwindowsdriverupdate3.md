@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 85655157-ec0e-455d-a6cf-2431e5a13d91
 ms.date: 12/05/2018
 ms.keywords: IWindowsDriverUpdate3, IWindowsDriverUpdate3 interface [Windows Update Agent], IWindowsDriverUpdate3 interface [Windows Update Agent],described, wua.iwindowsdriverupdate3, wuapi/IWindowsDriverUpdate3
-ms.topic: interface
 f1_keywords:
 - wuapi/IWindowsDriverUpdate3
 dev_langs:

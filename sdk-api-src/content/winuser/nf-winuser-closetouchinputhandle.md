@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: bdc8bb94-3126-4183-9dfd-ba4844d98f29
 ms.date: 12/05/2018
 ms.keywords: CloseTouchInputHandle, CloseTouchInputHandle function [Windows Touch], wintouch.closetouchinputhandle, winuser/CloseTouchInputHandle
-ms.topic: function
 f1_keywords:
 - winuser/CloseTouchInputHandle
 dev_langs:

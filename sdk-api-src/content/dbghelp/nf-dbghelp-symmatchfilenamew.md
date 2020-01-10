@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 69787cc7-db84-4c60-8d7d-f8eae18c82e9
 ms.date: 12/05/2018
 ms.keywords: SymMatchFileName, SymMatchFileName function, SymMatchFileNameW, _win32_symmatchfilename, base.symmatchfilename, dbghelp/SymMatchFileName, dbghelp/SymMatchFileNameW
-ms.topic: function
 f1_keywords:
 - dbghelp/SymMatchFileName
 dev_langs:

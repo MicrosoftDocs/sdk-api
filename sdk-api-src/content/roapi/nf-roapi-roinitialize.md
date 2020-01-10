@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 527A7FF7-749D-4178-A397-5C538F6031F8
 ms.date: 12/05/2018
 ms.keywords: RoInitialize, RoInitialize function [Windows Runtime], WinRTInitialize, roapi/RoInitialize, roapi/WinRTInitialize, winrt.roinitialize, winrt.winrtinitialize
-ms.topic: function
 f1_keywords:
 - roapi/RoInitialize
 dev_langs:

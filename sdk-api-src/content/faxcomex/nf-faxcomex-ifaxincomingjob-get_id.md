@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6azo.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingJob interface [Fax Service],Id property, IFaxIncomingJob.Id, IFaxIncomingJob.get_Id, IFaxIncomingJob::Id, IFaxIncomingJob::get_Id, Id property [Fax Service], Id property [Fax Service],IFaxIncomingJob interface, _mfax_faxincomingjob.id, fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_id_cpp, fax._mfax_faxincomingjob_id, faxcomex/IFaxIncomingJob::Id, faxcomex/IFaxIncomingJob::get_Id, get_Id
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxIncomingJob.Id
 dev_langs:

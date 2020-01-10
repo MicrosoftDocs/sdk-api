@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 6A711135-A522-40AE-965F-E1AF97D0076A
 ms.date: 12/05/2018
 ms.keywords: InitializeEnclave, InitializeEnclave function, base.initializeenclave, enclaveapi/InitializeEnclave
-ms.topic: function
 f1_keywords:
 - enclaveapi/InitializeEnclave
 dev_langs:

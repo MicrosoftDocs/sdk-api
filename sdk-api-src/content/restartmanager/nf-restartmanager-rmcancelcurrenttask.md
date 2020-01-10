@@ -7,7 +7,6 @@ tech.root: rstmgr
 ms.assetid: 58a9a734-667a-48b0-84e2-8cfd85e918bf
 ms.date: 12/05/2018
 ms.keywords: RmCancelCurrentTask, RmCancelCurrentTask function [Restart Mgr], restartmanager/RmCancelCurrentTask, rstmgr.rmcancelcurrenttask
-ms.topic: function
 f1_keywords:
 - restartmanager/RmCancelCurrentTask
 dev_langs:

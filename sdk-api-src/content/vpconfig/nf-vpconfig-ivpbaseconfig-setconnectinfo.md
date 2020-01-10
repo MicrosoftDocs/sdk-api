@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e52bb213-e6e7-4bae-9e1e-6b34f34cf1d1
 ms.date: 12/05/2018
 ms.keywords: IVPBaseConfig interface [DirectShow],SetConnectInfo method, IVPBaseConfig.SetConnectInfo, IVPBaseConfig::SetConnectInfo, IVPBaseConfigSetConnectInfo, SetConnectInfo, SetConnectInfo method [DirectShow], SetConnectInfo method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_setconnectinfo, vpconfig/IVPBaseConfig::SetConnectInfo
-ms.topic: method
 f1_keywords:
 - vpconfig/IVPBaseConfig.SetConnectInfo
 dev_langs:

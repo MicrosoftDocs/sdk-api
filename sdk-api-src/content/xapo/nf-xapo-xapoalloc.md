@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xapo.XAPOAlloc(ULONG)
 ms.date: 12/05/2018
 ms.keywords: XAPOAlloc, XAPOAlloc macro [XAudio2 Audio Mixing APIs], xapo/XAPOAlloc, xaudio2.xapoalloc
-ms.topic: macro
 f1_keywords:
 - xapo/XAPOAlloc
 dev_langs:

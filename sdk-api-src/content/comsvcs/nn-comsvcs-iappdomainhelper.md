@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 2709f284-ca8c-404e-b568-b655f780549a
 ms.date: 12/05/2018
 ms.keywords: IAppDomainHelper, IAppDomainHelper interface [COM+], IAppDomainHelper interface [COM+],described, _cos_IAppDomainHelper, comsvcs/IAppDomainHelper, cos.iappdomainhelper
-ms.topic: interface
 f1_keywords:
 - comsvcs/IAppDomainHelper
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 997d39c5-a1a5-4d2d-8704-9846f149712c
 ms.date: 12/05/2018
 ms.keywords: IAMTuner, IAMTuner interface [DirectShow], IAMTuner interface [DirectShow],described, IAMTunerInterface, dshow.iamtuner, strmif/IAMTuner
-ms.topic: interface
 f1_keywords:
 - strmif/IAMTuner
 dev_langs:

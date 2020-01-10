@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 073ba94a-ebfa-42f5-9d90-d5693dc25703
 ms.date: 12/05/2018
 ms.keywords: ScriptShape, ScriptShape function [Internationalization for Windows Applications], _win32_ScriptShape, intl.scriptshape, usp10/ScriptShape
-ms.topic: function
 f1_keywords:
 - usp10/ScriptShape
 dev_langs:

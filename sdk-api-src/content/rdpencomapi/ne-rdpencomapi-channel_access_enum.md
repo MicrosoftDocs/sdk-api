@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 7d07954f-6514-4512-a934-6140de826ece
 ms.date: 12/05/2018
 ms.keywords: CHANNEL_ACCESS_ENUM, CHANNEL_ACCESS_ENUM enumeration [RDP], CHANNEL_ACCESS_ENUM_NONE, CHANNEL_ACCESS_ENUM_SENDRECEIVE, rdp.channel_access_enum, rdpencomapi/CHANNEL_ACCESS_ENUM, rdpencomapi/CHANNEL_ACCESS_ENUM_NONE, rdpencomapi/CHANNEL_ACCESS_ENUM_SENDRECEIVE
-ms.topic: enum
 f1_keywords:
 - rdpencomapi/CHANNEL_ACCESS_ENUM
 dev_langs:

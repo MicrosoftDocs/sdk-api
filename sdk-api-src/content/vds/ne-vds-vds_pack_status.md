@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: a83d01e6-1173-410c-b880-3bc957d3f7e9
 ms.date: 12/05/2018
 ms.keywords: VDS_PACK_STATUS, VDS_PACK_STATUS enumeration [VDS], VDS_PS_OFFLINE, VDS_PS_ONLINE, VDS_PS_UNKNOWN, base.vds_pack_status, vds/VDS_PACK_STATUS, vds/VDS_PS_OFFLINE, vds/VDS_PS_ONLINE, vds/VDS_PS_UNKNOWN
-ms.topic: enum
 f1_keywords:
 - vds/VDS_PACK_STATUS
 dev_langs:

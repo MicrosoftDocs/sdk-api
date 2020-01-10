@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: aadbd924-b583-4136-8d6c-e3c8c0b3872e
 ms.date: 12/05/2018
 ms.keywords: IWMPControls2, IWMPControls2 interface [Windows Media Player], IWMPControls2 interface [Windows Media Player],described, IWMPControls2Interface, wmp.iwmpcontrols2, wmp/IWMPControls2
-ms.topic: interface
 f1_keywords:
 - wmp/IWMPControls2
 dev_langs:

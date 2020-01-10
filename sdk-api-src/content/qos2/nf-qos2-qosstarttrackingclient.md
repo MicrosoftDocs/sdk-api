@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 36e4a71f-fb6b-42b6-a770-8cbcf98e7eb3
 ms.date: 12/05/2018
 ms.keywords: QOSStartTrackingClient, QOSStartTrackingClient function [QOS], qos.qosstarttrackingclient, qos2/QOSStartTrackingClient
-ms.topic: function
 f1_keywords:
 - qos2/QOSStartTrackingClient
 dev_langs:

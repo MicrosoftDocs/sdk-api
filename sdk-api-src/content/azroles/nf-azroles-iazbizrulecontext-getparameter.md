@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 9c956eea-92a5-4da8-abe0-a5ab4e41ab85
 ms.date: 12/05/2018
 ms.keywords: AzBizRuleContext object [Security],GetParameter method, GetParameter, GetParameter method [Security], GetParameter method [Security],AzBizRuleContext object, GetParameter method [Security],IAzBizRuleContext interface, IAzBizRuleContext interface [Security],GetParameter method, IAzBizRuleContext.GetParameter, IAzBizRuleContext::GetParameter, azroles/IAzBizRuleContext::GetParameter, security.azbizrulecontext_getparameter
-ms.topic: method
 f1_keywords:
 - azroles/IAzBizRuleContext.GetParameter
 dev_langs:

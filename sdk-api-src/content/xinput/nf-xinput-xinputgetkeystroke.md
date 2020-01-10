@@ -7,7 +7,6 @@ tech.root: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputGetKeystroke(DWORD,DWORD,PXINPUT_KEYSTROKE@)
 ms.date: 12/05/2018
 ms.keywords: XInputGetKeystroke, XInputGetKeystroke function [XInput Game Controller APIs], xinput.xinputgetkeystroke, xinput/XInputGetKeystroke
-ms.topic: function
 f1_keywords:
 - xinput/XInputGetKeystroke
 dev_langs:

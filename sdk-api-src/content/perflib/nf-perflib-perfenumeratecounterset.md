@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: 6C487D11-2DC0-475C-AA0F-4060641C6500
 ms.date: 12/05/2018
 ms.keywords: PerfEnumerateCounterSet, PerfEnumerateCounterSet function [Perf], perf.perfenumeratecounterset, perflib/PerfEnumerateCounterSet
-ms.topic: function
 f1_keywords:
 - perflib/PerfEnumerateCounterSet
 dev_langs:

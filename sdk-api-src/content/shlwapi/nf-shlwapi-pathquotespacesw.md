@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 76a51c21-b924-4919-a6bb-8c6bdec5b3f0
 ms.date: 12/05/2018
 ms.keywords: PathQuoteSpaces, PathQuoteSpaces function [Windows Shell], PathQuoteSpacesA, PathQuoteSpacesW, _win32_PathQuoteSpaces, shell.PathQuoteSpaces, shlwapi/PathQuoteSpaces, shlwapi/PathQuoteSpacesA, shlwapi/PathQuoteSpacesW
-ms.topic: function
 f1_keywords:
 - shlwapi/PathQuoteSpaces
 dev_langs:

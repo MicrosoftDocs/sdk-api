@@ -7,7 +7,6 @@ tech.root: locationapi
 ms.assetid: 3573b2e7-fa76-4819-894d-d1215dc625bc
 ms.date: 12/05/2018
 ms.keywords: GetTimestamp, GetTimestamp method [WinLocation], GetTimestamp method [WinLocation],ILocationReport interface, ILocationReport interface [WinLocation],GetTimestamp method, ILocationReport.GetTimestamp, ILocationReport::GetTimestamp, WinLocation_COM_Ref.ilocationreport_gettimestamp, locationapi/ILocationReport::GetTimestamp
-ms.topic: method
 f1_keywords:
 - locationapi/ILocationReport.GetTimestamp
 dev_langs:

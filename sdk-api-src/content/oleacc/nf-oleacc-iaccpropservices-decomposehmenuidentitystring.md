@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: b76c4ba8-fb9a-438b-8547-b73b3c459ec6
 ms.date: 12/05/2018
 ms.keywords: DecomposeHmenuIdentityString, DecomposeHmenuIdentityString method [Windows Accessibility], DecomposeHmenuIdentityString method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],DecomposeHmenuIdentityString method, IAccPropServices.DecomposeHmenuIdentityString, IAccPropServices::DecomposeHmenuIdentityString, oleacc/IAccPropServices::DecomposeHmenuIdentityString, winauto.iaccpropservices_iaccpropservices__decomposehmenuidentitystring
-ms.topic: method
 f1_keywords:
 - oleacc/IAccPropServices.DecomposeHmenuIdentityString
 dev_langs:

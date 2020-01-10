@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: e424c70e-289c-4519-8b20-5fb98d46bf34
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetDictionaryResource method, IXpsOMPage.SetDictionaryResource, IXpsOMPage::SetDictionaryResource, SetDictionaryResource, SetDictionaryResource method [XPS Documents and Packaging], SetDictionaryResource method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_setdictionaryresource, xpsobjectmodel/IXpsOMPage::SetDictionaryResource
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPage.SetDictionaryResource
 dev_langs:

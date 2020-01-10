@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 81123212-7a32-4833-b81f-8454a544327d
 ms.date: 12/05/2018
 ms.keywords: IOpcPartUri, IOpcPartUri interface [Open Packaging Conventions], IOpcPartUri interface [Open Packaging Conventions],described, msopc/IOpcPartUri, opc.iopcparturi
-ms.topic: interface
 f1_keywords:
 - msopc/IOpcPartUri
 dev_langs:

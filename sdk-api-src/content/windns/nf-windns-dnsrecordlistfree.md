@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: fc4c0cb4-646f-4946-8f07-b5a858f7064a
 ms.date: 12/05/2018
 ms.keywords: DnsRecordListFree, DnsRecordListFree function [DNS], _dns_dnsrecordlistfree, dns.dnsrecordlistfree, windns/DnsRecordListFree
-ms.topic: macro
 f1_keywords:
 - windns/DnsRecordListFree
 dev_langs:

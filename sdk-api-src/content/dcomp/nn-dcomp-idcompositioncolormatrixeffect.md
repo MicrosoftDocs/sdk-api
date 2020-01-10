@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 75528E11-D041-4192-833A-31679316DF76
 ms.date: 12/05/2018
 ms.keywords: IDCompositionColorMatrixEffect, IDCompositionColorMatrixEffect interface [DirectComposition], IDCompositionColorMatrixEffect interface [DirectComposition],described, dcomp/IDCompositionColorMatrixEffect, directcomp.idcompositioncolormatrixeffect
-ms.topic: interface
 f1_keywords:
 - dcomp/IDCompositionColorMatrixEffect
 dev_langs:

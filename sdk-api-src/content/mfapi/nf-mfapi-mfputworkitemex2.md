@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: A29DC852-AF0F-4269-97FB-DA1F725E7C09
 ms.date: 12/05/2018
 ms.keywords: MFPutWorkItemEx2, MFPutWorkItemEx2 function [Media Foundation], mf.mfputworkitemex2, mfapi/MFPutWorkItemEx2
-ms.topic: function
 f1_keywords:
 - mfapi/MFPutWorkItemEx2
 dev_langs:

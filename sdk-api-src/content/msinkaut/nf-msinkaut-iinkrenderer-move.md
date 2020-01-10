@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: a5cba79f-2ae8-43ed-bef5-1ec86da9470a
 ms.date: 12/05/2018
 ms.keywords: IInkRenderer, IInkRenderer interface [Tablet PC],Move method, IInkRenderer.Move, IInkRenderer::Move, Move, Move method [Tablet PC], Move method [Tablet PC],IInkRenderer interface, a5cba79f-2ae8-43ed-bef5-1ec86da9470a, msinkaut/IInkRenderer::Move, tablet.inkrenderer_move
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkRenderer.Move
 dev_langs:

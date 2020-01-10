@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: d21457bc-9445-4ca2-ab9f-1e3f55e2e635
 ms.date: 12/05/2018
 ms.keywords: IXpsOMMatrixTransform, IXpsOMMatrixTransform interface [XPS Documents and Packaging], IXpsOMMatrixTransform interface [XPS Documents and Packaging],described, xps.ixpsommatrixtransform, xpsobjectmodel/IXpsOMMatrixTransform
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMMatrixTransform
 dev_langs:

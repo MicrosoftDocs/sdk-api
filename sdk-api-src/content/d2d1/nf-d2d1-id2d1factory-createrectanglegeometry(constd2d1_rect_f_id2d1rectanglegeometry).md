@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 3d9a1e40-1432-4800-8d15-e2b8bda8f04f
 ms.date: 12/05/2018
 ms.keywords: CreateRectangleGeometry, CreateRectangleGeometry method [Direct2D], CreateRectangleGeometry method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateRectangleGeometry method, ID2D1Factory.CreateRectangleGeometry, ID2D1Factory.CreateRectangleGeometry(const D2D1_RECT_F,ID2D1RectangleGeometry), ID2D1Factory::CreateRectangleGeometry, ID2D1Factory::CreateRectangleGeometry(const D2D1_RECT_F,ID2D1RectangleGeometry), d2d1/ID2D1Factory::CreateRectangleGeometry, direct2d.ID2D1Factory_CreateRectangleGeometry_ptr_D2D_RECT_F_ptr_ptr_ID2D1RectangleGeometry
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1Factory.CreateRectangleGeometry
 dev_langs:

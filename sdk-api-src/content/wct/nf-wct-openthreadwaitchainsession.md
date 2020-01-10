@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 405d9f3d-c11b-4e20-acc8-9c4f7989685d
 ms.date: 12/05/2018
 ms.keywords: OpenThreadWaitChainSession, OpenThreadWaitChainSession function, WCT_ASYNC_OPEN_FLAG, base.openthreadwaitchainsession, wct/OpenThreadWaitChainSession
-ms.topic: function
 f1_keywords:
 - wct/OpenThreadWaitChainSession
 dev_langs:

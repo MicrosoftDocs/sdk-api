@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: ac73b831-81da-48e7-858b-7ca1ee03768e
 ms.date: 12/05/2018
 ms.keywords: NcFreeNetconProperties, NcFreeNetconProperties function [ICS/ICF], ics.ncfreenetconproperties, netcon/NcFreeNetconProperties
-ms.topic: function
 f1_keywords:
 - netcon/NcFreeNetconProperties
 dev_langs:

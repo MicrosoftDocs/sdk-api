@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 70d9a2e7-2f5a-4f87-b42c-3a225c42a44b
 ms.date: 12/05/2018
 ms.keywords: GetIndexMode, GetIndexMode method [DirectShow], GetIndexMode method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],GetIndexMode method, IConfigAsfWriter.GetIndexMode, IConfigAsfWriter::GetIndexMode, IConfigAsfWriterGetIndexMode, dshow.iconfigasfwriter_getindexmode, dshowasf/IConfigAsfWriter::GetIndexMode
-ms.topic: method
 f1_keywords:
 - dshowasf/IConfigAsfWriter.GetIndexMode
 dev_langs:

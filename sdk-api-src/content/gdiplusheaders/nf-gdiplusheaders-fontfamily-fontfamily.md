@@ -5,7 +5,6 @@ description: Creates an empty FontFamily::FontFamily object.
 ms.assetid: 2d9e8f9e-9477-4b2b-b4b3-72781ede2c07
 ms.date: 05/20/2019
 ms.keywords: FontFamily::FontFamily
-ms.topic: language-reference
 f1_keywords:
 - gdiplusheaders/FontFamily::FontFamily
 dev_langs:

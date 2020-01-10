@@ -7,7 +7,6 @@ tech.root: wpd_sdk
 ms.assetid: 345102d4-3dac-4878-9196-bb0d97c0df07
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceService interface [Windows Portable Devices SDK],Methods method, IPortableDeviceService.Methods, IPortableDeviceService::Methods, Methods, Methods method [Windows Portable Devices SDK], Methods method [Windows Portable Devices SDK],IPortableDeviceService interface, portabledeviceapi/IPortableDeviceService::Methods, wpdsdk.iportabledeviceservice_methods
-ms.topic: method
 f1_keywords:
 - portabledeviceapi/IPortableDeviceService.Methods
 dev_langs:

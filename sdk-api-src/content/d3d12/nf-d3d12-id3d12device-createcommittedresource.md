@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: FF9E8F11-F2C5-4A96-8E25-140870D15DA9
 ms.date: 12/05/2018
 ms.keywords: CreateCommittedResource, CreateCommittedResource method, CreateCommittedResource method,ID3D12Device interface, ID3D12Device interface,CreateCommittedResource method, ID3D12Device.CreateCommittedResource, ID3D12Device::CreateCommittedResource, d3d12/ID3D12Device::CreateCommittedResource, direct3d12.id3d12device_createcommittedresource
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Device.CreateCommittedResource
 dev_langs:

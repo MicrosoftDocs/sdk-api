@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 3b46ebd6-15e0-4b16-b967-0271946390db
 ms.date: 12/05/2018
 ms.keywords: _win32_mmioSetInfo, mmioSetInfo, mmioSetInfo function [Windows Multimedia], mmsystem/mmioSetInfo, multimedia.mmiosetinfo
-ms.topic: function
 f1_keywords:
 - mmiscapi/mmioSetInfo
 dev_langs:

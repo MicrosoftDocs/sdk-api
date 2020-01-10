@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_2mpb.htm
 ms.date: 12/05/2018
 ms.keywords: DBSORTINFO, DBSORTINFO structure [Indexing Service], _idxs_DBSORTINFO, cmdtree/DBSORTINFO, indexsrv.dbsortinfo, tagDBSORTINFO
-ms.topic: struct
 f1_keywords:
 - cmdtree/DBSORTINFO
 dev_langs:

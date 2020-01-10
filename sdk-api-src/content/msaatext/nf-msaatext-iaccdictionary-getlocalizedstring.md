@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 7419395d-d4be-4ee4-bf98-aef7e82cb3d5
 ms.date: 12/05/2018
 ms.keywords: GetLocalizedString, GetLocalizedString method [Windows Accessibility], GetLocalizedString method [Windows Accessibility],IAccDictionary interface, IAccDictionary interface [Windows Accessibility],GetLocalizedString method, IAccDictionary.GetLocalizedString, IAccDictionary::GetLocalizedString, _msaa_IAccDictionary_GetLocalizedString, msaa.iaccdictionary_iaccdictionary__getlocalizedstring, msaatext/IAccDictionary::GetLocalizedString, winauto.iaccdictionary_iaccdictionary__getlocalizedstring
-ms.topic: method
 f1_keywords:
 - msaatext/IAccDictionary.GetLocalizedString
 dev_langs:

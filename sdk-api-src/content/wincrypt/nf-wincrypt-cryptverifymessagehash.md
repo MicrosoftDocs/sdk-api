@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 3b5185b9-e24b-4302-a60c-74ccbd19077c
 ms.date: 12/05/2018
 ms.keywords: CryptVerifyMessageHash, CryptVerifyMessageHash function [Security], _crypto2_cryptverifymessagehash, security.cryptverifymessagehash, wincrypt/CryptVerifyMessageHash
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptVerifyMessageHash
 dev_langs:

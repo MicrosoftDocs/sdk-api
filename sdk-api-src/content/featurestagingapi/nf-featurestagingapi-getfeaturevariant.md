@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: CEB545DB-321A-4FE6-B182-DC7F6B37D665
 ms.date: 12/05/2018
 ms.keywords: GetFeatureVariant, GetFeatureVariant function [Windows API], featurestagingapi/GetFeatureVariant, winprog.getfeaturevariant
-ms.topic: function
 f1_keywords:
 - featurestagingapi/GetFeatureVariant
 dev_langs:

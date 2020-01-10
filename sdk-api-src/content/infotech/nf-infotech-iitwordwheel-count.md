@@ -7,7 +7,6 @@ tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitwordwheelcount.htm
 ms.date: 12/05/2018
 ms.keywords: Count, Count method [HTML Help Workshop], Count method [HTML Help Workshop],IITWordWheel interface, IITWordWheel interface [HTML Help Workshop],Count method, IITWordWheel.Count, IITWordWheel::Count, htmlhelp.iitwordwheel_count, infotech/IITWordWheel::Count, refIITWordWheelCount
-ms.topic: method
 f1_keywords:
 - infotech/IITWordWheel.Count
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: aa9c62ba-79b5-4fcf-b3ed-664016486dfc
 ms.date: 12/05/2018
 ms.keywords: SafeArrayDestroyData, SafeArrayDestroyData function [Automation], _oa96_SafeArrayDestroyData, automat.safearraydestroydata, oleauto/SafeArrayDestroyData
-ms.topic: function
 f1_keywords:
 - oleauto/SafeArrayDestroyData
 dev_langs:

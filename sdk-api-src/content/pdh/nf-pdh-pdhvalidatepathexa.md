@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: e6b52af7-7276-4565-aa61-73899796a13c
 ms.date: 12/05/2018
 ms.keywords: PdhValidatePathEx, PdhValidatePathEx function [Perf], PdhValidatePathExA, PdhValidatePathExW, pdh/PdhValidatePathEx, pdh/PdhValidatePathExA, pdh/PdhValidatePathExW, perf.pdhvalidatepathex
-ms.topic: function
 f1_keywords:
 - pdh/PdhValidatePathEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: cead418f-2c89-4b7c-a52e-604f5d8685d1
 ms.date: 12/05/2018
 ms.keywords: IOptionDescription interface [Internationalization for Windows Applications],Labels property, IOptionDescription.Labels, IOptionDescription.get_Labels, IOptionDescription::Labels, IOptionDescription::get_Labels, Labels property [Internationalization for Windows Applications], Labels property [Internationalization for Windows Applications],IOptionDescription interface, get_Labels, intl.ioptiondescription_labels, spellcheck/IOptionDescription::Labels, spellcheck/IOptionDescription::get_Labels
-ms.topic: method
 f1_keywords:
 - spellcheck/IOptionDescription.Labels
 dev_langs:

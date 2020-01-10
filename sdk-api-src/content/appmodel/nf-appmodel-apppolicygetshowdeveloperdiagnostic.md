@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: A6F794BE-7F40-4216-9E26-63D06B57FDD1
 ms.date: 12/05/2018
 ms.keywords: AppPolicyGetShowDeveloperDiagnostic, AppPolicyGetShowDeveloperDiagnostic function [App packaging and management], appmodel/AppPolicyGetShowDeveloperDiagnostic, appxpkg.apppolicygetshowdeveloperdiagnostic_function
-ms.topic: function
 f1_keywords:
 - appmodel/AppPolicyGetShowDeveloperDiagnostic
 dev_langs:

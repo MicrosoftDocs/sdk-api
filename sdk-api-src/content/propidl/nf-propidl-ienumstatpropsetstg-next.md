@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 3af3c518-3db4-4436-b1c1-86587ce8fbf3
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATPROPSETSTG interface [Structured Storage],Next method, IEnumSTATPROPSETSTG.Next, IEnumSTATPROPSETSTG::Next, Next, Next method [Structured Storage], Next method [Structured Storage],IEnumSTATPROPSETSTG interface, propidlbase/IEnumSTATPROPSETSTG::Next, stg.ienumstatpropsetstg_next
-ms.topic: method
 f1_keywords:
 - propidl/IEnumSTATPROPSETSTG.Next
 dev_langs:

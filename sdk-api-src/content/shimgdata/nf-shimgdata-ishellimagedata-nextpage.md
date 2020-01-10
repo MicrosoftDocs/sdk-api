@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 19a2680a-f435-45c9-9573-e32f3cfdd090
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],NextPage method, IShellImageData.NextPage, IShellImageData::NextPage, NextPage, NextPage method [Windows Shell], NextPage method [Windows Shell],IShellImageData interface, _shell_IShellImageData_NextPage, shell.IShellImageData_NextPage, shimgdata/IShellImageData::NextPage
-ms.topic: method
 f1_keywords:
 - shimgdata/IShellImageData.NextPage
 dev_langs:

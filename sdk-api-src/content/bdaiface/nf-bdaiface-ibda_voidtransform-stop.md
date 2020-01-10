@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: ff061aef-1058-4d1d-802e-89e7f4ebfe3c
 ms.date: 12/05/2018
 ms.keywords: IBDA_VoidTransform interface [Microsoft TV Technologies],Stop method, IBDA_VoidTransform.Stop, IBDA_VoidTransform::Stop, IBDA_VoidTransformStop, Stop, Stop method [Microsoft TV Technologies], Stop method [Microsoft TV Technologies],IBDA_VoidTransform interface, bdaiface/IBDA_VoidTransform::Stop, mstv.ibda_voidtransform_stop
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_VoidTransform.Stop
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: ecf00da0-bc26-4762-94e1-9a5e1cdbc32e
 ms.date: 12/05/2018
 ms.keywords: RpcCancelThreadEx, RpcCancelThreadEx function [RPC], _rpc_rpccancelthreadex, rpc.rpccancelthreadex, rpcdce/RpcCancelThreadEx
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcCancelThreadEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 8b25b32b-f739-406a-96e8-dba687c7f055
 ms.date: 12/05/2018
 ms.keywords: CopyTo, CopyTo method [Structured Storage], CopyTo method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],CopyTo method, IStorage.CopyTo, IStorage::CopyTo, _stg_istorage_copyto, objidl/IStorage::CopyTo, stg.istorage_copyto
-ms.topic: method
 f1_keywords:
 - objidl/IStorage.CopyTo
 dev_langs:

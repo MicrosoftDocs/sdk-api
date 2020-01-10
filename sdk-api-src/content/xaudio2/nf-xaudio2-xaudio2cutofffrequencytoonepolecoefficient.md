@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2CutoffFrequencyToOnePoleCoefficient(float,UINT32)
 ms.date: 12/05/2018
 ms.keywords: XAudio2CutoffFrequencyToOnePoleCoefficient, XAudio2CutoffFrequencyToOnePoleCoefficient function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2cutofffrequencytoonepolecoefficient, xaudio2/XAudio2CutoffFrequencyToOnePoleCoefficient
-ms.topic: function
 f1_keywords:
 - xaudio2/XAudio2CutoffFrequencyToOnePoleCoefficient
 dev_langs:

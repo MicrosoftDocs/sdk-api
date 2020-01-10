@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 17e70872-f0cb-4f9d-8188-d6d24770db04
 ms.date: 12/05/2018
 ms.keywords: D2D1_INPUT_ELEMENT_DESC, D2D1_INPUT_ELEMENT_DESC structure [Direct2D], d2d1effectauthor/D2D1_INPUT_ELEMENT_DESC, direct2d.d2d1_input_element_desc
-ms.topic: struct
 f1_keywords:
 - d2d1effectauthor/D2D1_INPUT_ELEMENT_DESC
 dev_langs:

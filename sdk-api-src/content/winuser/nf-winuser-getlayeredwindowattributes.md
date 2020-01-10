@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getlayeredwindowattributes.htm
 ms.date: 12/05/2018
 ms.keywords: GetLayeredWindowAttributes, GetLayeredWindowAttributes function [Windows and Messages], LWA_ALPHA, LWA_COLORKEY, _win32_GetLayeredWindowAttributes, _win32_getlayeredwindowattributes_cpp, winmsg.getlayeredwindowattributes, winui._win32_getlayeredwindowattributes, winuser/GetLayeredWindowAttributes
-ms.topic: function
 f1_keywords:
 - winuser/GetLayeredWindowAttributes
 dev_langs:

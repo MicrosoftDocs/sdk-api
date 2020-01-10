@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: c55e0b19-257e-423f-bf84-3b7a55dc370e
 ms.date: 12/05/2018
 ms.keywords: 7bab227f-d095-48e8-856f-6446e62826dd, IInkOverlay, IInkOverlay interface [Tablet PC],SetGestureStatus method, IInkOverlay.SetGestureStatus, IInkOverlay::SetGestureStatus, SetGestureStatus, SetGestureStatus method [Tablet PC], SetGestureStatus method [Tablet PC],IInkOverlay interface, msinkaut/IInkOverlay::SetGestureStatus, tablet.inkoverlay_setgesturestatus
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkOverlay.SetGestureStatus
 dev_langs:

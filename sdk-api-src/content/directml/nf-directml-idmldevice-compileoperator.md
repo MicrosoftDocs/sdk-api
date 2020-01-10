@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 745DB37D-20BF-4422-B224-A6BDEF272B8D
 ms.date: 12/5/2018
 ms.keywords: CompileOperator, CompileOperator method, CompileOperator method,IDMLDevice interface, IDMLDevice interface,CompileOperator method, IDMLDevice.CompileOperator, IDMLDevice::CompileOperator, direct3d12.idmldevice_compileoperator, directml/IDMLDevice::CompileOperator
-ms.topic: method
 f1_keywords:
 - directml/IDMLDevice.CompileOperator
 dev_langs:

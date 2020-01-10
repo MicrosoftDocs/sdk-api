@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 2720d616-18a6-488e-98ef-565768c22c2a
 ms.date: 12/05/2018
 ms.keywords: IESEventService, IESEventService interface [Microsoft TV Technologies], IESEventService interface [Microsoft TV Technologies],described, mstv.ieseventservice, tuner/IESEventService
-ms.topic: interface
 f1_keywords:
 - tuner/IESEventService
 dev_langs:

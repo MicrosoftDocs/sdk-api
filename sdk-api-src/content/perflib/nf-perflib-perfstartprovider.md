@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: b417b19b-adbc-40e3-aca1-c2cd94a79232
 ms.date: 12/05/2018
 ms.keywords: PerfStartProvider, PerfStartProvider function [Perf], base.perfstartprovider, perf.perfstartprovider, perflib/PerfStartProvider
-ms.topic: function
 f1_keywords:
 - perflib/PerfStartProvider
 dev_langs:

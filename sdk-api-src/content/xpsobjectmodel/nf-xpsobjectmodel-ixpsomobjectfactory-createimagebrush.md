@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f271e152-8120-49c4-804d-069e224c6597
 ms.date: 12/05/2018
 ms.keywords: CreateImageBrush, CreateImageBrush method [XPS Documents and Packaging], CreateImageBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateImageBrush method, IXpsOMObjectFactory.CreateImageBrush, IXpsOMObjectFactory::CreateImageBrush, xps.ixpsomobjectfactory_createimagebrush, xpsobjectmodel/IXpsOMObjectFactory::CreateImageBrush
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreateImageBrush
 dev_langs:

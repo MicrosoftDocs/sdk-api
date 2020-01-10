@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 55cc631f-c9ab-4ca8-ab5b-43e8a2e88fc9
 ms.date: 12/05/2018
 ms.keywords: TF_LMLATTELEMENT, TF_LMLATTELEMENT structure [Text Services Framework], _tsf_tf_lmlattelement_ref, ctffunc/TF_LMLATTELEMENT, tsf.tf_lmlattelement
-ms.topic: struct
 f1_keywords:
 - ctffunc/TF_LMLATTELEMENT
 dev_langs:

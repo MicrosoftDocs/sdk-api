@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: a9718b79-8f98-4bfc-a5db-208899d1f59e
 ms.date: 12/05/2018
 ms.keywords: ICB_Copy, ICB_Cut, ICB_Default, ICB_DelayedCopy, ICB_ExtractOnly, InkClipboardModes, InkClipboardModes enumeration [Tablet PC], a9718b79-8f98-4bfc-a5db-208899d1f59e, msinkaut/ICB_Copy, msinkaut/ICB_Cut, msinkaut/ICB_Default, msinkaut/ICB_DelayedCopy, msinkaut/ICB_ExtractOnly, msinkaut/InkClipboardModes, tablet.inkclipboardmodes
-ms.topic: enum
 f1_keywords:
 - msinkaut/InkClipboardModes
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: d1ceb491-c726-4aa0-b17e-f98f34279e32
 ms.date: 12/05/2018
 ms.keywords: HttpCloseServerSession, HttpCloseServerSession function [HTTP], http.httpcloseserversession, http/HttpCloseServerSession
-ms.topic: function
 f1_keywords:
 - http/HttpCloseServerSession
 dev_langs:

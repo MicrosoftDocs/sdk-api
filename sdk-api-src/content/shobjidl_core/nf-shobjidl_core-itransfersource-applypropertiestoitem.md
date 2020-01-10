@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f3a99637-8ce7-4177-bcf7-716ed7698934
 ms.date: 12/05/2018
 ms.keywords: ApplyPropertiesToItem, ApplyPropertiesToItem method [Windows Shell], ApplyPropertiesToItem method [Windows Shell],ITransferSource interface, ITransferSource interface [Windows Shell],ApplyPropertiesToItem method, ITransferSource.ApplyPropertiesToItem, ITransferSource::ApplyPropertiesToItem, _shell_ITransferSource_ApplyPropertiesToItem, shell.ITransferSource_ApplyPropertiesToItem, shobjidl_core/ITransferSource::ApplyPropertiesToItem
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ITransferSource.ApplyPropertiesToItem
 dev_langs:

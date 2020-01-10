@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: de7dc6d4-d85a-44cb-8af7-840fd6e68d5c
 ms.date: 12/05/2018
 ms.keywords: PropVariantGetInt32Elem, PropVariantGetInt32Elem function [Windows Properties], _shell_PropVariantGetInt32Elem, properties.PropVariantGetInt32Elem, propvarutil/PropVariantGetInt32Elem, shell.PropVariantGetInt32Elem
-ms.topic: function
 f1_keywords:
 - propvarutil/PropVariantGetInt32Elem
 dev_langs:

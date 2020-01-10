@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d059b6bd-8f03-4273-aa7a-b8b07f84d268
 ms.date: 12/05/2018
 ms.keywords: StrCmpI, StrCmpI function [Windows Shell], StrCmpIW, _win32_StrCmpI, shell.StrCmpI, shlwapi/StrCmpI, shlwapi/StrCmpIW
-ms.topic: function
 f1_keywords:
 - shlwapi/StrCmpI
 dev_langs:

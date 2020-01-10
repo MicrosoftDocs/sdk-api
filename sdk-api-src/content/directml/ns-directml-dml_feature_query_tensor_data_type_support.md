@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 39C3FB05-E2B9-46FA-9D0F-9FCC6664B390
 ms.date: 12/5/2018
 ms.keywords: DML_FEATURE_QUERY_TENSOR_DATA_TYPE_SUPPORT, DML_FEATURE_QUERY_TENSOR_DATA_TYPE_SUPPORT structure, direct3d12.dml_feature_query_tensor_data_type_support, directml/DML_FEATURE_QUERY_TENSOR_DATA_TYPE_SUPPORT
-ms.topic: struct
 f1_keywords:
 - directml/DML_FEATURE_QUERY_TENSOR_DATA_TYPE_SUPPORT
 dev_langs:

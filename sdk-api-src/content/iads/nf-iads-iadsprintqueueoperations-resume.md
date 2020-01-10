@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 4142af42-b01c-489b-ab13-2750c3ca0be6
 ms.date: 12/05/2018
 ms.keywords: IADsPrintQueueOperations interface [ADSI],Resume method, IADsPrintQueueOperations.Resume, IADsPrintQueueOperations::Resume, Resume, Resume method [ADSI], Resume method [ADSI],IADsPrintQueueOperations interface, _ds_iadsprintqueueoperations_resume, adsi.iadsprintqueueoperations__resume, adsi.iadsprintqueueoperations_resume, iads/IADsPrintQueueOperations::Resume
-ms.topic: method
 f1_keywords:
 - iads/IADsPrintQueueOperations.Resume
 dev_langs:

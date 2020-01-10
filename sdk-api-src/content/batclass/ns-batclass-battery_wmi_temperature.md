@@ -7,7 +7,6 @@ tech.root: battery
 ms.assetid: 341DA703-EB96-4680-AFB8-68043988AF56
 ms.date: 12/05/2018
 ms.keywords: '*PBATTERY_WMI_TEMPERATURE, BATTERY_WMI_TEMPERATURE, BATTERY_WMI_TEMPERATURE structure [Battery Devices], PBATTERY_WMI_TEMPERATURE, PBATTERY_WMI_TEMPERATURE structure pointer [Battery Devices], batclass/BATTERY_WMI_TEMPERATURE, batclass/PBATTERY_WMI_TEMPERATURE, battery.battery_wmi_temperature'
-ms.topic: struct
 f1_keywords:
 - batclass/BATTERY_WMI_TEMPERATURE
 dev_langs:

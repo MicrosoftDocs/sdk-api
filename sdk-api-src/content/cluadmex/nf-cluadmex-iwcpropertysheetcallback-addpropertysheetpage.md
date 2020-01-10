@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: ccd87d3a-c9da-4d61-9e9b-f25a52724166
 ms.date: 12/05/2018
 ms.keywords: AddPropertySheetPage, AddPropertySheetPage method [Failover Cluster], AddPropertySheetPage method [Failover Cluster],IWCPropertySheetCallback interface, IWCPropertySheetCallback interface [Failover Cluster],AddPropertySheetPage method, IWCPropertySheetCallback.AddPropertySheetPage, IWCPropertySheetCallback::AddPropertySheetPage, _wolf_iwcpropertysheetcallback_addpropertysheetpage, cluadmex/IWCPropertySheetCallback::AddPropertySheetPage, mscs.iwcpropertysheetcallback_addpropertysheetpage
-ms.topic: method
 f1_keywords:
 - cluadmex/IWCPropertySheetCallback.AddPropertySheetPage
 dev_langs:

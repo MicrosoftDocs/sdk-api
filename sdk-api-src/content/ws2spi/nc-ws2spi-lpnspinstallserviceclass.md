@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 437a3580-e296-4f20-8921-84e522cccc1a
 ms.date: 12/05/2018
 ms.keywords: LPNSPINSTALLSERVICECLASS, NSPInstallServiceClass, NSPInstallServiceClass function [Winsock], _win32_nspinstallserviceclass_2, winsock.nspinstallserviceclass_2, ws2spi/NSPInstallServiceClass
-ms.topic: callback
 f1_keywords:
 - ws2spi/NSPInstallServiceClass
 dev_langs:

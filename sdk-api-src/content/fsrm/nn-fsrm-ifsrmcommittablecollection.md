@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: ef4678b4-e6b0-4044-ba11-7a3ae01ad2c7
 ms.date: 12/05/2018
 ms.keywords: IFsrmCommittableCollection, IFsrmCommittableCollection interface [File Server Resource Manager], IFsrmCommittableCollection interface [File Server Resource Manager],described, fs.ifsrmcommitablecollection, fs.ifsrmcommittablecollection, fsrm.ifsrmcommittablecollection, fsrm/IFsrmCommittableCollection
-ms.topic: interface
 f1_keywords:
 - fsrm/IFsrmCommittableCollection
 dev_langs:

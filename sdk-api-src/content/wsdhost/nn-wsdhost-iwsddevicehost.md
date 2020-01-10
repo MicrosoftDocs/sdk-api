@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 497d0331-c88d-4381-8990-94227a9b9659
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost, IWSDDeviceHost interface, IWSDDeviceHost interface,described, ncd.iwsddevicehost, wsdhost/IWSDDeviceHost
-ms.topic: interface
 f1_keywords:
 - wsdhost/IWSDDeviceHost
 dev_langs:

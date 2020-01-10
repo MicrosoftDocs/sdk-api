@@ -7,7 +7,6 @@ tech.root: SecSLApi
 ms.assetid: e2733f2e-e78b-4a77-a81d-d5913baa4bc4
 ms.date: 12/05/2018
 ms.keywords: SLGetSLIDList, SLGetSLIDList function [Security], security.slgetslidlist, slpublic/SLGetSLIDList
-ms.topic: function
 f1_keywords:
 - slpublic/SLGetSLIDList
 dev_langs:

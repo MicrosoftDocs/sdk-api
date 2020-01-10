@@ -7,7 +7,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\loadkeyboardlayout.htm
 ms.date: 12/05/2018
 ms.keywords: KLF_ACTIVATE, KLF_NOTELLSHELL, KLF_REORDER, KLF_REPLACELANG, KLF_SETFORPROCESS, KLF_SUBSTITUTE_OK, KLF_UNLOADPREVIOUS, LoadKeyboardLayout, LoadKeyboardLayout function [Keyboard and Mouse Input], LoadKeyboardLayoutA, LoadKeyboardLayoutW, _win32_LoadKeyboardLayout, _win32_loadkeyboardlayout_cpp, inputdev.loadkeyboardlayout, winui._win32_loadkeyboardlayout, winuser/LoadKeyboardLayout, winuser/LoadKeyboardLayoutA, winuser/LoadKeyboardLayoutW
-ms.topic: function
 f1_keywords:
 - winuser/LoadKeyboardLayout
 dev_langs:

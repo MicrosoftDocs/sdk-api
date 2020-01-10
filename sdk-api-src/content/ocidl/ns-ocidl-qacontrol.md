@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: dd7ee4b1-2ad9-4ceb-b569-9988696760e8
 ms.date: 12/05/2018
 ms.keywords: QACONTROL, QACONTROL structure [COM], _ctrl_QACONTROL, com.qacontrol, ocidl/QACONTROL
-ms.topic: struct
 f1_keywords:
 - ocidl/QACONTROL
 dev_langs:

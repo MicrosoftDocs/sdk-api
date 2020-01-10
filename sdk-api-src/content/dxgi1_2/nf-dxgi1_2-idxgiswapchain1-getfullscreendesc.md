@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 6056239A-B3CA-4C70-9081-499B0AAEFBEF
 ms.date: 12/05/2018
 ms.keywords: GetFullscreenDesc, GetFullscreenDesc method [DXGI], GetFullscreenDesc method [DXGI],IDXGISwapChain1 interface, IDXGISwapChain1 interface [DXGI],GetFullscreenDesc method, IDXGISwapChain1.GetFullscreenDesc, IDXGISwapChain1::GetFullscreenDesc, direct3ddxgi.idxgiswapchain1_getfullscreendesc, dxgi1_2/IDXGISwapChain1::GetFullscreenDesc
-ms.topic: method
 f1_keywords:
 - dxgi1_2/IDXGISwapChain1.GetFullscreenDesc
 dev_langs:

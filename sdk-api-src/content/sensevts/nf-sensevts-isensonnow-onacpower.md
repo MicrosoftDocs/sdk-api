@@ -7,7 +7,6 @@ tech.root: Sens
 ms.assetid: 4d9e8de9-a329-4f8c-883b-e4baab04729b
 ms.date: 12/05/2018
 ms.keywords: ISensOnNow interface [SENS],OnACPower method, ISensOnNow.OnACPower, ISensOnNow::OnACPower, OnACPower, OnACPower method [SENS], OnACPower method [SENS],ISensOnNow interface, _zaw_isensonnow_onacpower, sens.isensonnow_onacpower, sensevts/ISensOnNow::OnACPower, syncmgr.isensonnow_onacpower
-ms.topic: method
 f1_keywords:
 - sensevts/ISensOnNow.OnACPower
 dev_langs:

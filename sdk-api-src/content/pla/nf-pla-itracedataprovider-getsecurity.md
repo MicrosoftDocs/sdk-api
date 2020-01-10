@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 2f1618db-aa43-4cac-a652-db172781e988
 ms.date: 12/05/2018
 ms.keywords: GetSecurity, GetSecurity method [PLA], GetSecurity method [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],GetSecurity method, ITraceDataProvider.GetSecurity, ITraceDataProvider::GetSecurity, pla.itracedataprovider_getsecurity, pla/ITraceDataProvider::GetSecurity
-ms.topic: method
 f1_keywords:
 - pla/ITraceDataProvider.GetSecurity
 dev_langs:

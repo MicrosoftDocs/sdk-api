@@ -5,7 +5,6 @@ description: Gets the number of input stream descriptions provided when the vide
 tech.root: mf
 ms.assetid: 3e749d39-ade5-4d52-9d91-4a98ca5650b6
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoProcessor::GetNumInputStreamDescs
 dev_langs:

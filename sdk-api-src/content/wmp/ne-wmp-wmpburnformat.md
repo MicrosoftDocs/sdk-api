@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 5761dbfb-4e7d-4063-bde7-2aa9d7869d7c
 ms.date: 12/05/2018
 ms.keywords: WMPBurnFormat, WMPBurnFormat enumeration [Windows Media Player], wmp.wmpburnformat, wmp/WMPBurnFormat, wmp/wmpbfAudioCD, wmp/wmpbfDataCD, wmpbfAudioCD, wmpbfDataCD
-ms.topic: enum
 f1_keywords:
 - wmp/WMPBurnFormat
 dev_langs:

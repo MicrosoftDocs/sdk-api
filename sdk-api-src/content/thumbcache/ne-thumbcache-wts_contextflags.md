@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 062B148E-19FB-4bcd-82CE-669B2ACD0BF6
 ms.date: 12/05/2018
 ms.keywords: WTSCF_APPSTYLE, WTSCF_DEFAULT, WTSCF_FAST, WTSCF_SQUARE, WTSCF_WIDE, WTS_CONTEXTFLAGS, WTS_CONTEXTFLAGS enumeration [Windows Shell], shell.WTS_CONTEXTFLAGS, thumbcache/WTSCF_APPSTYLE, thumbcache/WTSCF_DEFAULT, thumbcache/WTSCF_FAST, thumbcache/WTSCF_SQUARE, thumbcache/WTSCF_WIDE, thumbcache/WTS_CONTEXTFLAGS
-ms.topic: enum
 f1_keywords:
 - thumbcache/WTS_CONTEXTFLAGS
 dev_langs:

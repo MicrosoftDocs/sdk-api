@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: c854a8db-730a-42a3-b50c-fb8fec271b57
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_UDFRevision method, IFileSystemImage.get_UDFRevision, IFileSystemImage::get_UDFRevision, get_UDFRevision, get_UDFRevision method [IMAPI], get_UDFRevision method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_udfrevision, imapi2fs/IFileSystemImage::get_UDFRevision
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFileSystemImage.get_UDFRevision
 dev_langs:

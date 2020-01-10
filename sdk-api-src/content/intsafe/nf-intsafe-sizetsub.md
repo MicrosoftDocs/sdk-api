@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 6a7b22e7-504b-4065-80fa-b972f0360b5c
 ms.date: 12/05/2018
 ms.keywords: SizeTSub, SizeTSub function [Windows Shell], _shell_SizeTSub, intsafe/SizeTSub, shell.SizeTSub
-ms.topic: function
 f1_keywords:
 - intsafe/SizeTSub
 dev_langs:

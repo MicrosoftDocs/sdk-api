@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: bf975a30-dfb1-4994-9095-510a6b997aff
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection, IWMPMediaCollection interface [Windows Media Player], IWMPMediaCollection interface [Windows Media Player],described, IWMPMediaCollectionInterface, wmp.iwmpmediacollection, wmp/IWMPMediaCollection
-ms.topic: interface
 f1_keywords:
 - wmp/IWMPMediaCollection
 dev_langs:

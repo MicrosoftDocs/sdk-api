@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: c8b4d241-19d4-4a97-9129-c2954d63b6ac
 ms.date: 12/05/2018
 ms.keywords: DhcpEnumServers, DhcpEnumServers function [DHCP], dhcp.dhcpenumservers, dhcpsapi/DhcpEnumServers
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpEnumServers
 dev_langs:

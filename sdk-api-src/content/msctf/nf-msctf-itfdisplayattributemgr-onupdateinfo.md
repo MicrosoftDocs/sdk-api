@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 0f906a19-16b8-47c1-adca-10d6da0cc7dd
 ms.date: 12/05/2018
 ms.keywords: ITfDisplayAttributeMgr interface [Text Services Framework],OnUpdateInfo method, ITfDisplayAttributeMgr.OnUpdateInfo, ITfDisplayAttributeMgr::OnUpdateInfo, OnUpdateInfo, OnUpdateInfo method [Text Services Framework], OnUpdateInfo method [Text Services Framework],ITfDisplayAttributeMgr interface, _tsf_itfdisplayattributemgr_onupdateinfo_ref, msctf/ITfDisplayAttributeMgr::OnUpdateInfo, tsf.itfdisplayattributemgr_onupdateinfo
-ms.topic: method
 f1_keywords:
 - msctf/ITfDisplayAttributeMgr.OnUpdateInfo
 dev_langs:

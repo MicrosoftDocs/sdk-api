@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: a2f32cb9-3c8b-4b44-96a2-dd70afcca71a
 ms.date: 12/05/2018
 ms.keywords: IControlChangeNotify interface [Core Audio],OnNotify method, IControlChangeNotify.OnNotify, IControlChangeNotify::OnNotify, IControlChangeNotifyOnNotify, OnNotify, OnNotify method [Core Audio], OnNotify method [Core Audio],IControlChangeNotify interface, coreaudio.icontrolchangenotify_onnotify, devicetopology/IControlChangeNotify::OnNotify
-ms.topic: method
 f1_keywords:
 - devicetopology/IControlChangeNotify.OnNotify
 dev_langs:

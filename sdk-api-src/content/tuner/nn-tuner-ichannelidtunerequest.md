@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 4ff0e945-b0a3-4b9f-9511-5891b69c72df
 ms.date: 12/05/2018
 ms.keywords: IChannelIDTuneRequest, IChannelIDTuneRequest interface [Microsoft TV Technologies], IChannelIDTuneRequest interface [Microsoft TV Technologies],described, mstv.ichannelidtunerequest, tuner/IChannelIDTuneRequest
-ms.topic: interface
 f1_keywords:
 - tuner/IChannelIDTuneRequest
 dev_langs:

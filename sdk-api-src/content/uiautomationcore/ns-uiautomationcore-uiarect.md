@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 99cf7e3e-6b36-41ca-ac27-a7b332e7c91e
 ms.date: 12/05/2018
 ms.keywords: UiaRect, UiaRect structure [Windows Accessibility], uiauto.uiauto_UiaRectStruct, uiauto_UiaRectStruct, uiautomationcore/UiaRect, winauto.uiauto_UiaRectStruct
-ms.topic: struct
 f1_keywords:
 - uiautomationcore/UiaRect
 dev_langs:

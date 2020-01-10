@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 0f9dc48c-7df3-498b-b9ff-4610bd9e7ac2
 ms.date: 12/05/2018
 ms.keywords: GetRecordModuleInfo, GetRecordModuleInfo method [Microsoft TV Technologies], GetRecordModuleInfo method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetRecordModuleInfo method, IIsdbDownloadContentDescriptor.GetRecordModuleInfo, IIsdbDownloadContentDescriptor::GetRecordModuleInfo, dvbsiparser/IIsdbDownloadContentDescriptor::GetRecordModuleInfo, mstv.iisdbdownloadcontentdescriptor_getrecordmoduleinfo
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbDownloadContentDescriptor.GetRecordModuleInfo
 dev_langs:

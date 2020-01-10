@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: c0e311e8-67b5-4dae-848e-589f306191fa
 ms.date: 12/05/2018
 ms.keywords: '*LPTAPI_DETECTTONE, TAPI_DETECTTONE, TAPI_DETECTTONE structure [TAPI 2.2], _tapi3_tapi_detecttone_str, tapi3.tapi_detecttone_str, tapi3if/TAPI_DETECTTONE'
-ms.topic: struct
 f1_keywords:
 - tapi3if/TAPI_DETECTTONE
 dev_langs:

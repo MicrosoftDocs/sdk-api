@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 4a94dd33-1dad-4d0a-98e8-1ccce83f345e
 ms.date: 12/05/2018
 ms.keywords: GetProfileXmlData, GetProfileXmlData method [Microsoft Broadband Networks], GetProfileXmlData method [Microsoft Broadband Networks],IMbnConnectionProfile interface, IMbnConnectionProfile interface [Microsoft Broadband Networks],GetProfileXmlData method, IMbnConnectionProfile.GetProfileXmlData, IMbnConnectionProfile::GetProfileXmlData, mbn.imbnconnectionprofile_getprofilexmldata, mbnapi/IMbnConnectionProfile::GetProfileXmlData
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnConnectionProfile.GetProfileXmlData
 dev_langs:

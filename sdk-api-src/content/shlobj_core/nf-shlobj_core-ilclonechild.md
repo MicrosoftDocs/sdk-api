@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e82f0b34-3d7d-4da2-9eec-05842ede8300
 ms.date: 12/05/2018
 ms.keywords: ILCloneChild, ILCloneChild function [Windows Shell], _shell_ILCloneChild, shell.ILCloneChild, shlobj_core/ILCloneChild
-ms.topic: function
 f1_keywords:
 - shlobj_core/ILCloneChild
 dev_langs:

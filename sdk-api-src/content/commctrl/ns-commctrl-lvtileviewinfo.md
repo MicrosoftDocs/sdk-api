@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvtileviewinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*PLVTILEVIEWINFO, LVTILEVIEWINFO, LVTILEVIEWINFO structure [Windows Controls], LVTVIF_EXTENDED, PLVTILEVIEWINFO, PLVTILEVIEWINFO structure pointer [Windows Controls], commctrl/LVTILEVIEWINFO, commctrl/PLVTILEVIEWINFO, controls.LVTILEVIEWINFO, controls.inet_LVTILEVIEWINFO, inet_LVTILEVIEWINFO, inet_LVTILEVIEWINFO_cpp'
-ms.topic: struct
 f1_keywords:
 - commctrl/LVTILEVIEWINFO
 dev_langs:

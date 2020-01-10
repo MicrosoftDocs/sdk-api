@@ -7,7 +7,6 @@ tech.root: wintouch
 ms.assetid: 4b817f8b-79e9-4409-a6b2-2096759bab59
 ms.date: 12/05/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],InitialOriginY property, IInertiaProcessor.InitialOriginY, IInertiaProcessor.put_InitialOriginY, IInertiaProcessor::InitialOriginY, IInertiaProcessor::get_InitialOriginY, IInertiaProcessor::put_InitialOriginY, InitialOriginY property [Windows Touch], InitialOriginY property [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::InitialOriginY, manipulations/IInertiaProcessor::get_InitialOriginY, manipulations/IInertiaProcessor::put_InitialOriginY, put_InitialOriginY, wintouch.iinertiaprocessor_initialoriginy
-ms.topic: method
 f1_keywords:
 - manipulations/IInertiaProcessor.InitialOriginY
 dev_langs:

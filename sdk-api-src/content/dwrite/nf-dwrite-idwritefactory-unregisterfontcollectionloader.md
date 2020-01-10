@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 6a8682e3-72de-4afd-b9db-ba9b0d79f195
 ms.date: 12/05/2018
 ms.keywords: IDWriteFactory interface [Direct Write],UnregisterFontCollectionLoader method, IDWriteFactory.UnregisterFontCollectionLoader, IDWriteFactory::UnregisterFontCollectionLoader, UnregisterFontCollectionLoader, UnregisterFontCollectionLoader method [Direct Write], UnregisterFontCollectionLoader method [Direct Write],IDWriteFactory interface, directwrite.IDWriteFactory_UnregisterFontCollectionLoader, dwrite/IDWriteFactory::UnregisterFontCollectionLoader
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteFactory.UnregisterFontCollectionLoader
 dev_langs:

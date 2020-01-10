@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 41984fb1-7276-4232-b19a-d251c9fcd699
 ms.date: 12/05/2018
 ms.keywords: IVPNotify interface [DirectShow],SetDeinterlaceMode method, IVPNotify.SetDeinterlaceMode, IVPNotify::SetDeinterlaceMode, IVPNotifySetDeinterlaceMode, SetDeinterlaceMode, SetDeinterlaceMode method [DirectShow], SetDeinterlaceMode method [DirectShow],IVPNotify interface, dshow.ivpnotify_setdeinterlacemode, vpnotify/IVPNotify::SetDeinterlaceMode
-ms.topic: method
 f1_keywords:
 - vpnotify/IVPNotify.SetDeinterlaceMode
 dev_langs:

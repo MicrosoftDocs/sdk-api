@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: bdbc1565-6570-4fad-890c-fb3965cce452
 ms.date: 12/05/2018
 ms.keywords: _tapi2_tapirequestmakecall, tapi/tapiRequestMakeCall, tapi/tapiRequestMakeCallA, tapi/tapiRequestMakeCallW, tapi2.tapirequestmakecall, tapiRequestMakeCall, tapiRequestMakeCall function [TAPI 2.2], tapiRequestMakeCallA, tapiRequestMakeCallW
-ms.topic: function
 f1_keywords:
 - tapi/tapiRequestMakeCall
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 6ab8c30d-1ab8-1148-5cce-29797c5f5ad5
 ms.date: 12/05/2018
 ms.keywords: InkPoint, InkPoint function [Direct2D], d2d1_3helper/InkPoint, direct2d.inkpoint
-ms.topic: function
 f1_keywords:
 - d2d1_3helper/InkPoint
 dev_langs:

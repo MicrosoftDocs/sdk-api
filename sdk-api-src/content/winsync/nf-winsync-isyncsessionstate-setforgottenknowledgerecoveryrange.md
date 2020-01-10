@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 2de6bfb3-bde9-49ee-97eb-acc1671efd0d
 ms.date: 12/05/2018
 ms.keywords: ISyncSessionState interface [Windows Sync],SetForgottenKnowledgeRecoveryRange method, ISyncSessionState.SetForgottenKnowledgeRecoveryRange, ISyncSessionState::SetForgottenKnowledgeRecoveryRange, SetForgottenKnowledgeRecoveryRange, SetForgottenKnowledgeRecoveryRange method [Windows Sync], SetForgottenKnowledgeRecoveryRange method [Windows Sync],ISyncSessionState interface, winsync.isyncsessionstate_setforgottenknowledgerecoveryrange, winsync/ISyncSessionState::SetForgottenKnowledgeRecoveryRange
-ms.topic: method
 f1_keywords:
 - winsync/ISyncSessionState.SetForgottenKnowledgeRecoveryRange
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreHalf4(XMHALF4@,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMStoreHalf4, XMStoreHalf4, XMStoreHalf4 method [DirectX Math Support APIs], dxmath.xmstorehalf4
-ms.topic: function
 f1_keywords:
 - directxpackedvector/XMStoreHalf4
 dev_langs:

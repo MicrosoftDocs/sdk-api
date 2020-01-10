@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 75c37941-f950-4f86-be47-9aefe17995a5
 ms.date: 12/05/2018
 ms.keywords: ITCallingCard interface [TAPI 2.2],get_PermanentCardID method, ITCallingCard.get_PermanentCardID, ITCallingCard::get_PermanentCardID, _tapi3_itcallingcard_get_permanentcardid, get_PermanentCardID, get_PermanentCardID method [TAPI 2.2], get_PermanentCardID method [TAPI 2.2],ITCallingCard interface, tapi3.itcallingcard_get_permanentcardid, tapi3if/ITCallingCard::get_PermanentCardID
-ms.topic: method
 f1_keywords:
 - tapi3if/ITCallingCard.get_PermanentCardID
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 52AD50BB-4146-44FC-BA32-9FC46FFE32E4
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Security], GetProperty method [Security],ICertificateEnrollmentPolicyServerSetup interface, ICertificateEnrollmentPolicyServerSetup interface [Security],GetProperty method, ICertificateEnrollmentPolicyServerSetup.GetProperty, ICertificateEnrollmentPolicyServerSetup::GetProperty, casetup/ICertificateEnrollmentPolicyServerSetup::GetProperty, security.icertificateenrollmentpolicyserversetup_getproperty
-ms.topic: method
 f1_keywords:
 - casetup/ICertificateEnrollmentPolicyServerSetup.GetProperty
 dev_langs:

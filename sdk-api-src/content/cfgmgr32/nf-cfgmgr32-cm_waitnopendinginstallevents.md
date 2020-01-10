@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 5be4c315-0e47-44ec-970c-855f302b355c
 ms.date: 12/05/2018
 ms.keywords: CMP_WaitNoPendingInstallEvents, CM_WaitNoPendingInstallEvents, CM_WaitNoPendingInstallEvents function [Device and Driver Installation], cfgmgr32/CM_WaitNoPendingInstallEvents, cfgmgrfn_096076fd-3ea8-42cb-9b51-ea551bde863d.xml, devinst.cmp_waitnopendinginstallevents
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_WaitNoPendingInstallEvents
 dev_langs:

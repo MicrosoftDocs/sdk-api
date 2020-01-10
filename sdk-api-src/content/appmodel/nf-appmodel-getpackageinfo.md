@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 28F45B3B-A61F-44D3-B606-6966AD5866FA
 ms.date: 12/05/2018
 ms.keywords: GetPackageInfo, GetPackageInfo function [App packaging and management], appmodel/GetPackageInfo, appxpkg.getpackageinfo
-ms.topic: function
 f1_keywords:
 - appmodel/GetPackageInfo
 dev_langs:

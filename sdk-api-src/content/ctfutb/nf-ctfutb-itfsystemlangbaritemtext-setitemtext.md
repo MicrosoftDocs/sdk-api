@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 4265f1b6-8688-4b88-b738-e373beea622b
 ms.date: 12/05/2018
 ms.keywords: ITfSystemLangBarItemText interface [Text Services Framework],SetItemText method, ITfSystemLangBarItemText.SetItemText, ITfSystemLangBarItemText::SetItemText, SetItemText, SetItemText method [Text Services Framework], SetItemText method [Text Services Framework],ITfSystemLangBarItemText interface, ctfutb/ITfSystemLangBarItemText::SetItemText, tsf.itfsystemlangbaritemtext_setitemtext
-ms.topic: method
 f1_keywords:
 - ctfutb/ITfSystemLangBarItemText.SetItemText
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 9310f407-d310-402b-bd90-ebc7e8d99361
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapEncoder interface [Windows Imaging Component],SetPalette method, IWICBitmapEncoder.SetPalette, IWICBitmapEncoder::SetPalette, SetPalette, SetPalette method [Windows Imaging Component], SetPalette method [Windows Imaging Component],IWICBitmapEncoder interface, _wic_codec_iwicbitmapencoder_setpalette, wic._wic_codec_iwicbitmapencoder_setpalette, wincodec/IWICBitmapEncoder::SetPalette
-ms.topic: method
 f1_keywords:
 - wincodec/IWICBitmapEncoder.SetPalette
 dev_langs:

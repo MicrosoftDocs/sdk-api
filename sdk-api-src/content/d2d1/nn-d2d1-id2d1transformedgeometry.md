@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 5d48eab6-1229-4e54-bfab-602b471b23a4
 ms.date: 12/05/2018
 ms.keywords: ID2D1TransformedGeometry, ID2D1TransformedGeometry interface [Direct2D], ID2D1TransformedGeometry interface [Direct2D],described, d2d1/ID2D1TransformedGeometry, direct2d.ID2D1TransformedGeometry
-ms.topic: interface
 f1_keywords:
 - d2d1/ID2D1TransformedGeometry
 dev_langs:

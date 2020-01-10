@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 4ef0f4d8-7c63-4d8e-bf46-e6958661bd6a
 ms.date: 12/05/2018
 ms.keywords: '*PVDS_LUN_PROP, PVDS_LUN_PROP, PVDS_LUN_PROP structure pointer [VDS], VDS_H_FAILED, VDS_H_FAILED_REDUNDANCY, VDS_H_FAILED_REDUNDANCY_FAILING, VDS_H_FAILING, VDS_H_FAILING_REDUNDANCY, VDS_H_HEALTHY, VDS_H_REBUILDING, VDS_H_UNKNOWN, VDS_LUN_PROP, VDS_LUN_PROP structure [VDS], base.vds_lun_prop, vds/PVDS_LUN_PROP, vds/_VDS_LUN_PROP, vdshwprv/PVDS_LUN_PROP, vdshwprv/_VDS_LUN_PROP'
-ms.topic: struct
 f1_keywords:
 - vds/VDS_LUN_PROP
 dev_langs:

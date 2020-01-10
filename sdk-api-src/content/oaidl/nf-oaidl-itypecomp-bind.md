@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 04814179-2555-4ba5-a08c-bff776c03ca3
 ms.date: 12/05/2018
 ms.keywords: Bind, Bind method [Automation], Bind method [Automation],ITypeComp interface, ITypeComp interface [Automation],Bind method, ITypeComp.Bind, ITypeComp::Bind, _oa96_ITypeComp_Bind, automat.itypecomp_bind, oaidl/ITypeComp::Bind
-ms.topic: method
 f1_keywords:
 - oaidl/ITypeComp.Bind
 dev_langs:

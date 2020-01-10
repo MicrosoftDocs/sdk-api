@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_insertstring.htm
 ms.date: 12/05/2018
 ms.keywords: ComboBox_InsertString, ComboBox_InsertString macro [Windows Controls], _win32_ComboBox_InsertString, _win32_ComboBox_InsertString_cpp, controls.ComboBox_InsertString, controls._win32_ComboBox_InsertString, windowsx/ComboBox_InsertString
-ms.topic: macro
 f1_keywords:
 - windowsx/ComboBox_InsertString
 dev_langs:

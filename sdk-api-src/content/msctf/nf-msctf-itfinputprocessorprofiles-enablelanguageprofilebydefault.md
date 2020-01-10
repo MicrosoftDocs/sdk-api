@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 5ab40219-278d-4721-88a1-b0bd2e3d8d2f
 ms.date: 12/05/2018
 ms.keywords: EnableLanguageProfileByDefault, EnableLanguageProfileByDefault method [Text Services Framework], EnableLanguageProfileByDefault method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],EnableLanguageProfileByDefault method, ITfInputProcessorProfiles.EnableLanguageProfileByDefault, ITfInputProcessorProfiles::EnableLanguageProfileByDefault, _tsf_itfinputprocessorprofiles_enablelanguageprofilebydefault_ref, msctf/ITfInputProcessorProfiles::EnableLanguageProfileByDefault, tsf.itfinputprocessorprofiles_enablelanguageprofilebydefault
-ms.topic: method
 f1_keywords:
 - msctf/ITfInputProcessorProfiles.EnableLanguageProfileByDefault
 dev_langs:

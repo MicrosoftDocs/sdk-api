@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c7c9ee95-9d68-45c5-a3ca-8d6071782851
 ms.date: 12/05/2018
 ms.keywords: IDistributorNotify, IDistributorNotify interface [DirectShow], IDistributorNotify interface [DirectShow],described, IDistributorNotifyInterface, dshow.idistributornotify, strmif/IDistributorNotify
-ms.topic: interface
 f1_keywords:
 - strmif/IDistributorNotify
 dev_langs:

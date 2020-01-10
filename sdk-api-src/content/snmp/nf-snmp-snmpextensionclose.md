@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: 19fcac27-daa1-40e2-9038-7f03279381f0
 ms.date: 12/05/2018
 ms.keywords: SnmpExtensionClose, SnmpExtensionClose callback, SnmpExtensionClose callback function [SNMP], _snmp_snmpextensionclose, snmp.snmpextensionclose, snmp/SnmpExtensionClose
-ms.topic: function
 f1_keywords:
 - snmp/SnmpExtensionClose
 dev_langs:

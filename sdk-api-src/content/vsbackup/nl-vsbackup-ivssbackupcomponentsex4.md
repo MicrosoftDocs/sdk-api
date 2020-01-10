@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 3D72F6FC-4EAA-49F9-9652-AC314FFAB504
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponentsEx4, IVssBackupComponentsEx4 interface, IVssBackupComponentsEx4 interface,described, base.ivssbackupcomponentsex4, vsbackup/IVssBackupComponentsEx4
-ms.topic: class
 f1_keywords:
 - vsbackup/IVssBackupComponentsEx4
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: f0a3200e-6541-423d-a4a3-595a31026eea
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_CONTEXT, CERT_CONTEXT, CERT_CONTEXT structure [Security], PCCERT_CONTEXT, PCCERT_CONTEXT structure pointer [Security], PCERT_CONTEXT, PCERT_CONTEXT structure pointer [Security], _crypto2_cert_context, security.cert_context, wincrypt/CERT_CONTEXT, wincrypt/PCCERT_CONTEXT, wincrypt/PCERT_CONTEXT'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_CONTEXT
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: F6F096C0-3384-4463-B25F-99C6A7B3263B
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectRenderStreamBase interface [Core Audio],Reset method, ISpatialAudioObjectRenderStreamBase.Reset, ISpatialAudioObjectRenderStreamBase::Reset, Reset, Reset method [Core Audio], Reset method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, coreaudio.ispatialaudioobjectrenderstream_reset, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::Reset
-ms.topic: method
 f1_keywords:
 - spatialaudioclient/ISpatialAudioObjectRenderStreamBase.Reset
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 7f59b8d4-520c-441d-bbd3-60ab8962e3b4
 ms.date: 12/05/2018
 ms.keywords: IDVB_NIT interface [Microsoft TV Technologies],Initialize method, IDVB_NIT.Initialize, IDVB_NIT::Initialize, IDVB_NITInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IDVB_NIT interface, dvbsiparser/IDVB_NIT::Initialize, mstv.idvb_nit_initialize
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDVB_NIT.Initialize
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gamemode
 ms.assetid: C30D28CF-1A35-4849-AEC4-74F971C5F9DF
 ms.date: 12/05/2018
 ms.keywords: ReleaseExclusiveCpuSets, ReleaseExclusiveCpuSets function, expandedresources/ReleaseExclusiveCpuSets, gamemode.releaseexclusivecpusets
-ms.topic: function
 f1_keywords:
 - expandedresources/ReleaseExclusiveCpuSets
 dev_langs:

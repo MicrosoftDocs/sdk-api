@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 9b76474a-1ea9-4fcf-9fa8-deee5009a7ba
 ms.date: 12/05/2018
 ms.keywords: '*LPCOMPOSITIONFORM, *NPCOMPOSITIONFORM, *PCOMPOSITIONFORM, COMPOSITIONFORM, COMPOSITIONFORM structure [Internationalization for Windows Applications], PCOMPOSITIONFORM, PCOMPOSITIONFORM structure pointer [Internationalization for Windows Applications], _win32_COMPOSITIONFORM_str, imm/COMPOSITIONFORM, imm/PCOMPOSITIONFORM, intl.compositionform, tagCOMPOSITIONFORM'
-ms.topic: struct
 f1_keywords:
 - imm/COMPOSITIONFORM
 dev_langs:

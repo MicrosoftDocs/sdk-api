@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: E9AD5DD2-AAC1-46C9-BF57-1C97CF619936
 ms.date: 12/05/2018
 ms.keywords: WinUsb_ReadIsochPipeAsap, WinUsb_ReadIsochPipeAsap function [Buses], buses.winusb_readisochpipeasap, winusb/WinUsb_ReadIsochPipeAsap
-ms.topic: function
 f1_keywords:
 - winusb/WinUsb_ReadIsochPipeAsap
 dev_langs:

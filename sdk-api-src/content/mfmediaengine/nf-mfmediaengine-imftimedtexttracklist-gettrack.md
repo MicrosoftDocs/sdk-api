@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 5AF4F317-E46D-459A-900B-6D4796CD59A2
 ms.date: 12/05/2018
 ms.keywords: GetTrack, GetTrack method [Media Foundation], GetTrack method [Media Foundation],IMFTimedTextTrackList interface, IMFTimedTextTrackList interface [Media Foundation],GetTrack method, IMFTimedTextTrackList.GetTrack, IMFTimedTextTrackList::GetTrack, mf.imftimedtexttracklist_gettrack, mfmediaengine/IMFTimedTextTrackList::GetTrack
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFTimedTextTrackList.GetTrack
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: 13F2BF9A-505F-4CFB-B008-7DDE85A3C581
 ms.date: 12/05/2018
 ms.keywords: CfUpdatePlaceholder, CfUpdatePlaceholder function, cfapi/CfUpdatePlaceholder, cloudApi.cfupdateplaceholder
-ms.topic: function
 f1_keywords:
 - cfapi/CfUpdatePlaceholder
 dev_langs:

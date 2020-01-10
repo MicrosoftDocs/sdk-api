@@ -5,7 +5,6 @@ description: The GraphicsPath::IsOutlineVisible method determines whether a spec
 ms.assetid: f80b0cd2-0c6c-4fa9-9567-5383750689e8
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::IsOutlineVisible
-ms.topic: language-reference
 f1_keywords:
 - gdipluspath/GraphicsPath::IsOutlineVisible
 dev_langs:

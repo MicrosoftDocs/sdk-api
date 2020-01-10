@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 49f0d7ee-77fa-415e-af00-b8930253a3a9
 ms.date: 12/05/2018
 ms.keywords: '*LPXFORM, *PXFORM, PXFORM, PXFORM structure pointer [Windows GDI], XFORM, XFORM structure [Windows GDI], _win32_XFORM_str, gdi.xform, tagXFORM, wingdi/PXFORM, wingdi/XFORM'
-ms.topic: struct
 f1_keywords:
 - wingdi/XFORM
 dev_langs:

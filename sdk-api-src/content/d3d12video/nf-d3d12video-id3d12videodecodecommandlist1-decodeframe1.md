@@ -5,7 +5,6 @@ description: Records a decode frame operation to the command list.  Inputs, outp
 tech.root: mf
 ms.assetid: 46d35b8a-ae2d-4df8-ad68-eaf840369cca
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoDecodeCommandList1::DecodeFrame1
 dev_langs:

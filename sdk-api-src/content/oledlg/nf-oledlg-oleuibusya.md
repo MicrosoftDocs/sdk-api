@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 317f0dbf-7ac9-4e5a-a5ed-e6b807f07fb2
 ms.date: 12/05/2018
 ms.keywords: OleUIBusy, OleUIBusy function [COM], OleUIBusyA, OleUIBusyW, _ole_OleUIBusy, com.oleuibusy, oledlg/OleUIBusy, oledlg/OleUIBusyA, oledlg/OleUIBusyW
-ms.topic: function
 f1_keywords:
 - oledlg/OleUIBusy
 dev_langs:

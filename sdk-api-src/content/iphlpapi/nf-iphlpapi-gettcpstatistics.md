@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 841cdeaa-6284-4b39-a218-69937eca1982
 ms.date: 12/05/2018
 ms.keywords: GetTcpStatistics, GetTcpStatistics function [IP Helper], _iphlp_gettcpstatistics, iphlp.gettcpstatistics, iphlpapi/GetTcpStatistics
-ms.topic: function
 f1_keywords:
 - iphlpapi/GetTcpStatistics
 dev_langs:

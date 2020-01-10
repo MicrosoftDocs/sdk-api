@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: b1861e8f-bb42-42b5-9435-6fa366f8284a
 ms.date: 12/05/2018
 ms.keywords: GetCollectionByQuery2, GetCollectionByQuery2 method [COM+], GetCollectionByQuery2 method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],GetCollectionByQuery2 method, ICOMAdminCatalog2.GetCollectionByQuery2, ICOMAdminCatalog2::GetCollectionByQuery2, _cos_icomadmincatalog2_GetCollectionByQuery2, comadmin/ICOMAdminCatalog2::GetCollectionByQuery2, cos.icomadmincatalog2_getcollectionbyquery2
-ms.topic: method
 f1_keywords:
 - comadmin/ICOMAdminCatalog2.GetCollectionByQuery2
 dev_langs:

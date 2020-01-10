@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 5bf2c93c-8273-484b-a79f-821b2068692d
 ms.date: 12/05/2018
 ms.keywords: RpcSmGetThreadHandle, RpcSmGetThreadHandle function [RPC], _rpc_rpcsmgetthreadhandle, rpc.rpcsmgetthreadhandle, rpcndr/RpcSmGetThreadHandle
-ms.topic: function
 f1_keywords:
 - rpcndr/RpcSmGetThreadHandle
 dev_langs:

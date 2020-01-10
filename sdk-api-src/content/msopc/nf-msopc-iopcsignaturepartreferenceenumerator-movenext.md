@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 2bf3c448-b09a-4102-bc3a-c65515d2a0a8
 ms.date: 12/05/2018
 ms.keywords: IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions],MoveNext method, IOpcSignaturePartReferenceEnumerator.MoveNext, IOpcSignaturePartReferenceEnumerator::MoveNext, MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions],IOpcSignaturePartReferenceEnumerator interface, msopc/IOpcSignaturePartReferenceEnumerator::MoveNext, opc.iopcsignaturepartreferenceenumerator_movenext
-ms.topic: method
 f1_keywords:
 - msopc/IOpcSignaturePartReferenceEnumerator.MoveNext
 dev_langs:

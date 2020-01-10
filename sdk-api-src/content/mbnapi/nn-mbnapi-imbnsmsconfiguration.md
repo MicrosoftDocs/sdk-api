@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: ee261c32-aa17-496a-a568-d9da43e1e23a
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsConfiguration, IMbnSmsConfiguration interface [Microsoft Broadband Networks], IMbnSmsConfiguration interface [Microsoft Broadband Networks],described, mbn.imbnsmsconfiguration, mbnapi/IMbnSmsConfiguration
-ms.topic: interface
 f1_keywords:
 - mbnapi/IMbnSmsConfiguration
 dev_langs:

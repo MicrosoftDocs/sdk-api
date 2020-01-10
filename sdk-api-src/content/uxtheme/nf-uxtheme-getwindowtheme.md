@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getwindowtheme.htm
 ms.date: 12/05/2018
 ms.keywords: GetWindowTheme, GetWindowTheme function [Windows Controls], controls.GetWindowTheme, controls.inet_GetWindowTheme, inet_GetWindowTheme, inet_GetWindowTheme_cpp, uxtheme/GetWindowTheme
-ms.topic: function
 f1_keywords:
 - uxtheme/GetWindowTheme
 dev_langs:

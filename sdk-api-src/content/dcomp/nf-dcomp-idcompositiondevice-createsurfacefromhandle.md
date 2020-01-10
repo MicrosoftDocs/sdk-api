@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 391E98B4-9FFB-4065-91A4-99306B2FEB8F
 ms.date: 12/05/2018
 ms.keywords: CreateSurfaceFromHandle, CreateSurfaceFromHandle method [DirectComposition], CreateSurfaceFromHandle method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateSurfaceFromHandle method, IDCompositionDevice.CreateSurfaceFromHandle, IDCompositionDevice::CreateSurfaceFromHandle, dcomp/IDCompositionDevice::CreateSurfaceFromHandle, directcomp.idcompositiondevice_createsurfacefromhandle
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionDevice.CreateSurfaceFromHandle
 dev_langs:

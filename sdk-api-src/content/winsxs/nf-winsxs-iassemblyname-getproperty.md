@@ -7,7 +7,6 @@ tech.root: SbsCs
 ms.assetid: 0526fac9-1a3f-403b-b886-a7f833913e18
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Side-by-side Assemblies], GetProperty method [Side-by-side Assemblies],IAssemblyName interface, IAssemblyName interface [Side-by-side Assemblies],GetProperty method, IAssemblyName.GetProperty, IAssemblyName::GetProperty, setup.iassemblyname_getproperty, winsxs/IAssemblyName::GetProperty
-ms.topic: method
 f1_keywords:
 - winsxs/IAssemblyName.GetProperty
 dev_langs:

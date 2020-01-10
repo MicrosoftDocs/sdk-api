@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: b5077152-b06a-4391-a0c2-013362014b2b
 ms.date: 12/05/2018
 ms.keywords: GetElement, GetElement method [Windows Accessibility], GetElement method [Windows Accessibility],IUIAutomationTextRangeArray interface, IUIAutomationTextRangeArray interface [Windows Accessibility],GetElement method, IUIAutomationTextRangeArray.GetElement, IUIAutomationTextRangeArray::GetElement, uiauto.uiauto_IUIAutomationTextRangeArray_GetElement, uiauto_IUIAutomationTextRangeArray_GetElement, uiautomationclient/IUIAutomationTextRangeArray::GetElement, winauto.uiauto_IUIAutomationTextRangeArray_GetElement
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationTextRangeArray.GetElement
 dev_langs:

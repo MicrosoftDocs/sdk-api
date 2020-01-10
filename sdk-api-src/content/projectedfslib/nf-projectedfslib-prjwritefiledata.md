@@ -7,7 +7,6 @@ tech.root: ProjFS
 ms.assetid: A09D8E74-D574-41C6-A586-86E03839DA89
 ms.date: 12/05/2018
 ms.keywords: PrjWriteFileData, PrjWriteFileData function, ProjFS.prjwritefiledata, projectedfslib/PrjWriteFileData
-ms.topic: function
 f1_keywords:
 - projectedfslib/PrjWriteFileData
 dev_langs:

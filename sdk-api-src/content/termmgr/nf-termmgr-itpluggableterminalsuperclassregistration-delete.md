@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: fe87d55f-1e1c-4241-b8a3-b56d2000f3ca
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [TAPI 2.2], Delete method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],Delete method, ITPluggableTerminalSuperclassRegistration.Delete, ITPluggableTerminalSuperclassRegistration::Delete, _tapi3_itpluggableterminalsuperclassregistration_delete, tapi3.itpluggableterminalsuperclassregistration_delete, termmgr/ITPluggableTerminalSuperclassRegistration::Delete
-ms.topic: method
 f1_keywords:
 - termmgr/ITPluggableTerminalSuperclassRegistration.Delete
 dev_langs:

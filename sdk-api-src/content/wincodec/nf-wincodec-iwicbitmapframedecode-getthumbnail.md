@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 2792b54b-52d7-4205-a016-246a4dc5451d
 ms.date: 12/05/2018
 ms.keywords: GetThumbnail, GetThumbnail method [Windows Imaging Component], GetThumbnail method [Windows Imaging Component],IWICBitmapFrameDecode interface, IWICBitmapFrameDecode interface [Windows Imaging Component],GetThumbnail method, IWICBitmapFrameDecode.GetThumbnail, IWICBitmapFrameDecode::GetThumbnail, _wic_codec_iwicbitmapframedecode_getthumbnail, wic._wic_codec_iwicbitmapframedecode_getthumbnail, wincodec/IWICBitmapFrameDecode::GetThumbnail
-ms.topic: method
 f1_keywords:
 - wincodec/IWICBitmapFrameDecode.GetThumbnail
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 905813fd-281d-4cc8-b006-a2d284041bb7
 ms.date: 12/05/2018
 ms.keywords: DrvEndDoc, DrvEndDoc function [Display Devices], ddifncs_aa6db3be-deb1-43f4-b33f-e13a8b65bf7e.xml, display.drvenddoc, winddi/DrvEndDoc
-ms.topic: function
 f1_keywords:
 - winddi/DrvEndDoc
 dev_langs:

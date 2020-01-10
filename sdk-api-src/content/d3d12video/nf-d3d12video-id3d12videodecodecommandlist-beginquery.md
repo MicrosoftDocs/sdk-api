@@ -5,7 +5,6 @@ description: Starts a query running.
 tech.root: mf
 ms.assetid: 7e58addb-6178-4ca5-ae01-040f065b5baa
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoDecodeCommandList::BeginQuery
 dev_langs:

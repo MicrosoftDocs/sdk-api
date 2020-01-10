@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 073b42ba-90dd-48a1-9661-9b1686c09561
 ms.date: 12/05/2018
 ms.keywords: InterlockedDecrement64, InterlockedDecrement64 function, base.interlockeddecrement64, winnt/InterlockedDecrement64
-ms.topic: function
 f1_keywords:
 - winnt/InterlockedDecrement64
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5blg.htm
 ms.date: 12/05/2018
 ms.keywords: AttachFaxToReceipt property [Fax Service], AttachFaxToReceipt property [Fax Service],IFaxDocument interface, IFaxDocument interface [Fax Service],AttachFaxToReceipt property, IFaxDocument.AttachFaxToReceipt, IFaxDocument.put_AttachFaxToReceipt, IFaxDocument::AttachFaxToReceipt, IFaxDocument::get_AttachFaxToReceipt, IFaxDocument::put_AttachFaxToReceipt, _mfax_faxdocument.attachfaxtoreceipt, fax._mfax_faxdocument_attachfaxtoreceipt, fax._mfax_faxdocument_cpp_mfax_faxdocument_attachfaxtoreceipt_cpp, faxcomex/IFaxDocument::AttachFaxToReceipt, faxcomex/IFaxDocument::get_AttachFaxToReceipt, faxcomex/IFaxDocument::put_AttachFaxToReceipt, put_AttachFaxToReceipt
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxDocument.AttachFaxToReceipt
 dev_langs:

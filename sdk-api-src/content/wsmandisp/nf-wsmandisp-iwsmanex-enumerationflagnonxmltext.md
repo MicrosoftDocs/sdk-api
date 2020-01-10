@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: f94dc9cc-a4c5-44b8-9ace-63b80b1087d2
 ms.date: 12/05/2018
 ms.keywords: EnumerationFlagNonXmlText, EnumerationFlagNonXmlText method [Windows Remote Management], EnumerationFlagNonXmlText method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagNonXmlText method, IWSManEx.EnumerationFlagNonXmlText, IWSManEx::EnumerationFlagNonXmlText, winrm.iwsmanex_enumerationflagnonxmltext, wsmandisp/IWSManEx::EnumerationFlagNonXmlText
-ms.topic: method
 f1_keywords:
 - wsmandisp/IWSManEx.EnumerationFlagNonXmlText
 dev_langs:

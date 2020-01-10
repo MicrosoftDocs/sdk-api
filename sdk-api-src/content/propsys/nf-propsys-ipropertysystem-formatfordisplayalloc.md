@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 8e62855a-6d2c-45fa-b7bc-01270126b969
 ms.date: 12/05/2018
 ms.keywords: FormatForDisplayAlloc, FormatForDisplayAlloc method [Windows Properties], FormatForDisplayAlloc method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],FormatForDisplayAlloc method, IPropertySystem.FormatForDisplayAlloc, IPropertySystem::FormatForDisplayAlloc, properties.IPropertySystem_FormatForDisplayAlloc, propsys/IPropertySystem::FormatForDisplayAlloc, shell.IPropertySystem_FormatForDisplayAlloc, shell_IPropertySystem_FormatForDisplayAlloc
-ms.topic: method
 f1_keywords:
 - propsys/IPropertySystem.FormatForDisplayAlloc
 dev_langs:

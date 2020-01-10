@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: ed12f2e5-1674-4885-878f-9ba39415780c
 ms.date: 12/05/2018
 ms.keywords: GetProcessVersion, GetProcessVersion function, _win32_getprocessversion, base.getprocessversion, processthreadsapi/GetProcessVersion, winbase/GetProcessVersion
-ms.topic: function
 f1_keywords:
 - processthreadsapi/GetProcessVersion
 dev_langs:

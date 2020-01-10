@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: af670b54-f695-4b6f-8190-c25ea409b53a
 ms.date: 12/05/2018
 ms.keywords: IWMHeaderInfo2, IWMHeaderInfo2 interface [windows Media Format], IWMHeaderInfo2 interface [windows Media Format],described, IWMHeaderInfo2Interface, wmformat.iwmheaderinfo2, wmsdkidl/IWMHeaderInfo2
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMHeaderInfo2
 dev_langs:

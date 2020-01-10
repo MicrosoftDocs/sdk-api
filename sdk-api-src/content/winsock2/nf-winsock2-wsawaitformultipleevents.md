@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 7a978ade-6323-455b-b655-f372f4bcadc8
 ms.date: 12/05/2018
 ms.keywords: WSAWaitForMultipleEvents, WSAWaitForMultipleEvents function [Winsock], _win32_wsawaitformultipleevents_2, winsock.wsawaitformultipleevents_2, winsock2/WSAWaitForMultipleEvents
-ms.topic: function
 f1_keywords:
 - winsock2/WSAWaitForMultipleEvents
 dev_langs:

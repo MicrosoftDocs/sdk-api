@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 0aea8704-cda0-44d5-b06d-79db6ce0114e
 ms.date: 12/05/2018
 ms.keywords: GetRecordTextW, GetRecordTextW method [Microsoft TV Technologies], GetRecordTextW method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetRecordTextW method, IIsdbComponentGroupDescriptor.GetRecordTextW, IIsdbComponentGroupDescriptor::GetRecordTextW, dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordTextW, mstv.iisdbcomponentgroupdescriptor_getrecordtextw
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbComponentGroupDescriptor.GetRecordTextW
 dev_langs:

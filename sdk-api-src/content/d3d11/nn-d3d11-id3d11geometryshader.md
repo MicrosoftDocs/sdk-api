@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: c2b5863d-5773-4719-b1d0-2026f55fcef3
 ms.date: 12/05/2018
 ms.keywords: 71a86899-19ac-ddc3-70b4-f68cdd6422d0, ID3D11GeometryShader, ID3D11GeometryShader interface [Direct3D 11], ID3D11GeometryShader interface [Direct3D 11],described, d3d11/ID3D11GeometryShader, direct3d11.id3d11geometryshader
-ms.topic: interface
 f1_keywords:
 - d3d11/ID3D11GeometryShader
 dev_langs:

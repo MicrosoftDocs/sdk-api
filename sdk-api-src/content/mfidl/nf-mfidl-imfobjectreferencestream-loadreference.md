@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: fabf7de2-8433-43ba-9ded-001569614054
 ms.date: 12/05/2018
 ms.keywords: IMFObjectReferenceStream interface [Media Foundation],LoadReference method, IMFObjectReferenceStream.LoadReference, IMFObjectReferenceStream::LoadReference, LoadReference, LoadReference method [Media Foundation], LoadReference method [Media Foundation],IMFObjectReferenceStream interface, fabf7de2-8433-43ba-9ded-001569614054, mf.imfobjectreferencestream_loadreference, mfidl/IMFObjectReferenceStream::LoadReference
-ms.topic: method
 f1_keywords:
 - mfidl/IMFObjectReferenceStream.LoadReference
 dev_langs:

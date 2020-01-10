@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\enumchildwindows.htm
 ms.date: 12/05/2018
 ms.keywords: EnumChildWindows, EnumChildWindows function [Windows and Messages], _win32_EnumChildWindows, _win32_enumchildwindows_cpp, winmsg.enumchildwindows, winui._win32_enumchildwindows, winuser/EnumChildWindows
-ms.topic: function
 f1_keywords:
 - winuser/EnumChildWindows
 dev_langs:

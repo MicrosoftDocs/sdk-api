@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 857d8b84-2ccf-4888-8aea-869ba70d3f64
 ms.date: 12/05/2018
 ms.keywords: GetExitCode, GetExitCode method [Task Scheduler], GetExitCode method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetExitCode method, IScheduledWorkItem.GetExitCode, IScheduledWorkItem::GetExitCode, _msb_ischeduledworkitem_getexitcode, mstask/IScheduledWorkItem::GetExitCode, taskschd.ischeduledworkitem_getexitcode
-ms.topic: method
 f1_keywords:
 - mstask/IScheduledWorkItem.GetExitCode
 dev_langs:

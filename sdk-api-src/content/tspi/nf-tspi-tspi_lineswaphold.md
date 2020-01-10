@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 9ecd6a63-e906-483b-b404-28797d259149
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSwapHold, TSPI_lineSwapHold function [TAPI 2.2], _tspi_tspi_lineswaphold, tspi.tspi_lineswaphold, tspi/TSPI_lineSwapHold
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineSwapHold
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 67da28db-1566-4d12-8090-9f38fdfd246e
 ms.date: 12/05/2018
 ms.keywords: UpdateDebugInfoFileEx, UpdateDebugInfoFileEx function, _win32_updatedebuginfofileex, base.updatedebuginfofileex, imagehlp/UpdateDebugInfoFileEx
-ms.topic: function
 f1_keywords:
 - imagehlp/UpdateDebugInfoFileEx
 dev_langs:

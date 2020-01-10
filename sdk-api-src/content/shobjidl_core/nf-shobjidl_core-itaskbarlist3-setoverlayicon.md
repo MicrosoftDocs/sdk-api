@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 77857109-64b6-428e-b2b1-ee757784532a
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetOverlayIcon method, ITaskbarList3.SetOverlayIcon, ITaskbarList3::SetOverlayIcon, SetOverlayIcon, SetOverlayIcon method [Windows Shell], SetOverlayIcon method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_SetOverlayIcon, shell.ITaskbarList3_SetOverlayIcon, shobjidl_core/ITaskbarList3::SetOverlayIcon
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ITaskbarList3.SetOverlayIcon
 dev_langs:

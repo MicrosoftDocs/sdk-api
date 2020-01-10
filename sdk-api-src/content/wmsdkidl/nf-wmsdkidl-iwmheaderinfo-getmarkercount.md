@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: c0d8e61d-8703-407a-9610-9e9f29ab92a1
 ms.date: 12/05/2018
 ms.keywords: GetMarkerCount, GetMarkerCount method [windows Media Format], GetMarkerCount method [windows Media Format],IWMHeaderInfo interface, GetMarkerCount method [windows Media Format],IWMHeaderInfo2 interface, GetMarkerCount method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],GetMarkerCount method, IWMHeaderInfo.GetMarkerCount, IWMHeaderInfo2 interface [windows Media Format],GetMarkerCount method, IWMHeaderInfo2::GetMarkerCount, IWMHeaderInfo3 interface [windows Media Format],GetMarkerCount method, IWMHeaderInfo3::GetMarkerCount, IWMHeaderInfo::GetMarkerCount, IWMHeaderInfoGetMarkerCount, wmformat.iwmheaderinfo_getmarkercount, wmsdkidl/IWMHeaderInfo2::GetMarkerCount, wmsdkidl/IWMHeaderInfo3::GetMarkerCount, wmsdkidl/IWMHeaderInfo::GetMarkerCount
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMHeaderInfo.GetMarkerCount
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: FD356AA9-F4BC-4864-8A9F-994EB527E123
 ms.date: 12/05/2018
 ms.keywords: GetSpatialAudioMetadataItems, GetSpatialAudioMetadataItems method [Core Audio], GetSpatialAudioMetadataItems method [Core Audio],ISpatialAudioObjectForMetadataItems interface, ISpatialAudioObjectForMetadataItems interface [Core Audio],GetSpatialAudioMetadataItems method, ISpatialAudioObjectForMetadataItems.GetSpatialAudioMetadataItems, ISpatialAudioObjectForMetadataItems::GetSpatialAudioMetadataItems, coreaudio.ispatialaudioobjectformetadataitems_getspatialaudiometadataitems, spatialaudiometadata/ISpatialAudioObjectForMetadataItems::GetSpatialAudioMetadataItems
-ms.topic: method
 f1_keywords:
 - spatialaudiometadata/ISpatialAudioObjectForMetadataItems.GetSpatialAudioMetadataItems
 dev_langs:

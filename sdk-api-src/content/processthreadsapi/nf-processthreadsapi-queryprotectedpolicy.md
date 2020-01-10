@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: A9B37117-DE6A-426C-B554-2178247FD4C8
 ms.date: 12/05/2018
 ms.keywords: QueryProtectedPolicy, QueryProtectedPolicy function, base.getprotectedpolicy, base.queryprotectedpolicy, processthreadsapi/QueryProtectedPolicy
-ms.topic: function
 f1_keywords:
 - processthreadsapi/QueryProtectedPolicy
 dev_langs:

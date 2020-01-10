@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 12d4f0f4-9a6d-4782-b5ae-4add6608782a
 ms.date: 12/05/2018
 ms.keywords: IMFWorkQueueServicesEx, IMFWorkQueueServicesEx interface [Media Foundation], IMFWorkQueueServicesEx interface [Media Foundation],described, mf.imfworkqueueservicesex, mfidl/IMFWorkQueueServicesEx
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFWorkQueueServicesEx
 dev_langs:

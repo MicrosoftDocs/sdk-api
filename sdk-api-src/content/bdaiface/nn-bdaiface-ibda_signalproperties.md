@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: fe88b628-7959-4d2f-981f-7de9126146f6
 ms.date: 12/05/2018
 ms.keywords: IBDA_SignalProperties, IBDA_SignalProperties interface [Microsoft TV Technologies], IBDA_SignalProperties interface [Microsoft TV Technologies],described, IBDA_SignalPropertiesInterface, bdaiface/IBDA_SignalProperties, mstv.ibda_signalproperties
-ms.topic: interface
 f1_keywords:
 - bdaiface/IBDA_SignalProperties
 dev_langs:

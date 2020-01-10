@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: de12c547-90a8-48c5-911a-3b0c91001038
 ms.date: 12/05/2018
 ms.keywords: 20955c0b-492f-da0d-78a5-77ffb3621389, GetMovInstructionCount, GetMovInstructionCount method [Direct3D 11], GetMovInstructionCount method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetMovInstructionCount method, ID3D11ShaderReflection.GetMovInstructionCount, ID3D11ShaderReflection::GetMovInstructionCount, d3d11shader/ID3D11ShaderReflection::GetMovInstructionCount, direct3d11.id3d11shaderreflection_getmovinstructioncount
-ms.topic: method
 f1_keywords:
 - d3d11shader/ID3D11ShaderReflection.GetMovInstructionCount
 dev_langs:

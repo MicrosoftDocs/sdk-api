@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 7f999959-9b22-4491-ae2b-a2674d821110
 ms.date: 12/05/2018
 ms.keywords: GetOverlappedResult, GetOverlappedResult function, _win32_getoverlappedresult, base.getoverlappedresult, ioapiset/GetOverlappedResult, winbase/GetOverlappedResult
-ms.topic: function
 f1_keywords:
 - ioapiset/GetOverlappedResult
 dev_langs:

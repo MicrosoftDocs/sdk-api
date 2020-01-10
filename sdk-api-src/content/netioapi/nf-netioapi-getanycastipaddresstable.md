@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 4eccae59-00be-4f9c-bb62-a507d7dad2e0
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetAnycastIpAddressTable, GetAnycastIpAddressTable function [IP Helper], iphlp.getanycastipaddresstable, netioapi/GetAnycastIpAddressTable
-ms.topic: function
 f1_keywords:
 - netioapi/GetAnycastIpAddressTable
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: E2FEC865-221E-41B5-8271-32A53D60619E
 ms.date: 12/05/2018
 ms.keywords: CancelObjectCreation, CancelObjectCreation method [Media Foundation], CancelObjectCreation method [Media Foundation],IMFMediaEngineExtension interface, IMFMediaEngineExtension interface [Media Foundation],CancelObjectCreation method, IMFMediaEngineExtension.CancelObjectCreation, IMFMediaEngineExtension::CancelObjectCreation, mf.imfmediaengineextension_cancelobjectcreation, mfmediaengine/IMFMediaEngineExtension::CancelObjectCreation
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngineExtension.CancelObjectCreation
 dev_langs:

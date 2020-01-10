@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 30b6dc13-b523-4c42-aa35-c86b3ebe04c3
 ms.date: 12/05/2018
 ms.keywords: _win32_acmMetrics, acmMetrics, acmMetrics function [Windows Multimedia], msacm/acmMetrics, multimedia.acmmetrics
-ms.topic: function
 f1_keywords:
 - msacm/acmMetrics
 dev_langs:

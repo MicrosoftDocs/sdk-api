@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: c8d4ac70-743b-42b1-940c-d3d37a6174bc
 ms.date: 12/05/2018
 ms.keywords: '*PSECPKG_TARGETINFO, PSECPKG_TARGETINFO, PSECPKG_TARGETINFO structure pointer [Security], SECPKG_TARGETINFO, SECPKG_TARGETINFO structure [Security], ntsecpkg/PSECPKG_TARGETINFO, ntsecpkg/SECPKG_TARGETINFO, security.secpkg_targetinfo'
-ms.topic: struct
 f1_keywords:
 - ntsecpkg/SECPKG_TARGETINFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 95d59004-b182-42b8-b05e-920bfc5ea6a0
 ms.date: 12/05/2018
 ms.keywords: ISBE2FileScan, ISBE2FileScan interface [Microsoft TV Technologies], ISBE2FileScan interface [Microsoft TV Technologies],described, mstv.isbe2filescan, sbe/ISBE2FileScan
-ms.topic: interface
 f1_keywords:
 - sbe/ISBE2FileScan
 dev_langs:

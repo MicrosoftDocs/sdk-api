@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: b0044783-552d-4492-bb1d-337227dd3e16
 ms.date: 12/05/2018
 ms.keywords: MsiExtractPatchXMLData, MsiExtractPatchXMLData function, MsiExtractPatchXMLDataA, MsiExtractPatchXMLDataW, msi/MsiExtractPatchXMLData, msi/MsiExtractPatchXMLDataA, msi/MsiExtractPatchXMLDataW, setup.msiextractpatchxmldata
-ms.topic: function
 f1_keywords:
 - msi/MsiExtractPatchXMLData
 dev_langs:

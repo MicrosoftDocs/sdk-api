@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 1a4fc611-4923-48ad-bc92-c3686d855c13
 ms.date: 12/05/2018
 ms.keywords: AppendByteStream, AppendByteStream method [Media Foundation], AppendByteStream method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],AppendByteStream method, IMFSourceBuffer.AppendByteStream, IMFSourceBuffer::AppendByteStream, mf.imfsourcebuffer_appendbytestream, mfmediaengine/IMFSourceBuffer::AppendByteStream
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFSourceBuffer.AppendByteStream
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 3358e219-fde9-4b60-bf75-c6d8c42a51ea
 ms.date: 12/05/2018
 ms.keywords: ITToneTerminalEvent interface [TAPI 2.2],get_Terminal method, ITToneTerminalEvent.get_Terminal, ITToneTerminalEvent::get_Terminal, _tapi3_ittoneterminalevent_get_terminal, get_Terminal, get_Terminal method [TAPI 2.2], get_Terminal method [TAPI 2.2],ITToneTerminalEvent interface, tapi3.ittoneterminalevent_get_terminal, tapi3if/ITToneTerminalEvent::get_Terminal
-ms.topic: method
 f1_keywords:
 - tapi3if/ITToneTerminalEvent.get_Terminal
 dev_langs:

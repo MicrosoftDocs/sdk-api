@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: dc60db7f-ae49-48dd-bd8a-62899e5ca7a3
 ms.date: 12/05/2018
 ms.keywords: IDvbLogicalChannel2Descriptor, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies], IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbLogicalChannel2Descriptor, mstv.idvblogicalchannel2descriptor
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IDvbLogicalChannel2Descriptor
 dev_langs:

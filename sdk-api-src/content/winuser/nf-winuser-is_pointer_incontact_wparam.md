@@ -7,7 +7,6 @@ tech.root: InputMsg
 ms.assetid: 31f7dde6-1486-4050-b9b6-ffc2ed9912a8
 ms.date: 12/05/2018
 ms.keywords: IS_POINTER_INCONTACT_WPARAM, IS_POINTER_INCONTACT_WPARAM	, IS_POINTER_INCONTACT_WPARAM macro [Input Messages and Notifications], inputmsg.is_pointer_incontact_wparam, winuser/IS_POINTER_INCONTACT_WPARAM
-ms.topic: macro
 f1_keywords:
 - winuser/IS_POINTER_INCONTACT_WPARAM
 dev_langs:

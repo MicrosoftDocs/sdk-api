@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: f7ad639a-4094-4621-9add-b89958c0bda4
 ms.date: 12/05/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetIdleWait method, IScheduledWorkItem.SetIdleWait, IScheduledWorkItem::SetIdleWait, SetIdleWait, SetIdleWait method [Task Scheduler], SetIdleWait method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setidlewait, mstask/IScheduledWorkItem::SetIdleWait, taskschd.ischeduledworkitem_setidlewait
-ms.topic: method
 f1_keywords:
 - mstask/IScheduledWorkItem.SetIdleWait
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: bb4eedc0-9ef5-46f2-83e5-340b77b3d876
 ms.date: 12/05/2018
 ms.keywords: PSGetNamedPropertyFromPropertyStorage, PSGetNamedPropertyFromPropertyStorage function [Windows Properties], _shell_PSGetNamedPropertyFromPropertyStorage, properties.PSGetNamedPropertyFromPropertyStorage, propsys/PSGetNamedPropertyFromPropertyStorage, shell.PSGetNamedPropertyFromPropertyStorage
-ms.topic: function
 f1_keywords:
 - propsys/PSGetNamedPropertyFromPropertyStorage
 dev_langs:

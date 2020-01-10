@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: fe92fef3-596f-416c-b613-1d93737c298e
 ms.date: 12/05/2018
 ms.keywords: IADsPrintQueueOperations interface [ADSI],PrintJobs method, IADsPrintQueueOperations.PrintJobs, IADsPrintQueueOperations::PrintJobs, PrintJobs, PrintJobs method [ADSI], PrintJobs method [ADSI],IADsPrintQueueOperations interface, _ds_iadsprintqueueoperations_printjobs, adsi.iadsprintqueueoperations__printjobs, adsi.iadsprintqueueoperations_printjobs, iads/IADsPrintQueueOperations::PrintJobs
-ms.topic: method
 f1_keywords:
 - iads/IADsPrintQueueOperations.PrintJobs
 dev_langs:

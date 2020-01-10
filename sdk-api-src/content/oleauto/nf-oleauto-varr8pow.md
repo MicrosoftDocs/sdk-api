@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 45ad59e7-f829-43f0-85f8-9cabb2a36ddf
 ms.date: 12/05/2018
 ms.keywords: VarR8Pow, VarR8Pow function [Automation], _oa96_VarR8Pow, automat.varr8pow, oleauto/VarR8Pow
-ms.topic: function
 f1_keywords:
 - oleauto/VarR8Pow
 dev_langs:

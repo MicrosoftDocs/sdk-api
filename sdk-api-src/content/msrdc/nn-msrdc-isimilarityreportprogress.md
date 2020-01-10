@@ -7,7 +7,6 @@ tech.root: rdc
 ms.assetid: 813bda93-08d5-456c-9bde-ce6dd53fb8bf
 ms.date: 12/05/2018
 ms.keywords: ISimilarityReportProgress, ISimilarityReportProgress interface [Remote Differential Compression], ISimilarityReportProgress interface [Remote Differential Compression],described, fs.isimilarityreportprogress, msrdc/ISimilarityReportProgress, rdc.isimilarityreportprogress
-ms.topic: interface
 f1_keywords:
 - msrdc/ISimilarityReportProgress
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: fd60ae42-5b3f-4482-b785-541f7379ab3e
 ms.date: 12/05/2018
 ms.keywords: WS_FREE_LISTENER_CALLBACK, WS_FREE_LISTENER_CALLBACK callback, WS_FREE_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_FREE_LISTENER_CALLBACK, wsw.ws_free_listener_callback
-ms.topic: callback
 f1_keywords:
 - webservices/WS_FREE_LISTENER_CALLBACK
 dev_langs:

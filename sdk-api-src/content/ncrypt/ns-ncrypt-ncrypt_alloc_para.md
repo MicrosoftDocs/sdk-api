@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 4F546F51-E4DE-4703-B1D1-F84165C3C31B
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_ALLOC_PARA, NCRYPT_ALLOC_PARA structure [Security], PNCRYPT_ALLOC_PARA, PNCRYPT_ALLOC_PARA structure pointer [Security], ncrypt/NCRYPT_ALLOC_PARA, ncrypt/PNCRYPT_ALLOC_PARA, security.ncrypt_alloc_para
-ms.topic: struct
 f1_keywords:
 - ncrypt/NCRYPT_ALLOC_PARA
 dev_langs:

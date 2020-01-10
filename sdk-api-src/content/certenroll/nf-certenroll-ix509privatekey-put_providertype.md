@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 5f4d2e29-8c02-4d9c-a3a6-15c222650c3e
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],ProviderType property, IX509PrivateKey.ProviderType, IX509PrivateKey.put_ProviderType, IX509PrivateKey::ProviderType, IX509PrivateKey::get_ProviderType, IX509PrivateKey::put_ProviderType, ProviderType property [Security], ProviderType property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::ProviderType, certenroll/IX509PrivateKey::get_ProviderType, certenroll/IX509PrivateKey::put_ProviderType, put_ProviderType, security.ix509privatekey_providertype
-ms.topic: method
 f1_keywords:
 - certenroll/IX509PrivateKey.ProviderType
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMLSS
 ms.assetid: 4195fee6-5a4a-4ed0-b433-99932d28579f
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],put_internetMediaSharingSecurityGroup method, IWindowsMediaLibrarySharingServices.put_internetMediaSharingSecurityGroup, IWindowsMediaLibrarySharingServices::put_internetMediaSharingSecurityGroup, put_internetMediaSharingSecurityGroup, put_internetMediaSharingSecurityGroup method [Windows Media Library Sharing Services], put_internetMediaSharingSecurityGroup method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSput_internetMediaSharingSecurityGroup, wmlss/IWindowsMediaLibrarySharingServices::put_internetMediaSharingSecurityGroup
-ms.topic: method
 f1_keywords:
 - wmlss/IWindowsMediaLibrarySharingServices.put_internetMediaSharingSecurityGroup
 dev_langs:

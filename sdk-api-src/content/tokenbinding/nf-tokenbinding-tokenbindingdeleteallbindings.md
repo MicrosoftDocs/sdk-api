@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 0446F62F-96B4-4F4B-9789-0CD12173E601
 ms.date: 12/05/2018
 ms.keywords: TokenBindingDeleteAllBindings, TokenBindingDeleteAllBindings function [Security], security.tokenbindingdeleteallbindings, tokenbinding/TokenBindingDeleteAllBindings
-ms.topic: function
 f1_keywords:
 - tokenbinding/TokenBindingDeleteAllBindings
 dev_langs:

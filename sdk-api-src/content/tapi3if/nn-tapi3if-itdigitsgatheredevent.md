@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 2d710bea-a0fd-492b-81a3-03b741685c91
 ms.date: 12/05/2018
 ms.keywords: ITDigitsGatheredEvent, ITDigitsGatheredEvent interface [TAPI 2.2], ITDigitsGatheredEvent interface [TAPI 2.2],described, _tapi3_itdigitsgatheredevent, tapi3.itdigitsgatheredevent, tapi3if/ITDigitsGatheredEvent
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITDigitsGatheredEvent
 dev_langs:

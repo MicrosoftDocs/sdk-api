@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 987ec4cd-345c-43b9-b2ca-e7746afc2c59
 ms.date: 12/05/2018
 ms.keywords: VarCyFromI2, VarCyFromI2 function [Automation], _oa96_VarCyFromI2, automat.varcyfromi2, oleauto/VarCyFromI2
-ms.topic: function
 f1_keywords:
 - oleauto/VarCyFromI2
 dev_langs:

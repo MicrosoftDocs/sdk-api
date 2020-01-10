@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 6CB62E42-16FD-453F-9566-B4DFCDAC7368
 ms.date: 12/05/2018
 ms.keywords: ITpmVirtualSmartCardManagerStatusCallback, ITpmVirtualSmartCardManagerStatusCallback interface [Security], ITpmVirtualSmartCardManagerStatusCallback interface [Security],described, security.itpmvirtualsmartcardmanagerstatuscallback, tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback
-ms.topic: interface
 f1_keywords:
 - tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback
 dev_langs:

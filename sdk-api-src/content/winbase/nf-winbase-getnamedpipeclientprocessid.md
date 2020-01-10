@@ -7,7 +7,6 @@ tech.root: ipc
 ms.assetid: 7001eb89-3d91-44e3-b245-b19e8ab5f9fe
 ms.date: 12/05/2018
 ms.keywords: GetNamedPipeClientProcessId, GetNamedPipeClientProcessId function, base.getnamedpipeclientprocessid, winbase/GetNamedPipeClientProcessId
-ms.topic: function
 f1_keywords:
 - winbase/GetNamedPipeClientProcessId
 dev_langs:

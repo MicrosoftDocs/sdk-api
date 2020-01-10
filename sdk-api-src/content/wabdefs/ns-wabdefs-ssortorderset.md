@@ -7,7 +7,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\ssortorderset.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPSSortOrderSet, LPSSortOrderSet, LPSSortOrderSet structure pointer [Windows Address Book], SSortOrderSet, SSortOrderSet structure [Windows Address Book], _wab_SSortOrderSet, wab._wab_SSortOrderSet, wabdefs/LPSSortOrderSet, wabdefs/SSortOrderSet'
-ms.topic: struct
 f1_keywords:
 - wabdefs/SSortOrderSet
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 569e64c5-1b7e-49ef-abaa-be9b2f85269b
 ms.date: 12/05/2018
 ms.keywords: ?GetStructtm@WBEMTime@@QBEHPAUtm@@@Z, ?GetStructtm@WBEMTime@@QEBAHPEAUtm@@@Z, GetStructtm, GetStructtm method [Windows Management Instrumentation], GetStructtm method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetStructtm method, WBEMTime.GetStructtm, WBEMTime::GetStructtm, _hmm_wbemtime_getstructtm, wbemtime/WBEMTime::GetStructtm, wmi.wbemtime_getstructtm
-ms.topic: method
 f1_keywords:
 - wbemtime/WBEMTime.GetStructtm
 dev_langs:

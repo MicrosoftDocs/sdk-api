@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneTransform(XMVECTOR,XMMATRIX)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneTransform, XMPlaneTransform, XMPlaneTransform method [DirectX Math Support APIs], dxmath.xmplanetransform
-ms.topic: function
 f1_keywords:
 - directxmath/XMPlaneTransform
 dev_langs:

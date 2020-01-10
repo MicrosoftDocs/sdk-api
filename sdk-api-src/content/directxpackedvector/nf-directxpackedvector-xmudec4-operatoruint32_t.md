@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUDEC4.operator uint32_t
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMUDEC4.operator uint32_t, DirectX::PackedVector::XMUDEC4::operator uint32_t, XMUDEC4 structure [DirectX Math Support APIs],operator uint32_t method, XMUDEC4.operator uint32_t, XMUDEC4::operator uint32_t, dxmath.xmudec4_operator_uint32_t, operator uint32_t, operator uint32_t method [DirectX Math Support APIs], operator uint32_t method [DirectX Math Support APIs],XMUDEC4 structure
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMUDEC4.operator uint32_t
 dev_langs:

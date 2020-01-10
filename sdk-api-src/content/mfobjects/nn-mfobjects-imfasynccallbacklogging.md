@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 8b4de920-8e82-4e50-b801-82842da8a6ae
 ms.date: 12/05/2018
 ms.keywords: IMFAsyncCallbackLogging, IMFAsyncCallbackLogging interface [Media Foundation], IMFAsyncCallbackLogging interface [Media Foundation],described, mf.imfasynccallbacklogging, mfobjects/IMFAsyncCallbackLogging
-ms.topic: interface
 f1_keywords:
 - mfobjects/IMFAsyncCallbackLogging
 dev_langs:

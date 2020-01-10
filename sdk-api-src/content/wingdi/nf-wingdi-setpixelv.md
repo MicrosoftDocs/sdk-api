@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 638f0ffd-3771-4390-b335-0517be5312fd
 ms.date: 12/05/2018
 ms.keywords: SetPixelV, SetPixelV function [Windows GDI], _win32_SetPixelV, gdi.setpixelv, wingdi/SetPixelV
-ms.topic: function
 f1_keywords:
 - wingdi/SetPixelV
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 4bba1e7a-3c1f-4f69-b4ab-68a9cf3b97d0
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],setDeleted method, IWMPMediaCollection.setDeleted, IWMPMediaCollection::setDeleted, IWMPMediaCollectionsetDeleted, setDeleted, setDeleted method [Windows Media Player], setDeleted method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_setdeleted, wmp/IWMPMediaCollection::setDeleted
-ms.topic: method
 f1_keywords:
 - wmp/IWMPMediaCollection.setDeleted
 dev_langs:

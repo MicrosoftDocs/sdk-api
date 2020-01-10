@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getextendedui.htm
 ms.date: 12/05/2018
 ms.keywords: ComboBox_GetExtendedUI, ComboBox_GetExtendedUI macro [Windows Controls], _win32_ComboBox_GetExtendedUI, _win32_ComboBox_GetExtendedUI_cpp, controls.ComboBox_GetExtendedUI, controls._win32_ComboBox_GetExtendedUI, windowsx/ComboBox_GetExtendedUI
-ms.topic: macro
 f1_keywords:
 - windowsx/ComboBox_GetExtendedUI
 dev_langs:

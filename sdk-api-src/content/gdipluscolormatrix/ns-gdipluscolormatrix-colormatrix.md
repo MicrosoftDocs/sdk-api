@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\colormatrix.htm
 ms.date: 12/05/2018
 ms.keywords: ColorMatrix, ColorMatrix structure [GDI+], _gdiplus_STRUC_ColorMatrix, gdiplus._gdiplus_STRUC_ColorMatrix, gdipluscolormatrix/ColorMatrix
-ms.topic: struct
 f1_keywords:
 - gdipluscolormatrix/ColorMatrix
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 6e0ceabb-4d67-46c1-9e7d-e00d5ad82280
 ms.date: 12/05/2018
 ms.keywords: IISDB_CDT, IISDB_CDT interface [Microsoft TV Technologies], IISDB_CDT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_CDT, mstv.iisdb_cdt
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IISDB_CDT
 dev_langs:

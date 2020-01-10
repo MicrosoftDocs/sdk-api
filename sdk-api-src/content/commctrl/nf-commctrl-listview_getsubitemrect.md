@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getsubitemrect.htm
 ms.date: 12/05/2018
 ms.keywords: LVIR_BOUNDS, LVIR_ICON, LVIR_LABEL, ListView_GetSubItemRect, ListView_GetSubItemRect macro [Windows Controls], _win32_ListView_GetSubItemRect, _win32_ListView_GetSubItemRect_cpp, commctrl/ListView_GetSubItemRect, controls.ListView_GetSubItemRect, controls._win32_ListView_GetSubItemRect
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_GetSubItemRect
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 1459d5b2-2c12-48df-ae01-c713c86f1c2e
 ms.date: 12/05/2018
 ms.keywords: CertSrvRestoreRegisterComplete, CertSrvRestoreRegisterComplete function [Security], _certsrv_certsrvrestoreregistercomplete, certbcli/CertSrvRestoreRegisterComplete, security.certsrvrestoreregistercomplete
-ms.topic: function
 f1_keywords:
 - certbcli/CertSrvRestoreRegisterComplete
 dev_langs:

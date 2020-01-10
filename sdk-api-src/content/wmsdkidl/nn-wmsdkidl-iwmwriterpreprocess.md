@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 06803639-3f21-4003-a460-16a0b5cc6d6f
 ms.date: 12/05/2018
 ms.keywords: IWMWriterPreprocess, IWMWriterPreprocess interface [windows Media Format], IWMWriterPreprocess interface [windows Media Format],described, IWMWriterPreprocessInterface, wmformat.iwmwriterpreprocess, wmsdkidl/IWMWriterPreprocess
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMWriterPreprocess
 dev_langs:

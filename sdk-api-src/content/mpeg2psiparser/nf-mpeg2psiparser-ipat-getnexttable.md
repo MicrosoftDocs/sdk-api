@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 24cc3c97-60f6-440d-80fd-da7516698a2e
 ms.date: 12/05/2018
 ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],GetNextTable method, IPAT.GetNextTable, IPAT::GetNextTable, IPATGetNextTable, mpeg2psiparser/IPAT::GetNextTable, mstv.ipat_getnexttable
-ms.topic: method
 f1_keywords:
 - mpeg2psiparser/IPAT.GetNextTable
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: b07cfed9-21c4-4459-855a-eaf4d1d34ab8
 ms.date: 12/05/2018
 ms.keywords: EndPaint, EndPaint function [Windows GDI], _win32_EndPaint, gdi.endpaint, winuser/EndPaint
-ms.topic: function
 f1_keywords:
 - winuser/EndPaint
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 14d69520-3d0c-42ee-8986-9d83b5cff62e
 ms.date: 12/05/2018
 ms.keywords: GetOutputDataPointer, GetOutputDataPointer method [Remote Desktop Services], GetOutputDataPointer method [Remote Desktop Services],IAudioOutputEndpointRT interface, IAudioOutputEndpointRT interface [Remote Desktop Services],GetOutputDataPointer method, IAudioOutputEndpointRT.GetOutputDataPointer, IAudioOutputEndpointRT::GetOutputDataPointer, audioengineendpoint/IAudioOutputEndpointRT::GetOutputDataPointer, termserv.iaudiooutputendpointrt_getoutputdatapointer
-ms.topic: method
 f1_keywords:
 - audioengineendpoint/IAudioOutputEndpointRT.GetOutputDataPointer
 dev_langs:

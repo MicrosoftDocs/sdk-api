@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6a5ee6ed-2baa-45d6-a874-5df4e5c56841
 ms.date: 12/05/2018
 ms.keywords: ButtonActivate, ButtonActivate method [DirectShow], ButtonActivate method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],ButtonActivate method, IDvdControl.ButtonActivate, IDvdControl::ButtonActivate, IDvdControlButtonActivate, dshow.idvdcontrol_buttonactivate, strmif/IDvdControl::ButtonActivate
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.ButtonActivate
 dev_langs:

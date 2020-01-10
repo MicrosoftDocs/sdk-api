@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 023f8935-0382-404e-b1bf-737824cf0f34
 ms.date: 12/05/2018
 ms.keywords: IEnumFullIDList interface [Windows Shell],Next method, IEnumFullIDList.Next, IEnumFullIDList::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumFullIDList interface, _shell_IEnumFullIDList_Next, shell.IEnumFullIDList_Next, shobjidl_core/IEnumFullIDList::Next
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IEnumFullIDList.Next
 dev_langs:

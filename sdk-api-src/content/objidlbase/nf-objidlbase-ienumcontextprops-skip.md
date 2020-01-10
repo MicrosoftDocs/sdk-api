@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 22c50b48-a6e2-4153-9604-57f07512d4ce
 ms.date: 12/05/2018
 ms.keywords: IEnumContextProps interface [COM],Skip method, IEnumContextProps.Skip, IEnumContextProps::Skip, Skip, Skip method [COM], Skip method [COM],IEnumContextProps interface, _com_ienumcontextprops_skip, com.ienumcontextprops_skip, objidlbase/IEnumContextProps::Skip
-ms.topic: method
 f1_keywords:
 - objidlbase/IEnumContextProps.Skip
 dev_langs:

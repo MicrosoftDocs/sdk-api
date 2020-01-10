@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 5770dca5-cf71-4211-ba9f-0fe7a3bbb614
 ms.date: 12/05/2018
 ms.keywords: ITACDGroupEvent, ITACDGroupEvent interface [TAPI 2.2], ITACDGroupEvent interface [TAPI 2.2],described, _tapi3_itacdgroupevent, tapi3.itacdgroupevent, tapi3cc/ITACDGroupEvent
-ms.topic: interface
 f1_keywords:
 - tapi3cc/ITACDGroupEvent
 dev_langs:

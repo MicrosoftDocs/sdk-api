@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 39597249-29d5-44a0-9954-01b9b6a62977
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [PLA], Add method [PLA],IFolderActionCollection interface, IFolderActionCollection interface [PLA],Add method, IFolderActionCollection.Add, IFolderActionCollection::Add, base.ifolderactioncollection_add, pla.ifolderactioncollection_add, pla/IFolderActionCollection::Add
-ms.topic: method
 f1_keywords:
 - pla/IFolderActionCollection.Add
 dev_langs:

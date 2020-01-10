@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 0C6D6217-3A97-40B5-A7FB-B9D49C5FBC7C
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgCredentials_SSIProviderW, PSecPkgCredentials_SSIProvider, PSecPkgCredentials_SSIProvider structure pointer [Security], SecPkgCredentials_SSIProvider, SecPkgCredentials_SSIProvider structure [Security], SecPkgCredentials_SSIProviderA, SecPkgCredentials_SSIProviderW, security.secpkgcredentials_ssiprovider, sspi/PSecPkgCredentials_SSIProvider, sspi/SecPkgCredentials_SSIProvider, sspi/SecPkgCredentials_SSIProviderA, sspi/SecPkgCredentials_SSIProviderW'
-ms.topic: struct
 f1_keywords:
 - sspi/SecPkgCredentials_SSIProvider
 dev_langs:

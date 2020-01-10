@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 8d3f021d-25ac-44de-9bbc-cc558bc47f91
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_IP_RANGE, DHCP_IP_RANGE, DHCP_IP_RANGE structure [DHCP], LPDHCP_IP_RANGE, LPDHCP_IP_RANGE structure pointer [DHCP], dhcp.dhcp_ip_range, dhcpsapi/LPDHCP_IP_RANGE, dhcpsapi/_DHCP_IP_RANGE'
-ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_IP_RANGE
 dev_langs:

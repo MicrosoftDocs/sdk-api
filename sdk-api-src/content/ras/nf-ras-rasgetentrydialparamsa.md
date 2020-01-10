@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: c6752f95-c7e8-44d9-9dbd-9f03cc4778fa
 ms.date: 12/05/2018
 ms.keywords: RasGetEntryDialParams, RasGetEntryDialParams function [RAS], RasGetEntryDialParamsA, RasGetEntryDialParamsW, _ras_rasgetentrydialparams, ras/RasGetEntryDialParams, ras/RasGetEntryDialParamsA, ras/RasGetEntryDialParamsW, rras.rasgetentrydialparams
-ms.topic: function
 f1_keywords:
 - ras/RasGetEntryDialParams
 dev_langs:

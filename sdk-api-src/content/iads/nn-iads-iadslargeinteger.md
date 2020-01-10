@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: d49e3339-8488-44c1-9d60-706492e65abc
 ms.date: 12/05/2018
 ms.keywords: IADsLargeInteger, IADsLargeInteger interface [ADSI], IADsLargeInteger interface [ADSI],described, _ds_iadslargeinteger, adsi.iadslargeinteger, iads/IADsLargeInteger
-ms.topic: interface
 f1_keywords:
 - iads/IADsLargeInteger
 dev_langs:

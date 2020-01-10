@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: efc0d175-2c6d-4608-b385-1623a9e0375c
 ms.date: 12/05/2018
 ms.keywords: GetInterfaceInfo, GetInterfaceInfo function [IP Helper], _iphlp_getinterfaceinfo, iphlp.getinterfaceinfo, iphlpapi/GetInterfaceInfo
-ms.topic: function
 f1_keywords:
 - iphlpapi/GetInterfaceInfo
 dev_langs:

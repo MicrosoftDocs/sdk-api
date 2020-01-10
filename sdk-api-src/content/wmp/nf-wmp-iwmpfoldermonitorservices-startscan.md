@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: c54c5b7e-3abf-4006-a811-c80b06e6def9
 ms.date: 12/05/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],startScan method, IWMPFolderMonitorServices.startScan, IWMPFolderMonitorServices::startScan, IWMPFolderMonitorServicesstartScan, startScan, startScan method [Windows Media Player], startScan method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_startscan, wmp/IWMPFolderMonitorServices::startScan
-ms.topic: method
 f1_keywords:
 - wmp/IWMPFolderMonitorServices.startScan
 dev_langs:

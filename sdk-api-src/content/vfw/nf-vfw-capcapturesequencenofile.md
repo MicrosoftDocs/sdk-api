@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 40af5582-f801-4437-b782-8d03ffffcb82
 ms.date: 12/05/2018
 ms.keywords: _win32_capCaptureSequenceNoFile, capCaptureSequenceNoFile, capCaptureSequenceNoFile macro [Windows Multimedia], multimedia.capcapturesequencenofile, vfw/capCaptureSequenceNoFile
-ms.topic: macro
 f1_keywords:
 - vfw/capCaptureSequenceNoFile
 dev_langs:

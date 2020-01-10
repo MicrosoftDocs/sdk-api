@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: b8daa90a-f184-40cb-a62b-b1d122eb7781
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerCancelAsyncOperation, PeerDistServerCancelAsyncOperation function [Peer Networking], p2p.peerdistservercancelasyncoperation, peerdist/PeerDistServerCancelAsyncOperation
-ms.topic: function
 f1_keywords:
 - peerdist/PeerDistServerCancelAsyncOperation
 dev_langs:

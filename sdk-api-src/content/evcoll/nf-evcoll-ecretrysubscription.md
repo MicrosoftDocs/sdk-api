@@ -7,7 +7,6 @@ tech.root: WEC
 ms.assetid: 31a9148d-8026-4383-9f31-04b75b4a278d
 ms.date: 12/05/2018
 ms.keywords: EcRetrySubscription, EcRetrySubscription function, evcoll/EcRetrySubscription, wec.ecretrysubscription, wes.ecretrysubscription
-ms.topic: function
 f1_keywords:
 - evcoll/EcRetrySubscription
 dev_langs:

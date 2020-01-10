@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 1a10c5f0-0b7f-401f-82ff-0d7a93114715
 ms.date: 12/05/2018
 ms.keywords: '*PQOS_PACKET_PRIORITY, PQOS_PACKET_PRIORITY, PQOS_PACKET_PRIORITY structure pointer [QOS], QOS_PACKET_PRIORITY, QOS_PACKET_PRIORITY structure [QOS], qos.qos_packet_priority, qos2/PQOS_PACKET_PRIORITY, qos2/QOS_PACKET_PRIORITY'
-ms.topic: struct
 f1_keywords:
 - qos2/QOS_PACKET_PRIORITY
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 750e7d98-196f-4bf2-864b-50b3bef6f6ad
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIVirtualChannelManager, IRDPSRAPIVirtualChannelManager interface [RDP], IRDPSRAPIVirtualChannelManager interface [RDP],described, rdp.irdpsrapivirtualchannelmanager, rdpencomapi/IRDPSRAPIVirtualChannelManager
-ms.topic: interface
 f1_keywords:
 - rdpencomapi/IRDPSRAPIVirtualChannelManager
 dev_langs:

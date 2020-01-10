@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 54ba8ca6-712f-46a1-9ed1-2b20ef8539ba
 ms.date: 12/05/2018
 ms.keywords: IIsdbComponentGroupDescriptor, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies], IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbComponentGroupDescriptor, mstv.iisdbcomponentgroupdescriptor
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IIsdbComponentGroupDescriptor
 dev_langs:

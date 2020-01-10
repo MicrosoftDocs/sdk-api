@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 592f48b4-5826-449f-b5cc-b0990679fe9f
 ms.date: 12/05/2018
 ms.keywords: WSCInstallProviderAndChains, WSCInstallProviderAndChains function [Winsock], XP1_IFS_HANDLES, winsock.wscinstallproviderandchains, ws2spi/WSCInstallProviderAndChains
-ms.topic: function
 f1_keywords:
 - ws2spi/WSCInstallProviderAndChains
 dev_langs:

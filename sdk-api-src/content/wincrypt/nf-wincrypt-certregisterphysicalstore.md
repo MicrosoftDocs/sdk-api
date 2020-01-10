@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: e301c76d-cacd-441a-b925-754b07e4bfa9
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_CREATE_NEW_FLAG, CERT_SYSTEM_STORE_RELOCATE_FLAG, CertRegisterPhysicalStore, CertRegisterPhysicalStore function [Security], _crypto2_certregisterphysicalstore, security.certregisterphysicalstore, wincrypt/CertRegisterPhysicalStore
-ms.topic: function
 f1_keywords:
 - wincrypt/CertRegisterPhysicalStore
 dev_langs:

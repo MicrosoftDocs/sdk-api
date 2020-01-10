@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: be257075-84c9-40e2-af3f-75dccd97bab1
 ms.date: 12/05/2018
 ms.keywords: UIntSub, UIntSub function [Windows Shell], _shell_UIntSub, intsafe/UIntSub, shell.UIntSub
-ms.topic: function
 f1_keywords:
 - intsafe/UIntSub
 dev_langs:

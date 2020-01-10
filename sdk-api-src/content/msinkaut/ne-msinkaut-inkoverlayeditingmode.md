@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: de25636c-b8ca-47e4-ae16-182b98ede8f6
 ms.date: 12/05/2018
 ms.keywords: IOEM_Delete, IOEM_Ink, IOEM_Select, InkOverlayEditingMode, InkOverlayEditingMode enumeration [Tablet PC], de25636c-b8ca-47e4-ae16-182b98ede8f6, msinkaut/IOEM_Delete, msinkaut/IOEM_Ink, msinkaut/IOEM_Select, msinkaut/InkOverlayEditingMode, tablet.inkoverlayeditingmode
-ms.topic: enum
 f1_keywords:
 - msinkaut/InkOverlayEditingMode
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnections\imilbitmapeffectconnections.htm
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectConnections, IMILBitmapEffectConnections interface [WPF Bitmap Effects], IMILBitmapEffectConnections interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectconnections, mileffects/IMILBitmapEffectConnections, wibe._wibe_imilbitmapeffectconnections
-ms.topic: interface
 f1_keywords:
 - mileffects/IMILBitmapEffectConnections
 dev_langs:

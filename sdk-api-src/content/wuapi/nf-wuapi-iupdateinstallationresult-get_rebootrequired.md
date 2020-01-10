@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 8c4f7dd1-66f3-43b7-b084-55d64ca748c6
 ms.date: 12/05/2018
 ms.keywords: IUpdateInstallationResult interface [Windows Update Agent],RebootRequired property, IUpdateInstallationResult.RebootRequired, IUpdateInstallationResult.get_RebootRequired, IUpdateInstallationResult::RebootRequired, IUpdateInstallationResult::get_RebootRequired, RebootRequired property [Windows Update Agent], RebootRequired property [Windows Update Agent],IUpdateInstallationResult interface, get_RebootRequired, wua.iupdateinstallationresult_rebootrequired, wuapi/IUpdateInstallationResult::RebootRequired, wuapi/IUpdateInstallationResult::get_RebootRequired
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateInstallationResult.RebootRequired
 dev_langs:

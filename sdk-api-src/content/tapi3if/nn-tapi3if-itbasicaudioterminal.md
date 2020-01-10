@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 3e676a16-f3ce-433c-9941-8cdccdb01efd
 ms.date: 12/05/2018
 ms.keywords: ITBasicAudioTerminal, ITBasicAudioTerminal interface [TAPI 2.2], ITBasicAudioTerminal interface [TAPI 2.2],described, _tapi3_itbasicaudioterminal, tapi3.itbasicaudioterminal, tapi3if/ITBasicAudioTerminal
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITBasicAudioTerminal
 dev_langs:

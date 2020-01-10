@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: ccc0ac8b-e373-47a9-a362-64fd79a33d0c
 ms.date: 12/05/2018
 ms.keywords: RemoveFontResource, RemoveFontResource function [Windows GDI], RemoveFontResourceA, RemoveFontResourceW, _win32_RemoveFontResource, gdi.removefontresource, wingdi/RemoveFontResource, wingdi/RemoveFontResourceA, wingdi/RemoveFontResourceW
-ms.topic: function
 f1_keywords:
 - wingdi/RemoveFontResource
 dev_langs:

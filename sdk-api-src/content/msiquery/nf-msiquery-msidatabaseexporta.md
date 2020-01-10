@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: c20c168d-900e-496a-894c-5678f308cdbe
 ms.date: 12/05/2018
 ms.keywords: MsiDatabaseExport, MsiDatabaseExport function, MsiDatabaseExportA, MsiDatabaseExportW, _msi_msidatabaseexport, msiquery/MsiDatabaseExport, msiquery/MsiDatabaseExportA, msiquery/MsiDatabaseExportW, setup.msidatabaseexport
-ms.topic: function
 f1_keywords:
 - msiquery/MsiDatabaseExport
 dev_langs:

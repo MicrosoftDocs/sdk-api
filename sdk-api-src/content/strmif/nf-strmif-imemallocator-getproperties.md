@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d7b7153c-24c4-4508-925b-b5cfbc26badc
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [DirectShow], GetProperties method [DirectShow],IMemAllocator interface, IMemAllocator interface [DirectShow],GetProperties method, IMemAllocator.GetProperties, IMemAllocator::GetProperties, IMemAllocatorGetProperties, dshow.imemallocator_getproperties, strmif/IMemAllocator::GetProperties
-ms.topic: method
 f1_keywords:
 - strmif/IMemAllocator.GetProperties
 dev_langs:

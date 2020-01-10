@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\staticcontrols\staticcontrolreference\staticcontrolmacros\static_gettextlength.htm
 ms.date: 12/05/2018
 ms.keywords: Static_GetTextLength, Static_GetTextLength macro [Windows Controls], _win32_Static_GetTextLength, _win32_Static_GetTextLength_cpp, controls.Static_GetTextLength, controls._win32_Static_GetTextLength, windowsx/Static_GetTextLength
-ms.topic: macro
 f1_keywords:
 - windowsx/Static_GetTextLength
 dev_langs:

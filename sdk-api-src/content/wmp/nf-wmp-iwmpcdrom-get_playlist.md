@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: c726ac41-0662-4134-b187-035f941b9df9
 ms.date: 12/05/2018
 ms.keywords: IWMPCdrom interface [Windows Media Player],get_playlist method, IWMPCdrom.get_playlist, IWMPCdrom::get_playlist, IWMPCdromget_playlist, get_playlist, get_playlist method [Windows Media Player], get_playlist method [Windows Media Player],IWMPCdrom interface, wmp.iwmpcdrom_get_playlist, wmp/IWMPCdrom::get_playlist
-ms.topic: method
 f1_keywords:
 - wmp/IWMPCdrom.get_playlist
 dev_langs:

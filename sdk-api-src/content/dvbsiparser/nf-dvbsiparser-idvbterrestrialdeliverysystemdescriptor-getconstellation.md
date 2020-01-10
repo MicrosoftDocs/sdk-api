@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 1a34de19-c684-4778-a164-5ddde87443b0
 ms.date: 12/05/2018
 ms.keywords: GetConstellation, GetConstellation method [Microsoft TV Technologies], GetConstellation method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetConstellation method, IDvbTerrestrialDeliverySystemDescriptor.GetConstellation, IDvbTerrestrialDeliverySystemDescriptor::GetConstellation, IDvbTerrestrialDeliverySystemDescriptorGetConstellation, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetConstellation, mstv.idvbterrestrialdeliverysystemdescriptor_getconstellation
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor.GetConstellation
 dev_langs:

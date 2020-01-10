@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: c83deef1-3476-4d06-a2e1-a3428c2f44d7
 ms.date: 12/05/2018
 ms.keywords: SymGetFileLineOffsets64, SymGetFileLineOffsets64 function, base.symgetfilelineoffsets64, dbghelp/SymGetFileLineOffsets64
-ms.topic: function
 f1_keywords:
 - dbghelp/SymGetFileLineOffsets64
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_rebootsystem.htm
 ms.date: 12/05/2018
 ms.keywords: PropSheet_RebootSystem, PropSheet_RebootSystem macro [Windows Controls], _win32_PropSheet_RebootSystem, _win32_PropSheet_RebootSystem_cpp, controls.PropSheet_RebootSystem, controls._win32_PropSheet_RebootSystem, prsht/PropSheet_RebootSystem
-ms.topic: macro
 f1_keywords:
 - prsht/PropSheet_RebootSystem
 dev_langs:

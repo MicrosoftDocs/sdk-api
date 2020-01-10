@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: f3a0ba0e-ef6b-4355-8dc4-5099dd54ab7e
 ms.date: 12/05/2018
 ms.keywords: '*PIMAGE_COFF_SYMBOLS_HEADER, IMAGE_COFF_SYMBOLS_HEADER, IMAGE_COFF_SYMBOLS_HEADER structure, PIMAGE_COFF_SYMBOLS_HEADER, PIMAGE_COFF_SYMBOLS_HEADER structure pointer, _IMAGE_COFF_SYMBOLS_HEADER, _win32_image_coff_symbols_header_str, base.image_coff_symbols_header_str, winnt/IMAGE_COFF_SYMBOLS_HEADER, winnt/PIMAGE_COFF_SYMBOLS_HEADER'
-ms.topic: struct
 f1_keywords:
 - winnt/IMAGE_COFF_SYMBOLS_HEADER
 dev_langs:

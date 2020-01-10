@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: 440344c9-b229-421b-b8a7-76f2f98c2c6b
 ms.date: 12/05/2018
 ms.keywords: IUPnPService interface [UPnP APIs],get_ServiceTypeIdentifier method, IUPnPService.get_ServiceTypeIdentifier, IUPnPService::get_ServiceTypeIdentifier, _upnp_iupnpservice_servicetypeidentifier, get_ServiceTypeIdentifier, get_ServiceTypeIdentifier method [UPnP APIs], get_ServiceTypeIdentifier method [UPnP APIs],IUPnPService interface, upnp.iupnpservice_servicetypeidentifier, upnp/IUPnPService::get_ServiceTypeIdentifier
-ms.topic: method
 f1_keywords:
 - upnp/IUPnPService.get_ServiceTypeIdentifier
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 2247213f-6458-4d09-8fa3-2ac90c52b711
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription interface [COM+],PerUser property, IEventSubscription.PerUser, IEventSubscription.put_PerUser, IEventSubscription::PerUser, IEventSubscription::get_PerUser, IEventSubscription::put_PerUser, PerUser property [COM+], PerUser property [COM+],IEventSubscription interface, cos.ieventsubscription_peruser, eventsys/IEventSubscription::PerUser, eventsys/IEventSubscription::get_PerUser, eventsys/IEventSubscription::put_PerUser, put_PerUser
-ms.topic: method
 f1_keywords:
 - eventsys/IEventSubscription.PerUser
 dev_langs:

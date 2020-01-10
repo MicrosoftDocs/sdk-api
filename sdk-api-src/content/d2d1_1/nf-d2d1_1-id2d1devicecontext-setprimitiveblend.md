@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: be04c9f7-397f-468e-91c0-3b11c68b489f
 ms.date: 12/05/2018
 ms.keywords: ID2D1DeviceContext interface [Direct2D],SetPrimitiveBlend method, ID2D1DeviceContext.SetPrimitiveBlend, ID2D1DeviceContext::SetPrimitiveBlend, SetPrimitiveBlend, SetPrimitiveBlend method [Direct2D], SetPrimitiveBlend method [Direct2D],ID2D1DeviceContext interface, d2d1_1/ID2D1DeviceContext::SetPrimitiveBlend, direct2d.id2d1devicecontext_setprimitiveblend
-ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1DeviceContext.SetPrimitiveBlend
 dev_langs:

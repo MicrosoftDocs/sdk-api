@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: eca70819-fb7c-48b9-a479-d20aa0f05649
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetDest, MCIWndGetDest macro [Windows Multimedia], _win32_MCIWndGetDest, multimedia.mciwndgetdest, vfw/MCIWndGetDest
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndGetDest
 dev_langs:

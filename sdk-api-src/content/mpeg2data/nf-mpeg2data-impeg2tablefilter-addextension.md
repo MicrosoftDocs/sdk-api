@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 20484b0e-c6c8-4741-9672-a991ba368e92
 ms.date: 12/05/2018
 ms.keywords: AddExtension, AddExtension method [Microsoft TV Technologies], AddExtension method [Microsoft TV Technologies],IMpeg2TableFilter interface, IMpeg2TableFilter interface [Microsoft TV Technologies],AddExtension method, IMpeg2TableFilter.AddExtension, IMpeg2TableFilter::AddExtension, IMpeg2TableFilterAddExtension, mpeg2data/IMpeg2TableFilter::AddExtension, mstv.impeg2tablefilter_addextension
-ms.topic: method
 f1_keywords:
 - mpeg2data/IMpeg2TableFilter.AddExtension
 dev_langs:

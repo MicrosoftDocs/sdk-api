@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a1768857-eb55-4b01-87af-921337a418c3
 ms.date: 12/05/2018
 ms.keywords: IAMGraphBuilderCallback interface [DirectShow],SelectedFilter method, IAMGraphBuilderCallback.SelectedFilter, IAMGraphBuilderCallback::SelectedFilter, IAMGraphBuilderCallbackSelectedFilter, SelectedFilter, SelectedFilter method [DirectShow], SelectedFilter method [DirectShow],IAMGraphBuilderCallback interface, dshow.iamgraphbuildercallback_selectedfilter, strmif/IAMGraphBuilderCallback::SelectedFilter
-ms.topic: method
 f1_keywords:
 - strmif/IAMGraphBuilderCallback.SelectedFilter
 dev_langs:

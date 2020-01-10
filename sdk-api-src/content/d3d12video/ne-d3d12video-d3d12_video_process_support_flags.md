@@ -5,7 +5,6 @@ description: Specifies whether a video format and colorspace conversion operatio
 tech.root: mf
 ms.assetid: dc56a715-b29f-42fc-84e9-8ac377b9d0dc
 ms.date: 05/28/2019
-ms.topic: enum
 f1_keywords:
 - D3D12_VIDEO_PROCESS_SUPPORT_FLAGS
 dev_langs:

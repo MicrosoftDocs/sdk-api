@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 1c7fa627-e5e4-4bb9-8237-2f7358ebc4b8
 ms.date: 12/05/2018
 ms.keywords: SafeArrayRedim, SafeArrayRedim function [Automation], _oa96_SafeArrayRedim, automat.safearrayredim, oleauto/SafeArrayRedim
-ms.topic: function
 f1_keywords:
 - oleauto/SafeArrayRedim
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\checkmenuitem.htm
 ms.date: 12/05/2018
 ms.keywords: CheckMenuItem, CheckMenuItem function [Menus and Other Resources], MF_BYCOMMAND, MF_BYPOSITION, MF_CHECKED, MF_UNCHECKED, _win32_CheckMenuItem, _win32_checkmenuitem_cpp, menurc.checkmenuitem, winui._win32_checkmenuitem, winuser/CheckMenuItem
-ms.topic: function
 f1_keywords:
 - winuser/CheckMenuItem
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 3e965ee2-4b6f-4c95-b048-b9e9c7701306
 ms.date: 12/05/2018
 ms.keywords: IOCSPProperty interface [Security],Modified property, IOCSPProperty.Modified, IOCSPProperty.get_Modified, IOCSPProperty::Modified, IOCSPProperty::get_Modified, Modified property [Security], Modified property [Security],IOCSPProperty interface, certadm/IOCSPProperty::Modified, certadm/IOCSPProperty::get_Modified, get_Modified, security.iocspproperty_modified_method
-ms.topic: method
 f1_keywords:
 - certadm/IOCSPProperty.Modified
 dev_langs:

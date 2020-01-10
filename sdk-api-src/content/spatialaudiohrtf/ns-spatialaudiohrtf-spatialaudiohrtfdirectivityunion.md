@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: BBBE4B0B-59C2-44E0-9BB4-B10CE5CE12E3
 ms.date: 12/05/2018
 ms.keywords: SpatialAudioHrtfDirectivityUnion, SpatialAudioHrtfDirectivityUnion union [Core Audio], coreaudio.spatialaudiohrtfdirectivityunion, spatialaudiohrtf/SpatialAudioHrtfDirectivityUnion
-ms.topic: struct
 f1_keywords:
 - spatialaudiohrtf/SpatialAudioHrtfDirectivityUnion
 dev_langs:

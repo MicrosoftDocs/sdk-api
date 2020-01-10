@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 349357e5-5d60-491f-b267-b18a52b4c927
 ms.date: 12/05/2018
 ms.keywords: MMC_RESTORE_VIEW, MMC_RESTORE_VIEW structure [MMC], _slate_mmc_restore_view, mmc.mmc_restore_view, mmc/MMC_RESTORE_VIEW
-ms.topic: struct
 f1_keywords:
 - mmc/MMC_RESTORE_VIEW
 dev_langs:

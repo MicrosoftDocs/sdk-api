@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 5f54a120-5db9-4b8d-a281-1112be0042d6
 ms.date: 12/05/2018
 ms.keywords: GetNetworkParams, GetNetworkParams function [IP Helper], _iphlp_getnetworkparams, iphlp.getnetworkparams, iphlpapi/GetNetworkParams
-ms.topic: function
 f1_keywords:
 - iphlpapi/GetNetworkParams
 dev_langs:

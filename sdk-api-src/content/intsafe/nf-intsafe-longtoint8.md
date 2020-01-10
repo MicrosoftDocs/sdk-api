@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 611dd8dc-4aac-4efd-aa7d-9dd1867219cc
 ms.date: 12/05/2018
 ms.keywords: LongToInt8, LongToInt8 function [Windows Shell], intsafe/LongToInt8, shell.LongToInt8
-ms.topic: function
 f1_keywords:
 - intsafe/LongToInt8
 dev_langs:

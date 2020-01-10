@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: e367011a-2151-4324-90da-304dd7f989ab
 ms.date: 12/05/2018
 ms.keywords: WMPNotifyPluginAddRemove, WMPNotifyPluginAddRemove function [Windows Media Player], wmp.wmpnotifypluginaddremove, wmpplug/WMPNotifyPluginAddRemove
-ms.topic: function
 f1_keywords:
 - wmpplug/WMPNotifyPluginAddRemove
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 9490d46f-b11d-466b-a756-092df2db0306
 ms.date: 12/05/2018
 ms.keywords: AVIStreamRead, AVIStreamRead function [Windows Multimedia], _win32_AVIStreamRead, multimedia.avistreamread, vfw/AVIStreamRead
-ms.topic: function
 f1_keywords:
 - vfw/AVIStreamRead
 dev_langs:

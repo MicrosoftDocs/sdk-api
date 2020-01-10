@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 03fb0225-20d1-491a-a052-0a23fa09d01a
 ms.date: 12/05/2018
 ms.keywords: '*PWTS_SOCKADDR, PWRDS_SOCKADDR, PWRDS_SOCKADDR structure pointer [Remote Desktop Services], PWTS_SOCKADDR, PWTS_SOCKADDR structure pointer [Remote Desktop Services], WRDS_SOCKADDR, WRDS_SOCKADDR structure [Remote Desktop Services], WTS_SOCKADDR, WTS_SOCKADDR structure [Remote Desktop Services], termserv.wts_sockaddr, wtsdefs/PWRDS_SOCKADDR, wtsdefs/PWTS_SOCKADDR, wtsdefs/WRDS_SOCKADDR, wtsdefs/WTS_SOCKADDR'
-ms.topic: struct
 f1_keywords:
 - wtsdefs/WTS_SOCKADDR
 dev_langs:

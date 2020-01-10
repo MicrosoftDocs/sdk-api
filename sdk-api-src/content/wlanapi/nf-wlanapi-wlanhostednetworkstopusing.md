@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 36b5ed93-33c4-4ade-a6d9-0d240854a5ef
 ms.date: 12/05/2018
 ms.keywords: WlanHostedNetworkStopUsing, WlanHostedNetworkStopUsing function [NativeWIFI], nwifi.wlanhostednetworkstopusing, wlanapi/WlanHostedNetworkStopUsing
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanHostedNetworkStopUsing
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 1f57aa92-81f0-445f-baa3-274714e8291e
 ms.date: 12/05/2018
 ms.keywords: ITraceDataCollector, ITraceDataCollector interface [PLA], ITraceDataCollector interface [PLA],described, base.itracedatacollector, pla.itracedatacollector, pla/ITraceDataCollector
-ms.topic: interface
 f1_keywords:
 - pla/ITraceDataCollector
 dev_langs:

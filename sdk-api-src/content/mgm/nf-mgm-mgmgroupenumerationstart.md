@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 926f4055-becb-4c99-afd2-2d2822626f24
 ms.date: 12/05/2018
 ms.keywords: ALL_SOURCES, ANY_SOURCE, MgmGroupEnumerationStart, MgmGroupEnumerationStart function [RAS], _mpr_mgmgroupenumerationstart, mgm/MgmGroupEnumerationStart, rras.mgmgroupenumerationstart
-ms.topic: function
 f1_keywords:
 - mgm/MgmGroupEnumerationStart
 dev_langs:

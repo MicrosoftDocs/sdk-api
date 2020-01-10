@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: bdbab74c-80bd-4dca-8d64-6d30452a5876
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_NextWritableAddress method, IDiscFormat2Data.get_NextWritableAddress, IDiscFormat2Data::get_NextWritableAddress, get_NextWritableAddress, get_NextWritableAddress method [IMAPI], get_NextWritableAddress method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_nextwritableaddress, imapi2/IDiscFormat2Data::get_NextWritableAddress
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2Data.get_NextWritableAddress
 dev_langs:

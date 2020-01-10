@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 70ad7f8c-15ea-42f1-ac18-006bc6ad5e81
 ms.date: 12/05/2018
 ms.keywords: DestroyElement, DestroyElement method [Structured Storage], DestroyElement method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],DestroyElement method, IStorage.DestroyElement, IStorage::DestroyElement, _stg_istorage_destroyelement, objidl/IStorage::DestroyElement, stg.istorage_destroyelement
-ms.topic: method
 f1_keywords:
 - objidl/IStorage.DestroyElement
 dev_langs:

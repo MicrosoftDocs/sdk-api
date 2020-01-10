@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: f6c7bc7f-e9e8-4fc4-b30f-31bc0f5f46aa
 ms.date: 12/05/2018
 ms.keywords: DRMIsActivated, DRMIsActivated function [Active Directory Rights Management Services SDK 1.0], DRM_ACTIVATE_GROUPIDENTITY, DRM_ACTIVATE_MACHINE, msdrm/DRMIsActivated, rm.drmisactivated
-ms.topic: function
 f1_keywords:
 - msdrm/DRMIsActivated
 dev_langs:

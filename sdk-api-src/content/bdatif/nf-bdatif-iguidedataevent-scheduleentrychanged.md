@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 04c278a0-8a92-4801-9463-696beb22819e
 ms.date: 12/05/2018
 ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ScheduleEntryChanged method, IGuideDataEvent.ScheduleEntryChanged, IGuideDataEvent::ScheduleEntryChanged, IGuideDataEventScheduleEntryChanged, ScheduleEntryChanged, ScheduleEntryChanged method [Microsoft TV Technologies], ScheduleEntryChanged method [Microsoft TV Technologies],IGuideDataEvent interface, bdatif/IGuideDataEvent::ScheduleEntryChanged, mstv.iguidedataevent_scheduleentrychanged
-ms.topic: method
 f1_keywords:
 - bdatif/IGuideDataEvent.ScheduleEntryChanged
 dev_langs:

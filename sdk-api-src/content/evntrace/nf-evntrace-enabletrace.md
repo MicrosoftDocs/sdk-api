@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: d75f18e1-e5fa-4039-bb74-76dea334b0fd
 ms.date: 12/05/2018
 ms.keywords: EnableTrace, EnableTrace function [ETW], TRACE_LEVEL_CRITICAL, TRACE_LEVEL_ERROR, TRACE_LEVEL_INFORMATION, TRACE_LEVEL_VERBOSE, TRACE_LEVEL_WARNING, _evt_enabletrace, base.enabletrace, etw.enabletrace, evntrace/EnableTrace
-ms.topic: function
 f1_keywords:
 - evntrace/EnableTrace
 dev_langs:

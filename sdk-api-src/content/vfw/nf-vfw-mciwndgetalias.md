@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 24756da8-9d80-408b-81c5-34e6d3388838
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetAlias, MCIWndGetAlias macro [Windows Multimedia], _win32_MCIWndGetAlias, multimedia.mciwndgetalias, vfw/MCIWndGetAlias
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndGetAlias
 dev_langs:

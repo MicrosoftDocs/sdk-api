@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 5b7f2240-ca92-4e8e-b3ec-8eab36c3166f
 ms.date: 12/05/2018
 ms.keywords: IADsFileServiceOperations interface [ADSI],Resources method, IADsFileServiceOperations.Resources, IADsFileServiceOperations::Resources, Resources, Resources method [ADSI], Resources method [ADSI],IADsFileServiceOperations interface, _ds_iadsfileserviceoperations_resources, adsi.iadsfileserviceoperations__resources, adsi.iadsfileserviceoperations_resources, iads/IADsFileServiceOperations::Resources
-ms.topic: method
 f1_keywords:
 - iads/IADsFileServiceOperations.Resources
 dev_langs:

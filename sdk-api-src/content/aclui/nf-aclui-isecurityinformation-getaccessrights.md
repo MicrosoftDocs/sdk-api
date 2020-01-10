@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: a40b3ded-9a75-476b-bc7e-38794a98261c
 ms.date: 12/05/2018
 ms.keywords: GetAccessRights, GetAccessRights method [Security], GetAccessRights method [Security],ISecurityInformation interface, ISecurityInformation interface [Security],GetAccessRights method, ISecurityInformation.GetAccessRights, ISecurityInformation::GetAccessRights, SI_ADVANCED, SI_EDIT_AUDITS, SI_EDIT_PROPERTIES, _win32_isecurityinformation_getaccessrights, aclui/ISecurityInformation::GetAccessRights, security.isecurityinformation_getaccessrights
-ms.topic: method
 f1_keywords:
 - aclui/ISecurityInformation.GetAccessRights
 dev_langs:

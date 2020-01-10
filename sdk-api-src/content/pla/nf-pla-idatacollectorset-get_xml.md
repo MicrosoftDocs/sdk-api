@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 4b07bf1c-58e8-430a-a68c-c16cab954140
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],Xml property, IDataCollectorSet.Xml, IDataCollectorSet.get_Xml, IDataCollectorSet::Xml, IDataCollectorSet::get_Xml, Xml property [PLA], Xml property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_xml, get_Xml, pla.idatacollectorset_get_xml, pla/IDataCollectorSet::Xml, pla/IDataCollectorSet::get_Xml
-ms.topic: method
 f1_keywords:
 - pla/IDataCollectorSet.Xml
 dev_langs:

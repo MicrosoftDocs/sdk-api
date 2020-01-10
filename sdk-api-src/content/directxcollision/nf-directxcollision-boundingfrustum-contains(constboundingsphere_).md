@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.Contains(BoundingSphere)
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],Contains method, BoundingFrustum.Contains, BoundingFrustum.Contains(const BoundingSphere &), BoundingFrustum.Contains(const BoundingSphere&), BoundingFrustum::Contains, BoundingFrustum::Contains(const BoundingSphere &), Contains, Contains method [DirectX Math Support APIs], Contains method [DirectX Math Support APIs],BoundingFrustum interface, dxmath.boundingfrustum_contains_5
-ms.topic: method
 f1_keywords:
 - directxcollision/BoundingFrustum.Contains
 dev_langs:

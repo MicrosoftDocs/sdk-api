@@ -5,7 +5,6 @@ description: Contains the list of reference frames for the current decode operat
 tech.root: mf
 ms.assetid: 9b0151d7-aaeb-4f85-bd41-b68df916b9d0
 ms.date: 05/28/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_VIDEO_DECODE_REFERENCE_FRAMES
 dev_langs:

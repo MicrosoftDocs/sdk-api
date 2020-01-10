@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: 2018ecb1-9b32-4afa-ad20-5cdae396376d
 ms.date: 12/05/2018
 ms.keywords: '*PLDAPVLVInfo, LDAPVLVInfo, LDAPVLVInfo structure [LDAP], _ldap_ldapvlvinfo, ldap.ldapvlvinfo, winldap/LDAPVLVInfo'
-ms.topic: struct
 f1_keywords:
 - winldap/LDAPVLVInfo
 dev_langs:

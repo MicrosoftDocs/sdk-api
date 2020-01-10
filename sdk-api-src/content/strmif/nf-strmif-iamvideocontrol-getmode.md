@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 4b937661-67b2-445c-ab25-8655e1036797
 ms.date: 12/05/2018
 ms.keywords: GetMode, GetMode method [DirectShow], GetMode method [DirectShow],IAMVideoControl interface, IAMVideoControl interface [DirectShow],GetMode method, IAMVideoControl.GetMode, IAMVideoControl::GetMode, IAMVideoControlGetMode, dshow.iamvideocontrol_getmode, strmif/IAMVideoControl::GetMode
-ms.topic: method
 f1_keywords:
 - strmif/IAMVideoControl.GetMode
 dev_langs:

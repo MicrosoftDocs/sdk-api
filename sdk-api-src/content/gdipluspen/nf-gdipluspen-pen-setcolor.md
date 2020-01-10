@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setcolor.htm
 ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],SetColor method, Pen.SetColor, Pen::SetColor, SetColor, SetColor method [GDI+], SetColor method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetColor_color_, gdiplus._gdiplus_CLASS_Pen_SetColor_color_
-ms.topic: method
 f1_keywords:
 - gdipluspen/Pen.SetColor
 dev_langs:

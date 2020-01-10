@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: ee457b5c-e505-489c-93dc-8bdfb87c7afe
 ms.date: 12/05/2018
 ms.keywords: ITAgentHandler interface [TAPI 2.2],get_UsableAddresses method, ITAgentHandler.get_UsableAddresses, ITAgentHandler::get_UsableAddresses, _tapi3_itagenthandler_get_usableaddresses, get_UsableAddresses, get_UsableAddresses method [TAPI 2.2], get_UsableAddresses method [TAPI 2.2],ITAgentHandler interface, tapi3.itagenthandler_get_usableaddresses, tapi3cc/ITAgentHandler::get_UsableAddresses
-ms.topic: method
 f1_keywords:
 - tapi3/ITAgentHandler.get_UsableAddresses
 dev_langs:

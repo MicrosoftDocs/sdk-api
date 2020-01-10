@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 3f663acc-5ced-4fd2-a0d5-3e462fe60251
 ms.date: 12/05/2018
 ms.keywords: CreateTimeSpanArray, CreateTimeSpanArray method [Windows Runtime], CreateTimeSpanArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateTimeSpanArray method, IPropertyValueStatics.CreateTimeSpanArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateTimeSpanArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateTimeSpanArray, winrt.ipropertyvaluefactory_createtimespanarray, winrt.ipropertyvaluestatics_createtimespanarray
-ms.topic: method
 f1_keywords:
 - windows.foundation/IPropertyValueStatics.CreateTimeSpanArray
 dev_langs:

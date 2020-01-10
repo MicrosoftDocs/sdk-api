@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: bd30516e-1e05-4b7d-a6bf-7512cf3ef30f
 ms.date: 12/05/2018
 ms.keywords: CreateEllipticRgnIndirect, CreateEllipticRgnIndirect function [Windows GDI], _win32_CreateEllipticRgnIndirect, gdi.createellipticrgnindirect, wingdi/CreateEllipticRgnIndirect
-ms.topic: function
 f1_keywords:
 - wingdi/CreateEllipticRgnIndirect
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 16e18a9e-315f-41a2-b895-e3e478720864
 ms.date: 12/05/2018
 ms.keywords: GetCanonicalName, GetCanonicalName method [windows Media Device Manager], GetCanonicalName method [windows Media Device Manager],IWMDMDevice2 interface, IWMDMDevice2 interface [windows Media Device Manager],GetCanonicalName method, IWMDMDevice2.GetCanonicalName, IWMDMDevice2::GetCanonicalName, IWMDMDevice2GetPnPName, mswmdm/IWMDMDevice2::GetCanonicalName, wmdm.iwmdmdevice2_getcanonicalname
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMDevice2.GetCanonicalName
 dev_langs:

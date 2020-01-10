@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 8663f64f-a203-43e5-94e8-337f2d81c3a0
 ms.date: 12/05/2018
 ms.keywords: SetTraceCallback, SetTraceCallback function [ETW], _evt_settracecallback, base.settracecallback, etw.settracecallback, evntrace/SetTraceCallback
-ms.topic: function
 f1_keywords:
 - evntrace/SetTraceCallback
 dev_langs:

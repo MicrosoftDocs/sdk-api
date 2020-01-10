@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getstateimagelist.htm
 ms.date: 12/05/2018
 ms.keywords: Header_GetStateImageList, Header_GetStateImageList macro [Windows Controls], _win32_Header_GetStateImageList, _win32_Header_GetStateImageList_cpp, commctrl/Header_GetStateImageList, controls.Header_GetStateImageList, controls._win32_Header_GetStateImageList
-ms.topic: macro
 f1_keywords:
 - commctrl/Header_GetStateImageList
 dev_langs:

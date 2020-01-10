@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 02a080f5-3d0d-4483-8215-bcb5b9f27b9c
 ms.date: 12/05/2018
 ms.keywords: WS_TRUST_VERSION, WS_TRUST_VERSION enumeration [Web Services for Windows], WS_TRUST_VERSION_1_3, WS_TRUST_VERSION_FEBRUARY_2005, webservices/WS_TRUST_VERSION, webservices/WS_TRUST_VERSION_1_3, webservices/WS_TRUST_VERSION_FEBRUARY_2005, wsw.ws_trust_version
-ms.topic: enum
 f1_keywords:
 - webservices/WS_TRUST_VERSION
 dev_langs:

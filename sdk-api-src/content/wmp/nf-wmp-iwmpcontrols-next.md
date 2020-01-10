@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 1f0bbc77-b271-4076-8089-92fe7745d9a8
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],next method, IWMPControls.next, IWMPControls::next, IWMPControlsnext, next, next method [Windows Media Player], next method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_next, wmp/IWMPControls::next
-ms.topic: method
 f1_keywords:
 - wmp/IWMPControls.next
 dev_langs:

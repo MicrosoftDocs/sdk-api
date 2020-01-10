@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 83F8641B-9BE4-4BBD-99FD-215EA3BD371A
 ms.date: 12/05/2018
 ms.keywords: BitmapBrushProperties1, BitmapBrushProperties1 function [Direct2D], d2d1_1helper/BitmapBrushProperties1, direct2d.bitmapbrushproperties1
-ms.topic: function
 f1_keywords:
 - d2d1_1helper/BitmapBrushProperties1
 dev_langs:

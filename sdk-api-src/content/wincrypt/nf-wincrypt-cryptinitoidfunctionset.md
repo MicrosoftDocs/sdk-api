@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 576a2989-ed7f-417d-b60e-24baf90a6554
 ms.date: 12/05/2018
 ms.keywords: CryptInitOIDFunctionSet, CryptInitOIDFunctionSet function [Security], _crypto2_cryptinitoidfunctionset, security.cryptinitoidfunctionset, wincrypt/CryptInitOIDFunctionSet
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptInitOIDFunctionSet
 dev_langs:

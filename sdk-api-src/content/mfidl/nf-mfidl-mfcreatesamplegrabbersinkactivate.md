@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: ac8e415e-5df8-4fdb-adf6-c3c717c3d625
 ms.date: 12/05/2018
 ms.keywords: MFCreateSampleGrabberSinkActivate, MFCreateSampleGrabberSinkActivate function [Media Foundation], ac8e415e-5df8-4fdb-adf6-c3c717c3d625, mf.mfcreatesamplegrabbersinkactivate, mfidl/MFCreateSampleGrabberSinkActivate
-ms.topic: function
 f1_keywords:
 - mfidl/MFCreateSampleGrabberSinkActivate
 dev_langs:

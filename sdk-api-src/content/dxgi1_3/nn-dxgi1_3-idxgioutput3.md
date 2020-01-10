@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: A116286A-F948-49AA-9D3B-F104E3312920
 ms.date: 12/05/2018
 ms.keywords: IDXGIOutput3, IDXGIOutput3 interface [DXGI], IDXGIOutput3 interface [DXGI],described, direct3ddxgi.idxgioutput3, dxgi1_3/IDXGIOutput3
-ms.topic: interface
 f1_keywords:
 - dxgi1_3/IDXGIOutput3
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 7cc7dd44-0949-49f7-8a8f-cc309650b763
 ms.date: 12/05/2018
 ms.keywords: RtwqPutWaitingWorkItem, RtwqPutWaitingWorkItem function, base.rtwqputwaitingworkitem, rtworkq/RtwqPutWaitingWorkItem
-ms.topic: function
 f1_keywords:
 - rtworkq/RtwqPutWaitingWorkItem
 dev_langs:

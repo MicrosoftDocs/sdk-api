@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors.htm
 ms.date: 12/05/2018
 ms.keywords: Metafile, Metafile constructors [GDI+], Metafile.Metafile, Metafile.Metafile~r15, Metafile::Metafile, Metafile::Metafile~r15, _gdiplus_CLASS_Metafile_Constructors, gdiplus._gdiplus_CLASS_Metafile_Constructors, gdiplusheaders/Metafile
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Metafile.Metafile
 dev_langs:

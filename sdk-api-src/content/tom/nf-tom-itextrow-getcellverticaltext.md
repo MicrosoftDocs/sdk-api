@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 3c94a4af-0212-4422-bee2-7a9148a40b28
 ms.date: 12/05/2018
 ms.keywords: GetCellVerticalText, GetCellVerticalText method [Windows Controls], GetCellVerticalText method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellVerticalText method, ITextRow.GetCellVerticalText, ITextRow::GetCellVerticalText, controls.itextrow_getcellverticaltext, tom/ITextRow::GetCellVerticalText
-ms.topic: method
 f1_keywords:
 - tom/ITextRow.GetCellVerticalText
 dev_langs:

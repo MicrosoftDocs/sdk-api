@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 015ca2ca-3bcc-443c-a38c-7f67b69c5907
 ms.date: 12/05/2018
 ms.keywords: 015ca2ca-3bcc-443c-a38c-7f67b69c5907, GetPacketData, GetPacketData method [Tablet PC], GetPacketData method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],GetPacketData method, IInkStrokeDisp.GetPacketData, IInkStrokeDisp::GetPacketData, msinkaut/IInkStrokeDisp::GetPacketData, tablet.iinkstrokedisp_getpacketdata
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkStrokeDisp.GetPacketData
 dev_langs:

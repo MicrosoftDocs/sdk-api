@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 4A449444-287D-4F1D-9A86-F6165C38048F
 ms.date: 12/05/2018
 ms.keywords: IDXGIDisplayControl interface [DXGI],SetStereoEnabled method, IDXGIDisplayControl.SetStereoEnabled, IDXGIDisplayControl::SetStereoEnabled, SetStereoEnabled, SetStereoEnabled method [DXGI], SetStereoEnabled method [DXGI],IDXGIDisplayControl interface, direct3ddxgi.idxgidisplaycontrol_SetStereoEnabled, dxgi1_2/IDXGIDisplayControl::SetStereoEnabled
-ms.topic: method
 f1_keywords:
 - dxgi1_2/IDXGIDisplayControl.SetStereoEnabled
 dev_langs:

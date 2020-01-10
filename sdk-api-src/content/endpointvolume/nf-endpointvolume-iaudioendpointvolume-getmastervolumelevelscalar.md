@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 5a127507-99d2-48e8-b7e9-8bb51ff89f50
 ms.date: 12/05/2018
 ms.keywords: GetMasterVolumeLevelScalar, GetMasterVolumeLevelScalar method [Core Audio], GetMasterVolumeLevelScalar method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetMasterVolumeLevelScalar method, IAudioEndpointVolume.GetMasterVolumeLevelScalar, IAudioEndpointVolume::GetMasterVolumeLevelScalar, IAudioEndpointVolumeGetMasterVolumeLevelScalar, coreaudio.iaudioendpointvolume_getmastervolumelevelscalar, endpointvolume/IAudioEndpointVolume::GetMasterVolumeLevelScalar
-ms.topic: method
 f1_keywords:
 - endpointvolume/IAudioEndpointVolume.GetMasterVolumeLevelScalar
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.CalcOutputFrames(UINT32)
 ms.date: 12/05/2018
 ms.keywords: CalcOutputFrames, CalcOutputFrames method [XAudio2 Audio Mixing APIs], CalcOutputFrames method [XAudio2 Audio Mixing APIs],IXAPO interface, IXAPO interface [XAudio2 Audio Mixing APIs],CalcOutputFrames method, IXAPO.CalcOutputFrames, IXAPO::CalcOutputFrames, xapo/IXAPO::CalcOutputFrames, xaudio2.ixapo_interface_calcoutputframes
-ms.topic: method
 f1_keywords:
 - xapo/IXAPO.CalcOutputFrames
 dev_langs:

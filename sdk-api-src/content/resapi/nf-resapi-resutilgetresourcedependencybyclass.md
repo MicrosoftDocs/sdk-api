@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 7c2bd24a-8034-4a5f-8218-0a23d5e29b07
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS, PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS function [Failover Cluster], ResUtilGetResourceDependencyByClass, ResUtilGetResourceDependencyByClass function [Failover Cluster], _wolf_resutilgetresourcedependencybyclass, mscs.resutilgetresourcedependencybyclass, resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS, resapi/ResUtilGetResourceDependencyByClass
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilGetResourceDependencyByClass
 dev_langs:

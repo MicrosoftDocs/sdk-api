@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 41C771FD-29FB-431B-B905-37C6A59C0677
 ms.date: 12/05/2018
 ms.keywords: WICWebpAnmfFrameDuration, WICWebpAnmfProperties, WICWebpAnmfProperties enumeration [Windows Imaging Component], wic.wicwebpanmfproperties, wincodec/WICWebpAnmfFrameDuration, wincodec/WICWebpAnmfProperties
-ms.topic: enum
 f1_keywords:
 - wincodec/WICWebpAnmfProperties
 dev_langs:

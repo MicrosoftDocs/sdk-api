@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 7f92745b-2b97-4cc6-9755-a580827b5bba
 ms.date: 12/05/2018
 ms.keywords: IFilterMapper interface [DirectShow],RegisterPinType method, IFilterMapper.RegisterPinType, IFilterMapper::RegisterPinType, IFilterMapperRegisterPinType, RegisterPinType, RegisterPinType method [DirectShow], RegisterPinType method [DirectShow],IFilterMapper interface, dshow.ifiltermapper_registerpintype, strmif/IFilterMapper::RegisterPinType
-ms.topic: method
 f1_keywords:
 - strmif/IFilterMapper.RegisterPinType
 dev_langs:

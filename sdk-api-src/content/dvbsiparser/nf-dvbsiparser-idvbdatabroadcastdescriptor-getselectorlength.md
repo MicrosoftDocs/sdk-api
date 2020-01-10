@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: fc1d25be-6f33-4281-a75c-74c7331ab6ed
 ms.date: 12/05/2018
 ms.keywords: GetSelectorLength, GetSelectorLength method [Microsoft TV Technologies], GetSelectorLength method [Microsoft TV Technologies],IDvbDataBroadcastDescriptor interface, IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies],GetSelectorLength method, IDvbDataBroadcastDescriptor.GetSelectorLength, IDvbDataBroadcastDescriptor::GetSelectorLength, dvbsiparser/IDvbDataBroadcastDescriptor::GetSelectorLength, mstv.idvbdatabroadcastdescriptor_getselectorlength
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbDataBroadcastDescriptor.GetSelectorLength
 dev_langs:

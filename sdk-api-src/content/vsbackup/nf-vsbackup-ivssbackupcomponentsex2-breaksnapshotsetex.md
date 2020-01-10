@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 595fe295-082d-4130-9698-952df49a922e
 ms.date: 12/05/2018
 ms.keywords: BreakSnapshotSetEx, BreakSnapshotSetEx method, BreakSnapshotSetEx method,IVssBackupComponentsEx2 interface, IVssBackupComponentsEx2 interface,BreakSnapshotSetEx method, IVssBackupComponentsEx2.BreakSnapshotSetEx, IVssBackupComponentsEx2::BreakSnapshotSetEx, base.ivssbackupcomponentsex2_breaksnapshotsetex, vsbackup/IVssBackupComponentsEx2::BreakSnapshotSetEx
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponentsEx2.BreakSnapshotSetEx
 dev_langs:

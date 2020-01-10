@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 5acf5c6b-b015-448b-ad4c-e4361a97c31e
 ms.date: 12/05/2018
 ms.keywords: CSC_MTAThreadPool, CSC_STAThreadPool, CSC_ThreadPool, CSC_ThreadPool enumeration [COM+], CSC_ThreadPoolInherit, CSC_ThreadPoolNone, _cos_CSC_ThreadPool, comsvcs/CSC_MTAThreadPool, comsvcs/CSC_STAThreadPool, comsvcs/CSC_ThreadPool, comsvcs/CSC_ThreadPoolInherit, comsvcs/CSC_ThreadPoolNone, cos.csc_threadpool
-ms.topic: enum
 f1_keywords:
 - comsvcs/CSC_ThreadPool
 dev_langs:

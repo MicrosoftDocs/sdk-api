@@ -7,7 +7,6 @@ tech.root: lwef
 ms.assetid: b9d4a771-023f-4a31-b9b7-39b8b4a8695a
 ms.date: 12/05/2018
 ms.keywords: GetDesktopItem, GetDesktopItem method [Legacy Windows Environment Features], GetDesktopItem method [Legacy Windows Environment Features],IActiveDesktop interface, IActiveDesktop interface [Legacy Windows Environment Features],GetDesktopItem method, IActiveDesktop.GetDesktopItem, IActiveDesktop::GetDesktopItem, _win32_IActiveDesktop_GetDesktopItem, lwef.iactivedesktop_getdesktopitem, shell.iactivedesktop_getdesktopitem, shlobj_core/IActiveDesktop::GetDesktopItem
-ms.topic: method
 f1_keywords:
 - shlobj_core/IActiveDesktop.GetDesktopItem
 dev_langs:

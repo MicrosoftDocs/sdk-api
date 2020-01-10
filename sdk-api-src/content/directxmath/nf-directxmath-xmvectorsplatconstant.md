@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorSplatConstant(uint32_t,uint32_t)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSplatConstant, XMVectorSplatConstant, XMVectorSplatConstant method [DirectX Math Support APIs], dxmath.xmvectorsplatconstant
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorSplatConstant
 dev_langs:

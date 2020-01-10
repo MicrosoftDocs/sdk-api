@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 65d8bbb3-e683-4a9d-acb2-023932d3e44d
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnAbort method, IMFSourceBufferNotify.OnAbort, IMFSourceBufferNotify::OnAbort, OnAbort, OnAbort method [Media Foundation], OnAbort method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onabort, mfmediaengine/IMFSourceBufferNotify::OnAbort
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFSourceBufferNotify.OnAbort
 dev_langs:

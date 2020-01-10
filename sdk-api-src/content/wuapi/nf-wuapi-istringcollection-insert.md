@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 51a00dde-7781-4674-bbb2-10bb2eb23548
 ms.date: 12/05/2018
 ms.keywords: IStringCollection interface [Windows Update Agent],Insert method, IStringCollection.Insert, IStringCollection::Insert, Insert, Insert method [Windows Update Agent], Insert method [Windows Update Agent],IStringCollection interface, wua.istringcollection_insert, wuapi/IStringCollection::Insert
-ms.topic: method
 f1_keywords:
 - wuapi/IStringCollection.Insert
 dev_langs:

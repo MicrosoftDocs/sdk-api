@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ed30546f-3531-42df-9018-1a24a79a0b79
 ms.date: 12/05/2018
 ms.keywords: SHRemoveLocalizedName, SHRemoveLocalizedName function [Windows Shell], _shell_SHRemoveLocalizedName, shell.SHRemoveLocalizedName, shellapi/SHRemoveLocalizedName
-ms.topic: function
 f1_keywords:
 - shellapi/SHRemoveLocalizedName
 dev_langs:

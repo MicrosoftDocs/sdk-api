@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 113510A0-6F0D-4B30-8C6A-D0266570160E
 ms.date: 12/05/2018
 ms.keywords: GetMemberTypeName, GetMemberTypeName method, GetMemberTypeName method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetMemberTypeName method, ID3D12ShaderReflectionType.GetMemberTypeName, ID3D12ShaderReflectionType::GetMemberTypeName, d3d12shader/ID3D12ShaderReflectionType::GetMemberTypeName, direct3d12.id3d12shaderreflectiontype_getmembertypename
-ms.topic: method
 f1_keywords:
 - d3d12shader/ID3D12ShaderReflectionType.GetMemberTypeName
 dev_langs:

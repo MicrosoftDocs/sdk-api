@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 4799829d-8122-4bb4-839c-92f177cfd2da
 ms.date: 12/05/2018
 ms.keywords: ScriptGetProperties, ScriptGetProperties function [Internationalization for Windows Applications], _win32_ScriptGetProperties, intl.scriptgetproperties, usp10/ScriptGetProperties
-ms.topic: function
 f1_keywords:
 - usp10/ScriptGetProperties
 dev_langs:

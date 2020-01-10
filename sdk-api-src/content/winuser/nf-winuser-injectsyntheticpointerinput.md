@@ -7,7 +7,6 @@ tech.root: Input_PointerDevice
 ms.assetid: 9F7FC5E2-F4B8-42C2-A4BE-240E36AFC13B
 ms.date: 12/05/2018
 ms.keywords: InjectSyntheticPointerInput, InjectSyntheticPointerInput function, input_pointerdevice.injectsyntheticpointerinput, winuser/InjectSyntheticPointerInput
-ms.topic: function
 f1_keywords:
 - winuser/InjectSyntheticPointerInput
 dev_langs:

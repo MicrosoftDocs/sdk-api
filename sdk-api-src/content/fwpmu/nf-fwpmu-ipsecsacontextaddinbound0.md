@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: e0798bcb-847d-481e-b9f0-b18c0bbad22c
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextAddInbound0, IPsecSaContextAddInbound0 function [Filtering], fwp.ipsecsacontextaddinbound0, fwpmu/IPsecSaContextAddInbound0
-ms.topic: function
 f1_keywords:
 - fwpmu/IPsecSaContextAddInbound0
 dev_langs:

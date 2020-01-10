@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 9527024e-2d52-4a81-90a5-4ef5241ba6dd
 ms.date: 12/05/2018
 ms.keywords: IWMMutualExclusion2 interface [windows Media Format],SetRecordName method, IWMMutualExclusion2.SetRecordName, IWMMutualExclusion2::SetRecordName, IWMMutualExclusion2SetRecordName, SetRecordName, SetRecordName method [windows Media Format], SetRecordName method [windows Media Format],IWMMutualExclusion2 interface, wmformat.iwmmutualexclusion2_setrecordname, wmsdkidl/IWMMutualExclusion2::SetRecordName
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMMutualExclusion2.SetRecordName
 dev_langs:

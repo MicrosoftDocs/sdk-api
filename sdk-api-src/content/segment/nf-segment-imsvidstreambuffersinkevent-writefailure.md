@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 6aec07e1-57b9-4350-a48f-762fcf370d6a
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSinkEvent interface [Microsoft TV Technologies],WriteFailure method, IMSVidStreamBufferSinkEvent.WriteFailure, IMSVidStreamBufferSinkEvent::WriteFailure, IMSVidStreamBufferSinkEventWriteFailure, WriteFailure, WriteFailure method [Microsoft TV Technologies], WriteFailure method [Microsoft TV Technologies],IMSVidStreamBufferSinkEvent interface, mstv.imsvidstreambuffersinkevent_writefailure, segment/IMSVidStreamBufferSinkEvent::WriteFailure
-ms.topic: method
 f1_keywords:
 - segment/IMSVidStreamBufferSinkEvent.WriteFailure
 dev_langs:

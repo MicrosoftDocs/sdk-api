@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 05737525-d906-482c-847f-bdbf0ba0ce3d
 ms.date: 12/05/2018
 ms.keywords: PathSetDlgItemPath, PathSetDlgItemPath function [Windows Shell], PathSetDlgItemPathA, PathSetDlgItemPathW, _win32_PathSetDlgItemPath, shell.PathSetDlgItemPath, shlwapi/PathSetDlgItemPath, shlwapi/PathSetDlgItemPathA, shlwapi/PathSetDlgItemPathW
-ms.topic: function
 f1_keywords:
 - shlwapi/PathSetDlgItemPath
 dev_langs:

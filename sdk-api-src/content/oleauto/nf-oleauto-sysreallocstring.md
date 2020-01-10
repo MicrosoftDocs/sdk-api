@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 0207c33b-c065-42bb-8d70-ccdc3fddb338
 ms.date: 12/05/2018
 ms.keywords: SysReAllocString, SysReAllocString function [Automation], _oa96_SysReAllocString, automat.sysreallocstring, oleauto/SysReAllocString
-ms.topic: function
 f1_keywords:
 - oleauto/SysReAllocString
 dev_langs:

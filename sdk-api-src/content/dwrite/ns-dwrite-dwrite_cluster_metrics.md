@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 738b7f15-fcc5-4960-ac1f-ca530c448271
 ms.date: 12/05/2018
 ms.keywords: DWRITE_CLUSTER_METRICS, DWRITE_CLUSTER_METRICS structure [Direct Write], directwrite.dwrite_cluster_metrics, dwrite/DWRITE_CLUSTER_METRICS
-ms.topic: struct
 f1_keywords:
 - dwrite/DWRITE_CLUSTER_METRICS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 5FA7A0F5-187F-4CE6-AD62-44B71A40568D
 ms.date: 12/05/2018
 ms.keywords: SslGetServerIdentity, SslGetServerIdentity function [Security], schannel/SslGetServerIdentity, security.sslgetserveridentity
-ms.topic: function
 f1_keywords:
 - schannel/SslGetServerIdentity
 dev_langs:

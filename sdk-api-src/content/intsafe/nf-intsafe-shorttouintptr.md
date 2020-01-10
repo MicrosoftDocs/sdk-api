@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 6b5d0c0c-a2c3-4d63-ab6c-d93372a7413e
 ms.date: 12/05/2018
 ms.keywords: ShortToUIntPtr, ShortToUIntPtr function [Windows Shell], intsafe/ShortToUIntPtr, shell.ShortToUIntPtr
-ms.topic: function
 f1_keywords:
 - intsafe/ShortToUIntPtr
 dev_langs:

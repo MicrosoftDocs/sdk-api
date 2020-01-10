@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 97691930-d76a-48c9-80b9-8413d96322a9
 ms.date: 12/05/2018
 ms.keywords: PTMergeAndValidatePrintTicket, PTMergeAndValidatePrintTicket function [Windows GDI], _win32_PTMergeAndValidatePrintTicket, gdi.ptmergeandvalidateprintticket, prntvpt/PTMergeAndValidatePrintTicket
-ms.topic: function
 f1_keywords:
 - prntvpt/PTMergeAndValidatePrintTicket
 dev_langs:

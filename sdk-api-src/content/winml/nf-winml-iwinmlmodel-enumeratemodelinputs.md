@@ -7,7 +7,6 @@ tech.root: MachineLearning
 ms.assetid: A87B24B0-9463-4022-9054-08F3D7BA5034
 ms.date: 12/05/2018
 ms.keywords: EnumerateModelInputs, EnumerateModelInputs method, EnumerateModelInputs method,IWinMLModel interface, IWinMLModel interface,EnumerateModelInputs method, IWinMLModel.EnumerateModelInputs, IWinMLModel::EnumerateModelInputs, MachineLearning.iwinmlmodel_enumeratemodelinputs, winml/IWinMLModel::EnumerateModelInputs
-ms.topic: method
 f1_keywords:
 - winml/IWinMLModel.EnumerateModelInputs
 dev_langs:

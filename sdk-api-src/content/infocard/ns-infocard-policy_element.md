@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 710ed81d-d455-4912-8aee-2f06db894c95
 ms.date: 12/05/2018
 ms.keywords: '*PPOLICY_ELEMENT, POLICY_ELEMENT, POLICY_ELEMENT structure [QOS], _POLICY_ELEMENT, infocard/POLICY_ELEMENT, qos.policy_element'
-ms.topic: struct
 f1_keywords:
 - infocard/POLICY_ELEMENT
 dev_langs:

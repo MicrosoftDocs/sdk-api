@@ -7,7 +7,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getfocus.htm
 ms.date: 12/05/2018
 ms.keywords: GetFocus, GetFocus function [Keyboard and Mouse Input], _win32_GetFocus, _win32_getfocus_cpp, inputdev.getfocus, winui._win32_getfocus, winuser/GetFocus
-ms.topic: function
 f1_keywords:
 - winuser/GetFocus
 dev_langs:

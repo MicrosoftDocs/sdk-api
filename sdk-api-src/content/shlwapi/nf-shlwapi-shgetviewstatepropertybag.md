@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 6852867a-30a5-4d4e-b790-3746104e3ed8
 ms.date: 12/05/2018
 ms.keywords: SHGVSPB_ALLFOLDERS, SHGVSPB_ALLUSERS, SHGVSPB_FOLDER, SHGVSPB_FOLDERNODEFAULTS, SHGVSPB_GLOBALDEFAULTS, SHGVSPB_INHERIT, SHGVSPB_NOAUTODEFAULTS, SHGVSPB_PERFOLDER, SHGVSPB_PERUSER, SHGVSPB_ROAM, SHGVSPB_USERDEFAULTS, SHGetViewStatePropertyBag, SHGetViewStatePropertyBag function [Windows Shell], shell.SHGetViewStatePropertyBag, shell_SHGetViewStatePropertyBag, shlwapi/SHGetViewStatePropertyBag
-ms.topic: function
 f1_keywords:
 - shlwapi/SHGetViewStatePropertyBag
 dev_langs:

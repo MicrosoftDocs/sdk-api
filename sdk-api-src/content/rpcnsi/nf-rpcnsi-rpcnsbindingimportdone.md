@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 093c988a-5d88-45b5-b69a-f26962118fdb
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingImportDone, RpcNsBindingImportDone function [RPC], _rpc_rpcnsbindingimportdone, rpc.rpcnsbindingimportdone, rpcnsi/RpcNsBindingImportDone
-ms.topic: function
 f1_keywords:
 - rpcnsi/RpcNsBindingImportDone
 dev_langs:

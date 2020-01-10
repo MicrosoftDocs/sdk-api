@@ -7,7 +7,6 @@ tech.root: mediastreaming
 ms.assetid: FD1242F8-4C2E-4027-B1DE-5FD69557684C
 ms.date: 12/05/2018
 ms.keywords: CreateMediaRendererAsync, CreateMediaRendererAsync method [Media Streaming API], CreateMediaRendererAsync method [Media Streaming API],IMediaRendererFactory interface, IMediaRendererFactory interface [Media Streaming API],CreateMediaRendererAsync method, IMediaRendererFactory.CreateMediaRendererAsync, IMediaRendererFactory.streaming, IMediaRendererFactory::CreateMediaRendererAsync, IMediaRendererFactory::streaming, mediastreaming.imediarendererfactory_createmediarendererasync, windows/IMediaRendererFactory::CreateMediaRendererAsync
-ms.topic: method
 f1_keywords:
 - windows.media.streaming/IMediaRendererFactory.CreateMediaRendererAsync
 dev_langs:

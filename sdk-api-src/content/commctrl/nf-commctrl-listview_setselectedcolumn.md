@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setselectedcolumn.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_SetSelectedColumn, ListView_SetSelectedColumn macro [Windows Controls], _win32_ListView_SetSelectedColumn, _win32_ListView_SetSelectedColumn_cpp, commctrl/ListView_SetSelectedColumn, controls.ListView_SetSelectedColumn, controls._win32_ListView_SetSelectedColumn
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_SetSelectedColumn
 dev_langs:

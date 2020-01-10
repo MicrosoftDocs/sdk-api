@@ -7,7 +7,6 @@ tech.root: wcn
 ms.assetid: 267aa55a-005d-4db8-9569-f8ee77a15168
 ms.date: 12/05/2018
 ms.keywords: IWCNDevice interface [Windows Connect Now],SetNetworkProfile method, IWCNDevice.SetNetworkProfile, IWCNDevice::SetNetworkProfile, SetNetworkProfile, SetNetworkProfile method [Windows Connect Now], SetNetworkProfile method [Windows Connect Now],IWCNDevice interface, wcn.iwcndevice_setnetworkprofile, wcndevice/IWCNDevice::SetNetworkProfile
-ms.topic: method
 f1_keywords:
 - wcndevice/IWCNDevice.SetNetworkProfile
 dev_langs:

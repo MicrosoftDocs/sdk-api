@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 67534bc8-f19e-4330-850a-788a7f031f5b
 ms.date: 12/05/2018
 ms.keywords: ClusterStateNotConfigured, ClusterStateNotInstalled, ClusterStateNotRunning, ClusterStateRunning, GetNodeClusterState, GetNodeClusterState function [Failover Cluster], PCLUSAPI_GET_NODE_CLUSTER_STATE, PCLUSAPI_GET_NODE_CLUSTER_STATE function [Failover Cluster], _wolf_getnodeclusterstate, clusapi/GetNodeClusterState, clusapi/PCLUSAPI_GET_NODE_CLUSTER_STATE, mscs.getnodeclusterstate
-ms.topic: function
 f1_keywords:
 - clusapi/GetNodeClusterState
 dev_langs:

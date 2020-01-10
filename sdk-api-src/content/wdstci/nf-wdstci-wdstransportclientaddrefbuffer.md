@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 941cac20-cca9-4351-8dee-f3910062c6b4
 ms.date: 12/05/2018
 ms.keywords: WdsTransportClientAddRefBuffer, WdsTransportClientAddRefBuffer function [Windows Deployment Services], wds.wdstransportclientaddrefbuffer, wdstci/WdsTransportClientAddRefBuffer
-ms.topic: function
 f1_keywords:
 - wdstci/WdsTransportClientAddRefBuffer
 dev_langs:

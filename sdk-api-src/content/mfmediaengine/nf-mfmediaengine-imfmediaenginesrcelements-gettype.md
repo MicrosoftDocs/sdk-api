@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 7B788160-A342-48B4-A3F9-42F3BB83A24D
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Media Foundation], GetType method [Media Foundation],IMFMediaEngineSrcElements interface, IMFMediaEngineSrcElements interface [Media Foundation],GetType method, IMFMediaEngineSrcElements.GetType, IMFMediaEngineSrcElements::GetType, mf.imfmediaenginesrcelements_gettype, mfmediaengine/IMFMediaEngineSrcElements::GetType
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngineSrcElements.GetType
 dev_langs:

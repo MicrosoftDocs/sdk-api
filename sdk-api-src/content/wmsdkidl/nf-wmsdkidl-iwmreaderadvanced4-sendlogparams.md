@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 3b345573-bdca-4a1f-b272-716e2ca4c88c
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced4 interface [windows Media Format],SendLogParams method, IWMReaderAdvanced4.SendLogParams, IWMReaderAdvanced4::SendLogParams, IWMReaderAdvanced4SendLogParams, SendLogParams, SendLogParams method [windows Media Format], SendLogParams method [windows Media Format],IWMReaderAdvanced4 interface, wmformat.iwmreaderadvanced4_sendlogparams, wmsdkidl/IWMReaderAdvanced4::SendLogParams
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderAdvanced4.SendLogParams
 dev_langs:

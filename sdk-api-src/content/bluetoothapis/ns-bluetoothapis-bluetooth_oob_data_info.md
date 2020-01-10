@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: 0728678a-98c7-44b5-a117-5f9acae9fd25
 ms.date: 12/05/2018
 ms.keywords: '*PBLUETOOTH_OOB_DATA_INFO, BLUETOOTH_OOB_DATA_INFO, BLUETOOTH_OOB_DATA_INFO structure [Bluetooth], PBLUETOOTH_OOB_DATA_INFO, PBLUETOOTH_OOB_DATA_INFO structure pointer [Bluetooth], bluetooth.bluetooth_oob_data_info, bluetoothapis/BLUETOOTH_OOB_DATA_INFO, bluetoothapis/PBLUETOOTH_OOB_DATA_INFO'
-ms.topic: struct
 f1_keywords:
 - bluetoothapis/BLUETOOTH_OOB_DATA_INFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 905f0967-8b99-45ed-a1cc-19d49e919a65
 ms.date: 12/05/2018
 ms.keywords: ITextRange2, ITextRange2 interface [Windows Controls], ITextRange2 interface [Windows Controls],described, controls.itextrange2, tom/ITextRange2
-ms.topic: interface
 f1_keywords:
 - tom/ITextRange2
 dev_langs:

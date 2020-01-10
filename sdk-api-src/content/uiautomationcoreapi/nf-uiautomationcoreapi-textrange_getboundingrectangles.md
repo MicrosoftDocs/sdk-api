@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: f6b9e6b5-554d-46cb-a423-e7e3f6fb3a04
 ms.date: 12/05/2018
 ms.keywords: TextRange_GetBoundingRectangles, TextRange_GetBoundingRectangles function [Windows Accessibility], uiauto.uiauto_TextRange_GetBoundingRectanglesConPat, uiauto_TextRange_GetBoundingRectanglesConPat, uiautomationcoreapi/TextRange_GetBoundingRectangles, winauto.uiauto_TextRange_GetBoundingRectanglesConPat
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/TextRange_GetBoundingRectangles
 dev_langs:

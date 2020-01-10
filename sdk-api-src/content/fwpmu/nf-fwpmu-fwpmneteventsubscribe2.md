@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: CC55CA33-A153-4B48-AA89-A28F010024F7
 ms.date: 12/05/2018
 ms.keywords: FwpmNetEventSubscribe2, FwpmNetEventSubscribe2 function [Filtering], fwp.fwpmneteventsubscribe2, fwpmu/FwpmNetEventSubscribe2
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmNetEventSubscribe2
 dev_langs:

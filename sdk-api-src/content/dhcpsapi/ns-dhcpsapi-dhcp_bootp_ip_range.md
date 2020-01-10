@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 23268029-0b49-4fd4-8410-4bac6c8ad151
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_BOOT_IP_RANGE, DHCP_BOOTP_IP_RANGE, DHCP_BOOTP_IP_RANGE structure [DHCP], LPDHCP_BOOT_IP_RANGE, LPDHCP_BOOT_IP_RANGE structure pointer [DHCP], dhcp.dhcp_bootp_ip_range, dhcpsapi/LPDHCP_BOOT_IP_RANGE, dhcpsapi/_DHCP_BOOTP_IP_RANGE'
-ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_BOOTP_IP_RANGE
 dev_langs:

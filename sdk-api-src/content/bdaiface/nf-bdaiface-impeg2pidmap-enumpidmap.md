@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9e5dbc92-e072-4e59-b7b2-07ae39cb9d59
 ms.date: 12/05/2018
 ms.keywords: EnumPIDMap, EnumPIDMap method [DirectShow], EnumPIDMap method [DirectShow],IMPEG2PIDMap interface, IMPEG2PIDMap interface [DirectShow],EnumPIDMap method, IMPEG2PIDMap.EnumPIDMap, IMPEG2PIDMap::EnumPIDMap, IMPEG2PIDMapEnumPIDMap, bdaiface/IMPEG2PIDMap::EnumPIDMap, dshow.impeg2pidmap_enumpidmap
-ms.topic: method
 f1_keywords:
 - bdaiface/IMPEG2PIDMap.EnumPIDMap
 dev_langs:

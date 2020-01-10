@@ -5,7 +5,6 @@ ms.keywords: IBackgroundCopyJobHttpOptions3::MakeCustomHeadersWriteOnly
 description: Sets the HTTP custom headers for this job to be write-only.
 tech.root: Bits
 ms.date: 05/09/2019
-ms.topic: method
 f1_keywords:
 - bits10_3/IBackgroundCopyJobHttpOptions3::MakeCustomHeadersWriteOnly
 dev_langs:

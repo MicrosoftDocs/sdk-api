@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 1802E721-9320-4B05-9C38-6C3AC3FB413C
 ms.date: 12/05/2018
 ms.keywords: CreateEncryptedBundleReader, CreateEncryptedBundleReader method [App packaging and management], CreateEncryptedBundleReader method [App packaging and management],IAppxEncryptionFactory interface, IAppxEncryptionFactory interface [App packaging and management],CreateEncryptedBundleReader method, IAppxEncryptionFactory.CreateEncryptedBundleReader, IAppxEncryptionFactory::CreateEncryptedBundleReader, appxpackaging/IAppxEncryptionFactory::CreateEncryptedBundleReader, appxpkg.iappxencryptionfactory_createencryptedbundlereader
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxEncryptionFactory.CreateEncryptedBundleReader
 dev_langs:

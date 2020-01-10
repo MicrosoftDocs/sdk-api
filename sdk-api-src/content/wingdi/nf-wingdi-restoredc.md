@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 7043edbb-b3ea-4946-a2ba-cae356b04d1d
 ms.date: 12/05/2018
 ms.keywords: RestoreDC, RestoreDC function [Windows GDI], _win32_RestoreDC, gdi.restoredc, wingdi/RestoreDC
-ms.topic: function
 f1_keywords:
 - wingdi/RestoreDC
 dev_langs:

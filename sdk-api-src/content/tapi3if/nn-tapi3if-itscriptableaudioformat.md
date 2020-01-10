@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 6b5d069a-044f-4bd4-b661-6100a2607107
 ms.date: 12/05/2018
 ms.keywords: ITScriptableAudioFormat, ITScriptableAudioFormat interface [TAPI 2.2], ITScriptableAudioFormat interface [TAPI 2.2],described, _tapi3_itscriptableaudioformat, tapi3.itscriptableaudioformat, tapi3if/ITScriptableAudioFormat
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITScriptableAudioFormat
 dev_langs:

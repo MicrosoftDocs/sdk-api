@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 63b35b17-0b0e-46ed-9dbf-98290ab08bd1
 ms.date: 12/05/2018
 ms.keywords: RtlInstallFunctionTableCallback, RtlInstallFunctionTableCallback function, base.rtlinstallfunctiontablecallback, winnt/RtlInstallFunctionTableCallback
-ms.topic: function
 f1_keywords:
 - winnt/RtlInstallFunctionTableCallback
 dev_langs:

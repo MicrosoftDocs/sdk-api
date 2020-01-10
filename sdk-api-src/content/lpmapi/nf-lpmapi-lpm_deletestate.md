@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: 54251572-22a6-4652-a88c-7ed696911c18
 ms.date: 12/05/2018
 ms.keywords: ADM_CTRL_FAILED, FLOW_DURATION, LPM_DeleteState, LPM_DeleteState callback, LPM_DeleteState callback function [QOS], RCVD_PATH_TEAR, RCVD_RESV_TEAR, STATE_TIMEOUT, _gqos_lpm_deletestate, lpmapi/LPM_DeleteState, qos.lpm_deletestate
-ms.topic: function
 f1_keywords:
 - lpmapi/LPM_DeleteState
 dev_langs:

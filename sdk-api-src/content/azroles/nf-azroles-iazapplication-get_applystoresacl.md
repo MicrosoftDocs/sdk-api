@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 722b0693-a11f-434a-a278-780619b0077a
 ms.date: 12/05/2018
 ms.keywords: ApplyStoreSacl property [Security], ApplyStoreSacl property [Security],AzApplication object, ApplyStoreSacl property [Security],IAzApplication interface, AzApplication object [Security],ApplyStoreSacl property, IAzApplication interface [Security],ApplyStoreSacl property, IAzApplication.ApplyStoreSacl, IAzApplication.get_ApplyStoreSacl, IAzApplication::ApplyStoreSacl, IAzApplication::get_ApplyStoreSacl, IAzApplication::put_ApplyStoreSacl, azroles/IAzApplication::ApplyStoreSacl, azroles/IAzApplication::get_ApplyStoreSacl, azroles/IAzApplication::put_ApplyStoreSacl, get_ApplyStoreSacl, security.iazapplication_applystoresacl
-ms.topic: method
 f1_keywords:
 - azroles/IAzApplication.ApplyStoreSacl
 dev_langs:

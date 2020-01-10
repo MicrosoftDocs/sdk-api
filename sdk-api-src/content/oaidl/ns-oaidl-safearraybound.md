@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 303a9bdb-71d6-4f14-8747-84cf84936c6d
 ms.date: 12/05/2018
 ms.keywords: '*LPSAFEARRAYBOUND, LPSAFEARRAYBOUND, LPSAFEARRAYBOUND structure pointer [Automation], SAFEARRAYBOUND, SAFEARRAYBOUND structure [Automation], _oa96_SAFEARRAYBOUND, automat.safearraybound, oaidl/LPSAFEARRAYBOUND, oaidl/SAFEARRAYBOUND'
-ms.topic: struct
 f1_keywords:
 - oaidl/SAFEARRAYBOUND
 dev_langs:

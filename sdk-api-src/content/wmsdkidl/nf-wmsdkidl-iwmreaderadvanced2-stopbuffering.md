@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 3c380a68-d86c-421a-8102-019848893c35
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],StopBuffering method, IWMReaderAdvanced2.StopBuffering, IWMReaderAdvanced2::StopBuffering, IWMReaderAdvanced2StopBuffering, StopBuffering, StopBuffering method [windows Media Format], StopBuffering method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_stopbuffering, wmsdkidl/IWMReaderAdvanced2::StopBuffering
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderAdvanced2.StopBuffering
 dev_langs:

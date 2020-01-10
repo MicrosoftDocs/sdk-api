@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: ffde10f9-259a-400d-b83e-f8c81bbe8f94
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],put_DoNotFinalizeMedia method, IDiscFormat2TrackAtOnce.put_DoNotFinalizeMedia, IDiscFormat2TrackAtOnce::put_DoNotFinalizeMedia, imapi.idiscformat2trackatonce_put_donotfinalizemedia, imapi2/IDiscFormat2TrackAtOnce::put_DoNotFinalizeMedia, put_DoNotFinalizeMedia, put_DoNotFinalizeMedia method [IMAPI], put_DoNotFinalizeMedia method [IMAPI],IDiscFormat2TrackAtOnce interface
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2TrackAtOnce.put_DoNotFinalizeMedia
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 21167aaa-655d-48de-9f83-b98c8a91c482
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [IMAPI], Clone method [IMAPI],IEnumProgressItems interface, IEnumProgressItems interface [IMAPI],Clone method, IEnumProgressItems.Clone, IEnumProgressItems::Clone, imapi.ienumprogressitems_clone, imapi2fs/IEnumProgressItems::Clone
-ms.topic: method
 f1_keywords:
 - imapi2fs/IEnumProgressItems.Clone
 dev_langs:

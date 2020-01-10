@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: d2cff547-b4ff-454d-8e0e-cd29b91cbb07
 ms.date: 12/05/2018
 ms.keywords: IVssAsync, IVssAsync interface [VSS], IVssAsync interface [VSS],described, _win32_ivssasync, base.ivssasync, vss/IVssAsync
-ms.topic: interface
 f1_keywords:
 - vss/IVssAsync
 dev_langs:

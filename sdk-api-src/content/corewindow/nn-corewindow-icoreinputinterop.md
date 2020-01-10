@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: F7BA7EFB-D9DC-4FF2-97A4-C4818BCBD599
 ms.date: 12/05/2018
 ms.keywords: ICoreInputInterop, ICoreInputInterop interface [Windows Runtime], ICoreInputInterop interface [Windows Runtime],described, corewindow/ICoreInputInterop, winrt.icoreinputinterop
-ms.topic: interface
 f1_keywords:
 - corewindow/ICoreInputInterop
 dev_langs:

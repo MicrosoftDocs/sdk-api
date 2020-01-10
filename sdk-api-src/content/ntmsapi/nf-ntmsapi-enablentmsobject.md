@@ -7,7 +7,6 @@ tech.root: Rsm
 ms.assetid: 6a752f8e-7be0-4f2c-9bd3-3678d7328b20
 ms.date: 12/05/2018
 ms.keywords: EnableNtmsObject, EnableNtmsObject function [Files], NTMS_DRIVE, NTMS_LIBRARY, NTMS_PHYSICAL_MEDIA, _zaw_enablentmsobject, base.enablentmsobject, fs.enablentmsobject, ntmsapi/EnableNtmsObject
-ms.topic: function
 f1_keywords:
 - ntmsapi/EnableNtmsObject
 dev_langs:

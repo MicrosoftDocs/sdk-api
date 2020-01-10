@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 1cc26b91-d77b-4f8d-8c01-40b58cb03038
 ms.date: 12/05/2018
 ms.keywords: IVdsLun2, IVdsLun2 interface, IVdsLun2 interface,described, base.ivdslun2, vds/IVdsLun2, vdshwprv/IVdsLun2
-ms.topic: interface
 f1_keywords:
 - vdshwprv/IVdsLun2
 dev_langs:

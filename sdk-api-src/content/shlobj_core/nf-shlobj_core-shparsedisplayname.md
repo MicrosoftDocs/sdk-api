@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7bdfeed5-dcd0-40f6-a9d0-08ce816ee055
 ms.date: 12/05/2018
 ms.keywords: SHParseDisplayName, SHParseDisplayName function [Windows Shell], _shell_SHParseDisplayName, shell.SHParseDisplayName, shlobj_core/SHParseDisplayName
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHParseDisplayName
 dev_langs:

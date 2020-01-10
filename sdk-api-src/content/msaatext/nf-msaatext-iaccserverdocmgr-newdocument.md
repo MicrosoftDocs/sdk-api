@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 8bac6081-3b4e-45df-a900-66bc037a232f
 ms.date: 12/05/2018
 ms.keywords: IAccServerDocMgr interface [Windows Accessibility],NewDocument method, IAccServerDocMgr.NewDocument, IAccServerDocMgr::NewDocument, NewDocument, NewDocument method [Windows Accessibility], NewDocument method [Windows Accessibility],IAccServerDocMgr interface, _msaa_IAccServerDocMgr_NewDocument, msaa.iaccserverdocmgr_iaccserverdocmgr__newdocument, msaatext/IAccServerDocMgr::NewDocument, winauto.iaccserverdocmgr_iaccserverdocmgr__newdocument
-ms.topic: method
 f1_keywords:
 - msaatext/IAccServerDocMgr.NewDocument
 dev_langs:

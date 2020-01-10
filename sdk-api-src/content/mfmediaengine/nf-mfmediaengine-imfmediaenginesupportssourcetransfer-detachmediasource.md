@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: a085fc53-91a3-46bb-862c-dde16fb7fa42
 ms.date: 12/05/2018
 ms.keywords: DetachMediaSource, DetachMediaSource method [Media Foundation], DetachMediaSource method [Media Foundation],IMFMediaEngineSupportsSourceTransfer interface, IMFMediaEngineSupportsSourceTransfer interface [Media Foundation],DetachMediaSource method, IMFMediaEngineSupportsSourceTransfer.DetachMediaSource, IMFMediaEngineSupportsSourceTransfer::DetachMediaSource, mf.imfmediaenginesupportssourcetransfer_detachmediasource, mfmediaengine/IMFMediaEngineSupportsSourceTransfer::DetachMediaSource
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngineSupportsSourceTransfer.DetachMediaSource
 dev_langs:

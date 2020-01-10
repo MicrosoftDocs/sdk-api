@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 5ec33743-d362-43d9-a66e-8223745b9664
 ms.date: 12/05/2018
 ms.keywords: CreatePackageRootUri, CreatePackageRootUri method [Open Packaging Conventions], CreatePackageRootUri method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreatePackageRootUri method, IOpcFactory.CreatePackageRootUri, IOpcFactory::CreatePackageRootUri, msopc/IOpcFactory::CreatePackageRootUri, opc.iopcfactory_createpackagerooturi
-ms.topic: method
 f1_keywords:
 - msopc/IOpcFactory.CreatePackageRootUri
 dev_langs:

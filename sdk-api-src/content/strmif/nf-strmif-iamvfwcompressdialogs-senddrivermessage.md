@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b1558888-a8aa-416a-bb5b-a33a66dcb913
 ms.date: 12/05/2018
 ms.keywords: IAMVfwCompressDialogs interface [DirectShow],SendDriverMessage method, IAMVfwCompressDialogs.SendDriverMessage, IAMVfwCompressDialogs::SendDriverMessage, IAMVfwCompressDialogsSendDriverMessage, SendDriverMessage, SendDriverMessage method [DirectShow], SendDriverMessage method [DirectShow],IAMVfwCompressDialogs interface, dshow.iamvfwcompressdialogs_senddrivermessage, strmif/IAMVfwCompressDialogs::SendDriverMessage
-ms.topic: method
 f1_keywords:
 - strmif/IAMVfwCompressDialogs.SendDriverMessage
 dev_langs:

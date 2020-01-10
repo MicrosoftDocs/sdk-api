@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 4ecc371c-34fa-4073-96fe-0de03b84d7e3
 ms.date: 12/05/2018
 ms.keywords: AbortDoc, AbortDoc function [Windows GDI], _win32_AbortDoc, gdi.abortdoc, wingdi/AbortDoc
-ms.topic: function
 f1_keywords:
 - wingdi/AbortDoc
 dev_langs:

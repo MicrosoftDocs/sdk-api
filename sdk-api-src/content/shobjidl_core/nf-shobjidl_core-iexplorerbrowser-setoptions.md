@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b2f8fe1b-afcd-4fb0-b96b-41e38c7fea0b
 ms.date: 12/05/2018
 ms.keywords: IExplorerBrowser interface [Windows Shell],SetOptions method, IExplorerBrowser.SetOptions, IExplorerBrowser::SetOptions, SetOptions, SetOptions method [Windows Shell], SetOptions method [Windows Shell],IExplorerBrowser interface, _shell_IExplorerBrowser_SetOptions, shell.IExplorerBrowser_SetOptions, shobjidl_core/IExplorerBrowser::SetOptions
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IExplorerBrowser.SetOptions
 dev_langs:

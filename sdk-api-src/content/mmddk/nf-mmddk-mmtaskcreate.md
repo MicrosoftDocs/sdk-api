@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 9e5cad11-ed26-4c19-89e0-dbf6be9af78c
 ms.date: 12/05/2018
 ms.keywords: mmTaskCreate, mmTaskCreate function [Windows Multimedia], mmddk/mmTaskCreate, multimedia.mmtaskcreate
-ms.topic: function
 f1_keywords:
 - mmddk/mmTaskCreate
 dev_langs:

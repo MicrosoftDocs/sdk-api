@@ -7,7 +7,6 @@ tech.root: wcm
 ms.assetid: ceef4e74-3c67-4267-a82a-9912c039f41c
 ms.date: 12/05/2018
 ms.keywords: WcmGetProfileList, WcmGetProfileList function [Windows Connection Manager], wcm.wcmgetprofilelist, wcmapi/WcmGetProfileList
-ms.topic: function
 f1_keywords:
 - wcmapi/WcmGetProfileList
 dev_langs:

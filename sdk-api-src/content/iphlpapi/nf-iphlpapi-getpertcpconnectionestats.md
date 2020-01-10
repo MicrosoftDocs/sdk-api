@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 71b9d795-6050-4a1a-9949-2c970801f52c
 ms.date: 12/05/2018
 ms.keywords: GetPerTcpConnectionEStats, GetPerTcpConnectionEStats function [IP Helper], TcpConnectionEstatsBandwidth, TcpConnectionEstatsData, TcpConnectionEstatsFineRtt, TcpConnectionEstatsObsRec, TcpConnectionEstatsPath, TcpConnectionEstatsRec, TcpConnectionEstatsSendBuff, TcpConnectionEstatsSndCong, TcpConnectionEstatsSynOpts, iphlp.getpertcpconnectionestats, iphlpapi/GetPerTcpConnectionEStats
-ms.topic: function
 f1_keywords:
 - iphlpapi/GetPerTcpConnectionEStats
 dev_langs:

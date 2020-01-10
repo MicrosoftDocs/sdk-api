@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: e31ab530-cb60-4bb0-be44-3ba90fdf71f1
 ms.date: 12/05/2018
 ms.keywords: RasCustomScriptExecute, RasCustomScriptExecute callback function [RAS], RasCustomScriptExecuteFn, RasCustomScriptExecuteFn callback, _ras_rascustomscriptexecute, ras/RasCustomScriptExecute, rras.rascustomscriptexecute
-ms.topic: callback
 f1_keywords:
 - ras/RasCustomScriptExecute
 dev_langs:

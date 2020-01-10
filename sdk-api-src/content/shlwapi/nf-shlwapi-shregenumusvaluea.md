@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 78ba5df4-8ee3-473f-b3ef-0bca65bb0a2a
 ms.date: 12/05/2018
 ms.keywords: SHRegEnumUSValue, SHRegEnumUSValue function [Windows Shell], SHRegEnumUSValueA, SHRegEnumUSValueW, _win32_SHRegEnumUSValue, shell.SHRegEnumUSValue, shlwapi/SHRegEnumUSValue, shlwapi/SHRegEnumUSValueA, shlwapi/SHRegEnumUSValueW
-ms.topic: function
 f1_keywords:
 - shlwapi/SHRegEnumUSValue
 dev_langs:

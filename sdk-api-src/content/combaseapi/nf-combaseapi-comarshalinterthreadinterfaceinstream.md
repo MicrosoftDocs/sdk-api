@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: c9ab8713-8604-4f0b-a11b-bdfb7d595d95
 ms.date: 12/05/2018
 ms.keywords: CoMarshalInterThreadInterfaceInStream, CoMarshalInterThreadInterfaceInStream function [COM], _com_CoMarshalInterThreadInterfaceInStream, com.comarshalinterthreadinterfaceinstream, combaseapi/CoMarshalInterThreadInterfaceInStream
-ms.topic: function
 f1_keywords:
 - combaseapi/CoMarshalInterThreadInterfaceInStream
 dev_langs:

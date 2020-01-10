@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 03e66c5b-9b76-4a40-8bd4-f640b689ce27
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetINFClass, SetupDiGetINFClass function [Device and Driver Installation], SetupDiGetINFClassA, SetupDiGetINFClassW, devinst.setupdigetinfclass, di-rtns_10b0e077-9fb8-4d84-9c74-10b896774d40.xml, setupapi/SetupDiGetINFClass
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetINFClass
 dev_langs:

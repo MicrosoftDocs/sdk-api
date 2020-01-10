@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ae4ae516-743f-4a27-90d5-108ca26aadd4
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_WindowStyle method, IVideoWindow.get_WindowStyle, IVideoWindow::get_WindowStyle, IVideoWindowget_WindowStyle, control/IVideoWindow::get_WindowStyle, dshow.ivideowindow_get_windowstyle, get_WindowStyle, get_WindowStyle method [DirectShow], get_WindowStyle method [DirectShow],IVideoWindow interface
-ms.topic: method
 f1_keywords:
 - control/IVideoWindow.get_WindowStyle
 dev_langs:

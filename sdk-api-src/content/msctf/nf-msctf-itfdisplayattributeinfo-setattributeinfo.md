@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 3e9a472c-7992-48fc-be47-993f6d53f043
 ms.date: 12/05/2018
 ms.keywords: ITfDisplayAttributeInfo interface [Text Services Framework],SetAttributeInfo method, ITfDisplayAttributeInfo.SetAttributeInfo, ITfDisplayAttributeInfo::SetAttributeInfo, SetAttributeInfo, SetAttributeInfo method [Text Services Framework], SetAttributeInfo method [Text Services Framework],ITfDisplayAttributeInfo interface, _tsf_itfdisplayattributeinfo_setattributeinfo_ref, msctf/ITfDisplayAttributeInfo::SetAttributeInfo, tsf.itfdisplayattributeinfo_setattributeinfo
-ms.topic: method
 f1_keywords:
 - msctf/ITfDisplayAttributeInfo.SetAttributeInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: 6E9AB09B-B082-406C-8F2D-43BEA04C19E0
 ms.date: 12/05/2018
 ms.keywords: PowerUnregisterFromEffectivePowerModeNotifications, PowerUnregisterFromEffectivePowerModeNotifications function, base.powerunregisterfromeffectivepowermodenotifications, powersetting/PowerUnregisterFromEffectivePowerModeNotifications
-ms.topic: function
 f1_keywords:
 - powersetting/PowerUnregisterFromEffectivePowerModeNotifications
 dev_langs:

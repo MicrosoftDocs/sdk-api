@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 53af902c-8c0e-4815-a0b1-6b59a970040d
 ms.date: 12/05/2018
 ms.keywords: _win32_waveOutSetPlaybackRate, mmeapi/waveOutSetPlaybackRate, multimedia.waveoutsetplaybackrate, waveOutSetPlaybackRate, waveOutSetPlaybackRate function [Windows Multimedia]
-ms.topic: function
 f1_keywords:
 - mmeapi/waveOutSetPlaybackRate
 dev_langs:

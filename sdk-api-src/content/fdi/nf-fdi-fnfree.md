@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 646a0cb4-1f3a-42a1-a508-12d80bdb4a01
 ms.date: 12/05/2018
 ms.keywords: FNFREE, FNFREE macro [Windows API], fdi/FNFREE, winprog.fnfree
-ms.topic: macro
 f1_keywords:
 - fdi/FNFREE
 dev_langs:

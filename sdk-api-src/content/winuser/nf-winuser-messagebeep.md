@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 70681472-36a5-4ae3-b769-0421cf97ff2a
 ms.date: 12/05/2018
 ms.keywords: MessageBeep, MessageBeep function, _win32_messagebeep, base.messagebeep, winuser/MessageBeep
-ms.topic: function
 f1_keywords:
 - winuser/MessageBeep
 dev_langs:

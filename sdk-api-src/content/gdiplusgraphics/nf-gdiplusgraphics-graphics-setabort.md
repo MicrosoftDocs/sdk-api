@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawimagemethods\setabort.htm
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],SetAbort method, Graphics.SetAbort, Graphics::SetAbort, SetAbort, SetAbort method [GDI+], SetAbort method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_SetAbort_, gdiplus._gdiplus_CLASS_Graphics_SetAbort_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.SetAbort
 dev_langs:

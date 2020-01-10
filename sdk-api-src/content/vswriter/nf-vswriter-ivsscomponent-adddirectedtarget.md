@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 927865ff-f3c4-4863-913e-cfffb7bbdbb2
 ms.date: 12/05/2018
 ms.keywords: AddDirectedTarget, AddDirectedTarget method [VSS], AddDirectedTarget method [VSS],IVssComponent interface, IVssComponent interface [VSS],AddDirectedTarget method, IVssComponent.AddDirectedTarget, IVssComponent::AddDirectedTarget, _win32_ivsscomponent_adddirectedtarget, base.ivsscomponent_adddirectedtarget, vswriter/IVssComponent::AddDirectedTarget
-ms.topic: method
 f1_keywords:
 - vswriter/IVssComponent.AddDirectedTarget
 dev_langs:

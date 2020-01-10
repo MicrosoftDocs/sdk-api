@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: afb13501-3a87-433a-a05e-139103060109
 ms.date: 12/05/2018
 ms.keywords: SetTimeZoneInformation, SetTimeZoneInformation function, _win32_settimezoneinformation, base.settimezoneinformation, timezoneapi/SetTimeZoneInformation
-ms.topic: function
 f1_keywords:
 - timezoneapi/SetTimeZoneInformation
 dev_langs:

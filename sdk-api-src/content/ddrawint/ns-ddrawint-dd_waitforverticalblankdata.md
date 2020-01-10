@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 27224fb2-3843-4843-b66f-0a3dd8325e1f
 ms.date: 12/05/2018
 ms.keywords: '*PDD_WAITFORVERTICALBLANKDATA, DDHAL_WAITFORVERTICALBLANKDATA, DDHAL_WAITFORVERTICALBLANKDATA structure [Display Devices], DD_WAITFORVERTICALBLANKDATA, DD_WAITFORVERTICALBLANKDATA structure [Display Devices], ddrawint/DD_WAITFORVERTICALBLANKDATA, ddstrcts_cd09b34a-249c-4166-8624-bb638cf4bfe1.xml, display.dd_waitforverticalblankdata'
-ms.topic: struct
 f1_keywords:
 - ddrawint/DDHAL_WAITFORVERTICALBLANKDATA
 dev_langs:

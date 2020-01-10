@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e0175b44-d1e6-4f3a-8aa7-893b41d0c487
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],get_AntiClogControl method, IAMExtTransport.get_AntiClogControl, IAMExtTransport::get_AntiClogControl, IAMExtTransportget_AntiClogControl, dshow.iamexttransport_get_anticlogcontrol, get_AntiClogControl, get_AntiClogControl method [DirectShow], get_AntiClogControl method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::get_AntiClogControl
-ms.topic: method
 f1_keywords:
 - strmif/IAMExtTransport.get_AntiClogControl
 dev_langs:

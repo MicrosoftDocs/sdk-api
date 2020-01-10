@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: fe9c736b-e047-4aa3-a3de-d5f2f2cdab4f
 ms.date: 12/05/2018
 ms.keywords: SetSecurityDescriptorRMControl, SetSecurityDescriptorRMControl function [Security], _win32_setsecuritydescriptorrmcontrol, security.setsecuritydescriptorrmcontrol, securitybaseapi/SetSecurityDescriptorRMControl
-ms.topic: function
 f1_keywords:
 - securitybaseapi/SetSecurityDescriptorRMControl
 dev_langs:

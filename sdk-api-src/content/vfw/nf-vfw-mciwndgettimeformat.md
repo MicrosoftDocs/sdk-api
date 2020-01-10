@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 91d212b5-1c30-4470-9f94-f704ed53a615
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetTimeFormat, MCIWndGetTimeFormat macro [Windows Multimedia], _win32_MCIWndGetTimeFormat, multimedia.mciwndgettimeformat, vfw/MCIWndGetTimeFormat
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndGetTimeFormat
 dev_langs:

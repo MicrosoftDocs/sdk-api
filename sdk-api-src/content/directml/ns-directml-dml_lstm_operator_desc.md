@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: B2225A27-EB5B-46BC-A224-6A07D869C001
 ms.date: 12/5/2018
 ms.keywords: DML_LSTM_OPERATOR_DESC, DML_LSTM_OPERATOR_DESC structure, direct3d12.dml_lstm_operator_desc, directml/DML_LSTM_OPERATOR_DESC
-ms.topic: struct
 f1_keywords:
 - directml/DML_LSTM_OPERATOR_DESC
 dev_langs:

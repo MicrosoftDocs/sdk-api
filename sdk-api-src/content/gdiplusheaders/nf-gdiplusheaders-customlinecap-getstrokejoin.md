@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\getstrokejoin.htm
 ms.date: 12/05/2018
 ms.keywords: CustomLineCap class [GDI+],GetStrokeJoin method, CustomLineCap.GetStrokeJoin, CustomLineCap::GetStrokeJoin, GetStrokeJoin, GetStrokeJoin method [GDI+], GetStrokeJoin method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_GetStrokeJoin_, gdiplus._gdiplus_CLASS_CustomLineCap_GetStrokeJoin_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/CustomLineCap.GetStrokeJoin
 dev_langs:

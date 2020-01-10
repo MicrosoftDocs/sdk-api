@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\setthemeappproperties.htm
 ms.date: 12/05/2018
 ms.keywords: SetThemeAppProperties, SetThemeAppProperties function [Windows Controls], controls.SetThemeAppProperties, controls.inet_SetThemeAppProperties, inet_SetThemeAppProperties, inet_SetThemeAppProperties_cpp, uxtheme/SetThemeAppProperties
-ms.topic: function
 f1_keywords:
 - uxtheme/SetThemeAppProperties
 dev_langs:

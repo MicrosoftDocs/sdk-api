@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a9afaeb7-e2d4-4dbf-9f4d-144cafbd5e28
 ms.date: 12/05/2018
 ms.keywords: IAMDirectSound, IAMDirectSound interface [DirectShow], IAMDirectSound interface [DirectShow],described, IAMDirectSoundInterface, amaudio/IAMDirectSound, dshow.iamdirectsound
-ms.topic: interface
 f1_keywords:
 - amaudio/IAMDirectSound
 dev_langs:

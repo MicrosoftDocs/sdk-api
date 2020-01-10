@@ -7,7 +7,6 @@ tech.root: wcn
 ms.assetid: 06a73bb5-c339-4069-853d-ab22c15c1462
 ms.date: 12/05/2018
 ms.keywords: GetAttribute, GetAttribute method [Windows Connect Now], GetAttribute method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],GetAttribute method, IWCNDevice.GetAttribute, IWCNDevice::GetAttribute, wcn.iwcndevice_getattribute, wcndevice/IWCNDevice::GetAttribute
-ms.topic: method
 f1_keywords:
 - wcndevice/IWCNDevice.GetAttribute
 dev_langs:

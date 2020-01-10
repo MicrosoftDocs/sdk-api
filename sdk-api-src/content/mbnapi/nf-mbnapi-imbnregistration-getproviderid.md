@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 0b21a103-2b49-4d99-8041-c9da9cbc5750
 ms.date: 12/05/2018
 ms.keywords: GetProviderID, GetProviderID method [Microsoft Broadband Networks], GetProviderID method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetProviderID method, IMbnRegistration.GetProviderID, IMbnRegistration::GetProviderID, mbn.imbnregistration_getproviderid, mbnapi/IMbnRegistration::GetProviderID
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnRegistration.GetProviderID
 dev_langs:

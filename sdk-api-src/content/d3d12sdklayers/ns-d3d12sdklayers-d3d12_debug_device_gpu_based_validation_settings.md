@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 2C4E7A8D-CC42-4C2E-848E-7DA3ECA24391
 ms.date: 12/05/2018
 ms.keywords: D3D12_DEBUG_DEVICE_GPU_BASED_VALIDATION_SETTINGS, D3D12_DEBUG_DEVICE_GPU_BASED_VALIDATION_SETTINGS structure, d3d12sdklayers/D3D12_DEBUG_DEVICE_GPU_BASED_VALIDATION_SETTINGS, direct3d12.d3d12_debug_device_gpu_based_validation_settings
-ms.topic: struct
 f1_keywords:
 - d3d12sdklayers/D3D12_DEBUG_DEVICE_GPU_BASED_VALIDATION_SETTINGS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 1fef5fbf-de3f-43c6-8b94-808f6ed209d8
 ms.date: 12/05/2018
 ms.keywords: MprAdminConnectionGetInfo, MprAdminConnectionGetInfo function [RAS], _mpr_mpradminconnectiongetinfo, mprapi/MprAdminConnectionGetInfo, rras.mpradminconnectiongetinfo
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminConnectionGetInfo
 dev_langs:

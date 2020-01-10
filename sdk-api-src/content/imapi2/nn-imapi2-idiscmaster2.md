@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: cdca44d4-6ab5-4c2f-91ba-bef79b1d457e
 ms.date: 12/05/2018
 ms.keywords: IDiscMaster2, IDiscMaster2 interface [IMAPI], IDiscMaster2 interface [IMAPI],described, imapi.idiscmaster2, imapi2/IDiscMaster2
-ms.topic: interface
 f1_keywords:
 - imapi2/IDiscMaster2
 dev_langs:

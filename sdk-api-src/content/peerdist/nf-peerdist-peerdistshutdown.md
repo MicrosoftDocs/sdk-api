@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 47fe4a77-2895-4d5b-beff-995e12fb0644
 ms.date: 12/05/2018
 ms.keywords: PeerDistShutdown, PeerDistShutdown function [Peer Networking], p2p.peerdistshutdown, peerdist/PeerDistShutdown
-ms.topic: function
 f1_keywords:
 - peerdist/PeerDistShutdown
 dev_langs:

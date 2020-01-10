@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3e4c20cb-0b46-4f84-bbd1-860fdedde8c8
 ms.date: 12/05/2018
 ms.keywords: StrChr, StrChr function [Windows Shell], StrChrA, StrChrW, _win32_StrChr, shell.StrChr, shlwapi/StrChr, shlwapi/StrChrA, shlwapi/StrChrW
-ms.topic: function
 f1_keywords:
 - shlwapi/StrChr
 dev_langs:

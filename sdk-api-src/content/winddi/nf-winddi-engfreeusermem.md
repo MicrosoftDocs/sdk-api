@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 3d409288-697e-4fa7-8ca9-ae80335f48a2
 ms.date: 12/05/2018
 ms.keywords: EngFreeUserMem, EngFreeUserMem function [Display Devices], display.engfreeusermem, gdifncs_954f4161-3780-41ac-9a53-fa60051cc637.xml, winddi/EngFreeUserMem
-ms.topic: macro
 f1_keywords:
 - winddi/EngFreeUserMem
 dev_langs:

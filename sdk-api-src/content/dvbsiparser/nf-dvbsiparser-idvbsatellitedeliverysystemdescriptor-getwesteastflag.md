@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 533a2ed4-f5ac-4f41-a03b-0b274f327436
 ms.date: 12/05/2018
 ms.keywords: GetWestEastFlag, GetWestEastFlag method [Microsoft TV Technologies], GetWestEastFlag method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetWestEastFlag method, IDvbSatelliteDeliverySystemDescriptor.GetWestEastFlag, IDvbSatelliteDeliverySystemDescriptor::GetWestEastFlag, IDvbSatelliteDeliverySystemDescriptorGetWestEastFlag, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetWestEastFlag, mstv.idvbsatellitedeliverysystemdescriptor_getwesteastflag
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbSatelliteDeliverySystemDescriptor.GetWestEastFlag
 dev_langs:

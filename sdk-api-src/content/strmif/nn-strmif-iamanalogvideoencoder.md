@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: fb2927cf-c979-411f-a896-d010b684acf2
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoEncoder, IAMAnalogVideoEncoder interface [DirectShow], IAMAnalogVideoEncoder interface [DirectShow],described, IAMAnalogVideoEncoderInterface, dshow.iamanalogvideoencoder, strmif/IAMAnalogVideoEncoder
-ms.topic: interface
 f1_keywords:
 - strmif/IAMAnalogVideoEncoder
 dev_langs:

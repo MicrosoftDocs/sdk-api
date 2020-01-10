@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: dfde73f2-edb9-4ab9-9394-d859e61a6db8
 ms.date: 12/05/2018
 ms.keywords: GetAltMonthNames, GetAltMonthNames function [Automation], _oa96_GetAltMonthNames, automat.getaltmonthnames, oleauto/GetAltMonthNames
-ms.topic: function
 f1_keywords:
 - oleauto/GetAltMonthNames
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: aa99ced1-c32b-4bf5-b29a-e16eceddfed1
 ms.date: 12/05/2018
 ms.keywords: GetUserData, GetUserData method [Media Foundation], GetUserData method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetUserData method, IMFPMediaItem.GetUserData, IMFPMediaItem::GetUserData, mf.imfpmediaitem_getuserdata, mfplay/IMFPMediaItem::GetUserData
-ms.topic: method
 f1_keywords:
 - mfplay/IMFPMediaItem.GetUserData
 dev_langs:

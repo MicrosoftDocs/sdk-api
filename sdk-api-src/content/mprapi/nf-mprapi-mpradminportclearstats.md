@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: dd932134-7954-4e0a-8170-1dea4ce82011
 ms.date: 12/05/2018
 ms.keywords: MprAdminPortClearStats, MprAdminPortClearStats function [RAS], _mpr_mpradminportclearstats, mprapi/MprAdminPortClearStats, rras.mpradminportclearstats
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminPortClearStats
 dev_langs:

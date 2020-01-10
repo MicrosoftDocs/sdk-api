@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_1cpx.htm
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Indexing Service], GetValue method [Indexing Service],IFilter interface, IFilter interface [Indexing Service],GetValue method, IFilter.GetValue, IFilter::GetValue, _idxs_IFilter_GetValue, filter/IFilter::GetValue, indexsrv.ifilter_getvalue
-ms.topic: method
 f1_keywords:
 - filter/IFilter.GetValue
 dev_langs:

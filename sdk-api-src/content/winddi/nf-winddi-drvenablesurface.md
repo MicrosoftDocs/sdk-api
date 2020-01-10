@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: a838a44a-243c-4d0d-bda3-eec9a626cb53
 ms.date: 12/05/2018
 ms.keywords: DrvEnableSurface, DrvEnableSurface function [Display Devices], ddifncs_c0044970-ac75-4dae-af55-f6fd87079dbb.xml, display.drvenablesurface, winddi/DrvEnableSurface
-ms.topic: function
 f1_keywords:
 - winddi/DrvEnableSurface
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 02cbe6f3-2ee8-480b-b9c1-a2dbaf80fa26
 ms.date: 12/05/2018
 ms.keywords: IShellIconOverlayIdentifier interface [Windows Shell],IsMemberOf method, IShellIconOverlayIdentifier.IsMemberOf, IShellIconOverlayIdentifier::IsMemberOf, IsMemberOf, IsMemberOf method [Windows Shell], IsMemberOf method [Windows Shell],IShellIconOverlayIdentifier interface, _win32_IShellIconOverlayIdentifier_IsMemberOf, shell.IShellIconOverlayIdentifier_IsMemberOf, shobjidl_core/IShellIconOverlayIdentifier::IsMemberOf
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellIconOverlayIdentifier.IsMemberOf
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenuiteminfo.htm
 ms.date: 12/05/2018
 ms.keywords: GetMenuItemInfo, GetMenuItemInfo function [Menus and Other Resources], GetMenuItemInfoA, GetMenuItemInfoW, _win32_GetMenuItemInfo, _win32_getmenuiteminfo_cpp, menurc.getmenuiteminfo, winui._win32_getmenuiteminfo, winuser/GetMenuItemInfo, winuser/GetMenuItemInfoA, winuser/GetMenuItemInfoW
-ms.topic: function
 f1_keywords:
 - winuser/GetMenuItemInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2e50b23e-2725-4200-bd5e-845ff3458026
 ms.date: 12/05/2018
 ms.keywords: PathCchStripPrefix, PathCchStripPrefix function [Windows Shell], pathcch/PathCchStripPrefix, shell.PathCchStripPrefix
-ms.topic: function
 f1_keywords:
 - pathcch/PathCchStripPrefix
 dev_langs:

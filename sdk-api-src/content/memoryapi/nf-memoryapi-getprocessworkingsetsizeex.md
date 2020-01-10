@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: d2de0bf2-012b-480c-a1a5-54e4d3928381
 ms.date: 12/05/2018
 ms.keywords: GetProcessWorkingSetSizeEx, GetProcessWorkingSetSizeEx function, QUOTA_LIMITS_HARDWS_MAX_DISABLE, QUOTA_LIMITS_HARDWS_MAX_ENABLE, QUOTA_LIMITS_HARDWS_MIN_DISABLE, QUOTA_LIMITS_HARDWS_MIN_ENABLE, base.getprocessworkingsetsizeex, memoryapi/GetProcessWorkingSetSizeEx, winbase/GetProcessWorkingSetSizeEx
-ms.topic: function
 f1_keywords:
 - memoryapi/GetProcessWorkingSetSizeEx
 dev_langs:

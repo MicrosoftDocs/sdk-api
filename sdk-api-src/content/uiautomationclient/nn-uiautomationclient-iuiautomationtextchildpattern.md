@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 0669C1F6-8C82-474E-B697-B3C4EA2D60CB
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextChildPattern, IUIAutomationTextChildPattern interface [Windows Accessibility], IUIAutomationTextChildPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationTextChildPattern, winauto.uiauto_IUIAutomationTextChildPattern
-ms.topic: interface
 f1_keywords:
 - uiautomationclient/IUIAutomationTextChildPattern
 dev_langs:

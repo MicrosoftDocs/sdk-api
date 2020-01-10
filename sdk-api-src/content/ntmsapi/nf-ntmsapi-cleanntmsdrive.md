@@ -7,7 +7,6 @@ tech.root: Rsm
 ms.assetid: 55a8e7c0-85fd-40c5-b5b9-46ad321761c4
 ms.date: 12/05/2018
 ms.keywords: CleanNtmsDrive, CleanNtmsDrive function [Files], _zaw_cleanntmsdrive, base.cleanntmsdrive, fs.cleanntmsdrive, ntmsapi/CleanNtmsDrive
-ms.topic: function
 f1_keywords:
 - ntmsapi/CleanNtmsDrive
 dev_langs:

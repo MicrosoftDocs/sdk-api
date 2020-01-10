@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 28099350-5759-4595-8353-3452c5cf6ca8
 ms.date: 12/05/2018
 ms.keywords: StrNCat, StrNCat function [Windows Shell], StrNCatA, StrNCatW, _win32_StrNCat, shell.StrNCat, shlwapi/StrNCat, shlwapi/StrNCatA, shlwapi/StrNCatW
-ms.topic: function
 f1_keywords:
 - shlwapi/StrNCat
 dev_langs:

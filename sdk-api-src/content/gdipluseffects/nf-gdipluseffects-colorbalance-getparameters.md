@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorbalanceclass\colorbalancemethods\getparameters.htm
 ms.date: 12/05/2018
 ms.keywords: ColorBalance class [GDI+],GetParameters method, ColorBalance.GetParameters, ColorBalance::GetParameters, GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],ColorBalance class, _gdiplus_CLASS_ColorBalance_GetParameters_, gdiplus._gdiplus_CLASS_ColorBalance_GetParameters_
-ms.topic: method
 f1_keywords:
 - gdipluseffects/ColorBalance.GetParameters
 dev_langs:

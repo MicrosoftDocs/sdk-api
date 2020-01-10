@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\name.htm
 ms.date: 12/05/2018
 ms.keywords: IEntity interface [search],Name method, IEntity.Name, IEntity::Name, Name, Name method [search], Name method [search],IEntity interface, _search_IEntity_Name, search._search_IEntity_Name, structuredquery/IEntity::Name
-ms.topic: method
 f1_keywords:
 - structuredquery/IEntity.Name
 dev_langs:

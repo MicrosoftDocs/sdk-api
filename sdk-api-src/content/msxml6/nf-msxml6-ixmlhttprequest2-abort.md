@@ -7,7 +7,6 @@ tech.root: ixhr2
 ms.assetid: B051D464-2328-44A2-A2BC-D0CDDCA79C64
 ms.date: 12/05/2018
 ms.keywords: Abort, Abort method [XMLHttpRequest2], Abort method [XMLHttpRequest2],IXMLHTTPRequest2 interface, IXMLHTTPRequest2 interface [XMLHttpRequest2],Abort method, IXMLHTTPRequest2.Abort, IXMLHTTPRequest2::Abort, ixhr2.ixmlhttprequest2_abort, msxml6/IXMLHTTPRequest2::Abort
-ms.topic: method
 f1_keywords:
 - msxml6/IXMLHTTPRequest2.Abort
 dev_langs:

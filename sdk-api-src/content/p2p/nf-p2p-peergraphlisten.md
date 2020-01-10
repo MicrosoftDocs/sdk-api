@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: bac893d4-8f4d-4e1f-953b-1b289c5f18be
 ms.date: 12/05/2018
 ms.keywords: PEER_GRAPH_SCOPE_GLOBAL, PEER_GRAPH_SCOPE_LINKLOCAL, PEER_GRAPH_SCOPE_SITELOCAL, PeerGraphListen, PeerGraphListen function [Peer Networking], p2p.peergraphlisten, p2p/PeerGraphListen
-ms.topic: function
 f1_keywords:
 - p2p/PeerGraphListen
 dev_langs:

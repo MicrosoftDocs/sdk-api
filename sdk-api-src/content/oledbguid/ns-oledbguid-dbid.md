@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_4bhg.htm
 ms.date: 12/05/2018
 ms.keywords: DBID, DBID structure [Indexing Service], _idxs_DBID, indexsrv.dbid, oledbguid/DBID, tagDBID
-ms.topic: struct
 f1_keywords:
 - oledbguid/DBID
 dev_langs:

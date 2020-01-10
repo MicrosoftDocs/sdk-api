@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: eeaec7f4-2dfe-42a9-8789-a9ce11aec7b2
 ms.date: 12/05/2018
 ms.keywords: DrvStretchBltROP, DrvStretchBltROP function [Display Devices], ddifncs_c25f3aa6-9564-4189-b956-51cd2729576c.xml, display.drvstretchbltrop, winddi/DrvStretchBltROP
-ms.topic: function
 f1_keywords:
 - winddi/DrvStretchBltROP
 dev_langs:

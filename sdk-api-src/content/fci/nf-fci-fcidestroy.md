@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: bb1a6294-664f-450f-b8ec-d6f8957d920e
 ms.date: 12/05/2018
 ms.keywords: FCIDestroy, FCIDestroy function [Windows API], fci/FCIDestroy, winprog.fcidestroy
-ms.topic: function
 f1_keywords:
 - fci/FCIDestroy
 dev_langs:

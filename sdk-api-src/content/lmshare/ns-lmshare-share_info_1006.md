@@ -7,7 +7,6 @@ tech.root: NetShare
 ms.assetid: 645a8670-5661-4d6c-8d9e-67c1bbb0f1d7
 ms.date: 12/05/2018
 ms.keywords: '*LPSHARE_INFO_1006, *PSHARE_INFO_1006, LPSHARE_INFO_1006, LPSHARE_INFO_1006 structure pointer [Files], PSHARE_INFO_1006, PSHARE_INFO_1006 structure pointer [Files], SHARE_INFO_1006, SHARE_INFO_1006 structure [Files], _win32_share_info_1006_str, fs.share_info_1006_str, lmshare/LPSHARE_INFO_1006, lmshare/PSHARE_INFO_1006, lmshare/SHARE_INFO_1006, netmgmt.share_info_1006_str'
-ms.topic: struct
 f1_keywords:
 - lmshare/SHARE_INFO_1006
 dev_langs:

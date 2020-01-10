@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 12490859-bb4a-49ff-9d92-24bf04ab3999
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCmc2 interface [Security],InitializeFromInnerRequestTemplate method, IX509CertificateRequestCmc2.InitializeFromInnerRequestTemplate, IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate, InitializeFromInnerRequestTemplate, InitializeFromInnerRequestTemplate method [Security], InitializeFromInnerRequestTemplate method [Security],IX509CertificateRequestCmc2 interface, certenroll/IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate, security.ix509certificaterequestcmc2_initializefrominnerrequesttemplate
-ms.topic: method
 f1_keywords:
 - certenroll/IX509CertificateRequestCmc2.InitializeFromInnerRequestTemplate
 dev_langs:

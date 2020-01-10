@@ -7,7 +7,6 @@ tech.root: iSCSIDisc
 ms.assetid: 9e21dde6-face-40ae-803b-2aa7861e6f4f
 ms.date: 12/05/2018
 ms.keywords: ClearPersistentIScsiDevices, ClearPersistentiScsiDevices, ClearPersistentiScsiDevices function [iSCSI Discovery Library API], iscsidisc.clearpersistentiscsidevices, iscsidsc/ClearPersistentiScsiDevices
-ms.topic: function
 f1_keywords:
 - iscsidsc/ClearPersistentiScsiDevices
 dev_langs:

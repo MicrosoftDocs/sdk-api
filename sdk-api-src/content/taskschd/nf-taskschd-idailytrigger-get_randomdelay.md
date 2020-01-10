@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: d9764132-3329-4d1f-9669-db727c0e904a
 ms.date: 12/05/2018
 ms.keywords: IDailyTrigger interface [Task Scheduler],RandomDelay property, IDailyTrigger.RandomDelay, IDailyTrigger.get_RandomDelay, IDailyTrigger::RandomDelay, IDailyTrigger::get_RandomDelay, IDailyTrigger::put_RandomDelay, RandomDelay property [Task Scheduler], RandomDelay property [Task Scheduler],IDailyTrigger interface, get_RandomDelay, taskschd.idailytrigger_randomdelay, taskschd/IDailyTrigger::RandomDelay, taskschd/IDailyTrigger::get_RandomDelay, taskschd/IDailyTrigger::put_RandomDelay
-ms.topic: method
 f1_keywords:
 - taskschd/IDailyTrigger.RandomDelay
 dev_langs:

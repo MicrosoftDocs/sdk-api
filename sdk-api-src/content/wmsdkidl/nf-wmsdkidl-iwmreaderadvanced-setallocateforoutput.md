@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: fba76c75-6179-4e10-9a3c-8e604e392cca
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced interface [windows Media Format],SetAllocateForOutput method, IWMReaderAdvanced.SetAllocateForOutput, IWMReaderAdvanced::SetAllocateForOutput, IWMReaderAdvancedSetAllocateForOutput, SetAllocateForOutput, SetAllocateForOutput method [windows Media Format], SetAllocateForOutput method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_setallocateforoutput, wmsdkidl/IWMReaderAdvanced::SetAllocateForOutput
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderAdvanced.SetAllocateForOutput
 dev_langs:

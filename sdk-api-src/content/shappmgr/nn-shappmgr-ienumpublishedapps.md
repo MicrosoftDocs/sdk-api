@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 89a06b1d-1b72-46ca-91cd-bb63ea0cbff7
 ms.date: 12/05/2018
 ms.keywords: IEnumPublishedApps, IEnumPublishedApps interface [Windows Shell], IEnumPublishedApps interface [Windows Shell],described, inet_IEnumPublishedApps, shappmgr/IEnumPublishedApps, shell.IEnumPublishedApps
-ms.topic: interface
 f1_keywords:
 - shappmgr/IEnumPublishedApps
 dev_langs:

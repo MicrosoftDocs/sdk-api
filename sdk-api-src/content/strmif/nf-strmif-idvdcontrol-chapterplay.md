@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c51524d0-5935-4e14-bcaf-4739fd0f21bb
 ms.date: 12/05/2018
 ms.keywords: ChapterPlay, ChapterPlay method [DirectShow], ChapterPlay method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],ChapterPlay method, IDvdControl.ChapterPlay, IDvdControl::ChapterPlay, IDvdControlChapterPlay, dshow.idvdcontrol_chapterplay, strmif/IDvdControl::ChapterPlay
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.ChapterPlay
 dev_langs:

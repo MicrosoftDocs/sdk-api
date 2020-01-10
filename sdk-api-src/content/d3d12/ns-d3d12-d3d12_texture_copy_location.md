@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: D63EC731-EE75-44CD-9CCD-7FB4A761D1A3
 ms.date: 12/05/2018
 ms.keywords: D3D12_TEXTURE_COPY_LOCATION, D3D12_TEXTURE_COPY_LOCATION structure, d3d12/D3D12_TEXTURE_COPY_LOCATION, direct3d12.d3d12_texture_copy_location
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_TEXTURE_COPY_LOCATION
 dev_langs:

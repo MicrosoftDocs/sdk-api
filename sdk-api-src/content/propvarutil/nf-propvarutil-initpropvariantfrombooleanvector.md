@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: d2e34efb-d5d9-4adf-b582-d3f82d04597f
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromBooleanVector, InitPropVariantFromBooleanVector function [Windows Properties], _shell_InitPropVariantFromBooleanVector, properties.InitPropVariantFromBooleanVector, propvarutil/InitPropVariantFromBooleanVector, shell.InitPropVariantFromBooleanVector
-ms.topic: function
 f1_keywords:
 - propvarutil/InitPropVariantFromBooleanVector
 dev_langs:

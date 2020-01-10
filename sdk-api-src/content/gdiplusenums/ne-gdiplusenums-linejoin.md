@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\linejoin.htm
 ms.date: 12/05/2018
 ms.keywords: LineJoin, LineJoin enumeration [GDI+], LineJoinBevel, LineJoinMiter, LineJoinMiterClipped, LineJoinRound, _gdiplus_ENUM_LineJoin, gdiplus._gdiplus_ENUM_LineJoin, gdiplusenums/LineJoin, gdiplusenums/LineJoinBevel, gdiplusenums/LineJoinMiter, gdiplusenums/LineJoinMiterClipped, gdiplusenums/LineJoinRound
-ms.topic: enum
 f1_keywords:
 - gdiplusenums/LineJoin
 dev_langs:

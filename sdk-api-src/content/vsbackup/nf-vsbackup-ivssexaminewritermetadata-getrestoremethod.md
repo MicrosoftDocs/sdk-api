@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: c93f841f-057c-4aee-b8f2-263395e84c7b
 ms.date: 12/05/2018
 ms.keywords: GetRestoreMethod, GetRestoreMethod method [VSS], GetRestoreMethod method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetRestoreMethod method, IVssExamineWriterMetadata.GetRestoreMethod, IVssExamineWriterMetadata::GetRestoreMethod, _win32_ivssexaminewritermetadata_getrestoremethod, base.ivssexaminewritermetadata_getrestoremethod, vsbackup/IVssExamineWriterMetadata::GetRestoreMethod
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssExamineWriterMetadata.GetRestoreMethod
 dev_langs:

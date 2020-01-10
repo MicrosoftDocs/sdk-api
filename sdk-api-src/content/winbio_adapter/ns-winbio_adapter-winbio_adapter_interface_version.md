@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: e9dd91ea-cca3-49f3-89dc-f8f2c0594bd2
 ms.date: 12/05/2018
 ms.keywords: '*PWINBIO_ADAPTER_INTERFACE_VERSION, PWINBIO_ADAPTER_INTERFACE_VERSION, PWINBIO_ADAPTER_INTERFACE_VERSION structure pointer [Windows Biometric Framework API], WINBIO_ADAPTER_INTERFACE_VERSION, WINBIO_ADAPTER_INTERFACE_VERSION structure [Windows Biometric Framework API], secbiomet.winbio_adapter_interface_version, winbio_adapter/PWINBIO_ADAPTER_INTERFACE_VERSION, winbio_adapter/WINBIO_ADAPTER_INTERFACE_VERSION'
-ms.topic: struct
 f1_keywords:
 - winbio_adapter/WINBIO_ADAPTER_INTERFACE_VERSION
 dev_langs:

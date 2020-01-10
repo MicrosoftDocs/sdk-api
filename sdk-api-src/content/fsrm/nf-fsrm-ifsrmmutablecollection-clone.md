@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 8d673a7c-c8c3-409c-881f-58b87bf0809f
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [File Server Resource Manager], Clone method [File Server Resource Manager],IFsrmMutableCollection interface, IFsrmMutableCollection interface [File Server Resource Manager],Clone method, IFsrmMutableCollection.Clone, IFsrmMutableCollection::Clone, fs.ifsrmmutablecollection_clone, fsrm.ifsrmmutablecollection_clone, fsrm/IFsrmMutableCollection::Clone
-ms.topic: method
 f1_keywords:
 - fsrm/IFsrmMutableCollection.Clone
 dev_langs:

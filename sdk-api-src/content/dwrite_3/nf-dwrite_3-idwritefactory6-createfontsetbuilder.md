@@ -5,7 +5,6 @@ description: Creates an empty font set builder, ready to add font instances to, 
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: IDWriteFactory6 interface [Direct Write],CreateFontSetBuilder method, IDWriteFactory6.CreateFontSetBuilder, IDWriteFactory6::CreateFontSetBuilder, CreateFontSetBuilder, CreateFontSetBuilder method [Direct Write], CreateFontSetBuilder method [Direct Write],IDWriteFactory6 interface, directwrite.idwritefactory6_createfontsetbuilder, dwrite_3/IDWriteFactory6::CreateFontSetBuilder
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFactory6.CreateFontSetBuilder
 dev_langs:

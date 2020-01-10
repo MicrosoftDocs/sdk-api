@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4bc501b1-2fc4-49ce-a16b-e254a3a40f46
 ms.date: 12/05/2018
 ms.keywords: GetDefaultSaveFolder, GetDefaultSaveFolder method [Windows Shell], GetDefaultSaveFolder method [Windows Shell],IShellLibrary interface, IShellLibrary interface [Windows Shell],GetDefaultSaveFolder method, IShellLibrary.GetDefaultSaveFolder, IShellLibrary::GetDefaultSaveFolder, _shell_IShellLibrary_GetDefaultSaveFolder, shell.IShellLibrary_GetDefaultSaveFolder, shobjidl_core/IShellLibrary::GetDefaultSaveFolder
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellLibrary.GetDefaultSaveFolder
 dev_langs:

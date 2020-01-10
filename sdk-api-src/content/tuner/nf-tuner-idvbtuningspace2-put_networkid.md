@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 4f307629-710d-4992-b407-311774aa544a
 ms.date: 12/05/2018
 ms.keywords: IDVBTuningSpace2 interface [Microsoft TV Technologies],put_NetworkID method, IDVBTuningSpace2.put_NetworkID, IDVBTuningSpace2::put_NetworkID, IDVBTuningSpace2put_NetworkID, mstv.idvbtuningspace2_put_networkid, put_NetworkID, put_NetworkID method [Microsoft TV Technologies], put_NetworkID method [Microsoft TV Technologies],IDVBTuningSpace2 interface, tuner/IDVBTuningSpace2::put_NetworkID
-ms.topic: method
 f1_keywords:
 - tuner/IDVBTuningSpace2.put_NetworkID
 dev_langs:

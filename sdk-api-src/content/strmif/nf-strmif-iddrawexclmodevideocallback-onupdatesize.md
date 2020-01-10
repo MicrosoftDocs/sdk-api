@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 00ddf110-8efc-414f-abfa-d6c7a22751a8
 ms.date: 12/05/2018
 ms.keywords: IDDrawExclModeVideoCallback interface [DirectShow],OnUpdateSize method, IDDrawExclModeVideoCallback.OnUpdateSize, IDDrawExclModeVideoCallback::OnUpdateSize, IDDrawExclModeVideoCallbackOnUpdateSize, OnUpdateSize, OnUpdateSize method [DirectShow], OnUpdateSize method [DirectShow],IDDrawExclModeVideoCallback interface, dshow.iddrawexclmodevideocallback_onupdatesize, strmif/IDDrawExclModeVideoCallback::OnUpdateSize
-ms.topic: method
 f1_keywords:
 - strmif/IDDrawExclModeVideoCallback.OnUpdateSize
 dev_langs:

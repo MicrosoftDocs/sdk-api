@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 3afed0e8-3a9c-4513-954a-83855a53f5b2
 ms.date: 12/05/2018
 ms.keywords: FILEMUIINFO_GET_CULTURE, FILEMUIINFO_GET_CULTURE macro [Internationalization for Windows Applications], _win32_FILEMUIINFO_GET_CULTURE, intl.filemuiinfo_get_culture, winnls/FILEMUIINFO_GET_CULTURE
-ms.topic: macro
 f1_keywords:
 - winnls/FILEMUIINFO_GET_CULTURE
 dev_langs:

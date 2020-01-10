@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 9dc125ab-a452-4108-93d5-9f341b879e8d
 ms.date: 12/05/2018
 ms.keywords: ITAddress interface [TAPI 2.2],put_MessageWaiting method, ITAddress.put_MessageWaiting, ITAddress::put_MessageWaiting, _tapi3_itaddress_put_messagewaiting, put_MessageWaiting, put_MessageWaiting method [TAPI 2.2], put_MessageWaiting method [TAPI 2.2],ITAddress interface, tapi3.itaddress_put_messagewaiting, tapi3if/ITAddress::put_MessageWaiting
-ms.topic: method
 f1_keywords:
 - tapi3if/ITAddress.put_MessageWaiting
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 9ed04c11-d3cc-4846-88e8-aad9fb23fee8
 ms.date: 12/05/2018
 ms.keywords: CONST_ATTENDEE_ID_DEFAULT, IRDPSRAPIAttendee interface [RDP],Id property, IRDPSRAPIAttendee.Id, IRDPSRAPIAttendee.get_Id, IRDPSRAPIAttendee::Id, IRDPSRAPIAttendee::get_Id, Id property [RDP], Id property [RDP],IRDPSRAPIAttendee interface, Id property [RDP],RDPSRAPIAttendee object, RDPSRAPIAttendee object [RDP],Id property, get_Id, rdp.irdpsrapiattendee_id, rdpencomapi/IRDPSRAPIAttendee::Id, rdpencomapi/IRDPSRAPIAttendee::get_Id
-ms.topic: method
 f1_keywords:
 - rdpencomapi/IRDPSRAPIAttendee.Id
 dev_langs:

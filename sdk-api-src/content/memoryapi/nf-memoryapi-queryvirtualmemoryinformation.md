@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: D887FB6E-2594-4822-BA5E-803F9B12DCBC
 ms.date: 12/05/2018
 ms.keywords: QueryVirtualMemoryInformation, QueryVirtualMemoryInformation function, base.queryvirtualmemoryinformation, memoryapi/QueryVirtualMemoryInformation
-ms.topic: function
 f1_keywords:
 - memoryapi/QueryVirtualMemoryInformation
 dev_langs:

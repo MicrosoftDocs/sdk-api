@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: d9ea9df5-7c5f-4afa-9859-14d77b017904
 ms.date: 12/05/2018
 ms.keywords: D2D1_SIZE_U, D2D_SIZE_U, D2D_SIZE_U structure [Direct2D], dcommon/D2D_SIZE_U, direct2d.D2D_SIZE_U
-ms.topic: struct
 f1_keywords:
 - dcommon/D2D_SIZE_U
 dev_langs:

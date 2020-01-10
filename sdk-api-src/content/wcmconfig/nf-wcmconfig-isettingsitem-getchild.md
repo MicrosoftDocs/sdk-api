@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: 4a3d3212-bd47-46fb-9ce1-79ac109c6444
 ms.date: 12/05/2018
 ms.keywords: GetChild, GetChild method [SMI], GetChild method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetChild method, ISettingsItem.GetChild, ISettingsItem::GetChild, smi.isettingsitem_getchild, wcmconfig/ISettingsItem::GetChild
-ms.topic: method
 f1_keywords:
 - wcmconfig/ISettingsItem.GetChild
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 51a0ea69-c602-41db-b3a3-2cf9643c6b3a
 ms.date: 12/05/2018
 ms.keywords: ObjectContext interface [COM+],get__NewEnum method, ObjectContext.get__NewEnum, ObjectContext::get__NewEnum, _cos_ObjectContext_get__NewEnum, comsvcs/ObjectContext::get__NewEnum, cos.objectcontext_get__newenum, get__NewEnum, get__NewEnum method [COM+], get__NewEnum method [COM+],ObjectContext interface
-ms.topic: method
 f1_keywords:
 - comsvcs/ObjectContext.get__NewEnum
 dev_langs:

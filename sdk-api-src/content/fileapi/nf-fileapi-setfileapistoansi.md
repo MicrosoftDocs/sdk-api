@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 72b19773-9663-4cf8-90d3-656ee2785601
 ms.date: 12/05/2018
 ms.keywords: SetFileApisToANSI, SetFileApisToANSI function [Files], _win32_setfileapistoansi, base.setfileapistoansi, fileapi/SetFileApisToANSI, fs.setfileapistoansi
-ms.topic: function
 f1_keywords:
 - fileapi/SetFileApisToANSI
 dev_langs:

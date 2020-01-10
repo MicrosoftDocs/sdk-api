@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 598E98CA-3485-4188-84F0-DD711461AE44
 ms.date: 12/05/2018
 ms.keywords: BlendImage, BlendImage method [Direct2D], BlendImage method [Direct2D],ID2D1DeviceContext6 interface, ID2D1DeviceContext6 interface [Direct2D],BlendImage method, ID2D1DeviceContext6.BlendImage, ID2D1DeviceContext6::BlendImage, d2d1_3/ID2D1DeviceContext6::BlendImage, direct2d.id2d1devicecontext6_blendimage
-ms.topic: method
 f1_keywords:
 - d2d1_3/ID2D1DeviceContext6.BlendImage
 dev_langs:

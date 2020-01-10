@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 11318ce3-d938-4bb5-adb1-28dd15e8cd80
 ms.date: 12/05/2018
 ms.keywords: AvRtWaitOnThreadOrderingGroup, AvRtWaitOnThreadOrderingGroup function, avrt/AvRtWaitOnThreadOrderingGroup, base.avrtwaitonthreadorderinggroup
-ms.topic: function
 f1_keywords:
 - avrt/AvRtWaitOnThreadOrderingGroup
 dev_langs:

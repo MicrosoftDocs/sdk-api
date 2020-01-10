@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 5a88e2e7-508b-448b-ac1d-50a50b4bb79a
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoEncoder interface [DirectShow],get_TVFormat method, IAMAnalogVideoEncoder.get_TVFormat, IAMAnalogVideoEncoder::get_TVFormat, IAMAnalogVideoEncoderget_TVFormat, dshow.iamanalogvideoencoder_get_tvformat, get_TVFormat, get_TVFormat method [DirectShow], get_TVFormat method [DirectShow],IAMAnalogVideoEncoder interface, strmif/IAMAnalogVideoEncoder::get_TVFormat
-ms.topic: method
 f1_keywords:
 - strmif/IAMAnalogVideoEncoder.get_TVFormat
 dev_langs:

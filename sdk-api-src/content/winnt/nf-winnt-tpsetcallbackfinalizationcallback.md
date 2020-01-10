@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 425898A7-5E98-490A-912A-A409D1E2DFDE
 ms.date: 12/05/2018
 ms.keywords: TpSetCallbackFinalizationCallback, TpSetCallbackFinalizationCallback function, base.tpsetcallbackfinalizationcallback, winnt/TpSetCallbackFinalizationCallback
-ms.topic: function
 f1_keywords:
 - winnt/TpSetCallbackFinalizationCallback
 dev_langs:

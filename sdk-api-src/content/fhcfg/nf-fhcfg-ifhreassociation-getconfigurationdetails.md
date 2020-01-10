@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 4B5259B7-D845-4CF1-AC33-56DF9D00F2E2
 ms.date: 12/05/2018
 ms.keywords: FhReassociation class [Windows API],GetConfigurationDetails method, GetConfigurationDetails, GetConfigurationDetails method [Windows API], GetConfigurationDetails method [Windows API],FhReassociation class, GetConfigurationDetails method [Windows API],IFhReassociation interface, IFhReassociation interface [Windows API],GetConfigurationDetails method, IFhReassociation.GetConfigurationDetails, IFhReassociation::GetConfigurationDetails, fhcfg/IFhReassociation::GetConfigurationDetails, winprog.ifhreassociation_getconfigurationdetails
-ms.topic: method
 f1_keywords:
 - fhcfg/IFhReassociation.GetConfigurationDetails
 dev_langs:

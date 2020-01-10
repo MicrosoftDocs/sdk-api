@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchlength.htm
 ms.date: 12/05/2018
 ms.keywords: StringCchLength, StringCchLength function [Menus and Other Resources], StringCchLengthA, StringCchLengthW, UnalignedStringCchLength, _shell_StringCchLength, _shell_stringcchlength_cpp, menurc.stringcchlength, strsafe/StringCchLength, strsafe/StringCchLengthA, strsafe/StringCchLengthW, winui._shell_stringcchlength
-ms.topic: function
 f1_keywords:
 - strsafe/StringCchLength
 dev_langs:

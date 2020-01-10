@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 2fa0d8d8-5ced-402b-8452-bf2e2aa4b19f
 ms.date: 12/05/2018
 ms.keywords: '*PWDSTRANSPORT_NETWORK_PROFILE_TYPE, WDSTRANSPORT_NETWORK_PROFILE_TYPE, WDSTRANSPORT_NETWORK_PROFILE_TYPE enumeration [Windows Deployment Services], WdsTptNetworkProfile100Mbps, WdsTptNetworkProfile10Mbps, WdsTptNetworkProfile1Gbps, WdsTptNetworkProfileCustom, WdsTptNetworkProfileUnknown, wds.wdstransport_network_profile_type, wdstptmgmt/WDSTRANSPORT_NETWORK_PROFILE_TYPE, wdstptmgmt/WdsTptNetworkProfile100Mbps, wdstptmgmt/WdsTptNetworkProfile10Mbps, wdstptmgmt/WdsTptNetworkProfile1Gbps, wdstptmgmt/WdsTptNetworkProfileCustom, wdstptmgmt/WdsTptNetworkProfileUnknown'
-ms.topic: enum
 f1_keywords:
 - wdstptmgmt/WDSTRANSPORT_NETWORK_PROFILE_TYPE
 dev_langs:

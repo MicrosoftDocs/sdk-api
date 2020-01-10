@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 583340d7-87f9-40c5-a0dc-3e69bbb96334
 ms.date: 12/05/2018
 ms.keywords: GetSubEntries, GetSubEntries method [Media Foundation], GetSubEntries method [Media Foundation],ITocEntry interface, ITocEntry interface [Media Foundation],GetSubEntries method, ITocEntry.GetSubEntries, ITocEntry::GetSubEntries, codecapi.itocentry_getsubentries, mf.itocentry_getsubentries, wmcodecdsp/ITocEntry::GetSubEntries
-ms.topic: method
 f1_keywords:
 - wmcodecdsp/ITocEntry.GetSubEntries
 dev_langs:

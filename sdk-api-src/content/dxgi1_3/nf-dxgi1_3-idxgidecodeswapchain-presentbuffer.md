@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: EFBBE24E-9BA5-40CB-B090-EE0ADA1AF07D
 ms.date: 12/05/2018
 ms.keywords: IDXGIDecodeSwapChain interface [DXGI],PresentBuffer method, IDXGIDecodeSwapChain.PresentBuffer, IDXGIDecodeSwapChain::PresentBuffer, PresentBuffer, PresentBuffer method [DXGI], PresentBuffer method [DXGI],IDXGIDecodeSwapChain interface, direct3ddxgi.idxgidecodeswapchain_presentbuffer, dxgi1_3/IDXGIDecodeSwapChain::PresentBuffer
-ms.topic: method
 f1_keywords:
 - dxgi1_3/IDXGIDecodeSwapChain.PresentBuffer
 dev_langs:

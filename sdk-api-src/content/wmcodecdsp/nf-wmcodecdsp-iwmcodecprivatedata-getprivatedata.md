@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 20e61bf6-f242-4f8e-84e6-f6158a0947bc
 ms.date: 12/05/2018
 ms.keywords: GetPrivateData, GetPrivateData method [Media Foundation], GetPrivateData method [Media Foundation],IWMCodecPrivateData interface, IWMCodecPrivateData interface [Media Foundation],GetPrivateData method, IWMCodecPrivateData.GetPrivateData, IWMCodecPrivateData::GetPrivateData, codecapi.iwmcodecprivatedatagetprivatedata, mf.iwmcodecprivatedatagetprivatedata, wmcodecdsp/IWMCodecPrivateData::GetPrivateData
-ms.topic: method
 f1_keywords:
 - wmcodecdsp/IWMCodecPrivateData.GetPrivateData
 dev_langs:

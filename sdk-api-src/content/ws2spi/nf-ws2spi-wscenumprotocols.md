@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: c2e5332f-3327-4624-96b4-8e321795961d
 ms.date: 12/05/2018
 ms.keywords: WSCEnumProtocols, WSCEnumProtocols function [Winsock], _win32_wscenumprotocols_2, winsock.wscenumprotocols_2, ws2spi/WSCEnumProtocols
-ms.topic: function
 f1_keywords:
 - ws2spi/WSCEnumProtocols
 dev_langs:

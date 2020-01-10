@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 38de9e72-b942-4c09-be9e-ff9f345c778d
 ms.date: 12/05/2018
 ms.keywords: IWMPLibrary2 interface [Windows Media Player],getItemInfo method, IWMPLibrary2.getItemInfo, IWMPLibrary2::getItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPLibrary2 interface, wmp.iwmplibrary2_getiteminfo, wmp/IWMPLibrary2::getItemInfo
-ms.topic: method
 f1_keywords:
 - wmp/IWMPLibrary2.getItemInfo
 dev_langs:

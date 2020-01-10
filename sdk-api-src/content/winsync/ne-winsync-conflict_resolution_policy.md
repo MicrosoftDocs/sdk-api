@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 4c2f7237-32ac-4f2d-bf6a-7959bc5d40d4
 ms.date: 12/05/2018
 ms.keywords: CONFLICT_RESOLUTION_POLICY, CONFLICT_RESOLUTION_POLICY enumeration [Windows Sync], CRP_DESTINATION_PROVIDER_WINS, CRP_LAST, CRP_NONE, CRP_SOURCE_PROVIDER_WINS, winsync.conflict_resolution_policy, winsync/CONFLICT_RESOLUTION_POLICY, winsync/CRP_DESTINATION_PROVIDER_WINS, winsync/CRP_LAST, winsync/CRP_NONE, winsync/CRP_SOURCE_PROVIDER_WINS
-ms.topic: enum
 f1_keywords:
 - winsync/CONFLICT_RESOLUTION_POLICY
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asdepthstencil.htm
 ms.date: 12/05/2018
 ms.keywords: AsDepthStencil, AsDepthStencil method [Direct3D 10], AsDepthStencil method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsDepthStencil method, ID3D10EffectVariable.AsDepthStencil, ID3D10EffectVariable::AsDepthStencil, d12d55ad-aa27-e1e7-7fbd-f7bbe4c54754, d3d10effect/ID3D10EffectVariable::AsDepthStencil, direct3d10.id3d10effectvariable_asdepthstencil
-ms.topic: method
 f1_keywords:
 - d3d10effect/ID3D10EffectVariable.AsDepthStencil
 dev_langs:

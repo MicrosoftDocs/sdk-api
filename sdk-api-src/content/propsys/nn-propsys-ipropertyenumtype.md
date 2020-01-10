@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 05ae6763-a3e1-461d-af90-08bddbe82300
 ms.date: 12/05/2018
 ms.keywords: IPropertyEnumType, IPropertyEnumType interface [Windows Properties], IPropertyEnumType interface [Windows Properties],described, _shell_IPropertyEnumType, properties.IPropertyEnumType, propsys/IPropertyEnumType, shell.IPropertyEnumType
-ms.topic: interface
 f1_keywords:
 - propsys/IPropertyEnumType
 dev_langs:

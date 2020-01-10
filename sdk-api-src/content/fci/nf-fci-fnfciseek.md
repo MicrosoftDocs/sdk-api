@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: e5a14c98-4de6-452e-8993-afb7964aeee7
 ms.date: 12/05/2018
 ms.keywords: FNFCISEEK, FNFCISEEK macro [Windows API], fci/FNFCISEEK, winprog.fnfciseek
-ms.topic: macro
 f1_keywords:
 - fci/FNFCISEEK
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 8b777a53-90a8-4e51-b707-d0ea8f5790a8
 ms.date: 12/05/2018
 ms.keywords: CreatePropertyCondition, CreatePropertyCondition method [Windows Accessibility], CreatePropertyCondition method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreatePropertyCondition method, IUIAutomation.CreatePropertyCondition, IUIAutomation::CreatePropertyCondition, uiauto.uiauto_IUIAutomation_CreatePropertyCondition, uiauto_IUIAutomation_CreatePropertyCondition, uiautomationclient/IUIAutomation::CreatePropertyCondition, winauto.uiauto_IUIAutomation_CreatePropertyCondition
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomation.CreatePropertyCondition
 dev_langs:

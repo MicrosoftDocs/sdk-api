@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: dc07113f-ff93-4b0f-8328-02dd481dccb0
 ms.date: 12/05/2018
 ms.keywords: CreateLinearGradientBrush, CreateLinearGradientBrush methods [Direct2D], ID2D1RenderTarget.CreateLinearGradientBrush, ID2D1RenderTarget::CreateLinearGradientBrush, d2d1/CreateLinearGradientBrush, direct2d.id2d1rendertarget_createlineargradientbrush
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1RenderTarget::CreateLinearGradientBrush
 dev_langs:

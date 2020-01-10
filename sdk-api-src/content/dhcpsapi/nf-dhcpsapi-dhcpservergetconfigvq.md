@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 77726631-2be0-4ec0-a50f-786e4f3b460a
 ms.date: 12/05/2018
 ms.keywords: DhcpServerGetConfigVQ, DhcpServerGetConfigVQ function [DHCP], dhcp.dhcpservergetconfigvq, dhcpsapi/DhcpServerGetConfigVQ
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpServerGetConfigVQ
 dev_langs:

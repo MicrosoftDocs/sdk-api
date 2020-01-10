@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: e5a97cee-0012-4e30-850a-9adc258a36d3
 ms.date: 02/20/2019
 ms.keywords: BG_AUTH_SCHEME, BG_AUTH_SCHEME enumeration [BITS], BG_AUTH_SCHEME_BASIC, BG_AUTH_SCHEME_DIGEST, BG_AUTH_SCHEME_NEGOTIATE, BG_AUTH_SCHEME_NTLM, BG_AUTH_SCHEME_PASSPORT, _drz_bg_auth_scheme, bits.bg_auth_scheme, bits1_5/BG_AUTH_SCHEME, bits1_5/BG_AUTH_SCHEME_BASIC, bits1_5/BG_AUTH_SCHEME_DIGEST, bits1_5/BG_AUTH_SCHEME_NEGOTIATE, bits1_5/BG_AUTH_SCHEME_NTLM, bits1_5/BG_AUTH_SCHEME_PASSPORT
-ms.topic: enum
 f1_keywords:
 - bits1_5/BG_AUTH_SCHEME
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 5bd7cd8e-140c-4f7b-9f2b-bf1bfe8a9a7a
 ms.date: 12/05/2018
 ms.keywords: CompareObjects, CompareObjects method [MMC], CompareObjects method [MMC],IComponent interface, IComponent interface [MMC],CompareObjects method, IComponent.CompareObjects, IComponent::CompareObjects, _slate_icomponent_compareobjects, mmc.icomponent_compareobjects, mmc/IComponent::CompareObjects
-ms.topic: method
 f1_keywords:
 - mmc/IComponent.CompareObjects
 dev_langs:

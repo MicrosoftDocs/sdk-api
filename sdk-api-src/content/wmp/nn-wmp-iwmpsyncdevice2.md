@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: b47fc5ea-741d-4e47-baad-afeb659f1079
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice2, IWMPSyncDevice2 interface [Windows Media Player], IWMPSyncDevice2 interface [Windows Media Player],described, IWMPSyncDevice2Interface, wmp.iwmpsyncdevice2, wmp/IWMPSyncDevice2
-ms.topic: interface
 f1_keywords:
 - wmp/IWMPSyncDevice2
 dev_langs:

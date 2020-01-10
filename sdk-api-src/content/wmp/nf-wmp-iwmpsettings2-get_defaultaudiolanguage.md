@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 890154b7-0aa8-475f-afe9-9ce71997a656
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings2 interface [Windows Media Player],get_defaultAudioLanguage method, IWMPSettings2.get_defaultAudioLanguage, IWMPSettings2::get_defaultAudioLanguage, IWMPSettings2get_defaultAudioLanguage, get_defaultAudioLanguage, get_defaultAudioLanguage method [Windows Media Player], get_defaultAudioLanguage method [Windows Media Player],IWMPSettings2 interface, wmp.iwmpsettings2_get_defaultaudiolanguage, wmp/IWMPSettings2::get_defaultAudioLanguage
-ms.topic: method
 f1_keywords:
 - wmp/IWMPSettings2.get_defaultAudioLanguage
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ktm
 ms.assetid: d4315a62-b65f-4744-8084-2317ad39c32c
 ms.date: 12/05/2018
 ms.keywords: TRANSACTION_OUTCOME, TRANSACTION_OUTCOME enumeration [Files], TransactionOutcomeAborted, TransactionOutcomeCommitted, TransactionOutcomeUndetermined, fs.transaction_outcome, winnt/TRANSACTION_OUTCOME, winnt/TransactionOutcomeAborted, winnt/TransactionOutcomeCommitted, winnt/TransactionOutcomeUndetermined
-ms.topic: enum
 f1_keywords:
 - winnt/TRANSACTION_OUTCOME
 dev_langs:

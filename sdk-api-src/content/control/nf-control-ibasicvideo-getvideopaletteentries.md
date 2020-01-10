@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9a022bc5-56f5-41c0-940f-f9074791a353
 ms.date: 12/05/2018
 ms.keywords: GetVideoPaletteEntries, GetVideoPaletteEntries method [DirectShow], GetVideoPaletteEntries method [DirectShow],IBasicVideo interface, IBasicVideo interface [DirectShow],GetVideoPaletteEntries method, IBasicVideo.GetVideoPaletteEntries, IBasicVideo::GetVideoPaletteEntries, IBasicVideoGetVideoPaletteEntries, control/IBasicVideo::GetVideoPaletteEntries, dshow.ibasicvideo_getvideopaletteentries
-ms.topic: method
 f1_keywords:
 - control/IBasicVideo.GetVideoPaletteEntries
 dev_langs:

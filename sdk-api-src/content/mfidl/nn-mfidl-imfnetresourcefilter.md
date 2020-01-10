@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: AC8FBD93-B39B-4530-8475-275D3D0DA512
 ms.date: 12/05/2018
 ms.keywords: IMFNetResourceFilter, IMFNetResourceFilter interface [Media Foundation], IMFNetResourceFilter interface [Media Foundation],described, mf.imfnetresourcefilter, mfidl/IMFNetResourceFilter
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFNetResourceFilter
 dev_langs:

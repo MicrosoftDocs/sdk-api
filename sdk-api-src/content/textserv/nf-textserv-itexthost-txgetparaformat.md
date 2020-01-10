@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetparaformat.htm
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetParaFormat method, ITextHost.TxGetParaFormat, ITextHost::TxGetParaFormat, TxGetParaFormat, TxGetParaFormat method [Windows Controls], TxGetParaFormat method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetParaFormat, _win32_ITextHost_TxGetParaFormat_cpp, controls.ITextHost_TxGetParaFormat, controls._win32_ITextHost_TxGetParaFormat, textserv/ITextHost::TxGetParaFormat
-ms.topic: method
 f1_keywords:
 - textserv/ITextHost.TxGetParaFormat
 dev_langs:

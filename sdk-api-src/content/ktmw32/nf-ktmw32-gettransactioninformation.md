@@ -7,7 +7,6 @@ tech.root: ktm
 ms.assetid: 5ce3c96a-629e-49d0-8ec4-f9bf76af99ac
 ms.date: 12/05/2018
 ms.keywords: GetTransactionInformation, GetTransactionInformation function [Files], fs.gettransactioninformation_func, ktmw32/GetTransactionInformation
-ms.topic: function
 f1_keywords:
 - ktmw32/GetTransactionInformation
 dev_langs:

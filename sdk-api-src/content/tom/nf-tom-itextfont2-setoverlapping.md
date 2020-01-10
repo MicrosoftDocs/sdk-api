@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 40addd31-5c0e-45bd-a649-c65973ae8340
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetOverlapping method, ITextFont2.SetOverlapping, ITextFont2::SetOverlapping, SetOverlapping, SetOverlapping method [Windows Controls], SetOverlapping method [Windows Controls],ITextFont2 interface, controls.itextfont2_setoverlapping, tom/ITextFont2::SetOverlapping
-ms.topic: method
 f1_keywords:
 - tom/ITextFont2.SetOverlapping
 dev_langs:

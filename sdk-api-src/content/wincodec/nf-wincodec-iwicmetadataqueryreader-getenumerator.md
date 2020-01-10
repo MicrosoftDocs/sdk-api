@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 8e9b0da5-90e3-4398-9113-0fb86a94cb0c
 ms.date: 12/05/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Windows Imaging Component], GetEnumerator method [Windows Imaging Component],IWICMetadataQueryReader interface, IWICMetadataQueryReader interface [Windows Imaging Component],GetEnumerator method, IWICMetadataQueryReader.GetEnumerator, IWICMetadataQueryReader::GetEnumerator, _wic_codec_iwicmetadataqueryreader_getenumerator, wic._wic_codec_iwicmetadataqueryreader_getenumerator, wincodec/IWICMetadataQueryReader::GetEnumerator
-ms.topic: method
 f1_keywords:
 - wincodec/IWICMetadataQueryReader.GetEnumerator
 dev_langs:

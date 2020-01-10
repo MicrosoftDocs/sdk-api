@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 13dde602-c958-4312-a16f-a393dd6fb829
 ms.date: 12/05/2018
 ms.keywords: WSCInstallNameSpaceEx, WSCInstallNameSpaceEx function [Winsock], winsock.wscinstallnamespaceex, ws2spi/WSCInstallNameSpaceEx
-ms.topic: function
 f1_keywords:
 - ws2spi/WSCInstallNameSpaceEx
 dev_langs:

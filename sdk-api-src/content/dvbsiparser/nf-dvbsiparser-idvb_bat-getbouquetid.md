@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 43c8d96d-24a7-459b-8221-daef7759c603
 ms.date: 12/05/2018
 ms.keywords: GetBouquetId, GetBouquetId method [Microsoft TV Technologies], GetBouquetId method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],GetBouquetId method, IDVB_BAT.GetBouquetId, IDVB_BAT::GetBouquetId, IDVB_BATGetBouquetId, dvbsiparser/IDVB_BAT::GetBouquetId, mstv.idvb_bat_getbouquetid
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDVB_BAT.GetBouquetId
 dev_langs:

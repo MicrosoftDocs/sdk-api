@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: cc8fd96d-e9a8-4911-9330-a4cf71a2d926
 ms.date: 12/05/2018
 ms.keywords: GetNativeVideoSize, GetNativeVideoSize method [DirectShow], GetNativeVideoSize method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetNativeVideoSize method, IVMRWindowlessControl.GetNativeVideoSize, IVMRWindowlessControl::GetNativeVideoSize, IVMRWindowlessControlGetNativeVideoSize, dshow.ivmrwindowlesscontrol_getnativevideosize, strmif/IVMRWindowlessControl::GetNativeVideoSize
-ms.topic: method
 f1_keywords:
 - strmif/IVMRWindowlessControl.GetNativeVideoSize
 dev_langs:

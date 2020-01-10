@@ -5,7 +5,6 @@ description: Allocates a video decoder heap.
 tech.root: mf
 ms.assetid: 70b73a82-bbd2-490f-976a-ac7e4d23827c
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoDevice::CreateVideoDecoderHeap
 dev_langs:

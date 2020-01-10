@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 80a8fe19-3660-49cb-8bbb-0267b3f11b63
 ms.date: 12/05/2018
 ms.keywords: IWMPPlugin interface [Windows Media Player],Shutdown method, IWMPPlugin.Shutdown, IWMPPlugin::Shutdown, IWMPPluginShutdownDSP, Shutdown, Shutdown method [Windows Media Player], Shutdown method [Windows Media Player],IWMPPlugin interface, wmp.iwmpplugin_shutdown, wmpservices/IWMPPlugin::Shutdown
-ms.topic: method
 f1_keywords:
 - wmpservices/IWMPPlugin.Shutdown
 dev_langs:

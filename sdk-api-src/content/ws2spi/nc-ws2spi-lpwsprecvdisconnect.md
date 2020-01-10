@@ -4,7 +4,6 @@ title: LPWSPRECVDISCONNECT
 description: The LPWSPRecvDisconnect function terminates reception on a socket and retrieves the disconnect data, if the socket is connection oriented.
 ms.date: 9/12/2019
 ms.keywords: LPWSPRECVDISCONNECT
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 76b87452-fa29-49f7-acc8-2ae2039757b0
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMCommit method, IComCRMEvents.OnCRMCommit, IComCRMEvents::OnCRMCommit, OnCRMCommit, OnCRMCommit method [COM+], OnCRMCommit method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMCommit, comsvcs/IComCRMEvents::OnCRMCommit, cos.icomcrmevents_oncrmcommit
-ms.topic: method
 f1_keywords:
 - comsvcs/IComCRMEvents.OnCRMCommit
 dev_langs:

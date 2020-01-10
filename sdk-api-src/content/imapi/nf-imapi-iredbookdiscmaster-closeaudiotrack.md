@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 01ec0eba-d592-46eb-8029-86cb678b8b34
 ms.date: 12/05/2018
 ms.keywords: CloseAudioTrack, CloseAudioTrack method [IMAPI], CloseAudioTrack method [IMAPI],IRedbookDiscMaster interface, IRedbookDiscMaster interface [IMAPI],CloseAudioTrack method, IRedbookDiscMaster.CloseAudioTrack, IRedbookDiscMaster::CloseAudioTrack, _win32_iredbookdiscmaster_closeaudiotrack, base.iredbookdiscmaster_closeaudiotrack, imapi.iredbookdiscmaster_closeaudiotrack, imapi/IRedbookDiscMaster::CloseAudioTrack
-ms.topic: method
 f1_keywords:
 - imapi/IRedbookDiscMaster.CloseAudioTrack
 dev_langs:

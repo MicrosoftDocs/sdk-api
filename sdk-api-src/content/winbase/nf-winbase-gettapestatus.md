@@ -7,7 +7,6 @@ tech.root: Backup
 ms.assetid: 37422a27-2d46-43db-9318-4a3547b7f933
 ms.date: 12/05/2018
 ms.keywords: GetTapeStatus, GetTapeStatus function [Backup], _win32_gettapestatus, backup.gettapestatus, base.gettapestatus, winbase/GetTapeStatus
-ms.topic: function
 f1_keywords:
 - winbase/GetTapeStatus
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 6d0a474d-398f-4d85-8e58-5dc2b6283086
 ms.date: 12/05/2018
 ms.keywords: ITaskScheduler interface [Task Scheduler],IsOfType method, ITaskScheduler.IsOfType, ITaskScheduler::IsOfType, IsOfType, IsOfType method [Task Scheduler], IsOfType method [Task Scheduler],ITaskScheduler interface, _msb_itaskscheduler_isoftype, mstask/ITaskScheduler::IsOfType, taskschd.itaskscheduler_isoftype
-ms.topic: method
 f1_keywords:
 - mstask/ITaskScheduler.IsOfType
 dev_langs:

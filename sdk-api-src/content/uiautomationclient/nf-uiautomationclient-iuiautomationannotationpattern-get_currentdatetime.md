@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 391F6C44-F1AF-4EB7-87F1-593541FFF3A8
 ms.date: 12/05/2018
 ms.keywords: CurrentDateTime property [Windows Accessibility], CurrentDateTime property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CurrentDateTime property, IUIAutomationAnnotationPattern.CurrentDateTime, IUIAutomationAnnotationPattern.get_CurrentDateTime, IUIAutomationAnnotationPattern::CurrentDateTime, IUIAutomationAnnotationPattern::get_CurrentDateTime, get_CurrentDateTime, uiautomationclient/IUIAutomationAnnotationPattern::CurrentDateTime, uiautomationclient/IUIAutomationAnnotationPattern::get_CurrentDateTime, winauto.uiauto_IUIAutomationAnnotationPattern_CurrentDateTime
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationAnnotationPattern.CurrentDateTime
 dev_langs:

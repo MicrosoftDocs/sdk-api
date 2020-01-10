@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: effc75be-60da-43cc-bfb3-5fb905e1404d
 ms.date: 12/05/2018
 ms.keywords: GetThreadGroupAffinity, GetThreadGroupAffinity function, base.getthreadgroupaffinity, processtopologyapi/GetThreadGroupAffinity, winbase/GetThreadGroupAffinity
-ms.topic: function
 f1_keywords:
 - processtopologyapi/GetThreadGroupAffinity
 dev_langs:

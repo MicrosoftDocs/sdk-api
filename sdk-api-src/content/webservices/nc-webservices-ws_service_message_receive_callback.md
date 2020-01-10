@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 2fcd8905-7002-41b8-b947-14d53c889c21
 ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_MESSAGE_RECEIVE_CALLBACK, WS_SERVICE_MESSAGE_RECEIVE_CALLBACK callback, WS_SERVICE_MESSAGE_RECEIVE_CALLBACK callback function [Web Services for Windows], webservices/WS_SERVICE_MESSAGE_RECEIVE_CALLBACK, wsw.ws_service_message_receive_callback
-ms.topic: callback
 f1_keywords:
 - webservices/WS_SERVICE_MESSAGE_RECEIVE_CALLBACK
 dev_langs:

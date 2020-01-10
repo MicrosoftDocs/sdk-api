@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 5d1856d8-d2e6-4ab1-a1ce-7dcf9bc8bd39
 ms.date: 12/05/2018
 ms.keywords: GetModuleUI, GetModuleUI method [Microsoft TV Technologies], GetModuleUI method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, IBDA_ConditionalAccess interface [Microsoft TV Technologies],GetModuleUI method, IBDA_ConditionalAccess.GetModuleUI, IBDA_ConditionalAccess::GetModuleUI, IBDA_ConditionalAccessGetModuleUI, bdaiface/IBDA_ConditionalAccess::GetModuleUI, mstv.ibda_conditionalaccess_getmoduleui
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_ConditionalAccess.GetModuleUI
 dev_langs:

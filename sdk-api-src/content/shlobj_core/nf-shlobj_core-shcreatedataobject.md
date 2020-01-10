@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d56cdafe-9463-43a5-8ef0-6cfaf0c524a8
 ms.date: 12/05/2018
 ms.keywords: SHCreateDataObject, SHCreateDataObject function [Windows Shell], _shell_SHCreateDataObject, shell.SHCreateDataObject, shlobj_core/SHCreateDataObject
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHCreateDataObject
 dev_langs:

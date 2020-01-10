@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 12e65054-c4d5-44b9-8597-b841cac012f5
 ms.date: 12/05/2018
 ms.keywords: SymSetHomeDirectory, SymSetHomeDirectory function, SymSetHomeDirectoryW, base.symsethomedirectory, dbghelp/SymSetHomeDirectory, dbghelp/SymSetHomeDirectoryW
-ms.topic: function
 f1_keywords:
 - dbghelp/SymSetHomeDirectory
 dev_langs:

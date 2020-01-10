@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: 94D08CF1-D47C-4A1B-A0CE-8C318CDF9FE0
 ms.date: 12/05/2018
 ms.keywords: PerfCloseQueryHandle, PerfCloseQueryHandle function [Perf], perf.perfclosequeryhandle, perflib/PerfCloseQueryHandle
-ms.topic: function
 f1_keywords:
 - perflib/PerfCloseQueryHandle
 dev_langs:

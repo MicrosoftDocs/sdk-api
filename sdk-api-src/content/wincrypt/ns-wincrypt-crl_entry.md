@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 30e7952a-a408-404f-9058-8197539387f6
 ms.date: 12/05/2018
 ms.keywords: '*PCRL_ENTRY, CRL_ENTRY, CRL_ENTRY structure [Security], PCRL_ENTRY, PCRL_ENTRY structure pointer [Security], _crypto2_crl_entry, security.crl_entry, wincrypt/CRL_ENTRY, wincrypt/PCRL_ENTRY'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CRL_ENTRY
 dev_langs:

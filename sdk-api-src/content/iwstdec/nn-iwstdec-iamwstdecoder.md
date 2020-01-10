@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: f2f5a459-14de-4be1-909c-3c23e4cfd737
 ms.date: 12/05/2018
 ms.keywords: IAMWstDecoder, IAMWstDecoder interface [DirectShow], IAMWstDecoder interface [DirectShow],described, IAMWstDecoderInterface, dshow.iamwstdecoder, iwstdec/IAMWstDecoder
-ms.topic: interface
 f1_keywords:
 - iwstdec/IAMWstDecoder
 dev_langs:

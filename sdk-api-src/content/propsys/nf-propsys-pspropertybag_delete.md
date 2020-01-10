@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 53ED1C87-5141-4925-B70E-C0304817A871
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_Delete, PSPropertyBag_Delete function [Windows Properties], properties.PSPropertyBag_Delete, propsys/PSPropertyBag_Delete, shell.PSPropertyBag_Delete, shell_PSPropertyBag_Delete
-ms.topic: function
 f1_keywords:
 - propsys/PSPropertyBag_Delete
 dev_langs:

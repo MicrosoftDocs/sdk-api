@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: eb0b1de0-a42c-4789-aac0-885a574f89f6
 ms.date: 12/05/2018
 ms.keywords: IUserNotificationCallback interface [Windows Shell],OnContextMenu method, IUserNotificationCallback.OnContextMenu, IUserNotificationCallback::OnContextMenu, OnContextMenu, OnContextMenu method [Windows Shell], OnContextMenu method [Windows Shell],IUserNotificationCallback interface, _shell_IUserNotificationCallback_OnContextMenu, shell.IUserNotificationCallback_OnContextMenu, shobjidl/IUserNotificationCallback::OnContextMenu
-ms.topic: method
 f1_keywords:
 - shobjidl/IUserNotificationCallback.OnContextMenu
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 562df006-cbde-407b-b539-f86cb3403a97
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],put_accName method, IAccessible.put_accName, IAccessible::put_accName, oleacc/IAccessible::put_accName, put_accName, put_accName method [Windows Accessibility], put_accName method [Windows Accessibility],IAccessible interface, winauto.iaccessible_put_accname
-ms.topic: method
 f1_keywords:
 - oleacc/IAccessible.put_accName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: 83de7df8-7e89-42fe-b609-1dc173afc9df
 ms.date: 12/05/2018
 ms.keywords: DnsQueryConfig, DnsQueryConfig function [DNS], _dns_dnsqueryconfig, dns.dnsqueryconfig, windns/DnsQueryConfig
-ms.topic: function
 f1_keywords:
 - windns/DnsQueryConfig
 dev_langs:

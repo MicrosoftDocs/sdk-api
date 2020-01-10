@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 95d561ef-3233-433a-a1e7-b914df1dd211
 ms.date: 12/05/2018
 ms.keywords: APF_AuditFailure, APF_AuditSuccess, AuthzReportSecurityEvent, AuthzReportSecurityEvent function [Security], authz/AuthzReportSecurityEvent, security.authzreportsecurityevent
-ms.topic: function
 f1_keywords:
 - authz/AuthzReportSecurityEvent
 dev_langs:

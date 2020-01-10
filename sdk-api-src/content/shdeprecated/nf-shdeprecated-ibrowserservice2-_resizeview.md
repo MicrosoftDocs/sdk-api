@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 12b38906-f22a-490d-9b2f-192eb43a8305
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_ResizeView method, IBrowserService2._ResizeView, IBrowserService2::_ResizeView, _ResizeView, _ResizeView method [Windows Shell], _ResizeView method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_ResizeView, shell.IBrowserService2__ResizeView, zone_IBrowserService2__ResizeView
-ms.topic: method
 f1_keywords:
 - shdeprecated/IBrowserService2._ResizeView
 dev_langs:

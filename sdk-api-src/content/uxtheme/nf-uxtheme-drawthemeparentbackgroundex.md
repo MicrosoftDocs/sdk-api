@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemeparentbackgroundex.htm
 ms.date: 12/05/2018
 ms.keywords: DTPB_USECTLCOLORSTATIC, DTPB_USEERASEBKGND, DTPB_WINDOWDC, DrawThemeParentBackgroundEx, DrawThemeParentBackgroundEx function [Windows Controls], _shell_DrawThemeParentBackgroundEx, _shell_DrawThemeParentBackgroundEx_cpp, controls.DrawThemeParentBackgroundEx, controls._shell_DrawThemeParentBackgroundEx, uxtheme/DrawThemeParentBackgroundEx
-ms.topic: function
 f1_keywords:
 - uxtheme/DrawThemeParentBackgroundEx
 dev_langs:

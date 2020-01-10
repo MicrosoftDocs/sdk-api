@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 57f9245c-c1ae-4027-8e84-4926fa4861c3
 ms.date: 12/05/2018
 ms.keywords: GetReplyFileName, GetReplyFileName method [BITS], GetReplyFileName method [BITS],IBackgroundCopyJob2 interface, IBackgroundCopyJob2 interface [BITS],GetReplyFileName method, IBackgroundCopyJob2.GetReplyFileName, IBackgroundCopyJob2::GetReplyFileName, _drz_ibackgroundcopyjob2_getreplyfilename, bits.ibackgroundcopyjob2_getreplyfilename, bits1_5/IBackgroundCopyJob2::GetReplyFileName
-ms.topic: method
 f1_keywords:
 - bits1_5/IBackgroundCopyJob2.GetReplyFileName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: win32_tile_badge_notif
 ms.assetid: C366FE9F-D962-485F-B029-A96AA3358942
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method, Activate method,INotificationActivationCallback interface, INotificationActivationCallback interface,Activate method, INotificationActivationCallback.Activate, INotificationActivationCallback::Activate, notificationactivationcallback/INotificationActivationCallback::Activate, win32_tile_badge_notif.inotificationactivationcallback_activate
-ms.topic: method
 f1_keywords:
 - notificationactivationcallback/INotificationActivationCallback.Activate
 dev_langs:

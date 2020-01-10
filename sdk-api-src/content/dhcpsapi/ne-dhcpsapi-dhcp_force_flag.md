@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 2ec45a99-432d-4218-9048-81714ceff36b
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_FORCE_FLAG, DHCP_FORCE_FLAG, DHCP_FORCE_FLAG enumeration [DHCP], DhcpFailoverForce, DhcpFullForce, DhcpNoForce, LPDHCP_FORCE_FLAG, LPDHCP_FORCE_FLAG enumeration pointer [DHCP], dhcp.dhcp_force_flag, dhcpsapi/DHCP_FORCE_FLAG, dhcpsapi/DhcpFailoverForce, dhcpsapi/DhcpFullForce, dhcpsapi/DhcpNoForce, dhcpsapi/LPDHCP_FORCE_FLAG'
-ms.topic: enum
 f1_keywords:
 - dhcpsapi/DHCP_FORCE_FLAG
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 499190de-54e8-4be6-909b-04505bcb0aa6
 ms.date: 12/05/2018
 ms.keywords: CloseThreadpoolIo, CloseThreadpoolIo function, base.closethreadpoolio, threadpoolapiset/CloseThreadpoolIo, winbase/CloseThreadpoolIo
-ms.topic: function
 f1_keywords:
 - threadpoolapiset/CloseThreadpoolIo
 dev_langs:

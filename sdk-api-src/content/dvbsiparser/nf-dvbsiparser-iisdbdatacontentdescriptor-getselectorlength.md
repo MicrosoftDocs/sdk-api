@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 485ac963-e85a-41cc-adcd-93590b327061
 ms.date: 12/05/2018
 ms.keywords: GetSelectorLength, GetSelectorLength method [Microsoft TV Technologies], GetSelectorLength method [Microsoft TV Technologies],IIsdbDataContentDescriptor interface, IIsdbDataContentDescriptor interface [Microsoft TV Technologies],GetSelectorLength method, IIsdbDataContentDescriptor.GetSelectorLength, IIsdbDataContentDescriptor::GetSelectorLength, dvbsiparser/IIsdbDataContentDescriptor::GetSelectorLength, mstv.iisdbdatacontentdescriptor_getselectorlength
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbDataContentDescriptor.GetSelectorLength
 dev_langs:

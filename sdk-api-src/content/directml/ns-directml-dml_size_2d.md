@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 1BB42D7B-D17C-4DD1-BE33-C3784DE78743
 ms.date: 12/5/2018
 ms.keywords: DML_SIZE_2D, DML_SIZE_2D structure, direct3d12.dml_size_2d, directml/DML_SIZE_2D
-ms.topic: struct
 f1_keywords:
 - directml/DML_SIZE_2D
 dev_langs:

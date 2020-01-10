@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: 948bf14c-9661-4fe9-b082-009afd867baf
 ms.date: 12/05/2018
 ms.keywords: BluetoothAuthenticateDeviceEx, BluetoothAuthenticateDeviceEx function [Bluetooth], bluetooth.bluetoothauthenticatedeviceex, bluetoothapis/BluetoothAuthenticateDeviceEx
-ms.topic: function
 f1_keywords:
 - bluetoothapis/BluetoothAuthenticateDeviceEx
 dev_langs:

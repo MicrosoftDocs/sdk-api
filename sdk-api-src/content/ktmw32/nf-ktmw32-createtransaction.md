@@ -7,7 +7,6 @@ tech.root: ktm
 ms.assetid: 578bda35-bd35-4f6d-8366-a4bfb4dbfe42
 ms.date: 12/05/2018
 ms.keywords: CreateTransaction, CreateTransaction function [Files], TRANSACTION_DO_NOT_PROMOTE, fs.createtransaction, ktmw32/CreateTransaction
-ms.topic: function
 f1_keywords:
 - ktmw32/CreateTransaction
 dev_langs:

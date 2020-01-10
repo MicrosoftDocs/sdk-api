@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsexcludeclipmethods\excludeclip_98region.htm
 ms.date: 12/05/2018
 ms.keywords: ExcludeClip, ExcludeClip method [GDI+], ExcludeClip method [GDI+],Graphics class, Graphics class [GDI+],ExcludeClip method, Graphics.ExcludeClip, Graphics.ExcludeClip(IN const Region), Graphics.ExcludeClip(const Region*), Graphics::ExcludeClip, Graphics::ExcludeClip(IN const Region), _gdiplus_CLASS_Graphics_ExcludeClip_region_, gdiplus._gdiplus_CLASS_Graphics_ExcludeClip_region_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.ExcludeClip
 dev_langs:

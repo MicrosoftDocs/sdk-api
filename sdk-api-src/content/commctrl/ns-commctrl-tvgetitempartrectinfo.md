@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\tvgetitempartrectinfo.htm
 ms.date: 12/05/2018
 ms.keywords: TVGETITEMPARTRECTINFO, TVGETITEMPARTRECTINFO structure [Windows Controls], _shell_TVGETITEMPARTRECTINFO, _shell_TVGETITEMPARTRECTINFO_cpp, commctrl/TVGETITEMPARTRECTINFO, controls.TVGETITEMPARTRECTINFO, controls._shell_TVGETITEMPARTRECTINFO
-ms.topic: struct
 f1_keywords:
 - commctrl/TVGETITEMPARTRECTINFO
 dev_langs:

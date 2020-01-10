@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 900531EB-F3D4-4971-984E-A355E79D6577
 ms.date: 12/05/2018
 ms.keywords: Determinant, Determinant method [Direct2D], Determinant method [Direct2D],Matrix4x4F interface, Matrix4x4F interface [Direct2D],Determinant method, Matrix4x4F.Determinant, Matrix4x4F::Determinant, d2d1_1helper/Matrix4x4F::Determinant, direct2d.matrix4x4f_determinant
-ms.topic: method
 f1_keywords:
 - d2d1_1helper/Matrix4x4F.Determinant
 dev_langs:

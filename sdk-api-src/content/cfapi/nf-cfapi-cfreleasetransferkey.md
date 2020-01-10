@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: 53B40C34-EB1F-445B-B1B3-B539C2FADECE
 ms.date: 12/05/2018
 ms.keywords: CfReleaseTransferKey, CfReleaseTransferKey function, cfapi/CfReleaseTransferKey, cloudApi.cfreleasetransferkey
-ms.topic: function
 f1_keywords:
 - cfapi/CfReleaseTransferKey
 dev_langs:

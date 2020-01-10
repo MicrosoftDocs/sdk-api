@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: dc1b56f3-ea5f-4df5-b90a-ce24c36aee21
 ms.date: 12/05/2018
 ms.keywords: ITsSbTaskPluginNotifySink, ITsSbTaskPluginNotifySink interface [Remote Desktop Services], ITsSbTaskPluginNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbTaskPluginNotifySink, termserv.itssbtaskpluginnotifysink
-ms.topic: interface
 f1_keywords:
 - sbtsv/ITsSbTaskPluginNotifySink
 dev_langs:

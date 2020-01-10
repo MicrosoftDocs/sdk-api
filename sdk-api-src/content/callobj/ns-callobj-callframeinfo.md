@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 3d490c8b-d254-458b-b355-39c3942ddc5e
 ms.date: 12/05/2018
 ms.keywords: CALLFRAMEINFO, CALLFRAMEINFO structure [COM], callobj/CALLFRAMEINFO, com.callframeinfo
-ms.topic: struct
 f1_keywords:
 - callobj/CALLFRAMEINFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 63ac6ef9-0e84-40ed-a302-4f32316a41cc
 ms.date: 12/05/2018
 ms.keywords: IVdsVolume interface [VDS],Shrink method, IVdsVolume.Shrink, IVdsVolume::Shrink, Shrink, Shrink method [VDS], Shrink method [VDS],IVdsVolume interface, base.ivdsvolume_shrink, vds/IVdsVolume::Shrink
-ms.topic: method
 f1_keywords:
 - vds/IVdsVolume.Shrink
 dev_langs:

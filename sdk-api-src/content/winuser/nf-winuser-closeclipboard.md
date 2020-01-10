@@ -7,7 +7,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\closeclipboard.htm
 ms.date: 12/05/2018
 ms.keywords: CloseClipboard, CloseClipboard function [Data Exchange], _win32_CloseClipboard, _win32_closeclipboard_cpp, dataxchg.closeclipboard, winui._win32_closeclipboard, winuser/CloseClipboard
-ms.topic: function
 f1_keywords:
 - winuser/CloseClipboard
 dev_langs:

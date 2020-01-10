@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 9750a57c-d59c-4cc9-b31e-7d532d19f9fe
 ms.date: 12/05/2018
 ms.keywords: DisplayName property [ICS/ICF], DisplayName property [ICS/ICF],INetFwProduct interface, INetFwProduct interface [ICS/ICF],DisplayName property, INetFwProduct.DisplayName, INetFwProduct.get_DisplayName, INetFwProduct::DisplayName, INetFwProduct::get_DisplayName, INetFwProduct::put_DisplayName, get_DisplayName, ics.inetfwproduct_displayname, netfw/INetFwProduct::DisplayName, netfw/INetFwProduct::get_DisplayName, netfw/INetFwProduct::put_DisplayName
-ms.topic: method
 f1_keywords:
 - netfw/INetFwProduct.DisplayName
 dev_langs:

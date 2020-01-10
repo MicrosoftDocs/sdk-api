@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_geteditcontrol.htm
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetEditControl, TreeView_GetEditControl macro [Windows Controls], _win32_TreeView_GetEditControl, _win32_TreeView_GetEditControl_cpp, commctrl/TreeView_GetEditControl, controls.TreeView_GetEditControl, controls._win32_TreeView_GetEditControl
-ms.topic: macro
 f1_keywords:
 - commctrl/TreeView_GetEditControl
 dev_langs:

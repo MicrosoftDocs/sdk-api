@@ -4,7 +4,6 @@ title: DnsServiceBrowse function
 description: Used to initiate a DNS-SD discovery for services running on the local network.
 ms.date: 02/14/2019
 ms.keywords: DnsServiceBrowse
-ms.topic: language-reference
 f1_keywords:
 - windns/DnsServiceBrowse
 dev_langs:

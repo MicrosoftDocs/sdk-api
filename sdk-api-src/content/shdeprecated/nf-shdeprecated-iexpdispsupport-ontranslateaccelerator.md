@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 55f3b4dd-134d-49fe-a7f7-c6315971e902
 ms.date: 12/05/2018
 ms.keywords: IExpDispSupport interface [Windows Shell],OnTranslateAccelerator method, IExpDispSupport.OnTranslateAccelerator, IExpDispSupport::OnTranslateAccelerator, OnTranslateAccelerator, OnTranslateAccelerator method [Windows Shell], OnTranslateAccelerator method [Windows Shell],IExpDispSupport interface, shdeprecated/IExpDispSupport::OnTranslateAccelerator, shell.IExpDispSupport_OnTranslateAccelerator, zone_IExpDispSupport_OnTranslateAccelerator
-ms.topic: method
 f1_keywords:
 - shdeprecated/IExpDispSupport.OnTranslateAccelerator
 dev_langs:

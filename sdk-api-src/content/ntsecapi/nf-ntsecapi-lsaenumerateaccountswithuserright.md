@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: 97e7180e-4edb-4edd-915e-0477e7e7a9ff
 ms.date: 12/05/2018
 ms.keywords: LsaEnumerateAccountsWithUserRight, LsaEnumerateAccountsWithUserRight function [Security], _lsa_lsaenumerateaccountswithuserright, ntsecapi/LsaEnumerateAccountsWithUserRight, security.lsaenumerateaccountswithuserright
-ms.topic: function
 f1_keywords:
 - ntsecapi/LsaEnumerateAccountsWithUserRight
 dev_langs:

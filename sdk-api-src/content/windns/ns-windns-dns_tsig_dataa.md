@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: 32077169-d319-45c0-982f-8d470cd70111
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_TSIG_DATA, *PDNS_TSIG_DATAA, DNS_RCODE_BADKEY, DNS_RCODE_BADSIG, DNS_RCODE_BADTIME, DNS_TSIG_DATA, DNS_TSIG_DATA structure [DNS], DNS_TSIG_DATAA, PDNS_TSIG_DATA, PDNS_TSIG_DATA structure pointer [DNS], _dns_dns_tsig_data, dns.dns_tsig_data, gss-tsig, gss.microsoft.com, windns/DNS_TSIG_DATA, windns/PDNS_TSIG_DATA'
-ms.topic: struct
 f1_keywords:
 - windns/DNS_TSIG_DATA
 dev_langs:

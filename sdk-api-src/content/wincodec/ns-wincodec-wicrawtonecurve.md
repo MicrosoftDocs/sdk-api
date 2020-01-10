@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 45eedc32-a642-4ef6-a02a-63eaeacf0012
 ms.date: 12/05/2018
 ms.keywords: WICRawToneCurve, WICRawToneCurve structure [Windows Imaging Component], _wic_codec_wicrawtonecurve, wic._wic_codec_wicrawtonecurve, wincodec/WICRawToneCurve
-ms.topic: struct
 f1_keywords:
 - wincodec/WICRawToneCurve
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 1a99476f-69ee-4aeb-8c9b-e06315ec095d
 ms.date: 12/05/2018
 ms.keywords: DrtEndSearch, DrtEndSearch function [Peer Networking], drt/DrtEndSearch, p2p.drtendsearch
-ms.topic: function
 f1_keywords:
 - drt/DrtEndSearch
 dev_langs:

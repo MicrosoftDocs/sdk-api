@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 4de271b3-d93b-4fc9-b853-e26ef1ae75ae
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetcountry, lineGetCountry, lineGetCountry function [TAPI 2.2], lineGetCountryA, lineGetCountryW, tapi/lineGetCountry, tapi/lineGetCountryA, tapi/lineGetCountryW, tapi2.linegetcountry
-ms.topic: function
 f1_keywords:
 - tapi/lineGetCountry
 dev_langs:

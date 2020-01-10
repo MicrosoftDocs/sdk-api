@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f0265cd8-deb8-4bca-b379-39aff49c7df1
 ms.date: 12/05/2018
 ms.keywords: SHLoadIndirectString, SHLoadIndirectString function [Windows Shell], _shell_SHLoadIndirectString, shell.SHLoadIndirectString, shlwapi/SHLoadIndirectString
-ms.topic: function
 f1_keywords:
 - shlwapi/SHLoadIndirectString
 dev_langs:

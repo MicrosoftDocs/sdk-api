@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: ddd1d815-c4ce-4572-982c-139e17cda192
 ms.date: 12/05/2018
 ms.keywords: AddAuditAccessAceEx, AddAuditAccessAceEx function [Security], CONTAINER_INHERIT_ACE, FAILED_ACCESS_ACE_FLAG, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, SUCCESSFUL_ACCESS_ACE_FLAG, _win32_addauditaccessaceex, security.addauditaccessaceex, securitybaseapi/AddAuditAccessAceEx
-ms.topic: function
 f1_keywords:
 - securitybaseapi/AddAuditAccessAceEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\updown\structures\udaccel.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPUDACCEL, LPUDACCEL, LPUDACCEL structure pointer [Windows Controls], UDACCEL, UDACCEL structure [Windows Controls], _win32_UDACCEL, _win32_UDACCEL_cpp, commctrl/LPUDACCEL, commctrl/UDACCEL, controls.UDACCEL, controls._win32_UDACCEL'
-ms.topic: struct
 f1_keywords:
 - commctrl/UDACCEL
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 88ae35ea-6ff9-431c-848b-84fc61d3c690
 ms.date: 12/05/2018
 ms.keywords: IShellFolderBand, IShellFolderBand interface [Windows Shell], IShellFolderBand interface [Windows Shell],described, _win32_IShellFolderBand, shell.IShellFolderBand, shlobj/IShellFolderBand
-ms.topic: interface
 f1_keywords:
 - shlobj/IShellFolderBand
 dev_langs:

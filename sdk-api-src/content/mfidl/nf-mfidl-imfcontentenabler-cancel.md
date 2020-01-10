@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: e273b702-1f42-4aeb-9259-778d3f206682
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [Media Foundation], Cancel method [Media Foundation],IMFContentEnabler interface, IMFContentEnabler interface [Media Foundation],Cancel method, IMFContentEnabler.Cancel, IMFContentEnabler::Cancel, e273b702-1f42-4aeb-9259-778d3f206682, mf.imfcontentenabler_cancel, mfidl/IMFContentEnabler::Cancel
-ms.topic: method
 f1_keywords:
 - mfidl/IMFContentEnabler.Cancel
 dev_langs:

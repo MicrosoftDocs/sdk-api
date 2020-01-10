@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: fdf9642b-ac90-4ffc-a813-4a5b22a973dd
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayChaptersAutoStop method, IDvdControl2.PlayChaptersAutoStop, IDvdControl2::PlayChaptersAutoStop, IDvdControl2PlayChaptersAutoStop, PlayChaptersAutoStop, PlayChaptersAutoStop method [DirectShow], PlayChaptersAutoStop method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playchaptersautostop, strmif/IDvdControl2::PlayChaptersAutoStop
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl2.PlayChaptersAutoStop
 dev_langs:

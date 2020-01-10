@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreByte4(XMBYTE4@,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMStoreByte4, XMStoreByte4, XMStoreByte4 method [DirectX Math Support APIs], dxmath.xmstorebyte4
-ms.topic: function
 f1_keywords:
 - directxpackedvector/XMStoreByte4
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: 2ea83a08-ab86-4635-8684-519808430ce9
 ms.date: 12/05/2018
 ms.keywords: DRM_ACTSERV_INFO, DRM_ACTSERV_INFO structure [Active Directory Rights Management Services SDK 1.0], msdrmdefs/DRM_ACTSERV_INFO, rm.drm_actserv_info
-ms.topic: struct
 f1_keywords:
 - msdrmdefs/DRM_ACTSERV_INFO
 dev_langs:

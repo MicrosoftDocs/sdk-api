@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: fb67d74a-dd96-434c-b218-a34ca6043cb1
 ms.date: 12/05/2018
 ms.keywords: FwpmSessionEnum0, FwpmSessionEnum0 function [Filtering], fwp.fwpmsessionenum0_func, fwpmu/FwpmSessionEnum0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmSessionEnum0
 dev_langs:

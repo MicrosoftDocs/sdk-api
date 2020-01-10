@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b0e27b7a-cf14-4b4c-849e-0fa7f6b1c0ed
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],MenuCall method, IDvdControl.MenuCall, IDvdControl::MenuCall, IDvdControlMenuCall, MenuCall, MenuCall method [DirectShow], MenuCall method [DirectShow],IDvdControl interface, dshow.idvdcontrol_menucall, strmif/IDvdControl::MenuCall
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.MenuCall
 dev_langs:

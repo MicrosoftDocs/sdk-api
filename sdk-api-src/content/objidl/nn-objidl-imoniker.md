@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 17f4c1df-7a9c-42ef-a888-70cd8d85f070
 ms.date: 12/05/2018
 ms.keywords: IMoniker, IMoniker interface [COM], IMoniker interface [COM],described, _com_imoniker, com.imoniker, objidl/IMoniker
-ms.topic: interface
 f1_keywords:
 - objidl/IMoniker
 dev_langs:

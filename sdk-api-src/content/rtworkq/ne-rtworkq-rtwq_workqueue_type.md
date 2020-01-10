@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 4aab85f3-855e-4fbf-9d25-209214bdd73b
 ms.date: 12/05/2018
 ms.keywords: RTWQ_MULTITHREADED_WORKQUEUE, RTWQ_STANDARD_WORKQUEUE, RTWQ_WINDOW_WORKQUEUE, RTWQ_WORKQUEUE_TYPE, RTWQ_WORKQUEUE_TYPE enumeration, base.rtwq_workqueue_type, rtworkq/RTWQ_MULTITHREADED_WORKQUEUE, rtworkq/RTWQ_STANDARD_WORKQUEUE, rtworkq/RTWQ_WINDOW_WORKQUEUE, rtworkq/RTWQ_WORKQUEUE_TYPE
-ms.topic: enum
 f1_keywords:
 - rtworkq/RTWQ_WORKQUEUE_TYPE
 dev_langs:

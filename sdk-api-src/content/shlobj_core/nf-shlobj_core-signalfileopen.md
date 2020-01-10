@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b46bb06f-a183-4a39-89bd-457fa4fe728f
 ms.date: 12/05/2018
 ms.keywords: SignalFileOpen, SignalFileOpen function [Windows Shell], _win32_SignalFileOpen, shell.SignalFileOpen, shlobj_core/SignalFileOpen
-ms.topic: function
 f1_keywords:
 - shlobj_core/SignalFileOpen
 dev_langs:

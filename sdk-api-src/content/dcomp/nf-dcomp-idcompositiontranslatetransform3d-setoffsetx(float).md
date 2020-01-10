@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 1C31C4B1-A31E-4131-A305-91AF4E6EF1B5
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTranslateTransform3D interface [DirectComposition],SetOffsetX method, IDCompositionTranslateTransform3D.SetOffsetX, IDCompositionTranslateTransform3D.SetOffsetX(float), IDCompositionTranslateTransform3D::SetOffsetX, IDCompositionTranslateTransform3D::SetOffsetX(float), SetOffsetX, SetOffsetX method [DirectComposition], SetOffsetX method [DirectComposition],IDCompositionTranslateTransform3D interface, dcomp/IDCompositionTranslateTransform3D::SetOffsetX, directcomp.idcompositiontranslatetransform3d_setoffsetx_float
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionTranslateTransform3D.SetOffsetX
 dev_langs:

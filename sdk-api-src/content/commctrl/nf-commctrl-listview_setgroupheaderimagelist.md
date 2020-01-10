@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setgroupheaderimagelist.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_SetGroupHeaderImageList, ListView_SetGroupHeaderImageList macro [Windows Controls], _shell_ListView_SetGroupHeaderImageList, _shell_ListView_SetGroupHeaderImageList_cpp, commctrl/ListView_SetGroupHeaderImageList, controls.ListView_SetGroupHeaderImageList, controls._shell_ListView_SetGroupHeaderImageList
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_SetGroupHeaderImageList
 dev_langs:

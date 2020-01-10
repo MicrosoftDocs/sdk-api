@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: cb4d30f4-e288-41e8-86e0-807c313db53d
 ms.date: 12/05/2018
 ms.keywords: RegCreateKey, RegCreateKey function, RegCreateKeyA, RegCreateKeyW, _win32_regcreatekey, base.regcreatekey, winreg/RegCreateKey, winreg/RegCreateKeyA, winreg/RegCreateKeyW
-ms.topic: function
 f1_keywords:
 - winreg/RegCreateKey
 dev_langs:

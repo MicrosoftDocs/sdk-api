@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: c2c55fd9-3b29-46be-9792-acb095b1c0e4
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],Subdirectory property, IDataCollectorSet.Subdirectory, IDataCollectorSet.get_Subdirectory, IDataCollectorSet::Subdirectory, IDataCollectorSet::get_Subdirectory, IDataCollectorSet::put_Subdirectory, Subdirectory property [PLA], Subdirectory property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_subdirectory, get_Subdirectory, pla.idatacollectorset_get_subdirectory, pla/IDataCollectorSet::Subdirectory, pla/IDataCollectorSet::get_Subdirectory, pla/IDataCollectorSet::put_Subdirectory
-ms.topic: method
 f1_keywords:
 - pla/IDataCollectorSet.Subdirectory
 dev_langs:

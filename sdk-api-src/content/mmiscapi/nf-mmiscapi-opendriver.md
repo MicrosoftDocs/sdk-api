@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 882146f7-cd42-45fd-8a5f-7078b64c7ea8
 ms.date: 12/05/2018
 ms.keywords: OpenDriver, OpenDriver function [Windows Multimedia], _win32_OpenDriver, mmsystem/OpenDriver, multimedia.opendriver
-ms.topic: function
 f1_keywords:
 - mmiscapi/OpenDriver
 dev_langs:

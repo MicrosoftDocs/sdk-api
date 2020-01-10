@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: a2bcc380-8873-436b-a0d6-e4deb23669bb
 ms.date: 12/05/2018
 ms.keywords: '*PPOLICY_LSA_SERVER_ROLE, POLICY_LSA_SERVER_ROLE, POLICY_LSA_SERVER_ROLE enumeration [Security], PPOLICY_LSA_SERVER_ROLE, PPOLICY_LSA_SERVER_ROLE enumeration pointer [Security], PolicyServerRoleBackup, PolicyServerRolePrimary, _lsa_policy_lsa_server_role, ntsecapi/POLICY_LSA_SERVER_ROLE, ntsecapi/PPOLICY_LSA_SERVER_ROLE, ntsecapi/PolicyServerRoleBackup, ntsecapi/PolicyServerRolePrimary, security.policy_lsa_server_role'
-ms.topic: enum
 f1_keywords:
 - ntsecapi/POLICY_LSA_SERVER_ROLE
 dev_langs:

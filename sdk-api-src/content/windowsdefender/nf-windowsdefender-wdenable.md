@@ -7,7 +7,6 @@ tech.root: lwef
 ms.assetid: a12d3b2a-6873-4ef4-90d6-08dbd5feb959
 ms.date: 12/05/2018
 ms.keywords: WDEnable, WDEnable function [Legacy Windows Environment Features], lwef.defender_wdenable, shell.defender_wdenable, shell_defender_WDEnable, windowsdefender/WDEnable
-ms.topic: function
 f1_keywords:
 - windowsdefender/WDEnable
 dev_langs:

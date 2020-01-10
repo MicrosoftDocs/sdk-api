@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 759d9cd9-9ef2-4bbe-9e99-8aec87f5ba4a
 ms.date: 12/05/2018
 ms.keywords: DeleteBoundaryDescriptor, DeleteBoundaryDescriptor function, base.deleteboundarydescriptor, namespaceapi/DeleteBoundaryDescriptor, winbase/DeleteBoundaryDescriptor
-ms.topic: function
 f1_keywords:
 - namespaceapi/DeleteBoundaryDescriptor
 dev_langs:

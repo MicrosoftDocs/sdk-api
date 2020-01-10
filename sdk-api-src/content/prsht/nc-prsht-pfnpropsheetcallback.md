@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\propsheetproc.htm
 ms.date: 12/05/2018
 ms.keywords: PFNPROPSHEETCALLBACK, PSCB_BUTTONPRESSED, PSCB_INITIALIZED, PSCB_PRECREATE, PropSheetProc, PropSheetProc callback, PropSheetProc callback function [Windows Controls], _win32_PropSheetProc, _win32_PropSheetProc_cpp, controls.PropSheetProc, controls._win32_PropSheetProc, prsht/PFNPROPSHEETCALLBACK, prsht/PropSheetProc
-ms.topic: callback
 f1_keywords:
 - prsht/PropSheetProc
 dev_langs:

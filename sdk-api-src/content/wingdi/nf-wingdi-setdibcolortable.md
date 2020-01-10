@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: f301c34d-6e8e-4dc8-b3f3-0fdc658d09e3
 ms.date: 12/05/2018
 ms.keywords: SetDIBColorTable, SetDIBColorTable function [Windows GDI], _win32_SetDIBColorTable, gdi.setdibcolortable, wingdi/SetDIBColorTable
-ms.topic: function
 f1_keywords:
 - wingdi/SetDIBColorTable
 dev_langs:

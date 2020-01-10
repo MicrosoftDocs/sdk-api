@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: 56b47fec-dfa2-4906-9135-5ee331f04c54
 ms.date: 12/05/2018
 ms.keywords: AddEventHandler, AddEventHandler method [Direct Manipulation], AddEventHandler method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],AddEventHandler method, IDirectManipulationViewport.AddEventHandler, IDirectManipulationViewport::AddEventHandler, directmanipulation.idirectmanipulationviewport_addeventhandler, directmanipulation/IDirectManipulationViewport::AddEventHandler
-ms.topic: method
 f1_keywords:
 - directmanipulation/IDirectManipulationViewport.AddEventHandler
 dev_langs:

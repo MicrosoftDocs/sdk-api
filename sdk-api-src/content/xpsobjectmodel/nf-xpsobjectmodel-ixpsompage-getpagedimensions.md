@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 24a81c7a-f048-4347-8023-96ed85bec2a1
 ms.date: 12/05/2018
 ms.keywords: GetPageDimensions, GetPageDimensions method [XPS Documents and Packaging], GetPageDimensions method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetPageDimensions method, IXpsOMPage.GetPageDimensions, IXpsOMPage::GetPageDimensions, xps.ixpsompage_getpagedimensions, xpsobjectmodel/IXpsOMPage::GetPageDimensions
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPage.GetPageDimensions
 dev_langs:

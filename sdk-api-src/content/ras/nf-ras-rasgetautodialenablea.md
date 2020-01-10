@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 221f91e6-86bd-4450-92c8-ec3290712c18
 ms.date: 12/05/2018
 ms.keywords: RasGetAutodialEnable, RasGetAutodialEnable function [RAS], RasGetAutodialEnableA, RasGetAutodialEnableW, _ras_rasgetautodialenable, ras/RasGetAutodialEnable, ras/RasGetAutodialEnableA, ras/RasGetAutodialEnableW, rras.rasgetautodialenable
-ms.topic: function
 f1_keywords:
 - ras/RasGetAutodialEnable
 dev_langs:

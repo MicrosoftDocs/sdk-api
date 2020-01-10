@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 94ac1206-be5f-467c-ab4a-11f574c406ca
 ms.date: 12/05/2018
 ms.keywords: '*LPSYNCMGRPROGRESSITEM, LPSYNCMGRPROGRESSITEM, LPSYNCMGRPROGRESSITEM structure pointer [Windows Shell], SYNCMGRPROGRESSITEM, SYNCMGRPROGRESSITEM structure [Windows Shell], mobsync/LPSYNCMGRPROGRESSITEM, mobsync/SYNCMGRPROGRESSITEM, shell.syncmgr_syncmgrprogressitem, syncmgr.syncmgrprogressitem'
-ms.topic: struct
 f1_keywords:
 - mobsync/SYNCMGRPROGRESSITEM
 dev_langs:

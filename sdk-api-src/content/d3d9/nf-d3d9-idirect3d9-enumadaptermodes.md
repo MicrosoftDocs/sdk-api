@@ -7,7 +7,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__enumadaptermodes.htm
 ms.date: 12/05/2018
 ms.keywords: EnumAdapterModes, EnumAdapterModes method [Direct3D 9], EnumAdapterModes method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],EnumAdapterModes method, IDirect3D9.EnumAdapterModes, IDirect3D9::EnumAdapterModes, d3d9helper/IDirect3D9::EnumAdapterModes, dfe3f630-cfbd-1855-e8f0-abdadb49cfae, direct3d9.idirect3d9__enumadaptermodes
-ms.topic: method
 f1_keywords:
 - d3d9/IDirect3D9.EnumAdapterModes
 dev_langs:

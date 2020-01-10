@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: 0f4ab29d-ea9c-410d-94ab-4c4d8ed76b4d
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],StartItemDelete method, IPhotoAcquireProgressCB.StartItemDelete, IPhotoAcquireProgressCB::StartItemDelete, IPhotoAcquireProgressCBStartItemDelete, StartItemDelete, StartItemDelete method [Picture Acquisition], StartItemDelete method [Picture Acquisition],IPhotoAcquireProgressCB interface, photoacquire/IPhotoAcquireProgressCB::StartItemDelete, picacq.iphotoacquireprogresscb_startitemdelete
-ms.topic: method
 f1_keywords:
 - photoacquire/IPhotoAcquireProgressCB.StartItemDelete
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: aa194dd0-3293-4c09-84ae-516478862f4c
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetSubject method, IXpsOMCoreProperties.SetSubject, IXpsOMCoreProperties::SetSubject, SetSubject, SetSubject method [XPS Documents and Packaging], SetSubject method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setsubject, xpsobjectmodel/IXpsOMCoreProperties::SetSubject
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.SetSubject
 dev_langs:

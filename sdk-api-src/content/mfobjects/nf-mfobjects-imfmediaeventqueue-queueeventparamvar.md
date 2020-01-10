@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: e2bafeca-76e7-4df4-94a7-86aef04f3a35
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEventQueue interface [Media Foundation],QueueEventParamVar method, IMFMediaEventQueue.QueueEventParamVar, IMFMediaEventQueue::QueueEventParamVar, QueueEventParamVar, QueueEventParamVar method [Media Foundation], QueueEventParamVar method [Media Foundation],IMFMediaEventQueue interface, e2bafeca-76e7-4df4-94a7-86aef04f3a35, mf.imfmediaeventqueue_queueeventparamvar, mfobjects/IMFMediaEventQueue::QueueEventParamVar
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFMediaEventQueue.QueueEventParamVar
 dev_langs:

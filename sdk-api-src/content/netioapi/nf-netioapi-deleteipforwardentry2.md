@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 68d5a5a5-21cf-4337-8a35-7f847f5e2138
 ms.date: 12/05/2018
 ms.keywords: DeleteIpForwardEntry2, DeleteIpForwardEntry2 function [IP Helper], iphlp.deleteipforwardentry2, netioapi/DeleteIpForwardEntry2
-ms.topic: function
 f1_keywords:
 - netioapi/DeleteIpForwardEntry2
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: F9AF7DDE-13EB-43DB-BAD5-61A6ABD9307D
 ms.date: 12/05/2018
 ms.keywords: DispatcherQueueOptions, DispatcherQueueOptions structure, base.dispatcherqueueoptions, dispatcherqueue/DispatcherQueueOptions
-ms.topic: struct
 f1_keywords:
 - dispatcherqueue/DispatcherQueueOptions
 dev_langs:

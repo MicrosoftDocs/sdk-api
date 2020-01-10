@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector3NearEqual(XMVECTOR,XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3NearEqual, XMVector3NearEqual, XMVector3NearEqual method [DirectX Math Support APIs], dxmath.xmvector3nearequal
-ms.topic: function
 f1_keywords:
 - directxmath/XMVector3NearEqual
 dev_langs:

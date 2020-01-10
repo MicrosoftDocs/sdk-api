@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: d706626a-cf11-4087-b66a-350161050aad
 ms.date: 12/05/2018
 ms.keywords: D3D11_QUERY_DATA_TIMESTAMP_DISJOINT, D3D11_QUERY_DATA_TIMESTAMP_DISJOINT structure [Direct3D 11], d3d11/D3D11_QUERY_DATA_TIMESTAMP_DISJOINT, direct3d11.d3d11_query_data_timestamp_disjoint, f6339efd-3b83-c410-71de-6ecde51119d9
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_QUERY_DATA_TIMESTAMP_DISJOINT
 dev_langs:

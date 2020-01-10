@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 507b1c55-1ecb-41dd-a6e5-298e1047a7ea
 ms.date: 12/05/2018
 ms.keywords: GetStreamByNumber, GetStreamByNumber method [windows Media Format], GetStreamByNumber method [windows Media Format],IWMProfile interface, GetStreamByNumber method [windows Media Format],IWMProfile2 interface, GetStreamByNumber method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],GetStreamByNumber method, IWMProfile.GetStreamByNumber, IWMProfile2 interface [windows Media Format],GetStreamByNumber method, IWMProfile2::GetStreamByNumber, IWMProfile3 interface [windows Media Format],GetStreamByNumber method, IWMProfile3::GetStreamByNumber, IWMProfile::GetStreamByNumber, IWMProfileGetStreamByNumber, wmformat.iwmprofile_getstreambynumber, wmsdkidl/IWMProfile2::GetStreamByNumber, wmsdkidl/IWMProfile3::GetStreamByNumber, wmsdkidl/IWMProfile::GetStreamByNumber
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMProfile.GetStreamByNumber
 dev_langs:

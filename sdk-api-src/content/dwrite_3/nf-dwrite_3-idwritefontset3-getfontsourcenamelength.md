@@ -5,7 +5,6 @@ description: Retrieves the length of the font source name for the specified font
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet3 interface [Direct Write],GetFontSourceNameLength method, IDWriteFontSet3.GetFontSourceNameLength, IDWriteFontSet3::GetFontSourceNameLength, GetFontSourceNameLength, GetFontSourceNameLength method [Direct Write], GetFontSourceNameLength method [Direct Write],IDWriteFontSet3 interface, directwrite.idwritefontset3_getfontsourcenamelength, dwrite_3/IDWriteFontSet3::GetFontSourceNameLength
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontSet3.GetFontSourceNameLength
 dev_langs:

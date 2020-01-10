@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 49afb04a-34e3-4696-a046-bc9308ae7adf
 ms.date: 12/05/2018
 ms.keywords: SHCreateShellPalette, SHCreateShellPalette function [Windows Shell], _win32_SHCreateShellPalette, shell.SHCreateShellPalette, shlwapi/SHCreateShellPalette
-ms.topic: function
 f1_keywords:
 - shlwapi/SHCreateShellPalette
 dev_langs:

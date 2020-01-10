@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 03a0b218-4683-42b2-9080-9b92701dff1e
 ms.date: 12/05/2018
 ms.keywords: AreSnapshotsAvailable, AreSnapshotsAvailable method [Windows Shell], AreSnapshotsAvailable method [Windows Shell],IPreviousVersionsInfo interface, FALSE, IPreviousVersionsInfo interface [Windows Shell],AreSnapshotsAvailable method, IPreviousVersionsInfo.AreSnapshotsAvailable, IPreviousVersionsInfo::AreSnapshotsAvailable, TRUE, _shell_IPreviousVersionsInfo_AreSnapshotsAvailable, shell.IPreviousVersionsInfo_AreSnapshotsAvailable, shobjidl/IPreviousVersionsInfo::AreSnapshotsAvailable
-ms.topic: method
 f1_keywords:
 - shobjidl/IPreviousVersionsInfo.AreSnapshotsAvailable
 dev_langs:

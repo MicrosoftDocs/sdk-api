@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: bdec33b1-cbdd-4ec3-83b2-4e5655ecf5bb
 ms.date: 12/05/2018
 ms.keywords: VarAdd, VarAdd function [Automation], _oa96_VarAdd, automat.varadd, oleauto/VarAdd
-ms.topic: function
 f1_keywords:
 - oleauto/VarAdd
 dev_langs:

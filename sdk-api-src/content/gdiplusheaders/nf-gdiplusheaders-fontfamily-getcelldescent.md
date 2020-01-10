@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\getcelldescent.htm
 ms.date: 12/05/2018
 ms.keywords: FontFamily class [GDI+],GetCellDescent method, FontFamily.GetCellDescent, FontFamily::GetCellDescent, GetCellDescent, GetCellDescent method [GDI+], GetCellDescent method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_GetCellDescent_style_, gdiplus._gdiplus_CLASS_FontFamily_GetCellDescent_style_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/FontFamily.GetCellDescent
 dev_langs:

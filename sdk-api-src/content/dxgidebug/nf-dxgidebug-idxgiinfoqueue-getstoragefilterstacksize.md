@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: FE4D1749-7587-48BA-9701-B09DDFF1CE84
 ms.date: 12/05/2018
 ms.keywords: GetStorageFilterStackSize, GetStorageFilterStackSize method [DXGI], GetStorageFilterStackSize method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetStorageFilterStackSize method, IDXGIInfoQueue.GetStorageFilterStackSize, IDXGIInfoQueue::GetStorageFilterStackSize, direct3ddxgi.idxgiinfoqueue_getstoragefilterstacksize, dxgidebug/IDXGIInfoQueue::GetStorageFilterStackSize
-ms.topic: method
 f1_keywords:
 - dxgidebug/IDXGIInfoQueue.GetStorageFilterStackSize
 dev_langs:

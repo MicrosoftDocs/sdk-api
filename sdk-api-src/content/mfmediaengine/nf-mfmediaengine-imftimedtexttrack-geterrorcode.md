@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: D73D3ACC-BD9C-4340-8572-6D82E96D0BA8
 ms.date: 12/05/2018
 ms.keywords: GetErrorCode, GetErrorCode method [Media Foundation], GetErrorCode method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetErrorCode method, IMFTimedTextTrack.GetErrorCode, IMFTimedTextTrack::GetErrorCode, mf.imftimedtexttrack_geterrorcode, mfmediaengine/IMFTimedTextTrack::GetErrorCode
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFTimedTextTrack.GetErrorCode
 dev_langs:

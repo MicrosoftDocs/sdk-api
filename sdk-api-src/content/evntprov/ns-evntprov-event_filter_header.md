@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 364a253d-f4c4-494a-af43-487c70912542
 ms.date: 12/05/2018
 ms.keywords: '*PEVENT_FILTER_HEADER, EVENT_FILTER_HEADER, EVENT_FILTER_HEADER structure [ETW], PEVENT_FILTER_HEADER, PEVENT_FILTER_HEADER structure pointer [ETW], etw.event_filter_header, evntprov/EVENT_FILTER_HEADER, evntprov/PEVENT_FILTER_HEADER'
-ms.topic: struct
 f1_keywords:
 - evntprov/EVENT_FILTER_HEADER
 dev_langs:

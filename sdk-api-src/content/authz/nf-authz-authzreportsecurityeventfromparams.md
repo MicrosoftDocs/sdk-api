@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: ee5b598a-0a89-4b32-a9bc-e9c811573b08
 ms.date: 12/05/2018
 ms.keywords: AuthzReportSecurityEventFromParams, AuthzReportSecurityEventFromParams function [Security], authz/AuthzReportSecurityEventFromParams, security.authzreportsecurityeventfromparams
-ms.topic: function
 f1_keywords:
 - authz/AuthzReportSecurityEventFromParams
 dev_langs:

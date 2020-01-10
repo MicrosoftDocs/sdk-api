@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 0a4b1dba-df2b-4c9e-9a17-4c5f24d152a7
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetCallData, TSPI_lineSetCallData function [TAPI 2.2], _tspi_tspi_linesetcalldata, tspi.tspi_linesetcalldata, tspi/TSPI_lineSetCallData
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineSetCallData
 dev_langs:

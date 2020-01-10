@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: 5e8f8250-6790-41dd-bd0b-13a421cf3ebc
 ms.date: 12/05/2018
 ms.keywords: '*PBLUETOOTH_NUMERIC_COMPARISON_INFO, BLUETOOTH_NUMERIC_COMPARISON_INFO, BLUETOOTH_NUMERIC_COMPARISON_INFO structure [Bluetooth], PBLUETOOTH_NUMERIC_COMPARISON_INFO, PBLUETOOTH_NUMERIC_COMPARISON_INFO structure pointer [Bluetooth], bluetooth.bluetooth_numeric_comparison_info, bluetoothapis/BLUETOOTH_NUMERIC_COMPARISON_INFO, bluetoothapis/PBLUETOOTH_NUMERIC_COMPARISON_INFO'
-ms.topic: struct
 f1_keywords:
 - bluetoothapis/BLUETOOTH_NUMERIC_COMPARISON_INFO
 dev_langs:

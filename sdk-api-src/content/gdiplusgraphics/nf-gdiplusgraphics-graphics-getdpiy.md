@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getdpiy.htm
 ms.date: 12/05/2018
 ms.keywords: GetDpiY, GetDpiY method [GDI+], GetDpiY method [GDI+],Graphics class, Graphics class [GDI+],GetDpiY method, Graphics.GetDpiY, Graphics::GetDpiY, _gdiplus_CLASS_Graphics_GetDpiY_, gdiplus._gdiplus_CLASS_Graphics_GetDpiY_
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.GetDpiY
 dev_langs:

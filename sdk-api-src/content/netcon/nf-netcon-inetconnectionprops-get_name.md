@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 7ff91c38-51af-467b-baff-0d41a2ba14f7
 ms.date: 12/05/2018
 ms.keywords: INetConnectionProps interface [ICS/ICF],get_Name method, INetConnectionProps.get_Name, INetConnectionProps::get_Name, _ics_inetconnectionprops_get_name, get_Name, get_Name method [ICS/ICF], get_Name method [ICS/ICF],INetConnectionProps interface, ics.inetconnectionprops_get_name, netcon/INetConnectionProps::get_Name
-ms.topic: method
 f1_keywords:
 - netcon/INetConnectionProps.get_Name
 dev_langs:

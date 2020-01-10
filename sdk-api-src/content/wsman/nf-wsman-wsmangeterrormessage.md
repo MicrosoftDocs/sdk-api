@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 95fbded5-859d-4111-914c-871a05530726
 ms.date: 12/05/2018
 ms.keywords: WSManGetErrorMessage, WSManGetErrorMessage function [Windows Remote Management], winrm.wsmangeterrormessage, wsman/WSManGetErrorMessage
-ms.topic: function
 f1_keywords:
 - wsman/WSManGetErrorMessage
 dev_langs:

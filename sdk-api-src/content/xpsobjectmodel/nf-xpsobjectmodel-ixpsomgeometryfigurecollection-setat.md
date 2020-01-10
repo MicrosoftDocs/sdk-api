@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 59612109-8500-4bd9-a37c-120ef12aded4
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMGeometryFigureCollection.SetAt, IXpsOMGeometryFigureCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMGeometryFigureCollection interface, xps.ixpsomgeometryfigurecollection_setat, xpsobjectmodel/IXpsOMGeometryFigureCollection::SetAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGeometryFigureCollection.SetAt
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: BC3F3EB4-BB5E-40D6-B877-50694576FA1B
 ms.date: 12/05/2018
 ms.keywords: LoadEnclaveIUmageA, LoadEnclaveImage, LoadEnclaveImage function, LoadEnclaveImageW, base.loadenclaveimage, enclaveapi/LoadEnclaveIUmageA, enclaveapi/LoadEnclaveImage, enclaveapi/LoadEnclaveImageW
-ms.topic: function
 f1_keywords:
 - enclaveapi/LoadEnclaveImage
 dev_langs:

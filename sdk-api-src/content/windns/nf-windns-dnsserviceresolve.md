@@ -4,7 +4,6 @@ title: DnsServiceResolve function
 description: Used to obtain more information about a service advertised on the local network.
 ms.date: 02/14/2019
 ms.keywords: DnsServiceResolve
-ms.topic: language-reference
 f1_keywords:
 - windns/DnsServiceResolve
 dev_langs:

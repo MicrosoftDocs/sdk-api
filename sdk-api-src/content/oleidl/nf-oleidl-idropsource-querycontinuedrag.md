@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 96ea44fc-5046-4e31-abfc-659d8ef3ca8f
 ms.date: 12/05/2018
 ms.keywords: IDropSource interface [COM],QueryContinueDrag method, IDropSource.QueryContinueDrag, IDropSource::QueryContinueDrag, QueryContinueDrag, QueryContinueDrag method [COM], QueryContinueDrag method [COM],IDropSource interface, _ole_idropsource_querycontinuedrag, com.idropsource_querycontinuedrag, oleidl/IDropSource::QueryContinueDrag
-ms.topic: method
 f1_keywords:
 - oleidl/IDropSource.QueryContinueDrag
 dev_langs:

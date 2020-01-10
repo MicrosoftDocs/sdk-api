@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 93673b29-744a-4100-86b7-8a2eec861c47
 ms.date: 12/05/2018
 ms.keywords: IDsAdminCreateObj, IDsAdminCreateObj interface [Active Directory], IDsAdminCreateObj interface [Active Directory],described, _glines_idsadmincreateobj, ad.idsadmincreateobj, dsadmin/IDsAdminCreateObj
-ms.topic: interface
 f1_keywords:
 - dsadmin/IDsAdminCreateObj
 dev_langs:

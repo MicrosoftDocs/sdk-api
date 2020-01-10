@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 7ce0bafb-8076-4a0d-bd59-9e2d436f74c1
 ms.date: 12/05/2018
 ms.keywords: ActionType property [File Server Resource Manager], ActionType property [File Server Resource Manager],IFsrmAction interface, IFsrmAction interface [File Server Resource Manager],ActionType property, IFsrmAction.ActionType, IFsrmAction.get_ActionType, IFsrmAction::ActionType, IFsrmAction::get_ActionType, fs.ifsrmaction_actiontype, fsrm.ifsrmaction_actiontype, fsrm/IFsrmAction::ActionType, fsrm/IFsrmAction::get_ActionType, get_ActionType
-ms.topic: method
 f1_keywords:
 - fsrm/IFsrmAction.ActionType
 dev_langs:

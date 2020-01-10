@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 65cf2e9c-8f88-4e84-8bf2-2b0fd246a835
 ms.date: 12/05/2018
 ms.keywords: '*LPCQFORM, CQFF_ISOPTIONAL, CQFF_NOGLOBALPAGES, CQFORM, CQFORM structure [Active Directory], LPCQFORM, LPCQFORM structure pointer [Active Directory], _glines_cqform, ad.cqform, cmnquery/CQFORM, cmnquery/LPCQFORM'
-ms.topic: struct
 f1_keywords:
 - cmnquery/CQFORM
 dev_langs:

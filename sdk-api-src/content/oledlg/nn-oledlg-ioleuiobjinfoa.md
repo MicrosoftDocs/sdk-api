@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 508dccb3-e98b-4f62-8bc3-98ca2b0d1349
 ms.date: 12/05/2018
 ms.keywords: IOleUIObjInfo, IOleUIObjInfo interface [COM], IOleUIObjInfo interface [COM],described, IOleUIObjInfoA, IOleUIObjInfoW, _ole_IOleUIObjInfo, com.ioleuiobjinfo, oledlg/IOleUIObjInfo
-ms.topic: interface
 f1_keywords:
 - oledlg/IOleUIObjInfo
 dev_langs:

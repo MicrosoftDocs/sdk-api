@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 7cccb588-c530-46dc-99e8-84e763cb0a8b
 ms.date: 12/05/2018
 ms.keywords: DataCollectorSetStatus, DataCollectorSetStatus enumeration [PLA], base.datacollectorsetstatus, pla.datacollectorsetstatus, pla/DataCollectorSetStatus, pla/plaCompiling, pla/plaPending, pla/plaRunning, pla/plaStopped, pla/plaUndefined, plaCompiling, plaPending, plaRunning, plaStopped, plaUndefined
-ms.topic: enum
 f1_keywords:
 - pla/DataCollectorSetStatus
 dev_langs:

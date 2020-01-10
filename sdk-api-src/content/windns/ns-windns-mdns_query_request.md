@@ -4,7 +4,6 @@ title: MDNS_QUERY_REQUEST structure
 description: Contains the necessary information to perform an mDNS query.
 ms.date: 02/19/2019
 ms.keywords: _MDNS_QUERY_REQUEST, MDNS_QUERY_REQUEST
-ms.topic: language-reference
 f1_keywords:
 - windns/_MDNS_QUERY_REQUEST
 dev_langs:

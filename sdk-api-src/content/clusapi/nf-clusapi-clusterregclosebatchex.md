@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 127d06de-28a4-4df4-9f5f-17ea4a330528
 ms.date: 12/05/2018
 ms.keywords: ClusterRegCloseBatchEx, ClusterRegCloseBatchEx function [Failover Cluster], clusapi/ClusterRegCloseBatchEx, mscs.clusterregclosebatchex
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterRegCloseBatchEx
 dev_langs:

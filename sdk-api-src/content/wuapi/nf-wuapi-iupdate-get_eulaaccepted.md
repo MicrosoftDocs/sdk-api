@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: c62967c1-d72a-4ae0-ad02-94e948985b87
 ms.date: 12/05/2018
 ms.keywords: EulaAccepted property [Windows Update Agent], EulaAccepted property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],EulaAccepted property, IUpdate.EulaAccepted, IUpdate.get_EulaAccepted, IUpdate::EulaAccepted, IUpdate::get_EulaAccepted, get_EulaAccepted, wua.iupdate_eulaaccepted, wuapi/IUpdate::EulaAccepted, wuapi/IUpdate::get_EulaAccepted
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdate.EulaAccepted
 dev_langs:

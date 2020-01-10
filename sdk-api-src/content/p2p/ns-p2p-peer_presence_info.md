@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: e8f83ba8-81a3-4083-bc15-e00b2bec1cd4
 ms.date: 12/05/2018
 ms.keywords: '*PPEER_PRESENCE_INFO, PCPEER_PRESENCE_INFO, PCPEER_PRESENCE_INFO structure pointer [Peer Networking], PEER_PRESENCE_INFO, PEER_PRESENCE_INFO structure [Peer Networking], PPEER_PRESENCE_INFO, PPEER_PRESENCE_INFO structure pointer [Peer Networking], p2p.peer_presence_info, p2p/PCPEER_PRESENCE_INFO, p2p/PEER_PRESENCE_INFO, p2p/PPEER_PRESENCE_INFO'
-ms.topic: struct
 f1_keywords:
 - p2p/PEER_PRESENCE_INFO
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: b646225a-0008-45f3-9c42-48adf4942ebd
 ms.date: 12/05/2018
 ms.keywords: IsStringSupported, IsStringSupported function [Tablet PC], b646225a-0008-45f3-9c42-48adf4942ebd, recapis/IsStringSupported, tablet.isstringsupported
-ms.topic: function
 f1_keywords:
 - recapis/IsStringSupported
 dev_langs:

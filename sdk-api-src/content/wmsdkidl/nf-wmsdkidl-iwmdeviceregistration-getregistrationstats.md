@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 56c5b2c7-46c2-42e4-a7d4-f1b3e56ffbcb
 ms.date: 12/05/2018
 ms.keywords: GetRegistrationStats, GetRegistrationStats method [windows Media Format], GetRegistrationStats method [windows Media Format],IWMDeviceRegistration interface, IWMDeviceRegistration interface [windows Media Format],GetRegistrationStats method, IWMDeviceRegistration.GetRegistrationStats, IWMDeviceRegistration::GetRegistrationStats, IWMDeviceRegistrationGetRegistrationStats, wmformat.iwmdeviceregistration_getregistrationstats, wmsdkidl/IWMDeviceRegistration::GetRegistrationStats
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMDeviceRegistration.GetRegistrationStats
 dev_langs:

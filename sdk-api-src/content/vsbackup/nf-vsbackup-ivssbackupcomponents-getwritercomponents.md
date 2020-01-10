@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: b99e7e41-1c88-462c-b6d8-734f7a6e24d4
 ms.date: 12/05/2018
 ms.keywords: GetWriterComponents, GetWriterComponents method [VSS], GetWriterComponents method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterComponents method, IVssBackupComponents.GetWriterComponents, IVssBackupComponents::GetWriterComponents, _win32_ivssbackupcomponents_getwritercomponents, base.ivssbackupcomponents_getwritercomponents, vsbackup/IVssBackupComponents::GetWriterComponents
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponents.GetWriterComponents
 dev_langs:

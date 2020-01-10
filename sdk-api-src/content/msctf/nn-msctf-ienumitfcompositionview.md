@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: d842b367-a605-4ed0-887d-89dfcf6893a6
 ms.date: 12/05/2018
 ms.keywords: IEnumITfCompositionView, IEnumITfCompositionView interface [Text Services Framework], IEnumITfCompositionView interface [Text Services Framework],described, _tsf_ienumitfcompositionview_ref, msctf/IEnumITfCompositionView, tsf.ienumitfcompositionview
-ms.topic: interface
 f1_keywords:
 - msctf/IEnumITfCompositionView
 dev_langs:

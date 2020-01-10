@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwiaitem\next.htm
 ms.date: 12/05/2018
 ms.keywords: IEnumWiaItem interface [WIA],Next method, IEnumWiaItem.Next, IEnumWiaItem::Next, Next, Next method [WIA], Next method [WIA],IEnumWiaItem interface, _wia_IEnumWiaItem_Next, wia._wia_IEnumWiaItem_Next, wia_xp/IEnumWiaItem::Next
-ms.topic: method
 f1_keywords:
 - wia_xp/IEnumWiaItem.Next
 dev_langs:

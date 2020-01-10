@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querysyntax.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],put_QuerySyntax method, ISearchQueryHelper.put_QuerySyntax, ISearchQueryHelper::put_QuerySyntax, _search_ISearchQueryHelper_put_QuerySyntax, put_QuerySyntax, put_QuerySyntax method [search], put_QuerySyntax method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_put_QuerySyntax, searchapi/ISearchQueryHelper::put_QuerySyntax
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchQueryHelper.put_QuerySyntax
 dev_langs:

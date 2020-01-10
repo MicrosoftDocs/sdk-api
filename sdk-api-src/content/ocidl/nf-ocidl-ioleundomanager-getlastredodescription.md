@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: b3d514cf-1d1f-4b5b-89f6-d0e03aa794cc
 ms.date: 12/05/2018
 ms.keywords: GetLastRedoDescription, GetLastRedoDescription method [COM], GetLastRedoDescription method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],GetLastRedoDescription method, IOleUndoManager.GetLastRedoDescription, IOleUndoManager::GetLastRedoDescription, _ole_ioleundomanager_getlastredodescription, com.ioleundomanager_getlastredodescription, ocidl/IOleUndoManager::GetLastRedoDescription
-ms.topic: method
 f1_keywords:
 - ocidl/IOleUndoManager.GetLastRedoDescription
 dev_langs:

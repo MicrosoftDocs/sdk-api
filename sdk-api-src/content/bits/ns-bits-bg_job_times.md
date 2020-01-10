@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: d7ee63f7-e2d1-451d-b200-cccb86816f21
 ms.date: 12/05/2018
 ms.keywords: BG_JOB_TIMES, BG_JOB_TIMES structure [BITS], _drz_bg_job_times, bits.bg_job_times, bits/BG_JOB_TIMES
-ms.topic: struct
 f1_keywords:
 - bits/BG_JOB_TIMES
 dev_langs:

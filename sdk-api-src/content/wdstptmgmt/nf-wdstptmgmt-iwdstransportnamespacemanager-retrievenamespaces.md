@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 3151ab6b-7ceb-4ecc-8480-cb5f9700ca9a
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespaceManager interface [Windows Deployment Services],RetrieveNamespaces method, IWdsTransportNamespaceManager.RetrieveNamespaces, IWdsTransportNamespaceManager::RetrieveNamespaces, RetrieveNamespaces, RetrieveNamespaces method [Windows Deployment Services], RetrieveNamespaces method [Windows Deployment Services],IWdsTransportNamespaceManager interface, wds.iwdstransportnamespacemanager_retrievenamespaces, wdstptmgmt/IWdsTransportNamespaceManager::RetrieveNamespaces
-ms.topic: method
 f1_keywords:
 - wdstptmgmt/IWdsTransportNamespaceManager.RetrieveNamespaces
 dev_langs:

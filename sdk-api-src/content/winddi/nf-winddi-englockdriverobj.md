@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 9ed3142d-2b20-4453-9057-80e6f8f92ff2
 ms.date: 12/05/2018
 ms.keywords: EngLockDriverObj, EngLockDriverObj function [Display Devices], display.englockdriverobj, gdifncs_154bc925-ce22-45c9-8d24-724f186cd3b5.xml, winddi/EngLockDriverObj
-ms.topic: function
 f1_keywords:
 - winddi/EngLockDriverObj
 dev_langs:

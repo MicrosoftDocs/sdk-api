@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: ba889b2e-f822-41ca-a908-ade83ae7cf10
 ms.date: 12/05/2018
 ms.keywords: IScheduleCollection interface [PLA],Item property, IScheduleCollection.Item, IScheduleCollection.get_Item, IScheduleCollection::Item, IScheduleCollection::get_Item, Item property [PLA], Item property [PLA],IScheduleCollection interface, base.ischedulecollection_item, get_Item, pla.ischedulecollection_item, pla/IScheduleCollection::Item, pla/IScheduleCollection::get_Item
-ms.topic: method
 f1_keywords:
 - pla/IScheduleCollection.Item
 dev_langs:

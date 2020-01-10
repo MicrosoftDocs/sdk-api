@@ -7,7 +7,6 @@ tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\structures\magtransformstruct.htm
 ms.date: 12/05/2018
 ms.keywords: '*PMAGTRANSFORM, MAGTRANSFORM, MAGTRANSFORM structure [Magnification API], PMAGTRANSFORM, PMAGTRANSFORM structure pointer [Magnification API], magapi.magapi_magtransform, magapi_magtransform, magnification/MAGTRANSFORM, magnification/PMAGTRANSFORM'
-ms.topic: struct
 f1_keywords:
 - magnification/MAGTRANSFORM
 dev_langs:

@@ -5,7 +5,6 @@ description: The Graphics::DrawBeziers method draws a sequence of connected Bezi
 ms.assetid: 3a0f5b23-24bb-4255-a6fe-30cfb701350a
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawBeziers
-ms.topic: language-reference
 f1_keywords:
 - gdiplusgraphics/Graphics::DrawBeziers
 dev_langs:

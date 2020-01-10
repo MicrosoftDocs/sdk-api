@@ -7,7 +7,6 @@ tech.root: FunDisc
 ms.assetid: b79b7cb2-c02a-4474-bd48-8907ebb118fa
 ms.date: 12/05/2018
 ms.keywords: IFunctionInstanceCollection interface,Item method, IFunctionInstanceCollection.Item, IFunctionInstanceCollection::Item, Item, Item method, Item method,IFunctionInstanceCollection interface, functiondiscoveryapi/IFunctionInstanceCollection::Item, ncd.ifunctioninstancecollection_item_method
-ms.topic: method
 f1_keywords:
 - functiondiscoveryapi/IFunctionInstanceCollection.Item
 dev_langs:

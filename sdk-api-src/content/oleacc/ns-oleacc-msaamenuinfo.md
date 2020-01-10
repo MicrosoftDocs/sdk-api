@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: e8cc9c5d-eb76-4dba-90ad-94d2fd86dc8b
 ms.date: 12/05/2018
 ms.keywords: '*LPMSAAMENUINFO, LPMSAAMENUINFO, LPMSAAMENUINFO structure pointer [Windows Accessibility], MSAAMENUINFO, MSAAMENUINFO structure [Windows Accessibility], _msaa_MSAAMENUINFO, msaa.msaamenuinfo, oleacc/LPMSAAMENUINFO, oleacc/MSAAMENUINFO, winauto.msaamenuinfo'
-ms.topic: struct
 f1_keywords:
 - oleacc/MSAAMENUINFO
 dev_langs:

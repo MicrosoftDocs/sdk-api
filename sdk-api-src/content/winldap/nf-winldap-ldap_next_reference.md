@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: ea67f0e9-5cf7-4755-9bfd-856e26589a8d
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_next_reference, ldap.ldap__next__reference, ldap.ldap_next_reference, ldap_next_reference, ldap_next_reference function [LDAP], winldap/ldap_next_reference
-ms.topic: function
 f1_keywords:
 - winldap/ldap_next_reference
 dev_langs:

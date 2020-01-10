@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 06b5794e-ba46-499f-b85c-f0acb4fd79a7
 ms.date: 12/05/2018
 ms.keywords: GetMinimumSupportedVersion, GetMinimumSupportedVersion method [Windows Sync], GetMinimumSupportedVersion method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],GetMinimumSupportedVersion method, ISyncKnowledge2.GetMinimumSupportedVersion, ISyncKnowledge2::GetMinimumSupportedVersion, winsync.isyncknowledge2_getminimumsupportedversion, winsync/ISyncKnowledge2::GetMinimumSupportedVersion
-ms.topic: method
 f1_keywords:
 - winsync/ISyncKnowledge2.GetMinimumSupportedVersion
 dev_langs:

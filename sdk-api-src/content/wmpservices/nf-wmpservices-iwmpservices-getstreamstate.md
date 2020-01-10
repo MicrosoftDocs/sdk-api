@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 1a73ea54-45ce-47ff-b551-10aab2798420
 ms.date: 12/05/2018
 ms.keywords: GetStreamState, GetStreamState method [Windows Media Player], GetStreamState method [Windows Media Player],IWMPServices interface, IWMPServices interface [Windows Media Player],GetStreamState method, IWMPServices.GetStreamState, IWMPServices::GetStreamState, IWMPServicesGetStreamStateDSP, wmp.iwmpservices_getstreamstate, wmpservices/IWMPServices::GetStreamState
-ms.topic: method
 f1_keywords:
 - wmpservices/IWMPServices.GetStreamState
 dev_langs:

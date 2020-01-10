@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: f9bcfb2a-c47e-4edd-ac58-4d27e2884a32
 ms.date: 12/05/2018
 ms.keywords: BooleanValue property [Windows Accessibility], BooleanValue property [Windows Accessibility],IUIAutomationBoolCondition interface, IUIAutomationBoolCondition interface [Windows Accessibility],BooleanValue property, IUIAutomationBoolCondition.BooleanValue, IUIAutomationBoolCondition.get_BooleanValue, IUIAutomationBoolCondition::BooleanValue, IUIAutomationBoolCondition::get_BooleanValue, get_BooleanValue, uiauto.uiauto_IUIAutomationBoolCondition_BooleanValue, uiauto_IUIAutomationBoolCondition_BooleanValue, uiautomationclient/IUIAutomationBoolCondition::BooleanValue, uiautomationclient/IUIAutomationBoolCondition::get_BooleanValue, winauto.uiauto_IUIAutomationBoolCondition_BooleanValue
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationBoolCondition.BooleanValue
 dev_langs:

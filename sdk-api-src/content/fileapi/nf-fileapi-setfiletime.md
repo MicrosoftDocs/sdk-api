@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 75d988e4-22a3-4084-a5f8-1fca73ccd542
 ms.date: 12/05/2018
 ms.keywords: SetFileTime, SetFileTime function, _win32_setfiletime, base.setfiletime, fileapi/SetFileTime, winbase/SetFileTime
-ms.topic: function
 f1_keywords:
 - fileapi/SetFileTime
 dev_langs:

@@ -3,7 +3,6 @@ UID: NF:wlanapi.WlanGetSupportedDeviceServices
 title: WlanGetSupportedDeviceServices
 description: Retrieves a list of the supported device services on a given wireless LAN interface.
 ms.date: 01/07/2019
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

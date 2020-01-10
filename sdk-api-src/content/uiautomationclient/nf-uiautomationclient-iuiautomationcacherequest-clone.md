@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: e7ba5cb0-a4a5-4556-ba28-899e9635af5d
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Accessibility], Clone method [Windows Accessibility],IUIAutomationCacheRequest interface, IUIAutomationCacheRequest interface [Windows Accessibility],Clone method, IUIAutomationCacheRequest.Clone, IUIAutomationCacheRequest::Clone, uiauto.uiauto_IUIAutomationCacheRequest_Clone, uiauto_IUIAutomationCacheRequest_Clone, uiautomationclient/IUIAutomationCacheRequest::Clone, winauto.uiauto_IUIAutomationCacheRequest_Clone
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationCacheRequest.Clone
 dev_langs:

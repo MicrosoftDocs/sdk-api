@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: f56954bf-c1aa-408b-bc45-0faf2a99b381
 ms.date: 12/05/2018
 ms.keywords: MI_OperationCallbacks, MI_OperationCallbacks structure [Windows Management Infrastructure (MI)], mi/MI_OperationCallbacks, wmi._mi_operationcallbacks, wmi_v2.mi_operationcallbacks
-ms.topic: struct
 f1_keywords:
 - mi/MI_OperationCallbacks
 dev_langs:

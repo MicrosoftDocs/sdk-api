@@ -7,7 +7,6 @@ tech.root: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3ddisassemble10effect.htm
 ms.date: 12/05/2018
 ms.keywords: 712a7486-754f-69f6-11b7-5bf288ee98af, D3DDisassemble10Effect, D3DDisassemble10Effect function [HLSL], d3dcompiler/D3DDisassemble10Effect, direct3dhlsl.d3ddisassemble10effect
-ms.topic: function
 f1_keywords:
 - d3dcompiler/D3DDisassemble10Effect
 dev_langs:

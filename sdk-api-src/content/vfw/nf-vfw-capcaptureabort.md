@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: a1c17695-ee91-4f76-a2be-a6e512903c8f
 ms.date: 12/05/2018
 ms.keywords: _win32_capCaptureAbort, capCaptureAbort, capCaptureAbort macro [Windows Multimedia], multimedia.capcaptureabort, vfw/capCaptureAbort
-ms.topic: macro
 f1_keywords:
 - vfw/capCaptureAbort
 dev_langs:

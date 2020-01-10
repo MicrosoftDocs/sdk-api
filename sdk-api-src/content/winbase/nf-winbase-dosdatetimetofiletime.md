@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 33459ef5-e310-4fe0-bdda-e1db2ffd4888
 ms.date: 12/05/2018
 ms.keywords: DosDateTimeToFileTime, DosDateTimeToFileTime function, _win32_dosdatetimetofiletime, base.dosdatetimetofiletime, winbase/DosDateTimeToFileTime
-ms.topic: function
 f1_keywords:
 - winbase/DosDateTimeToFileTime
 dev_langs:

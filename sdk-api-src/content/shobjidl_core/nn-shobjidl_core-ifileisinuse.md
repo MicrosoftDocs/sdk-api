@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 68a4ab3d-165e-4917-8915-77f15901dbad
 ms.date: 12/05/2018
 ms.keywords: IFileIsInUse, IFileIsInUse interface [Windows Shell], IFileIsInUse interface [Windows Shell],described, _shell_IFileIsInUse, shell.IFileIsInUse, shobjidl_core/IFileIsInUse
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IFileIsInUse
 dev_langs:

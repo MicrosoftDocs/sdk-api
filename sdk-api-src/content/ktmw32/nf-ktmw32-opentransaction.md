@@ -7,7 +7,6 @@ tech.root: ktm
 ms.assetid: d95f15e4-d0fd-4665-849d-eecac8fc542b
 ms.date: 12/05/2018
 ms.keywords: OpenTransaction, OpenTransaction function [Files], fs.opentransaction, ktmw32/OpenTransaction
-ms.topic: function
 f1_keywords:
 - ktmw32/OpenTransaction
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10stateblock_capture.htm
 ms.date: 12/05/2018
 ms.keywords: 9484ba4e-87ec-bd46-89ed-f4dc19c3d6e2, Capture, Capture method [Direct3D 10], Capture method [Direct3D 10],ID3D10StateBlock interface, ID3D10StateBlock interface [Direct3D 10],Capture method, ID3D10StateBlock.Capture, ID3D10StateBlock::Capture, d3d10effect/ID3D10StateBlock::Capture, direct3d10.id3d10stateblock_capture
-ms.topic: method
 f1_keywords:
 - d3d10effect/ID3D10StateBlock.Capture
 dev_langs:

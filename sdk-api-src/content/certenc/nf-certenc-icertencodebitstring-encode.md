@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 2dc74ab4-8f40-4e0d-a18e-ba9c99d5bf94
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeBitString object [Security],Encode method, Encode, Encode method [Security], Encode method [Security],CCertEncodeBitString object, Encode method [Security],ICertEncodeBitString interface, ICertEncodeBitString interface [Security],Encode method, ICertEncodeBitString.Encode, ICertEncodeBitString::Encode, _certsrv_icertencodebitstring_encode, certenc/ICertEncodeBitString::Encode, security.icertencodebitstring_encode
-ms.topic: method
 f1_keywords:
 - certenc/ICertEncodeBitString.Encode
 dev_langs:

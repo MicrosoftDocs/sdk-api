@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 49a6d33d-7454-44be-b8ca-602b247d4eab
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [DirectComposition], Commit method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],Commit method, IDCompositionDevice.Commit, IDCompositionDevice::Commit, dcomp/IDCompositionDevice::Commit, directcomp.idcompositiondevice_commit
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionDevice.Commit
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecSLApi
 ms.assetid: d61ec4ec-c552-4963-8f4e-a1540081e747
 ms.date: 12/05/2018
 ms.keywords: SLConsumeRight, SLConsumeRight function [Security], security.slconsumeright, slpublic/SLConsumeRight
-ms.topic: function
 f1_keywords:
 - slpublic/SLConsumeRight
 dev_langs:

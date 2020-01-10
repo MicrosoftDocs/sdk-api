@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 9e9ec2c0-fce6-4205-8299-20ef7ff154e9
 ms.date: 12/05/2018
 ms.keywords: POINTTOPOINTS, POINTTOPOINTS macro [Windows GDI], _win32_POINTTOPOINTS, gdi.pointtopoints, winuser/POINTTOPOINTS
-ms.topic: macro
 f1_keywords:
 - winuser/POINTTOPOINTS
 dev_langs:

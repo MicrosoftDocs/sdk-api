@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_close.htm
 ms.date: 12/05/2018
 ms.keywords: Animate_Close, Animate_Close macro [Windows Controls], _win32_Animate_Close, _win32_Animate_Close_cpp, commctrl/Animate_Close, controls.Animate_Close, controls._win32_Animate_Close
-ms.topic: macro
 f1_keywords:
 - commctrl/Animate_Close
 dev_langs:

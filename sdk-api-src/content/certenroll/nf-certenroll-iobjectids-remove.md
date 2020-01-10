@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: c8b9508d-f64a-453f-a336-0da47b2ccdec
 ms.date: 12/05/2018
 ms.keywords: IObjectIds interface [Security],Remove method, IObjectIds.Remove, IObjectIds::Remove, Remove, Remove method [Security], Remove method [Security],IObjectIds interface, certenroll/IObjectIds::Remove, security.iobjectids_remove_method
-ms.topic: method
 f1_keywords:
 - certenroll/IObjectIds.Remove
 dev_langs:

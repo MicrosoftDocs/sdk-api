@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: E989CED1-C6B7-4086-944E-924836AA7ECB
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Windows Animation], GetStatus method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],GetStatus method, IUIAnimationManager2.GetStatus, IUIAnimationManager2::GetStatus, uianimation.iuianimationmanager2_getstatus, uianimation/IUIAnimationManager2::GetStatus
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationManager2.GetStatus
 dev_langs:

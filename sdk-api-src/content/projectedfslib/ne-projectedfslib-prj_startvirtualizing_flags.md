@@ -7,7 +7,6 @@ tech.root: ProjFS
 ms.assetid: AF67668B-E9BC-4320-AB1F-1E78CA700D8E
 ms.date: 12/05/2018
 ms.keywords: PRJ_FLAG_NONE, PRJ_FLAG_USE_NEGATIVE_PATH_CACHE, PRJ_STARTVIRTUALIZING_FLAGS, PRJ_STARTVIRTUALIZING_FLAGS enumeration, ProjFS.prj_startvirtualizing_flags, projectedfslib/PRJ_FLAG_NONE, projectedfslib/PRJ_FLAG_USE_NEGATIVE_PATH_CACHE, projectedfslib/PRJ_STARTVIRTUALIZING_FLAGS
-ms.topic: enum
 f1_keywords:
 - projectedfslib/PRJ_STARTVIRTUALIZING_FLAGS
 dev_langs:

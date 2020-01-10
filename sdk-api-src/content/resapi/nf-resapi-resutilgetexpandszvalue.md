@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: c0f1064c-d9ae-43af-9622-beae9aee0ce0
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_EXPAND_SZ_VALUE, PRESUTIL_GET_EXPAND_SZ_VALUE function [Failover Cluster], ResUtilGetExpandSzValue, ResUtilGetExpandSzValue function [Failover Cluster], _wolf_resutilgetexpandszvalue, mscs.resutilgetexpandszvalue, resapi/PRESUTIL_GET_EXPAND_SZ_VALUE, resapi/ResUtilGetExpandSzValue
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilGetExpandSzValue
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 0cf8bc07-946a-450d-8062-b9e19c22a4c5
 ms.date: 12/05/2018
 ms.keywords: _tapi2_phoneshutdown, phoneShutdown, phoneShutdown function [TAPI 2.2], tapi/phoneShutdown, tapi2.phoneshutdown
-ms.topic: function
 f1_keywords:
 - tapi/phoneShutdown
 dev_langs:

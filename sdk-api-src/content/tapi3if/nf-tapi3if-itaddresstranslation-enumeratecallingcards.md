@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 93f3cea1-70da-41f0-a8d5-692468a21695
 ms.date: 12/05/2018
 ms.keywords: EnumerateCallingCards, EnumerateCallingCards method [TAPI 2.2], EnumerateCallingCards method [TAPI 2.2],ITAddressTranslation interface, ITAddressTranslation interface [TAPI 2.2],EnumerateCallingCards method, ITAddressTranslation.EnumerateCallingCards, ITAddressTranslation::EnumerateCallingCards, _tapi3_itaddresstranslation_enumeratecallingcards, tapi3.itaddresstranslation_enumeratecallingcards, tapi3if/ITAddressTranslation::EnumerateCallingCards
-ms.topic: method
 f1_keywords:
 - tapi3if/ITAddressTranslation.EnumerateCallingCards
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: F4756754-EF22-430F-B9EE-F4270EBBEF33
 ms.date: 12/05/2018
 ms.keywords: CHANGENOTIFY, CHANGENOTIFY structure [Windows Controls], CN_GENERIC, CN_NEWREDO, CN_NEWUNDO, CN_TEXTCHANGED, controls.changenotify, textserv/CHANGENOTIFY
-ms.topic: struct
 f1_keywords:
 - textserv/CHANGENOTIFY
 dev_langs:

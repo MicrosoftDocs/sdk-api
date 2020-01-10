@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: D8DACE22-9AFD-4DCD-A254-A34AD532ACD7
 ms.date: 12/05/2018
 ms.keywords: D3D12_SUBRESOURCE_RANGE_UINT64, D3D12_SUBRESOURCE_RANGE_UINT64 structure, d3d12/D3D12_SUBRESOURCE_RANGE_UINT64, direct3d12.d3d12_subresource_range_uint64
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_SUBRESOURCE_RANGE_UINT64
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: ac07169e-710c-4267-ae08-ed18a15d866d
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],Query method, IDataCollectorSet.Query, IDataCollectorSet::Query, Query, Query method [PLA], Query method [PLA],IDataCollectorSet interface, base.idatacollectorset_query, pla.idatacollectorset_query, pla/IDataCollectorSet::Query
-ms.topic: method
 f1_keywords:
 - pla/IDataCollectorSet.Query
 dev_langs:

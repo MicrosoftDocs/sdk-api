@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 8d41fd9d-6448-4bec-a669-4aa50f37cada
 ms.date: 12/05/2018
 ms.keywords: VSS_ALTERNATE_WRITER_STATE, VSS_ALTERNATE_WRITER_STATE enumeration [VSS], VSS_AWS_ALTERNATE_WRITER_EXISTS, VSS_AWS_NO_ALTERNATE_WRITER, VSS_AWS_THIS_IS_ALTERNATE_WRITER, VSS_AWS_UNDEFINED, _win32_vss_alternate_writer_state, base.vss_alternate_writer_state, enumeration [VSS], vswriter/VSS_ALTERNATE_WRITER_STATE, vswriter/VSS_AWS_ALTERNATE_WRITER_EXISTS, vswriter/VSS_AWS_NO_ALTERNATE_WRITER, vswriter/VSS_AWS_THIS_IS_ALTERNATE_WRITER, vswriter/VSS_AWS_UNDEFINED
-ms.topic: enum
 f1_keywords:
 - vswriter/VSS_ALTERNATE_WRITER_STATE
 dev_langs:

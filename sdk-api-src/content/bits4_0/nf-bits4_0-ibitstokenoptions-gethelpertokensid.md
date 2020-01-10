@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 724614af-cae8-47d7-888d-ed1504a9bc12
 ms.date: 12/05/2018
 ms.keywords: GetHelperTokenSid, GetHelperTokenSid method [BITS], GetHelperTokenSid method [BITS],IBitsTokenOptions interface, IBitsTokenOptions interface [BITS],GetHelperTokenSid method, IBitsTokenOptions.GetHelperTokenSid, IBitsTokenOptions::GetHelperTokenSid, bits.ibitstokenoptions_gethelpertokensid, bits4_0/IBitsTokenOptions::GetHelperTokenSid
-ms.topic: method
 f1_keywords:
 - bits4_0/IBitsTokenOptions.GetHelperTokenSid
 dev_langs:

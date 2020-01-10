@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: 1AB999FB-E24C-4CC6-A3B9-D4F61FF31760
 ms.date: 12/05/2018
 ms.keywords: IXAPOHrtfParameters interface [XAudio2 Audio Mixing APIs],SetEnvironment method, IXAPOHrtfParameters.SetEnvironment, IXAPOHrtfParameters::SetEnvironment, SetEnvironment, SetEnvironment method [XAudio2 Audio Mixing APIs], SetEnvironment method [XAudio2 Audio Mixing APIs],IXAPOHrtfParameters interface, hrtfapoapi/IXAPOHrtfParameters::SetEnvironment, xaudio2.ixapohrtfparameters_setenvironment
-ms.topic: method
 f1_keywords:
 - hrtfapoapi/IXAPOHrtfParameters.SetEnvironment
 dev_langs:

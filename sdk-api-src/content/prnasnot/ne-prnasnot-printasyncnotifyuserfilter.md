@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 89893e25-486a-4cef-b1a6-f812c8cc1fe2
 ms.date: 12/05/2018
 ms.keywords: PrintAsyncNotifyUserFilter, PrintAsyncNotifyUserFilter enumeration [Windows GDI], _win32_PrintAsyncNotifyUserFilter, gdi.printasyncnotifyuserfilter, kAllUsers, kPerUser, prnasnot/PrintAsyncNotifyUserFilter, prnasnot/kAllUsers, prnasnot/kPerUser
-ms.topic: enum
 f1_keywords:
 - prnasnot/PrintAsyncNotifyUserFilter
 dev_langs:

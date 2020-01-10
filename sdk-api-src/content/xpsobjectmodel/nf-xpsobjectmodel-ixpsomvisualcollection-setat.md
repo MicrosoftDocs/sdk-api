@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f06c2e27-213e-483e-9c56-1c06384b6ed8
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisualCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMVisualCollection.SetAt, IXpsOMVisualCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMVisualCollection interface, xps.ixpsomvisualcollection_setat, xpsobjectmodel/IXpsOMVisualCollection::SetAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisualCollection.SetAt
 dev_langs:

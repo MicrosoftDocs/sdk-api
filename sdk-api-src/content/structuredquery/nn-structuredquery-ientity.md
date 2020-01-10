@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\ientity.htm
 ms.date: 12/05/2018
 ms.keywords: IEntity, IEntity interface [search], IEntity interface [search],described, _search_IEntity, search._search_IEntity, structuredquery/IEntity
-ms.topic: interface
 f1_keywords:
 - structuredquery/IEntity
 dev_langs:

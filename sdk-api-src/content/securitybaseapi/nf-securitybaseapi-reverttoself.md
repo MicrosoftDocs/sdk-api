@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: e3de77b9-dd27-4f20-b63d-ad2c57ac4283
 ms.date: 12/05/2018
 ms.keywords: RevertToSelf, RevertToSelf function [Security], _win32_reverttoself, security.reverttoself, securitybaseapi/RevertToSelf
-ms.topic: function
 f1_keywords:
 - securitybaseapi/RevertToSelf
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 957e9117-9434-4fe6-a93d-986134be7828
 ms.date: 12/05/2018
 ms.keywords: CombineWithGeometry, CombineWithGeometry method [Direct2D], CombineWithGeometry method [Direct2D],ID2D1Geometry interface, ID2D1Geometry interface [Direct2D],CombineWithGeometry method, ID2D1Geometry.CombineWithGeometry, ID2D1Geometry.CombineWithGeometry(ID2D1Geometry,D2D1_COMBINE_MODE,const D2D1_MATRIX_3X2_F &,ID2D1SimplifiedGeometrySink), ID2D1Geometry::CombineWithGeometry, ID2D1Geometry::CombineWithGeometry(ID2D1Geometry,D2D1_COMBINE_MODE,const D2D1_MATRIX_3X2_F &,ID2D1SimplifiedGeometrySink), d2d1/ID2D1Geometry::CombineWithGeometry, direct2d.ID2D1Geometry_CombineWithGeometry_ptr_ID2D1Geometry_D2D1_COMBINE_MODE_ref_D2D_MATRIX_3X2_F_ptr_ID2D1SimplifiedGeometrySink
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1Geometry.CombineWithGeometry
 dev_langs:

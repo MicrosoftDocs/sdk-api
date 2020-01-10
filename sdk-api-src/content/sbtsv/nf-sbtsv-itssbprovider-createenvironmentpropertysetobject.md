@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 52bb5c05-f8eb-42c9-862f-d42e71507a91
 ms.date: 12/05/2018
 ms.keywords: CreateEnvironmentPropertySetObject, CreateEnvironmentPropertySetObject method [Remote Desktop Services], CreateEnvironmentPropertySetObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateEnvironmentPropertySetObject method, ITsSbProvider.CreateEnvironmentPropertySetObject, ITsSbProvider::CreateEnvironmentPropertySetObject, sbtsv/ITsSbProvider::CreateEnvironmentPropertySetObject, termserv.itssbprovider_createenvironmentpropertysetobject
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbProvider.CreateEnvironmentPropertySetObject
 dev_langs:

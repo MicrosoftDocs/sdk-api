@@ -7,7 +7,6 @@ tech.root: WCS
 ms.assetid: ae47dcc5-f771-4586-9086-b4ab1600c1bc
 ms.date: 12/05/2018
 ms.keywords: IDeviceModelPlugIn interface [Windows Color System],Initialize method, IDeviceModelPlugIn.Initialize, IDeviceModelPlugIn::Initialize, Initialize, Initialize method [Windows Color System], Initialize method [Windows Color System],IDeviceModelPlugIn interface, _color_IDeviceModelPlugIn::Initialize, wcs.IDeviceModelPlugIn_Initialize, wcsplugin/IDeviceModelPlugIn::Initialize
-ms.topic: method
 f1_keywords:
 - wcsplugin/IDeviceModelPlugIn.Initialize
 dev_langs:

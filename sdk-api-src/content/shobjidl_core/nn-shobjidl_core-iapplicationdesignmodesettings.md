@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: D26C9A87-8C29-4029-BF8A-E0566DC2DF2A
 ms.date: 12/05/2018
 ms.keywords: IApplicationDesignModeSettings, IApplicationDesignModeSettings interface [Windows Shell], IApplicationDesignModeSettings interface [Windows Shell],described, shell.IApplicationDesignModeSettings, shobjidl_core/IApplicationDesignModeSettings
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IApplicationDesignModeSettings
 dev_langs:

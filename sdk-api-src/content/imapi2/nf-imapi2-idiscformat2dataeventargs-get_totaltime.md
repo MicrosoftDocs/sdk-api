@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 95e61ef9-5d1c-4f29-896f-69a56c23f306
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2DataEventArgs interface [IMAPI],get_TotalTime method, IDiscFormat2DataEventArgs.get_TotalTime, IDiscFormat2DataEventArgs::get_TotalTime, get_TotalTime, get_TotalTime method [IMAPI], get_TotalTime method [IMAPI],IDiscFormat2DataEventArgs interface, imapi.idiscformat2dataeventargs_get_totaltime, imapi2/IDiscFormat2DataEventArgs::get_TotalTime
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2DataEventArgs.get_TotalTime
 dev_langs:

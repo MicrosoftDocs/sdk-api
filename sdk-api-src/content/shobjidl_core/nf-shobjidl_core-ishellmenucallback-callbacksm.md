@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 06809b61-041b-41bd-82dd-0d64edf8bbae
 ms.date: 12/05/2018
 ms.keywords: CallbackSM, CallbackSM method [Windows Shell], CallbackSM method [Windows Shell],IShellMenuCallback interface, IShellMenuCallback interface [Windows Shell],CallbackSM method, IShellMenuCallback.CallbackSM, IShellMenuCallback::CallbackSM, _win32_IShellMenuCallback_CallbackSM, shell.IShellMenuCallback_CallbackSM, shobjidl_core/IShellMenuCallback::CallbackSM
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellMenuCallback.CallbackSM
 dev_langs:

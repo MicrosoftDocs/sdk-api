@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 510f458e-4c08-41c7-b290-1372ac9c8beb
 ms.date: 12/05/2018
 ms.keywords: '*PDS_DOMAIN_CONTROLLER_INFO_3A, DS_DOMAIN_CONTROLLER_INFO_3, DS_DOMAIN_CONTROLLER_INFO_3 structure [Active Directory], DS_DOMAIN_CONTROLLER_INFO_3A, DS_DOMAIN_CONTROLLER_INFO_3W, PDS_DOMAIN_CONTROLLER_INFO_3, PDS_DOMAIN_CONTROLLER_INFO_3 structure pointer [Active Directory], ad.ds_domain_controller_info_3, ntdsapi/DS_DOMAIN_CONTROLLER_INFO_3, ntdsapi/DS_DOMAIN_CONTROLLER_INFO_3A, ntdsapi/DS_DOMAIN_CONTROLLER_INFO_3W, ntdsapi/PDS_DOMAIN_CONTROLLER_INFO_3'
-ms.topic: struct
 f1_keywords:
 - ntdsapi/DS_DOMAIN_CONTROLLER_INFO_3
 dev_langs:

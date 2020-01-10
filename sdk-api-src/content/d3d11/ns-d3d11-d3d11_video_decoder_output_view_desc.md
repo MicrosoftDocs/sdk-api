@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 0A0C29C5-C3A3-43E7-86DA-1849AC276060
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC, D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC structure [Media Foundation], d3d11/D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC, mf.d3d11_video_decoder_output_view_desc
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_VIDEO_DECODER_OUTPUT_VIEW_DESC
 dev_langs:

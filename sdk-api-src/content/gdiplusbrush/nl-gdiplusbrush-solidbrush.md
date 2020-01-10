@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\solidbrush.htm
 ms.date: 12/05/2018
 ms.keywords: SolidBrush, SolidBrush class [GDI+], SolidBrush class [GDI+],described, _gdiplus_CLASS_SolidBrush_Class, gdiplus._gdiplus_CLASS_SolidBrush_Class, gdiplusbrush/SolidBrush
-ms.topic: class
 f1_keywords:
 - gdiplusbrush/SolidBrush
 dev_langs:

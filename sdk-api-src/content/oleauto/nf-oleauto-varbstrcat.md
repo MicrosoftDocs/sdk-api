@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: e23e1130-dd95-43ec-8ea3-c213fd6b0b25
 ms.date: 12/05/2018
 ms.keywords: VarBstrCat, VarBstrCat function [Automation], _oa96_VarBstrCat, automat.varbstrcat, oleauto/VarBstrCat
-ms.topic: function
 f1_keywords:
 - oleauto/VarBstrCat
 dev_langs:

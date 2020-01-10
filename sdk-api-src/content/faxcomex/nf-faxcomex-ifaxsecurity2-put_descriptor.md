@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxsecurity2\descriptor.htm
 ms.date: 12/05/2018
 ms.keywords: Descriptor property [Fax Service], Descriptor property [Fax Service],IFaxSecurity2 interface, IFaxSecurity2 interface [Fax Service],Descriptor property, IFaxSecurity2.Descriptor, IFaxSecurity2.put_Descriptor, IFaxSecurity2::Descriptor, IFaxSecurity2::get_Descriptor, IFaxSecurity2::put_Descriptor, _mfax_faxsecurity2.descriptor_cpp, fax._mfax_faxsecurity2_descriptor_cpp, faxcomex/IFaxSecurity2::Descriptor, faxcomex/IFaxSecurity2::get_Descriptor, faxcomex/IFaxSecurity2::put_Descriptor, put_Descriptor
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxSecurity2.Descriptor
 dev_langs:

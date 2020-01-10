@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetIntZPtr(XMVECTOR,const uint32_t)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSetIntZPtr, XMVectorSetIntZPtr, XMVectorSetIntZPtr method [DirectX Math Support APIs], dxmath.xmvectorsetintzptr
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorSetIntZPtr
 dev_langs:

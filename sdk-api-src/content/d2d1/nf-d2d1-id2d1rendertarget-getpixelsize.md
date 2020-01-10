@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: d0d736b5-0427-4c0d-8085-8498fd00f6b6
 ms.date: 12/05/2018
 ms.keywords: GetPixelSize, GetPixelSize method [Direct2D], GetPixelSize method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],GetPixelSize method, ID2D1RenderTarget.GetPixelSize, ID2D1RenderTarget::GetPixelSize, d2d1/ID2D1RenderTarget::GetPixelSize, direct2d.ID2D1RenderTarget_GetPixelSize
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1RenderTarget.GetPixelSize
 dev_langs:

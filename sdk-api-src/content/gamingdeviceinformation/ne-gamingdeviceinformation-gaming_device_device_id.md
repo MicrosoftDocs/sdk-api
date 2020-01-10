@@ -7,7 +7,6 @@ tech.root: gamingdvcinfo
 ms.assetid: DA196767-940E-47CF-8444-4A2C37E3718B
 ms.date: 12/05/2018
 ms.keywords: GAMING_DEVICE_DEVICE_ID, GAMING_DEVICE_DEVICE_ID enumeration, GAMING_DEVICE_DEVICE_ID_NONE, GAMING_DEVICE_DEVICE_ID_XBOX_ONE, GAMING_DEVICE_DEVICE_ID_XBOX_ONE_S, GAMING_DEVICE_DEVICE_ID_XBOX_ONE_X, GAMING_DEVICE_DEVICE_ID_XBOX_ONE_X_DEVKIT, gamingdeviceinformation/GAMING_DEVICE_DEVICE_ID, gamingdeviceinformation/GAMING_DEVICE_DEVICE_ID_NONE, gamingdeviceinformation/GAMING_DEVICE_DEVICE_ID_XBOX_ONE, gamingdeviceinformation/GAMING_DEVICE_DEVICE_ID_XBOX_ONE_S, gamingdeviceinformation/GAMING_DEVICE_DEVICE_ID_XBOX_ONE_X, gamingdeviceinformation/GAMING_DEVICE_DEVICE_ID_XBOX_ONE_X_DEVKIT, gamingdvcinfo.gaming_device_device_id
-ms.topic: enum
 f1_keywords:
 - gamingdeviceinformation/GAMING_DEVICE_DEVICE_ID
 dev_langs:

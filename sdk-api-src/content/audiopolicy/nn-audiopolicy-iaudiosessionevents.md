@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: fd287ef7-8a37-4342-b4c2-79b84a56c30e
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionEvents, IAudioSessionEvents interface [Core Audio], IAudioSessionEvents interface [Core Audio],described, audiopolicy/IAudioSessionEvents, coreaudio.iaudiosessionevents
-ms.topic: interface
 f1_keywords:
 - audiopolicy/IAudioSessionEvents
 dev_langs:

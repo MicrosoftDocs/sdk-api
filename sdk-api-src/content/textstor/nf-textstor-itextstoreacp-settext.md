@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: aebeb6bc-7791-4c45-8563-eec6a738bd63
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],SetText method, ITextStoreACP.SetText, ITextStoreACP::SetText, SetText, SetText method [Text Services Framework], SetText method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_settext_ref, acpNewEnd, acpOldEnd, acpStart, textstor/ITextStoreACP::SetText, tsf.itextstoreacp_settext
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreACP.SetText
 dev_langs:

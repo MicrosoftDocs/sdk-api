@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 3fb05ce4-a3be-4c84-8e03-71213f453f74
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointRT, IAudioEndpointRT interface [Remote Desktop Services], IAudioEndpointRT interface [Remote Desktop Services],described, audioengineendpoint/IAudioEndpointRT, termserv.iaudioendpointrt
-ms.topic: interface
 f1_keywords:
 - audioengineendpoint/IAudioEndpointRT
 dev_langs:

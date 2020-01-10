@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 7379dd04-72a4-45b6-b02a-d3e8a5aaf0d7
 ms.date: 12/05/2018
 ms.keywords: PSYM_ENUMLINES_CALLBACK, PSYM_ENUMLINES_CALLBACKW, SymEnumLinesProc, SymEnumLinesProc callback, SymEnumLinesProc callback function, base.symenumlinesproc, dbghelp/SymEnumLinesProc
-ms.topic: callback
 f1_keywords:
 - dbghelp/SymEnumLinesProc
 dev_langs:

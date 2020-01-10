@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_insertstring.htm
 ms.date: 12/05/2018
 ms.keywords: ListBox_InsertString, ListBox_InsertString macro [Windows Controls], _win32_ListBox_InsertString, _win32_ListBox_InsertString_cpp, controls.ListBox_InsertString, controls._win32_ListBox_InsertString, windowsx/ListBox_InsertString
-ms.topic: macro
 f1_keywords:
 - windowsx/ListBox_InsertString
 dev_langs:

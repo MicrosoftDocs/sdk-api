@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c61b8a96-83ea-49e2-884e-c9fb3526cc46
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_BitErrorRate method, IBasicVideo.get_BitErrorRate, IBasicVideo::get_BitErrorRate, IBasicVideoget_BitErrorRate, control/IBasicVideo::get_BitErrorRate, dshow.ibasicvideo_get_biterrorrate, get_BitErrorRate, get_BitErrorRate method [DirectShow], get_BitErrorRate method [DirectShow],IBasicVideo interface
-ms.topic: method
 f1_keywords:
 - control/IBasicVideo.get_BitErrorRate
 dev_langs:

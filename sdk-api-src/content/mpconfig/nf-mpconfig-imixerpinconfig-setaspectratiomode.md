@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 907ab0cf-c0a4-4e81-8fb4-90914427d9c0
 ms.date: 12/05/2018
 ms.keywords: IMixerPinConfig interface [DirectShow],SetAspectRatioMode method, IMixerPinConfig.SetAspectRatioMode, IMixerPinConfig::SetAspectRatioMode, IMixerPinConfigSetAspectRatioMode, SetAspectRatioMode, SetAspectRatioMode method [DirectShow], SetAspectRatioMode method [DirectShow],IMixerPinConfig interface, dshow.imixerpinconfig_setaspectratiomode, mpconfig/IMixerPinConfig::SetAspectRatioMode
-ms.topic: method
 f1_keywords:
 - mpconfig/IMixerPinConfig.SetAspectRatioMode
 dev_langs:

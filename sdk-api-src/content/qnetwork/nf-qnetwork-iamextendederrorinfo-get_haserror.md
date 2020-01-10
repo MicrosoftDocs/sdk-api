@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8aad2849-5a99-484a-8830-e014672e62fb
 ms.date: 12/05/2018
 ms.keywords: IAMExtendedErrorInfo interface [DirectShow],get_HasError method, IAMExtendedErrorInfo.get_HasError, IAMExtendedErrorInfo::get_HasError, IAMExtendedErrorInfoget_HasError, dshow.iamextendederrorinfo_get_haserror, get_HasError, get_HasError method [DirectShow], get_HasError method [DirectShow],IAMExtendedErrorInfo interface, qnetwork/IAMExtendedErrorInfo::get_HasError
-ms.topic: method
 f1_keywords:
 - qnetwork/IAMExtendedErrorInfo.get_HasError
 dev_langs:

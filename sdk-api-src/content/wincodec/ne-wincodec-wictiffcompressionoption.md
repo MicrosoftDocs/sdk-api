@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 787f6d71-6481-4236-8c3f-1b18bfb7ee88
 ms.date: 12/05/2018
 ms.keywords: WICTiffCompressionCCITT3, WICTiffCompressionCCITT4, WICTiffCompressionDontCare, WICTiffCompressionLZW, WICTiffCompressionLZWHDifferencing, WICTiffCompressionNone, WICTiffCompressionOption, WICTiffCompressionOption enumeration [Windows Imaging Component], WICTiffCompressionRLE, WICTiffCompressionZIP, _wic_codec_wictiffcompressionoption, wic._wic_codec_wictiffcompressionoption, wincodec/WICTiffCompressionCCITT3, wincodec/WICTiffCompressionCCITT4, wincodec/WICTiffCompressionDontCare, wincodec/WICTiffCompressionLZW, wincodec/WICTiffCompressionLZWHDifferencing, wincodec/WICTiffCompressionNone, wincodec/WICTiffCompressionOption, wincodec/WICTiffCompressionRLE, wincodec/WICTiffCompressionZIP
-ms.topic: enum
 f1_keywords:
 - wincodec/WICTiffCompressionOption
 dev_langs:

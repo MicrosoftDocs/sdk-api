@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 82f891a2-432b-4503-8b5a-a79bea800525
 ms.date: 12/05/2018
 ms.keywords: '*PVDS_ISCSI_PORTALGROUP_PROP, VDS_ISCSI_PORTALGROUP_PROP, VDS_ISCSI_PORTALGROUP_PROP structure [VDS], base.vds_iscsi_portalgroup_prop, vds/VDS_ISCSI_PORTALGROUP_PROP, vdshwprv/VDS_ISCSI_PORTALGROUP_PROP'
-ms.topic: struct
 f1_keywords:
 - vds/VDS_ISCSI_PORTALGROUP_PROP
 dev_langs:

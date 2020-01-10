@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: 5d74532e-14cd-45c1-b16b-b302bed89c12
 ms.date: 12/05/2018
 ms.keywords: InternetHangUp, InternetHangUp function [WinINet], _inet_internethangup_function, wininet.internethangup, winineti/InternetHangUp
-ms.topic: function
 f1_keywords:
 - winineti/InternetHangUp
 dev_langs:

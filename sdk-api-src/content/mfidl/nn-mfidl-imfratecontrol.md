@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 54303c32-b260-4364-9130-a592694f2816
 ms.date: 12/05/2018
 ms.keywords: 54303c32-b260-4364-9130-a592694f2816, IMFRateControl, IMFRateControl interface [Media Foundation], IMFRateControl interface [Media Foundation],described, mf.imfratecontrol, mfidl/IMFRateControl
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFRateControl
 dev_langs:

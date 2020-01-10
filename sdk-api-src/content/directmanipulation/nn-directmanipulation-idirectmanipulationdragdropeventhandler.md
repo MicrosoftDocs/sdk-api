@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: B0F4120F-E64C-4224-A1C5-00DBEE63949B
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationDragDropEventHandler, IDirectManipulationDragDropEventHandler interface [Direct Manipulation], IDirectManipulationDragDropEventHandler interface [Direct Manipulation],described, directmanipulation.idirectmanipulationdragdropeventhandler, directmanipulation/IDirectManipulationDragDropEventHandler
-ms.topic: interface
 f1_keywords:
 - directmanipulation/IDirectManipulationDragDropEventHandler
 dev_langs:

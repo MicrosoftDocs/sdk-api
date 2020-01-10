@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: cbcf8fc6-c5d6-476b-9490-4b87fd6a8a56
 ms.date: 12/05/2018
 ms.keywords: SnmpStrToOid, SnmpStrToOid function [SNMP], _snmp_snmpstrtooid, snmp.snmpstrtooid, winsnmp/SnmpStrToOid
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpStrToOid
 dev_langs:

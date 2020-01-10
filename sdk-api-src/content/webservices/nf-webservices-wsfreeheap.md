@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: ec643915-8c4b-4916-b390-d6ca043350db
 ms.date: 12/05/2018
 ms.keywords: WsFreeHeap, WsFreeHeap function [Web Services for Windows], webservices/WsFreeHeap, wsw.wsfreeheap
-ms.topic: function
 f1_keywords:
 - webservices/WsFreeHeap
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 24658f8b-a34f-4821-9fac-bd5c8810725f
 ms.date: 12/05/2018
 ms.keywords: GetConnectionProfile, GetConnectionProfile method [Microsoft Broadband Networks], GetConnectionProfile method [Microsoft Broadband Networks],IMbnConnectionProfileManager interface, IMbnConnectionProfileManager interface [Microsoft Broadband Networks],GetConnectionProfile method, IMbnConnectionProfileManager.GetConnectionProfile, IMbnConnectionProfileManager::GetConnectionProfile, mbn.imbnconnectionprofilemanager_getconnectionprofile, mbnapi/IMbnConnectionProfileManager::GetConnectionProfile
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnConnectionProfileManager.GetConnectionProfile
 dev_langs:

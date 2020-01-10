@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1506f553-e0b0-4d6b-9d63-15f3a2d38112
 ms.date: 12/05/2018
 ms.keywords: ICommDlgBrowser3 interface [Windows Shell],OnPreViewCreated method, ICommDlgBrowser3.OnPreViewCreated, ICommDlgBrowser3::OnPreViewCreated, OnPreViewCreated, OnPreViewCreated method [Windows Shell], OnPreViewCreated method [Windows Shell],ICommDlgBrowser3 interface, _shell_ICommDlgBrowser3_OnPreViewCreated, shell.ICommDlgBrowser3_OnPreViewCreated, shobjidl/ICommDlgBrowser3::OnPreViewCreated
-ms.topic: method
 f1_keywords:
 - shobjidl/ICommDlgBrowser3.OnPreViewCreated
 dev_langs:

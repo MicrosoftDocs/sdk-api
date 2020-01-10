@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 95255a18-d6e3-4970-90cb-c87629560ff6
 ms.date: 12/05/2018
 ms.keywords: IQueueCommand interface [DirectShow],InvokeAtPresentationTime method, IQueueCommand.InvokeAtPresentationTime, IQueueCommand::InvokeAtPresentationTime, IQueueCommandInvokeAtPresentationTime, InvokeAtPresentationTime, InvokeAtPresentationTime method [DirectShow], InvokeAtPresentationTime method [DirectShow],IQueueCommand interface, control/IQueueCommand::InvokeAtPresentationTime, dshow.iqueuecommand_invokeatpresentationtime
-ms.topic: method
 f1_keywords:
 - control/IQueueCommand.InvokeAtPresentationTime
 dev_langs:

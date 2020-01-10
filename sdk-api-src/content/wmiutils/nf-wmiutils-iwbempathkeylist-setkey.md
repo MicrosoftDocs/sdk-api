@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: d655c5c7-0830-46fc-a81d-9bfa16f80d68
 ms.date: 12/05/2018
 ms.keywords: IWbemPathKeyList interface [Windows Management Instrumentation],SetKey method, IWbemPathKeyList.SetKey, IWbemPathKeyList::SetKey, SetKey, SetKey method [Windows Management Instrumentation], SetKey method [Windows Management Instrumentation],IWbemPathKeyList interface, _hmm_iwbempathkeylist_setkey, wmi.iwbempathkeylist_setkey, wmiutils/IWbemPathKeyList::SetKey
-ms.topic: method
 f1_keywords:
 - wmiutils/IWbemPathKeyList.SetKey
 dev_langs:

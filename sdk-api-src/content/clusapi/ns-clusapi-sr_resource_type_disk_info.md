@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 8A53714D-D125-4B83-B51D-DF0EADE4C4E0
 ms.date: 12/05/2018
 ms.keywords: '*PSR_RESOURCE_TYPE_DISK_INFO, PSR_RESOURCE_TYPE_DISK_INFO, PSR_RESOURCE_TYPE_DISK_INFO structure pointer [Failover Cluster], SR_RESOURCE_TYPE_DISK_INFO, SR_RESOURCE_TYPE_DISK_INFO structure [Failover Cluster], clusapi/PSR_RESOURCE_TYPE_DISK_INFO, clusapi/SR_RESOURCE_TYPE_DISK_INFO, msclus/PSR_RESOURCE_TYPE_DISK_INFO, msclus/SR_RESOURCE_TYPE_DISK_INFO, mscs.sr_resource_type_disk_info'
-ms.topic: struct
 f1_keywords:
 - clusapi/SR_RESOURCE_TYPE_DISK_INFO
 dev_langs:

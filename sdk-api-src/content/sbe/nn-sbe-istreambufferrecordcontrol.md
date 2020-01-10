@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: f196638e-ccbb-4768-96c1-8e1d00361831
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferRecordControl, IStreamBufferRecordControl interface [Microsoft TV Technologies], IStreamBufferRecordControl interface [Microsoft TV Technologies],described, IStreamBufferRecordControlInterface, mstv.istreambufferrecordcontrol, sbe/IStreamBufferRecordControl
-ms.topic: interface
 f1_keywords:
 - sbe/IStreamBufferRecordControl
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 57c5205a-9a56-4c47-bec4-11a690107bc6
 ms.date: 12/05/2018
 ms.keywords: GetJunctionCLSID, GetJunctionCLSID method [Windows Shell], GetJunctionCLSID method [Windows Shell],IFileSystemBindData2 interface, IFileSystemBindData2 interface [Windows Shell],GetJunctionCLSID method, IFileSystemBindData2.GetJunctionCLSID, IFileSystemBindData2::GetJunctionCLSID, _shell_IFileSystemBindData2_GetJunctionCLSID, shell.IFileSystemBindData2_GetJunctionCLSID, shobjidl_core/IFileSystemBindData2::GetJunctionCLSID
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileSystemBindData2.GetJunctionCLSID
 dev_langs:

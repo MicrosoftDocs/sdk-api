@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 188df0d6-0e49-4608-bc70-83775584a1f2
 ms.date: 12/05/2018
 ms.keywords: WTSShutdownSystem, WTSShutdownSystem function [Remote Desktop Services], WTS_WSD_FASTREBOOT, WTS_WSD_LOGOFF, WTS_WSD_POWEROFF, WTS_WSD_REBOOT, WTS_WSD_SHUTDOWN, _win32_wtsshutdownsystem, termserv.wtsshutdownsystem, wtsapi32/WTSShutdownSystem
-ms.topic: function
 f1_keywords:
 - wtsapi32/WTSShutdownSystem
 dev_langs:

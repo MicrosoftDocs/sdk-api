@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 5ddce73f-c693-437a-9eae-d7eaf482ee05
 ms.date: 12/05/2018
 ms.keywords: CertSrvBackupOpenFile, CertSrvBackupOpenFile function [Security], CertSrvBackupOpenFileW, _certsrv_certsrvbackupopenfile, certbcli/CertSrvBackupOpenFile, certbcli/CertSrvBackupOpenFileW, security.certsrvbackupopenfile
-ms.topic: function
 f1_keywords:
 - certbcli/CertSrvBackupOpenFile
 dev_langs:

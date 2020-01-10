@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: db133f55-ed26-4e10-8de1-305bb52de84c
 ms.date: 12/05/2018
 ms.keywords: GetSnapshotProperties, GetSnapshotProperties method [VSS], GetSnapshotProperties method [VSS],IVssFileShareSnapshotProvider interface, IVssFileShareSnapshotProvider interface [VSS],GetSnapshotProperties method, IVssFileShareSnapshotProvider.GetSnapshotProperties, IVssFileShareSnapshotProvider::GetSnapshotProperties, base.ivssfilesharesnapshotprovider_getsnapshotproperties, vsprov/IVssFileShareSnapshotProvider::GetSnapshotProperties
-ms.topic: method
 f1_keywords:
 - vsprov/IVssFileShareSnapshotProvider.GetSnapshotProperties
 dev_langs:

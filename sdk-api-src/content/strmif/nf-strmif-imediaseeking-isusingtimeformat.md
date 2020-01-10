@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 27211946-9b05-40fc-823e-efad87a730a3
 ms.date: 12/05/2018
 ms.keywords: IMediaSeeking interface [DirectShow],IsUsingTimeFormat method, IMediaSeeking.IsUsingTimeFormat, IMediaSeeking::IsUsingTimeFormat, IMediaSeekingIsUsingTimeFormat, IsUsingTimeFormat, IsUsingTimeFormat method [DirectShow], IsUsingTimeFormat method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_isusingtimeformat, strmif/IMediaSeeking::IsUsingTimeFormat
-ms.topic: method
 f1_keywords:
 - strmif/IMediaSeeking.IsUsingTimeFormat
 dev_langs:

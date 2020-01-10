@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 67982d28-27ce-4482-b588-10fec8143750
 ms.date: 12/05/2018
 ms.keywords: IShellLink, IShellLink interface [Windows Shell], IShellLink interface [Windows Shell],described, IShellLinkA, IShellLinkW, _win32_IShellLink, _win32_IShellLink_cpp, shell.IShellLink, shobjidl_core/IShellLink
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IShellLink
 dev_langs:

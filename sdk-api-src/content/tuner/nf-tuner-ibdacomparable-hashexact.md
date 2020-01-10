@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 41495662-835b-47bc-a8d6-b0b689ec4d51
 ms.date: 12/05/2018
 ms.keywords: HashExact, HashExact method [Microsoft TV Technologies], HashExact method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],HashExact method, IBDAComparable.HashExact, IBDAComparable::HashExact, IBDAComparableHashExact, mstv.ibdacomparable_hashexact, tuner/IBDAComparable::HashExact
-ms.topic: method
 f1_keywords:
 - tuner/IBDAComparable.HashExact
 dev_langs:

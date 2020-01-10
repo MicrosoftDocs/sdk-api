@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 297ac50f-2a58-477b-ba57-5d1416c191b3
 ms.date: 12/05/2018
 ms.keywords: AccessibleObjectFromWindow, AccessibleObjectFromWindow function [Windows Accessibility], _msaa_AccessibleObjectFromWindow, msaa.accessibleobjectfromwindow, oleacc/AccessibleObjectFromWindow, winauto.accessibleobjectfromwindow
-ms.topic: function
 f1_keywords:
 - oleacc/AccessibleObjectFromWindow
 dev_langs:

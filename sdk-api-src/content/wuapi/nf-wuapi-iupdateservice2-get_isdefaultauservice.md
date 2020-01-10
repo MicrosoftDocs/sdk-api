@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 2c7645b7-3845-4340-904b-38c56d4aa0ac
 ms.date: 12/05/2018
 ms.keywords: IUpdateService2 interface [Windows Update Agent],IsDefaultAUService property, IUpdateService2.IsDefaultAUService, IUpdateService2.get_IsDefaultAUService, IUpdateService2::IsDefaultAUService, IUpdateService2::get_IsDefaultAUService, IsDefaultAUService property [Windows Update Agent], IsDefaultAUService property [Windows Update Agent],IUpdateService2 interface, get_IsDefaultAUService, wua.iupdateservice2_isdefaultauservice, wuapi/IUpdateService2::IsDefaultAUService, wuapi/IUpdateService2::get_IsDefaultAUService
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateService2.IsDefaultAUService
 dev_langs:

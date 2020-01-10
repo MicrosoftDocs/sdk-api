@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 53A24D77-0C23-4C06-AAB8-521528297E4F
 ms.date: 12/05/2018
 ms.keywords: NdrMesProcEncodeDecode4, NdrMesProcEncodeDecode4 function [RPC], rpc.ndrmesprocencodedecode4, rpcndr/NdrMesProcEncodeDecode4
-ms.topic: function
 f1_keywords:
 - rpcndr/NdrMesProcEncodeDecode4
 dev_langs:

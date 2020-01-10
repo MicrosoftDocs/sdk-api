@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: ba9dfa0c-98df-4922-acba-d00e9b4b0fb0
 ms.date: 12/05/2018
 ms.keywords: CreateHalftonePalette, CreateHalftonePalette function [Windows GDI], _win32_CreateHalftonePalette, gdi.createhalftonepalette, wingdi/CreateHalftonePalette
-ms.topic: function
 f1_keywords:
 - wingdi/CreateHalftonePalette
 dev_langs:

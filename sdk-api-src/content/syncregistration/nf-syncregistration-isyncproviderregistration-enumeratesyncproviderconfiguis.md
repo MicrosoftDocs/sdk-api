@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: e3f87fc7-f123-454e-851c-92dbad605600
 ms.date: 12/05/2018
 ms.keywords: EnumerateSyncProviderConfigUIs, EnumerateSyncProviderConfigUIs method [Windows Sync], EnumerateSyncProviderConfigUIs method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],EnumerateSyncProviderConfigUIs method, ISyncProviderRegistration.EnumerateSyncProviderConfigUIs, ISyncProviderRegistration::EnumerateSyncProviderConfigUIs, syncregistration/ISyncProviderRegistration::EnumerateSyncProviderConfigUIs, winsync.isyncproviderregistration_enumeratesyncproviderconfiguis
-ms.topic: method
 f1_keywords:
 - syncregistration/ISyncProviderRegistration.EnumerateSyncProviderConfigUIs
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 9426a623-cefc-43ed-9987-77802fce1a78
 ms.date: 12/05/2018
 ms.keywords: IAzNameResolver, IAzNameResolver interface [Security], IAzNameResolver interface [Security],described, azroles/IAzNameResolver, security.iaznameresolver
-ms.topic: interface
 f1_keywords:
 - azroles/IAzNameResolver
 dev_langs:

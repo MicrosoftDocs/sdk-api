@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 211069cb-4b4c-49bc-ad3c-1be184999670
 ms.date: 12/05/2018
 ms.keywords: SetProcessPriorityBoost, SetProcessPriorityBoost function, _win32_setprocesspriorityboost, base.setprocesspriorityboost, processthreadsapi/SetProcessPriorityBoost
-ms.topic: function
 f1_keywords:
 - processthreadsapi/SetProcessPriorityBoost
 dev_langs:

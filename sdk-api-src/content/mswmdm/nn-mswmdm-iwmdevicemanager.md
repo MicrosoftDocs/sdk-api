@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: cac68821-42fc-4833-bf2e-eec1768869e6
 ms.date: 12/05/2018
 ms.keywords: IWMDeviceManager, IWMDeviceManager interface [windows Media Device Manager], IWMDeviceManager interface [windows Media Device Manager],described, IWMDeviceManagerInterface, mswmdm/IWMDeviceManager, wmdm.iwmdevicemanager
-ms.topic: interface
 f1_keywords:
 - mswmdm/IWMDeviceManager
 dev_langs:

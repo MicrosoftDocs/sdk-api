@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: E56E13D5-A41D-41F4-8E63-55664F6A8E28
 ms.date: 12/05/2018
 ms.keywords: CreateSpellCheckProvider, CreateSpellCheckProvider method [Internationalization for Windows Applications], CreateSpellCheckProvider method [Internationalization for Windows Applications],ISpellCheckProviderFactory interface, ISpellCheckProviderFactory interface [Internationalization for Windows Applications],CreateSpellCheckProvider method, ISpellCheckProviderFactory.CreateSpellCheckProvider, ISpellCheckProviderFactory::CreateSpellCheckProvider, intl.ispellcheckproviderfactory_createspellcheckprovider, spellcheckprovider/ISpellCheckProviderFactory::CreateSpellCheckProvider
-ms.topic: method
 f1_keywords:
 - spellcheckprovider/ISpellCheckProviderFactory.CreateSpellCheckProvider
 dev_langs:

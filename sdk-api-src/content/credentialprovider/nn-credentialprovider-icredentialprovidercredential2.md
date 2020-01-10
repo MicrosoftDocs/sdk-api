@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: C1C4BF88-3151-4a8b-A1EE-9616DCB6EA58
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredential2, ICredentialProviderCredential2 interface [Windows Shell], ICredentialProviderCredential2 interface [Windows Shell],described, credentialprovider/ICredentialProviderCredential2, shell.ICredentialProviderCredential2
-ms.topic: interface
 f1_keywords:
 - credentialprovider/ICredentialProviderCredential2
 dev_langs:

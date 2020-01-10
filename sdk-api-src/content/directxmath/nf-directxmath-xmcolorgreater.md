@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorGreater(XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorGreater, XMColorGreater, XMColorGreater method [DirectX Math Support APIs], dxmath.xmcolorgreater
-ms.topic: function
 f1_keywords:
 - directxmath/XMColorGreater
 dev_langs:

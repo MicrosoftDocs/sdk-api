@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 7bc410f8-3a39-478d-bc4d-adcd976f305b
 ms.date: 12/05/2018
 ms.keywords: IRunningObjectTable interface [COM],NoteChangeTime method, IRunningObjectTable.NoteChangeTime, IRunningObjectTable::NoteChangeTime, NoteChangeTime, NoteChangeTime method [COM], NoteChangeTime method [COM],IRunningObjectTable interface, _com_irunningobjecttable_notechangetime, com.irunningobjecttable_notechangetime, objidl/IRunningObjectTable::NoteChangeTime
-ms.topic: method
 f1_keywords:
 - objidl/IRunningObjectTable.NoteChangeTime
 dev_langs:

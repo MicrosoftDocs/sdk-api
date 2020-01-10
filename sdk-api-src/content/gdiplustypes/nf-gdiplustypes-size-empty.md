@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizeclass\sizemethods\empty.htm
 ms.date: 12/05/2018
 ms.keywords: Empty, Empty method [GDI+], Empty method [GDI+],Size class, Size class [GDI+],Empty method, Size.Empty, Size::Empty, _gdiplus_CLASS_Size_Empty_, gdiplus._gdiplus_CLASS_Size_Empty_
-ms.topic: method
 f1_keywords:
 - gdiplustypes/Size.Empty
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 4d6ef859-150b-41e7-be58-b9c87c61f7d8
 ms.date: 12/05/2018
 ms.keywords: GetNewStory, GetNewStory method [Windows Controls], GetNewStory method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetNewStory method, ITextDocument2.GetNewStory, ITextDocument2::GetNewStory, controls.itextdocument2_getnewstory, tom/ITextDocument2::GetNewStory
-ms.topic: method
 f1_keywords:
 - tom/ITextDocument2.GetNewStory
 dev_langs:

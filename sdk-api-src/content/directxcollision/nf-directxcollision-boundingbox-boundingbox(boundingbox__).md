@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.#ctor
 ms.date: 12/05/2018
 ms.keywords: BoundingBox, BoundingBox constructor [DirectX Math Support APIs], BoundingBox constructor [DirectX Math Support APIs],BoundingBox interface, BoundingBox interface [DirectX Math Support APIs],BoundingBox constructor, BoundingBox.BoundingBox, BoundingBox.BoundingBox(), BoundingBox.BoundingBox(BoundingBox &&), BoundingBox::BoundingBox, BoundingBox::BoundingBox(BoundingBox &&), dxmath.boundingbox_ctor_3
-ms.topic: method
 f1_keywords:
 - directxcollision/BoundingBox.BoundingBox
 dev_langs:

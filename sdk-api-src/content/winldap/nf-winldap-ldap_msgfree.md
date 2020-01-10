@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: a4292638-0686-4c2d-8c51-1d5d079d5782
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_msgfree, ldap.ldap__msgfree, ldap.ldap_msgfree, ldap_msgfree, ldap_msgfree function [LDAP], winldap/ldap_msgfree
-ms.topic: function
 f1_keywords:
 - winldap/ldap_msgfree
 dev_langs:

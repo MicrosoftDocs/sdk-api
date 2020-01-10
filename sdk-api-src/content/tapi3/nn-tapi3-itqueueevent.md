@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 7e4655ff-6ed4-4166-91f7-49d2e0556662
 ms.date: 12/05/2018
 ms.keywords: ITQueueEvent, ITQueueEvent interface [TAPI 2.2], ITQueueEvent interface [TAPI 2.2],described, _tapi3_itqueueevent, tapi3.itqueueevent, tapi3cc/ITQueueEvent
-ms.topic: interface
 f1_keywords:
 - tapi3/ITQueueEvent
 dev_langs:

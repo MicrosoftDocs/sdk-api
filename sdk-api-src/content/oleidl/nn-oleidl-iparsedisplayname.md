@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 37844d9b-35ce-4d30-8a58-dac4c671896f
 ms.date: 12/05/2018
 ms.keywords: IParseDisplayName, IParseDisplayName interface [COM], IParseDisplayName interface [COM],described, _com_iparsedisplayname, com.iparsedisplayname, oleidl/IParseDisplayName
-ms.topic: interface
 f1_keywords:
 - oleidl/IParseDisplayName
 dev_langs:

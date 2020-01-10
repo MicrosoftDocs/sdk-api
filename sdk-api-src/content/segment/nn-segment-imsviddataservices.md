@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 6f70aa63-849c-4170-80c1-359210be4d61
 ms.date: 12/05/2018
 ms.keywords: IMSVidDataServices, IMSVidDataServices interface [Microsoft TV Technologies], IMSVidDataServices interface [Microsoft TV Technologies],described, IMSVidDataServicesInterface, mstv.imsviddataservices, segment/IMSVidDataServices
-ms.topic: interface
 f1_keywords:
 - segment/IMSVidDataServices
 dev_langs:

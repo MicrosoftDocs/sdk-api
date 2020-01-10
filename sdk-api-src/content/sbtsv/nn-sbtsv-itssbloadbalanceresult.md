@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: f19f006c-e74a-4f44-8be8-f71852d4c305
 ms.date: 12/05/2018
 ms.keywords: ITsSbLoadBalanceResult, ITsSbLoadBalanceResult interface [Remote Desktop Services], ITsSbLoadBalanceResult interface [Remote Desktop Services],described, sbtsv/ITsSbLoadBalanceResult, termserv.itssbloadbalanceresult
-ms.topic: interface
 f1_keywords:
 - sbtsv/ITsSbLoadBalanceResult
 dev_langs:

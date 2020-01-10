@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 03EAFF60-1703-47BA-BD77-225BEAC4DFAE
 ms.date: 12/5/2018
 ms.keywords: DML_BUFFER_TENSOR_DESC, DML_BUFFER_TENSOR_DESC structure, direct3d12.dml_buffer_tensor_desc, directml/DML_BUFFER_TENSOR_DESC
-ms.topic: struct
 f1_keywords:
 - directml/DML_BUFFER_TENSOR_DESC
 dev_langs:

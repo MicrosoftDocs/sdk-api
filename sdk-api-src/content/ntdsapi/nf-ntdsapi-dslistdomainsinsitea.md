@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 3a039c0c-ac5b-4455-960d-b26a207693ed
 ms.date: 12/05/2018
 ms.keywords: DsListDomainsInSite, DsListDomainsInSite function [Active Directory], DsListDomainsInSiteA, DsListDomainsInSiteW, _glines_dslistdomainsinsite, ad.dslistdomainsinsite, ntdsapi/DsListDomainsInSite, ntdsapi/DsListDomainsInSiteA, ntdsapi/DsListDomainsInSiteW
-ms.topic: function
 f1_keywords:
 - ntdsapi/DsListDomainsInSite
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 7abfee7a-dd5d-4f33-96f1-b38364ba5afd
 ms.date: 12/05/2018
 ms.keywords: GGI_MARK_NONEXISTING_GLYPHS, GetGlyphIndices, GetGlyphIndices function [Windows GDI], GetGlyphIndicesA, GetGlyphIndicesW, _win32_GetGlyphIndices, gdi.getglyphindices, wingdi/GetGlyphIndices, wingdi/GetGlyphIndicesA, wingdi/GetGlyphIndicesW
-ms.topic: function
 f1_keywords:
 - wingdi/GetGlyphIndices
 dev_langs:

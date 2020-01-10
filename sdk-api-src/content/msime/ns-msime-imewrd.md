@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: BC0D039A-7EB4-4A8D-B063-479CF4294FF0
 ms.date: 12/05/2018
 ms.keywords: '*PIMEWRD, IMEWRD, IMEWRD structure [Internationalization for Windows Applications], PIMEWRD, PIMEWRD structure pointer [Internationalization for Windows Applications], intl.imewrd, msime/IMEWRD, msime/PIMEWRD'
-ms.topic: struct
 f1_keywords:
 - msime/IMEWRD
 dev_langs:

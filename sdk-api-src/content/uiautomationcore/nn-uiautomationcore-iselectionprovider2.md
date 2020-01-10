@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 1FC0406D-6924-4C24-8491-E18BA33DAFEB
 ms.date: 12/05/2018
 ms.keywords: ISelectionProvider2, ISelectionProvider2 interface [Windows Accessibility], ISelectionProvider2 interface [Windows Accessibility],described, uiautomationcore/ISelectionProvider2, winauto.uiauto_ISelectionProvider2
-ms.topic: interface
 f1_keywords:
 - uiautomationcore/ISelectionProvider2
 dev_langs:

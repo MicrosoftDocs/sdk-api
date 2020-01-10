@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 35f0f7fd-eff9-4ee0-99f0-83af7ec2796a
 ms.date: 12/05/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],MaxDisconnectionTime property, IADsTSUserEx.MaxDisconnectionTime, IADsTSUserEx.put_MaxDisconnectionTime, IADsTSUserEx::MaxDisconnectionTime, IADsTSUserEx::get_MaxDisconnectionTime, IADsTSUserEx::put_MaxDisconnectionTime, MaxDisconnectionTime property [Remote Desktop Services], MaxDisconnectionTime property [Remote Desktop Services],IADsTSUserEx interface, put_MaxDisconnectionTime, termserv.iadstsuserex_maxdisconnectiontime, tsuserex/IADsTSUserEx::MaxDisconnectionTime, tsuserex/IADsTSUserEx::get_MaxDisconnectionTime, tsuserex/IADsTSUserEx::put_MaxDisconnectionTime
-ms.topic: method
 f1_keywords:
 - tsuserex/IADsTSUserEx.MaxDisconnectionTime
 dev_langs:

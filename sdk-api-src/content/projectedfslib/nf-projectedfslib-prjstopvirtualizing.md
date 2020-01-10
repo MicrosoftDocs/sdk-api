@@ -7,7 +7,6 @@ tech.root: ProjFS
 ms.assetid: D01BF7C5-1EAC-446A-BCE5-A6EF46A5443D
 ms.date: 12/05/2018
 ms.keywords: PrjStopVirtualizing, PrjStopVirtualizing function, ProjFS.prjstopvirtualizing, projectedfslib/PrjStopVirtualizing
-ms.topic: function
 f1_keywords:
 - projectedfslib/PrjStopVirtualizing
 dev_langs:

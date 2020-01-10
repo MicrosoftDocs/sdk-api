@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: c2dafd0a-3cb9-4d9b-919b-c7ef86fb1cd4
 ms.date: 12/05/2018
 ms.keywords: ImmGetIMEFileName, ImmGetIMEFileName function [Internationalization for Windows Applications], ImmGetIMEFileNameA, ImmGetIMEFileNameW, _win32_ImmGetIMEFileName, imm/ImmGetIMEFileName, imm/ImmGetIMEFileNameA, imm/ImmGetIMEFileNameW, intl.immgetimefilename
-ms.topic: function
 f1_keywords:
 - imm/ImmGetIMEFileName
 dev_langs:

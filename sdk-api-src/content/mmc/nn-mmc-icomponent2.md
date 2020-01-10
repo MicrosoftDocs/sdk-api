@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: b9e67a37-c09d-46f3-896f-e75122256812
 ms.date: 12/05/2018
 ms.keywords: IComponent2, IComponent2 interface [MMC], IComponent2 interface [MMC],described, _slate_icomponent2, mmc.icomponent2, mmc/IComponent2
-ms.topic: interface
 f1_keywords:
 - mmc/IComponent2
 dev_langs:

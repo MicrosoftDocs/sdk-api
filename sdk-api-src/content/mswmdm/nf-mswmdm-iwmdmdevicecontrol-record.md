@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: a9372ce9-e339-4664-9e12-4feae29529dc
 ms.date: 12/05/2018
 ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Record method, IWMDMDeviceControl.Record, IWMDMDeviceControl::Record, IWMDMDeviceControlRecord, Record, Record method [windows Media Device Manager], Record method [windows Media Device Manager],IWMDMDeviceControl interface, mswmdm/IWMDMDeviceControl::Record, wmdm.iwmdmdevicecontrol_record
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMDeviceControl.Record
 dev_langs:

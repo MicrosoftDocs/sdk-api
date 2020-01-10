@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3
 ms.date: 12/05/2018
 ms.keywords: IX509NameValuePair, IX509NameValuePair interface [Security], IX509NameValuePair interface [Security],described, certenroll/IX509NameValuePair, security.ix509namevaluepair
-ms.topic: interface
 f1_keywords:
 - certenroll/IX509NameValuePair
 dev_langs:

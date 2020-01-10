@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: e0f757d9-36b6-40f8-a1db-fb5b9862b46a
 ms.date: 12/05/2018
 ms.keywords: DsGetDcSiteCoverage, DsGetDcSiteCoverage function [Active Directory], DsGetDcSiteCoverageA, DsGetDcSiteCoverageW, _glines_dsgetdcsitecoverage, ad.dsgetdcsitecoverage, dsgetdc/DsGetDcSiteCoverage, dsgetdc/DsGetDcSiteCoverageA, dsgetdc/DsGetDcSiteCoverageW
-ms.topic: function
 f1_keywords:
 - dsgetdc/DsGetDcSiteCoverage
 dev_langs:

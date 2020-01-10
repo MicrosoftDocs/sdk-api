@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 204c1366-1817-4cd1-a1fd-a4ad3e79b7cc
 ms.date: 12/05/2018
 ms.keywords: SetupDiChangeState, SetupDiChangeState function [Device and Driver Installation], devinst.setupdichangestate, di-rtns_0749286d-9e78-4e2a-8bbf-483d698753ba.xml, setupapi/SetupDiChangeState
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiChangeState
 dev_langs:

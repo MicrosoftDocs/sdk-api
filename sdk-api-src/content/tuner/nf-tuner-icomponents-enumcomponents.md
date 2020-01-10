@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 214030ff-8aec-46df-8b59-f31fe926d8aa
 ms.date: 12/05/2018
 ms.keywords: EnumComponents, EnumComponents method [Microsoft TV Technologies], EnumComponents method [Microsoft TV Technologies],IComponents interface, IComponents interface [Microsoft TV Technologies],EnumComponents method, IComponents.EnumComponents, IComponents::EnumComponents, IComponentsEnumComponents, mstv.icomponents_enumcomponents, tuner/IComponents::EnumComponents
-ms.topic: method
 f1_keywords:
 - tuner/IComponents.EnumComponents
 dev_langs:

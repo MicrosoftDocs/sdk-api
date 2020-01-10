@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 50C1ACA1-714C-467A-A548-B5EE50DA3E3D
 ms.date: 12/05/2018
 ms.keywords: D3D11_RESOURCE_FLAGS, D3D11_RESOURCE_FLAGS structure, d3d11on12/D3D11_RESOURCE_FLAGS, direct3d12.d3d11_resource_flags
-ms.topic: struct
 f1_keywords:
 - d3d11on12/D3D11_RESOURCE_FLAGS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: d90f37c7-87a8-4800-901c-d2aa3e5d838b
 ms.date: 12/05/2018
 ms.keywords: VarFix, VarFix function [Automation], _oa96_VarFix, automat.varfix, oleauto/VarFix
-ms.topic: function
 f1_keywords:
 - oleauto/VarFix
 dev_langs:

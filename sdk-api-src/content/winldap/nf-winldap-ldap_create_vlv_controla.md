@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: f4305aa9-e967-45a8-8b8b-49b1e60994e8
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_create_vlv_control, ldap.ldap__create__vlv__control, ldap.ldap_create_vlv_control, ldap_create_vlv_control, ldap_create_vlv_control function [LDAP], ldap_create_vlv_controlA, ldap_create_vlv_controlW, winldap/ldap_create_vlv_control, winldap/ldap_create_vlv_controlA, winldap/ldap_create_vlv_controlW
-ms.topic: function
 f1_keywords:
 - winldap/ldap_create_vlv_control
 dev_langs:

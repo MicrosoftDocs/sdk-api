@@ -7,7 +7,6 @@ tech.root: wcn
 ms.assetid: cdf0394a-f5e6-49cf-bd18-9c3c2b689e50
 ms.date: 12/05/2018
 ms.keywords: ConnectFailed, ConnectFailed method [Windows Connect Now], ConnectFailed method [Windows Connect Now],IWCNConnectNotify interface, IWCNConnectNotify interface [Windows Connect Now],ConnectFailed method, IWCNConnectNotify.ConnectFailed, IWCNConnectNotify::ConnectFailed, wcn.iwcnconnectnotify_connectfailed, wcndevice/IWCNConnectNotify::ConnectFailed
-ms.topic: method
 f1_keywords:
 - wcndevice/IWCNConnectNotify.ConnectFailed
 dev_langs:

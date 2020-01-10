@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 779CFE43-8127-4A78-BD1A-8407DA5F49A2
 ms.date: 12/05/2018
 ms.keywords: GetCurrentAnnotationTypes, GetCurrentAnnotationTypes method [Windows Accessibility], GetCurrentAnnotationTypes method [Windows Accessibility],IUIAutomationSpreadsheetItemPattern interface, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],GetCurrentAnnotationTypes method, IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationTypes, IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationTypes, uiautomationclient/IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationTypes, winauto.uiauto_IUIAutomationSpreadsheetItemPattern_GetCurrentAnnotationTypes
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationTypes
 dev_langs:

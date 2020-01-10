@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: cabf21b8-790b-401b-9de2-0d8c5fa858e1
 ms.date: 12/05/2018
 ms.keywords: AutoDownloadMode, AutoDownloadMode enumeration [Windows Update Agent], adAlwaysAutoDownload, adLetWindowsUpdateDecide, adNeverAutoDownload, wua.autodownloadmode, wuapi/AutoDownloadMode, wuapi/adAlwaysAutoDownload, wuapi/adLetWindowsUpdateDecide, wuapi/adNeverAutoDownload
-ms.topic: enum
 f1_keywords:
 - wuapi/AutoDownloadMode
 dev_langs:

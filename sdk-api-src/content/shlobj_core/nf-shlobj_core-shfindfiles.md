@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c54036c2-e6b9-4b21-b2b2-a6721c502ee5
 ms.date: 12/05/2018
 ms.keywords: SHFindFiles, SHFindFiles function [Windows Shell], _win32_SHFindFiles, shell.SHFindFiles, shlobj_core/SHFindFiles
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHFindFiles
 dev_langs:

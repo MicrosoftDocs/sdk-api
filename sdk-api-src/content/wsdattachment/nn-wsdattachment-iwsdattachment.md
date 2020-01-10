@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 9acbbca2-9b43-4bed-8917-be99f13fce13
 ms.date: 12/05/2018
 ms.keywords: IWSDAttachment, IWSDAttachment interface, IWSDAttachment interface,described, ncd.iwsdattachment, wsdattachment/IWSDAttachment
-ms.topic: interface
 f1_keywords:
 - wsdattachment/IWSDAttachment
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 48464ebc-d1a2-4068-b9ee-061adce30879
 ms.date: 12/05/2018
 ms.keywords: DynamicRendering property [Tablet PC], DynamicRendering property [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],DynamicRendering property, IInkCollector.DynamicRendering, IInkCollector.get_DynamicRendering, IInkCollector.put_DynamicRendering, IInkCollector::DynamicRendering, IInkCollector::get_DynamicRendering, IInkCollector::put_DynamicRendering, InkCollector.get_DynamicRendering, InkCollector.put_DynamicRendering, get_DynamicRendering, msinkaut/IInkCollector::DynamicRendering, msinkaut/IInkCollector::get_DynamicRendering, msinkaut/IInkCollector::put_DynamicRendering, put_DynamicRendering, tablet.inkcollector_dynamicrendering
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkCollector.DynamicRendering
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: d94db51b-67da-477a-82e6-c92da756f017
 ms.date: 12/05/2018
 ms.keywords: WinBioLocateSensorWithCallback, WinBioLocateSensorWithCallback function [Windows Biometric Framework API], secbiomet.winbiolocatesensorwithcallback, winbio/WinBioLocateSensorWithCallback
-ms.topic: function
 f1_keywords:
 - winbio/WinBioLocateSensorWithCallback
 dev_langs:

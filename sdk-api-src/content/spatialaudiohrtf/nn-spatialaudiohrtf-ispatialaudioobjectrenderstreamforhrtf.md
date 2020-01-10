@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 9DFEF82A-1571-47AB-BE0E-059BCCC8289A
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectRenderStreamForHrtf, ISpatialAudioObjectRenderStreamForHrtf interface [Core Audio], ISpatialAudioObjectRenderStreamForHrtf interface [Core Audio],described, coreaudio.ispatialaudiorenderstreamforhrtf, spatialaudiohrtf/ISpatialAudioObjectRenderStreamForHrtf
-ms.topic: interface
 f1_keywords:
 - spatialaudiohrtf/ISpatialAudioObjectRenderStreamForHrtf
 dev_langs:

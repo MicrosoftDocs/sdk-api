@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: a06d5765-d91e-4cbc-ac12-09d1ce4d84f6
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnUpdateEnd method, IMFSourceBufferNotify.OnUpdateEnd, IMFSourceBufferNotify::OnUpdateEnd, OnUpdateEnd, OnUpdateEnd method [Media Foundation], OnUpdateEnd method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onupdateend, mfmediaengine/IMFSourceBufferNotify::OnUpdateEnd
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFSourceBufferNotify.OnUpdateEnd
 dev_langs:

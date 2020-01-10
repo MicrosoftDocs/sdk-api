@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 353ee03d-b706-4a70-9eaf-c14b47b5159a
 ms.date: 12/05/2018
 ms.keywords: 353ee03d-b706-4a70-9eaf-c14b47b5159a, ASF_MUX_STATISTICS, ASF_MUX_STATISTICS structure [Media Foundation], mf.asf_mux_statistics, wmcontainer/ASF_MUX_STATISTICS
-ms.topic: struct
 f1_keywords:
 - wmcontainer/ASF_MUX_STATISTICS
 dev_langs:

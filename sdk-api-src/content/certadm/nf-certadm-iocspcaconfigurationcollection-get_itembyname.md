@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 78c2ce21-b7f9-48ec-b192-e4cd8be46cc6
 ms.date: 12/05/2018
 ms.keywords: IOCSPCAConfigurationCollection interface [Security],ItemByName property, IOCSPCAConfigurationCollection.ItemByName, IOCSPCAConfigurationCollection.get_ItemByName, IOCSPCAConfigurationCollection::ItemByName, IOCSPCAConfigurationCollection::get_ItemByName, ItemByName property [Security], ItemByName property [Security],IOCSPCAConfigurationCollection interface, certadm/IOCSPCAConfigurationCollection::ItemByName, certadm/IOCSPCAConfigurationCollection::get_ItemByName, get_ItemByName, security.iocspcaconfigurationcollection_itembyname_method
-ms.topic: method
 f1_keywords:
 - certadm/IOCSPCAConfigurationCollection.ItemByName
 dev_langs:

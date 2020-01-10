@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 9549e30c-9425-4fb1-8ce5-f180a32f8e1f
 ms.date: 12/05/2018
 ms.keywords: '*LPPHONECAPS, LPPHONECAPS, LPPHONECAPS structure pointer [TAPI 2.2], PHONECAPS, PHONECAPS structure [TAPI 2.2], _tapi2_phonecaps_str, tapi/LPPHONECAPS, tapi/PHONECAPS, tapi2.phonecaps_str'
-ms.topic: struct
 f1_keywords:
 - tapi/PHONECAPS
 dev_langs:

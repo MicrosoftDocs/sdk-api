@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9578f26e-56ea-4f3b-b024-b2e285d0c4d2
 ms.date: 12/05/2018
 ms.keywords: SHAnsiToUnicode, SHAnsiToUnicode function [Windows Shell], _win32_SHAnsiToUnicode, shell.SHAnsiToUnicode, shlwapi/SHAnsiToUnicode
-ms.topic: function
 f1_keywords:
 - shlwapi/SHAnsiToUnicode
 dev_langs:

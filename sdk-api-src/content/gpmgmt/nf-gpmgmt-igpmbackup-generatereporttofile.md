@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: cba43c59-54d8-4d0b-b603-638f493cdf71
 ms.date: 12/05/2018
 ms.keywords: GenerateReportToFile, GenerateReportToFile method [GPMC], GenerateReportToFile method [GPMC],IGPMBackup interface, IGPMBackup interface [GPMC],GenerateReportToFile method, IGPMBackup.GenerateReportToFile, IGPMBackup::GenerateReportToFile, gpmc.igpmbackup_generatereporttofile, gpmgmt/IGPMBackup::GenerateReportToFile
-ms.topic: method
 f1_keywords:
 - gpmgmt/IGPMBackup.GenerateReportToFile
 dev_langs:

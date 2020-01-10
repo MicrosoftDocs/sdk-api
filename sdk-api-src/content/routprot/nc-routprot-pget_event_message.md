@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 59aa7bd8-3510-4ca0-90f1-2667dcb4abf0
 ms.date: 12/05/2018
 ms.keywords: GetEventMessage, PGET_EVENT_MESSAGE, PGET_EVENT_MESSAGE callback, PGET_EVENT_MESSAGE callback function [RAS], ROUTER_STOPPED, SAVE_GLOBAL_CONFIG_INFO, SAVE_INTERFACE_CONFIG_INFO, UPDATE_COMPLETE, _mpr_geteventmessage, routprot/PGET_EVENT_MESSAGE, rras.geteventmessage
-ms.topic: callback
 f1_keywords:
 - routprot/PGET_EVENT_MESSAGE
 dev_langs:

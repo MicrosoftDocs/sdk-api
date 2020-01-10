@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: d1b5eb99-7bbb-4881-8251-4362368dff88
 ms.date: 12/05/2018
 ms.keywords: IWSDSSLClientCertificate, IWSDSSLClientCertificate interface, IWSDSSLClientCertificate interface,described, ncd.iwsdsslclientcertificate, wsdbase/IWSDSSLClientCertificate
-ms.topic: interface
 f1_keywords:
 - wsdbase/IWSDSSLClientCertificate
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 552da68f-6e6a-44b2-8c95-e29bc67de3c2
 ms.date: 12/05/2018
 ms.keywords: GetServiceMetadata, GetServiceMetadata method, GetServiceMetadata method,IWSDServiceProxy interface, IWSDServiceProxy interface,GetServiceMetadata method, IWSDServiceProxy.GetServiceMetadata, IWSDServiceProxy::GetServiceMetadata, ncd.iwsdserviceproxy_getservicemetadata_method, wsdclient/IWSDServiceProxy::GetServiceMetadata
-ms.topic: method
 f1_keywords:
 - wsdclient/IWSDServiceProxy.GetServiceMetadata
 dev_langs:

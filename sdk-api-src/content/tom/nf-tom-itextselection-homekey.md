@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\homekey.htm
 ms.date: 12/05/2018
 ms.keywords: HomeKey, HomeKey method [Windows Controls], HomeKey method [Windows Controls],ITextSelection interface, ITextSelection interface [Windows Controls],HomeKey method, ITextSelection.HomeKey, ITextSelection::HomeKey, _win32_ITextSelection_HomeKey, _win32_ITextSelection_HomeKey_cpp, controls.ITextSelection_HomeKey, controls._win32_ITextSelection_HomeKey, tom/ITextSelection::HomeKey, tomColumn, tomLine, tomRow, tomStory
-ms.topic: method
 f1_keywords:
 - tom/ITextSelection.HomeKey
 dev_langs:

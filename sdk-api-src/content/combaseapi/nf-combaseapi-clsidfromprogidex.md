@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 2f937ac1-b214-482a-af4b-8cc8c0c585c3
 ms.date: 12/05/2018
 ms.keywords: CLSIDFromProgIDEx, CLSIDFromProgIDEx function [COM], _com_CLSIDFromProgIDEx, com.clsidfromprogidex, combaseapi/CLSIDFromProgIDEx
-ms.topic: function
 f1_keywords:
 - combaseapi/CLSIDFromProgIDEx
 dev_langs:

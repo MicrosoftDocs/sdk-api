@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_7v03.htm
 ms.date: 12/05/2018
 ms.keywords: ExtendedStatus property [Fax Service], ExtendedStatus property [Fax Service],IFaxIncomingJob interface, IFaxIncomingJob interface [Fax Service],ExtendedStatus property, IFaxIncomingJob.ExtendedStatus, IFaxIncomingJob.get_ExtendedStatus, IFaxIncomingJob::ExtendedStatus, IFaxIncomingJob::get_ExtendedStatus, _mfax_faxincomingjob.extendedstatus, fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_extendedstatus_cpp, fax._mfax_faxincomingjob_extendedstatus, faxcomex/IFaxIncomingJob::ExtendedStatus, faxcomex/IFaxIncomingJob::get_ExtendedStatus, get_ExtendedStatus
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxIncomingJob.ExtendedStatus
 dev_langs:

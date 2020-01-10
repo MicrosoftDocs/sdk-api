@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 6bb3f9cf-bf28-4f94-8557-56c1952384ec
 ms.date: 12/05/2018
 ms.keywords: IUnknown_AtomicRelease, IUnknown_AtomicRelease function [Windows Shell], _win32_IUnknown_AtomicRelease, shell.IUnknown_AtomicRelease, shlwapi/IUnknown_AtomicRelease
-ms.topic: function
 f1_keywords:
 - shlwapi/IUnknown_AtomicRelease
 dev_langs:

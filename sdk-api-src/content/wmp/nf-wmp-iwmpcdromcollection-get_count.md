@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 0e0c73b3-463c-43de-b1b8-5644a377bfd1
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromCollection interface [Windows Media Player],get_count method, IWMPCdromCollection.get_count, IWMPCdromCollection::get_count, IWMPCdromCollectionget_count, get_count, get_count method [Windows Media Player], get_count method [Windows Media Player],IWMPCdromCollection interface, wmp.iwmpcdromcollection_get_count, wmp/IWMPCdromCollection::get_count
-ms.topic: method
 f1_keywords:
 - wmp/IWMPCdromCollection.get_count
 dev_langs:

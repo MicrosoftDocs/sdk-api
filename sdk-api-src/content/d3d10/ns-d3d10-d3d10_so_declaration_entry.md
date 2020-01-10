@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_so_declaration_entry.htm
 ms.date: 12/05/2018
 ms.keywords: 367a5fa7-5907-24fc-2124-92ee48f50140, D3D10_SO_DECLARATION_ENTRY, D3D10_SO_DECLARATION_ENTRY structure [Direct3D 10], d3d10/D3D10_SO_DECLARATION_ENTRY, direct3d10.d3d10_so_declaration_entry
-ms.topic: struct
 f1_keywords:
 - d3d10/D3D10_SO_DECLARATION_ENTRY
 dev_langs:

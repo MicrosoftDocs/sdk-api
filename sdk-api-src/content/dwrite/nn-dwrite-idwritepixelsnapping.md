@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: b1b1eeb7-934f-42f4-ac01-50973a94996e
 ms.date: 12/05/2018
 ms.keywords: IDWritePixelSnapping, IDWritePixelSnapping interface [Direct Write], IDWritePixelSnapping interface [Direct Write],described, directwrite.IDWritePixelSnapping, dwrite/IDWritePixelSnapping
-ms.topic: interface
 f1_keywords:
 - dwrite/IDWritePixelSnapping
 dev_langs:

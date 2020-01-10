@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: f98bff39-bc5f-4a81-85d7-d5228e20fbc8
 ms.date: 12/05/2018
 ms.keywords: SysAllocStringLen, SysAllocStringLen function [Automation], _oa96_SysAllocStringLen, automat.sysallocstringlen, oleauto/SysAllocStringLen
-ms.topic: function
 f1_keywords:
 - oleauto/SysAllocStringLen
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 28507e68-5eaa-4b9d-bbb4-e276f4c213d5
 ms.date: 12/05/2018
 ms.keywords: IMbnVendorSpecificEvents, IMbnVendorSpecificEvents interface [Microsoft Broadband Networks], IMbnVendorSpecificEvents interface [Microsoft Broadband Networks],described, mbn.imbnvendorspecificevents, mbnapi/IMbnVendorSpecificEvents
-ms.topic: interface
 f1_keywords:
 - mbnapi/IMbnVendorSpecificEvents
 dev_langs:

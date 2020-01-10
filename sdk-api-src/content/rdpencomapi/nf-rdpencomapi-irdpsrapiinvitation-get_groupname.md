@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: 7ac76417-bb5c-40ae-a22a-b322b42b0d2c
 ms.date: 12/05/2018
 ms.keywords: GroupName property [RDP], GroupName property [RDP],IRDPSRAPIInvitation interface, GroupName property [RDP],RDPSRAPIInvitation object, IRDPSRAPIInvitation interface [RDP],GroupName property, IRDPSRAPIInvitation.GroupName, IRDPSRAPIInvitation.get_GroupName, IRDPSRAPIInvitation::GroupName, IRDPSRAPIInvitation::get_GroupName, RDPSRAPIInvitation object [RDP],GroupName property, get_GroupName, rdp.irdpsrapiinvitation_groupname, rdpencomapi/IRDPSRAPIInvitation::GroupName, rdpencomapi/IRDPSRAPIInvitation::get_GroupName
-ms.topic: method
 f1_keywords:
 - rdpencomapi/IRDPSRAPIInvitation.GroupName
 dev_langs:

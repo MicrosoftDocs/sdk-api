@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 70c4bda0-3efa-4f85-b71e-174c4c80830c
 ms.date: 12/05/2018
 ms.keywords: IPin interface [DirectShow],NewSegment method, IPin.NewSegment, IPin::NewSegment, IPinNewSegment, NewSegment, NewSegment method [DirectShow], NewSegment method [DirectShow],IPin interface, dshow.ipin_newsegment, strmif/IPin::NewSegment
-ms.topic: method
 f1_keywords:
 - strmif/IPin.NewSegment
 dev_langs:

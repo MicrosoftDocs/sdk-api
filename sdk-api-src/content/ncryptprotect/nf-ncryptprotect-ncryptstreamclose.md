@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 770640F2-04C7-4512-8004-41F4ECDC110E
 ms.date: 12/05/2018
 ms.keywords: NCryptStreamClose, NCryptStreamClose function [Security], ncryptprotect/NCryptStreamClose, security.ncryptstreamclose
-ms.topic: function
 f1_keywords:
 - ncryptprotect/NCryptStreamClose
 dev_langs:

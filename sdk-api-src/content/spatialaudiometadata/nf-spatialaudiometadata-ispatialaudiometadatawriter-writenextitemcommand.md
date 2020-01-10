@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: A614AEC6-7CA3-4624-BAFE-46618BCB64FA
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioMetadataWriter interface [Core Audio],WriteNextItemCommand method, ISpatialAudioMetadataWriter.WriteNextItemCommand, ISpatialAudioMetadataWriter::WriteNextItemCommand, WriteNextItemCommand, WriteNextItemCommand method [Core Audio], WriteNextItemCommand method [Core Audio],ISpatialAudioMetadataWriter interface, coreaudio.ispatialaudiometadatawriter_writenextitemcommand, spatialaudiometadata/ISpatialAudioMetadataWriter::WriteNextItemCommand
-ms.topic: method
 f1_keywords:
 - spatialaudiometadata/ISpatialAudioMetadataWriter.WriteNextItemCommand
 dev_langs:

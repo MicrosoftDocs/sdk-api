@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 19F07236-6F9C-49F0-B100-E02F9DBF54F7
 ms.date: 12/05/2018
 ms.keywords: EnableWddmIdd, EnableWddmIdd method [Remote Desktop Services], EnableWddmIdd method [Remote Desktop Services],IWRdsWddmIddProps interface, IWRdsWddmIddProps interface [Remote Desktop Services],EnableWddmIdd method, IWRdsWddmIddProps.EnableWddmIdd, IWRdsWddmIddProps::EnableWddmIdd, termserv.iwrdswddmiddprops_enablewddmidd, wtsprotocol/IWRdsWddmIddProps::EnableWddmIdd
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWRdsWddmIddProps.EnableWddmIdd
 dev_langs:

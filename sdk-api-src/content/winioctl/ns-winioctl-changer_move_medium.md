@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: 9a837686-c081-4365-9560-be64c5d343cb
 ms.date: 12/05/2018
 ms.keywords: '*PCHANGER_MOVE_MEDIUM, CHANGER_MOVE_MEDIUM, CHANGER_MOVE_MEDIUM structure, PCHANGER_MOVE_MEDIUM, PCHANGER_MOVE_MEDIUM structure pointer, _win32_changer_move_medium_str, base.changer_move_medium_str, winioctl/CHANGER_MOVE_MEDIUM, winioctl/PCHANGER_MOVE_MEDIUM'
-ms.topic: struct
 f1_keywords:
 - winioctl/CHANGER_MOVE_MEDIUM
 dev_langs:

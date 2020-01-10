@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: df92366c-89b3-44b3-bea0-1b6deb321fe4
 ms.date: 12/05/2018
 ms.keywords: IOleDocumentView interface [COM],UIActivate method, IOleDocumentView.UIActivate, IOleDocumentView::UIActivate, UIActivate, UIActivate method [COM], UIActivate method [COM],IOleDocumentView interface, _ole_ioledocumentview_uiactivate, com.ioledocumentview_uiactivate, docobj/IOleDocumentView::UIActivate
-ms.topic: method
 f1_keywords:
 - docobj/IOleDocumentView.UIActivate
 dev_langs:

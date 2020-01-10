@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: cb01786f-4e6a-43f6-b906-504c0f17ade7
 ms.date: 12/05/2018
 ms.keywords: '*LPDDOPENVIDEOPORTOUT, DDOPENVIDEOPORTOUT, DDOPENVIDEOPORTOUT structure [Display Devices], LPDDOPENVIDEOPORTOUT, LPDDOPENVIDEOPORTOUT structure pointer [Display Devices], ddkmapi/DDOPENVIDEOPORTOUT, ddkmapi/LPDDOPENVIDEOPORTOUT, ddstrcts_6a818660-2826-448a-a925-fa8019975c62.xml, display.ddopenvideoportout'
-ms.topic: struct
 f1_keywords:
 - ddkmapi/DDOPENVIDEOPORTOUT
 dev_langs:

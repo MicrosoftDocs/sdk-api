@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 06257DB1-992E-4A8D-8221-76DA3DF0FA1F
 ms.date: 12/05/2018
 ms.keywords: GetDeviceCapabilities, GetDeviceCapabilities method [App packaging and management], GetDeviceCapabilities method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetDeviceCapabilities method, IAppxManifestReader.GetDeviceCapabilities, IAppxManifestReader::GetDeviceCapabilities, appxpackaging/IAppxManifestReader::GetDeviceCapabilities, appxpkg.iappxmanifestreader_getdevicecapabilities
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxManifestReader.GetDeviceCapabilities
 dev_langs:

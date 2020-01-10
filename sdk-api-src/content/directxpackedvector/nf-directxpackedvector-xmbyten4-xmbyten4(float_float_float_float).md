@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMBYTEN4.#ctor(float,float,float,float)
 ms.date: 12/05/2018
 ms.keywords: XMBYTEN4, XMBYTEN4 constructor [DirectX Math Support APIs], XMBYTEN4 constructor [DirectX Math Support APIs],XMBYTEN4 structure, XMBYTEN4 structure [DirectX Math Support APIs],XMBYTEN4 constructor, XMBYTEN4.XMBYTEN4, XMBYTEN4.XMBYTEN4(float,float,float,float), XMBYTEN4::XMBYTEN4, XMBYTEN4::XMBYTEN4(float,float,float,float), dxmath.xmbyten4_ctor_4
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMBYTEN4.XMBYTEN4
 dev_langs:

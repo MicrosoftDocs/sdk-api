@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 0a214a11-776c-4ef6-af68-a141398f853c
 ms.date: 12/05/2018
 ms.keywords: CreateObjrefMoniker, CreateObjrefMoniker function [COM], _com_CreateObjrefMoniker, com.createobjrefmoniker, objbase/CreateObjrefMoniker
-ms.topic: function
 f1_keywords:
 - objbase/CreateObjrefMoniker
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: d1d9b218-e376-4c26-a1c0-d06537492622
 ms.date: 12/05/2018
 ms.keywords: MprAdminConnectionClearStats, MprAdminConnectionClearStats function [RAS], _mpr_mpradminconnectionclearstats, mprapi/MprAdminConnectionClearStats, rras.mpradminconnectionclearstats
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminConnectionClearStats
 dev_langs:

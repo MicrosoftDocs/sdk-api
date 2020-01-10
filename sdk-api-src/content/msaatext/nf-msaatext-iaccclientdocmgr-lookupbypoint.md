@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 6de40049-3c61-458c-b7e0-c4b416780581
 ms.date: 12/05/2018
 ms.keywords: IAccClientDocMgr interface [Windows Accessibility],LookupByPoint method, IAccClientDocMgr.LookupByPoint, IAccClientDocMgr::LookupByPoint, LookupByPoint, LookupByPoint method [Windows Accessibility], LookupByPoint method [Windows Accessibility],IAccClientDocMgr interface, _msaa_IAccClientDocMgr_LookupByPoint, msaa.iaccclientdocmgr_iaccclientdocmgr__lookupbypoint, msaatext/IAccClientDocMgr::LookupByPoint, winauto.iaccclientdocmgr_iaccclientdocmgr__lookupbypoint
-ms.topic: method
 f1_keywords:
 - msaatext/IAccClientDocMgr.LookupByPoint
 dev_langs:

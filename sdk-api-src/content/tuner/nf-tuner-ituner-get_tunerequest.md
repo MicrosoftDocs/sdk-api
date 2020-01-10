@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 45967073-2e09-4490-967f-4ed3c9ed1d7e
 ms.date: 12/05/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],get_TuneRequest method, ITuner.get_TuneRequest, ITuner::get_TuneRequest, ITunerget_TuneRequest, get_TuneRequest, get_TuneRequest method [Microsoft TV Technologies], get_TuneRequest method [Microsoft TV Technologies],ITuner interface, mstv.ituner_get_tunerequest, tuner/ITuner::get_TuneRequest
-ms.topic: method
 f1_keywords:
 - tuner/ITuner.get_TuneRequest
 dev_langs:

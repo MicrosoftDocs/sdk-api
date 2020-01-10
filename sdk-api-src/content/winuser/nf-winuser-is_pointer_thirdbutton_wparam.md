@@ -7,7 +7,6 @@ tech.root: InputMsg
 ms.assetid: 0956F801-AB61-4B8A-B893-13862A1FC3F3
 ms.date: 12/05/2018
 ms.keywords: IS_POINTER_THIRDBUTTON_WPARAM, IS_POINTER_THIRDBUTTON_WPARAM macro [Input Messages and Notifications], inputmsg.is_pointer_thirdbutton_wparam, winuser/IS_POINTER_THIRDBUTTON_WPARAM
-ms.topic: macro
 f1_keywords:
 - winuser/IS_POINTER_SECONDBUTTON_WPARAM
 dev_langs:

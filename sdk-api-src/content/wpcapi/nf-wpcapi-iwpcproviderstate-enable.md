@@ -7,7 +7,6 @@ tech.root: parcon
 ms.assetid: 6714702d-e623-43f8-9a4e-dd1b3939d011
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method, Enable method,IWPCProviderState interface, IWPCProviderState interface,Enable method, IWPCProviderState.Enable, IWPCProviderState::Enable, parcon.iwpcproviderstate_enable, wpcapi/IWPCProviderState::Enable
-ms.topic: method
 f1_keywords:
 - wpcapi/IWPCProviderState.Enable
 dev_langs:

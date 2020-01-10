@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 4ad17f03-a353-4ac5-9f07-b5dc7c3b530f
 ms.date: 12/05/2018
 ms.keywords: GetFrequency, GetFrequency method [Core Audio], GetFrequency method [Core Audio],IAudioClock interface, IAudioClock interface [Core Audio],GetFrequency method, IAudioClock.GetFrequency, IAudioClock::GetFrequency, IAudioClockGetFrequency, audioclient/IAudioClock::GetFrequency, coreaudio.iaudioclock_getfrequency
-ms.topic: method
 f1_keywords:
 - audioclient/IAudioClock.GetFrequency
 dev_langs:

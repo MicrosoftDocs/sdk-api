@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 227c5d8e-fbaf-4bf8-a8c8-954e14e51a24
 ms.date: 12/05/2018
 ms.keywords: GetTCRMode, GetTCRMode method [DirectShow], GetTCRMode method [DirectShow],IAMTimecodeReader interface, IAMTimecodeReader interface [DirectShow],GetTCRMode method, IAMTimecodeReader.GetTCRMode, IAMTimecodeReader::GetTCRMode, IAMTimecodeReaderGetTCRMode, dshow.iamtimecodereader_gettcrmode, strmif/IAMTimecodeReader::GetTCRMode
-ms.topic: method
 f1_keywords:
 - strmif/IAMTimecodeReader.GetTCRMode
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\getlastpoint.htm
 ms.date: 12/05/2018
 ms.keywords: GetLastPoint, GetLastPoint method [GDI+], GetLastPoint method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],GetLastPoint method, GraphicsPath.GetLastPoint, GraphicsPath::GetLastPoint, _gdiplus_CLASS_GraphicsPath_GetLastPoint_lastPoint_, gdiplus._gdiplus_CLASS_GraphicsPath_GetLastPoint_lastPoint_
-ms.topic: method
 f1_keywords:
 - gdipluspath/GraphicsPath.GetLastPoint
 dev_langs:

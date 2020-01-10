@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 51bb3d2c-953d-446a-ad70-eb6cc8d4dbca
 ms.date: 12/05/2018
 ms.keywords: DhcpHandleOptionsHook, DhcpHandleOptionsHook callback function [DHCP], LPDHCP_HANDLE_OPTIONS, LPDHCP_HANDLE_OPTIONS callback, _dhcp_dhcphandleoptionshook, dhcp.dhcphandleoptionshook, dhcpssdk/DhcpHandleOptionsHook
-ms.topic: callback
 f1_keywords:
 - dhcpssdk/DhcpHandleOptionsHook
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4bb0772a-a863-49eb-a262-755d0ea3ea86
 ms.date: 12/05/2018
 ms.keywords: EnumReady, EnumReady method [Windows Shell], EnumReady method [Windows Shell],IEnumReadyCallback interface, IEnumReadyCallback interface [Windows Shell],EnumReady method, IEnumReadyCallback.EnumReady, IEnumReadyCallback::EnumReady, _shell_IEnumReadyCallback_EnumReady, shell.IEnumReadyCallback_EnumReady, shobjidl/IEnumReadyCallback::EnumReady
-ms.topic: method
 f1_keywords:
 - shobjidl/IEnumReadyCallback.EnumReady
 dev_langs:

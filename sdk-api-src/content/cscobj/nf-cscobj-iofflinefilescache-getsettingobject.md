@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: 17b6572d-f05e-4f0e-a247-89acd2963d6b
 ms.date: 12/05/2018
 ms.keywords: GetSettingObject, GetSettingObject method [Offline Files], GetSettingObject method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],GetSettingObject method, IOfflineFilesCache.GetSettingObject, IOfflineFilesCache::GetSettingObject, cscobj/IOfflineFilesCache::GetSettingObject, of.iofflinefilescache_getsettingobject
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesCache.GetSettingObject
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 80e05f95-d57f-40a4-a56c-bbadcfaa144e
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_FILETIME_PROPERTY, PRESUTIL_GET_FILETIME_PROPERTY function [Failover Cluster], ResUtilGetFileTimeProperty, ResUtilGetFileTimeProperty function [Failover Cluster], mscs.resutilgetfiletimeproperty, resapi/PRESUTIL_GET_FILETIME_PROPERTY, resapi/ResUtilGetFileTimeProperty
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilGetFileTimeProperty
 dev_langs:

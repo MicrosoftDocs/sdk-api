@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 239dbc6f-c3fa-4f97-aa9a-4993fe726a98
 ms.date: 12/05/2018
 ms.keywords: PROV_ENUMALGS_EX, PROV_ENUMALGS_EX structure [Security], _crypto2_prov_enumalgs_ex, security.prov_enumalgs_ex, wincrypt/PROV_ENUMALGS_EX
-ms.topic: struct
 f1_keywords:
 - wincrypt/PROV_ENUMALGS_EX
 dev_langs:

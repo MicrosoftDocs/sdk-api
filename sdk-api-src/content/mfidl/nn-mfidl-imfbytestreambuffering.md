@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: bbf9cdb1-5ec7-498a-aa59-85c24779547e
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamBuffering, IMFByteStreamBuffering interface [Media Foundation], IMFByteStreamBuffering interface [Media Foundation],described, bbf9cdb1-5ec7-498a-aa59-85c24779547e, mf.imfbytestreambuffering, mfidl/IMFByteStreamBuffering
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFByteStreamBuffering
 dev_langs:

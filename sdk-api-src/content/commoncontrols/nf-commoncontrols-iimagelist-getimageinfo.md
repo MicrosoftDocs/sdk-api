@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getimageinfo.htm
 ms.date: 12/05/2018
 ms.keywords: GetImageInfo, GetImageInfo method [Windows Controls], GetImageInfo method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetImageInfo method, IImageList.GetImageInfo, IImageList::GetImageInfo, comctl_IImageList_GetImageInfo, comctl_IImageList_GetImageInfo_cpp, commoncontrols/IImageList::GetImageInfo, controls.IImageList_GetImageInfo, controls.comctl_IImageList_GetImageInfo
-ms.topic: method
 f1_keywords:
 - commoncontrols/IImageList.GetImageInfo
 dev_langs:

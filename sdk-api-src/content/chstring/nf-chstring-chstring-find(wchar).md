@@ -5,7 +5,6 @@ description:
 ms.assetid: 
 ms.date: 05/13/2019
 ms.keywords: CHString::Find
-ms.topic: language-reference
 f1_keywords:
 - chstring/CHString::Find
 dev_langs:

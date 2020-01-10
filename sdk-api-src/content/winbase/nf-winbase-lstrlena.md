@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrlen.htm
 ms.date: 12/05/2018
 ms.keywords: _win32_lstrlen, _win32_lstrlen_cpp, lstrlen, lstrlen function [Menus and Other Resources], lstrlenA, lstrlenW, menurc.lstrlen, winbase/lstrlen, winbase/lstrlenA, winbase/lstrlenW, winui._win32_lstrlen
-ms.topic: function
 f1_keywords:
 - winbase/lstrlen
 dev_langs:

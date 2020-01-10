@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 18cd145d-e434-433a-ab10-91bf5b060c21
 ms.date: 12/05/2018
 ms.keywords: _tapi2_lineinitializeex, lineInitializeEx, lineInitializeEx function [TAPI 2.2], lineInitializeExA, lineInitializeExW, tapi/lineInitializeEx, tapi/lineInitializeExA, tapi/lineInitializeExW, tapi2.lineinitializeex
-ms.topic: function
 f1_keywords:
 - tapi/lineInitializeEx
 dev_langs:

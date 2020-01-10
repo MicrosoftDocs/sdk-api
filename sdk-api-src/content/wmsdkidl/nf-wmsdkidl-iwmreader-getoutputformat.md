@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: e73d13b9-3fca-4de1-b89d-5cacc6311cd3
 ms.date: 12/05/2018
 ms.keywords: GetOutputFormat, GetOutputFormat method [windows Media Format], GetOutputFormat method [windows Media Format],IWMReader interface, IWMReader interface [windows Media Format],GetOutputFormat method, IWMReader.GetOutputFormat, IWMReader::GetOutputFormat, IWMReaderGetOutputFormat, wmformat.iwmreader_getoutputformat, wmsdkidl/IWMReader::GetOutputFormat
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReader.GetOutputFormat
 dev_langs:

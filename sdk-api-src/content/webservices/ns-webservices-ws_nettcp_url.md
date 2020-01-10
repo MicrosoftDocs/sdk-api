@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 62079e59-01c8-48fb-932a-ca01cc7b86ec
 ms.date: 12/05/2018
 ms.keywords: WS_NETTCP_URL, WS_NETTCP_URL structure [Web Services for Windows], webservices/WS_NETTCP_URL, wsw.ws_nettcp_url
-ms.topic: struct
 f1_keywords:
 - webservices/WS_NETTCP_URL
 dev_langs:

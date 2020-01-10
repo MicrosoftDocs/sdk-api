@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5434c744-484b-4c34-9a76-dddbcb81eb29
 ms.date: 12/05/2018
 ms.keywords: SHGetKnownFolderPath, SHGetKnownFolderPath function [Windows Shell], _shell_SHGetKnownFolderPath, shell.SHGetKnownFolderPath, shlobj_core/SHGetKnownFolderPath
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHGetKnownFolderPath
 dev_langs:

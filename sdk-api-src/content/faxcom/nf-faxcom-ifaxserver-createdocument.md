@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0cfo.htm
 ms.date: 12/05/2018
 ms.keywords: CreateDocument, CreateDocument method [Fax Service], CreateDocument method [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],CreateDocument method, IFaxServer.CreateDocument, IFaxServer::CreateDocument, _mfax_ifaxserver_createdocument, fax._mfax_ifaxserver_client_mfax_ifaxserver_createdocument_cpp, fax._mfax_ifaxserver_createdocument, faxcom/IFaxServer::CreateDocument
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxServer.CreateDocument
 dev_langs:

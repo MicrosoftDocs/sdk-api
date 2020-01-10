@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: e5cde16b-da06-4063-9337-c3cc6b6c285b
 ms.date: 12/05/2018
 ms.keywords: '*PCLUSTER_VALIDATE_DIRECTORY, CLUSTER_VALIDATE_DIRECTORY, CLUSTER_VALIDATE_DIRECTORY structure [Failover Cluster], PCLUSTER_VALIDATE_DIRECTORY, PCLUSTER_VALIDATE_DIRECTORY structure pointer [Failover Cluster], clusapi/CLUSTER_VALIDATE_DIRECTORY, clusapi/PCLUSTER_VALIDATE_DIRECTORY, mscs.cluster_validate_directory'
-ms.topic: struct
 f1_keywords:
 - clusapi/CLUSTER_VALIDATE_DIRECTORY
 dev_langs:

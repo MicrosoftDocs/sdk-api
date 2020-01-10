@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 05e7930f-e5c1-42e7-a693-f9852cda9494
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpSetOptionValueV5, DhcpSetOptionValueV5 function [DHCP], dhcp.dhcpsetoptionvaluev5, dhcpsapi/DhcpSetOptionValueV5
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpSetOptionValueV5
 dev_langs:

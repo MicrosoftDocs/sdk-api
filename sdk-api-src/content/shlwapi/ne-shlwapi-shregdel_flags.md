@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 90a8bf22-f62b-4027-8219-7a5ead6577da
 ms.date: 12/05/2018
 ms.keywords: SHREGDEL_BOTH, SHREGDEL_DEFAULT, SHREGDEL_FLAGS, SHREGDEL_FLAGS enumeration [Windows Shell], SHREGDEL_HKCU, SHREGDEL_HKLM, _win32_SHREGDEL_FLAGS, shell.SHREGDEL_FLAGS, shlwapi/SHREGDEL_BOTH, shlwapi/SHREGDEL_DEFAULT, shlwapi/SHREGDEL_FLAGS, shlwapi/SHREGDEL_HKCU, shlwapi/SHREGDEL_HKLM
-ms.topic: enum
 f1_keywords:
 - shlwapi/SHREGDEL_FLAGS
 dev_langs:

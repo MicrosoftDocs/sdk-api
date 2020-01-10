@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 2cec0753-20ec-4df4-9a74-c65bfed28070
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyCondition interface [File Server Resource Manager],Type property, IFsrmPropertyCondition.Type, IFsrmPropertyCondition.get_Type, IFsrmPropertyCondition::Type, IFsrmPropertyCondition::get_Type, IFsrmPropertyCondition::put_Type, Type property [File Server Resource Manager], Type property [File Server Resource Manager],IFsrmPropertyCondition interface, fs.ifsrmpropertycondition_type, fsrm.ifsrmpropertycondition_type, fsrmreports/IFsrmPropertyCondition::Type, fsrmreports/IFsrmPropertyCondition::get_Type, fsrmreports/IFsrmPropertyCondition::put_Type, get_Type
-ms.topic: method
 f1_keywords:
 - fsrmreports/IFsrmPropertyCondition.Type
 dev_langs:

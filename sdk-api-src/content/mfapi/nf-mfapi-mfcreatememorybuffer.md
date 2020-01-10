@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 1f79d057-7ef7-4662-9f82-ceadc23276f0
 ms.date: 12/05/2018
 ms.keywords: 1f79d057-7ef7-4662-9f82-ceadc23276f0, MFCreateMemoryBuffer, MFCreateMemoryBuffer function [Media Foundation], mf.mfcreatememorybuffer, mfapi/MFCreateMemoryBuffer
-ms.topic: function
 f1_keywords:
 - mfapi/MFCreateMemoryBuffer
 dev_langs:

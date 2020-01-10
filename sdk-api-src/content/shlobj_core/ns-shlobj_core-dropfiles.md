@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e1f80529-2151-4ff6-95e0-afff67f2f117
 ms.date: 12/05/2018
 ms.keywords: '*LPDROPFILES, DROPFILES, DROPFILES structure [Windows Shell], LPDROPFILES, LPDROPFILES structure pointer [Windows Shell], _DROPFILES, _win32_DROPFILES, shell.DROPFILES, shlobj_core/DROPFILES, shlobj_core/LPDROPFILES'
-ms.topic: struct
 f1_keywords:
 - shlobj_core/DROPFILES
 dev_langs:

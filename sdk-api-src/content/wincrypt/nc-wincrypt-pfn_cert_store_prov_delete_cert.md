@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 0ae64bbc-05f6-4fc2-a05d-895654b4b97d
 ms.date: 12/05/2018
 ms.keywords: CertStoreProvDeleteCertCallback, PFN_CERT_STORE_PROV_DELETE_CERT, PFN_CERT_STORE_PROV_DELETE_CERT callback, PFN_CERT_STORE_PROV_DELETE_CERT callback function [Security], _crypto2_certstoreprovdeletecertcallback, security.certstoreprovdeletecertcallback, wincrypt/PFN_CERT_STORE_PROV_DELETE_CERT
-ms.topic: callback
 f1_keywords:
 - wincrypt/PFN_CERT_STORE_PROV_DELETE_CERT
 dev_langs:

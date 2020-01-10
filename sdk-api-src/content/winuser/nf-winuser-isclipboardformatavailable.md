@@ -7,7 +7,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\isclipboardformatavailable.htm
 ms.date: 12/05/2018
 ms.keywords: IsClipboardFormatAvailable, IsClipboardFormatAvailable function [Data Exchange], _win32_IsClipboardFormatAvailable, _win32_isclipboardformatavailable_cpp, dataxchg.isclipboardformatavailable, winui._win32_isclipboardformatavailable, winuser/IsClipboardFormatAvailable
-ms.topic: function
 f1_keywords:
 - winuser/IsClipboardFormatAvailable
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: a1ba9cf2-b613-4621-a4ac-39808b4bfd8e
 ms.date: 12/05/2018
 ms.keywords: MI_Filter_GetExpression, MI_Filter_GetExpression function [Windows Management Infrastructure (MI)], mi/MI_Filter_GetExpression, wmi_v2.mi_filter_getexpression
-ms.topic: function
 f1_keywords:
 - mi/MI_Filter_GetExpression
 dev_langs:

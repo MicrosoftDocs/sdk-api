@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 7d05055b-a596-40b0-b289-31641957a72f
 ms.date: 12/05/2018
 ms.keywords: ITraceDataCollector interface [PLA],PreallocateFile property, ITraceDataCollector.PreallocateFile, ITraceDataCollector.put_PreallocateFile, ITraceDataCollector::PreallocateFile, ITraceDataCollector::get_PreallocateFile, ITraceDataCollector::put_PreallocateFile, PreallocateFile property [PLA], PreallocateFile property [PLA],ITraceDataCollector interface, base.itracedatacollector_preallocatefile, pla.itracedatacollector_preallocatefile, pla/ITraceDataCollector::PreallocateFile, pla/ITraceDataCollector::get_PreallocateFile, pla/ITraceDataCollector::put_PreallocateFile, put_PreallocateFile
-ms.topic: method
 f1_keywords:
 - pla/ITraceDataCollector.PreallocateFile
 dev_langs:

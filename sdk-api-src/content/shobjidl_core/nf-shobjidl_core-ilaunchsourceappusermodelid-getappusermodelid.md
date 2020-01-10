@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1B5E57E2-6870-4A52-BA61-3113385F03F5
 ms.date: 12/05/2018
 ms.keywords: GetAppUserModelId, GetAppUserModelId method [Windows Shell], GetAppUserModelId method [Windows Shell],ILaunchSourceAppUserModelId interface, ILaunchSourceAppUserModelId interface [Windows Shell],GetAppUserModelId method, ILaunchSourceAppUserModelId.GetAppUserModelId, ILaunchSourceAppUserModelId::GetAppUserModelId, shell.ILaunchSourceAppUserModelId_GetAppUserModelId, shobjidl_core/ILaunchSourceAppUserModelId::GetAppUserModelId
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ILaunchSourceAppUserModelId.GetAppUserModelId
 dev_langs:

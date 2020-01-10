@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 8143d11c-3740-4ffc-88f0-6df779c50521
 ms.date: 12/05/2018
 ms.keywords: GetDisplayInfo, GetDisplayInfo method [MMC], GetDisplayInfo method [MMC],IComponent interface, IComponent interface [MMC],GetDisplayInfo method, IComponent.GetDisplayInfo, IComponent::GetDisplayInfo, _slate_icomponent_getdisplayinfo, mmc.icomponent_getdisplayinfo, mmc/IComponent::GetDisplayInfo
-ms.topic: method
 f1_keywords:
 - mmc/IComponent.GetDisplayInfo
 dev_langs:

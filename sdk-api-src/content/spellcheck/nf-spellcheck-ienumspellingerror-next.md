@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: c0fba585-2511-4162-8232-4e0510dc9261
 ms.date: 12/05/2018
 ms.keywords: IEnumSpellingError interface [Internationalization for Windows Applications],Next method, IEnumSpellingError.Next, IEnumSpellingError::Next, Next, Next method [Internationalization for Windows Applications], Next method [Internationalization for Windows Applications],IEnumSpellingError interface, intl.ienumspellingerror_next, spellcheck/IEnumSpellingError::Next
-ms.topic: method
 f1_keywords:
 - spellcheck/IEnumSpellingError.Next
 dev_langs:

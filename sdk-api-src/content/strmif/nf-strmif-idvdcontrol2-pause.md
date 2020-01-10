@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 32ef572a-56f5-4aa4-b994-08f86a1f17ec
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],Pause method, IDvdControl2.Pause, IDvdControl2::Pause, IDvdControl2Pause, Pause, Pause method [DirectShow], Pause method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_pause, strmif/IDvdControl2::Pause
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl2.Pause
 dev_langs:

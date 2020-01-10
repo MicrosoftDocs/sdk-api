@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 872daa72-c6ff-4c6d-a870-c32e3688eb13
 ms.date: 12/05/2018
 ms.keywords: IWbemProviderIdentity, IWbemProviderIdentity interface [Windows Management Instrumentation], IWbemProviderIdentity interface [Windows Management Instrumentation],described, _hmm_iwbemprovideridentity, wbemprov/IWbemProviderIdentity, wmi.iwbemprovideridentity
-ms.topic: interface
 f1_keywords:
 - wbemprov/IWbemProviderIdentity
 dev_langs:

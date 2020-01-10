@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 63d3721a-41e6-46cd-a95a-ac3a82a422f7
 ms.date: 12/05/2018
 ms.keywords: MCIWndCanConfig, MCIWndCanConfig macro [Windows Multimedia], _win32_MCIWndCanConfig, multimedia.mciwndcanconfig, vfw/MCIWndCanConfig
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndCanConfig
 dev_langs:

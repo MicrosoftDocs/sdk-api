@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: B729FEF6-44AA-4F1B-A73B-000C3691F232
 ms.date: 12/05/2018
 ms.keywords: CSGetConstantBuffers1, CSGetConstantBuffers1 method [Direct3D 11], CSGetConstantBuffers1 method [Direct3D 11],ID3D11DeviceContext1 interface, ID3D11DeviceContext1 interface [Direct3D 11],CSGetConstantBuffers1 method, ID3D11DeviceContext1.CSGetConstantBuffers1, ID3D11DeviceContext1::CSGetConstantBuffers1, d3d11_1/ID3D11DeviceContext1::CSGetConstantBuffers1, direct3d11.id3d11devicecontext1_csgetconstantbuffers1
-ms.topic: method
 f1_keywords:
 - d3d11_1/ID3D11DeviceContext1.CSGetConstantBuffers1
 dev_langs:

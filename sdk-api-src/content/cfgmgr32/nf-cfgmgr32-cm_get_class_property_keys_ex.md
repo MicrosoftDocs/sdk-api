@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 78F3E4EE-BF06-464B-A570-021F9545D9AB
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Class_Property_Keys_Ex, CM_Get_Class_Property_Keys_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Class_Property_Keys_Ex, devinst.cm_get_class_property_keys_ex
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Get_Class_Property_Keys_Ex
 dev_langs:

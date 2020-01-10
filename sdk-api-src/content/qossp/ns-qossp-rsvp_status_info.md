@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: ffb271e5-cdfe-4ac9-929e-9a0a81894238
 ms.date: 12/05/2018
 ms.keywords: '*LPRSVP_STATUS_INFO, LPRSVP_STATUS_INFO, LPRSVP_STATUS_INFO structure pointer [QOS], RSVP_STATUS_INFO, RSVP_STATUS_INFO structure [QOS], _gqos_rsvp_status_info, qos.rsvp_status_info, qossp/LPRSVP_STATUS_INFO, qossp/RSVP_STATUS_INFO'
-ms.topic: struct
 f1_keywords:
 - qossp/RSVP_STATUS_INFO
 dev_langs:

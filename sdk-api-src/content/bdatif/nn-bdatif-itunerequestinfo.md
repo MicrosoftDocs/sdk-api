@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: e5cb1a15-29c4-4e0f-aed2-eafe12ea007a
 ms.date: 12/05/2018
 ms.keywords: ITuneRequestInfo, ITuneRequestInfo interface [Microsoft TV Technologies], ITuneRequestInfo interface [Microsoft TV Technologies],described, ITuneRequestInfoInterface, bdatif/ITuneRequestInfo, mstv.itunerequestinfo
-ms.topic: interface
 f1_keywords:
 - bdatif/ITuneRequestInfo
 dev_langs:

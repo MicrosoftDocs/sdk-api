@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 872f0ab0-0cac-43e6-b4d6-ad62bde707ea
 ms.date: 12/05/2018
 ms.keywords: FwpmConnectionGetSecurityInfo0, FwpmConnectionGetSecurityInfo0 function [Filtering], fwp.fwpmconnectiongetsecurityinfo0, fwpmu/FwpmConnectionGetSecurityInfo0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmConnectionGetSecurityInfo0
 dev_langs:

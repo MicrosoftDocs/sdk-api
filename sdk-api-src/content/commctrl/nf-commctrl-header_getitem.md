@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getitem.htm
 ms.date: 12/05/2018
 ms.keywords: Header_GetItem, Header_GetItem macro [Windows Controls], _win32_Header_GetItem, _win32_Header_GetItem_cpp, commctrl/Header_GetItem, controls.Header_GetItem, controls._win32_Header_GetItem
-ms.topic: macro
 f1_keywords:
 - commctrl/Header_GetItem
 dev_langs:

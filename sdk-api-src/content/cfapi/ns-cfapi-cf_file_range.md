@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: DAE43446-725E-490B-AE1B-EA6CB31F4358
 ms.date: 12/05/2018
 ms.keywords: CF_FILE_RANGE, CF_FILE_RANGE structure, cfapi/CF_FILE_RANGE, cloudApi.cf_file_range
-ms.topic: struct
 f1_keywords:
 - cfapi/CF_FILE_RANGE
 dev_langs:

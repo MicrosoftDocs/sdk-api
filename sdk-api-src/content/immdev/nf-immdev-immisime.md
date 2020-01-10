@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 87bd38ce-c82c-4a65-8157-fcd69bc79566
 ms.date: 12/05/2018
 ms.keywords: ImmIsIME, ImmIsIME function [Internationalization for Windows Applications], _win32_ImmIsIME, imm/ImmIsIME, intl.immisime
-ms.topic: function
 f1_keywords:
 - immdev/ImmIsIME
 dev_langs:

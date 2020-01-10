@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 54b78f1d-53d1-4cb8-99ba-51c3d6e6de0c
 ms.date: 12/05/2018
 ms.keywords: 1, NetAccessAdd, NetAccessAdd function [Network Management], _win32_netaccessadd, lmaccess/NetAccessAdd, netmgmt.netaccessadd
-ms.topic: function
 f1_keywords:
 - lmaccess/NetAccessAdd
 dev_langs:

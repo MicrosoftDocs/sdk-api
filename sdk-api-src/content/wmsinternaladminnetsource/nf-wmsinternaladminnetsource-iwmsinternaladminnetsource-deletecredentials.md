@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 16144c10-419c-4e6a-bc96-2f429c793257
 ms.date: 12/05/2018
 ms.keywords: DeleteCredentials, DeleteCredentials method [windows Media Format], DeleteCredentials method [windows Media Format],IWMSInternalAdminNetSource interface, IWMSInternalAdminNetSource interface [windows Media Format],DeleteCredentials method, IWMSInternalAdminNetSource.DeleteCredentials, IWMSInternalAdminNetSource::DeleteCredentials, IWMSInternalAdminNetSourceDeleteCredentials, wmformat.iwmsinternaladminnetsource_deletecredentials, wmsinternaladminnetsource/IWMSInternalAdminNetSource::DeleteCredentials
-ms.topic: method
 f1_keywords:
 - wmsinternaladminnetsource/IWMSInternalAdminNetSource.DeleteCredentials
 dev_langs:

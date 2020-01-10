@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizeclass\sizeconstructors\size_20.htm
 ms.date: 12/05/2018
 ms.keywords: Size, Size class [GDI+],Size constructor, Size constructor [GDI+], Size constructor [GDI+],Size class, Size.Size, Size.Size(), Size::Size, _gdiplus_CLASS_Size_Size_, gdiplus._gdiplus_CLASS_Size_Size_
-ms.topic: method
 f1_keywords:
 - gdiplustypes/Size.Size
 dev_langs:

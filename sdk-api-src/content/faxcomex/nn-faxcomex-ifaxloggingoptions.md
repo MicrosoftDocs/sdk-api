@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_70c3_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxLoggingOptions, IFaxLoggingOptions interface [Fax Service], IFaxLoggingOptions interface [Fax Service],described, _mfax_faxloggingoptions_cpp, fax._mfax_faxloggingoptions_cpp, faxcomex/IFaxLoggingOptions
-ms.topic: interface
 f1_keywords:
 - faxcomex/IFaxLoggingOptions
 dev_langs:

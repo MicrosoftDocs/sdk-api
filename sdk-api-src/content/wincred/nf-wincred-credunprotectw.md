@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 7a22fb2b-edfc-45f2-b2d2-729f3761584d
 ms.date: 12/05/2018
 ms.keywords: CredUnprotect, CredUnprotect function [Security], CredUnprotectA, CredUnprotectW, security.credunprotect, wincred/CredUnprotect, wincred/CredUnprotectA, wincred/CredUnprotectW
-ms.topic: function
 f1_keywords:
 - wincred/CredUnprotect
 dev_langs:

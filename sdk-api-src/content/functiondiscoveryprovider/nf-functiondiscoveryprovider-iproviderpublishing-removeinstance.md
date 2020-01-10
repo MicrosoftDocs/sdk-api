@@ -7,7 +7,6 @@ tech.root: FunDisc
 ms.assetid: 7b4f6122-944e-4fe9-be95-dd09ae1542f1
 ms.date: 12/05/2018
 ms.keywords: IProviderPublishing interface,RemoveInstance method, IProviderPublishing.RemoveInstance, IProviderPublishing::RemoveInstance, RemoveInstance, RemoveInstance method, RemoveInstance method,IProviderPublishing interface, functiondiscoveryprovider/IProviderPublishing::RemoveInstance, ncd.iproviderpublishing_removeinstance_method
-ms.topic: method
 f1_keywords:
 - functiondiscoveryprovider/IProviderPublishing.RemoveInstance
 dev_langs:

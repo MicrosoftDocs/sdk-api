@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 811863e7-25d2-48d0-bf97-61b49a224c98
 ms.date: 12/05/2018
 ms.keywords: IDsAdminCreateObj interface [Active Directory],Initialize method, IDsAdminCreateObj.Initialize, IDsAdminCreateObj::Initialize, Initialize, Initialize method [Active Directory], Initialize method [Active Directory],IDsAdminCreateObj interface, _glines_idsadmincreateobj_initialize, ad.idsadmincreateobj__initialize, ad.idsadmincreateobj_initialize, dsadmin/IDsAdminCreateObj::Initialize
-ms.topic: method
 f1_keywords:
 - dsadmin/IDsAdminCreateObj.Initialize
 dev_langs:

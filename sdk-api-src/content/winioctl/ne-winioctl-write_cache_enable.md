@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 3ed8bc79-d8f9-4a57-a37c-46202d639a63
 ms.date: 12/05/2018
 ms.keywords: WRITE_CACHE_ENABLE, WRITE_CACHE_ENABLE enumeration [Files], WriteCacheDisabled, WriteCacheEnableUnknown, WriteCacheEnabled, fs.write_cache_enable, winioctl/WRITE_CACHE_ENABLE, winioctl/WriteCacheDisabled, winioctl/WriteCacheEnableUnknown, winioctl/WriteCacheEnabled
-ms.topic: enum
 f1_keywords:
 - winioctl/WRITE_CACHE_ENABLE
 dev_langs:

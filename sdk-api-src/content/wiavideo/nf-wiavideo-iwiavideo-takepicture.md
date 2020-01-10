@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\takepicture.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaVideo interface [WIA],TakePicture method, IWiaVideo.TakePicture, IWiaVideo::TakePicture, TakePicture, TakePicture method [WIA], TakePicture method [WIA],IWiaVideo interface, _wia_IWiaVideo_TakePicture, wia._wia_IWiaVideo_TakePicture, wiavideo/IWiaVideo::TakePicture
-ms.topic: method
 f1_keywords:
 - wiavideo/IWiaVideo.TakePicture
 dev_langs:

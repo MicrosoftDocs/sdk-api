@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: eb7d8cd1-4bdb-4584-b9b9-c3667abf9bdb
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextSubscriptionsGet0, IPsecSaContextSubscriptionsGet0 function [Filtering], fwp.ipsecsacontextsubscriptionsget0, fwpmu/IPsecSaContextSubscriptionsGet0
-ms.topic: function
 f1_keywords:
 - fwpmu/IPsecSaContextSubscriptionsGet0
 dev_langs:

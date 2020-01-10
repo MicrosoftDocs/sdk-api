@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 4A0DC266-FCF0-4ECD-AC78-CF429839486D
 ms.date: 12/05/2018
 ms.keywords: IMFDXGIDeviceManager, IMFDXGIDeviceManager interface [Media Foundation], IMFDXGIDeviceManager interface [Media Foundation],described, mf.imfdxgidevicemanager, mfobjects/IMFDXGIDeviceManager
-ms.topic: interface
 f1_keywords:
 - mfobjects/IMFDXGIDeviceManager
 dev_langs:

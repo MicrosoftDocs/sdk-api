@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: d181c62b-e1a5-45ee-9ffd-85bb6be24892
 ms.date: 12/05/2018
 ms.keywords: CreateDocument, CreateDocument method [XPS Documents and Packaging], CreateDocument method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateDocument method, IXpsOMObjectFactory.CreateDocument, IXpsOMObjectFactory::CreateDocument, xps.ixpsomobjectfactory_createdocument, xpsobjectmodel/IXpsOMObjectFactory::CreateDocument
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreateDocument
 dev_langs:

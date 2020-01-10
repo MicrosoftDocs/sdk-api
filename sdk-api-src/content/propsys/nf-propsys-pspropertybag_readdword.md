@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 31977E3F-FA2F-4c2d-8A95-6BF937EDC45C
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadDWORD, PSPropertyBag_ReadDWORD function [Windows Properties], properties.PSPropertyBag_ReadDWORD, propsys/PSPropertyBag_ReadDWORD, shell.PSPropertyBag_ReadDWORD, shell_PSPropertyBag_ReadDWORD
-ms.topic: function
 f1_keywords:
 - propsys/PSPropertyBag_ReadDWORD
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: MsChap
 ms.assetid: 6c154675-4c82-4305-8231-577f990eaeb1
 ms.date: 12/05/2018
 ms.keywords: MSChapSrvChangePassword, MSChapSrvChangePassword function [MS-CHAP], _mschap_mschapsrvchangepassword, mschap.mschapsrvchangepassword, mschapp/MSChapSrvChangePassword
-ms.topic: function
 f1_keywords:
 - mschapp/MSChapSrvChangePassword
 dev_langs:

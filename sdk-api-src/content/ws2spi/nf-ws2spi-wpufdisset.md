@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 87726b13-ede4-4c73-be98-4ad4180ea3e7
 ms.date: 12/05/2018
 ms.keywords: WPUFDIsSet, WPUFDIsSet function [Winsock], _win32_wpufdisset_2, winsock.wpufdisset_2, ws2spi/WPUFDIsSet
-ms.topic: function
 f1_keywords:
 - ws2spi/WPUFDIsSet
 dev_langs:

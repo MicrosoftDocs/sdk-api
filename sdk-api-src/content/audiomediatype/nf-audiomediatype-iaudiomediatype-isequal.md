@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: a8ab9ad3-251d-43ab-b099-793ffc22b45f
 ms.date: 12/05/2018
 ms.keywords: IAudioMediaType interface [Audio Devices],IsEqual method, IAudioMediaType.IsEqual, IAudioMediaType::IsEqual, IsEqual, IsEqual method [Audio Devices], IsEqual method [Audio Devices],IAudioMediaType interface, audio.iaudiomediatype_isequal, audio_syseffects_r_0b3614f0-18af-462e-9ab4-3e625bec54ab.xml, audiomediatype/IAudioMediaType::IsEqual
-ms.topic: method
 f1_keywords:
 - audiomediatype/IAudioMediaType.IsEqual
 dev_langs:

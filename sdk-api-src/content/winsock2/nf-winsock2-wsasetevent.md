@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 8a3f41fe-77da-4e4e-975d-00eec7c11446
 ms.date: 12/05/2018
 ms.keywords: WSASetEvent, WSASetEvent function [Winsock], _win32_wsasetevent_2, winsock.wsasetevent_2, winsock2/WSASetEvent
-ms.topic: function
 f1_keywords:
 - winsock2/WSASetEvent
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 52f73532-db69-4220-aed3-caedb671b935
 ms.date: 12/05/2018
 ms.keywords: VarCyMulI8, VarCyMulI8 function [Automation], _oa96_VarCyMulI8, automat.varcymuli8, oleauto/VarCyMulI8
-ms.topic: function
 f1_keywords:
 - oleauto/VarCyMulI8
 dev_langs:

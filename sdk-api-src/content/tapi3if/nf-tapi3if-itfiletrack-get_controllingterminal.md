@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: a3a2c5e7-0134-4dad-b192-7a6c71dabe54
 ms.date: 12/05/2018
 ms.keywords: ITFileTrack interface [TAPI 2.2],get_ControllingTerminal method, ITFileTrack.get_ControllingTerminal, ITFileTrack::get_ControllingTerminal, _tapi3_itfiletrack_get_controllingterminal, get_ControllingTerminal, get_ControllingTerminal method [TAPI 2.2], get_ControllingTerminal method [TAPI 2.2],ITFileTrack interface, tapi3.itfiletrack_get_controllingterminal, tapi3if/ITFileTrack::get_ControllingTerminal
-ms.topic: method
 f1_keywords:
 - tapi3if/ITFileTrack.get_ControllingTerminal
 dev_langs:

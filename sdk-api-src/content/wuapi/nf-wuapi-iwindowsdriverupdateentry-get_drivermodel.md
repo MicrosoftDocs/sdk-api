@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 9266e270-5fd9-4b2e-87bf-6da3c1216453
 ms.date: 12/05/2018
 ms.keywords: DriverModel property [Windows Update Agent], DriverModel property [Windows Update Agent],IWindowsDriverUpdateEntry interface, IWindowsDriverUpdateEntry interface [Windows Update Agent],DriverModel property, IWindowsDriverUpdateEntry.DriverModel, IWindowsDriverUpdateEntry.get_DriverModel, IWindowsDriverUpdateEntry::DriverModel, IWindowsDriverUpdateEntry::get_DriverModel, get_DriverModel, wua.iwindowsdriverupdateentry_drivermodel, wuapi/IWindowsDriverUpdateEntry::DriverModel, wuapi/IWindowsDriverUpdateEntry::get_DriverModel
-ms.topic: method
 f1_keywords:
 - wuapi/IWindowsDriverUpdateEntry.DriverModel
 dev_langs:

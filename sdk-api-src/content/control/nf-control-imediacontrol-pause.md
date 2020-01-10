@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: cfb875b7-cc4e-4ae2-8379-964d0e3ceb04
 ms.date: 12/05/2018
 ms.keywords: IMediaControl interface [DirectShow],Pause method, IMediaControl.Pause, IMediaControl::Pause, IMediaControlPause, Pause, Pause method [DirectShow], Pause method [DirectShow],IMediaControl interface, control/IMediaControl::Pause, dshow.imediacontrol_pause
-ms.topic: method
 f1_keywords:
 - control/IMediaControl.Pause
 dev_langs:

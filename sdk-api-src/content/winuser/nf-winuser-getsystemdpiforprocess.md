@@ -7,7 +7,6 @@ tech.root: hidpi
 ms.assetid: 94236ECF-E69A-4D77-AABA-D43FE8DF8203
 ms.date: 12/05/2018
 ms.keywords: GetSystemDpiForProcess, GetSystemDpiForProcess function [High DPI], hidpi.getsystemdpiforprocess, winuser/GetSystemDpiForProcess
-ms.topic: function
 f1_keywords:
 - winuser/GetSystemDpiForProcess
 dev_langs:

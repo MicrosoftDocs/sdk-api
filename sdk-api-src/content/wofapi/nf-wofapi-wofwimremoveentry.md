@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: B376EDF7-8C46-4C8B-900E-0DC79699EC1E
 ms.date: 12/05/2018
 ms.keywords: WofWimRemoveEntry, WofWimRemoveEntry function [Files], fs.wofwimremoveentry, wofapi/WofWimRemoveEntry
-ms.topic: function
 f1_keywords:
 - wofapi/WofWimRemoveEntry
 dev_langs:

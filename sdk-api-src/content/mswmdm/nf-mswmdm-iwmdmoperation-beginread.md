@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: e72caaac-8992-4f11-8020-0455b3d730ad
 ms.date: 12/05/2018
 ms.keywords: BeginRead, BeginRead method [windows Media Device Manager], BeginRead method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],BeginRead method, IWMDMOperation.BeginRead, IWMDMOperation::BeginRead, IWMDMOperationBeginRead, mswmdm/IWMDMOperation::BeginRead, wmdm.iwmdmoperation_beginread
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMOperation.BeginRead
 dev_langs:

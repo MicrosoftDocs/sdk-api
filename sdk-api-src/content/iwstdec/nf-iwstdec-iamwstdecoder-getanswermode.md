@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6251c9fa-1149-47ac-b776-7d10d153dde5
 ms.date: 12/05/2018
 ms.keywords: GetAnswerMode, GetAnswerMode method [DirectShow], GetAnswerMode method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetAnswerMode method, IAMWstDecoder.GetAnswerMode, IAMWstDecoder::GetAnswerMode, IAMWstDecoderGetAnswerMode, dshow.iamwstdecoder_getanswermode, iwstdec/IAMWstDecoder::GetAnswerMode
-ms.topic: method
 f1_keywords:
 - iwstdec/IAMWstDecoder.GetAnswerMode
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 39d6845e-8655-4f8f-be39-76d704fd1177
 ms.date: 12/05/2018
 ms.keywords: EVRFilterConfigPrefs, EVRFilterConfigPrefs enumeration [Media Foundation], EVRFilterConfigPrefs_EnableQoS, EVRFilterConfigPrefs_Mask, evr/EVRFilterConfigPrefs, evr/EVRFilterConfigPrefs_EnableQoS, evr/EVRFilterConfigPrefs_Mask, mf.evrfilterconfigprefs
-ms.topic: enum
 f1_keywords:
 - evr/EVRFilterConfigPrefs
 dev_langs:

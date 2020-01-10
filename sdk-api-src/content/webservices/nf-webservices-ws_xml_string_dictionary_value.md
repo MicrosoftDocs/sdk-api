@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 1e2045c0-11c5-4369-9b82-dc759eb1412e
 ms.date: 12/05/2018
 ms.keywords: WS_XML_STRING_DICTIONARY_VALUE, WS_XML_STRING_DICTIONARY_VALUE function [Web Services for Windows], webservices/WS_XML_STRING_DICTIONARY_VALUE, wsw.ws_xml_string_dictionary_value
-ms.topic: macro
 f1_keywords:
 - webservices/WS_XML_STRING_DICTIONARY_VALUE
 dev_langs:

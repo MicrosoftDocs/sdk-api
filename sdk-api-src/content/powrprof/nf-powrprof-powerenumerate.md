@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: 5b2c8263-d916-4909-be56-ec784537bdc3
 ms.date: 12/05/2018
 ms.keywords: ACCESS_INDIVIDUAL_SETTING, ACCESS_SCHEME, ACCESS_SUBGROUP, GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerEnumerate, PowerEnumerate function, base.powerenumerate, powrprof/PowerEnumerate
-ms.topic: function
 f1_keywords:
 - powrprof/PowerEnumerate
 dev_langs:

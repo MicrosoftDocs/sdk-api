@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: 55A20F07-0B3E-4C1D-9E59-288DAE08D134
 ms.date: 12/05/2018
 ms.keywords: CF_SET_IN_SYNC_FLAGS, CF_SET_IN_SYNC_FLAGS enumeration, CF_SET_IN_SYNC_FLAG_NONE, cfapi/CF_SET_IN_SYNC_FLAGS, cfapi/CF_SET_IN_SYNC_FLAG_NONE, cloudApi.cf_set_in_sync_flags
-ms.topic: enum
 f1_keywords:
 - cfapi/CF_SET_IN_SYNC_FLAGS
 dev_langs:

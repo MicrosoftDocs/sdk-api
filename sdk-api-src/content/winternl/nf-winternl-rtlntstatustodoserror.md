@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 4a28be1f-28b9-45a4-8ac7-58e43452558a
 ms.date: 12/05/2018
 ms.keywords: RtlNtStatusToDosError, RtlNtStatusToDosError function, base.rtlntstatustodoserror, winternl/RtlNtStatusToDosError
-ms.topic: function
 f1_keywords:
 - winternl/RtlNtStatusToDosError
 dev_langs:

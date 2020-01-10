@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 6436c049-d710-4208-882a-0c7e83b4a079
 ms.date: 12/05/2018
 ms.keywords: '*PCLIENT_DISPLAY, CLIENT_DISPLAY, CLIENT_DISPLAY structure [Remote Desktop Services], PCLIENT_DISPLAY, PCLIENT_DISPLAY structure pointer [Remote Desktop Services], sessdirpublictypes/CLIENT_DISPLAY, sessdirpublictypes/PCLIENT_DISPLAY, termserv.client_display'
-ms.topic: struct
 f1_keywords:
 - sessdirpublictypes/CLIENT_DISPLAY
 dev_langs:

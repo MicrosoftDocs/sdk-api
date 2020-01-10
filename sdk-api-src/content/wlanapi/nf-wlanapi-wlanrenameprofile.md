@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 488e9f87-8b98-48c6-81d5-d7237cdf5bd5
 ms.date: 12/05/2018
 ms.keywords: WlanRenameProfile, WlanRenameProfile function [NativeWIFI], nwifi.wlanrenameprofile, wlanapi/WlanRenameProfile
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanRenameProfile
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 05dd033f-3bb2-4185-9cfc-c19927a82406
 ms.date: 12/05/2018
 ms.keywords: UIAutomationEventInfo, UIAutomationEventInfo structure [Windows Accessibility], uiauto.uiauto_UIAutomationEventInfoStruct, uiauto_UIAutomationEventInfoStruct, uiautomationcore/UIAutomationEventInfo, winauto.uiauto_UIAutomationEventInfoStruct
-ms.topic: struct
 f1_keywords:
 - uiautomationcore/UIAutomationEventInfo
 dev_langs:

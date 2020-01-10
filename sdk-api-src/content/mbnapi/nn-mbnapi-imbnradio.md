@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: b4b5ccfc-6cbf-4090-aee1-ee97092147f7
 ms.date: 12/05/2018
 ms.keywords: IMbnRadio, IMbnRadio interface [Microsoft Broadband Networks], IMbnRadio interface [Microsoft Broadband Networks],described, mbn.imbnradio, mbnapi/IMbnRadio
-ms.topic: interface
 f1_keywords:
 - mbnapi/IMbnRadio
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 248640b4-4c53-402b-af53-b76a809f0741
 ms.date: 12/05/2018
 ms.keywords: VarCySub, VarCySub function [Automation], _oa96_VarCySub, automat.varcysub, oleauto/VarCySub
-ms.topic: function
 f1_keywords:
 - oleauto/VarCySub
 dev_langs:

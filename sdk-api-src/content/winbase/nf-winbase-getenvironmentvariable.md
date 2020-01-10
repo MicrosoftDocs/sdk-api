@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 1d4cc328-12e6-4aae-9f58-58675116ad54
 ms.date: 12/05/2018
 ms.keywords: GetEnvironmentVariable, GetEnvironmentVariable function, GetEnvironmentVariableA, GetEnvironmentVariableW, _win32_getenvironmentvariable, base.getenvironmentvariable, processenv/GetEnvironmentVariable, processenv/GetEnvironmentVariableA, processenv/GetEnvironmentVariableW, winbase/GetEnvironmentVariable, winbase/GetEnvironmentVariableA, winbase/GetEnvironmentVariableW
-ms.topic: function
 f1_keywords:
 - winbase/GetEnvironmentVariable
 dev_langs:

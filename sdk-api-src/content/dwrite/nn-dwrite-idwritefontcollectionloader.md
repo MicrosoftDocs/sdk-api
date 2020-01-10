@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 898645ce-4bd5-4491-a31c-f60a17578872
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontCollectionLoader, IDWriteFontCollectionLoader interface [Direct Write], IDWriteFontCollectionLoader interface [Direct Write],described, directwrite.IDWriteFontCollectionLoader, dwrite/IDWriteFontCollectionLoader
-ms.topic: interface
 f1_keywords:
 - dwrite/IDWriteFontCollectionLoader
 dev_langs:

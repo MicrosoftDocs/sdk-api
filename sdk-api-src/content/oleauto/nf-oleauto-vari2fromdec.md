@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 1bcba279-15ec-4733-8f76-6576b6e389ee
 ms.date: 12/05/2018
 ms.keywords: VarI2FromDec, VarI2FromDec function [Automation], _oa96_VarI2FromDec, automat.vari2fromdec, oleauto/VarI2FromDec
-ms.topic: function
 f1_keywords:
 - oleauto/VarI2FromDec
 dev_langs:

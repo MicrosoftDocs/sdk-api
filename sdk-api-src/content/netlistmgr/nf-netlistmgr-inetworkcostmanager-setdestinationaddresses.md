@@ -7,7 +7,6 @@ tech.root: nla
 ms.assetid: D4CA45C5-0AF1-443A-9134-BB82268ABFD5
 ms.date: 12/05/2018
 ms.keywords: INetworkCostManager interface [Network Awareness],SetDestinationAddresses method, INetworkCostManager.SetDestinationAddresses, INetworkCostManager::SetDestinationAddresses, SetDestinationAddresses, SetDestinationAddresses method [Network Awareness], SetDestinationAddresses method [Network Awareness],INetworkCostManager interface, netlistmgr/INetworkCostManager::SetDestinationAddresses, nla.inetworkcostmanager_setdestinationaddresses
-ms.topic: method
 f1_keywords:
 - netlistmgr/INetworkCostManager.SetDestinationAddresses
 dev_langs:

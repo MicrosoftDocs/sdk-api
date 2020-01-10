@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: AAED8A59-3190-49A0-93AA-F5CAF9088877
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain2 interface [DXGI],SetMatrixTransform method, IDXGISwapChain2.SetMatrixTransform, IDXGISwapChain2::SetMatrixTransform, SetMatrixTransform, SetMatrixTransform method [DXGI], SetMatrixTransform method [DXGI],IDXGISwapChain2 interface, direct3ddxgi.idxgiswapchain2_setmatrixtransform, dxgi1_3/IDXGISwapChain2::SetMatrixTransform
-ms.topic: method
 f1_keywords:
 - dxgi1_3/IDXGISwapChain2.SetMatrixTransform
 dev_langs:

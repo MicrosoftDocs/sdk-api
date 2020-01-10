@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: EFC36053-6FD1-4D2E-8214-66B50F0CC0D5
 ms.date: 12/05/2018
 ms.keywords: D3D12_DESCRIPTOR_RANGE1, D3D12_DESCRIPTOR_RANGE1 structure, d3d12/D3D12_DESCRIPTOR_RANGE1, direct3d12.d3d12_descriptor_range1
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_DESCRIPTOR_RANGE1
 dev_langs:

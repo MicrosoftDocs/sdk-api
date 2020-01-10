@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 8798b8c1-d1c0-4729-b7bd-0329e8b71b0d
 ms.date: 12/05/2018
 ms.keywords: LPSAFEARRAY_UserUnmarshal, LPSAFEARRAY_UserUnmarshal function [Automation], _oa96_LPSAFEARRAY_UserUnmarshal, automat.lpsafearray_userunmarshal, wia_xp/LPSAFEARRAY_UserUnmarshal
-ms.topic: function
 f1_keywords:
 - wia_xp/LPSAFEARRAY_UserUnmarshal
 dev_langs:

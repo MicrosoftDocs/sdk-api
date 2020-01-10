@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 2a7dfc11-a8ab-4677-ad5c-b2f4b5998efe
 ms.date: 12/05/2018
 ms.keywords: AllocateClientBuffer, AllocateClientBuffer callback function [Security], LSA_ALLOCATE_CLIENT_BUFFER, LSA_ALLOCATE_CLIENT_BUFFER callback, _lsa_allocateclientbuffer, ntsecpkg/AllocateClientBuffer, security.allocateclientbuffer
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/AllocateClientBuffer
 dev_langs:

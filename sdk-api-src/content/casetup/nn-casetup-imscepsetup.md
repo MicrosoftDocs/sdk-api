@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 328c6c04-7ade-4b64-bd8a-4314b6e8dc78
 ms.date: 12/05/2018
 ms.keywords: IMSCEPSetup, IMSCEPSetup interface [Security], IMSCEPSetup interface [Security],described, casetup/IMSCEPSetup, security.imscepsetup
-ms.topic: interface
 f1_keywords:
 - casetup/IMSCEPSetup
 dev_langs:

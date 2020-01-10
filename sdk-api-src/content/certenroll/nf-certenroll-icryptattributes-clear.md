@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 00d6c72d-0170-4174-9274-5fe217156f28
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICryptAttributes interface, ICryptAttributes interface [Security],Clear method, ICryptAttributes.Clear, ICryptAttributes::Clear, certenroll/ICryptAttributes::Clear, security.icryptattributes_clear_method
-ms.topic: method
 f1_keywords:
 - certenroll/ICryptAttributes.Clear
 dev_langs:

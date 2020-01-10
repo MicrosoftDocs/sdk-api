@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: 88679E17-285A-41C1-87A5-C37AF66F327F
 ms.date: 12/05/2018
 ms.keywords: HrtfDirectivityCone, HrtfDirectivityCone structure [XAudio2 Audio Mixing APIs], PHrtfDirectivityCone, PHrtfDirectivityCone structure pointer [XAudio2 Audio Mixing APIs], hrtfapoapi/HrtfDirectivityCone, hrtfapoapi/PHrtfDirectivityCone, xaudio2.hrtfdirectivitycone
-ms.topic: struct
 f1_keywords:
 - hrtfapoapi/HrtfDirectivityCone
 dev_langs:

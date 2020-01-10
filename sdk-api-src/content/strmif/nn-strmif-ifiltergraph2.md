@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 1a1ef4fe-a054-4ba7-99c7-1f209472c5a6
 ms.date: 12/05/2018
 ms.keywords: IFilterGraph2, IFilterGraph2 interface [DirectShow], IFilterGraph2 interface [DirectShow],described, IFilterGraph2Interface, dshow.ifiltergraph2, strmif/IFilterGraph2
-ms.topic: interface
 f1_keywords:
 - strmif/IFilterGraph2
 dev_langs:

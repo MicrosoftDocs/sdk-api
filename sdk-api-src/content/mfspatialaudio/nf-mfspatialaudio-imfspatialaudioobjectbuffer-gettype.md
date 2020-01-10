@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: CF0285D2-E56B-44A5-B7E0-3227213D9523
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Media Foundation], GetType method [Media Foundation],IMFSpatialAudioObjectBuffer interface, IMFSpatialAudioObjectBuffer interface [Media Foundation],GetType method, IMFSpatialAudioObjectBuffer.GetType, IMFSpatialAudioObjectBuffer::GetType, mf.imfspatialaudioobjectbuffer_gettype, mfspatialaudio/IMFSpatialAudioObjectBuffer::GetType
-ms.topic: method
 f1_keywords:
 - mfspatialaudio/IMFSpatialAudioObjectBuffer.GetType
 dev_langs:

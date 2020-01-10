@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 567d69f3-cebf-4bb7-84df-c843cfc928a5
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [windows Media Format], Clear method [windows Media Format],IWMPropertyVault interface, IWMPropertyVault interface [windows Media Format],Clear method, IWMPropertyVault.Clear, IWMPropertyVault::Clear, IWMPropertyVaultClear, wmformat.iwmpropertyvault_clear, wmsdkidl/IWMPropertyVault::Clear
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMPropertyVault.Clear
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 32ce378e-a178-4970-b3bd-3887866e97af
 ms.date: 12/05/2018
 ms.keywords: DsReplicaFreeInfo, DsReplicaFreeInfo function [Active Directory], ad.dsreplicafreeinfo, ntdsapi/DsReplicaFreeInfo
-ms.topic: function
 f1_keywords:
 - ntdsapi/DsReplicaFreeInfo
 dev_langs:

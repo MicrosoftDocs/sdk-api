@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 724477d4-ec56-44bd-801e-23c225bafd03
 ms.date: 12/05/2018
 ms.keywords: PWLX_GET_OPTION, PWLX_GET_OPTION callback, WlxGetOption, WlxGetOption callback function [Security], _gina_wlxgetoption, security.wlxgetoption, winwlx/WlxGetOption
-ms.topic: callback
 f1_keywords:
 - winwlx/WlxGetOption
 dev_langs:

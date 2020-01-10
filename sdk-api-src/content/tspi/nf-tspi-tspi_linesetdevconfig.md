@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 41699ca8-a30d-48ab-bace-bc2b95b67e77
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetDevConfig, TSPI_lineSetDevConfig function [TAPI 2.2], _tspi_tspi_linesetdevconfig, tspi.tspi_linesetdevconfig, tspi/TSPI_lineSetDevConfig
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineSetDevConfig
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 2969cb79-fb78-404e-bcac-edf68001fa08
 ms.date: 12/05/2018
 ms.keywords: UiaPoint, UiaPoint structure [Windows Accessibility], uiauto.uiauto_UiaPointStruct, uiauto_UiaPointStruct, uiautomationcore/UiaPoint, winauto.uiauto_UiaPointStruct
-ms.topic: struct
 f1_keywords:
 - uiautomationcore/UiaPoint
 dev_langs:

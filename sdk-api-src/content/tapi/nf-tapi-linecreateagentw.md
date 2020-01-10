@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 14b2e9c8-32ab-42c0-acfa-17a0f8a9b73f
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linecreateagent, lineCreateAgent, lineCreateAgent function [TAPI 2.2], lineCreateAgentA, lineCreateAgentW, tapi/lineCreateAgent, tapi/lineCreateAgentA, tapi/lineCreateAgentW, tapi2.linecreateagent
-ms.topic: function
 f1_keywords:
 - tapi/lineCreateAgent
 dev_langs:

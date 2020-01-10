@@ -5,7 +5,6 @@ description: Extracts data from a query.
 tech.root: mf
 ms.assetid: 6c0f7e3b-9399-4ce7-b5a6-02c441496f2e
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoDecodeCommandList::ResolveQueryData
 dev_langs:

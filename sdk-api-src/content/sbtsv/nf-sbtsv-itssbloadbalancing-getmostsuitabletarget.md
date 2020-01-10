@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 4f625f64-3909-4003-938c-7807ec24e59e
 ms.date: 12/05/2018
 ms.keywords: GetMostSuitableTarget, GetMostSuitableTarget method [Remote Desktop Services], GetMostSuitableTarget method [Remote Desktop Services],ITsSbLoadBalancing interface, ITsSbLoadBalancing interface [Remote Desktop Services],GetMostSuitableTarget method, ITsSbLoadBalancing.GetMostSuitableTarget, ITsSbLoadBalancing::GetMostSuitableTarget, sbtsv/ITsSbLoadBalancing::GetMostSuitableTarget, termserv.itssbloadbalancing_getmostsuitabletarget
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbLoadBalancing.GetMostSuitableTarget
 dev_langs:

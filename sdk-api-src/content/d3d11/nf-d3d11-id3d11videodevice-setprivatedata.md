@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: B7B9E225-A27E-4278-B191-08C0C93C86AC
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoDevice interface [Media Foundation],SetPrivateData method, ID3D11VideoDevice.SetPrivateData, ID3D11VideoDevice::SetPrivateData, SetPrivateData, SetPrivateData method [Media Foundation], SetPrivateData method [Media Foundation],ID3D11VideoDevice interface, d3d11/ID3D11VideoDevice::SetPrivateData, mf.id3d11videodevice_setprivatedata
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11VideoDevice.SetPrivateData
 dev_langs:

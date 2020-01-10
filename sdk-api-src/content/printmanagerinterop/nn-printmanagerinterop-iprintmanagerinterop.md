@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 1786fda1-37e4-4ec5-94de-a1fc5b6732a2
 ms.date: 12/05/2018
 ms.keywords: IPrintManagerInterop, IPrintManagerInterop interface [Windows Runtime], IPrintManagerInterop interface [Windows Runtime],described, printmanagerinterop/IPrintManagerInterop, winrt.iprintmanagerinterop
-ms.topic: interface
 f1_keywords:
 - printmanagerinterop/IPrintManagerInterop
 dev_langs:

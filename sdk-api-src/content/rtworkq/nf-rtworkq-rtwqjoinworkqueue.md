@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: c7762a10-269e-48c0-83da-7e040cf9d083
 ms.date: 12/05/2018
 ms.keywords: RtwqJoinWorkQueue, RtwqJoinWorkQueue function, base.rtwqjoinworkqueue, rtworkq/RtwqJoinWorkQueue
-ms.topic: function
 f1_keywords:
 - rtworkq/RtwqJoinWorkQueue
 dev_langs:

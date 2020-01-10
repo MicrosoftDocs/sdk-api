@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 172f49b9-850d-46f0-bed1-678a070a7ae8
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetModified method, IXpsOMCoreProperties.SetModified, IXpsOMCoreProperties::SetModified, SetModified, SetModified method [XPS Documents and Packaging], SetModified method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setmodified, xpsobjectmodel/IXpsOMCoreProperties::SetModified
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMCoreProperties.SetModified
 dev_langs:

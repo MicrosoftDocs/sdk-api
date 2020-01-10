@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 278FE30E-86F2-4E34-AED5-78C699FC2319
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetBlueDisable method, IDCompositionTableTransferEffect.SetBlueDisable, IDCompositionTableTransferEffect::SetBlueDisable, SetBlueDisable, SetBlueDisable method [DirectComposition], SetBlueDisable method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetBlueDisable, directcomp.idcompositiontabletransfereffect_setbluedisable
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionTableTransferEffect.SetBlueDisable
 dev_langs:

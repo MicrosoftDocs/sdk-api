@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6y1z_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxServer interface [Fax Service],OutboundRouting property, IFaxServer.OutboundRouting, IFaxServer.get_OutboundRouting, IFaxServer::OutboundRouting, IFaxServer::get_OutboundRouting, OutboundRouting property [Fax Service], OutboundRouting property [Fax Service],IFaxServer interface, _mfax_faxserver.outboundrouting_cpp, fax._mfax_faxserver_outboundrouting_cpp, faxcomex/IFaxServer::OutboundRouting, faxcomex/IFaxServer::get_OutboundRouting, get_OutboundRouting
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxServer.OutboundRouting
 dev_langs:

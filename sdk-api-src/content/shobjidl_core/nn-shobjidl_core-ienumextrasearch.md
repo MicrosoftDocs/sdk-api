@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 63b71cd2-483b-482f-b3f4-6d5c937e7708
 ms.date: 12/05/2018
 ms.keywords: IEnumExtraSearch, IEnumExtraSearch interface [Windows Shell], IEnumExtraSearch interface [Windows Shell],described, _win32_IEnumExtraSearch, shell.IEnumExtraSearch, shobjidl_core/IEnumExtraSearch
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IEnumExtraSearch
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: ec938519-3c0c-4664-9e9a-b7fb338920f5
 ms.date: 12/05/2018
 ms.keywords: '*PCLIPLINE, CLIPLINE, CLIPLINE structure [Display Devices], PCLIPLINE, PCLIPLINE structure pointer [Display Devices], display.clipline, grstrcts_01e6e35a-79ca-4dba-866e-24306b83cb51.xml, winddi/CLIPLINE, winddi/PCLIPLINE'
-ms.topic: struct
 f1_keywords:
 - winddi/CLIPLINE
 dev_langs:

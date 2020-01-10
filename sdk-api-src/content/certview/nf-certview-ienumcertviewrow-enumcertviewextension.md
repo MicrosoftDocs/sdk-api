@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 41028000-fa87-4ad0-93fc-314c5d3870f9
 ms.date: 12/05/2018
 ms.keywords: EnumCertViewExtension, EnumCertViewExtension method [Security], EnumCertViewExtension method [Security],IEnumCERTVIEWROW interface, IEnumCERTVIEWROW interface [Security],EnumCertViewExtension method, IEnumCERTVIEWROW.EnumCertViewExtension, IEnumCERTVIEWROW::EnumCertViewExtension, _certsrv_ienumcertviewrow_enumcertviewextension, certview/IEnumCERTVIEWROW::EnumCertViewExtension, security.ienumcertviewrow_enumcertviewextension
-ms.topic: method
 f1_keywords:
 - certview/IEnumCERTVIEWROW.EnumCertViewExtension
 dev_langs:

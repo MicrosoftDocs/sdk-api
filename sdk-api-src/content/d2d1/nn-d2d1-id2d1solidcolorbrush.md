@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: a15c2696-3122-461e-806e-2195a50a3e92
 ms.date: 12/05/2018
 ms.keywords: ID2D1SolidColorBrush, ID2D1SolidColorBrush interface [Direct2D], ID2D1SolidColorBrush interface [Direct2D],described, d2d1/ID2D1SolidColorBrush, direct2d.ID2D1SolidColorBrush
-ms.topic: interface
 f1_keywords:
 - d2d1/ID2D1SolidColorBrush
 dev_langs:

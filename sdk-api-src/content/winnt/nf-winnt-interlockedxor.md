@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: c4815bf2-e06d-4dcf-a460-a88c4c9a3c27
 ms.date: 12/05/2018
 ms.keywords: InterlockedXor, InterlockedXor function, base.interlockedxor, winnt/InterlockedXor
-ms.topic: function
 f1_keywords:
 - winnt/InterlockedXor
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: c35c39ff-497e-46d4-9dd7-2187a78f710e
 ms.date: 12/05/2018
 ms.keywords: WS_ENDPOINT_ADDRESS_EXTENSION_METADATA_ADDRESS, WS_ENDPOINT_ADDRESS_EXTENSION_TYPE, WS_ENDPOINT_ADDRESS_EXTENSION_TYPE enumeration [Web Services for Windows], webservices/WS_ENDPOINT_ADDRESS_EXTENSION_METADATA_ADDRESS, webservices/WS_ENDPOINT_ADDRESS_EXTENSION_TYPE, wsw.ws_endpoint_address_extension_type
-ms.topic: enum
 f1_keywords:
 - webservices/WS_ENDPOINT_ADDRESS_EXTENSION_TYPE
 dev_langs:

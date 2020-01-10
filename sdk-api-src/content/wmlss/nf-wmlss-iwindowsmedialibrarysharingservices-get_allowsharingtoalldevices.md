@@ -7,7 +7,6 @@ tech.root: WMLSS
 ms.assetid: f166eca1-9413-4f14-be2f-ef433f3e391a
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],get_allowSharingToAllDevices method, IWindowsMediaLibrarySharingServices.get_allowSharingToAllDevices, IWindowsMediaLibrarySharingServices::get_allowSharingToAllDevices, get_allowSharingToAllDevices, get_allowSharingToAllDevices method [Windows Media Library Sharing Services], get_allowSharingToAllDevices method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSget_allowSharingToAllDevices, wmlss/IWindowsMediaLibrarySharingServices::get_allowSharingToAllDevices
-ms.topic: method
 f1_keywords:
 - wmlss/IWindowsMediaLibrarySharingServices.get_allowSharingToAllDevices
 dev_langs:

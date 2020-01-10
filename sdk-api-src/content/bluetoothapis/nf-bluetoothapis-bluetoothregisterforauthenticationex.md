@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: c9838f27-3450-4d51-be58-ce515d06d5cb
 ms.date: 12/05/2018
 ms.keywords: BluetoothRegisterForAuthenticationEx, BluetoothRegisterForAuthenticationEx function [Bluetooth], bluetooth.bluetoothregisterforauthenticationex, bluetoothapis/BluetoothRegisterForAuthenticationEx
-ms.topic: function
 f1_keywords:
 - bluetoothapis/BluetoothRegisterForAuthenticationEx
 dev_langs:

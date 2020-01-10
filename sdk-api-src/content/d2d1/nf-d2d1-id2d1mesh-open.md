@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 7cd0d637-7fcd-45a5-932f-5aa8fb476f68
 ms.date: 12/05/2018
 ms.keywords: ID2D1Mesh interface [Direct2D],Open method, ID2D1Mesh.Open, ID2D1Mesh::Open, Open, Open method [Direct2D], Open method [Direct2D],ID2D1Mesh interface, d2d1/ID2D1Mesh::Open, direct2d.ID2D1Mesh_Open
-ms.topic: method
 f1_keywords:
 - d2d1/ID2D1Mesh.Open
 dev_langs:

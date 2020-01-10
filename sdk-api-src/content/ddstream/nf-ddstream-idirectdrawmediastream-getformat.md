@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 3729bbe6-3504-46b3-9978-e66afc56344f
 ms.date: 12/05/2018
 ms.keywords: GetFormat, GetFormat method [DirectShow], GetFormat method [DirectShow],IDirectDrawMediaStream interface, IDirectDrawMediaStream interface [DirectShow],GetFormat method, IDirectDrawMediaStream.GetFormat, IDirectDrawMediaStream::GetFormat, IDirectDrawMediaStreamGetFormat, ddstream/IDirectDrawMediaStream::GetFormat, dshow.idirectdrawmediastream_getformat
-ms.topic: method
 f1_keywords:
 - ddstream/IDirectDrawMediaStream.GetFormat
 dev_langs:

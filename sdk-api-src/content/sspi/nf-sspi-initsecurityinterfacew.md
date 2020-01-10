@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 1026eeab-e2d6-45f2-9677-82d6cfbf4e12
 ms.date: 12/05/2018
 ms.keywords: InitSecurityInterface, InitSecurityInterface function [Security], InitSecurityInterfaceA, InitSecurityInterfaceW, _ssp_initsecurityinterface, security.initsecurityinterface, sspi/InitSecurityInterface, sspi/InitSecurityInterfaceA, sspi/InitSecurityInterfaceW
-ms.topic: function
 f1_keywords:
 - sspi/InitSecurityInterface
 dev_langs:

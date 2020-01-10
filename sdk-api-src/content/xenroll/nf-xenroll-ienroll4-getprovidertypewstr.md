@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 64d0d96a-b9d4-4b66-8329-2dfc03ba9ce5
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],getProviderTypeWStr method, IEnroll4.getProviderTypeWStr, IEnroll4::getProviderTypeWStr, getProviderTypeWStr, getProviderTypeWStr method [Security], getProviderTypeWStr method [Security],IEnroll4 interface, security.ienroll4_getprovidertypewstr, xenroll/IEnroll4::getProviderTypeWStr
-ms.topic: method
 f1_keywords:
 - xenroll/IEnroll4.getProviderTypeWStr
 dev_langs:

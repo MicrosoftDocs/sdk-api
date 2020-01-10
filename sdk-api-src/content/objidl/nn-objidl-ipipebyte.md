@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: e3e01280-c015-488a-8be4-9740c44c0041
 ms.date: 12/05/2018
 ms.keywords: IPipeByte, IPipeByte interface [COM], IPipeByte interface [COM],described, _com_ipipebyte, com.ipipebyte, objidlbase/IPipeByte
-ms.topic: interface
 f1_keywords:
 - objidl/IPipeByte
 dev_langs:

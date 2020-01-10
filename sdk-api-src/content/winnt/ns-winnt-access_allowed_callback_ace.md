@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 0dbca19b-4b54-4c55-920a-c00335692d68
 ms.date: 12/05/2018
 ms.keywords: '*PACCESS_ALLOWED_CALLBACK_ACE, ACCESS_ALLOWED_CALLBACK_ACE, ACCESS_ALLOWED_CALLBACK_ACE structure [Security], PACCESS_ALLOWED_CALLBACK_ACE, PACCESS_ALLOWED_CALLBACK_ACE structure pointer [Security], _ACCESS_ALLOWED_CALLBACK_ACE, security.access_allowed_callback_ace, winnt/ACCESS_ALLOWED_CALLBACK_ACE, winnt/PACCESS_ALLOWED_CALLBACK_ACE'
-ms.topic: struct
 f1_keywords:
 - winnt/ACCESS_ALLOWED_CALLBACK_ACE
 dev_langs:

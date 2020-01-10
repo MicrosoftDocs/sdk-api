@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 383f1e11-2e40-45e6-8c55-a23d1b8eb71f
 ms.date: 12/05/2018
 ms.keywords: EAP_TYPE, EAP_TYPE structure [EAPHost], eaphost.eap_type, eaptypes/EAP_TYPE
-ms.topic: struct
 f1_keywords:
 - eaptypes/EAP_TYPE
 dev_langs:

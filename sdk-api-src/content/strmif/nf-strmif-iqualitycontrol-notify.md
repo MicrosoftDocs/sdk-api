@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c7a34356-b0b2-49c1-bdc2-d8043fdc2862
 ms.date: 12/05/2018
 ms.keywords: IQualityControl interface [DirectShow],Notify method, IQualityControl.Notify, IQualityControl::Notify, IQualityControlNotify, Notify, Notify method [DirectShow], Notify method [DirectShow],IQualityControl interface, dshow.iqualitycontrol_notify, strmif/IQualityControl::Notify
-ms.topic: method
 f1_keywords:
 - strmif/IQualityControl.Notify
 dev_langs:

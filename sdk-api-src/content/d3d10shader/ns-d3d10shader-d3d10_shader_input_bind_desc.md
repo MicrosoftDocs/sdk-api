@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_input_bind_desc.htm
 ms.date: 12/05/2018
 ms.keywords: 99c7399c-8b7c-2db1-c625-397e1a74f486, D3D10_SHADER_INPUT_BIND_DESC, D3D10_SHADER_INPUT_BIND_DESC structure [Direct3D 10], d3d10shader/D3D10_SHADER_INPUT_BIND_DESC, direct3d10.d3d10_shader_input_bind_desc
-ms.topic: struct
 f1_keywords:
 - d3d10shader/D3D10_SHADER_INPUT_BIND_DESC
 dev_langs:

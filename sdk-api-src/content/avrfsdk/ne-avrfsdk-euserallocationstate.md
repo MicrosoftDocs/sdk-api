@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 8aa46c8a-1261-47da-8145-e7ff9826d2ab
 ms.date: 12/05/2018
 ms.keywords: AllocationStateBusy, AllocationStateFree, AllocationStateUnknown, avrfsdk/AllocationStateBusy, avrfsdk/AllocationStateFree, avrfsdk/AllocationStateUnknown, avrfsdk/eUserAllocationState, base.euserallocationstate, eUserAllocationState, eUserAllocationState enumeration [Windows API], winprog.euserallocationstate
-ms.topic: enum
 f1_keywords:
 - avrfsdk/eUserAllocationState
 dev_langs:

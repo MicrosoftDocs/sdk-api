@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 10700E97-C799-4FC0-8300-B5347CC67AC3
 ms.date: 12/05/2018
 ms.keywords: CreateSkewTransform, CreateSkewTransform method [DirectComposition], CreateSkewTransform method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateSkewTransform method, IDCompositionDevice2.CreateSkewTransform, IDCompositionDevice2::CreateSkewTransform, dcomp/IDCompositionDevice2::CreateSkewTransform, directcomp.idcompositiondevice2_createskewtransform
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionDevice2.CreateSkewTransform
 dev_langs:

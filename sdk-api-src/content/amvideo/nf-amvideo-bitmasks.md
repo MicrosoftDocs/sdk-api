@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e90ddeab-a3d6-4d34-8608-4d8831d81fe5
 ms.date: 12/05/2018
 ms.keywords: BITMASKS, BITMASKS macro [DirectShow], amvideo/BITMASKS, dshow.bitmasks
-ms.topic: macro
 f1_keywords:
 - amvideo/BITMASKS
 dev_langs:

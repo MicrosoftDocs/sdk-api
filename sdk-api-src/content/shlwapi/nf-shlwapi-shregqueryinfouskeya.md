@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e47b4fad-50c7-43d7-82f2-6a835ac543f0
 ms.date: 12/05/2018
 ms.keywords: SHRegQueryInfoUSKey, SHRegQueryInfoUSKey function [Windows Shell], SHRegQueryInfoUSKeyA, SHRegQueryInfoUSKeyW, _win32_SHRegQueryInfoUSKey, shell.SHRegQueryInfoUSKey, shlwapi/SHRegQueryInfoUSKey, shlwapi/SHRegQueryInfoUSKeyA, shlwapi/SHRegQueryInfoUSKeyW
-ms.topic: function
 f1_keywords:
 - shlwapi/SHRegQueryInfoUSKey
 dev_langs:

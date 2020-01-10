@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrebarchildsize.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMREBARCHILDSIZE, LPNMREBARCHILDSIZE, LPNMREBARCHILDSIZE structure pointer [Windows Controls], NMREBARCHILDSIZE, NMREBARCHILDSIZE structure [Windows Controls], _win32_NMREBARCHILDSIZE, _win32_NMREBARCHILDSIZE_cpp, commctrl/LPNMREBARCHILDSIZE, commctrl/NMREBARCHILDSIZE, controls.NMREBARCHILDSIZE, controls._win32_NMREBARCHILDSIZE'
-ms.topic: struct
 f1_keywords:
 - commctrl/NMREBARCHILDSIZE
 dev_langs:

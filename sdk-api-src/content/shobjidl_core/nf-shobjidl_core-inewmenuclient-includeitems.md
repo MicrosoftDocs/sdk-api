@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 666bf93c-cc99-4530-852e-5ef05ea72348
 ms.date: 12/05/2018
 ms.keywords: INewMenuClient interface [Windows Shell],IncludeItems method, INewMenuClient.IncludeItems, INewMenuClient::IncludeItems, IncludeItems, IncludeItems method [Windows Shell], IncludeItems method [Windows Shell],INewMenuClient interface, NMCII_FOLDERS, NMCII_ITEMS, NMCII_NONE, _shell_INewMenuClient_IncludeItems, shell.INewMenuClient_IncludeItems, shobjidl_core/INewMenuClient::IncludeItems
-ms.topic: method
 f1_keywords:
 - shobjidl_core/INewMenuClient.IncludeItems
 dev_langs:

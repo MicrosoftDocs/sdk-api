@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 825d4080-45de-452e-b0eb-33e7bd1d2f22
 ms.date: 12/05/2018
 ms.keywords: WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE, WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE structure [Windows Media Player], WMP_WMDM_PC2DEVICE, wmp.wmp_wmdm_metadata_round_trip_pc2device, wmpdevices/WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE
-ms.topic: struct
 f1_keywords:
 - wmpdevices/WMP_WMDM_METADATA_ROUND_TRIP_PC2DEVICE
 dev_langs:

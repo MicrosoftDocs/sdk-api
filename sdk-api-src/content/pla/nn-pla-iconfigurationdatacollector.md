@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 7266c02d-0f56-4754-8a67-68394a5f0158
 ms.date: 12/05/2018
 ms.keywords: IConfigurationDataCollector, IConfigurationDataCollector interface [PLA], IConfigurationDataCollector interface [PLA],described, base.iconfigurationdatacollector, pla.iconfigurationdatacollector, pla/IConfigurationDataCollector
-ms.topic: interface
 f1_keywords:
 - pla/IConfigurationDataCollector
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 42fe27ed-d461-43bf-87c5-bd0704339ec7
 ms.date: 12/05/2018
 ms.keywords: Associated, AssociationUnknown, NotAssociated, SmartCardAssociationType, SmartCardAssociationType enumeration [Microsoft TV Technologies], bdaiface/Associated, bdaiface/AssociationUnknown, bdaiface/NotAssociated, bdaiface/SmartCardAssociationType, mstv.smartcardassociationtype
-ms.topic: enum
 f1_keywords:
 - bdaiface/SmartCardAssociationType
 dev_langs:

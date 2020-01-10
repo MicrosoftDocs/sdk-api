@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 6025c3a6-7d88-49dc-bbc3-655c172dde3c
 ms.date: 12/05/2018
 ms.keywords: EventRegister, EventRegister function [ETW], base.eventregister_func, etw.eventregister_func, evntprov/EventRegister
-ms.topic: function
 f1_keywords:
 - evntprov/EventRegister
 dev_langs:

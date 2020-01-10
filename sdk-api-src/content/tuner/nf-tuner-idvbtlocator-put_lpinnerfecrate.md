@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 4fcce13b-1cc4-4ee7-b010-2c5ffd55a5f7
 ms.date: 12/05/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],put_LPInnerFECRate method, IDVBTLocator.put_LPInnerFECRate, IDVBTLocator::put_LPInnerFECRate, IDVBTLocatorput_LPInnerFECRate, mstv.idvbtlocator_put_lpinnerfecrate, put_LPInnerFECRate, put_LPInnerFECRate method [Microsoft TV Technologies], put_LPInnerFECRate method [Microsoft TV Technologies],IDVBTLocator interface, tuner/IDVBTLocator::put_LPInnerFECRate
-ms.topic: method
 f1_keywords:
 - tuner/IDVBTLocator.put_LPInnerFECRate
 dev_langs:

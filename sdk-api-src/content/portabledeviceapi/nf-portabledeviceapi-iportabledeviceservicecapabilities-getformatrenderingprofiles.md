@@ -7,7 +7,6 @@ tech.root: wpd_sdk
 ms.assetid: 38c9d357-17aa-4b26-9c01-c13a5cfcf495
 ms.date: 12/05/2018
 ms.keywords: GetFormatRenderingProfiles, GetFormatRenderingProfiles method [Windows Portable Devices SDK], GetFormatRenderingProfiles method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetFormatRenderingProfiles method, IPortableDeviceServiceCapabilities.GetFormatRenderingProfiles, IPortableDeviceServiceCapabilities::GetFormatRenderingProfiles, portabledeviceapi/IPortableDeviceServiceCapabilities::GetFormatRenderingProfiles, wpdsdk.iportabledeviceservicecapabilities_getformatrenderingprofiles
-ms.topic: method
 f1_keywords:
 - portabledeviceapi/IPortableDeviceServiceCapabilities.GetFormatRenderingProfiles
 dev_langs:

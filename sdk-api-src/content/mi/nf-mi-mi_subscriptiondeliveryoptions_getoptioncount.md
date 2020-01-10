@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 695a4ec8-4e6b-4a3d-800b-fa0edfab5ca2
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetOptionCount, MI_SubscriptionDeliveryOptions_GetOptionCount function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetOptionCount, wmi_v2.mi_subscriptiondeliveryoptions_getoptioncount
-ms.topic: function
 f1_keywords:
 - mi/MI_SubscriptionDeliveryOptions_GetOptionCount
 dev_langs:

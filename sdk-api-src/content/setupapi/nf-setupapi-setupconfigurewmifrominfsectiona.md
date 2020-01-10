@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 1fcf9086-fde1-414c-9073-22452c3ffc6d
 ms.date: 12/05/2018
 ms.keywords: SCWMI_CLOBBER_SECURITY, SetupConfigureWmiFromInfSection, SetupConfigureWmiFromInfSection function [Setup API], SetupConfigureWmiFromInfSectionA, SetupConfigureWmiFromInfSectionW, _setupapi_setupuninstalloeminf, setup.setupconfigurewmifrominfsection, setupapi/SetupConfigureWmiFromInfSection, setupapi/SetupConfigureWmiFromInfSectionA, setupapi/SetupConfigureWmiFromInfSectionW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupConfigureWmiFromInfSection
 dev_langs:

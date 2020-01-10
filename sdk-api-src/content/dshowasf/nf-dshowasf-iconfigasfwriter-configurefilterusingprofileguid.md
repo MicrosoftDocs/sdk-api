@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8cfb3b22-aa6b-42e0-bbb5-876932e8bd82
 ms.date: 12/05/2018
 ms.keywords: ConfigureFilterUsingProfileGuid, ConfigureFilterUsingProfileGuid method [DirectShow], ConfigureFilterUsingProfileGuid method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],ConfigureFilterUsingProfileGuid method, IConfigAsfWriter.ConfigureFilterUsingProfileGuid, IConfigAsfWriter::ConfigureFilterUsingProfileGuid, IConfigAsfWriterConfigureFilterUsingProfileGuid, dshow.iconfigasfwriter_configurefilterusingprofileguid, dshowasf/IConfigAsfWriter::ConfigureFilterUsingProfileGuid
-ms.topic: method
 f1_keywords:
 - dshowasf/IConfigAsfWriter.ConfigureFilterUsingProfileGuid
 dev_langs:

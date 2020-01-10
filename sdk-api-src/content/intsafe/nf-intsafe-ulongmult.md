@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 79710ade-498d-4cd7-ae6e-552a8e787193
 ms.date: 12/05/2018
 ms.keywords: DWordMult, ULongMult, ULongMult function [Windows Shell], _shell_ULongMult, intsafe/ULongMult, shell.ULongMult
-ms.topic: function
 f1_keywords:
 - intsafe/ULongMult
 dev_langs:

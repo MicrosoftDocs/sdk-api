@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 97ea64ee-d950-4872-add6-1f532a6eb33f
 ms.date: 12/05/2018
 ms.keywords: IPersistStream, IPersistStream interface [COM], IPersistStream interface [COM],described, _com_ipersiststream, com.ipersiststream, objidl/IPersistStream
-ms.topic: interface
 f1_keywords:
 - objidl/IPersistStream
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 9ed8386b-f035-446f-b0f8-12e0d3f23aac
 ms.date: 12/05/2018
 ms.keywords: GetSystemTime, GetSystemTime function, _win32_getsystemtime, base.getsystemtime, sysinfoapi/GetSystemTime
-ms.topic: function
 f1_keywords:
 - sysinfoapi/GetSystemTime
 dev_langs:

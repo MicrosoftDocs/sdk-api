@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 755ff0fb-c61f-4427-b7dc-a91dd203fb64
 ms.date: 12/05/2018
 ms.keywords: GetIpsecSecurity, GetIpsecSecurity method [VDS], GetIpsecSecurity method [VDS],IVdsIscsiInitiatorPortal interface, IVdsIscsiInitiatorPortal interface [VDS],GetIpsecSecurity method, IVdsIscsiInitiatorPortal.GetIpsecSecurity, IVdsIscsiInitiatorPortal::GetIpsecSecurity, base.ivdsiscsiinitiatorportal_getipsecsecurity, vds/IVdsIscsiInitiatorPortal::GetIpsecSecurity
-ms.topic: method
 f1_keywords:
 - vds/IVdsIscsiInitiatorPortal.GetIpsecSecurity
 dev_langs:

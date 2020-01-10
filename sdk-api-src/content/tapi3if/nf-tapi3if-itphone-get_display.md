@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 259982d7-8c28-4c0d-81b3-e4ec49fc9765
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_Display method, ITPhone.get_Display, ITPhone::get_Display, _tapi3_itphone_get_display, get_Display, get_Display method [TAPI 2.2], get_Display method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_display, tapi3if/ITPhone::get_Display
-ms.topic: method
 f1_keywords:
 - tapi3if/ITPhone.get_Display
 dev_langs:

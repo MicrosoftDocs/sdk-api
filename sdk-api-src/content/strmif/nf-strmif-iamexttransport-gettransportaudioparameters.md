@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 90650920-f151-4e19-9133-4f1eb5eecbc2
 ms.date: 12/05/2018
 ms.keywords: GetTransportAudioParameters, GetTransportAudioParameters method [DirectShow], GetTransportAudioParameters method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetTransportAudioParameters method, IAMExtTransport.GetTransportAudioParameters, IAMExtTransport::GetTransportAudioParameters, IAMExtTransportGetTransportAudioParameters, dshow.iamexttransport_gettransportaudioparameters, strmif/IAMExtTransport::GetTransportAudioParameters
-ms.topic: method
 f1_keywords:
 - strmif/IAMExtTransport.GetTransportAudioParameters
 dev_langs:

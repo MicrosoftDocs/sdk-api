@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: a52caea6-fbd5-4c06-8a25-e65f7b4a72f7
 ms.date: 12/05/2018
 ms.keywords: ICspInformation interface [Security],Type property, ICspInformation.Type, ICspInformation.get_Type, ICspInformation::Type, ICspInformation::get_Type, Type property [Security], Type property [Security],ICspInformation interface, certenroll/ICspInformation::Type, certenroll/ICspInformation::get_Type, get_Type, security.icspinformation_type_property
-ms.topic: method
 f1_keywords:
 - certenroll/ICspInformation.Type
 dev_langs:

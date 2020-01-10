@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: aa260ff7-d55b-4fda-88e2-2f1d68cc41e1
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509Enrollment2 interface [Security],InitializeFromTemplate method, IX509Enrollment2.InitializeFromTemplate, IX509Enrollment2::InitializeFromTemplate, InitializeFromTemplate, InitializeFromTemplate method [Security], InitializeFromTemplate method [Security],IX509Enrollment2 interface, certenroll/IX509Enrollment2::InitializeFromTemplate, security.ix509enrollment2_initializefromtemplate
-ms.topic: method
 f1_keywords:
 - certenroll/IX509Enrollment2.InitializeFromTemplate
 dev_langs:

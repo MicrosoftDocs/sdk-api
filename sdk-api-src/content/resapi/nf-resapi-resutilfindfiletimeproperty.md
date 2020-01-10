@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 089a7016-47bd-4878-81e6-8854e24b9220
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_FIND_FILETIME_PROPERTY, PRESUTIL_FIND_FILETIME_PROPERTY function [Failover Cluster], ResUtilFindFileTimeProperty, ResUtilFindFileTimeProperty function [Failover Cluster], mscs.resutilfindfiletimeproperty, resapi/PRESUTIL_FIND_FILETIME_PROPERTY, resapi/ResUtilFindFileTimeProperty
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilFindFileTimeProperty
 dev_langs:

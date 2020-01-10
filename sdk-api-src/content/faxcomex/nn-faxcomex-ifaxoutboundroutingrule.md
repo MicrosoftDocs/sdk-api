@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9mn9_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutboundRoutingRule, IFaxOutboundRoutingRule interface [Fax Service], IFaxOutboundRoutingRule interface [Fax Service],described, _mfax_faxoutboundroutingrule_cpp, fax._mfax_faxoutboundroutingrule_cpp, faxcomex/IFaxOutboundRoutingRule
-ms.topic: interface
 f1_keywords:
 - faxcomex/IFaxOutboundRoutingRule
 dev_langs:

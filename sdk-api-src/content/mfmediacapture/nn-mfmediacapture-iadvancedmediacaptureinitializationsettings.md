@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 8a7978c1-1919-4b49-9848-6d972e3e94f5
 ms.date: 12/05/2018
 ms.keywords: IAdvancedMediaCaptureInitializationSettings, IAdvancedMediaCaptureInitializationSettings interface [Media Foundation], IAdvancedMediaCaptureInitializationSettings interface [Media Foundation],described, mf.iadvancedmediacaptureInitializationsettings, mfmediacapture/IAdvancedMediaCaptureInitializationSettings
-ms.topic: interface
 f1_keywords:
 - mfmediacapture/IAdvancedMediaCaptureInitializationSettings
 dev_langs:

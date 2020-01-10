@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 65e5b584-4ffc-4b89-992e-7ada7df0262b
 ms.date: 12/05/2018
 ms.keywords: WTSStopRemoteControlSession, WTSStopRemoteControlSession function [Remote Desktop Services], termserv.wtsstopremotecontrolsession, wtsapi32/WTSStopRemoteControlSession
-ms.topic: function
 f1_keywords:
 - wtsapi32/WTSStopRemoteControlSession
 dev_langs:

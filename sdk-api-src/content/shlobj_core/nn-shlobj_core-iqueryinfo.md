@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7e256ed3-b3c7-4f9d-b3a0-e33c46fa2573
 ms.date: 12/05/2018
 ms.keywords: IQueryInfo, IQueryInfo interface [Windows Shell], IQueryInfo interface [Windows Shell],described, _win32_IQueryInfo, shell.IQueryInfo, shlobj_core/IQueryInfo
-ms.topic: interface
 f1_keywords:
 - shlobj_core/IQueryInfo
 dev_langs:

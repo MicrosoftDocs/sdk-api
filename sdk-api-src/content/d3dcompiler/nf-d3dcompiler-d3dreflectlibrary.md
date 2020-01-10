@@ -7,7 +7,6 @@ tech.root: direct3dhlsl
 ms.assetid: E64FB2C3-8F64-411F-89E1-984DAAE4D7C2
 ms.date: 12/05/2018
 ms.keywords: D3DReflectLibrary, D3DReflectLibrary function [HLSL], d3dcompiler/D3DReflectLibrary, direct3dhlsl.d3dreflectlibrary
-ms.topic: function
 f1_keywords:
 - d3dcompiler/D3DReflectLibrary
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 34864c69-091f-4dbd-9d56-e43f8d218b09
 ms.date: 12/05/2018
 ms.keywords: MI_Instance_SetServerName, MI_Instance_SetServerName function [Windows Management Infrastructure (MI)], mi/MI_Instance_SetServerName, wmi_v2.mi_instance_setservername
-ms.topic: function
 f1_keywords:
 - mi/MI_Instance_SetServerName
 dev_langs:

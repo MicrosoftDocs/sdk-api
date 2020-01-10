@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 60FA5675-C1E2-40CC-874D-F7E8942165CC
 ms.date: 12/05/2018
 ms.keywords: CreateCustomRenderingParams, CreateCustomRenderingParams method [Direct Write], CreateCustomRenderingParams method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],CreateCustomRenderingParams method, IDWriteFactory3.CreateCustomRenderingParams, IDWriteFactory3::CreateCustomRenderingParams, directwrite.idwritefactory3_createcustomrenderingparams, dwrite_3/IDWriteFactory3::CreateCustomRenderingParams
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFactory3.CreateCustomRenderingParams
 dev_langs:

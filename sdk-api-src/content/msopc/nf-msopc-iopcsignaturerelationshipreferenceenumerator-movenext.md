@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 6f004339-0cbf-4125-a09e-3b94ee22a0df
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureRelationshipReferenceEnumerator interface [Open Packaging Conventions],MoveNext method, IOpcSignatureRelationshipReferenceEnumerator.MoveNext, IOpcSignatureRelationshipReferenceEnumerator::MoveNext, MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions],IOpcSignatureRelationshipReferenceEnumerator interface, msopc/IOpcSignatureRelationshipReferenceEnumerator::MoveNext, opc.iopcsignaturerelationshipreferenceenumerator_movenext
-ms.topic: method
 f1_keywords:
 - msopc/IOpcSignatureRelationshipReferenceEnumerator.MoveNext
 dev_langs:

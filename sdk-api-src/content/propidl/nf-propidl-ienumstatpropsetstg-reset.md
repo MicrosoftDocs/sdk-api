@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 41207be6-81ec-4dfc-a737-eb56792edb6d
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATPROPSETSTG interface [Structured Storage],Reset method, IEnumSTATPROPSETSTG.Reset, IEnumSTATPROPSETSTG::Reset, Reset, Reset method [Structured Storage], Reset method [Structured Storage],IEnumSTATPROPSETSTG interface, propidlbase/IEnumSTATPROPSETSTG::Reset, stg.ienumstatpropsetstg_reset
-ms.topic: method
 f1_keywords:
 - propidl/IEnumSTATPROPSETSTG.Reset
 dev_langs:

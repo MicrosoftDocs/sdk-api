@@ -7,7 +7,6 @@ tech.root: MachineLearning
 ms.assetid: 94FBC8E4-13BD-49A5-A720-0827479A43A6
 ms.date: 12/05/2018
 ms.keywords: MachineLearning.winml_variable_desc, PWINML_VARIABLE_DESC, PWINML_VARIABLE_DESC structure pointer, WINML_VARIABLE_DESC, WINML_VARIABLE_DESC structure, winml/PWINML_VARIABLE_DESC, winml/WINML_VARIABLE_DESC
-ms.topic: struct
 f1_keywords:
 - winml/WINML_VARIABLE_DESC
 dev_langs:

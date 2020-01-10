@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 61b482cb-f0a3-4efb-9a68-f373f241e89a
 ms.date: 12/05/2018
 ms.keywords: SafeArrayUnaccessData, SafeArrayUnaccessData function [Automation], _oa96_SafeArrayUnaccessData, automat.safearrayunaccessdata, oleauto/SafeArrayUnaccessData
-ms.topic: function
 f1_keywords:
 - oleauto/SafeArrayUnaccessData
 dev_langs:

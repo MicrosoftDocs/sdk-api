@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 32dddcc0-4cf2-467f-b1a6-03c9892d3473
 ms.date: 12/05/2018
 ms.keywords: EngReadStateEvent, EngReadStateEvent function [Display Devices], display.engreadstateevent, gdifncs_921fb236-706b-405c-affd-25811f97c7de.xml, winddi/EngReadStateEvent
-ms.topic: function
 f1_keywords:
 - winddi/EngReadStateEvent
 dev_langs:

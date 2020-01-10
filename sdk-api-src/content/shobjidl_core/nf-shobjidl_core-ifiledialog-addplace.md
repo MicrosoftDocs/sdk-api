@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 2196e73f-4e0f-4213-b0a2-13a047486f40
 ms.date: 12/05/2018
 ms.keywords: AddPlace, AddPlace method [Windows Shell], AddPlace method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],AddPlace method, IFileDialog.AddPlace, IFileDialog::AddPlace, shell.IFileDialog_AddPlace, shell_IFileDialog_AddPlace, shobjidl_core/IFileDialog::AddPlace
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileDialog.AddPlace
 dev_langs:

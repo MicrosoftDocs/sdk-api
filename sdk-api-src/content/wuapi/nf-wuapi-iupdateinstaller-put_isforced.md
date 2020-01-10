@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 80a30a21-9369-44bb-984a-2fdf2c1810e4
 ms.date: 12/05/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],IsForced property, IUpdateInstaller.IsForced, IUpdateInstaller.put_IsForced, IUpdateInstaller::IsForced, IUpdateInstaller::get_IsForced, IUpdateInstaller::put_IsForced, IsForced property [Windows Update Agent], IsForced property [Windows Update Agent],IUpdateInstaller interface, put_IsForced, wua.iupdateinstaller_isforced, wuapi/IUpdateInstaller::IsForced, wuapi/IUpdateInstaller::get_IsForced, wuapi/IUpdateInstaller::put_IsForced
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateInstaller.IsForced
 dev_langs:

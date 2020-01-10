@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: A1887D61-0FAD-4BE8-850F-F104CC074798
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPackageInfo, GetCurrentPackageInfo function [App packaging and management], appmodel/GetCurrentPackageInfo, appxpkg.getcurrentpackageinfo
-ms.topic: function
 f1_keywords:
 - appmodel/GetCurrentPackageInfo
 dev_langs:

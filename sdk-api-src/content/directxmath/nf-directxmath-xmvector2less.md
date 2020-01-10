@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector2Less(XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2Less, XMVector2Less, XMVector2Less method [DirectX Math Support APIs], dxmath.xmvector2less
-ms.topic: function
 f1_keywords:
 - directxmath/XMVector2Less
 dev_langs:

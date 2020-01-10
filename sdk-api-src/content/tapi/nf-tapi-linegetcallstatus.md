@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 88bcd211-0993-4703-b43f-4e0b93e3eb7e
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetcallstatus, lineGetCallStatus, lineGetCallStatus function [TAPI 2.2], tapi/lineGetCallStatus, tapi2.linegetcallstatus
-ms.topic: function
 f1_keywords:
 - tapi/lineGetCallStatus
 dev_langs:

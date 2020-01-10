@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2ReciprocalLengthEst(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2ReciprocalLengthEst, XMVector2ReciprocalLengthEst, XMVector2ReciprocalLengthEst method [DirectX Math Support APIs], dxmath.xmvector2reciprocallengthest
-ms.topic: function
 f1_keywords:
 - directxmath/XMVector2ReciprocalLengthEst
 dev_langs:

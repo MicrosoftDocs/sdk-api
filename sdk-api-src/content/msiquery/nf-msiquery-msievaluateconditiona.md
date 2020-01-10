@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 8a444bad-8537-40ec-8c7d-6835e4319580
 ms.date: 12/05/2018
 ms.keywords: MsiEvaluateCondition, MsiEvaluateCondition function, MsiEvaluateConditionA, MsiEvaluateConditionW, _msi_msievaluatecondition, msiquery/MsiEvaluateCondition, msiquery/MsiEvaluateConditionA, msiquery/MsiEvaluateConditionW, setup.msievaluatecondition
-ms.topic: function
 f1_keywords:
 - msiquery/MsiEvaluateCondition
 dev_langs:

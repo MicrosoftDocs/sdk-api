@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: ec32c591-d677-4251-90c8-1bd4fa516245
 ms.date: 12/05/2018
 ms.keywords: INetFwMgr interface [ICS/ICF],LocalPolicy property, INetFwMgr.LocalPolicy, INetFwMgr.get_LocalPolicy, INetFwMgr::LocalPolicy, INetFwMgr::get_LocalPolicy, LocalPolicy property [ICS/ICF], LocalPolicy property [ICS/ICF],INetFwMgr interface, get_LocalPolicy, ics.inetfwmgr_localpolicy, netfw/INetFwMgr::LocalPolicy, netfw/INetFwMgr::get_LocalPolicy
-ms.topic: method
 f1_keywords:
 - netfw/INetFwMgr.LocalPolicy
 dev_langs:

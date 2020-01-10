@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 2b19b41c-fd1b-4284-8455-2b0d69907c99
 ms.date: 12/05/2018
 ms.keywords: FindExportedTypeByName, FindExportedTypeByName method [Windows Runtime], FindExportedTypeByName method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],FindExportedTypeByName method, IMetaDataAssemblyImport.FindExportedTypeByName, IMetaDataAssemblyImport::FindExportedTypeByName, rometadataapi/IMetaDataAssemblyImport::FindExportedTypeByName, winrt.imetadataassemblyimport_findexportedtypebyname
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataAssemblyImport.FindExportedTypeByName
 dev_langs:

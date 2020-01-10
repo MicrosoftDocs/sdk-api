@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrbautosize.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMRBAUTOSIZE, LPNMRBAUTOSIZE, LPNMRBAUTOSIZE structure pointer [Windows Controls], NMRBAUTOSIZE, NMRBAUTOSIZE structure [Windows Controls], _win32_NMRBAUTOSIZE, _win32_NMRBAUTOSIZE_cpp, commctrl/LPNMRBAUTOSIZE, commctrl/NMRBAUTOSIZE, controls.NMRBAUTOSIZE, controls._win32_NMRBAUTOSIZE'
-ms.topic: struct
 f1_keywords:
 - commctrl/NMRBAUTOSIZE
 dev_langs:

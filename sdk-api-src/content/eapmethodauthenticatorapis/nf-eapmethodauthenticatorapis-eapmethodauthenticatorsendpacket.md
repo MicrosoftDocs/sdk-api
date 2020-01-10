@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 5227ff56-8ac3-4fd7-b6c0-c2d3ef6b906e
 ms.date: 12/05/2018
 ms.keywords: EapMethodAuthenticatorSendPacket, EapMethodAuthenticatorSendPacket function [EAPHost], eaphost.eapmethodauthenticatorsendpacket, eapmethodauthenticatorapis/EapMethodAuthenticatorSendPacket
-ms.topic: function
 f1_keywords:
 - eapmethodauthenticatorapis/EapMethodAuthenticatorSendPacket
 dev_langs:

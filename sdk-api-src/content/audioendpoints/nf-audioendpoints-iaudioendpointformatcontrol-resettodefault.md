@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: EAE5206D-8BDF-4016-A0E6-D56D0F6B3566
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointFormatControl interface [Core Audio],ResetToDefault method, IAudioEndpointFormatControl.ResetToDefault, IAudioEndpointFormatControl::ResetToDefault, ResetToDefault, ResetToDefault method [Core Audio], ResetToDefault method [Core Audio],IAudioEndpointFormatControl interface, audioendpoints/IAudioEndpointFormatControl::ResetToDefault, coreaudio.iaudioendpointformatcontrol_resettodefault
-ms.topic: method
 f1_keywords:
 - audioendpoints/IAudioEndpointFormatControl.ResetToDefault
 dev_langs:

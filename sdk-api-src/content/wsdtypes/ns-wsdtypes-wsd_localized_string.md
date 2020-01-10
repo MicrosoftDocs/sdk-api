@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: c90cc459-a10d-4b2b-81bc-96e562755b6c
 ms.date: 12/05/2018
 ms.keywords: WSD_LOCALIZED_STRING, WSD_LOCALIZED_STRING structure, ncd.wsd_localized_string_struct, wsdtypes/WSD_LOCALIZED_STRING
-ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_LOCALIZED_STRING
 dev_langs:

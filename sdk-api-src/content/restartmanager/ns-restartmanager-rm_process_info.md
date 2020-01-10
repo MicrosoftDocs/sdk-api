@@ -7,7 +7,6 @@ tech.root: rstmgr
 ms.assetid: 27e593f9-8ff0-4de4-87ca-7fa5f324468a
 ms.date: 12/05/2018
 ms.keywords: '*PRM_PROCESS_INFO, RM_PROCESS_INFO, RM_PROCESS_INFO structure [Restart Mgr], restartmanager/_RM_PROCESS_INFO, rstmgr.rm_process_info'
-ms.topic: struct
 f1_keywords:
 - restartmanager/RM_PROCESS_INFO
 dev_langs:

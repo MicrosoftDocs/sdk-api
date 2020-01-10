@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapoparameterbase.CXAPOParametersBase.OnSetParameters(const void,UINT32)
 ms.date: 12/05/2018
 ms.keywords: CXAPOParametersBase interface [XAudio2 Audio Mixing APIs],OnSetParameters method, CXAPOParametersBase.OnSetParameters, CXAPOParametersBase::OnSetParameters, OnSetParameters, OnSetParameters method [XAudio2 Audio Mixing APIs], OnSetParameters method [XAudio2 Audio Mixing APIs],CXAPOParametersBase interface, xapobase/CXAPOParametersBase::OnSetParameters, xaudio2.cxapoparametersbase_onsetparameters
-ms.topic: method
 f1_keywords:
 - xapobase/CXAPOParametersBase.OnSetParameters
 dev_langs:

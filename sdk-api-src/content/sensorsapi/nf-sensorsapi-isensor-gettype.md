@@ -7,7 +7,6 @@ tech.root: SensorsAPI
 ms.assetid: b01434ec-163a-4d91-a457-3d2a2c2a710a
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method, GetType method,ISensor interface, ISensor interface,GetType method, ISensor.GetType, ISensor::GetType, sensorsapi/ISensor::GetType, winsensors_com_ref.isensor_gettype
-ms.topic: method
 f1_keywords:
 - sensorsapi/ISensor.GetType
 dev_langs:

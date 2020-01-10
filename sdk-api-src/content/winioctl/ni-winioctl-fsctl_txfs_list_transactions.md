@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: ff319bf0-2bd4-4824-bf97-b9b6eab90915
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_LIST_TRANSACTIONS, FSCTL_TXFS_LIST_TRANSACTIONS control, FSCTL_TXFS_LIST_TRANSACTIONS control code [Files], fs.fsctl_txfs_list_transactions, winioctl/FSCTL_TXFS_LIST_TRANSACTIONS
-ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_TXFS_LIST_TRANSACTIONS
 dev_langs:

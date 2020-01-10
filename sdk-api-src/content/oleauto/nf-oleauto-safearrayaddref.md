@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 0745D2E7-447E-4688-ADCF-1F889BC55BFB
 ms.date: 12/05/2018
 ms.keywords: SafeArrayAddRef, SafeArrayAddRef function [Automation], automat.safearrayaddref, oleauto/SafeArrayAddRef
-ms.topic: function
 f1_keywords:
 - oleauto/SafeArrayAddRef
 dev_langs:

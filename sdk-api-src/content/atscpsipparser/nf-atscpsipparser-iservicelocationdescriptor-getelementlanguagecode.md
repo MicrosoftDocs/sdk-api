@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 8ffc0c58-1305-49bf-bdbd-efb18805516f
 ms.date: 12/05/2018
 ms.keywords: GetElementLanguageCode, GetElementLanguageCode method [Microsoft TV Technologies], GetElementLanguageCode method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetElementLanguageCode method, IServiceLocationDescriptor.GetElementLanguageCode, IServiceLocationDescriptor::GetElementLanguageCode, atscpsipparser/IServiceLocationDescriptor::GetElementLanguageCode, mstv.iservicelocationdescriptor_getelementlanguagecode
-ms.topic: method
 f1_keywords:
 - atscpsipparser/IServiceLocationDescriptor.GetElementLanguageCode
 dev_langs:

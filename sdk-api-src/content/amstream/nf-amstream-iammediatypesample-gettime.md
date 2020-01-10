@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ffbbc857-ddcc-4625-b591-b95a256d40ba
 ms.date: 12/05/2018
 ms.keywords: GetTime, GetTime method [DirectShow], GetTime method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetTime method, IAMMediaTypeSample.GetTime, IAMMediaTypeSample::GetTime, IAMMediaTypeSampleGetTime, amstream/IAMMediaTypeSample::GetTime, dshow.iammediatypesample_gettime
-ms.topic: method
 f1_keywords:
 - amstream/IAMMediaTypeSample.GetTime
 dev_langs:

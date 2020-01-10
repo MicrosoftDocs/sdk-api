@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: 81D52B0C-BADD-48C0-85DB-57CA82D7BBA8
 ms.date: 12/05/2018
 ms.keywords: IWordFormSink, IWordFormSink interface [search], IWordFormSink interface [search],described, indexsrv/IWordFormSink, search.iwordformsink
-ms.topic: interface
 f1_keywords:
 - indexsrv/IWordFormSink
 dev_langs:

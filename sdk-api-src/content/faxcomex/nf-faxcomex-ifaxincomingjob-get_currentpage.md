@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4zad.htm
 ms.date: 12/05/2018
 ms.keywords: CurrentPage property [Fax Service], CurrentPage property [Fax Service],IFaxIncomingJob interface, IFaxIncomingJob interface [Fax Service],CurrentPage property, IFaxIncomingJob.CurrentPage, IFaxIncomingJob.get_CurrentPage, IFaxIncomingJob::CurrentPage, IFaxIncomingJob::get_CurrentPage, _mfax_faxincomingjob.currentpage, fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_currentpage_cpp, fax._mfax_faxincomingjob_currentpage, faxcomex/IFaxIncomingJob::CurrentPage, faxcomex/IFaxIncomingJob::get_CurrentPage, get_CurrentPage
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxIncomingJob.CurrentPage
 dev_langs:

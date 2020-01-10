@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 20883A4E-BE7B-4312-978A-3BF9362CA6DA
 ms.date: 12/05/2018
 ms.keywords: GetPayloadFiles, GetPayloadFiles method [App packaging and management], GetPayloadFiles method [App packaging and management],IAppxPackageReader interface, IAppxPackageReader interface [App packaging and management],GetPayloadFiles method, IAppxPackageReader.GetPayloadFiles, IAppxPackageReader::GetPayloadFiles, appxpackaging/IAppxPackageReader::GetPayloadFiles, appxpkg.iappxpackagereader_getpayloadfiles
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxPackageReader.GetPayloadFiles
 dev_langs:

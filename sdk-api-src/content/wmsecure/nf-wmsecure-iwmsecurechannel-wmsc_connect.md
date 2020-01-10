@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: d8386b23-6319-4687-9de2-a81e661a60e6
 ms.date: 12/05/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_Connect method, IWMSecureChannel.WMSC_Connect, IWMSecureChannel::WMSC_Connect, WMSC_Connect, WMSC_Connect method [windows Media Format], WMSC_Connect method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_connect, wmsecure/IWMSecureChannel::WMSC_Connect
-ms.topic: method
 f1_keywords:
 - wmsecure/IWMSecureChannel.WMSC_Connect
 dev_langs:

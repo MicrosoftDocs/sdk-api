@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 25c4338a-1ea3-4fff-a6bf-f3884a8154d3
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_MAIL_LIST_ENCRYPT_INFO, CMSG_MAIL_LIST_ENCRYPT_FREE_OBJID_FLAG, CMSG_MAIL_LIST_ENCRYPT_FREE_PARA_FLAG, CMSG_MAIL_LIST_ENCRYPT_INFO, CMSG_MAIL_LIST_ENCRYPT_INFO structure [Security], PCMSG_MAIL_LIST_ENCRYPT_INFO, PCMSG_MAIL_LIST_ENCRYPT_INFO structure pointer [Security], security.cmsg_mail_list_encrypt_info, wincrypt/CMSG_MAIL_LIST_ENCRYPT_INFO, wincrypt/PCMSG_MAIL_LIST_ENCRYPT_INFO'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CMSG_MAIL_LIST_ENCRYPT_INFO
 dev_langs:

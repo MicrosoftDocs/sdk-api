@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 652e2e7a-79ae-4668-b269-153ee08a5de9
 ms.date: 12/05/2018
 ms.keywords: SetPixel, SetPixel function [Windows GDI], _win32_SetPixel, gdi.setpixel, wingdi/SetPixel
-ms.topic: function
 f1_keywords:
 - wingdi/SetPixel
 dev_langs:

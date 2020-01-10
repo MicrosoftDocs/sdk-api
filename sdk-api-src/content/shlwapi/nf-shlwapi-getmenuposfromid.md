@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 25fb51bc-9b36-4afb-bb07-7bc455c7fbc4
 ms.date: 12/05/2018
 ms.keywords: GetMenuPosFromID, GetMenuPosFromID function [Windows Shell], _shell_GetMenuPosFromID, shell.GetMenuPosFromID, shlwapi/GetMenuPosFromID
-ms.topic: function
 f1_keywords:
 - shlwapi/GetMenuPosFromID
 dev_langs:

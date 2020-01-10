@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 0e466090-b551-44e8-a86d-75126352aa49
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetContext method, IVssBackupComponents.SetContext, IVssBackupComponents::SetContext, SetContext, SetContext method [VSS], SetContext method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setcontext, base.ivssbackupcomponents_setcontext, vsbackup/IVssBackupComponents::SetContext
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponents.SetContext
 dev_langs:

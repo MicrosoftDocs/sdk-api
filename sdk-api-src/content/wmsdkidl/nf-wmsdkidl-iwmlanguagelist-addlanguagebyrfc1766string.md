@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 3aec575c-8e04-4252-8863-1a458e56dcef
 ms.date: 12/05/2018
 ms.keywords: AddLanguageByRFC1766String, AddLanguageByRFC1766String method [windows Media Format], AddLanguageByRFC1766String method [windows Media Format],IWMLanguageList interface, IWMLanguageList interface [windows Media Format],AddLanguageByRFC1766String method, IWMLanguageList.AddLanguageByRFC1766String, IWMLanguageList::AddLanguageByRFC1766String, IWMLanguageListAddLanguageByRFC1766String, wmformat.iwmlanguagelist_addlanguagebyrfc1766string, wmsdkidl/IWMLanguageList::AddLanguageByRFC1766String
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMLanguageList.AddLanguageByRFC1766String
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: d3375fa9-2ab0-4e82-9196-0b3971a00185
 ms.date: 12/05/2018
 ms.keywords: GraphCreationPreRender, GraphCreationPreRender method [Windows Media Player], GraphCreationPreRender method [Windows Media Player],IWMPGraphCreation interface, IWMPGraphCreation interface [Windows Media Player],GraphCreationPreRender method, IWMPGraphCreation.GraphCreationPreRender, IWMPGraphCreation::GraphCreationPreRender, IWMPGraphCreationGraphCreationPreRenderdeprecated, wmp.iwmpgraphcreation_graphcreationprerender, wmpservices/IWMPGraphCreation::GraphCreationPreRender
-ms.topic: method
 f1_keywords:
 - wmpservices/IWMPGraphCreation.GraphCreationPreRender
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecSLApi
 ms.assetid: 5cea5bba-7bdd-422f-a3fe-ec69d3877efd
 ms.date: 12/05/2018
 ms.keywords: SLDepositOfflineConfirmationId, SLDepositOfflineConfirmationId function [Security], security.sldepositofflineconfirmationid, slpublic/SLDepositOfflineConfirmationId
-ms.topic: function
 f1_keywords:
 - slpublic/SLDepositOfflineConfirmationId
 dev_langs:

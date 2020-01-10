@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 3dcdca96-7c5d-4e69-b7dd-8b5ccda25f6a
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_b33adc91-e83f-42dc-a56a-536bf99cdb7f.xml, DISPLAYCONFIG_PATH_TARGET_INFO, DISPLAYCONFIG_PATH_TARGET_INFO structure [Display Devices], display.displayconfig_path_target_info, wingdi/DISPLAYCONFIG_PATH_TARGET_INFO
-ms.topic: struct
 f1_keywords:
 - wingdi/DISPLAYCONFIG_PATH_TARGET_INFO
 dev_langs:

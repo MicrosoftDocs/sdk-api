@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 9db99c31-65b5-4ff1-9c0d-22140a3687e8
 ms.date: 12/05/2018
 ms.keywords: IVMRWindowlessControl9, IVMRWindowlessControl9 interface [DirectShow], IVMRWindowlessControl9 interface [DirectShow],described, IVMRWindowlessControl9Interface, dshow.ivmrwindowlesscontrol9, vmr9/IVMRWindowlessControl9
-ms.topic: interface
 f1_keywords:
 - vmr9/IVMRWindowlessControl9
 dev_langs:

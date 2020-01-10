@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 3a7879fa-69d0-4c35-b5a8-ffb80665a22f
 ms.date: 12/05/2018
 ms.keywords: 198d836f-e656-5c8d-ac4c-cd5c594a32bd, D3DX11CreateFFT1DComplex, D3DX11CreateFFT1DComplex function [Direct3D 11], d3dcsx/D3DX11CreateFFT1DComplex, direct3d11.d3dx11createfft1dcomplex
-ms.topic: function
 f1_keywords:
 - d3dcsx/D3DX11CreateFFT1DComplex
 dev_langs:

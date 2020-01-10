@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 3a2c33b7-91ca-48eb-a5b9-a1ccb5106f90
 ms.date: 12/05/2018
 ms.keywords: 3a2c33b7-91ca-48eb-a5b9-a1ccb5106f90, SYSTEM_EVENT_DATA, SYSTEM_EVENT_DATA structure [Tablet PC], tablet.system_event_data, tagSYSTEM_EVENT_DATA, tpcshrd/SYSTEM_EVENT_DATA
-ms.topic: struct
 f1_keywords:
 - tpcshrd/SYSTEM_EVENT_DATA
 dev_langs:

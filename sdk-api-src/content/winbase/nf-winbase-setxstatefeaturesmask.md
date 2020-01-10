@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 64ADEA8A-DE78-437E-AE68-A68E7214C5FD
 ms.date: 12/05/2018
 ms.keywords: SetXStateFeaturesMask, SetXStateFeaturesMask function, base.setxstatefeaturesmask, winbase/SetXStateFeaturesMask
-ms.topic: function
 f1_keywords:
 - winbase/SetXStateFeaturesMask
 dev_langs:

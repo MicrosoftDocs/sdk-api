@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 8248b0ae-5d35-4d6e-91ef-c210033c99ef
 ms.date: 12/05/2018
 ms.keywords: PeerCreatePeerName, PeerCreatePeerName function [Peer Networking], p2p.peercreatepeername, p2p/PeerCreatePeerName
-ms.topic: function
 f1_keywords:
 - p2p/PeerCreatePeerName
 dev_langs:

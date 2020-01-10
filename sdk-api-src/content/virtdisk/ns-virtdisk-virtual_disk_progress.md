@@ -7,7 +7,6 @@ tech.root: VStor
 ms.assetid: 834d7384-09fe-493e-8402-135c453a1ecf
 ms.date: 12/05/2018
 ms.keywords: '*PVIRTUAL_DISK_PROGRESS, PVIRTUAL_DISK_PROGRESS, PVIRTUAL_DISK_PROGRESS structure pointer [VHD], VIRTUAL_DISK_PROGRESS, VIRTUAL_DISK_PROGRESS structure [VHD], _VIRTUAL_DISK_PROGRESS, vdssys/PVIRTUAL_DISK_PROGRESS, vdssys/VIRTUAL_DISK_PROGRESS, vhd.virtual_disk_progress, virtdisk/PVIRTUAL_DISK_PROGRESS, virtdisk/VIRTUAL_DISK_PROGRESS'
-ms.topic: struct
 f1_keywords:
 - virtdisk/VIRTUAL_DISK_PROGRESS
 dev_langs:

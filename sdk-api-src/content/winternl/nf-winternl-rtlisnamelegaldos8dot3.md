@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 705fd65a-dd56-46c8-9910-5c07caff9173
 ms.date: 12/05/2018
 ms.keywords: RtlIsNameLegalDOS8Dot3, RtlIsNameLegalDOS8Dot3 function [Windows API], base.rtlisnamelegaldos8dot3, fs.rtlisnamelegaldos8dot3, winprog.rtlisnamelegaldos8dot3, winternl/RtlIsNameLegalDOS8Dot3
-ms.topic: function
 f1_keywords:
 - winternl/RtlIsNameLegalDOS8Dot3
 dev_langs:

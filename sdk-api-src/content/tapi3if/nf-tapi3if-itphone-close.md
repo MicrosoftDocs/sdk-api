@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 1eae1a14-dd5e-4ba9-8e6e-71e9956cb3e3
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [TAPI 2.2], Close method [TAPI 2.2],ITPhone interface, ITPhone interface [TAPI 2.2],Close method, ITPhone.Close, ITPhone::Close, _tapi3_itphone_close, tapi3.itphone_close, tapi3if/ITPhone::Close
-ms.topic: method
 f1_keywords:
 - tapi3if/ITPhone.Close
 dev_langs:

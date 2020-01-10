@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 1F844204-0709-4203-80C5-C90949F96159
 ms.date: 12/05/2018
 ms.keywords: CapturedMetadataWhiteBalanceGains, CapturedMetadataWhiteBalanceGains structure [Streaming Media Devices], mfapi/CapturedMetadataWhiteBalanceGains, stream.capturedmetadatawhitebalancegains
-ms.topic: struct
 f1_keywords:
 - mfapi/CapturedMetadataWhiteBalanceGains
 dev_langs:

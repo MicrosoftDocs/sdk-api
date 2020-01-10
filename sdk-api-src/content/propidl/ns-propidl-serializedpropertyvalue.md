@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ab64a16e-624d-427a-8f9c-5c8c4a9df625
 ms.date: 12/05/2018
 ms.keywords: SERIALIZEDPROPERTYVALUE, SERIALIZEDPROPERTYVALUE structure [Windows Shell], _shell_SERIALIZEDPROPERTYVALUE, propidl/SERIALIZEDPROPERTYVALUE, shell.SERIALIZEDPROPERTYVALUE
-ms.topic: struct
 f1_keywords:
 - propidl/SERIALIZEDPROPERTYVALUE
 dev_langs:

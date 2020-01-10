@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 2B466C04-7768-4F15-AC68-55A3074499C1
 ms.date: 12/05/2018
 ms.keywords: GetAttributeValueLength, GetAttributeValueLength method [Direct2D], GetAttributeValueLength method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetAttributeValueLength method, ID2D1SvgElement.GetAttributeValueLength, ID2D1SvgElement::GetAttributeValueLength, d2d1svg/ID2D1SvgElement::GetAttributeValueLength, direct2d.id2d1svgelement_getattributevaluelength
-ms.topic: method
 f1_keywords:
 - d2d1svg/ID2D1SvgElement.GetAttributeValueLength
 dev_langs:

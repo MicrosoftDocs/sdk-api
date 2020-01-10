@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: d103a4dd-949e-4f18-ac90-bb0e51011233
 ms.date: 12/05/2018
 ms.keywords: SetWorldTransform, SetWorldTransform function [Windows GDI], _win32_SetWorldTransform, gdi.setworldtransform, wingdi/SetWorldTransform
-ms.topic: function
 f1_keywords:
 - wingdi/SetWorldTransform
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 87477e25-d4bc-44d2-932b-f266b0bdaafa
 ms.date: 12/05/2018
 ms.keywords: RtmDeleteEnumHandle, RtmDeleteEnumHandle function [RAS], _rtmv2ref_rtmdeleteenumhandle, rras.rtmdeleteenumhandle, rtmv2/RtmDeleteEnumHandle
-ms.topic: function
 f1_keywords:
 - rtmv2/RtmDeleteEnumHandle
 dev_langs:

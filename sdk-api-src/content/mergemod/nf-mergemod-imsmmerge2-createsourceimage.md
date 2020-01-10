@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: c42fa644-f0e6-4261-af76-741df572df3a
 ms.date: 12/05/2018
 ms.keywords: CreateSourceImage, CreateSourceImage method, CreateSourceImage method,IMsmMerge2 interface, IMsmMerge2 interface,CreateSourceImage method, IMsmMerge2.CreateSourceImage, IMsmMerge2::CreateSourceImage, _msi_createsourceimage_function, mergemod/IMsmMerge2::CreateSourceImage, setup.imsmmerge2_createsourceimage
-ms.topic: method
 f1_keywords:
 - mergemod/IMsmMerge2.CreateSourceImage
 dev_langs:

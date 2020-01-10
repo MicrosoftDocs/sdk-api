@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 9FCF949C-B2B8-404F-9E4C-8CC6B636B687
 ms.date: 12/05/2018
 ms.keywords: D3D12_TILE_SHAPE, D3D12_TILE_SHAPE structure, d3d12/D3D12_TILE_SHAPE, direct3d12.d3d12_tile_shape
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_TILE_SHAPE
 dev_langs:

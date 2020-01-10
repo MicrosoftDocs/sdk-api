@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 9a3f409e-f58a-4c06-ad5e-b0a8bc03da2c
 ms.date: 12/05/2018
 ms.keywords: AddFilesToFileGroup, AddFilesToFileGroup method, AddFilesToFileGroup method,IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,AddFilesToFileGroup method, IVssCreateExpressWriterMetadata.AddFilesToFileGroup, IVssCreateExpressWriterMetadata::AddFilesToFileGroup, base.ivsscreateexpresswritermetadata_addfilestofilegroup, vswriter/IVssCreateExpressWriterMetadata::AddFilesToFileGroup
-ms.topic: method
 f1_keywords:
 - vswriter/IVssCreateExpressWriterMetadata.AddFilesToFileGroup
 dev_langs:

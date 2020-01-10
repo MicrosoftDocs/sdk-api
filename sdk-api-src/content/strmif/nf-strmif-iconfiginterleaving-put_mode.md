@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 62b06dc2-2e71-4a14-82e5-63e921a3c11f
 ms.date: 12/05/2018
 ms.keywords: IConfigInterleaving interface [DirectShow],put_Mode method, IConfigInterleaving.put_Mode, IConfigInterleaving::put_Mode, IConfigInterleavingput_Mode, dshow.iconfiginterleaving_put_mode, put_Mode, put_Mode method [DirectShow], put_Mode method [DirectShow],IConfigInterleaving interface, strmif/IConfigInterleaving::put_Mode
-ms.topic: method
 f1_keywords:
 - strmif/IConfigInterleaving.put_Mode
 dev_langs:

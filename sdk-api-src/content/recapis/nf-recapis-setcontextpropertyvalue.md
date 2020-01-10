@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 42b1857d-92ee-456f-aafc-b8780526a137
 ms.date: 12/05/2018
 ms.keywords: 42b1857d-92ee-456f-aafc-b8780526a137, SetContextPropertyValue, SetContextPropertyValue function [Tablet PC], recapis/SetContextPropertyValue, tablet.setcontextpropertyvalue
-ms.topic: function
 f1_keywords:
 - recapis/SetContextPropertyValue
 dev_langs:

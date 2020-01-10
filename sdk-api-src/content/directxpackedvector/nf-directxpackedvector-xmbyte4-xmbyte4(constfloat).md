@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: 9c8de507-9305-4b64-9176-46e662b22fae
 ms.date: 05/06/2019
 ms.keywords: XMBYTE4, XMBYTE4 constructor [DirectX Math Support APIs], XMBYTE4 constructor [DirectX Math Support APIs],XMBYTE4 structure, XMBYTE4 structure [DirectX Math Support APIs],XMBYTE4 constructor, XMBYTE4.XMBYTE4, XMBYTE4.XMBYTE4(), XMBYTE4.XMBYTE4(const float), XMBYTE4::XMBYTE4, XMBYTE4::XMBYTE4(const float), dxmath.xmbyte4_ctor_1
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMBYTE4.XMBYTE4
 dev_langs:

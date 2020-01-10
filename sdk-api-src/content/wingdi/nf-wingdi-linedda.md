@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 1400d947-324a-4921-9f65-f5d3a11005da
 ms.date: 12/05/2018
 ms.keywords: LineDDA, LineDDA function [Windows GDI], _win32_LineDDA, gdi.linedda, wingdi/LineDDA
-ms.topic: function
 f1_keywords:
 - wingdi/LineDDA
 dev_langs:

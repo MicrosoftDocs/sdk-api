@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 28e85b53-fd0c-4210-ae2b-794efaf65bd4
 ms.date: 12/05/2018
 ms.keywords: PTCloseProvider, PTCloseProvider function [Windows GDI], _win32_PTCloseProvider, gdi.ptcloseprovider, prntvpt/PTCloseProvider
-ms.topic: function
 f1_keywords:
 - prntvpt/PTCloseProvider
 dev_langs:

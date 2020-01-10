@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 40AE4FB7-B81D-4CC1-B1A2-53952AE538DD
 ms.date: 12/05/2018
 ms.keywords: '*PFH_PROTECTED_ITEM_CATEGORY, FH_FOLDER, FH_LIBRARY, FH_PROTECTED_ITEM_CATEGORY, FH_PROTECTED_ITEM_CATEGORY enumeration [Windows API], MAX_PROTECTED_ITEM_CATEGORY, fhcfg/FH_FOLDER, fhcfg/FH_LIBRARY, fhcfg/FH_PROTECTED_ITEM_CATEGORY, fhcfg/MAX_PROTECTED_ITEM_CATEGORY, winprog.fh_protected_item_category'
-ms.topic: enum
 f1_keywords:
 - fhcfg/FH_PROTECTED_ITEM_CATEGORY
 dev_langs:

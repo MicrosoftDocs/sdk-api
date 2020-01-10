@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 2B4B868F-3E9F-4570-B1C7-2767ED717A3B
 ms.date: 12/05/2018
 ms.keywords: D3D12_SHADER_RESOURCE_VIEW_DESC, D3D12_SHADER_RESOURCE_VIEW_DESC structure, d3d12/D3D12_SHADER_RESOURCE_VIEW_DESC, direct3d12.d3d12_shader_resource_view_desc
-ms.topic: struct
 f1_keywords:
 - d3d12/D3D12_SHADER_RESOURCE_VIEW_DESC
 dev_langs:

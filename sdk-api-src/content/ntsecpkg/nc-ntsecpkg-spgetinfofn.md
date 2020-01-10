@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: e1e6f71f-6f54-424c-be49-7bc11cb19036
 ms.date: 12/05/2018
 ms.keywords: SpGetInfo, SpGetInfo callback function [Security], SpGetInfoFn, SpGetInfoFn callback, _ssp_spgetinfo, ntsecpkg/SpGetInfo, security.spgetinfo
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpGetInfo
 dev_langs:

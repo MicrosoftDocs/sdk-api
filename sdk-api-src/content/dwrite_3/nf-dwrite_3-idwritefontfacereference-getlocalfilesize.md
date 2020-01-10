@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: f6dc5cf5-131f-a451-7979-3ae8613577bb
 ms.date: 12/05/2018
 ms.keywords: GetLocalFileSize, GetLocalFileSize method [Direct Write], GetLocalFileSize method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],GetLocalFileSize method, IDWriteFontFaceReference.GetLocalFileSize, IDWriteFontFaceReference::GetLocalFileSize, directwrite.idwritefontfacereference_getlocalfilesize, dwrite_3/IDWriteFontFaceReference::GetLocalFileSize
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontFaceReference.GetLocalFileSize
 dev_langs:

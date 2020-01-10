@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: fef5e6a4-3a97-4799-b46d-c0e82b1c0104
 ms.date: 12/05/2018
 ms.keywords: FilterEnabled property [PLA], FilterEnabled property [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],FilterEnabled property, ITraceDataProvider.FilterEnabled, ITraceDataProvider.put_FilterEnabled, ITraceDataProvider::FilterEnabled, ITraceDataProvider::get_FilterEnabled, ITraceDataProvider::put_FilterEnabled, pla.itracedataprovider_filterenabled, pla/ITraceDataProvider::FilterEnabled, pla/ITraceDataProvider::get_FilterEnabled, pla/ITraceDataProvider::put_FilterEnabled, put_FilterEnabled
-ms.topic: method
 f1_keywords:
 - pla/ITraceDataProvider.FilterEnabled
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: dcbe22fb-624f-4784-b1c3-5c463d6502a3
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrScheduleWizardUIOperation, ISyncMgrScheduleWizardUIOperation interface [Windows Shell], ISyncMgrScheduleWizardUIOperation interface [Windows Shell],described, _shell_ISyncMgrScheduleWizardUIOperation, shell.ISyncMgrScheduleWizardUIOperation, syncmgr/ISyncMgrScheduleWizardUIOperation
-ms.topic: interface
 f1_keywords:
 - syncmgr/ISyncMgrScheduleWizardUIOperation
 dev_langs:

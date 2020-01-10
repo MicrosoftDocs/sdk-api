@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: e7052dd2-c910-41d8-a58a-8f3e68e09dd0
 ms.date: 12/05/2018
 ms.keywords: IOpcPackage, IOpcPackage interface [Open Packaging Conventions], IOpcPackage interface [Open Packaging Conventions],described, msopc/IOpcPackage, opc.iopcpackage
-ms.topic: interface
 f1_keywords:
 - msopc/IOpcPackage
 dev_langs:

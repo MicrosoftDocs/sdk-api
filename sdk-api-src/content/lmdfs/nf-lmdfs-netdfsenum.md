@@ -7,7 +7,6 @@ tech.root: Dfs
 ms.assetid: c05a8d78-41f4-4c19-a25e-ef4885869584
 ms.date: 12/05/2018
 ms.keywords: 1, 2, 200, 3, 300, 4, 5, 6, 8, 9, NetDfsEnum, NetDfsEnum function [Distributed File System], _win32_netdfsenum, dfs.netdfsenum, fs.netdfsenum, lmdfs/NetDfsEnum, netmgmt.netdfsenum
-ms.topic: function
 f1_keywords:
 - lmdfs/NetDfsEnum
 dev_langs:

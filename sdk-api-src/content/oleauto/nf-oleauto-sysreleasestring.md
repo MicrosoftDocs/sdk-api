@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: D4905794-A4EA-4925-A4B2-92C8BF6EDFD0
 ms.date: 12/05/2018
 ms.keywords: SysReleaseString, SysReleaseString function [Automation], automat.sysreleasestring, oleauto/SysReleaseString
-ms.topic: function
 f1_keywords:
 - oleauto/SysReleaseString
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\draglb\functions\makedraglist.htm
 ms.date: 12/05/2018
 ms.keywords: MakeDragList, MakeDragList function [Windows Controls], _win32_MakeDragList, _win32_MakeDragList_cpp, commctrl/MakeDragList, controls.MakeDragList, controls._win32_MakeDragList
-ms.topic: function
 f1_keywords:
 - commctrl/MakeDragList
 dev_langs:

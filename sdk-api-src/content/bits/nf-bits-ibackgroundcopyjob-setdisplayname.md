@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 504b0096-891c-4bf7-a311-9d351b359210
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetDisplayName method, IBackgroundCopyJob.SetDisplayName, IBackgroundCopyJob::SetDisplayName, SetDisplayName, SetDisplayName method [BITS], SetDisplayName method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setdisplayname, bits.ibackgroundcopyjob_setdisplayname, bits/IBackgroundCopyJob::SetDisplayName
-ms.topic: method
 f1_keywords:
 - bits/IBackgroundCopyJob.SetDisplayName
 dev_langs:

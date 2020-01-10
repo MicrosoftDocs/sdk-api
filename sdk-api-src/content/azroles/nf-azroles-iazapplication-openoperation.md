@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 37dddf38-a79b-419f-891b-8da7dc2bdf42
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],OpenOperation method, IAzApplication interface [Security],OpenOperation method, IAzApplication.OpenOperation, IAzApplication::OpenOperation, OpenOperation, OpenOperation method [Security], OpenOperation method [Security],AzApplication object, OpenOperation method [Security],IAzApplication interface, azroles/IAzApplication::OpenOperation, security.iazapplication_openoperation
-ms.topic: method
 f1_keywords:
 - azroles/IAzApplication.OpenOperation
 dev_langs:

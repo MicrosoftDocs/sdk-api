@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 69394df9-5382-49eb-9aa2-0785dee10ac4
 ms.date: 12/05/2018
 ms.keywords: GetTimeFormat, GetTimeFormat method [Open Packaging Conventions], GetTimeFormat method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetTimeFormat method, IOpcSigningOptions.GetTimeFormat, IOpcSigningOptions::GetTimeFormat, msopc/IOpcSigningOptions::GetTimeFormat, opc.iopcsigningoptions_gettimeformat
-ms.topic: method
 f1_keywords:
 - msopc/IOpcSigningOptions.GetTimeFormat
 dev_langs:

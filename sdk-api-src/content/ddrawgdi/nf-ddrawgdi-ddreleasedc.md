@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddreleasedc.htm
 ms.date: 12/05/2018
 ms.keywords: DdReleaseDC, DdReleaseDC function [Windows API], GdiEntry8, _dxgkernel_ddreleasedc, ddrawgdi/DdReleaseDC, ddrawgdi/GdiEntry8, winprog._dxgkernel_ddreleasedc, winui._dxgkernel_ddreleasedc
-ms.topic: function
 f1_keywords:
 - ddrawgdi/DdReleaseDC
 dev_langs:

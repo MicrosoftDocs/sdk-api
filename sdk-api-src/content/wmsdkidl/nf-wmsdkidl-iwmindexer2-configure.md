@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: b4ab9ad8-5fc7-43ce-ba2f-f32135a44a86
 ms.date: 12/05/2018
 ms.keywords: Configure, Configure method [windows Media Format], Configure method [windows Media Format],IWMIndexer2 interface, IWMIndexer2 interface [windows Media Format],Configure method, IWMIndexer2.Configure, IWMIndexer2::Configure, IWMIndexer2Configure, wmformat.iwmindexer2_configure, wmsdkidl/IWMIndexer2::Configure
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMIndexer2.Configure
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 817ed1c1-16ad-4520-a1a0-a93563936b50
 ms.date: 12/05/2018
 ms.keywords: 817ed1c1-16ad-4520-a1a0-a93563936b50, IMFAttributes interface [Media Foundation],SetUINT64 method, IMFAttributes.SetUINT64, IMFAttributes::SetUINT64, SetUINT64, SetUINT64 method [Media Foundation], SetUINT64 method [Media Foundation],IMFAttributes interface, mf.imfattributes_setuint64, mfobjects/IMFAttributes::SetUINT64
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFAttributes.SetUINT64
 dev_langs:

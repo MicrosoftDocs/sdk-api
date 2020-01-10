@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_dev_cap.htm
 ms.date: 12/05/2018
 ms.keywords: '*PWIA_DEV_CAP, *PWIA_EVENT_HANDLER, PWIA_DEV_CAP, PWIA_DEV_CAP structure pointer [WIA], PWIA_EVENT_HANDLER, PWIA_EVENT_HANDLER structure pointer [WIA], WIA_DEV_CAP, WIA_DEV_CAP structure [WIA], WIA_EVENT_HANDLER, WIA_EVENT_HANDLER structure [WIA], _wia_WIA_DEV_CAP, wia._wia_WIA_DEV_CAP, wia_xp/PWIA_DEV_CAP, wia_xp/PWIA_EVENT_HANDLER, wia_xp/WIA_DEV_CAP, wia_xp/WIA_EVENT_HANDLER'
-ms.topic: struct
 f1_keywords:
 - wia_xp/WIA_DEV_CAP
 dev_langs:

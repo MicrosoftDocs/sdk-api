@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: ac30de71-7a2e-4a65-a37b-34a0d01ca645
 ms.date: 12/05/2018
 ms.keywords: IVdsLun interface,QueryMaxLunExtendSize method, IVdsLun.QueryMaxLunExtendSize, IVdsLun::QueryMaxLunExtendSize, QueryMaxLunExtendSize, QueryMaxLunExtendSize method, QueryMaxLunExtendSize method,IVdsLun interface, base.ivdslun_querymaxlunextendsize, vds/IVdsLun::QueryMaxLunExtendSize, vdshwprv/IVdsLun::QueryMaxLunExtendSize
-ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsLun.QueryMaxLunExtendSize
 dev_langs:

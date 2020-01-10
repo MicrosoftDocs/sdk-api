@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 31e326e2-56de-4c7c-b26a-836c9fc76342
 ms.date: 12/05/2018
 ms.keywords: IQualProp interface [DirectShow],get_AvgFrameRate method, IQualProp.get_AvgFrameRate, IQualProp::get_AvgFrameRate, IQualPropget_AvgFrameRate, amvideo/IQualProp::get_AvgFrameRate, dshow.iqualprop_get_avgframerate, get_AvgFrameRate, get_AvgFrameRate method [DirectShow], get_AvgFrameRate method [DirectShow],IQualProp interface
-ms.topic: method
 f1_keywords:
 - amvideo/IQualProp.get_AvgFrameRate
 dev_langs:

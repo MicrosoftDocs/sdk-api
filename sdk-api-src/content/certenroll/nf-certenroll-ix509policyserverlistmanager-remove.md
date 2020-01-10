@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: c2e59087-a62b-4013-9a16-fedd03b2c286
 ms.date: 12/05/2018
 ms.keywords: IX509PolicyServerListManager interface [Security],Remove method, IX509PolicyServerListManager.Remove, IX509PolicyServerListManager::Remove, Remove, Remove method [Security], Remove method [Security],IX509PolicyServerListManager interface, certenroll/IX509PolicyServerListManager::Remove, security.ix509policyserverlistmanager_remove
-ms.topic: method
 f1_keywords:
 - certenroll/IX509PolicyServerListManager.Remove
 dev_langs:

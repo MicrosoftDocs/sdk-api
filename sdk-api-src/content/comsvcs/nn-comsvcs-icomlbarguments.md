@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 1eb1c464-9371-420e-afc0-4b18c11a70d4
 ms.date: 12/05/2018
 ms.keywords: ICOMLBArguments, ICOMLBArguments interface [COM+], ICOMLBArguments interface [COM+],described, _cos_icomlbarguments, comsvcs/ICOMLBArguments, cos.icomlbarguments
-ms.topic: interface
 f1_keywords:
 - comsvcs/ICOMLBArguments
 dev_langs:

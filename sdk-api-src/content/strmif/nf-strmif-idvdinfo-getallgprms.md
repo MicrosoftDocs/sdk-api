@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 87d82404-cd43-4499-abc2-6c043c43bf4e
 ms.date: 12/05/2018
 ms.keywords: GetAllGPRMs, GetAllGPRMs method [DirectShow], GetAllGPRMs method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetAllGPRMs method, IDvdInfo.GetAllGPRMs, IDvdInfo::GetAllGPRMs, IDvdInfoGetAllGPRMs, dshow.idvdinfo_getallgprms, strmif/IDvdInfo::GetAllGPRMs
-ms.topic: method
 f1_keywords:
 - strmif/IDvdInfo.GetAllGPRMs
 dev_langs:

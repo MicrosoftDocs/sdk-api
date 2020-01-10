@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 6D931285-0F2B-44BE-8A1A-2348AC49A8DF
 ms.date: 12/05/2018
 ms.keywords: D2D1_VECTOR_4F, D2D1_VECTOR_4F structure [Direct2D], D2D_VECTOR_4F, d2d1_1/D2D1_VECTOR_4F, dcommon/D2D1_VECTOR_4F, direct2d.d2d1_vector_4f
-ms.topic: struct
 f1_keywords:
 - dcommon/D2D1_VECTOR_4F
 dev_langs:

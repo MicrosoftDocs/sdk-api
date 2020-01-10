@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 6f26550d-c094-4150-b8ef-2da1d052c1ff
 ms.date: 12/05/2018
 ms.keywords: ReadFmtUserTypeStg, ReadFmtUserTypeStg function [Structured Storage], _stg_readfmtusertypestg, ole2/ReadFmtUserTypeStg, stg.readfmtusertypestg
-ms.topic: function
 f1_keywords:
 - ole2/ReadFmtUserTypeStg
 dev_langs:

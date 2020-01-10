@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 6803B69E-CF84-45D5-804C-BD961BD5E13D
 ms.date: 12/05/2018
 ms.keywords: IMFVideoProcessorControl, IMFVideoProcessorControl interface [Media Foundation], IMFVideoProcessorControl interface [Media Foundation],described, mf.imfvideoprocessorcontrol, mfidl/IMFVideoProcessorControl
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFVideoProcessorControl
 dev_langs:

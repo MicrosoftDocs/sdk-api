@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: f39c551f-891b-48c2-8143-84845506cde9
 ms.date: 12/05/2018
 ms.keywords: WS_SOAPUDP_URL, WS_SOAPUDP_URL structure [Web Services for Windows], webservices/WS_SOAPUDP_URL, wsw.ws_soapudp_url
-ms.topic: struct
 f1_keywords:
 - webservices/WS_SOAPUDP_URL
 dev_langs:

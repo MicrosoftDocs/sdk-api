@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 626c66c8-db7b-4be3-b5b0-c10a41ca46cc
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBGetTrapInfo, MprAdminMIBGetTrapInfo function [RAS], _mpr_mpradminmibgettrapinfo, mprapi/MprAdminMIBGetTrapInfo, rras.mpradminmibgettrapinfo
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminMIBGetTrapInfo
 dev_langs:

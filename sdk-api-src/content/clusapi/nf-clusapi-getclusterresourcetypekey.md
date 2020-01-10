@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: facc22b2-221d-4d82-85ae-5b9a463c5858
 ms.date: 12/05/2018
 ms.keywords: GetClusterResourceTypeKey, GetClusterResourceTypeKey function [Failover Cluster], _wolf_getclusterresourcetypekey, clusapi/GetClusterResourceTypeKey, mscs.getclusterresourcetypekey
-ms.topic: function
 f1_keywords:
 - clusapi/GetClusterResourceTypeKey
 dev_langs:

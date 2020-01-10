@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: 6eb3d18f-c54c-4e51-8a4b-b7a3f930cfa9
 ms.date: 12/05/2018
 ms.keywords: LsaFreeMemory, LsaFreeMemory function [Security], _lsa_lsafreememory, ntsecapi/LsaFreeMemory, security.lsafreememory
-ms.topic: function
 f1_keywords:
 - ntsecapi/LsaFreeMemory
 dev_langs:

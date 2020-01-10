@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: E8D52FDB-CD62-407A-9F70-2825E0BF8523
 ms.date: 12/05/2018
 ms.keywords: AppPolicyGetThreadInitializationType, AppPolicyGetThreadInitializationType function [App packaging and management], appmodel/AppPolicyGetThreadInitializationType, appxpkg.apppolicygetthreadinitializationtype_function
-ms.topic: function
 f1_keywords:
 - appmodel/AppPolicyGetThreadInitializationType
 dev_langs:

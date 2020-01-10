@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: b5a35e95-ec40-4154-8db9-fe5cd41960cb
 ms.date: 12/05/2018
 ms.keywords: GetMyRoles, GetMyRoles method [Security], GetMyRoles method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetMyRoles method, IOCSPAdmin.GetMyRoles, IOCSPAdmin::GetMyRoles, certadm/IOCSPAdmin::GetMyRoles, security.iocspadmin_getmyroles_method
-ms.topic: method
 f1_keywords:
 - certadm/IOCSPAdmin.GetMyRoles
 dev_langs:

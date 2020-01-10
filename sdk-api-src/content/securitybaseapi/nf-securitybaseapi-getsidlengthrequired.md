@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: a481fb4f-20bd-4f44-a3d5-d8b8d6228339
 ms.date: 12/05/2018
 ms.keywords: GetSidLengthRequired, GetSidLengthRequired function [Security], _win32_getsidlengthrequired, security.getsidlengthrequired, securitybaseapi/GetSidLengthRequired
-ms.topic: function
 f1_keywords:
 - securitybaseapi/GetSidLengthRequired
 dev_langs:

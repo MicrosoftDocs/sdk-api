@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: BC0DD66C-3452-440D-87EA-1504EFF89E3F
 ms.date: 12/05/2018
 ms.keywords: D3D11_FEATURE_DATA_D3D11_OPTIONS4, D3D11_FEATURE_DATA_D3D11_OPTIONS4 structure [Direct3D 11], d3d11_4/D3D11_FEATURE_DATA_D3D11_OPTIONS4, direct3d11.d3d11_feature_data_d3d11_options4
-ms.topic: struct
 f1_keywords:
 - d3d11_4/D3D11_FEATURE_DATA_D3D11_OPTIONS4
 dev_langs:

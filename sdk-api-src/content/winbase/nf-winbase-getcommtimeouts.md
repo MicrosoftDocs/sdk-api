@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: a5375b2e-0992-4e47-a20f-8a793addeef6
 ms.date: 12/05/2018
 ms.keywords: GetCommTimeouts, GetCommTimeouts function, _win32_getcommtimeouts, base.getcommtimeouts, winbase/GetCommTimeouts
-ms.topic: function
 f1_keywords:
 - winbase/GetCommTimeouts
 dev_langs:

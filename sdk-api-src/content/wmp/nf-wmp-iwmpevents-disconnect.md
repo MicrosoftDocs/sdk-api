@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 6fa2f206-1eea-4a25-91b3-bba0cde7f8ce
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [Windows Media Player], Disconnect method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],Disconnect method, IWMPEvents.Disconnect, IWMPEvents::Disconnect, IWMPEventsDisconnect, wmp.iwmpevents_iwmpevents__disconnect, wmp/IWMPEvents::Disconnect
-ms.topic: method
 f1_keywords:
 - wmp/IWMPEvents.Disconnect
 dev_langs:

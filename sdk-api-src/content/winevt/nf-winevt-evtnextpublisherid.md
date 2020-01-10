@@ -7,7 +7,6 @@ tech.root: wes
 ms.assetid: e6cea6de-79f3-416b-9501-8d86f2579aa8
 ms.date: 12/05/2018
 ms.keywords: EvtNextPublisherId, EvtNextPublisherId function [EventLog], wes.evtnextpublisherid, winevt/EvtNextPublisherId
-ms.topic: function
 f1_keywords:
 - winevt/EvtNextPublisherId
 dev_langs:

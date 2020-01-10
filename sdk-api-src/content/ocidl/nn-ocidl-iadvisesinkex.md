@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: d1a52353-dd86-4083-9dbc-3a6f363a1a57
 ms.date: 12/05/2018
 ms.keywords: IAdviseSinkEx, IAdviseSinkEx interface [COM], IAdviseSinkEx interface [COM],described, _ole_iadvisesinkex, com.iadvisesinkex, ocidl/IAdviseSinkEx
-ms.topic: interface
 f1_keywords:
 - ocidl/IAdviseSinkEx
 dev_langs:

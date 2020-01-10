@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: c83632c2-5d01-48ab-93ef-961778c2379a
 ms.date: 12/05/2018
 ms.keywords: DiscoverPeers, DiscoverPeers method [BITS], DiscoverPeers method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],DiscoverPeers method, IBitsPeerCacheAdministration.DiscoverPeers, IBitsPeerCacheAdministration::DiscoverPeers, bits.ibitspeercacheadministration_discoverpeers, bits3_0/IBitsPeerCacheAdministration::DiscoverPeers
-ms.topic: method
 f1_keywords:
 - bits3_0/IBitsPeerCacheAdministration.DiscoverPeers
 dev_langs:

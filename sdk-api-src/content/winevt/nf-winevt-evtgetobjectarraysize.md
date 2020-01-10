@@ -7,7 +7,6 @@ tech.root: wes
 ms.assetid: fc4043ac-48eb-400b-8cf6-b83cbbb2765c
 ms.date: 12/05/2018
 ms.keywords: EvtGetObjectArraySize, EvtGetObjectArraySize function [EventLog], wes.evtgetobjectarraysize, winevt/EvtGetObjectArraySize
-ms.topic: function
 f1_keywords:
 - winevt/EvtGetObjectArraySize
 dev_langs:

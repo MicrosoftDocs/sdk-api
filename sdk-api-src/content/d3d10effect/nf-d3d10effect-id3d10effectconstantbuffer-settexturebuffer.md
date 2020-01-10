@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectconstantbuffer_settexturebuffer.htm
 ms.date: 12/05/2018
 ms.keywords: 57b8698c-c62f-21ac-a3a9-23505d336b9a, ID3D10EffectConstantBuffer interface [Direct3D 10],SetTextureBuffer method, ID3D10EffectConstantBuffer.SetTextureBuffer, ID3D10EffectConstantBuffer::SetTextureBuffer, SetTextureBuffer, SetTextureBuffer method [Direct3D 10], SetTextureBuffer method [Direct3D 10],ID3D10EffectConstantBuffer interface, d3d10effect/ID3D10EffectConstantBuffer::SetTextureBuffer, direct3d10.id3d10effectconstantbuffer_settexturebuffer
-ms.topic: method
 f1_keywords:
 - d3d10effect/ID3D10EffectConstantBuffer.SetTextureBuffer
 dev_langs:

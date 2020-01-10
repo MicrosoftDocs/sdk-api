@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 267d4f8e-0e0b-4636-8f30-3c39bbb8d4e9
 ms.date: 12/05/2018
 ms.keywords: RasSetAutodialAddress, RasSetAutodialAddress function [RAS], RasSetAutodialAddressA, RasSetAutodialAddressW, _ras_rassetautodialaddress, ras/RasSetAutodialAddress, ras/RasSetAutodialAddressA, ras/RasSetAutodialAddressW, rras.rassetautodialaddress
-ms.topic: function
 f1_keywords:
 - ras/RasSetAutodialAddress
 dev_langs:

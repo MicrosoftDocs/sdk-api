@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: E0796AA8-594F-4B21-884D-BD2DD6E2549C
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerGetDataToUnplumbCredentials, EapHostPeerGetDataToUnplumbCredentials function [EAPHost], eaphost.eaphostpeergetdatatounplumbcredentials, eappapis/EapHostPeerGetDataToUnplumbCredentials
-ms.topic: function
 f1_keywords:
 - eappapis/EapHostPeerGetDataToUnplumbCredentials
 dev_langs:

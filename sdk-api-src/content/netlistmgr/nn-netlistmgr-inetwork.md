@@ -7,7 +7,6 @@ tech.root: nla
 ms.assetid: 6d483058-f7c4-4a6c-a1a8-816c2fab9994
 ms.date: 12/05/2018
 ms.keywords: INetwork, INetwork interface [Network Awareness], INetwork interface [Network Awareness],described, netlistmgr/INetwork, nla.inetwork
-ms.topic: interface
 f1_keywords:
 - netlistmgr/INetwork
 dev_langs:

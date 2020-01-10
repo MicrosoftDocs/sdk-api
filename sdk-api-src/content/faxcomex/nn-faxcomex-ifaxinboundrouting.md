@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0zc7_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxInboundRouting, IFaxInboundRouting interface [Fax Service], IFaxInboundRouting interface [Fax Service],described, _mfax_faxinboundrouting_cpp, fax._mfax_faxinboundrouting_cpp, faxcomex/IFaxInboundRouting
-ms.topic: interface
 f1_keywords:
 - faxcomex/IFaxInboundRouting
 dev_langs:

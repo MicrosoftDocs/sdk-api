@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 96E58C9B-569F-41B8-A799-E87D849C045C
 ms.date: 12/05/2018
 ms.keywords: D3D12CreateRootSignatureDeserializer, D3D12CreateRootSignatureDeserializer function, d3d12/D3D12CreateRootSignatureDeserializer, direct3d12.d3d12createrootsignaturedeserializer
-ms.topic: function
 f1_keywords:
 - d3d12/D3D12CreateRootSignatureDeserializer
 dev_langs:

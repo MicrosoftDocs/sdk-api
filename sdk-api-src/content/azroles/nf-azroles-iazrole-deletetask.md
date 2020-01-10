@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 62623d45-33a6-4e3f-b0a8-d3e3e7c9e33e
 ms.date: 12/05/2018
 ms.keywords: AzRole object [Security],DeleteTask method, DeleteTask, DeleteTask method [Security], DeleteTask method [Security],AzRole object, DeleteTask method [Security],IAzRole interface, IAzRole interface [Security],DeleteTask method, IAzRole.DeleteTask, IAzRole::DeleteTask, azroles/IAzRole::DeleteTask, security.iazrole_deletetask
-ms.topic: method
 f1_keywords:
 - azroles/IAzRole.DeleteTask
 dev_langs:

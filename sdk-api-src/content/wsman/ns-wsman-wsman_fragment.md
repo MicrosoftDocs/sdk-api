@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 2aa4ee38-6991-4f95-90fd-867b188fc9ff
 ms.date: 12/05/2018
 ms.keywords: WSMAN_FRAGMENT, WSMAN_FRAGMENT structure [Windows Remote Management], winrm.wsman_fragment, wsman/WSMAN_FRAGMENT
-ms.topic: struct
 f1_keywords:
 - wsman/WSMAN_FRAGMENT
 dev_langs:

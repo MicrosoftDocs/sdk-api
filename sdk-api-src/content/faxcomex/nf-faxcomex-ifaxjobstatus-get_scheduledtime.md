@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0wit.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxJobStatus interface [Fax Service],ScheduledTime property, IFaxJobStatus.ScheduledTime, IFaxJobStatus.get_ScheduledTime, IFaxJobStatus::ScheduledTime, IFaxJobStatus::get_ScheduledTime, ScheduledTime property [Fax Service], ScheduledTime property [Fax Service],IFaxJobStatus interface, _mfax_faxjobstatus.scheduledtime, fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_scheduledtime_cpp, fax._mfax_faxjobstatus_scheduledtime, faxcomex/IFaxJobStatus::ScheduledTime, faxcomex/IFaxJobStatus::get_ScheduledTime, get_ScheduledTime
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxJobStatus.ScheduledTime
 dev_langs:

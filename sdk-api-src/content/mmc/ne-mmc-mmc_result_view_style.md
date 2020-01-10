@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 2f1b93e2-aa1d-4478-877b-a26cdb3dc84b
 ms.date: 12/05/2018
 ms.keywords: MMC_NOSORTHEADER, MMC_RESULT_VIEW_STYLE, MMC_RESULT_VIEW_STYLE enumeration [MMC], MMC_SHOWSELALWAYS, MMC_SINGLESEL, _slate_mmc_result_view_style, mmc.mmc_result_view_style, mmc/MMC_NOSORTHEADER, mmc/MMC_RESULT_VIEW_STYLE, mmc/MMC_SHOWSELALWAYS, mmc/MMC_SINGLESEL
-ms.topic: enum
 f1_keywords:
 - mmc/MMC_RESULT_VIEW_STYLE
 dev_langs:

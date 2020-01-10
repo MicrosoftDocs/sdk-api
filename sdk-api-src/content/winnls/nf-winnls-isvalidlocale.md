@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: b0fb95ff-106d-4269-a696-d39f87fbd745
 ms.date: 12/05/2018
 ms.keywords: IsValidLocale, IsValidLocale function [Internationalization for Windows Applications], LCID_INSTALLED, LCID_SUPPORTED, _win32_IsValidLocale, intl.isvalidlocale, winnls/IsValidLocale
-ms.topic: function
 f1_keywords:
 - winnls/IsValidLocale
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 5a21f207-5fbb-44b2-82d2-89be29dbdf2c
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [DirectShow], Get method [DirectShow],IAMCameraControl interface, IAMCameraControl interface [DirectShow],Get method, IAMCameraControl.Get, IAMCameraControl::Get, IAMCameraControlGet, dshow.iamcameracontrol_get, strmif/IAMCameraControl::Get
-ms.topic: method
 f1_keywords:
 - strmif/IAMCameraControl.Get
 dev_langs:

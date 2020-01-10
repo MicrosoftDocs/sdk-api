@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemestream.htm
 ms.date: 12/05/2018
 ms.keywords: GetThemeStream, GetThemeStream function [Windows Controls], controls.GetThemeStream, controls.inet_GetThemeStream, inet_GetThemeStream, inet_GetThemeStream_cpp, uxtheme/GetThemeStream
-ms.topic: function
 f1_keywords:
 - uxtheme/GetThemeStream
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 79887f9d-cad1-492a-b406-d1753ffaf82b
 ms.date: 12/05/2018
 ms.keywords: CoAddRefServerProcess, CoAddRefServerProcess function [COM], _com_CoAddRefServerProcess, com.coaddrefserverprocess, combaseapi/CoAddRefServerProcess
-ms.topic: function
 f1_keywords:
 - combaseapi/CoAddRefServerProcess
 dev_langs:

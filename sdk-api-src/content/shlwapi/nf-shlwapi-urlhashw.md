@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9c0ce709-e097-4501-bee1-b24df9d4828d
 ms.date: 12/05/2018
 ms.keywords: UrlHash, UrlHash function [Windows Shell], UrlHashA, UrlHashW, _win32_UrlHash, shell.UrlHash, shlwapi/UrlHash, shlwapi/UrlHashA, shlwapi/UrlHashW
-ms.topic: function
 f1_keywords:
 - shlwapi/UrlHash
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ktm
 ms.assetid: de3e3a26-3e56-4732-8e7c-945b45593aed
 ms.date: 12/05/2018
 ms.keywords: CommitComplete, CommitComplete function [Files], fs.commitcomplete, ktmw32/CommitComplete
-ms.topic: function
 f1_keywords:
 - ktmw32/CommitComplete
 dev_langs:

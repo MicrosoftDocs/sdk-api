@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\setimagecount.htm
 ms.date: 12/05/2018
 ms.keywords: IImageList interface [Windows Controls],SetImageCount method, IImageList.SetImageCount, IImageList::SetImageCount, SetImageCount, SetImageCount method [Windows Controls], SetImageCount method [Windows Controls],IImageList interface, comctl_IImageList_SetImageCount, comctl_IImageList_SetImageCount_cpp, commoncontrols/IImageList::SetImageCount, controls.IImageList_SetImageCount, controls.comctl_IImageList_SetImageCount
-ms.topic: method
 f1_keywords:
 - commoncontrols/IImageList.SetImageCount
 dev_langs:

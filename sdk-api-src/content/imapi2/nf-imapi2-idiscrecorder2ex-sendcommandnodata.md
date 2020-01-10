@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 7dc645d5-795d-4f31-a4cf-30875e930e10
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2Ex interface [IMAPI],SendCommandNoData method, IDiscRecorder2Ex.SendCommandNoData, IDiscRecorder2Ex::SendCommandNoData, SendCommandNoData, SendCommandNoData method [IMAPI], SendCommandNoData method [IMAPI],IDiscRecorder2Ex interface, imapi.idiscrecorder2ex_sendcommandnodata, imapi2/IDiscRecorder2Ex::SendCommandNoData
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscRecorder2Ex.SendCommandNoData
 dev_langs:

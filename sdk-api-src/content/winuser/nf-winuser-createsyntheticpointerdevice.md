@@ -7,7 +7,6 @@ tech.root: Input_PointerDevice
 ms.assetid: 251F837F-DF9A-4A94-B790-73AA7196E4A9
 ms.date: 12/05/2018
 ms.keywords: CreateSyntheticPointerDevice, CreateSyntheticPointerDevice function, input_pointerdevice.createsyntheticpointerdevice, winuser/CreateSyntheticPointerDevice
-ms.topic: function
 f1_keywords:
 - winuser/CreateSyntheticPointerDevice
 dev_langs:

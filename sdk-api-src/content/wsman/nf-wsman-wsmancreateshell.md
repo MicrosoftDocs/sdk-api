@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: 901c0a2d-d25f-451c-8d6c-83662f1f1061
 ms.date: 12/05/2018
 ms.keywords: WSManCreateShell, WSManCreateShell function [Windows Remote Management], winrm.wsmancreateshell, wsman/WSManCreateShell
-ms.topic: function
 f1_keywords:
 - wsman/WSManCreateShell
 dev_langs:

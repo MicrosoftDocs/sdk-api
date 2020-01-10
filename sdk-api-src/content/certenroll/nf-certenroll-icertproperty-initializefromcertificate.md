@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 5d23bacc-bbe5-42fa-b4c5-57a6767f79ba
 ms.date: 12/05/2018
 ms.keywords: ICertProperty interface [Security],InitializeFromCertificate method, ICertProperty.InitializeFromCertificate, ICertProperty::InitializeFromCertificate, InitializeFromCertificate, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security],ICertProperty interface, certenroll/ICertProperty::InitializeFromCertificate, security.icertproperty_initializefromcertificate_method
-ms.topic: method
 f1_keywords:
 - certenroll/ICertProperty.InitializeFromCertificate
 dev_langs:

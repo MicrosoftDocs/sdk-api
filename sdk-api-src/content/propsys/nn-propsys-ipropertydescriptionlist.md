@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: e0530195-27da-4df7-884f-518e905f3c0e
 ms.date: 12/05/2018
 ms.keywords: IPropertyDescriptionList, IPropertyDescriptionList interface [Windows Properties], IPropertyDescriptionList interface [Windows Properties],described, _shell_IPropertyDescriptionList, properties.IPropertyDescriptionList, propsys/IPropertyDescriptionList, shell.IPropertyDescriptionList
-ms.topic: interface
 f1_keywords:
 - propsys/IPropertyDescriptionList
 dev_langs:

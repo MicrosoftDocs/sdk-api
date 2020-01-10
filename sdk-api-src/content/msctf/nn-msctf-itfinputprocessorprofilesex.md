@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: c3d811df-dfa4-4de1-abb9-ff0291258c8c
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfilesEx, ITfInputProcessorProfilesEx interface [Text Services Framework], ITfInputProcessorProfilesEx interface [Text Services Framework],described, msctf/ITfInputProcessorProfilesEx, tsf.itfinputprocessorprofilesex
-ms.topic: interface
 f1_keywords:
 - msctf/ITfInputProcessorProfilesEx
 dev_langs:

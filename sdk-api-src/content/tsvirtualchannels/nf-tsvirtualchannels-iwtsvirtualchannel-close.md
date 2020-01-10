@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: b900789d-c7da-4974-8c46-72ea8ffd6892
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Remote Desktop Services], Close method [Remote Desktop Services],IWTSVirtualChannel interface, IWTSVirtualChannel interface [Remote Desktop Services],Close method, IWTSVirtualChannel.Close, IWTSVirtualChannel::Close, termserv.iwtsvirtualchannel_close, tsvirtualchannels/IWTSVirtualChannel::Close
-ms.topic: method
 f1_keywords:
 - tsvirtualchannels/IWTSVirtualChannel.Close
 dev_langs:

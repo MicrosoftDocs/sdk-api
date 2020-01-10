@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 04eda79a-1301-4bc1-855e-1cb0c4451797
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeReader interface [DirectShow],get_VITCLine method, IAMTimecodeReader.get_VITCLine, IAMTimecodeReader::get_VITCLine, IAMTimecodeReaderget_VITCLine, dshow.iamtimecodereader_get_vitcline, get_VITCLine, get_VITCLine method [DirectShow], get_VITCLine method [DirectShow],IAMTimecodeReader interface, strmif/IAMTimecodeReader::get_VITCLine
-ms.topic: method
 f1_keywords:
 - strmif/IAMTimecodeReader.get_VITCLine
 dev_langs:

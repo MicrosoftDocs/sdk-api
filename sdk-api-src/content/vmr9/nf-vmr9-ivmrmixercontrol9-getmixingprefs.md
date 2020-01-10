@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 25df0310-124a-48a5-b0fc-bea1dfd35781
 ms.date: 12/05/2018
 ms.keywords: GetMixingPrefs, GetMixingPrefs method [DirectShow], GetMixingPrefs method [DirectShow],IVMRMixerControl9 interface, IVMRMixerControl9 interface [DirectShow],GetMixingPrefs method, IVMRMixerControl9.GetMixingPrefs, IVMRMixerControl9::GetMixingPrefs, IVMRMixerControl9GetMixingPrefs, dshow.ivmrmixercontrol9_getmixingprefs, vmr9/IVMRMixerControl9::GetMixingPrefs
-ms.topic: method
 f1_keywords:
 - vmr9/IVMRMixerControl9.GetMixingPrefs
 dev_langs:

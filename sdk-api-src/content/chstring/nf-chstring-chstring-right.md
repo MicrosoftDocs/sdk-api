@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: eccf928f-75ac-4442-90f9-0e0578c5798f
 ms.date: 12/05/2018
 ms.keywords: ?Right@CHString@@QBE?AV1@H@Z, ?Right@CHString@@QEBA?AV1@H@Z, CHString interface [Windows Management Instrumentation],Right method, CHString.Right, CHString::Right, Right, Right method [Windows Management Instrumentation], Right method [Windows Management Instrumentation],CHString interface, _hmm_chstring_right, chstring/CHString::Right, wmi.chstring_right
-ms.topic: method
 f1_keywords:
 - chstring/CHString.Right
 dev_langs:

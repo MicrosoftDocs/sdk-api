@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 686f31e1-3c61-449d-91f7-67f72d88a4b7
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],SetSignatureOriginPartName method, IXpsSignatureManager.SetSignatureOriginPartName, IXpsSignatureManager::SetSignatureOriginPartName, SetSignatureOriginPartName, SetSignatureOriginPartName method [XPS Documents and Packaging], SetSignatureOriginPartName method [XPS Documents and Packaging],IXpsSignatureManager interface, xps.ixpssignaturemanager_setsignatureoriginpartname, xpsdigitalsignature/IXpsSignatureManager::SetSignatureOriginPartName
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignatureManager.SetSignatureOriginPartName
 dev_langs:

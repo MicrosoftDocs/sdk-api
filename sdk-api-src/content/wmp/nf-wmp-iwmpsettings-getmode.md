@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 5275cb99-8007-4af2-9137-694de18c5434
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],getMode method, IWMPSettings.getMode, IWMPSettings::getMode, IWMPSettingsgetMode, getMode, getMode method [Windows Media Player], getMode method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_getmode, wmp/IWMPSettings::getMode
-ms.topic: method
 f1_keywords:
 - wmp/IWMPSettings.getMode
 dev_langs:

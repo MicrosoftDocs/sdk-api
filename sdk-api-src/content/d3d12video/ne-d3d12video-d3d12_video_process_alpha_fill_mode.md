@@ -5,7 +5,6 @@ description: Specifies the alpha fill mode for video processing.
 tech.root: mf
 ms.assetid: 828e0cbe-17ff-4830-8c95-997a6d53a994
 ms.date: 05/28/2019
-ms.topic: enum
 f1_keywords:
 - D3D12_VIDEO_PROCESS_ALPHA_FILL_MODE
 dev_langs:

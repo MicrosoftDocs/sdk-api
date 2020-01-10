@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: cc94c956-6895-451a-8d1c-2001a6fbec63
 ms.date: 12/05/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],put_SignalPolarisation method, IDVBSLocator.put_SignalPolarisation, IDVBSLocator::put_SignalPolarisation, IDVBSLocatorput_SignalPolarisation, mstv.idvbslocator_put_signalpolarisation, put_SignalPolarisation, put_SignalPolarisation method [Microsoft TV Technologies], put_SignalPolarisation method [Microsoft TV Technologies],IDVBSLocator interface, tuner/IDVBSLocator::put_SignalPolarisation
-ms.topic: method
 f1_keywords:
 - tuner/IDVBSLocator.put_SignalPolarisation
 dev_langs:

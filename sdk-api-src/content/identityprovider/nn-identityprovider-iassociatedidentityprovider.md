@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 007d5daf-f0cf-4bfb-bd87-bb949bf90126
 ms.date: 12/05/2018
 ms.keywords: IAssociatedIdentityProvider, IAssociatedIdentityProvider interface [Security], IAssociatedIdentityProvider interface [Security],described, identityprovider/IAssociatedIdentityProvider, identitystore/IAssociatedIdentityProvider, security.iassociatedidentityprovider
-ms.topic: interface
 f1_keywords:
 - identityprovider/IAssociatedIdentityProvider
 dev_langs:

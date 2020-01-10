@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 24cc6dea-fb29-4533-8f6c-3f273c5b94c3
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyKeyProvInfo interface [Security],PrivateKey property, ICertPropertyKeyProvInfo.PrivateKey, ICertPropertyKeyProvInfo.get_PrivateKey, ICertPropertyKeyProvInfo::PrivateKey, ICertPropertyKeyProvInfo::get_PrivateKey, PrivateKey property [Security], PrivateKey property [Security],ICertPropertyKeyProvInfo interface, certenroll/ICertPropertyKeyProvInfo::PrivateKey, certenroll/ICertPropertyKeyProvInfo::get_PrivateKey, get_PrivateKey, security.icertpropertykeyprovinfo_privatekey_property
-ms.topic: method
 f1_keywords:
 - certenroll/ICertPropertyKeyProvInfo.PrivateKey
 dev_langs:

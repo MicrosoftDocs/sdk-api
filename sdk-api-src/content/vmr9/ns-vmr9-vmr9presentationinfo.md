@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 7e5cf0e9-1cb9-494a-9370-550328dcd85c
 ms.date: 12/05/2018
 ms.keywords: VMR9PresentationInfo, VMR9PresentationInfo structure [DirectShow], VMR9PresentationInfoStructure, dshow.vmr9presentationinfo, vmr9/VMR9PresentationInfo
-ms.topic: struct
 f1_keywords:
 - vmr9/VMR9PresentationInfo
 dev_langs:

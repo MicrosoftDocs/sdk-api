@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 6067f2be-883a-4271-95ad-16fd868b37a0
 ms.date: 12/05/2018
 ms.keywords: IShellMenu interface [Windows Shell],SetMenuToolbar method, IShellMenu.SetMenuToolbar, IShellMenu::SetMenuToolbar, SMSET_BOTTOM, SMSET_DONTOWN, SMSET_TOP, SetMenuToolbar, SetMenuToolbar method [Windows Shell], SetMenuToolbar method [Windows Shell],IShellMenu interface, _shell_IShellMenu_SetMenuToolbar, shell.IShellMenu_SetMenuToolbar, shobjidl_core/IShellMenu::SetMenuToolbar
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellMenu.SetMenuToolbar
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: d3730a37-933b-4705-b787-4b8bb728a278
 ms.date: 12/05/2018
 ms.keywords: IObjPool, IObjPool interface [COM+], IObjPool interface [COM+],described, _cos_IObjPool, comsvcs/IObjPool, cos.iobjpool
-ms.topic: interface
 f1_keywords:
 - comsvcs/IObjPool
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsb
 ms.assetid: E01EF90E-90F1-4B56-85B8-63A10A688FBA
 ms.date: 12/05/2018
 ms.keywords: WSB_OB_REGISTRATION_INFO, WSB_OB_REGISTRATION_INFO structure [Windows Server Backup], wsb.wsb_ob_registration_info, wsbonline/WSB_OB_REGISTRATION_INFO
-ms.topic: struct
 f1_keywords:
 - wsbonline/WSB_OB_REGISTRATION_INFO
 dev_langs:

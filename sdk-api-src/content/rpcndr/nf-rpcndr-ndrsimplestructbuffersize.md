@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: e88eaed3-0676-4c43-8ac1-7a5e19fc5748
 ms.date: 12/05/2018
 ms.keywords: NdrSimpleStructBufferSize, NdrSimpleStructBufferSize function [Windows API], rpcndr/NdrSimpleStructBufferSize, winprog.ndrsimplestructbuffersize
-ms.topic: function
 f1_keywords:
 - rpcndr/NdrSimpleStructBufferSize
 dev_langs:

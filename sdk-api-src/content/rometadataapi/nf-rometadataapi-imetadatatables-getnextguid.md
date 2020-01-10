@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: b624f727-8371-49a1-8ec7-7110d9b8f971
 ms.date: 12/05/2018
 ms.keywords: GetNextGuid, GetNextGuid method [Windows Runtime], GetNextGuid method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetNextGuid method, IMetaDataTables.GetNextGuid, IMetaDataTables::GetNextGuid, rometadataapi/IMetaDataTables::GetNextGuid, winrt.imetadatatables_getnextguid
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataTables.GetNextGuid
 dev_langs:

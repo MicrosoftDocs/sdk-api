@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 3862ae19-972b-4822-8b52-5a868a2fc58d
 ms.date: 12/05/2018
 ms.keywords: GetAlertPriority, GetAlertPriority method [Microsoft TV Technologies], GetAlertPriority method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetAlertPriority method, ISCTE_EAS.GetAlertPriority, ISCTE_EAS::GetAlertPriority, ISCTE_EASGetAlertPriority, atscpsipparser/ISCTE_EAS::GetAlertPriority, mstv.iscte_eas_getalertpriority
-ms.topic: method
 f1_keywords:
 - atscpsipparser/ISCTE_EAS.GetAlertPriority
 dev_langs:

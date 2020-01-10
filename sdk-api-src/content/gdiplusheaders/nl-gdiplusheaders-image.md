@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\image.htm
 ms.date: 12/05/2018
 ms.keywords: Image, Image class [GDI+], Image class [GDI+],described, _gdiplus_CLASS_Image_Class, gdiplus._gdiplus_CLASS_Image_Class, gdiplusheaders/Image
-ms.topic: class
 f1_keywords:
 - gdiplusheaders/Image
 dev_langs:

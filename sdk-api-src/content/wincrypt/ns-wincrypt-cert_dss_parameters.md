@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 4544986a-8168-4d56-be5f-59d318da7c30
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_DSS_PARAMETERS, CERT_DSS_PARAMETERS, CERT_DSS_PARAMETERS structure [Security], PCERT_DSS_PARAMETERS, PCERT_DSS_PARAMETERS structure pointer [Security], _crypto2_cert_dss_parameters, security.cert_dss_parameters, wincrypt/CERT_DSS_PARAMETERS, wincrypt/PCERT_DSS_PARAMETERS'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_DSS_PARAMETERS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: c4d1a37e-f7d1-4c0e-8d05-93a0153f2878
 ms.date: 12/05/2018
 ms.keywords: VariantGetStringElem, VariantGetStringElem function [Windows Properties], _shell_VariantGetStringElem, properties.VariantGetStringElem, propvarutil/VariantGetStringElem, shell.VariantGetStringElem
-ms.topic: function
 f1_keywords:
 - propvarutil/VariantGetStringElem
 dev_langs:

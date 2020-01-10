@@ -6,7 +6,6 @@ old-location: direct2d\d2d1_hdrtonemap_display_mode.htm
 tech.root: Direct2D
 ms.date: 01/30/2019
 ms.keywords: D2D1_HDRTONEMAP_DISPLAY_MODE, D2D1_HDRTONEMAP_DISPLAY_MODE enumeration [Direct2D], D2D1_HDRTONEMAP_DISPLAY_MODE_SDR, D2D1_HDRTONEMAP_DISPLAY_MODE_HDR, d2d1effects_2/D2D1_HDRTONEMAP_DISPLAY_MODE, d2d1effects_2/D2D1_HDRTONEMAP_DISPLAY_MODE_SDR, d2d1effects_2/D2D1_HDRTONEMAP_DISPLAY_MODE_HDR, direct2d.d2d1_hdrtonemap_display_mode
-ms.topic: enum
 f1_keywords:
 - d2d1effects_2/D2D1_HDRTONEMAP_DISPLAY_MODE
 dev_langs:

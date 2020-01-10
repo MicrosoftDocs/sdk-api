@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: 287DA978-9797-48DF-9C90-BA53BB82475C
 ms.date: 12/05/2018
 ms.keywords: CfConnectSyncRoot, CfConnectSyncRoot function, cfapi/CfConnectSyncRoot, cloudApi.cfconnectsyncroot
-ms.topic: function
 f1_keywords:
 - cfapi/CfConnectSyncRoot
 dev_langs:

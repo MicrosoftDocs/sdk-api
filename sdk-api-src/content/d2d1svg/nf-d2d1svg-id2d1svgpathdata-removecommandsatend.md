@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: A1DB006D-9986-482A-A9F0-9D7C22ABC604
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgPathData interface [Direct2D],RemoveCommandsAtEnd method, ID2D1SvgPathData.RemoveCommandsAtEnd, ID2D1SvgPathData::RemoveCommandsAtEnd, RemoveCommandsAtEnd, RemoveCommandsAtEnd method [Direct2D], RemoveCommandsAtEnd method [Direct2D],ID2D1SvgPathData interface, d2d1svg/ID2D1SvgPathData::RemoveCommandsAtEnd, direct2d.id2d1svgpathdata_removecommandsatend
-ms.topic: method
 f1_keywords:
 - d2d1svg/ID2D1SvgPathData.RemoveCommandsAtEnd
 dev_langs:

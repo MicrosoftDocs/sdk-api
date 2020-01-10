@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 6e03b812-9022-4c17-b25d-e06cc8943a1b
 ms.date: 12/05/2018
 ms.keywords: WS_READ_MESSAGE_END_CALLBACK, WS_READ_MESSAGE_END_CALLBACK callback, WS_READ_MESSAGE_END_CALLBACK callback function [Web Services for Windows], webservices/WS_READ_MESSAGE_END_CALLBACK, wsw.ws_read_message_end_callback
-ms.topic: callback
 f1_keywords:
 - webservices/WS_READ_MESSAGE_END_CALLBACK
 dev_langs:

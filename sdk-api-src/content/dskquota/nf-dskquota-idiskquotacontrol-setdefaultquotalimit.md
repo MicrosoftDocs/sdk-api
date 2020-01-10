@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 2e4d8d04-dff2-477f-a5b2-8c8415cb3b52
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaControl interface [Files],SetDefaultQuotaLimit method, IDiskQuotaControl.SetDefaultQuotaLimit, IDiskQuotaControl::SetDefaultQuotaLimit, SetDefaultQuotaLimit, SetDefaultQuotaLimit method [Files], SetDefaultQuotaLimit method [Files],IDiskQuotaControl interface, _win32_idiskquotacontrol_setdefaultquotalimit, base.idiskquotacontrol_setdefaultquotalimit, dskquota/IDiskQuotaControl::SetDefaultQuotaLimit, fs.idiskquotacontrol_setdefaultquotalimit
-ms.topic: method
 f1_keywords:
 - dskquota/IDiskQuotaControl.SetDefaultQuotaLimit
 dev_langs:

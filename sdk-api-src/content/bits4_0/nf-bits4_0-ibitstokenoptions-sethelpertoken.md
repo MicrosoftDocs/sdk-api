@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: a31414b7-159e-4ce7-8d2d-02b62aa9759d
 ms.date: 12/05/2018
 ms.keywords: IBitsTokenOptions interface [BITS],SetHelperToken method, IBitsTokenOptions.SetHelperToken, IBitsTokenOptions::SetHelperToken, SetHelperToken, SetHelperToken method [BITS], SetHelperToken method [BITS],IBitsTokenOptions interface, bits.ibitstokenoptions_sethelpertoken, bits4_0/IBitsTokenOptions::SetHelperToken
-ms.topic: method
 f1_keywords:
 - bits4_0/IBitsTokenOptions.SetHelperToken
 dev_langs:

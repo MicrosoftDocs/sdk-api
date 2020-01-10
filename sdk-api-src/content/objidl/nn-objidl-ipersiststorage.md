@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 1c1a20fc-c101-4cbc-a7a6-30613aa387d7
 ms.date: 12/05/2018
 ms.keywords: IPersistStorage, IPersistStorage interface [COM], IPersistStorage interface [COM],described, _com_ipersiststorage, com.ipersiststorage, objidl/IPersistStorage
-ms.topic: interface
 f1_keywords:
 - objidl/IPersistStorage
 dev_langs:

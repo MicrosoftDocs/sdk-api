@@ -7,7 +7,6 @@ tech.root: hidpi
 ms.assetid: FC99DBC7-D710-49EF-B114-6CE6F1AE2454
 ms.date: 12/05/2018
 ms.keywords: GetProcessDpiAwareness, GetProcessDpiAwareness function [High DPI], hidpi.getprocessdpiawareness, shellscalingapi/GetProcessDpiAwareness, winmsg.GetProcessDpiAwareness
-ms.topic: function
 f1_keywords:
 - shellscalingapi/GetProcessDpiAwareness
 dev_langs:

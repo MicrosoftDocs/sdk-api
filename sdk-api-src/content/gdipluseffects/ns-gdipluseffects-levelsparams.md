@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\levelsparams.htm
 ms.date: 12/05/2018
 ms.keywords: LevelsParams, LevelsParams structure [GDI+], _gdiplus_STRUC_LevelsParams, gdiplus._gdiplus_STRUC_LevelsParams, gdipluseffects/LevelsParams
-ms.topic: struct
 f1_keywords:
 - gdipluseffects/LevelsParams
 dev_langs:

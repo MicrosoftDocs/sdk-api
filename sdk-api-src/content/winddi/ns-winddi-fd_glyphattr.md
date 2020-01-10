@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 25a5c390-244c-4cff-a6a5-cc61fc5aa40b
 ms.date: 12/05/2018
 ms.keywords: '*PFD_GLYPHATTR, FD_GLYPHATTR, FD_GLYPHATTR structure [Display Devices], PFD_GLYPHATTR, PFD_GLYPHATTR structure pointer [Display Devices], display.fd_glyphattr, grstrcts_5edf5620-9123-4fdd-b402-d7e06bdeee2a.xml, winddi/FD_GLYPHATTR, winddi/PFD_GLYPHATTR'
-ms.topic: struct
 f1_keywords:
 - winddi/FD_GLYPHATTR
 dev_langs:

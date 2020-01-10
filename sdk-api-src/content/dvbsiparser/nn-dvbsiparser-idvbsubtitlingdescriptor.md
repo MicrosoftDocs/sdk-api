@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 7308e8a9-6e16-4719-b87e-9445499f499c
 ms.date: 12/05/2018
 ms.keywords: IDvbSubtitlingDescriptor, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies], IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbSubtitlingDescriptor, mstv.idvbsubtitlingdescriptor
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IDvbSubtitlingDescriptor
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 681B2BEC-87C7-40F8-8795-B7965C3FBCCE
 ms.date: 12/05/2018
 ms.keywords: SetContractDelegateWindow, SetContractDelegateWindow function [Windows Shell], shell.SetContractDelegateWindow, shobjidl_core/SetContractDelegateWindow
-ms.topic: function
 f1_keywords:
 - shobjidl_core/SetContractDelegateWindow
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 322c2ebe-f1ab-4de4-b8d5-2fba1e69ddda
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncItem, ISyncMgrSyncItem interface [Windows Shell], ISyncMgrSyncItem interface [Windows Shell],described, _shell_ISyncMgrSyncItem, shell.ISyncMgrSyncItem, syncmgr/ISyncMgrSyncItem
-ms.topic: interface
 f1_keywords:
 - syncmgr/ISyncMgrSyncItem
 dev_langs:

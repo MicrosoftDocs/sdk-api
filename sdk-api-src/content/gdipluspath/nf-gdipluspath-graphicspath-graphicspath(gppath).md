@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathconstructors.htm
 ms.date: 12/05/2018
 ms.keywords: GraphicsPath, GraphicsPath constructors [GDI+], GraphicsPath.GraphicsPath, GraphicsPath.GraphicsPath(GpPath), GraphicsPath::GraphicsPath, GraphicsPath::GraphicsPath(GpPath), _gdiplus_CLASS_GraphicsPath_Constructors, gdiplus._gdiplus_CLASS_GraphicsPath_Constructors, gdipluspath/GraphicsPath
-ms.topic: method
 f1_keywords:
 - gdipluspath/GraphicsPath.GraphicsPath
 dev_langs:

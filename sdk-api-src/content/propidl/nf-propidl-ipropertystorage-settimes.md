@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 23c7040a-e648-4898-806d-ad01d7027cc6
 ms.date: 12/05/2018
 ms.keywords: IPropertyStorage interface [Structured Storage],SetTimes method, IPropertyStorage.SetTimes, IPropertyStorage::SetTimes, SetTimes, SetTimes method [Structured Storage], SetTimes method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_settimes, propidl/IPropertyStorage::SetTimes, stg.ipropertystorage_settimes
-ms.topic: method
 f1_keywords:
 - propidl/IPropertyStorage.SetTimes
 dev_langs:

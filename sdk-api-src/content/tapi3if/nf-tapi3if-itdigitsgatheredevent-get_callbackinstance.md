@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 28c613bc-8320-43b5-a9b3-b6a47876d7dd
 ms.date: 12/05/2018
 ms.keywords: ITDigitsGatheredEvent interface [TAPI 2.2],get_CallbackInstance method, ITDigitsGatheredEvent.get_CallbackInstance, ITDigitsGatheredEvent::get_CallbackInstance, _tapi3_itdigitsgatheredevent_get_callbackinstance, get_CallbackInstance, get_CallbackInstance method [TAPI 2.2], get_CallbackInstance method [TAPI 2.2],ITDigitsGatheredEvent interface, tapi3.itdigitsgatheredevent_get_callbackinstance, tapi3if/ITDigitsGatheredEvent::get_CallbackInstance
-ms.topic: method
 f1_keywords:
 - tapi3if/ITDigitsGatheredEvent.get_CallbackInstance
 dev_langs:

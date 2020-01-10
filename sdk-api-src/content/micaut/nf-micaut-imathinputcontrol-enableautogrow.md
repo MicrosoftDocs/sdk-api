@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 23eae5ee-8f3d-4f54-9c30-b29f0c14ba7f
 ms.date: 12/05/2018
 ms.keywords: EnableAutoGrow, EnableAutoGrow method [Tablet PC], EnableAutoGrow method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],EnableAutoGrow method, IMathInputControl.EnableAutoGrow, IMathInputControl::EnableAutoGrow, micaut/IMathInputControl::EnableAutoGrow, tablet.imathinputcontrol_enableautogrow
-ms.topic: method
 f1_keywords:
 - micaut/IMathInputControl.EnableAutoGrow
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 0a53d84e-d9be-4d18-a619-7d92c17b76bb
 ms.date: 12/05/2018
 ms.keywords: MprAdminInitializeDll, MprAdminInitializeDll callback, MprAdminInitializeDll callback function [RAS], _mpr_mpradmininitializedll, mprapi/MprAdminInitializeDll, rras.mpradmininitializedll
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminInitializeDll
 dev_langs:

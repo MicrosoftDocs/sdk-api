@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 3fa9fabb-91ef-4306-90b6-c3dd17f3e298
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_GET_DISK_ATTRIBUTES, IOCTL_DISK_GET_DISK_ATTRIBUTES control, IOCTL_DISK_GET_DISK_ATTRIBUTES control code [Files], fs.ioctl_disk_get_disk_attributes, winioctl/IOCTL_DISK_GET_DISK_ATTRIBUTES
-ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_DISK_GET_DISK_ATTRIBUTES
 dev_langs:

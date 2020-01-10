@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 6aa00a6d-59f2-41d9-8a11-0810ac336d4b
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],Append method, IXpsOMColorProfileResourceCollection.Append, IXpsOMColorProfileResourceCollection::Append, xps.ixpsomcolorprofileresourcecollection_append, xpsobjectmodel/IXpsOMColorProfileResourceCollection::Append
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMColorProfileResourceCollection.Append
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: a8574750-d86e-4b0d-a534-d005596e2a33
 ms.date: 12/05/2018
 ms.keywords: ITsSbProvider, ITsSbProvider interface [Remote Desktop Services], ITsSbProvider interface [Remote Desktop Services],described, sbtsv/ITsSbProvider, termserv.itssbprovider
-ms.topic: interface
 f1_keywords:
 - sbtsv/ITsSbProvider
 dev_langs:

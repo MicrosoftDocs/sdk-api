@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: a50861f7-4236-4692-839a-071081e09ccf
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerWriteValueMin, PowerWriteValueMin function, base.powerwritevaluemin, powrprof/PowerWriteValueMin
-ms.topic: function
 f1_keywords:
 - powrprof/PowerWriteValueMin
 dev_langs:

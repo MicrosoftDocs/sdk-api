@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5fc53607-60d2-4d23-b11e-779c26c02b0f
 ms.date: 12/05/2018
 ms.keywords: GetSelectedItems, GetSelectedItems method [Windows Shell], GetSelectedItems method [Windows Shell],IFileOpenDialog interface, IFileOpenDialog interface [Windows Shell],GetSelectedItems method, IFileOpenDialog.GetSelectedItems, IFileOpenDialog::GetSelectedItems, shell.IFileOpenDialog_GetSelectedItems, shell_IFileOpenDialog_GetSelectedItems, shobjidl_core/IFileOpenDialog::GetSelectedItems
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFileOpenDialog.GetSelectedItems
 dev_langs:

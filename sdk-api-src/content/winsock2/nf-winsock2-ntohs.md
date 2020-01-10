@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 9946df13-3b40-4bcb-91ca-10684b3fc9a5
 ms.date: 12/05/2018
 ms.keywords: _win32_ntohs_2, ntohs, ntohs function [Winsock], winsock.ntohs_2, winsock/ntohs
-ms.topic: function
 f1_keywords:
 - winsock2/ntohs
 dev_langs:

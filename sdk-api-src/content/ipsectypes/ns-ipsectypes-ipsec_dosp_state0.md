@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: e3653c19-0e0b-4026-a32d-509c4bb71008
 ms.date: 12/05/2018
 ms.keywords: IPSEC_DOSP_STATE0, IPSEC_DOSP_STATE0 structure [Filtering], fwp.ipsec_dosp_state0, ipsectypes/IPSEC_DOSP_STATE0
-ms.topic: struct
 f1_keywords:
 - ipsectypes/IPSEC_DOSP_STATE0
 dev_langs:

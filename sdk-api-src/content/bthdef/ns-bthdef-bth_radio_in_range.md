@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: 997c50bb-1313-409a-9a24-9225a6cf91d9
 ms.date: 12/05/2018
 ms.keywords: '*PBTH_RADIO_IN_RANGE, *PBTH_RADIO_IN_RANGE structure [Bluetooth], BTH_RADIO_IN_RANGE, BTH_RADIO_IN_RANGE structure [Bluetooth], bluetooth.bth_radio_in_range, bthdef/*PBTH_RADIO_IN_RANGE, bthdef/BTH_RADIO_IN_RANGE'
-ms.topic: struct
 f1_keywords:
 - bthdef/BTH_RADIO_IN_RANGE
 dev_langs:

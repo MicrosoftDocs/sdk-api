@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 743dae18-985a-405a-8025-ead54e06a4ea
 ms.date: 12/05/2018
 ms.keywords: IWMPAudioRenderConfig, IWMPAudioRenderConfig interface [Windows Media Player], IWMPAudioRenderConfig interface [Windows Media Player],described, wmp.iwmpaudiorenderconfig, wmprealestate/IWMPAudioRenderConfig
-ms.topic: interface
 f1_keywords:
 - wmprealestate/IWMPAudioRenderConfig
 dev_langs:

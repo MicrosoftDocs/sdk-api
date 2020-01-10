@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: d955041a-6179-4bf2-9a1b-766f459f3776
 ms.date: 12/05/2018
 ms.keywords: IWRdsGraphicsChannelEvents interface [Remote Desktop Services],OnMetricsUpdate method, IWRdsGraphicsChannelEvents.OnMetricsUpdate, IWRdsGraphicsChannelEvents::OnMetricsUpdate, OnMetricsUpdate, OnMetricsUpdate method [Remote Desktop Services], OnMetricsUpdate method [Remote Desktop Services],IWRdsGraphicsChannelEvents interface, termserv.iwrdsgraphicschannelevents_onmetricsupdate, wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnMetricsUpdate
-ms.topic: method
 f1_keywords:
 - wrdsgraphicschannels/IWRdsGraphicsChannelEvents.OnMetricsUpdate
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 59316edc-a677-47ff-a139-565d7b5507fb
 ms.date: 12/05/2018
 ms.keywords: CertSrvRestoreEnd, CertSrvRestoreEnd function [Security], _certsrv_certsrvrestoreend, certbcli/CertSrvRestoreEnd, security.certsrvrestoreend
-ms.topic: function
 f1_keywords:
 - certbcli/CertSrvRestoreEnd
 dev_langs:

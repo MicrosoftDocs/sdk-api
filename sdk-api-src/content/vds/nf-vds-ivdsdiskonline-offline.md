@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 3f27dd46-2fa1-4522-9d35-db78255c6d11
 ms.date: 12/05/2018
 ms.keywords: IVdsDiskOnline interface,Offline method, IVdsDiskOnline.Offline, IVdsDiskOnline::Offline, Offline, Offline method, Offline method,IVdsDiskOnline interface, base.ivdsdiskonline_offline, vds/IVdsDiskOnline::Offline
-ms.topic: method
 f1_keywords:
 - vds/IVdsDiskOnline.Offline
 dev_langs:

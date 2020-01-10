@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: be11f1c8-eb55-4ed3-80ca-eda9ee21c92c
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClientActions interface [Remote Desktop Services],ResumeScreenUpdates method, IRemoteDesktopClientActions.ResumeScreenUpdates, IRemoteDesktopClientActions::ResumeScreenUpdates, ResumeScreenUpdates, ResumeScreenUpdates method [Remote Desktop Services], ResumeScreenUpdates method [Remote Desktop Services],IRemoteDesktopClientActions interface, rdpappcontainerclient/IRemoteDesktopClientActions::ResumeScreenUpdates, termserv.iremotedesktopclientactions_resumescreenupdates
-ms.topic: method
 f1_keywords:
 - rdpappcontainerclient/IRemoteDesktopClientActions.ResumeScreenUpdates
 dev_langs:

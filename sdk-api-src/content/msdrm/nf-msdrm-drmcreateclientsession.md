@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: 4b8928a0-1d72-47ee-a357-47fb5777d60c
 ms.date: 12/05/2018
 ms.keywords: DRMCreateClientSession, DRMCreateClientSession function [Active Directory Rights Management Services SDK 1.0], DRM_DEFAULTGROUPIDTYPE_PASSPORT, DRM_DEFAULTGROUPIDTYPE_WINDOWSAUTH, msdrm/DRMCreateClientSession, rm.drmcreateclientsession
-ms.topic: function
 f1_keywords:
 - msdrm/DRMCreateClientSession
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 252d1789-1207-4281-b044-e1f1ca6cd585
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],addNameValuePairToRequest method, ICEnroll4 interface [Security],addNameValuePairToRequest method, ICEnroll4.addNameValuePairToRequest, ICEnroll4::addNameValuePairToRequest, _xen_icenroll4_addnamevaluepairtorequest, addNameValuePairToRequest, addNameValuePairToRequest method [Security], addNameValuePairToRequest method [Security],CEnroll object, addNameValuePairToRequest method [Security],ICEnroll4 interface, security.icenroll4_addnamevaluepairtorequest, xenroll/ICEnroll4::addNameValuePairToRequest
-ms.topic: method
 f1_keywords:
 - xenroll/ICEnroll4.addNameValuePairToRequest
 dev_langs:

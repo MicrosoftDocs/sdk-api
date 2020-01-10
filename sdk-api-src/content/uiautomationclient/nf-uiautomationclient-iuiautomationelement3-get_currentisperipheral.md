@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 1E4B7D77-FCE7-9A1B-2D1A-A347A2F8C2B9
 ms.date: 12/05/2018
 ms.keywords: CurrentIsPeripheral property [Windows Accessibility], CurrentIsPeripheral property [Windows Accessibility],IUIAutomationElement3 interface, IUIAutomationElement3 interface [Windows Accessibility],CurrentIsPeripheral property, IUIAutomationElement3.CurrentIsPeripheral, IUIAutomationElement3.get_CurrentIsPeripheral, IUIAutomationElement3::CurrentIsPeripheral, IUIAutomationElement3::get_CurrentIsPeripheral, get_CurrentIsPeripheral, uiautomationclient/IUIAutomationElement3::CurrentIsPeripheral, uiautomationclient/IUIAutomationElement3::get_CurrentIsPeripheral, winauto.uiauto_IUIAutomationElement3_CurrentIsPeripheral
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationElement3.CurrentIsPeripheral
 dev_langs:

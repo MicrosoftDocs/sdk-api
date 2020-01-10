@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: c5a7cbbc-361c-4e99-af31-f7114eb5261b
 ms.date: 12/05/2018
 ms.keywords: AddStrokesAtRectangle, AddStrokesAtRectangle method [Tablet PC], AddStrokesAtRectangle method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],AddStrokesAtRectangle method, IInkDisp.AddStrokesAtRectangle, IInkDisp::AddStrokesAtRectangle, c5a7cbbc-361c-4e99-af31-f7114eb5261b, msinkaut/IInkDisp::AddStrokesAtRectangle, tablet.inkdisp_addstrokesatrectangle
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkDisp.AddStrokesAtRectangle
 dev_langs:

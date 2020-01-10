@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 92f33e1d-a054-4484-903a-c91d3cd549d1
 ms.date: 12/05/2018
 ms.keywords: RpcNsMgmtEntryInqIfIds, RpcNsMgmtEntryInqIfIds function [RPC], RpcNsMgmtEntryInqIfIdsA, RpcNsMgmtEntryInqIfIdsW, _rpc_rpcnsmgmtentryinqifids, rpc.rpcnsmgmtentryinqifids, rpcnsi/RpcNsMgmtEntryInqIfIds, rpcnsi/RpcNsMgmtEntryInqIfIdsA, rpcnsi/RpcNsMgmtEntryInqIfIdsW
-ms.topic: function
 f1_keywords:
 - rpcnsi/RpcNsMgmtEntryInqIfIds
 dev_langs:

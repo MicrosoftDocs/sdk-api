@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: E3FB5478-31CD-4AE3-BEA0-18823C4A4D3E
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext2, ID3D11VideoContext2 interface [Media Foundation], ID3D11VideoContext2 interface [Media Foundation],described, d3d11_4/ID3D11VideoContext2, mf.id3d11videocontext2, mf.id3dvideocontext2
-ms.topic: interface
 f1_keywords:
 - d3d11_4/ID3D11VideoContext2
 dev_langs:

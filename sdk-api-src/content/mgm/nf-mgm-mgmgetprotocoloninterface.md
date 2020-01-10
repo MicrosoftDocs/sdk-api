@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 38f6cc9b-ae9e-49a3-8f5e-835699ff3d60
 ms.date: 12/05/2018
 ms.keywords: MgmGetProtocolOnInterface, MgmGetProtocolOnInterface function [RAS], _mpr_mgmgetprotocoloninterface, mgm/MgmGetProtocolOnInterface, rras.mgmgetprotocoloninterface
-ms.topic: function
 f1_keywords:
 - mgm/MgmGetProtocolOnInterface
 dev_langs:

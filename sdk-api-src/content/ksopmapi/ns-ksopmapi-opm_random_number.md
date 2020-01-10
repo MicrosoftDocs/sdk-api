@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: d3a5be4b-39d1-43da-b87e-ab4dd7815262
 ms.date: 12/05/2018
 ms.keywords: '*POPM_RANDOM_NUMBER, OPM_RANDOM_NUMBER, OPM_RANDOM_NUMBER structure [Media Foundation], _OPM_RANDOM_NUMBER, ksopmapi/OPM_RANDOM_NUMBER, mf.opm_random_number'
-ms.topic: struct
 f1_keywords:
 - ksopmapi/OPM_RANDOM_NUMBER
 dev_langs:

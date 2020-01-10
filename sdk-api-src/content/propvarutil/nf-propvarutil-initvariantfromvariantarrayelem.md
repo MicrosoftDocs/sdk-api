@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 531731a5-7a13-49be-8512-5cf25c96ee35
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromVariantArrayElem, InitVariantFromVariantArrayElem function [Windows Properties], _shell_InitVariantFromVariantArrayElem, properties.InitVariantFromVariantArrayElem, propvarutil/InitVariantFromVariantArrayElem, shell.InitVariantFromVariantArrayElem
-ms.topic: function
 f1_keywords:
 - propvarutil/InitVariantFromVariantArrayElem
 dev_langs:

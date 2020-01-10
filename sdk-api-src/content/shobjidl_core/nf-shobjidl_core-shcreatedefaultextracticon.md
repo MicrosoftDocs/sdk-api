@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 483dc9ae-4820-47f1-888e-ad7a6bdf3d29
 ms.date: 12/05/2018
 ms.keywords: SHCreateDefaultExtractIcon, SHCreateDefaultExtractIcon function [Windows Shell], _shell_SHCreateDefaultExtractIcon, shell.SHCreateDefaultExtractIcon, shobjidl_core/SHCreateDefaultExtractIcon
-ms.topic: function
 f1_keywords:
 - shobjidl_core/SHCreateDefaultExtractIcon
 dev_langs:

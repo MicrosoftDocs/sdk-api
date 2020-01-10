@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: e261ea45-d084-490e-94b4-129bd76f6a04
 ms.date: 12/05/2018
 ms.keywords: GetFileInformationByHandleEx, GetFileInformationByHandleEx function [Files], fileextd/GetFileInformationByHandleEx, fs.getfileinformationbyhandleex, winbase/GetFileInformationByHandleEx
-ms.topic: function
 f1_keywords:
 - winbase/GetFileInformationByHandleEx
 dev_langs:

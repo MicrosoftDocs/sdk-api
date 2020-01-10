@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorfunctions\loadaccelerators.htm
 ms.date: 12/05/2018
 ms.keywords: LoadAccelerators, LoadAccelerators function [Menus and Other Resources], LoadAcceleratorsA, LoadAcceleratorsW, _win32_LoadAccelerators, _win32_loadaccelerators_cpp, menurc.loadaccelerators, winui._win32_loadaccelerators, winuser/LoadAccelerators, winuser/LoadAcceleratorsA, winuser/LoadAcceleratorsW
-ms.topic: function
 f1_keywords:
 - winuser/LoadAccelerators
 dev_langs:

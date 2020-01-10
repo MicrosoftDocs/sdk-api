@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: dd4e97ff-efbc-462b-b954-bc3260fa1513
 ms.date: 12/05/2018
 ms.keywords: FNFCIREAD, FNFCIREAD macro [Windows API], fci/FNFCIREAD, winprog.fnfciread
-ms.topic: macro
 f1_keywords:
 - fci/FNFCIREAD
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 6d02e085-405e-4388-bf2f-409c92a7b190
 ms.date: 12/05/2018
 ms.keywords: MappingGetServices, MappingGetServices function [Internationalization for Windows Applications], elscore/MappingGetServices, intl.mappinggetservices
-ms.topic: function
 f1_keywords:
 - elscore/MappingGetServices
 dev_langs:

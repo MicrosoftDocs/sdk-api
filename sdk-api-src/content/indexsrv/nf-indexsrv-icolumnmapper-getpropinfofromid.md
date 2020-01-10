@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: 94E7A6B4-0EA9-40F4-B69B-B1A30B0B5229
 ms.date: 12/05/2018
 ms.keywords: GetPropInfoFromId, GetPropInfoFromId method [search], GetPropInfoFromId method [search],IColumnMapper interface, IColumnMapper interface [search],GetPropInfoFromId method, IColumnMapper.GetPropInfoFromId, IColumnMapper::GetPropInfoFromId, indexsrv/IColumnMapper::GetPropInfoFromId, search.icolumnmapper_getpropinfofromid
-ms.topic: method
 f1_keywords:
 - indexsrv/IColumnMapper.GetPropInfoFromId
 dev_langs:

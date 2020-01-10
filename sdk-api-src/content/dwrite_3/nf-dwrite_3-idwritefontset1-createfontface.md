@@ -5,7 +5,6 @@ description: Creates a font face for a single item (rather than going through th
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet1 interface [Direct Write],CreateFontFace method, IDWriteFontSet1.CreateFontFace, IDWriteFontSet1::CreateFontFace, CreateFontFace, CreateFontFace method [Direct Write], CreateFontFace method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_createfontface, dwrite_3/IDWriteFontSet1::CreateFontFace
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFontSet1.CreateFontFace
 dev_langs:

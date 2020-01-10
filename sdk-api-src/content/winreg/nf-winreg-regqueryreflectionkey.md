@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: d7516eab-dbcf-4ece-931e-d7bb2a983503
 ms.date: 12/05/2018
 ms.keywords: RegQueryReflectionKey, RegQueryReflectionKey function, base.regqueryreflectionkey, winreg/RegQueryReflectionKey
-ms.topic: function
 f1_keywords:
 - winreg/RegQueryReflectionKey
 dev_langs:

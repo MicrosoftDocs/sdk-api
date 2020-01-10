@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 38970fc0-ec4c-4068-a146-83edaa040c8c
 ms.date: 12/05/2018
 ms.keywords: 38970fc0-ec4c-4068-a146-83edaa040c8c, GetTablet, GetTablet method [Tablet PC], GetTablet method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetTablet method, IRealTimeStylus.GetTablet, IRealTimeStylus::GetTablet, rtscom/IRealTimeStylus::GetTablet, tablet.irealtimestylus_gettablet
-ms.topic: method
 f1_keywords:
 - rtscom/IRealTimeStylus.GetTablet
 dev_langs:

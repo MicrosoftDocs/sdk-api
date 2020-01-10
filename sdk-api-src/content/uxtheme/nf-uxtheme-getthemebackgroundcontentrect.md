@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebackgroundcontentrect.htm
 ms.date: 12/05/2018
 ms.keywords: GetThemeBackgroundContentRect, GetThemeBackgroundContentRect function [Windows Controls], controls.GetThemeBackgroundContentRect, controls.inet_GetThemeBackgroundContentRect, inet_GetThemeBackgroundContentRect, inet_GetThemeBackgroundContentRect_cpp, uxtheme/GetThemeBackgroundContentRect
-ms.topic: function
 f1_keywords:
 - uxtheme/GetThemeBackgroundContentRect
 dev_langs:

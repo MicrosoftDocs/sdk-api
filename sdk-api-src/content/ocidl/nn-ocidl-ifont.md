@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 3a04d2b7-b2eb-4c6c-8863-1e88321fa382
 ms.date: 12/05/2018
 ms.keywords: IFont, IFont interface [COM], IFont interface [COM],described, _ctrl_ifont, com.ifont, ocidl/IFont
-ms.topic: interface
 f1_keywords:
 - ocidl/IFont
 dev_langs:

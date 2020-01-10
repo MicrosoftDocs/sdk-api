@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: ef1a0085-f4fa-4d77-adab-0386f354dfe7
 ms.date: 12/05/2018
 ms.keywords: IOleClientSite interface [COM],SaveObject method, IOleClientSite.SaveObject, IOleClientSite::SaveObject, SaveObject, SaveObject method [COM], SaveObject method [COM],IOleClientSite interface, _ole_ioleclientsite_saveobject, com.ioleclientsite_saveobject, oleidl/IOleClientSite::SaveObject
-ms.topic: method
 f1_keywords:
 - oleidl/IOleClientSite.SaveObject
 dev_langs:

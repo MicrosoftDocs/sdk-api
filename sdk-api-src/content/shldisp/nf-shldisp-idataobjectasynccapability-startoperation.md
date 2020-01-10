@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 84C1E709-ADFD-4c00-B767-C0DB4C30578A
 ms.date: 12/05/2018
 ms.keywords: IDataObjectAsyncCapability interface [Windows Shell],StartOperation method, IDataObjectAsyncCapability.StartOperation, IDataObjectAsyncCapability::StartOperation, StartOperation, StartOperation method [Windows Shell], StartOperation method [Windows Shell],IDataObjectAsyncCapability interface, shell.IDataObjectAsyncCapability_StartOperation, shldisp/IDataObjectAsyncCapability::StartOperation
-ms.topic: method
 f1_keywords:
 - shldisp/IDataObjectAsyncCapability.StartOperation
 dev_langs:

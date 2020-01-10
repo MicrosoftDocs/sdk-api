@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 9E5DBADF-33E9-45BB-889D-80F770670C5C
 ms.date: 12/05/2018
 ms.keywords: ID2D1Properties interface [Direct2D],SetValue method, ID2D1Properties.SetValue, ID2D1Properties.SetValue(U,const T &,), ID2D1Properties::SetValue, ID2D1Properties::SetValue(U,const T &,), ID2D1Properties::SetValue(U,const T&), SetValue, SetValue method [Direct2D], SetValue method [Direct2D],ID2D1Properties interface, d2d1_1/ID2D1Properties::SetValue, direct2d.id2d1properties_setvalue2
-ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1Properties.SetValue
 dev_langs:

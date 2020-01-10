@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 6038e4bc-7f07-4148-ac34-e290c8c40e99
 ms.date: 12/05/2018
 ms.keywords: WlanSetSecuritySettings, WlanSetSecuritySettings function [NativeWIFI], nwifi.wlansetsecuritysettings, wlanapi/WlanSetSecuritySettings
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanSetSecuritySettings
 dev_langs:

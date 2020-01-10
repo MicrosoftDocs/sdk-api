@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: 93eaa8dd-b244-4fdd-abd4-c7cab46cb2a6
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_OFFLOAD_READ_OUTPUT, PSTORAGE_OFFLOAD_READ_OUTPUT, PSTORAGE_OFFLOAD_READ_OUTPUT structure pointer, STORAGE_OFFLOAD_READ_OUTPUT, STORAGE_OFFLOAD_READ_OUTPUT structure, STORAGE_OFFLOAD_READ_RANGE_TRUNCATED, base.storage_offload_read_output, winioctl/PSTORAGE_OFFLOAD_READ_OUTPUT, winioctl/STORAGE_OFFLOAD_READ_OUTPUT'
-ms.topic: struct
 f1_keywords:
 - winioctl/STORAGE_OFFLOAD_READ_OUTPUT
 dev_langs:

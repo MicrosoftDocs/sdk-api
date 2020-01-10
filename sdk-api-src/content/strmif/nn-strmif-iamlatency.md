@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 83384ef6-40d6-4d37-866d-6059dc5d7542
 ms.date: 12/05/2018
 ms.keywords: IAMLatency, IAMLatency interface [DirectShow], IAMLatency interface [DirectShow],described, IAMLatencyInterface, dshow.iamlatency, strmif/IAMLatency
-ms.topic: interface
 f1_keywords:
 - strmif/IAMLatency
 dev_langs:

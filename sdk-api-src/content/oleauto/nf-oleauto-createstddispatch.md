@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 45a59243-df93-41ca-ac60-354cb1165004
 ms.date: 12/05/2018
 ms.keywords: CreateStdDispatch, CreateStdDispatch function [Automation], _oa96_CreateStdDispatch, automat.createstddispatch, oleauto/CreateStdDispatch
-ms.topic: function
 f1_keywords:
 - oleauto/CreateStdDispatch
 dev_langs:

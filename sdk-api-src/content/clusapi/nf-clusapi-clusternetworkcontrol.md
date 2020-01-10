@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: df0d7b45-4d8b-4780-944a-0fbba670f99a
 ms.date: 12/05/2018
 ms.keywords: ClusterNetworkControl, ClusterNetworkControl function [Failover Cluster], _wolf_clusternetworkcontrol, clusapi/ClusterNetworkControl, mscs.clusternetworkcontrol
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterNetworkControl
 dev_langs:

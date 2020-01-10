@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 2106cd97-9e1f-4d7c-a7a4-55676cf8923b
 ms.date: 12/05/2018
 ms.keywords: ITfEditRecord, ITfEditRecord interface [Text Services Framework], ITfEditRecord interface [Text Services Framework],described, _tsf_itfeditrecord_ref, msctf/ITfEditRecord, tsf.itfeditrecord
-ms.topic: interface
 f1_keywords:
 - msctf/ITfEditRecord
 dev_langs:

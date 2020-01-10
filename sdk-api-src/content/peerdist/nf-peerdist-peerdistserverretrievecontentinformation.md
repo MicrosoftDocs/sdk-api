@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 376ece5f-93ea-4650-a6d8-351ae60fc15b
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerRetrieveContentInformation, PeerDistServerRetrieveContentInformation function [Peer Networking], p2p.peerdistserverretrievecontentinformation, peerdist/PeerDistServerRetrieveContentInformation
-ms.topic: function
 f1_keywords:
 - peerdist/PeerDistServerRetrieveContentInformation
 dev_langs:

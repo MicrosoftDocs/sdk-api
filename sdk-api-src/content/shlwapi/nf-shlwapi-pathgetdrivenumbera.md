@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 38914866-fdd4-47f2-b0e7-d09d1cfb0eee
 ms.date: 12/05/2018
 ms.keywords: PathGetDriveNumber, PathGetDriveNumber function [Windows Shell], PathGetDriveNumberA, PathGetDriveNumberW, _win32_PathGetDriveNumber, shell.PathGetDriveNumber, shlwapi/PathGetDriveNumber, shlwapi/PathGetDriveNumberA, shlwapi/PathGetDriveNumberW
-ms.topic: function
 f1_keywords:
 - shlwapi/PathGetDriveNumber
 dev_langs:

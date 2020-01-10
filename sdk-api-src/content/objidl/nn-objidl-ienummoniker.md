@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: c8dec22b-946d-48ae-9315-54d353f3b853
 ms.date: 12/05/2018
 ms.keywords: IEnumMoniker, IEnumMoniker interface [COM], IEnumMoniker interface [COM],described, _ole_ienummoniker, com.ienummoniker, objidl/IEnumMoniker
-ms.topic: interface
 f1_keywords:
 - objidl/IEnumMoniker
 dev_langs:

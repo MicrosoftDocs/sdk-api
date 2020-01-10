@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: ac087cb0-dd3c-4f4b-a6e0-6f0f0a219d8a
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetTransformLocal method, IXpsOMVisual.SetTransformLocal, IXpsOMVisual::SetTransformLocal, SetTransformLocal, SetTransformLocal method [XPS Documents and Packaging], SetTransformLocal method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_settransformlocal, xpsobjectmodel/IXpsOMVisual::SetTransformLocal
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMVisual.SetTransformLocal
 dev_langs:

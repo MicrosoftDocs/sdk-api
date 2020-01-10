@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 8719c4a4-a7d6-4329-a601-5c88de18f53d
 ms.date: 12/05/2018
 ms.keywords: GetPack, GetPack method [VDS], GetPack method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],GetPack method, IVdsVolume.GetPack, IVdsVolume::GetPack, base.ivdsvolume_getpack, vds/IVdsVolume::GetPack
-ms.topic: method
 f1_keywords:
 - vds/IVdsVolume.GetPack
 dev_langs:

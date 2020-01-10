@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: bc317e10-e09c-423b-8016-eb1cf49eba43
 ms.date: 12/05/2018
 ms.keywords: BrokenConnection, BrokenConnection method [Remote Desktop Services], BrokenConnection method [Remote Desktop Services],IWRdsProtocolConnectionCallback interface, IWRdsProtocolConnectionCallback interface [Remote Desktop Services],BrokenConnection method, IWRdsProtocolConnectionCallback.BrokenConnection, IWRdsProtocolConnectionCallback::BrokenConnection, termserv.iwrdsprotocolconnectioncallback_brokenconnection, wtsprotocol/IWRdsProtocolConnectionCallback::BrokenConnection
-ms.topic: method
 f1_keywords:
 - wtsprotocol/IWRdsProtocolConnectionCallback.BrokenConnection
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 667cafde-f693-46c3-bbec-140fc7cade5d
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],UnregisterTab method, ITaskbarList3.UnregisterTab, ITaskbarList3::UnregisterTab, UnregisterTab, UnregisterTab method [Windows Shell], UnregisterTab method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_UnregisterTab, shell.ITaskbarList3_UnregisterTab, shobjidl_core/ITaskbarList3::UnregisterTab
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ITaskbarList3.UnregisterTab
 dev_langs:

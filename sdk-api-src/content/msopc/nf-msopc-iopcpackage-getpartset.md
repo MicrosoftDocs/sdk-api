@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 9460e057-8fe8-46b8-b12e-ba761fcaf49b
 ms.date: 12/05/2018
 ms.keywords: GetPartSet, GetPartSet method [Open Packaging Conventions], GetPartSet method [Open Packaging Conventions],IOpcPackage interface, IOpcPackage interface [Open Packaging Conventions],GetPartSet method, IOpcPackage.GetPartSet, IOpcPackage::GetPartSet, msopc/IOpcPackage::GetPartSet, opc.iopcpackage_getpartset
-ms.topic: method
 f1_keywords:
 - msopc/IOpcPackage.GetPartSet
 dev_langs:

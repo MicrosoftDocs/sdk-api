@@ -7,7 +7,6 @@ tech.root: winrm
 ms.assetid: f68a9f75-6808-4dfa-b40f-061da88ead3c
 ms.date: 12/05/2018
 ms.keywords: WSMAN_SENDER_DETAILS, WSMAN_SENDER_DETAILS structure [Windows Remote Management], winrm.wsman_sender_details, wsman/WSMAN_SENDER_DETAILS
-ms.topic: struct
 f1_keywords:
 - wsman/WSMAN_SENDER_DETAILS
 dev_langs:

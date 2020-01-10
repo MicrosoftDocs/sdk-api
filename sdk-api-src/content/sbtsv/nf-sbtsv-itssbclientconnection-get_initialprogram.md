@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 8734b130-f1fd-4107-b0cc-482b78647ac7
 ms.date: 12/05/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],InitialProgram property, ITsSbClientConnection.InitialProgram, ITsSbClientConnection.get_InitialProgram, ITsSbClientConnection::InitialProgram, ITsSbClientConnection::get_InitialProgram, InitialProgram property [Remote Desktop Services], InitialProgram property [Remote Desktop Services],ITsSbClientConnection interface, get_InitialProgram, sbtsv/ITsSbClientConnection::InitialProgram, sbtsv/ITsSbClientConnection::get_InitialProgram, termserv.itssbclientconnection_initialprogram
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbClientConnection.InitialProgram
 dev_langs:

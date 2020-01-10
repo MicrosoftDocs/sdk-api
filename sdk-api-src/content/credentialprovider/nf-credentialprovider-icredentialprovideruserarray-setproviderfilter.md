@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 86FC48BF-FEEA-40c4-91CA-21FFAC210CFA
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderUserArray interface [Windows Shell],SetProviderFilter method, ICredentialProviderUserArray.SetProviderFilter, ICredentialProviderUserArray::SetProviderFilter, SetProviderFilter, SetProviderFilter method [Windows Shell], SetProviderFilter method [Windows Shell],ICredentialProviderUserArray interface, credentialprovider/ICredentialProviderUserArray::SetProviderFilter, shell.ICredentialProviderUserArray_SetProviderFilter
-ms.topic: method
 f1_keywords:
 - credentialprovider/ICredentialProviderUserArray.SetProviderFilter
 dev_langs:

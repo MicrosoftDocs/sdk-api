@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: d74f045f-7b6f-4ede-827d-f7f7486495e8
 ms.date: 12/05/2018
 ms.keywords: IVdsDrive interface [VDS],SetStatus method, IVdsDrive.SetStatus, IVdsDrive::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsDrive interface, base.ivdsdrive_setstatus, vds/IVdsDrive::SetStatus, vdshwprv/IVdsDrive::SetStatus
-ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsDrive.SetStatus
 dev_langs:

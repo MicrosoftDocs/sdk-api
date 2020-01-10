@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 40cb47fc-7b15-47f6-bee2-2611d4686053
 ms.date: 12/05/2018
 ms.keywords: CreateIoCompletionPort, CreateIoCompletionPort function [Files], _win32_createiocompletionport, base.createiocompletionport, fs.createiocompletionport, ioapiset/CreateIoCompletionPort, winbase/CreateIoCompletionPort
-ms.topic: function
 f1_keywords:
 - ioapiset/CreateIoCompletionPort
 dev_langs:

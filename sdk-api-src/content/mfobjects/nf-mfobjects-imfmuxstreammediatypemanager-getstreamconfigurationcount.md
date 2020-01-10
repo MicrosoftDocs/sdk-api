@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 9591BFEC-DD25-41A8-9DA8-7F39158CB442
 ms.date: 12/05/2018
 ms.keywords: GetStreamConfigurationCount, GetStreamConfigurationCount method [Media Foundation], GetStreamConfigurationCount method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],GetStreamConfigurationCount method, IMFMuxStreamMediaTypeManager.GetStreamConfigurationCount, IMFMuxStreamMediaTypeManager::GetStreamConfigurationCount, mf.imfmuxstreammediatypemanager_getstreamconfigurationcount, mfobjects/IMFMuxStreamMediaTypeManager::GetStreamConfigurationCount
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFMuxStreamMediaTypeManager.GetStreamConfigurationCount
 dev_langs:

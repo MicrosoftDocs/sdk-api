@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 56d05afb-6e5e-41be-bc10-61192c1c1312
 ms.date: 12/05/2018
 ms.keywords: ICommonQuery, ICommonQuery interface [Active Directory], ICommonQuery interface [Active Directory],described, _glines_icommonquery, ad.icommonquery, cmnquery/ICommonQuery
-ms.topic: interface
 f1_keywords:
 - cmnquery/ICommonQuery
 dev_langs:

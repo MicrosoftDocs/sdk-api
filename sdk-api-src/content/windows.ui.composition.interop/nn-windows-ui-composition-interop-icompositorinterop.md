@@ -7,7 +7,6 @@ tech.root: w_ui_comp
 ms.assetid: 0BE505EA-1C31-411E-AAF7-06D52D9F4682
 ms.date: 12/05/2018
 ms.keywords: ICompositorInterop, ICompositorInterop interface, ICompositorInterop interface,described, w_ui_comp.icompositorinterop, windows/ICompositorInterop
-ms.topic: interface
 f1_keywords:
 - windows.ui.composition.interop/ICompositorInterop
 dev_langs:

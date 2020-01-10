@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 630f0645-555e-4f48-9397-2623a9918b8a
 ms.date: 12/05/2018
 ms.keywords: '*LPMIDIHDR, *NPMIDIHDR, *PMIDIHDR, LPMIDIHDR, LPMIDIHDR structure pointer [Windows Multimedia], MHDR_DONE, MHDR_INQUEUE, MHDR_ISSTRM, MHDR_PREPARED, MIDIHDR, MIDIHDR structure [Windows Multimedia], _win32_MIDIHDR_str, midihdr_tag, mmeapi/LPMIDIHDR, mmeapi/MIDIHDR, multimedia.midihdr'
-ms.topic: struct
 f1_keywords:
 - mmeapi/MIDIHDR
 dev_langs:

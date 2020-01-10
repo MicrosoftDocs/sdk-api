@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: cf816750-8381-4c04-af20-e5ce3f8ad63c
 ms.date: 12/05/2018
 ms.keywords: GetStrokeBrushLocal, GetStrokeBrushLocal method [XPS Documents and Packaging], GetStrokeBrushLocal method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeBrushLocal method, IXpsOMPath.GetStrokeBrushLocal, IXpsOMPath::GetStrokeBrushLocal, xps.ixpsompath_getstrokebrushlocal, xpsobjectmodel/IXpsOMPath::GetStrokeBrushLocal
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMPath.GetStrokeBrushLocal
 dev_langs:

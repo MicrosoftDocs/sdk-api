@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUBYTE4
 ms.date: 12/05/2018
 ms.keywords: XMUBYTE4, XMUBYTE4 structure [DirectX Math Support APIs], directxpackedvector/XMUBYTE4, dxmath.xmubyte4
-ms.topic: struct
 f1_keywords:
 - directxpackedvector/XMUBYTE4
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 450225b8-87f2-4ce2-853d-e78cf64bd13d
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_PROPERTY_REF, CRYPT_PROPERTY_REF, CRYPT_PROPERTY_REF structure [Security], PCRYPT_PROPERTY_REF, PCRYPT_PROPERTY_REF structure pointer [Security], bcrypt/CRYPT_PROPERTY_REF, bcrypt/PCRYPT_PROPERTY_REF, security.crypt_property_ref'
-ms.topic: struct
 f1_keywords:
 - bcrypt/CRYPT_PROPERTY_REF
 dev_langs:

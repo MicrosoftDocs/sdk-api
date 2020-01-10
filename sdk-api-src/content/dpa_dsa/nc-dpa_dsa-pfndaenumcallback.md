@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndaenumcallback.htm
 ms.date: 12/05/2018
 ms.keywords: PFNDAENUMCALLBACK, PFNDAENUMCALLBACK callback, PFNDAENUMCALLBACK callback function [Windows Controls], PFNDPAENUMCALLBACK, PFNDSAENUMCALLBACK, _shell_PFNDAENUMCALLBACK, _shell_PFNDAENUMCALLBACK_cpp, controls.PFNDAENUMCALLBACK, controls._shell_PFNDAENUMCALLBACK, dpa_dsa/PFNDAENUMCALLBACK
-ms.topic: callback
 f1_keywords:
 - dpa_dsa/PFNDAENUMCALLBACK
 dev_langs:

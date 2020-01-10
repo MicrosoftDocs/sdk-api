@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 15d040fa-6c14-41ff-bd21-a8991c17681d
 ms.date: 12/05/2018
 ms.keywords: IWMPMetadataText, IWMPMetadataText interface [Windows Media Player], IWMPMetadataText interface [Windows Media Player],described, IWMPMetadataTextInterface, wmp.iwmpmetadatatext, wmp/IWMPMetadataText
-ms.topic: interface
 f1_keywords:
 - wmp/IWMPMetadataText
 dev_langs:

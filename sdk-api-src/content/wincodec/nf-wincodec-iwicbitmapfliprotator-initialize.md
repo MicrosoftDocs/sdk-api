@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 8c70d25d-b591-4ef4-91b5-b8350da99df1
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFlipRotator interface [Windows Imaging Component],Initialize method, IWICBitmapFlipRotator.Initialize, IWICBitmapFlipRotator::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICBitmapFlipRotator interface, _wic_codec_iwicbitmapfliprotator_initialize, wic._wic_codec_iwicbitmapfliprotator_initialize, wincodec/IWICBitmapFlipRotator::Initialize
-ms.topic: method
 f1_keywords:
 - wincodec/IWICBitmapFlipRotator.Initialize
 dev_langs:

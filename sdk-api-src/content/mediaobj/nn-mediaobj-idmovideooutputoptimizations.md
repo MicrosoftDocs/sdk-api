@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 1e87d0e1-68be-4f86-aae2-cff3edfa573b
 ms.date: 12/05/2018
 ms.keywords: IDMOVideoOutputOptimizations, IDMOVideoOutputOptimizations interface [DirectShow], IDMOVideoOutputOptimizations interface [DirectShow],described, IDMOVideoOutputOptimizationsInterface, dshow.idmovideooutputoptimizations, mediaobj/IDMOVideoOutputOptimizations
-ms.topic: interface
 f1_keywords:
 - mediaobj/IDMOVideoOutputOptimizations
 dev_langs:

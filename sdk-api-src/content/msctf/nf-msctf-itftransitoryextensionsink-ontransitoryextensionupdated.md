@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 2501e0b7-a1fe-46ee-8b18-b13de875d66b
 ms.date: 12/05/2018
 ms.keywords: ITfTransitoryExtensionSink interface [Text Services Framework],OnTransitoryExtensionUpdated method, ITfTransitoryExtensionSink.OnTransitoryExtensionUpdated, ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated, OnTransitoryExtensionUpdated, OnTransitoryExtensionUpdated method [Text Services Framework], OnTransitoryExtensionUpdated method [Text Services Framework],ITfTransitoryExtensionSink interface, msctf/ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated, tsf.itftransitoryextensionsink_ontransitoryextensionupdated
-ms.topic: method
 f1_keywords:
 - msctf/ITfTransitoryExtensionSink.OnTransitoryExtensionUpdated
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: fe403cab-b901-4c8e-a23c-788ee65c4689
 ms.date: 12/05/2018
 ms.keywords: IMFStreamSink, IMFStreamSink interface [Media Foundation], IMFStreamSink interface [Media Foundation],described, fe403cab-b901-4c8e-a23c-788ee65c4689, mf.imfstreamsink, mfidl/IMFStreamSink
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFStreamSink
 dev_langs:

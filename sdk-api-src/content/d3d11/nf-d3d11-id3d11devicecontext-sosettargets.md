@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: fba6e33e-7d35-4f26-b841-38610164d276
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceContext interface [Direct3D 11],SOSetTargets method, ID3D11DeviceContext.SOSetTargets, ID3D11DeviceContext::SOSetTargets, SOSetTargets, SOSetTargets method [Direct3D 11], SOSetTargets method [Direct3D 11],ID3D11DeviceContext interface, cd7db46c-7177-04d3-fee4-89a568e09d9e, d3d11/ID3D11DeviceContext::SOSetTargets, direct3d11.id3d11devicecontext_sosettargets
-ms.topic: method
 f1_keywords:
 - d3d11/ID3D11DeviceContext.SOSetTargets
 dev_langs:

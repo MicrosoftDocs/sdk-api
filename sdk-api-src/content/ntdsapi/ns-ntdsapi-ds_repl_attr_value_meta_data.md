@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: b13cdd31-d154-4539-81d6-d7a449e2b3d5
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_ATTR_VALUE_META_DATA, DS_REPL_ATTR_VALUE_META_DATA structure [Active Directory], ad.ds_repl_attr_value_meta_data, ntdsapi/DS_REPL_ATTR_VALUE_META_DATA
-ms.topic: struct
 f1_keywords:
 - ntdsapi/DS_REPL_ATTR_VALUE_META_DATA
 dev_langs:

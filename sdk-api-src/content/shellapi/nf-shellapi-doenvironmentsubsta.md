@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: cdf8bf2d-f446-4e0d-8664-bff2c45f74ec
 ms.date: 12/05/2018
 ms.keywords: DoEnvironmentSubst, DoEnvironmentSubst function [Windows Shell], DoEnvironmentSubstA, DoEnvironmentSubstW, _win32_DoEnvironmentSubst, shell.DoEnvironmentSubst, shellapi/DoEnvironmentSubst, shellapi/DoEnvironmentSubstA, shellapi/DoEnvironmentSubstW
-ms.topic: function
 f1_keywords:
 - shellapi/DoEnvironmentSubst
 dev_langs:

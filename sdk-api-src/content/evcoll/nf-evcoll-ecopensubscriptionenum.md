@@ -7,7 +7,6 @@ tech.root: WEC
 ms.assetid: edbfabb0-6ad1-415a-a2ef-094b1d3bcccb
 ms.date: 12/05/2018
 ms.keywords: EcOpenSubscriptionEnum, EcOpenSubscriptionEnum function, evcoll/EcOpenSubscriptionEnum, wec.ecopensubscriptionenum, wes.ecopensubscriptionenum
-ms.topic: function
 f1_keywords:
 - evcoll/EcOpenSubscriptionEnum
 dev_langs:

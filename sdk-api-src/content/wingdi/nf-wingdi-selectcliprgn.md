@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 7a4f0b9c-8588-4da8-a030-ed9d8b4ee08d
 ms.date: 12/05/2018
 ms.keywords: SelectClipRgn, SelectClipRgn function [Windows GDI], _win32_SelectClipRgn, gdi.selectcliprgn, wingdi/SelectClipRgn
-ms.topic: function
 f1_keywords:
 - wingdi/SelectClipRgn
 dev_langs:

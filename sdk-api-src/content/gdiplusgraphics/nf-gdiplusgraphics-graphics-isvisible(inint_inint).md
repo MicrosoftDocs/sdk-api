@@ -5,7 +5,6 @@ description: The Graphics::IsVisible method determines whether the specified poi
 ms.assetid: 81cadd52-1976-4328-85ca-e89aa5b649b5
 ms.date: 05/13/2019
 ms.keywords: Graphics::IsVisible
-ms.topic: language-reference
 f1_keywords:
 - gdiplusgraphics/Graphics::IsVisible
 dev_langs:

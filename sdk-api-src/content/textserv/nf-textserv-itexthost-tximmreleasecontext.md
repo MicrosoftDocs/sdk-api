@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttximmreleasecontext.htm
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxImmReleaseContext method, ITextHost.TxImmReleaseContext, ITextHost::TxImmReleaseContext, TxImmReleaseContext, TxImmReleaseContext method [Windows Controls], TxImmReleaseContext method [Windows Controls],ITextHost interface, _win32_ITextHost_TxImmReleaseContext, _win32_ITextHost_TxImmReleaseContext_cpp, controls.ITextHost_TxImmReleaseContext, controls._win32_ITextHost_TxImmReleaseContext, textserv/ITextHost::TxImmReleaseContext
-ms.topic: method
 f1_keywords:
 - textserv/ITextHost.TxImmReleaseContext
 dev_langs:

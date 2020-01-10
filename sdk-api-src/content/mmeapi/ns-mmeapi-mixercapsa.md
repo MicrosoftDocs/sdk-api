@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 4a4220cb-fdb1-4afe-821f-27f5adb51530
 ms.date: 12/05/2018
 ms.keywords: '*LPMIXERCAPSA, *PMIXERCAPSA, MIXERCAPS, MIXERCAPS structure [Windows Multimedia], MIXERCAPSA, _win32_MIXERCAPS_str, mmeapi/MIXERCAPS, multimedia.mixercaps, tMIXERCAPS, tagMIXERCAPSA, tagMIXERCAPSW'
-ms.topic: struct
 f1_keywords:
 - mmeapi/MIXERCAPS
 dev_langs:

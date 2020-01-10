@@ -7,7 +7,6 @@ tech.root: cmpapi
 ms.assetid: 804B73D3-E68E-43A3-8F23-6A46ABDECB23
 ms.date: 12/05/2018
 ms.keywords: SetDecompressorInformation, SetDecompressorInformation function [Compression API], cmpapi.setdecompressorinformation, compressapi/SetDecompressorInformation
-ms.topic: function
 f1_keywords:
 - compressapi/SetDecompressorInformation
 dev_langs:

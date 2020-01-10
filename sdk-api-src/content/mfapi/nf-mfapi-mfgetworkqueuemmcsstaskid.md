@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: e9b2eea8-2ed3-4b08-ad2a-c8ee2e09f3e4
 ms.date: 12/05/2018
 ms.keywords: MFGetWorkQueueMMCSSTaskId, MFGetWorkQueueMMCSSTaskId function [Media Foundation], e9b2eea8-2ed3-4b08-ad2a-c8ee2e09f3e4, mf.mfgetworkqueuemmcsstaskid, mfapi/MFGetWorkQueueMMCSSTaskId
-ms.topic: function
 f1_keywords:
 - mfapi/MFGetWorkQueueMMCSSTaskId
 dev_langs:

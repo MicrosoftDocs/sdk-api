@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: d3ec0350-2eb8-4843-88bb-d72cece710e7
 ms.date: 12/05/2018
 ms.keywords: GetTextAlign, GetTextAlign function [Windows GDI], _win32_GetTextAlign, gdi.gettextalign, wingdi/GetTextAlign
-ms.topic: function
 f1_keywords:
 - wingdi/GetTextAlign
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 14b6fab5-36d1-490b-9416-ff77f6bb7e01
 ms.date: 12/05/2018
 ms.keywords: IX509Enrollment2 interface [Security],Template property, IX509Enrollment2.Template, IX509Enrollment2.get_Template, IX509Enrollment2::Template, IX509Enrollment2::get_Template, Template property [Security], Template property [Security],IX509Enrollment2 interface, certenroll/IX509Enrollment2::Template, certenroll/IX509Enrollment2::get_Template, get_Template, security.ix509enrollment2_template
-ms.topic: method
 f1_keywords:
 - certenroll/IX509Enrollment2.Template
 dev_langs:

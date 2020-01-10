@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 541626ca-0b68-41cd-8f20-5ffd034fc878
 ms.date: 12/05/2018
 ms.keywords: BypassProxyOnLocal property [Windows Update Agent], BypassProxyOnLocal property [Windows Update Agent],IWebProxy interface, IWebProxy interface [Windows Update Agent],BypassProxyOnLocal property, IWebProxy.BypassProxyOnLocal, IWebProxy.get_BypassProxyOnLocal, IWebProxy::BypassProxyOnLocal, IWebProxy::get_BypassProxyOnLocal, IWebProxy::put_BypassProxyOnLocal, get_BypassProxyOnLocal, wua.iwebproxy_bypassproxyonlocal, wuapi/IWebProxy::BypassProxyOnLocal, wuapi/IWebProxy::get_BypassProxyOnLocal, wuapi/IWebProxy::put_BypassProxyOnLocal
-ms.topic: method
 f1_keywords:
 - wuapi/IWebProxy.BypassProxyOnLocal
 dev_langs:

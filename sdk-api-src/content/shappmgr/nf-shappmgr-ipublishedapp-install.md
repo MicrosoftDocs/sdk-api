@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 6d8c5720-b48f-4268-810c-c04b14d20d73
 ms.date: 12/05/2018
 ms.keywords: IPublishedApp interface [Windows Shell],Install method, IPublishedApp.Install, IPublishedApp::Install, Install, Install method [Windows Shell], Install method [Windows Shell],IPublishedApp interface, inet_IPublishedApp_Install, shappmgr/IPublishedApp::Install, shell.IPublishedApp_Install
-ms.topic: method
 f1_keywords:
 - shappmgr/IPublishedApp.Install
 dev_langs:

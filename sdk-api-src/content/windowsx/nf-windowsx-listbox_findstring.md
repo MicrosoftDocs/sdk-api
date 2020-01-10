@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_findstring.htm
 ms.date: 12/05/2018
 ms.keywords: ListBox_FindString, ListBox_FindString macro [Windows Controls], _win32_ListBox_FindString, _win32_ListBox_FindString_cpp, controls.ListBox_FindString, controls._win32_ListBox_FindString, windowsx/ListBox_FindString
-ms.topic: macro
 f1_keywords:
 - windowsx/ListBox_FindString
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 20acf963-de8f-4bcd-a9d6-a513d516b108
 ms.date: 12/05/2018
 ms.keywords: PeerGroupSetProperties, PeerGroupSetProperties function [Peer Networking], p2p.peergroupsetproperties, p2p/PeerGroupSetProperties
-ms.topic: function
 f1_keywords:
 - p2p/PeerGroupSetProperties
 dev_langs:

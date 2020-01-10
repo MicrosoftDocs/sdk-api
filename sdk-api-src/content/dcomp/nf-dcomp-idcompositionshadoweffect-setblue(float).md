@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 3ECA54E6-65ED-467B-823C-F6C96AFEE1E5
 ms.date: 12/05/2018
 ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetBlue method, IDCompositionShadowEffect.SetBlue, IDCompositionShadowEffect::SetBlue, IDCompositionShadowEffect::SetBlue(float), SetBlue, SetBlue method [DirectComposition], SetBlue method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetBlue, directcomp.idcompositionshadoweffect_setblue
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionShadowEffect.SetBlue
 dev_langs:

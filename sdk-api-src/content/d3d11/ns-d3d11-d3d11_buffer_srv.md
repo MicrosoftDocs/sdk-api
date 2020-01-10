@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: 2ada8526-bef3-4998-8775-6e062f972a1c
 ms.date: 12/05/2018
 ms.keywords: D3D11_BUFFER_SRV, D3D11_BUFFER_SRV structure [Direct3D 11], d3d11/D3D11_BUFFER_SRV, direct3d11.d3d11_buffer_srv, f51a8ea2-ef96-9fea-a1b6-75c15fd9f42e
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_BUFFER_SRV
 dev_langs:

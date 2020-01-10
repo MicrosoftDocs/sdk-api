@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\iwiadatatransfer.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaDataTransfer, IWiaDataTransfer interface [WIA], IWiaDataTransfer interface [WIA],described, _wia_IWiaDataTransfer, wia._wia_IWiaDataTransfer, wia_xp/IWiaDataTransfer
-ms.topic: interface
 f1_keywords:
 - wia_xp/IWiaDataTransfer
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbdispinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMTBDISPINFOW, LPNMTBDISPINFO, LPNMTBDISPINFO structure pointer [Windows Controls], NMTBDISPINFO, NMTBDISPINFO structure [Windows Controls], NMTBDISPINFOA, NMTBDISPINFOW, TBNF_DI_SETITEM, TBNF_IMAGE, TBNF_TEXT, _win32_NMTBDISPINFO, _win32_NMTBDISPINFO_cpp, commctrl/LPNMTBDISPINFO, commctrl/NMTBDISPINFO, commctrl/NMTBDISPINFOA, commctrl/NMTBDISPINFOW, controls.NMTBDISPINFO, controls._win32_NMTBDISPINFO'
-ms.topic: struct
 f1_keywords:
 - commctrl/NMTBDISPINFO
 dev_langs:

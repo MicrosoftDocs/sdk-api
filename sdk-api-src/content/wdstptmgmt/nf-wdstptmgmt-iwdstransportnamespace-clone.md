@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: bc7eb27e-8bbb-414a-bfc2-25cc762b451d
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Deployment Services], Clone method [Windows Deployment Services],IWdsTransportNamespace interface, IWdsTransportNamespace interface [Windows Deployment Services],Clone method, IWdsTransportNamespace.Clone, IWdsTransportNamespace::Clone, wds.iwdstransportnamespace_clone, wdstptmgmt/IWdsTransportNamespace::Clone
-ms.topic: method
 f1_keywords:
 - wdstptmgmt/IWdsTransportNamespace.Clone
 dev_langs:

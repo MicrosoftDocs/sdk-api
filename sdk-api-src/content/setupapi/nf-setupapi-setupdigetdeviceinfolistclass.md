@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 332945dc-9edc-4fbf-a4fa-533a00352553
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetDeviceInfoListClass, SetupDiGetDeviceInfoListClass function [Device and Driver Installation], devinst.setupdigetdeviceinfolistclass, di-rtns_219b6225-e6f3-40b4-8127-709c425a0cad.xml, setupapi/SetupDiGetDeviceInfoListClass
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetDeviceInfoListClass
 dev_langs:

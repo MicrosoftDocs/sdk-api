@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 916c29ee-adb3-402c-b4f3-97b8977f44ac
 ms.date: 12/05/2018
 ms.keywords: GetVisibleProviders, GetVisibleProviders method [Microsoft Broadband Networks], GetVisibleProviders method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetVisibleProviders method, IMbnInterface.GetVisibleProviders, IMbnInterface::GetVisibleProviders, mbn.imbninterface_getvisibleproviders, mbnapi/IMbnInterface::GetVisibleProviders
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnInterface.GetVisibleProviders
 dev_langs:

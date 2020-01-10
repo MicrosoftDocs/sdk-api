@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: a9078166-ff6a-4520-8209-e785bd6e7100
 ms.date: 12/05/2018
 ms.keywords: EnumerateACDGroups, EnumerateACDGroups method [TAPI 2.2], EnumerateACDGroups method [TAPI 2.2],ITAgentHandler interface, ITAgentHandler interface [TAPI 2.2],EnumerateACDGroups method, ITAgentHandler.EnumerateACDGroups, ITAgentHandler::EnumerateACDGroups, _tapi3_itagenthandler_enumerateacdgroups, tapi3.itagenthandler_enumerateacdgroups, tapi3cc/ITAgentHandler::EnumerateACDGroups
-ms.topic: method
 f1_keywords:
 - tapi3/ITAgentHandler.EnumerateACDGroups
 dev_langs:

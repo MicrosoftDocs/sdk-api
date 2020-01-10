@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4LengthEst(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4LengthEst, XMVector4LengthEst, XMVector4LengthEst method [DirectX Math Support APIs], dxmath.xmvector4lengthest
-ms.topic: function
 f1_keywords:
 - directxmath/XMVector4LengthEst
 dev_langs:

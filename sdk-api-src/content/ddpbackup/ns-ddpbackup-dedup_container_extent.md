@@ -7,7 +7,6 @@ tech.root: dedup
 ms.assetid: D7CEC0C4-0472-467C-87F1-1496C9F08296
 ms.date: 12/05/2018
 ms.keywords: DEDUP_CONTAINER_EXTENT, DEDUP_CONTAINER_EXTENT structure [Data Deduplication API], PDEDUP_CONTAINER_EXTENT, PDEDUP_CONTAINER_EXTENT structure pointer [Data Deduplication API], ddpbackup/DEDUP_CONTAINER_EXTENT, ddpbackup/PDEDUP_CONTAINER_EXTENT, dedup.dedup_container_extent
-ms.topic: struct
 f1_keywords:
 - ddpbackup/DEDUP_CONTAINER_EXTENT
 dev_langs:

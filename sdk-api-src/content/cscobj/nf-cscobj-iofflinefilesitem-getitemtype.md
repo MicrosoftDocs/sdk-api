@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: 87fbf63a-d103-4c80-b6a7-60784c7350bc
 ms.date: 12/05/2018
 ms.keywords: GetItemType, GetItemType method [Offline Files], GetItemType method [Offline Files],IOfflineFilesItem interface, IOfflineFilesItem interface [Offline Files],GetItemType method, IOfflineFilesItem.GetItemType, IOfflineFilesItem::GetItemType, cscobj/IOfflineFilesItem::GetItemType, of.iofflinefilesitem_getitemtype
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesItem.GetItemType
 dev_langs:

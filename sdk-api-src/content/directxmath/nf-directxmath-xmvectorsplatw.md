@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorSplatW(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSplatW, XMVectorSplatW, XMVectorSplatW method [DirectX Math Support APIs], dxmath.xmvectorsplatw
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorSplatW
 dev_langs:

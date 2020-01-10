@@ -7,7 +7,6 @@ tech.root: Nps
 ms.assetid: 75af0d43-f866-4769-8221-45e47c588bb0
 ms.date: 12/05/2018
 ms.keywords: PRADIUS_EXTENSION_PROCESS, PRADIUS_EXTENSION_PROCESS callback, PRADIUS_EXTENSION_PROCESS callback function [Network Policy Server], RadiusExtensionProcess, _ias_radiusextensionprocess, authif/PRADIUS_EXTENSION_PROCESS, ias.radiusextensionprocess, nps.IAS_radiusextensionprocess
-ms.topic: callback
 f1_keywords:
 - authif/PRADIUS_EXTENSION_PROCESS
 dev_langs:

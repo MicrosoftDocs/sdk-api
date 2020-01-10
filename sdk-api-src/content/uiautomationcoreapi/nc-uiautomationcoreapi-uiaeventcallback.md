@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: a7dbe077-e059-4e92-8fb8-950cb67c4975
 ms.date: 12/05/2018
 ms.keywords: UiaEventCallback, UiaEventCallback callback, UiaEventCallback callback function [Windows Accessibility], uiauto.uiauto_UiaEventCallbackClientEvent, uiauto_UiaEventCallbackClientEvent, uiautomationcoreapi/UiaEventCallback, winauto.uiauto_UiaEventCallbackClientEvent
-ms.topic: callback
 f1_keywords:
 - uiautomationcoreapi/UiaEventCallback
 dev_langs:

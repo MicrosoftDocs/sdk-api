@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 29b758c0-5bbe-489c-9950-bc92a185fbaf
 ms.date: 12/05/2018
 ms.keywords: IAudioSystemEffectsCustomFormats, IAudioSystemEffectsCustomFormats interface [Audio Devices], IAudioSystemEffectsCustomFormats interface [Audio Devices],described, audio.iaudiosystemeffectscustomformats, audio_syseffects_r_c8bb1589-9952-4e31-8153-653c3dd0f174.xml, audioenginebaseapo/IAudioSystemEffectsCustomFormats
-ms.topic: interface
 f1_keywords:
 - audioenginebaseapo/IAudioSystemEffectsCustomFormats
 dev_langs:

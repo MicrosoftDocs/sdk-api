@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 6b3e1d3a-2227-4a27-91aa-8767a3d76bc4
 ms.date: 12/05/2018
 ms.keywords: DrawDibGetBuffer, DrawDibGetBuffer function [Windows Multimedia], _win32_DrawDibGetBuffer, multimedia.drawdibgetbuffer, vfw/DrawDibGetBuffer
-ms.topic: function
 f1_keywords:
 - vfw/DrawDibGetBuffer
 dev_langs:

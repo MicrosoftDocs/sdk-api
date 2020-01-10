@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: e8700635-94cb-4d1a-9325-f93d00c5181f
 ms.date: 12/05/2018
 ms.keywords: GetOriginalCallerSID, GetOriginalCallerSID method [COM+], GetOriginalCallerSID method [COM+],ISecurityProperty interface, ISecurityProperty interface [COM+],GetOriginalCallerSID method, ISecurityProperty.GetOriginalCallerSID, ISecurityProperty::GetOriginalCallerSID, _cos_ISecurityProperty_GetOriginalCallerSID, comsvcs/ISecurityProperty::GetOriginalCallerSID, cos.isecurityproperty_getoriginalcallersid
-ms.topic: method
 f1_keywords:
 - comsvcs/ISecurityProperty.GetOriginalCallerSID
 dev_langs:

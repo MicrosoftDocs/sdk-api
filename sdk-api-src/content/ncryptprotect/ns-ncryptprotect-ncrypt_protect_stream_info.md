@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 77FADFC1-6C66-4801-B0BD-263963555C3C
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_PROTECT_STREAM_INFO, NCRYPT_PROTECT_STREAM_INFO structure [Security], PNCRYPT_PROTECT_STREAM_INFO, PNCRYPT_PROTECT_STREAM_INFO structure pointer [Security], ncryptprotect/NCRYPT_PROTECT_STREAM_INFO, ncryptprotect/PNCRYPT_PROTECT_STREAM_INFO, security.ncrypt_protect_stream_info
-ms.topic: struct
 f1_keywords:
 - ncryptprotect/NCRYPT_PROTECT_STREAM_INFO
 dev_langs:

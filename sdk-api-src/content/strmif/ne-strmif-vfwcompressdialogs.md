@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b1e92603-631a-45e0-aee0-3974e3114e03
 ms.date: 12/05/2018
 ms.keywords: VfwCompressDialog_About, VfwCompressDialog_Config, VfwCompressDialog_QueryAbout, VfwCompressDialog_QueryConfig, VfwCompressDialogs, VfwCompressDialogs enumeration [DirectShow], VfwCompressDialogsEnumeration, dshow.vfwcompressdialogs, strmif/VfwCompressDialog_About, strmif/VfwCompressDialog_Config, strmif/VfwCompressDialog_QueryAbout, strmif/VfwCompressDialog_QueryConfig, strmif/VfwCompressDialogs
-ms.topic: enum
 f1_keywords:
 - strmif/VfwCompressDialogs
 dev_langs:

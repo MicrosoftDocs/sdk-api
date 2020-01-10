@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 75faea24-91cd-448b-b67a-09fe530f1830
 ms.date: 12/05/2018
 ms.keywords: RegisterPointerInputTarget, RegisterPointerInputTarget function [Windows Accessibility], inputmsg.registerpointerinputtarget, winauto.RegisterPointerInputTarget, winuser/RegisterPointerInputTarget
-ms.topic: function
 f1_keywords:
 - winuser/RegisterPointerInputTarget
 dev_langs:

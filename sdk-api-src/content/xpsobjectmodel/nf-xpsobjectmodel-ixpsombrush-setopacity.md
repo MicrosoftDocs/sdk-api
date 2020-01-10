@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: e0249796-298f-4e26-a767-cd57903e5da0
 ms.date: 12/05/2018
 ms.keywords: IXpsOMBrush interface [XPS Documents and Packaging],SetOpacity method, IXpsOMBrush.SetOpacity, IXpsOMBrush::SetOpacity, SetOpacity, SetOpacity method [XPS Documents and Packaging], SetOpacity method [XPS Documents and Packaging],IXpsOMBrush interface, xps.ixpsombrush_setopacity, xpsobjectmodel/IXpsOMBrush::SetOpacity
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMBrush.SetOpacity
 dev_langs:

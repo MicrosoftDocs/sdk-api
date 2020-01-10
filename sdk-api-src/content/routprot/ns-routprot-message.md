@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 94f3069f-c282-4dea-84f9-48645f4e1593
 ms.date: 12/05/2018
 ms.keywords: '*PMESSAGE, MESSAGE, MESSAGE structure [RAS], PMESSAGE, PMESSAGE structure pointer [RAS], _MESSAGE, _mpr_message, routprot/MESSAGE, routprot/PMESSAGE, rras.message'
-ms.topic: struct
 f1_keywords:
 - routprot/MESSAGE
 dev_langs:

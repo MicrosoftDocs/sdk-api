@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: c1dfbd63-c165-4872-b992-3f536be9cad1
 ms.date: 12/05/2018
 ms.keywords: GetCallersId, GetCallersId method [DirectShow], GetCallersId method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetCallersId method, IESLicenseRenewalResultEvent.GetCallersId, IESLicenseRenewalResultEvent::GetCallersId, mstv.ieslicenserenewalresultevent_getcallersid, tuner/IESLicenseRenewalResultEvent::GetCallersId
-ms.topic: method
 f1_keywords:
 - tuner/IESLicenseRenewalResultEvent.GetCallersId
 dev_langs:

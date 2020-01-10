@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 49a9d1aa-30f3-45ea-a4ec-9f55df692b8b
 ms.date: 12/05/2018
 ms.keywords: PROCESS_NAME_NATIVE, QueryFullProcessImageName, QueryFullProcessImageName function, QueryFullProcessImageNameA, QueryFullProcessImageNameW, base.queryfullprocessimagename, winbase/QueryFullProcessImageName, winbase/QueryFullProcessImageNameA, winbase/QueryFullProcessImageNameW
-ms.topic: function
 f1_keywords:
 - winbase/QueryFullProcessImageName
 dev_langs:

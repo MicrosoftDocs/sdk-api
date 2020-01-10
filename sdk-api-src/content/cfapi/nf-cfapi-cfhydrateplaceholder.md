@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: 4FFD7580-BF59-48D0-B6D7-516559914096
 ms.date: 12/05/2018
 ms.keywords: CfHydratePlaceholder, CfHydratePlaceholder function, cfapi/CfHydratePlaceholder, cloudApi.cfhydrateplaceholder
-ms.topic: function
 f1_keywords:
 - cfapi/CfHydratePlaceholder
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: b937fbf0-b920-413a-a184-ebe08ee893e5
 ms.date: 12/05/2018
 ms.keywords: CreateRectangleClip, CreateRectangleClip method [DirectComposition], CreateRectangleClip method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateRectangleClip method, IDCompositionDevice.CreateRectangleClip, IDCompositionDevice::CreateRectangleClip, dcomp/IDCompositionDevice::CreateRectangleClip, directcomp.idcompositiondevice_createrectangleclip
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionDevice.CreateRectangleClip
 dev_langs:

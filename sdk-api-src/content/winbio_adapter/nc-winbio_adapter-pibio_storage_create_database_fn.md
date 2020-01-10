@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 7b9e034e-51d4-4209-9092-14e21e9fff3c
 ms.date: 12/05/2018
 ms.keywords: PIBIO_STORAGE_CREATE_DATABASE_FN, PIBIO_STORAGE_CREATE_DATABASE_FN callback, StorageAdapterCreateDatabase, StorageAdapterCreateDatabase callback function [Windows Biometric Framework API], secbiomet.storageadaptercreatedatabase, winbio_adapter/StorageAdapterCreateDatabase
-ms.topic: callback
 f1_keywords:
 - winbio_adapter/StorageAdapterCreateDatabase
 dev_langs:

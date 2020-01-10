@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 362d8e12-a92c-4e0f-b88f-a3937c75d01a
 ms.date: 12/05/2018
 ms.keywords: GetMasterVolume, GetMasterVolume method [Core Audio], GetMasterVolume method [Core Audio],ISimpleAudioVolume interface, ISimpleAudioVolume interface [Core Audio],GetMasterVolume method, ISimpleAudioVolume.GetMasterVolume, ISimpleAudioVolume::GetMasterVolume, ISimpleAudioVolumeGetMasterVolume, audioclient/ISimpleAudioVolume::GetMasterVolume, coreaudio.isimpleaudiovolume_getmastervolume
-ms.topic: method
 f1_keywords:
 - audioclient/ISimpleAudioVolume.GetMasterVolume
 dev_langs:

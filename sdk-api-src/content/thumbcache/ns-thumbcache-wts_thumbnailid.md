@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3006d1a8-c9cf-4528-9aea-8ad5d97ddff0
 ms.date: 12/05/2018
 ms.keywords: WTS_THUMBNAILID, WTS_THUMBNAILID structure [Windows Shell], _shell_WTS_THUMBNAILID, shell.WTS_THUMBNAILID, thumbcache/WTS_THUMBNAILID
-ms.topic: struct
 f1_keywords:
 - thumbcache/WTS_THUMBNAILID
 dev_langs:

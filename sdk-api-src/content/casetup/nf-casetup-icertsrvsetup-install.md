@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: e07b1cdd-ccb6-4398-862b-521ac1d39f66
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],Install method, ICertSrvSetup.Install, ICertSrvSetup::Install, Install, Install method [Security], Install method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::Install, security.icertsrvsetup_install
-ms.topic: method
 f1_keywords:
 - casetup/ICertSrvSetup.Install
 dev_langs:

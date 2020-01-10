@@ -7,7 +7,6 @@ tech.root: Rsm
 ms.assetid: a0619420-f391-4695-a87e-8cbf8d3a3742
 ms.date: 12/05/2018
 ms.keywords: NTMS_DOORSTATE_CLOSED, NTMS_DOORSTATE_OPEN, NTMS_DOORSTATE_UNKNOWN, NTMS_IEDOORINFORMATION, NTMS_IEDOORINFORMATION structure [Files], _zaw_ntms_iedoorinformation, base.ntms_iedoorinformation, fs.ntms_iedoorinformation, ntmsapi/NTMS_IEDOORINFORMATION
-ms.topic: struct
 f1_keywords:
 - ntmsapi/NTMS_IEDOORINFORMATION
 dev_langs:

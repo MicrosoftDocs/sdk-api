@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b0dbfd1c-493f-4f35-88ab-cd3868a56370
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],put_RollRelative method, ICameraControl.put_RollRelative, ICameraControl::put_RollRelative, ICameraControlput_RollRelative, dshow.icameracontrol_put_rollrelative, put_RollRelative, put_RollRelative method [DirectShow], put_RollRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_RollRelative
-ms.topic: method
 f1_keywords:
 - vidcap/ICameraControl.put_RollRelative
 dev_langs:

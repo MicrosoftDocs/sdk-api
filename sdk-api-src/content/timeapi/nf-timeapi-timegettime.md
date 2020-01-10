@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: f9d3a7a9-1457-4993-92f1-f888780a565e
 ms.date: 12/05/2018
 ms.keywords: _win32_timeGetTime, mmsystem/timeGetTime, multimedia.timegettime, timeGetTime, timeGetTime function [Windows Multimedia], timeapi/timeGetTime
-ms.topic: function
 f1_keywords:
 - timeapi/timeGetTime
 dev_langs:

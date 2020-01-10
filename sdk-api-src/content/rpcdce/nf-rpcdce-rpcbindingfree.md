@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 0f85e64f-b4a6-4982-8df5-88caa0a312f6
 ms.date: 12/05/2018
 ms.keywords: RpcBindingFree, RpcBindingFree function [RPC], _rpc_rpcbindingfree, rpc.rpcbindingfree, rpcdce/RpcBindingFree
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcBindingFree
 dev_langs:

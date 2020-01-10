@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a3c69dfb-6ee4-401b-8dcb-4e42a8cd8156
 ms.date: 12/05/2018
 ms.keywords: GetPointer, GetPointer method [DirectShow], GetPointer method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetPointer method, IMediaSample.GetPointer, IMediaSample::GetPointer, IMediaSampleGetPointer, dshow.imediasample_getpointer, strmif/IMediaSample::GetPointer
-ms.topic: method
 f1_keywords:
 - strmif/IMediaSample.GetPointer
 dev_langs:

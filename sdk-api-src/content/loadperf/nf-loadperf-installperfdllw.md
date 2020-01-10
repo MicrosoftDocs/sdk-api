@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: d674f023-27e5-4ca2-926d-4fa02292ffbb
 ms.date: 12/05/2018
 ms.keywords: InstallPerfDll, InstallPerfDll function [Windows API], InstallPerfDllA, InstallPerfDllW, loadperf/InstallPerfDll, winprog.installperfdll
-ms.topic: function
 f1_keywords:
 - loadperf/InstallPerfDll
 dev_langs:

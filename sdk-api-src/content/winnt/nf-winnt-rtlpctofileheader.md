@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 690c9f20-d471-49c9-a40c-28926f03acac
 ms.date: 12/05/2018
 ms.keywords: RtlPcToFileHeader, RtlPcToFileHeader function, base.rtlpctofileheader, winnt/RtlPcToFileHeader
-ms.topic: function
 f1_keywords:
 - winnt/RtlPcToFileHeader
 dev_langs:

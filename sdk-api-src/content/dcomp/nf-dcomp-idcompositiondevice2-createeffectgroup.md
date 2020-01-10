@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 07AF43F9-1050-48C5-B37B-787B5CC60E9D
 ms.date: 12/05/2018
 ms.keywords: CreateEffectGroup, CreateEffectGroup method [DirectComposition], CreateEffectGroup method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateEffectGroup method, IDCompositionDevice2.CreateEffectGroup, IDCompositionDevice2::CreateEffectGroup, dcomp/IDCompositionDevice2::CreateEffectGroup, directcomp.idcompositiondevice2_createeffectgroup
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionDevice2.CreateEffectGroup
 dev_langs:

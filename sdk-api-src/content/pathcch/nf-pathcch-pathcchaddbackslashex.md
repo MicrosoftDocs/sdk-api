@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 89adf45f-f16d-49d1-9e76-b57b73b4d4c3
 ms.date: 12/05/2018
 ms.keywords: PathCchAddBackslashEx, PathCchAddBackslashEx function [Windows Shell], pathcch/PathCchAddBackslashEx, shell.PathCchAddBackslashEx
-ms.topic: function
 f1_keywords:
 - pathcch/PathCchAddBackslashEx
 dev_langs:

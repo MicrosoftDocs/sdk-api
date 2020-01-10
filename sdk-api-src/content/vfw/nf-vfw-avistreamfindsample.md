@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 2bd89f50-0d3a-4c34-b7b8-dc29f2d54d55
 ms.date: 12/05/2018
 ms.keywords: AVIStreamFindSample, AVIStreamFindSample function [Windows Multimedia], _win32_AVIStreamFindSample, multimedia.avistreamfindsample, vfw/AVIStreamFindSample
-ms.topic: function
 f1_keywords:
 - vfw/AVIStreamFindSample
 dev_langs:

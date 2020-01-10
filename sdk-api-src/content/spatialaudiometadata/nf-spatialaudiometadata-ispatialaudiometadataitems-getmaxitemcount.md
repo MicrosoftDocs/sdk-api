@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 933DEDE0-3DC1-4D0B-8EAE-58EFB52CE2FE
 ms.date: 12/05/2018
 ms.keywords: GetMaxItemCount, GetMaxItemCount method [Core Audio], GetMaxItemCount method [Core Audio],ISpatialAudioMetadataItems interface, ISpatialAudioMetadataItems interface [Core Audio],GetMaxItemCount method, ISpatialAudioMetadataItems.GetMaxItemCount, ISpatialAudioMetadataItems::GetMaxItemCount, coreaudio.ispatialaudiometadataitems_getmaxitemcount, spatialaudiometadata/ISpatialAudioMetadataItems::GetMaxItemCount
-ms.topic: method
 f1_keywords:
 - spatialaudiometadata/ISpatialAudioMetadataItems.GetMaxItemCount
 dev_langs:

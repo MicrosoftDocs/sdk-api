@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: EA0FC8FC-831C-4EE8-995C-CA6B013C9A91
 ms.date: 12/05/2018
 ms.keywords: IDCompositionArithmeticCompositeEffect interface [DirectComposition],SetCoefficient4 method, IDCompositionArithmeticCompositeEffect.SetCoefficient4, IDCompositionArithmeticCompositeEffect::SetCoefficient4, IDCompositionArithmeticCompositeEffect::SetCoefficient4(float), SetCoefficient4, SetCoefficient4 method [DirectComposition], SetCoefficient4 method [DirectComposition],IDCompositionArithmeticCompositeEffect interface, dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficient4, directcomp.idcompositionarithmeticcompositeeffect_setcoefficient4
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionArithmeticCompositeEffect.SetCoefficient4
 dev_langs:

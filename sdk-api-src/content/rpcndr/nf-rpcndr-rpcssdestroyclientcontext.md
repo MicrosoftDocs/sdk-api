@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 7c4fe939-eda9-45c3-84fb-491ac96e7c78
 ms.date: 12/05/2018
 ms.keywords: RpcSsDestroyClientContext, RpcSsDestroyClientContext function [RPC], _rpc_rpcssdestroyclientcontext, rpc.rpcssdestroyclientcontext, rpcndr/RpcSsDestroyClientContext
-ms.topic: function
 f1_keywords:
 - rpcndr/RpcSsDestroyClientContext
 dev_langs:

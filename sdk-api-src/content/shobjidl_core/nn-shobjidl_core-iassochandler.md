@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5d5a107c-2c0e-4242-8f40-97421937167c
 ms.date: 12/05/2018
 ms.keywords: IAssocHandler, IAssocHandler interface [Windows Shell], IAssocHandler interface [Windows Shell],described, _shell_IAssocHandler, shell.IAssocHandler, shobjidl_core/IAssocHandler
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IAssocHandler
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: a1c89c6b-d11d-4d3e-a664-af2beed0cd09
 ms.date: 12/05/2018
 ms.keywords: _win32_sendto_2, sendto, sendto function [Winsock], winsock.sendto_2, winsock/sendto
-ms.topic: function
 f1_keywords:
 - winsock2/sendto
 dev_langs:

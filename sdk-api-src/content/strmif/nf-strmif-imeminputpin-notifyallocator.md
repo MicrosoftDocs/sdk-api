@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: dbc9c0ce-3e9c-4402-9d3e-1c7295e94ad9
 ms.date: 12/05/2018
 ms.keywords: IMemInputPin interface [DirectShow],NotifyAllocator method, IMemInputPin.NotifyAllocator, IMemInputPin::NotifyAllocator, IMemInputPinNotifyAllocator, NotifyAllocator, NotifyAllocator method [DirectShow], NotifyAllocator method [DirectShow],IMemInputPin interface, dshow.imeminputpin_notifyallocator, strmif/IMemInputPin::NotifyAllocator
-ms.topic: method
 f1_keywords:
 - strmif/IMemInputPin.NotifyAllocator
 dev_langs:

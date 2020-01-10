@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectcontainsmethods.htm
 ms.date: 12/05/2018
 ms.keywords: Contains, Contains methods [GDI+], Rect.Contains, Rect.Contains(IN Rect &), Rect::Contains, Rect::Contains(IN Rect &), _gdiplus_CLASS_Rect_Contains_Methods, gdiplus._gdiplus_CLASS_Rect_Contains_Methods, gdiplustypes/Contains
-ms.topic: method
 f1_keywords:
 - gdiplustypes/Rect.Contains
 dev_langs:

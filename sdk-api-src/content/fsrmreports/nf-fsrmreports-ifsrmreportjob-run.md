@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 74f369d1-2e3d-49a5-bf54-c1b7c13efbd7
 ms.date: 12/05/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],Run method, IFsrmReportJob.Run, IFsrmReportJob::Run, Run, Run method [File Server Resource Manager], Run method [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_run, fsrm.ifsrmreportjob_run, fsrmreports/IFsrmReportJob::Run
-ms.topic: method
 f1_keywords:
 - fsrmreports/IFsrmReportJob.Run
 dev_langs:

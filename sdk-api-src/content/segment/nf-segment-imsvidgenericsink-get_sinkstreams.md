@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: e77f2ee8-081b-4415-87b5-ab27ee0218d2
 ms.date: 12/05/2018
 ms.keywords: IMSVidGenericSink interface [Microsoft TV Technologies],get_SinkStreams method, IMSVidGenericSink.get_SinkStreams, IMSVidGenericSink::get_SinkStreams, IMSVidGenericSinkget_SinkStreams, get_SinkStreams, get_SinkStreams method [Microsoft TV Technologies], get_SinkStreams method [Microsoft TV Technologies],IMSVidGenericSink interface, mstv.imsvidgenericsink_get_sinkstreams, segment/IMSVidGenericSink::get_SinkStreams
-ms.topic: method
 f1_keywords:
 - segment/IMSVidGenericSink.get_SinkStreams
 dev_langs:

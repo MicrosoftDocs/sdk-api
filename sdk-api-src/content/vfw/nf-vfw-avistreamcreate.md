@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 8c784875-dc8f-4fd4-b267-0194cdbfa3c7
 ms.date: 12/05/2018
 ms.keywords: AVIStreamCreate, AVIStreamCreate function [Windows Multimedia], _win32_AVIStreamCreate, multimedia.avistreamcreate, vfw/AVIStreamCreate
-ms.topic: function
 f1_keywords:
 - vfw/AVIStreamCreate
 dev_langs:

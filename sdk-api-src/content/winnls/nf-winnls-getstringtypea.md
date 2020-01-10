@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 8fe771ae-80f6-473d-b2d8-8331c58ffb5a
 ms.date: 12/05/2018
 ms.keywords: GetStringTypeA, GetStringTypeA function [Internationalization for Windows Applications], _win32_GetStringTypeA, _win32_GetStringTypeA_cpp, intl.getstringtypea, winnls/GetStringTypeA, winui._win32_GetStringTypeA
-ms.topic: function
 f1_keywords:
 - winnls/GetStringTypeA
 dev_langs:

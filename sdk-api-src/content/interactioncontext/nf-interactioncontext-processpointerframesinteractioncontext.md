@@ -7,7 +7,6 @@ tech.root: Input_IntContext
 ms.assetid: 87e70ebf-ff54-4a90-8b28-1cfe6dc33e94
 ms.date: 12/05/2018
 ms.keywords: ProcessPointerFramesInteractionContext, ProcessPointerFramesInteractionContext function, input_intcontext.processpointerframesinteractioncontext, interactioncontext.processpointerframesinteractioncontext, interactioncontext/ProcessPointerFramesInteractionContext
-ms.topic: function
 f1_keywords:
 - interactioncontext/ProcessPointerFramesInteractionContext
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 1f728b33-3788-4fc4-b261-da243b4ff46e
 ms.date: 12/05/2018
 ms.keywords: DDiscMaster2Events interface [IMAPI],NotifyDeviceAdded method, DDiscMaster2Events.NotifyDeviceAdded, DDiscMaster2Events::NotifyDeviceAdded, NotifyDeviceAdded, NotifyDeviceAdded method [IMAPI], NotifyDeviceAdded method [IMAPI],DDiscMaster2Events interface, imapi.ddiscmaster2events_notifydeviceadded, imapi2/DDiscMaster2Events::NotifyDeviceAdded
-ms.topic: method
 f1_keywords:
 - imapi2/DDiscMaster2Events.NotifyDeviceAdded
 dev_langs:

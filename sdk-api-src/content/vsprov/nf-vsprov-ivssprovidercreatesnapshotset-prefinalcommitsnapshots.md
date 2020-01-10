@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 6d6895b9-6e6c-4c4c-b7c9-a4eff771567a
 ms.date: 12/05/2018
 ms.keywords: IVssProviderCreateSnapshotSet interface [VSS],PreFinalCommitSnapshots method, IVssProviderCreateSnapshotSet.PreFinalCommitSnapshots, IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots, PreFinalCommitSnapshots, PreFinalCommitSnapshots method [VSS], PreFinalCommitSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, base.ivssprovidercreatesnapshotset_prefinalcommitsnapshots, vsprov/IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots
-ms.topic: method
 f1_keywords:
 - vsprov/IVssProviderCreateSnapshotSet.PreFinalCommitSnapshots
 dev_langs:

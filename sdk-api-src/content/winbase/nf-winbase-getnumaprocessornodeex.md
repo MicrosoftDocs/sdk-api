@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 6b843cd8-eeb5-4aa1-aad4-ce98916346b1
 ms.date: 12/05/2018
 ms.keywords: GetNumaProcessorNodeEx, GetNumaProcessorNodeEx function, base.getnumaprocessornodeex, winbase/GetNumaProcessorNodeEx
-ms.topic: function
 f1_keywords:
 - winbase/GetNumaProcessorNodeEx
 dev_langs:

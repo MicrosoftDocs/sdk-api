@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 52420cc6-0a7b-499b-b7fe-35852a03adea
 ms.date: 12/05/2018
 ms.keywords: DhcpV4FailoverDeleteScopeFromRelationship, DhcpV4FailoverDeleteScopeFromRelationship function [DHCP], dhcp.dhcpv4failoverdeletescopefromrelationship, dhcpsapi/DhcpV4FailoverDeleteScopeFromRelationship
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4FailoverDeleteScopeFromRelationship
 dev_langs:

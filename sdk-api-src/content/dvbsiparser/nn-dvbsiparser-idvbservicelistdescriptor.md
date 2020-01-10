@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 0d39595b-0297-473d-9b0f-e038a938a196
 ms.date: 12/05/2018
 ms.keywords: IDvbServiceListDescriptor, IDvbServiceListDescriptor interface [Microsoft TV Technologies], IDvbServiceListDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbServiceListDescriptor, mstv.idvbservicelistdescriptor
-ms.topic: interface
 f1_keywords:
 - dvbsiparser/IDvbServiceListDescriptor
 dev_langs:

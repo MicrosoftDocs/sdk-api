@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 51a1e876-09fb-4b1c-bb86-028afc46f31e
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],QuerySessionBySessionId method, ITsSbResourcePluginStore.QuerySessionBySessionId, ITsSbResourcePluginStore::QuerySessionBySessionId, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],QuerySessionBySessionId method, ITsSbResourcePluginStoreEx::QuerySessionBySessionId, QuerySessionBySessionId, QuerySessionBySessionId method [Remote Desktop Services], QuerySessionBySessionId method [Remote Desktop Services],ITsSbResourcePluginStore interface, QuerySessionBySessionId method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::QuerySessionBySessionId, sbtsv/ITsSbResourcePluginStoreEx::QuerySessionBySessionId, termserv.itssbresourcepluginstore_querysessionbysessionid
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbResourcePluginStore.QuerySessionBySessionId
 dev_langs:

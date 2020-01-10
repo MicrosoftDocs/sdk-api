@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 875be45d-ad33-4a51-80ad-8217ca0446dc
 ms.date: 12/05/2018
 ms.keywords: CredUIReadSSOCredW, CredUIReadSSOCredW function [Security], security.creduireadssocredw, wincred/CredUIReadSSOCredW
-ms.topic: function
 f1_keywords:
 - wincred/CredUIReadSSOCredW
 dev_langs:

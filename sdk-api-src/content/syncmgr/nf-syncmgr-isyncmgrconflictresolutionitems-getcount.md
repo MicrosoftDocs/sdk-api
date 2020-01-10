@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 6842d091-210c-46de-b768-e9a145b0565d
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Windows Shell], GetCount method [Windows Shell],ISyncMgrConflictResolutionItems interface, ISyncMgrConflictResolutionItems interface [Windows Shell],GetCount method, ISyncMgrConflictResolutionItems.GetCount, ISyncMgrConflictResolutionItems::GetCount, _shell_ISyncMgrConflictResolutionItems_GetCount, shell.ISyncMgrConflictResolutionItems_GetCount, syncmgr/ISyncMgrConflictResolutionItems::GetCount
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrConflictResolutionItems.GetCount
 dev_langs:

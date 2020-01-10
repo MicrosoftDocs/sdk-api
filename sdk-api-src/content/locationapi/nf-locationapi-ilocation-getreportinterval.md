@@ -7,7 +7,6 @@ tech.root: locationapi
 ms.assetid: c7bcd665-317c-428a-aa20-0d09c8d7a813
 ms.date: 12/05/2018
 ms.keywords: GetReportInterval, GetReportInterval method [WinLocation], GetReportInterval method [WinLocation],ILocation interface, ILocation interface [WinLocation],GetReportInterval method, ILocation.GetReportInterval, ILocation::GetReportInterval, WinLocation_COM_Ref.ilocation_getreportinterval, locationapi/ILocation::GetReportInterval
-ms.topic: method
 f1_keywords:
 - locationapi/ILocation.GetReportInterval
 dev_langs:

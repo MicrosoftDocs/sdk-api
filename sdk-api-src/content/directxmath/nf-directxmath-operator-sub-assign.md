@@ -5,7 +5,6 @@ description: Subtracts a floating point value from the current instance of XMVEC
 ms.assetid: f5172526-34b5-4190-ba11-87e17fd1bd35
 ms.date: 05/13/2019
 ms.keywords: operator-=
-ms.topic: language-reference
 f1_keywords:
 - directxmath/operator-=
 dev_langs:

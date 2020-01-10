@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 05e9bf59-5dd8-410f-8e42-25bfb555dd40
 ms.date: 12/05/2018
 ms.keywords: TOC_ENTRY_DESCRIPTOR, TOC_ENTRY_DESCRIPTOR structure [Media Foundation], codecapi.toc_entry_descriptor, mf.toc_entry_descriptor, wmcodecdsp/TOC_ENTRY_DESCRIPTOR
-ms.topic: struct
 f1_keywords:
 - wmcodecdsp/TOC_ENTRY_DESCRIPTOR
 dev_langs:

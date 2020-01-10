@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 8ab44737-114b-4edc-a097-d0fa297f6276
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [VSS], Cancel method [VSS],IVssAsync interface, IVssAsync interface [VSS],Cancel method, IVssAsync.Cancel, IVssAsync::Cancel, _win32_ivssasync_cancel, base.ivssasync_cancel, vss/IVssAsync::Cancel
-ms.topic: method
 f1_keywords:
 - vss/IVssAsync.Cancel
 dev_langs:

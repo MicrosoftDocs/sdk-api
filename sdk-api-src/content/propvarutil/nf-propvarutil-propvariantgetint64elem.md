@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 6dd7212a-587f-4f9e-a2e5-dbd2a9c15a5b
 ms.date: 12/05/2018
 ms.keywords: PropVariantGetInt64Elem, PropVariantGetInt64Elem function [Windows Properties], _shell_PropVariantGetInt64Elem, properties.PropVariantGetInt64Elem, propvarutil/PropVariantGetInt64Elem, shell.PropVariantGetInt64Elem
-ms.topic: function
 f1_keywords:
 - propvarutil/PropVariantGetInt64Elem
 dev_langs:

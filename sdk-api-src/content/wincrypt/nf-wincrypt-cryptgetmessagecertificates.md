@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: d890f91f-bb45-463b-b7c0-56acc9367571
 ms.date: 12/05/2018
 ms.keywords: CryptGetMessageCertificates, CryptGetMessageCertificates function [Security], _crypto2_cryptgetmessagecertificates, security.cryptgetmessagecertificates, wincrypt/CryptGetMessageCertificates
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptGetMessageCertificates
 dev_langs:

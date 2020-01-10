@@ -7,7 +7,6 @@ tech.root: Rsm
 ms.assetid: 1e931ae0-b15c-48c8-b6a0-6fa1689263a2
 ms.date: 12/05/2018
 ms.keywords: SwapNtmsMedia, SwapNtmsMedia function [Files], _zaw_swapntmsmedia, base.swapntmsmedia, fs.swapntmsmedia, ntmsapi/SwapNtmsMedia
-ms.topic: function
 f1_keywords:
 - ntmsapi/SwapNtmsMedia
 dev_langs:

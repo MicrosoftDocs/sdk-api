@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 7f5a6d20-d65a-477b-8886-8536315bc36e
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorCollection interface [PLA],Remove method, IDataCollectorCollection.Remove, IDataCollectorCollection::Remove, Remove, Remove method [PLA], Remove method [PLA],IDataCollectorCollection interface, base.idatacollectorcollection_remove, pla.idatacollectorcollection_remove, pla/IDataCollectorCollection::Remove
-ms.topic: method
 f1_keywords:
 - pla/IDataCollectorCollection.Remove
 dev_langs:

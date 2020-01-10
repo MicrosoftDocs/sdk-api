@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizef.htm
 ms.date: 12/05/2018
 ms.keywords: SizeF, SizeF class [GDI+], SizeF class [GDI+],described, _gdiplus_CLASS_SizeF_Class, gdiplus._gdiplus_CLASS_SizeF_Class, gdiplustypes/SizeF
-ms.topic: class
 f1_keywords:
 - gdiplustypes/SizeF
 dev_langs:

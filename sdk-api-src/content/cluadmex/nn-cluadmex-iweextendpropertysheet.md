@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 1f2b7760-24d3-44a7-96a0-87e153b4bf92
 ms.date: 12/05/2018
 ms.keywords: IWEExtendPropertySheet, IWEExtendPropertySheet interface [Failover Cluster], IWEExtendPropertySheet interface [Failover Cluster],described, _wolf_iweextendpropertysheet, cluadmex/IWEExtendPropertySheet, mscs.iweextendpropertysheet
-ms.topic: interface
 f1_keywords:
 - cluadmex/IWEExtendPropertySheet
 dev_langs:

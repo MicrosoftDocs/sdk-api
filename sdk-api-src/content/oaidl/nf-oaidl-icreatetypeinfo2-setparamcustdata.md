@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: df1a1ab0-c971-4d3e-ba63-45be66330027
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo2 interface [Automation],SetParamCustData method, ICreateTypeInfo2.SetParamCustData, ICreateTypeInfo2::SetParamCustData, SetParamCustData, SetParamCustData method [Automation], SetParamCustData method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetParamCustData, automat.icreatetypeinfo2_setparamcustdata, oaidl/ICreateTypeInfo2::SetParamCustData
-ms.topic: method
 f1_keywords:
 - oaidl/ICreateTypeInfo2.SetParamCustData
 dev_langs:

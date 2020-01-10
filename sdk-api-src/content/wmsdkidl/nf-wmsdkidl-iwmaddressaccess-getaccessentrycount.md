@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 996d8a8a-887e-4e2f-b810-c57a4251f771
 ms.date: 12/05/2018
 ms.keywords: GetAccessEntryCount, GetAccessEntryCount method [windows Media Format], GetAccessEntryCount method [windows Media Format],IWMAddressAccess interface, IWMAddressAccess interface [windows Media Format],GetAccessEntryCount method, IWMAddressAccess.GetAccessEntryCount, IWMAddressAccess::GetAccessEntryCount, IWMAddressAccessGetAccessEntryCount, wmformat.iwmaddressaccess_getaccessentrycount, wmsdkidl/IWMAddressAccess::GetAccessEntryCount
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMAddressAccess.GetAccessEntryCount
 dev_langs:

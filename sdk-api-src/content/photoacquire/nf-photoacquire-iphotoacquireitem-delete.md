@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: e1ffe49b-b7d6-46ae-b83b-8d8487bd7b24
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [Picture Acquisition], Delete method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],Delete method, IPhotoAcquireItem.Delete, IPhotoAcquireItem::Delete, IPhotoAcquireItemDelete, photoacquire/IPhotoAcquireItem::Delete, picacq.iphotoacquireitem_delete
-ms.topic: method
 f1_keywords:
 - photoacquire/IPhotoAcquireItem.Delete
 dev_langs:

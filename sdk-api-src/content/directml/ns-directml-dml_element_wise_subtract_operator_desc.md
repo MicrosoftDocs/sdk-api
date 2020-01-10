@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 705180C4-E262-4DA1-B697-BE57178F1E2C
 ms.date: 12/5/2018
 ms.keywords: DML_ELEMENT_WISE_SUBTRACT_OPERATOR_DESC, DML_ELEMENT_WISE_SUBTRACT_OPERATOR_DESC structure, direct3d12.dml_element_wise_subtract_operator_desc, directml/DML_ELEMENT_WISE_SUBTRACT_OPERATOR_DESC
-ms.topic: struct
 f1_keywords:
 - directml/DML_ELEMENT_WISE_SUBTRACT_OPERATOR_DESC
 dev_langs:

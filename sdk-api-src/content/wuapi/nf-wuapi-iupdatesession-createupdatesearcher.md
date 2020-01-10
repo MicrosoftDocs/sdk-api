@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 7e7a4aa9-7952-4080-9ac0-9544f959475f
 ms.date: 12/05/2018
 ms.keywords: CreateUpdateSearcher, CreateUpdateSearcher method [Windows Update Agent], CreateUpdateSearcher method [Windows Update Agent],IUpdateSession interface, IUpdateSession interface [Windows Update Agent],CreateUpdateSearcher method, IUpdateSession.CreateUpdateSearcher, IUpdateSession::CreateUpdateSearcher, wua.iupdatesession_createupdatesearcher, wuapi/IUpdateSession::CreateUpdateSearcher
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateSession.CreateUpdateSearcher
 dev_langs:

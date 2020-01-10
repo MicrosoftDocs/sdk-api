@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 0556b72d-eabd-4649-b16b-fd66052504f4
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_BootImageOptions method, IFileSystemImage.put_BootImageOptions, IFileSystemImage::put_BootImageOptions, imapi.ifilesystemimage_put_bootimageoptions, imapi2fs/IFileSystemImage::put_BootImageOptions, put_BootImageOptions, put_BootImageOptions method [IMAPI], put_BootImageOptions method [IMAPI],IFileSystemImage interface
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFileSystemImage.put_BootImageOptions
 dev_langs:

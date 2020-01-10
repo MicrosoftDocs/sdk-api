@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colormatrixeffectclass\colormatrixeffectmethods\getparameters.htm
 ms.date: 12/05/2018
 ms.keywords: ColorMatrixEffect class [GDI+],GetParameters method, ColorMatrixEffect.GetParameters, ColorMatrixEffect::GetParameters, GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],ColorMatrixEffect class, _gdiplus_CLASS_ColorMatrixEffect_GetParameters_, gdiplus._gdiplus_CLASS_ColorMatrixEffect_GetParameters_
-ms.topic: method
 f1_keywords:
 - gdipluseffects/ColorMatrixEffect.GetParameters
 dev_langs:

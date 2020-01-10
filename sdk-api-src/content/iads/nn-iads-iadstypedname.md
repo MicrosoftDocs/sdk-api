@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: ed57fad7-6cc6-4127-b8d2-da295bc0c5fe
 ms.date: 12/05/2018
 ms.keywords: IADsTypedName, IADsTypedName interface [ADSI], IADsTypedName interface [ADSI],described, TypedName, _ds_iadstypedname, adsi.iadstypedname, iads/IADsTypedName
-ms.topic: interface
 f1_keywords:
 - iads/IADsTypedName
 dev_langs:

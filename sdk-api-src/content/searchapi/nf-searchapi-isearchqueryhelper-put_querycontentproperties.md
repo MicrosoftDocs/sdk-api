@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querycontentproperties.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],put_QueryContentProperties method, ISearchQueryHelper.put_QueryContentProperties, ISearchQueryHelper::put_QueryContentProperties, _search_ISearchQueryHelper_put_QueryContentProperties, put_QueryContentProperties, put_QueryContentProperties method [search], put_QueryContentProperties method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_put_QueryContentProperties, searchapi/ISearchQueryHelper::put_QueryContentProperties
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchQueryHelper.put_QueryContentProperties
 dev_langs:

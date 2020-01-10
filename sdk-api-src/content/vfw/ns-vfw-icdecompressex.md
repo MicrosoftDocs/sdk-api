@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: a07a7d1b-9967-4c52-9dd6-7616c3545b95
 ms.date: 12/05/2018
 ms.keywords: ICDECOMPRESSEX, ICDECOMPRESSEX structure [Windows Multimedia], ICDECOMPRESS_HURRYUP, ICDECOMPRESS_NOTKEYFRAME, ICDECOMPRESS_NULLFRAME, ICDECOMPRESS_PREROLL, ICDECOMPRESS_UPDATE, multimedia.icdecompressex_COLLISION172, multimedia.icdecompressex_struct, vfw/ICDECOMPRESSEX
-ms.topic: struct
 f1_keywords:
 - vfw/ICDECOMPRESSEX
 dev_langs:

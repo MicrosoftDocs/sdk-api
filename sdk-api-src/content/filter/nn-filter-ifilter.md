@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_9sfm.htm
 ms.date: 12/05/2018
 ms.keywords: IFilter, IFilter interface [Indexing Service], IFilter interface [Indexing Service],described, _idxs_IFilter, filter/IFilter, indexsrv.ifilter
-ms.topic: interface
 f1_keywords:
 - filter/IFilter
 dev_langs:

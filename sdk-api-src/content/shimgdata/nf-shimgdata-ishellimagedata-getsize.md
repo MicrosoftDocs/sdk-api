@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 50294d95-801d-4cd6-94ae-8b48c68af50f
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [Windows Shell], GetSize method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetSize method, IShellImageData.GetSize, IShellImageData::GetSize, _shell_IShellImageData_GetSize, shell.IShellImageData_GetSize, shimgdata/IShellImageData::GetSize
-ms.topic: method
 f1_keywords:
 - shimgdata/IShellImageData.GetSize
 dev_langs:

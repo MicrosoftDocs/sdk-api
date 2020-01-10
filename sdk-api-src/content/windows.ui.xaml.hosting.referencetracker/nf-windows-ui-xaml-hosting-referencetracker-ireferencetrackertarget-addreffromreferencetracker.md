@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 91c02fd8-a210-4e6a-ab60-43ea7c1312be
 ms.date: 12/05/2018
 ms.keywords: AddRefFromReferenceTracker, AddRefFromReferenceTracker method [Windows Runtime], AddRefFromReferenceTracker method [Windows Runtime],IReferenceTrackerTarget interface, IReferenceTrackerTarget interface [Windows Runtime],AddRefFromReferenceTracker method, IReferenceTrackerTarget.AddRefFromReferenceTracker, IReferenceTrackerTarget.xaml, IReferenceTrackerTarget::AddRefFromReferenceTracker, IReferenceTrackerTarget::xaml, windows/IReferenceTrackerTarget::AddRefFromReferenceTracker, winrt.ireferencetrackertarget_addreffromreferencetracker
-ms.topic: method
 f1_keywords:
 - windows.ui.xaml.hosting.referencetracker/IReferenceTrackerTarget.AddRefFromReferenceTracker
 dev_langs:

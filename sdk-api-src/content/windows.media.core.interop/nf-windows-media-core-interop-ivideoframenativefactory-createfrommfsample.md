@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: EE925680-42A1-4C7E-A39D-15EA93F11FA1
 ms.date: 12/05/2018
 ms.keywords: CreateFromMFSample, CreateFromMFSample method [Windows Runtime], CreateFromMFSample method [Windows Runtime],IVideoFrameNativeFactory interface, IVideoFrameNativeFactory interface [Windows Runtime],CreateFromMFSample method, IVideoFrameNativeFactory.CreateFromMFSample, IVideoFrameNativeFactory.core, IVideoFrameNativeFactory::CreateFromMFSample, IVideoFrameNativeFactory::core, windows/IVideoFrameNativeFactory::CreateFromMFSample, winrt.ivideoframenativefactory_createfrommfsample
-ms.topic: method
 f1_keywords:
 - windows.media.core.interop/IVideoFrameNativeFactory.CreateFromMFSample
 dev_langs:

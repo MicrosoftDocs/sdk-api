@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: c2a319bd-9698-4671-b3d9-bcfd07c15aef
 ms.date: 12/05/2018
 ms.keywords: WindowPattern_WaitForInputIdle, WindowPattern_WaitForInputIdle function [Windows Accessibility], uiauto.uiauto_WindowPattern_WaitForInputIdleConPat, uiauto_WindowPattern_WaitForInputIdleConPat, uiautomationcoreapi/WindowPattern_WaitForInputIdle, winauto.uiauto_WindowPattern_WaitForInputIdleConPat
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/WindowPattern_WaitForInputIdle
 dev_langs:

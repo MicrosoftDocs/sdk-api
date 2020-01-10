@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 1f6d7969-3207-48f8-8972-0a95287ccc71
 ms.date: 12/05/2018
 ms.keywords: IDTFilterConfig, IDTFilterConfig interface [Microsoft TV Technologies], IDTFilterConfig interface [Microsoft TV Technologies],described, IDTFilterConfigInterface, encdec/IDTFilterConfig, mstv.idtfilterconfig
-ms.topic: interface
 f1_keywords:
 - encdec/IDTFilterConfig
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: a427cdb5-83ec-4529-847d-1494118ef926
 ms.date: 12/05/2018
 ms.keywords: _win32_auxGetVolume, auxGetVolume, auxGetVolume function [Windows Multimedia], mmeapi/auxGetVolume, multimedia.auxgetvolume
-ms.topic: function
 f1_keywords:
 - mmeapi/auxGetVolume
 dev_langs:

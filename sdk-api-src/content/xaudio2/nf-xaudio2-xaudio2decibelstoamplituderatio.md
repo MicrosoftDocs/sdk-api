@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2DecibelsToAmplitudeRatio(float)
 ms.date: 12/05/2018
 ms.keywords: XAudio2DecibelsToAmplitudeRatio, XAudio2DecibelsToAmplitudeRatio function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2decibelstoamplituderatio, xaudio2/XAudio2DecibelsToAmplitudeRatio
-ms.topic: function
 f1_keywords:
 - xaudio2/XAudio2DecibelsToAmplitudeRatio
 dev_langs:

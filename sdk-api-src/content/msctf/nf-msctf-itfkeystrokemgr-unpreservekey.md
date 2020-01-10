@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 05975fce-04c3-4316-a9b2-ed015e7aa8fe
 ms.date: 12/05/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],UnpreserveKey method, ITfKeystrokeMgr.UnpreserveKey, ITfKeystrokeMgr::UnpreserveKey, UnpreserveKey, UnpreserveKey method [Text Services Framework], UnpreserveKey method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_unpreservekey_ref, msctf/ITfKeystrokeMgr::UnpreserveKey, tsf.itfkeystrokemgr_unpreservekey
-ms.topic: method
 f1_keywords:
 - msctf/ITfKeystrokeMgr.UnpreserveKey
 dev_langs:

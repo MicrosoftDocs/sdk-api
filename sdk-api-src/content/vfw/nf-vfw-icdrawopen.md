@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: b625a5f7-8212-4339-a1a6-37736def40a0
 ms.date: 12/05/2018
 ms.keywords: ICDrawOpen, ICDrawOpen macro [Windows Multimedia], _win32_ICDrawOpen, multimedia.icdrawopen, vfw/ICDrawOpen
-ms.topic: macro
 f1_keywords:
 - vfw/ICDrawOpen
 dev_langs:

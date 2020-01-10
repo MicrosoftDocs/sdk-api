@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: BB207D78-9E27-49A4-91E4-601CED109389
 ms.date: 12/05/2018
 ms.keywords: WICJpegFrameHeader, WICJpegFrameHeader structure [Windows Imaging Component], wic.wicjpegframeheader, wincodec/WICJpegFrameHeader
-ms.topic: struct
 f1_keywords:
 - wincodec/WICJpegFrameHeader
 dev_langs:

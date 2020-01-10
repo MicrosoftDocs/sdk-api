@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 825a80c9-8023-4b7f-a303-f1eaa650e1d8
 ms.date: 12/05/2018
 ms.keywords: RasGetLinkStatistics, RasGetLinkStatistics function [RAS], _ras_rasgetlinkstatistics, ras/RasGetLinkStatistics, rras.rasgetlinkstatistics
-ms.topic: function
 f1_keywords:
 - ras/RasGetLinkStatistics
 dev_langs:

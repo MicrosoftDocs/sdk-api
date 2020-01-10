@@ -7,7 +7,6 @@ tech.root: FunDisc
 ms.assetid: 7ad29f46-fb21-4287-9fc9-9ab86d44d298
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProvider interface,InstancePropertyStoreFlush method, IFunctionDiscoveryProvider.InstancePropertyStoreFlush, IFunctionDiscoveryProvider::InstancePropertyStoreFlush, InstancePropertyStoreFlush, InstancePropertyStoreFlush method, InstancePropertyStoreFlush method,IFunctionDiscoveryProvider interface, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstancePropertyStoreFlush, ncd.ifunctiondiscoveryprovider_instancepropertystoreflush
-ms.topic: method
 f1_keywords:
 - functiondiscoveryprovider/IFunctionDiscoveryProvider.InstancePropertyStoreFlush
 dev_langs:

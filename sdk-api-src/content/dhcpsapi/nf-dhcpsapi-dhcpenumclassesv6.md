@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 3b916df3-ae17-4e7d-9cbc-d70763a8b856
 ms.date: 12/05/2018
 ms.keywords: DhcpEnumClassesV6, DhcpEnumClassesV6 function [DHCP], dhcp.dhcpenumclassesv6, dhcpsapi/DhcpEnumClassesV6
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpEnumClassesV6
 dev_langs:

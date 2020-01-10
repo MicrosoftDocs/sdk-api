@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 635f8e0b-f994-4500-85ad-dd74fb4a6c22
 ms.date: 12/05/2018
 ms.keywords: WS_DATETIME, WS_DATETIME structure [Web Services for Windows], webservices/WS_DATETIME, wsw.ws_datetime
-ms.topic: struct
 f1_keywords:
 - webservices/WS_DATETIME
 dev_langs:

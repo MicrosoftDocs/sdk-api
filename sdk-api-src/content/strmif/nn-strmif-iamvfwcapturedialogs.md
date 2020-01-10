@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 5198c80c-28f3-4b5c-9b3b-aa502bf3a384
 ms.date: 12/05/2018
 ms.keywords: IAMVfwCaptureDialogs, IAMVfwCaptureDialogs interface [DirectShow], IAMVfwCaptureDialogs interface [DirectShow],described, IAMVfwCaptureDialogsInterface, dshow.iamvfwcapturedialogs, strmif/IAMVfwCaptureDialogs
-ms.topic: interface
 f1_keywords:
 - strmif/IAMVfwCaptureDialogs
 dev_langs:

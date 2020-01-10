@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 525500C2-313E-4430-88B1-AA1F54A420AF
 ms.date: 12/05/2018
 ms.keywords: IUIManagerEventSink interface [Text Services Framework],OnWindowOpened method, IUIManagerEventSink.OnWindowOpened, IUIManagerEventSink::OnWindowOpened, OnWindowOpened, OnWindowOpened method [Text Services Framework], OnWindowOpened method [Text Services Framework],IUIManagerEventSink interface, ctffunc/IUIManagerEventSink::OnWindowOpened, tsf.iuimanagereventsink_onwindowopened
-ms.topic: method
 f1_keywords:
 - ctffunc/IUIManagerEventSink.OnWindowOpened
 dev_langs:

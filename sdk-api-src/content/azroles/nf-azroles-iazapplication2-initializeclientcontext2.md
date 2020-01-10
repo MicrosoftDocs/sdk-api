@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 8790ebb0-97eb-47a0-b975-87e0524dcc1b
 ms.date: 12/05/2018
 ms.keywords: IAzApplication2 interface [Security],InitializeClientContext2 method, IAzApplication2.InitializeClientContext2, IAzApplication2::InitializeClientContext2, InitializeClientContext2, InitializeClientContext2 method [Security], InitializeClientContext2 method [Security],IAzApplication2 interface, azroles/IAzApplication2::InitializeClientContext2, security.iazapplication2_initializeclientcontext2
-ms.topic: method
 f1_keywords:
 - azroles/IAzApplication2.InitializeClientContext2
 dev_langs:

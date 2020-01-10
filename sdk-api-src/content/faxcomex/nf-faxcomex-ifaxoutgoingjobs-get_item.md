@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_63ot_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJobs interface [Fax Service],get_Item method, IFaxOutgoingJobs.get_Item, IFaxOutgoingJobs::get_Item, _mfax_faxoutgoingjobs.item_cpp, fax._mfax_faxoutgoingjobs_item_cpp, faxcomex/IFaxOutgoingJobs::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxOutgoingJobs interface
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxOutgoingJobs.get_Item
 dev_langs:

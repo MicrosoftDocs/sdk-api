@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 5bdb8b16-cda3-4f0d-b147-4dcfce81f592
 ms.date: 12/05/2018
 ms.keywords: IProviderConverter interface [Windows Sync],Initialize method, IProviderConverter.Initialize, IProviderConverter::Initialize, Initialize, Initialize method [Windows Sync], Initialize method [Windows Sync],IProviderConverter interface, winsync.iproviderconverter_initialize, winsync/IProviderConverter::Initialize
-ms.topic: method
 f1_keywords:
 - winsync/IProviderConverter.Initialize
 dev_langs:

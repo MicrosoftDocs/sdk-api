@@ -5,7 +5,6 @@ description: The GraphicsPath::AddCurve method adds a cardinal spline to the cur
 ms.assetid: bcd96b35-e6f5-42c6-8e08-185aad503453
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddCurve
-ms.topic: language-reference
 f1_keywords:
 - gdipluspath/GraphicsPath::AddCurve
 dev_langs:

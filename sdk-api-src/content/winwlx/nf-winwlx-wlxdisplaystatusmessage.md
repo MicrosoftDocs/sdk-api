@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 07df61ff-f5fa-44ab-b3ca-ed7f4338e471
 ms.date: 12/05/2018
 ms.keywords: WlxDisplayStatusMessage, WlxDisplayStatusMessage function [Security], _gina_wlxdisplaystatusmessage, security.wlxdisplaystatusmessage, winwlx/WlxDisplayStatusMessage
-ms.topic: function
 f1_keywords:
 - winwlx/WlxDisplayStatusMessage
 dev_langs:

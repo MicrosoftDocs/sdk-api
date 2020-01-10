@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: e4a425db-6a81-494d-818f-50a53d8c124b
 ms.date: 12/05/2018
 ms.keywords: IInkEdit interface [Tablet PC],UseMouseForInput property, IInkEdit.UseMouseForInput, IInkEdit.get_UseMouseForInput, IInkEdit::UseMouseForInput, IInkEdit::get_UseMouseForInput, IInkEdit::put_UseMouseForInput, InkEdit.get_UseMouseForInput, InkEdit.put_UseMouseForInput, UseMouseForInput property [Tablet PC], UseMouseForInput property [Tablet PC],IInkEdit interface, e4a425db-6a81-494d-818f-50a53d8c124b, get_UseMouseForInput, inked/IInkEdit::UseMouseForInput, inked/IInkEdit::get_UseMouseForInput, inked/IInkEdit::put_UseMouseForInput, put_UseMouseForInput, tablet.inkedit_usemouseforinput
-ms.topic: method
 f1_keywords:
 - inked/IInkEdit.UseMouseForInput
 dev_langs:

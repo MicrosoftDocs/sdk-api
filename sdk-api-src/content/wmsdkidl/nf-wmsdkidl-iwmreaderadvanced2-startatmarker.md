@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 444adb2f-4289-4950-8841-07353479ef43
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],StartAtMarker method, IWMReaderAdvanced2.StartAtMarker, IWMReaderAdvanced2::StartAtMarker, IWMReaderAdvanced2StartAtMarker, StartAtMarker, StartAtMarker method [windows Media Format], StartAtMarker method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_startatmarker, wmsdkidl/IWMReaderAdvanced2::StartAtMarker
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderAdvanced2.StartAtMarker
 dev_langs:

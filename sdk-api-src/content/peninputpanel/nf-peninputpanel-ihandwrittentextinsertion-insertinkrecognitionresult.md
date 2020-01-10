@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: d519aff4-573d-4b06-aef5-e9cc6a5e8102
 ms.date: 12/05/2018
 ms.keywords: IHandWrittenTextInsertion interface [Tablet PC],InsertInkRecognitionResult method, IHandWrittenTextInsertion::InsertInkRecognitionResult, IHandwrittenTextInsertion.InsertInkRecognitionResult, IHandwrittenTextInsertion::InsertInkRecognitionResult, InsertInkRecognitionResult, InsertInkRecognitionResult method [Tablet PC], InsertInkRecognitionResult method [Tablet PC],IHandWrittenTextInsertion interface, d519aff4-573d-4b06-aef5-e9cc6a5e8102, peninputpanel/IHandWrittenTextInsertion::InsertInkRecognitionResult, tablet.ihandwrittentextinsertion_insertinkrecognitionresult
-ms.topic: method
 f1_keywords:
 - peninputpanel/IHandWrittenTextInsertion.InsertInkRecognitionResult
 dev_langs:

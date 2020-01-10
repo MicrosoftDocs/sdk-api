@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: fbe4e702-644c-4eee-beea-a91bad9cb1be
 ms.date: 12/05/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent],IUpdateDownloadContentCollection interface, IUpdateDownloadContentCollection interface [Windows Update Agent],Count property, IUpdateDownloadContentCollection.Count, IUpdateDownloadContentCollection.get_Count, IUpdateDownloadContentCollection::Count, IUpdateDownloadContentCollection::get_Count, get_Count, wua.iupdatedownloadcontentcollection_count, wuapi/IUpdateDownloadContentCollection::Count, wuapi/IUpdateDownloadContentCollection::get_Count
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateDownloadContentCollection.Count
 dev_langs:

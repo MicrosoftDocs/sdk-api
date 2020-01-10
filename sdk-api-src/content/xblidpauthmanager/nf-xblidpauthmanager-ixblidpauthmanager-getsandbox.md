@@ -7,7 +7,6 @@ tech.root: xblidp
 ms.assetid: 14420127-C5A3-4FC8-98B8-AA8666AFD960
 ms.date: 12/05/2018
 ms.keywords: GetSandbox, GetSandbox method, GetSandbox method,IXblIdpAuthManager interface, IXblIdpAuthManager interface,GetSandbox method, IXblIdpAuthManager.GetSandbox, IXblIdpAuthManager::GetSandbox, xblidp.ixblidpauthmanager_getsandbox, xblidpauthmanager/IXblIdpAuthManager::GetSandbox
-ms.topic: method
 f1_keywords:
 - xblidpauthmanager/IXblIdpAuthManager.GetSandbox
 dev_langs:

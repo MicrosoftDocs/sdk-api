@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 23a9b424-11a3-4cbf-a867-93026f0725cc
 ms.date: 12/05/2018
 ms.keywords: IEnumBitsPeers interface [BITS],Skip method, IEnumBitsPeers.Skip, IEnumBitsPeers::Skip, Skip, Skip method [BITS], Skip method [BITS],IEnumBitsPeers interface, bits.ienumbitspeers_skip, bits3_0/IEnumBitsPeers::Skip
-ms.topic: method
 f1_keywords:
 - bits3_0/IEnumBitsPeers.Skip
 dev_langs:

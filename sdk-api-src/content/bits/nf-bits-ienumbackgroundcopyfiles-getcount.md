@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 24a9d5f9-e923-4b20-8abf-8ce50fc2602b
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [BITS], GetCount method [BITS],IEnumBackgroundCopyFiles interface, IEnumBackgroundCopyFiles interface [BITS],GetCount method, IEnumBackgroundCopyFiles.GetCount, IEnumBackgroundCopyFiles::GetCount, _drz_ienumbackgroundcopyfiles_getcount, bits.ienumbackgroundcopyfiles_getcount, bits/IEnumBackgroundCopyFiles::GetCount
-ms.topic: method
 f1_keywords:
 - bits/IEnumBackgroundCopyFiles.GetCount
 dev_langs:

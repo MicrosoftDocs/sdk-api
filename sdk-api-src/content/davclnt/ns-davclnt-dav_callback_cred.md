@@ -7,7 +7,6 @@ tech.root: WebDAV
 ms.assetid: 5414d7b5-b506-4d0a-a4b8-89ab7878d674
 ms.date: 12/05/2018
 ms.keywords: '*PDAV_CALLBACK_CRED, DAV_CALLBACK_CRED, DAV_CALLBACK_CRED structure [WebDAV], PDAV_CALLBACK_CRED, PDAV_CALLBACK_CRED structure pointer [WebDAV], davclnt/DAV_CALLBACK_CRED, davclnt/PDAV_CALLBACK_CRED, webdav.dav_callback_cred'
-ms.topic: struct
 f1_keywords:
 - davclnt/DAV_CALLBACK_CRED
 dev_langs:

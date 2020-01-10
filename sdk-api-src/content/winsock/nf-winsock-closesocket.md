@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 2f357aa8-389b-4c92-8a9f-289e048cc41c
 ms.date: 12/05/2018
 ms.keywords: _win32_closesocket_2, closesocket, closesocket function [Winsock], winsock.closesocket_2, winsock/closesocket
-ms.topic: function
 f1_keywords:
 - winsock/closesocket
 dev_langs:

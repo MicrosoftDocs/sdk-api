@@ -7,7 +7,6 @@ tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\maggetwindowsource.htm
 ms.date: 12/05/2018
 ms.keywords: MagGetWindowSource, MagGetWindowSource function [Magnification API], magapi.magapi_MagGetWindowSource, magapi_MagGetWindowSource, magnification/MagGetWindowSource
-ms.topic: function
 f1_keywords:
 - magnification/MagGetWindowSource
 dev_langs:

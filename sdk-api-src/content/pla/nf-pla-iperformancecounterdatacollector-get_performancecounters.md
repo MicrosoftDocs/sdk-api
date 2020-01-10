@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 9c75f560-a161-4659-9fd9-9f73c964fa5b
 ms.date: 12/05/2018
 ms.keywords: IPerformanceCounterDataCollector interface [PLA],PerformanceCounters property, IPerformanceCounterDataCollector.PerformanceCounters, IPerformanceCounterDataCollector.get_PerformanceCounters, IPerformanceCounterDataCollector::PerformanceCounters, IPerformanceCounterDataCollector::get_PerformanceCounters, IPerformanceCounterDataCollector::put_PerformanceCounters, PerformanceCounters property [PLA], PerformanceCounters property [PLA],IPerformanceCounterDataCollector interface, base.iperformancecounterdatacollector_performancecounters, get_PerformanceCounters, pla.iperformancecounterdatacollector_performancecounters, pla/IPerformanceCounterDataCollector::PerformanceCounters, pla/IPerformanceCounterDataCollector::get_PerformanceCounters, pla/IPerformanceCounterDataCollector::put_PerformanceCounters
-ms.topic: method
 f1_keywords:
 - pla/IPerformanceCounterDataCollector.PerformanceCounters
 dev_langs:

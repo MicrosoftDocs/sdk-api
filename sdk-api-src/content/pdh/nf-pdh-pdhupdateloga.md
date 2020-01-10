@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: b2052275-6944-41f4-92ac-38967ed270f3
 ms.date: 12/05/2018
 ms.keywords: PdhUpdateLog, PdhUpdateLog function [Perf], PdhUpdateLogA, PdhUpdateLogW, _win32_pdhupdatelog, base.pdhupdatelog, pdh/PdhUpdateLog, pdh/PdhUpdateLogA, pdh/PdhUpdateLogW, perf.pdhupdatelog
-ms.topic: function
 f1_keywords:
 - pdh/PdhUpdateLog
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: B0021CBC-9A3F-4D2D-8898-FE797396B312
 ms.date: 12/05/2018
 ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxBlockMapFilesEnumerator interface, IAppxBlockMapFilesEnumerator interface [App packaging and management],GetHasCurrent method, IAppxBlockMapFilesEnumerator.GetHasCurrent, IAppxBlockMapFilesEnumerator::GetHasCurrent, appxpackaging/IAppxBlockMapFilesEnumerator::GetHasCurrent, appxpkg.iappxblockmapfilesenumerator_gethascurrent
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxBlockMapFilesEnumerator.GetHasCurrent
 dev_langs:

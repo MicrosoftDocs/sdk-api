@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: a0197da5-e613-4aba-8098-901e192051ff
 ms.date: 12/05/2018
 ms.keywords: GetCurrent, GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions],IOpcSignatureCustomObjectEnumerator interface, IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions],GetCurrent method, IOpcSignatureCustomObjectEnumerator.GetCurrent, IOpcSignatureCustomObjectEnumerator::GetCurrent, msopc/IOpcSignatureCustomObjectEnumerator::GetCurrent, opc.iopcsignaturecustomobjectenumerator_getcurrent
-ms.topic: method
 f1_keywords:
 - msopc/IOpcSignatureCustomObjectEnumerator.GetCurrent
 dev_langs:

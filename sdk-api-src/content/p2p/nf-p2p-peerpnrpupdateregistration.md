@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 628aa553-4a55-452b-bcca-4bb763fa6440
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpUpdateRegistration, PeerPnrpUpdateRegistration function [Peer Networking], p2p.peerpnrpupdateregistration, p2p/PeerPnrpUpdateRegistration
-ms.topic: function
 f1_keywords:
 - p2p/PeerPnrpUpdateRegistration
 dev_langs:

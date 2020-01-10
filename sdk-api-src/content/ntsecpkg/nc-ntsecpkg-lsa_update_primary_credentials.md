@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 952ed682-775a-4370-8a89-15ca35553667
 ms.date: 12/05/2018
 ms.keywords: LSA_UPDATE_PRIMARY_CREDENTIALS, LSA_UPDATE_PRIMARY_CREDENTIALS callback, UpdateCredentials, UpdateCredentials callback function [Security], _ssp_updatecredentials, ntsecpkg/UpdateCredentials, security.updatecredentials
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/UpdateCredentials
 dev_langs:

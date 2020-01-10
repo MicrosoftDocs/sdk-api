@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorSinCos(XMVECTOR@,XMVECTOR@,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSinCos, XMVectorSinCos, XMVectorSinCos method [DirectX Math Support APIs], dxmath.xmvectorsincos
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorSinCos
 dev_langs:

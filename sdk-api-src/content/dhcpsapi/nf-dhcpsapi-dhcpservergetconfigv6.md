@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: a867d8fe-0222-44aa-a00a-65a94cf59730
 ms.date: 12/05/2018
 ms.keywords: DhcpServerGetConfigV6, DhcpServerGetConfigV6 function [DHCP], dhcp.dhcpservergetconfigv6, dhcpsapi/DhcpServerGetConfigV6
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpServerGetConfigV6
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: ed3dbed6-4a2c-4fba-a803-f407fe60d750
 ms.date: 12/05/2018
 ms.keywords: '*PEMRBITBLT, EMRBITBLT, EMRBITBLT structure [Windows GDI], PEMRBITBLT, PEMRBITBLT structure pointer [Windows GDI], _win32_EMRBITBLT_str, gdi.emrbitblt, wingdi/EMRBITBLT, wingdi/PEMRBITBLT'
-ms.topic: struct
 f1_keywords:
 - wingdi/EMRBITBLT
 dev_langs:

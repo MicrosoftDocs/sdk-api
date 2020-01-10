@@ -7,7 +7,6 @@ tech.root: wer
 ms.assetid: F4E44C22-6BE1-4512-80F6-1B6741E3ADBB
 ms.date: 12/05/2018
 ms.keywords: WerRegisterAdditionalProcess, WerRegisterAdditionalProcess function [Windows Error Reporting], wer.werregisteradditionalprocess, werapi/WerRegisterAdditionalProcess
-ms.topic: function
 f1_keywords:
 - werapi/WerRegisterAdditionalProcess
 dev_langs:

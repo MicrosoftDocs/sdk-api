@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 8705ac1a-62ba-4239-aeb6-b35ac5f0dd18
 ms.date: 12/05/2018
 ms.keywords: WsAsyncExecute, WsAsyncExecute function [Web Services for Windows], webservices/WsAsyncExecute, wsw.wsasyncexecute
-ms.topic: function
 f1_keywords:
 - webservices/WsAsyncExecute
 dev_langs:

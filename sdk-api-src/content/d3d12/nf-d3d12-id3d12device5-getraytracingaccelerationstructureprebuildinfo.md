@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 6B2CB3E8-06F8-4578-8FF0-566246C983B0
 ms.date: 12/05/2018
 ms.keywords: GetRaytracingAccelerationStructurePrebuildInfo, GetRaytracingAccelerationStructurePrebuildInfo method, GetRaytracingAccelerationStructurePrebuildInfo method,ID3D12Device5 interface, ID3D12Device5 interface,GetRaytracingAccelerationStructurePrebuildInfo method, ID3D12Device5.GetRaytracingAccelerationStructurePrebuildInfo, ID3D12Device5::GetRaytracingAccelerationStructurePrebuildInfo, d3d12/ID3D12Device5::GetRaytracingAccelerationStructurePrebuildInfo, direct3d12.id3d12device5_getraytracingaccelerationstructureprebuildinfo
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Device5.GetRaytracingAccelerationStructurePrebuildInfo
 dev_langs:

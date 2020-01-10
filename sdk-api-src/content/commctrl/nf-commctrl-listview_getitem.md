@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitem.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_GetItem, ListView_GetItem macro [Windows Controls], _win32_ListView_GetItem, _win32_ListView_GetItem_cpp, commctrl/ListView_GetItem, controls.ListView_GetItem, controls._win32_ListView_GetItem
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_GetItem
 dev_langs:

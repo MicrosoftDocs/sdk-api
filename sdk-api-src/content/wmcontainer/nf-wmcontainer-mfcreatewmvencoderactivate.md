@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: f818dba1-e28f-4fd4-813d-33f638d979d7
 ms.date: 12/05/2018
 ms.keywords: MFCreateWMVEncoderActivate, MFCreateWMVEncoderActivate function [Media Foundation], f818dba1-e28f-4fd4-813d-33f638d979d7, mf.mfcreatewmvencoderactivate, wmcontainer/MFCreateWMVEncoderActivate
-ms.topic: function
 f1_keywords:
 - wmcontainer/MFCreateWMVEncoderActivate
 dev_langs:

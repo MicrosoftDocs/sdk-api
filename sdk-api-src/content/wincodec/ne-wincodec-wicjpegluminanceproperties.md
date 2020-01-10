@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 391e96a3-372e-43b9-a752-0234d0fd37e1
 ms.date: 12/05/2018
 ms.keywords: WICJpegLuminanceProperties, WICJpegLuminanceProperties enumeration [Windows Imaging Component], WICJpegLuminanceTable, _wic_codec_wicjpegluminanceproperties, wic._wic_codec_wicjpegluminanceproperties, wincodec/WICJpegLuminanceProperties, wincodec/WICJpegLuminanceTable
-ms.topic: enum
 f1_keywords:
 - wincodec/WICJpegLuminanceProperties
 dev_langs:

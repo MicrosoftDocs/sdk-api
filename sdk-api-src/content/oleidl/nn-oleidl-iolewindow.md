@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 2d0efbae-4a1c-43b1-9021-8d89377f7282
 ms.date: 12/05/2018
 ms.keywords: IOleWindow, IOleWindow interface [COM], IOleWindow interface [COM],described, _ole_iolewindow, com.iolewindow, oleidl/IOleWindow
-ms.topic: interface
 f1_keywords:
 - oleidl/IOleWindow
 dev_langs:

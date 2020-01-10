@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 2a16b18f-8efa-43f0-9f7d-d38cc8a153d3
 ms.date: 12/05/2018
 ms.keywords: GetPriorityClass, GetPriorityClass function, _win32_getpriorityclass, base.getpriorityclass, processthreadsapi/GetPriorityClass, winbase/GetPriorityClass
-ms.topic: function
 f1_keywords:
 - processthreadsapi/GetPriorityClass
 dev_langs:

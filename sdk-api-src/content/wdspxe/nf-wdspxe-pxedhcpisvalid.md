@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: b5f43afb-ab71-4edf-a48a-7315d19af913
 ms.date: 12/05/2018
 ms.keywords: FALSE, PxeDhcpIsValid, PxeDhcpIsValid function [Windows Deployment Services], TRUE, wds.pxedhcpisvalid, wdspxe/PxeDhcpIsValid
-ms.topic: function
 f1_keywords:
 - wdspxe/PxeDhcpIsValid
 dev_langs:

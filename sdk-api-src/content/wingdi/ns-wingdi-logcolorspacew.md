@@ -7,7 +7,6 @@ tech.root: WCS
 ms.assetid: b08aec07-6ac0-47be-8dc9-d604d94dedde
 ms.date: 12/05/2018
 ms.keywords: '*LPLOGCOLORSPACEW, LOGCOLORSPACE, LOGCOLORSPACE structure [Windows Color System], LOGCOLORSPACEW, LPLOGCOLORSPACE, LPLOGCOLORSPACE structure pointer [Windows Color System], _color_LOGCOLORSPACE_str, wcs.logcolorspace, wingdi/LOGCOLORSPACE, wingdi/LPLOGCOLORSPACE'
-ms.topic: struct
 f1_keywords:
 - wingdi/LOGCOLORSPACE
 dev_langs:

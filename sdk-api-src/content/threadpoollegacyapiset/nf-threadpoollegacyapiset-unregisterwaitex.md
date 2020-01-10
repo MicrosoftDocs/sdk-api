@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: ea700e55-fce7-46cd-bb96-0c129b429d46
 ms.date: 12/05/2018
 ms.keywords: UnregisterWaitEx, UnregisterWaitEx function, _win32_unregisterwaitex, base.unregisterwaitex, threadpoollegacyapiset/UnregisterWaitEx, winbase/UnregisterWaitEx
-ms.topic: function
 f1_keywords:
 - threadpoollegacyapiset/UnregisterWaitEx
 dev_langs:

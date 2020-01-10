@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: c38a593f-60f0-41c7-83a8-bbec9b79dfac
 ms.date: 12/05/2018
 ms.keywords: DhcpGetClassInfo, DhcpGetClassInfo function [DHCP], dhcp.dhcpgetclassinfo, dhcpsapi/DhcpGetClassInfo
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpGetClassInfo
 dev_langs:

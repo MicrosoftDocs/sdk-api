@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: F5B6B4F6-61F2-4C5A-9E63-E9DC876FEB60
 ms.date: 12/05/2018
 ms.keywords: IUnbufferedFileHandleOplockCallback interface [Windows Runtime],OnBrokenCallback method, IUnbufferedFileHandleOplockCallback.OnBrokenCallback, IUnbufferedFileHandleOplockCallback::OnBrokenCallback, OnBrokenCallback, OnBrokenCallback method [Windows Runtime], OnBrokenCallback method [Windows Runtime],IUnbufferedFileHandleOplockCallback interface, windowsstoragecom/IUnbufferedFileHandleOplockCallback::OnBrokenCallback, winrt.iunbufferedfilehandleoplockcallback_onbrokencallback
-ms.topic: method
 f1_keywords:
 - windowsstoragecom/IUnbufferedFileHandleOplockCallback.OnBrokenCallback
 dev_langs:

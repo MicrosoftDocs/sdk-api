@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 85041c71-f9fc-48fc-8fe2-fec21efb831b
 ms.date: 12/05/2018
 ms.keywords: CreateSample, CreateSample method [DirectShow], CreateSample method [DirectShow],IDirectDrawMediaStream interface, IDirectDrawMediaStream interface [DirectShow],CreateSample method, IDirectDrawMediaStream.CreateSample, IDirectDrawMediaStream::CreateSample, IDirectDrawMediaStreamCreateSample, ddstream/IDirectDrawMediaStream::CreateSample, dshow.idirectdrawmediastream_createsample
-ms.topic: method
 f1_keywords:
 - ddstream/IDirectDrawMediaStream.CreateSample
 dev_langs:

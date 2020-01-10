@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 68f8f797-06fb-4286-88bc-220c54977575
 ms.date: 12/05/2018
 ms.keywords: '*PTCP_BOOLEAN_OPTIONAL, TCP_BOOLEAN_OPTIONAL, TCP_BOOLEAN_OPTIONAL enumeration [IP Helper], TcpBoolOptDisabled, TcpBoolOptEnabled, TcpBoolOptUnchanged, iphlp.tcp_boolean_optional, tcpestats/TCP_BOOLEAN_OPTIONAL, tcpestats/TcpBoolOptDisabled, tcpestats/TcpBoolOptEnabled, tcpestats/TcpBoolOptUnchanged'
-ms.topic: enum
 f1_keywords:
 - tcpestats/TCP_BOOLEAN_OPTIONAL
 dev_langs:

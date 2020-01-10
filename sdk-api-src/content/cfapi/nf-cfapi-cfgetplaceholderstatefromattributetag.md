@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: D7B4FB60-3388-489F-9F55-153B53BBDA9F
 ms.date: 12/05/2018
 ms.keywords: CfGetPlaceholderStateFromAttributeTag, CfGetPlaceholderStateFromAttributeTag function, cfapi/CfGetPlaceholderStateFromAttributeTag, cloudApi.cfgetplaceholderstatefromattributetag
-ms.topic: function
 f1_keywords:
 - cfapi/CfGetPlaceholderStateFromAttributeTag
 dev_langs:

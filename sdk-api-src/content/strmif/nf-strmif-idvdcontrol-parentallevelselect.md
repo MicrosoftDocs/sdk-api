@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ca572d89-b188-442d-884f-0cffa71c2892
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],ParentalLevelSelect method, IDvdControl.ParentalLevelSelect, IDvdControl::ParentalLevelSelect, IDvdControlParentalLevelSelect, ParentalLevelSelect, ParentalLevelSelect method [DirectShow], ParentalLevelSelect method [DirectShow],IDvdControl interface, dshow.idvdcontrol_parentallevelselect, strmif/IDvdControl::ParentalLevelSelect
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.ParentalLevelSelect
 dev_langs:

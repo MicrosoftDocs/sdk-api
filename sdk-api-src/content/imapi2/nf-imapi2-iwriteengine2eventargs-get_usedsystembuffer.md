@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 905c476f-33cd-4eda-a342-c7a20479d63c
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_UsedSystemBuffer method, IWriteEngine2EventArgs.get_UsedSystemBuffer, IWriteEngine2EventArgs::get_UsedSystemBuffer, get_UsedSystemBuffer, get_UsedSystemBuffer method [IMAPI], get_UsedSystemBuffer method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_usedsystembuffer, imapi2/IWriteEngine2EventArgs::get_UsedSystemBuffer
-ms.topic: method
 f1_keywords:
 - imapi2/IWriteEngine2EventArgs.get_UsedSystemBuffer
 dev_langs:

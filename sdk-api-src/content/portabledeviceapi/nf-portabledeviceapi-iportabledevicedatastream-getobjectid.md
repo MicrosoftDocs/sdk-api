@@ -7,7 +7,6 @@ tech.root: wpd_sdk
 ms.assetid: bd506e52-723d-4a3c-b73e-425700ccd3ec
 ms.date: 12/05/2018
 ms.keywords: GetObjectID, GetObjectID method [Windows Portable Devices SDK], GetObjectID method [Windows Portable Devices SDK],IPortableDeviceDataStream interface, IPortableDeviceDataStream interface [Windows Portable Devices SDK],GetObjectID method, IPortableDeviceDataStream.GetObjectID, IPortableDeviceDataStream::GetObjectID, IPortableDeviceDataStreamGetObjectID, portabledeviceapi/IPortableDeviceDataStream::GetObjectID, wpdsdk.iportabledevicedatastream_getobjectid
-ms.topic: method
 f1_keywords:
 - portabledeviceapi/IPortableDeviceDataStream.GetObjectID
 dev_langs:

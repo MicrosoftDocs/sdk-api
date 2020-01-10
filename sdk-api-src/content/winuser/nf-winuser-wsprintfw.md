@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\wsprintf.htm
 ms.date: 12/05/2018
 ms.keywords: _win32_wsprintf, _win32_wsprintf_cpp, menurc.wsprintf, winui._win32_wsprintf, winuser/wsprintf, winuser/wsprintfA, winuser/wsprintfW, wsprintf, wsprintf function [Menus and Other Resources], wsprintfA, wsprintfW
-ms.topic: function
 f1_keywords:
 - winuser/wsprintf
 dev_langs:

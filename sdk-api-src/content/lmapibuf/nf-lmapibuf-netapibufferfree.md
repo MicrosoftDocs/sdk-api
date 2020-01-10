@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 0e99483c-8cd7-402a-8bf6-1e0118764dd3
 ms.date: 12/05/2018
 ms.keywords: NetApiBufferFree, NetApiBufferFree function [Network Management], _win32_netapibufferfree, lmapibuf/NetApiBufferFree, netmgmt.netapibufferfree
-ms.topic: function
 f1_keywords:
 - lmapibuf/NetApiBufferFree
 dev_langs:

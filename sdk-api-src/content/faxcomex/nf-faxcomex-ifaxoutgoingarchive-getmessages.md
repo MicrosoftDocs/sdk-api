@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_20qb_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: GetMessages, GetMessages method [Fax Service], GetMessages method [Fax Service],IFaxOutgoingArchive interface, IFaxOutgoingArchive interface [Fax Service],GetMessages method, IFaxOutgoingArchive.GetMessages, IFaxOutgoingArchive::GetMessages, _mfax_faxoutgoingarchive.getmessages_cpp, fax._mfax_faxoutgoingarchive_getmessages_cpp, faxcomex/IFaxOutgoingArchive::GetMessages
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxOutgoingArchive.GetMessages
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: d02e26e7-e99c-4be7-8495-830eff2f1554
 ms.date: 12/05/2018
 ms.keywords: IMFNetCredentialCache, IMFNetCredentialCache interface [Media Foundation], IMFNetCredentialCache interface [Media Foundation],described, d02e26e7-e99c-4be7-8495-830eff2f1554, mf.imfnetcredentialcache, mfidl/IMFNetCredentialCache
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFNetCredentialCache
 dev_langs:

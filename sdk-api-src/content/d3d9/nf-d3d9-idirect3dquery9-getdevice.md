@@ -7,7 +7,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dquery9__getdevice.htm
 ms.date: 12/05/2018
 ms.keywords: 8dd8379e-a2cd-b722-e3cd-771da54e3b51, GetDevice, GetDevice method [Direct3D 9], GetDevice method [Direct3D 9],IDirect3DQuery9 interface, IDirect3DQuery9 interface [Direct3D 9],GetDevice method, IDirect3DQuery9.GetDevice, IDirect3DQuery9::GetDevice, d3d9helper/IDirect3DQuery9::GetDevice, direct3d9.idirect3dquery9__getdevice
-ms.topic: method
 f1_keywords:
 - d3d9/IDirect3DQuery9.GetDevice
 dev_langs:

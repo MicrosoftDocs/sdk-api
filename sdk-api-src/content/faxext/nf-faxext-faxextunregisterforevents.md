@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxextconfigref_7soj.htm
 ms.date: 12/05/2018
 ms.keywords: FaxExtUnregisterForEvents, FaxExtUnregisterForEvents function [Fax Service], _mfax_faxextunregisterforevents, fax._mfax_faxextunregisterforevents, faxext/FaxExtUnregisterForEvents
-ms.topic: function
 f1_keywords:
 - faxext/FaxExtUnregisterForEvents
 dev_langs:

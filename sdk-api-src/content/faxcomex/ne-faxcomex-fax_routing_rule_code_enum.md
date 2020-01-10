@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_10rx.htm
 ms.date: 12/05/2018
 ms.keywords: FAX_ROUTING_RULE_CODE_ENUM, FAX_ROUTING_RULE_CODE_ENUM enumeration [Fax Service], _mfax_fax_routing_rule_code_enum, fax._mfax_fax_routing_rule_code_enum, faxcomex/FAX_ROUTING_RULE_CODE_ENUM, faxcomex/frrcANY_CODE, frrcANY_CODE
-ms.topic: enum
 f1_keywords:
 - faxcomex/FAX_ROUTING_RULE_CODE_ENUM
 dev_langs:

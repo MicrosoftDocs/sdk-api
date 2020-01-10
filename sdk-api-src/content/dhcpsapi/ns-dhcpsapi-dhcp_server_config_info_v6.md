@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 9862f0c1-3c42-4ad7-af3c-15868e4a9314
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_SERVER_CONFIG_INFO_V6, DHCP_SERVER_CONFIG_INFO_V6, DHCP_SERVER_CONFIG_INFO_V6 structure [DHCP], PDHCP_SERVER_CONFIG_INFO_V6, PDHCP_SERVER_CONFIG_INFO_V6 structure pointer [DHCP], dhcp.dhcp_server_config_info_v6, dhcpsapi/DHCP_SERVER_CONFIG_INFO_V6, dhcpsapi/PDHCP_SERVER_CONFIG_INFO_V6'
-ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_SERVER_CONFIG_INFO_V6
 dev_langs:

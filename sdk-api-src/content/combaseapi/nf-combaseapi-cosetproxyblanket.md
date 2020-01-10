@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: c2e5e681-8fa5-4b02-b59d-ba796eb0dccf
 ms.date: 12/05/2018
 ms.keywords: CoSetProxyBlanket, CoSetProxyBlanket function [COM], _com_CoSetProxyBlanket, com.cosetproxyblanket, combaseapi/CoSetProxyBlanket
-ms.topic: function
 f1_keywords:
 - combaseapi/CoSetProxyBlanket
 dev_langs:

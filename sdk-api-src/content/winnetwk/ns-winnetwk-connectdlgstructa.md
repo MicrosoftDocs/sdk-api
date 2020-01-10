@@ -7,7 +7,6 @@ tech.root: WNet
 ms.assetid: fb2a4b5a-ad8a-4ebf-8430-349d821eee20
 ms.date: 12/05/2018
 ms.keywords: '*LPCONNECTDLGSTRUCTA, CONNDLG_CONN_POINT, CONNDLG_HIDE_BOX, CONNDLG_NOT_PERSIST, CONNDLG_PERSIST, CONNDLG_RO_PATH, CONNDLG_USE_MRU, CONNECTDLGSTRUCT, CONNECTDLGSTRUCT structure [Windows Networking (WNet)], CONNECTDLGSTRUCTA, CONNECTDLGSTRUCTW, LPCONNECTDLGSTRUCT, LPCONNECTDLGSTRUCT structure pointer [Windows Networking (WNet)], SidTypeUser, _win32_connectdlgstruct_str, winnetwk/CONNECTDLGSTRUCT, winnetwk/CONNECTDLGSTRUCTA, winnetwk/CONNECTDLGSTRUCTW, winnetwk/LPCONNECTDLGSTRUCT, wnet.connectdlgstruct_str'
-ms.topic: struct
 f1_keywords:
 - winnetwk/CONNECTDLGSTRUCT
 dev_langs:

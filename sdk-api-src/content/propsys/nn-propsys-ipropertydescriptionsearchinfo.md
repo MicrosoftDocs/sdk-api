@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 7bd4be80-7459-4c3d-9da4-0580995e6db6
 ms.date: 12/05/2018
 ms.keywords: IPropertyDescriptionSearchInfo, IPropertyDescriptionSearchInfo interface [Windows Properties], IPropertyDescriptionSearchInfo interface [Windows Properties],described, _shell_IPropertyDescriptionSearchInfo, properties.IPropertyDescriptionSearchInfo, propsys/IPropertyDescriptionSearchInfo, shell.IPropertyDescriptionSearchInfo
-ms.topic: interface
 f1_keywords:
 - propsys/IPropertyDescriptionSearchInfo
 dev_langs:

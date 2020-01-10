@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 2170cf7e-85c8-4658-84fd-96ebc0d2704f
 ms.date: 12/05/2018
 ms.keywords: IAMVideoAccelerator interface [DirectShow],ReleaseBuffer method, IAMVideoAccelerator.ReleaseBuffer, IAMVideoAccelerator::ReleaseBuffer, IAMVideoAcceleratorReleaseBuffer, ReleaseBuffer, ReleaseBuffer method [DirectShow], ReleaseBuffer method [DirectShow],IAMVideoAccelerator interface, dshow.iamvideoaccelerator_releasebuffer, videoacc/IAMVideoAccelerator::ReleaseBuffer
-ms.topic: method
 f1_keywords:
 - videoacc/IAMVideoAccelerator.ReleaseBuffer
 dev_langs:

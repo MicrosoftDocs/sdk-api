@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 78ae9cfe-2a4f-48cd-9a4f-fd5193df0ed0
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_CERTIFICATE_CREDENTIAL1, IKEEXT_CERTIFICATE_CREDENTIAL1 structure [Filtering], IKEEXT_CERT_CREDENTIAL_FLAG_NAP_CERT, fwp.ikeext_certificate_credential1, iketypes/IKEEXT_CERTIFICATE_CREDENTIAL1
-ms.topic: struct
 f1_keywords:
 - iketypes/IKEEXT_CERTIFICATE_CREDENTIAL1
 dev_langs:

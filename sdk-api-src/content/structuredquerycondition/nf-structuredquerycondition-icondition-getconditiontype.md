@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\getconditiontype.htm
 ms.date: 12/05/2018
 ms.keywords: GetConditionType, GetConditionType method [search], GetConditionType method [search],ICondition interface, ICondition interface [search],GetConditionType method, ICondition.GetConditionType, ICondition::GetConditionType, _search_ICondition_GetConditionType, search._search_ICondition_GetConditionType, structuredquerycondition/ICondition::GetConditionType
-ms.topic: method
 f1_keywords:
 - structuredquerycondition/ICondition.GetConditionType
 dev_langs:

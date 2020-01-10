@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 4326547e-85e2-409c-9f36-aa013853dfd9
 ms.date: 12/05/2018
 ms.keywords: WPUQueueApc, WPUQueueApc function [Winsock], _win32_wpuqueueapc_2, winsock.wpuqueueapc_2, ws2spi/WPUQueueApc
-ms.topic: function
 f1_keywords:
 - ws2spi/WPUQueueApc
 dev_langs:

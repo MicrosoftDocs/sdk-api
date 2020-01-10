@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory\iconditionfactory.htm
 ms.date: 12/05/2018
 ms.keywords: IConditionFactory, IConditionFactory interface [search], IConditionFactory interface [search],described, _search_IConditionFactory, search._search_IConditionFactory, structuredquery/IConditionFactory
-ms.topic: interface
 f1_keywords:
 - structuredquery/IConditionFactory
 dev_langs:

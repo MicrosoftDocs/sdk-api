@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 93DC235F-7E61-44CE-A949-8ABBD1D62CFF
 ms.date: 12/05/2018
 ms.keywords: DWRITE_UNICODE_RANGE, DWRITE_UNICODE_RANGE structure [Direct Write], directwrite.dwrite_unicode_range, dwrite_1/DWRITE_UNICODE_RANGE
-ms.topic: struct
 f1_keywords:
 - dwrite_1/DWRITE_UNICODE_RANGE
 dev_langs:

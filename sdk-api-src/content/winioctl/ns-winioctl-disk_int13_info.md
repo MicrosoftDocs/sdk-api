@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: a6991ad1-da8a-4df6-a055-ead3c30938df
 ms.date: 12/05/2018
 ms.keywords: '*PDISK_INT13_INFO, DISK_INT13_INFO, DISK_INT13_INFO structure [Files], PDISK_INT13_INFO, PDISK_INT13_INFO structure pointer [Files], _win32_disk_int13_info_str, base.disk_int13_info_str, fs.disk_int13_info_str, winioctl/DISK_INT13_INFO, winioctl/PDISK_INT13_INFO'
-ms.topic: struct
 f1_keywords:
 - winioctl/DISK_INT13_INFO
 dev_langs:

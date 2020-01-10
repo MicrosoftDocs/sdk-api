@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 5228c614-3278-4852-a867-7eed57359aef
 ms.date: 12/05/2018
 ms.keywords: OffsetRgn, OffsetRgn function [Windows GDI], _win32_OffsetRgn, gdi.offsetrgn, wingdi/OffsetRgn
-ms.topic: function
 f1_keywords:
 - wingdi/OffsetRgn
 dev_langs:

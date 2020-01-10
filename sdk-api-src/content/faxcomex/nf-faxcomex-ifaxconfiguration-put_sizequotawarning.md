@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\sizequotawarning.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],SizeQuotaWarning property, IFaxConfiguration.SizeQuotaWarning, IFaxConfiguration.put_SizeQuotaWarning, IFaxConfiguration::SizeQuotaWarning, IFaxConfiguration::get_SizeQuotaWarning, IFaxConfiguration::put_SizeQuotaWarning, SizeQuotaWarning property [Fax Service], SizeQuotaWarning property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_SizeQuotaWarning, fax._mfax_IFaxConfiguration_SizeQuotaWarning, faxcomex/IFaxConfiguration::SizeQuotaWarning, faxcomex/IFaxConfiguration::get_SizeQuotaWarning, faxcomex/IFaxConfiguration::put_SizeQuotaWarning, put_SizeQuotaWarning
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxConfiguration.SizeQuotaWarning
 dev_langs:

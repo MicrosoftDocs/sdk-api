@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 83c4ecfa-da4f-41d3-b0ca-d654735743cd
 ms.date: 12/05/2018
 ms.keywords: PIBIO_SENSOR_SET_MODE_FN, PIBIO_SENSOR_SET_MODE_FN callback, SensorAdapterSetMode, SensorAdapterSetMode callback function [Windows Biometric Framework API], secbiomet.sensoradaptersetmode, winbio_adapter/SensorAdapterSetMode
-ms.topic: callback
 f1_keywords:
 - winbio_adapter/SensorAdapterSetMode
 dev_langs:

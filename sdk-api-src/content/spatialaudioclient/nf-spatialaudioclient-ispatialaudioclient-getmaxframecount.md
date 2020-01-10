@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: CA28103B-6C9C-46C8-9C21-73573B42DDC4
 ms.date: 12/05/2018
 ms.keywords: GetMaxFrameCount, GetMaxFrameCount method [Core Audio], GetMaxFrameCount method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],GetMaxFrameCount method, ISpatialAudioClient.GetMaxFrameCount, ISpatialAudioClient::GetMaxFrameCount, coreaudio.ispatialaudioclient_getmaxframecount, spatialaudioclient/ISpatialAudioClient::GetMaxFrameCount
-ms.topic: method
 f1_keywords:
 - spatialaudioclient/ISpatialAudioClient.GetMaxFrameCount
 dev_langs:

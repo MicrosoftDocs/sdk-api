@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: c532f435-7393-49f0-975c-4c0ecca64407
 ms.date: 12/05/2018
 ms.keywords: SetupCommitFileQueue, SetupCommitFileQueue function [Setup API], SetupCommitFileQueueA, SetupCommitFileQueueW, _setupapi_setupcommitfilequeue, setup.setupcommitfilequeue, setupapi/SetupCommitFileQueue, setupapi/SetupCommitFileQueueA, setupapi/SetupCommitFileQueueW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupCommitFileQueue
 dev_langs:

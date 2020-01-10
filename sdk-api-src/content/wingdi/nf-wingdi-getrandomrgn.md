@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: a7527d7a-7b5e-4dd5-9270-94bc92b5a4a0
 ms.date: 12/05/2018
 ms.keywords: GetRandomRgn, GetRandomRgn function [Windows GDI], _win32_GetRandomRgn, gdi.getrandomrgn, wingdi/GetRandomRgn
-ms.topic: function
 f1_keywords:
 - wingdi/GetRandomRgn
 dev_langs:

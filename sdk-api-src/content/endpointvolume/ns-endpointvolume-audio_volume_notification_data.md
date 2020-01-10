@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 8778eb32-bc37-4d21-a096-f932db3d7b3f
 ms.date: 12/05/2018
 ms.keywords: '*PAUDIO_VOLUME_NOTIFICATION_DATA, AUDIO_VOLUME_NOTIFICATION_DATA, AUDIO_VOLUME_NOTIFICATION_DATA structure [Core Audio], AUDIO_VOLUME_NOTIFICATION_DATAStructure, PAUDIO_VOLUME_NOTIFICATION_DATA, PAUDIO_VOLUME_NOTIFICATION_DATA structure pointer [Core Audio], coreaudio.audio_volume_notification_data, endpointvolume/AUDIO_VOLUME_NOTIFICATION_DATA, endpointvolume/PAUDIO_VOLUME_NOTIFICATION_DATA'
-ms.topic: struct
 f1_keywords:
 - endpointvolume/AUDIO_VOLUME_NOTIFICATION_DATA
 dev_langs:

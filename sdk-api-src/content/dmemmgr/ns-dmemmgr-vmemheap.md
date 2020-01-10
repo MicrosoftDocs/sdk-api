@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: bcc5eb95-a438-427f-bb16-7489e9485cd5
 ms.date: 12/05/2018
 ms.keywords: '*LPVMEMHEAP, FAR *LPVMEMHEAP, FAR *LPVMEMHEAP structure [Display Devices], VMEMHEAP, VMEMHEAP structure [Display Devices], ddstrcts_3c571f23-5a4c-43c5-b7fb-69429f8c9dbe.xml, display.vmemheap, dmemmgr/FAR *LPVMEMHEAP, dmemmgr/VMEMHEAP'
-ms.topic: struct
 f1_keywords:
 - dmemmgr/VMEMHEAP
 dev_langs:

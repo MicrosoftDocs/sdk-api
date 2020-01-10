@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_desc.htm
 ms.date: 12/05/2018
 ms.keywords: 4f0bd653-5cd1-26ff-b805-ecf9070b3990, D3D10_SHADER_DESC, D3D10_SHADER_DESC structure [Direct3D 10], d3d10shader/D3D10_SHADER_DESC, direct3d10.d3d10_shader_desc
-ms.topic: struct
 f1_keywords:
 - d3d10shader/D3D10_SHADER_DESC
 dev_langs:

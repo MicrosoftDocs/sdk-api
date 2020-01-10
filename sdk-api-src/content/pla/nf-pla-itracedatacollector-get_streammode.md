@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: eeca98e2-8da1-44e5-8d43-00b52f51bcae
 ms.date: 12/05/2018
 ms.keywords: ITraceDataCollector interface [PLA],StreamMode property, ITraceDataCollector.StreamMode, ITraceDataCollector.get_StreamMode, ITraceDataCollector::StreamMode, ITraceDataCollector::get_StreamMode, ITraceDataCollector::put_StreamMode, StreamMode property [PLA], StreamMode property [PLA],ITraceDataCollector interface, base.itracedatacollector_streammode, get_StreamMode, pla.itracedatacollector_streammode, pla/ITraceDataCollector::StreamMode, pla/ITraceDataCollector::get_StreamMode, pla/ITraceDataCollector::put_StreamMode
-ms.topic: method
 f1_keywords:
 - pla/ITraceDataCollector.StreamMode
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: e07a9249-9571-4747-b913-05d319202f8f
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_RATE_SET, PWLAN_RATE_SET, PWLAN_RATE_SET structure pointer [NativeWIFI], WLAN_RATE_SET, WLAN_RATE_SET structure [NativeWIFI], nwifi.wlan_rate_set, wlanapi/PWLAN_RATE_SET, wlanapi/WLAN_RATE_SET'
-ms.topic: struct
 f1_keywords:
 - wlanapi/WLAN_RATE_SET
 dev_langs:

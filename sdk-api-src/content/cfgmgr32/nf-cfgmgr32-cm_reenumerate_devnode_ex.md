@@ -7,7 +7,6 @@ tech.root: devinst
 ms.assetid: 1d927aec-db3c-403f-9952-1bcc931984bf
 ms.date: 12/05/2018
 ms.keywords: CM_Reenumerate_DevNode_Ex, CM_Reenumerate_DevNode_Ex function [Device and Driver Installation], cfgmgr32/CM_Reenumerate_DevNode_Ex, cfgmgrfn_164140ec-3f5b-4047-8e18-7c7154975588.xml, devinst.cm_reenumerate_devnode_ex
-ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Reenumerate_DevNode_Ex
 dev_langs:

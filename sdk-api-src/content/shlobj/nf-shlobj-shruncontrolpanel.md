@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 393a1f63-071e-4655-b6fb-7b0abca7818c
 ms.date: 12/05/2018
 ms.keywords: SHRunControlPanel, SHRunControlPanel function [Windows Shell], _shell_SHRunControlPanel, shell.SHRunControlPanel, shlobj/SHRunControlPanel
-ms.topic: function
 f1_keywords:
 - shlobj/SHRunControlPanel
 dev_langs:

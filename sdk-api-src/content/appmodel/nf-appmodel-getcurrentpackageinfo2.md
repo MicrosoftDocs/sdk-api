@@ -5,7 +5,6 @@ description: Gets the package information for the calling process.
 tech.root: appxpkg
 ms.date: 01/31/19
 ms.keywords: GetCurrentPackageInfo2
-ms.topic: function
 f1_keywords:
 - appmodel/GetCurrentPackageInfo2
 dev_langs:

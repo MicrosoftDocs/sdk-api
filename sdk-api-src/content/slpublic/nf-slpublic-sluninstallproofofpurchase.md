@@ -7,7 +7,6 @@ tech.root: SecSLApi
 ms.assetid: f3e5e43e-ea4a-4aad-b60a-833859996339
 ms.date: 12/05/2018
 ms.keywords: SLUninstallProofOfPurchase, SLUninstallProofOfPurchase function [Security], security.sluninstallproofofpurchase, slpublic/SLUninstallProofOfPurchase
-ms.topic: function
 f1_keywords:
 - slpublic/SLUninstallProofOfPurchase
 dev_langs:

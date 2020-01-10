@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: dc880967-ac97-4835-bbc9-1bd664e42739
 ms.date: 12/05/2018
 ms.keywords: IMFSampleGrabberSinkCallback2 interface [Media Foundation],OnProcessSampleEx method, IMFSampleGrabberSinkCallback2.OnProcessSampleEx, IMFSampleGrabberSinkCallback2::OnProcessSampleEx, OnProcessSampleEx, OnProcessSampleEx method [Media Foundation], OnProcessSampleEx method [Media Foundation],IMFSampleGrabberSinkCallback2 interface, mf.imfsamplegrabbersinkcallback2_onprocesssampleex, mfidl/IMFSampleGrabberSinkCallback2::OnProcessSampleEx
-ms.topic: method
 f1_keywords:
 - mfidl/IMFSampleGrabberSinkCallback2.OnProcessSampleEx
 dev_langs:

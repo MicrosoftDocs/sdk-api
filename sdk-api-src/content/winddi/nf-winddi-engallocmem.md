@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 61bef5a1-bf68-4d37-ae5d-13ff045a2344
 ms.date: 12/05/2018
 ms.keywords: EngAllocMem, EngAllocMem function [Display Devices], display.engallocmem, gdifncs_c8084f74-b624-4f79-be0a-cf1fc144afaa.xml, winddi/EngAllocMem
-ms.topic: macro
 f1_keywords:
 - winddi/EngAllocMem
 dev_langs:

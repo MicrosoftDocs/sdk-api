@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: a012c3ba-67fd-4fcf-84d1-85e9d495c29c
 ms.date: 12/05/2018
 ms.keywords: '*LPWSABUF, LPWSABUF, LPWSABUF structure pointer [Winsock], WSABUF, WSABUF structure [Winsock], WSABUFA, _win32_wsabuf_2, winsock.wsabuf_2, ws2def/LPWSABUF, ws2def/WSABUF'
-ms.topic: struct
 f1_keywords:
 - ws2def/WSABUF
 dev_langs:

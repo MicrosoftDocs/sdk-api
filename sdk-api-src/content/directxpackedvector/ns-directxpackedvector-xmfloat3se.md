@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT3SE
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT3SE, XMFLOAT3SE structure [DirectX Math Support APIs], directxpackedvector/XMFLOAT3SE, dxmath.xmfloat3se
-ms.topic: struct
 f1_keywords:
 - directxpackedvector/XMFLOAT3SE
 dev_langs:

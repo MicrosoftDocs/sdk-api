@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 6a954fbc-baf6-4efa-bec0-dd86b4b7a916
 ms.date: 12/05/2018
 ms.keywords: GetNotifyInterface, GetNotifyInterface method [BITS], GetNotifyInterface method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetNotifyInterface method, IBackgroundCopyJob.GetNotifyInterface, IBackgroundCopyJob::GetNotifyInterface, _drz_ibackgroundcopyjob_getnotifyinterface, bits.ibackgroundcopyjob_getnotifyinterface, bits/IBackgroundCopyJob::GetNotifyInterface
-ms.topic: method
 f1_keywords:
 - bits/IBackgroundCopyJob.GetNotifyInterface
 dev_langs:

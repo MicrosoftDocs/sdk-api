@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: D47D6FA3-D5D2-47BD-8DE0-6E0EE08EE7C4
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform interface [DirectComposition],SetScaleY method, IDCompositionScaleTransform.SetScaleY, IDCompositionScaleTransform::SetScaleY, IDCompositionScaleTransform::SetScaleY(float), SetScaleY, SetScaleY method [DirectComposition], SetScaleY method [DirectComposition],IDCompositionScaleTransform interface, dcomp/IDCompositionScaleTransform::SetScaleY, directcomp.idcompositionscaletransform_setscaley_float
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionScaleTransform.SetScaleY
 dev_langs:

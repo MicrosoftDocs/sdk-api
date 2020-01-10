@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 97cadf6c-2549-4a7f-9ecb-c16298769a21
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [DirectShow], GetCountOfRecords method [DirectShow],IDvbLogicalChannelDescriptor interface, IDvbLogicalChannelDescriptor interface [DirectShow],GetCountOfRecords method, IDvbLogicalChannelDescriptor.GetCountOfRecords, IDvbLogicalChannelDescriptor::GetCountOfRecords, IDvbLogicalChannelDescriptorGetCountOfRecords, dvbsiparser/IDvbLogicalChannelDescriptor::GetCountOfRecords, mstv.idvblogicalchanneldescriptor_getcountofrecords
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbLogicalChannelDescriptor.GetCountOfRecords
 dev_langs:

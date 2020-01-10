@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 5f2dc759-5545-4b4a-a2fc-fca65c0856cd
 ms.date: 12/05/2018
 ms.keywords: IAttributeSet interface [Microsoft TV Technologies],SetAttrib method, IAttributeSet.SetAttrib, IAttributeSet::SetAttrib, IAttributeSetSetAttrib, SetAttrib, SetAttrib method [Microsoft TV Technologies], SetAttrib method [Microsoft TV Technologies],IAttributeSet interface, dsattrib/IAttributeSet::SetAttrib, mstv.iattributeset_setattrib
-ms.topic: method
 f1_keywords:
 - dsattrib/IAttributeSet.SetAttrib
 dev_langs:

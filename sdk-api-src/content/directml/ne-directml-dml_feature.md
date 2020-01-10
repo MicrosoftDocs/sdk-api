@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 133FAC75-F745-423D-9CC6-AABB0404C036
 ms.date: 12/5/2018
 ms.keywords: DML_FEATURE, DML_FEATURE enumeration, DML_FEATURE_TENSOR_DATA_TYPE_SUPPORT, direct3d12.dml_feature, directml/DML_FEATURE, directml/DML_FEATURE_TENSOR_DATA_TYPE_SUPPORT
-ms.topic: enum
 f1_keywords:
 - directml/DML_FEATURE
 dev_langs:

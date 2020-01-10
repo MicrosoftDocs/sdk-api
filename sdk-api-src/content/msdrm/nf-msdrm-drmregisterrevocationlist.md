@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: 819a8471-e447-4a4d-ae52-5929350df2c8
 ms.date: 12/05/2018
 ms.keywords: DRMRegisterRevocationList, DRMRegisterRevocationList function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMRegisterRevocationList, rm.drmregisterrevocationlist
-ms.topic: function
 f1_keywords:
 - msdrm/DRMRegisterRevocationList
 dev_langs:

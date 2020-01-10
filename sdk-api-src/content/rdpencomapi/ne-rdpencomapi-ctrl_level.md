@@ -7,7 +7,6 @@ tech.root: rdp
 ms.assetid: f97b0493-82bf-487e-adc1-2dc40eeeb36c
 ms.date: 12/05/2018
 ms.keywords: CTRL_LEVEL, CTRL_LEVEL enumeration [RDP], CTRL_LEVEL_INTERACTIVE, CTRL_LEVEL_INVALID, CTRL_LEVEL_MAX, CTRL_LEVEL_MIN, CTRL_LEVEL_NONE, CTRL_LEVEL_REQCTRL_INTERACTIVE, CTRL_LEVEL_REQCTRL_VIEW, CTRL_LEVEL_VIEW, rdp.ctrl_level, rdpencomapi/CTRL_LEVEL, rdpencomapi/CTRL_LEVEL_INTERACTIVE, rdpencomapi/CTRL_LEVEL_INVALID, rdpencomapi/CTRL_LEVEL_MAX, rdpencomapi/CTRL_LEVEL_MIN, rdpencomapi/CTRL_LEVEL_NONE, rdpencomapi/CTRL_LEVEL_REQCTRL_INTERACTIVE, rdpencomapi/CTRL_LEVEL_REQCTRL_VIEW, rdpencomapi/CTRL_LEVEL_VIEW
-ms.topic: enum
 f1_keywords:
 - rdpencomapi/CTRL_LEVEL
 dev_langs:

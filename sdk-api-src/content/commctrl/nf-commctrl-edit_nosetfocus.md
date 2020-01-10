@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_nosetfocus.htm
 ms.date: 12/05/2018
 ms.keywords: Edit_NoSetFocus, Edit_NoSetFocus macro [Windows Controls], _win32_Edit_NoSetFocus, _win32_Edit_NoSetFocus_cpp, commctrl/Edit_NoSetFocus, controls.Edit_NoSetFocus, controls._win32_Edit_NoSetFocus
-ms.topic: macro
 f1_keywords:
 - commctrl/Edit_NoSetFocus
 dev_langs:

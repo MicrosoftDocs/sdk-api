@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: E0CB6CA2-439A-4919-95EF-B519ABBBB085
 ms.date: 12/05/2018
 ms.keywords: CfUpdateSyncProviderStatus, CfUpdateSyncProviderStatus function, cfapi/CfUpdateSyncProviderStatus, cloudApi.cfupdatesyncproviderstatus
-ms.topic: function
 f1_keywords:
 - cfapi/CfUpdateSyncProviderStatus
 dev_langs:

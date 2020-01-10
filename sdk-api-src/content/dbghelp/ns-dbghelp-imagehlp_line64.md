@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 62124983-8381-4eb4-94f6-220b844aca45
 ms.date: 12/05/2018
 ms.keywords: '*PIMAGEHLP_LINE64, IMAGEHLP_LINE, IMAGEHLP_LINE structure, IMAGEHLP_LINE64, IMAGEHLP_LINE64 structure, IMAGEHLP_LINEW64, PIMAGEHLP_LINE64, PIMAGEHLP_LINE64 structure pointer, _IMAGEHLP_LINE64, _win32_imagehlp_line64_str, base.imagehlp_line64_str, dbghelp/IMAGEHLP_LINE64, dbghelp/IMAGEHLP_LINEW64, dbghelp/PIMAGEHLP_LINE64'
-ms.topic: struct
 f1_keywords:
 - dbghelp/IMAGEHLP_LINE64
 dev_langs:

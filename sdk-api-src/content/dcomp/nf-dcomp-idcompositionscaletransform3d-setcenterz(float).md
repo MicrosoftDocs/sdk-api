@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 69610037-28CD-49DA-8633-C26986AD17E7
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetCenterZ method, IDCompositionScaleTransform3D.SetCenterZ, IDCompositionScaleTransform3D::SetCenterZ, IDCompositionScaleTransform3D::SetCenterZ(float), SetCenterZ, SetCenterZ method [DirectComposition], SetCenterZ method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetCenterZ, directcomp.idcompositionscaletransform3d_setcenterz_float
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionScaleTransform3D.SetCenterZ
 dev_langs:

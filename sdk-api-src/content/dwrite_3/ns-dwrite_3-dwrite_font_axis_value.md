@@ -5,7 +5,6 @@ description: Represents a value for a font axis. Used when querying and creating
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: DWRITE_FONT_AXIS_VALUE, DWRITE_FONT_AXIS_VALUE structure [Direct Write], directwrite.dwrite_font_axis_value, dwrite_3/DWRITE_FONT_AXIS_VALUE
-ms.topic: struct
 f1_keywords:
 - dwrite_3/DWRITE_FONT_AXIS_VALUE
 dev_langs:

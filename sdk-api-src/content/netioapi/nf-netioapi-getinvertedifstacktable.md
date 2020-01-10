@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: d1808ded-2798-46cc-8021-fdbcd3da60ea
 ms.date: 12/05/2018
 ms.keywords: GetInvertedIfStackTable, GetInvertedIfStackTable function [IP Helper], iphlp.getinvertedifstacktable, netioapi/GetInvertedIfStackTable
-ms.topic: function
 f1_keywords:
 - netioapi/GetInvertedIfStackTable
 dev_langs:

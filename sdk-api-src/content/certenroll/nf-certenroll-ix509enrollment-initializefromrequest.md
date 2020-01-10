@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 04cb00af-f786-4548-bee3-2cc5083278c3
 ms.date: 12/05/2018
 ms.keywords: IX509Enrollment interface [Security],InitializeFromRequest method, IX509Enrollment.InitializeFromRequest, IX509Enrollment::InitializeFromRequest, InitializeFromRequest, InitializeFromRequest method [Security], InitializeFromRequest method [Security],IX509Enrollment interface, certenroll/IX509Enrollment::InitializeFromRequest, security.ix509enrollment_initializefromrequest_method
-ms.topic: method
 f1_keywords:
 - certenroll/IX509Enrollment.InitializeFromRequest
 dev_langs:

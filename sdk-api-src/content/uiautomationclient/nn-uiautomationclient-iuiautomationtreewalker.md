@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: adb4afed-63b9-42b4-8a8d-673d4813bb52
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTreeWalker, IUIAutomationTreeWalker interface [Windows Accessibility], IUIAutomationTreeWalker interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTreeWalker, uiauto_IUIAutomationTreeWalker, uiautomationclient/IUIAutomationTreeWalker, winauto.uiauto_IUIAutomationTreeWalker
-ms.topic: interface
 f1_keywords:
 - uiautomationclient/IUIAutomationTreeWalker
 dev_langs:

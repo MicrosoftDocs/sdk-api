@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 0c0beb76-0089-46b9-bcc5-ed07320859a3
 ms.date: 12/05/2018
 ms.keywords: CreateDateTimeArray, CreateDateTimeArray method [Windows Runtime], CreateDateTimeArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateDateTimeArray method, IPropertyValueStatics.CreateDateTimeArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateDateTimeArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateDateTimeArray, winrt.ipropertyvaluefactory_createdatetimearray, winrt.ipropertyvaluestatics_createdatetimearray
-ms.topic: method
 f1_keywords:
 - windows.foundation/IPropertyValueStatics.CreateDateTimeArray
 dev_langs:

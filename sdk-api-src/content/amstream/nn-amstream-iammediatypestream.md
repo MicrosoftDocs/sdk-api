@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6ca1bad2-625b-4415-8311-acd5443452c1
 ms.date: 12/05/2018
 ms.keywords: IAMMediaTypeStream, IAMMediaTypeStream interface [DirectShow], IAMMediaTypeStream interface [DirectShow],described, IAMMediaTypeStreamInterface, amstream/IAMMediaTypeStream, dshow.iammediatypestream
-ms.topic: interface
 f1_keywords:
 - amstream/IAMMediaTypeStream
 dev_langs:

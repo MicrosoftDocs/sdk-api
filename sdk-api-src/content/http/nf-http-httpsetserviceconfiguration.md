@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: b0a6d442-2ff4-4e00-8301-696fb0864d8c
 ms.date: 12/05/2018
 ms.keywords: HttpServiceConfigIPListenList, HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpServiceConfigTimeout, HttpServiceConfigUrlAclInfo, HttpSetServiceConfiguration, HttpSetServiceConfiguration function [HTTP], _http_httpsetserviceconfiguration, http.httpsetserviceconfiguration, http/HttpSetServiceConfiguration
-ms.topic: function
 f1_keywords:
 - http/HttpSetServiceConfiguration
 dev_langs:

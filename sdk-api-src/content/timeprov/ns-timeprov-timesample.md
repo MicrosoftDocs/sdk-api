@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 020a6502-3357-4800-8fc4-0d73ae42aa51
 ms.date: 12/05/2018
 ms.keywords: TSF_Authenticated, TSF_Hardware, TimeSample, TimeSample structure, _win32_timesample_str, base.timesample_str, timeprov/TimeSample
-ms.topic: struct
 f1_keywords:
 - timeprov/TimeSample
 dev_langs:

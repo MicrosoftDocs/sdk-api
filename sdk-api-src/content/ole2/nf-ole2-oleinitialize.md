@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 9a13e7a0-f2e2-466b-98f5-38d5972fa391
 ms.date: 12/05/2018
 ms.keywords: OleInitialize, OleInitialize function [COM], _ole_OleInitialize, com.oleinitialize, ole2/OleInitialize
-ms.topic: function
 f1_keywords:
 - ole2/OleInitialize
 dev_langs:

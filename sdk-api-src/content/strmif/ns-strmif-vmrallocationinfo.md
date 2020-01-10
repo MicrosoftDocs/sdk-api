@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 3908f9d1-5120-413b-a142-08cd9005c401
 ms.date: 12/05/2018
 ms.keywords: VMRALLOCATIONINFO, VMRALLOCATIONINFO structure [DirectShow], VMRALLOCATIONINFOStructure, dshow.vmrallocationinfo, strmif/VMRALLOCATIONINFO
-ms.topic: struct
 f1_keywords:
 - strmif/VMRALLOCATIONINFO
 dev_langs:

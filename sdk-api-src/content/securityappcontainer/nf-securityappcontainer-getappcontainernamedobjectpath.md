@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 466CE2DA-332E-4AA7-A0EB-868A646C0979
 ms.date: 12/05/2018
 ms.keywords: GetAppContainerNamedObjectPath, GetAppContainerNamedObjectPath function [Security], security.getappcontainernamedobjectpath, securityappcontainer/GetAppContainerNamedObjectPath
-ms.topic: function
 f1_keywords:
 - securityappcontainer/GetAppContainerNamedObjectPath
 dev_langs:

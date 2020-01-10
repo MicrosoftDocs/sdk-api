@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: E8E1F5D3-8CA2-406A-B969-7F5C6F13E064
 ms.date: 12/05/2018
 ms.keywords: PrintDocumentPackageCompletion, PrintDocumentPackageCompletion enumeration [XPS Documents and Packaging], PrintDocumentPackageCompletion_Canceled, PrintDocumentPackageCompletion_Completed, PrintDocumentPackageCompletion_Failed, PrintDocumentPackageCompletion_InProgress, documenttarget/PrintDocumentPackageCompletion, documenttarget/PrintDocumentPackageCompletion_Canceled, documenttarget/PrintDocumentPackageCompletion_Completed, documenttarget/PrintDocumentPackageCompletion_Failed, documenttarget/PrintDocumentPackageCompletion_InProgress, xps.printdocumentpackagecompletion
-ms.topic: enum
 f1_keywords:
 - documenttarget/PrintDocumentPackageCompletion
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7455998a-56a8-4fc1-882b-c0942fd35d8c
 ms.date: 12/05/2018
 ms.keywords: AddFolder, AddFolder method [Windows Shell], AddFolder method [Windows Shell],IShellLibrary interface, IShellLibrary interface [Windows Shell],AddFolder method, IShellLibrary.AddFolder, IShellLibrary::AddFolder, _shell_IShellLibrary_AddFolder, shell.IShellLibrary_AddFolder, shobjidl_core/IShellLibrary::AddFolder
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellLibrary.AddFolder
 dev_langs:

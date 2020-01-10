@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b3a7f249-9d57-4bd1-830f-1c83c745782f
 ms.date: 12/05/2018
 ms.keywords: GetCategory, GetCategory method [Windows Shell], GetCategory method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetCategory method, IKnownFolder.GetCategory, IKnownFolder::GetCategory, _shell_IKnownFolder_GetCategory, shell.IKnownFolder_GetCategory, shobjidl_core/IKnownFolder::GetCategory
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IKnownFolder.GetCategory
 dev_langs:

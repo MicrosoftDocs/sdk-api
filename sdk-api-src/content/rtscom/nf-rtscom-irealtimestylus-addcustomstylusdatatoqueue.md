@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 9d216853-9103-4027-a724-f35d84553a9b
 ms.date: 12/05/2018
 ms.keywords: 9d216853-9103-4027-a724-f35d84553a9b, AddCustomStylusDataToQueue, AddCustomStylusDataToQueue method [Tablet PC], AddCustomStylusDataToQueue method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],AddCustomStylusDataToQueue method, IRealTimeStylus.AddCustomStylusDataToQueue, IRealTimeStylus::AddCustomStylusDataToQueue, rtscom/IRealTimeStylus::AddCustomStylusDataToQueue, tablet.irealtimestylus_addcustomstylusdatatoqueue
-ms.topic: method
 f1_keywords:
 - rtscom/IRealTimeStylus.AddCustomStylusDataToQueue
 dev_langs:

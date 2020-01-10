@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 2b052d83-0791-4fcb-ab94-7924c751b051
 ms.date: 12/05/2018
 ms.keywords: CHARSET_SYMBOL, CHARSET_UNICODE, EMBED_EDITABLE, EMBED_INSTALLABLE, EMBED_NOEMBEDDING, EMBED_PREVIEWPRINT, TTEMBED_EMBEDEUDC, TTEMBED_RAW, TTEMBED_SUBSET, TTEMBED_TTCOMPRESSED, TTEmbedFontEx, TTEmbedFontEx function [Windows GDI], _win32_TTEmbedFontEx, gdi.ttembedfontex, t2embapi/TTEmbedFontEx
-ms.topic: function
 f1_keywords:
 - t2embapi/TTEmbedFontEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: EAP
 ms.assetid: 23b64f95-1f21-4e81-a094-081a95057aef
 ms.date: 12/05/2018
 ms.keywords: IEAPProviderConfig interface [EAP],RouterInvokeCredentialsUI method, IEAPProviderConfig.RouterInvokeCredentialsUI, IEAPProviderConfig::RouterInvokeCredentialsUI, RouterInvokeCredentialsUI, RouterInvokeCredentialsUI method [EAP], RouterInvokeCredentialsUI method [EAP],IEAPProviderConfig interface, _eap_ieapproviderconfig_routerinvokecredentialsui, eap.ieapproviderconfig_routerinvokecredentialsui, rrascfg/IEAPProviderConfig::RouterInvokeCredentialsUI
-ms.topic: method
 f1_keywords:
 - rrascfg/IEAPProviderConfig.RouterInvokeCredentialsUI
 dev_langs:

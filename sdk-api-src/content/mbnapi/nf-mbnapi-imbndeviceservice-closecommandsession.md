@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: B0066062-0F10-49B8-85CC-0658757BF52B
 ms.date: 12/05/2018
 ms.keywords: CloseCommandSession, CloseCommandSession method [Microsoft Broadband Networks], CloseCommandSession method [Microsoft Broadband Networks],IMbnDeviceService interface, IMbnDeviceService interface [Microsoft Broadband Networks],CloseCommandSession method, IMbnDeviceService.CloseCommandSession, IMbnDeviceService::CloseCommandSession, mbn.imbndeviceservice_closecommandsession, mbnapi/IMbnDeviceService::CloseCommandSession
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnDeviceService.CloseCommandSession
 dev_langs:

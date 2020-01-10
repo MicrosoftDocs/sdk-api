@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 47c3c85e-15ca-4645-89c1-bbfd3bbd58e5
 ms.date: 12/05/2018
 ms.keywords: RaiseException, RaiseException function, _win32_raiseexception, base.raiseexception, errhandlingapi/RaiseException
-ms.topic: function
 f1_keywords:
 - errhandlingapi/RaiseException
 dev_langs:

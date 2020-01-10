@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 7d31e34f-1997-40fe-9b32-a193d3017798
 ms.date: 12/05/2018
 ms.keywords: GetMulticastListSize, GetMulticastListSize method [Microsoft TV Technologies], GetMulticastListSize method [Microsoft TV Technologies],IBDA_IPV4Filter interface, IBDA_IPV4Filter interface [Microsoft TV Technologies],GetMulticastListSize method, IBDA_IPV4Filter.GetMulticastListSize, IBDA_IPV4Filter::GetMulticastListSize, IBDA_IPV4FilterGetMulticastListSize, bdaiface/IBDA_IPV4Filter::GetMulticastListSize, mstv.ibda_ipv4filter_getmulticastlistsize
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_IPV4Filter.GetMulticastListSize
 dev_langs:

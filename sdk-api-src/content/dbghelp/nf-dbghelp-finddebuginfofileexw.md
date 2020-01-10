@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 1e89fe9a-4631-42b9-96ee-90393b4d9084
 ms.date: 12/05/2018
 ms.keywords: FindDebugInfoFileEx, FindDebugInfoFileEx function, FindDebugInfoFileExW, _win32_finddebuginfofileex, base.finddebuginfofileex, dbghelp/FindDebugInfoFileEx, dbghelp/FindDebugInfoFileExW
-ms.topic: function
 f1_keywords:
 - dbghelp/FindDebugInfoFileEx
 dev_langs:

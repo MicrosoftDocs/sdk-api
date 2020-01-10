@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 5c974707-b6ca-4177-a262-6838d308fb0a
 ms.date: 12/05/2018
 ms.keywords: _win32_capGetStatus, capGetStatus, capGetStatus macro [Windows Multimedia], multimedia.capgetstatus, vfw/capGetStatus
-ms.topic: macro
 f1_keywords:
 - vfw/capGetStatus
 dev_langs:

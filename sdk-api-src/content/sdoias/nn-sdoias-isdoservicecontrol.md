@@ -7,7 +7,6 @@ tech.root: Nps
 ms.assetid: c901ac9a-524a-498d-8b72-9afb26cf2c58
 ms.date: 12/05/2018
 ms.keywords: ISdoServiceControl, ISdoServiceControl interface [Network Policy Server], ISdoServiceControl interface [Network Policy Server],described, _sdo_isdoservicecontrol, nps.SDO_isdoservicecontrol, sdo.isdoservicecontrol, sdoias/ISdoServiceControl
-ms.topic: interface
 f1_keywords:
 - sdoias/ISdoServiceControl
 dev_langs:

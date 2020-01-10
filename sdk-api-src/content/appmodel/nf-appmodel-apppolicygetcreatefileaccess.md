@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 3AFFEAE5-CD49-458D-BBB8-AEC3A71566D1
 ms.date: 12/05/2018
 ms.keywords: AppPolicyGetCreateFileAccess, AppPolicyGetCreateFileAccess function [App packaging and management], appmodel/AppPolicyGetCreateFileAccess, appxpkg.apppolicygetcreatefileaccess_function
-ms.topic: function
 f1_keywords:
 - appmodel/AppPolicyGetCreateFileAccess
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: aa6dc75e-f124-4404-b8fd-ef227d8cada0
 ms.date: 12/05/2018
 ms.keywords: GetTimeFormat, GetTimeFormat method [DirectShow], GetTimeFormat method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetTimeFormat method, IMediaSeeking.GetTimeFormat, IMediaSeeking::GetTimeFormat, IMediaSeekingGetTimeFormat, dshow.imediaseeking_gettimeformat, strmif/IMediaSeeking::GetTimeFormat
-ms.topic: method
 f1_keywords:
 - strmif/IMediaSeeking.GetTimeFormat
 dev_langs:

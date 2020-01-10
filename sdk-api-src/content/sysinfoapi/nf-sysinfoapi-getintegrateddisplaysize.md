@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: EA155FCF-3245-498B-BEC8-742DE38DE258
 ms.date: 12/05/2018
 ms.keywords: GetIntegratedDisplaySize, GetIntegratedDisplaySize function, base.getintegrateddisplaysize, sysinfoapi/GetIntegratedDisplaySize
-ms.topic: function
 f1_keywords:
 - sysinfoapi/GetIntegratedDisplaySize
 dev_langs:

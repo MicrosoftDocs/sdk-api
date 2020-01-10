@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 98548d60-4cbd-4808-8027-1d8058c41d6d
 ms.date: 12/05/2018
 ms.keywords: ScriptXtoCP, ScriptXtoCP function [Internationalization for Windows Applications], _win32_ScriptXtoCP, intl.scriptxtocp, usp10/ScriptXtoCP
-ms.topic: function
 f1_keywords:
 - usp10/ScriptXtoCP
 dev_langs:

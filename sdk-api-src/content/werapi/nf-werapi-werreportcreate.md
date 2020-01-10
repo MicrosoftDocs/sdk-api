@@ -7,7 +7,6 @@ tech.root: wer
 ms.assetid: 41f68dde-5e43-45a6-8e0b-3ae0c6180e8b
 ms.date: 12/05/2018
 ms.keywords: WerReportApplicationCrash, WerReportApplicationHang, WerReportCreate, WerReportCreate function [Windows Error Reporting], WerReportCritical, WerReportInvalid, WerReportKernel, WerReportNonCritical, base.werreportcreate, wer.werreportcreate, werapi/WerReportCreate
-ms.topic: function
 f1_keywords:
 - werapi/WerReportCreate
 dev_langs:

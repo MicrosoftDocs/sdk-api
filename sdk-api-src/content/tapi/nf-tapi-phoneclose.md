@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 9e5e66c6-a8d2-4e0a-a400-17f0a3637f63
 ms.date: 12/05/2018
 ms.keywords: _tapi2_phoneclose, phoneClose, phoneClose function [TAPI 2.2], tapi/phoneClose, tapi2.phoneclose
-ms.topic: function
 f1_keywords:
 - tapi/phoneClose
 dev_langs:

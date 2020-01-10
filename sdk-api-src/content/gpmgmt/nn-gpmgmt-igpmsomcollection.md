@@ -7,7 +7,6 @@ tech.root: gpmc
 ms.assetid: 079f2fd9-7b1e-4bb1-b342-8ed8fb2c773d
 ms.date: 12/05/2018
 ms.keywords: GPMSOMCollection, IGPMSOMCollection, IGPMSOMCollection interface [GPMC], IGPMSOMCollection interface [GPMC],described, _win32_igpmsomcollection, gpmc.igpmsomcollection, gpmgmt/IGPMSOMCollection
-ms.topic: interface
 f1_keywords:
 - gpmgmt/IGPMSOMCollection
 dev_langs:

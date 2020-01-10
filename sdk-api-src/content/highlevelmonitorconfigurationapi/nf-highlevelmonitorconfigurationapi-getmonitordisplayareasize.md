@@ -7,7 +7,6 @@ tech.root: Monitor
 ms.assetid: c27cbcf8-bb89-47c4-9f37-8b7a3d61c99f
 ms.date: 12/05/2018
 ms.keywords: GetMonitorDisplayAreaSize, GetMonitorDisplayAreaSize function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorDisplayAreaSize, monitor.getmonitordisplayareasize
-ms.topic: function
 f1_keywords:
 - highlevelmonitorconfigurationapi/GetMonitorDisplayAreaSize
 dev_langs:

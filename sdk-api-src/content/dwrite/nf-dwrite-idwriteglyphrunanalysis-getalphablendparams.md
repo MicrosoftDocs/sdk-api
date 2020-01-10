@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 21991479-f041-40f9-83d5-0718ede26b92
 ms.date: 12/05/2018
 ms.keywords: GetAlphaBlendParams, GetAlphaBlendParams method [Direct Write], GetAlphaBlendParams method [Direct Write],IDWriteGlyphRunAnalysis interface, IDWriteGlyphRunAnalysis interface [Direct Write],GetAlphaBlendParams method, IDWriteGlyphRunAnalysis.GetAlphaBlendParams, IDWriteGlyphRunAnalysis::GetAlphaBlendParams, directwrite.IDWriteGlyphRunAnalysis_GetAlphaBlendParams, dwrite/IDWriteGlyphRunAnalysis::GetAlphaBlendParams
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteGlyphRunAnalysis.GetAlphaBlendParams
 dev_langs:

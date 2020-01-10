@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 5d391867-dece-4d40-80e2-99071d332984
 ms.date: 12/05/2018
 ms.keywords: WMCreateWriterNetworkSink, WMCreateWriterNetworkSink function [windows Media Format], wmformat.wmcreatewriternetworksink, wmsdkidl/WMCreateWriterNetworkSink
-ms.topic: function
 f1_keywords:
 - wmsdkidl/WMCreateWriterNetworkSink
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: aed33117-9bfd-4a23-998f-4b8d040d6e3b
 ms.date: 12/05/2018
 ms.keywords: IUPnPHttpHeaderControl, IUPnPHttpHeaderControl interface [UPnP APIs], IUPnPHttpHeaderControl interface [UPnP APIs],described, upnp.iupnphttpheadercontrol, upnp/IUPnPHttpHeaderControl
-ms.topic: interface
 f1_keywords:
 - upnp/IUPnPHttpHeaderControl
 dev_langs:

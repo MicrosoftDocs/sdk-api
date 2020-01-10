@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: d8d16c1c-5306-42a7-885b-4e1c5ee7634d
 ms.date: 12/05/2018
 ms.keywords: '*PDIRECTX_AUDIO_ACTIVATION_PARAMS, DIRECTX_AUDIO_ACTIVATION_PARAMS, DIRECTX_AUDIO_ACTIVATION_PARAMS structure [Core Audio], PDIRECTX_AUDIO_ACTIVATION_PARAMS, PDIRECTX_AUDIO_ACTIVATION_PARAMS structure pointer [Core Audio], coreaudio.directx_audio_activation_params, mmdeviceapi/DIRECTX_AUDIO_ACTIVATION_PARAMS, mmdeviceapi/PDIRECTX_AUDIO_ACTIVATION_PARAMS'
-ms.topic: struct
 f1_keywords:
 - mmdeviceapi/DIRECTX_AUDIO_ACTIVATION_PARAMS
 dev_langs:

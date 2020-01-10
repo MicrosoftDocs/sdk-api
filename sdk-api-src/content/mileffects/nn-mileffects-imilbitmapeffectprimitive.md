@@ -7,7 +7,6 @@ tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\imilbitmapeffectprimitive.htm
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectPrimitive, IMILBitmapEffectPrimitive interface [WPF Bitmap Effects], IMILBitmapEffectPrimitive interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectprimitive, mileffects/IMILBitmapEffectPrimitive, wibe._wibe_imilbitmapeffectprimitive
-ms.topic: interface
 f1_keywords:
 - mileffects/IMILBitmapEffectPrimitive
 dev_langs:

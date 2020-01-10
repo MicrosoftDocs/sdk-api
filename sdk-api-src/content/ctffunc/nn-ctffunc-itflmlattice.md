@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 25ad6ef2-1d42-498a-852f-163a0efbc26a
 ms.date: 12/05/2018
 ms.keywords: ITfLMLattice, ITfLMLattice interface [Text Services Framework], ITfLMLattice interface [Text Services Framework],described, _tsf_itflmlattice_ref, ctffunc/ITfLMLattice, tsf.itflmlattice
-ms.topic: interface
 f1_keywords:
 - ctffunc/ITfLMLattice
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 24addd5c-09a5-4f1b-90eb-c398aa7dd9a1
 ms.date: 12/05/2018
 ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetSignaturePartName method, IXpsSigningOptions.SetSignaturePartName, IXpsSigningOptions::SetSignaturePartName, SetSignaturePartName, SetSignaturePartName method [XPS Documents and Packaging], SetSignaturePartName method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setsignaturepartname, xpsdigitalsignature/IXpsSigningOptions::SetSignaturePartName
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSigningOptions.SetSignaturePartName
 dev_langs:

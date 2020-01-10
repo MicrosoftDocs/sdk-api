@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: ac0be570-e484-481b-9b16-ccdd4870deda
 ms.date: 12/05/2018
 ms.keywords: MprAdminTransportSetInfo, MprAdminTransportSetInfo function [RAS], _mpr_mpradmintransportsetinfo, mprapi/MprAdminTransportSetInfo, rras.mpradmintransportsetinfo
-ms.topic: function
 f1_keywords:
 - mprapi/MprAdminTransportSetInfo
 dev_langs:

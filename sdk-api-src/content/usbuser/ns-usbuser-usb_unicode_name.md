@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: d388332c-2f7c-410f-88f4-d0e56fed7a99
 ms.date: 12/05/2018
 ms.keywords: '*PUSB_UNICODE_NAME, PUSB_UNICODE_NAME, PUSB_UNICODE_NAME structure pointer [Buses], USB_UNICODE_NAME, USB_UNICODE_NAME structure [Buses], buses.usb_unicode_name, usbstrct_6c02ad3d-6b23-469c-86ea-90edf02c1ad8.xml, usbuser/PUSB_UNICODE_NAME, usbuser/USB_UNICODE_NAME'
-ms.topic: struct
 f1_keywords:
 - usbuser/USB_UNICODE_NAME
 dev_langs:

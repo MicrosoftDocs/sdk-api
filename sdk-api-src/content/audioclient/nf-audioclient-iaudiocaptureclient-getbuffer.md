@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 4298f584-39ce-4138-994a-0e551370429f
 ms.date: 12/05/2018
 ms.keywords: GetBuffer, GetBuffer method [Core Audio], GetBuffer method [Core Audio],IAudioCaptureClient interface, IAudioCaptureClient interface [Core Audio],GetBuffer method, IAudioCaptureClient.GetBuffer, IAudioCaptureClient::GetBuffer, IAudioCaptureClientGetBuffer, audioclient/IAudioCaptureClient::GetBuffer, coreaudio.iaudiocaptureclient_getbuffer
-ms.topic: method
 f1_keywords:
 - audioclient/IAudioCaptureClient.GetBuffer
 dev_langs:

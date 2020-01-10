@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: d62123af-2ae2-40f2-8581-c95b18491f20
 ms.date: 12/05/2018
 ms.keywords: GetParent, GetParent method [Windows Shell], GetParent method [Windows Shell],IShellItem interface, IShellItem interface [Windows Shell],GetParent method, IShellItem.GetParent, IShellItem::GetParent, _win32_IShellItem_GetParent, shell.IShellItem_GetParent, shobjidl_core/IShellItem::GetParent
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellItem.GetParent
 dev_langs:

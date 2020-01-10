@@ -7,7 +7,6 @@ tech.root: ixhr2
 ms.assetid: 8492FFD5-99C8-4545-B5FD-465CC01D0038
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnRedirect method, IXMLHTTPRequest2Callback.OnRedirect, IXMLHTTPRequest2Callback::OnRedirect, OnRedirect, OnRedirect method [XMLHttpRequest2], OnRedirect method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_onredirect, msxml6/IXMLHTTPRequest2Callback::OnRedirect
-ms.topic: method
 f1_keywords:
 - msxml6/IXMLHTTPRequest2Callback.OnRedirect
 dev_langs:

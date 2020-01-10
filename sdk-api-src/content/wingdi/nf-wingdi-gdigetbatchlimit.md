@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: aafe7635-1a71-42a9-90b7-11179e245af4
 ms.date: 12/05/2018
 ms.keywords: GdiGetBatchLimit, GdiGetBatchLimit function [Windows GDI], _win32_GdiGetBatchLimit, gdi.gdigetbatchlimit, wingdi/GdiGetBatchLimit
-ms.topic: function
 f1_keywords:
 - wingdi/GdiGetBatchLimit
 dev_langs:

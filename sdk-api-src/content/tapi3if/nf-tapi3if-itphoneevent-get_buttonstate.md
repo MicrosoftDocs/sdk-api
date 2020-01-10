@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 6eedda9d-c127-446d-972c-09a7c1a4bd0f
 ms.date: 12/05/2018
 ms.keywords: ITPhoneEvent interface [TAPI 2.2],get_ButtonState method, ITPhoneEvent.get_ButtonState, ITPhoneEvent::get_ButtonState, _tapi3_itphoneevent_get_buttonstate, get_ButtonState, get_ButtonState method [TAPI 2.2], get_ButtonState method [TAPI 2.2],ITPhoneEvent interface, tapi3.itphoneevent_get_buttonstate, tapi3if/ITPhoneEvent::get_ButtonState
-ms.topic: method
 f1_keywords:
 - tapi3if/ITPhoneEvent.get_ButtonState
 dev_langs:

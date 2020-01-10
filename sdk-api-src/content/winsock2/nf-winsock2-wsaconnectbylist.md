@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 7323d814-e96e-44b9-8ade-a9317e4fbf17
 ms.date: 12/05/2018
 ms.keywords: WSAConnectByList, WSAConnectByList function [Winsock], winsock.wsaconnectbylist, winsock2/WSAConnectByList
-ms.topic: function
 f1_keywords:
 - winsock2/WSAConnectByList
 dev_langs:

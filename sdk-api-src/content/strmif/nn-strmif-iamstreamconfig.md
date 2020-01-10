@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: c171763e-9108-49a0-a4b7-855c6db0a71d
 ms.date: 12/05/2018
 ms.keywords: IAMStreamConfig, IAMStreamConfig interface [DirectShow], IAMStreamConfig interface [DirectShow],described, IAMStreamConfigInterface, dshow.iamstreamconfig, strmif/IAMStreamConfig
-ms.topic: interface
 f1_keywords:
 - strmif/IAMStreamConfig
 dev_langs:

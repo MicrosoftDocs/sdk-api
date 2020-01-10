@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: d9a39211-f876-46d8-9a7c-c6bb3ba9edfe
 ms.date: 12/05/2018
 ms.keywords: WlxNetworkProviderLoad, WlxNetworkProviderLoad function [Security], _gina_wlxnetworkproviderload, security.wlxnetworkproviderload, winwlx/WlxNetworkProviderLoad
-ms.topic: function
 f1_keywords:
 - winwlx/WlxNetworkProviderLoad
 dev_langs:

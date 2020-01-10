@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: df98a728-596b-4541-974a-5690e510ad9f
 ms.date: 12/05/2018
 ms.keywords: AllocADsMem, AllocADsMem function [ADSI], _ds_allocadsmem, adshlp/AllocADsMem, adsi.allocadsmem
-ms.topic: function
 f1_keywords:
 - adshlp/AllocADsMem
 dev_langs:

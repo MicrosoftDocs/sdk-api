@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_62at.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxTiff interface [Fax Service],SenderName property, IFaxTiff.SenderName, IFaxTiff.get_SenderName, IFaxTiff::SenderName, IFaxTiff::get_SenderName, SenderName property [Fax Service], SenderName property [Fax Service],IFaxTiff interface, _mfax_ifaxtiff_get_sendername, fax._mfax_ifaxtiff_get_sendername, fax._mfax_ifaxtiff_mfax_ifaxtiff_get_sendername_cpp, faxcom/IFaxTiff::SenderName, faxcom/IFaxTiff::get_SenderName, get_SenderName
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxTiff.SenderName
 dev_langs:

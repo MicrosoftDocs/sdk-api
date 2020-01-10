@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: a885d849-e6d8-477a-a629-1c1a6152bc9b
 ms.date: 12/05/2018
 ms.keywords: ITunerCap interface [Microsoft TV Technologies],get_AuxInputCount method, ITunerCap.get_AuxInputCount, ITunerCap::get_AuxInputCount, ITunerCapget_AuxInputCount, get_AuxInputCount, get_AuxInputCount method [Microsoft TV Technologies], get_AuxInputCount method [Microsoft TV Technologies],ITunerCap interface, mstv.itunercap_get_auxinputcount, tuner/ITunerCap::get_AuxInputCount
-ms.topic: method
 f1_keywords:
 - tuner/ITunerCap.get_AuxInputCount
 dev_langs:

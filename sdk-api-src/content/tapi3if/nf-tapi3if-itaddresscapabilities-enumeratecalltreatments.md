@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 34a967ba-7d1f-4841-95be-9e83f927379b
 ms.date: 12/05/2018
 ms.keywords: EnumerateCallTreatments, EnumerateCallTreatments method [TAPI 2.2], EnumerateCallTreatments method [TAPI 2.2],ITAddressCapabilities interface, ITAddressCapabilities interface [TAPI 2.2],EnumerateCallTreatments method, ITAddressCapabilities.EnumerateCallTreatments, ITAddressCapabilities::EnumerateCallTreatments, _tapi3_itaddresscapabilities_enumeratecalltreatments, tapi3.itaddresscapabilities_enumeratecalltreatments, tapi3if/ITAddressCapabilities::EnumerateCallTreatments
-ms.topic: method
 f1_keywords:
 - tapi3if/ITAddressCapabilities.EnumerateCallTreatments
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: ce2edece-6375-4101-b288-c250fb21cfb7
 ms.date: 12/05/2018
 ms.keywords: ISelectCOMLBServer, ISelectCOMLBServer interface [COM+], ISelectCOMLBServer interface [COM+],described, _cos_ISelectCOMLBServer, comsvcs/ISelectCOMLBServer, cos.iselectcomlbserver
-ms.topic: interface
 f1_keywords:
 - comsvcs/ISelectCOMLBServer
 dev_langs:

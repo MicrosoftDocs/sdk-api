@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: ee8b25d5-d39b-42ac-9f6a-0825e396241c
 ms.date: 12/05/2018
 ms.keywords: IBDA_SignalStatistics, IBDA_SignalStatistics interface [Microsoft TV Technologies], IBDA_SignalStatistics interface [Microsoft TV Technologies],described, IBDA_SignalStatisticsInterface, bdaiface/IBDA_SignalStatistics, mstv.ibda_signalstatistics
-ms.topic: interface
 f1_keywords:
 - bdaiface/IBDA_SignalStatistics
 dev_langs:

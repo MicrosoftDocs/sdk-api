@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 51f4f617-fe53-4463-b222-cb6860d15dd6
 ms.date: 12/05/2018
 ms.keywords: GetEnhMetaFileDescription, GetEnhMetaFileDescription function [Windows GDI], GetEnhMetaFileDescriptionA, GetEnhMetaFileDescriptionW, _win32_GetEnhMetaFileDescription, gdi.getenhmetafiledescription, wingdi/GetEnhMetaFileDescription, wingdi/GetEnhMetaFileDescriptionA, wingdi/GetEnhMetaFileDescriptionW
-ms.topic: function
 f1_keywords:
 - wingdi/GetEnhMetaFileDescription
 dev_langs:

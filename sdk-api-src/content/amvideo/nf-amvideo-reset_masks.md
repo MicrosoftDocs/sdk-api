@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 039a43c1-c795-4374-ada8-2ea611c6409a
 ms.date: 12/05/2018
 ms.keywords: RESET_MASKS, RESET_MASKS macro [DirectShow], amvideo/RESET_MASKS, dshow.reset_masks
-ms.topic: macro
 f1_keywords:
 - amvideo/RESET_MASKS
 dev_langs:

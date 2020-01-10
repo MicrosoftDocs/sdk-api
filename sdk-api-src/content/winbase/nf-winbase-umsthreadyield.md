@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: d7c94ed5-9536-4c39-8658-27e4237cc9ba
 ms.date: 12/05/2018
 ms.keywords: UmsThreadYield, UmsThreadYield function, base.umsthreadyield, winbase/UmsThreadYield
-ms.topic: function
 f1_keywords:
 - winbase/UmsThreadYield
 dev_langs:

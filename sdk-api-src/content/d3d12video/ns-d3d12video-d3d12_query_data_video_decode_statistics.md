@@ -5,7 +5,6 @@ description: Represents data for a video decode statistics query invoked by call
 tech.root: mf
 ms.assetid: c5e06029-cab8-4e16-9bdb-c239818a2a63
 ms.date: 05/28/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_QUERY_DATA_VIDEO_DECODE_STATISTICS
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 7f88422d-c968-4eea-83cb-45e6cfe37921
 ms.date: 12/05/2018
 ms.keywords: 7f88422d-c968-4eea-83cb-45e6cfe37921, MFInitMediaTypeFromVideoInfoHeader, MFInitMediaTypeFromVideoInfoHeader function [Media Foundation], mf.mfinitmediatypefromvideoinfoheader, mfapi/MFInitMediaTypeFromVideoInfoHeader
-ms.topic: function
 f1_keywords:
 - mfapi/MFInitMediaTypeFromVideoInfoHeader
 dev_langs:

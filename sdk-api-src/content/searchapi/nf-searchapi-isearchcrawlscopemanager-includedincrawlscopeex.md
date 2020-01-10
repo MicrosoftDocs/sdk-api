@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\includedincrawlscopeex.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchCrawlScopeManager interface [search],IncludedInCrawlScopeEx method, ISearchCrawlScopeManager.IncludedInCrawlScopeEx, ISearchCrawlScopeManager::IncludedInCrawlScopeEx, IncludedInCrawlScopeEx, IncludedInCrawlScopeEx method [search], IncludedInCrawlScopeEx method [search],ISearchCrawlScopeManager interface, _search_ISearchCrawlScopeManager_IncludedInCrawlScopeEx, search._search_ISearchCrawlScopeManager_IncludedInCrawlScopeEx, searchapi/ISearchCrawlScopeManager::IncludedInCrawlScopeEx
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchCrawlScopeManager.IncludedInCrawlScopeEx
 dev_langs:

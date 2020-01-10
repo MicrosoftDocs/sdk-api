@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: 8690c67b-5f96-4e8c-8685-91fe5ed65511
 ms.date: 12/05/2018
 ms.keywords: Destroy, Destroy method [Picture Acquisition], Destroy method [Picture Acquisition],IPhotoProgressDialog interface, IPhotoProgressDialog interface [Picture Acquisition],Destroy method, IPhotoProgressDialog.Destroy, IPhotoProgressDialog::Destroy, IPhotoProgressDialogDestroy, photoacquire/IPhotoProgressDialog::Destroy, picacq.iphotoprogressdialog_destroy
-ms.topic: method
 f1_keywords:
 - photoacquire/IPhotoProgressDialog.Destroy
 dev_langs:

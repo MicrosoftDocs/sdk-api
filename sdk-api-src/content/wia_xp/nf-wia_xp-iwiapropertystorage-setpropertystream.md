@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\setpropertystream.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaPropertyStorage interface [WIA],SetPropertyStream method, IWiaPropertyStorage.SetPropertyStream, IWiaPropertyStorage::SetPropertyStream, SetPropertyStream, SetPropertyStream method [WIA], SetPropertyStream method [WIA],IWiaPropertyStorage interface, _wia_IWiaPropertyStorage_SetPropertyStream, wia._wia_IWiaPropertyStorage_SetPropertyStream, wia_xp/IWiaPropertyStorage::SetPropertyStream
-ms.topic: method
 f1_keywords:
 - wia_xp/IWiaPropertyStorage.SetPropertyStream
 dev_langs:

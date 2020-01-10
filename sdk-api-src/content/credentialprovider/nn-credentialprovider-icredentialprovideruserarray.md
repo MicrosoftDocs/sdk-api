@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 50FC43C1-B148-4e42-AB38-3559BD056855
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderUserArray, ICredentialProviderUserArray interface [Windows Shell], ICredentialProviderUserArray interface [Windows Shell],described, credentialprovider/ICredentialProviderUserArray, shell.ICredentialProviderUserArray
-ms.topic: interface
 f1_keywords:
 - credentialprovider/ICredentialProviderUserArray
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 724ff714-c170-4d06-92cb-e042e41c0af2
 ms.date: 12/05/2018
 ms.keywords: DVTARGETDEVICE, DVTARGETDEVICE structure [COM], _ole_DVTARGETDEVICE, com.dvtargetdevice, objidl/DVTARGETDEVICE
-ms.topic: struct
 f1_keywords:
 - objidl/DVTARGETDEVICE
 dev_langs:

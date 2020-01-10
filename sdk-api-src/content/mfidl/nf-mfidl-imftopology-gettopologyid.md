@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: f7d33d20-1b58-4b88-9a98-1004a5c42dfa
 ms.date: 12/05/2018
 ms.keywords: GetTopologyID, GetTopologyID method [Media Foundation], GetTopologyID method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetTopologyID method, IMFTopology.GetTopologyID, IMFTopology::GetTopologyID, f7d33d20-1b58-4b88-9a98-1004a5c42dfa, mf.imftopology_gettopologyid, mfidl/IMFTopology::GetTopologyID
-ms.topic: method
 f1_keywords:
 - mfidl/IMFTopology.GetTopologyID
 dev_langs:

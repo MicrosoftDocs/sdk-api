@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettext.htm
 ms.date: 12/05/2018
 ms.keywords: GetText, GetText method [Windows Controls], GetText method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetText method, ITextRange.GetText, ITextRange::GetText, _win32_ITextRange_GetText, _win32_ITextRange_GetText_cpp, controls.ITextRange_GetText, controls._win32_ITextRange_GetText, tom/ITextRange::GetText
-ms.topic: method
 f1_keywords:
 - tom/ITextRange.GetText
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 8cc0f881-fbf2-452c-a044-58939f4e01ea
 ms.date: 12/05/2018
 ms.keywords: GetClusterFromNode, GetClusterFromNode function [Failover Cluster], PCLUSAPI_GET_CLUSTER_FROM_NODE, PCLUSAPI_GET_CLUSTER_FROM_NODE function [Failover Cluster], _wolf_getclusterfromnode, clusapi/GetClusterFromNode, clusapi/PCLUSAPI_GET_CLUSTER_FROM_NODE, mscs.getclusterfromnode
-ms.topic: function
 f1_keywords:
 - clusapi/GetClusterFromNode
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 123e65e8-62bb-4bc7-9e15-113780be81e3
 ms.date: 12/05/2018
 ms.keywords: IX509SignatureInformation interface [Security],SetDefaultValues method, IX509SignatureInformation.SetDefaultValues, IX509SignatureInformation::SetDefaultValues, SetDefaultValues, SetDefaultValues method [Security], SetDefaultValues method [Security],IX509SignatureInformation interface, certenroll/IX509SignatureInformation::SetDefaultValues, security.ix509signatureinformation_setdefaultvalues_method
-ms.topic: method
 f1_keywords:
 - certenroll/IX509SignatureInformation.SetDefaultValues
 dev_langs:

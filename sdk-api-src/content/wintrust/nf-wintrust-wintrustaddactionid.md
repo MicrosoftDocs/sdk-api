@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 3b282342-9c86-42fa-b745-e5194d2885dc
 ms.date: 12/05/2018
 ms.keywords: HTTPSPROV_ACTION, WINTRUST_ACTION_GENERIC_VERIFY, WINTRUST_ACTION_GENERIC_VERIFY_V2, WintrustAddActionID, WintrustAddActionID function [Security], security.wintrustaddactionid, wintrust/WintrustAddActionID
-ms.topic: function
 f1_keywords:
 - wintrust/WintrustAddActionID
 dev_langs:

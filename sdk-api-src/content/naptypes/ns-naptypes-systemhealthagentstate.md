@@ -7,7 +7,6 @@ tech.root: NAP
 ms.assetid: c5a5bc72-363d-4c2d-8b91-fda64fac281e
 ms.date: 12/05/2018
 ms.keywords: SystemHealthAgentState, SystemHealthAgentState structure [NAP], nap.systemhealthagentstate_struct, naptypes/SystemHealthAgentState
-ms.topic: struct
 f1_keywords:
 - naptypes/SystemHealthAgentState
 dev_langs:

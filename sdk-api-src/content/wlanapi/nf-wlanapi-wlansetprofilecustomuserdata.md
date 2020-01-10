@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 3b37ff29-4c9b-42c8-b00a-a9dfca1d3fed
 ms.date: 12/05/2018
 ms.keywords: WlanSetProfileCustomUserData, WlanSetProfileCustomUserData function [NativeWIFI], nwifi.wlansetuserdata, wlanapi/WlanSetProfileCustomUserData
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanSetProfileCustomUserData
 dev_langs:

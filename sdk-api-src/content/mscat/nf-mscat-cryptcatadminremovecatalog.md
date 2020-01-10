@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: e09fe991-0e7a-45da-910a-8cb148bdff9a
 ms.date: 12/05/2018
 ms.keywords: CryptCATAdminRemoveCatalog, CryptCATAdminRemoveCatalog function [Security], mscat/CryptCATAdminRemoveCatalog, security.cryptcatadminremovecatalog
-ms.topic: function
 f1_keywords:
 - mscat/CryptCATAdminRemoveCatalog
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: a14ba43e-d16d-4c52-a8ac-0d4c71229b7b
 ms.date: 12/05/2018
 ms.keywords: GetPrivateProfileStruct, GetPrivateProfileStruct function, GetPrivateProfileStructA, GetPrivateProfileStructW, _win32_getprivateprofilestruct, base.getprivateprofilestruct, winbase/GetPrivateProfileStruct, winbase/GetPrivateProfileStructA, winbase/GetPrivateProfileStructW
-ms.topic: function
 f1_keywords:
 - winbase/GetPrivateProfileStruct
 dev_langs:

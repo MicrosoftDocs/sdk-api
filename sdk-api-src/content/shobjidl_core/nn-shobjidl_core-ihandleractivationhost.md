@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4c60a3f8-48ec-4686-9e27-692f88cd1c55
 ms.date: 12/05/2018
 ms.keywords: IHandlerActivationHost, IHandlerActivationHost interface [Windows Shell], IHandlerActivationHost interface [Windows Shell],described, shell.IHandlerActivationHost, shobjidl_core/IHandlerActivationHost
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IHandlerActivationHost
 dev_langs:

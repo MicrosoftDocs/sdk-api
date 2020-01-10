@@ -6,7 +6,6 @@ tech.root: WinRT
 ms.assetid: 0eaed3be-e3d8-b431-68cc-e4e1baf5c6fe
 ms.date: 05/13/2019
 ms.keywords: interop::CreateDirect3DDevice
-ms.topic: function
 f1_keywords:
 - windows.graphics.directx.direct3d11.interop/interop::CreateDirect3DDevice
 dev_langs:

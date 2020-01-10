@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 70bcfd71-34dd-465d-890b-1dd829632fb0
 ms.date: 12/05/2018
 ms.keywords: DeleteIpForwardEntry, DeleteIpForwardEntry function [IP Helper], _iphlp_deleteipforwardentry, iphlp.deleteipforwardentry, iphlpapi/DeleteIpForwardEntry
-ms.topic: function
 f1_keywords:
 - iphlpapi/DeleteIpForwardEntry
 dev_langs:

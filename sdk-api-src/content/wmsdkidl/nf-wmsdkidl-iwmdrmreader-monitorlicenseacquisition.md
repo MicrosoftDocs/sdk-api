@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 0b15dce6-7591-479a-b28e-5006418a1c7b
 ms.date: 12/05/2018
 ms.keywords: IWMDRMReader interface [windows Media Format],MonitorLicenseAcquisition method, IWMDRMReader.MonitorLicenseAcquisition, IWMDRMReader::MonitorLicenseAcquisition, IWMDRMReaderMonitorLicenseAcquisition, MonitorLicenseAcquisition, MonitorLicenseAcquisition method [windows Media Format], MonitorLicenseAcquisition method [windows Media Format],IWMDRMReader interface, wmformat.iwmdrmreader_monitorlicenseacquisition, wmsdkidl/IWMDRMReader::MonitorLicenseAcquisition
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMDRMReader.MonitorLicenseAcquisition
 dev_langs:

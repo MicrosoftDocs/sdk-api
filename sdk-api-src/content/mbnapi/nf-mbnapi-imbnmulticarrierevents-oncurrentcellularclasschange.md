@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 76B5349E-EA51-422D-81BC-A93B85FBCF90
 ms.date: 12/05/2018
 ms.keywords: IMbnMultiCarrierEvents interface [Microsoft Broadband Networks],OnCurrentCellularClassChange method, IMbnMultiCarrierEvents.OnCurrentCellularClassChange, IMbnMultiCarrierEvents::OnCurrentCellularClassChange, OnCurrentCellularClassChange, OnCurrentCellularClassChange method [Microsoft Broadband Networks], OnCurrentCellularClassChange method [Microsoft Broadband Networks],IMbnMultiCarrierEvents interface, mbn.imbnmulticarrierevents_oncurrentcellularclasschange, mbnapi/IMbnMultiCarrierEvents::OnCurrentCellularClassChange
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnMultiCarrierEvents.OnCurrentCellularClassChange
 dev_langs:

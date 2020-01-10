@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\structures\tchittestinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPTCHITTESTINFO, LPTCHITTESTINFO, LPTCHITTESTINFO structure pointer [Windows Controls], TCHITTESTINFO, TCHITTESTINFO structure [Windows Controls], TCHT_NOWHERE, TCHT_ONITEM, TCHT_ONITEMICON, TCHT_ONITEMLABEL, _win32_TCHITTESTINFO, _win32_TCHITTESTINFO_cpp, commctrl/LPTCHITTESTINFO, commctrl/TCHITTESTINFO, controls.TCHITTESTINFO, controls._win32_TCHITTESTINFO'
-ms.topic: struct
 f1_keywords:
 - commctrl/TCHITTESTINFO
 dev_langs:

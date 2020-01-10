@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 37e8badb-139a-45bf-84bc-bb071d128847
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [windows Media Format], Disconnect method [windows Media Format],IWMWriterPushSink interface, IWMWriterPushSink interface [windows Media Format],Disconnect method, IWMWriterPushSink.Disconnect, IWMWriterPushSink::Disconnect, IWMWriterPushSinkDisconnect, wmformat.iwmwriterpushsink_disconnect, wmsdkidl/IWMWriterPushSink::Disconnect
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMWriterPushSink.Disconnect
 dev_langs:

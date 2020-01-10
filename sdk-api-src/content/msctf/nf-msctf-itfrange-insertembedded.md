@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 95b8622d-c934-4293-abb4-9eface451be5
 ms.date: 12/05/2018
 ms.keywords: ITfRange interface [Text Services Framework],InsertEmbedded method, ITfRange.InsertEmbedded, ITfRange::InsertEmbedded, InsertEmbedded, InsertEmbedded method [Text Services Framework], InsertEmbedded method [Text Services Framework],ITfRange interface, _tsf_itfrange_insertembedded_ref, msctf/ITfRange::InsertEmbedded, tsf.itfrange_insertembedded
-ms.topic: method
 f1_keywords:
 - msctf/ITfRange.InsertEmbedded
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 47377c77-f534-4bb0-be57-49bdb109c309
 ms.date: 12/05/2018
 ms.keywords: IWMWriterFileSink2 interface [windows Media Format],Stop method, IWMWriterFileSink2.Stop, IWMWriterFileSink2::Stop, IWMWriterFileSink2Stop, Stop, Stop method [windows Media Format], Stop method [windows Media Format],IWMWriterFileSink2 interface, wmformat.iwmwriterfilesink2_stop, wmsdkidl/IWMWriterFileSink2::Stop
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMWriterFileSink2.Stop
 dev_langs:

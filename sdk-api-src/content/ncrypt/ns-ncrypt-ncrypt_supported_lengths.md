@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 11bb3669-d536-4c8f-a30b-1826ccdbe275
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SUPPORTED_LENGTHS, NCRYPT_SUPPORTED_LENGTHS structure [Security], ncrypt/NCRYPT_SUPPORTED_LENGTHS, security.ncrypt_supported_lengths
-ms.topic: struct
 f1_keywords:
 - ncrypt/NCRYPT_SUPPORTED_LENGTHS
 dev_langs:

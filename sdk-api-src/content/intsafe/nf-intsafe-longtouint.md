@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 8a40e74e-9173-46a9-93ad-62eafb23c4d7
 ms.date: 12/05/2018
 ms.keywords: LongToUInt, LongToUInt function [Windows Shell], _shell_LongToUInt, intsafe/LongToUInt, shell.LongToUInt
-ms.topic: function
 f1_keywords:
 - intsafe/LongToUInt
 dev_langs:

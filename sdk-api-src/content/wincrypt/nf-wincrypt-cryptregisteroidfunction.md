@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: b625597d-28fd-4a40-afbe-a09201d36512
 ms.date: 12/05/2018
 ms.keywords: CryptRegisterOIDFunction, CryptRegisterOIDFunction function [Security], _crypto2_cryptregisteroidfunction, security.cryptregisteroidfunction, wincrypt/CryptRegisterOIDFunction
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptRegisterOIDFunction
 dev_langs:

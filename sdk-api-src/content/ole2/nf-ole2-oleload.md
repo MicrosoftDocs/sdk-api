@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: f2d8bb2e-5bd1-4991-a80c-ed06bfd5c9f9
 ms.date: 12/05/2018
 ms.keywords: OleLoad, OleLoad function [COM], _ole_OleLoad, com.oleload, ole2/OleLoad
-ms.topic: function
 f1_keywords:
 - ole2/OleLoad
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DNS
 ms.assetid: 976982a1-08f1-4c67-b823-1eea34f0c643
 ms.date: 12/05/2018
 ms.keywords: DNS_FREE_TYPE, DNS_FREE_TYPE enumeration [DNS], DnsFreeFlat, DnsFreeParsedMessageFields, DnsFreeRecordList, dns.dns_free_type, windns/DNS_FREE_TYPE, windns/DnsFreeFlat, windns/DnsFreeParsedMessageFields, windns/DnsFreeRecordList
-ms.topic: enum
 f1_keywords:
 - windns/DNS_FREE_TYPE
 dev_langs:

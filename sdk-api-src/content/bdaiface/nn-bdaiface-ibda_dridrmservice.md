@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 9b04c960-a766-4322-bf18-e59176ee2ad1
 ms.date: 12/05/2018
 ms.keywords: IBDA_DRIDRMService, IBDA_DRIDRMService interface [DirectShow], IBDA_DRIDRMService interface [DirectShow],described, bdaiface/IBDA_DRIDRMService, mstv.ibda_dridrmservice
-ms.topic: interface
 f1_keywords:
 - bdaiface/IBDA_DRIDRMService
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: a678d249-4943-4d2b-9cea-87ce20177c75
 ms.date: 12/05/2018
 ms.keywords: '*PWTS_PROCESS_INFO_EXA, PWTS_PROCESS_INFO_EX, PWTS_PROCESS_INFO_EX structure pointer [Remote Desktop Services], WTS_PROCESS_INFO_EX, WTS_PROCESS_INFO_EX structure [Remote Desktop Services], WTS_PROCESS_INFO_EXA, WTS_PROCESS_INFO_EXW, termserv.wts_process_info_ex, wtsapi32/PWTS_PROCESS_INFO_EX, wtsapi32/WTS_PROCESS_INFO_EX, wtsapi32/WTS_PROCESS_INFO_EXA, wtsapi32/WTS_PROCESS_INFO_EXW'
-ms.topic: struct
 f1_keywords:
 - wtsapi32/WTS_PROCESS_INFO_EX
 dev_langs:

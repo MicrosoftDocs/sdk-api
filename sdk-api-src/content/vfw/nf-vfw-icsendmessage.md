@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 0f9c37a9-4bf7-4c49-8a6a-81fbfa76d096
 ms.date: 12/05/2018
 ms.keywords: ICSendMessage, ICSendMessage function [Windows Multimedia], _win32_ICSendMessage, multimedia.icsendmessage, vfw/ICSendMessage
-ms.topic: function
 f1_keywords:
 - vfw/ICSendMessage
 dev_langs:

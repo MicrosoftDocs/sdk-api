@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 45bc7abb-1d39-4988-a9f0-867eaefe148f
 ms.date: 12/05/2018
 ms.keywords: IWMRegisteredDevice interface [windows Media Format],IsWmdrmCompliant method, IWMRegisteredDevice.IsWmdrmCompliant, IWMRegisteredDevice::IsWmdrmCompliant, IWMRegisteredDeviceIsWmdrmCompliant, IsWmdrmCompliant, IsWmdrmCompliant method [windows Media Format], IsWmdrmCompliant method [windows Media Format],IWMRegisteredDevice interface, wmformat.iwmregistereddevice_iswmdrmcompliant, wmsdkidl/IWMRegisteredDevice::IsWmdrmCompliant
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMRegisteredDevice.IsWmdrmCompliant
 dev_langs:

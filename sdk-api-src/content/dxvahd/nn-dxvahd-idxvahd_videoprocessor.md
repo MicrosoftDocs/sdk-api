@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: cbfacff5-1cbb-4296-8242-c06b43fc95af
 ms.date: 12/05/2018
 ms.keywords: IDXVAHD_VideoProcessor, IDXVAHD_VideoProcessor interface [Media Foundation], IDXVAHD_VideoProcessor interface [Media Foundation],described, dxvahd/IDXVAHD_VideoProcessor, mf.idxvahd_videoprocessor
-ms.topic: interface
 f1_keywords:
 - dxvahd/IDXVAHD_VideoProcessor
 dev_langs:

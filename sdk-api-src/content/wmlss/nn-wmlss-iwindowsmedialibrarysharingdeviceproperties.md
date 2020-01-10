@@ -7,7 +7,6 @@ tech.root: WMLSS
 ms.assetid: b975428c-e518-4bc8-a621-193d510661b0
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingDeviceProperties, IWindowsMediaLibrarySharingDeviceProperties interface [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingDeviceProperties interface [Windows Media Library Sharing Services],described, wmlss.IWindowsMediaLibrarySharingDevicePropertiesInterface, wmlss/IWindowsMediaLibrarySharingDeviceProperties
-ms.topic: interface
 f1_keywords:
 - wmlss/IWindowsMediaLibrarySharingDeviceProperties
 dev_langs:

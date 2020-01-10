@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: cac356a9-092c-4db2-b0a4-aaacfc514e29
 ms.date: 12/05/2018
 ms.keywords: RasClearLinkStatistics, RasClearLinkStatistics function [RAS], _ras_rasclearlinkstatistics, ras/RasClearLinkStatistics, rras.rasclearlinkstatistics
-ms.topic: function
 f1_keywords:
 - ras/RasClearLinkStatistics
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: b20bceb4-71aa-4ef6-865a-0afb4850e316
 ms.date: 12/05/2018
 ms.keywords: DoesSupportMultiframe, DoesSupportMultiframe method [Windows Imaging Component], DoesSupportMultiframe method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],DoesSupportMultiframe method, IWICBitmapCodecInfo.DoesSupportMultiframe, IWICBitmapCodecInfo::DoesSupportMultiframe, _wic_codec_iwicbitmapcodecinfo_doessupportmultiframe, wic._wic_codec_iwicbitmapcodecinfo_doessupportmultiframe, wincodec/IWICBitmapCodecInfo::DoesSupportMultiframe
-ms.topic: method
 f1_keywords:
 - wincodec/IWICBitmapCodecInfo.DoesSupportMultiframe
 dev_langs:

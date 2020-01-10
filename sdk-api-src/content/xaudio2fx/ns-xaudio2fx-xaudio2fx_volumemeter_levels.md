@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2FX_VOLUMEMETER_LEVELS
 ms.date: 12/05/2018
 ms.keywords: XAUDIO2FX_VOLUMEMETER_LEVELS, XAUDIO2FX_VOLUMEMETER_LEVELS structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2fx_volumemeter_levels, xaudio2fx/XAUDIO2FX_VOLUMEMETER_LEVELS
-ms.topic: struct
 f1_keywords:
 - xaudio2fx/XAUDIO2FX_VOLUMEMETER_LEVELS
 dev_langs:

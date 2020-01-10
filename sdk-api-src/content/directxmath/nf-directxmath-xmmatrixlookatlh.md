@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixLookAtLH(XMVECTOR,XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixLookAtLH, XMMatrixLookAtLH, XMMatrixLookAtLH method [DirectX Math Support APIs], dxmath.xmmatrixlookatlh
-ms.topic: function
 f1_keywords:
 - directxmath/XMMatrixLookAtLH
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: xblidp
 ms.assetid: 6F3B7959-BFAF-496B-A8AB-FD29606199AF
 ms.date: 12/05/2018
 ms.keywords: GetRestrictions, GetRestrictions method, GetRestrictions method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetRestrictions method, IXblIdpAuthTokenResult.GetRestrictions, IXblIdpAuthTokenResult::GetRestrictions, xblidp.ixblidpauthtokenresult_getrestrictions, xblidpauthmanager/IXblIdpAuthTokenResult::GetRestrictions
-ms.topic: method
 f1_keywords:
 - xblidpauthmanager/IXblIdpAuthTokenResult.GetRestrictions
 dev_langs:

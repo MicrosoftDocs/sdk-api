@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: ab545d74-7a61-48db-8c84-11017ee65605
 ms.date: 12/05/2018
 ms.keywords: WsReadArray, WsReadArray function [Web Services for Windows], webservices/WsReadArray, wsw.wsreadarray
-ms.topic: function
 f1_keywords:
 - webservices/WsReadArray
 dev_langs:

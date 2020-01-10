@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 54fc0ec1-eb35-4403-b22a-4c50c4912604
 ms.date: 12/05/2018
 ms.keywords: E_FAIL, E_MBN_BAD_SIM, E_MBN_FAILURE, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnPinEvents interface [Microsoft Broadband Networks],OnDisableComplete method, IMbnPinEvents.OnDisableComplete, IMbnPinEvents::OnDisableComplete, OnDisableComplete, OnDisableComplete method [Microsoft Broadband Networks], OnDisableComplete method [Microsoft Broadband Networks],IMbnPinEvents interface, S_OK, mbn.imbnpinevents_ondisablecomplete, mbnapi/IMbnPinEvents::OnDisableComplete
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnPinEvents.OnDisableComplete
 dev_langs:

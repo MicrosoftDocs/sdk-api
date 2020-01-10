@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: b4ebf02e-554a-4e7e-93d3-6f37d8b689bf
 ms.date: 12/05/2018
 ms.keywords: GetInputTrustAuthority, GetInputTrustAuthority method [Media Foundation], GetInputTrustAuthority method [Media Foundation],IMFTrustedInput interface, IMFTrustedInput interface [Media Foundation],GetInputTrustAuthority method, IMFTrustedInput.GetInputTrustAuthority, IMFTrustedInput::GetInputTrustAuthority, b4ebf02e-554a-4e7e-93d3-6f37d8b689bf, mf.imftrustedinput_getinputtrustauthority, mfidl/IMFTrustedInput::GetInputTrustAuthority
-ms.topic: method
 f1_keywords:
 - mfidl/IMFTrustedInput.GetInputTrustAuthority
 dev_langs:

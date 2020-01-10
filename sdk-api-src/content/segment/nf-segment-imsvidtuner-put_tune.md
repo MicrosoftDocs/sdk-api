@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 31139b6f-aad9-495b-9e8c-39026c8e81a9
 ms.date: 12/05/2018
 ms.keywords: IMSVidTuner interface [Microsoft TV Technologies],put_Tune method, IMSVidTuner.put_Tune, IMSVidTuner::put_Tune, IMSVidTunerput_Tune, mstv.imsvidtuner_put_tune, put_Tune, put_Tune method [Microsoft TV Technologies], put_Tune method [Microsoft TV Technologies],IMSVidTuner interface, segment/IMSVidTuner::put_Tune
-ms.topic: method
 f1_keywords:
 - segment/IMSVidTuner.put_Tune
 dev_langs:

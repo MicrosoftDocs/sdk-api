@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 72b9451c-8a94-4e64-bd78-0afef210671c
 ms.date: 12/05/2018
 ms.keywords: DeleteLogonSession, DeleteLogonSession callback function [Security], LSA_DELETE_LOGON_SESSION, LSA_DELETE_LOGON_SESSION callback, _lsa_deletelogonsession, ntsecpkg/DeleteLogonSession, security.deletelogonsession
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/DeleteLogonSession
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 99f954cf-620a-48e4-b2ff-dc4fb9657fc4
 ms.date: 12/05/2018
 ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetCenterX method, IDCompositionSkewTransform.SetCenterX, IDCompositionSkewTransform.SetCenterX(IDCompositionAnimation), IDCompositionSkewTransform::SetCenterX, IDCompositionSkewTransform::SetCenterX(IDCompositionAnimation), IDCompositionSkewTransform::SetCenterX(IDCompositionAnimation*), SetCenterX, SetCenterX method [DirectComposition], SetCenterX method [DirectComposition],IDCompositionSkewTransform interface, dcomp/IDCompositionSkewTransform::SetCenterX, directcomp.idcompositionskewtransform_setcenterx_idcompositionanimation
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionSkewTransform.SetCenterX
 dev_langs:

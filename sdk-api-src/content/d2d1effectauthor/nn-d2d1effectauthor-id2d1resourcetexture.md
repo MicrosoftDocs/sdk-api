@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 516FFBB4-1908-4574-BD4A-884C142204CD
 ms.date: 12/05/2018
 ms.keywords: ID2D1ResourceTexture, ID2D1ResourceTexture interface [Direct2D], ID2D1ResourceTexture interface [Direct2D],described, d2d1effectauthor/ID2D1ResourceTexture, direct2d.id2d1resourcetexture
-ms.topic: interface
 f1_keywords:
 - d2d1effectauthor/ID2D1ResourceTexture
 dev_langs:

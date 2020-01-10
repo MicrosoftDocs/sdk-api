@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 7854fb44-c397-4fd0-8a0e-ea293eba4f01
 ms.date: 12/05/2018
 ms.keywords: WsGetMissingMetadataDocumentAddress, WsGetMissingMetadataDocumentAddress function [Web Services for Windows], webservices/WsGetMissingMetadataDocumentAddress, wsw.wsgetmissingmetadatadocumentaddress
-ms.topic: function
 f1_keywords:
 - webservices/WsGetMissingMetadataDocumentAddress
 dev_langs:

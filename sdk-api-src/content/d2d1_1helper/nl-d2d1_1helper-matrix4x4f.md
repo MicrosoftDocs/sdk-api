@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 113861DF-2E6D-4930-82DC-AA592882E21C
 ms.date: 12/05/2018
 ms.keywords: Matrix4x4F, Matrix4x4F class [Direct2D], Matrix4x4F class [Direct2D],described, d2d1_1helper/Matrix4x4F, direct2d.matrix4x4f
-ms.topic: class
 f1_keywords:
 - d2d1_1helper/Matrix4x4F
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: a5f1badd-3e68-4e0f-9a42-1b1876c9cb56
 ms.date: 12/05/2018
 ms.keywords: CertEnumSystemStoreLocationCallback, CertEnumSystemStoreLocationCallback callback function [Security], PFN_CERT_ENUM_SYSTEM_STORE_LOCATION, PFN_CERT_ENUM_SYSTEM_STORE_LOCATION callback, security.certenumsystemstorelocationcallback, wincrypt/CertEnumSystemStoreLocationCallback
-ms.topic: callback
 f1_keywords:
 - wincrypt/CertEnumSystemStoreLocationCallback
 dev_langs:

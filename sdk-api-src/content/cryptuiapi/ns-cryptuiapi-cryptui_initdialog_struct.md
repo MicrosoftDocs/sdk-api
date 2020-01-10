@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: c6335c02-3b3e-45e2-bb58-b7213aea500b
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPTUI_INITDIALOG_STRUCT, CRYPTUI_INITDIALOG_STRUCT, CRYPTUI_INITDIALOG_STRUCT structure [Security], PCRYPTUI_INITDIALOG_STRUCT, PCRYPTUI_INITDIALOG_STRUCT structure pointer [Security], cryptuiapi/CRYPTUI_INITDIALOG_STRUCT, cryptuiapi/PCRYPTUI_INITDIALOG_STRUCT, security.cryptui_initdialog_struct'
-ms.topic: struct
 f1_keywords:
 - cryptuiapi/CRYPTUI_INITDIALOG_STRUCT
 dev_langs:

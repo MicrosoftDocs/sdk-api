@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9kfi.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxServer interface [Fax Service],RegisterInboundRoutingExtension method, IFaxServer.RegisterInboundRoutingExtension, IFaxServer::RegisterInboundRoutingExtension, RegisterInboundRoutingExtension, RegisterInboundRoutingExtension method [Fax Service], RegisterInboundRoutingExtension method [Fax Service],IFaxServer interface, _mfax_faxserver.registerinboundroutingextension, fax._mfax_faxserver_cpp_mfax_faxserver_registerinboundroutingextension_cpp, fax._mfax_faxserver_registerinboundroutingextension, faxcomex/IFaxServer::RegisterInboundRoutingExtension
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxServer.RegisterInboundRoutingExtension
 dev_langs:

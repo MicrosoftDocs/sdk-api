@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathdataclass\pathdata_38.htm
 ms.date: 12/05/2018
 ms.keywords: PathData, PathData class [GDI+],PathData constructor, PathData constructor [GDI+], PathData constructor [GDI+],PathData class, PathData.PathData, PathData.PathData(), PathData::PathData, _gdiplus_CLASS_PathData_PathData_, gdiplus._gdiplus_CLASS_PathData_PathData_
-ms.topic: method
 f1_keywords:
 - gdiplustypes/PathData.PathData
 dev_langs:

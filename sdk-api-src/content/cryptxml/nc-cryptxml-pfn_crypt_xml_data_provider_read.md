@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 86c7003e-eee2-4adf-adf4-8f9d1acb5c45
 ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_XML_DATA_PROVIDER_READ, PFN_CRYPT_XML_DATA_PROVIDER_READ callback, PFN_CRYPT_XML_DATA_PROVIDER_READ callback function [Security], cryptxml/PFN_CRYPT_XML_DATA_PROVIDER_READ, security.pfn_crypt_xml_data_provider_read
-ms.topic: callback
 f1_keywords:
 - cryptxml/PFN_CRYPT_XML_DATA_PROVIDER_READ
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 4a20e0b8-8fe5-4d5b-b263-3ad8416ad4da
 ms.date: 12/05/2018
 ms.keywords: ActivateView, ActivateView method [Windows Shell], ActivateView method [Windows Shell],IBrowserService4 interface, IBrowserService4 interface [Windows Shell],ActivateView method, IBrowserService4.ActivateView, IBrowserService4::ActivateView, _shell_IBrowserService4_ActivateView, shdeprecated/IBrowserService4::ActivateView, shell.IBrowserService4_ActivateView
-ms.topic: method
 f1_keywords:
 - shdeprecated/IBrowserService4.ActivateView
 dev_langs:

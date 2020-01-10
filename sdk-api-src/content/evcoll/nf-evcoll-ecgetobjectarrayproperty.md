@@ -7,7 +7,6 @@ tech.root: WEC
 ms.assetid: a145c982-a1df-442f-8923-58f1db67ac25
 ms.date: 12/05/2018
 ms.keywords: EcGetObjectArrayProperty, EcGetObjectArrayProperty function, evcoll/EcGetObjectArrayProperty, wec.ecgetobjectarrayproperty, wes.ecgetobjectarrayproperty
-ms.topic: function
 f1_keywords:
 - evcoll/EcGetObjectArrayProperty
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: B16BEFFD-26CF-4598-96A4-098C3E3AA51C
 ms.date: 12/05/2018
 ms.keywords: MFCreateProtectedEnvironmentAccess, MFCreateProtectedEnvironmentAccess function [Media Foundation], mf.mfcreateprotectedenvironmentaccess, mfidl/MFCreateProtectedEnvironmentAccess
-ms.topic: function
 f1_keywords:
 - mfidl/MFCreateProtectedEnvironmentAccess
 dev_langs:

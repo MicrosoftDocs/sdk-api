@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 9b2a2706-5641-46ba-a280-5a689ad50316
 ms.date: 12/05/2018
 ms.keywords: InitializeClusterHealthFaultArray, InitializeClusterHealthFaultArray function [Failover Cluster], mscs.initializeclusterhealthfaultarray, resapi/InitializeClusterHealthFaultArray
-ms.topic: function
 f1_keywords:
 - resapi/InitializeClusterHealthFaultArray
 dev_langs:

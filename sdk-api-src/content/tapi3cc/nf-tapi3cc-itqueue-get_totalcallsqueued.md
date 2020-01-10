@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 45a1a47a-4cbe-47dd-ad48-218e74fe74b4
 ms.date: 12/05/2018
 ms.keywords: ITQueue interface [TAPI 2.2],get_TotalCallsQueued method, ITQueue.get_TotalCallsQueued, ITQueue::get_TotalCallsQueued, _tapi3_itqueue_get_totalcallsqueued, get_TotalCallsQueued, get_TotalCallsQueued method [TAPI 2.2], get_TotalCallsQueued method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_totalcallsqueued, tapi3cc/ITQueue::get_TotalCallsQueued
-ms.topic: method
 f1_keywords:
 - tapi3cc/ITQueue.get_TotalCallsQueued
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: fc1eb29d-27d9-4331-b588-dc0632b3db6a
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWATTRIBUTE, IEnumCERTVIEWATTRIBUTE interface [Security], IEnumCERTVIEWATTRIBUTE interface [Security],described, _certsrv_ienumcertviewattribute, certview/IEnumCERTVIEWATTRIBUTE, security.ienumcertviewattribute
-ms.topic: interface
 f1_keywords:
 - certview/IEnumCERTVIEWATTRIBUTE
 dev_langs:

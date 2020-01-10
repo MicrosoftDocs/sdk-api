@@ -7,7 +7,6 @@ tech.root: NAP
 ms.assetid: 6db0303d-ab33-4fb9-90a2-b909b2781ba5
 ms.date: 12/05/2018
 ms.keywords: SoH, SoH structure [NAP], SoHRequest, SoHRequest structure [NAP], SoHResponse, SoHResponse structure [NAP], nap.soh_struct, naptypes/SoH, naptypes/SoHRequest, naptypes/SoHResponse
-ms.topic: struct
 f1_keywords:
 - naptypes/SoH
 dev_langs:

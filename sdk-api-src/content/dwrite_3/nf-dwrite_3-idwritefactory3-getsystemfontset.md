@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 84fd8c9f-f4b1-3015-f431-08b7a07ff32b
 ms.date: 12/05/2018
 ms.keywords: GetSystemFontSet, GetSystemFontSet method [Direct Write], GetSystemFontSet method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],GetSystemFontSet method, IDWriteFactory3.GetSystemFontSet, IDWriteFactory3::GetSystemFontSet, directwrite.idwritefactory3_getsystemfontset, dwrite_3/IDWriteFactory3::GetSystemFontSet
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteFactory3.GetSystemFontSet
 dev_langs:

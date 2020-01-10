@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 0FCDCDC2-541A-4EB5-A7FF-492AB5C25F7B
 ms.date: 12/05/2018
 ms.keywords: IDCompositionDesktopDevice, IDCompositionDesktopDevice interface [DirectComposition], IDCompositionDesktopDevice interface [DirectComposition],described, dcomp/IDCompositionDesktopDevice, directcomp.idcompositiondesktopdevice
-ms.topic: interface
 f1_keywords:
 - dcomp/IDCompositionDesktopDevice
 dev_langs:

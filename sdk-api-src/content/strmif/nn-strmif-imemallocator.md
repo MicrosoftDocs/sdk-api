@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 77a161c4-706c-4270-a343-9e16c03cd590
 ms.date: 12/05/2018
 ms.keywords: IMemAllocator, IMemAllocator interface [DirectShow], IMemAllocator interface [DirectShow],described, IMemAllocatorInterface, dshow.imemallocator, strmif/IMemAllocator
-ms.topic: interface
 f1_keywords:
 - strmif/IMemAllocator
 dev_langs:

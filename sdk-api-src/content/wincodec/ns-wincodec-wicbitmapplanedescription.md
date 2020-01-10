@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: A5685E9B-F2B9-4A1B-9CEA-044E5FA1CC6D
 ms.date: 12/05/2018
 ms.keywords: PWICBitmapPlaneDescription, PWICBitmapPlaneDescription structure pointer [Windows Imaging Component], WICBitmapPlaneDescription, WICBitmapPlaneDescription structure [Windows Imaging Component], wic.wicbitmapplanedescription, wincodec/PWICBitmapPlaneDescription, wincodec/WICBitmapPlaneDescription
-ms.topic: struct
 f1_keywords:
 - wincodec/WICBitmapPlaneDescription
 dev_langs:

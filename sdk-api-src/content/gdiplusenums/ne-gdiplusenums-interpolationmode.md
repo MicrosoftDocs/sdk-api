@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\interpolationmode.htm
 ms.date: 12/05/2018
 ms.keywords: InterpolationMode, InterpolationMode enumeration [GDI+], InterpolationModeBicubic, InterpolationModeBilinear, InterpolationModeDefault, InterpolationModeHighQuality, InterpolationModeHighQualityBicubic, InterpolationModeHighQualityBilinear, InterpolationModeInvalid, InterpolationModeLowQuality, InterpolationModeNearestNeighbor, _gdiplus_ENUM_InterpolationMode, gdiplus._gdiplus_ENUM_InterpolationMode, gdiplusenums/InterpolationMode, gdiplusenums/InterpolationModeBicubic, gdiplusenums/InterpolationModeBilinear, gdiplusenums/InterpolationModeDefault, gdiplusenums/InterpolationModeHighQuality, gdiplusenums/InterpolationModeHighQualityBicubic, gdiplusenums/InterpolationModeHighQualityBilinear, gdiplusenums/InterpolationModeInvalid, gdiplusenums/InterpolationModeLowQuality, gdiplusenums/InterpolationModeNearestNeighbor
-ms.topic: enum
 f1_keywords:
 - gdiplusenums/InterpolationMode
 dev_langs:

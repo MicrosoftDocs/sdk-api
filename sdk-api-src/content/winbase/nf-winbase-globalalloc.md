@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 06886545-bd5c-4d81-b1c3-dfa7e146e43a
 ms.date: 12/05/2018
 ms.keywords: GHND, GMEM_FIXED, GMEM_MOVEABLE, GMEM_ZEROINIT, GPTR, GlobalAlloc, GlobalAlloc function, _win32_globalalloc, base.globalalloc, winbase/GlobalAlloc
-ms.topic: function
 f1_keywords:
 - winbase/GlobalAlloc
 dev_langs:

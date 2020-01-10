@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: a82edbbe-a069-4ba8-ba15-524830cdf330
 ms.date: 12/05/2018
 ms.keywords: WICRawCapabilities, WICRawCapabilities enumeration [Windows Imaging Component], WICRawCapabilityFullySupported, WICRawCapabilityGetSupported, WICRawCapabilityNotSupported, _wic_codec_wicrawcapabilities, wic._wic_codec_wicrawcapabilities, wincodec/WICRawCapabilities, wincodec/WICRawCapabilityFullySupported, wincodec/WICRawCapabilityGetSupported, wincodec/WICRawCapabilityNotSupported
-ms.topic: enum
 f1_keywords:
 - wincodec/WICRawCapabilities
 dev_langs:

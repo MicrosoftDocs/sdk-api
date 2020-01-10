@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: a233c67b-4747-4417-bec8-86b27147863c
 ms.date: 12/05/2018
 ms.keywords: CloseSearchHandle, CloseSearchHandle method [ADSI], CloseSearchHandle method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],CloseSearchHandle method, IDirectorySearch.CloseSearchHandle, IDirectorySearch::CloseSearchHandle, _ds_idirectorysearch_closesearchhandle, adsi.idirectorysearch__closesearchhandle, adsi.idirectorysearch_closesearchhandle, iads/IDirectorySearch::CloseSearchHandle
-ms.topic: method
 f1_keywords:
 - iads/IDirectorySearch.CloseSearchHandle
 dev_langs:

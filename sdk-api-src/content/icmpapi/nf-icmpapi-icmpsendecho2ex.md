@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 7b2b2cae-650f-4ecb-aa2e-a55ee4026999
 ms.date: 12/05/2018
 ms.keywords: IcmpSendEcho2Ex, IcmpSendEcho2Ex function [IP Helper], icmpapi/IcmpSendEcho2Ex, iphlp.icmpsendecho2ex
-ms.topic: function
 f1_keywords:
 - icmpapi/IcmpSendEcho2Ex
 dev_langs:

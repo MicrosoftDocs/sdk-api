@@ -5,7 +5,6 @@ description: Subtracts one instance of XMVECTOR from a second instance, returnin
 ms.assetid: d41c1951-c696-4132-98fb-d403f26c4d3b
 ms.date: 05/13/2019
 ms.keywords: operator-
-ms.topic: language-reference
 f1_keywords:
 - directxmath/operator-
 dev_langs:

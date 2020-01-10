@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 80C41EAB-9B8F-4723-A4A7-A17F56FF5773
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetSource method, IMFMediaEngine.SetSource, IMFMediaEngine::SetSource, SetSource, SetSource method [Media Foundation], SetSource method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setsource, mfmediaengine/IMFMediaEngine::SetSource
-ms.topic: method
 f1_keywords:
 - mfmediaengine/IMFMediaEngine.SetSource
 dev_langs:

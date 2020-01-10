@@ -7,7 +7,6 @@ tech.root: Dfs
 ms.assetid: c879ba56-cc42-4fa3-960f-ddc65a75dbe3
 ms.date: 12/05/2018
 ms.keywords: NetDfsRemove, NetDfsRemove function [Distributed File System], _win32_netdfsremove, dfs.netdfsremove, fs.netdfsremove, lmdfs/NetDfsRemove, netmgmt.netdfsremove
-ms.topic: function
 f1_keywords:
 - lmdfs/NetDfsRemove
 dev_langs:

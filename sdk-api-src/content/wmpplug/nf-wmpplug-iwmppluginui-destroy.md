@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: ca78c354-92ae-47d4-82c3-e41eae19f246
 ms.date: 12/05/2018
 ms.keywords: Destroy, Destroy method [Windows Media Player], Destroy method [Windows Media Player],IWMPPluginUI interface, IWMPPluginUI interface [Windows Media Player],Destroy method, IWMPPluginUI.Destroy, IWMPPluginUI::Destroy, IWMPPluginUIDestroy, wmp.iwmppluginui_destroy, wmpplug/IWMPPluginUI::Destroy
-ms.topic: method
 f1_keywords:
 - wmpplug/IWMPPluginUI.Destroy
 dev_langs:

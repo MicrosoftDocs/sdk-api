@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 2f197faf-a91e-4984-8858-ceab6506b273
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_ColorKey method, IMSVidCtl.get_ColorKey, IMSVidCtl::get_ColorKey, IMSVidCtlget_ColorKey, get_ColorKey, get_ColorKey method [Microsoft TV Technologies], get_ColorKey method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_colorkey, msvidctl/IMSVidCtl::get_ColorKey
-ms.topic: method
 f1_keywords:
 - msvidctl/IMSVidCtl.get_ColorKey
 dev_langs:

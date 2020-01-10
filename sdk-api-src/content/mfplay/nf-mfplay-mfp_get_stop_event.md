@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 3ca3fa23-1abf-49fc-96e3-f094b483c78f
 ms.date: 12/05/2018
 ms.keywords: MFP_GET_STOP_EVENT, MFP_GET_STOP_EVENT macro [Media Foundation], mf.mfp_get_stop_event, mfplay/MFP_GET_STOP_EVENT
-ms.topic: macro
 f1_keywords:
 - mfplay/MFP_GET_STOP_EVENT
 dev_langs:

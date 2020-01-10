@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 31598e37-d487-4ef0-9443-e704cc60a6b2
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_LOG_DATA, HTTP_LOG_DATA, HTTP_LOG_DATA structure [HTTP], PHTTP_LOG_DATA, PHTTP_LOG_DATA structure pointer [HTTP], http.http_log_data, http/HTTP_LOG_DATA, http/PHTTP_LOG_DATA'
-ms.topic: struct
 f1_keywords:
 - http/HTTP_LOG_DATA
 dev_langs:

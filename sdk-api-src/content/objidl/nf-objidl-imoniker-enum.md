@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 7e2e4d92-d5dd-4294-944e-8b1e88901ee1
 ms.date: 12/05/2018
 ms.keywords: Enum, Enum method [COM], Enum method [COM],IMoniker interface, IMoniker interface [COM],Enum method, IMoniker.Enum, IMoniker::Enum, _com_imoniker_enum, com.imoniker_enum, objidl/IMoniker::Enum
-ms.topic: method
 f1_keywords:
 - objidl/IMoniker.Enum
 dev_langs:

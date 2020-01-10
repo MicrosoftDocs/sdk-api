@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 5f4cc411-1efb-4f70-a677-3c20d95f0c53
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSetCollection, IDataCollectorSetCollection interface [PLA], IDataCollectorSetCollection interface [PLA],described, base.idatacollectorsetcollection, pla.idatacollectorsetcollection, pla/IDataCollectorSetCollection
-ms.topic: interface
 f1_keywords:
 - pla/IDataCollectorSetCollection
 dev_langs:

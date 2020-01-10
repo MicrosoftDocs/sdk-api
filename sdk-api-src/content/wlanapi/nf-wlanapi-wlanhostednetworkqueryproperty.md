@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: bab05629-c921-4639-94db-25f77742dbd3
 ms.date: 12/05/2018
 ms.keywords: WlanHostedNetworkQueryProperty, WlanHostedNetworkQueryProperty function [NativeWIFI], nwifi.wlanhostednetworkqueryproperty, wlanapi/WlanHostedNetworkQueryProperty
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanHostedNetworkQueryProperty
 dev_langs:

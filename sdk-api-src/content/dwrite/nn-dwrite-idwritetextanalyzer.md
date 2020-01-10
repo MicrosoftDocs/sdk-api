@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: e832ffc4-31db-41b1-a008-04696d9a975e
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextAnalyzer, IDWriteTextAnalyzer interface [Direct Write], IDWriteTextAnalyzer interface [Direct Write],described, directwrite.IDWriteTextAnalyzer, dwrite/IDWriteTextAnalyzer
-ms.topic: interface
 f1_keywords:
 - dwrite/IDWriteTextAnalyzer
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: e53d1866-7e5a-43aa-a1b3-287e7cfe3ad8
 ms.date: 12/05/2018
 ms.keywords: HTTPAPI_LESS_VERSION, HTTPAPI_LESS_VERSION macro [HTTP], http.httpapi_less_version, http/HTTPAPI_LESS_VERSION
-ms.topic: macro
 f1_keywords:
 - http/HTTP_LESS_VERSION
 dev_langs:

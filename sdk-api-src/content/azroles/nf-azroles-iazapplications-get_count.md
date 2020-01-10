@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 2f12fd9f-4632-4eef-8ac4-80e73a731539
 ms.date: 12/05/2018
 ms.keywords: AzApplications object [Security],Count property, Count property [Security], Count property [Security],AzApplications object, Count property [Security],IAzApplications interface, IAzApplications interface [Security],Count property, IAzApplications.Count, IAzApplications.get_Count, IAzApplications::Count, IAzApplications::get_Count, azroles/IAzApplications::Count, azroles/IAzApplications::get_Count, get_Count, security.iazapplications_count
-ms.topic: method
 f1_keywords:
 - azroles/IAzApplications.Count
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 888d30bd-527b-4b7b-9d31-3df0556b268f
 ms.date: 12/05/2018
 ms.keywords: FreeWriterMetadata, FreeWriterMetadata method [VSS], FreeWriterMetadata method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],FreeWriterMetadata method, IVssBackupComponents.FreeWriterMetadata, IVssBackupComponents::FreeWriterMetadata, _win32_ivssbackupcomponents_freewritermetadata, base.ivssbackupcomponents_freewritermetadata, vsbackup/IVssBackupComponents::FreeWriterMetadata
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponents.FreeWriterMetadata
 dev_langs:

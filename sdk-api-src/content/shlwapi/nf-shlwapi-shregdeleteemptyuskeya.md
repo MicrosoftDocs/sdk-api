@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: adb09a2b-674c-472d-9f16-8e150476f1f5
 ms.date: 12/05/2018
 ms.keywords: SHRegDeleteEmptyUSKey, SHRegDeleteEmptyUSKey function [Windows Shell], SHRegDeleteEmptyUSKeyA, SHRegDeleteEmptyUSKeyW, _win32_SHRegDeleteEmptyUSKey, shell.SHRegDeleteEmptyUSKey, shlwapi/SHRegDeleteEmptyUSKey, shlwapi/SHRegDeleteEmptyUSKeyA, shlwapi/SHRegDeleteEmptyUSKeyW
-ms.topic: function
 f1_keywords:
 - shlwapi/SHRegDeleteEmptyUSKey
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 045d60d4-518f-4ce4-b611-e23d1588d5d3
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVER_TRANSPORT_INFO_3, *PSERVER_TRANSPORT_INFO_3, LPSERVER_TRANSPORT_INFO_3, LPSERVER_TRANSPORT_INFO_3 structure pointer [Network Management], PSERVER_TRANSPORT_INFO_3, PSERVER_TRANSPORT_INFO_3 structure pointer [Network Management], SERVER_TRANSPORT_INFO_3, SERVER_TRANSPORT_INFO_3 structure [Network Management], SVTI2_REMAP_PIPE_NAMES, SVTI2_SCOPED_NAME, _win32_server_transport_info_3_str, lmserver/LPSERVER_TRANSPORT_INFO_3, lmserver/PSERVER_TRANSPORT_INFO_3, lmserver/SERVER_TRANSPORT_INFO_3, netmgmt.server_transport_info_3_str'
-ms.topic: struct
 f1_keywords:
 - lmserver/SERVER_TRANSPORT_INFO_3
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: dd7ab16e-2dc6-462e-b55d-b93a14c362cf
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA, DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA structure [Media Foundation], PDXVAHD_STREAM_STATE_ASPECT_RATIO_DATA, PDXVAHD_STREAM_STATE_ASPECT_RATIO_DATA structure pointer [Media Foundation], dxvahd/DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA, dxvahd/PDXVAHD_STREAM_STATE_ASPECT_RATIO_DATA, mf.dxvahd_stream_state_aspect_ratio_data
-ms.topic: struct
 f1_keywords:
 - dxvahd/DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA
 dev_langs:

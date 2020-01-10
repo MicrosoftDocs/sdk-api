@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: C9DC823D-46D5-4459-A20A-0969D20C6E9E
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleManifestOptionalBundleInfo, IAppxBundleManifestOptionalBundleInfo interface [App packaging and management], IAppxBundleManifestOptionalBundleInfo interface [App packaging and management],described, appxpackaging/IAppxBundleManifestOptionalBundleInfo, appxpkg.iappxbundlemanifestoptionalbundleinfo
-ms.topic: interface
 f1_keywords:
 - appxpackaging/IAppxBundleManifestOptionalBundleInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 62fb9f21-ad21-4525-90f4-48dc5a8b230b
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_CLASS_INFO, DHCP_CLASS_INFO, DHCP_CLASS_INFO structure [DHCP], DHCP_FLAGS_OPTION_IS_VENDOR, LPDHCP_CLASS_INFO, LPDHCP_CLASS_INFO structure pointer [DHCP], dhcp.dhcp_class_info, dhcpsapi/LPDHCP_CLASS_INFO, dhcpsapi/_DHCP_CLASS_INFO'
-ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_CLASS_INFO
 dev_langs:

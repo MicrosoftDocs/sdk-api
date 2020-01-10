@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: e6a40f30-03d1-4c93-a5e0-563b4c6588b4
 ms.date: 12/05/2018
 ms.keywords: IOpcPart, IOpcPart interface [Open Packaging Conventions], IOpcPart interface [Open Packaging Conventions],described, msopc/IOpcPart, opc.iopcpart
-ms.topic: interface
 f1_keywords:
 - msopc/IOpcPart
 dev_langs:

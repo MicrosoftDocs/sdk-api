@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: bb08ea40-6f0e-4ad5-ad57-78f17bbbd4b7
 ms.date: 12/05/2018
 ms.keywords: IFsrmObject, IFsrmObject interface [File Server Resource Manager], IFsrmObject interface [File Server Resource Manager],described, fs.ifsrmobject, fsrm.ifsrmobject, fsrm/IFsrmObject
-ms.topic: interface
 f1_keywords:
 - fsrm/IFsrmObject
 dev_langs:

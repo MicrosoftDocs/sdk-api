@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 07edb403-6674-4673-928c-91e7df9fe9da
 ms.date: 12/05/2018
 ms.keywords: GetComponentSize, GetComponentSize method [Microsoft TV Technologies], GetComponentSize method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetComponentSize method, IIsdbDownloadContentDescriptor.GetComponentSize, IIsdbDownloadContentDescriptor::GetComponentSize, dvbsiparser/IIsdbDownloadContentDescriptor::GetComponentSize, mstv.iisdbdownloadcontentdescriptor_getcomponentsize
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IIsdbDownloadContentDescriptor.GetComponentSize
 dev_langs:

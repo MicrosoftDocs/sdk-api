@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: eabe3389-2c1f-4b0e-a062-24bbe3fa87f9
 ms.date: 12/05/2018
 ms.keywords: IEnumFeedClockVector interface [Windows Sync],Skip method, IEnumFeedClockVector.Skip, IEnumFeedClockVector::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumFeedClockVector interface, winsync.ienumfeedclockvector_skip, winsync/IEnumFeedClockVector::Skip
-ms.topic: method
 f1_keywords:
 - winsync/IEnumFeedClockVector.Skip
 dev_langs:

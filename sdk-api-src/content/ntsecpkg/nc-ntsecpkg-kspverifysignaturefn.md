@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 62a74a1d-c7e6-4722-af57-997a5ff553ee
 ms.date: 12/05/2018
 ms.keywords: KspVerifySignatureFn, KspVerifySignatureFn callback, SpVerifySignature, SpVerifySignature callback function [Security], _ssp_spverifysignature, ntsecpkg/SpVerifySignature, security.spverifysignature
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpVerifySignature
 dev_langs:

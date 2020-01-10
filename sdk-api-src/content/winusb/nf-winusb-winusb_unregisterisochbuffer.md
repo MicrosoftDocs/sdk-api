@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 1BAD13F5-A29E-4BA8-B924-85ACE7C8E34D
 ms.date: 12/05/2018
 ms.keywords: WinUsb_UnregisterIsochBuffer, WinUsb_UnregisterIsochBuffer function [Buses], buses.winusb_unregisterisochbuffer, winusb/WinUsb_UnregisterIsochBuffer
-ms.topic: function
 f1_keywords:
 - winusb/WinUsb_UnregisterIsochBuffer
 dev_langs:

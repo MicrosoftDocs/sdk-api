@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 75790ffd-bb1b-4efc-a905-5727d31f8aec
 ms.date: 12/05/2018
 ms.keywords: '*LPLINEPROVIDERLIST, LINEPROVIDERLIST, LINEPROVIDERLIST structure [TAPI 2.2], LPLINEPROVIDERLIST, LPLINEPROVIDERLIST structure pointer [TAPI 2.2], _tapi2_lineproviderlist_str, tapi/LINEPROVIDERLIST, tapi/LPLINEPROVIDERLIST, tapi2.lineproviderlist_str'
-ms.topic: struct
 f1_keywords:
 - tapi/LINEPROVIDERLIST
 dev_langs:

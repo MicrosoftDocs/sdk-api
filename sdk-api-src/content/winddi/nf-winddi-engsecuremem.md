@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 30c1e7bb-5300-4c0f-871d-a1c09fa83fdd
 ms.date: 12/05/2018
 ms.keywords: EngSecureMem, EngSecureMem function [Display Devices], display.engsecuremem, gdifncs_b152193e-5e03-4223-b847-8dc99aeb0852.xml, winddi/EngSecureMem
-ms.topic: function
 f1_keywords:
 - winddi/EngSecureMem
 dev_langs:

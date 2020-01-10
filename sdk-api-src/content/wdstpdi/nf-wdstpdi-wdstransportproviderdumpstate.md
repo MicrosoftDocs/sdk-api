@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: e7a7d866-2954-46fb-8356-dbd7761efcf3
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderDumpState, WdsTransportProviderDumpState callback, WdsTransportProviderDumpState callback function [Windows Deployment Services], wds.wdstransportproviderdumpstate, wdstpdi/WdsTransportProviderDumpState
-ms.topic: function
 f1_keywords:
 - wdstpdi/WdsTransportProviderDumpState
 dev_langs:

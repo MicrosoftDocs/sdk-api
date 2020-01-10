@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcatnex.htm
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbCatNEx, StringCbCatNEx function [Menus and Other Resources], StringCbCatNExA, StringCbCatNExW, _shell_StringCbCatNEx, _shell_stringcbcatnex_cpp, menurc.stringcbcatnex, strsafe/StringCbCatNEx, strsafe/StringCbCatNExA, strsafe/StringCbCatNExW, winui._shell_stringcbcatnex
-ms.topic: function
 f1_keywords:
 - strsafe/StringCbCatNEx
 dev_langs:

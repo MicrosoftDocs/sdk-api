@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 1e2f1476-2a73-4298-80f7-c57efdc10fd2
 ms.date: 12/05/2018
 ms.keywords: DhcpEnumSubnetElements, DhcpEnumSubnetElements function [DHCP], dhcp.dhcpenumsubnetelements, dhcpsapi/DhcpEnumSubnetElements
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpEnumSubnetElements
 dev_langs:

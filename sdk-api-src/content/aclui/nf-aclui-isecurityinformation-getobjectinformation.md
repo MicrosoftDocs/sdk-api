@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 2bc63aa0-dada-4962-a381-6b0f8332e564
 ms.date: 12/05/2018
 ms.keywords: GetObjectInformation, GetObjectInformation method [Security], GetObjectInformation method [Security],ISecurityInformation interface, ISecurityInformation interface [Security],GetObjectInformation method, ISecurityInformation.GetObjectInformation, ISecurityInformation::GetObjectInformation, _win32_isecurityinformation_getobjectinformation, aclui/ISecurityInformation::GetObjectInformation, security.isecurityinformation_getobjectinformation
-ms.topic: method
 f1_keywords:
 - aclui/ISecurityInformation.GetObjectInformation
 dev_langs:

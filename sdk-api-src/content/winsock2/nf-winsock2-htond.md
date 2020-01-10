@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: DEC42B75-F637-4CD5-B42F-4F59D1516BB9
 ms.date: 12/05/2018
 ms.keywords: htond, htond function [Winsock], winsock.htond, winsock2/htond
-ms.topic: function
 f1_keywords:
 - winsock2/htond
 dev_langs:

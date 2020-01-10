@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 928cb09d-9f63-4334-b034-ee27e950ce0a
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_SERVICE_CONFIG_TIMEOUT_SET, *PHTTP_SERVICE_CONFIG_TIMEOUT_SET structure [HTTP], HTTP_SERVICE_CONFIG_TIMEOUT_SET, HTTP_SERVICE_CONFIG_TIMEOUT_SET structure [HTTP], http.http_service_config_timeout_set, http/*PHTTP_SERVICE_CONFIG_TIMEOUT_SET, http/HTTP_SERVICE_CONFIG_TIMEOUT_SET'
-ms.topic: struct
 f1_keywords:
 - http/HTTP_SERVICE_CONFIG_TIMEOUT_SET
 dev_langs:

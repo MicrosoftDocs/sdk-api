@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: C01F7A61-3585-4E8B-B914-7DB1446D1BC1
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureSource interface [Media Foundation],RemoveAllEffects method, IMFCaptureSource.RemoveAllEffects, IMFCaptureSource::RemoveAllEffects, MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM, RemoveAllEffects, RemoveAllEffects method [Media Foundation], RemoveAllEffects method [Media Foundation],IMFCaptureSource interface, mf.imfcapturesource_removealleffects, mfcaptureengine/IMFCaptureSource::RemoveAllEffects
-ms.topic: method
 f1_keywords:
 - mfcaptureengine/IMFCaptureSource.RemoveAllEffects
 dev_langs:

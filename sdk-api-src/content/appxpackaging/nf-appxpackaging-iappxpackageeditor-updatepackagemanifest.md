@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: A30B3A7E-28FA-4780-9ED3-4F19887189E8
 ms.date: 12/05/2018
 ms.keywords: IAppxPackageEditor interface [App packaging and management],UpdatePackageManifest method, IAppxPackageEditor.UpdatePackageManifest, IAppxPackageEditor::UpdatePackageManifest, UpdatePackageManifest, UpdatePackageManifest method [App packaging and management], UpdatePackageManifest method [App packaging and management],IAppxPackageEditor interface, appxpackaging/IAppxPackageEditor::UpdatePackageManifest, appxpkg.iappxpackageeditor_updatepackagemanifest
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxPackageEditor.UpdatePackageManifest
 dev_langs:

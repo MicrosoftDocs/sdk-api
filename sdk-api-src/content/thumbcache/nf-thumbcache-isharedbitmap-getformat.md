@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 403b8b19-c96f-4205-999f-103025d2b923
 ms.date: 12/05/2018
 ms.keywords: GetFormat, GetFormat method [Windows Shell], GetFormat method [Windows Shell],ISharedBitmap interface, ISharedBitmap interface [Windows Shell],GetFormat method, ISharedBitmap.GetFormat, ISharedBitmap::GetFormat, WTSAT_ARGB, WTSAT_RGB, _shell_ISharedBitmap_GetFormat, shell.ISharedBitmap_GetFormat, thumbcache/ISharedBitmap::GetFormat
-ms.topic: method
 f1_keywords:
 - thumbcache/ISharedBitmap.GetFormat
 dev_langs:

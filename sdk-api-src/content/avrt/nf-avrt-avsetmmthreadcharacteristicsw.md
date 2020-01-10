@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 881d3f97-e68e-40cb-b799-76784185dd37
 ms.date: 12/05/2018
 ms.keywords: AvSetMmThreadCharacteristics, AvSetMmThreadCharacteristics function, AvSetMmThreadCharacteristicsA, AvSetMmThreadCharacteristicsW, avrt/AvSetMmThreadCharacteristics, avrt/AvSetMmThreadCharacteristicsA, avrt/AvSetMmThreadCharacteristicsW, base.avsetmmthreadcharacteristics
-ms.topic: function
 f1_keywords:
 - avrt/AvSetMmThreadCharacteristics
 dev_langs:

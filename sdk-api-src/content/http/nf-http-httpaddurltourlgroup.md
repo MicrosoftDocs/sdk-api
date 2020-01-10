@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: e6bf68aa-d6a5-4079-b689-49cfc2303ba5
 ms.date: 12/05/2018
 ms.keywords: HttpAddUrlToUrlGroup, HttpAddUrlToUrlGroup function [HTTP], http.httpaddurltourlgroup, http/HttpAddUrlToUrlGroup
-ms.topic: function
 f1_keywords:
 - http/HttpAddUrlToUrlGroup
 dev_langs:

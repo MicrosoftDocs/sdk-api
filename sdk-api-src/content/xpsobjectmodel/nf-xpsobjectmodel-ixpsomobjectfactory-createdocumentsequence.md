@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 51d42b34-3380-4464-8feb-d03935f88077
 ms.date: 12/05/2018
 ms.keywords: CreateDocumentSequence, CreateDocumentSequence method [XPS Documents and Packaging], CreateDocumentSequence method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateDocumentSequence method, IXpsOMObjectFactory.CreateDocumentSequence, IXpsOMObjectFactory::CreateDocumentSequence, xps.ixpsomobjectfactory_createdocumentsequence, xpsobjectmodel/IXpsOMObjectFactory::CreateDocumentSequence
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreateDocumentSequence
 dev_langs:

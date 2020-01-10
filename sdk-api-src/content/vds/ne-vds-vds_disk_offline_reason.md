@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 45115cd5-52bb-4cb8-978b-208a2bc3c148
 ms.date: 12/05/2018
 ms.keywords: VDSDiskOfflineReasonCollision, VDSDiskOfflineReasonNone, VDSDiskOfflineReasonPolicy, VDSDiskOfflineReasonRedundantPath, VDSDiskOfflineReasonSnapshot, VDS_DISK_OFFLINE_REASON, VDS_DISK_OFFLINE_REASON enumeration, base.vds_disk_offline_reason, vds/VDSDiskOfflineReasonCollision, vds/VDSDiskOfflineReasonNone, vds/VDSDiskOfflineReasonPolicy, vds/VDSDiskOfflineReasonRedundantPath, vds/VDSDiskOfflineReasonSnapshot, vds/VDS_DISK_OFFLINE_REASON
-ms.topic: enum
 f1_keywords:
 - vds/VDS_DISK_OFFLINE_REASON
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: d0c6c501-3aaa-42ab-a077-69f6d24f1eff
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeBitString object [Security],GetBitString method, GetBitString, GetBitString method [Security], GetBitString method [Security],CCertEncodeBitString object, GetBitString method [Security],ICertEncodeBitString interface, ICertEncodeBitString interface [Security],GetBitString method, ICertEncodeBitString.GetBitString, ICertEncodeBitString::GetBitString, _certsrv_icertencodebitstring_getbitstring, certenc/ICertEncodeBitString::GetBitString, security.icertencodebitstring_getbitstring
-ms.topic: method
 f1_keywords:
 - certenc/ICertEncodeBitString.GetBitString
 dev_langs:

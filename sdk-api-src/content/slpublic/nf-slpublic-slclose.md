@@ -7,7 +7,6 @@ tech.root: SecSLApi
 ms.assetid: a2483fa2-cdd6-48b8-861f-34fd5efc34df
 ms.date: 12/05/2018
 ms.keywords: SLClose, SLClose function [Security], security.slclose, slpublic/SLClose
-ms.topic: function
 f1_keywords:
 - slpublic/SLClose
 dev_langs:

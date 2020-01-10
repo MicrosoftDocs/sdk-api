@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 5f4fd3b2-ed24-403a-ae5a-31821a2c7033
 ms.date: 12/05/2018
 ms.keywords: GetConnections, GetConnections method [Microsoft Broadband Networks], GetConnections method [Microsoft Broadband Networks],IMbnConnectionManager interface, IMbnConnectionManager interface [Microsoft Broadband Networks],GetConnections method, IMbnConnectionManager.GetConnections, IMbnConnectionManager::GetConnections, mbn.imbnconnectionmanager_getconnections, mbnapi/IMbnConnectionManager::GetConnections
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnConnectionManager.GetConnections
 dev_langs:

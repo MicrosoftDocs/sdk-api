@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 1e6c53fa-7180-454d-8bdc-332eb0d3fa27
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMSignatureBlockResource interface, IXpsOMSignatureBlockResource interface [XPS Documents and Packaging],GetStream method, IXpsOMSignatureBlockResource.GetStream, IXpsOMSignatureBlockResource::GetStream, xps.ixpsomsignatureblockresource_getstream, xpsobjectmodel/IXpsOMSignatureBlockResource::GetStream
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMSignatureBlockResource.GetStream
 dev_langs:

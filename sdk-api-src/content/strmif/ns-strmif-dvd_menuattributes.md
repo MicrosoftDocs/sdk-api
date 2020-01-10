@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 074593e2-f4f4-44d3-a37c-209b4e798a52
 ms.date: 12/05/2018
 ms.keywords: DVD_MenuAttributes, DVD_MenuAttributes structure [DirectShow], DVD_MenuAttributesStructure, dshow.dvd_menuattributes, strmif/DVD_MenuAttributes
-ms.topic: struct
 f1_keywords:
 - strmif/DVD_MenuAttributes
 dev_langs:

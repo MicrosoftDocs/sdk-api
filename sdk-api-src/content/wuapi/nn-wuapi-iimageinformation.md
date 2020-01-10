@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 869c10c3-a4d1-4001-86f1-30ebf2abe96f
 ms.date: 12/05/2018
 ms.keywords: IImageInformation, IImageInformation interface [Windows Update Agent], IImageInformation interface [Windows Update Agent],described, wua.iimageinformation, wuapi/IImageInformation
-ms.topic: interface
 f1_keywords:
 - wuapi/IImageInformation
 dev_langs:

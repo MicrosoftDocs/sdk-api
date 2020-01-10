@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: bb8cf86b-00b8-4a64-90f8-66ac6dbf9dee
 ms.date: 12/05/2018
 ms.keywords: GetProcessHandleCount, GetProcessHandleCount function, base.getprocesshandlecount, processthreadsapi/GetProcessHandleCount, winbase/GetProcessHandleCount
-ms.topic: function
 f1_keywords:
 - processthreadsapi/GetProcessHandleCount
 dev_langs:

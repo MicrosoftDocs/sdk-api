@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: c38547fa-b9d8-41a0-8d73-21056212b775
 ms.date: 12/05/2018
 ms.keywords: GCL_CONVERSION, GCL_REVERSECONVERSION, GCL_REVERSE_LENGTH, ImmGetConversionList, ImmGetConversionList function [Internationalization for Windows Applications], ImmGetConversionListA, ImmGetConversionListW, _win32_ImmGetConversionList, imm/ImmGetConversionList, imm/ImmGetConversionListA, imm/ImmGetConversionListW, intl.immgetconversionlist
-ms.topic: function
 f1_keywords:
 - imm/ImmGetConversionList
 dev_langs:

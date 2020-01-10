@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: f89ebf46-da83-495c-bafe-b2e0f72f5d8e
 ms.date: 12/05/2018
 ms.keywords: '*PBG_AUTH_CREDENTIALS, BG_AUTH_CREDENTIALS, BG_AUTH_CREDENTIALS structure [BITS], _drz_bg_auth_credentials, bits.bg_auth_credentials, bits1_5/BG_AUTH_CREDENTIALS'
-ms.topic: struct
 f1_keywords:
 - bits1_5/BG_AUTH_CREDENTIALS
 dev_langs:

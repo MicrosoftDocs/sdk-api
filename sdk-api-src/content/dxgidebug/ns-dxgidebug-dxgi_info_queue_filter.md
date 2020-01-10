@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 95E68ECE-39D2-4D16-9A8F-FE6E527A83E3
 ms.date: 12/05/2018
 ms.keywords: DXGI_INFO_QUEUE_FILTER, DXGI_INFO_QUEUE_FILTER structure [DXGI], direct3ddxgi.dxgi_info_queue_filter, dxgidebug/DXGI_INFO_QUEUE_FILTER
-ms.topic: struct
 f1_keywords:
 - dxgidebug/DXGI_INFO_QUEUE_FILTER
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 53b28166-8f19-4891-aeb0-603628d95053
 ms.date: 12/05/2018
 ms.keywords: FWPM_NET_EVENT_IKEEXT_EM_FAILURE0, FWPM_NET_EVENT_IKEEXT_EM_FAILURE0 structure [Filtering], FWPM_NET_EVENT_IKEEXT_EM_FAILURE_FLAG_MULTIPLE, fwp.fwpm_net_event_ikeext_em_failure0, fwpmtypes/FWPM_NET_EVENT_IKEEXT_EM_FAILURE0
-ms.topic: struct
 f1_keywords:
 - fwpmtypes/FWPM_NET_EVENT_IKEEXT_EM_FAILURE0
 dev_langs:

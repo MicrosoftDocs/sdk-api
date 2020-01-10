@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 245A71F7-4034-4D65-A9EB-9A33FC8DED05
 ms.date: 12/05/2018
 ms.keywords: GetPropertyNameLength, GetPropertyNameLength method [Direct2D], GetPropertyNameLength method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetPropertyNameLength method, ID2D1Properties.GetPropertyNameLength, ID2D1Properties.GetPropertyNameLength(U,), ID2D1Properties::GetPropertyNameLength, ID2D1Properties::GetPropertyNameLength(U), ID2D1Properties::GetPropertyNameLength(U,), d2d1_1/ID2D1Properties::GetPropertyNameLength, direct2d.id2d1properties_getpropertynamelength2
-ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1Properties.GetPropertyNameLength
 dev_langs:

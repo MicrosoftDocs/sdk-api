@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: d0d699b3-e2f3-427c-9159-e2ed875887ca
 ms.date: 12/05/2018
 ms.keywords: IWMReaderCallbackAdvanced interface [windows Media Format],OnStreamSelection method, IWMReaderCallbackAdvanced.OnStreamSelection, IWMReaderCallbackAdvanced::OnStreamSelection, IWMReaderCallbackAdvancedOnStreamSelection, OnStreamSelection, OnStreamSelection method [windows Media Format], OnStreamSelection method [windows Media Format],IWMReaderCallbackAdvanced interface, wmformat.iwmreadercallbackadvanced_onstreamselection, wmsdkidl/IWMReaderCallbackAdvanced::OnStreamSelection
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderCallbackAdvanced.OnStreamSelection
 dev_langs:

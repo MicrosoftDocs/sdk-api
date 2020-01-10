@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 548E972F-EB94-4BBD-94F2-FA38184D179A
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_SubjectAttributes, PSecPkgContext_SubjectAttributes, PSecPkgContext_SubjectAttributes structure pointer [Security], SecPkgContext_SubjectAttributes, SecPkgContext_SubjectAttributes structure [Security], security.secpkgcontext_subjectattributes, sspi/PSecPkgContext_SubjectAttributes, sspi/SecPkgContext_SubjectAttributes'
-ms.topic: struct
 f1_keywords:
 - sspi/SecPkgContext_SubjectAttributes
 dev_langs:

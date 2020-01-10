@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_cocreateinstance.htm
 ms.date: 12/05/2018
 ms.keywords: ImageList_CoCreateInstance, ImageList_CoCreateInstance function [Windows Controls], _shell_ImageList_CoCreateInstance, _shell_ImageList_CoCreateInstance_cpp, commoncontrols/ImageList_CoCreateInstance, controls.ImageList_CoCreateInstance, controls._shell_ImageList_CoCreateInstance
-ms.topic: function
 f1_keywords:
 - commoncontrols/ImageList_CoCreateInstance
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: af9bcdcf-ca92-438b-94f2-f0e7529952fb
 ms.date: 12/05/2018
 ms.keywords: ClusWorkersTerminate, ClusWorkersTerminate function [Failover Cluster], mscs.clusworkersterminate, resapi/ClusWorkersTerminate
-ms.topic: function
 f1_keywords:
 - resapi/ClusWorkersTerminate
 dev_langs:

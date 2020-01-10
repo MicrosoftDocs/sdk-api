@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixaudio2submixvoice.IXAudio2SubmixVoice
 ms.date: 12/05/2018
 ms.keywords: IXAudio2SubmixVoice, IXAudio2SubmixVoice interface [XAudio2 Audio Mixing APIs], IXAudio2SubmixVoice interface [XAudio2 Audio Mixing APIs],described, xaudio2.ixaudio2submixvoice, xaudio2/IXAudio2SubmixVoice
-ms.topic: interface
 f1_keywords:
 - xaudio2/IXAudio2SubmixVoice
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: d8114126-f518-4a43-8f6e-900fe84052e5
 ms.date: 12/05/2018
 ms.keywords: DeleteTarget, DeleteTarget method [Remote Desktop Services], DeleteTarget method [Remote Desktop Services],ITsSbResourcePluginStore interface, DeleteTarget method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],DeleteTarget method, ITsSbResourcePluginStore.DeleteTarget, ITsSbResourcePluginStore::DeleteTarget, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],DeleteTarget method, ITsSbResourcePluginStoreEx::DeleteTarget, sbtsv/ITsSbResourcePluginStore::DeleteTarget, sbtsv/ITsSbResourcePluginStoreEx::DeleteTarget, termserv.itssbresourcepluginstore_deletetarget
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbResourcePluginStore.DeleteTarget
 dev_langs:

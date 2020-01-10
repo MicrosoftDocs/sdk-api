@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 9943ca7e-754e-4145-8f52-0a915fd7133d
 ms.date: 12/05/2018
 ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],get_SAP method, IMSVidAnalogTuner.get_SAP, IMSVidAnalogTuner::get_SAP, IMSVidAnalogTunerget_SAP, get_SAP, get_SAP method [Microsoft TV Technologies], get_SAP method [Microsoft TV Technologies],IMSVidAnalogTuner interface, mstv.imsvidanalogtuner_get_sap, segment/IMSVidAnalogTuner::get_SAP
-ms.topic: method
 f1_keywords:
 - segment/IMSVidAnalogTuner.get_SAP
 dev_langs:

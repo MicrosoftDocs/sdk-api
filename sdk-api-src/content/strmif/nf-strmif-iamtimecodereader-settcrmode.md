@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: dd9f5310-b1c0-46ff-b038-d6a50ac400a2
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeReader interface [DirectShow],SetTCRMode method, IAMTimecodeReader.SetTCRMode, IAMTimecodeReader::SetTCRMode, IAMTimecodeReaderSetTCRMode, SetTCRMode, SetTCRMode method [DirectShow], SetTCRMode method [DirectShow],IAMTimecodeReader interface, dshow.iamtimecodereader_settcrmode, strmif/IAMTimecodeReader::SetTCRMode
-ms.topic: method
 f1_keywords:
 - strmif/IAMTimecodeReader.SetTCRMode
 dev_langs:

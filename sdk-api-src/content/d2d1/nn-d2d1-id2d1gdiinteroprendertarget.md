@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: cb992ddd-21b2-4eba-b7c4-e391bdd23a9d
 ms.date: 12/05/2018
 ms.keywords: ID2D1GdiInteropRenderTarget, ID2D1GdiInteropRenderTarget interface [Direct2D], ID2D1GdiInteropRenderTarget interface [Direct2D],described, d2d1/ID2D1GdiInteropRenderTarget, direct2d.ID2D1GdiInteropRenderTarget
-ms.topic: interface
 f1_keywords:
 - d2d1/ID2D1GdiInteropRenderTarget
 dev_langs:

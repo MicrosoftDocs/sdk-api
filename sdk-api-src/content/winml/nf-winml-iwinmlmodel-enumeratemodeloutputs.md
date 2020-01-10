@@ -7,7 +7,6 @@ tech.root: MachineLearning
 ms.assetid: F946AF8E-67BE-4F4B-9BE3-2142CE646B0B
 ms.date: 12/05/2018
 ms.keywords: EnumerateModelOutputs, EnumerateModelOutputs method, EnumerateModelOutputs method,IWinMLModel interface, IWinMLModel interface,EnumerateModelOutputs method, IWinMLModel.EnumerateModelOutputs, IWinMLModel::EnumerateModelOutputs, MachineLearning.iwinmlmodel_enumeratemodeloutputs, winml/IWinMLModel::EnumerateModelOutputs
-ms.topic: method
 f1_keywords:
 - winml/IWinMLModel.EnumerateModelOutputs
 dev_langs:

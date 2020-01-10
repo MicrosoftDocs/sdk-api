@@ -7,7 +7,6 @@ tech.root: rdc
 ms.assetid: 941fa35c-20fa-4843-89be-26112ff7eec5
 ms.date: 12/05/2018
 ms.keywords: IRdcLibrary, IRdcLibrary interface [Remote Differential Compression], IRdcLibrary interface [Remote Differential Compression],described, fs.irdclibrary, msrdc/IRdcLibrary, rdc.irdclibrary
-ms.topic: interface
 f1_keywords:
 - msrdc/IRdcLibrary
 dev_langs:

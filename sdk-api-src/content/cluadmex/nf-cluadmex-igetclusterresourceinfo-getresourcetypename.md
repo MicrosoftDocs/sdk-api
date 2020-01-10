@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: c7154163-0ab9-4766-99be-31457a0efc17
 ms.date: 12/05/2018
 ms.keywords: GetResourceTypeName, GetResourceTypeName method [Failover Cluster], GetResourceTypeName method [Failover Cluster],IGetClusterResourceInfo interface, IGetClusterResourceInfo interface [Failover Cluster],GetResourceTypeName method, IGetClusterResourceInfo.GetResourceTypeName, IGetClusterResourceInfo::GetResourceTypeName, _wolf_igetclusterresourceinfo_getresourcetypename, cluadmex/IGetClusterResourceInfo::GetResourceTypeName, mscs.igetclusterresourceinfo_getresourcetypename
-ms.topic: method
 f1_keywords:
 - cluadmex/IGetClusterResourceInfo.GetResourceTypeName
 dev_langs:

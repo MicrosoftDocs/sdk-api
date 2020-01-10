@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.SetChannelVolumes(UINT32,const float,UINT32)
 ms.date: 12/05/2018
 ms.keywords: IXAudio2Voice interface [XAudio2 Audio Mixing APIs],SetChannelVolumes method, IXAudio2Voice.SetChannelVolumes, IXAudio2Voice::SetChannelVolumes, SetChannelVolumes, SetChannelVolumes method [XAudio2 Audio Mixing APIs], SetChannelVolumes method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, xaudio2.ixaudio2voice_interface_setchannelvolumes, xaudio2/IXAudio2Voice::SetChannelVolumes
-ms.topic: method
 f1_keywords:
 - xaudio2/IXAudio2Voice.SetChannelVolumes
 dev_langs:

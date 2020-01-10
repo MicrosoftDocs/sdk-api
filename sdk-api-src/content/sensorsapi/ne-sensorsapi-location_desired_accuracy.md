@@ -7,7 +7,6 @@ tech.root: sensors
 ms.assetid: 21eefb20-b5ad-43c7-a1aa-92731c856363
 ms.date: 12/05/2018
 ms.keywords: LOCATION_DESIRED_ACCURACY, LOCATION_DESIRED_ACCURACY enumeration [Sensor Devices], LOCATION_DESIRED_ACCURACY_DEFAULT, LOCATION_DESIRED_ACCURACY_HIGH, Sensor_Enums_a794ec29-a465-4d6a-b32e-c5eb890c95ae.xml, sensors.location_desired_accuracy, sensorsapi/LOCATION_DESIRED_ACCURACY, sensorsapi/LOCATION_DESIRED_ACCURACY_DEFAULT, sensorsapi/LOCATION_DESIRED_ACCURACY_HIGH
-ms.topic: enum
 f1_keywords:
 - sensorsapi/LOCATION_DESIRED_ACCURACY
 dev_langs:

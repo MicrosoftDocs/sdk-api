@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\getfamily.htm
 ms.date: 12/05/2018
 ms.keywords: Font class [GDI+],GetFamily method, Font.GetFamily, Font::GetFamily, GetFamily, GetFamily method [GDI+], GetFamily method [GDI+],Font class, _gdiplus_CLASS_Font_GetFamily_family_, gdiplus._gdiplus_CLASS_Font_GetFamily_family_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/Font.GetFamily
 dev_langs:

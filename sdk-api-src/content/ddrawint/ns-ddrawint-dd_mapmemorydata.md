@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 51d8b35f-883c-4e47-a0e6-af6c8ade8e54
 ms.date: 12/05/2018
 ms.keywords: '*PDD_MAPMEMORYDATA, DD_MAPMEMORYDATA, DD_MAPMEMORYDATA structure [Display Devices], ddrawint/DD_MAPMEMORYDATA, ddstrcts_8ed973e1-2324-4dba-bcff-78442d5f33ee.xml, display.dd_mapmemorydata'
-ms.topic: struct
 f1_keywords:
 - ddrawint/DD_MAPMEMORYDATA
 dev_langs:

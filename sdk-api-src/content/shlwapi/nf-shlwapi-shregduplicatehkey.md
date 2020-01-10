@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 73182aa9-0c4d-4723-ba3c-8bab6b51181b
 ms.date: 12/05/2018
 ms.keywords: SHRegDuplicateHKey, SHRegDuplicateHKey function [Windows Shell], _win32_SHRegDuplicateHKey, shell.SHRegDuplicateHKey, shlwapi/SHRegDuplicateHKey
-ms.topic: function
 f1_keywords:
 - shlwapi/SHRegDuplicateHKey
 dev_langs:

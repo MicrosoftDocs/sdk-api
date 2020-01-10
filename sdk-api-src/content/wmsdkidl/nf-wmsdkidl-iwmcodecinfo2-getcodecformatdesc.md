@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 24ca091e-72f6-4c7b-b25a-8957d70fa450
 ms.date: 12/05/2018
 ms.keywords: GetCodecFormatDesc, GetCodecFormatDesc method [windows Media Format], GetCodecFormatDesc method [windows Media Format],IWMCodecInfo2 interface, IWMCodecInfo2 interface [windows Media Format],GetCodecFormatDesc method, IWMCodecInfo2.GetCodecFormatDesc, IWMCodecInfo2::GetCodecFormatDesc, IWMCodecInfo2GetCodecFormatDesc, wmformat.iwmcodecinfo2_getcodecformatdesc, wmsdkidl/IWMCodecInfo2::GetCodecFormatDesc
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMCodecInfo2.GetCodecFormatDesc
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 628efd30-6e07-4748-82ac-5cdc723be451
 ms.date: 12/05/2018
 ms.keywords: CertDuplicateStore, CertDuplicateStore function [Security], _crypto2_certduplicatestore, security.certduplicatestore, wincrypt/CertDuplicateStore
-ms.topic: function
 f1_keywords:
 - wincrypt/CertDuplicateStore
 dev_langs:

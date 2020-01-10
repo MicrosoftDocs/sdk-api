@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: b94e5b76-ae45-483c-b9ea-3987d7b4837a
 ms.date: 12/05/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMSignatureBlockResource interface, IXpsOMSignatureBlockResource interface [XPS Documents and Packaging],GetOwner method, IXpsOMSignatureBlockResource.GetOwner, IXpsOMSignatureBlockResource::GetOwner, xps.ixpsomsignatureblockresource_getowner, xpsobjectmodel/IXpsOMSignatureBlockResource::GetOwner
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMSignatureBlockResource.GetOwner
 dev_langs:

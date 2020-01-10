@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 95a32114-4581-4870-8c7f-b79b5af8f0a4
 ms.date: 12/05/2018
 ms.keywords: IWMWriterSink interface [windows Media Format],IsRealTime method, IWMWriterSink.IsRealTime, IWMWriterSink::IsRealTime, IWMWriterSinkIsRealTime, IsRealTime, IsRealTime method [windows Media Format], IsRealTime method [windows Media Format],IWMWriterSink interface, wmformat.iwmwritersink_isrealtime, wmsdkidl/IWMWriterSink::IsRealTime
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMWriterSink.IsRealTime
 dev_langs:

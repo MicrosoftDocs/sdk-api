@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: c35dd874-c545-418a-b08c-82f9e13e93fb
 ms.date: 12/05/2018
 ms.keywords: WINBIO_PASSWORD_GENERIC, WINBIO_PASSWORD_PACKED, WINBIO_PASSWORD_PROTECTED, WinBioSetCredential, WinBioSetCredential function [Windows Biometric Framework API], secbiomet.winbiosetcredential, winbio/WinBioSetCredential
-ms.topic: function
 f1_keywords:
 - winbio/WinBioSetCredential
 dev_langs:

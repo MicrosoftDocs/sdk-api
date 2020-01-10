@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: b700b5c1-9fd7-4fc9-a5ed-f8ac75d22037
 ms.date: 12/05/2018
 ms.keywords: PFREEMEM, PFREEMEM callback, PFREEMEM callback function [QOS], _gqos_pfreemem, lpmapi/PFREEMEM, qos.pfreemem
-ms.topic: callback
 f1_keywords:
 - lpmapi/PFREEMEM
 dev_langs:

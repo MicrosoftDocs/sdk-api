@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 85A4D929-E98B-4C84-9E5C-EA5E41BD0D07
 ms.date: 12/05/2018
 ms.keywords: DeleteColumn, DeleteColumn method [MMC], DeleteColumn method [MMC],IHeaderCtrl interface, IHeaderCtrl interface [MMC],DeleteColumn method, IHeaderCtrl.DeleteColumn, IHeaderCtrl::DeleteColumn, mmc.iheaderctrl_deletecolumn, mmc/IHeaderCtrl::DeleteColumn
-ms.topic: method
 f1_keywords:
 - mmc/IHeaderCtrl.DeleteColumn
 dev_langs:

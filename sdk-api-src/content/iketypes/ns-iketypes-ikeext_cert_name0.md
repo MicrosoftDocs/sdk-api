@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 50e04e10-cae1-4fcd-990e-3e9b538627ed
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_CERT_NAME0, IKEEXT_CERT_NAME0 structure [Filtering], fwp.ikeext_cert_name0, iketypes/IKEEXT_CERT_NAME0
-ms.topic: struct
 f1_keywords:
 - iketypes/IKEEXT_CERT_NAME0
 dev_langs:

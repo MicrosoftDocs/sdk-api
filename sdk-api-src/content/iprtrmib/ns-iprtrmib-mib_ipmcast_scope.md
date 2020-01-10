@@ -7,7 +7,6 @@ tech.root: MIB
 ms.assetid: dbdbfdc6-becb-4ad5-9388-c2715d225fb0
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_IPMCAST_SCOPE, MIB_IPMCAST_SCOPE, MIB_IPMCAST_SCOPE structure [MIB], PMIB_IPMCAST_SCOPE, PMIB_IPMCAST_SCOPE structure pointer [MIB], iprtrmib/MIB_IPMCAST_SCOPE, iprtrmib/PMIB_IPMCAST_SCOPE, mib.mib_ipmcast_scope'
-ms.topic: struct
 f1_keywords:
 - iprtrmib/MIB_IPMCAST_SCOPE
 dev_langs:

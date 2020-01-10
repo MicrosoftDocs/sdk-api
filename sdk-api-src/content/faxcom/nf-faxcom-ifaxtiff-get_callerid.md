@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_502s.htm
 ms.date: 12/05/2018
 ms.keywords: CallerId property [Fax Service], CallerId property [Fax Service],IFaxTiff interface, IFaxTiff interface [Fax Service],CallerId property, IFaxTiff.CallerId, IFaxTiff.get_CallerId, IFaxTiff::CallerId, IFaxTiff::get_CallerId, _mfax_ifaxtiff_get_callerid, fax._mfax_ifaxtiff_get_callerid, fax._mfax_ifaxtiff_mfax_ifaxtiff_get_callerid_cpp, faxcom/IFaxTiff::CallerId, faxcom/IFaxTiff::get_CallerId, get_CallerId
-ms.topic: method
 f1_keywords:
 - faxcom/IFaxTiff.CallerId
 dev_langs:

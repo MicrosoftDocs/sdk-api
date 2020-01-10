@@ -7,7 +7,6 @@ tech.root: Dlls
 ms.assetid: 29514410-89fe-4888-8b34-0c30d5af237f
 ms.date: 12/05/2018
 ms.keywords: GetModuleHandle, GetModuleHandle function, GetModuleHandleA, GetModuleHandleW, _win32_getmodulehandle, base.getmodulehandle, libloaderapi/GetModuleHandle, libloaderapi/GetModuleHandleA, libloaderapi/GetModuleHandleW, winbase/GetModuleHandle, winbase/GetModuleHandleA, winbase/GetModuleHandleW
-ms.topic: function
 f1_keywords:
 - libloaderapi/GetModuleHandle
 dev_langs:

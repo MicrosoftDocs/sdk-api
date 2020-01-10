@@ -4,7 +4,6 @@ title: LPWSPSEND
 description: The LPWSPSend function sends data on a connected socket.
 ms.date: 9/12/2019
 ms.keywords: LPWSPSEND
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: c34f0978-74dd-4839-99f2-a106f3d2c0f9
 ms.date: 12/05/2018
 ms.keywords: ScaleWindowExtEx, ScaleWindowExtEx function [Windows GDI], _win32_ScaleWindowExtEx, gdi.scalewindowextex, wingdi/ScaleWindowExtEx
-ms.topic: function
 f1_keywords:
 - wingdi/ScaleWindowExtEx
 dev_langs:

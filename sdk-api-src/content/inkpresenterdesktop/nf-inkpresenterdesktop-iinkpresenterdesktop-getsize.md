@@ -7,7 +7,6 @@ tech.root: input_ink
 ms.assetid: d4ce0503-72dc-4a25-a48d-58fa50c5047f
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method, GetSize method,IInkPresenterDesktop interface, IInkPresenterDesktop interface,GetSize method, IInkPresenterDesktop.GetSize, IInkPresenterDesktop::GetSize, InkPresenterDesktop.iinkpresenterdesktop_getsize, inkpresenterdesktop/IInkPresenterDesktop::GetSize, input_ink.iinkpresenterdesktop_getsize
-ms.topic: method
 f1_keywords:
 - inkpresenterdesktop/IInkPresenterDesktop.GetSize
 dev_langs:

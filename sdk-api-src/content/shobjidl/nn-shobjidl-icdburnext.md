@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: e87a635b-9614-49e1-8633-f7cbb5050b9a
 ms.date: 12/05/2018
 ms.keywords: ICDBurnExt, ICDBurnExt interface [Windows Shell], ICDBurnExt interface [Windows Shell],described, _shell_ICDBurnExt, shell.ICDBurnExt, shobjidl/ICDBurnExt
-ms.topic: interface
 f1_keywords:
 - shobjidl/ICDBurnExt
 dev_langs:

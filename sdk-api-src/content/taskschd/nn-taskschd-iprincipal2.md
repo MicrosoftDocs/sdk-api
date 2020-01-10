@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 480f8038-0f67-4a69-b6f6-d7ba881d9d57
 ms.date: 12/05/2018
 ms.keywords: IPrincipal2, IPrincipal2 interface [Task Scheduler], IPrincipal2 interface [Task Scheduler],described, taskschd.iprincipal2, taskschd/IPrincipal2
-ms.topic: interface
 f1_keywords:
 - taskschd/IPrincipal2
 dev_langs:

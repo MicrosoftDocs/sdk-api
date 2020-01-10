@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: ab64b790-848a-4c7f-9bf9-4a9b40bcc9cb
 ms.date: 12/05/2018
 ms.keywords: GetRightsOnClearChannel, GetRightsOnClearChannel method [windows Media Device Manager], GetRightsOnClearChannel method [windows Media Device Manager],ISCPSecureQuery3 interface, ISCPSecureQuery3 interface [windows Media Device Manager],GetRightsOnClearChannel method, ISCPSecureQuery3.GetRightsOnClearChannel, ISCPSecureQuery3::GetRightsOnClearChannel, ISCPSecureQuery3GetRightsOnClearChannel, mswmdm/ISCPSecureQuery3::GetRightsOnClearChannel, wmdm.iscpsecurequery3_getrightsonclearchannel
-ms.topic: method
 f1_keywords:
 - mswmdm/ISCPSecureQuery3.GetRightsOnClearChannel
 dev_langs:

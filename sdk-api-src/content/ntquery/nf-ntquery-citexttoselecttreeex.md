@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_7jg8.htm
 ms.date: 12/05/2018
 ms.keywords: CITextToSelectTreeEx, CITextToSelectTreeEx function [Indexing Service], _idxs_CITextToSelectTreeEx, indexsrv.citexttoselecttreeex, ntquery/CITextToSelectTreeEx
-ms.topic: function
 f1_keywords:
 - ntquery/CITextToSelectTreeEx
 dev_langs:

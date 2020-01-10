@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 76a376e4-bd0d-4b8b-b49a-162630c47220
 ms.date: 12/05/2018
 ms.keywords: CreateObjectStub, CreateObjectStub method [Windows Management Instrumentation], CreateObjectStub method [Windows Management Instrumentation],IUnsecuredApartment interface, IUnsecuredApartment interface [Windows Management Instrumentation],CreateObjectStub method, IUnsecuredApartment.CreateObjectStub, IUnsecuredApartment::CreateObjectStub, _hmm_iunsecuredapartment_createobjectstub, wbemcli/IUnsecuredApartment::CreateObjectStub, wmi.iunsecuredapartment_createobjectstub
-ms.topic: method
 f1_keywords:
 - wbemcli/IUnsecuredApartment.CreateObjectStub
 dev_langs:

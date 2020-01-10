@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: b2efd694-67ff-4e6e-9a47-d0ce70dbd85a
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [Windows Animation], Enable method [Windows Animation],IUIAnimationTimer interface, IUIAnimationTimer interface [Windows Animation],Enable method, IUIAnimationTimer.Enable, IUIAnimationTimer::Enable, uianimation.iuianimationtimer_enable, uianimation/IUIAnimationTimer::Enable
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationTimer.Enable
 dev_langs:

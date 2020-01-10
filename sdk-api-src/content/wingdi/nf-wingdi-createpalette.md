@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: f3462198-9360-4b77-ac62-9fe21ec666be
 ms.date: 12/05/2018
 ms.keywords: CreatePalette, CreatePalette function [Windows GDI], _win32_CreatePalette, gdi.createpalette, wingdi/CreatePalette
-ms.topic: function
 f1_keywords:
 - wingdi/CreatePalette
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: c9217444-fc9d-4b1e-abb2-7e1badd32052
 ms.date: 12/05/2018
 ms.keywords: CreateGradientStop, CreateGradientStop method [XPS Documents and Packaging], CreateGradientStop method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateGradientStop method, IXpsOMObjectFactory.CreateGradientStop, IXpsOMObjectFactory::CreateGradientStop, xps.ixpsomobjectfactory_creategradientstop, xpsobjectmodel/IXpsOMObjectFactory::CreateGradientStop
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMObjectFactory.CreateGradientStop
 dev_langs:

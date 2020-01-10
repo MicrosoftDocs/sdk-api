@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 538ac798-7722-434f-88bd-a7655d4c470c
 ms.date: 12/05/2018
 ms.keywords: GetColor, GetColor method [Windows Shell], GetColor method [Windows Shell],IVisualProperties interface, IVisualProperties interface [Windows Shell],GetColor method, IVisualProperties.GetColor, IVisualProperties::GetColor, _shell_IVisualProperties_GetColor, shell.IVisualProperties_GetColor, shobjidl/IVisualProperties::GetColor
-ms.topic: method
 f1_keywords:
 - shobjidl/IVisualProperties.GetColor
 dev_langs:

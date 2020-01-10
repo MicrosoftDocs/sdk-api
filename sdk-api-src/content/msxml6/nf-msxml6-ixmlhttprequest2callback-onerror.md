@@ -7,7 +7,6 @@ tech.root: ixhr2
 ms.assetid: 532C97A7-B952-47BE-A9C7-5B1E5AB4C3D3
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnError method, IXMLHTTPRequest2Callback.OnError, IXMLHTTPRequest2Callback::OnError, OnError, OnError method [XMLHttpRequest2], OnError method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_onerror, msxml6/IXMLHTTPRequest2Callback::OnError
-ms.topic: method
 f1_keywords:
 - msxml6/IXMLHTTPRequest2Callback.OnError
 dev_langs:

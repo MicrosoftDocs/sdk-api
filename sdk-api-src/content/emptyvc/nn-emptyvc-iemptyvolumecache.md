@@ -7,7 +7,6 @@ tech.root: lwef
 ms.assetid: ba3797c2-f82c-4721-b72d-8552683a10d2
 ms.date: 12/05/2018
 ms.keywords: IEmptyVolumeCache, IEmptyVolumeCache interface [Legacy Windows Environment Features], IEmptyVolumeCache interface [Legacy Windows Environment Features],described, _win32_IEmptyVolumeCache, emptyvc/IEmptyVolumeCache, lwef.iemptyvolumecache, shell.iemptyvolumecache
-ms.topic: interface
 f1_keywords:
 - emptyvc/IEmptyVolumeCache
 dev_langs:

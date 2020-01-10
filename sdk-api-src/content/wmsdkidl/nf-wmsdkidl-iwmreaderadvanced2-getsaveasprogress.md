@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 0317f010-4b7f-4f79-9460-ba6b1e904ffa
 ms.date: 12/05/2018
 ms.keywords: GetSaveAsProgress, GetSaveAsProgress method [windows Media Format], GetSaveAsProgress method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetSaveAsProgress method, IWMReaderAdvanced2.GetSaveAsProgress, IWMReaderAdvanced2::GetSaveAsProgress, IWMReaderAdvanced2GetSaveAsProgress, wmformat.iwmreaderadvanced2_getsaveasprogress, wmsdkidl/IWMReaderAdvanced2::GetSaveAsProgress
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderAdvanced2.GetSaveAsProgress
 dev_langs:

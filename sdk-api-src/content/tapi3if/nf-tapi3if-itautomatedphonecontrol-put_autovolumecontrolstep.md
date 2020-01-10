@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 19766507-7a15-4c45-91bd-4b49ceb177e6
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_AutoVolumeControlStep method, ITAutomatedPhoneControl.put_AutoVolumeControlStep, ITAutomatedPhoneControl::put_AutoVolumeControlStep, _tapi3_itautomatedphonecontrol_put_autovolumecontrolstep, put_AutoVolumeControlStep, put_AutoVolumeControlStep method [TAPI 2.2], put_AutoVolumeControlStep method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_put_autovolumecontrolstep, tapi3if/ITAutomatedPhoneControl::put_AutoVolumeControlStep
-ms.topic: method
 f1_keywords:
 - tapi3if/ITAutomatedPhoneControl.put_AutoVolumeControlStep
 dev_langs:

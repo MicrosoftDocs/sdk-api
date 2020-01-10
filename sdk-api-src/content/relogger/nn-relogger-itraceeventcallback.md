@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 70139402-86e6-43b4-9016-42854ef998fd
 ms.date: 12/05/2018
 ms.keywords: IEventCallback, IEventCallback interface [ETW], IEventCallback interface [ETW],described, ITraceEventCallback, etw.ieventcallback, relogger/ITraceEventCallback
-ms.topic: interface
 f1_keywords:
 - relogger/IEventCallback
 dev_langs:

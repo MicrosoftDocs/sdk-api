@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5391444a-53b6-48c9-9a94-d045b3f97182
 ms.date: 12/05/2018
 ms.keywords: IAppPublisher, IAppPublisher interface [Windows Shell], IAppPublisher interface [Windows Shell],described, inet_IAppPublisher, shappmgr/IAppPublisher, shell.IAppPublisher
-ms.topic: interface
 f1_keywords:
 - shappmgr/IAppPublisher
 dev_langs:

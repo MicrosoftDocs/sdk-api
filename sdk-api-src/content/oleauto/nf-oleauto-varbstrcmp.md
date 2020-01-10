@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 0b7d8735-19d5-4f6e-8b55-05f2c73ef3f8
 ms.date: 12/05/2018
 ms.keywords: NORM_IGNORECASE, NORM_IGNOREKANATYPE, NORM_IGNOREKASHIDA, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREWIDTH, VarBstrCmp, VarBstrCmp function [Automation], _oa96_VarBstrCmp, automat.varbstrcmp, oleauto/VarBstrCmp
-ms.topic: function
 f1_keywords:
 - oleauto/VarBstrCmp
 dev_langs:

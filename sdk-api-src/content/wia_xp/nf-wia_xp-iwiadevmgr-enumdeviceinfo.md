@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\enumdeviceinfo.htm
 ms.date: 12/05/2018
 ms.keywords: EnumDeviceInfo, EnumDeviceInfo method [WIA], EnumDeviceInfo method [WIA],IWiaDevMgr interface, IWiaDevMgr interface [WIA],EnumDeviceInfo method, IWiaDevMgr.EnumDeviceInfo, IWiaDevMgr::EnumDeviceInfo, _wia_IWiaDevMgr_EnumDeviceInfo, wia._wia_IWiaDevMgr_EnumDeviceInfo, wia_xp/IWiaDevMgr::EnumDeviceInfo
-ms.topic: method
 f1_keywords:
 - wia_xp/IWiaDevMgr.EnumDeviceInfo
 dev_langs:

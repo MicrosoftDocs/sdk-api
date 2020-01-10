@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 74298e6f-b29a-4fa7-98d1-f81270fcbc0e
 ms.date: 12/05/2018
 ms.keywords: EventDescSetTask, EventDescSetTask function [ETW], base.eventdescsettask_func, etw.eventdescsettask_func, evntprov/EventDescSetTask
-ms.topic: function
 f1_keywords:
 - evntprov/EventDescSetTask
 dev_langs:

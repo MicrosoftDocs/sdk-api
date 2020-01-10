@@ -7,7 +7,6 @@ tech.root: NAP
 ms.assetid: 7d8a87fc-2817-4f24-8d06-1656b79da6d2
 ms.date: 12/05/2018
 ms.keywords: Ipv6Address, Ipv6Address structure [NAP], nap.ipv6address_struct, naptypes/Ipv6Address
-ms.topic: struct
 f1_keywords:
 - naptypes/Ipv6Address
 dev_langs:

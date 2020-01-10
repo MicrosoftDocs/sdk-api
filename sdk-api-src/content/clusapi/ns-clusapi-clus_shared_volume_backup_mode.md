@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: e5ae8cc7-bff8-4293-920e-3a704d1bd7e5
 ms.date: 12/05/2018
 ms.keywords: '*PCLUS_SHARED_VOLUME_BACKUP_MODE, CLUS_SHARED_VOLUME_BACKUP_MODE, CLUS_SHARED_VOLUME_BACKUP_MODE structure [Failover Cluster], PCLUS_SHARED_VOLUME_BACKUP_MODE, PCLUS_SHARED_VOLUME_BACKUP_MODE structure pointer [Failover Cluster], VolumeBackupInProgress, VolumeBackupNone, clusapi/CLUS_SHARED_VOLUME_BACKUP_MODE, clusapi/PCLUS_SHARED_VOLUME_BACKUP_MODE, mscs.clus_shared_volume_backup_mode'
-ms.topic: struct
 f1_keywords:
 - clusapi/CLUS_SHARED_VOLUME_BACKUP_MODE
 dev_langs:

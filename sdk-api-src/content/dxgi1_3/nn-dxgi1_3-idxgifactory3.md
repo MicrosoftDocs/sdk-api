@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 63B7A8E3-9A8F-409F-84DA-E9303C52A146
 ms.date: 12/05/2018
 ms.keywords: IDXGIFactory3, IDXGIFactory3 interface [DXGI], IDXGIFactory3 interface [DXGI],described, direct3ddxgi.idxgifactory3, dxgi1_3/IDXGIFactory3
-ms.topic: interface
 f1_keywords:
 - dxgi1_3/IDXGIFactory3
 dev_langs:

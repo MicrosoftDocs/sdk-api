@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: d5c8d6a0-6bb1-4ecb-aaba-665d81cb3d14
 ms.date: 12/05/2018
 ms.keywords: ReleaseSemaphoreWhenCallbackReturns, ReleaseSemaphoreWhenCallbackReturns function, base.releasesemaphorewhencallbackreturns, threadpoolapiset/ReleaseSemaphoreWhenCallbackReturns, winbase/ReleaseSemaphoreWhenCallbackReturns
-ms.topic: function
 f1_keywords:
 - threadpoolapiset/ReleaseSemaphoreWhenCallbackReturns
 dev_langs:

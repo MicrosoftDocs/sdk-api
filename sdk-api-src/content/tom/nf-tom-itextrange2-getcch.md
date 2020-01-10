@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: a6f06062-3c8f-40c0-9b5d-6c22a647bfbc
 ms.date: 12/05/2018
 ms.keywords: GetCch, GetCch method [Windows Controls], GetCch method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetCch method, ITextRange2.GetCch, ITextRange2::GetCch, controls.itextrange2_getcch, tom/ITextRange2::GetCch
-ms.topic: method
 f1_keywords:
 - tom/ITextRange2.GetCch
 dev_langs:

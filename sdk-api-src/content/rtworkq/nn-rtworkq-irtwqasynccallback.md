@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: E595C072-98F8-4231-9C8F-A8393D751DE6
 ms.date: 12/05/2018
 ms.keywords: IRtwqAsyncCallback, IRtwqAsyncCallback interface, IRtwqAsyncCallback interface,described, base.irtwqasynccallback, rtworkq/IRtwqAsyncCallback
-ms.topic: interface
 f1_keywords:
 - rtworkq/IRtwqAsyncCallback
 dev_langs:

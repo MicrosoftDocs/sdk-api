@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: 59bd7a71-0189-4c4d-a737-e6a3f09a533d
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents3 interface [Offline Files],TransparentCacheItemNotify method, IOfflineFilesEvents3.TransparentCacheItemNotify, IOfflineFilesEvents3::TransparentCacheItemNotify, TransparentCacheItemNotify, TransparentCacheItemNotify method [Offline Files], TransparentCacheItemNotify method [Offline Files],IOfflineFilesEvents3 interface, cscobj/IOfflineFilesEvents3::TransparentCacheItemNotify, of.iofflinefilesevents3_transparentcacheitemnotify
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesEvents3.TransparentCacheItemNotify
 dev_langs:

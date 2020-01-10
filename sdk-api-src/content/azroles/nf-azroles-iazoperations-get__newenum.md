@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 20c47a77-936d-45b2-a3c3-9087c1af8667
 ms.date: 12/05/2018
 ms.keywords: AzOperations object [Security],_NewEnum property, IAzOperations interface [Security],_NewEnum property, IAzOperations._NewEnum, IAzOperations.get__NewEnum, IAzOperations::_NewEnum, IAzOperations::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],AzOperations object, _NewEnum property [Security],IAzOperations interface, azroles/IAzOperations::_NewEnum, azroles/IAzOperations::get__NewEnum, get__NewEnum, security.iazoperations_newenum
-ms.topic: method
 f1_keywords:
 - azroles/IAzOperations._NewEnum
 dev_langs:

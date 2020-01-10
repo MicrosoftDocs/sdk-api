@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 1d0cc0a4-effb-4dea-b6ba-ca1a4e1e394e
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_DestroyDevice, PDXVAHDSW_DestroyDevice callback, PDXVAHDSW_DestroyDevice callback function [Media Foundation], dxvahd/PDXVAHDSW_DestroyDevice, mf.pdxvahdsw_destroydevice
-ms.topic: callback
 f1_keywords:
 - dxvahd/PDXVAHDSW_DestroyDevice
 dev_langs:

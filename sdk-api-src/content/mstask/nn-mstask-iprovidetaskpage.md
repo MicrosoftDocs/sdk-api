@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 58be7ea9-022f-46a0-9f27-9b226000a8cc
 ms.date: 12/05/2018
 ms.keywords: IProvideTaskPage, IProvideTaskPage interface [Task Scheduler], IProvideTaskPage interface [Task Scheduler],described, _msb_iprovidetaskpage, mstask/IProvideTaskPage, taskschd.iprovidetaskpage
-ms.topic: interface
 f1_keywords:
 - mstask/IProvideTaskPage
 dev_langs:

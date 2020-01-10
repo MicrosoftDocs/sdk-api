@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 727149b4-31b0-4fd8-b0fa-eb773edb171e
 ms.date: 12/05/2018
 ms.keywords: WSDXML_ELEMENT, WSDXML_ELEMENT structure, _WSDXML_ELEMENT, ncd.wsdxml_element_struct, wsdxmldom/WSDXML_ELEMENT
-ms.topic: struct
 f1_keywords:
 - wsdxmldom/WSDXML_ELEMENT
 dev_langs:

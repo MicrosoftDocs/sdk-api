@@ -5,7 +5,6 @@ description: Specifies an orientation operation to be performed by a video proce
 tech.root: mf
 ms.assetid: 1196949a-a9d4-4a82-8300-d84b5960f6ef
 ms.date: 05/28/2019
-ms.topic: enum
 f1_keywords:
 - D3D12_VIDEO_PROCESS_ORIENTATION
 dev_langs:

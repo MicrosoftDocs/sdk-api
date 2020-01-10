@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 56aa5fcd-b46a-4807-ba51-9b4b6d28ceeb
 ms.date: 12/05/2018
 ms.keywords: ICatRegister interface [COM],RegisterClassReqCategories method, ICatRegister.RegisterClassReqCategories, ICatRegister::RegisterClassReqCategories, RegisterClassReqCategories, RegisterClassReqCategories method [COM], RegisterClassReqCategories method [COM],ICatRegister interface, _com_icatregister_registerclassreqcategories, com.icatregister_registerclassreqcategories, comcat/ICatRegister::RegisterClassReqCategories
-ms.topic: method
 f1_keywords:
 - comcat/ICatRegister.RegisterClassReqCategories
 dev_langs:

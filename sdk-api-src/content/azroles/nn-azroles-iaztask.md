@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 90eb19c9-1490-43f4-ab4b-393e825aeb2f
 ms.date: 12/05/2018
 ms.keywords: IAzTask, IAzTask interface [Security], IAzTask interface [Security],described, azroles/IAzTask, security.iaztask
-ms.topic: interface
 f1_keywords:
 - azroles/IAzTask
 dev_langs:

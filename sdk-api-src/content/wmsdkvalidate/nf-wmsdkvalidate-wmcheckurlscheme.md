@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: b62c8cd1-0b70-4cae-8e9e-bad6634f2dfa
 ms.date: 12/05/2018
 ms.keywords: WMCheckURLScheme, WMCheckURLScheme function [windows Media Format], wmformat.wmcheckurlscheme, wmsdkvalidate/WMCheckURLScheme
-ms.topic: function
 f1_keywords:
 - wmsdkvalidate/WMCheckURLScheme
 dev_langs:

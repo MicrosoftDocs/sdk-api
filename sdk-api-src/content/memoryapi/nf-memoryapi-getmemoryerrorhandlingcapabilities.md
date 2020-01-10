@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 03a22996-7275-4c9b-838e-424ad92c6606
 ms.date: 12/05/2018
 ms.keywords: GetMemoryErrorHandlingCapabilities, GetMemoryErrorHandlingCapabilities function, MEHC_PATROL_SCRUBBER_PRESENT, base.getmemoryerrorhandlingcapabilities, winbase/GetMemoryErrorHandlingCapabilities
-ms.topic: function
 f1_keywords:
 - memoryapi/GetMemoryErrorHandlingCapabilities
 dev_langs:

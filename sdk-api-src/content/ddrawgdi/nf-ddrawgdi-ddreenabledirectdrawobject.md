@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddreenabledirectdrawobject.htm
 ms.date: 12/05/2018
 ms.keywords: DdReenableDirectDrawObject, DdReenableDirectDrawObject function [Windows API], GdiEntry10, _dxgkernel_ddreenabledirectdrawobject, ddrawgdi/DdReenableDirectDrawObject, ddrawgdi/GdiEntry10, winprog._dxgkernel_ddreenabledirectdrawobject, winui._dxgkernel_ddreenabledirectdrawobject
-ms.topic: function
 f1_keywords:
 - ddrawgdi/DdReenableDirectDrawObject
 dev_langs:

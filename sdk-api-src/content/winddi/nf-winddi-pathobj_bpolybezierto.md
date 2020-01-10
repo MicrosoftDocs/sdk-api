@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 0937c816-b205-4c5d-b4b6-74c3e7fdb0ce
 ms.date: 12/05/2018
 ms.keywords: PATHOBJ_bPolyBezierTo, PATHOBJ_bPolyBezierTo function [Display Devices], display.pathobj_bpolybezierto, gdifncs_787796de-11ca-457d-8084-8eb0af187eef.xml, winddi/PATHOBJ_bPolyBezierTo
-ms.topic: function
 f1_keywords:
 - winddi/PATHOBJ_bPolyBezierTo
 dev_langs:

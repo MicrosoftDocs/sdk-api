@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 53fd70eb-2694-4c8c-97cd-6ee9f2606ced
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetNumAddressIDs, TSPI_lineGetNumAddressIDs function [TAPI 2.2], _tspi_tspi_linegetnumaddressids, tspi.tspi_linegetnumaddressids, tspi/TSPI_lineGetNumAddressIDs
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineGetNumAddressIDs
 dev_langs:

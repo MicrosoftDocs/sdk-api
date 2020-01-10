@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: bf5fd250-5744-4bb7-ad4f-45f754e75460
 ms.date: 12/05/2018
 ms.keywords: SetupDestroyDiskSpaceList, SetupDestroyDiskSpaceList function [Setup API], _setupapi_setupdestroydiskspacelist, setup.setupdestroydiskspacelist, setupapi/SetupDestroyDiskSpaceList
-ms.topic: function
 f1_keywords:
 - setupapi/SetupDestroyDiskSpaceList
 dev_langs:

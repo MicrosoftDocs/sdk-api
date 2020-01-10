@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 88a172f5-2226-46e9-845e-c67b0a885905
 ms.date: 12/05/2018
 ms.keywords: RpcCertGeneratePrincipalName, RpcCertGeneratePrincipalName function [RPC], RpcCertGeneratePrincipalNameA, RpcCertGeneratePrincipalNameW, _rpc_rpccertgenerateprincipalname, rpc.rpccertgenerateprincipalname, rpcssl/RpcCertGeneratePrincipalName, rpcssl/RpcCertGeneratePrincipalNameA, rpcssl/RpcCertGeneratePrincipalNameW
-ms.topic: function
 f1_keywords:
 - rpcssl/RpcCertGeneratePrincipalName
 dev_langs:

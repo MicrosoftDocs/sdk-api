@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 57c36ecd-7a24-4055-b373-9193fd945363
 ms.date: 12/05/2018
 ms.keywords: IWbemPathKeyList interface [Windows Management Instrumentation],RemoveAllKeys method, IWbemPathKeyList.RemoveAllKeys, IWbemPathKeyList::RemoveAllKeys, RemoveAllKeys, RemoveAllKeys method [Windows Management Instrumentation], RemoveAllKeys method [Windows Management Instrumentation],IWbemPathKeyList interface, _hmm_iwbempathkeylist_removeallkeys, wmi.iwbempathkeylist_removeallkeys, wmiutils/IWbemPathKeyList::RemoveAllKeys
-ms.topic: method
 f1_keywords:
 - wmiutils/IWbemPathKeyList.RemoveAllKeys
 dev_langs:

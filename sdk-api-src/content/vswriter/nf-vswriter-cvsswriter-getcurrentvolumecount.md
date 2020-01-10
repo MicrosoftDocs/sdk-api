@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 5f553a46-10ee-475e-b028-2652c74fbe5d
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],GetCurrentVolumeCount method, CVssWriter.GetCurrentVolumeCount, CVssWriter::GetCurrentVolumeCount, GetCurrentVolumeCount, GetCurrentVolumeCount method [VSS], GetCurrentVolumeCount method [VSS],CVssWriter interface, _win32_cvsswriter_getcurrentvolumecount, base.cvsswriter_getcurrentvolumecount, vswriter/CVssWriter::GetCurrentVolumeCount
-ms.topic: method
 f1_keywords:
 - vswriter/CVssWriter.GetCurrentVolumeCount
 dev_langs:

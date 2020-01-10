@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: EC2CF78B-5CED-494A-9ED3-407A4B6CD113
 ms.date: 12/05/2018
 ms.keywords: ID2D1GeometryRealization, ID2D1GeometryRealization interface [Direct2D], ID2D1GeometryRealization interface [Direct2D],described, d2d1_2/ID2D1GeometryRealization, direct2d.id2d1geometryrealization
-ms.topic: interface
 f1_keywords:
 - d2d1_2/ID2D1GeometryRealization
 dev_langs:

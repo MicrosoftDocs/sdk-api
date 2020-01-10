@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 4b8d391e-b679-4adb-8b01-2899996ede46
 ms.date: 12/05/2018
 ms.keywords: 4b8d391e-b679-4adb-8b01-2899996ede46, EndFrame, EndFrame method [Media Foundation], EndFrame method [Media Foundation],IDirectXVideoDecoder interface, IDirectXVideoDecoder interface [Media Foundation],EndFrame method, IDirectXVideoDecoder.EndFrame, IDirectXVideoDecoder::EndFrame, dxva2api/IDirectXVideoDecoder::EndFrame, mf.idirectxvideodecoder_endframe
-ms.topic: method
 f1_keywords:
 - dxva2api/IDirectXVideoDecoder.EndFrame
 dev_langs:

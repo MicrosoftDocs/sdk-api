@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: e163da81-d854-4f56-8eef-2788f1b566ba
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_QC_STATEMENT, CERT_QC_STATEMENT, CERT_QC_STATEMENT structure [Security], PCERT_QC_STATEMENT, PCERT_QC_STATEMENT structure pointer [Security], security.cert_qc_statement, szOID_QC_EU_COMPLIANCE, szOID_QC_SSCD, wincrypt/CERT_QC_STATEMENT, wincrypt/PCERT_QC_STATEMENT'
-ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_QC_STATEMENT
 dev_langs:

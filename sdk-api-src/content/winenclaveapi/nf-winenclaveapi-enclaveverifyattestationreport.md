@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: D74F89FB-9F06-4AA1-9E2E-C9265B3C5B44
 ms.date: 12/05/2018
 ms.keywords: EnclaveVerifyAttestationReport, EnclaveVerifyAttestationReport function, base.enclaveverifyattestationreport, winenclaveapi/EnclaveVerifyAttestationReport
-ms.topic: function
 f1_keywords:
 - winenclaveapi/EnclaveVerifyAttestationReport
 dev_langs:

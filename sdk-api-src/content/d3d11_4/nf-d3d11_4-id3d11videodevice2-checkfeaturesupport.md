@@ -4,7 +4,6 @@ title: ID3D11VideoDevice2::CheckFeatureSupport
 description: Gets information about the features that are supported by the current video driver.
 ms.date: 4/26/2019
 ms.keywords: ID3D11VideoDevice2::CheckFeatureSupport
-ms.topic: language-reference
 f1_keywords:
 - ID3D11VideoDevice2::CheckFeatureSupport
 dev_langs:

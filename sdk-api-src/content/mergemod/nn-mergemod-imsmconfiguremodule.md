@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 90e09449-6211-4eae-8fd1-446e0187ed6c
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigureModule, IMsmConfigureModule interface, IMsmConfigureModule interface,described, mergemod/IMsmConfigureModule, setup.imsmconfiguremodule_interface
-ms.topic: interface
 f1_keywords:
 - mergemod/IMsmConfigureModule
 dev_langs:

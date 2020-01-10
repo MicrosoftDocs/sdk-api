@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 99f9c549-e4b1-480b-97a4-7a29c9cdb649
 ms.date: 12/05/2018
 ms.keywords: AdviseSurfaceAllocator, AdviseSurfaceAllocator method [DirectShow], AdviseSurfaceAllocator method [DirectShow],IVMRSurfaceAllocatorNotify9 interface, IVMRSurfaceAllocatorNotify9 interface [DirectShow],AdviseSurfaceAllocator method, IVMRSurfaceAllocatorNotify9.AdviseSurfaceAllocator, IVMRSurfaceAllocatorNotify9::AdviseSurfaceAllocator, IVMRSurfaceAllocatorNotify9AdviseSurfaceAllocator, dshow.ivmrsurfaceallocatornotify9_advisesurfaceallocator, vmr9/IVMRSurfaceAllocatorNotify9::AdviseSurfaceAllocator
-ms.topic: method
 f1_keywords:
 - vmr9/IVMRSurfaceAllocatorNotify9.AdviseSurfaceAllocator
 dev_langs:

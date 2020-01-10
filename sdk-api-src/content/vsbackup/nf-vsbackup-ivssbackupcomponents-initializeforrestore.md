@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: a8ba1463-4da7-4539-8ade-b57ecda0a645
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],InitializeForRestore method, IVssBackupComponents.InitializeForRestore, IVssBackupComponents::InitializeForRestore, InitializeForRestore, InitializeForRestore method [VSS], InitializeForRestore method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_initializeforrestore, base.ivssbackupcomponents_initializeforrestore, vsbackup/IVssBackupComponents::InitializeForRestore
-ms.topic: method
 f1_keywords:
 - vsbackup/IVssBackupComponents.InitializeForRestore
 dev_langs:

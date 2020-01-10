@@ -7,7 +7,6 @@ tech.root: Input_TouchHitTest
 ms.assetid: 443d12f2-9f26-4e1e-9bf3-cd97b4026399
 ms.date: 12/05/2018
 ms.keywords: EvaluateProximityToPolygon, EvaluateProximityToPolygon function, input_touchhittest.evaluateproximitytopolygon, touch_hittest.evaluateproximitytopolygon, winuser/EvaluateProximityToPolygon
-ms.topic: function
 f1_keywords:
 - winuser/EvaluateProximityToPolygon
 dev_langs:

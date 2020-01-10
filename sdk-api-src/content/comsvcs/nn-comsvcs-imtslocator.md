@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: afa559bc-5ac2-4487-bb13-25f30c5f4033
 ms.date: 12/05/2018
 ms.keywords: IMTSLocator, IMTSLocator interface [COM+], IMTSLocator interface [COM+],described, _dtc_IMtsLocator_Interface, comsvcs/IMTSLocator, cos.imtslocator
-ms.topic: interface
 f1_keywords:
 - comsvcs/IMTSLocator
 dev_langs:

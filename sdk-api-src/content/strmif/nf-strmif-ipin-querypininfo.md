@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 1a7c85ce-46f1-4928-9e2a-3a4bd96dc771
 ms.date: 12/05/2018
 ms.keywords: IPin interface [DirectShow],QueryPinInfo method, IPin.QueryPinInfo, IPin::QueryPinInfo, IPinQueryPinInfo, QueryPinInfo, QueryPinInfo method [DirectShow], QueryPinInfo method [DirectShow],IPin interface, dshow.ipin_querypininfo, strmif/IPin::QueryPinInfo
-ms.topic: method
 f1_keywords:
 - strmif/IPin.QueryPinInfo
 dev_langs:

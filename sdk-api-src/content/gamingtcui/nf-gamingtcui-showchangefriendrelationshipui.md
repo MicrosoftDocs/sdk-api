@@ -7,7 +7,6 @@ tech.root: tcui
 ms.assetid: 1066CEA3-DCF1-4B68-8C77-E23B1903C847
 ms.date: 12/05/2018
 ms.keywords: ShowChangeFriendRelationshipUI, ShowChangeFriendRelationshipUI function, gamingtcui/ShowChangeFriendRelationshipUI, tcui.showchangefriendrelationshipui
-ms.topic: function
 f1_keywords:
 - gamingtcui/ShowChangeFriendRelationshipUI
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c55107a3-ae0a-4b46-80a3-8a731b47976c
 ms.date: 12/05/2018
 ms.keywords: IFileDialogEvents, IFileDialogEvents interface [Windows Shell], IFileDialogEvents interface [Windows Shell],described, shell.IFileDialogEvents, shell_IFileDialogEvents, shobjidl_core/IFileDialogEvents
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IFileDialogEvents
 dev_langs:

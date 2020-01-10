@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 25a76128-13d9-47dd-9c73-1fbf06a908be
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_BSS_ENTRY, CF Poll Request, CF-Pollable, ESS, IBSS, PWLAN_BSS_ENTRY, PWLAN_BSS_ENTRY structure pointer [NativeWIFI], Privacy, WLAN_BSS_ENTRY, WLAN_BSS_ENTRY structure [NativeWIFI], dot11_BSS_type_independent, dot11_BSS_type_infrastructure, nwifi.wlan_bss_entry, wlanapi/PWLAN_BSS_ENTRY, wlanapi/WLAN_BSS_ENTRY'
-ms.topic: struct
 f1_keywords:
 - wlanapi/WLAN_BSS_ENTRY
 dev_langs:

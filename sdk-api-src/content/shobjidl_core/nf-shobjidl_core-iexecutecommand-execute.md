@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 388136bb-a5c0-48c0-adfc-f5154910fd72
 ms.date: 12/05/2018
 ms.keywords: Execute, Execute method [Windows Shell], Execute method [Windows Shell],IExecuteCommand interface, IExecuteCommand interface [Windows Shell],Execute method, IExecuteCommand.Execute, IExecuteCommand::Execute, _shell_IExecuteCommand_Execute, shell.IExecuteCommand_Execute, shobjidl_core/IExecuteCommand::Execute
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IExecuteCommand.Execute
 dev_langs:

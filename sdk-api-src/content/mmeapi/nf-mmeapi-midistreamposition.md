@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 77d859bb-1f1b-4a95-939e-88bdf31b1959
 ms.date: 12/05/2018
 ms.keywords: _win32_midiStreamPosition, midiStreamPosition, midiStreamPosition function [Windows Multimedia], mmeapi/midiStreamPosition, multimedia.midistreamposition
-ms.topic: function
 f1_keywords:
 - mmeapi/midiStreamPosition
 dev_langs:

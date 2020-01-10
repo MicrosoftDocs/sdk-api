@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 959aeb87-b661-4567-a6fd-2d28be6b0a02
 ms.date: 12/05/2018
 ms.keywords: GetPrivateData, GetPrivateData method [Microsoft TV Technologies], GetPrivateData method [Microsoft TV Technologies],IDvbLinkageDescriptor interface, IDvbLinkageDescriptor interface [Microsoft TV Technologies],GetPrivateData method, IDvbLinkageDescriptor.GetPrivateData, IDvbLinkageDescriptor::GetPrivateData, dvbsiparser/IDvbLinkageDescriptor::GetPrivateData, mstv.idvblinkagedescriptor_getprivatedata
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbLinkageDescriptor.GetPrivateData
 dev_langs:

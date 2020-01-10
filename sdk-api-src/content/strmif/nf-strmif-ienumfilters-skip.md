@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 594e25b1-03a8-4b6c-965c-f34dae9f3d3b
 ms.date: 12/05/2018
 ms.keywords: IEnumFilters interface [DirectShow],Skip method, IEnumFilters.Skip, IEnumFilters::Skip, IEnumFiltersSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumFilters interface, dshow.ienumfilters_skip, strmif/IEnumFilters::Skip
-ms.topic: method
 f1_keywords:
 - strmif/IEnumFilters.Skip
 dev_langs:

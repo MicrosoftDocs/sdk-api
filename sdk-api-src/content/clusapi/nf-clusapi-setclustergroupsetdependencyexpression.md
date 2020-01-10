@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 1bde6ef6-a415-4fa2-8618-0304c38d9434
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_GROUP_GROUPSET_DEPENDENCY_EXPRESSION, PCLUSAPI_SET_CLUSTER_GROUP_GROUPSET_DEPENDENCY_EXPRESSION function [Failover Cluster], SetClusterGroupSetDependencyExpression, SetClusterGroupSetDependencyExpression function [Failover Cluster], clusapi/PCLUSAPI_SET_CLUSTER_GROUP_GROUPSET_DEPENDENCY_EXPRESSION, clusapi/SetClusterGroupSetDependencyExpression, mscs.setclustergroupcollectiondependencyexpression
-ms.topic: function
 f1_keywords:
 - clusapi/SetClusterGroupSetDependencyExpression
 dev_langs:

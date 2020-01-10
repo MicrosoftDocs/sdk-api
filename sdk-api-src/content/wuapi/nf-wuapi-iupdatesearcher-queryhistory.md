@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 4d3027a2-ba97-4dfc-9a15-c106aaf6c2b9
 ms.date: 12/05/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],QueryHistory method, IUpdateSearcher.QueryHistory, IUpdateSearcher::QueryHistory, QueryHistory, QueryHistory method [Windows Update Agent], QueryHistory method [Windows Update Agent],IUpdateSearcher interface, wua.iupdatesearcher_queryhistory, wuapi/IUpdateSearcher::QueryHistory
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdateSearcher.QueryHistory
 dev_langs:

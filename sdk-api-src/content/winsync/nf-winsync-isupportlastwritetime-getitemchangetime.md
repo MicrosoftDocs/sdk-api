@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 15cbd398-81d9-4ea6-bfe4-1bf00510b419
 ms.date: 12/05/2018
 ms.keywords: GetItemChangeTime, GetItemChangeTime method [Windows Sync], GetItemChangeTime method [Windows Sync],ISupportLastWriteTime interface, ISupportLastWriteTime interface [Windows Sync],GetItemChangeTime method, ISupportLastWriteTime.GetItemChangeTime, ISupportLastWriteTime::GetItemChangeTime, winsync.isupportlastwritetime_getitemchangetime, winsync/ISupportLastWriteTime::GetItemChangeTime
-ms.topic: method
 f1_keywords:
 - winsync/ISupportLastWriteTime.GetItemChangeTime
 dev_langs:

@@ -4,7 +4,6 @@ title: LPWSPGETOVERLAPPEDRESULT
 description: The LPWSPGetOverlappedResult function returns the results of an overlapped operation on the specified socket.
 ms.date: 4/26/2019
 ms.keywords: LPWSPGETOVERLAPPEDRESULT
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: e06da4c5-6641-47f8-9dd9-4a1593e11f7b
 ms.date: 12/05/2018
 ms.keywords: ImageRemoveCertificate, ImageRemoveCertificate function, _win32_imageremovecertificate, base.imageremovecertificate, imagehlp/ImageRemoveCertificate
-ms.topic: function
 f1_keywords:
 - imagehlp/ImageRemoveCertificate
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 55D6FD6F-0FD5-41F6-967B-F5600E19C3EF
 ms.date: 12/05/2018
 ms.keywords: LsaQueryCAPs, LsaQueryCAPs function [Security], ntlsa/LsaQueryCAPs, security.lsaquerycaps
-ms.topic: function
 f1_keywords:
 - ntlsa/LsaQueryCAPs
 dev_langs:

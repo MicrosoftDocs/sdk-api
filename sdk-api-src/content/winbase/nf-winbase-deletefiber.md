@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: e1a7453a-6878-49dd-831f-1857a489e97f
 ms.date: 12/05/2018
 ms.keywords: DeleteFiber, DeleteFiber function, _win32_deletefiber, base.deletefiber, winbase/DeleteFiber
-ms.topic: function
 f1_keywords:
 - winbase/DeleteFiber
 dev_langs:

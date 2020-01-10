@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 919c26f4-6954-462a-8b4a-530e78bb72e6
 ms.date: 12/05/2018
 ms.keywords: IMDSPDevice3, IMDSPDevice3 interface [windows Media Device Manager], IMDSPDevice3 interface [windows Media Device Manager],described, IMDSPDevice3Interface, mswmdm/IMDSPDevice3, wmdm.imdspdevice3
-ms.topic: interface
 f1_keywords:
 - mswmdm/IMDSPDevice3
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 5ae3f144-24c4-4833-ac8f-44e12df6fbc3
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],~CVssWriter method, CVssWriter.~CVssWriter, CVssWriter::~CVssWriter, _win32_cvsswriter_cvsswriterdestructor, base.cvsswriter_cvsswriterdestructor, vswriter/CVssWriter::~CVssWriter, ~CVssWriter, ~CVssWriter method [VSS], ~CVssWriter method [VSS],CVssWriter interface
-ms.topic: method
 f1_keywords:
 - vswriter/CVssWriter.~CVssWriter
 dev_langs:

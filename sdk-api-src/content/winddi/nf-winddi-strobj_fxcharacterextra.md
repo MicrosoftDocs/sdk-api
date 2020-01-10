@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 92989c16-5e82-4df2-9298-28b78757bd54
 ms.date: 12/05/2018
 ms.keywords: STROBJ_fxCharacterExtra, STROBJ_fxCharacterExtra function [Display Devices], display.strobj_fxcharacterextra, gdifncs_4f8ab918-f3b4-47d8-9297-ae9e658f2bad.xml, winddi/STROBJ_fxCharacterExtra
-ms.topic: function
 f1_keywords:
 - winddi/STROBJ_fxCharacterExtra
 dev_langs:

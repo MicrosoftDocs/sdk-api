@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: b4ba765f-537b-4021-9ecc-d400d9b94723
 ms.date: 12/05/2018
 ms.keywords: HTTP_RECEIVE_REQUEST_ENTITY_BODY_FLAG_FILL_BUFFER, HttpReceiveRequestEntityBody, HttpReceiveRequestEntityBody function [HTTP], _http_httpreceiverequestentitybody, http.httpreceiverequestentitybody, http/HttpReceiveRequestEntityBody
-ms.topic: function
 f1_keywords:
 - http/HttpReceiveRequestEntityBody
 dev_langs:

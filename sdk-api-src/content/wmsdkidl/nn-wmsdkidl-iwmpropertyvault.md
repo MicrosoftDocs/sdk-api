@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 0e51a9be-afd4-430b-8339-f45e8f9a7d20
 ms.date: 12/05/2018
 ms.keywords: IWMPropertyVault, IWMPropertyVault interface [windows Media Format], IWMPropertyVault interface [windows Media Format],described, IWMPropertyVaultInterface, wmformat.iwmpropertyvault, wmsdkidl/IWMPropertyVault
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMPropertyVault
 dev_langs:

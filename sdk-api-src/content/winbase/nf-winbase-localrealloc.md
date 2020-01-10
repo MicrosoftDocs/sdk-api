@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 88527ddd-e0c2-4a41-825e-d3a6df77fd2a
 ms.date: 12/05/2018
 ms.keywords: LMEM_MOVEABLE, LMEM_ZEROINIT, LocalReAlloc, LocalReAlloc function, _win32_localrealloc, base.localrealloc, winbase/LocalReAlloc
-ms.topic: function
 f1_keywords:
 - winbase/LocalReAlloc
 dev_langs:

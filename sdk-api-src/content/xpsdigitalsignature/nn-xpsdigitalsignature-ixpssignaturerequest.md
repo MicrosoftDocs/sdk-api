@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 5ece2402-ab0e-4695-b9d7-478a65199ec8
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureRequest, IXpsSignatureRequest interface [XPS Documents and Packaging], IXpsSignatureRequest interface [XPS Documents and Packaging],described, xps.ixpssignaturerequest, xpsdigitalsignature/IXpsSignatureRequest
-ms.topic: interface
 f1_keywords:
 - xpsdigitalsignature/IXpsSignatureRequest
 dev_langs:

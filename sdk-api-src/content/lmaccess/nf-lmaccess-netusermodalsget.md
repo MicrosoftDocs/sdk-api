@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 5bb18144-82a6-4e9b-8321-c06a667bdd03
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, 3, NetUserModalsGet, NetUserModalsGet function [Network Management], _win32_netusermodalsget, lmaccess/NetUserModalsGet, netmgmt.netusermodalsget
-ms.topic: function
 f1_keywords:
 - lmaccess/NetUserModalsGet
 dev_langs:

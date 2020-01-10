@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 35ce7946-f7e7-4ac3-852f-e3fcca23d6d4
 ms.date: 12/05/2018
 ms.keywords: IOpcUri, IOpcUri interface [Open Packaging Conventions], IOpcUri interface [Open Packaging Conventions],described, msopc/IOpcUri, opc.iopcuri
-ms.topic: interface
 f1_keywords:
 - msopc/IOpcUri
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 75a4e233-6672-4407-bd68-ba8a7072b7b1
 ms.date: 12/05/2018
 ms.keywords: ITextSelection2, ITextSelection2 interface [Windows Controls], ITextSelection2 interface [Windows Controls],described, controls.itextselection2, tom/ITextSelection2
-ms.topic: interface
 f1_keywords:
 - tom/ITextSelection2
 dev_langs:

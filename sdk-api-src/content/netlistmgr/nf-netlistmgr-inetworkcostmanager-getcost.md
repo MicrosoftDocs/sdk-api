@@ -7,7 +7,6 @@ tech.root: nla
 ms.assetid: F0690CD5-0BC9-4042-9A38-17B48761034F
 ms.date: 12/05/2018
 ms.keywords: GetCost, GetCost method [Network Awareness], GetCost method [Network Awareness],INetworkCostManager interface, INetworkCostManager interface [Network Awareness],GetCost method, INetworkCostManager.GetCost, INetworkCostManager::GetCost, netlistmgr/INetworkCostManager::GetCost, nla.inetworkcostmanager_getcost
-ms.topic: method
 f1_keywords:
 - netlistmgr/INetworkCostManager.GetCost
 dev_langs:

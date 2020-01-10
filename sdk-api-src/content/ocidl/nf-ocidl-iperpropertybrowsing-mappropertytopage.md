@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: f8cf86eb-23d1-4aa6-859a-055df99b064c
 ms.date: 12/05/2018
 ms.keywords: IPerPropertyBrowsing interface [COM],MapPropertyToPage method, IPerPropertyBrowsing.MapPropertyToPage, IPerPropertyBrowsing::MapPropertyToPage, MapPropertyToPage, MapPropertyToPage method [COM], MapPropertyToPage method [COM],IPerPropertyBrowsing interface, _ctrl_iperpropertybrowsing_mappropertytopage, com.iperpropertybrowsing_mappropertytopage, ocidl/IPerPropertyBrowsing::MapPropertyToPage
-ms.topic: method
 f1_keywords:
 - ocidl/IPerPropertyBrowsing.MapPropertyToPage
 dev_langs:

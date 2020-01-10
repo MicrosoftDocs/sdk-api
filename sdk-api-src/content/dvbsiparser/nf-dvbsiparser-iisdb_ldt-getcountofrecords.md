@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: da91deea-527c-4458-9db5-ae500cee19bb
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetCountOfRecords method, IISDB_LDT.GetCountOfRecords, IISDB_LDT::GetCountOfRecords, dvbsiparser/IISDB_LDT::GetCountOfRecords, mstv.iisdb_ldt_getcountofrecords
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IISDB_LDT.GetCountOfRecords
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: bf7a85a3-201b-413e-a1da-1e54b55771cc
 ms.date: 12/05/2018
 ms.keywords: AddRange, AddRange method [Security], AddRange method [Security],IObjectIds interface, IObjectIds interface [Security],AddRange method, IObjectIds.AddRange, IObjectIds::AddRange, certenroll/IObjectIds::AddRange, security.iobjectids_addrange_method
-ms.topic: method
 f1_keywords:
 - certenroll/IObjectIds.AddRange
 dev_langs:

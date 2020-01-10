@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 9a3d9146-0e1b-4642-ad5d-ff1d09a93d2b
 ms.date: 12/05/2018
 ms.keywords: ID2D1DrawingStateBlock, ID2D1DrawingStateBlock interface [Direct2D], ID2D1DrawingStateBlock interface [Direct2D],described, d2d1/ID2D1DrawingStateBlock, direct2d.ID2D1DrawingStateBlock
-ms.topic: interface
 f1_keywords:
 - d2d1/ID2D1DrawingStateBlock
 dev_langs:

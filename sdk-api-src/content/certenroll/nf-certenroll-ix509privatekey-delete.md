@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 0f319e20-d993-480e-846d-0912bb854415
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [Security], Delete method [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Delete method, IX509PrivateKey.Delete, IX509PrivateKey::Delete, certenroll/IX509PrivateKey::Delete, security.ix509privatekey_delete_method
-ms.topic: method
 f1_keywords:
 - certenroll/IX509PrivateKey.Delete
 dev_langs:

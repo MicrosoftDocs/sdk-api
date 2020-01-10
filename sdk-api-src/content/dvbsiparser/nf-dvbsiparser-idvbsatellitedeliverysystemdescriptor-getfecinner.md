@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: fe90fcd7-e77b-42c8-935f-4cf02957400f
 ms.date: 12/05/2018
 ms.keywords: GetFECInner, GetFECInner method [Microsoft TV Technologies], GetFECInner method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetFECInner method, IDvbSatelliteDeliverySystemDescriptor.GetFECInner, IDvbSatelliteDeliverySystemDescriptor::GetFECInner, IDvbSatelliteDeliverySystemDescriptorGetFECInner, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetFECInner, mstv.idvbsatellitedeliverysystemdescriptor_getfecinner
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDvbSatelliteDeliverySystemDescriptor.GetFECInner
 dev_langs:

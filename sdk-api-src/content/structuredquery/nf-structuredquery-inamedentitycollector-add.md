@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentitycollector\add.htm
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [search], Add method [search],INamedEntityCollector interface, INamedEntityCollector interface [search],Add method, INamedEntityCollector.Add, INamedEntityCollector::Add, _search_INamedEntityCollector_Add, search._search_INamedEntityCollector_Add, structuredquery/INamedEntityCollector::Add
-ms.topic: method
 f1_keywords:
 - structuredquery/INamedEntityCollector.Add
 dev_langs:

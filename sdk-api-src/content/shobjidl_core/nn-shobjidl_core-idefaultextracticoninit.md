@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 27b952e3-f17a-4844-8c39-2ae240179d02
 ms.date: 12/05/2018
 ms.keywords: IDefaultExtractIconInit, IDefaultExtractIconInit interface [Windows Shell], IDefaultExtractIconInit interface [Windows Shell],described, _shell_IDefaultExtractIconInit, shell.IDefaultExtractIconInit, shobjidl_core/IDefaultExtractIconInit
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IDefaultExtractIconInit
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: cfcdf443-00c3-4cb5-abb1-1ec072272c0d
 ms.date: 12/05/2018
 ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],ShutDown method, CMSPCallMultiGraph.ShutDown, CMSPCallMultiGraph::ShutDown, ShutDown, ShutDown method [TAPI 2.2], ShutDown method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_shutdown, mspcall/CMSPCallMultiGraph::ShutDown, tapi3.cmspcallmultigraph_shutdown
-ms.topic: method
 f1_keywords:
 - mspcall/CMSPCallMultiGraph.ShutDown
 dev_langs:

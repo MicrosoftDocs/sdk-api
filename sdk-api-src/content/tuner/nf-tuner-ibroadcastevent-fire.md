@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 974b42d7-bf68-426b-a146-4e520cac3274
 ms.date: 12/05/2018
 ms.keywords: Fire, Fire method [Microsoft TV Technologies], Fire method [Microsoft TV Technologies],IBroadcastEvent interface, IBroadcastEvent interface [Microsoft TV Technologies],Fire method, IBroadcastEvent.Fire, IBroadcastEvent::Fire, IBroadcastEventFire, mstv.ibroadcastevent_fire, tuner/IBroadcastEvent::Fire
-ms.topic: method
 f1_keywords:
 - tuner/IBroadcastEvent.Fire
 dev_langs:

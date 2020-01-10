@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e169039f-bce7-495a-a40f-385fa3d3d2ab
 ms.date: 12/05/2018
 ms.keywords: IAMTuner interface [DirectShow],RegisterNotificationCallBack method, IAMTuner.RegisterNotificationCallBack, IAMTuner::RegisterNotificationCallBack, IAMTunerRegisterNotificationCallBack, RegisterNotificationCallBack, RegisterNotificationCallBack method [DirectShow], RegisterNotificationCallBack method [DirectShow],IAMTuner interface, dshow.iamtuner_registernotificationcallback, strmif/IAMTuner::RegisterNotificationCallBack
-ms.topic: method
 f1_keywords:
 - strmif/IAMTuner.RegisterNotificationCallBack
 dev_langs:

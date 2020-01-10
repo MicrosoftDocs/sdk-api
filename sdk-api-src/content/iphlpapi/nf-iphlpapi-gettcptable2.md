@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: 942e8cb6-545f-45ab-919a-246e3b2d4c6a
 ms.date: 12/05/2018
 ms.keywords: GetTcpTable2, GetTcpTable2 function [IP Helper], iphlp.gettcptable2, iphlpapi/GetTcpTable2
-ms.topic: function
 f1_keywords:
 - iphlpapi/GetTcpTable2
 dev_langs:

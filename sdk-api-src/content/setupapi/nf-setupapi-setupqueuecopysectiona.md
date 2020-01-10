@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: f61fd00e-e60f-4722-9da7-1ed4d8491004
 ms.date: 12/05/2018
 ms.keywords: SetupQueueCopySection, SetupQueueCopySection function [Setup API], SetupQueueCopySectionA, SetupQueueCopySectionW, _setupapi_setupqueuecopysection, setup.setupqueuecopysection, setupapi/SetupQueueCopySection, setupapi/SetupQueueCopySectionA, setupapi/SetupQueueCopySectionW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupQueueCopySection
 dev_langs:

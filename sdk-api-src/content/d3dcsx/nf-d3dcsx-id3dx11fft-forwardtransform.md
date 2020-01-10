@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: da10b166-9561-4c04-b6b8-92b2daec30d7
 ms.date: 12/05/2018
 ms.keywords: ForwardTransform, ForwardTransform method [Direct3D 11], ForwardTransform method [Direct3D 11],ID3DX11FFT interface, ID3DX11FFT interface [Direct3D 11],ForwardTransform method, ID3DX11FFT.ForwardTransform, ID3DX11FFT::ForwardTransform, d3dcsx/ID3DX11FFT::ForwardTransform, direct3d11.id3dx11fft_forwardtransform, fbd555b1-86f3-8e92-7c5e-ed1c088e2207
-ms.topic: method
 f1_keywords:
 - d3dcsx/ID3DX11FFT.ForwardTransform
 dev_langs:

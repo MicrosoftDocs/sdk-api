@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 46985c49-cb9b-4f67-8dff-e6fad9e188da
 ms.date: 12/05/2018
 ms.keywords: IPropertyStorage interface [Structured Storage],Stat method, IPropertyStorage.Stat, IPropertyStorage::Stat, Stat, Stat method [Structured Storage], Stat method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_stat, propidl/IPropertyStorage::Stat, stg.ipropertystorage_stat
-ms.topic: method
 f1_keywords:
 - propidlbase/IPropertyStorage.Stat
 dev_langs:

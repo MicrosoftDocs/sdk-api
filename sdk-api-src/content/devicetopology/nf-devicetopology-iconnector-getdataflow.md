@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 55078775-2921-45c2-af27-c8ad53688293
 ms.date: 12/05/2018
 ms.keywords: GetDataFlow, GetDataFlow method [Core Audio], GetDataFlow method [Core Audio],IConnector interface, IConnector interface [Core Audio],GetDataFlow method, IConnector.GetDataFlow, IConnector::GetDataFlow, IConnectorGetDataFlow, coreaudio.iconnector_getdataflow, devicetopology/IConnector::GetDataFlow
-ms.topic: method
 f1_keywords:
 - devicetopology/IConnector.GetDataFlow
 dev_langs:

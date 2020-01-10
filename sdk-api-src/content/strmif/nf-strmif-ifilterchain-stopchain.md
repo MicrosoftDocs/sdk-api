@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 03821fdb-8374-4386-868b-9bf7b2d83562
 ms.date: 12/05/2018
 ms.keywords: IFilterChain interface [DirectShow],StopChain method, IFilterChain.StopChain, IFilterChain::StopChain, IFilterChainStopChain, StopChain, StopChain method [DirectShow], StopChain method [DirectShow],IFilterChain interface, dshow.ifilterchain_stopchain, strmif/IFilterChain::StopChain
-ms.topic: method
 f1_keywords:
 - strmif/IFilterChain.StopChain
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 14296fec-1b03-408c-ba96-9429107df592
 ms.date: 12/05/2018
 ms.keywords: UiaGetRootNode, UiaGetRootNode function [Windows Accessibility], uiauto.uiauto_UiaGetRootNodeFunction, uiauto_UiaGetRootNodeFunction, uiautomationcoreapi/UiaGetRootNode, winauto.uiauto_UiaGetRootNodeFunction
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/UiaGetRootNode
 dev_langs:

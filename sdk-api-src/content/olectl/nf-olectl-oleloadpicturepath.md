@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 08bad900-815a-4b6d-b977-92d5fdd7d9e8
 ms.date: 12/05/2018
 ms.keywords: OleLoadPicturePath, OleLoadPicturePath function [COM], _ctrl_OleLoadPicturePath, com.oleloadpicturepath, olectl/OleLoadPicturePath
-ms.topic: function
 f1_keywords:
 - olectl/OleLoadPicturePath
 dev_langs:

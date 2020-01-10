@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: dba9c616-031d-48a7-b3e3-eb28b95a573a
 ms.date: 12/05/2018
 ms.keywords: IDispenserDriver, IDispenserDriver interface [COM+], IDispenserDriver interface [COM+],described, _dtc_IDispenserDriver_Interface, comsvcs/IDispenserDriver, cos.idispenserdriver
-ms.topic: interface
 f1_keywords:
 - comsvcs/IDispenserDriver
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b2899e30-4dfb-47e7-88dd-adba49368a4f
 ms.date: 12/05/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetValueWithNotify method, ICodecAPI.SetValueWithNotify, ICodecAPI::SetValueWithNotify, ICodecAPISetValueWithNotify, SetValueWithNotify, SetValueWithNotify method [DirectShow], SetValueWithNotify method [DirectShow],ICodecAPI interface, dshow.icodecapi_setvaluewithnotify, strmif/ICodecAPI::SetValueWithNotify
-ms.topic: method
 f1_keywords:
 - strmif/ICodecAPI.SetValueWithNotify
 dev_langs:

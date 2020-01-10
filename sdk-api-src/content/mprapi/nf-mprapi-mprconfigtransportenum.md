@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 2abe30f4-564b-499f-a6d3-13da305a783c
 ms.date: 12/05/2018
 ms.keywords: MprConfigTransportEnum, MprConfigTransportEnum function [RAS], _mpr_mprconfigtransportenum, mprapi/MprConfigTransportEnum, rras.mprconfigtransportenum
-ms.topic: function
 f1_keywords:
 - mprapi/MprConfigTransportEnum
 dev_langs:

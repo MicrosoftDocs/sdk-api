@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: e009e078-99f5-4da1-88ce-c07e9588c5e8
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferConfigure3 interface [Microsoft TV Technologies],SetNamespace method, IStreamBufferConfigure3.SetNamespace, IStreamBufferConfigure3::SetNamespace, IStreamBufferConfigure3SetNamespace, SetNamespace, SetNamespace method [Microsoft TV Technologies], SetNamespace method [Microsoft TV Technologies],IStreamBufferConfigure3 interface, mstv.istreambufferconfigure3_setnamespace, sbe/IStreamBufferConfigure3::SetNamespace
-ms.topic: method
 f1_keywords:
 - sbe/IStreamBufferConfigure3.SetNamespace
 dev_langs:

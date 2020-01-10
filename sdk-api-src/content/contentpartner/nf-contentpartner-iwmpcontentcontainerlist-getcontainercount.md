@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: e1ed4873-5d07-4a96-bd99-31ceeb423f98
 ms.date: 12/05/2018
 ms.keywords: GetContainerCount, GetContainerCount method [Windows Media Player], GetContainerCount method [Windows Media Player],IWMPContentContainerList interface, IWMPContentContainerList interface [Windows Media Player],GetContainerCount method, IWMPContentContainerList.GetContainerCount, IWMPContentContainerList::GetContainerCount, IWMPContentContainerListGetContainerCount, contentpartner/IWMPContentContainerList::GetContainerCount, wmp.iwmpcontentcontainerlist_getcontainercount
-ms.topic: method
 f1_keywords:
 - contentpartner/IWMPContentContainerList.GetContainerCount
 dev_langs:

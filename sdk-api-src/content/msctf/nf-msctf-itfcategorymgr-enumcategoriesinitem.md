@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 271e5fbe-54e2-47e3-97d4-cd4211b92080
 ms.date: 12/05/2018
 ms.keywords: EnumCategoriesInItem, EnumCategoriesInItem method [Text Services Framework], EnumCategoriesInItem method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],EnumCategoriesInItem method, ITfCategoryMgr.EnumCategoriesInItem, ITfCategoryMgr::EnumCategoriesInItem, _tsf_itfcategorymgr_enumcategoriesinitem_ref, msctf/ITfCategoryMgr::EnumCategoriesInItem, tsf.itfcategorymgr_enumcategoriesinitem
-ms.topic: method
 f1_keywords:
 - msctf/ITfCategoryMgr.EnumCategoriesInItem
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: d15c2f80-abbd-4564-b962-a88a3bb7acb7
 ms.date: 12/05/2018
 ms.keywords: BSTR_UserFree, BSTR_UserFree function [Automation], _oa96_BSTR_UserFree, automat.bstr_userfree, oaidl/BSTR_UserFree
-ms.topic: function
 f1_keywords:
 - oaidl/BSTR_UserFree
 dev_langs:

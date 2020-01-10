@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: c7a0c77c-0579-48dd-bc06-8ffe48358661
 ms.date: 12/05/2018
 ms.keywords: GetResourceId, GetResourceId method [Remote Desktop Services], GetResourceId method [Remote Desktop Services],IWorkspaceClientExt interface, IWorkspaceClientExt interface [Remote Desktop Services],GetResourceId method, IWorkspaceClientExt.GetResourceId, IWorkspaceClientExt::GetResourceId, termserv.iworkspaceclientext_getresourceid, workspaceruntimeclientext/IWorkspaceClientExt::GetResourceId
-ms.topic: method
 f1_keywords:
 - workspaceruntimeclientext/IWorkspaceClientExt.GetResourceId
 dev_langs:

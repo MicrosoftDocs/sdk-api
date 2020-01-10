@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 84c73a96-9748-430f-8653-55656eadc617
 ms.date: 12/05/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_SessionStartTime method, ITAgentSession.get_SessionStartTime, ITAgentSession::get_SessionStartTime, _tapi3_itagentsession_get_sessionstarttime, get_SessionStartTime, get_SessionStartTime method [TAPI 2.2], get_SessionStartTime method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_sessionstarttime, tapi3cc/ITAgentSession::get_SessionStartTime
-ms.topic: method
 f1_keywords:
 - tapi3cc/ITAgentSession.get_SessionStartTime
 dev_langs:

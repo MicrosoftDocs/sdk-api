@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 83a643bb-5d2e-4227-b82e-e63035860f46
 ms.date: 12/05/2018
 ms.keywords: EapMethodAuthenticatorGetInfo, EapMethodAuthenticatorGetInfo function [EAPHost], eaphost.eapmethodauthenticatorgetinfo, eapmethodauthenticatorapis/EapMethodAuthenticatorGetInfo
-ms.topic: function
 f1_keywords:
 - eapmethodauthenticatorapis/EapMethodAuthenticatorGetInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 67146070-1710-4602-845c-a2a3cd5efdad
 ms.date: 12/05/2018
 ms.keywords: CountEnum, CountEnum method [Windows Runtime], CountEnum method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],CountEnum method, IMetaDataImport.CountEnum, IMetaDataImport::CountEnum, rometadataapi/IMetaDataImport::CountEnum, winrt.imetadataimport_countenum
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataImport.CountEnum
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 1db3dbef-41bf-4b00-8e6c-07c7c414e595
 ms.date: 12/05/2018
 ms.keywords: 1db3dbef-41bf-4b00-8e6c-07c7c414e595, AddStroke, AddStroke function [Tablet PC], recapis/AddStroke, tablet.addstroke
-ms.topic: function
 f1_keywords:
 - recapis/AddStroke
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 526A52A8-4B48-43AE-A8B2-EE800C6BAE8F
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVFastDecodeMode, codecapi/eVideoDecodeCompliant, codecapi/eVideoDecodeDisableLF, codecapi/eVideoDecodeFastest, codecapi/eVideoDecodeOptimalLF, dshow.eavfastdecodemode, eAVFastDecodeMode, eAVFastDecodeMode enumeration [DirectShow], eVideoDecodeCompliant, eVideoDecodeDisableLF, eVideoDecodeFastest, eVideoDecodeOptimalLF
-ms.topic: enum
 f1_keywords:
 - codecapi/eAVFastDecodeMode
 dev_langs:

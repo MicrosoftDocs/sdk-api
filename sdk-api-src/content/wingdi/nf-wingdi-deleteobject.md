@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: cc679af0-6839-4c83-9c42-39d7ededda40
 ms.date: 12/05/2018
 ms.keywords: DeleteObject, DeleteObject function [Windows GDI], DeleteObjectW, _win32_DeleteObject, gdi.deleteobject, wingdi/DeleteObject, wingdi/DeleteObjectW
-ms.topic: function
 f1_keywords:
 - wingdi/DeleteObject
 dev_langs:

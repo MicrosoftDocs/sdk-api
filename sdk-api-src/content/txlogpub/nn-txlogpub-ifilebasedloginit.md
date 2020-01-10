@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: c499f32b-3897-4c61-b9c1-d660648aab76
 ms.date: 12/05/2018
 ms.keywords: IFileBasedLogInit, IFileBasedLogInit interface [COM], IFileBasedLogInit interface [COM],described, _com_ifilebasedloginit, com.ifilebasedloginit, txlogpub/IFileBasedLogInit
-ms.topic: interface
 f1_keywords:
 - txlogpub/IFileBasedLogInit
 dev_langs:

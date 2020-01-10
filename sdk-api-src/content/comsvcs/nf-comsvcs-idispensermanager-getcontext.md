@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: cc3095a3-df4c-4112-a3cb-308e8962b51f
 ms.date: 12/05/2018
 ms.keywords: GetContext, GetContext method [COM+], GetContext method [COM+],IDispenserManager interface, IDispenserManager interface [COM+],GetContext method, IDispenserManager.GetContext, IDispenserManager::GetContext, _dtc_IDispenserManager_GetContext, comsvcs/IDispenserManager::GetContext, cos.idispensermanager_getcontext
-ms.topic: method
 f1_keywords:
 - comsvcs/IDispenserManager.GetContext
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 7fc0aab3-7476-49ec-8a1d-3f4851f9f31c
 ms.date: 12/05/2018
 ms.keywords: IOleUILinkContainer, IOleUILinkContainer interface [COM], IOleUILinkContainer interface [COM],described, IOleUILinkContainerA, IOleUILinkContainerW, _ole_IOleUILinkContainer, com.ioleuilinkcontainer, oledlg/IOleUILinkContainer
-ms.topic: interface
 f1_keywords:
 - oledlg/IOleUILinkContainer
 dev_langs:

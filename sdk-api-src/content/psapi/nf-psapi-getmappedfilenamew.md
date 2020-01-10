@@ -7,7 +7,6 @@ tech.root: psapi
 ms.assetid: 10a2e5ab-f495-486d-8ef7-ef763716afd1
 ms.date: 12/05/2018
 ms.keywords: GetMappedFileName, GetMappedFileName function [PSAPI], GetMappedFileNameA, GetMappedFileNameW, K32GetMappedFileName, K32GetMappedFileNameA, K32GetMappedFileNameW, _win32_getmappedfilename, base.getmappedfilename, psapi.getmappedfilename, psapi/GetMappedFileName, psapi/GetMappedFileNameA, psapi/GetMappedFileNameW, psapi/K32GetMappedFileName, psapi/K32GetMappedFileNameA, psapi/K32GetMappedFileNameW
-ms.topic: function
 f1_keywords:
 - psapi/GetMappedFileName
 dev_langs:

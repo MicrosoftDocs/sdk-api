@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 8fed3a33-c37c-486d-8bd6-4b80252867e1
 ms.date: 12/05/2018
 ms.keywords: IAnalogRadioTuningSpace interface [Microsoft TV Technologies],get_Step method, IAnalogRadioTuningSpace.get_Step, IAnalogRadioTuningSpace::get_Step, IAnalogRadioTuningSpaceget_Step, get_Step, get_Step method [Microsoft TV Technologies], get_Step method [Microsoft TV Technologies],IAnalogRadioTuningSpace interface, mstv.ianalogradiotuningspace_get_step, tuner/IAnalogRadioTuningSpace::get_Step
-ms.topic: method
 f1_keywords:
 - tuner/IAnalogRadioTuningSpace.get_Step
 dev_langs:

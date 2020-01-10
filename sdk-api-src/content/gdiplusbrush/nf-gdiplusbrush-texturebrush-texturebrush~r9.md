@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushconstructors.htm
 ms.date: 12/05/2018
 ms.keywords: TextureBrush, TextureBrush constructors [GDI+], TextureBrush.TextureBrush, TextureBrush.TextureBrush~r9, TextureBrush::TextureBrush, TextureBrush::TextureBrush~r9, _gdiplus_CLASS_TextureBrush_Constructors, gdiplus._gdiplus_CLASS_TextureBrush_Constructors, gdiplusbrush/TextureBrush
-ms.topic: method
 f1_keywords:
 - gdiplusbrush/TextureBrush.TextureBrush
 dev_langs:

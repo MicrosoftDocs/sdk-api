@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 962982a6-171f-4c13-ae03-84698482dea4
 ms.date: 12/05/2018
 ms.keywords: PeerCollabRegisterApplication, PeerCollabRegisterApplication function [Peer Networking], p2p.peercollabregisterapplication, p2p/PeerCollabRegisterApplication
-ms.topic: function
 f1_keywords:
 - p2p/PeerCollabRegisterApplication
 dev_langs:

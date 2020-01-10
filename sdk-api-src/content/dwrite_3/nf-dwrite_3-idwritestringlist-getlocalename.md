@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 3CB369A4-D1FC-4C8B-BE41-33D176117133
 ms.date: 12/05/2018
 ms.keywords: GetLocaleName, GetLocaleName method [Direct Write], GetLocaleName method [Direct Write],IDWriteStringList interface, IDWriteStringList interface [Direct Write],GetLocaleName method, IDWriteStringList.GetLocaleName, IDWriteStringList::GetLocaleName, directwrite.idwritestringlist_getlocalename, dwrite_3/IDWriteStringList::GetLocaleName
-ms.topic: method
 f1_keywords:
 - dwrite_3/IDWriteStringList.GetLocaleName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: a95a4e34-d3b3-4aa0-a21e-9788874dcf9b
 ms.date: 12/05/2018
 ms.keywords: TextRange_ExpandToEnclosingUnit, TextRange_ExpandToEnclosingUnit function [Windows Accessibility], uiauto.uiauto_TextRange_ExpandToEnclosingUnitConPat, uiauto_TextRange_ExpandToEnclosingUnitConPat, uiautomationcoreapi/TextRange_ExpandToEnclosingUnit, winauto.uiauto_TextRange_ExpandToEnclosingUnitConPat
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/TextRange_ExpandToEnclosingUnit
 dev_langs:

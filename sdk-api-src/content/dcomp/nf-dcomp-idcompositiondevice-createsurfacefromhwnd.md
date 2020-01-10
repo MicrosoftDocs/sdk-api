@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: EA49F8EB-FAC8-421E-854D-C4AA81887EB0
 ms.date: 12/05/2018
 ms.keywords: CreateSurfaceFromHwnd, CreateSurfaceFromHwnd method [DirectComposition], CreateSurfaceFromHwnd method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateSurfaceFromHwnd method, IDCompositionDevice.CreateSurfaceFromHwnd, IDCompositionDevice::CreateSurfaceFromHwnd, dcomp/IDCompositionDevice::CreateSurfaceFromHwnd, directcomp.idcompositiondevice_createsurfacefromhwnd
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionDevice.CreateSurfaceFromHwnd
 dev_langs:

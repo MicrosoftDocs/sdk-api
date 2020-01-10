@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 739c87c5-3e9c-41f3-ad79-0b417347604b
 ms.date: 12/05/2018
 ms.keywords: TS_SELECTION_ACP, TS_SELECTION_ACP structure [Text Services Framework], _tsf_ts_selection_acp_ref, textstor/TS_SELECTION_ACP, tsf.ts_selection_acp
-ms.topic: struct
 f1_keywords:
 - textstor/TS_SELECTION_ACP
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: lwef
 ms.assetid: 2a0ec2c0-0bec-4aeb-bbd5-0db18f0d5f8c
 ms.date: 12/05/2018
 ms.keywords: IReconcilableObject, IReconcilableObject interface [Legacy Windows Environment Features], IReconcilableObject interface [Legacy Windows Environment Features],described, _win32_IReconcilableObject, lwef.ireconcilableobject, reconcil/IReconcilableObject, shell.ireconcilableobject
-ms.topic: interface
 f1_keywords:
 - reconcil/IReconcilableObject
 dev_langs:

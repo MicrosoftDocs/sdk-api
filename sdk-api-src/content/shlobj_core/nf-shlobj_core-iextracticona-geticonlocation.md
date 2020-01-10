@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 56138982-c062-4b07-aea7-6023037451fe
 ms.date: 12/05/2018
 ms.keywords: GIL_ASYNC, GIL_CHECKSHIELD, GIL_DEFAULTICON, GIL_DONTCACHE, GIL_FORCENOSHIELD, GIL_FORSHELL, GIL_FORSHORTCUT, GIL_NOTFILENAME, GIL_OPENICON, GIL_PERCLASS, GIL_PERINSTANCE, GIL_SHIELD, GIL_SIMULATEDOC, GetIconLocation, GetIconLocation method [Windows Shell], GetIconLocation method [Windows Shell],IExtractIcon interface, IExtractIcon interface [Windows Shell],GetIconLocation method, IExtractIcon::GetIconLocation, IExtractIconA, IExtractIconA.GetIconLocation, IExtractIconA::GetIconLocation, IExtractIconW, IExtractIconW::GetIconLocation, _win32_IExtractIcon_GetIconLocation, shell.IExtractIcon_GetIconLocation, shlobj_core/IExtractIcon::GetIconLocation
-ms.topic: method
 f1_keywords:
 - shlobj_core/IExtractIcon.GetIconLocation
 dev_langs:

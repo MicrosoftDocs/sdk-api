@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f0e4d121-9cc5-4fc9-a507-b9fc8e314f94
 ms.date: 12/05/2018
 ms.keywords: IntPtrToLongPtr, IntPtrToLongPtr function [Windows Shell], intsafe/IntPtrToLongPtr, shell.IntPtrToLongPtr
-ms.topic: function
 f1_keywords:
 - intsafe/IntPtrToLongPtr
 dev_langs:

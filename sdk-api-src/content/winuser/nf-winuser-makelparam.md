@@ -7,7 +7,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmacros\makelparam.htm
 ms.date: 12/05/2018
 ms.keywords: MAKELPARAM, MAKELPARAM macro [Windows and Messages], _win32_MAKELPARAM, _win32_makelparam_cpp, winmsg.makelparam, winui._win32_makelparam, winuser/MAKELPARAM
-ms.topic: macro
 f1_keywords:
 - winuser/MAKELPARAM
 dev_langs:

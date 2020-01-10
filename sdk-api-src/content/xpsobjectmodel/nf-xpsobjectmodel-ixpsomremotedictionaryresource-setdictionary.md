@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 68aba55b-d755-4ed3-8ede-6f3a4e6f7b3a
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRemoteDictionaryResource interface [XPS Documents and Packaging],SetDictionary method, IXpsOMRemoteDictionaryResource.SetDictionary, IXpsOMRemoteDictionaryResource::SetDictionary, SetDictionary, SetDictionary method [XPS Documents and Packaging], SetDictionary method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResource interface, xps.ixpsomremotedictionaryresource_setdictionary, xpsobjectmodel/IXpsOMRemoteDictionaryResource::SetDictionary
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMRemoteDictionaryResource.SetDictionary
 dev_langs:

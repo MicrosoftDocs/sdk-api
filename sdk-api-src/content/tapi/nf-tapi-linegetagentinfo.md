@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 166b0595-2df0-431f-924c-6899b47408ac
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetagentinfo, lineGetAgentInfo, lineGetAgentInfo function [TAPI 2.2], tapi/lineGetAgentInfo, tapi2.linegetagentinfo
-ms.topic: function
 f1_keywords:
 - tapi/lineGetAgentInfo
 dev_langs:

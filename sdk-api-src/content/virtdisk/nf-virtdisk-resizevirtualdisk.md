@@ -7,7 +7,6 @@ tech.root: VStor
 ms.assetid: d000c03e-c0ad-4054-b2eb-1aca34a95816
 ms.date: 12/05/2018
 ms.keywords: ResizeVirtualDisk, ResizeVirtualDisk function [Virtual Storage], virtdisk/ResizeVirtualDisk, vstor.resizevirtualdisk
-ms.topic: function
 f1_keywords:
 - virtdisk/ResizeVirtualDisk
 dev_langs:

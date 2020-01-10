@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 94bd969d-f94d-449c-971d-d17fff2c07e1
 ms.date: 12/05/2018
 ms.keywords: CancelConnectNotify, CancelConnectNotify function [Security], _mnp_cancelconnectnotify, npapi/CancelConnectNotify, security.cancelconnectnotify
-ms.topic: function
 f1_keywords:
 - npapi/CancelConnectNotify
 dev_langs:

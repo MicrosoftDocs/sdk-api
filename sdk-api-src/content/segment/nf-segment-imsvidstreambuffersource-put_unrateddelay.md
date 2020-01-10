@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 7b4e1ac4-dfb8-45c0-9079-16f8babcb494
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],put_UnratedDelay method, IMSVidStreamBufferSource.put_UnratedDelay, IMSVidStreamBufferSource::put_UnratedDelay, IMSVidStreamBufferSourceput_UnratedDelay, mstv.imsvidstreambuffersource_put_unrateddelay, put_UnratedDelay, put_UnratedDelay method [Microsoft TV Technologies], put_UnratedDelay method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, segment/IMSVidStreamBufferSource::put_UnratedDelay
-ms.topic: method
 f1_keywords:
 - segment/IMSVidStreamBufferSource.put_UnratedDelay
 dev_langs:

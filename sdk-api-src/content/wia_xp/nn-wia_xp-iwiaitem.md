@@ -7,7 +7,6 @@ tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\iwiaitem.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaItem, IWiaItem interface [WIA], IWiaItem interface [WIA],described, _wia_IWiaItem, wia._wia_IWiaItem, wia_xp/IWiaItem
-ms.topic: interface
 f1_keywords:
 - wia_xp/IWiaItem
 dev_langs:

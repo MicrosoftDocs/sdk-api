@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: b54114f1-aa54-493d-b449-0b9161004ffa
 ms.date: 12/05/2018
 ms.keywords: GetVersion, GetVersion method [Windows Sync], GetVersion method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetVersion method, ISyncKnowledge.GetVersion, ISyncKnowledge::GetVersion, winsync.isyncknowledge_getversion, winsync/ISyncKnowledge::GetVersion
-ms.topic: method
 f1_keywords:
 - winsync/ISyncKnowledge.GetVersion
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 503ec642-0a86-47b9-b453-08ab90346630
 ms.date: 12/05/2018
 ms.keywords: GetMaxStreamOffset, GetMaxStreamOffset method [DirectShow], GetMaxStreamOffset method [DirectShow],IAMPushSource interface, IAMPushSource interface [DirectShow],GetMaxStreamOffset method, IAMPushSource.GetMaxStreamOffset, IAMPushSource::GetMaxStreamOffset, IAMPushSourceGetMaxStreamOffset, dshow.iampushsource_getmaxstreamoffset, strmif/IAMPushSource::GetMaxStreamOffset
-ms.topic: method
 f1_keywords:
 - strmif/IAMPushSource.GetMaxStreamOffset
 dev_langs:

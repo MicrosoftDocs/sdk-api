@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 4477bc81-e52b-4924-a31b-6f005a5bd158
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],setProxyBypassForLocal method, IWMPNetwork.setProxyBypassForLocal, IWMPNetwork::setProxyBypassForLocal, IWMPNetworksetProxyBypassForLocal, setProxyBypassForLocal, setProxyBypassForLocal method [Windows Media Player], setProxyBypassForLocal method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_setproxybypassforlocal, wmp/IWMPNetwork::setProxyBypassForLocal
-ms.topic: method
 f1_keywords:
 - wmp/IWMPNetwork.setProxyBypassForLocal
 dev_langs:

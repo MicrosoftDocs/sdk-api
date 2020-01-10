@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: e78a310a-3605-4cb3-a0c3-7864c890c1fa
 ms.date: 12/05/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetValue method, ICodecAPI.SetValue, ICodecAPI::SetValue, ICodecAPISetValue, SetValue, SetValue method [DirectShow], SetValue method [DirectShow],ICodecAPI interface, dshow.icodecapi_setvalue, strmif/ICodecAPI::SetValue
-ms.topic: method
 f1_keywords:
 - strmif/ICodecAPI.SetValue
 dev_langs:

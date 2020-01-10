@@ -7,7 +7,6 @@ tech.root: psapi
 ms.assetid: 55925741-da23-44b1-93e8-0e9468434a61
 ms.date: 12/05/2018
 ms.keywords: EnumDeviceDrivers, EnumDeviceDrivers function [PSAPI], K32EnumDeviceDrivers, _win32_enumdevicedrivers, base.enumdevicedrivers, psapi.enumdevicedrivers, psapi/EnumDeviceDrivers, psapi/K32EnumDeviceDrivers
-ms.topic: function
 f1_keywords:
 - psapi/EnumDeviceDrivers
 dev_langs:

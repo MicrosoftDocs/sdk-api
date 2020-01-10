@@ -7,7 +7,6 @@ tech.root: Input_IntContext
 ms.assetid: e3ae71e2-be61-49c1-82a1-2fa82fe9a7ba
 ms.date: 12/05/2018
 ms.keywords: GetInertiaParameterInteractionContext, GetInertiaParameterInteractionContext function, input_intcontext.getinertiaparameterinteractioncontext, interactioncontext.getinertiaparameterinteractioncontext, interactioncontext/GetInertiaParameterInteractionContext
-ms.topic: function
 f1_keywords:
 - interactioncontext/GetInertiaParameterInteractionContext
 dev_langs:

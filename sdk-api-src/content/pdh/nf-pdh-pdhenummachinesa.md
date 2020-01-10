@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: 77584d3b-3ba5-4288-b730-be2458f4fc1c
 ms.date: 12/05/2018
 ms.keywords: PdhEnumMachines, PdhEnumMachines function [Perf], PdhEnumMachinesA, PdhEnumMachinesW, _win32_pdhenummachines, base.pdhenummachines, pdh/PdhEnumMachines, pdh/PdhEnumMachinesA, pdh/PdhEnumMachinesW, perf.pdhenummachines
-ms.topic: function
 f1_keywords:
 - pdh/PdhEnumMachines
 dev_langs:

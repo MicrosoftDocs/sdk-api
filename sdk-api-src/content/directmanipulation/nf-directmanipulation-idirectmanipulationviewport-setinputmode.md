@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: 2be1c8a1-a729-4851-b103-b108b9a96e2d
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetInputMode method, IDirectManipulationViewport.SetInputMode, IDirectManipulationViewport::SetInputMode, SetInputMode, SetInputMode method [Direct Manipulation], SetInputMode method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setinputmode, directmanipulation/IDirectManipulationViewport::SetInputMode
-ms.topic: method
 f1_keywords:
 - directmanipulation/IDirectManipulationViewport.SetInputMode
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c3de35de-9bf5-415c-93e9-ac0085195c27
 ms.date: 12/05/2018
 ms.keywords: IShellImageDataFactory, IShellImageDataFactory interface [Windows Shell], IShellImageDataFactory interface [Windows Shell],described, _shell_IShellImageDataFactory, shell.IShellImageDataFactory, shimgdata/IShellImageDataFactory
-ms.topic: interface
 f1_keywords:
 - shimgdata/IShellImageDataFactory
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: f2b7d9aa-e42c-4d6b-92e0-9d9bfbde1a42
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeOnline, IVdsVolumeOnline interface, IVdsVolumeOnline interface,described, base.ivdsvolumeonline, vds/IVdsVolumeOnline
-ms.topic: interface
 f1_keywords:
 - vds/IVdsVolumeOnline
 dev_langs:

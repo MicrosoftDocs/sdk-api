@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: d1932844-9900-4a16-8c9a-39f89bddfdb0
 ms.date: 12/05/2018
 ms.keywords: GetNodeHandle, GetNodeHandle method [Failover Cluster], GetNodeHandle method [Failover Cluster],IGetClusterNodeInfo interface, IGetClusterNodeInfo interface [Failover Cluster],GetNodeHandle method, IGetClusterNodeInfo.GetNodeHandle, IGetClusterNodeInfo::GetNodeHandle, _wolf_igetclusternodeinfo_getnodehandle, cluadmex/IGetClusterNodeInfo::GetNodeHandle, mscs.igetclusternodeinfo_getnodehandle
-ms.topic: method
 f1_keywords:
 - cluadmex/IGetClusterNodeInfo.GetNodeHandle
 dev_langs:

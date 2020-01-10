@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 6FCAD9E9-AB44-4D26-BD75-26B1C25FA524
 ms.date: 12/05/2018
 ms.keywords: CreateInspectable, CreateInspectable method [Windows Runtime], CreateInspectable method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateInspectable method, IPropertyValueStatics.CreateInspectable, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateInspectable, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateInspectable, winrt.ipropertyvaluefactory_createinspectable, winrt.ipropertyvaluestatics_createinspectable
-ms.topic: method
 f1_keywords:
 - windows.foundation/IPropertyValueStatics.CreateInspectable
 dev_langs:

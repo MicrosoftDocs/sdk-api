@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: fe8b4761-63cb-46a9-a7d0-5603cc1a5a58
 ms.date: 12/05/2018
 ms.keywords: IUPnPService interface [UPnP APIs],InvokeAction method, IUPnPService.InvokeAction, IUPnPService::InvokeAction, InvokeAction, InvokeAction method [UPnP APIs], InvokeAction method [UPnP APIs],IUPnPService interface, _upnp_iupnpservice_invokeaction, upnp.iupnpservice_invokeaction, upnp/IUPnPService::InvokeAction
-ms.topic: method
 f1_keywords:
 - upnp/IUPnPService.InvokeAction
 dev_langs:

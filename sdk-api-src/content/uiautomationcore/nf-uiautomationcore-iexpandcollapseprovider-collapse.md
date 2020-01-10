@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: a4915a1b-9418-4601-9333-f9508d63079a
 ms.date: 12/05/2018
 ms.keywords: Collapse, Collapse method [Windows Accessibility], Collapse method [Windows Accessibility],IExpandCollapseProvider interface, IExpandCollapseProvider interface [Windows Accessibility],Collapse method, IExpandCollapseProvider.Collapse, IExpandCollapseProvider::Collapse, uiauto.uiauto_IExpandCollapseProvider_Collapse, uiauto_IExpandCollapseProvider_Collapse, uiautomationcore/IExpandCollapseProvider::Collapse, winauto.uiauto_IExpandCollapseProvider_Collapse
-ms.topic: method
 f1_keywords:
 - uiautomationcore/IExpandCollapseProvider.Collapse
 dev_langs:

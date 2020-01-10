@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 3e1c53c6-f356-4b60-bb85-0f5a7251219d
 ms.date: 12/05/2018
 ms.keywords: ITfCandidateListUIElementBehavior, ITfCandidateListUIElementBehavior interface [Text Services Framework], ITfCandidateListUIElementBehavior interface [Text Services Framework],described, _tsf_itfcandidatelistuielementbehavior_ref, msctf/ITfCandidateListUIElementBehavior, tsf.itfcandidatelistuielementbehavior
-ms.topic: interface
 f1_keywords:
 - msctf/ITfCandidateListUIElementBehavior
 dev_langs:

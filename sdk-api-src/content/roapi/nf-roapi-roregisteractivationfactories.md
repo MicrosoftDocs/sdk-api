@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 8213f5de-3b1c-44c3-ad37-b2ebac8dbcd8
 ms.date: 12/05/2018
 ms.keywords: RoRegisterActivationFactories, RoRegisterActivationFactories function [Windows Runtime], WinRTRegisterActivationFactories, roapi/RoRegisterActivationFactories, roapi/WinRTRegisterActivationFactories, winrt.roregisteractivationfactories, winrt.winrtregisteractivationfactories
-ms.topic: function
 f1_keywords:
 - roapi/RoRegisterActivationFactories
 dev_langs:

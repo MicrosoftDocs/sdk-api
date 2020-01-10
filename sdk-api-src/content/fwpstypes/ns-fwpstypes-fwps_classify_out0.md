@@ -7,7 +7,6 @@ tech.root: NetVista
 ms.assetid: 18d84523-bd4c-4f5d-87c7-6fcdcaad6c5d
 ms.date: 12/05/2018
 ms.keywords: FWPS_CLASSIFY_OUT0, FWPS_CLASSIFY_OUT0 structure [Network Drivers Starting with Windows Vista], fwpstypes/FWPS_CLASSIFY_OUT0, netvista.fwps_classify_out0, wfp_ref_3_struct_3_fwps_A-E_05656990-cf7c-4fef-a192-88f96860aa02.xml
-ms.topic: struct
 f1_keywords:
 - fwpstypes/FWPS_CLASSIFY_OUT0
 dev_langs:

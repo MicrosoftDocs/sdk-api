@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 5b0f2cac-6bd7-46a8-884c-89735f3968a0
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [Windows Imaging Component], CreateInstance method [Windows Imaging Component],IWICFormatConverterInfo interface, IWICFormatConverterInfo interface [Windows Imaging Component],CreateInstance method, IWICFormatConverterInfo.CreateInstance, IWICFormatConverterInfo::CreateInstance, _wic_codec_iwicformatconverterinfo_createinstance, wic._wic_codec_iwicformatconverterinfo_createinstance, wincodec/IWICFormatConverterInfo::CreateInstance
-ms.topic: method
 f1_keywords:
 - wincodec/IWICFormatConverterInfo.CreateInstance
 dev_langs:

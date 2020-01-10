@@ -7,7 +7,6 @@ tech.root: SbsCs
 ms.assetid: d2d74d67-a893-4f2f-8161-80bf3d5cbedb
 ms.date: 12/05/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Side-by-side Assemblies], GetDisplayName method [Side-by-side Assemblies],IAssemblyName interface, IAssemblyName interface [Side-by-side Assemblies],GetDisplayName method, IAssemblyName.GetDisplayName, IAssemblyName::GetDisplayName, setup.iassemblyname_getdisplayname, winsxs/IAssemblyName::GetDisplayName
-ms.topic: method
 f1_keywords:
 - winsxs/IAssemblyName.GetDisplayName
 dev_langs:

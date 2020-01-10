@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 411ef76f-8075-4d1a-8ec1-faa399e073a4
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetTransferSize, WdsCliGetTransferSize function [Windows Deployment Services], wds.wdscligettransfersize, wdsclientapi/WdsCliGetTransferSize
-ms.topic: function
 f1_keywords:
 - wdsclientapi/WdsCliGetTransferSize
 dev_langs:

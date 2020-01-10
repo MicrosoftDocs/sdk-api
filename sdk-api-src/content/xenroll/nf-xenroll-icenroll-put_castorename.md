@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 29616175-7195-430e-a85b-99b50e276e7f
 ms.date: 12/05/2018
 ms.keywords: CAStoreName property [Security], CAStoreName property [Security],CEnroll object, CAStoreName property [Security],ICEnroll interface, CAStoreName property [Security],ICEnroll2 interface, CAStoreName property [Security],ICEnroll3 interface, CAStoreName property [Security],ICEnroll4 interface, CEnroll object [Security],CAStoreName property, ICEnroll interface [Security],CAStoreName property, ICEnroll.CAStoreName, ICEnroll.put_CAStoreName, ICEnroll2 interface [Security],CAStoreName property, ICEnroll2.CAStoreName, ICEnroll2::get_CAStoreName, ICEnroll2::put_CAStoreName, ICEnroll3 interface [Security],CAStoreName property, ICEnroll3.CAStoreName, ICEnroll3::get_CAStoreName, ICEnroll3::put_CAStoreName, ICEnroll4 interface [Security],CAStoreName property, ICEnroll4.CAStoreName, ICEnroll4::CAStoreName, ICEnroll4::get_CAStoreName, ICEnroll4::put_CAStoreName, ICEnroll::get_CAStoreName, ICEnroll::put_CAStoreName, put_CAStoreName, security.icenroll4_castorename, xenroll/ICEnroll2::CAStoreName, xenroll/ICEnroll2::get_CAStoreName, xenroll/ICEnroll2::put_CAStoreName, xenroll/ICEnroll3::CAStoreName, xenroll/ICEnroll3::get_CAStoreName, xenroll/ICEnroll3::put_CAStoreName, xenroll/ICEnroll4::CAStoreName, xenroll/ICEnroll4::get_CAStoreName, xenroll/ICEnroll4::put_CAStoreName, xenroll/ICEnroll::CAStoreName, xenroll/ICEnroll::get_CAStoreName, xenroll/ICEnroll::put_CAStoreName
-ms.topic: method
 f1_keywords:
 - xenroll/ICEnroll4.CAStoreName
 dev_langs:

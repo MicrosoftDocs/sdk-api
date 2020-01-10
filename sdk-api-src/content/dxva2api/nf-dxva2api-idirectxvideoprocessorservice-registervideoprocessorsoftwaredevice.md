@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 3d0bdd60-6cc7-4229-aed9-40b407167456
 ms.date: 12/05/2018
 ms.keywords: 3d0bdd60-6cc7-4229-aed9-40b407167456, IDirectXVideoProcessorService interface [Media Foundation],RegisterVideoProcessorSoftwareDevice method, IDirectXVideoProcessorService.RegisterVideoProcessorSoftwareDevice, IDirectXVideoProcessorService::RegisterVideoProcessorSoftwareDevice, RegisterVideoProcessorSoftwareDevice, RegisterVideoProcessorSoftwareDevice method [Media Foundation], RegisterVideoProcessorSoftwareDevice method [Media Foundation],IDirectXVideoProcessorService interface, dxva2api/IDirectXVideoProcessorService::RegisterVideoProcessorSoftwareDevice, mf.idirectxvideoprocessorservice_registervideoprocessorsoftwaredevice
-ms.topic: method
 f1_keywords:
 - dxva2api/IDirectXVideoProcessorService.RegisterVideoProcessorSoftwareDevice
 dev_langs:

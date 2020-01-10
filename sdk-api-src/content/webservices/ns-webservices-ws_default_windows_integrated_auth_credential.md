@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 14753a2d-6054-4041-a72b-4cd7a9576f3b
 ms.date: 12/05/2018
 ms.keywords: WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL structure [Web Services for Windows], webservices/WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL, wsw.ws_default_windows_integrated_auth_credential
-ms.topic: struct
 f1_keywords:
 - webservices/WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
 dev_langs:

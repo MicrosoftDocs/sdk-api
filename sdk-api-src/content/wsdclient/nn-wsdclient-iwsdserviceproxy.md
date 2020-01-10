@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 8753bcc8-f0c3-4dd0-8ebe-f6c15a271c70
 ms.date: 12/05/2018
 ms.keywords: IWSDServiceProxy, IWSDServiceProxy interface, IWSDServiceProxy interface,described, ncd.iwsdserviceproxy, wsdclient/IWSDServiceProxy
-ms.topic: interface
 f1_keywords:
 - wsdclient/IWSDServiceProxy
 dev_langs:

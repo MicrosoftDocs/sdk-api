@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 92A35846-360B-42D3-935B-6FC10AF687A5
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpv6AppendOption, PxeDhcpv6AppendOption function [Windows Deployment Services], wds.pxedhcpv6appendoption, wdspxe/PxeDhcpv6AppendOption
-ms.topic: function
 f1_keywords:
 - wdspxe/PxeDhcpv6AppendOption
 dev_langs:

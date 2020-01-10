@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: f0a5dc8d-2bc6-4fcc-8871-ea80fc6a4abc
 ms.date: 12/05/2018
 ms.keywords: DRMClearAllRights, DRMClearAllRights function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMClearAllRights, rm.drmclearallrights
-ms.topic: function
 f1_keywords:
 - msdrm/DRMClearAllRights
 dev_langs:

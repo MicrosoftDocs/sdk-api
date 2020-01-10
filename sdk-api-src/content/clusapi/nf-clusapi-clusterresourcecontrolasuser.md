@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: D8CA1B1C-7061-4EAD-B4A0-8468B503D96D
 ms.date: 12/05/2018
 ms.keywords: ClusterResourceControlAsUser, ClusterResourceControlAsUser function [Failover Cluster], clusapi/ClusterResourceControlAsUser, mscs.clusterresourcecontrolasuser
-ms.topic: function
 f1_keywords:
 - clusapi/ClusterResourceControlAsUser
 dev_langs:

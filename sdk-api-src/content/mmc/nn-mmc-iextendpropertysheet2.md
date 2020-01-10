@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 9beb0a0a-b3bf-46d0-b10c-0fc3ab25c18d
 ms.date: 12/05/2018
 ms.keywords: IExtendPropertySheet2, IExtendPropertySheet2 interface [MMC], IExtendPropertySheet2 interface [MMC],described, _slate_iextendpropertysheet2, mmc.iextendpropertysheet2, mmc/IExtendPropertySheet2
-ms.topic: interface
 f1_keywords:
 - mmc/IExtendPropertySheet2
 dev_langs:

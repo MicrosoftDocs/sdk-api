@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorGetYPtr(float@,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorGetYPtr, XMVectorGetYPtr, XMVectorGetYPtr method [DirectX Math Support APIs], dxmath.xmvectorgetyptr
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorGetYPtr
 dev_langs:

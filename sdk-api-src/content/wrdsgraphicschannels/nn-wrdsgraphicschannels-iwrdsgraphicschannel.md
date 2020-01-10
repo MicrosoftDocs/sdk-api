@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 5d1e88b4-3dff-4f88-a6de-abc02da57ece
 ms.date: 12/05/2018
 ms.keywords: IWRdsGraphicsChannel, IWRdsGraphicsChannel interface [Remote Desktop Services], IWRdsGraphicsChannel interface [Remote Desktop Services],described, termserv.iwrdsgraphicschannel, wrdsgraphicschannels/IWRdsGraphicsChannel
-ms.topic: interface
 f1_keywords:
 - wrdsgraphicschannels/IWRdsGraphicsChannel
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 3b583541-6480-490d-883f-376ea95f7a98
 ms.date: 12/05/2018
 ms.keywords: 3b583541-6480-490d-883f-376ea95f7a98, IMFTimer interface [Media Foundation],SetTimer method, IMFTimer.SetTimer, IMFTimer::SetTimer, SetTimer, SetTimer method [Media Foundation], SetTimer method [Media Foundation],IMFTimer interface, mf.imftimer_settimer, mfidl/IMFTimer::SetTimer
-ms.topic: method
 f1_keywords:
 - mfidl/IMFTimer.SetTimer
 dev_langs:

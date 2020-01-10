@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 5695bcb7-a83a-4581-8f46-00e85273b160
 ms.date: 12/05/2018
 ms.keywords: INetFwServiceRestriction interface [ICS/ICF],RestrictService method, INetFwServiceRestriction.RestrictService, INetFwServiceRestriction::RestrictService, RestrictService, RestrictService method [ICS/ICF], RestrictService method [ICS/ICF],INetFwServiceRestriction interface, ics.inetfwservicerestriction_restrictservice, netfw/INetFwServiceRestriction::RestrictService
-ms.topic: method
 f1_keywords:
 - netfw/INetFwServiceRestriction.RestrictService
 dev_langs:

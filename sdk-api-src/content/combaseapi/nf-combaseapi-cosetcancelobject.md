@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 0978e252-2206-4597-abf2-fe0dac32efc4
 ms.date: 12/05/2018
 ms.keywords: CoSetCancelObject, CoSetCancelObject function [COM], _com_CoSetCancelObject, com.cosetcancelobject, combaseapi/CoSetCancelObject
-ms.topic: function
 f1_keywords:
 - combaseapi/CoSetCancelObject
 dev_langs:

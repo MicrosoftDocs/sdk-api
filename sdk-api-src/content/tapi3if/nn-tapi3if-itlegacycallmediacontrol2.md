@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 47fa5669-1c74-4c18-8370-3efe35b3573e
 ms.date: 12/05/2018
 ms.keywords: ITLegacyCallMediaControl2, ITLegacyCallMediaControl2 interface [TAPI 2.2], ITLegacyCallMediaControl2 interface [TAPI 2.2],described, _tapi3_itlegacycallmediacontrol2, tapi3.itlegacycallmediacontrol2, tapi3if/ITLegacyCallMediaControl2
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITLegacyCallMediaControl2
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 47c75071-f10d-43cf-a841-2dd49fc39afa
 ms.date: 12/05/2018
 ms.keywords: MakeAbsoluteSD, MakeAbsoluteSD function [Security], _win32_makeabsolutesd, security.makeabsolutesd, securitybaseapi/MakeAbsoluteSD
-ms.topic: function
 f1_keywords:
 - securitybaseapi/MakeAbsoluteSD
 dev_langs:

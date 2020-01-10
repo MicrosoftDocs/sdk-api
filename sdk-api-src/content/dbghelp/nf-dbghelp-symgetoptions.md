@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 3d9db826-1c4a-46d6-b007-c0dd5e6b17cc
 ms.date: 12/05/2018
 ms.keywords: SymGetOptions, SymGetOptions function, _win32_symgetoptions, base.symgetoptions, dbghelp/SymGetOptions
-ms.topic: function
 f1_keywords:
 - dbghelp/SymGetOptions
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: B7DBC665-2942-433B-8C7F-1A02DB994A8B
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVDecDDStereoDownMixMode, codecapi/eAVDecDDStereoDownMixMode_Auto, codecapi/eAVDecDDStereoDownMixMode_LoRo, codecapi/eAVDecDDStereoDownMixMode_LtRt, eAVDecDDStereoDownMixMode, eAVDecDDStereoDownMixMode enumeration [Media Foundation], eAVDecDDStereoDownMixMode_Auto, eAVDecDDStereoDownMixMode_LoRo, eAVDecDDStereoDownMixMode_LtRt, mf.eavdecddstereodownmixmode
-ms.topic: enum
 f1_keywords:
 - codecapi/eAVDecDDStereoDownMixMode
 dev_langs:

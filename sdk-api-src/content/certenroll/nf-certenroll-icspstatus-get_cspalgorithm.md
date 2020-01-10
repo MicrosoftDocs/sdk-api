@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: fc86ff4a-98f4-4e14-8d24-132926c9b41d
 ms.date: 12/05/2018
 ms.keywords: CspAlgorithm property [Security], CspAlgorithm property [Security],ICspStatus interface, ICspStatus interface [Security],CspAlgorithm property, ICspStatus.CspAlgorithm, ICspStatus.get_CspAlgorithm, ICspStatus::CspAlgorithm, ICspStatus::get_CspAlgorithm, certenroll/ICspStatus::CspAlgorithm, certenroll/ICspStatus::get_CspAlgorithm, get_CspAlgorithm, security.icspstatus_cspalgorithm
-ms.topic: method
 f1_keywords:
 - certenroll/ICspStatus.CspAlgorithm
 dev_langs:

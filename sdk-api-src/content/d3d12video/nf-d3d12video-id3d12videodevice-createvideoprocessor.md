@@ -5,7 +5,6 @@ description: Creates a video processor instance.
 tech.root: mf
 ms.assetid: f19f0bfe-4b60-4f96-af85-fe7fec824875
 ms.date: 05/28/2019
-ms.topic: method
 f1_keywords:
 - ID3D12VideoDevice::CreateVideoProcessor
 dev_langs:

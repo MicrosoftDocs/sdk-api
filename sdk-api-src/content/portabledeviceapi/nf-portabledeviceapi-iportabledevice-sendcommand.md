@@ -7,7 +7,6 @@ tech.root: wpd_sdk
 ms.assetid: ccc7f87a-dea3-4a1e-a181-86928e23bd35
 ms.date: 12/05/2018
 ms.keywords: IPortableDevice interface [Windows Portable Devices SDK],SendCommand method, IPortableDevice.SendCommand, IPortableDevice::SendCommand, IPortableDeviceSendCommand, SendCommand, SendCommand method [Windows Portable Devices SDK], SendCommand method [Windows Portable Devices SDK],IPortableDevice interface, portabledeviceapi/IPortableDevice::SendCommand, wpdsdk.iportabledevice_sendcommand
-ms.topic: method
 f1_keywords:
 - portabledeviceapi/IPortableDevice.SendCommand
 dev_langs:

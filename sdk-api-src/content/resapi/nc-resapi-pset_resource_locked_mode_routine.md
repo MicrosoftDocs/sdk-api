@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 000D127C-7BDE-4FC1-984E-2EE805E603FC
 ms.date: 12/05/2018
 ms.keywords: PSET_RESOURCE_LOCKED_MODE_ROUTINE, PSET_RESOURCE_LOCKED_MODE_ROUTINE callback function [Failover Cluster], SetResourceLockedMode, SetResourceLockedMode callback, SetResourceLockedMode callback function [Failover Cluster], mscs.setresourcelockedmode, resapi/PSET_RESOURCE_LOCKED_MODE_ROUTINE, resapi/SetResourceLockedMode
-ms.topic: callback
 f1_keywords:
 - resapi/SetResourceLockedMode
 dev_langs:

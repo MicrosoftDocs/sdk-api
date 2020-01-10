@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 7bdbb67b-ff20-4f2a-ad8a-8bb8dba3da65
 ms.date: 12/05/2018
 ms.keywords: DVB_EIT_FILTER_OPTIONS, DVB_EIT_FILTER_OPTIONS structure [Microsoft TV Technologies], PDVB_EIT_FILTER_OPTIONS, PDVB_EIT_FILTER_OPTIONS structure pointer [Microsoft TV Technologies], mpeg2structs/DVB_EIT_FILTER_OPTIONS, mpeg2structs/PDVB_EIT_FILTER_OPTIONS, mstv.dvb_eit_filter_options
-ms.topic: struct
 f1_keywords:
 - mpeg2structs/DVB_EIT_FILTER_OPTIONS
 dev_langs:

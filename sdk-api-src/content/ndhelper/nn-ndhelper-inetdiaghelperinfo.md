@@ -7,7 +7,6 @@ tech.root: NDF
 ms.assetid: 815e2338-0055-4078-a9a5-197db449c33d
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelperInfo, INetDiagHelperInfo interface [NDF], INetDiagHelperInfo interface [NDF],described, ndf.inetdiaghelperinfo, ndhelper/INetDiagHelperInfo
-ms.topic: interface
 f1_keywords:
 - ndhelper/INetDiagHelperInfo
 dev_langs:

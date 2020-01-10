@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 2dabc360-7f69-4dbb-9826-0657eec265ff
 ms.date: 12/05/2018
 ms.keywords: _win32_capSetMCIDeviceName, capSetMCIDeviceName, capSetMCIDeviceName macro [Windows Multimedia], multimedia.capsetmcidevicename, vfw/capSetMCIDeviceName
-ms.topic: macro
 f1_keywords:
 - vfw/capSetMCIDeviceName
 dev_langs:

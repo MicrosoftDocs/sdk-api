@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 89b36a28-c8c7-42aa-89a6-7d8f5ddae3fa
 ms.date: 12/05/2018
 ms.keywords: GetFamilyNames, GetFamilyNames method [Direct Write], GetFamilyNames method [Direct Write],IDWriteFontFamily interface, IDWriteFontFamily interface [Direct Write],GetFamilyNames method, IDWriteFontFamily.GetFamilyNames, IDWriteFontFamily::GetFamilyNames, directwrite.IDWriteFontFamily_GetFamilyNames, dwrite/IDWriteFontFamily::GetFamilyNames
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteFontFamily.GetFamilyNames
 dev_langs:

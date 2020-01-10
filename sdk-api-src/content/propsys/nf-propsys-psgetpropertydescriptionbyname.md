@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 181ebbfb-66ed-4763-ad2d-acf3c800f9d2
 ms.date: 12/05/2018
 ms.keywords: PSGetPropertyDescriptionByName, PSGetPropertyDescriptionByName function [Windows Properties], properties.PSGetPropertyDescriptionByName, propsys/PSGetPropertyDescriptionByName, shell.PSGetPropertyDescriptionByName, shell_PSGetPropertyDescriptionByName
-ms.topic: function
 f1_keywords:
 - propsys/PSGetPropertyDescriptionByName
 dev_langs:

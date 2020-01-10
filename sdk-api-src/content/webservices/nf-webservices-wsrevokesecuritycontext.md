@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 07367f3d-4158-4ef4-ac27-4218d2a810a8
 ms.date: 12/05/2018
 ms.keywords: WsRevokeSecurityContext, WsRevokeSecurityContext function [Web Services for Windows], webservices/WsRevokeSecurityContext, wsw.wsrevokesecuritycontext
-ms.topic: function
 f1_keywords:
 - webservices/WsRevokeSecurityContext
 dev_langs:

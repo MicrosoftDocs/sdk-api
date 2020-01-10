@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 22c804b9-e260-4a8a-bbb3-fcc81fa97c7a
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],InsertEmbeddedAtSelection method, ITextStoreAnchor.InsertEmbeddedAtSelection, ITextStoreAnchor::InsertEmbeddedAtSelection, InsertEmbeddedAtSelection, InsertEmbeddedAtSelection method [Text Services Framework], InsertEmbeddedAtSelection method [Text Services Framework],ITextStoreAnchor interface, TF_IAS_NOQUERY, TF_IAS_QUERYONLY, textstor/ITextStoreAnchor::InsertEmbeddedAtSelection, tsf.itextstoreanchor_insertembeddedatselection
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreAnchor.InsertEmbeddedAtSelection
 dev_langs:

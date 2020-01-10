@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 65d9cf7d-cc8a-4199-9a4a-7fd67ef8872d
 ms.date: 12/05/2018
 ms.keywords: GetRunningObjectTable, GetRunningObjectTable function [COM], _com_GetRunningObjectTable, com.getrunningobjecttable, objbase/GetRunningObjectTable
-ms.topic: function
 f1_keywords:
 - objbase/GetRunningObjectTable
 dev_langs:

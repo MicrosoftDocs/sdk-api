@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: A7D73251-2EE0-4DCF-9BC0-12346DDBD2A9
 ms.date: 12/5/2018
 ms.keywords: DML_ACTIVATION_PARAMETRIC_SOFTPLUS_OPERATOR_DESC, DML_ACTIVATION_PARAMETRIC_SOFTPLUS_OPERATOR_DESC structure, direct3d12.dml_activation_parametric_softplus_operator_desc, directml/DML_ACTIVATION_PARAMETRIC_SOFTPLUS_OPERATOR_DESC
-ms.topic: struct
 f1_keywords:
 - directml/DML_ACTIVATION_PARAMETRIC_SOFTPLUS_OPERATOR_DESC
 dev_langs:

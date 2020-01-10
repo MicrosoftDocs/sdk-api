@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 792ab726-6309-4f77-b40c-95dad2d991d9
 ms.date: 12/05/2018
 ms.keywords: WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES, WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES structure [Web Services for Windows], webservices/WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES, wsw.ws_xml_canonicalization_inclusive_prefixes
-ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 7923b767-2b38-4aa8-bbc2-21d0254bdbd9
 ms.date: 12/05/2018
 ms.keywords: PALETTE_ENTRIES, PALETTE_ENTRIES macro [DirectShow], amvideo/PALETTE_ENTRIES, dshow.palette_entries
-ms.topic: macro
 f1_keywords:
 - amvideo/PALETTE_ENTRIES
 dev_langs:

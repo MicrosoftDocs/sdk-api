@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: 9EBC64B5-7FB3-41AA-BCB2-29B3E444B463
 ms.date: 12/05/2018
 ms.keywords: CF_SYNC_ROOT_PROVIDER_INFO, CF_SYNC_ROOT_PROVIDER_INFO structure, cfapi/CF_SYNC_ROOT_PROVIDER_INFO, cloudApi.cf_sync_root_provider_info
-ms.topic: struct
 f1_keywords:
 - cfapi/CF_SYNC_ROOT_PROVIDER_INFO
 dev_langs:

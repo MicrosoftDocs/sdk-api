@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 9a896a67-ef0c-4fd7-b352-3c091bea1ad8
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_receivedPackets method, IWMPNetwork.get_receivedPackets, IWMPNetwork::get_receivedPackets, IWMPNetworkget_receivedPackets, get_receivedPackets, get_receivedPackets method [Windows Media Player], get_receivedPackets method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_receivedpackets, wmp/IWMPNetwork::get_receivedPackets
-ms.topic: method
 f1_keywords:
 - wmp/IWMPNetwork.get_receivedPackets
 dev_langs:

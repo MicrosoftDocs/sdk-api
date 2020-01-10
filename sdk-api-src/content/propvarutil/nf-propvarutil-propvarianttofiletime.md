@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: fc835395-8c2c-4f6a-88be-f438625442b9
 ms.date: 12/05/2018
 ms.keywords: PSTF_LOCAL, PSTF_UTC, PropVariantToFileTime, PropVariantToFileTime function [Windows Properties], _shell_PropVariantToFileTime, properties.PropVariantToFileTime, propvarutil/PropVariantToFileTime, shell.PropVariantToFileTime
-ms.topic: function
 f1_keywords:
 - propvarutil/PropVariantToFileTime
 dev_langs:

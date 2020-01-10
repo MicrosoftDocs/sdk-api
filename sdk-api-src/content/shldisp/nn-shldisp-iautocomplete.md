@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: bed6eb41-3086-4af7-8c75-651da9dba3b2
 ms.date: 12/05/2018
 ms.keywords: IAutoComplete, IAutoComplete interface [Windows Shell], IAutoComplete interface [Windows Shell],described, _win32_IAutoComplete, shell.IAutoComplete, shldisp/IAutoComplete
-ms.topic: interface
 f1_keywords:
 - shldisp/IAutoComplete
 dev_langs:

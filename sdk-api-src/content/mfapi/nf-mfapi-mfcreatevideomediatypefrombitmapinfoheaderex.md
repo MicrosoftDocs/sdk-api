@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 27160995-e934-4050-a231-d69d4f75dfce
 ms.date: 12/05/2018
 ms.keywords: MFCreateVideoMediaTypeFromBitMapInfoHeaderEx, MFCreateVideoMediaTypeFromBitMapInfoHeaderEx function [Media Foundation], mf.mfcreatevideomediatypefrombitmapinfoheaderex, mfapi/MFCreateVideoMediaTypeFromBitMapInfoHeaderEx
-ms.topic: function
 f1_keywords:
 - mfapi/MFCreateVideoMediaTypeFromBitMapInfoHeaderEx
 dev_langs:

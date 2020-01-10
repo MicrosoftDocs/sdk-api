@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 9cf1a3fa-dbc6-4760-a9e9-ef237737acfb
 ms.date: 12/05/2018
 ms.keywords: IInitializeSpy, IInitializeSpy interface [COM], IInitializeSpy interface [COM],described, _com_iinitializespy, com.iinitializespy, objidl/IInitializeSpy
-ms.topic: interface
 f1_keywords:
 - objidl/IInitializeSpy
 dev_langs:

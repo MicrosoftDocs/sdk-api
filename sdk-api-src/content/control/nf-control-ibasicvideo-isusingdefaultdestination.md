@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: eceec24b-7743-4989-b112-e6a70283d397
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],IsUsingDefaultDestination method, IBasicVideo.IsUsingDefaultDestination, IBasicVideo::IsUsingDefaultDestination, IBasicVideoIsUsingDefaultDestination, IsUsingDefaultDestination, IsUsingDefaultDestination method [DirectShow], IsUsingDefaultDestination method [DirectShow],IBasicVideo interface, control/IBasicVideo::IsUsingDefaultDestination, dshow.ibasicvideo_isusingdefaultdestination
-ms.topic: method
 f1_keywords:
 - control/IBasicVideo.IsUsingDefaultDestination
 dev_langs:

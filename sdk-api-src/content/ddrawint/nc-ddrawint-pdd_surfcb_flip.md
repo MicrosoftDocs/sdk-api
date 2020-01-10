@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 4ce2e967-7b4a-4065-844d-d8852dec8a8f
 ms.date: 12/05/2018
 ms.keywords: DdFlip, DdFlip callback function [Display Devices], PDD_SURFCB_FLIP, PDD_SURFCB_FLIP callback, ddfncs_c7f9b1ea-0c9e-47f3-8fd1-b814d6e6adbd.xml, ddrawint/DdFlip, display.ddflip
-ms.topic: callback
 f1_keywords:
 - ddrawint/DdFlip
 dev_langs:

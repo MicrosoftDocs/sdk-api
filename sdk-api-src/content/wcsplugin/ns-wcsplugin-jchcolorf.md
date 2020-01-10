@@ -7,7 +7,6 @@ tech.root: WCS
 ms.assetid: a7bf9e3c-b718-437b-a4d9-3edaef29f3ff
 ms.date: 12/05/2018
 ms.keywords: JChColorF, JChColorF structure [Windows Color System], wcs.jchcolorf, wcsplugin/JChColorF
-ms.topic: struct
 f1_keywords:
 - wcsplugin/JChColorF
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: F6EDFFAC-ECBD-4B0E-A929-3DB67D8366AC
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_POL_EXPR_ARRAY, *PDHCP_POL_EXPR_ARRAY, DHCP_POL_EXPR_ARRAY, DHCP_POL_EXPR_ARRAY structure [DHCP], LPDHCP_POL_EXPR_ARRAY, LPDHCP_POL_EXPR_ARRAY structure pointer [DHCP], PDHCP_POL_EXPR_ARRAY, PDHCP_POL_EXPR_ARRAY structure pointer [DHCP], dhcp.dhcp_pol_expr_array, dhcpsapi/DHCP_POL_EXPR_ARRAY, dhcpsapi/LPDHCP_POL_EXPR_ARRAY, dhcpsapi/PDHCP_POL_EXPR_ARRAY'
-ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_POL_EXPR_ARRAY
 dev_langs:

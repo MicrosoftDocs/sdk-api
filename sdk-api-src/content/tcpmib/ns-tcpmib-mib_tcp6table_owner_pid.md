@@ -7,7 +7,6 @@ tech.root: MIB
 ms.assetid: 93629d1d-e5f2-4ae8-b585-17e39ae4986d
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_TCP6TABLE_OWNER_PID, MIB_TCP6TABLE_OWNER_PID, MIB_TCP6TABLE_OWNER_PID structure [MIB], PMIB_TCP6TABLE_OWNER_PID, PMIB_TCP6TABLE_OWNER_PID structure pointer [MIB], iprtrmib/MIB_TCP6TABLE_OWNER_PID, iprtrmib/PMIB_TCP6TABLE_OWNER_PID, mib.mib_tcp6table_owner_pid, tcpmib/MIB_TCP6TABLE_OWNER_PID, tcpmib/PMIB_TCP6TABLE_OWNER_PID'
-ms.topic: struct
 f1_keywords:
 - tcpmib/MIB_TCP6TABLE_OWNER_PID
 dev_langs:

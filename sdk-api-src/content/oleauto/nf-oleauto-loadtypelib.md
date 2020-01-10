@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 155b48e5-5438-409e-9342-630a6a500f60
 ms.date: 12/05/2018
 ms.keywords: LoadTypeLib, LoadTypeLib function [Automation], _oa96_LoadTypeLib, automat.loadtypelib, oleauto/LoadTypeLib
-ms.topic: function
 f1_keywords:
 - oleauto/LoadTypeLib
 dev_langs:

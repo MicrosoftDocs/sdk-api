@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: b9ff6d11-68f2-47c5-b8d7-b3bc2533fdbb
 ms.date: 12/05/2018
 ms.keywords: TF_LC_CHANGE, TF_LC_CREATE, TF_LC_DESTROY, TfLayoutCode, TfLayoutCode enumeration [Text Services Framework], _tsf_tflayoutcode_ref, msctf/TF_LC_CHANGE, msctf/TF_LC_CREATE, msctf/TF_LC_DESTROY, msctf/TfLayoutCode, tsf.tflayoutcode
-ms.topic: enum
 f1_keywords:
 - msctf/TfLayoutCode
 dev_langs:

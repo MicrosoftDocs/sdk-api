@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: FB75D568-A1E4-4B39-A0FE-FE42E79C93B2
 ms.date: 12/05/2018
 ms.keywords: ITransformProvider2 interface [Windows Accessibility],ZoomByUnit method, ITransformProvider2.ZoomByUnit, ITransformProvider2::ZoomByUnit, ZoomByUnit, ZoomByUnit method [Windows Accessibility], ZoomByUnit method [Windows Accessibility],ITransformProvider2 interface, uiautomationcore/ITransformProvider2::ZoomByUnit, winauto.uiauto_itransformprovider2_zoombyunit
-ms.topic: method
 f1_keywords:
 - uiautomationcore/ITransformProvider2.ZoomByUnit
 dev_langs:

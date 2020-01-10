@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 17035b64-9b2c-40d3-bdce-45e9b132e9f1
 ms.date: 12/05/2018
 ms.keywords: WS_ELEMENT_DESCRIPTION, WS_ELEMENT_DESCRIPTION structure [Web Services for Windows], webservices/WS_ELEMENT_DESCRIPTION, wsw.ws_element_description
-ms.topic: struct
 f1_keywords:
 - webservices/WS_ELEMENT_DESCRIPTION
 dev_langs:

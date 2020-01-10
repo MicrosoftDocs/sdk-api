@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 7c53ec29-2541-40d3-95df-bf73d900a6d6
 ms.date: 12/05/2018
 ms.keywords: '*PRUN, PRUN, PRUN structure pointer [Display Devices], RUN, RUN structure [Display Devices], display.run, grstrcts_ccdf6b98-1c92-4d72-b777-e4c075e53064.xml, winddi/PRUN, winddi/RUN'
-ms.topic: struct
 f1_keywords:
 - winddi/RUN
 dev_langs:

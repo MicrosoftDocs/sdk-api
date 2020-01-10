@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMBYTE2.operator = (const XMBYTE2)
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMBYTE2.operator =, DirectX::PackedVector::XMBYTE2::operator =, XMBYTE2 structure [DirectX Math Support APIs],operator = method, XMBYTE2.operator =, XMBYTE2.operator-assign, XMBYTE2.operator=, XMBYTE2::operator-assign, XMBYTE2::operator=, dxmath.xmbyte2_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMBYTE2 structure, operator=
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMBYTE2.operator =
 dev_langs:

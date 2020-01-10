@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: D634AF82-BC17-43FC-9E0E-1FEC10B5A42E
 ms.date: 12/05/2018
 ms.keywords: D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT, D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT, mf.d3d11_authenticated_configure_initialize_input
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 7EDF00C2-332F-4DC3-B71D-EE8CDCB7E92D
 ms.date: 12/5/2018
 ms.keywords: CheckFeatureSupport, CheckFeatureSupport method, CheckFeatureSupport method,IDMLDevice interface, IDMLDevice interface,CheckFeatureSupport method, IDMLDevice.CheckFeatureSupport, IDMLDevice::CheckFeatureSupport, direct3d12.idmldevice_checkfeaturesupport, directml/IDMLDevice::CheckFeatureSupport
-ms.topic: method
 f1_keywords:
 - directml/IDMLDevice.CheckFeatureSupport
 dev_langs:

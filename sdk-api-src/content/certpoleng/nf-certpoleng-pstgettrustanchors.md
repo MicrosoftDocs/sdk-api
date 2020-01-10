@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: bbd69763-6801-4321-be18-802d48850d8c
 ms.date: 12/05/2018
 ms.keywords: PstGetTrustAnchors, PstGetTrustAnchors function [Security], certpoleng/PstGetTrustAnchors, security.pstgettrustanchors
-ms.topic: function
 f1_keywords:
 - certpoleng/PstGetTrustAnchors
 dev_langs:

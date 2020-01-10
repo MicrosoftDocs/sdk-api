@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: e43139d2-260a-4f27-a06c-aca741204663
 ms.date: 12/05/2018
 ms.keywords: GetAttributes, GetAttributes method [windows Media Device Manager], GetAttributes method [windows Media Device Manager],IWMDMStorage interface, IWMDMStorage interface [windows Media Device Manager],GetAttributes method, IWMDMStorage.GetAttributes, IWMDMStorage::GetAttributes, IWMDMStorageGetAttributes, mswmdm/IWMDMStorage::GetAttributes, wmdm.iwmdmstorage_getattributes
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMStorage.GetAttributes
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 9d948df6-6cdf-4283-a2af-3acd47937889
 ms.date: 12/05/2018
 ms.keywords: GetCurrLicenseExpDate, GetCurrLicenseExpDate method [Microsoft TV Technologies], GetCurrLicenseExpDate method [Microsoft TV Technologies],IXDSCodec interface, IXDSCodec interface [Microsoft TV Technologies],GetCurrLicenseExpDate method, IXDSCodec.GetCurrLicenseExpDate, IXDSCodec::GetCurrLicenseExpDate, IXDSCodecGetCurrLicenseExpDate, encdec/IXDSCodec::GetCurrLicenseExpDate, mstv.ixdscodec_getcurrlicenseexpdate
-ms.topic: method
 f1_keywords:
 - encdec/IXDSCodec.GetCurrLicenseExpDate
 dev_langs:

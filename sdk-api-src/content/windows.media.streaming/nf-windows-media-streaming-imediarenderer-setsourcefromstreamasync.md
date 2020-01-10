@@ -7,7 +7,6 @@ tech.root: mediastreaming
 ms.assetid: BBFEDCE1-A7C4-4F7E-AC22-0F117EA075CE
 ms.date: 12/05/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],SetSourceFromStreamAsync method, IMediaRenderer.SetSourceFromStreamAsync, IMediaRenderer.streaming, IMediaRenderer::SetSourceFromStreamAsync, IMediaRenderer::streaming, SetSourceFromStreamAsync, SetSourceFromStreamAsync method [Media Streaming API], SetSourceFromStreamAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_setsourcefromstreamasync, windows/IMediaRenderer::SetSourceFromStreamAsync
-ms.topic: method
 f1_keywords:
 - windows.media.streaming/IMediaRenderer.SetSourceFromStreamAsync
 dev_langs:

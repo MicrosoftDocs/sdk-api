@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: e673e727-edb1-450c-9e1a-a3dc90acc929
 ms.date: 12/05/2018
 ms.keywords: ConvertSidToStringSid, ConvertSidToStringSid function [Security], ConvertSidToStringSidA, ConvertSidToStringSidW, _win32_convertsidtostringsid, sddl/ConvertSidToStringSid, sddl/ConvertSidToStringSidA, sddl/ConvertSidToStringSidW, security.convertsidtostringsid
-ms.topic: function
 f1_keywords:
 - sddl/ConvertSidToStringSid
 dev_langs:

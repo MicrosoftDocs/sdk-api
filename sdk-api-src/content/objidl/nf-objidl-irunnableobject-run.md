@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: fb79e81c-0655-48ea-afb5-dab3529676d0
 ms.date: 12/05/2018
 ms.keywords: IRunnableObject interface [COM],Run method, IRunnableObject.Run, IRunnableObject::Run, Run, Run method [COM], Run method [COM],IRunnableObject interface, _com_irunnableobject_run, com.irunnableobject_run, objidl/IRunnableObject::Run
-ms.topic: method
 f1_keywords:
 - objidl/IRunnableObject.Run
 dev_langs:

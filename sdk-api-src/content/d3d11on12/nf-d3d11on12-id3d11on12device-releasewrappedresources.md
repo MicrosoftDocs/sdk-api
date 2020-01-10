@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 6591D7D4-9B8D-4837-9DCF-0502CC26E725
 ms.date: 12/05/2018
 ms.keywords: ID3D11On12Device interface,ReleaseWrappedResources method, ID3D11On12Device.ReleaseWrappedResources, ID3D11On12Device::ReleaseWrappedResources, ReleaseWrappedResources, ReleaseWrappedResources method, ReleaseWrappedResources method,ID3D11On12Device interface, d3d11on12/ID3D11On12Device::ReleaseWrappedResources, direct3d12.id3d11on12device_releasewrappedresources
-ms.topic: method
 f1_keywords:
 - d3d11on12/ID3D11On12Device.ReleaseWrappedResources
 dev_langs:

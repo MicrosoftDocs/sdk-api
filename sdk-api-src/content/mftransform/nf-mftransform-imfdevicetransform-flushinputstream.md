@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 646A9446-B87A-40B5-8A0F-9DE67286825B
 ms.date: 12/05/2018
 ms.keywords: FlushInputStream, FlushInputStream method [Streaming Media Devices], FlushInputStream method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],FlushInputStream method, IMFDeviceTransform.FlushInputStream, IMFDeviceTransform::FlushInputStream, mftransform/IMFDeviceTransform::FlushInputStream, stream.imfdevicetransform_flushinputstream
-ms.topic: method
 f1_keywords:
 - mftransform/IMFDeviceTransform.FlushInputStream
 dev_langs:

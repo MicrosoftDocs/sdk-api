@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 8c874422-3d59-43cd-b65e-8f4f543e57e5
 ms.date: 12/05/2018
 ms.keywords: WS_XML_WRITER_PROPERTIES, WS_XML_WRITER_PROPERTIES structure [Web Services for Windows], webservices/WS_XML_WRITER_PROPERTIES, wsw.ws_xml_writer_properties
-ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_WRITER_PROPERTIES
 dev_langs:

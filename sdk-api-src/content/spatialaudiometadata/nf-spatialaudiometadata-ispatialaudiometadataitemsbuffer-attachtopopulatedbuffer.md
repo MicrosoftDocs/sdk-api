@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 7C17F504-6EB7-4A8D-B3E1-203D5D9B7E3C
 ms.date: 12/05/2018
 ms.keywords: AttachToPopulatedBuffer, AttachToPopulatedBuffer method [Core Audio], AttachToPopulatedBuffer method [Core Audio],ISpatialAudioMetadataItemsBuffer interface, ISpatialAudioMetadataItemsBuffer interface [Core Audio],AttachToPopulatedBuffer method, ISpatialAudioMetadataItemsBuffer.AttachToPopulatedBuffer, ISpatialAudioMetadataItemsBuffer::AttachToPopulatedBuffer, coreaudio.ispatialaudiometadataitemsbuffer_attachtopopulatedbuffer, spatialaudiometadata/ISpatialAudioMetadataItemsBuffer::AttachToPopulatedBuffer
-ms.topic: method
 f1_keywords:
 - spatialaudiometadata/ISpatialAudioMetadataItemsBuffer.AttachToPopulatedBuffer
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: cabfd07b-294c-4e3a-9d50-84d9b4d98f62
 ms.date: 12/05/2018
 ms.keywords: WsSendReplyMessage, WsSendReplyMessage function [Web Services for Windows], webservices/WsSendReplyMessage, wsw.wssendreplymessage
-ms.topic: function
 f1_keywords:
 - webservices/WsSendReplyMessage
 dev_langs:

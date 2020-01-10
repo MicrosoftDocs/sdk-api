@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 95a0b71e-6485-4b14-81cf-b853a664b3cc
 ms.date: 12/05/2018
 ms.keywords: IWMPEffects2 interface [Windows Media Player],RenderWindowed method, IWMPEffects2.RenderWindowed, IWMPEffects2::RenderWindowed, IWMPEffectsRenderWindowed, RenderWindowed, RenderWindowed method [Windows Media Player], RenderWindowed method [Windows Media Player],IWMPEffects2 interface, effects/IWMPEffects2::RenderWindowed, wmp.iwmpeffects2_renderwindowed
-ms.topic: method
 f1_keywords:
 - effects/IWMPEffects2.RenderWindowed
 dev_langs:

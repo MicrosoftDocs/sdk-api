@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 9e694cc2-090e-43b1-88c7-77175a930bf1
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferSink interface [Microsoft TV Technologies],LockProfile method, IStreamBufferSink.LockProfile, IStreamBufferSink::LockProfile, IStreamBufferSinkLockProfile, LockProfile, LockProfile method [Microsoft TV Technologies], LockProfile method [Microsoft TV Technologies],IStreamBufferSink interface, mstv.istreambuffersink_lockprofile, sbe/IStreamBufferSink::LockProfile
-ms.topic: method
 f1_keywords:
 - sbe/IStreamBufferSink.LockProfile
 dev_langs:

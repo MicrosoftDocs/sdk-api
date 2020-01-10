@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 29cc4dec-e02d-4ce4-a615-9b62bd08befb
 ms.date: 12/05/2018
 ms.keywords: ULongPtrSub, ULongPtrSub function [Windows Shell], _shell_ULongPtrSub, intsafe/ULongPtrSub, shell.ULongPtrSub
-ms.topic: function
 f1_keywords:
 - intsafe/ULongPtrSub
 dev_langs:

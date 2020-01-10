@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: e047fccc-a875-4360-be1b-3ac3dea15dd6
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_result, ldap.ldap__result, ldap.ldap_result, ldap_result, ldap_result function [LDAP], winldap/ldap_result
-ms.topic: function
 f1_keywords:
 - winldap/ldap_result
 dev_langs:

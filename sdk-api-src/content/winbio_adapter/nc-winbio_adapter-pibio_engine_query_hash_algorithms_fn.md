@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: 66766c80-44b5-4bec-b8cc-32adf1ddae8a
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterQueryHashAlgorithms, EngineAdapterQueryHashAlgorithms callback function [Windows Biometric Framework API], PIBIO_ENGINE_QUERY_HASH_ALGORITHMS_FN, PIBIO_ENGINE_QUERY_HASH_ALGORITHMS_FN callback, secbiomet.engineadapterqueryhashalgorithms, winbio_adapter/EngineAdapterQueryHashAlgorithms
-ms.topic: callback
 f1_keywords:
 - winbio_adapter/EngineAdapterQueryHashAlgorithms
 dev_langs:

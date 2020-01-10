@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 89423f39-7cbd-42dd-8d4a-6f312884e0bf
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],StartApplication method, ICOMAdminCatalog.StartApplication, ICOMAdminCatalog::StartApplication, StartApplication, StartApplication method [COM+], StartApplication method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_StartApplication, comadmin/ICOMAdminCatalog::StartApplication, cos.icomadmincatalog_startapplication
-ms.topic: method
 f1_keywords:
 - comadmin/ICOMAdminCatalog.StartApplication
 dev_langs:

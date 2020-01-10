@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 017662f7-7974-4598-a729-19181ccdfbe0
 ms.date: 12/05/2018
 ms.keywords: MprConfigGetGuidName, MprConfigGetGuidName function [RAS], _mpr_mprconfiggetguidname, mprapi/MprConfigGetGuidName, rras.mprconfiggetguidname
-ms.topic: function
 f1_keywords:
 - mprapi/MprConfigGetGuidName
 dev_langs:

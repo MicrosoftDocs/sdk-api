@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: 6bbabd8c-f48e-480c-9ea4-06e4fce1255a
 ms.date: 12/05/2018
 ms.keywords: IDirectDraw7 interface [DirectDraw],TestCooperativeLevel method, IDirectDraw7.TestCooperativeLevel, IDirectDraw7::TestCooperativeLevel, TestCooperativeLevel, TestCooperativeLevel method [DirectDraw], TestCooperativeLevel method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::TestCooperativeLevel, directdraw.idirectdraw7_testcooperativelevel
-ms.topic: method
 f1_keywords:
 - ddraw/IDirectDraw7.TestCooperativeLevel
 dev_langs:

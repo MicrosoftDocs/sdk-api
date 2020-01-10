@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: be4ab801-64f6-48f9-8f62-d0492cc438b1
 ms.date: 12/05/2018
 ms.keywords: ID2D1Geometry, ID2D1Geometry interface [Direct2D], ID2D1Geometry interface [Direct2D],described, d2d1/ID2D1Geometry, direct2d.ID2D1Geometry
-ms.topic: interface
 f1_keywords:
 - d2d1/ID2D1Geometry
 dev_langs:

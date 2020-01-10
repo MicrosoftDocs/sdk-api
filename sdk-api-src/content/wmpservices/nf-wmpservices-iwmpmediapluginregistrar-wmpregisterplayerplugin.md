@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: db042911-c46f-431a-ad1c-ceb2c3b4546c
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaPluginRegistrar.WMPRegisterPlayerPlugin, IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin, WMPRegisterPlayerPlugin, WMPRegisterPlayerPlugin function [Windows Media Player], wmp.iwmpmediapluginregistrar__wmpregisterplayerplugin, wmpservices/WMPRegisterPlayerPlugin
-ms.topic: method
 f1_keywords:
 - wmpservices/WMPRegisterPlayerPlugin
 dev_langs:

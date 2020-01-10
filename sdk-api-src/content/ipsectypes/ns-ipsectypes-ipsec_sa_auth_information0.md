@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 54a03edd-94cb-478a-a647-473872408701
 ms.date: 12/05/2018
 ms.keywords: IPSEC_SA_AUTH_INFORMATION0, IPSEC_SA_AUTH_INFORMATION0 structure [Filtering], fwp.ipsec_sa_auth_information0_struct, ipsectypes/IPSEC_SA_AUTH_INFORMATION0
-ms.topic: struct
 f1_keywords:
 - ipsectypes/IPSEC_SA_AUTH_INFORMATION0
 dev_langs:

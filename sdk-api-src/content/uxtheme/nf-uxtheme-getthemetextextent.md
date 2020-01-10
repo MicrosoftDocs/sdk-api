@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemetextextent.htm
 ms.date: 12/05/2018
 ms.keywords: GetThemeTextExtent, GetThemeTextExtent function [Windows Controls], controls.GetThemeTextExtent, controls.inet_GetThemeTextExtent, inet_GetThemeTextExtent, inet_GetThemeTextExtent_cpp, uxtheme/GetThemeTextExtent
-ms.topic: function
 f1_keywords:
 - uxtheme/GetThemeTextExtent
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: daf85def-20ed-4162-b133-f730c50bf98a
 ms.date: 12/05/2018
 ms.keywords: CACHE_DESTROY_CALLBACK, CACHE_DESTROY_CALLBACK callback, CACHE_DESTROY_CALLBACK callback function [Windows API], filehc/CACHE_DESTROY_CALLBACK, winprog.cache_destroy_callback
-ms.topic: callback
 f1_keywords:
 - filehc/CACHE_DESTROY_CALLBACK
 dev_langs:

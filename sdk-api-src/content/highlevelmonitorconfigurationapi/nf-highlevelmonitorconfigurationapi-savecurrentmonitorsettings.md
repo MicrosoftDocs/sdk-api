@@ -7,7 +7,6 @@ tech.root: Monitor
 ms.assetid: 933106f7-970e-466b-8f66-741e8ba39450
 ms.date: 12/05/2018
 ms.keywords: SaveCurrentMonitorSettings, SaveCurrentMonitorSettings function [Monitor Configuration], highlevelmonitorconfigurationapi/SaveCurrentMonitorSettings, monitor.savecurrentmonitorsettings
-ms.topic: function
 f1_keywords:
 - highlevelmonitorconfigurationapi/SaveCurrentMonitorSettings
 dev_langs:

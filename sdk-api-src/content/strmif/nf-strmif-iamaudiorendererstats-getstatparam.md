@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: bc01cac7-316f-4d18-ae68-c3db4dbf03fa
 ms.date: 12/05/2018
 ms.keywords: GetStatParam, GetStatParam method [DirectShow], GetStatParam method [DirectShow],IAMAudioRendererStats interface, IAMAudioRendererStats interface [DirectShow],GetStatParam method, IAMAudioRendererStats.GetStatParam, IAMAudioRendererStats::GetStatParam, IAMAudioRendererStatsGetStatParam, dshow.iamaudiorendererstats_getstatparam, strmif/IAMAudioRendererStats::GetStatParam
-ms.topic: method
 f1_keywords:
 - strmif/IAMAudioRendererStats.GetStatParam
 dev_langs:

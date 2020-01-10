@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a680a7fd-f980-485d-b52a-eb4d482ebc17
 ms.date: 12/05/2018
 ms.keywords: GetAcceptLanguages, GetAcceptLanguages function [Windows Shell], GetAcceptLanguagesA, GetAcceptLanguagesW, _shell_GetAcceptLanguages, shell.GetAcceptLanguages, shlwapi/GetAcceptLanguages, shlwapi/GetAcceptLanguagesA, shlwapi/GetAcceptLanguagesW
-ms.topic: function
 f1_keywords:
 - shlwapi/GetAcceptLanguages
 dev_langs:

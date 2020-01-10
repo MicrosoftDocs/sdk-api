@@ -7,7 +7,6 @@ tech.root: EventLog
 ms.assetid: b66896f6-baee-43c4-9d9b-5663c164d092
 ms.date: 12/05/2018
 ms.keywords: ClearEventLog, ClearEventLog function, ClearEventLogA, ClearEventLogW, _win32_cleareventlog, base.cleareventlog, winbase/ClearEventLog, winbase/ClearEventLogA, winbase/ClearEventLogW
-ms.topic: function
 f1_keywords:
 - winbase/ClearEventLog
 dev_langs:

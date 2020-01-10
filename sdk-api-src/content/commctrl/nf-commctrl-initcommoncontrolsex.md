@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\initcommoncontrolsex.htm
 ms.date: 12/05/2018
 ms.keywords: InitCommonControlsEx, InitCommonControlsEx function [Windows Controls], _win32_InitCommonControlsEx, _win32_InitCommonControlsEx_cpp, commctrl/InitCommonControlsEx, controls.InitCommonControlsEx, controls._win32_InitCommonControlsEx
-ms.topic: function
 f1_keywords:
 - commctrl/InitCommonControlsEx
 dev_langs:

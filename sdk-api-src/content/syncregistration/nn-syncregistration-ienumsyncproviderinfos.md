@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: 58b0dcc2-861a-4138-872a-cbbe2bb2cc4d
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncProviderInfos, IEnumSyncProviderInfos interface [Windows Sync], IEnumSyncProviderInfos interface [Windows Sync],described, syncregistration/IEnumSyncProviderInfos, winsync.ienumsyncproviderinfos
-ms.topic: interface
 f1_keywords:
 - syncregistration/IEnumSyncProviderInfos
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\setcentercolor.htm
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush class [GDI+],SetCenterColor method, PathGradientBrush.SetCenterColor, PathGradientBrush::SetCenterColor, SetCenterColor, SetCenterColor method [GDI+], SetCenterColor method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetCenterColor_color_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetCenterColor_color_
-ms.topic: method
 f1_keywords:
 - gdipluspath/PathGradientBrush.SetCenterColor
 dev_langs:

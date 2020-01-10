@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: c42bcbe2-2e8f-42bd-a8e3-2827c6563300
 ms.date: 12/05/2018
 ms.keywords: GetEnhMetaFileHeader, GetEnhMetaFileHeader function [Windows GDI], _win32_GetEnhMetaFileHeader, gdi.getenhmetafileheader, wingdi/GetEnhMetaFileHeader
-ms.topic: function
 f1_keywords:
 - wingdi/GetEnhMetaFileHeader
 dev_langs:

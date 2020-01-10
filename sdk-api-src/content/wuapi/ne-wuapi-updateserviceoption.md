@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: c03ee4e7-b8d4-46bb-bc57-20b35d779e07
 ms.date: 12/05/2018
 ms.keywords: UpdateServiceOption, UpdateServiceOption enumeration [Windows Update Agent], usoNonVolatileService, wua.updateserviceoption, wuapi/UpdateServiceOption, wuapi/usoNonVolatileService
-ms.topic: enum
 f1_keywords:
 - wuapi/UpdateServiceOption
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: lwef
 ms.assetid: 1a32d67f-1ddc-49dc-af88-b8c41a50ac54
 ms.date: 12/05/2018
 ms.keywords: IReconcileInitiator, IReconcileInitiator interface [Legacy Windows Environment Features], IReconcileInitiator interface [Legacy Windows Environment Features],described, _win32_IReconcileInitiator, lwef.ireconcileinitiator, reconcil/IReconcileInitiator, shell.ireconcileinitiator
-ms.topic: interface
 f1_keywords:
 - reconcil/IReconcileInitiator
 dev_langs:

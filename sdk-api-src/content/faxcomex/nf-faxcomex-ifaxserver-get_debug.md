@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_92cn.htm
 ms.date: 12/05/2018
 ms.keywords: Debug property [Fax Service], Debug property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],Debug property, IFaxServer.Debug, IFaxServer.get_Debug, IFaxServer::Debug, IFaxServer::get_Debug, _mfax_faxserver.debug, fax._mfax_faxserver_cpp_mfax_faxserver_debug_cpp, fax._mfax_faxserver_debug, faxcomex/IFaxServer::Debug, faxcomex/IFaxServer::get_Debug, get_Debug
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxServer.Debug
 dev_langs:

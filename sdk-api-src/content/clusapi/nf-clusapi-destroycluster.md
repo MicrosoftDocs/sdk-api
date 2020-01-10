@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 55e601de-b427-43cd-b7f8-6cc576077e59
 ms.date: 12/05/2018
 ms.keywords: DestroyCluster, DestroyCluster function [Failover Cluster], PCLUSAPI_DESTROY_CLUSTER, PCLUSAPI_DESTROY_CLUSTER function [Failover Cluster], clusapi/DestroyCluster, clusapi/PCLUSAPI_DESTROY_CLUSTER, mscs.destroycluster
-ms.topic: function
 f1_keywords:
 - clusapi/DestroyCluster
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ecade442-3272-4886-87e1-057f82f465cf
 ms.date: 12/05/2018
 ms.keywords: UShortMult, UShortMult function [Windows Shell], WordMult, _shell_UShortMult, intsafe/UShortMult, shell.UShortMult
-ms.topic: function
 f1_keywords:
 - intsafe/UShortMult
 dev_langs:

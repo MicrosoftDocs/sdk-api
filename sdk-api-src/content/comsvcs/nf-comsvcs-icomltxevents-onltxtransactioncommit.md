@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: c3462a79-6056-4a57-b971-78d8b4bd2a70
 ms.date: 12/05/2018
 ms.keywords: IComLTxEvents interface [COM+],OnLtxTransactionCommit method, IComLTxEvents.OnLtxTransactionCommit, IComLTxEvents::OnLtxTransactionCommit, OnLtxTransactionCommit, OnLtxTransactionCommit method [COM+], OnLtxTransactionCommit method [COM+],IComLTxEvents interface, comsvcs/IComLTxEvents::OnLtxTransactionCommit, cos.icomltxevents_onltxtransactioncommit
-ms.topic: method
 f1_keywords:
 - comsvcs/IComLTxEvents.OnLtxTransactionCommit
 dev_langs:

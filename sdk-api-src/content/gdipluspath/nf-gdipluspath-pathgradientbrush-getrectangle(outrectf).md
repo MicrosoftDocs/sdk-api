@@ -5,7 +5,6 @@ description: The PathGradientBrush::GetRectangle method gets the smallest rectan
 ms.assetid: da6ff6c8-4be9-46fe-8509-5e72b2feab71
 ms.date: 05/13/2019
 ms.keywords: PathGradientBrush::GetRectangle
-ms.topic: language-reference
 f1_keywords:
 - gdipluspath/PathGradientBrush::GetRectangle
 dev_langs:

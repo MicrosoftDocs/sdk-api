@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 73cecc9b-519c-45c8-b9f8-864ff628560a
 ms.date: 12/05/2018
 ms.keywords: IPolicyQualifier interface [Security],Qualifier property, IPolicyQualifier.Qualifier, IPolicyQualifier.get_Qualifier, IPolicyQualifier::Qualifier, IPolicyQualifier::get_Qualifier, Qualifier property [Security], Qualifier property [Security],IPolicyQualifier interface, certenroll/IPolicyQualifier::Qualifier, certenroll/IPolicyQualifier::get_Qualifier, get_Qualifier, security.ipolicyqualifier_qualifier_property
-ms.topic: method
 f1_keywords:
 - certenroll/IPolicyQualifier.Qualifier
 dev_langs:

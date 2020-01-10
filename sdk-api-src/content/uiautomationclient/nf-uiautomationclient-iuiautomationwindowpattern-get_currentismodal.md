@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: cea34f72-6d89-4992-b119-a298c836a7eb
 ms.date: 12/05/2018
 ms.keywords: CurrentIsModal property [Windows Accessibility], CurrentIsModal property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CurrentIsModal property, IUIAutomationWindowPattern.CurrentIsModal, IUIAutomationWindowPattern.get_CurrentIsModal, IUIAutomationWindowPattern::CurrentIsModal, IUIAutomationWindowPattern::get_CurrentIsModal, get_CurrentIsModal, uiauto.uiauto_IUIAutomationWindowPattern_CurrentIsModal, uiauto_IUIAutomationWindowPattern_CurrentIsModal, uiautomationclient/IUIAutomationWindowPattern::CurrentIsModal, uiautomationclient/IUIAutomationWindowPattern::get_CurrentIsModal, winauto.uiauto_IUIAutomationWindowPattern_CurrentIsModal
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationWindowPattern.CurrentIsModal
 dev_langs:

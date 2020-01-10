@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: aedb4d3d-0f72-4224-8488-4100d2416994
 ms.date: 12/05/2018
 ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],ITaskNamedValueCollection interface, ITaskNamedValueCollection interface [Task Scheduler],Count property, ITaskNamedValueCollection.Count, ITaskNamedValueCollection.get_Count, ITaskNamedValueCollection::Count, ITaskNamedValueCollection::get_Count, get_Count, taskschd.itasknamedvaluecollection_count, taskschd/ITaskNamedValueCollection::Count, taskschd/ITaskNamedValueCollection::get_Count
-ms.topic: method
 f1_keywords:
 - taskschd/ITaskNamedValueCollection.Count
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT4X3.operator = (const XMFLOAT4X3)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMFLOAT4X3.operator =, Use DirectX::::XMFLOAT4X3::operator =, XMFLOAT4X3 structure [DirectX Math Support APIs],operator = method, XMFLOAT4X3.operator =, XMFLOAT4X3.operator-assign, XMFLOAT4X3.operator=, XMFLOAT4X3::operator-assign, XMFLOAT4X3::operator=, dxmath.xmfloat4x3_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMFLOAT4X3 structure, operator=
-ms.topic: method
 f1_keywords:
 - directxmath/XMFLOAT4X3.operator =
 dev_langs:

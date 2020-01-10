@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 5718a15b-985e-4286-a963-cee513e7550c
 ms.date: 12/05/2018
 ms.keywords: ITfKeyEventSink interface [Text Services Framework],OnKeyUp method, ITfKeyEventSink.OnKeyUp, ITfKeyEventSink::OnKeyUp, OnKeyUp, OnKeyUp method [Text Services Framework], OnKeyUp method [Text Services Framework],ITfKeyEventSink interface, _tsf_itfkeyeventsink_onkeyup_ref, msctf/ITfKeyEventSink::OnKeyUp, tsf.itfkeyeventsink_onkeyup
-ms.topic: method
 f1_keywords:
 - msctf/ITfKeyEventSink.OnKeyUp
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 3e34395e-b8e6-4288-a040-dff6cf7f5fe6
 ms.date: 12/05/2018
 ms.keywords: FsrmActionType, FsrmActionType enumeration [File Server Resource Manager], FsrmActionType_Command, FsrmActionType_Email, FsrmActionType_EventLog, FsrmActionType_Report, FsrmActionType_Unknown, fs.fsrmactiontype, fsrm.fsrmactiontype, fsrmenums/FsrmActionType, fsrmenums/FsrmActionType_Command, fsrmenums/FsrmActionType_Email, fsrmenums/FsrmActionType_EventLog, fsrmenums/FsrmActionType_Report, fsrmenums/FsrmActionType_Unknown
-ms.topic: enum
 f1_keywords:
 - fsrmenums/FsrmActionType
 dev_langs:

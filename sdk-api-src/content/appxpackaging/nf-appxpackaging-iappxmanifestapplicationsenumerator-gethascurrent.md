@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 3A497746-3AEB-4B20-9AD0-CD7B5F35853C
 ms.date: 12/05/2018
 ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxManifestApplicationsEnumerator interface, IAppxManifestApplicationsEnumerator interface [App packaging and management],GetHasCurrent method, IAppxManifestApplicationsEnumerator.GetHasCurrent, IAppxManifestApplicationsEnumerator::GetHasCurrent, appxpackaging/IAppxManifestApplicationsEnumerator::GetHasCurrent, appxpkg.iappxmanifestapplicationsenumerator_gethascurrent
-ms.topic: method
 f1_keywords:
 - appxpackaging/IAppxManifestApplicationsEnumerator.GetHasCurrent
 dev_langs:

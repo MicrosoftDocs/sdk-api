@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f978d5d1-a597-4e49-9a2a-de23e99bf65e
 ms.date: 12/05/2018
 ms.keywords: FillFromObject, FillFromObject method [Windows Shell], FillFromObject method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],FillFromObject method, IExplorerBrowser.FillFromObject, IExplorerBrowser::FillFromObject, _shell_IExplorerBrowser_FillFromObject, shell.IExplorerBrowser_FillFromObject, shobjidl_core/IExplorerBrowser::FillFromObject
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IExplorerBrowser.FillFromObject
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\imetadata\getdata.htm
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [search], GetData method [search],IMetaData interface, IMetaData interface [search],GetData method, IMetaData.GetData, IMetaData::GetData, _search_IMetaData_GetData, search._search_IMetaData_GetData, structuredquery/IMetaData::GetData
-ms.topic: method
 f1_keywords:
 - structuredquery/IMetaData.GetData
 dev_langs:

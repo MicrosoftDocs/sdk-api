@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 708c45e4-e92b-4fe5-900f-7cd806011f5e
 ms.date: 12/05/2018
 ms.keywords: VMR9Mode, VMR9Mode , VMR9Mode enumeration [DirectShow], VMR9ModeEnumeration, VMR9Mode_Mask, VMR9Mode_Renderless, VMR9Mode_Windowed, VMR9Mode_Windowless, dshow.vmr9mode, enumeration [DirectShow], vmr9/VMR9Mode, vmr9/VMR9Mode_Mask, vmr9/VMR9Mode_Renderless, vmr9/VMR9Mode_Windowed, vmr9/VMR9Mode_Windowless
-ms.topic: enum
 f1_keywords:
 - vmr9/VMR9Mode
 dev_langs:

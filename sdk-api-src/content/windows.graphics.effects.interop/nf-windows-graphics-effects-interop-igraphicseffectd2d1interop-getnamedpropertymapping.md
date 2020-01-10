@@ -7,7 +7,6 @@ tech.root: w_graph_fx
 ms.assetid: 72185CB5-6D8A-4F9F-B913-C9216CECEC90
 ms.date: 12/05/2018
 ms.keywords: GetNamedPropertyMapping, GetNamedPropertyMapping method, GetNamedPropertyMapping method,IGraphicsEffectD2D1Interop interface, IGraphicsEffectD2D1Interop interface,GetNamedPropertyMapping method, IGraphicsEffectD2D1Interop.GetNamedPropertyMapping, IGraphicsEffectD2D1Interop.effects, IGraphicsEffectD2D1Interop::GetNamedPropertyMapping, IGraphicsEffectD2D1Interop::effects, w_graph_fx.igraphicseffectd2d1interop_getnamedpropertymapping, windows/IGraphicsEffectD2D1Interop::GetNamedPropertyMapping
-ms.topic: method
 f1_keywords:
 - windows.graphics.effects.interop/IGraphicsEffectD2D1Interop.GetNamedPropertyMapping
 dev_langs:

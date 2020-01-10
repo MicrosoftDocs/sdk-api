@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: d3ffe19b-2c9b-4c7b-82c1-f9b846546212
 ms.date: 12/05/2018
 ms.keywords: FWP_VALUE0, FWP_VALUE0 structure [Filtering], fwp.fwp_value0_struct, fwptypes/FWP_VALUE0
-ms.topic: struct
 f1_keywords:
 - fwptypes/FWP_VALUE0
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: df45c379-f525-4018-b2c2-88a52b13dff5
 ms.date: 12/05/2018
 ms.keywords: GetVideoProcessorMode, GetVideoProcessorMode method [Media Foundation], GetVideoProcessorMode method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetVideoProcessorMode method, IMFVideoProcessor.GetVideoProcessorMode, IMFVideoProcessor::GetVideoProcessorMode, df45c379-f525-4018-b2c2-88a52b13dff5, evr9/IMFVideoProcessor::GetVideoProcessorMode, mf.imfvideoprocessor_getvideoprocessormode
-ms.topic: method
 f1_keywords:
 - evr9/IMFVideoProcessor.GetVideoProcessorMode
 dev_langs:

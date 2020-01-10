@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: 1c73e8ab-ac66-43cd-8eec-e97dd3a98071
 ms.date: 12/05/2018
 ms.keywords: SNMP_PDU_GET, SNMP_PDU_GETBULK, SNMP_PDU_GETNEXT, SNMP_PDU_RESPONSE, SNMP_PDU_SET, SNMP_PDU_TRAP, SnmpCreatePdu, SnmpCreatePdu function [SNMP], _snmp_snmpcreatepdu, snmp.snmpcreatepdu, winsnmp/SnmpCreatePdu
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpCreatePdu
 dev_langs:

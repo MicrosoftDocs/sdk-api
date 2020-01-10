@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: B5182892-C40D-432c-9A84-F227A804D080
 ms.date: 12/05/2018
 ms.keywords: Hiding, Hiding method [Windows Shell], Hiding method [Windows Shell],IFrameworkInputPaneHandler interface, IFrameworkInputPaneHandler interface [Windows Shell],Hiding method, IFrameworkInputPaneHandler.Hiding, IFrameworkInputPaneHandler::Hiding, shell.IFrameworkInputPaneHandler_Hiding, shobjidl_core/IFrameworkInputPaneHandler::Hiding
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IFrameworkInputPaneHandler.Hiding
 dev_langs:

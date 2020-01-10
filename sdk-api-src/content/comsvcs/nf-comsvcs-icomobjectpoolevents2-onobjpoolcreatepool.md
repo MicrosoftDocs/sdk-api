@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: fa7a5ee4-8304-426c-9063-d25e2ed69668
 ms.date: 12/05/2018
 ms.keywords: IComObjectPoolEvents2 interface [COM+],OnObjPoolCreatePool method, IComObjectPoolEvents2.OnObjPoolCreatePool, IComObjectPoolEvents2::OnObjPoolCreatePool, OnObjPoolCreatePool, OnObjPoolCreatePool method [COM+], OnObjPoolCreatePool method [COM+],IComObjectPoolEvents2 interface, _dtc_IComObjectPoolEvents2_OnObjPoolCreatePool, comsvcs/IComObjectPoolEvents2::OnObjPoolCreatePool, cos.icomobjectpoolevents2_onobjpoolcreatepool
-ms.topic: method
 f1_keywords:
 - comsvcs/IComObjectPoolEvents2.OnObjPoolCreatePool
 dev_langs:

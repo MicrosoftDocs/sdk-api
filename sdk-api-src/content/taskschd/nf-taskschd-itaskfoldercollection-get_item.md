@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 6caf3128-5e97-4653-88d3-3eb8131409dd
 ms.date: 12/05/2018
 ms.keywords: ITaskFolderCollection interface [Task Scheduler],Item property, ITaskFolderCollection.Item, ITaskFolderCollection.get_Item, ITaskFolderCollection::Item, ITaskFolderCollection::get_Item, Item property [Task Scheduler], Item property [Task Scheduler],ITaskFolderCollection interface, get_Item, taskschd.itaskfoldercollection_item, taskschd/ITaskFolderCollection::Item, taskschd/ITaskFolderCollection::get_Item
-ms.topic: method
 f1_keywords:
 - taskschd/ITaskFolderCollection.Item
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 9F002B65-F101-4498-A9C0-C545BCDB8CC1
 ms.date: 12/05/2018
 ms.keywords: GetMovcInstructionCount, GetMovcInstructionCount method, GetMovcInstructionCount method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetMovcInstructionCount method, ID3D12ShaderReflection.GetMovcInstructionCount, ID3D12ShaderReflection::GetMovcInstructionCount, d3d12shader/ID3D12ShaderReflection::GetMovcInstructionCount, direct3d12.id3d12shaderreflection_getmovcinstructioncount
-ms.topic: method
 f1_keywords:
 - d3d12shader/ID3D12ShaderReflection.GetMovcInstructionCount
 dev_langs:

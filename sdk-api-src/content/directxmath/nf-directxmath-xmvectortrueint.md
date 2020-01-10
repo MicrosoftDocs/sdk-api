@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorTrueInt
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorTrueInt, XMVectorTrueInt, XMVectorTrueInt method [DirectX Math Support APIs], dxmath.xmvectortrueint
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorTrueInt
 dev_langs:

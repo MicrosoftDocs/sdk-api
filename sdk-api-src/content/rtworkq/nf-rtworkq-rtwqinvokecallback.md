@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: ba1ac638-b21d-4a0e-8599-b572b5ef2fa6
 ms.date: 12/05/2018
 ms.keywords: RtwqInvokeCallback, RtwqInvokeCallback function, base.rtwqinvokecallback, rtworkq/RtwqInvokeCallback
-ms.topic: function
 f1_keywords:
 - rtworkq/RtwqInvokeCallback
 dev_langs:

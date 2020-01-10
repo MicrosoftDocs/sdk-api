@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: beb32bb3-06e3-4817-90f0-0745756e1955
 ms.date: 12/05/2018
 ms.keywords: FindMemberRef, FindMemberRef method [Windows Runtime], FindMemberRef method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],FindMemberRef method, IMetaDataImport.FindMemberRef, IMetaDataImport::FindMemberRef, rometadataapi/IMetaDataImport::FindMemberRef, winrt.imetadataimport_findmemberref
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataImport.FindMemberRef
 dev_langs:

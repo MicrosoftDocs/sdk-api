@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: a904827b-644b-459b-b1bd-399bad21f94f
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClient interface [Remote Desktop Services],attachEvent method, IRemoteDesktopClient.attachEvent, IRemoteDesktopClient::attachEvent, attachEvent, attachEvent method [Remote Desktop Services], attachEvent method [Remote Desktop Services],IRemoteDesktopClient interface, rdpappcontainerclient/IRemoteDesktopClient::attachEvent, termserv.iremotedesktopclient_attachevent
-ms.topic: method
 f1_keywords:
 - rdpappcontainerclient/IRemoteDesktopClient.attachEvent
 dev_langs:

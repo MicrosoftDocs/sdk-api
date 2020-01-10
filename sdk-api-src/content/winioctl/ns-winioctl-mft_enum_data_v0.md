@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: bd098d10-b30f-44b0-a379-2d57e33fe1c9
 ms.date: 12/05/2018
 ms.keywords: '*PMFT_ENUM_DATA, *PMFT_ENUM_DATA_V0, MFT_ENUM_DATA, MFT_ENUM_DATA_V0, MFT_ENUM_DATA_V0 structure [Files], PMFT_ENUM_DATA_V0, PMFT_ENUM_DATA_V0 structure pointer [Files], _win32_mft_enum_data_str, base.mft_enum_data_str, fs.mft_enum_data_str, winioctl/MFT_ENUM_DATA_V0, winioctl/PMFT_ENUM_DATA_V0'
-ms.topic: struct
 f1_keywords:
 - winioctl/MFT_ENUM_DATA_V0
 dev_langs:

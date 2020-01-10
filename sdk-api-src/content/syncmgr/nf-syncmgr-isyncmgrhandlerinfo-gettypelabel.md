@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: b1a30aad-bd8e-4375-a914-3010b86d83d9
 ms.date: 12/05/2018
 ms.keywords: GetTypeLabel, GetTypeLabel method [Windows Shell], GetTypeLabel method [Windows Shell],ISyncMgrHandlerInfo interface, ISyncMgrHandlerInfo interface [Windows Shell],GetTypeLabel method, ISyncMgrHandlerInfo.GetTypeLabel, ISyncMgrHandlerInfo::GetTypeLabel, _shell_ISyncMgrHandlerInfo_GetTypeLabel, shell.ISyncMgrHandlerInfo_GetTypeLabel, syncmgr/ISyncMgrHandlerInfo::GetTypeLabel
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrHandlerInfo.GetTypeLabel
 dev_langs:

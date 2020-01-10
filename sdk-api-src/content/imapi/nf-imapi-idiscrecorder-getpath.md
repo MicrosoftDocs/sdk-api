@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: bceb7302-e5e6-4ee5-9adb-1736ab62e819
 ms.date: 12/05/2018
 ms.keywords: GetPath, GetPath method [IMAPI], GetPath method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],GetPath method, IDiscRecorder.GetPath, IDiscRecorder::GetPath, _win32_idiscrecorder_getpath, base.idiscrecorder_getpath, imapi.idiscrecorder_getpath, imapi/IDiscRecorder::GetPath
-ms.topic: method
 f1_keywords:
 - imapi/IDiscRecorder.GetPath
 dev_langs:

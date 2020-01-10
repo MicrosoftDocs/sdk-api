@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 12006b4a-98e1-4761-bce3-32b83b54a2cb
 ms.date: 12/05/2018
 ms.keywords: OPC_WRITE_DEFAULT, OPC_WRITE_FLAGS, OPC_WRITE_FLAGS enumeration [Open Packaging Conventions], OPC_WRITE_FORCE_ZIP32, msopc/OPC_WRITE_DEFAULT, msopc/OPC_WRITE_FLAGS, msopc/OPC_WRITE_FORCE_ZIP32, opc.opc_write_flags
-ms.topic: enum
 f1_keywords:
 - msopc/OPC_WRITE_FLAGS
 dev_langs:

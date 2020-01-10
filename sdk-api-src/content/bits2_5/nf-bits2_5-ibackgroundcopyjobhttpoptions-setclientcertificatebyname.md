@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 8262b360-ab05-42a3-b5e7-178dc9f23fc6
 ms.date: 12/05/2018
 ms.keywords: CA, IBackgroundCopyJobHttpOptions interface [BITS],SetClientCertificateByName method, IBackgroundCopyJobHttpOptions.SetClientCertificateByName, IBackgroundCopyJobHttpOptions::SetClientCertificateByName, MY, ROOT, SPC, SetClientCertificateByName, SetClientCertificateByName method [BITS], SetClientCertificateByName method [BITS],IBackgroundCopyJobHttpOptions interface, bits.ibackgroundcopyjobhttpoptions_setclientcertificatebyname, bits2_5/IBackgroundCopyJobHttpOptions::SetClientCertificateByName
-ms.topic: method
 f1_keywords:
 - bits2_5/IBackgroundCopyJobHttpOptions.SetClientCertificateByName
 dev_langs:

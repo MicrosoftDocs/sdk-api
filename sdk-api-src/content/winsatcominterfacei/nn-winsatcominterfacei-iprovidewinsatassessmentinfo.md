@@ -7,7 +7,6 @@ tech.root: WinSAT
 ms.assetid: 90036c75-6e9e-4d25-804b-02c423616de1
 ms.date: 12/05/2018
 ms.keywords: IProvideWinSATAssessmentInfo, IProvideWinSATAssessmentInfo interface [WinSAT], IProvideWinSATAssessmentInfo interface [WinSAT],described, winsat.iprovidewinsatassessmentinfo, winsatcominterfacei/IProvideWinSATAssessmentInfo
-ms.topic: interface
 f1_keywords:
 - winsatcominterfacei/IProvideWinSATAssessmentInfo
 dev_langs:

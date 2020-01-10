@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 52521ef4-fe59-4766-8828-acb557b0e968
 ms.date: 12/05/2018
 ms.keywords: SHCopyKey, SHCopyKey function [Windows Shell], SHCopyKeyA, SHCopyKeyW, _win32_SHCopyKey, shell.SHCopyKey, shlwapi/SHCopyKey, shlwapi/SHCopyKeyA, shlwapi/SHCopyKeyW
-ms.topic: function
 f1_keywords:
 - shlwapi/SHCopyKey
 dev_langs:

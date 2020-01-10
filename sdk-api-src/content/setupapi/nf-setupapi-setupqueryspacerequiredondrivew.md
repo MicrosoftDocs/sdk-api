@@ -7,7 +7,6 @@ tech.root: SetupApi
 ms.assetid: 529e04e2-671a-4aad-bb1c-2b24cf2e5cd1
 ms.date: 12/05/2018
 ms.keywords: SetupQuerySpaceRequiredOnDrive, SetupQuerySpaceRequiredOnDrive function [Setup API], SetupQuerySpaceRequiredOnDriveA, SetupQuerySpaceRequiredOnDriveW, _setupapi_setupqueryspacerequiredondrive, setup.setupqueryspacerequiredondrive, setupapi/SetupQuerySpaceRequiredOnDrive, setupapi/SetupQuerySpaceRequiredOnDriveA, setupapi/SetupQuerySpaceRequiredOnDriveW
-ms.topic: function
 f1_keywords:
 - setupapi/SetupQuerySpaceRequiredOnDrive
 dev_langs:

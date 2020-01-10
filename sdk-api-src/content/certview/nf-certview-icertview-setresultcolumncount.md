@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: f98b2f45-be9f-47ba-9c6b-63a2912288ac
 ms.date: 12/05/2018
 ms.keywords: CCertView object [Security],SetResultColumnCount method, CV_COLUMN_LOG_DEFAULT, CV_COLUMN_LOG_FAILED_DEFAULT, CV_COLUMN_QUEUE_DEFAULT, ICertView interface [Security],SetResultColumnCount method, ICertView.SetResultColumnCount, ICertView2 interface [Security],SetResultColumnCount method, ICertView2::SetResultColumnCount, ICertView::SetResultColumnCount, SetResultColumnCount, SetResultColumnCount method [Security], SetResultColumnCount method [Security],CCertView object, SetResultColumnCount method [Security],ICertView interface, SetResultColumnCount method [Security],ICertView2 interface, certview/ICertView2::SetResultColumnCount, certview/ICertView::SetResultColumnCount, security.icertview2_setresultcolumncount
-ms.topic: method
 f1_keywords:
 - certview/ICertView2.SetResultColumnCount
 dev_langs:

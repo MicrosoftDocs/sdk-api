@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: 5f7b709c-77ac-46fe-8fb5-dc4943824ab0
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],RemoveContent method, IDirectManipulationViewport.RemoveContent, IDirectManipulationViewport::RemoveContent, RemoveContent, RemoveContent method [Direct Manipulation], RemoveContent method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_removecontent, directmanipulation/IDirectManipulationViewport::RemoveContent
-ms.topic: method
 f1_keywords:
 - directmanipulation/IDirectManipulationViewport.RemoveContent
 dev_langs:

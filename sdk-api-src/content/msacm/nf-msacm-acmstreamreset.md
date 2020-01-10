@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 641c882e-b9c8-4945-bf8a-f3e70c5d5c64
 ms.date: 12/05/2018
 ms.keywords: _win32_acmStreamReset, acmStreamReset, acmStreamReset function [Windows Multimedia], msacm/acmStreamReset, multimedia.acmstreamreset
-ms.topic: function
 f1_keywords:
 - msacm/acmStreamReset
 dev_langs:

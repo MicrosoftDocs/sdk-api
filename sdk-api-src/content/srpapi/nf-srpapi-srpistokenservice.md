@@ -7,7 +7,6 @@ tech.root: EDP
 ms.assetid: 5049B594-A882-49F0-A18B-6A28818AD8D2
 ms.date: 12/05/2018
 ms.keywords: EDP.srpistokenservice, SrpIsTokenService, SrpIsTokenService function, srpapi/SrpIsTokenService
-ms.topic: function
 f1_keywords:
 - srpapi/SrpIsTokenService
 dev_langs:

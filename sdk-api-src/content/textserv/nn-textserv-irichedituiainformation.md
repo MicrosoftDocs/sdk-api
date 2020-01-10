@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: BEED428C-6C88-45A8-948C-77288B817C49
 ms.date: 12/05/2018
 ms.keywords: IRichEditUiaInformation, IRichEditUiaInformation interface [Windows Controls], IRichEditUiaInformation interface [Windows Controls],described, controls.irichedituiainformation, textserv/IRichEditUiaInformation
-ms.topic: interface
 f1_keywords:
 - textserv/IRichEditUiaInformation
 dev_langs:

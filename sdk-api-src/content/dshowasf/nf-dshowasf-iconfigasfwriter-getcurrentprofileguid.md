@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8958f8d3-40ff-44b1-a817-5dca30636306
 ms.date: 12/05/2018
 ms.keywords: GetCurrentProfileGuid, GetCurrentProfileGuid method [DirectShow], GetCurrentProfileGuid method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],GetCurrentProfileGuid method, IConfigAsfWriter.GetCurrentProfileGuid, IConfigAsfWriter::GetCurrentProfileGuid, IConfigAsfWriterGetCurrentProfileGuid, dshow.iconfigasfwriter_getcurrentprofileguid, dshowasf/IConfigAsfWriter::GetCurrentProfileGuid
-ms.topic: method
 f1_keywords:
 - dshowasf/IConfigAsfWriter.GetCurrentProfileGuid
 dev_langs:

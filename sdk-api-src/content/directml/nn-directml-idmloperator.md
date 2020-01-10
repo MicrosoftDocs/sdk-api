@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 6AEC2D11-EDAA-419D-B7A0-7D4FEB6B2EF4
 ms.date: 12/5/2018
 ms.keywords: IDMLOperator, IDMLOperator interface, IDMLOperator interface,described, direct3d12.idmloperator, directml/IDMLOperator
-ms.topic: interface
 f1_keywords:
 - directml/IDMLOperator
 dev_langs:

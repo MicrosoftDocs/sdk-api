@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ba0fb1f9-f67f-4cc7-96d8-4c4ccdd213eb
 ms.date: 12/05/2018
 ms.keywords: IProgressDialog, IProgressDialog interface [Windows Shell], IProgressDialog interface [Windows Shell],described, _win32_IProgressDialog, shell.IProgressDialog, shlobj_core/IProgressDialog
-ms.topic: interface
 f1_keywords:
 - shlobj_core/IProgressDialog
 dev_langs:

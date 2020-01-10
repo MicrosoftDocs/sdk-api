@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6eb4a3ed-6914-4839-ab1f-18510483ab49
 ms.date: 12/05/2018
 ms.keywords: CopyCaptureFile, CopyCaptureFile method [DirectShow], CopyCaptureFile method [DirectShow],ICaptureGraphBuilder interface, ICaptureGraphBuilder interface [DirectShow],CopyCaptureFile method, ICaptureGraphBuilder.CopyCaptureFile, ICaptureGraphBuilder::CopyCaptureFile, ICaptureGraphBuilderCopyCaptureFile, dshow.icapturegraphbuilder_copycapturefile, strmif/ICaptureGraphBuilder::CopyCaptureFile
-ms.topic: method
 f1_keywords:
 - strmif/ICaptureGraphBuilder.CopyCaptureFile
 dev_langs:

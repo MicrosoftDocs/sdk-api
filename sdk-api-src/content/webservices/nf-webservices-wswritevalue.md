@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: c7b9d014-89b5-4959-b49e-ee2cdeb41f7c
 ms.date: 12/05/2018
 ms.keywords: WsWriteValue, WsWriteValue function [Web Services for Windows], webservices/WsWriteValue, wsw.wswritevalue
-ms.topic: function
 f1_keywords:
 - webservices/WsWriteValue
 dev_langs:

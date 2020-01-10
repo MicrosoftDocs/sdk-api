@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 5e21b61e-a43d-47b3-9380-b90d94e13cb8
 ms.date: 12/05/2018
 ms.keywords: GetTriggerString, GetTriggerString method [Task Scheduler], GetTriggerString method [Task Scheduler],ITaskTrigger interface, ITaskTrigger interface [Task Scheduler],GetTriggerString method, ITaskTrigger.GetTriggerString, ITaskTrigger::GetTriggerString, _msb_itasktrigger_gettriggerstring, mstask/ITaskTrigger::GetTriggerString, taskschd.itasktrigger_gettriggerstring
-ms.topic: method
 f1_keywords:
 - mstask/ITaskTrigger.GetTriggerString
 dev_langs:

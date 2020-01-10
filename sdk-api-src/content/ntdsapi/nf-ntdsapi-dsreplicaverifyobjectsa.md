@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: d0e139dc-6aaf-47e1-a76f-4e84f17aa7c6
 ms.date: 12/05/2018
 ms.keywords: DS_EXIST_ADVISORY_MODE, DsReplicaVerifyObjects, DsReplicaVerifyObjects function [Active Directory], DsReplicaVerifyObjectsA, DsReplicaVerifyObjectsW, ad.dsreplicaverifyobjects, ntdsapi/DsReplicaVerifyObjects, ntdsapi/DsReplicaVerifyObjectsA, ntdsapi/DsReplicaVerifyObjectsW
-ms.topic: function
 f1_keywords:
 - ntdsapi/DsReplicaVerifyObjects
 dev_langs:

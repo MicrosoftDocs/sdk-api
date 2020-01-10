@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 6A93B726-1C35-4779-AF60-859DF3B18462
 ms.date: 12/05/2018
 ms.keywords: '*LPAPPLETIDLIST, APPLETIDLIST, APPLETIDLIST structure [Internationalization for Windows Applications], PAPPLETIDLIST, PAPPLETIDLIST structure pointer [Internationalization for Windows Applications], imepad/APPLETIDLIST, imepad/PAPPLETIDLIST, intl.appletidlist'
-ms.topic: struct
 f1_keywords:
 - imepad/APPLETIDLIST
 dev_langs:

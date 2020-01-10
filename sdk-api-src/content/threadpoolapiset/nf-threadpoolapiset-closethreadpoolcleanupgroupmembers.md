@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 9c78db13-d8dd-4eda-83d9-c9dbbfc6e822
 ms.date: 12/05/2018
 ms.keywords: CloseThreadpoolCleanupGroupMembers, CloseThreadpoolCleanupGroupMembers function, base.closethreadpoolcleanupgroupmembers, threadpoolapiset/CloseThreadpoolCleanupGroupMembers, winbase/CloseThreadpoolCleanupGroupMembers
-ms.topic: function
 f1_keywords:
 - threadpoolapiset/CloseThreadpoolCleanupGroupMembers
 dev_langs:

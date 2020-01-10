@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 844fc3b3-b56e-4048-b589-e24457bcc419
 ms.date: 12/05/2018
 ms.keywords: 844fc3b3-b56e-4048-b589-e24457bcc419, IMFMediaSink interface [Media Foundation],SetPresentationClock method, IMFMediaSink.SetPresentationClock, IMFMediaSink::SetPresentationClock, SetPresentationClock, SetPresentationClock method [Media Foundation], SetPresentationClock method [Media Foundation],IMFMediaSink interface, mf.imfmediasink_setpresentationclock, mfidl/IMFMediaSink::SetPresentationClock
-ms.topic: method
 f1_keywords:
 - mfidl/IMFMediaSink.SetPresentationClock
 dev_langs:

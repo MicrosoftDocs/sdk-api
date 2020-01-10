@@ -7,7 +7,6 @@ tech.root: OpenGL
 ms.assetid: dc350848-7921-41b8-96f1-c0eabad3d157
 ms.date: 12/05/2018
 ms.keywords: _ogl_wglCopyContext, opengl.wglcopycontext, wglCopyContext, wglCopyContext function [OpenGL], wingdi/wglCopyContext
-ms.topic: function
 f1_keywords:
 - wingdi/wglCopyContext
 dev_langs:

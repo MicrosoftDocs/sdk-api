@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: e39b5f77-97d8-4ea6-8277-7da12b3367f3
 ms.date: 12/05/2018
 ms.keywords: CreateSolidBrush, CreateSolidBrush function [Windows GDI], _win32_CreateSolidBrush, gdi.createsolidbrush, wingdi/CreateSolidBrush
-ms.topic: function
 f1_keywords:
 - wingdi/CreateSolidBrush
 dev_langs:

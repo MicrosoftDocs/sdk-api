@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: 2c1865c2-ded4-47ce-a743-8ac48986dc5f
 ms.date: 12/05/2018
 ms.keywords: IDirectInputEffectDriver interface [Human Input Devices],StartEffect method, IDirectInputEffectDriver.StartEffect, IDirectInputEffectDriver::StartEffect, StartEffect, StartEffect method [Human Input Devices], StartEffect method [Human Input Devices],IDirectInputEffectDriver interface, di_ref_f30aed74-b4e3-41da-b5c7-f153d6f30b40.xml, dinputd/IDirectInputEffectDriver::StartEffect, hid.idirectinputeffectdriver_starteffect
-ms.topic: method
 f1_keywords:
 - dinputd/IDirectInputEffectDriver.StartEffect
 dev_langs:

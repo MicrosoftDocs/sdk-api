@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 6023595a-ac52-4619-a824-df49da887fc5
 ms.date: 12/05/2018
 ms.keywords: WsCloseListener, WsCloseListener function [Web Services for Windows], webservices/WsCloseListener, wsw.wscloselistener
-ms.topic: function
 f1_keywords:
 - webservices/WsCloseListener
 dev_langs:

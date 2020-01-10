@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9e75141d-b54a-4fe8-9209-40aa7f484d24
 ms.date: 12/05/2018
 ms.keywords: IIdentityName, IIdentityName interface [Windows Shell], IIdentityName interface [Windows Shell],described, _shell_IIdentityName, shell.IIdentityName, shobjidl_core/IIdentityName
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IIdentityName
 dev_langs:

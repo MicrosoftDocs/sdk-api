@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 09ff0d05-627b-4e47-8534-25cd8735c6e5
 ms.date: 12/05/2018
 ms.keywords: EnumRunning, EnumRunning method [COM], EnumRunning method [COM],IRunningObjectTable interface, IRunningObjectTable interface [COM],EnumRunning method, IRunningObjectTable.EnumRunning, IRunningObjectTable::EnumRunning, _com_irunningobjecttable_enumrunning, com.irunningobjecttable_enumrunning, objidl/IRunningObjectTable::EnumRunning
-ms.topic: method
 f1_keywords:
 - objidl/IRunningObjectTable.EnumRunning
 dev_langs:

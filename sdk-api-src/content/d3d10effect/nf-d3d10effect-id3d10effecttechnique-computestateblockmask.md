@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttechnique_computestateblockmask.htm
 ms.date: 12/05/2018
 ms.keywords: ComputeStateBlockMask, ComputeStateBlockMask method [Direct3D 10], ComputeStateBlockMask method [Direct3D 10],ID3D10EffectTechnique interface, ID3D10EffectTechnique interface [Direct3D 10],ComputeStateBlockMask method, ID3D10EffectTechnique.ComputeStateBlockMask, ID3D10EffectTechnique::ComputeStateBlockMask, d3d10effect/ID3D10EffectTechnique::ComputeStateBlockMask, direct3d10.id3d10effecttechnique_computestateblockmask, edde0246-0e4d-7194-97eb-796b3e11860c
-ms.topic: method
 f1_keywords:
 - d3d10effect/ID3D10EffectTechnique.ComputeStateBlockMask
 dev_langs:

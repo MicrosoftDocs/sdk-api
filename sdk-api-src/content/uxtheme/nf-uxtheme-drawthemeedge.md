@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemeedge.htm
 ms.date: 12/05/2018
 ms.keywords: DrawThemeEdge, DrawThemeEdge function [Windows Controls], controls.DrawThemeEdge, controls.inet_DrawThemeEdge, inet_DrawThemeEdge, inet_DrawThemeEdge_cpp, uxtheme/DrawThemeEdge
-ms.topic: function
 f1_keywords:
 - uxtheme/DrawThemeEdge
 dev_langs:

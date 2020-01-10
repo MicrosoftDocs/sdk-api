@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: 4d0b827d-86f8-4d71-a193-9e330db0fbfd
 ms.date: 12/05/2018
 ms.keywords: GetGDISurface, GetGDISurface method [DirectDraw], GetGDISurface method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetGDISurface method, IDirectDraw7.GetGDISurface, IDirectDraw7::GetGDISurface, ddraw/IDirectDraw7::GetGDISurface, directdraw.idirectdraw7_getgdisurface
-ms.topic: method
 f1_keywords:
 - ddraw/IDirectDraw7.GetGDISurface
 dev_langs:

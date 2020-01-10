@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\colorlutparams.htm
 ms.date: 12/05/2018
 ms.keywords: ColorLUTParams, ColorLUTParams structure [GDI+], _gdiplus_STRUC_ColorLUTParams, gdiplus._gdiplus_STRUC_ColorLUTParams, gdipluseffects/ColorLUTParams
-ms.topic: struct
 f1_keywords:
 - gdipluseffects/ColorLUTParams
 dev_langs:

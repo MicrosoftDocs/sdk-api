@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 6d8dd044-988e-4e37-9936-2a3639dedca1
 ms.date: 12/05/2018
 ms.keywords: ITsSbGenericNotifySink interface [Remote Desktop Services],OnCompleted method, ITsSbGenericNotifySink.OnCompleted, ITsSbGenericNotifySink::OnCompleted, OnCompleted, OnCompleted method [Remote Desktop Services], OnCompleted method [Remote Desktop Services],ITsSbGenericNotifySink interface, sbtsv/ITsSbGenericNotifySink::OnCompleted, termserv.itssbgenericnotifysink_oncompleted
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbGenericNotifySink.OnCompleted
 dev_langs:

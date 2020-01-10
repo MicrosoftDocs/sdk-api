@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 029c2eb8-3bcd-4302-8894-be2dbe430426
 ms.date: 12/05/2018
 ms.keywords: StrFormatKBSize, StrFormatKBSize function [Windows Shell], StrFormatKBSizeA, StrFormatKBSizeW, _win32_StrFormatKBSize, shell.StrFormatKBSize, shlwapi/StrFormatKBSize, shlwapi/StrFormatKBSizeA, shlwapi/StrFormatKBSizeW
-ms.topic: function
 f1_keywords:
 - shlwapi/StrFormatKBSize
 dev_langs:

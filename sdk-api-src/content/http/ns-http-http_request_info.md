@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 83c2a922-4ddb-4dc0-9ed6-d75d47b97d6a
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_REQUEST_INFO, *PHTTP_REQUEST_INFO structure [HTTP], HTTP_REQUEST_INFO, HTTP_REQUEST_INFO structure [HTTP], http.http_request_info, http/*PHTTP_REQUEST_INFO, http/HTTP_REQUEST_INFO'
-ms.topic: struct
 f1_keywords:
 - http/HTTP_REQUEST_INFO
 dev_langs:

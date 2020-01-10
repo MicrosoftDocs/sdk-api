@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 7D1C4ABD-38FA-48C4-80ED-C0AA312D45FE
 ms.date: 12/05/2018
 ms.keywords: GetUnderlyingObjectModel, GetUnderlyingObjectModel method [Windows Accessibility], GetUnderlyingObjectModel method [Windows Accessibility],IUIAutomationObjectModelPattern interface, IUIAutomationObjectModelPattern interface [Windows Accessibility],GetUnderlyingObjectModel method, IUIAutomationObjectModelPattern.GetUnderlyingObjectModel, IUIAutomationObjectModelPattern::GetUnderlyingObjectModel, uiautomationclient/IUIAutomationObjectModelPattern::GetUnderlyingObjectModel, winauto.uiauto_IUIAutomationObjectModelPattern_GetUnderlyingObjectModel
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationObjectModelPattern.GetUnderlyingObjectModel
 dev_langs:

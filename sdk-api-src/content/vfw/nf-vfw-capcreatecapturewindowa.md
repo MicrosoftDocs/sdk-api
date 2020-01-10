@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: b08785f8-9850-4d3b-acbf-b065f45910e1
 ms.date: 12/05/2018
 ms.keywords: _win32_capCreateCaptureWindow, capCreateCaptureWindow, capCreateCaptureWindow function [Windows Multimedia], capCreateCaptureWindowA, capCreateCaptureWindowW, multimedia.capcreatecapturewindow, vfw/capCreateCaptureWindow, vfw/capCreateCaptureWindowA, vfw/capCreateCaptureWindowW
-ms.topic: function
 f1_keywords:
 - vfw/capCreateCaptureWindow
 dev_langs:

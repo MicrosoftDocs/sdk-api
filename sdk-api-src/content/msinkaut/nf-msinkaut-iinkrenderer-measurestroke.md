@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: bdaee1c8-ff03-470f-b508-3db5391b3cf7
 ms.date: 12/05/2018
 ms.keywords: IInkRenderer interface [Tablet PC],MeasureStroke method, IInkRenderer.MeasureStroke, IInkRenderer::MeasureStroke, MeasureStroke, MeasureStroke method [Tablet PC], MeasureStroke method [Tablet PC],IInkRenderer interface, bdaee1c8-ff03-470f-b508-3db5391b3cf7, msinkaut/IInkRenderer::MeasureStroke, tablet.inkrenderer_measurestroke
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkRenderer.MeasureStroke
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 59e2a140-bf55-4f0e-bf4b-1a39d3dc0457
 ms.date: 12/05/2018
 ms.keywords: INetFwRule, INetFwRule interface [ICS/ICF], INetFwRule interface [ICS/ICF],described, ics.inetfwrule, netfw/INetFwRule
-ms.topic: interface
 f1_keywords:
 - netfw/INetFwRule
 dev_langs:

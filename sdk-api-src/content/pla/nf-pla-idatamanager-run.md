@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: a1016784-8841-485f-885e-3719bdb0ae05
 ms.date: 12/05/2018
 ms.keywords: IDataManager interface [PLA],Run method, IDataManager.Run, IDataManager::Run, Run, Run method [PLA], Run method [PLA],IDataManager interface, base.idatamanager_run, pla.idatamanager_run, pla/IDataManager::Run
-ms.topic: method
 f1_keywords:
 - pla/IDataManager.Run
 dev_langs:

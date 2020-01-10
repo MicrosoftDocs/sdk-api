@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: a34bbe15-f13f-4034-b2f1-fea3e58c579e
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_RESOURCES_EQUAL, PRESUTIL_RESOURCES_EQUAL function [Failover Cluster], ResUtilResourcesEqual, ResUtilResourcesEqual function [Failover Cluster], _wolf_resutilresourcesequal, mscs.resutilresourcesequal, resapi/PRESUTIL_RESOURCES_EQUAL, resapi/ResUtilResourcesEqual
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilResourcesEqual
 dev_langs:

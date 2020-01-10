@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 3f8affb4-0f71-4687-836b-f4fc484a258d
 ms.date: 12/05/2018
 ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF],INetFwRemoteAdminSettings interface, INetFwRemoteAdminSettings interface [ICS/ICF],Enabled property, INetFwRemoteAdminSettings.Enabled, INetFwRemoteAdminSettings.get_Enabled, INetFwRemoteAdminSettings::Enabled, INetFwRemoteAdminSettings::get_Enabled, INetFwRemoteAdminSettings::put_Enabled, get_Enabled, ics.inetfwremoteadminsettings_enabled, netfw/INetFwRemoteAdminSettings::Enabled, netfw/INetFwRemoteAdminSettings::get_Enabled, netfw/INetFwRemoteAdminSettings::put_Enabled
-ms.topic: method
 f1_keywords:
 - netfw/INetFwRemoteAdminSettings.Enabled
 dev_langs:

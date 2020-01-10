@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: cea9e07d-5e55-4320-9744-b5864b58cfd6
 ms.date: 12/05/2018
 ms.keywords: WICMetadataPattern, WICMetadataPattern structure [Windows Imaging Component], _wic_codec_wicmetadatapattern, wic._wic_codec_wicmetadatapattern, wincodecsdk/WICMetadataPattern
-ms.topic: struct
 f1_keywords:
 - wincodecsdk/WICMetadataPattern
 dev_langs:

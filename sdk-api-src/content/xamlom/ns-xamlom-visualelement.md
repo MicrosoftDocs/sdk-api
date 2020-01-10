@@ -7,7 +7,6 @@ tech.root: xaml_diagnostics
 ms.assetid: 655642E7-64B3-439A-BAE1-7D54461EE058
 ms.date: 12/05/2018
 ms.keywords: PVisualElement, PVisualElement structure pointer, VisualElement, VisualElement structure, xaml_diagnostics.visualelement, xamlom/PVisualElement, xamlom/VisualElement
-ms.topic: struct
 f1_keywords:
 - xamlom/VisualElement
 dev_langs:

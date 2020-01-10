@@ -5,7 +5,6 @@ ms.date: 05/09/2019
 ms.keywords: IBackgroundCopyJobHttpOptions3
 description: Use this interface to set HTTP customer headers to write-only, or to set a server certificate validation callback method that you've implemented.
 tech.root: Bits
-ms.topic: interface
 f1_keywords:
 - bits10_3/IBackgroundCopyJobHttpOptions3
 dev_langs:

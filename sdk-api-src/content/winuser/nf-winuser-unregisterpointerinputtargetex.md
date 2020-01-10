@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 5C62E73A-65D1-4B4D-9165-08B6C844FF3D
 ms.date: 12/05/2018
 ms.keywords: UnregisterPointerInputTargetEx, UnregisterPointerInputTargetEx function [Windows Accessibility], winauto.unregisterpointerinputtargetex, winuser/UnregisterPointerInputTargetEx
-ms.topic: function
 f1_keywords:
 - winuser/UnregisterPointerInputTargetEx
 dev_langs:

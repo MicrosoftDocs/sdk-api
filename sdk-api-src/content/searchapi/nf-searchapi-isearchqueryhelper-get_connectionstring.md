@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_connectionstring.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],get_ConnectionString method, ISearchQueryHelper.get_ConnectionString, ISearchQueryHelper::get_ConnectionString, _search_ISearchQueryHelper_get_ConnectionString, get_ConnectionString, get_ConnectionString method [search], get_ConnectionString method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_ConnectionString, searchapi/ISearchQueryHelper::get_ConnectionString
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchQueryHelper.get_ConnectionString
 dev_langs:

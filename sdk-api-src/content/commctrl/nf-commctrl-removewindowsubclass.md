@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 09f27240-f3af-4791-afcb-a82bda79712a
 ms.date: 12/05/2018
 ms.keywords: RemoveWindowSubclass, RemoveWindowSubclass function [Windows Shell], commctrl/RemoveWindowSubclass, inet_RemoveWindowSubclass, shell.RemoveWindowSubclass
-ms.topic: function
 f1_keywords:
 - commctrl/RemoveWindowSubclass
 dev_langs:

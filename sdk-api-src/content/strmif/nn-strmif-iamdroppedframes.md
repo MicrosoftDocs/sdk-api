@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b41c3792-76fe-48e0-b2f5-ca3b0ee4c8ae
 ms.date: 12/05/2018
 ms.keywords: IAMDroppedFrames, IAMDroppedFrames interface [DirectShow], IAMDroppedFrames interface [DirectShow],described, IAMDroppedFramesInterface, dshow.iamdroppedframes, strmif/IAMDroppedFrames
-ms.topic: interface
 f1_keywords:
 - strmif/IAMDroppedFrames
 dev_langs:

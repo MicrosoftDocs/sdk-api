@@ -7,7 +7,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\idistlist\idistlist.htm
 ms.date: 12/05/2018
 ms.keywords: IDistList, IDistList interface [Windows Address Book], IDistList interface [Windows Address Book],described, _wab_IDistList, wab._wab_IDistList, wabdefs/IDistList
-ms.topic: interface
 f1_keywords:
 - wabdefs/IDistList
 dev_langs:

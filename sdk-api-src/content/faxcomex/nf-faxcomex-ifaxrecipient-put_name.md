@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4q05.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxRecipient interface [Fax Service],Name property, IFaxRecipient.Name, IFaxRecipient.get_Name, IFaxRecipient.put_Name, IFaxRecipient::Name, IFaxRecipient::get_Name, IFaxRecipient::put_Name, Name property [Fax Service], Name property [Fax Service],IFaxRecipient interface, _mfax_faxrecipient.name, fax._mfax_faxrecipient_cpp_mfax_faxrecipient_name_cpp, fax._mfax_faxrecipient_name, faxcomex/IFaxRecipient::Name, faxcomex/IFaxRecipient::get_Name, faxcomex/IFaxRecipient::put_Name, put_Name
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxRecipient.Name
 dev_langs:

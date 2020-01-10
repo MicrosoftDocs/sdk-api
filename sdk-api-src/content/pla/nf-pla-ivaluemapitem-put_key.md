@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 965a5ac4-a811-4fd3-8862-51d82d27c0e9
 ms.date: 12/05/2018
 ms.keywords: IValueMapItem interface [PLA],Key property, IValueMapItem.Key, IValueMapItem.put_Key, IValueMapItem::Key, IValueMapItem::get_Key, IValueMapItem::put_Key, Key property [PLA], Key property [PLA],IValueMapItem interface, base.ivaluemapitem_key, pla.ivaluemapitem_key, pla/IValueMapItem::Key, pla/IValueMapItem::get_Key, pla/IValueMapItem::put_Key, put_Key
-ms.topic: method
 f1_keywords:
 - pla/IValueMapItem.Key
 dev_langs:

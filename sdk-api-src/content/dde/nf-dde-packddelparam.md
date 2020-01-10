@@ -7,7 +7,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangefunctions\packddelparam.htm
 ms.date: 12/05/2018
 ms.keywords: PackDDElParam, PackDDElParam function [Data Exchange], _win32_PackDDElParam, _win32_packddelparam_cpp, dataxchg.packddelparam, dde/PackDDElParam, winui._win32_packddelparam
-ms.topic: function
 f1_keywords:
 - dde/PackDDElParam
 dev_langs:

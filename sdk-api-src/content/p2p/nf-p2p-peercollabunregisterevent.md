@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: dc1bcdaa-e58e-4567-9fd2-e1fa9071880f
 ms.date: 12/05/2018
 ms.keywords: PeerCollabUnregisterEvent, PeerCollabUnregisterEvent function [Peer Networking], p2p.peercollabunregisterevent, p2p/PeerCollabUnregisterEvent
-ms.topic: function
 f1_keywords:
 - p2p/PeerCollabUnregisterEvent
 dev_langs:

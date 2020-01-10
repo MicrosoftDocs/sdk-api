@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 59cb809d-84f5-42c4-a385-0f586af4d048
 ms.date: 12/05/2018
 ms.keywords: IEnumRegFilters, IEnumRegFilters interface [DirectShow], IEnumRegFilters interface [DirectShow],described, IEnumRegFiltersInterface, dshow.ienumregfilters, strmif/IEnumRegFilters
-ms.topic: interface
 f1_keywords:
 - strmif/IEnumRegFilters
 dev_langs:

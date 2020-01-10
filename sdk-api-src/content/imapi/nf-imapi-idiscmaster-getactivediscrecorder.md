@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: bdbc6108-c5c9-4083-84cd-7eae63d45c0f
 ms.date: 12/05/2018
 ms.keywords: GetActiveDiscRecorder, GetActiveDiscRecorder method [IMAPI], GetActiveDiscRecorder method [IMAPI],IDiscMaster interface, IDiscMaster interface [IMAPI],GetActiveDiscRecorder method, IDiscMaster.GetActiveDiscRecorder, IDiscMaster::GetActiveDiscRecorder, _win32_idiscmaster_getactivediscrecorder, base.idiscmaster_getactivediscrecorder, imapi.idiscmaster_getactivediscrecorder, imapi/IDiscMaster::GetActiveDiscRecorder
-ms.topic: method
 f1_keywords:
 - imapi/IDiscMaster.GetActiveDiscRecorder
 dev_langs:

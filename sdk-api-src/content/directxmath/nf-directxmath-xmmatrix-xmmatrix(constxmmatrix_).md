@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: 
 ms.date: 05/13/2019
 ms.keywords: XMMATRIX, XMMATRIX constructor [DirectX Math Support APIs], XMMATRIX constructor [DirectX Math Support APIs],XMMATRIX structure, XMMATRIX structure [DirectX Math Support APIs],XMMATRIX constructor, XMMATRIX.XMMATRIX, XMMATRIX.XMMATRIX(), XMMATRIX.XMMATRIX(const XMMATRIX &), XMMATRIX::XMMATRIX, XMMATRIX::XMMATRIX(const XMMATRIX &), dxmath.xmmatrix_ctor_1
-ms.topic: method
 f1_keywords:
 - directxmath/XMMATRIX.XMMATRIX
 dev_langs:

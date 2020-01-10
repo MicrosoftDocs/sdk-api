@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 9ad2f99e-73b3-4e4c-a6cd-49ca0fe775ca
 ms.date: 12/05/2018
 ms.keywords: _tapi2_phonegetdata, phoneGetData, phoneGetData function [TAPI 2.2], tapi/phoneGetData, tapi2.phonegetdata
-ms.topic: function
 f1_keywords:
 - tapi/phoneGetData
 dev_langs:

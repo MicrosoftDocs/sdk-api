@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 55912927-d886-46d1-a5c1-e10f19c117ab
 ms.date: 12/05/2018
 ms.keywords: MprInfoBlockSet, MprInfoBlockSet function [RAS], _mpr_mprinfoblockset, mprapi/MprInfoBlockSet, rras.mprinfoblockset
-ms.topic: function
 f1_keywords:
 - mprapi/MprInfoBlockSet
 dev_langs:

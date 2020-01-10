@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 599b4694-3d03-4d25-9d02-313599aaaf0b
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerCloseStreamHandle, PeerDistServerCloseStreamHandle function [Peer Networking], p2p.peerdistserverclosestreamhandle, peerdist/PeerDistServerCloseStreamHandle
-ms.topic: function
 f1_keywords:
 - peerdist/PeerDistServerCloseStreamHandle
 dev_langs:

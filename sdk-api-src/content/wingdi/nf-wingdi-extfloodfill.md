@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: b996d47d-5aaf-4b13-8643-209744e5a04b
 ms.date: 12/05/2018
 ms.keywords: ExtFloodFill, ExtFloodFill function [Windows GDI], FLOODFILLBORDER, FLOODFILLSURFACE, _win32_ExtFloodFill, gdi.extfloodfill, wingdi/ExtFloodFill
-ms.topic: function
 f1_keywords:
 - wingdi/ExtFloodFill
 dev_langs:

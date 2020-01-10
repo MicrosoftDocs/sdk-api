@@ -7,7 +7,6 @@ tech.root: wcm
 ms.assetid: 07c0993e-2892-4908-be3f-d24210ccc300
 ms.date: 12/05/2018
 ms.keywords: WcmQueryProperty, WcmQueryProperty function [Windows Connection Manager], wcm.wcmqueryproperty, wcmapi/WcmQueryProperty
-ms.topic: function
 f1_keywords:
 - wcmapi/WcmQueryProperty
 dev_langs:

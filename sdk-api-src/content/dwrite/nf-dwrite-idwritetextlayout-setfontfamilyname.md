@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: c5da17d1-46af-4865-9a6e-a35c6907491b
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetFontFamilyName method, IDWriteTextLayout.SetFontFamilyName, IDWriteTextLayout::SetFontFamilyName, SetFontFamilyName, SetFontFamilyName method [Direct Write], SetFontFamilyName method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetFontFamilyName, dwrite/IDWriteTextLayout::SetFontFamilyName
-ms.topic: method
 f1_keywords:
 - dwrite/IDWriteTextLayout.SetFontFamilyName
 dev_langs:

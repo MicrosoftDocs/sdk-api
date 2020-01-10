@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 8253b062-072b-4d37-8b82-407df1bea6b4
 ms.date: 12/05/2018
 ms.keywords: WsEncodeUrl, WsEncodeUrl function [Web Services for Windows], webservices/WsEncodeUrl, wsw.wsencodeurl
-ms.topic: function
 f1_keywords:
 - webservices/WsEncodeUrl
 dev_langs:

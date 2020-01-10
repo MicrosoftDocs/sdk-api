@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: f94a902a-9187-486c-9442-6defa9893532
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],Name property, IAzApplication interface [Security],Name property, IAzApplication.Name, IAzApplication.get_Name, IAzApplication::Name, IAzApplication::get_Name, IAzApplication::put_Name, Name property [Security], Name property [Security],AzApplication object, Name property [Security],IAzApplication interface, azroles/IAzApplication::Name, azroles/IAzApplication::get_Name, azroles/IAzApplication::put_Name, get_Name, security.iazapplication_name
-ms.topic: method
 f1_keywords:
 - azroles/IAzApplication.Name
 dev_langs:

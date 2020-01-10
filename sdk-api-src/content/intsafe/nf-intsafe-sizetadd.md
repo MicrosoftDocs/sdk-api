@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1cabc944-0819-4a24-ab61-6d5375ba1573
 ms.date: 12/05/2018
 ms.keywords: SizeTAdd, SizeTAdd function [Windows Shell], _shell_SizeTAdd, intsafe/SizeTAdd, shell.SizeTAdd
-ms.topic: function
 f1_keywords:
 - intsafe/SizeTAdd
 dev_langs:

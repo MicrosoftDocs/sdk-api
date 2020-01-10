@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 7f9500a8-b54f-4967-8f8d-9f8770d3dd60
 ms.date: 12/05/2018
 ms.keywords: WsFreeSecurityToken, WsFreeSecurityToken function [Web Services for Windows], webservices/WsFreeSecurityToken, wsw.wsfreesecuritytoken
-ms.topic: function
 f1_keywords:
 - webservices/WsFreeSecurityToken
 dev_langs:

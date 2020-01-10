@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 78ea5993-ee86-435b-a225-8cb6e5f1a240
 ms.date: 12/05/2018
 ms.keywords: CVssWriterEx2 interface,IsWriterShuttingDown method, CVssWriterEx2.IsWriterShuttingDown, CVssWriterEx2::IsWriterShuttingDown, IsWriterShuttingDown, IsWriterShuttingDown method, IsWriterShuttingDown method,CVssWriterEx2 interface, base.cvsswriterex2_iswritershuttingdown, vswriter/CVssWriterEx2::IsWriterShuttingDown
-ms.topic: method
 f1_keywords:
 - vswriter/CVssWriterEx2.IsWriterShuttingDown
 dev_langs:

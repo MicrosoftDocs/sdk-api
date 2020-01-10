@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: adf7ff5d-2d30-4490-9868-9ad78ef7a0b6
 ms.date: 12/05/2018
 ms.keywords: GetSystemTimeAsFileTime, GetSystemTimeAsFileTime function, _win32_getsystemtimeasfiletime, base.getsystemtimeasfiletime, sysinfoapi/GetSystemTimeAsFileTime
-ms.topic: function
 f1_keywords:
 - sysinfoapi/GetSystemTimeAsFileTime
 dev_langs:

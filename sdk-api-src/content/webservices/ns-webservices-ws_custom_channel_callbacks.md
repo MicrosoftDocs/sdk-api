@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 8df774fd-7cfc-4006-84ad-b81737770b6e
 ms.date: 12/05/2018
 ms.keywords: WS_CUSTOM_CHANNEL_CALLBACKS, WS_CUSTOM_CHANNEL_CALLBACKS structure [Web Services for Windows], webservices/WS_CUSTOM_CHANNEL_CALLBACKS, wsw.ws_custom_channel_callbacks
-ms.topic: struct
 f1_keywords:
 - webservices/WS_CUSTOM_CHANNEL_CALLBACKS
 dev_langs:

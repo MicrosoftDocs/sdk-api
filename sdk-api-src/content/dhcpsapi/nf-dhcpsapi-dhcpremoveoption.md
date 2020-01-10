@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: a165d88c-113c-41ed-920e-f8f434578158
 ms.date: 12/05/2018
 ms.keywords: DhcpRemoveOption, DhcpRemoveOption function [DHCP], dhcp.dhcpremoveoption, dhcpsapi/DhcpRemoveOption
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpRemoveOption
 dev_langs:

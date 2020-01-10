@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 98f60199-630b-4759-a0fa-86292713a36d
 ms.date: 12/05/2018
 ms.keywords: AMVP_BEST_BANDWIDTH, AMVP_DO_NOT_CARE, AMVP_INPUT_SAME_AS_OUTPUT, AMVP_SELECT_FORMAT_BY, AMVP_SELECT_FORMAT_BY , AMVP_SELECT_FORMAT_BY enumeration [DirectShow], AMVP_SELECT_FORMAT_BYEnumeration, dshow.amvp_select_format_by, vptype/AMVP_BEST_BANDWIDTH, vptype/AMVP_DO_NOT_CARE, vptype/AMVP_INPUT_SAME_AS_OUTPUT, vptype/AMVP_SELECT_FORMAT_BY
-ms.topic: enum
 f1_keywords:
 - vptype/AMVP_SELECT_FORMAT_BY
 dev_langs:

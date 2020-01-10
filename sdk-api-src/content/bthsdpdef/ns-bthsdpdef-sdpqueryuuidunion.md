@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: 446b0337-ea83-4d8a-bee7-3cccf03e61a5
 ms.date: 12/05/2018
 ms.keywords: SdpQueryUuidUnion, SdpQueryUuidUnion structure [Bluetooth], bluetooth.sdpqueryuuidunion, bthsdpdef/SdpQueryUuidUnion
-ms.topic: struct
 f1_keywords:
 - bthsdpdef/SdpQueryUuidUnion
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 1f39aa06-3c94-4959-b857-ca61498d5b5c
 ms.date: 12/05/2018
 ms.keywords: ITfCandidateListUIElement, ITfCandidateListUIElement interface [Text Services Framework], ITfCandidateListUIElement interface [Text Services Framework],described, _tsf_itfcandidatelistuielement_ref, msctf/ITfCandidateListUIElement, tsf.itfcandidatelistuielement
-ms.topic: interface
 f1_keywords:
 - msctf/ITfCandidateListUIElement
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: dcdfff60-e853-4ad7-a2b4-ddfc0ee73a48
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneGetRing, TSPI_phoneGetRing function [TAPI 2.2], _tspi_tspi_phonegetring, tspi.tspi_phonegetring, tspi/TSPI_phoneGetRing
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_phoneGetRing
 dev_langs:

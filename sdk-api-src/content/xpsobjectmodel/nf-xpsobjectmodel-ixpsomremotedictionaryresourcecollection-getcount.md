@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 853fbce6-db0e-48c6-8a93-172c2568f45d
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResourceCollection interface, IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMRemoteDictionaryResourceCollection.GetCount, IXpsOMRemoteDictionaryResourceCollection::GetCount, xps.ixpsomremotedictionaryresourcecollection_getcount, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::GetCount
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection.GetCount
 dev_langs:

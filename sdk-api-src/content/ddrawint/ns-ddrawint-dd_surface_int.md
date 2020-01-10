@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: b06f204c-e59a-4f13-ac6d-ff0860378312
 ms.date: 12/05/2018
 ms.keywords: '*PDD_SURFACE_INT, DD_SURFACE_INT, DD_SURFACE_INT structure [Display Devices], ddrawint/DD_SURFACE_INT, ddstrcts_3cca7be6-adbb-4d60-a970-891adb294d72.xml, display.dd_surface_int'
-ms.topic: struct
 f1_keywords:
 - ddrawint/DD_SURFACE_INT
 dev_langs:

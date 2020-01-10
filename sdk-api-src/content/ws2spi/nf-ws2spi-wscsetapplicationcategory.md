@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 266c9424-f6ab-4630-843d-bc0833d74e4f
 ms.date: 12/05/2018
 ms.keywords: WSCSetApplicationCategory, WSCSetApplicationCategory function [Winsock], winsock.wscsetapplicationcategory, ws2spi/WSCSetApplicationCategory
-ms.topic: function
 f1_keywords:
 - ws2spi/WSCSetApplicationCategory
 dev_langs:

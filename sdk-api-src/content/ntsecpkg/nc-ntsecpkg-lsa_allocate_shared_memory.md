@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 77fdedaf-8931-4412-ab35-bd3de8e78b9a
 ms.date: 12/05/2018
 ms.keywords: AllocateSharedMemory, AllocateSharedMemory callback function [Security], LSA_ALLOCATE_SHARED_MEMORY, LSA_ALLOCATE_SHARED_MEMORY callback, _ssp_allocatesharedmemory, ntsecpkg/AllocateSharedMemory, security.allocatesharedmemory
-ms.topic: callback
 f1_keywords:
 - ntsecpkg/AllocateSharedMemory
 dev_langs:

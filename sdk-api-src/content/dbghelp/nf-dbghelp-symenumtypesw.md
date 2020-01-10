@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 06f964bc-107a-468d-a35d-141b5da1780e
 ms.date: 12/05/2018
 ms.keywords: SymEnumTypes, SymEnumTypes function, SymEnumTypesW, _win32_symenumtypes, base.symenumtypes, dbghelp/SymEnumTypes, dbghelp/SymEnumTypesW
-ms.topic: function
 f1_keywords:
 - dbghelp/SymEnumTypes
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: fb08ddae-2abf-4a86-a5d8-ea745ae35aa8
 ms.date: 12/05/2018
 ms.keywords: IWMDeviceRegistration, IWMDeviceRegistration interface [windows Media Format], IWMDeviceRegistration interface [windows Media Format],described, IWMDeviceRegistrationInterface, wmformat.iwmdeviceregistration, wmsdkidl/IWMDeviceRegistration
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMDeviceRegistration
 dev_langs:

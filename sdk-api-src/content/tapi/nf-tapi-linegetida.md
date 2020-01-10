@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: e9981574-0058-420f-9627-6d5a1745a739
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegetid, lineGetID, lineGetID function [TAPI 2.2], lineGetIDA, lineGetIDW, tapi/lineGetID, tapi/lineGetIDA, tapi/lineGetIDW, tapi2.linegetid
-ms.topic: function
 f1_keywords:
 - tapi/lineGetID
 dev_langs:

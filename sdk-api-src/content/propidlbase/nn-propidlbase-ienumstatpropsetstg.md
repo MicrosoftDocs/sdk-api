@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: 8d5e658f-312c-4c91-8794-808b2e8dd182
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATPROPSETSTG, IEnumSTATPROPSETSTG interface [Structured Storage], IEnumSTATPROPSETSTG interface [Structured Storage],described, _stg_ienumstatpropsetstg, propidlbase/IEnumSTATPROPSETSTG, stg.ienumstatpropsetstg
-ms.topic: interface
 f1_keywords:
 - propidlbase/IEnumSTATPROPSETSTG
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 301E099E-B621-41E1-BF9B-3AF8C53F9227
 ms.date: 12/05/2018
 ms.keywords: TOKENBINDING_IDENTIFIER, TOKENBINDING_IDENTIFIER structure [Security], TOKENBINDING_SIGNATURE_ALGORITHM_ECDSAP256, TOKENBINDING_SIGNATURE_ALGORITHM_RSA, security.tokenbinding_identifier, tokenbinding/TOKENBINDING_IDENTIFIER
-ms.topic: struct
 f1_keywords:
 - tokenbinding/TOKENBINDING_IDENTIFIER
 dev_langs:

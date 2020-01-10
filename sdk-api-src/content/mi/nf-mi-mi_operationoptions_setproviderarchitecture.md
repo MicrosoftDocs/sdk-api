@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 70caef27-577c-4fa0-9c9e-c9724750b136
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_SetProviderArchitecture, MI_OperationOptions_SetProviderArchitecture function [Windows Management Infrastructure (MI)], MI_PROVIDER_ARCHITECTURE_32BIT, MI_PROVIDER_ARCHITECTURE_64BIT, mi/MI_OperationOptions_SetProviderArchitecture, wmi_v2.mi_operationoptions_setproviderarchitecture
-ms.topic: function
 f1_keywords:
 - mi/MI_OperationOptions_SetProviderArchitecture
 dev_langs:

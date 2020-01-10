@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: 0E72A4DF-5A74-49DD-BD94-06860EFFE09A
 ms.date: 12/05/2018
 ms.keywords: IConsoleNameSpace, IConsoleNameSpace interface [MMC], IConsoleNameSpace interface [MMC],described, mmc.iconsolenamespace, mmc/IConsoleNameSpace
-ms.topic: interface
 f1_keywords:
 - mmc/IConsoleNameSpace
 dev_langs:

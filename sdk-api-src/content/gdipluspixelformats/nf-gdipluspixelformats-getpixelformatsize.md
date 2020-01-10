@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\getpixelformatsize.htm
 ms.date: 12/05/2018
 ms.keywords: GetPixelFormatSize, GetPixelFormatSize function [GDI+], _gdiplus_FUNC_GetPixelFormatSize_, gdiplus._gdiplus_FUNC_GetPixelFormatSize_, gdipluspixelformats/GetPixelFormatSize
-ms.topic: function
 f1_keywords:
 - gdipluspixelformats/GetPixelFormatSize
 dev_langs:

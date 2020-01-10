@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: e0e3ea2d-9cf2-40f6-a3a8-fdcacb63479c
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT, PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT function [Failover Cluster], ResUtilRemoveResourceServiceEnvironment, ResUtilRemoveResourceServiceEnvironment function [Failover Cluster], mscs.resutilremoveresourceserviceenvironment, resapi/PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT, resapi/ResUtilRemoveResourceServiceEnvironment
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilRemoveResourceServiceEnvironment
 dev_langs:

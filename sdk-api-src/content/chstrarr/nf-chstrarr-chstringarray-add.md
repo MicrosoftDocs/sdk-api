@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: f5a0b8e6-b40a-4dc7-bf36-ec629e2899db
 ms.date: 12/05/2018
 ms.keywords: ?Add@CHStringArray@@QAEHPBG@Z, ?Add@CHStringArray@@QEAAHPEBG@Z, Add, Add method [Windows Management Instrumentation], Add method [Windows Management Instrumentation],CHStringArray interface, CHStringArray interface [Windows Management Instrumentation],Add method, CHStringArray.Add, CHStringArray::Add, _hmm_chstringarray_add, chstrarr/CHStringArray::Add, wmi.chstringarray_add
-ms.topic: method
 f1_keywords:
 - chstrarr/CHStringArray.Add
 dev_langs:

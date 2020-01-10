@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 20bf3c00-0f35-4b8e-b78d-a36fbfd865b7
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced3, IWMReaderAdvanced3 interface [windows Media Format], IWMReaderAdvanced3 interface [windows Media Format],described, IWMReaderAdvanced3Interface, wmformat.iwmreaderadvanced3, wmsdkidl/IWMReaderAdvanced3
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMReaderAdvanced3
 dev_langs:

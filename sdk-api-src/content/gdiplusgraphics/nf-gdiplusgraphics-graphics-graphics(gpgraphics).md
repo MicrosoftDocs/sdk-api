@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsconstructors.htm
 ms.date: 12/05/2018
 ms.keywords: Graphics, Graphics constructors [GDI+], Graphics.Graphics, Graphics.Graphics(GpGraphics), Graphics::Graphics, Graphics::Graphics(GpGraphics), _gdiplus_CLASS_Graphics_Constructors, gdiplus._gdiplus_CLASS_Graphics_Constructors, gdiplusgraphics/Graphics
-ms.topic: method
 f1_keywords:
 - gdiplusgraphics/Graphics.Graphics
 dev_langs:

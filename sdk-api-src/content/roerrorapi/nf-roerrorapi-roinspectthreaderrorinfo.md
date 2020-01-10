@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: DE7A930A-89CD-45C0-A232-800E5A5648F8
 ms.date: 12/5/2018
 ms.keywords: RoInspectThreadErrorInfo, RoInspectThreadErrorInfo function [Windows Runtime], roerrorapi/RoInspectThreadErrorInfo, winrt.roinspectthreaderrorinfo
-ms.topic: function
 f1_keywords:
 - roerrorapi/RoInspectThreadErrorInfo
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 17bdb6f4-7d85-4aa6-b89b-a752332cc224
 ms.date: 12/05/2018
 ms.keywords: IVdsDisk2 interface,SetSANMode method, IVdsDisk2.SetSANMode, IVdsDisk2::SetSANMode, SetSANMode, SetSANMode method, SetSANMode method,IVdsDisk2 interface, base.ivdsdisk2_setsanmode, vds/IVdsDisk2::SetSANMode
-ms.topic: method
 f1_keywords:
 - vds/IVdsDisk2.SetSANMode
 dev_langs:

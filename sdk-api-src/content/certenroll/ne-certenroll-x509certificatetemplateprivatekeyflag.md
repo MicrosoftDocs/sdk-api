@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: b908b5fb-9089-493d-9ef4-1fe429ec43d4
 ms.date: 12/05/2018
 ms.keywords: PrivateKeyExportable, PrivateKeyRequireAlternateSignatureAlgorithm, PrivateKeyRequireArchival, PrivateKeyRequireStrongKeyProtection, X509CertificateTemplatePrivateKeyFlag, X509CertificateTemplatePrivateKeyFlag enumeration [Security], certenroll/PrivateKeyExportable, certenroll/PrivateKeyRequireAlternateSignatureAlgorithm, certenroll/PrivateKeyRequireArchival, certenroll/PrivateKeyRequireStrongKeyProtection, certenroll/X509CertificateTemplatePrivateKeyFlag, security.x509certificatetemplateprivatekeyflag
-ms.topic: enum
 f1_keywords:
 - certenroll/X509CertificateTemplatePrivateKeyFlag
 dev_langs:

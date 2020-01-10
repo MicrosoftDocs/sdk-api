@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: e013996a-95b6-4cd3-9fb5-75dbce821eef
 ms.date: 12/05/2018
 ms.keywords: IWMStreamConfig, IWMStreamConfig interface [windows Media Format], IWMStreamConfig interface [windows Media Format],described, IWMStreamConfigInterface, wmformat.iwmstreamconfig, wmsdkidl/IWMStreamConfig
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMStreamConfig
 dev_langs:

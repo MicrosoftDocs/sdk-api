@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 7ee3f5ce-987a-42c9-8681-5bcb9028178a
 ms.date: 12/05/2018
 ms.keywords: '*LPDDADDVPCAPTUREBUFF, DDADDVPCAPTUREBUFF, DDADDVPCAPTUREBUFF structure [Display Devices], LPDDADDVPCAPTUREBUFF, LPDDADDVPCAPTUREBUFF structure pointer [Display Devices], ddkmapi/DDADDVPCAPTUREBUFF, ddkmapi/LPDDADDVPCAPTUREBUFF, ddstrcts_8aed47e9-8635-4a52-aba6-7768f11f9177.xml, display.ddaddvpcapturebuff'
-ms.topic: struct
 f1_keywords:
 - ddkmapi/DDADDVPCAPTUREBUFF
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Rsm
 ms.assetid: 0c6df5d3-c771-4749-8fbd-de5c02ffa5d9
 ms.date: 12/05/2018
 ms.keywords: ExportNtmsDatabase, ExportNtmsDatabase function [Files], _zaw_exportntmsdatabase, base.exportntmsdatabase, fs.exportntmsdatabase, ntmsapi/ExportNtmsDatabase
-ms.topic: function
 f1_keywords:
 - ntmsapi/ExportNtmsDatabase
 dev_langs:

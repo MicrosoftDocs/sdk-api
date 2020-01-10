@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: b896f674-823d-49c9-8e48-c5081e37a13a
 ms.date: 12/05/2018
 ms.keywords: AVIStreamSetFormat, AVIStreamSetFormat function [Windows Multimedia], _win32_AVIStreamSetFormat, multimedia.avistreamsetformat, vfw/AVIStreamSetFormat
-ms.topic: function
 f1_keywords:
 - vfw/AVIStreamSetFormat
 dev_langs:

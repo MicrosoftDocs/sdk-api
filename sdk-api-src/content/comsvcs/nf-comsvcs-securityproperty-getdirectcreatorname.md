@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 26619719-bcca-4776-9580-edc541e6b821
 ms.date: 12/05/2018
 ms.keywords: GetDirectCreatorName, GetDirectCreatorName method [COM+], GetDirectCreatorName method [COM+],SecurityProperty interface, SecurityProperty interface [COM+],GetDirectCreatorName method, SecurityProperty.GetDirectCreatorName, SecurityProperty::GetDirectCreatorName, _cos_SecurityProperty_GetDirectCreatorName, comsvcs/SecurityProperty::GetDirectCreatorName, cos.securityproperty_getdirectcreatorname
-ms.topic: method
 f1_keywords:
 - comsvcs/SecurityProperty.GetDirectCreatorName
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NativeWiFi
 ms.assetid: 385148fd-b5cd-4221-be25-077f484e93e9
 ms.date: 12/05/2018
 ms.keywords: WlanHostedNetworkSetSecondaryKey, WlanHostedNetworkSetSecondaryKey function [NativeWIFI], nwifi.wlanhostednetworksetsecondarykey, wlanapi/WlanHostedNetworkSetSecondaryKey
-ms.topic: function
 f1_keywords:
 - wlanapi/WlanHostedNetworkSetSecondaryKey
 dev_langs:

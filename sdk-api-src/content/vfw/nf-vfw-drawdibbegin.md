@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 89178e33-e440-49fe-9900-0baea229d289
 ms.date: 12/05/2018
 ms.keywords: DrawDibBegin, DrawDibBegin function [Windows Multimedia], _win32_DrawDibBegin, multimedia.drawdibbegin, vfw/DrawDibBegin
-ms.topic: function
 f1_keywords:
 - vfw/DrawDibBegin
 dev_langs:

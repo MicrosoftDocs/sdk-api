@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: A404752F-4758-4133-8AD3-3137A4CA77D5
 ms.date: 12/05/2018
 ms.keywords: ChangeResourceProcessForDumps, ChangeResourceProcessForDumps callback, ChangeResourceProcessForDumps callback function [Failover Cluster], PCHANGE_RESOURCE_PROCESS_FOR_DUMPS, PCHANGE_RESOURCE_PROCESS_FOR_DUMPS callback function [Failover Cluster], mscs.changeresourceprocessfordumps, resapi/ChangeResourceProcessForDumps, resapi/PCHANGE_RESOURCE_PROCESS_FOR_DUMPS
-ms.topic: callback
 f1_keywords:
 - resapi/ChangeResourceProcessForDumps callback
 dev_langs:

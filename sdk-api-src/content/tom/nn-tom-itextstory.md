@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 8b52c6e8-c250-4cfb-979e-770df9f94010
 ms.date: 12/05/2018
 ms.keywords: ITextStory, ITextStory interface [Windows Controls], ITextStory interface [Windows Controls],described, controls.itextstory, tom/ITextStory
-ms.topic: interface
 f1_keywords:
 - tom/ITextStory
 dev_langs:

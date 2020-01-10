@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: b6025053-b21f-478e-86d7-a8572ed2b205
 ms.date: 12/05/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_AverageTalkTime method, ITAgentSession.get_AverageTalkTime, ITAgentSession::get_AverageTalkTime, _tapi3_itagentsession_get_averagetalktime, get_AverageTalkTime, get_AverageTalkTime method [TAPI 2.2], get_AverageTalkTime method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_averagetalktime, tapi3cc/ITAgentSession::get_AverageTalkTime
-ms.topic: method
 f1_keywords:
 - tapi3/ITAgentSession.get_AverageTalkTime
 dev_langs:

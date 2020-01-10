@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 13539f86-3336-45df-82f8-758e821e35c6
 ms.date: 12/05/2018
 ms.keywords: ISearchResult interface [Windows Update Agent],RootCategories property, ISearchResult.RootCategories, ISearchResult.get_RootCategories, ISearchResult::RootCategories, ISearchResult::get_RootCategories, RootCategories property [Windows Update Agent], RootCategories property [Windows Update Agent],ISearchResult interface, get_RootCategories, wua.isearchresult_rootcategories, wuapi/ISearchResult::RootCategories, wuapi/ISearchResult::get_RootCategories
-ms.topic: method
 f1_keywords:
 - wuapi/ISearchResult.RootCategories
 dev_langs:

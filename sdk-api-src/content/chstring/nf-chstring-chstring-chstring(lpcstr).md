@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 0a12cbd2-7fc5-4d82-a85a-dcc1d538a839
 ms.date: 12/05/2018
 ms.keywords: ??0CHString@@QAE@PBD@Z, ??0CHString@@QEAA@PEBD@Z, CHString, CHString constructor [Windows Management Instrumentation], CHString constructor [Windows Management Instrumentation],CHString interface, CHString interface [Windows Management Instrumentation],CHString constructor, CHString.CHString, CHString.CHString(LPCSTR), CHString::CHString, CHString::CHString(LPCSTR), chstring/CHString::CHString, wmi.chstring_chstring_lpcstr_
-ms.topic: method
 f1_keywords:
 - chstring/CHString.CHString
 dev_langs:

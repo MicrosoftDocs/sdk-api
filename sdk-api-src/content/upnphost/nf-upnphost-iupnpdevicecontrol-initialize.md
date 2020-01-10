@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: 0c1ea343-f04b-414d-92cf-044cb117bc9c
 ms.date: 12/05/2018
 ms.keywords: IUPnPDeviceControl interface [UPnP APIs],Initialize method, IUPnPDeviceControl.Initialize, IUPnPDeviceControl::Initialize, Initialize, Initialize method [UPnP APIs], Initialize method [UPnP APIs],IUPnPDeviceControl interface, _upnp_iupnpdevicecontrol_initialize, upnp.iupnpdevicecontrol_initialize, upnphost/IUPnPDeviceControl::Initialize
-ms.topic: method
 f1_keywords:
 - upnphost/IUPnPDeviceControl.Initialize
 dev_langs:

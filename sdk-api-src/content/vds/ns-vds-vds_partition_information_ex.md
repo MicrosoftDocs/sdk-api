@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 99ded61d-fcbc-4e1c-8b3a-69c14d4c20bb
 ms.date: 12/05/2018
 ms.keywords: PVDS_PARTITION_INFORMATION_EX, PVDS_PARTITION_INFORMATION_EX structure pointer, VDS_PARTITION_INFORMATION_EX, VDS_PARTITION_INFORMATION_EX structure, base.vds_partition_information_ex, vds/PVDS_PARTITION_INFORMATION_EX, vds/VDS_PARTITION_INFORMATION_EX
-ms.topic: struct
 f1_keywords:
 - vds/VDS_PARTITION_INFORMATION_EX
 dev_langs:

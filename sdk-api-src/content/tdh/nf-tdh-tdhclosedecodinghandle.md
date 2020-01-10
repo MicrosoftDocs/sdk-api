@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: f3cf6b1e-c970-4b91-aa54-370d46a6e86a
 ms.date: 12/05/2018
 ms.keywords: TdhCloseDecodingHandle, TdhCloseDecodingHandle function [ETW], etw.tdhclosedecodinghandle, tdh/TdhCloseDecodingHandle
-ms.topic: function
 f1_keywords:
 - tdh/TdhCloseDecodingHandle
 dev_langs:

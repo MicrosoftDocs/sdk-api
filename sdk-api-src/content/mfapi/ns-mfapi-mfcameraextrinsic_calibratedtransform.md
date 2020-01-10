@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 2D227167-68DC-4A43-8665-9A253BD66401
 ms.date: 12/05/2018
 ms.keywords: MFCameraExtrinsic_CalibratedTransform, MFCameraExtrinsic_CalibratedTransform structure [Media Foundation], PMFCameraExtrinsic_CalibratedTransform, PMFCameraExtrinsic_CalibratedTransform structure pointer [Media Foundation], mf.mfcameraextrinsic_calibratedtransform, mfapi/MFCameraExtrinsic_CalibratedTransform, mfapi/PMFCameraExtrinsic_CalibratedTransform
-ms.topic: struct
 f1_keywords:
 - mfapi/MFCameraExtrinsic_CalibratedTransform
 dev_langs:

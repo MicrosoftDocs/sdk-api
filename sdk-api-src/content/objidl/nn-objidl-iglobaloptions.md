@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: c5e823be-521d-4eb4-8836-fdd2cac6f15d
 ms.date: 12/05/2018
 ms.keywords: IGlobalOptions, IGlobalOptions interface [COM], IGlobalOptions interface [COM],described, _com_iglobaloptions, com.iglobaloptions, objidlbase/IGlobalOptions
-ms.topic: interface
 f1_keywords:
 - objidl/IGlobalOptions
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 655f2dfa-a6cf-43db-8d2e-bf9a10163c75
 ms.date: 12/05/2018
 ms.keywords: PFNRASGETBUFFER, PFNRASGETBUFFER callback, RasGetBuffer, RasGetBuffer callback function [RAS], _ras_rasgetbuffer, ras/RasGetBuffer, rras.rasgetbuffer
-ms.topic: callback
 f1_keywords:
 - ras/RasGetBuffer
 dev_langs:

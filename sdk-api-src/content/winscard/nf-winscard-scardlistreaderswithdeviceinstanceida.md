@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: D470A10B-B167-4BCA-9042-BF63B9A3A92F
 ms.date: 12/05/2018
 ms.keywords: SCardListReadersWithDeviceInstanceId, SCardListReadersWithDeviceInstanceId function [Security], SCardListReadersWithDeviceInstanceIdA, SCardListReadersWithDeviceInstanceIdW, security.scardgetreadernamefromdeviceinstanceid, security.scardlistreaderswithdeviceinstanceid, winscard/SCardListReadersWithDeviceInstanceId
-ms.topic: function
 f1_keywords:
 - winscard/SCardListReadersWithDeviceInstanceId
 dev_langs:

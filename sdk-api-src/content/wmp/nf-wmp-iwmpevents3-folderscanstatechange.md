@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: 07e9a49b-19a6-4ed2-b037-fe44ada920a1
 ms.date: 12/05/2018
 ms.keywords: FolderScanStateChange, FolderScanStateChange method [Windows Media Player], FolderScanStateChange method [Windows Media Player],IWMPEvents3 interface, IWMPEvents3 interface [Windows Media Player],FolderScanStateChange method, IWMPEvents3.FolderScanStateChange, IWMPEvents3::FolderScanStateChange, IWMPEvents3FolderScanStateChange, wmp.iwmpevents3_iwmpevents3__folderscanstatechange, wmp/IWMPEvents3::FolderScanStateChange
-ms.topic: method
 f1_keywords:
 - wmp/IWMPEvents3.FolderScanStateChange
 dev_langs:

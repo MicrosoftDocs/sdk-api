@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0c65bd5e-22f4-450b-a1d5-75e564854b5f
 ms.date: 12/05/2018
 ms.keywords: IShellLibrary interface [Windows Shell],SetDefaultSaveFolder method, IShellLibrary.SetDefaultSaveFolder, IShellLibrary::SetDefaultSaveFolder, SetDefaultSaveFolder, SetDefaultSaveFolder method [Windows Shell], SetDefaultSaveFolder method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_SetDefaultSaveFolder, shell.IShellLibrary_SetDefaultSaveFolder, shobjidl_core/IShellLibrary::SetDefaultSaveFolder
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellLibrary.SetDefaultSaveFolder
 dev_langs:

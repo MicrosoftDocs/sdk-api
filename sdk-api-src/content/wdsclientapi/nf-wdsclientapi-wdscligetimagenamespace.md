@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 30396f0b-77bb-4c43-86a0-2d4454a05b72
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetImageNamespace, WdsCliGetImageNamespace function [Windows Deployment Services], wds.wdscligetimagenamespace, wdsclientapi/WdsCliGetImageNamespace
-ms.topic: function
 f1_keywords:
 - wdsclientapi/WdsCliGetImageNamespace
 dev_langs:

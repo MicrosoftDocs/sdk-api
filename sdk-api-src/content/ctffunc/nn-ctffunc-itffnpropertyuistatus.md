@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 5583ae98-02a5-4303-9674-b8a85b52442a
 ms.date: 12/05/2018
 ms.keywords: ITfFnPropertyUIStatus, ITfFnPropertyUIStatus interface [Text Services Framework], ITfFnPropertyUIStatus interface [Text Services Framework],described, _tsf_itffnpropertyuistatus_ref, ctffunc/ITfFnPropertyUIStatus, tsf.itffnpropertyuistatus
-ms.topic: interface
 f1_keywords:
 - ctffunc/ITfFnPropertyUIStatus
 dev_langs:

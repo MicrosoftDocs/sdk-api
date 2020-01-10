@@ -7,7 +7,6 @@ tech.root: direct3d11
 ms.assetid: b3fd4280-c967-4eed-8a10-97f0c7ef56ac
 ms.date: 12/05/2018
 ms.keywords: 64540f29-b4c0-93ff-f17c-15c6a0d7da4b, D3D11_TEXTURE3D_DESC, D3D11_TEXTURE3D_DESC structure [Direct3D 11], d3d11/D3D11_TEXTURE3D_DESC, direct3d11.d3d11_texture3d_desc
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_TEXTURE3D_DESC
 dev_langs:

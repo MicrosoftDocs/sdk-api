@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 6dfbc3d8-cd71-4ee9-a10b-955c26a6894c
 ms.date: 12/05/2018
 ms.keywords: RegEnableReflectionKey, RegEnableReflectionKey function, base.regenablereflectionkey, winreg/RegEnableReflectionKey
-ms.topic: function
 f1_keywords:
 - winreg/RegEnableReflectionKey
 dev_langs:

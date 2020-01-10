@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: cde7772a-9996-4011-ae9d-d43caddfef83
 ms.date: 12/05/2018
 ms.keywords: Data property [Tablet PC], Data property [Tablet PC],IInkExtendedProperty interface, IInkExtendedProperty interface [Tablet PC],Data property, IInkExtendedProperty.Data, IInkExtendedProperty.get_Data, IInkExtendedProperty.put_Data, IInkExtendedProperty::Data, IInkExtendedProperty::get_Data, IInkExtendedProperty::put_Data, cde7772a-9996-4011-ae9d-d43caddfef83, msinkaut/IInkExtendedProperty::Data, msinkaut/IInkExtendedProperty::get_Data, msinkaut/IInkExtendedProperty::put_Data, put_Data, tablet.iinkextendedproperty_data
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkExtendedProperty.Data
 dev_langs:

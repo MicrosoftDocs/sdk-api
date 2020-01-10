@@ -7,7 +7,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\commdlgextendederror.htm
 ms.date: 12/05/2018
 ms.keywords: CommDlgExtendedError, CommDlgExtendedError function [Dialog Boxes], _win32_CommDlgExtendedError, _win32_commdlgextendederror_cpp, commdlg/CommDlgExtendedError, dlgbox.commdlgextendederror, winui._win32_commdlgextendederror
-ms.topic: function
 f1_keywords:
 - commdlg/CommDlgExtendedError
 dev_langs:

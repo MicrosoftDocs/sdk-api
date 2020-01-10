@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 47f1aa71-017d-4de2-8428-d666afa67b71
 ms.date: 12/05/2018
 ms.keywords: FwpmSubLayerSetSecurityInfoByKey0, FwpmSubLayerSetSecurityInfoByKey0 function [Filtering], fwp.fwpmsublayersetsecurityinfobykey0_func, fwpmu/FwpmSubLayerSetSecurityInfoByKey0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmSubLayerSetSecurityInfoByKey0
 dev_langs:

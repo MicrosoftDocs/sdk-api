@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 7168981c-9af8-4665-88a2-7d96a8f2b273
 ms.date: 12/05/2018
 ms.keywords: _win32_timeBeginPeriod, mmsystem/timeBeginPeriod, multimedia.timebeginperiod, timeBeginPeriod, timeBeginPeriod function [Windows Multimedia], timeapi/timeBeginPeriod
-ms.topic: function
 f1_keywords:
 - timeapi/timeBeginPeriod
 dev_langs:

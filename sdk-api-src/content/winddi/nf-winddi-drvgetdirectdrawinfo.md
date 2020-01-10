@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: c6068572-bd73-4faa-b085-9608ebc450ea
 ms.date: 12/05/2018
 ms.keywords: DrvGetDirectDrawInfo, DrvGetDirectDrawInfo function [Display Devices], ddfncs_bebc9a48-6664-4b23-908f-a4c586e79f63.xml, display.drvgetdirectdrawinfo, winddi/DrvGetDirectDrawInfo
-ms.topic: function
 f1_keywords:
 - winddi/DrvGetDirectDrawInfo
 dev_langs:

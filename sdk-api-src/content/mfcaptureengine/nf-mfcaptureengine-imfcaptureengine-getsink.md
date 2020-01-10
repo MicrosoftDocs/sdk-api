@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 7DAF5EA3-BA65-4CF9-B7BA-B427A48BF3BC
 ms.date: 12/05/2018
 ms.keywords: GetSink, GetSink method [Media Foundation], GetSink method [Media Foundation],IMFCaptureEngine interface, IMFCaptureEngine interface [Media Foundation],GetSink method, IMFCaptureEngine.GetSink, IMFCaptureEngine::GetSink, mf.imfcaptureengine_getsink, mfcaptureengine/IMFCaptureEngine::GetSink
-ms.topic: method
 f1_keywords:
 - mfcaptureengine/IMFCaptureEngine.GetSink
 dev_langs:

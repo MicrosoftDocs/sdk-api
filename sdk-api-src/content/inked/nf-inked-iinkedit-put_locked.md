@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 67488146-b2ca-484a-b9e5-e2a8c9519d69
 ms.date: 12/05/2018
 ms.keywords: IInkEdit interface [Tablet PC],Locked property, IInkEdit.Locked, IInkEdit.put_Locked, IInkEdit::Locked, IInkEdit::get_Locked, IInkEdit::put_Locked, InkEdit.get_Locked, InkEdit.put_Locked, Locked property [Tablet PC], Locked property [Tablet PC],IInkEdit interface, get_Locked, inked/IInkEdit::Locked, inked/IInkEdit::get_Locked, inked/IInkEdit::put_Locked, put_Locked, tablet.inkedit_locked
-ms.topic: method
 f1_keywords:
 - inked/IInkEdit.Locked
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 823bf5d4-9017-4f78-8bef-124d403174c5
 ms.date: 12/05/2018
 ms.keywords: IEnumExplorerCommand interface [Windows Shell],Skip method, IEnumExplorerCommand.Skip, IEnumExplorerCommand::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumExplorerCommand interface, _shell_IEnumExplorerCommand_Skip, shell.IEnumExplorerCommand_Skip, shobjidl_core/IEnumExplorerCommand::Skip
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IEnumExplorerCommand.Skip
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 2d61fd6a-cebd-457e-ad00-d3e8bd15584a
 ms.date: 12/05/2018
 ms.keywords: GetEnhMetaFilePaletteEntries, GetEnhMetaFilePaletteEntries function [Windows GDI], _win32_GetEnhMetaFilePaletteEntries, gdi.getenhmetafilepaletteentries, wingdi/GetEnhMetaFilePaletteEntries
-ms.topic: function
 f1_keywords:
 - wingdi/GetEnhMetaFilePaletteEntries
 dev_langs:

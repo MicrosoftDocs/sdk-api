@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ea3efba1-9b7c-4f93-aca5-08475a6005a8
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [Windows Shell], Enable method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],Enable method, ISyncMgrHandler.Enable, ISyncMgrHandler::Enable, _shell_ISyncMgrHandler_Enable, shell.ISyncMgrHandler_Enable, syncmgr/ISyncMgrHandler::Enable
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrHandler.Enable
 dev_langs:

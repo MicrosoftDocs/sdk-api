@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8euq_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessageIterator, IFaxOutgoingMessageIterator interface [Fax Service], IFaxOutgoingMessageIterator interface [Fax Service],described, _mfax_faxoutgoingmessageiterator_cpp, fax._mfax_faxoutgoingmessageiterator_cpp, faxcomex/IFaxOutgoingMessageIterator
-ms.topic: interface
 f1_keywords:
 - faxcomex/IFaxOutgoingMessageIterator
 dev_langs:

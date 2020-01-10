@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\getbounds_14rect.htm
 ms.date: 12/05/2018
 ms.keywords: GetBounds, GetBounds method [GDI+], GetBounds method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],GetBounds method, MetafileHeader.GetBounds, MetafileHeader::GetBounds, _gdiplus_CLASS_MetafileHeader_GetBounds_rect_, gdiplus._gdiplus_CLASS_MetafileHeader_GetBounds_rect_
-ms.topic: method
 f1_keywords:
 - gdiplusmetaheader/MetafileHeader.GetBounds
 dev_langs:

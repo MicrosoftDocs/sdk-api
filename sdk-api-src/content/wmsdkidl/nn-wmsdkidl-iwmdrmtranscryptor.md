@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: cd154077-eebe-4a0f-ae70-5268d5af4898
 ms.date: 12/05/2018
 ms.keywords: IWMDRMTranscryptor, IWMDRMTranscryptor interface [windows Media Format], IWMDRMTranscryptor interface [windows Media Format],described, IWMDRMTranscryptorInterface, wmformat.iwmdrmtranscryptor, wmsdkidl/IWMDRMTranscryptor
-ms.topic: interface
 f1_keywords:
 - wmsdkidl/IWMDRMTranscryptor
 dev_langs:

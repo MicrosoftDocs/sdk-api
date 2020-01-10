@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorSetInt(uint32_t,uint32_t,uint32_t,uint32_t)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSetInt, XMVectorSetInt, XMVectorSetInt method [DirectX Math Support APIs], dxmath.xmvectorsetint
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorSetInt
 dev_langs:

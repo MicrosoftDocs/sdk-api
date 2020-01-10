@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: FC75DDA5-59BA-4CCF-93CC-8D0BB2AB415B
 ms.date: 12/5/2018
 ms.keywords: RoOriginateErrorW, RoOriginateErrorW function [Windows Runtime], WinRTOriginateErrorW, roerrorapi/RoOriginateErrorW, roerrorapi/WinRTOriginateErrorW, winrt.rooriginateerrorw, winrt.winrtoriginateerrorw
-ms.topic: function
 f1_keywords:
 - roerrorapi/RoOriginateErrorW
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 80b7047f-1200-4dc9-bc64-96678524a449
 ms.date: 12/05/2018
 ms.keywords: ID2D1CommandSink interface [Direct2D],SetPrimitiveBlend method, ID2D1CommandSink.SetPrimitiveBlend, ID2D1CommandSink::SetPrimitiveBlend, SetPrimitiveBlend, SetPrimitiveBlend method [Direct2D], SetPrimitiveBlend method [Direct2D],ID2D1CommandSink interface, d2d1_1/ID2D1CommandSink::SetPrimitiveBlend, direct2d.id2d1commandsink_setprimitiveblend
-ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1CommandSink.SetPrimitiveBlend
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: E5029CE3-CD23-4566-A951-35374DC7BC57
 ms.date: 12/05/2018
 ms.keywords: TOKENBINDING_KEY_TYPES, TOKENBINDING_KEY_TYPES structure [Security], security.tokenbinding_key_types, tokenbinding/TOKENBINDING_KEY_TYPES
-ms.topic: struct
 f1_keywords:
 - tokenbinding/TOKENBINDING_KEY_TYPES
 dev_langs:

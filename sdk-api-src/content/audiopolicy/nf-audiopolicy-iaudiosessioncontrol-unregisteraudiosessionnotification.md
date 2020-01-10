@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 1b496d58-c855-44b8-b437-6cb6017dcc9d
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionControl interface [Core Audio],UnregisterAudioSessionNotification method, IAudioSessionControl.UnregisterAudioSessionNotification, IAudioSessionControl::UnregisterAudioSessionNotification, IAudioSessionControlUnregisterAudioSessionNotification, UnregisterAudioSessionNotification, UnregisterAudioSessionNotification method [Core Audio], UnregisterAudioSessionNotification method [Core Audio],IAudioSessionControl interface, audiopolicy/IAudioSessionControl::UnregisterAudioSessionNotification, coreaudio.iaudiosessioncontrol_unregisteraudiosessionnotification
-ms.topic: method
 f1_keywords:
 - audiopolicy/IAudioSessionControl.UnregisterAudioSessionNotification
 dev_langs:

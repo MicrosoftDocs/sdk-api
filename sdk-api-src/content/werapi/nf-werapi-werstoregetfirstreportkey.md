@@ -7,7 +7,6 @@ tech.root: wer
 ms.assetid: E4732B60-BFBE-4916-83A6-5F031D267913
 ms.date: 12/05/2018
 ms.keywords: WerStoreGetFirstReportKey, WerStoreGetFirstReportKey function [Windows Error Reporting], wer.werstoregetfirstreportkey, werapi/WerStoreGetFirstReportKey
-ms.topic: function
 f1_keywords:
 - werapi/WerStoreGetFirstReportKey
 dev_langs:

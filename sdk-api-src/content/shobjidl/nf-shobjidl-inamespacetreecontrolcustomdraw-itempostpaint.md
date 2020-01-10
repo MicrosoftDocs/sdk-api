@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9da2af87-a961-4ca8-a512-fe508f2b2d79
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlCustomDraw interface [Windows Shell],ItemPostPaint method, INameSpaceTreeControlCustomDraw.ItemPostPaint, INameSpaceTreeControlCustomDraw::ItemPostPaint, ItemPostPaint, ItemPostPaint method [Windows Shell], ItemPostPaint method [Windows Shell],INameSpaceTreeControlCustomDraw interface, _shell_INameSpaceTreeControlCustomDraw_ItemPostPaint, shell.INameSpaceTreeControlCustomDraw_ItemPostPaint, shobjidl/INameSpaceTreeControlCustomDraw::ItemPostPaint
-ms.topic: method
 f1_keywords:
 - shobjidl/INameSpaceTreeControlCustomDraw.ItemPostPaint
 dev_langs:

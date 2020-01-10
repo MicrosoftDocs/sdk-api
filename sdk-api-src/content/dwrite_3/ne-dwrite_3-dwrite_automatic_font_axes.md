@@ -5,7 +5,6 @@ description: Defines constants that specify certain axes that can be applied aut
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: DWRITE_AUTOMATIC_FONT_AXES, DWRITE_AUTOMATIC_FONT_AXES enumeration [Direct Write], directwrite.dwrite_automatic_font_axes, dwrite_3/DWRITE_AUTOMATIC_FONT_AXES
-ms.topic: enum
 f1_keywords:
 - dwrite_3/DWRITE_AUTOMATIC_FONT_AXES
 dev_langs:

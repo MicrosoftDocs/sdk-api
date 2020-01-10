@@ -7,7 +7,6 @@ tech.root: WinSAT
 ms.assetid: 6849d8b6-d192-4520-a737-39e22e14a70f
 ms.date: 12/05/2018
 ms.keywords: IQueryRecentWinSATAssessment, IQueryRecentWinSATAssessment interface [WinSAT], IQueryRecentWinSATAssessment interface [WinSAT],described, winsat.iqueryrecentwinsatassessment, winsatcominterfacei/IQueryRecentWinSATAssessment
-ms.topic: interface
 f1_keywords:
 - winsatcominterfacei/IQueryRecentWinSATAssessment
 dev_langs:

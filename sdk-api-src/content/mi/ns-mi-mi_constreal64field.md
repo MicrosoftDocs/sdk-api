@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: ee42b066-ce5c-4bc0-824e-c34168db7561
 ms.date: 12/05/2018
 ms.keywords: MI_ConstReal64Field, MI_ConstReal64Field structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstReal64Field, wmi._mi_constreal64field, wmi_v2.mi_constreal64field
-ms.topic: struct
 f1_keywords:
 - mi/MI_ConstReal64Field
 dev_langs:

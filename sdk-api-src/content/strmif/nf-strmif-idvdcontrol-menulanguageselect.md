@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 6b5c660c-3d3f-4f78-8eca-3a42982eb0ae
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],MenuLanguageSelect method, IDvdControl.MenuLanguageSelect, IDvdControl::MenuLanguageSelect, IDvdControlMenuLanguageSelect, MenuLanguageSelect, MenuLanguageSelect method [DirectShow], MenuLanguageSelect method [DirectShow],IDvdControl interface, dshow.idvdcontrol_menulanguageselect, strmif/IDvdControl::MenuLanguageSelect
-ms.topic: method
 f1_keywords:
 - strmif/IDvdControl.MenuLanguageSelect
 dev_langs:

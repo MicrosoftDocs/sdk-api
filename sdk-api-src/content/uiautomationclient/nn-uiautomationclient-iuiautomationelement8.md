@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: EEADC0FE-279C-4CA1-A812-5D7C37A48AEE
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationElement8, IUIAutomationElement8 interface [Windows Accessibility], IUIAutomationElement8 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationElement8, winauto.uiauto_IUIAutomationElement8
-ms.topic: interface
 f1_keywords:
 - uiautomationclient/IUIAutomationElement8
 dev_langs:

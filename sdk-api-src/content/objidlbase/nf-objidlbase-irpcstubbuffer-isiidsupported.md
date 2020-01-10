@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 7025d343-9171-4d0f-9e93-61365075edc0
 ms.date: 12/05/2018
 ms.keywords: IRpcStubBuffer interface [COM],IsIIDSupported method, IRpcStubBuffer.IsIIDSupported, IRpcStubBuffer::IsIIDSupported, IsIIDSupported, IsIIDSupported method [COM], IsIIDSupported method [COM],IRpcStubBuffer interface, _com_irpcstubbuffer_isiidsupported, com.irpcstubbuffer_isiidsupported, objidlbase/IRpcStubBuffer::IsIIDSupported
-ms.topic: method
 f1_keywords:
 - objidlbase/IRpcStubBuffer.IsIIDSupported
 dev_langs:

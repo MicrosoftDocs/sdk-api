@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_62ec.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Id property, IFaxOutgoingJob.Id, IFaxOutgoingJob.get_Id, IFaxOutgoingJob::Id, IFaxOutgoingJob::get_Id, Id property [Fax Service], Id property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.id, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_id_cpp, fax._mfax_faxoutgoingjob_id, faxcomex/IFaxOutgoingJob::Id, faxcomex/IFaxOutgoingJob::get_Id, get_Id
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxOutgoingJob.Id
 dev_langs:

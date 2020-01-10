@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: b426a07e-9993-4cea-8847-fc80e9d0b451
 ms.date: 12/05/2018
 ms.keywords: WS_STRUCT_DESCRIPTION, WS_STRUCT_DESCRIPTION structure [Web Services for Windows], webservices/WS_STRUCT_DESCRIPTION, wsw.ws_struct_description
-ms.topic: struct
 f1_keywords:
 - webservices/WS_STRUCT_DESCRIPTION
 dev_langs:

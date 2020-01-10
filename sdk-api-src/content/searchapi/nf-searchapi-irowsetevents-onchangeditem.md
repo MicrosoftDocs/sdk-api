@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetevents\onchangeditem.htm
 ms.date: 12/05/2018
 ms.keywords: IRowsetEvents interface [search],OnChangedItem method, IRowsetEvents.OnChangedItem, IRowsetEvents::OnChangedItem, OnChangedItem, OnChangedItem method [search], OnChangedItem method [search],IRowsetEvents interface, _search_IRowsetEvents_OnChangedItem, search._search_IRowsetEvents_OnChangedItem, searchapi/IRowsetEvents::OnChangedItem
-ms.topic: method
 f1_keywords:
 - searchapi/IRowsetEvents.OnChangedItem
 dev_langs:

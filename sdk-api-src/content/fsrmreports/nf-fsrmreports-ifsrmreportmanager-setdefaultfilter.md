@@ -7,7 +7,6 @@ tech.root: fsrm
 ms.assetid: 5a3165a9-8161-4dad-b8b9-d0c3f54f1803
 ms.date: 12/05/2018
 ms.keywords: FsrmReportManager class [File Server Resource Manager],SetDefaultFilter method, IFsrmReportManager interface [File Server Resource Manager],SetDefaultFilter method, IFsrmReportManager.SetDefaultFilter, IFsrmReportManager::SetDefaultFilter, SetDefaultFilter, SetDefaultFilter method [File Server Resource Manager], SetDefaultFilter method [File Server Resource Manager],FsrmReportManager class, SetDefaultFilter method [File Server Resource Manager],IFsrmReportManager interface, fs.ifsrmreportmanager_setdefaultfilter, fsrm.ifsrmreportmanager_setdefaultfilter, fsrmreports/IFsrmReportManager::SetDefaultFilter
-ms.topic: method
 f1_keywords:
 - fsrmreports/IFsrmReportManager.SetDefaultFilter
 dev_langs:

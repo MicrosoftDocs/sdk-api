@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 396b01f2-5238-4cc1-baf2-b602967e4333
 ms.date: 12/05/2018
 ms.keywords: MI_Serializer, MI_Serializer structure [Windows Management Infrastructure (MI)], mi/MI_Serializer, wmi_v2.mi_serializer
-ms.topic: struct
 f1_keywords:
 - mi/MI_Serializer
 dev_langs:

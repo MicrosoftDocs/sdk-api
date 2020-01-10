@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 46c0595c-9aa5-47cf-931a-8dc35e265fa0
 ms.date: 12/05/2018
 ms.keywords: WS_XML_WRITER_BUFFER_OUTPUT, WS_XML_WRITER_BUFFER_OUTPUT structure [Web Services for Windows], webservices/WS_XML_WRITER_BUFFER_OUTPUT, wsw.ws_xml_writer_buffer_output
-ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_WRITER_BUFFER_OUTPUT
 dev_langs:

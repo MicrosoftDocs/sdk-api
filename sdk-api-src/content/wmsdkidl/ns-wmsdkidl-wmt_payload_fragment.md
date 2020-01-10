@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 5a99c772-0e8a-4f6d-a13f-9bf7b4fa7d89
 ms.date: 12/05/2018
 ms.keywords: WMT_PAYLOAD_FRAGMENT, WMT_PAYLOAD_FRAGMENT structure [windows Media Format], wmformat.wmt_payload_fragment, wmsdkidl/WMT_PAYLOAD_FRAGMENT
-ms.topic: struct
 f1_keywords:
 - wmsdkidl/WMT_PAYLOAD_FRAGMENT
 dev_langs:

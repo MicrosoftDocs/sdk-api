@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: bcfdb24b-182e-4845-95c0-a210915435ae
 ms.date: 12/05/2018
 ms.keywords: AuditEnumerateCategories, AuditEnumerateCategories function [Security], ntsecapi/AuditEnumerateCategories, security.auditenumeratecategories_func
-ms.topic: function
 f1_keywords:
 - ntsecapi/AuditEnumerateCategories
 dev_langs:

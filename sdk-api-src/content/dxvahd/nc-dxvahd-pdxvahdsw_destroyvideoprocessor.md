@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 46667a66-3638-4cf0-9966-3e659d00f914
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_DestroyVideoProcessor, PDXVAHDSW_DestroyVideoProcessor callback, PDXVAHDSW_DestroyVideoProcessor callback function [Media Foundation], dxvahd/PDXVAHDSW_DestroyVideoProcessor, mf.pdxvahdsw_destroyvideoprocessor
-ms.topic: callback
 f1_keywords:
 - dxvahd/PDXVAHDSW_DestroyVideoProcessor
 dev_langs:

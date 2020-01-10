@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 6deea8ef-b55d-4086-a54e-3f89bb17c6cd
 ms.date: 12/05/2018
 ms.keywords: BLACKNESS, DSTINVERT, PATCOPY, PATINVERT, PatBlt, PatBlt function [Windows GDI], WHITENESS, _win32_PatBlt, gdi.patblt, wingdi/PatBlt
-ms.topic: function
 f1_keywords:
 - wingdi/PatBlt
 dev_langs:

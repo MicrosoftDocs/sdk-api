@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 5f24e6e9-ad5b-4d5b-b3f3-cc3aca599bc1
 ms.date: 12/05/2018
 ms.keywords: IADsTimestamp, IADsTimestamp interface [ADSI], IADsTimestamp interface [ADSI],described, Timestamp, _ds_iadstimestamp, adsi.iadstimestamp, iads/IADsTimestamp
-ms.topic: interface
 f1_keywords:
 - iads/IADsTimestamp
 dev_langs:

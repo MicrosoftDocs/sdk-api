@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9968c7c9-79d9-4fb1-bda2-d6a2504cd3a3
 ms.date: 12/05/2018
 ms.keywords: '*LPSHELLFLAGSTATE, LPSHELLFLAGSTATE, LPSHELLFLAGSTATE structure pointer [Windows Shell], SHELLFLAGSTATE, SHELLFLAGSTATE structure [Windows Shell], _win32_SHELLFLAGSTATE, shell.SHELLFLAGSTATE, shlobj_core/LPSHELLFLAGSTATE, shlobj_core/SHELLFLAGSTATE'
-ms.topic: struct
 f1_keywords:
 - shlobj_core/SHELLFLAGSTATE
 dev_langs:

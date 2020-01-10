@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f8a93c77-c978-4483-b0e0-36d998add184
 ms.date: 12/05/2018
 ms.keywords: GetSpotLocation, GetSpotLocation method [XPS Documents and Packaging], GetSpotLocation method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetSpotLocation method, IXpsSignatureRequest.GetSpotLocation, IXpsSignatureRequest::GetSpotLocation, xps.ixpssignaturerequest_getspotlocation, xpsdigitalsignature/IXpsSignatureRequest::GetSpotLocation
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSignatureRequest.GetSpotLocation
 dev_langs:

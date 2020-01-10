@@ -5,7 +5,6 @@ description: The GraphicsPath::GetPathPoints method gets this path's array of po
 ms.assetid: b8477156-4557-4aa7-900e-61eb9108ec38
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::GetPathPoints
-ms.topic: language-reference
 f1_keywords:
 - gdipluspath/GraphicsPath::GetPathPoints
 dev_langs:

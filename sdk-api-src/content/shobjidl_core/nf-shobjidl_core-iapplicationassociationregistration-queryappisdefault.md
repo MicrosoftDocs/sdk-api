@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 63127fa4-be09-4dd6-9084-cfde00967279
 ms.date: 12/05/2018
 ms.keywords: IApplicationAssociationRegistration interface [Windows Shell],QueryAppIsDefault method, IApplicationAssociationRegistration.QueryAppIsDefault, IApplicationAssociationRegistration::QueryAppIsDefault, QueryAppIsDefault, QueryAppIsDefault method [Windows Shell], QueryAppIsDefault method [Windows Shell],IApplicationAssociationRegistration interface, _shell_IApplicationAssociationRegistration_QueryAppIsDefault, shell.IApplicationAssociationRegistration_QueryAppIsDefault, shobjidl_core/IApplicationAssociationRegistration::QueryAppIsDefault
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IApplicationAssociationRegistration.QueryAppIsDefault
 dev_langs:

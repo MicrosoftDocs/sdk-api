@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: cfaf244f-8786-4801-926d-f6c79bfa4275
 ms.date: 12/05/2018
 ms.keywords: PeerGroupOpen, PeerGroupOpen function [Peer Networking], p2p.peergroupopen, p2p/PeerGroupOpen
-ms.topic: function
 f1_keywords:
 - p2p/PeerGroupOpen
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextstoryranges.htm
 ms.date: 12/05/2018
 ms.keywords: ITextStoryRanges, ITextStoryRanges interface [Windows Controls], ITextStoryRanges interface [Windows Controls],described, _win32_ITextStoryRanges, _win32_ITextStoryRanges_cpp, controls.ITextStoryRanges, controls._win32_ITextStoryRanges, tom/ITextStoryRanges
-ms.topic: interface
 f1_keywords:
 - tom/ITextStoryRanges
 dev_langs:

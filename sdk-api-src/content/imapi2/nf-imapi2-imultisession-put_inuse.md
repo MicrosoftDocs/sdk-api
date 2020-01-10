@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: d4eef9de-8b7e-4326-b66f-dddbe2b8a05d
 ms.date: 12/05/2018
 ms.keywords: IMultisession interface [IMAPI],put_InUse method, IMultisession.put_InUse, IMultisession::put_InUse, imapi.imultisession_put_inuse, imapi2/IMultisession::put_InUse, put_InUse, put_InUse method [IMAPI], put_InUse method [IMAPI],IMultisession interface
-ms.topic: method
 f1_keywords:
 - imapi2/IMultisession.put_InUse
 dev_langs:

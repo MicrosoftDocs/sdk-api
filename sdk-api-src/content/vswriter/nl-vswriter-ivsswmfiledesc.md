@@ -7,7 +7,6 @@ tech.root: VSS
 ms.assetid: 0b86882d-af1b-4a09-8c25-5b806c9ca909
 ms.date: 12/05/2018
 ms.keywords: IVssWMFiledesc, IVssWMFiledesc interface [VSS], IVssWMFiledesc interface [VSS],described, _win32_ivsswmfiledesc, base.ivsswmfiledesc, vswriter/IVssWMFiledesc
-ms.topic: class
 f1_keywords:
 - vswriter/IVssWMFiledesc
 dev_langs:

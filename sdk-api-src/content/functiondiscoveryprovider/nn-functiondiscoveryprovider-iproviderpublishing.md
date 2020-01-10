@@ -7,7 +7,6 @@ tech.root: FunDisc
 ms.assetid: 7647db1b-88c8-44f3-b2af-a61dad4790f6
 ms.date: 12/05/2018
 ms.keywords: IProviderPublishing, IProviderPublishing interface, IProviderPublishing interface,described, functiondiscoveryprovider/IProviderPublishing, ncd.iproviderpublishing
-ms.topic: interface
 f1_keywords:
 - functiondiscoveryprovider/IProviderPublishing
 dev_langs:

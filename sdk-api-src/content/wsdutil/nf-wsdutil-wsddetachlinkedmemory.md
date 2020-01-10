@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: a5009626-e0f8-4a04-919f-e1ae29863b05
 ms.date: 12/05/2018
 ms.keywords: WSDDetachLinkedMemory, WSDDetachLinkedMemory function, ncd.wsddetachlinkedmemory_func, wsdutil/WSDDetachLinkedMemory
-ms.topic: function
 f1_keywords:
 - wsdutil/WSDDetachLinkedMemory
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 2ff20004-ec2e-4192-a5f1-e3e9d2bfad3c
 ms.date: 12/05/2018
 ms.keywords: '*PDRVFN, DRVFN, DRVFN structure [Display Devices], PDRVFN, PDRVFN structure pointer [Display Devices], display.drvfn, grstrcts_178b2ecc-75f9-4921-8912-661b33305d80.xml, winddi/DRVFN, winddi/PDRVFN'
-ms.topic: struct
 f1_keywords:
 - winddi/DRVFN
 dev_langs:

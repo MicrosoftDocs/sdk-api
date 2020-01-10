@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: C4FB5E8B-C80A-4B4B-9162-95B463543061
 ms.date: 12/05/2018
 ms.keywords: GetAudioObjectType, GetAudioObjectType method [Core Audio], GetAudioObjectType method [Core Audio],ISpatialAudioObjectBase interface, ISpatialAudioObjectBase interface [Core Audio],GetAudioObjectType method, ISpatialAudioObjectBase.GetAudioObjectType, ISpatialAudioObjectBase::GetAudioObjectType, coreaudio.ispatialaudioobject_getaudioobjecttype, spatialaudioclient/ISpatialAudioObjectBase::GetAudioObjectType
-ms.topic: method
 f1_keywords:
 - spatialaudioclient/ISpatialAudioObjectBase.GetAudioObjectType
 dev_langs:

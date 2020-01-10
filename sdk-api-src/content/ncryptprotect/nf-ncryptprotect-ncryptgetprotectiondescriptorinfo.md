@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: EF4777D5-E218-4868-8D25-58E0EF8C9D30
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_PROTECTION_INFO_TYPE_DESCRIPTOR_STRING, NCryptGetProtectionDescriptorInfo, NCryptGetProtectionDescriptorInfo function [Security], ncryptprotect/NCryptGetProtectionDescriptorInfo, security.ncryptgetprotectiondescriptorinfo
-ms.topic: function
 f1_keywords:
 - ncryptprotect/NCryptGetProtectionDescriptorInfo
 dev_langs:

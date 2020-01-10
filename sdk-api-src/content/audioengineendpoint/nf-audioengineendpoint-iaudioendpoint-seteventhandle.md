@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 9f0f216a-d785-42e9-b07d-f1f2568b5833
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpoint interface [Remote Desktop Services],SetEventHandle method, IAudioEndpoint.SetEventHandle, IAudioEndpoint::SetEventHandle, SetEventHandle, SetEventHandle method [Remote Desktop Services], SetEventHandle method [Remote Desktop Services],IAudioEndpoint interface, audioengineendpoint/IAudioEndpoint::SetEventHandle, termserv.iaudioendpoint_seteventhandle
-ms.topic: method
 f1_keywords:
 - audioengineendpoint/IAudioEndpoint.SetEventHandle
 dev_langs:

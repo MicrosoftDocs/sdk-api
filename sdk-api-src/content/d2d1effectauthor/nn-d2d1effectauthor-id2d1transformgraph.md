@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 6CA29200-9834-4A5B-99E8-434CD6E9B243
 ms.date: 12/05/2018
 ms.keywords: ID2D1TransformGraph, ID2D1TransformGraph interface [Direct2D], ID2D1TransformGraph interface [Direct2D],described, d2d1effectauthor/ID2D1TransformGraph, direct2d.id2d1transformgraph
-ms.topic: interface
 f1_keywords:
 - d2d1effectauthor/ID2D1TransformGraph
 dev_langs:

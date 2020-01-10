@@ -7,7 +7,6 @@ tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_7uwd.htm
 ms.date: 12/05/2018
 ms.keywords: DBKINDENUM, DBKINDENUM enumeration [Indexing Service], DBKIND_GUID, DBKIND_GUID_NAME, DBKIND_GUID_PROPID, DBKIND_NAME, DBKIND_PGUID_NAME, DBKIND_PGUID_PROPID, DBKIND_PROPID, _idxs_DBKINDENUM, indexsrv.dbkindenum, oledbguid/DBKINDENUM, oledbguid/DBKIND_GUID, oledbguid/DBKIND_GUID_NAME, oledbguid/DBKIND_GUID_PROPID, oledbguid/DBKIND_NAME, oledbguid/DBKIND_PGUID_NAME, oledbguid/DBKIND_PGUID_PROPID, oledbguid/DBKIND_PROPID
-ms.topic: enum
 f1_keywords:
 - oledbguid/DBKINDENUM
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 5515fbd5-a711-421d-b80d-3e77c83f7549
 ms.date: 12/05/2018
 ms.keywords: BackedUpTime property [Security], BackedUpTime property [Security],ICertPropertyBackedUp interface, ICertPropertyBackedUp interface [Security],BackedUpTime property, ICertPropertyBackedUp.BackedUpTime, ICertPropertyBackedUp.get_BackedUpTime, ICertPropertyBackedUp::BackedUpTime, ICertPropertyBackedUp::get_BackedUpTime, certenroll/ICertPropertyBackedUp::BackedUpTime, certenroll/ICertPropertyBackedUp::get_BackedUpTime, get_BackedUpTime, security.icertpropertybackedup_backeduptime_property
-ms.topic: method
 f1_keywords:
 - certenroll/ICertPropertyBackedUp.BackedUpTime
 dev_langs:

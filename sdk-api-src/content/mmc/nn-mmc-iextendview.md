@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: a6ea8735-4cad-4c04-be97-dfad01b00388
 ms.date: 12/05/2018
 ms.keywords: IExtendView, IExtendView interface [MMC], IExtendView interface [MMC],described, _slate_iextendview, mmc.iextendview, mmc/IExtendView
-ms.topic: interface
 f1_keywords:
 - mmc/IExtendView
 dev_langs:

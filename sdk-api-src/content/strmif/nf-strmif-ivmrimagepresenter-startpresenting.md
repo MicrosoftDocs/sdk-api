@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b97debae-d792-4c9b-a171-11ef2a73e987
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenter interface [DirectShow],StartPresenting method, IVMRImagePresenter.StartPresenting, IVMRImagePresenter::StartPresenting, IVMRImagePresenterStartPresenting, StartPresenting, StartPresenting method [DirectShow], StartPresenting method [DirectShow],IVMRImagePresenter interface, dshow.ivmrimagepresenter_startpresenting, strmif/IVMRImagePresenter::StartPresenting
-ms.topic: method
 f1_keywords:
 - strmif/IVMRImagePresenter.StartPresenting
 dev_langs:

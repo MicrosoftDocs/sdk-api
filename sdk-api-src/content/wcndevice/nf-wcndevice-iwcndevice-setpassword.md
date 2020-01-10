@@ -7,7 +7,6 @@ tech.root: wcn
 ms.assetid: 51d03336-3861-4585-b493-d6765c28b1eb
 ms.date: 12/05/2018
 ms.keywords: IWCNDevice interface [Windows Connect Now],SetPassword method, IWCNDevice.SetPassword, IWCNDevice::SetPassword, SetPassword, SetPassword method [Windows Connect Now], SetPassword method [Windows Connect Now],IWCNDevice interface, WCN_PASSWORD_TYPE_PIN, WCN_PASSWORD_TYPE_PUSH_BUTTON, wcn.iwcndevice_setpassword, wcndevice/IWCNDevice::SetPassword
-ms.topic: method
 f1_keywords:
 - wcndevice/IWCNDevice.SetPassword
 dev_langs:

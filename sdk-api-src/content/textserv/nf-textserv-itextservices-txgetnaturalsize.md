@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetnaturalsize.htm
 ms.date: 12/05/2018
 ms.keywords: ITextServices interface [Windows Controls],TxGetNaturalSize method, ITextServices.TxGetNaturalSize, ITextServices::TxGetNaturalSize, TXTNS_EMU, TXTNS_FITTOCONTENT, TXTNS_FITTOCONTENT2, TXTNS_FITTOCONTENT3, TXTNS_FITTOCONTENTWSP, TXTNS_INCLUDELASTLINE, TXTNS_ROUNDTOLINE, TxGetNaturalSize, TxGetNaturalSize method [Windows Controls], TxGetNaturalSize method [Windows Controls],ITextServices interface, _win32_ITextServices_TxGetNaturalSize, _win32_ITextServices_TxGetNaturalSize_cpp, controls.ITextServices_TxGetNaturalSize, controls._win32_ITextServices_TxGetNaturalSize, textserv/ITextServices::TxGetNaturalSize
-ms.topic: method
 f1_keywords:
 - textserv/ITextServices.TxGetNaturalSize
 dev_langs:

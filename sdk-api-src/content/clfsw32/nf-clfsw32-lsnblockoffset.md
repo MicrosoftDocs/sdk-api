@@ -7,7 +7,6 @@ tech.root: Clfs
 ms.assetid: 72445d03-1b9a-48a6-993e-792e1f524f4b
 ms.date: 12/05/2018
 ms.keywords: LsnBlockOffset, LsnBlockOffset function [Files], clfsw32/LsnBlockOffset, fs.lsnblockoffset
-ms.topic: function
 f1_keywords:
 - clfsw32/LsnBlockOffset
 dev_langs:

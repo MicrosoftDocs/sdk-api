@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 854848f0-ea89-4c25-a8a5-40f1e4d229be
 ms.date: 12/05/2018
 ms.keywords: IOCSPProperty, IOCSPProperty interface [Security], IOCSPProperty interface [Security],described, certadm/IOCSPProperty, security.iocspproperty
-ms.topic: interface
 f1_keywords:
 - certadm/IOCSPProperty
 dev_langs:

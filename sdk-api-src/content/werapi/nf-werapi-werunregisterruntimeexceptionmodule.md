@@ -7,7 +7,6 @@ tech.root: wer
 ms.assetid: 1a315923-b554-4363-a607-076690fc76a1
 ms.date: 12/05/2018
 ms.keywords: WerUnregisterRuntimeExceptionModule, WerUnregisterRuntimeExceptionModule function [Windows Error Reporting], wer.werunregisterruntimeexceptionmodule, werapi/WerUnregisterRuntimeExceptionModule
-ms.topic: function
 f1_keywords:
 - werapi/WerUnregisterRuntimeExceptionModule
 dev_langs:

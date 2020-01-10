@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 294ba92f-b6ef-4a66-81b5-b9ff508e147e
 ms.date: 12/05/2018
 ms.keywords: EnumManifestResources, EnumManifestResources method [Windows Runtime], EnumManifestResources method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],EnumManifestResources method, IMetaDataAssemblyImport.EnumManifestResources, IMetaDataAssemblyImport::EnumManifestResources, rometadataapi/IMetaDataAssemblyImport::EnumManifestResources, winrt.imetadataassemblyimport_enummanifestresources
-ms.topic: method
 f1_keywords:
 - rometadataapi/IMetaDataAssemblyImport.EnumManifestResources
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: ba2c33fa-9489-482d-b27e-79537425cc4b
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_SetFloat, FLOATOBJ_SetFloat function [Display Devices], display.floatobj_setfloat, gdifncs_3bf0c118-feea-48f1-8e20-d3b43408a860.xml, winddi/FLOATOBJ_SetFloat
-ms.topic: function
 f1_keywords:
 - winddi/FLOATOBJ_SetFloat
 dev_langs:

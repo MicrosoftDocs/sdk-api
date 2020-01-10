@@ -7,7 +7,6 @@ tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddedisconnectlist.htm
 ms.date: 12/05/2018
 ms.keywords: DdeDisconnectList, DdeDisconnectList function [Data Exchange], _win32_DdeDisconnectList, _win32_ddedisconnectlist_cpp, dataxchg.ddedisconnectlist, ddeml/DdeDisconnectList, winui._win32_ddedisconnectlist
-ms.topic: function
 f1_keywords:
 - ddeml/DdeDisconnectList
 dev_langs:

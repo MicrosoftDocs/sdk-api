@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 372eff29-7481-45aa-ad66-73147f7a631f
 ms.date: 12/05/2018
 ms.keywords: IEnumVdsObject interface [VDS],Next method, IEnumVdsObject.Next, IEnumVdsObject::Next, Next, Next method [VDS], Next method [VDS],IEnumVdsObject interface, base.ienumvdsobject_next, vds/IEnumVdsObject::Next, vdshwprv/IEnumVdsObject::Next
-ms.topic: method
 f1_keywords:
 - vdshwprv/IEnumVdsObject.Next
 dev_langs:

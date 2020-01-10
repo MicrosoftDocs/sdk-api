@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: fbb04b0a-df1a-409d-aadc-c06b816924c5
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_DATA_CHUNK_TYPE, HTTP_DATA_CHUNK_TYPE, HTTP_DATA_CHUNK_TYPE enumeration [HTTP], HttpDataChunkFromFileHandle, HttpDataChunkFromFragmentCache, HttpDataChunkFromFragmentCacheEx, HttpDataChunkFromMemory, http.http_data_chunk_type, http/HTTP_DATA_CHUNK_TYPE, http/HttpDataChunkFromFileHandle, http/HttpDataChunkFromFragmentCache, http/HttpDataChunkFromFragmentCacheEx, http/HttpDataChunkFromMemory'
-ms.topic: enum
 f1_keywords:
 - http/HTTP_DATA_CHUNK_TYPE
 dev_langs:

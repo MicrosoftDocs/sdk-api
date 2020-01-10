@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 0d0bd09c-ea97-46fb-b7b0-6e3e0a41dbc1
 ms.date: 12/05/2018
 ms.keywords: WSAAsyncGetServByPort, WSAAsyncGetServByPort function [Winsock], _win32_wsaasyncgetservbyport_2, winsock.wsaasyncgetservbyport_2, winsock/WSAAsyncGetServByPort
-ms.topic: function
 f1_keywords:
 - winsock/WSAAsyncGetServByPort
 dev_langs:

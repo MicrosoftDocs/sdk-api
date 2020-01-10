@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: dbfac3fc-3156-4253-812a-8b0647719096
 ms.date: 12/05/2018
 ms.keywords: CertSrvBackupFree, CertSrvBackupFree function [Security], _certsrv_certsrvbackupfree, certbcli/CertSrvBackupFree, security.certsrvbackupfree
-ms.topic: function
 f1_keywords:
 - certbcli/CertSrvBackupFree
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: e9ea26d6-a136-4103-ac67-42e943ea67b5
 ms.date: 12/05/2018
 ms.keywords: WsStartWriterCanonicalization, WsStartWriterCanonicalization function [Web Services for Windows], webservices/WsStartWriterCanonicalization, wsw.wsstartwritercanonicalization
-ms.topic: function
 f1_keywords:
 - webservices/WsStartWriterCanonicalization
 dev_langs:

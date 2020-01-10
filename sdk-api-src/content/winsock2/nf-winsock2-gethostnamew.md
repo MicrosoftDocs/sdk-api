@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 787EB209-5944-4F0A-8550-FE1115C2298A
 ms.date: 12/05/2018
 ms.keywords: GetHostNameW, GetHostNameW function [Winsock], winsock.gethostnamew, winsock2/GetHostNameW
-ms.topic: function
 f1_keywords:
 - winsock2/GetHostNameW
 dev_langs:

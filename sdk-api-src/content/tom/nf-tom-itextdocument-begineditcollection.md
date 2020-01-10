@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\begineditcollection.htm
 ms.date: 12/05/2018
 ms.keywords: BeginEditCollection, BeginEditCollection method [Windows Controls], BeginEditCollection method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],BeginEditCollection method, ITextDocument.BeginEditCollection, ITextDocument::BeginEditCollection, _win32_ITextDocument_BeginEditCollection, _win32_ITextDocument_BeginEditCollection_cpp, controls.ITextDocument_BeginEditCollection, controls._win32_ITextDocument_BeginEditCollection, tom/ITextDocument::BeginEditCollection
-ms.topic: method
 f1_keywords:
 - tom/ITextDocument.BeginEditCollection
 dev_langs:

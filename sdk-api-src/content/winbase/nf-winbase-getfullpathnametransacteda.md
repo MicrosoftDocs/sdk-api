@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 63cbcec6-e9f0-4db3-bf2f-03a987000af1
 ms.date: 12/05/2018
 ms.keywords: GetFullPathNameTransacted, GetFullPathNameTransacted function [Files], GetFullPathNameTransactedA, GetFullPathNameTransactedW, fs.getfullpathnametransacted, winbase/GetFullPathNameTransacted, winbase/GetFullPathNameTransactedA, winbase/GetFullPathNameTransactedW
-ms.topic: function
 f1_keywords:
 - winbase/GetFullPathNameTransacted
 dev_langs:

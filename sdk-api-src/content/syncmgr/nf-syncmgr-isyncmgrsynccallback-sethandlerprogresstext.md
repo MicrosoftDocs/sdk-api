@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5f16de5e-fed0-4d2c-a764-2239f9225cad
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncCallback interface [Windows Shell],SetHandlerProgressText method, ISyncMgrSyncCallback.SetHandlerProgressText, ISyncMgrSyncCallback::SetHandlerProgressText, SetHandlerProgressText, SetHandlerProgressText method [Windows Shell], SetHandlerProgressText method [Windows Shell],ISyncMgrSyncCallback interface, _shell_ISyncMgrSyncCallback_SetHandlerProgressText, shell.ISyncMgrSyncCallback_SetHandlerProgressText, syncmgr/ISyncMgrSyncCallback::SetHandlerProgressText
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrSyncCallback.SetHandlerProgressText
 dev_langs:

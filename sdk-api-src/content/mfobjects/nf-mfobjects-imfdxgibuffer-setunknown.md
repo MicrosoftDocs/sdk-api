@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 94BA5E48-FF89-48FA-BE0D-C158A5B4D4CF
 ms.date: 12/05/2018
 ms.keywords: IMFDXGIBuffer interface [Media Foundation],SetUnknown method, IMFDXGIBuffer.SetUnknown, IMFDXGIBuffer::SetUnknown, SetUnknown, SetUnknown method [Media Foundation], SetUnknown method [Media Foundation],IMFDXGIBuffer interface, mf.imfdxgibuffer_setunknown, mfobjects/IMFDXGIBuffer::SetUnknown
-ms.topic: method
 f1_keywords:
 - mfobjects/IMFDXGIBuffer.SetUnknown
 dev_langs:

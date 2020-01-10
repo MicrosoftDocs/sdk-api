@@ -7,7 +7,6 @@ tech.root: bltooth
 ms.assetid: 06820384-7098-415A-A350-3A755162FAA3
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTGetDescriptorValue, BluetoothGATTGetDescriptorValue function [Bluetooth Devices], bltooth.bluetoothgattgetdescriptorvalue, bluetoothleapis/BluetoothGATTGetDescriptorValue
-ms.topic: function
 f1_keywords:
 - bluetoothleapis/BluetoothGATTGetDescriptorValue
 dev_langs:

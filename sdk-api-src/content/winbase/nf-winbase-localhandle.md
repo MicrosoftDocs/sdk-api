@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: 2b252f8b-d0a3-4d7f-9e2e-cb80c1512935
 ms.date: 12/05/2018
 ms.keywords: LocalHandle, LocalHandle function, _win32_localhandle, base.localhandle, winbase/LocalHandle
-ms.topic: function
 f1_keywords:
 - winbase/LocalHandle
 dev_langs:

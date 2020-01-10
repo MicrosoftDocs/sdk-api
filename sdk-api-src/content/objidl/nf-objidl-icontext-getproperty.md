@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 76c6f790-9103-4cee-8a67-0f69b00ba0a1
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [COM], GetProperty method [COM],IContext interface, IContext interface [COM],GetProperty method, IContext.GetProperty, IContext::GetProperty, _com_icontext_getproperty, com.icontext_getproperty, objidlbase/IContext::GetProperty
-ms.topic: method
 f1_keywords:
 - objidl/IContext.GetProperty
 dev_langs:

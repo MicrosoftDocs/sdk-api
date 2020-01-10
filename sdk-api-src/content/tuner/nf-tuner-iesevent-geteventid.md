@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 8a7d62de-71fc-40fa-9944-d41e33243cc5
 ms.date: 12/05/2018
 ms.keywords: GetEventId, GetEventId method [Microsoft TV Technologies], GetEventId method [Microsoft TV Technologies],IESEvent interface, IESEvent interface [Microsoft TV Technologies],GetEventId method, IESEvent.GetEventId, IESEvent::GetEventId, mstv.iesevent_geteventid, tuner/IESEvent::GetEventId
-ms.topic: method
 f1_keywords:
 - tuner/IESEvent.GetEventId
 dev_langs:

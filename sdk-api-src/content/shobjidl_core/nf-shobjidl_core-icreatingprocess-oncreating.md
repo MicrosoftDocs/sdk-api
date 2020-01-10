@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 5A13ABDB-8453-41BE-AF0C-B5A07486CBE6
 ms.date: 12/05/2018
 ms.keywords: ICreatingProcess interface [Windows Shell],OnCreating method, ICreatingProcess.OnCreating, ICreatingProcess::OnCreating, OnCreating, OnCreating method [Windows Shell], OnCreating method [Windows Shell],ICreatingProcess interface, shell.icreatingprocess_oncreating, shobjidl_core/ICreatingProcess::OnCreating
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ICreatingProcess.OnCreating
 dev_langs:

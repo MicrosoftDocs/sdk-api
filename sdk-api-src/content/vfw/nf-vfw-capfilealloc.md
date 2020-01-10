@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 579c5406-f44a-4ea2-9822-f09a890489fb
 ms.date: 12/05/2018
 ms.keywords: _win32_capFileAlloc, capFileAlloc, capFileAlloc macro [Windows Multimedia], multimedia.capfilealloc, vfw/capFileAlloc
-ms.topic: macro
 f1_keywords:
 - vfw/capFileAlloc
 dev_langs:

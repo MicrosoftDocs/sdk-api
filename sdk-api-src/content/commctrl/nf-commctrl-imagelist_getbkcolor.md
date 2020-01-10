@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_getbkcolor.htm
 ms.date: 12/05/2018
 ms.keywords: ImageList_GetBkColor, ImageList_GetBkColor function [Windows Controls], _win32_ImageList_GetBkColor, _win32_ImageList_GetBkColor_cpp, commctrl/ImageList_GetBkColor, controls.ImageList_GetBkColor, controls._win32_ImageList_GetBkColor
-ms.topic: function
 f1_keywords:
 - commctrl/ImageList_GetBkColor
 dev_langs:

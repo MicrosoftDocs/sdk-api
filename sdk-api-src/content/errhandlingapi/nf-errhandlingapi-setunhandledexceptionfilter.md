@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 1c3bfdda-8049-4c3f-8ee6-0ee5c77b50ae
 ms.date: 12/05/2018
 ms.keywords: EXCEPTION_CONTINUE_EXECUTION, EXCEPTION_CONTINUE_SEARCH, EXCEPTION_EXECUTE_HANDLER, SetUnhandledExceptionFilter, SetUnhandledExceptionFilter function, _win32_setunhandledexceptionfilter, base.setunhandledexceptionfilter, errhandlingapi/SetUnhandledExceptionFilter
-ms.topic: function
 f1_keywords:
 - errhandlingapi/SetUnhandledExceptionFilter
 dev_langs:

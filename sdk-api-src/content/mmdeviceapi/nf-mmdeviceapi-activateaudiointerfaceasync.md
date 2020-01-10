@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 7BAFD9DB-DCD7-4093-A24B-9A8556C6C45B
 ms.date: 12/05/2018
 ms.keywords: ActivateAudioInterfaceAsync, ActivateAudioInterfaceAsync function [Core Audio], coreaudio.activateaudiointerfaceasync, mmdeviceapi/ActivateAudioInterfaceAsync
-ms.topic: function
 f1_keywords:
 - mmdeviceapi/ActivateAudioInterfaceAsync
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 14519064-450C-409E-AA2D-B4EF4D43C180
 ms.date: 12/05/2018
 ms.keywords: TpSetCallbackRaceWithDll, TpSetCallbackRaceWithDll function, base.tpsetcallbackracewithdll, winnt/TpSetCallbackRaceWithDll
-ms.topic: function
 f1_keywords:
 - winnt/TpSetCallbackRaceWithDll
 dev_langs:

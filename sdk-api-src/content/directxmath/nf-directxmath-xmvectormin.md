@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorMin(XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorMin, XMVectorMin, XMVectorMin method [DirectX Math Support APIs], dxmath.xmvectormin
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorMin
 dev_langs:

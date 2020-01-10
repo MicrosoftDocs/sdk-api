@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: ca24930d-bd1e-4c12-8246-1e505a98944a
 ms.date: 12/05/2018
 ms.keywords: IMFPMPHostApp, IMFPMPHostApp interface [Media Foundation], IMFPMPHostApp interface [Media Foundation],described, mf.imfpmphostapp, mfidl/IMFPMPHostApp
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFPMPHostApp
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 68594752-a711-4372-95db-10947bd2ce39
 ms.date: 12/05/2018
 ms.keywords: IConfigInterleaving, IConfigInterleaving interface [DirectShow], IConfigInterleaving interface [DirectShow],described, IConfigInterleavingInterface, dshow.iconfiginterleaving, strmif/IConfigInterleaving
-ms.topic: interface
 f1_keywords:
 - strmif/IConfigInterleaving
 dev_langs:

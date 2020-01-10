@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 9df5860e-db65-4e43-aaf9-c1e0e33fc569
 ms.date: 12/05/2018
 ms.keywords: SHUpdateImage, SHUpdateImage function [Windows Shell], SHUpdateImageA, SHUpdateImageW, _win32_SHUpdateImage, shell.SHUpdateImage, shlobj_core/SHUpdateImage, shlobj_core/SHUpdateImageA, shlobj_core/SHUpdateImageW
-ms.topic: function
 f1_keywords:
 - shlobj_core/SHUpdateImage
 dev_langs:

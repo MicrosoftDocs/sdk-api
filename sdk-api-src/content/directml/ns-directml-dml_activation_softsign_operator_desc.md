@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: E45B259A-7490-4CBD-AEA2-292711D162D2
 ms.date: 12/5/2018
 ms.keywords: DML_ACTIVATION_SOFTSIGN_OPERATOR_DESC, DML_ACTIVATION_SOFTSIGN_OPERATOR_DESC structure, direct3d12.dml_activation_softsign_operator_desc, directml/DML_ACTIVATION_SOFTSIGN_OPERATOR_DESC
-ms.topic: struct
 f1_keywords:
 - directml/DML_ACTIVATION_SOFTSIGN_OPERATOR_DESC
 dev_langs:

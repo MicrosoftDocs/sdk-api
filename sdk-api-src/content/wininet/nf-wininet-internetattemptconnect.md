@@ -7,7 +7,6 @@ tech.root: wininet
 ms.assetid: a6f22704-f7ca-4c4d-91c3-304b592db6ca
 ms.date: 12/05/2018
 ms.keywords: InternetAttemptConnect, InternetAttemptConnect function [WinINet], _inet_internetattemptconnect_function, wininet.internetattemptconnect, wininet/InternetAttemptConnect
-ms.topic: function
 f1_keywords:
 - wininet/InternetAttemptConnect
 dev_langs:

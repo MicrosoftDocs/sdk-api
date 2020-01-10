@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: aa423e18-c6b5-4587-b044-deda00a84615
 ms.date: 12/05/2018
 ms.keywords: ID2D1GradientStopCollection1, ID2D1GradientStopCollection1 interface [Direct2D], ID2D1GradientStopCollection1 interface [Direct2D],described, d2d1_1/ID2D1GradientStopCollection1, direct2d.id2d1gradientstopcollection1
-ms.topic: interface
 f1_keywords:
 - d2d1_1/ID2D1GradientStopCollection1
 dev_langs:

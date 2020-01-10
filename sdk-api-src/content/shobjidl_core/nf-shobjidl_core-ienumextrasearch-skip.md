@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: f77983e2-bae4-4350-8950-b4e76fc46365
 ms.date: 12/05/2018
 ms.keywords: IEnumExtraSearch interface [Windows Shell],Skip method, IEnumExtraSearch.Skip, IEnumExtraSearch::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumExtraSearch interface, _win32_IEnumExtraSearch_Skip, shell.IEnumExtraSearch_Skip, shobjidl_core/IEnumExtraSearch::Skip
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IEnumExtraSearch.Skip
 dev_langs:

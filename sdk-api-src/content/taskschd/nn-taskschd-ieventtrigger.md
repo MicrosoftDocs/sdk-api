@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 23b7ecb9-d2bb-441a-8c93-126c833f99b9
 ms.date: 12/05/2018
 ms.keywords: IEventTrigger, IEventTrigger interface [Task Scheduler], IEventTrigger interface [Task Scheduler],described, event trigger [Task Scheduler],interface, taskschd.ieventtrigger, taskschd/IEventTrigger
-ms.topic: interface
 f1_keywords:
 - taskschd/IEventTrigger
 dev_langs:

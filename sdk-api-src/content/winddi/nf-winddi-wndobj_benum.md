@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: ad883ab5-6374-499e-9144-e5b85feaa471
 ms.date: 12/05/2018
 ms.keywords: WNDOBJ_bEnum, WNDOBJ_bEnum function [Display Devices], display.wndobj_benum, gdifncs_73e625c4-af7b-4e0e-aace-b930ca192444.xml, winddi/WNDOBJ_bEnum
-ms.topic: function
 f1_keywords:
 - winddi/WNDOBJ_bEnum
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 395cc5fe-8694-47a9-8e92-1768c300ba7e
 ms.date: 12/05/2018
 ms.keywords: VarSub, VarSub function [Automation], _oa96_VarSub, automat.varsub, oleauto/VarSub
-ms.topic: function
 f1_keywords:
 - oleauto/VarSub
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 03b6bef9-c0ba-4efa-9552-55c8e9fd77ae
 ms.date: 12/05/2018
 ms.keywords: 03b6bef9-c0ba-4efa-9552-55c8e9fd77ae, DXVA2_Frequency, DXVA2_Frequency structure [Media Foundation], dxva2api/DXVA2_Frequency, mf.dxva2_frequency
-ms.topic: struct
 f1_keywords:
 - dxva2api/DXVA2_Frequency
 dev_langs:

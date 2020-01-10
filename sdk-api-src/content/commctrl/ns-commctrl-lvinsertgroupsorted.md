@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvinsertgroupsorted.htm
 ms.date: 12/05/2018
 ms.keywords: '*PLVINSERTGROUPSORTED, LVINSERTGROUPSORTED, LVINSERTGROUPSORTED structure [Windows Controls], PLVINSERTGROUPSORTED, PLVINSERTGROUPSORTED structure pointer [Windows Controls], commctrl/LVINSERTGROUPSORTED, commctrl/PLVINSERTGROUPSORTED, controls.LVINSERTGROUPSORTED, controls.inet_LVINSERTGROUPSORTED, inet_LVINSERTGROUPSORTED, inet_LVINSERTGROUPSORTED_cpp'
-ms.topic: struct
 f1_keywords:
 - commctrl/LVINSERTGROUPSORTED
 dev_langs:

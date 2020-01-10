@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: a3385c77-899c-4772-88b9-fb3e0fab54e0
 ms.date: 12/05/2018
 ms.keywords: WPUResetEvent, WPUResetEvent function [Winsock], _win32_wpuresetevent_2, winsock.wpuresetevent_2, ws2spi/WPUResetEvent
-ms.topic: function
 f1_keywords:
 - ws2spi/WPUResetEvent
 dev_langs:

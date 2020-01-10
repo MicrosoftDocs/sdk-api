@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 8D7F5DA2-8927-4453-A5E3-35A345B099EC
 ms.date: 12/05/2018
 ms.keywords: IsWindowsVistaSP2OrGreater, IsWindowsVistaSP2OrGreater function, base.iswindowsvistasp2orgreater, versionhelpers/IsWindowsVistaSP2OrGreater
-ms.topic: function
 f1_keywords:
 - versionhelpers/IsWindowsVistaSP2OrGreater
 dev_langs:

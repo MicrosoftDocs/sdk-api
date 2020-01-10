@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 40e6deaf-7363-45eb-80d0-bc3f33760875
 ms.date: 12/05/2018
 ms.keywords: UpdateTrace, UpdateTrace function [ETW], UpdateTraceA, UpdateTraceW, _evt_updatetrace, base.updatetrace, etw.updatetrace, evntrace/UpdateTrace, evntrace/UpdateTraceA, evntrace/UpdateTraceW
-ms.topic: function
 f1_keywords:
 - evntrace/UpdateTrace
 dev_langs:

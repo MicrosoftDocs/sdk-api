@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 195052a2-eaae-4b8c-bc13-0667ce50a967
 ms.date: 12/05/2018
 ms.keywords: PeerIdentityGetDefault, PeerIdentityGetDefault function [Peer Networking], p2p.peeridentitygetdefault, p2p/PeerIdentityGetDefault
-ms.topic: function
 f1_keywords:
 - p2p/PeerIdentityGetDefault
 dev_langs:

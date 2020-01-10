@@ -7,7 +7,6 @@ tech.root: netshell
 ms.assetid: f8510cef-9b7d-4827-8b09-7584bf32b220
 ms.date: 12/05/2018
 ms.keywords: NS_REQS, NS_REQS enumeration [NetShell], netsh/NS_REQS, netshell.ns_reqs
-ms.topic: enum
 f1_keywords:
 - netsh/NS_REQS
 dev_langs:

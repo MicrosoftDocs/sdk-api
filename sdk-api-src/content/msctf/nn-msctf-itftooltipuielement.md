@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: c881b251-a3fb-4f80-b2e8-08db1754f8f5
 ms.date: 12/05/2018
 ms.keywords: ITfToolTipUIElement, ITfToolTipUIElement interface [Text Services Framework], ITfToolTipUIElement interface [Text Services Framework],described, _tsf_itftooltipuielement_ref, msctf/ITfToolTipUIElement, tsf.itftooltipuielement
-ms.topic: interface
 f1_keywords:
 - msctf/ITfToolTipUIElement
 dev_langs:

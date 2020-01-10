@@ -7,7 +7,6 @@ tech.root: WebSock
 ms.assetid: 4009b56c-a92c-43fe-9e7b-2c38048aa748
 ms.date: 12/05/2018
 ms.keywords: WebSocketBeginServerHandshake, WebSocketBeginServerHandshake function [Websocket Protocol Component API], websock.websocketbeginserverhandshake, websocket/WebSocketBeginServerHandshake
-ms.topic: function
 f1_keywords:
 - websocket/WebSocketBeginServerHandshake
 dev_langs:

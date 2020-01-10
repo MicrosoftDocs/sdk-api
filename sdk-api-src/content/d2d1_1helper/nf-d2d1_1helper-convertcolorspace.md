@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 979E6FC2-52EB-4D58-B05C-523243F05B71
 ms.date: 12/05/2018
 ms.keywords: ConvertColorSpace, ConvertColorSpace function [Direct2D], d2d1_1helper/ConvertColorSpace, direct2d.convertcolorspace
-ms.topic: function
 f1_keywords:
 - d2d1_1helper/ConvertColorSpace
 dev_langs:

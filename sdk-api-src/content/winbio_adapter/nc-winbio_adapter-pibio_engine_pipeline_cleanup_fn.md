@@ -7,7 +7,6 @@ tech.root: SecBioMet
 ms.assetid: C77EBE33-E781-4FFA-BE3A-A08BD9C3D459
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterPipelineCleanup, EngineAdapterPipelineCleanup callback function [Windows Biometric Framework API], PIBIO_ENGINE_PIPELINE_CLEANUP_FN, PIBIO_ENGINE_PIPELINE_CLEANUP_FN callback, secbiomet.engineadapterpipelinecleanup, winbio_adapter/EngineAdapterPipelineCleanup
-ms.topic: callback
 f1_keywords:
 - winbio_adapter/EngineAdapterPipelineCleanup
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: e8884e82-5de2-4a1f-b79c-d431afe9e87e
 ms.date: 12/05/2018
 ms.keywords: BIND_FLAGS, BIND_FLAGS enumeration [COM], BIND_JUSTTESTEXISTENCE, BIND_MAYBOTHERUSER, _com_BIND_FLAGS, com.bind_flags, objidl/BIND_FLAGS, objidl/BIND_JUSTTESTEXISTENCE, objidl/BIND_MAYBOTHERUSER
-ms.topic: enum
 f1_keywords:
 - objidl/BIND_FLAGS
 dev_langs:

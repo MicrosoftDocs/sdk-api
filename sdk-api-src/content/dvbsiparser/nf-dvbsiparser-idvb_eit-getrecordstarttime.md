@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 2c392620-750d-4219-86fc-4c47109e6a3f
 ms.date: 12/05/2018
 ms.keywords: GetRecordStartTime, GetRecordStartTime method [Microsoft TV Technologies], GetRecordStartTime method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetRecordStartTime method, IDVB_EIT.GetRecordStartTime, IDVB_EIT::GetRecordStartTime, IDVB_EITGetRecordStartTime, dvbsiparser/IDVB_EIT::GetRecordStartTime, mstv.idvb_eit_getrecordstarttime
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDVB_EIT.GetRecordStartTime
 dev_langs:

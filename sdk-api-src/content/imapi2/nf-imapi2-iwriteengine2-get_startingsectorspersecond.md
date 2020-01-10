@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 335da519-7378-469d-83dc-7c6a265fe67b
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],get_StartingSectorsPerSecond method, IWriteEngine2.get_StartingSectorsPerSecond, IWriteEngine2::get_StartingSectorsPerSecond, get_StartingSectorsPerSecond, get_StartingSectorsPerSecond method [IMAPI], get_StartingSectorsPerSecond method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_get_startingsectorspersecond, imapi2/IWriteEngine2::get_StartingSectorsPerSecond
-ms.topic: method
 f1_keywords:
 - imapi2/IWriteEngine2.get_StartingSectorsPerSecond
 dev_langs:

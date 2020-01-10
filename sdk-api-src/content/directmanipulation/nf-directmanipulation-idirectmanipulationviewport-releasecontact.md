@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: fbb5cfba-4722-4470-aad5-2d192825244b
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],ReleaseContact method, IDirectManipulationViewport.ReleaseContact, IDirectManipulationViewport::ReleaseContact, ReleaseContact, ReleaseContact method [Direct Manipulation], ReleaseContact method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_releasecontact, directmanipulation/IDirectManipulationViewport::ReleaseContact
-ms.topic: method
 f1_keywords:
 - directmanipulation/IDirectManipulationViewport.ReleaseContact
 dev_langs:

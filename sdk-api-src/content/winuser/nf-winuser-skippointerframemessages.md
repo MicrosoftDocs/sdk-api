@@ -7,7 +7,6 @@ tech.root: InputMsg
 ms.assetid: d67f8d44-3e19-4523-a0f3-38f09f5df91f
 ms.date: 12/05/2018
 ms.keywords: SkipPointerFrameMessages, SkipPointerFrameMessages function [Input Messages and Notifications], inputmsg.skippointerframemessages, winuser/SkipPointerFrameMessages
-ms.topic: function
 f1_keywords:
 - winuser/SkipPointerFrameMessages
 dev_langs:

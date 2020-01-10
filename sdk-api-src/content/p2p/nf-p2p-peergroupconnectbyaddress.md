@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 44885110-fcb1-402a-86c6-1229b087165b
 ms.date: 12/05/2018
 ms.keywords: PeerGroupConnectByAddress, PeerGroupConnectByAddress function [Peer Networking], p2p.peergroupconnectbyaddress, p2p/PeerGroupConnectByAddress
-ms.topic: function
 f1_keywords:
 - p2p/PeerGroupConnectByAddress
 dev_langs:

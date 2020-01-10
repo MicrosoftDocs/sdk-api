@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 6c398d05-ac12-4c9a-b61a-70cd795c991f
 ms.date: 12/05/2018
 ms.keywords: IADsPropertyEntry, IADsPropertyEntry interface [ADSI], IADsPropertyEntry interface [ADSI],described, PropertyEntry, _ds_iadspropertyentry, adsi.iadspropertyentry, iads/IADsPropertyEntry
-ms.topic: interface
 f1_keywords:
 - iads/IADsPropertyEntry
 dev_langs:

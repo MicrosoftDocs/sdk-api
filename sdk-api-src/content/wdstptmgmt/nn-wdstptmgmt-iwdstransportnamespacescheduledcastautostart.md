@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: f11122a2-6ea9-4a73-ac93-0af7961f52b6
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespaceScheduledCastAutoStart, IWdsTransportNamespaceScheduledCastAutoStart interface [Windows Deployment Services], IWdsTransportNamespaceScheduledCastAutoStart interface [Windows Deployment Services],described, wds.iwdstransportnamespacescheduledcastautostart, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart
-ms.topic: interface
 f1_keywords:
 - wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart
 dev_langs:

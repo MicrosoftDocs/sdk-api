@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: d27233a0-b41f-43f6-a934-1ab8df8b0581
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerFreeRuntimeMemory, EapHostPeerFreeRuntimeMemory function [EAPHost], eaphost.eaphostpeerfreeruntimememory, eappapis/ EapHostPeerFreeRuntimeMemory
-ms.topic: function
 f1_keywords:
 - eappapis/EapHostPeerFreeRuntimeMemory
 dev_langs:

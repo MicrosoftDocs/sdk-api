@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 71f565b3-cf77-498c-b2a5-3a49a71c102f
 ms.date: 12/05/2018
 ms.keywords: GetSortDescription, GetSortDescription method [Windows Properties], GetSortDescription method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetSortDescription method, IPropertyDescription.GetSortDescription, IPropertyDescription::GetSortDescription, PDSD_A_Z, PDSD_GENERAL, PDSD_LOWEST_HIGHEST, PDSD_OLDEST_NEWEST, PDSD_SMALLEST_BIGGEST, properties.IPropertyDescription_GetSortDescription, propsys/IPropertyDescription::GetSortDescription, shell.IPropertyDescription_GetSortDescription, shell_IPropertyDescription_GetSortDescription
-ms.topic: method
 f1_keywords:
 - propsys/IPropertyDescription.GetSortDescription
 dev_langs:

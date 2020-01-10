@@ -7,7 +7,6 @@ tech.root: adsi
 ms.assetid: 71aebf28-f906-4a86-8bdb-ecb0626a350f
 ms.date: 12/05/2018
 ms.keywords: IADsAcl, IADsAcl interface [ADSI], IADsAcl interface [ADSI],described, _ds_iadsacl, adsi.iadsacl, iads/IADsAcl
-ms.topic: interface
 f1_keywords:
 - iads/IADsAcl
 dev_langs:

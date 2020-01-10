@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 8c2e612c-31d8-4c89-97c4-3e248d7b7b28
 ms.date: 12/05/2018
 ms.keywords: CreatePropertyStore, CreatePropertyStore method [Text Services Framework], CreatePropertyStore method [Text Services Framework],ITfCreatePropertyStore interface, ITfCreatePropertyStore interface [Text Services Framework],CreatePropertyStore method, ITfCreatePropertyStore.CreatePropertyStore, ITfCreatePropertyStore::CreatePropertyStore, _tsf_itfcreatepropertystore_createpropertystore_ref, msctf/ITfCreatePropertyStore::CreatePropertyStore, tsf.itfcreatepropertystore_createpropertystore
-ms.topic: method
 f1_keywords:
 - msctf/ITfCreatePropertyStore.CreatePropertyStore
 dev_langs:

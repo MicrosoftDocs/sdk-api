@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 00a7c10a-7790-4193-928c-d3211047dbbe
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_SupportedWriteSpeedDescriptors method, IDiscFormat2RawCD.get_SupportedWriteSpeedDescriptors, IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors, get_SupportedWriteSpeedDescriptors, get_SupportedWriteSpeedDescriptors method [IMAPI], get_SupportedWriteSpeedDescriptors method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_supportedwritespeeddescriptors, imapi2/IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors
-ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2RawCD.get_SupportedWriteSpeedDescriptors
 dev_langs:

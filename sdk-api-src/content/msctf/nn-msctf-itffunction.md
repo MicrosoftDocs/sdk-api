@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 140b1ed8-8876-4f06-8ed2-7b0dccdc0a69
 ms.date: 12/05/2018
 ms.keywords: ITfFunction, ITfFunction interface [Text Services Framework], ITfFunction interface [Text Services Framework],described, _tsf_itffunction_ref, msctf/ITfFunction, tsf.itffunction
-ms.topic: interface
 f1_keywords:
 - msctf/ITfFunction
 dev_langs:

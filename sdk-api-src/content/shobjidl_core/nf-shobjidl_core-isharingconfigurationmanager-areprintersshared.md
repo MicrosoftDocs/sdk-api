@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 331ccf4d-c769-43b9-a2db-c464ffaef58e
 ms.date: 12/05/2018
 ms.keywords: ArePrintersShared, ArePrintersShared method [Windows Shell], ArePrintersShared method [Windows Shell],ISharingConfigurationManager interface, ISharingConfigurationManager interface [Windows Shell],ArePrintersShared method, ISharingConfigurationManager.ArePrintersShared, ISharingConfigurationManager::ArePrintersShared, _shell_ISharingConfigurationManager_ArePrintersShared, shell.ISharingConfigurationManager_ArePrintersShared, shobjidl_core/ISharingConfigurationManager::ArePrintersShared
-ms.topic: method
 f1_keywords:
 - shobjidl_core/ISharingConfigurationManager.ArePrintersShared
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: 72122388-a42f-4c67-9539-20eb4c59dcf0
 ms.date: 12/05/2018
 ms.keywords: FSCTL_QUERY_SPARING_INFO, FSCTL_QUERY_SPARING_INFO control, FSCTL_QUERY_SPARING_INFO control code [Files], fs.fsctl_query_sparing_info, winioctl/FSCTL_QUERY_SPARING_INFO
-ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_QUERY_SPARING_INFO
 dev_langs:

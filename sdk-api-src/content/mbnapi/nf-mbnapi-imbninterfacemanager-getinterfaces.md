@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 1cd10189-8f36-4bcb-95e9-35064e70fdf8
 ms.date: 12/05/2018
 ms.keywords: GetInterfaces, GetInterfaces method [Microsoft Broadband Networks], GetInterfaces method [Microsoft Broadband Networks],IMbnInterfaceManager interface, IMbnInterfaceManager interface [Microsoft Broadband Networks],GetInterfaces method, IMbnInterfaceManager.GetInterfaces, IMbnInterfaceManager::GetInterfaces, mbn.imbninterfacemanager_getinterfaces, mbnapi/IMbnInterfaceManager::GetInterfaces
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnInterfaceManager.GetInterfaces
 dev_langs:

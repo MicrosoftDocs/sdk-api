@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 68ae8174-d72b-4b1c-b8e9-ae5fed51d385
 ms.date: 12/05/2018
 ms.keywords: WTSVirtualChannelQuery, WTSVirtualChannelQuery function [Remote Desktop Services], _win32_wtsvirtualchannelquery, termserv.wtsvirtualchannelquery, wtsapi32/WTSVirtualChannelQuery
-ms.topic: function
 f1_keywords:
 - wtsapi32/WTSVirtualChannelQuery
 dev_langs:

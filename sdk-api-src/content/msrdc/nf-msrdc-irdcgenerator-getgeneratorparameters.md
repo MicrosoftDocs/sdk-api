@@ -7,7 +7,6 @@ tech.root: rdc
 ms.assetid: c2ee5aea-c186-4017-bc35-2f83f5c05824
 ms.date: 12/05/2018
 ms.keywords: GetGeneratorParameters, GetGeneratorParameters method [Remote Differential Compression], GetGeneratorParameters method [Remote Differential Compression],IRdcGenerator interface, IRdcGenerator interface [Remote Differential Compression],GetGeneratorParameters method, IRdcGenerator.GetGeneratorParameters, IRdcGenerator::GetGeneratorParameters, fs.irdcgenerator_getgeneratorparameters, msrdc/IRdcGenerator::GetGeneratorParameters, rdc.irdcgenerator_getgeneratorparameters
-ms.topic: method
 f1_keywords:
 - msrdc/IRdcGenerator.GetGeneratorParameters
 dev_langs:

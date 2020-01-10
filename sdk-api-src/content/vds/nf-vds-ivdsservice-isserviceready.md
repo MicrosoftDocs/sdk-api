@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 79ef68db-6bc6-40b3-a133-86f00eb70ee3
 ms.date: 12/05/2018
 ms.keywords: IVdsService interface [VDS],IsServiceReady method, IVdsService.IsServiceReady, IVdsService::IsServiceReady, IsServiceReady, IsServiceReady method [VDS], IsServiceReady method [VDS],IVdsService interface, base.ivdsservice_isserviceready, vds/IVdsService::IsServiceReady
-ms.topic: method
 f1_keywords:
 - vds/IVdsService.IsServiceReady
 dev_langs:

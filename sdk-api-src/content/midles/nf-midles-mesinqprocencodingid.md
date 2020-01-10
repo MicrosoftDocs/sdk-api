@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: b6d73cc3-cd35-4fe7-87e6-ecbfef777c44
 ms.date: 12/05/2018
 ms.keywords: MesInqProcEncodingId, MesInqProcEncodingId function [RPC], _rpc_mesinqprocencodingid, midles/MesInqProcEncodingId, rpc.mesinqprocencodingid
-ms.topic: function
 f1_keywords:
 - midles/MesInqProcEncodingId
 dev_langs:

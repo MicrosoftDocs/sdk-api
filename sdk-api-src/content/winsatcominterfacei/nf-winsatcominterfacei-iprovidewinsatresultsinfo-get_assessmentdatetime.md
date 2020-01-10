@@ -7,7 +7,6 @@ tech.root: WinSAT
 ms.assetid: c5fcf832-7290-45dc-9c36-7b469dc54a4c
 ms.date: 12/05/2018
 ms.keywords: AssessmentDateTime property [WinSAT], AssessmentDateTime property [WinSAT],IProvideWinSATResultsInfo interface, IProvideWinSATResultsInfo interface [WinSAT],AssessmentDateTime property, IProvideWinSATResultsInfo.AssessmentDateTime, IProvideWinSATResultsInfo.get_AssessmentDateTime, IProvideWinSATResultsInfo::AssessmentDateTime, IProvideWinSATResultsInfo::get_AssessmentDateTime, get_AssessmentDateTime, winsat.iprovidewinsatresultsinfo_assessmentdatetime, winsatcominterfacei/IProvideWinSATResultsInfo::AssessmentDateTime, winsatcominterfacei/IProvideWinSATResultsInfo::get_AssessmentDateTime
-ms.topic: method
 f1_keywords:
 - winsatcominterfacei/IProvideWinSATResultsInfo.AssessmentDateTime
 dev_langs:

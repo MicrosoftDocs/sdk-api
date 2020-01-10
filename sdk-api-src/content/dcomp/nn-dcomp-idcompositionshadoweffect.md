@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 115FD667-64D2-4538-9EB4-B133D5DCAF30
 ms.date: 12/05/2018
 ms.keywords: IDCompositionShadowEffect, IDCompositionShadowEffect interface [DirectComposition], IDCompositionShadowEffect interface [DirectComposition],described, dcomp/IDCompositionShadowEffect, directcomp.idcompositionshadoweffect
-ms.topic: interface
 f1_keywords:
 - dcomp/IDCompositionShadowEffect
 dev_langs:

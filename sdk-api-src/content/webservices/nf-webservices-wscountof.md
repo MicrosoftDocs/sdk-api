@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 3087fa5e-46fc-4580-999c-f80a2b8555f6
 ms.date: 12/05/2018
 ms.keywords: WsCountOf, WsCountOf macro [Web Services for Windows], webservices/WsCountOf, wsw.wscountof
-ms.topic: macro
 f1_keywords:
 - webservices/WsCountOf
 dev_langs:

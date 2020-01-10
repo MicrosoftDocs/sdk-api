@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 04e6ea03-f9b5-48d9-940f-532bb3a85ff0
 ms.date: 12/05/2018
 ms.keywords: IWSDEventingStatus, IWSDEventingStatus interface, IWSDEventingStatus interface,described, ncd.iwsdeventingstatus, wsdclient/IWSDEventingStatus
-ms.topic: interface
 f1_keywords:
 - wsdclient/IWSDEventingStatus
 dev_langs:

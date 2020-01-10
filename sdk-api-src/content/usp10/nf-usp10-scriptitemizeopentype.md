@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: da15d6b3-6725-43b8-9a2c-c19269a79d1e
 ms.date: 12/05/2018
 ms.keywords: ScriptItemizeOpenType, ScriptItemizeOpenType function [Internationalization for Windows Applications], _win32_ScriptItemizeOpenType, intl.scriptitemizeopentype, usp10/ScriptItemizeOpenType
-ms.topic: function
 f1_keywords:
 - usp10/ScriptItemizeOpenType
 dev_langs:

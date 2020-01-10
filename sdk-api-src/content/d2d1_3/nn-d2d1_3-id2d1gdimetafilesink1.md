@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 7772034c-0dfe-6c9b-99bb-6222a5517524
 ms.date: 12/05/2018
 ms.keywords: ID2D1GdiMetafileSink1, ID2D1GdiMetafileSink1 interface [Direct2D], ID2D1GdiMetafileSink1 interface [Direct2D],described, d2d1_3/ID2D1GdiMetafileSink1, direct2d.id2d1gdimetafilesink1
-ms.topic: interface
 f1_keywords:
 - d2d1_3/ID2D1GdiMetafileSink1
 dev_langs:

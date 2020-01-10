@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c0c40137-e19b-448c-a327-454b12a5604a
 ms.date: 12/05/2018
 ms.keywords: EnsureItemVisible, EnsureItemVisible method [Windows Shell], EnsureItemVisible method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],EnsureItemVisible method, INameSpaceTreeControl.EnsureItemVisible, INameSpaceTreeControl::EnsureItemVisible, _shell_INameSpaceTreeControl_EnsureItemVisible, shell.INameSpaceTreeControl_EnsureItemVisible, shobjidl_core/INameSpaceTreeControl::EnsureItemVisible
-ms.topic: method
 f1_keywords:
 - shobjidl_core/INameSpaceTreeControl.EnsureItemVisible
 dev_langs:

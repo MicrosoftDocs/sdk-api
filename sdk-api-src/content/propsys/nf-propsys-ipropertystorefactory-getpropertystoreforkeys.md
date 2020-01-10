@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: ce17a245-46ff-412a-a807-6bc67b826c2f
 ms.date: 12/05/2018
 ms.keywords: GetPropertyStoreForKeys, GetPropertyStoreForKeys method [Windows Properties], GetPropertyStoreForKeys method [Windows Properties],IPropertyStoreFactory interface, IPropertyStoreFactory interface [Windows Properties],GetPropertyStoreForKeys method, IPropertyStoreFactory.GetPropertyStoreForKeys, IPropertyStoreFactory::GetPropertyStoreForKeys, _shell_IPropertyStoreFactory_GetPropertyStoreForKeys, properties.IPropertyStoreFactory_GetPropertyStoreForKeys, propsys/IPropertyStoreFactory::GetPropertyStoreForKeys, shell.IPropertyStoreFactory_GetPropertyStoreForKeys
-ms.topic: method
 f1_keywords:
 - propsys/IPropertyStoreFactory.GetPropertyStoreForKeys
 dev_langs:

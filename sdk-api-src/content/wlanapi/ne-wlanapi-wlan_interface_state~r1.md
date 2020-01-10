@@ -3,7 +3,6 @@ UID: NE:wlanapi._WLAN_INTERFACE_STATE~r1
 title: WLAN_INTERFACE_STATE
 ms.date: 01/30/19
 ms.keywords: _WLAN_INTERFACE_STATE, WLAN_INTERFACE_STATE
-ms.topic: language-reference
 f1_keywords:
 - wlanapi/_WLAN_INTERFACE_STATE
 dev_langs:

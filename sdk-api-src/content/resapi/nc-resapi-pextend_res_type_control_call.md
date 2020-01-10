@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 90E9A989-D281-440D-8441-02086841356E
 ms.date: 12/05/2018
 ms.keywords: ExtendResTypeControlCall, ExtendResTypeControlCall callback, ExtendResTypeControlCall callback function [Failover Cluster], PEXTEND_RES_TYPE_CONTROL_CALL, PEXTEND_RES_TYPE_CONTROL_CALL callback function [Failover Cluster], mscs.extendtypecontrolcall, resapi/ExtendResTypeControlCall, resapi/PEXTEND_RES_TYPE_CONTROL_CALL
-ms.topic: callback
 f1_keywords:
 - resapi/ExtendResTypeControlCall
 dev_langs:

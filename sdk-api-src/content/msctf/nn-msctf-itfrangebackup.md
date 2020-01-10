@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: f98cd8d0-7033-4bd2-94a1-1a75913c2647
 ms.date: 12/05/2018
 ms.keywords: ITfRangeBackup, ITfRangeBackup interface [Text Services Framework], ITfRangeBackup interface [Text Services Framework],described, _tsf_itfrangebackup_ref, msctf/ITfRangeBackup, tsf.itfrangebackup
-ms.topic: interface
 f1_keywords:
 - msctf/ITfRangeBackup
 dev_langs:

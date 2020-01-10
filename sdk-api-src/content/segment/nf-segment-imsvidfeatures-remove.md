@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 6a9e35e2-231e-4ad6-ac57-e6258df2777f
 ms.date: 12/05/2018
 ms.keywords: IMSVidFeatures interface [Microsoft TV Technologies],Remove method, IMSVidFeatures.Remove, IMSVidFeatures::Remove, IMSVidFeaturesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IMSVidFeatures interface, mstv.imsvidfeatures_remove, segment/IMSVidFeatures::Remove
-ms.topic: method
 f1_keywords:
 - segment/IMSVidFeatures.Remove
 dev_langs:

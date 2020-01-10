@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: f3030eea-e87f-4bb8-9835-e6bc052ff0ef
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMGeometryFigureCollection.RemoveAt, IXpsOMGeometryFigureCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMGeometryFigureCollection interface, xps.ixpsomgeometryfigurecollection_removeat, xpsobjectmodel/IXpsOMGeometryFigureCollection::RemoveAt
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGeometryFigureCollection.RemoveAt
 dev_langs:

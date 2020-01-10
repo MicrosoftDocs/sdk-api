@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c469417c-c774-4946-b873-cc2845417655
 ms.date: 12/05/2018
 ms.keywords: UIntMult, UIntMult function [Windows Shell], _shell_UIntMult, intsafe/UIntMult, shell.UIntMult
-ms.topic: function
 f1_keywords:
 - intsafe/UIntMult
 dev_langs:

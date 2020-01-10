@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 782cf560-20a6-40fd-877b-2326a286c392
 ms.date: 12/05/2018
 ms.keywords: IntPtrToDWordPtr, IntPtrToSIZET, IntPtrToULongPtr, IntPtrToULongPtr function [Windows Shell], PtrdiffTToSIZET, PtrdiffTToULongPtr, _shell_IntPtrToULongPtr, intsafe/IntPtrToULongPtr, shell.IntPtrToULongPtr
-ms.topic: function
 f1_keywords:
 - intsafe/IntPtrToULongPtr
 dev_langs:

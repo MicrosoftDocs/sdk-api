@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 3ab13fac-2667-44ce-aa1a-72cd18d37b0a
 ms.date: 12/05/2018
 ms.keywords: ITAllocatorProperties interface [TAPI 2.2],SetAllocatorProperties method, ITAllocatorProperties.SetAllocatorProperties, ITAllocatorProperties::SetAllocatorProperties, SetAllocatorProperties, SetAllocatorProperties method [TAPI 2.2], SetAllocatorProperties method [TAPI 2.2],ITAllocatorProperties interface, _tapi3_itallocatorproperties_setallocatorproperties, tapi3.itallocatorproperties_setallocatorproperties, tapi3ds/ITAllocatorProperties::SetAllocatorProperties
-ms.topic: method
 f1_keywords:
 - tapi3/ITAllocatorProperties.SetAllocatorProperties
 dev_langs:

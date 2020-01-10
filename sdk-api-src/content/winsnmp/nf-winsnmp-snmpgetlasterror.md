@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: 0cfb2bc3-cfa5-4806-9dcf-119541463e7b
 ms.date: 12/05/2018
 ms.keywords: SnmpGetLastError, SnmpGetLastError function [SNMP], _snmp_snmpgetlasterror, snmp.snmpgetlasterror, winsnmp/SnmpGetLastError
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpGetLastError
 dev_langs:

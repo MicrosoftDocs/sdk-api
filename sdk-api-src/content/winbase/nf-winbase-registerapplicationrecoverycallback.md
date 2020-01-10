@@ -7,7 +7,6 @@ tech.root: Recovery
 ms.assetid: 4ff73c2c-a941-4626-ae40-cafbe6e50644
 ms.date: 12/05/2018
 ms.keywords: RegisterApplicationRecoveryCallback, RegisterApplicationRecoveryCallback function [Recovery], base.registerapplicationrecoverycallback, recovery.registerapplicationrecoverycallback, winbase/RegisterApplicationRecoveryCallback
-ms.topic: function
 f1_keywords:
 - winbase/RegisterApplicationRecoveryCallback
 dev_langs:

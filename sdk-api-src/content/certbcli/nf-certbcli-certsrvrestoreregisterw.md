@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 4549ba26-d52c-4779-b27d-126cef6ef15d
 ms.date: 12/05/2018
 ms.keywords: CertSrvRestoreRegister, CertSrvRestoreRegister function [Security], CertSrvRestoreRegisterW, FNCERTSRVRESTOREREGISTERW, FNCERTSRVRESTOREREGISTERW function [Security], _certsrv_certsrvrestoreregister, certbcli/CertSrvRestoreRegister, certbcli/CertSrvRestoreRegisterW, certbcli/FNCERTSRVRESTOREREGISTERW, security.certsrvrestoreregister
-ms.topic: function
 f1_keywords:
 - certbcli/CertSrvRestoreRegister
 dev_langs:

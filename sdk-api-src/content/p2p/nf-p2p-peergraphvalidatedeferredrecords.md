@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: a9a48d8a-f31e-4526-bd09-826f04a564b1
 ms.date: 12/05/2018
 ms.keywords: PeerGraphValidateDeferredRecords, PeerGraphValidateDeferredRecords function [Peer Networking], p2p.peergraphvalidatedeferredrecords, p2p/PeerGraphValidateDeferredRecords
-ms.topic: function
 f1_keywords:
 - p2p/PeerGraphValidateDeferredRecords
 dev_langs:

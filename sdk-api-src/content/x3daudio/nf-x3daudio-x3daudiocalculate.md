@@ -7,7 +7,6 @@ tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.x3daudio.X3DAudioCalculate(const X3DAUDIO_HANDLE,const X3DAUDIO_LISTENER,const X3DAUDIO_EMITTER,UINT32,X3DAUDIO_DSP_SETTINGS@)
 ms.date: 12/05/2018
 ms.keywords: X3DAudioCalculate, X3DAudioCalculate function [XAudio2 Audio Mixing APIs], x3daudio/X3DAudioCalculate, xaudio2.x3daudiocalculate
-ms.topic: function
 f1_keywords:
 - x3daudio/X3DAudioCalculate
 dev_langs:

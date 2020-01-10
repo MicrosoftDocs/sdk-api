@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 0a8c79e6-b825-40a1-b174-5428ab643514
 ms.date: 12/05/2018
 ms.keywords: UiaNodeFromHandle, UiaNodeFromHandle function [Windows Accessibility], uiauto.uiauto_UiaNodeFromHandleFunction, uiauto_UiaNodeFromHandleFunction, uiautomationcoreapi/UiaNodeFromHandle, winauto.uiauto_UiaNodeFromHandleFunction
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/UiaNodeFromHandle
 dev_langs:

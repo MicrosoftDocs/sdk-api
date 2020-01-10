@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: F7AD3612-5D66-49DB-81EF-040849D32CB4
 ms.date: 12/05/2018
 ms.keywords: ISecurityInformation4, ISecurityInformation4 interface [Security], ISecurityInformation4 interface [Security],described, aclui/ISecurityInformation4, security.isecurityinformation4
-ms.topic: interface
 f1_keywords:
 - aclui/ISecurityInformation4
 dev_langs:

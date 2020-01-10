@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: d1b25aec-f302-4d39-93c1-0fcb2d7dbf45
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromFileTimeArray, InitVariantFromFileTimeArray function [Windows Properties], _shell_InitVariantFromFileTimeArray, properties.InitVariantFromFileTimeArray, propvarutil/InitVariantFromFileTimeArray, shell.InitVariantFromFileTimeArray
-ms.topic: function
 f1_keywords:
 - propvarutil/InitVariantFromFileTimeArray
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 98ab34da-ea07-4446-a62e-509c849d95f9
 ms.date: 12/05/2018
 ms.keywords: FillRect, FillRect function [Windows GDI], _win32_FillRect, gdi.fillrect, winuser/FillRect
-ms.topic: function
 f1_keywords:
 - winuser/FillRect
 dev_langs:

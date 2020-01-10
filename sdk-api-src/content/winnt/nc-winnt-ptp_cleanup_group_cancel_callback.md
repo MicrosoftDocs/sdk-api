@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 5704b0df-a868-40f0-9bcf-41274facb0b5
 ms.date: 12/05/2018
 ms.keywords: PTP_CLEANUP_GROUP_CANCEL_CALLBACK, PTP_CLEANUP_GROUP_CANCEL_CALLBACK callback, PTP_CLEANUP_GROUP_CANCEL_CALLBACK callback function, base.cleanupgroupcancelcallback, winnt/PTP_CLEANUP_GROUP_CANCEL_CALLBACK
-ms.topic: callback
 f1_keywords:
 - winnt/PTP_CLEANUP_GROUP_CANCEL_CALLBACK
 dev_langs:

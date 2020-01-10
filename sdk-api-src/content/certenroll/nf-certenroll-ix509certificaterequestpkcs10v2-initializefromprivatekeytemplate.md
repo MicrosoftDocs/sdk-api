@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: c19d9754-e96d-4093-9095-82fa0a4baf37
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequestPkcs10V2 interface [Security],InitializeFromPrivateKeyTemplate method, IX509CertificateRequestPkcs10V2.InitializeFromPrivateKeyTemplate, IX509CertificateRequestPkcs10V2::InitializeFromPrivateKeyTemplate, InitializeFromPrivateKeyTemplate, InitializeFromPrivateKeyTemplate method [Security], InitializeFromPrivateKeyTemplate method [Security],IX509CertificateRequestPkcs10V2 interface, certenroll/IX509CertificateRequestPkcs10V2::InitializeFromPrivateKeyTemplate, security.ix509certificaterequestpkcs10v2_initializefromprivatekeytemplate
-ms.topic: method
 f1_keywords:
 - certenroll/IX509CertificateRequestPkcs10V2.InitializeFromPrivateKeyTemplate
 dev_langs:

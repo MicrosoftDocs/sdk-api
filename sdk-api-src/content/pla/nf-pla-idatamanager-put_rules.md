@@ -7,7 +7,6 @@ tech.root: PLA
 ms.assetid: 17403e57-2eea-4a2b-a75c-66f486622078
 ms.date: 12/05/2018
 ms.keywords: IDataManager interface [PLA],Rules property, IDataManager.Rules, IDataManager.put_Rules, IDataManager::Rules, IDataManager::get_Rules, IDataManager::put_Rules, Rules property [PLA], Rules property [PLA],IDataManager interface, base.idatamanager_rules, pla.idatamanager_rules, pla/IDataManager::Rules, pla/IDataManager::get_Rules, pla/IDataManager::put_Rules, put_Rules
-ms.topic: method
 f1_keywords:
 - pla/IDataManager.Rules
 dev_langs:

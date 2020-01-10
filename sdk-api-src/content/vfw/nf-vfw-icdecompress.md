@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 779b63db-6b1d-4eb5-9df5-bb847b35863d
 ms.date: 12/05/2018
 ms.keywords: ICDecompress, ICDecompress function [Windows Multimedia], _win32_ICDecompress, multimedia.icdecompress, vfw/ICDecompress
-ms.topic: function
 f1_keywords:
 - vfw/ICDecompress
 dev_langs:

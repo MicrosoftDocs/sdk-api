@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: e57ec1c0-cece-4379-a695-a33c832ea7af
 ms.date: 12/05/2018
 ms.keywords: GetDefaultQuotaThreshold, GetDefaultQuotaThreshold method [Files], GetDefaultQuotaThreshold method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],GetDefaultQuotaThreshold method, IDiskQuotaControl.GetDefaultQuotaThreshold, IDiskQuotaControl::GetDefaultQuotaThreshold, _win32_idiskquotacontrol_getdefaultquotathreshold, base.idiskquotacontrol_getdefaultquotathreshold, dskquota/IDiskQuotaControl::GetDefaultQuotaThreshold, fs.idiskquotacontrol_getdefaultquotathreshold
-ms.topic: method
 f1_keywords:
 - dskquota/IDiskQuotaControl.GetDefaultQuotaThreshold
 dev_langs:

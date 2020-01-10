@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: bcc343f7-741f-4cdd-bd2f-ae4786faab0e
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromGUIDAsString, InitPropVariantFromGUIDAsString function [Windows Properties], properties.InitPropVariantFromGUIDAsString, propvarutil/InitPropVariantFromGUIDAsString, shell.InitPropVariantFromGUIDAsString, shell_InitPropVariantFromGUIDAsString
-ms.topic: function
 f1_keywords:
 - propvarutil/InitPropVariantFromGUIDAsString
 dev_langs:

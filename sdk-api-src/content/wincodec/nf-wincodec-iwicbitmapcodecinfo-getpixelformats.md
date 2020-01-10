@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 2da56e46-bbbd-42d4-ba49-9dee01f6bba0
 ms.date: 12/05/2018
 ms.keywords: GetPixelFormats, GetPixelFormats method [Windows Imaging Component], GetPixelFormats method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],GetPixelFormats method, IWICBitmapCodecInfo.GetPixelFormats, IWICBitmapCodecInfo::GetPixelFormats, _wic_codec_iwicbitmapcodecinfo_getpixelformats, wic._wic_codec_iwicbitmapcodecinfo_getpixelformats, wincodec/IWICBitmapCodecInfo::GetPixelFormats
-ms.topic: method
 f1_keywords:
 - wincodec/IWICBitmapCodecInfo.GetPixelFormats
 dev_langs:

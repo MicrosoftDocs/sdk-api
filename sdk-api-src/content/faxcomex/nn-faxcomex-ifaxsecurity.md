@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_63cp_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxSecurity, IFaxSecurity interface [Fax Service], IFaxSecurity interface [Fax Service],described, _mfax_faxsecurity_cpp, fax._mfax_faxsecurity_cpp, faxcomex/IFaxSecurity
-ms.topic: interface
 f1_keywords:
 - faxcomex/IFaxSecurity
 dev_langs:

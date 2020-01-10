@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 84b1aa0c-44d9-4a2f-861c-fa7d8caac192
 ms.date: 12/05/2018
 ms.keywords: CertFreeCTLContext, CertFreeCTLContext function [Security], _crypto2_certfreectlcontext, security.certfreectlcontext, wincrypt/CertFreeCTLContext
-ms.topic: function
 f1_keywords:
 - wincrypt/CertFreeCTLContext
 dev_langs:

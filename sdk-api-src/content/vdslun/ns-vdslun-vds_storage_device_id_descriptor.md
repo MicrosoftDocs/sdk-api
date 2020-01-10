@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 88fe83cb-6d3c-40bd-a5ce-71771d2e7511
 ms.date: 12/05/2018
 ms.keywords: VDS_STORAGE_DEVICE_ID_DESCRIPTOR, VDS_STORAGE_DEVICE_ID_DESCRIPTOR structure [VDS], base.vds_storage_device_id_descriptor, vdslun/_VDS_STORAGE_DEVICE_ID_DESCRIPTOR
-ms.topic: struct
 f1_keywords:
 - vdslun/VDS_STORAGE_DEVICE_ID_DESCRIPTOR
 dev_langs:

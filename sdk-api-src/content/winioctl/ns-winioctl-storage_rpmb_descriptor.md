@@ -3,7 +3,6 @@ UID: NS:winioctl._STORAGE_RPMB_DESCRIPTOR
 title: STORAGE_RPMB_DESCRIPTOR
 ms.date: 4/26/2019
 ms.keywords: _STORAGE_RPMB_DESCRIPTOR, STORAGE_RPMB_DESCRIPTOR
-ms.topic: language-reference
 f1_keywords:
 - _STORAGE_RPMB_DESCRIPTOR
 dev_langs:

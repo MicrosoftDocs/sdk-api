@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 3847AF32-D8E4-4BB2-9FBC-7CFAEF2CA664
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleReader, IAppxBundleReader interface [App packaging and management], IAppxBundleReader interface [App packaging and management],described, appxpackaging/IAppxBundleReader, appxpkg.iappxbundlereader
-ms.topic: interface
 f1_keywords:
 - appxpackaging/IAppxBundleReader
 dev_langs:

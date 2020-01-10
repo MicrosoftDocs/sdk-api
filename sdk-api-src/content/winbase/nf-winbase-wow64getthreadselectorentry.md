@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 68393913-6725-4cc6-90b9-57da2a96c91e
 ms.date: 12/05/2018
 ms.keywords: Wow64GetThreadSelectorEntry, Wow64GetThreadSelectorEntry function, base.wow64getthreadselectorentry, winbase/Wow64GetThreadSelectorEntry
-ms.topic: function
 f1_keywords:
 - winbase/Wow64GetThreadSelectorEntry
 dev_langs:

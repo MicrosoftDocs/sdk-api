@@ -7,7 +7,6 @@ tech.root: directdraw
 ms.assetid: 4bab0d24-ab11-46fb-92de-060f6afe1fde
 ms.date: 12/05/2018
 ms.keywords: GetVerticalBlankStatus, GetVerticalBlankStatus method [DirectDraw], GetVerticalBlankStatus method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetVerticalBlankStatus method, IDirectDraw7.GetVerticalBlankStatus, IDirectDraw7::GetVerticalBlankStatus, ddraw/IDirectDraw7::GetVerticalBlankStatus, directdraw.idirectdraw7_getverticalblankstatus
-ms.topic: method
 f1_keywords:
 - ddraw/IDirectDraw7.GetVerticalBlankStatus
 dev_langs:

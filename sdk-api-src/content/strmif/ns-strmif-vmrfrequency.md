@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: fb4c094a-2760-45b2-b494-a44d5493987f
 ms.date: 12/05/2018
 ms.keywords: VMRFrequency, VMRFrequency structure [DirectShow], VMRFrequencyStructure, dshow.vmrfrequency, strmif/VMRFrequency
-ms.topic: struct
 f1_keywords:
 - strmif/VMRFrequency
 dev_langs:

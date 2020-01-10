@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: AD80B59A-AF86-4BCB-9360-D49E4337E020
 ms.date: 12/05/2018
 ms.keywords: GetSimpleColorProfile, GetSimpleColorProfile method [Direct2D], GetSimpleColorProfile method [Direct2D],ID2D1ColorContext1 interface, ID2D1ColorContext1 interface [Direct2D],GetSimpleColorProfile method, ID2D1ColorContext1.GetSimpleColorProfile, ID2D1ColorContext1::GetSimpleColorProfile, d2d1_3/ID2D1ColorContext1::GetSimpleColorProfile, direct2d.id2d1colorcontext1_getsimplecolorprofile
-ms.topic: method
 f1_keywords:
 - d2d1_3/ID2D1ColorContext1.GetSimpleColorProfile
 dev_langs:

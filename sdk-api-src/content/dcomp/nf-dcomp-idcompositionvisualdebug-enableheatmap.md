@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 9512959B-561F-4B43-9C7E-37174CC642EB
 ms.date: 12/05/2018
 ms.keywords: EnableHeatMap, EnableHeatMap method [DirectComposition], EnableHeatMap method [DirectComposition],IDCompositionVisualDebug interface, IDCompositionVisualDebug interface [DirectComposition],EnableHeatMap method, IDCompositionVisualDebug.EnableHeatMap, IDCompositionVisualDebug::EnableHeatMap, dcomp/IDCompositionVisualDebug::EnableHeatMap, directcomp.idcompositionvisualdebug_enableheatmap
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionVisualDebug.EnableHeatMap
 dev_langs:

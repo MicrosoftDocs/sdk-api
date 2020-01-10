@@ -7,7 +7,6 @@ tech.root: wcn
 ms.assetid: a092406d-7af4-436d-9755-5a9b87aa6ca9
 ms.date: 12/05/2018
 ms.keywords: IWCNDevice, IWCNDevice interface [Windows Connect Now], IWCNDevice interface [Windows Connect Now],described, wcn.iwcndevice, wcndevice/IWCNDevice
-ms.topic: interface
 f1_keywords:
 - wcndevice/IWCNDevice
 dev_langs:

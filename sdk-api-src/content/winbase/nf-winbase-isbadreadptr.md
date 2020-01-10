@@ -7,7 +7,6 @@ tech.root: Memory
 ms.assetid: c1561403-2b77-4c93-80f1-261f26629d4b
 ms.date: 12/05/2018
 ms.keywords: IsBadReadPtr, IsBadReadPtr function, _win32_isbadreadptr, base.isbadreadptr, winbase/IsBadReadPtr
-ms.topic: function
 f1_keywords:
 - winbase/IsBadReadPtr
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 80a32132-a032-452f-9438-52a1eb280fdf
 ms.date: 12/05/2018
 ms.keywords: DhcpV6GetStatelessStoreParams, DhcpV6GetStatelessStoreParams function [DHCP], dhcp.dhcpv6getstatelessstoreparams, dhcpsapi/DhcpV6GetStatelessStoreParams
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV6GetStatelessStoreParams
 dev_langs:

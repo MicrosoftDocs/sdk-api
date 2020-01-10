@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 5a8a6b2a-6a04-4505-b4be-ec10e1e5effe
 ms.date: 12/05/2018
 ms.keywords: IWMRegisteredDevice interface [windows Media Format],IsOpened method, IWMRegisteredDevice.IsOpened, IWMRegisteredDevice::IsOpened, IWMRegisteredDeviceIsOpened, IsOpened, IsOpened method [windows Media Format], IsOpened method [windows Media Format],IWMRegisteredDevice interface, wmformat.iwmregistereddevice_isopened, wmsdkidl/IWMRegisteredDevice::IsOpened
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMRegisteredDevice.IsOpened
 dev_langs:

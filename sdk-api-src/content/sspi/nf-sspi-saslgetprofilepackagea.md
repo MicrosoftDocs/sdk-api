@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: b7cecc5f-775f-40ba-abfc-27d51b3f5395
 ms.date: 12/05/2018
 ms.keywords: SaslGetProfilePackage, SaslGetProfilePackage function [Security], SaslGetProfilePackageA, SaslGetProfilePackageW, security.saslgetprofilepackage, sspi/SaslGetProfilePackage, sspi/SaslGetProfilePackageA, sspi/SaslGetProfilePackageW
-ms.topic: function
 f1_keywords:
 - sspi/SaslGetProfilePackage
 dev_langs:

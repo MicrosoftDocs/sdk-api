@@ -7,7 +7,6 @@ tech.root: directmanipulation
 ms.assetid: f8a2fbb2-f662-4eb7-88fb-64286205f19e
 ms.date: 12/05/2018
 ms.keywords: CreateContent, CreateContent method [Direct Manipulation], CreateContent method [Direct Manipulation],IDirectManipulationManager interface, IDirectManipulationManager interface [Direct Manipulation],CreateContent method, IDirectManipulationManager.CreateContent, IDirectManipulationManager::CreateContent, directmanipulation.idirectmanipulationmanager_createcontent, directmanipulation/IDirectManipulationManager::CreateContent
-ms.topic: method
 f1_keywords:
 - directmanipulation/IDirectManipulationManager.CreateContent
 dev_langs:

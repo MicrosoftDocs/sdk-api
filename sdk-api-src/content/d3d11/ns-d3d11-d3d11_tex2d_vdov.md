@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: A25BB0AA-8CC9-4DA0-B4BE-8C107E9203F0
 ms.date: 12/05/2018
 ms.keywords: D3D11_TEX2D_VDOV, D3D11_TEX2D_VDOV structure [Media Foundation], d3d11/D3D11_TEX2D_VDOV, mf.d3d11_tex2d_vdov
-ms.topic: struct
 f1_keywords:
 - d3d11/D3D11_TEX2D_VDOV
 dev_langs:

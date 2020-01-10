@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: ae0253f2-30cd-46d0-b9e9-f2cb878c1ff3
 ms.date: 12/05/2018
 ms.keywords: GetVersion, GetVersion method [windows Media Device Manager], GetVersion method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetVersion method, IWMDMDevice.GetVersion, IWMDMDevice::GetVersion, IWMDMDeviceGetVersion, mswmdm/IWMDMDevice::GetVersion, wmdm.iwmdmdevice_getversion
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMDevice.GetVersion
 dev_langs:

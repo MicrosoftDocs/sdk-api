@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: a3c59eb2-6808-453b-b0f7-12d0e6b358ae
 ms.date: 12/05/2018
 ms.keywords: VarUI4FromBool, VarUI4FromBool function [Automation], _oa96_VarUI4FromBool, automat.varui4frombool, oleauto/VarUI4FromBool
-ms.topic: function
 f1_keywords:
 - oleauto/VarUI4FromBool
 dev_langs:

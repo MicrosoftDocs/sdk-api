@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: f30fdfb6-dc7e-47fd-93ad-36655e65d0ae
 ms.date: 12/05/2018
 ms.keywords: LT_DONT_CARE, LT_LOWEST_LATENCY, RequestWakeupLatency, RequestWakeupLatency function, _win32_requestwakeuplatency, base.requestwakeuplatency, winbase/RequestWakeupLatency
-ms.topic: function
 f1_keywords:
 - winbase/RequestWakeupLatency
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorCeiling(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorCeiling, XMVectorCeiling, XMVectorCeiling method [DirectX Math Support APIs], dxmath.xmvectorceiling
-ms.topic: function
 f1_keywords:
 - directxmath/XMVectorCeiling
 dev_langs:

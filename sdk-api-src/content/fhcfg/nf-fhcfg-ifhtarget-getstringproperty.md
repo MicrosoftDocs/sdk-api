@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: DC5FE023-FA6E-4B97-AD9D-830975A17159
 ms.date: 12/05/2018
 ms.keywords: GetStringProperty, GetStringProperty method [Windows API], GetStringProperty method [Windows API],IFhTarget interface, IFhTarget interface [Windows API],GetStringProperty method, IFhTarget.GetStringProperty, IFhTarget::GetStringProperty, fhcfg/IFhTarget::GetStringProperty, winprog.ifhtarget_getstringproperty
-ms.topic: method
 f1_keywords:
 - fhcfg/IFhTarget.GetStringProperty
 dev_langs:

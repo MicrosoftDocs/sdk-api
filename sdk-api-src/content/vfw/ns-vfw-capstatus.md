@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 65ad6e33-c601-4026-a5a4-2c68576d7ab7
 ms.date: 12/05/2018
 ms.keywords: '*LPCAPSTATUS, *PCAPSTATUS, CAPSTATUS, CAPSTATUS structure [Windows Multimedia], _win32_CAPSTATUS_str, multimedia.capstatus, vfw/CAPSTATUS'
-ms.topic: struct
 f1_keywords:
 - vfw/CAPSTATUS
 dev_langs:

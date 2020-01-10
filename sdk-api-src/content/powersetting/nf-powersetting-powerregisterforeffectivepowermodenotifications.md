@@ -7,7 +7,6 @@ tech.root: power
 ms.assetid: 3C87643F-A8DA-4230-A216-8F46629BB6FB
 ms.date: 12/05/2018
 ms.keywords: PowerRegisterForEffectivePowerModeNotifications, PowerRegisterForEffectivePowerModeNotifications function, base.powerregisterforeffectivepowermodenotifications, powersetting/PowerRegisterForEffectivePowerModeNotifications
-ms.topic: function
 f1_keywords:
 - powersetting/PowerRegisterForEffectivePowerModeNotifications
 dev_langs:

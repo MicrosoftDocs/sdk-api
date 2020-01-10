@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: eb80020b-caf8-4d85-b250-d9a8738b8848
 ms.date: 12/05/2018
 ms.keywords: AssociateTargets, AssociateTargets method [VDS], AssociateTargets method [VDS],IVdsLunIscsi interface, IVdsLunIscsi interface [VDS],AssociateTargets method, IVdsLunIscsi.AssociateTargets, IVdsLunIscsi::AssociateTargets, base.ivdsluniscsi_associatetargets, vds/IVdsLunIscsi::AssociateTargets, vdshwprv/IVdsLunIscsi::AssociateTargets
-ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsLunIscsi.AssociateTargets
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpool_aseffect.htm
 ms.date: 12/05/2018
 ms.keywords: 77fbf257-12dc-9f58-d996-7dcb8ec3efff, AsEffect, AsEffect method [Direct3D 10], AsEffect method [Direct3D 10],ID3D10EffectPool interface, ID3D10EffectPool interface [Direct3D 10],AsEffect method, ID3D10EffectPool.AsEffect, ID3D10EffectPool::AsEffect, d3d10effect/ID3D10EffectPool::AsEffect, direct3d10.id3d10effectpool_aseffect
-ms.topic: method
 f1_keywords:
 - d3d10effect/ID3D10EffectPool.AsEffect
 dev_langs:

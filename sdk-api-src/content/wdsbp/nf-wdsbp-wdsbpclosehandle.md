@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: b35ec3e2-7dd5-4e17-b657-72bafe91921a
 ms.date: 12/05/2018
 ms.keywords: WdsBpCloseHandle, WdsBpCloseHandle function [Windows Deployment Services], wds.wdsbpclosehandle, wdsbp/WdsBpCloseHandle
-ms.topic: function
 f1_keywords:
 - wdsbp/WdsBpCloseHandle
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 1ab4e6bb-0aba-4115-b068-171aaf0b7cef
 ms.date: 12/05/2018
 ms.keywords: GetLocale, GetLocale method [Failover Cluster], GetLocale method [Failover Cluster],IGetClusterUIInfo interface, IGetClusterUIInfo interface [Failover Cluster],GetLocale method, IGetClusterUIInfo.GetLocale, IGetClusterUIInfo::GetLocale, _wolf_igetclusteruiinfo_getlocale, cluadmex/IGetClusterUIInfo::GetLocale, mscs.igetclusteruiinfo_getlocale
-ms.topic: method
 f1_keywords:
 - cluadmex/IGetClusterUIInfo.GetLocale
 dev_langs:

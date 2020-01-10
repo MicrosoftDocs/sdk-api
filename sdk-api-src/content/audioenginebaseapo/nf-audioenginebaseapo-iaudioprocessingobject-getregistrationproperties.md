@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: A0D0BAA9-7942-4952-AC9D-087EE7FE6DD0
 ms.date: 12/05/2018
 ms.keywords: GetRegistrationProperties, GetRegistrationProperties method [Audio Devices], GetRegistrationProperties method [Audio Devices],IAudioProcessingObject interface, IAudioProcessingObject interface [Audio Devices],GetRegistrationProperties method, IAudioProcessingObject.GetRegistrationProperties, IAudioProcessingObject::GetRegistrationProperties, audio.iaudioprocessingobject_getregistrationproperties, audioenginebaseapo/IAudioProcessingObject::GetRegistrationProperties
-ms.topic: method
 f1_keywords:
 - audioenginebaseapo/IAudioProcessingObject.GetRegistrationProperties
 dev_langs:

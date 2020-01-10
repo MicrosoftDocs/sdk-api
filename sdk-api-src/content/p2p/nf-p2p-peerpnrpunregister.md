@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: ac032cfb-b1d4-4fe0-8d27-7d378aaa6aff
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpUnregister, PeerPnrpUnregister function [Peer Networking], p2p.peerpnrpunregister, p2p/PeerPnrpUnregister
-ms.topic: function
 f1_keywords:
 - p2p/PeerPnrpUnregister
 dev_langs:

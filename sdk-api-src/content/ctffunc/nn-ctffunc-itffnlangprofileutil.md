@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 42dd534d-9786-4276-b227-fee2d58806b7
 ms.date: 12/05/2018
 ms.keywords: ITfFnLangProfileUtil, ITfFnLangProfileUtil interface [Text Services Framework], ITfFnLangProfileUtil interface [Text Services Framework],described, _tsf_itffnlangprofileutil_ref, ctffunc/ITfFnLangProfileUtil, tsf.itffnlangprofileutil
-ms.topic: interface
 f1_keywords:
 - ctffunc/ITfFnLangProfileUtil
 dev_langs:

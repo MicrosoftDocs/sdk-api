@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 6A544E15-BB92-48C3-963D-789B04464277
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestDeviceCapabilitiesEnumerator, IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management], IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management],described, appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator, appxpkg.iappxmanifestdevicecapabilitiesenumerator
-ms.topic: interface
 f1_keywords:
 - appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator
 dev_langs:

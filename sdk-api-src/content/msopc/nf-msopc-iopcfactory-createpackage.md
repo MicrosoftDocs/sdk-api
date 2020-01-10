@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 9cd4ef3a-f890-40d5-a398-cb8f9746c380
 ms.date: 12/05/2018
 ms.keywords: CreatePackage, CreatePackage method [Open Packaging Conventions], CreatePackage method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreatePackage method, IOpcFactory.CreatePackage, IOpcFactory::CreatePackage, msopc/IOpcFactory::CreatePackage, opc.iopcfactory_createpackage
-ms.topic: method
 f1_keywords:
 - msopc/IOpcFactory.CreatePackage
 dev_langs:

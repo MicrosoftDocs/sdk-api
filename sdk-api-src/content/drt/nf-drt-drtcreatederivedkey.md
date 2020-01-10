@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 069358e0-4b61-44ed-b235-37f1d038feff
 ms.date: 12/05/2018
 ms.keywords: DrtCreateDerivedKey, DrtCreateDerivedKey function [Peer Networking], drt/DrtCreateDerivedKey, p2p.drtcreatederivedkey
-ms.topic: function
 f1_keywords:
 - drt/DrtCreateDerivedKey
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SysInfo
 ms.assetid: 294a1d28-d09f-44a3-8bc0-6fae50c3a8f8
 ms.date: 12/05/2018
 ms.keywords: RegDisableReflectionKey, RegDisableReflectionKey function, base.regdisablereflectionkey, winreg/RegDisableReflectionKey
-ms.topic: function
 f1_keywords:
 - winreg/RegDisableReflectionKey
 dev_langs:

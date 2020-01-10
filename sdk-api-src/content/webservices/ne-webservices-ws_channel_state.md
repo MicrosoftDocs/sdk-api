@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 3a7f5bbd-e484-4a7e-8e5d-df229a7227a5
 ms.date: 12/05/2018
 ms.keywords: WS_CHANNEL_STATE, WS_CHANNEL_STATE enumeration [Web Services for Windows], WS_CHANNEL_STATE_ACCEPTING, WS_CHANNEL_STATE_CLOSED, WS_CHANNEL_STATE_CLOSING, WS_CHANNEL_STATE_CREATED, WS_CHANNEL_STATE_FAULTED, WS_CHANNEL_STATE_OPEN, WS_CHANNEL_STATE_OPENING, webservices/WS_CHANNEL_STATE, webservices/WS_CHANNEL_STATE_ACCEPTING, webservices/WS_CHANNEL_STATE_CLOSED, webservices/WS_CHANNEL_STATE_CLOSING, webservices/WS_CHANNEL_STATE_CREATED, webservices/WS_CHANNEL_STATE_FAULTED, webservices/WS_CHANNEL_STATE_OPEN, webservices/WS_CHANNEL_STATE_OPENING, wsw.ws_channel_state
-ms.topic: enum
 f1_keywords:
 - webservices/WS_CHANNEL_STATE
 dev_langs:

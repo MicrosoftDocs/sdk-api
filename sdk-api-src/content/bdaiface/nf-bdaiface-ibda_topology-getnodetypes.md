@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 6912cd69-76c2-4dae-bda3-42139acffe4c
 ms.date: 12/05/2018
 ms.keywords: GetNodeTypes, GetNodeTypes method [Microsoft TV Technologies], GetNodeTypes method [Microsoft TV Technologies],IBDA_Topology interface, IBDA_Topology interface [Microsoft TV Technologies],GetNodeTypes method, IBDA_Topology.GetNodeTypes, IBDA_Topology::GetNodeTypes, IBDA_TopologyGetNodeTypes, bdaiface/IBDA_Topology::GetNodeTypes, mstv.ibda_topology_getnodetypes
-ms.topic: method
 f1_keywords:
 - bdaiface/IBDA_Topology.GetNodeTypes
 dev_langs:

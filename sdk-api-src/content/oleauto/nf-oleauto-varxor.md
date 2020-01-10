@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: 5a9ebe42-07a0-4bb8-afb7-24d18ce32768
 ms.date: 12/05/2018
 ms.keywords: VarXor, VarXor function [Automation], _oa96_VarXor, automat.varxor, oleauto/VarXor
-ms.topic: function
 f1_keywords:
 - oleauto/VarXor
 dev_langs:

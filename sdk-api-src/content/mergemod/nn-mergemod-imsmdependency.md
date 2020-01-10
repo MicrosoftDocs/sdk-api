@@ -7,7 +7,6 @@ tech.root: Msi
 ms.assetid: 517cf174-418a-4717-a25f-1736225016a1
 ms.date: 12/05/2018
 ms.keywords: IMsmDependency, IMsmDependency interface, IMsmDependency interface,described, mergemod/IMsmDependency, setup.imsmdependency_interface
-ms.topic: interface
 f1_keywords:
 - mergemod/IMsmDependency
 dev_langs:

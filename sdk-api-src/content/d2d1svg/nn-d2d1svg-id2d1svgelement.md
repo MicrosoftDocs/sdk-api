@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 19099DC9-EA14-41C5-A9DF-5EBB12696C79
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgElement, ID2D1SvgElement interface [Direct2D], ID2D1SvgElement interface [Direct2D],described, d2d1svg/ID2D1SvgElement, direct2d.id2d1svgelement
-ms.topic: interface
 f1_keywords:
 - d2d1svg/ID2D1SvgElement
 dev_langs:

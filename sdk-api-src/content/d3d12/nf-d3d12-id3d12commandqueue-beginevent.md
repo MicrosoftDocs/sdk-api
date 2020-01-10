@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 09586D24-6D52-49BA-B6C0-793219FAE80C
 ms.date: 12/05/2018
 ms.keywords: BeginEvent, BeginEvent method, BeginEvent method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,BeginEvent method, ID3D12CommandQueue.BeginEvent, ID3D12CommandQueue::BeginEvent, d3d12/ID3D12CommandQueue::BeginEvent, direct3d12.id3d12commandqueue_beginevent
-ms.topic: method
 f1_keywords:
 - d3d12/ID3D12CommandQueue.BeginEvent
 dev_langs:

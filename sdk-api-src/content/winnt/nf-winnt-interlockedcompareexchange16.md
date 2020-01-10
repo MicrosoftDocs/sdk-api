@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: 5bf2e0d7-1b64-4622-8b6f-4ac903027064
 ms.date: 12/05/2018
 ms.keywords: InterlockedCompareExchange16, InterlockedCompareExchange16 function, base.interlockedcompareexchange16, winnt/InterlockedCompareExchange16
-ms.topic: function
 f1_keywords:
 - winnt/InterlockedCompareExchange16
 dev_langs:

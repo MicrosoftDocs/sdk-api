@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxgetviewinset.htm
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetViewInset method, ITextHost.TxGetViewInset, ITextHost::TxGetViewInset, TxGetViewInset, TxGetViewInset method [Windows Controls], TxGetViewInset method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetViewInset, _win32_ITextHost_TxGetViewInset_cpp, controls.ITextHost_TxGetViewInset, controls._win32_ITextHost_TxGetViewInset, textserv/ITextHost::TxGetViewInset
-ms.topic: method
 f1_keywords:
 - textserv/ITextHost.TxGetViewInset
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Sync
 ms.assetid: bb6331b0-88cb-4695-b159-6e8750440a69
 ms.date: 12/05/2018
 ms.keywords: CreatePrivateNamespace, CreatePrivateNamespace function, CreatePrivateNamespaceA, CreatePrivateNamespaceW, base.createprivatenamespace, winbase/CreatePrivateNamespace, winbase/CreatePrivateNamespaceA, winbase/CreatePrivateNamespaceW
-ms.topic: function
 f1_keywords:
 - winbase/CreatePrivateNamespace
 dev_langs:

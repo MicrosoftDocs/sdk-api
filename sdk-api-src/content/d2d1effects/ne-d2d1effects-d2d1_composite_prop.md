@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: E3A521E9-20BC-4F82-A673-1BC854D2E297
 ms.date: 12/05/2018
 ms.keywords: D2D1_COMPOSITE_PROP, D2D1_COMPOSITE_PROP enumeration [Direct2D], D2D1_COMPOSITE_PROP_MODE, d2d1effects/D2D1_COMPOSITE_PROP, d2d1effects/D2D1_COMPOSITE_PROP_MODE, direct2d.d2d1_composite_prop
-ms.topic: enum
 f1_keywords:
 - d2d1effects/D2D1_COMPOSITE_PROP
 dev_langs:

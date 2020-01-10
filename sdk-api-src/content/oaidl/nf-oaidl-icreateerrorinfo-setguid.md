@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: f7570ba3-d738-40d3-aefc-fbf6f4ca633e
 ms.date: 12/05/2018
 ms.keywords: ICreateErrorInfo interface [Automation],SetGUID method, ICreateErrorInfo.SetGUID, ICreateErrorInfo::SetGUID, SetGUID, SetGUID method [Automation], SetGUID method [Automation],ICreateErrorInfo interface, _oa96_ICreateErrorInfo_SetGUID, automat.icreateerrorinfo_setguid, oaidl/ICreateErrorInfo::SetGUID
-ms.topic: method
 f1_keywords:
 - oaidl/ICreateErrorInfo.SetGUID
 dev_langs:

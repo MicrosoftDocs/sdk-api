@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: d80d59c0-7694-4cc6-9887-2fec7186f32e
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accChildCount method, IAccessible.get_accChildCount, IAccessible::get_accChildCount, _msaa_IAccessible_get_accChildCount, get_accChildCount, get_accChildCount method [Windows Accessibility], get_accChildCount method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accchildcount, oleacc/IAccessible::get_accChildCount, winauto.iaccessible_iaccessible__get_accchildcount
-ms.topic: method
 f1_keywords:
 - oleacc/IAccessible.get_accChildCount
 dev_langs:

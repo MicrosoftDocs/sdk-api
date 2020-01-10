@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\setoutputchannelcolorprofile.htm
 ms.date: 12/05/2018
 ms.keywords: ImageAttributes class [GDI+],SetOutputChannelColorProfile method, ImageAttributes.SetOutputChannelColorProfile, ImageAttributes::SetOutputChannelColorProfile, SetOutputChannelColorProfile, SetOutputChannelColorProfile method [GDI+], SetOutputChannelColorProfile method [GDI+],ImageAttributes class, _gdiplus_CLASS_ImageAttributes_SetOutputChannelColorProfile_colorProfileFilename_type_, gdiplus._gdiplus_CLASS_ImageAttributes_SetOutputChannelColorProfile_colorProfileFilename_type_
-ms.topic: method
 f1_keywords:
 - gdiplusimageattributes/ImageAttributes.SetOutputChannelColorProfile
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\paste.htm
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],Paste method, ITextRange.Paste, ITextRange::Paste, Paste, Paste method [Windows Controls], Paste method [Windows Controls],ITextRange interface, _win32_ITextRange_Paste, _win32_ITextRange_Paste_cpp, controls.ITextRange_Paste, controls._win32_ITextRange_Paste, tom/ITextRange::Paste
-ms.topic: method
 f1_keywords:
 - tom/ITextRange.Paste
 dev_langs:

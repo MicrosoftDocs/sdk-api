@@ -7,7 +7,6 @@ tech.root: FileIO
 ms.assetid: eb3d8546-6280-4e4b-8ca4-3697b9339d86
 ms.date: 12/05/2018
 ms.keywords: LZSeek, LZSeek function [Files], _win32_lzseek, base.lzseek, fs.lzseek, lzexpand/LZSeek
-ms.topic: function
 f1_keywords:
 - lzexpand/LZSeek
 dev_langs:

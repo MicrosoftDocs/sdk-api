@@ -7,7 +7,6 @@ tech.root: QOS
 ms.assetid: e6fbaa17-6b4b-45a2-baf7-898864a797b7
 ms.date: 12/05/2018
 ms.keywords: TcEnumerateInterfaces, TcEnumerateInterfaces function [QOS], _gqos_tcenumerateinterfaces, qos.tcenumerateinterfaces, traffic/TcEnumerateInterfaces
-ms.topic: function
 f1_keywords:
 - traffic/TcEnumerateInterfaces
 dev_langs:

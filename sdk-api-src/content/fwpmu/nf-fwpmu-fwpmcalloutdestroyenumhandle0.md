@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 6aa41eed-b53c-4b35-a45c-88f89086cacc
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutDestroyEnumHandle0, FwpmCalloutDestroyEnumHandle0 function [Filtering], fwp.fwpmcalloutdestroyenumhandle0_func, fwpmu/FwpmCalloutDestroyEnumHandle0
-ms.topic: function
 f1_keywords:
 - fwpmu/FwpmCalloutDestroyEnumHandle0
 dev_langs:

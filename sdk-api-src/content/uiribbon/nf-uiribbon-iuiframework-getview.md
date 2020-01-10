@@ -7,7 +7,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\getview.htm
 ms.date: 12/05/2018
 ms.keywords: GetView, GetView method [Windows Ribbon], GetView method [Windows Ribbon],IUIFramework interface, IUIFramework interface [Windows Ribbon],GetView method, IUIFramework.GetView, IUIFramework::GetView, scenicintent_IUIFramework_GetView, uiribbon/IUIFramework::GetView, windowsribbon.windowsribbon_iuiframework_getview
-ms.topic: method
 f1_keywords:
 - uiribbon/IUIFramework.GetView
 dev_langs:

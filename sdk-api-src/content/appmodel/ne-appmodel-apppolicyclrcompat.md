@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: 2653340E-FCDD-41B7-B72C-F99C92920645
 ms.date: 12/05/2018
 ms.keywords: AppPolicyClrCompat, AppPolicyClrCompat enumeration [App packaging and management], AppPolicyClrCompat_ClassicDesktop, AppPolicyClrCompat_Other, AppPolicyClrCompat_PackagedDesktop, AppPolicyClrCompat_Universal, appmodel/AppPolicyClrCompat, appmodel/AppPolicyClrCompat_ClassicDesktop, appmodel/AppPolicyClrCompat_Other, appmodel/AppPolicyClrCompat_PackagedDesktop, appmodel/AppPolicyClrCompat_Universal, appxpkg.apppolicyclrcompat
-ms.topic: enum
 f1_keywords:
 - appmodel/AppPolicyClrCompat
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: f3f9111d-9191-4ba5-877a-736e11d0a168
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],FindOneOf method, CHString.FindOneOf, CHString::FindOneOf, FindOneOf, FindOneOf method [Windows Management Instrumentation], FindOneOf method [Windows Management Instrumentation],CHString interface, _hmm_chstring_findoneof, chstring/CHString::FindOneOf, wmi.chstring_findoneof
-ms.topic: method
 f1_keywords:
 - chstring/CHString.FindOneOf
 dev_langs:

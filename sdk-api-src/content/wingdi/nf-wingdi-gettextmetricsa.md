@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 92d45a3b-12df-42ff-8d87-5c27b44dc481
 ms.date: 12/05/2018
 ms.keywords: GetTextMetrics, GetTextMetrics function [Windows GDI], GetTextMetricsA, GetTextMetricsW, _win32_GetTextMetrics, gdi.gettextmetrics, wingdi/GetTextMetrics, wingdi/GetTextMetricsA, wingdi/GetTextMetricsW
-ms.topic: function
 f1_keywords:
 - wingdi/GetTextMetrics
 dev_langs:

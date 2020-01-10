@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: aaf6bc07-8ce9-41f7-b468-971b31b51a86
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher interface,UnRegisterNotificationSink method, IWSDiscoveryPublisher.UnRegisterNotificationSink, IWSDiscoveryPublisher::UnRegisterNotificationSink, UnRegisterNotificationSink, UnRegisterNotificationSink method, UnRegisterNotificationSink method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_unregisternotificationsink_method, wsddisco/IWSDiscoveryPublisher::UnRegisterNotificationSink
-ms.topic: method
 f1_keywords:
 - wsddisco/IWSDiscoveryPublisher.UnRegisterNotificationSink
 dev_langs:

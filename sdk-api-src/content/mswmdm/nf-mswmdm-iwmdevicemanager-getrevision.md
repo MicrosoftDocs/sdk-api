@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 3ecb84cc-eaa5-436c-b5f1-50705462b88b
 ms.date: 12/05/2018
 ms.keywords: GetRevision, GetRevision method [windows Media Device Manager], GetRevision method [windows Media Device Manager],IWMDeviceManager interface, IWMDeviceManager interface [windows Media Device Manager],GetRevision method, IWMDeviceManager.GetRevision, IWMDeviceManager::GetRevision, IWMDeviceManagerGetRevision, mswmdm/IWMDeviceManager::GetRevision, wmdm.iwmdevicemanager_getrevision
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDeviceManager.GetRevision
 dev_langs:

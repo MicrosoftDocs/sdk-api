@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: e1aa6775-d1e5-4463-ae0f-32c0498881e1
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyCallback, IBackgroundCopyCallback interface [BITS], IBackgroundCopyCallback interface [BITS],described, _drz_ibackgroundcopycallback, bits.ibackgroundcopycallback, bits/IBackgroundCopyCallback
-ms.topic: interface
 f1_keywords:
 - bits/IBackgroundCopyCallback
 dev_langs:

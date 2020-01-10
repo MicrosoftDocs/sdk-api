@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 831e1259-df2b-4b03-8336-706727fd7b14
 ms.date: 12/05/2018
 ms.keywords: INetworkSettings, INetworkSettings interface [Task Scheduler], INetworkSettings interface [Task Scheduler],described, taskschd.inetworksettings, taskschd/INetworkSettings
-ms.topic: interface
 f1_keywords:
 - taskschd/INetworkSettings
 dev_langs:

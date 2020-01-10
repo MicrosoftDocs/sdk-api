@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 0e313c61-6482-4396-b4b8-824fba0226ac
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronize interface [Windows Shell],ShowError method, ISyncMgrSynchronize.ShowError, ISyncMgrSynchronize::ShowError, ShowError, ShowError method [Windows Shell], ShowError method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::ShowError, shell.syncmgr_isyncmgrsynchronize_showerror, syncmgr.isyncmgrsynchronize_showerror
-ms.topic: method
 f1_keywords:
 - mobsync/ISyncMgrSynchronize.ShowError
 dev_langs:

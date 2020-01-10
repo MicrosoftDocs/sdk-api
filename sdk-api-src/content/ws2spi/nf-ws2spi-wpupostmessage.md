@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: f4241941-c39f-441e-aad4-b84f2f8ed828
 ms.date: 12/05/2018
 ms.keywords: WPUPostMessage, WPUPostMessage function [Winsock], _win32_wpupostmessage_2, winsock.wpupostmessage_2, ws2spi/WPUPostMessage
-ms.topic: function
 f1_keywords:
 - ws2spi/WPUPostMessage
 dev_langs:

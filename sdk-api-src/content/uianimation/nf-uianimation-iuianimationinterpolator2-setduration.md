@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: C1E6EC87-283A-4C56-96C5-531C5C5F5575
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationInterpolator2 interface [Windows Animation],SetDuration method, IUIAnimationInterpolator2.SetDuration, IUIAnimationInterpolator2::SetDuration, SetDuration, SetDuration method [Windows Animation], SetDuration method [Windows Animation],IUIAnimationInterpolator2 interface, uianimation.iuianimationinterpolator2_setduration, uianimation/IUIAnimationInterpolator2::SetDuration
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationInterpolator2.SetDuration
 dev_langs:

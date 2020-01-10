@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: 36d415f8-0bb9-4825-aa01-c42c5c91564f
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetHeartbeatInterval, MI_SubscriptionDeliveryOptions_GetHeartbeatInterval function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetHeartbeatInterval, wmi_v2.mi_subscriptiondeliveryoptions_getheartbeatinterval
-ms.topic: function
 f1_keywords:
 - mi/MI_SubscriptionDeliveryOptions_GetHeartbeatInterval
 dev_langs:

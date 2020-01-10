@@ -7,7 +7,6 @@ tech.root: SecMgmt
 ms.assetid: 6B30D1FF-35DC-44E8-A765-36A5761EC0CE
 ms.date: 12/05/2018
 ms.keywords: LSA_LOOKUP_DISALLOW_CONNECTED_ACCOUNT_INTERNET_SID, LSA_LOOKUP_PREFER_INTERNET_NAMES, LSA_LOOKUP_RETURN_LOCAL_NAMES, LsaLookupSids2, LsaLookupSids2 function [Security], ntsecapi/LsaLookupSids2, security.lsalookupsids2
-ms.topic: function
 f1_keywords:
 - ntsecapi/LsaLookupSids2
 dev_langs:

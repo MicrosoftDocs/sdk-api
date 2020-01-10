@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: FD1A62C6-069E-40D1-A009-78C157E08F20
 ms.date: 12/05/2018
 ms.keywords: GetActivationFactory, GetActivationFactory function [Windows Runtime], WinRTGetActivationFactory, roapi/GetActivationFactory, roapi/WinRTGetActivationFactory, winrt.getactivationfactory
-ms.topic: function
 f1_keywords:
 - roapi/GetActivationFactory
 dev_langs:

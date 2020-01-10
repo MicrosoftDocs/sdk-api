@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 4f4ec7d9-da77-4d34-89aa-a73250c0e610
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPage1, IXpsOMPage1 interface [XPS Documents and Packaging], IXpsOMPage1 interface [XPS Documents and Packaging],described, xps.ixpsompage1, xpsobjectmodel_1/IXpsOMPage1
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel_1/IXpsOMPage1
 dev_langs:

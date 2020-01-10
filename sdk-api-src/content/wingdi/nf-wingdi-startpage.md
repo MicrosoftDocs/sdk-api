@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: b2bc0593-5eaf-40af-aa38-fbdfa1ea5f76
 ms.date: 12/05/2018
 ms.keywords: StartPage, StartPage function [Windows GDI], _win32_StartPage, gdi.startpage, wingdi/StartPage
-ms.topic: function
 f1_keywords:
 - wingdi/StartPage
 dev_langs:

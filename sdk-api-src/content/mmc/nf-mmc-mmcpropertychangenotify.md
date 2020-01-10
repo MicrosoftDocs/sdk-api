@@ -7,7 +7,6 @@ tech.root: mmc
 ms.assetid: f563a6dd-22e7-4839-bd44-1702ab3e17a3
 ms.date: 12/05/2018
 ms.keywords: MMCPropertyChangeNotify, MMCPropertyChangeNotify callback, MMCPropertyChangeNotify callback function [MMC], _slate_mmcpropertychangenotify, mmc.mmcpropertychangenotify, mmc/MMCPropertyChangeNotify
-ms.topic: function
 f1_keywords:
 - mmc/MMCPropertyChangeNotify
 dev_langs:

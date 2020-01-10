@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 63b62f03-1973-41af-b6a4-e1bcb6ab803f
 ms.date: 12/05/2018
 ms.keywords: AM_STREAM_INFO, AM_STREAM_INFO structure [DirectShow], AM_STREAM_INFOStructure, dshow.am_stream_info, strmif/AM_STREAM_INFO
-ms.topic: struct
 f1_keywords:
 - strmif/AM_STREAM_INFO
 dev_langs:

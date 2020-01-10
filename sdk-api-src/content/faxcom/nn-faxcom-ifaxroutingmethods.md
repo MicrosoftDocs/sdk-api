@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6smr.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxRoutingMethods, IFaxRoutingMethods interface [Fax Service], IFaxRoutingMethods interface [Fax Service],described, _mfax_ifaxroutingmethods, fax._mfax_ifaxroutingmethods, faxcom/IFaxRoutingMethods
-ms.topic: interface
 f1_keywords:
 - faxcom/IFaxRoutingMethods
 dev_langs:

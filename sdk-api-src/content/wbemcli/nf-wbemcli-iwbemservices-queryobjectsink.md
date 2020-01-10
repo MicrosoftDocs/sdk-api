@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 218b42f2-838d-4d8f-98d2-9334ec29d279
 ms.date: 12/05/2018
 ms.keywords: IWbemServices interface [Windows Management Instrumentation],QueryObjectSink method, IWbemServices.QueryObjectSink, IWbemServices::QueryObjectSink, QueryObjectSink, QueryObjectSink method [Windows Management Instrumentation], QueryObjectSink method [Windows Management Instrumentation],IWbemServices interface, _hmm_iwbemservices_queryobjectsink, wbemcli/IWbemServices::QueryObjectSink, wmi.iwbemservices_queryobjectsink
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemServices.QueryObjectSink
 dev_langs:

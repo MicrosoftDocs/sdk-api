@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 4A3A96FB-A7C5-40BB-AB8F-12A7F00FDCD1
 ms.date: 12/05/2018
 ms.keywords: IMFHttpDownloadSessionProvider, IMFHttpDownloadSessionProvider interface [Media Foundation], IMFHttpDownloadSessionProvider interface [Media Foundation],described, mf.imfhttpdownloadsessionprovider, mfidl/IMFHttpDownloadSessionProvider
-ms.topic: interface
 f1_keywords:
 - mfidl/IMFHttpDownloadSessionProvider
 dev_langs:

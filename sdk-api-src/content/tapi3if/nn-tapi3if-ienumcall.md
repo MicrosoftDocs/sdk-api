@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 418c1005-98f0-406f-a85c-c08adb269b9f
 ms.date: 12/05/2018
 ms.keywords: IEnumCall, IEnumCall interface [TAPI 2.2], IEnumCall interface [TAPI 2.2],described, _tapi3_ienumcall, tapi3.ienumcall, tapi3if/IEnumCall
-ms.topic: interface
 f1_keywords:
 - tapi3if/IEnumCall
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: b9e47262-9e6f-4ddf-a74a-b7fa63983a5a
 ms.date: 12/05/2018
 ms.keywords: GetFramesPerPacket, GetFramesPerPacket method [Remote Desktop Services], GetFramesPerPacket method [Remote Desktop Services],IAudioEndpoint interface, IAudioEndpoint interface [Remote Desktop Services],GetFramesPerPacket method, IAudioEndpoint.GetFramesPerPacket, IAudioEndpoint::GetFramesPerPacket, audioengineendpoint/IAudioEndpoint::GetFramesPerPacket, termserv.iaudioendpoint_getframesperpacket
-ms.topic: method
 f1_keywords:
 - audioengineendpoint/IAudioEndpoint.GetFramesPerPacket
 dev_langs:

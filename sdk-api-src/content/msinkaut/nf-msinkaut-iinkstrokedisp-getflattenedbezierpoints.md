@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: e39e3fc3-bcdc-4d88-8051-18ed8b183c79
 ms.date: 12/05/2018
 ms.keywords: GetFlattenedBezierPoints, GetFlattenedBezierPoints method [Tablet PC], GetFlattenedBezierPoints method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],GetFlattenedBezierPoints method, IInkStrokeDisp.GetFlattenedBezierPoints, IInkStrokeDisp::GetFlattenedBezierPoints, e39e3fc3-bcdc-4d88-8051-18ed8b183c79, msinkaut/IInkStrokeDisp::GetFlattenedBezierPoints, tablet.iinkstrokedisp_getflattenedbezierpoints
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkStrokeDisp.GetFlattenedBezierPoints
 dev_langs:

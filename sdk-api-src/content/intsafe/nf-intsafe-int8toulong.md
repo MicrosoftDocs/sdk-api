@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: ce862097-24e5-403f-adef-6ec2816ee3db
 ms.date: 12/05/2018
 ms.keywords: Int8ToULong, Int8ToULong function [Windows Shell], intsafe/Int8ToULong, shell.Int8ToULong
-ms.topic: function
 f1_keywords:
 - intsafe/Int8ToULong
 dev_langs:

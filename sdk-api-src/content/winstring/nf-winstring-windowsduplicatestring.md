@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 65343F8A-ACD5-4BD2-83CD-DA9F71690DF3
 ms.date: 12/05/2018
 ms.keywords: WindowsDuplicateString, WindowsDuplicateString function [Windows Runtime], winrt.windowsduplicatestring, winstring/WindowsDuplicateString
-ms.topic: function
 f1_keywords:
 - winstring/WindowsDuplicateString
 dev_langs:

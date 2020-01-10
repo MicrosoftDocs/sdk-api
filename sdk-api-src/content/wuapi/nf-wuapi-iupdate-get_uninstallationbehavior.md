@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 12f35005-5dea-42c9-8c3b-eeb28bdd93b3
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],UninstallationBehavior property, IUpdate interface [Windows Update Services],UninstallationBehavior property, IUpdate.UninstallationBehavior, IUpdate.get_UninstallationBehavior, IUpdate::UninstallationBehavior, IUpdate::get_UninstallationBehavior, UninstallationBehavior, UninstallationBehavior property [Windows Update Agent], UninstallationBehavior property [Windows Update Agent],IUpdate interface, UninstallationBehavior property [Windows Update Services], UninstallationBehavior property [Windows Update Services],IUpdate interface, get_UninstallationBehavior, wua.iupdate_uninstallationbehavior, wuapi/IUpdate::UninstallationBehavior, wuapi/IUpdate::get_UninstallationBehavior
-ms.topic: method
 f1_keywords:
 - wuapi/IUpdate.UninstallationBehavior
 dev_langs:

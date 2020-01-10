@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6cab.htm
 ms.date: 12/05/2018
 ms.keywords: FaxGetLoggingCategories, FaxGetLoggingCategories function [Fax Service], FaxGetLoggingCategoriesA, FaxGetLoggingCategoriesW, _mfax_faxgetloggingcategories, fax._mfax_faxgetloggingcategories, winfax/FaxGetLoggingCategories, winfax/FaxGetLoggingCategoriesA, winfax/FaxGetLoggingCategoriesW
-ms.topic: function
 f1_keywords:
 - winfax/FaxGetLoggingCategories
 dev_langs:

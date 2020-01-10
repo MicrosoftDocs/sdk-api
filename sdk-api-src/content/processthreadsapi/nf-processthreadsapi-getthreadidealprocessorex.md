@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 4fbe1b85-352f-4576-9056-5ba1b0b85874
 ms.date: 12/05/2018
 ms.keywords: GetThreadIdealProcessorEx, GetThreadIdealProcessorEx function, base.getthreadidealprocessorex, processthreadsapi/GetThreadIdealProcessorEx, winbase/GetThreadIdealProcessorEx
-ms.topic: function
 f1_keywords:
 - processthreadsapi/GetThreadIdealProcessorEx
 dev_langs:

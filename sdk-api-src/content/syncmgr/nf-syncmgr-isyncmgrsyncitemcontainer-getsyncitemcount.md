@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: bbe37dff-d758-41ca-872d-4607d605011d
 ms.date: 12/05/2018
 ms.keywords: GetSyncItemCount, GetSyncItemCount method [Windows Shell], GetSyncItemCount method [Windows Shell],ISyncMgrSyncItemContainer interface, ISyncMgrSyncItemContainer interface [Windows Shell],GetSyncItemCount method, ISyncMgrSyncItemContainer.GetSyncItemCount, ISyncMgrSyncItemContainer::GetSyncItemCount, _shell_ISyncMgrSyncItemContainer_GetSyncItemCount, shell.ISyncMgrSyncItemContainer_GetSyncItemCount, syncmgr/ISyncMgrSyncItemContainer::GetSyncItemCount
-ms.topic: method
 f1_keywords:
 - syncmgr/ISyncMgrSyncItemContainer.GetSyncItemCount
 dev_langs:

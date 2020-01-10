@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 694cc14b-837c-4e09-b1e7-91bdc237657f
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationProxyFactoryEntry interface [Windows Accessibility],SetWinEventsForAutomationEvent method, IUIAutomationProxyFactoryEntry.SetWinEventsForAutomationEvent, IUIAutomationProxyFactoryEntry::SetWinEventsForAutomationEvent, SetWinEventsForAutomationEvent, SetWinEventsForAutomationEvent method [Windows Accessibility], SetWinEventsForAutomationEvent method [Windows Accessibility],IUIAutomationProxyFactoryEntry interface, uiauto.uiauto_IUIAutomationProxyFactoryEntry_SetWinEventsForAutomationEvent, uiauto_IUIAutomationProxyFactoryEntry_SetWinEventsForAutomationEvent, uiautomationclient/IUIAutomationProxyFactoryEntry::SetWinEventsForAutomationEvent, winauto.uiauto_IUIAutomationProxyFactoryEntry_SetWinEventsForAutomationEvent
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationProxyFactoryEntry.SetWinEventsForAutomationEvent
 dev_langs:

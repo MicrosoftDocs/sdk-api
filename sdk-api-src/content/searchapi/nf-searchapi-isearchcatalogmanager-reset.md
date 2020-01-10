@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\reset.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager interface [search],Reset method, ISearchCatalogManager.Reset, ISearchCatalogManager::Reset, Reset, Reset method [search], Reset method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_Reset, search._search_ISearchCatalogManager_Reset, searchapi/ISearchCatalogManager::Reset
-ms.topic: method
 f1_keywords:
 - searchapi/ISearchCatalogManager.Reset
 dev_langs:

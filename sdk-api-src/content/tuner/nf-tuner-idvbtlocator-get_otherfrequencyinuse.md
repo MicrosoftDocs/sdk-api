@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: fcb39760-901f-4c62-a517-bee7ea96f8d9
 ms.date: 12/05/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],get_OtherFrequencyInUse method, IDVBTLocator.get_OtherFrequencyInUse, IDVBTLocator::get_OtherFrequencyInUse, IDVBTLocatorget_OtherFrequencyInUse, get_OtherFrequencyInUse, get_OtherFrequencyInUse method [Microsoft TV Technologies], get_OtherFrequencyInUse method [Microsoft TV Technologies],IDVBTLocator interface, mstv.idvbtlocator_get_otherfrequencyinuse, tuner/IDVBTLocator::get_OtherFrequencyInUse
-ms.topic: method
 f1_keywords:
 - tuner/IDVBTLocator.get_OtherFrequencyInUse
 dev_langs:

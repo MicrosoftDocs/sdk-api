@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 9ad707df-533a-407b-a611-49bfb019affc
 ms.date: 12/05/2018
 ms.keywords: 9ad707df-533a-407b-a611-49bfb019affc, MFCreateProxyLocator, MFCreateProxyLocator function [Media Foundation], mf.mfcreateproxylocator, mfidl/MFCreateProxyLocator
-ms.topic: function
 f1_keywords:
 - mfidl/MFCreateProxyLocator
 dev_langs:

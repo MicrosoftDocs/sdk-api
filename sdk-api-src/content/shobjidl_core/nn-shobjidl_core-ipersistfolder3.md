@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 77a10997-1512-41ee-a84c-f3fa2e500d20
 ms.date: 12/05/2018
 ms.keywords: IPersistFolder3, IPersistFolder3 interface [Windows Shell], IPersistFolder3 interface [Windows Shell],described, _win32_IPersistFolder3, shell.IPersistFolder3, shobjidl_core/IPersistFolder3
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IPersistFolder3
 dev_langs:

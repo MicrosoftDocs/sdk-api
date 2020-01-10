@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 9e9202ad-086e-493b-8830-0a0f8980cec5
 ms.date: 12/05/2018
 ms.keywords: CspInformation property [Security], CspInformation property [Security],ICspStatus interface, ICspStatus interface [Security],CspInformation property, ICspStatus.CspInformation, ICspStatus.get_CspInformation, ICspStatus::CspInformation, ICspStatus::get_CspInformation, certenroll/ICspStatus::CspInformation, certenroll/ICspStatus::get_CspInformation, get_CspInformation, security.icspstatus_cspinformation
-ms.topic: method
 f1_keywords:
 - certenroll/ICspStatus.CspInformation
 dev_langs:

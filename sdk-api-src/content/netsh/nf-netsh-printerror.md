@@ -7,7 +7,6 @@ tech.root: netshell
 ms.assetid: de48b797-9cb5-4bc0-89d4-86dd7f56a610
 ms.date: 12/05/2018
 ms.keywords: PrintError, PrintError function [NetShell], _netsh_printerror, netsh/PrintError, netshell.printerror
-ms.topic: function
 f1_keywords:
 - netsh/PrintError
 dev_langs:

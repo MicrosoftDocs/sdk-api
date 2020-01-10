@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 701B874A-BA95-43CA-8762-70BA571FDC10
 ms.date: 12/05/2018
 ms.keywords: HasKerningPairs, HasKerningPairs method [Direct Write], HasKerningPairs method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],HasKerningPairs method, IDWriteFontFace1.HasKerningPairs, IDWriteFontFace1::HasKerningPairs, directwrite.idwritefontface1_haskerningpairs, dwrite_1/IDWriteFontFace1::HasKerningPairs
-ms.topic: method
 f1_keywords:
 - dwrite_1/IDWriteFontFace1.HasKerningPairs
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmi_v2
 ms.assetid: d5d06ceb-5f44-4aa8-93a6-1c7b8d06561a
 ms.date: 12/05/2018
 ms.keywords: MI_Context_RefuseUnload, MI_Context_RefuseUnload function [Windows Management Infrastructure (MI)], mi/MI_Context_RefuseUnload, wmi.mi_refuseunload, wmi_v2.mi_context_refuseunload
-ms.topic: function
 f1_keywords:
 - mi/MI_Context_RefuseUnload
 dev_langs:

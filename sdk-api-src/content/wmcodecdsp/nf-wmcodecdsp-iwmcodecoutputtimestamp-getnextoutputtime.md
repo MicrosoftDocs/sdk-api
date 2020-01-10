@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 8af7e77b-da10-4d6a-b7a1-515a54aa3a20
 ms.date: 12/05/2018
 ms.keywords: GetNextOutputTime, GetNextOutputTime method [Media Foundation], GetNextOutputTime method [Media Foundation],IWMCodecOutputTimestamp interface, IWMCodecOutputTimestamp interface [Media Foundation],GetNextOutputTime method, IWMCodecOutputTimestamp.GetNextOutputTime, IWMCodecOutputTimestamp::GetNextOutputTime, codecapi.iwmcodecoutputtimestampgetnextoutputtime, mf.iwmcodecoutputtimestampgetnextoutputtime, wmcodecdsp/IWMCodecOutputTimestamp::GetNextOutputTime
-ms.topic: method
 f1_keywords:
 - wmcodecdsp/IWMCodecOutputTimestamp.GetNextOutputTime
 dev_langs:

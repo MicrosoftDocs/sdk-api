@@ -7,7 +7,6 @@ tech.root: xaml_diagnostics
 ms.assetid: 0C50F820-E55B-425E-A8D2-1F0CEE03FEE7
 ms.date: 12/05/2018
 ms.keywords: EnumType, EnumType structure, PEnumType, PEnumType structure pointer, xaml_diagnostics.enumtype, xamlom/EnumType, xamlom/PEnumType
-ms.topic: struct
 f1_keywords:
 - xamlom/EnumType
 dev_langs:

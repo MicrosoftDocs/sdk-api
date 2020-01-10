@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: f865021c-692b-425e-a37a-b3048f7e5c64
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],PlaylistCollectionPlaylistAdded method, IWMPEvents.PlaylistCollectionPlaylistAdded, IWMPEvents::PlaylistCollectionPlaylistAdded, IWMPEventsPlaylistCollectionPlaylistAdded, PlaylistCollectionPlaylistAdded, PlaylistCollectionPlaylistAdded method [Windows Media Player], PlaylistCollectionPlaylistAdded method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__playlistcollectionplaylistadded, wmp/IWMPEvents::PlaylistCollectionPlaylistAdded
-ms.topic: method
 f1_keywords:
 - wmp/IWMPEvents.PlaylistCollectionPlaylistAdded
 dev_langs:

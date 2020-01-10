@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: ea57be73-076a-445d-9b0d-4a1041befa2d
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM+], Clone method [COM+],IEnumNames interface, IEnumNames interface [COM+],Clone method, IEnumNames.Clone, IEnumNames::Clone, _cos_IEnumNames_Clone, comsvcs/IEnumNames::Clone, cos.ienumnames_clone
-ms.topic: method
 f1_keywords:
 - comsvcs/IEnumNames.Clone
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: 571149a5-5a09-4a04-9327-47aecca7d17f
 ms.date: 12/05/2018
 ms.keywords: MprConfigTransportSetInfo, MprConfigTransportSetInfo function [RAS], _mpr_mprconfigtransportsetinfo, mprapi/MprConfigTransportSetInfo, rras.mprconfigtransportsetinfo
-ms.topic: function
 f1_keywords:
 - mprapi/MprConfigTransportSetInfo
 dev_langs:

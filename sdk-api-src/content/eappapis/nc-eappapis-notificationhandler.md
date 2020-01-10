@@ -7,7 +7,6 @@ tech.root: eaphost
 ms.assetid: 7fa12cb4-694a-4db6-9743-5a2cbb995721
 ms.date: 12/05/2018
 ms.keywords: NotificationHandler, NotificationHandler callback, NotificationHandler callback function [EAPHost], eaphost.notificationhandler, eappapis/NotificationHandler
-ms.topic: callback
 f1_keywords:
 - eappapis/NotificationHandler
 dev_langs:

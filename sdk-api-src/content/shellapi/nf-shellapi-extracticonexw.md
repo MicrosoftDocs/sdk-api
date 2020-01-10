@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1c4d760a-79b5-4646-9cf2-6cd32c5d05ee
 ms.date: 12/05/2018
 ms.keywords: ExtractIconEx, ExtractIconEx function [Windows Shell], ExtractIconExA, ExtractIconExW, _shell_ExtractIconEx, shell.ExtractIconEx, shellapi/ExtractIconEx, shellapi/ExtractIconExA, shellapi/ExtractIconExW
-ms.topic: function
 f1_keywords:
 - shellapi/ExtractIconEx
 dev_langs:

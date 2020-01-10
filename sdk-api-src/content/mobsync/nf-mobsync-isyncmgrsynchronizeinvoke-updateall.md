@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 94731c78-b7cf-4ad2-afe5-6355830a5550
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronizeInvoke interface [Windows Shell],UpdateAll method, ISyncMgrSynchronizeInvoke.UpdateAll, ISyncMgrSynchronizeInvoke::UpdateAll, UpdateAll, UpdateAll method [Windows Shell], UpdateAll method [Windows Shell],ISyncMgrSynchronizeInvoke interface, mobsync/ISyncMgrSynchronizeInvoke::UpdateAll, shell.syncmgr_isyncmgrsynchronizeinvoke_updateall, syncmgr.isyncmgrsynchronizeinvoke_updateall
-ms.topic: method
 f1_keywords:
 - mobsync/ISyncMgrSynchronizeInvoke.UpdateAll
 dev_langs:

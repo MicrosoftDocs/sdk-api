@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: f5d7a39f-6afe-4e4a-a802-e7f875ea6e5b
 ms.date: 12/05/2018
 ms.keywords: AssignProcessToJobObject, AssignProcessToJobObject function, _win32_assignprocesstojobobject, base.assignprocesstojobobject, jobapi2/AssignProcessToJobObject
-ms.topic: function
 f1_keywords:
 - jobapi2/AssignProcessToJobObject
 dev_langs:

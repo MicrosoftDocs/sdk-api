@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1bf0b337-01de-4ce3-851f-d845866fb46f
 ms.date: 12/05/2018
 ms.keywords: ColorHLSToRGB, ColorHLSToRGB function [Windows Shell], _win32_ColorHLSToRGB, shell.ColorHLSToRGB, shlwapi/ColorHLSToRGB
-ms.topic: function
 f1_keywords:
 - shlwapi/ColorHLSToRGB
 dev_langs:

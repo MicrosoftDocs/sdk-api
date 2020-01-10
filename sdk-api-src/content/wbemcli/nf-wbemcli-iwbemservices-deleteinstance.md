@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: f6dfeb1d-1730-4df4-adf7-f27dd9edc54d
 ms.date: 12/05/2018
 ms.keywords: DeleteInstance, DeleteInstance method [Windows Management Instrumentation], DeleteInstance method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],DeleteInstance method, IWbemServices.DeleteInstance, IWbemServices::DeleteInstance, WBEM_FLAG_RETURN_IMMEDIATELY, _hmm_iwbemservices_deleteinstance, wbemcli/IWbemServices::DeleteInstance, wmi.iwbemservices_deleteinstance
-ms.topic: method
 f1_keywords:
 - wbemcli/IWbemServices.DeleteInstance
 dev_langs:

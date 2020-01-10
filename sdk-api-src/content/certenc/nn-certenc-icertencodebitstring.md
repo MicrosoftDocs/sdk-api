@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 51178b67-46da-49f8-9bd7-a500e846e0a8
 ms.date: 12/05/2018
 ms.keywords: ICertEncodeBitString, ICertEncodeBitString interface [Security], ICertEncodeBitString interface [Security],described, _certsrv_icertencodebitstring, certenc/ICertEncodeBitString, security.icertencodebitstring
-ms.topic: interface
 f1_keywords:
 - certenc/ICertEncodeBitString
 dev_langs:

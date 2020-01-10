@@ -7,7 +7,6 @@ tech.root: wpd_sdk
 ms.assetid: f1950aa5-2316-4409-a7bd-1b87c6449187
 ms.date: 12/05/2018
 ms.keywords: GetSupportedMethodsByFormat, GetSupportedMethodsByFormat method [Windows Portable Devices SDK], GetSupportedMethodsByFormat method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetSupportedMethodsByFormat method, IPortableDeviceServiceCapabilities.GetSupportedMethodsByFormat, IPortableDeviceServiceCapabilities::GetSupportedMethodsByFormat, portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedMethodsByFormat, wpdsdk.iportabledeviceservicecapabilities_getsupportedmethodsbyformat
-ms.topic: method
 f1_keywords:
 - portabledeviceapi/IPortableDeviceServiceCapabilities.GetSupportedMethodsByFormat
 dev_langs:

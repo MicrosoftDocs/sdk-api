@@ -7,7 +7,6 @@ tech.root: ldap
 ms.assetid: 9e5a4bb9-568d-48ee-be75-952916c021b1
 ms.date: 12/05/2018
 ms.keywords: _ldap_ber_bvfree, ber_bvfree, ber_bvfree function [LDAP], ldap.ber__bvfree, ldap.ber_bvfree, winber/ber_bvfree, winldap/ber_bvfree
-ms.topic: function
 f1_keywords:
 - winber/ber_bvfree
 dev_langs:

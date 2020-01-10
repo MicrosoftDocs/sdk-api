@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\getstrokecaps.htm
 ms.date: 12/05/2018
 ms.keywords: CustomLineCap class [GDI+],GetStrokeCaps method, CustomLineCap.GetStrokeCaps, CustomLineCap::GetStrokeCaps, GetStrokeCaps, GetStrokeCaps method [GDI+], GetStrokeCaps method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_GetStrokeCaps_startCap_endCap_, gdiplus._gdiplus_CLASS_CustomLineCap_GetStrokeCaps_startCap_endCap_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/CustomLineCap.GetStrokeCaps
 dev_langs:

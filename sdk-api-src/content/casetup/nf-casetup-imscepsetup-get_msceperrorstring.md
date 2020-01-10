@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 5da4d9ac-ba59-499e-a062-381349b411a8
 ms.date: 12/05/2018
 ms.keywords: IMSCEPSetup interface [Security],MSCEPErrorString property, IMSCEPSetup.MSCEPErrorString, IMSCEPSetup.get_MSCEPErrorString, IMSCEPSetup::MSCEPErrorString, IMSCEPSetup::get_MSCEPErrorString, MSCEPErrorString property [Security], MSCEPErrorString property [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::MSCEPErrorString, casetup/IMSCEPSetup::get_MSCEPErrorString, get_MSCEPErrorString, security.imscepsetup_msceperrorstring
-ms.topic: method
 f1_keywords:
 - casetup/IMSCEPSetup.MSCEPErrorString
 dev_langs:

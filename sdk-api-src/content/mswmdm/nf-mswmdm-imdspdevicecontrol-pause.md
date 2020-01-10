@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: d97edbd0-afac-4197-b9bc-e538c2b145b2
 ms.date: 12/05/2018
 ms.keywords: IMDSPDeviceControl interface [windows Media Device Manager],Pause method, IMDSPDeviceControl.Pause, IMDSPDeviceControl::Pause, IMDSPDeviceControlPause, Pause, Pause method [windows Media Device Manager], Pause method [windows Media Device Manager],IMDSPDeviceControl interface, mswmdm/IMDSPDeviceControl::Pause, wmdm.imdspdevicecontrol_pause
-ms.topic: method
 f1_keywords:
 - mswmdm/IMDSPDeviceControl.Pause
 dev_langs:

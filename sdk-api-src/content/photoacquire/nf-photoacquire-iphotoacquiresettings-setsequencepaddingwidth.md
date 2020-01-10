@@ -7,7 +7,6 @@ tech.root: acquisition
 ms.assetid: 2c90c109-1522-4722-a691-6f0f3caa50ec
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],SetSequencePaddingWidth method, IPhotoAcquireSettings.SetSequencePaddingWidth, IPhotoAcquireSettings::SetSequencePaddingWidth, IPhotoAcquireSettingsSetSequencePaddingWidth, SetSequencePaddingWidth, SetSequencePaddingWidth method [Picture Acquisition], SetSequencePaddingWidth method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::SetSequencePaddingWidth, picacq.iphotoacquiresettings_setsequencepaddingwidth
-ms.topic: method
 f1_keywords:
 - photoacquire/IPhotoAcquireSettings.SetSequencePaddingWidth
 dev_langs:

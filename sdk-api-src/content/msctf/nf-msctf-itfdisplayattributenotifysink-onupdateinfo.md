@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 6f4cbdca-b2a3-4e14-b4fb-ac65f3cec646
 ms.date: 12/05/2018
 ms.keywords: ITfDisplayAttributeNotifySink interface [Text Services Framework],OnUpdateInfo method, ITfDisplayAttributeNotifySink.OnUpdateInfo, ITfDisplayAttributeNotifySink::OnUpdateInfo, OnUpdateInfo, OnUpdateInfo method [Text Services Framework], OnUpdateInfo method [Text Services Framework],ITfDisplayAttributeNotifySink interface, _tsf_itfdisplayattributenotifysink_onupdateinfo_ref, msctf/ITfDisplayAttributeNotifySink::OnUpdateInfo, tsf.itfdisplayattributenotifysink_onupdateinfo
-ms.topic: method
 f1_keywords:
 - msctf/ITfDisplayAttributeNotifySink.OnUpdateInfo
 dev_langs:

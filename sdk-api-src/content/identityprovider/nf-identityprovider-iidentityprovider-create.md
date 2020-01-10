@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 6ea1a87d-c8c1-43e4-b746-c1bfe98f370b
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Security], Create method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],Create method, IIdentityProvider.Create, IIdentityProvider::Create, identityprovider/IIdentityProvider::Create, security.iidentityprovider_create
-ms.topic: method
 f1_keywords:
 - identityprovider/IIdentityProvider.Create
 dev_langs:

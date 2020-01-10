@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: 1e87942a-3ee1-442a-a56a-8e63b3003d3b
 ms.date: 12/05/2018
 ms.keywords: DhcpV4SetPolicyEnforcement, DhcpV4SetPolicyEnforcement function [DHCP], dhcp.dhcpv4setpolicyenforcement, dhcpsapi/DhcpV4SetPolicyEnforcement
-ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4SetPolicyEnforcement
 dev_langs:

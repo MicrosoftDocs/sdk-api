@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 090bda1b-0635-4aa3-ae33-3987b36e30b8
 ms.date: 12/05/2018
 ms.keywords: SetWinEventHook, SetWinEventHook function [Windows Accessibility], WINEVENT_INCONTEXT, WINEVENT_OUTOFCONTEXT, WINEVENT_SKIPOWNPROCESS, WINEVENT_SKIPOWNTHREAD, _msaa_SetWinEventHook, msaa.setwineventhook, winauto.setwineventhook, winuser/SetWinEventHook
-ms.topic: function
 f1_keywords:
 - winuser/SetWinEventHook
 dev_langs:

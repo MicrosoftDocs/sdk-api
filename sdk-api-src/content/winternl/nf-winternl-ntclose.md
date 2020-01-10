@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\ntclose.htm
 ms.date: 12/05/2018
 ms.keywords: NtClose, NtClose function [Windows API], winprog.ntclose, winternl/NtClose, winui.ntclose
-ms.topic: function
 f1_keywords:
 - winternl/NtClose
 dev_langs:

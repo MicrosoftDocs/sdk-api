@@ -7,7 +7,6 @@ tech.root: SecCNG
 ms.assetid: 15f19999-cf64-4a30-b38d-9372066add0a
 ms.date: 12/05/2018
 ms.keywords: NCryptFreeBuffer, NCryptFreeBuffer function [Security], ncrypt/NCryptFreeBuffer, security.ncryptfreebuffer_func
-ms.topic: function
 f1_keywords:
 - ncrypt/NCryptFreeBuffer
 dev_langs:

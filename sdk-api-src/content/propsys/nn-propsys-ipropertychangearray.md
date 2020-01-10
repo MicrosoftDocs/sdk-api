@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: c7de40d0-9fe6-4c4b-ba17-c4648501ce0a
 ms.date: 12/05/2018
 ms.keywords: IPropertyChangeArray, IPropertyChangeArray interface [Windows Properties], IPropertyChangeArray interface [Windows Properties],described, _shell_IPropertyChangeArray, properties.IPropertyChangeArray, propsys/IPropertyChangeArray, shell.IPropertyChangeArray
-ms.topic: interface
 f1_keywords:
 - propsys/IPropertyChangeArray
 dev_langs:

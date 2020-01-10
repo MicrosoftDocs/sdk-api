@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: 1ad15754-c180-43e0-a307-6ff84f7eebd6
 ms.date: 12/05/2018
 ms.keywords: CreateQueryWriterFromBlockWriter, CreateQueryWriterFromBlockWriter method [Windows Imaging Component], CreateQueryWriterFromBlockWriter method [Windows Imaging Component],IWICComponentFactory interface, IWICComponentFactory interface [Windows Imaging Component],CreateQueryWriterFromBlockWriter method, IWICComponentFactory.CreateQueryWriterFromBlockWriter, IWICComponentFactory::CreateQueryWriterFromBlockWriter, _wic_codec_iwiccomponentfactory_createquerywriterfromblockwriter, wic._wic_codec_iwiccomponentfactory_createquerywriterfromblockwriter, wincodecsdk/IWICComponentFactory::CreateQueryWriterFromBlockWriter
-ms.topic: method
 f1_keywords:
 - wincodecsdk/IWICComponentFactory.CreateQueryWriterFromBlockWriter
 dev_langs:

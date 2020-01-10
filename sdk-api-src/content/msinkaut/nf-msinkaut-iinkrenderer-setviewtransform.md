@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: b1850d41-4523-4a2b-a7ae-6b85d1ae9a97
 ms.date: 12/05/2018
 ms.keywords: IInkRenderer interface [Tablet PC],SetViewTransform method, IInkRenderer.SetViewTransform, IInkRenderer::SetViewTransform, SetViewTransform, SetViewTransform method [Tablet PC], SetViewTransform method [Tablet PC],IInkRenderer interface, b1850d41-4523-4a2b-a7ae-6b85d1ae9a97, msinkaut/IInkRenderer::SetViewTransform, tablet.inkrenderer_setviewtransform
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkRenderer.SetViewTransform
 dev_langs:

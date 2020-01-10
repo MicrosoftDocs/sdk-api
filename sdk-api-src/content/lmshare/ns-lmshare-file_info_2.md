@@ -7,7 +7,6 @@ tech.root: NetShare
 ms.assetid: c80090d5-7064-4809-9185-02116f7ac2ef
 ms.date: 12/05/2018
 ms.keywords: '*LPFILE_INFO_2, *PFILE_INFO_2, FILE_INFO_2, FILE_INFO_2 structure [Files], LPFILE_INFO_2, LPFILE_INFO_2 structure pointer [Files], PFILE_INFO_2, PFILE_INFO_2 structure pointer [Files], _win32_file_info_2_str, fs.file_info_2_str, lmshare/FILE_INFO_2, lmshare/LPFILE_INFO_2, lmshare/PFILE_INFO_2, netmgmt.file_info_2_str'
-ms.topic: struct
 f1_keywords:
 - lmshare/FILE_INFO_2
 dev_langs:

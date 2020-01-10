@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: cec22994-c233-4f84-8237-749ef3cc8aff
 ms.date: 12/05/2018
 ms.keywords: EndUIElement, EndUIElement method [Text Services Framework], EndUIElement method [Text Services Framework],ITfUIElementMgr interface, ITfUIElementMgr interface [Text Services Framework],EndUIElement method, ITfUIElementMgr.EndUIElement, ITfUIElementMgr::EndUIElement, msctf/ITfUIElementMgr::EndUIElement, tsf.itfuielementmgr_enduielement
-ms.topic: method
 f1_keywords:
 - msctf/ITfUIElementMgr.EndUIElement
 dev_langs:

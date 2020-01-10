@@ -7,7 +7,6 @@ tech.root: http
 ms.assetid: 0ae94936-4c6a-4c9f-adb8-5e3af75cf486
 ms.date: 12/05/2018
 ms.keywords: HttpDeleteServiceConfiguration, HttpDeleteServiceConfiguration function [HTTP], HttpServiceConfigIPListenList, HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpServiceConfigTimeout, HttpServiceConfigTimeouts, HttpServiceConfigUrlAclInfo, _http_httpdeleteserviceconfiguration, http.httpdeleteserviceconfiguration, http/HttpDeleteServiceConfiguration
-ms.topic: function
 f1_keywords:
 - http/HttpDeleteServiceConfiguration
 dev_langs:

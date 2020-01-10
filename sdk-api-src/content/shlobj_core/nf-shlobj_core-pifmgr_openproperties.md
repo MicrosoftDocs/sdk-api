@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 0bc11528-7278-4765-b3cb-671ba82c9155
 ms.date: 12/05/2018
 ms.keywords: OPENPROPS_INHIBITPIF, OPENPROPS_NONE, PifMgr_OpenProperties, PifMgr_OpenProperties function [Windows Properties], _win32_PifMgr_OpenProperties, properties.PifMgr_OpenProperties, shell.PifMgr_OpenProperties, shlobj_core/PifMgr_OpenProperties
-ms.topic: function
 f1_keywords:
 - shlobj_core/PifMgr_OpenProperties
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 5f70cc85-9275-4ccd-ad53-c22b00a4dea3
 ms.date: 12/05/2018
 ms.keywords: IAzApplication3 interface [Security],RoleAssignments property, IAzApplication3.RoleAssignments, IAzApplication3.get_RoleAssignments, IAzApplication3::RoleAssignments, IAzApplication3::get_RoleAssignments, RoleAssignments property [Security], RoleAssignments property [Security],IAzApplication3 interface, azroles/IAzApplication3::RoleAssignments, azroles/IAzApplication3::get_RoleAssignments, get_RoleAssignments, security.iazapplication3_roleassignments
-ms.topic: method
 f1_keywords:
 - azroles/IAzApplication3.RoleAssignments
 dev_langs:

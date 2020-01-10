@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 2f8893a0-f916-4a62-a423-e525cf281fa4
 ms.date: 12/05/2018
 ms.keywords: MAKELCID, MAKELCID macro [Internationalization for Windows Applications], _win32_MAKELCID, intl.makelcid, winnt/MAKELCID
-ms.topic: macro
 f1_keywords:
 - winnt/MAKELCID
 dev_langs:

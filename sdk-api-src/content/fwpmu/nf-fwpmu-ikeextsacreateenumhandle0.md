@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: c72ec488-0721-406e-8ca0-6a34873e2683
 ms.date: 12/05/2018
 ms.keywords: IkeextSaCreateEnumHandle0, IkeextSaCreateEnumHandle0 function [Filtering], fwp.ikeextsacreateenumhandle0, fwpmu/IkeextSaCreateEnumHandle0
-ms.topic: function
 f1_keywords:
 - fwpmu/IkeextSaCreateEnumHandle0
 dev_langs:

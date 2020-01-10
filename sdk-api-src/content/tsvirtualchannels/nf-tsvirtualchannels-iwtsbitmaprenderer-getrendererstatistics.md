@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: 9BC4C091-053E-4E94-BF65-91AEB03C355F
 ms.date: 12/05/2018
 ms.keywords: GetRendererStatistics, GetRendererStatistics method [Remote Desktop Services], GetRendererStatistics method [Remote Desktop Services],IWTSBitmapRenderer interface, IWTSBitmapRenderer interface [Remote Desktop Services],GetRendererStatistics method, IWTSBitmapRenderer.GetRendererStatistics, IWTSBitmapRenderer::GetRendererStatistics, termserv.iwtsbitmaprenderer_getrendererstatistics, tsvirtualchannels/IWTSBitmapRenderer::GetRendererStatistics
-ms.topic: method
 f1_keywords:
 - tsvirtualchannels/IWTSBitmapRenderer.GetRendererStatistics
 dev_langs:

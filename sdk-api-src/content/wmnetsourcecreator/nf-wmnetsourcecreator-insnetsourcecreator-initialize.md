@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 53c1a15e-3ced-44e5-b512-b381ae11aa65
 ms.date: 12/05/2018
 ms.keywords: INSNetSourceCreator interface [windows Media Format],Initialize method, INSNetSourceCreator.Initialize, INSNetSourceCreator::Initialize, INSNetSourceCreatorInitialize, Initialize, Initialize method [windows Media Format], Initialize method [windows Media Format],INSNetSourceCreator interface, wmformat.insnetsourcecreator_initialize, wmnetsourcecreator/INSNetSourceCreator::Initialize
-ms.topic: method
 f1_keywords:
 - wmnetsourcecreator/INSNetSourceCreator.Initialize
 dev_langs:

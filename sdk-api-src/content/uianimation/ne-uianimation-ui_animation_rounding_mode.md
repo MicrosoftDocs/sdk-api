@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 0221207b-4583-44b8-85aa-dc6cd4cd9d25
 ms.date: 12/05/2018
 ms.keywords: UI_ANIMATION_ROUNDING_CEILING, UI_ANIMATION_ROUNDING_FLOOR, UI_ANIMATION_ROUNDING_MODE, UI_ANIMATION_ROUNDING_MODE enumeration [Windows Animation], UI_ANIMATION_ROUNDING_NEAREST, uianimation.ui_animation_rounding_mode, uianimation/UI_ANIMATION_ROUNDING_CEILING, uianimation/UI_ANIMATION_ROUNDING_FLOOR, uianimation/UI_ANIMATION_ROUNDING_MODE, uianimation/UI_ANIMATION_ROUNDING_NEAREST
-ms.topic: enum
 f1_keywords:
 - uianimation/UI_ANIMATION_ROUNDING_MODE
 dev_langs:

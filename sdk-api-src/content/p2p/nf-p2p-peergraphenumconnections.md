@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: ef4ea3e2-fd71-48d8-a9a8-db38ef06df20
 ms.date: 12/05/2018
 ms.keywords: PeerGraphEnumConnections, PeerGraphEnumConnections function [Peer Networking], p2p.peergraphenumconnections, p2p/PeerGraphEnumConnections
-ms.topic: function
 f1_keywords:
 - p2p/PeerGraphEnumConnections
 dev_langs:

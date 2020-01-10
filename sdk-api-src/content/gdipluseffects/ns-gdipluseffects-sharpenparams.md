@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\sharpenparams.htm
 ms.date: 12/05/2018
 ms.keywords: SharpenParams, SharpenParams structure [GDI+], _gdiplus_STRUC_SharpenParams, gdiplus._gdiplus_STRUC_SharpenParams, gdipluseffects/SharpenParams
-ms.topic: struct
 f1_keywords:
 - gdipluseffects/SharpenParams
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 7817b1bd-6ade-4145-90ff-54561a639dc9
 ms.date: 12/05/2018
 ms.keywords: ITextPara2 interface [Windows Controls],IsEqual2 method, ITextPara2.IsEqual2, ITextPara2::IsEqual2, IsEqual2, IsEqual2 method [Windows Controls], IsEqual2 method [Windows Controls],ITextPara2 interface, controls.itextpara2_isequal2, tom/ITextPara2::IsEqual2
-ms.topic: method
 f1_keywords:
 - tom/ITextPara2.IsEqual2
 dev_langs:

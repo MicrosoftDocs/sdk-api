@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: a9912c5c-2336-48a3-aca0-d0d434b9db08
 ms.date: 12/05/2018
 ms.keywords: MCIWndSetZoom, MCIWndSetZoom macro [Windows Multimedia], _win32_MCIWndSetZoom, multimedia.mciwndsetzoom, vfw/MCIWndSetZoom
-ms.topic: macro
 f1_keywords:
 - vfw/MCIWndSetZoom
 dev_langs:

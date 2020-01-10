@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: ef1d1ecd-7226-4e4e-a0b3-ec096d3b1207
 ms.date: 12/05/2018
 ms.keywords: '*LPUSER_INFO_1003, *PUSER_INFO_1003, LPUSER_INFO_1003, LPUSER_INFO_1003 structure pointer [Network Management], PUSER_INFO_1003, PUSER_INFO_1003 structure pointer [Network Management], USER_INFO_1003, USER_INFO_1003 structure [Network Management], _win32_user_info_1003_str, lmaccess/LPUSER_INFO_1003, lmaccess/PUSER_INFO_1003, lmaccess/USER_INFO_1003, netmgmt.user_info_1003_str'
-ms.topic: struct
 f1_keywords:
 - lmaccess/USER_INFO_1003
 dev_langs:

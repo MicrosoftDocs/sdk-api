@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 9858B3B2-CE93-4209-BAFE-BFC911042800
 ms.date: 12/05/2018
 ms.keywords: UIA_PFIA_DEFAULT, UIA_PFIA_UNWRAP_BRIDGE, UiaProviderFromIAccessible, UiaProviderFromIAccessible function [Windows Accessibility], uiautomationcoreapi/UiaProviderFromIAccessible, winauto.uiauto_UiaProviderFromIAccessibleFunction
-ms.topic: function
 f1_keywords:
 - uiautomationcoreapi/UiaProviderFromIAccessible
 dev_langs:

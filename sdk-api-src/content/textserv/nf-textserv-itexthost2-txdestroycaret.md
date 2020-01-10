@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: 627FEF54-FD74-4A41-89FC-E02EBD29D18A
 ms.date: 12/05/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxDestroyCaret method, ITextHost2.TxDestroyCaret, ITextHost2::TxDestroyCaret, TxDestroyCaret, TxDestroyCaret method [Windows Controls], TxDestroyCaret method [Windows Controls],ITextHost2 interface, controls.itexthost2_txdestroycaret, textserv/ITextHost2::TxDestroyCaret
-ms.topic: method
 f1_keywords:
 - textserv/ITextHost2.TxDestroyCaret
 dev_langs:

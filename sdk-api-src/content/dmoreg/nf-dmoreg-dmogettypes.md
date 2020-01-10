@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: d50e067e-6bf2-4d19-86ef-38a414099666
 ms.date: 12/05/2018
 ms.keywords: DMOGetTypes, DMOGetTypes function [DirectShow], dmoreg/DMOGetTypes, dshow.dmogettypes
-ms.topic: function
 f1_keywords:
 - dmoreg/DMOGetTypes
 dev_langs:

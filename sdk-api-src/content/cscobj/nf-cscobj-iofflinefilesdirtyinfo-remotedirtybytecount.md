@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: 3913dc9d-f640-407d-b3b9-77b33f26e726
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesDirtyInfo interface [Offline Files],RemoteDirtyByteCount method, IOfflineFilesDirtyInfo.RemoteDirtyByteCount, IOfflineFilesDirtyInfo::RemoteDirtyByteCount, RemoteDirtyByteCount, RemoteDirtyByteCount method [Offline Files], RemoteDirtyByteCount method [Offline Files],IOfflineFilesDirtyInfo interface, cscobj/IOfflineFilesDirtyInfo::RemoteDirtyByteCount, of.iofflinefilesdirtyinfo_remotedirtybytecount
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesDirtyInfo.RemoteDirtyByteCount
 dev_langs:

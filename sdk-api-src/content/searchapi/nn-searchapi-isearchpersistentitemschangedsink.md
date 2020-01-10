@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchpersistentitemschangedsink\isearchpersistentitemschangedsink.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchPersistentItemsChangedSink, ISearchPersistentItemsChangedSink interface [search], ISearchPersistentItemsChangedSink interface [search],described, _search_ISearchPersistentItemsChangedSink, search._search_ISearchPersistentItemsChangedSink, searchapi/ISearchPersistentItemsChangedSink
-ms.topic: interface
 f1_keywords:
 - searchapi/ISearchPersistentItemsChangedSink
 dev_langs:

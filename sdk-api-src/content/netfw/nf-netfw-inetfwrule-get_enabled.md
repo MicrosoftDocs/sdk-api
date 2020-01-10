@@ -7,7 +7,6 @@ tech.root: ics
 ms.assetid: 42533aca-3273-46fa-a9a1-add7f9fde351
 ms.date: 12/05/2018
 ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],Enabled property, INetFwRule.Enabled, INetFwRule.get_Enabled, INetFwRule::Enabled, INetFwRule::get_Enabled, INetFwRule::put_Enabled, get_Enabled, ics.inetfwrule_enabled, netfw/INetFwRule::Enabled, netfw/INetFwRule::get_Enabled, netfw/INetFwRule::put_Enabled
-ms.topic: method
 f1_keywords:
 - netfw/INetFwRule.Enabled
 dev_langs:

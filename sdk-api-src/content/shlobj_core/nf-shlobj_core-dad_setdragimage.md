@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 1e60e16c-3a12-48e2-a144-b3ba81599473
 ms.date: 12/05/2018
 ms.keywords: DAD_SetDragImage, DAD_SetDragImage function [Windows Shell], shell.DAD_SetDragImage, shell_DAD_SetDragImage, shlobj_core/DAD_SetDragImage
-ms.topic: function
 f1_keywords:
 - shlobj_core/DAD_SetDragImage
 dev_langs:

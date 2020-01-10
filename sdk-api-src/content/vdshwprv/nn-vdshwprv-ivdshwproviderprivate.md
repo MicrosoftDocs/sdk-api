@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 7e6dbf9e-9060-46bf-be11-9d9d640a3d36
 ms.date: 12/05/2018
 ms.keywords: IVdsHwProviderPrivate, IVdsHwProviderPrivate interface [VDS], IVdsHwProviderPrivate interface [VDS],described, base.ivdshwproviderprivate, vdshwprv/IVdsHwProviderPrivate
-ms.topic: interface
 f1_keywords:
 - vdshwprv/IVdsHwProviderPrivate
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: 81aeea7c-fd35-4fa8-af72-804006c22f7b
 ms.date: 12/05/2018
 ms.keywords: TdhGetDecodingParameter, TdhGetDecodingParameter function [ETW], etw.tdhgetdecodingparameter, tdh/TdhGetDecodingParameter
-ms.topic: function
 f1_keywords:
 - tdh/TdhGetDecodingParameter
 dev_langs:

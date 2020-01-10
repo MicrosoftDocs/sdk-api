@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: b9fb76d4-d153-4968-ad1c-79036b4bb8a4
 ms.date: 12/05/2018
 ms.keywords: IServicePoolConfig interface [COM+],get_MaxPoolSize method, IServicePoolConfig.get_MaxPoolSize, IServicePoolConfig::get_MaxPoolSize, comsvcs/IServicePoolConfig::get_MaxPoolSize, cos.iservicepoolconfig_get_maxpoolsize, get_MaxPoolSize, get_MaxPoolSize method [COM+], get_MaxPoolSize method [COM+],IServicePoolConfig interface
-ms.topic: method
 f1_keywords:
 - comsvcs/IServicePoolConfig.get_MaxPoolSize
 dev_langs:

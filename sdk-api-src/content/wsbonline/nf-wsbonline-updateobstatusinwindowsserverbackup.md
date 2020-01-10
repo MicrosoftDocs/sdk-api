@@ -7,7 +7,6 @@ tech.root: wsb
 ms.assetid: 13C745FB-D0B9-432E-BDBA-E4194BF54924
 ms.date: 12/05/2018
 ms.keywords: UpdateOBStatusInWindowsServerBackup, UpdateOBStatusInWindowsServerBackup function [Windows Server Backup], wsb.updateobstatusinwindowsserverbackup, wsbonline/UpdateOBStatusInWindowsServerBackup
-ms.topic: function
 f1_keywords:
 - wsbonline/UpdateOBStatusInWindowsServerBackup
 dev_langs:

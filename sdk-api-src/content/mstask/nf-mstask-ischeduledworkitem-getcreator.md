@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 25bbb200-3418-4ca9-87a5-5db537baceee
 ms.date: 12/05/2018
 ms.keywords: GetCreator, GetCreator method [Task Scheduler], GetCreator method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetCreator method, IScheduledWorkItem.GetCreator, IScheduledWorkItem::GetCreator, _msb_ischeduledworkitem_getcreator, mstask/IScheduledWorkItem::GetCreator, taskschd.ischeduledworkitem_getcreator
-ms.topic: method
 f1_keywords:
 - mstask/IScheduledWorkItem.GetCreator
 dev_langs:

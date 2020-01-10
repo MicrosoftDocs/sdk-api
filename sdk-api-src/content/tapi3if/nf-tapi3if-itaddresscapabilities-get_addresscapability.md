@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 76e61d5e-48b6-4b9c-9076-bd20a794859c
 ms.date: 12/05/2018
 ms.keywords: ITAddressCapabilities interface [TAPI 2.2],get_AddressCapability method, ITAddressCapabilities.get_AddressCapability, ITAddressCapabilities::get_AddressCapability, _tapi3_itaddresscapabilities_get_addresscapability, get_AddressCapability, get_AddressCapability method [TAPI 2.2], get_AddressCapability method [TAPI 2.2],ITAddressCapabilities interface, tapi3.itaddresscapabilities_get_addresscapability, tapi3if/ITAddressCapabilities::get_AddressCapability
-ms.topic: method
 f1_keywords:
 - tapi3if/ITAddressCapabilities.get_AddressCapability
 dev_langs:

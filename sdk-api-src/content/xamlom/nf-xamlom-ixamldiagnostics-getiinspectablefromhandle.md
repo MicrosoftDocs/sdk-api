@@ -7,7 +7,6 @@ tech.root: xaml_diagnostics
 ms.assetid: F5BD99E0-CBAF-461C-9B4A-692604D4BAA9
 ms.date: 12/05/2018
 ms.keywords: GetIInspectableFromHandle, GetIInspectableFromHandle method, GetIInspectableFromHandle method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetIInspectableFromHandle method, IXamlDiagnostics.GetIInspectableFromHandle, IXamlDiagnostics::GetIInspectableFromHandle, xaml_diagnostics.ixamldiagnostics_getiinspectablefromhandle, xamlom/IXamlDiagnostics::GetIInspectableFromHandle
-ms.topic: method
 f1_keywords:
 - xamlom/IXamlDiagnostics.GetIInspectableFromHandle
 dev_langs:

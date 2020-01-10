@@ -7,7 +7,6 @@ tech.root: bluetooth
 ms.assetid: 4483f04e-09a2-4bd4-879c-c3a263c685de
 ms.date: 12/05/2018
 ms.keywords: BluetoothSendAuthenticationResponse, BluetoothSendAuthenticationResponse function [Bluetooth], bluetooth.bluetoothsendauthenticationresponse, bluetoothapis/BluetoothSendAuthenticationResponse
-ms.topic: function
 f1_keywords:
 - bluetoothapis/BluetoothSendAuthenticationResponse
 dev_langs:

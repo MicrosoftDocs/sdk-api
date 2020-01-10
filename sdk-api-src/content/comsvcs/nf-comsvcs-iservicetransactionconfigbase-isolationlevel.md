@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 4595239b-30e7-4b03-a2c7-7061cbf28bac
 ms.date: 12/05/2018
 ms.keywords: IServiceTransactionConfigBase interface [COM+],IsolationLevel method, IServiceTransactionConfigBase.IsolationLevel, IServiceTransactionConfigBase::IsolationLevel, IsolationLevel, IsolationLevel method [COM+], IsolationLevel method [COM+],IServiceTransactionConfigBase interface, _cos_IServiceTransactionConfigBase_IsolationLevel, comsvcs/IServiceTransactionConfigBase::IsolationLevel, cos.iservicetransactionconfigbase_isolationlevel
-ms.topic: method
 f1_keywords:
 - comsvcs/IServiceTransactionConfigBase.IsolationLevel
 dev_langs:

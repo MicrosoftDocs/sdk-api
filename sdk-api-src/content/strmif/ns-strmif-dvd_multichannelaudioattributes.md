@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8aba7e5a-62ec-4ef5-821f-cfef8cf7d93d
 ms.date: 12/05/2018
 ms.keywords: DVD_MultichannelAudioAttributes, DVD_MultichannelAudioAttributes structure [DirectShow], DVD_MultichannelAudioAttributesStructure, dshow.dvd_multichannelaudioattributes, strmif/DVD_MultichannelAudioAttributes
-ms.topic: struct
 f1_keywords:
 - strmif/DVD_MultichannelAudioAttributes
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: ec661cff-4671-401b-9c77-5036549762af
 ms.date: 12/05/2018
 ms.keywords: GetOrigin, GetOrigin method [XPS Documents and Packaging], GetOrigin method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetOrigin method, IXpsOMGlyphs.GetOrigin, IXpsOMGlyphs::GetOrigin, xps.ixpsomglyphs_getorigin, xpsobjectmodel/IXpsOMGlyphs::GetOrigin
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGlyphs.GetOrigin
 dev_langs:

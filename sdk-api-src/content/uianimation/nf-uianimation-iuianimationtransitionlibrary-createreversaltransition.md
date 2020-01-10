@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: ca1d0551-333f-4fe1-b288-5ccce846d697
 ms.date: 12/05/2018
 ms.keywords: CreateReversalTransition, CreateReversalTransition method [Windows Animation], CreateReversalTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateReversalTransition method, IUIAnimationTransitionLibrary.CreateReversalTransition, IUIAnimationTransitionLibrary::CreateReversalTransition, uianimation.iuianimationtransitionlibrary_createreversaltransition, uianimation/IUIAnimationTransitionLibrary::CreateReversalTransition
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationTransitionLibrary.CreateReversalTransition
 dev_langs:

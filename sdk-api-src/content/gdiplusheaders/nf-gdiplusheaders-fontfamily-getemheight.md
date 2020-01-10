@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\getemheight.htm
 ms.date: 12/05/2018
 ms.keywords: FontFamily class [GDI+],GetEmHeight method, FontFamily.GetEmHeight, FontFamily::GetEmHeight, GetEmHeight, GetEmHeight method [GDI+], GetEmHeight method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_GetEmHeight_style_, gdiplus._gdiplus_CLASS_FontFamily_GetEmHeight_style_
-ms.topic: method
 f1_keywords:
 - gdiplusheaders/FontFamily.GetEmHeight
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: ba86d245-1ec2-42aa-9502-256981109700
 ms.date: 12/05/2018
 ms.keywords: '*PPATHDATA, PATHDATA, PATHDATA structure [Display Devices], PPATHDATA, PPATHDATA structure pointer [Display Devices], display.pathdata, grstrcts_43da3a1c-2330-4cdf-81d6-aefa9d61eda3.xml, winddi/PATHDATA, winddi/PPATHDATA'
-ms.topic: struct
 f1_keywords:
 - winddi/PATHDATA
 dev_langs:

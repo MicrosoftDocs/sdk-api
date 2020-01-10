@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: f8e3ed16-7a4f-424a-ae6d-4f81ab344af0
 ms.date: 12/05/2018
 ms.keywords: TF_GetThreadMgr, TF_GetThreadMgr function [Text Services Framework], msctf/TF_GetThreadMgr, tsf.tf_getthreadmgr
-ms.topic: function
 f1_keywords:
 - msctf/TF_GetThreadMgr
 dev_langs:

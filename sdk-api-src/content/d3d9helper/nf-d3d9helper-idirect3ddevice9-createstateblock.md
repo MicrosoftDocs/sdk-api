@@ -7,7 +7,6 @@ tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createstateblock.htm
 ms.date: 12/05/2018
 ms.keywords: CreateStateBlock, CreateStateBlock method [Direct3D 9], CreateStateBlock method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateStateBlock method, IDirect3DDevice9.CreateStateBlock, IDirect3DDevice9::CreateStateBlock, bc860c8f-4665-5146-40bc-db147a89e0b4, d3d9helper/IDirect3DDevice9::CreateStateBlock, direct3d9.idirect3ddevice9__createstateblock
-ms.topic: method
 f1_keywords:
 - d3d9helper/IDirect3DDevice9.CreateStateBlock
 dev_langs:

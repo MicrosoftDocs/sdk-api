@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 7c7edeb7-5bc1-4ede-8fe4-78fc7c6bdd30
 ms.date: 12/05/2018
 ms.keywords: IProcessInitializer, IProcessInitializer interface [COM+], IProcessInitializer interface [COM+],described, _cos_IProcessInitializer, comsvcs/IProcessInitializer, cos.iprocessinitializer
-ms.topic: interface
 f1_keywords:
 - comsvcs/IProcessInitializer
 dev_langs:

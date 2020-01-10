@@ -7,7 +7,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentity\inamedentity.htm
 ms.date: 12/05/2018
 ms.keywords: INamedEntity, INamedEntity interface [search], INamedEntity interface [search],described, _search_INamedEntity, search._search_INamedEntity, structuredquery/INamedEntity
-ms.topic: interface
 f1_keywords:
 - structuredquery/INamedEntity
 dev_langs:

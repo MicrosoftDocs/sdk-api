@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 154b7567-0f25-49c3-90b2-58c95f0ebfee
 ms.date: 12/05/2018
 ms.keywords: IObjectConstructString interface [COM+],get_ConstructString method, IObjectConstructString.get_ConstructString, IObjectConstructString::get_ConstructString, _cos_IObjectConstructString_get_ConstructString, comsvcs/IObjectConstructString::get_ConstructString, cos.iobjectconstructstring_get_constructstring, get_ConstructString, get_ConstructString method [COM+], get_ConstructString method [COM+],IObjectConstructString interface
-ms.topic: method
 f1_keywords:
 - comsvcs/IObjectConstructString.get_ConstructString
 dev_langs:

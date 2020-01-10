@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 767f30c9-6071-4f04-876d-b8b2392e650c
 ms.date: 12/05/2018
 ms.keywords: IAzObjectPicker, IAzObjectPicker interface [Security], IAzObjectPicker interface [Security],described, azroles/IAzObjectPicker, security.iazobjectpicker
-ms.topic: interface
 f1_keywords:
 - azroles/IAzObjectPicker
 dev_langs:

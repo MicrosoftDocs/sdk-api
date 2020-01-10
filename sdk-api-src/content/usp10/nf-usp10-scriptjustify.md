@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 9419eb80-cd33-4974-a1f1-d43276cb7a91
 ms.date: 12/05/2018
 ms.keywords: ScriptJustify, ScriptJustify function [Internationalization for Windows Applications], _win32_ScriptJustify, intl.scriptjustify, usp10/ScriptJustify
-ms.topic: function
 f1_keywords:
 - usp10/ScriptJustify
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: devio
 ms.assetid: b8789f1c-7d82-4637-bdb0-016a22b3bc8a
 ms.date: 12/05/2018
 ms.keywords: '*PDEV_BROADCAST_PORT_A, DEV_BROADCAST_PORT, DEV_BROADCAST_PORT structure, DEV_BROADCAST_PORT_A, PDEV_BROADCAST_PORT, PDEV_BROADCAST_PORT structure pointer, _win32_dev_broadcast_port_str, base.dev_broadcast_port_str, dbt/DEV_BROADCAST_PORT, dbt/PDEV_BROADCAST_PORT'
-ms.topic: struct
 f1_keywords:
 - dbt/DEV_BROADCAST_PORT
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: 736ea54d-ca17-4cb5-bcb2-95b4377f321c
 ms.date: 12/05/2018
 ms.keywords: IPSEC_KEY_MANAGER_CALLBACKS0, IPSEC_KEY_MANAGER_CALLBACKS0 structure [Filtering], fwp.ipsec_key_manager_callbacks0, fwpmu/IPSEC_KEY_MANAGER_CALLBACKS0
-ms.topic: struct
 f1_keywords:
 - fwpmu/IPSEC_KEY_MANAGER_CALLBACKS0
 dev_langs:

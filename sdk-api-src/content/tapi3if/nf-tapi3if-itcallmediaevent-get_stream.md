@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 2afcb8ee-1f8c-41d0-8a8f-f34ebf09d224
 ms.date: 12/05/2018
 ms.keywords: ITCallMediaEvent interface [TAPI 2.2],get_Stream method, ITCallMediaEvent.get_Stream, ITCallMediaEvent::get_Stream, _tapi3_itcallmediaevent_get_stream, get_Stream, get_Stream method [TAPI 2.2], get_Stream method [TAPI 2.2],ITCallMediaEvent interface, tapi3.itcallmediaevent_get_stream, tapi3if/ITCallMediaEvent::get_Stream
-ms.topic: method
 f1_keywords:
 - tapi3if/ITCallMediaEvent.get_Stream
 dev_langs:

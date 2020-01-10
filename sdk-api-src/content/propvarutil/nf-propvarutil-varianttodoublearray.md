@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: 6830c2e2-d19a-45d5-af15-debfb08548bc
 ms.date: 12/05/2018
 ms.keywords: VariantToDoubleArray, VariantToDoubleArray function [Windows Properties], _shell_VariantToDoubleArray, properties.VariantToDoubleArray, propvarutil/VariantToDoubleArray, shell.VariantToDoubleArray
-ms.topic: function
 f1_keywords:
 - propvarutil/VariantToDoubleArray
 dev_langs:

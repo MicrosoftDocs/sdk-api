@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 220ba610-1694-470d-8b5e-e6b5fc3b4d0b
 ms.date: 01/30/19
 ms.keywords: LPFN_DISCONNECTEX
-ms.topic: language-reference
 f1_keywords:
 - mswsock/LPFN_DISCONNECTEX
 dev_langs:

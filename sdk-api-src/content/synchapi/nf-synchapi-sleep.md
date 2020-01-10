@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 934d37ea-402c-4118-bd7e-87b5fce80fca
 ms.date: 12/05/2018
 ms.keywords: Sleep, Sleep function, _win32_sleep, base.sleep, synchapi/Sleep, winbase/Sleep
-ms.topic: function
 f1_keywords:
 - synchapi/Sleep
 dev_langs:

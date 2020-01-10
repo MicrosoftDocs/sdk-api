@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 55e1b899-aa9f-45eb-9cfa-d645ea659988
 ms.date: 12/05/2018
 ms.keywords: IScrollProvider, IScrollProvider interface [Windows Accessibility], IScrollProvider interface [Windows Accessibility],described, uiauto.uiauto_IScrollProvider, uiauto_IScrollProvider, uiautomationcore/IScrollProvider, winauto.uiauto_IScrollProvider
-ms.topic: interface
 f1_keywords:
 - uiautomationcore/IScrollProvider
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 07aed597-359f-4f4b-9edf-168c15bdc58e
 ms.date: 12/05/2018
 ms.keywords: IEnumShellItems, IEnumShellItems interface [Windows Shell], IEnumShellItems interface [Windows Shell],described, _shell_IEnumShellItems, shell.IEnumShellItems, shobjidl_core/IEnumShellItems
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IEnumShellItems
 dev_langs:

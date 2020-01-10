@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 06dfb631-fe5a-45d9-89f9-1f13990500ee
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsEvents, IMbnSmsEvents interface [Microsoft Broadband Networks], IMbnSmsEvents interface [Microsoft Broadband Networks],described, mbn.imbnsmsevents, mbnapi/IMbnSmsEvents
-ms.topic: interface
 f1_keywords:
 - mbnapi/IMbnSmsEvents
 dev_langs:

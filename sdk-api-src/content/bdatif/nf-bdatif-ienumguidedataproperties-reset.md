@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 5e019e0e-81f7-4eb9-9ddb-e20e7e216e33
 ms.date: 12/05/2018
 ms.keywords: IEnumGuideDataProperties interface [Microsoft TV Technologies],Reset method, IEnumGuideDataProperties.Reset, IEnumGuideDataProperties::Reset, IEnumGuideDataPropertiesReset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],IEnumGuideDataProperties interface, bdatif/IEnumGuideDataProperties::Reset, mstv.ienumguidedataproperties_reset
-ms.topic: method
 f1_keywords:
 - bdatif/IEnumGuideDataProperties.Reset
 dev_langs:

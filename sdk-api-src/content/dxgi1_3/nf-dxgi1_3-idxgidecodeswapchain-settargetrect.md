@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: 2B3D71F9-B13B-4680-8284-41B32CA58CEE
 ms.date: 12/05/2018
 ms.keywords: IDXGIDecodeSwapChain interface [DXGI],SetTargetRect method, IDXGIDecodeSwapChain.SetTargetRect, IDXGIDecodeSwapChain::SetTargetRect, SetTargetRect, SetTargetRect method [DXGI], SetTargetRect method [DXGI],IDXGIDecodeSwapChain interface, direct3ddxgi.idxgidecodeswapchain_settargetrect, dxgi1_3/IDXGIDecodeSwapChain::SetTargetRect
-ms.topic: method
 f1_keywords:
 - dxgi1_3/IDXGIDecodeSwapChain.SetTargetRect
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: a9e83067-1fd2-4f31-ac6e-545623613f88
 ms.date: 12/05/2018
 ms.keywords: DrvGetTrueTypeFile, DrvGetTrueTypeFile function [Display Devices], ddifncs_ce14ab7e-837a-4e44-bae6-7630912ff16a.xml, display.drvgettruetypefile, winddi/DrvGetTrueTypeFile
-ms.topic: function
 f1_keywords:
 - winddi/DrvGetTrueTypeFile
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 1ede7c58-bc6d-4930-bca6-e4f26f97c648
 ms.date: 12/05/2018
 ms.keywords: BG_ENABLE_PEERCACHING_CLIENT, BG_ENABLE_PEERCACHING_SERVER, IBitsPeerCacheAdministration interface [BITS],SetConfigurationFlags method, IBitsPeerCacheAdministration.SetConfigurationFlags, IBitsPeerCacheAdministration::SetConfigurationFlags, SetConfigurationFlags, SetConfigurationFlags method [BITS], SetConfigurationFlags method [BITS],IBitsPeerCacheAdministration interface, bits.ibitspeercacheadministration_setconfigurationflags, bits3_0/IBitsPeerCacheAdministration::SetConfigurationFlags
-ms.topic: method
 f1_keywords:
 - bits3_0/IBitsPeerCacheAdministration.SetConfigurationFlags
 dev_langs:

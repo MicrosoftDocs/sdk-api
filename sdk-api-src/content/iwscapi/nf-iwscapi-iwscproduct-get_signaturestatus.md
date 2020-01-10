@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: 07F7EADE-44E9-472F-BA30-7B7EDEF48192
 ms.date: 12/05/2018
 ms.keywords: IWscProduct interface [Windows API],get_SignatureStatus method, IWscProduct.get_SignatureStatus, IWscProduct::get_SignatureStatus, get_SignatureStatus, get_SignatureStatus method [Windows API], get_SignatureStatus method [Windows API],IWscProduct interface, iwscapi/IWscProduct::get_SignatureStatus, winprog.iwscproduct_signaturestatus
-ms.topic: method
 f1_keywords:
 - iwscapi/IWscProduct.get_SignatureStatus
 dev_langs:

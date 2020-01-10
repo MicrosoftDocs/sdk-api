@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 71f9cef9-33a2-48f2-a14f-aad364116e93
 ms.date: 12/05/2018
 ms.keywords: LongLongMult, LongLongMult function [Windows Shell], intsafe/LongLongMult, shell.LongLongMult
-ms.topic: function
 f1_keywords:
 - intsafe/LongLongMult
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: 1b6d3136-91e2-4653-a4b0-ae2f66a6c5a2
 ms.date: 12/05/2018
 ms.keywords: 1, 2, DsFreeDomainControllerInfo, DsFreeDomainControllerInfo function [Active Directory], DsFreeDomainControllerInfoA, DsFreeDomainControllerInfoW, _glines_dsfreedomaincontrollerinfo, ad.dsfreedomaincontrollerinfo, ntdsapi/DsFreeDomainControllerInfo, ntdsapi/DsFreeDomainControllerInfoA, ntdsapi/DsFreeDomainControllerInfoW
-ms.topic: function
 f1_keywords:
 - ntdsapi/DsFreeDomainControllerInfo
 dev_langs:

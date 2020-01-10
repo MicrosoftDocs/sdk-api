@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 74c329cc-af54-4cf8-8cb6-eed9e96db4c5
 ms.date: 12/05/2018
 ms.keywords: DXVAHDSW_CALLBACKS, DXVAHDSW_CALLBACKS structure [Media Foundation], dxvahd/DXVAHDSW_CALLBACKS, mf.dxvahdsw_callbacks
-ms.topic: struct
 f1_keywords:
 - dxvahd/DXVAHDSW_CALLBACKS
 dev_langs:

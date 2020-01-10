@@ -5,7 +5,6 @@ description: Defines the range of supported values for an image filter.
 tech.root: mf
 ms.assetid: d9effd83-7420-45be-b360-eea63db64d1c
 ms.date: 05/28/2019
-ms.topic: struct
 f1_keywords:
 - D3D12_VIDEO_PROCESS_FILTER_RANGE
 dev_langs:

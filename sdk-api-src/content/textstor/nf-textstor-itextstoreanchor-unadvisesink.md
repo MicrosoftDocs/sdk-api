@@ -7,7 +7,6 @@ tech.root: TSF
 ms.assetid: 01ddc659-0ed9-41e9-bde9-92aad9d74716
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],UnadviseSink method, ITextStoreAnchor.UnadviseSink, ITextStoreAnchor::UnadviseSink, UnadviseSink, UnadviseSink method [Text Services Framework], UnadviseSink method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::UnadviseSink, tsf.itextstoreanchor_unadvisesink
-ms.topic: method
 f1_keywords:
 - textstor/ITextStoreAnchor.UnadviseSink
 dev_langs:

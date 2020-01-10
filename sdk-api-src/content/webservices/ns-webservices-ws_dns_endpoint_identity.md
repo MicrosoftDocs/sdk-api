@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 09dea451-68ae-4052-8563-30f15c1335d6
 ms.date: 12/05/2018
 ms.keywords: WS_DNS_ENDPOINT_IDENTITY, WS_DNS_ENDPOINT_IDENTITY structure [Web Services for Windows], webservices/WS_DNS_ENDPOINT_IDENTITY, wsw.ws_dns_endpoint_identity
-ms.topic: struct
 f1_keywords:
 - webservices/WS_DNS_ENDPOINT_IDENTITY
 dev_langs:

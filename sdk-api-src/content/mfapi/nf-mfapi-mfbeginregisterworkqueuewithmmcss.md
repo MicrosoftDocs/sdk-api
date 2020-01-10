@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 9bcc6ab3-b7da-4b32-a868-c16f83ce20ca
 ms.date: 12/05/2018
 ms.keywords: 9bcc6ab3-b7da-4b32-a868-c16f83ce20ca, MFBeginRegisterWorkQueueWithMMCSS, MFBeginRegisterWorkQueueWithMMCSS function [Media Foundation], mf.mfbeginregisterworkqueuewithmmcss, mfapi/MFBeginRegisterWorkQueueWithMMCSS
-ms.topic: function
 f1_keywords:
 - mfapi/MFBeginRegisterWorkQueueWithMMCSS
 dev_langs:

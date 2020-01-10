@@ -7,7 +7,6 @@ tech.root: Policy
 ms.assetid: 0d899190-7345-4762-ab59-b89e2e87d10f
 ms.date: 12/05/2018
 ms.keywords: ProcessGroupPolicyCompletedEx, ProcessGroupPolicyCompletedEx function [Group Policy], _win32_processgrouppolicycompletedex, policy.processgrouppolicycompletedex, userenv/ProcessGroupPolicyCompletedEx
-ms.topic: function
 f1_keywords:
 - userenv/ProcessGroupPolicyCompletedEx
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: NetMgmt
 ms.assetid: 501232ad-2821-4bbd-9f16-0f49984f6101
 ms.date: 12/05/2018
 ms.keywords: NetServerComputerNameDel, NetServerComputerNameDel function [Network Management], _win32_netservercomputernamedel, lmserver/NetServerComputerNameDel, netmgmt.netservercomputernamedel
-ms.topic: function
 f1_keywords:
 - lmserver/NetServerComputerNameDel
 dev_langs:

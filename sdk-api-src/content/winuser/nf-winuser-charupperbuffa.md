@@ -7,7 +7,6 @@ tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charupperbuff.htm
 ms.date: 12/05/2018
 ms.keywords: CharUpperBuff, CharUpperBuff function [Menus and Other Resources], CharUpperBuffA, CharUpperBuffW, _win32_CharUpperBuff, _win32_charupperbuff_cpp, menurc.charupperbuff, winui._win32_charupperbuff, winuser/CharUpperBuff, winuser/CharUpperBuffA, winuser/CharUpperBuffW
-ms.topic: function
 f1_keywords:
 - winuser/CharUpperBuff
 dev_langs:

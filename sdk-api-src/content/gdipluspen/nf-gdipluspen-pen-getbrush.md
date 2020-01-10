@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getbrush.htm
 ms.date: 12/05/2018
 ms.keywords: GetBrush, GetBrush method [GDI+], GetBrush method [GDI+],Pen class, Pen class [GDI+],GetBrush method, Pen.GetBrush, Pen::GetBrush, _gdiplus_CLASS_Pen_GetBrush_, gdiplus._gdiplus_CLASS_Pen_GetBrush_
-ms.topic: method
 f1_keywords:
 - gdipluspen/Pen.GetBrush
 dev_langs:

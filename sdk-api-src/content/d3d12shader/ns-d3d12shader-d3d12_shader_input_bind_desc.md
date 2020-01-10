@@ -7,7 +7,6 @@ tech.root: direct3d12
 ms.assetid: 4179C417-388D-4A20-8878-D074E20A706F
 ms.date: 12/05/2018
 ms.keywords: D3D12_SHADER_INPUT_BIND_DESC, D3D12_SHADER_INPUT_BIND_DESC structure, d3d12shader/D3D12_SHADER_INPUT_BIND_DESC, direct3d12.d3d12_shader_input_bind_desc
-ms.topic: struct
 f1_keywords:
 - d3d12shader/D3D12_SHADER_INPUT_BIND_DESC
 dev_langs:

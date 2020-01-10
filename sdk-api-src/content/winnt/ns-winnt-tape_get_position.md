@@ -7,7 +7,6 @@ tech.root: Backup
 ms.assetid: e5615648-3a70-4f34-b49e-f651a2e0b9c5
 ms.date: 12/05/2018
 ms.keywords: '*PTAPE_GET_POSITION, PTAPE_GET_POSITION, PTAPE_GET_POSITION structure pointer [Backup], TAPE_ABSOLUTE_POSITION, TAPE_GET_POSITION, TAPE_GET_POSITION structure [Backup], TAPE_LOGICAL_POSITION, _TAPE_GET_POSITION, _win32_tape_get_position_str, backup.tape_get_position_str, base.tape_get_position_str, winnt/PTAPE_GET_POSITION, winnt/TAPE_GET_POSITION'
-ms.topic: struct
 f1_keywords:
 - winnt/TAPE_GET_POSITION
 dev_langs:

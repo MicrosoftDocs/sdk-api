@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 1c12003a-c2f3-4069-8bd6-b8f2875b0c98
 ms.date: 12/05/2018
 ms.keywords: CMSG_BARE_CONTENT_FLAG, CMSG_CMS_ENCAPSULATED_CONTENT_FLAG, CMSG_CONTENTS_OCTETS_FLAG, CMSG_DATA, CMSG_DETACHED_FLAG, CMSG_ENCRYPTED, CMSG_ENVELOPED, CMSG_HASHED, CMSG_SIGNED, CMSG_SIGNED_AND_ENVELOPED, CryptMsgCalculateEncodedLength, CryptMsgCalculateEncodedLength function [Security], _crypto2_cryptmsgcalculateencodedlength, security.cryptmsgcalculateencodedlength, wincrypt/CryptMsgCalculateEncodedLength
-ms.topic: function
 f1_keywords:
 - wincrypt/CryptMsgCalculateEncodedLength
 dev_langs:

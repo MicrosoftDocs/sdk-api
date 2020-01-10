@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 148be96b-be8d-4ad7-a5ad-f22599114cfa
 ms.date: 12/05/2018
 ms.keywords: AddMemberName, AddMemberName method [Security], AddMemberName method [Security],AzApplicationGroup object, AddMemberName method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddMemberName method, IAzApplicationGroup interface [Security],AddMemberName method, IAzApplicationGroup.AddMemberName, IAzApplicationGroup::AddMemberName, azroles/IAzApplicationGroup::AddMemberName, security.iazapplicationgroup_addmembername
-ms.topic: method
 f1_keywords:
 - azroles/IAzApplicationGroup.AddMemberName
 dev_langs:

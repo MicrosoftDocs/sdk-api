@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: a42a001b-210c-4e89-823e-ec1e1fa58f67
 ms.date: 12/05/2018
 ms.keywords: Deserialize, Deserialize method [Microsoft TV Technologies], Deserialize method [Microsoft TV Technologies],IPersistTuneXmlUtility interface, IPersistTuneXmlUtility interface [Microsoft TV Technologies],Deserialize method, IPersistTuneXmlUtility.Deserialize, IPersistTuneXmlUtility::Deserialize, mstv.ipersisttunexmlutility_deserialize, tuner/IPersistTuneXmlUtility::Deserialize
-ms.topic: method
 f1_keywords:
 - tuner/IPersistTuneXmlUtility.Deserialize
 dev_langs:

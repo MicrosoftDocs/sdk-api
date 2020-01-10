@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_sethorizontalextent.htm
 ms.date: 12/05/2018
 ms.keywords: ListBox_SetHorizontalExtent, ListBox_SetHorizontalExtent macro [Windows Controls], _win32_ListBox_SetHorizontalExtent, _win32_ListBox_SetHorizontalExtent_cpp, controls.ListBox_SetHorizontalExtent, controls._win32_ListBox_SetHorizontalExtent, windowsx/ListBox_SetHorizontalExtent
-ms.topic: macro
 f1_keywords:
 - windowsx/ListBox_SetHorizontalExtent
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 03ce09b4-d80e-480d-9219-d226df055f18
 ms.date: 12/05/2018
 ms.keywords: WSCWriteProviderOrder32, WSCWriteProviderOrder32 function [Winsock], sporder/WSCWriteProviderOrder32, winsock.wscwriteproviderorder32
-ms.topic: function
 f1_keywords:
 - sporder/WSCWriteProviderOrder32
 dev_langs:

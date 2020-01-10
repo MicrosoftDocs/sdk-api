@@ -7,7 +7,6 @@ tech.root: DHCP
 ms.assetid: d5c0cff9-7164-4f14-a0a9-58311390ebd9
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_OPTION_SCOPE_INFO6, DHCP_OPTION_SCOPE_INFO6, DHCP_OPTION_SCOPE_INFO6 structure [DHCP], PDHCP_OPTION_SCOPE_INFO6, PDHCP_OPTION_SCOPE_INFO6 structure pointer [DHCP], dhcp.dhcp_option_scope_info6, dhcpsapi/DHCP_OPTION_SCOPE_INFO6, dhcpsapi/PDHCP_OPTION_SCOPE_INFO6'
-ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_OPTION_SCOPE_INFO6
 dev_langs:

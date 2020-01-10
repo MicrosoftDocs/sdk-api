@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getviewrect.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_GetViewRect, ListView_GetViewRect macro [Windows Controls], _win32_ListView_GetViewRect, _win32_ListView_GetViewRect_cpp, commctrl/ListView_GetViewRect, controls.ListView_GetViewRect, controls._win32_ListView_GetViewRect
-ms.topic: macro
 f1_keywords:
 - commctrl/ListView_GetViewRect
 dev_langs:

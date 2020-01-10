@@ -7,7 +7,6 @@ tech.root: ProcThread
 ms.assetid: 46c3d3f7-7a82-40d3-8a9e-0f8d0df534f3
 ms.date: 12/05/2018
 ms.keywords: GetCurrentProcessorNumberEx, GetCurrentProcessorNumberEx function, base.getcurrentprocessornumberex, processthreadsapi/GetCurrentProcessorNumberEx, winbase/GetCurrentProcessorNumberEx
-ms.topic: function
 f1_keywords:
 - processthreadsapi/GetCurrentProcessorNumberEx
 dev_langs:

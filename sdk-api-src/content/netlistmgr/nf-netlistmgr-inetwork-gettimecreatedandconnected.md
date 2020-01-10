@@ -7,7 +7,6 @@ tech.root: nla
 ms.assetid: 607ce0be-fe7e-4969-b9d0-db1def054f67
 ms.date: 12/05/2018
 ms.keywords: GetTimeCreatedAndConnected, GetTimeCreatedAndConnected method [Network Awareness], GetTimeCreatedAndConnected method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetTimeCreatedAndConnected method, INetwork.GetTimeCreatedAndConnected, INetwork::GetTimeCreatedAndConnected, netlistmgr/INetwork::GetTimeCreatedAndConnected, nla.inetwork_gettimecreatedandconnected
-ms.topic: method
 f1_keywords:
 - netlistmgr/INetwork.GetTimeCreatedAndConnected
 dev_langs:

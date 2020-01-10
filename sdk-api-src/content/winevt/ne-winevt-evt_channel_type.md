@@ -7,7 +7,6 @@ tech.root: wes
 ms.assetid: 5650dd28-b0ef-4d74-abc6-85ed2bd56b38
 ms.date: 12/05/2018
 ms.keywords: EVT_CHANNEL_TYPE, EVT_CHANNEL_TYPE enumeration [EventLog], EvtChannelTypeAdmin, EvtChannelTypeAnalytic, EvtChannelTypeDebug, EvtChannelTypeOperational, wes.evt_channel_type, winevt/EVT_CHANNEL_TYPE, winevt/EvtChannelTypeAdmin, winevt/EvtChannelTypeAnalytic, winevt/EvtChannelTypeDebug, winevt/EvtChannelTypeOperational
-ms.topic: enum
 f1_keywords:
 - winevt/EVT_CHANNEL_TYPE
 dev_langs:

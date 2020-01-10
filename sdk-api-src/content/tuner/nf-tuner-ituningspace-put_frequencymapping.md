@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 665ab139-773c-4e02-896f-2f97063a786f
 ms.date: 12/05/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],put_FrequencyMapping method, ITuningSpace.put_FrequencyMapping, ITuningSpace::put_FrequencyMapping, ITuningSpaceput_FrequencyMapping, mstv.ituningspace_put_frequencymapping, put_FrequencyMapping, put_FrequencyMapping method [Microsoft TV Technologies], put_FrequencyMapping method [Microsoft TV Technologies],ITuningSpace interface, tuner/ITuningSpace::put_FrequencyMapping
-ms.topic: method
 f1_keywords:
 - tuner/ITuningSpace.put_FrequencyMapping
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: properties
 ms.assetid: f8ca7844-057f-4e95-a4a9-f03f1d2ad492
 ms.date: 12/05/2018
 ms.keywords: VariantToStringWithDefault, VariantToStringWithDefault function [Windows Properties], _shell_VariantToStringWithDefault, properties.VariantToStringWithDefault, propvarutil/VariantToStringWithDefault, shell.VariantToStringWithDefault
-ms.topic: function
 f1_keywords:
 - propvarutil/VariantToStringWithDefault
 dev_langs:

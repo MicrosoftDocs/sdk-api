@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: c2ba04ea-0f98-4513-b8f8-658056a493e6
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_SZ_VALUE, PRESUTIL_GET_SZ_VALUE function [Failover Cluster], ResUtilGetSzValue, ResUtilGetSzValue function [Failover Cluster], _wolf_resutilgetszvalue, mscs.resutilgetszvalue, resapi/PRESUTIL_GET_SZ_VALUE, resapi/ResUtilGetSzValue
-ms.topic: function
 f1_keywords:
 - resapi/ResUtilGetSzValue
 dev_langs:

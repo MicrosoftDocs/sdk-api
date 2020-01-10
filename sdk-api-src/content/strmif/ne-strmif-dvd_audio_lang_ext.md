@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 01d82199-18e1-4d84-add1-f4f6790155c8
 ms.date: 12/05/2018
 ms.keywords: DVD_AUDIO_LANG_EXT, DVD_AUDIO_LANG_EXT , DVD_AUDIO_LANG_EXT enumeration [DirectShow], DVD_AUDIO_LANG_EXTEnumeration, DVD_AUD_EXT_Captions, DVD_AUD_EXT_DirectorComments1, DVD_AUD_EXT_DirectorComments2, DVD_AUD_EXT_NotSpecified, DVD_AUD_EXT_VisuallyImpaired, dshow.dvd_audio_lang_ext, strmif/DVD_AUDIO_LANG_EXT, strmif/DVD_AUD_EXT_Captions, strmif/DVD_AUD_EXT_DirectorComments1, strmif/DVD_AUD_EXT_DirectorComments2, strmif/DVD_AUD_EXT_NotSpecified, strmif/DVD_AUD_EXT_VisuallyImpaired
-ms.topic: enum
 f1_keywords:
 - strmif/DVD_AUDIO_LANG_EXT
 dev_langs:

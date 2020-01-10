@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 0d2d6255-54c7-4110-9ee0-7019e9c7cb83
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],RecycleApplicationInstances method, ICOMAdminCatalog2.RecycleApplicationInstances, ICOMAdminCatalog2::RecycleApplicationInstances, RecycleApplicationInstances, RecycleApplicationInstances method [COM+], RecycleApplicationInstances method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_RecycleApplicationInstances, comadmin/ICOMAdminCatalog2::RecycleApplicationInstances, cos.icomadmincatalog2_recycleapplicationinstances
-ms.topic: method
 f1_keywords:
 - comadmin/ICOMAdminCatalog2.RecycleApplicationInstances
 dev_langs:

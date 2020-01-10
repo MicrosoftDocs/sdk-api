@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.assetid: d937ea44-1ca3-49e0-913d-fb77888d05fc
 ms.date: 12/05/2018
 ms.keywords: IpReleaseAddress, IpReleaseAddress function [IP Helper], _iphlp_ipreleaseaddress, iphlp.ipreleaseaddress, iphlpapi/IpReleaseAddress
-ms.topic: function
 f1_keywords:
 - iphlpapi/IpReleaseAddress
 dev_langs:

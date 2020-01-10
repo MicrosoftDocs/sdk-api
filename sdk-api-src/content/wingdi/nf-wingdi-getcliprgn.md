@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 66c807b8-129f-40f2-b8d8-995e0a5e22e4
 ms.date: 12/05/2018
 ms.keywords: GetClipRgn, GetClipRgn function [Windows GDI], _win32_GetClipRgn, gdi.getcliprgn, wingdi/GetClipRgn
-ms.topic: function
 f1_keywords:
 - wingdi/GetClipRgn
 dev_langs:

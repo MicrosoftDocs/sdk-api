@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 6e0ae94c-eab9-4ca2-a982-a5673f73130e
 ms.date: 12/05/2018
 ms.keywords: GetDynamicTerminalClasses, GetDynamicTerminalClasses method [TAPI 2.2], GetDynamicTerminalClasses method [TAPI 2.2],ITTerminalManager interface, ITTerminalManager interface [TAPI 2.2],GetDynamicTerminalClasses method, ITTerminalManager.GetDynamicTerminalClasses, ITTerminalManager::GetDynamicTerminalClasses, _tapi3_itterminalmanager_getdynamicterminalclasses, tapi3.itterminalmanager_getdynamicterminalclasses, termmgr/ITTerminalManager::GetDynamicTerminalClasses
-ms.topic: method
 f1_keywords:
 - termmgr/ITTerminalManager.GetDynamicTerminalClasses
 dev_langs:

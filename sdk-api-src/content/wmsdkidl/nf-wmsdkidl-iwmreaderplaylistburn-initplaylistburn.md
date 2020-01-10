@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: a20a70af-49bc-408f-8c64-779525436f8d
 ms.date: 12/05/2018
 ms.keywords: IWMReaderPlaylistBurn interface [windows Media Format],InitPlaylistBurn method, IWMReaderPlaylistBurn.InitPlaylistBurn, IWMReaderPlaylistBurn::InitPlaylistBurn, IWMReaderPlaylistBurnInitPlaylistBurn, InitPlaylistBurn, InitPlaylistBurn method [windows Media Format], InitPlaylistBurn method [windows Media Format],IWMReaderPlaylistBurn interface, wmformat.iwmreaderplaylistburn_initplaylistburn, wmsdkidl/IWMReaderPlaylistBurn::InitPlaylistBurn
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderPlaylistBurn.InitPlaylistBurn
 dev_langs:

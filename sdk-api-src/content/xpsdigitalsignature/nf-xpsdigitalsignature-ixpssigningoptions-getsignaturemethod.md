@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: ab01420f-c401-463a-a695-4594c1f579d3
 ms.date: 12/05/2018
 ms.keywords: GetSignatureMethod, GetSignatureMethod method [XPS Documents and Packaging], GetSignatureMethod method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetSignatureMethod method, IXpsSigningOptions.GetSignatureMethod, IXpsSigningOptions::GetSignatureMethod, xps.ixpssigningoptions_getsignaturemethod, xpsdigitalsignature/IXpsSigningOptions::GetSignatureMethod
-ms.topic: method
 f1_keywords:
 - xpsdigitalsignature/IXpsSigningOptions.GetSignatureMethod
 dev_langs:

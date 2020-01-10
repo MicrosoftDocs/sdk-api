@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 9e7bab30-5cc6-4c55-82e4-d888e1af59ed
 ms.date: 12/05/2018
 ms.keywords: WlxNegotiate, WlxNegotiate function [Security], _gina_wlxnegotiate, security.wlxnegotiate, winwlx/WlxNegotiate
-ms.topic: function
 f1_keywords:
 - winwlx/WlxNegotiate
 dev_langs:

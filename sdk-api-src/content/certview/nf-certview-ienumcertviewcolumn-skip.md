@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 9a101e5b-a137-4e15-81b6-90e0fc14b887
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWCOLUMN interface [Security],Skip method, IEnumCERTVIEWCOLUMN object [Security],Skip method, IEnumCERTVIEWCOLUMN.Skip, IEnumCERTVIEWCOLUMN::Skip, Skip, Skip method [Security], Skip method [Security],IEnumCERTVIEWCOLUMN interface, Skip method [Security],IEnumCERTVIEWCOLUMN object, _certsrv_ienumcertviewcolumn_skip, certview/IEnumCERTVIEWCOLUMN::Skip, security.ienumcertviewcolumn_skip
-ms.topic: method
 f1_keywords:
 - certview/IEnumCERTVIEWCOLUMN.Skip
 dev_langs:

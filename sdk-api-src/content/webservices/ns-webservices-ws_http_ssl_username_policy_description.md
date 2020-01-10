@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: e36fe31b-fed0-42f2-ba23-43954a28df59
 ms.date: 12/05/2018
 ms.keywords: WS_HTTP_SSL_USERNAME_POLICY_DESCRIPTION, WS_HTTP_SSL_USERNAME_POLICY_DESCRIPTION structure [Web Services for Windows], webservices/WS_HTTP_SSL_USERNAME_POLICY_DESCRIPTION, wsw.ws_http_ssl_username_policy_description
-ms.topic: struct
 f1_keywords:
 - webservices/WS_HTTP_SSL_USERNAME_POLICY_DESCRIPTION
 dev_langs:

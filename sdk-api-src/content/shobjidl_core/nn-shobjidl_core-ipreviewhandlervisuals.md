@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3e07af46-4271-472d-be80-70eccc26729c
 ms.date: 12/05/2018
 ms.keywords: IPreviewHandlerVisuals, IPreviewHandlerVisuals interface [Windows Shell], IPreviewHandlerVisuals interface [Windows Shell],described, _shell_IPreviewHandlerVisuals, shell.IPreviewHandlerVisuals, shobjidl_core/IPreviewHandlerVisuals
-ms.topic: interface
 f1_keywords:
 - shobjidl_core/IPreviewHandlerVisuals
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WmiSdk
 ms.assetid: 855b4c2f-5379-4dd9-9638-072e256e955a
 ms.date: 12/05/2018
 ms.keywords: IsOk, IsOk method [Windows Management Instrumentation], IsOk method [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],IsOk method, WBEMTimeSpan.IsOk, WBEMTimeSpan::IsOk, _hmm_wbemtimespan_isok, wbemtime/WBEMTimeSpan::IsOk, wmi.wbemtimespan_isok
-ms.topic: method
 f1_keywords:
 - wbemtime/WBEMTimeSpan.IsOk
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: c5088ce2-5744-4061-957b-25831478a714
 ms.date: 12/05/2018
 ms.keywords: ID2D1ImageBrush, ID2D1ImageBrush interface [Direct2D], ID2D1ImageBrush interface [Direct2D],described, d2d1_1/ID2D1ImageBrush, direct2d.id2d1imagebrush
-ms.topic: interface
 f1_keywords:
 - d2d1_1/ID2D1ImageBrush
 dev_langs:

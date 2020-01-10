@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 9d5ad574-a2b6-49cc-8783-4947c3d81d25
 ms.date: 12/05/2018
 ms.keywords: PROCESSOR_ARCHITECTURE_AMD64, PROCESSOR_ARCHITECTURE_IA64, PROCESSOR_ARCHITECTURE_INTEL, WdsCliInitializeLog, WdsCliInitializeLog function [Windows Deployment Services], wds.wdscliinitializelog, wdsclientapi/WdsCliInitializeLog
-ms.topic: function
 f1_keywords:
 - wdsclientapi/WdsCliInitializeLog
 dev_langs:

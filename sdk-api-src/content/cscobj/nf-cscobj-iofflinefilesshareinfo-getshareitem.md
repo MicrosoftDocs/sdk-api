@@ -7,7 +7,6 @@ tech.root: offlinefiles
 ms.assetid: fd4f92fb-1147-4be4-a61d-04f2f371b6c6
 ms.date: 12/05/2018
 ms.keywords: GetShareItem, GetShareItem method [Offline Files], GetShareItem method [Offline Files],IOfflineFilesShareInfo interface, IOfflineFilesShareInfo interface [Offline Files],GetShareItem method, IOfflineFilesShareInfo.GetShareItem, IOfflineFilesShareInfo::GetShareItem, cscobj/IOfflineFilesShareInfo::GetShareItem, of.iofflinefilesshareinfo_getshareitem
-ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesShareInfo.GetShareItem
 dev_langs:

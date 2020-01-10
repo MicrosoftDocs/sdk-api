@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: c09c5d80-9de6-424b-bd57-bf6a450221e4
 ms.date: 12/05/2018
 ms.keywords: VDMEnumTaskWOWEx, VDMEnumTaskWOWEx function [Windows API], vdmdbg/VDMEnumTaskWOWEx, winprog.vdmenumtaskwowex
-ms.topic: function
 f1_keywords:
 - vdmdbg/VDMEnumTaskWOWEx
 dev_langs:

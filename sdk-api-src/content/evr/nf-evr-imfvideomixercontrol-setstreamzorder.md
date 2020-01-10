@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 6187724a-6345-4feb-90a0-097b6d21180f
 ms.date: 12/05/2018
 ms.keywords: 6187724a-6345-4feb-90a0-097b6d21180f, IMFVideoMixerControl interface [Media Foundation],SetStreamZOrder method, IMFVideoMixerControl.SetStreamZOrder, IMFVideoMixerControl::SetStreamZOrder, SetStreamZOrder, SetStreamZOrder method [Media Foundation], SetStreamZOrder method [Media Foundation],IMFVideoMixerControl interface, evr/IMFVideoMixerControl::SetStreamZOrder, mf.imfvideomixercontrol_setstreamzorder
-ms.topic: method
 f1_keywords:
 - evr/IMFVideoMixerControl.SetStreamZOrder
 dev_langs:

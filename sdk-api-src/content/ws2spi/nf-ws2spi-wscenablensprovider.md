@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 2dff5af6-3011-4e3f-b812-fffaca8fa2d9
 ms.date: 12/05/2018
 ms.keywords: WSCEnableNSProvider, WSCEnableNSProvider function [Winsock], _win32_wscenablensprovider_2, winsock.wscenablensprovider_2, ws2spi/WSCEnableNSProvider
-ms.topic: function
 f1_keywords:
 - ws2spi/WSCEnableNSProvider
 dev_langs:

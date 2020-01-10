@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: 38fd52a7-c2af-4c69-a104-aba6a602fbf4
 ms.date: 12/05/2018
 ms.keywords: PerfDecrementULongLongCounterValue, PerfDecrementULongLongCounterValue function [Perf], perf.perfdecrementulonglongcountervalue, perflib/PerfDecrementULongLongCounterValue
-ms.topic: function
 f1_keywords:
 - perflib/PerfDecrementULongLongCounterValue
 dev_langs:

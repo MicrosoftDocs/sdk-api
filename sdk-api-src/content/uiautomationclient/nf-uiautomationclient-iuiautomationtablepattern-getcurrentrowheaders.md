@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 5669bdc7-a240-4c05-acf1-b1ff5e5b09fc
 ms.date: 12/05/2018
 ms.keywords: GetCurrentRowHeaders, GetCurrentRowHeaders method [Windows Accessibility], GetCurrentRowHeaders method [Windows Accessibility],IUIAutomationTablePattern interface, IUIAutomationTablePattern interface [Windows Accessibility],GetCurrentRowHeaders method, IUIAutomationTablePattern.GetCurrentRowHeaders, IUIAutomationTablePattern::GetCurrentRowHeaders, uiauto.uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders, uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders, uiautomationclient/IUIAutomationTablePattern::GetCurrentRowHeaders, winauto.uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationTablePattern.GetCurrentRowHeaders
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: d123ef44-e047-4188-a2bc-20e479869dc3
 ms.date: 12/05/2018
 ms.keywords: CreateDIBPatternBrush, CreateDIBPatternBrush function [Windows GDI], DIB_PAL_COLORS, DIB_RGB_COLORS, _win32_CreateDIBPatternBrush, gdi.createdibpatternbrush, wingdi/CreateDIBPatternBrush
-ms.topic: function
 f1_keywords:
 - wingdi/CreateDIBPatternBrush
 dev_langs:

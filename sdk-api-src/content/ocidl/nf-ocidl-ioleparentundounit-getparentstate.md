@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 23eb1768-b68a-4b97-94a4-eeb7b840dda8
 ms.date: 12/05/2018
 ms.keywords: GetParentState, GetParentState method [COM], GetParentState method [COM],IOleParentUndoUnit interface, IOleParentUndoUnit interface [COM],GetParentState method, IOleParentUndoUnit.GetParentState, IOleParentUndoUnit::GetParentState, _ole_ioleparentundounit_getparentstate, com.ioleparentundounit_getparentstate, ocidl/IOleParentUndoUnit::GetParentState
-ms.topic: method
 f1_keywords:
 - ocidl/IOleParentUndoUnit.GetParentState
 dev_langs:

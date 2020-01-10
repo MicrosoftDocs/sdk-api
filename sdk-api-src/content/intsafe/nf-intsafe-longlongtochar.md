@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: c76efb04-4211-467c-8eff-d0648c426784
 ms.date: 12/05/2018
 ms.keywords: LongLongToChar, LongLongToChar function [Windows Shell], intsafe/LongLongToChar, shell.LongLongToChar
-ms.topic: function
 f1_keywords:
 - intsafe/LongLongToChar
 dev_langs:

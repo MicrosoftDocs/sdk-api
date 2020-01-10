@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: 8B279914-E23A-479B-8621-E83DE1978597
 ms.date: 12/05/2018
 ms.keywords: CfSetPinState, CfSetPinState function, cfapi/CfSetPinState, cloudApi.cfsetpinstate
-ms.topic: function
 f1_keywords:
 - cfapi/CfSetPinState
 dev_langs:

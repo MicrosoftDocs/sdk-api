@@ -7,7 +7,6 @@ tech.root: printdocs
 ms.assetid: 43cb56db-e09e-47cb-b50b-7827131659fd
 ms.date: 12/05/2018
 ms.keywords: IXpsOMBrush, IXpsOMBrush interface [XPS Documents and Packaging], IXpsOMBrush interface [XPS Documents and Packaging],described, xps.ixpsombrush, xpsobjectmodel/IXpsOMBrush
-ms.topic: interface
 f1_keywords:
 - xpsobjectmodel/IXpsOMBrush
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 52bfec03-4cb3-4418-b467-f75d2900ba40
 ms.date: 12/05/2018
 ms.keywords: DATE_LONGDATE, DATE_MONTHDAY, DATE_SHORTDATE, DATE_YEARMONTH, EnumDateFormatsExEx, EnumDateFormatsExEx function [Internationalization for Windows Applications], _win32_EnumDateFormatsExEx, intl.enumdateformatsexex, winnls/EnumDateFormatsExEx
-ms.topic: function
 f1_keywords:
 - winnls/EnumDateFormatsExEx
 dev_langs:

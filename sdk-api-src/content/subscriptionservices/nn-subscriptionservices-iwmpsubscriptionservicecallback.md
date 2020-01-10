@@ -7,7 +7,6 @@ tech.root: WMP
 ms.assetid: c40d492e-030a-4e67-9199-09f44f39a507
 ms.date: 12/05/2018
 ms.keywords: IWMPSubscriptionServiceCallback, IWMPSubscriptionServiceCallback interface [Windows Media Player], IWMPSubscriptionServiceCallback interface [Windows Media Player],described, IWMPSubscriptionServiceCallbackInterface, subscriptionservices/IWMPSubscriptionServiceCallback, wmp.iwmpsubscriptionservicecallback
-ms.topic: interface
 f1_keywords:
 - subscriptionservices/IWMPSubscriptionServiceCallback
 dev_langs:

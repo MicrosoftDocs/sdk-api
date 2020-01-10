@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 373cabed-af09-4d54-b4e1-0ef87727430a
 ms.date: 12/05/2018
 ms.keywords: GetCurrentActualFrameRate, GetCurrentActualFrameRate method [DirectShow], GetCurrentActualFrameRate method [DirectShow],IAMVideoControl interface, IAMVideoControl interface [DirectShow],GetCurrentActualFrameRate method, IAMVideoControl.GetCurrentActualFrameRate, IAMVideoControl::GetCurrentActualFrameRate, IAMVideoControlGetCurrentActualFrameRate, dshow.iamvideocontrol_getcurrentactualframerate, strmif/IAMVideoControl::GetCurrentActualFrameRate
-ms.topic: method
 f1_keywords:
 - strmif/IAMVideoControl.GetCurrentActualFrameRate
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinSock
 ms.assetid: 16735fd1-289d-425a-8ad2-c20d73888b1b
 ms.date: 12/05/2018
 ms.keywords: LPWSPSOCKET, WSPSocket, LPWSPSocket function [Winsock], _win32_wspsocket_2, winsock.wspsocket_2, ws2spi/LPWSPSocket
-ms.topic: callback
 f1_keywords:
 - ws2spi/LPWSPSocket
 dev_langs:

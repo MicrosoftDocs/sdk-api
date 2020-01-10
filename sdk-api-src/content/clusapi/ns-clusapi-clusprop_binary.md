@@ -7,7 +7,6 @@ tech.root: MsCS
 ms.assetid: 61169871-4998-4e9f-97dc-77344bbfa962
 ms.date: 12/05/2018
 ms.keywords: '*PCLUSPROP_BINARY, CLUSPROP_BINARY, CLUSPROP_BINARY structure [Failover Cluster], PCLUSPROP_BINARY, PCLUSPROP_BINARY structure pointer [Failover Cluster], _wolf_clusprop_binary, clusapi/CLUSPROP_BINARY, clusapi/PCLUSPROP_BINARY, mscs.clusprop_binary'
-ms.topic: struct
 f1_keywords:
 - clusapi/CLUSPROP_BINARY
 dev_langs:

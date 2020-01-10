@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: a21fe7b9-75db-4c5b-bb29-42d305f048a1
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo2, IBasicVideo2 interface [DirectShow], IBasicVideo2 interface [DirectShow],described, IBasicVideo2Interface, control/IBasicVideo2, dshow.ibasicvideo2
-ms.topic: interface
 f1_keywords:
 - control/IBasicVideo2
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: perfctrs
 ms.assetid: 42CAB98C-4525-499D-BA11-731A666E112D
 ms.date: 12/05/2018
 ms.keywords: PerfQueryCounterInfo, PerfQueryCounterInfo function [Perf], perf.perfquerycounterinfo, perflib/PerfQueryCounterInfo
-ms.topic: function
 f1_keywords:
 - perflib/PerfQueryCounterInfo
 dev_langs:

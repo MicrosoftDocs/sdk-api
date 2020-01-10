@@ -7,7 +7,6 @@ tech.root: Debug
 ms.assetid: 3d60358c-8aa6-4b30-a46e-ce0e15964b5a
 ms.date: 12/05/2018
 ms.keywords: ReBaseImage64, ReBaseImage64 function, base.rebaseimage64, imagehlp/ReBaseImage64
-ms.topic: function
 f1_keywords:
 - imagehlp/ReBaseImage64
 dev_langs:

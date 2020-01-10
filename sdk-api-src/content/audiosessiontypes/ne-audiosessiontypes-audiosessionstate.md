@@ -7,7 +7,6 @@ tech.root: CoreAudio
 ms.assetid: a972fed6-425f-46c8-b0cc-6538460bb104
 ms.date: 12/05/2018
 ms.keywords: AudioSessionState, AudioSessionState , AudioSessionState enumeration [Core Audio], AudioSessionStateActive, AudioSessionStateExpired, AudioSessionStateInactive, audiosessiontypes/AudioSessionState, audiosessiontypes/AudioSessionStateActive, audiosessiontypes/AudioSessionStateExpired, audiosessiontypes/AudioSessionStateInactive, coreaudio.audiosessionstate
-ms.topic: enum
 f1_keywords:
 - audiosessiontypes/AudioSessionState
 dev_langs:

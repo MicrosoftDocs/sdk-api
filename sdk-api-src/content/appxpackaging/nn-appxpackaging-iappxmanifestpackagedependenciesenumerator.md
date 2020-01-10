@@ -7,7 +7,6 @@ tech.root: appxpkg
 ms.assetid: A09709AE-301F-4457-8E02-1A88FB283A43
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestPackageDependenciesEnumerator, IAppxManifestPackageDependenciesEnumerator interface [App packaging and management], IAppxManifestPackageDependenciesEnumerator interface [App packaging and management],described, appxpackaging/IAppxManifestPackageDependenciesEnumerator, appxpkg.iappxmanifestpackagedependenciesenumerator
-ms.topic: interface
 f1_keywords:
 - appxpackaging/IAppxManifestPackageDependenciesEnumerator
 dev_langs:

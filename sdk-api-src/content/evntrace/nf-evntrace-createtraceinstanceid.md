@@ -7,7 +7,6 @@ tech.root: ETW
 ms.assetid: ab890392-f1e4-4b4e-a46c-8c7c2bfd3897
 ms.date: 12/05/2018
 ms.keywords: CreateTraceInstanceId, CreateTraceInstanceId function [ETW], _evt_createtraceinstanceid, base.createtraceinstanceid, etw.createtraceinstanceid, evntrace/CreateTraceInstanceId
-ms.topic: function
 f1_keywords:
 - evntrace/CreateTraceInstanceId
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\gettrimming.htm
 ms.date: 12/05/2018
 ms.keywords: GetTrimming, GetTrimming method [GDI+], GetTrimming method [GDI+],StringFormat class, StringFormat class [GDI+],GetTrimming method, StringFormat.GetTrimming, StringFormat::GetTrimming, _gdiplus_CLASS_StringFormat_GetTrimming_, gdiplus._gdiplus_CLASS_StringFormat_GetTrimming_
-ms.topic: method
 f1_keywords:
 - gdiplusstringformat/StringFormat.GetTrimming
 dev_langs:

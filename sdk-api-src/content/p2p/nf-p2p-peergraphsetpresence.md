@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: f9d34fb0-4834-4fcf-ab44-e16c8114a3f4
 ms.date: 12/05/2018
 ms.keywords: PeerGraphSetPresence, PeerGraphSetPresence function [Peer Networking], p2p.peergraphsetpresence, p2p/PeerGraphSetPresence
-ms.topic: function
 f1_keywords:
 - p2p/PeerGraphSetPresence
 dev_langs:

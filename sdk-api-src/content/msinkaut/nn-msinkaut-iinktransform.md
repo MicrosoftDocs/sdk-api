@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 1C9562EF-8CF4-4F0C-94FC-3ED54F6493E5
 ms.date: 12/05/2018
 ms.keywords: IInkTransform, IInkTransform interface [Tablet PC], IInkTransform interface [Tablet PC],described, msinkaut/IInkTransform, tablet.iinktransform
-ms.topic: interface
 f1_keywords:
 - msinkaut/IInkTransform
 dev_langs:

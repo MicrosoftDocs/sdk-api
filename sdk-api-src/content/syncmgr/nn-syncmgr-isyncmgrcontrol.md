@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 197c4e6f-ffc4-4f19-a5bd-6859eef953c2
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrControl, ISyncMgrControl interface [Windows Shell], ISyncMgrControl interface [Windows Shell],described, _shell_ISyncMgrControl, shell.ISyncMgrControl, syncmgr/ISyncMgrControl
-ms.topic: interface
 f1_keywords:
 - syncmgr/ISyncMgrControl
 dev_langs:

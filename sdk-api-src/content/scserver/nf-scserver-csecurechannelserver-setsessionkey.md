@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: 207435a6-0b16-49d9-a366-878331732a14
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],SetSessionKey method, CSecureChannelServer.SetSessionKey, CSecureChannelServer::SetSessionKey, CSecureChannelServerSetSessionKey, SetSessionKey, SetSessionKey method [windows Media Device Manager], SetSessionKey method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::SetSessionKey, wmdm.csecurechannelserver_setsessionkey
-ms.topic: method
 f1_keywords:
 - scserver/CSecureChannelServer.SetSessionKey
 dev_langs:

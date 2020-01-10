@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: cdc13cd3-bd6f-422e-89fe-244e7a7540bd
 ms.date: 12/05/2018
 ms.keywords: IEnumVdsObject interface [VDS],Reset method, IEnumVdsObject.Reset, IEnumVdsObject::Reset, Reset, Reset method [VDS], Reset method [VDS],IEnumVdsObject interface, base.ienumvdsobject_reset, vds/IEnumVdsObject::Reset, vdshwprv/IEnumVdsObject::Reset
-ms.topic: method
 f1_keywords:
 - vds/IEnumVdsObject.Reset
 dev_langs:

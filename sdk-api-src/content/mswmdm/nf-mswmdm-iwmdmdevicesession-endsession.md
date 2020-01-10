@@ -7,7 +7,6 @@ tech.root: WMDM
 ms.assetid: f587a20a-936f-49a4-8e56-2e05b3d295f6
 ms.date: 12/05/2018
 ms.keywords: EndSession, EndSession method [windows Media Device Manager], EndSession method [windows Media Device Manager],IWMDMDeviceSession interface, IWMDMDeviceSession interface [windows Media Device Manager],EndSession method, IWMDMDeviceSession.EndSession, IWMDMDeviceSession::EndSession, IWMDMDeviceSessionEndSession, mswmdm/IWMDMDeviceSession::EndSession, wmdm.iwmdmdevicesession_endsession
-ms.topic: method
 f1_keywords:
 - mswmdm/IWMDMDeviceSession.EndSession
 dev_langs:

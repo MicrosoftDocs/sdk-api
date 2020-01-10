@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMINT3.operator = (const XMINT3)
 ms.date: 05/13/2019
 ms.keywords: Use DirectX..XMINT3.operator =, Use DirectX::::XMINT3::operator =, XMINT3 structure [DirectX Math Support APIs],operator = method, XMINT3.operator =, XMINT3.operator-assign, XMINT3.operator=, XMINT3::operator-assign, XMINT3::operator=, dxmath.xmint3_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMINT3 structure, operator=
-ms.topic: method
 f1_keywords:
 - directxmath/XMINT3.operator =
 dev_langs:

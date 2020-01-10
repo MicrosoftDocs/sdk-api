@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 50b105c7-1e4f-435c-8bb6-643ea4d065bb
 ms.date: 12/05/2018
 ms.keywords: GetPriorityRecords, GetPriorityRecords method [windows Media Format], GetPriorityRecords method [windows Media Format],IWMStreamPrioritization interface, IWMStreamPrioritization interface [windows Media Format],GetPriorityRecords method, IWMStreamPrioritization.GetPriorityRecords, IWMStreamPrioritization::GetPriorityRecords, IWMStreamPrioritizationGetPriorityRecords, wmformat.iwmstreamprioritization_getpriorityrecords, wmsdkidl/IWMStreamPrioritization::GetPriorityRecords
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMStreamPrioritization.GetPriorityRecords
 dev_langs:

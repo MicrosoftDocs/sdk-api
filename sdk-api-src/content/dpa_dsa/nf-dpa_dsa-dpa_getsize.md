@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_getsize.htm
 ms.date: 12/05/2018
 ms.keywords: DPA_GetSize, DPA_GetSize function [Windows Controls], _shell_DPA_GetSize, _shell_DPA_GetSize_cpp, controls.DPA_GetSize, controls._shell_DPA_GetSize, dpa_dsa/DPA_GetSize
-ms.topic: function
 f1_keywords:
 - dpa_dsa/DPA_GetSize
 dev_langs:

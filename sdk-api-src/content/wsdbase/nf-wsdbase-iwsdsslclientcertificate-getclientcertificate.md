@@ -7,7 +7,6 @@ tech.root: WsdApi
 ms.assetid: 82f3f4ae-80fe-4382-9a22-00c70e99524f
 ms.date: 12/05/2018
 ms.keywords: GetClientCertificate, GetClientCertificate method, GetClientCertificate method,IWSDSSLClientCertificate interface, IWSDSSLClientCertificate interface,GetClientCertificate method, IWSDSSLClientCertificate.GetClientCertificate, IWSDSSLClientCertificate::GetClientCertificate, ncd.iwsdsslclientcertificate_getclientcertificate, wsdbase/IWSDSSLClientCertificate::GetClientCertificate
-ms.topic: method
 f1_keywords:
 - wsdbase/IWSDSSLClientCertificate.GetClientCertificate
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 01325520-0cb3-46c2-b5a1-f07c5f8d7c7b
 ms.date: 12/05/2018
 ms.keywords: IDVBTuningSpace2, IDVBTuningSpace2 interface [Microsoft TV Technologies], IDVBTuningSpace2 interface [Microsoft TV Technologies],described, IDVBTuningSpace2Interface, mstv.idvbtuningspace2, tuner/IDVBTuningSpace2
-ms.topic: interface
 f1_keywords:
 - tuner/IDVBTuningSpace2
 dev_langs:

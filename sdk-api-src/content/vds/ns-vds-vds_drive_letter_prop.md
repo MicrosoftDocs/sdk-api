@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: b944e29a-85b0-4cab-b804-1a09a19caddb
 ms.date: 12/05/2018
 ms.keywords: '*PVDS_DRIVE_LETTER_PROP, PVDS_DRIVE_LETTER_PROP VDS_ASYNC_OUTPUT_TYPE, PVDS_DRIVE_LETTER_PROP VDS_ASYNC_OUTPUT_TYPE structure pointer [VDS], VDS_DRIVE_LETTER_PROP, VDS_DRIVE_LETTER_PROP structure [VDS], base.vds_drive_letter_prop, vds/PVDS_DRIVE_LETTER_PROP VDS_ASYNC_OUTPUT_TYPE, vds/_VDS_DRIVE_LETTER_PROP'
-ms.topic: struct
 f1_keywords:
 - vds/VDS_DRIVE_LETTER_PROP
 dev_langs:

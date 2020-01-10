@@ -7,7 +7,6 @@ tech.root: input_ink
 ms.assetid: c8c5e1c4-c5a5-4172-a101-66276b7024e2
 ms.date: 12/05/2018
 ms.keywords: IInkDesktopHost interface,QueueWorkItem method, IInkDesktopHost.QueueWorkItem, IInkDesktopHost::QueueWorkItem, InkPresenterDesktop.iinkdesktophost_queueworkitem, QueueWorkItem, QueueWorkItem method, QueueWorkItem method,IInkDesktopHost interface, inkpresenterdesktop/IInkDesktopHost::QueueWorkItem, input_ink.iinkdesktophost_queueworkitem
-ms.topic: method
 f1_keywords:
 - inkpresenterdesktop/IInkDesktopHost.QueueWorkItem
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: directcomp
 ms.assetid: 2FCE8558-2EED-4A44-93F3-796984C47AF0
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip.SetTopRightRadiusX, IDCompositionRectangleClip::SetTopRightRadiusX, SetTopRightRadiusX, SetTopRightRadiusX methods [DirectComposition], dcomp/SetTopRightRadiusX, directcomp.idcompositionrectangleclip_settoprightradiusx
-ms.topic: method
 f1_keywords:
 - dcomp/IDCompositionRectangleClip::SetTopRightRadiusX
 dev_langs:

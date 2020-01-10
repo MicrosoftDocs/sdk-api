@@ -7,7 +7,6 @@ tech.root: Rpc
 ms.assetid: 19fa750f-76f8-4005-992f-9c2707e48668
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtWaitServerListen, RpcMgmtWaitServerListen function [RPC], _rpc_rpcmgmtwaitserverlisten, rpc.rpcmgmtwaitserverlisten, rpcdce/RpcMgmtWaitServerListen
-ms.topic: function
 f1_keywords:
 - rpcdce/RpcMgmtWaitServerListen
 dev_langs:

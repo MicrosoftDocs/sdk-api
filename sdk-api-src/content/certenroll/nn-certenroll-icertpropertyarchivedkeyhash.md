@@ -7,7 +7,6 @@ tech.root: seccertenroll
 ms.assetid: 06696346-b9d1-4229-991e-539862cff3c9
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyArchivedKeyHash, ICertPropertyArchivedKeyHash interface [Security], ICertPropertyArchivedKeyHash interface [Security],described, certenroll/ICertPropertyArchivedKeyHash, security.icertpropertyarchivedkeyhash
-ms.topic: interface
 f1_keywords:
 - certenroll/ICertPropertyArchivedKeyHash
 dev_langs:

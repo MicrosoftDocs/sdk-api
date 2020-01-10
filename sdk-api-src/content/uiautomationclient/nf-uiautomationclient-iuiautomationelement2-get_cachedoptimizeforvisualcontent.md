@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: FB1484D0-BF83-431B-A90B-B5F1757C4928
 ms.date: 12/05/2018
 ms.keywords: CachedOptimizeForVisualContent property [Windows Accessibility], CachedOptimizeForVisualContent property [Windows Accessibility],IUIAutomationElement2 interface, IUIAutomationElement2 interface [Windows Accessibility],CachedOptimizeForVisualContent property, IUIAutomationElement2.CachedOptimizeForVisualContent, IUIAutomationElement2.get_CachedOptimizeForVisualContent, IUIAutomationElement2::CachedOptimizeForVisualContent, IUIAutomationElement2::get_CachedOptimizeForVisualContent, get_CachedOptimizeForVisualContent, uiautomationclient/IUIAutomationElement2::CachedOptimizeForVisualContent, uiautomationclient/IUIAutomationElement2::get_CachedOptimizeForVisualContent, winauto.uiauto_IUIAutomationElement_CachedOptimizeForVisualContent
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationElement2.CachedOptimizeForVisualContent
 dev_langs:

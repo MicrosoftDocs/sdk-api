@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: fb3de7e5-5a29-4f7b-8b2a-252536dedae6
 ms.date: 12/05/2018
 ms.keywords: ACDGE_GROUP_REMOVED, ACDGE_NEW_GROUP, ACDGROUP_EVENT, ACDGROUP_EVENT enumeration [TAPI 2.2], _tapi3_acdgroup_event, tapi3.acdgroup_event, tapi3cc/ACDGE_GROUP_REMOVED, tapi3cc/ACDGE_NEW_GROUP, tapi3cc/ACDGROUP_EVENT
-ms.topic: enum
 f1_keywords:
 - tapi3/ACDGROUP_EVENT
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 80FE02F1-D83B-4AA1-94F1-B754106CB19D
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgPaint, ID2D1SvgPaint interface [Direct2D], ID2D1SvgPaint interface [Direct2D],described, d2d1svg/ID2D1SvgPaint, direct2d.id2d1svgpaint
-ms.topic: interface
 f1_keywords:
 - d2d1svg/ID2D1SvgPaint
 dev_langs:

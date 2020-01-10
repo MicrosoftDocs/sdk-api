@@ -7,7 +7,6 @@ tech.root: TBS
 ms.assetid: b5f91253-ac25-4ae3-93b0-4a6492dca90c
 ms.date: 12/05/2018
 ms.keywords: Tbsi_Physical_Presence_Command, Tbsi_Physical_Presence_Command function [TBS], tbs._tbsi_physical_presence_command, tbs/Tbsi_Physical_Presence_Command
-ms.topic: function
 f1_keywords:
 - tbs/Tbsi_Physical_Presence_Command
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: aa65e143-47db-4241-9c66-fe3a1dcf1f0a
 ms.date: 12/05/2018
 ms.keywords: GetDocumentation, GetDocumentation method [Automation], GetDocumentation method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetDocumentation method, ITypeLib.GetDocumentation, ITypeLib::GetDocumentation, _oa96_ITypeLib_GetDocumentation, automat.itypelib_getdocumentation, oaidl/ITypeLib::GetDocumentation
-ms.topic: method
 f1_keywords:
 - oaidl/ITypeLib.GetDocumentation
 dev_langs:

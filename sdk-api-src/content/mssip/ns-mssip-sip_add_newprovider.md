@@ -7,7 +7,6 @@ tech.root: SecCrypto
 ms.assetid: 5ca88c0c-a7c9-4517-a874-49d38c1bc7c3
 ms.date: 12/05/2018
 ms.keywords: '*PSIP_ADD_NEWPROVIDER, PSIP_ADD_NEWPROVIDER, PSIP_ADD_NEWPROVIDER structure pointer [Security], SIP_ADD_NEWPROVIDER, SIP_ADD_NEWPROVIDER structure [Security], mssip/PSIP_ADD_NEWPROVIDER, mssip/SIP_ADD_NEWPROVIDER, security.sip_add_newprovider'
-ms.topic: struct
 f1_keywords:
 - mssip/SIP_ADD_NEWPROVIDER
 dev_langs:

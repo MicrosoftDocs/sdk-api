@@ -7,7 +7,6 @@ tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\iRendezvousSession.htm
 ms.date: 12/05/2018
 ms.keywords: IRendezvousSession, IRendezvousSession interface [Remote Assistance], IRendezvousSession interface [Remote Assistance],described, remoteassist.remoteassist_IRendezvousSession, remoteassist_IRendezvousSession, rendezvoussession/IRendezvousSession
-ms.topic: interface
 f1_keywords:
 - rendezvoussession/IRendezvousSession
 dev_langs:

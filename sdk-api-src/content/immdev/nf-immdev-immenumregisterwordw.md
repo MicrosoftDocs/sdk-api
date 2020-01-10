@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: ebeed3f9-1164-49d8-a7af-61244976643b
 ms.date: 12/05/2018
 ms.keywords: ImmEnumRegisterWord, ImmEnumRegisterWord function [Internationalization for Windows Applications], ImmEnumRegisterWordA, ImmEnumRegisterWordW, _win32_ImmEnumRegisterWord, imm/ImmEnumRegisterWord, imm/ImmEnumRegisterWordA, imm/ImmEnumRegisterWordW, intl.immenumregisterword
-ms.topic: function
 f1_keywords:
 - immdev/ImmEnumRegisterWord
 dev_langs:

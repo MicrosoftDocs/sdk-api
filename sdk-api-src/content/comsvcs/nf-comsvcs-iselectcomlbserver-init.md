@@ -7,7 +7,6 @@ tech.root: cossdk
 ms.assetid: 1b435b7f-9ddc-40c9-afb5-f5e46e782bd7
 ms.date: 12/05/2018
 ms.keywords: ISelectCOMLBServer interface [COM+],Init method, ISelectCOMLBServer.Init, ISelectCOMLBServer::Init, Init, Init method [COM+], Init method [COM+],ISelectCOMLBServer interface, _cos_ISelectCOMLBServer_Init, comsvcs/ISelectCOMLBServer::Init, cos.iselectcomlbserver_init
-ms.topic: method
 f1_keywords:
 - comsvcs/ISelectCOMLBServer.Init
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 08379071-b3cc-495a-bc8e-ad6cfacd432c
 ms.date: 12/05/2018
 ms.keywords: IEnumVdsObject, IEnumVdsObject interface [VDS], IEnumVdsObject interface [VDS],described, base.ienumvdsobject, vds/IEnumVdsObject, vdshwprv/IEnumVdsObject
-ms.topic: interface
 f1_keywords:
 - vds/IEnumVdsObject
 dev_langs:

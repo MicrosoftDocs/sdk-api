@@ -7,7 +7,6 @@ tech.root: automat
 ms.assetid: a5c21ceb-ed8b-4a95-8957-e9d7fc5bd90e
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_CALENDAR_HIJRI, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarDateFromStr, VarDateFromStr function [Automation], _oa96_VarDateFromStr, automat.vardatefromstr, oleauto/VarDateFromStr
-ms.topic: function
 f1_keywords:
 - oleauto/VarDateFromStr
 dev_langs:

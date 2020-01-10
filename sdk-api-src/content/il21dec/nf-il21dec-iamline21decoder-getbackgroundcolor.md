@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: ba75dc5b-207e-4425-a8fe-8da16fc89921
 ms.date: 12/05/2018
 ms.keywords: GetBackgroundColor, GetBackgroundColor method [DirectShow], GetBackgroundColor method [DirectShow],IAMLine21Decoder interface, IAMLine21Decoder interface [DirectShow],GetBackgroundColor method, IAMLine21Decoder.GetBackgroundColor, IAMLine21Decoder::GetBackgroundColor, IAMLine21DecoderGetBackgroundColor, dshow.iamline21decoder_getbackgroundcolor, il21dec/IAMLine21Decoder::GetBackgroundColor
-ms.topic: method
 f1_keywords:
 - il21dec/IAMLine21Decoder.GetBackgroundColor
 dev_langs:

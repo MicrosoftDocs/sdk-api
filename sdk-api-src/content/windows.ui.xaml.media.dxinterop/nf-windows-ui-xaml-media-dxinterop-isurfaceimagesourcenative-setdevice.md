@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: 24DF51D3-3438-4AB4-BCA9-D5E2051B3CEA
 ms.date: 12/05/2018
 ms.keywords: ISurfaceImageSourceNative interface [Windows Runtime],SetDevice method, ISurfaceImageSourceNative.SetDevice, ISurfaceImageSourceNative.xaml, ISurfaceImageSourceNative::SetDevice, ISurfaceImageSourceNative::xaml, SetDevice, SetDevice method [Windows Runtime], SetDevice method [Windows Runtime],ISurfaceImageSourceNative interface, windows/ISurfaceImageSourceNative::SetDevice, winrt.isurfaceimagesourcenative_setdevice
-ms.topic: method
 f1_keywords:
 - windows.ui.xaml.media.dxinterop/ISurfaceImageSourceNative.SetDevice
 dev_langs:

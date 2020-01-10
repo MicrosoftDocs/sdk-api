@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 2efe9d36-3179-486b-9691-78a88452d91c
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneGetGain, TSPI_phoneGetGain function [TAPI 2.2], _tspi_tspi_phonegetgain, tspi.tspi_phonegetgain, tspi/TSPI_phoneGetGain
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_phoneGetGain
 dev_langs:

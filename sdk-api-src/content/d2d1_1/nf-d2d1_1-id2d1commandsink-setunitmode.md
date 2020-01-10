@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: e524aa51-2499-4333-9562-a4893666b666
 ms.date: 12/05/2018
 ms.keywords: ID2D1CommandSink interface [Direct2D],SetUnitMode method, ID2D1CommandSink.SetUnitMode, ID2D1CommandSink::SetUnitMode, SetUnitMode, SetUnitMode method [Direct2D], SetUnitMode method [Direct2D],ID2D1CommandSink interface, d2d1_1/ID2D1CommandSink::SetUnitMode, direct2d.id2d1commandsink_setunitmode
-ms.topic: method
 f1_keywords:
 - d2d1_1/ID2D1CommandSink.SetUnitMode
 dev_langs:

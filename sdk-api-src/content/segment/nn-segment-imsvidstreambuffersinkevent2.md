@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 9e44b248-fc8a-44c1-9da6-8afb7649f6f4
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSinkEvent2, IMSVidStreamBufferSinkEvent2 interface [Microsoft TV Technologies], IMSVidStreamBufferSinkEvent2 interface [Microsoft TV Technologies],described, IMSVidStreamBufferSinkEvent2Interface, mstv.imsvidstreambuffersinkevent2, segment/IMSVidStreamBufferSinkEvent2
-ms.topic: interface
 f1_keywords:
 - segment/IMSVidStreamBufferSinkEvent2
 dev_langs:

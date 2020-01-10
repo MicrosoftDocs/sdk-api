@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 3dec9ab6-43d8-4dda-b0b1-a25407e4d77a
 ms.date: 12/05/2018
 ms.keywords: '*LPLINEFORWARDLIST, LINEFORWARDLIST, LINEFORWARDLIST structure [TAPI 2.2], LPLINEFORWARDLIST, LPLINEFORWARDLIST structure pointer [TAPI 2.2], _tapi2_lineforwardlist_str, tapi/LINEFORWARDLIST, tapi/LPLINEFORWARDLIST, tapi2.lineforwardlist_str'
-ms.topic: struct
 f1_keywords:
 - tapi/LINEFORWARDLIST
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 3d504eba-7fb8-44a0-9534-4e7995b9b5d4
 ms.date: 12/05/2018
 ms.keywords: GetSelectedCount, GetSelectedCount method [Windows Shell], GetSelectedCount method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetSelectedCount method, IShellFolderView.GetSelectedCount, IShellFolderView::GetSelectedCount, _shell_IShellFolderView_GetSelectedCount, shell.IShellFolderView_GetSelectedCount, shlobj_core/IShellFolderView::GetSelectedCount
-ms.topic: method
 f1_keywords:
 - shlobj_core/IShellFolderView.GetSelectedCount
 dev_langs:

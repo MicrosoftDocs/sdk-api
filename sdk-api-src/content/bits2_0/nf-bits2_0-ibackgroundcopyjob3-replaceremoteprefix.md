@@ -7,7 +7,6 @@ tech.root: Bits
 ms.assetid: 5ea62d29-c40e-4bd2-b22a-fce2d9f4eecf
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob3 interface [BITS],ReplaceRemotePrefix method, IBackgroundCopyJob3.ReplaceRemotePrefix, IBackgroundCopyJob3::ReplaceRemotePrefix, ReplaceRemotePrefix, ReplaceRemotePrefix method [BITS], ReplaceRemotePrefix method [BITS],IBackgroundCopyJob3 interface, bits.ibackgroundcopyjob3_replaceremoteprefix, bits2_0/IBackgroundCopyJob3::ReplaceRemotePrefix
-ms.topic: method
 f1_keywords:
 - bits2_0/IBackgroundCopyJob3.ReplaceRemotePrefix
 dev_langs:

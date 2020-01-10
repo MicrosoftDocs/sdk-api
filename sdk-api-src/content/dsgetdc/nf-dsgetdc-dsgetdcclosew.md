@@ -7,7 +7,6 @@ tech.root: ad
 ms.assetid: d193e4cd-ad66-4d93-b912-348f17e93a6f
 ms.date: 12/05/2018
 ms.keywords: DsGetDcClose, DsGetDcClose function [Active Directory], DsGetDcCloseW, ad.dsgetdcclose, dsgetdc/DsGetDcClose, dsgetdc/DsGetDcCloseW
-ms.topic: function
 f1_keywords:
 - dsgetdc/DsGetDcClose
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 5f264b87-dae4-4478-811f-1c99e670928a
 ms.date: 12/05/2018
 ms.keywords: IAMResourceControl interface [DirectShow],Reserve method, IAMResourceControl.Reserve, IAMResourceControl::Reserve, IAMResourceControlReserve, Reserve, Reserve method [DirectShow], Reserve method [DirectShow],IAMResourceControl interface, dshow.iamresourcecontrol_reserve, strmif/IAMResourceControl::Reserve
-ms.topic: method
 f1_keywords:
 - strmif/IAMResourceControl.Reserve
 dev_langs:

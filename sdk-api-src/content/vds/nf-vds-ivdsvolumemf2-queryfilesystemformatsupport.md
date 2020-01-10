@@ -7,7 +7,6 @@ tech.root: VDS
 ms.assetid: 770a92fb-9e70-4db0-a782-b9064daef4ef
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeMF2 interface,QueryFileSystemFormatSupport method, IVdsVolumeMF2.QueryFileSystemFormatSupport, IVdsVolumeMF2::QueryFileSystemFormatSupport, QueryFileSystemFormatSupport, QueryFileSystemFormatSupport method, QueryFileSystemFormatSupport method,IVdsVolumeMF2 interface, base.ivdsvolumemf2_queryfilesystemformatsupport, vds/IVdsVolumeMF2::QueryFileSystemFormatSupport
-ms.topic: method
 f1_keywords:
 - vds/IVdsVolumeMF2.QueryFileSystemFormatSupport
 dev_langs:

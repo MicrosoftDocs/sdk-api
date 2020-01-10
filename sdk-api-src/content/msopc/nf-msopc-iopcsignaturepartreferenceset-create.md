@@ -7,7 +7,6 @@ tech.root: OPC
 ms.assetid: 63162b37-0262-4d92-a14f-726fe4c87cc1
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Open Packaging Conventions], Create method [Open Packaging Conventions],IOpcSignaturePartReferenceSet interface, IOpcSignaturePartReferenceSet interface [Open Packaging Conventions],Create method, IOpcSignaturePartReferenceSet.Create, IOpcSignaturePartReferenceSet::Create, msopc/IOpcSignaturePartReferenceSet::Create, opc.iopcsignaturepartreferenceset_create
-ms.topic: method
 f1_keywords:
 - msopc/IOpcSignaturePartReferenceSet.Create
 dev_langs:

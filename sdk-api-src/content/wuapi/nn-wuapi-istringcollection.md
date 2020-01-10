@@ -7,7 +7,6 @@ tech.root: Wua_Sdk
 ms.assetid: 3aaab669-1f80-41ee-8c29-6da613ebccff
 ms.date: 12/05/2018
 ms.keywords: IStringCollection, IStringCollection interface [Windows Update Agent], IStringCollection interface [Windows Update Agent],described, wua.istringcollection, wuapi/IStringCollection
-ms.topic: interface
 f1_keywords:
 - wuapi/IStringCollection
 dev_langs:

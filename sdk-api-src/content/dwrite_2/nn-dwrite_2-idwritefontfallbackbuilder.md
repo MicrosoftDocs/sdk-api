@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: 462AC12E-C856-4D8F-83AF-FAC3221425C2
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFallbackBuilder, IDWriteFontFallbackBuilder interface [Direct Write], IDWriteFontFallbackBuilder interface [Direct Write],described, directwrite.idwritefontfallbackbuilder, dwrite_2/IDWriteFontFallbackBuilder
-ms.topic: interface
 f1_keywords:
 - dwrite_2/IDWriteFontFallbackBuilder
 dev_langs:

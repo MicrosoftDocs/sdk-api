@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: ef5dbf4a-ecbb-4f2c-a34d-ce3864133adc
 ms.date: 12/05/2018
 ms.keywords: IBDA_FrequencyFilter, IBDA_FrequencyFilter interface [Microsoft TV Technologies], IBDA_FrequencyFilter interface [Microsoft TV Technologies],described, IBDA_FrequencyFilterInterface, bdaiface/IBDA_FrequencyFilter, mstv.ibda_frequencyfilter
-ms.topic: interface
 f1_keywords:
 - bdaiface/IBDA_FrequencyFilter
 dev_langs:

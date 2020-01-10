@@ -7,7 +7,6 @@ tech.root: ktm
 ms.assetid: 2767e689-1342-458f-a215-a29d774c0648
 ms.date: 12/05/2018
 ms.keywords: RenameTransactionManager, RenameTransactionManager function [Files], fs.renametransactionmanager, ktmw32/RenameTransactionManager
-ms.topic: function
 f1_keywords:
 - ktmw32/RenameTransactionManager
 dev_langs:

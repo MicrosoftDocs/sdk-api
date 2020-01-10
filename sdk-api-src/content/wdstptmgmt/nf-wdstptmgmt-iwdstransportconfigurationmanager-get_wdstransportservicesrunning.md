@@ -7,7 +7,6 @@ tech.root: wds
 ms.assetid: 0296a818-1a5f-494c-869a-a124fc75cb85
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportConfigurationManager interface [Windows Deployment Services],WdsTransportServicesRunning property, IWdsTransportConfigurationManager.WdsTransportServicesRunning, IWdsTransportConfigurationManager.get_WdsTransportServicesRunning, IWdsTransportConfigurationManager::WdsTransportServicesRunning, IWdsTransportConfigurationManager::get_WdsTransportServicesRunning, WdsTransportServicesRunning property [Windows Deployment Services], WdsTransportServicesRunning property [Windows Deployment Services],IWdsTransportConfigurationManager interface, get_WdsTransportServicesRunning, wds.iwdstransportconfigurationmanager_wdstransportservicesrunning, wdstptmgmt/IWdsTransportConfigurationManager::WdsTransportServicesRunning, wdstptmgmt/IWdsTransportConfigurationManager::get_WdsTransportServicesRunning
-ms.topic: method
 f1_keywords:
 - wdstptmgmt/IWdsTransportConfigurationManager.WdsTransportServicesRunning
 dev_langs:

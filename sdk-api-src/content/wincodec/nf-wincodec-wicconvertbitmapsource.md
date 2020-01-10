@@ -7,7 +7,6 @@ tech.root: wic
 ms.assetid: ea735296-1bfd-4175-b8c9-cb5a61ab4203
 ms.date: 12/05/2018
 ms.keywords: WICConvertBitmapSource, WICConvertBitmapSource function [Windows Imaging Component], _wic_codec_wicconvertbitmapsource, wic._wic_codec_wicconvertbitmapsource, wincodec/WICConvertBitmapSource
-ms.topic: function
 f1_keywords:
 - wincodec/WICConvertBitmapSource
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 554b941d-7d03-47ae-a23a-2c47c5ca1044
 ms.date: 12/05/2018
 ms.keywords: SHEvaluateSystemCommandTemplate, SHEvaluateSystemCommandTemplate function [Windows Shell], _shell_SHEvaluateSystemCommandTemplate, shell.SHEvaluateSystemCommandTemplate, shellapi/SHEvaluateSystemCommandTemplate
-ms.topic: function
 f1_keywords:
 - shellapi/SHEvaluateSystemCommandTemplate
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wsw
 ms.assetid: 0fa127ea-a715-4f21-8b49-3c2705c2bf5d
 ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_SECURITY_CALLBACK, WS_SERVICE_SECURITY_CALLBACK callback, WS_SERVICE_SECURITY_CALLBACK callback function [Web Services for Windows], webservices/WS_SERVICE_SECURITY_CALLBACK, wsw.ws_service_security_callback
-ms.topic: callback
 f1_keywords:
 - webservices/WS_SERVICE_SECURITY_CALLBACK
 dev_langs:

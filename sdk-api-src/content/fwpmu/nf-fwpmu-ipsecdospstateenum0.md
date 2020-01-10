@@ -7,7 +7,6 @@ tech.root: fwp
 ms.assetid: d69e323b-249b-4b90-8754-2c910fbc2fc4
 ms.date: 12/05/2018
 ms.keywords: IPsecDospStateEnum0, IPsecDospStateEnum0 function [Filtering], fwp.ipsecdospstateenum0, fwpmu/IPsecDospStateEnum0
-ms.topic: function
 f1_keywords:
 - fwpmu/IPsecDospStateEnum0
 dev_langs:

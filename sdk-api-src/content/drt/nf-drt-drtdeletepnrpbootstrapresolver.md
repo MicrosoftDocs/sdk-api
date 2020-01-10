@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: 0ff7bcc6-548b-475a-8a83-1ca50dbe333d
 ms.date: 12/05/2018
 ms.keywords: DrtDeletePnrpBootstrapResolver, DrtDeletePnrpBootstrapResolver function [Peer Networking], drt/DrtDeletePnrpBootstrapResolver, p2p.drtdeletepnrpbootstrapresolver
-ms.topic: function
 f1_keywords:
 - drt/DrtDeletePnrpBootstrapResolver
 dev_langs:

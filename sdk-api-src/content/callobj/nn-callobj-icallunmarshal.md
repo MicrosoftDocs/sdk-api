@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 66de8d71-c27c-41bd-a741-02de5c779290
 ms.date: 12/05/2018
 ms.keywords: ICallUnmarshal, ICallUnmarshal interface [COM], ICallUnmarshal interface [COM],described, _com_icallunmarshal_interface, callobj/ICallUnmarshal, com.icallunmarshal
-ms.topic: interface
 f1_keywords:
 - callobj/ICallUnmarshal
 dev_langs:

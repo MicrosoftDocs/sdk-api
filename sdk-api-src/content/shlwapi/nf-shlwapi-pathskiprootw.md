@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 528a3953-26d7-4fff-be31-9c9788d429ab
 ms.date: 12/05/2018
 ms.keywords: PathSkipRoot, PathSkipRoot function [Windows Shell], PathSkipRootA, PathSkipRootW, _win32_PathSkipRoot, shell.PathSkipRoot, shlwapi/PathSkipRoot, shlwapi/PathSkipRootA, shlwapi/PathSkipRootW
-ms.topic: function
 f1_keywords:
 - shlwapi/PathSkipRoot
 dev_langs:

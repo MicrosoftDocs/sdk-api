@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 0c42d932-f359-4557-bf26-daecca48781b
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineDevSpecificFeature, TSPI_lineDevSpecificFeature function [TAPI 2.2], _tspi_tspi_linedevspecificfeature, tspi.tspi_linedevspecificfeature, tspi/TSPI_lineDevSpecificFeature
-ms.topic: function
 f1_keywords:
 - tspi/TSPI_lineDevSpecificFeature
 dev_langs:

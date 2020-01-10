@@ -7,7 +7,6 @@ tech.root: AdRms_Sdk
 ms.assetid: 54581da2-d3d1-44ee-936a-568b7d66143b
 ms.date: 12/05/2018
 ms.keywords: DRMGetRightInfo, DRMGetRightInfo function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetRightInfo, rm.drmgetrightinfo
-ms.topic: function
 f1_keywords:
 - msdrm/DRMGetRightInfo
 dev_langs:

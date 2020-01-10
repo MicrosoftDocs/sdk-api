@@ -7,7 +7,6 @@ tech.root: SecAuthZ
 ms.assetid: 52872839-1066-4a43-8549-b7f37a0ebe40
 ms.date: 12/05/2018
 ms.keywords: AddPolicyReader, AddPolicyReader method [Security], AddPolicyReader method [Security],AzAuthorizationStore object, AddPolicyReader method [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],AddPolicyReader method, IAzAuthorizationStore interface [Security],AddPolicyReader method, IAzAuthorizationStore.AddPolicyReader, IAzAuthorizationStore::AddPolicyReader, azroles/IAzAuthorizationStore::AddPolicyReader, security.azauthorizationstore_addpolicyreader
-ms.topic: method
 f1_keywords:
 - azroles/AzAuthorizationStore.AddPolicyReader
 dev_langs:

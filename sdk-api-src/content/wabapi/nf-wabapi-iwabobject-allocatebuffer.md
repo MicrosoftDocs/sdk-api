@@ -7,7 +7,6 @@ tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\allocatebuffer.htm
 ms.date: 12/05/2018
 ms.keywords: AllocateBuffer, AllocateBuffer method [Windows Address Book], AllocateBuffer method [Windows Address Book],IWABObject interface, IWABObject interface [Windows Address Book],AllocateBuffer method, IWABObject.AllocateBuffer, IWABObject::AllocateBuffer, _wab_IWABObject_AllocateBuffer, wab._wab_IWABObject_AllocateBuffer, wabapi/IWABObject::AllocateBuffer
-ms.topic: method
 f1_keywords:
 - wabapi/IWABObject.AllocateBuffer
 dev_langs:

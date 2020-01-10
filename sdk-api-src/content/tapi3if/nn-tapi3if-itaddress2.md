@@ -7,7 +7,6 @@ tech.root: Tapi
 ms.assetid: 3cc47291-8130-45bd-8db8-c5d1b463507d
 ms.date: 12/05/2018
 ms.keywords: ITAddress2, ITAddress2 interface [TAPI 2.2], ITAddress2 interface [TAPI 2.2],described, _tapi3_itaddress2, tapi3.itaddress2, tapi3if/ITAddress2
-ms.topic: interface
 f1_keywords:
 - tapi3if/ITAddress2
 dev_langs:

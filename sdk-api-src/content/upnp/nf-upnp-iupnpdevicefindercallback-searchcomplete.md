@@ -7,7 +7,6 @@ tech.root: upnp
 ms.assetid: 6fcce487-1cfb-47ec-9ea1-7df04985d506
 ms.date: 12/05/2018
 ms.keywords: IUPnPDeviceFinderCallback interface [UPnP APIs],SearchComplete method, IUPnPDeviceFinderCallback.SearchComplete, IUPnPDeviceFinderCallback::SearchComplete, SearchComplete, SearchComplete method [UPnP APIs], SearchComplete method [UPnP APIs],IUPnPDeviceFinderCallback interface, _upnp_iupnpdevicefindercallback_searchcomplete, upnp.iupnpdevicefindercallback_searchcomplete, upnp/IUPnPDeviceFinderCallback::SearchComplete
-ms.topic: method
 f1_keywords:
 - upnp/IUPnPDeviceFinderCallback.SearchComplete
 dev_langs:

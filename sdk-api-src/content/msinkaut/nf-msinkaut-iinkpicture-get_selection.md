@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: 29d54781-b83b-4733-95fe-86577958e0d1
 ms.date: 12/05/2018
 ms.keywords: 29d54781-b83b-4733-95fe-86577958e0d1, IInkPicture interface [Tablet PC],Selection property, IInkPicture.Selection, IInkPicture.get_Selection, IInkPicture::Selection, IInkPicture::get_Selection, IInkPicture::put_Selection, InkPicture.get_Selection, InkPicture.put_Selection, Selection property [Tablet PC], Selection property [Tablet PC],IInkPicture interface, get_Selection, msinkaut/IInkPicture::Selection, msinkaut/IInkPicture::get_Selection, msinkaut/IInkPicture::put_Selection, tablet.inkpicture_selection
-ms.topic: method
 f1_keywords:
 - msinkaut/IInkPicture.Selection
 dev_langs:

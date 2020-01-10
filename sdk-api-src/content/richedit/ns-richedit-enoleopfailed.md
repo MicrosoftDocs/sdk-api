@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\enoleopfailed.htm
 ms.date: 12/05/2018
 ms.keywords: ENOLEOPFAILED, ENOLEOPFAILED structure [Windows Controls], _win32_ENOLEOPFAILED_str, _win32_ENOLEOPFAILED_str_cpp, controls.ENOLEOPFAILED, controls._win32_ENOLEOPFAILED_str, richedit/ENOLEOPFAILED
-ms.topic: struct
 f1_keywords:
 - richedit/ENOLEOPFAILED
 dev_langs:

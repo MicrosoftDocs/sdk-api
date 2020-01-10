@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 349974c2-4ab9-4eb2-897d-a5934893ed07
 ms.date: 12/05/2018
 ms.keywords: SHSimpleIDListFromPath, SHSimpleIDListFromPath function [Windows Shell], _win32_SHSimpleIDListFromPath, shell.SHSimpleIDListFromPath, shobjidl_core/SHSimpleIDListFromPath
-ms.topic: function
 f1_keywords:
 - shobjidl_core/SHSimpleIDListFromPath
 dev_langs:

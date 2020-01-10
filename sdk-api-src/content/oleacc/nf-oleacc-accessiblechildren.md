@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: dc9262d8-f57f-41f8-8945-d95f38d197e9
 ms.date: 12/05/2018
 ms.keywords: AccessibleChildren, AccessibleChildren function [Windows Accessibility], _msaa_AccessibleChildren, msaa.accessiblechildren, oleacc/AccessibleChildren, winauto.accessiblechildren
-ms.topic: function
 f1_keywords:
 - oleacc/AccessibleChildren
 dev_langs:

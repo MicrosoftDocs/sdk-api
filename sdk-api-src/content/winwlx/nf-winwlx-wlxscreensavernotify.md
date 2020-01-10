@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 72ed356d-bae3-42ac-87c2-99305951e24b
 ms.date: 12/05/2018
 ms.keywords: WlxScreenSaverNotify, WlxScreenSaverNotify function [Security], _gina_wlxscreensavernotify, security.wlxscreensavernotify, winwlx/WlxScreenSaverNotify
-ms.topic: function
 f1_keywords:
 - winwlx/WlxScreenSaverNotify
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\bidioptions.htm
 ms.date: 12/05/2018
 ms.keywords: BIDIOPTIONS, BIDIOPTIONS structure [Windows Controls], BOE_CONTEXTALIGNMENT, BOE_CONTEXTREADING, BOE_FORCERECALC, BOE_LEGACYBIDICLASS, BOE_NEUTRALOVERRIDE, BOE_PLAINTEXT, BOE_RTLDIR, BOE_UNICODEBIDI, BOM_CONTEXTALIGNMENT, BOM_CONTEXTREADING, BOM_DEFPARADIR, BOM_LEGACYBIDICLASS, BOM_NEUTRALOVERRIDE, BOM_PLAINTEXT, BOM_UNICODEBIDI, _win32_BIDIOPTIONS_str, _win32_BIDIOPTIONS_str_cpp, controls.BIDIOPTIONS, controls._win32_BIDIOPTIONS_str, richedit/BIDIOPTIONS
-ms.topic: struct
 f1_keywords:
 - richedit/BIDIOPTIONS
 dev_langs:

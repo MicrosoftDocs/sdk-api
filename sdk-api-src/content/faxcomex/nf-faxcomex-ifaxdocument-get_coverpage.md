@@ -7,7 +7,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9fol.htm
 ms.date: 12/05/2018
 ms.keywords: CoverPage property [Fax Service], CoverPage property [Fax Service],IFaxDocument interface, IFaxDocument interface [Fax Service],CoverPage property, IFaxDocument.CoverPage, IFaxDocument.get_CoverPage, IFaxDocument::CoverPage, IFaxDocument::get_CoverPage, IFaxDocument::put_CoverPage, _mfax_faxdocument.coverpage, fax._mfax_faxdocument_coverpage, fax._mfax_faxdocument_cpp_mfax_faxdocument_coverpage_cpp, faxcomex/IFaxDocument::CoverPage, faxcomex/IFaxDocument::get_CoverPage, faxcomex/IFaxDocument::put_CoverPage, get_CoverPage
-ms.topic: method
 f1_keywords:
 - faxcomex/IFaxDocument.CoverPage
 dev_langs:

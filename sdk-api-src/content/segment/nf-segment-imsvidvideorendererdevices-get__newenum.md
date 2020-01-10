@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: da321f4c-801a-4e27-bc82-5dab723adf97
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRendererDevices interface [Microsoft TV Technologies],get__NewEnum method, IMSVidVideoRendererDevices.get__NewEnum, IMSVidVideoRendererDevices::get__NewEnum, IMSVidVideoRendererDevicesget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],IMSVidVideoRendererDevices interface, mstv.imsvidvideorendererdevices_get__newenum, segment/IMSVidVideoRendererDevices::get__NewEnum
-ms.topic: method
 f1_keywords:
 - segment/IMSVidVideoRendererDevices.get__NewEnum
 dev_langs:

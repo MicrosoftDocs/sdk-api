@@ -7,7 +7,6 @@ tech.root: mbn
 ms.assetid: 5701E0EB-FBDC-4791-97AA-B31F87763854
 ms.date: 12/05/2018
 ms.keywords: IMbnMultiCarrierEvents interface [Microsoft Broadband Networks],OnInterfaceCapabilityChange method, IMbnMultiCarrierEvents.OnInterfaceCapabilityChange, IMbnMultiCarrierEvents::OnInterfaceCapabilityChange, OnInterfaceCapabilityChange, OnInterfaceCapabilityChange method [Microsoft Broadband Networks], OnInterfaceCapabilityChange method [Microsoft Broadband Networks],IMbnMultiCarrierEvents interface, mbn.imbnmulticarrierevents_oninterfacecapabilitychange, mbnapi/IMbnMultiCarrierEvents::OnInterfaceCapabilityChange
-ms.topic: method
 f1_keywords:
 - mbnapi/IMbnMultiCarrierEvents.OnInterfaceCapabilityChange
 dev_langs:

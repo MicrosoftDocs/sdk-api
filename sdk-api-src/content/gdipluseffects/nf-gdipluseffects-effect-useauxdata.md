@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\effectclass\effectmethods\useauxdata.htm
 ms.date: 12/05/2018
 ms.keywords: Effect class [GDI+],UseAuxData method, Effect.UseAuxData, Effect::UseAuxData, UseAuxData, UseAuxData method [GDI+], UseAuxData method [GDI+],Effect class, _gdiplus_CLASS_Effect_UseAuxData_, gdiplus._gdiplus_CLASS_Effect_UseAuxData_
-ms.topic: method
 f1_keywords:
 - gdipluseffects/Effect.UseAuxData
 dev_langs:

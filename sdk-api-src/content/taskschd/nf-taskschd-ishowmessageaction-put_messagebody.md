@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 7a9e4140-a010-4922-83d2-a063322640c6
 ms.date: 12/05/2018
 ms.keywords: IShowMessageAction interface [Task Scheduler],MessageBody property, IShowMessageAction.MessageBody, IShowMessageAction.put_MessageBody, IShowMessageAction::MessageBody, IShowMessageAction::get_MessageBody, IShowMessageAction::put_MessageBody, MessageBody property [Task Scheduler], MessageBody property [Task Scheduler],IShowMessageAction interface, put_MessageBody, taskschd.ishowmessageaction_messagebody, taskschd/IShowMessageAction::MessageBody, taskschd/IShowMessageAction::get_MessageBody, taskschd/IShowMessageAction::put_MessageBody
-ms.topic: method
 f1_keywords:
 - taskschd/IShowMessageAction.MessageBody
 dev_langs:

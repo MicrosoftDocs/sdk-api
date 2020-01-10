@@ -7,7 +7,6 @@ tech.root: ProjFS
 ms.assetid: 9A47FAB5-A085-41C9-861C-E74F2F5AF474
 ms.date: 12/05/2018
 ms.keywords: PrjCompleteCommand, PrjCompleteCommand function, ProjFS.prjcompletecommand, projectedfslib/PrjCompleteCommand
-ms.topic: function
 f1_keywords:
 - projectedfslib/PrjCompleteCommand
 dev_langs:

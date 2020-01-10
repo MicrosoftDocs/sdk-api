@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: c172bbed-6573-4b11-9aa6-9d4dde9cd94a
 ms.date: 12/05/2018
 ms.keywords: IFsiItem interface [IMAPI],get_CreationTime method, IFsiItem.get_CreationTime, IFsiItem::get_CreationTime, get_CreationTime, get_CreationTime method [IMAPI], get_CreationTime method [IMAPI],IFsiItem interface, imapi.ifsiitem_get_creationtime, imapi2fs/IFsiItem::get_CreationTime
-ms.topic: method
 f1_keywords:
 - imapi2fs/IFsiItem.get_CreationTime
 dev_langs:

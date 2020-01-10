@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: b24dae7d-5e88-4973-8507-8bd13cdccbde
 ms.date: 12/05/2018
 ms.keywords: IVMRSurface9, IVMRSurface9 interface [DirectShow], IVMRSurface9 interface [DirectShow],described, IVMRSurface9Interface, dshow.ivmrsurface9, vmr9/IVMRSurface9
-ms.topic: interface
 f1_keywords:
 - vmr9/IVMRSurface9
 dev_langs:

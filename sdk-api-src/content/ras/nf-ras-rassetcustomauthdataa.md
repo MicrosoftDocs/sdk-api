@@ -7,7 +7,6 @@ tech.root: RRAS
 ms.assetid: a3369537-1b46-4d7b-8ee1-f6965a3f296d
 ms.date: 12/05/2018
 ms.keywords: RasSetCustomAuthData, RasSetCustomAuthData function [RAS], RasSetCustomAuthDataA, RasSetCustomAuthDataW, _ras_rassetcustomauthdata, ras/RasSetCustomAuthData, ras/RasSetCustomAuthDataA, ras/RasSetCustomAuthDataW, rras.rassetcustomauthdata
-ms.topic: function
 f1_keywords:
 - ras/RasSetCustomAuthData
 dev_langs:

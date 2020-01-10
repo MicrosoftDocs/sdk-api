@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 13292ccd-fc0c-4230-a935-4d5aed8cec97
 ms.date: 12/05/2018
 ms.keywords: IStream_WriteStr, IStream_WriteStr function [Windows Shell], _shell_IStream_WriteStr, shell.IStream_WriteStr, shlwapi/IStream_WriteStr
-ms.topic: function
 f1_keywords:
 - shlwapi/IStream_WriteStr
 dev_langs:

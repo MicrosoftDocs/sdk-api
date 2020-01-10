@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a3afae41-b46e-47c8-95bb-a0aa747c6353
 ms.date: 12/05/2018
 ms.keywords: EnableDebugging, EnableDebugging method [Windows Shell], EnableDebugging method [Windows Shell],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Shell],EnableDebugging method, IPackageDebugSettings.EnableDebugging, IPackageDebugSettings::EnableDebugging, shell.IPackageDebugSettings_EnableDebugging, shobjidl_core/IPackageDebugSettings::EnableDebugging
-ms.topic: method
 f1_keywords:
 - shobjidl_core/IPackageDebugSettings.EnableDebugging
 dev_langs:

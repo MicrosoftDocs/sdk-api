@@ -7,7 +7,6 @@ tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiadapter.htm
 ms.date: 12/05/2018
 ms.keywords: 5f145307-fa6f-0182-45d3-5fa9da029cf2, IDXGIAdapter, IDXGIAdapter interface [DXGI], IDXGIAdapter interface [DXGI],described, direct3ddxgi.idxgiadapter, dxgi/IDXGIAdapter
-ms.topic: interface
 f1_keywords:
 - dxgi/IDXGIAdapter
 dev_langs:

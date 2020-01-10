@@ -7,7 +7,6 @@ tech.root: winsync
 ms.assetid: fcc4901a-1507-461e-bbcc-a9e440ec05ce
 ms.date: 12/05/2018
 ms.keywords: ISyncProviderRegistration interface [Windows Sync],RevokeEvent method, ISyncProviderRegistration.RevokeEvent, ISyncProviderRegistration::RevokeEvent, RevokeEvent, RevokeEvent method [Windows Sync], RevokeEvent method [Windows Sync],ISyncProviderRegistration interface, syncregistration/ISyncProviderRegistration::RevokeEvent, winsync.isyncproviderregistration_revokeevent
-ms.topic: method
 f1_keywords:
 - syncregistration/ISyncProviderRegistration.RevokeEvent
 dev_langs:

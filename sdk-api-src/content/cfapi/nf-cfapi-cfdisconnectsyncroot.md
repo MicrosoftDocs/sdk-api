@@ -7,7 +7,6 @@ tech.root: cfApi
 ms.assetid: AB09804A-257B-49A2-861E-B6E102D45182
 ms.date: 12/05/2018
 ms.keywords: CfDisconnectSyncRoot, CfDisconnectSyncRoot function, cfapi/CfDisconnectSyncRoot, cloudApi.cfdisconnectsyncroot
-ms.topic: function
 f1_keywords:
 - cfapi/CfDisconnectSyncRoot
 dev_langs:

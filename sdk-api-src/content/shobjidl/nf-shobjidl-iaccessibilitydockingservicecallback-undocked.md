@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 1D704794-C729-49B9-8F72-6D77D0860B03
 ms.date: 12/05/2018
 ms.keywords: IAccessibilityDockingServiceCallback interface [COM],Undocked method, IAccessibilityDockingServiceCallback.Undocked, IAccessibilityDockingServiceCallback::Undocked, Undocked, Undocked method [COM], Undocked method [COM],IAccessibilityDockingServiceCallback interface, com.iaccessibilitydockingservicecallback_undocked, shobjidl/IAccessibilityDockingServiceCallback::Undocked
-ms.topic: method
 f1_keywords:
 - shobjidl/IAccessibilityDockingServiceCallback.Undocked
 dev_langs:

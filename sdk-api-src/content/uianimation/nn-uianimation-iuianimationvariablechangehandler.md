@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 2288b256-aaf4-44fe-9ad1-f05ef7b0e30b
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariableChangeHandler, IUIAnimationVariableChangeHandler interface [Windows Animation], IUIAnimationVariableChangeHandler interface [Windows Animation],described, uianimation.iuianimationvariablechangehandler, uianimation/IUIAnimationVariableChangeHandler
-ms.topic: interface
 f1_keywords:
 - uianimation/IUIAnimationVariableChangeHandler
 dev_langs:

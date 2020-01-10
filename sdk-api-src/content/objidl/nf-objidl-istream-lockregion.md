@@ -7,7 +7,6 @@ tech.root: Stg
 ms.assetid: f2606833-05ed-4bd0-a762-7b8172fb14c8
 ms.date: 12/05/2018
 ms.keywords: IStream interface [Structured Storage],LockRegion method, IStream.LockRegion, IStream::LockRegion, LockRegion, LockRegion method [Structured Storage], LockRegion method [Structured Storage],IStream interface, _stg_istream_lockregion, objidl/IStream::LockRegion, stg.istream_lockregion
-ms.topic: method
 f1_keywords:
 - objidl/IStream.LockRegion
 dev_langs:

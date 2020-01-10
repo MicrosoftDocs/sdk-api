@@ -7,7 +7,6 @@ tech.root: SMI
 ms.assetid: 382f2864-047e-4095-929b-a8b67773eefb
 ms.date: 12/05/2018
 ms.keywords: Deserialize, Deserialize method [SMI], Deserialize method [SMI],ISettingsContext interface, ISettingsContext interface [SMI],Deserialize method, ISettingsContext.Deserialize, ISettingsContext::Deserialize, smi.isettingscontext_deserialize, wcmconfig/ISettingsContext::Deserialize
-ms.topic: method
 f1_keywords:
 - wcmconfig/ISettingsContext.Deserialize
 dev_langs:

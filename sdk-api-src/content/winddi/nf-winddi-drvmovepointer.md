@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: eb117f39-0823-4eb7-8628-fa4399a13ec6
 ms.date: 12/05/2018
 ms.keywords: DrvMovePointer, DrvMovePointer function [Display Devices], ddifncs_4fda6dd1-abd6-45fa-ba92-d20352fe35c5.xml, display.drvmovepointer, winddi/DrvMovePointer
-ms.topic: function
 f1_keywords:
 - winddi/DrvMovePointer
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: wmformat
 ms.assetid: 0fe71d73-a827-4aed-a37b-db7701cc1180
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],ResetLoggingUrlList method, IWMReaderNetworkConfig.ResetLoggingUrlList, IWMReaderNetworkConfig::ResetLoggingUrlList, IWMReaderNetworkConfigResetLoggingUrlList, ResetLoggingUrlList, ResetLoggingUrlList method [windows Media Format], ResetLoggingUrlList method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_resetloggingurllist, wmsdkidl/IWMReaderNetworkConfig::ResetLoggingUrlList
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMReaderNetworkConfig.ResetLoggingUrlList
 dev_langs:

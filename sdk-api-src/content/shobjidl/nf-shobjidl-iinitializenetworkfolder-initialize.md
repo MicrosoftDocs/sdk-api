@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a547b6f9-a4cc-4924-97f3-9fe08e6efc06
 ms.date: 12/05/2018
 ms.keywords: IInitializeNetworkFolder interface [Windows Shell],Initialize method, IInitializeNetworkFolder.Initialize, IInitializeNetworkFolder::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeNetworkFolder interface, _shell_IInitializeNetworkFolder_Initialize, shell.IInitializeNetworkFolder_Initialize, shobjidl/IInitializeNetworkFolder::Initialize
-ms.topic: method
 f1_keywords:
 - shobjidl/IInitializeNetworkFolder.Initialize
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: A42470EE-FA05-4716-BA17-009D59FEE259
 ms.date: 12/05/2018
 ms.keywords: ILanguageExceptionTransform, ILanguageExceptionTransform interface [Windows Runtime], ILanguageExceptionTransform interface [Windows Runtime],described, restrictederrorinfo/ILanguageExceptionTransform, winrt.ilanguageexceptiontransform
-ms.topic: interface
 f1_keywords:
 - restrictederrorinfo/ILanguageExceptionTransform
 dev_langs:

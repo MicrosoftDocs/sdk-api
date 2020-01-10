@@ -7,7 +7,6 @@ tech.root: DirectWrite
 ms.assetid: C58E06D8-40CB-488E-BAF3-81A7183564C6
 ms.date: 12/05/2018
 ms.keywords: GetTextAntialiasMode, GetTextAntialiasMode method [Direct Write], GetTextAntialiasMode method [Direct Write],IDWriteBitmapRenderTarget1 interface, IDWriteBitmapRenderTarget1 interface [Direct Write],GetTextAntialiasMode method, IDWriteBitmapRenderTarget1.GetTextAntialiasMode, IDWriteBitmapRenderTarget1::GetTextAntialiasMode, directwrite.idwritebitmaprendertarget1_gettextantialiasmode, dwrite_1/IDWriteBitmapRenderTarget1::GetTextAntialiasMode
-ms.topic: method
 f1_keywords:
 - dwrite_1/IDWriteBitmapRenderTarget1.GetTextAntialiasMode
 dev_langs:

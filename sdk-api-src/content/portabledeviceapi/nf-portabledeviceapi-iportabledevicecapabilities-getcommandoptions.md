@@ -7,7 +7,6 @@ tech.root: wpd_sdk
 ms.assetid: d222968f-3ca7-4a4d-bdc6-89a6ca98c7b0
 ms.date: 12/05/2018
 ms.keywords: GetCommandOptions, GetCommandOptions method [Windows Portable Devices SDK], GetCommandOptions method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetCommandOptions method, IPortableDeviceCapabilities.GetCommandOptions, IPortableDeviceCapabilities::GetCommandOptions, IPortableDeviceCapabilitiesGetCommandOptions, portabledeviceapi/IPortableDeviceCapabilities::GetCommandOptions, wpdsdk.iportabledevicecapabilities_getcommandoptions
-ms.topic: method
 f1_keywords:
 - portabledeviceapi/IPortableDeviceCapabilities.GetCommandOptions
 dev_langs:

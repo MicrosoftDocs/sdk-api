@@ -7,7 +7,6 @@ tech.root: Multimedia
 ms.assetid: 27eef026-e401-44a2-9b46-a16b61026d2a
 ms.date: 12/05/2018
 ms.keywords: AVIFileWriteData, AVIFileWriteData function [Windows Multimedia], _win32_AVIFileWriteData, multimedia.avifilewritedata, vfw/AVIFileWriteData
-ms.topic: function
 f1_keywords:
 - vfw/AVIFileWriteData
 dev_langs:

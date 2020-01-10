@@ -7,7 +7,6 @@ tech.root: deviceaccess
 ms.assetid: 88746199-fc42-4f1d-9f97-ebd573e9cb3c
 ms.date: 12/05/2018
 ms.keywords: IDeviceRequestCompletionCallback, IDeviceRequestCompletionCallback interface [Device Access Broker API], IDeviceRequestCompletionCallback interface [Device Access Broker API],described, deviceaccess.idevicerequestcompletioncallback, deviceaccess/IDeviceRequestCompletionCallback
-ms.topic: interface
 f1_keywords:
 - deviceaccess/IDeviceRequestCompletionCallback
 dev_langs:

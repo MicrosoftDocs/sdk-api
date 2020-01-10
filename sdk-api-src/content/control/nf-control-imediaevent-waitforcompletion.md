@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 760a90fe-7cbc-4f09-ba64-afe0ab0b4c74
 ms.date: 12/05/2018
 ms.keywords: IMediaEvent interface [DirectShow],WaitForCompletion method, IMediaEvent.WaitForCompletion, IMediaEvent::WaitForCompletion, IMediaEventWaitForCompletion, WaitForCompletion, WaitForCompletion method [DirectShow], WaitForCompletion method [DirectShow],IMediaEvent interface, control/IMediaEvent::WaitForCompletion, dshow.imediaevent_waitforcompletion
-ms.topic: method
 f1_keywords:
 - control/IMediaEvent.WaitForCompletion
 dev_langs:

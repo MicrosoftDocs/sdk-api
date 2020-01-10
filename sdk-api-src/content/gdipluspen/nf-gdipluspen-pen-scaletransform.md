@@ -7,7 +7,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\scaletransform_26sx_sy_order.htm
 ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],ScaleTransform method, Pen.ScaleTransform, Pen::ScaleTransform, ScaleTransform, ScaleTransform method [GDI+], ScaleTransform method [GDI+],Pen class, _gdiplus_CLASS_Pen_ScaleTransform_sx_sy_order_, gdiplus._gdiplus_CLASS_Pen_ScaleTransform_sx_sy_order_
-ms.topic: method
 f1_keywords:
 - gdipluspen/Pen.ScaleTransform
 dev_langs:

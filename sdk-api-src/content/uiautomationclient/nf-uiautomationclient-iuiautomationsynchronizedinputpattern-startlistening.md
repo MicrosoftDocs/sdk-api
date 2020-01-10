@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: 2ecd413e-c1a8-404f-9a11-8c2c8428d6d7
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationSynchronizedInputPattern interface [Windows Accessibility],StartListening method, IUIAutomationSynchronizedInputPattern.StartListening, IUIAutomationSynchronizedInputPattern::StartListening, StartListening, StartListening method [Windows Accessibility], StartListening method [Windows Accessibility],IUIAutomationSynchronizedInputPattern interface, uiauto.uiauto_IUIAutomationSynchronizedInputPattern_StartListening, uiauto_IUIAutomationSynchronizedInputPattern_StartListening, uiautomationclient/IUIAutomationSynchronizedInputPattern::StartListening, winauto.uiauto_IUIAutomationSynchronizedInputPattern_StartListening
-ms.topic: method
 f1_keywords:
 - uiautomationclient/IUIAutomationSynchronizedInputPattern.StartListening
 dev_langs:

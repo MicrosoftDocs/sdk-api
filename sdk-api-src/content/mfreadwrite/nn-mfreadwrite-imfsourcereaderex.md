@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 59888F9B-C464-4045-AA77-03EE16E2B598
 ms.date: 12/05/2018
 ms.keywords: IMFSourceReaderEx, IMFSourceReaderEx interface [Media Foundation], IMFSourceReaderEx interface [Media Foundation],described, mf.imfsourcereaderex, mfreadwrite/IMFSourceReaderEx
-ms.topic: interface
 f1_keywords:
 - mfreadwrite/IMFSourceReaderEx
 dev_langs:

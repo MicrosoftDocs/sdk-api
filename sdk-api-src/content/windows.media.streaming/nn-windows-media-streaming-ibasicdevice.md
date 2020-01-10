@@ -7,7 +7,6 @@ tech.root: mediastreaming
 ms.assetid: E4F99A11-4ED5-44CB-BE16-CBB558412ED4
 ms.date: 12/05/2018
 ms.keywords: IBasicDevice, IBasicDevice interface [Media Streaming API], IBasicDevice interface [Media Streaming API],described, mediastreaming.ibasicdevice, windows/IBasicDevice
-ms.topic: interface
 f1_keywords:
 - windows.media.streaming/IBasicDevice
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: SecAuthN
 ms.assetid: 59f775dd-b3ed-4a57-bec7-fa6ddf267401
 ms.date: 12/05/2018
 ms.keywords: PWLX_SET_OPTION, PWLX_SET_OPTION callback, WlxSetOption, WlxSetOption callback function [Security], _gina_wlxsetoption, security.wlxsetoption, winwlx/WlxSetOption
-ms.topic: callback
 f1_keywords:
 - winwlx/WlxSetOption
 dev_langs:

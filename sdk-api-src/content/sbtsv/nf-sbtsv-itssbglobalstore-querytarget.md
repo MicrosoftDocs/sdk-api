@@ -7,7 +7,6 @@ tech.root: TermServ
 ms.assetid: e89ed692-66e5-49ed-b5d9-69eefeeae66f
 ms.date: 12/05/2018
 ms.keywords: ITsSbGlobalStore interface [Remote Desktop Services],QueryTarget method, ITsSbGlobalStore.QueryTarget, ITsSbGlobalStore::QueryTarget, QueryTarget, QueryTarget method [Remote Desktop Services], QueryTarget method [Remote Desktop Services],ITsSbGlobalStore interface, sbtsv/ITsSbGlobalStore::QueryTarget, termserv.itssbglobalstore_querytarget
-ms.topic: method
 f1_keywords:
 - sbtsv/ITsSbGlobalStore.QueryTarget
 dev_langs:

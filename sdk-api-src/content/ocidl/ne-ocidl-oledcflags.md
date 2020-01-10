@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: f8953376-2cbb-4f03-8216-2727d6a9f128
 ms.date: 12/05/2018
 ms.keywords: OLEDCFLAGS, OLEDCFLAGS enumeration [COM], OLEDC_NODRAW, OLEDC_OFFSCREEN, OLEDC_PAINTBKGND, _ole_OLEDCFLAGS, com.oledcflags, ocidl/OLEDCFLAGS, ocidl/OLEDC_NODRAW, ocidl/OLEDC_OFFSCREEN, ocidl/OLEDC_PAINTBKGND
-ms.topic: enum
 f1_keywords:
 - ocidl/OLEDCFLAGS
 dev_langs:

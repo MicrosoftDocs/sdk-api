@@ -7,7 +7,6 @@ tech.root: WinAuto
 ms.assetid: d401b971-441e-4a09-9b9a-6725a00154cb
 ms.date: 12/05/2018
 ms.keywords: UiaPropertyChangedEventArgs, UiaPropertyChangedEventArgs structure [Windows Accessibility], uiauto.uiauto_UiaPropertyChangedEventArgsStruct, uiauto_UiaPropertyChangedEventArgsStruct, uiautomationcoreapi/UiaPropertyChangedEventArgs, winauto.uiauto_UiaPropertyChangedEventArgsStruct
-ms.topic: struct
 f1_keywords:
 - uiautomationcoreapi/UiaPropertyChangedEventArgs
 dev_langs:

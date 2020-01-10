@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: c66dcc0f-733a-44a2-942f-f518b752d014
 ms.date: 12/05/2018
 ms.keywords: EnumInputContext, EnumInputContext callback function [Internationalization for Windows Applications], IMCENUMPROC, IMCENUMPROC callback, _win32_EnumInputContext, imm/EnumInputContext, intl.enuminputcontext
-ms.topic: callback
 f1_keywords:
 - imm/EnumInputContext
 dev_langs:

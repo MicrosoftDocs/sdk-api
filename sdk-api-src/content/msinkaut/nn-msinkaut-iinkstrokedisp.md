@@ -7,7 +7,6 @@ tech.root: tablet
 ms.assetid: b18464ba-feb6-4bb5-9fcf-82feff9bcce4
 ms.date: 12/05/2018
 ms.keywords: IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], IInkStrokeDisp interface [Tablet PC],described, b18464ba-feb6-4bb5-9fcf-82feff9bcce4, msinkaut/IInkStrokeDisp, tablet.iinkstrokedisp
-ms.topic: interface
 f1_keywords:
 - msinkaut/IInkStrokeDisp
 dev_langs:

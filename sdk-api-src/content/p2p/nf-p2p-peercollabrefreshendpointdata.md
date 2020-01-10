@@ -7,7 +7,6 @@ tech.root: P2PSdk
 ms.assetid: ba841da4-de7f-4288-84b7-a06370b55e3c
 ms.date: 12/05/2018
 ms.keywords: PeerCollabRefreshEndpointData, PeerCollabRefreshEndpointData function [Peer Networking], p2p.peercollabrefreshendpointdata, p2p/PeerCollabRefreshEndpointData
-ms.topic: function
 f1_keywords:
 - p2p/PeerCollabRefreshEndpointData
 dev_langs:

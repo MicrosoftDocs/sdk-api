@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: F0F5D099-6290-485F-AD68-101CD57E8656
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager2 interface [Windows Animation],ScheduleTransition method, IUIAnimationManager2.ScheduleTransition, IUIAnimationManager2::ScheduleTransition, ScheduleTransition, ScheduleTransition method [Windows Animation], ScheduleTransition method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_scheduletransition, uianimation/IUIAnimationManager2::ScheduleTransition
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationManager2.ScheduleTransition
 dev_langs:

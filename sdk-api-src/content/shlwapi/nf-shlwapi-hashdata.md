@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: 7b42b3ae-c021-49be-b5a7-d3bc0a5d346a
 ms.date: 12/05/2018
 ms.keywords: HashData, HashData function [Windows Shell], _win32_HashData, shell.HashData, shlwapi/HashData
-ms.topic: function
 f1_keywords:
 - shlwapi/HashData
 dev_langs:

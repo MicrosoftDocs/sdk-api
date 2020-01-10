@@ -7,7 +7,6 @@ tech.root: SNMP
 ms.assetid: 95f7afad-241c-473a-8041-3d1642f9d1fe
 ms.date: 12/05/2018
 ms.keywords: SnmpGetTimeout, SnmpGetTimeout function [SNMP], _snmp_snmpgettimeout, snmp.snmpgettimeout, winsnmp/SnmpGetTimeout
-ms.topic: function
 f1_keywords:
 - winsnmp/SnmpGetTimeout
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: WinRT
 ms.assetid: FF4FEA9F-3FB0-4D56-BE9A-E8E2CB13D718
 ms.date: 12/05/2018
 ms.keywords: RoGetMetaDataFile, RoGetMetaDataFile function [Windows Runtime], rometadataresolution/RoGetMetaDataFile, winrt.rogetmetadatafile
-ms.topic: function
 f1_keywords:
 - rometadataresolution/RoGetMetaDataFile
 dev_langs:

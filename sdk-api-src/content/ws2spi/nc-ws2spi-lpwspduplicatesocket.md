@@ -4,7 +4,6 @@ title: LPWSPDUPLICATESOCKET
 description: The LPWSPDuplicateSocket function returns a WSAPROTOCOL_INFO structure that can be used to create a new socket descriptor for a shared socket.
 ms.date: 9/12/2019
 ms.keywords: LPWSPDUPLICATESOCKET
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: function

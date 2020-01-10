@@ -7,7 +7,6 @@ tech.root: dxmath
 ms.assetid: 9ee7c969-064a-4b66-8114-ab97a920b4fc
 ms.date: 05/06/2019
 ms.keywords: XMHALF4, XMHALF4 constructor [DirectX Math Support APIs], XMHALF4 constructor [DirectX Math Support APIs],XMHALF4 structure, XMHALF4 structure [DirectX Math Support APIs],XMHALF4 constructor, XMHALF4.XMHALF4, XMHALF4.XMHALF4(), XMHALF4.XMHALF4(const HALF), XMHALF4::XMHALF4, XMHALF4::XMHALF4(const HALF), dxmath.xmhalf4_ctor_1
-ms.topic: method
 f1_keywords:
 - directxpackedvector/XMHALF4.XMHALF4
 dev_langs:

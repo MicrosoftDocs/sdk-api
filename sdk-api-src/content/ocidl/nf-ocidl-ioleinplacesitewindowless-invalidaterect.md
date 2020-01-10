@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 034025f5-f9cd-4ad3-9b98-216b373cd10f
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],InvalidateRect method, IOleInPlaceSiteWindowless.InvalidateRect, IOleInPlaceSiteWindowless::InvalidateRect, InvalidateRect, InvalidateRect method [COM], InvalidateRect method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_invalidaterect, com.ioleinplacesitewindowless_invalidaterect, ocidl/IOleInPlaceSiteWindowless::InvalidateRect
-ms.topic: method
 f1_keywords:
 - ocidl/IOleInPlaceSiteWindowless.InvalidateRect
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\dialogboxparam.htm
 ms.date: 12/05/2018
 ms.keywords: DialogBoxParam, DialogBoxParam function [Dialog Boxes], DialogBoxParamA, DialogBoxParamW, _win32_DialogBoxParam, _win32_dialogboxparam_cpp, dlgbox.dialogboxparam, winui._win32_dialogboxparam, winuser/DialogBoxParam, winuser/DialogBoxParamA, winuser/DialogBoxParamW
-ms.topic: function
 f1_keywords:
 - winuser/DialogBoxParam
 dev_langs:

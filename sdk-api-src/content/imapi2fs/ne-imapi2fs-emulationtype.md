@@ -7,7 +7,6 @@ tech.root: imapi
 ms.assetid: 53e87d6d-9547-4437-9548-652cfcbd308e
 ms.date: 12/05/2018
 ms.keywords: Emulation12MFloppy, Emulation144MFloppy, Emulation288MFloppy, EmulationHardDisk, EmulationNone, EmulationType, EmulationType enumeration [IMAPI], imapi.emulationtype, imapi2fs/Emulation12MFloppy, imapi2fs/Emulation144MFloppy, imapi2fs/Emulation288MFloppy, imapi2fs/EmulationHardDisk, imapi2fs/EmulationNone, imapi2fs/EmulationType
-ms.topic: enum
 f1_keywords:
 - imapi2fs/EmulationType
 dev_langs:

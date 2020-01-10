@@ -7,7 +7,6 @@ tech.root: shell
 ms.assetid: a5a44e74-494a-4c9b-8bf3-85c6093b2c0e
 ms.date: 12/05/2018
 ms.keywords: IPublishedApp, IPublishedApp interface [Windows Shell], IPublishedApp interface [Windows Shell],described, inet_IPublishedApp, shappmgr/IPublishedApp, shell.IPublishedApp
-ms.topic: interface
 f1_keywords:
 - shappmgr/IPublishedApp
 dev_langs:

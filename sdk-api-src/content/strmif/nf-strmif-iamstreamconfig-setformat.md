@@ -7,7 +7,6 @@ tech.root: DirectShow
 ms.assetid: 8d64e5b6-e8fa-4678-92d4-3cbf92e13ddf
 ms.date: 12/05/2018
 ms.keywords: IAMStreamConfig interface [DirectShow],SetFormat method, IAMStreamConfig.SetFormat, IAMStreamConfig::SetFormat, IAMStreamConfigSetFormat, SetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow],IAMStreamConfig interface, dshow.iamstreamconfig_setformat, strmif/IAMStreamConfig::SetFormat
-ms.topic: method
 f1_keywords:
 - strmif/IAMStreamConfig.SetFormat
 dev_langs:

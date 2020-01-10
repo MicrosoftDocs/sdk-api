@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 0cb74adc-e192-4ae5-9267-02c79e301681
 ms.date: 12/05/2018
 ms.keywords: CoGetStandardMarshal, CoGetStandardMarshal function [COM], _com_CoGetStandardMarshal, com.cogetstandardmarshal, combaseapi/CoGetStandardMarshal
-ms.topic: function
 f1_keywords:
 - combaseapi/CoGetStandardMarshal
 dev_langs:

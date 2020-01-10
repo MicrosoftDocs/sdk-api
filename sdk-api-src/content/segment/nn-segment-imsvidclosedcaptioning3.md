@@ -7,7 +7,6 @@ tech.root: mstv
 ms.assetid: 0b440d5a-05f0-4499-8398-2a8563f0f935
 ms.date: 12/05/2018
 ms.keywords: IMSVidClosedCaptioning3, IMSVidClosedCaptioning3 interface [Microsoft TV Technologies], IMSVidClosedCaptioning3 interface [Microsoft TV Technologies],described, IMSVidClosedCaptioning3Interface, mstv.imsvidclosedcaptioning3, segment/IMSVidClosedCaptioning3
-ms.topic: interface
 f1_keywords:
 - segment/IMSVidClosedCaptioning3
 dev_langs:

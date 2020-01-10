@@ -7,7 +7,6 @@ tech.root: Intl
 ms.assetid: 24131b04-870a-4841-b9cd-7a09497bd2e6
 ms.date: 12/05/2018
 ms.keywords: FALSE, SCRIPT_LOGATTR, SCRIPT_LOGATTR structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_LOGATTR_str, intl.script_logattr, usp10/SCRIPT_LOGATTR
-ms.topic: struct
 f1_keywords:
 - usp10/SCRIPT_LOGATTR
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 3bcce52c-d29a-423c-ae76-eb88cbe8c8df
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],Shutdown method, IUIAnimationManager.Shutdown, IUIAnimationManager::Shutdown, Shutdown, Shutdown method [Windows Animation], Shutdown method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_shutdown, uianimation/IUIAnimationManager::Shutdown
-ms.topic: method
 f1_keywords:
 - uianimation/IUIAnimationManager.Shutdown
 dev_langs:

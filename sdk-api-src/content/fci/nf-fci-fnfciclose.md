@@ -7,7 +7,6 @@ tech.root: DevNotes
 ms.assetid: c4edf6ca-0b16-4e30-933b-934f8930c6d6
 ms.date: 12/05/2018
 ms.keywords: FNFCICLOSE, FNFCICLOSE macro [Windows API], fci/FNFCICLOSE, winprog.fnfciclose
-ms.topic: macro
 f1_keywords:
 - fci/FNFCICLOSE
 dev_langs:

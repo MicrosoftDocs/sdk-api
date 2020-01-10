@@ -7,7 +7,6 @@ tech.root: taskschd
 ms.assetid: 46a4cd60-df23-4109-8a86-b7755a6922dd
 ms.date: 12/05/2018
 ms.keywords: IExecAction, IExecAction interface [Task Scheduler], IExecAction interface [Task Scheduler],described, execute action [Task Scheduler],interface, taskschd.iexecaction, taskschd/IExecAction
-ms.topic: interface
 f1_keywords:
 - taskschd/IExecAction
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: com
 ms.assetid: 3251c9b1-e076-4bc3-a995-1b0d275929a0
 ms.date: 12/05/2018
 ms.keywords: GetStackSize, GetStackSize method [COM], GetStackSize method [COM],ICallIndirect interface, ICallIndirect interface [COM],GetStackSize method, ICallIndirect.GetStackSize, ICallIndirect::GetStackSize, _com_icallindirect_getstacksize, callobj/ICallIndirect::GetStackSize, com.icallindirect_getstacksize
-ms.topic: method
 f1_keywords:
 - callobj/ICallIndirect.GetStackSize
 dev_langs:

@@ -7,7 +7,6 @@ tech.root: medfound
 ms.assetid: 0dbafd3f-315b-4135-aecd-ad46f2c19886
 ms.date: 12/05/2018
 ms.keywords: 0dbafd3f-315b-4135-aecd-ad46f2c19886, IMFTopology interface [Media Foundation],RemoveNode method, IMFTopology.RemoveNode, IMFTopology::RemoveNode, RemoveNode, RemoveNode method [Media Foundation], RemoveNode method [Media Foundation],IMFTopology interface, mf.imftopology_removenode, mfidl/IMFTopology::RemoveNode
-ms.topic: method
 f1_keywords:
 - mfidl/IMFTopology.RemoveNode
 dev_langs:

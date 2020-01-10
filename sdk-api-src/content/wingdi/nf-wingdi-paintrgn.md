@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 7656fb67-d865-459e-b379-4f2e44c76fd0
 ms.date: 12/05/2018
 ms.keywords: PaintRgn, PaintRgn function [Windows GDI], _win32_PaintRgn, gdi.paintrgn, wingdi/PaintRgn
-ms.topic: function
 f1_keywords:
 - wingdi/PaintRgn
 dev_langs:

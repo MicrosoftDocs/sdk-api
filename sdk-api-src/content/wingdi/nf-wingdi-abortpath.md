@@ -7,7 +7,6 @@ tech.root: gdi
 ms.assetid: 49299a11-910b-40e0-b02e-80a244cfc978
 ms.date: 12/05/2018
 ms.keywords: AbortPath, AbortPath function [Windows GDI], _win32_AbortPath, gdi.abortpath, wingdi/AbortPath
-ms.topic: function
 f1_keywords:
 - wingdi/AbortPath
 dev_langs:

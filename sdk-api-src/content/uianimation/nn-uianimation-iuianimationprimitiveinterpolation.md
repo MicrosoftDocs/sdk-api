@@ -7,7 +7,6 @@ tech.root: UIAnimation
 ms.assetid: 6EAE7874-1103-4D2E-A325-37E5A95705F5
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationPrimitiveInterpolation, IUIAnimationPrimitiveInterpolation interface [Windows Animation], IUIAnimationPrimitiveInterpolation interface [Windows Animation],described, uianimation.iuianimationprimitiveinterpolation, uianimation/IUIAnimationPrimitiveInterpolation
-ms.topic: interface
 f1_keywords:
 - uianimation/IUIAnimationPrimitiveInterpolation
 dev_langs:

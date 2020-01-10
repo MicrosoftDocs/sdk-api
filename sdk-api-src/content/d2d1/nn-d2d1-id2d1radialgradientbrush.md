@@ -7,7 +7,6 @@ tech.root: Direct2D
 ms.assetid: 21ed2286-e4df-4b77-ba31-e5d5927e16f5
 ms.date: 12/05/2018
 ms.keywords: ID2D1RadialGradientBrush, ID2D1RadialGradientBrush interface [Direct2D], ID2D1RadialGradientBrush interface [Direct2D],described, d2d1/ID2D1RadialGradientBrush, direct2d.ID2D1RadialGradientBrush
-ms.topic: interface
 f1_keywords:
 - d2d1/ID2D1RadialGradientBrush
 dev_langs:
